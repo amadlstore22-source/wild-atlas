@@ -9,9 +9,14 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 const MILESTONES = [
   {
-    year: "2012",
-    title: "First Steps on Toubkal",
-    body: "Two guides from Imlil began leading small trekking groups to the Toubkal summit — no website, no office, just word of mouth from other hikers at the refuge.",
+    year: "1980s",
+    title: "A Father's Footsteps",
+    body: "Our father was among the first generation of licensed Berber mountain guides in the High Atlas. Long before tourism existed in the region, he was leading small groups through Toubkal, Ourika, and the Aït Benhaddou valley — building trust with travellers one route at a time.",
+  },
+  {
+    year: "2010",
+    title: "The Next Generation Takes Over",
+    body: "We grew up on these trails. In 2010, we formalised what had always been a family calling — registering officially and building on everything our father taught us, while expanding the range of routes and the standard of service.",
   },
   {
     year: "2015",
@@ -21,17 +26,12 @@ const MILESTONES = [
   {
     year: "2018",
     title: "Agadir Base Established",
-    body: "Demand from the Atlantic coast led us to set up a second base in Agadir — opening the Anti-Atlas, Paradise Valley, and Souss-Massa routes to travellers who didn't want to start from Marrakech.",
-  },
-  {
-    year: "2021",
-    title: "Certified & Recognised",
-    body: "All guides completed official Moroccan Ministry of Tourism certification. We formalised our community-sharing agreements, ensuring a fixed percentage of every booking goes directly to the villages we visit.",
+    body: "Demand from the Atlantic coast led us to open a second base in Agadir — unlocking the Anti-Atlas, Paradise Valley, and Souss-Massa routes for travellers who didn't want to start from Marrakech.",
   },
   {
     year: "Now",
     title: `${SITE.tourCount} Routes, One Standard`,
-    body: `Today we run ${SITE.tourCount} tours across six categories and six languages — but the principle hasn't changed. Every route is one we'd take our own families on.`,
+    body: `Today we run ${SITE.tourCount} tours across six categories and six languages. The routes have grown. The standard hasn't moved. Every trip is one we'd take our own families on — because many of them, we already have.`,
   },
 ];
 
@@ -103,16 +103,16 @@ export default function AboutStory({ lang }: { lang: Locale }) {
 
               <div className="space-y-5 text-charcoal/65 leading-relaxed">
                 <p>
-                  Marrakech Eco Tours didn&apos;t begin with a business plan. It began with two guides from Imlil village who had been leading friends and family through the High Atlas for years — long before it occurred to anyone to charge for it.
+                  This didn&apos;t start with us. Our father was one of the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned by walking, and he taught us the same way.
                 </p>
                 <p>
-                  When travellers started asking to come along, the answer was simple: bring good gear, know the route, treat the mountain with respect. Nothing has changed since then except the number of people we can take with us.
+                  We grew up on these trails. In 2010, we took over and built on what he gave us — adding routes, adding rigor, building a proper operation. But the principle was already there: know the land deeply, treat every guest like family, never cut corners where safety or honesty is concerned.
                 </p>
                 <p>
-                  Over the past {SITE.experienceYears} years we&apos;ve expanded from Toubkal to the Sahara, from Marrakech to Agadir, from one guide to a full team of licensed professionals — but every single one of us grew up walking the routes we now lead.
+                  Over the years since, we&apos;ve expanded from Toubkal to the Sahara, from Marrakech to Agadir, from one guide to a full team of licensed professionals. Every single one of us grew up walking the routes we now lead.
                 </p>
                 <p className="font-semibold text-charcoal/80">
-                  That&apos;s not a marketing line. It&apos;s just who we are.
+                  That&apos;s not a marketing line. It&apos;s a family legacy.
                 </p>
               </div>
             </motion.div>

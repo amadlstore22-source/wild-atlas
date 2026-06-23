@@ -474,7 +474,7 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     excerpt:
       "Paradise Valley is one of Morocco's best-kept secrets — a lush palm gorge with natural swimming pools just 35 km from Agadir. Here is how to get there, what to bring, and when to go.",
     heroImage:
-      "https://images.unsplash.com/photo-1730219625244-5938a698780d?w=1600&q=85",
+      "https://images.unsplash.com/photo-1531761064703-a3c61c9c6bb1?w=1600&q=85",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -999,7 +999,7 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     excerpt:
       "Taghazout, 20 km north of Agadir, has become one of the world's premier surf destinations. Consistent Atlantic swell, warm water, cheap living, and extraordinary scenery. Here is everything you need to know.",
     heroImage:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=85",
+      "https://images.unsplash.com/photo-1548695607-9c73430fce18?w=1600&q=85",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1085,7 +1085,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     excerpt:
       "The Anti-Atlas is older than the Himalayas, less visited than the High Atlas, and arguably more beautiful. Here is the guide to trekking Morocco's most under-explored mountain range.",
     heroImage:
-      "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=1600&q=85",
+      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1600&q=85",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1153,7 +1153,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     excerpt:
       "Fes el-Bali is the most complete surviving medieval city on earth — a UNESCO World Heritage labyrinth of 9,400 alleyways, 785 mosques, and a tannery unchanged since the 12th century. Here is how to do it justice.",
     heroImage:
-      "https://images.unsplash.com/photo-1539020140153-e479b8f22986?w=1600&q=85",
+      "https://images.unsplash.com/photo-1582650949431-deeaffe75b66?w=1600&q=85",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",

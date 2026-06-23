@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
+import CategoryAnimation from "@/components/sections/CategoryAnimation";
 import { CATEGORIES, TOURS } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -73,6 +74,9 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
               <div className="absolute inset-0 bg-gradient-to-r from-forest/25 to-transparent" />
+              <div className="absolute top-0 right-0 w-36 h-36 pointer-events-none opacity-80">
+                <CategoryAnimation id={hero.id} />
+              </div>
               <div className="absolute inset-0 p-7 flex flex-col justify-end">
                 <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-2">
                   {countByCategory[hero.id] ?? 0} {dict.nav.tours.toLowerCase()}
@@ -112,6 +116,9 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+                <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none opacity-80">
+                  <CategoryAnimation id={tall.id} />
+                </div>
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
                   <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-1.5">
                     {countByCategory[tall.id] ?? 0} {dict.nav.tours.toLowerCase()}
@@ -151,6 +158,9 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+                <div className="absolute top-0 right-0 w-24 h-24 pointer-events-none opacity-80">
+                  <CategoryAnimation id={cat.id} />
+                </div>
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
                   <div className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-1">
                     {countByCategory[cat.id] ?? 0} {dict.nav.tours.toLowerCase()}

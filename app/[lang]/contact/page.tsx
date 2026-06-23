@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import ContactForm from "@/components/sections/ContactForm";
-import { Envelope, Phone, MapPin, Clock } from "@phosphor-icons/react/dist/ssr";
+import { Envelope, Phone, MapPin, Clock, WhatsappLogo, ChatCircleText } from "@phosphor-icons/react/dist/ssr";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { SITE } from "@/lib/constants";
 type LangParams = { params: Promise<{ lang: string }> };
 
 const FAQ = [
@@ -45,26 +47,48 @@ export default async function ContactPage({ params }: LangParams) {
 
   return (
     <div className="min-h-screen moroccan-bg">
-      <div className="relative h-[55vh] min-h-[380px] flex items-end">
+      {/* ── Hero ── */}
+      <div className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1539020140153-e479b8b97e3b?w=1920&q=80"
-          alt="Marrakech medina rooftops and the Atlas Mountains"
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+          alt="Marrakech rooftop terrace with Atlas Mountains view at sunset"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
-          <h1 className="font-serif text-white text-6xl lg:text-7xl font-bold leading-tight">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
+          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">Get in Touch</p>
+          <h1 className="font-serif text-white font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
             {dict.contact.pageTitle}
           </h1>
-          <p className="text-white/70 mt-3 text-xl">{dict.contact.pageSubtitle}</p>
+          <p className="text-white/65 text-lg max-w-xl leading-relaxed">{dict.contact.pageSubtitle}</p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="space-y-6">
+
+          {/* ── Sidebar ── */}
+          <div className="space-y-4">
+            {/* WhatsApp CTA — primary action */}
+            <a
+              href={`https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-5 bg-[#25D366] rounded-2xl text-white hover:bg-[#1ebe5a] transition-colors shadow-lg shadow-[#25D366]/20"
+            >
+              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                <WhatsappLogo className="w-5 h-5 text-white" weight="fill" />
+              </div>
+              <div>
+                <div className="text-xs font-bold uppercase tracking-widest opacity-75 mb-0.5">Fastest Reply</div>
+                <div className="font-bold text-base">Chat on WhatsApp</div>
+                <div className="text-white/70 text-xs mt-0.5">Typically replies within {SITE.responseHours}h</div>
+              </div>
+            </a>
+
+            {/* Contact info cards */}
             {CONTACT_INFO.map((item) => (
               <div key={item.label} className="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm">
                 <div className="w-10 h-10 rounded-full bg-forest/10 flex items-center justify-center shrink-0">
@@ -75,7 +99,7 @@ export default async function ContactPage({ params }: LangParams) {
                     {item.label}
                   </div>
                   {item.href ? (
-                    <a href={item.href} className="font-medium text-charcoal hover:text-sunset transition-colors">
+                    <a href={item.href} className="font-medium text-charcoal hover:text-forest transition-colors">
                       {item.value}
                     </a>
                   ) : (
@@ -84,8 +108,18 @@ export default async function ContactPage({ params }: LangParams) {
                 </div>
               </div>
             ))}
+
+            {/* Custom trip nudge */}
+            <div className="p-5 bg-forest/5 border border-forest/15 rounded-2xl">
+              <ChatCircleText className="w-6 h-6 text-forest mb-3" weight="duotone" />
+              <p className="text-charcoal font-semibold text-sm mb-1">Planning something custom?</p>
+              <p className="text-charcoal/55 text-xs leading-relaxed">
+                Tell us your dates, group size, and what matters most — we&apos;ll build an itinerary around you.
+              </p>
+            </div>
           </div>
 
+          {/* ── Form ── */}
           <div className="lg:col-span-2">
             <ContactForm />
           </div>

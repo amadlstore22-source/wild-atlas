@@ -83,8 +83,8 @@ export default async function AboutPage({ params }: LangParams) {
                 num: "01",
                 title: "Rooted in Local Knowledge",
                 body: "Every guide on our team was born or raised in Morocco's mountain communities. We don't hire staff from travel agencies — we work with the people who actually know these mountains, valleys, and deserts by name.",
-                image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
-                alt: "Atlas mountain trail with a Berber guide",
+                image: "/images/guides-local-knowledge.jpeg",
+                alt: "Berber guides preparing a meal at a mountain camp in the High Atlas",
               },
               {
                 num: "02",

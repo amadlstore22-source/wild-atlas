@@ -1,6 +1,8 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Clock, Users, Star, MapPin } from "@phosphor-icons/react/dist/ssr";
+import { motion } from "motion/react";
+import { Clock, Users, Star, MapPin } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { DIFFICULTY_COLORS } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -9,6 +11,8 @@ const ORIGIN_LABEL: Record<string, string> = {
   marrakech: "Marrakech",
   agadir: "Agadir",
 };
+
+const ease = [0.22, 1, 0.36, 1] as const;
 
 function StarRating({ rating }: { rating: number }) {
   const full = Math.floor(rating);
@@ -37,28 +41,43 @@ interface Props {
   lang?: Locale;
   dict?: Dictionary;
   featured?: boolean;
+  delay?: number;
 }
 
-export default function TourCard({ tour, lang = "en", dict, featured = false }: Props) {
+export default function TourCard({ tour, lang = "en", dict, featured = false, delay = 0 }: Props) {
   const fromLabel = dict?.common.from ?? "From";
   const perPersonLabel = dict?.common.perPerson ?? "/ person";
   const viewTourLabel = dict?.featuredTours.viewTour ?? "View Tour";
 
   if (featured) {
     return (
-      <article className="group relative overflow-hidden rounded-2xl bg-charcoal reveal-scale row-span-2 flex flex-col min-h-[480px]">
-        <Image
-          src={tour.heroImage}
-          alt={tour.title}
-          fill
-          className="object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out opacity-80"
-          sizes="(max-width: 1024px) 100vw, 40vw"
-          priority
-        />
+      <motion.article
+        className="group relative overflow-hidden rounded-2xl bg-charcoal row-span-2 flex flex-col min-h-[480px]"
+        initial={{ opacity: 0, y: 32, scale: 0.97 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        viewport={{ once: true, amount: 0.1 }}
+        transition={{ duration: 0.7, ease, delay }}
+        whileHover={{ y: -4 }}
+      >
+        <div className="absolute inset-0 overflow-hidden">
+          <motion.div
+            className="absolute inset-0"
+            whileHover={{ scale: 1.04 }}
+            transition={{ duration: 0.7, ease }}
+          >
+            <Image
+              src={tour.heroImage}
+              alt={tour.title}
+              fill
+              className="object-cover opacity-80"
+              sizes="(max-width: 1024px) 100vw, 40vw"
+              priority
+            />
+          </motion.div>
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
         <div className="card-shimmer-wrap" />
 
-        {/* Badges */}
         <div className="absolute top-4 left-4 right-4 flex items-start justify-between gap-2 z-10">
           <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${
             tour.tourType === "private" ? "bg-sunset text-white" : "bg-white/90 text-forest"
@@ -70,7 +89,6 @@ export default function TourCard({ tour, lang = "en", dict, featured = false }: 
           </span>
         </div>
 
-        {/* Content at bottom */}
         <div className="absolute inset-x-0 bottom-0 p-6 z-10">
           <div className="flex items-center gap-2 mb-2">
             <StarRating rating={tour.rating} />
@@ -99,20 +117,33 @@ export default function TourCard({ tour, lang = "en", dict, featured = false }: 
             </Link>
           </div>
         </div>
-      </article>
+      </motion.article>
     );
   }
 
   return (
-    <article className="group bg-white rounded-2xl overflow-hidden border border-sand-dark hover:border-forest/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 flex flex-col reveal-scale">
+    <motion.article
+      className="group bg-white rounded-2xl overflow-hidden border border-sand-dark hover:border-forest/20 flex flex-col"
+      initial={{ opacity: 0, y: 28, scale: 0.97 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, amount: 0.1 }}
+      transition={{ duration: 0.6, ease, delay }}
+      whileHover={{ y: -6, boxShadow: "0 20px 40px rgba(0,0,0,0.12)" }}
+    >
       <div className="relative h-52 overflow-hidden shrink-0">
-        <Image
-          src={tour.heroImage}
-          alt={tour.title}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
+        <motion.div
+          className="absolute inset-0"
+          whileHover={{ scale: 1.06 }}
+          transition={{ duration: 0.55, ease }}
+        >
+          <Image
+            src={tour.heroImage}
+            alt={tour.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </motion.div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
         <div className="card-shimmer-wrap" />
 
@@ -176,6 +207,6 @@ export default function TourCard({ tour, lang = "en", dict, featured = false }: 
           </Link>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }

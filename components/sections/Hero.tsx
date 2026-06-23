@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { MagnifyingGlass, ArrowRight } from "@phosphor-icons/react";
+import { motion } from "motion/react";
 import { CATEGORIES } from "@/lib/tours";
 import { SITE } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -12,6 +13,8 @@ interface Props {
   lang: Locale;
   dict: Dictionary;
 }
+
+const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function Hero({ lang, dict }: Props) {
   const [search, setSearch] = useState("");
@@ -34,7 +37,7 @@ export default function Hero({ lang, dict }: Props) {
 
   return (
     <section className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
-      {/* Full-bleed background — video if provided, else Ken Burns still */}
+      {/* Full-bleed background */}
       <div className="absolute inset-0 overflow-hidden">
         {SITE.heroVideo ? (
           <video
@@ -60,32 +63,44 @@ export default function Hero({ lang, dict }: Props) {
             />
           </div>
         )}
-        {/* Left-side gradient for text legibility, open right */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
       </div>
 
-      {/* Content — left-aligned asymmetric layout */}
+      {/* Content */}
       <div className="relative z-10 min-h-[100dvh] flex flex-col justify-end pb-16 pt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
 
             {/* Headline */}
-            <h1 className="font-serif text-white font-bold leading-[1.05] mb-5"
-                style={{ fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)" }}>
+            <motion.h1
+              className="font-serif text-white font-bold leading-[1.05] mb-5"
+              style={{ fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)" }}
+              initial={{ opacity: 0, y: 32 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease, delay: 0.1 }}
+            >
               {dict.hero.headline1}
               <br />
               <span className="text-sunset italic">{dict.hero.headline2}</span>
-            </h1>
+            </motion.h1>
 
-            <p className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg">
+            <motion.p
+              className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease, delay: 0.25 }}
+            >
               {dict.hero.subheadline}
-            </p>
+            </motion.p>
 
             {/* Search bar */}
-            <form
+            <motion.form
               onSubmit={handleSearch}
               className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-1.5 mb-6 flex flex-col sm:flex-row gap-1.5 max-w-xl shadow-2xl"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease, delay: 0.4 }}
             >
               <div className="relative sm:w-44 shrink-0">
                 <select
@@ -120,23 +135,39 @@ export default function Hero({ lang, dict }: Props) {
               >
                 {dict.hero.searchBtn}
               </button>
-            </form>
+            </motion.form>
 
             {/* Category pills */}
-            <div className="flex flex-wrap gap-2 mb-10">
-              {CATEGORIES.slice(0, 5).map((cat) => (
-                <Link
+            <motion.div
+              className="flex flex-wrap gap-2 mb-10"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease, delay: 0.55 }}
+            >
+              {CATEGORIES.slice(0, 5).map((cat, i) => (
+                <motion.div
                   key={cat.id}
-                  href={`/${lang}/categories/${cat.id}`}
-                  className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/15 text-white/85 text-xs font-medium hover:bg-white/18 hover:border-white/30 active:scale-[0.97] transition-all"
+                  initial={{ opacity: 0, scale: 0.88 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.4, ease, delay: 0.6 + i * 0.07 }}
                 >
-                  {cat.label}
-                </Link>
+                  <Link
+                    href={`/${lang}/categories/${cat.id}`}
+                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/15 text-white/85 text-xs font-medium hover:bg-white/18 hover:border-white/30 active:scale-[0.97] transition-all"
+                  >
+                    {cat.label}
+                  </Link>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-3 items-center">
+            <motion.div
+              className="flex flex-wrap gap-3 items-center"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease, delay: 0.75 }}
+            >
               <Link
                 href={`/${lang}/tours`}
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-sunset text-white font-bold text-sm hover:bg-orange-500 active:scale-[0.98] transition-all shadow-xl shadow-sunset/25"
@@ -150,23 +181,34 @@ export default function Hero({ lang, dict }: Props) {
               >
                 {dict.hero.planCustom}
               </Link>
-            </div>
+            </motion.div>
           </div>
 
-          {/* Bottom trust strip — anchored to bottom */}
-          <div className="mt-14 pt-6 border-t border-white/10 flex flex-wrap gap-x-8 gap-y-3">
+          {/* Trust strip */}
+          <motion.div
+            className="mt-14 pt-6 border-t border-white/10 flex flex-wrap gap-x-8 gap-y-3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, ease, delay: 1.0 }}
+          >
             {[
               { value: `${SITE.tourCount}+`, label: "Adventures" },
               { value: SITE.clientCount, label: "Travellers" },
               { value: `${SITE.countryCount}+`, label: "Countries" },
               { value: "5.0", label: "Star Rating" },
-            ].map((s) => (
-              <div key={s.label} className="flex items-baseline gap-2">
+            ].map((s, i) => (
+              <motion.div
+                key={s.label}
+                className="flex items-baseline gap-2"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease, delay: 1.05 + i * 0.08 }}
+              >
                 <span className="font-serif text-white text-xl font-bold">{s.value}</span>
                 <span className="text-white/45 text-xs font-medium">{s.label}</span>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

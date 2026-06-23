@@ -231,10 +231,6 @@ h3 { font-weight: 600; }
    ============================================================ */
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal-up,
-  .reveal-fade,
-  .reveal-scale,
-  .stagger-child,
   .whatsapp-pulse::before,
   .card-shimmer-wrap::after,
   .price-beacon,
@@ -253,39 +249,20 @@ h3 { font-weight: 600; }
 
 /* ============================================================
    SCROLL-DRIVEN REVEAL ANIMATIONS
-   Chrome/Edge 115+; degrades gracefully elsewhere.
+   Legacy CSS-only fallback classes — kept as no-ops so any
+   remaining className references don't break layout. Real
+   reveal animations are driven by AnimateInView (motion/react)
+   which works on every browser including iOS Safari.
    ============================================================ */
 
-.reveal-up {
-  opacity: 0;
-  animation: reveal-slide-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-timeline: view();
-  animation-range: entry 0% cover 28%;
-}
-
-.reveal-fade {
-  opacity: 0;
-  animation: fade-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-timeline: view();
-  animation-range: entry 5% cover 30%;
-}
-
+.reveal-up,
+.reveal-fade,
 .reveal-scale {
-  opacity: 0;
-  animation: reveal-scale-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-timeline: view();
-  animation-range: entry 0% cover 25%;
+  /* intentionally empty — AnimateInView handles reveals */
 }
 
-/* Stagger children within a scroll-reveal parent */
-.stagger-child:nth-child(1) { animation-delay: 0ms; }
-.stagger-child:nth-child(2) { animation-delay: 75ms; }
-.stagger-child:nth-child(3) { animation-delay: 150ms; }
-.stagger-child:nth-child(4) { animation-delay: 225ms; }
-.stagger-child:nth-child(5) { animation-delay: 300ms; }
-.stagger-child:nth-child(6) { animation-delay: 375ms; }
-.stagger-child:nth-child(7) { animation-delay: 450ms; }
-.stagger-child:nth-child(8) { animation-delay: 525ms; }
+/* Stagger helpers — also handled in JS now, kept for compat */
+.stagger-child { /* no-op */ }
 
 /* ============================================================
    TOUR CARD MICRO-ANIMATIONS

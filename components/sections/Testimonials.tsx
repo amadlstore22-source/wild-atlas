@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
 import { Star, ArrowLeft, ArrowRight } from "@phosphor-icons/react";
+import { motion, AnimatePresence } from "motion/react";
+import AnimateInView from "@/components/ui/AnimateInView";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 const REVIEWS = [
@@ -58,12 +60,22 @@ const REVIEWS = [
 
 interface Props { dict: Dictionary }
 
+const ease = [0.22, 1, 0.36, 1] as const;
+
 export default function Testimonials({ dict }: Props) {
   const [idx, setIdx] = useState(0);
+  const [direction, setDirection] = useState(1);
   const r = REVIEWS[idx];
 
-  const prev = useCallback(() => setIdx((i) => (i - 1 + REVIEWS.length) % REVIEWS.length), []);
-  const next = useCallback(() => setIdx((i) => (i + 1) % REVIEWS.length), []);
+  const prev = useCallback(() => {
+    setDirection(-1);
+    setIdx((i) => (i - 1 + REVIEWS.length) % REVIEWS.length);
+  }, []);
+
+  const next = useCallback(() => {
+    setDirection(1);
+    setIdx((i) => (i + 1) % REVIEWS.length);
+  }, []);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -78,10 +90,9 @@ export default function Testimonials({ dict }: Props) {
     <section className="py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Section header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
+        <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
           <div>
-            <h2 className="font-serif text-charcoal font-bold reveal-up"
+            <h2 className="font-serif text-charcoal font-bold"
                 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
               {dict.testimonials.title}
             </h2>
@@ -89,40 +100,49 @@ export default function Testimonials({ dict }: Props) {
               {dict.testimonials.subtitle}
             </p>
           </div>
-          {/* Navigation controls top-right */}
           <div className="flex items-center gap-3 shrink-0">
-            <button
+            <motion.button
               onClick={prev}
-              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center hover:border-forest hover:text-forest transition-all text-charcoal/50"
+              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center text-charcoal/50"
+              whileHover={{ borderColor: "#4B5D3A", color: "#4B5D3A", scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               aria-label="Previous review"
             >
               <ArrowLeft className="w-4 h-4" weight="bold" />
-            </button>
+            </motion.button>
             <span className="text-xs text-charcoal/35 w-8 text-center">{idx + 1}/{REVIEWS.length}</span>
-            <button
+            <motion.button
               onClick={next}
-              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center hover:border-forest hover:text-forest transition-all text-charcoal/50"
+              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center text-charcoal/50"
+              whileHover={{ borderColor: "#4B5D3A", color: "#4B5D3A", scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               aria-label="Next review"
             >
               <ArrowRight className="w-4 h-4" weight="bold" />
-            </button>
+            </motion.button>
           </div>
-        </div>
+        </AnimateInView>
 
-        {/* Main review — horizontal 2-col */}
         <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 items-start">
 
           {/* Left: reviewer list */}
           <div className="space-y-2">
             {REVIEWS.map((review, i) => (
-              <button
+              <motion.button
                 key={i}
-                onClick={() => setIdx(i)}
-                className={`w-full text-left px-4 py-3.5 rounded-xl transition-all duration-200 flex items-center gap-3 ${
+                onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
+                className={`w-full text-left px-4 py-3.5 rounded-xl flex items-center gap-3 ${
                   i === idx
                     ? "bg-forest text-white shadow-lg shadow-forest/20"
                     : "bg-white/60 hover:bg-white text-charcoal border border-transparent hover:border-sand-dark"
                 }`}
+                animate={{
+                  backgroundColor: i === idx ? "#4B5D3A" : "rgba(255,255,255,0.6)",
+                  color: i === idx ? "#fff" : "#111111",
+                }}
+                transition={{ duration: 0.25 }}
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
               >
                 <img
                   src={review.image}
@@ -138,69 +158,80 @@ export default function Testimonials({ dict }: Props) {
                     {review.tour}
                   </div>
                 </div>
-              </button>
+              </motion.button>
             ))}
           </div>
 
-          {/* Right: large pull-quote */}
-          <div className="bg-white rounded-2xl p-8 sm:p-10 shadow-sm border border-sand-dark/50">
-            {/* Stars + date */}
-            <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
-              <div className="flex">
-                {Array.from({ length: r.rating }).map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-sunset" weight="fill" />
-                ))}
-              </div>
-              <span className="text-charcoal/35 text-sm">{r.date}</span>
-            </div>
-
-            {/* The quote — magazine-sized */}
-            <blockquote
-              className="font-serif text-charcoal/80 leading-relaxed mb-8"
-              style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}
-            >
-              &ldquo;{r.text}&rdquo;
-            </blockquote>
-
-            {/* Attribution */}
-            <div className="flex items-center justify-between pt-6 border-t border-sand-dark flex-wrap gap-4">
-              <div className="flex items-center gap-3">
-                <img
-                  src={r.image}
-                  alt={r.name}
-                  className="w-11 h-11 rounded-full object-cover"
-                  loading="lazy"
-                />
-                <div>
-                  <div className="font-bold text-charcoal text-sm">{r.name}</div>
-                  <div className="text-charcoal/40 text-xs">{r.country}</div>
+          {/* Right: animated review card */}
+          <div className="relative overflow-hidden">
+            <AnimatePresence mode="wait" custom={direction}>
+              <motion.div
+                key={idx}
+                custom={direction}
+                initial={{ opacity: 0, x: direction * 40 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: direction * -40 }}
+                transition={{ duration: 0.4, ease }}
+                className="bg-white rounded-2xl p-8 sm:p-10 shadow-sm border border-sand-dark/50"
+              >
+                <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
+                  <div className="flex">
+                    {Array.from({ length: r.rating }).map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-sunset" weight="fill" />
+                    ))}
+                  </div>
+                  <span className="text-charcoal/35 text-sm">{r.date}</span>
                 </div>
-              </div>
-              <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-100 text-green-700 rounded-full text-xs font-medium">
-                <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                {dict.testimonials.verified}
-              </div>
-            </div>
 
-            {/* Tour chip */}
-            <div className="mt-4">
-              <span className="inline-block text-xs text-forest font-semibold bg-forest/8 border border-forest/12 px-3 py-1 rounded-full">
-                {r.tour}
-              </span>
-            </div>
+                <blockquote
+                  className="font-serif text-charcoal/80 leading-relaxed mb-8"
+                  style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}
+                >
+                  &ldquo;{r.text}&rdquo;
+                </blockquote>
+
+                <div className="flex items-center justify-between pt-6 border-t border-sand-dark flex-wrap gap-4">
+                  <div className="flex items-center gap-3">
+                    <img
+                      src={r.image}
+                      alt={r.name}
+                      className="w-11 h-11 rounded-full object-cover"
+                      loading="lazy"
+                    />
+                    <div>
+                      <div className="font-bold text-charcoal text-sm">{r.name}</div>
+                      <div className="text-charcoal/40 text-xs">{r.country}</div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-100 text-green-700 rounded-full text-xs font-medium">
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                    {dict.testimonials.verified}
+                  </div>
+                </div>
+
+                <div className="mt-4">
+                  <span className="inline-block text-xs text-forest font-semibold bg-forest/8 border border-forest/12 px-3 py-1 rounded-full">
+                    {r.tour}
+                  </span>
+                </div>
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
 
         {/* Dot progress */}
         <div className="flex items-center justify-center gap-1.5 mt-10">
           {REVIEWS.map((_, i) => (
-            <button
+            <motion.button
               key={i}
-              onClick={() => setIdx(i)}
+              onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
               aria-label={`Review ${i + 1}`}
-              className={`rounded-full transition-all duration-300 ${
-                i === idx ? "w-6 h-2 bg-forest" : "w-2 h-2 bg-sand-dark hover:bg-charcoal/30"
-              }`}
+              animate={{
+                width: i === idx ? 24 : 8,
+                backgroundColor: i === idx ? "#4B5D3A" : "#D8C9AC",
+              }}
+              transition={{ duration: 0.3 }}
+              className="h-2 rounded-full"
             />
           ))}
         </div>

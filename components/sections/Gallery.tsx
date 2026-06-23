@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Camera } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRight, Camera } from "@phosphor-icons/react";
+import { motion } from "motion/react";
+import AnimateInView from "@/components/ui/AnimateInView";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const PHOTOS = [
@@ -18,11 +21,13 @@ interface Props {
   lang?: Locale;
 }
 
+const ease = [0.22, 1, 0.36, 1] as const;
+
 export default function Gallery({ dict, lang = "en" }: Props) {
   return (
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+        <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
             <span className="text-sunset text-sm font-semibold uppercase tracking-widest">
               {dict.gallery.eyebrow}
@@ -41,21 +46,55 @@ export default function Gallery({ dict, lang = "en" }: Props) {
             {dict.featuredTours.viewAll}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
-        </div>
+        </AnimateInView>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
           {PHOTOS.map((photo, i) => (
-            <div key={i} className={`relative overflow-hidden rounded-2xl group cursor-pointer ${photo.span ?? ""}`}>
-              <Image src={photo.src} alt={photo.alt} fill className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out" sizes="(max-width: 768px) 50vw, 33vw" />
+            <motion.div
+              key={i}
+              className={`relative overflow-hidden rounded-2xl group cursor-pointer ${photo.span ?? ""}`}
+              initial={{ opacity: 0, scale: 0.94, y: 16 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.08 }}
+              transition={{ duration: 0.65, ease, delay: i * 0.07 }}
+              whileHover={{ scale: 1.01 }}
+            >
+              <motion.div
+                className="absolute inset-0"
+                whileHover={{ scale: 1.07 }}
+                transition={{ duration: 0.65, ease }}
+              >
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                />
+              </motion.div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-400" />
-              <div className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/0 group-hover:bg-white/20 flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100 backdrop-blur-sm">
+              <motion.div
+                className="absolute inset-0 bg-black/0"
+                whileHover={{ backgroundColor: "rgba(0,0,0,0.18)" }}
+                transition={{ duration: 0.3 }}
+              />
+              <motion.div
+                className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm"
+                initial={{ opacity: 0, scale: 0.7 }}
+                whileHover={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.2 }}
+              >
                 <Camera className="w-3.5 h-3.5 text-white" />
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out">
+              </motion.div>
+              <motion.div
+                className="absolute bottom-0 left-0 right-0 p-4"
+                initial={{ y: "100%" }}
+                whileHover={{ y: 0 }}
+                transition={{ duration: 0.35, ease }}
+              >
                 <p className="text-white text-xs font-medium leading-snug line-clamp-2 drop-shadow-lg">{photo.alt}</p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           ))}
         </div>
       </div>

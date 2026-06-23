@@ -54,24 +54,24 @@ body::after {
 }
 
 body::before {
-  width: 60vw;
-  height: 60vw;
-  max-width: 700px;
-  max-height: 700px;
-  top: -15%;
-  right: -10%;
-  background: radial-gradient(circle, rgba(224, 123, 57, 0.07) 0%, transparent 70%);
+  width: 70vw;
+  height: 70vw;
+  max-width: 900px;
+  max-height: 900px;
+  top: -10%;
+  right: -15%;
+  background: radial-gradient(circle, rgba(224, 123, 57, 0.18) 0%, rgba(224, 123, 57, 0.06) 40%, transparent 70%);
   animation: orb-drift-a 28s ease-in-out infinite;
 }
 
 body::after {
-  width: 50vw;
-  height: 50vw;
-  max-width: 600px;
-  max-height: 600px;
-  bottom: 10%;
-  left: -8%;
-  background: radial-gradient(circle, rgba(74, 144, 164, 0.07) 0%, transparent 70%);
+  width: 60vw;
+  height: 60vw;
+  max-width: 750px;
+  max-height: 750px;
+  bottom: 15%;
+  left: -12%;
+  background: radial-gradient(circle, rgba(74, 144, 164, 0.16) 0%, rgba(74, 144, 164, 0.05) 40%, transparent 70%);
   animation: orb-drift-b 35s ease-in-out infinite;
 }
 
@@ -416,7 +416,7 @@ h3 { font-weight: 600; }
   height: 70%;
   top: -20%;
   left: -10%;
-  background: radial-gradient(circle, rgba(224, 123, 57, 0.09) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(224, 123, 57, 0.22) 0%, rgba(224, 123, 57, 0.07) 45%, transparent 70%);
   animation: orb-drift-a 24s ease-in-out infinite;
 }
 
@@ -425,7 +425,7 @@ h3 { font-weight: 600; }
   height: 60%;
   bottom: -10%;
   right: -5%;
-  background: radial-gradient(circle, rgba(74, 144, 164, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(74, 144, 164, 0.18) 0%, rgba(74, 144, 164, 0.06) 45%, transparent 70%);
   animation: orb-drift-b 30s ease-in-out infinite reverse;
 }
 

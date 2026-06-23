@@ -21,7 +21,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
   }, []);
 
   return (
-    <section className="py-20 bg-offwhite">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <span className="text-sunset text-sm font-semibold uppercase tracking-widest">

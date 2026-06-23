@@ -90,8 +90,8 @@ export default async function AboutPage({ params }: LangParams) {
                 num: "02",
                 title: "Ethical, Community-First Travel",
                 body: "A significant portion of every booking goes directly to the local families, mule handlers, and guesthouses we work with. We don't use large hotel chains or international catering — we keep money in the communities we visit.",
-                image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=800&q=80",
-                alt: "Traditional Moroccan mint tea being poured",
+                image: "/images/guides-community-first.jpeg",
+                alt: "Guides and trekkers at the Toubkal mountain refuge, High Atlas Morocco",
               },
               {
                 num: "03",

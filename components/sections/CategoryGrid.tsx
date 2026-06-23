@@ -152,7 +152,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
-                  <div className="text-white/45 text-xs font-semibold uppercase tracking-widest mb-1">
+                  <div className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-1">
                     {countByCategory[cat.id] ?? 0} {dict.nav.tours.toLowerCase()}
                   </div>
                   <h3 className="font-serif text-white font-bold text-lg leading-tight mb-2">

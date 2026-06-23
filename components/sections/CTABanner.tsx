@@ -25,7 +25,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
     <section className="py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="scale-in">
-          <div className="bg-forest rounded-3xl overflow-hidden">
+          <div className="rounded-3xl overflow-hidden" style={{ background: "linear-gradient(135deg, #253018 0%, #2d3a22 50%, #3a4a2c 100%)" }}>
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] min-h-[420px]">
 
               {/* Left: text content */}
@@ -41,7 +41,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   {dict.cta.title}
                 </motion.h2>
                 <motion.p
-                  className="text-white/60 leading-relaxed mb-8 max-w-md text-sm"
+                  className="text-white/75 leading-relaxed mb-8 max-w-md text-sm"
                   initial={{ opacity: 0, y: 16 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
@@ -87,13 +87,13 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   transition={{ duration: 0.5, ease, delay: 0.45 }}
                 >
                   {TRUST.map((t) => (
-                    <div key={t.text} className="flex items-center gap-2 text-white/45 text-xs">
-                      <t.icon className="w-3.5 h-3.5 text-sunset/70 shrink-0" weight="duotone" />
+                    <div key={t.text} className="flex items-center gap-2 text-white/65 text-xs">
+                      <t.icon className="w-3.5 h-3.5 text-[#d4956a] shrink-0" weight="duotone" />
                       {t.text}
                     </div>
                   ))}
-                  <div className="flex items-center gap-2 text-white/45 text-xs">
-                    <Envelope className="w-3.5 h-3.5 text-sunset/70 shrink-0" weight="duotone" />
+                  <div className="flex items-center gap-2 text-white/65 text-xs">
+                    <Envelope className="w-3.5 h-3.5 text-[#d4956a] shrink-0" weight="duotone" />
                     <a href={`mailto:${SITE.email}`} className="hover:text-white/75 transition-colors">
                       {SITE.email}
                     </a>

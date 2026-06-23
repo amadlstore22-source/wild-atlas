@@ -1,36 +1,19 @@
 "use client";
 import { useState } from "react";
 import { PaperPlaneTilt } from "@phosphor-icons/react";
+import { useFormSubmit } from "@/hooks/useFormSubmit";
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
-  const [sending, setPaperPlaneTilting] = useState(false);
-  const [sent, setSent] = useState(false);
-  const [error, setError] = useState("");
+  const { sending, sent, error, submit: doSubmit } = useFormSubmit();
 
   function update(field: string, value: string) {
     setForm((f) => ({ ...f, [field]: value }));
   }
 
-  async function submit(e: React.FormEvent) {
+  function submit(e: React.FormEvent) {
     e.preventDefault();
-    setPaperPlaneTilting(true);
-    setError("");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "general", ...form }),
-      });
-      if (res.ok) {
-        setSent(true);
-      } else {
-        setError("Something went wrong. Please email us directly at hello@marrakechecotours.com");
-      }
-    } catch {
-      setError("Network error. Please try again or email us directly.");
-    }
-    setPaperPlaneTilting(false);
+    doSubmit({ type: "general", ...form });
   }
 
   if (sent) {

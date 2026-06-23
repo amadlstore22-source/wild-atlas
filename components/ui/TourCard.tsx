@@ -93,7 +93,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           <div className="flex items-center gap-2 mb-2">
             <StarRating rating={tour.rating} />
             <span className="text-xs font-semibold text-sunset">{tour.rating.toFixed(1)}</span>
-            <span className="text-xs text-white/45">({tour.reviewCount})</span>
+            <span className="text-xs text-white/65">({tour.reviewCount})</span>
           </div>
           <h3 className="font-serif text-white font-bold text-xl leading-snug mb-1.5 group-hover:text-sand transition-colors">
             {tour.title}
@@ -106,7 +106,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
               <span className="text-white/35 text-xs">{fromLabel}</span>
               <p className="font-bold text-white text-2xl leading-tight">
                 ${tour.price}
-                <span className="text-sm font-normal text-white/40"> {perPersonLabel}</span>
+                <span className="text-sm font-normal text-white/60"> {perPersonLabel}</span>
               </p>
             </div>
             <Link

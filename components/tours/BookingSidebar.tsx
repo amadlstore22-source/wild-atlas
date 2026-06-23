@@ -3,35 +3,18 @@ import { useState } from "react";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { useFormSubmit } from "@/hooks/useFormSubmit";
 
 export default function BookingSidebar({ tour }: { tour: Tour }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [people, setPeople] = useState(2);
-  const [sent, setSent] = useState(false);
-  const [sending, setSending] = useState(false);
-  const [error, setError] = useState("");
+  const { sending, sent, error, submit: doSubmit } = useFormSubmit();
 
-  async function handleInquiry(e: React.FormEvent) {
+  function handleInquiry(e: React.FormEvent) {
     e.preventDefault();
-    setSending(true);
-    setError("");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "booking", tour: tour.title, name, email, date, people }),
-      });
-      if (res.ok) {
-        setSent(true);
-      } else {
-        setError("Something went wrong. Please try WhatsApp or email us directly.");
-      }
-    } catch {
-      setError("Network error. Please try again.");
-    }
-    setSending(false);
+    doSubmit({ type: "booking", tour: tour.title, name, email, date, people });
   }
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
@@ -44,16 +27,16 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
       <div className="bg-white rounded-2xl shadow-lg border border-sand-dark overflow-hidden">
         {/* Price header */}
         <div className="bg-forest p-6 text-white">
-          <div className="text-white/55 text-xs uppercase tracking-widest mb-1">Starting from</div>
+          <div className="text-white/70 text-xs uppercase tracking-widest mb-1">Starting from</div>
           <div className="font-serif text-4xl font-bold">${tour.price}</div>
-          <div className="text-white/45 text-sm">per person</div>
-          <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-2 gap-2 text-sm">
+          <div className="text-white/70 text-sm">per person</div>
+          <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">
             <div>
-              <div className="text-white/45 text-xs">Deposit</div>
+              <div className="text-white/65 text-xs">Deposit</div>
               <div className="font-bold text-sunset">${tour.depositAmount}</div>
             </div>
             <div>
-              <div className="text-white/45 text-xs">Response</div>
+              <div className="text-white/65 text-xs">Response</div>
               <div className="font-bold text-white">{SITE.responseHours}h</div>
             </div>
           </div>
@@ -87,22 +70,30 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
             <form onSubmit={handleInquiry} className="space-y-3">
               <h3 className="font-semibold text-charcoal text-sm">Book This Tour</h3>
 
-              <input
-                type="text"
-                required
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Your full name"
-                className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
-              />
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
-                className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
-              />
+              <div>
+                <label htmlFor="booking-name" className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest block mb-1">Name *</label>
+                <input
+                  id="booking-name"
+                  type="text"
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Your full name"
+                  className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
+                />
+              </div>
+              <div>
+                <label htmlFor="booking-email" className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest block mb-1">Email *</label>
+                <input
+                  id="booking-email"
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="your@email.com"
+                  className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
+                />
+              </div>
 
               <div className="grid grid-cols-2 gap-3">
                 <div>

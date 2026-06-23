@@ -126,13 +126,13 @@ export default function Hero({ lang, dict }: Props) {
               <div className="h-px sm:h-auto sm:w-px bg-white/15 shrink-0" />
 
               <div className="relative flex-1">
-                <MagnifyingGlass className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40" weight="bold" />
+                <MagnifyingGlass className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/55" weight="bold" />
                 <input
                   type="text"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                   placeholder={dict.hero.searchPlaceholder}
-                  className="w-full pl-9 pr-4 py-3 bg-transparent text-white placeholder:text-white/40 text-sm focus:outline-none"
+                  className="w-full pl-9 pr-4 py-3 bg-transparent text-white placeholder:text-white/55 text-sm focus:outline-none"
                 />
               </div>
 
@@ -212,7 +212,7 @@ export default function Hero({ lang, dict }: Props) {
                 transition={{ duration: 0.5, ease, delay: 1.05 + i * 0.08 }}
               >
                 <span className="font-serif text-white text-xl font-bold">{s.value}</span>
-                <span className="text-white/45 text-xs font-medium">{s.label}</span>
+                <span className="text-white/65 text-xs font-medium">{s.label}</span>
               </motion.div>
             ))}
           </motion.div>

@@ -32,7 +32,10 @@ export default function WhyUs({ dict }: Props) {
   ];
 
   return (
-    <section className="bg-forest text-white overflow-hidden">
+    <section
+      className="text-white overflow-hidden"
+      style={{ background: "linear-gradient(160deg, #2d3a22 0%, #3a4a2c 40%, #4B5D3A 100%)" }}
+    >
 
       {/* Top: Why grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
@@ -45,7 +48,7 @@ export default function WhyUs({ dict }: Props) {
                   style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
                 {dict.whyUs.title}
               </h2>
-              <p className="text-white/55 leading-relaxed mb-10 text-sm">
+              <p className="text-white/70 leading-relaxed mb-10 text-sm">
                 {dict.whyUs.subtitle}
               </p>
             </AnimateInView>
@@ -54,36 +57,39 @@ export default function WhyUs({ dict }: Props) {
               {STATS.map((s, i) => (
                 <motion.div
                   key={s.label}
-                  className="bg-white/6 border border-white/8 rounded-xl p-4"
+                  className="rounded-xl p-4 border border-white/15"
+                  style={{ background: "rgba(255,255,255,0.08)" }}
                   initial={{ opacity: 0, y: 16, scale: 0.95 }}
                   whileInView={{ opacity: 1, y: 0, scale: 1 }}
                   viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.5, ease, delay: 0.1 + i * 0.08 }}
                 >
                   <div className="font-serif text-white text-3xl font-bold leading-none mb-1">{s.value}</div>
-                  <div className="text-white/40 text-xs">{s.label}</div>
+                  <div className="text-white/60 text-xs">{s.label}</div>
                 </motion.div>
               ))}
             </div>
           </div>
 
           {/* Right: 4 reason cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {WHY.map((item, i) => (
               <motion.div
                 key={item.title}
-                className="p-5 rounded-2xl bg-white/5 border border-white/8 hover:border-sunset/35 hover:bg-white/8 transition-all duration-300 group"
+                className="p-6 rounded-2xl border border-white/15 transition-all duration-300 group"
+                style={{ background: "rgba(255,255,255,0.07)" }}
                 initial={{ opacity: 0, y: 24, scale: 0.96 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.55, ease, delay: 0.05 + i * 0.1 }}
-                whileHover={{ y: -3 }}
+                whileHover={{ y: -4, backgroundColor: "rgba(255,255,255,0.13)" }}
               >
-                <div className="w-9 h-9 rounded-xl bg-sunset/12 border border-sunset/18 flex items-center justify-center mb-3.5 group-hover:bg-sunset/22 transition-colors">
-                  <item.icon className="w-4.5 h-4.5 text-sunset" weight="duotone" />
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-4 shrink-0"
+                     style={{ background: "rgba(139,94,60,0.25)", border: "1px solid rgba(139,94,60,0.45)" }}>
+                  <item.icon className="w-5 h-5 text-[#d4956a]" weight="duotone" />
                 </div>
-                <h3 className="font-semibold text-white text-sm mb-1.5">{item.title}</h3>
-                <p className="text-white/45 text-xs leading-relaxed">{item.body}</p>
+                <h3 className="font-semibold text-white text-sm mb-2">{item.title}</h3>
+                <p className="text-white/65 text-xs leading-relaxed">{item.body}</p>
               </motion.div>
             ))}
           </div>
@@ -91,7 +97,7 @@ export default function WhyUs({ dict }: Props) {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-white/8" />
+      <div className="border-t border-white/10" />
 
       {/* Bottom: process timeline */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -101,7 +107,7 @@ export default function WhyUs({ dict }: Props) {
           </h3>
         </AnimateInView>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 relative">
-          <div className="hidden lg:block absolute top-5 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-transparent via-white/12 to-transparent pointer-events-none" />
+          <div className="hidden lg:block absolute top-5 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
 
           {STEPS.map((s, i) => (
             <motion.div
@@ -114,17 +120,18 @@ export default function WhyUs({ dict }: Props) {
             >
               <div className="flex items-center gap-3 mb-3">
                 <motion.div
-                  className="w-10 h-10 rounded-full bg-sunset/15 border border-sunset/30 flex items-center justify-center shrink-0"
-                  whileInView={{ borderColor: "rgba(139,94,60,0.6)" }}
+                  className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
+                  style={{ background: "rgba(139,94,60,0.22)", border: "1px solid rgba(139,94,60,0.5)" }}
+                  whileInView={{ borderColor: "rgba(139,94,60,0.75)" }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: 0.3 + i * 0.1 }}
                 >
-                  <span className="font-mono text-sunset text-xs font-bold">{s.num}</span>
+                  <span className="font-mono text-[#d4956a] text-xs font-bold">{s.num}</span>
                 </motion.div>
-                <div className="h-px flex-1 bg-white/8 lg:hidden" />
+                <div className="h-px flex-1 bg-white/12 lg:hidden" />
               </div>
               <h4 className="font-semibold text-white text-sm mb-1.5">{s.title}</h4>
-              <p className="text-white/40 text-xs leading-relaxed">{s.body}</p>
+              <p className="text-white/60 text-xs leading-relaxed">{s.body}</p>
             </motion.div>
           ))}
         </div>

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
-import { Clock, Users, Star, MapPin } from "@phosphor-icons/react";
+import { Clock, Users, Star, MapPin, CheckCircle } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { DIFFICULTY_COLORS } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -176,11 +176,18 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <h3 className="font-serif font-semibold text-charcoal text-base leading-snug mb-2 group-hover:text-forest transition-colors">
           {tour.title}
         </h3>
-        <p className="text-charcoal/50 text-sm leading-relaxed mb-4 line-clamp-2 flex-1">
-          {tour.shortDescription}
-        </p>
 
-        <div className="flex items-center gap-4 text-xs text-charcoal/40 mb-4">
+        {/* Highlights — top 3 */}
+        <ul className="space-y-1 mb-4">
+          {tour.highlights.slice(0, 3).map((h) => (
+            <li key={h} className="flex items-start gap-1.5 text-xs text-charcoal/65 leading-snug">
+              <CheckCircle className="w-3.5 h-3.5 text-forest/70 shrink-0 mt-0.5" weight="fill" />
+              <span className="line-clamp-1">{h}</span>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-4 text-xs text-charcoal/35 mb-4">
           <span className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5" weight="duotone" />
             {tour.duration}

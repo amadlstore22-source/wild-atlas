@@ -1,10 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { MagnifyingGlass, ArrowRight } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { CATEGORIES } from "@/lib/tours";
 import { SITE } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -20,6 +20,10 @@ export default function Hero({ lang, dict }: Props) {
   const [search, setSearch] = useState("");
   const [origin, setOrigin] = useState("");
   const router = useRouter();
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
+  const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const imgScale = useTransform(scrollYProgress, [0, 1], [1.08, 1.0]);
 
   const ORIGIN_TABS = [
     { label: dict.hero.allTours, value: "" },
@@ -36,7 +40,7 @@ export default function Hero({ lang, dict }: Props) {
   }
 
   return (
-    <section className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
+    <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
       {/* Full-bleed background */}
       <div className="absolute inset-0 overflow-hidden">
         {SITE.heroVideo ? (
@@ -52,16 +56,19 @@ export default function Hero({ lang, dict }: Props) {
             <source src={SITE.heroVideo} type="video/mp4" />
           </video>
         ) : (
-          <div className="absolute inset-[-8%] hero-ken-burns">
+          <motion.div
+            className="absolute inset-[-10%]"
+            style={{ y: imgY, scale: imgScale }}
+          >
             <Image
               src={SITE.heroPoster}
               alt="Morocco Atlas Mountains landscape"
               fill
               priority
               className="object-cover object-center"
-              sizes="110vw"
+              sizes="120vw"
             />
-          </div>
+          </motion.div>
         )}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />

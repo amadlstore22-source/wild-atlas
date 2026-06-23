@@ -72,10 +72,13 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 66vw"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
               <div className="absolute inset-0 bg-gradient-to-r from-forest/25 to-transparent" />
-              <div className="absolute top-0 right-0 w-36 h-36 pointer-events-none opacity-80">
-                <CategoryAnimation id={hero.id} />
+              {/* Centered animation illustration */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div className="w-44 h-44 opacity-90 drop-shadow-lg">
+                  <CategoryAnimation id={hero.id} />
+                </div>
               </div>
               <div className="absolute inset-0 p-7 flex flex-col justify-end">
                 <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-2">
@@ -115,9 +118,11 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
-                <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none opacity-80">
-                  <CategoryAnimation id={tall.id} />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" />
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-36 h-36 opacity-90 drop-shadow-lg">
+                    <CategoryAnimation id={tall.id} />
+                  </div>
                 </div>
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
                   <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-1.5">
@@ -157,9 +162,11 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
-                <div className="absolute top-0 right-0 w-24 h-24 pointer-events-none opacity-80">
-                  <CategoryAnimation id={cat.id} />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none pb-12">
+                  <div className="w-32 h-32 opacity-90 drop-shadow-lg">
+                    <CategoryAnimation id={cat.id} />
+                  </div>
                 </div>
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
                   <div className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-1">

@@ -80,7 +80,7 @@ export default async function BlogPage({
   }
 
   return (
-    <div className="min-h-screen bg-offwhite">
+    <div className="min-h-screen">
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />

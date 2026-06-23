@@ -9,7 +9,7 @@ export default async function ToursPage({ params }: { params: Promise<{ lang: st
   const dict = await getDictionary(lang);
 
   return (
-    <Suspense fallback={<div className="min-h-screen bg-offwhite" />}>
+    <Suspense fallback={<div className="min-h-screen" />}>
       <ToursClient lang={lang} dict={dict} />
     </Suspense>
   );

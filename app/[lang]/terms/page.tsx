@@ -15,7 +15,7 @@ export default async function TermsPage({ params }: LangParams) {
   if (!hasLocale(lang)) notFound();
 
   return (
-    <div className="min-h-screen bg-offwhite">
+    <div className="min-h-screen">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <Link href={`/${lang}`} className="text-sm text-charcoal/50 hover:text-forest transition-colors mb-8 inline-block">
           ← Back to home

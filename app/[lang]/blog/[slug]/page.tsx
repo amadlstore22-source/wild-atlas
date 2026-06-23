@@ -102,7 +102,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="min-h-screen bg-offwhite">
+      <div className="min-h-screen">
         <div className="relative h-[55vh] min-h-[360px] overflow-hidden">
           <Image src={post.heroImage} alt={post.title} fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />

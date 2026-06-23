@@ -85,6 +85,8 @@ export default async function LocaleLayout({
         <link rel="alternate" hrefLang="x-default" href="https://marrakechecotours.com/en" />
       </head>
       <body className="min-h-full flex flex-col antialiased">
+        {/* Third atmospheric orb — mid-page forest green */}
+        <div className="orb-mid" aria-hidden="true" />
         <Header lang={locale} dict={dict} />
         <main className="flex-1">{children}</main>
         <Footer lang={locale} dict={dict} />

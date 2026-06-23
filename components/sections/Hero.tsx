@@ -34,16 +34,18 @@ export default function Hero({ lang, dict }: Props) {
 
   return (
     <section className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
-      {/* Full-bleed background image */}
-      <div className="absolute inset-0">
-        <Image
-          src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=85"
-          alt="Morocco Atlas Mountains landscape"
-          fill
-          priority
-          className="object-cover object-center"
-          sizes="100vw"
-        />
+      {/* Full-bleed background image with Ken Burns slow pan */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-[-8%] hero-ken-burns">
+          <Image
+            src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=85"
+            alt="Morocco Atlas Mountains landscape"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="110vw"
+          />
+        </div>
         {/* Left-side gradient for text legibility, open right */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />

@@ -71,7 +71,7 @@ export default async function HomePage({ params }: LangParams) {
       />
       <Hero lang={lang} dict={dict} />
       <TrustBar dict={dict} />
-      <OurStory dict={dict} />
+      <OurStory dict={dict} lang={lang} />
       <CategoryGrid dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
       <WhyUs dict={dict} />

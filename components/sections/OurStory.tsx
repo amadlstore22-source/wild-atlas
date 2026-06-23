@@ -93,19 +93,19 @@ export default function OurStory({ dict, lang = "en" }: Props) {
             {/* Second image — shorter */}
             <div className="relative rounded-2xl overflow-hidden h-52 reveal-scale">
               <Image
-                src="https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=600&q=85"
-                alt="Sahara desert dunes at sunset"
+                src="https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=600&q=85"
+                alt="Erg Chebbi golden dunes at sunset, Merzouga Sahara"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-4 left-5">
                 <Link
                   href={`/${lang}/about`}
-                  className="inline-flex items-center gap-2 text-white text-sm font-semibold hover:gap-3 transition-all duration-300"
+                  className="inline-flex items-center gap-2 text-white text-sm font-bold hover:gap-3 transition-all duration-300 group"
                 >
-                  Our full story <ArrowRight className="w-4 h-4" weight="bold" />
+                  {dict.ourStory.meetTeam} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" weight="bold" />
                 </Link>
               </div>
             </div>

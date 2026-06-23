@@ -26,8 +26,8 @@ export default async function AboutPage({ params }: LangParams) {
     <>
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1533130061792-64b345e4a833?w=1920&q=80"
-          alt="Atlas Mountains"
+          src="https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1920&q=80"
+          alt="High Atlas Mountains at sunrise, Morocco"
           fill
           className="object-cover"
           priority

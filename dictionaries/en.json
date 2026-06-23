@@ -65,7 +65,7 @@
     },
     "responsive": {
       "title": "Fast, Human Support",
-      "desc": "Real humans reply within {hours} hours. WhatsApp, email, or phone — we're always reachable."
+      "desc": "WhatsApp replies within 48 hours — usually much faster. Email may take a little longer. Real people, always reachable."
     }
   },
   "ourStory": {
@@ -99,7 +99,7 @@
     "whatsapp": "WhatsApp Us",
     "customTrip": "Custom Trip",
     "trust1": "Free cancellation 14 days prior",
-    "trust2": "Reply within {hours} hours",
+    "trust2": "WhatsApp replies within 48 hours",
     "trust3": "5-star rated by 1,000+ travellers"
   },
   "tours": {
@@ -170,7 +170,7 @@
     "phone": "WhatsApp / Phone",
     "basedIn": "Based in",
     "responseTime": "Response time",
-    "responseValue": "Within 24 hours",
+    "responseValue": "WhatsApp: within 48 hrs · Email: may take longer",
     "faqTitle": "Frequently Asked Questions",
     "formName": "Full Name",
     "formEmail": "Email Address",
@@ -178,7 +178,7 @@
     "formTour": "Tour of Interest",
     "formMessage": "Your Message",
     "formSubmit": "Send Message",
-    "formSuccess": "Message sent! We'll reply within 24 hours.",
+    "formSuccess": "Message sent! For the fastest reply, message us on WhatsApp — email responses may take up to 48 hours.",
     "formError": "Something went wrong. Please try again or WhatsApp us directly."
   },
   "footer": {

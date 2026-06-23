@@ -41,7 +41,7 @@ export default function ContactForm() {
         </div>
         <h3 className="font-serif text-charcoal text-2xl font-bold mb-2">Message Sent!</h3>
         <p className="text-charcoal/60">
-          Thank you, <strong>{form.name}</strong>. We&apos;ll reply to <strong>{form.email}</strong> within 24 hours.
+          Thank you, <strong>{form.name}</strong>. We&apos;ll reply to <strong>{form.email}</strong> — email responses may take up to 48 hours. For faster replies, message us on WhatsApp.
         </p>
       </div>
     );
@@ -49,7 +49,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={submit} className="bg-white rounded-2xl p-8 shadow-sm space-y-5">
-      <h2 className="font-serif text-charcoal text-2xl font-bold">PaperPlaneTilt a Message</h2>
+      <h2 className="font-serif text-charcoal text-2xl font-bold">Send a Message</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
@@ -107,7 +107,7 @@ export default function ContactForm() {
         className="w-full py-3.5 rounded-xl bg-forest text-white font-bold text-base hover:bg-moss transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
       >
         <PaperPlaneTilt className="w-4 h-4" />
-        {sending ? "PaperPlaneTilting..." : "PaperPlaneTilt Message"}
+        {sending ? "Sending..." : "Send Message"}
       </button>
     </form>
   );

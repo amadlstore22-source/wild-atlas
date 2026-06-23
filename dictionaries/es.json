@@ -65,7 +65,7 @@
     },
     "responsive": {
       "title": "Soporte humano rápido",
-      "desc": "Personas reales responden en {hours} horas. WhatsApp, correo electrónico o teléfono — siempre localizables."
+      "desc": "Respuestas por WhatsApp en 48 horas — normalmente mucho antes. El correo puede tardar algo más. Personas reales, siempre localizables."
     }
   },
   "ourStory": {
@@ -99,7 +99,7 @@
     "whatsapp": "WhatsApp",
     "customTrip": "Viaje personalizado",
     "trust1": "Cancelación gratuita 14 días antes",
-    "trust2": "Respuesta en {hours} horas",
+    "trust2": "Respuestas por WhatsApp en 48 horas",
     "trust3": "5 estrellas por más de 1.000 viajeros"
   },
   "tours": {
@@ -170,7 +170,7 @@
     "phone": "WhatsApp / Teléfono",
     "basedIn": "Con sede en",
     "responseTime": "Tiempo de respuesta",
-    "responseValue": "En 24 horas",
+    "responseValue": "WhatsApp: en 48 h · Email: puede tardar más",
     "faqTitle": "Preguntas frecuentes",
     "formName": "Nombre completo",
     "formEmail": "Correo electrónico",
@@ -178,7 +178,7 @@
     "formTour": "Tour de interés",
     "formMessage": "Tu mensaje",
     "formSubmit": "Enviar mensaje",
-    "formSuccess": "¡Mensaje enviado! Te responderemos en 24 horas.",
+    "formSuccess": "¡Mensaje enviado! Para una respuesta más rápida, escríbenos por WhatsApp — el correo puede tardar hasta 48 horas.",
     "formError": "Algo salió mal. Por favor inténtalo de nuevo o contáctanos por WhatsApp."
   },
   "footer": {

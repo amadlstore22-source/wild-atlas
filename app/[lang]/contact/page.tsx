@@ -44,11 +44,11 @@ export default async function ContactPage({ params }: LangParams) {
   ];
 
   return (
-    <div className="min-h-screen bg-offwhite">
+    <div className="min-h-screen moroccan-bg">
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1920&q=80"
-          alt="Morocco landscape"
+          src="https://images.unsplash.com/photo-1539020140153-e479b8b97e3b?w=1920&q=80"
+          alt="Marrakech medina rooftops and the Atlas Mountains"
           fill
           className="object-cover"
           priority

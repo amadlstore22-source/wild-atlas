@@ -14,7 +14,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
   const [hero, ...rest] = tours;
 
   return (
-    <section className="py-24 bg-offwhite">
+    <section className="py-24 bg-gradient-to-b from-offwhite to-sand/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
           <div>

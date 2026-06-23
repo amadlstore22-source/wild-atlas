@@ -18,7 +18,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
   const [hero, tall, ...rest] = CATEGORIES;
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-sand/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section header — left-aligned, no centered eyebrow */}

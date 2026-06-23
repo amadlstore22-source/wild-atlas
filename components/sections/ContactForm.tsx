@@ -48,7 +48,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={submit} className="bg-white rounded-2xl p-8 shadow-sm space-y-5">
+    <form onSubmit={submit} className="bg-white rounded-2xl p-8 shadow-sm shadow-sunset/5 ring-1 ring-sand-dark/60 space-y-5">
       <h2 className="font-serif text-charcoal text-2xl font-bold">Send a Message</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

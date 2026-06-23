@@ -44,7 +44,7 @@ export default function TrustBar({ dict }: Props) {
   ];
 
   return (
-    <div className="bg-white border-b border-sand-dark">
+    <div className="bg-gradient-to-r from-sand/40 via-white to-sand/30 border-b border-sand-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-stretch divide-x divide-sand-dark">
           {SIGNALS.map((s) => (

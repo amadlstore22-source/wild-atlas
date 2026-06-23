@@ -17,7 +17,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
   ];
 
   return (
-    <section className="py-24 bg-offwhite overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-sand/40 via-offwhite to-sky/8 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-forest rounded-3xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] min-h-[420px]">

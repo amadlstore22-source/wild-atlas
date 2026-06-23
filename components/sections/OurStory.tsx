@@ -11,7 +11,7 @@ interface Props {
 
 export default function OurStory({ dict, lang = "en" }: Props) {
   return (
-    <section className="py-28 bg-offwhite overflow-hidden">
+    <section className="py-28 bg-gradient-to-b from-sand/25 via-offwhite to-sand/20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Top: large editorial intro */}

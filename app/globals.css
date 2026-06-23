@@ -33,7 +33,10 @@ html {
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 120% 60% at 100% 0%, rgba(224, 123, 57, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 40% at 0% 100%, rgba(74, 144, 164, 0.04) 0%, transparent 45%);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -313,6 +316,27 @@ h3 { font-weight: 600; }
 
 .blog-prose tr:nth-child(even) td {
   background: rgba(245,230,200,0.2);
+}
+
+/* ============================================================
+   MOROCCAN BACKGROUND UTILITY
+   ============================================================ */
+
+.moroccan-bg {
+  background-color: #FAFAF7;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 10% 20%, rgba(224, 123, 57, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 90% 80%, rgba(74, 144, 164, 0.06) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 60% at 50% 50%, rgba(245, 230, 200, 0.25) 0%, transparent 70%);
+}
+
+/* ============================================================
+   SECTION WARM ACCENT DIVIDERS
+   ============================================================ */
+
+.section-divider-warm {
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(224, 123, 57, 0.2), rgba(245, 230, 200, 0.6), rgba(224, 123, 57, 0.2), transparent);
 }
 
 /* ============================================================

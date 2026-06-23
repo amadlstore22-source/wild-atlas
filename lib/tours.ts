@@ -121,6 +121,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Toubkal Summit Trek 4 Days — Climb North Africa's Highest Peak | Marrakech Eco Tours",
+    seoDescription: "Conquer Jbel Toubkal (4,167 m) with a licensed Berber guide. 4-day summit trek from Marrakech — refuges, all meals, and round-trip transfer included. From $380.",
     featured: true,
   },
   {
@@ -189,6 +191,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
+    seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour with Aït Ben Haddou, Draa Valley, and luxury Berber camp. From $245.",
     featured: true,
   },
   {
@@ -238,6 +242,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
+    seoTitle: "Ourika Valley Day Hike from Marrakech — Waterfalls & Berber Villages | Marrakech Eco Tours",
+    seoDescription: "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. Guided day trip with Berber lunch included. From $35.",
     featured: true,
   },
   {
@@ -288,6 +294,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
+    seoTitle: "Ouzoud Waterfalls Day Trip from Marrakech — Barbary Macaques & 110m Falls | Marrakech Eco Tours",
+    seoDescription: "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. Day trip from Marrakech with guide included. From $30.",
     featured: false,
   },
   {
@@ -339,6 +347,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.4969, lng: -8.1073, name: "Agafay Desert, Marrakech Region" },
+    seoTitle: "Agafay Desert Sunset Tour from Marrakech — Quad Biking, Camels & Berber Dinner | Marrakech Eco Tours",
+    seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From $75.",
     featured: false,
   },
   {
@@ -389,6 +399,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
+    seoTitle: "Marrakech Medina Private Cultural Tour — Souks, Tanneries & Riads | Marrakech Eco Tours",
+    seoDescription: "Explore the UNESCO Marrakech medina with a local guide — leather tanneries, Ben Youssef Madrasa, Djemaa El-Fna, and hidden riad gardens. Private half-day tour. From $45.",
     featured: false,
   },
   {
@@ -452,6 +464,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 34.0331, lng: -5.0003, name: "Fes el-Bali, Imperial City" },
+    seoTitle: "3-Day Marrakech to Fes Tour — Imperial Cities & High Atlas | Marrakech Eco Tours",
+    seoDescription: "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. 3-day private 4x4 tour with riad accommodation. From $290.",
     featured: false,
   },
   {
@@ -509,6 +523,8 @@ export const TOURS: Tour[] = [
       { day: 7, title: "Bou Tharar → Marrakech", description: "Transfer back to Marrakech via the rose valley. Tour concludes by 4:00 pm." },
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït M'hamed, Mgoun Massif" },
+    seoTitle: "Mgoun Massif Trek 7 Days — Morocco's Wildest High-Altitude Traverse | Marrakech Eco Tours",
+    seoDescription: "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m), cross high passes, and sleep in Berber family homes with no other tourists. From $820.",
     featured: false,
   },
 
@@ -563,6 +579,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 30.5376, lng: -9.5000, name: "Paradise Valley, Tamraght" },
+    seoTitle: "Paradise Valley Day Trip from Agadir — Natural Swimming Pools & Palm Gorge | Marrakech Eco Tours",
+    seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $30.",
     featured: true,
   },
   {
@@ -614,6 +632,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 30.0559, lng: -9.6320, name: "Souss-Massa National Park, Massa" },
+    seoTitle: "Souss-Massa National Park Wildlife Tour from Agadir — Rare Northern Bald Ibis | Marrakech Eco Tours",
+    seoDescription: "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. Expert naturalist guide, binoculars, and picnic included. From $70.",
     featured: true,
   },
   {
@@ -664,6 +684,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
+    seoTitle: "Taroudant Day Trip from Agadir — Ancient Ramparts & Berber Market | Marrakech Eco Tours",
+    seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and authentic Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From $40.",
     featured: false,
   },
   {
@@ -714,6 +736,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 30.4206, lng: -9.5981, name: "Agadir Beach, Agadir Bay" },
+    seoTitle: "Surf Lesson Agadir — Learn to Surf on Morocco's Atlantic Coast | Marrakech Eco Tours",
+    seoDescription: "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. Beginner and intermediate levels. From $28.",
     featured: false,
   },
   {
@@ -777,6 +801,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 29.7231, lng: -8.9762, name: "Tafraoute, Anti-Atlas Mountains" },
+    seoTitle: "Anti-Atlas Mountains Trek 3 Days from Agadir — Pink Granite & Painted Rocks | Marrakech Eco Tours",
+    seoDescription: "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. Private tour from Agadir. From $280.",
     featured: true,
   },
   {
@@ -833,6 +859,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
+    seoTitle: "2-Day Sahara Tour from Agadir — Erg Chegaga Desert Camp & Draa Valley | Marrakech Eco Tours",
+    seoDescription: "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. 2-day tour from Agadir. From $195.",
     featured: true,
   },
   {
@@ -884,6 +912,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 30.0667, lng: -8.6500, name: "Souss Valley, Aït Baha Region" },
+    seoTitle: "Souss Valley Argan & Culture Day Trip from Agadir — Women's Cooperative | Marrakech Eco Tours",
+    seoDescription: "Visit a women-run argan oil cooperative, a honey village beekeeper, and share a Berber family lunch in the Souss Valley — Morocco's argan heartland. From $38.",
     featured: false,
   },
   {
@@ -933,6 +963,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
+    seoTitle: "Essaouira Day Trip from Agadir — UNESCO Medina & Atlantic Ramparts | Marrakech Eco Tours",
+    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From $40.",
     featured: false,
   },
   {
@@ -1002,6 +1034,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 35.1688, lng: -5.2636, name: "Chefchaouen, Rif Mountains" },
+    seoTitle: "Marrakech to Chefchaouen 4-Day Blue City Tour — Fes, Volubilis & Rif Mountains | Marrakech Eco Tours",
+    seoDescription: "4-day tour from Marrakech to the blue-washed streets of Chefchaouen via Fes, Volubilis Roman ruins, and Meknes. Private 4x4 with riad accommodation. From $340.",
     featured: false,
   },
   {
@@ -1077,6 +1111,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 34.0209, lng: -6.8416, name: "Rabat, Atlantic Capital" },
+    seoTitle: "All 4 Imperial Cities Morocco 5-Day Tour — Marrakech, Meknes, Fes & Rabat | Marrakech Eco Tours",
+    seoDescription: "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. Private 4x4 from Marrakech. From $480.",
     featured: false,
   },
 
@@ -1150,6 +1186,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 34.0331, lng: -5.0003, name: "Fes el-Bali, Imperial City" },
+    seoTitle: "4-Day Agadir to Fes Tour — High Atlas, Aït Ben Haddou & Imperial City | Marrakech Eco Tours",
+    seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From $360.",
     featured: false,
   },
   {
@@ -1225,6 +1263,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 35.1688, lng: -5.2636, name: "Chefchaouen, Rif Mountains" },
+    seoTitle: "5-Day Agadir to Chefchaouen Tour — Fes, Volubilis & Blue City | Marrakech Eco Tours",
+    seoDescription: "5-day tour from Agadir to Morocco's Blue City via Marrakech, Fes, the Roman ruins of Volubilis, and the imperial gates of Meknes. Private 4x4 with riads. From $420.",
     featured: false,
   },
   {
@@ -1306,6 +1346,8 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 34.0209, lng: -6.8416, name: "Rabat, Atlantic Capital" },
+    seoTitle: "All 4 Imperial Cities Morocco 6-Day Tour from Agadir — Marrakech, Meknes, Fes & Rabat | Marrakech Eco Tours",
+    seoDescription: "Grand 6-day circuit from Agadir through all four Moroccan imperial cities — Marrakech, Meknes, Fes, and Rabat. Private 4x4 with riad accommodation. From $560.",
     featured: false,
   },
 ];

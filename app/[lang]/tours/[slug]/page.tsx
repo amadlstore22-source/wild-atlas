@@ -52,11 +52,57 @@ export default async function TourDetailPage({ params }: TourParams) {
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: tour.rating,
+      reviewCount: tour.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `https://marrakechecotours.com/${lang}` },
+      { "@type": "ListItem", position: 2, name: "Tours", item: `https://marrakechecotours.com/${lang}/tours` },
+      { "@type": "ListItem", position: 3, name: tour.title, item: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
+    ],
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What is included in the ${tour.title}?`,
+        acceptedAnswer: { "@type": "Answer", text: tour.includes.join(". ") + "." },
+      },
+      {
+        "@type": "Question",
+        name: `What is the difficulty level of the ${tour.title}?`,
+        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} is rated ${tour.difficulty} difficulty. It lasts ${tour.duration} and is suitable for groups of ${tour.groupSize}.` },
+      },
+      {
+        "@type": "Question",
+        name: `How much does the ${tour.title} cost?`,
+        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} starts from $${tour.price} per person. A deposit of $${tour.depositAmount} is required to confirm your booking.` },
+      },
+      {
+        "@type": "Question",
+        name: `What is the meeting point for the ${tour.title}?`,
+        acceptedAnswer: { "@type": "Answer", text: `The meeting point is ${tour.meetingPoint.name}. Our guide will meet you there at the arranged time.` },
+      },
+    ],
   };
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
         <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority />

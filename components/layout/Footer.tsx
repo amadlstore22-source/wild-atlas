@@ -161,6 +161,8 @@ export default function Footer({ lang, dict }: Props) {
         <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/30">
           <p>© {new Date().getFullYear()} {SITE.name}. {dict.footer.rights}</p>
           <div className="flex gap-5">
+            <Link href={`/${lang}/privacy`} className="hover:text-white transition-colors">{dict.footer.privacy}</Link>
+            <Link href={`/${lang}/terms`} className="hover:text-white transition-colors">{dict.footer.terms}</Link>
             <a href={`mailto:${SITE.email}`} className="hover:text-white transition-colors">{dict.footer.contact}</a>
           </div>
         </div>

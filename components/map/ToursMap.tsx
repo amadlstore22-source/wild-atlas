@@ -47,6 +47,11 @@ export default function ToursMap({ lang }: { lang: Locale }) {
               attribution="Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
               maxZoom={19}
             />
+            <TileLayer
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+              attribution=""
+              maxZoom={19}
+            />
             {TOURS.map((tour) => (
               <Marker
                 key={tour.id}

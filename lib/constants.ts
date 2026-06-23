@@ -9,13 +9,17 @@ export const SITE = {
   paypal: "wildatlas",
   address: "Marrakech, Morocco",
   country: "MA",
-  tourCount: 18,
+  tourCount: 21,
   experienceYears: 10,
   clientCount: "1,000+",
   countryCount: "40+",
   foundedYear: 2012,
   depositDays: 14,
   responseHours: 24,
+  // Optional full-screen hero video (mp4/webm). Leave empty to use the
+  // Ken Burns still image instead — the hero falls back automatically.
+  heroVideo: "",
+  heroPoster: "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=85",
 } as const;
 
 export const SOCIAL = {

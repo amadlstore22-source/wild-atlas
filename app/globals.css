@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-forest: #2D5016;
-  --color-moss: #4A7C2F;
-  --color-sunset: #E07B39;
-  --color-sand: #F5E6C8;
-  --color-sky: #4A90A4;
-  --color-charcoal: #1A1A1A;
-  --color-offwhite: #FAFAF7;
-  --color-sand-dark: #E8D4A8;
+  /* Palette per brand brief: Atlas green + deep-desert brown + sand */
+  --color-forest: #4B5D3A;   /* Atlas green */
+  --color-moss: #6B7F4E;     /* lighter Atlas green */
+  --color-sunset: #8B5E3C;   /* deep desert brown — single warm accent */
+  --color-sand: #E9DDC7;     /* sand */
+  --color-sky: #5E7460;      /* muted green-grey (was blue; keep one accent) */
+  --color-charcoal: #111111; /* dark charcoal */
+  --color-offwhite: #FFFFFF; /* white */
+  --color-sand-dark: #D8C9AC;
 
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-cormorant);
@@ -18,8 +19,8 @@
 }
 
 :root {
-  --background: #FAFAF7;
-  --foreground: #1A1A1A;
+  --background: #FFFFFF;
+  --foreground: #111111;
 }
 
 *, *::before, *::after {
@@ -27,9 +28,20 @@
 }
 
 html {
-  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
+}
+
+/* Lenis smooth-scroll — required base styles.
+   When JS is disabled or reduced-motion is on, fall back to native smooth. */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+.lenis.lenis-smooth iframe { pointer-events: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: smooth; }
 }
 
 body {
@@ -60,7 +72,7 @@ body::before {
   max-height: 960px;
   top: -5%;
   right: -18%;
-  background: radial-gradient(circle, rgba(224, 123, 57, 0.35) 0%, rgba(224, 123, 57, 0.10) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(139, 94, 60, 0.30) 0%, rgba(139, 94, 60, 0.09) 40%, transparent 70%);
   animation: orb-drift-a 28s ease-in-out infinite;
 }
 
@@ -71,7 +83,7 @@ body::after {
   max-height: 820px;
   bottom: 10%;
   left: -15%;
-  background: radial-gradient(circle, rgba(74, 144, 164, 0.30) 0%, rgba(74, 144, 164, 0.08) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(75, 93, 58, 0.26) 0%, rgba(75, 93, 58, 0.07) 40%, transparent 70%);
   animation: orb-drift-b 35s ease-in-out infinite;
 }
 
@@ -88,7 +100,7 @@ body::after {
   max-height: 700px;
   top: 40%;
   left: 20%;
-  background: radial-gradient(circle, rgba(45, 80, 22, 0.22) 0%, rgba(45, 80, 22, 0.06) 45%, transparent 70%);
+  background: radial-gradient(circle, rgba(107, 127, 78, 0.20) 0%, rgba(107, 127, 78, 0.06) 45%, transparent 70%);
   animation: orb-drift-c 42s ease-in-out infinite;
 }
 
@@ -106,25 +118,25 @@ h3 { font-weight: 600; }
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
-  background: #E8D4A8;
+  background: #D8C9AC;
   border-radius: 999px;
   transition: background 0.2s;
 }
-::-webkit-scrollbar-thumb:hover { background: #4A7C2F; }
+::-webkit-scrollbar-thumb:hover { background: #6B7F4E; }
 
 /* Leaflet map fix for Next.js */
 .leaflet-container { z-index: 1; }
 
 /* Focus ring */
 :focus-visible {
-  outline: 2px solid #E07B39;
+  outline: 2px solid #8B5E3C;
   outline-offset: 2px;
 }
 
 /* Selection */
 ::selection {
-  background: rgba(224, 123, 57, 0.18);
-  color: #1A1A1A;
+  background: rgba(139, 94, 60, 0.18);
+  color: #111111;
 }
 
 /* ============================================================
@@ -191,13 +203,13 @@ h3 { font-weight: 600; }
 }
 
 @keyframes price-beacon {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(45,80,22,0); }
-  50%       { box-shadow: 0 0 0 6px rgba(45,80,22,0.06); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(75,93,58,0); }
+  50%       { box-shadow: 0 0 0 6px rgba(75,93,58,0.06); }
 }
 
 @keyframes cta-glow {
-  0%, 100% { box-shadow: 0 4px 20px rgba(224,123,57,0.18); }
-  50%       { box-shadow: 0 4px 32px rgba(224,123,57,0.42); }
+  0%, 100% { box-shadow: 0 4px 20px rgba(139,94,60,0.18); }
+  50%       { box-shadow: 0 4px 32px rgba(139,94,60,0.42); }
 }
 
 /* ============================================================
@@ -317,7 +329,7 @@ h3 { font-weight: 600; }
   font-family: var(--font-serif), Georgia, serif;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #111111;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   letter-spacing: -0.01em;
@@ -327,13 +339,13 @@ h3 { font-weight: 600; }
   font-family: var(--font-serif), Georgia, serif;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #111111;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
 .blog-prose p {
-  color: rgba(26,26,26,0.7);
+  color: rgba(17,17,17,0.7);
   line-height: 1.85;
   margin-bottom: 1.25rem;
   font-size: 1.0625rem;
@@ -346,7 +358,7 @@ h3 { font-weight: 600; }
 }
 
 .blog-prose li {
-  color: rgba(26,26,26,0.7);
+  color: rgba(17,17,17,0.7);
   line-height: 1.75;
   margin-bottom: 0.5rem;
   padding-left: 1.25rem;
@@ -361,11 +373,11 @@ h3 { font-weight: 600; }
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #E07B39;
+  background: #8B5E3C;
 }
 
 .blog-prose strong {
-  color: #1A1A1A;
+  color: #111111;
   font-weight: 600;
 }
 
@@ -379,18 +391,18 @@ h3 { font-weight: 600; }
 }
 
 .blog-prose th {
-  background: #F5E6C8;
-  color: #1A1A1A;
+  background: #E9DDC7;
+  color: #111111;
   font-weight: 600;
   padding: 0.7rem 1rem;
   text-align: left;
-  border-bottom: 1px solid #E8D4A8;
+  border-bottom: 1px solid #D8C9AC;
 }
 
 .blog-prose td {
   padding: 0.65rem 1rem;
-  border-bottom: 1px solid #E8D4A8;
-  color: rgba(26,26,26,0.7);
+  border-bottom: 1px solid #D8C9AC;
+  color: rgba(17,17,17,0.7);
 }
 
 .blog-prose tr:last-child td {
@@ -398,7 +410,7 @@ h3 { font-weight: 600; }
 }
 
 .blog-prose tr:nth-child(even) td {
-  background: rgba(245,230,200,0.2);
+  background: rgba(233,221,199,0.25);
 }
 
 /* ============================================================
@@ -416,7 +428,7 @@ h3 { font-weight: 600; }
 
 .moroccan-bg {
   position: relative;
-  background-color: #FAFAF7;
+  background-color: #FFFFFF;
   overflow: hidden;
 }
 
@@ -434,7 +446,7 @@ h3 { font-weight: 600; }
   height: 70%;
   top: -20%;
   left: -10%;
-  background: radial-gradient(circle, rgba(224, 123, 57, 0.22) 0%, rgba(224, 123, 57, 0.07) 45%, transparent 70%);
+  background: radial-gradient(circle, rgba(139, 94, 60, 0.20) 0%, rgba(139, 94, 60, 0.06) 45%, transparent 70%);
   animation: orb-drift-a 24s ease-in-out infinite;
 }
 
@@ -443,7 +455,7 @@ h3 { font-weight: 600; }
   height: 60%;
   bottom: -10%;
   right: -5%;
-  background: radial-gradient(circle, rgba(74, 144, 164, 0.18) 0%, rgba(74, 144, 164, 0.06) 45%, transparent 70%);
+  background: radial-gradient(circle, rgba(75, 93, 58, 0.16) 0%, rgba(75, 93, 58, 0.05) 45%, transparent 70%);
   animation: orb-drift-b 30s ease-in-out infinite reverse;
 }
 
@@ -453,7 +465,7 @@ h3 { font-weight: 600; }
 
 .section-divider-warm {
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(224, 123, 57, 0.2), rgba(245, 230, 200, 0.6), rgba(224, 123, 57, 0.2), transparent);
+  background: linear-gradient(to right, transparent, rgba(139, 94, 60, 0.2), rgba(233, 221, 199, 0.6), rgba(139, 94, 60, 0.2), transparent);
 }
 
 /* ============================================================

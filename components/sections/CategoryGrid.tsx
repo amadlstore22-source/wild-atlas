@@ -15,7 +15,11 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
     return acc;
   }, {});
 
-  const [hero, tall, ...rest] = CATEGORIES;
+  // Never render a category with zero tours — it would link to a dead page.
+  const visibleCategories = CATEGORIES.filter((cat) => (countByCategory[cat.id] ?? 0) > 0);
+  if (visibleCategories.length === 0) return null;
+
+  const [hero, tall, ...rest] = visibleCategories;
 
   return (
     <section className="py-24">
@@ -77,6 +81,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
           </Link>
 
           {/* Cell 2: Tall right — spans 2 rows on lg */}
+          {tall && (
           <Link
             href={`/${lang}/categories/${tall.id}`}
             className="group relative overflow-hidden rounded-2xl lg:row-span-2 reveal-scale"
@@ -104,6 +109,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
               </span>
             </div>
           </Link>
+          )}
 
           {/* Cells 3-5: smaller bottom row */}
           {rest.map((cat) => (

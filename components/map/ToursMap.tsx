@@ -8,7 +8,7 @@ import type { Locale } from "@/app/[lang]/dictionaries";
 
 // Fix leaflet default icon in Next.js
 const icon = L.divIcon({
-  html: `<div style="width:36px;height:36px;background:#E07B39;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3)"></div>`,
+  html: `<div style="width:36px;height:36px;background:#8B5E3C;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3)"></div>`,
   iconSize: [36, 36],
   iconAnchor: [18, 36],
   className: "",

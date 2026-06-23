@@ -345,7 +345,7 @@ export const TOURS: Tour[] = [
     id: "6",
     slug: "marrakech-medina-cultural-tour",
     title: "Marrakech Medina — Private Cultural Tour",
-    category: "day-tours",
+    category: "cultural",
     origin: "marrakech",
     tourType: "private",
     difficulty: "easy",
@@ -620,7 +620,7 @@ export const TOURS: Tour[] = [
     id: "11",
     slug: "taroudant-day-trip-agadir",
     title: "Agadir to Taroudant — Day Trip",
-    category: "day-tours",
+    category: "cultural",
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
@@ -839,7 +839,7 @@ export const TOURS: Tour[] = [
     id: "15",
     slug: "souss-valley-cultural-tour",
     title: "Agadir to Souss Valley — Argan & Berber Culture Tour",
-    category: "day-tours",
+    category: "cultural",
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
@@ -1074,6 +1074,235 @@ export const TOURS: Tour[] = [
         title: "Rabat → Casablanca → Marrakech",
         description:
           "Optional stop at the Hassan II Mosque in Casablanca (exterior — the world's largest mosque outside of Saudi Arabia). Continue south to Marrakech. Arrive by evening.",
+      },
+    ],
+    meetingPoint: { lat: 34.0209, lng: -6.8416, name: "Rabat, Atlantic Capital" },
+    featured: false,
+  },
+
+  // ─────────────────────────────────────────────
+  // IMPERIAL CITIES FROM AGADIR
+  // ─────────────────────────────────────────────
+  {
+    id: "19",
+    slug: "agadir-to-fes-4day",
+    title: "Agadir to Fes — 4-Day Imperial Cities Tour",
+    category: "imperial",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–12 people",
+    reviewCount: 34,
+    rating: 4.7,
+    price: 360,
+    depositAmount: 90,
+    heroImage:
+      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
+      "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
+    ],
+    shortDescription:
+      "From the Atlantic coast to the medieval heart of Morocco — Marrakech, the High Atlas, the cedar forests, and the ancient medina of Fes.",
+    description:
+      "Starting from Agadir, this four-day journey climbs from the Atlantic coast through Marrakech and over the High Atlas before reaching Fes el-Bali — the world's largest living medieval city. Cross the Tizi n'Tichka pass, pause at the UNESCO Ksar of Aït Ben Haddou, wander the Middle Atlas cedar forests where wild Barbary macaques roam, and lose yourself in the labyrinthine souks of Fes.",
+    highlights: [
+      "Tizi n'Tichka mountain pass (2,260 m)",
+      "Aït Ben Haddou UNESCO World Heritage Ksar",
+      "Ifrane — Morocco's Alpine village",
+      "Cedar Forest of Azrou and Barbary macaques",
+      "Fes el-Bali medina and Chouara Tanneries",
+    ],
+    includes: [
+      "Private 4x4 transport throughout",
+      "English/French-speaking guide",
+      "3 nights riad accommodation",
+      "Breakfast daily",
+      "All transfers and tolls",
+    ],
+    excludes: ["Lunches and dinners", "Tips", "Return transport from Fes"],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Marrakech",
+        description:
+          "Depart Agadir in the morning. Drive north along the Atlantic plain to Marrakech (3h). Afternoon at leisure or optional medina walk. Night in a Marrakech riad.",
+      },
+      {
+        day: 2,
+        title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
+        description:
+          "Ascend the Atlas via Tizi n'Tichka. Visit Aït Ben Haddou. Continue through the Ziz Valley to Midelt for the night.",
+      },
+      {
+        day: 3,
+        title: "Midelt → Ifrane → Azrou Cedar Forest → Fes",
+        description:
+          "Drive through the Middle Atlas. Stop in Ifrane and the cedar forest at Azrou to spot wild Barbary macaques. Arrive Fes by afternoon. Check in to your riad.",
+      },
+      {
+        day: 4,
+        title: "Fes Medina Full Day",
+        description:
+          "Guided exploration of Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the labyrinthine souks. Tour concludes in Fes.",
+      },
+    ],
+    meetingPoint: { lat: 34.0331, lng: -5.0003, name: "Fes el-Bali, Imperial City" },
+    featured: false,
+  },
+  {
+    id: "20",
+    slug: "agadir-to-chefchaouen-5day",
+    title: "Agadir to Chefchaouen — 5-Day Blue City Tour",
+    category: "imperial",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "5 days / 4 nights",
+    groupSize: "2–12 people",
+    reviewCount: 22,
+    rating: 4.9,
+    price: 420,
+    depositAmount: 105,
+    heroImage:
+      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
+      "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
+      "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
+    ],
+    shortDescription:
+      "Five days from the Atlantic coast to the blue-washed streets of Chefchaouen — via Marrakech, Fes, and the Roman ruins of Volubilis.",
+    description:
+      "This five-day circuit begins in Agadir and threads together Morocco's most photogenic destinations. Drive up to Marrakech, cross the Middle Atlas cedar forests, explore Fes el-Bali — the world's largest medieval city — visit the Roman ruins of Volubilis and the imperial gates of Meknes, then finish in Chefchaouen, the legendary Blue City tumbling down the flanks of the Rif Mountains.",
+    highlights: [
+      "Chefchaouen — the Blue City of the Rif Mountains",
+      "Fes el-Bali UNESCO medina and Chouara Tanneries",
+      "Cedar Forest of Azrou and wild Barbary macaques",
+      "Volubilis Roman ruins (UNESCO World Heritage)",
+      "Meknes — the Moroccan Versailles",
+    ],
+    includes: [
+      "Private 4x4 transport throughout",
+      "English/French-speaking guide",
+      "4 nights riad accommodation",
+      "Breakfast daily",
+      "All transfers and tolls",
+    ],
+    excludes: ["Lunches and dinners", "Tips", "Return transport from Chefchaouen"],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Marrakech",
+        description:
+          "Depart Agadir in the morning. Drive north to Marrakech (3h). Afternoon at leisure. Night in a Marrakech riad.",
+      },
+      {
+        day: 2,
+        title: "Marrakech → Ifrane → Fes",
+        description:
+          "Depart Marrakech early. Cross the Middle Atlas. Stop in Ifrane and the Azrou cedar forest for Barbary macaques. Arrive Fes by evening. Check in to your riad.",
+      },
+      {
+        day: 3,
+        title: "Fes Medina Full Day",
+        description:
+          "Full guided day in Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the ancient souks. Evening walk on the medina walls.",
+      },
+      {
+        day: 4,
+        title: "Fes → Volubilis → Meknes → Chefchaouen",
+        description:
+          "Morning visit to Volubilis — Morocco's best-preserved Roman ruins. Drive to Meknes (the Moroccan Versailles). Continue to Chefchaouen in the Rif Mountains. Arrive by evening.",
+      },
+      {
+        day: 5,
+        title: "Chefchaouen Full Day",
+        description:
+          "Full day in the Blue City. Guided walk through the medina's blue-washed lanes, the Spanish Mosque viewpoint, and the Ras El-Maa waterfall. Tour concludes in Chefchaouen.",
+      },
+    ],
+    meetingPoint: { lat: 35.1688, lng: -5.2636, name: "Chefchaouen, Rif Mountains" },
+    featured: false,
+  },
+  {
+    id: "21",
+    slug: "agadir-imperial-cities-6day",
+    title: "Agadir — All 4 Imperial Cities — 6-Day Grand Tour",
+    category: "imperial",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "6 days / 5 nights",
+    groupSize: "2–12 people",
+    reviewCount: 18,
+    rating: 4.8,
+    price: 560,
+    depositAmount: 140,
+    heroImage:
+      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
+      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=85",
+    ],
+    shortDescription:
+      "Morocco's four imperial capitals in six days from the Atlantic coast — Marrakech, Meknes, Fes, and Rabat.",
+    description:
+      "Starting from Agadir, this six-day grand circuit takes in all four of Morocco's imperial cities — Marrakech, Meknes, Fes, and Rabat — each a different chapter of the country's thousand-year history. From the rose city of Marrakech to the labyrinthine medina of Fes, the monumental gates of Meknes, and the UNESCO coastal capital of Rabat. One of the great overland journeys in Africa.",
+    highlights: [
+      "All 4 Imperial Cities: Marrakech, Meknes, Fes, Rabat",
+      "Volubilis Roman ruins (UNESCO World Heritage)",
+      "Hassan II Mosque in Rabat",
+      "Chouara Tanneries in Fes",
+      "Bab Mansour — the greatest gate in North Africa",
+    ],
+    includes: [
+      "Private 4x4 transport throughout",
+      "English/French/Spanish-speaking guide",
+      "5 nights riad accommodation",
+      "Breakfast daily",
+      "All transfers, tolls, and entrance fees",
+    ],
+    excludes: ["Lunches and dinners", "Tips"],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Marrakech",
+        description:
+          "Depart Agadir in the morning. Drive north to Marrakech (3h). Afternoon medina walk or at leisure. Night in a Marrakech riad.",
+      },
+      {
+        day: 2,
+        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
+        description:
+          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou. Continue to Midelt for the night in the high plains between the two Atlas ranges.",
+      },
+      {
+        day: 3,
+        title: "Midelt → Volubilis → Meknes",
+        description:
+          "Morning at the Volubilis Roman ruins. Afternoon in Meknes: Bab Mansour gate, the royal granaries, and the medina souks. Night in Meknes.",
+      },
+      {
+        day: 4,
+        title: "Meknes → Fes Full Day",
+        description:
+          "Full day in Fes el-Bali with an expert guide. Chouara Tanneries, Al-Qarawiyyin, Medersa Bou Inania, and the ancient jewellers' souk. Night in Fes.",
+      },
+      {
+        day: 5,
+        title: "Fes → Rabat",
+        description:
+          "Drive west to Rabat on the Atlantic coast. Visit the Hassan Tower and Mohammed V Mausoleum, the Kasbah of the Udayas, and the walled medina. Night in Rabat.",
+      },
+      {
+        day: 6,
+        title: "Rabat → Casablanca → Marrakech",
+        description:
+          "Optional stop at the Hassan II Mosque in Casablanca (exterior — the world's largest mosque outside of Saudi Arabia). Continue south to Marrakech. Onward transfer to Agadir or overnight. Tour concludes.",
       },
     ],
     meetingPoint: { lat: 34.0209, lng: -6.8416, name: "Rabat, Atlantic Capital" },

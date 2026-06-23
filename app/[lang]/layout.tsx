@@ -5,6 +5,7 @@ import "../globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import SmoothScroll from "@/components/ui/SmoothScroll";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
 const dmSans = DM_Sans({
@@ -85,6 +86,7 @@ export default async function LocaleLayout({
         <link rel="alternate" hrefLang="x-default" href="https://marrakechecotours.com/en" />
       </head>
       <body className="min-h-full flex flex-col antialiased">
+        <SmoothScroll />
         {/* Third atmospheric orb — mid-page forest green */}
         <div className="orb-mid" aria-hidden="true" />
         <Header lang={locale} dict={dict} />

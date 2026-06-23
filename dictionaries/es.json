@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "tours": "Tours",
+    "about": "Sobre nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "bookNow": "Reservar"
+  },
+  "hero": {
+    "eyebrow": "Marruecos y Más Allá",
+    "headline1": "Donde la Aventura",
+    "headline2": "Encuentra lo Salvaje",
+    "subheadline": "Trekking guiado por expertos, tours por el desierto y aventuras culturales — en el corazón del Atlas, el Sáhara y más allá.",
+    "trustLine": "{tourCount} tours saliendo de Marrakech & Agadir · Con la confianza de {clientCount} aventureros",
+    "searchPlaceholder": "Buscar tours, destinos...",
+    "allTours": "Todos los tours",
+    "fromMarrakech": "Desde Marrakech",
+    "fromAgadir": "Desde Agadir",
+    "searchBtn": "Buscar",
+    "browseAll": "Ver todos los tours",
+    "planCustom": "Planificar viaje personalizado"
+  },
+  "trustBar": {
+    "certified": "Guías locales certificados",
+    "smallGroups": "Grupos privados y personalizados",
+    "ecoFriendly": "Eco-responsable",
+    "support": "Soporte 24/7",
+    "flexible": "Cancelación gratuita"
+  },
+  "categories": {
+    "title": "Explorar por categoría",
+    "subtitle": "Desde trekking en alta montaña hasta paseos culturales por la medina — encuentra tu experiencia perfecta en Marruecos.",
+    "trekking": "Trekking",
+    "hiking": "Senderismo",
+    "desert": "Desierto",
+    "cultural": "Cultural",
+    "excursion": "Excursión",
+    "sky": "Aventuras aéreas"
+  },
+  "featuredTours": {
+    "eyebrow": "Los más populares",
+    "title": "Aventuras destacadas",
+    "subtitle": "Tours cuidadosamente seleccionados que obtienen constantemente reseñas de 5 estrellas de viajeros de todo el mundo.",
+    "viewAll": "Ver todos los tours",
+    "from": "Desde",
+    "perPerson": "/ persona",
+    "days": "días",
+    "viewTour": "Ver tour"
+  },
+  "whyUs": {
+    "eyebrow": "Por qué elegirnos",
+    "title": "Creado para aventureros de verdad",
+    "subtitle": "No somos una plataforma de reservas. Somos un equipo de guías locales apasionados que viven y respiran los paisajes salvajes de Marruecos.",
+    "certified": {
+      "title": "Guías de montaña certificados",
+      "desc": "Todos nuestros guías cuentan con certificaciones oficiales del Ministerio de Turismo de Marruecos y tienen años de experiencia en el campo."
+    },
+    "smallGroups": {
+      "title": "Grupos privados y personalizados",
+      "desc": "Salidas privadas y tamaños de grupo personalizados disponibles. Mayor seguridad, experiencias más profundas y atención completamente personalizada."
+    },
+    "eco": {
+      "title": "Deja huella cero",
+      "desc": "Colaboramos con comunidades locales y seguimos estrictos principios ecológicos para proteger los paisajes de Marruecos."
+    },
+    "responsive": {
+      "title": "Soporte humano rápido",
+      "desc": "Personas reales responden en {hours} horas. WhatsApp, correo electrónico o teléfono — siempre localizables."
+    }
+  },
+  "ourStory": {
+    "eyebrow": "Nuestra historia",
+    "title": "Nacidos en el Atlas",
+    "body1": "Marrakech Eco Tours fue fundado por un grupo de guías bereberes que crecieron haciendo trekking por el Alto Atlas. Creemos que la mejor manera de experimentar Marruecos es con personas que lo llaman hogar.",
+    "body2": "Cada ruta que ofrecemos es una que conocemos íntimamente — los valles escondidos, los pueblos bereberes que no aparecen en los mapas, los campamentos del desierto donde el silencio es absoluto.",
+    "stat1Label": "Años guiando",
+    "stat2Label": "Aventureros felices",
+    "stat3Label": "Tours disponibles",
+    "meetTeam": "Conoce al equipo",
+    "teamTitle": "Los guías detrás de las aventuras",
+    "teamSubtitle": "Nacidos en las montañas, formados en el campo, apasionados por Marruecos."
+  },
+  "testimonials": {
+    "eyebrow": "Reseñas de viajeros",
+    "title": "Historias reales, aventuras reales",
+    "subtitle": "Más de 1.000 aventureros han confiado en nosotros su experiencia en Marruecos.",
+    "verified": "Viajero verificado"
+  },
+  "gallery": {
+    "eyebrow": "En el campo",
+    "title": "Marruecos a través de nuestra lente",
+    "subtitle": "Capturado por nuestros guías durante tours reales."
+  },
+  "cta": {
+    "eyebrow": "¿Listo para explorar?",
+    "title": "Planifica tu perfecta aventura en Marruecos",
+    "subtitle": "Explora todos nuestros {tourCount} tours desde Marrakech y Agadir — o cuéntanos tu sueño y construiremos el viaje a tu medida.",
+    "browseAll": "Ver todos los tours",
+    "whatsapp": "WhatsApp",
+    "customTrip": "Viaje personalizado",
+    "trust1": "Cancelación gratuita 14 días antes",
+    "trust2": "Respuesta en {hours} horas",
+    "trust3": "5 estrellas por más de 1.000 viajeros"
+  },
+  "tours": {
+    "pageTitle": "Todos los tours",
+    "pageSubtitle": "{count} aventuras saliendo de Marrakech & Agadir",
+    "searchPlaceholder": "Buscar tours, destinos...",
+    "allLevels": "Todos los niveles",
+    "easy": "Fácil",
+    "moderate": "Moderado",
+    "challenging": "Difícil",
+    "expert": "Experto",
+    "all": "Todos",
+    "clearFilters": "Borrar todos los filtros",
+    "clear": "Borrar",
+    "noToursFound": "No se encontraron tours",
+    "tryAdjusting": "Intenta ajustar tus filtros",
+    "toursFound": "{count} tour encontrado",
+    "toursFoundPlural": "{count} tours encontrados",
+    "customBannerTitle": "¿Viajando con un grupo grande o quieres un itinerario completamente personalizado?",
+    "customBannerDesc": "Creamos planes a medida para grupos privados de cualquier tamaño — de 2 a 200. Cuéntanos tus fechas, intereses y presupuesto.",
+    "planCustomTrip": "Planificar un viaje personalizado"
+  },
+  "tourDetail": {
+    "overview": "Resumen",
+    "itinerary": "Itinerario",
+    "whatsIncluded": "Qué está incluido",
+    "included": "Incluido",
+    "notIncluded": "No incluido",
+    "planYourTrip": "Planifica tu viaje a Marruecos",
+    "sidebarDesc": "Explora todos los tours desde Marrakech y Agadir — desde excursiones de un día hasta expediciones de 7 días.",
+    "browseAllTours": "Ver todos los tours",
+    "planCustomTrip": "Viaje personalizado",
+    "relatedArticles": "Artículos relacionados",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "blog": {
+    "pageTitle": "Blog de viajes por Marruecos",
+    "pageSubtitle": "Guías, itinerarios y consejos de expertos locales certificados",
+    "startHere": "Empieza aquí",
+    "exploreByRegion": "Explorar por región",
+    "exploreByRegionDesc": "Cada artículo pertenece a una rama geográfica de Marruecos.",
+    "completeGuide": "Guía completa de Marruecos",
+    "readGuide": "Leer la guía",
+    "latestArticles": "Últimos artículos",
+    "allTopics": "Todos los temas",
+    "allRegions": "← Todas las regiones",
+    "noArticles": "No hay artículos en esta categoría todavía.",
+    "viewAll": "Ver todos los artículos",
+    "readyTitle": "¿Listo para experimentar Marruecos?",
+    "readyDesc": "Explora todos los tours desde Marrakech y Agadir — desde medias jornadas hasta expediciones de 7 días por la montaña.",
+    "browseAll": "Ver todos los tours",
+    "article": "artículo",
+    "articles": "artículos",
+    "minRead": "min de lectura",
+    "by": "Por",
+    "guestPost": "Artículo invitado por",
+    "guestContributor": "Colaborador invitado"
+  },
+  "about": {
+    "pageTitle": "Nuestra historia",
+    "pageSubtitle": "Nacidos en el Atlas. Construidos para el mundo."
+  },
+  "contact": {
+    "pageTitle": "Contáctanos",
+    "pageSubtitle": "Estamos listos para ayudarte a planificar tu aventura perfecta.",
+    "email": "Correo electrónico",
+    "phone": "WhatsApp / Teléfono",
+    "basedIn": "Con sede en",
+    "responseTime": "Tiempo de respuesta",
+    "responseValue": "En 24 horas",
+    "faqTitle": "Preguntas frecuentes",
+    "formName": "Nombre completo",
+    "formEmail": "Correo electrónico",
+    "formPhone": "Teléfono / WhatsApp",
+    "formTour": "Tour de interés",
+    "formMessage": "Tu mensaje",
+    "formSubmit": "Enviar mensaje",
+    "formSuccess": "¡Mensaje enviado! Te responderemos en 24 horas.",
+    "formError": "Algo salió mal. Por favor inténtalo de nuevo o contáctanos por WhatsApp."
+  },
+  "footer": {
+    "tagline": "Tours de aventura en Marruecos con guías expertos. Grupos pequeños, guías certificados, experiencias reales.",
+    "quickLinks": "Enlaces rápidos",
+    "explore": "Explorar",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "tours": "Tours",
+    "blog": "Blog",
+    "backToBlog": "Blog",
+    "readMore": "Leer más",
+    "learnMore": "Saber más",
+    "bookNow": "Reservar",
+    "contactUs": "Contáctanos",
+    "perPerson": "/ persona",
+    "from": "Desde",
+    "days": "días",
+    "hours": "horas",
+    "minutes": "min",
+    "difficulty": {
+      "easy": "Fácil",
+      "moderate": "Moderado",
+      "challenging": "Difícil",
+      "expert": "Experto"
+    }
+  }
+}

@@ -1,0 +1,1223 @@
+export type BlogRegion =
+  | "root"
+  | "atlas-mountains"
+  | "sahara-south"
+  | "imperial-cities"
+  | "coast-atlantic"
+  | "agadir-region";
+
+export const BLOG_REGIONS: { id: BlogRegion; label: string; icon: string; description: string }[] = [
+  { id: "root", label: "Morocco", icon: "🇲🇦", description: "The complete Morocco travel guide" },
+  { id: "atlas-mountains", label: "Atlas Mountains", icon: "⛰️", description: "Trekking, Berber villages, and the High Atlas" },
+  { id: "sahara-south", label: "Sahara & South", icon: "🏜️", description: "Desert camps, dunes, and the Draa Valley" },
+  { id: "imperial-cities", label: "Imperial Cities", icon: "🕌", description: "Marrakech, Fes, Chefchaouen, and beyond" },
+  { id: "coast-atlantic", label: "Coast & Atlantic", icon: "🌊", description: "Essaouira, surf towns, and the Atlantic shore" },
+  { id: "agadir-region", label: "Agadir Region", icon: "🌴", description: "Southern beaches, gorges, and the Anti-Atlas" },
+];
+
+export interface BlogAuthor {
+  name: string;
+  role: string;
+  avatar?: string;
+  isGuest?: boolean;
+}
+
+export const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false };
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  heroImage: string;
+  category: "trekking" | "desert" | "culture" | "tips" | "wildlife";
+  region?: BlogRegion;
+  author?: BlogAuthor;
+  readTime: number;
+  publishedAt: string;
+  tags: string[];
+  seoTitle?: string;
+  seoDescription?: string;
+}
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    slug: "morocco-ultimate-adventure-travel-guide",
+    author: MET_TEAM,
+    title: "Morocco: The Ultimate Adventure Travel Guide",
+    excerpt:
+      "From the snowy peaks of the High Atlas to the golden dunes of the Sahara, Morocco is one of the world's great adventure destinations. This is your complete guide to exploring it.",
+    heroImage:
+      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 12,
+    publishedAt: "2025-01-01",
+    tags: ["Morocco", "adventure travel", "Morocco guide", "travel Morocco", "Morocco tourism"],
+    seoTitle: "Morocco Adventure Travel Guide 2025 — Complete Overview",
+    seoDescription:
+      "Your complete guide to adventure travel in Morocco — Atlas Mountains, Sahara desert, imperial cities, Atlantic coast, and southern regions. Where to go, when to go, and what to expect.",
+    content: `
+## Why Morocco?
+
+Few countries pack as much variety into as small a space as Morocco. In a single week you can wake up above the snowline in the High Atlas, eat lunch in a 1,000-year-old medina, watch the sunset over Saharan dunes from camelback, and fall asleep to the sound of Atlantic waves. The geography is extraordinary: a country shaped by three mountain ranges, two coastlines, and the world's largest hot desert.
+
+Morocco is also, crucially, safe, well-connected, and genuinely welcoming. It sits four hours from most of Europe, has modern airports in Marrakech, Casablanca, Agadir, and Fes, and requires no visa for most Western passport holders. The infrastructure for adventure tourism — licensed mountain guides, desert camps, riads, and local operators — has been built up over decades and is now excellent.
+
+This guide is the root of a tree. Each section below links to a dedicated deep-dive for that region. Read it end-to-end for orientation, or jump to the region that interests you.
+
+## The Five Moroccos
+
+Morocco is not one place. It is at least five distinct landscapes, each with its own character, cuisine, culture, and adventure offering.
+
+### The Atlas Mountains
+The High Atlas runs northeast from Agadir to the Algerian border, forming a 700 km spine of peaks, many above 3,000 m. Jbel Toubkal (4,167 m) is North Africa's highest mountain and the centrepiece of the region's trekking. The valleys between the peaks — Ourika, Aït Bou Guemez, Ait Benhaddou — are inhabited by Amazigh (Berber) communities who have farmed these hillsides for thousands of years. The Atlas offers some of the finest non-technical trekking in Africa: genuine altitude, real wilderness, and deep cultural immersion.
+
+**Best for:** Trekking, summit bids, Berber culture, gorge hikes, waterfall walks.
+
+### The Sahara and the South
+South of the Atlas, Morocco drops into the pre-Saharan zone — a landscape of dramatic kasbahs, date palm oases, and dried riverbeds that eventually give way to the great sand seas. Erg Chebbi near Merzouga and Erg Chegaga near M'hamid are Morocco's two main dune fields, both genuinely spectacular. The route south — through Ouarzazate, the Draa Valley, and the Todra Gorge — is one of Africa's great road journeys.
+
+**Best for:** Desert camping, camel trekking, kasbah tours, stargazing, photography.
+
+### The Imperial Cities
+Marrakech, Fes, Meknes, and Rabat are Morocco's four imperial capitals — cities that served as the heart of successive Moroccan dynasties. Each has a UNESCO-listed medina of extraordinary complexity: thousands of alleyways, centuries-old mosques, working souks, and tanneries unchanged since the medieval period. In the north, Chefchaouen adds a fifth unmissable city — its blue-washed medina in the Rif Mountains is Morocco's most photographed urban landscape.
+
+**Best for:** History, architecture, food, souks, cultural immersion.
+
+### The Atlantic Coast
+Morocco's Atlantic coastline stretches over 2,500 km from Tangier in the north to Lagouira in the south. The most compelling stretch for travellers runs from Asilah through Rabat, Casablanca, El Jadida, Essaouira, Agadir, and into the deep south. Essaouira is the cultural centrepiece — a UNESCO-listed 18th-century Portuguese fortified medina where white walls meet Atlantic wind. Taghazout, north of Agadir, has become one of the world's premier surf destinations.
+
+**Best for:** Surfing, windsurfing, seafood, coastal medinas, beach holidays.
+
+### The Agadir Region and Anti-Atlas
+Southern Morocco south of Agadir is the least visited and, for many travellers, the most rewarding. The Anti-Atlas mountains are ancient — among the oldest exposed rock formations on earth — and the landscapes of Tafraoute, Tiznit, and the Ameln Valley are extraordinary. Paradise Valley, just 35 km from Agadir, offers a lush palm gorge with natural swimming pools that most visitors never discover. The Souss-Massa National Park protects one of the last wild populations of Northern Bald Ibis.
+
+**Best for:** Off-the-beaten-path hiking, argan country, swimming, wildlife, authentic Berber culture.
+
+## Adventure by Type
+
+### Trekking and Hiking
+Morocco's trekking options range from gentle valley walks to serious summit bids. The Toubkal massif is the obvious centrepiece, but the M'Goun traverse (4,071 m, Morocco's second highest peak) is arguably more beautiful and less crowded. The Anti-Atlas, the Rif Mountains above Chefchaouen, and the gorges of the Middle Atlas all offer excellent hiking with almost no other trekkers.
+
+All licensed Moroccan mountain guides hold certification from the Ministry of Tourism. Always use a certified guide for any route above 3,000 m.
+
+### Desert Expeditions
+A Sahara trip works best as 3–5 days minimum — long enough to get deep into the dunes, experience true desert isolation, and give the drive south its due weight as part of the experience. Single-night desert camps are available but feel rushed. The overnight camp to sunrise camel ride is the irreducible minimum.
+
+### Cultural Immersion
+Morocco's cities reward slow travel. A week in Fes is not too long. The souks, the food, the architecture, the music — none of it reveals itself in a day. Budget two nights minimum in any medina city and at least half a day guided by someone who grew up there.
+
+### Water and Coast
+Essaouira and Taghazout for surfing (consistent Atlantic swell, warm water relative to Europe, professional surf schools). Paradise Valley and the Ourika River for freshwater swimming. The Todra and Dades gorges for river trekking. Morocco's water adventures are under-known and excellent.
+
+## When to Go
+
+Morocco has no single best season — it depends entirely on what you are doing and where.
+
+| Region | Best Months |
+|---|---|
+| Atlas Mountains (trekking) | May–October |
+| Sahara and South | October–April |
+| Imperial Cities | March–May, September–November |
+| Atlantic Coast | May–September |
+| Agadir and Anti-Atlas | March–June, September–November |
+
+The two shoulder seasons — **April–May** and **September–October** — are the closest to universally good. Everything is accessible, temperatures are reasonable everywhere, and the crowds are manageable.
+
+## Practical Essentials
+
+**Visa:** Citizens of the EU, UK, USA, Canada, Australia, Japan, and most Western countries do not need a visa for stays under 90 days. Your passport must be valid for at least 6 months beyond your travel dates.
+
+**Currency:** Moroccan Dirham (MAD). Not freely convertible — exchange on arrival or at ATMs in major cities. Cards accepted in riads and restaurants; cash essential in souks, villages, and anywhere outside the cities.
+
+**Language:** Arabic and Tamazight (Berber) are official languages. French is widely spoken in business and tourism. English is increasingly common in Marrakech, Agadir, and Fes. In villages, French or basic Arabic phrases go a long way.
+
+**Health:** No mandatory vaccinations. Hepatitis A recommended. Drink bottled or filtered water only. Standard travel insurance covers most medical needs; add altitude cover if trekking above 3,000 m.
+
+**Getting around:** Domestic flights (RAM, Air Arabia) connect the major cities in under an hour. CTM and Supratours buses are reliable for intercity routes. Shared grand taxis are excellent for short regional routes. For mountain and desert travel, private 4x4 with a guide is the best option.
+
+## Where to Start
+
+If this is your first Morocco trip, start in Marrakech. It has the best international flight connections, the most developed tourism infrastructure, and it gives you a base for both the Atlas (day trips or multi-day treks) and day excursions south. Fly in, spend two nights in the medina, then head to the mountains or the south.
+
+If you have been to Marrakech before, fly into Agadir for the south and Anti-Atlas, or Fes for the north and imperial cities circuit. Both reward a completely different side of Morocco.
+
+The deep-dive guides below cover each region in full detail.
+    `,
+  },
+  {
+    slug: "how-to-climb-toubkal-complete-guide",
+    region: "atlas-mountains",
+    author: MET_TEAM,
+    title: "How to Climb Jbel Toubkal: The Complete Guide for 2025",
+    excerpt:
+      "At 4,167 metres, Jbel Toubkal is the highest peak in North Africa. Here is everything you need to know — best season, fitness requirements, gear list, and what to expect on summit day.",
+    heroImage:
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+    category: "trekking",
+    readTime: 9,
+    publishedAt: "2025-04-10",
+    tags: ["Toubkal", "High Atlas", "trekking", "Morocco hiking"],
+    seoTitle: "How to Climb Jbel Toubkal 2025 — Complete Guide | Marrakech Eco Tours",
+    seoDescription:
+      "Everything you need to climb Toubkal — best season, fitness level, gear list, and day-by-day itinerary from Marrakech. Expert advice from certified Atlas guides.",
+    content: `
+## What Is Jbel Toubkal?
+
+Jbel Toubkal (4,167 m / 13,671 ft) is the highest mountain in Morocco and the highest peak in North Africa. It sits in the High Atlas range, roughly 70 km south of Marrakech, and can be reached from the mountain village of Imlil in around two days of trekking.
+
+Unlike the technical routes of the Alps or Himalayas, Toubkal is a non-technical climb — no ropes, no ice axes in summer — which makes it accessible to fit hikers with no mountaineering experience. That said, the altitude, distance, and steep scree demand genuine physical preparation.
+
+## Best Season to Climb
+
+**May–October** is the main trekking window. July and August are the most popular months: the snow has melted on the South Cirque route, days are long, and skies are reliably clear. The trade-off is heat in the lower valleys and slightly more trekkers at the refuge.
+
+**September and October** are arguably the finest months — the summer crowds thin out, temperatures are comfortable, and the High Atlas wildflowers are still blooming. We consider October the sweet spot.
+
+**November–April**: Winter ascents are possible but require crampons, an ice axe, and experience with snow travel. The summit area can hold ice well into May. Do not attempt the winter route without a certified alpine guide.
+
+## Fitness Requirements
+
+Toubkal is graded **challenging**. You should be able to:
+
+- Walk 6–8 hours per day carrying a daypack (5–8 kg)
+- Climb 1,000 m+ of vertical gain in a single day comfortably
+- Handle exposed scree trails and rocky ridgelines
+
+Prior hiking experience is expected. Those who have never hiked a mountain before should consider the Ourika Valley day hike first to gauge their baseline.
+
+## The Standard 4-Day Itinerary
+
+**Day 1 — Marrakech to Imlil to Aremd (1,840 m)**
+Transfer from Marrakech (1.5 hours). Trek from Imlil through the Berber village of Aremd. Welcome dinner with the guide.
+
+**Day 2 — Aremd to Toubkal Refuge (3,207 m)**
+The key acclimatisation day. Ascend through the Mizane Valley, passing the shrine of Sidi Chamharouch. Arrive at the refuge by early afternoon. Light walk for acclimatisation. Early to bed.
+
+**Day 3 — Summit Day (4,167 m)**
+Pre-dawn start, typically 4:30–5:00 am. The South Cirque route ascends via steep scree and rocky switchbacks. Most groups reach the summit in 3–4 hours. Sunrise from the summit is one of the greatest views in Africa — on a clear day, the Sahara is visible to the south and the Atlantic to the west. Descent back to the refuge, then down to Imlil.
+
+**Day 4 — Imlil to Marrakech**
+Morning descent through walnut groves and terraced fields. Transfer back to Marrakech by early afternoon.
+
+## What to Pack
+
+**Essentials**
+- Broken-in hiking boots with ankle support (mandatory)
+- Trekking poles (strongly recommended — the scree descent is hard on knees)
+- Warm mid-layer and waterproof jacket (temperatures drop below 0°C at the refuge even in summer)
+- Headlamp with spare batteries
+- Sunscreen SPF 50+ and glacier glasses
+
+**Clothing (layering system)**
+- Moisture-wicking base layer
+- Fleece or down mid-layer
+- Waterproof and windproof shell
+- Warm hat and gloves for the summit
+
+**Documents**
+- Passport (required for refuge registration)
+- Travel insurance with altitude cover
+
+## The Refuge
+
+The Toubkal Refuge (CAF Refuge, 3,207 m) is a managed mountain hut with dormitory-style bunk beds, blankets, hot showers, and cooked meals. It is basic but fully functional. Booking in advance during July–August is essential.
+
+## Guided vs. Independent
+
+Morocco's national parks permit solo trekking on the standard routes. However, a certified guide adds significant value:
+
+- Navigation on summit day in poor visibility
+- Local knowledge of weather patterns (storms build fast on the summit plateau)
+- Access to vetted local porters and mule teams
+- Language support in villages
+
+All our guides are certified by the Moroccan Ministry of Tourism and hold first-aid qualifications.
+
+## Frequently Asked Questions
+
+**Do I need a visa for Morocco?**
+Citizens of the EU, USA, UK, Canada, and most Western countries do not need a visa for stays under 90 days.
+
+**Can I do Toubkal in 2 days?**
+A 2-day ascent is possible (Imlil → Refuge → Summit → Imlil) but removes any acclimatisation time, significantly increasing the risk of altitude sickness. We recommend 3 or 4 days.
+
+**Is altitude sickness a risk?**
+Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sickness in some people. Ascending slowly, drinking 3–4 litres of water per day, and not rushing Day 2 are the key preventive measures.
+    `,
+  },
+  {
+    slug: "sahara-desert-morocco-what-to-expect",
+    region: "sahara-south",
+    author: MET_TEAM,
+    title: "Morocco's Sahara Desert: What to Expect on Your First Visit",
+    excerpt:
+      "The Sahara is unlike anything else on earth. Here is an honest guide to the Moroccan Sahara — which dunes are worth the journey, what a desert camp is really like, and how to avoid the tourist traps.",
+    heroImage:
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+    category: "desert",
+    readTime: 7,
+    publishedAt: "2025-03-22",
+    tags: ["Sahara", "Erg Chebbi", "Merzouga", "desert camping", "Morocco"],
+    seoTitle: "Morocco Sahara Desert: What to Expect — Honest Guide 2025",
+    seoDescription:
+      "An honest guide to the Moroccan Sahara — Erg Chebbi vs Erg Chegaga, real desert camp experience, best time to visit, and what not to believe in the brochures.",
+    content: `
+## Two Saharas, Two Experiences
+
+When people say "the Sahara from Marrakech," they usually mean **Erg Chebbi** near Merzouga — the most famous dune field in Morocco, with photo-perfect orange dunes rising to 150 metres. It is spectacular and genuinely worth the journey. It is also the most visited.
+
+**Erg Chegaga**, accessible from Agadir or M'hamid, is Morocco's larger and more remote dune field. Fewer tourists, longer drives (but more dramatic scenery along the route), and a stronger sense of true desert isolation. If solitude matters to you, this is your Sahara.
+
+## What a Desert Camp Is Really Like
+
+The term "luxury desert camp" covers a wide range — from genuine glamping (proper beds, private bathrooms, solar lighting, quality food) to basic tents with thin mattresses and chemical toilets. Ask the right questions before you book:
+
+- Is the camp inside the dunes or beside the road?
+- Is bedding private or shared?
+- What is included in dinner?
+- Is there a toilet inside the tent or shared outside?
+
+A good camp will be transparent about all of this. Our camps are inside the dune field, accessible only by camel — the road stays behind you.
+
+## The Camel Ride Reality
+
+The sunset camel trek into the dunes is the centrepiece of any Sahara trip. In truth, the ride lasts 45–60 minutes. Camels are not comfortable — they lurch heavily when standing and can feel unsteady. Almost everyone finds it worth it. A few people with back issues prefer to walk alongside.
+
+The sunrise camel return is shorter and usually done at a gentle walk. The light at 6:00 am over the dunes is extraordinary.
+
+## Best Time to Visit
+
+**October–April** is the ideal window. Desert temperatures are comfortable during the day (15–25°C) and cold at night (5–10°C). The Milky Way is at its clearest in autumn and winter.
+
+**May–September** is hot — very hot. Midday temperatures regularly reach 45°C+. Night skies are still spectacular, but the heat is genuinely difficult during travel days.
+
+## What Nobody Tells You
+
+**The drive is part of the experience.** The 9–10-hour drive from Marrakech to Merzouga crosses the High Atlas via Tizi n'Tichka (2,260 m), drops into the dramatic Draa Valley palmery, and passes the UNESCO Ksar of Aït Ben Haddou. It is not dead time — it is some of the most cinematic driving in Africa.
+
+**The dunes are cold at night.** Even in summer, desert nights are significantly cooler than the day. Bring a warm layer for the sunset and a light down jacket for the evening around the campfire.
+
+**Sand gets everywhere.** In your bags, your shoes, your camera. Bring a dry bag or ziplock for electronics. A buff or scarf for your face on windy days.
+
+## Erg Chebbi vs Erg Chegaga: Which Is Right for You?
+
+| | Erg Chebbi (Merzouga) | Erg Chegaga (M'hamid) |
+|---|---|---|
+| Dune height | Up to 150 m | Up to 300 m |
+| Crowds | Moderate | Low |
+| Drive from Marrakech | 9–10 hours | 8–9 hours |
+| Drive from Agadir | 7–8 hours | 5–6 hours |
+| Best for | First-time visitors | Those wanting solitude |
+
+## Practical Tips
+
+- **Book a camp that is inside the dunes**, not beside the road. The difference in experience is enormous.
+- **Bring cash.** There are no ATMs in the deep desert. Merzouga town has one unreliable machine.
+- **Protect your phone camera** from sand. A thin ziplock bag works perfectly.
+- **Pack earplugs** if you are a light sleeper — the pre-dawn call to prayer from nearby mosques carries far in the desert air.
+    `,
+  },
+  {
+    slug: "best-time-to-visit-morocco",
+    region: "root",
+    author: MET_TEAM,
+    title: "The Best Time to Visit Morocco (By What You Want to Do)",
+    excerpt:
+      "Morocco is a year-round destination — but the best month depends entirely on what you are planning. Here is a month-by-month breakdown from guides who live and work in the country.",
+    heroImage:
+      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "tips",
+    readTime: 6,
+    publishedAt: "2025-02-14",
+    tags: ["Morocco travel tips", "best time to visit", "weather", "seasons"],
+    seoTitle: "Best Time to Visit Morocco 2025 — Month by Month Guide",
+    seoDescription:
+      "When is the best time to visit Morocco? A practical month-by-month guide from local guides — for trekking, desert tours, beach holidays, and city breaks.",
+    content: `
+## Morocco Has Four Very Different Climates
+
+Most travel guides treat Morocco as a single climate zone. That is a mistake. The country spans Atlantic coastline, High Atlas peaks above 4,000 m, pre-Saharan valleys, and the true Sahara. The best time to visit depends on where you are going and what you want to do.
+
+## Month-by-Month Overview
+
+### January & February
+**Mountains**: Cold, snow above 2,000 m. Toubkal summit requires crampons and ice axe. Spectacular winter scenery for those equipped.
+**Marrakech city**: Cool and pleasant (10–15°C). Low crowds. The pink city feels at its most local.
+**Sahara**: Excellent — clear skies, cold nights, comfortable days (15–20°C). Best stargazing of the year.
+**Agadir coast**: Morocco's winter sun coast. 18–22°C, very popular with European sunseekers.
+**Anti-Atlas**: Almond blossom season (February) — the valleys around Tafraoute turn white and pink. One of the most beautiful sights in Morocco.
+
+### March & April
+The transition season and one of the finest times in Morocco overall. Wildflowers in the Atlas valleys, waterfalls at full flow, green landscapes before the summer heat arrives.
+**Trekking**: Excellent. Snow retreating from mid-altitude routes. Toubkal accessible from late April without crampons.
+**Sahara**: Still comfortable. Heat building in April.
+**Coast**: Warm and pleasant.
+
+### May
+Often the single best month in Morocco. Warm everywhere, green mountains, not yet hot. The Ouzoud Falls are at maximum flow. Toubkal summit is typically clear of snow.
+
+### June
+Early summer: hot in the south (Sahara, Draa Valley) but still comfortable in the mountains. Marrakech city reaches 35°C. The High Atlas is superb for trekking.
+
+### July & August
+**Mountains**: The peak trekking season. Long days, clear skies, maximum daylight hours on summit bids. Busiest period at the Toubkal Refuge.
+**Cities (Marrakech, Fes)**: Very hot — 38–45°C. If you are doing city tours, start before 9:00 am and finish by noon.
+**Sahara**: Extremely hot (45°C+). Only recommended for those who genuinely love extreme heat.
+**Agadir coast**: Morocco's best beach weather. Atlantic breeze keeps temperatures manageable (26–28°C).
+
+### September & October
+Our favourite months for almost everything. The summer crowds thin out, the heat breaks in the cities, and the Atlas wildflower season begins again. Toubkal is excellent. The Sahara is transitioning back to comfortable temperatures by October.
+
+### November & December
+**Cities**: Excellent. Marrakech and Fes at their most atmospheric, with fewer tourists and colourful skies.
+**Mountains**: Snow returning to the upper Atlas from November. Lower and mid-altitude routes remain excellent.
+**Sahara**: Very good. Night temperatures drop sharply; bring layers.
+
+## Quick Reference by Activity
+
+| Activity | Best Months |
+|---|---|
+| Toubkal Trek | May, June, July, August, September, October |
+| Sahara Desert Tour | October, November, December, January, February, March |
+| Marrakech City Break | March, April, May, October, November |
+| Agadir Beach | April–October |
+| Anti-Atlas Trekking | February (almond blossom), March–May, September–November |
+| Essaouira | May–September (wind season, ideal for surfing) |
+| Paradise Valley | April–October |
+
+## What About Ramadan?
+
+Ramadan (dates vary by year — check the Islamic calendar) changes the rhythm of Morocco but not its beauty. Many restaurants open for non-Muslim visitors during daylight hours. The evenings after Iftar (breaking of fast) are festive and atmospheric. We continue to run tours throughout Ramadan; some cultural sites have reduced hours.
+
+## The Bottom Line
+
+If you can only visit once: **April, May, or October**. You get every type of Morocco at its best — green mountains, comfortable desert, blue skies over the Atlantic, and lively cities without the summer heat.
+    `,
+  },
+  {
+    slug: "marrakech-to-fes-road-trip-guide",
+    region: "sahara-south",
+    author: MET_TEAM,
+    title: "Marrakech to Fes by Road: The Most Spectacular Drive in Africa",
+    excerpt:
+      "The overland route from Marrakech to Fes passes through the High Atlas, Aït Ben Haddou, the Draa Valley, cedar forests, and a medieval imperial city. Here is how to do it properly.",
+    heroImage:
+      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2025-01-30",
+    tags: ["Marrakech to Fes", "Morocco road trip", "Aït Ben Haddou", "Fes medina"],
+    seoTitle: "Marrakech to Fes Road Trip Guide 2025 — 3-Day Itinerary",
+    seoDescription:
+      "The complete guide to the Marrakech–Fes overland route: Tizi n'Tichka pass, Aït Ben Haddou, Merzouga, Ifrane, and Fes el-Bali. Day-by-day itinerary included.",
+    content: `
+## Why This Is One of the World's Great Road Journeys
+
+The direct Marrakech–Fes highway takes 6 hours and is almost entirely unremarkable. The scenic overland route — crossing the High Atlas, dipping into the Saharan south, and climbing back through the Middle Atlas — takes 3 days and crosses three completely different Moroccos.
+
+This is not a road trip you rush. Every stop along the route is a destination in its own right.
+
+## Day 1 — Marrakech → Tizi n'Tichka → Aït Ben Haddou → Ouarzazate
+
+**The High Atlas Pass (Tizi n'Tichka, 2,260 m)**
+The first 90 minutes from Marrakech ascend the High Atlas via one of Morocco's most dramatic mountain roads. The Tizi n'Tichka pass sits at 2,260 m — high enough for snow in winter — and offers sweeping views back towards the Haouz plain and south towards the pre-Saharan desert.
+
+**Aït Ben Haddou**
+UNESCO World Heritage Ksar, 30 km north of Ouarzazate. This extraordinary fortified mud-brick village has appeared in more Hollywood films than almost any location on earth — Gladiator, Game of Thrones, Lawrence of Arabia, The Mummy. Allow 2 hours to walk through the ksar and climb to the granary at the top.
+
+**Ouarzazate**
+The self-styled "door of the desert" — a pleasant small city with a large kasbah and several riad hotels. Overnight here.
+
+## Day 2 — Ouarzazate → Draa Valley → Todra Gorge → Midelt
+
+**Draa Valley Palmery**
+The road south from Ouarzazate follows the Draa River through 200 km of date palm groves, ancient ksour (fortified villages), and pre-Saharan hammada. This is southern Morocco at its most cinematic. Stop at Agdz and Zagora for tea and a walk through the market.
+
+**Todra Gorge**
+Enormous 300 m red limestone walls squeezed to just 10 metres apart at the gorge floor. The late afternoon light turns the canyon walls orange. Rock climbers come from across Europe for the walls; for everyone else, a 30-minute walk through the gorge is sufficient and extraordinary.
+
+**Midelt**
+A small town in the high plain between the High and Middle Atlas, surrounded by cedar forest. A useful overnight stop and genuinely pleasant in autumn when the apple orchards around the town are in season.
+
+## Day 3 — Midelt → Ifrane → Azrou Cedar Forest → Fes
+
+**Ifrane — Morocco's Alpine Village**
+An unexpected colonial-era mountain town built in the 1930s that looks unmistakably Swiss — red-pitched roofs, neat parks, a ski resort. At 1,665 m it is dramatically cooler than the surrounding lowlands. The stone lion sculpture in the town centre is the most photographed object in Ifrane.
+
+**Azrou Cedar Forest**
+A few kilometres from Ifrane, the ancient cedar forest of Azrou is the best place in Morocco to encounter wild Barbary macaques — the only wild primates in Africa north of the Sahara. They come to the roadside and will take fruit from your hand. Note: do not feed them anything processed.
+
+**Fes el-Bali**
+Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is the world's largest car-free urban zone and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin University (the oldest university in the world), the Medersa Bou Inania, and the thousand-year-old souks.
+
+## Practical Notes
+
+**Driving yourself vs. guided tour**
+The route is driveable in a standard car except immediately after heavy snowfall on the Tichka pass in winter. That said, navigating southern Morocco without a local guide means missing a great deal of context — the history of every ksar, the right place to stop for lunch, shortcuts through the palmery. Our 3-day guided tour covers the full route with a private 4x4 and experienced guide.
+
+**Where to stay**
+- Ouarzazate: La Maison Arabe des Roses, Riad Dar Zitoune
+- Todra/Midelt: Kasbah Aït Ben Moro or Hôtel Ayour
+- Fes: Riad Laaroussa, Riad Dar Roumana (book at least 3 months in advance in peak season)
+
+**What to budget**
+Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night. The full guided tour (private 4x4, English-speaking guide, 2 nights riad accommodation, breakfast daily): from $290 per person sharing.
+    `,
+  },
+  {
+    slug: "paradise-valley-agadir-complete-guide",
+    region: "agadir-region",
+    author: MET_TEAM,
+    title: "Paradise Valley Near Agadir: Everything You Need to Know",
+    excerpt:
+      "Paradise Valley is one of Morocco's best-kept secrets — a lush palm gorge with natural swimming pools just 35 km from Agadir. Here is how to get there, what to bring, and when to go.",
+    heroImage:
+      "https://images.unsplash.com/photo-1730219625244-5938a698780d?w=1600&q=85",
+    category: "tips",
+    readTime: 5,
+    publishedAt: "2025-05-08",
+    tags: ["Paradise Valley", "Agadir", "Morocco hiking", "swimming", "day trip"],
+    seoTitle: "Paradise Valley Agadir: Complete Guide 2025 | Marrakech Eco Tours",
+    seoDescription:
+      "Everything about Paradise Valley near Agadir — how to get there, best swimming spots, what to pack, and the best time to visit this hidden palm gorge.",
+    content: `
+## What Is Paradise Valley?
+
+Paradise Valley (Vallée du Paradis) is a dramatic palm-lined gorge carved by the Tamraght River in the foothills of the Anti-Atlas, approximately 35 km north of Agadir. It is one of the most beautiful natural sites in southern Morocco and remains surprisingly unknown outside the country.
+
+The valley is defined by:
+- Towering date and Canary Island palms lining a canyon floor
+- Clear, cold mountain springs feeding a series of natural rock pools
+- Red and ochre canyon walls rising steeply on both sides
+- Agadir's famous argan trees covering the slopes above the canyon
+- A small Berber community at the valley head near Immouzer
+
+## Getting There
+
+**On a guided tour (recommended):** Our day tours from Agadir include round-trip transport, a guide who knows the best swimming spots, and a traditional Berber lunch with a local family. Pick-up from your hotel. Duration: 8:00 am–5:00 pm.
+
+**By taxi or car:** Take the N8 north from Agadir towards Immouzer des Ida Outanane. After approximately 30 km, follow signs to "Vallée du Paradis" or "Paradise Valley." The trailhead car park is signposted. A shared grand taxi from Agadir costs around 80–120 MAD per person.
+
+**Note:** The final 3 km descent into the valley is on a rough unpaved track. A standard car can manage in dry conditions; in wet weather, 4x4 is safer.
+
+## The Swimming Pools
+
+The valley has several natural swimming pools at different levels. The water comes from mountain springs and is cold year-round — refreshingly so in summer, genuinely cold in spring and autumn.
+
+**Lower pools** (near the car park): Easiest to access, usually with more people. Good for families with small children.
+
+**Middle pools**: A 20-minute walk upstream. Deeper, more dramatic setting with overhanging palms and canyon walls.
+
+**Upper pools** (near Immouzer): 1.5-hour walk. Almost no other visitors. The most spectacular setting in the valley — a series of linked rock basins under a natural stone arch.
+
+## Immouzer Waterfall
+
+At the top of the valley, near the village of Immouzer des Ida Outanane, a seasonal waterfall drops through limestone terraces. The fall is at its most impressive in spring (March–May) after winter rains. In summer it can reduce to a trickle or stop entirely.
+
+## What to Pack
+
+- Swimwear and a quick-dry towel
+- Water shoes or sandals with grip (the rocks at the pool edges are slippery)
+- A warm layer — the valley is noticeably cooler than Agadir
+- Sunscreen and hat (the descent to the valley offers no shade)
+- Plenty of water
+- Small daypack
+
+## When to Go
+
+**Best months:** April, May, June, September, October
+- April–May: The valley is greenest, the seasonal waterfall at its strongest, and temperatures perfect for hiking.
+- September–October: Cooler after summer, still warm enough for swimming, fewer visitors.
+
+**Summer (July–August):** Very hot on the approach road but the valley floor is significantly cooler. Swimming is excellent. Busier at weekends with Moroccan families.
+
+**Winter (December–February):** The water is very cold. The valley is beautiful but swimming is for the hardy.
+
+## Practical Tips
+
+- **Bring cash.** There are no card facilities in the valley. The small café at the car park and any local vendors are cash-only.
+- **Respect local customs.** The valley is visited by Moroccan families as well as tourists. Swimwear is fine at the pools but cover up in the village areas.
+- **The walk takes longer than it looks.** The terrain is uneven and the pools at the top involve real scrambling. Allow 3–4 hours for a full visit.
+- **Do not visit after heavy rain.** Flash floods can move through the gorge rapidly after storms in the Anti-Atlas. Check weather before visiting between November and March.
+    `,
+  },
+  {
+    slug: "essaouira-day-trip-from-agadir",
+    region: "coast-atlantic",
+    author: MET_TEAM,
+    title: "Essaouira Day Trip from Agadir: The Ultimate Guide",
+    excerpt:
+      "Essaouira is two hours north of Agadir and one of Morocco's most magical cities. Blue boats, ancient ramparts, fresh seafood, and the constant Atlantic wind. Here is how to make the most of a day trip.",
+    heroImage:
+      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+    category: "culture",
+    readTime: 6,
+    publishedAt: "2025-06-01",
+    tags: ["Essaouira", "Agadir day trip", "Morocco coast", "medina", "seafood"],
+    seoTitle: "Essaouira Day Trip from Agadir — Complete Guide 2025",
+    seoDescription:
+      "How to do Essaouira as a day trip from Agadir — what to see, where to eat, what to buy, and how to handle the famous Essaouira wind.",
+    content: `
+## Why Essaouira Is Worth the Drive
+
+Essaouira (Swiri in Berber, or "the wind" in Tamazight) is one of the most distinctive cities in North Africa. A 18th-century Portuguese-built fortified medina on the Atlantic coast, it combines whitewashed walls, blue fishing boats, crashing ocean waves, and a genuinely multicultural history — Berber, Arab, Jewish, Portuguese, and French layers visible on every street.
+
+Unlike Marrakech's medina, Essaouira's old town is relaxed. Touts are rare. The pace is slow. The light is extraordinary — Atlantic silver bouncing off white walls and blue painted doors.
+
+## Getting There from Agadir
+
+**By guided day tour:** Pick-up from Agadir at 8:00 am. Arrive Essaouira by 10:00 am. Depart 4:30 pm, back in Agadir by 6:30 pm. Our tour includes a guide for the medina, rampart walk, and 2 hours of free time for lunch and shopping.
+
+**By bus (CTM or Supratours):** Buses run 3–4 times daily from Agadir to Essaouira. Journey time: 2.5–3 hours. Return buses also available. Cost: approximately 80–100 MAD each way.
+
+**By grand taxi:** Share a grand taxi from Agadir's intra-urban taxi rank. Cost: 80–100 MAD per seat. Journey: 2–2.5 hours.
+
+## What to See in Essaouira
+
+### The Skala du Port (Sea Bastion)
+The most iconic image of Essaouira — the 18th-century sea walls with their line of bronze Portuguese cannons pointing at the Atlantic. The light here at any time of day is exceptional. Go early if you want the rampart walk without crowds.
+
+### The Blue Fishing Harbour
+Immediately below the sea walls, the working harbour is a riot of colour — blue-painted wooden boats, fishing nets spread to dry, seagulls, and the smell of the morning catch. Arrive before 11:00 am when the fishing boats are still coming in.
+
+### The Medina Souks
+Essaouira's souks are notably less aggressive than Marrakech's — you can browse in relative peace. The city is famous for:
+- **Thuya woodwork** — intricate furniture and objects made from Moroccan thuya root, unique to Essaouira
+- **Berber silver jewellery** — good quality at fair prices in the Mellah (former Jewish quarter)
+- **Argan cosmetics** — you are at the source of Morocco's argan production here
+
+### The Mellah (Jewish Quarter)
+Essaouira had a historically significant Jewish population through the 19th and early 20th centuries. The Mellah district retains Hebrew inscriptions above doorways and the synagogue at its centre.
+
+### The Beach
+Essaouira's 3-km beach stretches south from the medina walls. The consistent Atlantic wind makes this one of the top kitesurfing and windsurfing locations in Africa — spectacular to watch even if you are not participating. The beach is flat, wide, and backed by sand dunes.
+
+## Where to Eat
+
+**Harbour seafood stalls (Lunch, budget):** The line of grill stalls at the harbour entrance is the iconic Essaouira experience. Point at the fish you want, they grill it on the spot, you eat at a plastic table watching the boats. Sardines, sea bass, prawns. Lunch for two: 80–120 MAD.
+
+**Taros Café (Lunch, mid-range):** Rooftop terrace overlooking Place Moulay Hassan. Good tagines, fresh juices, and the best people-watching in the city. Get there before 1:00 pm.
+
+**Restaurant Elizir (Dinner, if staying overnight):** One of Essaouira's most reliable restaurants — Moroccan-Italian fusion inside a beautiful riad. Book ahead.
+
+## The Wind: What Nobody Warns You About
+
+Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* (trade wind) blows almost constantly from the north, particularly from May through September. In June–August it can be strong enough to make walking difficult and will cover your lunch with sand if you are not sitting in a sheltered corner.
+
+**Practical adjustment:** Bring a light jacket or long sleeves even in summer. The wind chill factor is significant. Hold onto any hats. Enjoy the fact that Essaouira is genuinely cooler than the rest of Morocco in summer — one reason Marrakechis have long come here to escape the heat.
+
+## Practical Tips
+
+- **Start the medina walk early** (10:00–11:30 am) before the day warms up and shops get busy
+- **The ramparts are free to walk** — follow signs for "Skala de la Ville" (north wall) and "Skala du Port" (sea wall)
+- **ATMs** are available on the main square (Place Moulay Hassan) and the street behind it
+- **Parking** is outside the medina walls — if driving independently, use the car park near the fishing port entrance
+- **Shops close 1:00–3:00 pm** for the midday break; plan your shopping for morning or late afternoon
+    `,
+  },
+  {
+    slug: "chefchaouen-complete-travel-guide",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Chefchaouen: The Blue City of Morocco — Complete Travel Guide",
+    excerpt:
+      "Chefchaouen is Morocco's most photogenic town — a labyrinth of blue-washed alleyways tucked into the Rif Mountains. Here is everything you need to know before you visit.",
+    heroImage:
+      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+    category: "culture",
+    readTime: 7,
+    publishedAt: "2025-07-15",
+    tags: ["Chefchaouen", "blue city", "Rif Mountains", "Morocco medina", "northern Morocco"],
+    seoTitle: "Chefchaouen Travel Guide 2025 — The Blue City of Morocco",
+    seoDescription:
+      "Your complete guide to Chefchaouen — why it's blue, what to see, where to stay, how to get there, and the best times to visit Morocco's most iconic mountain town.",
+    content: `
+## Why Is Chefchaouen Blue?
+
+The blue walls of Chefchaouen have sparked more debate than almost any other question in Moroccan travel. The most accepted explanation: the town's significant Jewish population in the 15th–20th centuries painted their homes blue to represent the sky and heaven, a tradition with deep roots in Jewish culture across the Mediterranean. After the Jewish community largely emigrated to Israel in the 1950s, the remaining population maintained and expanded the tradition — partly for aesthetic reasons, partly because it became central to the town's identity.
+
+Today, every shade of blue appears on Chefchaouen's walls: cobalt, cerulean, cornflower, periwinkle, and every blue-grey in between. The effect at dawn, when the medina is quiet and the light is soft, is genuinely beautiful.
+
+## Getting There
+
+**From Fes (3–3.5 hours):** The most common approach from the east. Regular CTM buses and shared taxis.
+
+**From Tangier (2.5 hours):** If you're arriving by ferry from Spain, Chefchaouen is a natural first stop.
+
+**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub.
+
+There is no train to Chefchaouen. The nearest train station is Fes.
+
+## The Medina: What to See
+
+### Uta el-Hammam Square
+The heart of Chefchaouen — a broad, fountain-centred plaza surrounded by café terraces. The 15th-century kasbah on the north side of the square houses a small ethnographic museum and a beautiful garden courtyard. Worth the 10 MAD entry fee.
+
+### The Blue Alleyways
+No map required. Getting genuinely lost in the medina is the point. The most photogenic streets are in the upper medina, above the main square — particularly the Rue Sidi Abdelhamid area, where stacked blue pots and draped textiles create impossibly perfect compositions.
+
+### Ain Tissimane Spring
+The natural spring at the top of the medina, where local women do laundry and residents fill water containers. One of the most authentic corners of the town, often overlooked by tourists focused on the lower medina.
+
+### Spanish Mosque
+A 15-minute walk above the medina, the former Spanish colonial mosque (now a ruin open to visitors) offers the best panoramic view of Chefchaouen and the Rif Mountains. Go at sunset.
+
+## Where to Stay
+
+Chefchaouen's riads are excellent value — you can stay in a beautiful blue-tiled room with mountain views for €30–60 per night. Book in advance in spring and autumn.
+
+**Budget:** Pension La Castellana (family-run, great rooftop)
+**Mid-range:** Dar Echchaouen or Dar Mounir (both beautiful riads inside the medina)
+**Splurge:** Lina Ryad & Spa (the most luxurious option, with a genuine spa)
+
+## Where to Eat
+
+**Bab Ssour Restaurant:** The terrace overlooking the medina gate is one of the best lunch spots. Traditional Rifi cuisine — harira soup, msemen bread, slow-cooked lamb.
+
+**Restaurant Tissekmadin:** In the upper medina, often overlooked. Outstanding lamb tagine with prunes and almonds. Local crowd, fair prices.
+
+**Aladdin Restaurant:** On the main square. Reliable, open late, good for watching the plaza at night.
+
+## Day Trips from Chefchaouen
+
+**Talassemtane National Park (30 minutes):** Cedar and fir forest with hiking trails and the dramatic "God's Bridge" natural arch. Barbary macaques are present.
+
+**Akchour Waterfalls (1 hour):** A 2.5-hour hike through river gorges leads to a spectacular 100-metre waterfall. One of the finest day hikes in northern Morocco.
+
+## Practical Tips
+
+- **Visit in spring (April–May) or autumn (September–October)** for cool temperatures and good light
+- **Morning light is everything** — the medina before 9:00 am is extraordinary and nearly empty
+- **Respect photography boundaries** — some residents, particularly older women, do not want to be photographed. Always ask.
+- **Haggle at the market** but with humour and patience — Chefchaouen's sellers are generally more relaxed than Marrakech
+- **Cannabis is prevalent** in the Rif region — visitors should be aware that possession, while widely tolerated locally, remains technically illegal in Morocco
+    `,
+  },
+  {
+    slug: "morocco-food-guide-what-to-eat",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Morocco Food Guide: 15 Dishes You Must Try (and Where to Find Them)",
+    excerpt:
+      "Moroccan cuisine is one of the most complex and aromatic in the world — built on centuries of Berber, Arab, Andalusian, and Jewish influence. Here are the 15 dishes that define it.",
+    heroImage:
+      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2025-08-20",
+    tags: ["Morocco food", "Moroccan cuisine", "tagine", "couscous", "Marrakech restaurants"],
+    seoTitle: "Morocco Food Guide 2025 — 15 Dishes You Must Try",
+    seoDescription:
+      "The essential Morocco food guide — from tagine and couscous to bastilla and harira. What to eat, where to find it, and what makes Moroccan cuisine so extraordinary.",
+    content: `
+## Why Moroccan Food Is Extraordinary
+
+Moroccan cuisine is the product of more than a thousand years of layered influence. The Amazigh (Berber) foundation — preserved lemons, olives, argan oil, hand-ground spices — was enriched by Arab spice routes, Andalusian refinement (the Moors expelled from Spain brought their recipes with them), Jewish culinary traditions, Ottoman touches in the north, and French colonial technique in the cities. The result is a cuisine of extraordinary depth and subtlety.
+
+## The Essential 15
+
+### 1. Tagine
+Morocco's most famous dish is named after the conical clay pot it's cooked in. The slow-cooking method concentrates flavours over hours, producing extraordinarily tender meat. The most classic combinations:
+- **Lamb tagine with prunes and almonds** — sweet, savoury, and complex
+- **Chicken tagine with preserved lemon and green olives** — the definitive Moroccan flavour
+- **Kefta tagine** — spiced meatballs with eggs in tomato sauce
+
+**Where:** Every riad restaurant serves tagine. For an exceptional version, seek out a local family restaurant rather than a tourist-facing establishment.
+
+### 2. Couscous
+By tradition, couscous is the dish of Friday — prepared by hand, steamed over a broth of seven vegetables, and served with slow-cooked lamb or chicken. The Friday couscous at a family home is incomparably better than any restaurant version.
+
+### 3. Bastilla (Pastilla)
+A Fassi speciality and arguably Morocco's most technically complex dish. Thin warqa pastry layered with spiced pigeon (or chicken) cooked with eggs and almonds, then dusted with cinnamon and sugar. The sweet-savoury combination is startling at first and addictive thereafter.
+
+**Where:** Fes is the home of bastilla. In Marrakech, Dar Yacout and Dar Moha serve reliable versions.
+
+### 4. Harira
+The soup that breaks the Ramadan fast each evening — a thick, warming broth of tomatoes, lentils, chickpeas, lamb, and fragrant herbs. Served with honey-dipped sfenj (doughnuts) or dates during Ramadan; available year-round at soup stalls in every medina.
+
+### 5. B'ssara
+Northern Morocco's breakfast soup — a thick purée of dried broad beans with olive oil, cumin, and paprika. Eaten with crusty bread, it is one of the most comforting and sustaining breakfasts imaginable.
+
+**Where:** The stalls outside Bab Boujloud in Fes serve the finest b'ssara in Morocco, from dawn.
+
+### 6. Mechoui
+Whole lamb slow-roasted in an underground clay oven for 4–6 hours until the meat falls from the bone. A celebratory dish, traditionally served at weddings and festivals. In Marrakech, the Djemaa el-Fna square has several mechoui stalls that serve it by the kilo.
+
+### 7. Rfissa
+A richly spiced stew of chicken, lentils, and fenugreek served over shredded msemen (flatbread). Traditionally prepared for new mothers to aid recovery, it is one of the most flavourful dishes in Moroccan home cooking.
+
+### 8. Zaalouk
+A smoky aubergine and tomato salad, cooked down with olive oil, garlic, and cumin. Served at room temperature as a starter (kemia). One of the essential flavours of a Moroccan meal.
+
+### 9. Taktouka
+Similar to zaalouk but made with roasted green peppers and tomatoes. Slightly sweet, slightly spicy. Often served alongside zaalouk as part of the opening kemia spread.
+
+### 10. Msemen and Meloui
+Layered, flaky flatbreads — msemen is square and folded, meloui is spiral-shaped. Both are griddle-cooked and served warm with argan oil and honey for breakfast. The single best breakfast in Morocco.
+
+### 11. Makouda
+Deep-fried potato fritters, sold by street vendors in every medina. Crispy outside, fluffy inside, served in a bread roll with harissa. The Moroccan fast food.
+
+### 12. Seffa
+Sweet couscous or vermicelli dusted with cinnamon, icing sugar, and raisins, topped with butter. Served as a dessert or between courses at a traditional feast. An unexpected and wonderful dish.
+
+### 13. Chebakia
+Honey-glazed sesame pastry, shaped into a flower, deep-fried and soaked in orange-blossom-scented honey. The signature sweet of Ramadan, sold in vast quantities in the weeks before the holy month.
+
+### 14. Argan Oil
+Not a dish but an ingredient so central to Moroccan cuisine it deserves its own entry. Cold-pressed from the fruit of the argan tree (found only in southwestern Morocco), culinary argan oil has a distinctive toasted-nut flavour. Poured over couscous, mixed into amlou (a paste of argan oil, almonds, and honey), or served with bread for breakfast.
+
+### 15. Atay (Moroccan Mint Tea)
+Gunpowder green tea brewed strong, poured from a height (to create foam), and served intensely sweet. Offered to guests as a sign of welcome everywhere in Morocco. Refusing it is considered impolite. Accepting three glasses is the norm.
+
+## Eating Well in Morocco: Practical Tips
+
+- **Eat where locals eat.** The best Moroccan food is not in restaurants designed for tourists. Follow the crowds, look for places with no English menus, and trust your nose.
+- **Lunch is the main meal.** Moroccans eat their largest meal at midday. The best-value and most authentic food is available at lunch.
+- **Vegetarians are well-served** — Moroccan vegetable tagines, salads, soups, and breads are excellent. Communicate clearly: "ana nabati" (I am vegetarian).
+- **Avoid tap water** in all cities. Bottled water or filtered water only.
+    `,
+  },
+  {
+    slug: "ourika-valley-day-trip-marrakech",
+    region: "atlas-mountains",
+    author: MET_TEAM,
+    title: "Ourika Valley Day Trip from Marrakech: The Complete Guide",
+    excerpt:
+      "Just 60 km from Marrakech, the Ourika Valley is the closest genuine High Atlas scenery to the city. Berber villages, a working river, and a waterfall hike — all in a half or full day.",
+    heroImage:
+      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
+    category: "trekking",
+    readTime: 5,
+    publishedAt: "2025-09-10",
+    tags: ["Ourika Valley", "Marrakech day trip", "High Atlas", "Berber villages", "hiking"],
+    seoTitle: "Ourika Valley Day Trip from Marrakech 2025 — Complete Guide",
+    seoDescription:
+      "Everything about the Ourika Valley day trip from Marrakech — what to see, the waterfall hike, Berber villages, best time to visit, and practical tips.",
+    content: `
+## What Is the Ourika Valley?
+
+The Ourika Valley (Vallée de l'Ourika) is a lush river valley carved into the foothills of the High Atlas, roughly 60 km south of Marrakech. The Ourika River rushes through a green corridor of terraced fields, walnut trees, and traditional Berber villages — a complete contrast to the red dust of Marrakech.
+
+It is the most accessible introduction to the High Atlas from the city, making it the ideal day trip for travellers who want mountain scenery without the commitment of a multi-day trek.
+
+## Getting There
+
+**On a guided tour (recommended):** Our Ourika Valley day tours include pick-up from Marrakech at 9:00 am, a knowledgeable local guide, lunch with a Berber family, and return by 5:00 pm. The guide context transforms the visit — every terrace, herb, and building has a story.
+
+**By private taxi:** A grand taxi from Marrakech to Setti Fatma (the end of the valley road) costs approximately 150–200 MAD per person return. Agree the price before departure.
+
+**By local bus:** Minibuses run from Bab er-Rob in Marrakech to Setti Fatma. Cheap but slow and crowded.
+
+## What to See and Do
+
+### The Valley Drive
+The road from Marrakech to Setti Fatma passes through some of the most fertile farmland in the Atlas foothills. Stop at the Berber market at Tnine de l'Ourika (held every Monday) if your visit coincides — one of the most genuine rural markets near Marrakech.
+
+### Berber Villages
+The valley is dotted with traditional Berber (Amazigh) villages — flat-roofed, earth-coloured homes clinging to the hillsides above the valley floor. Our guides arrange visits to local families, with opportunities to see traditional crafts, taste fresh argan oil, and see how a mountain household functions.
+
+### Setti Fatma and the Waterfalls
+At the valley's head, the village of Setti Fatma marks the start of a waterfall hike. A marked trail ascends the steep hillside above the village, crossing the river several times on stepping stones. The first and most accessible waterfall is reached in 30–40 minutes. Four more waterfalls are above, each requiring more scrambling than the last.
+
+**The route:** Riverbed walk → first waterfall (30 min) → second waterfall (+20 min) → third waterfall (+25 min). Most day visitors go to the first or second and return. The upper waterfalls are for the energetic.
+
+### The River
+In spring (April–June), the Ourika River is swollen with snowmelt from the High Atlas and runs fast and clear. Children swim in the pools, and the flat rocks along the bank are perfect for a picnic. In summer the river drops and warms; in autumn it is low but crystal clear.
+
+## When to Go
+
+**April–June:** The valley is at its greenest after winter rains. The river is full, waterfalls are at maximum flow, and the hills above are covered in wildflowers.
+
+**September–October:** Cooler, less crowded than summer, beautiful light on the Atlas peaks.
+
+**July–August:** Popular with Moroccan families escaping Marrakech heat. The valley floor gets busy at weekends but the waterfall trail is always walkable.
+
+**Avoid November–March** after heavy rains — flash floods in the valley are a genuine risk. The 2024 flood caused significant damage to Setti Fatma village; check conditions before visiting in winter.
+
+## Practical Tips
+
+- **Wear proper footwear.** The waterfall trail involves river crossings and wet rocks. Trail shoes or sturdy sandals with grip are minimum; hiking boots are better.
+- **Bring layers.** The valley is 600 m above Marrakech and noticeably cooler, especially in the shade of the gorge.
+- **Lunch at a terrace restaurant.** A dozen simple restaurants line the riverbank in Setti Fatma — tagine and fresh-squeezed juice, feet dangling over the water. Budget 60–80 MAD per person.
+- **Bargain at the market.** The women selling handmade Berber textiles along the trail are persistent but the prices are fair for handmade goods. If you are not buying, a firm but polite "la, shukran" (no, thank you) is always respected.
+    `,
+  },
+  {
+    slug: "agafay-desert-marrakech-guide",
+    region: "sahara-south",
+    author: MET_TEAM,
+    title: "The Agafay Desert: Marrakech's Secret Rocky Wilderness",
+    excerpt:
+      "Forget the Sahara for a moment — just 40 km from Marrakech lies the Agafay Desert, a vast lunar landscape of stone and silence. Here is why it deserves a place on every Morocco itinerary.",
+    heroImage:
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    category: "desert",
+    readTime: 5,
+    publishedAt: "2025-10-05",
+    tags: ["Agafay Desert", "Marrakech day trip", "Morocco desert", "camel trek", "glamping"],
+    seoTitle: "Agafay Desert Guide 2025 — Marrakech's Rocky Wilderness",
+    seoDescription:
+      "Everything about the Agafay Desert near Marrakech — what it is, what to do there, the best camps, and how it differs from the Sahara. Day trips and overnight stays explained.",
+    content: `
+## What Is the Agafay Desert?
+
+The Agafay Desert is not a sand desert — it is a stone desert. A vast hammada (rocky plateau) of compressed earth, limestone outcrops, and dried riverbeds stretching south and west from Marrakech towards the High Atlas foothills. At sunset, the plateau turns amber and red, and the jagged silhouette of the Atlas range fills the entire southern horizon.
+
+It is one of the most dramatic and atmospheric landscapes in Morocco, and it is just 40 km from Marrakech — a 45-minute drive.
+
+## Agafay vs. the Sahara: What's the Difference?
+
+Both are deserts. Neither has the other's defining feature.
+
+| | Agafay | Sahara (Erg Chebbi) |
+|---|---|---|
+| Surface | Rocky stone hammada | Golden sand dunes |
+| Distance from Marrakech | 40 km (45 min) | 550 km (9–10 hours) |
+| Best for | Half-day or overnight from Marrakech | Multi-day desert experience |
+| Dunes | None | Up to 150 m high |
+| Atlas views | Spectacular | Limited |
+| Crowds | Low | Moderate |
+
+Agafay is not a substitute for the Sahara — it is a completely different experience. But for travellers short on time, or those wanting wilderness without a 10-hour drive, it is extraordinary value.
+
+## What to Do in Agafay
+
+### Camel Trek at Sunset
+The classic Agafay experience: a 45-minute camel trek across the plateau as the Atlas peaks catch the last light. The sky over Agafay at dusk is extraordinary — no light pollution, total silence, and the pink and orange tones on the mountains.
+
+### Quad Biking
+The flat, open plateau is ideal for quad biking — 1–2-hour circuits through the rocky landscape at speed. Available through several operators at the desert edge.
+
+### Hot Air Balloon
+Marrakech's balloon operators often fly over the Agafay plateau at dawn — the views of the Atlas from 1,000 m above the desert are stunning. Book well in advance; flights operate at sunrise only.
+
+### Overnight Desert Camp
+The glamping camps at Agafay have developed significantly over recent years. The best offer private tent-suites with proper beds, en-suite bathrooms, and dining terraces looking directly at the Atlas. Dinner under the stars with a Gnawa musician is a genuinely magical experience.
+
+**Top camps:** Scarabeo Camp, Desert Luxury Camp, and Agafay Desert Camp are among the most established.
+
+## Practical Details
+
+**Getting there:** Private taxi or guided tour from Marrakech. The road to Agafay is paved all the way to the main camp area. No public transport.
+
+**Half-day tour:** Depart Marrakech at 3:30 pm, camel trek at sunset, dinner, return by 10:00 pm. The most popular option.
+
+**Overnight:** Arrive late afternoon, sunset camel trek, stargazing dinner, breakfast, return to Marrakech by 10:00 am. Strongly recommended over the half-day — the night sky over Agafay (no moon nights especially) is one of the most memorable experiences in Morocco.
+
+**Best season:** Year-round, but October–April is ideal. Summer days are very hot (40°C+); the evenings are always cooler.
+
+**What to bring:** Warm layer for the evening (the plateau loses heat rapidly after sunset), camera with low-light capability, lip balm and sunscreen.
+    `,
+  },
+  {
+    slug: "marrakech-medina-complete-guide",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Marrakech Medina: The Insider's Complete Guide",
+    excerpt:
+      "Djemaa el-Fna, the souks, the palaces, the hammams — Marrakech's medina is one of the most intense and rewarding urban experiences on earth. Here is how to navigate it without getting lost, ripped off, or overwhelmed.",
+    heroImage:
+      "https://images.unsplash.com/photo-1532295454114-d7bc89024613?w=1600&q=85",
+    category: "culture",
+    readTime: 9,
+    publishedAt: "2025-11-10",
+    tags: ["Marrakech", "medina", "Djemaa el-Fna", "souks", "Morocco city guide"],
+    seoTitle: "Marrakech Medina Guide 2025 — Everything You Need to Know",
+    seoDescription:
+      "The complete insider guide to Marrakech's medina — souks, palaces, hammams, food, and how to navigate the world's greatest labyrinth without getting overwhelmed.",
+    content: `
+## The Medina at a Glance
+
+Marrakech's medina (old city) was founded in 1070 by the Almoravid dynasty and has been continuously inhabited for nearly a thousand years. It is a UNESCO World Heritage Site, home to around 200,000 people, and contains some of the most important Islamic architecture in North Africa. It is also intensely commercial, perpetually noisy, and designed — architecturally speaking — to disorient outsiders.
+
+That disorientation is not a bug. The medina's labyrinthine layout was intentional: defensive in origin, neighbourhood-oriented by function, and utterly resistant to the logic of a grid city. Getting lost is part of the experience. The trick is knowing how to get unlost.
+
+## Djemaa el-Fna: The World's Greatest Square
+
+The UNESCO-designated "Masterpiece of the Oral and Intangible Heritage of Humanity" at the centre of the medina is Marrakech's beating heart. At midday it is a relatively quiet square — juice vendors, a few snake charmers, some henna artists. At sunset, it transforms.
+
+By 7:00 pm, the square is filled with perhaps 100 food stalls, each with its own barker, its own smoke, its own smell. Acrobats, storytellers, Gnawa musicians, fortune tellers, and the extraordinary Halqa (circle storytellers) perform simultaneously. The noise is tremendous. The food is excellent.
+
+**What to eat at the square:**
+- **Harira soup** — thick, warming, filling. 10–15 MAD per bowl.
+- **Snail soup** — a Djemaa speciality. Unusual and good.
+- **Merguez sandwiches** — grilled spiced lamb sausage in bread. 15 MAD.
+- **Freshly squeezed orange juice** — the vendors on the perimeter squeeze to order. 4 MAD a glass, best in Morocco.
+
+**What to avoid:** Agreeing to a price after service begins. Sit down, point at what you want, confirm the price before they bring it. The square's food stalls are famous for flexible pricing with tourists who do not ask first.
+
+## The Souks
+
+The souks (markets) occupy the northern half of the medina, roughly between Djemaa el-Fna and the Ben Youssef Mosque. They are organised by trade — historically, each craft had its own street or neighbourhood.
+
+**Key souks:**
+- **Souk Semmarine** — the main artery. Leather goods, textiles, lanterns. Starts immediately north of Djemaa el-Fna.
+- **Souk des Teinturiers** (Dyers' Souk) — hanks of freshly dyed wool hung to dry above a narrow alley. One of the most photogenic spots in the medina.
+- **Souk Cherratin** — leather goods and the smell of the tanneries nearby.
+- **Souk des Bijoutiers** — silver jewellery. The Mellah (old Jewish quarter) adjacent has excellent antique pieces.
+- **Souk Haddadine** — the blacksmiths' souk. Loud, smoky, genuine. Visit for the atmosphere, not to buy.
+
+**On bargaining:** It is expected and unavoidable. The opening price is typically 3–5× the acceptable price. Stay calm, show interest without urgency, and be willing to walk away — the vendor will often call you back with a better offer. Never accept the first price for anything. Never.
+
+## The Palaces
+
+**Bahia Palace** (free, open daily): A 19th-century vizier's palace of 150 rooms, built to be the most beautiful in all of Morocco. The craftsmanship — carved cedar ceilings, zellij tilework, painted stucco — is extraordinary. Allow 45 minutes.
+
+**El Badi Palace** (ruins, 70 MAD entry): The 16th-century Saadian palace that was once described as the most magnificent in the Islamic world. Stripped by Moulay Ismail in 1696, it now stands as atmospheric ruins — vast empty courtyards, sunken gardens, and stork nests on every wall. Better than Bahia for atmosphere.
+
+**Saadian Tombs** (70 MAD): The royal mausoleum of the Saadian dynasty, sealed for 200 years and only rediscovered in 1917. A small, exquisite space of exceptional craftsmanship. Queue early — it is small and gets crowded.
+
+## Ben Youssef Mosque and Medersa
+
+The Ben Youssef Medersa (Islamic college, 14th century, rebuilt 16th century) is the finest example of Moroccan-Andalusian architecture in Marrakech. The central courtyard, with its carved stucco, cedar woodwork, and zellij tilework rising three storeys, is one of the most beautiful interiors in North Africa. Entry 70 MAD. Non-Muslims may not enter the mosque but the medersa is open to all.
+
+## Hammams
+
+A visit to a traditional hammam (bathhouse) is one of the defining Marrakech experiences. There are two types:
+
+**Hammam beldi** (local public hammam): Cheap (10–20 MAD), no-frills, authentic. You bring your own black soap (savon beldi) and kessa glove (exfoliating mitt), both available in any souk pharmacy. No English, no menus — watch what others do. Separate hours or spaces for men and women.
+
+**Tourist hammam:** Cleaned up, English-speaking staff, full treatment packages (scrub, massage, tea). 150–400 MAD depending on the package. Recommended for first-timers. Les Bains de Marrakech and Hammam de la Rose are reliably good.
+
+## Practical Tips
+
+- **Start early.** The medina before 9:00 am is a different city — local, quiet, atmospheric. The tourist wave arrives at 10:00 am.
+- **Wear comfortable shoes.** The alleyways are uneven, sometimes wet, and you will walk 8–12 km in a full day.
+- **A guide is worth it for the first half-day.** Not because you cannot navigate alone, but because context transforms what you see. A good guide knows which doors to knock on, who to greet, and what the buildings meant. Book through your riad rather than accepting approaches on the street.
+- **The walls are pink because of the iron oxide in the local limestone.** The entire medina is built from the same material. The law requires all new buildings inside the ramparts to maintain the traditional pink tone.
+- **Carry small change.** Most transactions are 5–50 MAD. 200 MAD notes cause problems at small stalls.
+    `,
+  },
+  {
+    slug: "taghazout-surf-guide-morocco",
+    region: "coast-atlantic",
+    author: MET_TEAM,
+    title: "Taghazout: Morocco's Best Surf Village — Complete Guide",
+    excerpt:
+      "Taghazout, 20 km north of Agadir, has become one of the world's premier surf destinations. Consistent Atlantic swell, warm water, cheap living, and extraordinary scenery. Here is everything you need to know.",
+    heroImage:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=85",
+    category: "tips",
+    readTime: 7,
+    publishedAt: "2025-11-25",
+    tags: ["Taghazout", "Morocco surf", "Agadir", "surfing Morocco", "Atlantic coast"],
+    seoTitle: "Taghazout Surf Guide 2025 — Morocco's Premier Surf Destination",
+    seoDescription:
+      "The complete guide to surfing Taghazout, Morocco — best breaks, surf schools, when to go, where to stay, and what to expect from Morocco's most famous surf village.",
+    content: `
+## Why Taghazout?
+
+Twenty kilometres north of Agadir on Morocco's Atlantic coast, Taghazout has transformed from a small fishing village into one of the world's most visited surf destinations. The reasons are straightforward: consistent year-round swell from the North Atlantic, warm water relative to Europe (18–23°C), cheap accommodation and food, and a staggering variety of breaks within a 15-km stretch of coast.
+
+It is also, for now, still a real village. The whitewashed houses, the fishing boats pulled up on the beach, the Gnawa music in the evenings — Taghazout has commercialised substantially but has not yet lost its character. Visit before 2027 when the new resort development north of the village is scheduled to open.
+
+## The Breaks
+
+The Taghazout area has a dozen named surf spots within easy reach. These are the key ones:
+
+**Anchor Point**
+Morocco's most famous wave. A long right-hander that peels for 300+ metres over a rocky point north of the village. Works best on a medium swell (1.5–2.5 m) and produces some of the longest rides in the country. Gets crowded when it is good. Best at low–mid tide. Intermediate to advanced.
+
+**Taghazout Bay (Hash Point)**
+The beach break directly in front of the village. Mellow, forgiving, and consistent. The best beginner and early-intermediate wave in the area. Works on almost any swell. Lifeguards present in season.
+
+**Mysteries**
+A right-hander north of Anchor Point. Less consistent but exceptional when it fires — fast, hollow sections over a flat rock shelf. Advanced surfers only. Needs a solid swell (2 m+).
+
+**Banana Beach**
+A long crescent beach 3 km south of Taghazout. Softer beach break, ideal for beginners and intermediates, and significantly less crowded than Hash Point. Good for longboarding on small days.
+
+**Killer Point**
+A right-hander at Imsouane, 60 km north of Taghazout — technically a day trip but worth including. On a good swell it produces rides of up to 500 metres. One of the longest surfable waves in Africa.
+
+## When to Go
+
+**October–April:** The main surf season. North Atlantic storms generate consistent, powerful swells (1.5–3 m). Air temperatures are comfortable (18–24°C). Water stays at 18–20°C — a wetsuit (3/2 mm) is comfortable.
+
+**May–September:** Lighter, more variable swell. Water warms to 22–23°C. Ideal for beginners and those who prefer small, clean waves. Busy with European summer visitors in July–August.
+
+The single best months for experienced surfers: **November, December, January**. Big swell, fewer crowds, dramatic winter light.
+
+## Surf Schools
+
+Taghazout has dozens of surf schools. The standard has improved significantly — most now have qualified instructors, good equipment, and structured progression programmes.
+
+What to look for: ISA (International Surfing Association) qualified instructors, maximum 6–8 students per instructor, board rental included, video analysis available for progression.
+
+**Lesson prices:** Beginner group lesson (2 hours): 200–300 MAD. Private lesson (1.5 hours): 400–600 MAD. Week-long surf camp (accommodation + lessons + board): €300–600 per person.
+
+## Board Rental
+
+Board rental shops line the main street. Foam boards (beginners): 100–150 MAD per day. Fibreglass shortboards, fish, or longboards: 150–250 MAD per day. Wetsuit hire: 50–80 MAD per day.
+
+## Where to Stay
+
+**Budget:** The village has dozens of surf hostels and small guesthouses with dorm beds from 100 MAD/night. Atmosphere-filled, communal, social. Book ahead in peak season (December–February).
+
+**Mid-range:** Small boutique riads and surf hotels in and around the village. 300–600 MAD per night for a private room with breakfast.
+
+**Luxury:** The Paradis Plage Resort, 5 km north of the village, is Taghazout's premium option — direct beach access, pool, spa, surf school. From €180/night.
+
+## Beyond Surfing
+
+Taghazout is not only for surfers. Non-surfing partners and companions do well here:
+
+- **Yoga** — several studios run daily classes. Surf-yoga retreats are common.
+- **Argan cooperative visits** — the Souss region is the world's only source of argan oil. Women's cooperatives near Taghazout offer tours and buy-direct pricing.
+- **Agadir day trips** — the rebuilt modern city (much of old Agadir was destroyed in the 1960 earthquake) has a good souk, a marina, and Morocco's best beach promenade.
+- **Paradise Valley** — 35 km south, one of Morocco's most beautiful natural sites.
+
+## Practical Notes
+
+- **Getting there:** 25 minutes by taxi from Agadir Almassira Airport. Taxis from the airport rank: 100–150 MAD to Taghazout. Many surf camps offer airport pick-up.
+- **Eating:** Fresh fish tagines, grilled catch-of-the-day, Moroccan breakfast spreads. Café Aftas on the main beach is a reliable favourite. Budget 60–120 MAD per meal.
+- **Respect the lineup:** Surf etiquette applies. The local Moroccan surfers who grew up at these breaks deserve priority. Be friendly, patient, and respectful. The surf community here is welcoming to visitors who show the same courtesy.
+    `,
+  },
+  {
+    slug: "anti-atlas-trekking-guide",
+    region: "agadir-region",
+    author: MET_TEAM,
+    title: "Trekking the Anti-Atlas: Morocco's Forgotten Mountain Range",
+    excerpt:
+      "The Anti-Atlas is older than the Himalayas, less visited than the High Atlas, and arguably more beautiful. Here is the guide to trekking Morocco's most under-explored mountain range.",
+    heroImage:
+      "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=1600&q=85",
+    category: "trekking",
+    readTime: 8,
+    publishedAt: "2025-12-01",
+    tags: ["Anti-Atlas", "Tafraoute", "Morocco trekking", "Agadir", "off the beaten path"],
+    seoTitle: "Anti-Atlas Trekking Guide 2025 — Morocco's Hidden Mountain Range",
+    seoDescription:
+      "Your guide to trekking the Anti-Atlas mountains of Morocco — Tafraoute, the Ameln Valley, painted rocks, almond blossom, and trails with almost no other hikers.",
+    content: `
+## The Anti-Atlas: Morocco's Best-Kept Secret
+
+While trekkers crowd the Toubkal massif in the High Atlas, the Anti-Atlas — 200 km to the southwest — sits almost entirely un-visited. This is extraordinary, because the landscape is among the most dramatic in North Africa: ancient pink granite outcrops, deep rose-coloured valleys, Amazigh villages perched on impossibly steep hillsides, and almond orchards that turn white and pink every February.
+
+The Anti-Atlas is geologically ancient — 600 million years old, formed during the Pan-African orogeny. The rock here is some of the oldest exposed on earth. You feel it: the landscape has an eroded, elemental quality unlike the sharp peaks of the High Atlas.
+
+## Where to Base
+
+**Tafraoute** is the gateway to the Anti-Atlas and one of the most pleasant small towns in Morocco. Set in a bowl of pink granite and palm trees at 1,200 m, it has good riad accommodation, a lively Wednesday souk, and direct access to the best trekking in the region. Two nights minimum; four nights if you want to explore properly.
+
+**The Ameln Valley**, north of Tafraoute, is a 20 km valley of almond and argan terraces beneath 2,000 m granite walls — one of the most beautiful landscapes in Morocco. The villages along the valley — Oumesnat, Afella, Tafektast — have been inhabited for centuries and maintain strong traditions of architecture, craft, and Tachelhit (Berber) language and culture.
+
+## Key Treks
+
+### Ameln Valley Circuit (2 days, moderate)
+The finest introduction to the Anti-Atlas. Start in Tafraoute, trek north into the Ameln Valley, overnight in Oumesnat village with a Berber family, continue through the upper valley to the Jbel Lkest plateau (2,359 m), and descend back to Tafraoute. Total distance: approximately 35 km.
+
+**Highlights:** Village homestay, panoramic views from Jbel Lkest, terraced almond orchards, ancient rock engravings at Aït Herbil.
+
+### Jbel Lkest Summit (1 day, challenging)
+The highest peak in the Anti-Atlas. A full-day ascent from the Ameln Valley involves loose scree and some exposed ridgeline walking. The summit view covers the entire Anti-Atlas range and, on clear days, the Atlantic coast near Agadir. No ropes required but a head for heights is necessary.
+
+### Painted Rocks Circuit (half-day, easy)
+A short walk from Tafraoute to the Painted Rocks (Les Rochers Peints) — enormous granite boulders painted blue, orange, and red by the Belgian artist Jean Vérame in 1984. Faded now but still striking in the landscape. The surrounding boulder field is extraordinary for scrambling and photography.
+
+### Lion's Face Rock (1 hour, easy)
+A natural rock formation 3 km from Tafraoute that, from the right angle, perfectly resembles a lion's profile. An easy walk with panoramic views over the palm grove. Go at sunset for the best light on the granite.
+
+## February: Almond Blossom Season
+
+The Anti-Atlas's almond trees bloom in February — typically the last two weeks, though it varies with temperature. When the orchards are in blossom, the Ameln Valley turns white and pink against the rose-coloured granite. It is one of the most beautiful natural events in Morocco and one of the least visited.
+
+The Tafraoute Almond Festival (usually mid-February) celebrates the blossom with music, food, and cultural events in the town centre. Worth planning a trip around.
+
+## Wildlife
+
+The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to Morocco and common in the rocky terrain here. **Barbary Partridge**, **Desert Warbler**, **Tristram's Warbler**, and **Levaillant's Woodpecker** are all present. The endangered **Bald Ibis** (Northern Bald Ibis) has a small wild population in the Souss-Massa National Park, 60 km north of Tafraoute.
+
+**Reptiles:** The Anti-Atlas is one of the best places in Morocco for desert reptiles — **Moorish Gecko**, **Starred Agama**, and several rare sandboa species can be seen on warm rocky slopes.
+
+## Practical Details
+
+**Getting there:** 2.5 hours by road from Agadir (100 km, paved all the way). Bus service (Supratours) from Agadir: daily, approximately 3 hours. Private transfer from Agadir or Marrakech recommended for flexibility.
+
+**Best time:** February (almond blossom), March–May (spring wildflowers, comfortable temperatures), September–November (cooler, fewer visitors). Summer (July–August) is very hot at lower altitudes.
+
+**Guides:** A local Anti-Atlas guide is strongly recommended — not for navigation (trails are fairly clear) but for village access, cultural context, and family homestay arrangements. Our Anti-Atlas guides are certified and have deep roots in the Ameln Valley communities.
+
+**Accommodation:** Tafraoute has several good riads (150–300 MAD/night). Village homestays in the Ameln Valley (50–100 MAD/night, meals included) are the most rewarding option and directly support local families.
+    `,
+  },
+  {
+    slug: "fes-medina-travel-guide",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Fes Medina: How to Explore the World's Largest Car-Free City",
+    excerpt:
+      "Fes el-Bali is the most complete surviving medieval city on earth — a UNESCO World Heritage labyrinth of 9,400 alleyways, 785 mosques, and a tannery unchanged since the 12th century. Here is how to do it justice.",
+    heroImage:
+      "https://images.unsplash.com/photo-1539020140153-e479b8f22986?w=1600&q=85",
+    category: "culture",
+    readTime: 9,
+    publishedAt: "2025-12-15",
+    tags: ["Fes", "Fez", "Morocco medina", "Chouara tannery", "imperial cities"],
+    seoTitle: "Fes Medina Travel Guide 2025 — Complete Guide to Fes el-Bali",
+    seoDescription:
+      "The complete travel guide to Fes el-Bali — the Chouara tanneries, Al-Qarawiyyin, Medersa Bou Inania, and how to navigate the world's most complex medieval city.",
+    content: `
+## Why Fes Is Different from Marrakech
+
+Marrakech is spectacular. Fes is deeper. Where Marrakech has absorbed centuries of international tourism and adapted accordingly, Fes remains predominantly a city for Fassis — for the people who have lived here across generations. The medina is not a stage set; it is a functioning city, where craftsmen have worked the same trades in the same buildings for 500 years.
+
+Fes el-Bali (Old Fes) was founded in 789 AD and designated a UNESCO World Heritage Site in 1981. It is the world's largest car-free urban area, the site of the oldest university in continuous operation (Al-Qarawiyyin, founded 859 AD), and home to crafts — leatherwork, metalwork, pottery, weaving, wood carving — that remain largely unchanged from the medieval period.
+
+Give it two full days minimum. One is not enough.
+
+## The Chouara Tanneries
+
+The most iconic sight in Fes and one of the most extraordinary in Morocco. The Chouara tanneries — in operation since the 11th century — produce some of the world's finest leather using methods unchanged for a thousand years. Hides are soaked in pigeon dung to soften them, then dyed in stone vats filled with natural pigments: poppy for red, saffron for yellow, indigo for blue, mint for green, henna for orange.
+
+**How to see them:** The tanneries are best viewed from the leather shop terraces above. Access is free with a visit to any of the surrounding leather shops — most will offer you a sprig of mint to hold against your nose (the smell is considerable). The best light is in the morning (9:00–11:00 am). Avoid afternoons when hides are drying and the vats are less active.
+
+**On buying leather:** The leather shops above the tanneries are legitimate and the goods are genuine. The quality is high and the prices, while not rock-bottom, are fair for handmade Moroccan leather. Babouches (traditional slippers), bags, and poufs are the best value. Bargain respectfully — prices are usually set higher for tourists but 20–30% reduction is typically achievable.
+
+## Al-Qarawiyyin University and Mosque
+
+Founded in 859 AD by Fatima al-Fihri, Al-Qarawiyyin is the oldest continuously operating educational institution in the world. The mosque complex — which non-Muslims cannot enter — is visible from several open doors and through the courtyard gates. The library, which reopened after restoration in 2016, contains some of the oldest manuscripts in the Islamic world.
+
+The area immediately surrounding the mosque is the most ancient part of Fes — narrow alleyways, carved plaster facades, and the sound of Quranic recitation drifting from the medersa windows.
+
+## Medersa Bou Inania
+
+The finest surviving medersa (Islamic college) in Fes, built between 1350 and 1357 under the Merinid sultan Bou Inan. It is open to non-Muslims and entry is 70 MAD. The interior courtyard is a masterwork: three tiers of carved cedarwood, zellij tilework rising to eye level, and carved stucco above that. The student cells around the upper galleries house temporary exhibitions.
+
+Visit in the morning when light falls into the courtyard from the east. The carved cedar screen above the entrance is one of the finest examples of Merinid craftsmanship in existence.
+
+## Souk el-Attarin (Spice Market)
+
+Adjacent to the Qarawiyyin mosque, the Souk el-Attarin is Fes's traditional spice and perfume market. The building itself — a 14th-century structure with a wooden ceiling and mosaic tilework — is as interesting as the merchandise. Look for ras el-hanout (the signature Moroccan spice blend of 20–30 ingredients), argan oil, rose water, and orange blossom water. Prices here are generally more honest than in Marrakech.
+
+## The Jewish Quarter (Mellah)
+
+Fes has one of the oldest Jewish quarters in North Africa, established in 1438. The Mellah is immediately adjacent to the Royal Palace and the Andalusian Quarter. The distinctive architecture — overhanging upper storeys, wrought-iron balconies — distinguishes it from the rest of the medina. The Ibn Danan Synagogue (entry 20 MAD) is beautifully restored and offers a window into the once-thriving Jewish community of Fes. Hebrew inscriptions are visible above many doorways.
+
+## Practical Tips
+
+- **Hire a guide for day one.** Fes's medina has over 9,000 alleyways. Even with a detailed map and a GPS, first-time visitors get profoundly lost. A certified guide (licensed by the Ministry of Tourism) for the first day pays for itself in time saved and context gained. Your riad can recommend trustworthy guides.
+- **Day two: go alone.** Armed with the knowledge from day one, walking the medina independently on day two is one of the great travel experiences. Get lost deliberately. Follow your nose.
+- **Start at Bab Bou Jeloud.** The main gate into the medina. From here, the two main arteries — Talaa Kebira and Talaa Seghira — lead into the heart of the old city.
+- **The best time is dawn.** The medina wakes early — bakers, butchers, and spice merchants begin before 6:00 am. An early morning walk, when the light is low and the city is doing its own business rather than performing for tourists, is extraordinary.
+- **Stay inside the medina.** A riad within the medina walls — even a simple one — gives you access to the city at its best hours. Riads on the outer edge of Fes (Ville Nouvelle) miss the point.
+    `,
+  },
+];
+
+export function getBlogPost(slug: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug);
+}
+
+
+export const BLOG_CATEGORIES: { id: BlogPost["category"]; label: string; icon: string }[] = [
+  { id: "trekking", label: "Trekking", icon: "⛰️" },
+  { id: "desert", label: "Desert", icon: "🏜️" },
+  { id: "culture", label: "Culture", icon: "🕌" },
+  { id: "tips", label: "Travel Tips", icon: "🧭" },
+  { id: "wildlife", label: "Wildlife", icon: "🦅" },
+];

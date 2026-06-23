@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "tours": "Tours",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookNow": "Réserver"
+  },
+  "hero": {
+    "eyebrow": "Maroc & Au-delà",
+    "headline1": "L'Aventure",
+    "headline2": "Rencontre le Sauvage",
+    "subheadline": "Trekking expert, tours dans le désert et aventures culturelles — au cœur de l'Atlas, du Sahara et au-delà.",
+    "trustLine": "{tourCount} circuits au départ de Marrakech & Agadir · Approuvé par {clientCount} aventuriers",
+    "searchPlaceholder": "Rechercher des circuits, destinations...",
+    "allTours": "Tous les circuits",
+    "fromMarrakech": "Depuis Marrakech",
+    "fromAgadir": "Depuis Agadir",
+    "searchBtn": "Rechercher",
+    "browseAll": "Voir tous les circuits",
+    "planCustom": "Planifier un voyage sur mesure"
+  },
+  "trustBar": {
+    "certified": "Guides locaux certifiés",
+    "smallGroups": "Groupes privés et personnalisés",
+    "ecoFriendly": "Éco-responsable",
+    "support": "Support 24h/24",
+    "flexible": "Annulation gratuite"
+  },
+  "categories": {
+    "title": "Explorer par catégorie",
+    "subtitle": "Du trekking en haute montagne aux balades culturelles dans la médina — trouvez votre expérience idéale au Maroc.",
+    "trekking": "Trekking",
+    "hiking": "Randonnée",
+    "desert": "Désert",
+    "cultural": "Culturel",
+    "excursion": "Excursion",
+    "sky": "Aventures aériennes"
+  },
+  "featuredTours": {
+    "eyebrow": "Les plus populaires",
+    "title": "Aventures phares",
+    "subtitle": "Des circuits soigneusement sélectionnés qui obtiennent constamment des avis 5 étoiles de voyageurs du monde entier.",
+    "viewAll": "Voir tous les circuits",
+    "from": "À partir de",
+    "perPerson": "/ personne",
+    "days": "jours",
+    "viewTour": "Voir le circuit"
+  },
+  "whyUs": {
+    "eyebrow": "Pourquoi nous choisir",
+    "title": "Conçu pour les vrais aventuriers",
+    "subtitle": "Nous ne sommes pas une plateforme de réservation. Nous sommes une équipe de guides locaux passionnés qui vivent et respirent les paysages sauvages du Maroc.",
+    "certified": {
+      "title": "Guides de montagne certifiés",
+      "desc": "Tous nos guides sont certifiés par le Ministère du Tourisme marocain et ont des années d'expérience sur le terrain."
+    },
+    "smallGroups": {
+      "title": "Groupes privés et personnalisés",
+      "desc": "Départs privés et tailles de groupes personnalisées disponibles. Meilleure sécurité, expériences plus profondes et attention entièrement personnalisée."
+    },
+    "eco": {
+      "title": "Ne laisser aucune trace",
+      "desc": "Nous travaillons avec les communautés locales et suivons des principes éco-responsables stricts pour protéger les paysages du Maroc."
+    },
+    "responsive": {
+      "title": "Assistance humaine rapide",
+      "desc": "De vraies personnes répondent dans les {hours} heures. WhatsApp, e-mail ou téléphone — nous sommes toujours joignables."
+    }
+  },
+  "ourStory": {
+    "eyebrow": "Notre histoire",
+    "title": "Nés dans l'Atlas",
+    "body1": "Marrakech Eco Tours a été fondé par un groupe de guides berbères qui ont grandi en parcourant le Haut-Atlas. Nous croyons que la meilleure façon de découvrir le Maroc est avec des personnes qui l'appellent chez eux.",
+    "body2": "Chaque itinéraire que nous proposons est l'un que nous connaissons intimement — les vallées cachées, les villages berbères qui n'apparaissent pas sur les cartes, les campements dans le désert où le silence est absolu.",
+    "stat1Label": "Années de guidage",
+    "stat2Label": "Aventuriers heureux",
+    "stat3Label": "Circuits disponibles",
+    "meetTeam": "Rencontrez l'équipe",
+    "teamTitle": "Les guides derrière les aventures",
+    "teamSubtitle": "Nés dans les montagnes, formés sur le terrain, passionnés par le Maroc."
+  },
+  "testimonials": {
+    "eyebrow": "Avis des voyageurs",
+    "title": "Des histoires vraies, de vraies aventures",
+    "subtitle": "Plus de 1 000 aventuriers nous ont confié leur expérience au Maroc.",
+    "verified": "Voyageur vérifié"
+  },
+  "gallery": {
+    "eyebrow": "Sur le terrain",
+    "title": "Le Maroc à travers notre objectif",
+    "subtitle": "Capturé par nos guides lors de vrais circuits."
+  },
+  "cta": {
+    "eyebrow": "Prêt à explorer ?",
+    "title": "Planifiez votre parfaite aventure marocaine",
+    "subtitle": "Parcourez tous nos {tourCount} circuits depuis Marrakech et Agadir — ou dites-nous votre rêve et nous construirons le voyage autour de vous.",
+    "browseAll": "Voir tous les circuits",
+    "whatsapp": "WhatsApp",
+    "customTrip": "Voyage sur mesure",
+    "trust1": "Annulation gratuite 14 jours avant",
+    "trust2": "Réponse sous {hours} heures",
+    "trust3": "5 étoiles par 1 000+ voyageurs"
+  },
+  "tours": {
+    "pageTitle": "Tous les circuits",
+    "pageSubtitle": "{count} aventures au départ de Marrakech & Agadir",
+    "searchPlaceholder": "Rechercher des circuits, destinations...",
+    "allLevels": "Tous niveaux",
+    "easy": "Facile",
+    "moderate": "Modéré",
+    "challenging": "Difficile",
+    "expert": "Expert",
+    "all": "Tous",
+    "clearFilters": "Effacer tous les filtres",
+    "clear": "Effacer",
+    "noToursFound": "Aucun circuit trouvé",
+    "tryAdjusting": "Essayez d'ajuster vos filtres",
+    "toursFound": "{count} circuit trouvé",
+    "toursFoundPlural": "{count} circuits trouvés",
+    "customBannerTitle": "Vous voyagez en grand groupe ou souhaitez un itinéraire entièrement personnalisé ?",
+    "customBannerDesc": "Nous créons des programmes sur mesure pour des groupes privés de toutes tailles — de 2 à 200. Dites-nous vos dates, vos intérêts et votre budget.",
+    "planCustomTrip": "Planifier un voyage sur mesure"
+  },
+  "tourDetail": {
+    "overview": "Aperçu",
+    "itinerary": "Itinéraire",
+    "whatsIncluded": "Ce qui est inclus",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "planYourTrip": "Planifiez votre voyage au Maroc",
+    "sidebarDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir — des excursions d'une journée aux expéditions de 7 jours.",
+    "browseAllTours": "Voir tous les circuits",
+    "planCustomTrip": "Voyage sur mesure",
+    "relatedArticles": "Articles associés",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "blog": {
+    "pageTitle": "Blog voyage Maroc",
+    "pageSubtitle": "Guides, itinéraires et conseils d'experts locaux certifiés",
+    "startHere": "Commencez ici",
+    "exploreByRegion": "Explorer par région",
+    "exploreByRegionDesc": "Chaque article appartient à une branche géographique du Maroc.",
+    "completeGuide": "Guide complet du Maroc",
+    "readGuide": "Lire le guide",
+    "latestArticles": "Derniers articles",
+    "allTopics": "Tous les sujets",
+    "allRegions": "← Toutes les régions",
+    "noArticles": "Aucun article dans cette catégorie pour l'instant.",
+    "viewAll": "Voir tous les articles",
+    "readyTitle": "Prêt à découvrir le Maroc ?",
+    "readyDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir — des demi-journées aux expéditions de 7 jours en montagne.",
+    "browseAll": "Voir tous les circuits",
+    "article": "article",
+    "articles": "articles",
+    "minRead": "min de lecture",
+    "by": "Par",
+    "guestPost": "Article invité par",
+    "guestContributor": "Contributeur invité"
+  },
+  "about": {
+    "pageTitle": "Notre histoire",
+    "pageSubtitle": "Nés dans l'Atlas. Construits pour le monde."
+  },
+  "contact": {
+    "pageTitle": "Contactez-nous",
+    "pageSubtitle": "Nous sommes prêts à vous aider à planifier votre aventure parfaite.",
+    "email": "E-mail",
+    "phone": "WhatsApp / Téléphone",
+    "basedIn": "Basé à",
+    "responseTime": "Délai de réponse",
+    "responseValue": "Sous 24 heures",
+    "faqTitle": "Questions fréquemment posées",
+    "formName": "Nom complet",
+    "formEmail": "Adresse e-mail",
+    "formPhone": "Téléphone / WhatsApp",
+    "formTour": "Circuit souhaité",
+    "formMessage": "Votre message",
+    "formSubmit": "Envoyer le message",
+    "formSuccess": "Message envoyé ! Nous répondrons sous 24 heures.",
+    "formError": "Une erreur s'est produite. Réessayez ou contactez-nous via WhatsApp."
+  },
+  "footer": {
+    "tagline": "Circuits d'aventure au Maroc avec des guides experts. Petits groupes, guides certifiés, vraies expériences.",
+    "quickLinks": "Liens rapides",
+    "explore": "Explorer",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales"
+  },
+  "common": {
+    "home": "Accueil",
+    "tours": "Circuits",
+    "blog": "Blog",
+    "backToBlog": "Blog",
+    "readMore": "Lire la suite",
+    "learnMore": "En savoir plus",
+    "bookNow": "Réserver",
+    "contactUs": "Nous contacter",
+    "perPerson": "/ personne",
+    "from": "À partir de",
+    "days": "jours",
+    "hours": "heures",
+    "minutes": "min",
+    "difficulty": {
+      "easy": "Facile",
+      "moderate": "Modéré",
+      "challenging": "Difficile",
+      "expert": "Expert"
+    }
+  }
+}

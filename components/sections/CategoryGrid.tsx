@@ -1,0 +1,140 @@
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { CATEGORIES, TOURS } from "@/lib/tours";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+
+interface Props {
+  dict: Dictionary;
+  lang?: Locale;
+}
+
+export default function CategoryGrid({ dict, lang = "en" }: Props) {
+  const countByCategory = CATEGORIES.reduce<Record<string, number>>((acc, cat) => {
+    acc[cat.id] = TOURS.filter((t) => t.category === cat.id).length;
+    return acc;
+  }, {});
+
+  const [hero, tall, ...rest] = CATEGORIES;
+
+  return (
+    <section className="py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Section header — left-aligned, no centered eyebrow */}
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
+          <div>
+            <h2 className="font-serif text-charcoal font-bold reveal-up"
+                style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
+              {dict.categories.subtitle.split(" — ")[0]}
+            </h2>
+            <p className="text-charcoal/50 mt-2 max-w-sm text-sm leading-relaxed">
+              {dict.categories.title}
+            </p>
+          </div>
+          <Link
+            href={`/${lang}/tours`}
+            className="inline-flex items-center gap-2 text-forest text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+          >
+            {dict.featuredTours.viewAll}
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
+          </Link>
+        </div>
+
+        {/* Bento grid — 5 cells, exact */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[280px] lg:auto-rows-[300px]">
+
+          {/* Cell 1: Hero — spans 2 cols on lg */}
+          <Link
+            href={`/${lang}/categories/${hero.id}`}
+            className="group relative overflow-hidden rounded-2xl sm:col-span-2 lg:col-span-2 reveal-scale"
+          >
+            <Image
+              src={hero.heroImage}
+              alt={hero.label}
+              fill
+              className="object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 66vw"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-forest/25 to-transparent" />
+            <div className="absolute inset-0 p-7 flex flex-col justify-end">
+              <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-2">
+                {countByCategory[hero.id] ?? 0} {dict.nav.tours.toLowerCase()}
+              </div>
+              <h3 className="font-serif text-white font-bold leading-tight mb-2"
+                  style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)" }}>
+                {hero.label}
+              </h3>
+              <p className="text-white/65 text-sm leading-relaxed max-w-xs mb-4">
+                {hero.description}
+              </p>
+              <span className="inline-flex items-center gap-1.5 text-sunset text-sm font-bold group-hover:gap-2.5 transition-all duration-300">
+                {dict.common.learnMore} <ArrowRight className="w-3.5 h-3.5" weight="bold" />
+              </span>
+            </div>
+          </Link>
+
+          {/* Cell 2: Tall right — spans 2 rows on lg */}
+          <Link
+            href={`/${lang}/categories/${tall.id}`}
+            className="group relative overflow-hidden rounded-2xl lg:row-span-2 reveal-scale"
+          >
+            <Image
+              src={tall.heroImage}
+              alt={tall.label}
+              fill
+              className="object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+            <div className="absolute inset-0 p-6 flex flex-col justify-end">
+              <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-1.5">
+                {countByCategory[tall.id] ?? 0} {dict.nav.tours.toLowerCase()}
+              </div>
+              <h3 className="font-serif text-white font-bold text-xl leading-tight mb-1.5">
+                {tall.label}
+              </h3>
+              <p className="text-white/60 text-xs leading-relaxed mb-3 line-clamp-2">
+                {tall.description}
+              </p>
+              <span className="inline-flex items-center gap-1 text-sunset text-xs font-bold group-hover:gap-2 transition-all duration-300">
+                {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
+              </span>
+            </div>
+          </Link>
+
+          {/* Cells 3-5: smaller bottom row */}
+          {rest.map((cat) => (
+            <Link
+              key={cat.id}
+              href={`/${lang}/categories/${cat.id}`}
+              className="group relative overflow-hidden rounded-2xl reveal-scale"
+            >
+              <Image
+                src={cat.heroImage}
+                alt={cat.label}
+                fill
+                className="object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+              <div className="absolute inset-0 p-5 flex flex-col justify-end">
+                <div className="text-white/45 text-xs font-semibold uppercase tracking-widest mb-1">
+                  {countByCategory[cat.id] ?? 0} {dict.nav.tours.toLowerCase()}
+                </div>
+                <h3 className="font-serif text-white font-bold text-lg leading-tight mb-2">
+                  {cat.label}
+                </h3>
+                <span className="inline-flex items-center gap-1 text-sunset text-xs font-bold opacity-0 group-hover:opacity-100 group-hover:gap-2 transition-all duration-300">
+                  {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

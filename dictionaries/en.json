@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "tours": "Tours",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "eyebrow": "Morocco & Beyond",
+    "headline1": "Where Adventure",
+    "headline2": "Meets the Wild",
+    "subheadline": "Expert-guided trekking, desert tours, and cultural adventures — deep into the Atlas, the Sahara, and beyond.",
+    "trustLine": "{tourCount} tours departing from Marrakech & Agadir · Trusted by {clientCount} adventurers",
+    "searchPlaceholder": "Search tours, destinations...",
+    "allTours": "All Tours",
+    "fromMarrakech": "From Marrakech",
+    "fromAgadir": "From Agadir",
+    "searchBtn": "Search",
+    "browseAll": "Browse All Tours",
+    "planCustom": "Plan Custom Trip"
+  },
+  "trustBar": {
+    "certified": "Certified Local Guides",
+    "smallGroups": "Private & Custom Groups",
+    "ecoFriendly": "Eco-Friendly",
+    "support": "24/7 Support",
+    "flexible": "Free Cancellation"
+  },
+  "categories": {
+    "title": "Explore by Category",
+    "subtitle": "From high mountain treks to cultural medina walks — find your perfect Morocco experience.",
+    "trekking": "Trekking",
+    "hiking": "Hiking",
+    "desert": "Desert",
+    "cultural": "Cultural",
+    "excursion": "Excursion",
+    "sky": "Sky Adventures"
+  },
+  "featuredTours": {
+    "eyebrow": "Most Popular",
+    "title": "Featured Adventures",
+    "subtitle": "Hand-picked tours that consistently earn 5-star reviews from travellers worldwide.",
+    "viewAll": "View All Tours",
+    "from": "From",
+    "perPerson": "/ person",
+    "days": "days",
+    "viewTour": "View Tour"
+  },
+  "whyUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "Built for Serious Adventurers",
+    "subtitle": "We're not a booking platform. We're a team of passionate local guides who live and breathe Morocco's wild landscapes.",
+    "certified": {
+      "title": "Certified Mountain Guides",
+      "desc": "All our guides hold official Moroccan Ministry of Tourism certifications and have years of field experience."
+    },
+    "smallGroups": {
+      "title": "Private & Custom Groups",
+      "desc": "Private departures and custom group sizes available. Better safety, deeper experiences, and fully personalised attention."
+    },
+    "eco": {
+      "title": "Leave No Trace",
+      "desc": "We partner with local communities and follow strict eco principles to protect Morocco's landscapes for future generations."
+    },
+    "responsive": {
+      "title": "Fast, Human Support",
+      "desc": "Real humans reply within {hours} hours. WhatsApp, email, or phone — we're always reachable."
+    }
+  },
+  "ourStory": {
+    "eyebrow": "Our Story",
+    "title": "Born in the Atlas Mountains",
+    "body1": "Marrakech Eco Tours was founded by a group of Berber guides who grew up trekking the High Atlas. We believe that the best way to experience Morocco is with people who call it home.",
+    "body2": "Every route we run is one we know intimately — the hidden valleys, the Berber villages that don't appear on maps, the desert camps where the silence is absolute. We share these places with the world while working to protect them.",
+    "stat1Label": "Years guiding",
+    "stat2Label": "Happy adventurers",
+    "stat3Label": "Tours available",
+    "meetTeam": "Meet the Team",
+    "teamTitle": "The Guides Behind the Adventures",
+    "teamSubtitle": "Born in the mountains, trained in the field, passionate about Morocco."
+  },
+  "testimonials": {
+    "eyebrow": "Traveller Reviews",
+    "title": "Real Stories, Real Adventures",
+    "subtitle": "Over 1,000 adventurers have trusted us with their Morocco experience.",
+    "verified": "Verified traveller"
+  },
+  "gallery": {
+    "eyebrow": "In the Field",
+    "title": "Morocco Through Our Lens",
+    "subtitle": "Captured by our guides during real tours."
+  },
+  "cta": {
+    "eyebrow": "Ready to Explore?",
+    "title": "Plan Your Perfect Morocco Adventure",
+    "subtitle": "Browse all {tourCount} tours from Marrakech and Agadir — or tell us your dream and we'll build the journey around you.",
+    "browseAll": "Browse All Tours",
+    "whatsapp": "WhatsApp Us",
+    "customTrip": "Custom Trip",
+    "trust1": "Free cancellation 14 days prior",
+    "trust2": "Reply within {hours} hours",
+    "trust3": "5-star rated by 1,000+ travellers"
+  },
+  "tours": {
+    "pageTitle": "All Tours",
+    "pageSubtitle": "{count} adventures departing from Marrakech & Agadir",
+    "searchPlaceholder": "Search tours, destinations...",
+    "allLevels": "All Levels",
+    "easy": "Easy",
+    "moderate": "Moderate",
+    "challenging": "Challenging",
+    "expert": "Expert",
+    "all": "All",
+    "clearFilters": "Clear all filters",
+    "clear": "Clear",
+    "noToursFound": "No tours found",
+    "tryAdjusting": "Try adjusting your filters",
+    "toursFound": "{count} tour found",
+    "toursFoundPlural": "{count} tours found",
+    "customBannerTitle": "Travelling with a large group, or want a completely custom itinerary?",
+    "customBannerDesc": "We build bespoke plans for private groups of any size — from 2 to 200. Tell us your dates, interests, and budget.",
+    "planCustomTrip": "Plan a Custom Trip"
+  },
+  "tourDetail": {
+    "overview": "Overview",
+    "itinerary": "Itinerary",
+    "whatsIncluded": "What's Included",
+    "included": "Included",
+    "notIncluded": "Not Included",
+    "planYourTrip": "Plan Your Morocco Trip",
+    "sidebarDesc": "Browse all tours departing from Marrakech and Agadir — from day trips to 7-day expeditions.",
+    "browseAllTours": "Browse All Tours",
+    "planCustomTrip": "Plan Custom Trip",
+    "relatedArticles": "Related Articles",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "blog": {
+    "pageTitle": "Morocco Travel Blog",
+    "pageSubtitle": "Guides, itineraries & insider tips from certified local experts",
+    "startHere": "Start Here",
+    "exploreByRegion": "Explore by Region",
+    "exploreByRegionDesc": "Every article belongs to a geographic branch of Morocco.",
+    "completeGuide": "Complete Morocco Guide",
+    "readGuide": "Read the guide",
+    "latestArticles": "Latest Articles",
+    "allTopics": "All Topics",
+    "allRegions": "← All regions",
+    "noArticles": "No articles in this category yet.",
+    "viewAll": "View all articles",
+    "readyTitle": "Ready to Experience Morocco?",
+    "readyDesc": "Browse all tours departing from Marrakech and Agadir — from half-day excursions to 7-day mountain expeditions.",
+    "browseAll": "Browse All Tours",
+    "article": "article",
+    "articles": "articles",
+    "minRead": "min read",
+    "by": "By",
+    "guestPost": "Guest post by",
+    "guestContributor": "Guest Contributor"
+  },
+  "about": {
+    "pageTitle": "Our Story",
+    "pageSubtitle": "Born in the Atlas. Built for the world."
+  },
+  "contact": {
+    "pageTitle": "Get in Touch",
+    "pageSubtitle": "We're ready to help plan your perfect adventure.",
+    "email": "Email",
+    "phone": "WhatsApp / Phone",
+    "basedIn": "Based in",
+    "responseTime": "Response time",
+    "responseValue": "Within 24 hours",
+    "faqTitle": "Frequently Asked Questions",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone / WhatsApp",
+    "formTour": "Tour of Interest",
+    "formMessage": "Your Message",
+    "formSubmit": "Send Message",
+    "formSuccess": "Message sent! We'll reply within 24 hours.",
+    "formError": "Something went wrong. Please try again or WhatsApp us directly."
+  },
+  "footer": {
+    "tagline": "Expert-guided adventure tours in Morocco. Small groups, certified guides, real experiences.",
+    "quickLinks": "Quick Links",
+    "explore": "Explore",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "common": {
+    "home": "Home",
+    "tours": "Tours",
+    "blog": "Blog",
+    "backToBlog": "Blog",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "bookNow": "Book Now",
+    "contactUs": "Contact Us",
+    "perPerson": "/ person",
+    "from": "From",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "min",
+    "difficulty": {
+      "easy": "Easy",
+      "moderate": "Moderate",
+      "challenging": "Challenging",
+      "expert": "Expert"
+    }
+  }
+}

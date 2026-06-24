@@ -26,16 +26,19 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     openGraph: {
       title: "Marrakech Eco Tours — Morocco Adventures",
       description: dict.hero.subheadline,
-      images: [{ url: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=80" }],
+      url: `https://marrakechecotours.com/${lang}`,
+      images: [{ url: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=80", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking in the Atlas Mountains" }],
     },
     alternates: {
+      canonical: `https://marrakechecotours.com/${lang}`,
       languages: {
-        en: "/en",
-        fr: "/fr",
-        es: "/es",
-        de: "/de",
-        it: "/it",
-        ar: "/ar",
+        en: "https://marrakechecotours.com/en",
+        fr: "https://marrakechecotours.com/fr",
+        es: "https://marrakechecotours.com/es",
+        de: "https://marrakechecotours.com/de",
+        it: "https://marrakechecotours.com/it",
+        ar: "https://marrakechecotours.com/ar",
+        "x-default": "https://marrakechecotours.com/en",
       },
     },
   };
@@ -43,9 +46,10 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
-  "@type": "TravelAgency",
+  "@type": ["TravelAgency", "LocalBusiness"],
   name: "Marrakech Eco Tours",
   url: "https://marrakechecotours.com",
+  logo: "https://marrakechecotours.com/logo.png",
   description:
     "Expert-guided adventure tours in Morocco — trekking, Sahara desert tours, imperial cities, cultural excursions, and day trips from Marrakech and Agadir.",
   email: "hello@marrakechecotours.com",
@@ -54,9 +58,24 @@ const websiteJsonLd = {
     "@type": "PostalAddress",
     addressCountry: "MA",
     addressLocality: "Marrakech",
+    addressRegion: "Marrakech-Safi",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 31.6295,
+    longitude: -7.9811,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    opens: "08:00",
+    closes: "20:00",
   },
   areaServed: "Worldwide",
   priceRange: "$$",
+  currenciesAccepted: "EUR",
+  paymentAccepted: "PayPal",
+  inLanguage: ["en", "fr", "es", "de", "it", "ar"],
 };
 
 export default async function HomePage({ params }: LangParams) {

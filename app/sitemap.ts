@@ -6,14 +6,23 @@ const BASE = "https://marrakechecotours.com";
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/tours", "/about", "/contact", "/blog"];
+  const staticRoutes = [
+    { path: "", freq: "weekly" as const, priority: 1.0 },
+    { path: "/tours", freq: "weekly" as const, priority: 0.9 },
+    { path: "/news", freq: "daily" as const, priority: 0.8 },
+    { path: "/blog", freq: "weekly" as const, priority: 0.7 },
+    { path: "/about", freq: "monthly" as const, priority: 0.7 },
+    { path: "/contact", freq: "monthly" as const, priority: 0.7 },
+    { path: "/terms", freq: "yearly" as const, priority: 0.3 },
+    { path: "/privacy", freq: "yearly" as const, priority: 0.3 },
+  ];
 
   const staticUrls = LOCALES.flatMap((lang) =>
-    staticRoutes.map((route) => ({
-      url: `${BASE}/${lang}${route}`,
+    staticRoutes.map(({ path, freq, priority }) => ({
+      url: `${BASE}/${lang}${path}`,
       lastModified: new Date(),
-      changeFrequency: route === "" || route === "/tours" ? ("weekly" as const) : ("monthly" as const),
-      priority: route === "" ? 1 : route === "/tours" ? 0.9 : 0.7,
+      changeFrequency: freq,
+      priority,
     }))
   );
 
@@ -22,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/${lang}/tours/${t.slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
-      priority: 0.8,
+      priority: 0.85,
     }))
   );
 

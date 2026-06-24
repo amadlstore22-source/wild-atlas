@@ -8,6 +8,7 @@ type LangParams = { params: Promise<{ lang: string }> };
 export const metadata: Metadata = {
   title: "Privacy Policy — Marrakech Eco Tours",
   description: "How Marrakech Eco Tours collects, uses, and protects your personal information.",
+  robots: { index: true, follow: false },
 };
 
 export default async function PrivacyPage({ params }: LangParams) {

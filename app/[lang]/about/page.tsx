@@ -12,11 +12,37 @@ type LangParams = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
     title: "Our Story — Marrakech Eco Tours | Born in the Atlas Mountains",
     description: "Marrakech Eco Tours was founded by Berber guides who grew up in the High Atlas. We run ethical, small-group adventures through Morocco's most remote landscapes — no middlemen, no greenwashing.",
+    openGraph: {
+      title: "Our Story — Marrakech Eco Tours",
+      description: "A team of licensed Berber guides sharing Morocco's wildest places — honestly, sustainably, without the middlemen.",
+      url: `https://marrakechecotours.com/${lang}/about`,
+      images: [{ url: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1200&q=80", width: 1200, height: 630, alt: "High Atlas Mountains at sunrise, Morocco" }],
+    },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/about`,
+      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/about`])),
+    },
   };
 }
+
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About Marrakech Eco Tours",
+  description: "Marrakech Eco Tours was founded by certified Berber guides born in the High Atlas Mountains. We offer ethical, small-group trekking and adventure tours across Morocco.",
+  url: "https://marrakechecotours.com/en/about",
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://marrakechecotours.com/en" },
+      { "@type": "ListItem", position: 2, name: "About", item: "https://marrakechecotours.com/en/about" },
+    ],
+  },
+};
 
 export default async function AboutPage({ params }: LangParams) {
   const { lang } = await params;
@@ -25,6 +51,7 @@ export default async function AboutPage({ params }: LangParams) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd).replace(/</g, "\\u003c") }} />
       {/* ── Hero ── */}
       <div className="relative h-[65vh] min-h-[440px] flex items-end">
         <Image

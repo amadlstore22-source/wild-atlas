@@ -27,9 +27,20 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
     title: dict.contact.pageTitle,
     description: dict.contact.pageSubtitle,
+    openGraph: {
+      title: dict.contact.pageTitle,
+      description: dict.contact.pageSubtitle,
+      url: `https://marrakechecotours.com/${lang}/contact`,
+      images: [{ url: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=80", width: 1200, height: 630, alt: "Contact Marrakech Eco Tours" }],
+    },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/contact`,
+      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/contact`])),
+    },
   };
 }
 
@@ -45,7 +56,19 @@ export default async function ContactPage({ params }: LangParams) {
     { icon: Clock, label: dict.contact.responseTime, value: dict.contact.responseValue, href: null },
   ];
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQ.map(({ q, a }) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
+
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
     <div className="min-h-screen moroccan-bg">
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[420px] flex items-end">
@@ -144,5 +167,6 @@ export default async function ContactPage({ params }: LangParams) {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -8,6 +8,7 @@ type LangParams = { params: Promise<{ lang: string }> };
 export const metadata: Metadata = {
   title: "Terms & Conditions — Marrakech Eco Tours",
   description: "Terms and conditions governing bookings and tours with Marrakech Eco Tours.",
+  robots: { index: true, follow: false },
 };
 
 export default async function TermsPage({ params }: LangParams) {

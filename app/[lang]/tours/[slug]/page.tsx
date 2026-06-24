@@ -48,7 +48,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: tour.shortDescription,
     touristType: "Adventure",
-    offers: { "@type": "Offer", price: tour.price, priceCurrency: "USD", availability: "https://schema.org/InStock" },
+    offers: { "@type": "Offer", price: tour.price, priceCurrency: "EUR", availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,

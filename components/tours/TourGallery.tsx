@@ -66,6 +66,7 @@ export default function TourGallery({ images, title }: { images: string[]; title
               alt={`${title} — photo ${lightbox + 1}`}
               fill
               className="object-contain"
+              sizes="90vw"
             />
           </div>
           <button

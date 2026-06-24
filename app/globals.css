@@ -41,7 +41,7 @@ html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth iframe { pointer-events: none; }
 
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: auto; }
 }
 
 body {
@@ -63,6 +63,7 @@ body::after {
   z-index: 0;
   border-radius: 50%;
   filter: blur(90px);
+  will-change: transform;
 }
 
 body::before {
@@ -102,6 +103,7 @@ body::after {
   left: 20%;
   background: radial-gradient(circle, rgba(107, 127, 78, 0.20) 0%, rgba(107, 127, 78, 0.06) 45%, transparent 70%);
   animation: orb-drift-c 42s ease-in-out infinite;
+  will-change: transform;
 }
 
 h1, h2, h3 {

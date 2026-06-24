@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -19,11 +19,19 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export default function Hero({ lang, dict }: Props) {
   const [search, setSearch] = useState("");
   const [origin, setOrigin] = useState("");
+  const [isDesktop, setIsDesktop] = useState(false);
   const router = useRouter();
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
   const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const imgScale = useTransform(scrollYProgress, [0, 1], [1.08, 1.0]);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
+    setIsDesktop(mq.matches);
+    mq.addEventListener("change", (e) => setIsDesktop(e.matches));
+    return () => mq.removeEventListener("change", (e) => setIsDesktop(e.matches));
+  }, []);
 
   const ORIGIN_TABS = [
     { label: dict.hero.allTours, value: "" },
@@ -58,7 +66,7 @@ export default function Hero({ lang, dict }: Props) {
         ) : (
           <motion.div
             className="absolute inset-[-10%]"
-            style={{ y: imgY, scale: imgScale }}
+            style={isDesktop ? { y: imgY, scale: imgScale } : undefined}
           >
             <Image
               src={SITE.heroPoster}
@@ -66,7 +74,7 @@ export default function Hero({ lang, dict }: Props) {
               fill
               priority
               className="object-cover object-center"
-              sizes="120vw"
+              sizes="100vw"
             />
           </motion.div>
         )}

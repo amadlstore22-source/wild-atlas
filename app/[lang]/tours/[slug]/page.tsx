@@ -105,7 +105,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
-        <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority />
+        <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 w-full">
           <nav className="flex items-center gap-2 text-white/60 text-sm mb-4">

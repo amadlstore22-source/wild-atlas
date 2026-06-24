@@ -43,6 +43,7 @@ export default function Header({ lang, dict }: Props) {
   const NAV = [
     { label: dict.nav.tours, href: `/${lang}/tours` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
+    { label: dict.nav.news, href: `/${lang}/news` },
     { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
   ];
@@ -272,6 +273,7 @@ export default function Header({ lang, dict }: Props) {
 
             {[
               { label: dict.nav.blog, href: `/${lang}/blog` },
+              { label: dict.nav.news, href: `/${lang}/news` },
               { label: dict.nav.about, href: `/${lang}/about` },
               { label: dict.nav.contact, href: `/${lang}/contact` },
             ].map((item) => (

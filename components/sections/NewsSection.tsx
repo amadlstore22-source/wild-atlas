@@ -76,7 +76,7 @@ export default async function NewsSection({ lang, dict }: Props) {
                   <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2">
                     {post.title}
                   </h3>
-                  <p className="text-charcoal/55 text-sm line-clamp-2">{post.excerpt}</p>
+                  <p className="text-charcoal/55 text-sm line-clamp-3">{post.excerpt}</p>
                 </div>
               </Link>
             ))}
@@ -84,19 +84,16 @@ export default async function NewsSection({ lang, dict }: Props) {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((article) => (
-              <a
+              <div
                 key={article.id}
-                href={article.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={article.category === "morocco" ? MOROCCO_IMAGE : TRAVEL_IMAGE}
                     alt={article.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <span
@@ -108,18 +105,18 @@ export default async function NewsSection({ lang, dict }: Props) {
                   </span>
                 </div>
                 <div className="p-5">
-                  <p className="text-xs text-charcoal/40 mb-2">
-                    {dict.news.source} {article.source} · {formatDate(article.publishedAt)}
-                  </p>
-                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2">
+                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-3">
                     {article.title}
                   </h3>
-                  <p className="text-charcoal/55 text-sm line-clamp-2">{article.excerpt}</p>
-                  <p className="mt-3 text-xs font-semibold text-forest group-hover:text-moss transition-colors">
-                    {dict.news.readArticle} →
+                  <p className="text-charcoal/60 text-sm leading-relaxed line-clamp-3 mb-4">
+                    {article.excerpt}
+                  </p>
+                  <p className="text-xs text-charcoal/35 border-t border-sand-dark pt-3">
+                    {dict.news.source} <span className="font-semibold text-charcoal/50">{article.source}</span>
+                    {" · "}{formatDate(article.publishedAt)}
                   </p>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         )}

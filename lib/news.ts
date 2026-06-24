@@ -53,15 +53,18 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, "").replace(/&[a-z]+;/gi, " ").trim();
 }
 
+const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
+
 async function _fetchNewsArticles(): Promise<NewsArticle[]> {
   const parser = new Parser({ timeout: 8000 });
   const morocco: NewsArticle[] = [];
   const travel: NewsArticle[] = [];
+  const cutoff = Date.now() - THIRTY_DAYS_MS;
 
   const results = await Promise.allSettled(
     RSS_SOURCES.map(async (source) => {
       const feed = await parser.parseURL(source.url);
-      const items = (feed.items ?? []).slice(0, source.maxItems);
+      const items = (feed.items ?? []).slice(0, source.maxItems * 3); // fetch extra to filter stale
       return { source, items };
     })
   );
@@ -76,13 +79,17 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
       if (!title || !item.link) continue;
       if (!isRelevant(title, excerpt)) continue;
 
+      const publishedAt = item.isoDate ?? item.pubDate ?? new Date().toISOString();
+      // Drop articles older than 30 days
+      if (new Date(publishedAt).getTime() < cutoff) continue;
+
       const article: NewsArticle = {
         id: slugify(item.link),
         title,
         excerpt,
         url: item.link,
         source: source.name,
-        publishedAt: item.isoDate ?? item.pubDate ?? new Date().toISOString(),
+        publishedAt,
         category: source.category,
       };
 

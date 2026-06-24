@@ -24,7 +24,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
   let articles = await fetchNewsArticles().catch(() => []);
   const hasFallback = articles.length === 0;
 
-  // Pick the headline article and 2 side articles
   const featured = hasFallback ? null : articles[0];
   const sideArticles = hasFallback ? [] : articles.slice(1, 3);
   const fallbackPost = hasFallback ? BLOG_POSTS[0] : null;
@@ -54,20 +53,15 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
           {/* Featured / headline article */}
           <div className="lg:col-span-2">
             {featured ? (
-              <a
-                href={featured.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative block rounded-2xl overflow-hidden h-72 sm:h-96"
-              >
+              <div className="relative rounded-2xl overflow-hidden h-72 sm:h-96">
                 <Image
                   src={featured.category === "morocco" ? MOROCCO_IMAGE : TRAVEL_IMAGE}
                   alt={featured.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <span
                     className={`inline-block px-2.5 py-1 rounded-full text-xs font-bold text-white mb-3 ${
@@ -79,11 +73,14 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   <h3 className="font-serif text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {featured.title}
                   </h3>
-                  <p className="text-white/60 text-xs">
+                  <p className="text-white/75 text-sm leading-relaxed line-clamp-2 mb-3">
+                    {featured.excerpt}
+                  </p>
+                  <p className="text-white/50 text-xs">
                     {dict.news.source} {featured.source} · {formatDate(featured.publishedAt)}
                   </p>
                 </div>
-              </a>
+              </div>
             ) : fallbackPost ? (
               <Link
                 href={`/${lang}/blog/${fallbackPost.slug}`}
@@ -96,7 +93,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="font-serif text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {fallbackPost.title}
@@ -109,18 +106,15 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
 
           {/* Side articles */}
           <div className="flex flex-col gap-4">
-            {(hasFallback ? fallbackSide : sideArticles).map((item, i) => {
+            {(hasFallback ? fallbackSide : sideArticles).map((item) => {
               const isNewsArticle = !hasFallback;
               const newsItem = isNewsArticle ? (item as (typeof sideArticles)[0]) : null;
               const blogItem = !isNewsArticle ? (item as (typeof fallbackSide)[0]) : null;
 
               return isNewsArticle && newsItem ? (
-                <a
+                <div
                   key={newsItem.id}
-                  href={newsItem.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
+                  className="flex gap-4 bg-sand/30 rounded-2xl p-4"
                 >
                   <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
                     <Image
@@ -139,12 +133,14 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                     >
                       {newsItem.category === "morocco" ? dict.news.morocco : dict.news.travel}
                     </span>
-                    <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2 group-hover:text-forest transition-colors">
+                    <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2">
                       {newsItem.title}
                     </h4>
-                    <p className="text-charcoal/40 text-xs mt-1">{formatDate(newsItem.publishedAt)}</p>
+                    <p className="text-charcoal/40 text-xs mt-1">
+                      {newsItem.source} · {formatDate(newsItem.publishedAt)}
+                    </p>
                   </div>
-                </a>
+                </div>
               ) : blogItem ? (
                 <Link
                   key={blogItem.slug}

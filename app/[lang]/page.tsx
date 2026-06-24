@@ -77,12 +77,12 @@ export default async function HomePage({ params }: LangParams) {
       <OurStory dict={dict} lang={lang} />
       <CategoryGrid dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
-      <WhyUs dict={dict} />
-      <MapWrapper lang={lang} />
-      <Testimonials dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />
       </Suspense>
+      <WhyUs dict={dict} />
+      <MapWrapper lang={lang} />
+      <Testimonials dict={dict} />
       <Gallery dict={dict} />
       <CTABanner lang={lang} dict={dict} />
     </>

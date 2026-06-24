@@ -190,6 +190,16 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales"
   },
+  "news": {
+    "eyebrow": "Du monde du voyage",
+    "title": "Dernières nouvelles du Maroc et d'ailleurs",
+    "subtitle": "Histoires de voyage quotidiennes, rapports de trek et aventures marocaines.",
+    "morocco": "Maroc",
+    "travel": "Voyage mondial",
+    "readArticle": "Lire l'article",
+    "viewAll": "Voir toutes les actualités",
+    "source": "Via"
+  },
   "common": {
     "home": "Accueil",
     "tours": "Circuits",

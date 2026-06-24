@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import CategoryGrid from "@/components/sections/CategoryGrid";
@@ -10,6 +11,8 @@ import MapWrapper from "@/components/map/MapWrapper";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
+import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
+import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -77,6 +80,9 @@ export default async function HomePage({ params }: LangParams) {
       <WhyUs dict={dict} />
       <MapWrapper lang={lang} />
       <Testimonials dict={dict} />
+      <Suspense fallback={<NewsSectionSkeleton />}>
+        <NewsTeaserSection lang={lang} dict={dict} />
+      </Suspense>
       <Gallery dict={dict} />
       <CTABanner lang={lang} dict={dict} />
     </>

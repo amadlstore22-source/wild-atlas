@@ -190,6 +190,16 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
   },
+  "news": {
+    "eyebrow": "From the World of Travel",
+    "title": "Latest from Morocco & Beyond",
+    "subtitle": "Daily travel stories, trek reports, and Moroccan adventures.",
+    "morocco": "Morocco",
+    "travel": "Global Travel",
+    "readArticle": "Read Article",
+    "viewAll": "See All News",
+    "source": "Via"
+  },
   "common": {
     "home": "Home",
     "tours": "Tours",

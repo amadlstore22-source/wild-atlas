@@ -190,6 +190,16 @@
     "privacy": "Política de privacidad",
     "terms": "Términos y condiciones"
   },
+  "news": {
+    "eyebrow": "Del mundo del viaje",
+    "title": "Últimas noticias de Marruecos y más allá",
+    "subtitle": "Historias de viaje diarias, reportes de trekking y aventuras marroquíes.",
+    "morocco": "Marruecos",
+    "travel": "Viaje global",
+    "readArticle": "Leer artículo",
+    "viewAll": "Ver todas las noticias",
+    "source": "Vía"
+  },
   "common": {
     "home": "Inicio",
     "tours": "Tours",

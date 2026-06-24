@@ -190,6 +190,16 @@
     "privacy": "Datenschutzerklärung",
     "terms": "Allgemeine Geschäftsbedingungen"
   },
+  "news": {
+    "eyebrow": "Aus der Welt des Reisens",
+    "title": "Neuigkeiten aus Marokko und darüber hinaus",
+    "subtitle": "Tägliche Reiseberichte, Trekking-Berichte und marokkanische Abenteuer.",
+    "morocco": "Marokko",
+    "travel": "Weltreisen",
+    "readArticle": "Artikel lesen",
+    "viewAll": "Alle Neuigkeiten sehen",
+    "source": "Via"
+  },
   "common": {
     "home": "Startseite",
     "tours": "Touren",

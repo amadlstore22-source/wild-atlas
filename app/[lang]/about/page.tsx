@@ -83,22 +83,22 @@ export default async function AboutPage({ params }: LangParams) {
                 num: "01",
                 title: "Rooted in Local Knowledge",
                 body: "Every guide on our team was born or raised in Morocco's mountain communities. We don't hire staff from travel agencies — we work with the people who actually know these mountains, valleys, and deserts by name.",
-                image: "/images/guides-local-knowledge.jpeg",
-                alt: "Berber guides preparing a meal at a mountain camp in the High Atlas",
+                image: "https://images.unsplash.com/photo-1533839235388-7368a65d2a88?w=800&q=80",
+                alt: "Hiker overlooking the High Atlas mountain valleys, Morocco",
               },
               {
                 num: "02",
                 title: "Ethical, Community-First Travel",
                 body: "A significant portion of every booking goes directly to the local families, mule handlers, and guesthouses we work with. We don't use large hotel chains or international catering — we keep money in the communities we visit.",
-                image: "/images/guides-community-first.jpeg",
-                alt: "Guides and trekkers at the Toubkal mountain refuge, High Atlas Morocco",
+                image: "https://images.unsplash.com/photo-1545167496-31b3aa75296c?w=800&q=80",
+                alt: "Travellers and local guides on a camel caravan in the Moroccan Sahara",
               },
               {
                 num: "03",
                 title: "No Booking Platforms, No Mark-Ups",
                 body: "When you book directly with us, you pay us — not a commission layer on top. That means better prices for you and better income for our guides. We've deliberately stayed off the big aggregators since day one.",
-                image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
-                alt: "Sahara desert dunes at golden hour",
+                image: "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=800&q=80",
+                alt: "Colourful spice souk in Marrakech medina, Morocco",
               },
             ].map((p) => (
               <div key={p.num} className="bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark">

@@ -546,9 +546,9 @@ export const TOURS: Tour[] = [
     price: 30,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
     gallery: [
-      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&q=85",
+      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
       "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",
       "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
     ],

@@ -19,13 +19,14 @@ interface RssSource {
 }
 
 const RSS_SOURCES: RssSource[] = [
-  // Morocco sources — target 70%
-  { url: "https://www.moroccoworldnews.com/feed/", name: "Morocco World News", category: "morocco", maxItems: 4 },
-  { url: "https://www.moroccotomorrow.org/feed/", name: "Morocco Tomorrow", category: "morocco", maxItems: 3 },
-  { url: "https://feeds.bbci.co.uk/news/topics/c0q8l1lp04lt", name: "BBC Morocco", category: "morocco", maxItems: 3 },
-  // Global travel sources — target 30%
-  { url: "https://www.lonelyplanet.com/articles/feed", name: "Lonely Planet", category: "travel", maxItems: 2 },
-  { url: "https://www.nationalgeographic.com/travel/rss", name: "National Geographic", category: "travel", maxItems: 2 },
+  // Morocco sources (verified working 2026-06-24)
+  { url: "https://www.theguardian.com/world/morocco/rss", name: "The Guardian", category: "morocco", maxItems: 6 },
+  { url: "https://moroccotravelblog.com/feed/", name: "Morocco Travel Blog", category: "morocco", maxItems: 5 },
+  // Global travel sources (verified working 2026-06-24)
+  { url: "https://www.theguardian.com/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 5 },
+  { url: "https://www.cntraveler.com/feed/rss", name: "Condé Nast Traveler", category: "travel", maxItems: 4 },
+  { url: "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml", name: "NYT Travel", category: "travel", maxItems: 4 },
+  { url: "https://www.atlasandboots.com/feed/", name: "Atlas & Boots", category: "travel", maxItems: 3 },
 ];
 
 const RELEVANCE_KEYWORDS = [
@@ -33,9 +34,14 @@ const RELEVANCE_KEYWORDS = [
   "adventure", "tourism", "desert", "berber", "agadir", "essaouira",
   "fes", "chefchaouen", "outdoor", "expedition", "travel", "tour",
   "medina", "riad", "souk", "kasba", "dunes", "oasis", "valley",
+  "casablanca", "rabat", "tangier", "draa", "todra", "dades",
+  "trek", "wilderness", "nature", "mountain", "hike", "destination",
+  "holiday", "vacation", "trip", "culture", "heritage",
 ];
 
-function isRelevant(title: string, excerpt: string): boolean {
+// Morocco-category sources are already scoped — skip keyword filter for them
+function isRelevant(title: string, excerpt: string, category: "morocco" | "travel"): boolean {
+  if (category === "morocco") return true; // Guardian Morocco feed is already filtered at source
   const text = (title + " " + excerpt).toLowerCase();
   return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
 }
@@ -53,13 +59,15 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, "").replace(/&[a-z]+;/gi, " ").trim();
 }
 
+const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
 const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
 
 async function _fetchNewsArticles(): Promise<NewsArticle[]> {
   const parser = new Parser({ timeout: 8000 });
   const morocco: NewsArticle[] = [];
   const travel: NewsArticle[] = [];
-  const cutoff = Date.now() - THIRTY_DAYS_MS;
+  const moroccoСutoff = Date.now() - NINETY_DAYS_MS;
+  const travelCutoff = Date.now() - THIRTY_DAYS_MS;
 
   const results = await Promise.allSettled(
     RSS_SOURCES.map(async (source) => {
@@ -77,10 +85,10 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
       const title = item.title ?? "";
       const excerpt = stripHtml(item.contentSnippet ?? item.summary ?? item.content ?? "").slice(0, 200);
       if (!title || !item.link) continue;
-      if (!isRelevant(title, excerpt)) continue;
+      if (!isRelevant(title, excerpt, source.category)) continue;
 
       const publishedAt = item.isoDate ?? item.pubDate ?? new Date().toISOString();
-      // Drop articles older than 30 days
+      const cutoff = source.category === "morocco" ? moroccoСutoff : travelCutoff;
       if (new Date(publishedAt).getTime() < cutoff) continue;
 
       const article: NewsArticle = {

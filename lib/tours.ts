@@ -1117,6 +1117,521 @@ export const TOURS: Tour[] = [
   },
 
   // ─────────────────────────────────────────────
+  // DESERT TOURS FROM MARRAKECH (new)
+  // ─────────────────────────────────────────────
+  {
+    id: "23",
+    slug: "zagora-2day-marrakech",
+    title: "Marrakech to Zagora — 2-Day Desert Tour",
+    category: "desert",
+    origin: "marrakech",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "2 days / 1 night",
+    groupSize: "2–12 people",
+    reviewCount: 143,
+    rating: 4.8,
+    price: 149,
+    depositAmount: 38,
+    heroImage:
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+    ],
+    shortDescription:
+      "The fastest route to the Sahara from Marrakech — through Aït Ben Haddou and the 200 km Draa Valley palmery to a desert camp under the stars near Zagora.",
+    description:
+      "Two days to the desert and back. Zagora offers a genuine Saharan experience — camel treks, a night in a Berber camp, and a vast star-filled sky — without the longer drive to Merzouga. The route through the Draa Valley is one of the most beautiful in Morocco: 200 km of date palm oasis, ancient kasbahs, and Berber villages lining the river. The dunes at Erg Lehoudi are quieter and less crowded than Erg Chebbi, making this the perfect trip for travellers with limited time who still want the full desert experience.",
+    highlights: [
+      "Draa Valley — Morocco's longest oasis, 200 km of date palms and kasbahs",
+      "Camel trek on the Erg Lehoudi dunes at sunset",
+      "Overnight in a Berber desert camp with traditional music",
+      "UNESCO Ksar of Aït Ben Haddou",
+      "Tamegroute — a 14th-century Koranic library still open to visitors",
+      "Less crowded than Merzouga — a more intimate desert experience",
+    ],
+    includes: [
+      "Air-conditioned minibus transport throughout",
+      "English-speaking driver-guide",
+      "1 night Berber desert camp (dinner + breakfast)",
+      "Sunset camel trek",
+      "Mineral water and tea",
+    ],
+    excludes: [
+      "Lunches on both days",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Ben Haddou → Draa Valley → Zagora Camp",
+        description:
+          "Pick-up from your Marrakech accommodation at 7:00 am. Cross the Tizi n'Tichka pass and stop at the UNESCO Ksar of Aït Ben Haddou. Lunch in Ouarzazate. Drive south through the full length of the Draa Valley oasis — palm groves, mud-brick villages, and ancient granary kasbahs lining the road. Stop at Tamegroute to see the 14th-century library and famous green pottery workshops. Arrive the desert camp near Zagora by late afternoon. Mount a camel for the sunset ride across the dunes. Traditional Berber dinner and music around the campfire.",
+      },
+      {
+        day: 2,
+        title: "Sunrise over the Dunes → Draa Valley → Marrakech",
+        description:
+          "Early morning walk or optional camel ride for the desert sunrise. Breakfast at camp. Depart 8:30 am through the Draa Valley oasis in the morning light — a very different atmosphere from the afternoon. Lunch stop in Ouarzazate or en route. Cross back over the High Atlas. Arrive Marrakech by 6:30 pm.",
+      },
+    ],
+    meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
+    featured: false,
+    seoTitle: "Marrakech to Zagora 2-Day Desert Tour — Draa Valley, Camel Trek & Berber Camp | Wild Atlas",
+    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $149.",
+  },
+  {
+    id: "24",
+    slug: "erg-chegaga-3day-marrakech",
+    title: "Erg Chegaga — 3-Day Remote Desert Expedition",
+    category: "desert",
+    origin: "marrakech",
+    tourType: "shared",
+    difficulty: "moderate",
+    duration: "3 days / 2 nights",
+    groupSize: "2–8 people",
+    reviewCount: 64,
+    rating: 4.9,
+    price: 320,
+    depositAmount: 80,
+    heroImage:
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+    ],
+    shortDescription:
+      "Morocco's most remote desert — Erg Chegaga requires a 4x4 off-road journey past the last paved road to reach dunes rising 120 m above a vast and unpopulated sea of sand.",
+    description:
+      "Erg Chegaga is the Sahara that most tourists never find. Unlike Erg Chebbi near Merzouga — where camel trains file past each other in view of hotels — Chegaga requires an off-road 4x4 journey beyond the end of the tarmac at M'Hamid, the last village before the true Sahara. The dune field stretches for kilometres with barely another soul in sight. Three days from Marrakech through Aït Ben Haddou, the Saffron Valley of Taliouine, and the edge of the known world — then two nights deep in the desert where silence is the only sound.",
+    highlights: [
+      "Erg Chegaga — fewer tourists, 120 m dunes, profound silence",
+      "4x4 off-road desert crossing from M'Hamid into the dune field",
+      "2 nights in a desert camp with no other camps in sight",
+      "Saffron Valley of Taliouine — Morocco's spice capital",
+      "UNESCO Ksar of Aït Ben Haddou",
+      "Sunrise and sunset camel treks in a private corner of the Sahara",
+    ],
+    includes: [
+      "Private 4x4 transport throughout",
+      "Experienced desert guide with off-road expertise",
+      "1 night hotel in M'Hamid or Dades Valley",
+      "2 nights Berber desert camp (all meals)",
+      "All camel treks",
+      "Mineral water and mint tea",
+    ],
+    excludes: [
+      "Lunches on day 1 and day 3",
+      "Personal travel insurance",
+      "Tips",
+      "Optional quad biking near M'Hamid (available on site)",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
+        description:
+          "Pick-up at 7:00 am. Cross the Tizi n'Tichka pass and visit Aït Ben Haddou. Continue south through Ouarzazate and into the Saffron Valley near Taliouine — Morocco's saffron capital — for a short stop. Continue to M'Hamid, the last town before the open Sahara. Dinner and overnight in M'Hamid.",
+      },
+      {
+        day: 2,
+        title: "M'Hamid → Erg Chegaga (4x4 Crossing)",
+        description:
+          "After breakfast, board the 4x4 — the paved road ends here. Two to three hours of off-road driving through open desert, past scattered nomad camps and fossil-strewn hamada plains. Reach the edge of Erg Chegaga by midday. Camel trek deep into the dune field. Camp is set up in the heart of the erg — no roads, no other camps, no light pollution. Sunset over the dunes. Traditional dinner and a sky blazing with stars.",
+      },
+      {
+        day: 3,
+        title: "Sahara Sunrise → M'Hamid → Marrakech",
+        description:
+          "Pre-dawn wake-up to climb the dune crest for sunrise. Breakfast at camp. The 4x4 returns across the desert to M'Hamid. Begin the long, beautiful drive north through Zagora, the Draa Valley, and back over the High Atlas. Arrive Marrakech by 7:30 pm.",
+      },
+    ],
+    meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
+    featured: true,
+    seoTitle: "Erg Chegaga 3-Day Desert Tour from Marrakech — Remote Dunes & 4x4 Sahara Expedition | Wild Atlas",
+    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $320.",
+  },
+  {
+    id: "25",
+    slug: "desert-4day-marrakech",
+    title: "Marrakech Desert Grand Tour — 4 Days",
+    category: "desert",
+    origin: "marrakech",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–10 people",
+    reviewCount: 98,
+    rating: 4.9,
+    price: 360,
+    depositAmount: 90,
+    heroImage:
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+    ],
+    shortDescription:
+      "Four days through the full sweep of Morocco's south — mountains, canyons, film studios, a night in the desert, and the Road of a Thousand Kasbahs — all the way to Erg Chebbi and back.",
+    description:
+      "This is the definitive Marrakech desert circuit. Four days to experience everything the south of Morocco offers: the drama of the High Atlas, the cinematic grandeur of Aït Ben Haddou (used in Game of Thrones, Gladiator, and Lawrence of Arabia), the 400 m walls of Todra Gorge, a full night in an Erg Chebbi desert camp, and the return journey via the legendary Road of a Thousand Kasbahs. A tour with enough time to breathe, explore, and genuinely absorb one of the most spectacular landscapes on earth.",
+    highlights: [
+      "Full night at an Erg Chebbi desert camp — sunset and sunrise camel treks",
+      "Todra Gorge — Morocco's most dramatic canyon (400 m walls, 4 km walk)",
+      "UNESCO Ksar of Aït Ben Haddou — Gladiator and Game of Thrones location",
+      "Dades Valley — Valley of a Thousand Kasbahs",
+      "Skoura Oasis — sea of date palms and ancient earthen kasbahs",
+      "Return via the Road of a Thousand Kasbahs — Draa Valley corridor",
+    ],
+    includes: [
+      "Air-conditioned minibus/4x4 transport throughout",
+      "Professional bilingual driver-guide (English/French)",
+      "1 night hotel in Dades Valley (dinner + breakfast)",
+      "1 night traditional Berber desert camp (dinner + breakfast)",
+      "1 night hotel in Ouarzazate (breakfast)",
+      "Sunset and sunrise camel treks at Erg Chebbi",
+      "All transfers and access fees",
+      "Mineral water and tea throughout",
+    ],
+    excludes: [
+      "Lunches (recommended budget: €12–15 per meal)",
+      "Atlas Film Studios entry ticket (optional, ~€7)",
+      "Alcoholic beverages",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Dades Valley",
+        description:
+          "Pick-up at 7:00 am. Ascend the Tizi n'Tichka pass through the High Atlas (2,260 m). Stop at the UNESCO Ksar of Aït Ben Haddou for a full 45-minute exploration. Lunch break in Ouarzazate with the option to visit the Atlas Film Studios (where Gladiator and Game of Thrones were filmed). Continue through the dramatic Dades Valley — rose-red kasbahs, oasis villages, and the 'monkey fingers' rock formations. Arrive hotel in Dades Valley by 5:00 pm. Dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Dades Valley → Todra Gorge → Merzouga Desert Camp",
+        description:
+          "Breakfast at the hotel. Walk into Todra Gorge at its narrowest point — a 40 m wide corridor between 400 m limestone walls with a clear river underfoot. Continue east through the pre-Saharan plains, past oasis towns and nomad pastures. Arrive Merzouga in the afternoon. Board your camel for the sunset trek into Erg Chebbi's towering dunes. Arrive at camp as the sky turns red. Traditional Moroccan tagine for dinner, Berber music around the fire, and a sky alive with stars.",
+      },
+      {
+        day: 3,
+        title: "Sahara Sunrise → Merzouga Village → Ouarzazate",
+        description:
+          "Rise at 5:30 am to climb the dune and watch the Sahara wake up. Return camel to camp, breakfast, and freshen up at the Merzouga guesthouse. Begin the return via the 'Road of a Thousand Kasbahs' — a different, more southern route through Tazarine and N'Kob, a string of ancient earthen kasbahs along an old caravan route. Arrive Ouarzazate in the evening. Overnight in hotel.",
+      },
+      {
+        day: 4,
+        title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Marrakech",
+        description:
+          "Morning visit to Taourirt Kasbah in Ouarzazate (optional). Brief return stop at Aït Ben Haddou for a second angle in the morning light. Climb back over the Tizi n'Tichka pass with panoramic Atlas views. Arrive Marrakech by 5:00 pm.",
+      },
+    ],
+    meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
+    featured: true,
+    seoTitle: "4-Day Desert Tour from Marrakech — Erg Chebbi, Todra Gorge & Road of a Thousand Kasbahs | Wild Atlas",
+    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From $360.",
+  },
+
+  // ─────────────────────────────────────────────
+  // DESERT TOURS FROM AGADIR (new)
+  // ─────────────────────────────────────────────
+  {
+    id: "26",
+    slug: "merzouga-3day-agadir",
+    title: "Agadir to Merzouga — 3-Day Sahara Desert Tour",
+    category: "desert",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "3 days / 2 nights",
+    groupSize: "2–10 people",
+    reviewCount: 52,
+    rating: 4.8,
+    price: 295,
+    depositAmount: 75,
+    heroImage:
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+    ],
+    shortDescription:
+      "From Agadir's Atlantic coast to the Sahara's most iconic dune field — through Taroudant, Taliouine, Aït Ben Haddou, and Todra Gorge to a sunset camel trek on Erg Chebbi.",
+    description:
+      "Most Sahara tours leave from Marrakech. This one starts from Agadir — and the southern route adds two places most tourists miss: Taroudant, Morocco's best-preserved medieval rampart city, and Taliouine, the saffron capital of the world. From there the itinerary follows the classic route east through Ouarzazate, Aït Ben Haddou, and Todra Gorge before delivering you to Erg Chebbi — the Sahara's most dramatic dune field — in time for the sunset camel trek. Three days that cover the full width of southern Morocco.",
+    highlights: [
+      "Erg Chebbi — camel trek at sunset into 160 m dunes",
+      "Overnight in a Berber desert camp under the stars",
+      "Taroudant — Morocco's finest medieval walled city",
+      "Taliouine — the world's saffron capital",
+      "UNESCO Ksar of Aït Ben Haddou",
+      "Todra Gorge canyon walk (400 m walls)",
+    ],
+    includes: [
+      "Air-conditioned 4x4 transport throughout",
+      "English-speaking driver-guide",
+      "1 night hotel in Dades Valley or Tinghir (dinner + breakfast)",
+      "1 night Berber desert camp at Erg Chebbi (dinner + breakfast)",
+      "Sunset and sunrise camel treks",
+      "Mineral water and mint tea throughout",
+    ],
+    excludes: [
+      "Lunches on all three days",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Dades Valley",
+        description:
+          "Early pick-up from your Agadir hotel at 6:30 am. Drive east to Taroudant (1 hour) — walk the 16th-century ramparts and the spice souk of this perfectly preserved medieval city. Continue to Taliouine, Morocco's saffron-growing heartland, for a short stop. Drive through Ouarzazate and visit the UNESCO Ksar of Aït Ben Haddou. Continue through the Dades Valley. Arrive hotel by 6:00 pm. Dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Dades Valley → Todra Gorge → Erg Chebbi Camp",
+        description:
+          "Breakfast at hotel. Walk the floor of Todra Gorge — 400 m walls of pink limestone framing a narrow river corridor. Drive east across the desert plains to Merzouga. Board your camel at sunset and ride into the towering dunes of Erg Chebbi. Camp is reached as the sky darkens. Traditional tagine dinner, Berber music, and stargazing in the Saharan dark.",
+      },
+      {
+        day: 3,
+        title: "Sahara Sunrise → Merzouga → Agadir",
+        description:
+          "Rise at 5:30 am for the sunrise over the dunes. Return camel ride, breakfast at camp, freshen up in Merzouga. Begin the long return journey west and south — through Rissani, Tazarine, and the desert plains, back over the Tizi n'Tichka pass and down to Agadir. Arrive by 8:00–9:00 pm.",
+      },
+    ],
+    meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
+    featured: false,
+    seoTitle: "Agadir to Merzouga 3-Day Desert Tour — Erg Chebbi, Taroudant & Taliouine | Wild Atlas",
+    seoDescription: "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. 3-day desert tour with Berber camp. From $295.",
+  },
+  {
+    id: "27",
+    slug: "zagora-2day-agadir",
+    title: "Agadir to Zagora — 2-Day Desert Tour",
+    category: "desert",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "2 days / 1 night",
+    groupSize: "2–10 people",
+    reviewCount: 41,
+    rating: 4.7,
+    price: 179,
+    depositAmount: 45,
+    heroImage:
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+    ],
+    shortDescription:
+      "Two days from Agadir's Atlantic beaches to the desert — via the walled city of Taroudant, the carpet capital of Taznakht, and the 200 km Draa Valley palmery to the Zagora dunes.",
+    description:
+      "The quickest route from Agadir to the desert does not go through Marrakech. It heads east through Taroudant and Taznakht, entering the Draa Valley from the south — Morocco's longest oasis, a ribbon of date palms, ancient kasbahs, and Berber settlements stretching 200 km through the pre-Saharan south. Zagora's dunes are quieter than Merzouga, the atmosphere is more intimate, and after a night in a traditional Berber camp listening to music under an immense black sky, the drive back feels entirely worth it.",
+    highlights: [
+      "Zagora dunes — a quieter, more intimate desert camp experience",
+      "Draa Valley — 200 km of date palm oasis and ancient kasbahs",
+      "Taroudant — best-preserved medieval ramparts in Morocco",
+      "Taznakht — Berber carpet weaving capital",
+      "Sunset camel trek and stargazing from the desert",
+      "Tamegroute's 14th-century Koranic library",
+    ],
+    includes: [
+      "Air-conditioned transport throughout",
+      "English-speaking driver-guide",
+      "1 night Berber desert camp (dinner + breakfast)",
+      "Sunset camel trek",
+      "Mineral water and mint tea",
+    ],
+    excludes: [
+      "Lunches on both days",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Taroudant → Taznakht → Draa Valley → Zagora",
+        description:
+          "Pick-up from your Agadir hotel at 7:30 am. Drive east to Taroudant — walk the 16th-century ochre ramparts and the Berber market. Continue to Taznakht, the Berber carpet-weaving capital. Enter the Draa Valley from the west and follow it south through date palm groves and ancient villages to Zagora. Arrive the desert camp in time for a sunset camel ride on the dunes. Traditional Berber dinner and music under the stars.",
+      },
+      {
+        day: 2,
+        title: "Sunrise → Tamegroute → Draa Valley → Agadir",
+        description:
+          "Optional early morning camel ride for the sunrise. Breakfast at camp. Stop at Tamegroute — a village with a 14th-century Koranic library housing hand-illuminated manuscripts and a famous green-glazed pottery cooperative. Drive north through the full length of the Draa Valley in the morning light. Return through Ouarzazate and back to Agadir. Arrive by 6:30 pm.",
+      },
+    ],
+    meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
+    featured: false,
+    seoTitle: "Agadir to Zagora 2-Day Desert Tour — Draa Valley, Taroudant & Berber Camp | Wild Atlas",
+    seoDescription: "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. Berber camp under the stars. From $179.",
+  },
+  {
+    id: "28",
+    slug: "erg-chegaga-3day-agadir",
+    title: "Agadir to Erg Chegaga — 3-Day Remote Desert Tour",
+    category: "desert",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "moderate",
+    duration: "3 days / 2 nights",
+    groupSize: "2–8 people",
+    reviewCount: 28,
+    rating: 4.9,
+    price: 345,
+    depositAmount: 87,
+    heroImage:
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+    ],
+    shortDescription:
+      "Agadir's best Sahara route — south through the Anti-Atlas foothills and Draa Valley to reach Erg Chegaga, Morocco's most remote dune field, by 4x4.",
+    description:
+      "From Agadir, the route to Erg Chegaga is the most natural in Morocco. Head south through the Anti-Atlas foothills via Tata and Foum Zguid, entering the edge of the Sahara from the west — a very different approach than the standard Marrakech route. Erg Chegaga is the Sahara for those who want fewer tourists, larger dunes in total, and a more genuine feeling of wilderness. The 4x4 crossing from M'Hamid is part of the adventure. Two nights deep in the desert, away from everything.",
+    highlights: [
+      "Erg Chegaga — Morocco's most remote dune field, reached by 4x4",
+      "Unique southern approach via Anti-Atlas foothills and Tata",
+      "2 nights in a Berber camp with no other camps in sight",
+      "Draa Valley return — full 200 km oasis corridor",
+      "Sunset and sunrise camel treks on vast, empty dunes",
+      "Some of the darkest skies in North Africa for stargazing",
+    ],
+    includes: [
+      "Private 4x4 transport throughout",
+      "Experienced desert guide with off-road expertise",
+      "1 night accommodation in Foum Zguid or M'Hamid",
+      "2 nights Berber desert camp at Erg Chegaga (all meals)",
+      "All camel treks",
+      "Mineral water and tea throughout",
+    ],
+    excludes: [
+      "Lunches on days 1 and 3",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Anti-Atlas Foothills → Tata → Foum Zguid / M'Hamid",
+        description:
+          "Early pick-up from Agadir at 6:30 am. Drive south through the Anti-Atlas foothills — the oldest mountain range in Morocco, stranger and more ancient-looking than the High Atlas. Pass through the oasis town of Tata and continue to Foum Zguid or M'Hamid, the last settlements before Erg Chegaga. Dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "4x4 Crossing into Erg Chegaga",
+        description:
+          "After breakfast, the paved road ends. Board the 4x4 for the off-road crossing — two to three hours of desert driving through open hammada, fossil plains, and scattered acacia. Arrive at the edge of Erg Chegaga by midday. Camel trek into the dune field. Camp is set deep in the erg. Sunset over the dunes, dinner by firelight, a silence you will not forget.",
+      },
+      {
+        day: 3,
+        title: "Sunrise → M'Hamid → Draa Valley → Agadir",
+        description:
+          "Rise before dawn for the full sunrise over the dunes. Breakfast at camp. The 4x4 returns across the desert to M'Hamid. Drive north through the Draa Valley — one of the most beautiful drives in Morocco — and back to Agadir via Zagora and Ouarzazate. Arrive Agadir by 8:00 pm.",
+      },
+    ],
+    meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
+    featured: false,
+    seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour — Remote Sahara & 4x4 Expedition | Wild Atlas",
+    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $345.",
+  },
+  {
+    id: "29",
+    slug: "desert-4day-agadir",
+    title: "Agadir Desert Grand Tour — 4 Days",
+    category: "desert",
+    origin: "agadir",
+    tourType: "shared",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–10 people",
+    reviewCount: 39,
+    rating: 4.8,
+    price: 420,
+    depositAmount: 105,
+    heroImage:
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+    ],
+    shortDescription:
+      "Four days from the Atlantic coast to the Sahara and back — Taroudant, Aït Ben Haddou, Todra Gorge, a full night in an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs.",
+    description:
+      "The ultimate desert circuit starting from Agadir — and it has one advantage over every Marrakech tour: two destinations that Marrakech tourists miss. Taroudant's perfectly preserved 16th-century ramparts and Taliouine's saffron fields are worth the early start. From there the itinerary follows the great southern arc: Aït Ben Haddou, Ouarzazate, the Dades Valley, Todra Gorge, and Erg Chebbi — the most iconic dune field in Morocco. Four days that show you the full width and depth of the Moroccan south.",
+    highlights: [
+      "Erg Chebbi desert camp — two camel treks, a full desert night",
+      "Taroudant — medieval walled city unique to the Agadir route",
+      "Taliouine — the world's saffron capital (unique to Agadir route)",
+      "UNESCO Ksar of Aït Ben Haddou",
+      "Todra Gorge — walk between 400 m canyon walls",
+      "Road of a Thousand Kasbahs — return via ancient caravan route",
+    ],
+    includes: [
+      "Air-conditioned 4x4 transport throughout",
+      "Professional bilingual driver-guide (English/French)",
+      "1 night hotel in Dades Valley (dinner + breakfast)",
+      "1 night Berber desert camp at Erg Chebbi (dinner + breakfast)",
+      "1 night hotel in Ouarzazate (breakfast)",
+      "Sunset and sunrise camel treks",
+      "Mineral water and mint tea throughout",
+    ],
+    excludes: [
+      "Lunches throughout (budget €12–15 per meal)",
+      "Atlas Film Studios entry (optional, ~€7)",
+      "Alcoholic beverages",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Dades Valley",
+        description:
+          "Pick-up from your Agadir hotel at 6:30 am. Drive east to Taroudant — explore the best-preserved 16th-century ramparts in Morocco and the ancient Berber spice market. Continue to Taliouine for a saffron cooperative visit. Drive through Ouarzazate and stop at the UNESCO Ksar of Aït Ben Haddou. Continue through the dramatic Dades Valley. Arrive hotel by 6:00 pm. Dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Dades Valley → Todra Gorge → Erg Chebbi Camp",
+        description:
+          "Breakfast at hotel. Walk the floor of Todra Gorge — 400 m limestone walls, a river underfoot, and almost no crowds in the early morning. Drive east through the pre-Saharan oasis landscape to Merzouga. Mount your camel at the dune edge and ride into Erg Chebbi as the sun sets. Reach camp as darkness falls. Traditional tagine, Gnawa music, stargazing in the Saharan sky.",
+      },
+      {
+        day: 3,
+        title: "Sahara Sunrise → Road of a Thousand Kasbahs → Ouarzazate",
+        description:
+          "Pre-dawn wake-up for the sunrise over the dunes. Return camel to camp. Breakfast and freshen up. Take the Road of a Thousand Kasbahs — a southern return route through Tazarine, N'Kob, and the Draa Valley corridor, lined with ancient earthen kasbahs that once served the trans-Saharan caravans. Arrive Ouarzazate by evening. Overnight in hotel.",
+      },
+      {
+        day: 4,
+        title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Agadir",
+        description:
+          "Optional morning visit to the Atlas Film Studios or Taourirt Kasbah in Ouarzazate. Brief stop at Aït Ben Haddou in the morning light. Cross back through Marrakech and over the Anti-Atlas to Agadir. Arrive by 8:00 pm.",
+      },
+    ],
+    meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
+    featured: false,
+    seoTitle: "4-Day Desert Tour from Agadir — Erg Chebbi, Taroudant, Todra Gorge & Road of 1000 Kasbahs | Wild Atlas",
+    seoDescription: "The complete Agadir desert grand tour — 4 days through Taroudant, Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp, and the Road of a Thousand Kasbahs. From $420.",
+  },
+
+  // ─────────────────────────────────────────────
   // IMPERIAL CITIES FROM AGADIR
   // ─────────────────────────────────────────────
   {

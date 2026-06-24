@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { fetchNewsArticles, type NewsArticle } from "@/lib/news";
+import { fetchNewsArticles, type NewsArticle, FALLBACK_MOROCCO, FALLBACK_TRAVEL } from "@/lib/news";
 import { BLOG_POSTS } from "@/lib/blog";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
   lang: Locale;
   dict: Dictionary;
+  showViewAll?: boolean;
 }
-
-const MOROCCO_IMAGE = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80";
-const TRAVEL_IMAGE = "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80";
 
 function formatDate(iso: string): string {
   try {
@@ -20,7 +18,11 @@ function formatDate(iso: string): string {
   }
 }
 
-export default async function NewsSection({ lang, dict }: Props) {
+function articleImage(article: NewsArticle): string {
+  return article.imageUrl ?? (article.category === "morocco" ? FALLBACK_MOROCCO : FALLBACK_TRAVEL);
+}
+
+export default async function NewsSection({ lang, dict, showViewAll = true }: Props) {
   let articles: NewsArticle[] = [];
   try {
     articles = await fetchNewsArticles();
@@ -46,12 +48,14 @@ export default async function NewsSection({ lang, dict }: Props) {
               {hasFallback ? dict.blog.pageSubtitle : dict.news.subtitle}
             </p>
           </div>
-          <Link
-            href={hasFallback ? `/${lang}/blog` : `/${lang}/news`}
-            className="shrink-0 text-sm font-semibold text-forest hover:text-moss underline underline-offset-4 transition-colors"
-          >
-            {dict.news.viewAll} →
-          </Link>
+          {showViewAll && (
+            <Link
+              href={hasFallback ? `/${lang}/blog` : `/${lang}/news`}
+              className="shrink-0 text-sm font-semibold text-forest hover:text-moss underline underline-offset-4 transition-colors"
+            >
+              {dict.news.viewAll} →
+            </Link>
+          )}
         </div>
 
         {hasFallback ? (
@@ -84,16 +88,19 @@ export default async function NewsSection({ lang, dict }: Props) {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((article) => (
-              <div
+              <a
                 key={article.id}
-                className="bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark"
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow cursor-pointer"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src={article.category === "morocco" ? MOROCCO_IMAGE : TRAVEL_IMAGE}
+                    src={articleImage(article)}
                     alt={article.title}
                     fill
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <span
@@ -105,18 +112,18 @@ export default async function NewsSection({ lang, dict }: Props) {
                   </span>
                 </div>
                 <div className="p-5">
-                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-3">
-                    {article.title}
-                  </h3>
-                  <p className="text-charcoal/60 text-sm leading-relaxed line-clamp-3 mb-4">
-                    {article.excerpt}
-                  </p>
-                  <p className="text-xs text-charcoal/35 border-t border-sand-dark pt-3">
-                    {dict.news.source} <span className="font-semibold text-charcoal/50">{article.source}</span>
+                  <p className="text-xs text-charcoal/40 mb-2">
+                    {dict.news.source} <span className="font-semibold">{article.source}</span>
                     {" · "}{formatDate(article.publishedAt)}
                   </p>
+                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2 group-hover:text-forest transition-colors">
+                    {article.title}
+                  </h3>
+                  <p className="text-charcoal/55 text-sm leading-relaxed line-clamp-3">
+                    {article.excerpt}
+                  </p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         )}

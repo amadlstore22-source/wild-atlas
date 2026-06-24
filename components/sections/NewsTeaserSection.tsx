@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { fetchNewsArticles } from "@/lib/news";
+import { fetchNewsArticles, FALLBACK_MOROCCO, FALLBACK_TRAVEL, type NewsArticle } from "@/lib/news";
 import { BLOG_POSTS } from "@/lib/blog";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -9,8 +9,9 @@ interface Props {
   dict: Dictionary;
 }
 
-const MOROCCO_IMAGE = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80";
-const TRAVEL_IMAGE = "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80";
+function articleImage(article: NewsArticle): string {
+  return article.imageUrl ?? (article.category === "morocco" ? FALLBACK_MOROCCO : FALLBACK_TRAVEL);
+}
 
 function formatDate(iso: string): string {
   try {
@@ -53,9 +54,14 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
           {/* Featured / headline article */}
           <div className="lg:col-span-2">
             {featured ? (
-              <div className="relative rounded-2xl overflow-hidden h-72 sm:h-96">
+              <a
+                href={featured.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative block rounded-2xl overflow-hidden h-72 sm:h-96"
+              >
                 <Image
-                  src={featured.category === "morocco" ? MOROCCO_IMAGE : TRAVEL_IMAGE}
+                  src={articleImage(featured)}
                   alt={featured.title}
                   fill
                   className="object-cover"
@@ -80,7 +86,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                     {dict.news.source} {featured.source} · {formatDate(featured.publishedAt)}
                   </p>
                 </div>
-              </div>
+              </a>
             ) : fallbackPost ? (
               <Link
                 href={`/${lang}/blog/${fallbackPost.slug}`}
@@ -112,13 +118,16 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
               const blogItem = !isNewsArticle ? (item as (typeof fallbackSide)[0]) : null;
 
               return isNewsArticle && newsItem ? (
-                <div
+                <a
                   key={newsItem.id}
-                  className="flex gap-4 bg-sand/30 rounded-2xl p-4"
+                  href={newsItem.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
                 >
                   <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
                     <Image
-                      src={newsItem.category === "morocco" ? MOROCCO_IMAGE : TRAVEL_IMAGE}
+                      src={articleImage(newsItem)}
                       alt={newsItem.title}
                       fill
                       className="object-cover"
@@ -140,7 +149,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                       {newsItem.source} · {formatDate(newsItem.publishedAt)}
                     </p>
                   </div>
-                </div>
+                </a>
               ) : blogItem ? (
                 <Link
                   key={blogItem.slug}

@@ -42,7 +42,7 @@ export default async function NewsPage({ params }: LangParams) {
       </div>
 
       <Suspense fallback={<NewsSectionSkeleton />}>
-        <NewsSection lang={lang} dict={dict} />
+        <NewsSection lang={lang} dict={dict} showViewAll={false} />
       </Suspense>
 
       <CTABanner lang={lang} dict={dict} />

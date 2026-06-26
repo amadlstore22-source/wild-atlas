@@ -9,7 +9,7 @@ export const SITE = {
   paypal: "wildatlas",
   address: "Marrakech, Morocco",
   country: "MA",
-  tourCount: 21,
+  tourCount: "30+",
   experienceYears: 10,
   clientCount: "1,000+",
   countryCount: "40+",

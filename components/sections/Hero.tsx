@@ -207,9 +207,9 @@ export default function Hero({ lang, dict }: Props) {
             transition={{ duration: 0.8, ease, delay: 1.0 }}
           >
             {[
-              { value: `${SITE.tourCount}+`, label: "Adventures" },
+              { value: String(SITE.tourCount), label: "Adventures" },
               { value: SITE.clientCount, label: "Travellers" },
-              { value: `${SITE.countryCount}+`, label: "Countries" },
+              { value: String(SITE.countryCount), label: "Countries" },
               { value: "5.0", label: "Star Rating" },
             ].map((s, i) => (
               <motion.div

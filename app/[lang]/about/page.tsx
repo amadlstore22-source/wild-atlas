@@ -81,7 +81,7 @@ export default async function AboutPage({ params }: LangParams) {
             {[
               { value: `${SITE.experienceYears}+`, label: "Years guiding" },
               { value: SITE.clientCount, label: "Happy travellers" },
-              { value: SITE.tourCount.toString(), label: "Tours available" },
+              { value: String(SITE.tourCount), label: "Tours available" },
               { value: SITE.countryCount, label: "Countries represented" },
             ].map((s) => (
               <div key={s.label} className="text-center px-4 py-2">

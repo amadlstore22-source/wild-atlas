@@ -65,6 +65,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export default function Testimonials({ dict }: Props) {
   const [idx, setIdx] = useState(0);
   const [direction, setDirection] = useState(1);
+  const [isHovered, setIsHovered] = useState(false);
   const r = REVIEWS[idx];
 
   const prev = useCallback(() => {
@@ -77,6 +78,7 @@ export default function Testimonials({ dict }: Props) {
     setIdx((i) => (i + 1) % REVIEWS.length);
   }, []);
 
+  // Keyboard navigation
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === "ArrowLeft") prev();
@@ -86,8 +88,22 @@ export default function Testimonials({ dict }: Props) {
     return () => window.removeEventListener("keydown", onKey);
   }, [prev, next]);
 
+  // Auto-advance every 6 s, pause on hover
+  useEffect(() => {
+    if (isHovered) return;
+    const id = setInterval(() => {
+      setDirection(1);
+      setIdx((i) => (i + 1) % REVIEWS.length);
+    }, 6000);
+    return () => clearInterval(id);
+  }, [isHovered]);
+
   return (
-    <section className="py-24 overflow-hidden">
+    <section
+      className="py-24 overflow-hidden"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
@@ -219,21 +235,31 @@ export default function Testimonials({ dict }: Props) {
           </div>
         </div>
 
-        {/* Dot progress */}
-        <div className="flex items-center justify-center gap-1.5 mt-10">
-          {REVIEWS.map((_, i) => (
-            <motion.button
-              key={i}
-              onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
-              aria-label={`Review ${i + 1}`}
-              animate={{
-                width: i === idx ? 24 : 8,
-                backgroundColor: i === idx ? "#4B5D3A" : "#D8C9AC",
-              }}
-              transition={{ duration: 0.3 }}
-              className="h-2 rounded-full"
+        {/* Dot progress + auto-play bar */}
+        <div className="flex flex-col items-center gap-3 mt-10">
+          <div className="flex items-center gap-1.5">
+            {REVIEWS.map((_, i) => (
+              <motion.button
+                key={i}
+                onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
+                aria-label={`Review ${i + 1}`}
+                animate={{
+                  width: i === idx ? 24 : 8,
+                  backgroundColor: i === idx ? "#4B5D3A" : "#D8C9AC",
+                }}
+                transition={{ duration: 0.3 }}
+                className="h-2 rounded-full"
+              />
+            ))}
+          </div>
+
+          {/* Auto-play progress bar */}
+          <div className="w-28 h-0.5 rounded-full overflow-hidden bg-sand-dark/40">
+            <div
+              key={`${idx}-${isHovered}`}
+              className={`h-full bg-forest rounded-full autoplay-bar${isHovered ? " paused" : ""}`}
             />
-          ))}
+          </div>
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 import { TOURS } from "@/lib/tours";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
@@ -62,10 +63,6 @@ function FlyController({ target }: { target: [number, number] | null }) {
 export default function ToursMap({ lang }: { lang: Locale }) {
   const [activeFilter, setActiveFilter] = useState<string>("all");
   const [flyTarget, setFlyTarget] = useState<[number, number] | null>(null);
-
-  useEffect(() => {
-    import("leaflet/dist/leaflet.css");
-  }, []);
 
   const visible =
     activeFilter === "all"

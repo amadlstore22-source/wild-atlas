@@ -58,6 +58,12 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
           )}
         </div>
 
+        {hasFallback && (
+          <p className="text-xs text-charcoal/40 mb-6 italic">
+            Live news feed is temporarily unavailable — showing our latest articles instead.
+          </p>
+        )}
+
         {hasFallback ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {fallbackPosts.map((post) => (

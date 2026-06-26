@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import SmoothScroll from "@/components/ui/SmoothScroll";
+import ScrollProgress from "@/components/ui/ScrollProgress";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
 const dmSans = DM_Sans({
@@ -87,6 +88,7 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <SmoothScroll />
+        <ScrollProgress />
         {/* Third atmospheric orb — mid-page forest green */}
         <div className="orb-mid" aria-hidden="true" />
         <Header lang={locale} dict={dict} />

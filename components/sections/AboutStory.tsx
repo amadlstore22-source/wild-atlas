@@ -11,12 +11,12 @@ const MILESTONES = [
   {
     year: "1980s",
     title: "A Father's Footsteps",
-    body: "Our father was among the first generation of licensed Berber mountain guides in the High Atlas. Long before tourism existed in the region, he was leading small groups through Toubkal, Ourika, and the Aït Benhaddou valley — building trust with travellers one route at a time.",
+    body: "Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the High Atlas. Long before tourism existed in the region, he was leading small groups through Toubkal, Ourika, and the Aït Benhaddou valley — building trust with travellers one route at a time.",
   },
   {
     year: "2010",
-    title: "The Next Generation Takes Over",
-    body: "We grew up on these trails. In 2010, we formalised what had always been a family calling — registering officially and building on everything our father taught us, while expanding the range of routes and the standard of service.",
+    title: "Smail & Mohamed Take Over",
+    body: "We grew up on these trails. In 2010, we — Smail and Mohamed — formalised what had always been a family calling: registering officially and building on everything our father taught us, while expanding the range of routes and the standard of service.",
   },
   {
     year: "2015",
@@ -103,13 +103,13 @@ export default function AboutStory({ lang }: { lang: Locale }) {
 
               <div className="space-y-5 text-charcoal/65 leading-relaxed">
                 <p>
-                  This didn&apos;t start with us. Our father was one of the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned by walking, and he taught us the same way.
+                  This didn&apos;t start with us. Our father, Lahsen Aitidar, was one of the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned every route by walking it, and he taught us the same way.
                 </p>
                 <p>
-                  We grew up on these trails. In 2010, we took over and built on what he gave us — adding routes, adding rigor, building a proper operation. But the principle was already there: know the land deeply, treat every guest like family, never cut corners where safety or honesty is concerned.
+                  We — Smail and Mohamed — grew up on those trails. In 2010 we took over and built on what he gave us: adding routes, adding rigour, building a proper operation. But the principle was already there: know the land deeply, treat every guest like family, never cut corners where safety or honesty is concerned.
                 </p>
                 <p>
-                  Over the years since, we&apos;ve expanded from Toubkal to the Sahara, from Marrakech to Agadir, from one guide to a full team of licensed professionals. Every single one of us grew up walking the routes we now lead.
+                  Over the years since, we&apos;ve expanded from Toubkal to the Sahara, from Marrakech to Agadir, from one guide to a full team of licensed professionals. Every one of us grew up walking the routes we now lead.
                 </p>
                 <p className="font-semibold text-charcoal/80">
                   That&apos;s not a marketing line. It&apos;s a family legacy.
@@ -131,8 +131,14 @@ export default function AboutStory({ lang }: { lang: Locale }) {
           </div>
 
           <div className="relative max-w-3xl mx-auto">
-            {/* Vertical line */}
-            <div className="absolute left-[28px] top-4 bottom-4 w-px bg-gradient-to-b from-forest/30 via-forest/20 to-transparent hidden sm:block" />
+            {/* Vertical line — draws downward as timeline enters view */}
+            <motion.div
+              className="absolute left-[28px] top-4 bottom-4 w-px bg-gradient-to-b from-forest/30 via-forest/20 to-transparent hidden sm:block origin-top"
+              initial={{ scaleY: 0 }}
+              whileInView={{ scaleY: 1 }}
+              viewport={{ once: true, amount: 0.05 }}
+              transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
+            />
 
             <div className="space-y-10">
               {MILESTONES.map((m, i) => (

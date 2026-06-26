@@ -2,6 +2,7 @@
 import { ShieldCheck, UsersThree, Leaf, ChatCircle, MapTrifold, Star, ArrowRight } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
+import AnimatedNumber from "@/components/ui/AnimatedNumber";
 import { SITE } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
@@ -24,11 +25,16 @@ export default function WhyUs({ dict }: Props) {
     { num: "04", title: "Go", body: "Your guide meets you. Everything else is taken care of." },
   ];
 
-  const STATS = [
-    { value: `${SITE.experienceYears}+`, label: dict.ourStory.stat1Label },
-    { value: SITE.clientCount, label: dict.ourStory.stat2Label },
-    { value: "5.0", label: "Star rating" },
-    { value: "100%", label: "Licensed guides" },
+  interface StatItem {
+    label: string;
+    static?: string;
+    animate?: { to: number; suffix?: string; decimals?: number };
+  }
+  const STATS: StatItem[] = [
+    { animate: { to: SITE.experienceYears, suffix: "+" }, label: dict.ourStory.stat1Label },
+    { static: SITE.clientCount, label: dict.ourStory.stat2Label },
+    { animate: { to: 5, suffix: "", decimals: 1 }, label: "Star rating" },
+    { animate: { to: 100, suffix: "%" }, label: "Licensed guides" },
   ];
 
   return (
@@ -64,7 +70,12 @@ export default function WhyUs({ dict }: Props) {
                   viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.5, ease, delay: 0.1 + i * 0.08 }}
                 >
-                  <div className="font-serif text-white text-3xl font-bold leading-none mb-1">{s.value}</div>
+                  <div className="font-serif text-white text-3xl font-bold leading-none mb-1">
+                    {s.animate
+                      ? <AnimatedNumber to={s.animate.to} suffix={s.animate.suffix} decimals={s.animate.decimals} />
+                      : s.static
+                    }
+                  </div>
                   <div className="text-white/60 text-xs">{s.label}</div>
                 </motion.div>
               ))}

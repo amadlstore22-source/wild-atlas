@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 interface Options {
   onSuccess?: () => void;
@@ -9,8 +9,11 @@ export function useFormSubmit(options?: Options) {
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
+  const inFlight = useRef(false);
 
   async function submit(body: Record<string, unknown>) {
+    if (inFlight.current) return;
+    inFlight.current = true;
     setSending(true);
     setError("");
     try {
@@ -27,8 +30,10 @@ export function useFormSubmit(options?: Options) {
       }
     } catch {
       setError("Network error. Please try again.");
+    } finally {
+      inFlight.current = false;
+      setSending(false);
     }
-    setSending(false);
   }
 
   return { sending, sent, error, submit };

@@ -52,10 +52,14 @@ export default async function PrivacyPage({ params }: LangParams) {
               <li>Complete a booking and deposit payment (payment is processed by PayPal — we do not receive, store, or have access to your card or bank details)</li>
             </ul>
             <p className="mt-3">
-              We do not use cookies for tracking or advertising. We do not run third-party analytics scripts
-              (such as Google Analytics) on this website. Our hosting provider (Vercel) may collect standard
-              server logs (IP address, browser type, request timestamps) for security and performance purposes
-              — see Vercel's Privacy Policy for details.
+              We do not use cookies for tracking or advertising. We do not use Google Analytics or any
+              third-party advertising scripts. We use <strong>Vercel Analytics</strong> and <strong>Vercel
+              Speed Insights</strong> to understand aggregate page traffic and measure site performance.
+              These tools do not use cookies or fingerprinting — they collect only anonymised, aggregated
+              metrics (page views, visitor counts, Core Web Vitals) and do not store personally identifiable
+              information. Our hosting provider (Vercel) may also collect standard server logs (IP address,
+              browser type, request timestamps) for security and reliability — see Vercel's Privacy Policy
+              for details.
             </p>
             <p className="mt-3">
               Our News page displays travel articles aggregated from third-party RSS feeds. We do not collect
@@ -86,8 +90,11 @@ export default async function PrivacyPage({ params }: LangParams) {
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
-                <strong>Vercel</strong> — website hosting and deployment infrastructure. Vercel may log
-                server-level data (IP addresses, request logs) for security and reliability.
+                <strong>Vercel</strong> — website hosting, deployment infrastructure, and analytics. Vercel
+                may log server-level data (IP addresses, request logs) for security and reliability. Vercel
+                Analytics and Speed Insights collect anonymised, aggregated performance and traffic data
+                with no cookies or personal identifiers. See{" "}
+                <a href="https://vercel.com/legal/privacy-policy" className="text-forest hover:underline" target="_blank" rel="noopener noreferrer">Vercel's Privacy Policy</a>.
               </li>
               <li>
                 <strong>PayPal</strong> — secure payment processing for tour deposits and full payments.

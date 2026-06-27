@@ -1,54 +1,161 @@
 "use client";
-import { useEffect, useRef } from "react";
 
 /* ─────────────────────────────────────────────
-   Trekking — snowflakes drifting down a peak
+   Trekking — lone climber ascending Atlas peaks
+   Stars reference the Atlas myth: bearer of the heavens
 ───────────────────────────────────────────── */
-function SnowMountain() {
+function AtlasTrek() {
   return (
-    <svg
-      viewBox="0 0 120 90"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-      aria-hidden="true"
-    >
-      {/* Mountain silhouette */}
-      <polygon points="60,8 10,78 110,78" fill="white" opacity="0.18" />
-      <polygon points="60,8 35,45 85,45" fill="white" opacity="0.30" />
-      {/* Snow cap */}
-      <polygon points="60,8 47,32 73,32" fill="white" opacity="0.70" />
-
-      {/* Snowflakes — staggered fall */}
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" aria-hidden="true">
+      {/* Twinkling stars */}
       {[
-        { cx: 25, cy: 12, r: 2, delay: "0s",    dur: "2.8s" },
-        { cx: 50, cy: 5,  r: 1.5, delay: "0.6s", dur: "3.2s" },
-        { cx: 75, cy: 10, r: 2,   delay: "1.1s", dur: "2.6s" },
-        { cx: 38, cy: 18, r: 1.2, delay: "0.3s", dur: "3.5s" },
-        { cx: 88, cy: 15, r: 1.8, delay: "1.8s", dur: "2.9s" },
-        { cx: 15, cy: 22, r: 1.3, delay: "2.2s", dur: "3.1s" },
-        { cx: 62, cy: 3,  r: 1.6, delay: "0.9s", dur: "2.7s" },
-        { cx: 100,cy: 20, r: 1.4, delay: "1.5s", dur: "3.3s" },
-      ].map(({ cx, cy, r, delay, dur }, i) => (
-        <circle key={i} cx={cx} cy={cy} r={r} fill="white" opacity="0.85">
-          <animateTransform
-            attributeName="transform"
-            type="translate"
-            from="0 0"
-            to={`${(i % 3) - 1} 72`}
-            dur={dur}
-            begin={delay}
-            repeatCount="indefinite"
-            calcMode="linear"
-          />
-          <animate
-            attributeName="opacity"
-            values="0;0.85;0.85;0"
-            keyTimes="0;0.1;0.85;1"
-            dur={dur}
-            begin={delay}
-            repeatCount="indefinite"
-          />
+        [15, 12, "2.1s", "0s"],
+        [40,  6, "1.7s", "0.4s"],
+        [68, 10, "2.5s", "0.8s"],
+        [85, 18, "1.9s", "1.2s"],
+        [52,  4, "2.3s", "0.6s"],
+      ].map(([cx, cy, dur, begin], i) => (
+        <circle key={i} cx={cx as number} cy={cy as number} r="1.3" fill="white">
+          <animate attributeName="opacity" values="0.85;0.1;0.85" dur={dur as string} begin={begin as string} repeatCount="indefinite" />
+        </circle>
+      ))}
+
+      {/* Mountain layers */}
+      <polygon points="5,85 38,30 71,85" fill="white" opacity="0.10" />
+      <polygon points="28,85 65,18 100,85" fill="white" opacity="0.22" />
+      {/* Snow cap */}
+      <polygon points="65,18 55,42 75,42" fill="white" opacity="0.65" />
+
+      {/* Dotted trail up the peak */}
+      <path
+        d="M52,82 C54,68 57,56 60,46 C62,38 63,28 65,20"
+        stroke="white" strokeWidth="1.2" strokeDasharray="2.5,3" opacity="0.38" fill="none"
+      />
+
+      {/* Climber — animates up the trail */}
+      <circle r="2.8" fill="white" opacity="0">
+        <animate attributeName="cx" values="52;55;58;61;63;65" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" />
+        <animate attributeName="cy" values="82;68;55;44;33;20" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" />
+        <animate attributeName="opacity" values="0;0.92;0.92;0.92;0.92;0" keyTimes="0;0.05;0.5;0.85;0.95;1" dur="5s" repeatCount="indefinite" />
+      </circle>
+    </svg>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   Hiking — winding path through rolling hills
+   with warm Moroccan sun and moving hiker
+───────────────────────────────────────────── */
+function HikingTrail() {
+  return (
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" aria-hidden="true">
+      {/* Sun */}
+      <circle cx="78" cy="22" r="9" fill="white" opacity="0.82">
+        <animate attributeName="opacity" values="0.82;0.95;0.82" dur="2.8s" repeatCount="indefinite" />
+      </circle>
+      {/* Sun rays */}
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => {
+        const rad = (angle * Math.PI) / 180;
+        const x1 = 78 + 12 * Math.cos(rad), y1 = 22 + 12 * Math.sin(rad);
+        const x2 = 78 + 17 * Math.cos(rad), y2 = 22 + 17 * Math.sin(rad);
+        return (
+          <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="white" strokeWidth="1.5" opacity="0.50">
+            <animate attributeName="opacity" values="0.50;0.12;0.50" dur={`${1.6 + i * 0.22}s`} begin={`${i * 0.2}s`} repeatCount="indefinite" />
+          </line>
+        );
+      })}
+
+      {/* Rolling hills */}
+      <path d="M0,72 Q25,55 50,68 Q75,81 100,66 L100,100 L0,100 Z" fill="white" opacity="0.13" />
+      <path d="M0,80 Q20,67 45,75 Q70,83 100,74 L100,100 L0,100 Z" fill="white" opacity="0.22" />
+
+      {/* Winding trail */}
+      <path
+        d="M12,92 Q28,80 44,83 Q60,86 70,74 Q78,64 85,58"
+        stroke="white" strokeWidth="1.2" strokeDasharray="3,3" opacity="0.38" fill="none"
+      />
+
+      {/* Hiker dot moving along trail */}
+      <circle r="2.8" fill="white" opacity="0">
+        <animate attributeName="cx" values="12;28;44;60;70;85" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" />
+        <animate attributeName="cy" values="92;80;83;86;74;58" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" />
+        <animate attributeName="opacity" values="0;0.92;0.92;0.92;0.92;0" keyTimes="0;0.05;0.5;0.85;0.95;1" dur="6s" repeatCount="indefinite" />
+      </circle>
+    </svg>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   Desert — Saharan night with Moroccan crescent
+   and star, camel caravan crossing the dunes
+───────────────────────────────────────────── */
+function SaharaNight() {
+  return (
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" aria-hidden="true">
+      {/* Distant stars */}
+      {[[12, 10], [28, 6], [42, 14], [18, 20]].map(([cx, cy], i) => (
+        <circle key={i} cx={cx} cy={cy} r="1" fill="white">
+          <animate attributeName="opacity" values="0.7;0.1;0.7" dur={`${1.4 + i * 0.35}s`} begin={`${i * 0.5}s`} repeatCount="indefinite" />
+        </circle>
+      ))}
+
+      {/* Crescent moon — C-shape bezier, opens right */}
+      <path
+        d="M82,10 C70,10 64,17 64,24 C64,31 70,38 82,38 C74,33 72,24 74,17 C76,13 79,10 82,10 Z"
+        fill="white" opacity="0.88"
+      >
+        <animate attributeName="opacity" values="0.88;0.98;0.88" dur="3.5s" repeatCount="indefinite" />
+      </path>
+
+      {/* 5-pointed Moroccan star beside crescent */}
+      <polygon
+        points="55,14 57,19 63,20 58,23 60,29 55,25 50,29 52,23 47,20 53,19"
+        fill="white" opacity="0.80"
+      >
+        <animate attributeName="opacity" values="0.80;0.96;0.80" dur="2.6s" begin="0.5s" repeatCount="indefinite" />
+      </polygon>
+
+      {/* Dune shapes */}
+      <path d="M0,74 Q25,57 50,70 Q75,83 100,67 L100,100 L0,100 Z" fill="white" opacity="0.14" />
+      <path d="M0,82 Q30,70 55,78 Q80,86 100,76 L100,100 L0,100 Z" fill="white" opacity="0.22" />
+
+      {/* Camel with rider — walks right to left */}
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="110 0" to="-25 0" dur="7s" repeatCount="indefinite" calcMode="linear" />
+        {/* Body */}
+        <ellipse cx="18" cy="62" rx="10" ry="5.5" fill="white" opacity="0.78" />
+        {/* Hump */}
+        <ellipse cx="16" cy="54" rx="5" ry="4" fill="white" opacity="0.78" />
+        {/* Neck + head */}
+        <line x1="25" y1="60" x2="23" y2="55" stroke="white" strokeWidth="3" strokeLinecap="round" opacity="0.78" />
+        <circle cx="25" cy="53" r="3.5" fill="white" opacity="0.78" />
+        {/* Rider */}
+        <ellipse cx="16" cy="47" rx="4" ry="5" fill="white" opacity="0.55" />
+        <circle cx="16" cy="42" r="3" fill="white" opacity="0.55" />
+        {/* Legs alternating */}
+        <line x1="12" y1="67" x2="10" y2="76" stroke="white" strokeWidth="2" opacity="0.70">
+          <animateTransform attributeName="transform" type="rotate" from="-12 12 67" to="12 12 67" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
+        </line>
+        <line x1="17" y1="67" x2="15" y2="76" stroke="white" strokeWidth="2" opacity="0.70">
+          <animateTransform attributeName="transform" type="rotate" from="12 17 67" to="-12 17 67" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
+        </line>
+        <line x1="22" y1="67" x2="20" y2="76" stroke="white" strokeWidth="2" opacity="0.70">
+          <animateTransform attributeName="transform" type="rotate" from="-12 22 67" to="12 22 67" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
+        </line>
+        <line x1="27" y1="67" x2="25" y2="76" stroke="white" strokeWidth="2" opacity="0.70">
+          <animateTransform attributeName="transform" type="rotate" from="12 27 67" to="-12 27 67" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
+        </line>
+      </g>
+
+      {/* Sand particles drifting */}
+      {[
+        { y: 72, dur: "3.2s", begin: "0s" },
+        { y: 66, dur: "4.0s", begin: "1.3s" },
+        { y: 78, dur: "2.8s", begin: "2.1s" },
+      ].map(({ y, dur, begin }, i) => (
+        <circle key={i} cx={0} cy={y} r="1.2" fill="white" opacity="0">
+          <animateTransform attributeName="transform" type="translate" from="-5 0" to="110 0" dur={dur} begin={begin} repeatCount="indefinite" calcMode="linear" />
+          <animate attributeName="opacity" values="0;0.50;0.50;0" keyTimes="0;0.12;0.88;1" dur={dur} begin={begin} repeatCount="indefinite" />
         </circle>
       ))}
     </svg>
@@ -56,278 +163,100 @@ function SnowMountain() {
 }
 
 /* ─────────────────────────────────────────────
-   Desert — camel walking loop over dunes
+   Cultural — Moroccan 8-pointed zellige star
+   Zellige tilework is Morocco's finest craft tradition
 ───────────────────────────────────────────── */
-function DesertCamel() {
+function ZelligeStar() {
   return (
-    <svg
-      viewBox="0 0 120 80"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-      aria-hidden="true"
-    >
-      {/* Dune shapes */}
-      <ellipse cx="30" cy="72" rx="38" ry="12" fill="white" opacity="0.12" />
-      <ellipse cx="90" cy="70" rx="30" ry="10" fill="white" opacity="0.10" />
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" aria-hidden="true">
+      {/* Ambient candle glow */}
+      <circle cx="50" cy="50" r="24" fill="#fbbf24" opacity="0.14">
+        <animate attributeName="r" values="24;30;24" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.14;0.24;0.14" dur="2.8s" repeatCount="indefinite" />
+      </circle>
 
-      {/* Sun */}
-      <circle cx="95" cy="18" r="8" fill="#f59e0b" opacity="0.75" />
-      {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => {
-        const rad = (angle * Math.PI) / 180;
-        const x1 = 95 + 11 * Math.cos(rad);
-        const y1 = 18 + 11 * Math.sin(rad);
-        const x2 = 95 + 15 * Math.cos(rad);
-        const y2 = 18 + 15 * Math.sin(rad);
-        return (
-          <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#f59e0b" strokeWidth="1.5" opacity="0.60">
-            <animate attributeName="opacity" values="0.60;0.20;0.60" dur="2s" begin={`${i * 0.25}s`} repeatCount="indefinite" />
-          </line>
-        );
-      })}
-
-      {/* Camel — walks from right to left then loops */}
+      {/* 8-pointed star — slow rotation */}
       <g>
-        <animateTransform
-          attributeName="transform"
-          type="translate"
-          from="120 0"
-          to="-30 0"
-          dur="6s"
-          repeatCount="indefinite"
-          calcMode="linear"
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="18s" repeatCount="indefinite" calcMode="linear" />
+
+        {/* Main 8-pointed star */}
+        <polygon
+          points="50,22 55,39 70,30 61,45 78,50 61,55 70,70 55,61 50,78 45,61 30,70 39,55 22,50 39,45 30,30 45,39"
+          fill="white" opacity="0.72"
         />
-        {/* Body */}
-        <ellipse cx="18" cy="55" rx="12" ry="6" fill="white" opacity="0.80" />
-        {/* Hump */}
-        <ellipse cx="18" cy="46" rx="5" ry="4" fill="white" opacity="0.80" />
-        {/* Head */}
-        <circle cx="26" cy="48" r="3.5" fill="white" opacity="0.80" />
-        {/* Snout */}
-        <ellipse cx="29.5" cy="49.5" rx="2" ry="1.2" fill="white" opacity="0.80" />
-        {/* Neck */}
-        <line x1="24" y1="50" x2="22" y2="54" stroke="white" strokeWidth="2.5" opacity="0.80" />
-        {/* Legs — animate stride */}
-        <line x1="13" y1="61" x2="11" y2="70" stroke="white" strokeWidth="1.8" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="-12 13 61" to="12 13 61" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
-        </line>
-        <line x1="16" y1="61" x2="14" y2="70" stroke="white" strokeWidth="1.8" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="12 16 61" to="-12 16 61" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
-        </line>
-        <line x1="21" y1="61" x2="19" y2="70" stroke="white" strokeWidth="1.8" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="-12 21 61" to="12 21 61" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
-        </line>
-        <line x1="24" y1="61" x2="22" y2="70" stroke="white" strokeWidth="1.8" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="12 24 61" to="-12 24 61" dur="0.5s" repeatCount="indefinite" calcMode="linear" additive="sum" />
-        </line>
-        {/* Tail */}
-        <path d="M6 54 Q2 50 4 46" stroke="white" strokeWidth="1.5" opacity="0.70" fill="none" />
+
+        {/* Inner zellige octagon outline */}
+        <polygon
+          points="50,34 58,42 66,50 58,58 50,66 42,58 34,50 42,42"
+          fill="none" stroke="white" strokeWidth="0.9" opacity="0.30"
+        />
+
+        {/* Lattice lines — cross + diagonals */}
+        <line x1="50" y1="22" x2="50" y2="78" stroke="white" strokeWidth="0.7" opacity="0.18" />
+        <line x1="22" y1="50" x2="78" y2="50" stroke="white" strokeWidth="0.7" opacity="0.18" />
+        <line x1="30" y1="30" x2="70" y2="70" stroke="white" strokeWidth="0.7" opacity="0.18" />
+        <line x1="70" y1="30" x2="30" y2="70" stroke="white" strokeWidth="0.7" opacity="0.18" />
       </g>
+
+      {/* Center flame / golden light */}
+      <circle cx="50" cy="50" r="6" fill="#fbbf24" opacity="0.92">
+        <animate attributeName="r" values="6;8;6" dur="1.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.92;1;0.92" dur="1.6s" repeatCount="indefinite" />
+      </circle>
     </svg>
   );
 }
 
 /* ─────────────────────────────────────────────
-   Day Tours — sun rising from behind mountains
+   Day Tours — Moroccan mint tea glass
+   The ritual of Moroccan tea is the heart of any day out
 ───────────────────────────────────────────── */
-function SunriseMountain() {
+function MintTea() {
   return (
-    <svg
-      viewBox="0 0 120 80"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-      aria-hidden="true"
-    >
-      {/* Background sky glow */}
-      <circle cx="60" cy="80" r="40" fill="#f97316" opacity="0.18" />
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" aria-hidden="true">
+      {/* Floor glow */}
+      <ellipse cx="50" cy="84" rx="16" ry="4" fill="#fbbf24" opacity="0.18">
+        <animate attributeName="opacity" values="0.18;0.10;0.18" dur="2.2s" repeatCount="indefinite" />
+      </ellipse>
 
-      {/* Sun — rises upward, pulses glow */}
-      <g>
-        <animateTransform
-          attributeName="transform"
-          type="translate"
-          from="0 22"
-          to="0 0"
-          dur="3s"
-          repeatCount="indefinite"
-          calcMode="spline"
-          keySplines="0.4 0 0.2 1"
-          keyTimes="0;1"
-        />
-        {/* Glow halo */}
-        <circle cx="60" cy="58" r="18" fill="#fbbf24" opacity="0.18">
-          <animate attributeName="r" values="18;24;18" dur="2s" repeatCount="indefinite" />
-          <animate attributeName="opacity" values="0.18;0.08;0.18" dur="2s" repeatCount="indefinite" />
-        </circle>
-        {/* Sun disk */}
-        <circle cx="60" cy="58" r="10" fill="#fbbf24" opacity="0.85">
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite" />
-        </circle>
-        {/* Rays */}
-        {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => {
-          const rad = (angle * Math.PI) / 180;
-          const x1 = 60 + 13 * Math.cos(rad);
-          const y1 = 58 + 13 * Math.sin(rad);
-          const x2 = 60 + 18 * Math.cos(rad);
-          const y2 = 58 + 18 * Math.sin(rad);
-          return (
-            <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#fbbf24" strokeWidth="2" opacity="0.70">
-              <animate attributeName="opacity" values="0.70;0.20;0.70" dur="1.8s" begin={`${i * 0.225}s`} repeatCount="indefinite" />
-            </line>
-          );
-        })}
-      </g>
+      {/* Glass body — Moroccan istikane (slightly tapered) */}
+      <path d="M38,32 L35,76 L65,76 L62,32 Z" fill="white" opacity="0.18" stroke="white" strokeWidth="1.5" strokeOpacity="0.62" />
 
-      {/* Mountains — in front of sun */}
-      <polygon points="0,80 42,28 84,80" fill="white" opacity="0.25" />
-      <polygon points="36,80 70,18 104,80" fill="white" opacity="0.30" />
-      <polygon points="80,80 105,42 130,80" fill="white" opacity="0.22" />
-      {/* Horizon line */}
-      <line x1="0" y1="80" x2="120" y2="80" stroke="white" strokeWidth="1" opacity="0.20" />
-    </svg>
-  );
-}
+      {/* Amber tea fill */}
+      <path d="M38.5,44 L36,76 L64,76 L61.5,44 Z" fill="#fbbf24" opacity="0.42">
+        <animate attributeName="opacity" values="0.42;0.56;0.42" dur="2.2s" repeatCount="indefinite" />
+      </path>
 
-/* ─────────────────────────────────────────────
-   Imperial Cities — tourists photographing
-───────────────────────────────────────────── */
-function ImperialTourists() {
-  return (
-    <svg
-      viewBox="0 0 120 80"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-      aria-hidden="true"
-    >
-      {/* Arch / doorway */}
-      <path d="M30 75 L30 30 Q30 15 50 15 Q70 15 70 30 L70 75" stroke="white" strokeWidth="2" opacity="0.45" fill="none" />
-      <line x1="22" y1="75" x2="78" y2="75" stroke="white" strokeWidth="2" opacity="0.35" />
-      {/* Decoration on arch */}
-      <circle cx="50" cy="22" r="3" fill="white" opacity="0.40" />
+      {/* Gold top rim */}
+      <line x1="38" y1="32" x2="62" y2="32" stroke="#fbbf24" strokeWidth="2.5" opacity="0.72" />
 
-      {/* Person 1 — left, holds camera up */}
-      <g>
-        {/* Body */}
-        <circle cx="15" cy="50" r="4" fill="white" opacity="0.75" />
-        <line x1="15" y1="54" x2="15" y2="68" stroke="white" strokeWidth="2.5" opacity="0.75" />
-        {/* Arm holding camera */}
-        <line x1="15" y1="58" x2="21" y2="52" stroke="white" strokeWidth="2" opacity="0.75">
-          <animateTransform attributeName="transform" type="rotate" from="0 15 58" to="-10 15 58" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1" keyTimes="0;1" additive="sum" />
-        </line>
-        {/* Camera */}
-        <rect x="20" y="49" width="6" height="4" rx="1" fill="white" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="0 23 51" to="-10 23 51" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1" keyTimes="0;1" additive="sum" />
-        </rect>
-        {/* Flash blink */}
-        <circle cx="27" cy="47" r="2" fill="#fbbf24" opacity="0">
-          <animate attributeName="opacity" values="0;0;0;0.9;0" keyTimes="0;0.7;0.75;0.8;1" dur="2.5s" repeatCount="indefinite" />
-          <animate attributeName="r" values="2;2;2;4;2" keyTimes="0;0.7;0.75;0.8;1" dur="2.5s" repeatCount="indefinite" />
-        </circle>
-        {/* Legs */}
-        <line x1="15" y1="68" x2="11" y2="78" stroke="white" strokeWidth="2" opacity="0.70" />
-        <line x1="15" y1="68" x2="19" y2="78" stroke="white" strokeWidth="2" opacity="0.70" />
-      </g>
+      {/* Tea surface */}
+      <path d="M38.5,44 Q50,46.5 61.5,44" stroke="white" strokeWidth="1" opacity="0.42" fill="none" />
 
-      {/* Person 2 — right, slightly taller, raises phone */}
-      <g>
-        <circle cx="100" cy="46" r="4" fill="white" opacity="0.75" />
-        <line x1="100" y1="50" x2="100" y2="64" stroke="white" strokeWidth="2.5" opacity="0.75" />
-        {/* Arm with phone */}
-        <line x1="100" y1="54" x2="93" y2="46" stroke="white" strokeWidth="2" opacity="0.75">
-          <animateTransform attributeName="transform" type="rotate" from="0 100 54" to="8 100 54" dur="2s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1" keyTimes="0;1" additive="sum" />
-        </line>
-        {/* Phone */}
-        <rect x="88" y="43" width="4" height="6" rx="0.8" fill="white" opacity="0.80">
-          <animateTransform attributeName="transform" type="rotate" from="0 90 46" to="8 90 46" dur="2s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1" keyTimes="0;1" additive="sum" />
-        </rect>
-        {/* Flash */}
-        <circle cx="88" cy="41" r="2" fill="#fbbf24" opacity="0">
-          <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.8;0.85;1" dur="3s" begin="1.2s" repeatCount="indefinite" />
-          <animate attributeName="r" values="2;2;4;2" keyTimes="0;0.8;0.85;1" dur="3s" begin="1.2s" repeatCount="indefinite" />
-        </circle>
-        {/* Legs */}
-        <line x1="100" y1="64" x2="96" y2="78" stroke="white" strokeWidth="2" opacity="0.70" />
-        <line x1="100" y1="64" x2="104" y2="78" stroke="white" strokeWidth="2" opacity="0.70" />
-      </g>
-    </svg>
-  );
-}
+      {/* Decorative Moroccan band — dashed */}
+      <path d="M36.5,60 Q50,62 63.5,60" stroke="white" strokeWidth="0.9" strokeDasharray="4,3" opacity="0.25" fill="none" />
 
-/* ─────────────────────────────────────────────
-   Cultural Tours — Moroccan lantern swaying
-───────────────────────────────────────────── */
-function CulturalLantern() {
-  return (
-    <svg
-      viewBox="0 0 120 90"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-      aria-hidden="true"
-    >
-      {/* Lantern group — sways gently */}
-      <g style={{ transformOrigin: "60px 8px" }}>
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          from="-8 60 8"
-          to="8 60 8"
-          dur="2.4s"
-          repeatCount="indefinite"
-          calcMode="spline"
-          keySplines="0.4 0 0.6 1;0.4 0 0.6 1"
-          keyTimes="0;0.5;1"
-          values="-8 60 8;8 60 8;-8 60 8"
-        />
-        {/* Chain */}
-        <line x1="60" y1="4" x2="60" y2="14" stroke="white" strokeWidth="1.5" opacity="0.60" />
+      {/* Base curve */}
+      <path d="M35,76 Q50,80 65,76" stroke="white" strokeWidth="2" opacity="0.62" fill="none" />
 
-        {/* Top cap */}
-        <path d="M50 18 Q60 12 70 18" stroke="white" strokeWidth="1.5" fill="white" opacity="0.55" />
-        <rect x="53" y="16" width="14" height="4" rx="2" fill="white" opacity="0.55" />
+      {/* Mint sprig resting on rim */}
+      <path d="M47,36 Q50,31 53,36" stroke="white" strokeWidth="1.3" fill="white" fillOpacity="0.18" opacity="0.55" />
+      <line x1="50" y1="34" x2="50" y2="29" stroke="white" strokeWidth="0.9" opacity="0.38" />
 
-        {/* Lantern body */}
-        <path d="M52 22 Q45 35 48 50 Q60 56 72 50 Q75 35 68 22 Z" fill="white" opacity="0.18" stroke="white" strokeWidth="1.2" />
-
-        {/* Geometric lattice */}
-        <line x1="60" y1="22" x2="60" y2="50" stroke="white" strokeWidth="0.8" opacity="0.45" />
-        <line x1="48" y1="36" x2="72" y2="36" stroke="white" strokeWidth="0.8" opacity="0.45" />
-        <line x1="52" y1="26" x2="68" y2="46" stroke="white" strokeWidth="0.8" opacity="0.30" />
-        <line x1="68" y1="26" x2="52" y2="46" stroke="white" strokeWidth="0.8" opacity="0.30" />
-
-        {/* Glow inside */}
-        <ellipse cx="60" cy="37" rx="7" ry="8" fill="#fbbf24" opacity="0.40">
-          <animate attributeName="opacity" values="0.40;0.70;0.40" dur="1.6s" repeatCount="indefinite" />
-        </ellipse>
-
-        {/* Bottom fringe */}
-        {[-8, -4, 0, 4, 8].map((dx, i) => (
-          <line
-            key={i}
-            x1={60 + dx}
-            y1={52}
-            x2={60 + dx}
-            y2={60}
-            stroke="white"
-            strokeWidth="1.2"
-            opacity="0.55"
-          >
-            <animate attributeName="y2" values={`${60};${62};${60}`} dur={`${1.2 + i * 0.15}s`} repeatCount="indefinite" />
-          </line>
-        ))}
-      </g>
-
-      {/* Ambient light spots on floor */}
+      {/* Steam wisps rising */}
       {[
-        { cx: 40, cy: 78, delay: "0s" },
-        { cx: 60, cy: 82, delay: "0.4s" },
-        { cx: 80, cy: 76, delay: "0.8s" },
-      ].map(({ cx, cy, delay }, i) => (
-        <ellipse key={i} cx={cx} cy={cy} rx="6" ry="2" fill="#fbbf24" opacity="0.20">
-          <animate attributeName="opacity" values="0.20;0.35;0.20" dur="1.6s" begin={delay} repeatCount="indefinite" />
-        </ellipse>
+        { sx: 44, c1x: 41, c2x: 47, ex: 42, dur: "2.3s", begin: "0s" },
+        { sx: 50, c1x: 54, c2x: 46, ex: 51, dur: "2.7s", begin: "0.8s" },
+        { sx: 56, c1x: 59, c2x: 53, ex: 57, dur: "2.1s", begin: "1.5s" },
+      ].map(({ sx, c1x, c2x, ex, dur, begin }, i) => (
+        <path
+          key={i}
+          d={`M${sx},30 Q${c1x},22 ${c2x},16 Q${ex},10 ${ex + 1},5`}
+          stroke="white" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0"
+        >
+          <animate attributeName="opacity" values="0;0.55;0.55;0" keyTimes="0;0.15;0.75;1" dur={dur} begin={begin} repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" from="0 2" to="0 -7" dur={dur} begin={begin} repeatCount="indefinite" additive="sum" />
+        </path>
       ))}
     </svg>
   );
@@ -336,14 +265,15 @@ function CulturalLantern() {
 /* ─────────────────────────────────────────────
    Public switch
 ───────────────────────────────────────────── */
-type CategoryId = "trekking" | "desert" | "day-tours" | "cultural";
+type CategoryId = "trekking" | "hiking" | "desert" | "day-tours" | "cultural";
 
 export default function CategoryAnimation({ id }: { id: CategoryId | string }) {
   switch (id) {
-    case "trekking":   return <SnowMountain />;
-    case "desert":     return <DesertCamel />;
-    case "day-tours":  return <SunriseMountain />;
-    case "cultural":   return <CulturalLantern />;
+    case "trekking":   return <AtlasTrek />;
+    case "hiking":     return <HikingTrail />;
+    case "desert":     return <SaharaNight />;
+    case "day-tours":  return <MintTea />;
+    case "cultural":   return <ZelligeStar />;
     default:           return null;
   }
 }

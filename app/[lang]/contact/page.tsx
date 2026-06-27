@@ -51,7 +51,7 @@ export default async function ContactPage({ params }: LangParams) {
 
   const CONTACT_INFO = [
     { icon: Envelope, label: dict.contact.email, value: "hello@marrakechecotours.com", href: "mailto:hello@marrakechecotours.com" },
-    { icon: Phone, label: dict.contact.phone, value: "+212 600 000 000", href: "tel:+212600000000" },
+    { icon: Phone, label: dict.contact.phone, value: SITE.phone, href: `tel:${SITE.phoneDial}` },
     { icon: MapPin, label: dict.contact.basedIn, value: "Marrakech, Morocco", href: null },
     { icon: Clock, label: dict.contact.responseTime, value: dict.contact.responseValue, href: null },
   ];

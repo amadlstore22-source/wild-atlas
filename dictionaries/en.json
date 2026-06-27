@@ -8,17 +8,17 @@
     "news": "News"
   },
   "hero": {
-    "eyebrow": "Morocco & Beyond",
-    "headline1": "Where Adventure",
-    "headline2": "Meets the Wild",
-    "subheadline": "Expert-guided trekking, desert tours, and cultural adventures — deep into the Atlas, the Sahara, and beyond.",
+    "eyebrow": "Local · Eco-conscious · Authentic",
+    "headline1": "Experience the Real Morocco",
+    "headline2": "Beyond the Tourist Trail",
+    "subheadline": "Small-group adventures led by certified Berber guides — Atlas trekking, Sahara desert nights, imperial cities, and Atlantic surf. Departing from Marrakech & Agadir.",
     "trustLine": "{tourCount} tours departing from Marrakech & Agadir · Trusted by {clientCount} adventurers",
     "searchPlaceholder": "Search tours, destinations...",
     "allTours": "All Tours",
     "fromMarrakech": "From Marrakech",
     "fromAgadir": "From Agadir",
     "searchBtn": "Search",
-    "browseAll": "Browse All Tours",
+    "browseAll": "Browse Adventures",
     "planCustom": "Plan Custom Trip"
   },
   "trustBar": {
@@ -183,13 +183,16 @@
     "formError": "Something went wrong. Please try again or WhatsApp us directly."
   },
   "footer": {
-    "tagline": "Expert-guided adventure tours in Morocco. Small groups, certified guides, real experiences.",
-    "quickLinks": "Quick Links",
-    "explore": "Explore",
+    "tagline": "Licensed Moroccan tour operator — certified local guides, small groups, eco-conscious adventures since 2012.",
+    "quickLinks": "Company",
+    "explore": "Adventures",
+    "destinations": "Destinations",
     "contact": "Contact",
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions"
+    "terms": "Terms & Conditions",
+    "newsletter": "Get travel tips & exclusive offers",
+    "newsletterBtn": "Subscribe"
   },
   "news": {
     "eyebrow": "From the World of Travel",

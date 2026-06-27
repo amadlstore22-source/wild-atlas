@@ -23,9 +23,9 @@ export const SITE = {
 } as const;
 
 export const SOCIAL = {
-  instagram: "https://instagram.com",
-  facebook: "https://facebook.com",
-  youtube: "https://youtube.com",
+  instagram: "https://instagram.com/met_morocco",
+  facebook: "https://facebook.com/marrakechecotours",
+  youtube: "https://youtube.com/@marrakechecotours",
 } as const;
 
 export const WHATSAPP_MESSAGES = {

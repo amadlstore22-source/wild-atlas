@@ -13,6 +13,7 @@ import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
+import ActivityScenes from "@/components/sections/ActivityScenes";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -53,7 +54,7 @@ const websiteJsonLd = {
   description:
     "Expert-guided adventure tours in Morocco — trekking, Sahara desert tours, imperial cities, cultural excursions, and day trips from Marrakech and Agadir.",
   email: "hello@marrakechecotours.com",
-  telephone: "+212600000000",
+  telephone: "+212653936003",
   address: {
     "@type": "PostalAddress",
     addressCountry: "MA",
@@ -95,6 +96,7 @@ export default async function HomePage({ params }: LangParams) {
       <TrustBar dict={dict} />
       <OurStory dict={dict} lang={lang} />
       <CategoryGrid dict={dict} />
+      <ActivityScenes lang={lang} />
       <FeaturedTours lang={lang} dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />

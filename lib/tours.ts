@@ -4,8 +4,7 @@ export type Category =
   | "hiking"
   | "desert"
   | "cultural"
-  | "day-tours"
-  | "imperial";
+  | "day-tours";
 
 export type Origin = "marrakech" | "agadir";
 
@@ -30,6 +29,7 @@ export interface Tour {
   reviewCount: number;
   rating: number;
   price: number;
+  priceMax?: number;
   depositAmount: number;
   heroImage: string;
   gallery: string[];
@@ -407,7 +407,7 @@ export const TOURS: Tour[] = [
     id: "7",
     slug: "marrakech-to-fes-3day",
     title: "Marrakech to Fes — 3-Day Imperial Cities Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "marrakech",
     tourType: "shared",
     difficulty: "easy",
@@ -971,7 +971,7 @@ export const TOURS: Tour[] = [
     id: "17",
     slug: "marrakech-to-chefchaouen-4day",
     title: "Marrakech to Chefchaouen — 4-Day Blue City Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "marrakech",
     tourType: "shared",
     difficulty: "easy",
@@ -1042,7 +1042,7 @@ export const TOURS: Tour[] = [
     id: "18",
     slug: "marrakech-imperial-cities-5day",
     title: "Marrakech — All 4 Imperial Cities — 5-Day Grand Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "marrakech",
     tourType: "shared",
     difficulty: "easy",
@@ -1638,7 +1638,7 @@ export const TOURS: Tour[] = [
     id: "19",
     slug: "agadir-to-fes-4day",
     title: "Agadir to Fes — 4-Day Imperial Cities Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
@@ -1709,7 +1709,7 @@ export const TOURS: Tour[] = [
     id: "20",
     slug: "agadir-to-chefchaouen-5day",
     title: "Agadir to Chefchaouen — 5-Day Blue City Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
@@ -1786,7 +1786,7 @@ export const TOURS: Tour[] = [
     id: "21",
     slug: "agadir-imperial-cities-6day",
     title: "Agadir — All 4 Imperial Cities — 6-Day Grand Tour",
-    category: "imperial",
+    category: "cultural",
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
@@ -1906,13 +1906,6 @@ export const CATEGORIES: {
     icon: "🌄",
     description: "Full-day and half-day excursions from Marrakech and Agadir — waterfalls, valleys, medinas, and more.",
     heroImage: "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
-  },
-  {
-    id: "imperial",
-    label: "Imperial Cities",
-    icon: "🏛️",
-    description: "Multi-day tours through Morocco's four imperial capitals — Marrakech, Fes, Meknes, and Rabat.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
   },
   {
     id: "cultural",

@@ -12,7 +12,6 @@ const CATEGORY_COLORS: Record<string, string> = {
   desert:      "#8B5E3C",
   cultural:    "#C1693A",
   "day-tours": "#5E7460",
-  imperial:    "#7B5C40",
 };
 
 const CATEGORY_LABEL: Record<string, string> = {
@@ -22,10 +21,9 @@ const CATEGORY_LABEL: Record<string, string> = {
   desert:      "Desert",
   cultural:    "Cultural",
   "day-tours": "Day Tours",
-  imperial:    "Imperial",
 };
 
-const FILTERS = ["all", "trekking", "hiking", "desert", "cultural", "day-tours", "imperial"] as const;
+const FILTERS = ["all", "trekking", "hiking", "desert", "cultural", "day-tours"] as const;
 
 const iconCache: Partial<Record<string, L.DivIcon>> = {};
 function getIcon(category: string): L.DivIcon {
@@ -184,7 +182,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                       </div>
                       <div className="atlas-popup-footer">
                         <span className="atlas-popup-price">
-                          From <strong>${tour.price}</strong>
+                          <strong>${tour.price} – ${tour.priceMax ?? Math.round(tour.price * 1.35 / 10) * 10}</strong>
                         </span>
                         <a href={`/${lang}/tours/${tour.slug}`} className="atlas-popup-cta">
                           View tour →

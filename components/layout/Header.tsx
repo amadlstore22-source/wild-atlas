@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   List, X, Mountains, CaretDown, Globe,
-  SunHorizon, Footprints, Tent, Buildings, Compass,
+  SunHorizon, Footprints, Tent, Compass,
 } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -36,7 +36,6 @@ export default function Header({ lang, dict }: Props) {
     { label: "Day Tours", href: `/${lang}/categories/day-tours`, Icon: SunHorizon },
     { label: "Trekking", href: `/${lang}/categories/trekking`, Icon: Footprints },
     { label: "Desert Tours", href: `/${lang}/categories/desert`, Icon: Tent },
-    { label: "Imperial Cities", href: `/${lang}/categories/imperial`, Icon: Buildings },
     { label: "Cultural Tours", href: `/${lang}/categories/cultural`, Icon: Compass },
   ];
 

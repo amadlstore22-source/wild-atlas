@@ -336,14 +336,13 @@ function CulturalLantern() {
 /* ─────────────────────────────────────────────
    Public switch
 ───────────────────────────────────────────── */
-type CategoryId = "trekking" | "desert" | "day-tours" | "imperial" | "cultural";
+type CategoryId = "trekking" | "desert" | "day-tours" | "cultural";
 
 export default function CategoryAnimation({ id }: { id: CategoryId | string }) {
   switch (id) {
     case "trekking":   return <SnowMountain />;
     case "desert":     return <DesertCamel />;
     case "day-tours":  return <SunriseMountain />;
-    case "imperial":   return <ImperialTourists />;
     case "cultural":   return <CulturalLantern />;
     default:           return null;
   }

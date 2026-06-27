@@ -45,7 +45,6 @@ export default function Footer({ lang, dict }: Props) {
     { label: "Day Tours", href: `/${lang}/categories/day-tours` },
     { label: "Trekking", href: `/${lang}/categories/trekking` },
     { label: "Desert Tours", href: `/${lang}/categories/desert` },
-    { label: "Imperial Cities", href: `/${lang}/categories/imperial` },
     { label: "Cultural Tours", href: `/${lang}/categories/cultural` },
     { label: dict.hero.fromMarrakech, href: `/${lang}/tours?origin=marrakech` },
     { label: dict.hero.fromAgadir, href: `/${lang}/tours?origin=agadir` },

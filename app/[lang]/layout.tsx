@@ -7,6 +7,8 @@ import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
 const dmSans = DM_Sans({
@@ -95,6 +97,8 @@ export default async function LocaleLayout({
         <main className="flex-1">{children}</main>
         <Footer lang={locale} dict={dict} />
         <WhatsAppButton />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

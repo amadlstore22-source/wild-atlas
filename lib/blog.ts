@@ -327,7 +327,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     excerpt:
       "Morocco is a year-round destination — but the best month depends entirely on what you are planning. Here is a month-by-month breakdown from guides who live and work in the country.",
     heroImage:
-      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -404,7 +404,7 @@ If you can only visit once: **April, May, or October**. You get every type of Mo
     excerpt:
       "The overland route from Marrakech to Fes passes through the High Atlas, Aït Ben Haddou, the Draa Valley, cedar forests, and a medieval imperial city. Here is how to do it properly.",
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -474,7 +474,7 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     excerpt:
       "Paradise Valley is one of Morocco's best-kept secrets — a lush palm gorge with natural swimming pools just 35 km from Agadir. Here is how to get there, what to bring, and when to go.",
     heroImage:
-      "https://images.unsplash.com/photo-1531761064703-a3c61c9c6bb1?w=1600&q=85",
+      "https://images.unsplash.com/photo-1603982626518-eff2f11a4e70?w=1600&q=85",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -853,7 +853,7 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
     excerpt:
       "Forget the Sahara for a moment — just 40 km from Marrakech lies the Agafay Desert, a vast lunar landscape of stone and silence. Here is why it deserves a place on every Morocco itinerary.",
     heroImage:
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+      "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
@@ -920,7 +920,7 @@ The glamping camps at Agafay have developed significantly over recent years. The
     excerpt:
       "Djemaa el-Fna, the souks, the palaces, the hammams — Marrakech's medina is one of the most intense and rewarding urban experiences on earth. Here is how to navigate it without getting lost, ripped off, or overwhelmed.",
     heroImage:
-      "https://images.unsplash.com/photo-1532295454114-d7bc89024613?w=1600&q=85",
+      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -999,7 +999,7 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     excerpt:
       "Taghazout, 20 km north of Agadir, has become one of the world's premier surf destinations. Consistent Atlantic swell, warm water, cheap living, and extraordinary scenery. Here is everything you need to know.",
     heroImage:
-      "https://images.unsplash.com/photo-1548695607-9c73430fce18?w=1600&q=85",
+      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1085,7 +1085,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     excerpt:
       "The Anti-Atlas is older than the Himalayas, less visited than the High Atlas, and arguably more beautiful. Here is the guide to trekking Morocco's most under-explored mountain range.",
     heroImage:
-      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1600&q=85",
+      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1600&q=85",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1153,7 +1153,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     excerpt:
       "Fes el-Bali is the most complete surviving medieval city on earth — a UNESCO World Heritage labyrinth of 9,400 alleyways, 785 mosques, and a tannery unchanged since the 12th century. Here is how to do it justice.",
     heroImage:
-      "https://images.unsplash.com/photo-1582650949431-deeaffe75b66?w=1600&q=85",
+      "https://images.unsplash.com/photo-1528657249085-c569d3c869e4?w=1600&q=85",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",

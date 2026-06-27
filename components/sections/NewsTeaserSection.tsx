@@ -51,7 +51,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Featured / headline article */}
           <div className="lg:col-span-2">
             {featured ? (
               <a
@@ -110,70 +109,48 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
             ) : null}
           </div>
 
-          {/* Side articles */}
           <div className="flex flex-col gap-4">
-            {(hasFallback ? fallbackSide : sideArticles).map((item) => {
-              const isNewsArticle = !hasFallback;
-              const newsItem = isNewsArticle ? (item as (typeof sideArticles)[0]) : null;
-              const blogItem = !isNewsArticle ? (item as (typeof fallbackSide)[0]) : null;
-
-              return isNewsArticle && newsItem ? (
-                <a
-                  key={newsItem.id}
-                  href={newsItem.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
-                >
-                  <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
-                    <Image
-                      src={articleImage(newsItem)}
-                      alt={newsItem.title}
-                      fill
-                      className="object-cover"
-                      sizes="80px"
-                    />
-                  </div>
-                  <div className="min-w-0">
-                    <span
-                      className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-1 ${
-                        newsItem.category === "morocco" ? "text-forest" : "text-sunset"
-                      }`}
-                    >
-                      {newsItem.category === "morocco" ? dict.news.morocco : dict.news.travel}
-                    </span>
-                    <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2">
-                      {newsItem.title}
-                    </h4>
-                    <p className="text-charcoal/40 text-xs mt-1">
-                      {newsItem.source} · {formatDate(newsItem.publishedAt)}
-                    </p>
-                  </div>
-                </a>
-              ) : blogItem ? (
-                <Link
-                  key={blogItem.slug}
-                  href={`/${lang}/blog/${blogItem.slug}`}
-                  className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
-                >
-                  <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
-                    <Image
-                      src={blogItem.heroImage}
-                      alt={blogItem.title}
-                      fill
-                      className="object-cover"
-                      sizes="80px"
-                    />
-                  </div>
-                  <div className="min-w-0">
-                    <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2 group-hover:text-forest transition-colors">
-                      {blogItem.title}
-                    </h4>
-                    <p className="text-charcoal/40 text-xs mt-1">{formatDate(blogItem.publishedAt)}</p>
-                  </div>
-                </Link>
-              ) : null;
-            })}
+            {hasFallback
+              ? fallbackSide.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/${lang}/blog/${post.slug}`}
+                    className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
+                  >
+                    <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
+                      <Image src={post.heroImage} alt={post.title} fill className="object-cover" sizes="80px" />
+                    </div>
+                    <div className="min-w-0">
+                      <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2 group-hover:text-forest transition-colors">
+                        {post.title}
+                      </h4>
+                      <p className="text-charcoal/40 text-xs mt-1">{formatDate(post.publishedAt)}</p>
+                    </div>
+                  </Link>
+                ))
+              : sideArticles.map((article) => (
+                  <a
+                    key={article.id}
+                    href={article.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
+                  >
+                    <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
+                      <Image src={articleImage(article)} alt={article.title} fill className="object-cover" sizes="80px" />
+                    </div>
+                    <div className="min-w-0">
+                      <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-1 ${article.category === "morocco" ? "text-forest" : "text-sunset"}`}>
+                        {article.category === "morocco" ? dict.news.morocco : dict.news.travel}
+                      </span>
+                      <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2">
+                        {article.title}
+                      </h4>
+                      <p className="text-charcoal/40 text-xs mt-1">{article.source} · {formatDate(article.publishedAt)}</p>
+                    </div>
+                  </a>
+                ))
+            }
 
             <Link
               href={`/${lang}/news`}

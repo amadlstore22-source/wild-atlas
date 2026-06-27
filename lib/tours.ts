@@ -41,6 +41,7 @@ export interface Tour {
   itinerary: ItineraryDay[];
   meetingPoint: { lat: number; lng: number; name: string };
   featured: boolean;
+  isDayTour?: boolean;
   seoTitle?: string;
   seoDescription?: string;
 }
@@ -359,6 +360,7 @@ export const TOURS: Tour[] = [
     origin: "marrakech",
     tourType: "private",
     difficulty: "easy",
+    isDayTour: true,
     duration: "Half day (4 hours)",
     groupSize: "2–8 people",
     reviewCount: 97,
@@ -644,6 +646,7 @@ export const TOURS: Tour[] = [
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
+    isDayTour: true,
     duration: "1 day",
     groupSize: "2–14 people",
     reviewCount: 84,
@@ -871,6 +874,7 @@ export const TOURS: Tour[] = [
     origin: "agadir",
     tourType: "shared",
     difficulty: "easy",
+    isDayTour: true,
     duration: "1 day",
     groupSize: "2–14 people",
     reviewCount: 73,
@@ -1876,6 +1880,9 @@ export function getFeaturedTours(): Tour[] {
 }
 
 export function getToursByCategory(category: Category): Tour[] {
+  if (category === "day-tours") {
+    return TOURS.filter((t) => t.category === "day-tours" || t.isDayTour);
+  }
   return TOURS.filter((t) => t.category === category);
 }
 

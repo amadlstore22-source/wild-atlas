@@ -12,6 +12,14 @@ const ORIGIN_LABEL: Record<string, string> = {
   agadir: "Agadir",
 };
 
+const CATEGORY_LABEL: Record<string, string> = {
+  trekking:    "Trekking",
+  hiking:      "Hiking",
+  desert:      "Desert",
+  cultural:    "Cultural",
+  "day-tours": "Day Tour",
+};
+
 const ease = [0.22, 1, 0.36, 1] as const;
 
 function StarRating({ rating }: { rating: number }) {
@@ -173,6 +181,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           <span className="text-xs text-charcoal/40">({tour.reviewCount})</span>
         </div>
 
+        <span className="text-[10px] font-bold uppercase tracking-[0.12em] text-charcoal/35 mb-1 block">
+          {CATEGORY_LABEL[tour.category] ?? tour.category}
+        </span>
         <h3 className="font-serif font-semibold text-charcoal text-base leading-snug mb-2 group-hover:text-forest transition-colors">
           {tour.title}
         </h3>

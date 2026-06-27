@@ -43,13 +43,13 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
               <TourCard tour={hero} lang={lang} dict={dict} featured={true} delay={0} />
             </div>
           )}
-          {rest.slice(0, 3).map((tour, i) => (
+          {rest.slice(0, 4).map((tour, i) => (
             <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} delay={0.1 + i * 0.1} />
           ))}
         </div>
 
         <p className="text-center text-xs text-charcoal/35 mt-8 lg:hidden">
-          Showing {Math.min(tours.length, 4)} of {tours.length} tours
+          Showing {Math.min(tours.length, 5)} of {tours.length} tours
         </p>
       </div>
     </section>

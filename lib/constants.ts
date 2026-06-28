@@ -10,10 +10,10 @@ export const SITE = {
   address: "Marrakech, Morocco",
   country: "MA",
   tourCount: "30+",
-  experienceYears: 10,
+  experienceYears: 14,
   clientCount: "1,000+",
   countryCount: "40+",
-  foundedYear: 2012,
+  foundedYear: 2010,
   depositDays: 14,
   responseHours: 24,
   // Optional full-screen hero video (mp4/webm). Leave empty to use the

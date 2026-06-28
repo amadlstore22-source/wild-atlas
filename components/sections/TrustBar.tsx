@@ -10,10 +10,10 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function TrustBar({ dict }: Props) {
   const SIGNALS = [
-    { icon: Star,        value: "5.0",              label: "5-Star Rated",           weight: "fill" as const,    color: "text-sunset" },
+    { icon: Star,        value: "4.7",              label: "Rated 4.7 / 5",          weight: "fill" as const,    color: "text-sunset" },
     { icon: Users,       value: "Private",           label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
     { icon: Leaf,        value: "100%",              label: dict.trustBar.ecoFriendly, weight: "duotone" as const, color: "text-moss" },
-    { icon: Globe,       value: `${SITE.countryCount}+`, label: dict.trustBar.flexible, weight: "duotone" as const, color: "text-sky" },
+    { icon: Globe,       value: SITE.countryCount,       label: dict.trustBar.flexible, weight: "duotone" as const, color: "text-sky" },
     { icon: Certificate, value: `${SITE.experienceYears}+`, label: dict.trustBar.certified, weight: "duotone" as const, color: "text-forest" },
   ];
 

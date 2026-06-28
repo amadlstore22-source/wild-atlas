@@ -12,7 +12,7 @@ type LangParams = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
+  const { LOCALES } = await import("../dictionaries");
   return {
     title: "Our Story — Marrakech Eco Tours | Born in the Atlas Mountains",
     description: "Marrakech Eco Tours was founded by Berber guides who grew up in the High Atlas. We run ethical, small-group adventures through Morocco's most remote landscapes — no middlemen, no greenwashing.",

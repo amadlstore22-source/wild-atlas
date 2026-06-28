@@ -33,7 +33,7 @@ export default function WhyUs({ dict }: Props) {
   const STATS: StatItem[] = [
     { animate: { to: SITE.experienceYears, suffix: "+" }, label: dict.ourStory.stat1Label },
     { static: SITE.clientCount, label: dict.ourStory.stat2Label },
-    { animate: { to: 5, suffix: "", decimals: 1 }, label: "Star rating" },
+    { animate: { to: 4.7, suffix: "/5", decimals: 1 }, label: "Star rating" },
     { animate: { to: 100, suffix: "%" }, label: "Licensed guides" },
   ];
 

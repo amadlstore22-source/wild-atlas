@@ -215,7 +215,7 @@ export default function Hero({ lang, dict }: Props) {
                 <span className="text-white/90 text-xs font-bold ml-1.5">4.7</span>
               </div>
               <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">500+ happy travelers</span>
+              <span className="text-white/60 text-xs">{SITE.clientCount} happy travelers</span>
               <span className="text-white/25 text-xs">·</span>
               <span className="text-white/60 text-xs">Certified local guides</span>
               <span className="text-white/25 text-xs">·</span>

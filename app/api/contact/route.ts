@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
       const confirmationBody =
         type === "booking"
           ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request and one of our guides will get back to you within 24 hours to confirm availability and next steps.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team\nhello@marrakechecotours.com`
-          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within 48 hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team\nhello@marrakechecotours.com`;
+          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within 24 hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team\nhello@marrakechecotours.com`;
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",

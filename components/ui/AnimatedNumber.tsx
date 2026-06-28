@@ -13,12 +13,14 @@ interface Props {
 export default function AnimatedNumber({ to, suffix = "", prefix = "", decimals = 0, duration = 1.6 }: Props) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
-  const [display, setDisplay] = useState(0);
+  // Start with final value so SSR/crawlers see the real number, not 0
+  const [display, setDisplay] = useState(to);
 
   useEffect(() => {
     if (!isInView) return;
     const startTime = performance.now();
     const ms = duration * 1000;
+    setDisplay(0);
 
     function tick(now: number) {
       const t = Math.min((now - startTime) / ms, 1);

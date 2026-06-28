@@ -66,7 +66,7 @@
     },
     "responsive": {
       "title": "Schnelle, menschliche Unterstützung",
-      "desc": "WhatsApp-Antworten innerhalb von 48 Stunden — oft viel schneller. E-Mails können etwas länger dauern. Echte Menschen, immer erreichbar."
+      "desc": "WhatsApp-Antworten innerhalb von 24 Stunden — oft viel schneller. E-Mails können etwas länger dauern. Echte Menschen, immer erreichbar."
     }
   },
   "ourStory": {
@@ -88,9 +88,9 @@
     "verified": "Verifizierter Reisender"
   },
   "gallery": {
-    "eyebrow": "Im Feld",
+    "eyebrow": "Marokkos Landschaften",
     "title": "Marokko durch unsere Linse",
-    "subtitle": "Aufgenommen von unseren Guides während echter Touren."
+    "subtitle": "Marokkos beeindruckendste Landschaften — wie auf unseren Touren erlebt."
   },
   "cta": {
     "eyebrow": "Bereit zu erkunden?",
@@ -100,7 +100,7 @@
     "whatsapp": "WhatsApp",
     "customTrip": "Individuelle Reise",
     "trust1": "Kostenlose Stornierung 14 Tage vorher",
-    "trust2": "WhatsApp-Antworten innerhalb von 48 Stunden",
+    "trust2": "WhatsApp-Antworten innerhalb von 24 Stunden",
     "trust3": "5 Sterne von 1.000+ Reisenden"
   },
   "tours": {
@@ -179,7 +179,7 @@
     "formTour": "Gewünschte Tour",
     "formMessage": "Ihre Nachricht",
     "formSubmit": "Nachricht senden",
-    "formSuccess": "Nachricht gesendet! Für eine schnellere Antwort schreiben Sie uns auf WhatsApp — E-Mail-Antworten können bis zu 48 Stunden dauern.",
+    "formSuccess": "Nachricht gesendet! Für eine schnellere Antwort schreiben Sie uns auf WhatsApp — E-Mail-Antworten können etwas länger dauern.",
     "formError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns über WhatsApp."
   },
   "footer": {

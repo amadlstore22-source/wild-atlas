@@ -66,7 +66,7 @@
     },
     "responsive": {
       "title": "Fast, Human Support",
-      "desc": "WhatsApp replies within 48 hours — usually much faster. Email may take a little longer. Real people, always reachable."
+      "desc": "WhatsApp replies within 24 hours — usually much faster. Email may take a little longer. Real people, always reachable."
     }
   },
   "ourStory": {
@@ -88,9 +88,9 @@
     "verified": "Verified traveller"
   },
   "gallery": {
-    "eyebrow": "In the Field",
+    "eyebrow": "Morocco's Landscapes",
     "title": "Morocco Through Our Lens",
-    "subtitle": "Captured by our guides during real tours."
+    "subtitle": "Morocco's most iconic landscapes — as seen on our tours."
   },
   "cta": {
     "eyebrow": "Ready to Explore?",
@@ -100,7 +100,7 @@
     "whatsapp": "WhatsApp Us",
     "customTrip": "Custom Trip",
     "trust1": "Free cancellation 14 days prior",
-    "trust2": "WhatsApp replies within 48 hours",
+    "trust2": "WhatsApp replies within 24 hours",
     "trust3": "5-star rated by 1,000+ travellers"
   },
   "tours": {
@@ -179,7 +179,7 @@
     "formTour": "Tour of Interest",
     "formMessage": "Your Message",
     "formSubmit": "Send Message",
-    "formSuccess": "Message sent! For the fastest reply, message us on WhatsApp — email responses may take up to 48 hours.",
+    "formSuccess": "Message sent! For the fastest reply, message us on WhatsApp — email responses may take a little longer.",
     "formError": "Something went wrong. Please try again or WhatsApp us directly."
   },
   "footer": {

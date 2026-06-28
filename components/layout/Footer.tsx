@@ -81,14 +81,27 @@ export default function Footer({ lang, dict }: Props) {
             <div className="flex flex-wrap items-center gap-5">
               <span className="flex items-center gap-1.5">
                 <span className="text-[#FFB800]">★★★★★</span>
-                <span>4.9 average rating</span>
+                <span>4.7 average rating</span>
               </span>
               <span className="hidden sm:block text-white/15">·</span>
-              <span>500+ happy travelers</span>
+              <span>{SITE.clientCount} happy travelers</span>
               <span className="hidden sm:block text-white/15">·</span>
               <span>Licensed tour operator since {SITE.foundedYear}</span>
               <span className="hidden sm:block text-white/15">·</span>
               <span>Certified Berber guides</span>
+              <span className="hidden sm:block text-white/15">·</span>
+              <a
+                href="https://www.tripadvisor.com/Search?q=marrakech+eco+tours"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 hover:text-[#00af87] transition-colors"
+                aria-label="Read our reviews on TripAdvisor"
+              >
+                <svg viewBox="0 0 24 24" fill="#00af87" className="w-3.5 h-3.5 shrink-0" aria-hidden="true">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4a8 8 0 110 16A8 8 0 0112 4zm-3 7.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm6 0a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-3 4c-1.5 0-2.8.7-3.6 1.8l1.1.8c.5-.8 1.4-1.3 2.5-1.3s2 .5 2.5 1.3l1.1-.8C14.8 16.2 13.5 15.5 12 15.5z"/>
+                </svg>
+                <span>Reviews on TripAdvisor</span>
+              </a>
             </div>
             <span className="text-white/25 hidden md:block">Marrakech · Morocco</span>
           </div>

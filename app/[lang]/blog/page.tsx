@@ -14,6 +14,9 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   return {
     title: dict.blog.pageTitle,
     description: dict.blog.pageSubtitle,
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/blog`,
+    },
   };
 }
 

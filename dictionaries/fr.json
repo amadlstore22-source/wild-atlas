@@ -66,7 +66,7 @@
     },
     "responsive": {
       "title": "Assistance humaine rapide",
-      "desc": "Réponses WhatsApp en 48 heures — souvent bien plus vite. L'e-mail peut prendre un peu plus longtemps. Des vraies personnes, toujours joignables."
+      "desc": "Réponses WhatsApp en 24 heures — souvent bien plus vite. L'e-mail peut prendre un peu plus longtemps. Des vraies personnes, toujours joignables."
     }
   },
   "ourStory": {
@@ -88,9 +88,9 @@
     "verified": "Voyageur vérifié"
   },
   "gallery": {
-    "eyebrow": "Sur le terrain",
+    "eyebrow": "Paysages du Maroc",
     "title": "Le Maroc à travers notre objectif",
-    "subtitle": "Capturé par nos guides lors de vrais circuits."
+    "subtitle": "Les paysages les plus emblématiques du Maroc — tels que vus lors de nos circuits."
   },
   "cta": {
     "eyebrow": "Prêt à explorer ?",
@@ -100,7 +100,7 @@
     "whatsapp": "WhatsApp",
     "customTrip": "Voyage sur mesure",
     "trust1": "Annulation gratuite 14 jours avant",
-    "trust2": "Réponses WhatsApp en 48 heures",
+    "trust2": "Réponses WhatsApp en 24 heures",
     "trust3": "5 étoiles par 1 000+ voyageurs"
   },
   "tours": {
@@ -179,7 +179,7 @@
     "formTour": "Circuit souhaité",
     "formMessage": "Votre message",
     "formSubmit": "Envoyer le message",
-    "formSuccess": "Message envoyé ! Pour une réponse rapide, contactez-nous sur WhatsApp — les réponses par e-mail peuvent prendre jusqu'à 48 heures.",
+    "formSuccess": "Message envoyé ! Pour une réponse rapide, contactez-nous sur WhatsApp — les réponses par e-mail peuvent prendre un peu plus longtemps.",
     "formError": "Une erreur s'est produite. Réessayez ou contactez-nous via WhatsApp."
   },
   "footer": {

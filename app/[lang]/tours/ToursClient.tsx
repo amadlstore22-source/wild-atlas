@@ -1,6 +1,5 @@
 "use client";
-import { useState, useMemo, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useMemo } from "react";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
 import { TOURS, CATEGORIES, type Category, type Difficulty, type Origin } from "@/lib/tours";
@@ -11,16 +10,15 @@ import type { Dictionary, Locale } from "../dictionaries";
 interface Props {
   lang: Locale;
   dict: Dictionary;
+  initialSearch?: string;
+  initialOrigin?: string;
 }
 
-export default function ToursClient({ lang, dict }: Props) {
-  const searchParams = useSearchParams();
-  const [search, setSearch] = useState(searchParams.get("q") ?? "");
+export default function ToursClient({ lang, dict, initialSearch = "", initialOrigin = "" }: Props) {
+  const [search, setSearch] = useState(initialSearch);
   const [category, setCategory] = useState<Category | "all">("all");
   const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
-  const [origin, setOrigin] = useState<Origin | "all">(
-    (searchParams.get("origin") as Origin) ?? "all"
-  );
+  const [origin, setOrigin] = useState<Origin | "all">((initialOrigin as Origin) || "all");
 
   const DIFFICULTIES: { id: Difficulty | "all"; label: string }[] = [
     { id: "all", label: dict.tours.allLevels },
@@ -35,13 +33,6 @@ export default function ToursClient({ lang, dict }: Props) {
     { id: "marrakech", label: dict.hero.fromMarrakech },
     { id: "agadir", label: dict.hero.fromAgadir },
   ];
-
-  useEffect(() => {
-    const q = searchParams.get("q");
-    const o = searchParams.get("origin") as Origin | null;
-    if (q) setSearch(q);
-    if (o) setOrigin(o);
-  }, [searchParams]);
 
   const filtered = useMemo(
     () =>

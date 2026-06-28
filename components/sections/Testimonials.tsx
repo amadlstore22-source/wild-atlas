@@ -14,7 +14,7 @@ const REVIEWS = [
     tour: "Toubkal Summit Trek",
     date: "March 2025",
     text: "I cannot recommend this experience highly enough. From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&q=80",
+    color: "#4B5D3A",
   },
   {
     name: "Marco B.",
@@ -24,7 +24,7 @@ const REVIEWS = [
     tour: "3-Day Sahara Desert Tour",
     date: "November 2024",
     text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80",
+    color: "#8B5E3C",
   },
   {
     name: "Emily C.",
@@ -34,7 +34,7 @@ const REVIEWS = [
     tour: "Marrakech Medina Cultural Tour",
     date: "February 2025",
     text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Our guide took us through the real Marrakech — tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&q=80",
+    color: "#2C5F6A",
   },
   {
     name: "Thomas M.",
@@ -44,7 +44,7 @@ const REVIEWS = [
     tour: "Ourika Valley Day Hike",
     date: "April 2025",
     text: "The Ourika Valley is genuinely stunning and our guide read the pace of the group well — my 65-year-old mother kept up without any trouble. The Berber family lunch was the highlight. One small note: the pickup was about 20 minutes late, which ate into our time at the waterfall. Still a wonderful day and we would book again.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80",
+    color: "#5A4A6F",
   },
   {
     name: "Amelia S.",
@@ -54,7 +54,7 @@ const REVIEWS = [
     tour: "Mgoun Massif Traverse",
     date: "October 2024",
     text: "Seven days in the Mgoun and the landscapes are unlike anything I have ever seen — gorges of red rock, high passes in the howling wind, villages that feel untouched by modern life. The guiding was excellent. I'm giving four stars rather than five because the pre-departure information pack was thin; I had to ask separately for the gear list. Once on the trail, everything was outstanding.",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=160&q=80",
+    color: "#7A3D3D",
   },
 ];
 
@@ -160,12 +160,13 @@ export default function Testimonials({ dict }: Props) {
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
               >
-                <img
-                  src={review.image}
-                  alt={review.name}
-                  className="w-9 h-9 rounded-full object-cover shrink-0"
-                  loading="lazy"
-                />
+                <div
+                  className="w-9 h-9 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-sm"
+                  style={{ backgroundColor: review.color }}
+                  aria-hidden="true"
+                >
+                  {review.name.split(" ").map((n) => n[0]).join("")}
+                </div>
                 <div className="min-w-0">
                   <div className={`font-semibold text-sm truncate ${i === idx ? "text-white" : "text-charcoal"}`}>
                     {review.name}
@@ -208,12 +209,13 @@ export default function Testimonials({ dict }: Props) {
 
                 <div className="flex items-center justify-between pt-6 border-t border-sand-dark flex-wrap gap-4">
                   <div className="flex items-center gap-3">
-                    <img
-                      src={r.image}
-                      alt={r.name}
-                      className="w-11 h-11 rounded-full object-cover"
-                      loading="lazy"
-                    />
+                    <div
+                      className="w-11 h-11 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-base"
+                      style={{ backgroundColor: r.color }}
+                      aria-hidden="true"
+                    >
+                      {r.name.split(" ").map((n) => n[0]).join("")}
+                    </div>
                     <div>
                       <div className="font-bold text-charcoal text-sm">{r.name}</div>
                       <div className="text-charcoal/40 text-xs">{r.country}</div>

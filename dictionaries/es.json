@@ -66,7 +66,7 @@
     },
     "responsive": {
       "title": "Soporte humano rápido",
-      "desc": "Respuestas por WhatsApp en 48 horas — normalmente mucho antes. El correo puede tardar algo más. Personas reales, siempre localizables."
+      "desc": "Respuestas por WhatsApp en 24 horas — normalmente mucho antes. El correo puede tardar algo más. Personas reales, siempre localizables."
     }
   },
   "ourStory": {
@@ -88,9 +88,9 @@
     "verified": "Viajero verificado"
   },
   "gallery": {
-    "eyebrow": "En el campo",
+    "eyebrow": "Paisajes de Marruecos",
     "title": "Marruecos a través de nuestra lente",
-    "subtitle": "Capturado por nuestros guías durante tours reales."
+    "subtitle": "Los paisajes más emblemáticos de Marruecos — tal como se ven en nuestros tours."
   },
   "cta": {
     "eyebrow": "¿Listo para explorar?",
@@ -100,7 +100,7 @@
     "whatsapp": "WhatsApp",
     "customTrip": "Viaje personalizado",
     "trust1": "Cancelación gratuita 14 días antes",
-    "trust2": "Respuestas por WhatsApp en 48 horas",
+    "trust2": "Respuestas por WhatsApp en 24 horas",
     "trust3": "5 estrellas por más de 1.000 viajeros"
   },
   "tours": {
@@ -179,7 +179,7 @@
     "formTour": "Tour de interés",
     "formMessage": "Tu mensaje",
     "formSubmit": "Enviar mensaje",
-    "formSuccess": "¡Mensaje enviado! Para una respuesta más rápida, escríbenos por WhatsApp — el correo puede tardar hasta 48 horas.",
+    "formSuccess": "¡Mensaje enviado! Para una respuesta más rápida, escríbenos por WhatsApp — el correo puede tardar un poco más.",
     "formError": "Algo salió mal. Por favor inténtalo de nuevo o contáctanos por WhatsApp."
   },
   "footer": {

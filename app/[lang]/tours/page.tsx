@@ -1,16 +1,32 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../dictionaries";
 import ToursClient from "./ToursClient";
 
-export default async function ToursPage({ params }: { params: Promise<{ lang: string }> }) {
+type ToursPageProps = {
+  params: Promise<{ lang: string }>;
+  searchParams: Promise<{ q?: string; origin?: string }>;
+};
+
+export async function generateMetadata({ params }: ToursPageProps): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  return {
+    title: "All Tours — Marrakech Eco Tours | Morocco Adventures",
+    description: "Browse 30+ guided tours across Morocco — trekking, Sahara desert, cultural, and day tours from Marrakech and Agadir.",
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/tours`,
+    },
+  };
+}
+
+export default async function ToursPage({ params, searchParams }: ToursPageProps) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const { q = "", origin = "" } = await searchParams;
 
   return (
-    <Suspense fallback={<div className="min-h-screen" />}>
-      <ToursClient lang={lang} dict={dict} />
-    </Suspense>
+    <ToursClient lang={lang} dict={dict} initialSearch={q} initialOrigin={origin} />
   );
 }

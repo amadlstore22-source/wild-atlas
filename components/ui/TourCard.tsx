@@ -86,12 +86,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
         <div className="card-shimmer-wrap" />
 
-        <div className="absolute top-4 left-4 right-4 flex items-start justify-between gap-2 z-10">
-          <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${
-            tour.tourType === "private" ? "bg-sunset text-white" : "bg-white/90 text-forest"
-          }`}>
-            {tour.tourType === "private" ? "Private" : "Shared"}
-          </span>
+        <div className="absolute top-4 left-4 right-4 flex items-start justify-end gap-2 z-10">
           <span className={`px-2.5 py-1 rounded-full text-xs font-semibold capitalize ${DIFFICULTY_COLORS[tour.difficulty]}`}>
             {tour.difficulty}
           </span>
@@ -155,14 +150,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
         <div className="card-shimmer-wrap" />
 
-        <div className="absolute top-3 left-3 right-3 flex items-start justify-between gap-2">
-          <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${
-            tour.tourType === "private"
-              ? "bg-sunset text-white"
-              : "bg-white/90 backdrop-blur-sm text-forest"
-          }`}>
-            {tour.tourType === "private" ? "Private" : "Shared"}
-          </span>
+        <div className="absolute top-3 left-3 right-3 flex items-start justify-end gap-2">
           <span className={`px-2.5 py-1 rounded-full text-xs font-semibold capitalize ${DIFFICULTY_COLORS[tour.difficulty]}`}>
             {tour.difficulty}
           </span>

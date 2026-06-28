@@ -17,6 +17,7 @@ interface Destination {
   known: string[];
   category: string;
   slug: string;
+  destSlug: string;
 }
 
 const DESTINATIONS: Destination[] = [
@@ -39,6 +40,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Cultural",
     slug: "cultural",
+    destSlug: "marrakech",
   },
   {
     id: "toubkal",
@@ -59,6 +61,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Trekking",
     slug: "trekking",
+    destSlug: "high-atlas",
   },
   {
     id: "sahara",
@@ -79,6 +82,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Desert",
     slug: "desert",
+    destSlug: "sahara",
   },
   {
     id: "fes",
@@ -99,6 +103,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Cultural",
     slug: "cultural",
+    destSlug: "fes",
   },
   {
     id: "chefchaouen",
@@ -119,6 +124,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Cultural",
     slug: "cultural",
+    destSlug: "chefchaouen",
   },
   {
     id: "agadir",
@@ -139,6 +145,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Day Tours",
     slug: "day-tours",
+    destSlug: "agadir",
   },
   {
     id: "ouzoud",
@@ -159,6 +166,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Hiking",
     slug: "hiking",
+    destSlug: "ouzoud",
   },
   {
     id: "essaouira",
@@ -179,6 +187,7 @@ const DESTINATIONS: Destination[] = [
     ],
     category: "Day Tours",
     slug: "day-tours",
+    destSlug: "essaouira",
   },
 ];
 
@@ -206,7 +215,11 @@ function FlyController({ target }: { target: [number, number] | null }) {
   const map = useMap();
   const prev = useRef<string>("");
   useEffect(() => {
-    if (!target) return;
+    if (!target) {
+      prev.current = "";
+      map.flyTo([29.5, -6.0], 5, { duration: 1.2, easeLinearity: 0.25 });
+      return;
+    }
     const key = target.join(",");
     if (key === prev.current) return;
     prev.current = key;
@@ -474,7 +487,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
 
                 {/* CTA */}
                 <a
-                  href={`/${lang}/categories/${selected.slug}`}
+                  href={`/${lang}/destinations/${selected.destSlug}`}
                   style={{
                     display: "block",
                     marginTop: 15,

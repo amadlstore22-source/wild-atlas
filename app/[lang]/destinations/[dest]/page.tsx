@@ -11,8 +11,8 @@ import type { Locale } from "@/app/[lang]/dictionaries";
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
 
 export async function generateStaticParams() {
-  const locales = ["en", "fr", "es", "de", "it", "ar"];
-  return locales.flatMap((lang) =>
+  const { LOCALES } = await import("../../dictionaries");
+  return LOCALES.flatMap((lang) =>
     DESTINATIONS.map((d) => ({ lang, dest: d.slug }))
   );
 }
@@ -53,6 +53,7 @@ export default async function DestinationPage({ params }: PageParams) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TouristDestination",
+    "@id": `https://marrakechecotours.com/${lang}/destinations/${dest}`,
     name: destination.name,
     description: destination.about,
     url: `https://marrakechecotours.com/${lang}/destinations/${dest}`,
@@ -85,7 +86,9 @@ export default async function DestinationPage({ params }: PageParams) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+      {destination.faqs.length > 0 && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+      )}
 
       <div className="min-h-screen">
         {/* Hero */}
@@ -243,7 +246,7 @@ export default async function DestinationPage({ params }: PageParams) {
                         {destination.seasons
                           .filter((s) => s.rating >= 4)
                           .map((s) => s.name)
-                          .join(" & ")}
+                          .join(" & ") || "Year-round"}
                       </dd>
                     </div>
                     <div>
@@ -255,7 +258,7 @@ export default async function DestinationPage({ params }: PageParams) {
                             href={`/${locale}/categories/${cat}`}
                             className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-forest/8 text-forest border border-forest/15 rounded-full hover:bg-forest/16 transition-colors capitalize"
                           >
-                            {cat.replace("-", " ")}
+                            {cat.replaceAll("-", " ")}
                           </Link>
                         ))}
                       </dd>

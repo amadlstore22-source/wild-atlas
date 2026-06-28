@@ -29,8 +29,9 @@ export default function Hero({ lang, dict }: Props) {
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
     setIsDesktop(mq.matches);
-    mq.addEventListener("change", (e) => setIsDesktop(e.matches));
-    return () => mq.removeEventListener("change", (e) => setIsDesktop(e.matches));
+    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
   }, []);
 
   const ORIGIN_TABS = [

@@ -205,7 +205,7 @@ export default function Footer({ lang, dict }: Props) {
                 </a>
               </li>
               <li className="pt-1 text-white/28 text-xs leading-relaxed">
-                Reply within {SITE.responseHours}h<br />
+                {dict.contact.responseValue}<br />
                 English · French · Arabic · Spanish
               </li>
             </ul>

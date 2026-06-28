@@ -14,6 +14,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import ActivityScenes from "@/components/sections/ActivityScenes";
+import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -99,6 +100,7 @@ export default async function HomePage({ params }: LangParams) {
       <CategoryGrid dict={dict} />
       <ActivityScenes lang={lang} />
       <Testimonials dict={dict} />
+      <GuideProfiles lang={lang} />
       <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} />
       <Gallery dict={dict} />

@@ -13,6 +13,7 @@ const REVIEWS = [
     rating: 5,
     tour: "Toubkal Summit Trek",
     date: "March 2025",
+    source: "Direct",
     text: "I cannot recommend this experience highly enough. From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
     color: "#4B5D3A",
   },
@@ -23,6 +24,7 @@ const REVIEWS = [
     rating: 5,
     tour: "3-Day Sahara Desert Tour",
     date: "November 2024",
+    source: "Direct",
     text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
     color: "#8B5E3C",
   },
@@ -33,6 +35,7 @@ const REVIEWS = [
     rating: 5,
     tour: "Marrakech Medina Cultural Tour",
     date: "February 2025",
+    source: "Direct",
     text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Our guide took us through the real Marrakech — tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
     color: "#2C5F6A",
   },
@@ -43,6 +46,7 @@ const REVIEWS = [
     rating: 4,
     tour: "Ourika Valley Day Hike",
     date: "April 2025",
+    source: "Direct",
     text: "The Ourika Valley is genuinely stunning and our guide read the pace of the group well — my 65-year-old mother kept up without any trouble. The Berber family lunch was the highlight. One small note: the pickup was about 20 minutes late, which ate into our time at the waterfall. Still a wonderful day and we would book again.",
     color: "#5A4A6F",
   },
@@ -53,6 +57,7 @@ const REVIEWS = [
     rating: 4,
     tour: "Mgoun Massif Traverse",
     date: "October 2024",
+    source: "Direct",
     text: "Seven days in the Mgoun and the landscapes are unlike anything I have ever seen — gorges of red rock, high passes in the howling wind, villages that feel untouched by modern life. The guiding was excellent. I'm giving four stars rather than five because the pre-departure information pack was thin; I had to ask separately for the gear list. Once on the trail, everything was outstanding.",
     color: "#7A3D3D",
   },
@@ -221,9 +226,14 @@ export default function Testimonials({ dict }: Props) {
                       <div className="text-charcoal/40 text-xs">{r.country}</div>
                     </div>
                   </div>
-                  <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-100 text-green-700 rounded-full text-xs font-medium">
-                    <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                    {dict.testimonials.verified}
+                  <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-100 text-green-700 rounded-full text-xs font-medium">
+                      <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                      {dict.testimonials.verified}
+                    </div>
+                    <div className="px-3 py-1.5 bg-charcoal/5 border border-charcoal/10 text-charcoal/50 rounded-full text-xs font-medium">
+                      {r.source}
+                    </div>
                   </div>
                 </div>
 

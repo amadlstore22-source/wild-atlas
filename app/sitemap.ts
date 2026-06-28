@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
 import { DESTINATIONS } from "@/lib/destinations";
+import { GUIDES } from "@/lib/guides";
 import { LOCALES } from "@/app/[lang]/dictionaries";
 
 const BASE = "https://marrakechecotours.com";
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "", freq: "weekly" as const, priority: 1.0 },
     { path: "/tours", freq: "weekly" as const, priority: 0.9 },
     { path: "/destinations", freq: "monthly" as const, priority: 0.9 },
+    { path: "/guides", freq: "monthly" as const, priority: 0.8 },
     { path: "/news", freq: "daily" as const, priority: 0.8 },
     { path: "/blog", freq: "weekly" as const, priority: 0.7 },
     { path: "/about", freq: "monthly" as const, priority: 0.7 },
@@ -64,12 +66,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const guideUrls = LOCALES.flatMap((lang) =>
+    GUIDES.map((g) => ({
+      url: `${BASE}/${lang}/guides/${g.id}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    }))
+  );
+
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     ...staticUrls,
     ...tourUrls,
     ...categoryUrls,
     ...destinationUrls,
+    ...guideUrls,
     ...blogUrls,
   ];
 }

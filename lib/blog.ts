@@ -1207,6 +1207,122 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
 - **Stay inside the medina.** A riad within the medina walls — even a simple one — gives you access to the city at its best hours. Riads on the outer edge of Fes (Ville Nouvelle) miss the point.
     `,
   },
+  {
+    slug: "is-morocco-safe-tourist-guide",
+    author: MET_TEAM,
+    title: "Is Morocco Safe for Tourists? An Honest Guide (2025)",
+    excerpt:
+      "Morocco is overwhelmingly safe for tourists — but it helps to know what's real and what's theatre. A licensed Berber guide gives you the unvarnished picture: where the risks are, where they aren't, and how to avoid every scam that targets first-time visitors.",
+    heroImage:
+      "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2025-03-10",
+    tags: ["Morocco safety", "Morocco scams", "is Morocco safe", "Morocco travel tips", "Morocco for tourists", "Marrakech safety"],
+    seoTitle: "Is Morocco Safe for Tourists? Honest 2025 Guide — What's Real, What's Not",
+    seoDescription:
+      "Morocco is safe for most tourists most of the time — but first-time visitors need to know which risks are real and which ones guidebooks exaggerate. Licensed Berber guides give you the honest picture.",
+    content: `
+Morocco consistently ranks among the safest destinations in Africa for foreign tourists. The country has a well-established tourism infrastructure, a low violent crime rate by international standards, and a culture of hospitality that goes back centuries. Most visitors leave without a single negative incident.
+
+That said, Morocco does have a real and well-documented petty scam economy — particularly in Marrakech's medina — and ignoring it doesn't serve anyone. This guide tells you what's actually worth worrying about, what isn't, and exactly how to navigate the country without being the person who gets taken advantage of.
+
+We run tours in Morocco every week. This is what we tell every guest before they arrive.
+
+## The honest picture on crime
+
+Morocco's violent crime rate is low. Muggings, physical assault, and violent robbery are rare and not a feature of the tourist experience. The US State Department rates Morocco as Level 1 ("Exercise normal precautions") — the same rating as France and Japan. The UK Foreign Office says Morocco is "generally safe for most visitors."
+
+What Morocco does have is a persistent **petty scam economy** concentrated in a handful of tourist areas — primarily the medinas of Marrakech and Fes, and to a lesser extent Chefchaouen. The scams are non-violent but they are real, they target first-time visitors specifically, and they can genuinely ruin a day.
+
+Understanding them takes about ten minutes. That's what this article is for.
+
+## The five scams that actually happen
+
+### 1. The "closed / wrong entrance" redirect
+
+You're walking toward a landmark — Djemaa el-Fna, the Bab Bou Jeloud gate in Fes, the tanneries in Marrakech. A friendly local intercepts you and tells you it's closed today, or you're going the wrong way, or there's a "better entrance" over here. He offers to show you. He takes you to a carpet shop or leather goods store instead, collects a commission, and the landmark you wanted was open all along.
+
+**How to handle it:** Verify opening hours online before you go. Acknowledge the person and keep walking. Do not follow anyone who approaches you unprompted on the street, regardless of how helpful they seem.
+
+### 2. The "free" henna
+
+A woman near Djemaa el-Fna or in the souks offers to draw henna on your hand — "just to show you, no charge." Once it's done, she demands a significant payment (often €20–€50). She's friendly up to that point, then aggressive.
+
+**How to handle it:** Decline all street henna offers. If you want henna, book it through your riad or a licensed salon, and agree the price first.
+
+### 3. The unofficial "guide"
+
+A young man offers to show you around the medina. He seems helpful and knowledgeable. After an hour, he brings you to a shop (carpet, spice, leather, argan oil) owned by his cousin/friend, and you're expected to buy something. If you don't, the atmosphere turns.
+
+**How to handle it:** Use a licensed, certified guide booked through an established company. Licensed guides in Morocco carry an official ID card issued by the Ministry of Tourism — it's legal to ask to see it. Unlicensed "guides" are illegal under Moroccan law and generally exist to feed commission tourism.
+
+### 4. Restaurant and café overcharging
+
+Some tourist-facing restaurants near Djemaa el-Fna and the busiest souks don't display prices clearly, or they add items to the bill you didn't order. The confrontation when you object is designed to embarrass you into paying.
+
+**How to handle it:** Check the menu has prices before you sit down. Verify your bill before paying. When in doubt, eat slightly away from the main square — prices drop and quality often improves.
+
+### 5. Photo requests that become demands for payment
+
+Someone in traditional dress or holding a monkey or snake asks if you'd like a photo. You take it. Now you owe money — often much more than you'd expect — and the interaction turns unfriendly if you don't pay.
+
+**How to handle it:** Avoid photographing people or animals without an explicit prior agreement on payment. If you want good people photography in Morocco, work with a local guide who can arrange it properly.
+
+## What isn't a scam
+
+It's worth being specific, because some visitors misread Moroccan social culture as predatory when it isn't.
+
+**Shop owners standing in their doorways and inviting you in** — this is normal commerce in a souk. There is no obligation, no pressure, and walking away is completely acceptable. "Just looking" is understood and respected by legitimate merchants.
+
+**Being invited for mint tea** — the tradition of offering tea is genuine in Morocco. That said, some souvenir shops use it as an opportunity for a hard sell. The tea itself is free; the commitment to buy something is not. Drink the tea, enjoy the conversation, and leave if you don't want to buy.
+
+**Children asking for pens, sweets, or money in rural areas** — this is real, and it's worth not encouraging it, as it can distort local economies around tourism. A better approach is to support local schools and community projects through tour operators who work with them directly.
+
+## Solo female travel
+
+Morocco is a safe destination for solo female travellers, and hundreds of thousands of women travel here alone every year without incident. Verbal harassment (catcalling, unwanted comments) does happen in some areas — particularly in busy medinas — and it can be wearing.
+
+Practical things that help: dressing modestly (shoulders and knees covered) in medinas and traditional areas; walking with purpose and avoiding making sustained eye contact with people who are bothering you; staying in a riad rather than a large hotel (the staff know the area and can advise); and booking your first day's medina visit with a licensed guide rather than navigating alone on arrival.
+
+Night walking alone in the medina — particularly in Marrakech after 10 pm — carries more risk than daytime walking, as you're less visible and potential confrontations are harder to manage. Most solo female visitors say the main issue is unwanted attention rather than anything threatening.
+
+## Border areas and the Sahara
+
+The borders with Algeria and Western Sahara are off limits to tourists. Southern Morocco (Ouarzazate, Zagora, Merzouga) is perfectly safe and one of the most extraordinary parts of the country to visit. The Sahara routes to Erg Chebbi near Merzouga are among the best-managed tourism experiences in Morocco.
+
+Avoid the extreme southeast corner near the Algerian border (roughly east of Figuig). Beyond that, the south is open.
+
+## Health and practical safety
+
+**Water:** Don't drink tap water. Bottled water is cheap and everywhere. Use it for brushing teeth too.
+
+**Food:** Street food in Morocco is generally safe — the turnover is high and the locals eat it constantly. Avoid anything sitting uncovered in the sun for hours. The food poisoning risk is real but not worse than any other developing-country destination, and it's manageable with basic precautions.
+
+**Road travel:** Driving in Morocco requires attention — road manners are more fluid than in northern Europe, speed limits are inconsistently enforced, and mountain roads require experience. If you're hiring a car, drive defensively. Night driving in the mountains is not recommended for first-time visitors to the country.
+
+**Petty theft:** Pickpocketing in the busiest parts of Djemaa el-Fna and the souks does happen. Use a money belt or a bag with a zip you can keep in front of you. Don't carry everything — leave your passport in the safe at your riad and carry only what you need for the day.
+
+## The single most effective thing you can do
+
+**Book with a licensed local operator.** Not because unlicensed operators are dangerous, but because a licensed guide with a real stake in their reputation handles the friction before it reaches you. They know which streets to avoid, which merchants are trustworthy, and what the actual price of everything should be.
+
+Every guest we take into the medina gets a version of this briefing before we walk in. Then they walk through with someone who grew up there — someone the shopkeepers know by name — and the entire dynamic changes. The scam economy depends on tourist ignorance and isolation. It doesn't survive local knowledge.
+
+That's true whether you book with us or someone else. Travel with someone who knows the place.
+
+## The bottom line
+
+Morocco is safe. It's one of the most rewarding travel destinations in the world, and the vast majority of people who come here leave wanting to come back.
+
+Go. Know the five scams above. Book your first medina visit with a licensed guide. Keep your bag zipped in crowds. Drink bottled water.
+
+Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful, and unlike anywhere else on earth.
+
+*This guide was written by the team at Marrakech Eco Tours. We're licensed Berber guides who have run tours in Morocco since 2010. If you have specific questions about a trip you're planning, [contact us directly](/en/contact) — we answer every message ourselves.*
+    `,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

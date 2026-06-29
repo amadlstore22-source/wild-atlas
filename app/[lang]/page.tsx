@@ -5,14 +5,18 @@ import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import CategoryGrid from "@/components/sections/CategoryGrid";
 import FeaturedTours from "@/components/sections/FeaturedTours";
+import ActivityScenes from "@/components/sections/ActivityScenes";
 import WhyUs from "@/components/sections/WhyUs";
+import GuideProfiles from "@/components/sections/GuideProfiles";
 import MapWrapper from "@/components/map/MapWrapper";
 import Testimonials from "@/components/sections/Testimonials";
+import OurStory from "@/components/sections/OurStory";
 import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import TrailConditions from "@/components/sections/TrailConditions";
+import { SITE } from "@/lib/constants";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -57,7 +61,7 @@ const websiteJsonLd = {
       description: "Small-group eco-conscious tours in Morocco led by certified Berber guides. Atlas trekking, Sahara desert nights, cultural excursions. Departing from Marrakech and Agadir.",
       foundingDate: "2010",
       telephone: "+212653936003",
-      email: "info@marrakechecotours.com",
+      email: SITE.email,
       address: {
         "@type": "PostalAddress",
         addressLocality: "Marrakech",
@@ -114,11 +118,14 @@ export default async function HomePage({ params }: LangParams) {
         }}
       />
       <Hero lang={lang} dict={dict} />
-      <TrustBar dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
-      <CategoryGrid dict={dict} />
+      <TrustBar dict={dict} />
+      <CategoryGrid dict={dict} lang={lang} />
+      <ActivityScenes lang={lang} />
       <WhyUs dict={dict} />
+      <GuideProfiles lang={lang} />
       <Testimonials dict={dict} />
+      <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} />
       <Suspense fallback={null}>
         <TrailConditions />

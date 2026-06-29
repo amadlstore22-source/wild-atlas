@@ -3,7 +3,8 @@ import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
-import { LOCALES } from "@/app/[lang]/dictionaries";
+
+const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
 const BASE = "https://marrakechecotours.com";
 

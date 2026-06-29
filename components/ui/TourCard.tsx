@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import { Clock, Users, Star, MapPin, CheckCircle } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { DIFFICULTY_COLORS } from "@/lib/tours";
+import { Badge } from "@/components/ui/badge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ORIGIN_LABEL: Record<string, string> = {
@@ -87,9 +88,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <div className="card-shimmer-wrap" />
 
         <div className="absolute top-4 left-4 right-4 flex items-start justify-end gap-2 z-10">
-          <span className={`px-2.5 py-1 rounded-full text-xs font-semibold capitalize ${DIFFICULTY_COLORS[tour.difficulty]}`}>
+          <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
             {tour.difficulty}
-          </span>
+          </Badge>
         </div>
 
         <div className="absolute inset-x-0 bottom-0 p-6 z-10">
@@ -151,9 +152,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <div className="card-shimmer-wrap" />
 
         <div className="absolute top-3 left-3 right-3 flex items-start justify-end gap-2">
-          <span className={`px-2.5 py-1 rounded-full text-xs font-semibold capitalize ${DIFFICULTY_COLORS[tour.difficulty]}`}>
+          <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
             {tour.difficulty}
-          </span>
+          </Badge>
         </div>
 
         <div className="absolute bottom-3 left-3 flex items-center gap-1 text-white/80 text-xs font-medium">

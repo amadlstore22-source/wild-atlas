@@ -6,15 +6,13 @@ import TrustBar from "@/components/sections/TrustBar";
 import CategoryGrid from "@/components/sections/CategoryGrid";
 import FeaturedTours from "@/components/sections/FeaturedTours";
 import WhyUs from "@/components/sections/WhyUs";
-import OurStory from "@/components/sections/OurStory";
 import MapWrapper from "@/components/map/MapWrapper";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
-import ActivityScenes from "@/components/sections/ActivityScenes";
-import GuideProfiles from "@/components/sections/GuideProfiles";
+import TrailConditions from "@/components/sections/TrailConditions";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -96,13 +94,13 @@ export default async function HomePage({ params }: LangParams) {
       <Hero lang={lang} dict={dict} />
       <TrustBar dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
-      <WhyUs dict={dict} />
       <CategoryGrid dict={dict} />
-      <ActivityScenes lang={lang} />
+      <WhyUs dict={dict} />
       <Testimonials dict={dict} />
-      <GuideProfiles lang={lang} />
-      <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} />
+      <Suspense fallback={null}>
+        <TrailConditions />
+      </Suspense>
       <Gallery dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />

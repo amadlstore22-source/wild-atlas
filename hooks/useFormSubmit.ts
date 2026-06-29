@@ -1,5 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
+import { toast } from "sonner";
 
 interface Options {
   onSuccess?: () => void;
@@ -25,11 +26,16 @@ export function useFormSubmit(options?: Options) {
       if (res.ok) {
         setSent(true);
         options?.onSuccess?.();
+        toast.success("Message sent!", { description: "We'll get back to you within 24 hours." });
       } else {
-        setError("Something went wrong. Please try WhatsApp or email us directly.");
+        const msg = "Something went wrong. Please try WhatsApp or email us directly.";
+        setError(msg);
+        toast.error("Couldn't send your message", { description: "Try WhatsApp for a faster response." });
       }
     } catch {
-      setError("Network error. Please try again.");
+      const msg = "Network error. Please try again.";
+      setError(msg);
+      toast.error("Network error", { description: "Check your connection and try again." });
     } finally {
       inFlight.current = false;
       setSending(false);

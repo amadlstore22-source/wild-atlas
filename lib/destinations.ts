@@ -38,7 +38,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.6295,
     lng: -7.9811,
-    heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1708823081494-3e5bbd2ce931?w=1400&q=85",
     about:
       "Marrakech is Morocco's most vibrant city — a 1,000-year-old labyrinth of souks, palaces, and street theatre built from rose-coloured stone. The medina of Marrakech is a UNESCO World Heritage Site and one of the most densely populated urban areas in the world, home to over 90,000 people in a space smaller than two square kilometres. At its heart is Djemaa el-Fna, the most extraordinary public square on earth: by day a spice market and juice stand, by night a carnival of storytellers, acrobats, and gnawa musicians that has been running every single evening for 900 years.",
     knownFor: [
@@ -183,7 +183,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Fès-Meknès",
     lat: 34.0545,
     lng: -4.9815,
-    heroImage: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1582742850838-24590fb39fdc?w=1400&q=85",
     about:
       "Fes el-Bali is arguably the most remarkable urban survival on earth — a fully functioning medieval city of 156,000 people, covering 256 hectares, that has been continuously inhabited since 789 AD. It is the world's largest car-free urban area. Every street in its 9,400-alley labyrinth carries goods by hand or by mule. The same crafts have been produced in the same workshops for a thousand years: leather tanning, ceramic glazing, brass inlaying, zellige tilework. The city was founded by Moulay Idriss I and expanded under the Marinid dynasty into the great seat of Islamic learning it remains today.",
     knownFor: [
@@ -230,7 +230,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Tanger-Tétouan-Al Hoceïma",
     lat: 35.1688,
     lng: -5.2689,
-    heroImage: "https://images.unsplash.com/photo-1548018560-c7cce1871f4e?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=1400&q=85",
     about:
       "Chefchaouen sits on the slopes of the Rif Mountains at 600m above sea level — a small, remarkably well-preserved medina whose walls, staircases, and flower pots are uniformly washed in blue and white. The blue-painting tradition, introduced by Jewish refugees from the Spanish Reconquista in the 1930s, has become so central to the town's identity that residents repaint their own homes every spring. The effect is completely unlike anywhere else in Morocco: serene, photogenic, and genuinely unhurried.",
     knownFor: [
@@ -277,7 +277,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1562874732-260714dfe537?w=1400&q=85",
     about:
       "Agadir is Morocco's principal beach resort city — a modern Atlantic port rebuilt entirely after a catastrophic earthquake in 1960. Set at the foot of the Anti-Atlas Mountains with a nine-kilometre crescent of white sand beach, Agadir serves as the southern gateway to Morocco for both package tourists and adventurers. Thirty minutes north lies Taghazout, a village that has grown into one of the world's most famous surf destinations. The Souss-Massa region surrounding Agadir is home to national parks, argan oil forests, flamingo-filled wetlands, and Berber communities maintaining a way of life centuries old.",
     knownFor: [
@@ -324,7 +324,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Béni Mellal-Khénifra",
     lat: 32.0187,
     lng: -6.7188,
-    heroImage: "https://images.unsplash.com/photo-1569531736081-7fc92bbd2462?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1535027341838-aa4d6ab54a25?w=1400&q=85",
     about:
       "The Cascades d'Ouzoud are the most spectacular waterfall in North Africa — a triple cascade dropping 110 metres over reddish cliffs into a turquoise pool fed by the El-Abid river. The name 'Ouzoud' means 'olive grinding' in Tamazight (Berber), a reference to the traditional olive mills that have operated here for generations. The site sits in a deep gorge surrounded by olive and fig groves, and is home to a colony of wild Barbary macaques — the only wild primates in Africa outside sub-Saharan Africa.",
     knownFor: [
@@ -371,7 +371,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.5085,
     lng: -9.7595,
-    heroImage: "https://images.unsplash.com/photo-1597535973773-88ee12bb0046?w=1400&q=85",
+    heroImage: "https://images.unsplash.com/photo-1555686367-56d5186965d5?w=1400&q=85",
     about:
       "Essaouira is the great Atlantic counterpoint to Marrakech — whitewashed where Marrakech is rose-red, windswept where Marrakech is still, and deeply relaxed where Marrakech is electric. The city's 18th-century Portuguese-built fortifications jut into the Atlantic surf, enclosing a UNESCO World Heritage medina of arched blue shutters, fishing net repairs, and Gnawa music floating from café doorways. Essaouira has long attracted artists, musicians, and writers — Jimi Hendrix famously visited in 1969 and inspired a generation of travellers to follow.",
     knownFor: [

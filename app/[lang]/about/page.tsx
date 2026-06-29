@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import CTABanner from "@/components/sections/CTABanner";
 import WhyUs from "@/components/sections/WhyUs";
 import AboutStory from "@/components/sections/AboutStory";
+import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
 type LangParams = { params: Promise<{ lang: string }> };
@@ -144,6 +145,9 @@ export default async function AboutPage({ params }: LangParams) {
           </div>
         </div>
       </section>
+
+      {/* ── Meet the guides ── */}
+      <GuideProfiles lang={lang} />
 
       {/* ── Why Us (existing component) ── */}
       <WhyUs dict={dict} />

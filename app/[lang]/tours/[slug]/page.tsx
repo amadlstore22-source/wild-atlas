@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TOURS, getTour, DIFFICULTY_COLORS } from "@/lib/tours";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { Badge } from "@/components/ui/badge";
 import BookingSidebar from "@/components/tours/BookingSidebar";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
@@ -116,8 +117,12 @@ export default async function TourDetailPage({ params }: TourParams) {
             <span className="text-white capitalize">{tour.category}</span>
           </nav>
           <div className="flex flex-wrap gap-3 mb-4">
-            <span className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium capitalize">{tour.category}</span>
-            <span className={`px-3 py-1 rounded-full text-sm font-semibold capitalize ${DIFFICULTY_COLORS[tour.difficulty]}`}>{tour.difficulty}</span>
+            <Badge className="rounded-full bg-white/20 backdrop-blur-sm text-white border-0 text-sm font-medium capitalize hover:bg-white/25">
+              {tour.category}
+            </Badge>
+            <Badge className={`rounded-full capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
+              {tour.difficulty}
+            </Badge>
           </div>
           <h1 className="font-serif text-white text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">{tour.title}</h1>
           <div className="flex flex-wrap gap-6 mt-4 text-white/70 text-sm">

@@ -90,6 +90,7 @@ export default function Footer({ lang, dict }: Props) {
               <span className="hidden sm:block text-white/15">·</span>
               <span>Certified Berber guides</span>
               <span className="hidden sm:block text-white/15">·</span>
+              {/* TODO: Replace TRIPADVISOR_LISTING_URL with the real listing — search "Marrakech Eco Tours" on TripAdvisor and copy the direct URL */}
               <a
                 href="https://www.tripadvisor.com/Search?q=marrakech+eco+tours"
                 target="_blank"

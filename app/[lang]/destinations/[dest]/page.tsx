@@ -30,7 +30,18 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
       url: `https://marrakechecotours.com/${lang}/destinations/${dest}`,
       images: [{ url: destination.heroImage, width: 1400, height: 900, alt: destination.name }],
     },
-    alternates: { canonical: `https://marrakechecotours.com/${lang}/destinations/${dest}` },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/destinations/${dest}`,
+      languages: {
+        en: `https://marrakechecotours.com/en/destinations/${dest}`,
+        fr: `https://marrakechecotours.com/fr/destinations/${dest}`,
+        es: `https://marrakechecotours.com/es/destinations/${dest}`,
+        de: `https://marrakechecotours.com/de/destinations/${dest}`,
+        it: `https://marrakechecotours.com/it/destinations/${dest}`,
+        ar: `https://marrakechecotours.com/ar/destinations/${dest}`,
+        "x-default": `https://marrakechecotours.com/en/destinations/${dest}`,
+      },
+    },
   };
 }
 

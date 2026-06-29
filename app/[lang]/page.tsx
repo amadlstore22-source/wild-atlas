@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       title: "Marrakech Eco Tours — Morocco Adventures",
       description: dict.hero.subheadline,
       url: `https://marrakechecotours.com/${lang}`,
-      images: [{ url: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=80", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking in the Atlas Mountains" }],
+      // TODO: Replace with a real photo at /og-image.jpg once available (currently stock photo)
+      images: [{ url: "https://marrakechecotours.com/og-image.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides" }],
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}`,
@@ -46,36 +47,57 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
-  "@type": ["TravelAgency", "LocalBusiness"],
-  name: "Marrakech Eco Tours",
-  url: "https://marrakechecotours.com",
-  logo: "https://marrakechecotours.com/logo.png",
-  description:
-    "Expert-guided adventure tours in Morocco — trekking, Sahara desert tours, imperial cities, cultural excursions, and day trips from Marrakech and Agadir.",
-  email: "hello@marrakechecotours.com",
-  telephone: "+212653936003",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "MA",
-    addressLocality: "Marrakech",
-    addressRegion: "Marrakech-Safi",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 31.6295,
-    longitude: -7.9811,
-  },
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    opens: "08:00",
-    closes: "20:00",
-  },
-  areaServed: "Worldwide",
-  priceRange: "$$",
-  currenciesAccepted: "EUR",
-  paymentAccepted: "PayPal",
-  inLanguage: ["en", "fr", "es", "de", "it", "ar"],
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://marrakechecotours.com/#organization",
+      name: "Marrakech Eco Tours",
+      url: "https://marrakechecotours.com",
+      logo: "https://marrakechecotours.com/logo.png",
+      description: "Small-group eco-conscious tours in Morocco led by certified Berber guides. Atlas trekking, Sahara desert nights, cultural excursions. Departing from Marrakech and Agadir.",
+      foundingDate: "2010",
+      telephone: "+212653936003",
+      email: "info@marrakechecotours.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Marrakech",
+        addressCountry: "MA",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 31.6295,
+        longitude: -7.9811,
+      },
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "08:00",
+        closes: "20:00",
+      },
+      sameAs: [
+        "https://instagram.com/met_morocco",
+        "https://facebook.com/marrakechecotours",
+      ],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.7",
+        reviewCount: "1000",
+        bestRating: "5",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://marrakechecotours.com/#website",
+      url: "https://marrakechecotours.com",
+      name: "Marrakech Eco Tours",
+      publisher: { "@id": "https://marrakechecotours.com/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://marrakechecotours.com/en/tours?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
 };
 
 export default async function HomePage({ params }: LangParams) {

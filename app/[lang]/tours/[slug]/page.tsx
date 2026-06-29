@@ -24,14 +24,19 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
   if (!tour) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
-    title: tour.seoTitle ?? `${tour.title} — Marrakech Eco Tours`,
+    title: tour.seoTitle ?? `${tour.title} | Marrakech Eco Tours`,
     description: tour.seoDescription ?? tour.shortDescription,
-    openGraph: { title: tour.title, description: tour.shortDescription, images: [{ url: tour.heroImage }] },
+    openGraph: {
+      title: tour.title,
+      description: tour.shortDescription,
+      images: [{ url: tour.heroImage, width: 1400, height: 900, alt: tour.title }],
+    },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/tours/${slug}`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/tours/${slug}`])
-      ),
+      languages: {
+        ...Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/tours/${slug}`])),
+        "x-default": `https://marrakechecotours.com/en/tours/${slug}`,
+      },
     },
   };
 }
@@ -42,6 +47,29 @@ export default async function TourDetailPage({ params }: TourParams) {
   const tour = getTour(slug);
   if (!tour) notFound();
   const dict = await getDictionary(lang);
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: tour.title,
+    description: tour.seoDescription ?? tour.shortDescription,
+    url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
+    image: tour.heroImage,
+    brand: { "@type": "Brand", name: "Marrakech Eco Tours" },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "USD",
+      price: String(tour.price),
+      availability: "https://schema.org/InStock",
+      url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: String(tour.rating),
+      reviewCount: String(tour.reviewCount),
+      bestRating: "5",
+    },
+  };
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -101,6 +129,7 @@ export default async function TourDetailPage({ params }: TourParams) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd).replace(/</g, "\\u003c") }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />

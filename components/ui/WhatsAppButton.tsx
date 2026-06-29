@@ -30,12 +30,12 @@ export default function WhatsAppButton() {
     };
   }, []);
 
-  // x: 50 when idle — button is 56px wide, right-6 (24px) = peeking ~6px of green from right edge
+  // fully off-screen when idle (button 56px + right-6 24px = need >80px to clear edge)
   const animate = {
-    opacity: !shown ? 0 : scrolling ? 1 : 0.7,
+    opacity: !shown ? 0 : scrolling ? 1 : 0,
     scale:   !shown ? 0.7 : scrolling ? 1 : 0.88,
     y:       !shown ? 20 : 0,
-    x:       !shown ? 0  : scrolling ? 0 : 50,
+    x:       !shown ? 0  : scrolling ? 0 : 100,
   };
 
   return (
@@ -44,7 +44,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex items-center group"
+      className={`fixed bottom-6 right-6 z-50 flex items-center group ${!scrolling ? "pointer-events-none" : ""}`}
       animate={animate}
       transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
       whileHover={{ x: 0, opacity: 1, scale: 1.05 }}

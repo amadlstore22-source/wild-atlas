@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       title: dict.contact.pageTitle,
       description: dict.contact.pageSubtitle,
       url: `https://marrakechecotours.com/${lang}/contact`,
-      images: [{ url: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=80", width: 1200, height: 630, alt: "Contact Marrakech Eco Tours" }],
+      images: [{ url: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80", width: 1200, height: 630, alt: "Contact Marrakech Eco Tours" }],
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/contact`,
@@ -50,7 +50,7 @@ export default async function ContactPage({ params }: LangParams) {
   const dict = await getDictionary(lang);
 
   const CONTACT_INFO = [
-    { icon: Envelope, label: dict.contact.email, value: "hello@marrakechecotours.com", href: "mailto:hello@marrakechecotours.com" },
+    { icon: Envelope, label: dict.contact.email, value: SITE.emailDisplay, href: `mailto:${SITE.email}` },
     { icon: Phone, label: dict.contact.phone, value: SITE.phone, href: `tel:${SITE.phoneDial}` },
     { icon: MapPin, label: dict.contact.basedIn, value: "Marrakech, Morocco", href: null },
     { icon: Clock, label: dict.contact.responseTime, value: dict.contact.responseValue, href: null },
@@ -73,8 +73,8 @@ export default async function ContactPage({ params }: LangParams) {
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
-          alt="Marrakech rooftop terrace with Atlas Mountains view at sunset"
+          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1920&q=80"
+          alt="Traditional Moroccan mint tea being poured in a riad"
           fill
           className="object-cover object-center"
           priority

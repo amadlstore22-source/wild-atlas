@@ -95,7 +95,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   <div className="flex items-center gap-2 text-white/65 text-xs">
                     <Envelope className="w-3.5 h-3.5 text-[#d4956a] shrink-0" weight="duotone" />
                     <a href={`mailto:${SITE.email}`} className="hover:text-white/75 transition-colors">
-                      {SITE.email}
+                      {SITE.emailDisplay}
                     </a>
                   </div>
                 </motion.div>

@@ -192,7 +192,7 @@ export default function Footer({ lang, dict }: Props) {
                   className="flex items-start gap-2.5 hover:text-sunset transition-colors"
                 >
                   <Envelope className="w-4 h-4 text-sunset shrink-0 mt-0.5" />
-                  <span className="break-all">{SITE.email}</span>
+                  <span className="break-all">{SITE.emailDisplay}</span>
                 </a>
               </li>
               <li>

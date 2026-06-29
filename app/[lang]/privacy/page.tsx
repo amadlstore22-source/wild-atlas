@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "../dictionaries";
 import Link from "next/link";
+import { SITE } from "@/lib/constants";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -34,7 +35,7 @@ export default async function PrivacyPage({ params }: LangParams) {
               desert, cultural, and adventure tours departing from Marrakech and Agadir. Our website is{" "}
               <a href="https://marrakechecotours.com" className="text-forest hover:underline">marrakechecotours.com</a>.
               You can reach us at{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">hello@marrakechecotours.com</a>.
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">{SITE.emailDisplay}</a>.
             </p>
             <p className="mt-3">
               This policy explains what personal data we collect, how we use it, and what rights you have over
@@ -140,7 +141,7 @@ export default async function PrivacyPage({ params }: LangParams) {
             </ul>
             <p className="mt-3">
               To exercise any of these rights, email us at{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">hello@marrakechecotours.com</a>.
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">{SITE.emailDisplay}</a>.
               We will respond within <strong>30 days</strong>.
             </p>
           </section>
@@ -199,8 +200,8 @@ export default async function PrivacyPage({ params }: LangParams) {
             <h2 className="font-serif text-charcoal text-2xl font-bold mb-3">12. Contact</h2>
             <p>
               For any privacy-related questions or to exercise your data rights, contact us at:{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">
-                hello@marrakechecotours.com
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">
+                {SITE.emailDisplay}
               </a>
             </p>
           </section>

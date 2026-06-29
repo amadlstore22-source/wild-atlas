@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { SITE } from "@/lib/constants";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -38,7 +39,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           from: "Marrakech Eco Tours Contact <noreply@marrakechecotours.com>",
-          to: ["hello@marrakechecotours.com"],
+          to: [SITE.email],
           subject:
             type === "booking"
               ? `Booking Inquiry: ${tour} from ${name}`
@@ -54,8 +55,8 @@ export async function POST(req: NextRequest) {
 
       const confirmationBody =
         type === "booking"
-          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request and one of our guides will get back to you within 24 hours to confirm availability and next steps.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team\nhello@marrakechecotours.com`
-          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within 24 hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team\nhello@marrakechecotours.com`;
+          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request and one of our guides will get back to you within 24 hours to confirm availability and next steps.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
+          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within 24 hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",
@@ -71,7 +72,7 @@ export async function POST(req: NextRequest) {
               ? `We received your booking inquiry — ${tour}`
               : "We received your message — Marrakech Eco Tours",
           text: confirmationBody,
-          reply_to: "hello@marrakechecotours.com",
+          reply_to: SITE.email,
         }),
       });
       if (!confirmRes.ok) {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "../dictionaries";
 import Link from "next/link";
+import { SITE } from "@/lib/constants";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -83,7 +84,7 @@ export default async function TermsPage({ params }: LangParams) {
             </ul>
             <p className="mt-4">
               All cancellation requests must be made in writing to{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">hello@marrakechecotours.com</a>.
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">{SITE.emailDisplay}</a>.
               The date of our receipt of your written cancellation determines which policy applies.
             </p>
 
@@ -193,8 +194,8 @@ export default async function TermsPage({ params }: LangParams) {
             <p>
               If you have a complaint during your tour, raise it with your guide immediately so we can address
               it in real time. If unresolved, submit a written complaint to{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">
-                hello@marrakechecotours.com
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">
+                {SITE.emailDisplay}
               </a>{" "}
               within 28 days of the end of your tour. We will acknowledge within 5 business days and respond
               in full within 14 days.
@@ -222,8 +223,8 @@ export default async function TermsPage({ params }: LangParams) {
             <h2 className="font-serif text-charcoal text-2xl font-bold mb-3">16. Contact</h2>
             <p>
               Questions about these terms? Contact us at:{" "}
-              <a href="mailto:hello@marrakechecotours.com" className="text-forest hover:underline">
-                hello@marrakechecotours.com
+              <a href={`mailto:${SITE.email}`} className="text-forest hover:underline">
+                {SITE.emailDisplay}
               </a>
             </p>
           </section>

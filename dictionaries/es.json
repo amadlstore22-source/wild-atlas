@@ -22,7 +22,7 @@
     "planCustom": "Planificar viaje personalizado"
   },
   "trustBar": {
-    "certified": "Guías locales certificados",
+    "certified": "Años de tradición guía",
     "smallGroups": "Grupos privados y personalizados",
     "ecoFriendly": "Eco-responsable",
     "support": "Soporte 24/7",
@@ -171,7 +171,7 @@
     "phone": "WhatsApp / Teléfono",
     "basedIn": "Con sede en",
     "responseTime": "Tiempo de respuesta",
-    "responseValue": "WhatsApp: en 48 h · Email: puede tardar más",
+    "responseValue": "WhatsApp: en 24 h · Email: puede tardar más",
     "faqTitle": "Preguntas frecuentes",
     "formName": "Nombre completo",
     "formEmail": "Correo electrónico",

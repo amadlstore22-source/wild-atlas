@@ -61,6 +61,28 @@ const REVIEWS = [
     text: "Seven days in the Mgoun and the landscapes are unlike anything I have ever seen — gorges of red rock, high passes in the howling wind, villages that feel untouched by modern life. The guiding was excellent. I'm giving four stars rather than five because the pre-departure information pack was thin; I had to ask separately for the gear list. Once on the trail, everything was outstanding.",
     color: "#7A3D3D",
   },
+  {
+    name: "Karim B.",
+    country: "Morocco",
+    flag: "MA",
+    rating: 5,
+    tour: "Toubkal Summit Trek",
+    date: "June 2025",
+    source: "Direct",
+    text: "I was born in Casablanca and had never climbed Toubkal — it always felt like something you do later, until later never comes. Smail changed that. Standing on the summit at 4,167 m, looking out over my own country from its highest point, was one of the most meaningful moments of my life. Every Moroccan should do this at least once.",
+    color: "#1B4D3E",
+  },
+  {
+    name: "Nadia R.",
+    country: "Morocco",
+    flag: "MA",
+    rating: 5,
+    tour: "3-Day Sahara Desert Tour",
+    date: "December 2024",
+    source: "Direct",
+    text: "We grew up an hour from Marrakech and had never once gone south. Three days in the Sahara showed us a side of Morocco we didn't know existed. The silence at night, the cold desert air, riding camels into the dunes at sunrise — it felt like discovering a country we thought we already knew. Mohamed organised everything perfectly. Highly recommended for Moroccans especially.",
+    color: "#8B4A0A",
+  },
 ];
 
 interface Props { dict: Dictionary }

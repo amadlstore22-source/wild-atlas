@@ -1,18 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  /* Palette per brand brief: Atlas green + deep-desert brown + sand */
-  --color-forest: #4B5D3A;   /* Atlas green */
-  --color-moss: #6B7F4E;     /* lighter Atlas green */
-  --color-sunset: #8B5E3C;   /* deep desert brown — single warm accent */
-  --color-sand: #E9DDC7;     /* sand */
-  --color-sky: #5E7460;      /* muted green-grey (was blue; keep one accent) */
-  --color-charcoal: #111111; /* dark charcoal */
-  --color-offwhite: #FFFFFF; /* white */
-  --color-sand-dark: #D8C9AC;
+  /* Core palette — Atlas green family */
+  --color-forest: #4B5D3A;
+  --color-moss: #6B7F4E;
+  --color-sky: #5E7460;
 
-  --font-sans: var(--font-dm-sans);
-  --font-serif: var(--font-cormorant);
+  /* Warm accent family — clay/desert */
+  --color-sunset: #8B5E3C;
+  --color-atlas-clay: #B85C38;   /* Marrakech rampart red-ochre */
+  --color-saffron: #D4973B;      /* spice market ochre — use sparingly */
+
+  /* Dark contrast — Sahara night */
+  --color-indigo-night: #1B2D55; /* deep Sahara sky / dark section bg */
+
+  /* Eco accent */
+  --color-mint-tea: #4A7D68;     /* Moroccan mint — eco / community cues */
+
+  /* Neutral */
+  --color-sand: #E9DDC7;
+  --color-sand-dark: #D8C9AC;
+  --color-bone: #F5F0E8;         /* warm off-white for section backgrounds */
+  --color-charcoal: #111111;
+  --color-offwhite: #FFFFFF;
+
+  /* Typography — Fraunces (heritage display) + Hanken Grotesk (clean body) */
+  --font-sans: var(--font-hanken);
+  --font-serif: var(--font-fraunces);
 
   --animate-fade-up: fade-up 0.5s ease both;
   --animate-fade-in: fade-in 0.4s ease both;

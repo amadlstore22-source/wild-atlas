@@ -217,7 +217,7 @@ export default function Hero({ lang, dict }: Props) {
               <span className="text-white/25 text-xs">·</span>
               <span className="text-white/60 text-xs">{SITE.clientCount} happy travelers</span>
               <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">Certified local guides</span>
+              <span className="text-white/60 text-xs">Some of Morocco&apos;s finest guides</span>
               <span className="text-white/25 text-xs">·</span>
               <span className="text-white/60 text-xs">No hidden fees</span>
             </motion.div>
@@ -225,28 +225,33 @@ export default function Hero({ lang, dict }: Props) {
 
           {/* Trust strip */}
           <motion.div
-            className="mt-14 pt-6 border-t border-white/10 flex flex-wrap gap-x-8 gap-y-3"
+            className="mt-14 pt-6 border-t border-white/10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, ease, delay: 1.0 }}
           >
-            {[
-              { value: String(SITE.tourCount), label: "Adventures" },
-              { value: SITE.clientCount, label: "Travellers" },
-              { value: String(SITE.countryCount), label: "Countries" },
-              { value: "4.7", label: "Star Rating" },
-            ].map((s, i) => (
-              <motion.div
-                key={s.label}
-                className="flex items-baseline gap-2"
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease, delay: 1.05 + i * 0.08 }}
-              >
-                <span className="font-serif text-white text-xl font-bold">{s.value}</span>
-                <span className="text-white/65 text-xs font-medium">{s.label}</span>
-              </motion.div>
-            ))}
+            <div className="flex flex-wrap gap-x-8 gap-y-3">
+              {[
+                { value: String(SITE.tourCount), label: "Tours & Experiences" },
+                { value: SITE.clientCount, label: "Travellers" },
+                { value: `${SITE.experienceYears}+ yrs`, label: "Guiding Heritage" },
+                { value: "4.7", label: "Star Rating" },
+              ].map((s, i) => (
+                <motion.div
+                  key={s.label}
+                  className="flex items-baseline gap-2"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, ease, delay: 1.05 + i * 0.08 }}
+                >
+                  <span className="font-serif text-white text-xl font-bold">{s.value}</span>
+                  <span className="text-white/65 text-xs font-medium">{s.label}</span>
+                </motion.div>
+              ))}
+            </div>
+            <p className="text-white/30 text-[10px] mt-3 font-medium tracking-wide">
+              Tour count and availability vary by season and conditions.
+            </p>
           </motion.div>
         </div>
       </div>

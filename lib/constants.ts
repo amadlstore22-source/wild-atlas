@@ -10,7 +10,7 @@ export const SITE = {
   address: "Marrakech, Morocco",
   country: "MA",
   tourCount: "30+",
-  experienceYears: 14,
+  experienceYears: 30,
   clientCount: "1,000+",
   countryCount: "40+",
   foundedYear: 2010,

@@ -1323,6 +1323,251 @@ Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful,
 *This guide was written by the team at Marrakech Eco Tours. We're licensed Berber guides who have run tours in Morocco since 2010. If you have specific questions about a trip you're planning, [contact us directly](/en/contact) — we answer every message ourselves.*
     `,
   },
+  {
+    slug: "gite-panorama-imlil-base-camp-toubkal",
+    author: MET_TEAM,
+    title: "Gite Panorama Imlil: The Perfect Base Camp Before Toubkal",
+    excerpt:
+      "Perched above the village of Imlil with sweeping views of the High Atlas, Gite Panorama is where our Toubkal expeditions begin. Here's what you can expect — and why where you sleep the night before matters.",
+    heroImage:
+      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2025-05-12",
+    tags: ["Gite Panorama", "Imlil accommodation", "Toubkal base camp", "High Atlas gite", "where to stay Imlil", "Toubkal trek"],
+    seoTitle: "Gite Panorama Imlil — Toubkal Base Camp Guide",
+    seoDescription:
+      "Everything you need to know about Gite Panorama in Imlil — the Aitidar family's mountain gite and the starting point for all our Toubkal expeditions. Facilities, what to bring, and why the first night matters.",
+    content: `
+## Where Every Toubkal Trek Begins
+
+Before the summit. Before the rocky traverse above 3,000 m. Before the dawn starts and the Atlas turns from black to pale gold — there is the night in Imlil.
+
+Gite Panorama sits on the hillside above Imlil village, an hour's drive south of Marrakech into the High Atlas. It is our family's gite — Aitidar-owned, Aitidar-run — and it is where every Marrakech Eco Tours expedition to Toubkal and the surrounding massif begins and ends.
+
+We are not impartial. But we are honest: what happens the night before a serious trek matters more than most people expect.
+
+## Imlil: The Last Village Before the Mountain
+
+Imlil sits at 1,740 m, at the confluence of the Mizane and Rhirhaia river valleys. The surrounding peaks reach above 4,000 m. On a clear afternoon you can see the summit of Toubkal — North Africa's highest point — from the gite terrace.
+
+The village itself is small: a main lane of gites, mule handlers, equipment shops, and a few cafes that open at five in the morning because they know when trekkers leave. There is no motorised traffic beyond the car park at the edge of the trail system. The air is different here — cooler, thinner, and genuinely quiet after the Marrakech medina.
+
+## What Gite Panorama Offers
+
+The gite is built in traditional High Atlas style — stone walls, terrace rooms, views that open toward the massif. Facilities are straightforward and honest:
+
+**Accommodation:** Private and dormitory rooms, all with mountain views. Clean bedding, solid mattresses. You are here to sleep well before a hard day, not to Instagram a lobby.
+
+**Food:** A traditional Moroccan dinner each evening — harira, tagine, fresh bread, mint tea — and a solid breakfast: coffee, msemen, honey, olive oil, eggs, and enough to fuel you until the mountain refuge. Our cooks have been feeding trekkers for decades. They know the portions.
+
+**Terrace:** The view from the terrace at sunset, with the Atlas turning from brown to deep rose, is worth the drive from Marrakech alone. This is where most groups have their pre-trek briefing with the guide.
+
+**Kit storage:** Locked storage for anything you're leaving behind during the trek. No need to bring the whole bag up the mountain.
+
+**Wi-Fi:** Available in the common areas. We suggest using the evening for rest, not screens — but the connection is there.
+
+## Why the Night Before Matters
+
+A Toubkal summit attempt leaves before dawn — typically 4:30–5:00 am to catch the summit before afternoon weather builds and to descend before fatigue sets in seriously. That means sleep matters. It means not arriving in Imlil at midnight from a long flight, eating nothing, and expecting to perform at altitude the next morning.
+
+We build one full evening in Imlil into every Toubkal itinerary for this reason. Arrive in the afternoon. Walk the village. Eat dinner with your guide, who will brief you on the route, the weather forecast, and what to expect at each stage. Sleep. Wake before light. Walk.
+
+The trekkers who have the best summit experiences are almost always the ones who took the evening seriously.
+
+## Getting to Imlil
+
+From Marrakech, Imlil is approximately 60 km — about 90 minutes by road through the foothills of the Atlas, passing through Asni. Our transfers depart from central Marrakech and include a stop for any last-minute supplies.
+
+There is no public bus to Imlil that connects reliably to trekking departure times. Grand taxis from Asni exist but require coordination. Our transfer is included in all Toubkal tour packages.
+
+## Pricing
+
+Accommodation at Gite Panorama is included in the cost of all Marrakech Eco Tours Toubkal packages. For travellers arranging their own way to Imlil, the gite accepts independent bookings — typically €15–25 per person per night including dinner and breakfast, depending on season and room type.
+
+## A Note on the Family
+
+Gite Panorama is the base our father Lahsen built when he was among the first licensed Berber guides operating in the High Atlas. Smail and Mohamed grew up here — learning the mountain from the gate of this gite, walking the trails before they could name them, training under a man who had memorised every route by walking it hundreds of times.
+
+The gite is not a hotel. It is a working mountain operation that has been in one family for more than 30 years. That continuity is what makes it the right starting point for a serious mountain experience.
+
+*Ready to plan your Toubkal trek? [View the full itinerary here](/en/tours/toubkal-summit-trek-4day) or [contact us directly](/en/contact) to ask anything before booking.*
+    `,
+  },
+  {
+    slug: "morocco-for-moroccan-travellers-explore-your-own-country",
+    author: MET_TEAM,
+    title: "Morocco for Moroccans: Why Now Is the Best Time to Explore Your Own Country",
+    excerpt:
+      "From Casablanca to Toubkal. From Rabat to the Sahara. Millions of Moroccans have never climbed their own highest mountain or slept under their own desert sky. Here's why domestic adventure travel is having a moment — and where to start.",
+    heroImage:
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1600&q=85",
+    category: "culture",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2025-04-03",
+    tags: ["Morocco domestic travel", "Moroccan tourism", "Atlas Mountains Morocco", "Sahara Morocco", "travel Morocco", "Toubkal Moroccans"],
+    seoTitle: "Morocco for Moroccan Travellers — Domestic Adventure Guide",
+    seoDescription:
+      "A growing number of Moroccans are discovering their own country through guided adventure travel — the Atlas, the Sahara, the Atlantic gorges. Here's where to start and why it's different to see Morocco through a guide who knows it from the inside.",
+    content: `
+## The Country You Already Own
+
+There is a particular feeling that comes from standing at 4,167 m on Jbel Toubkal and looking south toward the Sahara, then north toward Marrakech. For most international visitors, it is wonder. For a Moroccan making the summit for the first time, it is something stranger and more personal: the realisation that you have been living next to something extraordinary and somehow never looked directly at it.
+
+We hear this from Moroccan guests regularly. "I grew up an hour from Imlil and never came." "I've been to Portugal three times but never to the Draa Valley." "My grandmother's village is in the Ourika Valley and I've never walked up past it."
+
+This is not unique to Morocco — people in every country are last to discover their own landscapes. But the gap here feels particularly worth closing, because what Morocco has to offer is genuinely extraordinary.
+
+## What's Changed
+
+Domestic adventure tourism has grown significantly in Morocco over the last five years. The reasons are layered:
+
+**Cost:** A weekend in the High Atlas costs a fraction of a flight to Europe. A three-day Sahara circuit from Marrakech is achievable on a teacher's or engineer's budget, especially when booked directly with an operator.
+
+**Pride:** There is an active cultural shift among younger Moroccans toward engaging with Amazigh heritage, Berber language, and the pre-urban Morocco that most city families left a generation or two ago. A guided trek through the High Atlas is increasingly understood as reconnection, not just recreation.
+
+**Quality of operators:** The standards of licensed mountain guiding in Morocco have improved substantially. A guided Toubkal summit attempt with a certified Berber guide is now a genuinely world-class experience — not because it has been packaged for foreigners, but because the people who know the mountain best are the ones leading it.
+
+## Where to Start
+
+### The High Atlas and Toubkal
+
+Toubkal (4,167 m) is the obvious starting point for any Moroccan who hasn't done it. The summit is achievable in two days for a reasonably fit person with no technical climbing experience. You do not need ropes, crampons (outside winter), or a background in mountaineering. You need good shoes, appropriate clothing, and a licensed guide who knows the route in every weather.
+
+The experience of ascending through Berber villages, spending a night at the Refuge du Toubkal, and standing above North Africa at dawn is not something most people — Moroccan or otherwise — forget. It is a reference point.
+
+For those who want more time in the mountains without the summit, the valleys of Ourika, Aït Bou Guemez, and the Mgoun massif offer multi-day treks through landscapes that most Moroccans have never visited despite being within a day's drive.
+
+### The Sahara
+
+The Sahara near Merzouga (Erg Chebbi) and M'hamid (Erg Chegaga) draws visitors from around the world. The route south — through Ouarzazate, the Draa Valley, the Todra and Dades gorges — is one of the great road journeys in Africa. Most Moroccans living in the north have never made it.
+
+A three-day circuit from Marrakech, with an overnight desert camp under the stars, is one of the most transformative short trips available in the country. The silence of the Sahara at night — genuine, total, without any traffic or electricity — is a thing most people have never encountered and do not expect to encounter within their own borders.
+
+### The Atlantic Coast
+
+Morocco's Atlantic coast from Agadir south to Sidi Ifni and Mirleft offers a completely different country: surf beaches, argan-forested hillsides, whitewashed fishing villages, and cliff-backed coves that feel nothing like the medinas of the north. The Anti-Atlas behind the coast adds another layer — arid red rock, pre-Saharan light, Amazigh villages that have changed very little in a century.
+
+This region is less visited by domestic tourists than the Atlas or Sahara and deserves more attention.
+
+## A Note on Guided vs Self-Guided
+
+We are a guided-tour operator and have an obvious interest in recommending guides. We'll say it anyway: for the Atlas and the Sahara especially, a licensed local guide is not just a convenience — it is a fundamentally different experience.
+
+The difference is not safety (though safety matters). It is knowledge. A Berber guide who grew up in the High Atlas knows which valley produces the best saffron, which village is known for a particular weaving tradition, why a certain route takes a specific turn at a specific stone. This is context you cannot read in a guidebook because it was never written down — it was passed, orally, from one generation of mountain families to the next.
+
+That knowledge is the product. The mountain is the setting.
+
+## Booking as a Moroccan Resident
+
+We work with Moroccan nationals on the same terms as international visitors. Pricing is listed on each tour page; there is no surcharge for Moroccan passports, and we offer the same cancellation policy and direct communication to everyone.
+
+If you have specific questions about a trip — best season for a particular route, what to bring, whether a route is suitable for your group's fitness level — [contact us directly](/en/contact). We respond to every message personally.
+
+The Atlas has been here for 300 million years. It will wait. But it is also worth not waiting too much longer.
+    `,
+  },
+  {
+    slug: "what-to-pack-high-atlas-trek-morocco",
+    author: MET_TEAM,
+    title: "What to Pack for a High Atlas Trek: The Complete Gear List (From Our Guides)",
+    excerpt:
+      "Our guides have led thousands of trekkers through the High Atlas. This is the gear list they actually use — not the one that sells you expensive things you don't need.",
+    heroImage:
+      "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2025-02-18",
+    tags: ["High Atlas packing list", "Toubkal gear list", "Morocco trekking gear", "what to pack Morocco", "Atlas Mountains equipment", "Toubkal packing"],
+    seoTitle: "High Atlas Trek Packing List — What to Bring for Toubkal & Atlas Treks",
+    seoDescription:
+      "The definitive packing list for High Atlas and Toubkal trekking, compiled by Berber guides who have led thousands of trekkers. What's essential, what's optional, and what to leave at home.",
+    content: `
+## The Short Version
+
+You have been looking at gear lists online. Some of them list 60 items. Our guides have watched a lot of people arrive with too much weight and the wrong things. Here is the shorter truth.
+
+The High Atlas is not the Himalayas. Toubkal (4,167 m) is a serious mountain but it is not a technical climb. You do not need specialist mountaineering equipment for summer and autumn treks. You need: good boots, warm layers, waterproofs, sun protection, and enough water capacity for a long day.
+
+Everything else is logistics.
+
+## Footwear — The Non-Negotiable
+
+**Trail boots (mid or high):** The single most important item. The terrain is rocky, uneven, and unforgiving to flat-soled shoes. You need ankle support, a proper sole with grip, and boots that have been broken in before the trek. New boots on the first day of a multi-day trek is one of the most reliable ways to make yourself miserable.
+
+**What works:** Merrell, Salomon, Scarpa, La Sportiva trail boots in the €100–€200 range. Waterproofing is useful but not essential in summer.
+
+**What doesn't:** Running shoes, approach shoes, fashion hiking boots that look the part but have no sole. Canvas shoes or trainers on Toubkal above the refuge will cause problems.
+
+**Socks:** Wool or synthetic hiking socks, minimum two pairs. Cotton kills feet on long days.
+
+## Clothing — Layer, Don't Bulk
+
+The key principle in the High Atlas is that temperatures change dramatically between valley floor and summit, and between morning and afternoon. You are managing a range from 30°C in the valley to -5°C or below at the summit (even in summer). Layering lets you respond to this.
+
+**Base layer (x2):** Synthetic or merino wool, not cotton. Cotton holds sweat and chills badly. Two tops lets you wash one and wear one.
+
+**Mid layer:** A fleece or lightweight down jacket. This is what you put on at the summit and at the refuge in the evening. Temperatures drop fast above 3,500 m.
+
+**Outer layer:** A waterproof shell. Afternoon thunderstorms are common in the Atlas in summer. This is not heavy rain — usually 20–40 minutes — but you want to be dry during it.
+
+**Trousers:** Lightweight hiking trousers that dry fast. Jeans are not appropriate — they take forever to dry and are heavy when wet.
+
+**Sun hat:** Required. Above 3,000 m, the UV index is significant. A hat with a brim protects your neck on the long exposed ridges above the refuge.
+
+**Gloves and hat:** Even in summer, bring them for the summit push. At 4,000 m+ at 5:30 am, you will be cold for the first two hours regardless of the forecast.
+
+## Backpack
+
+**Day pack (20–30L):** For the summit day. Light is fast. Don't bring more than you'll actually use during the day — your main luggage stays at the gite or refuge.
+
+**Hydration:** A 2L water bladder or two 1L bottles. There are sources on the route but running low on water at altitude is a serious problem. Don't rely on finding water.
+
+**Snacks and lunch:** Nuts, dried fruit, energy bars, dates. The Refuge du Toubkal serves meals but you want something accessible in your pack during the ascent.
+
+## Sun and Altitude
+
+**Sunscreen:** SPF 50, and more of it than you think. Altitude intensifies UV. Reapply every two hours.
+
+**Sunglasses:** Polarised, with UV400 protection. Not optional above 3,500 m. Glare off rock and (in winter/spring) snow is brutal.
+
+**Lip balm with SPF:** Your lips will crack at altitude without it.
+
+**Headlamp:** Essential for early summit starts. Bring spare batteries.
+
+## What Not to Bring
+
+**Trekking poles:** Optional for most trekkers. Useful on the descent from Toubkal if your knees feel it. Not essential.
+
+**Sleeping bag:** We provide blankets at the refuge and at Gite Panorama. You don't need to carry a sleeping bag for our standard Toubkal packages.
+
+**Too much food:** Your guide will sort this. You don't need to bring a week's supplies for a two-day trek.
+
+**Expensive camera gear:** The light is extraordinary but the trail is hard on knees and shoulders. A phone camera is adequate for most people; if you bring a DSLR or mirrorless, make sure it's in a padded case inside the pack.
+
+## For Winter and Spring Treks (November–April)
+
+If you're trekking Toubkal in winter, the calculus changes significantly. Snow and ice are standard above 2,500 m from December to March. You will need:
+
+- **Microspikes or crampons:** Essential on the Toubkal summit cone in winter. We provide these for all winter packages.
+- **Ice axe:** Required for the full technical winter ascent. We carry and manage ice axes for groups.
+- **Warmer sleeping kit:** The refuge is heated but cold. A sleeping bag liner helps.
+- **Warmer base layers and mid layers:** The summit in January can be -20°C with wind chill.
+
+If you're booking a winter trek, discuss the specifics with your guide before departure. Weather windows matter more in winter and we adjust departure times accordingly.
+
+## The One Thing People Always Forget
+
+**Moleskin or blister prevention kit.** Every trek, someone gets a blister they didn't predict. Bring Compeed patches and apply them at the first sign of friction — not after the blister has formed. A small first aid kit with paracetamol, ibuprofen, and antihistamine rounds this out.
+
+## Questions?
+
+If you're unsure about any item, [contact us before your trek](/en/contact). Our guides review the specific requirements for each tour and will flag anything you should add or remove based on your itinerary and the time of year. We'd rather answer questions now than have someone arrive unprepared.
+    `,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

@@ -24,7 +24,7 @@ export default function ContactForm() {
         </div>
         <h3 className="font-serif text-charcoal text-2xl font-bold mb-2">Message Sent!</h3>
         <p className="text-charcoal/60">
-          Thank you, <strong>{form.name}</strong>. We&apos;ll reply to <strong>{form.email}</strong> — email responses may take up to 48 hours. For faster replies, message us on WhatsApp.
+          Thank you, <strong>{form.name}</strong>. We&apos;ll reply to <strong>{form.email}</strong> — WhatsApp replies come within 24 hours, email may take a little longer.
         </p>
       </div>
     );

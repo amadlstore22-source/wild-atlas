@@ -25,12 +25,12 @@ export const GUIDES: Guide[] = [
     role: "Co-founder & Lead Guide",
     photo: null, // TODO: drop /public/images/guides/smail.jpg (600×600 px, face centred)
     certificationNumber: null, // TODO: Nn to confirm official ONMT / FRMGT guide number
-    yearsGuiding: 14,
+    yearsGuiding: 30,
     languages: ["Arabic", "Berber (Tachelhit)", "French", "English", "Spanish"],
     regions: ["High Atlas", "Sahara", "Draa Valley", "Marrakech Medina"],
     specialties: ["High-altitude trekking", "Toubkal summit", "Multi-day traverses", "Desert expeditions"],
     shortBio:
-      "Born in the foothills of the High Atlas, Smail grew up walking the routes he now leads. He co-founded Marrakech Eco Tours in 2010 after years guiding alongside his father.",
+      "Born in the foothills of the High Atlas, Smail grew up walking the routes he now leads — part of a family guiding tradition that stretches back more than 30 years. He co-founded Marrakech Eco Tours in 2010, building on his father Lahsen's legacy.",
     longBio: `Smail Aitidar was raised in a village on the southern slopes of the High Atlas, where the paths to Toubkal begin. His father, Lahsen, was among the first licensed Berber guides in the region, and Smail walked those routes before he could read a map.
 
 By his twenties he had summited Toubkal more than a hundred times across every season — spring snowfields, summer stone fields, autumn mist, and winter ice. In 2010, he and his brother Mohamed formalised what had always been a family vocation, founding Marrakech Eco Tours and building it into the operation it is today.
@@ -51,7 +51,7 @@ His guiding philosophy: "A guide's job is not to show people the mountain. It is
     role: "Co-founder & Cultural Guide",
     photo: null, // TODO: drop /public/images/guides/mohamed.jpg (600×600 px, face centred)
     certificationNumber: null, // TODO: Nn to confirm official guide number
-    yearsGuiding: 14,
+    yearsGuiding: 30,
     languages: ["Arabic", "Berber (Tachelhit)", "French", "English", "German"],
     regions: ["Marrakech Medina", "Imperial Cities", "Atlas Foothills", "Agadir & Anti-Atlas"],
     specialties: ["Cultural & heritage tours", "Imperial cities", "Agadir region", "Food & spice routes"],

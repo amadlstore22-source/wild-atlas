@@ -22,7 +22,7 @@
     "planCustom": "Plan Custom Trip"
   },
   "trustBar": {
-    "certified": "Certified Local Guides",
+    "certified": "Years Guiding Heritage",
     "smallGroups": "Private & Custom Groups",
     "ecoFriendly": "Eco-Friendly",
     "support": "24/7 Support",
@@ -171,7 +171,7 @@
     "phone": "WhatsApp / Phone",
     "basedIn": "Based in",
     "responseTime": "Response time",
-    "responseValue": "WhatsApp: within 48 hrs · Email: may take longer",
+    "responseValue": "WhatsApp: within 24 hrs · Email: may take longer",
     "faqTitle": "Frequently Asked Questions",
     "formName": "Full Name",
     "formEmail": "Email Address",
@@ -183,7 +183,7 @@
     "formError": "Something went wrong. Please try again or WhatsApp us directly."
   },
   "footer": {
-    "tagline": "Licensed Moroccan tour operator — certified local guides, small groups, eco-conscious adventures since 2012.",
+    "tagline": "Licensed Moroccan tour operator — expert local guides, small groups, eco-conscious adventures since 2010.",
     "quickLinks": "Company",
     "explore": "Adventures",
     "destinations": "Destinations",

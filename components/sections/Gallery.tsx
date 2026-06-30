@@ -12,6 +12,10 @@ const PHOTOS = [
   { src: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=800&q=85", alt: "Fes tanneries colourful dye vats Morocco", span: "col-span-1 row-span-2" },
   { src: "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=85", alt: "Essaouira blue fishing boats Atlantic coast Morocco" },
   { src: "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=85", alt: "The blue-washed streets of Chefchaouen in the Rif Mountains" },
+  { src: "/gallery/IMG_20260616_142350.jpg", alt: "Imlil valley village with mosque minaret among walnut trees, High Atlas Morocco" },
+  { src: "/gallery/IMG_20260616_142428.jpg", alt: "Snow-dusted Toubkal peak above a Berber village, seen from a traditional riad terrace" },
+  { src: "/gallery/IMG_20260630_142847.jpg", alt: "Atlas mountain waterfall cascading through dark volcanic rock faces, High Atlas Morocco" },
+  { src: "/gallery/IMG_20260630_142912.jpg", alt: "Blue-hour view of a Berber village below snow-capped High Atlas peaks near Toubkal", span: "col-span-1 row-span-2" },
 ];
 
 interface Props {

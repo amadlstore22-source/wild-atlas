@@ -76,7 +76,7 @@ const DESTINATIONS: Destination[] = [
       "Camel trekking at sunrise & sunset",
       "Authentic Berber nomadic desert camps",
       "Milky Way stargazing in absolute silence",
-      "Quad biking & 4×4 desert excursions",
+      "Quad biking & 4x4 desert excursions",
     ],
     category: "Desert",
     slug: "desert",
@@ -206,13 +206,83 @@ function makePinEl(dest: Destination): HTMLDivElement {
   return el;
 }
 
+function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
+  return (
+    <div style={{ padding: "14px 16px 20px" }}>
+      <span
+        style={{
+          display: "inline-block",
+          background: dest.color + "18",
+          color: dest.color,
+          border: `1px solid ${dest.color}44`,
+          borderRadius: 999,
+          padding: "2px 10px",
+          fontSize: 10,
+          fontWeight: 700,
+          textTransform: "uppercase",
+          letterSpacing: "0.1em",
+          marginBottom: 8,
+        }}
+      >
+        {dest.category}
+      </span>
+      <h3 style={{ fontSize: 18, fontWeight: 700, color: "#181818", margin: "0 0 2px", lineHeight: 1.2 }}>
+        {dest.name}
+      </h3>
+      <p style={{ fontSize: 12, color: "#999", margin: "0 0 8px" }}>{dest.subtitle}</p>
+      <p style={{ fontSize: 12.5, color: "#555", lineHeight: 1.58, margin: "0 0 12px" }}>{dest.description}</p>
+      <p
+        style={{
+          fontSize: 10,
+          fontWeight: 700,
+          textTransform: "uppercase",
+          letterSpacing: "0.12em",
+          color: "#aaa",
+          margin: "0 0 6px",
+        }}
+      >
+        Known for
+      </p>
+      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 5 }}>
+        {dest.known.map((item, i) => (
+          <li
+            key={i}
+            style={{ display: "flex", alignItems: "flex-start", gap: 7, fontSize: 12, color: "#444", lineHeight: 1.45 }}
+          >
+            <span style={{ color: dest.color, flexShrink: 0, fontSize: 9, marginTop: 2 }}>&#9658;</span>
+            {item}
+          </li>
+        ))}
+      </ul>
+      <a
+        href={`/${lang}/destinations/${dest.destSlug}`}
+        style={{
+          display: "block",
+          marginTop: 14,
+          padding: "9px 0",
+          background: dest.color,
+          color: "#fff",
+          borderRadius: 10,
+          textAlign: "center",
+          fontSize: 13,
+          fontWeight: 600,
+          textDecoration: "none",
+          letterSpacing: "0.02em",
+        }}
+      >
+        Browse {dest.category} tours &rarr;
+      </a>
+    </div>
+  );
+}
+
 export default function ToursMap({ lang }: { lang: Locale }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const pinEls = useRef<Record<string, HTMLDivElement>>({});
   const [selected, setSelected] = useState<Destination | null>(null);
+  const mobileCardRef = useRef<HTMLDivElement>(null);
 
-  // Initialise map once on mount
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
@@ -294,6 +364,15 @@ export default function ToursMap({ lang }: { lang: Locale }) {
     });
   }, [selected]);
 
+  // Scroll mobile info card into view when a destination is selected
+  useEffect(() => {
+    if (selected && mobileCardRef.current && window.innerWidth < 1024) {
+      setTimeout(() => {
+        mobileCardRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }, 150);
+    }
+  }, [selected]);
+
   const pick = (dest: Destination) => {
     const next = selected?.id === dest.id ? null : dest;
     setSelected(next);
@@ -317,13 +396,16 @@ export default function ToursMap({ lang }: { lang: Locale }) {
       <style>{`
         .maplibregl-ctrl-attrib { font-size: 9px !important; }
         .maplibregl-ctrl-group { border-radius: 8px !important; overflow: hidden; }
-        .dest-panel::-webkit-scrollbar { display: none; }
+        .dest-scroll::-webkit-scrollbar { display: none; }
+        .dest-row { background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.05); width: 100%; text-align: left; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 11px 16px; }
+        .dest-row:hover { background: rgba(255,255,255,0.05) !important; }
+        .mob-chips::-webkit-scrollbar { display: none; }
       `}</style>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <h2
             className="font-serif text-white font-bold mb-3"
             style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.8rem)" }}
@@ -331,44 +413,179 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             Where the Adventures Happen
           </h2>
           <p className="text-white/40 text-sm max-w-sm mx-auto">
-            Tap any pin to explore what each destination is known for.
+            Select a destination to explore what it has to offer.
           </p>
         </div>
 
-        {/* Map canvas */}
-        <div
-          className="relative rounded-3xl overflow-hidden shadow-2xl"
-          style={{ height: "clamp(480px, 58vw, 660px)" }}
-        >
-          <div ref={containerRef} className="absolute inset-0" />
+        {/* Outer shell: stacks on mobile, side-by-side on desktop */}
+        <div className="flex flex-col lg:flex-row rounded-3xl overflow-hidden shadow-2xl">
 
-          {/* Info panel */}
-          {selected && (
-            <div
-              className="dest-panel"
-              style={{
-                position: "absolute",
-                top: 12,
-                right: 12,
-                width: "min(316px, calc(100% - 24px))",
-                maxHeight: "calc(100% - 24px)",
-                overflowY: "auto",
-                zIndex: 1001,
-                background: "#fff",
-                borderRadius: 16,
-                boxShadow: "0 8px 48px rgba(0,0,0,0.5)",
-                scrollbarWidth: "none",
-              }}
-            >
-              {/* Close */}
+          {/* Desktop sidebar — hidden on mobile */}
+          <div
+            className="hidden lg:flex flex-col w-[288px] shrink-0 overflow-hidden"
+            style={{ background: "#08100a", borderRight: "1px solid rgba(255,255,255,0.07)", height: 560 }}
+          >
+            {selected ? (
+              /* Detail view */
+              <div className="flex flex-col h-full overflow-hidden">
+                <button
+                  onClick={() => pick(selected)}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 6,
+                    padding: "10px 16px",
+                    fontSize: 12,
+                    fontWeight: 600,
+                    color: "rgba(255,255,255,0.45)",
+                    background: "none",
+                    border: "none",
+                    borderBottom: "1px solid rgba(255,255,255,0.06)",
+                    cursor: "pointer",
+                    flexShrink: 0,
+                    textAlign: "left",
+                  }}
+                >
+                  &larr; All destinations
+                </button>
+                <div style={{ height: 140, overflow: "hidden", flexShrink: 0 }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={selected.image}
+                    alt={selected.name}
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                  />
+                </div>
+                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
+                  <DetailBody dest={selected} lang={lang} />
+                </div>
+              </div>
+            ) : (
+              /* List view */
+              <div className="flex flex-col h-full overflow-hidden">
+                <div
+                  style={{
+                    padding: "10px 16px",
+                    fontSize: 10,
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.12em",
+                    color: "rgba(255,255,255,0.28)",
+                    borderBottom: "1px solid rgba(255,255,255,0.06)",
+                    flexShrink: 0,
+                  }}
+                >
+                  {DESTINATIONS.length} Destinations
+                </div>
+                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
+                  {DESTINATIONS.map((dest) => (
+                    <button key={dest.id} className="dest-row" onClick={() => pick(dest)}>
+                      <span
+                        style={{
+                          width: 9,
+                          height: 9,
+                          borderRadius: "50%",
+                          background: dest.color,
+                          flexShrink: 0,
+                          display: "block",
+                        }}
+                      />
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div style={{ color: "#fff", fontSize: 13, fontWeight: 600, lineHeight: 1.3 }}>
+                          {dest.name}
+                        </div>
+                        <div
+                          style={{
+                            color: "rgba(255,255,255,0.36)",
+                            fontSize: 11,
+                            lineHeight: 1.3,
+                            marginTop: 1,
+                          }}
+                        >
+                          {dest.subtitle}
+                        </div>
+                      </div>
+                      <span style={{ color: "rgba(255,255,255,0.22)", fontSize: 18, flexShrink: 0, lineHeight: 1 }}>
+                        ›
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Map canvas — single ref, responsive height */}
+          <div className="relative flex-1 h-[360px] lg:h-[560px]">
+            <div ref={containerRef} className="absolute inset-0" />
+          </div>
+        </div>
+
+        {/* Mobile: horizontal scrollable chips */}
+        <div
+          className="mob-chips lg:hidden flex overflow-x-auto gap-2 mt-4 pb-1 -mx-4 px-4"
+          style={{ scrollbarWidth: "none" }}
+        >
+          {DESTINATIONS.map((dest) => {
+            const active = selected?.id === dest.id;
+            return (
+              <button
+                key={dest.id}
+                onClick={() => pick(dest)}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 6,
+                  padding: "6px 14px",
+                  borderRadius: 999,
+                  border: `1.5px solid ${active ? dest.color : "rgba(255,255,255,0.12)"}`,
+                  background: active ? dest.color + "22" : "rgba(255,255,255,0.05)",
+                  color: active ? "#fff" : "rgba(255,255,255,0.55)",
+                  fontSize: 12,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  whiteSpace: "nowrap",
+                  flexShrink: 0,
+                  transition: "all 0.15s ease",
+                }}
+              >
+                <span
+                  style={{
+                    width: 7,
+                    height: 7,
+                    borderRadius: "50%",
+                    background: dest.color,
+                    flexShrink: 0,
+                    display: "inline-block",
+                  }}
+                />
+                {dest.name}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Mobile: info card below chips */}
+        {selected && (
+          <div
+            ref={mobileCardRef}
+            className="lg:hidden mt-3 rounded-2xl overflow-hidden shadow-xl"
+            style={{ background: "#fff" }}
+          >
+            <div style={{ position: "relative" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={selected.image}
+                alt={selected.name}
+                style={{ width: "100%", height: 160, objectFit: "cover", display: "block" }}
+              />
               <button
                 onClick={() => pick(selected)}
-                aria-label="Close panel"
+                aria-label="Close"
                 style={{
                   position: "absolute",
                   top: 8,
                   right: 8,
-                  zIndex: 2,
                   width: 28,
                   height: 28,
                   borderRadius: "50%",
@@ -383,162 +600,12 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                   lineHeight: 1,
                 }}
               >
-                ×
+                &times;
               </button>
-
-              {/* Hero image */}
-              <div style={{ height: 158, overflow: "hidden", borderRadius: "16px 16px 0 0" }}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={selected.image}
-                  alt={selected.name}
-                  style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-                />
-              </div>
-
-              {/* Body */}
-              <div style={{ padding: "14px 18px 20px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    background: selected.color + "18",
-                    color: selected.color,
-                    border: `1px solid ${selected.color}44`,
-                    borderRadius: 999,
-                    padding: "2px 10px",
-                    fontSize: 10,
-                    fontWeight: 700,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.1em",
-                    marginBottom: 8,
-                  }}
-                >
-                  {selected.category}
-                </span>
-
-                <h3
-                  style={{
-                    fontSize: 19,
-                    fontWeight: 700,
-                    color: "#181818",
-                    margin: "0 0 2px",
-                    fontFamily: "var(--font-cormorant, Georgia, serif)",
-                    lineHeight: 1.2,
-                  }}
-                >
-                  {selected.name}
-                </h3>
-                <p style={{ fontSize: 12, color: "#999", margin: "0 0 9px" }}>
-                  {selected.subtitle}
-                </p>
-                <p style={{ fontSize: 12.5, color: "#555", lineHeight: 1.58, margin: "0 0 13px" }}>
-                  {selected.description}
-                </p>
-
-                <p
-                  style={{
-                    fontSize: 10,
-                    fontWeight: 700,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.12em",
-                    color: "#aaa",
-                    margin: "0 0 7px",
-                  }}
-                >
-                  Known for
-                </p>
-                <ul
-                  style={{
-                    margin: 0,
-                    padding: 0,
-                    listStyle: "none",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 6,
-                  }}
-                >
-                  {selected.known.map((item, i) => (
-                    <li
-                      key={i}
-                      style={{
-                        display: "flex",
-                        alignItems: "flex-start",
-                        gap: 7,
-                        fontSize: 12,
-                        color: "#444",
-                        lineHeight: 1.45,
-                      }}
-                    >
-                      <span
-                        style={{ color: selected.color, flexShrink: 0, fontSize: 9, marginTop: 2 }}
-                      >
-                        ▸
-                      </span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-
-                <a
-                  href={`/${lang}/destinations/${selected.destSlug}`}
-                  style={{
-                    display: "block",
-                    marginTop: 15,
-                    padding: "10px 0",
-                    background: selected.color,
-                    color: "#fff",
-                    borderRadius: 10,
-                    textAlign: "center",
-                    fontSize: 13,
-                    fontWeight: 600,
-                    textDecoration: "none",
-                    letterSpacing: "0.02em",
-                  }}
-                >
-                  Browse {selected.category} tours →
-                </a>
-              </div>
             </div>
-          )}
-        </div>
-
-        {/* Destination chips */}
-        <div className="flex flex-wrap justify-center gap-2 mt-6">
-          {DESTINATIONS.map((dest) => {
-            const active = selected?.id === dest.id;
-            return (
-              <button
-                key={dest.id}
-                onClick={() => pick(dest)}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 6,
-                  padding: "5px 14px",
-                  borderRadius: 999,
-                  border: `1.5px solid ${active ? dest.color : "rgba(255,255,255,0.12)"}`,
-                  background: active ? dest.color + "22" : "rgba(255,255,255,0.05)",
-                  color: active ? "#fff" : "rgba(255,255,255,0.48)",
-                  fontSize: 12,
-                  fontWeight: 600,
-                  cursor: "pointer",
-                  transition: "all 0.15s ease",
-                }}
-              >
-                <span
-                  style={{
-                    width: 7,
-                    height: 7,
-                    borderRadius: "50%",
-                    background: dest.color,
-                    flexShrink: 0,
-                  }}
-                />
-                {dest.name}
-              </button>
-            );
-          })}
-        </div>
+            <DetailBody dest={selected} lang={lang} />
+          </div>
+        )}
       </div>
     </section>
   );

@@ -4,7 +4,8 @@ import AnimateInView from "@/components/ui/AnimateInView";
 
 export default async function TrailConditions() {
   const { events, error } = await fetchMoroccoEvents();
-  const level = error ? "advisory" : getAlertLevel(events);
+  if (error) return null;
+  const level = getAlertLevel(events);
 
   const statusColors = {
     clear: {
@@ -26,8 +27,6 @@ export default async function TrailConditions() {
       ? "No active alerts in the region"
       : level === "warning"
       ? `${events.length} active alert${events.length !== 1 ? "s" : ""} — confirm route with your guide`
-      : error
-      ? "Conditions data temporarily unavailable"
       : `${events.length} advisory event${events.length !== 1 ? "s" : ""} in the region`;
 
   return (
@@ -84,9 +83,7 @@ export default async function TrailConditions() {
                 </>
               ) : (
                 <p className="text-charcoal/50 text-sm leading-relaxed">
-                  {error
-                    ? "We're unable to retrieve live conditions data right now. For the latest trail conditions, contact us directly before your departure."
-                    : "No significant natural events reported in Morocco and the surrounding region in the past 14 days. Conditions currently look favourable for trekking and travel."}
+                  No significant natural events reported in Morocco and the surrounding region in the past 14 days. Conditions currently look favourable for trekking and travel.
                 </p>
               )}
             </div>

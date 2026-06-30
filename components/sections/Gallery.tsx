@@ -1,8 +1,6 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Camera } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import { ArrowRight, Camera } from "@phosphor-icons/react/dist/ssr";
 import AnimateInView from "@/components/ui/AnimateInView";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -20,8 +18,6 @@ interface Props {
   dict: Dictionary;
   lang?: Locale;
 }
-
-const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function Gallery({ dict, lang = "en" }: Props) {
   return (
@@ -50,20 +46,11 @@ export default function Gallery({ dict, lang = "en" }: Props) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
           {PHOTOS.map((photo, i) => (
-            <motion.div
+            <div
               key={i}
               className={`relative overflow-hidden rounded-2xl group cursor-pointer ${photo.span ?? ""}`}
-              initial={{ opacity: 0, scale: 0.94, y: 16 }}
-              whileInView={{ opacity: 1, scale: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.08 }}
-              transition={{ duration: 0.65, ease, delay: i * 0.07 }}
-              whileHover={{ scale: 1.01 }}
             >
-              <motion.div
-                className="absolute inset-0"
-                whileHover={{ scale: 1.07 }}
-                transition={{ duration: 0.65, ease }}
-              >
+              <div className="absolute inset-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]">
                 <Image
                   src={photo.src}
                   alt={photo.alt}
@@ -71,30 +58,18 @@ export default function Gallery({ dict, lang = "en" }: Props) {
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, 33vw"
                 />
-              </motion.div>
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-              <motion.div
-                className="absolute inset-0 bg-black/0"
-                whileHover={{ backgroundColor: "rgba(0,0,0,0.18)" }}
-                transition={{ duration: 0.3 }}
-              />
-              <motion.div
-                className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm"
-                initial={{ opacity: 0, scale: 0.7 }}
-                whileHover={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.2 }}
-              >
+              <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
+              <div className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm opacity-0 scale-75 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100">
                 <Camera className="w-3.5 h-3.5 text-white" />
-              </motion.div>
-              <motion.div
-                className="absolute bottom-0 left-0 right-0 p-4"
-                initial={{ y: "100%" }}
-                whileHover={{ y: 0 }}
-                transition={{ duration: 0.35, ease }}
-              >
-                <p className="text-white text-xs font-medium leading-snug line-clamp-2 drop-shadow-lg">{photo.alt}</p>
-              </motion.div>
-            </motion.div>
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full transition-transform duration-[350ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-y-0">
+                <p className="text-white text-xs font-medium leading-snug line-clamp-2 drop-shadow-lg">
+                  {photo.alt}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </div>

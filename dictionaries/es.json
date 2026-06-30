@@ -201,6 +201,16 @@
     "viewAll": "Ver todas las noticias",
     "source": "Vía"
   },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Tu aventura en 3 simples pasos",
+    "step1Title": "Explorar & Elegir",
+    "step1Desc": "Explora más de 30 tours seleccionados por el Atlas, el Sáhara y las ciudades imperiales de Marruecos.",
+    "step2Title": "Reservar con depósito",
+    "step2Desc": "Asegura tu lugar online con un pequeño depósito. Cancelación gratuita hasta 14 días antes.",
+    "step3Title": "Llegar & Explorar",
+    "step3Desc": "Nos encargamos de todo — transporte, alojamiento, guías expertos. Solo trae tu espíritu de aventura."
+  },
   "common": {
     "home": "Inicio",
     "tours": "Tours",

@@ -13,6 +13,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import OurStory from "@/components/sections/OurStory";
 import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
+import HowItWorks from "@/components/sections/HowItWorks";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import TrailConditions from "@/components/sections/TrailConditions";
@@ -120,6 +121,7 @@ export default async function HomePage({ params }: LangParams) {
       <Hero lang={lang} dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
       <TrustBar dict={dict} />
+      <HowItWorks dict={dict} />
       <CategoryGrid dict={dict} lang={lang} />
       <ActivityScenes lang={lang} />
       <WhyUs dict={dict} />

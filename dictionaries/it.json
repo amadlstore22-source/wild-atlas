@@ -201,6 +201,16 @@
     "viewAll": "Vedi tutte le notizie",
     "source": "Via"
   },
+  "howItWorks": {
+    "eyebrow": "Come funziona",
+    "title": "La tua avventura in 3 semplici passi",
+    "step1Title": "Sfoglia & Scegli",
+    "step1Desc": "Esplora oltre 30 tour selezionati attraverso l'Atlante, il Sahara e le città imperiali del Marocco.",
+    "step2Title": "Prenota con caparra",
+    "step2Desc": "Assicura il tuo posto online con una piccola caparra. Cancellazione gratuita fino a 14 giorni prima.",
+    "step3Title": "Arriva & Esplora",
+    "step3Desc": "Pensiamo a tutto noi — trasporto, alloggio, guide esperte. Porta solo il tuo spirito d'avventura."
+  },
   "common": {
     "home": "Home",
     "tours": "Tour",

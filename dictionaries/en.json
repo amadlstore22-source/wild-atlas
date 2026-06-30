@@ -204,6 +204,16 @@
     "viewAll": "See All News",
     "source": "Via"
   },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "title": "Your Adventure in 3 Simple Steps",
+    "step1Title": "Browse & Choose",
+    "step1Desc": "Explore 30+ curated tours across the Atlas, Sahara, and Morocco's imperial cities.",
+    "step2Title": "Book with a Deposit",
+    "step2Desc": "Secure your spot online with a small deposit. Free cancellation up to 14 days before.",
+    "step3Title": "Show Up & Explore",
+    "step3Desc": "We handle everything — transport, accommodation, expert guides. Just bring your sense of adventure."
+  },
   "common": {
     "home": "Home",
     "tours": "Tours",

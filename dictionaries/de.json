@@ -11,7 +11,7 @@
     "eyebrow": "Marokko & Darüber Hinaus",
     "headline1": "Wo Abenteuer",
     "headline2": "auf Wildnis Trifft",
-    "subheadline": "Expertengeführtes Trekking, Wüstentouren und kulturelle Abenteuer — tief ins Atlas-Gebirge, die Sahara und darüber hinaus.",
+    "subheadline": "Expertengeführtes Trekking, Wüstentouren und kulturelle Abenteuer tief ins Atlas-Gebirge, die Sahara und darüber hinaus.",
     "trustLine": "{tourCount} Touren ab Marrakesch & Agadir · Vertraut von {clientCount} Abenteurern",
     "searchPlaceholder": "Touren, Reiseziele suchen...",
     "allTours": "Alle Touren",
@@ -30,7 +30,7 @@
   },
   "categories": {
     "title": "Nach Kategorie erkunden",
-    "subtitle": "Von Hochgebirgstrekkings bis zu kulturellen Medina-Spaziergängen — finden Sie Ihr perfektes Marokko-Erlebnis.",
+    "subtitle": "Von Hochgebirgstrekkings bis zu kulturellen Medina-Spaziergängen. Finden Sie Ihr perfektes Marokko-Erlebnis.",
     "trekking": "Trekking",
     "hiking": "Wandern",
     "desert": "Wüste",
@@ -66,14 +66,14 @@
     },
     "responsive": {
       "title": "Schnelle, menschliche Unterstützung",
-      "desc": "WhatsApp-Antworten innerhalb von 24 Stunden — oft viel schneller. E-Mails können etwas länger dauern. Echte Menschen, immer erreichbar."
+      "desc": "WhatsApp-Antworten innerhalb von 24 Stunden, oft viel schneller. E-Mails können etwas länger dauern. Echte Menschen, immer erreichbar."
     }
   },
   "ourStory": {
     "eyebrow": "Unsere Geschichte",
     "title": "Im Atlas geboren",
-    "body1": "Diese Geschichte begann nicht mit uns. Unser Vater, Lahsen Aitidar, gehörte zu den ersten lizenzierten Berber-Bergführern im Hohen Atlas — er führte Wanderer durch den Toubkal und die Atlastäler, lange bevor Marokko eine formelle Tourismusindustrie hatte. Er lernte jede Route, indem er sie beging, und lehrte uns auf dieselbe Weise.",
-    "body2": "Wir — Smail und Mohamed — wuchsen auf diesen Wegen auf. Im Jahr 2010 formalisierten wir das, was immer eine Familienberufung war: Aufbau einer echten Tourismusoperation auf dem Fundament unseres Vaters, Erweiterung der Routen und des Servicestandards — ohne jemals von dem Prinzip abzuweichen, nach dem er lebte. Jeden Gast behandeln wie die eigene Familie.",
+    "body1": "Diese Geschichte begann nicht mit uns. Unser Vater, Lahsen Aitidar, gehörte zu den ersten lizenzierten Berber-Bergführern im Hohen Atlas, führte Wanderer durch den Toubkal und die Atlastäler, lange bevor Marokko eine formelle Tourismusindustrie hatte. Er lernte jede Route, indem er sie beging, und lehrte uns auf dieselbe Weise.",
+    "body2": "Smail und Mohamed wuchsen auf diesen Wegen auf. Im Jahr 2010 formalisierten sie das, was immer eine Familienberufung war: Aufbau einer echten Tourismusoperation auf dem Fundament ihres Vaters, Erweiterung der Routen und des Servicestandards, ohne jemals von dem Prinzip abzuweichen, nach dem er lebte. Jeden Gast behandeln wie die eigene Familie.",
     "stat1Label": "Jahre als Reiseführer",
     "stat2Label": "Glückliche Abenteurer",
     "stat3Label": "Verfügbare Touren",
@@ -90,12 +90,12 @@
   "gallery": {
     "eyebrow": "Marokkos Landschaften",
     "title": "Marokko durch unsere Linse",
-    "subtitle": "Marokkos beeindruckendste Landschaften — wie auf unseren Touren erlebt."
+    "subtitle": "Marokkos beeindruckendste Landschaften, wie auf unseren Touren erlebt."
   },
   "cta": {
     "eyebrow": "Bereit zu erkunden?",
     "title": "Planen Sie Ihr perfektes Marokko-Abenteuer",
-    "subtitle": "Entdecken Sie alle {tourCount} Touren ab Marrakesch und Agadir — oder sagen Sie uns Ihren Traum und wir gestalten die Reise um Sie herum.",
+    "subtitle": "Entdecken Sie alle {tourCount} Touren ab Marrakesch und Agadir. Sagen Sie uns Ihren Traum und wir gestalten die Reise um Sie herum.",
     "browseAll": "Alle Touren ansehen",
     "whatsapp": "WhatsApp",
     "customTrip": "Individuelle Reise",
@@ -120,7 +120,7 @@
     "toursFound": "{count} Tour gefunden",
     "toursFoundPlural": "{count} Touren gefunden",
     "customBannerTitle": "Reisen Sie mit einer großen Gruppe oder möchten Sie ein vollständig individuelles Reiseprogramm?",
-    "customBannerDesc": "Wir erstellen maßgeschneiderte Pläne für private Gruppen jeder Größe — von 2 bis 200. Teilen Sie uns Ihre Daten, Interessen und Ihr Budget mit.",
+    "customBannerDesc": "Wir erstellen maßgeschneiderte Pläne für private Gruppen jeder Größe, von 2 bis 200. Teilen Sie uns Ihre Daten, Interessen und Ihr Budget mit.",
     "planCustomTrip": "Individuelle Reise planen"
   },
   "tourDetail": {
@@ -130,7 +130,7 @@
     "included": "Inbegriffen",
     "notIncluded": "Nicht inbegriffen",
     "planYourTrip": "Planen Sie Ihre Marokko-Reise",
-    "sidebarDesc": "Alle Touren ab Marrakesch und Agadir — von Tagesausflügen bis zu 7-Tage-Expeditionen.",
+    "sidebarDesc": "Alle Touren ab Marrakesch und Agadir, von Tagesausflügen bis zu 7-Tage-Expeditionen.",
     "browseAllTours": "Alle Touren ansehen",
     "planCustomTrip": "Individuelle Reise",
     "relatedArticles": "Verwandte Artikel",
@@ -151,7 +151,7 @@
     "noArticles": "Noch keine Artikel in dieser Kategorie.",
     "viewAll": "Alle Artikel ansehen",
     "readyTitle": "Bereit, Marokko zu erleben?",
-    "readyDesc": "Entdecken Sie alle Touren ab Marrakesch und Agadir — von halbtägigen Ausflügen bis zu 7-tägigen Bergexpeditionen.",
+    "readyDesc": "Entdecken Sie alle Touren ab Marrakesch und Agadir, von halbtägigen Ausflügen bis zu 7-tägigen Bergexpeditionen.",
     "browseAll": "Alle Touren ansehen",
     "article": "Artikel",
     "articles": "Artikel",
@@ -179,7 +179,7 @@
     "formTour": "Gewünschte Tour",
     "formMessage": "Ihre Nachricht",
     "formSubmit": "Nachricht senden",
-    "formSuccess": "Nachricht gesendet! Für eine schnellere Antwort schreiben Sie uns auf WhatsApp — E-Mail-Antworten können etwas länger dauern.",
+    "formSuccess": "Nachricht gesendet! Für eine schnellere Antwort schreiben Sie uns auf WhatsApp. E-Mail-Antworten können etwas länger dauern.",
     "formError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns über WhatsApp."
   },
   "footer": {
@@ -203,13 +203,13 @@
   },
   "howItWorks": {
     "eyebrow": "So funktioniert es",
-    "title": "Dein Abenteuer in 3 einfachen Schritten",
+    "title": "Dein Abenteuer in 3 Schritten",
     "step1Title": "Entdecken & Auswählen",
     "step1Desc": "Erkunde über 30 ausgewählte Touren durch den Atlas, die Sahara und Marokkos Kaiserstädte.",
     "step2Title": "Mit Anzahlung buchen",
     "step2Desc": "Sichere deinen Platz online mit einer kleinen Anzahlung. Kostenlose Stornierung bis 14 Tage vorher.",
     "step3Title": "Anreisen & Erkunden",
-    "step3Desc": "Wir kümmern uns um alles — Transport, Unterkunft, Expertenführer. Bring einfach deinen Abenteurergeist mit."
+    "step3Desc": "Wir kümmern uns um alles: Transport, Unterkunft, Expertenführer. Bring einfach deinen Abenteurergeist mit."
   },
   "common": {
     "home": "Startseite",

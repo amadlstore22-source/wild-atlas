@@ -11,7 +11,7 @@
     "eyebrow": "Marocco e Oltre",
     "headline1": "Dove l'Avventura",
     "headline2": "Incontra il Selvaggio",
-    "subheadline": "Trekking guidato da esperti, tour nel deserto e avventure culturali — nel cuore dell'Atlante, del Sahara e oltre.",
+    "subheadline": "Trekking guidato da esperti, tour nel deserto e avventure culturali nel cuore dell'Atlante, del Sahara e oltre.",
     "trustLine": "{tourCount} tour in partenza da Marrakech & Agadir · La scelta di {clientCount} avventurieri",
     "searchPlaceholder": "Cerca tour, destinazioni...",
     "allTours": "Tutti i tour",
@@ -30,7 +30,7 @@
   },
   "categories": {
     "title": "Esplora per categoria",
-    "subtitle": "Dal trekking in alta montagna alle passeggiate culturali nella medina — trova la tua esperienza ideale in Marocco.",
+    "subtitle": "Dal trekking in alta montagna alle passeggiate culturali nella medina. Trova la tua esperienza ideale in Marocco.",
     "trekking": "Trekking",
     "hiking": "Escursionismo",
     "desert": "Deserto",
@@ -66,14 +66,14 @@
     },
     "responsive": {
       "title": "Assistenza rapida e umana",
-      "desc": "Risposte WhatsApp entro 24 ore — spesso molto prima. L'e-mail può richiedere un po' più di tempo. Persone reali, sempre raggiungibili."
+      "desc": "Risposte WhatsApp entro 24 ore, spesso molto prima. L'e-mail può richiedere un po' più di tempo. Persone reali, sempre raggiungibili."
     }
   },
   "ourStory": {
     "eyebrow": "La nostra storia",
     "title": "Nati nell'Atlante",
-    "body1": "Questa storia non è iniziata con noi. Nostro padre, Lahsen Aitidar, fu tra i primi guide di montagna berbere autorizzate nell'Alto Atlante — accompagnando escursionisti attraverso il Toubkal e le valli dell'Atlante molto prima che il Marocco avesse un settore turistico formalizzato. Ha imparato ogni percorso camminandolo, e ci ha insegnato nello stesso modo.",
-    "body2": "Noi — Smail e Mohamed — siamo cresciuti su quei sentieri. Nel 2010 abbiamo formalizzato quella che era sempre stata una vocazione di famiglia: costruire un'operazione turistica vera sulla base che nostro padre aveva gettato, ampliando i percorsi e lo standard di servizio, senza mai allontanarci dal principio con cui viveva. Trattare ogni ospite come un membro della propria famiglia.",
+    "body1": "Questa storia non è iniziata con noi. Nostro padre, Lahsen Aitidar, fu tra i primi guide di montagna berbere autorizzate nell'Alto Atlante, accompagnando escursionisti attraverso il Toubkal e le valli dell'Atlante molto prima che il Marocco avesse un settore turistico formalizzato. Ha imparato ogni percorso camminandolo, e ci ha insegnato nello stesso modo.",
+    "body2": "Smail e Mohamed sono cresciuti su quei sentieri. Nel 2010 hanno formalizzato quella che era sempre stata una vocazione di famiglia: costruire un'operazione turistica vera sulla base che il loro padre aveva gettato, ampliando i percorsi e lo standard di servizio, senza mai allontanarsi dal principio con cui viveva. Trattare ogni ospite come un membro della propria famiglia.",
     "stat1Label": "Anni come guide",
     "stat2Label": "Avventurieri soddisfatti",
     "stat3Label": "Tour disponibili",
@@ -90,12 +90,12 @@
   "gallery": {
     "eyebrow": "Paesaggi del Marocco",
     "title": "Il Marocco attraverso il nostro obiettivo",
-    "subtitle": "I paesaggi più iconici del Marocco — come li vediamo nei nostri tour."
+    "subtitle": "I paesaggi più iconici del Marocco, come li vediamo nei nostri tour."
   },
   "cta": {
     "eyebrow": "Pronto a esplorare?",
     "title": "Pianifica la tua perfetta avventura in Marocco",
-    "subtitle": "Sfoglia tutti i {tourCount} tour da Marrakech e Agadir — o raccontaci il tuo sogno e costruiremo il viaggio attorno a te.",
+    "subtitle": "Sfoglia tutti i {tourCount} tour da Marrakech e Agadir. Raccontaci il tuo sogno e costruiremo il viaggio attorno a te.",
     "browseAll": "Vedi tutti i tour",
     "whatsapp": "WhatsApp",
     "customTrip": "Viaggio su misura",
@@ -120,7 +120,7 @@
     "toursFound": "{count} tour trovato",
     "toursFoundPlural": "{count} tour trovati",
     "customBannerTitle": "Viaggi con un gruppo numeroso o vuoi un itinerario completamente personalizzato?",
-    "customBannerDesc": "Creiamo piani su misura per gruppi privati di qualsiasi dimensione — da 2 a 200. Dicci le tue date, interessi e budget.",
+    "customBannerDesc": "Creiamo piani su misura per gruppi privati di qualsiasi dimensione, da 2 a 200. Dicci le tue date, interessi e budget.",
     "planCustomTrip": "Pianifica un viaggio su misura"
   },
   "tourDetail": {
@@ -130,7 +130,7 @@
     "included": "Incluso",
     "notIncluded": "Non incluso",
     "planYourTrip": "Pianifica il tuo viaggio in Marocco",
-    "sidebarDesc": "Sfoglia tutti i tour da Marrakech e Agadir — dalle escursioni di un giorno alle spedizioni di 7 giorni.",
+    "sidebarDesc": "Sfoglia tutti i tour da Marrakech e Agadir, dalle escursioni di un giorno alle spedizioni di 7 giorni.",
     "browseAllTours": "Vedi tutti i tour",
     "planCustomTrip": "Viaggio su misura",
     "relatedArticles": "Articoli correlati",
@@ -151,7 +151,7 @@
     "noArticles": "Ancora nessun articolo in questa categoria.",
     "viewAll": "Vedi tutti gli articoli",
     "readyTitle": "Pronto a vivere il Marocco?",
-    "readyDesc": "Sfoglia tutti i tour da Marrakech e Agadir — dalle mezze giornate alle spedizioni di 7 giorni in montagna.",
+    "readyDesc": "Sfoglia tutti i tour da Marrakech e Agadir, dalle mezze giornate alle spedizioni di 7 giorni in montagna.",
     "browseAll": "Vedi tutti i tour",
     "article": "articolo",
     "articles": "articoli",
@@ -179,7 +179,7 @@
     "formTour": "Tour di interesse",
     "formMessage": "Il tuo messaggio",
     "formSubmit": "Invia messaggio",
-    "formSuccess": "Messaggio inviato! Per una risposta più rapida, scrivici su WhatsApp — le risposte via e-mail possono richiedere un po' più di tempo.",
+    "formSuccess": "Messaggio inviato! Per una risposta più rapida, scrivici su WhatsApp. Le risposte via e-mail possono richiedere un po' più di tempo.",
     "formError": "Qualcosa è andato storto. Riprova o contattaci su WhatsApp."
   },
   "footer": {
@@ -203,13 +203,13 @@
   },
   "howItWorks": {
     "eyebrow": "Come funziona",
-    "title": "La tua avventura in 3 semplici passi",
+    "title": "La tua avventura in 3 passi",
     "step1Title": "Sfoglia & Scegli",
     "step1Desc": "Esplora oltre 30 tour selezionati attraverso l'Atlante, il Sahara e le città imperiali del Marocco.",
     "step2Title": "Prenota con caparra",
     "step2Desc": "Assicura il tuo posto online con una piccola caparra. Cancellazione gratuita fino a 14 giorni prima.",
     "step3Title": "Arriva & Esplora",
-    "step3Desc": "Pensiamo a tutto noi — trasporto, alloggio, guide esperte. Porta solo il tuo spirito d'avventura."
+    "step3Desc": "Pensiamo a tutto noi: trasporto, alloggio, guide esperte. Porta solo il tuo spirito d'avventura."
   },
   "common": {
     "home": "Home",

@@ -11,7 +11,7 @@
     "eyebrow": "Local · Eco-conscious · Authentic",
     "headline1": "Experience the Real Morocco",
     "headline2": "Beyond the Tourist Trail",
-    "subheadline": "Small-group adventures led by certified Berber guides — Atlas trekking, Sahara desert nights, imperial cities, and Atlantic surf. Departing from Marrakech & Agadir.",
+    "subheadline": "Small-group adventures led by certified Berber guides: Atlas trekking, Sahara nights, imperial cities, Atlantic coast. Departing from Marrakech and Agadir.",
     "trustLine": "{tourCount} tours departing from Marrakech & Agadir · Trusted by {clientCount} adventurers",
     "searchPlaceholder": "Search tours, destinations...",
     "allTours": "All Tours",
@@ -30,7 +30,7 @@
   },
   "categories": {
     "title": "Explore by Category",
-    "subtitle": "From high mountain treks to cultural medina walks — find your perfect Morocco experience.",
+    "subtitle": "From high mountain treks to cultural medina walks. Find your perfect Morocco experience.",
     "trekking": "Trekking",
     "hiking": "Hiking",
     "desert": "Desert",
@@ -66,14 +66,14 @@
     },
     "responsive": {
       "title": "Fast, Human Support",
-      "desc": "WhatsApp replies within 24 hours — usually much faster. Email may take a little longer. Real people, always reachable."
+      "desc": "WhatsApp replies within 24 hours, usually much faster. Email may take a little longer. Real people, always reachable."
     }
   },
   "ourStory": {
     "eyebrow": "Our Story",
     "title": "Born in the Atlas Mountains",
-    "body1": "This story didn't start with us. Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned every route by walking it, and he taught us the same way.",
-    "body2": "We — Smail and Mohamed — grew up on those trails. In 2010 we formalised what had always been a family calling: building a proper tour operation on our father's foundation, expanding the routes and the standard of care, without ever moving from the one principle he lived by. Treat every guest as you would your own family.",
+    "body1": "This story didn't start with us. Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the High Atlas, leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned every route by walking it, and he taught us the same way.",
+    "body2": "Smail and Mohamed grew up on those trails. In 2010 they formalised what had always been a family calling: building a proper tour operation on their father's foundation, expanding the routes and the standard of care, without ever moving from the one principle he lived by. Treat every guest as you would your own family.",
     "stat1Label": "Years guiding",
     "stat2Label": "Happy adventurers",
     "stat3Label": "Tours available",
@@ -90,12 +90,12 @@
   "gallery": {
     "eyebrow": "Morocco's Landscapes",
     "title": "Morocco Through Our Lens",
-    "subtitle": "Morocco's most iconic landscapes — as seen on our tours."
+    "subtitle": "Morocco's most iconic landscapes, as seen on our tours."
   },
   "cta": {
     "eyebrow": "Ready to Explore?",
     "title": "Plan Your Perfect Morocco Adventure",
-    "subtitle": "Browse all {tourCount} tours from Marrakech and Agadir — or tell us your dream and we'll build the journey around you.",
+    "subtitle": "Browse all {tourCount} tours from Marrakech and Agadir. Tell us your dream and we'll build the journey around you.",
     "browseAll": "Browse All Tours",
     "whatsapp": "WhatsApp Us",
     "customTrip": "Custom Trip",
@@ -120,7 +120,7 @@
     "toursFound": "{count} tour found",
     "toursFoundPlural": "{count} tours found",
     "customBannerTitle": "Travelling with a large group, or want a completely custom itinerary?",
-    "customBannerDesc": "We build bespoke plans for private groups of any size — from 2 to 200. Tell us your dates, interests, and budget.",
+    "customBannerDesc": "We build bespoke plans for private groups of any size, from 2 to 200. Tell us your dates, interests, and budget.",
     "planCustomTrip": "Plan a Custom Trip"
   },
   "tourDetail": {
@@ -130,7 +130,7 @@
     "included": "Included",
     "notIncluded": "Not Included",
     "planYourTrip": "Plan Your Morocco Trip",
-    "sidebarDesc": "Browse all tours departing from Marrakech and Agadir — from day trips to 7-day expeditions.",
+    "sidebarDesc": "Browse all tours departing from Marrakech and Agadir, from day trips to 7-day expeditions.",
     "browseAllTours": "Browse All Tours",
     "planCustomTrip": "Plan Custom Trip",
     "relatedArticles": "Related Articles",
@@ -151,7 +151,7 @@
     "noArticles": "No articles in this category yet.",
     "viewAll": "View all articles",
     "readyTitle": "Ready to Experience Morocco?",
-    "readyDesc": "Browse all tours departing from Marrakech and Agadir — from half-day excursions to 7-day mountain expeditions.",
+    "readyDesc": "Browse all tours from Marrakech and Agadir, from half-day excursions to 7-day mountain expeditions.",
     "browseAll": "Browse All Tours",
     "article": "article",
     "articles": "articles",
@@ -179,11 +179,11 @@
     "formTour": "Tour of Interest",
     "formMessage": "Your Message",
     "formSubmit": "Send Message",
-    "formSuccess": "Message sent! For the fastest reply, message us on WhatsApp — email responses may take a little longer.",
+    "formSuccess": "Message sent! For the fastest reply, message us on WhatsApp. Email responses may take a little longer.",
     "formError": "Something went wrong. Please try again or WhatsApp us directly."
   },
   "footer": {
-    "tagline": "Licensed Moroccan tour operator — expert local guides, small groups, eco-conscious adventures since 2010.",
+    "tagline": "Licensed Moroccan tour operator. Expert local guides, small groups, eco-conscious adventures since 2010.",
     "quickLinks": "Company",
     "explore": "Adventures",
     "destinations": "Destinations",
@@ -206,13 +206,13 @@
   },
   "howItWorks": {
     "eyebrow": "How It Works",
-    "title": "Your Adventure in 3 Simple Steps",
+    "title": "Your Adventure in 3 Steps",
     "step1Title": "Browse & Choose",
     "step1Desc": "Explore 30+ curated tours across the Atlas, Sahara, and Morocco's imperial cities.",
     "step2Title": "Book with a Deposit",
     "step2Desc": "Secure your spot online with a small deposit. Free cancellation up to 14 days before.",
     "step3Title": "Show Up & Explore",
-    "step3Desc": "We handle everything — transport, accommodation, expert guides. Just bring your sense of adventure."
+    "step3Desc": "We handle everything: transport, accommodation, expert guides. Just bring your sense of adventure."
   },
   "common": {
     "home": "Home",

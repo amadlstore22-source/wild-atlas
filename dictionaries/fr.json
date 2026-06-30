@@ -11,7 +11,7 @@
     "eyebrow": "Maroc & Au-delà",
     "headline1": "L'Aventure",
     "headline2": "Rencontre le Sauvage",
-    "subheadline": "Trekking expert, tours dans le désert et aventures culturelles — au cœur de l'Atlas, du Sahara et au-delà.",
+    "subheadline": "Trekking expert, tours dans le désert et aventures culturelles au cœur de l'Atlas, du Sahara et au-delà.",
     "trustLine": "{tourCount} circuits au départ de Marrakech & Agadir · Approuvé par {clientCount} aventuriers",
     "searchPlaceholder": "Rechercher des circuits, destinations...",
     "allTours": "Tous les circuits",
@@ -30,7 +30,7 @@
   },
   "categories": {
     "title": "Explorer par catégorie",
-    "subtitle": "Du trekking en haute montagne aux balades culturelles dans la médina — trouvez votre expérience idéale au Maroc.",
+    "subtitle": "Du trekking en haute montagne aux balades culturelles dans la médina. Trouvez votre expérience idéale au Maroc.",
     "trekking": "Trekking",
     "hiking": "Randonnée",
     "desert": "Désert",
@@ -66,14 +66,14 @@
     },
     "responsive": {
       "title": "Assistance humaine rapide",
-      "desc": "Réponses WhatsApp en 24 heures — souvent bien plus vite. L'e-mail peut prendre un peu plus longtemps. Des vraies personnes, toujours joignables."
+      "desc": "Réponses WhatsApp en 24 heures, souvent bien plus vite. L'e-mail peut prendre un peu plus longtemps. Des vraies personnes, toujours joignables."
     }
   },
   "ourStory": {
     "eyebrow": "Notre histoire",
     "title": "Nés dans l'Atlas",
-    "body1": "Cette histoire n'a pas commencé avec nous. Notre père, Lahsen Aitidar, fut parmi les premiers guides de montagne berbères agréés du Haut Atlas — conduisant des randonneurs à travers le Toubkal et les vallées de l'Atlas bien avant que le Maroc ne dispose d'une industrie touristique formelle. Il a appris chaque itinéraire en le marchant, et il nous a enseigné de la même façon.",
-    "body2": "Nous — Smaïl et Mohamed — avons grandi sur ces sentiers. En 2010, nous avons formalisé ce qui avait toujours été une vocation familiale : bâtir une vraie opération touristique sur les fondations de notre père, en élargissant les routes et le niveau de service, sans jamais nous éloigner du principe qu'il a vécu. Traiter chaque voyageur comme un membre de sa propre famille.",
+    "body1": "Cette histoire n'a pas commencé avec nous. Notre père, Lahsen Aitidar, fut parmi les premiers guides de montagne berbères agréés du Haut Atlas, conduisant des randonneurs à travers le Toubkal et les vallées de l'Atlas bien avant que le Maroc ne dispose d'une industrie touristique formelle. Il a appris chaque itinéraire en le marchant, et il nous a enseigné de la même façon.",
+    "body2": "Smaïl et Mohamed ont grandi sur ces sentiers. En 2010, ils ont formalisé ce qui avait toujours été une vocation familiale : bâtir une vraie opération touristique sur les fondations de leur père, en élargissant les routes et le niveau de service, sans jamais s'éloigner du principe qu'il a vécu. Traiter chaque voyageur comme un membre de sa propre famille.",
     "stat1Label": "Années de guidage",
     "stat2Label": "Aventuriers heureux",
     "stat3Label": "Circuits disponibles",
@@ -90,12 +90,12 @@
   "gallery": {
     "eyebrow": "Paysages du Maroc",
     "title": "Le Maroc à travers notre objectif",
-    "subtitle": "Les paysages les plus emblématiques du Maroc — tels que vus lors de nos circuits."
+    "subtitle": "Les paysages les plus emblématiques du Maroc, tels que vus lors de nos circuits."
   },
   "cta": {
     "eyebrow": "Prêt à explorer ?",
     "title": "Planifiez votre parfaite aventure marocaine",
-    "subtitle": "Parcourez tous nos {tourCount} circuits depuis Marrakech et Agadir — ou dites-nous votre rêve et nous construirons le voyage autour de vous.",
+    "subtitle": "Parcourez tous nos {tourCount} circuits depuis Marrakech et Agadir. Dites-nous votre rêve et nous construirons le voyage autour de vous.",
     "browseAll": "Voir tous les circuits",
     "whatsapp": "WhatsApp",
     "customTrip": "Voyage sur mesure",
@@ -120,7 +120,7 @@
     "toursFound": "{count} circuit trouvé",
     "toursFoundPlural": "{count} circuits trouvés",
     "customBannerTitle": "Vous voyagez en grand groupe ou souhaitez un itinéraire entièrement personnalisé ?",
-    "customBannerDesc": "Nous créons des programmes sur mesure pour des groupes privés de toutes tailles — de 2 à 200. Dites-nous vos dates, vos intérêts et votre budget.",
+    "customBannerDesc": "Nous créons des programmes sur mesure pour des groupes privés de toutes tailles, de 2 à 200. Dites-nous vos dates, vos intérêts et votre budget.",
     "planCustomTrip": "Planifier un voyage sur mesure"
   },
   "tourDetail": {
@@ -130,7 +130,7 @@
     "included": "Inclus",
     "notIncluded": "Non inclus",
     "planYourTrip": "Planifiez votre voyage au Maroc",
-    "sidebarDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir — des excursions d'une journée aux expéditions de 7 jours.",
+    "sidebarDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir, des excursions d'une journée aux expéditions de 7 jours.",
     "browseAllTours": "Voir tous les circuits",
     "planCustomTrip": "Voyage sur mesure",
     "relatedArticles": "Articles associés",
@@ -151,7 +151,7 @@
     "noArticles": "Aucun article dans cette catégorie pour l'instant.",
     "viewAll": "Voir tous les articles",
     "readyTitle": "Prêt à découvrir le Maroc ?",
-    "readyDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir — des demi-journées aux expéditions de 7 jours en montagne.",
+    "readyDesc": "Parcourez tous les circuits au départ de Marrakech et Agadir, des demi-journées aux expéditions de 7 jours en montagne.",
     "browseAll": "Voir tous les circuits",
     "article": "article",
     "articles": "articles",
@@ -179,7 +179,7 @@
     "formTour": "Circuit souhaité",
     "formMessage": "Votre message",
     "formSubmit": "Envoyer le message",
-    "formSuccess": "Message envoyé ! Pour une réponse rapide, contactez-nous sur WhatsApp — les réponses par e-mail peuvent prendre un peu plus longtemps.",
+    "formSuccess": "Message envoyé ! Pour une réponse rapide, contactez-nous sur WhatsApp. Les réponses par e-mail peuvent prendre un peu plus longtemps.",
     "formError": "Une erreur s'est produite. Réessayez ou contactez-nous via WhatsApp."
   },
   "footer": {
@@ -203,13 +203,13 @@
   },
   "howItWorks": {
     "eyebrow": "Comment ça marche",
-    "title": "Votre aventure en 3 étapes simples",
+    "title": "Votre aventure en 3 étapes",
     "step1Title": "Parcourir & Choisir",
     "step1Desc": "Explorez plus de 30 circuits soigneusement sélectionnés dans l'Atlas, le Sahara et les villes impériales du Maroc.",
     "step2Title": "Réserver avec un acompte",
     "step2Desc": "Réservez votre place en ligne avec un petit acompte. Annulation gratuite jusqu'à 14 jours avant.",
     "step3Title": "Arriver & Explorer",
-    "step3Desc": "Nous nous occupons de tout — transport, hébergement, guides experts. Apportez juste votre esprit d'aventure."
+    "step3Desc": "Nous nous occupons de tout : transport, hébergement, guides experts. Apportez juste votre esprit d'aventure."
   },
   "common": {
     "home": "Accueil",

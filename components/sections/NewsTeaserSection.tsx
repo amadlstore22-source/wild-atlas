@@ -35,9 +35,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-10">
           <div>
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
-              {dict.news.eyebrow}
-            </p>
             <h2 className="font-serif text-charcoal font-bold" style={{ fontSize: "clamp(1.6rem, 3vw, 2.2rem)" }}>
               {dict.news.title}
             </h2>

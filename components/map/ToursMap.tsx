@@ -1,10 +1,8 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Tooltip, useMap } from "react-leaflet";
-import L from "leaflet";
+import maplibregl from "maplibre-gl";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
-// ─── Destination data ─────────────────────────────────────────────────────────
 interface Destination {
   id: string;
   name: string;
@@ -30,9 +28,9 @@ const DESTINATIONS: Destination[] = [
     color: "#C1693A",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
     description:
-      "Morocco's most electric city — a thousand-year-old labyrinth of souks, palaces, and street theatre in the shadow of the Atlas Mountains.",
+      "Morocco's most electric city, a thousand-year-old labyrinth of souks, palaces, and street theatre in the shadow of the Atlas Mountains.",
     known: [
-      "Djemaa el-Fna — the world's greatest open-air theatre",
+      "Djemaa el-Fna, the world's greatest open-air theatre",
       "14-guild souk network & ancient medina",
       "Koutoubia Mosque & Saadian Tombs",
       "Majorelle Garden & hidden riads",
@@ -51,12 +49,12 @@ const DESTINATIONS: Destination[] = [
     color: "#4B7A3A",
     image: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=500&q=80",
     description:
-      "The definitive High Atlas challenge — ascend through Berber villages and glacial valleys to the highest summit in all of North Africa at 4,167 m.",
+      "The definitive High Atlas challenge: ascend through Berber villages and glacial valleys to the highest summit in all of North Africa at 4,167 m.",
     known: [
       "Highest peak in North Africa at 4,167 m",
       "Imlil valley & Berber mountain villages",
       "Alpine refuges & pristine glacial lakes",
-      "Year-round trekking — snow in winter",
+      "Year-round trekking, snow in winter",
       "Views spanning Morocco to the Sahara",
     ],
     category: "Trekking",
@@ -93,10 +91,10 @@ const DESTINATIONS: Destination[] = [
     color: "#8B6914",
     image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=500&q=80",
     description:
-      "The most intact medieval city on earth — 9,000+ alleyways, the world's oldest university, and the legendary Chouara Tannery unchanged since the 11th century.",
+      "The most intact medieval city on earth: 9,000+ alleyways, the world's oldest university, and the legendary Chouara Tannery unchanged since the 11th century.",
     known: [
       "World's largest car-free urban zone",
-      "Chouara Tannery — operated since the 11th century",
+      "Chouara Tannery, operated since the 11th century",
       "University of al-Qarawiyyin, founded 859 AD",
       "Bou Inania Madrasa & royal palace gates",
       "UNESCO World Heritage medina",
@@ -114,13 +112,13 @@ const DESTINATIONS: Destination[] = [
     color: "#3B7A9E",
     image: "https://images.unsplash.com/photo-1548018560-c7cce1871f4e?w=500&q=80",
     description:
-      "Nestled in the Rif Mountains, every wall in Chefchaouen's medina is washed in blue — serene, photogenic, and unlike anywhere else in Morocco.",
+      "Nestled in the Rif Mountains, every wall in Chefchaouen's medina is washed in blue, serene and photogenic, unlike anywhere else in Morocco.",
     known: [
       "Medina painted entirely in blue & white",
       "Rif Mountain setting with hiking trails",
       "Ras el-Ma river walk & waterfall",
       "Artisan wool weaving & café culture",
-      "Photography paradise — every alley is a frame",
+      "Photography paradise, every alley is a frame",
     ],
     category: "Cultural",
     slug: "cultural",
@@ -135,7 +133,7 @@ const DESTINATIONS: Destination[] = [
     color: "#5E7460",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80",
     description:
-      "Morocco's southern beach hub — 9 km of white Atlantic sand, world-class surf breaks at Taghazout, and the Anti-Atlas mountains rising behind the city.",
+      "Morocco's southern beach hub with 9 km of white Atlantic sand, world-class surf breaks at Taghazout, and the Anti-Atlas mountains rising behind the city.",
     known: [
       "9 km of pristine Atlantic beach",
       "World-class surf at Taghazout village",
@@ -156,9 +154,9 @@ const DESTINATIONS: Destination[] = [
     color: "#3D7D5C",
     image: "https://images.unsplash.com/photo-1569531736081-7fc92bbd2462?w=500&q=80",
     description:
-      "A triple cascade plunging 110 m into a turquoise pool — wild Barbary macaques, rainbow mist, and some of Morocco's most breathtaking gorge scenery.",
+      "A triple cascade plunging 110 m into a turquoise pool. Wild Barbary macaques, rainbow mist, and some of Morocco's most breathtaking gorge scenery.",
     known: [
-      "110 m waterfall — most spectacular in Morocco",
+      "110 m waterfall, most spectacular in Morocco",
       "Wild Barbary macaque colony",
       "Hidden gorge hike to the thundering base pool",
       "Rainbow mist visible at midday sun",
@@ -191,72 +189,134 @@ const DESTINATIONS: Destination[] = [
   },
 ];
 
-// ─── Custom pin icon ──────────────────────────────────────────────────────────
-const iconCache: Record<string, L.DivIcon> = {};
-function makeIcon(color: string): L.DivIcon {
-  if (!iconCache[color]) {
-    iconCache[color] = L.divIcon({
-      html: `<div style="
-        width:16px;height:16px;border-radius:50%;
-        background:${color};border:2.5px solid white;
-        box-shadow:0 2px 10px rgba(0,0,0,0.55),0 0 0 4px ${color}55;
-        cursor:pointer;
-      "></div>`,
-      iconSize: [16, 16],
-      iconAnchor: [8, 8],
-      className: "",
-    });
-  }
-  return iconCache[color]!;
+const INITIAL_CENTER: [number, number] = [-6.5, 31.8];
+const INITIAL_ZOOM = 5.5;
+
+function makePinEl(dest: Destination): HTMLDivElement {
+  const el = document.createElement("div");
+  el.dataset.id = dest.id;
+  el.style.cssText = "cursor:pointer;transition:transform 0.2s ease;position:relative;";
+  el.innerHTML = `
+    <svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="${dest.color}"/>
+      <circle cx="14" cy="14" r="5.5" fill="white" fill-opacity="0.92"/>
+    </svg>
+    <span style="position:absolute;left:50%;transform:translateX(-50%);top:calc(100% + 2px);white-space:nowrap;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,0.68);border-radius:3px;padding:1px 7px;pointer-events:none;letter-spacing:0.01em;">${dest.name}</span>
+  `;
+  return el;
 }
 
-// ─── Fly-to controller ────────────────────────────────────────────────────────
-function FlyController({ target }: { target: [number, number] | null }) {
-  const map = useMap();
-  const prev = useRef<string>("");
-  useEffect(() => {
-    if (!target) {
-      prev.current = "";
-      map.flyTo([29.5, -6.0], 5, { duration: 1.2, easeLinearity: 0.25 });
-      return;
-    }
-    const key = target.join(",");
-    if (key === prev.current) return;
-    prev.current = key;
-    map.flyTo(target, 11, { duration: 1.4, easeLinearity: 0.22 });
-  }, [target, map]);
-  return null;
-}
-
-// ─── Component ────────────────────────────────────────────────────────────────
 export default function ToursMap({ lang }: { lang: Locale }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  const pinEls = useRef<Record<string, HTMLDivElement>>({});
   const [selected, setSelected] = useState<Destination | null>(null);
 
-  const pick = (dest: Destination) =>
-    setSelected((prev) => (prev?.id === dest.id ? null : dest));
+  // Initialise map once on mount
+  useEffect(() => {
+    if (!containerRef.current || mapRef.current) return;
+
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: {
+        version: 8,
+        sources: {
+          satellite: {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+            ],
+            tileSize: 256,
+            attribution:
+              "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong)",
+          },
+          labels: {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+            ],
+            tileSize: 256,
+          },
+        },
+        layers: [
+          { id: "satellite", type: "raster", source: "satellite" },
+          { id: "labels", type: "raster", source: "labels" },
+        ],
+      },
+      center: INITIAL_CENTER,
+      zoom: INITIAL_ZOOM,
+      attributionControl: false,
+    });
+
+    map.scrollZoom.disable();
+    map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+
+    DESTINATIONS.forEach((dest) => {
+      const el = makePinEl(dest);
+      pinEls.current[dest.id] = el;
+
+      el.addEventListener("click", () => {
+        setSelected((prev) => {
+          const next = prev?.id === dest.id ? null : dest;
+          if (next) {
+            map.flyTo({
+              center: [dest.lng, dest.lat],
+              zoom: 10,
+              duration: 1400,
+              easing: (t) => 1 - Math.pow(1 - t, 3),
+            });
+          } else {
+            map.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1200 });
+          }
+          return next;
+        });
+      });
+
+      new maplibregl.Marker({ element: el, anchor: "bottom" })
+        .setLngLat([dest.lng, dest.lat])
+        .addTo(map);
+    });
+
+    mapRef.current = map;
+    return () => {
+      map.remove();
+      mapRef.current = null;
+    };
+  }, []);
+
+  // Scale active pin up
+  useEffect(() => {
+    Object.entries(pinEls.current).forEach(([id, el]) => {
+      const active = selected?.id === id;
+      el.style.transform = active ? "scale(1.35)" : "scale(1)";
+      el.style.zIndex = active ? "10" : "1";
+    });
+  }, [selected]);
+
+  const pick = (dest: Destination) => {
+    const next = selected?.id === dest.id ? null : dest;
+    setSelected(next);
+    if (next) {
+      mapRef.current?.flyTo({
+        center: [dest.lng, dest.lat],
+        zoom: 10,
+        duration: 1400,
+        easing: (t) => 1 - Math.pow(1 - t, 3),
+      });
+    } else {
+      mapRef.current?.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1200 });
+    }
+  };
 
   return (
     <section
       className="py-20"
       style={{ background: "linear-gradient(180deg,#0D150D 0%,#111711 100%)" }}
     >
-      {/* Tooltip label styles */}
       <style>{`
-        .leaflet-tooltip.dest-lbl {
-          background: rgba(0,0,0,0.75);
-          color: #fff;
-          border: none;
-          border-radius: 4px;
-          font-size: 11px;
-          font-weight: 700;
-          padding: 2px 8px;
-          white-space: nowrap;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-          letter-spacing: 0.01em;
-        }
-        .leaflet-tooltip.dest-lbl::before {
-          border-right-color: rgba(0,0,0,0.75);
-        }
+        .maplibregl-ctrl-attrib { font-size: 9px !important; }
+        .maplibregl-ctrl-group { border-radius: 8px !important; overflow: hidden; }
         .dest-panel::-webkit-scrollbar { display: none; }
       `}</style>
 
@@ -264,12 +324,6 @@ export default function ToursMap({ lang }: { lang: Locale }) {
 
         {/* Header */}
         <div className="text-center mb-10">
-          <p
-            className="text-xs font-bold uppercase tracking-[0.2em] mb-3"
-            style={{ color: "#D4A853" }}
-          >
-            Discover Morocco
-          </p>
           <h2
             className="font-serif text-white font-bold mb-3"
             style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.8rem)" }}
@@ -277,53 +331,18 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             Where the Adventures Happen
           </h2>
           <p className="text-white/40 text-sm max-w-sm mx-auto">
-            Satellite view — tap any pin to explore what each destination is
-            known for.
+            Tap any pin to explore what each destination is known for.
           </p>
         </div>
 
-        {/* Map */}
+        {/* Map canvas */}
         <div
           className="relative rounded-3xl overflow-hidden shadow-2xl"
           style={{ height: "clamp(480px, 58vw, 660px)" }}
         >
-          <MapContainer
-            center={[31.8, -6.5]}
-            zoom={6}
-            style={{ height: "100%", width: "100%" }}
-            scrollWheelZoom={false}
-            zoomControl
-          >
-            {/* Esri satellite tiles — free, no API key */}
-            <TileLayer
-              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-              attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong)"
-              maxZoom={18}
-            />
-            <FlyController
-              target={selected ? [selected.lat, selected.lng] : null}
-            />
+          <div ref={containerRef} className="absolute inset-0" />
 
-            {DESTINATIONS.map((dest) => (
-              <Marker
-                key={dest.id}
-                position={[dest.lat, dest.lng]}
-                icon={makeIcon(dest.color)}
-                eventHandlers={{ click: () => pick(dest) }}
-              >
-                <Tooltip
-                  permanent
-                  direction="right"
-                  offset={[10, 0]}
-                  className="dest-lbl"
-                >
-                  {dest.name}
-                </Tooltip>
-              </Marker>
-            ))}
-          </MapContainer>
-
-          {/* ── Info panel overlay ── */}
+          {/* Info panel */}
           {selected && (
             <div
               className="dest-panel"
@@ -343,7 +362,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             >
               {/* Close */}
               <button
-                onClick={() => setSelected(null)}
+                onClick={() => pick(selected)}
                 aria-label="Close panel"
                 style={{
                   position: "absolute",
@@ -368,29 +387,17 @@ export default function ToursMap({ lang }: { lang: Locale }) {
               </button>
 
               {/* Hero image */}
-              <div
-                style={{
-                  height: 158,
-                  overflow: "hidden",
-                  borderRadius: "16px 16px 0 0",
-                }}
-              >
+              <div style={{ height: 158, overflow: "hidden", borderRadius: "16px 16px 0 0" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={selected.image}
                   alt={selected.name}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    display: "block",
-                  }}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                 />
               </div>
 
               {/* Body */}
               <div style={{ padding: "14px 18px 20px" }}>
-                {/* Category badge */}
                 <span
                   style={{
                     display: "inline-block",
@@ -424,18 +431,10 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                 <p style={{ fontSize: 12, color: "#999", margin: "0 0 9px" }}>
                   {selected.subtitle}
                 </p>
-                <p
-                  style={{
-                    fontSize: 12.5,
-                    color: "#555",
-                    lineHeight: 1.58,
-                    margin: "0 0 13px",
-                  }}
-                >
+                <p style={{ fontSize: 12.5, color: "#555", lineHeight: 1.58, margin: "0 0 13px" }}>
                   {selected.description}
                 </p>
 
-                {/* Known for */}
                 <p
                   style={{
                     fontSize: 10,
@@ -471,12 +470,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                       }}
                     >
                       <span
-                        style={{
-                          color: selected.color,
-                          flexShrink: 0,
-                          fontSize: 9,
-                          marginTop: 2,
-                        }}
+                        style={{ color: selected.color, flexShrink: 0, fontSize: 9, marginTop: 2 }}
                       >
                         ▸
                       </span>
@@ -485,7 +479,6 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                   ))}
                 </ul>
 
-                {/* CTA */}
                 <a
                   href={`/${lang}/destinations/${selected.destSlug}`}
                   style={{
@@ -509,7 +502,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
           )}
         </div>
 
-        {/* ── Destination chips ── */}
+        {/* Destination chips */}
         <div className="flex flex-wrap justify-center gap-2 mt-6">
           {DESTINATIONS.map((dest) => {
             const active = selected?.id === dest.id;
@@ -523,12 +516,8 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                   gap: 6,
                   padding: "5px 14px",
                   borderRadius: 999,
-                  border: `1.5px solid ${
-                    active ? dest.color : "rgba(255,255,255,0.12)"
-                  }`,
-                  background: active
-                    ? dest.color + "22"
-                    : "rgba(255,255,255,0.05)",
+                  border: `1.5px solid ${active ? dest.color : "rgba(255,255,255,0.12)"}`,
+                  background: active ? dest.color + "22" : "rgba(255,255,255,0.05)",
                   color: active ? "#fff" : "rgba(255,255,255,0.48)",
                   fontSize: 12,
                   fontWeight: 600,

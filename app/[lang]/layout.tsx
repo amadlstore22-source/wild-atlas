@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Fraunces, Hanken_Grotesk, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
 import "leaflet/dist/leaflet.css";
+import "maplibre-gl/dist/maplibre-gl.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";

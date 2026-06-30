@@ -7,7 +7,6 @@ import CategoryGrid from "@/components/sections/CategoryGrid";
 import FeaturedTours from "@/components/sections/FeaturedTours";
 import ActivityScenes from "@/components/sections/ActivityScenes";
 import WhyUs from "@/components/sections/WhyUs";
-import GuideProfiles from "@/components/sections/GuideProfiles";
 import MapWrapper from "@/components/map/MapWrapper";
 import Testimonials from "@/components/sections/Testimonials";
 import OurStory from "@/components/sections/OurStory";
@@ -125,7 +124,6 @@ export default async function HomePage({ params }: LangParams) {
       <CategoryGrid dict={dict} lang={lang} />
       <ActivityScenes lang={lang} />
       <WhyUs dict={dict} />
-      <GuideProfiles lang={lang} />
       <Testimonials dict={dict} />
       <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} />

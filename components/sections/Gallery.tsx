@@ -25,7 +25,7 @@ interface Props {
 
 export default function Gallery({ dict, lang = "en" }: Props) {
   return (
-    <section className="py-24">
+    <section id="gallery" className="py-24 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>

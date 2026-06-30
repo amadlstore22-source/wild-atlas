@@ -13,6 +13,14 @@ function getLocale(request: NextRequest): string {
 }
 
 export function proxy(request: NextRequest) {
+  const host = request.headers.get("host") ?? "";
+  if (host.endsWith(".vercel.app")) {
+    const url = new URL(request.url);
+    url.host = "marrakechecotours.com";
+    url.protocol = "https";
+    return NextResponse.redirect(url, 308);
+  }
+
   const { pathname } = request.nextUrl;
 
   const pathnameHasLocale = LOCALES.some(
@@ -26,5 +34,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|api|favicon\\.ico).*)"],
+  matcher: ["/((?!_next|api|favicon\\.ico|sitemap\\.xml|robots\\.txt|llms\\.txt).*)"],
 };

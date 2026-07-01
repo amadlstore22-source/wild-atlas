@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import maplibregl from "maplibre-gl";
+import L from "leaflet";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
 interface Destination {
@@ -189,21 +189,25 @@ const DESTINATIONS: Destination[] = [
   },
 ];
 
-const INITIAL_CENTER: [number, number] = [-6.5, 31.8];
+const INITIAL_CENTER: [number, number] = [31.8, -6.5]; // Leaflet: [lat, lng]
 const INITIAL_ZOOM = 5.5;
 
-function makePinEl(dest: Destination): HTMLDivElement {
-  const el = document.createElement("div");
-  el.dataset.id = dest.id;
-  el.style.cssText = "cursor:pointer;transition:transform 0.2s ease;position:relative;";
-  el.innerHTML = `
-    <svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="${dest.color}"/>
-      <circle cx="14" cy="14" r="5.5" fill="white" fill-opacity="0.92"/>
-    </svg>
-    <span style="position:absolute;left:50%;transform:translateX(-50%);top:calc(100% + 2px);white-space:nowrap;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,0.68);border-radius:3px;padding:1px 7px;pointer-events:none;letter-spacing:0.01em;">${dest.name}</span>
-  `;
-  return el;
+function makeDivIcon(dest: Destination, active = false): L.DivIcon {
+  const s = active ? 1.35 : 1;
+  const w = Math.round(28 * s);
+  const h = Math.round(36 * s);
+  return L.divIcon({
+    html: `<div style="cursor:pointer;position:relative;display:inline-block;">
+      <svg width="${w}" height="${h}" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="${dest.color}"/>
+        <circle cx="14" cy="14" r="5.5" fill="white" fill-opacity="0.92"/>
+      </svg>
+      <span style="position:absolute;left:50%;transform:translateX(-50%);top:calc(100% + 2px);white-space:nowrap;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,0.68);border-radius:3px;padding:1px 7px;pointer-events:none;letter-spacing:0.01em;">${dest.name}</span>
+    </div>`,
+    className: "",
+    iconSize: [w, h + 20],
+    iconAnchor: [Math.round(w / 2), h],
+  });
 }
 
 function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
@@ -278,82 +282,78 @@ function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
 
 export default function ToursMap({ lang }: { lang: Locale }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<maplibregl.Map | null>(null);
-  const pinEls = useRef<Record<string, HTMLDivElement>>({});
+  const mapRef = useRef<L.Map | null>(null);
+  const markerRefs = useRef<Record<string, L.Marker>>({});
   const [selected, setSelected] = useState<Destination | null>(null);
   const mobileCardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const map = new maplibregl.Map({
-      container: containerRef.current,
-      style: {
-        version: 8,
-        sources: {
-          carto: {
-            type: "raster",
-            tiles: [
-              "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
-              "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
-              "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
-            ],
-            tileSize: 256,
-            attribution: "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors © <a href='https://carto.com/attributions'>CARTO</a>",
-          },
-        },
-        layers: [
-          { id: "carto", type: "raster", source: "carto" },
-        ],
-      },
+    const map = L.map(containerRef.current, {
       center: INITIAL_CENTER,
       zoom: INITIAL_ZOOM,
+      scrollWheelZoom: false,
+      zoomControl: false,
       attributionControl: false,
     });
 
-    map.scrollZoom.disable();
-    map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+    // Satellite imagery (ArcGIS — already in CSP img-src)
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      {
+        tileSize: 256,
+        maxZoom: 18,
+        attribution:
+          "Tiles &copy; <a href='https://www.esri.com'>Esri</a> &mdash; Source: Esri, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP",
+      }
+    ).addTo(map);
 
+    // Place name labels overlay (ArcGIS — same domain, already in CSP)
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+      { tileSize: 256, maxZoom: 18 }
+    ).addTo(map);
+
+    // Controls
+    L.control.zoom({ position: "topleft" }).addTo(map);
+    L.control.attribution({ position: "bottomright", prefix: false }).addTo(map);
+
+    // Markers
     DESTINATIONS.forEach((dest) => {
-      const el = makePinEl(dest);
-      pinEls.current[dest.id] = el;
+      const marker = L.marker([dest.lat, dest.lng], { icon: makeDivIcon(dest, false) });
 
-      el.addEventListener("click", () => {
+      marker.on("click", () => {
         setSelected((prev) => {
           const next = prev?.id === dest.id ? null : dest;
           if (next) {
-            map.flyTo({
-              center: [dest.lng, dest.lat],
-              zoom: 10,
-              duration: 1400,
-              easing: (t) => 1 - Math.pow(1 - t, 3),
-            });
+            map.flyTo([dest.lat, dest.lng], 10, { animate: true, duration: 1.4 });
           } else {
-            map.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1200 });
+            map.flyTo(INITIAL_CENTER, INITIAL_ZOOM, { animate: true, duration: 1.2 });
           }
           return next;
         });
       });
 
-      new maplibregl.Marker({ element: el, anchor: "bottom" })
-        .setLngLat([dest.lng, dest.lat])
-        .addTo(map);
+      marker.addTo(map);
+      markerRefs.current[dest.id] = marker;
     });
 
     mapRef.current = map;
     return () => {
       map.remove();
       mapRef.current = null;
+      markerRefs.current = {};
     };
   }, []);
 
-  // Scale active pin up
+  // Update active pin icon when selection changes
   useEffect(() => {
-    Object.entries(pinEls.current).forEach(([id, el]) => {
-      const active = selected?.id === id;
-      el.style.transform = active ? "scale(1.35)" : "scale(1)";
-      el.style.zIndex = active ? "10" : "1";
+    DESTINATIONS.forEach((dest) => {
+      const marker = markerRefs.current[dest.id];
+      if (marker) {
+        marker.setIcon(makeDivIcon(dest, selected?.id === dest.id));
+      }
     });
   }, [selected]);
 
@@ -370,14 +370,9 @@ export default function ToursMap({ lang }: { lang: Locale }) {
     const next = selected?.id === dest.id ? null : dest;
     setSelected(next);
     if (next) {
-      mapRef.current?.flyTo({
-        center: [dest.lng, dest.lat],
-        zoom: 10,
-        duration: 1400,
-        easing: (t) => 1 - Math.pow(1 - t, 3),
-      });
+      mapRef.current?.flyTo([dest.lat, dest.lng], 10, { animate: true, duration: 1.4 });
     } else {
-      mapRef.current?.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1200 });
+      mapRef.current?.flyTo(INITIAL_CENTER, INITIAL_ZOOM, { animate: true, duration: 1.2 });
     }
   };
 
@@ -387,8 +382,11 @@ export default function ToursMap({ lang }: { lang: Locale }) {
       style={{ background: "linear-gradient(180deg,#0D150D 0%,#111711 100%)" }}
     >
       <style>{`
-        .maplibregl-ctrl-attrib { font-size: 9px !important; }
-        .maplibregl-ctrl-group { border-radius: 8px !important; overflow: hidden; }
+        .leaflet-control-attribution { font-size: 9px !important; background: rgba(0,0,0,0.55) !important; color: rgba(255,255,255,0.6) !important; }
+        .leaflet-control-attribution a { color: rgba(255,255,255,0.7) !important; }
+        .leaflet-control-zoom { border-radius: 8px !important; overflow: hidden; border: none !important; }
+        .leaflet-control-zoom a { background: rgba(20,30,20,0.85) !important; color: #fff !important; border-color: rgba(255,255,255,0.12) !important; }
+        .leaflet-control-zoom a:hover { background: rgba(40,55,40,0.95) !important; }
         .dest-scroll::-webkit-scrollbar { display: none; }
         .dest-row { background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.05); width: 100%; text-align: left; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 11px 16px; }
         .dest-row:hover { background: rgba(255,255,255,0.05) !important; }
@@ -419,7 +417,6 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             style={{ background: "#08100a", borderRight: "1px solid rgba(255,255,255,0.07)", height: 560 }}
           >
             {selected ? (
-              /* Detail view */
               <div className="flex flex-col h-full overflow-hidden">
                 <button
                   onClick={() => pick(selected)}
@@ -454,7 +451,6 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                 </div>
               </div>
             ) : (
-              /* List view */
               <div className="flex flex-col h-full overflow-hidden">
                 <div
                   style={{
@@ -508,7 +504,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             )}
           </div>
 
-          {/* Map canvas — single ref, responsive height */}
+          {/* Map canvas */}
           <div className="relative flex-1 h-[360px] lg:h-[560px]">
             <div ref={containerRef} className="absolute inset-0" />
           </div>

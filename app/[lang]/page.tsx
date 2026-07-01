@@ -24,7 +24,9 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
   return {
-    title: "Marrakech Eco Tours — Trekking, Desert Tours & Cultural Excursions in Morocco",
+    title: {
+      absolute: "Marrakech Eco Tours — Trekking, Desert Tours & Cultural Excursions in Morocco",
+    },
     description: dict.hero.subheadline,
     openGraph: {
       title: "Marrakech Eco Tours — Morocco Adventures",

@@ -109,7 +109,7 @@ export default async function LocaleLayout({
         <Footer lang={locale} dict={dict} />
         <WhatsAppButton />
         <CookieBanner />
-        <Toaster position="bottom-left" richColors />
+        <Toaster richColors />
         <Analytics />
         <SpeedInsights />
       </body>

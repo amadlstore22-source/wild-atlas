@@ -291,26 +291,19 @@ export default function ToursMap({ lang }: { lang: Locale }) {
       style: {
         version: 8,
         sources: {
-          satellite: {
+          carto: {
             type: "raster",
             tiles: [
-              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+              "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+              "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+              "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
             ],
             tileSize: 256,
-            attribution:
-              "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong)",
-          },
-          labels: {
-            type: "raster",
-            tiles: [
-              "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
-            ],
-            tileSize: 256,
+            attribution: "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors © <a href='https://carto.com/attributions'>CARTO</a>",
           },
         },
         layers: [
-          { id: "satellite", type: "raster", source: "satellite" },
-          { id: "labels", type: "raster", source: "labels" },
+          { id: "carto", type: "raster", source: "carto" },
         ],
       },
       center: INITIAL_CENTER,

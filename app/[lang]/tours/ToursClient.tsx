@@ -1,5 +1,6 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
+import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
 import { TOURS, CATEGORIES, type Category, type Difficulty, type Origin } from "@/lib/tours";
@@ -12,13 +13,36 @@ interface Props {
   dict: Dictionary;
   initialSearch?: string;
   initialOrigin?: string;
+  initialCategory?: string;
+  initialDifficulty?: string;
 }
 
-export default function ToursClient({ lang, dict, initialSearch = "", initialOrigin = "" }: Props) {
-  const [search, setSearch] = useState(initialSearch);
-  const [category, setCategory] = useState<Category | "all">("all");
-  const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
-  const [origin, setOrigin] = useState<Origin | "all">((initialOrigin as Origin) || "all");
+export default function ToursClient({ lang, dict, initialSearch = "", initialOrigin = "", initialCategory = "", initialDifficulty = "" }: Props) {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const [search, setSearchState] = useState(initialSearch);
+  const [category, setCategoryState] = useState<Category | "all">((initialCategory as Category) || "all");
+  const [difficulty, setDifficultyState] = useState<Difficulty | "all">((initialDifficulty as Difficulty) || "all");
+  const [origin, setOriginState] = useState<Origin | "all">((initialOrigin as Origin) || "all");
+
+  const pushURL = useCallback(
+    (q: string, cat: string, diff: string, orig: string) => {
+      const params = new URLSearchParams();
+      if (q) params.set("q", q);
+      if (cat !== "all") params.set("cat", cat);
+      if (diff !== "all") params.set("diff", diff);
+      if (orig !== "all") params.set("origin", orig);
+      const qs = params.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    },
+    [router, pathname]
+  );
+
+  function setSearch(v: string) { setSearchState(v); pushURL(v, category, difficulty, origin); }
+  function setCategory(v: Category | "all") { setCategoryState(v); pushURL(search, v, difficulty, origin); }
+  function setDifficulty(v: Difficulty | "all") { setDifficultyState(v); pushURL(search, category, v, origin); }
+  function setOrigin(v: Origin | "all") { setOriginState(v); pushURL(search, category, difficulty, v); }
 
   const DIFFICULTIES: { id: Difficulty | "all"; label: string }[] = [
     { id: "all", label: dict.tours.allLevels },
@@ -52,10 +76,11 @@ export default function ToursClient({ lang, dict, initialSearch = "", initialOri
   const hasFilters = search !== "" || category !== "all" || difficulty !== "all" || origin !== "all";
 
   function clearAll() {
-    setSearch("");
-    setCategory("all");
-    setDifficulty("all");
-    setOrigin("all");
+    setSearchState("");
+    setCategoryState("all");
+    setDifficultyState("all");
+    setOriginState("all");
+    router.replace(pathname, { scroll: false });
   }
 
   const toursFoundText = filtered.length === 1

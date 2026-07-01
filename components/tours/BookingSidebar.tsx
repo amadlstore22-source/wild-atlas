@@ -19,9 +19,9 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
   const paypalUrl = `https://www.paypal.com/paypalme/${SITE.paypal}/${tour.depositAmount}`;
-  const priceMax = tour.priceMax ?? Math.round(tour.price * 1.35 / 10) * 10;
+  const priceMax = tour.priceMax ?? null;
   const totalMin = tour.price * people;
-  const totalMax = priceMax * people;
+  const totalMax = priceMax ? priceMax * people : null;
 
   return (
     <>
@@ -30,7 +30,9 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
         {/* Price header */}
         <div className="bg-forest p-6 text-white">
           <div className="text-white/70 text-xs uppercase tracking-widest mb-1">Price per person</div>
-          <div className="font-serif text-4xl font-bold">${tour.price} – ${priceMax}</div>
+          <div className="font-serif text-4xl font-bold">
+            ${tour.price}{priceMax ? ` – $${priceMax}` : ""}
+          </div>
           <div className="text-white/55 text-xs mt-1">exact price agreed on booking</div>
           <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">
             <div>
@@ -127,7 +129,9 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
               {people > 0 && (
                 <div className="flex items-center justify-between bg-forest/5 border border-forest/10 px-4 py-2.5 rounded-xl">
                   <span className="text-xs text-charcoal/50">Est. total</span>
-                  <span className="font-bold text-forest text-sm">${totalMin.toLocaleString()} – ${totalMax.toLocaleString()}</span>
+                  <span className="font-bold text-forest text-sm">
+                    ${totalMin.toLocaleString()}{totalMax ? ` – $${totalMax.toLocaleString()}` : ""}
+                  </span>
                 </div>
               )}
 
@@ -203,7 +207,7 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
         <div className="flex-1 min-w-0">
           <div className="text-xs text-charcoal/40">Per person</div>
           <div className="font-bold text-forest text-xl leading-tight">
-            ${tour.price}–${priceMax} <span className="text-xs font-normal text-charcoal/35">/ person</span>
+            ${tour.price}{priceMax ? `–$${priceMax}` : ""} <span className="text-xs font-normal text-charcoal/35">/ person</span>
           </div>
         </div>
         <a

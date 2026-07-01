@@ -189,7 +189,9 @@
     "contact": "Contact",
     "rights": "Tous droits réservés.",
     "privacy": "Politique de confidentialité",
-    "terms": "Conditions générales"
+    "terms": "Conditions générales",
+    "newsletter": "Conseils de voyage & offres exclusives",
+    "newsletterBtn": "S'abonner"
   },
   "news": {
     "eyebrow": "Du monde du voyage",

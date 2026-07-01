@@ -115,15 +115,17 @@ export default function Testimonials({ dict }: Props) {
     return () => window.removeEventListener("keydown", onKey);
   }, [prev, next]);
 
-  // Auto-advance every 6 s, pause on hover
+  // Auto-advance with delay proportional to review length, pause on hover
   useEffect(() => {
     if (isHovered) return;
-    const id = setInterval(() => {
+    const wordCount = REVIEWS[idx].text.split(" ").length;
+    const delay = Math.max(6000, wordCount * 240);
+    const id = setTimeout(() => {
       setDirection(1);
       setIdx((i) => (i + 1) % REVIEWS.length);
-    }, 6000);
-    return () => clearInterval(id);
-  }, [isHovered]);
+    }, delay);
+    return () => clearTimeout(id);
+  }, [isHovered, idx]);
 
   return (
     <section
@@ -292,6 +294,7 @@ export default function Testimonials({ dict }: Props) {
             <div
               key={`${idx}-${isHovered}`}
               className={`h-full bg-forest rounded-full autoplay-bar${isHovered ? " paused" : ""}`}
+              style={{ animationDuration: `${Math.max(6000, REVIEWS[idx].text.split(" ").length * 240) / 1000}s` }}
             />
           </div>
         </div>

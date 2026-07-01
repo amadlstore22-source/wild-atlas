@@ -109,7 +109,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             <div>
               <span className="text-white/35 text-xs">{fromLabel}</span>
               <p className="font-bold text-white text-2xl leading-tight">
-                ${tour.price} – ${tour.priceMax ?? Math.round(tour.price * 1.35 / 10) * 10}
+                {tour.priceMax
+                  ? `$${tour.price} – $${tour.priceMax}`
+                  : `$${tour.price}`}
                 <span className="text-sm font-normal text-white/60"> {perPersonLabel}</span>
               </p>
             </div>
@@ -202,7 +204,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           <div className="price-beacon px-2 py-1 -mx-2 -my-1 rounded-lg">
             <span className="text-xs text-charcoal/35">{fromLabel}</span>
             <p className="font-bold text-forest text-xl leading-tight">
-              ${tour.price} – ${tour.priceMax ?? Math.round(tour.price * 1.35 / 10) * 10}
+              {tour.priceMax
+                ? `$${tour.price} – $${tour.priceMax}`
+                : `$${tour.price}`}
               <span className="text-xs font-normal text-charcoal/35"> {perPersonLabel}</span>
             </p>
           </div>

@@ -131,7 +131,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                     ))}
                   </div>
                   <p className="text-charcoal text-xs leading-relaxed font-medium italic">
-                    &ldquo;Best trip of my life. Do not hesitate.&rdquo;
+                    &ldquo;He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride.&rdquo;
                   </p>
                   <p className="text-charcoal/40 text-xs mt-2 font-semibold">Katherine L., United Kingdom</p>
                 </motion.div>

@@ -11,7 +11,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export default function TrustBar({ dict }: Props) {
   const SIGNALS = [
     { icon: Star,      value: "4.7",                          label: "Rated 4.7 / 5",          weight: "fill" as const,    color: "text-sunset" },
-    { icon: Users,     value: "Small",                        label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
+    { icon: Users,     value: "Max 10",                       label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
     { icon: Leaf,      value: "100%",                         label: dict.trustBar.ecoFriendly, weight: "duotone" as const, color: "text-moss" },
     { icon: Shield,    value: `${SITE.depositDays} days`,     label: dict.trustBar.flexible,    weight: "duotone" as const, color: "text-forest" },
     { icon: Mountains, value: `${SITE.experienceYears}+ yrs`, label: dict.trustBar.certified,   weight: "duotone" as const, color: "text-sunset" },

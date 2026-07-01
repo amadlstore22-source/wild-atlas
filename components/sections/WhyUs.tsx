@@ -95,9 +95,8 @@ export default function WhyUs({ dict }: Props) {
                 transition={{ duration: 0.55, ease, delay: 0.05 + i * 0.1 }}
                 whileHover={{ y: -4, backgroundColor: "rgba(255,255,255,0.13)" }}
               >
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-4 shrink-0"
-                     style={{ background: "rgba(139,94,60,0.25)", border: "1px solid rgba(139,94,60,0.45)" }}>
-                  <item.icon className="w-5 h-5 text-[#d4956a]" weight="duotone" />
+                <div className="w-10 h-10 rounded-xl bg-sunset/20 border border-sunset/35 flex items-center justify-center mb-4 shrink-0">
+                  <item.icon className="w-5 h-5 text-sunset" weight="duotone" />
                 </div>
                 <h3 className="font-semibold text-white text-sm mb-2">{item.title}</h3>
                 <p className="text-white/65 text-xs leading-relaxed">{item.body}</p>
@@ -131,13 +130,12 @@ export default function WhyUs({ dict }: Props) {
             >
               <div className="flex items-center gap-3 mb-3">
                 <motion.div
-                  className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
-                  style={{ background: "rgba(139,94,60,0.22)", border: "1px solid rgba(139,94,60,0.5)" }}
-                  whileInView={{ borderColor: "rgba(139,94,60,0.75)" }}
+                  className="w-10 h-10 rounded-full bg-sunset/20 border border-sunset/35 flex items-center justify-center shrink-0"
+                  whileInView={{ borderColor: "rgba(var(--color-sunset), 0.6)" }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: 0.3 + i * 0.1 }}
                 >
-                  <span className="font-mono text-[#d4956a] text-xs font-bold">{s.num}</span>
+                  <span className="font-mono text-sunset text-xs font-bold">{s.num}</span>
                 </motion.div>
                 <div className="h-px flex-1 bg-white/12 lg:hidden" />
               </div>

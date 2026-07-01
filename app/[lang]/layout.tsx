@@ -7,6 +7,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import CookieBanner from "@/components/ui/CookieBanner";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import { Analytics } from "@vercel/analytics/next";
@@ -107,6 +108,7 @@ export default async function LocaleLayout({
         <main className="flex-1">{children}</main>
         <Footer lang={locale} dict={dict} />
         <WhatsAppButton />
+        <CookieBanner />
         <Toaster position="bottom-left" richColors />
         <Analytics />
         <SpeedInsights />

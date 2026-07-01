@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mountains, Envelope, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { SITE, SOCIAL } from "@/lib/constants";
+import NewsletterForm from "@/components/ui/NewsletterForm";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const SOCIAL_ICONS = [
@@ -210,6 +211,17 @@ export default function Footer({ lang, dict }: Props) {
                 English · French · Arabic · Spanish
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Newsletter */}
+        <div className="border-t border-white/8 pt-10 pb-8 grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6">
+          <div>
+            <p className="text-white/80 text-sm font-semibold">{dict.footer.newsletter}</p>
+            <p className="text-white/40 text-xs mt-0.5">No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.</p>
+          </div>
+          <div className="sm:min-w-[340px]">
+            <NewsletterForm placeholder="your@email.com" buttonLabel={dict.footer.newsletterBtn} />
           </div>
         </div>
 

@@ -9,6 +9,7 @@ import BookingSidebar from "@/components/tours/BookingSidebar";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import RelatedTours from "@/components/tours/RelatedTours";
+import TourNavBar from "@/components/tours/TourNavBar";
 import { getDictionary, hasLocale } from "../../dictionaries";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
@@ -134,6 +135,8 @@ export default async function TourDetailPage({ params }: TourParams) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
 
+      <TourNavBar />
+
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
         <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
@@ -167,7 +170,7 @@ export default async function TourDetailPage({ params }: TourParams) {
           <div className="lg:col-span-2 space-y-12">
             <TourGallery images={tour.gallery} title={tour.title} />
 
-            <section>
+            <section id="tour-overview" className="scroll-mt-32">
               <h2 className="font-serif text-charcoal text-3xl font-bold mb-4">{dict.tourDetail.overview}</h2>
               <p className="text-charcoal/70 text-lg leading-relaxed mb-6">{tour.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -180,9 +183,11 @@ export default async function TourDetailPage({ params }: TourParams) {
               </div>
             </section>
 
-            <TourItinerary itinerary={tour.itinerary} />
+            <div id="tour-itinerary" className="scroll-mt-32">
+              <TourItinerary itinerary={tour.itinerary} />
+            </div>
 
-            <section>
+            <section id="tour-included" className="scroll-mt-32">
               <h2 className="font-serif text-charcoal text-3xl font-bold mb-6">{dict.tourDetail.whatsIncluded}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div>
@@ -209,7 +214,7 @@ export default async function TourDetailPage({ params }: TourParams) {
             </section>
           </div>
 
-          <div className="lg:col-span-1">
+          <div id="tour-book" className="lg:col-span-1 scroll-mt-32">
             <div className="sticky top-24">
               <BookingSidebar tour={tour} />
               <div className="mt-4 bg-forest rounded-2xl p-5 text-white">

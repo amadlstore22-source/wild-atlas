@@ -86,11 +86,9 @@ function extractImage(item: any): string | null {
   return null;
 }
 
-const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
-
 async function _fetchNewsArticles(): Promise<NewsArticle[]> {
   const parser = new Parser({
-    timeout: 8000,
+    timeout: 5000,
     customFields: {
       item: [
         ["media:content", "media:content"],
@@ -102,12 +100,10 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
 
   const morocco: NewsArticle[] = [];
   const travel: NewsArticle[] = [];
-  const cutoff = Date.now() - THIRTY_DAYS_MS;
 
   const results = await Promise.allSettled(
     RSS_SOURCES.map(async (source) => {
       const feed = await parser.parseURL(source.url);
-      // Fetch extra items so we still have enough after date/keyword filtering
       const items = (feed.items ?? []).slice(0, source.maxItems * 4);
       return { source, items };
     })
@@ -127,7 +123,6 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
       if (!isRelevant(title, excerpt, source.category)) continue;
 
       const publishedAt = item.isoDate ?? item.pubDate ?? new Date().toISOString();
-      if (new Date(publishedAt).getTime() < cutoff) continue;
 
       const imageUrl = extractImage(item);
 

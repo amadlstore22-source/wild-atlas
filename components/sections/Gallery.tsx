@@ -12,10 +12,10 @@ const PHOTOS = [
   { src: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=800&q=85", alt: "Fes tanneries colourful dye vats Morocco", span: "col-span-1 row-span-2" },
   { src: "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=85", alt: "Essaouira blue fishing boats Atlantic coast Morocco" },
   { src: "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=85", alt: "The blue-washed streets of Chefchaouen in the Rif Mountains" },
-  { src: "/gallery/IMG_20260616_142350.jpg", alt: "Imlil valley village with mosque minaret among walnut trees, High Atlas Morocco" },
-  { src: "/gallery/IMG_20260616_142428.jpg", alt: "Snow-dusted Toubkal peak above a Berber village, seen from a traditional riad terrace" },
-  { src: "/gallery/IMG_20260630_142847.jpg", alt: "Atlas mountain waterfall cascading through dark volcanic rock faces, High Atlas Morocco" },
-  { src: "/gallery/IMG_20260630_142912.jpg", alt: "Blue-hour view of a Berber village below snow-capped High Atlas peaks near Toubkal", span: "col-span-1 row-span-2" },
+  { src: "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=800&q=85", alt: "Berber stone-built village below snow-capped Atlas peaks, High Atlas Morocco" },
+  { src: "https://images.unsplash.com/photo-1443904364754-fb9a64fe19e5?w=800&q=85", alt: "Winding mountain road ascending through the High Atlas range, Morocco" },
+  { src: "https://images.unsplash.com/photo-1585213303822-f19214012600?w=800&q=85", alt: "Ouzoud waterfalls cascading through forested gorge scenery, Morocco" },
+  { src: "https://images.unsplash.com/photo-1670406071586-d6c619eab22b?w=800&q=85", alt: "Dramatic rocky Dadès Gorge landscape with layered sandstone cliffs, Morocco", span: "col-span-1 row-span-2" },
 ];
 
 interface Props {

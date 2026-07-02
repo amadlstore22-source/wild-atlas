@@ -340,6 +340,8 @@ export default function ToursMap({ lang }: { lang: Locale }) {
     });
 
     mapRef.current = map;
+    // Re-measure after React paint to catch any layout reflow on mobile
+    setTimeout(() => map.invalidateSize(), 100);
     return () => {
       map.remove();
       mapRef.current = null;
@@ -504,8 +506,8 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             )}
           </div>
 
-          {/* Map canvas */}
-          <div className="relative flex-1 h-[360px] lg:h-[560px]">
+          {/* Map canvas — on mobile use explicit height (flex-1 overrides height in flex-col); on desktop flex-1 fills the row */}
+          <div className="relative h-[360px] lg:flex-1 lg:h-[560px]">
             <div ref={containerRef} className="absolute inset-0" />
           </div>
         </div>

@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       title: dict.contact.pageTitle,
       description: dict.contact.pageSubtitle,
       url: `https://marrakechecotours.com/${lang}/contact`,
-      images: [{ url: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80", width: 1200, height: 630, alt: "Contact Marrakech Eco Tours" }],
+      images: [{ url: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&q=80", width: 1200, height: 630, alt: "Contact Marrakech Eco Tours" }],
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/contact`,
@@ -73,7 +73,7 @@ export default async function ContactPage({ params }: LangParams) {
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1920&q=80"
           alt="Traditional Moroccan mint tea being poured in a riad"
           fill
           className="object-cover object-center"

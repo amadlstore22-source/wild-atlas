@@ -1402,7 +1402,7 @@ The gite is not a hotel. It is a working mountain operation that has been in one
     excerpt:
       "From Casablanca to Toubkal. From Rabat to the Sahara. Millions of Moroccans have never climbed their own highest mountain or slept under their own desert sky. Here's why domestic adventure travel is having a moment — and where to start.",
     heroImage:
-      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1600&q=85",
+      "/gallery/IMG_20260630_142847.jpg",
     category: "culture",
     region: "root",
     readTime: 8,
@@ -1475,8 +1475,7 @@ The Atlas has been here for 300 million years. It will wait. But it is also wort
     title: "What to Pack for a High Atlas Trek: The Complete Gear List (From Our Guides)",
     excerpt:
       "Our guides have led thousands of trekkers through the High Atlas. This is the gear list they actually use — not the one that sells you expensive things you don't need.",
-    heroImage:
-      "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1600&q=85",
+    heroImage: "/gallery/IMG_20260616_142350.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,

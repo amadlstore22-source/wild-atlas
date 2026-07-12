@@ -42,10 +42,23 @@ const RELEVANCE_KEYWORDS = [
   "holiday", "vacation", "trip", "culture", "heritage",
 ];
 
-// Morocco-category sources are already scoped to Morocco — accept all
+// Topics that are "Morocco news" but not travel/adventure — a tour site should
+// not surface football transfers, salary stats, elections, crime, or war.
+const EXCLUDE_KEYWORDS = [
+  "football", "soccer", "cup", "league", "match", "goal", "striker", "coach",
+  "salary", "wage", "gdp", "economy", "inflation", "stock", "election",
+  "minister", "parliament", "vote", "protest", "war", "military", "troops",
+  "killed", "death", "dead", "attack", "shooting", "crime", "arrest", "court",
+  "trial", "prison", "migrant", "smuggl", "drug", "earthquake victim",
+];
+
 function isRelevant(title: string, excerpt: string, category: "morocco" | "travel"): boolean {
-  if (category === "morocco") return true;
   const text = (title + " " + excerpt).toLowerCase();
+  // Morocco sources are already country-scoped, but reject non-travel news so the
+  // feed reads like a travel section, not a general newswire.
+  if (category === "morocco") {
+    return !EXCLUDE_KEYWORDS.some((kw) => text.includes(kw));
+  }
   return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
 }
 
@@ -142,9 +155,27 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
     }
   }
 
-  // Sort each bucket newest-first, then enforce 70/30: 4 Morocco + 2 travel
-  morocco.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-  travel.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  // Rank by relevance first, recency second — so a Morocco/adventure article
+  // outranks generic global travel even if it's a few days older. Keeps the
+  // feed feeling on-brand instead of "newest wire item wins".
+  const MOROCCO_TERMS = ["morocco", "moroccan", "marrakech", "sahara", "atlas", "fes", "agadir", "essaouira", "chefchaouen", "berber", "amazigh", "medina", "casablanca", "tangier"];
+  const TRAVEL_TERMS = ["trek", "hike", "hiking", "trail", "desert", "adventure", "tour", "guide", "mountain", "camp", "dunes", "oasis", "valley", "beach", "surf", "culture", "heritage", "food"];
+
+  function score(a: NewsArticle): number {
+    const text = (a.title + " " + a.excerpt).toLowerCase();
+    let s = 0;
+    for (const t of MOROCCO_TERMS) if (text.includes(t)) s += 5;
+    for (const t of TRAVEL_TERMS) if (text.includes(t)) s += 2;
+    if (a.imageUrl) s += 3; // prefer articles with a real image
+    // Recency bonus: up to +6 for articles in the last ~30 days
+    const ageDays = (Date.now() - new Date(a.publishedAt).getTime()) / 86_400_000;
+    s += Math.max(0, 6 - ageDays / 5);
+    return s;
+  }
+
+  const byScore = (a: NewsArticle, b: NewsArticle) => score(b) - score(a);
+  morocco.sort(byScore);
+  travel.sort(byScore);
 
   return [...morocco.slice(0, 4), ...travel.slice(0, 2)];
 }

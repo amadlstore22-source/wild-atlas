@@ -15,7 +15,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import TrailConditions from "@/components/sections/TrailConditions";
-import { SITE } from "@/lib/constants";
+import { SITE, TRIPADVISOR } from "@/lib/constants";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -82,12 +82,14 @@ const websiteJsonLd = {
       sameAs: [
         "https://instagram.com/met_morocco",
         "https://facebook.com/marrakechecotours",
+        TRIPADVISOR.url,
       ],
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.7",
-        reviewCount: "247",
+        ratingValue: TRIPADVISOR.rating.toFixed(1),
+        reviewCount: String(TRIPADVISOR.reviewCount),
         bestRating: "5",
+        worstRating: "1",
       },
     },
     {

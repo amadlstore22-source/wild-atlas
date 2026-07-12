@@ -22,8 +22,8 @@ interface RssSource {
 const RSS_SOURCES: RssSource[] = [
   { url: "https://www.theguardian.com/world/morocco/rss", name: "The Guardian", category: "morocco", maxItems: 8 },
   { url: "https://moroccotravelblog.com/feed/", name: "Morocco Travel Blog", category: "morocco", maxItems: 6 },
-  { url: "https://www.theguardian.com/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 6 },
-  { url: "https://www.cntraveler.com/feed/rss", name: "Condé Nast Traveler", category: "travel", maxItems: 5 },
+  { url: "https://www.theguardian.com/uk/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 6 },
+  { url: "https://www.journeybeyondtravel.com/blog/feed", name: "Journey Beyond Travel", category: "travel", maxItems: 5 },
   { url: "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml", name: "NYT Travel", category: "travel", maxItems: 5 },
   { url: "https://www.atlasandboots.com/feed/", name: "Atlas & Boots", category: "travel", maxItems: 4 },
 ];

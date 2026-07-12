@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Mountains, Envelope, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
-import { SITE, SOCIAL } from "@/lib/constants";
+import { SITE, SOCIAL, TRIPADVISOR } from "@/lib/constants";
 import NewsletterForm from "@/components/ui/NewsletterForm";
+import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const SOCIAL_ICONS = [
@@ -83,7 +84,7 @@ export default function Footer({ lang, dict }: Props) {
             <div className="flex flex-wrap items-center gap-5">
               <span className="flex items-center gap-1.5">
                 <span className="text-[#FFB800]">★★★★★</span>
-                <span>4.7 average rating</span>
+                <span>{TRIPADVISOR.rating.toFixed(1)} average rating</span>
               </span>
               <span className="hidden sm:block text-white/15">·</span>
               <span>{SITE.clientCount} happy travelers</span>
@@ -127,6 +128,7 @@ export default function Footer({ lang, dict }: Props) {
               <MapPin className="w-3.5 h-3.5 text-sunset shrink-0 mt-0.5" />
               <span>Marrakech, Morocco<br />Open Mon – Sun · 08:00 – 20:00</span>
             </div>
+            <TripAdvisorBadge variant="dark" className="mt-5" />
           </div>
 
           {/* Adventures */}

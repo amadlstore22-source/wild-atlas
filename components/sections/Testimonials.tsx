@@ -3,6 +3,8 @@ import { useState, useEffect, useCallback } from "react";
 import { Star, ArrowLeft, ArrowRight } from "@phosphor-icons/react";
 import { motion, AnimatePresence } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
+import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
+import { TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 const REVIEWS = [
@@ -144,6 +146,17 @@ export default function Testimonials({ dict }: Props) {
             <p className="text-charcoal/45 text-sm mt-2 max-w-xs">
               {dict.testimonials.subtitle}
             </p>
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <TripAdvisorBadge variant="full" />
+              <a
+                href={TRIPADVISOR.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-semibold text-forest underline underline-offset-4 decoration-forest/30 hover:decoration-forest transition-colors"
+              >
+                Read all {TRIPADVISOR.reviewCount} reviews →
+              </a>
+            </div>
           </div>
           <div className="flex items-center gap-3 shrink-0">
             <motion.button

@@ -29,6 +29,18 @@ export const SOCIAL = {
   youtube: "https://youtube.com/@marrakechecotours",
 } as const;
 
+// TripAdvisor listing: "Morocco Tours With Locals" (same team, sister brand).
+// Real, verifiable numbers — keep these in sync with the live listing and use
+// them everywhere a rating is shown so structured data stays consistent.
+export const TRIPADVISOR = {
+  url: "https://www.tripadvisor.com/Attraction_Review-g293734-d18455591-Reviews-Morocco_Tours_With_Locals-Marrakech_Marrakech_Safi.html",
+  listingName: "Morocco Tours With Locals",
+  rating: 5.0,
+  reviewCount: 122,
+  ranking: 310,
+  rankingOutOf: 3979,
+} as const;
+
 export const WHATSAPP_MESSAGES = {
   general: "Hello! I'm interested in booking a tour with Marrakech Eco Tours.",
   custom: "Hello! I'd like to plan a custom Morocco adventure. Could you help me?",

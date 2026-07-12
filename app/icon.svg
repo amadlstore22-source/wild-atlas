@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="14" fill="#4B5D3A"/>
+  <!-- Atlas mountains, sand-colored, matching the site logo -->
+  <path d="M8 46 L22 22 L31 36 L38 26 L56 46 Z" fill="#E9DDC7"/>
+  <!-- Snow cap on the main peak -->
+  <path d="M22 22 L27 30 L22 33 L17 30 Z" fill="#FBF7EE"/>
+  <!-- Second peak snow -->
+  <path d="M38 26 L42 32 L38 34 L34 32 Z" fill="#FBF7EE"/>
+  <!-- Sun -->
+  <circle cx="46" cy="18" r="5" fill="#C97B4A"/>
+</svg>

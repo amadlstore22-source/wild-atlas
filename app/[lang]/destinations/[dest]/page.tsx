@@ -124,7 +124,7 @@ export default async function DestinationPage({ params }: PageParams) {
               <span className="text-white/70">{destination.name}</span>
             </nav>
 
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.18em] mb-3">
+            <p className="inline-block bg-sunset text-white text-xs font-bold uppercase tracking-[0.18em] px-3 py-1 rounded-full mb-3">
               {destination.region}
             </p>
             <h1

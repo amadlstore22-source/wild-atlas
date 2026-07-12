@@ -28,9 +28,11 @@
   --color-charcoal: #111111;
   --color-offwhite: #FFFFFF;
 
-  /* Typography — Fraunces (heritage display) + Hanken Grotesk (clean body) */
-  --font-sans: var(--font-hanken);
-  --font-serif: var(--font-fraunces);
+  /* Typography — Manrope everywhere (clean Samsung-like geometric sans).
+     Both vars point to Manrope so headings (which use --font-serif) and body
+     (--font-sans) share one typeface. Georgia/serif kept only as fallback. */
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-manrope);
 
   --animate-fade-up: fade-up 0.5s ease both;
   --animate-fade-in: fade-in 0.4s ease both;

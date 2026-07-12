@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Fraunces, Hanken_Grotesk, IBM_Plex_Sans_Arabic } from "next/font/google";
+import { Manrope, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
 import "leaflet/dist/leaflet.css";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -15,19 +15,13 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
-const hankenGrotesk = Hanken_Grotesk({
-  variable: "--font-hanken",
+// Manrope — clean geometric sans, closest free match to Samsung's SamsungOne.
+// Used for both body and headings (the two CSS vars below both point here).
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
-});
-
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  axes: ["opsz", "WONK"],
-  display: "swap",
-  style: ["normal", "italic"],
 });
 
 const ibmPlexArabic = IBM_Plex_Sans_Arabic({
@@ -84,7 +78,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={isRtl ? "rtl" : "ltr"}
-      className={`${hankenGrotesk.variable} ${fraunces.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
+      className={`${manrope.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
     >
       <head>
         {LOCALES.map((l) => (

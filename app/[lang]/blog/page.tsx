@@ -20,12 +20,15 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   };
 }
 
+// Solid, high-contrast badges — these sit over hero photos, so a translucent
+// tint with same-hue text disappears on darker images. White text on a solid
+// brand color reads on any background.
 const CATEGORY_COLORS: Record<string, string> = {
-  trekking: "bg-forest/10 text-forest",
-  desert: "bg-sunset/10 text-orange-700",
-  culture: "bg-purple-100 text-purple-700",
-  tips: "bg-blue-100 text-blue-700",
-  wildlife: "bg-green-100 text-green-700",
+  trekking: "bg-forest text-white",
+  desert: "bg-sunset text-white",
+  culture: "bg-purple-600 text-white",
+  tips: "bg-blue-600 text-white",
+  wildlife: "bg-green-700 text-white",
 };
 
 function formatDate(iso: string) {
@@ -108,7 +111,7 @@ export default async function BlogPage({
                   <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 to-transparent lg:bg-none" />
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center bg-charcoal">
-                  <span className="inline-flex items-center gap-2 text-sunset text-xs font-semibold uppercase tracking-widest mb-4">🇲🇦 {dict.blog.completeGuide}</span>
+                  <span className="inline-flex items-center gap-2 text-saffron text-xs font-semibold uppercase tracking-widest mb-4">🇲🇦 {dict.blog.completeGuide}</span>
                   <h2 className="font-serif text-white text-2xl lg:text-4xl font-bold mb-4 group-hover:text-sand transition-colors leading-tight">{pillarPost.title}</h2>
                   <p className="text-white/60 leading-relaxed mb-6 text-sm lg:text-base">{pillarPost.excerpt}</p>
                   <div className="flex items-center gap-3 text-sm text-white/40">

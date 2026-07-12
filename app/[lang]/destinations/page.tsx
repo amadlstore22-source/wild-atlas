@@ -53,7 +53,7 @@ export default async function DestinationsPage({ params }: LangParams) {
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/60 to-charcoal/90" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">
+          <p className="text-saffron text-xs font-bold uppercase tracking-[0.2em] mb-4">
             From Atlas to Atlantic
           </p>
           <h1

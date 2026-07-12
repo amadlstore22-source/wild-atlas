@@ -4,8 +4,13 @@ import { POST } from "@/app/api/contact/route";
 
 beforeEach(() => {
   vi.restoreAllMocks();
-  // No RESEND_API_KEY set — email calls are skipped
-  delete process.env.RESEND_API_KEY;
+  // Default: email is configured and sends succeed. Individual tests override
+  // this to exercise the missing-key (503) or Resend-failure paths.
+  process.env.RESEND_API_KEY = "test-key-123";
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(() => Promise.resolve(new Response(JSON.stringify({ id: "abc" }), { status: 200 }))),
+  );
 });
 
 function makeRequest(body: Record<string, unknown>) {
@@ -62,8 +67,22 @@ describe("POST /api/contact", () => {
     expect(res.status).toBe(200);
   });
 
+  it("returns 503 (not a false success) when RESEND_API_KEY is missing", async () => {
+    delete process.env.RESEND_API_KEY;
+    const req = makeRequest({
+      type: "general",
+      name: "Ahmed",
+      email: "ahmed@example.com",
+      message: "I want to book a trek.",
+    });
+    const res = await POST(req);
+    expect(res.status).toBe(503);
+    const json = await res.json();
+    expect(json.ok).toBeUndefined();
+    expect(json.error).toBeTruthy();
+  });
+
   it("sends emails when RESEND_API_KEY is present", async () => {
-    process.env.RESEND_API_KEY = "test-key-123";
     const fetchMock = vi.fn(() =>
       Promise.resolve(new Response(JSON.stringify({ id: "abc" }), { status: 200 }))
     );

@@ -5,7 +5,10 @@
     "blog": "Blog",
     "contact": "Contact",
     "bookNow": "Book Now",
-    "news": "News"
+    "news": "News",
+    "adventures": "Adventures",
+    "destinations": "Destinations",
+    "gallery": "Gallery"
   },
   "hero": {
     "eyebrow": "Local · Eco-conscious · Authentic",
@@ -36,7 +39,10 @@
     "desert": "Desert",
     "cultural": "Cultural",
     "excursion": "Excursion",
-    "sky": "Sky Adventures"
+    "sky": "Sky Adventures",
+    "dayTours": "Day Tours",
+    "desertTours": "Desert Tours",
+    "culturalTours": "Cultural Tours"
   },
   "featuredTours": {
     "eyebrow": "Most Popular",

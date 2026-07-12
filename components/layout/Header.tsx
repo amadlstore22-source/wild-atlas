@@ -33,16 +33,16 @@ export default function Header({ lang, dict }: Props) {
   const langRef = useRef<HTMLDivElement>(null);
 
   const NAV_ADVENTURES = [
-    { label: "Day Tours", href: `/${lang}/categories/day-tours`, Icon: SunHorizon },
-    { label: "Trekking", href: `/${lang}/categories/trekking`, Icon: Footprints },
-    { label: "Desert Tours", href: `/${lang}/categories/desert`, Icon: Tent },
-    { label: "Cultural Tours", href: `/${lang}/categories/cultural`, Icon: Compass },
+    { label: dict.categories.dayTours, href: `/${lang}/categories/day-tours`, Icon: SunHorizon },
+    { label: dict.categories.trekking, href: `/${lang}/categories/trekking`, Icon: Footprints },
+    { label: dict.categories.desertTours, href: `/${lang}/categories/desert`, Icon: Tent },
+    { label: dict.categories.culturalTours, href: `/${lang}/categories/cultural`, Icon: Compass },
   ];
 
   const NAV = [
     { label: dict.nav.tours, href: `/${lang}/tours` },
-    { label: "Destinations", href: `/${lang}/destinations` },
-    { label: "Gallery", href: `/${lang}#gallery` },
+    { label: dict.nav.destinations, href: `/${lang}/destinations` },
+    { label: dict.nav.gallery, href: `/${lang}#gallery` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
     { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
@@ -119,7 +119,7 @@ export default function Header({ lang, dict }: Props) {
                   isLight ? "text-charcoal" : "text-white/90"
                 }`}
               >
-                Adventures
+                {dict.nav.adventures}
                 <CaretDown
                   className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdown ? "rotate-180" : ""}`}
                   weight="bold"
@@ -251,7 +251,7 @@ export default function Header({ lang, dict }: Props) {
             </Link>
 
             <div className="px-4 pt-3 pb-1">
-              <div className="text-xs font-bold text-charcoal/40 uppercase tracking-widest mb-2">Adventures</div>
+              <div className="text-xs font-bold text-charcoal/40 uppercase tracking-widest mb-2">{dict.nav.adventures}</div>
               {NAV_ADVENTURES.map((child) => (
                 <Link
                   key={child.href}
@@ -272,8 +272,8 @@ export default function Header({ lang, dict }: Props) {
             <div className="h-px bg-sand-dark mx-4 my-1" />
 
             {[
-              { label: "Destinations", href: `/${lang}/destinations` },
-              { label: "Gallery", href: `/${lang}#gallery` },
+              { label: dict.nav.destinations, href: `/${lang}/destinations` },
+              { label: dict.nav.gallery, href: `/${lang}#gallery` },
               { label: dict.nav.blog, href: `/${lang}/blog` },
               { label: dict.nav.about, href: `/${lang}/about` },
               { label: dict.nav.contact, href: `/${lang}/contact` },

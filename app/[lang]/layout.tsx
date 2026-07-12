@@ -58,12 +58,10 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  alternates: {
-    canonical: "https://marrakechecotours.com",
-    languages: Object.fromEntries(
-      LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}`])
-    ),
-  },
+  // NOTE: hreflang/canonical alternates are intentionally NOT set here.
+  // Layout metadata can't know the current path, so a static mapping would
+  // wrongly point every page's alternates at the locale homepage. Each page's
+  // own generateMetadata defines path-correct alternates instead.
 };
 
 export async function generateStaticParams() {

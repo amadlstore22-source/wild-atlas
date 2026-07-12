@@ -13,7 +13,15 @@ export async function POST(req: NextRequest) {
     }
 
     const resendKey = process.env.RESEND_API_KEY;
-    if (resendKey) {
+    if (!resendKey) {
+      console.error("[newsletter] RESEND_API_KEY is not configured — subscriber NOT captured");
+      return NextResponse.json(
+        { error: "Subscription service unavailable. Please try again later." },
+        { status: 503 },
+      );
+    }
+
+    {
       await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: {

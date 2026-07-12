@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { MagnifyingGlass, ArrowRight } from "@phosphor-icons/react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { CATEGORIES } from "@/lib/tours";
-import { SITE } from "@/lib/constants";
+import { SITE, TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -212,10 +212,10 @@ export default function Hero({ lang, dict }: Props) {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                   </svg>
                 ))}
-                <span className="text-white/90 text-xs font-bold ml-1.5">4.7</span>
+                <span className="text-white/90 text-xs font-bold ml-1.5">{TRIPADVISOR.rating.toFixed(1)}</span>
               </div>
               <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">{SITE.clientCount} happy travelers</span>
+              <span className="text-white/60 text-xs">{TRIPADVISOR.reviewCount} TripAdvisor reviews</span>
               <span className="text-white/25 text-xs">·</span>
               <span className="text-white/60 text-xs">Some of Morocco&apos;s finest guides</span>
               <span className="text-white/25 text-xs">·</span>
@@ -235,7 +235,7 @@ export default function Hero({ lang, dict }: Props) {
                 { value: String(SITE.tourCount), label: "Tours & Experiences" },
                 { value: SITE.clientCount, label: "Travellers" },
                 { value: `${SITE.experienceYears}+ yrs`, label: "Guiding Heritage" },
-                { value: "4.7", label: "Star Rating" },
+                { value: TRIPADVISOR.rating.toFixed(1), label: "TripAdvisor Rating" },
               ].map((s, i) => (
                 <motion.div
                   key={s.label}

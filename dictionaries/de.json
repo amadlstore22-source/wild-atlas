@@ -5,7 +5,10 @@
     "blog": "Blog",
     "contact": "Kontakt",
     "bookNow": "Jetzt buchen",
-    "news": "Neuigkeiten"
+    "news": "Neuigkeiten",
+    "adventures": "Abenteuer",
+    "destinations": "Reiseziele",
+    "gallery": "Galerie"
   },
   "hero": {
     "eyebrow": "Marokko & Darüber Hinaus",
@@ -36,7 +39,10 @@
     "desert": "Wüste",
     "cultural": "Kultur",
     "excursion": "Ausflug",
-    "sky": "Luftabenteuer"
+    "sky": "Luftabenteuer",
+    "dayTours": "Tagestouren",
+    "desertTours": "Wüstentouren",
+    "culturalTours": "Kulturtouren"
   },
   "featuredTours": {
     "eyebrow": "Am beliebtesten",
@@ -191,7 +197,8 @@
     "privacy": "Datenschutzerklärung",
     "terms": "Allgemeine Geschäftsbedingungen",
     "newsletter": "Reisetipps & exklusive Angebote",
-    "newsletterBtn": "Abonnieren"
+    "newsletterBtn": "Abonnieren",
+    "destinations": "Reiseziele"
   },
   "news": {
     "eyebrow": "Aus der Welt des Reisens",

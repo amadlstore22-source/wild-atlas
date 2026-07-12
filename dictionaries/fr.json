@@ -5,7 +5,10 @@
     "blog": "Blog",
     "contact": "Contact",
     "bookNow": "Réserver",
-    "news": "Actualités"
+    "news": "Actualités",
+    "adventures": "Aventures",
+    "destinations": "Destinations",
+    "gallery": "Galerie"
   },
   "hero": {
     "eyebrow": "Maroc & Au-delà",
@@ -36,7 +39,10 @@
     "desert": "Désert",
     "cultural": "Culturel",
     "excursion": "Excursion",
-    "sky": "Aventures aériennes"
+    "sky": "Aventures aériennes",
+    "dayTours": "Excursions",
+    "desertTours": "Désert",
+    "culturalTours": "Tours culturels"
   },
   "featuredTours": {
     "eyebrow": "Les plus populaires",
@@ -191,7 +197,8 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales",
     "newsletter": "Conseils de voyage & offres exclusives",
-    "newsletterBtn": "S'abonner"
+    "newsletterBtn": "S'abonner",
+    "destinations": "Destinations"
   },
   "news": {
     "eyebrow": "Du monde du voyage",

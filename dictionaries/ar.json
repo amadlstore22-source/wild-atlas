@@ -5,7 +5,10 @@
     "blog": "المدونة",
     "contact": "اتصل بنا",
     "bookNow": "احجز الآن",
-    "news": "أخبار"
+    "news": "أخبار",
+    "adventures": "مغامرات",
+    "destinations": "الوجهات",
+    "gallery": "معرض الصور"
   },
   "hero": {
     "eyebrow": "المغرب وما وراءه",
@@ -31,12 +34,15 @@
   "categories": {
     "title": "استكشف حسب الفئة",
     "subtitle": "من التريكينج في الجبال العالية إلى نزهات المدينة العتيقة. اعثر على تجربتك المثالية في المغرب.",
-    "trekking": "تريكينج",
+    "trekking": "المشي الجبلي",
     "hiking": "مشي",
     "desert": "صحراء",
     "cultural": "ثقافي",
     "excursion": "رحلة يومية",
-    "sky": "مغامرات جوية"
+    "sky": "مغامرات جوية",
+    "dayTours": "جولات يومية",
+    "desertTours": "جولات صحراوية",
+    "culturalTours": "جولات ثقافية"
   },
   "featuredTours": {
     "eyebrow": "الأكثر شعبية",
@@ -191,7 +197,8 @@
     "privacy": "سياسة الخصوصية",
     "terms": "الشروط والأحكام",
     "newsletter": "نصائح السفر والعروض الحصرية",
-    "newsletterBtn": "اشتراك"
+    "newsletterBtn": "اشتراك",
+    "destinations": "الوجهات"
   },
   "news": {
     "eyebrow": "من عالم السفر",

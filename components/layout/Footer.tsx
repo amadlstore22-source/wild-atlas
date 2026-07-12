@@ -44,11 +44,10 @@ interface Props {
 
 export default function Footer({ lang, dict }: Props) {
   const ADVENTURES = [
-    { label: "Trekking Tours", href: `/${lang}/categories/trekking` },
-    { label: "Desert Tours", href: `/${lang}/categories/desert` },
-    { label: "Hiking Trips", href: `/${lang}/categories/hiking` },
-    { label: "Cultural Tours", href: `/${lang}/categories/cultural` },
-    { label: "Day Tours", href: `/${lang}/categories/day-tours` },
+    { label: dict.categories.trekking, href: `/${lang}/categories/trekking` },
+    { label: dict.categories.desertTours, href: `/${lang}/categories/desert` },
+    { label: dict.categories.dayTours, href: `/${lang}/categories/day-tours` },
+    { label: dict.categories.culturalTours, href: `/${lang}/categories/cultural` },
     { label: dict.hero.fromMarrakech, href: `/${lang}/tours?origin=marrakech` },
     { label: dict.hero.fromAgadir, href: `/${lang}/tours?origin=agadir` },
   ];
@@ -68,7 +67,7 @@ export default function Footer({ lang, dict }: Props) {
     { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
     { label: dict.nav.tours, href: `/${lang}/tours` },
-    { label: "Gallery", href: `/${lang}#gallery` },
+    { label: dict.nav.gallery, href: `/${lang}#gallery` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
     { label: "FAQ", href: `/${lang}/contact#faq` },
     { label: "Privacy Policy", href: `/${lang}/privacy` },
@@ -147,7 +146,7 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Destinations */}
           <div>
-            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">Destinations</h3>
+            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">{dict.footer.destinations}</h3>
             <ul className="space-y-2.5 text-sm text-white/50">
               {DESTINATIONS_LINKS.map((l) => (
                 <li key={l.href}>

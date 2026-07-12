@@ -3,7 +3,7 @@ import { ShieldCheck, UsersThree, Leaf, ChatCircle, MapTrifold, Star, ArrowRight
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import AnimatedNumber from "@/components/ui/AnimatedNumber";
-import { SITE } from "@/lib/constants";
+import { SITE, TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 interface Props { dict: Dictionary }
@@ -33,7 +33,7 @@ export default function WhyUs({ dict }: Props) {
   const STATS: StatItem[] = [
     { animate: { to: SITE.experienceYears, suffix: "+" }, label: dict.ourStory.stat1Label },
     { static: SITE.clientCount, label: dict.ourStory.stat2Label },
-    { animate: { to: 4.7, suffix: "/5", decimals: 1 }, label: "Star rating" },
+    { animate: { to: TRIPADVISOR.rating, suffix: "/5", decimals: 1 }, label: "Star rating" },
     { animate: { to: 100, suffix: "%" }, label: "Licensed guides" },
   ];
 

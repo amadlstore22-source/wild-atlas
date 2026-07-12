@@ -5,7 +5,10 @@
     "blog": "Blog",
     "contact": "Contacto",
     "bookNow": "Reservar",
-    "news": "Noticias"
+    "news": "Noticias",
+    "adventures": "Aventuras",
+    "destinations": "Destinos",
+    "gallery": "Galería"
   },
   "hero": {
     "eyebrow": "Marruecos y Más Allá",
@@ -31,12 +34,15 @@
   "categories": {
     "title": "Explorar por categoría",
     "subtitle": "Desde trekking en alta montaña hasta paseos culturales por la medina. Encuentra tu experiencia perfecta en Marruecos.",
-    "trekking": "Trekking",
+    "trekking": "Senderismo",
     "hiking": "Senderismo",
     "desert": "Desierto",
     "cultural": "Cultural",
     "excursion": "Excursión",
-    "sky": "Aventuras aéreas"
+    "sky": "Aventuras aéreas",
+    "dayTours": "Excursiones",
+    "desertTours": "Desierto",
+    "culturalTours": "Tours culturales"
   },
   "featuredTours": {
     "eyebrow": "Los más populares",
@@ -191,7 +197,8 @@
     "privacy": "Política de privacidad",
     "terms": "Términos y condiciones",
     "newsletter": "Consejos de viaje y ofertas exclusivas",
-    "newsletterBtn": "Suscribirse"
+    "newsletterBtn": "Suscribirse",
+    "destinations": "Destinos"
   },
   "news": {
     "eyebrow": "Del mundo del viaje",

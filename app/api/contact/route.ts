@@ -25,7 +25,18 @@ export async function POST(req: NextRequest) {
     }
 
     const resendKey = process.env.RESEND_API_KEY;
-    if (resendKey) {
+    if (!resendKey) {
+      // Never tell the visitor "sent" when nothing was delivered — a dropped
+      // booking inquiry is lost revenue. Surface a real error so the form shows
+      // its fallback (WhatsApp/email) instead of a false success.
+      console.error("[contact] RESEND_API_KEY is not configured — inquiry NOT delivered");
+      return NextResponse.json(
+        { error: "Email service unavailable. Please reach us on WhatsApp or by email." },
+        { status: 503 },
+      );
+    }
+
+    {
       const emailBody =
         type === "booking"
           ? `New booking inquiry for ${tour}:\n\nName: ${name}\nEmail: ${email}\nDate: ${date || "flexible"}\nPeople: ${people}`

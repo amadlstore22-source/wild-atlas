@@ -22,7 +22,7 @@ export interface BlogAuthor {
   isGuest?: boolean;
 }
 
-export const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false };
+const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false };
 
 export interface BlogPost {
   slug: string;

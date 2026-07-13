@@ -77,16 +77,17 @@ export default function Header({ lang, dict }: Props) {
     setLangOpen(false);
   }
 
-  const isLight = scrolled || open || !pathname.match(/^\/[a-z]{2}(\/)?$/);
+  // Always-light header — the redesign uses light/photo heroes with their own
+  // scrim, so the transparent-over-dark state is no longer needed. `scrolled`
+  // still adds a slightly stronger shadow once you scroll.
+  const isLight = true;
   const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
   const currentLocale = LOCALES.find((l) => l.code === lang)!;
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isLight
-          ? "bg-white/97 backdrop-blur-md shadow-sm border-b border-sand-dark"
-          : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-sand-dark ${
+        scrolled ? "shadow-sm" : "shadow-none"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

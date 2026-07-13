@@ -17,19 +17,94 @@ interface RssSource {
   name: string;
   category: "morocco" | "travel";
   maxItems: number;
+  /** true = feed is already limited to Morocco; false = broad feed that must
+   *  explicitly mention Morocco to qualify. */
+  scoped: boolean;
+  /** Evergreen blogs (undated posts) — used only to backfill when there isn't
+   *  enough genuinely fresh dated news. Not counted as "real news". */
+  evergreen?: boolean;
 }
 
 const RSS_SOURCES: RssSource[] = [
-  { url: "https://www.theguardian.com/world/morocco/rss", name: "The Guardian", category: "morocco", maxItems: 8 },
-  { url: "https://moroccotravelblog.com/feed/", name: "Morocco Travel Blog", category: "morocco", maxItems: 6 },
-  { url: "https://www.theguardian.com/uk/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 6 },
-  { url: "https://www.journeybeyondtravel.com/blog/feed", name: "Journey Beyond Travel", category: "travel", maxItems: 5 },
-  { url: "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml", name: "NYT Travel", category: "travel", maxItems: 5 },
-  { url: "https://www.atlasandboots.com/feed/", name: "Atlas & Boots", category: "travel", maxItems: 4 },
+  // Dated news — real, recent news about Morocco / culture / nature / travel.
+  { url: "https://www.theguardian.com/world/morocco/rss", name: "The Guardian", category: "morocco", maxItems: 8, scoped: true },
+  { url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml", name: "BBC Africa", category: "morocco", maxItems: 12, scoped: false },
+  { url: "https://www.theguardian.com/uk/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 8, scoped: false },
+  { url: "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml", name: "NYT Travel", category: "travel", maxItems: 8, scoped: false },
+  { url: "https://www.atlasandboots.com/feed/", name: "Atlas & Boots", category: "travel", maxItems: 6, scoped: false },
+  // Evergreen Morocco blogs — backfill only (kept off-screen unless news is thin).
+  { url: "https://moroccotravelblog.com/feed/", name: "Morocco Travel Blog", category: "morocco", maxItems: 6, scoped: true, evergreen: true },
+  { url: "https://www.journeybeyondtravel.com/blog/feed", name: "Journey Beyond Travel", category: "travel", maxItems: 5, scoped: false, evergreen: true },
 ];
 
-// Fallback images if the feed provides no image
-const FALLBACK_MOROCCO = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80";
+// Freshness policy: prefer articles from the last 7 days (big score bonus);
+// allow up to 14 as a safety net so the section is rarely empty. Evergreen
+// backfill has no age gate.
+const MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;
+const TARGET_COUNT = 6;
+
+// Curated pool of verified-authentic Morocco photos. RSS feed images are
+// unreliable (a "Morocco packing" article once shipped a photo of a man in VR
+// goggles), so for feeds we don't trust we assign one of these deterministically
+// by article id — always on-brand, and varied across the list.
+const MOROCCO_IMAGES = [
+  "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800&q=80", // Rabat zellige fountain
+  "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80", // Marrakech medina
+  "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=800&q=80",    // Atlas mountains
+  "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=80", // Chefchaouen blue city
+  "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=80", // Essaouira coast
+  "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80", // kasbah & oasis
+  "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=800&q=80", // Erg Chebbi sunset
+  "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=800&q=80", // Aït Benhaddou ksar
+];
+
+// Feeds whose supplied images can't be trusted to depict Morocco — always use a
+// curated image instead of the feed's own. (Also avoids needing every feed's
+// image CDN host in next.config's image allowlist.)
+const UNTRUSTED_IMAGE_SOURCES = new Set([
+  "Morocco Travel Blog",
+  "Journey Beyond Travel",
+  "BBC Africa", // ichef.bbci.co.uk images are generic African news, not Morocco
+]);
+
+// Pick a stable curated image for an article (same id -> same image).
+function curatedImage(id: string): string {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
+  return MOROCCO_IMAGES[Math.abs(h) % MOROCCO_IMAGES.length];
+}
+
+// Image hosts configured in next.config.ts remotePatterns. A feed image is only
+// usable with next/image if its host is here — otherwise the page crashes with
+// "hostname not configured". Keep in sync with next.config.ts.
+const ALLOWED_IMAGE_HOSTS = new Set([
+  "images.unsplash.com",
+  "i.guim.co.uk",
+  "static01.nyt.com",
+  "moroccotravelblog.com",
+  "www.atlasandboots.com",
+]);
+
+function imageHostAllowed(url: string): boolean {
+  try {
+    return ALLOWED_IMAGE_HOSTS.has(new URL(url).hostname);
+  } catch {
+    return false;
+  }
+}
+
+// Reject obviously bad image URLs (icons, avatars, tracking pixels, logos).
+function looksLikeBadImage(url: string): boolean {
+  const u = url.toLowerCase();
+  return (
+    /\b(icon|avatar|logo|sprite|pixel|1x1|blank|gravatar|placeholder|button|badge)\b/.test(u) ||
+    /\.svg(\?|$)/.test(u) ||
+    /\bw=\d{1,2}\b/.test(u) // tiny widths like w=16
+  );
+}
+
+// Legacy exports kept for compatibility.
+const FALLBACK_MOROCCO = MOROCCO_IMAGES[0];
 const FALLBACK_TRAVEL = "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80";
 
 const RELEVANCE_KEYWORDS = [
@@ -52,13 +127,34 @@ const EXCLUDE_KEYWORDS = [
   "trial", "prison", "migrant", "smuggl", "drug", "earthquake victim",
 ];
 
-function isRelevant(title: string, excerpt: string, category: "morocco" | "travel"): boolean {
+// Morocco-place keywords — required for broad (non-country-scoped) feeds so a
+// general "Africa" feed only contributes items that are actually about Morocco.
+const MOROCCO_KEYWORDS = [
+  "morocco", "moroccan", "marrakech", "marrakesh", "sahara", "atlas mountains",
+  "fes", "fez", "agadir", "essaouira", "chefchaouen", "berber", "amazigh",
+  "casablanca", "rabat", "tangier", "merzouga", "ouarzazate", "maghreb",
+];
+
+/**
+ * @param scoped true when the feed is already limited to Morocco (e.g. Guardian
+ *        Morocco). Broad feeds (BBC Africa) must explicitly mention Morocco.
+ */
+function isRelevant(
+  title: string,
+  excerpt: string,
+  category: "morocco" | "travel",
+  scoped: boolean,
+): boolean {
   const text = (title + " " + excerpt).toLowerCase();
-  // Morocco sources are already country-scoped, but reject non-travel news so the
-  // feed reads like a travel section, not a general newswire.
+  // Reject general politics/sport/crime everywhere — this is a travel section.
+  if (EXCLUDE_KEYWORDS.some((kw) => text.includes(kw))) return false;
+
   if (category === "morocco") {
-    return !EXCLUDE_KEYWORDS.some((kw) => text.includes(kw));
+    // Country-scoped feed: accept anything (already Morocco). Broad feed: require
+    // an actual Morocco mention so we don't surface generic African news.
+    return scoped || MOROCCO_KEYWORDS.some((kw) => text.includes(kw));
   }
+  // Travel feeds: require a travel/Morocco relevance keyword.
   return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
 }
 
@@ -111,8 +207,10 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
     },
   });
 
-  const morocco: NewsArticle[] = [];
-  const travel: NewsArticle[] = [];
+  // Fresh dated news (<=14d), split by topic; and evergreen backfill.
+  const freshMorocco: NewsArticle[] = [];
+  const freshTravel: NewsArticle[] = [];
+  const evergreen: NewsArticle[] = [];
 
   const results = await Promise.allSettled(
     RSS_SOURCES.map(async (source) => {
@@ -133,14 +231,31 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
       const rawExcerpt: string = item.contentSnippet ?? item.summary ?? itemAny["content:encoded"] ?? item.content ?? "";
       const excerpt = stripHtml(rawExcerpt).slice(0, 280);
       if (!title || !item.link) continue;
-      if (!isRelevant(title, excerpt, source.category)) continue;
+      if (!isRelevant(title, excerpt, source.category, source.scoped)) continue;
 
       const publishedAt = item.isoDate ?? item.pubDate ?? new Date().toISOString();
+      const ageMs = Date.now() - new Date(publishedAt).getTime();
 
-      const imageUrl = extractImage(item);
+      // Dated-news sources must be recent (<=14d). Evergreen blogs skip the gate
+      // (they're backfill only) — their undated posts would otherwise never pass.
+      if (!source.evergreen && (isNaN(ageMs) || ageMs > MAX_AGE_MS)) continue;
+
+      const id = slugify(item.link);
+      // Trust the feed image only if the source is reliable AND it isn't junk;
+      // otherwise use a curated, verified-Moroccan photo so nothing off-brand
+      // (e.g. a VR-goggles stock photo) ever shows.
+      const rawImage = extractImage(item);
+      const trustFeedImage =
+        rawImage != null &&
+        !UNTRUSTED_IMAGE_SOURCES.has(source.name) &&
+        !looksLikeBadImage(rawImage) &&
+        imageHostAllowed(rawImage); // never hand next/image an unconfigured host
+      // If we can't trust the feed image (untrusted source, junk, or a host that
+      // isn't in next.config's allowlist), always use a curated Morocco photo.
+      const imageUrl = trustFeedImage ? rawImage : curatedImage(id);
 
       const article: NewsArticle = {
-        id: slugify(item.link),
+        id,
         title,
         excerpt,
         url: item.link,
@@ -150,34 +265,54 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
         category: source.category,
       };
 
-      if (source.category === "morocco") morocco.push(article);
-      else travel.push(article);
+      if (source.evergreen) evergreen.push(article);
+      else if (source.category === "morocco") freshMorocco.push(article);
+      else freshTravel.push(article);
     }
   }
 
-  // Rank by relevance first, recency second — so a Morocco/adventure article
-  // outranks generic global travel even if it's a few days older. Keeps the
-  // feed feeling on-brand instead of "newest wire item wins".
-  const MOROCCO_TERMS = ["morocco", "moroccan", "marrakech", "sahara", "atlas", "fes", "agadir", "essaouira", "chefchaouen", "berber", "amazigh", "medina", "casablanca", "tangier"];
-  const TRAVEL_TERMS = ["trek", "hike", "hiking", "trail", "desert", "adventure", "tour", "guide", "mountain", "camp", "dunes", "oasis", "valley", "beach", "surf", "culture", "heritage", "food"];
+  // Relevance score — Morocco/culture/nature/travel terms + freshness bonus.
+  const MOROCCO_TERMS = ["morocco", "moroccan", "marrakech", "sahara", "atlas", "fes", "agadir", "essaouira", "chefchaouen", "berber", "amazigh", "medina", "casablanca", "tangier", "maghreb"];
+  const TOPIC_TERMS = ["trek", "hike", "hiking", "trail", "desert", "adventure", "tour", "guide", "mountain", "camp", "dunes", "oasis", "valley", "beach", "surf", "culture", "cultural", "heritage", "food", "nature", "wildlife", "national park", "hiking"];
 
   function score(a: NewsArticle): number {
     const text = (a.title + " " + a.excerpt).toLowerCase();
     let s = 0;
     for (const t of MOROCCO_TERMS) if (text.includes(t)) s += 5;
-    for (const t of TRAVEL_TERMS) if (text.includes(t)) s += 2;
-    if (a.imageUrl) s += 3; // prefer articles with a real image
-    // Recency bonus: up to +6 for articles in the last ~30 days
+    for (const t of TOPIC_TERMS) if (text.includes(t)) s += 2;
+    if (a.imageUrl) s += 2;
+    // Strong freshness bonus: within 7 days gets a big boost, decaying after.
     const ageDays = (Date.now() - new Date(a.publishedAt).getTime()) / 86_400_000;
-    s += Math.max(0, 6 - ageDays / 5);
+    s += ageDays <= 7 ? 8 : Math.max(0, 8 - (ageDays - 7));
     return s;
   }
-
   const byScore = (a: NewsArticle, b: NewsArticle) => score(b) - score(a);
-  morocco.sort(byScore);
-  travel.sort(byScore);
 
-  return [...morocco.slice(0, 4), ...travel.slice(0, 2)];
+  freshMorocco.sort(byScore);
+  freshTravel.sort(byScore);
+  evergreen.sort(byScore);
+
+  // Tiered fill: fresh Morocco news first, then fresh culture/nature/travel,
+  // then evergreen Morocco blogs only to backfill remaining slots. De-dupe by id.
+  const seen = new Set<string>();
+  const out: NewsArticle[] = [];
+  const take = (list: NewsArticle[], max: number) => {
+    for (const a of list) {
+      if (out.length >= max) break;
+      if (seen.has(a.id)) continue;
+      seen.add(a.id);
+      out.push(a);
+    }
+  };
+
+  // 1) fresh Morocco news; 2) on-brand Morocco culture/nature (evergreen blogs)
+  // — these keep the section Moroccan, which is the point; 3) fresh general
+  // travel only as a last resort so it's never empty.
+  take(freshMorocco, TARGET_COUNT);
+  take(evergreen, TARGET_COUNT);
+  take(freshTravel, TARGET_COUNT);
+
+  return out.slice(0, TARGET_COUNT);
 }
 
 export const fetchNewsArticles = unstable_cache(

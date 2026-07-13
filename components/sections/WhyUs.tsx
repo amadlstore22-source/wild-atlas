@@ -44,17 +44,20 @@ export default function WhyUs({ dict }: Props) {
     >
 
       {/* Top: Why grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-24 md:pt-32 md:pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-16 items-start">
 
           {/* Left: headline + stats */}
           <div>
             <AnimateInView variant="fade-up">
-              <h2 className="font-serif text-white font-bold leading-[1.05] mb-6"
-                  style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
+              <p className="text-saffron text-xs font-bold uppercase tracking-[0.2em] mb-4">
+                {dict.whyUs.eyebrow}
+              </p>
+              <h2 className="font-bold text-white leading-[1.08] tracking-[-0.02em] mb-6"
+                  style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
                 {dict.whyUs.title}
               </h2>
-              <p className="text-white/70 leading-relaxed mb-10 text-sm">
+              <p className="text-white/70 leading-relaxed mb-10">
                 {dict.whyUs.subtitle}
               </p>
             </AnimateInView>

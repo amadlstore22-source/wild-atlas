@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Envelope, WhatsappLogo, ArrowRight, ShieldCheck, Clock, Star } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
+import { ZelligeStar, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -22,10 +23,13 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
   ];
 
   return (
-    <section className="py-24 overflow-hidden">
+    <section className="bg-white py-24 md:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="scale-in">
-          <div className="rounded-3xl overflow-hidden" style={{ background: "linear-gradient(135deg, #253018 0%, #2d3a22 50%, #3a4a2c 100%)" }}>
+          <div className="relative rounded-3xl overflow-hidden" style={{ background: "linear-gradient(135deg, #253018 0%, #2d3a22 50%, #3a4a2c 100%)" }}>
+            {/* Faint tessellated zellige field + a larger star flourish — the Moroccan accent on this card */}
+            <ZelligeField tone="light" opacity={0.1} scale={128} />
+            <ZelligeStar size={360} className="pointer-events-none absolute -right-16 -top-16 text-white/[0.05]" />
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] min-h-[420px]">
 
               {/* Left: text content */}

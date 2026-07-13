@@ -5,6 +5,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { motion } from "motion/react";
 import { SITE } from "@/lib/constants";
 import AnimatedNumber from "@/components/ui/AnimatedNumber";
+import { ZelligeStar } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -61,20 +62,21 @@ export default function OurStory({ dict, lang = "en" }: Props) {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.75, ease }}
           >
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-5">
+            <p className="flex items-center gap-2 text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-5">
+              <ZelligeStar size={13} className="text-sunset" />
               {dict.ourStory.eyebrow}
             </p>
             <h2
-              className="font-serif text-charcoal font-bold leading-[1.05] mb-8"
-              style={{ fontSize: "clamp(2.2rem, 4vw, 3.2rem)" }}
+              className="font-bold text-ink tracking-[-0.02em] leading-[1.08] mb-8"
+              style={{ fontSize: "clamp(2.2rem, 4vw, 3.25rem)" }}
             >
               {dict.ourStory.title}
             </h2>
 
-            <p className="text-charcoal/65 leading-relaxed text-lg mb-6">
+            <p className="text-ink-soft leading-relaxed text-lg mb-6">
               {dict.ourStory.body1}
             </p>
-            <p className="text-charcoal/55 leading-relaxed mb-10">
+            <p className="text-ink-muted leading-relaxed mb-10">
               {dict.ourStory.body2}
             </p>
 

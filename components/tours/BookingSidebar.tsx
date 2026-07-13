@@ -140,7 +140,7 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
               <button
                 type="submit"
                 disabled={sending}
-                className="w-full py-3 rounded-xl bg-sunset text-white font-bold hover:bg-orange-500 transition-colors disabled:opacity-60 flex items-center justify-center gap-2 shadow-lg shadow-sunset/15 cta-pulse"
+                className="w-full py-3 rounded-xl bg-sunset text-white font-bold hover:bg-atlas-clay transition-colors disabled:opacity-60 flex items-center justify-center gap-2 shadow-lg shadow-sunset/15"
               >
                 <Envelope className="w-4 h-4" />
                 {sending ? "Sending…" : "Send Inquiry"}

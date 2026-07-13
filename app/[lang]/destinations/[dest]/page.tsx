@@ -6,6 +6,7 @@ import { hasLocale } from "../../dictionaries";
 import { DESTINATIONS, getDestination } from "@/lib/destinations";
 import { TOURS } from "@/lib/tours";
 import TourCard from "@/components/ui/TourCard";
+import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
@@ -135,6 +136,7 @@ export default async function DestinationPage({ params }: PageParams) {
             </h1>
             <p className="text-white/65 text-xl max-w-xl leading-relaxed">{destination.subtitle}</p>
           </div>
+          <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

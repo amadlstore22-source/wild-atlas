@@ -16,6 +16,7 @@ import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import TrailConditions from "@/components/sections/TrailConditions";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
+import { ArabesqueDivider } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -127,6 +128,7 @@ export default async function HomePage({ params }: LangParams) {
       <ActivityScenes lang={lang} />
       <WhyUs dict={dict} />
       <Testimonials dict={dict} />
+      <ArabesqueDivider className="py-4 bg-white" />
       <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} />
       <Suspense fallback={null}>

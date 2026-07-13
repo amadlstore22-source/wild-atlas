@@ -85,7 +85,6 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           </motion.div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-        <div className="card-shimmer-wrap" />
 
         <div className="absolute top-4 left-4 right-4 flex items-start justify-end gap-2 z-10">
           <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
@@ -117,7 +116,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             </div>
             <Link
               href={`/${lang}/tours/${tour.slug}`}
-              className="px-5 py-2.5 rounded-full bg-sunset text-white text-sm font-bold hover:bg-orange-500 active:scale-[0.98] transition-all shadow-lg"
+              className="px-5 py-2.5 rounded-full bg-forest text-white text-sm font-semibold hover:bg-moss active:scale-[0.98] transition-all"
             >
               {viewTourLabel}
             </Link>
@@ -129,12 +128,12 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
 
   return (
     <motion.article
-      className="group bg-white rounded-2xl overflow-hidden border border-sand-dark hover:border-forest/20 flex flex-col"
-      initial={{ opacity: 0, y: 28, scale: 0.97 }}
-      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      className="group bg-white rounded-2xl overflow-hidden border border-sand-dark hover:border-forest/30 flex flex-col"
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.6, ease, delay }}
-      whileHover={{ y: -6, boxShadow: "0 20px 40px rgba(0,0,0,0.12)" }}
+      whileHover={{ y: -4, boxShadow: "0 12px 32px rgba(26,23,18,0.08)" }}
     >
       <div className="relative h-52 overflow-hidden shrink-0">
         <motion.div
@@ -151,7 +150,6 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-        <div className="card-shimmer-wrap" />
 
         <div className="absolute top-3 left-3 right-3 flex items-start justify-end gap-2">
           <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
@@ -201,8 +199,8 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         </div>
 
         <div className="flex items-center justify-between pt-3 border-t border-sand/60 mt-auto">
-          <div className="price-beacon px-2 py-1 -mx-2 -my-1 rounded-lg">
-            <span className="text-xs text-charcoal/35">{fromLabel}</span>
+          <div>
+            <span className="text-xs text-ink-muted">{fromLabel}</span>
             <p className="font-bold text-forest text-xl leading-tight">
               {tour.priceMax
                 ? `$${tour.price} – $${tour.priceMax}`

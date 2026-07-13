@@ -6,6 +6,7 @@ import ContactForm from "@/components/sections/ContactForm";
 import { Envelope, Phone, MapPin, Clock, WhatsappLogo, ChatCircleText } from "@phosphor-icons/react/dist/ssr";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
+import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 type LangParams = { params: Promise<{ lang: string }> };
 
 const FAQ = [
@@ -88,10 +89,12 @@ export default async function ContactPage({ params }: LangParams) {
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">{dict.contact.pageSubtitle}</p>
         </div>
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <ZelligeField tone="clay" opacity={0.08} scale={140} />
+        <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-12">
 
           {/* ── Sidebar ── */}
           <div className="space-y-4">

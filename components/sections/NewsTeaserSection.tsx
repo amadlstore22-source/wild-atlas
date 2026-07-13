@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, FALLBACK_MOROCCO, FALLBACK_TRAVEL, type NewsArticle } from "@/lib/news";
+import { ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { BLOG_POSTS } from "@/lib/blog";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -31,11 +32,15 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
   const fallbackSide = hasFallback ? BLOG_POSTS.slice(1, 3) : [];
 
   return (
-    <section className="py-20 bg-white border-t border-sand-dark">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-end justify-between mb-10">
+    <section className="relative py-24 md:py-32 bg-white overflow-hidden">
+      <ZelligeField tone="clay" opacity={0.09} scale={138} />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-end justify-between mb-12">
           <div>
-            <h2 className="font-serif text-charcoal font-bold" style={{ fontSize: "clamp(1.6rem, 3vw, 2.2rem)" }}>
+            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
+              {dict.news.eyebrow}
+            </p>
+            <h2 className="font-bold text-ink tracking-[-0.02em]" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
               {dict.news.title}
             </h2>
           </div>

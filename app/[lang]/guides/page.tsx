@@ -5,6 +5,7 @@ import { MapPin, Translate, Certificate, Star } from "@phosphor-icons/react/dist
 import { GUIDES } from "@/lib/guides";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import CTABanner from "@/components/sections/CTABanner";
+import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -56,6 +57,7 @@ export default async function GuidesPage({ params }: LangParams) {
             who&apos;s been to Morocco: the guide makes the trip. Meet ours.
           </p>
         </div>
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
       {/* ── Trust strip ── */}

@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Manrope, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
 import "leaflet/dist/leaflet.css";
-import "maplibre-gl/dist/maplibre-gl.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -94,8 +93,6 @@ export default async function LocaleLayout({
       <body className="min-h-full flex flex-col antialiased">
         <SmoothScroll />
         <ScrollProgress />
-        {/* Third atmospheric orb — mid-page forest green */}
-        <div className="orb-mid" aria-hidden="true" />
         <Header lang={locale} dict={dict} />
         <main className="flex-1">{children}</main>
         <Footer lang={locale} dict={dict} />

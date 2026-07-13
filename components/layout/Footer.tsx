@@ -3,6 +3,7 @@ import { Mountains, Envelope, Phone, MapPin } from "@phosphor-icons/react/dist/s
 import { SITE, SOCIAL, TRIPADVISOR } from "@/lib/constants";
 import NewsletterForm from "@/components/ui/NewsletterForm";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
+import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const SOCIAL_ICONS = [
@@ -76,6 +77,8 @@ export default function Footer({ lang, dict }: Props) {
 
   return (
     <footer className="bg-charcoal text-white">
+      {/* Zellige seam — a woven star-and-cross band where the page meets the footer */}
+      <ZelligeBand tone="light" height={26} className="opacity-40" />
       {/* Top bar — trust */}
       <div className="border-b border-white/8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">

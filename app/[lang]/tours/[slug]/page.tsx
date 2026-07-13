@@ -10,6 +10,7 @@ import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import RelatedTours from "@/components/tours/RelatedTours";
 import TourNavBar from "@/components/tours/TourNavBar";
+import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale } from "../../dictionaries";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
@@ -156,6 +157,7 @@ export default async function TourDetailPage({ params }: TourParams) {
             <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4" />{tour.meetingPoint.name}</span>
           </div>
         </div>
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-28 lg:pb-12">

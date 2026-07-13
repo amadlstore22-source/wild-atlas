@@ -25,17 +25,17 @@ interface Props {
 
 export default function Gallery({ dict, lang = "en" }: Props) {
   return (
-    <section id="gallery" className="py-24 scroll-mt-24">
+    <section id="gallery" className="bg-bone py-24 md:py-32 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
-            <span className="text-sunset text-sm font-semibold uppercase tracking-widest">
+            <span className="text-sunset text-xs font-bold uppercase tracking-[0.2em]">
               {dict.gallery.eyebrow}
             </span>
-            <h2 className="font-serif text-charcoal text-4xl lg:text-5xl font-bold mt-2">
+            <h2 className="font-bold text-ink tracking-[-0.02em] mt-3" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
               {dict.gallery.title}
             </h2>
-            <p className="text-charcoal/60 mt-3 max-w-lg">
+            <p className="text-ink-muted mt-4 max-w-lg leading-relaxed">
               {dict.gallery.subtitle}
             </p>
           </div>

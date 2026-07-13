@@ -8,6 +8,7 @@ import AboutStory from "@/components/sections/AboutStory";
 import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
+import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -65,14 +66,15 @@ export default async function AboutPage({ params }: LangParams) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">Our Story</p>
-          <h1 className="font-serif text-white font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
+          <p className="text-saffron text-xs font-bold uppercase tracking-[0.2em] mb-4">Our Story</p>
+          <h1 className="font-bold text-white leading-[1.05] tracking-[-0.02em] mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
             Born in the Atlas.<br />Built for the World.
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">
             A team of licensed Berber guides who grew up in Morocco's wildest places — sharing them honestly, sustainably, and without the middlemen.
           </p>
         </div>
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
       {/* ── Intro stat bar ── */}
@@ -98,8 +100,9 @@ export default async function AboutPage({ params }: LangParams) {
       <AboutStory lang={lang} />
 
       {/* ── Three pillars ── */}
-      <section className="py-24 bg-sand/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 bg-sand/30 overflow-hidden">
+        <ZelligeField tone="clay" opacity={0.1} scale={132} />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">What makes us different</p>
             <h2 className="font-serif text-charcoal font-bold" style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)" }}>
@@ -153,8 +156,10 @@ export default async function AboutPage({ params }: LangParams) {
       <WhyUs dict={dict} />
 
       {/* ── Pull quote + tours CTA ── */}
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-24 overflow-hidden">
+        <ZelligeField tone="clay" opacity={0.08} scale={140} />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <ArabesqueDivider className="mb-10" />
           <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-6">Our promise</p>
           <blockquote className="font-serif text-charcoal font-bold leading-[1.15] mb-8" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
             &ldquo;We don&apos;t just show you Morocco. We take you into it — the same way we&apos;ve been doing it for the people we love.&rdquo;

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowRight, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { BLOG_POSTS, BLOG_CATEGORIES, BLOG_REGIONS, type BlogPost, type BlogRegion } from "@/lib/blog";
+import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale } from "../dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -94,9 +95,11 @@ export default async function BlogPage({
           <h1 className="font-serif text-white text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
           <p className="text-white/70 mt-3 text-xl">{dict.blog.pageSubtitle}</p>
         </div>
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <ZelligeField tone="clay" opacity={0.08} scale={140} />
 
         {!isFiltering && (
           <div className="mb-16">

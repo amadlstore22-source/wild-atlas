@@ -4,6 +4,7 @@ import { Star, ArrowLeft, ArrowRight } from "@phosphor-icons/react";
 import { motion, AnimatePresence } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
+import { ZelligeStar } from "@/components/ui/MoroccanMotifs";
 import { TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
@@ -131,7 +132,7 @@ export default function Testimonials({ dict }: Props) {
 
   return (
     <section
-      className="py-24 overflow-hidden"
+      className="bg-bone py-24 md:py-32 overflow-hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -139,11 +140,15 @@ export default function Testimonials({ dict }: Props) {
 
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
           <div>
-            <h2 className="font-serif text-charcoal font-bold"
-                style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
+            <p className="flex items-center gap-2 text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">
+              <ZelligeStar size={13} className="text-sunset" />
+              {dict.testimonials.eyebrow}
+            </p>
+            <h2 className="font-bold text-ink tracking-[-0.02em]"
+                style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
               {dict.testimonials.title}
             </h2>
-            <p className="text-charcoal/45 text-sm mt-2 max-w-xs">
+            <p className="text-ink-muted mt-3 max-w-md">
               {dict.testimonials.subtitle}
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-3">

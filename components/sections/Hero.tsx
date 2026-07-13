@@ -2,11 +2,10 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { MagnifyingGlass, ArrowRight } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { CATEGORIES } from "@/lib/tours";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
+import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -17,14 +16,11 @@ interface Props {
 const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function Hero({ lang, dict }: Props) {
-  const [search, setSearch] = useState("");
-  const [origin, setOrigin] = useState("");
   const [isDesktop, setIsDesktop] = useState(false);
-  const router = useRouter();
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
-  const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
-  const imgScale = useTransform(scrollYProgress, [0, 1], [1.08, 1.0]);
+  const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
+  const imgScale = useTransform(scrollYProgress, [0, 1], [1.06, 1.0]);
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
@@ -33,20 +29,6 @@ export default function Hero({ lang, dict }: Props) {
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
   }, []);
-
-  const ORIGIN_TABS = [
-    { label: dict.hero.allTours, value: "" },
-    { label: dict.hero.fromMarrakech, value: "marrakech" },
-    { label: dict.hero.fromAgadir, value: "agadir" },
-  ];
-
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
-    const params = new URLSearchParams();
-    if (search) params.set("q", search);
-    if (origin) params.set("origin", origin);
-    router.push(`/${lang}/tours${params.toString() ? "?" + params.toString() : ""}`);
-  }
 
   return (
     <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
@@ -110,90 +92,23 @@ export default function Hero({ lang, dict }: Props) {
               {dict.hero.subheadline}
             </motion.p>
 
-            {/* Search bar */}
-            <motion.form
-              onSubmit={handleSearch}
-              className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-1.5 mb-6 flex flex-col sm:flex-row gap-1.5 max-w-xl shadow-2xl"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease, delay: 0.4 }}
-            >
-              <div className="relative sm:w-44 shrink-0">
-                <select
-                  value={origin}
-                  onChange={(e) => setOrigin(e.target.value)}
-                  className="w-full h-full px-4 py-3 rounded-xl bg-white/12 text-white text-sm font-medium appearance-none cursor-pointer focus:outline-none focus:bg-white/20 transition-colors"
-                >
-                  {ORIGIN_TABS.map((o) => (
-                    <option key={o.value} value={o.value} className="text-charcoal bg-white">
-                      {o.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="h-px sm:h-auto sm:w-px bg-white/15 shrink-0" />
-
-              <div className="relative flex-1">
-                <MagnifyingGlass className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/55" weight="bold" />
-                <input
-                  type="text"
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                  placeholder={dict.hero.searchPlaceholder}
-                  className="w-full pl-9 pr-4 py-3 bg-transparent text-white placeholder:text-white/55 text-sm focus:outline-none"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="px-6 py-3 rounded-xl bg-sunset text-white font-bold text-sm hover:bg-orange-500 active:scale-[0.98] transition-all shrink-0"
-              >
-                {dict.hero.searchBtn}
-              </button>
-            </motion.form>
-
-            {/* Category pills */}
+            {/* CTAs — one loud terracotta primary + one clean ghost */}
             <motion.div
-              className="flex flex-wrap gap-2 mb-10"
+              className="flex flex-wrap gap-3 items-center mt-2"
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease, delay: 0.55 }}
-            >
-              {CATEGORIES.slice(0, 5).map((cat, i) => (
-                <motion.div
-                  key={cat.id}
-                  initial={{ opacity: 0, scale: 0.88 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.4, ease, delay: 0.6 + i * 0.07 }}
-                >
-                  <Link
-                    href={`/${lang}/categories/${cat.id}`}
-                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/15 text-white/85 text-xs font-medium hover:bg-white/18 hover:border-white/30 active:scale-[0.97] transition-all"
-                  >
-                    {cat.label}
-                  </Link>
-                </motion.div>
-              ))}
-            </motion.div>
-
-            {/* CTAs */}
-            <motion.div
-              className="flex flex-wrap gap-3 items-center"
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease, delay: 0.75 }}
+              transition={{ duration: 0.6, ease, delay: 0.4 }}
             >
               <Link
                 href={`/${lang}/tours`}
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-sunset text-white font-bold text-sm hover:bg-orange-500 active:scale-[0.98] transition-all shadow-xl shadow-sunset/25"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-sunset text-white font-semibold text-base hover:bg-atlas-clay active:scale-[0.98] transition-all shadow-xl shadow-sunset/25"
               >
                 {dict.hero.browseAll}
                 <ArrowRight className="w-4 h-4" weight="bold" />
               </Link>
               <Link
                 href={`/${lang}/contact`}
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/30 text-white font-semibold text-sm hover:bg-white/12 hover:border-white/50 transition-all"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/35 text-white font-semibold text-base hover:bg-white/12 hover:border-white/60 transition-all"
               >
                 {dict.hero.planCustom}
               </Link>
@@ -255,6 +170,8 @@ export default function Hero({ lang, dict }: Props) {
           </motion.div>
         </div>
       </div>
+      {/* Zellige seam where the hero meets the page */}
+      <ZelligeBand tone="light" height={24} className="absolute bottom-0 left-0 z-10 opacity-80" />
     </section>
   );
 }

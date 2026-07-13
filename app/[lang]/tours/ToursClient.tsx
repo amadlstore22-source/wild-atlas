@@ -6,6 +6,7 @@ import TourCard from "@/components/ui/TourCard";
 import { TOURS, CATEGORIES, type Category, type Difficulty, type Origin } from "@/lib/tours";
 import { whatsappUrl } from "@/lib/constants";
 import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree } from "@phosphor-icons/react";
+import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "../dictionaries";
 
 interface Props {
@@ -96,9 +97,12 @@ export default function ToursClient({ lang, dict, initialSearch = "", initialOri
           <h1 className="font-serif text-white text-6xl lg:text-7xl font-bold leading-tight">{dict.tours.pageTitle}</h1>
           <p className="text-white/70 mt-3 text-xl">{dict.tours.pageSubtitle.replace("{count}", String(TOURS.length))}</p>
         </div>
+        {/* Zellige seam where the hero meets the listing */}
+        <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <ZelligeField tone="clay" opacity={0.08} scale={140} />
 
         <div className="flex gap-2 mb-6 border-b border-sand-dark pb-4">
           {ORIGIN_TABS.map((tab) => (

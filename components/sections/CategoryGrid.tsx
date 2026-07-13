@@ -27,18 +27,17 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
   const [hero, tall, ...rest] = visibleCategories;
 
   return (
-    <section className="py-24">
+    <section className="bg-white py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
           <div>
-            <h2 className="font-serif text-charcoal font-bold"
-                style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
+            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
               {dict.categories.subtitle.split(" — ")[0]}
-            </h2>
-            <p className="text-charcoal/50 mt-2 max-w-sm text-sm leading-relaxed">
-              {dict.categories.title}
             </p>
+            <h2 className="font-bold text-ink tracking-[-0.02em]" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+              {dict.categories.title}
+            </h2>
           </div>
           <Link
             href={`/${lang}/tours`}

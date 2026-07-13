@@ -1838,6 +1838,299 @@ export const TOURS: Tour[] = [
     seoDescription: "Grand 6-day circuit from Agadir through all four Moroccan imperial cities — Marrakech, Meknes, Fes, and Rabat. Private 4x4 with riad accommodation. From $560.",
     featured: false,
   },
+
+  // ─────────────────────────────────────────────
+  // NEW HIGH ATLAS / TOUBKAL TREKS
+  // ─────────────────────────────────────────────
+  {
+    id: "30",
+    slug: "toubkal-circuit-ifni-lake-6day",
+    title: "Toubkal Circuit & Ifni Lake — 6-Day Trek",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "6 days / 5 nights",
+    groupSize: "2–12 people",
+    reviewCount: 21,
+    rating: 4.9,
+    price: 620,
+    depositAmount: 155,
+    heroImage:
+      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
+    ],
+    shortDescription:
+      "The full loop around Jbel Toubkal — remote Berber villages, high passes over 3,600 m, the turquoise Lake Ifni, and a summit finale at 4,167 m.",
+    description:
+      "The Toubkal Circuit is the complete High Atlas traverse — a full ring around the massif that few trekkers ever complete. Over six days you cross four major passes, walk through the remote grazing lands and villages of the Toubkal National Park, camp beside the extraordinary turquoise Lake Ifni, and finish by summiting Jbel Toubkal itself. Far more varied and remote than the standard summit push, it is the connoisseur's Toubkal.",
+    highlights: [
+      "Camp beside the turquoise Lake Ifni (2,295 m), the Atlas's most beautiful lake",
+      "Cross four high passes including Tizi n'Ouanoums (3,664 m) and Tizi Likemt (3,555 m)",
+      "Summit Jbel Toubkal (4,167 m) — the highest peak in North Africa",
+      "Sleep in remote Berber villages rarely reached by other trekkers",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "5 nights accommodation (refuges, village gîtes, and camping)",
+      "All meals during the trek",
+      "Mules and muleteers for group gear and camp",
+      "Toubkal National Park entrance fees",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (mandatory)",
+      "Personal trekking equipment and sleeping bag",
+      "Tips for guide, cook, and muleteers",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Tachedirt (2,300 m)",
+        description:
+          "Transfer from Marrakech to Imlil (1h30). Trek through the Imenane Valley past terraced fields and Berber villages to Tachedirt. Around 5 hours walking.",
+      },
+      {
+        day: 2,
+        title: "Tachedirt → Tizi Likemt (3,555 m) → Azib Likemt (2,250 m)",
+        description:
+          "Climb the Tizi Likemt pass with sweeping High Atlas views, then descend into the high summer grazing pastures of Azib Likemt. 6–7 hours.",
+      },
+      {
+        day: 3,
+        title: "Azib Likemt → Tizi n'Ourai → Amsouzart (1,740 m)",
+        description:
+          "Follow the Ourai river, cross a scenic pass, and descend to the welcoming village of Amsouzart for an overnight in a family gîte. Around 6 hours.",
+      },
+      {
+        day: 4,
+        title: "Amsouzart → Lake Ifni (2,295 m)",
+        description:
+          "A gradual climb brings you to the turquoise Lake Ifni, set dramatically among steep peaks. Afternoon at leisure by the water. 4–5 hours.",
+      },
+      {
+        day: 5,
+        title: "Lake Ifni → Tizi n'Ouanoums (3,664 m) → Toubkal Refuge (3,207 m)",
+        description:
+          "A steep, rocky ascent to the Ouanoums pass overlooking the lake, then a descent to the Toubkal Refuge. Early night before summit day. Around 6 hours.",
+      },
+      {
+        day: 6,
+        title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
+        description:
+          "Pre-dawn ascent via the South Cirque to the roof of North Africa at sunrise. Descend to Imlil and transfer back to Marrakech. A long, rewarding final day.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni from Marrakech — Summit & Circuit | Marrakech Eco Tours",
+    seoDescription: "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). Licensed Berber guide, all meals & transfers. From $620.",
+    featured: false,
+  },
+  {
+    id: "31",
+    slug: "toubkal-summit-2day-marrakech",
+    title: "Mount Toubkal Express — 2-Day Summit from Marrakech",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "2 days / 1 night",
+    groupSize: "2–12 people",
+    reviewCount: 34,
+    rating: 4.7,
+    price: 210,
+    depositAmount: 55,
+    heroImage:
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+    ],
+    shortDescription:
+      "The fastest way to the roof of North Africa — summit Jbel Toubkal (4,167 m) in a focused two-day ascent from Marrakech.",
+    description:
+      "Short on time but determined to stand on the highest point in North Africa? The 2-day Toubkal ascent is the most direct route to the summit. Drive from Marrakech to Imlil, trek up to the Toubkal Refuge past the Sidi Chamharouch shrine on day one, then make the pre-dawn summit push on day two before descending all the way back to Marrakech. It is demanding — with no acclimatisation day — so a good level of fitness is essential, but it delivers the whole Toubkal experience in a single weekend.",
+    highlights: [
+      "Summit Jbel Toubkal (4,167 m) in just two days from Marrakech",
+      "Overnight in the Toubkal Refuge at 3,207 m",
+      "Pass the Sidi Chamharouch shrine and its waterfall",
+      "Sunrise panorama across the entire High Atlas range",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "1 night in the Toubkal Refuge",
+      "All meals during the trek",
+      "Mule porter for group gear",
+      "Toubkal National Park entrance fees",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (mandatory)",
+      "Personal trekking equipment",
+      "Tips for guide and porter",
+      "Crampons and ice axe in winter (rental available)",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
+        description:
+          "Early transfer from Marrakech to Imlil (1h30). Trek up the Aït Mizane valley through Aremd and past the Sidi Chamharouch shrine to the Toubkal Refuge. 4–5 hours walking. Dinner and early night.",
+      },
+      {
+        day: 2,
+        title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
+        description:
+          "Pre-dawn start for the summit via the South Cirque (around 3 hours up). Sunrise from the roof of North Africa, then descend to the refuge for lunch and continue down to Imlil (4–5 hours total descent). Transfer back to Marrakech.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "2-Day Mount Toubkal Trek from Marrakech — Express Summit 4,167 m | Marrakech Eco Tours",
+    seoDescription: "Climb Jbel Toubkal (4,167 m) in 2 days from Marrakech — the fastest route to North Africa's highest peak. Refuge night, all meals, licensed Berber guide & transfers. From $210.",
+    featured: false,
+  },
+  {
+    id: "32",
+    slug: "toubkal-aguelzim-pass-3day",
+    title: "Toubkal Summit via Aguelzim Pass — 3-Day Trek",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "3 days / 2 nights",
+    groupSize: "2–12 people",
+    reviewCount: 18,
+    rating: 4.8,
+    price: 330,
+    depositAmount: 85,
+    heroImage:
+      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
+    ],
+    shortDescription:
+      "The scenic route to the summit — through the Azzaden Valley, past the Ighouliden waterfalls, over the Aguelzim Pass (3,560 m) to Toubkal.",
+    description:
+      "This three-day route takes the quieter, more beautiful back way to Toubkal. Instead of the direct Aït Mizane valley, you trek into the wild Azzaden Valley, past the Ighouliden waterfalls and the Azib Tamsoult meadows, then cross the dramatic Aguelzim Pass (3,560 m) to reach the Toubkal Refuge. The final day is the summit push. It is a more rewarding and scenic approach than the standard route, with real high-mountain variety. Note: the Aguelzim pass is only passable roughly May–October.",
+    highlights: [
+      "Trek the wild Azzaden Valley — quieter and greener than the standard route",
+      "Pass the spectacular Ighouliden (Tamsoult) waterfalls",
+      "Cross the high Aguelzim Pass at 3,560 m",
+      "Summit Jbel Toubkal (4,167 m), the highest peak in North Africa",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "2 nights accommodation (mountain refuges)",
+      "All meals during the trek",
+      "Mule porter for group gear",
+      "Toubkal National Park entrance fees",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (mandatory)",
+      "Personal trekking equipment",
+      "Tips for guide and porter",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Azzaden Valley (Azib Tamsoult)",
+        description:
+          "Transfer from Marrakech to Imlil. Trek over the Tizi n'Mzik pass (2,450 m) into the Azzaden Valley, past the Ighouliden waterfalls to the refuge near Azib Tamsoult. Around 6 hours.",
+      },
+      {
+        day: 2,
+        title: "Azzaden → Aguelzim Pass (3,560 m) → Toubkal Refuge (3,207 m)",
+        description:
+          "A stiff climb out of the Azzaden Valley over the Aguelzim Pass, with big views of the western Atlas, then a descent to the Toubkal Refuge. Around 6–7 hours. Early night before the summit.",
+      },
+      {
+        day: 3,
+        title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
+        description:
+          "Pre-dawn ascent via the South Cirque to the summit at sunrise. Long descent all the way back to Imlil (via the refuge), then transfer to Marrakech. A demanding but unforgettable final day.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "3-Day Toubkal Trek via Aguelzim Pass from Marrakech — Azzaden Valley Route | Marrakech Eco Tours",
+    seoDescription: "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). Licensed guide, refuges, all meals & transfers. From $330.",
+    featured: false,
+  },
+  {
+    id: "33",
+    slug: "toubkal-three-peaks-4000m-3day",
+    title: "Toubkal Three 4,000 m Peaks — 3-Day Challenge",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "expert",
+    duration: "3 days / 2 nights",
+    groupSize: "2–10 people",
+    reviewCount: 12,
+    rating: 4.9,
+    price: 360,
+    depositAmount: 90,
+    heroImage:
+      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+    ],
+    shortDescription:
+      "Bag three of the High Atlas's 4,000 m summits in three days — Ras Ouanoukrim, Timesguida, and Jbel Toubkal.",
+    description:
+      "For strong, experienced trekkers, this is the ultimate High Atlas challenge: three 4,000-metre summits in three days. From the Toubkal Refuge you climb the twin peaks of Ouanoukrim — Timesguida (4,089 m) and Ras (4,083 m) — before the grand finale on Jbel Toubkal (4,167 m) itself. With limited time to acclimatise and 1,000 m of ascent on consecutive days, it demands genuine fitness and mountain experience, but rewards you with three of the highest points in North Africa.",
+    highlights: [
+      "Summit three 4,000 m peaks: Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) & Toubkal (4,167 m)",
+      "One of the toughest and most rewarding treks in the High Atlas",
+      "Base from the Toubkal Refuge at 3,207 m",
+      "Sunrise summits and vast views to the Sahara and Anti-Atlas",
+    ],
+    includes: [
+      "Professional licensed mountain guide (high-altitude qualified)",
+      "2 nights in the Toubkal Refuge",
+      "All meals during the trek",
+      "Mule porter for group gear",
+      "Toubkal National Park entrance fees",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance with altitude cover (mandatory)",
+      "Personal trekking equipment",
+      "Tips for guide and porter",
+      "Crampons and ice axe in winter (rental available)",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
+        description:
+          "Transfer from Marrakech to Imlil. Trek up the Aït Mizane valley past Sidi Chamharouch to the Toubkal Refuge. 4–5 hours. Acclimatisation and rest before two big summit days.",
+      },
+      {
+        day: 2,
+        title: "Ouanoukrim — Timesguida (4,089 m) & Ras (4,083 m)",
+        description:
+          "Ascend to the Tizi n'Ouanoums area and climb the twin Ouanoukrim summits, Timesguida and Ras, both over 4,000 m. Return to the Toubkal Refuge for the night. A demanding full day.",
+      },
+      {
+        day: 3,
+        title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
+        description:
+          "Final summit push up Jbel Toubkal via the South Cirque at sunrise — the highest of the three. Long descent to Imlil and transfer back to Marrakech.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Toubkal Three Peaks 4,000 m Challenge — 3-Day High Atlas Trek | Marrakech Eco Tours",
+    seoDescription: "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). Expert-level trek from Marrakech with licensed guide. From $360.",
+    featured: false,
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {

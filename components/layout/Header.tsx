@@ -103,10 +103,10 @@ export default function Header({ lang, dict }: Props) {
             scrolled ? "h-14 px-3 sm:px-4 shadow-[0_8px_30px_rgba(31,26,22,0.12)]" : "h-16 lg:h-[4.5rem] px-4 sm:px-6"
           }`}
         >
-          {/* Wordmark — with the Amazigh yaz (ⵣ) mark */}
-          <Link href={`/${lang}`} className="flex items-center gap-2.5 shrink-0 group">
-            <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-indigo text-brass-glow shadow-[0_2px_8px_rgba(43,58,103,0.28)]">
-              <span className="font-display text-lg font-bold leading-none" aria-hidden>ⵣ</span>
+          {/* Wordmark — MET monogram mark (matches the favicon) */}
+          <Link href={`/${lang}`} className="flex items-center gap-2.5 shrink-0 group" aria-label="Marrakech Eco Tours — home">
+            <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-indigo ring-[1.5px] ring-inset ring-saffron shadow-[0_2px_8px_rgba(43,58,103,0.28)]">
+              <span className="text-[0.72rem] font-extrabold tracking-[0.06em] leading-none text-surface" aria-hidden>MET</span>
             </span>
             <span className="font-display text-[1.35rem] leading-none font-semibold text-indigo hidden sm:block">
               Marrakech <span className="text-saffron">Eco Tours</span>
@@ -264,8 +264,10 @@ export default function Header({ lang, dict }: Props) {
           className="absolute top-2 left-2 right-2 rounded-[4px] bg-card border border-rule shadow-[0_20px_60px_rgba(31,26,22,0.28)] max-h-[92vh] overflow-y-auto"
         >
           <div className="flex items-center justify-between px-5 py-4 border-b border-rule">
-            <span className="font-display text-xl font-semibold text-indigo flex items-center gap-2">
-              <span aria-hidden className="text-saffron">ⵣ</span>
+            <span className="font-display text-xl font-semibold text-indigo flex items-center gap-2.5">
+              <span className="grid place-items-center w-8 h-8 rounded-[3px] bg-indigo ring-[1.5px] ring-inset ring-saffron">
+                <span className="text-[0.62rem] font-extrabold tracking-[0.06em] leading-none text-surface" aria-hidden>MET</span>
+              </span>
               Marrakech <span className="text-saffron">Eco Tours</span>
             </span>
             <button onClick={() => setOpen(false)} aria-label="Close menu" className="grid place-items-center w-9 h-9 rounded-[3px] text-indigo hover:bg-surface-sunk/70">

@@ -106,9 +106,9 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Brand — spans 2 cols on lg */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Link href={`/${lang}`} className="flex items-center gap-2.5 mb-4">
-              <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-saffron/15 text-brass-glow font-display text-lg font-bold" aria-hidden>
-                ⵣ
+            <Link href={`/${lang}`} className="flex items-center gap-2.5 mb-4" aria-label="Marrakech Eco Tours — home">
+              <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-saffron/15 ring-[1.5px] ring-inset ring-brass-glow/70">
+                <span className="text-[0.72rem] font-extrabold tracking-[0.06em] leading-none text-brass-glow" aria-hidden>MET</span>
               </span>
               <span className="font-display font-semibold text-2xl text-cream">Marrakech <span className="text-brass-glow">Eco Tours</span></span>
             </Link>

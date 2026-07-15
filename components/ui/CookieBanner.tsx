@@ -41,22 +41,23 @@ export default function CookieBanner() {
           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <p className="text-white/70 text-sm leading-relaxed flex-1">
-              We use cookies to improve your browsing experience. Essential cookies are always active.{" "}
-              <Link href="/en/privacy" className="underline text-white/50 hover:text-white transition-colors">
-                Privacy policy
+            <p className="text-white/75 text-sm leading-relaxed flex-1">
+              We use a couple of cookies to remember your preferences. Necessary cookies are always active; there is
+              no cookie wall.{" "}
+              <Link href="/en/cookies" className="underline text-white/55 hover:text-white transition-colors">
+                Cookie policy
               </Link>
             </p>
             <div className="flex gap-2 shrink-0">
               <button
                 onClick={necessary}
-                className="px-4 py-2 rounded-lg border border-white/20 text-white/60 text-sm font-medium hover:border-white/40 hover:text-white/80 transition-colors"
+                className="px-4 py-2 rounded-[3px] border border-white/20 text-white/70 text-sm font-medium hover:border-white/40 hover:text-white/90 transition-colors"
               >
                 Necessary only
               </button>
               <button
                 onClick={accept}
-                className="px-5 py-2 rounded-lg bg-sunset text-white text-sm font-semibold hover:bg-orange-500 transition-colors"
+                className="px-5 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep transition-colors"
               >
                 Accept all
               </button>

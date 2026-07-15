@@ -147,7 +147,7 @@ export default function GalleryLightbox({ photos }: { photos: GalleryPhoto[] }) 
         <button
           key={i}
           onClick={() => setOpen(i)}
-          className={`relative overflow-hidden rounded-2xl group cursor-pointer text-left ${photo.span ?? ""}`}
+          className={`relative overflow-hidden rounded-[4px] group cursor-pointer text-left ${photo.span ?? ""}`}
           aria-label={`View photo: ${photo.alt}`}
         >
           <div className="absolute inset-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]">

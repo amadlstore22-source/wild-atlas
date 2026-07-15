@@ -13,10 +13,11 @@ interface Props {
 
 export default function FeaturedTours({ dict, lang = "en" }: Props) {
   const tours = getFeaturedTours();
-  const [hero, ...rest] = tours;
+  // Six featured tours in a clean 3-column x 2-row grid — no ragged trailing row.
+  const featured = tours.slice(0, 6);
 
   return (
-    <Section tone="white" motif>
+    <Section tone="plaster" motif>
       <SectionHeader
         eyebrow={dict.featuredTours.eyebrow}
         title={dict.featuredTours.title}
@@ -26,7 +27,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
         action={
           <Link
             href={`/${lang}/tours`}
-            className="inline-flex items-center gap-2 text-forest text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold hover:gap-3 transition-all group shrink-0"
           >
             {dict.featuredTours.viewAll}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
@@ -34,20 +35,14 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
         }
       />
 
-      {/* Asymmetric grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:grid-rows-2">
-        {hero && (
-          <div className="lg:row-span-2">
-            <TourCard tour={hero} lang={lang} dict={dict} featured={true} delay={0} />
-          </div>
-        )}
-        {rest.slice(0, 4).map((tour, i) => (
-          <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} delay={0.1 + i * 0.1} />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {featured.map((tour, i) => (
+          <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} delay={i * 0.08} />
         ))}
       </div>
 
       <p className="text-center text-xs text-ink-muted mt-8 lg:hidden">
-        Showing {Math.min(tours.length, 5)} of {tours.length} tours
+        Showing 6 of {tours.length} tours
       </p>
     </Section>
   );

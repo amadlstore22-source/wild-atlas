@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { Mountains, Envelope, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
-import { SITE, SOCIAL, TRIPADVISOR } from "@/lib/constants";
+import { Envelope, Phone, MapPin, PersonSimpleBike, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
+import { SITE, SOCIAL, TRIPADVISOR, SISTER_SITE } from "@/lib/constants";
+import { STATS } from "@/lib/stats";
 import NewsletterForm from "@/components/ui/NewsletterForm";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
-import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const SOCIAL_ICONS = [
@@ -73,29 +73,30 @@ export default function Footer({ lang, dict }: Props) {
     { label: "FAQ", href: `/${lang}/contact#faq` },
     { label: "Privacy Policy", href: `/${lang}/privacy` },
     { label: "Terms & Conditions", href: `/${lang}/terms` },
+    { label: "Cookie Policy", href: `/${lang}/cookies` },
   ];
 
   return (
-    <footer className="bg-charcoal text-white">
-      {/* Zellige seam — a woven star-and-cross band where the page meets the footer */}
-      <ZelligeBand tone="light" height={26} className="opacity-40" />
+    <footer className="tex-indigo text-cream relative">
+      {/* Saffron hairline where the page meets the footer */}
+      <div className="h-px w-full bg-saffron/40" />
       {/* Top bar — trust */}
-      <div className="border-b border-white/8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-          <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-white/40">
+      <div className="border-b border-saffron/15">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-5">
+          <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-cream/70">
             <div className="flex flex-wrap items-center gap-5">
               <span className="flex items-center gap-1.5">
-                <span className="text-[#FFB800]">★★★★★</span>
+                <span className="text-brass-glow">★★★★★</span>
                 <span>{TRIPADVISOR.rating.toFixed(1)} average rating</span>
               </span>
-              <span className="hidden sm:block text-white/15">·</span>
-              <span>{SITE.clientCount} happy travelers</span>
-              <span className="hidden sm:block text-white/15">·</span>
+              <span className="hidden sm:block text-cream/25">·</span>
+              <span>{STATS.travellers} happy travellers</span>
+              <span className="hidden sm:block text-cream/25">·</span>
               <span>Licensed tour operator since {SITE.foundedYear}</span>
-              <span className="hidden sm:block text-white/15">·</span>
+              <span className="hidden sm:block text-cream/25">·</span>
               <span>Certified Berber guides</span>
             </div>
-            <span className="text-white/25 hidden md:block">Marrakech · Morocco</span>
+            <span className="text-cream/45 hidden md:block">Marrakech, Morocco</span>
           </div>
         </div>
       </div>
@@ -105,11 +106,13 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Brand — spans 2 cols on lg */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Link href={`/${lang}`} className="flex items-center gap-2 font-serif font-bold text-xl text-white mb-4">
-              <Mountains className="w-6 h-6 text-sunset shrink-0" />
-              {SITE.name}
+            <Link href={`/${lang}`} className="flex items-center gap-2.5 mb-4">
+              <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-saffron/15 text-brass-glow font-display text-lg font-bold" aria-hidden>
+                ⵣ
+              </span>
+              <span className="font-display font-semibold text-2xl text-cream">Marrakech <span className="text-brass-glow">Eco Tours</span></span>
             </Link>
-            <p className="text-white/50 text-sm leading-relaxed mb-5 max-w-xs">
+            <p className="text-cream/60 text-sm leading-relaxed mb-5 max-w-xs">
               {dict.footer.tagline}
             </p>
             <div className="flex gap-2.5 mb-6">
@@ -120,26 +123,26 @@ export default function Footer({ lang, dict }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-9 h-9 rounded-full bg-white/8 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/16 transition-all"
+                  className="w-9 h-9 rounded-[3px] bg-saffron/12 flex items-center justify-center text-cream/65 hover:text-brass-glow hover:bg-saffron/20 transition-all"
                 >
                   {s.svg}
                 </a>
               ))}
             </div>
-            <div className="flex items-start gap-2 text-xs text-white/35">
-              <MapPin className="w-3.5 h-3.5 text-sunset shrink-0 mt-0.5" />
-              <span>Marrakech, Morocco<br />Open Mon – Sun · 08:00 – 20:00</span>
+            <div className="flex items-start gap-2 text-xs text-cream/60">
+              <MapPin className="w-3.5 h-3.5 text-brass-glow shrink-0 mt-0.5" />
+              <span>Marrakech, Morocco<br />Open daily, 08:00 to 20:00</span>
             </div>
             <TripAdvisorBadge variant="dark" className="mt-5" />
           </div>
 
           {/* Adventures */}
           <div>
-            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">{dict.footer.explore}</h3>
-            <ul className="space-y-2.5 text-sm text-white/50">
+            <h3 className="font-semibold text-cream text-xs mb-4 uppercase tracking-[0.18em] font-body">{dict.footer.explore}</h3>
+            <ul className="space-y-2.5 text-sm text-cream/65">
               {ADVENTURES.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="hover:text-sunset transition-colors">
+                  <Link href={l.href} className="hover:text-brass-glow transition-colors">
                     {l.label}
                   </Link>
                 </li>
@@ -149,11 +152,11 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Destinations */}
           <div>
-            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">{dict.footer.destinations}</h3>
-            <ul className="space-y-2.5 text-sm text-white/50">
+            <h3 className="font-semibold text-cream text-xs mb-4 uppercase tracking-[0.18em] font-body">{dict.footer.destinations}</h3>
+            <ul className="space-y-2.5 text-sm text-cream/65">
               {DESTINATIONS_LINKS.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="hover:text-sunset transition-colors">
+                  <Link href={l.href} className="hover:text-brass-glow transition-colors">
                     {l.label}
                   </Link>
                 </li>
@@ -163,11 +166,11 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Company */}
           <div>
-            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">{dict.footer.quickLinks}</h3>
-            <ul className="space-y-2.5 text-sm text-white/50">
+            <h3 className="font-semibold text-cream text-xs mb-4 uppercase tracking-[0.18em] font-body">{dict.footer.quickLinks}</h3>
+            <ul className="space-y-2.5 text-sm text-cream/65">
               {COMPANY.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="hover:text-sunset transition-colors">
+                  <Link href={l.href} className="hover:text-brass-glow transition-colors">
                     {l.label}
                   </Link>
                 </li>
@@ -177,8 +180,8 @@ export default function Footer({ lang, dict }: Props) {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-white text-xs mb-4 uppercase tracking-widest">{dict.footer.contact}</h3>
-            <ul className="space-y-3 text-sm text-white/50">
+            <h3 className="font-semibold text-cream text-xs mb-4 uppercase tracking-[0.18em] font-body">{dict.footer.contact}</h3>
+            <ul className="space-y-3 text-sm text-cream/65">
               <li>
                 <a
                   href={`https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`}
@@ -195,22 +198,22 @@ export default function Footer({ lang, dict }: Props) {
               <li>
                 <a
                   href={`mailto:${SITE.email}`}
-                  className="flex items-start gap-2.5 hover:text-sunset transition-colors"
+                  className="flex items-start gap-2.5 hover:text-brass-glow transition-colors"
                 >
-                  <Envelope className="w-4 h-4 text-sunset shrink-0 mt-0.5" />
+                  <Envelope className="w-4 h-4 text-brass-glow shrink-0 mt-0.5" />
                   <span className="break-all">{SITE.emailDisplay}</span>
                 </a>
               </li>
               <li>
                 <a
                   href={`tel:${SITE.phoneDial}`}
-                  className="flex items-center gap-2.5 hover:text-sunset transition-colors"
+                  className="flex items-center gap-2.5 hover:text-brass-glow transition-colors"
                 >
-                  <Phone className="w-4 h-4 text-sunset shrink-0" />
+                  <Phone className="w-4 h-4 text-brass-glow shrink-0" />
                   {SITE.phone}
                 </a>
               </li>
-              <li className="pt-1 text-white/28 text-xs leading-relaxed">
+              <li className="pt-1 text-cream/60 text-xs leading-relaxed">
                 {dict.contact.responseValue}<br />
                 English · French · Arabic · Spanish
               </li>
@@ -218,11 +221,34 @@ export default function Footer({ lang, dict }: Props) {
           </div>
         </div>
 
+        {/* Sister brand — same team, different sport. Full-width related-service band. */}
+        <a
+          href={SISTER_SITE.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-4 rounded-[4px] border border-saffron/25 bg-saffron/[0.06] px-5 py-4 mb-4 hover:border-saffron/50 hover:bg-saffron/10 transition-colors"
+        >
+          <span className="grid place-items-center w-11 h-11 rounded-[3px] bg-saffron/15 text-brass-glow shrink-0">
+            <PersonSimpleBike className="w-6 h-6" weight="duotone" />
+          </span>
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-1.5">
+              <span className="text-cream text-sm sm:text-base font-semibold leading-tight">{SISTER_SITE.name}</span>
+              <span className="text-cream/40 text-[0.6rem] uppercase tracking-wider border border-cream/20 rounded-[2px] px-1.5 py-0.5 hidden sm:inline">Sister brand</span>
+            </div>
+            <p className="text-cream/60 text-xs sm:text-sm leading-snug mt-0.5">{SISTER_SITE.blurb}</p>
+          </div>
+          <span className="flex items-center gap-1.5 text-brass-glow text-xs font-semibold shrink-0 group-hover:gap-2.5 transition-all">
+            <span className="hidden sm:inline">Visit site</span>
+            <ArrowUpRight className="w-4 h-4" weight="bold" />
+          </span>
+        </a>
+
         {/* Newsletter */}
-        <div className="border-t border-white/8 pt-10 pb-8 grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6">
+        <div className="border-t border-brass/15 pt-10 pb-8 grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6">
           <div>
-            <p className="text-white/80 text-sm font-semibold">{dict.footer.newsletter}</p>
-            <p className="text-white/40 text-xs mt-0.5">No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.</p>
+            <p className="text-cream text-sm font-semibold">{dict.footer.newsletter}</p>
+            <p className="text-cream/60 text-xs mt-0.5">No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.</p>
           </div>
           <div className="sm:min-w-[340px]">
             <NewsletterForm placeholder="your@email.com" buttonLabel={dict.footer.newsletterBtn} />
@@ -230,12 +256,13 @@ export default function Footer({ lang, dict }: Props) {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/28">
+        <div className="border-t border-brass/15 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/60">
           <p>© {new Date().getFullYear()} {SITE.name}. {dict.footer.rights}</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href={`/${lang}/privacy`} className="hover:text-white transition-colors">{dict.footer.privacy}</Link>
-            <Link href={`/${lang}/terms`} className="hover:text-white transition-colors">{dict.footer.terms}</Link>
-            <a href={`mailto:${SITE.email}`} className="hover:text-white transition-colors">{dict.footer.contact}</a>
+            <Link href={`/${lang}/privacy`} className="hover:text-brass-glow transition-colors">{dict.footer.privacy}</Link>
+            <Link href={`/${lang}/terms`} className="hover:text-brass-glow transition-colors">{dict.footer.terms}</Link>
+            <Link href={`/${lang}/cookies`} className="hover:text-brass-glow transition-colors">Cookies</Link>
+            <a href={`mailto:${SITE.email}`} className="hover:text-brass-glow transition-colors">{dict.footer.contact}</a>
           </div>
         </div>
       </div>

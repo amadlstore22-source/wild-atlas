@@ -381,7 +381,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
   return (
     <section
       className="py-20"
-      style={{ background: "linear-gradient(180deg,#0D150D 0%,#111711 100%)" }}
+      style={{ background: "linear-gradient(180deg,#1B2645 0%,#141d33 100%)" }}
     >
       <style>{`
         .leaflet-control-attribution { font-size: 9px !important; background: rgba(0,0,0,0.55) !important; color: rgba(255,255,255,0.6) !important; }
@@ -400,12 +400,12 @@ export default function ToursMap({ lang }: { lang: Locale }) {
         {/* Header */}
         <div className="text-center mb-8">
           <h2
-            className="font-serif text-white font-bold mb-3"
-            style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.8rem)" }}
+            className="font-display font-bold mb-3"
+            style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.8rem)", color: "#FBF8F3" }}
           >
             Where the Adventures Happen
           </h2>
-          <p className="text-white/40 text-sm max-w-sm mx-auto">
+          <p className="text-sm max-w-sm mx-auto" style={{ color: "rgba(251,248,243,0.6)" }}>
             Select a destination to explore what it has to offer.
           </p>
         </div>
@@ -416,7 +416,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
           {/* Desktop sidebar — hidden on mobile */}
           <div
             className="hidden lg:flex flex-col w-[288px] shrink-0 overflow-hidden"
-            style={{ background: "#08100a", borderRight: "1px solid rgba(255,255,255,0.07)", height: 560 }}
+            style={{ background: "#141d33", borderRight: "1px solid rgba(255,255,255,0.07)", height: 560 }}
           >
             {selected ? (
               <div className="flex flex-col h-full overflow-hidden">

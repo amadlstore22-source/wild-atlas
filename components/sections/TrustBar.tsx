@@ -32,7 +32,7 @@ export default function TrustBar({ dict }: Props) {
               <s.icon className={`w-5 h-5 shrink-0 ${s.color}`} weight={s.weight} />
               <div>
                 <div className="font-bold text-charcoal text-sm leading-none">{s.value}</div>
-                <div className="text-charcoal/45 text-xs mt-0.5 leading-tight">{s.label}</div>
+                <div className="text-ink-muted text-xs mt-0.5 leading-tight">{s.label}</div>
               </div>
             </motion.div>
           ))}

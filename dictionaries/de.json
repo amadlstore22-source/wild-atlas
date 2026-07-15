@@ -4,7 +4,7 @@
     "about": "Über uns",
     "blog": "Blog",
     "contact": "Kontakt",
-    "bookNow": "Jetzt buchen",
+    "bookNow": "Verfügbarkeit prüfen",
     "news": "Neuigkeiten",
     "adventures": "Abenteuer",
     "destinations": "Reiseziele",
@@ -86,6 +86,11 @@
     "meetTeam": "Unsere ganze Geschichte lesen",
     "teamTitle": "Die Guides hinter den Abenteuern",
     "teamSubtitle": "In den Bergen geboren, im Feld ausgebildet, leidenschaftlich für Marokko."
+  },
+  "map": {
+    "eyebrow": "Wohin wir gehen",
+    "title": "Hierhin. Und hierhin. Und hierhin.",
+    "subtitle": "Von den Gipfeln des Hohen Atlas über die goldene Sahara bis zur Atlantikküste führt jede Route ein Einheimischer, der das Gelände kennt."
   },
   "testimonials": {
     "eyebrow": "Reisendenbewertungen",
@@ -227,7 +232,7 @@
     "backToBlog": "Blog",
     "readMore": "Mehr lesen",
     "learnMore": "Mehr erfahren",
-    "bookNow": "Jetzt buchen",
+    "bookNow": "Verfügbarkeit prüfen",
     "contactUs": "Kontaktieren Sie uns",
     "perPerson": "/ Person",
     "from": "Ab",

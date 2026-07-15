@@ -17,7 +17,7 @@ const securityHeaders = [
         ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com"
         : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com",
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: https://images.unsplash.com https://www.paypalobjects.com https://server.arcgisonline.com https://i.guim.co.uk https://static01.nyt.com https://moroccotravelblog.com https://www.atlasandboots.com",
+      "img-src 'self' data: https://images.unsplash.com https://www.paypalobjects.com https://server.arcgisonline.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com",
       "font-src 'self'",
       isDev
         ? "connect-src 'self' https://api.resend.com ws://localhost:* http://localhost:*"
@@ -37,7 +37,6 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "i.guim.co.uk" },
       { protocol: "https", hostname: "static01.nyt.com" },
-      { protocol: "https", hostname: "moroccotravelblog.com" },
       { protocol: "https", hostname: "www.atlasandboots.com" },
     ],
   },

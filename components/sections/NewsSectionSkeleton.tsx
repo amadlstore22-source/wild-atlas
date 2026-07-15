@@ -9,7 +9,7 @@ export default function NewsSectionSkeleton() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[0, 1, 2].map((i) => (
-            <div key={i} className="rounded-2xl bg-white border border-sand-dark overflow-hidden shadow-sm">
+            <div key={i} className="rounded-[4px] bg-card border border-sand-deep overflow-hidden shadow-sm">
               <div className="h-48 bg-sand-dark/40 animate-pulse" />
               <div className="p-5 space-y-3">
                 <div className="h-3 w-20 bg-sand-dark/40 rounded animate-pulse" />

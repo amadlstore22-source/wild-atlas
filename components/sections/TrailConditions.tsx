@@ -15,7 +15,7 @@ export default async function TrailConditions() {
 
             {/* Label */}
             <div className="shrink-0">
-              <p className="text-[10px] font-bold tracking-widest text-charcoal/35 uppercase leading-none mb-1">
+              <p className="text-[10px] font-bold tracking-widest text-ink-muted uppercase leading-none mb-1">
                 Live Weather
               </p>
               <p className="font-semibold text-sm text-charcoal/80 leading-snug">
@@ -39,13 +39,13 @@ export default async function TrailConditions() {
                       <span className="font-bold text-charcoal text-base leading-none tabular-nums">
                         {r.tempC}°
                       </span>
-                      <span className="text-charcoal/40 text-xs tabular-nums">
+                      <span className="text-ink-muted text-xs tabular-nums">
                         {r.highC}° / {r.lowC}°
                       </span>
                     </div>
-                    <div className="text-charcoal/70 text-xs font-medium truncate mt-0.5">
+                    <div className="text-ink-soft text-xs font-medium truncate mt-0.5">
                       {r.name}
-                      <span className="text-charcoal/35"> · {r.label}</span>
+                      <span className="text-ink-muted"> · {r.label}</span>
                     </div>
                   </div>
                 </li>
@@ -57,7 +57,7 @@ export default async function TrailConditions() {
               href="https://open-meteo.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 text-xs text-charcoal/25 hover:text-charcoal/45 transition-colors self-end lg:self-center whitespace-nowrap"
+              className="shrink-0 text-xs text-charcoal/25 hover:text-ink-muted transition-colors self-end lg:self-center whitespace-nowrap"
             >
               Open-Meteo · 3 h cache
             </a>

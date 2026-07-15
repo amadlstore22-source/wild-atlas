@@ -49,6 +49,37 @@ interface OpenMeteoResponse {
   };
 }
 
+/**
+ * Map a tour to one of the four weather regions above, so the tour-detail
+ * sidebar can show conditions for the ground it actually covers. Tours have no
+ * `region` field, so this derives it from category + origin + meetingPoint.
+ * Returns a region `name` matching one in LOCATIONS.
+ */
+export function tourRegionName(tour: {
+  category: string;
+  origin: string;
+  meetingPoint: { lat: number; lng: number };
+}): string {
+  if (tour.category === "desert") return "Sahara";
+  if (tour.category === "trekking" || tour.category === "hiking") return "High Atlas";
+  if (tour.origin === "agadir") return "Agadir";
+  // Fall back to nearest region by meetingPoint latitude/longitude.
+  let best = "Marrakech";
+  let bestD = Infinity;
+  for (const loc of LOCATIONS) {
+    const d = (tour.meetingPoint.lat - loc.lat) ** 2 + (tour.meetingPoint.lng - loc.lon) ** 2;
+    if (d < bestD) { bestD = d; best = loc.name; }
+  }
+  return best;
+}
+
+/** Fetch weather for a single region by name (sidebar variant). */
+export async function fetchRegionWeather(regionName: string): Promise<RegionWeather | null> {
+  const result = await fetchMoroccoWeather();
+  if (result.error) return null;
+  return result.regions.find((r) => r.name === regionName) ?? null;
+}
+
 export async function fetchMoroccoWeather(): Promise<WeatherResult> {
   try {
     const results = await Promise.all(

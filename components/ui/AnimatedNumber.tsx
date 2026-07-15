@@ -20,15 +20,16 @@ export default function AnimatedNumber({ to, suffix = "", prefix = "", decimals 
     if (!isInView) return;
     const startTime = performance.now();
     const ms = duration * 1000;
-    setDisplay(0);
+    let raf = 0;
 
     function tick(now: number) {
       const t = Math.min((now - startTime) / ms, 1);
       const eased = 1 - Math.pow(1 - t, 3);
       setDisplay(to * eased);
-      if (t < 1) requestAnimationFrame(tick);
+      if (t < 1) raf = requestAnimationFrame(tick);
     }
-    requestAnimationFrame(tick);
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
   }, [isInView, to, duration]);
 
   const formatted = decimals > 0 ? display.toFixed(decimals) : String(Math.floor(display));

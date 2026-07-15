@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import ContactForm from "@/components/sections/ContactForm";
 import { Envelope, Phone, MapPin, Clock, WhatsappLogo, ChatCircleText } from "@phosphor-icons/react/dist/ssr";
@@ -70,7 +69,7 @@ export default async function ContactPage({ params }: LangParams) {
   return (
     <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
-    <div className="min-h-screen moroccan-bg">
+    <div className="moroccan-bg">
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
@@ -81,10 +80,10 @@ export default async function ContactPage({ params }: LangParams) {
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/35 to-indigo-deep/15" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
-          <p className="text-saffron text-xs font-bold uppercase tracking-[0.2em] mb-4">Get in Touch</p>
-          <h1 className="font-serif text-white font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">Get in Touch</p>
+          <h1 className="font-display text-white font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
             {dict.contact.pageTitle}
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">{dict.contact.pageSubtitle}</p>
@@ -103,7 +102,7 @@ export default async function ContactPage({ params }: LangParams) {
               href={`https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 p-5 bg-[#25D366] rounded-2xl text-white hover:bg-[#1ebe5a] transition-colors shadow-lg shadow-[#25D366]/20"
+              className="flex items-center gap-4 p-5 bg-[#25D366] rounded-[4px] text-white hover:bg-[#1ebe5a] transition-colors shadow-lg shadow-[#25D366]/20"
             >
               <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                 <WhatsappLogo className="w-5 h-5 text-white" weight="fill" />
@@ -117,12 +116,12 @@ export default async function ContactPage({ params }: LangParams) {
 
             {/* Contact info cards */}
             {CONTACT_INFO.map((item) => (
-              <div key={item.label} className="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm">
+              <div key={item.label} className="flex items-start gap-4 p-5 bg-card rounded-[4px] shadow-sm">
                 <div className="w-10 h-10 rounded-full bg-forest/10 flex items-center justify-center shrink-0">
                   <item.icon className="w-5 h-5 text-forest" />
                 </div>
                 <div>
-                  <div className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest mb-0.5">
+                  <div className="text-xs font-semibold text-ink-soft uppercase tracking-widest mb-0.5">
                     {item.label}
                   </div>
                   {item.href ? (
@@ -137,10 +136,10 @@ export default async function ContactPage({ params }: LangParams) {
             ))}
 
             {/* Custom trip nudge */}
-            <div className="p-5 bg-forest/5 border border-forest/15 rounded-2xl">
+            <div className="p-5 bg-forest/5 border border-forest/15 rounded-[4px]">
               <ChatCircleText className="w-6 h-6 text-forest mb-3" weight="duotone" />
               <p className="text-charcoal font-semibold text-sm mb-1">Planning something custom?</p>
-              <p className="text-charcoal/55 text-xs leading-relaxed">
+              <p className="text-ink-soft text-xs leading-relaxed">
                 Tell us your dates, group size, and what matters most — we&apos;ll build an itinerary around you.
               </p>
             </div>
@@ -148,22 +147,22 @@ export default async function ContactPage({ params }: LangParams) {
 
           {/* ── Form ── */}
           <div className="lg:col-span-2">
-            <ContactForm />
+            <ContactForm lang={lang} />
           </div>
         </div>
 
         <div id="faq" className="mt-20">
-          <h2 className="font-serif text-charcoal text-4xl font-bold mb-10">
+          <h2 className="font-display text-charcoal text-4xl font-bold mb-10">
             {dict.contact.faqTitle}
           </h2>
           <div className="space-y-4">
             {FAQ.map((item) => (
-              <details key={item.q} className="bg-white rounded-2xl shadow-sm group">
+              <details key={item.q} className="bg-card rounded-[4px] shadow-sm group">
                 <summary className="flex items-center justify-between p-6 cursor-pointer font-semibold text-charcoal hover:text-forest transition-colors list-none">
                   {item.q}
-                  <span className="text-charcoal/40 group-open:rotate-45 transition-transform text-xl ml-4 shrink-0">+</span>
+                  <span className="text-ink-muted group-open:rotate-45 transition-transform text-xl ml-4 shrink-0">+</span>
                 </summary>
-                <div className="px-6 pb-6 text-charcoal/70 leading-relaxed">{item.a}</div>
+                <div className="px-6 pb-6 text-ink-soft leading-relaxed">{item.a}</div>
               </details>
             ))}
           </div>

@@ -34,7 +34,7 @@ export default async function GuidesPage({ params }: LangParams) {
   return (
     <>
       {/* ── Hero ── */}
-      <div className="relative bg-charcoal overflow-hidden">
+      <div className="relative tex-emerald overflow-hidden">
         <div
           className="absolute inset-0 opacity-20"
           style={{
@@ -45,9 +45,9 @@ export default async function GuidesPage({ params }: LangParams) {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <p className="text-saffron text-xs font-bold uppercase tracking-[0.2em] mb-5">Our team</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Our team</p>
           <h1
-            className="font-serif text-white font-bold leading-tight mb-6"
+            className="font-display text-white font-bold leading-tight mb-6"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
             The people who actually<br className="hidden sm:block" /> know Morocco
@@ -84,11 +84,11 @@ export default async function GuidesPage({ params }: LangParams) {
 
         {/* ── Founder guides ── */}
         <div className="mb-6">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">Founders</p>
-          <h2 className="font-serif text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Founders</p>
+          <h2 className="font-display text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
             Smail & Mohamed Aitidar
           </h2>
-          <p className="text-charcoal/55 text-sm max-w-2xl">
+          <p className="text-ink-soft text-sm max-w-2xl">
             Brothers who grew up on these trails. They formalised the family guiding business in 2010 and have been
             building it ever since — one honest trip at a time.
           </p>
@@ -99,14 +99,14 @@ export default async function GuidesPage({ params }: LangParams) {
             <Link
               key={guide.id}
               href={`/${lang}/guides/${guide.id}`}
-              className="group bg-white rounded-3xl border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group bg-card rounded-[4px] border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
               {/* Avatar area */}
-              <div className="relative h-64 bg-gradient-to-br from-forest/10 to-forest/20 flex items-center justify-center">
+              <div className="relative h-64 bg-gradient-to-br from-indigo/10 to-forest/20 flex items-center justify-center">
                 {/* TODO: replace with <Image> once real photo is at /public/images/guides/{guide.id}.jpg */}
                 <div
                   className="w-36 h-36 rounded-full flex items-center justify-center text-white font-bold text-5xl shadow-2xl"
-                  style={{ background: "linear-gradient(135deg, #4B5D3A 0%, #2d3a22 100%)" }}
+                  style={{ background: "linear-gradient(135deg, #2B3A67 0%, #1B2645 100%)" }}
                 >
                   {guide.name
                     .split(" ")
@@ -119,12 +119,12 @@ export default async function GuidesPage({ params }: LangParams) {
               </div>
 
               <div className="p-8">
-                <h3 className="font-serif text-charcoal text-2xl font-bold mb-3 group-hover:text-forest transition-colors">
+                <h3 className="font-display text-charcoal text-2xl font-bold mb-3 group-hover:text-forest transition-colors">
                   {guide.name}
                 </h3>
-                <p className="text-charcoal/60 text-sm leading-relaxed mb-6">{guide.shortBio}</p>
+                <p className="text-ink-soft text-sm leading-relaxed mb-6">{guide.shortBio}</p>
 
-                <div className="space-y-3 text-xs text-charcoal/55">
+                <div className="space-y-3 text-xs text-ink-soft">
                   <div className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-sunset shrink-0 mt-0.5" weight="fill" />
                     <span>{guide.regions.join(" · ")}</span>
@@ -149,8 +149,8 @@ export default async function GuidesPage({ params }: LangParams) {
 
         {/* ── Legacy section ── */}
         <div className="border-t border-sand-dark pt-16 mb-12">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">Where it all began</p>
-          <h2 className="font-serif text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Where it all began</p>
+          <h2 className="font-display text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
             The First Guide
           </h2>
         </div>
@@ -159,7 +159,7 @@ export default async function GuidesPage({ params }: LangParams) {
           {legacy.map((guide) => (
             <div
               key={guide.id}
-              className="bg-gradient-to-br from-charcoal/95 to-charcoal rounded-3xl p-8 text-white"
+              className="bg-gradient-to-br from-charcoal/95 to-charcoal rounded-[4px] p-8 text-white"
             >
               <div className="flex items-center gap-5 mb-6">
                 <div
@@ -172,7 +172,7 @@ export default async function GuidesPage({ params }: LangParams) {
                     .join("")}
                 </div>
                 <div>
-                  <div className="font-serif text-xl font-bold">{guide.name}</div>
+                  <div className="font-display text-xl font-bold">{guide.name}</div>
                   <div className="text-white/50 text-sm mt-0.5">{guide.role}</div>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default async function GuidesPage({ params }: LangParams) {
             </div>
           ))}
 
-          <div className="space-y-5 text-charcoal/65 leading-relaxed">
+          <div className="space-y-5 text-ink-soft leading-relaxed">
             <p>
               Every route we run today was walked first by Lahsen. The high passes of Toubkal, the mule
               tracks through Ourika, the stone-village paths of Aït Benhaddou — he mapped them in the 1980s,
@@ -202,9 +202,9 @@ export default async function GuidesPage({ params }: LangParams) {
         </div>
 
         {/* ── Specialties grid ── */}
-        <div className="mt-24 bg-offwhite rounded-3xl p-10">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3 text-center">Our expertise</p>
-          <h2 className="font-serif text-charcoal font-bold text-center mb-10" style={{ fontSize: "clamp(1.5rem, 2.5vw, 2rem)" }}>
+        <div className="mt-24 bg-offwhite rounded-[4px] p-10">
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3 text-center">Our expertise</p>
+          <h2 className="font-display text-charcoal font-bold text-center mb-10" style={{ fontSize: "clamp(1.5rem, 2.5vw, 2rem)" }}>
             What We Lead
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -214,10 +214,10 @@ export default async function GuidesPage({ params }: LangParams) {
               { label: "Medina & Culture", icon: "🕌", desc: "Marrakech, Fes, Chefchaouen" },
               { label: "Atlantic & Anti-Atlas", icon: "🌊", desc: "Agadir, Paradise Valley, Souss" },
             ].map((item) => (
-              <div key={item.label} className="bg-white rounded-2xl p-6 text-center shadow-sm border border-sand-dark">
+              <div key={item.label} className="bg-card rounded-[4px] p-6 text-center shadow-sm border border-sand-dark">
                 <div className="text-3xl mb-3">{item.icon}</div>
                 <div className="font-semibold text-charcoal text-sm mb-1">{item.label}</div>
-                <div className="text-charcoal/45 text-xs">{item.desc}</div>
+                <div className="text-ink-muted text-xs">{item.desc}</div>
               </div>
             ))}
           </div>

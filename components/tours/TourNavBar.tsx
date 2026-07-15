@@ -72,7 +72,7 @@ export default function TourNavBar() {
                     className={`shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
                       active === s.id
                         ? "bg-forest text-white"
-                        : "text-charcoal/60 hover:text-forest hover:bg-sand/60"
+                        : "text-ink-soft hover:text-forest hover:bg-sand/60"
                     }`}
                   >
                     {s.label}

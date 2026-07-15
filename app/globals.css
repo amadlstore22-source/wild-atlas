@@ -4,86 +4,138 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ============================================================
+   MARRAKECH ECO TOURS — Restrained / Structural / Material
+   Drawn from Moroccan architecture: tadelakt plaster, zellige
+   geometry, horseshoe arch, Amazigh (Tifinagh) script — NOT
+   from tourism clichés. Two accents max: Majorelle INDIGO
+   (primary) + tanned-leather SAFFRON (secondary). Terracotta
+   is STATE only. Type: Cormorant Garamond (display) + Inter.
+   ============================================================ */
+
 @theme {
-  /* Core palette — Atlas green family. forest = primary brand/CTA. */
-  --color-forest: #46583A;       /* primary CTA/brand — deep, premium on white */
-  --color-moss: #6B7F4E;         /* forest hover */
-  --color-sky: #5E7460;
+  /* ---- Surface — tadelakt lime plaster (never pure #FFF) ---- */
+  --color-surface: #F2EDE4;         /* base ground */
+  --color-surface-raised: #FBF8F3;  /* cards */
+  --color-surface-sunk: #E6DFD2;    /* wells, input fills */
 
-  /* Warm accent family — clay/desert. Terracotta = accent + one loud CTA. */
-  --color-sunset: #B85C38;       /* terracotta accent (eyebrows, highlights, 1 CTA) */
-  --color-atlas-clay: #B85C38;   /* Marrakech rampart red-ochre */
-  --color-saffron: #D4973B;      /* spice market ochre — rare (stars) */
+  /* ---- Ink — clay-brown black (never pure #000) ---- */
+  --color-ink: #1F1A16;             /* primary text */
+  --color-ink-soft: #4A443C;        /* body copy */
+  --color-ink-muted: #6B6058;       /* captions / secondary (AA on surface) */
+  --color-ink-faint: #9A9088;       /* hairline labels only, non-essential */
 
-  /* Dark contrast — Sahara night */
-  --color-indigo-night: #1B2D55; /* deep Sahara sky / dark section bg */
+  /* ---- Accent 1 — Fes / Majorelle indigo (PRIMARY) ---- */
+  --color-indigo: #2B3A67;
+  --color-indigo-deep: #1B2645;     /* darker — dark bands / footer */
+  --color-indigo-wash: #E8EBF2;     /* faint tint fills */
 
-  /* Eco accent */
-  --color-mint-tea: #4A7D68;     /* Moroccan mint — eco / community cues */
+  /* ---- Accent 2 — tanned-leather saffron (SECONDARY) ---- */
+  --color-saffron: #C97B2B;         /* fills, borders, on-dark text */
+  --color-saffron-deep: #8A5116;    /* saffron TEXT on light grounds (WCAG AA) */
+  --color-saffron-wash: #F6EADB;
 
-  /* Rare jewel — used ONLY inside Moroccan motif SVGs */
-  --color-zellige: #2C6E73;
+  /* ---- State only — never a fill, never a brand color ---- */
+  --color-terracotta: #B4472C;
 
-  /* Text scale — warm near-black to muted. Replaces ad-hoc charcoal/XX. */
-  --color-ink: #1A1712;          /* headlines */
-  --color-ink-soft: #4A443C;     /* body copy */
-  --color-ink-muted: #8A8278;    /* secondary / captions / eyebrow-on-light */
+  /* ---- Structural hairline ---- */
+  --color-rule: #C9BDA9;
 
-  /* Neutral */
-  --color-sand: #EFE7D9;         /* chips / subtle fills */
-  --color-sand-dark: #E4DACB;    /* borders — lightened for minimalism */
-  --color-bone: #FAF7F2;         /* the one warm off-white for section rhythm */
-  --color-charcoal: #111111;
-  --color-offwhite: #FFFFFF;
+  /* ============================================================
+     LEGACY ALIASES — kept so existing className references stay
+     valid while the site migrates. Re-pointed at the COLD palette
+     so any stray old class reads indigo/saffron, not the retired
+     emerald/brass warmth.
+     ============================================================ */
+  --color-emerald: #2B3A67;         /* → indigo */
+  --color-emerald-deep: #1B2645;    /* → indigo-deep */
+  --color-emerald-soft: #35477D;    /* → indigo, lighter (hover) */
+  --color-zellij: #2B3A67;          /* → indigo */
+  --color-zellij-soft: #35477D;
+  --color-brass: #C97B2B;           /* → saffron */
+  --color-brass-deep: #8A5116;      /* → saffron-deep TEXT on light (AA) */
+  --color-brass-hover: #B06A24;     /* → saffron hover */
+  --color-brass-glow: #E0A85E;      /* → saffron highlight / on-dark text */
+  --color-terracotta-soft: #C86A50;
+  --color-olive: #6B7A45;           /* rare success cue only */
 
-  /* Typography — Manrope everywhere (clean Samsung-like geometric sans).
-     Both vars point to Manrope so headings (which use --font-serif) and body
-     (--font-sans) share one typeface. Georgia/serif kept only as fallback. */
-  --font-sans: var(--font-manrope);
-  --font-serif: var(--font-manrope);
+  --color-forest: #2B3A67;          /* → indigo (primary CTA) */
+  --color-moss: #1B2645;            /* → indigo-deep */
+  --color-sky: #2B3A67;             /* → indigo */
+  --color-sunset: #B4472C;          /* → terracotta (state) */
+  --color-atlas-clay: #B4472C;      /* → terracotta */
+  --color-saffron-alias: #C97B2B;
+  --color-mint-tea: #35477D;
+  --color-ink-alias: #1F1A16;
+  --color-charcoal: #1F1A16;        /* → ink */
+  --color-sand-dark: #C9BDA9;       /* → rule */
+  --color-sand-deep: #C9BDA9;       /* → rule */
+  --color-bone: #FBF8F3;            /* → surface-raised */
+  --color-offwhite: #FBF8F3;        /* → surface-raised */
+  --color-cream: #FBF8F3;           /* → surface-raised */
+  --color-sand: #E6DFD2;            /* → surface-sunk */
+  --color-plaster: #F2EDE4;         /* → surface */
 
-  --animate-fade-up: fade-up 0.5s ease both;
-  --animate-fade-in: fade-in 0.4s ease both;
+  /* ---- Typography ---- */
+  --font-display: var(--font-display);  /* Cormorant Garamond */
+  --font-body: var(--font-body);        /* Inter */
+  --font-sans: var(--font-body);        /* legacy alias → Inter */
+  --font-serif: var(--font-display);    /* legacy alias → Cormorant */
 
-  /* shadcn semantic tokens — mapped to Atlas palette (single source of truth) */
-  --color-background: #FFFFFF;
-  --color-foreground: #1A1712;
-  --color-card: #FFFFFF;
-  --color-card-foreground: #1A1712;
-  --color-popover: #FFFFFF;
-  --color-popover-foreground: #1A1712;
-  --color-primary: #46583A;
-  --color-primary-foreground: #FFFFFF;
-  --color-secondary: #EFE7D9;
-  --color-secondary-foreground: #1A1712;
-  --color-muted: #FAF7F2;
-  --color-muted-foreground: #8A8278;
-  --color-accent: #EFE7D9;
-  --color-accent-foreground: #1A1712;
-  --color-destructive: #DC2626;
-  --color-destructive-foreground: #FFFFFF;
-  --color-border: #E4DACB;
-  --color-input: #E4DACB;
-  --color-ring: #46583A;
+  /* ---- Fluid type scale — 1.25 minor third ---- */
+  --text-hero: clamp(2.75rem, 6vw, 5rem);
+  --text-h2: clamp(2rem, 4vw, 3.25rem);
+  --text-h3: clamp(1.35rem, 2vw, 1.75rem);
+
+  /* ---- Radius — near-zero. Moroccan geometry is angular. ---- */
+  --radius: 2px;
+  --radius-lg: 4px;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-fade-in: fade-in 0.5s ease both;
+
+  /* ---- shadcn semantic tokens → cold palette ---- */
+  --color-background: #F2EDE4;
+  --color-foreground: #1F1A16;
+  --color-card: #FBF8F3;
+  --color-card-foreground: #1F1A16;
+  --color-popover: #FBF8F3;
+  --color-popover-foreground: #1F1A16;
+  --color-primary: #2B3A67;
+  --color-primary-foreground: #FBF8F3;
+  --color-secondary: #E6DFD2;
+  --color-secondary-foreground: #1F1A16;
+  --color-muted: #E6DFD2;
+  --color-muted-foreground: #6B6058;
+  --color-accent: #C97B2B;
+  --color-accent-foreground: #FBF8F3;
+  --color-destructive: #B4472C;
+  --color-destructive-foreground: #FBF8F3;
+  --color-border: #C9BDA9;
+  --color-input: #C9BDA9;
+  --color-ring: #2B3A67;
 }
 
 :root {
-  --background: #FFFFFF;
-  --foreground: #1A1712;
-  --radius: 1rem;
+  --background: #F2EDE4;
+  --foreground: #1F1A16;
+  --radius: 2px;
+
+  /* Tinted shadow tokens (never pure black) — subtle structural depth. */
+  --shadow-riad-sm: 0 1px 2px rgba(31,26,22,0.05), 0 2px 8px rgba(31,26,22,0.05);
+  --shadow-riad: 0 4px 12px rgba(31,26,22,0.06), 0 12px 32px rgba(31,26,22,0.08);
+  --shadow-riad-lg: 0 8px 24px rgba(31,26,22,0.08), 0 24px 64px rgba(31,26,22,0.12);
+  --shadow-brass: 0 6px 20px rgba(43,58,103,0.18);
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 html {
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
 }
 
-/* Lenis smooth-scroll — required base styles.
-   When JS is disabled or reduced-motion is on, fall back to native smooth. */
+/* Lenis smooth-scroll base styles. Falls back to native under reduced-motion. */
 html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth { scroll-behavior: auto !important; }
 .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
@@ -92,563 +144,453 @@ html.lenis, html.lenis body { height: auto; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 body {
   background-color: var(--background);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "kern" 1, "liga" 1;
   overflow-x: hidden;
 }
 
-/* Ambient orbs removed for a calm, giga.ai-style clean canvas. Section
-   separation now comes from background rhythm (white / bone) + whitespace.
-   .orb-mid is intentionally a no-op so any stale references cause no visuals. */
+/* No-op kept so any stale reference to the old ambient orb causes no visuals. */
 .orb-mid { display: none; }
 
+/* ---- Display type: Cormorant Garamond ---- */
 h1, h2, h3 {
-  font-family: var(--font-serif), Georgia, serif;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+  color: var(--color-ink);
   font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
 }
+h1 { font-size: var(--text-hero); line-height: 1.04; }
+h2 { font-size: var(--text-h2); }
+h3 { font-size: var(--text-h3); }
 
-h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 700; }
-h2 { font-weight: 700; }
-h3 { font-weight: 600; }
+/* Structural section rhythm — generous, riad-courtyard breathing room.
+   Components may override per-instance, but this is the calm default. */
+section { padding-block: clamp(4rem, 9vw, 8rem); }
 
-/* Custom scrollbar */
-::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: #D8C9AC;
-  border-radius: 999px;
-  transition: background 0.2s;
+/* Utility: an eyebrow label in Inter — deep saffron (AA on light), tracked. On
+   dark grounds pass an explicit lighter class (e.g. text-brass-glow). */
+.eyebrow {
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-saffron-deep);
 }
-::-webkit-scrollbar-thumb:hover { background: #6B7F4E; }
 
-/* Leaflet map fix for Next.js */
-.leaflet-container { z-index: 1; }
+/* Custom scrollbar — indigo on plaster */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C9BDA9; border-radius: 999px; transition: background 0.2s; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-indigo); }
 
 /* ============================================================
-   MAP POPUP — atlas-popup
+   MOROCCAN TEXTURES — tadelakt plaster grain (structural, subtle)
+   CSS gradients + inline SVG data URIs (CSP-safe, no assets).
    ============================================================ */
+
+/* Tadelakt plaster — soft mottled warmth on the base ground. */
+.tex-plaster {
+  background-color: var(--color-surface);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(43,58,103,0.04), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 85% 90%, rgba(201,123,43,0.03), transparent 60%);
+}
+
+/* Sunk sand ground — the alternate section tone. */
+.tex-sand {
+  background-color: var(--color-surface-sunk);
+  background-image:
+    radial-gradient(ellipse 75% 55% at 80% 10%, rgba(43,58,103,0.04), transparent 60%),
+    radial-gradient(ellipse 65% 45% at 10% 90%, rgba(201,123,43,0.03), transparent 60%);
+}
+
+/* Deep indigo band — dark sections / footer. */
+.tex-emerald {
+  background-color: var(--color-indigo-deep);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 20% 0%, rgba(201,123,43,0.08), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(43,58,103,0.55), transparent 60%);
+}
+/* Semantic alias for the indigo dark band (preferred name going forward). */
+.tex-indigo {
+  background-color: var(--color-indigo-deep);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 20% 0%, rgba(201,123,43,0.08), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(43,58,103,0.55), transparent 60%);
+}
+
+/* Tadelakt grain overlay — hand-polished plaster tooth. Apply to solid-fill
+   sections only (never over photographs). 3.5% fractal noise. */
+.tadelakt { position: relative; isolation: isolate; }
+.tadelakt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.035;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.tadelakt > * { position: relative; z-index: 1; }
+
+/* Legacy grain utility name — kept, points at the same fractal noise. */
+.tex-grain { position: relative; }
+.tex-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   UI PRIMITIVES — buttons, glass, zellige divider, arch
+   ============================================================ */
+
+/* Primary button — solid indigo, near-sharp, structural. (Class name kept
+   as .btn-brass for the many existing references; visually it is now indigo.) */
+.btn-brass {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.9rem;
+  border-radius: var(--radius);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: #FBF8F3;
+  background: var(--color-indigo);
+  border: 1px solid var(--color-indigo-deep);
+  box-shadow: var(--shadow-brass);
+  transition: transform 0.2s cubic-bezier(0.16,1,0.3,1), background 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.btn-brass:hover {
+  transform: translateY(-1px);
+  background: var(--color-indigo-deep);
+  box-shadow: 0 10px 28px rgba(43,58,103,0.28);
+}
+.btn-brass:active { transform: translateY(0) scale(0.985); }
+
+/* Saffron secondary button — the one warmer conversion accent. */
+.btn-saffron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.9rem;
+  border-radius: var(--radius);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #FBF8F3;
+  background: var(--color-saffron);
+  border: 1px solid #A9631F;
+  transition: transform 0.2s cubic-bezier(0.16,1,0.3,1), background 0.2s ease;
+}
+.btn-saffron:hover { transform: translateY(-1px); background: #B06A24; }
+.btn-saffron:active { transform: translateY(0) scale(0.985); }
+
+/* Ghost / outline button — indigo hairline on plaster. */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.9rem;
+  border-radius: var(--radius);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-indigo);
+  background: transparent;
+  border: 1px solid var(--color-indigo);
+  transition: transform 0.2s cubic-bezier(0.16,1,0.3,1), background 0.2s ease, color 0.2s ease;
+}
+.btn-ghost:hover { transform: translateY(-1px); background: var(--color-indigo); color: #FBF8F3; }
+.btn-ghost:active { transform: translateY(0) scale(0.985); }
+
+/* Glass panel — floating nav / cards over imagery. */
+.glass {
+  background: rgba(251,248,243,0.78);
+  backdrop-filter: blur(16px) saturate(130%);
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
+  border: 1px solid rgba(201,189,169,0.6);
+  box-shadow: var(--shadow-riad-sm);
+}
+.glass-dark {
+  background: rgba(27,38,69,0.6);
+  backdrop-filter: blur(16px) saturate(130%);
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
+  border: 1px solid rgba(201,123,43,0.3);
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass { background: rgba(251,248,243,0.98); backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .glass-dark { background: rgba(27,38,69,0.97); backdrop-filter: none; -webkit-backdrop-filter: none; }
+}
+
+/* Zellige divider — the khatam (8-point star), the foundational zellige unit.
+   The ONLY place ornament appears. Placed between major sections, max 5/page. */
+.zellige-divider {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: var(--color-rule);
+  margin: clamp(3rem, 7vw, 5rem) auto;
+  max-width: 22rem;
+  padding-inline: 1.5rem;
+}
+.zellige-rule { flex: 1; height: 1px; background: currentColor; }
+
+/* Horseshoe / keyhole arch crown (legacy border-radius helper — kept). */
+.arch-top {
+  border-top-left-radius: 50% 22%;
+  border-top-right-radius: 50% 22%;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  overflow: hidden;
+}
+
+/* Structural hairline used to underline eyebrows / small flourishes. */
+.brass-rule { height: 1px; background: var(--color-rule); }
+
+/* Itinerary lists — Amazigh yaz (ⵣ) marker in saffron. Used on tour
+   itineraries only (authentic Berber heritage mark, not decoration). */
+.itinerary li {
+  list-style: none;
+  padding-left: 1.6rem;
+  position: relative;
+}
+.itinerary li::before {
+  content: "ⵣ";
+  position: absolute;
+  left: 0;
+  color: var(--color-saffron);
+  font-weight: 600;
+  line-height: inherit;
+}
+[dir="rtl"] .itinerary li { padding-left: 0; padding-right: 1.6rem; }
+[dir="rtl"] .itinerary li::before { left: auto; right: 0; }
+
+/* ============================================================
+   LEAFLET MAP — container + atlas-popup (retoned to cold palette)
+   ============================================================ */
+.leaflet-container { z-index: 1; }
 
 .atlas-popup .leaflet-popup-content-wrapper {
   padding: 0 !important;
-  border-radius: 16px !important;
+  border-radius: 4px !important;
   overflow: hidden !important;
-  border: 1px solid rgba(0,0,0,0.08) !important;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.18), 0 4px 16px rgba(0,0,0,0.08) !important;
+  border: 1px solid rgba(31,26,22,0.08) !important;
+  box-shadow: 0 20px 60px rgba(31,26,22,0.18), 0 4px 16px rgba(31,26,22,0.08) !important;
 }
-
 .atlas-popup .leaflet-popup-content {
   margin: 0 !important;
   line-height: 1.4 !important;
-  font-family: var(--font-sans), system-ui, sans-serif !important;
+  font-family: var(--font-body), system-ui, sans-serif !important;
 }
-
-.atlas-popup .leaflet-popup-tip {
-  background: #fff !important;
-}
-
+.atlas-popup .leaflet-popup-tip { background: #FBF8F3 !important; }
 .atlas-popup .leaflet-popup-close-button {
-  top: 6px !important;
-  right: 8px !important;
-  width: 22px !important;
-  height: 22px !important;
-  background: rgba(0,0,0,0.35) !important;
-  color: #fff !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  font-size: 15px !important;
-  line-height: 1 !important;
-  z-index: 10 !important;
+  top: 6px !important; right: 8px !important;
+  width: 22px !important; height: 22px !important;
+  background: rgba(31,26,22,0.35) !important;
+  color: #fff !important; border-radius: 50% !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
+  font-size: 15px !important; line-height: 1 !important; z-index: 10 !important;
 }
-
-.atlas-popup-inner { }
-
-.atlas-popup-img {
-  height: 128px;
-  overflow: hidden;
-}
-.atlas-popup-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.atlas-popup-body {
-  padding: 11px 14px 13px;
-}
-
+.atlas-popup-img { height: 128px; overflow: hidden; }
+.atlas-popup-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.atlas-popup-body { padding: 11px 14px 13px; }
 .atlas-popup-badge {
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  border: 1px solid;
-  border-radius: 999px;
-  padding: 2px 9px;
-  margin-bottom: 6px;
-  font-family: var(--font-sans), system-ui, sans-serif;
+  display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; border: 1px solid; border-radius: 999px; padding: 2px 9px;
+  margin-bottom: 6px; font-family: var(--font-body), system-ui, sans-serif;
 }
-
 .atlas-popup-title {
-  font-weight: 700;
-  font-size: 13.5px;
-  line-height: 1.3;
-  color: #111;
-  margin-bottom: 5px;
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 700; font-size: 15px; line-height: 1.25; color: var(--color-ink); margin-bottom: 5px;
 }
-
-.atlas-popup-meta {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin-bottom: 9px;
-  flex-wrap: wrap;
-}
-
-.atlas-popup-rating { color: #8B5E3C; font-weight: 700; font-size: 12px; }
+.atlas-popup-meta { display: flex; align-items: center; gap: 4px; margin-bottom: 9px; flex-wrap: wrap; }
+.atlas-popup-rating { color: var(--color-saffron); font-weight: 700; font-size: 12px; }
 .atlas-popup-review-count { color: #999; font-size: 11px; }
 .atlas-popup-dot { color: #ddd; font-size: 11px; }
 .atlas-popup-duration { color: #666; font-size: 11px; }
-
-.atlas-popup-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-
+.atlas-popup-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .atlas-popup-price { font-size: 12.5px; color: #666; }
-.atlas-popup-price strong { color: #4B5D3A; font-weight: 800; font-size: 15px; }
-
+.atlas-popup-price strong { color: var(--color-indigo); font-weight: 800; font-size: 15px; }
 .atlas-popup-cta {
-  display: inline-block;
-  background: #4B5D3A;
-  color: #fff !important;
-  border-radius: 999px;
-  padding: 6px 13px;
-  font-size: 11.5px;
-  font-weight: 700;
-  text-decoration: none !important;
-  transition: background 0.18s;
-  white-space: nowrap;
-  font-family: var(--font-sans), system-ui, sans-serif;
+  display: inline-block; background: var(--color-indigo); color: #FBF8F3 !important;
+  border-radius: 3px; padding: 6px 13px; font-size: 11.5px; font-weight: 700;
+  text-decoration: none !important; transition: background 0.18s; white-space: nowrap;
+  font-family: var(--font-body), system-ui, sans-serif;
 }
-.atlas-popup-cta:hover { background: #6B7F4E; }
+.atlas-popup-cta:hover { background: var(--color-indigo-deep); }
 
 /* ============================================================
-   TESTIMONIAL AUTO-PLAY PROGRESS BAR
+   TESTIMONIAL AUTO-PLAY PROGRESS BAR (legacy — testimonials now static)
    ============================================================ */
+@keyframes autoplay-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.autoplay-bar { transform-origin: left; animation: autoplay-bar 6s linear forwards; }
+.autoplay-bar.paused { animation-play-state: paused; }
 
-@keyframes autoplay-bar {
-  from { transform: scaleX(0); }
-  to   { transform: scaleX(1); }
-}
-
-.autoplay-bar {
-  transform-origin: left;
-  animation: autoplay-bar 6s linear forwards;
-}
-.autoplay-bar.paused {
-  animation-play-state: paused;
-}
-
-/* Focus ring */
-:focus-visible {
-  outline: 2px solid #8B5E3C;
-  outline-offset: 2px;
-}
+/* Focus ring — indigo, clearly visible */
+:focus-visible { outline: 2px solid var(--color-indigo); outline-offset: 3px; }
 
 /* Selection */
-::selection {
-  background: rgba(139, 94, 60, 0.18);
-  color: #111111;
-}
+::selection { background: rgba(201,123,43,0.24); color: var(--color-ink); }
 
 /* ============================================================
    KEYFRAMES
    ============================================================ */
+@keyframes fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse-ring { 0% { transform: scale(1); opacity: 0.6; } 100% { transform: scale(1.8); opacity: 0; } }
+@keyframes reveal-slide-up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes reveal-scale-in { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+@keyframes ken-burns { from { transform: scale(1.0); } to { transform: scale(1.12); } }
+@keyframes float-soft { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 
-@keyframes fade-up {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fade-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-@keyframes pulse-ring {
-  0%   { transform: scale(1); opacity: 0.6; }
-  100% { transform: scale(1.8); opacity: 0; }
-}
-
-@keyframes reveal-slide-up {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes reveal-scale-in {
-  from { opacity: 0; transform: scale(0.95); }
-  to   { opacity: 1; transform: scale(1); }
-}
-
-@keyframes card-shimmer {
-  from { transform: translateX(-100%) skewX(-12deg); }
-  to   { transform: translateX(220%) skewX(-12deg); }
-}
-
-@keyframes price-beacon {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(75,93,58,0); }
-  50%       { box-shadow: 0 0 0 6px rgba(75,93,58,0.06); }
-}
-
-@keyframes cta-glow {
-  0%, 100% { box-shadow: 0 4px 20px rgba(139,94,60,0.18); }
-  50%       { box-shadow: 0 4px 32px rgba(139,94,60,0.42); }
-}
+/* Slow cinematic zoom for the hero photo fallback (video-ready). */
+.ken-burns { animation: ken-burns 20s ease-out forwards; }
+.float-soft { animation: float-soft 6s ease-in-out infinite; }
 
 /* ============================================================
    WHATSAPP BUTTON
    ============================================================ */
-
 .whatsapp-pulse::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 9999px;
-  background: #25D366;
-  animation: pulse-ring 1.8s ease-out infinite;
-  z-index: -1;
+  content: ""; position: absolute; inset: 0; border-radius: 9999px;
+  background: #25D366; animation: pulse-ring 1.8s ease-out infinite; z-index: -1;
 }
 
 /* ============================================================
-   ACCESSIBILITY
+   ACCESSIBILITY — reduced motion (per-utility hardening)
    ============================================================ */
-
 @media (prefers-reduced-motion: reduce) {
   .whatsapp-pulse::before,
-  .card-shimmer-wrap::after,
-  .price-beacon,
-  .cta-pulse {
-    animation: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-  }
+  .ken-burns,
+  .float-soft { animation: none !important; opacity: 1 !important; transform: none !important; }
 }
+
+/* Legacy no-op reveal classes (real reveals via AnimateInView / motion). */
+.reveal-up, .reveal-scale, .stagger-child { }
 
 /* ============================================================
-   SCROLL-DRIVEN REVEAL ANIMATIONS
-   Legacy CSS-only fallback classes — kept as no-ops so any
-   remaining className references don't break layout. Real
-   reveal animations are driven by AnimateInView (motion/react)
-   which works on every browser including iOS Safari.
+   BLOG PROSE — ink scale + Cormorant headings
    ============================================================ */
-
-.reveal-up,
-.reveal-scale {
-  /* intentionally empty — AnimateInView handles reveals */
-}
-
-/* Stagger helpers — also handled in JS now, kept for compat */
-.stagger-child { /* no-op */ }
-
-/* ============================================================
-   TOUR CARD MICRO-ANIMATIONS
-   ============================================================ */
-
-.card-shimmer-wrap {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  border-radius: inherit;
-}
-
-.card-shimmer-wrap::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 40%; height: 100%;
-  background: linear-gradient(to right, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%);
-  transform: translateX(-100%) skewX(-12deg);
-}
-
-.group:hover .card-shimmer-wrap::after {
-  animation: card-shimmer 0.75s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-.price-beacon {
-  animation: price-beacon 3s ease-in-out infinite;
-  border-radius: 8px;
-}
-
-.cta-pulse {
-  animation: cta-glow 2.8s ease-in-out infinite;
-}
-
-/* ============================================================
-   BLOG PROSE
-   ============================================================ */
-
+.blog-prose { max-width: 68ch; }
 .blog-prose h2 {
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #111111;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 2rem; font-weight: 700; color: var(--color-ink);
+  margin-top: 2.75rem; margin-bottom: 1rem; letter-spacing: -0.015em; line-height: 1.12;
 }
-
 .blog-prose h3 {
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #111111;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.5rem; font-weight: 700; color: var(--color-ink);
+  margin-top: 2rem; margin-bottom: 0.75rem;
 }
-
 .blog-prose p {
-  color: rgba(17,17,17,0.7);
-  line-height: 1.85;
-  margin-bottom: 1.25rem;
-  font-size: 1.0625rem;
+  color: var(--color-ink-soft); line-height: 1.85; margin-bottom: 1.35rem; font-size: 1.075rem;
 }
-
-.blog-prose ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 1.25rem;
-}
-
+.blog-prose ul { list-style: none; padding-left: 0; margin-bottom: 1.35rem; }
 .blog-prose li {
-  color: rgba(17,17,17,0.7);
-  line-height: 1.75;
-  margin-bottom: 0.5rem;
-  padding-left: 1.25rem;
-  position: relative;
+  color: var(--color-ink-soft); line-height: 1.75; margin-bottom: 0.6rem;
+  padding-left: 1.35rem; position: relative;
 }
-
 .blog-prose li::before {
+  content: ""; position: absolute; left: 0; top: 0.62em;
+  width: 6px; height: 6px; transform: rotate(45deg); background: var(--color-saffron);
+}
+.blog-prose strong { color: var(--color-ink); font-weight: 600; }
+.blog-prose a { color: var(--color-indigo); text-decoration: underline; text-underline-offset: 3px; }
+.blog-prose table {
+  width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.9rem;
+  border-radius: var(--radius-lg); overflow: hidden;
+}
+.blog-prose th {
+  background: var(--color-surface-sunk); color: var(--color-ink); font-weight: 600;
+  padding: 0.7rem 1rem; text-align: left; border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+.blog-prose td { padding: 0.65rem 1rem; border-bottom: 1px solid var(--color-rule); color: var(--color-ink-soft); }
+.blog-prose tr:last-child td { border-bottom: none; }
+.blog-prose tr:nth-child(even) td { background: rgba(201,189,169,0.18); }
+
+/* ============================================================
+   LEGAL PROSE — privacy / terms / cookies documents
+   ============================================================ */
+.legal-prose h3 {
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.legal-prose p { color: var(--color-ink-soft); line-height: 1.75; }
+.legal-prose a { color: var(--color-indigo); text-decoration: underline; text-underline-offset: 2px; }
+.legal-prose a:hover { color: var(--color-indigo-deep); }
+.legal-prose strong { color: var(--color-ink); font-weight: 600; }
+.legal-prose ul { list-style: none; padding-left: 0; margin: 0.5rem 0; }
+.legal-prose li {
+  color: var(--color-ink-soft);
+  line-height: 1.7;
+  padding-left: 1.4rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.legal-prose li::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0.65em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #8B5E3C;
+  left: 0.1rem;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background: var(--color-saffron);
 }
-
-.blog-prose strong {
-  color: #111111;
-  font-weight: 600;
+[dir="rtl"] .legal-prose li { padding-left: 0; padding-right: 1.4rem; }
+[dir="rtl"] .legal-prose li::before { left: auto; right: 0.1rem; }
+/* A definition-style key/value table for cancellation tiers etc. */
+.legal-prose .tier {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.25rem 1rem;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  background: var(--color-surface-raised);
+  margin: 0.75rem 0;
 }
-
-.blog-prose table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1.5rem;
-  font-size: 0.875rem;
-  border-radius: 8px;
-  overflow: hidden;
+@media (min-width: 640px) {
+  .legal-prose .tier { grid-template-columns: 14rem minmax(0, 1fr); }
 }
-
-.blog-prose th {
-  background: #E9DDC7;
-  color: #111111;
-  font-weight: 600;
-  padding: 0.7rem 1rem;
-  text-align: left;
-  border-bottom: 1px solid #D8C9AC;
-}
-
-.blog-prose td {
-  padding: 0.65rem 1rem;
-  border-bottom: 1px solid #D8C9AC;
-  color: rgba(17,17,17,0.7);
-}
-
-.blog-prose tr:last-child td {
-  border-bottom: none;
-}
-
-.blog-prose tr:nth-child(even) td {
-  background: rgba(233,221,199,0.25);
-}
+.legal-prose .tier dt { color: var(--color-ink); font-weight: 600; }
+.legal-prose .tier dd { color: var(--color-ink-soft); margin: 0; }
 
 /* ============================================================
-   MOROCCAN BACKGROUND UTILITY
+   MOROCCAN BACKGROUND UTILITY (kept for pages that reference it)
    ============================================================ */
-
-/* Kept as a simple clean background wrapper (orbs removed for the calm canvas). */
-.moroccan-bg {
-  position: relative;
-  background-color: #FFFFFF;
-}
-
-/* ============================================================
-   SECTION WARM ACCENT DIVIDERS
-   ============================================================ */
-
-.section-divider-warm {
-  height: 1px;
-  background: linear-gradient(to right, transparent, rgba(139, 94, 60, 0.2), rgba(233, 221, 199, 0.6), rgba(139, 94, 60, 0.2), transparent);
-}
-
-/* ============================================================
-   UTILITY OVERRIDES
-   ============================================================ */
-
-/* Smooth image rendering */
-img { image-rendering: -webkit-optimize-contrast; }
-
-/* Better form element styling */
-input, select, textarea {
-  font-family: var(--font-sans), system-ui, sans-serif;
-}
+.moroccan-bg { position: relative; background-color: var(--color-surface); }
 
 /* Prevent text overflow on narrow viewports */
-p, h1, h2, h3, h4, li {
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-
-@theme inline {
-  --font-heading: var(--font-sans);
-  --font-sans: var(--font-sans);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --color-foreground: var(--foreground);
-  --color-background: var(--background);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
-}
-
-/* shadcn bare tokens — the @theme inline block above points --color-* at these,
-   so shadcn primitives (badge/button/select/sheet/tabs) inherit the WARM Atlas
-   palette instead of the default grayscale. Single source of truth. */
-:root {
-  --background: #FFFFFF;
-  --foreground: #1A1712;
-  --card: #FFFFFF;
-  --card-foreground: #1A1712;
-  --popover: #FFFFFF;
-  --popover-foreground: #1A1712;
-  --primary: #46583A;
-  --primary-foreground: #FFFFFF;
-  --secondary: #EFE7D9;
-  --secondary-foreground: #1A1712;
-  --muted: #FAF7F2;
-  --muted-foreground: #8A8278;
-  --accent: #EFE7D9;
-  --accent-foreground: #1A1712;
-  --destructive: #DC2626;
-  --border: #E4DACB;
-  --input: #E4DACB;
-  --ring: #46583A;
-  --chart-1: #46583A;
-  --chart-2: #B85C38;
-  --chart-3: #D4973B;
-  --chart-4: #6B7F4E;
-  --chart-5: #2C6E73;
-  --sidebar: #FAF7F2;
-  --sidebar-foreground: #1A1712;
-  --sidebar-primary: #46583A;
-  --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #EFE7D9;
-  --sidebar-accent-foreground: #1A1712;
-  --sidebar-border: #E4DACB;
-  --sidebar-ring: #46583A;
-}
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  html {
-    @apply font-sans;
-  }
-}
+p, h1, h2, h3, h4, li { overflow-wrap: break-word; }
+input, select, textarea { font-family: var(--font-body), system-ui, sans-serif; }

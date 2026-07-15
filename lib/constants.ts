@@ -29,6 +29,14 @@ export const SOCIAL = {
   youtube: "https://youtube.com/@marrakechecotours",
 } as const;
 
+// Sister brand, same team — bike touring & ski touring in the Atlas. Linked in
+// the footer as a related service and declared in `sameAs` structured data.
+export const SISTER_SITE = {
+  name: "Morocco Bike & Ski Tours",
+  url: "https://moroccobike-skitours.com",
+  blurb: "Road cycling, mountain biking & ski touring in the Atlas",
+} as const;
+
 // TripAdvisor listing: "Morocco Tours With Locals" (same team, sister brand).
 // Real, verifiable numbers — keep these in sync with the live listing and use
 // them everywhere a rating is shown so structured data stays consistent.

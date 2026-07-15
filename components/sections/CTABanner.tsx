@@ -4,8 +4,8 @@ import Image from "next/image";
 import { Envelope, WhatsappLogo, ArrowRight, ShieldCheck, Clock, Star } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
-import { ZelligeStar, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { STATS } from "@/lib/stats";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -23,20 +23,17 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
   ];
 
   return (
-    <section className="bg-white py-24 md:py-32 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="tex-plaster py-24 md:py-32 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <AnimateInView variant="scale-in">
-          <div className="relative rounded-3xl overflow-hidden" style={{ background: "linear-gradient(135deg, #253018 0%, #2d3a22 50%, #3a4a2c 100%)" }}>
-            {/* Faint tessellated zellige field + a larger star flourish — the Moroccan accent on this card */}
-            <ZelligeField tone="light" opacity={0.1} scale={128} />
-            <ZelligeStar size={360} className="pointer-events-none absolute -right-16 -top-16 text-white/[0.05]" />
+          <div className="tex-indigo tadelakt relative rounded-[4px] overflow-hidden ring-1 ring-saffron/25 shadow-[var(--shadow-riad-lg)]">
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] min-h-[420px]">
 
               {/* Left: text content */}
               <div className="p-10 sm:p-14 flex flex-col justify-center">
                 <motion.h2
-                  className="font-serif text-white font-bold leading-[1.05] mb-4"
-                  style={{ fontSize: "clamp(1.8rem, 3.5vw, 3rem)" }}
+                  className="font-display text-cream font-semibold leading-[1.05] mb-4"
+                  style={{ fontSize: "clamp(2rem, 3.8vw, 3.25rem)" }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
@@ -45,13 +42,13 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   {dict.cta.title}
                 </motion.h2>
                 <motion.p
-                  className="text-white/75 leading-relaxed mb-8 max-w-md text-sm"
+                  className="text-cream/75 leading-relaxed mb-8 max-w-md text-[0.95rem]"
                   initial={{ opacity: 0, y: 16 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.6, ease, delay: 0.2 }}
                 >
-                  {dict.cta.subtitle.replace("{tourCount}", String(SITE.tourCount))}
+                  {dict.cta.subtitle.replace("{tourCount}", String(STATS.tourCount))}
                 </motion.p>
 
                 <motion.div
@@ -61,26 +58,19 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.55, ease, delay: 0.3 }}
                 >
-                  <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-                    <Link
-                      href={`/${lang}/tours`}
-                      className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-sunset text-white font-bold text-sm hover:bg-orange-500 active:scale-[0.98] transition-all shadow-xl shadow-sunset/25"
-                    >
-                      {dict.cta.browseAll}
-                      <ArrowRight className="w-4 h-4" weight="bold" />
-                    </Link>
-                  </motion.div>
-                  <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-                    <a
-                      href={whatsappUrl(WHATSAPP_MESSAGES.custom)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#25D366] text-white font-bold text-sm hover:bg-[#20ba5a] active:scale-[0.98] transition-all"
-                    >
-                      <WhatsappLogo className="w-4 h-4" weight="fill" />
-                      {dict.cta.whatsapp}
-                    </a>
-                  </motion.div>
+                  <Link href={`/${lang}/tours`} className="btn-brass !text-sm">
+                    {dict.cta.browseAll}
+                    <ArrowRight className="w-4 h-4" weight="bold" />
+                  </Link>
+                  <a
+                    href={whatsappUrl(WHATSAPP_MESSAGES.custom)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[2px] bg-[#25D366] text-white font-semibold text-sm hover:bg-[#20ba5a] active:scale-[0.98] transition-all"
+                  >
+                    <WhatsappLogo className="w-4 h-4" weight="fill" />
+                    {dict.cta.whatsapp}
+                  </a>
                 </motion.div>
 
                 <motion.div
@@ -91,14 +81,14 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   transition={{ duration: 0.5, ease, delay: 0.45 }}
                 >
                   {TRUST.map((t) => (
-                    <div key={t.text} className="flex items-center gap-2 text-white/65 text-xs">
-                      <t.icon className="w-3.5 h-3.5 text-[#d4956a] shrink-0" weight="duotone" />
+                    <div key={t.text} className="flex items-center gap-2 text-cream/65 text-xs">
+                      <t.icon className="w-3.5 h-3.5 text-brass-glow shrink-0" weight="duotone" />
                       {t.text}
                     </div>
                   ))}
-                  <div className="flex items-center gap-2 text-white/65 text-xs">
-                    <Envelope className="w-3.5 h-3.5 text-[#d4956a] shrink-0" weight="duotone" />
-                    <a href={`mailto:${SITE.email}`} className="hover:text-white/75 transition-colors">
+                  <div className="flex items-center gap-2 text-cream/65 text-xs">
+                    <Envelope className="w-3.5 h-3.5 text-brass-glow shrink-0" weight="duotone" />
+                    <a href={`mailto:${SITE.email}`} className="hover:text-cream transition-colors">
                       {SITE.emailDisplay}
                     </a>
                   </div>
@@ -120,24 +110,24 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                     sizes="420px"
                   />
                 </motion.div>
-                <div className="absolute inset-0 bg-gradient-to-r from-forest via-forest/20 to-transparent" />
-                {/* Floating review badge */}
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-deep via-indigo-deep/25 to-transparent" />
+                {/* Floating rating chip — the honest aggregate, not a copied quote */}
                 <motion.div
-                  className="absolute bottom-8 right-8 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-2xl max-w-[200px]"
+                  className="glass-dark absolute bottom-8 right-8 rounded-[3px] px-4 py-3.5 max-w-[210px]"
                   initial={{ opacity: 0, y: 20, scale: 0.9 }}
                   whileInView={{ opacity: 1, y: 0, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, ease, delay: 0.5 }}
                 >
-                  <div className="flex mb-2">
+                  <div className="flex items-center gap-1 mb-1.5">
                     {[1,2,3,4,5].map((s) => (
-                      <Star key={s} className="w-4 h-4 text-sunset" weight="fill" />
+                      <Star key={s} className="w-4 h-4 text-brass-glow" weight="fill" />
                     ))}
                   </div>
-                  <p className="text-charcoal text-xs leading-relaxed font-medium italic">
-                    &ldquo;He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride.&rdquo;
+                  <p className="text-cream text-sm font-semibold leading-tight">
+                    {STATS.rating.toFixed(1)} on TripAdvisor
                   </p>
-                  <p className="text-charcoal/40 text-xs mt-2 font-semibold">Katherine L., United Kingdom</p>
+                  <p className="text-cream/65 text-xs mt-0.5">{STATS.reviewCount} traveller reviews</p>
                 </motion.div>
               </div>
             </div>

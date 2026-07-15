@@ -27,21 +27,19 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
   const [hero, tall, ...rest] = visibleCategories;
 
   return (
-    <section className="bg-white py-24 md:py-32">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="tex-sand py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
-        <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
+        <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-14">
           <div>
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
-              {dict.categories.subtitle.split(" — ")[0]}
-            </p>
-            <h2 className="font-bold text-ink tracking-[-0.02em]" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+            <span className="eyebrow mb-4 block">{dict.categories.subtitle.split(" — ")[0]}</span>
+            <h2 className="font-display font-bold text-ink leading-[1.05]" style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.75rem)" }}>
               {dict.categories.title}
             </h2>
           </div>
           <Link
             href={`/${lang}/tours`}
-            className="inline-flex items-center gap-2 text-forest text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold hover:gap-3 transition-all group shrink-0"
           >
             {dict.featuredTours.viewAll}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
@@ -61,7 +59,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
           >
             <Link
               href={`/${lang}/categories/${hero.id}`}
-              className="group relative overflow-hidden rounded-2xl w-full h-full block"
+              className="group relative overflow-hidden rounded-[4px] w-full h-full block ring-1 ring-rule"
             >
               <Image
                 src={hero.heroImage}
@@ -71,23 +69,23 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 66vw"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-r from-forest/25 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo/25 to-transparent" />
               <div className="absolute top-0 right-0 w-36 h-36 pointer-events-none opacity-80">
                 <CategoryAnimation id={hero.id} />
               </div>
               <div className="absolute inset-0 p-7 flex flex-col justify-end">
-                <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-2">
+                <div className="text-cream/65 text-xs font-semibold uppercase tracking-widest mb-2">
                   {countByCategory[hero.id] ?? 0} {dict.nav.tours.toLowerCase()}
                 </div>
-                <h3 className="font-serif text-white font-bold leading-tight mb-2"
+                <h3 className="font-display text-cream font-semibold leading-tight mb-2"
                     style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)" }}>
                   {hero.label}
                 </h3>
-                <p className="text-white/65 text-sm leading-relaxed max-w-xs mb-4">
+                <p className="text-cream/70 text-sm leading-relaxed max-w-xs mb-4">
                   {hero.description}
                 </p>
-                <span className="inline-flex items-center gap-1.5 text-sunset text-sm font-bold group-hover:gap-2.5 transition-all duration-300">
+                <span className="inline-flex items-center gap-1.5 text-brass-glow text-sm font-semibold group-hover:gap-2.5 transition-all duration-300">
                   {dict.common.learnMore} <ArrowRight className="w-3.5 h-3.5" weight="bold" />
                 </span>
               </div>
@@ -105,7 +103,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
             >
               <Link
                 href={`/${lang}/categories/${tall.id}`}
-                className="group relative overflow-hidden rounded-2xl w-full h-full block"
+                className="group relative overflow-hidden rounded-[4px] w-full h-full block ring-1 ring-rule"
               >
                 <Image
                   src={tall.heroImage}
@@ -114,21 +112,21 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/25 to-transparent" />
                 <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none opacity-80">
                   <CategoryAnimation id={tall.id} />
                 </div>
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                  <div className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-1.5">
+                  <div className="text-cream/65 text-xs font-semibold uppercase tracking-widest mb-1.5">
                     {countByCategory[tall.id] ?? 0} {dict.nav.tours.toLowerCase()}
                   </div>
-                  <h3 className="font-serif text-white font-bold text-xl leading-tight mb-1.5">
+                  <h3 className="font-display text-cream font-semibold text-xl leading-tight mb-1.5">
                     {tall.label}
                   </h3>
-                  <p className="text-white/60 text-xs leading-relaxed mb-3 line-clamp-2">
+                  <p className="text-cream/65 text-xs leading-relaxed mb-3 line-clamp-2">
                     {tall.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 text-sunset text-xs font-bold group-hover:gap-2 transition-all duration-300">
+                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold group-hover:gap-2 transition-all duration-300">
                     {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
                   </span>
                 </div>
@@ -147,7 +145,7 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
             >
               <Link
                 href={`/${lang}/categories/${cat.id}`}
-                className="group relative overflow-hidden rounded-2xl w-full h-full block"
+                className="group relative overflow-hidden rounded-[4px] w-full h-full block ring-1 ring-rule"
               >
                 <Image
                   src={cat.heroImage}
@@ -156,18 +154,18 @@ export default function CategoryGrid({ dict, lang = "en" }: Props) {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/10 to-transparent" />
                 <div className="absolute top-0 right-0 w-24 h-24 pointer-events-none opacity-80">
                   <CategoryAnimation id={cat.id} />
                 </div>
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
-                  <div className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-1">
+                  <div className="text-cream/70 text-xs font-semibold uppercase tracking-widest mb-1">
                     {countByCategory[cat.id] ?? 0} {dict.nav.tours.toLowerCase()}
                   </div>
-                  <h3 className="font-serif text-white font-bold text-lg leading-tight mb-2">
+                  <h3 className="font-display text-cream font-semibold text-lg leading-tight mb-2">
                     {cat.label}
                   </h3>
-                  <span className="inline-flex items-center gap-1 text-sunset text-xs font-bold opacity-0 group-hover:opacity-100 group-hover:gap-2 transition-all duration-300">
+                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold opacity-0 group-hover:opacity-100 group-hover:gap-2 transition-all duration-300">
                     {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
                   </span>
                 </div>

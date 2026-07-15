@@ -23,7 +23,7 @@ function formatDate(iso: string): string {
 }
 
 export default async function NewsTeaserSection({ lang, dict }: Props) {
-  let articles = await fetchNewsArticles().catch(() => []);
+  const articles = await fetchNewsArticles().catch(() => []);
   const hasFallback = articles.length === 0;
 
   const featured = hasFallback ? null : articles[0];
@@ -32,21 +32,19 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
   const fallbackSide = hasFallback ? BLOG_POSTS.slice(1, 3) : [];
 
   return (
-    <section className="relative py-24 md:py-32 bg-white overflow-hidden">
-      <ZelligeField tone="clay" opacity={0.09} scale={138} />
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-end justify-between mb-12">
+    <section className="relative py-24 md:py-32 tex-plaster overflow-hidden">
+      <ZelligeField tone="brass" opacity={0.06} scale={138} />
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="flex items-end justify-between mb-14">
           <div>
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
-              {dict.news.eyebrow}
-            </p>
-            <h2 className="font-bold text-ink tracking-[-0.02em]" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+            <p className="eyebrow mb-4">{dict.news.eyebrow}</p>
+            <h2 className="font-display font-semibold text-charcoal leading-[1.05]" style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}>
               {dict.news.title}
             </h2>
           </div>
           <Link
             href={`/${lang}/news`}
-            className="shrink-0 text-sm font-semibold text-forest hover:text-moss underline underline-offset-4 transition-colors hidden sm:block"
+            className="shrink-0 text-sm font-semibold text-emerald hover:text-emerald-soft underline underline-offset-4 transition-colors hidden sm:block"
           >
             {dict.news.viewAll} →
           </Link>
@@ -59,7 +57,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                 href={featured.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative block rounded-2xl overflow-hidden h-72 sm:h-96"
+                className="group relative block rounded-[4px] overflow-hidden h-72 sm:h-96"
               >
                 <Image
                   src={articleImage(featured)}
@@ -68,16 +66,16 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/88 via-indigo-deep/40 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <span
                     className={`inline-block px-2.5 py-1 rounded-full text-xs font-bold text-white mb-3 ${
-                      featured.category === "morocco" ? "bg-forest" : "bg-sunset"
+                      featured.category === "morocco" ? "bg-emerald" : "bg-brass-deep"
                     }`}
                   >
                     {featured.category === "morocco" ? dict.news.morocco : dict.news.travel}
                   </span>
-                  <h3 className="font-serif text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
+                  <h3 className="font-display text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {featured.title}
                   </h3>
                   <p className="text-white/75 text-sm leading-relaxed line-clamp-2 mb-3">
@@ -91,7 +89,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
             ) : fallbackPost ? (
               <Link
                 href={`/${lang}/blog/${fallbackPost.slug}`}
-                className="group relative block rounded-2xl overflow-hidden h-72 sm:h-96"
+                className="group relative block rounded-[4px] overflow-hidden h-72 sm:h-96"
               >
                 <Image
                   src={fallbackPost.heroImage}
@@ -100,9 +98,9 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/88 via-indigo-deep/40 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-serif text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
+                  <h3 className="font-display text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {fallbackPost.title}
                   </h3>
                   <p className="text-white/60 text-xs">{formatDate(fallbackPost.publishedAt)}</p>
@@ -117,16 +115,16 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   <Link
                     key={post.slug}
                     href={`/${lang}/blog/${post.slug}`}
-                    className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
+                    className="group flex gap-4 bg-card rounded-[4px] p-4 ring-1 ring-sand-deep hover:ring-brass/40 transition-colors"
                   >
                     <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
                       <Image src={post.heroImage} alt={post.title} fill className="object-cover" sizes="80px" />
                     </div>
                     <div className="min-w-0">
-                      <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2 group-hover:text-forest transition-colors">
+                      <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2 group-hover:text-emerald transition-colors">
                         {post.title}
                       </h4>
-                      <p className="text-charcoal/40 text-xs mt-1">{formatDate(post.publishedAt)}</p>
+                      <p className="text-ink-muted text-xs mt-1">{formatDate(post.publishedAt)}</p>
                     </div>
                   </Link>
                 ))
@@ -136,19 +134,19 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                     href={article.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex gap-4 bg-sand/30 rounded-2xl p-4 hover:bg-sand/50 transition-colors"
+                    className="group flex gap-4 bg-card rounded-[4px] p-4 ring-1 ring-sand-deep hover:ring-brass/40 transition-colors"
                   >
                     <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">
                       <Image src={articleImage(article)} alt={article.title} fill className="object-cover" sizes="80px" />
                     </div>
                     <div className="min-w-0">
-                      <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-1 ${article.category === "morocco" ? "text-forest" : "text-sunset"}`}>
+                      <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-1 ${article.category === "morocco" ? "text-emerald" : "text-brass-deep"}`}>
                         {article.category === "morocco" ? dict.news.morocco : dict.news.travel}
                       </span>
-                      <h4 className="font-serif text-charcoal text-sm font-bold leading-snug line-clamp-2">
+                      <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2">
                         {article.title}
                       </h4>
-                      <p className="text-charcoal/40 text-xs mt-1">{article.source} · {formatDate(article.publishedAt)}</p>
+                      <p className="text-ink-muted text-xs mt-1">{article.source} · {formatDate(article.publishedAt)}</p>
                     </div>
                   </a>
                 ))
@@ -156,7 +154,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
 
             <Link
               href={`/${lang}/news`}
-              className="mt-auto text-center py-3 rounded-xl border-2 border-forest/20 text-forest text-sm font-semibold hover:bg-forest hover:text-white transition-all"
+              className="mt-auto text-center py-3 rounded-xl border border-emerald/25 text-emerald text-sm font-semibold hover:bg-emerald hover:text-cream transition-all"
             >
               {dict.news.viewAll} →
             </Link>

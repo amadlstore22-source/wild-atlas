@@ -4,7 +4,7 @@
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "bookNow": "Book Now",
+    "bookNow": "Check Availability",
     "news": "News",
     "adventures": "Adventures",
     "destinations": "Destinations",
@@ -86,6 +86,11 @@
     "meetTeam": "Read our full story",
     "teamTitle": "The Guides Behind the Adventures",
     "teamSubtitle": "Born in the mountains, trained in the field, passionate about Morocco."
+  },
+  "map": {
+    "eyebrow": "Where We Go",
+    "title": "We go here. And here. And here.",
+    "subtitle": "From the peaks of the High Atlas to the golden Sahara and the Atlantic coast, every route is guided by locals who know the ground."
   },
   "testimonials": {
     "eyebrow": "Traveller Reviews",
@@ -227,7 +232,7 @@
     "backToBlog": "Blog",
     "readMore": "Read more",
     "learnMore": "Learn more",
-    "bookNow": "Book Now",
+    "bookNow": "Check Availability",
     "contactUs": "Contact Us",
     "perPerson": "/ person",
     "from": "From",

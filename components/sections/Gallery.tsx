@@ -25,14 +25,12 @@ interface Props {
 
 export default function Gallery({ dict, lang = "en" }: Props) {
   return (
-    <section id="gallery" className="bg-bone py-24 md:py-32 scroll-mt-24">
+    <section id="gallery" className="bg-surface py-24 md:py-32 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
-            <span className="text-sunset text-xs font-bold uppercase tracking-[0.2em]">
-              {dict.gallery.eyebrow}
-            </span>
-            <h2 className="font-bold text-ink tracking-[-0.02em] mt-3" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+            <span className="eyebrow">{dict.gallery.eyebrow}</span>
+            <h2 className="font-bold text-ink mt-3" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
               {dict.gallery.title}
             </h2>
             <p className="text-ink-muted mt-4 max-w-lg leading-relaxed">
@@ -41,7 +39,7 @@ export default function Gallery({ dict, lang = "en" }: Props) {
           </div>
           <Link
             href={`/${lang}/tours`}
-            className="flex items-center gap-2 text-forest font-semibold hover:gap-3 transition-all group shrink-0 pb-1"
+            className="flex items-center gap-2 text-indigo font-semibold hover:gap-3 transition-all group shrink-0 pb-1"
           >
             {dict.featuredTours.viewAll}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

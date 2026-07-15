@@ -41,10 +41,10 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
             <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">
               {dict.news.eyebrow}
             </p>
-            <h2 className="font-serif text-charcoal font-bold" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)" }}>
+            <h2 className="font-display text-charcoal font-bold" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)" }}>
               {hasFallback ? dict.blog.latestArticles : dict.news.title}
             </h2>
-            <p className="text-charcoal/55 mt-2 text-sm max-w-xl">
+            <p className="text-ink-soft mt-2 text-sm max-w-xl">
               {hasFallback ? dict.blog.pageSubtitle : dict.news.subtitle}
             </p>
           </div>
@@ -59,7 +59,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
         </div>
 
         {hasFallback && (
-          <p className="text-xs text-charcoal/40 mb-6 italic">
+          <p className="text-xs text-ink-muted mb-6 italic">
             Live news feed is temporarily unavailable — showing our latest articles instead.
           </p>
         )}
@@ -70,7 +70,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
               <Link
                 key={post.slug}
                 href={`/${lang}/blog/${post.slug}`}
-                className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow"
+                className="group bg-card rounded-[4px] overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -82,11 +82,11 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
                   />
                 </div>
                 <div className="p-5">
-                  <p className="text-xs text-charcoal/40 mb-2">{formatDate(post.publishedAt)}</p>
-                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2">
+                  <p className="text-xs text-ink-muted mb-2">{formatDate(post.publishedAt)}</p>
+                  <h3 className="font-display text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2">
                     {post.title}
                   </h3>
-                  <p className="text-charcoal/55 text-sm line-clamp-3">{post.excerpt}</p>
+                  <p className="text-ink-soft text-sm line-clamp-3">{post.excerpt}</p>
                 </div>
               </Link>
             ))}
@@ -99,7 +99,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow cursor-pointer"
+                className="group bg-card rounded-[4px] overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow cursor-pointer"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -118,14 +118,14 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
                   </span>
                 </div>
                 <div className="p-5">
-                  <p className="text-xs text-charcoal/40 mb-2">
+                  <p className="text-xs text-ink-muted mb-2">
                     {dict.news.source} <span className="font-semibold">{article.source}</span>
                     {" · "}{formatDate(article.publishedAt)}
                   </p>
-                  <h3 className="font-serif text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2 group-hover:text-forest transition-colors">
+                  <h3 className="font-display text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2 group-hover:text-forest transition-colors">
                     {article.title}
                   </h3>
-                  <p className="text-charcoal/55 text-sm leading-relaxed line-clamp-3">
+                  <p className="text-ink-soft text-sm leading-relaxed line-clamp-3">
                     {article.excerpt}
                   </p>
                 </div>

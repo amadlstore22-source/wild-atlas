@@ -15,7 +15,7 @@ export default function TourGallery({ images, title }: { images: string[]; title
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-2 rounded-2xl overflow-hidden">
+      <div className="grid grid-cols-3 gap-2 rounded-[4px] overflow-hidden">
         {images.slice(0, 4).map((src, i) => (
           <div
             key={i}

@@ -1,320 +1,107 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
-import { Star, ArrowLeft, ArrowRight } from "@phosphor-icons/react";
-import { motion, AnimatePresence } from "motion/react";
+import { Star } from "@phosphor-icons/react";
+import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
-import { ZelligeStar } from "@/components/ui/MoroccanMotifs";
 import { TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
+/** Three full reviews shown at once — let people actually read them, rather than
+ *  hiding six behind a fiddly carousel. Avatar tints drawn from the cold palette. */
 const REVIEWS = [
   {
     name: "Katherine L.",
     country: "United Kingdom",
-    flag: "GB",
     rating: 5,
     tour: "Toubkal Summit Trek",
     date: "March 2025",
-    source: "Direct",
-    text: "I cannot recommend this experience highly enough. From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
-    color: "#4B5D3A",
+    text: "From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
+    color: "#2B3A67",
   },
   {
     name: "Marco B.",
     country: "Italy",
-    flag: "IT",
     rating: 5,
     tour: "3-Day Sahara Desert Tour",
     date: "November 2024",
-    source: "Direct",
     text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
-    color: "#8B5E3C",
+    color: "#C97B2B",
   },
   {
     name: "Emily C.",
     country: "United States",
-    flag: "US",
     rating: 5,
     tour: "Marrakech Medina Cultural Tour",
     date: "February 2025",
-    source: "Direct",
-    text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Our guide took us through the real Marrakech — tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
-    color: "#2C5F6A",
-  },
-  {
-    name: "Thomas M.",
-    country: "Germany",
-    flag: "DE",
-    rating: 4,
-    tour: "Ourika Valley Day Hike",
-    date: "April 2025",
-    source: "Direct",
-    text: "The Ourika Valley is genuinely stunning and our guide read the pace of the group well — my 65-year-old mother kept up without any trouble. The Berber family lunch was the highlight. One small note: the pickup was about 20 minutes late, which ate into our time at the waterfall. Still a wonderful day and we would book again.",
-    color: "#5A4A6F",
-  },
-  {
-    name: "Amelia S.",
-    country: "Brazil",
-    flag: "BR",
-    rating: 4,
-    tour: "Mgoun Massif Traverse",
-    date: "October 2024",
-    source: "Direct",
-    text: "Seven days in the Mgoun and the landscapes are unlike anything I have ever seen — gorges of red rock, high passes in the howling wind, villages that feel untouched by modern life. The guiding was excellent. I'm giving four stars rather than five because the pre-departure information pack was thin; I had to ask separately for the gear list. Once on the trail, everything was outstanding.",
-    color: "#7A3D3D",
-  },
-  {
-    name: "Karim B.",
-    country: "Morocco",
-    flag: "MA",
-    rating: 5,
-    tour: "Toubkal Summit Trek",
-    date: "June 2025",
-    source: "Direct",
-    text: "I was born in Casablanca and had never climbed Toubkal — it always felt like something you do later, until later never comes. Smail changed that. Standing on the summit at 4,167 m, looking out over my own country from its highest point, was one of the most meaningful moments of my life. Every Moroccan should do this at least once.",
-    color: "#1B4D3E",
-  },
-  {
-    name: "Nadia R.",
-    country: "Morocco",
-    flag: "MA",
-    rating: 5,
-    tour: "3-Day Sahara Desert Tour",
-    date: "December 2024",
-    source: "Direct",
-    text: "We grew up an hour from Marrakech and had never once gone south. Three days in the Sahara showed us a side of Morocco we didn't know existed. The silence at night, the cold desert air, riding camels into the dunes at sunrise — it felt like discovering a country we thought we already knew. Mohamed organised everything perfectly. Highly recommended for Moroccans especially.",
-    color: "#8B4A0A",
+    text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
+    color: "#1B2645",
   },
 ];
 
 interface Props { dict: Dictionary }
 
-const ease = [0.22, 1, 0.36, 1] as const;
-
 export default function Testimonials({ dict }: Props) {
-  const [idx, setIdx] = useState(0);
-  const [direction, setDirection] = useState(1);
-  const [isHovered, setIsHovered] = useState(false);
-  const r = REVIEWS[idx];
-
-  const prev = useCallback(() => {
-    setDirection(-1);
-    setIdx((i) => (i - 1 + REVIEWS.length) % REVIEWS.length);
-  }, []);
-
-  const next = useCallback(() => {
-    setDirection(1);
-    setIdx((i) => (i + 1) % REVIEWS.length);
-  }, []);
-
-  // Keyboard navigation
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "ArrowLeft") prev();
-      if (e.key === "ArrowRight") next();
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [prev, next]);
-
-  // Auto-advance with delay proportional to review length, pause on hover
-  useEffect(() => {
-    if (isHovered) return;
-    const wordCount = REVIEWS[idx].text.split(" ").length;
-    const delay = Math.max(6000, wordCount * 240);
-    const id = setTimeout(() => {
-      setDirection(1);
-      setIdx((i) => (i + 1) % REVIEWS.length);
-    }, delay);
-    return () => clearTimeout(id);
-  }, [isHovered, idx]);
-
   return (
-    <section
-      className="bg-bone py-24 md:py-32 overflow-hidden"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
+    <section className="bg-surface tadelakt overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
-          <div>
-            <p className="flex items-center gap-2 text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">
-              <ZelligeStar size={13} className="text-sunset" />
-              {dict.testimonials.eyebrow}
-            </p>
-            <h2 className="font-bold text-ink tracking-[-0.02em]"
-                style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
-              {dict.testimonials.title}
-            </h2>
-            <p className="text-ink-muted mt-3 max-w-md">
-              {dict.testimonials.subtitle}
-            </p>
-            <div className="mt-5 flex flex-wrap items-center gap-3">
-              <TripAdvisorBadge variant="full" />
-              <a
-                href={TRIPADVISOR.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-semibold text-forest underline underline-offset-4 decoration-forest/30 hover:decoration-forest transition-colors"
-              >
-                Read all {TRIPADVISOR.reviewCount} reviews →
-              </a>
-            </div>
-          </div>
-          <div className="flex items-center gap-3 shrink-0">
-            <motion.button
-              onClick={prev}
-              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center text-charcoal/50"
-              whileHover={{ borderColor: "#4B5D3A", color: "#4B5D3A", scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              aria-label="Previous review"
+        <AnimateInView variant="fade-up" className="max-w-2xl mb-14">
+          <p className="eyebrow mb-4">{dict.testimonials.eyebrow}</p>
+          <h2 className="font-bold text-ink" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+            {dict.testimonials.title}
+          </h2>
+          <p className="text-ink-muted mt-3">{dict.testimonials.subtitle}</p>
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <TripAdvisorBadge variant="full" />
+            <a
+              href={TRIPADVISOR.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-semibold text-indigo underline underline-offset-4 decoration-indigo/30 hover:decoration-indigo transition-colors"
             >
-              <ArrowLeft className="w-4 h-4" weight="bold" />
-            </motion.button>
-            <span className="text-xs text-charcoal/35 w-8 text-center">{idx + 1}/{REVIEWS.length}</span>
-            <motion.button
-              onClick={next}
-              className="w-10 h-10 rounded-full border border-sand-dark bg-white flex items-center justify-center text-charcoal/50"
-              whileHover={{ borderColor: "#4B5D3A", color: "#4B5D3A", scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              aria-label="Next review"
-            >
-              <ArrowRight className="w-4 h-4" weight="bold" />
-            </motion.button>
+              Read all {TRIPADVISOR.reviewCount} reviews →
+            </a>
           </div>
         </AnimateInView>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {REVIEWS.map((r, i) => (
+            <motion.blockquote
+              key={r.name}
+              className="bg-card rounded-[4px] p-7 border border-rule flex flex-col shadow-[var(--shadow-riad-sm)]"
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.15 }}
+              transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1], delay: i * 0.1 }}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex" aria-label={`${r.rating} out of 5 stars`}>
+                  {Array.from({ length: r.rating }).map((_, s) => (
+                    <Star key={s} className="w-4 h-4 text-saffron" weight="fill" />
+                  ))}
+                </div>
+                <span className="text-ink-muted text-xs">{r.date}</span>
+              </div>
 
-          {/* Left: reviewer list */}
-          <div className="space-y-2">
-            {REVIEWS.map((review, i) => (
-              <motion.button
-                key={i}
-                onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
-                className={`w-full text-left px-4 py-3.5 rounded-xl flex items-center gap-3 ${
-                  i === idx
-                    ? "bg-forest text-white shadow-lg shadow-forest/20"
-                    : "bg-white/60 hover:bg-white text-charcoal border border-transparent hover:border-sand-dark"
-                }`}
-                animate={{
-                  backgroundColor: i === idx ? "#4B5D3A" : "rgba(255,255,255,0.6)",
-                  color: i === idx ? "#fff" : "#111111",
-                }}
-                transition={{ duration: 0.25 }}
-                whileHover={{ scale: 1.01 }}
-                whileTap={{ scale: 0.99 }}
-              >
+              <p className="font-display text-ink/85 leading-relaxed mb-6 text-[1.05rem] flex-1">
+                &ldquo;{r.text}&rdquo;
+              </p>
+
+              <footer className="flex items-center gap-3 pt-5 border-t border-rule">
                 <div
-                  className="w-9 h-9 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-sm"
-                  style={{ backgroundColor: review.color }}
+                  className="w-10 h-10 rounded-[3px] shrink-0 flex items-center justify-center text-white font-bold text-sm"
+                  style={{ backgroundColor: r.color }}
                   aria-hidden="true"
                 >
-                  {review.name.split(" ").map((n) => n[0]).join("")}
+                  {r.name.split(" ").map((n) => n[0]).join("")}
                 </div>
                 <div className="min-w-0">
-                  <div className={`font-semibold text-sm truncate ${i === idx ? "text-white" : "text-charcoal"}`}>
-                    {review.name}
-                  </div>
-                  <div className={`text-xs truncate ${i === idx ? "text-white/60" : "text-charcoal/45"}`}>
-                    {review.tour}
-                  </div>
+                  <div className="font-bold text-ink text-sm truncate">{r.name}</div>
+                  <div className="text-ink-muted text-xs truncate">{r.country} · {r.tour}</div>
                 </div>
-              </motion.button>
-            ))}
-          </div>
-
-          {/* Right: animated review card */}
-          <div className="relative overflow-hidden">
-            <AnimatePresence mode="wait" custom={direction}>
-              <motion.div
-                key={idx}
-                custom={direction}
-                initial={{ opacity: 0, x: direction * 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: direction * -40 }}
-                transition={{ duration: 0.4, ease }}
-                className="bg-white rounded-2xl p-8 sm:p-10 shadow-sm border border-sand-dark/50"
-              >
-                <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
-                  <div className="flex">
-                    {Array.from({ length: r.rating }).map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-sunset" weight="fill" />
-                    ))}
-                  </div>
-                  <span className="text-charcoal/35 text-sm">{r.date}</span>
-                </div>
-
-                <blockquote
-                  className="font-serif text-charcoal/80 leading-relaxed mb-8"
-                  style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}
-                >
-                  &ldquo;{r.text}&rdquo;
-                </blockquote>
-
-                <div className="flex items-center justify-between pt-6 border-t border-sand-dark flex-wrap gap-4">
-                  <div className="flex items-center gap-3">
-                    <div
-                      className="w-11 h-11 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-base"
-                      style={{ backgroundColor: r.color }}
-                      aria-hidden="true"
-                    >
-                      {r.name.split(" ").map((n) => n[0]).join("")}
-                    </div>
-                    <div>
-                      <div className="font-bold text-charcoal text-sm">{r.name}</div>
-                      <div className="text-charcoal/40 text-xs">{r.country}</div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-100 text-green-700 rounded-full text-xs font-medium">
-                      <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                      {dict.testimonials.verified}
-                    </div>
-                    <div className="px-3 py-1.5 bg-charcoal/5 border border-charcoal/10 text-charcoal/50 rounded-full text-xs font-medium">
-                      {r.source}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-4">
-                  <span className="inline-block text-xs text-forest font-semibold bg-forest/8 border border-forest/12 px-3 py-1 rounded-full">
-                    {r.tour}
-                  </span>
-                </div>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-        </div>
-
-        {/* Dot progress + auto-play bar */}
-        <div className="flex flex-col items-center gap-3 mt-10">
-          <div className="flex items-center gap-1.5">
-            {REVIEWS.map((_, i) => (
-              <motion.button
-                key={i}
-                onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
-                aria-label={`Review ${i + 1}`}
-                animate={{
-                  width: i === idx ? 24 : 8,
-                  backgroundColor: i === idx ? "#4B5D3A" : "#D8C9AC",
-                }}
-                transition={{ duration: 0.3 }}
-                className="h-2 rounded-full"
-              />
-            ))}
-          </div>
-
-          {/* Auto-play progress bar */}
-          <div className="w-28 h-0.5 rounded-full overflow-hidden bg-sand-dark/40">
-            <div
-              key={`${idx}-${isHovered}`}
-              className={`h-full bg-forest rounded-full autoplay-bar${isHovered ? " paused" : ""}`}
-              style={{ animationDuration: `${Math.max(6000, REVIEWS[idx].text.split(" ").length * 240) / 1000}s` }}
-            />
-          </div>
+              </footer>
+            </motion.blockquote>
+          ))}
         </div>
       </div>
     </section>

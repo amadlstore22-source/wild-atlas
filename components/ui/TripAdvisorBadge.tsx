@@ -56,7 +56,7 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
         <Bubbles rating={TRIPADVISOR.rating} size={12} />
         <span className="text-xs font-semibold">
           {TRIPADVISOR.rating.toFixed(1)}
-          <span className="ml-1 font-normal text-charcoal/50">({TRIPADVISOR.reviewCount})</span>
+          <span className="ml-1 font-normal text-ink-soft">({TRIPADVISOR.reviewCount})</span>
         </span>
       </a>
     );
@@ -93,7 +93,7 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className={`group inline-flex items-center gap-3 rounded-2xl border border-black/10 bg-white px-4 py-3 shadow-sm transition-shadow hover:shadow-md ${className}`}
+      className={`group inline-flex items-center gap-3 rounded-[4px] border border-black/10 bg-white px-4 py-3 shadow-sm transition-shadow hover:shadow-md ${className}`}
     >
       <OwlMark className="h-6 w-auto text-[#00aa6c] shrink-0" />
       <div className="leading-tight">
@@ -101,11 +101,11 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
           <Bubbles rating={TRIPADVISOR.rating} />
           <span className="text-sm font-bold text-charcoal">{TRIPADVISOR.rating.toFixed(1)}</span>
         </div>
-        <div className="mt-0.5 text-xs text-charcoal/55">
+        <div className="mt-0.5 text-xs text-ink-soft">
           {TRIPADVISOR.reviewCount} reviews on{" "}
-          <span className="font-semibold text-charcoal/75 group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
+          <span className="font-semibold text-ink-soft group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
         </div>
-        <div className="mt-0.5 text-[10px] text-charcoal/40">as {TRIPADVISOR.listingName}</div>
+        <div className="mt-0.5 text-[10px] text-ink-muted">as {TRIPADVISOR.listingName}</div>
       </div>
     </a>
   );

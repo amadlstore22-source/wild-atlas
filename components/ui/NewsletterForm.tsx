@@ -48,7 +48,7 @@ export default function NewsletterForm({ placeholder, buttonLabel }: Props) {
       <button
         type="submit"
         disabled={state === "loading"}
-        className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-sunset text-white text-sm font-semibold hover:bg-orange-500 disabled:opacity-60 transition-colors shrink-0"
+        className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-emerald text-cream text-sm font-semibold hover:bg-emerald-soft disabled:opacity-60 transition-colors shrink-0"
       >
         {state === "loading" ? (
           <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
@@ -60,7 +60,7 @@ export default function NewsletterForm({ placeholder, buttonLabel }: Props) {
         )}
       </button>
       {state === "error" && (
-        <p className="absolute bottom-0 text-xs text-red-400 mt-1">Failed — try again.</p>
+        <p className="absolute bottom-0 text-xs text-[#C97050] mt-1">Failed — try again.</p>
       )}
     </form>
   );

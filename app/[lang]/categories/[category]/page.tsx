@@ -63,20 +63,20 @@ export default async function CategoryPage({ params }: CategoryParams) {
 
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image src={cat.heroImage} alt={cat.label} fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <span className="text-5xl block mb-3">{cat.icon}</span>
-          <h1 className="font-serif text-white text-6xl lg:text-7xl font-bold leading-tight">{cat.label}</h1>
+          <h1 className="font-display text-white text-6xl lg:text-7xl font-bold leading-tight">{cat.label}</h1>
           <p className="text-white/70 mt-3 text-xl max-w-2xl">{cat.description}</p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {tours.length === 0 ? (
-          <p className="text-charcoal/50 text-center py-20">No tours in this category yet — check back soon!</p>
+          <p className="text-ink-soft text-center py-20">No tours in this category yet — check back soon!</p>
         ) : (
           <>
-            <p className="text-charcoal/50 text-sm mb-8">{toursAvailable}</p>
+            <p className="text-ink-soft text-sm mb-8">{toursAvailable}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {tours.map((tour) => <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />)}
             </div>

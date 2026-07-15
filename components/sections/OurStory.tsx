@@ -3,9 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { motion } from "motion/react";
-import { SITE } from "@/lib/constants";
-import AnimatedNumber from "@/components/ui/AnimatedNumber";
-import { ZelligeStar } from "@/components/ui/MoroccanMotifs";
+import { ArchImage } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -21,38 +19,25 @@ export default function OurStory({ dict, lang = "en" }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          {/* Left: image */}
+          {/* Left: the ONE arch of the whole design — Lahsen / the guides,
+              framed like a riad doorway. Emotional centre of the site. */}
           <motion.div
-            className="relative rounded-3xl overflow-hidden min-h-[560px]"
+            className="relative"
             initial={{ opacity: 0, x: -36 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.75, ease }}
           >
-            <Image
-              src="https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=900&q=85"
-              alt="Berber guides leading a trek through the High Atlas Mountains"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
-
-            {/* Floating stat */}
-            <motion.div
-              className="absolute bottom-6 left-6"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.55, ease, delay: 0.45 }}
-            >
-              <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-6 py-5 shadow-2xl">
-                <div className="font-serif text-forest text-4xl font-bold leading-none">
-                  <AnimatedNumber to={SITE.experienceYears} suffix="+" duration={1.8} />
-                </div>
-                <div className="text-charcoal/55 text-sm mt-1">Years guiding the Atlas</div>
-              </div>
-            </motion.div>
+            <ArchImage className="h-[520px] lg:h-[600px] w-full">
+              <Image
+                src="https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=900&q=85"
+                alt="Berber guides leading a trek through the High Atlas Mountains"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/45 via-transparent to-transparent" />
+            </ArchImage>
           </motion.div>
 
           {/* Right: editorial text */}
@@ -62,12 +47,11 @@ export default function OurStory({ dict, lang = "en" }: Props) {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.75, ease }}
           >
-            <p className="flex items-center gap-2 text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-5">
-              <ZelligeStar size={13} className="text-sunset" />
+            <p className="eyebrow mb-5">
               {dict.ourStory.eyebrow}
             </p>
             <h2
-              className="font-bold text-ink tracking-[-0.02em] leading-[1.08] mb-8"
+              className="font-bold text-ink leading-[1.08] mb-8"
               style={{ fontSize: "clamp(2.2rem, 4vw, 3.25rem)" }}
             >
               {dict.ourStory.title}
@@ -82,7 +66,7 @@ export default function OurStory({ dict, lang = "en" }: Props) {
 
             <Link
               href={`/${lang}/about`}
-              className="inline-flex items-center gap-2 text-forest font-bold text-sm hover:gap-4 transition-all duration-300 group border-b-2 border-forest/20 hover:border-forest pb-0.5"
+              className="inline-flex items-center gap-2 text-indigo font-bold text-sm hover:gap-4 transition-all duration-300 group border-b-2 border-indigo/20 hover:border-indigo pb-0.5"
             >
               {dict.ourStory.meetTeam}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" weight="bold" />

@@ -32,9 +32,9 @@ const RSS_SOURCES: RssSource[] = [
   { url: "https://www.theguardian.com/uk/travel/rss", name: "The Guardian Travel", category: "travel", maxItems: 8, scoped: false },
   { url: "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml", name: "NYT Travel", category: "travel", maxItems: 8, scoped: false },
   { url: "https://www.atlasandboots.com/feed/", name: "Atlas & Boots", category: "travel", maxItems: 6, scoped: false },
-  // Evergreen Morocco blogs — backfill only (kept off-screen unless news is thin).
-  { url: "https://moroccotravelblog.com/feed/", name: "Morocco Travel Blog", category: "morocco", maxItems: 6, scoped: true, evergreen: true },
-  { url: "https://www.journeybeyondtravel.com/blog/feed", name: "Journey Beyond Travel", category: "travel", maxItems: 5, scoped: false, evergreen: true },
+  // Note: competitor Morocco tour blogs (moroccotravelblog.com, journeybeyondtravel.com)
+  // were intentionally removed — the homepage should not send visitors to rivals.
+  // The internal BLOG_POSTS fallback covers thin-news days instead.
 ];
 
 // Freshness policy: prefer articles from the last 7 days (big score bonus);
@@ -62,8 +62,6 @@ const MOROCCO_IMAGES = [
 // curated image instead of the feed's own. (Also avoids needing every feed's
 // image CDN host in next.config's image allowlist.)
 const UNTRUSTED_IMAGE_SOURCES = new Set([
-  "Morocco Travel Blog",
-  "Journey Beyond Travel",
   "BBC Africa", // ichef.bbci.co.uk images are generic African news, not Morocco
 ]);
 
@@ -81,7 +79,6 @@ const ALLOWED_IMAGE_HOSTS = new Set([
   "images.unsplash.com",
   "i.guim.co.uk",
   "static01.nyt.com",
-  "moroccotravelblog.com",
   "www.atlasandboots.com",
 ]);
 

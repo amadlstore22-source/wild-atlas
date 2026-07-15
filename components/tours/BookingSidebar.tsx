@@ -1,19 +1,25 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { useCurrency } from "@/lib/currency";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
+import type { Locale } from "@/app/[lang]/dictionaries";
 
-export default function BookingSidebar({ tour }: { tour: Tour }) {
+export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang?: Locale }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [people, setPeople] = useState(2);
+  const [agreed, setAgreed] = useState(false);
+  const { format } = useCurrency();
   const { sending, sent, error, submit: doSubmit } = useFormSubmit();
 
   function handleInquiry(e: React.FormEvent) {
     e.preventDefault();
+    if (!agreed) return;
     doSubmit({ type: "booking", tour: tour.title, name, email, date, people });
   }
 
@@ -26,18 +32,18 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
   return (
     <>
       {/* Desktop sidebar card */}
-      <div className="bg-white rounded-2xl shadow-lg border border-sand-dark overflow-hidden">
+      <div className="bg-card rounded-[4px] shadow-lg border border-rule overflow-hidden">
         {/* Price header */}
-        <div className="bg-forest p-6 text-white">
+        <div className="bg-indigo p-6 text-white">
           <div className="text-white/70 text-xs uppercase tracking-widest mb-1">Price per person</div>
-          <div className="font-serif text-4xl font-bold">
-            ${tour.price}{priceMax ? ` – $${priceMax}` : ""}
+          <div className="font-display text-4xl font-bold">
+            {format(tour.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
           </div>
           <div className="text-white/55 text-xs mt-1">exact price agreed on booking</div>
           <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">
             <div>
               <div className="text-white/65 text-xs">Deposit</div>
-              <div className="font-bold text-sunset">${tour.depositAmount}</div>
+              <div className="font-bold text-brass-glow">{format(tour.depositAmount)}</div>
             </div>
             <div>
               <div className="text-white/65 text-xs">Response</div>
@@ -53,29 +59,29 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
               { icon: ShieldCheck, text: `Free cancellation ${SITE.depositDays} days before` },
               { icon: CheckCircle, text: `Reply within ${SITE.responseHours} hours` },
             ].map((b) => (
-              <div key={b.text} className="flex items-start gap-2 p-3 bg-sand/30 rounded-xl">
-                <b.icon className="w-4 h-4 text-forest shrink-0 mt-0.5" />
-                <span className="text-xs text-charcoal/60 leading-snug">{b.text}</span>
+              <div key={b.text} className="flex items-start gap-2 p-3 bg-surface-sunk/40 rounded-[3px]">
+                <b.icon className="w-4 h-4 text-indigo shrink-0 mt-0.5" />
+                <span className="text-xs text-ink-soft leading-snug">{b.text}</span>
               </div>
             ))}
           </div>
 
           {sent ? (
             <div className="text-center py-6">
-              <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
-                <CheckCircle className="w-7 h-7 text-green-600" />
+              <div className="w-14 h-14 rounded-full bg-indigo/12 flex items-center justify-center mx-auto mb-3">
+                <CheckCircle className="w-7 h-7 text-indigo" />
               </div>
-              <h3 className="font-serif font-bold text-charcoal mb-1">Inquiry Sent!</h3>
-              <p className="text-charcoal/55 text-sm leading-relaxed">
+              <h3 className="font-display font-bold text-ink mb-1">Enquiry Sent!</h3>
+              <p className="text-ink-soft text-sm leading-relaxed">
                 We&apos;ll reply to <strong>{email}</strong> within {SITE.responseHours} hours.
               </p>
             </div>
           ) : (
             <form onSubmit={handleInquiry} className="space-y-3">
-              <h3 className="font-semibold text-charcoal text-sm">Book This Tour</h3>
+              <h3 className="font-semibold text-ink text-sm">Check Availability</h3>
 
               <div>
-                <label htmlFor="booking-name" className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest block mb-1">Name *</label>
+                <label htmlFor="booking-name" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1">Name *</label>
                 <input
                   id="booking-name"
                   type="text"
@@ -83,11 +89,11 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your full name"
-                  className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
+                  className="w-full px-4 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 placeholder:text-ink-muted transition-colors"
                 />
               </div>
               <div>
-                <label htmlFor="booking-email" className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest block mb-1">Email *</label>
+                <label htmlFor="booking-email" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1">Email *</label>
                 <input
                   id="booking-email"
                   type="email"
@@ -95,22 +101,22 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="your@email.com"
-                  className="w-full px-4 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 placeholder:text-charcoal/30 transition-colors"
+                  className="w-full px-4 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 placeholder:text-ink-muted transition-colors"
                 />
               </div>
 
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <label className="text-xs text-charcoal/40 mb-1 block">Preferred date</label>
+                  <label className="text-xs text-ink-muted mb-1 block">Preferred date</label>
                   <input
                     type="date"
                     value={date}
                     onChange={(e) => setDate(e.target.value)}
-                    className="w-full px-3 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 transition-colors"
+                    className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
                   />
                 </div>
                 <div>
-                  <label className="text-xs text-charcoal/40 mb-1 block">Travellers</label>
+                  <label className="text-xs text-ink-muted mb-1 block">Travellers</label>
                   <div className="relative">
                     <input
                       type="number"
@@ -118,50 +124,67 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
                       max={20}
                       value={people}
                       onChange={(e) => setPeople(Math.max(1, Number(e.target.value)))}
-                      className="w-full px-3 py-2.5 rounded-xl border border-sand-dark text-charcoal text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest/20 transition-colors"
+                      className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
                     />
-                    <span className="absolute right-3 top-1/2 -translate-y-1/2 text-charcoal/30 text-xs pointer-events-none">pax</span>
+                    <span className="absolute right-3 top-1/2 -translate-y-1/2 text-ink-muted text-xs pointer-events-none">pax</span>
                   </div>
                 </div>
               </div>
 
               {/* Total estimate */}
               {people > 0 && (
-                <div className="flex items-center justify-between bg-forest/5 border border-forest/10 px-4 py-2.5 rounded-xl">
-                  <span className="text-xs text-charcoal/50">Est. total</span>
-                  <span className="font-bold text-forest text-sm">
-                    ${totalMin.toLocaleString()}{totalMax ? ` – $${totalMax.toLocaleString()}` : ""}
+                <div className="flex items-center justify-between bg-indigo/5 border border-indigo/10 px-4 py-2.5 rounded-[3px]">
+                  <span className="text-xs text-ink-soft">Est. total</span>
+                  <span className="font-bold text-indigo text-sm">
+                    {format(totalMin)}{totalMax ? ` – ${format(totalMax)}` : ""}
                   </span>
                 </div>
               )}
 
-              {error && <p className="text-red-600 text-sm">{error}</p>}
+              {/* Terms agreement — required before an enquiry can be sent. */}
+              <label className="flex items-start gap-2.5 cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={agreed}
+                  onChange={(e) => setAgreed(e.target.checked)}
+                  required
+                  className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule text-indigo accent-[#2B3A67] focus:outline-none focus:ring-2 focus:ring-indigo/30"
+                />
+                <span className="text-xs text-ink-soft leading-snug">
+                  I have read and agree to the{" "}
+                  <Link href={`/${lang}/terms`} target="_blank" className="text-indigo underline underline-offset-2 hover:text-indigo-deep">Terms &amp; Conditions</Link>{" "}
+                  and{" "}
+                  <Link href={`/${lang}/privacy`} target="_blank" className="text-indigo underline underline-offset-2 hover:text-indigo-deep">Privacy Policy</Link>.
+                </span>
+              </label>
+
+              {error && <p className="text-terracotta text-sm">{error}</p>}
 
               <button
                 type="submit"
-                disabled={sending}
-                className="w-full py-3 rounded-xl bg-sunset text-white font-bold hover:bg-atlas-clay transition-colors disabled:opacity-60 flex items-center justify-center gap-2 shadow-lg shadow-sunset/15"
+                disabled={sending || !agreed}
+                className="btn-brass w-full !py-3 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 <Envelope className="w-4 h-4" />
-                {sending ? "Sending…" : "Send Inquiry"}
+                {sending ? "Sending…" : "Send Enquiry"}
               </button>
             </form>
           )}
 
           <div className="relative flex items-center gap-3">
-            <div className="flex-1 h-px bg-sand-dark" />
-            <span className="text-xs text-charcoal/35 shrink-0">or secure your spot now</span>
-            <div className="flex-1 h-px bg-sand-dark" />
+            <div className="flex-1 h-px bg-rule" />
+            <span className="text-xs text-ink-muted shrink-0">or secure your spot now</span>
+            <div className="flex-1 h-px bg-rule" />
           </div>
 
           <a
             href={paypalUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full py-3 rounded-xl bg-[#0070BA] text-white font-bold hover:bg-[#005ea6] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#0070BA]/15"
+            className="w-full py-3 rounded-[3px] bg-[#0070BA] text-white font-bold hover:bg-[#005ea6] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#0070BA]/15"
           >
             <CreditCard className="w-4 h-4" />
-            Pay ${tour.depositAmount} Deposit — PayPal
+            Pay {format(tour.depositAmount)} Deposit — PayPal
           </a>
 
           {/* Contact alternatives */}
@@ -177,7 +200,7 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
             </a>
             <a
               href={`tel:${SITE.phoneDial}`}
-              className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-forest/5 text-forest font-semibold text-xs hover:bg-forest/10 transition-colors border border-forest/10"
+              className="flex items-center justify-center gap-1.5 py-2.5 rounded-[3px] bg-indigo/5 text-indigo font-semibold text-xs hover:bg-indigo/10 transition-colors border border-indigo/10"
             >
               <Phone className="w-4 h-4" />
               Call Us
@@ -185,15 +208,15 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
           </div>
 
           {/* Large group + custom plan */}
-          <div className="rounded-xl bg-sand/40 border border-sand-dark p-4 space-y-2.5">
-            <p className="text-xs font-semibold text-charcoal/70 leading-snug">
+          <div className="rounded-[3px] bg-surface-sunk/40 border border-rule p-4 space-y-2.5">
+            <p className="text-xs font-semibold text-ink-soft leading-snug">
               Travelling with a larger group or want a different itinerary?
             </p>
             <a
               href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hello! I'd like to plan a private trip for a larger group on the "${tour.title}" tour. Can you help?`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs font-semibold text-forest hover:text-moss transition-colors"
+              className="flex items-center gap-1.5 text-xs font-semibold text-indigo hover:text-indigo-deep transition-colors"
             >
               <WhatsappLogo className="w-3.5 h-3.5 shrink-0" />
               Contact us for a custom plan →
@@ -203,11 +226,11 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
       </div>
 
       {/* Mobile sticky CTA */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-white border-t border-sand-dark px-4 py-3 flex items-center gap-3 shadow-2xl">
+      <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 flex items-center gap-3 shadow-2xl">
         <div className="flex-1 min-w-0">
-          <div className="text-xs text-charcoal/40">Per person</div>
-          <div className="font-bold text-forest text-xl leading-tight">
-            ${tour.price}{priceMax ? `–$${priceMax}` : ""} <span className="text-xs font-normal text-charcoal/35">/ person</span>
+          <div className="text-xs text-ink-muted">Per person</div>
+          <div className="font-bold text-indigo text-xl leading-tight">
+            {format(tour.price)}{priceMax ? `–${format(priceMax)}` : ""} <span className="text-xs font-normal text-ink-muted">/ person</span>
           </div>
         </div>
         <a
@@ -221,7 +244,7 @@ export default function BookingSidebar({ tour }: { tour: Tour }) {
         </a>
         <button
           onClick={() => document.querySelector("form")?.scrollIntoView({ behavior: "smooth" })}
-          className="flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-sunset text-white font-bold text-sm shadow-lg"
+          className="btn-brass !px-4 !py-2.5 !text-sm"
         >
           Book
         </button>

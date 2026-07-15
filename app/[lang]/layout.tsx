@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Manrope, IBM_Plex_Sans_Arabic } from "next/font/google";
+import { Cormorant_Garamond, Inter, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
 import "leaflet/dist/leaflet.css";
 import Header from "@/components/layout/Header";
@@ -9,17 +9,27 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieBanner from "@/components/ui/CookieBanner";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
+import CurrencyProvider from "@/components/ui/CurrencyProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
-// Manrope — clean geometric sans, closest free match to Samsung's SamsungOne.
-// Used for both body and headings (the two CSS vars below both point here).
-const manrope = Manrope({
-  variable: "--font-manrope",
+// Cormorant Garamond — the display serif. Elegant, high-contrast, editorial —
+// the "riad luxury" voice for all headlines. Self-hosted via next/font (CSP-safe).
+const cormorant = Cormorant_Garamond({
+  variable: "--font-display",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
+
+// Inter — the body/UI sans. Neutral, highly legible, carries the reading load.
+const inter = Inter({
+  variable: "--font-body",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -77,7 +87,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={isRtl ? "rtl" : "ltr"}
-      className={`${manrope.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
+      className={`${cormorant.variable} ${inter.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
     >
       <head>
         {LOCALES.map((l) => (
@@ -90,17 +100,19 @@ export default async function LocaleLayout({
         ))}
         <link rel="alternate" hrefLang="x-default" href="https://marrakechecotours.com/en" />
       </head>
-      <body className="min-h-full flex flex-col antialiased">
-        <SmoothScroll />
-        <ScrollProgress />
-        <Header lang={locale} dict={dict} />
-        <main className="flex-1">{children}</main>
-        <Footer lang={locale} dict={dict} />
-        <WhatsAppButton />
-        <CookieBanner />
-        <Toaster richColors />
-        <Analytics />
-        <SpeedInsights />
+      <body className="min-h-screen flex flex-col antialiased">
+        <CurrencyProvider>
+          <SmoothScroll />
+          <ScrollProgress />
+          <Header lang={locale} dict={dict} />
+          <main className="flex-1">{children}</main>
+          <Footer lang={locale} dict={dict} />
+          <WhatsAppButton />
+          <CookieBanner />
+          <Toaster richColors />
+          <Analytics />
+          <SpeedInsights />
+        </CurrencyProvider>
       </body>
     </html>
   );

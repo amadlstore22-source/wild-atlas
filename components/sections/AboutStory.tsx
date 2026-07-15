@@ -54,7 +54,7 @@ export default function AboutStory({ lang }: { lang: Locale }) {
 
             {/* Image side */}
             <motion.div
-              className="relative rounded-3xl overflow-hidden min-h-[560px]"
+              className="relative rounded-[4px] overflow-hidden min-h-[560px]"
               initial={{ opacity: 0, x: -32 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.25 }}
@@ -67,7 +67,7 @@ export default function AboutStory({ lang }: { lang: Locale }) {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/75 via-indigo-deep/12 to-transparent" />
 
               {/* Floating value cards */}
               <div className="absolute bottom-6 left-6 right-6 grid grid-cols-2 gap-3">
@@ -82,7 +82,7 @@ export default function AboutStory({ lang }: { lang: Locale }) {
                   >
                     <v.Icon className="w-5 h-5 text-forest mb-1.5" weight="duotone" />
                     <div className="font-semibold text-charcoal text-xs leading-tight">{v.title}</div>
-                    <div className="text-charcoal/50 text-[11px] leading-snug mt-0.5">{v.body}</div>
+                    <div className="text-ink-soft text-[11px] leading-snug mt-0.5">{v.body}</div>
                   </motion.div>
                 ))}
               </div>
@@ -95,13 +95,13 @@ export default function AboutStory({ lang }: { lang: Locale }) {
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.7, ease }}
             >
-              <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-5">Where we come from</p>
-              <h2 className="font-serif text-charcoal font-bold leading-[1.08] mb-8" style={{ fontSize: "clamp(2rem, 3.8vw, 3rem)" }}>
+              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Where we come from</p>
+              <h2 className="font-display text-charcoal font-bold leading-[1.08] mb-8" style={{ fontSize: "clamp(2rem, 3.8vw, 3rem)" }}>
                 We didn&apos;t start a tour company.<br />
                 We shared what we already knew.
               </h2>
 
-              <div className="space-y-5 text-charcoal/65 leading-relaxed">
+              <div className="space-y-5 text-ink-soft leading-relaxed">
                 <p>
                   This didn&apos;t start with us. Our father, Lahsen Aitidar, was one of the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned every route by walking it, and he taught us the same way.
                 </p>
@@ -124,8 +124,8 @@ export default function AboutStory({ lang }: { lang: Locale }) {
       <section className="py-24" style={{ background: "linear-gradient(180deg, #f9f7f3 0%, #ffffff 100%)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-3">Our journey</p>
-            <h2 className="font-serif text-charcoal font-bold" style={{ fontSize: "clamp(1.8rem, 3.2vw, 2.6rem)" }}>
+            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Our journey</p>
+            <h2 className="font-display text-charcoal font-bold" style={{ fontSize: "clamp(1.8rem, 3.2vw, 2.6rem)" }}>
               How We Got Here
             </h2>
           </div>
@@ -133,7 +133,7 @@ export default function AboutStory({ lang }: { lang: Locale }) {
           <div className="relative max-w-3xl mx-auto">
             {/* Vertical line — draws downward as timeline enters view */}
             <motion.div
-              className="absolute left-[28px] top-4 bottom-4 w-px bg-gradient-to-b from-forest/30 via-forest/20 to-transparent hidden sm:block origin-top"
+              className="absolute left-[28px] top-4 bottom-4 w-px bg-gradient-to-b from-indigo/30 via-forest/20 to-transparent hidden sm:block origin-top"
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
               viewport={{ once: true, amount: 0.05 }}
@@ -157,8 +157,8 @@ export default function AboutStory({ lang }: { lang: Locale }) {
 
                   {/* Content */}
                   <div className="flex-1 pt-2 pb-2">
-                    <h3 className="font-serif text-charcoal font-bold text-lg mb-2">{m.title}</h3>
-                    <p className="text-charcoal/60 text-sm leading-relaxed">{m.body}</p>
+                    <h3 className="font-display text-charcoal font-bold text-lg mb-2">{m.title}</h3>
+                    <p className="text-ink-soft text-sm leading-relaxed">{m.body}</p>
                   </div>
                 </motion.div>
               ))}

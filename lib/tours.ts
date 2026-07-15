@@ -2148,6 +2148,29 @@ export function getToursByCategory(category: Category): Tour[] {
   return TOURS.filter((t) => t.category === category);
 }
 
+export type DurationBucket = "day" | "short" | "long";
+
+/**
+ * Parse the free-text `duration` string ("4 days / 3 nights", "Half day (4
+ * hours)", "1 day") into a whole-day count, so it can be filtered/bucketed.
+ * A half-day or an hours-only tour counts as a single day.
+ */
+export function durationDays(tour: Tour): number {
+  const d = tour.duration.toLowerCase();
+  const dayMatch = d.match(/(\d+)\s*day/);
+  if (dayMatch) return parseInt(dayMatch[1], 10);
+  // "Half day", "hours", etc. — treat as a single day.
+  return 1;
+}
+
+/** Bucket a tour into the listing's duration filter groups. */
+export function durationBucket(tour: Tour): DurationBucket {
+  const days = durationDays(tour);
+  if (days <= 1) return "day";
+  if (days <= 3) return "short";
+  return "long";
+}
+
 export const CATEGORIES: {
   id: Category;
   label: string;
@@ -2173,21 +2196,23 @@ export const CATEGORIES: {
     id: "day-tours",
     label: "Day Tours",
     icon: "🌄",
-    description: "Full-day and half-day excursions from Marrakech and Agadir — waterfalls, valleys, medinas, and more.",
+    description: "Single-day escapes from Marrakech and Agadir: waterfalls, valleys, coastline. Back by evening.",
     heroImage: "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
   },
   {
     id: "cultural",
     label: "Cultural Tours",
     icon: "🕌",
-    description: "Medina walks, argan cooperatives, Berber villages, and Morocco's living heritage.",
+    description: "Medinas, ksour, and souks, walked with guides who grew up in them.",
     heroImage: "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
   },
 ];
 
+// Difficulty badges as one cold-palette family: indigo-wash → saffron-wash →
+// terracotta-tint → deep terracotta. Structural tints on plaster, AA text.
 export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
-  easy: "bg-green-100 text-green-800",
-  moderate: "bg-yellow-100 text-yellow-800",
-  challenging: "bg-orange-100 text-orange-800",
-  expert: "bg-red-100 text-red-800",
+  easy: "bg-[#E3E7F0] text-[#2B3A67]",
+  moderate: "bg-[#F6EADB] text-[#8A5312]",
+  challenging: "bg-[#F1DDD4] text-[#9A3A22]",
+  expert: "bg-[#EAD0C6] text-[#7E2E1A]",
 };

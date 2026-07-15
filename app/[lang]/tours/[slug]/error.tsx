@@ -16,13 +16,13 @@ export default function TourDetailError({
 
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center px-4 text-center py-20">
-      <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">
+      <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">
         Tour Unavailable
       </p>
-      <h2 className="font-serif text-charcoal text-3xl sm:text-4xl font-bold mb-3">
+      <h2 className="font-display text-charcoal text-3xl sm:text-4xl font-bold mb-3">
         This tour couldn&apos;t load
       </h2>
-      <p className="text-charcoal/60 max-w-md leading-relaxed mb-8">
+      <p className="text-ink-soft max-w-md leading-relaxed mb-8">
         Something went wrong loading this tour. Please try again, or browse all our available adventures.
       </p>
       <div className="flex flex-wrap gap-3 justify-center">

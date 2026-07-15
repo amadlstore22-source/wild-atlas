@@ -4,7 +4,7 @@
     "about": "Chi siamo",
     "blog": "Blog",
     "contact": "Contatti",
-    "bookNow": "Prenota",
+    "bookNow": "Verifica disponibilità",
     "news": "Notizie",
     "adventures": "Avventure",
     "destinations": "Destinazioni",
@@ -86,6 +86,11 @@
     "meetTeam": "Leggi la nostra storia completa",
     "teamTitle": "Le guide dietro le avventure",
     "teamSubtitle": "Nati in montagna, formati sul campo, appassionati del Marocco."
+  },
+  "map": {
+    "eyebrow": "Dove andiamo",
+    "title": "Qui. E qui. E anche qui.",
+    "subtitle": "Dalle vette dell'Alto Atlante al Sahara dorato e alla costa atlantica, ogni itinerario è guidato da gente del posto che conosce il terreno."
   },
   "testimonials": {
     "eyebrow": "Recensioni dei viaggiatori",
@@ -227,7 +232,7 @@
     "backToBlog": "Blog",
     "readMore": "Leggi di più",
     "learnMore": "Scopri di più",
-    "bookNow": "Prenota",
+    "bookNow": "Verifica disponibilità",
     "contactUs": "Contattaci",
     "perPerson": "/ persona",
     "from": "Da",

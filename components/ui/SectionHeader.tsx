@@ -1,11 +1,13 @@
 import type { ReactNode } from "react";
-import { ZelligeStar } from "@/components/ui/MoroccanMotifs";
 import AnimateInView from "@/components/ui/AnimateInView";
 
 /**
- * The giga.ai-signature section header: an eyebrow (with an optional Moroccan
- * star flourish) + a big confident headline + an optional subhead. Centered by
- * default; `align="left"` for directory-style sections with a side action.
+ * Section header: an optional saffron eyebrow (with a small hairline flourish), a
+ * large Cormorant Garamond headline, and an optional subhead in Inter. Centered
+ * by default; `align="left"` for directory sections with a side action.
+ *
+ * Eyebrows are used sparingly per the design rules — pass `eyebrow` only where it
+ * genuinely helps orient the reader.
  */
 export default function SectionHeader({
   eyebrow,
@@ -21,42 +23,34 @@ export default function SectionHeader({
   title: ReactNode;
   subtitle?: ReactNode;
   align?: "center" | "left";
-  /** show a small zellige star before the eyebrow */
+  /** show a small brass star + hairline before the eyebrow */
   flourish?: boolean;
-  /** optional right-aligned action (e.g. a "View all" link) — only with align="left" */
   action?: ReactNode;
   className?: string;
-  /** on dark section bands, flip text colors to light */
+  /** on emerald / dark bands, flip text colours to light */
   dark?: boolean;
 }) {
   const isCenter = align === "center";
-  const titleColor = dark ? "text-white" : "text-ink";
-  const subColor = dark ? "text-white/65" : "text-ink-muted";
+  const titleColor = dark ? "text-cream" : "text-ink";
+  const subColor = dark ? "text-cream/75" : "text-ink-soft";
+  const eyebrowColor = dark ? "text-brass-glow" : "";
 
   const header = (
     <div className={isCenter ? "text-center" : ""}>
       {eyebrow && (
-        <p
-          className={`flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-sunset mb-4 ${
-            isCenter ? "justify-center" : ""
-          }`}
-        >
-          {flourish && <ZelligeStar size={13} className="text-sunset" />}
-          {eyebrow}
-        </p>
+        <div className={`flex items-center gap-3 mb-5 ${isCenter ? "justify-center" : ""}`}>
+          <span className={`eyebrow ${eyebrowColor}`}>{eyebrow}</span>
+          {flourish && <span className="h-px w-10 bg-gradient-to-r from-saffron/60 to-transparent" />}
+        </div>
       )}
       <h2
-        className={`font-bold ${titleColor} tracking-[-0.02em] leading-[1.08]`}
-        style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}
+        className={`font-display font-bold ${titleColor} leading-[1.05]`}
+        style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.75rem)" }}
       >
         {title}
       </h2>
       {subtitle && (
-        <p
-          className={`${subColor} text-base sm:text-lg leading-relaxed mt-5 ${
-            isCenter ? "max-w-2xl mx-auto" : "max-w-xl"
-          }`}
-        >
+        <p className={`${subColor} text-base sm:text-lg leading-relaxed mt-5 ${isCenter ? "max-w-2xl mx-auto" : "max-w-xl"}`}>
           {subtitle}
         </p>
       )}
@@ -64,9 +58,9 @@ export default function SectionHeader({
   );
 
   return (
-    <AnimateInView variant="fade-up" className={`mb-14 ${className}`}>
+    <AnimateInView variant="fade-up" className={`mb-16 ${className}`}>
       {action && !isCenter ? (
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
           {header}
           <div className="shrink-0">{action}</div>
         </div>

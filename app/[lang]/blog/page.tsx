@@ -24,12 +24,14 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
 // Solid, high-contrast badges — these sit over hero photos, so a translucent
 // tint with same-hue text disappears on darker images. White text on a solid
 // brand color reads on any background.
+// Category badges toned to the Moroccan palette — one family (emerald, terracotta,
+// zellij blue, brass, olive) so they read as a set rather than clashing brights.
 const CATEGORY_COLORS: Record<string, string> = {
-  trekking: "bg-forest text-white",
-  desert: "bg-sunset text-white",
-  culture: "bg-purple-600 text-white",
-  tips: "bg-blue-600 text-white",
-  wildlife: "bg-green-700 text-white",
+  trekking: "bg-indigo text-cream",
+  desert: "bg-terracotta text-cream",
+  culture: "bg-indigo-deep text-cream",
+  tips: "bg-saffron text-cream",
+  wildlife: "bg-[#5A6B8C] text-cream",
 };
 
 function formatDate(iso: string) {
@@ -63,18 +65,18 @@ export default async function BlogPage({
   function PostCard({ post }: { post: BlogPost }) {
     const postRegion = post.region ? BLOG_REGIONS.find((r) => r.id === post.region) : null;
     return (
-      <Link href={`/${lang}/blog/${post.slug}`} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+      <Link href={`/${lang}/blog/${post.slug}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
         <div className="relative h-52 overflow-hidden">
           <Image src={post.heroImage} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
           <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wide ${CATEGORY_COLORS[post.category]}`}>{post.category}</span>
         </div>
         <div className="p-6 flex flex-col flex-1">
-          <h3 className="font-serif text-charcoal font-bold text-lg mb-3 group-hover:text-forest transition-colors leading-snug">{post.title}</h3>
-          <p className="text-charcoal/60 text-sm leading-relaxed mb-4 flex-1">{post.excerpt}</p>
-          <div className="flex items-center justify-between text-xs text-charcoal/40 mt-auto">
+          <h3 className="font-display text-charcoal font-bold text-lg mb-3 group-hover:text-forest transition-colors leading-snug">{post.title}</h3>
+          <p className="text-ink-soft text-sm leading-relaxed mb-4 flex-1">{post.excerpt}</p>
+          <div className="flex items-center justify-between text-xs text-ink-muted mt-auto">
             <span className="flex items-center gap-1">
               {postRegion && postRegion.id !== "root" ? (
-                <span className="text-charcoal/50">{postRegion.icon} {postRegion.label}</span>
+                <span className="text-ink-soft">{postRegion.icon} {postRegion.label}</span>
               ) : (
                 <><CalendarBlank className="w-3.5 h-3.5" />{formatDate(post.publishedAt)}</>
               )}
@@ -87,12 +89,12 @@ export default async function BlogPage({
   }
 
   return (
-    <div className="min-h-screen">
+    <div>
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
-          <h1 className="font-serif text-white text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
+          <h1 className="font-display text-white text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
           <p className="text-white/70 mt-3 text-xl">{dict.blog.pageSubtitle}</p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
@@ -105,17 +107,17 @@ export default async function BlogPage({
           <div className="mb-16">
             <div className="flex items-center gap-2 mb-5">
               <MapPin className="w-4 h-4 text-sunset" />
-              <span className="text-sm font-semibold text-charcoal/50 uppercase tracking-widest">{dict.blog.startHere}</span>
+              <span className="text-sm font-semibold text-ink-soft uppercase tracking-widest">{dict.blog.startHere}</span>
             </div>
             <Link href={`/${lang}/blog/${pillarPost.slug}`} className="group block">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden bg-charcoal shadow-xl hover:shadow-2xl transition-shadow">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden tex-emerald shadow-xl hover:shadow-2xl transition-shadow">
                 <div className="relative h-64 lg:h-auto min-h-[340px]">
                   <Image src={pillarPost.heroImage} alt={pillarPost.title} fill className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 to-transparent lg:bg-none" />
                 </div>
-                <div className="p-8 lg:p-12 flex flex-col justify-center bg-charcoal">
-                  <span className="inline-flex items-center gap-2 text-saffron text-xs font-semibold uppercase tracking-widest mb-4">🇲🇦 {dict.blog.completeGuide}</span>
-                  <h2 className="font-serif text-white text-2xl lg:text-4xl font-bold mb-4 group-hover:text-sand transition-colors leading-tight">{pillarPost.title}</h2>
+                <div className="p-8 lg:p-12 flex flex-col justify-center tex-emerald">
+                  <span className="inline-flex items-center gap-2 text-brass-glow text-xs font-semibold uppercase tracking-widest mb-4">🇲🇦 {dict.blog.completeGuide}</span>
+                  <h2 className="font-display text-white text-2xl lg:text-4xl font-bold mb-4 group-hover:text-sand transition-colors leading-tight">{pillarPost.title}</h2>
                   <p className="text-white/60 leading-relaxed mb-6 text-sm lg:text-base">{pillarPost.excerpt}</p>
                   <div className="flex items-center gap-3 text-sm text-white/40">
                     <span>{pillarPost.readTime} {dict.blog.minRead}</span>
@@ -133,17 +135,17 @@ export default async function BlogPage({
 
         {!isFiltering && (
           <div className="mb-16">
-            <h2 className="font-serif text-charcoal text-3xl font-bold mb-2">{dict.blog.exploreByRegion}</h2>
-            <p className="text-charcoal/50 mb-7 text-sm">{dict.blog.exploreByRegionDesc}</p>
+            <h2 className="font-display text-charcoal text-3xl font-bold mb-2">{dict.blog.exploreByRegion}</h2>
+            <p className="text-ink-soft mb-7 text-sm">{dict.blog.exploreByRegionDesc}</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               {BLOG_REGIONS.filter((r) => r.id !== "root").map((r) => {
                 const count = nonPillarPosts.filter((p) => p.region === r.id).length;
                 return (
                   <Link key={r.id} href={`/${lang}/blog?region=${r.id}`}
-                    className="group flex flex-col items-center text-center p-5 bg-white rounded-2xl shadow-sm hover:shadow-md hover:border-forest border border-transparent transition-all">
+                    className="group flex flex-col items-center text-center p-5 bg-card rounded-[4px] shadow-sm hover:shadow-md hover:border-forest border border-transparent transition-all">
                     <span className="text-3xl mb-2">{r.icon}</span>
                     <span className="font-semibold text-charcoal text-sm group-hover:text-forest transition-colors leading-snug">{r.label}</span>
-                    <span className="text-charcoal/40 text-xs mt-1">{count} {count !== 1 ? dict.blog.articles : dict.blog.article}</span>
+                    <span className="text-ink-muted text-xs mt-1">{count} {count !== 1 ? dict.blog.articles : dict.blog.article}</span>
                   </Link>
                 );
               })}
@@ -154,8 +156,8 @@ export default async function BlogPage({
         {activeRegion && (
           <div className="mb-8 flex items-center justify-between flex-wrap gap-4">
             <div>
-              <h2 className="font-serif text-charcoal text-3xl font-bold">{activeRegion.icon} {activeRegion.label}</h2>
-              <p className="text-charcoal/50 mt-1 text-sm">{activeRegion.description} · {filteredPosts.length} {filteredPosts.length !== 1 ? dict.blog.articles : dict.blog.article}</p>
+              <h2 className="font-display text-charcoal text-3xl font-bold">{activeRegion.icon} {activeRegion.label}</h2>
+              <p className="text-ink-soft mt-1 text-sm">{activeRegion.description} · {filteredPosts.length} {filteredPosts.length !== 1 ? dict.blog.articles : dict.blog.article}</p>
             </div>
             <Link href={`/${lang}/blog`} className="text-sm text-forest font-semibold hover:underline">{dict.blog.allRegions}</Link>
           </div>
@@ -163,12 +165,12 @@ export default async function BlogPage({
 
         <div className="flex flex-wrap gap-3 mb-10">
           <Link href={activeRegion ? `/${lang}/blog?region=${activeRegion.id}` : `/${lang}/blog`}
-            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${!activeCategory ? "bg-forest text-white" : "bg-white border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${!activeCategory ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
             {dict.blog.allTopics}
           </Link>
           {BLOG_CATEGORIES.map((cat) => (
             <Link key={cat.id} href={`/${lang}/blog?category=${cat.id}${activeRegion ? `&region=${activeRegion.id}` : ""}`}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory?.id === cat.id ? "bg-forest text-white" : "bg-white border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory?.id === cat.id ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
               {cat.icon} {cat.label}
             </Link>
           ))}
@@ -176,7 +178,7 @@ export default async function BlogPage({
 
         {filteredPosts.length === 0 && (
           <div className="text-center py-24">
-            <p className="text-charcoal/40 text-lg">{dict.blog.noArticles}</p>
+            <p className="text-ink-muted text-lg">{dict.blog.noArticles}</p>
             <Link href={`/${lang}/blog`} className="mt-4 inline-block text-forest font-semibold hover:underline">{dict.blog.viewAll}</Link>
           </div>
         )}
@@ -184,23 +186,23 @@ export default async function BlogPage({
         {featured && !isFiltering && (
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-5">
-              <span className="text-sm font-semibold text-charcoal/50 uppercase tracking-widest">{dict.blog.latestArticles}</span>
+              <span className="text-sm font-semibold text-ink-soft uppercase tracking-widest">{dict.blog.latestArticles}</span>
             </div>
           </div>
         )}
 
         {featured && (
           <Link href={`/${lang}/blog/${featured.slug}`} className="group block mb-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-shadow">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden bg-card shadow-md hover:shadow-xl transition-shadow">
               <div className="relative h-64 lg:h-auto min-h-[320px]">
                 <Image src={featured.heroImage} alt={featured.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
                 <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-4 ${CATEGORY_COLORS[featured.category]}`}>{featured.category}</span>
-                <h2 className="font-serif text-charcoal text-2xl lg:text-3xl font-bold mb-4 group-hover:text-forest transition-colors leading-snug">{featured.title}</h2>
-                <p className="text-charcoal/60 leading-relaxed mb-6">{featured.excerpt}</p>
-                <div className="flex items-center gap-4 text-sm text-charcoal/40">
-                  {featured.author && <span className="text-charcoal/60 font-medium">{featured.author.name}</span>}
+                <h2 className="font-display text-charcoal text-2xl lg:text-3xl font-bold mb-4 group-hover:text-forest transition-colors leading-snug">{featured.title}</h2>
+                <p className="text-ink-soft leading-relaxed mb-6">{featured.excerpt}</p>
+                <div className="flex items-center gap-4 text-sm text-ink-muted">
+                  {featured.author && <span className="text-ink-soft font-medium">{featured.author.name}</span>}
                   <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(featured.publishedAt)}</span>
                   <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{featured.readTime} {dict.blog.minRead}</span>
                 </div>
@@ -215,10 +217,10 @@ export default async function BlogPage({
           </div>
         )}
 
-        <div className="mt-20 bg-forest rounded-3xl p-10 text-center text-white">
-          <h2 className="font-serif text-3xl font-bold mb-3">{dict.blog.readyTitle}</h2>
+        <div className="mt-20 bg-forest rounded-[4px] p-10 text-center text-white">
+          <h2 className="font-display text-3xl font-bold mb-3">{dict.blog.readyTitle}</h2>
           <p className="text-white/70 mb-6 max-w-xl mx-auto">{dict.blog.readyDesc}</p>
-          <Link href={`/${lang}/tours`} className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-sunset text-white font-semibold hover:bg-orange-600 transition-colors">
+          <Link href={`/${lang}/tours`} className="btn-brass">
             {dict.blog.browseAll} <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

@@ -4,7 +4,7 @@
     "about": "Sobre nosotros",
     "blog": "Blog",
     "contact": "Contacto",
-    "bookNow": "Reservar",
+    "bookNow": "Consultar disponibilidad",
     "news": "Noticias",
     "adventures": "Aventuras",
     "destinations": "Destinos",
@@ -86,6 +86,11 @@
     "meetTeam": "Leer nuestra historia completa",
     "teamTitle": "Los guías detrás de las aventuras",
     "teamSubtitle": "Nacidos en las montañas, formados en el campo, apasionados por Marruecos."
+  },
+  "map": {
+    "eyebrow": "Adónde vamos",
+    "title": "Aquí. Y aquí. Y aquí también.",
+    "subtitle": "Desde las cumbres del Alto Atlas hasta el Sáhara dorado y la costa atlántica, cada ruta la guían locales que conocen el terreno."
   },
   "testimonials": {
     "eyebrow": "Reseñas de viajeros",
@@ -227,7 +232,7 @@
     "backToBlog": "Blog",
     "readMore": "Leer más",
     "learnMore": "Saber más",
-    "bookNow": "Reservar",
+    "bookNow": "Consultar disponibilidad",
     "contactUs": "Contáctanos",
     "perPerson": "/ persona",
     "from": "Desde",

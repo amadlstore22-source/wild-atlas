@@ -1,3 +1,5 @@
+import { useId, type ReactNode } from "react";
+
 /**
  * Restrained Moroccan decorative motifs — inline SVG only (respects the strict
  * CSP; no external assets). Used sparingly as accents on a clean, spacious canvas.
@@ -96,23 +98,24 @@ function encodeSVG(svg: string): string {
  */
 export function ZelligeBand({
   className = "",
-  tone = "clay",
+  tone = "brass",
   height = 22,
   fade = true,
 }: {
   className?: string;
-  tone?: "clay" | "forest" | "sand" | "light";
+  tone?: "clay" | "forest" | "sand" | "brass" | "light";
   height?: number;
   /** fade the band into its horizontal edges (default) — off for short centred strips */
   fade?: boolean;
 }) {
   const strokes: Record<string, [string, number]> = {
-    clay: ["#B85C38", 0.6],
-    forest: ["#46583A", 0.55],
-    sand: ["#8A8278", 0.6],
-    light: ["#FFFFFF", 0.75],
+    clay: ["#B4472C", 0.55],
+    forest: ["#2B3A67", 0.5],
+    sand: ["#9A9088", 0.55],
+    brass: ["#C97B2B", 0.7],
+    light: ["#FBF8F3", 0.7],
   };
-  const [stroke, opacity] = strokes[tone] ?? strokes.clay;
+  const [stroke, opacity] = strokes[tone] ?? strokes.brass;
   const uri = encodeSVG(bandTileSVG(stroke, opacity));
   const fadeMask = fade
     ? "linear-gradient(to right, transparent, black 12%, black 88%, transparent)"
@@ -145,22 +148,23 @@ export function ZelligeBand({
  */
 export function ZelligeField({
   className = "",
-  tone = "clay",
+  tone = "brass",
   opacity = 0.09,
   scale = 120,
 }: {
   className?: string;
-  tone?: "clay" | "forest" | "sand" | "light";
+  tone?: "clay" | "forest" | "sand" | "brass" | "light";
   opacity?: number;
   scale?: number;
 }) {
   const colors: Record<string, string> = {
-    clay: "#B85C38",
-    forest: "#46583A",
-    sand: "#8A8278",
-    light: "#FFFFFF", // for use on dark grounds
+    clay: "#B4472C",
+    forest: "#2B3A67",
+    sand: "#9A9088",
+    brass: "#C97B2B",
+    light: "#FBF8F3", // for use on dark grounds
   };
-  const stroke = colors[tone] ?? colors.clay;
+  const stroke = colors[tone] ?? colors.brass;
 
   const T = 120;
   const centre = khatamPoints(T / 2, T / 2, 30, 16);
@@ -191,15 +195,101 @@ export function ZelligeField({
 }
 
 /**
- * A fine arabesque line divider — a short star-and-cross strip centred between
- * two hairlines, used <=2x per page as a refined section transition.
+ * A fine zellij line divider — a short star-and-cross strip centred between two
+ * brass hairlines, flanked by small stars. Used <=2x per page as a refined
+ * section transition.
  */
-export function ArabesqueDivider({ className = "" }: { className?: string }) {
+export function ArabesqueDivider({
+  className = "",
+  tone = "brass",
+}: {
+  className?: string;
+  tone?: "clay" | "forest" | "sand" | "brass" | "light";
+}) {
   return (
     <div className={`flex items-center justify-center gap-3 ${className}`} aria-hidden="true">
-      <span className="h-px w-16 bg-gradient-to-r from-transparent to-sunset/50 sm:w-28" />
-      <ZelligeBand tone="clay" height={22} fade={false} className="w-36 sm:w-52 shrink-0" />
-      <span className="h-px w-16 bg-gradient-to-l from-transparent to-sunset/50 sm:w-28" />
+      <span className="h-px w-16 bg-gradient-to-r from-transparent to-brass/60 sm:w-28" />
+      <ZelligeStar size={12} className="text-brass shrink-0" />
+      <ZelligeBand tone={tone} height={22} fade={false} className="w-32 sm:w-48 shrink-0" />
+      <ZelligeStar size={12} className="text-brass shrink-0" />
+      <span className="h-px w-16 bg-gradient-to-l from-transparent to-brass/60 sm:w-28" />
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  ArchImage — a horseshoe / keyhole-arch masked media container.     */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Clips its children (an Image or video) into the iconic Moroccan pointed
+ * horseshoe arch. The silhouette: straight sides rising, shoulders curving
+ * inward, meeting at a gentle ogee point at the crown. Pure inline SVG clip
+ * path — CSP-safe, scales to any aspect ratio.
+ */
+export function ArchImage({
+  children,
+  className = "",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  // Stable across server + client (Math.random would cause a hydration mismatch
+  // and can break the clip-path reference).
+  const rawId = useId();
+  const id = `arch-${rawId.replace(/:/g, "")}`;
+  return (
+    <div className={`relative ${className}`}>
+      <svg width="0" height="0" className="absolute" aria-hidden="true">
+        <defs>
+          <clipPath id={id} clipPathUnits="objectBoundingBox">
+            {/* Horseshoe arch: square base, straight sides to ~38%, shoulders
+                curve in, meeting at a soft point at top-centre. */}
+            <path d="M0,1 L0,0.42 C0,0.19 0.16,0.04 0.34,0.02 C0.42,0.005 0.46,0 0.5,0 C0.54,0 0.58,0.005 0.66,0.02 C0.84,0.04 1,0.19 1,0.42 L1,1 Z" />
+          </clipPath>
+        </defs>
+      </svg>
+      <div style={{ clipPath: `url(#${id})` }} className="absolute inset-0 overflow-hidden">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  ArchDivider — an arch-shaped section transition (SVG top edge).    */
+/* ------------------------------------------------------------------ */
+
+/**
+ * A section transition shaped like a repeating scalloped arcade — the crown of
+ * a riad courtyard. Renders as a full-width SVG whose fill matches the section
+ * ABOVE, so the section below appears to rise through a row of arches. Place at
+ * the very top of the lower section.
+ */
+export function ArchDivider({
+  className = "",
+  fill = "#FBF8F3",
+  flip = false,
+}: {
+  className?: string;
+  /** colour of the section ABOVE (the arch openings reveal the section below) */
+  fill?: string;
+  /** flip vertically for a bottom-edge scallop */
+  flip?: boolean;
+}) {
+  return (
+    <div className={`w-full leading-[0] ${className}`} aria-hidden="true" style={{ transform: flip ? "scaleY(-1)" : undefined }}>
+      <svg viewBox="0 0 1200 80" preserveAspectRatio="none" className="w-full h-[40px] sm:h-[56px] md:h-[72px]">
+        {/* A row of horseshoe arches cut out of the upper section's fill. */}
+        <path
+          fill={fill}
+          d="M0,0 L1200,0 L1200,80 L0,80 Z M0,80 C0,44 34,20 75,20 C90,20 100,10 100,0 L100,0 C100,10 110,20 125,20 C166,20 200,44 200,80 Z"
+        />
+        <path
+          fill={fill}
+          d="M0,80 C0,44 40,18 100,18 C160,18 200,44 200,80 C200,44 240,18 300,18 C360,18 400,44 400,80 C400,44 440,18 500,18 C560,18 600,44 600,80 C600,44 640,18 700,18 C760,18 800,44 800,80 C800,44 840,18 900,18 C960,18 1000,44 1000,80 C1000,44 1040,18 1100,18 C1160,18 1200,44 1200,80 L1200,0 L0,0 Z"
+        />
+      </svg>
     </div>
   );
 }

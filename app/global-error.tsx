@@ -15,9 +15,9 @@ export default function GlobalError({
 
   return (
     <html lang="en">
-      <body style={{ margin: 0, fontFamily: "sans-serif", background: "#F5F0E8", color: "#111" }}>
+      <body style={{ margin: 0, fontFamily: "sans-serif", background: "#F2EDE4", color: "#1F1A16" }}>
         <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "2rem", textAlign: "center" }}>
-          <p style={{ fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8B5E3C", marginBottom: "1rem" }}>
+          <p style={{ fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#C97B2B", marginBottom: "1rem" }}>
             Unexpected Error
           </p>
           <h1 style={{ fontSize: "2rem", fontWeight: 700, marginBottom: "0.75rem" }}>
@@ -28,7 +28,7 @@ export default function GlobalError({
           </p>
           <button
             onClick={unstable_retry}
-            style={{ padding: "0.75rem 2rem", borderRadius: "9999px", background: "#4B5D3A", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: "0.9rem" }}
+            style={{ padding: "0.75rem 2rem", borderRadius: "2px", background: "#2B3A67", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: "0.9rem" }}
           >
             Try Again
           </button>

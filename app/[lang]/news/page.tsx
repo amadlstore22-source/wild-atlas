@@ -28,11 +28,11 @@ export default async function NewsPage({ params }: LangParams) {
       {/* Hero */}
       <div className="bg-forest py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <p className="text-sunset text-xs font-bold uppercase tracking-[0.2em] mb-4">
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">
             {dict.news.eyebrow}
           </p>
           <h1
-            className="font-serif text-white font-bold leading-tight mb-4"
+            className="font-display text-white font-bold leading-tight mb-4"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
             {dict.news.title}

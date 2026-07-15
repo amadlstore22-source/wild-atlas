@@ -4,7 +4,7 @@
     "about": "À propos",
     "blog": "Blog",
     "contact": "Contact",
-    "bookNow": "Réserver",
+    "bookNow": "Vérifier les disponibilités",
     "news": "Actualités",
     "adventures": "Aventures",
     "destinations": "Destinations",
@@ -86,6 +86,11 @@
     "meetTeam": "Lire notre histoire complète",
     "teamTitle": "Les guides derrière les aventures",
     "teamSubtitle": "Nés dans les montagnes, formés sur le terrain, passionnés par le Maroc."
+  },
+  "map": {
+    "eyebrow": "Où nous allons",
+    "title": "Ici. Et ici. Et ici encore.",
+    "subtitle": "Des sommets du Haut Atlas au Sahara doré et à la côte atlantique, chaque itinéraire est guidé par des locaux qui connaissent le terrain."
   },
   "testimonials": {
     "eyebrow": "Avis des voyageurs",
@@ -227,7 +232,7 @@
     "backToBlog": "Blog",
     "readMore": "Lire la suite",
     "learnMore": "En savoir plus",
-    "bookNow": "Réserver",
+    "bookNow": "Vérifier les disponibilités",
     "contactUs": "Nous contacter",
     "perPerson": "/ personne",
     "from": "À partir de",

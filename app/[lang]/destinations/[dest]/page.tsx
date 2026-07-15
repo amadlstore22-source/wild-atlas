@@ -102,7 +102,7 @@ export default async function DestinationPage({ params }: PageParams) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
       )}
 
-      <div className="min-h-screen">
+      <div>
         {/* Hero */}
         <div className="relative h-[70vh] min-h-[480px] flex items-end overflow-hidden">
           <Image
@@ -113,7 +113,7 @@ export default async function DestinationPage({ params }: PageParams) {
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/88 via-indigo-deep/30 to-indigo-deep/15" />
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 w-full">
             {/* Breadcrumb */}
@@ -129,7 +129,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {destination.region}
             </p>
             <h1
-              className="font-serif text-white font-bold leading-tight mb-3"
+              className="font-display text-white font-bold leading-tight mb-3"
               style={{ fontSize: "clamp(2.4rem, 5.5vw, 4.2rem)" }}
             >
               {destination.name}
@@ -146,22 +146,22 @@ export default async function DestinationPage({ params }: PageParams) {
             <div>
               {/* About */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-5">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
                   About {destination.name}
                 </h2>
-                <p className="text-charcoal/70 leading-relaxed text-lg">{destination.about}</p>
+                <p className="text-ink-soft leading-relaxed text-lg">{destination.about}</p>
               </section>
 
               {/* Known for */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-5">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
                   What {destination.name} is Known For
                 </h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {destination.knownFor.map((item, i) => (
                     <li key={i} className="flex items-start gap-3 p-4 bg-sand/30 rounded-xl border border-sand-dark/60">
                       <span className="text-sunset mt-0.5 shrink-0 font-bold">✦</span>
-                      <span className="text-charcoal/75 text-sm leading-relaxed">{item}</span>
+                      <span className="text-ink-soft text-sm leading-relaxed">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -169,7 +169,7 @@ export default async function DestinationPage({ params }: PageParams) {
 
               {/* Highlights */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-6">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
                   Highlights
                 </h2>
                 <div className="space-y-6">
@@ -180,7 +180,7 @@ export default async function DestinationPage({ params }: PageParams) {
                       </div>
                       <div>
                         <h3 className="font-semibold text-charcoal mb-1.5">{h.title}</h3>
-                        <p className="text-charcoal/65 text-sm leading-relaxed">{h.desc}</p>
+                        <p className="text-ink-soft text-sm leading-relaxed">{h.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -189,18 +189,18 @@ export default async function DestinationPage({ params }: PageParams) {
 
               {/* Best season */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-6">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
                   Best Time to Visit
                 </h2>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                   {destination.seasons.map((s) => (
-                    <div key={s.name} className="rounded-2xl border border-sand-dark p-4 bg-white">
+                    <div key={s.name} className="rounded-[4px] border border-sand-dark p-4 bg-card">
                       <div className="text-2xl mb-2">{s.emoji}</div>
                       <div className="font-semibold text-charcoal text-sm mb-1">{s.name}</div>
                       <div className="text-sunset text-sm mb-2 leading-none">
                         {SEASON_STARS(s.rating)}
                       </div>
-                      <p className="text-charcoal/55 text-xs leading-relaxed">{s.note}</p>
+                      <p className="text-ink-soft text-xs leading-relaxed">{s.note}</p>
                     </div>
                   ))}
                 </div>
@@ -208,12 +208,12 @@ export default async function DestinationPage({ params }: PageParams) {
 
               {/* Travel tips */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-5">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
                   Insider Travel Tips
                 </h2>
                 <ul className="space-y-3">
                   {destination.travelTips.map((tip, i) => (
-                    <li key={i} className="flex items-start gap-3 text-sm text-charcoal/70 leading-relaxed">
+                    <li key={i} className="flex items-start gap-3 text-sm text-ink-soft leading-relaxed">
                       <span className="w-5 h-5 rounded-full bg-forest/12 border border-forest/20 flex items-center justify-center shrink-0 mt-0.5">
                         <span className="text-forest text-[10px] font-bold">{i + 1}</span>
                       </span>
@@ -225,17 +225,17 @@ export default async function DestinationPage({ params }: PageParams) {
 
               {/* FAQs */}
               <section className="mb-14">
-                <h2 className="font-serif text-charcoal text-2xl font-bold mb-6">
+                <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
                   Frequently Asked Questions
                 </h2>
                 <div className="space-y-3">
                   {destination.faqs.map((faq) => (
-                    <details key={faq.q} className="bg-white rounded-2xl border border-sand-dark group">
+                    <details key={faq.q} className="bg-card rounded-[4px] border border-sand-dark group">
                       <summary className="flex items-center justify-between p-5 cursor-pointer font-semibold text-charcoal hover:text-forest transition-colors list-none text-sm">
                         {faq.q}
-                        <span className="text-charcoal/40 group-open:rotate-45 transition-transform text-lg ml-4 shrink-0">+</span>
+                        <span className="text-ink-muted group-open:rotate-45 transition-transform text-lg ml-4 shrink-0">+</span>
                       </summary>
-                      <div className="px-5 pb-5 text-charcoal/65 text-sm leading-relaxed">{faq.a}</div>
+                      <div className="px-5 pb-5 text-ink-soft text-sm leading-relaxed">{faq.a}</div>
                     </details>
                   ))}
                 </div>
@@ -246,15 +246,15 @@ export default async function DestinationPage({ params }: PageParams) {
             <div>
               <div className="sticky top-24 space-y-4">
                 {/* Quick info card */}
-                <div className="bg-white rounded-2xl border border-sand-dark shadow-sm p-6">
-                  <h3 className="font-serif text-charcoal font-bold text-lg mb-4">Quick Info</h3>
+                <div className="bg-card rounded-[4px] border border-sand-dark shadow-sm p-6">
+                  <h3 className="font-display text-charcoal font-bold text-lg mb-4">Quick Info</h3>
                   <dl className="space-y-3 text-sm">
                     <div>
-                      <dt className="text-charcoal/40 text-xs uppercase tracking-widest font-semibold mb-0.5">Region</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Region</dt>
                       <dd className="text-charcoal font-medium">{destination.region}</dd>
                     </div>
                     <div>
-                      <dt className="text-charcoal/40 text-xs uppercase tracking-widest font-semibold mb-0.5">Best Season</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Best Season</dt>
                       <dd className="text-charcoal font-medium">
                         {destination.seasons
                           .filter((s) => s.rating >= 4)
@@ -263,7 +263,7 @@ export default async function DestinationPage({ params }: PageParams) {
                       </dd>
                     </div>
                     <div>
-                      <dt className="text-charcoal/40 text-xs uppercase tracking-widest font-semibold mb-0.5">Categories</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Categories</dt>
                       <dd className="flex flex-wrap gap-1.5 mt-1">
                         {destination.relatedCategories.map((cat) => (
                           <Link
@@ -280,8 +280,8 @@ export default async function DestinationPage({ params }: PageParams) {
                 </div>
 
                 {/* CTA */}
-                <div className="bg-forest rounded-2xl p-6 text-white">
-                  <h3 className="font-serif font-bold text-lg mb-2">
+                <div className="bg-forest rounded-[4px] p-6 text-white">
+                  <h3 className="font-display font-bold text-lg mb-2">
                     Ready to explore {destination.name}?
                   </h3>
                   <p className="text-white/65 text-sm mb-5 leading-relaxed">
@@ -289,7 +289,7 @@ export default async function DestinationPage({ params }: PageParams) {
                   </p>
                   <Link
                     href={`/${locale}/contact`}
-                    className="block text-center py-3 rounded-xl bg-white text-forest font-bold text-sm hover:bg-sand transition-colors mb-2"
+                    className="block text-center py-3 rounded-xl bg-card text-forest font-bold text-sm hover:bg-sand transition-colors mb-2"
                   >
                     Plan My Trip
                   </Link>
@@ -307,7 +307,7 @@ export default async function DestinationPage({ params }: PageParams) {
                 </div>
 
                 {/* Nearby destinations */}
-                <div className="bg-white rounded-2xl border border-sand-dark p-6">
+                <div className="bg-card rounded-[4px] border border-sand-dark p-6">
                   <h3 className="font-semibold text-charcoal text-sm mb-3">Explore More Destinations</h3>
                   <ul className="space-y-2">
                     {DESTINATIONS.filter((d) => d.slug !== dest)
@@ -316,11 +316,11 @@ export default async function DestinationPage({ params }: PageParams) {
                         <li key={d.slug}>
                           <Link
                             href={`/${locale}/destinations/${d.slug}`}
-                            className="flex items-center gap-2 text-sm text-charcoal/60 hover:text-forest transition-colors group"
+                            className="flex items-center gap-2 text-sm text-ink-soft hover:text-forest transition-colors group"
                           >
                             <span className="text-forest/40 group-hover:text-forest transition-colors text-xs">→</span>
                             <span>{d.name}</span>
-                            <span className="text-charcoal/30 text-xs ml-auto">{d.subtitle.split(" ").slice(0, 2).join(" ")}</span>
+                            <span className="text-ink-muted text-xs ml-auto">{d.subtitle.split(" ").slice(0, 2).join(" ")}</span>
                           </Link>
                         </li>
                       ))}
@@ -335,8 +335,8 @@ export default async function DestinationPage({ params }: PageParams) {
             <section className="mt-4 pt-14 border-t border-sand-dark">
               <div className="flex items-end justify-between mb-8">
                 <div>
-                  <p className="text-sunset text-xs font-bold uppercase tracking-[0.18em] mb-2">Guided Adventures</p>
-                  <h2 className="font-serif text-charcoal text-3xl font-bold">
+                  <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.18em] mb-2">Guided Adventures</p>
+                  <h2 className="font-display text-charcoal text-3xl font-bold">
                     Tours in & Around {destination.name}
                   </h2>
                 </div>

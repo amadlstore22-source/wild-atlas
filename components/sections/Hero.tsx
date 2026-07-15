@@ -1,11 +1,10 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
-import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
+import BrassButton from "@/components/ui/BrassButton";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -13,14 +12,17 @@ interface Props {
   dict: Dictionary;
 }
 
-const ease = [0.22, 1, 0.36, 1] as const;
+const ease = [0.16, 1, 0.3, 1] as const;
 
 export default function Hero({ lang, dict }: Props) {
   const [isDesktop, setIsDesktop] = useState(false);
+  const reduce = useReducedMotion();
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
-  const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
-  const imgScale = useTransform(scrollYProgress, [0, 1], [1.06, 1.0]);
+  // Slow parallax drift of the media as you scroll away.
+  const mediaY = useTransform(scrollYProgress, [0, 1], ["0%", "16%"]);
+  const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "26%"]);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
@@ -30,148 +32,111 @@ export default function Hero({ lang, dict }: Props) {
     return () => mq.removeEventListener("change", handler);
   }, []);
 
+  const parallax = isDesktop && !reduce;
+
   return (
-    <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-charcoal">
-      {/* Full-bleed background */}
-      <div className="absolute inset-0 overflow-hidden">
+    <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-indigo-deep">
+      {/* Cinematic full-bleed media — video if provided, else slow Ken-Burns photo */}
+      <motion.div className="absolute inset-0 overflow-hidden" style={parallax ? { y: mediaY } : undefined}>
         {SITE.heroVideo ? (
           <video
             className="absolute inset-0 w-full h-full object-cover object-center"
             poster={SITE.heroPoster}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="none"
+            autoPlay muted loop playsInline preload="none"
           >
             <source src={SITE.heroVideo} type="video/mp4" />
           </video>
         ) : (
-          <motion.div
-            className="absolute inset-[-10%]"
-            style={isDesktop ? { y: imgY, scale: imgScale } : undefined}
-          >
+          <div className={`absolute inset-[-6%] ${reduce ? "" : "ken-burns"}`}>
             <Image
               src={SITE.heroPoster}
-              alt="Morocco Atlas Mountains landscape"
-              fill
-              priority
+              alt="The High Atlas Mountains at golden hour, Morocco"
+              fill priority sizes="100vw"
               className="object-cover object-center"
-              sizes="100vw"
             />
-          </motion.div>
+          </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
-      </div>
+        {/* Warm cinematic scrim — deepen left for text contrast, warm sunset glow bottom */}
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-deep/85 via-indigo-deep/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/80 via-transparent to-indigo-deep/25" />
+      </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 min-h-[100dvh] flex flex-col justify-end pb-16 pt-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <motion.div
+        className="relative z-10 min-h-[100dvh] flex flex-col justify-end pb-20 sm:pb-24 pt-28"
+        style={parallax ? { y: contentY, opacity: contentOpacity } : undefined}
+      >
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
-
-            {/* Headline */}
-            <motion.h1
-              className="font-serif text-white font-bold leading-[1.05] mb-5"
-              style={{ fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)" }}
-              initial={{ opacity: 0, y: 32 }}
+            {/* Eyebrow */}
+            <motion.div
+              className="mb-6"
+              initial={reduce ? false : { opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease, delay: 0.1 }}
+              transition={{ duration: 0.7, ease, delay: 0.05 }}
+            >
+              <span className="eyebrow text-brass-glow">{dict.hero.eyebrow}</span>
+            </motion.div>
+
+            {/* Headline — Cormorant, 2 lines, brass italic accent */}
+            <motion.h1
+              className="font-display text-cream font-semibold leading-[1.02] mb-6"
+              style={{ fontSize: "clamp(3rem, 7vw, 5.75rem)" }}
+              initial={reduce ? false : { opacity: 0, y: 28 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, ease, delay: 0.15 }}
             >
               {dict.hero.headline1}
               <br />
-              <span className="text-sunset italic">{dict.hero.headline2}</span>
+              <span className="italic text-brass-glow leading-[1.1] pb-1 inline-block">{dict.hero.headline2}</span>
             </motion.h1>
 
             <motion.p
-              className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg"
-              initial={{ opacity: 0, y: 20 }}
+              className="text-cream/80 text-lg sm:text-xl leading-relaxed mb-9 max-w-lg"
+              initial={reduce ? false : { opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease, delay: 0.25 }}
+              transition={{ duration: 0.8, ease, delay: 0.3 }}
             >
               {dict.hero.subheadline}
             </motion.p>
 
-            {/* CTAs — one loud terracotta primary + one clean ghost */}
             <motion.div
-              className="flex flex-wrap gap-3 items-center mt-2"
-              initial={{ opacity: 0, y: 16 }}
+              className="flex flex-wrap gap-3.5 items-center"
+              initial={reduce ? false : { opacity: 0, y: 14 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease, delay: 0.4 }}
+              transition={{ duration: 0.7, ease, delay: 0.45 }}
             >
-              <Link
-                href={`/${lang}/tours`}
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-sunset text-white font-semibold text-base hover:bg-atlas-clay active:scale-[0.98] transition-all shadow-xl shadow-sunset/25"
-              >
+              <BrassButton href={`/${lang}/tours`} variant="brass">
                 {dict.hero.browseAll}
                 <ArrowRight className="w-4 h-4" weight="bold" />
-              </Link>
-              <Link
+              </BrassButton>
+              <a
                 href={`/${lang}/contact`}
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/35 text-white font-semibold text-base hover:bg-white/12 hover:border-white/60 transition-all"
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-[2px] border border-cream/40 text-cream font-semibold hover:bg-cream/10 hover:border-cream/70 transition-all duration-300"
               >
                 {dict.hero.planCustom}
-              </Link>
-            </motion.div>
-
-            {/* Star trust line */}
-            <motion.div
-              className="flex flex-wrap items-center gap-2 mt-5"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, ease, delay: 0.9 }}
-            >
-              <div className="flex items-center gap-0.5">
-                {[1,2,3,4,5].map((i) => (
-                  <svg key={i} className="w-3.5 h-3.5 text-[#FFB800]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                  </svg>
-                ))}
-                <span className="text-white/90 text-xs font-bold ml-1.5">{TRIPADVISOR.rating.toFixed(1)}</span>
-              </div>
-              <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">{TRIPADVISOR.reviewCount} TripAdvisor reviews</span>
-              <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">Some of Morocco&apos;s finest guides</span>
-              <span className="text-white/25 text-xs">·</span>
-              <span className="text-white/60 text-xs">No hidden fees</span>
+              </a>
             </motion.div>
           </div>
-
-          {/* Trust strip */}
-          <motion.div
-            className="mt-14 pt-6 border-t border-white/10"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, ease, delay: 1.0 }}
-          >
-            <div className="flex flex-wrap gap-x-8 gap-y-3">
-              {[
-                { value: String(SITE.tourCount), label: "Tours & Experiences" },
-                { value: SITE.clientCount, label: "Travellers" },
-                { value: `${SITE.experienceYears}+ yrs`, label: "Guiding Heritage" },
-                { value: TRIPADVISOR.rating.toFixed(1), label: "TripAdvisor Rating" },
-              ].map((s, i) => (
-                <motion.div
-                  key={s.label}
-                  className="flex items-baseline gap-2"
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, ease, delay: 1.05 + i * 0.08 }}
-                >
-                  <span className="font-serif text-white text-xl font-bold">{s.value}</span>
-                  <span className="text-white/65 text-xs font-medium">{s.label}</span>
-                </motion.div>
-              ))}
-            </div>
-            <p className="text-white/30 text-[10px] mt-3 font-medium tracking-wide">
-              Tour count and availability vary by season and conditions.
-            </p>
-          </motion.div>
         </div>
+      </motion.div>
+
+      {/* Minimal scroll indicator */}
+      <motion.div
+        className="absolute bottom-7 left-1/2 -translate-x-1/2 z-10 hidden sm:flex flex-col items-center gap-2"
+        initial={reduce ? false : { opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, ease, delay: 1 }}
+        aria-hidden="true"
+      >
+        <span className={`w-px h-12 bg-gradient-to-b from-brass-glow/70 to-transparent ${reduce ? "" : "float-soft"}`} />
+      </motion.div>
+
+      {/* Trust micro-line (single small element, allowed) */}
+      <div className="absolute bottom-7 right-5 sm:right-8 z-10 hidden md:flex items-center gap-2 text-cream/70 text-xs">
+        <span className="text-brass-glow font-semibold">{TRIPADVISOR.rating.toFixed(1)}★</span>
+        <span>{TRIPADVISOR.reviewCount} TripAdvisor reviews</span>
       </div>
-      {/* Zellige seam where the hero meets the page */}
-      <ZelligeBand tone="light" height={24} className="absolute bottom-0 left-0 z-10 opacity-80" />
     </section>
   );
 }

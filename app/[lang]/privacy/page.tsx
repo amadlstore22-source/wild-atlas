@@ -7,7 +7,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "15 July 2026";
+const UPDATED = "17 July 2026";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Marrakech Eco Tours",
@@ -137,7 +137,16 @@ export default async function PrivacyPage({ params }: LangParams) {
             </li>
             <li>
               <strong>Resend</strong> &mdash; transactional email delivery. When you submit our contact or
-              newsletter form, your name and email are routed via Resend to our inbox.
+              newsletter form, your name and email are routed via Resend to our inbox. See{" "}
+              <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Resend&rsquo;s Privacy Policy</a>.
+            </li>
+            <li>
+              <strong>Cloudflare</strong> &mdash; DNS, network security, and email routing. Messages sent to our{" "}
+              {SITE.emailDisplay} address are forwarded by Cloudflare Email Routing to the team inbox we monitor,
+              so the contents of your email pass through Cloudflare in transit. As our DNS and security layer,
+              Cloudflare also processes standard connection data (IP address, request metadata) to protect the
+              site from abuse. See{" "}
+              <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare&rsquo;s Privacy Policy</a>.
             </li>
             <li>
               <strong>WhatsApp / Meta</strong> &mdash; if you contact us via WhatsApp, your messages are subject to

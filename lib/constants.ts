@@ -2,10 +2,13 @@ export const SITE = {
   name: "Marrakech Eco Tours",
   tagline: "Expert-guided adventures in Morocco's most breathtaking landscapes.",
   url: "https://marrakechecotours.com",
-  email: "infoaitidar@gmail.com",
+  /** Public contact + data-controller address on the legal pages. Delivered by
+   *  Cloudflare Email Routing, which forwards it to the team's monitored inbox.
+   *  Must stay a real, monitored mailbox: GDPR/Law 09-08 requests arrive here. */
+  email: "info@marrakechecotours.com",
   /** Obfuscated for display so the address is not trivially scraped off the
    *  page. The real address lives in `email` and is used for mailto/schema. */
-  emailDisplay: "infoaitidar@···.com",
+  emailDisplay: "info@···.com",
   phone: "+212 653 936 003",
   phoneDial: "+212653936003",
   whatsapp: "212653936003",

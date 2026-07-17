@@ -7,7 +7,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "15 July 2026";
+const UPDATED = "17 July 2026";
 
 export const metadata: Metadata = {
   title: "Cookie Policy — Marrakech Eco Tours",

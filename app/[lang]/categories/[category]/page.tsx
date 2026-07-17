@@ -66,7 +66,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <span className="text-5xl block mb-3">{cat.icon}</span>
-          <h1 className="font-display text-white text-6xl lg:text-7xl font-bold leading-tight">{cat.label}</h1>
+          <h1 className="hero-title font-display text-6xl lg:text-7xl font-bold leading-tight">{cat.label}</h1>
           <p className="text-white/70 mt-3 text-xl max-w-2xl">{cat.description}</p>
         </div>
       </div>

@@ -94,7 +94,7 @@ export default async function BlogPage({
         <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
-          <h1 className="font-display text-white text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
+          <h1 className="hero-title font-display text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
           <p className="text-white/70 mt-3 text-xl">{dict.blog.pageSubtitle}</p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />

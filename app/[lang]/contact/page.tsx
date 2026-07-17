@@ -83,7 +83,7 @@ export default async function ContactPage({ params }: LangParams) {
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/35 to-indigo-deep/15" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
           <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">Get in Touch</p>
-          <h1 className="font-display text-white font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
+          <h1 className="hero-title font-display font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
             {dict.contact.pageTitle}
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">{dict.contact.pageSubtitle}</p>

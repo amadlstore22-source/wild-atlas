@@ -138,7 +138,7 @@ export default function ToursClient({
         <Image src="https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1920&q=80" alt="Morocco tours" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
-          <h1 className="font-display text-white text-5xl lg:text-6xl font-bold leading-tight">{dict.tours.pageTitle}</h1>
+          <h1 className="hero-title font-display text-5xl lg:text-6xl font-bold leading-tight">{dict.tours.pageTitle}</h1>
           <p className="text-white/75 mt-3 text-lg">{dict.tours.pageSubtitle.replace("{count}", String(TOURS.length))}</p>
         </div>
       </div>

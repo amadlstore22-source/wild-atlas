@@ -129,7 +129,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {destination.region}
             </p>
             <h1
-              className="font-display text-white font-bold leading-tight mb-3"
+              className="hero-title font-display font-bold leading-tight mb-3"
               style={{ fontSize: "clamp(2.4rem, 5.5vw, 4.2rem)" }}
             >
               {destination.name}

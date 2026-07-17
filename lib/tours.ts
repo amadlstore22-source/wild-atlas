@@ -65,13 +65,16 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     price: 380,
     depositAmount: 95,
-    heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+    // Real photographs from our own Toubkal departures (in public/gallery),
+    // ordered to follow the trek: summit celebration, the Imlil valley start,
+    // the ascent, and the summit ridge.
+    heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
-      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
-      "https://images.unsplash.com/photo-1593535988128-7214bc2cbedc?w=1200&q=85",
+      "/gallery/toubkal-summit-guide-thumbs-up.jpg",
+      "/gallery/toubkal-group-snow-ascent.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     ],
     shortDescription:
       "Conquer Jbel Toubkal (4,167 m) — the roof of North Africa — through Berber villages and high alpine valleys.",
@@ -1947,12 +1950,15 @@ export const TOURS: Tour[] = [
     rating: 4.7,
     price: 210,
     depositAmount: 55,
-    heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+    // Real photos from our Toubkal departures. A different selection from the
+    // 4-day tour so the two pages don't look identical — this focuses on the
+    // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
+    heroImage: "/gallery/toubkal-summit-ridge-climbers.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
-      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+      "/gallery/toubkal-trekker-snow-slope.jpg",
+      "/gallery/toubkal-final-snow-slope-dawn.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     ],
     shortDescription:
       "The fastest way to the roof of North Africa — summit Jbel Toubkal (4,167 m) in a focused two-day ascent from Marrakech.",

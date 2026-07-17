@@ -47,7 +47,7 @@ export default async function GuidesPage({ params }: LangParams) {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Our team</p>
           <h1
-            className="font-display text-white font-bold leading-tight mb-6"
+            className="hero-title font-display font-bold leading-tight mb-6"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
             The people who actually<br className="hidden sm:block" /> know Morocco

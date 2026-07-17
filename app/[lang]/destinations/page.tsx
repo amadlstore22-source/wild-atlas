@@ -57,7 +57,7 @@ export default async function DestinationsPage({ params }: LangParams) {
             From Atlas to Atlantic
           </p>
           <h1
-            className="font-display text-white font-bold mb-6"
+            className="hero-title font-display font-bold mb-6"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
             Where the Adventures Happen

@@ -153,7 +153,9 @@ export default async function TourDetailPage({ params }: TourParams) {
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
         <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority sizes="100vw" />
-        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/88 via-indigo-deep/35 to-transparent" />
+        {/* Scrim: darker at the bottom where the title/meta sit, plus a top wash
+            so breadcrumbs stay legible on light images (sand, snow). */}
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/92 via-indigo-deep/55 to-indigo-deep/25" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 w-full">
           <nav className="flex items-center gap-2 text-white/65 text-sm mb-4">
             <Link href={`/${lang}`} className="hover:text-white transition-colors">{dict.common.home}</Link>
@@ -170,7 +172,7 @@ export default async function TourDetailPage({ params }: TourParams) {
               {tour.difficulty}
             </Badge>
           </div>
-          <h1 className="font-display text-white text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">{tour.title}</h1>
+          <h1 className="hero-title font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">{tour.title}</h1>
           <div className="flex flex-wrap gap-6 mt-4 text-white/75 text-sm">
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{tour.duration}</span>
             <span className="flex items-center gap-1.5"><UsersThree className="w-4 h-4" />{tour.groupSize}</span>

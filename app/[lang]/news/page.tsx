@@ -32,7 +32,7 @@ export default async function NewsPage({ params }: LangParams) {
             {dict.news.eyebrow}
           </p>
           <h1
-            className="font-display text-white font-bold leading-tight mb-4"
+            className="hero-title font-display font-bold leading-tight mb-4"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
             {dict.news.title}

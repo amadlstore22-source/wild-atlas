@@ -219,7 +219,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
               })()}
             </nav>
             <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-4 w-fit ${CATEGORY_COLORS[post.category]}`}>{post.category}</span>
-            <h1 className="font-display text-white text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-4">{post.title}</h1>
+            <h1 className="hero-title font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-4">{post.title}</h1>
             <div className="flex items-center gap-5 text-white/60 text-sm flex-wrap">
               {post.author && (
                 <span className="flex items-center gap-1.5 text-white/80 font-medium">

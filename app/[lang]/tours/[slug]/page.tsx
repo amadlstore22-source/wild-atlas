@@ -15,7 +15,15 @@ import RelatedTours from "@/components/tours/RelatedTours";
 import TourNavBar from "@/components/tours/TourNavBar";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
+// Import from currency-core, not currency: the latter is "use client" and its
+// constants read as undefined during server render.
+import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
+
+/** Tour prices are stored in USD but the site displays EUR by default. Google
+ *  compares structured-data prices against the visible page, so the schema must
+ *  quote the same currency a visitor actually sees, not the storage unit. */
+const schemaPrice = (usd: number) => String(priceIn(usd, DEFAULT_CURRENCY));
 
 export async function generateStaticParams() {
   return TOURS.flatMap((t) =>
@@ -61,8 +69,8 @@ export default async function TourDetailPage({ params }: TourParams) {
     brand: { "@type": "Brand", name: "Marrakech Eco Tours" },
     offers: {
       "@type": "Offer",
-      priceCurrency: "USD",
-      price: String(tour.price),
+      priceCurrency: DEFAULT_CURRENCY,
+      price: schemaPrice(tour.price),
       availability: "https://schema.org/InStock",
       url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
     },
@@ -78,7 +86,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: tour.shortDescription,
     touristType: "Adventure",
-    offers: { "@type": "Offer", price: tour.price, priceCurrency: "USD", availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
+    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,
@@ -111,7 +119,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       {
         "@type": "Question",
         name: `How much does the ${tour.title} cost?`,
-        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} starts from $${tour.price} per person. A deposit of $${tour.depositAmount} is required to confirm your booking.` },
+        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} starts from ${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${schemaPrice(tour.price)} per person. A deposit of ${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${schemaPrice(tour.depositAmount)} is required to confirm your booking.` },
       },
       {
         "@type": "Question",

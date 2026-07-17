@@ -14,7 +14,7 @@ export default function TrustBar({ dict }: Props) {
     { icon: Users,     value: "Max 10",                       label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
     { icon: Leaf,      value: "100%",                         label: dict.trustBar.ecoFriendly, weight: "duotone" as const, color: "text-moss" },
     { icon: Shield,    value: `${SITE.depositDays} days`,     label: dict.trustBar.flexible,    weight: "duotone" as const, color: "text-forest" },
-    { icon: Mountains, value: `${SITE.experienceYears}+ yrs`, label: dict.trustBar.certified,   weight: "duotone" as const, color: "text-sunset" },
+    { icon: Mountains, value: `${SITE.guidingHeritageYears}+ yrs`, label: dict.trustBar.certified,   weight: "duotone" as const, color: "text-sunset" },
   ];
 
   return (

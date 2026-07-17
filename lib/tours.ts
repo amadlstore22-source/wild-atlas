@@ -2213,6 +2213,24 @@ export const CATEGORIES: {
   },
 ];
 
+/** Tour count per category.
+ *
+ *  Deliberately written as literals rather than derived from TOURS. A value
+ *  computed from the array (TOURS.filter(...).length) keeps a live reference to
+ *  it, so any client component importing the count would pull the entire ~2,200
+ *  line catalogue — itineraries, SEO prose, galleries — into the browser bundle
+ *  just to render four integers.
+ *
+ *  `tourCountsMatchCatalogue` in __tests__/lib/tours.test.ts fails if these
+ *  drift from the real catalogue, so they cannot silently go stale. */
+export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
+  trekking: 7,
+  desert: 9,
+  cultural: 9,
+  "day-tours": 7,
+  // "hiking" is declared in Category but has no tours and no CATEGORIES entry.
+};
+
 // Difficulty badges as one cold-palette family: indigo-wash → saffron-wash →
 // terracotta-tint → deep terracotta. Structural tints on plaster, AA text.
 export const DIFFICULTY_COLORS: Record<Difficulty, string> = {

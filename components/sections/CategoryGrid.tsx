@@ -5,7 +5,7 @@ import { ArrowRight } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import CategoryAnimation from "@/components/sections/CategoryAnimation";
-import { CATEGORIES, TOURS } from "@/lib/tours";
+import { CATEGORIES, TOUR_COUNT_BY_CATEGORY } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -16,11 +16,7 @@ interface Props {
 const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function CategoryGrid({ dict, lang = "en" }: Props) {
-  const countByCategory = CATEGORIES.reduce<Record<string, number>>((acc, cat) => {
-    acc[cat.id] = TOURS.filter((t) => t.category === cat.id).length;
-    return acc;
-  }, {});
-
+  const countByCategory = TOUR_COUNT_BY_CATEGORY;
   const visibleCategories = CATEGORIES.filter((cat) => (countByCategory[cat.id] ?? 0) > 0);
   if (visibleCategories.length === 0) return null;
 

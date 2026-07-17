@@ -6,12 +6,16 @@ import { TRIPADVISOR } from "@/lib/constants";
  *
  * The homepage used to repeat 30+/1,000+/5.0/122 across three separate stat
  * bars. Consolidating them here keeps every surface consistent and prevents the
- * count drift that erodes trust (the header said "30+" tours while the catalog
- * actually holds 33). `tourCount` is COMPUTED from the tours array so it can
- * never fall out of sync; category counts derive from the same array via filter.
+ * count drift that erodes trust. `tourCount` is COMPUTED from the tours array so
+ * it can never fall out of sync; category counts derive from the same array.
+ *
+ * NOTE: this module imports TOURS, so it must only be used from SERVER
+ * components — importing it into a client component pulls the whole tour
+ * catalogue into the browser bundle.
  */
 export const STATS = {
-  yearsGuiding: 30,
+  /** Guides' experience, which predates the 2010 founding. See SITE.guidingHeritageYears. */
+  guidingHeritageYears: 30,
   travellers: "1,000+",
   rating: TRIPADVISOR.rating,       // 5.0 — keep TripAdvisor as the rating source
   reviewCount: TRIPADVISOR.reviewCount, // 122

@@ -82,7 +82,7 @@ export default async function AboutPage({ params }: LangParams) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-white/15">
             {[
-              { value: `${SITE.experienceYears}+`, label: "Years guiding" },
+              { value: `${SITE.guidingHeritageYears}+`, label: "Years of guiding experience" },
               { value: SITE.clientCount, label: "Happy travellers" },
               { value: String(SITE.tourCount), label: "Tours available" },
               { value: SITE.countryCount, label: "Countries represented" },

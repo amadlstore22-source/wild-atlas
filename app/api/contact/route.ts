@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
+import { limitByIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Enough for a genuine visitor who sends an enquiry, mistypes, and retries;
+// low enough that scripted abuse hits the wall quickly.
+const LIMIT = 5;
+const WINDOW_MS = 60 * 60 * 1000; // 1 hour
 
 function sanitize(val: unknown, maxLen = 500): string {
   if (typeof val !== "string") return "";
@@ -10,6 +16,14 @@ function sanitize(val: unknown, maxLen = 500): string {
 
 export async function POST(req: NextRequest) {
   try {
+    const limited = limitByIp(req, "contact", LIMIT, WINDOW_MS);
+    if (limited) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later, or reach us on WhatsApp." },
+        { status: 429, headers: { "Retry-After": String(limited.retryAfter) } },
+      );
+    }
+
     const body = await req.json();
     const type = sanitize(body.type, 20);
     const name = sanitize(body.name, 100);

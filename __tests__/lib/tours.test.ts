@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { TOURS, getTour, DIFFICULTY_COLORS } from "@/lib/tours";
+import { TOURS, CATEGORIES, getTour, DIFFICULTY_COLORS, TOUR_COUNT_BY_CATEGORY } from "@/lib/tours";
 
 describe("TOURS data", () => {
   it("has at least one tour", () => {
@@ -63,5 +63,27 @@ describe("DIFFICULTY_COLORS", () => {
     levels.forEach((level) => {
       expect(DIFFICULTY_COLORS[level]).toBeTruthy();
     });
+  });
+});
+
+describe("TOUR_COUNT_BY_CATEGORY", () => {
+  // These counts are hardcoded on purpose: deriving them from TOURS would keep a
+  // live reference to the array and drag the whole catalogue into any client
+  // bundle that imports them. This test is what keeps the literals honest.
+  it("tourCountsMatchCatalogue: literals match the real catalogue", () => {
+    CATEGORIES.forEach((cat) => {
+      const actual = TOURS.filter((t) => t.category === cat.id).length;
+      expect(
+        TOUR_COUNT_BY_CATEGORY[cat.id],
+        `TOUR_COUNT_BY_CATEGORY.${cat.id} is stale — update lib/tours.ts to ${actual}`
+      ).toBe(actual);
+    });
+  });
+
+  it("covers every category and sums to the full catalogue", () => {
+    const keys = Object.keys(TOUR_COUNT_BY_CATEGORY).sort();
+    expect(keys).toEqual(CATEGORIES.map((c) => c.id).sort());
+    const sum = Object.values(TOUR_COUNT_BY_CATEGORY).reduce((a, b) => a + b, 0);
+    expect(sum).toBe(TOURS.length);
   });
 });

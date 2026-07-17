@@ -1,10 +1,24 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
+import { limitByIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+// This route mails the address it is given, so it is the more abusable of the
+// two: tighter budget than the contact form.
+const LIMIT = 3;
+const WINDOW_MS = 60 * 60 * 1000; // 1 hour
+
 export async function POST(req: NextRequest) {
   try {
+    const limited = limitByIp(req, "newsletter", LIMIT, WINDOW_MS);
+    if (limited) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(limited.retryAfter) } },
+      );
+    }
+
     const body = await req.json();
     const email = typeof body.email === "string" ? body.email.trim().slice(0, 200) : "";
 

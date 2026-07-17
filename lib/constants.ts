@@ -10,8 +10,14 @@ export const SITE = {
   paypal: "wildatlas",
   address: "Marrakech, Morocco",
   country: "MA",
+  /** Marketing-safe catalogue size. Kept deliberately vague ("30+") so it does
+   *  not drift every time a tour is added; the exact figure is STATS.tourCount,
+   *  computed from TOURS. Server components should prefer STATS. */
   tourCount: "30+",
-  experienceYears: 30,
+  /** Years our GUIDES have been leading in the Atlas — a family tradition that
+   *  predates the company (founded 2010). Always label it as guiding experience
+   *  or heritage, never as company age, or it contradicts foundedYear. */
+  guidingHeritageYears: 30,
   clientCount: "1,000+",
   countryCount: "40+",
   foundedYear: 2010,

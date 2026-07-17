@@ -4,9 +4,10 @@ import { limitByIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// This route mails the address it is given, so it is the more abusable of the
-// two: tighter budget than the contact form.
-const LIMIT = 3;
+// This route mails the address it is given, so it stays tighter than the
+// contact form — but nobody legitimately subscribes 3 times, and shared IPs
+// mean several real visitors can arrive from one address.
+const LIMIT = 8;
 const WINDOW_MS = 60 * 60 * 1000; // 1 hour
 
 export async function POST(req: NextRequest) {

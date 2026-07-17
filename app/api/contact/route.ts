@@ -4,9 +4,12 @@ import { limitByIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// Enough for a genuine visitor who sends an enquiry, mistypes, and retries;
-// low enough that scripted abuse hits the wall quickly.
-const LIMIT = 5;
+// Sized for the real worst case: a family or group comparing several tours will
+// legitimately send multiple enquiries in one sitting, and shared connections
+// (a hotel, an office, a phone network behind CGNAT) put many visitors on one
+// IP. 5/hour turned out to lock out genuine users, so this errs toward letting
+// customers through — scripted abuse still hits the wall long before this.
+const LIMIT = 15;
 const WINDOW_MS = 60 * 60 * 1000; // 1 hour
 
 function sanitize(val: unknown, maxLen = 500): string {

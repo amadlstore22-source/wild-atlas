@@ -80,7 +80,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Summit Jbel Toubkal at 4,167 m — highest peak in North Africa",
       "Sleep in traditional Berber mountain refuges at 3,207 m",
-      "Walk through the scenic Imlil and Aremd villages",
+      "Start in the trailhead village of Imlil, deep in the Atlas",
       "Panoramic views spanning Morocco and Algeria",
     ],
     includes: [
@@ -99,15 +99,15 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        title: "Marrakech → Imlil → Aremd (1,840 m)",
+        title: "Marrakech → Imlil (1,740 m)",
         description:
-          "Transfer from Marrakech to Imlil (1h30). Trek through terraced Berber villages to Aremd. Welcome dinner with your guide.",
+          "Transfer from Marrakech to Imlil (1h30), the trailhead village for Toubkal. Settle in, meet your guide, and take a short acclimatisation walk through the terraced Berber fields. Welcome dinner.",
       },
       {
         day: 2,
-        title: "Aremd → Toubkal Refuge (3,207 m)",
+        title: "Imlil → Toubkal Refuge (3,207 m)",
         description:
-          "Ascend via the Mizane Valley past the Sidi Chamharouch shrine. Afternoon acclimatisation walk. Early sleep before summit day.",
+          "Trek up the Mizane Valley past the Sidi Chamharouch shrine to the mountain refuge. Afternoon acclimatisation walk above camp. Early sleep before summit day.",
       },
       {
         day: 3,
@@ -1983,7 +1983,7 @@ export const TOURS: Tour[] = [
         day: 1,
         title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
         description:
-          "Early transfer from Marrakech to Imlil (1h30). Trek up the Aït Mizane valley through Aremd and past the Sidi Chamharouch shrine to the Toubkal Refuge. 4–5 hours walking. Dinner and early night.",
+          "Early transfer from Marrakech to Imlil (1h30). Trek up the Aït Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge. 4–5 hours walking. Dinner and early night.",
       },
       {
         day: 2,

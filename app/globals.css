@@ -170,8 +170,14 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: -0.015em;
   line-height: 1.08;
-  color: var(--color-ink);
   font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
+}
+/* Default heading colour via :where() so it has ZERO specificity — any Tailwind
+   text-* utility (e.g. text-white on a dark hero) always wins. Without this the
+   base rule and the utility tie on specificity, the later one wins, and every
+   white heading over a photo rendered dark and vanished into the image. */
+:where(h1, h2, h3) {
+  color: var(--color-ink);
 }
 h1 { font-size: var(--text-hero); line-height: 1.04; }
 h2 { font-size: var(--text-h2); }

@@ -204,10 +204,10 @@ Prior hiking experience is expected. Those who have never hiked a mountain befor
 
 ## The Standard 4-Day Itinerary
 
-**Day 1 — Marrakech to Imlil to Aremd (1,840 m)**
-Transfer from Marrakech (1.5 hours). Trek from Imlil through the Berber village of Aremd. Welcome dinner with the guide.
+**Day 1 — Marrakech to Imlil (1,740 m)**
+Transfer from Marrakech (1.5 hours) to Imlil, the trailhead village. Meet your guide, settle in, and take a short walk through the terraced Berber fields to start acclimatising. Welcome dinner.
 
-**Day 2 — Aremd to Toubkal Refuge (3,207 m)**
+**Day 2 — Imlil to Toubkal Refuge (3,207 m)**
 The key acclimatisation day. Ascend through the Mizane Valley, passing the shrine of Sidi Chamharouch. Arrive at the refuge by early afternoon. Light walk for acclimatisation. Early to bed.
 
 **Day 3 — Summit Day (4,167 m)**

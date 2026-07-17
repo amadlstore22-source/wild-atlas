@@ -521,10 +521,19 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
 }
 .blog-prose strong { color: var(--color-ink); font-weight: 600; }
 .blog-prose a { color: var(--color-indigo); text-decoration: underline; text-underline-offset: 3px; }
+/* Wide tables scroll inside their own container — the page body must never
+   scroll sideways on mobile. */
+.blog-prose .table-scroll {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+.blog-prose .table-scroll table { margin-bottom: 0; }
 .blog-prose table {
   width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.9rem;
   border-radius: var(--radius-lg); overflow: hidden;
 }
+.blog-prose td, .blog-prose th { text-wrap: pretty; }
 .blog-prose th {
   background: var(--color-surface-sunk); color: var(--color-ink); font-weight: 600;
   padding: 0.7rem 1rem; text-align: left; border-bottom: 1px solid var(--color-rule);

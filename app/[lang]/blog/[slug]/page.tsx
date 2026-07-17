@@ -21,12 +21,29 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
   return {
     title: post.seoTitle ?? `${post.title} | Marrakech Eco Tours`,
     description: post.seoDescription ?? post.excerpt,
-    openGraph: { title: post.title, description: post.excerpt, images: [{ url: post.heroImage }], type: "article", publishedTime: post.publishedAt },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [{ url: post.heroImage }],
+      type: "article",
+      publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt ?? post.publishedAt,
+      tags: post.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.seoTitle ?? post.title,
+      description: post.seoDescription ?? post.excerpt,
+      images: [post.heroImage],
+    },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/blog/${slug}`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/blog/${slug}`])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/blog/${slug}`])
+        ),
+        "x-default": `https://marrakechecotours.com/en/blog/${slug}`,
+      },
     },
   };
 }
@@ -58,45 +75,130 @@ export default async function BlogPostPage({ params }: BlogParams) {
     (p) => p.slug !== slug && (p.category === post.category || p.tags.some((t) => post.tags.includes(t)))
   ).slice(0, 3);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.excerpt,
-    image: post.heroImage,
-    datePublished: post.publishedAt,
-    author: { "@type": "Organization", name: "Marrakech Eco Tours" },
-    publisher: { "@type": "Organization", name: "Marrakech Eco Tours", logo: { "@type": "ImageObject", url: "https://marrakechecotours.com/logo.png" } },
+  const postUrl = `https://marrakechecotours.com/${lang}/blog/${slug}`;
+  const publisher = {
+    "@type": "Organization",
+    "@id": "https://marrakechecotours.com/#organization",
+    name: "Marrakech Eco Tours",
+    url: "https://marrakechecotours.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://marrakechecotours.com/icon.png",
+      width: 512,
+      height: 512,
+    },
   };
+
+  // BlogPosting + breadcrumbs, plus FAQPage when the post carries Q&A. The FAQ
+  // block is what competes for People Also Ask placements.
+  const graph: Record<string, unknown>[] = [
+    {
+      "@type": "BlogPosting",
+      "@id": `${postUrl}#article`,
+      mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
+      url: postUrl,
+      headline: post.title.slice(0, 110),
+      description: post.seoDescription ?? post.excerpt,
+      image: { "@type": "ImageObject", url: post.heroImage },
+      datePublished: post.publishedAt,
+      dateModified: post.updatedAt ?? post.publishedAt,
+      inLanguage: lang,
+      keywords: post.tags.join(", "),
+      wordCount: post.content.trim().split(/\s+/).length,
+      timeRequired: `PT${post.readTime}M`,
+      articleSection: post.category,
+      author: post.author
+        ? { "@type": "Organization", name: post.author.name, url: "https://marrakechecotours.com" }
+        : publisher,
+      publisher,
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${postUrl}#breadcrumb`,
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `https://marrakechecotours.com/${lang}` },
+        { "@type": "ListItem", position: 2, name: "Blog", item: `https://marrakechecotours.com/${lang}/blog` },
+        { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+      ],
+    },
+  ];
+
+  if (post.faq?.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${postUrl}#faq`,
+      mainEntity: post.faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    });
+  }
+
+  const jsonLd = { "@context": "https://schema.org", "@graph": graph };
 
   function escHtml(s: string) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
+  // Inline markdown: bold, then links. Escaping happens first, so the regexes
+  // only ever see already-safe text and the captured URL can't smuggle markup.
+  function inline(s: string) {
+    return escHtml(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, '<a href="$2">$1</a>');
+  }
+
+  const isTableRow = (l: string) => l.trimStart().startsWith("|");
+  // A separator row (|---|---|) marks the line above as the header.
+  const isTableDivider = (l: string) => /^\s*\|[\s|:-]+\|\s*$/.test(l) && l.includes("-");
+  const cells = (l: string) =>
+    l.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
+
   const lines = post.content.trim().split("\n");
   const htmlParts: string[] = [];
   let inList = false;
-  for (const line of lines) {
+  const closeList = () => {
+    if (inList) { htmlParts.push("</ul>"); inList = false; }
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
     if (line.startsWith("## ")) {
-      if (inList) { htmlParts.push("</ul>"); inList = false; }
-      htmlParts.push(`<h2>${escHtml(line.slice(3))}</h2>`);
+      closeList();
+      htmlParts.push(`<h2>${inline(line.slice(3))}</h2>`);
     } else if (line.startsWith("### ")) {
-      if (inList) { htmlParts.push("</ul>"); inList = false; }
-      htmlParts.push(`<h3>${escHtml(line.slice(4))}</h3>`);
+      closeList();
+      htmlParts.push(`<h3>${inline(line.slice(4))}</h3>`);
     } else if (line.startsWith("- ")) {
       if (!inList) { htmlParts.push("<ul>"); inList = true; }
-      htmlParts.push(`<li>${escHtml(line.slice(2))}</li>`);
+      htmlParts.push(`<li>${inline(line.slice(2))}</li>`);
     } else if (line.trim() === "") {
-      if (inList) { htmlParts.push("</ul>"); inList = false; }
-    } else if (line.startsWith("|")) {
-      if (inList) { htmlParts.push("</ul>"); inList = false; }
+      closeList();
+    } else if (isTableRow(line)) {
+      closeList();
+      // Consume the whole table block in one pass.
+      const block: string[] = [];
+      while (i < lines.length && isTableRow(lines[i])) block.push(lines[i++]);
+      i--; // step back; the for-loop increments
+      const hasHeader = block.length > 1 && isTableDivider(block[1]);
+      const body = block.filter((r) => !isTableDivider(r));
+      const rows = body.map(cells);
+      const head = hasHeader ? rows.shift() : undefined;
+      const thead = head
+        ? `<thead><tr>${head.map((c) => `<th>${inline(c)}</th>`).join("")}</tr></thead>`
+        : "";
+      const tbody = `<tbody>${rows
+        .map((r) => `<tr>${r.map((c) => `<td>${inline(c)}</td>`).join("")}</tr>`)
+        .join("")}</tbody>`;
+      htmlParts.push(`<div class="table-scroll"><table>${thead}${tbody}</table></div>`);
     } else {
-      if (inList) { htmlParts.push("</ul>"); inList = false; }
-      const escaped = escHtml(line).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-      htmlParts.push(`<p>${escaped}</p>`);
+      closeList();
+      htmlParts.push(`<p>${inline(line)}</p>`);
     }
   }
-  if (inList) htmlParts.push("</ul>");
+  closeList();
   const htmlContent = htmlParts.join("\n");
 
   return (
@@ -138,6 +240,30 @@ export default async function BlogPostPage({ params }: BlogParams) {
             <article className="bg-card rounded-[4px] p-8 sm:p-12 shadow-sm">
               <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-l-4 border-sunset pl-5">{post.excerpt}</p>
               <div className="blog-prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+
+              {/* Visible FAQ — must stay on-page: Google requires FAQPage schema
+                  to reflect content the user can actually see. */}
+              {post.faq && post.faq.length > 0 && (
+                <section className="mt-12 pt-10 border-t border-rule">
+                  <h2 className="font-display text-ink text-3xl font-bold mb-6">
+                    Frequently asked questions
+                  </h2>
+                  <div className="space-y-3">
+                    {post.faq.map((item) => (
+                      <details key={item.q} className="group rounded-[3px] border border-rule bg-surface-sunk/30">
+                        <summary className="flex items-start justify-between gap-4 p-5 cursor-pointer list-none font-semibold text-ink hover:text-indigo transition-colors">
+                          {item.q}
+                          <span className="text-ink-muted group-open:rotate-45 transition-transform text-xl leading-none shrink-0">
+                            +
+                          </span>
+                        </summary>
+                        <div className="px-5 pb-5 text-ink-soft leading-relaxed">{item.a}</div>
+                      </details>
+                    ))}
+                  </div>
+                </section>
+              )}
+
               <div className="mt-10 pt-8 border-t border-sand-dark flex flex-wrap gap-2">
                 <Tag className="w-4 h-4 text-ink-muted mt-0.5" />
                 {post.tags.map((tag) => (

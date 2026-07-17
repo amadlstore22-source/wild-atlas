@@ -6,6 +6,8 @@ import { TOURS, getTour, DIFFICULTY_COLORS } from "@/lib/tours";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
 import BookingSidebar from "@/components/tours/BookingSidebar";
+import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
+import { TRIPADVISOR } from "@/lib/constants";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourWeather from "@/components/tours/TourWeather";
@@ -66,12 +68,10 @@ export default async function TourDetailPage({ params }: TourParams) {
       availability: "https://schema.org/InStock",
       url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: String(tour.rating),
-      reviewCount: String(tour.reviewCount),
-      bestRating: "5",
-    },
+    // No aggregateRating: we have no per-tour review corpus to substantiate one.
+    // Our verifiable rating is business-wide (TripAdvisor, see Organization
+    // schema on the homepage), so claiming per-product ratings here would be
+    // unsubstantiated review markup. Reinstate only when real per-tour reviews exist.
   };
 
   const jsonLd = {
@@ -212,6 +212,16 @@ export default async function TourDetailPage({ params }: TourParams) {
           <div id="tour-book" className="lg:col-span-1 scroll-mt-32">
             <div className="sticky top-24">
               <BookingSidebar tour={tour} lang={lang} />
+
+              {/* Real, verifiable social proof. Business-wide TripAdvisor rating,
+                  attributed and linked out so a visitor can check it themselves. */}
+              <div className="mt-4 rounded-[4px] border border-rule bg-card p-4">
+                <p className="text-xs text-ink-muted mb-2.5 leading-snug">
+                  Travellers rate us {TRIPADVISOR.rating.toFixed(1)} out of 5 across all our tours
+                </p>
+                <TripAdvisorBadge variant="compact" />
+              </div>
+
               <Suspense fallback={null}>
                 <TourWeather tour={tour} />
               </Suspense>

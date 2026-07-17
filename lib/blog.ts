@@ -24,6 +24,13 @@ export interface BlogAuthor {
 
 const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false };
 
+/** A question/answer pair rendered on the page and emitted as FAQPage schema.
+ *  Answers must be self-contained — Google shows them without our page around them. */
+export interface BlogFaq {
+  q: string;
+  a: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -35,9 +42,15 @@ export interface BlogPost {
   author?: BlogAuthor;
   readTime: number;
   publishedAt: string;
+  /** Last substantive edit. Feeds schema dateModified — Google reads it as a freshness signal. */
+  updatedAt?: string;
   tags: string[];
   seoTitle?: string;
   seoDescription?: string;
+  /** Drives both the on-page FAQ block and FAQPage structured data. */
+  faq?: BlogFaq[];
+  /** Slugs of tours this post should funnel to. Editorial -> money page. */
+  relatedTours?: string[];
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -53,8 +66,9 @@ export const BLOG_POSTS: BlogPost[] = [
     region: "root",
     readTime: 12,
     publishedAt: "2025-01-01",
+    updatedAt: "2026-07-15",
     tags: ["Morocco", "adventure travel", "Morocco guide", "travel Morocco", "Morocco tourism"],
-    seoTitle: "Morocco Adventure Travel Guide 2025 — Complete Overview",
+    seoTitle: "Morocco Adventure Travel Guide 2026 — Complete Overview",
     seoDescription:
       "Your complete guide to adventure travel in Morocco — Atlas Mountains, Sahara desert, imperial cities, Atlantic coast, and southern regions. Where to go, when to go, and what to expect.",
     content: `
@@ -150,7 +164,7 @@ The deep-dive guides below cover each region in full detail.
     slug: "how-to-climb-toubkal-complete-guide",
     region: "atlas-mountains",
     author: MET_TEAM,
-    title: "How to Climb Jbel Toubkal: The Complete Guide for 2025",
+    title: "How to Climb Jbel Toubkal: The Complete Guide for 2026",
     excerpt:
       "At 4,167 metres, Jbel Toubkal is the highest peak in North Africa. Here is everything you need to know — best season, fitness requirements, gear list, and what to expect on summit day.",
     heroImage:
@@ -158,8 +172,9 @@ The deep-dive guides below cover each region in full detail.
     category: "trekking",
     readTime: 9,
     publishedAt: "2025-04-10",
+    updatedAt: "2026-07-15",
     tags: ["Toubkal", "High Atlas", "trekking", "Morocco hiking"],
-    seoTitle: "How to Climb Jbel Toubkal 2025 — Complete Guide | Marrakech Eco Tours",
+    seoTitle: "How to Climb Jbel Toubkal 2026 — Complete Guide | Marrakech Eco Tours",
     seoDescription:
       "Everything you need to climb Toubkal — best season, fitness level, gear list, and day-by-day itinerary from Marrakech. Expert advice from certified Atlas guides.",
     content: `
@@ -259,8 +274,9 @@ Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sicknes
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
+    updatedAt: "2026-07-15",
     tags: ["Sahara", "Erg Chebbi", "Merzouga", "desert camping", "Morocco"],
-    seoTitle: "Morocco Sahara Desert: What to Expect — Honest Guide 2025",
+    seoTitle: "Morocco Sahara Desert: What to Expect — Honest Guide 2026",
     seoDescription:
       "An honest guide to the Moroccan Sahara — Erg Chebbi vs Erg Chegaga, real desert camp experience, best time to visit, and what not to believe in the brochures.",
     content: `
@@ -331,8 +347,9 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
+    updatedAt: "2026-07-15",
     tags: ["Morocco travel tips", "best time to visit", "weather", "seasons"],
-    seoTitle: "Best Time to Visit Morocco 2025 — Month by Month Guide",
+    seoTitle: "Best Time to Visit Morocco 2026 — Month by Month Guide",
     seoDescription:
       "When is the best time to visit Morocco? A practical month-by-month guide from local guides — for trekking, desert tours, beach holidays, and city breaks.",
     content: `
@@ -408,8 +425,9 @@ If you can only visit once: **April, May, or October**. You get every type of Mo
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
+    updatedAt: "2026-07-15",
     tags: ["Marrakech to Fes", "Morocco road trip", "Aït Ben Haddou", "Fes medina"],
-    seoTitle: "Marrakech to Fes Road Trip Guide 2025 — 3-Day Itinerary",
+    seoTitle: "Marrakech to Fes Road Trip Guide 2026 — 3-Day Itinerary",
     seoDescription:
       "The complete guide to the Marrakech–Fes overland route: Tizi n'Tichka pass, Aït Ben Haddou, Merzouga, Ifrane, and Fes el-Bali. Day-by-day itinerary included.",
     content: `
@@ -478,8 +496,9 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
+    updatedAt: "2026-07-15",
     tags: ["Paradise Valley", "Agadir", "Morocco hiking", "swimming", "day trip"],
-    seoTitle: "Paradise Valley Agadir: Complete Guide 2025 | Marrakech Eco Tours",
+    seoTitle: "Paradise Valley Agadir: Complete Guide 2026 | Marrakech Eco Tours",
     seoDescription:
       "Everything about Paradise Valley near Agadir — how to get there, best swimming spots, what to pack, and the best time to visit this hidden palm gorge.",
     content: `
@@ -555,8 +574,9 @@ At the top of the valley, near the village of Immouzer des Ida Outanane, a seaso
     category: "culture",
     readTime: 6,
     publishedAt: "2025-06-01",
+    updatedAt: "2026-07-15",
     tags: ["Essaouira", "Agadir day trip", "Morocco coast", "medina", "seafood"],
-    seoTitle: "Essaouira Day Trip from Agadir — Complete Guide 2025",
+    seoTitle: "Essaouira Day Trip from Agadir — Complete Guide 2026",
     seoDescription:
       "How to do Essaouira as a day trip from Agadir — what to see, where to eat, what to buy, and how to handle the famous Essaouira wind.",
     content: `
@@ -629,8 +649,9 @@ Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* 
     category: "culture",
     readTime: 7,
     publishedAt: "2025-07-15",
+    updatedAt: "2026-07-15",
     tags: ["Chefchaouen", "blue city", "Rif Mountains", "Morocco medina", "northern Morocco"],
-    seoTitle: "Chefchaouen Travel Guide 2025 — The Blue City of Morocco",
+    seoTitle: "Chefchaouen Travel Guide 2026 — The Blue City of Morocco",
     seoDescription:
       "Your complete guide to Chefchaouen — why it's blue, what to see, where to stay, how to get there, and the best times to visit Morocco's most iconic mountain town.",
     content: `
@@ -707,8 +728,9 @@ Chefchaouen's riads are excellent value — you can stay in a beautiful blue-til
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
+    updatedAt: "2026-07-15",
     tags: ["Morocco food", "Moroccan cuisine", "tagine", "couscous", "Marrakech restaurants"],
-    seoTitle: "Morocco Food Guide 2025 — 15 Dishes You Must Try",
+    seoTitle: "Morocco Food Guide 2026 — 15 Dishes You Must Try",
     seoDescription:
       "The essential Morocco food guide — from tagine and couscous to bastilla and harira. What to eat, where to find it, and what makes Moroccan cuisine so extraordinary.",
     content: `
@@ -792,8 +814,9 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
+    updatedAt: "2026-07-15",
     tags: ["Ourika Valley", "Marrakech day trip", "High Atlas", "Berber villages", "hiking"],
-    seoTitle: "Ourika Valley Day Trip from Marrakech 2025 — Complete Guide",
+    seoTitle: "Ourika Valley Day Trip from Marrakech 2026 — Complete Guide",
     seoDescription:
       "Everything about the Ourika Valley day trip from Marrakech — what to see, the waterfall hike, Berber villages, best time to visit, and practical tips.",
     content: `
@@ -857,8 +880,9 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
+    updatedAt: "2026-07-15",
     tags: ["Agafay Desert", "Marrakech day trip", "Morocco desert", "camel trek", "glamping"],
-    seoTitle: "Agafay Desert Guide 2025 — Marrakech's Rocky Wilderness",
+    seoTitle: "Agafay Desert Guide 2026 — Marrakech's Rocky Wilderness",
     seoDescription:
       "Everything about the Agafay Desert near Marrakech — what it is, what to do there, the best camps, and how it differs from the Sahara. Day trips and overnight stays explained.",
     content: `
@@ -924,8 +948,9 @@ The glamping camps at Agafay have developed significantly over recent years. The
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
+    updatedAt: "2026-07-15",
     tags: ["Marrakech", "medina", "Djemaa el-Fna", "souks", "Morocco city guide"],
-    seoTitle: "Marrakech Medina Guide 2025 — Everything You Need to Know",
+    seoTitle: "Marrakech Medina Guide 2026 — Everything You Need to Know",
     seoDescription:
       "The complete insider guide to Marrakech's medina — souks, palaces, hammams, food, and how to navigate the world's greatest labyrinth without getting overwhelmed.",
     content: `
@@ -1003,8 +1028,9 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
+    updatedAt: "2026-07-15",
     tags: ["Taghazout", "Morocco surf", "Agadir", "surfing Morocco", "Atlantic coast"],
-    seoTitle: "Taghazout Surf Guide 2025 — Morocco's Premier Surf Destination",
+    seoTitle: "Taghazout Surf Guide 2026 — Morocco's Premier Surf Destination",
     seoDescription:
       "The complete guide to surfing Taghazout, Morocco — best breaks, surf schools, when to go, where to stay, and what to expect from Morocco's most famous surf village.",
     content: `
@@ -1089,8 +1115,9 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
+    updatedAt: "2026-07-15",
     tags: ["Anti-Atlas", "Tafraoute", "Morocco trekking", "Agadir", "off the beaten path"],
-    seoTitle: "Anti-Atlas Trekking Guide 2025 — Morocco's Hidden Mountain Range",
+    seoTitle: "Anti-Atlas Trekking Guide 2026 — Morocco's Hidden Mountain Range",
     seoDescription:
       "Your guide to trekking the Anti-Atlas mountains of Morocco — Tafraoute, the Ameln Valley, painted rocks, almond blossom, and trails with almost no other hikers.",
     content: `
@@ -1157,8 +1184,9 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
+    updatedAt: "2026-07-15",
     tags: ["Fes", "Fez", "Morocco medina", "Chouara tannery", "imperial cities"],
-    seoTitle: "Fes Medina Travel Guide 2025 — Complete Guide to Fes el-Bali",
+    seoTitle: "Fes Medina Travel Guide 2026 — Complete Guide to Fes el-Bali",
     seoDescription:
       "The complete travel guide to Fes el-Bali — the Chouara tanneries, Al-Qarawiyyin, Medersa Bou Inania, and how to navigate the world's most complex medieval city.",
     content: `
@@ -1219,8 +1247,9 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
     region: "root",
     readTime: 11,
     publishedAt: "2025-03-10",
+    updatedAt: "2026-07-15",
     tags: ["Morocco safety", "Morocco scams", "is Morocco safe", "Morocco travel tips", "Morocco for tourists", "Marrakech safety"],
-    seoTitle: "Is Morocco Safe for Tourists? Honest 2025 Guide — What's Real, What's Not",
+    seoTitle: "Is Morocco Safe for Tourists? Honest 2026 Guide — What's Real, What's Not",
     seoDescription:
       "Morocco is safe for most tourists most of the time — but first-time visitors need to know which risks are real and which ones guidebooks exaggerate. Licensed Berber guides give you the honest picture.",
     content: `
@@ -1335,10 +1364,11 @@ Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful,
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2025-05-12",
+    updatedAt: "2026-07-15",
     tags: ["Gite Panorama", "Imlil accommodation", "Toubkal base camp", "High Atlas gite", "where to stay Imlil", "Toubkal trek"],
     seoTitle: "Gite Panorama Imlil — Toubkal Base Camp Guide",
     seoDescription:
-      "Everything you need to know about Gite Panorama in Imlil — the Aitidar family's mountain gite and the starting point for all our Toubkal expeditions. Facilities, what to bring, and why the first night matters.",
+      "Gite Panorama in Imlil — the Aitidar family's mountain gite and base camp for our Toubkal treks. Facilities, what to bring, and why the first night matters.",
     content: `
 ## Where Every Toubkal Trek Begins
 
@@ -1407,10 +1437,11 @@ The gite is not a hotel. It is a working mountain operation that has been in one
     region: "root",
     readTime: 8,
     publishedAt: "2025-04-03",
+    updatedAt: "2026-07-15",
     tags: ["Morocco domestic travel", "Moroccan tourism", "Atlas Mountains Morocco", "Sahara Morocco", "travel Morocco", "Toubkal Moroccans"],
     seoTitle: "Morocco for Moroccan Travellers — Domestic Adventure Guide",
     seoDescription:
-      "A growing number of Moroccans are discovering their own country through guided adventure travel — the Atlas, the Sahara, the Atlantic gorges. Here's where to start and why it's different to see Morocco through a guide who knows it from the inside.",
+      "More Moroccans are discovering their own country through guided adventure travel — the Atlas, the Sahara, the Atlantic gorges. Where to start, and why a local guide changes it.",
     content: `
 ## The Country You Already Own
 
@@ -1480,6 +1511,7 @@ The Atlas has been here for 300 million years. It will wait. But it is also wort
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2025-02-18",
+    updatedAt: "2026-07-15",
     tags: ["High Atlas packing list", "Toubkal gear list", "Morocco trekking gear", "what to pack Morocco", "Atlas Mountains equipment", "Toubkal packing"],
     seoTitle: "High Atlas Trek Packing List — What to Bring for Toubkal & Atlas Treks",
     seoDescription:
@@ -1565,6 +1597,687 @@ If you're booking a winter trek, discuss the specifics with your guide before de
 ## Questions?
 
 If you're unsure about any item, [contact us before your trek](/en/contact). Our guides review the specific requirements for each tour and will flag anything you should add or remove based on your itinerary and the time of year. We'd rather answer questions now than have someone arrive unprepared.
+    `,
+  },
+  {
+    slug: "do-you-need-a-guide-to-climb-toubkal",
+    author: MET_TEAM,
+    title: "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
+    excerpt:
+      "Since 2018 a licensed guide has been mandatory on Jbel Toubkal, and there are checkpoints that enforce it. Here is what the rule actually says, who checks, and what happens if you turn up without one.",
+    heroImage:
+      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["Toubkal", "Toubkal guide", "Toubkal permit", "High Atlas", "trekking rules", "Imlil"],
+    seoTitle: "Do You Need a Guide to Climb Toubkal? (2026 Rules) | Marrakech Eco Tours",
+    seoDescription:
+      "Yes — a licensed guide is mandatory on Jbel Toubkal and gendarmerie checkpoints verify it. What the 2018 rule requires, where you get checked, costs, and how to hire legally.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
+    faq: [
+      {
+        q: "Is a guide mandatory to climb Mount Toubkal?",
+        a: "Yes. Since 2018, Moroccan authorities require every trekker on Jbel Toubkal to be accompanied by a licensed mountain guide. The rule is enforced at checkpoints between Imlil and the refuge, where the Gendarmerie Royale check your passport and your guide's licence. It is not a formality you can talk your way past.",
+      },
+      {
+        q: "What happens if you try to climb Toubkal without a guide?",
+        a: "You will most likely be stopped and turned back at the checkpoint above Imlil before you reach the refuge. Some trekkers have been sent back down after walking several hours. You would lose the day, the cost of your refuge booking, and your summit attempt, so there is no practical upside to trying.",
+      },
+      {
+        q: "Why did Morocco make guides compulsory on Toubkal?",
+        a: "The rule was introduced after the 2018 murders of two Scandinavian trekkers near Imlil. It is a safety and accountability measure: it puts a licensed, identifiable local professional with every party on the mountain and gives authorities a record of who is where.",
+      },
+      {
+        q: "How much does a licensed Toubkal guide cost?",
+        a: "A licensed guide typically costs in the region of 400 to 600 MAD per day for the guide alone, and the fee is per group rather than per person, so it drops sharply when split across a party. Most trekkers book a package that bundles the guide with the refuge, meals, and transport from Marrakech instead of hiring piecemeal.",
+      },
+      {
+        q: "Does the guide requirement apply in summer as well as winter?",
+        a: "Yes, the requirement applies year round regardless of conditions or your experience. Winter simply adds a second reason to have one, since the summit cone holds snow and ice from roughly November to April and requires crampons and an ice axe.",
+      },
+    ],
+    content: `
+## The short answer
+
+Yes. A licensed mountain guide is mandatory on Jbel Toubkal, and has been since 2018. This is not a recommendation, a local custom, or an upsell invented by tour operators. It is enforced by the Gendarmerie Royale at checkpoints on the trail, and they check your passport alongside your guide's licence.
+
+If you have read an older blog post saying you can walk up Toubkal solo, that post predates the rule or its author did not get checked. The trail has changed.
+
+## What the rule actually requires
+
+The requirement is specific, and it is worth understanding precisely rather than vaguely:
+
+- Every trekking party on the Toubkal massif must be accompanied by a guide holding a valid Moroccan mountain guide licence.
+- The licence is issued by the state after formal training at CFAMM, the national mountain guide school in Tabant. It is not a self-declared title.
+- Checkpoints sit on the route between Imlil and the Toubkal refuge. Officers check the guide's credentials and trekkers' passports.
+- The rule applies year round, to all routes on the massif, regardless of your experience or fitness.
+
+**Carry your actual passport, not a photocopy or a phone photo.** This catches people out. The checkpoint wants the document.
+
+## Why the rule exists
+
+In December 2018, two Scandinavian trekkers, Louisa Vesterager Jespersen and Maren Ueland, were murdered while camping near Imlil. The response from Moroccan authorities was to require licensed guides throughout the massif.
+
+Whatever one thinks of the policy, the reasoning is straightforward. A licensed guide means there is a trained, identifiable local professional with every party, and the authorities have a record of who is on the mountain. In a region where mobile coverage is patchy and weather turns quickly, that has safety value well beyond the incident that prompted it.
+
+## Where you get checked
+
+The main checkpoint is on the trail above Imlil, before Sidi Chamharouch. You will not reach the refuge without passing it.
+
+We mention this because the failure mode is expensive. Trekkers who arrive in Imlil intending to walk up alone are routinely turned around after they have already climbed for two or three hours. They lose the day, the refuge booking, and usually the summit, because there is rarely slack in a Morocco itinerary to try again.
+
+## What a guide actually does for you
+
+Setting the law aside, the practical case is strong on this particular mountain:
+
+- **Route finding above the refuge.** The summit cone is a broad, featureless boulder field. In cloud or pre-dawn dark, which is when you climb it, the line is genuinely not obvious. This is where unguided parties get lost.
+- **Turnaround calls.** A guide who has been up several hundred times knows when the weather is closing and when a client is not going to make it. Making that call yourself, at altitude, having flown in for this, is much harder than it sounds.
+- **Winter skills.** From roughly November to April the summit cone holds snow and ice. Crampons and an ice axe are required, and guides run the briefing on using them.
+- **Altitude judgement.** Toubkal is 4,167 m. Serious altitude sickness is uncommon here but not unheard of, and recognising it early in someone else is a learned skill.
+
+## What it costs
+
+A licensed guide runs roughly 400 to 600 MAD per day. The important detail: **that fee is per group, not per person.** A party of four splits one guide fee four ways, which is why solo trekkers pay disproportionately more.
+
+In practice, most people book a package rather than hiring a guide separately, because the guide is only one line in the budget. You also need transport from Marrakech to Imlil, a refuge bed, meals, and in winter, crampons and an axe. Our [4-day Toubkal summit trek](/en/tours/toubkal-summit-trek-4day) bundles all of it, and the [2-day version](/en/tours/toubkal-summit-2day-marrakech) does the same on a compressed schedule for people short on time.
+
+## How to hire legally
+
+If you are arranging it yourself rather than booking a package:
+
+- **Ask to see the licence.** A licensed guide carries a state-issued card. Anyone reluctant to show it is not licensed.
+- **Be wary of the Imlil car park.** Plenty of people offer to "guide" you on arrival. Some are licensed; many are not. The checkpoint will find out on your behalf, several hours uphill.
+- **Book ahead in high season.** April, May, September, and October are busy, and good guides are spoken for.
+- **Confirm the refuge separately.** A guide is not a refuge booking. Both need to exist.
+
+## The honest summary
+
+Toubkal is a walk-up. It is not technical in summer, and experienced hillwalkers are often mildly insulted by the idea that they need supervision on it. We understand the reaction.
+
+But the rule is the rule, it is checked, and the checkpoint does not care about your Munro record. Budget for a guide, split the cost across your party, and treat it as the price of entry to a genuinely excellent mountain.
+
+If you want to talk through which itinerary fits your fitness and your dates, [get in touch](/en/contact) — we would rather answer that before you book than after.
+    `,
+  },
+  {
+    slug: "toubkal-in-winter-what-to-expect",
+    author: MET_TEAM,
+    title: "Climbing Toubkal in Winter: What It Actually Takes",
+    excerpt:
+      "Snow turns Toubkal from a walk-up into a proper winter mountain: crampons, an ice axe, and a steeper set of consequences. Whether a fit beginner can do it, and what changes between November and April.",
+    heroImage:
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["Toubkal winter", "winter trekking", "crampons", "ice axe", "High Atlas", "Morocco winter"],
+    seoTitle: "Toubkal in Winter: Crampons, Skills & Difficulty (2026)",
+    seoDescription:
+      "What climbing Jbel Toubkal in winter really involves — when snow arrives, why crampons and an ice axe are required, whether beginners can do it, and how the route changes from November to April.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
+    faq: [
+      {
+        q: "Can a beginner climb Toubkal in winter?",
+        a: "Yes, if the beginner is genuinely fit and goes with a guide who teaches the skills on the trip. You do not need prior mountaineering experience, because winter Toubkal is non-technical: there is no rope work or climbing. What you do need is solid hill fitness for 6 to 8 hour days on rough ground, and a willingness to learn crampon and ice axe use properly on the day before the summit bid.",
+      },
+      {
+        q: "Do you need crampons and an ice axe on Toubkal in winter?",
+        a: "Yes. From roughly November to April the summit cone holds firm snow and ice, and the standard route crosses slopes where a slip without an axe would be serious. Crampons and an ice axe are required rather than optional, and both can be hired in Imlil or supplied as part of a guided package.",
+      },
+      {
+        q: "When is Toubkal covered in snow?",
+        a: "Snow typically lies on the summit cone from November through to April, with the deepest and most reliable conditions in January and February. Exact timing varies year to year, and a warm winter can leave the upper mountain bare into January while a cold one brings snow down to Imlil at 1,740 m.",
+      },
+      {
+        q: "Is winter the best time to climb Toubkal?",
+        a: "It is the most beautiful time and the most demanding. January and February usually offer the most stable snow and the clearest air, and the mountain is far quieter than in spring. But it is a harder, colder, riskier trip than the same route in May, so it suits people who want the challenge rather than those who simply want the summit.",
+      },
+      {
+        q: "How cold does it get on Toubkal in winter?",
+        a: "Expect summit temperatures around minus 10 to minus 15 Celsius before windchill, and appreciably colder in a strong wind on the exposed summit ridge. The refuge at 3,207 m is heated but not warm, so a proper sleeping bag and insulated layers matter.",
+      },
+    ],
+    content: `
+## Winter is a different mountain
+
+In May, Jbel Toubkal is a long walk on a rough path. In February, it is a winter mountain that happens to be non-technical. Same route, same altitude, different set of consequences.
+
+That distinction is the whole point of this article. Plenty of people book winter Toubkal having read a summer trip report, and arrive with summer expectations. The mountain does not grade on a curve.
+
+## When the snow arrives
+
+Snow generally lies on the summit cone from **November to April**, with the most reliable conditions in **January and February**. But it varies more than people expect:
+
+- A warm winter can leave the upper mountain thin and rocky into January.
+- A cold one brings snow down to Imlil itself at 1,740 m.
+- Late-season snow in March and April is often softer, which is pleasant to walk on and more prone to sliding.
+
+Nobody can tell you in October what February will look like. Any guide who gives you a confident forecast that far out is guessing.
+
+## What actually changes
+
+### The summit cone
+This is the part that matters. Above the refuge, the route climbs a broad slope of scree that, under snow, becomes a firm, uniform incline. It is not steep enough to be climbing. It is absolutely steep enough that an uncontrolled slip carries you a long way into rocks.
+
+That single fact is why an ice axe is not optional. The axe is what stops the slide.
+
+### Crampons and an axe
+Both are required in winter, and both can be hired in Imlil or come with a guided package. If you have never used them, that is fine and expected. What is not fine is arriving without having accepted that you will need to learn.
+
+Good operators build in a training session on the day before the summit bid: how to walk in crampons without catching a point on your own gaiter, how to hold the axe on a traverse, and how to self-arrest. It takes an afternoon to get functional.
+
+### The refuge
+The Toubkal refuge at 3,207 m is open through winter and heated, but "heated" is doing modest work in that sentence. Bring a real sleeping bag. Water freezes overnight.
+
+### The days
+Summit day runs 8 to 12 hours in winter, against roughly 6 to 8 in summer. Snow is slow. You start in the dark and you may finish in it.
+
+## Can a beginner do it?
+
+Yes, with two honest caveats.
+
+**The first is fitness, and it is non-negotiable.** Winter Toubkal asks for 6 to 8 hours of movement on rough ground, at altitude, in cold, carrying a pack, for several consecutive days. No skill compensates for not having the engine. If you cannot comfortably do a long hill day at home, you will have a miserable time here.
+
+**The second is that "beginner" means beginner at winter skills, not beginner at hiking.** Guides teach crampon and axe technique on the trip, and that system works. It works because the clients arrive fit and willing to learn. It does not work for someone whose longest walk this year was around a city.
+
+If you are a regular hillwalker who has never touched an ice axe, winter Toubkal is a genuinely good introduction to winter mountaineering. If you are new to both, do it in spring instead. The mountain is not going anywhere.
+
+## Altitude, briefly
+
+Toubkal is 4,167 m — high enough to feel, well below the altitudes where things get dangerous fast. Serious altitude sickness is uncommon here. Mild headaches and poor sleep at the refuge are normal and not a cause for alarm.
+
+The main mitigation is pace, which is one more argument for a guide: a good one walks slower than you want to, on purpose.
+
+## What to bring that summer does not need
+
+- **Insulated boots stiff enough to take a crampon.** Flexible summer walking boots will not hold a crampon properly. This is the single most common gear failure.
+- **A four-season sleeping bag** for the refuge.
+- **Goggles or good sunglasses.** Snow glare at 4,000 m is brutal.
+- **Insulated gloves, plus spares.** Wet gloves at minus 15 stop being gloves.
+- **A vacuum flask.** Cold water is unappealing and people stop drinking; dehydration then does the work altitude gets blamed for.
+
+Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) runs through winter with crampons, axes, and the training session included, and the [2-day version](/en/tours/toubkal-summit-2day-marrakech) compresses it for experienced hill walkers who do not need the acclimatisation day.
+
+## Is it worth it?
+
+The High Atlas in winter is genuinely one of the great sights in North Africa: the whole range white, the Sahara haze to the south, and almost nobody on the mountain. Summer Toubkal is busy. February Toubkal is not.
+
+It is harder, colder, and less certain than the same trek in May. If that reads as a deterrent, go in spring, and you will have a lovely time. If it reads as the appeal, this is your season.
+
+Not sure which side of that line you fall on? [Tell us what you have done before](/en/contact) and we will give you a straight answer, including if that answer is to wait a year.
+    `,
+  },
+  {
+    slug: "merzouga-vs-zagora-which-desert-tour",
+    author: MET_TEAM,
+    title: "Merzouga vs Zagora: Which Desert Trip From Marrakech?",
+    excerpt:
+      "Zagora is closer and cheaper. Merzouga has the dunes you pictured. The honest trade-off comes down to how many days you have, and we will tell you when Zagora is the wrong choice.",
+    heroImage:
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["Merzouga", "Zagora", "Erg Chebbi", "Erg Chigaga", "Sahara", "desert tour", "Marrakech"],
+    seoTitle: "Merzouga vs Zagora: Which Morocco Desert Tour? (2026) | Marrakech Eco Tours",
+    seoDescription:
+      "Merzouga has 150 m dunes but is 9 hours from Marrakech. Zagora is 6 hours but has no real dunes. An honest comparison of drive times, scenery, cost, and which suits 2 days vs 3.",
+    relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
+    faq: [
+      {
+        q: "Is Merzouga or Zagora better for a desert tour from Marrakech?",
+        a: "Merzouga is better if you want the classic Sahara of tall golden dunes, and you need three days to do it properly because it is roughly 9 hours' drive from Marrakech each way. Zagora is better only if you are limited to two days, because it is about 6 hours away — but Zagora is a rocky, stony desert with small dunes rather than the great sand sea most people are imagining.",
+      },
+      {
+        q: "Is Zagora worth it or a tourist trap?",
+        a: "Zagora is worth it if you understand what it is: a shorter, cheaper trip to a stony desert with modest dunes, which lets you sleep in a camp under exceptional stars without giving up three days. It disappoints when people book it expecting Erg Chebbi's scenery. It is not a scam; it is frequently mis-sold.",
+      },
+      {
+        q: "How far is Merzouga from Marrakech?",
+        a: "Merzouga is roughly 560 km from Marrakech, which is about 9 hours of driving each way over the Tizi n'Tichka pass. This is why a credible Merzouga trip is 3 days rather than 2 — a 2-day version would mean spending nearly all your waking hours in a vehicle.",
+      },
+      {
+        q: "Can you do Merzouga in 2 days from Marrakech?",
+        a: "Technically yes, and we would advise against it. It means roughly 18 hours of driving inside 48 hours for perhaps 14 hours at the dunes, most of them dark. If you only have two days, either go to Zagora and accept the smaller scenery, or choose Agafay near Marrakech, which is a stone desert an hour away.",
+      },
+      {
+        q: "What about Erg Chigaga instead?",
+        a: "Erg Chigaga is the third option and the best of both in some ways: dunes comparable to Erg Chebbi, far fewer visitors, reached via M'hamid. The trade-off is a rough 4x4 approach across open desert, which is part of the appeal for some travellers and a deterrent for others.",
+      },
+    ],
+    content: `
+## The question behind the question
+
+Nobody actually wants to know about Zagora. What they want to know is: **can I see the Sahara without giving up three days of a one-week Morocco trip?**
+
+The honest answer is that it depends what you mean by "the Sahara," and this is where most comparisons get evasive. So here it is plainly.
+
+## The core trade-off
+
+**Merzouga** sits beside Erg Chebbi, a sand sea whose dunes rise over 150 m and run for more than 50 km. This is the Morocco of the photographs: an ocean of orange sand, camel trains on the ridgelines, absolute silence. It is roughly **9 hours' drive from Marrakech**, each way.
+
+**Zagora** is about **6 hours away**. It is a genuine desert and it has genuine dunes, but they are small. The landscape is predominantly rocky and stony — the pre-Saharan zone rather than the sand sea. The stars are magnificent, the camp experience is real, and the scenery is not what you pictured.
+
+Everything else in this comparison follows from those two paragraphs.
+
+## Which to choose
+
+### Choose Merzouga if you have 3 days
+This is the trip most people actually want. Three days lets the drive be part of the experience rather than a penalty: the Tizi n'Tichka pass, Aït Benhaddou, the Todra Gorge, the Draa Valley palmeries. You reach the dunes in late afternoon, ride out for sunset, sleep in camp, and watch sunrise over the erg.
+
+Our [3-day Sahara trip from Marrakech](/en/tours/sahara-3day-marrakech) is built on this shape because it is the minimum that does the place justice.
+
+### Choose Zagora only if you have 2 days
+If your Morocco trip is short and the choice is Zagora or nothing, take Zagora — with clear eyes. You will sleep in the desert, eat a tagine under more stars than you have seen in your life, and ride a camel at sunset. That is a good night. It is not Erg Chebbi.
+
+Our [2-day Zagora trip](/en/tours/zagora-2day-marrakech) is honest about this in the itinerary, which we consider a feature.
+
+### Consider Erg Chigaga if you want dunes without crowds
+[Erg Chigaga](/en/tours/erg-chegaga-3day-marrakech) has dunes on the scale of Erg Chebbi and a fraction of the visitors, because reaching it means a rough 4x4 run across open desert from M'hamid. For some people that approach is the best part of the trip. For others it is two hours of being shaken. Know which you are.
+
+## The 2-day Merzouga problem
+
+Some operators sell 2-day Merzouga trips. The arithmetic:
+
+- Roughly **9 hours** driving out.
+- Roughly **9 hours** driving back.
+- That is **18 hours in a vehicle inside a 48-hour trip.**
+- What remains is an evening, a night, and an early morning at the dunes — most of it dark.
+
+You would spend more time looking at the back of a headrest than at the Sahara. We do not sell this trip, and when people ask for it we suggest Zagora or [Agafay](/en/tours/agafay-desert-sunset) instead. Agafay is a stone desert an hour from Marrakech: no sand sea, but a real landscape, a real camp, and no 18-hour drive.
+
+## What each actually costs
+
+Shared 3-day Merzouga tours run roughly **$120–$180 per person** at the budget end, up to **$200–$350** private. Zagora, being shorter, sits lower. Luxury desert camps run considerably higher.
+
+Two things worth knowing about desert pricing:
+
+- **Booking direct with a licensed local operator typically saves 30–50%** versus booking through a hotel desk or a reseller platform, because you are removing a commission layer rather than a service.
+- **The cheap end has a mechanism.** A $90 3-day tour is not generous; it is recouping margin somewhere — a rushed schedule, a large group, a camp with shared facilities, or a heavy carpet-shop stop. That may be a fine trade. Just know you are making it.
+
+Budget separately for tips: roughly **200–500 MAD total** across driver, camel handlers, and camp staff for a multi-day trip. It is voluntary in theory and expected in practice, and it matters to the people doing the hardest work on your trip.
+
+## The summary
+
+| If you have | Go to | Because |
+|---|---|---|
+| 3 days | Merzouga (Erg Chebbi) | The dunes you came for, and the drive becomes the journey |
+| 3 days, want solitude | Erg Chigaga | Comparable dunes, far fewer people, rough 4x4 approach |
+| 2 days | Zagora | Real desert night, modest scenery, honest about it |
+| 1 day | Agafay | Stone desert an hour away, no pretence of the Sahara |
+
+If you tell us how many days you have and what you actually want out of the desert, we will point you at the right one — including telling you when the answer is "wait until you have three days." [Ask us](/en/contact).
+    `,
+  },
+  {
+    slug: "how-much-does-a-morocco-desert-tour-cost",
+    author: MET_TEAM,
+    title: "What a Morocco Desert Tour Really Costs (and Why the Cheap Ones Are Cheap)",
+    excerpt:
+      "A breakdown of real 2026 prices for Sahara trips from Marrakech, what separates a $90 tour from a $300 one, how much to tip, and where the money actually goes.",
+    heroImage:
+      "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+    category: "tips",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["Morocco cost", "desert tour price", "Morocco budget", "tipping Morocco", "Sahara tour"],
+    seoTitle: "Morocco Desert Tour Cost 2026 — Real Prices & Tipping | Marrakech Eco Tours",
+    seoDescription:
+      "Real 2026 prices for Sahara desert tours from Marrakech: shared vs private vs luxury, what a $90 tour cuts to hit that number, how much to tip, and why booking direct saves 30-50%.",
+    relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "desert-4day-marrakech"],
+    faq: [
+      {
+        q: "How much does a 3-day Sahara desert tour from Marrakech cost?",
+        a: "Most 3-day desert tours cost between $150 and $300 per person in 2026. Shared group departures run roughly $120 to $180, private tours $200 to $350, and luxury camps $400 to $700. The cheapest advertised departures start near $90, which is achieved by cutting group size limits, camp quality, or schedule.",
+      },
+      {
+        q: "How much should you tip on a Morocco desert tour?",
+        a: "For a multi-day desert tour, budget roughly 200 to 500 MAD in total per person across everyone involved. A rough split for a 3-day trip is 200 to 500 MAD for your driver-guide, 50 to 100 MAD for the camel handlers, and 100 to 200 MAD for camp staff over two nights. Tipping is voluntary but genuinely expected in Morocco's tourism economy.",
+      },
+      {
+        q: "Is it cheaper to book a Morocco tour in advance or on arrival?",
+        a: "Booking direct with a licensed local operator in advance typically saves 30 to 50% compared with booking through a hotel desk or reseller platform, because you remove a commission layer. Booking on arrival in Marrakech can occasionally surface last-minute discounts, but you sacrifice choice of operator and, in peak season, availability entirely.",
+      },
+      {
+        q: "Why are some Morocco desert tours only $90?",
+        a: "A $90 three-day tour has to recover its margin somewhere. Usually that means a larger group in a bigger minibus, a basic camp with shared facilities, a compressed schedule with long driving days, and often commission stops at carpet or argan cooperatives where the operator earns a cut. None of that is fraud, but you should know it is the trade you are making.",
+      },
+      {
+        q: "When should you book a Morocco desert tour?",
+        a: "For peak season — October, March, and April — book at least 4 to 6 weeks ahead, as good operators and the better camps sell out. Outside those months, 1 to 2 weeks is usually sufficient, though the summer months of July and August are less about availability and more about whether you want to be in the Sahara at 45 Celsius.",
+      },
+    ],
+    content: `
+## The honest range
+
+Here is what a Sahara trip from Marrakech costs in 2026, per person:
+
+| Tour type | 2 days | 3 days |
+|---|---|---|
+| Shared group | $80–$120 | $120–$180 |
+| Private | ~$150–$250 | $200–$350 |
+| Luxury camp | — | $400–$700 |
+
+The cheapest departures on the big resale platforms advertise from around **$90** for three days. The comfortable end of shared sits near **$300**. Both numbers are real. They buy different trips.
+
+## Where the money goes
+
+It is worth understanding the cost structure, because it explains every price on that table:
+
+- **Vehicle and fuel.** Marrakech to Merzouga is ~560 km each way over a mountain pass. This is the single largest fixed cost, and it does not shrink.
+- **Driver-guide.** A licensed, English-speaking driver-guide for three days.
+- **Camp.** Bed, dinner, breakfast, for two nights. Ranges from a shared tent with a communal washblock to a private tent with an ensuite and a proper bed.
+- **Camels.** The sunset ride and the handlers who run it.
+- **The operator's margin.**
+
+Because fuel and distance are fixed, **the cheap tours cut the other lines.** That is not a scandal; it is arithmetic.
+
+## What $90 actually buys
+
+A $90 three-day tour recovers its margin somewhere. Typically:
+
+- **A bigger group.** Sixteen people in a minibus instead of six in a 4x4.
+- **A basic camp.** Shared tents, shared facilities, thin mattresses.
+- **A compressed schedule.** Fewer stops, longer driving blocks, less time at the dunes.
+- **Commission stops.** A long pause at a carpet shop or argan cooperative where the operator takes a cut of what you buy.
+
+If you are 24, travelling on a budget, and mostly want to sleep in the Sahara and see the stars, a $90 tour delivers exactly that, and complaining about the minibus afterwards is a bit unfair. If you are on a two-week honeymoon, it will feel like a mistake.
+
+**Know what you are buying.** That is the whole message.
+
+## Booking direct vs platforms
+
+Booking direct with a licensed local operator generally runs **30–50% cheaper** than the same trip through a hotel concierge or a reseller platform. The mechanism is not mysterious: those channels take a commission, often a large one, and it is added to your price rather than absorbed.
+
+The counterargument for platforms is buyer protection and easy cancellation, which are real benefits. The counterargument for direct is that you are talking to the people who will actually drive you, so you can ask specific questions and get answers from someone accountable for them.
+
+We are a direct operator, so treat that paragraph with appropriate suspicion. The 30–50% figure is nonetheless widely reported and matches what we see.
+
+## Tipping, concretely
+
+Tipping trips people up because nobody states a number. Here are numbers, for a 3-day trip, per person:
+
+- **Driver-guide:** 200–500 MAD ($22–$55)
+- **Camel handlers:** 50–100 MAD
+- **Camp staff:** 100–200 MAD across two nights
+
+Total: roughly **200–500 MAD** depending on group size and how the trip went.
+
+Tips are voluntary and genuinely expected. The people doing the most physical work — the camel handlers walking beside your animal in the sand, the camp cook — are the furthest down the pay chain. Small amounts of cash matter disproportionately to them. Bring small denominations; nobody can break a 200 MAD note at a desert camp.
+
+## The rest of the budget
+
+The tour price is not the trip price:
+
+- **Drinks.** Bottled water is usually included at camp; anything else is not.
+- **Lunches.** Frequently excluded on desert itineraries. Budget 60–120 MAD each.
+- **Souvenirs.** Entirely up to you, and the carpet salesman is better at this than you are.
+- **Travel insurance.** Not required, strongly advised, and cheap relative to the trip.
+
+## When to book
+
+- **Peak season (October, March, April):** book **4–6 weeks ahead.** Good operators and the better camps genuinely sell out.
+- **Shoulder:** 1–2 weeks is usually fine.
+- **July–August:** availability is not your problem. Daytime highs near 45°C are your problem.
+
+## What we would tell a friend
+
+Decide what the desert night is worth to you, then buy that tier honestly. The failure mode is not spending too little — it is spending too little while expecting the brochure from the tier above.
+
+If you want to sanity-check a quote you have been given elsewhere, [send it to us](/en/contact). We will tell you if it is fair, including when it is cheaper than ours.
+
+Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route](/en/tours/desert-4day-marrakech) both list exactly what is and is not included, because the argument above only works if we hold ourselves to it.
+    `,
+  },
+  {
+    slug: "solo-female-travel-morocco-guide",
+    author: MET_TEAM,
+    title: "Solo Female Travel in Morocco: A Straight Answer",
+    excerpt:
+      "Morocco is safe for solo women, and the honest caveat is that safe does not mean comfortable. What the attention actually looks like, what to wear, and the strategies that work.",
+    heroImage:
+      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 10,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["solo female travel", "Morocco safety", "women travel Morocco", "what to wear Morocco", "Marrakech solo"],
+    seoTitle: "Solo Female Travel in Morocco: Honest 2026 Safety Guide",
+    seoDescription:
+      "Is Morocco safe for solo female travellers? An honest guide: what the harassment actually is, what to wear, hammams, taxis, and the strategies that reduce hassle — from a Moroccan operator.",
+    relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-trek-4day", "sahara-3day-marrakech"],
+    faq: [
+      {
+        q: "Is Morocco safe for solo female travellers?",
+        a: "Yes, with preparation. Morocco is consistently ranked among the safest countries in Africa for travellers and sits at Level 1 on the US State Department advisory scale, the same tier as most of Western Europe. Tens of thousands of women travel Morocco alone each year and the large majority report positive trips. The common complaints are verbal attention and being overcharged rather than violence.",
+      },
+      {
+        q: "What should women wear in Morocco?",
+        a: "Cover shoulders and knees in loose, non-clinging fabrics. You are not expected to wear a hijab or Moroccan dress, and no Moroccan expects a foreign woman to dress like a local. A large scarf is the single most useful item you can pack: it works as a head covering at a mosque, a shawl in cold, a beach cover-up, and a blanket on a night bus. Bring two.",
+      },
+      {
+        q: "Do women get harassed in Morocco?",
+        a: "Verbal attention is common in tourist areas, particularly in the Marrakech medina: comments, persistent vendors, men trying to start conversations or 'help' with directions. It is wearing rather than dangerous. Physical harassment is much rarer. Most women find it drops off sharply outside the main tourist zones and is close to absent in mountain villages.",
+      },
+      {
+        q: "Can a woman travel alone in the Sahara or on a trek in Morocco?",
+        a: "Yes, and organised treks and desert tours are among the easier ways to travel Morocco solo, because you are with a licensed guide and a group. Many operators, including us, run mixed groups where solo women are common. If it matters to you, ask about group composition and whether female guides or staff are available before booking.",
+      },
+      {
+        q: "Should solo women visit a hammam in Morocco?",
+        a: "Yes — public hammams are strictly segregated by sex, and the women's side is a normal, unremarkable part of Moroccan life. It is one of the more relaxed experiences available to a solo woman. Bring flip-flops, a change of underwear, and expect a firm scrub if you pay for one.",
+      },
+    ],
+    content: `
+## The straight answer
+
+Morocco is safe for solo female travellers. It is ranked among the safest countries in Africa for visitors, and the US State Department places it at **Level 1 — Exercise Normal Precautions**, the same tier as France or Germany.
+
+And: it can be tiring in a way those countries are not.
+
+Both things are true. Guides that only tell you the first are selling something. Guides that only tell you the second are usually written by someone who had a bad three days in the Marrakech medina and extrapolated to a country of 37 million people.
+
+We are a Moroccan operator, so we have an obvious interest in you coming. Read the following with that in mind — we have tried to write the version we would want our own sister to read.
+
+## What the problem actually is
+
+The overwhelming majority of what solo women report falls into two buckets, and neither is violence:
+
+**1. Verbal attention.** Comments in the street. Vendors who will not disengage. Men who want to talk, or to "help" you find something you were not looking for. In the Marrakech medina this can be near-constant. It is draining. It is not dangerous.
+
+**2. Being overcharged.** The taxi that quotes triple. The "the tannery is closed today, but my cousin…" routine. This is a transactional annoyance and it happens to men too, just less often.
+
+Physical harassment is far rarer and serious violent crime against tourists is rare enough to be news when it happens. That is not a promise that nothing can happen anywhere — it is a statement about relative risk, which is what you are actually trying to assess.
+
+**It also varies enormously by place.** The medina at Marrakech and the Tangier port area are the high-hassle end. Chefchaouen, Essaouira, the Atlas villages, and the desert are quiet. In an Imlil village you are far more likely to be handed a glass of tea than bothered.
+
+## What to wear
+
+The rule is simple: **shoulders covered, knees covered, loose fabric.**
+
+You do **not** need a hijab. You do not need Moroccan dress. No one expects a foreign woman to dress like a local, and attempting it usually reads as costume rather than respect.
+
+What works:
+- Loose trousers or a long skirt. Linen in summer.
+- T-shirts rather than vests. Anything that covers the shoulder.
+- **A large scarf — bring two.** It is the highest-utility item in your bag: head covering at a mosque, shawl when the Atlas gets cold at night, beach cover-up in Essaouira, blanket on an overnight bus, sun protection in the Sahara.
+
+What draws attention you would rather not have: shorts, vest tops, anything tight, in medinas and villages. On the beach at Agadir or in a resort, normal beachwear is unremarkable.
+
+This is not about deserving anything. It is about how much of your day you want to spend being looked at.
+
+## Strategies that actually work
+
+- **Walk like you know where you are going.** Touts read hesitation. Head up, steady pace, no stopping in the middle of an alley to consult a map. If you are lost, step into a shop or café and work it out there.
+- **A firm "la, shukran" (no, thank you) and keep moving.** Do not soften it, do not explain, do not engage. Politeness that invites negotiation reads as an opening.
+- **Have your hotel call taxis.** Removes the entire fare argument. In Marrakech, insist on the meter or agree the fare before you get in.
+- **A crossbody bag with a zip**, worn in front in crowds.
+- **Wedding ring, if you want one.** Some women find an invented husband ends conversations faster than anything else. Others find it insulting to have to. Both positions are reasonable.
+- **Trust your gut and be rude if needed.** The social cost of being rude to a stranger who is bothering you is zero. You will never see them again.
+
+## The medina, specifically
+
+Marrakech's medina is where most bad first impressions form. Some specifics:
+
+- **"This way is closed" is almost always false.** It is a redirect to a shop.
+- **Unsolicited directions are not free.** If you accept, expect a demand for payment. If you did not want to pay, do not accept.
+- **The Jemaa el-Fna photo economy:** the snake charmers and monkey handlers charge for photos, including ones you took accidentally from a distance. Decide before you raise the camera.
+- **Get lost on purpose in daylight, not after dark.** The medina is genuinely wonderful to wander. Do it at 10am.
+
+## Where solo women have the easiest time
+
+Organised trips solve a lot of this, which is self-serving for us to say, so consider the reasoning rather than the source: on a [trek](/en/tours/toubkal-summit-trek-4day) or a [desert tour](/en/tours/sahara-3day-marrakech), you are with a licensed guide and a group, in places where the hassle economy does not operate. Villages in the Atlas do not have touts. The Sahara does not have carpet shops.
+
+Solo women are common on our mixed groups. If group composition matters to you, ask before booking — we will tell you honestly who else is on the departure.
+
+A [guided medina walk](/en/tours/marrakech-medina-cultural-tour) is also a genuinely effective way to have the first Marrakech day be pleasant rather than an ordeal: you see the place with someone who ends the sales approaches before they start, and you learn the geography well enough to explore alone afterwards.
+
+## The hammam question
+
+Go. Public hammams are strictly separated by sex, and the women's side is one of the most relaxed spaces available to a solo woman in Morocco — loud, cheerful, and utterly uninterested in you.
+
+Bring flip-flops, a change of underwear, and a towel. If you pay for a *gommage* scrub, expect it to be firm to the point of comedy. This is normal and you will feel remarkable afterwards.
+
+## The verdict
+
+Go. Take the ordinary precautions you would take in any unfamiliar city, accept that Marrakech's medina will test your patience on day one, and know that it gets easier the moment you leave the tourist core.
+
+The women we guide who have the best time are the ones who arrived expecting the attention, decided in advance it was not going to define the trip, and then went and had the trip.
+
+Questions about a specific itinerary or a specific worry? [Ask us directly](/en/contact). We would rather have the conversation than have you not come.
+    `,
+  },
+  {
+    slug: "how-many-days-do-you-need-in-morocco",
+    author: MET_TEAM,
+    title: "How Many Days Do You Need in Morocco?",
+    excerpt:
+      "Seven days is enough for a first trip if you resist the urge to see everything. The routes that work at 5, 7, and 10 days — and the itinerary mistake almost every first-timer makes.",
+    heroImage:
+      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 9,
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    tags: ["Morocco itinerary", "7 days Morocco", "Morocco trip planning", "first time Morocco", "how long in Morocco"],
+    seoTitle: "How Many Days Do You Need in Morocco? 5, 7 & 10-Day Routes",
+    seoDescription:
+      "Is 7 days enough for Morocco? Honest itineraries for 5, 7, and 10 days — what fits, what does not, and why the Marrakech-Sahara-Fes loop beats a scattergun route.",
+    relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
+    faq: [
+      {
+        q: "Is 7 days enough for Morocco?",
+        a: "Yes, seven days is enough for an excellent first trip to Morocco, provided you pick one route and commit to it. A week comfortably covers Marrakech, the High Atlas, the Sahara at Merzouga, and Fes as a one-way loop. It is not enough to add the Atlantic coast, Chefchaouen, and the south as well — attempting that turns the trip into a driving holiday.",
+      },
+      {
+        q: "How many days do you need for Morocco and the Sahara?",
+        a: "Budget a minimum of 3 days for the Sahara alone if you want Merzouga and the big dunes of Erg Chebbi, because it is roughly 9 hours' drive from Marrakech each way. That means a trip including the desert plus a city needs at least 5 days, and 7 is far more comfortable.",
+      },
+      {
+        q: "What is the best 7-day Morocco itinerary for a first-timer?",
+        a: "The Marrakech to Fes loop: two days in Marrakech, three days crossing the Atlas via Aït Benhaddou and the Dades or Todra gorges to the Sahara at Merzouga, then north to Fes for a full medina day before flying out. It moves in one direction, sees the three landscapes Morocco is famous for, and avoids backtracking.",
+      },
+      {
+        q: "Is 5 days enough for Morocco?",
+        a: "Five days works but forces a real choice: either Marrakech plus the desert, or the imperial cities, but not both properly. The common mistake is trying to squeeze Merzouga into five days alongside Fes, which leaves you with roughly 20 hours in a vehicle. With five days, pick one thing and do it well.",
+      },
+      {
+        q: "Should you fly into Marrakech or Fes?",
+        a: "Fly into one and out of the other. The classic route runs Marrakech to Fes via the desert, and booking an open-jaw ticket means you never retrace the 9-hour drive. Most European carriers serve both cities, and the price difference against a return is usually small.",
+      },
+    ],
+    content: `
+## The short answer
+
+**Seven days.** That is the number for a first Morocco trip.
+
+Five is workable but forces a real sacrifice. Ten is genuinely better and lets you add the coast or Chefchaouen. But seven is the point where you can see the three landscapes Morocco is famous for — a medina, the Atlas, the Sahara — without spending your holiday in a van.
+
+## The mistake almost everyone makes
+
+Morocco looks small on a map. It is not. It is roughly the size of France, with a mountain range through the middle and the Sahara on the far side of it.
+
+Here is the distance that governs everything:
+
+**Marrakech to Merzouga (the big dunes) is ~560 km and about 9 hours of driving, over a mountain pass.**
+
+Every unrealistic Morocco itinerary founders on that one number. People plan Marrakech, Essaouira, the Sahara, Fes, and Chefchaouen in a week, and end up doing 40 hours in a vehicle to spend an average of four waking hours in each place.
+
+**The best itinerary is the one that does less, properly.** That is not a platitude; it is the actual lesson.
+
+## What fits
+
+| Days | Realistic route | What you give up |
+|---|---|---|
+| 3–4 | Marrakech + Agafay or Zagora | The real Sahara |
+| 5 | Marrakech + Merzouga Sahara (return) | Fes and the north |
+| 7 | Marrakech → Sahara → Fes (one-way) | The coast, Chefchaouen |
+| 10 | The above + Chefchaouen or Essaouira | Very little |
+| 14 | Add the south, the Anti-Atlas, a trek | Nothing that matters |
+
+## The 7-day route that works
+
+This is the classic Marrakech-to-Fes loop, and it is classic because the geography makes it so.
+
+**Day 1 — Arrive Marrakech.** Do not plan anything. Jet lag plus the medina is a lot. Eat, sleep.
+
+**Day 2 — Marrakech.** The souks, Jemaa el-Fna, a garden, a palace. A [guided medina walk](/en/tours/marrakech-medina-cultural-tour) on the first full day pays for itself: you learn the geography with someone who fends off the sales approach, then explore alone afterwards knowing where you are.
+
+**Day 3 — Over the Atlas.** The Tizi n'Tichka pass, then Aït Benhaddou, the ksar you have seen in a dozen films. Overnight Dades or Skoura.
+
+**Day 4 — Gorges to the dunes.** Todra Gorge, the Draa palmeries, arriving Merzouga in the late afternoon. Camel out for sunset, sleep in camp.
+
+**Day 5 — Sunrise, then north.** Sunrise over Erg Chebbi is the photograph you came for. Then the long drive north toward Fes.
+
+**Day 6 — Fes.** A full day in Fes el-Bali: the tanneries, the medersas, the oldest university in continuous operation in the world. Fes is denser and older than Marrakech, and many people prefer it.
+
+**Day 7 — Fly out of Fes.**
+
+**Book an open-jaw ticket: into Marrakech, out of Fes.** This is the single highest-leverage planning decision in the whole trip. It means you never drive the same road twice. The price premium over a return is usually negligible.
+
+Our [3-day Marrakech to Fes route](/en/tours/marrakech-to-fes-3day) covers the middle section of exactly this itinerary, and the [5-day imperial cities trip](/en/tours/marrakech-imperial-cities-5day) is the north-heavy variant for people who care more about cities than dunes.
+
+## If you only have 5 days
+
+Pick one:
+
+- **Marrakech + Sahara.** Two nights Marrakech, [3-day desert trip](/en/tours/sahara-3day-marrakech) returning to Marrakech. You see the dunes. You skip Fes.
+- **Imperial cities.** Marrakech, Rabat, Meknès, Fes. No desert, but four extraordinary cities and much less driving.
+
+What does not work in 5 days: Marrakech, Merzouga, **and** Fes. That is 20+ hours in a vehicle. People do it. They come back tired and vaguely disappointed, and blame Morocco.
+
+## If you have 10
+
+Now it opens up. Add:
+
+- **Chefchaouen** — the blue city, 4 hours north of Fes, and worth it.
+- **Essaouira** — Atlantic, windswept, relaxed, 3 hours from Marrakech. The best antidote to medina fatigue.
+- **A proper trek.** Two or three days in the High Atlas from Imlil, or a [Toubkal summit](/en/tours/toubkal-summit-trek-4day) if you are fit.
+
+## When to go matters as much as how long
+
+Briefly, because it changes the maths:
+
+- **March–May and September–November** are ideal. Warm, not brutal.
+- **July–August:** Marrakech hits 45°C and the Sahara is worse. The coast and the mountains still work.
+- **December–February:** lovely in the south and the cities; the Atlas is under snow, which is either the appeal or a problem.
+
+## What we would tell a friend
+
+Seven days, Marrakech in and Fes out, one desert, one mountain crossing, two cities. Do not add Essaouira "because it is only three hours." Three hours each way is a day, and you only have seven.
+
+If you tell us your dates and what you actually care about, we will sketch a route — including telling you when the honest answer is that your list does not fit the days you have. [Ask us](/en/contact).
     `,
   },
 ];

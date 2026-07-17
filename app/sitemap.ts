@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact", freq: "monthly" as const, priority: 0.7 },
     { path: "/terms", freq: "yearly" as const, priority: 0.3 },
     { path: "/privacy", freq: "yearly" as const, priority: 0.3 },
+    { path: "/cookies", freq: "yearly" as const, priority: 0.3 },
   ];
 
   const staticUrls = LOCALES.flatMap((lang) =>
@@ -52,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrls = LOCALES.flatMap((lang) =>
     BLOG_POSTS.map((p) => ({
       url: `${BASE}/${lang}/blog/${p.slug}`,
-      lastModified: new Date(p.publishedAt),
+      lastModified: new Date(p.updatedAt ?? p.publishedAt),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     }))

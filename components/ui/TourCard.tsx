@@ -5,6 +5,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { Clock, Users, Star, MapPin, CheckCircle, ArrowRight } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { DIFFICULTY_COLORS } from "@/lib/tours";
+import { TRIPADVISOR } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { Badge } from "@/components/ui/badge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -73,10 +74,14 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         </div>
 
         <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7 z-20">
+          {/* Business-wide TripAdvisor rating, labelled as such. We have no
+              per-tour review corpus, so a per-tour score would be invented. */}
           <div className="flex items-center gap-2 mb-2.5">
-            <StarRating rating={tour.rating} />
-            <span className="text-xs font-semibold text-brass-glow">{tour.rating.toFixed(1)}</span>
-            <span className="text-xs text-cream/60">({tour.reviewCount})</span>
+            <StarRating rating={TRIPADVISOR.rating} />
+            <span className="text-xs font-semibold text-brass-glow">{TRIPADVISOR.rating.toFixed(1)}</span>
+            <span className="text-xs text-cream/60">
+              ({TRIPADVISOR.reviewCount} reviews on TripAdvisor)
+            </span>
           </div>
           <h3 className="font-display text-cream font-semibold text-2xl sm:text-3xl leading-[1.1] mb-2">{tour.title}</h3>
           <p className="text-cream/75 text-sm leading-relaxed line-clamp-2 mb-5 max-w-md">{tour.shortDescription}</p>
@@ -128,9 +133,9 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
       <div className="p-5 sm:p-6 flex flex-col flex-1">
         <div className="flex items-center justify-between gap-2 mb-2.5">
           <span className="eyebrow !text-[0.62rem] !tracking-[0.16em]">{CATEGORY_LABEL[tour.category] ?? tour.category}</span>
-          <div className="flex items-center gap-1.5">
-            <StarRating rating={tour.rating} />
-            <span className="text-xs font-semibold text-saffron">{tour.rating.toFixed(1)}</span>
+          <div className="flex items-center gap-1.5" title={`${TRIPADVISOR.rating.toFixed(1)} from ${TRIPADVISOR.reviewCount} TripAdvisor reviews across all our tours`}>
+            <StarRating rating={TRIPADVISOR.rating} />
+            <span className="text-xs font-semibold text-saffron">{TRIPADVISOR.rating.toFixed(1)}</span>
           </div>
         </div>
 

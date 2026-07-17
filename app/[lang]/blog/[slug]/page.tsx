@@ -14,10 +14,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogParams): Promise<Metadata> {
-  const { slug, lang } = await params;
+  const { slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return {};
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
     title: post.seoTitle ?? `${post.title} | Marrakech Eco Tours`,
     description: post.seoDescription ?? post.excerpt,
@@ -36,14 +35,13 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
       description: post.seoDescription ?? post.excerpt,
       images: [post.heroImage],
     },
+    // Article bodies are English on every locale (only the UI chrome is
+    // translated), so we do not advertise translated equivalents. Every locale
+    // canonicalises to /en to consolidate signals onto one real page rather
+    // than compete against near-duplicates. Reinstate per-locale hreflang here
+    // when post bodies are genuinely translated.
     alternates: {
-      canonical: `https://marrakechecotours.com/${lang}/blog/${slug}`,
-      languages: {
-        ...Object.fromEntries(
-          LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/blog/${slug}`])
-        ),
-        "x-default": `https://marrakechecotours.com/en/blog/${slug}`,
-      },
+      canonical: `https://marrakechecotours.com/en/blog/${slug}`,
     },
   };
 }

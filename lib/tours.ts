@@ -23,7 +23,12 @@ export interface Tour {
   difficulty: Difficulty;
   duration: string;
   groupSize: string;
+  /** @deprecated Placeholder figures, not a real review corpus — the sum across
+   *  tours (~2,276) far exceeds our actual 122 TripAdvisor reviews. Not rendered
+   *  and not emitted as schema. Delete once real per-tour reviews exist, or
+   *  repopulate from a verified source and reinstate AggregateRating. */
   reviewCount: number;
+  /** @deprecated See reviewCount. Display uses TRIPADVISOR.rating instead. */
   rating: number;
   price: number;
   priceMax?: number;

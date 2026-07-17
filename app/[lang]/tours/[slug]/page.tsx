@@ -24,10 +24,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: TourParams): Promise<Metadata> {
-  const { slug, lang } = await params;
+  const { slug } = await params;
   const tour = getTour(slug);
   if (!tour) return {};
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
     title: tour.seoTitle ?? `${tour.title} | Marrakech Eco Tours`,
     description: tour.seoDescription ?? tour.shortDescription,
@@ -36,12 +35,11 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
       description: tour.shortDescription,
       images: [{ url: tour.heroImage, width: 1400, height: 900, alt: tour.title }],
     },
+    // Tour copy (title, description, itinerary) is English on every locale —
+    // only the UI chrome is translated. Canonicalise all locales to /en rather
+    // than claim six translated versions of the same English page.
     alternates: {
-      canonical: `https://marrakechecotours.com/${lang}/tours/${slug}`,
-      languages: {
-        ...Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/tours/${slug}`])),
-        "x-default": `https://marrakechecotours.com/en/tours/${slug}`,
-      },
+      canonical: `https://marrakechecotours.com/en/tours/${slug}`,
     },
   };
 }

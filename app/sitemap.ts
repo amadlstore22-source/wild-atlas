@@ -32,50 +32,45 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  const tourUrls = LOCALES.flatMap((lang) =>
-    TOURS.map((t) => ({
-      url: `${BASE}/${lang}/tours/${t.slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.85,
-    }))
-  );
+  // Content pages (tours, blog, destinations, categories) carry English bodies
+  // on every locale and canonicalise to /en, so only the canonical English URL
+  // belongs in the sitemap. Listing all six would submit known non-canonical
+  // duplicates. Restore the per-locale fan-out once bodies are translated.
+  const tourUrls = TOURS.map((t) => ({
+    url: `${BASE}/en/tours/${t.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
 
-  const categoryUrls = LOCALES.flatMap((lang) =>
-    CATEGORIES.map((c) => ({
-      url: `${BASE}/${lang}/categories/${c.id}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    }))
-  );
+  const categoryUrls = CATEGORIES.map((c) => ({
+    url: `${BASE}/en/categories/${c.id}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
 
-  const blogUrls = LOCALES.flatMap((lang) =>
-    BLOG_POSTS.map((p) => ({
-      url: `${BASE}/${lang}/blog/${p.slug}`,
-      lastModified: new Date(p.updatedAt ?? p.publishedAt),
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }))
-  );
+  const blogUrls = BLOG_POSTS.map((p) => ({
+    url: `${BASE}/en/blog/${p.slug}`,
+    lastModified: new Date(p.updatedAt ?? p.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 
-  const destinationUrls = LOCALES.flatMap((lang) =>
-    DESTINATIONS.map((d) => ({
-      url: `${BASE}/${lang}/destinations/${d.slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.85,
-    }))
-  );
+  const destinationUrls = DESTINATIONS.map((d) => ({
+    url: `${BASE}/en/destinations/${d.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
 
-  const guideUrls = LOCALES.flatMap((lang) =>
-    GUIDES.map((g) => ({
-      url: `${BASE}/${lang}/guides/${g.id}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.75,
-    }))
-  );
+  // Guide bios are English-only too.
+  const guideUrls = GUIDES.map((g) => ({
+    url: `${BASE}/en/guides/${g.id}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
 
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },

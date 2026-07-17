@@ -2,10 +2,15 @@ export const SITE = {
   name: "Marrakech Eco Tours",
   tagline: "Expert-guided adventures in Morocco's most breathtaking landscapes.",
   url: "https://marrakechecotours.com",
-  /** Public contact + data-controller address on the legal pages. Delivered by
-   *  Cloudflare Email Routing, which forwards it to the team's monitored inbox.
-   *  Must stay a real, monitored mailbox: GDPR/Law 09-08 requests arrive here. */
+  /** Public-facing / data-controller address shown on the site, in mailto links,
+   *  and in schema. Branded, professional, and the address GDPR / Law 09-08
+   *  requests are directed to. */
   email: "info@marrakechecotours.com",
+  /** Where the contact + newsletter forms actually DELIVER. Kept separate from
+   *  `email` on purpose: info@ only receives once Cloudflare Email Routing is
+   *  live, so until then forms deliver to a verified Gmail that works today.
+   *  Point this at info@marrakechecotours.com once routing is confirmed. */
+  emailInbox: "infoaitidar@gmail.com",
   /** Obfuscated for display so the address is not trivially scraped off the
    *  page. The real address lives in `email` and is used for mailto/schema. */
   emailDisplay: "info@···.com",

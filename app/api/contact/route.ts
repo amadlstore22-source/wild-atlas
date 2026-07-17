@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           from: "Marrakech Eco Tours Contact <noreply@marrakechecotours.com>",
-          to: [SITE.email],
+          to: [SITE.emailInbox],
           subject:
             type === "booking"
               ? `Booking Inquiry: ${tour} from ${name}`

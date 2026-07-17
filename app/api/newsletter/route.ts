@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           from: "Marrakech Eco Tours <noreply@marrakechecotours.com>",
-          to: [SITE.email],
+          to: [SITE.emailInbox],
           subject: `New newsletter subscriber: ${email}`,
           text: `A new visitor subscribed to the newsletter.\n\nEmail: ${email}\n\nAdd to your mailing list.`,
         }),

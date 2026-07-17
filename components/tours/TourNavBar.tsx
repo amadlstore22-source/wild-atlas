@@ -55,32 +55,76 @@ export default function TourNavBar() {
       <div ref={sentinelRef} className="h-px w-full" aria-hidden="true" />
       <AnimatePresence>
         {visible && (
-          <motion.nav
-            aria-label="Tour sections"
-            className="fixed top-16 lg:top-20 left-0 right-0 z-30 bg-white/95 backdrop-blur-md border-b border-sand-dark shadow-sm"
-            initial={{ y: -48, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -48, opacity: 0 }}
-            transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex items-center gap-1 overflow-x-auto scrollbar-hide py-2.5">
+          <>
+            {/* Desktop: vertical rail in the left margin. The page content is a
+                centred max-w-7xl column, so this sits in otherwise dead space
+                instead of stacking a second bar under the header. Hidden below
+                2xl, where the margin is too narrow to hold it without
+                colliding with the content. */}
+            <motion.nav
+              aria-label="Tour sections"
+              className="hidden 2xl:block fixed left-6 top-1/2 -translate-y-1/2 z-30"
+              initial={{ x: -12, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: -12, opacity: 0 }}
+              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <ul className="flex flex-col gap-1 border-l border-rule pl-4">
                 {SECTIONS.map((s) => (
-                  <button
-                    key={s.id}
-                    onClick={() => scrollTo(s.id)}
-                    className={`shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                      active === s.id
-                        ? "bg-forest text-white"
-                        : "text-ink-soft hover:text-forest hover:bg-sand/60"
-                    }`}
-                  >
-                    {s.label}
-                  </button>
+                  <li key={s.id}>
+                    <button
+                      onClick={() => scrollTo(s.id)}
+                      aria-current={active === s.id ? "true" : undefined}
+                      className={`group flex items-center gap-2.5 py-1.5 text-left text-sm transition-colors ${
+                        active === s.id
+                          ? "text-indigo font-semibold"
+                          : "text-ink-muted font-medium hover:text-indigo"
+                      }`}
+                    >
+                      {/* Saffron marker doubles as the active indicator. */}
+                      <span
+                        aria-hidden
+                        className={`h-px transition-all ${
+                          active === s.id ? "w-4 bg-saffron" : "w-2 bg-rule group-hover:w-3"
+                        }`}
+                      />
+                      {s.label}
+                    </button>
+                  </li>
                 ))}
+              </ul>
+            </motion.nav>
+
+            {/* Below 2xl there is no margin to spare, so fall back to a slim
+                horizontal bar tucked under the header. */}
+            <motion.nav
+              aria-label="Tour sections"
+              className="2xl:hidden fixed top-16 lg:top-20 left-0 right-0 z-30 bg-surface/85 backdrop-blur-md border-b border-rule/70"
+              initial={{ y: -48, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -48, opacity: 0 }}
+              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex items-center gap-6 overflow-x-auto scrollbar-hide">
+                  {SECTIONS.map((s) => (
+                    <button
+                      key={s.id}
+                      onClick={() => scrollTo(s.id)}
+                      aria-current={active === s.id ? "true" : undefined}
+                      className={`relative shrink-0 py-3 text-sm transition-colors border-b-2 -mb-px ${
+                        active === s.id
+                          ? "text-indigo font-semibold border-saffron"
+                          : "text-ink-muted font-medium border-transparent hover:text-indigo"
+                      }`}
+                    >
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
-          </motion.nav>
+            </motion.nav>
+          </>
         )}
       </AnimatePresence>
     </>

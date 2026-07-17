@@ -104,14 +104,26 @@ function looksLikeBadImage(url: string): boolean {
 const FALLBACK_MOROCCO = MOROCCO_IMAGES[0];
 const FALLBACK_TRAVEL = "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80";
 
+// TOPIC keywords — "is this about travel/culture/nature?"
+//
+// Deliberately contains NO place names. This list used to include "morocco",
+// "marrakech", "atlas" and so on, which made it useless as a second test: once
+// an article mentioned Morocco it satisfied the topic check too, so a piece on
+// Moroccan tax law read as travel content. Place is decided by
+// MOROCCO_KEYWORDS; this list decides subject matter only.
 const RELEVANCE_KEYWORDS = [
-  "morocco", "marrakech", "sahara", "atlas", "trekking", "hiking",
-  "adventure", "tourism", "desert", "berber", "agadir", "essaouira",
-  "fes", "chefchaouen", "outdoor", "expedition", "travel", "tour",
-  "medina", "riad", "souk", "kasba", "dunes", "oasis", "valley",
-  "casablanca", "rabat", "tangier", "draa", "todra", "dades",
-  "trek", "wilderness", "nature", "mountain", "hike", "destination",
-  "holiday", "vacation", "trip", "culture", "heritage",
+  "trekking", "hiking", "adventure", "tourism", "tourist", "outdoor",
+  "expedition", "travel", "tour", "trek", "wilderness", "nature",
+  "mountain", "hike", "destination", "holiday", "vacation", "trip",
+  "culture", "cultural", "heritage", "cuisine", "food", "hotel", "resort",
+  "guesthouse", "hospitality", "flight", "airline", "visa", "itinerary",
+  "landscape", "wildlife", "national park", "unesco", "festival",
+  "desert", "dunes", "oasis", "valley", "coast", "beach", "surf", "ski",
+  // Things you see or stay in — topic words, not place names.
+  "souk", "riad", "kasbah", "medina", "hammam", "tagine", "camel", "dune",
+  "rooftop", "market", "bazaar", "mosque", "palace", "garden", "museum",
+  // Getting there and around — infrastructure a traveller actually cares about.
+  "rail", "railway", "train", "airport", "ferry", "road trip", "high-speed",
 ];
 
 // Topics that are "Morocco news" but not travel/adventure — a tour site should
@@ -124,34 +136,69 @@ const EXCLUDE_KEYWORDS = [
   "trial", "prison", "migrant", "smuggl", "drug", "earthquake victim",
 ];
 
-// Morocco-place keywords — required for broad (non-country-scoped) feeds so a
-// general "Africa" feed only contributes items that are actually about Morocco.
+// Morocco-place keywords. An article must mention at least one of these to run
+// on the site — this is the hard gate that keeps the section about Morocco.
+// Word-boundary matched (see mentionsMorocco) so "fes" cannot match "manifesto"
+// and "atlas" cannot match "atlassian".
 const MOROCCO_KEYWORDS = [
-  "morocco", "moroccan", "marrakech", "marrakesh", "sahara", "atlas mountains",
+  "morocco", "moroccan", "marrakech", "marrakesh", "sahara", "saharan",
+  "atlas mountains", "high atlas", "anti-atlas", "toubkal", "jbel toubkal",
   "fes", "fez", "agadir", "essaouira", "chefchaouen", "berber", "amazigh",
-  "casablanca", "rabat", "tangier", "merzouga", "ouarzazate", "maghreb",
+  "tamazight", "casablanca", "rabat", "tangier", "tangiers", "merzouga",
+  "ouarzazate", "maghreb", "meknes", "zagora", "erg chebbi", "erg chigaga",
+  "imlil", "ourika", "todra", "dades", "draa", "taghazout", "ait benhaddou",
+  "aït benhaddou", "medina", "riad", "tagine", "souk",
 ];
 
 /**
- * @param scoped true when the feed is already limited to Morocco (e.g. Guardian
- *        Morocco). Broad feeds (BBC Africa) must explicitly mention Morocco.
+ * True when the text actually mentions Morocco or a Moroccan place.
+ *
+ * Matched on word boundaries: substring matching produced false positives
+ * ("fes" inside "manifesto", "rabat" inside "rabatment"), which is one way
+ * unrelated articles reached the homepage.
  */
-function isRelevant(
+function mentionsMorocco(text: string): boolean {
+  return MOROCCO_KEYWORDS.some((kw) => {
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`\\b${escaped}\\b`, "i").test(text);
+  });
+}
+
+/**
+ * Every article must be about Morocco AND about travel/culture/nature.
+ *
+ * The Morocco mention is required for EVERY feed, including country-scoped ones.
+ * Previously, "travel" feeds (Guardian Travel, NYT Travel) only had to match a
+ * generic RELEVANCE_KEYWORD — and that list contains words like "travel",
+ * "holiday" and "trip", so essentially every article in a travel feed qualified.
+ * That is how pieces about Japan or Peru ended up in a Morocco tour operator's
+ * news section.
+ *
+ * @param scoped true when the feed is already limited to Morocco (e.g. Guardian
+ *        Morocco). Scoped feeds skip the keyword check only as a fallback, since
+ *        their own editorial scope already guarantees the country.
+ */
+export function isRelevant(
   title: string,
   excerpt: string,
-  category: "morocco" | "travel",
+  /** Retained for call-site clarity; both categories now face the same two
+   *  gates, since being Moroccan is not on its own a reason to publish. */
+  _category: "morocco" | "travel",
   scoped: boolean,
 ): boolean {
   const text = (title + " " + excerpt).toLowerCase();
   // Reject general politics/sport/crime everywhere — this is a travel section.
   if (EXCLUDE_KEYWORDS.some((kw) => text.includes(kw))) return false;
 
-  if (category === "morocco") {
-    // Country-scoped feed: accept anything (already Morocco). Broad feed: require
-    // an actual Morocco mention so we don't surface generic African news.
-    return scoped || MOROCCO_KEYWORDS.some((kw) => text.includes(kw));
-  }
-  // Travel feeds: require a travel/Morocco relevance keyword.
+  // Gate 1 — PLACE: the article must be about Morocco. A country-scoped feed is
+  // trusted to be Morocco-only even when the headline omits the country name
+  // (e.g. "Marrakech" alone, or a piece that says only "the kingdom").
+  if (!scoped && !mentionsMorocco(text)) return false;
+
+  // Gate 2 — TOPIC: it must also be travel/culture/nature. This applies to
+  // scoped feeds too: Guardian Morocco is a general news desk, so without this
+  // a press-conference scuffle qualifies purely for being Moroccan. EXCLUDE_
+  // KEYWORDS catches the obvious politics/sport/crime; this catches the rest.
   return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
 }
 

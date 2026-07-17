@@ -32,3 +32,31 @@ describe("structured-data price matches the visible price", () => {
     expect(formatPrice(380, "USD")).toBe("$380");
   });
 });
+
+describe("tour seoDescription price prose", () => {
+  // Mirror of localisePrice() in app/[lang]/tours/[slug]/page.tsx.
+  const localisePrice = (text: string | undefined, usd: number) => {
+    if (!text) return text;
+    const shown = `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${Math.round(usd * RATES[DEFAULT_CURRENCY]).toLocaleString("en-US")}`;
+    return text.replace(/\$[\d,]+/g, shown);
+  };
+
+  it("every tour's stored prose price matches its price field", () => {
+    // The prose is hand-written; if it drifts from the price field, localising
+    // it would quietly publish a wrong number rather than a wrong currency.
+    TOURS.forEach((t) => {
+      const m = t.seoDescription?.match(/\$(\d[\d,]*)/);
+      if (!m) return;
+      expect(Number(m[1].replace(/,/g, "")), `${t.slug}: prose price != price field`).toBe(t.price);
+    });
+  });
+
+  it("localised description advertises the same price the page charges", () => {
+    TOURS.forEach((t) => {
+      const out = localisePrice(t.seoDescription, t.price);
+      if (!out) return;
+      expect(out, `${t.slug}: still quotes USD`).not.toMatch(/\$\d/);
+      expect(out).toContain(formatPrice(t.price, DEFAULT_CURRENCY));
+    });
+  });
+});

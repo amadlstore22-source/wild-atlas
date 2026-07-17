@@ -25,6 +25,19 @@ type TourParams = { params: Promise<{ lang: string; slug: string }> };
  *  quote the same currency a visitor actually sees, not the storage unit. */
 const schemaPrice = (usd: number) => String(priceIn(usd, DEFAULT_CURRENCY));
 
+/**
+ * Tour seoDescription strings end with a hardcoded "From $380." written in the
+ * storage currency (USD). That sentence is what Google prints as the meta
+ * description, so it advertised a price the page never charges once the site
+ * defaulted to EUR. Rewrite it from the same source as every other price rather
+ * than hand-editing 32 strings that would drift on the next rate change.
+ */
+function localisePrice(text: string | undefined, usd: number): string | undefined {
+  if (!text) return text;
+  const shown = `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${priceIn(usd, DEFAULT_CURRENCY).toLocaleString("en-US")}`;
+  return text.replace(/\$[\d,]+/g, shown);
+}
+
 export async function generateStaticParams() {
   return TOURS.flatMap((t) =>
     ["en", "fr", "es", "de", "it", "ar"].map((lang) => ({ lang, slug: t.slug }))
@@ -37,7 +50,7 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
   if (!tour) return {};
   return {
     title: tour.seoTitle ?? `${tour.title} | Marrakech Eco Tours`,
-    description: tour.seoDescription ?? tour.shortDescription,
+    description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
     openGraph: {
       title: tour.title,
       description: tour.shortDescription,
@@ -63,7 +76,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: tour.title,
-    description: tour.seoDescription ?? tour.shortDescription,
+    description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
     url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
     image: tour.heroImage,
     brand: { "@type": "Brand", name: "Marrakech Eco Tours" },

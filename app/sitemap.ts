@@ -72,8 +72,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  // The bare root is deliberately absent: it redirects to /en, and a sitemap
+  // should list only final canonical URLs. Submitting a redirecting URL is
+  // what Search Console reports as "Page with redirect". /en is in staticUrls
+  // and carries priority 1.0 already.
   return [
-    { url: BASE, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     ...staticUrls,
     ...tourUrls,
     ...categoryUrls,

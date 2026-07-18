@@ -1,7 +1,8 @@
 import { describe, it, expect } from "vitest";
 import { buildFaqSchema, faqPageDocument, buildBreadcrumbSchema } from "@/lib/seo/schema";
 import { BLOG_POSTS } from "@/lib/blog";
-import { TOURS } from "@/lib/tours";
+import { TOURS, CATEGORIES } from "@/lib/tours";
+import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
 
 const WEATHER_REGIONS = ["Marrakech", "High Atlas", "Sahara", "Agadir"];
 const WEATHER_TOKEN = /^\[\[WEATHER\]\]\r?$/m;
@@ -77,6 +78,41 @@ describe("weather widget opt-in", () => {
   it("the split regex matches on CRLF content", () => {
     const crlf = "Intro line\r\n\r\n[[WEATHER]]\r\n\r\nAfter the widget";
     expect(crlf.split(WEATHER_TOKEN)).toHaveLength(2);
+  });
+});
+
+describe("category FAQ", () => {
+  it("every key names a real category", () => {
+    Object.keys(CATEGORY_FAQ).forEach((id) => {
+      expect(CATEGORIES.map((c) => c.id), `no category "${id}"`).toContain(id);
+    });
+  });
+
+  it("every listed category has FAQ content", () => {
+    CATEGORIES.forEach((c) => {
+      expect(CATEGORY_FAQ[c.id]?.length, `${c.id} has no FAQ`).toBeGreaterThan(0);
+    });
+  });
+
+  it("answers are substantive and questions are questions", () => {
+    Object.entries(CATEGORY_FAQ).forEach(([id, faq]) => {
+      faq.forEach((f) => {
+        expect(f.a.length, `${id}: answer too short`).toBeGreaterThan(40);
+        expect(f.q.trim().endsWith("?"), `${id}: "${f.q}" is not a question`).toBe(true);
+      });
+    });
+  });
+
+  // Four near-identical pages would compete with each other rather than rank.
+  it("does not repeat the same question across categories", () => {
+    const seen = new Map<string, string>();
+    Object.entries(CATEGORY_FAQ).forEach(([id, faq]) => {
+      faq.forEach((f) => {
+        const key = f.q.toLowerCase().trim();
+        expect(seen.has(key), `"${f.q}" appears in both ${seen.get(key)} and ${id}`).toBe(false);
+        seen.set(key, id);
+      });
+    });
   });
 });
 

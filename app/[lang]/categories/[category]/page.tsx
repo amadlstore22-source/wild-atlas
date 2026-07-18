@@ -6,6 +6,9 @@ import TourCard from "@/components/ui/TourCard";
 import CTABanner from "@/components/sections/CTABanner";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
+import FaqSection from "@/components/seo/FaqSection";
+import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
+import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
 type CategoryParams = { params: Promise<{ lang: string; category: string }> };
 
 export async function generateStaticParams() {
@@ -54,6 +57,15 @@ export default async function CategoryPage({ params }: CategoryParams) {
     })),
   };
 
+  const breadcrumbJsonLd = breadcrumbDocument([
+    { name: "Home", path: `/${lang}` },
+    { name: "Tours", path: `/${lang}/tours` },
+    { name: cat.label, path: `/${lang}/categories/${cat.id}` },
+  ]);
+
+  // Renders below the grid as well — schema and visible copy ship together.
+  const faq = CATEGORY_FAQ[cat.id] ?? [];
+
   const toursAvailable = tours.length === 1
     ? dict.tours.toursFound.replace("{count}", String(tours.length))
     : dict.tours.toursFoundPlural.replace("{count}", String(tours.length));
@@ -61,6 +73,8 @@ export default async function CategoryPage({ params }: CategoryParams) {
   return (
     <>
       <JsonLd data={jsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
+      {faq.length > 0 && <JsonLd data={faqPageDocument(faq)} />}
 
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image src={cat.heroImage} alt={cat.label} fill className="object-cover" priority />
@@ -82,6 +96,10 @@ export default async function CategoryPage({ params }: CategoryParams) {
               {tours.map((tour) => <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />)}
             </div>
           </>
+        )}
+
+        {faq.length > 0 && (
+          <FaqSection faq={faq} title={`${cat.label} — frequently asked questions`} />
         )}
       </div>
 

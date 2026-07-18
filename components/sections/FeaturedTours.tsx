@@ -42,7 +42,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
       </div>
 
       <p className="text-center text-xs text-ink-muted mt-8 lg:hidden">
-        Showing 6 of {tours.length} tours
+        Showing {featured.length} of {tours.length} tours
       </p>
     </Section>
   );

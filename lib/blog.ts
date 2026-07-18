@@ -2323,6 +2323,108 @@ Seven days, Marrakech in and Fes out, one desert, one mountain crossing, two cit
 If you tell us your dates and what you actually care about, we will sketch a route — including telling you when the honest answer is that your list does not fit the days you have. [Ask us](/en/contact).
     `,
   },
+  {
+    slug: "toubkal-weather-by-month",
+    author: MET_TEAM,
+    title: "Toubkal Weather by Month: When to Climb and What to Expect",
+    excerpt: "The summit sits 3,700 metres above Marrakech, and the weather reflects that. A month-by-month guide to conditions on Jbel Toubkal, plus live readings from the valley below.",
+    heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    weatherRegion: "High Atlas",
+    tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
+    seoTitle: "Toubkal Weather by Month: When to Climb Jbel Toubkal",
+    seoDescription: "Month-by-month weather on Mount Toubkal, from deep winter snow to the settled autumn window, with live valley conditions and what to pack for each season.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
+    faq: [
+      { q: "What is the weather like on Mount Toubkal?", a: "Far colder than Marrakech. The summit stands at 4,167 metres, roughly 3,700 metres above the city, and temperature drops by around 6 to 10°C for every 1,000 metres you climb. A mild spring day in the valley can be close to freezing on the summit, before wind chill is counted." },
+      { q: "What is the best month to climb Toubkal?", a: "May, June, September and early October give the most settled conditions without winter equipment. Autumn has the edge on visibility, since the summer haze has cleared and you can see a long way across the High Atlas from the top." },
+      { q: "Is there snow on Toubkal in summer?", a: "Rarely on the main route by mid-summer, though patches can linger in gullies and shaded ground into early summer. From roughly November to April, snow on the upper mountain should be assumed rather than hoped against." },
+      { q: "How cold does Toubkal get at night?", a: "The refuge sits near 3,200 metres and is cold year-round after dark, including in summer. In deep winter, summit temperatures fall well below freezing and wind chill on the exposed ridge takes it lower still. Summit starts happen before dawn, which is the coldest part of the day." },
+      { q: "Can you climb Toubkal in winter without special equipment?", a: "No. From around November to March the upper route is a snow climb requiring crampons, an ice axe, boots stiff enough to take crampons, and the knowledge to use them. It is achievable for fit beginners, but only alongside a guide qualified for winter conditions." },
+    ],
+    content: `
+Toubkal's weather is not Marrakech's weather with a jumper on. The summit stands at 4,167 metres, roughly 3,700 metres above the city you flew into, and that vertical distance does more to your day than the calendar month does. People book a summer trek, pack for a summer holiday, and meet freezing wind on a pre-dawn slope. Others write off winter entirely without knowing that it is one of the most spectacular times to be up there, if you arrive equipped.
+
+This guide covers what the mountain actually does through the year, how to read the numbers, and what conditions mean for your kit.
+
+[[WEATHER]]
+
+## Why the valley reading is not the summit reading
+
+Air cools as it rises. As a working rule, every 1,000 metres of ascent drops the temperature by roughly 6 to 10 degrees Celsius, depending on humidity. That single fact explains most of the surprise people experience on Toubkal.
+
+Imlil, the trailhead village, sits at around 1,740 metres. The refuge is near 3,200. The summit is 4,167. So the ground you start on and the ground you finish on are separated by nearly two and a half vertical kilometres.
+
+Work it through on a mild spring day: a pleasant 20°C in Imlil is plausibly around 6°C at the refuge and close to freezing on the summit. Add wind, which the summit ridge rarely lacks, and the temperature your skin registers falls further again. This is why our guides talk about layers rather than a coat.
+
+- **Imlil (1,740 m)** — where the trail starts. Mildest readings, and the number most weather apps show you if you search for the region.
+- **Refuge (3,200 m)** — where you sleep. Expect a substantial drop from the valley, and cold nights year-round.
+- **Summit (4,167 m)** — around freezing or below for much of the year, wind chill on top of that.
+
+The live panel above reads at valley level. Treat it as a starting point, subtract as you climb, and subtract again for wind.
+
+## Toubkal month by month
+
+| Period | On the mountain | What it means for you |
+|---|---|---|
+| December - February | Deep winter. Snow from the refuge upward, often lower. Summit well below freezing, short daylight | Crampons and an ice axe, and the knowledge to use them. A genuine winter mountaineering trip |
+| March - April | Transition. Snow still high on the route, melting below. Weather swings hard week to week | Winter kit often still needed. Conditions must be checked close to the date |
+| May - June | The sweet spot opens. Snow retreating off the main route, long daylight, settled spells | The most straightforward summit conditions. Still cold and windy up top |
+| July - August | Hottest. Valley heat is significant, summit stays cool. Afternoon cloud build-up common | Start early. The heat problem is on the approach, not the summit |
+| September - October | The second sweet spot. Stable weather, cooler valley walking, clear air | Many guides' favourite window. Excellent visibility from the top |
+| November | Winter arrives, timing varies year to year | Could be either season. Check conditions rather than assuming |
+
+## The two best windows
+
+If you want the highest chance of a comfortable summit without winter equipment, aim for **May to June** or **September to October**.
+
+Both give you long daylight, a route largely clear of snow, and settled spells. Autumn has an edge on air clarity — after the summer haze clears you can see an extraordinary distance across the High Atlas from the top.
+
+Mid-summer works, but the problem shifts: the summit is fine while the approach through the valley is hot. That is why summit starts are early, and why the walking day is arranged around the sun rather than around the clock.
+
+## Winter: not off-limits, just different
+
+From roughly November to March, Toubkal becomes a winter mountain. Snow covers the upper route, the ground underfoot turns hard, and the consequences of a slip change entirely.
+
+This does not put it out of reach. It does mean crampons, an ice axe, and someone with you who knows how to read avalanche and snow conditions. We cover the specifics in [Climbing Toubkal in Winter](/en/blog/toubkal-in-winter-what-to-expect) — the short version is that fit beginners do summit in winter, but only with the right equipment and a guide who is qualified for those conditions.
+
+The reward is a genuinely different mountain: fewer people, snow-covered ridges, and light on the summit ridge at dawn that you do not get in August.
+
+## Reading conditions before you go
+
+Three things matter more than the headline temperature.
+
+- **Wind.** The summit ridge is exposed and wind chill routinely does more than air temperature. A calm minus-five is comfortable in the right layers; the same reading with wind is not.
+- **Fresh snow.** Recent snowfall changes both the walking surface and the avalanche picture. This is the single strongest reason to have a guide who has been on the mountain that week.
+- **Visibility.** Above the refuge the route is unmarked. Cloud does not just cost you the view, it costs you the navigation.
+
+None of these show up usefully in a five-day phone forecast for Marrakech. They come from people on the ground, which is part of what you are paying a guide for.
+
+## What to pack, by season
+
+Whatever the month, the principle is layers you can add and shed on the move, because you will pass through several climate bands in one day.
+
+- **Year-round:** thermal base layer, insulating mid-layer, windproof and waterproof shell, hat, gloves, sunglasses, high-factor sunscreen. Altitude sun is fierce even when the air is cold, and snow doubles it by reflection.
+- **Summer additions:** more water capacity than you think, sun protection for the approach, and a warm layer that you will resent carrying until 4 a.m. on summit morning, when it becomes the most important thing in your bag.
+- **Winter additions:** crampons, ice axe, stiff boots that take crampons, heavier insulation, goggles for wind-driven snow.
+
+Our full list is in [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco).
+
+## So when should you go?
+
+If you want the simplest possible summit, go in **late May, June, September or early October** and accept that it will still be cold and windy at the top.
+
+If you want the mountain quiet and dramatic, and you are willing to learn to use an axe and crampons, go in **winter with a qualified guide**.
+
+If you can only travel in July or August, go anyway — start early, drink more than feels necessary, and treat the valley heat rather than the summit cold as the thing to manage.
+
+The one approach that does not work is treating Toubkal as a warm-country walk because Marrakech was 35°C when you landed. The mountain is a different climate, and the people who struggle are almost always the ones who packed for the city.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

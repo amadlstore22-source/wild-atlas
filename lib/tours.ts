@@ -131,6 +131,12 @@ export const TOURS: Tour[] = [
           "Morning descent through wildflower meadows. Transfer back to Marrakech. Tour ends mid-afternoon.",
       },
     ],
+    faq: [
+      { q: "Is the 4-day trek better than the 2-day for a first Toubkal attempt?", a: "For most people, yes. The extra days are spent acclimatising rather than covering more ground, and altitude — not fitness — is the usual reason people struggle near the summit. If you have never been near 4,000 metres, this is the version to book." },
+      { q: "What is the accommodation like on this trek?", a: "A mix of village guesthouse and the Toubkal Refuge at 3,207 metres. The refuge is a working mountain hut: shared dormitory rooms, bunks with mattresses and blankets, communal meals and cold nights. Bring a sleeping bag liner, head torch and earplugs." },
+      { q: "Do I need to carry my own bag?", a: "Only a daypack with water, layers and a camera. Mules carry the main baggage between stops, which is what makes consecutive big walking days manageable for people who have not trekked at altitude before." },
+      { q: "What time does summit day start?", a: "Before dawn. The summit push from the refuge takes around three hours, and an early start means reaching the top for sunrise and getting down before the afternoon weather builds. It is the coldest part of the day, so the warm layer you have been carrying finally earns its place." },
+    ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Toubkal Summit Trek 4 Days — Climb North Africa's Highest Peak | Marrakech Eco Tours",
     seoDescription: "Conquer Jbel Toubkal (4,167 m) with a licensed Berber guide. 4-day summit trek from Marrakech — refuges, all meals, and round-trip transfer included. From $380.",
@@ -199,6 +205,12 @@ export const TOURS: Tour[] = [
         description:
           "Wake before dawn for the sunrise over the dunes. Return camel ride and breakfast. Drive back via the Todra Gorge. Arrive Marrakech by evening.",
       },
+    ],
+    faq: [
+      { q: "Why does this trip take three days?", a: "Because Merzouga and the Erg Chebbi dunes are on the far side of the Atlas. Three days is what the distance requires — anything shorter either goes somewhere that is not the real Sahara, or spends almost all of it driving." },
+      { q: "What do we see on the drive?", a: "The route crosses the Tizi n'Tichka pass and takes in Aït Ben Haddou and the gorge country, so the journey carries its own sights rather than being time lost getting somewhere. The driving is broken into stages with stops rather than done in one push." },
+      { q: "What is the night in the desert camp like?", a: "Beds with blankets in a tent, dinner together, and complete quiet once the generators stop. The dunes are genuinely dark, which is why most people remember the night sky rather than the camel ride. Bring a warm layer — desert nights get cold outside summer." },
+      { q: "Do I have to ride a camel?", a: "No. The camel leg into the camp is short and optional, and walking that stretch instead is common enough that the guides expect it. All the real distance is covered by vehicle." },
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
@@ -527,6 +539,11 @@ export const TOURS: Tour[] = [
       { day: 6, title: "Gorge Exit → Bou Tharar", description: "Exit the gorge. Night in Bou Tharar village with a local family." },
       { day: 7, title: "Bou Tharar → Marrakech", description: "Transfer back to Marrakech via the rose valley. Tour concludes by 4:00 pm." },
     ],
+    faq: [
+      { q: "Is M'Goun harder than Toubkal?", a: "Over a week, yes. We rate this expert against challenging for the Toubkal routes — not because any single day is technical, but because it is seven consecutive days in remote country with fewer places to stop or turn back. Sustained effort rather than a single hard day." },
+      { q: "How remote is this trek?", a: "Genuinely remote. The route crosses high country and gorges, passing villages where trekking groups are still uncommon. That is the appeal, and it is also why the route needs a guide who knows the water sources and the weather patterns." },
+      { q: "What experience do I need for the M'Goun traverse?", a: "Previous multi-day trekking. This is not a first big walk: you should already know how your body handles consecutive days on rough ground and how you respond to altitude. If you have done Toubkal comfortably, you have a reasonable basis for this." },
+    ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït M'hamed, Mgoun Massif" },
     seoTitle: "Mgoun Massif Trek 7 Days — Morocco's Wildest High-Altitude Traverse | Marrakech Eco Tours",
     seoDescription: "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m), cross high passes, and sleep in Berber family homes with no other tourists. From $820.",
@@ -581,6 +598,11 @@ export const TOURS: Tour[] = [
         description:
           "Depart Agadir at 9:00 am. Arrive Paradise Valley by 10:00 am. Guided gorge hike, swimming in natural pools, Berber lunch under the palms. Return to Agadir by 5:00 pm.",
       },
+    ],
+    faq: [
+      { q: "Will there be water in the pools?", a: "It depends on the season. Levels swing hard: after winter rain the pools are at their best, and after a long dry spell some shrink or disappear. Spring is the most reliable window. We will tell you honestly what the current conditions are before you travel." },
+      { q: "Can children do this trip?", a: "Yes, it is one of our more family-friendly day trips. The walk to the main pools is short and straightforward, and the swimming is the point. The jumping rocks are optional and there is plenty to do without them." },
+      { q: "How early should we leave?", a: "Early. Paradise Valley is about ninety minutes from Agadir, and arriving before the mid-morning crowd changes the experience considerably — the difference between having a pool largely to yourselves and sharing it." },
     ],
     meetingPoint: { lat: 30.5376, lng: -9.5000, name: "Paradise Valley, Tamraght" },
     seoTitle: "Paradise Valley Day Trip from Agadir — Natural Swimming Pools & Palm Gorge | Marrakech Eco Tours",
@@ -1245,6 +1267,11 @@ export const TOURS: Tour[] = [
         description:
           "Pre-dawn wake-up to climb the dune crest for sunrise. Breakfast at camp. The 4x4 returns across the desert to M'Hamid. Begin the long, beautiful drive north through Zagora, the Draa Valley, and back over the High Atlas. Arrive Marrakech by 7:30 pm.",
       },
+    ],
+    faq: [
+      { q: "How is Erg Chegaga different from Merzouga?", a: "Chegaga is remoter and quieter. The dune field is wider but lower than Erg Chebbi, and the final approach is by 4x4 across open desert rather than surfaced road. You may see no other camp at all, which is the entire reason to choose it." },
+      { q: "Why is this trip rated moderate rather than easy?", a: "The access. Reaching Chegaga means a 4x4 transfer across open desert, which is rougher going than the road route to Merzouga. The walking itself is not demanding — the rating reflects the journey rather than the effort." },
+      { q: "Is Erg Chegaga worth the extra effort over Merzouga?", a: "If solitude is what you are actually after, yes. If you want the tall sculpted dunes from the photographs with straightforward access, Merzouga is the better use of the same three days. Neither is a consolation prize; they are different experiences." },
     ],
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
@@ -2003,6 +2030,12 @@ export const TOURS: Tour[] = [
         description:
           "Pre-dawn start for the summit via the South Cirque (around 3 hours up). Sunrise from the roof of North Africa, then descend to the refuge for lunch and continue down to Imlil (4–5 hours total descent). Transfer back to Marrakech.",
       },
+    ],
+    faq: [
+      { q: "Is two days really enough to climb Toubkal?", a: "It is enough to summit, and fit walkers do it regularly. What it does not give you is time to acclimatise — you go from Marrakech to 4,167 metres in around thirty hours. If you have hillwalking experience and a tight schedule it works; for a first time at altitude the 4-day is the safer choice." },
+      { q: "What does day one involve?", a: "An early transfer from Marrakech to Imlil, about an hour and a half, then four to five hours walking up the Aït Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge at 3,207 metres. Dinner at the refuge and an early night before the summit start." },
+      { q: "How hard is the descent?", a: "Longer than people expect. After the summit you come back down to the refuge and continue to Imlil — four to five hours of descent in total, on loose ground, on tired legs. This is where knees complain, and it is worth training for specifically." },
+      { q: "Can I do this trek in winter?", a: "Only with winter equipment and a guide qualified for those conditions. From roughly November to March the upper route is snow-covered and requires crampons, an ice axe and the skills to use them. It becomes a mountaineering trip rather than a walk." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Mount Toubkal Trek from Marrakech — Express Summit 4,167 m | Marrakech Eco Tours",

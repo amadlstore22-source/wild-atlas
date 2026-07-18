@@ -1,3 +1,5 @@
+import type { Faq } from "@/lib/seo/types";
+
 export type BlogRegion =
   | "root"
   | "atlas-mountains"
@@ -25,11 +27,9 @@ export interface BlogAuthor {
 const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false };
 
 /** A question/answer pair rendered on the page and emitted as FAQPage schema.
- *  Answers must be self-contained — Google shows them without our page around them. */
-export interface BlogFaq {
-  q: string;
-  a: string;
-}
+ *  Answers must be self-contained — Google shows them without our page around them.
+ *  Defined in lib/seo/types so tours can share it without importing blog data. */
+export type BlogFaq = Faq;
 
 export interface BlogPost {
   slug: string;
@@ -51,6 +51,10 @@ export interface BlogPost {
   faq?: BlogFaq[];
   /** Slugs of tours this post should funnel to. Editorial -> money page. */
   relatedTours?: string[];
+  /** Opt in to the live-conditions widget. Must name a region in lib/weather.ts
+   *  LOCATIONS, and the post content must contain a [[WEATHER]] line marking
+   *  where it renders. Both halves are asserted by the blog tests. */
+  weatherRegion?: string;
 }
 
 export const BLOG_POSTS: BlogPost[] = [

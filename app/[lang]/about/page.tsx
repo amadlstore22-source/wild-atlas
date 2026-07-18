@@ -9,6 +9,7 @@ import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
+import JsonLd from "@/components/seo/JsonLd";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -53,7 +54,7 @@ export default async function AboutPage({ params }: LangParams) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={aboutJsonLd} />
       {/* ── Hero ── */}
       <div className="relative h-[65vh] min-h-[440px] flex items-end">
         <Image

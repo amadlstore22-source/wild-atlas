@@ -7,6 +7,7 @@ import { TOURS } from "@/lib/tours";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import TourCard from "@/components/ui/TourCard";
 import { whatsappUrl } from "@/lib/constants";
+import JsonLd from "@/components/seo/JsonLd";
 
 type GuideParams = { params: Promise<{ lang: string; id: string }> };
 
@@ -52,10 +53,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(guideJsonLd).replace(/</g, "\\u003c") }}
-      />
+      <JsonLd data={guideJsonLd} />
 
       {/* ── Back link ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">

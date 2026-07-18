@@ -6,6 +6,7 @@ import { Envelope, Phone, MapPin, Clock, WhatsappLogo, ChatCircleText } from "@p
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
+import JsonLd from "@/components/seo/JsonLd";
 type LangParams = { params: Promise<{ lang: string }> };
 
 const FAQ = [
@@ -68,7 +69,7 @@ export default async function ContactPage({ params }: LangParams) {
 
   return (
     <>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+    <JsonLd data={faqJsonLd} />
     <div className="moroccan-bg">
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[420px] flex items-end">

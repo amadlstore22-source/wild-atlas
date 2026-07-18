@@ -5,6 +5,7 @@ import { CATEGORIES, getToursByCategory, type Category } from "@/lib/tours";
 import TourCard from "@/components/ui/TourCard";
 import CTABanner from "@/components/sections/CTABanner";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import JsonLd from "@/components/seo/JsonLd";
 type CategoryParams = { params: Promise<{ lang: string; category: string }> };
 
 export async function generateStaticParams() {
@@ -59,7 +60,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={jsonLd} />
 
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image src={cat.heroImage} alt={cat.label} fill className="object-cover" priority />

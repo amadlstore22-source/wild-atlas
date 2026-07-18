@@ -1,3 +1,5 @@
+import type { Faq } from "@/lib/seo/types";
+
 export type Difficulty = "easy" | "moderate" | "challenging" | "expert";
 export type Category =
   | "trekking"
@@ -46,6 +48,10 @@ export interface Tour {
   isDayTour?: boolean;
   seoTitle?: string;
   seoDescription?: string;
+  /** Hand-written Q&A. Renders visibly AND as FAQPage schema — never one
+   *  without the other, which is why this is optional rather than synthesised.
+   *  Google treats schema with no visible counterpart as a violation. */
+  faq?: Faq[];
 }
 
 export const TOURS: Tour[] = [

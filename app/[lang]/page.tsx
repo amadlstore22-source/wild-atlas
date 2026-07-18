@@ -15,6 +15,7 @@ import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import { SITE, TRIPADVISOR, SISTER_SITE } from "@/lib/constants";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
+import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -120,12 +121,7 @@ export default async function HomePage({ params }: LangParams) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
+      <JsonLd data={websiteJsonLd} />
       <Hero lang={lang} dict={dict} />
       <TrustBar dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />

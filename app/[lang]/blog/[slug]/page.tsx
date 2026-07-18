@@ -4,6 +4,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowLeft, ArrowRight, Tag } from "@phosphor-icons/react/dist/ssr";
 import { BLOG_POSTS, BLOG_REGIONS, getBlogPost } from "@/lib/blog";
+import JsonLd from "@/components/seo/JsonLd";
+import FaqSection from "@/components/seo/FaqSection";
+import { buildFaqSchema } from "@/lib/seo/schema";
+import BlogWeather from "@/components/blog/BlogWeather";
+import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import { getDictionary, hasLocale } from "../../dictionaries";
 type BlogParams = { params: Promise<{ lang: string; slug: string }> };
 
@@ -122,15 +127,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
   ];
 
   if (post.faq?.length) {
-    graph.push({
-      "@type": "FAQPage",
-      "@id": `${postUrl}#faq`,
-      mainEntity: post.faq.map((f) => ({
-        "@type": "Question",
-        name: f.q,
-        acceptedAnswer: { "@type": "Answer", text: f.a },
-      })),
-    });
+    graph.push(buildFaqSchema(post.faq, `${postUrl}#faq`));
   }
 
   const jsonLd = { "@context": "https://schema.org", "@graph": graph };
@@ -153,7 +150,8 @@ export default async function BlogPostPage({ params }: BlogParams) {
   const cells = (l: string) =>
     l.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
 
-  const lines = post.content.trim().split("\n");
+  function renderMarkdown(source: string): string {
+  const lines = source.trim().split("\n");
   const htmlParts: string[] = [];
   let inList = false;
   const closeList = () => {
@@ -197,11 +195,19 @@ export default async function BlogPostPage({ params }: BlogParams) {
     }
   }
   closeList();
-  const htmlContent = htmlParts.join("\n");
+    return htmlParts.join("\n");
+  }
+
+  // A post can place the live-conditions widget mid-article with a [[WEATHER]]
+  // line. The renderer is string-based, so a React component cannot be woven
+  // into its output — instead we split the source on the token and render the
+  // segments either side of the widget.
+  // `\r?$` matters: lib/blog.ts is CRLF, so a bare `$` would never match.
+  const segments = post.content.split(/^\[\[WEATHER\]\]\r?$/m).map(renderMarkdown);
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={jsonLd} />
       <div>
         <div className="relative h-[55vh] min-h-[360px] overflow-hidden">
           <Image src={post.heroImage} alt={post.title} fill className="object-cover" priority />
@@ -237,29 +243,24 @@ export default async function BlogPostPage({ params }: BlogParams) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
             <article className="bg-card rounded-[4px] p-8 sm:p-12 shadow-sm">
               <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-l-4 border-sunset pl-5">{post.excerpt}</p>
-              <div className="blog-prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+              {segments.map((html, i) => (
+                <div key={i}>
+                  <div className="blog-prose max-w-none" dangerouslySetInnerHTML={{ __html: html }} />
+                  {/* Widget sits between segments only, never after the last one. */}
+                  {i < segments.length - 1 && post.weatherRegion && (
+                    <BlogWeather region={post.weatherRegion} />
+                  )}
+                </div>
+              ))}
 
               {/* Visible FAQ — must stay on-page: Google requires FAQPage schema
                   to reflect content the user can actually see. */}
-              {post.faq && post.faq.length > 0 && (
-                <section className="mt-12 pt-10 border-t border-rule">
-                  <h2 className="font-display text-ink text-3xl font-bold mb-6">
-                    Frequently asked questions
-                  </h2>
-                  <div className="space-y-3">
-                    {post.faq.map((item) => (
-                      <details key={item.q} className="group rounded-[3px] border border-rule bg-surface-sunk/30">
-                        <summary className="flex items-start justify-between gap-4 p-5 cursor-pointer list-none font-semibold text-ink hover:text-indigo transition-colors">
-                          {item.q}
-                          <span className="text-ink-muted group-open:rotate-45 transition-transform text-xl leading-none shrink-0">
-                            +
-                          </span>
-                        </summary>
-                        <div className="px-5 pb-5 text-ink-soft leading-relaxed">{item.a}</div>
-                      </details>
-                    ))}
-                  </div>
-                </section>
+              {post.faq && post.faq.length > 0 && <FaqSection faq={post.faq} />}
+
+              {/* Editorial → money page. The reader has finished the article and
+                  had their objections answered; this is the conversion moment. */}
+              {post.relatedTours && post.relatedTours.length > 0 && (
+                <RelatedTourCards slugs={post.relatedTours} lang={lang} dict={dict} />
               )}
 
               <div className="mt-10 pt-8 border-t border-sand-dark flex flex-wrap gap-2">

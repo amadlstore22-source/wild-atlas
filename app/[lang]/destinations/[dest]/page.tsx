@@ -8,6 +8,7 @@ import { TOURS } from "@/lib/tours";
 import TourCard from "@/components/ui/TourCard";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Locale } from "@/app/[lang]/dictionaries";
+import JsonLd from "@/components/seo/JsonLd";
 
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
 
@@ -97,9 +98,9 @@ export default async function DestinationPage({ params }: PageParams) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={jsonLd} />
       {destination.faqs.length > 0 && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+        <JsonLd data={faqJsonLd} />
       )}
 
       <div>

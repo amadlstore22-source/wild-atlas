@@ -13,6 +13,9 @@ import TourItinerary from "@/components/tours/TourItinerary";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import TourNavBar from "@/components/tours/TourNavBar";
+import JsonLd from "@/components/seo/JsonLd";
+import FaqSection from "@/components/seo/FaqSection";
+import { faqPageDocument } from "@/lib/seo/schema";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
 // Import from currency-core, not currency: the latter is "use client" and its
@@ -115,39 +118,19 @@ export default async function TourDetailPage({ params }: TourParams) {
     ],
   };
 
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `What is included in the ${tour.title}?`,
-        acceptedAnswer: { "@type": "Answer", text: tour.includes.join(". ") + "." },
-      },
-      {
-        "@type": "Question",
-        name: `What is the difficulty level of the ${tour.title}?`,
-        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} is rated ${tour.difficulty} difficulty. It lasts ${tour.duration} and is suitable for groups of ${tour.groupSize}.` },
-      },
-      {
-        "@type": "Question",
-        name: `How much does the ${tour.title} cost?`,
-        acceptedAnswer: { "@type": "Answer", text: `The ${tour.title} starts from ${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${schemaPrice(tour.price)} per person. A deposit of ${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${schemaPrice(tour.depositAmount)} is required to confirm your booking.` },
-      },
-      {
-        "@type": "Question",
-        name: `What is the meeting point for the ${tour.title}?`,
-        acceptedAnswer: { "@type": "Answer", text: `The meeting point is ${tour.meetingPoint.name}. Our guide will meet you there at the arranged time.` },
-      },
-    ],
-  };
+  // FAQPage only when the tour carries hand-written Q&A that also renders
+  // visibly below. This previously synthesised four questions from includes/
+  // difficulty/price/meetingPoint and emitted them with no on-page counterpart,
+  // which is a Google FAQPage guideline violation — schema must mirror content
+  // the user can actually see.
+  const faqJsonLd = tour.faq?.length ? faqPageDocument(tour.faq) : null;
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd).replace(/</g, "\\u003c") }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={productJsonLd} />
+      <JsonLd data={jsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
+      {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       <TourNavBar />
 
@@ -228,6 +211,12 @@ export default async function TourDetailPage({ params }: TourParams) {
                 </div>
               </div>
             </section>
+
+            {tour.faq && tour.faq.length > 0 && (
+              <div id="tour-faq" className="scroll-mt-32">
+                <FaqSection faq={tour.faq} />
+              </div>
+            )}
           </div>
 
           <div id="tour-book" className="lg:col-span-1 scroll-mt-32">

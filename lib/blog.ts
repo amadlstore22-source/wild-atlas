@@ -181,6 +181,14 @@ The deep-dive guides below cover each region in full detail.
     seoTitle: "How to Climb Jbel Toubkal 2026 — Complete Guide | Marrakech Eco Tours",
     seoDescription:
       "Everything you need to climb Toubkal — best season, fitness level, gear list, and day-by-day itinerary from Marrakech. Expert advice from certified Atlas guides.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
+    faq: [
+      { q: "Do you need a guide to climb Toubkal?", a: "Yes. Since 2018 the authorities require every foreign trekker in the Toubkal massif to be accompanied by a qualified mountain guide, and the checkpoint at Imlil does ask for it. Beyond the rule, the summit route is unmarked above the refuge and turns into a snow climb for much of the year, so a guide is doing real work rather than paperwork." },
+      { q: "How fit do you need to be to climb Toubkal?", a: "Fit enough to walk uphill for five to six hours on consecutive days. Toubkal is a long, steep walk rather than a technical climb, so hillwalking stamina matters far more than climbing skill. If you can manage a full day on hilly ground with a daypack and still function the next morning, you have the base you need." },
+      { q: "How many days do you need to climb Toubkal?", a: "Two days is the minimum and gets you up and down from Marrakech, but it gives your body almost no time to adjust to 4,167 metres. Four days is the version we recommend for most people: the same summit with an extra acclimatisation day, which is the single biggest factor in whether you actually reach the top feeling well." },
+      { q: "What is the Toubkal Refuge like?", a: "It is a working mountain hut at around 3,200 metres, not a hotel. Expect shared dormitory rooms, bunk beds with mattresses and blankets, communal meals, and cold nights. Bring a sleeping bag liner, a head torch and earplugs, and treat the early night as part of the plan since summit starts are well before dawn." },
+      { q: "What is the best time of year to climb Toubkal?", a: "April to October is the straightforward season, with the most settled weather from May to September. November to March is a genuine winter mountaineering trip: snow on the upper route, crampons and an ice axe required, and conditions that turn quickly. Both are possible with a guide, but they are different undertakings." },
+    ],
     content: `
 ## What Is Jbel Toubkal?
 
@@ -283,6 +291,13 @@ Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sicknes
     seoTitle: "Morocco Sahara Desert: What to Expect — Honest Guide 2026",
     seoDescription:
       "An honest guide to the Moroccan Sahara — Erg Chebbi vs Erg Chegaga, real desert camp experience, best time to visit, and what not to believe in the brochures.",
+    relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "desert-4day-marrakech"],
+    faq: [
+      { q: "How long does it take to reach the Sahara from Marrakech?", a: "Merzouga and the Erg Chebbi dunes sit on the far side of the Atlas, which is why we run the trip over three days rather than one. The driving is broken up by the Tizi n'Tichka pass, Ait Ben Haddou and the gorges, so the road is part of the trip rather than time lost getting there." },
+      { q: "What is a night in a desert camp actually like?", a: "Beds with blankets in a tent, a shared dinner, and complete quiet once the generators go off. The dunes are genuinely dark, which is the point: the night sky is the reason most people remember the camp rather than the camel ride. Nights get cold outside summer, so bring a warm layer even when the day has been hot." },
+      { q: "Is there phone signal or wifi in the desert?", a: "Signal is patchy at best out on the dunes and often absent altogether. You will have connectivity in the towns and guesthouses along the route, so plan to send messages before you head out to the camp rather than from it." },
+      { q: "Do you need to be fit for a desert tour?", a: "No. Our Sahara trips are rated easy: the distance is covered by vehicle, and the camel ride into the camp is short and optional. If you would rather walk the last stretch into the dunes than ride, that is entirely normal and the guides expect it." },
+    ],
     content: `
 ## Two Saharas, Two Experiences
 
@@ -356,6 +371,13 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     seoTitle: "Best Time to Visit Morocco 2026 — Month by Month Guide",
     seoDescription:
       "When is the best time to visit Morocco? A practical month-by-month guide from local guides — for trekking, desert tours, beach holidays, and city breaks.",
+    relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "What is the best month to visit Morocco?", a: "April, May, September and October are the safest choices country-wide: warm without the summer extremes, and workable for mountains, desert and cities in the same trip. If you only care about one of those, the answer shifts, which is what the sections above are for." },
+      { q: "Is Morocco too hot in summer?", a: "Inland it can be. Marrakech and the desert interior get genuinely severe in July and August, and midday activity becomes unrealistic. Summer still works if you are on the Atlantic coast, where Essaouira and Agadir stay moderate, or high in the Atlas where altitude does the cooling for you." },
+      { q: "When is the best time to trek in the High Atlas?", a: "April to October for normal trekking conditions, with the most reliable weather from May to September. Outside that window the high routes are under snow and become winter mountaineering rather than walking, which needs different equipment and experience." },
+      { q: "Does it get cold in the Sahara?", a: "Yes, and it surprises people. Desert days can be warm while the same night drops sharply once the sun goes down, especially between November and February. Camps provide blankets, but a warm layer and something for your head make the difference between enjoying the evening and hiding in the tent." },
+    ],
     content: `
 ## Morocco Has Four Very Different Climates
 
@@ -434,6 +456,7 @@ If you can only visit once: **April, May, or October**. You get every type of Mo
     seoTitle: "Marrakech to Fes Road Trip Guide 2026 — 3-Day Itinerary",
     seoDescription:
       "The complete guide to the Marrakech–Fes overland route: Tizi n'Tichka pass, Aït Ben Haddou, Merzouga, Ifrane, and Fes el-Bali. Day-by-day itinerary included.",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     content: `
 ## Why This Is One of the World's Great Road Journeys
 
@@ -505,6 +528,12 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     seoTitle: "Paradise Valley Agadir: Complete Guide 2026 | Marrakech Eco Tours",
     seoDescription:
       "Everything about Paradise Valley near Agadir — how to get there, best swimming spots, what to pack, and the best time to visit this hidden palm gorge.",
+    relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "agadir-surf-lesson"],
+    faq: [
+      { q: "Is Paradise Valley worth visiting?", a: "Yes, if you go with the right expectation. It is a palm-lined river gorge with natural rock pools about an hour and a half from Agadir, best as a half or full day out rather than a destination in itself. Go early: by late morning in high season the main pools are busy." },
+      { q: "Can you swim at Paradise Valley?", a: "In the pools that hold water, yes, and the jumping rocks are the main draw for most visitors. Water levels swing hard by season, so after a dry spell some pools shrink or disappear entirely. Spring, after the winter rains, is when the valley is at its best." },
+      { q: "Do you need a guide for Paradise Valley?", a: "Not to reach the main pools, which are a straightforward walk from the parking area. A guided trip mostly saves you the driving, the parking, and the guesswork about which pools currently have water, and lets you carry on further up the valley where far fewer people go." },
+    ],
     content: `
 ## What Is Paradise Valley?
 
@@ -583,6 +612,7 @@ At the top of the valley, near the village of Immouzer des Ida Outanane, a seaso
     seoTitle: "Essaouira Day Trip from Agadir — Complete Guide 2026",
     seoDescription:
       "How to do Essaouira as a day trip from Agadir — what to see, where to eat, what to buy, and how to handle the famous Essaouira wind.",
+    relatedTours: ["agadir-to-essaouira-day-trip", "agadir-surf-lesson"],
     content: `
 ## Why Essaouira Is Worth the Drive
 
@@ -823,6 +853,7 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
     seoTitle: "Ourika Valley Day Trip from Marrakech 2026 — Complete Guide",
     seoDescription:
       "Everything about the Ourika Valley day trip from Marrakech — what to see, the waterfall hike, Berber villages, best time to visit, and practical tips.",
+    relatedTours: ["ourika-valley-day-hike", "toubkal-summit-2day-marrakech"],
     content: `
 ## What Is the Ourika Valley?
 
@@ -889,6 +920,7 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
     seoTitle: "Agafay Desert Guide 2026 — Marrakech's Rocky Wilderness",
     seoDescription:
       "Everything about the Agafay Desert near Marrakech — what it is, what to do there, the best camps, and how it differs from the Sahara. Day trips and overnight stays explained.",
+    relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech"],
     content: `
 ## What Is the Agafay Desert?
 
@@ -1037,6 +1069,7 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     seoTitle: "Taghazout Surf Guide 2026 — Morocco's Premier Surf Destination",
     seoDescription:
       "The complete guide to surfing Taghazout, Morocco — best breaks, surf schools, when to go, where to stay, and what to expect from Morocco's most famous surf village.",
+    relatedTours: ["agadir-surf-lesson", "paradise-valley-agadir"],
     content: `
 ## Why Taghazout?
 
@@ -1124,6 +1157,12 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     seoTitle: "Anti-Atlas Trekking Guide 2026 — Morocco's Hidden Mountain Range",
     seoDescription:
       "Your guide to trekking the Anti-Atlas mountains of Morocco — Tafraoute, the Ameln Valley, painted rocks, almond blossom, and trails with almost no other hikers.",
+    relatedTours: ["anti-atlas-trekking-agadir", "mgoun-massif-trek"],
+    faq: [
+      { q: "Is the Anti-Atlas harder than the High Atlas?", a: "Lower and generally gentler. Our Anti-Atlas trekking is rated moderate against challenging for the Toubkal routes, because you are walking at lower altitude without a 4,167-metre summit day. The trade-off is different rather than easier terrain: long dry stretches and remote villages instead of high passes." },
+      { q: "When is the best time to trek the Anti-Atlas?", a: "Late winter and spring are the standout months, when the almond blossom is out around Tafraoute and daytime temperatures are comfortable. Summer is hot and exposed with limited shade, which is exactly when the High Atlas becomes the better choice." },
+      { q: "Do you need a guide in the Anti-Atlas?", a: "There is no legal requirement as there is in the Toubkal massif, but the practical case is strong. Paths are unmarked, villages are spread out, and water sources are not obvious to anyone who has not walked the route before. Local guides also unlock the village hospitality that makes the region worth visiting." },
+    ],
     content: `
 ## The Anti-Atlas: Morocco's Best-Kept Secret
 

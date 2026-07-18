@@ -2425,6 +2425,624 @@ If you can only travel in July or August, go anyway — start early, drink more 
 The one approach that does not work is treating Toubkal as a warm-country walk because Marrakech was 35°C when you landed. The mountain is a different climate, and the people who struggle are almost always the ones who packed for the city.
 `,
   },
+  {
+    slug: "how-hard-is-toubkal-difficulty-guide",
+    author: MET_TEAM,
+    title: "How Hard Is Toubkal, Really? An Honest Difficulty Guide",
+    excerpt: "Toubkal is a long walk at altitude, not a climb — but that undersells it. What the trek actually demands of your legs and lungs, and who struggles on it.",
+    heroImage: "/gallery/toubkal-trekker-snow-slope.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Toubkal difficulty", "how hard is Toubkal", "Toubkal for beginners", "High Atlas", "Morocco trekking"],
+    seoTitle: "How Hard Is Toubkal? An Honest Difficulty Guide",
+    seoDescription: "Whether a beginner can climb Jbel Toubkal, what the summit day actually demands, how altitude affects it, and the training that genuinely helps.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-aguelzim-pass-3day"],
+    faq: [
+      { q: "Can a beginner climb Toubkal?", a: "Yes, and many do. There is no climbing skill required on the normal summer route — it is walking on rough ground. What a beginner needs is hillwalking stamina, a tolerance for early starts, and ideally the longer itinerary so the body has time to adjust to altitude." },
+      { q: "Is Toubkal a technical climb?", a: "Not in summer. The standard South Cirque route is a walk-up on rock and scree with no ropes or climbing moves. In winter it changes character completely: snow cover turns the upper mountain into a climb requiring crampons, an ice axe and the skills to use them." },
+      { q: "How long is summit day on Toubkal?", a: "Long. From the refuge it is around three hours of ascent to the summit, starting before dawn, then the descent back to the refuge and often onward to Imlil — four to five hours of downhill on top of the climb. Expect a full day on your feet with a very early start." },
+      { q: "How do I train for Toubkal?", a: "Walk uphill, repeatedly, carrying a daypack. Long hilly walks on consecutive weekends do more than gym work, because they train the specific thing the trek asks for: sustained ascent, then descent on tired legs. Descending is what most people underprepare for, and it is where knees complain." },
+      { q: "What makes people fail to summit Toubkal?", a: "Altitude far more often than fitness. Going too fast, drinking too little, or attempting the summit on a compressed itinerary with no time to adjust are the common causes. Very fit people who push hard on day one are not immune — if anything they are more prone to it." },
+    ],
+    content: `
+"Is Toubkal hard?" gets two unhelpful answers online. One says it is just a walk and anyone can do it. The other treats 4,167 metres as if it were serious mountaineering. Both are wrong in ways that get people into trouble.
+
+Here is the honest version, from guides who walk it constantly.
+
+## The short answer
+
+Toubkal is a **long, steep walk at altitude**. On the normal summer route there is no climbing, no rope, and no exposure that requires technical skill. What there is: two big days on rough ground, a pre-dawn summit push, and enough altitude that your body notices.
+
+If you can walk uphill for five hours with a daypack and still function the next morning, you have the physical base. Whether you summit comfortably depends more on altitude and pacing than on strength.
+
+## What the trek actually asks of you
+
+The standard route from Marrakech gives you a transfer of about an hour and a half to Imlil, then the walk in.
+
+- **The approach.** Up the Aït Mizane valley, past the shrine at Sidi Chamharouch, to the Toubkal Refuge at 3,207 metres. Four to five hours of steady, unrelenting uphill. Not steep enough to need your hands, long enough to be a real day.
+- **Summit day.** A pre-dawn start, roughly three hours up the South Cirque to the summit at 4,167 metres. Loose rock and scree underfoot, thin air, cold and often windy. The gradient is the hardest of the trek.
+- **The descent.** Down to the refuge, then often all the way to Imlil — four to five hours of downhill in total. This is where the difficulty hides, and where most complaints come from afterwards.
+
+That last point deserves emphasis. People train for going up and are ambushed by coming down. Descending on tired legs, on loose ground, for hours, is what leaves knees sore for a week.
+
+## Altitude is the real difficulty
+
+Fitness gets you up the valley. Altitude decides how the summit feels.
+
+At 4,167 metres there is meaningfully less oxygen in each breath. The common effects are headache, poor sleep at the refuge, loss of appetite, and everything simply feeling harder than it should. This is normal, and it is not proportional to how fit you are — strong athletes get hit precisely because they push hard early.
+
+The things that actually help:
+
+- **Go slowly on the approach.** The pace that feels absurdly easy on day one is the correct pace.
+- **Drink more than you want to.** Dehydration and altitude symptoms overlap heavily.
+- **Give yourself an extra day if you can.** This is the single biggest lever available to you.
+
+## Two days or four?
+
+Both itineraries reach the same summit. The difference is how much room your body gets.
+
+The two-day trip is efficient: up to the refuge, summit at dawn, back to Marrakech. It works, and fit walkers do it regularly. But you go from city altitude to 4,167 metres in about thirty hours, which is a lot to ask.
+
+The four-day version walks in more gradually and includes time to acclimatise before the summit push. For most people this is the difference between grinding out a summit and enjoying one. We compare them properly in [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek).
+
+## Winter is a different mountain
+
+Everything above describes summer. From roughly November to March, snow covers the upper route and Toubkal stops being a walk. Crampons, an ice axe, and the knowledge to use them become mandatory, and the consequences of a slip change entirely.
+
+Fit beginners do summit in winter, but only with a guide qualified for winter conditions. See [Climbing Toubkal in Winter](/en/blog/toubkal-in-winter-what-to-expect).
+
+## So who finds it hard?
+
+In our experience the people who struggle are, in order:
+
+1. Those who went too fast on the first day.
+2. Those on the shortest itinerary with no acclimatisation.
+3. Those who did not drink enough.
+4. Those who underestimated the descent.
+
+Notice that raw fitness is not on that list. It matters, but pacing and time at altitude matter more, and both are things you can control before you book.
+
+## How to train, if you want to
+
+Nothing exotic. Long walks on hilly ground, ideally on consecutive days, carrying the daypack you will actually use. Add hills wherever you can. If you have access to a mountain, walk up and down it.
+
+Strengthening for the descent is the underrated part — quads and knees take the load going down, and that is the half of the trek people forget to prepare for.
+
+## The verdict
+
+Toubkal is achievable for a determined person of ordinary fitness who takes the altitude seriously. It is not a stroll, and treating it as one is how people end up turning around below the summit.
+
+Give it the longer itinerary if your schedule allows, walk slower than feels necessary, and the roof of North Africa is well within reach.
+`,
+  },
+  {
+    slug: "toubkal-2-day-vs-4-day-which-trek",
+    author: MET_TEAM,
+    title: "Toubkal in 2 Days or 4: Which Trek Should You Book?",
+    excerpt: "Both itineraries reach the same 4,167 m summit. The difference is how much time your body gets to adjust — and that changes your odds more than fitness does.",
+    heroImage: "/gallery/toubkal-trekkers-below-summit.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Toubkal itinerary", "2 day Toubkal", "4 day Toubkal", "how many days Toubkal", "High Atlas"],
+    seoTitle: "Toubkal in 2 Days or 4: Which Trek Should You Book?",
+    seoDescription: "A straight comparison of the 2-day and 4-day Toubkal treks — acclimatisation, summit-day length, who each suits, and when the longer trip is worth it.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
+    faq: [
+      { q: "How many days do you need to climb Toubkal?", a: "Two days is the practical minimum from Marrakech and it does work for fit walkers. Four days is what we recommend for most people, because the extra time is spent acclimatising rather than walking further, and that is the factor that most affects whether you reach the summit feeling well." },
+      { q: "Is the 2-day Toubkal trek enough?", a: "It is enough to summit, and plenty of people do it. What it does not give you is time to adjust to altitude — you go from city level to 4,167 m in around thirty hours. If you have hillwalking experience and a tight schedule it is a reasonable choice; if this is your first time at altitude, the longer trip is the safer bet." },
+      { q: "What do you actually do with the extra days on the 4-day trek?", a: "You walk in at a gentler pace and spend time at intermediate altitude before the summit push, rather than covering more ground. That is the whole point: the additional days are acclimatisation and recovery, which is what turns a grinding summit day into an enjoyable one." },
+      { q: "Which Toubkal itinerary is best for beginners?", a: "The four-day. Beginners benefit most from the extra acclimatisation, and the slower build-up makes the summit day feel like a challenge rather than an ordeal. The two-day suits people who already know how their body handles altitude and multi-hour ascents." },
+    ],
+    content: `
+Both trips end on the same summit. Both use the same route through the Aït Mizane valley to the refuge, and the same South Cirque climb at dawn. The question is not which is better — it is which is better *for you*.
+
+## The two-day trip
+
+**Day one:** transfer from Marrakech to Imlil, about an hour and a half. Trek up the valley past Sidi Chamharouch to the Toubkal Refuge at 3,207 metres. Four to five hours walking. Dinner, then an early night.
+
+**Day two:** pre-dawn start for the summit via the South Cirque, roughly three hours up. Sunrise from the roof of North Africa, then back down to the refuge and onward to Imlil — four to five hours of descent — before the transfer to Marrakech.
+
+It is efficient and it works. Fit walkers with mountain experience do this regularly and enjoy it.
+
+The cost is acclimatisation. You go from roughly 450 metres in Marrakech to 4,167 metres in about thirty hours. Your body has essentially no time to adapt, and altitude does not care how strong your legs are.
+
+## The four-day trip
+
+Same mountain, same summit, more room. The additional days are not spent walking further — they are spent walking in more gradually and giving you time at intermediate altitude before the summit push.
+
+That distinction matters. People assume the longer trek means more effort. In practice it means the same summit with better preparation, and a summit day that feels like a good hard day out rather than a battle.
+
+## What actually changes
+
+| | 2-day | 4-day |
+|---|---|---|
+| Summit reached | Yes, 4,167 m | Yes, 4,167 m |
+| Time to acclimatise | Essentially none | Built in |
+| Daily walking load | Concentrated into two big days | Spread out |
+| Best for | Experienced hillwalkers, tight schedules | First-timers at altitude, most people |
+| Odds of feeling rough on summit day | Higher | Lower |
+
+## How to choose
+
+**Take the two-day if:** you have walked at altitude before and know how your body responds, you are comfortable with two consecutive big days, and your time in Morocco is genuinely limited.
+
+**Take the four-day if:** this is your first time near 4,000 metres, you would rather enjoy the summit than endure it, or you simply have the days available. For most people asking the question, this is the answer.
+
+The honest framing: the two-day is a fine trip that asks more of you. The four-day is the same trip with the main risk factor reduced.
+
+## If you have longer still
+
+More days do not have to mean more of the same mountain. The [six-day Toubkal Circuit with Ifni Lake](/en/tours/toubkal-circuit-ifni-lake-6day) adds the turquoise lake on the far side of the massif and country most Toubkal trekkers never see. The [three-peaks challenge](/en/tours/toubkal-three-peaks-4000m-3day) is rated expert and takes in several 4,000-metre summits.
+
+Those are different trips rather than longer versions of this one.
+
+## The one thing that decides it
+
+Not fitness. Time at altitude.
+
+If you can spare the days, spend them. It is the cheapest improvement you can make to your chances of standing on top feeling good — and to how much you remember of the view rather than the effort.
+
+For more on what the trek demands physically, see [How Hard Is Toubkal, Really?](/en/blog/how-hard-is-toubkal-difficulty-guide)
+`,
+  },
+  {
+    slug: "agafay-vs-merzouga-vs-zagora",
+    author: MET_TEAM,
+    title: "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
+    excerpt: "Three very different deserts sold under one word. What each actually is, how long each needs, and which one matches the picture in your head.",
+    heroImage: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Agafay", "Merzouga", "Zagora", "Morocco desert", "Sahara from Marrakech", "desert comparison"],
+    seoTitle: "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
+    seoDescription: "An honest comparison of Morocco's three desert options from Marrakech — stone desert versus real dunes, how many days each needs, and which suits your trip.",
+    relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech", "sahara-3day-marrakech"],
+    faq: [
+      { q: "Is Agafay a real desert?", a: "It is a real desert, but a stone one rather than a sand one. Agafay is a rocky, lunar landscape about 40 minutes from Marrakech with no dunes to speak of. It is genuinely beautiful at sunset, but if you are picturing tall sand dunes, that is Merzouga and it is a long way further." },
+      { q: "Is Zagora worth it, or should I go to Merzouga?", a: "Zagora is the honest compromise when you have two days rather than three. The dunes are smaller and the landscape less dramatic than Erg Chebbi at Merzouga, but the trip is real and the drive far shorter. With three days available, Merzouga is the stronger choice." },
+      { q: "How long does each desert trip take from Marrakech?", a: "Agafay is an afternoon and evening. Zagora runs as two days with one night. Merzouga needs three days and two nights, because Erg Chebbi sits on the far side of the Atlas. Those durations are set by driving distance rather than by how much there is to do." },
+      { q: "Which desert has the big sand dunes you see in photos?", a: "Merzouga. The Erg Chebbi dunes there are the tall, sculpted sand hills that appear in most Morocco desert photography. Zagora has smaller dunes and Agafay has essentially none, so if the dunes are the reason you are going, plan for the three-day trip." },
+    ],
+    content: `
+Three destinations get sold as "the desert near Marrakech", and they are not remotely the same thing. One is 40 minutes away and has no dunes. One is a long day's drive to modest dunes. One is on the far side of the Atlas and has the landscape you actually pictured.
+
+Knowing which is which before you book prevents the most common disappointment we hear about.
+
+## The short answer
+
+- **Agafay** — stone desert, 40 minutes from Marrakech, half a day. No sand dunes.
+- **Zagora** — real desert, two days, smaller dunes, much shorter drive.
+- **Merzouga (Erg Chebbi)** — the iconic tall dunes, three days, furthest away.
+
+If the dunes are the point, go to Merzouga. If you have one evening, go to Agafay knowing what it is. Zagora sits in between and is the right answer for exactly one situation: you want real desert and you only have two days.
+
+## Agafay: the sunset option, not the Sahara
+
+Agafay is a rocky, undulating landscape of pale hills southwest of Marrakech. Marketing photography frequently implies dunes. There are none.
+
+What it genuinely offers: an extraordinary lunar landscape close to the city, dramatic light at sunset, camps with dinner under a properly dark sky, and the Atlas as a backdrop. Our [Agafay sunset trip](/en/tours/agafay-desert-sunset) runs as an afternoon and evening, so it costs you no travel days at all.
+
+**Choose it if** your trip is short, you want a desert evening without committing days to driving, or you are travelling with people who would not enjoy long car journeys.
+
+**Do not choose it if** you have come to Morocco to see the Sahara. It is a different landscape, and no amount of good photography changes that.
+
+## Zagora: the two-day compromise
+
+Zagora sits south of the Atlas in the Draa Valley, reachable in a long day's drive. The dunes here are smaller and less sculpted than Erg Chebbi, and the setting is more scrub and palm than endless sand.
+
+The trade is straightforward: significantly less driving than Merzouga, and a real night in the desert. Our [two-day Zagora trip](/en/tours/zagora-2day-marrakech) is rated easy, with the distance covered by vehicle.
+
+**Choose it if** you have exactly two days and want an actual desert night rather than a stone-desert dinner.
+
+**Do not choose it if** you have three days. With three, Merzouga is better in every respect that matters.
+
+## Merzouga: the dunes you were imagining
+
+Erg Chebbi, beside Merzouga, is the real thing — tall, sharply defined sand dunes that shift colour through the day. It is the landscape that appears in nearly every Morocco desert photograph.
+
+The catch is distance. Merzouga is on the far side of the Atlas, which is why our [three-day Sahara trip](/en/tours/sahara-3day-marrakech) is three days and not fewer. The drive crosses the Tizi n'Tichka pass and passes Aït Ben Haddou and the gorges, so the journey carries its own sights rather than being dead time — but it is still substantial driving.
+
+**Choose it if** the dunes are why you are going, and you can spare three days.
+
+## Side by side
+
+| | Agafay | Zagora | Merzouga |
+|---|---|---|---|
+| Landscape | Stone desert, no dunes | Modest dunes, Draa Valley | Tall Erg Chebbi dunes |
+| Time needed | Afternoon and evening | 2 days, 1 night | 3 days, 2 nights |
+| Distance from Marrakech | About 40 minutes | Long day's drive | Far side of the Atlas |
+| Night in the desert | Camp dinner, close to city | Yes | Yes |
+| Best for | Short trips, no travel days | Two-day windows | Seeing the actual Sahara |
+
+## And if you want fewer people
+
+There is a fourth option most comparisons skip. **Erg Chegaga** is remoter than Merzouga, reached by 4x4, with far fewer camps in view. Our [three-day Erg Chegaga trip](/en/tours/erg-chegaga-3day-marrakech) is rated moderate rather than easy, reflecting the rougher access.
+
+If solitude matters more to you than convenience, that is the one to look at.
+
+## How to decide in one line
+
+Count your available days. **One evening: Agafay. Two days: Zagora. Three days: Merzouga** — or Erg Chegaga if you would rather trade comfort for emptiness.
+
+The mistake to avoid is booking Agafay expecting the Sahara. It is a fine trip on its own terms and a poor substitute for the thing it is often marketed as.
+`,
+  },
+  {
+    slug: "erg-chebbi-vs-erg-chegaga",
+    author: MET_TEAM,
+    title: "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
+    excerpt: "Morocco has two great sand seas. One is easier to reach and unmistakably spectacular; the other is remote enough that you may see no other camp at all.",
+    heroImage: "https://images.unsplash.com/photo-1548940740-204726a19be3?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "Sahara dunes", "Morocco desert"],
+    seoTitle: "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
+    seoDescription: "The difference between Morocco's two great sand seas — dune height, access, crowds and cost — and how to choose between Merzouga and Erg Chegaga.",
+    relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "erg-chegaga-3day-agadir"],
+    faq: [
+      { q: "What is the difference between Erg Chebbi and Erg Chegaga?", a: "Erg Chebbi, beside Merzouga, has the tallest and most photographed dunes and is reachable on surfaced roads. Erg Chegaga is larger in area, considerably remoter, and reached by 4x4 across open desert. Chebbi wins on drama and access; Chegaga wins on solitude." },
+      { q: "Which dunes are taller, Erg Chebbi or Erg Chegaga?", a: "Erg Chebbi has the taller, more sharply sculpted dunes — they are the ones in most Morocco desert photography. Erg Chegaga covers a wider area with a rolling, more diffuse dune field, which reads as vast rather than dramatic." },
+      { q: "Is Erg Chegaga worth the extra effort?", a: "If emptiness is what you want, yes. The final approach is by 4x4 across open desert and there are far fewer camps in sight, so the experience feels genuinely remote. If you would rather have the postcard dune landscape with easier access, Erg Chebbi is the better use of your days." },
+      { q: "Why do Erg Chegaga trips cost more?", a: "The access is the reason. Reaching Chegaga requires 4x4 transfer across open desert rather than surfaced road, and the camps are further from resupply. Our Erg Chegaga trips are rated moderate rather than easy for the same reason." },
+    ],
+    content: `
+Most Morocco desert content treats "the Sahara" as one destination. It is not. Morocco has two major sand seas that offer noticeably different experiences, and choosing between them is the most useful decision you can make once you have decided to go.
+
+## The difference in one paragraph
+
+**Erg Chebbi**, at Merzouga, is the famous one: tall, sculpted dunes reachable on surfaced roads, with a well-established cluster of camps. **Erg Chegaga**, further west beyond M'Hamid, is a much larger dune field reached by 4x4 across open desert, with far fewer camps and far fewer people. Chebbi is more dramatic and easier. Chegaga is emptier and harder.
+
+## Erg Chebbi: the postcard dunes
+
+These are the dunes in the photographs. Erg Chebbi rises abruptly out of flat ground in a way that looks almost artificial, and the dunes shift colour convincingly from dawn through sunset.
+
+Access is straightforward: our [three-day Sahara trip](/en/tours/sahara-3day-marrakech) is rated easy, with the distance covered by road and only a short camel leg into the camp.
+
+The trade-off is company. Chebbi is the established destination, so there are other camps and other visitors. You are not alone out there, though the dunes are large enough to absorb people better than you might expect.
+
+**Choose Chebbi if** you want the classic dune landscape, straightforward access, or you are travelling with people for whom rough transfers would be a problem.
+
+## Erg Chegaga: the remote one
+
+Chegaga covers a much wider area than Chebbi but with a lower, more rolling profile. It reads as vast rather than sculptural — a sand sea rather than a wall of dunes.
+
+The defining feature is remoteness. The final approach is 4x4 across open desert, and the camps out there are sparse enough that you can genuinely see none but your own. Our Erg Chegaga trips run from both [Marrakech](/en/tours/erg-chegaga-3day-marrakech) and [Agadir](/en/tours/erg-chegaga-3day-agadir), and are rated moderate rather than easy specifically because of that access.
+
+**Choose Chegaga if** solitude is the thing you are actually seeking, and you are happy to trade some comfort and convenience to get it.
+
+## Side by side
+
+| | Erg Chebbi (Merzouga) | Erg Chegaga |
+|---|---|---|
+| Dune character | Tall, sharply sculpted | Wider field, rolling |
+| Access | Surfaced road, short camel leg | 4x4 across open desert |
+| Other camps in sight | Several | Few to none |
+| Trip rating | Easy | Moderate |
+| Best for | The classic dune landscape | Genuine remoteness |
+
+## Which should you book?
+
+Ask what would disappoint you more: sharing the view, or spending a rough few hours getting somewhere.
+
+If sharing the view would spoil it, go to Chegaga. If the rough transfer would, go to Chebbi. Both are the real Sahara, and neither is a consolation prize.
+
+For how these compare against the shorter options closer to Marrakech, see [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+`,
+  },
+  {
+    slug: "marrakech-vs-agadir-which-base",
+    author: MET_TEAM,
+    title: "Marrakech or Agadir: Which Base for Your Morocco Trip?",
+    excerpt: "Two very different starting points, and the choice shapes everything you can reach. A guide from an operator that runs trips from both.",
+    heroImage: "https://images.unsplash.com/photo-1597212720158-c3c9b1b0dd0e?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Marrakech vs Agadir", "Morocco base", "where to stay Morocco", "Agadir", "Marrakech"],
+    seoTitle: "Marrakech or Agadir: Which Base for Your Morocco Trip?",
+    seoDescription: "Marrakech or Agadir as your base — what each puts within reach, how they differ in character and climate, and which suits mountains, desert, coast or family travel.",
+    relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "paradise-valley-agadir", "sahara-2day-agadir"],
+    faq: [
+      { q: "Is Marrakech or Agadir better for a first trip to Morocco?", a: "Marrakech, for most people. It puts the Atlas mountains, the classic desert routes and the historic medina all within reach, and it is the natural base for the trips visitors come to Morocco for. Agadir is the better choice if you specifically want beach, surf and a calmer pace." },
+      { q: "Can you visit the Sahara from Agadir?", a: "Yes, though not as a day trip. We run two, three and four-day desert trips from Agadir, including Merzouga and Erg Chegaga. The driving is longer than from Marrakech, which is why the itineraries are structured around it rather than pretending it can be done quickly." },
+      { q: "Is Agadir good for families?", a: "It is one of the easier bases in Morocco for families. The beach is long and sheltered, the pace is calmer than Marrakech, and day trips like Paradise Valley and the Souss-Massa park work well with children. The medina experience is much less intense than Marrakech, for better or worse." },
+      { q: "Which is better for trekking, Marrakech or Agadir?", a: "Marrakech for the High Atlas and Toubkal, since Imlil is only about an hour and a half away. Agadir is the better base for the Anti-Atlas, a lower and quieter range that is at its best in late winter and spring when the High Atlas is under snow." },
+    ],
+    content: `
+Most Morocco itineraries assume Marrakech. It is the obvious base, and for many trips it is the right one — but not all. We run trips from both cities, and the honest answer is that they suit different holidays.
+
+## The one-line version
+
+**Marrakech** for mountains, desert and the classic Morocco experience. **Agadir** for coast, surf, a gentler pace and family travel.
+
+## What Marrakech puts within reach
+
+Marrakech sits at the foot of the High Atlas, and that geography does most of the work.
+
+- **The High Atlas and Toubkal.** Imlil, the Toubkal trailhead, is about an hour and a half away. That proximity is why the [four-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is possible as a self-contained trip.
+- **The classic desert routes.** Merzouga, Zagora and Erg Chegaga all run from here, with the [three-day Sahara trip](/en/tours/sahara-3day-marrakech) being the standard.
+- **Day trips.** Ourika Valley, Ouzoud waterfalls, Agafay, and Essaouira on the coast.
+- **The medina itself.** Jemaa el-Fnaa, the souks, the historic quarters — an experience in its own right rather than just a place to sleep.
+
+The trade-off is intensity. Marrakech is loud, busy and relentless in the best and worst senses. Some people love it immediately; others find it exhausting after three days.
+
+## What Agadir puts within reach
+
+Agadir was rebuilt after the 1960 earthquake, so it has little of the historic fabric people associate with Morocco. What it has instead is a long Atlantic beach, a mild climate year-round, and a much calmer register.
+
+- **Coast and surf.** Taghazout is close, and our [surf lessons](/en/tours/agadir-surf-lesson) run as half-days.
+- **Paradise Valley.** Palm-lined gorge with rock pools, about ninety minutes out. See our [day trip](/en/tours/paradise-valley-agadir).
+- **Souss-Massa National Park.** Birdlife including flamingos and the rare bald ibis. [Details here](/en/tours/sous-massa-national-park).
+- **Taroudant.** Walled town often described as a smaller, quieter Marrakech. [Day trip](/en/tours/taroudant-day-trip-agadir).
+- **The Anti-Atlas.** Lower and far quieter than the High Atlas, at its best in late winter and spring.
+- **The desert, over more days.** [Two-day](/en/tours/sahara-2day-agadir) and [three-day](/en/tours/merzouga-3day-agadir) trips run from here too.
+
+## Side by side
+
+| | Marrakech | Agadir |
+|---|---|---|
+| Character | Intense, historic, busy | Calm, modern, coastal |
+| Mountains | High Atlas and Toubkal, close | Anti-Atlas, quieter |
+| Desert | Shortest routes | Longer drives, still workable |
+| Beach | None | Long Atlantic beach |
+| Summer climate | Very hot inland | Moderated by the ocean |
+| Families | Workable but full-on | Notably easier |
+
+## Which should you pick?
+
+**Marrakech if** you want Toubkal, the Sahara on the shortest route, or the full historic-city experience. This covers most first trips.
+
+**Agadir if** you want beach and surf, you are travelling with children, you are visiting in high summer when inland heat is punishing, or you want the Anti-Atlas rather than the High Atlas.
+
+**Both if** you have ten days or more. They are a comfortable drive apart, and the combination gives you mountains, desert and coast without doubling back.
+
+## The summer caveat
+
+One point worth stating plainly. In July and August, inland Morocco gets genuinely severe — Marrakech and the desert interior become difficult in the middle of the day. The Atlantic keeps Agadir moderate through the same months.
+
+If your trip is fixed to high summer, that alone may decide it. See [The Best Time to Visit Morocco](/en/blog/best-time-to-visit-morocco) for the month-by-month picture.
+`,
+  },
+  {
+    slug: "best-multi-day-treks-morocco",
+    author: MET_TEAM,
+    title: "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
+    excerpt: "Toubkal gets the traffic, but it is one summit in a very large range. Four longer routes, what each demands, and how to pick by fitness and days available.",
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Morocco trekking", "multi-day trek", "M'Goun", "Ifni Lake", "Anti-Atlas", "High Atlas"],
+    seoTitle: "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
+    seoDescription: "Four multi-day Moroccan treks past the standard Toubkal route — the Ifni Lake circuit, the M'Goun traverse, the Anti-Atlas and the three-peaks challenge.",
+    relatedTours: ["toubkal-circuit-ifni-lake-6day", "mgoun-massif-trek", "anti-atlas-trekking-agadir", "toubkal-three-peaks-4000m-3day"],
+    faq: [
+      { q: "What is the best multi-day trek in Morocco?", a: "For most people with a week, the six-day Toubkal Circuit with Ifni Lake — it takes in the summit plus country that day-trippers never see. If you want somewhere genuinely quiet, the seven-day M'Goun traverse crosses Morocco's second massif and sees a fraction of the traffic." },
+      { q: "Is M'Goun harder than Toubkal?", a: "Yes, in the ways that matter over a week. We rate the M'Goun traverse expert against challenging for the Toubkal routes — not because any single day is more technical, but because it is seven days of sustained walking, remoter, with fewer places to bail out." },
+      { q: "Do you need technical climbing skills for these treks?", a: "Not in summer. These are walking routes on rough mountain ground, without ropes or climbing moves. Winter is a different matter on the high routes, where snow brings crampons and an ice axe into play along with the skills to use them." },
+      { q: "How do I choose between the longer Atlas treks?", a: "Start with days available, then match terrain. Three days suits the three-peaks challenge if you are experienced, or the Anti-Atlas if you want moderate walking. Six days suits the Ifni circuit. Seven days opens up M'Goun, which is the quietest of them." },
+    ],
+    content: `
+Toubkal absorbs most of Morocco's trekking attention because it is the highest point in North Africa and easy to reach from Marrakech. Standing on it is worth doing. But if you have more than a few days, the range has considerably more to offer, and the longer routes see a fraction of the traffic.
+
+## Toubkal Circuit and Ifni Lake — six days
+
+The natural next step for anyone drawn to Toubkal but wanting more than a summit dash. The [six-day circuit](/en/tours/toubkal-circuit-ifni-lake-6day) takes in the summit and then continues over to Lake Ifni on the far side of the massif — a turquoise lake in an otherwise arid bowl of mountains, and one of the more surprising sights in the Atlas.
+
+Rated challenging. Six days gives your body time to acclimatise properly, which is a side benefit of the longer route that people underestimate.
+
+**Choose it if** you want the summit but resent the idea of walking up and straight back down.
+
+## M'Goun Massif traverse — seven days
+
+Morocco's second great massif, and the quietest of the routes here. The [seven-day traverse](/en/tours/mgoun-massif-trek) crosses high country and gorges, passing through villages where trekking groups are still a novelty.
+
+We rate it expert. Not because any individual day is technical, but because seven consecutive days of walking in remote terrain with limited bail-out options asks more of you than a shorter, better-served route.
+
+**Choose it if** you have walked multi-day routes before and want somewhere that does not feel processed.
+
+## Toubkal Three 4,000 m Peaks — three days
+
+The concentrated option. [Three days](/en/tours/toubkal-three-peaks-4000m-3day), several 4,000-metre summits, rated expert. This is the shortest route here but not the easiest — the difficulty is packed into a small number of days rather than spread out.
+
+**Choose it if** you are already comfortable at altitude and want maximum height gain in a short window.
+
+## Anti-Atlas — three days
+
+A completely different mountain character. The [three-day Anti-Atlas trek](/en/tours/anti-atlas-trekking-agadir) from Agadir crosses lower, drier country around Tafraoute, with granite formations, almond groves and villages spread thinly across the landscape.
+
+Rated moderate — the most approachable route here. Its season is inverted relative to the High Atlas: late winter and spring are ideal, and summer is too hot and exposed.
+
+**Choose it if** you want multi-day walking without the altitude, or you are travelling in the months when the High Atlas is under snow.
+
+## Choosing by what you have
+
+| Days | Route | Rating |
+|---|---|---|
+| 3 | Anti-Atlas | Moderate |
+| 3 | Toubkal Three Peaks | Expert |
+| 6 | Toubkal Circuit and Ifni Lake | Challenging |
+| 7 | M'Goun Massif traverse | Expert |
+
+## What these treks have in common
+
+- **Mules carry the load.** You walk with a daypack; baggage, food and camping gear move separately. This is what makes a seven-day route feasible for people who have never camped at altitude.
+- **Accommodation is mixed.** Refuges, village gites and guesthouses, with some nights under canvas on the longer routes.
+- **A guide is standard.** Legally required in the Toubkal massif, and practically necessary elsewhere — these paths are unmarked and the villages are far apart.
+- **Season matters.** High Atlas routes run roughly April to October. The Anti-Atlas runs the opposite way.
+
+## Where to start
+
+If this is your first multi-day trek in Morocco, the Ifni circuit is the best balance of ambition and support. If you have done this before and want quiet, M'Goun is the one.
+
+For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek), and [How Hard Is Toubkal, Really?](/en/blog/how-hard-is-toubkal-difficulty-guide) for what the walking actually involves.
+`,
+  },
+  {
+    slug: "sahara-desert-from-agadir",
+    author: MET_TEAM,
+    title: "Can You Visit the Sahara From Agadir? Yes, With Caveats",
+    excerpt: "Not as a day trip, whatever you are told at the hotel desk. What the two, three and four-day options from Agadir actually involve, and how the route differs.",
+    heroImage: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1600&q=85",
+    category: "desert",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Sahara from Agadir", "Agadir desert tour", "Merzouga from Agadir", "Zagora", "Erg Chegaga"],
+    seoTitle: "Can You Visit the Sahara From Agadir? Yes, With Caveats",
+    seoDescription: "Desert trips from Agadir explained — why the Sahara is not a day trip, and how the two, three and four-day routes to Zagora, Merzouga and Erg Chegaga compare.",
+    relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
+    faq: [
+      { q: "Can you do a Sahara day trip from Agadir?", a: "No. The real dunes are far enough from Agadir that a day trip would be almost entirely driving, with minutes at the destination. Anyone selling a one-day Sahara trip from Agadir is either taking you somewhere that is not the Sahara or expecting you not to mind spending the day in a vehicle." },
+      { q: "How many days do you need for the desert from Agadir?", a: "Two at an absolute minimum, for Zagora. Three days is the realistic figure for Merzouga or Erg Chegaga, and four gives you a more relaxed pace with more stops along the way rather than a longer stay in the dunes." },
+      { q: "Is it better to do the desert from Marrakech or Agadir?", a: "Marrakech has shorter drives to every desert destination, so if you are choosing purely on travel time it wins. But if you are already based in Agadir, the trips from there are real and well established — it is not worth relocating to Marrakech solely for the desert." },
+      { q: "What do you see on the drive from Agadir to the desert?", a: "The Agadir routes run inland through Taroudant and the Souss valley before turning toward the desert, which is different country from the Marrakech approach over the Tizi n'Tichka pass. Neither is dead time, but they show you different parts of Morocco." },
+    ],
+    content: `
+Search for Sahara trips from Agadir and you will find day tours advertised. Skip them. The distance simply does not allow it, and the trips that claim otherwise are either going somewhere that is not the Sahara or counting on you to accept a day of driving.
+
+The good news: the multi-day trips from Agadir are real, established, and worth doing.
+
+## Why it cannot be a day trip
+
+Agadir is on the Atlantic coast. The dune fields are deep inland on the far side of the Anti-Atlas. Covering that in a single day would mean the overwhelming majority of your waking hours in a vehicle for a brief stop.
+
+That is why every desert trip we run from Agadir is at least two days. It is not upselling — it is what the map requires.
+
+## The options
+
+**[Two days to Zagora](/en/tours/sahara-2day-agadir)** — the shortest genuine desert trip from Agadir. One night in the desert, smaller dunes than Erg Chebbi, and the least driving of any real option. Rated easy.
+
+**[Three days to Merzouga](/en/tours/merzouga-3day-agadir)** — reaches Erg Chebbi, the tall dunes most people picture. The extra day is what buys you the better dune field. Rated easy despite the distance, since the driving is broken up.
+
+**[Three days to Erg Chegaga](/en/tours/erg-chegaga-3day-agadir)** — the remote alternative, reached by 4x4 across open desert with far fewer camps in sight. Rated moderate, reflecting the rougher access.
+
+**[Four days](/en/tours/desert-4day-agadir)** — the same country at a more relaxed pace, with more stops built into the route rather than more time in the dunes.
+
+## What the Agadir route shows you
+
+This is the part that gets overlooked. The Agadir approach is not simply a longer version of the Marrakech one — it goes through different country.
+
+Trips head inland through the Souss valley and past Taroudant, the walled town sometimes called "little Marrakech", before turning toward the desert. The Marrakech route instead climbs over the Tizi n'Tichka pass and passes Aït Ben Haddou.
+
+Both are worth seeing. If you have already done the Marrakech run on a previous trip, the Agadir approach gives you new ground rather than a repeat.
+
+## Comparison
+
+| | Zagora, 2 days | Merzouga, 3 days | Erg Chegaga, 3 days | 4-day |
+|---|---|---|---|---|
+| Dunes | Smaller | Tall Erg Chebbi | Wide, remote field | Varies by route |
+| Rating | Easy | Easy | Moderate | Easy |
+| Other camps nearby | Some | Several | Few | Varies |
+| Best for | Shortest real option | The classic dunes | Solitude | Unhurried pace |
+
+## Should you relocate to Marrakech instead?
+
+Only if the desert is the sole reason you came. Marrakech is closer to every desert destination, so the drives are shorter.
+
+But if you are in Agadir for the coast, the surf or the Anti-Atlas, moving base purely for shorter desert transfers is not worth the disruption. The Agadir trips work.
+
+For how the dune fields themselves differ, see [Erg Chebbi vs Erg Chegaga](/en/blog/erg-chebbi-vs-erg-chegaga). For choosing a base in the first place, see [Marrakech or Agadir](/en/blog/marrakech-vs-agadir-which-base).
+`,
+  },
+  {
+    slug: "best-day-trips-from-agadir",
+    author: MET_TEAM,
+    title: "The Best Day Trips From Agadir",
+    excerpt: "Agadir's own attractions are modest, but what sits within a couple of hours is not. Six day trips worth the early start, and what each actually delivers.",
+    heroImage: "https://images.unsplash.com/photo-1553603227-2358aabe821e?w=1600&q=85",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 8,
+    publishedAt: "2026-07-18",
+    updatedAt: "2026-07-18",
+    tags: ["Agadir day trips", "things to do Agadir", "Paradise Valley", "Taroudant", "Essaouira", "Souss-Massa"],
+    seoTitle: "The Best Day Trips From Agadir",
+    seoDescription: "Six day trips from Agadir worth taking — Paradise Valley, Taroudant, Essaouira, Souss-Massa National Park and the surf coast, with what each actually involves.",
+    relatedTours: ["paradise-valley-agadir", "taroudant-day-trip-agadir", "agadir-to-essaouira-day-trip", "sous-massa-national-park"],
+    faq: [
+      { q: "What is the best day trip from Agadir?", a: "Paradise Valley for most visitors — a palm-lined gorge with natural rock pools about ninety minutes inland, and a genuine change of scene from the coast. Taroudant is the better choice if you want a historic walled town rather than landscape." },
+      { q: "Is Essaouira a day trip from Agadir?", a: "Yes, and it is a long but rewarding one. Essaouira is a fortified Atlantic port with a walled medina and a working fishing harbour, and the drive up the coast is part of the appeal. Expect a full day rather than a half." },
+      { q: "Can you see flamingos near Agadir?", a: "In Souss-Massa National Park, south of the city, which protects wetland and coastal habitat. It is best known for the northern bald ibis, one of the rarest birds in the world, alongside flamingos and other waterbirds depending on the season." },
+      { q: "How early do day trips from Agadir start?", a: "Most leave early morning and return late afternoon or evening, because the destinations are one to three hours out. Early starts genuinely matter at Paradise Valley, where arriving before the mid-morning crowd changes the experience considerably." },
+    ],
+    content: `
+Agadir itself is a resort city rebuilt after the 1960 earthquake — a long beach, a mild climate, and not a great deal of historic fabric. That makes it a comfortable base rather than a destination in itself.
+
+What redeems it is the range of what sits within a couple of hours: mountain gorges, a walled Berber town, a fortified Atlantic port, a national park, and one of Morocco's best surf coasts.
+
+## Paradise Valley
+
+The standout. A palm-lined gorge in the Anti-Atlas foothills about ninety minutes inland, with natural rock pools cut into the riverbed and cliffs to jump from if you want to.
+
+Water levels swing hard with the seasons — after winter rain the pools are at their best, and after a long dry spell some shrink or vanish. Go early: by mid-morning in high season the main pools are busy.
+
+[Our day trip](/en/tours/paradise-valley-agadir) is rated easy and works well with children.
+
+## Taroudant
+
+A walled town inland, often called "little Marrakech" — though the comparison undersells what makes it worth visiting, which is precisely that it is *not* Marrakech. Intact ramparts, working souks, and a fraction of the tourist pressure.
+
+If Marrakech's medina sounds appealing in principle but exhausting in practice, [Taroudant](/en/tours/taroudant-day-trip-agadir) is the gentler version of the same idea.
+
+## Essaouira
+
+The longest of these trips and still worth it. A fortified port on the Atlantic with a UNESCO-listed medina, blue fishing boats, ramparts you can walk, and a wind that makes it a kitesurfing centre.
+
+The coastal drive north is genuinely scenic. Treat it as a full day. [Details here](/en/tours/agadir-to-essaouira-day-trip).
+
+## Souss-Massa National Park
+
+South of Agadir, protecting wetland and coastal habitat where the Souss river meets the Atlantic. The draw for birdwatchers is the northern bald ibis — one of the rarest birds in the world, with one of its last wild populations here — alongside flamingos and other waterbirds.
+
+Quieter and more specialised than the other trips here. [Details](/en/tours/sous-massa-national-park).
+
+## The surf coast
+
+Taghazout, just up the coast, went from fishing village to surf town without entirely losing the first identity. Consistent Atlantic swell, a string of well-known point breaks, and a beginner-friendly setup.
+
+Our [surf lessons](/en/tours/agadir-surf-lesson) run as half-days, so this is the one trip here that leaves you an afternoon.
+
+## Into the Anti-Atlas
+
+If a day is not enough, the Anti-Atlas behind Agadir is a full trekking region in its own right — lower and drier than the High Atlas, at its best in late winter and spring when almond blossom is out around Tafraoute.
+
+See [Trekking the Anti-Atlas](/en/blog/anti-atlas-trekking-guide).
+
+## Choosing
+
+| Trip | Length | Best for |
+|---|---|---|
+| Paradise Valley | Full day | Swimming, landscape, families |
+| Taroudant | Full day | Historic town without the crowds |
+| Essaouira | Long day | Coast, medina, atmosphere |
+| Souss-Massa | Full day | Birdlife, quiet |
+| Surf lesson | Half day | Learning to surf |
+
+## The practical advice
+
+Start early. Every one of these is one to three hours out, and the difference between leaving at seven and leaving at nine is the difference between arriving ahead of the crowd and behind it.
+
+For desert trips from Agadir, which need more than a day, see [Can You Visit the Sahara From Agadir?](/en/blog/sahara-desert-from-agadir)
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

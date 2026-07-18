@@ -3,6 +3,15 @@ import { NextRequest, NextResponse } from "next/server";
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
 const DEFAULT_LOCALE = "en";
 
+// Search-engine and AI crawlers. Matched loosely on purpose: a false positive
+// only means a bot gets English, which is the canonical version anyway.
+const CRAWLER_UA =
+  /bot|crawler|spider|crawling|googlebot|bingbot|yandex|duckduckbot|baiduspider|slurp|facebookexternalhit|embedly|quora link preview|showyoubot|outbrain|pinterest|slackbot|vkshare|w3c_validator|whatsapp|telegram|discord|gptbot|chatgpt|perplexity|claudebot|anthropic|applebot|amazonbot|ccbot/i;
+
+function isCrawler(request: NextRequest): boolean {
+  return CRAWLER_UA.test(request.headers.get("user-agent") ?? "");
+}
+
 function getLocale(request: NextRequest): string {
   const acceptLang = request.headers.get("accept-language") ?? "";
   for (const segment of acceptLang.split(",")) {
@@ -28,9 +37,16 @@ export function proxy(request: NextRequest) {
   );
   if (pathnameHasLocale) return;
 
-  const locale = getLocale(request);
+  // Crawlers get the canonical default locale, never an Accept-Language guess.
+  // Googlebot commonly sends "Accept-Language: it" or similar, and honouring it
+  // meant /tours redirected to /it/tours — which is how 66 Italian URLs ended
+  // up indexed against 25 English ones. Real users still get their language.
+  const locale = isCrawler(request) ? DEFAULT_LOCALE : getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  // 308, not the default 307: routing an unprefixed path to a locale is a
+  // permanent decision, and Google only consolidates ranking signals through
+  // a permanent redirect. A 307 leaves both URLs as separate candidates.
+  return NextResponse.redirect(request.nextUrl, 308);
 }
 
 export const config = {

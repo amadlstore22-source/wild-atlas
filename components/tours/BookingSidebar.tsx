@@ -5,6 +5,7 @@ import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle } f
 import type { Tour } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
+import { priceIn } from "@/lib/currency-core";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
@@ -14,7 +15,7 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
   const [date, setDate] = useState("");
   const [people, setPeople] = useState(2);
   const [agreed, setAgreed] = useState(false);
-  const { format } = useCurrency();
+  const { format, currency } = useCurrency();
   const { sending, sent, error, submit: doSubmit } = useFormSubmit();
 
   function handleInquiry(e: React.FormEvent) {
@@ -24,7 +25,13 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
   }
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
-  const paypalUrl = `https://www.paypal.com/paypalme/${SITE.paypal}/${tour.depositAmount}`;
+  // depositAmount is stored in USD but the page displays the active currency.
+  // Passing the raw number sent the customer to PayPal for "95" while the page
+  // said "€87" — a 9% discrepancy in whatever currency PayPal happened to pick.
+  // PayPal.Me takes an explicit currency as an amount suffix (e.g. /87EUR), so
+  // convert first and always state the currency.
+  const depositDue = priceIn(tour.depositAmount, currency);
+  const paypalUrl = `https://www.paypal.com/paypalme/${SITE.paypal}/${depositDue}${currency}`;
   const priceMax = tour.priceMax ?? null;
   const totalMin = tour.price * people;
   const totalMax = priceMax ? priceMax * people : null;

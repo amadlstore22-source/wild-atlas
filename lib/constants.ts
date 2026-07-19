@@ -17,6 +17,10 @@ export const SITE = {
   phone: "+212 653 936 003",
   phoneDial: "+212653936003",
   whatsapp: "212653936003",
+  /** PayPal.Me handle that RECEIVES deposits. Customers see this name at the
+   *  moment they pay, so it must match the business — "wildatlas" is the old
+   *  brand and reads as a stranger's account at checkout.
+   *  TODO: replace with the Marrakech Eco Tours handle once created. */
   paypal: "wildatlas",
   address: "Marrakech, Morocco",
   country: "MA",

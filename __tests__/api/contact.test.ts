@@ -13,6 +13,13 @@ beforeEach(() => {
   );
 });
 
+/** ISO date N days from now. Relative so these tests never go stale. */
+function futureDate(days: number): string {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
 function makeRequest(body: Record<string, unknown>) {
   return new NextRequest("http://localhost/api/contact", {
     method: "POST",
@@ -60,11 +67,49 @@ describe("POST /api/contact", () => {
       name: "Fatima",
       email: "fatima@example.com",
       tour: "Toubkal Summit Trek",
-      date: "2026-09-15",
+      date: futureDate(60),
       people: 3,
     });
     const res = await POST(req);
     expect(res.status).toBe(200);
+  });
+
+  // The date picker sets min/max in the browser, but that is bypassable. A bad
+  // date must never cost us the enquiry — it is dropped, not rejected.
+  describe("departure date handling", () => {
+    async function sentBody(date: unknown): Promise<string> {
+      const res = await POST(
+        makeRequest({ type: "booking", name: "Sam", email: "sam@example.com", tour: "Toubkal", date }),
+      );
+      expect(res.status).toBe(200);
+      const calls = (globalThis.fetch as ReturnType<typeof vi.fn>).mock.calls;
+      return String(JSON.parse(String(calls[0][1].body)).text);
+    }
+
+    it("keeps a plausible future date", async () => {
+      const d = futureDate(30);
+      expect(await sentBody(d)).toContain(d);
+    });
+
+    it("accepts today", async () => {
+      const d = futureDate(0);
+      expect(await sentBody(d)).toContain(d);
+    });
+
+    it("drops a past date and marks the request flexible", async () => {
+      expect(await sentBody(futureDate(-30))).toContain("flexible");
+    });
+
+    it("drops a date beyond two years", async () => {
+      expect(await sentBody(futureDate(900))).toContain("flexible");
+    });
+
+    it.each([["not-a-date"], ["2026-13-45"], [""], [null], [12345]])(
+      "drops malformed input %p without failing the request",
+      async (bad) => {
+        expect(await sentBody(bad)).toContain("flexible");
+      },
+    );
   });
 
   it("returns 503 (not a false success) when RESEND_API_KEY is missing", async () => {

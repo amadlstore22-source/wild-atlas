@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle } from "@phosphor-icons/react";
+import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
@@ -30,6 +30,15 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
   // said "€87" — a 9% discrepancy in whatever currency PayPal happened to pick.
   // PayPal.Me takes an explicit currency as an amount suffix (e.g. /87EUR), so
   // convert first and always state the currency.
+  // Bound the date picker: a request for a past date is always a mistake, and
+  // beyond two years is not a real enquiry. Computed per render rather than at
+  // module load so a long-lived tab does not go stale overnight.
+  const today = new Date();
+  const minDate = today.toISOString().slice(0, 10);
+  const maxDate = new Date(today.getFullYear() + 2, today.getMonth(), today.getDate())
+    .toISOString()
+    .slice(0, 10);
+
   const depositDue = priceIn(tour.depositAmount, currency);
   const paypalUrl = `https://www.paypal.com/paypalme/${SITE.paypal}/${depositDue}${currency}`;
   const priceMax = tour.priceMax ?? null;
@@ -60,6 +69,23 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
         </div>
 
         <div className="p-6 space-y-5">
+          {/* Answers the question the page otherwise leaves hanging: "can I go on
+              my dates?". We run private departures, so there is no fixed schedule
+              to fit into — saying so converts better than a calendar of open
+              dates, and unlike a calendar it stays true without maintenance. */}
+          <div className="rounded-[3px] border border-indigo/15 bg-indigo-wash/60 p-4">
+            <div className="flex items-start gap-2.5">
+              <CalendarCheck className="w-5 h-5 text-indigo shrink-0 mt-0.5" weight="duotone" />
+              <div>
+                <p className="text-sm font-semibold text-indigo leading-snug">You choose the dates</p>
+                <p className="text-xs text-ink-soft leading-relaxed mt-1">
+                  Private departures — no fixed schedule to fit into. Tell us when you want to go and we build
+                  the trip around you.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Guarantee badges */}
           <div className="grid grid-cols-2 gap-2">
             {[
@@ -118,6 +144,8 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
                   <input
                     type="date"
                     value={date}
+                    min={minDate}
+                    max={maxDate}
                     onChange={(e) => setDate(e.target.value)}
                     className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
                   />

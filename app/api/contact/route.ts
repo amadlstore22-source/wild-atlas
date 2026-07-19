@@ -17,6 +17,22 @@ function sanitize(val: unknown, maxLen = 500): string {
   return val.trim().slice(0, maxLen).replace(/[\r\n]{3,}/g, "\n\n");
 }
 
+/**
+ * Accept an ISO date only if it is real and plausibly a future departure.
+ * Anything else returns "" so the enquiry is treated as undated — a wrong date
+ * should not lose us the booking.
+ */
+function validDate(val: string): string {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(val)) return "";
+  const d = new Date(`${val}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return "";
+  // Round today down to UTC midnight so "today" is always allowed.
+  const now = new Date();
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const twoYears = today + 730 * 86_400_000;
+  return d.getTime() >= today && d.getTime() <= twoYears ? val : "";
+}
+
 export async function POST(req: NextRequest) {
   try {
     const limited = limitByIp(req, "contact", LIMIT, WINDOW_MS);
@@ -34,7 +50,10 @@ export async function POST(req: NextRequest) {
     const subject = sanitize(body.subject, 200);
     const message = sanitize(body.message, 2000);
     const tour = sanitize(body.tour, 200);
-    const date = sanitize(body.date, 20);
+    // The picker sets min/max, but that is client-side and trivially bypassed.
+    // A date in the past or absurdly far out is noise, not an enquiry — drop it
+    // and treat the request as undated rather than rejecting the whole message.
+    const date = validDate(sanitize(body.date, 20));
     const people = Math.max(1, Math.min(100, Number(body.people) || 1));
 
     if (!name || !email || !EMAIL_RE.test(email)) {
@@ -81,10 +100,14 @@ export async function POST(req: NextRequest) {
         console.error("[contact] Resend admin error", adminRes.status, detail);
       }
 
+      // "Confirm availability" implied the date might not be free. We run private
+      // departures, so the date is the customer's to choose — the reply is about
+      // finalising details, not checking a schedule.
+      const hrs = SITE.responseHours;
       const confirmationBody =
         type === "booking"
-          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request and one of our guides will get back to you within 24 hours to confirm availability and next steps.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
-          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within 24 hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
+          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within ${hrs} hours to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
+          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within ${hrs} hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",

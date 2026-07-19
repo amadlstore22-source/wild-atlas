@@ -260,8 +260,12 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
         </div>
       </div>
 
-      {/* Mobile sticky CTA */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 flex items-center gap-3 shadow-2xl">
+      {/* Mobile sticky CTA. data-sticky-cta tells the floating WhatsApp button
+          to stand down — this bar has its own, and the float would cover it. */}
+      <div
+        data-sticky-cta
+        className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 flex items-center gap-3 shadow-2xl"
+      >
         <div className="flex-1 min-w-0">
           <div className="text-xs text-ink-muted">Per person</div>
           <div className="font-bold text-indigo text-xl leading-tight">

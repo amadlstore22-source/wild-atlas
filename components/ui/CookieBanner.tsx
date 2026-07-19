@@ -34,6 +34,7 @@ export default function CookieBanner() {
         <motion.div
           role="dialog"
           aria-label="Cookie consent"
+          data-sticky-cta
           className="fixed bottom-0 left-0 right-0 z-[60] bg-charcoal border-t border-white/10 shadow-2xl"
           initial={{ y: "100%" }}
           animate={{ y: 0 }}

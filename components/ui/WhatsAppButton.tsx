@@ -8,6 +8,12 @@ const WA_PATH = "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.
 export default function WhatsAppButton() {
   const [shown, setShown] = useState(false);
   const [scrolling, setScrolling] = useState(false);
+  // Tour pages put a sticky CTA bar across the bottom on mobile, and it already
+  // has its own WhatsApp button. The float sits at z-50 over that bar's z-40,
+  // so it covered the booking card's own control — two of the same button, one
+  // hiding the other. Detected from the DOM rather than by route so any page
+  // that adds a bottom CTA bar gets this for free.
+  const [barPresent, setBarPresent] = useState(false);
   const idleTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Appear 1.5 s after mount
@@ -30,12 +36,38 @@ export default function WhatsAppButton() {
     };
   }, []);
 
-  // fully off-screen when idle (button 56px + right-6 24px = need >80px to clear edge)
+  // Watch for a page-level sticky CTA bar appearing or disappearing. It mounts
+  // with the tour page and is hidden by CSS above `lg`, so we check both that
+  // it exists and that it is actually visible at this viewport width.
+  useEffect(() => {
+    const check = () => {
+      const bar = document.querySelector<HTMLElement>("[data-sticky-cta]");
+      setBarPresent(!!bar && bar.offsetParent !== null);
+    };
+    check();
+
+    const observer = new MutationObserver(check);
+    observer.observe(document.body, { childList: true, subtree: true });
+    window.addEventListener("resize", check);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", check);
+    };
+  }, []);
+
+  // Two different kinds of "not visible":
+  //   suppressed — a sticky CTA bar owns the bottom of the screen, so this
+  //     button should not exist at all: no pointer events, no tab stop, hidden
+  //     from assistive tech.
+  //   idle/pre-mount — it is merely parked off-screen and one scroll brings it
+  //     back, so it stays in the accessibility tree and remains reachable.
+  const suppressed = barPresent;
+  const offscreen = !shown || suppressed;
   const animate = {
-    opacity: !shown ? 0 : scrolling ? 1 : 0,
-    scale:   !shown ? 0.7 : scrolling ? 1 : 0.88,
+    opacity: offscreen ? 0 : scrolling ? 1 : 0,
+    scale:   offscreen ? 0.7 : scrolling ? 1 : 0.88,
     y:       !shown ? 20 : 0,
-    x:       !shown ? 0  : scrolling ? 0 : 100,
+    x:       suppressed ? 100 : !shown ? 0 : scrolling ? 0 : 100,
   };
 
   return (
@@ -44,10 +76,13 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className={`fixed bottom-6 right-6 z-50 flex items-center group ${!scrolling ? "pointer-events-none" : ""}`}
+      className={`fixed bottom-6 right-6 z-50 flex items-center group ${!scrolling || suppressed ? "pointer-events-none" : ""}`}
+      aria-hidden={suppressed}
+      tabIndex={suppressed ? -1 : undefined}
       animate={animate}
       transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-      whileHover={{ x: 0, opacity: 1, scale: 1.05 }}
+      // Hover must not resurrect it over the sticky bar.
+      whileHover={suppressed ? undefined : { x: 0, opacity: 1, scale: 1.05 }}
     >
       {/* Slide-out tooltip — only visible when active + hovered */}
       <span className={`mr-3 px-4 py-2 rounded-full bg-charcoal text-white text-sm font-semibold whitespace-nowrap pointer-events-none shadow-lg transition-all duration-200 ${

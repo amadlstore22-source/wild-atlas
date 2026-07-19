@@ -45,6 +45,17 @@ describe("PayPal deposit link", () => {
     }
   });
 
+  // The Terms used to promise "a deposit of 30% of the total tour price" while
+  // every tour charged 24-29%. Terms now say "typically around a quarter", so
+  // this guards the band that sentence claims.
+  it("every deposit stays within the range the Terms describe", () => {
+    for (const tour of TOURS) {
+      const pct = (tour.depositAmount / tour.price) * 100;
+      expect(pct, `${tour.slug} deposit is ${pct.toFixed(1)}% — outside the stated band`).toBeGreaterThanOrEqual(20);
+      expect(pct, `${tour.slug} deposit is ${pct.toFixed(1)}% — outside the stated band`).toBeLessThanOrEqual(32);
+    }
+  });
+
   // Guard against shipping the old brand: customers see this name at checkout.
   it("uses a PayPal handle, and flags the stale wild-atlas one", () => {
     expect(SITE.paypal.length).toBeGreaterThan(0);

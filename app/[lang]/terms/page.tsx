@@ -6,7 +6,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "15 July 2026";
+const UPDATED = "19 July 2026";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions — Marrakech Eco Tours",
@@ -64,7 +64,11 @@ export default async function TermsPage({ params }: LangParams) {
       body: (
         <ul>
           <li>A booking is confirmed once we have received your deposit and sent you a written confirmation by email.</li>
-          <li>A deposit of <strong>30% of the total tour price</strong> is required to secure your booking.</li>
+          <li>
+            A deposit is required to secure your booking. The exact amount is shown on each tour page and is
+            typically around a quarter of the tour price. The figure displayed on the tour page at the time of
+            booking is the one that applies.
+          </li>
           <li>The remaining balance is due no later than <strong>14 days before your departure date</strong>.</li>
           <li>Bookings made within 14 days of departure require full payment at the time of booking.</li>
           <li>Payments are processed securely via <strong>PayPal</strong>. We do not store or access your card or bank details. PayPal&rsquo;s own terms and fees apply.</li>
@@ -80,11 +84,11 @@ export default async function TermsPage({ params }: LangParams) {
         <>
           <h3>Cancellation by you</h3>
           <dl className="tier">
-            <dt>More than 14 days before</dt>
-            <dd>Full refund of all payments made.</dd>
-            <dt>8&ndash;14 days before</dt>
+            <dt>14 days or more before departure</dt>
+            <dd>Full refund of all payments made, including your deposit.</dd>
+            <dt>8&ndash;13 days before departure</dt>
             <dd>50% of the total tour price is charged; the remainder is refunded.</dd>
-            <dt>7 days or less before</dt>
+            <dt>7 days or less before departure</dt>
             <dd>No refund. The full tour price is forfeited.</dd>
             <dt>No-show</dt>
             <dd>No refund. The full tour price is forfeited.</dd>
@@ -194,12 +198,18 @@ export default async function TermsPage({ params }: LangParams) {
       id: "photography",
       title: "Photography & Media",
       body: (
-        <p>
-          Our guides may photograph or film tour activities for use on our website and social media. If you do not
-          wish to appear in any photographs or videos, please inform your guide at the start of the tour. By
-          participating without raising this objection, you grant us a non-exclusive, royalty-free licence to use
-          images in which you appear for promotional purposes.
-        </p>
+        <>
+          <p>
+            Our guides may photograph or film tour activities. Where you are identifiable in an image, we will ask
+            for your permission before publishing it on our website or social media, and you are free to decline
+            without giving a reason. You can also tell your guide at any point during the tour that you would
+            rather not be photographed.
+          </p>
+          <p>
+            If you change your mind after giving permission, email us at {mail} and we will remove the image from
+            our own channels. Images already shared or reposted by third parties may be outside our control.
+          </p>
+        </>
       ),
     },
     {
@@ -207,10 +217,11 @@ export default async function TermsPage({ params }: LangParams) {
       title: "Intellectual Property",
       body: (
         <p>
-          All content on this website &mdash; text, design, photography, and code &mdash; is the property of
-          Marrakech Eco Tours unless credited otherwise. You may not reproduce, distribute, or use any content
-          without our express written permission. News articles on the News page are sourced from third parties
-          and remain the property of their respective publishers.
+          The text, design, and code of this website are the property of Marrakech Eco Tours. You may not
+          reproduce, distribute, or use them without our express written permission. Some photography is licensed
+          from third-party stock libraries and remains the property of the respective photographers under those
+          licences. News articles on the News page are sourced from third-party feeds and remain the property of
+          their publishers.
         </p>
       ),
     },
@@ -229,10 +240,17 @@ export default async function TermsPage({ params }: LangParams) {
       id: "governing-law",
       title: "Governing Law",
       body: (
-        <p>
-          These Terms &amp; Conditions are governed by the laws of the Kingdom of Morocco. Any dispute arising
-          shall be subject to the exclusive jurisdiction of the courts of Marrakech, Morocco.
-        </p>
+        <>
+          <p>
+            These Terms &amp; Conditions are governed by the laws of the Kingdom of Morocco, and disputes are
+            subject to the jurisdiction of the courts of Marrakech.
+          </p>
+          <p>
+            If you are a consumer resident in the European Union or the United Kingdom, this does not deprive you
+            of the protection of mandatory consumer-law provisions in your country of residence, and you keep any
+            right you have to bring proceedings in your local courts.
+          </p>
+        </>
       ),
     },
     {
@@ -248,8 +266,23 @@ export default async function TermsPage({ params }: LangParams) {
     },
     {
       id: "contact",
-      title: "Contact",
-      body: <p>Questions about these terms? Contact us at {mail}.</p>,
+      title: "Who You Are Contracting With",
+      body: (
+        <>
+          <p>
+            Tours booked through this website are operated by <strong>Marrakech Eco Tours</strong>, a tour operator
+            based in {SITE.address}, trading since {SITE.foundedYear}.
+          </p>
+          <p>
+            Email {mail} &middot; Telephone{" "}
+            <a href={`tel:${SITE.phoneDial}`}>{SITE.phone}</a>
+          </p>
+          <p>
+            Questions about these terms, or about a booking you have already made, can be sent to either of the
+            above. We reply within {SITE.responseHours} hours.
+          </p>
+        </>
+      ),
     },
   ];
 

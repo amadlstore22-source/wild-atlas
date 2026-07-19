@@ -7,7 +7,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "17 July 2026";
+const UPDATED = "19 July 2026";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Marrakech Eco Tours",
@@ -33,7 +33,12 @@ export default async function PrivacyPage({ params }: LangParams) {
             Marrakech Eco Tours (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is a Morocco-based tour
             operator offering guided trekking, desert, cultural, and adventure tours departing from Marrakech and
             Agadir. Our website is{" "}
-            <a href="https://marrakechecotours.com">marrakechecotours.com</a>. You can reach us at {mail}.
+            <a href="https://marrakechecotours.com">marrakechecotours.com</a>.
+          </p>
+          <p>
+            We are the <strong>data controller</strong> for the personal data described in this policy. To contact
+            us about it &mdash; including to exercise any of the rights set out below &mdash; email {mail}, call{" "}
+            <a href={`tel:${SITE.phoneDial}`}>{SITE.phone}</a>, or write to us at {SITE.address}.
           </p>
           <p>
             We also operate a sister brand,{" "}
@@ -62,6 +67,7 @@ export default async function PrivacyPage({ params }: LangParams) {
             <li>Contact us via WhatsApp, email, or phone directly</li>
             <li>Subscribe to our newsletter (email address only)</li>
             <li>Complete a booking and deposit payment (payment is processed by PayPal &mdash; we do not receive, store, or have access to your card or bank details)</li>
+            <li>Appear in photographs taken on tour, where we have asked for and received your permission to publish them</li>
           </ul>
           <p>
             We also process a small amount of technical and preference data automatically &mdash; see{" "}

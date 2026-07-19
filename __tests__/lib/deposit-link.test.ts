@@ -56,13 +56,24 @@ describe("PayPal deposit link", () => {
     }
   });
 
-  // Guard against shipping the old brand: customers see this name at checkout.
-  it("uses a PayPal handle, and flags the stale wild-atlas one", () => {
-    expect(SITE.paypal.length).toBeGreaterThan(0);
-    if (SITE.paypal === "wildatlas") {
-      console.warn(
-        "[deposit] PayPal handle is still 'wildatlas' (old brand). Customers see this at checkout — replace with the Marrakech Eco Tours handle."
-      );
-    }
+  // Guard against shipping a handle that sends money to the wrong account.
+  // paypal.me/wildatlas resolves as an unclaimed namespace, so the old brand
+  // name is not merely stale — it is a live route for deposits to a stranger.
+  it("never ships a handle belonging to another brand", () => {
+    const forbidden = ["wildatlas", "wild-atlas", "wildatlastours"];
+    expect(
+      forbidden,
+      `SITE.paypal is "${SITE.paypal}" — a namespace we do not own`,
+    ).not.toContain(SITE.paypal.toLowerCase());
+  });
+
+  // Empty is the intended state until the real handle exists: BookingSidebar
+  // swaps the pay button for a "request a payment link" prompt. What must never
+  // happen is a half-built URL like ".../paypalme//155EUR".
+  it("builds a deposit URL only when a handle is configured", () => {
+    if (!SITE.paypal) return; // no handle: the button is not rendered at all
+    expect(depositUrl(95, "EUR")).toMatch(
+      /^https:\/\/www\.paypal\.com\/paypalme\/[^/]+\/\d+[A-Z]{3}$/,
+    );
   });
 });

@@ -40,7 +40,15 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
     .slice(0, 10);
 
   const depositDue = priceIn(tour.depositAmount, currency);
-  const paypalUrl = `https://www.paypal.com/paypalme/${SITE.paypal}/${depositDue}${currency}`;
+  // Only render a payment link when a handle is actually configured. An empty
+  // SITE.paypal would otherwise build ".../paypalme//155EUR", sending customers
+  // to a stranger's account or a dead page with their deposit in hand.
+  const paypalUrl = SITE.paypal
+    ? `https://www.paypal.com/paypalme/${SITE.paypal}/${depositDue}${currency}`
+    : null;
+  const depositRequestUrl = whatsappUrl(
+    `Hello! I'd like to pay the ${format(tour.depositAmount)} deposit for "${tour.title}". Could you send me a payment link?`,
+  );
   const priceMax = tour.priceMax ?? null;
   const totalMin = tour.price * people;
   const totalMax = priceMax ? priceMax * people : null;
@@ -212,15 +220,44 @@ export default function BookingSidebar({ tour, lang = "en" }: { tour: Tour; lang
             <div className="flex-1 h-px bg-rule" />
           </div>
 
-          <a
-            href={paypalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full py-3 rounded-[3px] bg-[#0070BA] text-white font-bold hover:bg-[#005ea6] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#0070BA]/15"
-          >
-            <CreditCard className="w-4 h-4" />
-            Pay {format(tour.depositAmount)} Deposit — PayPal
-          </a>
+          {paypalUrl ? (
+            <a
+              href={paypalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-3 rounded-[3px] bg-[#0070BA] text-white font-bold hover:bg-[#005ea6] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#0070BA]/15"
+            >
+              <CreditCard className="w-4 h-4" />
+              Pay {format(tour.depositAmount)} Deposit — PayPal
+            </a>
+          ) : (
+            // No PayPal handle configured. Rather than hide the deposit step,
+            // keep the customer moving: name the amount and give them a way to
+            // ask for a link. Guessing a handle would risk paying a stranger.
+            <div className="rounded-[3px] border border-rule bg-surface-sunk/40 p-4 space-y-2.5">
+              <div className="flex items-baseline justify-between gap-3">
+                <span className="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                  Deposit to confirm
+                </span>
+                <span className="font-display text-lg font-bold text-ink">
+                  {format(tour.depositAmount)}
+                </span>
+              </div>
+              <p className="text-xs text-ink-soft leading-snug">
+                We send a secure payment link once your dates are agreed, so you
+                only pay for a departure we have confirmed.
+              </p>
+              <a
+                href={depositRequestUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-2.5 rounded-[3px] bg-indigo text-white font-bold text-sm hover:bg-indigo-deep transition-colors flex items-center justify-center gap-2"
+              >
+                <CreditCard className="w-4 h-4" />
+                Request a payment link
+              </a>
+            </div>
+          )}
 
           {/* Contact alternatives */}
           <div className="grid grid-cols-2 gap-2">

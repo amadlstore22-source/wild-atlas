@@ -18,10 +18,18 @@ export const SITE = {
   phoneDial: "+212653936003",
   whatsapp: "212653936003",
   /** PayPal.Me handle that RECEIVES deposits. Customers see this name at the
-   *  moment they pay, so it must match the business — "wildatlas" is the old
-   *  brand and reads as a stranger's account at checkout.
-   *  TODO: replace with the Marrakech Eco Tours handle once created. */
-  paypal: "wildatlas",
+   *  moment they pay, so it must match the business.
+   *
+   *  EMPTY ON PURPOSE — do not put a guess here. The old "wildatlas" handle was
+   *  removed because paypal.me/wildatlas resolves (HTTP 200) as an unclaimed
+   *  namespace: anyone who registered it would have received real customer
+   *  deposits, on our domain, with nothing to warn the payer. A wrong handle on
+   *  a payment link is worse than no link at all.
+   *
+   *  While this is empty the deposit button is replaced by a "request a payment
+   *  link" prompt (see BookingSidebar). Set the real handle and the button
+   *  returns automatically — no other change needed. */
+  paypal: "",
   address: "Marrakech, Morocco",
   country: "MA",
   /** Marketing-safe catalogue size. Kept deliberately vague ("30+") so it does

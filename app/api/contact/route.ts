@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
+import { logEnquiry } from "@/lib/enquiry-log";
 import { limitByIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -131,6 +132,10 @@ export async function POST(req: NextRequest) {
         console.error("[contact] Resend confirmation error", confirmRes.status, detail);
       }
     }
+
+    // Internal record, written after the emails so it can never delay or block
+    // delivery. logEnquiry swallows all its own failures by design.
+    await logEnquiry({ type, name, email, tour, date, people, subject, message });
 
     return NextResponse.json({ ok: true });
   } catch (err) {

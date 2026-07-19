@@ -112,6 +112,41 @@ describe("POST /api/contact", () => {
     );
   });
 
+  // The sheet is an internal convenience. If it breaks, the customer must still
+  // get their confirmation and we must still get the email.
+  it("still succeeds when the enquiry sheet is unreachable", async () => {
+    process.env.SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/x/exec";
+    process.env.SHEET_WEBHOOK_SECRET = "s";
+    vi.spyOn(console, "error").mockImplementation(() => {});
+
+    // Emails succeed; only the sheet call fails.
+    vi.stubGlobal(
+      "fetch",
+      vi.fn((url: string) =>
+        String(url).includes("script.google.com")
+          ? Promise.reject(new Error("sheet down"))
+          : Promise.resolve(new Response(JSON.stringify({ id: "abc" }), { status: 200 })),
+      ),
+    );
+
+    const res = await POST(
+      makeRequest({
+        type: "booking",
+        name: "Fatima",
+        email: "fatima@example.com",
+        tour: "Toubkal",
+        date: futureDate(30),
+        people: 2,
+      }),
+    );
+
+    expect(res.status).toBe(200);
+    expect((await res.json()).ok).toBe(true);
+
+    delete process.env.SHEET_WEBHOOK_URL;
+    delete process.env.SHEET_WEBHOOK_SECRET;
+  });
+
   it("returns 503 (not a false success) when RESEND_API_KEY is missing", async () => {
     delete process.env.RESEND_API_KEY;
     const req = makeRequest({

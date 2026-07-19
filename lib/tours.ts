@@ -1896,15 +1896,20 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     price: 620,
     depositAmount: 155,
-    // Our own photographs from this route. The hero is Lake Ifni itself — the
-    // feature the tour is named after — which was previously a stock mountain
-    // lake that could have been anywhere.
+    // Our own photographs, ordered to follow the itinerary: the high approach
+    // and azib pastures of days 1-4, the lake the tour is named after, then the
+    // Toubkal summit day that closes it. The summit frames are snow and the
+    // valley frames are summer — the sequence makes that read as the route
+    // changing with altitude and season rather than as mismatched stock.
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
       "/gallery/ifni-lake-from-the-pass.jpg",
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
-      "/gallery/ifni-loaded-mule-high-scree.jpg",
       "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+      "/gallery/toubkal-trekkers-below-summit.jpg",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     ],
     shortDescription:
       "The full loop around Jbel Toubkal — remote Berber villages, high passes over 3,600 m, the turquoise Lake Ifni, and a summit finale at 4,167 m.",

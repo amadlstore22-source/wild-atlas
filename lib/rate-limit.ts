@@ -11,6 +11,8 @@
  * counters reset on cold start. That is acceptable for slowing casual abuse.
  * If we ever need a hard global guarantee, swap the Map for Upstash/Redis and
  * keep this signature.
+ *
+ * The identity this buckets on is only as good as the IP header — see clientIp.
  */
 
 type Entry = { count: number; resetAt: number };
@@ -49,22 +51,51 @@ export function rateLimit(key: string, limit: number, windowMs: number): RateLim
 }
 
 /**
- * Best-effort client IP. On Vercel, x-forwarded-for is set by the platform edge;
- * the left-most entry is the client. Header spoofing is possible in principle,
- * which is another reason this is a speed bump rather than a security boundary.
+ * Best-effort client IP, preferring the headers a client cannot forge.
+ *
+ * Vercel overwrites `x-forwarded-for` at the edge and does not forward external
+ * IPs, specifically to prevent spoofing, so on this deployment XFF is already
+ * trustworthy. `x-vercel-forwarded-for` is the same value but is NOT rewritten
+ * when a proxy (e.g. Cloudflare) sits in front of Vercel, so it survives a
+ * front-proxy that appends attacker-controlled entries to XFF. We read it first
+ * for that reason; XFF and x-real-ip remain as fallbacks for local dev and any
+ * non-Vercel host.
+ *
+ * Only the LEFT-MOST entry is used, and it must parse as an IP address: a
+ * forged "X-Forwarded-For: not-an-ip" would otherwise become its own rate-limit
+ * bucket and hand an attacker unlimited fresh budgets.
  *
  * Returns null when no IP can be determined. Callers must FAIL OPEN on null
  * rather than bucket every such request under one key: that would put every
  * visitor into a single shared budget and turn a missing header into a global
  * outage of the contact form.
  */
-export function clientIp(req: Request): string | null {
-  const fwd = req.headers.get("x-forwarded-for");
-  if (fwd) {
-    const first = fwd.split(",")[0]?.trim();
-    if (first) return first;
+const IPV4 = /^\d{1,3}(\.\d{1,3}){3}$/;
+
+function validIp(raw: string | undefined): string | null {
+  const ip = raw?.trim();
+  if (!ip || ip.length > 45) return null;
+  // IPv4: reject 999.999.999.999 and friends.
+  if (IPV4.test(ip)) {
+    return ip.split(".").every((o) => Number(o) <= 255) ? ip : null;
   }
-  return req.headers.get("x-real-ip")?.trim() || null;
+  // IPv6: hex groups and colons only (accepts "::1" and IPv4-mapped forms).
+  if (/^[0-9a-fA-F:]+$/.test(ip) && ip.includes(":")) return ip;
+  return null;
+}
+
+export function clientIp(req: Request): string | null {
+  const candidates = [
+    req.headers.get("x-vercel-forwarded-for"),
+    req.headers.get("x-forwarded-for"),
+    req.headers.get("x-real-ip"),
+  ];
+  for (const header of candidates) {
+    if (!header) continue;
+    const ip = validIp(header.split(",")[0]);
+    if (ip) return ip;
+  }
+  return null;
 }
 
 /**

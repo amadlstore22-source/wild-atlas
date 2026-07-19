@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
 import { limitByIp } from "@/lib/rate-limit";
+import { isCrossOrigin } from "@/lib/request-origin";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -12,6 +13,12 @@ const WINDOW_MS = 60 * 60 * 1000; // 1 hour
 
 export async function POST(req: NextRequest) {
   try {
+    // This route mails an arbitrary address, so a cross-origin caller could use
+    // it to send our branded mail to anyone. Refused before the rate limiter.
+    if (isCrossOrigin(req)) {
+      return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+    }
+
     const limited = limitByIp(req, "newsletter", LIMIT, WINDOW_MS);
     if (limited) {
       return NextResponse.json(

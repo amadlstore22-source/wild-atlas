@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { isRelevant } from "@/lib/news";
+import { isRelevant, isSafeHttpUrl } from "@/lib/news";
 
 // Shorthand: a broad (non-country-scoped) travel feed, e.g. NYT Travel.
 const travelFeed = (title: string, excerpt = "") =>
@@ -64,5 +64,33 @@ describe("news relevance: Morocco is a hard gate", () => {
   it("requires a travel angle on travel feeds, not just any Morocco mention", () => {
     // A Morocco mention alone shouldn't publish an off-topic business piece.
     expect(travelFeed("Morocco raises corporate registration fees")).toBe(false);
+  });
+});
+
+describe("isSafeHttpUrl: feed links become hrefs, so the scheme is a gate", () => {
+  it("accepts ordinary article links", () => {
+    expect(isSafeHttpUrl("https://www.bbc.co.uk/news/world-africa-123")).toBe(true);
+    expect(isSafeHttpUrl("http://example.com/a?b=c#d")).toBe(true);
+  });
+
+  it("rejects script-bearing schemes", () => {
+    // React does not block javascript: in href (it only warns), and CSP
+    // script-src does not stop a javascript: navigation either.
+    expect(isSafeHttpUrl("javascript:alert(1)")).toBe(false);
+    expect(isSafeHttpUrl("JaVaScRiPt:alert(1)")).toBe(false);
+    expect(isSafeHttpUrl("data:text/html,<script>alert(1)</script>")).toBe(false);
+    expect(isSafeHttpUrl("vbscript:msgbox(1)")).toBe(false);
+  });
+
+  it("rejects protocol-relative and relative links", () => {
+    expect(isSafeHttpUrl("//evil.example/path")).toBe(false);
+    expect(isSafeHttpUrl("/relative/path")).toBe(false);
+  });
+
+  it("rejects non-strings and absurdly long values", () => {
+    expect(isSafeHttpUrl(undefined)).toBe(false);
+    expect(isSafeHttpUrl(null)).toBe(false);
+    expect(isSafeHttpUrl(12345)).toBe(false);
+    expect(isSafeHttpUrl("https://example.com/" + "a".repeat(3000))).toBe(false);
   });
 });

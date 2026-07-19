@@ -150,6 +150,20 @@ export default async function BlogPostPage({ params }: BlogParams) {
   const cells = (l: string) =>
     l.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
 
+  /**
+   * SECURITY CONTRACT — READ BEFORE CHANGING THE INPUT SOURCE.
+   *
+   * This renderer interpolates its input into HTML with NO escaping, and the
+   * result goes to dangerouslySetInnerHTML below. It is safe today for exactly
+   * one reason: `post.content` is authored in this repository (lib/blog.ts) and
+   * reviewed like code. It is trusted input, not user input.
+   *
+   * The moment content arrives from anywhere else — a CMS, an import script, a
+   * fetch, form submissions, translated strings from an API — this becomes
+   * stored XSS on every reader of that post. If that day comes, either escape
+   * the text nodes here or switch to a sanitising renderer; do not simply point
+   * new data at it.
+   */
   function renderMarkdown(source: string): string {
   const lines = source.trim().split("\n");
   const htmlParts: string[] = [];

@@ -219,3 +219,49 @@ describe("POST /api/contact", () => {
     expect(res.status).toBe(200);
   });
 });
+
+describe("POST /api/contact: same-origin enforcement", () => {
+  /** A request with explicit origin headers attached. */
+  function makeRequestFrom(headers: Record<string, string>) {
+    return new NextRequest("http://localhost/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", ...headers },
+      body: JSON.stringify({
+        type: "general",
+        name: "Ahmed",
+        email: "ahmed@example.com",
+        message: "Hello",
+      }),
+    });
+  }
+
+  it("rejects a cross-site POST with 403 and sends no mail", async () => {
+    const res = await POST(makeRequestFrom({ "sec-fetch-site": "cross-site" }));
+    expect(res.status).toBe(403);
+    // The important half: Resend was never called.
+    expect(fetch).not.toHaveBeenCalled();
+  });
+
+  it("rejects a foreign Origin when fetch metadata is absent", async () => {
+    const res = await POST(makeRequestFrom({ origin: "https://evil.example" }));
+    expect(res.status).toBe(403);
+    expect(fetch).not.toHaveBeenCalled();
+  });
+
+  it("accepts a same-origin submission from our own site", async () => {
+    const res = await POST(
+      makeRequestFrom({
+        "sec-fetch-site": "same-origin",
+        origin: "https://marrakechecotours.com",
+      }),
+    );
+    expect(res.status).toBe(200);
+  });
+
+  it("still accepts requests that carry no origin headers at all", async () => {
+    // Non-browser clients and older browsers must keep working — this is the
+    // fail-open case the OWASP guidance calls for.
+    const res = await POST(makeRequestFrom({}));
+    expect(res.status).toBe(200);
+  });
+});

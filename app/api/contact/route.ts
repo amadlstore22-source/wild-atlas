@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
 import { logEnquiry } from "@/lib/enquiry-log";
 import { limitByIp } from "@/lib/rate-limit";
+import { isCrossOrigin } from "@/lib/request-origin";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -36,6 +37,12 @@ function validDate(val: string): string {
 
 export async function POST(req: NextRequest) {
   try {
+    // Checked before the rate limiter so cross-origin abuse cannot consume the
+    // budget that belongs to a real visitor sharing that IP.
+    if (isCrossOrigin(req)) {
+      return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+    }
+
     const limited = limitByIp(req, "contact", LIMIT, WINDOW_MS);
     if (limited) {
       return NextResponse.json(

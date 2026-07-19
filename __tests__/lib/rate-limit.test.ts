@@ -60,6 +60,41 @@ describe("clientIp", () => {
   it("returns null when no ip header is present", () => {
     expect(clientIp(new Request("https://example.com"))).toBeNull();
   });
+
+  it("prefers x-vercel-forwarded-for, which a front proxy cannot rewrite", () => {
+    // If something sits in front of Vercel and appends to XFF, the Vercel
+    // header still carries the edge's own view of the client.
+    const req = new Request("https://example.com", {
+      headers: {
+        "x-vercel-forwarded-for": "203.0.113.5",
+        "x-forwarded-for": "198.51.100.9",
+      },
+    });
+    expect(clientIp(req)).toBe("203.0.113.5");
+  });
+
+  it("rejects a non-IP value instead of bucketing on it", () => {
+    // A forged "X-Forwarded-For: <random string>" must not mint a fresh
+    // rate-limit bucket. Unparseable means unknown, and unknown fails open.
+    for (const bad of ["not-an-ip", "999.999.999.999", "<script>", "1.2.3", ""]) {
+      const req = new Request("https://example.com", { headers: { "x-forwarded-for": bad } });
+      expect(clientIp(req)).toBeNull();
+    }
+  });
+
+  it("accepts IPv6", () => {
+    const req = new Request("https://example.com", {
+      headers: { "x-forwarded-for": "2001:db8::1" },
+    });
+    expect(clientIp(req)).toBe("2001:db8::1");
+  });
+
+  it("skips a junk header and uses the next valid one", () => {
+    const req = new Request("https://example.com", {
+      headers: { "x-vercel-forwarded-for": "garbage", "x-real-ip": "203.0.113.7" },
+    });
+    expect(clientIp(req)).toBe("203.0.113.7");
+  });
 });
 
 describe("limitByIp", () => {

@@ -202,6 +202,28 @@ export function isRelevant(
   return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
 }
 
+/**
+ * A feed's <link> is remote, third-party data that we render straight into an
+ * href. Without this gate a feed could hand us `javascript:...` and every click
+ * would execute it: React does not block javascript: URLs (it only warns), and
+ * our CSP script-src does not stop a javascript: URI navigation either.
+ *
+ * Today's five feeds are all reputable (BBC, Guardian, NYT, Atlas & Boots), so
+ * this is defence against a compromised feed or a future, less careful source
+ * rather than a live hole. http/https only — nothing else belongs in a news
+ * link, including data:, vbscript: and protocol-relative "//evil.example".
+ */
+export function isSafeHttpUrl(raw: unknown): raw is string {
+  if (typeof raw !== "string" || raw.length > 2048) return false;
+  try {
+    const proto = new URL(raw).protocol;
+    return proto === "http:" || proto === "https:";
+  } catch {
+    // Relative or malformed: not a usable external link.
+    return false;
+  }
+}
+
 function slugify(url: string): string {
   let hash = 0;
   for (let i = 0; i < url.length; i++) {
@@ -274,7 +296,8 @@ async function _fetchNewsArticles(): Promise<NewsArticle[]> {
       const itemAny = item as any;
       const rawExcerpt: string = item.contentSnippet ?? item.summary ?? itemAny["content:encoded"] ?? item.content ?? "";
       const excerpt = stripHtml(rawExcerpt).slice(0, 280);
-      if (!title || !item.link) continue;
+      // Drop the item entirely rather than render an unsafe or unusable link.
+      if (!title || !isSafeHttpUrl(item.link)) continue;
       if (!isRelevant(title, excerpt, source.category, source.scoped)) continue;
 
       const publishedAt = item.isoDate ?? item.pubDate ?? new Date().toISOString();

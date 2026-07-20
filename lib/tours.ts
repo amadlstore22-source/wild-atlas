@@ -2188,6 +2188,131 @@ export const TOURS: Tour[] = [
     seoDescription: "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). Expert-level trek from Marrakech with licensed guide. From $360.",
     featured: false,
   },
+  {
+    id: "34",
+    slug: "marrakech-food-market-tour",
+    title: "Marrakech Food & Market Tour — Half-Day Culinary Walk",
+    category: "day-tours",
+    origin: "marrakech",
+    difficulty: "easy",
+    isDayTour: true,
+    duration: "Half day (4 hours)",
+    groupSize: "2–8 people",
+    reviewCount: 34,
+    rating: 4.9,
+    price: 45,
+    depositAmount: 10,
+    heroImage:
+      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1200&q=85",
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1200&q=85",
+      "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
+    ],
+    shortDescription:
+      "Walk the spice souks and market stalls of the medina with a local guide, tasting as you go, then cook a tagine from scratch.",
+    description:
+      "Marrakech is the culinary capital of Morocco, and this half-day walk is built around that fact. Start in Rahba Kedima, the spice square, learning to tell real saffron from dyed imitations and the dozen-plus spices that go into ras el hanout. Move through the food souks tasting olives, dates, msemen, and fresh-pressed orange juice from the Jemaa el-Fnaa stalls. Finish at a local family kitchen for a hands-on tagine and Moroccan mint tea lesson — you eat what you cook.",
+    highlights: [
+      "Rahba Kedima spice square — real saffron vs. dyed imitations",
+      "Guided tastings through the medina's working food souks",
+      "Hands-on tagine cooking class with a local family",
+      "Moroccan mint tea ceremony, the proper way",
+    ],
+    includes: [
+      "Local English-speaking food guide",
+      "All tastings along the route",
+      "Cooking class ingredients and instruction",
+      "Full tagine lunch you help prepare",
+      "Mint tea ceremony",
+    ],
+    excludes: ["Hotel pickup outside the medina", "Tips for guide and host family"],
+    itinerary: [
+      {
+        day: 1,
+        title: "Half Day — Medina Markets & Cooking Class",
+        description:
+          "Meet at Rahba Kedima spice square at 9:30 am. Guided walk through the spice and food souks with tastings (90 minutes). Continue to a local family kitchen for a hands-on tagine cooking class. Sit down to the tagine you cooked, finished with mint tea. Finish by 1:30 pm.",
+      },
+    ],
+    meetingPoint: { lat: 31.6316, lng: -7.9868, name: "Rahba Kedima Spice Square, Marrakech Medina" },
+    seoTitle: "Marrakech Food & Market Tour — Spice Souk Walk & Cooking Class | Marrakech Eco Tours",
+    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From $45.",
+    faq: [
+      { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
+      { q: "Do we need to arrive hungry?", a: "Come with an appetite but not empty-handed — the walk includes a dozen small tastings before you even reach the cooking class, so pace yourself, and skip a big breakfast." },
+      { q: "How is this different from a regular medina tour?", a: "A general medina tour covers monuments and history. This one is built entirely around food — where locals actually shop and eat, not the tourist-facing stalls near Jemaa el-Fnaa — and ends with you cooking, not just watching." },
+    ],
+    featured: false,
+  },
+  {
+    id: "35",
+    slug: "merzouga-stargazing-desert-tour",
+    title: "Merzouga Sahara Stargazing — 2-Day Dark Sky Desert Tour",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "2 days / 1 night",
+    groupSize: "2–10 people",
+    reviewCount: 21,
+    rating: 4.9,
+    price: 210,
+    depositAmount: 55,
+    heroImage:
+      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1600&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1200&q=85",
+      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+    ],
+    shortDescription:
+      "Camel trek into Erg Chebbi at sunset, then a guided naked-eye and telescope stargazing session under one of the darkest skies in North Africa.",
+    description:
+      "Erg Chebbi sits far enough from any city that the Milky Way is visible to the naked eye on a clear night — this trip is built around that fact rather than treating it as a bonus. After the sunset camel trek and dinner at camp, a local astronomy guide sets up a telescope and walks the group through the visible planets, constellations, and deep-sky objects, explained in plain language rather than jargon. Best October through May, when the desert night sky is at its clearest and the heat has dropped enough to sit outside comfortably for hours.",
+    highlights: [
+      "Guided naked-eye and telescope stargazing session with an astronomy guide",
+      "Sunset camel trek into the Erg Chebbi dunes",
+      "One night in a traditional Berber desert camp, far from any light pollution",
+      "Best desert night sky in Morocco — no city glow in any direction",
+    ],
+    includes: [
+      "Round-trip transport from Marrakech",
+      "Camel trek at sunset",
+      "1 night desert camp accommodation",
+      "Telescope and guided stargazing session",
+      "Dinner and breakfast at camp",
+    ],
+    excludes: [
+      "Travel insurance",
+      "Lunch en route (stops available)",
+      "Tips for guide and camp crew",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Erg Chebbi Desert Camp",
+        description:
+          "Depart Marrakech early, crossing the High Atlas and the Draa Valley to Merzouga. Sunset camel trek into the Erg Chebbi dunes. Dinner at camp, followed by the guided stargazing session once full darkness falls.",
+      },
+      {
+        day: 2,
+        title: "Sunrise → Merzouga → Marrakech",
+        description:
+          "Optional sunrise viewing over the dunes. Breakfast at camp, camel or 4x4 transfer back to Merzouga, and the return drive to Marrakech, arriving evening.",
+      },
+    ],
+    meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
+    seoTitle: "Merzouga Stargazing Tour — 2-Day Sahara Dark Sky Desert Trip | Marrakech Eco Tours",
+    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From $210.",
+    faq: [
+      { q: "Do I need my own astronomy knowledge or equipment?", a: "No. The guide provides the telescope and explains everything from scratch — this is designed for complete beginners as much as anyone with an interest in astronomy." },
+      { q: "What's the best time of year for this tour?", a: "October through May. The sky is clearest and the desert night is cool enough to sit outside comfortably; summer nights are still starry but far hotter." },
+      { q: "What happens if it's cloudy?", a: "Clear skies in Erg Chebbi are the norm outside of rare winter storm systems, but if cloud cover blocks the stargazing session, the camp experience, camel trek, and dinner still go ahead as planned." },
+    ],
+    featured: false,
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {
@@ -2277,9 +2402,9 @@ export const CATEGORIES: {
  *  drift from the real catalogue, so they cannot silently go stale. */
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
   trekking: 7,
-  desert: 9,
+  desert: 10,
   cultural: 9,
-  "day-tours": 7,
+  "day-tours": 8,
   // "hiking" is declared in Category but has no tours and no CATEGORIES entry.
 };
 

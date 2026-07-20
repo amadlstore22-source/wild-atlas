@@ -2,12 +2,11 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { Mountains, Compass, UsersThree, Leaf } from "@phosphor-icons/react";
-import { SITE } from "@/lib/constants";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-const MILESTONES = [
+function milestones(tourCount: number) { return [
   {
     year: "1980s",
     title: "A Father's Footsteps",
@@ -30,10 +29,10 @@ const MILESTONES = [
   },
   {
     year: "Now",
-    title: `${SITE.tourCount} Routes, One Standard`,
-    body: `Today we run ${SITE.tourCount} tours across six categories and six languages. The routes have grown. The standard hasn't moved. Every trip is one we'd take our own families on — because many of them, we already have.`,
+    title: `${tourCount} Routes, One Standard`,
+    body: `Today we run ${tourCount} tours across four categories and six languages. The routes have grown. The standard hasn't moved. Every trip is one we'd take our own families on — because many of them, we already have.`,
   },
-];
+]; }
 
 const VALUES = [
   { Icon: Mountains, title: "Local first", body: "Guides born and raised in the landscapes they lead." },
@@ -42,8 +41,9 @@ const VALUES = [
   { Icon: Leaf, title: "Leave no trace", body: "Pack-in, pack-out on every trek. We partner with local cleanup crews in the Atlas." },
 ];
 
-export default function AboutStory({ lang }: { lang: Locale }) {
+export default function AboutStory({ lang, tourCount }: { lang: Locale; tourCount: number }) {
   void lang;
+  const MILESTONES = milestones(tourCount);
 
   return (
     <>

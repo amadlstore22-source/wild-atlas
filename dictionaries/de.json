@@ -219,7 +219,7 @@
     "eyebrow": "So funktioniert es",
     "title": "Dein Abenteuer in 3 Schritten",
     "step1Title": "Entdecken & Auswählen",
-    "step1Desc": "Erkunde über 30 ausgewählte Touren durch den Atlas, die Sahara und Marokkos Kaiserstädte.",
+    "step1Desc": "Erkunde {tourCount} ausgewählte Touren durch den Atlas, die Sahara und Marokkos Kaiserstädte.",
     "step2Title": "Mit Anzahlung buchen",
     "step2Desc": "Sichere deinen Platz online mit einer kleinen Anzahlung. Kostenlose Stornierung bis 14 Tage vorher.",
     "step3Title": "Anreisen & Erkunden",

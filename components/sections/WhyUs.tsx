@@ -3,14 +3,13 @@ import { UsersThree, Leaf, ChatCircle, MapTrifold } from "@phosphor-icons/react"
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import { SITE } from "@/lib/constants";
-import { STATS } from "@/lib/stats";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-interface Props { dict: Dictionary }
+interface Props { dict: Dictionary; tourCount: number }
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-export default function WhyUs({ dict }: Props) {
+export default function WhyUs({ dict, tourCount }: Props) {
   const WHY = [
     { icon: MapTrifold, title: dict.whyUs.certified.title, body: dict.whyUs.certified.desc },
     { icon: UsersThree, title: dict.whyUs.smallGroups.title, body: dict.whyUs.smallGroups.desc },
@@ -19,7 +18,7 @@ export default function WhyUs({ dict }: Props) {
   ];
 
   const STEPS = [
-    { num: "01", title: "Choose", body: `Browse ${STATS.tourCount} adventures or ask us to build a custom route.` },
+    { num: "01", title: "Choose", body: `Browse ${tourCount} adventures or ask us to build a custom route.` },
     { num: "02", title: "Inquire", body: `Fill the enquiry form or WhatsApp us. Reply within ${SITE.responseHours} hours.` },
     { num: "03", title: "Deposit", body: `Secure your spot with a PayPal deposit. ${SITE.depositDays} days free cancellation.` },
     { num: "04", title: "Go", body: "Your guide meets you. Everything else is taken care of." },

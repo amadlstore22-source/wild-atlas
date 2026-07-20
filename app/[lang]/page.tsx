@@ -14,6 +14,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import { SITE, TRIPADVISOR, SISTER_SITE } from "@/lib/constants";
+import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
@@ -127,7 +128,7 @@ export default async function HomePage({ params }: LangParams) {
       <FeaturedTours lang={lang} dict={dict} />
       <ZelligeDivider />
       <CategoryGrid dict={dict} lang={lang} />
-      <WhyUs dict={dict} />
+      <WhyUs dict={dict} tourCount={STATS.tourCount} />
       <Testimonials dict={dict} />
       <ZelligeDivider />
       <OurStory dict={dict} lang={lang} />
@@ -136,7 +137,7 @@ export default async function HomePage({ params }: LangParams) {
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />
       </Suspense>
-      <CTABanner lang={lang} dict={dict} />
+      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );
 }

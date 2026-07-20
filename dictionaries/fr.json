@@ -219,7 +219,7 @@
     "eyebrow": "Comment ça marche",
     "title": "Votre aventure en 3 étapes",
     "step1Title": "Parcourir & Choisir",
-    "step1Desc": "Explorez plus de 30 circuits soigneusement sélectionnés dans l'Atlas, le Sahara et les villes impériales du Maroc.",
+    "step1Desc": "Explorez {tourCount} circuits soigneusement sélectionnés dans l'Atlas, le Sahara et les villes impériales du Maroc.",
     "step2Title": "Réserver avec un acompte",
     "step2Desc": "Réservez votre place en ligne avec un petit acompte. Annulation gratuite jusqu'à 14 jours avant.",
     "step3Title": "Arriver & Explorer",

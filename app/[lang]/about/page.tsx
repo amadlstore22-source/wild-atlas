@@ -8,6 +8,7 @@ import AboutStory from "@/components/sections/AboutStory";
 import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
+import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
 type LangParams = { params: Promise<{ lang: string }> };
@@ -85,7 +86,7 @@ export default async function AboutPage({ params }: LangParams) {
             {[
               { value: `${SITE.guidingHeritageYears}+`, label: "Years of guiding experience" },
               { value: SITE.clientCount, label: "Happy travellers" },
-              { value: String(SITE.tourCount), label: "Tours available" },
+              { value: String(STATS.tourCount), label: "Tours available" },
               { value: SITE.countryCount, label: "Countries represented" },
             ].map((s) => (
               <div key={s.label} className="text-center px-4 py-2">
@@ -98,7 +99,7 @@ export default async function AboutPage({ params }: LangParams) {
       </div>
 
       {/* ── Origin story + animated content ── */}
-      <AboutStory lang={lang} />
+      <AboutStory lang={lang} tourCount={STATS.tourCount} />
 
       {/* ── Three pillars ── */}
       <section className="relative py-24 bg-sand/30 overflow-hidden">
@@ -154,7 +155,7 @@ export default async function AboutPage({ params }: LangParams) {
       <GuideProfiles lang={lang} />
 
       {/* ── Why Us (existing component) ── */}
-      <WhyUs dict={dict} />
+      <WhyUs dict={dict} tourCount={STATS.tourCount} />
 
       {/* ── Pull quote + tours CTA ── */}
       <section className="relative py-24 overflow-hidden">
@@ -173,7 +174,7 @@ export default async function AboutPage({ params }: LangParams) {
               href={`/${lang}/tours`}
               className="px-8 py-3.5 rounded-full bg-forest text-white font-bold text-sm hover:bg-moss transition-colors shadow-lg shadow-forest/20"
             >
-              Browse All {SITE.tourCount} Tours
+              Browse All {STATS.tourCount} Tours
             </Link>
             <Link
               href={`/${lang}/contact`}
@@ -185,7 +186,7 @@ export default async function AboutPage({ params }: LangParams) {
         </div>
       </section>
 
-      <CTABanner lang={lang} dict={dict} />
+      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );
 }

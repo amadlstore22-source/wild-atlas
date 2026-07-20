@@ -5,6 +5,7 @@ import NewsSection from "@/components/sections/NewsSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import CTABanner from "@/components/sections/CTABanner";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { STATS } from "@/lib/stats";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -45,7 +46,7 @@ export default async function NewsPage({ params }: LangParams) {
         <NewsSection lang={lang} dict={dict} showViewAll={false} />
       </Suspense>
 
-      <CTABanner lang={lang} dict={dict} />
+      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );
 }

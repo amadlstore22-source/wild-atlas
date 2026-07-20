@@ -6,6 +6,7 @@ import { GUIDES } from "@/lib/guides";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import CTABanner from "@/components/sections/CTABanner";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
+import { STATS } from "@/lib/stats";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -225,7 +226,7 @@ export default async function GuidesPage({ params }: LangParams) {
 
       </div>
 
-      <CTABanner lang={lang} dict={dict} />
+      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );
 }

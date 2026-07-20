@@ -219,7 +219,7 @@
     "eyebrow": "Cómo funciona",
     "title": "Tu aventura en 3 pasos",
     "step1Title": "Explorar & Elegir",
-    "step1Desc": "Explora más de 30 tours seleccionados por el Atlas, el Sáhara y las ciudades imperiales de Marruecos.",
+    "step1Desc": "Explora {tourCount} tours seleccionados por el Atlas, el Sáhara y las ciudades imperiales de Marruecos.",
     "step2Title": "Reservar con depósito",
     "step2Desc": "Asegura tu lugar online con un pequeño depósito. Cancelación gratuita hasta 14 días antes.",
     "step3Title": "Llegar & Explorar",

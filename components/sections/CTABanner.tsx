@@ -4,18 +4,18 @@ import Image from "next/image";
 import { Envelope, WhatsappLogo, ArrowRight, ShieldCheck, Clock, Star } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
-import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
-import { STATS } from "@/lib/stats";
+import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
   dict: Dictionary;
   lang?: Locale;
+  tourCount: number;
 }
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-export default function CTABanner({ dict, lang = "en" }: Props) {
+export default function CTABanner({ dict, lang = "en", tourCount }: Props) {
   const TRUST = [
     { icon: ShieldCheck, text: dict.cta.trust1 },
     { icon: Clock, text: dict.cta.trust2.replace("{hours}", String(SITE.responseHours)) },
@@ -48,7 +48,7 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.6, ease, delay: 0.2 }}
                 >
-                  {dict.cta.subtitle.replace("{tourCount}", String(STATS.tourCount))}
+                  {dict.cta.subtitle.replace("{tourCount}", String(tourCount))}
                 </motion.p>
 
                 <motion.div
@@ -125,9 +125,9 @@ export default function CTABanner({ dict, lang = "en" }: Props) {
                     ))}
                   </div>
                   <p className="text-cream text-sm font-semibold leading-tight">
-                    {STATS.rating.toFixed(1)} on TripAdvisor
+                    {TRIPADVISOR.rating.toFixed(1)} on TripAdvisor
                   </p>
-                  <p className="text-cream/65 text-xs mt-0.5">{STATS.reviewCount} traveller reviews</p>
+                  <p className="text-cream/65 text-xs mt-0.5">{TRIPADVISOR.reviewCount} traveller reviews</p>
                 </motion.div>
               </div>
             </div>

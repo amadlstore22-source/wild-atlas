@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CATEGORIES, getToursByCategory, type Category } from "@/lib/tours";
 import TourCard from "@/components/ui/TourCard";
 import CTABanner from "@/components/sections/CTABanner";
+import { STATS } from "@/lib/stats";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
@@ -103,7 +104,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
         )}
       </div>
 
-      <CTABanner lang={lang} dict={dict} />
+      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );
 }

@@ -955,8 +955,8 @@ export const TOURS: Tour[] = [
       "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
     gallery: [
       "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1200&q=85",
-      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=1200&q=85",
       "https://images.unsplash.com/photo-1624802746702-60ca95bdb605?w=1200&q=85",
+      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1200&q=85",
     ],
     shortDescription:
       "The Atlantic coast's most magical city — blue boats, ancient ramparts, and the freshest seafood in Morocco.",

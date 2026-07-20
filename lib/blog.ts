@@ -64,8 +64,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Morocco: The Ultimate Adventure Travel Guide",
     excerpt:
       "From the snowy peaks of the High Atlas to the golden dunes of the Sahara, Morocco is one of the world's great adventure destinations. This is your complete guide to exploring it.",
-    heroImage:
-      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "tips",
     region: "root",
     readTime: 12,
@@ -172,8 +171,7 @@ The deep-dive guides below cover each region in full detail.
     title: "How to Climb Jbel Toubkal: The Complete Guide for 2026",
     excerpt:
       "At 4,167 metres, Jbel Toubkal is the highest peak in North Africa. Here is everything you need to know — best season, fitness requirements, gear list, and what to expect on summit day.",
-    heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+    heroImage: "/gallery/toubkal-predawn-summit-start-crampons.jpg",
     category: "trekking",
     readTime: 9,
     publishedAt: "2025-04-10",
@@ -363,7 +361,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     excerpt:
       "Morocco is a year-round destination — but the best month depends entirely on what you are planning. Here is a month-by-month breakdown from guides who live and work in the country.",
     heroImage:
-      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -448,7 +446,7 @@ If you can only visit once: **April, May, or October**. You get every type of Mo
     excerpt:
       "The overland route from Marrakech to Fes passes through the High Atlas, Aït Ben Haddou, the Draa Valley, cedar forests, and a medieval imperial city. Here is how to do it properly.",
     heroImage:
-      "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -520,7 +518,7 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     excerpt:
       "Paradise Valley is one of Morocco's best-kept secrets — a lush palm gorge with natural swimming pools just 35 km from Agadir. Here is how to get there, what to bring, and when to go.",
     heroImage:
-      "https://images.unsplash.com/photo-1603982626518-eff2f11a4e70?w=1600&q=85",
+      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -1407,8 +1405,7 @@ Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful,
     title: "Gite Panorama Imlil: The Perfect Base Camp Before Toubkal",
     excerpt:
       "Perched above the village of Imlil with sweeping views of the High Atlas, Gite Panorama is where our Toubkal expeditions begin. Here's what you can expect — and why where you sleep the night before matters.",
-    heroImage:
-      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    heroImage: "/gallery/IMG_20260630_142912.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -1656,8 +1653,7 @@ If you're unsure about any item, [contact us before your trek](/en/contact). Our
     title: "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
     excerpt:
       "Since 2018 a licensed guide has been mandatory on Jbel Toubkal, and there are checkpoints that enforce it. Here is what the rule actually says, who checks, and what happens if you turn up without one.",
-    heroImage:
-      "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -1870,7 +1866,7 @@ Not sure which side of that line you fall on? [Tell us what you have done before
     excerpt:
       "Zagora is closer and cheaper. Merzouga has the dunes you pictured. The honest trade-off comes down to how many days you have, and we will tell you when Zagora is the wrong choice.",
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -1974,7 +1970,7 @@ If you tell us how many days you have and what you actually want out of the dese
     excerpt:
       "A breakdown of real 2026 prices for Sahara trips from Marrakech, what separates a $90 tour from a $300 one, how much to tip, and where the money actually goes.",
     heroImage:
-      "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
     category: "tips",
     region: "sahara-south",
     readTime: 8,
@@ -2096,7 +2092,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     excerpt:
       "Morocco is safe for solo women, and the honest caveat is that safe does not mean comfortable. What the attention actually looks like, what to wear, and the strategies that work.",
     heroImage:
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -2215,7 +2211,7 @@ Questions about a specific itinerary or a specific worry? [Ask us directly](/en/
     excerpt:
       "Seven days is enough for a first trip if you resist the urge to see everything. The routes that work at 5, 7, and 10 days — and the itinerary mistake almost every first-timer makes.",
     heroImage:
-      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1600&q=85",
     category: "tips",
     region: "root",
     readTime: 9,
@@ -2604,7 +2600,7 @@ For more on what the trek demands physically, see [How Hard Is Toubkal, Really?]
     author: MET_TEAM,
     title: "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
     excerpt: "Three very different deserts sold under one word. What each actually is, how long each needs, and which one matches the picture in your head.",
-    heroImage: "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1614364962243-5eefd3905fe9?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2689,7 +2685,7 @@ The mistake to avoid is booking Agafay expecting the Sahara. It is a fine trip o
     author: MET_TEAM,
     title: "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
     excerpt: "Morocco has two great sand seas. One is easier to reach and unmistakably spectacular; the other is remote enough that you may see no other camp at all.",
-    heroImage: "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2830,7 +2826,7 @@ If your trip is fixed to high summer, that alone may decide it. See [The Best Ti
     author: MET_TEAM,
     title: "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
     excerpt: "Toubkal gets the traffic, but it is one summit in a very large range. Four longer routes, what each demands, and how to pick by fitness and days available.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -2907,7 +2903,7 @@ For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/bl
     author: MET_TEAM,
     title: "Can You Visit the Sahara From Agadir? Yes, With Caveats",
     excerpt: "Not as a day trip, whatever you are told at the hotel desk. What the two, three and four-day options from Agadir actually involve, and how the route differs.",
-    heroImage: "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1672754521539-49de145445a6?w=1600&q=85",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -2975,7 +2971,7 @@ For how the dune fields themselves differ, see [Erg Chebbi vs Erg Chegaga](/en/b
     author: MET_TEAM,
     title: "The Best Day Trips From Agadir",
     excerpt: "Agadir's own attractions are modest, but what sits within a couple of hours is not. Six day trips worth the early start, and what each actually delivers.",
-    heroImage: "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1600&q=85",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -3217,7 +3213,7 @@ Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](
     title: "Who Are the Berbers? An Introduction From Inside the Culture",
     excerpt:
       "Our guides are Berber, our father was one of the first licensed Berber mountain guides in the High Atlas, and the word gets used constantly on Morocco trips without much explanation. Here is what it actually means.",
-    heroImage: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -3262,7 +3258,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
     title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
     excerpt:
       "Kasbah gets used loosely in English to mean 'exotic old building.' Here is what it actually means, and how it differs from a riad, a ksar and a medina.",
-    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -3305,7 +3301,7 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
     title: "What Is a Riad? Morocco's Courtyard House, Explained",
     excerpt:
       "Every hotel in Marrakech seems to call itself a riad. Here's what the word actually means, why the design exists, and how to tell a real one from a marketing label.",
-    heroImage: "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1600&q=85",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,
@@ -3348,7 +3344,7 @@ Because "riad" now signals boutique and traditional to international travellers,
     title: "Sahara Desert Facts: What's True, and What Gets Exaggerated",
     excerpt:
       "The Sahara is bigger, older and less empty than most people picture. Here are the real numbers behind the desert you're about to visit — and a few common claims that don't hold up.",
-    heroImage: "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3444,7 +3440,7 @@ Be realistic about signal once you leave paved roads. On multi-day treks in the 
     title: "What to Pack for a Morocco Desert Tour",
     excerpt:
       "Desert days are hot and desert nights are genuinely cold — the packing mistake almost everyone makes is preparing for one and not the other. Here's the list our guides actually use.",
-    heroImage: "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3493,7 +3489,7 @@ Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-
     title: "Visiting Morocco During Ramadan: What Actually Changes",
     excerpt:
       "Ramadan 2026 runs mid-February to mid-March. Here's what genuinely changes for a visitor — restaurant hours, pace of life, and how to be a considerate guest — and what doesn't.",
-    heroImage: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1600&q=85",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -3539,7 +3535,7 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
     title: "Alcohol in Morocco: What's Legal, and Where",
     excerpt:
       "Morocco is a Muslim-majority country where alcohol is legal but tightly channelled — sold in specific places, to specific rules. Here's how it actually works.",
-    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
     category: "tips",
     region: "root",
     readTime: 5,

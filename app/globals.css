@@ -173,11 +173,20 @@ h1, h2, h3 {
   font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
 }
 /* Default heading colour via :where() so it has ZERO specificity — any Tailwind
-   text-* utility (e.g. text-white on a dark hero) always wins. Without this the
-   base rule and the utility tie on specificity, the later one wins, and every
-   white heading over a photo rendered dark and vanished into the image. */
-:where(h1, h2, h3) {
-  color: var(--color-ink);
+   text-* utility (e.g. text-white on a dark hero) always wins on specificity.
+   That alone is NOT enough under Tailwind v4: v4 wraps its own utilities in
+   `@layer utilities`, and unlayered CSS always beats every layered rule
+   regardless of specificity. This block was unlayered, so it silently beat
+   every text-cream/text-white utility on every photo card sitewide — cards
+   rendered dark ink text on dark photos and looked fine only where the photo
+   itself happened to be dark under the text. Wrapping it in the same `base`
+   layer Tailwind uses restores normal specificity-based cascading, so a
+   heavier utility class (text-cream, 0,1,0) correctly beats this zero-
+   specificity default again. */
+@layer base {
+  :where(h1, h2, h3) {
+    color: var(--color-ink);
+  }
 }
 h1 { font-size: var(--text-hero); line-height: 1.04; }
 h2 { font-size: var(--text-h2); }

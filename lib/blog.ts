@@ -75,6 +75,7 @@ export const BLOG_POSTS: BlogPost[] = [
     seoTitle: "Morocco Adventure Travel Guide 2026 — Complete Overview",
     seoDescription:
       "Your complete guide to adventure travel in Morocco — Atlas Mountains, Sahara desert, imperial cities, Atlantic coast, and southern regions. Where to go, when to go, and what to expect.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     content: `
 ## Why Morocco?
 
@@ -688,6 +689,7 @@ Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* 
     seoTitle: "Chefchaouen Travel Guide 2026 — The Blue City of Morocco",
     seoDescription:
       "Your complete guide to Chefchaouen — why it's blue, what to see, where to stay, how to get there, and the best times to visit Morocco's most iconic mountain town.",
+    relatedTours: ["marrakech-to-chefchaouen-4day", "agadir-to-chefchaouen-5day"],
     content: `
 ## Why Is Chefchaouen Blue?
 
@@ -767,6 +769,7 @@ Chefchaouen's riads are excellent value — you can stay in a beautiful blue-til
     seoTitle: "Morocco Food Guide 2026 — 15 Dishes You Must Try",
     seoDescription:
       "The essential Morocco food guide — from tagine and couscous to bastilla and harira. What to eat, where to find it, and what makes Moroccan cuisine so extraordinary.",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     content: `
 ## Why Moroccan Food Is Extraordinary
 
@@ -989,6 +992,7 @@ The glamping camps at Agafay have developed significantly over recent years. The
     seoTitle: "Marrakech Medina Guide 2026 — Everything You Need to Know",
     seoDescription:
       "The complete insider guide to Marrakech's medina — souks, palaces, hammams, food, and how to navigate the world's greatest labyrinth without getting overwhelmed.",
+    relatedTours: ["marrakech-medina-cultural-tour"],
     content: `
 ## The Medina at a Glance
 
@@ -1232,6 +1236,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     seoTitle: "Fes Medina Travel Guide 2026 — Complete Guide to Fes el-Bali",
     seoDescription:
       "The complete travel guide to Fes el-Bali — the Chouara tanneries, Al-Qarawiyyin, Medersa Bou Inania, and how to navigate the world's most complex medieval city.",
+    relatedTours: ["marrakech-to-fes-3day", "agadir-to-fes-4day"],
     content: `
 ## Why Fes Is Different from Marrakech
 
@@ -1295,6 +1300,7 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
     seoTitle: "Is Morocco Safe for Tourists? Honest 2026 Guide — What's Real, What's Not",
     seoDescription:
       "Morocco is safe for most tourists most of the time — but first-time visitors need to know which risks are real and which ones guidebooks exaggerate. Licensed Berber guides give you the honest picture.",
+    relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-2day-marrakech"],
     content: `
 Morocco consistently ranks among the safest destinations in Africa for foreign tourists. The country has a well-established tourism infrastructure, a low violent crime rate by international standards, and a culture of hospitality that goes back centuries. Most visitors leave without a single negative incident.
 
@@ -1485,6 +1491,7 @@ The gite is not a hotel. It is a working mountain operation that has been in one
     seoTitle: "Morocco for Moroccan Travellers — Domestic Adventure Guide",
     seoDescription:
       "More Moroccans are discovering their own country through guided adventure travel — the Atlas, the Sahara, the Atlantic gorges. Where to start, and why a local guide changes it.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech"],
     content: `
 ## The Country You Already Own
 
@@ -1559,6 +1566,7 @@ The Atlas has been here for 300 million years. It will wait. But it is also wort
     seoTitle: "High Atlas Trek Packing List — What to Bring for Toubkal & Atlas Treks",
     seoDescription:
       "The definitive packing list for High Atlas and Toubkal trekking, compiled by Berber guides who have led thousands of trekkers. What's essential, what's optional, and what to leave at home.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
     content: `
 ## The Short Version
 
@@ -3041,6 +3049,532 @@ See [Trekking the Anti-Atlas](/en/blog/anti-atlas-trekking-guide).
 Start early. Every one of these is one to three hours out, and the difference between leaving at seven and leaving at nine is the difference between arriving ahead of the crowd and behind it.
 
 For desert trips from Agadir, which need more than a day, see [Can You Visit the Sahara From Agadir?](/en/blog/sahara-desert-from-agadir)
+`,
+  },
+  {
+    slug: "todra-gorge-guide",
+    author: MET_TEAM,
+    title: "Todra Gorge: The Canyon on the Road to the Sahara",
+    excerpt:
+      "A 300-metre limestone canyon you pass on the way to Merzouga — and one of the most dramatic stops on the entire route. Here is what it actually is and why the drive slows down for it.",
+    heroImage: "https://images.unsplash.com/photo-1548013146-72479768bada?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Todra Gorge", "Todra Canyon", "Morocco road trip", "Sahara route", "rock climbing Morocco"],
+    seoTitle: "Todra Gorge Guide — The Canyon Between Ouarzazate and Merzouga",
+    seoDescription:
+      "What Todra Gorge actually is, why every Marrakech-to-Merzouga desert tour stops there, and what a 30-minute walk into the canyon shows you that the road doesn't.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
+    content: `
+## What Todra Gorge Actually Is
+
+Todra Gorge is a limestone canyon in the eastern High Atlas, carved by the Todra River over millions of years. At its narrowest point the walls close to about 10 metres apart and rise nearly 300 metres straight up — a proportion that photographs poorly and has to be stood in to understand. It sits near the town of Tinghir, on the main road between Ouarzazate and Merzouga, which is why almost every multi-day desert tour from Marrakech passes through it.
+
+It is not a detour. It is on the route.
+
+## Why It's a Stop, Not a Destination
+
+Nobody books a trip specifically for Todra Gorge — it is what breaks up a long driving day between the Atlas and the dunes. Most tours stop for 30 to 60 minutes: enough time to walk into the narrowest section, look straight up, and get back on the road. That is the right amount of time. The gorge rewards a short, focused visit more than a long one; the drama is concentrated in about 600 metres of canyon floor.
+
+There is a small cluster of cafés and stalls at the entrance, and the road itself runs through the gorge floor, so you see it from the vehicle before you see it on foot.
+
+## Rock Climbing
+
+Todra is one of Morocco's best-known climbing destinations, with several hundred bolted routes on the limestone walls, mostly rated for intermediate to advanced climbers. This is not something a standard desert tour includes — it needs its own trip, gear, and usually a local climbing guide arranged separately from a tour operator. If climbing is the actual goal, treat Todra as a dedicated destination, not a stop on a Sahara itinerary.
+
+## What to Expect on the Ground
+
+The canyon floor is flat and easy walking — no technical hiking required to see the best of it. Water levels in the river vary by season; in spring, meltwater can make some of the lowest sections wet underfoot. Light is best in the late morning, when the sun reaches down between the walls; by mid-afternoon much of the gorge is in shadow.
+
+## Which Tours Pass Through
+
+Todra Gorge is included as a stop on our [3-day Marrakech to the Sahara tour](/en/tours/sahara-3day-marrakech), the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). If you are deciding between desert routes generally, see [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+`,
+  },
+  {
+    slug: "dades-valley-gorges-guide",
+    author: MET_TEAM,
+    title: "Dades Valley: The Road of a Thousand Kasbahs",
+    excerpt:
+      "Switchback roads, rose-red rock formations, and kasbahs built into the cliffs. Dades Valley is the most visually dramatic stretch of the drive to the Sahara.",
+    heroImage: "https://images.unsplash.com/photo-1591979264447-c1a1af7cf6b1?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Dades Valley", "Dades Gorge", "Road of a Thousand Kasbahs", "Morocco road trip", "Ouarzazate"],
+    seoTitle: "Dades Valley Guide — Kasbahs, Gorges, and the Road to Merzouga",
+    seoDescription:
+      "What Dades Valley is, why it's called the Road of a Thousand Kasbahs, and what you see on the drive between Ouarzazate and the Sahara.",
+    relatedTours: ["erg-chegaga-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
+    content: `
+## The Road of a Thousand Kasbahs
+
+The N10 road east from Ouarzazate follows the Dades and M'Goun rivers through a valley lined with kasbahs — fortified earthen buildings, many centuries old, built from the same red clay as the cliffs behind them. The stretch has an informal name, the Route of a Thousand Kasbahs, and while nobody has literally counted them, the density is real: for long sections of the drive, there is rarely a moment without one in view.
+
+Most are still standing because the region's dry climate is kind to mudbrick construction. Some are inhabited, some are crumbling, and a handful have been restored as guesthouses.
+
+## Dades Gorge
+
+Past the town of Boumalne Dades, the valley narrows into Dades Gorge, where the road switches back sharply up rose-coloured rock formations locally nicknamed the "monkey fingers" for their eroded, knuckled shape. This section is the most photographed part of the route, and for good reason — the light on the rock in late afternoon is genuinely striking.
+
+A full detour up the gorge and back adds a few hours and is not part of a standard desert-tour itinerary; most tours see the lower valley and kasbahs from the main road without the full gorge diversion.
+
+## What Makes It Different From Todra
+
+Dades is wider and gentler than Todra — a valley of switchbacks and kasbahs rather than a narrow canyon. The two are often mentioned together because they sit close together on the same road east from Ouarzazate, but they are different kinds of landscape: Todra is vertical and sudden, Dades is a long, unfolding drive.
+
+## Which Tours Pass Through
+
+Dades Valley is part of the route on our [3-day Erg Chegaga expedition](/en/tours/erg-chegaga-3day-marrakech), the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). For the shorter 2-day options that don't reach this far, see [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+`,
+  },
+  {
+    slug: "skoura-oasis-guide",
+    author: MET_TEAM,
+    title: "Skoura Oasis: A Palm Grove Full of Kasbahs",
+    excerpt:
+      "A working palm oasis dotted with historic kasbahs, just east of Ouarzazate. Quieter and less visited than the bigger stops on the desert road — which is most of its appeal.",
+    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 5,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Skoura", "Skoura Oasis", "kasbah", "Ouarzazate", "date palm oasis"],
+    seoTitle: "Skoura Oasis Guide — The Quiet Palm Grove East of Ouarzazate",
+    seoDescription:
+      "What Skoura Oasis is, why it's worth the short stop between Ouarzazate and Dades, and the kasbahs hidden inside its palm groves.",
+    relatedTours: ["desert-4day-marrakech"],
+    content: `
+## A Working Oasis, Not a Postcard Palm Grove
+
+Skoura is a genuine oasis — around 5,000 hectares of date palms, olive and fig trees, fed by irrigation channels that have been maintained for centuries. Unlike the more heavily visited stops on the desert road, it is still a working agricultural landscape, with local families farming inside the palm grove itself. That is most of its appeal: it feels lived-in rather than staged for visitors.
+
+It sits about 40 minutes east of Ouarzazate, just before the road climbs toward Dades Valley.
+
+## The Kasbahs Inside the Palms
+
+Skoura's oasis hides several historic kasbahs among the trees, the best known being Kasbah Amridil — a fortified 17th-century building whose silhouette appeared on an older series of the 50-dirham note, and which remains inhabited by descendants of the family that built it. Walking or driving into the palm grove to reach it is part of the experience; the kasbah is not visible from the main road.
+
+Several kasbahs in Skoura are in active restoration, which means some can be visited and others are working sites rather than open attractions. This varies year to year.
+
+## Why It's Worth the Stop
+
+Skoura rarely gets more than a brief stop on a standard itinerary — a walk into the palms, a look at one kasbah, back on the road. That brevity is honest: there isn't a full day of activity here for most travellers. But as a contrast to the open, dry country on either side of it, a shaded palm oasis with running irrigation water is a genuine change of scene, and a quieter one than the bigger stops nearby.
+
+## Which Tours Pass Through
+
+Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), which is built to cover more of the Ouarzazate–Merzouga road than the shorter 2- and 3-day options. If you're deciding how many days you need for the full route, see [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek) for how we think about that trade-off generally, or [What a Morocco Desert Tour Really Costs](/en/blog/how-much-does-a-morocco-desert-tour-cost) for the desert-specific version.
+`,
+  },
+  {
+    slug: "ait-benhaddou-guide",
+    author: MET_TEAM,
+    title: "Ait Benhaddou: The Kasbah You've Already Seen in a Film",
+    excerpt:
+      "A UNESCO-listed fortified village near Ouarzazate that has stood in for ancient Rome, Yunkai, and more. Here's what it actually is beneath the film-set reputation.",
+    heroImage: "https://images.unsplash.com/photo-1548013146-72479768bada?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Ait Benhaddou", "Ait Ben Haddou", "UNESCO Morocco", "Ouarzazate", "kasbah", "film locations Morocco"],
+    seoTitle: "Ait Benhaddou Guide — The UNESCO Kasbah Near Ouarzazate",
+    seoDescription:
+      "What Ait Benhaddou actually is, why it's been used in dozens of films, and what to know before visiting this UNESCO World Heritage ksar near Ouarzazate.",
+    relatedTours: ["desert-4day-marrakech", "merzouga-3day-agadir"],
+    content: `
+## What It Actually Is
+
+Ait Benhaddou is a ksar — a fortified village of earthen buildings enclosed by defensive walls — on the former caravan route between the Sahara and Marrakech. It sits on a hillside above the Ounila River, about 30 minutes from Ouarzazate, and has been continuously inhabited in some form since at least the 11th century, though most of what stands today dates from the 17th century onward. UNESCO listed it as a World Heritage Site in 1987, citing it as an outstanding example of pre-Saharan earthen architecture.
+
+A handful of families still live in the older part of the ksar, though most residents have moved to a newer village across the river, where modern services are easier to access.
+
+## The Film Reputation
+
+Ait Benhaddou's other identity is as one of the most-used film locations in North Africa, thanks to Ouarzazate's proximity and its film studios. It has appeared as ancient locations in Gladiator, Kingdom of Heaven, Prince of Persia, Game of Thrones, and a long list of other productions. That reputation draws visitors on its own, but it can also overshadow the site's actual history — it's a genuine medieval trading-route settlement first, and a filming backdrop second.
+
+## What to Expect on a Visit
+
+The main draw is climbing through the ksar to the fortified granary (agadir) at the top, which gives a view back over the walls, the river, and the newer village beyond. The climb is on uneven stone stairs and paths — manageable for most fitness levels, not stroller-friendly. Crossing the river requires either the footbridge or, when water is low, stepping stones; in wetter months a small fee for a donkey or raft crossing is common.
+
+Most desert-tour itineraries treat it as a stop of an hour to ninety minutes on the way toward or from Ouarzazate, not a full day.
+
+## Which Tours Pass Through
+
+Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech) and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). For the cultural-cities side of a Morocco trip more broadly, see [Marrakech Medina: The Insider's Complete Guide](/en/blog/marrakech-medina-complete-guide).
+`,
+  },
+  {
+    slug: "who-are-the-berbers",
+    author: MET_TEAM,
+    title: "Who Are the Berbers? An Introduction From Inside the Culture",
+    excerpt:
+      "Our guides are Berber, our father was one of the first licensed Berber mountain guides in the High Atlas, and the word gets used constantly on Morocco trips without much explanation. Here is what it actually means.",
+    heroImage: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "culture",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Berbers", "Amazigh", "Berber culture Morocco", "who are the Berbers", "Atlas Mountains people"],
+    seoTitle: "Who Are the Berbers? A Guide From an Amazigh-Guided Company",
+    seoDescription:
+      "An introduction to Berber (Amazigh) identity, language and culture in Morocco, written by a family of Berber mountain guides — not a textbook summary.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "Is it 'Berber' or 'Amazigh'?", a: "Both are used, and you will hear both in Morocco. Amazigh (plural Imazighen) is the name the people use for themselves, and it is increasingly the preferred term in formal and official contexts — Tamazight became an official language of Morocco in the 2011 constitution. 'Berber' is the older term used historically by outsiders, derived from the same root as 'barbarian.' It is not generally considered offensive in everyday Moroccan tourism use, and you will see both words on road signs, guide credentials and in this article, but Amazigh is the more precise and respectful term when you have the choice." },
+      { q: "Are Berbers a minority in Morocco?", a: "No — estimates vary, but Amazigh people and those of Amazigh descent make up a large share of Morocco's population, commonly cited between 35 and 45 percent, with a much larger share again if you count Moroccans of mixed Arab-Amazigh heritage, which describes most of the country. They are not a small minority group; they are one of Morocco's two foundational populations alongside Arab Moroccans, and the two have intermarried and mixed for over a thousand years." },
+      { q: "Do Berbers have their own language?", a: "Yes. Tamazight is not a dialect of Arabic — it is a completely separate language family, with several regional varieties spoken in Morocco (Tashelhit in the High Atlas and Souss, Tamazight proper in the Middle Atlas, Tarifit in the north). It has its own alphabet, Tifinagh (ⵜⵉⴼⵉⵏⴰⵖ), which predates Arabic script in the region and is now taught in some Moroccan schools." },
+      { q: "Will my guide be Berber?", a: "If you trek in the High Atlas, very likely yes — most High Atlas mountain guides and muleteers are Amazigh, and many families in villages like Imlil have guided for generations. Our own guides are Berber, from the valleys they guide in." },
+    ],
+    content: `
+## Not a Subculture — One of Morocco's Two Foundations
+
+The word "Berber" gets used constantly on a Morocco trip — Berber villages, Berber carpets, Berber guides, Berber pharmacy — often without much explanation of what it actually means. We are a family of Berber guides, so this is not an outside summary. It's worth saying plainly at the start: Berbers, or Amazigh people, are not a minority subculture inside Morocco. Alongside Arab Moroccans, they are one of the country's two foundational populations, and the two have been intermarrying and mixing for well over a thousand years. Most Moroccans carry both heritages.
+
+## Amazigh, Not Just Berber
+
+The people who are called "Berbers" call themselves Imazighen (singular Amazigh) — the word is generally understood to mean "free people" or "noble people." "Berber" is the older, external name, related to the same root as "barbarian," used historically by Roman and later Arab writers. It has stuck in everyday use, including in tourism, and is not considered an insult in that context. But Amazigh is the people's own name for themselves, and it is the more precise term — since 2011, Tamazight has been a constitutionally official language of Morocco, and "Amazigh" is now standard in government and education. You will hear both words used interchangeably in the Atlas, including by us.
+
+## A Language, Not a Dialect
+
+Tamazight is not a form of Arabic. It belongs to an entirely separate language family, spoken across North Africa for thousands of years, well before Arabic arrived with the Islamic conquests of the 7th century. Morocco has several regional varieties — Tashelhit in the High Atlas and Souss region around Agadir, Tamazight in the Middle Atlas, and Tarifit in the Rif mountains to the north. Its own script, Tifinagh (ⵜⵉⴼⵉⵏⴰⵖ), is one of the oldest writing systems still in use in Africa, and it now appears on road signs and public buildings alongside Arabic and French.
+
+## Life in the High Atlas
+
+In the mountain villages where most of our treks run — Imlil, the Ourika valley, the Toubkal massif — the population is overwhelmingly Amazigh, and daily life still runs on patterns shaped by centuries in this terrain: terraced farming on impossibly steep slopes, transhumance (seasonal herding between valley and high pasture), and mud-brick and stone architecture built for a mountain climate. Mountain guiding itself grew directly out of this: the people who knew these passes because they had walked them their whole lives became the people who led the first foreign trekkers up them, a role our own father held in the 1980s.
+
+## Why This Matters on a Trip
+
+Understanding this isn't trivia — it changes how a trek reads. When a guide points out a village and says "that's a Berber village," it helps to know that's not describing an isolated minority enclave; it's describing the majority culture of the mountains you're walking through, with its own language, architecture and history stretching back further than the country's Arabic name. If you want the version of this that is specifically about the mountains, see [Do You Need a Guide to Climb Toubkal?](/en/blog/do-you-need-a-guide-to-climb-toubkal), which explains why that guiding tradition is now also a legal requirement.
+`,
+  },
+  {
+    slug: "what-is-a-kasbah",
+    author: MET_TEAM,
+    title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
+    excerpt:
+      "Kasbah gets used loosely in English to mean 'exotic old building.' Here is what it actually means, and how it differs from a riad, a ksar and a medina.",
+    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 5,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["what is a kasbah", "kasbah meaning", "Morocco architecture", "ksar vs kasbah"],
+    seoTitle: "What Is a Kasbah? Meaning, History and How to Tell It From a Ksar",
+    seoDescription:
+      "A kasbah is a fortified building, not a whole town. Here's the real definition, how it differs from a ksar, riad and medina, and where to see the best examples.",
+    faq: [
+      { q: "What's the difference between a kasbah and a ksar?", a: "A kasbah is a single fortified building — traditionally a chief's or governor's residence with defensive walls and corner towers. A ksar (plural ksour) is a whole fortified village made up of many such buildings clustered together, usually surrounded by an outer wall. Ait Benhaddou is technically a ksar, not a single kasbah, even though it's often called 'the kasbah' informally." },
+      { q: "Is a kasbah the same as a riad?", a: "No. A kasbah is a fortified, defensive building, historically found in the south and pre-Saharan regions. A riad is a traditional house built around an interior garden courtyard, found inside city medinas and built for domestic life, not defence. They come from different needs and different parts of the country, though both are now commonly used as guesthouses." },
+      { q: "Why are so many kasbahs made of the same reddish clay?", a: "They're built from pisé, or rammed earth — clay, sand and straw compacted in layers, sometimes reinforced with palm wood. It's a building method suited to the pre-Saharan climate: thick earthen walls stay cool in extreme heat and insulate against cold nights, and the material is locally abundant. The trade-off is that pisé structures need regular maintenance and erode without it, which is why many older kasbahs are partially ruined." },
+    ],
+    content: `
+## Not Just "Old Fort" — A Specific Kind of Building
+
+In English travel writing, "kasbah" often gets used loosely to mean any exotic-looking old building in Morocco. The real meaning is more specific: a kasbah is a fortified residence, traditionally built for a local chief, governor or powerful family, with defensive walls and square corner towers. It's a single structure, not a village — the confusion comes because many kasbahs anchored settlements that grew up around them, and the word gets applied loosely to the whole place.
+
+## Kasbah vs Ksar
+
+The word you actually want for a whole fortified village is ksar (plural ksour) — a cluster of kasbah-style buildings enclosed by a shared outer wall, built collectively rather than as one family's residence. [Ait Benhaddou](/en/blog/ait-benhaddou-guide) is the best-known example, and it's technically a ksar, though "the kasbah of Ait Benhaddou" is the phrase you'll hear used interchangeably in practice, including by guides.
+
+## What They're Built From
+
+Almost all traditional kasbahs and ksour share the same building material: pisé, or rammed earth, made from clay, sand and straw compacted into thick walls, sometimes reinforced with palm-wood beams. This is why the whole region has that consistent reddish-ochre colour — the buildings are quite literally made from the ground they stand on. The material is well suited to the climate (thick earthen walls buffer against extreme daytime heat and cold desert nights) but needs regular re-plastering to survive; abandoned kasbahs erode back into the landscape within decades without upkeep.
+
+## Where to See the Best Examples
+
+The kasbah road runs east from Marrakech over the Tizi n'Tichka pass toward Ouarzazate — sometimes called Morocco's "Hollywood of the desert" for its film studios — and on toward the Dades and Todra valleys, where the concentration of kasbahs is so dense the route has its own nickname, the [Road of a Thousand Kasbahs](/en/blog/dades-valley-gorges-guide). [Ait Benhaddou](/en/blog/ait-benhaddou-guide) and [Kasbah Amridil in Skoura](/en/blog/skoura-oasis-guide) are the two most complete and accessible examples on that route.
+
+## For Sleeping, Not Just Looking
+
+Some restored kasbahs now operate as guesthouses, giving you a night inside the thick earthen walls rather than just a photo stop. This is different from staying in a riad, which is a courtyard house built for city life, not defence — see [What Is a Riad?](/en/blog/what-is-a-riad) for that distinction.
+`,
+  },
+  {
+    slug: "what-is-a-riad",
+    author: MET_TEAM,
+    title: "What Is a Riad? Morocco's Courtyard House, Explained",
+    excerpt:
+      "Every hotel in Marrakech seems to call itself a riad. Here's what the word actually means, why the design exists, and how to tell a real one from a marketing label.",
+    heroImage: "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 5,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["what is a riad", "riad meaning", "Marrakech accommodation", "riad vs hotel"],
+    seoTitle: "What Is a Riad? The Traditional Moroccan Courtyard House Explained",
+    seoDescription:
+      "A riad is a traditional house built around an interior garden, not just a boutique-hotel marketing term. Here's the real definition and what to expect from staying in one.",
+    faq: [
+      { q: "Is every 'riad' in Marrakech a real riad?", a: "No. The word has become a marketing label attached to almost any boutique guesthouse in a Moroccan medina, whether or not it has the defining feature: a central courtyard, traditionally with a garden or fountain, around which every room opens. A genuine riad is organised entirely around that inward-facing courtyard. If a property calls itself a riad but is really a converted street-front building with no central courtyard, it's using the word loosely." },
+      { q: "Why do riads face inward with no windows on the street?", a: "Privacy and climate, in roughly equal measure. Traditional Moroccan homes kept family life screened from the street, so riads present blank or minimally decorated walls outward and put all the beauty — tilework, carved plaster, the garden — inside, facing the courtyard. The enclosed courtyard also moderates temperature, staying shaded and cool in summer." },
+      { q: "Are riads good for families or groups?", a: "Often better than a standard hotel. Because a riad's rooms open onto a shared central courtyard rather than a corridor, many operate more like a private house than a hotel — some can be booked in full for one group, which suits families or a group of friends better than scattered hotel rooms." },
+    ],
+    content: `
+## The Word Means "Garden"
+
+Riad comes from the Arabic word for garden. A traditional riad is a house built around an internal courtyard — historically planted with a garden, often with a fountain or reflecting pool — with every room opening inward onto that space rather than outward onto the street. Walk past one in the Marrakech medina and you'd likely never guess what's inside: the street-facing wall is usually plain, sometimes just a single unmarked door. That's intentional, not neglect.
+
+## Why the Design Exists
+
+Two reasons, and both are practical rather than purely decorative. First, privacy: traditional Moroccan domestic life was kept away from public view, so the house turns its back on the street and puts everything — the tilework, the carved plaster, the planting — inward, visible only to the household and invited guests. Second, climate: the enclosed courtyard, often open to the sky but shaded by surrounding walls and sometimes a citrus or palm tree, moderates temperature far better than a building with street-facing windows in a hot, dry climate.
+
+## Riad vs Kasbah vs Ksar
+
+These get confused because they're all traditional Moroccan buildings, but they solve different problems. A [kasbah](/en/blog/what-is-a-kasbah) is fortified — built for defence, historically in the south. A riad is domestic — built for private family life inside a city, with no defensive function at all. A ksar is a whole fortified village. You'll find riads inside city medinas (Marrakech, Fes, Essaouira) and kasbahs in the pre-Saharan south; they come from different regions and different needs.
+
+## What to Expect Staying in One
+
+Most riads operating as guesthouses today keep the traditional layout — rooms around a central courtyard, often with a rooftop terrace added for views over the medina — while adding modern plumbing and, usually, a small plunge pool in the courtyard itself. Because everything opens onto one shared space, a riad often feels more like staying in someone's home than in a hotel, for better and occasionally for worse: sound can travel across the courtyard more than it would down a hotel corridor.
+
+## A Marketing Word, Sometimes
+
+Because "riad" now signals boutique and traditional to international travellers, the word gets attached loosely to properties that don't actually have a central courtyard. If the layout matters to you, ask directly, or look for a courtyard photo before booking — the defining feature is the architecture, not the name on the sign.
+`,
+  },
+  {
+    slug: "sahara-desert-facts",
+    author: MET_TEAM,
+    title: "Sahara Desert Facts: What's True, and What Gets Exaggerated",
+    excerpt:
+      "The Sahara is bigger, older and less empty than most people picture. Here are the real numbers behind the desert you're about to visit — and a few common claims that don't hold up.",
+    heroImage: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Sahara desert facts", "Sahara size", "Erg Chebbi", "Merzouga dunes", "Sahara Morocco"],
+    seoTitle: "Sahara Desert Facts — Size, Age, and What's Actually True",
+    seoDescription:
+      "The real facts behind the Sahara desert you'll visit from Morocco — how big it actually is, how the dunes at Erg Chebbi compare, and what guidebooks tend to get wrong.",
+    relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
+    faq: [
+      { q: "How big is the Sahara, really?", a: "About 9.2 million square kilometres — roughly the size of the United States, or slightly larger than the whole of Europe. It's the largest hot desert in the world (Antarctica and the Arctic, both cold deserts, are larger overall) and covers most of North Africa, from the Atlantic coast to the Red Sea." },
+      { q: "Are the dunes at Merzouga the 'real' Sahara?", a: "Yes, genuinely — Erg Chebbi at Merzouga is a real dune sea within the Sahara, with dunes reaching around 150 metres. But it's worth knowing that dunes like this cover a minority of the Sahara's total area; most of the desert is flat gravel plain (reg) and rocky plateau (hamada), not sand dunes. What most people picture as 'the Sahara' — tall orange dunes — is a specific and relatively small kind of Saharan landscape, and Erg Chebbi is one of the best examples of it." },
+      { q: "Is the Sahara growing?", a: "There's real evidence it has expanded over the past century, partly from natural climate cycles and partly linked to broader climate change, though the picture is complex — parts of the Sahel on its southern edge have also seen periods of regreening. It's an active area of climate research, not a settled one-line fact." },
+    ],
+    content: `
+## Bigger Than You're Picturing
+
+The Sahara covers about 9.2 million square kilometres — close to the size of the entire United States, and larger than the whole of Europe. It's the largest hot desert on Earth (only the cold deserts of Antarctica and the Arctic are bigger) and stretches across roughly a dozen countries, from Morocco and Mauritania on the Atlantic coast to Egypt and Sudan on the Red Sea. What you'll see from Merzouga or Zagora is a genuine edge of something vastly larger than the two or three days you spend in it.
+
+## Most of It Isn't Dunes
+
+This is the fact that surprises people most: sand dunes (erg, in the Arabic-derived term used across the region) make up a minority of the Sahara's surface. Most of the desert is either reg — flat, stony gravel plain — or hamada, bare rocky plateau. The tall, photogenic dune seas most people picture when they hear "Sahara" are specific, relatively contained regions within the larger desert. Erg Chebbi, near Merzouga, and Erg Chegaga, further south and harder to reach, are Morocco's two accessible examples — and both are genuinely the real thing, not a scaled-down imitation for tourists.
+
+## How Tall Are the Dunes, Actually?
+
+At Erg Chebbi, the tallest dunes reach roughly 150 metres — genuinely large, and enough to disorient your sense of scale once you're walking on them. Some dune systems elsewhere in the Sahara (notably in Algeria's Grand Erg Oriental) reach considerably higher, but Erg Chebbi's dunes are tall enough that the classic sunrise-from-the-top photograph is not an exaggeration; it's a real, if slightly strenuous, climb.
+
+## It Wasn't Always Desert
+
+For a long stretch of the African Humid Period, roughly 11,000 to 5,000 years ago, much of what's now the Sahara was savanna and lakes, with evidence of human settlement, cattle herding and rock art depicting animals that couldn't survive there today. The shift to the current arid climate happened over centuries, not overnight, driven by changes in the Earth's orbital cycle. The desert you're visiting is, in that sense, geologically recent.
+
+## Is It Growing?
+
+There's real evidence the Sahara has expanded over roughly the last century, though the causes are debated between natural multi-decade climate cycles and broader climate change, and the picture at the desert's southern edge (the Sahel) is more mixed than a simple one-directional trend. It's an active research question, not a settled fact — worth knowing if a guide or article states it too confidently in either direction.
+
+## Seeing It Properly
+
+Numbers on a page don't really convey what a dune sea feels like at dawn. For that, see our [3-day Marrakech to the Sahara tour](/en/tours/sahara-3day-marrakech), or if you're comparing which desert region suits your trip, [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+`,
+  },
+  {
+    slug: "best-sim-card-morocco-tourists",
+    author: MET_TEAM,
+    title: "The Best SIM Card in Morocco for Tourists (2026)",
+    excerpt:
+      "You need working data more in the Atlas and the Sahara than in Marrakech, which changes which network actually matters. Here's what to buy and where.",
+    heroImage: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 5,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Morocco SIM card", "Morocco eSIM", "Maroc Telecom", "Orange Morocco", "Inwi", "Morocco data plan"],
+    seoTitle: "Best SIM Card in Morocco for Tourists 2026 — Which Network, and Why",
+    seoDescription:
+      "Which Moroccan mobile network to choose as a tourist, why coverage in the Atlas and Sahara matters more than in the cities, and how to buy a SIM on arrival.",
+    faq: [
+      { q: "Which network has the best coverage outside the cities?", a: "Maroc Telecom (branded IAM) generally has the strongest rural, mountain and desert coverage, because it inherited the old state telecom infrastructure and has invested the most in remote base stations. If your trip includes multi-day trekking in the High Atlas or a desert tour to Merzouga or Zagora, that coverage advantage matters more than city-centre speed comparisons." },
+      { q: "Can I buy a SIM at the airport?", a: "Yes. Maroc Telecom, Orange and Inwi all run kiosks at Morocco's main international airports (Marrakech, Casablanca, Agadir, Fes, Tangier), open for arriving flights. You'll need your passport — SIM registration is mandatory and takes a couple of minutes at the counter." },
+      { q: "Is eSIM worth it instead of a physical SIM?", a: "For convenience, yes — you can activate a data eSIM before you land and skip the airport queue entirely. The trade-off is usually price: local physical SIMs bought in-country are typically cheaper for the same data allowance. If you need a local Moroccan number (for a taxi app or a hotel to call you), you'll still want a physical SIM at some point." },
+      { q: "Will I have signal on the Toubkal trek or in the Sahara?", a: "Partially, and it varies by exact location. Villages like Imlil have coverage; higher up the massif and in the more remote sections, expect gaps. In the desert, coverage exists near towns like Merzouga and Zagora but drops out well before you reach the dunes or a desert camp. Don't plan around having signal on a trek or desert night — treat it as a bonus when it appears, not a given." },
+    ],
+    content: `
+## Why the Right Network Isn't the Obvious One
+
+Most SIM card advice online is written for city travellers and ranks networks by speed in Marrakech or Casablanca. If your trip includes the High Atlas or the Sahara — which most of ours do — that's the wrong comparison. The network that matters is the one with the best coverage once you're an hour outside a city, and that changes the answer.
+
+## The Three Networks
+
+Morocco has three mobile operators: Maroc Telecom (branded IAM), Orange, and Inwi. All three sell tourist SIMs at airport kiosks and phone shops in every city, and all require passport registration — this is a legal requirement, not paperwork you can skip.
+
+**Maroc Telecom** generally has the strongest coverage outside major cities, including in the High Atlas villages and along the desert routes toward Merzouga and Zagora. It inherited the former state telecom network, which was built out furthest into rural areas.
+
+**Orange and Inwi** are competitive on price and city-centre speed, and either is a perfectly good choice if your trip stays mostly in Marrakech, Fes, Casablanca and other urban stops.
+
+## What to Actually Buy
+
+A basic tourist data package — commonly sold as around 20–30 GB valid for a month — covers a typical two-week trip comfortably, including navigation, messaging and photo uploads. Buy at an airport kiosk on arrival for convenience (available at Marrakech, Casablanca, Agadir, Fes and Tangier airports) or at a phone shop in any city centre, usually for a slightly lower price. Either way, bring your passport.
+
+## eSIM vs Physical SIM
+
+An eSIM lets you activate data before you land, which is genuinely useful if you want connectivity the moment you step off the plane. It's usually a little more expensive than a local physical SIM for the same data, and it won't give you a Moroccan phone number, which some taxi apps and hotels want. Many travellers use an eSIM for the first day and switch to a local physical SIM once they've settled in.
+
+## Coverage on Trek and in the Desert
+
+Be realistic about signal once you leave paved roads. On multi-day treks in the High Atlas — see [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — coverage exists in villages like Imlil but thins out or disappears at altitude and in the more remote valleys. In the desert, towns have signal; the dunes and desert camps generally do not. Tell people at home when to expect to hear from you, rather than assuming you'll have a signal the whole trip.
+`,
+  },
+  {
+    slug: "what-to-pack-desert-tour-morocco",
+    author: MET_TEAM,
+    title: "What to Pack for a Morocco Desert Tour",
+    excerpt:
+      "Desert days are hot and desert nights are genuinely cold — the packing mistake almost everyone makes is preparing for one and not the other. Here's the list our guides actually use.",
+    heroImage: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1600&q=85",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["desert packing list", "Sahara packing", "what to pack Morocco desert", "Merzouga gear", "desert camp night"],
+    seoTitle: "What to Pack for a Morocco Desert Tour — The Real List",
+    seoDescription:
+      "Everything to actually bring on a Marrakech or Agadir desert tour — day heat, night cold, sand, and the small items every guide wishes their guests had packed.",
+    relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
+    content: `
+## The One Thing Everyone Gets Wrong
+
+The single most common packing mistake on a desert tour: dressing for the daytime heat and forgetting that desert nights are cold, often surprisingly so. Clear skies that let the sun bake the sand by day also let all that heat radiate straight back out after sunset — temperatures can drop from the mid-30s°C at midday to single digits after dark, even in summer. Pack for both, not just the one you're standing in when you leave home.
+
+## Clothing
+
+- **Layers, not one heavy jacket.** A t-shirt or light long-sleeve for the day, a fleece or warm mid-layer for evening, and a proper insulated jacket for the coldest hours around a desert camp at night.
+- **Long, loose, breathable clothing for daytime** — this protects against sun and blowing sand better than shorts and a t-shirt, and it's the more culturally appropriate choice in the small towns you'll pass through.
+- **A scarf or shesh** (the cotton head-wrap worn locally) — genuinely useful against sun and windblown sand, not just a souvenir. Most tours provide one, but bringing or buying your own means you'll actually use it.
+- **Closed shoes**, not sandals, for walking on dunes and around camp — sand gets everywhere in open footwear, and it holds onto heat.
+- **A warm hat and gloves for winter departures** — desert nights in December and January can approach freezing.
+
+## Practical Extras
+
+- **A headlamp or torch.** Desert camps have minimal lighting after dark, and finding your tent or the toilet block at 2am without one is a bad time.
+- **A refillable water bottle.** Tours provide water, but having your own bottle to refill cuts down on plastic and is easier to sip from during a long drive.
+- **Sunglasses and sunscreen** — desert sun reflecting off pale sand is stronger than it looks, even in cooler months.
+- **A dry bag or large ziplock for electronics.** Fine sand finds its way into camera bags and phone pockets; a sealed bag is cheap insurance.
+- **Cash in small denominations** for tips and small purchases in towns along the route — card machines are unreliable outside cities.
+
+## What You Don't Need
+
+- Hiking boots, unless your itinerary also includes trekking — desert walking doesn't need technical footwear.
+- A full camping setup — overnight desert camps provide tents, mattresses and bedding; you're not carrying your own shelter.
+- Valuables you'd be upset to lose in fine sand. It gets into everything; leave the good watch at the riad.
+
+## If Your Trip Combines Desert and Mountains
+
+Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), for instance — cover a lot of ground and a lot of temperature range in a short time. If your trip also includes High Atlas trekking, cross-reference this list against [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — the mountain list needs more technical layers than the desert one.
+`,
+  },
+  {
+    slug: "visiting-morocco-during-ramadan",
+    author: MET_TEAM,
+    title: "Visiting Morocco During Ramadan: What Actually Changes",
+    excerpt:
+      "Ramadan 2026 runs mid-February to mid-March. Here's what genuinely changes for a visitor — restaurant hours, pace of life, and how to be a considerate guest — and what doesn't.",
+    heroImage: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=1600&q=85",
+    category: "culture",
+    region: "root",
+    readTime: 7,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["Ramadan Morocco", "Morocco Ramadan 2026", "visiting Morocco during Ramadan", "Morocco travel etiquette"],
+    seoTitle: "Visiting Morocco During Ramadan 2026 — A Practical Guide",
+    seoDescription:
+      "What changes in Morocco during Ramadan (18 February – 19 March 2026): restaurant hours, daytime eating as a visitor, and what tours and treks actually look like.",
+    faq: [
+      { q: "Can tourists eat and drink in public during Ramadan?", a: "There's no law against it, and hotels and tourist restaurants generally serve food throughout the day. The expectation is discretion, not abstinence: eating openly on a café terrace in a small town is more likely to draw notice than eating inside a restaurant or your riad. In Marrakech's tourist areas this is rarely an issue at all." },
+      { q: "Are restaurants open during the day in Ramadan?", a: "Many local, everyday restaurants close during daylight hours and reopen after sunset. International hotels and restaurants aimed at tourists usually stay open throughout, though with a quieter atmosphere. Expect a lull in service right around sunset (iftar), when staff pause to break their own fast." },
+      { q: "Do treks and tours still run during Ramadan?", a: "Yes — our guides can choose whether to fast during physically demanding work, and many either adjust or don't fast on trekking days, which is a personal decision under Islamic practice. Tours run as normal; you may notice a guide eating and drinking normally on a trek even while family members at home are fasting, which is entirely within the rules." },
+      { q: "Is Ramadan a good or bad time to visit?", a: "Both, depending what you want. Fewer crowds at major sites, and evenings come alive in a way they don't the rest of the year, with street food and a genuinely festive atmosphere after sunset. The trade-off is a slower daytime pace, shorter opening hours for some shops and local restaurants, and slightly less spontaneous energy in the souks before iftar." },
+    ],
+    content: `
+## When Ramadan Falls in 2026
+
+Ramadan 2026 runs from approximately 18 February to 19 March, though the exact start and end dates are confirmed only the evening before by the sighting of the new moon, so treat these as close estimates rather than fixed. During this month, most of Morocco's Muslim population fasts from dawn to sunset — no food, water or smoking during daylight hours — which does change the rhythm of the country, though less than many first-time visitors expect.
+
+## What Actually Changes
+
+The clearest change is restaurant hours. Many local, everyday eateries close during the day and reopen after sunset, when the fast breaks with iftar — typically starting with dates, harira soup, and sweet pastries like chebakia. International hotels and tourist-oriented restaurants generally stay open through the day, though the pace and atmosphere is noticeably quieter. Expect a short lull in service right around sunset, when staff step away to break their own fast — build a little flexibility into evening dining plans.
+
+Shops and souks tend to run shorter or shifted hours, often quieter in the late afternoon and busier again after dark. The overall pace of daily life slows in the daytime and picks up after sunset, when streets and cafés genuinely come alive.
+
+## Eating and Drinking as a Visitor
+
+There's no legal restriction on tourists eating or drinking during daylight hours in Ramadan. The expectation is discretion rather than abstinence — eating inside a restaurant or your riad draws no attention at all; eating conspicuously on an open café terrace in a smaller, more conservative town is more likely to be noticed. In Marrakech's main tourist districts, this is rarely something visitors need to think about.
+
+## Tours and Treks During Ramadan
+
+Whether to fast on a physically demanding work day is a personal decision for our guides, and Islamic practice allows exemptions for travel and strenuous labour — many guides adjust their fasting around trekking days rather than skip guiding work entirely. Tours run on schedule during Ramadan; you may simply notice your guide eating and drinking normally during a trek even if they're fasting at other times, and that's entirely within the rules, not an inconsistency.
+
+## Is It a Good Time to Visit?
+
+Genuinely, it depends what you're after. Major sites and treks are quieter. Evenings have an atmosphere — street food stalls, a slower, warmer pace after sunset — that doesn't exist the rest of the year. The trade-off is a quieter, slower daytime, and a little more advance planning around meal times. It is not a reason to avoid Morocco, but it is a different Morocco than an August visit.
+`,
+  },
+  {
+    slug: "alcohol-in-morocco",
+    author: MET_TEAM,
+    title: "Alcohol in Morocco: What's Legal, and Where",
+    excerpt:
+      "Morocco is a Muslim-majority country where alcohol is legal but tightly channelled — sold in specific places, to specific rules. Here's how it actually works.",
+    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    category: "tips",
+    region: "root",
+    readTime: 5,
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    tags: ["alcohol in Morocco", "Morocco drinking laws", "can you drink in Morocco", "Morocco bars"],
+    seoTitle: "Alcohol in Morocco 2026 — What's Legal, Where to Buy, and What to Know",
+    seoDescription:
+      "Alcohol is legal in Morocco for visitors, sold through licensed bars, hotels and specific shops. Here's how the rules actually work, and what changes during Ramadan.",
+    faq: [
+      { q: "Is alcohol legal in Morocco?", a: "Yes. Morocco is a Muslim-majority country and most Moroccans don't drink, but alcohol is legal for anyone over 18, sold and served in licensed venues: hotel bars and restaurants, some standalone bars and beach clubs, larger supermarkets like Carrefour and Marjane, and dedicated liquor shops in cities." },
+      { q: "Can I drink in public in Morocco?", a: "No — public drinking is a criminal offence, and visible public intoxication can lead to a fine or a short spell in a holding cell. Drink inside licensed venues, hotel rooms or private settings, and carry alcohol discreetly rather than visibly through the medina." },
+      { q: "Will alcohol be available on a desert or mountain trip?", a: "Rarely, and don't plan around it. Small towns and villages along desert and trekking routes typically have no licensed venues, and most rural areas have none at all. If it matters to your trip, buy what you want in Marrakech or Agadir before departing, and drink it responsibly and discreetly at your accommodation." },
+      { q: "Does this change during Ramadan?", a: "Yes — many liquor shops and some bars stop alcohol sales entirely for the month of Ramadan, or restrict them to hotel guests only. If your trip falls during Ramadan, buy in advance or check with your hotel rather than assuming shops will be open — see our guide to [visiting Morocco during Ramadan](/en/blog/visiting-morocco-during-ramadan)." },
+    ],
+    content: `
+## Legal, but Channelled Through Specific Places
+
+Morocco is a Muslim-majority country, and most Moroccans don't drink alcohol for religious reasons. That doesn't mean it's unavailable to visitors — it's legal, but sold and consumed through a specific set of channels rather than openly on every street corner the way it might be at home.
+
+## Where You Can Buy and Drink It
+
+Licensed hotel bars and restaurants are the most reliable option in any city, and most mid-range and upmarket riads and hotels serve alcohol to guests even if the building looks traditional from outside. Standalone bars exist in Marrakech, Casablanca, Agadir and other larger cities, along with beach clubs on the coast. For buying to take away, large supermarket chains — Carrefour and Marjane are the two you'll see most — have alcohol sections, and dedicated liquor shops operate in most cities with their own opening hours, commonly something like 10am–8pm, closed Sundays.
+
+## What's Actually Restricted
+
+The legal drinking age is 18. Public drinking — in the street, in a park, openly in the medina — is a criminal offence in Morocco, not just a social faux pas, and visible drunkenness in public can lead to a fine or a short hold in custody until you've sobered up. The practical rule is simple: drink in licensed venues or private accommodation, and be discreet moving alcohol between the two — don't carry visible bottles through the souks.
+
+## Away From the Cities
+
+Once you're outside major cities — in the small towns along a desert route, or the mountain villages on a High Atlas trek — licensed venues thin out fast, and many rural areas have none at all. If having a drink on a multi-day trip matters to you, the practical approach is to buy what you want in Marrakech or Agadir before you depart, rather than expecting availability along the route.
+
+## Ramadan Changes This
+
+During Ramadan, many liquor shops and some bars stop selling alcohol for the month, or restrict service to hotel guests. If your trip falls during Ramadan — see [Visiting Morocco During Ramadan](/en/blog/visiting-morocco-during-ramadan) for the 2026 dates — plan ahead rather than assuming normal availability.
 `,
   },
 ];

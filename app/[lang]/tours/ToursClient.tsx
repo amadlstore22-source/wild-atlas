@@ -29,13 +29,6 @@ const PRICE_BANDS: { id: PriceBand; maxUsd: number | null; minUsd: number }[] = 
   { id: "high", minUsd: 250, maxUsd: null },
 ];
 
-const DURATIONS: { id: DurationBucket | "all"; label: string }[] = [
-  { id: "all", label: "Any length" },
-  { id: "day", label: "1 day" },
-  { id: "short", label: "2 to 3 days" },
-  { id: "long", label: "4+ days" },
-];
-
 export default function ToursClient({
   lang, dict,
   initialSearch = "", initialOrigin = "", initialCategory = "", initialDifficulty = "",
@@ -88,11 +81,18 @@ export default function ToursClient({
     { id: "agadir", label: dict.hero.fromAgadir },
   ];
 
+  const DURATIONS: { id: DurationBucket | "all"; label: string }[] = [
+    { id: "all", label: dict.tours.anyLength },
+    { id: "day", label: dict.tours.oneDay },
+    { id: "short", label: dict.tours.twoToThreeDays },
+    { id: "long", label: dict.tours.fourPlusDays },
+  ];
+
   const priceLabels: Record<PriceBand, string> = {
-    all: "Any price",
-    low: `Under ${format(100)}`,
-    mid: `${format(100)} to ${format(250)}`,
-    high: `${format(250)}+`,
+    all: dict.tours.anyPrice,
+    low: dict.tours.underPrice.replace("{price}", format(100)),
+    mid: dict.tours.priceRange.replace("{min}", format(100)).replace("{max}", format(250)),
+    high: dict.tours.pricePlus.replace("{price}", format(250)),
   };
 
   const filtered = useMemo(
@@ -173,7 +173,7 @@ export default function ToursClient({
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-3">
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">Category</div>
+              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.category}</div>
               <div className="flex flex-wrap gap-1.5">
                 <button onClick={() => setCategory("all")} className={chip(category === "all")}>{dict.tours.all}</button>
                 {CATEGORIES.map((cat) => (
@@ -182,7 +182,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">Difficulty</div>
+              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.difficulty}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DIFFICULTIES.map((d) => (
                   <button key={d.id} onClick={() => setDifficulty(d.id)} className={chip(difficulty === d.id)}>{d.label}</button>
@@ -190,7 +190,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">Duration</div>
+              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.duration}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DURATIONS.map((d) => (
                   <button key={d.id} onClick={() => setDuration(d.id)} className={chip(duration === d.id)}>{d.label}</button>
@@ -198,7 +198,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">Price</div>
+              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.price}</div>
               <div className="flex flex-wrap gap-1.5">
                 {PRICE_BANDS.map((b) => (
                   <button key={b.id} onClick={() => setPrice(b.id)} className={chip(price === b.id)}>{priceLabels[b.id]}</button>

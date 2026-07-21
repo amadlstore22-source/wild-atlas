@@ -1,14 +1,16 @@
 import Link from "next/link";
 import { MapPin, Translate, ArrowRight } from "@phosphor-icons/react/dist/ssr";
-import { GUIDES } from "@/lib/guides";
-import type { Locale } from "@/app/[lang]/dictionaries";
+import { guidesFor } from "@/lib/guides-i18n";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
   lang: Locale;
+  dict: Dictionary;
 }
 
-export default function GuideProfiles({ lang }: Props) {
-  const featured = GUIDES.filter((g) => g.isFounder);
+export default function GuideProfiles({ lang, dict }: Props) {
+  const g = dict.guidesPage;
+  const featured = guidesFor(lang).filter((guide) => guide.isFounder);
 
   return (
     <section className="py-24 bg-offwhite">
@@ -16,22 +18,22 @@ export default function GuideProfiles({ lang }: Props) {
 
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
           <div>
-            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Your guides</p>
+            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">{g.sectionEyebrow}</p>
             <h2
               className="font-display text-charcoal font-bold leading-tight"
               style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}
             >
-              The people who know<br className="hidden sm:block" /> this land by heart
+              {g.sectionTitle}
             </h2>
             <p className="text-ink-soft text-sm mt-3 max-w-sm leading-relaxed">
-              Not agency hires. Born and raised in the mountains, valleys, and medinas they lead.
+              {g.sectionSubtitle}
             </p>
           </div>
           <Link
             href={`/${lang}/guides`}
             className="inline-flex items-center gap-2 text-forest font-bold text-sm hover:gap-3 transition-all group shrink-0"
           >
-            Meet the full team
+            {g.meetFullTeam}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
@@ -64,7 +66,7 @@ export default function GuideProfiles({ lang }: Props) {
                   </div>
                   {guide.isFounder && (
                     <div className="absolute bottom-3 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-4 sm:left-3 bg-white/90 backdrop-blur-sm rounded-lg px-2.5 py-1 text-[10px] font-bold text-forest shadow whitespace-nowrap">
-                      Co-founder
+                      {g.coFounder}
                     </div>
                   )}
                 </div>
@@ -91,7 +93,7 @@ export default function GuideProfiles({ lang }: Props) {
                   </div>
 
                   <div className="mt-5 inline-flex items-center gap-1.5 text-forest font-bold text-xs group-hover:gap-3 transition-all">
-                    View profile →
+                    {g.viewProfile}
                   </div>
                 </div>
               </Link>
@@ -106,17 +108,16 @@ export default function GuideProfiles({ lang }: Props) {
             LA
           </div>
           <div className="flex-1 min-w-0">
-            <div className="font-semibold text-white text-sm">Lahsen Aitidar — The first guide</div>
+            <div className="font-semibold text-white text-sm">{g.lahsenName}</div>
             <div className="text-white/50 text-xs mt-0.5 leading-relaxed">
-              Father of Smail and Mohamed. One of the first licensed Berber mountain guides in the High Atlas (1980s).
-              Every route we run today was walked first by him.
+              {g.lahsenBody}
             </div>
           </div>
           <Link
             href={`/${lang}/guides/lahsen-aitidar`}
             className="shrink-0 text-sunset font-semibold text-xs hover:underline whitespace-nowrap"
           >
-            His story →
+            {g.hisStory}
           </Link>
         </div>
 

@@ -10,8 +10,8 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function TrustBar({ dict }: Props) {
   const SIGNALS = [
-    { icon: Star,      value: TRIPADVISOR.rating.toFixed(1),  label: `Rated ${TRIPADVISOR.rating.toFixed(1)} / 5`, weight: "fill" as const,    color: "text-sunset" },
-    { icon: Users,     value: "Max 10",                       label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
+    { icon: Star,      value: TRIPADVISOR.rating.toFixed(1),  label: dict.trustBar.rated.replace("{rating}", TRIPADVISOR.rating.toFixed(1)), weight: "fill" as const,    color: "text-sunset" },
+    { icon: Users,     value: dict.trustBar.maxGroupSize,     label: dict.trustBar.smallGroups, weight: "duotone" as const, color: "text-forest" },
     { icon: Leaf,      value: "100%",                         label: dict.trustBar.ecoFriendly, weight: "duotone" as const, color: "text-moss" },
     { icon: Shield,    value: `${SITE.depositDays} days`,     label: dict.trustBar.flexible,    weight: "duotone" as const, color: "text-forest" },
     { icon: Mountains, value: `${SITE.guidingHeritageYears}+ yrs`, label: dict.trustBar.certified,   weight: "duotone" as const, color: "text-sunset" },

@@ -5,9 +5,11 @@ import { ArrowRight } from "@phosphor-icons/react";
 interface Props {
   placeholder: string;
   buttonLabel: string;
+  successLabel: string;
+  errorLabel: string;
 }
 
-export default function NewsletterForm({ placeholder, buttonLabel }: Props) {
+export default function NewsletterForm({ placeholder, buttonLabel, successLabel, errorLabel }: Props) {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "loading" | "success" | "error">("idle");
 
@@ -30,7 +32,7 @@ export default function NewsletterForm({ placeholder, buttonLabel }: Props) {
   if (state === "success") {
     return (
       <p className="text-sm text-[#25D366] font-medium py-2">
-        ✓ You&rsquo;re on the list — check your inbox.
+        ✓ {successLabel}
       </p>
     );
   }
@@ -60,7 +62,7 @@ export default function NewsletterForm({ placeholder, buttonLabel }: Props) {
         )}
       </button>
       {state === "error" && (
-        <p className="absolute bottom-0 text-xs text-[#C97050] mt-1">Failed — try again.</p>
+        <p className="absolute bottom-0 text-xs text-[#C97050] mt-1">{errorLabel}</p>
       )}
     </form>
   );

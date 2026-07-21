@@ -1,6 +1,7 @@
 import { describe, it, expect, afterEach } from "vitest";
 import { render, screen, waitFor, cleanup } from "@testing-library/react";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import dict from "@/dictionaries/en.json";
 
 /**
  * The float sits at z-50; the tour page's mobile CTA bar sits at z-40. Without
@@ -39,14 +40,14 @@ function addStickyBar() {
 
 describe("WhatsAppButton", () => {
   it("renders a WhatsApp link", () => {
-    render(<WhatsAppButton />);
+    render(<WhatsAppButton dict={dict} />);
     const link = screen.getByRole("link", { name: /whatsapp/i });
     expect(link.getAttribute("href")).toContain("wa.me");
   });
 
   it("is inert while a sticky CTA bar is on the page", async () => {
     addStickyBar();
-    render(<WhatsAppButton />);
+    render(<WhatsAppButton dict={dict} />);
 
     await waitFor(() => {
       const link = waLink();
@@ -58,7 +59,7 @@ describe("WhatsAppButton", () => {
   });
 
   it("is interactive when no sticky bar is present", async () => {
-    render(<WhatsAppButton />);
+    render(<WhatsAppButton dict={dict} />);
 
     await waitFor(() => {
       const link = screen.getByRole("link", { name: /whatsapp/i });
@@ -70,7 +71,7 @@ describe("WhatsAppButton", () => {
   // The bar mounts with the tour page rather than on first paint, so a one-shot
   // check at mount would miss it.
   it("reacts to a sticky bar appearing after mount", async () => {
-    render(<WhatsAppButton />);
+    render(<WhatsAppButton dict={dict} />);
     await waitFor(() => {
       expect(screen.getByRole("link", { name: /whatsapp/i }).getAttribute("aria-hidden")).toBe("false");
     });
@@ -85,7 +86,7 @@ describe("WhatsAppButton", () => {
 
   it("comes back when the sticky bar is removed", async () => {
     const bar = addStickyBar();
-    render(<WhatsAppButton />);
+    render(<WhatsAppButton dict={dict} />);
 
     await waitFor(() => {
       expect(

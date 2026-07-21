@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { hasLocale } from "../dictionaries";
-import { DESTINATIONS } from "@/lib/destinations";
+import { getDictionary, hasLocale } from "../dictionaries";
+import { destinationsFor } from "@/lib/destinations-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 
 type LangParams = { params: Promise<{ lang: string }> };
@@ -36,6 +36,9 @@ const REGION_COLORS: Record<string, string> = {
 export default async function DestinationsPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
+  const dict = await getDictionary(lang);
+  const d = dict.destinationsPage;
+  const DESTINATIONS = destinationsFor(lang);
 
   return (
     <div>
@@ -54,17 +57,16 @@ export default async function DestinationsPage({ params }: LangParams) {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">
-            From Atlas to Atlantic
+            {d.eyebrow}
           </p>
           <h1
             className="hero-title font-display font-bold mb-6"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
-            Where the Adventures Happen
+            {d.title}
           </h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto leading-relaxed">
-            Eight extraordinary destinations across Morocco — each with its own character, climate,
-            and story. Click any destination to discover tours, travel tips, and what makes it unmissable.
+            {d.subtitle}
           </p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />

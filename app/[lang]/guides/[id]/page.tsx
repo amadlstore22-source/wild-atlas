@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, Translate, Certificate, ArrowLeft, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
-import { GUIDES, getGuide } from "@/lib/guides";
+import { GUIDES } from "@/lib/guides";
+import { guidesFor, getGuideFor } from "@/lib/guides-i18n";
 import { TOURS } from "@/lib/tours";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import TourCard from "@/components/ui/TourCard";
@@ -19,7 +20,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: GuideParams): Promise<Metadata> {
   const { id, lang } = await params;
-  const guide = getGuide(id);
+  const guide = GUIDES.find((g) => g.id === id);
   if (!guide) return {};
   return {
     title: `${guide.name} — Licensed Guide | Marrakech Eco Tours`,
@@ -34,9 +35,10 @@ export async function generateMetadata({ params }: GuideParams): Promise<Metadat
 export default async function GuideProfilePage({ params }: GuideParams) {
   const { id, lang } = await params;
   if (!hasLocale(lang)) notFound();
-  const guide = getGuide(id);
+  const guide = getGuideFor(lang, id);
   if (!guide) notFound();
   const dict = await getDictionary(lang);
+  const g = dict.guidesPage;
 
   const guidedTours = TOURS.filter((t) => guide.routesLed.includes(t.slug));
 
@@ -62,7 +64,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
           className="inline-flex items-center gap-2 text-ink-soft hover:text-forest text-sm font-medium transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
-          All guides
+          {g.allGuides}
         </Link>
       </div>
 
@@ -87,12 +89,12 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 </div>
                 {guide.isFounder && (
                   <div className="absolute top-4 right-4 bg-sunset/90 text-white text-xs font-bold px-3 py-1 rounded-full">
-                    Co-founder
+                    {g.coFounder}
                   </div>
                 )}
                 {guide.isLegacy && (
                   <div className="absolute top-4 right-4 tex-emerald/90 text-white text-xs font-bold px-3 py-1 rounded-full">
-                    Legacy
+                    {g.legacyBadge}
                   </div>
                 )}
               </div>
@@ -106,7 +108,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 <div className="space-y-3 text-sm text-ink-soft">
                   <div className="flex items-start gap-2.5">
                     <Certificate className="w-4 h-4 text-forest shrink-0 mt-0.5" weight="fill" />
-                    <span>{guide.yearsGuiding}+ years guiding · Licensed guide</span>
+                    <span>{g.yearsGuidingLicensed.replace("{years}", String(guide.yearsGuiding))}</span>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <MapPin className="w-4 h-4 text-sunset shrink-0 mt-0.5" weight="fill" />
@@ -126,7 +128,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                     className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] text-white font-semibold text-sm hover:bg-green-500 transition-colors"
                   >
                     <WhatsappLogo className="w-4 h-4" weight="fill" />
-                    Request this guide
+                    {g.requestThisGuide}
                   </a>
                 )}
               </div>
@@ -138,7 +140,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
 
             {/* Bio */}
             <div>
-              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">About</p>
+              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.aboutEyebrow}</p>
               <div className="prose prose-charcoal max-w-none space-y-4">
                 {guide.longBio.split("\n\n").map((paragraph, i) => (
                   <p key={i} className="text-ink-soft leading-relaxed">
@@ -150,7 +152,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
 
             {/* Specialties */}
             <div>
-              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Specialties</p>
+              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.specialtiesEyebrow}</p>
               <div className="flex flex-wrap gap-2">
                 {guide.specialties.map((s) => (
                   <span
@@ -166,7 +168,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
             {/* Tours this guide leads */}
             {guidedTours.length > 0 && (
               <div>
-                <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Tours led by {guide.name.split(" ")[0]}</p>
+                <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.toursLedBy.replace("{name}", guide.name.split(" ")[0])}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {guidedTours.map((tour) => (
                     <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
@@ -178,16 +180,15 @@ export default async function GuideProfilePage({ params }: GuideParams) {
             {/* If legacy guide, link to about page */}
             {guide.isLegacy && (
               <div className="tex-emerald rounded-[4px] p-8 text-white">
-                <h3 className="font-display text-xl font-bold mb-3">The story behind the guides</h3>
+                <h3 className="font-display text-xl font-bold mb-3">{g.storyBehindTitle}</h3>
                 <p className="text-white/65 text-sm leading-relaxed mb-5">
-                  Read the full history of how Lahsen&apos;s work in the 1980s became the foundation
-                  for everything Marrakech Eco Tours does today.
+                  {g.storyBehindBody}
                 </p>
                 <Link
                   href={`/${lang}/about`}
                   className="inline-flex items-center gap-2 text-sunset font-semibold text-sm hover:gap-3 transition-all"
                 >
-                  Read our story →
+                  {g.readOurStory}
                 </Link>
               </div>
             )}

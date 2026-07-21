@@ -68,12 +68,12 @@ export default async function AboutPage({ params }: LangParams) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/35 to-indigo-deep/15" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">Our Story</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">{dict.about.eyebrow}</p>
           <h1 className="font-bold text-white leading-[1.05] tracking-[-0.02em] mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
-            Born in the Atlas.<br />Built for the World.
+            {dict.about.pageSubtitle}
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">
-            A team of licensed Berber guides who grew up in Morocco&apos;s wildest places — sharing them honestly, sustainably, and without the middlemen.
+            {dict.about.introBody}
           </p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
@@ -84,10 +84,10 @@ export default async function AboutPage({ params }: LangParams) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-white/15">
             {[
-              { value: `${SITE.guidingHeritageYears}+`, label: "Years of guiding experience" },
-              { value: SITE.clientCount, label: "Happy travellers" },
-              { value: String(STATS.tourCount), label: "Tours available" },
-              { value: SITE.countryCount, label: "Countries represented" },
+              { value: `${SITE.guidingHeritageYears}+`, label: dict.about.statYearsLabel },
+              { value: SITE.clientCount, label: dict.about.statTravellersLabel },
+              { value: String(STATS.tourCount), label: dict.about.statToursLabel },
+              { value: SITE.countryCount, label: dict.about.statCountriesLabel },
             ].map((s) => (
               <div key={s.label} className="text-center px-4 py-2">
                 <div className="font-display text-3xl font-bold text-white leading-none">{s.value}</div>
@@ -99,38 +99,38 @@ export default async function AboutPage({ params }: LangParams) {
       </div>
 
       {/* ── Origin story + animated content ── */}
-      <AboutStory lang={lang} tourCount={STATS.tourCount} />
+      <AboutStory lang={lang} tourCount={STATS.tourCount} dict={dict} />
 
       {/* ── Three pillars ── */}
       <section className="relative py-24 bg-sand/30 overflow-hidden">
         <ZelligeField tone="clay" opacity={0.1} scale={132} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">What makes us different</p>
+            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">{dict.about.differentEyebrow}</p>
             <h2 className="font-display text-charcoal font-bold" style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)" }}>
-              No Shortcuts. No Greenwashing. No Middlemen.
+              {dict.about.promiseTitle}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                num: "01",
-                title: "Rooted in Local Knowledge",
-                body: "Every guide on our team was born or raised in Morocco's mountain communities. We don't hire staff from travel agencies — we work with the people who actually know these mountains, valleys, and deserts by name.",
+                num: dict.about.pillar1Num,
+                title: dict.about.pillar1Title,
+                body: dict.about.pillar1Body,
                 image: "https://images.unsplash.com/photo-1533839235388-7368a65d2a88?w=800&q=80",
                 alt: "Hiker overlooking the High Atlas mountain valleys, Morocco",
               },
               {
-                num: "02",
-                title: "Ethical, Community-First Travel",
-                body: "A significant portion of every booking goes directly to the local families, mule handlers, and guesthouses we work with. We don't use large hotel chains or international catering — we keep money in the communities we visit.",
+                num: dict.about.pillar2Num,
+                title: dict.about.pillar2Title,
+                body: dict.about.pillar2Body,
                 image: "https://images.unsplash.com/photo-1545167496-31b3aa75296c?w=800&q=80",
                 alt: "Travellers and local guides on a camel caravan in the Moroccan Sahara",
               },
               {
-                num: "03",
-                title: "No Booking Platforms, No Mark-Ups",
-                body: "When you book directly with us, you pay us — not a commission layer on top. That means better prices for you and better income for our guides. We've deliberately stayed off the big aggregators since day one.",
+                num: dict.about.pillar3Num,
+                title: dict.about.pillar3Title,
+                body: dict.about.pillar3Body,
                 image: "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=800&q=80",
                 alt: "Colourful spice souk in Marrakech medina, Morocco",
               },
@@ -152,7 +152,7 @@ export default async function AboutPage({ params }: LangParams) {
       </section>
 
       {/* ── Meet the guides ── */}
-      <GuideProfiles lang={lang} />
+      <GuideProfiles lang={lang} dict={dict} />
 
       {/* ── Why Us (existing component) ── */}
       <WhyUs dict={dict} tourCount={STATS.tourCount} />
@@ -162,25 +162,25 @@ export default async function AboutPage({ params }: LangParams) {
         <ZelligeField tone="clay" opacity={0.08} scale={140} />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ArabesqueDivider className="mb-10" />
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-6">Our promise</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-6">{dict.about.promiseEyebrow}</p>
           <blockquote className="font-display text-charcoal font-bold leading-[1.15] mb-8" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)" }}>
-            &ldquo;We don&apos;t just show you Morocco. We take you into it — the same way we&apos;ve been doing it for the people we love.&rdquo;
+            &ldquo;{dict.about.promiseQuote}&rdquo;
           </blockquote>
           <p className="text-ink-soft text-base mb-10 max-w-2xl mx-auto leading-relaxed">
-            Every tour we offer is one we&apos;ve done ourselves, with our own families, before we ever offered it to a guest. That&apos;s the standard we hold ourselves to.
+            {dict.about.promiseBody}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={`/${lang}/tours`}
               className="px-8 py-3.5 rounded-full bg-forest text-white font-bold text-sm hover:bg-moss transition-colors shadow-lg shadow-forest/20"
             >
-              Browse All {STATS.tourCount} Tours
+              {dict.about.browseAllTours.replace("{count}", String(STATS.tourCount))}
             </Link>
             <Link
               href={`/${lang}/contact`}
               className="px-8 py-3.5 rounded-full border-2 border-charcoal/20 text-charcoal font-bold text-sm hover:border-forest hover:text-forest transition-colors"
             >
-              Ask Us Anything
+              {dict.about.askUsAnything}
             </Link>
           </div>
         </div>

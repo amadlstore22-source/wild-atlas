@@ -11,9 +11,6 @@ import { Badge } from "@/components/ui/badge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ORIGIN_LABEL: Record<string, string> = { marrakech: "Marrakech", agadir: "Agadir" };
-const CATEGORY_LABEL: Record<string, string> = {
-  trekking: "Trekking", hiking: "Hiking", desert: "Desert", cultural: "Cultural", "day-tours": "Day Tour",
-};
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -48,6 +45,15 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
   const perPersonLabel = dict?.common.perPerson ?? "/ person";
   const viewTourLabel = dict?.featuredTours.viewTour ?? "View Tour";
   const priceLabel = tour.priceMax ? `${format(tour.price)} - ${format(tour.priceMax)}` : format(tour.price);
+  const CATEGORY_LABEL: Record<string, string> = dict
+    ? {
+        trekking: dict.categories.trekking,
+        hiking: dict.categories.hiking,
+        desert: dict.categories.desert,
+        cultural: dict.categories.cultural,
+        "day-tours": dict.categories.dayTours,
+      }
+    : { trekking: "Trekking", hiking: "Hiking", desert: "Desert", cultural: "Cultural", "day-tours": "Day Tour" };
 
   if (featured) {
     return (

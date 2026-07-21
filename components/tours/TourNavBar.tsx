@@ -1,15 +1,15 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-const SECTIONS = [
-  { id: "tour-overview",   label: "Overview" },
-  { id: "tour-itinerary",  label: "Itinerary" },
-  { id: "tour-included",   label: "What's Included" },
-  { id: "tour-book",       label: "Book" },
-];
-
-export default function TourNavBar() {
+export default function TourNavBar({ dict }: { dict: Dictionary }) {
+  const SECTIONS = [
+    { id: "tour-overview",   label: dict.tourDetail.overview },
+    { id: "tour-itinerary",  label: dict.tourDetail.itinerary },
+    { id: "tour-included",   label: dict.tourDetail.whatsIncluded },
+    { id: "tour-book",       label: dict.tourDetail.book },
+  ];
   const [visible, setVisible] = useState(false);
   const [active, setActive] = useState("");
   // Like the WhatsApp button: the left rail slides away when the user stops

@@ -2,10 +2,11 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const STORAGE_KEY = "met-cookie-consent";
 
-export default function CookieBanner() {
+export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -43,10 +44,9 @@ export default function CookieBanner() {
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <p className="text-white/75 text-sm leading-relaxed flex-1">
-              We use a couple of cookies to remember your preferences. Necessary cookies are always active; there is
-              no cookie wall.{" "}
-              <Link href="/en/cookies" className="underline text-white/55 hover:text-white transition-colors">
-                Cookie policy
+              {dict.cookieBanner.body}{" "}
+              <Link href={`/${lang}/cookies`} className="underline text-white/55 hover:text-white transition-colors">
+                {dict.cookieBanner.policyLink}
               </Link>
             </p>
             <div className="flex gap-2 shrink-0">
@@ -54,13 +54,13 @@ export default function CookieBanner() {
                 onClick={necessary}
                 className="px-4 py-2 rounded-[3px] border border-white/20 text-white/70 text-sm font-medium hover:border-white/40 hover:text-white/90 transition-colors"
               >
-                Necessary only
+                {dict.cookieBanner.necessaryOnly}
               </button>
               <button
                 onClick={accept}
                 className="px-5 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep transition-colors"
               >
-                Accept all
+                {dict.cookieBanner.acceptAll}
               </button>
             </div>
           </div>

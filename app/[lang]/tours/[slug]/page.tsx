@@ -132,7 +132,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       <JsonLd data={breadcrumbJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
-      <TourNavBar />
+      <TourNavBar dict={dict} />
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
         <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority sizes="100vw" />
@@ -183,7 +183,7 @@ export default async function TourDetailPage({ params }: TourParams) {
             </section>
 
             <div id="tour-itinerary" className="scroll-mt-32">
-              <TourItinerary itinerary={tour.itinerary} />
+              <TourItinerary itinerary={tour.itinerary} dict={dict} />
             </div>
 
             <section id="tour-included" className="scroll-mt-32">
@@ -221,19 +221,19 @@ export default async function TourDetailPage({ params }: TourParams) {
 
           <div id="tour-book" className="lg:col-span-1 scroll-mt-32">
             <div className="sticky top-24">
-              <BookingSidebar tour={tour} lang={lang} />
+              <BookingSidebar tour={tour} lang={lang} dict={dict} />
 
               {/* Real, verifiable social proof. Business-wide TripAdvisor rating,
                   attributed and linked out so a visitor can check it themselves. */}
               <div className="mt-4 rounded-[4px] border border-rule bg-card p-4">
                 <p className="text-xs text-ink-muted mb-2.5 leading-snug">
-                  Travellers rate us {TRIPADVISOR.rating.toFixed(1)} out of 5 across all our tours
+                  {dict.tourDetail.tripAdvisorLine.replace("{rating}", TRIPADVISOR.rating.toFixed(1))}
                 </p>
                 <TripAdvisorBadge variant="compact" />
               </div>
 
               <Suspense fallback={null}>
-                <TourWeather tour={tour} />
+                <TourWeather tour={tour} dict={dict} />
               </Suspense>
               <div className="mt-4 bg-indigo rounded-[4px] p-5 text-white">
                 <h3 className="font-display text-base font-bold mb-2">{dict.tourDetail.planYourTrip}</h3>
@@ -247,7 +247,7 @@ export default async function TourDetailPage({ params }: TourParams) {
         </div>
       </div>
 
-      <RelatedTours currentSlug={tour.slug} category={tour.category} />
+      <RelatedTours currentSlug={tour.slug} category={tour.category} lang={lang} dict={dict} />
     </>
   );
 }

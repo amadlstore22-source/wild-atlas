@@ -89,7 +89,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {tours.length === 0 ? (
-          <p className="text-ink-soft text-center py-20">No tours in this category yet — check back soon!</p>
+          <p className="text-ink-soft text-center py-20">{dict.categories.noToursYet}</p>
         ) : (
           <>
             <p className="text-ink-soft text-sm mb-8">{toursAvailable}</p>

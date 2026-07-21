@@ -262,7 +262,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                   <div className="blog-prose max-w-none" dangerouslySetInnerHTML={{ __html: html }} />
                   {/* Widget sits between segments only, never after the last one. */}
                   {i < segments.length - 1 && post.weatherRegion && (
-                    <BlogWeather region={post.weatherRegion} />
+                    <BlogWeather region={post.weatherRegion} dict={dict} />
                   )}
                 </div>
               ))}

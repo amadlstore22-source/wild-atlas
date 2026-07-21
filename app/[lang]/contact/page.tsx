@@ -9,21 +9,6 @@ import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
 type LangParams = { params: Promise<{ lang: string }> };
 
-const FAQ = [
-  { q: "Do you provide private tours?", a: "Yes — all of our tours can be arranged as private departures. Contact us with your group size and preferred dates and we'll build a custom package." },
-  { q: "How do I pay the deposit?", a: "We accept PayPal deposits to secure your booking. Full payment is due 14 days before your departure date." },
-  { q: "What languages do your guides speak?", a: "Our guides speak Arabic, Berber (Tamazight), French, and English. Spanish-speaking guides available on request." },
-  { q: "What is the cancellation policy?", a: "Free cancellation up to 14 days before departure. Cancellations within 14 days are subject to a 50% fee. No-shows are charged in full." },
-  { q: "Is travel insurance required?", a: "Travel insurance is not required but strongly recommended, especially for trekking tours. We suggest a policy that covers trip cancellation, medical expenses, and emergency evacuation." },
-  { q: "What group sizes do you accommodate?", a: "Our tours run with a minimum of 2 participants. We offer both shared-group and fully private departures. Contact us with your group size and preferred dates and we'll build the right package — no upper limit for private bookings." },
-  { q: "What fitness level do I need?", a: "It depends on the tour. Day trips and cultural tours suit all fitness levels. Trekking tours (Toubkal, High Atlas multi-day) require a good baseline of fitness — ability to walk 6–8 hours with a daypack. Each tour page has a difficulty rating to help you choose." },
-  { q: "Do I need a visa to visit Morocco?", a: "Citizens of the EU, UK, USA, Canada, Australia, and most Western countries do not need a visa for stays under 90 days. Your passport should be valid for at least 6 months beyond your travel dates." },
-  { q: "What should I pack for a Morocco tour?", a: "Light, breathable clothing for city and valley tours; warm layers for mountain treks. Modest dress is appreciated in medinas and villages. Good walking shoes are essential for almost every tour. A full packing list is included in your booking confirmation." },
-  { q: "Can you accommodate dietary requirements?", a: "Yes. Please let us know about dietary requirements (vegetarian, vegan, gluten-free, halal, allergies) when booking and we will arrange suitable meals. Moroccan cuisine is naturally vegetarian-friendly." },
-  { q: "Are your tours suitable for families with children?", a: "Many of our day tours and cultural tours are excellent for families with children aged 6 and above. Trekking tours are better suited to older children and teenagers." },
-  { q: "What happens if weather forces a change of plan?", a: "Safety is always our first priority. If severe weather makes a planned route dangerous, our guides will adapt the itinerary to a safe alternative. In the rare case a tour must be cancelled entirely due to weather, you will receive a full refund or the option to reschedule." },
-];
-
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
@@ -49,12 +34,28 @@ export default async function ContactPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const c = dict.contact;
 
   const CONTACT_INFO = [
-    { icon: Envelope, label: dict.contact.email, value: SITE.emailDisplay, href: `mailto:${SITE.email}` },
-    { icon: Phone, label: dict.contact.phone, value: SITE.phone, href: `tel:${SITE.phoneDial}` },
-    { icon: MapPin, label: dict.contact.basedIn, value: "Marrakech, Morocco", href: null },
-    { icon: Clock, label: dict.contact.responseTime, value: dict.contact.responseValue, href: null },
+    { icon: Envelope, label: c.email, value: SITE.emailDisplay, href: `mailto:${SITE.email}` },
+    { icon: Phone, label: c.phone, value: SITE.phone, href: `tel:${SITE.phoneDial}` },
+    { icon: MapPin, label: c.basedIn, value: "Marrakech, Morocco", href: null },
+    { icon: Clock, label: c.responseTime, value: c.responseValue, href: null },
+  ];
+
+  const FAQ = [
+    { q: c.faq1Q, a: c.faq1A },
+    { q: c.faq2Q, a: c.faq2A },
+    { q: c.faq3Q, a: c.faq3A },
+    { q: c.faq4Q, a: c.faq4A },
+    { q: c.faq5Q, a: c.faq5A },
+    { q: c.faq6Q, a: c.faq6A },
+    { q: c.faq7Q, a: c.faq7A },
+    { q: c.faq8Q, a: c.faq8A },
+    { q: c.faq9Q, a: c.faq9A },
+    { q: c.faq10Q, a: c.faq10A },
+    { q: c.faq11Q, a: c.faq11A },
+    { q: c.faq12Q, a: c.faq12A },
   ];
 
   const faqJsonLd = {
@@ -83,11 +84,11 @@ export default async function ContactPage({ params }: LangParams) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/35 to-indigo-deep/15" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">Get in Touch</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">{c.getInTouchEyebrow}</p>
           <h1 className="hero-title font-display font-bold leading-tight mb-4" style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)" }}>
-            {dict.contact.pageTitle}
+            {c.pageTitle}
           </h1>
-          <p className="text-white/65 text-lg max-w-xl leading-relaxed">{dict.contact.pageSubtitle}</p>
+          <p className="text-white/65 text-lg max-w-xl leading-relaxed">{c.pageSubtitle}</p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
       </div>
@@ -109,9 +110,9 @@ export default async function ContactPage({ params }: LangParams) {
                 <WhatsappLogo className="w-5 h-5 text-white" weight="fill" />
               </div>
               <div>
-                <div className="text-xs font-bold uppercase tracking-widest opacity-75 mb-0.5">Fastest Reply</div>
-                <div className="font-bold text-base">Chat on WhatsApp</div>
-                <div className="text-white/70 text-xs mt-0.5">Typically replies within {SITE.responseHours}h</div>
+                <div className="text-xs font-bold uppercase tracking-widest opacity-75 mb-0.5">{c.fastestReply}</div>
+                <div className="font-bold text-base">{c.chatOnWhatsapp}</div>
+                <div className="text-white/70 text-xs mt-0.5">{c.typicallyReplies.replace("{hours}", String(SITE.responseHours))}</div>
               </div>
             </a>
 
@@ -139,22 +140,22 @@ export default async function ContactPage({ params }: LangParams) {
             {/* Custom trip nudge */}
             <div className="p-5 bg-forest/5 border border-forest/15 rounded-[4px]">
               <ChatCircleText className="w-6 h-6 text-forest mb-3" weight="duotone" />
-              <p className="text-charcoal font-semibold text-sm mb-1">Planning something custom?</p>
+              <p className="text-charcoal font-semibold text-sm mb-1">{c.customTripNudgeTitle}</p>
               <p className="text-ink-soft text-xs leading-relaxed">
-                Tell us your dates, group size, and what matters most — we&apos;ll build an itinerary around you.
+                {c.customTripNudgeBody}
               </p>
             </div>
           </div>
 
           {/* ── Form ── */}
           <div className="lg:col-span-2">
-            <ContactForm lang={lang} />
+            <ContactForm lang={lang} dict={dict} />
           </div>
         </div>
 
         <div id="faq" className="mt-20">
           <h2 className="font-display text-charcoal text-4xl font-bold mb-10">
-            {dict.contact.faqTitle}
+            {c.faqTitle}
           </h2>
           <div className="space-y-4">
             {FAQ.map((item) => (

@@ -1,6 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
-import type { Locale } from "@/app/[lang]/dictionaries";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ToursMap = dynamic(() => import("./ToursMap"), {
   ssr: false,
@@ -37,6 +37,6 @@ const ToursMap = dynamic(() => import("./ToursMap"), {
   ),
 });
 
-export default function MapWrapper({ lang }: { lang: Locale }) {
-  return <ToursMap lang={lang} />;
+export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Dictionary }) {
+  return <ToursMap lang={lang} dict={dict} />;
 }

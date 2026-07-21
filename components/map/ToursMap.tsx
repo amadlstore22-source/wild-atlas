@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import L from "leaflet";
-import type { Locale } from "@/app/[lang]/dictionaries";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Destination {
   id: string;
@@ -210,7 +210,7 @@ function makeDivIcon(dest: Destination, active = false): L.DivIcon {
   });
 }
 
-function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
+function DetailBody({ dest, lang, dict }: { dest: Destination; lang: Locale; dict: Dictionary }) {
   return (
     <div style={{ padding: "14px 16px 20px" }}>
       <span
@@ -245,7 +245,7 @@ function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
           margin: "0 0 6px",
         }}
       >
-        Known for
+        {dict.map.knownFor}
       </p>
       <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 5 }}>
         {dest.known.map((item, i) => (
@@ -274,13 +274,13 @@ function DetailBody({ dest, lang }: { dest: Destination; lang: Locale }) {
           letterSpacing: "0.02em",
         }}
       >
-        Browse {dest.category} tours &rarr;
+        {dict.map.browseCategoryTours.replace("{category}", dest.category)} &rarr;
       </a>
     </div>
   );
 }
 
-export default function ToursMap({ lang }: { lang: Locale }) {
+export default function ToursMap({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
@@ -403,10 +403,10 @@ export default function ToursMap({ lang }: { lang: Locale }) {
             className="font-display font-bold mb-3"
             style={{ fontSize: "clamp(1.9rem, 3.5vw, 2.8rem)", color: "#FBF8F3" }}
           >
-            Where the Adventures Happen
+            {dict.map.sectionTitle}
           </h2>
           <p className="text-sm max-w-sm mx-auto" style={{ color: "rgba(251,248,243,0.6)" }}>
-            Select a destination to explore what it has to offer.
+            {dict.map.sectionSubtitle}
           </p>
         </div>
 
@@ -438,7 +438,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                     textAlign: "left",
                   }}
                 >
-                  &larr; All destinations
+                  {dict.map.allDestinations}
                 </button>
                 <div style={{ height: 140, overflow: "hidden", flexShrink: 0 }}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -449,7 +449,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                   />
                 </div>
                 <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
-                  <DetailBody dest={selected} lang={lang} />
+                  <DetailBody dest={selected} lang={lang} dict={dict} />
                 </div>
               </div>
             ) : (
@@ -466,7 +466,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                     flexShrink: 0,
                   }}
                 >
-                  {DESTINATIONS.length} Destinations
+                  {dict.map.destinationsCount.replace("{count}", String(DESTINATIONS.length))}
                 </div>
                 <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
                   {DESTINATIONS.map((dest) => (
@@ -572,7 +572,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
               />
               <button
                 onClick={() => pick(selected)}
-                aria-label="Close"
+                aria-label={dict.map.close}
                 style={{
                   position: "absolute",
                   top: 8,
@@ -594,7 +594,7 @@ export default function ToursMap({ lang }: { lang: Locale }) {
                 &times;
               </button>
             </div>
-            <DetailBody dest={selected} lang={lang} />
+            <DetailBody dest={selected} lang={lang} dict={dict} />
           </div>
         )}
       </div>

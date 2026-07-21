@@ -1,4 +1,5 @@
 import { fetchRegionWeather } from "@/lib/weather";
+import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 /**
  * Wide, in-prose live conditions panel for blog posts. Distinct from
@@ -8,13 +9,13 @@ import { fetchRegionWeather } from "@/lib/weather";
  *
  * Returns null on fetch failure, so surrounding prose must stand on its own.
  */
-export default async function BlogWeather({ region }: { region: string }) {
+export default async function BlogWeather({ region, dict }: { region: string; dict: Dictionary }) {
   const w = await fetchRegionWeather(region);
   if (!w) return null;
 
   return (
     <figure className="my-10 rounded-[4px] border border-rule bg-surface-sunk/40 p-6 not-prose">
-      <figcaption className="eyebrow mb-4">Conditions right now</figcaption>
+      <figcaption className="eyebrow mb-4">{dict.weather.conditionsNowLong}</figcaption>
       <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
         <div className="flex items-center gap-4">
           <span className="text-4xl leading-none" aria-hidden>{w.icon}</span>
@@ -32,11 +33,11 @@ export default async function BlogWeather({ region }: { region: string }) {
         </div>
       </div>
       <p className="text-ink-faint text-[0.7rem] mt-4">
-        Valley-level reading, updated every three hours via{" "}
+        {dict.weather.validReading}{" "}
         <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink-muted">
           Open-Meteo
         </a>
-        . The summit runs far colder — see the table below.
+        . {dict.weather.summitColder}
       </p>
     </figure>
   );

@@ -107,8 +107,8 @@ export default async function LocaleLayout({
           <Header lang={locale} dict={dict} />
           <main className="flex-1">{children}</main>
           <Footer lang={locale} dict={dict} />
-          <WhatsAppButton />
-          <CookieBanner />
+          <WhatsAppButton dict={dict} />
+          <CookieBanner lang={locale} dict={dict} />
           <Toaster richColors />
           <Analytics />
           <SpeedInsights />

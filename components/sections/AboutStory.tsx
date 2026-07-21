@@ -2,48 +2,33 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { Mountains, Compass, UsersThree, Leaf } from "@phosphor-icons/react";
-import type { Locale } from "@/app/[lang]/dictionaries";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-function milestones(tourCount: number) { return [
+function milestones(tourCount: number, dict: Dictionary) { return [
+  { year: dict.about.milestone1Year, title: dict.about.milestone1Title, body: dict.about.milestone1Body },
+  { year: dict.about.milestone2Year, title: dict.about.milestone2Title, body: dict.about.milestone2Body },
+  { year: dict.about.milestone3Year, title: dict.about.milestone3Title, body: dict.about.milestone3Body },
+  { year: dict.about.milestone4Year, title: dict.about.milestone4Title, body: dict.about.milestone4Body },
   {
-    year: "1980s",
-    title: "A Father's Footsteps",
-    body: "Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the High Atlas. Long before tourism existed in the region, he was leading small groups through Toubkal, Ourika, and the Aït Benhaddou valley — building trust with travellers one route at a time.",
-  },
-  {
-    year: "2010",
-    title: "Smail & Mohamed Take Over",
-    body: "We grew up on these trails. In 2010, we — Smail and Mohamed — formalised what had always been a family calling: registering officially and building on everything our father taught us, while expanding the range of routes and the standard of service.",
-  },
-  {
-    year: "2015",
-    title: "The Sahara Route Opens",
-    body: "We extended south, building our first Erg Chebbi desert camp partnership with a Berber family near Merzouga. The 3-day Marrakech–Sahara circuit became our most-requested trip within a year.",
-  },
-  {
-    year: "2018",
-    title: "Agadir Base Established",
-    body: "Demand from the Atlantic coast led us to open a second base in Agadir — unlocking the Anti-Atlas, Paradise Valley, and Souss-Massa routes for travellers who didn't want to start from Marrakech.",
-  },
-  {
-    year: "Now",
-    title: `${tourCount} Routes, One Standard`,
-    body: `Today we run ${tourCount} tours across four categories and six languages. The routes have grown. The standard hasn't moved. Every trip is one we'd take our own families on — because many of them, we already have.`,
+    year: dict.about.milestone5Year,
+    title: dict.about.milestone5Title.replace("{tourCount}", String(tourCount)),
+    body: dict.about.milestone5Body.replaceAll("{tourCount}", String(tourCount)),
   },
 ]; }
 
-const VALUES = [
-  { Icon: Mountains, title: "Local first", body: "Guides born and raised in the landscapes they lead." },
-  { Icon: Compass, title: "Honest itineraries", body: "What you see is what you get — no hidden extras, no detours to souvenir shops." },
-  { Icon: UsersThree, title: "Small groups", body: "Private departures and true small groups. Never a bus tour in disguise." },
-  { Icon: Leaf, title: "Leave no trace", body: "Pack-in, pack-out on every trek. We partner with local cleanup crews in the Atlas." },
-];
+function values(dict: Dictionary) { return [
+  { Icon: Mountains, title: dict.about.valueLocalTitle, body: dict.about.valueLocalBody },
+  { Icon: Compass, title: dict.about.valueHonestTitle, body: dict.about.valueHonestBody },
+  { Icon: UsersThree, title: dict.about.valueGroupsTitle, body: dict.about.valueGroupsBody },
+  { Icon: Leaf, title: dict.about.valueTraceTitle, body: dict.about.valueTraceBody },
+]; }
 
-export default function AboutStory({ lang, tourCount }: { lang: Locale; tourCount: number }) {
+export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; tourCount: number; dict: Dictionary }) {
   void lang;
-  const MILESTONES = milestones(tourCount);
+  const MILESTONES = milestones(tourCount, dict);
+  const VALUES = values(dict);
 
   return (
     <>
@@ -95,25 +80,17 @@ export default function AboutStory({ lang, tourCount }: { lang: Locale; tourCoun
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.7, ease }}
             >
-              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Where we come from</p>
+              <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{dict.about.storyEyebrow}</p>
               <h2 className="font-display text-charcoal font-bold leading-[1.08] mb-8" style={{ fontSize: "clamp(2rem, 3.8vw, 3rem)" }}>
-                We didn&apos;t start a tour company.<br />
-                We shared what we already knew.
+                {dict.about.storyTitle1}<br />
+                {dict.about.storyTitle2}
               </h2>
 
               <div className="space-y-5 text-ink-soft leading-relaxed">
-                <p>
-                  This didn&apos;t start with us. Our father, Lahsen Aitidar, was one of the first licensed Berber mountain guides in the High Atlas — leading trekkers through Toubkal and the Atlas valleys long before Morocco had a formal tourism industry. He learned every route by walking it, and he taught us the same way.
-                </p>
-                <p>
-                  We — Smail and Mohamed — grew up on those trails. In 2010 we took over and built on what he gave us: adding routes, adding rigour, building a proper operation. But the principle was already there: know the land deeply, treat every guest like family, never cut corners where safety or honesty is concerned.
-                </p>
-                <p>
-                  Over the years since, we&apos;ve expanded from Toubkal to the Sahara, from Marrakech to Agadir, from one guide to a full team of licensed professionals. Every one of us grew up walking the routes we now lead.
-                </p>
-                <p className="font-semibold text-charcoal/80">
-                  That&apos;s not a marketing line. It&apos;s a family legacy.
-                </p>
+                <p>{dict.about.storyBody1}</p>
+                <p>{dict.about.storyBody2}</p>
+                <p>{dict.about.storyBody3}</p>
+                <p className="font-semibold text-charcoal/80">{dict.about.storyBody4}</p>
               </div>
             </motion.div>
           </div>
@@ -124,9 +101,9 @@ export default function AboutStory({ lang, tourCount }: { lang: Locale; tourCoun
       <section className="py-24" style={{ background: "linear-gradient(180deg, #f9f7f3 0%, #ffffff 100%)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Our journey</p>
+            <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">{dict.about.journeyEyebrow}</p>
             <h2 className="font-display text-charcoal font-bold" style={{ fontSize: "clamp(1.8rem, 3.2vw, 2.6rem)" }}>
-              How We Got Here
+              {dict.about.journeyTitle}
             </h2>
           </div>
 

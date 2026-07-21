@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, Translate, Certificate, Star } from "@phosphor-icons/react/dist/ssr";
-import { GUIDES } from "@/lib/guides";
+import { guidesFor } from "@/lib/guides-i18n";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import CTABanner from "@/components/sections/CTABanner";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
@@ -28,9 +28,11 @@ export default async function GuidesPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const g = dict.guidesPage;
+  const guides = guidesFor(lang);
 
-  const founders = GUIDES.filter((g) => g.isFounder);
-  const legacy = GUIDES.filter((g) => g.isLegacy);
+  const founders = guides.filter((guide) => guide.isFounder);
+  const legacy = guides.filter((guide) => guide.isLegacy);
 
   return (
     <>
@@ -46,16 +48,15 @@ export default async function GuidesPage({ params }: LangParams) {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">Our team</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.ourTeamEyebrow}</p>
           <h1
             className="hero-title font-display font-bold leading-tight mb-6"
             style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
           >
-            The people who actually<br className="hidden sm:block" /> know Morocco
+            {g.heroTitle}
           </h1>
           <p className="text-white/65 text-lg max-w-2xl leading-relaxed">
-            Licensed Berber guides, born and raised in the landscapes they lead. Ask any traveller
-            who&apos;s been to Morocco: the guide makes the trip. Meet ours.
+            {g.heroSubtitle}
           </p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
@@ -67,15 +68,15 @@ export default async function GuidesPage({ params }: LangParams) {
           <div className="flex flex-wrap items-center gap-6 text-sm text-white/70 divide-x divide-white/20">
             <div className="flex items-center gap-2 pr-6">
               <Certificate className="w-4 h-4 text-white" weight="fill" />
-              <span>Officially licensed by Morocco&apos;s National Office for Tourism</span>
+              <span>{g.trustLicensed}</span>
             </div>
             <div className="flex items-center gap-2 px-6">
               <Star className="w-4 h-4 text-sunset" weight="fill" />
-              <span>Every guide trained on every route they lead</span>
+              <span>{g.trustTrained}</span>
             </div>
             <div className="flex items-center gap-2 pl-6">
               <MapPin className="w-4 h-4 text-white" weight="duotone" />
-              <span>Born in the Atlas — not hired from an agency</span>
+              <span>{g.trustBornAtlas}</span>
             </div>
           </div>
         </div>
@@ -85,13 +86,12 @@ export default async function GuidesPage({ params }: LangParams) {
 
         {/* ── Founder guides ── */}
         <div className="mb-6">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Founders</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">{g.foundersEyebrow}</p>
           <h2 className="font-display text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-            Smail & Mohamed Aitidar
+            {g.foundersTitle}
           </h2>
           <p className="text-ink-soft text-sm max-w-2xl">
-            Brothers who grew up on these trails. They formalised the family guiding business in 2010 and have been
-            building it ever since — one honest trip at a time.
+            {g.foundersBody}
           </p>
         </div>
 
@@ -136,12 +136,12 @@ export default async function GuidesPage({ params }: LangParams) {
                   </div>
                   <div className="flex items-start gap-2">
                     <Certificate className="w-3.5 h-3.5 text-forest shrink-0 mt-0.5" weight="fill" />
-                    <span>{guide.yearsGuiding}+ years guiding · Licensed guide</span>
+                    <span>{g.yearsGuidingLicensed.replace("{years}", String(guide.yearsGuiding))}</span>
                   </div>
                 </div>
 
                 <div className="mt-6 inline-flex items-center gap-1.5 text-forest font-bold text-xs group-hover:gap-3 transition-all">
-                  View full profile →
+                  {g.viewFullProfile}
                 </div>
               </div>
             </Link>
@@ -150,9 +150,9 @@ export default async function GuidesPage({ params }: LangParams) {
 
         {/* ── Legacy section ── */}
         <div className="border-t border-sand-dark pt-16 mb-12">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">Where it all began</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3">{g.legacyEyebrow}</p>
           <h2 className="font-display text-charcoal font-bold mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-            The First Guide
+            {g.legacyTitle}
           </h2>
         </div>
 
@@ -179,41 +179,30 @@ export default async function GuidesPage({ params }: LangParams) {
               </div>
               <p className="text-white/70 text-sm leading-relaxed">{guide.shortBio}</p>
               <div className="mt-6 text-xs text-white/40">
-                {guide.yearsGuiding}+ years guiding · {guide.languages.join(", ")}
+                {guide.yearsGuiding}+ · {guide.languages.join(", ")}
               </div>
             </div>
           ))}
 
           <div className="space-y-5 text-ink-soft leading-relaxed">
-            <p>
-              Every route we run today was walked first by Lahsen. The high passes of Toubkal, the mule
-              tracks through Ourika, the stone-village paths of Aït Benhaddou — he mapped them in the 1980s,
-              long before they appeared in any guidebook.
-            </p>
-            <p>
-              Smail and Mohamed grew up walking beside him. When they took over in 2010, they inherited not
-              just the routes, but the standard: deep local knowledge, total honesty with guests, and the
-              belief that a guide&apos;s job is to make you feel the place, not just pass through it.
-            </p>
-            <p className="font-semibold text-charcoal/80">
-              That inheritance is what makes Marrakech Eco Tours different from any agency that hires
-              freelance guides off a list.
-            </p>
+            <p>{g.legacyBody1}</p>
+            <p>{g.legacyBody2}</p>
+            <p className="font-semibold text-charcoal/80">{g.legacyBody3}</p>
           </div>
         </div>
 
         {/* ── Specialties grid ── */}
         <div className="mt-24 bg-offwhite rounded-[4px] p-10">
-          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3 text-center">Our expertise</p>
+          <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-3 text-center">{g.expertiseEyebrow}</p>
           <h2 className="font-display text-charcoal font-bold text-center mb-10" style={{ fontSize: "clamp(1.5rem, 2.5vw, 2rem)" }}>
-            What We Lead
+            {g.expertiseTitle}
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { label: "High Atlas Trekking", icon: "⛰️", desc: "Toubkal, Mgoun, Jebel Saghro" },
-              { label: "Sahara Expeditions", icon: "🏜️", desc: "Erg Chebbi, Draa Valley, Merzouga" },
-              { label: "Medina & Culture", icon: "🕌", desc: "Marrakech, Fes, Chefchaouen" },
-              { label: "Atlantic & Anti-Atlas", icon: "🌊", desc: "Agadir, Paradise Valley, Souss" },
+              { label: g.specialty1Label, icon: "⛰️", desc: g.specialty1Desc },
+              { label: g.specialty2Label, icon: "🏜️", desc: g.specialty2Desc },
+              { label: g.specialty3Label, icon: "🕌", desc: g.specialty3Desc },
+              { label: g.specialty4Label, icon: "🌊", desc: g.specialty4Desc },
             ].map((item) => (
               <div key={item.label} className="bg-card rounded-[4px] p-6 text-center shadow-sm border border-sand-dark">
                 <div className="text-3xl mb-3">{item.icon}</div>

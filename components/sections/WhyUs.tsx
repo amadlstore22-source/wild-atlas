@@ -18,10 +18,10 @@ export default function WhyUs({ dict, tourCount }: Props) {
   ];
 
   const STEPS = [
-    { num: "01", title: "Choose", body: `Browse ${tourCount} adventures or ask us to build a custom route.` },
-    { num: "02", title: "Inquire", body: `Fill the enquiry form or WhatsApp us. Reply within ${SITE.responseHours} hours.` },
-    { num: "03", title: "Deposit", body: `Secure your spot with a PayPal deposit. ${SITE.depositDays} days free cancellation.` },
-    { num: "04", title: "Go", body: "Your guide meets you. Everything else is taken care of." },
+    { num: "01", title: dict.howItWorks.process1Title, body: dict.howItWorks.process1Desc.replace("{tourCount}", String(tourCount)) },
+    { num: "02", title: dict.howItWorks.process2Title, body: dict.howItWorks.process2Desc.replace("{hours}", String(SITE.responseHours)) },
+    { num: "03", title: dict.howItWorks.process3Title, body: dict.howItWorks.process3Desc.replace("{days}", String(SITE.depositDays)) },
+    { num: "04", title: dict.howItWorks.process4Title, body: dict.howItWorks.process4Desc },
   ];
 
   return (
@@ -78,7 +78,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <AnimateInView variant="fade-in">
           <h3 className="font-display text-cream text-2xl font-bold mb-10 text-center">
-            How It Works
+            {dict.howItWorks.eyebrow}
           </h3>
         </AnimateInView>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 relative">

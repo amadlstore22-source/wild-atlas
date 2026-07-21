@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { hasLocale } from "../../dictionaries";
-import { DESTINATIONS, getDestination } from "@/lib/destinations";
+import { getDictionary, hasLocale } from "../../dictionaries";
+import { DESTINATIONS } from "@/lib/destinations";
+import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { TOURS } from "@/lib/tours";
 import TourCard from "@/components/ui/TourCard";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
@@ -21,7 +22,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
   const { lang, dest } = await params;
-  const destination = getDestination(dest);
+  const destination = DESTINATIONS.find((d) => d.slug === dest);
   if (!destination) return {};
   return {
     title: destination.seoTitle,
@@ -54,8 +55,11 @@ export default async function DestinationPage({ params }: PageParams) {
   const { lang, dest } = await params;
   if (!hasLocale(lang)) notFound();
 
-  const destination = getDestination(dest);
+  const destination = getDestinationFor(lang, dest);
   if (!destination) notFound();
+  const dict = await getDictionary(lang);
+  const d = dict.destinationsPage;
+  const localizedDestinations = destinationsFor(lang);
 
   const relatedTours = TOURS.filter(
     (t) =>
@@ -119,9 +123,9 @@ export default async function DestinationPage({ params }: PageParams) {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 w-full">
             {/* Breadcrumb */}
             <nav className="text-white/40 text-xs mb-6 flex items-center gap-2" aria-label="Breadcrumb">
-              <Link href={`/${lang}`} className="hover:text-white transition-colors">Home</Link>
+              <Link href={`/${lang}`} className="hover:text-white transition-colors">{d.home}</Link>
               <span>/</span>
-              <Link href={`/${lang}/destinations`} className="hover:text-white transition-colors">Destinations</Link>
+              <Link href={`/${lang}/destinations`} className="hover:text-white transition-colors">{d.destinationsCrumb}</Link>
               <span>/</span>
               <span className="text-white/70">{destination.name}</span>
             </nav>
@@ -148,7 +152,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* About */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
-                  About {destination.name}
+                  {d.aboutTitle.replace("{name}", destination.name)}
                 </h2>
                 <p className="text-ink-soft leading-relaxed text-lg">{destination.about}</p>
               </section>
@@ -156,7 +160,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* Known for */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
-                  What {destination.name} is Known For
+                  {d.knownForTitle.replace("{name}", destination.name)}
                 </h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {destination.knownFor.map((item, i) => (
@@ -171,7 +175,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* Highlights */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
-                  Highlights
+                  {d.highlightsTitle}
                 </h2>
                 <div className="space-y-6">
                   {destination.highlights.map((h, i) => (
@@ -191,7 +195,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* Best season */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
-                  Best Time to Visit
+                  {d.bestTimeTitle}
                 </h2>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                   {destination.seasons.map((s) => (
@@ -210,7 +214,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* Travel tips */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-5">
-                  Insider Travel Tips
+                  {d.tipsTitle}
                 </h2>
                 <ul className="space-y-3">
                   {destination.travelTips.map((tip, i) => (
@@ -227,7 +231,7 @@ export default async function DestinationPage({ params }: PageParams) {
               {/* FAQs */}
               <section className="mb-14">
                 <h2 className="font-display text-charcoal text-2xl font-bold mb-6">
-                  Frequently Asked Questions
+                  {d.faqTitle}
                 </h2>
                 <div className="space-y-3">
                   {destination.faqs.map((faq) => (
@@ -248,23 +252,23 @@ export default async function DestinationPage({ params }: PageParams) {
               <div className="sticky top-24 space-y-4">
                 {/* Quick info card */}
                 <div className="bg-card rounded-[4px] border border-sand-dark shadow-sm p-6">
-                  <h3 className="font-display text-charcoal font-bold text-lg mb-4">Quick Info</h3>
+                  <h3 className="font-display text-charcoal font-bold text-lg mb-4">{d.quickInfoTitle}</h3>
                   <dl className="space-y-3 text-sm">
                     <div>
-                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Region</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">{d.regionLabel}</dt>
                       <dd className="text-charcoal font-medium">{destination.region}</dd>
                     </div>
                     <div>
-                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Best Season</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">{d.bestSeasonLabel}</dt>
                       <dd className="text-charcoal font-medium">
                         {destination.seasons
                           .filter((s) => s.rating >= 4)
                           .map((s) => s.name)
-                          .join(" & ") || "Year-round"}
+                          .join(" & ") || d.yearRound}
                       </dd>
                     </div>
                     <div>
-                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">Categories</dt>
+                      <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">{d.categoriesLabel}</dt>
                       <dd className="flex flex-wrap gap-1.5 mt-1">
                         {destination.relatedCategories.map((cat) => (
                           <Link
@@ -283,16 +287,16 @@ export default async function DestinationPage({ params }: PageParams) {
                 {/* CTA */}
                 <div className="bg-forest rounded-[4px] p-6 text-white">
                   <h3 className="font-display font-bold text-lg mb-2">
-                    Ready to explore {destination.name}?
+                    {d.readyTitle.replace("{name}", destination.name)}
                   </h3>
                   <p className="text-white/65 text-sm mb-5 leading-relaxed">
-                    Our certified local guides are available for private and small-group tours year-round.
+                    {d.readyBody}
                   </p>
                   <Link
                     href={`/${locale}/contact`}
                     className="block text-center py-3 rounded-xl bg-card text-forest font-bold text-sm hover:bg-sand transition-colors mb-2"
                   >
-                    Plan My Trip
+                    {d.planMyTrip}
                   </Link>
                   <a
                     href={`https://wa.me/212653936003?text=${encodeURIComponent(`Hi! I'm interested in exploring ${destination.name} with a local guide. Can you help?`)}`}
@@ -303,25 +307,25 @@ export default async function DestinationPage({ params }: PageParams) {
                     <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
-                    Chat on WhatsApp
+                    {d.chatOnWhatsapp}
                   </a>
                 </div>
 
                 {/* Nearby destinations */}
                 <div className="bg-card rounded-[4px] border border-sand-dark p-6">
-                  <h3 className="font-semibold text-charcoal text-sm mb-3">Explore More Destinations</h3>
+                  <h3 className="font-semibold text-charcoal text-sm mb-3">{d.exploreMoreTitle}</h3>
                   <ul className="space-y-2">
-                    {DESTINATIONS.filter((d) => d.slug !== dest)
+                    {localizedDestinations.filter((nd) => nd.slug !== dest)
                       .slice(0, 4)
-                      .map((d) => (
-                        <li key={d.slug}>
+                      .map((nd) => (
+                        <li key={nd.slug}>
                           <Link
-                            href={`/${locale}/destinations/${d.slug}`}
+                            href={`/${locale}/destinations/${nd.slug}`}
                             className="flex items-center gap-2 text-sm text-ink-soft hover:text-forest transition-colors group"
                           >
                             <span className="text-forest/40 group-hover:text-forest transition-colors text-xs">→</span>
-                            <span>{d.name}</span>
-                            <span className="text-ink-muted text-xs ml-auto">{d.subtitle.split(" ").slice(0, 2).join(" ")}</span>
+                            <span>{nd.name}</span>
+                            <span className="text-ink-muted text-xs ml-auto">{nd.subtitle.split(" ").slice(0, 2).join(" ")}</span>
                           </Link>
                         </li>
                       ))}
@@ -336,21 +340,21 @@ export default async function DestinationPage({ params }: PageParams) {
             <section className="mt-4 pt-14 border-t border-sand-dark">
               <div className="flex items-end justify-between mb-8">
                 <div>
-                  <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.18em] mb-2">Guided Adventures</p>
+                  <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.18em] mb-2">{d.guidedAdventuresEyebrow}</p>
                   <h2 className="font-display text-charcoal text-3xl font-bold">
-                    Tours in & Around {destination.name}
+                    {d.toursInAroundTitle.replace("{name}", destination.name)}
                   </h2>
                 </div>
                 <Link
                   href={`/${locale}/tours`}
                   className="hidden sm:inline-flex items-center gap-1.5 text-forest font-semibold text-sm hover:text-moss transition-colors border-b border-forest/25 hover:border-forest pb-0.5"
                 >
-                  View all tours →
+                  {d.viewAllTours}
                 </Link>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedTours.map((tour, i) => (
-                  <TourCard key={tour.id} tour={tour} lang={locale} delay={i * 0.07} />
+                  <TourCard key={tour.id} tour={tour} lang={locale} dict={dict} delay={i * 0.07} />
                 ))}
               </div>
             </section>

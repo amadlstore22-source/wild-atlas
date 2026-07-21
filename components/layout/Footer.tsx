@@ -251,7 +251,12 @@ export default function Footer({ lang, dict }: Props) {
             <p className="text-cream/60 text-xs mt-0.5">No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.</p>
           </div>
           <div className="sm:min-w-[340px]">
-            <NewsletterForm placeholder="your@email.com" buttonLabel={dict.footer.newsletterBtn} />
+            <NewsletterForm
+              placeholder="your@email.com"
+              buttonLabel={dict.footer.newsletterBtn}
+              successLabel={dict.footer.newsletterSuccess}
+              errorLabel={dict.footer.newsletterError}
+            />
           </div>
         </div>
 

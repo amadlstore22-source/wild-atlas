@@ -132,7 +132,7 @@ export default async function HomePage({ params }: LangParams) {
       <Testimonials dict={dict} />
       <ZelligeDivider />
       <OurStory dict={dict} lang={lang} />
-      <MapWrapper lang={lang} />
+      <MapWrapper lang={lang} dict={dict} />
       <Gallery dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />

@@ -2,14 +2,15 @@
 import { useState } from "react";
 import { CaretDown, ForkKnife, Bed, Car } from "@phosphor-icons/react";
 import type { ItineraryDay } from "@/lib/tours";
+import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-export default function TourItinerary({ itinerary }: { itinerary: ItineraryDay[] }) {
+export default function TourItinerary({ itinerary, dict }: { itinerary: ItineraryDay[]; dict: Dictionary }) {
   const [openDay, setOpenDay] = useState<number>(1);
   if (!itinerary.length) return null;
 
   return (
     <section>
-      <h2 className="font-display text-ink text-3xl font-bold mb-6 reveal-up">Day-by-Day Itinerary</h2>
+      <h2 className="font-display text-ink text-3xl font-bold mb-6 reveal-up">{dict.tourDetail.dayByDayItinerary}</h2>
       <div className="space-y-3">
         {itinerary.map((day) => {
           const isOpen = openDay === day.day;
@@ -42,14 +43,14 @@ export default function TourItinerary({ itinerary }: { itinerary: ItineraryDay[]
                     <p className="text-ink-soft text-sm leading-relaxed mb-4">{day.description}</p>
                     <div className="flex flex-wrap gap-3">
                       <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                        <ForkKnife className="w-3.5 h-3.5 text-saffron" /> Meals included
+                        <ForkKnife className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.mealsIncluded}
                       </span>
                       <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                        <Car className="w-3.5 h-3.5 text-saffron" /> Transport included
+                        <Car className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.transportIncluded}
                       </span>
                       {day.day > 1 && (
                         <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                          <Bed className="w-3.5 h-3.5 text-saffron" /> Accommodation included
+                          <Bed className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.accommodationIncluded}
                         </span>
                       )}
                     </div>

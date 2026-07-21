@@ -59,7 +59,7 @@ export default function Testimonials({ dict }: Props) {
               rel="noopener noreferrer"
               className="text-xs font-semibold text-indigo underline underline-offset-4 decoration-indigo/30 hover:decoration-indigo transition-colors"
             >
-              Read all {TRIPADVISOR.reviewCount} reviews →
+              {dict.testimonials.readAll.replace("{count}", String(TRIPADVISOR.reviewCount))}
             </a>
           </div>
         </AnimateInView>

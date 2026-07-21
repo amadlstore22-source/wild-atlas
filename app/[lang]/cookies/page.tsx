@@ -7,7 +7,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "17 July 2026";
+const UPDATED = "21 July 2026";
 
 export const metadata: Metadata = {
   title: "Cookie Policy — Marrakech Eco Tours",
@@ -91,8 +91,9 @@ export default async function CookiesPage({ params }: LangParams) {
       body: (
         <p>
           Some pages embed or link to third-party services that may set their own cookies when you interact with
-          them &mdash; for example <strong>PayPal</strong> at checkout, or <strong>WhatsApp / Meta</strong> if you
-          start a chat. These are governed by those providers&rsquo; own cookie and privacy policies, not ours.
+          them &mdash; for example <strong>PayPal</strong> when you follow a payment link we send you, or{" "}
+          <strong>WhatsApp / Meta</strong> if you start a chat. These are governed by those providers&rsquo; own
+          cookie and privacy policies, not ours.
         </p>
       ),
     },

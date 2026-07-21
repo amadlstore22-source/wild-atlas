@@ -104,7 +104,7 @@ Marrakech, Fes, Meknes, and Rabat are Morocco's four imperial capitals — citie
 **Best for:** History, architecture, food, souks, cultural immersion.
 
 ### The Atlantic Coast
-Morocco's Atlantic coastline stretches over 2,500 km from Tangier in the north to Lagouira in the south. The most compelling stretch for travellers runs from Asilah through Rabat, Casablanca, El Jadida, Essaouira, Agadir, and into the deep south. Essaouira is the cultural centrepiece — a UNESCO-listed 18th-century Portuguese fortified medina where white walls meet Atlantic wind. Taghazout, north of Agadir, has become one of the world's premier surf destinations.
+Morocco's Atlantic coastline stretches over 2,500 km from Tangier in the north to Lagouira in the south. The most compelling stretch for travellers runs from Asilah through Rabat, Casablanca, El Jadida, Essaouira, Agadir, and into the deep south. Essaouira is the cultural centrepiece — a UNESCO-listed 18th-century fortified medina, designed by a French military architect for a Moroccan sultan on the site of an earlier Portuguese fort, where white walls meet Atlantic wind. Taghazout, north of Agadir, has become one of the world's premier surf destinations.
 
 **Best for:** Surfing, windsurfing, seafood, coastal medinas, beach holidays.
 
@@ -250,9 +250,11 @@ Morning descent through walnut groves and terraced fields. Transfer back to Marr
 
 The Toubkal Refuge (CAF Refuge, 3,207 m) is a managed mountain hut with dormitory-style bunk beds, blankets, hot showers, and cooked meals. It is basic but fully functional. Booking in advance during July–August is essential.
 
-## Guided vs. Independent
+## Why a Guide Is Not Optional Here
 
-Morocco's national parks permit solo trekking on the standard routes. However, a certified guide adds significant value:
+This is worth being direct about, because older articles online still describe Toubkal as an independent trek and that information is out of date. Following the killing of two foreign tourists near Imlil in December 2018 — an attack that shocked Morocco's trekking community and prompted a real policy response, not just a symbolic one — the authorities introduced a requirement, enforced from around 2019 onward, that every foreign trekker on the Imlil–Toubkal route be accompanied by a licensed guide. Checkpoints on the trail confirm this, and it is not a formality you can talk your way around.
+
+Separate from the legal requirement, a certified guide adds real value on a mountain like this:
 
 - Navigation on summit day in poor visibility
 - Local knowledge of weather patterns (storms build fast on the summit plateau)
@@ -317,7 +319,7 @@ A good camp will be transparent about all of this. Our camps are inside the dune
 
 ## The Camel Ride Reality
 
-The sunset camel trek into the dunes is the centrepiece of any Sahara trip. In truth, the ride lasts 45–60 minutes. Camels are not comfortable — they lurch heavily when standing and can feel unsteady. Almost everyone finds it worth it. A few people with back issues prefer to walk alongside.
+The sunset camel trek into the dunes is the centrepiece of any Sahara trip. In truth, the ride lasts 45–60 minutes. One small point of accuracy worth mentioning: the animals you will actually be riding are technically dromedaries, the one-humped camel species that has adapted to hot, arid North Africa and the Middle East, rather than the two-humped Bactrian camel of Central Asia. "Camel" is what everyone calls them, guides included, and that is not wrong exactly — dromedary is simply the more precise species name for this particular desert-adapted animal, which has carried trade and travellers across the Sahara for thousands of years. Camels are not comfortable — they lurch heavily when standing and can feel unsteady. Almost everyone finds it worth it. A few people with back issues prefer to walk alongside.
 
 The sunrise camel return is shorter and usually done at a gentle walk. The light at 6:00 am over the dunes is extraordinary.
 
@@ -329,7 +331,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
 
 ## What Nobody Tells You
 
-**The drive is part of the experience.** The 9–10-hour drive from Marrakech to Merzouga crosses the High Atlas via Tizi n'Tichka (2,260 m), drops into the dramatic Draa Valley palmery, and passes the UNESCO Ksar of Aït Ben Haddou. It is not dead time — it is some of the most cinematic driving in Africa.
+**The drive is part of the experience.** The 9–10-hour drive from Marrakech to Merzouga crosses the High Atlas via Tizi n'Tichka, commonly cited around 2,260 metres and the highest major mountain pass in North Africa, drops into the dramatic Draa Valley palmery, and passes the UNESCO Ksar of Aït Ben Haddou. The pass itself follows a route far older than the paved road — a historic caravan trail across the Atlas that French colonial engineers converted into a proper motor road in the 1920s, the first time the crossing was reliably passable by vehicle rather than pack animal. It is not dead time — it is some of the most cinematic driving in Africa, and it is also, quite literally, a much newer way of making a much older journey.
 
 **The dunes are cold at night.** Even in summer, desert nights are significantly cooler than the day. Bring a warm layer for the sunset and a light down jacket for the evening around the campfire.
 
@@ -339,7 +341,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
 
 | | Erg Chebbi (Merzouga) | Erg Chegaga (M'hamid) |
 |---|---|---|
-| Dune height | Up to 150 m | Up to 300 m |
+| Dune height | Up to 150 m | Around 50 m, but a far larger dune field overall |
 | Crowds | Moderate | Low |
 | Drive from Marrakech | 9–10 hours | 8–9 hours |
 | Drive from Agadir | 7–8 hours | 5–6 hours |
@@ -380,7 +382,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     content: `
 ## Morocco Has Four Very Different Climates
 
-Most travel guides treat Morocco as a single climate zone. That is a mistake. The country spans Atlantic coastline, High Atlas peaks above 4,000 m, pre-Saharan valleys, and the true Sahara. The best time to visit depends on where you are going and what you want to do.
+Most travel guides treat Morocco as a single climate zone. That is a mistake, and it is not a minor one — the geography is the actual reason for it. Morocco is small enough to cross in a day's drive but its terrain does something unusual: the Atlantic keeps the coast temperate year-round, the High Atlas rises to over 4,000 metres and generates its own alpine winter, the pre-Saharan valleys sit in a rain-shadow the mountains create, and the true Sahara beyond that runs on a desert climate with none of the above. On the same July day, you can be in a t-shirt on the Essaouira ramparts, sweating through 40°C heat in the Marrakech medina two hours inland, and standing in shorts on a snow patch on Toubkal's upper slopes — all technically "Morocco weather," and all completely different trips. The country spans Atlantic coastline, High Atlas peaks above 4,000 m, pre-Saharan valleys, and the true Sahara. The best time to visit depends on where you are going and what you want to do.
 
 ## Month-by-Month Overview
 
@@ -431,7 +433,7 @@ Our favourite months for almost everything. The summer crowds thin out, the heat
 
 ## What About Ramadan?
 
-Ramadan (dates vary by year — check the Islamic calendar) changes the rhythm of Morocco but not its beauty. Many restaurants open for non-Muslim visitors during daylight hours. The evenings after Iftar (breaking of fast) are festive and atmospheric. We continue to run tours throughout Ramadan; some cultural sites have reduced hours.
+Ramadan moves through the calendar by about ten days each year, since it follows the lunar Islamic calendar rather than the Gregorian one, so it is worth checking the specific dates for your travel year rather than assuming. It changes the rhythm of Morocco but not its beauty. Many restaurants open for non-Muslim visitors during daylight hours. The evenings after Iftar (breaking of fast) are festive and atmospheric. We continue to run tours throughout Ramadan; some cultural sites have reduced hours. One planning wrinkle worth knowing: because Ramadan drifts earlier each year, it is expected to fall in February for the next few years running, which means it will overlap with the Anti-Atlas almond blossom season mentioned above in some years — worth checking both calendars together if that combination matters to your trip. For the full picture of what changes day to day, see [Visiting Morocco During Ramadan](/en/blog/visiting-morocco-during-ramadan).
 
 ## The Bottom Line
 
@@ -491,10 +493,12 @@ A small town in the high plain between the High and Middle Atlas, surrounded by 
 An unexpected colonial-era mountain town built in the 1930s that looks unmistakably Swiss — red-pitched roofs, neat parks, a ski resort. At 1,665 m it is dramatically cooler than the surrounding lowlands. The stone lion sculpture in the town centre is the most photographed object in Ifrane.
 
 **Azrou Cedar Forest**
-A few kilometres from Ifrane, the ancient cedar forest of Azrou is the best place in Morocco to encounter wild Barbary macaques — the only wild primates in Africa north of the Sahara. They come to the roadside and will take fruit from your hand. Note: do not feed them anything processed.
+A few kilometres from Ifrane, the ancient cedar forest of Azrou is the best place in Morocco to encounter wild Barbary macaques — the only wild primates in Africa north of the Sahara. They come to the roadside and will take fruit from your hand, which makes for a memorable stop but is worth some perspective: the species has gone from an estimated 20,000-plus individuals in the 1970s to a fraction of that today, and it has been listed as Endangered since 2008, with these Middle Atlas cedar forests holding one of its last strongholds. Note: do not feed them anything processed — beyond the obvious harm, wild macaques that become dependent on roadside handouts are part of why the population's natural foraging behaviour has been disrupted in exactly these forests.
 
 **Fes el-Bali**
-Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is the world's largest car-free urban zone and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin University (the oldest university in the world), the Medersa Bou Inania, and the thousand-year-old souks.
+Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is the world's largest car-free urban zone and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin, the Medersa Bou Inania, and the thousand-year-old souks.
+
+Al-Qarawiyyin deserves more than a passing mention. Founded in 859 as a mosque and centre of learning by Fatima al-Fihri — a Tunisian-born woman using her own inheritance to fund an 18-year construction project — it holds the Guinness World Record and UNESCO recognition as the oldest continually operating institution of higher learning anywhere on Earth, predating Europe's oldest universities by centuries. Over the following thousand years its library and lecture halls drew scholars whose names now belong to the wider history of ideas, including the philosopher Averroes and the physician-philosopher Maimonides; one account even credits Gerbert of Aurillac, a scholar who studied here before eventually becoming Pope Sylvester II, with helping carry Arabic numerals into medieval Europe. Much of the complex remains a working mosque and library rather than a museum, so access for non-Muslim visitors is limited — but simply standing outside it, in a city that has been continuously producing scholarship since the 9th century, is a different thing than reading about it.
 
 ## Practical Notes
 
@@ -544,6 +548,8 @@ The valley is defined by:
 - Red and ochre canyon walls rising steeply on both sides
 - Agadir's famous argan trees covering the slopes above the canyon
 - A small Berber community at the valley head near Immouzer
+
+The argan trees on the slopes above are worth a second look, not just scenery to walk past. Argania spinosa grows wild almost nowhere else on Earth outside this specific corner of southwestern Morocco, and the roughly 800,000 hectares of argan forest across the wider Souss region were recognised by UNESCO as the Arganeraie Biosphere Reserve back in 1998, protecting both the trees and the traditional, largely women-run oil-pressing cooperatives that depend on them. If you are driving the approach road rather than the valley floor itself, keep an eye out on the drier stretches for the region's famous tree-climbing goats — they genuinely do scale the gnarled, low branches to reach the fruit, especially in the dry months when ground grazing is scarce, and it is one of those sights that looks staged until you see it happen in front of you.
 
 ## Getting There
 
@@ -615,7 +621,9 @@ At the top of the valley, near the village of Immouzer des Ida Outanane, a seaso
     content: `
 ## Why Essaouira Is Worth the Drive
 
-Essaouira (Swiri in Berber, or "the wind" in Tamazight) is one of the most distinctive cities in North Africa. A 18th-century Portuguese-built fortified medina on the Atlantic coast, it combines whitewashed walls, blue fishing boats, crashing ocean waves, and a genuinely multicultural history — Berber, Arab, Jewish, Portuguese, and French layers visible on every street.
+Essaouira (Swiri in Berber, or "the wind" in Tamazight) is one of the most distinctive cities in North Africa. A fortified medina on the Atlantic coast, it combines whitewashed walls, blue fishing boats, crashing ocean waves, and a genuinely multicultural history — Berber, Arab, Jewish, Portuguese, and French layers visible on every street.
+
+The city's fortifications are often assumed to be Portuguese, and there is a real reason for the confusion: Portugal did hold a fort at this exact site in the 16th century. But the medina and ramparts you actually walk today are younger and different in origin — built in the 1760s under Sultan Sidi Mohammed Ben Abdallah, designed by Théodore Cornut, a French military architect and mathematician who applied European bastion-fortification principles (the same tradition used at Saint-Malo in France) to a purpose-built Moroccan royal port. The result is one of the earliest examples in Africa of European military engineering used in service of a North African monarchy rather than a colonial power, and it is why Essaouira's grid-planned streets feel distinctly different from the organic, winding medinas of Marrakech or Fes.
 
 Unlike Marrakech's medina, Essaouira's old town is relaxed. Touts are rare. The pace is slow. The light is extraordinary — Atlantic silver bouncing off white walls and blue painted doors.
 
@@ -694,6 +702,12 @@ Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* 
 The blue walls of Chefchaouen have sparked more debate than almost any other question in Moroccan travel. The most accepted explanation: the town's significant Jewish population in the 15th–20th centuries painted their homes blue to represent the sky and heaven, a tradition with deep roots in Jewish culture across the Mediterranean. After the Jewish community largely emigrated to Israel in the 1950s, the remaining population maintained and expanded the tradition — partly for aesthetic reasons, partly because it became central to the town's identity.
 
 Today, every shade of blue appears on Chefchaouen's walls: cobalt, cerulean, cornflower, periwinkle, and every blue-grey in between. The effect at dawn, when the medina is quiet and the light is soft, is genuinely beautiful.
+
+## A City Founded to Keep People Out
+
+The blue is the famous part, but the town's origin story explains why it feels so different in character from Marrakech or Fes. Chefchaouen was founded in 1471 by Moulay Ali Ben Rachid, a local leader who built it explicitly as a military base from which to resist the Portuguese, who had seized the coastal city of Ceuta decades earlier. What began as a small hilltop fortress — the kasbah still standing on Uta el-Hammam Square today — grew rapidly after 1492, when the fall of Granada sent waves of Muslim and Jewish refugees fleeing Spain, many of them settling here and bringing genuinely Andalusian building traditions with them: the narrow, twisting alleys and inward-facing courtyard houses that still define the medina.
+
+What is less widely known is how deliberately closed the town stayed afterward. For roughly 450 years, non-Muslim foreigners — Christians in particular — were effectively barred from entering Chefchaouen, a policy that held until the Spanish occupation of the region began around 1920. That long isolation is part of why the town's character and its Andalusian-refugee cultural imprint stayed so distinct and so intact; unlike the imperial cities, which were always crossroads, Chefchaouen spent centuries being somewhere outsiders simply could not go.
 
 ## Getting There
 
@@ -827,7 +841,7 @@ Honey-glazed sesame pastry, shaped into a flower, deep-fried and soaked in orang
 Not a dish but an ingredient so central to Moroccan cuisine it deserves its own entry. Cold-pressed from the fruit of the argan tree (found only in southwestern Morocco), culinary argan oil has a distinctive toasted-nut flavour. Poured over couscous, mixed into amlou (a paste of argan oil, almonds, and honey), or served with bread for breakfast.
 
 ### 15. Atay (Moroccan Mint Tea)
-Gunpowder green tea brewed strong, poured from a height (to create foam), and served intensely sweet. Offered to guests as a sign of welcome everywhere in Morocco. Refusing it is considered impolite. Accepting three glasses is the norm.
+Gunpowder green tea brewed strong, poured from a height (to create foam), and served intensely sweet. Offered to guests as a sign of welcome everywhere in Morocco. Refusing it is considered impolite. Accepting three glasses is the norm, and the tradition of three is not arbitrary — it traces to an old Tuareg saying, often quoted across North Africa, that likens the three successive glasses to three stages of life, though which glass gets which meaning varies depending on who is telling it. Practically, there's a simpler reason behind the custom too: the same gunpowder tea leaves keep yielding flavour through repeated infusions, so each of the three glasses actually tastes subtly different as the leaves are steeped again and again, getting progressively lighter and sweeter.
 
 ## Eating Well in Morocco: Practical Tips
 
@@ -860,7 +874,7 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
 
 The Ourika Valley (Vallée de l'Ourika) is a lush river valley carved into the foothills of the High Atlas, roughly 60 km south of Marrakech. The Ourika River rushes through a green corridor of terraced fields, walnut trees, and traditional Berber villages — a complete contrast to the red dust of Marrakech.
 
-It is the most accessible introduction to the High Atlas from the city, making it the ideal day trip for travellers who want mountain scenery without the commitment of a multi-day trek.
+It is the most accessible introduction to the High Atlas from the city, making it the ideal day trip for travellers who want mountain scenery without the commitment of a multi-day trek. It is also, quietly, one of the reasons Marrakech can exist where it does — the Ourika and the other rivers draining this stretch of the Atlas have fed the city's water table and its historic khettara irrigation channels for centuries, in a region that would otherwise be desert-fringe. The valley you are driving through for the scenery is the same one that has kept the Palmeraie green.
 
 ## Getting There
 
@@ -894,7 +908,7 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
 
 **July–August:** Popular with Moroccan families escaping Marrakech heat. The valley floor gets busy at weekends but the waterfall trail is always walkable.
 
-**Avoid November–March** after heavy rains — flash floods in the valley are a genuine risk. The 2024 flood caused significant damage to Setti Fatma village; check conditions before visiting in winter.
+**Avoid November–March** after heavy rains — flash floods in the valley are a genuine risk, and this is not a theoretical warning. Setti Fatma sits in a narrow gorge that channels Atlas rainfall fast, and the village has been rebuilt more than once because of it: a severe flood in 1995 caused major damage, and flash flooding struck the valley again in August 2025, sweeping away riverside cafés and furnishings along the water's edge with little warning. Sudden, intense rain in the mountains upstream is the trigger, which is exactly why it can happen even on a clear day down in the valley itself. Check conditions before visiting after any recent heavy rain, not just in the depths of winter.
 
 ## Practical Tips
 
@@ -928,6 +942,10 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
 The Agafay Desert is not a sand desert — it is a stone desert. A vast hammada (rocky plateau) of compressed earth, limestone outcrops, and dried riverbeds stretching south and west from Marrakech towards the High Atlas foothills. At sunset, the plateau turns amber and red, and the jagged silhouette of the Atlas range fills the entire southern horizon.
 
 It is one of the most dramatic and atmospheric landscapes in Morocco, and it is just 40 km from Marrakech — a 45-minute drive.
+
+The ground underfoot has a real geological story, not just a scenic one: this roughly 180 km² basin, sitting at 600–700 metres of altitude, was a prehistoric lake before it dried out, leaving behind the compact clay, marl, and volcanic sediment — eroded down over millennia from the High Atlas above it — that now forms the plateau's surface. A hammada by definition is what's left once wind has stripped a landscape of its loose sand, leaving hard, pale rock behind; Agafay is a textbook example, averaging only around 120mm of rainfall a year.
+
+Long before it became a sunset day-trip destination, the plateau had a working life: nomadic Berber communities used it seasonally for grazing, moving sheep and goats in after winter rains produced brief flushes of grass. The tourism infrastructure — camel treks, glamping camps, quad circuits — is a genuinely recent development, accelerating mainly from the early 2010s onward as travellers looked for a desert experience without the full day's drive to Merzouga or Zagora. The land's older use hasn't entirely disappeared either; you'll still occasionally see herders and flocks crossing ground that's also, on the same afternoon, hosting a sunset camel trek for visitors.
 
 ## Agafay vs. the Sahara: What's the Difference?
 
@@ -971,6 +989,12 @@ The glamping camps at Agafay have developed significantly over recent years. The
 **Best season:** Year-round, but October–April is ideal. Summer days are very hot (40°C+); the evenings are always cooler.
 
 **What to bring:** Warm layer for the evening (the plateau loses heat rapidly after sunset), camera with low-light capability, lip balm and sunscreen.
+
+## Why the Night Sky Is the Real Headline
+
+Marrakech itself is a poor place to see stars — the city's own lights wash most of them out. Agafay solves that problem almost by accident: the plateau sits low enough behind its own ridgeline, and far enough from the city glow, that the sky above it is commonly rated Bortle 2–3 on the scale astronomers use for darkness, meaning the Milky Way is visible with the naked eye on a clear, moonless night. That is a genuinely rare thing to find 45 minutes from a city of over a million people. Several of the overnight camps now lean into this directly, setting up telescopes and running a short guided constellation session after dinner rather than treating the sky as background scenery.
+
+If Agafay leaves you wanting more, the High Atlas goes further still. Oukaimeden, roughly 80 km south of Marrakech, is a genuine professional observatory site — Morocco's own national observatory sits there, chosen originally for its altitude and clean air rather than for tourism. It is not something you visit on a standard Agafay evening, but it is worth knowing the same mountain range that frames Agafay's sunset is also one of the reasons Morocco has become a serious base for stargazing tourism in its own right. For a longer, purpose-built version of this experience further into the desert proper, see our dedicated [Sahara stargazing trip](/en/tours/merzouga-stargazing-desert-tour).
     `,
   },
   {
@@ -1029,7 +1053,7 @@ The souks (markets) occupy the northern half of the medina, roughly between Djem
 
 **Bahia Palace** (free, open daily): A 19th-century vizier's palace of 150 rooms, built to be the most beautiful in all of Morocco. The craftsmanship — carved cedar ceilings, zellij tilework, painted stucco — is extraordinary. Allow 45 minutes.
 
-**El Badi Palace** (ruins, 70 MAD entry): The 16th-century Saadian palace that was once described as the most magnificent in the Islamic world. Stripped by Moulay Ismail in 1696, it now stands as atmospheric ruins — vast empty courtyards, sunken gardens, and stork nests on every wall. Better than Bahia for atmosphere.
+**El Badi Palace** (ruins, 70 MAD entry): The 16th-century Saadian palace, commissioned by Sultan Ahmad al-Mansur from 1578 onward and built with marble, gold and materials imported from as far as Italy and Mali, was once described as the most magnificent in the Islamic world. Its downfall came a century later at the hands of the Alaouite Sultan Moulay Ismail, who had it systematically stripped for building materials — marble, tilework, cedar, entire decorative panels — to construct his own new capital at Meknes. Historical accounts differ on exactly when this happened, with some sources dating the order to 1696 and others to as late as 1707, but they agree the dismantling itself was a slow, thorough job that reportedly took roughly a decade to complete. Saadian material salvaged from these walls is thought to have ended up not only in Meknes but even as far as Fes, in the decoration of the Zawiya of Moulay Idris II. What remains in Marrakech today is atmospheric ruins — vast empty courtyards, sunken gardens, and stork nests on every wall. Better than Bahia for atmosphere.
 
 **Saadian Tombs** (70 MAD): The royal mausoleum of the Saadian dynasty, sealed for 200 years and only rediscovered in 1917. A small, exquisite space of exceptional craftsmanship. Queue early — it is small and gets crowded.
 
@@ -1078,6 +1102,10 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
 Twenty kilometres north of Agadir on Morocco's Atlantic coast, Taghazout has transformed from a small fishing village into one of the world's most visited surf destinations. The reasons are straightforward: consistent year-round swell from the North Atlantic, warm water relative to Europe (18–23°C), cheap accommodation and food, and a staggering variety of breaks within a 15-km stretch of coast.
 
 It is also, for now, still a real village. The whitewashed houses, the fishing boats pulled up on the beach, the Gnawa music in the evenings — Taghazout has commercialised substantially but has not yet lost its character. Visit before 2027 when the new resort development north of the village is scheduled to open.
+
+## From Fishing Village to Surf Capital
+
+Understanding how Taghazout got here helps explain why it still feels different from a purpose-built beach resort. Through the mid-20th century this was an ordinary Amazigh fishing village, its economy built entirely around boats and nets rather than tourism. That began to shift in the 1960s and 70s, when Taghazout found itself on the overland "hippie trail" that carried travellers from Europe down through Morocco — and, unlike most stops on that route, a few of them noticed the waves peeling off the rocky points here and stuck around. Word travelled slowly at first, carried mostly by other surfers rather than any organised industry, and it was really only from the early 1990s onward that surf camps, board rental shops and guesthouses began appearing in real numbers. The fishing never stopped either — it just stopped being the only thing the village does, which is part of why Taghazout still has working boats on the beach alongside the surf schools rather than one having fully replaced the other.
 
 ## The Breaks
 
@@ -1170,7 +1198,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
 
 While trekkers crowd the Toubkal massif in the High Atlas, the Anti-Atlas — 200 km to the southwest — sits almost entirely un-visited. This is extraordinary, because the landscape is among the most dramatic in North Africa: ancient pink granite outcrops, deep rose-coloured valleys, Amazigh villages perched on impossibly steep hillsides, and almond orchards that turn white and pink every February.
 
-The Anti-Atlas is geologically ancient — 600 million years old, formed during the Pan-African orogeny. The rock here is some of the oldest exposed on earth. You feel it: the landscape has an eroded, elemental quality unlike the sharp peaks of the High Atlas.
+The Anti-Atlas is geologically ancient — its defining mountain-building event, the Pan-African orogeny, dates to roughly 700–600 million years ago, but the range's deep basement rock goes further still: some of the gneiss and schist exposed here crystallised somewhere between two and three billion years ago, among the oldest rock on the African continent. Long before the much younger, sharper High Atlas was pushed up by the same tectonic forces that are still closing the Mediterranean, this landscape had already been eroding for an almost unimaginable span of time. You feel it underfoot: rounded pink granite domes and worn valleys rather than jagged peaks, a landscape shaped by patience rather than violence.
 
 ## Where to Base
 
@@ -1189,7 +1217,7 @@ The finest introduction to the Anti-Atlas. Start in Tafraoute, trek north into t
 The highest peak in the Anti-Atlas. A full-day ascent from the Ameln Valley involves loose scree and some exposed ridgeline walking. The summit view covers the entire Anti-Atlas range and, on clear days, the Atlantic coast near Agadir. No ropes required but a head for heights is necessary.
 
 ### Painted Rocks Circuit (half-day, easy)
-A short walk from Tafraoute to the Painted Rocks (Les Rochers Peints) — enormous granite boulders painted blue, orange, and red by the Belgian artist Jean Vérame in 1984. Faded now but still striking in the landscape. The surrounding boulder field is extraordinary for scrambling and photography.
+A short walk from Tafraoute to the Painted Rocks (Les Rochers Peints) near the village of Aguerd Oudad — enormous granite boulders painted blue, pink, red, orange and black by the Belgian artist Jean Vérame in 1984, a project that reportedly used around 18 tonnes of paint over three months, with help from the local Tafraoute fire brigade, and was created as a tribute to his late wife. Vérame had already spent years painting rock formations in remote landscapes in Egypt, Chad and Texas before choosing this site. The paint has weathered heavily in the decades since and been periodically restored; opinion locally and among visitors is genuinely split on whether it improves or vandalises the landscape, which is part of what makes it worth seeing for yourself. The surrounding boulder field, roughly 18 acres of raw granite, is extraordinary for scrambling and photography regardless of which side of that debate you land on.
 
 ### Lion's Face Rock (1 hour, easy)
 A natural rock formation 3 km from Tafraoute that, from the right angle, perfectly resembles a lion's profile. An easy walk with panoramic views over the palm grove. Go at sunset for the best light on the granite.
@@ -1240,7 +1268,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
 
 Marrakech is spectacular. Fes is deeper. Where Marrakech has absorbed centuries of international tourism and adapted accordingly, Fes remains predominantly a city for Fassis — for the people who have lived here across generations. The medina is not a stage set; it is a functioning city, where craftsmen have worked the same trades in the same buildings for 500 years.
 
-Fes el-Bali (Old Fes) was founded in 789 AD and designated a UNESCO World Heritage Site in 1981. It is the world's largest car-free urban area, the site of the oldest university in continuous operation (Al-Qarawiyyin, founded 859 AD), and home to crafts — leatherwork, metalwork, pottery, weaving, wood carving — that remain largely unchanged from the medieval period.
+Fes el-Bali (Old Fes) traces back to 789 AD, when Idris I, founder of Morocco's first Islamic dynasty, established a settlement on one bank of the river here. The city as it's really understood today, though, came from his son: Idris II founded a second settlement on the opposite bank around 808 AD and made it his capital, and the two rival walled towns — each with its own mosque, its own gates, its own identity — stood more or less separately for nearly three centuries until the Almoravid dynasty finally unified them into one city in the 11th century. That two-settlement origin is part of why the old medina still reads, to a careful eye, as two cities grown together rather than one planned from scratch. Fes was designated a UNESCO World Heritage Site in 1981. It is the world's largest car-free urban area, the site of the oldest university in continuous operation (Al-Qarawiyyin, founded 859 AD), and home to crafts — leatherwork, metalwork, pottery, weaving, wood carving — that remain largely unchanged from the medieval period.
 
 Give it two full days minimum. One is not enough.
 
@@ -1430,6 +1458,8 @@ Imlil sits at 1,740 m, at the confluence of the Mizane and Rhirhaia river valley
 
 The village itself is small: a main lane of gites, mule handlers, equipment shops, and a few cafes that open at five in the morning because they know when trekkers leave. There is no motorised traffic beyond the car park at the edge of the trail system. The air is different here — cooler, thinner, and genuinely quiet after the Marrakech medina.
 
+Mules, not vehicles, are what actually move gear beyond this point, and that is not a quaint detail — it is the logistics of the entire mountain. Every refuge stay, every multi-day trek, depends on mule teams carrying tents, food and baggage up trails no vehicle could manage, run by local muleteers whose families have worked this exact route for generations, often alongside the same guiding families. Watching a loaded mule train head up the valley at first light, ahead of the trekking groups, is as much a part of an Imlil morning as the mountain view itself.
+
 ## What Gite Panorama Offers
 
 The gite is built in traditional High Atlas style — stone walls, terrace rooms, views that open toward the massif. Facilities are straightforward and honest:
@@ -1534,7 +1564,7 @@ This region is less visited by domestic tourists than the Atlas or Sahara and de
 
 We are a guided-tour operator and have an obvious interest in recommending guides. We'll say it anyway: for the Atlas and the Sahara especially, a licensed local guide is not just a convenience — it is a fundamentally different experience.
 
-The difference is not safety (though safety matters). It is knowledge. A Berber guide who grew up in the High Atlas knows which valley produces the best saffron, which village is known for a particular weaving tradition, why a certain route takes a specific turn at a specific stone. This is context you cannot read in a guidebook because it was never written down — it was passed, orally, from one generation of mountain families to the next.
+The difference is not safety (though safety matters). It is knowledge. A Berber guide who grew up in these mountains knows which valley produces the best saffron — Taliouine, in the foothills between the High and Anti-Atlas, has been Morocco's real saffron heartland for generations, and it takes something like 150,000 hand-picked crocus flowers to yield a single kilogram of the dried spice, which is why it commands the price it does — which village is known for a particular weaving tradition, why a certain route takes a specific turn at a specific stone. This is context you cannot read in a guidebook because it was never written down — it was passed, orally, from one generation of mountain families to the next.
 
 That knowledge is the product. The mountain is the setting.
 
@@ -1544,7 +1574,7 @@ We work with Moroccan nationals on the same terms as international visitors. Pri
 
 If you have specific questions about a trip — best season for a particular route, what to bring, whether a route is suitable for your group's fitness level — [contact us directly](/en/contact). We respond to every message personally.
 
-The Atlas has been here for 300 million years. It will wait. But it is also worth not waiting too much longer.
+The High Atlas is, geologically speaking, still young and still rising — it was pushed up as Africa drifted north into Europe, a collision that began tens of millions of years ago and, remarkably, is still happening today at a few centimetres a year. It has been here, in the form you would recognise, for a very long time by any human measure. It will wait. But it is also worth not waiting too much longer.
     `,
   },
   {
@@ -1587,7 +1617,7 @@ Everything else is logistics.
 
 The key principle in the High Atlas is that temperatures change dramatically between valley floor and summit, and between morning and afternoon. You are managing a range from 30°C in the valley to -5°C or below at the summit (even in summer). Layering lets you respond to this.
 
-**Base layer (x2):** Synthetic or merino wool, not cotton. Cotton holds sweat and chills badly. Two tops lets you wash one and wear one.
+**Base layer (x2):** Synthetic or merino wool, not cotton. This is not a style preference, and the reason is worth knowing because it explains half the other advice in this list. Cotton fibres absorb water into the fibre itself rather than moving it away from your skin, and can hold many times their own weight in it — so once you sweat into a cotton shirt on the ascent, it stays wet against your body for the rest of the day. Wet fabric next to skin conducts heat away far faster than dry air does, which is exactly the wrong thing to happen right as you reach a cold, windy summit. Synthetic and wool fibres, by contrast, don't absorb water the same way — moisture moves along the surface and evaporates instead of soaking in, so the fabric dries fast and keeps working as insulation even when damp. Two tops lets you wash one and wear one.
 
 **Mid layer:** A fleece or lightweight down jacket. This is what you put on at the summit and at the refuge in the evening. Temperatures drop fast above 3,500 m.
 
@@ -1698,7 +1728,7 @@ If you have read an older blog post saying you can walk up Toubkal solo, that po
 The requirement is specific, and it is worth understanding precisely rather than vaguely:
 
 - Every trekking party on the Toubkal massif must be accompanied by a guide holding a valid Moroccan mountain guide licence.
-- The licence is issued by the state after formal training at CFAMM, the national mountain guide school in Tabant. It is not a self-declared title.
+- The licence is issued by the state after formal training at CFAMM, the national mountain guide school just outside Tabant in the Ait Bouguemez valley — the only institution of its kind in the country, and reportedly in Africa. It is not a self-declared title: candidates sit a demanding multi-day selection test before they are even accepted onto the course, then complete around six months of formal training covering navigation, first aid and mountain survival skills, to a standard often compared to French mountain-guide qualifications. The training is open only to Moroccan candidates, which is part of why the guiding profession here is so tied to specific mountain families and communities.
 - Checkpoints sit on the route between Imlil and the Toubkal refuge. Officers check the guide's credentials and trekkers' passports.
 - The rule applies year round, to all routes on the massif, regardless of your experience or fitness.
 
@@ -1818,6 +1848,8 @@ Both are required in winter, and both can be hired in Imlil or come with a guide
 
 Good operators build in a training session on the day before the summit bid: how to walk in crampons without catching a point on your own gaiter, how to hold the axe on a traverse, and how to self-arrest. It takes an afternoon to get functional.
 
+Self-arrest is the actual skill that matters, so it is worth understanding what it is rather than treating it as jargon. It is the technique for stopping yourself if you slip and start sliding down a snow slope: rolling onto your front, driving the pick of the ice axe into the snow above your shoulder, and using your body weight to lever it in as a brake while keeping your legs and crampon points up off the snow — catching a crampon point while sliding is how ankles break. It is a physical, repeatable drill rather than an abstract idea, which is exactly why a proper guide has you practise it on a safe, low-angle slope near the refuge before you are anywhere near a slope where you would actually need it.
+
 ### The refuge
 The Toubkal refuge at 3,207 m is open through winter and heated, but "heated" is doing modest work in that sentence. Bring a real sleeping bag. Water freezes overnight.
 
@@ -1913,6 +1945,8 @@ The honest answer is that it depends what you mean by "the Sahara," and this is 
 **Zagora** is about **6 hours away**. It is a genuine desert and it has genuine dunes, but they are small. The landscape is predominantly rocky and stony — the pre-Saharan zone rather than the sand sea. The stars are magnificent, the camp experience is real, and the scenery is not what you pictured.
 
 Everything else in this comparison follows from those two paragraphs.
+
+It is worth understanding why the landscapes differ so much over a relatively short distance, because it is not random. An erg, the technical term for a proper sand sea like Erg Chebbi, only forms where large volumes of fine sand accumulate and the wind has room and consistency to build it into dunes — a fairly specific combination of geology and airflow. Most of the Sahara, including most of the ground between Zagora and the true dune fields, is actually hammada: flat, stony, wind-scoured plateau where the loose material has simply blown away over geological time, leaving hard ground behind. Zagora sits in exactly that zone. Erg Chebbi exists because it is one of the relatively rare places where conditions let sand pile up instead of blow through. That is the real reason a shorter, closer desert trip cannot simply be a smaller version of the real thing — it is a different kind of desert entirely, not a scaled-down one.
 
 ## Which to choose
 
@@ -2061,6 +2095,8 @@ Total: roughly **200–500 MAD** depending on group size and how the trip went.
 
 Tips are voluntary and genuinely expected. The people doing the most physical work — the camel handlers walking beside your animal in the sand, the camp cook — are the furthest down the pay chain. Small amounts of cash matter disproportionately to them. Bring small denominations; nobody can break a 200 MAD note at a desert camp.
 
+One quiet advantage of tipping in dirhams specifically: the Moroccan dirham is a closed currency, meaning it cannot legally be traded outside Morocco and is not freely convertible on international markets the way the euro or dollar is. In practice that means MAD you withdraw or exchange in Marrakech mostly has to be spent in Morocco, which is one more reason cash tips in local currency land better than a foreign note pressed into someone's hand at the end of a trip — it is immediately useful to them rather than something they then have to find a way to convert.
+
 ## The rest of the budget
 
 The tour price is not the trip price:
@@ -2106,7 +2142,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     faq: [
       {
         q: "Is Morocco safe for solo female travellers?",
-        a: "Yes, with preparation. Morocco is consistently ranked among the safest countries in Africa for travellers and sits at Level 1 on the US State Department advisory scale, the same tier as most of Western Europe. Tens of thousands of women travel Morocco alone each year and the large majority report positive trips. The common complaints are verbal attention and being overcharged rather than violence.",
+        a: "Yes, with preparation. Morocco is consistently ranked among the safest countries in Africa for travellers, and sits at the safe end of most Western governments' travel advisory scales — check your own government's current advisory before you go, since the exact tier and wording is reviewed periodically. Tens of thousands of women travel Morocco alone each year and the large majority report positive trips. The common complaints are verbal attention and being overcharged rather than violence.",
       },
       {
         q: "What should women wear in Morocco?",
@@ -2128,7 +2164,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     content: `
 ## The straight answer
 
-Morocco is safe for solo female travellers. It is ranked among the safest countries in Africa for visitors, and the US State Department places it at **Level 1 — Exercise Normal Precautions**, the same tier as France or Germany.
+Morocco is safe for solo female travellers. It is ranked among the safest countries in Africa for visitors, and Western government travel advisories consistently place it in their lowest or second-lowest risk tier — check your own government's current advisory before you travel, since these are reviewed periodically and the exact wording shifts, but Morocco has sat at the safe end of that scale for years.
 
 And: it can be tiring in a way those countries are not.
 
@@ -2253,7 +2289,7 @@ Five is workable but forces a real sacrifice. Ten is genuinely better and lets y
 
 ## The mistake almost everyone makes
 
-Morocco looks small on a map. It is not. It is roughly the size of France, with a mountain range through the middle and the Sahara on the far side of it.
+Morocco looks small on a map, especially next to the Sahara and the rest of Africa around it. It is not small. At roughly 446,000 square kilometres it covers about four-fifths the area of France, or close to the size of California — and unlike either of those, a mountain range with peaks over 4,000 metres runs straight through the middle of it, with the Sahara sitting on the far side. That range is not incidental scenery you glimpse from a train window; it is the thing every itinerary has to physically cross, on roads that switchback over passes rather than run flat.
 
 Here is the distance that governs everything:
 
@@ -2470,7 +2506,7 @@ The standard route from Marrakech gives you a transfer of about an hour and a ha
 - **Summit day.** A pre-dawn start, roughly three hours up the South Cirque to the summit at 4,167 metres. Loose rock and scree underfoot, thin air, cold and often windy. The gradient is the hardest of the trek.
 - **The descent.** Down to the refuge, then often all the way to Imlil — four to five hours of downhill in total. This is where the difficulty hides, and where most complaints come from afterwards.
 
-That last point deserves emphasis. People train for going up and are ambushed by coming down. Descending on tired legs, on loose ground, for hours, is what leaves knees sore for a week.
+That last point deserves emphasis. People train for going up and are ambushed by coming down. Descending on tired legs, on loose ground, for hours, is what leaves knees sore for a week — and there is a real physiological reason it hurts more than the climb, not just perception. Going uphill, your quad muscles shorten as they work, which is a relatively efficient kind of contraction. Going downhill, those same muscles have to lengthen under load with every step, fighting gravity to stop your knee buckling rather than driving you forward — a type of contraction that generates significantly more tension in the muscle and more compressive force behind the kneecap than climbing does. Sports science research on downhill and stair descent consistently finds this eccentric loading is the harder work, even though it feels easier in the moment because you are not gasping for breath. Your lungs stop complaining on the way down. Your knees do not.
 
 ## Altitude is the real difficulty
 
@@ -2562,6 +2598,12 @@ Same mountain, same summit, more room. The additional days are not spent walking
 
 That distinction matters. People assume the longer trek means more effort. In practice it means the same summit with better preparation, and a summit day that feels like a good hard day out rather than a battle.
 
+## Why Time Matters More Than Fitness
+
+This is not a vague travel-industry claim — it is basic altitude physiology, and it is worth understanding rather than just taking on faith. Above roughly 2,500 metres, your body has to make real adjustments to function properly: breathing rate increases, and over several days the kidneys begin excreting bicarbonate to rebalance blood chemistry that shifts when you breathe faster. That process starts working within hours of arriving at altitude, but according to research summarized in clinical altitude-medicine literature, it takes something like four to seven days at a stable elevation to reach anywhere close to its full effect. A two-day Toubkal trip does not give your body that window — you spend one night at the refuge, at just over 3,200 metres, before pushing to the summit.
+
+None of this means the two-day trip is unsafe for a fit, experienced hillwalker — thousands complete it without serious trouble, and severe altitude illness is genuinely rare below about 4,000 metres. But acute mountain sickness itself, the milder headache-and-nausea version, is common enough at this kind of elevation and ascent rate that mountaineering guidelines specifically flag ascents faster than roughly 600 metres of net elevation gain per day as raising the odds substantially. That is close to the pattern of a compressed two-day itinerary. The four-day trip's extra time at Imlil and the lower slopes before the push to the refuge is doing real physiological work, not just padding the schedule.
+
 ## What actually changes
 
 | | 2-day | 4-day |
@@ -2643,6 +2685,8 @@ What it genuinely offers: an extraordinary lunar landscape close to the city, dr
 
 Zagora sits south of the Atlas in the Draa Valley, reachable in a long day's drive. The dunes here are smaller and less sculpted than Erg Chebbi, and the setting is more scrub and palm than endless sand.
 
+The town itself has real history behind the tourist stop — this was a genuine departure point for trans-Saharan caravans, and Zagora's famous roadside sign reading "Tombouctou 52 Jours" (Timbuktu, 52 days) marks exactly that: the length of the camel journey traders once made from here to Timbuktu, carrying salt, dates, textiles and goods south and returning with gold and other West African trade. That trade network operated for centuries and only formally ended in the 1930s under French and Spanish colonial administration. It is worth pausing at the sign for what it actually represents, not just the photo.
+
 The trade is straightforward: significantly less driving than Merzouga, and a real night in the desert. Our [two-day Zagora trip](/en/tours/zagora-2day-marrakech) is rated easy, with the distance covered by vehicle.
 
 **Choose it if** you have exactly two days and want an actual desert night rather than a stone-desert dinner.
@@ -2710,7 +2754,7 @@ Most Morocco desert content treats "the Sahara" as one destination. It is not. M
 
 ## Erg Chebbi: the postcard dunes
 
-These are the dunes in the photographs. Erg Chebbi rises abruptly out of flat ground in a way that looks almost artificial, and the dunes shift colour convincingly from dawn through sunset.
+These are the dunes in the photographs. Erg Chebbi covers roughly 170 square kilometres — around 28 km north to south and 5–7 km east to west — a genuinely compact, contained dune field by Saharan standards, which is part of why it's so accessible: you're never far from its edge. The dunes rise up to about 150 metres above the surrounding rocky plain, abruptly enough that the transition from flat hamada to full dune sea looks almost artificial, and the dunes shift colour convincingly from dawn through sunset.
 
 Access is straightforward: our [three-day Sahara trip](/en/tours/sahara-3day-marrakech) is rated easy, with the distance covered by road and only a short camel leg into the camp.
 
@@ -2720,7 +2764,7 @@ The trade-off is company. Chebbi is the established destination, so there are ot
 
 ## Erg Chegaga: the remote one
 
-Chegaga covers a much wider area than Chebbi but with a lower, more rolling profile. It reads as vast rather than sculptural — a sand sea rather than a wall of dunes.
+Chegaga is Morocco's largest erg, covering roughly 35 by 15 kilometres — a considerably bigger footprint than Chebbi, though with a lower, more rolling dune profile rather than Chebbi's abrupt sculpted peaks. It reads as vast rather than sculptural — a sand sea rather than a wall of dunes, sitting around 56 kilometres southwest of the small town of M'Hamid El Ghizlane, itself already well beyond where the paved road ends.
 
 The defining feature is remoteness. The final approach is 4x4 across open desert, and the camps out there are sparse enough that you can genuinely see none but your own. Our Erg Chegaga trips run from both [Marrakech](/en/tours/erg-chegaga-3day-marrakech) and [Agadir](/en/tours/erg-chegaga-3day-agadir), and are rated moderate rather than easy specifically because of that access.
 
@@ -2730,7 +2774,8 @@ The defining feature is remoteness. The final approach is 4x4 across open desert
 
 | | Erg Chebbi (Merzouga) | Erg Chegaga |
 |---|---|---|
-| Dune character | Tall, sharply sculpted | Wider field, rolling |
+| Area | ~170 km² | ~35 x 15 km (Morocco's largest erg) |
+| Dune character | Tall, sharply sculpted, up to ~150 m | Wider field, rolling |
 | Access | Surfaced road, short camel leg | 4x4 across open desert |
 | Other camps in sight | Several | Few to none |
 | Trip rating | Easy | Moderate |
@@ -2786,7 +2831,9 @@ The trade-off is intensity. Marrakech is loud, busy and relentless in the best a
 
 ## What Agadir puts within reach
 
-Agadir was rebuilt after the 1960 earthquake, so it has little of the historic fabric people associate with Morocco. What it has instead is a long Atlantic beach, a mild climate year-round, and a much calmer register.
+Agadir was rebuilt after the 1960 earthquake, so it has little of the historic fabric people associate with Morocco. The scale of that event is worth understanding rather than glossing over: a magnitude-5.8 quake, shallow enough that the shaking was still severe, struck the city late at night on February 29, 1960, killing somewhere between a third of the population — commonly cited figures run to 12,000–15,000 people, out of a city of around 40,000 — and levelling almost everything, including the old kasbah and the French colonial quarter. King Mohammed V ordered the city rebuilt a few kilometres south of the original site, on stricter earthquake-resistant building codes, with international and Moroccan modernist architects (Jean-François Zévaco and Elie Azagury among the best known) given real freedom to design it. That is the reason today's Agadir looks and feels categorically different from Fes or Marrakech — it is not an old city that happens to feel modern, it is a purpose-built one, and the mid-century architecture scattered through it is itself now considered historically significant in its own right.
+
+What the rebuilt city has instead of ancient fabric is a long Atlantic beach, a mild climate year-round, and a much calmer register.
 
 - **Coast and surf.** Taghazout is close, and our [surf lessons](/en/tours/agadir-surf-lesson) run as half-days.
 - **Paradise Valley.** Palm-lined gorge with rock pools, about ninety minutes out. See our [day trip](/en/tours/paradise-valley-agadir).
@@ -2855,7 +2902,7 @@ Rated challenging. Six days gives your body time to acclimatise properly, which 
 
 ## M'Goun Massif traverse — seven days
 
-Morocco's second great massif, and the quietest of the routes here. The [seven-day traverse](/en/tours/mgoun-massif-trek) crosses high country and gorges, passing through villages where trekking groups are still a novelty.
+Morocco's second great massif, and the quietest of the routes here. Jbel M'Goun itself tops out at 4,071 metres — commonly cited as the second- or third-highest peak in the range depending on the source, but unambiguously one of only a handful of Moroccan summits over 4,000 metres. Unlike Toubkal's granite, the M'Goun massif is largely sandstone and limestone, which is why the terrain reads so differently: deep, colourful gorges cut between high ridgelines rather than Toubkal's more classic scree-and-summit shape. The [seven-day traverse](/en/tours/mgoun-massif-trek) crosses this high country, dropping through the Aït Bouguemez valley — known locally as the "Happy Valley" for its fertile terraced fields and well-kept mud-brick villages — where trekking groups are still a novelty rather than routine.
 
 We rate it expert. Not because any individual day is technical, but because seven consecutive days of walking in remote terrain with limited bail-out options asks more of you than a shorter, better-served route.
 
@@ -2944,7 +2991,9 @@ That is why every desert trip we run from Agadir is at least two days. It is not
 
 This is the part that gets overlooked. The Agadir approach is not simply a longer version of the Marrakech one — it goes through different country.
 
-Trips head inland through the Souss valley and past Taroudant, the walled town sometimes called "little Marrakech", before turning toward the desert. The Marrakech route instead climbs over the Tizi n'Tichka pass and passes Aït Ben Haddou.
+Trips head inland through the Souss valley and past Taroudant, the walled town sometimes called "little Marrakech" — though the nickname undersells its own history. Taroudant was the Saadian dynasty's capital before Marrakech, which is really the origin of the comparison: it isn't a smaller copy of Marrakech, it's closer to the reverse. The city's pentagon-shaped ramparts, roughly 8 kilometres around and dating in their current form to the 16th-century Saadian era, are sometimes cited by local historians as among the more substantial fortified walls anywhere, after the Great Wall of China and Rajasthan's Kumbhalgarh Fort — a claim worth taking as local pride more than a verified world ranking, but the walls themselves are genuinely impressive to see up close, thick and largely intact rather than ruined.
+
+The Marrakech route instead climbs over the Tizi n'Tichka pass and passes Aït Ben Haddou.
 
 Both are worth seeing. If you have already done the Marrakech run on a previous trip, the Agadir approach gives you new ground rather than a repeat.
 
@@ -2994,9 +3043,9 @@ What redeems it is the range of what sits within a couple of hours: mountain gor
 
 ## Paradise Valley
 
-The standout. A palm-lined gorge in the Anti-Atlas foothills about ninety minutes inland, with natural rock pools cut into the riverbed and cliffs to jump from if you want to.
+The standout. A palm-lined gorge in the Anti-Atlas foothills about ninety minutes inland — properly the Aoulouz gorge in the Imouzzer des Ida Outanane area, carved by the Issen river as it drops out of the mountains — with natural rock pools cut into the riverbed and cliffs to jump from if you want to. "Paradise Valley" is the tourist-brochure name rather than an official one; it's often said locally that it dates back to visiting foreign travellers in the 1960s, Jimi Hendrix's name comes up most often in that story, though it's the kind of well-worn travel legend that's hard to pin down definitively rather than a documented fact.
 
-Water levels swing hard with the seasons — after winter rain the pools are at their best, and after a long dry spell some shrink or vanish. Go early: by mid-morning in high season the main pools are busy.
+Water levels swing hard with the seasons — after winter rain the pools are at their best, and after a long dry spell some shrink or vanish. The slopes above the gorge are thick with argan trees, the same tree Morocco's argan oil industry depends on and one found almost nowhere else on Earth outside this corner of the country. Go early: by mid-morning in high season the main pools are busy.
 
 [Our day trip](/en/tours/paradise-valley-agadir) is rated easy and works well with children.
 
@@ -3014,7 +3063,7 @@ The coastal drive north is genuinely scenic. Treat it as a full day. [Details he
 
 ## Souss-Massa National Park
 
-South of Agadir, protecting wetland and coastal habitat where the Souss river meets the Atlantic. The draw for birdwatchers is the northern bald ibis — one of the rarest birds in the world, with one of its last wild populations here — alongside flamingos and other waterbirds.
+South of Agadir, protecting wetland and coastal habitat where the Souss river meets the Atlantic. The draw for birdwatchers is the northern bald ibis — and this is a genuine conservation success story, not just a checklist bird. The species came close to disappearing entirely; Morocco's Atlantic coast holds the only self-sustaining wild population left on Earth, since the last wild colonies elsewhere in the Middle East died out. After Souss-Massa National Park was created in 1991 and targeted protection measures followed in the early 1990s, the local breeding population grew from around 59 pairs in 1997 to well over 140 pairs two decades later — a big enough recovery that the species was formally downgraded from "Critically Endangered" to the less severe "Endangered" category in 2018. Flamingos and other waterbirds share the same wetlands, but the ibis is the reason serious birders build a whole day around this park.
 
 Quieter and more specialised than the other trips here. [Details](/en/tours/sous-massa-national-park).
 
@@ -3053,7 +3102,7 @@ For desert trips from Agadir, which need more than a day, see [Can You Visit the
     title: "Todra Gorge: The Canyon on the Road to the Sahara",
     excerpt:
       "A 300-metre limestone canyon you pass on the way to Merzouga — and one of the most dramatic stops on the entire route. Here is what it actually is and why the drive slows down for it.",
-    heroImage: "https://images.unsplash.com/photo-1573133001449-a19835a04971?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1706804391543-0edd327103d9?w=1600&q=85",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3067,9 +3116,15 @@ For desert trips from Agadir, which need more than a day, see [Can You Visit the
     content: `
 ## What Todra Gorge Actually Is
 
-Todra Gorge is a limestone canyon in the eastern High Atlas, carved by the Todra River over millions of years. At its narrowest point the walls close to about 10 metres apart and rise nearly 300 metres straight up — a proportion that photographs poorly and has to be stood in to understand. It sits near the town of Tinghir, on the main road between Ouarzazate and Merzouga, which is why almost every multi-day desert tour from Marrakech passes through it.
+Todra Gorge is a limestone canyon in the eastern High Atlas, carved by the Todra River over millions of years. The rock itself is far older than the canyon cutting through it: these limestone layers began forming in the Late Paleozoic era, when this part of Morocco sat under a shallow sea, long before the Atlas Mountains existed as mountains at all. At its narrowest point the walls close to about 10 metres apart and rise close to 300 metres straight up — a proportion that photographs poorly and has to be stood in to understand. It sits near the town of Tinghir, on the main road between Ouarzazate and Merzouga, which is why almost every multi-day desert tour from Marrakech passes through it.
 
 It is not a detour. It is on the route.
+
+## Tinghir and Its Oasis
+
+The town the gorge is named near, Tinghir, takes its name from the Tamazight (Berber) word for "mountain foothill" — a fitting description for a settlement sitting exactly where the High Atlas gives way to the pre-Saharan plains. Just before the gorge narrows, the road runs alongside the Tinghir palmeraie, a genuinely large oasis of roughly 100,000 date palms stretching for kilometres along the Todra River, kept alive by underground *khettara* channels — the same centuries-old irrigation engineering found across the pre-Saharan valleys, carrying water from higher ground with minimal loss to evaporation. It's easy to drive past without registering it, but the oasis and the gorge are really one continuous landscape: water carved the canyon and the same water sustains the palm grove at its mouth.
+
+Fortified kasbahs and villages, some centuries old, sit scattered through this stretch — a reminder that Todra sat on a real caravan route, not just a scenic backdrop, and that the settlements here existed because of the trade passing through the gorge as much as the water running through it.
 
 ## Why It's a Stop, Not a Destination
 
@@ -3084,6 +3139,14 @@ Todra is one of Morocco's best-known climbing destinations, with several hundred
 ## What to Expect on the Ground
 
 The canyon floor is flat and easy walking — no technical hiking required to see the best of it. Water levels in the river vary by season; in spring, meltwater can make some of the lowest sections wet underfoot. Light is best in the late morning, when the sun reaches down between the walls; by mid-afternoon much of the gorge is in shadow.
+
+## Practical Notes
+
+**Getting there:** Todra Gorge sits directly on the main Ouarzazate–Merzouga road via Tinghir, so it's a natural waypoint rather than a detour for anyone on that route already.
+
+**How long to allow:** 30–60 minutes covers the highlights; climbers or anyone wanting to walk further up the canyon beyond the narrow section should budget half a day.
+
+**Combine it with:** The Tinghir palmeraie and the kasbah country of [Dades Valley](/en/blog/dades-valley-gorges-guide), which sits on the same road a short drive away.
 
 ## Which Tours Pass Through
 
@@ -3112,21 +3175,51 @@ Todra Gorge is included as a stop on our [3-day Marrakech to the Sahara tour](/e
 
 The N10 road east from Ouarzazate follows the Dades and M'Goun rivers through a valley lined with kasbahs — fortified earthen buildings, many centuries old, built from the same red clay as the cliffs behind them. The stretch has an informal name, the Route of a Thousand Kasbahs, and while nobody has literally counted them, the density is real: for long sections of the drive, there is rarely a moment without one in view.
 
-Most are still standing because the region's dry climate is kind to mudbrick construction. Some are inhabited, some are crumbling, and a handful have been restored as guesthouses.
+These weren't built for the view. Before the French protectorate imposed central authority in the early 20th century, this valley sat on a branch of the trans-Saharan trade routes, and local Berber clans — among them the Aït Atta, Aït Sedrate, and Aït Hdiddou — controlled and taxed caravans carrying gold, salt, and goods between the Sahara and the Mediterranean coast. A kasbah was a fortified family compound — thick walls, few windows, a single defensible entrance, often doubling as a storehouse for the trade goods passing through — built by whichever clan controlled the water and the land around it. The valley's density of kasbahs reflects a landscape that was, for centuries, contested and worth defending.
+
+Most are still standing because the region's dry climate is kind to mudbrick (pisé) construction, which crumbles fast in rain but can last centuries in the near-absence of it. Some are inhabited, some are crumbling into the hillside they were built from, and a handful — the Kasbah of Aït Youl among the best-known — have been restored, either as private homes or small guesthouses that let you sleep inside a genuine 18th or 19th-century fortress rather than just photograph one from the road.
+
+## Kelaat M'Gouna and the Rose Valley
+
+About halfway along the route sits Kelaat M'Gouna, the center of a side valley known locally as the Vallée des Roses. According to local tradition, the Damask roses that now cover the hillsides were first brought back centuries ago by pilgrims returning from Mecca, planted as hedgerows around the kasbahs and irrigation channels. They took to the climate and never left.
+
+The rose harvest runs for a few weeks each May, when the whole valley smells like it — pickers working at dawn before the heat wilts the petals, trucks hauling sacks of roses to the local cooperative distilleries that turn them into rose water and oil, most of which is exported for the perfume industry in Grasse, France. Kelaat M'Gouna hosts a Rose Festival at the end of the harvest, a genuinely local event (folk music, a parade, a crowned "Miss Rose") that most tour itineraries don't reach, since the timing is narrow and the town is a stop, not a destination, on the standard desert route.
 
 ## Dades Gorge
 
-Past the town of Boumalne Dades, the valley narrows into Dades Gorge, where the road switches back sharply up rose-coloured rock formations locally nicknamed the "monkey fingers" for their eroded, knuckled shape. This section is the most photographed part of the route, and for good reason — the light on the rock in late afternoon is genuinely striking.
+Past the town of Boumalne Dades, the valley narrows into Dades Gorge, where the road switches back sharply up rose-coloured rock formations locally nicknamed the "monkey fingers" for their eroded, knuckled shape. This section is the most photographed part of the route, and for good reason — the light on the rock in late afternoon is genuinely striking, the switchbacks are dramatic enough to be a destination photo in their own right, and the gorge walls close in enough that the scale only really registers once you're driving through them.
 
-A full detour up the gorge and back adds a few hours and is not part of a standard desert-tour itinerary; most tours see the lower valley and kasbahs from the main road without the full gorge diversion.
+A full detour up the gorge and back adds a few hours and is not part of a standard desert-tour itinerary; most tours see the lower valley and kasbahs from the main road without the full gorge diversion. If you have your own vehicle and the time, the drive up to the switchback viewpoint and back is a worthwhile half-day add-on to a Ouarzazate stopover — just budget the extra hours and know that the road surface degrades the further up you go.
 
 ## What Makes It Different From Todra
 
-Dades is wider and gentler than Todra — a valley of switchbacks and kasbahs rather than a narrow canyon. The two are often mentioned together because they sit close together on the same road east from Ouarzazate, but they are different kinds of landscape: Todra is vertical and sudden, Dades is a long, unfolding drive.
+Dades and Todra sit close together on the same road east from Ouarzazate and get mentioned in the same breath constantly, but they are genuinely different landscapes, not two versions of the same thing.
+
+Dades is wide and gradual — a valley of switchbacks, kasbahs, and irrigated palm groves that unfolds slowly over tens of kilometres. Todra is the opposite: a narrow limestone canyon that appears almost without warning, with 300-metre sheer walls close enough in places to touch both sides with your arms out. Dades rewards a slow drive with the windows down. Todra rewards getting out of the vehicle and walking into it. See our [full Todra Gorge guide](/en/blog/todra-gorge-guide) for what that actually involves.
+
+If you only have time for one on a tight itinerary, Dades is the better fit for travellers who want kasbah architecture and valley scenery; Todra is the better fit for travellers who want a single dramatic geological set-piece.
+
+## Practical Notes
+
+**Best light:** Late afternoon, when the sun is low enough to turn the rock genuinely rose-red rather than the flatter, hazier light of midday.
+
+**Road conditions:** The main N10 is paved and well-maintained. The gorge road above Boumalne Dades narrows and roughens the further you go — fine in a standard car in dry conditions, best avoided after heavy rain.
+
+**Where people stay:** A handful of kasbah guesthouses along the route offer overnight stays, which is the way to actually experience the architecture rather than just drive past it. Most standard desert-tour itineraries pass through without stopping overnight here, continuing on to Merzouga or Zagora the same day.
 
 ## Which Tours Pass Through
 
 Dades Valley is part of the route on our [3-day Erg Chegaga expedition](/en/tours/erg-chegaga-3day-marrakech), the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). For the shorter 2-day options that don't reach this far, see [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+
+## Common Questions
+
+**Is Dades Valley the same as the Draa Valley?** No, though both are palm-and-kasbah valleys in the south and get confused by first-time visitors reading trip reports. The Draa Valley runs south from Ouarzazate towards Zagora and M'Hamid, following a different river on a different road. Dades runs east from Ouarzazate towards Tinghir and Merzouga. Some longer itineraries pass through both on different days.
+
+**Can you visit Dades Valley without a full desert tour?** Yes. A day trip or overnight from Ouarzazate covering the kasbah route and the lower gorge is entirely doable independently, by rental car or grand taxi. What you lose without a guide is the context — knowing which kasbahs are worth stopping at, which are private homes rather than photo opportunities, and the history behind what you're driving past.
+
+**Why do people call it the "Road of a Thousand Kasbahs" instead of naming an exact number?** Because nobody has ever done a formal count, and the number keeps changing anyway — some kasbahs are actively crumbling back into the hillside they were built from, while others get restored as guesthouses. It's a description of density, not a literal figure, and the same phrase gets used for the wider region stretching from Ouarzazate through Skoura, Dades, and towards Todra.
+
+**Is the rose harvest worth timing a trip around?** If a light, working-agricultural side of Morocco genuinely interests you, yes — May in Kelaat M'Gouna is unlike the rest of the year. If you're mainly here for the desert and the kasbah architecture, the valley is worth seeing regardless of season; the roses are a bonus, not the main event.
 `,
   },
   {
@@ -3151,21 +3244,37 @@ Dades Valley is part of the route on our [3-day Erg Chegaga expedition](/en/tour
 
 Skoura is a genuine oasis — around 5,000 hectares of date palms, olive and fig trees, fed by irrigation channels that have been maintained for centuries. Unlike the more heavily visited stops on the desert road, it is still a working agricultural landscape, with local families farming inside the palm grove itself. That is most of its appeal: it feels lived-in rather than staged for visitors.
 
+Much of the water reaching those fields still moves through *khettaras* — underground channels dug to carry water from higher water tables down to the palm grove with minimal evaporation loss, a technology that predates modern pumped irrigation by centuries and is still functioning in parts of the oasis today. It's an easy detail to miss driving through, but it's the actual reason the oasis exists where it does.
+
 It sits about 40 minutes east of Ouarzazate, just before the road climbs toward Dades Valley.
 
 ## The Kasbahs Inside the Palms
 
-Skoura's oasis hides several historic kasbahs among the trees, the best known being Kasbah Amridil — a fortified 17th-century building whose silhouette appeared on an older series of the 50-dirham note, and which remains inhabited by descendants of the family that built it. Walking or driving into the palm grove to reach it is part of the experience; the kasbah is not visible from the main road.
+Skoura's oasis hides several historic kasbahs among the trees. The best known, Kasbah Amridil, was built at the end of the 17th century by Mohammed Nassiri Skouri and has remained in the same family, passed down through generations, ever since — it isn't a restored ruin being shown to visitors, it's a building whose upkeep has never actually stopped. Its silhouette appeared on an older series of the 50-dirham note, which is why Moroccan visitors sometimes recognise it before they know its name. Walking or driving into the palm grove to reach it is part of the experience; the kasbah is not visible from the main road.
+
+Kasbah Aït Ben Moro, another 17th-century building nearby, took a different path — restored at the end of the 20th century and converted into a small hotel, which is one of the more atmospheric ways to actually sleep inside this kind of architecture rather than just look at it from outside. Smaller kasbahs, including Ben Abdelgoumi, Mohamed Ben Hamadi, and Aït Abou, sit scattered through the same palm grove in varying states of repair — some maintained, some quietly returning to the earth they were built from.
 
 Several kasbahs in Skoura are in active restoration, which means some can be visited and others are working sites rather than open attractions. This varies year to year.
 
+## Three Communities, One Oasis
+
+Skoura's history isn't a single thread. Amazigh (Berber), Arab, and Jewish communities all shaped the oasis over the centuries that built it — the terraced gardens, the earthen kasbahs, the underground water channels, and the craft traditions that still show up in the building techniques all carry that mixed inheritance. It's a detail easy to miss on a brief stop, but it's part of why the architecture here reads differently from the more purely Berber kasbah country further into the mountains.
+
 ## Why It's Worth the Stop
 
-Skoura rarely gets more than a brief stop on a standard itinerary — a walk into the palms, a look at one kasbah, back on the road. That brevity is honest: there isn't a full day of activity here for most travellers. But as a contrast to the open, dry country on either side of it, a shaded palm oasis with running irrigation water is a genuine change of scene, and a quieter one than the bigger stops nearby.
+Skoura rarely gets more than a brief stop on a standard itinerary — a walk into the palms, a look at one kasbah, back on the road. That brevity is honest: there isn't a full day of activity here for most travellers. But as a contrast to the open, dry country on either side of it, a shaded palm oasis with running irrigation water is a genuine change of scene, and a quieter one than the bigger stops nearby. Skoura doesn't have Aït Ben Haddou's fame or Todra's drama, and that's the point — it's the kind of place a rushed itinerary skips entirely and a slightly slower one is glad it didn't.
+
+## Practical Notes
+
+**Getting there:** Skoura sits directly on the N10, the main road between Ouarzazate and the Dades/Todra region, so it's a natural stop rather than a detour for anyone already driving that route.
+
+**How long to allow:** An hour is enough for the highlights — the palm grove walk and one kasbah. Travellers with a genuine interest in vernacular earthen architecture could easily spend half a day.
+
+**Staying overnight:** A handful of kasbah guesthouses inside the oasis, Aït Ben Moro among them, let you experience the building rather than just view it. This isn't part of a standard tour itinerary, which typically passes through on the way to Dades or Merzouga the same day.
 
 ## Which Tours Pass Through
 
-Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), which is built to cover more of the Ouarzazate–Merzouga road than the shorter 2- and 3-day options. If you're deciding how many days you need for the full route, see [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek) for how we think about that trade-off generally, or [What a Morocco Desert Tour Really Costs](/en/blog/how-much-does-a-morocco-desert-tour-cost) for the desert-specific version.
+Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), which is built to cover more of the Ouarzazate–Merzouga road than the shorter 2- and 3-day options. For the kasbah and canyon country further along the same road, see our guides to [Dades Valley](/en/blog/dades-valley-gorges-guide) and [Todra Gorge](/en/blog/todra-gorge-guide). If you're deciding how many days you need for the full route, see [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek) for how we think about that trade-off generally, or [What a Morocco Desert Tour Really Costs](/en/blog/how-much-does-a-morocco-desert-tour-cost) for the desert-specific version.
 `,
   },
   {
@@ -3188,23 +3297,37 @@ Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrak
     content: `
 ## What It Actually Is
 
-Ait Benhaddou is a ksar — a fortified village of earthen buildings enclosed by defensive walls — on the former caravan route between the Sahara and Marrakech. It sits on a hillside above the Ounila River, about 30 minutes from Ouarzazate, and has been continuously inhabited in some form since at least the 11th century, though most of what stands today dates from the 17th century onward. UNESCO listed it as a World Heritage Site in 1987, citing it as an outstanding example of pre-Saharan earthen architecture.
+Ait Benhaddou is a ksar — a fortified village of earthen buildings enclosed by defensive walls — on the former caravan route between the Sahara and Marrakech. It sits on a hillside above the Ounila River, about 30 minutes from Ouarzazate, and has been a fortified site since at least the 11th century, during the Almoravid period, though most of what actually stands today dates from the 17th century onward — earlier structures were rebuilt and replaced many times over, as mudbrick architecture requires. The village takes its name from Ben Haddou, a local saint traditionally credited with founding the settlement, though the specifics of that origin story vary by who's telling it.
+
+For centuries the ksar sat on one of the routes linking ancient trans-Saharan trade to Marrakech, part of the network running through the Draa Valley and over the Tizi-n'Telouet pass. Caravans carrying gold, salt, and spices passed beneath its walls, and the fortification itself — corner towers, a single defensible approach, houses packed tightly inside the outer wall — reflects a settlement that needed to protect what moved through it as much as who lived in it.
+
+UNESCO listed Ait Benhaddou as a World Heritage Site in 1987, specifically as an outstanding illustrative example of the earthen construction techniques found across the whole pre-Saharan valley region — Draa, Todgha, Dadès, and Souss — rather than as a unique one-off. Its fame partly rests on being unusually well-preserved and accessible relative to comparable ksour elsewhere in the same valleys.
 
 A handful of families still live in the older part of the ksar, though most residents have moved to a newer village across the river, where modern services are easier to access.
 
 ## The Film Reputation
 
-Ait Benhaddou's other identity is as one of the most-used film locations in North Africa, thanks to Ouarzazate's proximity and its film studios. It has appeared as ancient locations in Gladiator, Kingdom of Heaven, Prince of Persia, Game of Thrones, and a long list of other productions. That reputation draws visitors on its own, but it can also overshadow the site's actual history — it's a genuine medieval trading-route settlement first, and a filming backdrop second.
+Ait Benhaddou's other identity is as one of the most-used film locations in North Africa, thanks to Ouarzazate's proximity and its film studios. It has appeared as ancient locations in Gladiator, Kingdom of Heaven, Prince of Persia, Game of Thrones, and a long list of other productions. That reputation draws visitors on its own, but it can also overshadow the site's actual history — it's a genuine medieval trading-route settlement first, and a filming backdrop second. Ouarzazate's studios exist because of the same qualities that made this valley worth fortifying: dramatic, dry, sun-drenched terrain a short drive from an international airport.
 
 ## What to Expect on a Visit
 
 The main draw is climbing through the ksar to the fortified granary (agadir) at the top, which gives a view back over the walls, the river, and the newer village beyond. The climb is on uneven stone stairs and paths — manageable for most fitness levels, not stroller-friendly. Crossing the river requires either the footbridge or, when water is low, stepping stones; in wetter months a small fee for a donkey or raft crossing is common.
 
-Most desert-tour itineraries treat it as a stop of an hour to ninety minutes on the way toward or from Ouarzazate, not a full day.
+Inside the walls, small shops sell rugs, paintings (some made with local pigments including saffron and henna, a genuine local craft rather than pure tourist theatre), and souvenirs — normal commerce for a site with this much foot traffic, not something to be wary of, though the same negotiate-the-price norms apply here as anywhere else in Morocco.
+
+Most desert-tour itineraries treat it as a stop of an hour to ninety minutes on the way toward or from Ouarzazate, not a full day. That's usually the right amount of time: the ksar rewards a focused visit rather than lingering, and there isn't a second layer of activity beyond walking it and taking in the view from the top.
+
+## Practical Notes
+
+**Best light:** Early morning and late afternoon, both for photography and for avoiding the worst of the midday heat on the exposed stone paths.
+
+**Access:** A paved road runs to the site; the walk from the car park to the river crossing is short and flat, but the climb inside the ksar is not accessible for anyone with significant mobility limitations.
+
+**Combine it with:** Ouarzazate's film studios and the Taourirt Kasbah sit close by, and many itineraries pair a stop at Ait Benhaddou with a brief look at one or both on the same day.
 
 ## Which Tours Pass Through
 
-Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech) and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). For the cultural-cities side of a Morocco trip more broadly, see [Marrakech Medina: The Insider's Complete Guide](/en/blog/marrakech-medina-complete-guide).
+Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech) and the [3-day Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir). For the rest of the same trade-route valley, see our guides to [Skoura Oasis](/en/blog/skoura-oasis-guide) and [Dades Valley](/en/blog/dades-valley-gorges-guide). For the cultural-cities side of a Morocco trip more broadly, see [Marrakech Medina: The Insider's Complete Guide](/en/blog/marrakech-medina-complete-guide).
 `,
   },
   {
@@ -3247,9 +3370,19 @@ Tamazight is not a form of Arabic. It belongs to an entirely separate language f
 
 In the mountain villages where most of our treks run — Imlil, the Ourika valley, the Toubkal massif — the population is overwhelmingly Amazigh, and daily life still runs on patterns shaped by centuries in this terrain: terraced farming on impossibly steep slopes, transhumance (seasonal herding between valley and high pasture), and mud-brick and stone architecture built for a mountain climate. Mountain guiding itself grew directly out of this: the people who knew these passes because they had walked them their whole lives became the people who led the first foreign trekkers up them, a role our own father held in the 1980s.
 
+## The Flag You'll See on Shop Doors and Car Stickers
+
+Alongside the Moroccan national flag, you will often spot a second flag around the country — three horizontal bands of blue, green and yellow, with a red symbol in the middle that looks like a stylized figure with arms and legs spread. This is the Amazigh flag, designed in 1978 by the Berber Academy, a Paris-based Amazigh cultural association active at the time. Each color maps onto the traditional Amazigh homeland, Tamazgha, which stretches across North Africa far beyond Morocco's borders: blue for the Mediterranean, green for the mountains and cultivated land, yellow for the Sahara. The red symbol at the center is the letter ⵣ (yaz) from the Tifinagh alphabet — the same letter that opens the word Amazigh itself, and is often translated as representing "the free man." It is not an official state flag, but it is flown widely and without controversy, including at Amazigh cultural events, on some shopfronts in the Atlas and Souss, and occasionally alongside the Moroccan flag at official Amazigh-language ceremonies.
+
+## Yennayer: The Amazigh New Year
+
+If you are ever in Morocco in mid-January, you may notice a holiday that has nothing to do with the Islamic or Gregorian calendars: Yennayer, the Amazigh New Year. It marks the start of the Amazigh agricultural calendar, a farming calendar older than the arrival of Islam in North Africa, and it is counted in its own year numbering — January 2026 marked the start of the year 2976 on that calendar, not 2026. In May 2023, King Mohammed VI announced that Yennayer would become an official, paid public holiday, and January 14, 2024 was the first year it was marked as one nationwide, alongside the country's other public holidays. In practice, many Amazigh families and communities begin the celebration a day or two earlier, on the evening of January 12th or 13th, with a special family meal — dishes vary by region, but couscous with seven vegetables and a chicken or lamb tagine are common — before the 14th itself.
+
+It is a genuinely useful thing to know before a trip, not just a cultural footnote: a January visit means you may see Tifinagh banners and Yennayer greetings in Marrakech and mountain villages alike, and if your trip happens to land on the date itself, it is a good excuse to ask your guide how their own family marks it — every valley does it slightly differently.
+
 ## Why This Matters on a Trip
 
-Understanding this isn't trivia — it changes how a trek reads. When a guide points out a village and says "that's a Berber village," it helps to know that's not describing an isolated minority enclave; it's describing the majority culture of the mountains you're walking through, with its own language, architecture and history stretching back further than the country's Arabic name. If you want the version of this that is specifically about the mountains, see [Do You Need a Guide to Climb Toubkal?](/en/blog/do-you-need-a-guide-to-climb-toubkal), which explains why that guiding tradition is now also a legal requirement.
+Understanding this isn't trivia — it changes how a trek reads. When a guide points out a village and says "that's a Berber village," it helps to know that's not describing an isolated minority enclave; it's describing the majority culture of the mountains you're walking through, with its own language, architecture, calendar and history stretching back further than the country's Arabic name. If you want the version of this that is specifically about the mountains, see [Do You Need a Guide to Climb Toubkal?](/en/blog/do-you-need-a-guide-to-climb-toubkal), which explains why that guiding tradition is now also a legal requirement.
 `,
   },
   {
@@ -3278,17 +3411,27 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
 
 In English travel writing, "kasbah" often gets used loosely to mean any exotic-looking old building in Morocco. The real meaning is more specific: a kasbah is a fortified residence, traditionally built for a local chief, governor or powerful family, with defensive walls and square corner towers. It's a single structure, not a village — the confusion comes because many kasbahs anchored settlements that grew up around them, and the word gets applied loosely to the whole place.
 
+The word itself comes from the Arabic *qaṣaba*, meaning fortress or citadel — historically a flexible term that could mean anything from a single fortified building to the administrative heart of a wider settlement. In Morocco specifically, it settled into meaning the fortified home of a *caïd* — a local chief or governor who held real administrative and military authority over the surrounding territory, not just a wealthy landowner. A kasbah wasn't a status symbol first; it was the physical seat of actual regional power, built to defend it.
+
 ## Kasbah vs Ksar
 
 The word you actually want for a whole fortified village is ksar (plural ksour) — a cluster of kasbah-style buildings enclosed by a shared outer wall, built collectively rather than as one family's residence. [Ait Benhaddou](/en/blog/ait-benhaddou-guide) is the best-known example, and it's technically a ksar, though "the kasbah of Ait Benhaddou" is the phrase you'll hear used interchangeably in practice, including by guides.
+
+## Telouet: What Kasbah Power Actually Looked Like
+
+If you want to see what "fortified seat of a caïd's power" meant in practice, rather than just architecture, the kasbah at Telouet is the place to understand it. Built from 1860 onward and expanded for decades after, it was the stronghold of the Glaoui family, who used control of the Tizi n'Tichka pass — the main route between Marrakech and the Sahara — to tax the caravan trade moving through it and accumulate serious regional power. Under French colonial rule after 1912, the family allied with the protectorate, and Thami El Glaoui, head of the family, was installed as Pasha of Marrakesh. At the height of his influence he was one of the wealthiest and most powerful men in the country — a local caïd's fortress turned into the base for something closer to a private kingdom. The kasbah itself, now partially ruined, still shows the scale of that ambition in its size and its lavishly decorated reception rooms, a level of interior craftsmanship well beyond what a purely defensive building would need.
+
+That history is worth knowing because it explains why kasbahs cluster so densely along certain routes and not others: they mark the passes and river valleys that were actually worth controlling, not scenic spots chosen at random.
 
 ## What They're Built From
 
 Almost all traditional kasbahs and ksour share the same building material: pisé, or rammed earth, made from clay, sand and straw compacted into thick walls, sometimes reinforced with palm-wood beams. This is why the whole region has that consistent reddish-ochre colour — the buildings are quite literally made from the ground they stand on. The material is well suited to the climate (thick earthen walls buffer against extreme daytime heat and cold desert nights) but needs regular re-plastering to survive; abandoned kasbahs erode back into the landscape within decades without upkeep.
 
+Defensive design details are consistent across almost every kasbah worth visiting: a single gated entrance rather than multiple access points, few and small exterior windows (easy to defend, hard to breach), and square corner towers giving sightlines along every wall. None of it is decorative — every element served the building's original purpose.
+
 ## Where to See the Best Examples
 
-The kasbah road runs east from Marrakech over the Tizi n'Tichka pass toward Ouarzazate — sometimes called Morocco's "Hollywood of the desert" for its film studios — and on toward the Dades and Todra valleys, where the concentration of kasbahs is so dense the route has its own nickname, the [Road of a Thousand Kasbahs](/en/blog/dades-valley-gorges-guide). [Ait Benhaddou](/en/blog/ait-benhaddou-guide) and [Kasbah Amridil in Skoura](/en/blog/skoura-oasis-guide) are the two most complete and accessible examples on that route.
+The kasbah road runs east from Marrakech over the Tizi n'Tichka pass toward Ouarzazate — sometimes called Morocco's "Hollywood of the desert" for its film studios — and on toward the Dades and Todra valleys, where the concentration of kasbahs is so dense the route has its own nickname, the [Road of a Thousand Kasbahs](/en/blog/dades-valley-gorges-guide). [Ait Benhaddou](/en/blog/ait-benhaddou-guide) and [Kasbah Amridil in Skoura](/en/blog/skoura-oasis-guide) are the two most complete and accessible examples on that route, and Telouet itself is a worthwhile detour off the Tizi n'Tichka road for anyone specifically interested in the history behind the architecture rather than just the photographs.
 
 ## For Sleeping, Not Just Looking
 
@@ -3321,9 +3464,21 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
 
 Riad comes from the Arabic word for garden. A traditional riad is a house built around an internal courtyard — historically planted with a garden, often with a fountain or reflecting pool — with every room opening inward onto that space rather than outward onto the street. Walk past one in the Marrakech medina and you'd likely never guess what's inside: the street-facing wall is usually plain, sometimes just a single unmarked door. That's intentional, not neglect.
 
+The classic riad garden follows a specific, ancient geometry: a rectangular space divided into four quadrants by two intersecting paths, with a fountain or pool at the centre where they cross. That layout isn't a Moroccan invention — it traces back through Andalusian courtyard architecture in medieval Spain (the famous patios of Córdoba, Seville, and Granada) to Persian garden design, which spread through the Islamic world centuries earlier and reached Morocco from the 11th century onward, carried in by the Almoravid and Almohad dynasties that controlled both sides of the Strait of Gibraltar at the time. A Marrakech riad and a Córdoba patio share a genuine architectural ancestor, not just a passing resemblance.
+
 ## Why the Design Exists
 
 Two reasons, and both are practical rather than purely decorative. First, privacy: traditional Moroccan domestic life was kept away from public view, so the house turns its back on the street and puts everything — the tilework, the carved plaster, the planting — inward, visible only to the household and invited guests. Second, climate: the enclosed courtyard, often open to the sky but shaded by surrounding walls and sometimes a citrus or palm tree, moderates temperature far better than a building with street-facing windows in a hot, dry climate.
+
+## The Craft Behind the Walls
+
+Three traditional materials do almost all the decorative work inside a genuine riad, and each is a real, still-practised craft rather than a generic "Moroccan style."
+
+**Zellige** is the geometric mosaic tilework covering fountains, floors, and lower walls — made by hand-chiselling individual pieces from larger glazed ceramic tiles, then assembling hundreds or thousands of them into interlocking geometric patterns with no adhesive, relying purely on precise cutting and mortar to hold the pattern together. It's slow, skilled work, and a genuinely good zellige installation represents real specialist labour, not a printed tile pattern imitating one.
+
+**Tadelakt** is the smooth, slightly lustrous plaster finish on many riad walls — polished lime plaster applied by hand, finished by rubbing with a smooth river stone and traditionally treated with black soap until it develops a soft, waterproof sheen. It was originally developed for hammams and bathrooms specifically because it resists water and mildew, which is why you'll often see it used in riad bathrooms today even where the rest of the house uses other finishes.
+
+**Cedar wood**, sourced from the Atlas Mountains where it grows natively, is used for ceilings, doors, and carved window screens — its warm colour and grain are part of why a well-restored riad interior feels warm rather than austere despite the plaster and tile surrounding it.
 
 ## Riad vs Kasbah vs Ksar
 
@@ -3377,6 +3532,10 @@ At Erg Chebbi, the tallest dunes reach roughly 150 metres — genuinely large, a
 
 For a long stretch of the African Humid Period, roughly 11,000 to 5,000 years ago, much of what's now the Sahara was savanna and lakes, with evidence of human settlement, cattle herding and rock art depicting animals that couldn't survive there today. The shift to the current arid climate happened over centuries, not overnight, driven by changes in the Earth's orbital cycle. The desert you're visiting is, in that sense, geologically recent.
 
+## Less Empty Than It Looks
+
+"Empty" is the word most first-time visitors reach for, and it's not accurate. The Sahara supports roughly 70 mammal species, around 90 bird species, and about 100 reptile species — most of them nocturnal or otherwise built to avoid the worst of the daytime heat, which is exactly why a desert camp can feel completely still at 2pm and genuinely alive after dark. The fennec fox, the smallest canid species on earth, is the most recognisable — oversized ears that radiate heat away, a pale coat that reflects sun rather than absorbing it, and burrows it rarely leaves before evening. Jerboas, small hopping desert rodents, are a common night sighting around Erg Chebbi's dune edges. Scorpions are real and present, including species capable of a genuinely dangerous sting, which is the actual, practical reason guides tell you to shake out shoes before putting them on at a desert camp — not superstition, a real precaution for a real risk that's nonetheless easy to manage with basic care.
+
 ## Is It Growing?
 
 There's real evidence the Sahara has expanded over roughly the last century, though the causes are debated between natural multi-decade climate cycles and broader climate change, and the picture at the desert's southern edge (the Sahel) is more mixed than a simple one-directional trend. It's an active research question, not a settled fact — worth knowing if a guide or article states it too confidently in either direction.
@@ -3417,21 +3576,27 @@ Most SIM card advice online is written for city travellers and ranks networks by
 
 Morocco has three mobile operators: Maroc Telecom (branded IAM), Orange, and Inwi. All three sell tourist SIMs at airport kiosks and phone shops in every city, and all require passport registration — this is a legal requirement, not paperwork you can skip.
 
-**Maroc Telecom** generally has the strongest coverage outside major cities, including in the High Atlas villages and along the desert routes toward Merzouga and Zagora. It inherited the former state telecom network, which was built out furthest into rural areas.
+**Maroc Telecom** generally has the strongest coverage outside major cities, including in the High Atlas villages and along the desert routes toward Merzouga and Zagora. It inherited the former state telecom network, which was built out furthest into rural areas, and independent network testing consistently shows it holding a real edge specifically in mountain and desert terrain — not just marginally, but the difference between having a signal at a remote trailhead or desert camp and not having one at all.
 
-**Orange and Inwi** are competitive on price and city-centre speed, and either is a perfectly good choice if your trip stays mostly in Marrakech, Fes, Casablanca and other urban stops.
+**Orange and Inwi** are competitive on price and city-centre speed, and either is a perfectly good choice if your trip stays mostly in Marrakech, Fes, Casablanca and other urban stops. Inwi in particular tends to bundle more data for the same price and is currently the only network offering a genuinely unlimited prepaid data plan — worth considering if your trip is city-based and data-heavy, less relevant if it isn't.
 
-## What to Actually Buy
+## What to Actually Buy, and What It Costs
 
-A basic tourist data package — commonly sold as around 20–30 GB valid for a month — covers a typical two-week trip comfortably, including navigation, messaging and photo uploads. Buy at an airport kiosk on arrival for convenience (available at Marrakech, Casablanca, Agadir, Fes and Tangier airports) or at a phone shop in any city centre, usually for a slightly lower price. Either way, bring your passport.
+Tourist SIM pricing in Morocco is genuinely cheap by most travellers' home-country standards. A basic package with several gigabytes of data typically runs 30–50 MAD (roughly €3–5); a larger tourist bundle — commonly 20–30 GB valid for a month, with some calling minutes included — runs closer to 150–200 MAD (roughly $15–20). That larger package comfortably covers a typical two-week trip including navigation, messaging, and photo uploads. City phone shops are consistently 20–40% cheaper than the same SIM bought at an airport kiosk, so if convenience isn't essential, waiting until you're in town saves real money.
+
+Buy at an airport kiosk on arrival for convenience (available at Marrakech, Casablanca, Agadir, Fes and Tangier airports) or at a phone shop in any city centre. Either way, bring your passport — registration is mandatory and takes a couple of minutes at the counter.
 
 ## eSIM vs Physical SIM
 
-An eSIM lets you activate data before you land, which is genuinely useful if you want connectivity the moment you step off the plane. It's usually a little more expensive than a local physical SIM for the same data, and it won't give you a Moroccan phone number, which some taxi apps and hotels want. Many travellers use an eSIM for the first day and switch to a local physical SIM once they've settled in.
+An eSIM lets you activate data before you land, which is genuinely useful if you want connectivity the moment you step off the plane. It's usually a little more expensive than a local physical SIM for the same data — figure €5–15 for an eSIM bundle roughly comparable to a 150–200 MAD local SIM — and it won't give you a Moroccan phone number, which some taxi apps and hotels want. Many travellers use an eSIM for the first day and switch to a local physical SIM once they've settled in, getting the arrival convenience without paying the eSIM premium for the whole trip.
 
 ## Coverage on Trek and in the Desert
 
 Be realistic about signal once you leave paved roads. On multi-day treks in the High Atlas — see [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — coverage exists in villages like Imlil but thins out or disappears at altitude and in the more remote valleys. In the desert, towns have signal; the dunes and desert camps generally do not. Tell people at home when to expect to hear from you, rather than assuming you'll have a signal the whole trip.
+
+## A Simple Way to Decide
+
+If your trip includes any multi-day trekking or a desert tour beyond a single day, buy a Maroc Telecom SIM — the coverage advantage in exactly those situations is real and well-documented, and the price difference versus Orange or Inwi is small enough not to matter. If your trip is genuinely city-only — Marrakech, Fes, Casablanca, Essaouira, with no mountain or desert nights — any of the three networks will serve you well, and it's worth comparing current bundle prices at the airport kiosk or your first phone shop rather than assuming one is always cheapest.
 `,
   },
   {
@@ -3478,6 +3643,22 @@ The single most common packing mistake on a desert tour: dressing for the daytim
 - A full camping setup — overnight desert camps provide tents, mattresses and bedding; you're not carrying your own shelter.
 - Valuables you'd be upset to lose in fine sand. It gets into everything; leave the good watch at the riad.
 
+## The Camel Trek Itself
+
+Most Erg Chebbi and Erg Chegaga tours include a camel trek into camp, typically 45 minutes to an hour and a half depending on the specific route. A few things make that stretch more comfortable: loose trousers rather than shorts (the saddle and stirrup straps can chafe bare skin), a scarf wrapped properly against the wind, which picks up noticeably once you're moving and exposed on a ridge, and accepting that a certain amount of swaying, ungainly rhythm is just what riding a camel is — it's not a sign you're doing it wrong. If you have back or hip problems that make an hour on an unfamiliar animal a genuine concern, ask in advance about a 4x4 transfer alternative into camp instead; most operators, including us, can arrange it.
+
+## Photography Gear
+
+Desert light is genuinely spectacular at both ends of the day, and a lot of guests want to capture it properly. If you're bringing a camera beyond a phone: a lens cloth or blower for clearing sand off the lens (never wipe dry sand across glass — it scratches), spare batteries kept in an inside pocket rather than a bag left in a hot vehicle, and a plan for backing up photos, since a lost phone or corrupted card is a much worse outcome in the middle of a desert trip than at home. Sunrise from the top of a dune is the classic shot for a reason, and it requires being awake and climbing in the dark before first light — worth deciding the night before whether you're actually going to do it, rather than deciding at 5am when the tent is warm and the dune is not.
+
+## Seasonal Adjustments
+
+**Summer (June–September):** Daytime heat is the dominant concern, not the cold — temperatures at Merzouga regularly exceed 40°C by early afternoon. Prioritise sun protection and hydration over the warm layers; nights are still cooler than the day but rarely approach the near-freezing conditions of deep winter.
+
+**Winter (December–February):** The cold-night warning in this guide is most literal here. Desert nights in these months can approach or dip below freezing, and the insulated jacket, hat and gloves stop being optional extras and become the difference between an actually comfortable night and a miserable one.
+
+**Spring and autumn (March–May, October–November):** The most forgiving seasons and the reason most tours run heaviest then — warm, comfortable days and cool but not extreme nights, so the standard layered packing list covers you without much adjustment either direction.
+
 ## If Your Trip Combines Desert and Mountains
 
 Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), for instance — cover a lot of ground and a lot of temperature range in a short time. If your trip also includes High Atlas trekking, cross-reference this list against [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — the mountain list needs more technical layers than the desert one.
@@ -3489,7 +3670,7 @@ Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-
     title: "Visiting Morocco During Ramadan: What Actually Changes",
     excerpt:
       "Ramadan 2026 runs mid-February to mid-March. Here's what genuinely changes for a visitor — restaurant hours, pace of life, and how to be a considerate guest — and what doesn't.",
-    heroImage: "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1600&q=85",
+    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -3512,9 +3693,13 @@ Ramadan 2026 runs from approximately 18 February to 19 March, though the exact s
 
 ## What Actually Changes
 
-The clearest change is restaurant hours. Many local, everyday eateries close during the day and reopen after sunset, when the fast breaks with iftar — typically starting with dates, harira soup, and sweet pastries like chebakia. International hotels and tourist-oriented restaurants generally stay open through the day, though the pace and atmosphere is noticeably quieter. Expect a short lull in service right around sunset, when staff step away to break their own fast — build a little flexibility into evening dining plans.
+The clearest change is restaurant hours. Many local, everyday eateries close during the day and reopen after sunset, when the fast breaks with iftar (locally *ftour*) — the table typically opens with dates and milk or water for immediate nourishment, then harira, a thick tomato-based soup with lentils, chickpeas and often small pieces of beef, alongside sweet, honey-soaked, flower-shaped pastries called chebakia. International hotels and tourist-oriented restaurants generally stay open through the day, though the pace and atmosphere is noticeably quieter. Expect a short lull in service right around sunset, when staff step away to break their own fast — build a little flexibility into evening dining plans.
 
 Shops and souks tend to run shorter or shifted hours, often quieter in the late afternoon and busier again after dark. The overall pace of daily life slows in the daytime and picks up after sunset, when streets and cafés genuinely come alive.
+
+## A Tradition Worth Knowing About: the Nafar
+
+In parts of Morocco, a tradition older than any restaurant schedule still plays out before dawn: the *nafar*, a town crier who walks the neighbourhood streets in the dark, beating a drum or blowing a horn to wake people for suhoor — the pre-dawn meal eaten before the day's fast begins. It's a role often passed down within a family, generation to generation, and hearing it if you happen to be awake at that hour is one of those small, unplanned details that tells you more about a place than a monument does. Suhoor itself tends to be substantial: griddle breads like msemen or harcha with honey, bissara (a thick fava bean soup), leftover harira, eggs, yoghurt, and enough water and mint tea to carry through the coming day.
 
 ## Eating and Drinking as a Visitor
 
@@ -3524,9 +3709,13 @@ There's no legal restriction on tourists eating or drinking during daylight hour
 
 Whether to fast on a physically demanding work day is a personal decision for our guides, and Islamic practice allows exemptions for travel and strenuous labour — many guides adjust their fasting around trekking days rather than skip guiding work entirely. Tours run on schedule during Ramadan; you may simply notice your guide eating and drinking normally during a trek even if they're fasting at other times, and that's entirely within the rules, not an inconsistency.
 
+## After the Month: Eid al-Fitr
+
+Ramadan ends with Eid al-Fitr, a genuine public holiday marked by family gatherings, new clothes, and a shared festive meal — expect some businesses, including shops and tour-adjacent services, to close for a day or two around the holiday itself. If your trip runs right up against the end of Ramadan, it's worth checking specific dates with whoever you're booked with, since Eid's start (like Ramadan's) is confirmed only once the new moon is sighted.
+
 ## Is It a Good Time to Visit?
 
-Genuinely, it depends what you're after. Major sites and treks are quieter. Evenings have an atmosphere — street food stalls, a slower, warmer pace after sunset — that doesn't exist the rest of the year. The trade-off is a quieter, slower daytime, and a little more advance planning around meal times. It is not a reason to avoid Morocco, but it is a different Morocco than an August visit.
+Genuinely, it depends what you're after. Major sites and treks are quieter. Evenings have an atmosphere — street food stalls, a slower, warmer pace after sunset, the nafar's drum somewhere in the dark before dawn — that doesn't exist the rest of the year. The trade-off is a quieter, slower daytime, and a little more advance planning around meal times. It is not a reason to avoid Morocco, but it is a different Morocco than an August visit — and for travellers genuinely curious about the culture rather than just the landscape, arguably a richer one.
 `,
   },
   {
@@ -3556,6 +3745,12 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
 
 Morocco is a Muslim-majority country, and most Moroccans don't drink alcohol for religious reasons. That doesn't mean it's unavailable to visitors — it's legal, but sold and consumed through a specific set of channels rather than openly on every street corner the way it might be at home.
 
+The legal framework behind this dates to a 1967 royal decree that technically forbids selling alcohol to Muslim citizens, who make up around 98% of the population, while permitting sale to foreigners. In practice the rule is enforced loosely and inconsistently — some shops ask for ID to confirm a customer is a tourist, most don't bother — and it isn't really a rule aimed at visitors at all. As Morocco's own communication ministry has put it publicly: officials aren't checking every shop to see whether Moroccan customers are buying, but the law stays on the books as the formal position. For a visitor, the practical upshot is simple regardless of the legal nuance underneath it: alcohol is available to you through licensed channels, and how strictly any individual shop applies the letter of the law isn't something you need to navigate.
+
+## A Longer History Than the Law Suggests
+
+Morocco has produced wine for over 2,000 years, predating the arrival of Islam in the region by centuries — this isn't a modern import, it's a genuinely old local industry that religious practice later constrained rather than eliminated. The French Protectorate period (1912–1956) expanded that industry considerably, particularly around Meknes, which colonial authorities developed into a significant wine-producing region, and the vineyards planted then are part of why Morocco remains one of the larger wine producers in the Arab world today. Walk into a well-stocked liquor shop in Marrakech or Casablanca and a meaningful share of what's on the shelf will be domestic Moroccan wine, not imported.
+
 ## Where You Can Buy and Drink It
 
 Licensed hotel bars and restaurants are the most reliable option in any city, and most mid-range and upmarket riads and hotels serve alcohol to guests even if the building looks traditional from outside. Standalone bars exist in Marrakech, Casablanca, Agadir and other larger cities, along with beach clubs on the coast. For buying to take away, large supermarket chains — Carrefour and Marjane are the two you'll see most — have alcohol sections, and dedicated liquor shops operate in most cities with their own opening hours, commonly something like 10am–8pm, closed Sundays.
@@ -3564,13 +3759,19 @@ Licensed hotel bars and restaurants are the most reliable option in any city, an
 
 The legal drinking age is 18. Public drinking — in the street, in a park, openly in the medina — is a criminal offence in Morocco, not just a social faux pas, and visible drunkenness in public can lead to a fine or a short hold in custody until you've sobered up. The practical rule is simple: drink in licensed venues or private accommodation, and be discreet moving alcohol between the two — don't carry visible bottles through the souks.
 
+This matters more than it might seem, because Morocco's relationship with alcohol runs on a kind of public/private divide rather than a strict availability divide. It's genuinely easy to buy and drink; it's genuinely frowned upon to do either visibly, and the law backs that social expectation with real (if unevenly enforced) consequences. Visitors who treat Morocco like a country with no restrictions at all, rather than one with restrictions concentrated on visibility, are the ones who occasionally run into trouble.
+
 ## Away From the Cities
 
-Once you're outside major cities — in the small towns along a desert route, or the mountain villages on a High Atlas trek — licensed venues thin out fast, and many rural areas have none at all. If having a drink on a multi-day trip matters to you, the practical approach is to buy what you want in Marrakech or Agadir before you depart, rather than expecting availability along the route.
+Once you're outside major cities — in the small towns along a desert route, or the mountain villages on a High Atlas trek — licensed venues thin out fast, and many rural areas have none at all. Small, more conservative communities may have no alcohol available anywhere nearby, licensed or otherwise. If having a drink on a multi-day trip matters to you, the practical approach is to buy what you want in Marrakech or Agadir before you depart, rather than expecting availability along the route, and to drink it discreetly at your accommodation rather than assuming the same casual attitude that might apply in a beach-club city.
 
 ## Ramadan Changes This
 
-During Ramadan, many liquor shops and some bars stop selling alcohol for the month, or restrict service to hotel guests. If your trip falls during Ramadan — see [Visiting Morocco During Ramadan](/en/blog/visiting-morocco-during-ramadan) for the 2026 dates — plan ahead rather than assuming normal availability.
+During Ramadan, many liquor shops and some bars stop selling alcohol for the month, or restrict service to hotel guests. If your trip falls during Ramadan — see [Visiting Morocco During Ramadan](/en/blog/visiting-morocco-during-ramadan) for the 2026 dates — plan ahead rather than assuming normal availability. This is also the month where the visibility rule matters most: eating and drinking in public during fasting hours is broadly discouraged for everyone, tourists included, and that extends naturally to alcohol.
+
+## A Practical Summary
+
+If you want a drink in Morocco: book accommodation that serves alcohol (most mid-range and up do), or plan a stop at a licensed shop or supermarket in a city before heading somewhere more rural. Keep it inside private or licensed spaces. Expect availability to shrink the further you get from Marrakech, Casablanca, and the coastal resort towns, and to shrink further still during Ramadan. None of this makes Morocco a difficult place to have a drink — it just makes it a place where the drinking happens somewhere specific rather than anywhere at all, which is a different thing from it being hard to find.
 `,
   },
 ];

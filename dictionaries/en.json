@@ -489,7 +489,28 @@
     "conditionsNowLong": "Conditions right now",
     "liveVia": "Live via",
     "validReading": "Valley-level reading, updated every three hours via",
-    "summitColder": "The summit runs far colder — see the table below."
+    "summitColder": "The summit runs far colder — see the table below.",
+    "high": "High",
+    "low": "Low",
+    "conditions": {
+      "clear": "Clear",
+      "mostlyClear": "Mostly clear",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "showers": "Showers",
+      "snowShowers": "Snow showers",
+      "thunderstorm": "Thunderstorm",
+      "unknown": "—"
+    },
+    "taglines": {
+      "marrakech": "City base",
+      "highAtlas": "Imlil · Toubkal",
+      "sahara": "Merzouga dunes",
+      "agadir": "Atlantic coast"
+    }
   },
   "common": {
     "home": "Home",

@@ -489,7 +489,28 @@
     "conditionsNowLong": "Condizioni in questo momento",
     "liveVia": "In diretta via",
     "validReading": "Rilevamento a livello di valle, aggiornato ogni tre ore via",
-    "summitColder": "In vetta le temperature sono molto più rigide — vedi la tabella qui sotto."
+    "summitColder": "In vetta le temperature sono molto più rigide — vedi la tabella qui sotto.",
+    "high": "Max",
+    "low": "Min",
+    "conditions": {
+      "clear": "Sereno",
+      "mostlyClear": "Prevalentemente sereno",
+      "overcast": "Coperto",
+      "fog": "Nebbia",
+      "drizzle": "Pioviggine",
+      "rain": "Pioggia",
+      "snow": "Neve",
+      "showers": "Rovesci",
+      "snowShowers": "Rovesci di neve",
+      "thunderstorm": "Temporale",
+      "unknown": "—"
+    },
+    "taglines": {
+      "marrakech": "Città base",
+      "highAtlas": "Imlil · Toubkal",
+      "sahara": "Dune di Merzouga",
+      "agadir": "Costa atlantica"
+    }
   },
   "common": {
     "home": "Home",

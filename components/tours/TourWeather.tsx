@@ -19,13 +19,13 @@ export default async function TourWeather({ tour, dict }: { tour: Tour; dict: Di
         <span className="text-2xl leading-none" aria-hidden>{w.icon}</span>
       </div>
       <div className="font-display text-ink text-lg font-bold leading-tight">{w.name}</div>
-      <div className="text-ink-muted text-xs mb-3">{w.tagline}</div>
+      <div className="text-ink-muted text-xs mb-3">{dict.weather.taglines[w.regionKey]}</div>
       <div className="flex items-baseline gap-2">
         <span className="font-display text-indigo text-3xl font-bold leading-none">{w.tempC}°</span>
-        <span className="text-ink-soft text-sm">{w.label}</span>
+        <span className="text-ink-soft text-sm">{dict.weather.conditions[w.conditionKey]}</span>
       </div>
       <div className="text-ink-muted text-xs mt-2">
-        High {w.highC}° · Low {w.lowC}°
+        {dict.weather.high} {w.highC}° · {dict.weather.low} {w.lowC}°
       </div>
       <div className="text-ink-faint text-[0.65rem] mt-3">
         {dict.weather.liveVia}{" "}

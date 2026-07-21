@@ -1,14 +1,20 @@
 // Live weather for the regions our tours cover, via Open-Meteo (free, no API key).
 // Cached server-side so we make only a few calls per day regardless of traffic.
 
+export type ConditionKey =
+  | "clear" | "mostlyClear" | "overcast" | "fog" | "drizzle" | "rain"
+  | "snow" | "showers" | "snowShowers" | "thunderstorm" | "unknown";
+
+export type RegionKey = "marrakech" | "highAtlas" | "sahara" | "agadir";
+
 export interface RegionWeather {
   name: string;
-  tagline: string;
+  regionKey: RegionKey;
   tempC: number;
   highC: number;
   lowC: number;
   code: number;
-  label: string;
+  conditionKey: ConditionKey;
   icon: string;
 }
 
@@ -17,27 +23,28 @@ export interface WeatherResult {
   error: boolean;
 }
 
-const LOCATIONS = [
-  { name: "Marrakech", tagline: "City base", lat: 31.63, lon: -7.98 },
-  { name: "High Atlas", tagline: "Imlil · Toubkal", lat: 31.14, lon: -7.92 },
-  { name: "Sahara", tagline: "Merzouga dunes", lat: 31.1, lon: -4.01 },
-  { name: "Agadir", tagline: "Atlantic coast", lat: 30.42, lon: -9.6 },
+const LOCATIONS: { name: string; regionKey: RegionKey; lat: number; lon: number }[] = [
+  { name: "Marrakech", regionKey: "marrakech", lat: 31.63, lon: -7.98 },
+  { name: "High Atlas", regionKey: "highAtlas", lat: 31.14, lon: -7.92 },
+  { name: "Sahara", regionKey: "sahara", lat: 31.1, lon: -4.01 },
+  { name: "Agadir", regionKey: "agadir", lat: 30.42, lon: -9.6 },
 ];
 
-// WMO weather codes → friendly label + emoji.
+// WMO weather codes → condition key + emoji. The key is resolved to a
+// translated label via dict.weather.conditions[key] at render time.
 // https://open-meteo.com/en/docs (WMO Weather interpretation codes)
-function describe(code: number): { label: string; icon: string } {
-  if (code === 0) return { label: "Clear", icon: "☀️" };
-  if (code <= 2) return { label: "Mostly clear", icon: "🌤️" };
-  if (code === 3) return { label: "Overcast", icon: "☁️" };
-  if (code <= 48) return { label: "Fog", icon: "🌫️" };
-  if (code <= 57) return { label: "Drizzle", icon: "🌦️" };
-  if (code <= 67) return { label: "Rain", icon: "🌧️" };
-  if (code <= 77) return { label: "Snow", icon: "🌨️" };
-  if (code <= 82) return { label: "Showers", icon: "🌦️" };
-  if (code <= 86) return { label: "Snow showers", icon: "🌨️" };
-  if (code <= 99) return { label: "Thunderstorm", icon: "⛈️" };
-  return { label: "—", icon: "🌡️" };
+function describe(code: number): { conditionKey: ConditionKey; icon: string } {
+  if (code === 0) return { conditionKey: "clear", icon: "☀️" };
+  if (code <= 2) return { conditionKey: "mostlyClear", icon: "🌤️" };
+  if (code === 3) return { conditionKey: "overcast", icon: "☁️" };
+  if (code <= 48) return { conditionKey: "fog", icon: "🌫️" };
+  if (code <= 57) return { conditionKey: "drizzle", icon: "🌦️" };
+  if (code <= 67) return { conditionKey: "rain", icon: "🌧️" };
+  if (code <= 77) return { conditionKey: "snow", icon: "🌨️" };
+  if (code <= 82) return { conditionKey: "showers", icon: "🌦️" };
+  if (code <= 86) return { conditionKey: "snowShowers", icon: "🌨️" };
+  if (code <= 99) return { conditionKey: "thunderstorm", icon: "⛈️" };
+  return { conditionKey: "unknown", icon: "🌡️" };
 }
 
 interface OpenMeteoResponse {
@@ -92,15 +99,15 @@ export async function fetchMoroccoWeather(): Promise<WeatherResult> {
         if (!res.ok) throw new Error(`weather ${res.status}`);
         const data: OpenMeteoResponse = await res.json();
         const code = data.current?.weather_code ?? data.daily?.weather_code?.[0] ?? 0;
-        const { label, icon } = describe(code);
+        const { conditionKey, icon } = describe(code);
         return {
           name: loc.name,
-          tagline: loc.tagline,
+          regionKey: loc.regionKey,
           tempC: Math.round(data.current?.temperature_2m ?? data.daily?.temperature_2m_max?.[0] ?? 0),
           highC: Math.round(data.daily?.temperature_2m_max?.[0] ?? 0),
           lowC: Math.round(data.daily?.temperature_2m_min?.[0] ?? 0),
           code,
-          label,
+          conditionKey,
           icon,
         } satisfies RegionWeather;
       }),

@@ -489,7 +489,28 @@
     "conditionsNowLong": "الأحوال الجوية الآن",
     "liveVia": "مباشر عبر",
     "validReading": "قراءة على مستوى الوادي، تُحدَّث كل ثلاث ساعات عبر",
-    "summitColder": "تكون القمة أكثر برودة بكثير — انظر الجدول أدناه."
+    "summitColder": "تكون القمة أكثر برودة بكثير — انظر الجدول أدناه.",
+    "high": "العظمى",
+    "low": "الصغرى",
+    "conditions": {
+      "clear": "صافٍ",
+      "mostlyClear": "صافٍ غالبًا",
+      "overcast": "غائم",
+      "fog": "ضباب",
+      "drizzle": "رذاذ",
+      "rain": "مطر",
+      "snow": "ثلج",
+      "showers": "زخات مطر",
+      "snowShowers": "زخات ثلجية",
+      "thunderstorm": "عاصفة رعدية",
+      "unknown": "—"
+    },
+    "taglines": {
+      "marrakech": "مدينة الانطلاق",
+      "highAtlas": "إمليل · توبقال",
+      "sahara": "كثبان مرزوكة",
+      "agadir": "الساحل الأطلسي"
+    }
   },
   "common": {
     "home": "الرئيسية",

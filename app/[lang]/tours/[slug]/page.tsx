@@ -18,6 +18,7 @@ import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument } from "@/lib/seo/schema";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // Import from currency-core, not currency: the latter is "use client" and its
 // constants read as undefined during server render.
 import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
@@ -74,6 +75,7 @@ export default async function TourDetailPage({ params }: TourParams) {
   const tour = getTour(slug);
   if (!tour) notFound();
   const dict = await getDictionary(lang);
+  const { includes, excludes } = await tourIncludesFor(lang, tour);
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -192,7 +194,7 @@ export default async function TourDetailPage({ params }: TourParams) {
                 <div>
                   <h3 className="font-semibold text-indigo mb-3 text-sm uppercase tracking-widest">{dict.tourDetail.included}</h3>
                   <ul className="space-y-2">
-                    {tour.includes.map((item) => (
+                    {includes.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-ink-soft">
                         <CheckCircle className="w-4 h-4 text-indigo shrink-0 mt-0.5" />{item}
                       </li>
@@ -202,7 +204,7 @@ export default async function TourDetailPage({ params }: TourParams) {
                 <div>
                   <h3 className="font-semibold text-ink-soft mb-3 text-sm uppercase tracking-widest">{dict.tourDetail.notIncluded}</h3>
                   <ul className="space-y-2">
-                    {tour.excludes.map((item) => (
+                    {excludes.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-ink-soft">
                         <XCircle className="w-4 h-4 text-ink-muted shrink-0 mt-0.5" />{item}
                       </li>

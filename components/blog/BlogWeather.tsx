@@ -21,15 +21,15 @@ export default async function BlogWeather({ region, dict }: { region: string; di
           <span className="text-4xl leading-none" aria-hidden>{w.icon}</span>
           <div>
             <div className="font-display text-ink text-lg font-bold leading-tight">{w.name}</div>
-            <div className="text-ink-muted text-xs">{w.tagline}</div>
+            <div className="text-ink-muted text-xs">{dict.weather.taglines[w.regionKey]}</div>
           </div>
         </div>
         <div className="flex items-baseline gap-2">
           <span className="font-display text-indigo text-4xl font-bold leading-none">{w.tempC}°</span>
-          <span className="text-ink-soft text-sm">{w.label}</span>
+          <span className="text-ink-soft text-sm">{dict.weather.conditions[w.conditionKey]}</span>
         </div>
         <div className="text-ink-soft text-sm">
-          High <strong className="text-ink">{w.highC}°</strong> · Low <strong className="text-ink">{w.lowC}°</strong>
+          {dict.weather.high} <strong className="text-ink">{w.highC}°</strong> · {dict.weather.low} <strong className="text-ink">{w.lowC}°</strong>
         </div>
       </div>
       <p className="text-ink-faint text-[0.7rem] mt-4">

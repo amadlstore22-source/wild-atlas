@@ -56,7 +56,14 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "TravelAgency",
+      // LocalBusiness, not TravelAgency: Google's rich-results validator only
+      // allows aggregateRating on a specific LocalBusiness-subtype allow-list,
+      // and TravelAgency isn't reliably on it — reported as "Invalid object
+      // type for field <parent_node>" in Search Console's Review snippets
+      // report. LocalBusiness is schema-valid for a Marrakech-based operator
+      // and is accepted, so it keeps the real TripAdvisor rating eligible for
+      // review-snippet rich results.
+      "@type": "LocalBusiness",
       "@id": "https://marrakechecotours.com/#organization",
       name: "Marrakech Eco Tours",
       url: "https://marrakechecotours.com",

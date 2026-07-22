@@ -1373,6 +1373,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: MET_TEAM,
     title: "غيت بانوراما إمليل: قاعدة الانطلاق المثالية قبل توبقال",
     excerpt:

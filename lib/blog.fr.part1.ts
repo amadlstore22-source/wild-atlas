@@ -1381,6 +1381,7 @@ Tout le reste, c'est le Maroc qui est simplement le Maroc — bruyant, chaotique
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Gîte Panorama Imlil : le camp de base idéal avant le Toubkal",
     excerpt:

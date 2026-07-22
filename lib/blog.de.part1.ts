@@ -1374,6 +1374,7 @@ Alles andere ist Marokko, das Marokko ist – laut, chaotisch, großzügig, wund
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: MET_TEAM,
     title: "Gite Panorama Imlil: Das perfekte Basislager vor dem Toubkal",
     excerpt:

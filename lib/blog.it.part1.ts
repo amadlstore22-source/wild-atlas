@@ -1373,6 +1373,7 @@ Tutto il resto è il Marocco che fa il Marocco — rumoroso, caotico, generoso, 
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: MET_TEAM,
     title: "Gite Panorama Imlil: il campo base perfetto prima del Toubkal",
     excerpt:

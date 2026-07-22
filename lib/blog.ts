@@ -1429,6 +1429,7 @@ Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful,
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: MET_TEAM,
     title: "Gite Panorama Imlil: The Perfect Base Camp Before Toubkal",
     excerpt:
@@ -3387,6 +3388,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
   },
   {
     slug: "what-is-a-kasbah",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     author: MET_TEAM,
     title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
     excerpt:
@@ -3440,6 +3442,7 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
   },
   {
     slug: "what-is-a-riad",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "What Is a Riad? Morocco's Courtyard House, Explained",
     excerpt:
@@ -3547,6 +3550,7 @@ Numbers on a page don't really convey what a dune sea feels like at dawn. For th
   },
   {
     slug: "best-sim-card-morocco-tourists",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     author: MET_TEAM,
     title: "The Best SIM Card in Morocco for Tourists (2026)",
     excerpt:
@@ -3666,6 +3670,7 @@ Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-
   },
   {
     slug: "visiting-morocco-during-ramadan",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "Visiting Morocco During Ramadan: What Actually Changes",
     excerpt:
@@ -3720,6 +3725,7 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
   },
   {
     slug: "alcohol-in-morocco",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     author: MET_TEAM,
     title: "Alcohol in Morocco: What's Legal, and Where",
     excerpt:

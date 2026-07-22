@@ -1267,6 +1267,7 @@ Comprendre cela n'est pas anecdotique — cela change la manière dont un trek s
   },
   {
     slug: "what-is-a-kasbah",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Qu'est-ce qu'une kasbah ? Le mot derrière la moitié des monuments du Maroc",
     excerpt:
@@ -1320,6 +1321,7 @@ Certaines kasbahs restaurées fonctionnent désormais comme maisons d'hôtes, of
   },
   {
     slug: "what-is-a-riad",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Qu'est-ce qu'un riad ? La maison à cour du Maroc, expliquée",
     excerpt:
@@ -1427,6 +1429,7 @@ Des chiffres sur une page ne transmettent pas vraiment ce que ressent une mer de
   },
   {
     slug: "best-sim-card-morocco-tourists",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "La meilleure carte SIM au Maroc pour les touristes (2026)",
     excerpt:
@@ -1546,6 +1549,7 @@ Certains de nos itinéraires — le [Grand Tour du désert de 4 jours](/fr/tours
   },
   {
     slug: "visiting-morocco-during-ramadan",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Visiter le Maroc pendant le Ramadan : ce qui change réellement",
     excerpt:
@@ -1600,6 +1604,7 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
   },
   {
     slug: "alcohol-in-morocco",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "L'alcool au Maroc : ce qui est légal, et où",
     excerpt:

@@ -1269,6 +1269,7 @@ Das zu verstehen ist keine Trivialität – es verändert, wie sich ein Trek lie
   },
   {
     slug: "what-is-a-kasbah",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     author: MET_TEAM,
     title: "Was ist eine Kasbah? Das Wort hinter der Hälfte von Marokkos Sehenswürdigkeiten",
     excerpt:
@@ -1322,6 +1323,7 @@ Manche restaurierten Kasbahs dienen heute als Gästehäuser und bieten eine Nach
   },
   {
     slug: "what-is-a-riad",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "Was ist ein Riad? Marokkos Hofhaus erklärt",
     excerpt:
@@ -1429,6 +1431,7 @@ Zahlen auf einer Seite vermitteln nicht wirklich, wie sich ein Dünenmeer bei Mo
   },
   {
     slug: "best-sim-card-morocco-tourists",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     author: MET_TEAM,
     title: "Die beste SIM-Karte in Marokko für Touristen (2026)",
     excerpt:
@@ -1548,6 +1551,7 @@ Manche unserer Reiserouten – etwa die [4-tägige Große Wüstentour](/de/tours
   },
   {
     slug: "visiting-morocco-during-ramadan",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "Marokko während des Ramadan besuchen: Was sich tatsächlich ändert",
     excerpt:
@@ -1602,6 +1606,7 @@ Das hängt tatsächlich davon ab, was Sie suchen. Große Sehenswürdigkeiten und
   },
   {
     slug: "alcohol-in-morocco",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     author: MET_TEAM,
     title: "Alkohol in Marokko: Was legal ist, und wo",
     excerpt:

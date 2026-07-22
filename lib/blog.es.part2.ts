@@ -1269,6 +1269,7 @@ Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un gu
   },
   {
     slug: "what-is-a-kasbah",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     author: MET_TEAM,
     title: "¿Qué es una kasbah? La palabra detrás de la mitad de los monumentos de Marruecos",
     excerpt:
@@ -1322,6 +1323,7 @@ Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo u
   },
   {
     slug: "what-is-a-riad",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "¿Qué es un riad? La casa-patio de Marruecos, explicada",
     excerpt:
@@ -1429,6 +1431,7 @@ Los números sobre el papel no transmiten realmente lo que se siente un mar de d
   },
   {
     slug: "best-sim-card-morocco-tourists",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     author: MET_TEAM,
     title: "La mejor tarjeta SIM en Marruecos para turistas (2026)",
     excerpt:
@@ -1548,6 +1551,7 @@ Algunos de nuestros itinerarios —el [Gran Tour del Desierto de 4 días](/en/to
   },
   {
     slug: "visiting-morocco-during-ramadan",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "Visitar Marruecos durante el Ramadán: qué cambia de verdad",
     excerpt:
@@ -1602,6 +1606,7 @@ Genuinamente, depende de lo que busques. Los principales monumentos y treks est�
   },
   {
     slug: "alcohol-in-morocco",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     author: MET_TEAM,
     title: "El alcohol en Marruecos: qué es legal, y dónde",
     excerpt:

@@ -1381,6 +1381,7 @@ Todo lo demás es Marruecos siendo Marruecos: ruidoso, caótico, generoso, hermo
   },
   {
     slug: "gite-panorama-imlil-base-camp-toubkal",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day"],
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Gite Panorama Imlil: el campamento base perfecto antes del Toubkal",
     excerpt:

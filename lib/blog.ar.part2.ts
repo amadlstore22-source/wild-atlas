@@ -1269,6 +1269,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: "what-is-a-kasbah",
+    relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     author: MET_TEAM,
     title: "ما هي القصبة؟ الكلمة وراء نصف معالم المغرب",
     excerpt:
@@ -1322,6 +1323,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: "what-is-a-riad",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "ما هو الرياض؟ منزل الفناء المغربي موضَّحًا",
     excerpt:
@@ -1429,6 +1431,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: "best-sim-card-morocco-tourists",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     author: MET_TEAM,
     title: "أفضل شريحة اتصال (سيم) في المغرب للسياح (2026)",
     excerpt:
@@ -1548,6 +1551,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: "visiting-morocco-during-ramadan",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day"],
     author: MET_TEAM,
     title: "زيارة المغرب خلال رمضان: ما الذي يتغير فعليًا",
     excerpt:
@@ -1602,6 +1606,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: "alcohol-in-morocco",
+    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     author: MET_TEAM,
     title: "الكحول في المغرب: ما هو قانوني، وأين",
     excerpt:

@@ -88,7 +88,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
-    title: "من مراكش إلى الصحراء — جولة صحراوية 3 أيام",
+    title: "من مراكش إلى مرزوكة — جولة صحراوية 3 أيام",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",

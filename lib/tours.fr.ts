@@ -97,7 +97,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
-    title: "Marrakech au Sahara — Circuit désert de 3 jours",
+    title: "Marrakech à Merzouga — Circuit désert de 3 jours",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",

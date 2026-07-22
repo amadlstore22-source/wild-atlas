@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { toursFor, categoriesFor } from "@/lib/tours-i18n";
 import ToursClient from "./ToursClient";
 
 type ToursPageProps = {
@@ -30,6 +31,8 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
     <ToursClient
       lang={lang}
       dict={dict}
+      tours={toursFor(lang)}
+      categories={categoriesFor(lang)}
       initialSearch={q}
       initialOrigin={origin}
       initialCategory={cat}

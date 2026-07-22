@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
-import { CATEGORIES, getToursByCategory, type Category } from "@/lib/tours";
+import { CATEGORIES, type Category } from "@/lib/tours";
+import { getCategoryFor, getToursByCategoryFor } from "@/lib/tours-i18n";
 import TourCard from "@/components/ui/TourCard";
 import CTABanner from "@/components/sections/CTABanner";
 import { STATS } from "@/lib/stats";
@@ -20,7 +21,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: CategoryParams): Promise<Metadata> {
   const { category, lang } = await params;
-  const cat = CATEGORIES.find((c) => c.id === category);
+  if (!hasLocale(lang)) return {};
+  const cat = getCategoryFor(lang, category as Category);
   if (!cat) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
   return {
@@ -39,11 +41,11 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
 export default async function CategoryPage({ params }: CategoryParams) {
   const { category, lang } = await params;
   if (!hasLocale(lang)) notFound();
-  const cat = CATEGORIES.find((c) => c.id === category);
+  const cat = getCategoryFor(lang, category as Category);
   if (!cat) notFound();
   const dict = await getDictionary(lang);
 
-  const tours = getToursByCategory(cat.id as Category);
+  const tours = getToursByCategoryFor(lang, cat.id as Category);
 
   const jsonLd = {
     "@context": "https://schema.org",

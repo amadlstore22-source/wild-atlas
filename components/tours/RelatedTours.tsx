@@ -1,5 +1,6 @@
 import TourCard from "@/components/ui/TourCard";
-import { getToursByCategory, type Category } from "@/lib/tours";
+import type { Category } from "@/lib/tours";
+import { getToursByCategoryFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function RelatedTours({
@@ -13,7 +14,7 @@ export default function RelatedTours({
   lang: Locale;
   dict: Dictionary;
 }) {
-  const related = getToursByCategory(category)
+  const related = getToursByCategoryFor(lang, category)
     .filter((t) => t.slug !== currentSlug)
     .slice(0, 3);
 

@@ -3,7 +3,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import TourCard from "@/components/ui/TourCard";
 import Section from "@/components/ui/Section";
 import SectionHeader from "@/components/ui/SectionHeader";
-import { getFeaturedTours } from "@/lib/tours";
+import { getFeaturedToursFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
 }
 
 export default function FeaturedTours({ dict, lang = "en" }: Props) {
-  const tours = getFeaturedTours();
+  const tours = getFeaturedToursFor(lang);
   // Six featured tours in a clean 3-column x 2-row grid — no ragged trailing row.
   const featured = tours.slice(0, 6);
 

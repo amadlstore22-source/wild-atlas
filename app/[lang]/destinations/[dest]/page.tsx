@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
-import { TOURS } from "@/lib/tours";
+import { toursFor } from "@/lib/tours-i18n";
 import TourCard from "@/components/ui/TourCard";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Locale } from "@/app/[lang]/dictionaries";
@@ -61,7 +61,7 @@ export default async function DestinationPage({ params }: PageParams) {
   const d = dict.destinationsPage;
   const localizedDestinations = destinationsFor(lang);
 
-  const relatedTours = TOURS.filter(
+  const relatedTours = toursFor(lang).filter(
     (t) =>
       destination.relatedCategories.includes(t.category) ||
       destination.relatedOrigins.includes(t.origin)

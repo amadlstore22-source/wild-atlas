@@ -1,5 +1,5 @@
 import TourCard from "@/components/ui/TourCard";
-import { getTour } from "@/lib/tours";
+import { getTourFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -16,7 +16,7 @@ interface Props {
  * result here means the data changed without the test being run.
  */
 export default function RelatedTourCards({ slugs, lang, dict, title }: Props) {
-  const tours = slugs.map(getTour).filter((t) => t !== undefined);
+  const tours = slugs.map((slug) => getTourFor(lang, slug)).filter((t) => t !== undefined);
   if (tours.length === 0) return null;
 
   return (

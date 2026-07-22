@@ -3,15 +3,25 @@ import { useState, useMemo, useCallback } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
-import { TOURS, CATEGORIES, durationBucket, type Category, type Difficulty, type Origin, type DurationBucket } from "@/lib/tours";
+import { durationBucket, type Category, type Difficulty, type Origin, type DurationBucket, type Tour } from "@/lib/tours";
 import { whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "../dictionaries";
 
+interface CategoryEntry {
+  id: Category;
+  label: string;
+  icon: string;
+  description: string;
+  heroImage: string;
+}
+
 interface Props {
   lang: Locale;
   dict: Dictionary;
+  tours: Tour[];
+  categories: CategoryEntry[];
   initialSearch?: string;
   initialOrigin?: string;
   initialCategory?: string;
@@ -30,7 +40,7 @@ const PRICE_BANDS: { id: PriceBand; maxUsd: number | null; minUsd: number }[] = 
 ];
 
 export default function ToursClient({
-  lang, dict,
+  lang, dict, tours, categories,
   initialSearch = "", initialOrigin = "", initialCategory = "", initialDifficulty = "",
   initialDuration = "", initialPrice = "",
 }: Props) {
@@ -97,7 +107,7 @@ export default function ToursClient({
 
   const filtered = useMemo(
     () =>
-      TOURS.filter((t) => {
+      tours.filter((t) => {
         const matchSearch =
           search === "" ||
           t.title.toLowerCase().includes(search.toLowerCase()) ||
@@ -110,7 +120,7 @@ export default function ToursClient({
         const matchPrice = price === "all" || (t.price >= band.minUsd && (band.maxUsd === null || t.price < band.maxUsd));
         return matchSearch && matchCat && matchDiff && matchOrigin && matchDuration && matchPrice;
       }),
-    [search, category, difficulty, origin, duration, price]
+    [tours, search, category, difficulty, origin, duration, price]
   );
 
   const hasFilters = search !== "" || category !== "all" || difficulty !== "all" || origin !== "all" || duration !== "all" || price !== "all";
@@ -139,7 +149,7 @@ export default function ToursClient({
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <h1 className="hero-title font-display text-5xl lg:text-6xl font-bold leading-tight">{dict.tours.pageTitle}</h1>
-          <p className="text-white/75 mt-3 text-lg">{dict.tours.pageSubtitle.replace("{count}", String(TOURS.length))}</p>
+          <p className="text-white/75 mt-3 text-lg">{dict.tours.pageSubtitle.replace("{count}", String(tours.length))}</p>
         </div>
       </div>
 
@@ -176,7 +186,7 @@ export default function ToursClient({
               <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.category}</div>
               <div className="flex flex-wrap gap-1.5">
                 <button onClick={() => setCategory("all")} className={chip(category === "all")}>{dict.tours.all}</button>
-                {CATEGORIES.map((cat) => (
+                {categories.map((cat) => (
                   <button key={cat.id} onClick={() => setCategory(cat.id)} className={chip(category === cat.id)}>{cat.label}</button>
                 ))}
               </div>

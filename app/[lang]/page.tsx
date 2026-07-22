@@ -18,6 +18,7 @@ import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
+import { categoriesFor } from "@/lib/tours-i18n";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -127,7 +128,7 @@ export default async function HomePage({ params }: LangParams) {
       <TrustBar dict={dict} />
       <FeaturedTours lang={lang} dict={dict} />
       <ZelligeDivider />
-      <CategoryGrid dict={dict} lang={lang} />
+      <CategoryGrid dict={dict} lang={lang} categories={categoriesFor(lang)} />
       <WhyUs dict={dict} tourCount={STATS.tourCount} />
       <Testimonials dict={dict} />
       <ZelligeDivider />

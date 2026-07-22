@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { MapPin, Translate, Certificate, ArrowLeft, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { GUIDES } from "@/lib/guides";
 import { guidesFor, getGuideFor } from "@/lib/guides-i18n";
-import { TOURS } from "@/lib/tours";
+import { toursFor } from "@/lib/tours-i18n";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import TourCard from "@/components/ui/TourCard";
 import { whatsappUrl } from "@/lib/constants";
@@ -40,7 +40,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
   const dict = await getDictionary(lang);
   const g = dict.guidesPage;
 
-  const guidedTours = TOURS.filter((t) => guide.routesLed.includes(t.slug));
+  const guidedTours = toursFor(lang).filter((t) => guide.routesLed.includes(t.slug));
 
   const guideJsonLd = {
     "@context": "https://schema.org",

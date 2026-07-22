@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { TOURS, CATEGORIES, getTour, DIFFICULTY_COLORS, TOUR_COUNT_BY_CATEGORY } from "@/lib/tours";
+import { TOURS, CATEGORIES, getTour, DIFFICULTY_COLORS, TOUR_COUNT_BY_CATEGORY, durationDays, durationBucket } from "@/lib/tours";
 
 describe("TOURS data", () => {
   it("has at least one tour", () => {
@@ -54,6 +54,24 @@ describe("getTour", () => {
 
   it("returns undefined for an unknown slug", () => {
     expect(getTour("does-not-exist")).toBeUndefined();
+  });
+});
+
+describe("durationDays / durationBucket", () => {
+  // durationDays reads itinerary.length rather than parsing the free-text
+  // `duration` string, specifically so it stays correct against translated
+  // locale data (duration is localized, e.g. "4 Tage" in German, and would
+  // silently fail an English-only "day" regex match).
+  it("matches itinerary length for every tour", () => {
+    TOURS.forEach((t) => {
+      expect(durationDays(t)).toBe(t.itinerary.length);
+    });
+  });
+
+  it("buckets correctly at the day/short/long boundaries", () => {
+    expect(durationBucket({ itinerary: [{ day: 1, title: "", description: "" }] } as never)).toBe("day");
+    expect(durationBucket({ itinerary: [1, 2, 3].map((day) => ({ day, title: "", description: "" })) } as never)).toBe("short");
+    expect(durationBucket({ itinerary: [1, 2, 3, 4].map((day) => ({ day, title: "", description: "" })) } as never)).toBe("long");
   });
 });
 

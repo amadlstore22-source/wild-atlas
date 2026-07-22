@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { TOURS, getTour, DIFFICULTY_COLORS } from "@/lib/tours";
+import { TOURS, DIFFICULTY_COLORS } from "@/lib/tours";
+import { getTourFor } from "@/lib/tours-i18n";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
 import BookingSidebar from "@/components/tours/BookingSidebar";
@@ -49,9 +50,11 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: TourParams): Promise<Metadata> {
-  const { slug } = await params;
-  const tour = getTour(slug);
+  const { slug, lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const tour = getTourFor(lang, slug);
   if (!tour) return {};
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
     title: tour.seoTitle ?? `${tour.title} | Marrakech Eco Tours`,
     description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
@@ -60,11 +63,14 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
       description: tour.shortDescription,
       images: [{ url: tour.heroImage, width: 1400, height: 900, alt: tour.title }],
     },
-    // Tour copy (title, description, itinerary) is English on every locale —
-    // only the UI chrome is translated. Canonicalise all locales to /en rather
-    // than claim six translated versions of the same English page.
+    // Tour copy is now translated per locale (title/description/itinerary/
+    // includes-excludes), so each locale gets its own canonical URL and full
+    // hreflang alternates rather than collapsing to /en.
     alternates: {
-      canonical: `https://marrakechecotours.com/en/tours/${slug}`,
+      canonical: `https://marrakechecotours.com/${lang}/tours/${slug}`,
+      languages: Object.fromEntries(
+        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/tours/${slug}`])
+      ),
     },
   };
 }
@@ -72,7 +78,7 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
 export default async function TourDetailPage({ params }: TourParams) {
   const { slug, lang } = await params;
   if (!hasLocale(lang)) notFound();
-  const tour = getTour(slug);
+  const tour = getTourFor(lang, slug);
   if (!tour) notFound();
   const dict = await getDictionary(lang);
   const { includes, excludes } = await tourIncludesFor(lang, tour);

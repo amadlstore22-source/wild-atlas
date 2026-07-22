@@ -2333,16 +2333,14 @@ export function getToursByCategory(category: Category): Tour[] {
 export type DurationBucket = "day" | "short" | "long";
 
 /**
- * Parse the free-text `duration` string ("4 days / 3 nights", "Half day (4
- * hours)", "1 day") into a whole-day count, so it can be filtered/bucketed.
- * A half-day or an hours-only tour counts as a single day.
+ * Day count for filtering/bucketing, derived from `itinerary.length` rather
+ * than parsing the free-text `duration` string — `duration` is translated
+ * per-locale ("4 days" / "4 Tage" / "4 jours"), but `itinerary` always has
+ * exactly one entry per day (a half-day tour has a single `day: 1` entry),
+ * so this stays correct in every language without locale-specific parsing.
  */
 export function durationDays(tour: Tour): number {
-  const d = tour.duration.toLowerCase();
-  const dayMatch = d.match(/(\d+)\s*day/);
-  if (dayMatch) return parseInt(dayMatch[1], 10);
-  // "Half day", "hours", etc. — treat as a single day.
-  return 1;
+  return tour.itinerary.length || 1;
 }
 
 /** Bucket a tour into the listing's duration filter groups. */

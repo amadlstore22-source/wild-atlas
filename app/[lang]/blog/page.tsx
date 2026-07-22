@@ -9,16 +9,26 @@ import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale } from "../dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
 
-export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: LangParams & { searchParams: Promise<{ category?: string; region?: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
+  // Filtered views (?category=/?region=) are thin, duplicate slices of the same
+  // post set. The canonical already points at the clean /blog, but Google was
+  // still indexing dozens of facet combinations — so noindex them outright.
+  // They stay crawlable (follow) so the links within are still discovered.
+  const { category, region } = await searchParams;
+  const isFiltering = Boolean(category || region);
   return {
     title: dict.blog.pageTitle,
     description: dict.blog.pageSubtitle,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/blog`,
     },
+    ...(isFiltering && { robots: { index: false, follow: true } }),
   };
 }
 

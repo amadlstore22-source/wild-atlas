@@ -9,15 +9,21 @@ type ToursPageProps = {
   searchParams: Promise<{ q?: string; origin?: string; cat?: string; diff?: string; dur?: string; price?: string }>;
 };
 
-export async function generateMetadata({ params }: ToursPageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: ToursPageProps): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
+  // Filter params (origin/cat/diff/dur/price/q) produce thin, duplicate slices
+  // of the same tour set. Canonical points at clean /tours; noindex the filtered
+  // variants so facet combinations (e.g. ?origin=agadir) don't get indexed.
+  const { q, origin, cat, diff, dur, price } = await searchParams;
+  const isFiltering = Boolean(q || origin || cat || diff || dur || price);
   return {
     title: "All Tours — Marrakech Eco Tours | Morocco Adventures",
     description: "Browse 30+ guided tours across Morocco — trekking, Sahara desert, cultural, and day tours from Marrakech and Agadir.",
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/tours`,
     },
+    ...(isFiltering && { robots: { index: false, follow: true } }),
   };
 }
 

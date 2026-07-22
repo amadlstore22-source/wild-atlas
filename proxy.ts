@@ -30,6 +30,17 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
+  // Consolidate the www host onto the bare apex, which every canonical, the
+  // sitemap, and all JSON-LD already point to. Without this Googlebot indexes
+  // www.* and marrakechecotours.* as separate duplicate URLs. 308 (permanent)
+  // so ranking signals consolidate onto the apex.
+  if (host.startsWith("www.")) {
+    const url = new URL(request.url);
+    url.host = host.slice(4);
+    url.protocol = "https";
+    return NextResponse.redirect(url, 308);
+  }
+
   const { pathname } = request.nextUrl;
 
   const pathnameHasLocale = LOCALES.some(

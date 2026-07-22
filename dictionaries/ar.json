@@ -179,7 +179,8 @@
     "mealsIncluded": "الوجبات مشمولة",
     "transportIncluded": "النقل مشمول",
     "accommodationIncluded": "الإقامة مشمولة",
-    "moreCategoryAdventures": "المزيد من مغامرات {category}"
+    "moreCategoryAdventures": "المزيد من مغامرات {category}",
+    "meetingPointHeading": "نقطة الالتقاء"
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",

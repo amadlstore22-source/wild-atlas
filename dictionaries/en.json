@@ -179,7 +179,8 @@
     "mealsIncluded": "Meals included",
     "transportIncluded": "Transport included",
     "accommodationIncluded": "Accommodation included",
-    "moreCategoryAdventures": "More {category} Adventures"
+    "moreCategoryAdventures": "More {category} Adventures",
+    "meetingPointHeading": "Where You'll Meet"
   },
   "booking": {
     "pricePerPerson": "Price per person",

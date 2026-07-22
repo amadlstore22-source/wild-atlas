@@ -179,7 +179,8 @@
     "mealsIncluded": "Mahlzeiten inklusive",
     "transportIncluded": "Transport inklusive",
     "accommodationIncluded": "Unterkunft inklusive",
-    "moreCategoryAdventures": "Weitere {category}-Abenteuer"
+    "moreCategoryAdventures": "Weitere {category}-Abenteuer",
+    "meetingPointHeading": "Treffpunkt"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

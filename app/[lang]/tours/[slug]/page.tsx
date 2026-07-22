@@ -13,6 +13,7 @@ import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
+import TourLocationMap from "@/components/map/TourLocationMap";
 import TourNavBar from "@/components/tours/TourNavBar";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
@@ -193,6 +194,12 @@ export default async function TourDetailPage({ params }: TourParams) {
             <div id="tour-itinerary" className="scroll-mt-32">
               <TourItinerary itinerary={tour.itinerary} dict={dict} />
             </div>
+
+            <section id="tour-location" className="scroll-mt-32">
+              <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>
+              <p className="flex items-center gap-1.5 text-ink-soft mb-4"><MapPin className="w-4 h-4 text-indigo" />{tour.meetingPoint.name}</p>
+              <TourLocationMap lat={tour.meetingPoint.lat} lng={tour.meetingPoint.lng} name={tour.meetingPoint.name} />
+            </section>
 
             <section id="tour-included" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-6">{dict.tourDetail.whatsIncluded}</h2>

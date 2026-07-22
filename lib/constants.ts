@@ -10,7 +10,7 @@ export const SITE = {
    *  `email` on purpose: info@ only receives once Cloudflare Email Routing is
    *  live, so until then forms deliver to a verified Gmail that works today.
    *  Point this at info@marrakechecotours.com once routing is confirmed. */
-  emailInbox: "infoaitidar@gmail.com",
+  emailInbox: "marrakechecotours@gmail.com",
   /** Obfuscated for display so the address is not trivially scraped off the
    *  page. The real address lives in `email` and is used for mailto/schema. */
   emailDisplay: "info@···.com",

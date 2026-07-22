@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, FALLBACK_MOROCCO, FALLBACK_TRAVEL, type NewsArticle } from "@/lib/news";
 import { ZelligeField } from "@/components/ui/MoroccanMotifs";
-import { BLOG_POSTS } from "@/lib/blog";
+import { blogPostsFor } from "@/lib/blog-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -28,8 +28,9 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
 
   const featured = hasFallback ? null : articles[0];
   const sideArticles = hasFallback ? [] : articles.slice(1, 3);
-  const fallbackPost = hasFallback ? BLOG_POSTS[0] : null;
-  const fallbackSide = hasFallback ? BLOG_POSTS.slice(1, 3) : [];
+  const localizedPosts = blogPostsFor(lang);
+  const fallbackPost = hasFallback ? localizedPosts[0] : null;
+  const fallbackSide = hasFallback ? localizedPosts.slice(1, 3) : [];
 
   return (
     <section className="relative py-24 md:py-32 tex-plaster overflow-hidden">

@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowRight, MapPin } from "@phosphor-icons/react/dist/ssr";
-import { BLOG_POSTS, BLOG_CATEGORIES, BLOG_REGIONS, type BlogPost, type BlogRegion } from "@/lib/blog";
+import type { BlogPost, BlogRegion } from "@/lib/blog";
+import { blogPostsFor, blogCategoriesFor, blogRegionsFor } from "@/lib/blog-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale } from "../dictionaries";
 type LangParams = { params: Promise<{ lang: string }> };
@@ -47,11 +48,15 @@ export default async function BlogPage({
   const dict = await getDictionary(lang);
   const { category, region } = await searchParams;
 
-  const activeCategory = BLOG_CATEGORIES.find((c) => c.id === category) ?? null;
-  const activeRegion = BLOG_REGIONS.find((r) => r.id === region) ?? null;
+  const posts = blogPostsFor(lang);
+  const categories = blogCategoriesFor(lang);
+  const regions = blogRegionsFor(lang);
 
-  const pillarPost = BLOG_POSTS.find((p) => p.slug === "morocco-ultimate-adventure-travel-guide")!;
-  const nonPillarPosts = BLOG_POSTS.filter((p) => p.slug !== "morocco-ultimate-adventure-travel-guide");
+  const activeCategory = categories.find((c) => c.id === category) ?? null;
+  const activeRegion = regions.find((r) => r.id === region) ?? null;
+
+  const pillarPost = posts.find((p) => p.slug === "morocco-ultimate-adventure-travel-guide")!;
+  const nonPillarPosts = posts.filter((p) => p.slug !== "morocco-ultimate-adventure-travel-guide");
 
   const filteredPosts = nonPillarPosts.filter((p) => {
     const matchCat = !activeCategory || p.category === activeCategory.id;
@@ -63,7 +68,7 @@ export default async function BlogPage({
   const [featured, ...rest] = filteredPosts;
 
   function PostCard({ post }: { post: BlogPost }) {
-    const postRegion = post.region ? BLOG_REGIONS.find((r) => r.id === post.region) : null;
+    const postRegion = post.region ? regions.find((r) => r.id === post.region) : null;
     return (
       <Link href={`/${lang}/blog/${post.slug}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
         <div className="relative h-52 overflow-hidden">
@@ -138,7 +143,7 @@ export default async function BlogPage({
             <h2 className="font-display text-charcoal text-3xl font-bold mb-2">{dict.blog.exploreByRegion}</h2>
             <p className="text-ink-soft mb-7 text-sm">{dict.blog.exploreByRegionDesc}</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {BLOG_REGIONS.filter((r) => r.id !== "root").map((r) => {
+              {regions.filter((r) => r.id !== "root").map((r) => {
                 const count = nonPillarPosts.filter((p) => p.region === r.id).length;
                 return (
                   <Link key={r.id} href={`/${lang}/blog?region=${r.id}`}
@@ -168,7 +173,7 @@ export default async function BlogPage({
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${!activeCategory ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
             {dict.blog.allTopics}
           </Link>
-          {BLOG_CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <Link key={cat.id} href={`/${lang}/blog?category=${cat.id}${activeRegion ? `&region=${activeRegion.id}` : ""}`}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory?.id === cat.id ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
               {cat.icon} {cat.label}

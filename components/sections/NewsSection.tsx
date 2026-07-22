@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, type NewsArticle, FALLBACK_MOROCCO, FALLBACK_TRAVEL } from "@/lib/news";
-import { BLOG_POSTS } from "@/lib/blog";
+import { blogPostsFor } from "@/lib/blog-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -31,7 +31,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
   }
 
   const hasFallback = articles.length === 0;
-  const fallbackPosts = BLOG_POSTS.slice(0, 6);
+  const fallbackPosts = blogPostsFor(lang).slice(0, 6);
 
   return (
     <section className="py-20 bg-sand/20">

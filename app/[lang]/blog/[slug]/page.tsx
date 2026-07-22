@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowLeft, ArrowRight, Tag } from "@phosphor-icons/react/dist/ssr";
-import { BLOG_POSTS, BLOG_REGIONS, getBlogPost } from "@/lib/blog";
+import { BLOG_POSTS } from "@/lib/blog";
+import { blogPostsFor, getBlogPostFor, blogRegionsFor } from "@/lib/blog-i18n";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { buildFaqSchema } from "@/lib/seo/schema";
@@ -19,9 +20,11 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogParams): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getBlogPost(slug);
+  const { slug, lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const post = getBlogPostFor(lang, slug);
   if (!post) return {};
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
     title: post.seoTitle ?? `${post.title} | Marrakech Eco Tours`,
     description: post.seoDescription ?? post.excerpt,
@@ -40,13 +43,13 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
       description: post.seoDescription ?? post.excerpt,
       images: [post.heroImage],
     },
-    // Article bodies are English on every locale (only the UI chrome is
-    // translated), so we do not advertise translated equivalents. Every locale
-    // canonicalises to /en to consolidate signals onto one real page rather
-    // than compete against near-duplicates. Reinstate per-locale hreflang here
-    // when post bodies are genuinely translated.
+    // Post bodies are now translated per locale, so each locale gets its own
+    // canonical URL and full hreflang alternates rather than collapsing to /en.
     alternates: {
-      canonical: `https://marrakechecotours.com/en/blog/${slug}`,
+      canonical: `https://marrakechecotours.com/${lang}/blog/${slug}`,
+      languages: Object.fromEntries(
+        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/blog/${slug}`])
+      ),
     },
   };
 }
@@ -66,15 +69,17 @@ function formatDate(iso: string) {
 export default async function BlogPostPage({ params }: BlogParams) {
   const { slug, lang } = await params;
   if (!hasLocale(lang)) notFound();
-  const post = getBlogPost(slug);
+  const posts = blogPostsFor(lang);
+  const post = getBlogPostFor(lang, slug);
   if (!post) notFound();
   const dict = await getDictionary(lang);
+  const regions = blogRegionsFor(lang);
 
-  const postIndex = BLOG_POSTS.findIndex((p) => p.slug === slug);
-  const prev = postIndex > 0 ? BLOG_POSTS[postIndex - 1] : null;
-  const next = postIndex < BLOG_POSTS.length - 1 ? BLOG_POSTS[postIndex + 1] : null;
+  const postIndex = posts.findIndex((p) => p.slug === slug);
+  const prev = postIndex > 0 ? posts[postIndex - 1] : null;
+  const next = postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
 
-  const relatedPosts = BLOG_POSTS.filter(
+  const relatedPosts = posts.filter(
     (p) => p.slug !== slug && (p.category === post.category || p.tags.some((t) => post.tags.includes(t)))
   ).slice(0, 3);
 
@@ -232,7 +237,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                 <ArrowLeft className="w-3.5 h-3.5" /> {dict.blog.pageTitle}
               </Link>
               {post.region && post.region !== "root" && (() => {
-                const region = BLOG_REGIONS.find((r) => r.id === post.region);
+                const region = regions.find((r) => r.id === post.region);
                 return region ? (
                   <><span className="text-white/30">›</span><span className="text-white/70">{region.icon} {region.label}</span></>
                 ) : null;

@@ -2413,4 +2413,445 @@ export const TOURS: Tour[] = [
     ],
     featured: false,
   },
+  {
+    id: "36",
+    slug: "azzaden-valley-2day-trek",
+    title: "Vallée d'Azzaden — Trek de 2 jours dans l'Atlas",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "moderate",
+    duration: "2 days / 1 night",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4,
+    price: 175,
+    depositAmount: 45,
+    heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
+    gallery: [
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+      "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    ],
+    shortDescription: "Une traversée de deux jours vers la paisible vallée d'Azzaden par le col de Tizi Mzik, avec une nuit dans une maison d'hôtes berbère loin de la foule du Toubkal.",
+    description: "L'Azzaden est la vallée voisine du couloir animé Imlil–Toubkal, et elle reste bien plus tranquille pour autant. En deux jours, vous franchissez le col de Tizi Mzik (2 684 m) avec tout le massif du Toubkal qui s'ouvre derrière vous, descendez à travers la forêt de genévriers jusqu'aux villages égrenés le long de la rivière Azzaden, et passez une nuit dans une maison d'hôtes familiale à Tizi Oussem. Le deuxième jour franchit le col de Tizi Oudid et descend à travers des hameaux en terrasses jusqu'à Aguersioual. Aucun terrain technique, aucun extrême d'altitude — juste un vrai aperçu de la vie berbère en montagne, en deux jours depuis Marrakech.",
+    highlights: [
+      "Franchir le col de Tizi Mzik (2 684 m) avec des vues panoramiques sur le Haut Atlas",
+      "Nuit dans une maison d'hôtes berbère familiale au village de Tizi Oussem",
+      "Marcher dans la paisible vallée d'Azzaden — forêt de genévriers, champs en terrasses, noyeraies",
+      "Une véritable traversée de village à village, bien à l'écart de la foule du Toubkal",
+    ],
+    includes: [
+      "Guide de montagne professionnel agréé",
+      "1 nuit en maison d'hôtes berbère",
+      "Tous les repas pendant le trek",
+      "Mulet pour porter les bagages du groupe",
+      "Transfert aller-retour depuis Marrakech",
+    ],
+    excludes: [
+      "Assurance voyage (recommandée)",
+      "Équipement de trek personnel",
+      "Pourboires pour le guide et le muletier",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1 850 m)",
+        description:
+          "Transfert matinal de Marrakech à Imlil (1h30). Montée jusqu'au col de Tizi Mzik (2 684 m) pour le déjeuner avec vue sur la vallée d'Imlil et les sommets du Toubkal, puis descente à travers la forêt de genévriers dans la vallée d'Azzaden jusqu'au village de Tizi Oussem. Environ 6 heures de marche. Dîner et nuit en maison d'hôtes berbère.",
+      },
+      {
+        day: 2,
+        title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakech",
+        description:
+          "Descente vers Id Issa, puis montée au col de Tizi Oudid et traversée d'une série de hameaux berbères et de terres en terrasses jusqu'à Aguersioual. Environ 5 heures de marche. Transfert retour à Marrakech, arrivée en fin d'après-midi.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Azzaden Valley 2-Day Trek — Quiet Atlas Mountains Hike from Marrakech | Marrakech Eco Tours",
+    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $175.",
+    faq: [
+      { q: "Quelle condition physique faut-il pour le trek d'Azzaden ?", a: "Il est classé modéré : deux jours avec environ 5 à 6 heures de marche chacun, franchissant des cols jusqu'à 2 684 m. Il n'y a pas d'escalade technique, mais vous devez être à l'aise sur des sentiers en montée et en descente durant plusieurs heures. Il convient aux marcheurs raisonnablement actifs plutôt qu'aux débutants complets." },
+      { q: "En quoi diffère-t-il des treks du Toubkal ?", a: "L'Azzaden est la vallée à côté de l'itinéraire principal Imlil–Toubkal, elle voit donc bien moins de trekkeurs. Vous retrouvez les mêmes villages berbères, cols et paysages de montagne, mais sans ascension de sommet ni nuit en refuge d'altitude — une alternative plus douce et plus calme." },
+      { q: "Où dort-on ?", a: "Une nuit dans une maison d'hôtes berbère familiale au village de Tizi Oussem — une vraie maison plutôt qu'un hôtel, avec dîner et petit-déjeuner inclus. Les chambres sont simples et les salles de bain partagées sont la norme." },
+      { q: "Dois-je porter mes propres bagages ?", a: "Non. Un mulet porte les bagages principaux du groupe entre Imlil et le village, vous marchez donc avec un simple sac à dos pour l'eau, les couches et un appareil photo." },
+    ],
+    featured: false,
+  },
+  {
+    id: "37",
+    slug: "atlas-mountains-3day-trek",
+    title: "Villages du Haut Atlas — Trek de 3 jours",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "moderate",
+    duration: "3 days / 2 nights",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4,
+    price: 255,
+    depositAmount: 65,
+    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    gallery: [
+      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+    ],
+    shortDescription: "Trois jours reliant les vallées d'Imlil, d'Azzaden et de l'Ourika par des cols berbères, avec des nuits en maisons d'hôtes de village — le circuit classique des villages du Haut Atlas.",
+    description: "C'est le Haut Atlas sans l'obsession du sommet : trois jours de marche de vallée en vallée au cœur du pays berbère. Depuis Imlil, vous passez dans l'Azzaden, puis traversez vers l'est par des cols de pâturage en direction du bassin de l'Ourika, dormant chaque nuit dans une maison d'hôtes de village différente. La marche est régulière plutôt que sévère — des cols élevés mais sans pierriers ni altitude au-delà d'environ 2 700 m — et l'essentiel réside dans les villages, les champs en terrasses, les azibs des bergers et les vallées changeantes plutôt que dans un point culminant unique. Une belle introduction de trois jours au trek au Maroc.",
+    highlights: [
+      "Relier trois vallées de l'Atlas — Imlil, Azzaden et le bassin de l'Ourika",
+      "Franchir plusieurs cols berbères avec des panoramas sur le Haut Atlas",
+      "Deux nuits dans différentes maisons d'hôtes de village, accueilli par des familles locales",
+      "Une marche modérée et régulière, sans ascension de sommet ni nuit en altitude",
+    ],
+    includes: [
+      "Guide de montagne professionnel agréé",
+      "2 nuits en maison d'hôtes berbère",
+      "Tous les repas pendant le trek",
+      "Mulet pour porter les bagages du groupe",
+      "Transfert aller-retour depuis Marrakech",
+    ],
+    excludes: [
+      "Assurance voyage (recommandée)",
+      "Équipement de trek personnel",
+      "Pourboires pour le guide et le muletier",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Vallée d'Azzaden",
+        description:
+          "Transfert de Marrakech à Imlil (1h30). Trek par le col de Tizi Mzik (2 684 m) dans la vallée d'Azzaden, en descendant à travers la forêt de genévriers jusqu'à une maison d'hôtes de village. Environ 5 à 6 heures de marche. Dîner et nuit au village.",
+      },
+      {
+        day: 2,
+        title: "Azzaden → hauts pâturages → Tacheddirt (2 300 m)",
+        description:
+          "Une journée de traversée complète, franchissant un col de pâturage et descendant dans les hautes vallées d'Imlil et de Tacheddirt — le village habité en permanence le plus haut de la région. Environ 6 heures de marche. Dîner et nuit en maison d'hôtes de village.",
+      },
+      {
+        day: 3,
+        title: "Tacheddirt → Vallée de l'Ourika → Marrakech",
+        description:
+          "Descente du bassin de l'Ourika à travers noyeraies et champs en terrasses jusqu'à la route. Environ 4 à 5 heures de marche. Transfert retour à Marrakech, arrivée en fin d'après-midi.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "3-Day Atlas Mountains Trek — High Atlas Berber Villages from Marrakech | Marrakech Eco Tours",
+    seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $255.",
+    faq: [
+      { q: "Ce trek convient-il comme première randonnée de plusieurs jours ?", a: "Oui — il est classé modéré et conçu comme une solide introduction au trek au Maroc. Il n'y a ni sommet ni terrain technique ; les journées font 4 à 6 heures par des cols jusqu'à environ 2 700 m. Si vous marchez régulièrement, vous vous en sortirez très bien." },
+      { q: "Comment est l'hébergement ?", a: "Deux nuits en maisons d'hôtes de village, chacune tenue par une famille locale, tous les repas inclus. Ce sont des maisons simples — salles de bain partagées, matelas sur des estrades ou lits basiques — plutôt que des hôtels, ce qui fait tout le sens du trek." },
+      { q: "Pourquoi n'y a-t-il pas de sommet sur ce trek ?", a: "Il est construit autour des vallées et des villages plutôt que d'un pic. Cela maintient l'altitude modérée et les journées régulières, il convient donc aux marcheurs qui veulent un vrai trek du Haut Atlas sans les exigences d'une tentative de sommet au Toubkal." },
+      { q: "Les mulets portent-ils les bagages ?", a: "Oui. Un mulet porte les bagages principaux du groupe entre les maisons d'hôtes, vous marchez donc avec un sac à dos. L'équipement de trek personnel est à apporter par vos soins." },
+    ],
+    featured: false,
+  },
+  {
+    id: "38",
+    slug: "family-atlas-4day-trek",
+    title: "Haut Atlas en famille — Trek doux de 4 jours",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–14 people",
+    reviewCount: 0,
+    rating: 4,
+    price: 340,
+    depositAmount: 85,
+    heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
+    gallery: [
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    ],
+    shortDescription: "Un trek de quatre jours dans le Haut Atlas au rythme des familles : journées de marche courtes, vallées douces, maisons d'hôtes de village et beaucoup de temps avec les familles berbères en chemin.",
+    description: "Faire du trek avec des enfants dans l'Atlas fonctionne quand les journées sont courtes, le terrain facile et qu'il y a quelque chose à voir plutôt que seulement des kilomètres à parcourir — c'est exactement ainsi que ce voyage est conçu. Quatre jours au rythme des familles à travers les basses vallées d'Imlil et de l'Ourika : traversées de rivière, noyeraies, cascades, cuisson du pain dans une maison de village, et des demi-journées assez courtes pour laisser aux enfants le temps d'être des enfants. Les mulets portent tout et peuvent aussi porter les plus petits fatigués. Pas de cols élevés, pas de longues marches — une vraie aventure en montagne qu'une famille avec des enfants scolarisés peut faire ensemble.",
+    highlights: [
+      "Journées de marche courtes et douces, au rythme des familles (3 à 4 heures)",
+      "Nuits en maisons d'hôtes de village avec des familles berbères — cuisson du pain, thé à la menthe",
+      "Cascades, vasques de rivière et noyeraies plutôt que cols élevés",
+      "Les mulets portent tous les bagages et peuvent porter les plus petits fatigués",
+    ],
+    includes: [
+      "Guide de montagne professionnel agréé, habitué aux familles",
+      "3 nuits en maison d'hôtes berbère",
+      "Tous les repas pendant le trek",
+      "Mulets pour porter les bagages (et les enfants fatigués)",
+      "Transfert aller-retour depuis Marrakech",
+    ],
+    excludes: [
+      "Assurance voyage (recommandée)",
+      "Matériel de randonnée personnel",
+      "Pourboires pour le guide et les muletiers",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → premier village (courte marche)",
+        description:
+          "Transfert de Marrakech à Imlil (1h30). Une marche facile l'après-midi à travers champs en terrasses et noyeraies jusqu'à la première maison d'hôtes de village — assez courte pour s'installer sans fatiguer les petites jambes. Environ 2 à 3 heures. Dîner avec la famille d'accueil.",
+      },
+      {
+        day: 2,
+        title: "Marche dans la vallée et cascades",
+        description:
+          "Une journée douce le long de la rivière en remontant la vallée jusqu'à des cascades et des vasques naturelles, avec de nombreux arrêts. Environ 3 à 4 heures à un rythme détendu. Nuit en maison d'hôtes de village, avec du temps l'après-midi pour que les enfants explorent ou aident à cuire le pain.",
+      },
+      {
+        day: 3,
+        title: "Passage vers le versant de l'Ourika",
+        description:
+          "Une traversée facile d'un col de pâturage peu élevé vers la vallée plus verte de l'Ourika, avec des mulets à disposition pour ceux qui fatiguent. Environ 3 à 4 heures. Nuit en maison d'hôtes de village.",
+      },
+      {
+        day: 4,
+        title: "Vallée de l'Ourika → Marrakech",
+        description:
+          "Une courte descente finale à travers la vallée de l'Ourika jusqu'à la route, avec un dernier arrêt au bord de la rivière. Environ 2 heures. Transfert retour à Marrakech, arrivée en début d'après-midi.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Family Atlas Mountains Trek 4 Days — Gentle Berber Village Hike from Marrakech | Marrakech Eco Tours",
+    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $340.",
+    faq: [
+      { q: "À partir de quel âge ce trek convient-il aux enfants ?", a: "Il fonctionne bien pour les enfants scolarisés à partir de 6 ans environ, habitués à marcher et jouer dehors. Les journées sont courtes (2 à 4 heures) à un niveau facile, et des mulets sont là pour porter les plus petits qui fatiguent. Pour les tout-petits, ce n'est pas idéal — la marche, bien que douce, reste sur des sentiers de montagne." },
+      { q: "Que se passe-t-il si un enfant se fatigue en cours de route ?", a: "Les mulets qui portent les bagages peuvent aussi porter un jeune enfant fatigué, et le guide règle le rythme sur le groupe plutôt que sur un horaire. Des journées courtes et des arrêts fréquents sont prévus précisément pour que personne ne soit poussé." },
+      { q: "Où dort-on ?", a: "Trois nuits en maisons d'hôtes de village berbères tenues par des familles locales, tous les repas inclus. Les familles mangent souvent avec les hôtes, et il y a généralement de la cuisson du pain ou des animaux autour que les enfants apprécient. Les salles de bain sont simples et partagées." },
+      { q: "Est-ce sûr pour les familles ?", a: "Oui. Les itinéraires restent sur des sentiers de vallée faciles sans exposition ni cols élevés, le guide est habitué aux familles, et il n'y a pas de souci d'altitude en dessous d'environ 2 200 m. Les précautions de bon sens habituelles — soleil, eau, bonnes chaussures — suffisent." },
+    ],
+    featured: false,
+  },
+  {
+    id: "39",
+    slug: "family-desert-4day-marrakech",
+    title: "Aventure désert en famille — 4 jours de Marrakech au Sahara",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4,
+    price: 380,
+    depositAmount: 95,
+    heroImage: "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    gallery: [
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35032238/pexels-photo-35032238.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    ],
+    shortDescription: "Un circuit de quatre jours de Marrakech au Sahara au rythme des familles : véhicule confortable, décor de cinéma dans une kasbah, une nuit sur les dunes, balades à dos de chameau et arrêts courts et faciles.",
+    description: "Le circuit désert classique au départ de Marrakech, adapté pour fonctionner avec des enfants. Les distances sont les mêmes — franchir l'Atlas jusqu'à Aït Ben Haddou, traverser la région des gorges jusqu'aux dunes de l'Erg Chebbi et revenir — mais la conduite est découpée en étapes plus courtes et confortables avec de vrais arrêts, des nuits en hôtel avec piscine, et un camp désertique conçu pour les familles plutôt qu'un bivouac spartiate. Les enfants ont droit aux balades à dos de chameau, à un décor de tournage de Game of Thrones à explorer, à la glisse sur les dunes et à une nuit sous un ciel plein d'étoiles. Tout se déplace en véhicule climatisé, il n'y a donc aucune exigence de marche — juste une grande aventure mémorable que toute la famille peut partager.",
+    highlights: [
+      "Une nuit complète sur les dunes de l'Erg Chebbi dans un camp désertique adapté aux familles",
+      "Balades à dos de chameau et glisse sur les dunes pour les enfants",
+      "Explorer la kasbah d'Aït Ben Haddou — décor de tournage de Game of Thrones et Gladiator",
+      "Véhicule climatisé confortable avec une conduite courte et fractionnée",
+    ],
+    includes: [
+      "Transport en minibus/4x4 climatisé tout au long",
+      "Chauffeur-guide bilingue professionnel (anglais/français)",
+      "1 nuit en hôtel dans la vallée du Dadès (dîner + petit-déjeuner)",
+      "1 nuit en camp désertique familial à l'Erg Chebbi (dîner + petit-déjeuner)",
+      "1 nuit en hôtel à Ouarzazate (petit-déjeuner)",
+      "Balades à dos de chameau au coucher et au lever du soleil à l'Erg Chebbi",
+      "Tous les transferts et frais d'accès",
+    ],
+    excludes: [
+      "Déjeuners (budget conseillé : 12–15 € par repas)",
+      "Billet d'entrée des studios de cinéma de l'Atlas (facultatif, ~7 €)",
+      "Assurance voyage personnelle",
+      "Pourboires",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Ben Haddou → Vallée du Dadès",
+        description:
+          "Franchissez le col du Tizi n'Tichka sur le Haut Atlas avec des arrêts photo, puis explorez la kasbah de terre d'Aït Ben Haddou — un régal pour les enfants qui la reconnaissent des films. Continuez vers un hôtel de la vallée du Dadès pour la nuit, avec une piscine pour se rafraîchir. Dîner et nuit.",
+      },
+      {
+        day: 2,
+        title: "Gorges du Dadès → Gorges du Todra → Camp désertique de l'Erg Chebbi",
+        description:
+          "Une marche matinale tranquille dans les spectaculaires gorges du Todra (plates et faciles), puis route vers Merzouga. Arrivée aux dunes pour une balade à dos de chameau au coucher du soleil jusqu'à un camp désertique familial. Dîner autour du feu et observation des étoiles. Nuit au camp.",
+      },
+      {
+        day: 3,
+        title: "Dunes au lever du soleil → Ouarzazate",
+        description:
+          "Lever de soleil sur les dunes et temps pour la glisse sur sable avant le petit-déjeuner. Retour vers l'ouest le long de la Route des Mille Kasbahs, avec des arrêts, jusqu'à Ouarzazate. Nuit dans un hôtel confortable.",
+      },
+      {
+        day: 4,
+        title: "Ouarzazate → Marrakech",
+        description:
+          "Visite facultative des studios de cinéma de l'Atlas, puis retour par l'Atlas jusqu'à Marrakech, arrivée en fin d'après-midi.",
+      },
+    ],
+    meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
+    seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $380.",
+    faq: [
+      { q: "Ce circuit désert convient-il aux jeunes enfants ?", a: "Oui. Il n'y a aucune exigence de marche — tout se déplace en véhicule climatisé, et les arrêts (kasbah, gorges, dunes) sont courts et faciles. La conduite est réelle, cela dit, il convient donc aux enfants qui voyagent raisonnablement bien en voiture ; les étapes sont volontairement fractionnées avec des arrêts fréquents pour aider." },
+      { q: "Qu'est-ce qui rend le camp désertique adapté aux familles ?", a: "Le camp utilisé lors de ce voyage dispose de vrais lits, de tentes salle de bain privées ou partagées, et d'un dîner servi ensemble plutôt qu'un simple bivouac. Les balades à dos de chameau sont courtes et menées à pied, et il y a de la place autour du feu pour les enfants le soir." },
+      { q: "Combien de temps dure chaque journée en voiture ?", a: "Les plus longues journées de route sont la première et la dernière, à travers l'Atlas — plusieurs heures chacune, mais entrecoupées par la kasbah, les gorges et les arrêts photo plutôt que d'une traite. Les journées du milieu sont plus courtes, avec plus de temps réellement dans le désert." },
+      { q: "Qu'est-ce qui n'est pas inclus ?", a: "Les déjeuners (budget d'environ 12–15 € par repas), le billet facultatif des studios de cinéma de l'Atlas (~7 €), l'assurance voyage personnelle et les pourboires. Tout le reste — transport, trois nuits d'hébergement avec les repas indiqués, balades à dos de chameau et frais d'accès — est couvert." },
+    ],
+    featured: false,
+  },
+  {
+    id: "40",
+    slug: "high-atlas-grand-traverse-15day",
+    title: "Grande Traversée du Haut Atlas — Trek de 15 jours du M'Goun au Toubkal",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "expert",
+    duration: "15 days / 14 nights",
+    groupSize: "2–10 people",
+    reviewCount: 0,
+    rating: 4,
+    price: 1650,
+    priceMax: 1850,
+    depositAmount: 400,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription: "La traversée complète d'ouest en est du Haut Atlas à pied : de la vallée d'Aït Bougmez, la « Vallée Heureuse », par le M'Goun (4 068 m) jusqu'à un sommet du Toubkal (4 167 m), reliant les deux plus hauts sommets d'Afrique du Nord en quinze jours.",
+    description: "C'est la grande marche du Haut Atlas — une véritable traversée de chaîne plutôt qu'un voyage vers un seul sommet. Depuis la vallée d'Aït Bougmez, la « Vallée Heureuse » aux champs en terrasses et villages de terre, vous franchissez le massif du M'Goun et vous tenez sur son sommet à 4 068 m, puis passez une semaine et demie à progresser vers l'ouest à travers gorges, hauts plateaux, pâturages de bergers et villages qui ne voient presque aucun visiteur extérieur — dont Magdaz, que l'UNESCO a qualifié de plus beau village du Maroc. La traversée s'achève dans le massif du Toubkal par un sommet du Jbel Toubkal (4 167 m), le point culminant d'Afrique du Nord, avant de descendre vers Imlil. Quinze jours de trek reculé, élevé et physiquement exigeant, avec un soutien complet en mulets — le voyage le plus sérieux que nous proposons, et le plus beau.",
+    highlights: [
+      "Gravir les deux plus hauts sommets d'Afrique du Nord — M'Goun (4 068 m) et Toubkal (4 167 m)",
+      "Débuter dans la « Vallée Heureuse » d'Aït Bougmez, le point de départ occidental classique",
+      "Passer par Magdaz — qualifié de plus beau village du Maroc par l'UNESCO",
+      "Traverser de hauts plateaux et gorges reculés, rarement vus par les trekkeurs extérieurs",
+      "Soutien complet en mulets et une équipe de montagne sur toute la traversée de 15 jours",
+    ],
+    includes: [
+      "Guide de montagne haute altitude professionnel agréé",
+      "14 nuits d'hébergement (gîtes de village, refuges de montagne et bivouac)",
+      "Tous les repas pendant le trek",
+      "Cuisinier et équipe complète de mulets portant matériel, nourriture et camp",
+      "Frais de parc national / d'accès du Toubkal et du M'Goun",
+      "Transfert aller-retour de Marrakech aux points de départ",
+    ],
+    excludes: [
+      "Assurance voyage avec couverture haute altitude (obligatoire)",
+      "Équipement de trek personnel et sac de couchage",
+      "Crampons et piolet en conditions hivernales (location possible)",
+      "Pourboires pour le guide, le cuisinier et les muletiers",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Bougmez (1 800 m)",
+        description:
+          "Route à travers le Haut Atlas via Aït M'hamed jusqu'à la « Vallée Heureuse » d'Aït Bougmez. Installation, rencontre avec l'équipe, et courte marche d'acclimatation parmi les champs en terrasses. Nuit en gîte de village.",
+      },
+      {
+        day: 2,
+        title: "Aït Bougmez → plateau de Tarkeddit (2 900 m)",
+        description:
+          "Montée régulière hors de la vallée sur les approches du massif du M'Goun, bivouac sur le plateau de Tarkeddit sous l'arête sommitale. Environ 6 heures de marche.",
+      },
+      {
+        day: 3,
+        title: "Sommet du M'Goun (4 068 m) → vallée d'Oulilimt",
+        description:
+          "Départ avant l'aube pour la longue arête jusqu'au sommet du M'Goun, le deuxième plus haut d'Afrique du Nord, puis longue descente dans la vallée d'Oulilimt pour bivouaquer. Une grande journée, environ 8 à 9 heures.",
+      },
+      {
+        day: 4,
+        title: "Oulilimt → gorges de la Tessaout",
+        description:
+          "Suivez la jeune rivière Tessaout en descendant à travers un système de gorges spectaculaire, avec traversées de rivière et parois rocheuses saisissantes. Environ 6 heures. Bivouac au bord de la rivière.",
+      },
+      {
+        day: 5,
+        title: "Tessaout → village de Magdaz (1 900 m)",
+        description:
+          "Continuez à descendre la vallée de la Tessaout jusqu'à Magdaz, le groupe de hautes maisons de terre que l'UNESCO a qualifié de plus beau village du Maroc. Environ 5 heures. Nuit en gîte de village.",
+      },
+      {
+        day: 6,
+        title: "Magdaz → Amezri → hauts pâturages",
+        description:
+          "Quittez la Tessaout, en montant vers l'ouest à travers les pâturages en direction du prochain bassin versant. Environ 6 heures. Bivouac dans les hauts pâturages parmi les azibs des bergers.",
+      },
+      {
+        day: 7,
+        title: "Journée de repos et d'acclimatation",
+        description:
+          "Une journée plus lente pour récupérer à mi-traversée — une courte marche facultative, la lessive, et du temps avec l'équipe avant le pays plus élevé à venir. Nuit en bivouac ou en gîte de village.",
+      },
+      {
+        day: 8,
+        title: "Franchissement des cols occidentaux",
+        description:
+          "Une journée soutenue franchissant un col élevé (autour de 3 500 m) vers un nouveau système de vallées, progressant régulièrement vers l'ouest à travers la chaîne. Environ 7 heures. Bivouac.",
+      },
+      {
+        day: 9,
+        title: "Traversée des vallées reculées",
+        description:
+          "Une journée complète à travers vallées et hameaux qui ne voient presque aucun trekkeur, suivant des sentiers muletiers entre les villages. Environ 6 à 7 heures. Nuit en gîte de village.",
+      },
+      {
+        day: 10,
+        title: "Approche du massif du Toubkal",
+        description:
+          "Montée vers la bordure orientale du massif du Toubkal, le paysage devenant plus élevé et plus alpin. Environ 6 heures. Bivouac.",
+      },
+      {
+        day: 11,
+        title: "Tacheddirt (2 300 m)",
+        description:
+          "Descente vers Tacheddirt, le village habité en permanence le plus haut de la région du Toubkal, et la porte d'entrée vers l'approche finale du sommet. Environ 5 heures. Nuit en gîte de village.",
+      },
+      {
+        day: 12,
+        title: "Tacheddirt → Refuge du Toubkal (3 207 m)",
+        description:
+          "Franchissez le Tizi n'Tacheddirt et traversez dans la vallée du Mizane jusqu'au refuge du Toubkal. Environ 6 heures. Marche d'acclimatation l'après-midi au-dessus du refuge. Nuit précoce.",
+      },
+      {
+        day: 13,
+        title: "Sommet du Toubkal (4 167 m) → Refuge",
+        description:
+          "Ascension finale avant l'aube par le Cirque Sud jusqu'au point culminant d'Afrique du Nord pour le lever du soleil, puis descente au refuge. Environ 7 heures aller-retour. Dîner de célébration.",
+      },
+      {
+        day: 14,
+        title: "Refuge → Imlil (1 740 m)",
+        description:
+          "Descente de la vallée du Mizane en passant par le sanctuaire de Sidi Chamharouch jusqu'à Imlil. Environ 4 heures. Une dernière nuit en maison d'hôtes à Imlil pour marquer la fin de la traversée.",
+      },
+      {
+        day: 15,
+        title: "Imlil → Marrakech",
+        description:
+          "Transfert retour à Marrakech, arrivée en fin de matinée. Fin du circuit.",
+      },
+    ],
+    meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
+    seoTitle: "High Atlas Grand Traverse 15 Days — M'Goun to Toubkal Trek | Marrakech Eco Tours",
+    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1650.",
+    faq: [
+      { q: "Quelle condition physique et expérience faut-il pour la Grande Traversée ?", a: "Elle est classée expert — le voyage le plus exigeant que nous proposons. Ce sont quinze jours de marche consécutifs, plusieurs longs (8 à 9 heures), avec deux sommets à 4 000 m et de hauts cols. Vous devez déjà avoir une expérience du trek sur plusieurs jours, être à l'aise en altitude, et être prêt pour des journées difficiles consécutives en pays reculé. Ce n'est pas un premier grand trek." },
+      { q: "Quels sommets la traversée gravit-elle ?", a: "Les deux plus hauts d'Afrique du Nord : le M'Goun (4 068 m) au début de l'itinéraire depuis le versant d'Aït Bougmez, et le Jbel Toubkal (4 167 m) vers la fin. Selon la météo, les deux sommets font partie de l'itinéraire standard plutôt que d'options supplémentaires." },
+      { q: "Où dort-on pendant les quinze jours ?", a: "Un mélange de gîtes de village (maisons d'hôtes familiales simples), du refuge du Toubkal, et de bivouac sauvage sur les hauts plateaux là où il n'y a pas de village. L'équipe transporte et monte le camp ; vous ne portez qu'un sac à dos. Le sac de couchage n'est pas fourni." },
+      { q: "Quelle est la meilleure saison pour ce trek ?", a: "La fin du printemps (mai–juin) et l'automne (septembre–octobre) sont idéaux : les hauts cols sont dégagés de la majeure partie de la neige et les températures sont praticables. En hiver, la traversée devient une entreprise d'alpinisme sérieuse nécessitant crampons et piolet, et certains cols peuvent être infranchissables." },
+      { q: "Comment le trek est-il soutenu ?", a: "Entièrement. Un guide haute altitude agréé mène, un cuisinier gère tous les repas, et une équipe de mulets porte le matériel, la nourriture et le camp sur toute la traversée. Ce soutien est ce qui rend possibles quinze jours en haute montagne reculée — vous marchez avec un sac à dos pendant que la logistique est prise en charge." },
+    ],
+    featured: true,
+  },
 ];

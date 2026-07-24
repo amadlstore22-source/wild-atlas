@@ -108,7 +108,7 @@ export const TOURS: Tour[] = [
     price: 245,
     depositAmount: 65,
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
@@ -183,7 +183,7 @@ export const TOURS: Tour[] = [
     price: 35,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
+      "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1200&q=85",
       "https://images.unsplash.com/photo-1568241360857-e23e825c4e08?w=1200&q=85",
@@ -355,7 +355,7 @@ export const TOURS: Tour[] = [
     price: 45,
     depositAmount: 12,
     heroImage:
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
+      "https://images.pexels.com/photos/34793906/pexels-photo-34793906.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1200&q=85",
       "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1200&q=85",
@@ -549,7 +549,7 @@ export const TOURS: Tour[] = [
     price: 30,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
+      "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
       "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",
@@ -848,7 +848,7 @@ export const TOURS: Tour[] = [
     price: 195,
     depositAmount: 50,
     heroImage:
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
       "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
@@ -970,7 +970,7 @@ export const TOURS: Tour[] = [
     price: 40,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+      "https://images.pexels.com/photos/31930613/pexels-photo-31930613.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1200&q=85",
       "https://images.unsplash.com/photo-1624802746702-60ca95bdb605?w=1200&q=85",
@@ -1026,7 +1026,7 @@ export const TOURS: Tour[] = [
     price: 340,
     depositAmount: 85,
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "https://images.pexels.com/photos/37764121/pexels-photo-37764121.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
@@ -1102,7 +1102,7 @@ export const TOURS: Tour[] = [
     price: 480,
     depositAmount: 120,
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "https://images.pexels.com/photos/29595710/pexels-photo-29595710.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
@@ -1188,7 +1188,7 @@ export const TOURS: Tour[] = [
     price: 149,
     depositAmount: 38,
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "https://images.pexels.com/photos/11387348/pexels-photo-11387348.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
@@ -1257,7 +1257,7 @@ export const TOURS: Tour[] = [
     price: 320,
     depositAmount: 80,
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "https://images.pexels.com/photos/35666328/pexels-photo-35666328.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
@@ -1334,7 +1334,7 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
@@ -1425,7 +1425,7 @@ export const TOURS: Tour[] = [
     price: 295,
     depositAmount: 75,
     heroImage:
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+      "https://images.pexels.com/photos/9029494/pexels-photo-9029494.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
@@ -1502,7 +1502,7 @@ export const TOURS: Tour[] = [
     price: 179,
     depositAmount: 45,
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "https://images.pexels.com/photos/35901289/pexels-photo-35901289.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
@@ -1571,7 +1571,7 @@ export const TOURS: Tour[] = [
     price: 345,
     depositAmount: 87,
     heroImage:
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
+      "https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
       "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
@@ -1647,7 +1647,7 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+      "https://images.pexels.com/photos/30757368/pexels-photo-30757368.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
@@ -1737,7 +1737,7 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "https://images.pexels.com/photos/38112211/pexels-photo-38112211.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
@@ -1813,7 +1813,7 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "https://images.pexels.com/photos/33891400/pexels-photo-33891400.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
@@ -1895,7 +1895,7 @@ export const TOURS: Tour[] = [
     price: 560,
     depositAmount: 140,
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "https://images.pexels.com/photos/30398390/pexels-photo-30398390.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
@@ -2151,7 +2151,7 @@ export const TOURS: Tour[] = [
     price: 330,
     depositAmount: 85,
     heroImage:
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+      "https://images.pexels.com/photos/29601658/pexels-photo-29601658.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
       "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
@@ -2639,7 +2639,7 @@ export const TOURS: Tour[] = [
     rating: 4,
     price: 380,
     depositAmount: 95,
-    heroImage: "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/10434667/pexels-photo-10434667.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",

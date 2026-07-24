@@ -1850,7 +1850,7 @@ Es más duro, más frío y más incierto que el mismo trekking en mayo. Si eso t
     excerpt:
       "Zagora está más cerca y es más barata. Merzouga tiene las dunas que te imaginabas. La contrapartida honesta depende de cuántos días tengas, y te diremos cuándo Zagora es la elección equivocada.",
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "desert",
     region: "sahara-south",
     readTime: 8,

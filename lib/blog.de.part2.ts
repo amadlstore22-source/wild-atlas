@@ -1328,7 +1328,7 @@ Manche restaurierten Kasbahs dienen heute als Gästehäuser und bieten eine Nach
     title: "Was ist ein Riad? Marokkos Hofhaus erklärt",
     excerpt:
       "Jedes Hotel in Marrakech scheint sich Riad zu nennen. Hier ist, was das Wort tatsächlich bedeutet, warum es diese Bauweise gibt, und wie man ein echtes Exemplar von einem Marketing-Label unterscheidet.",
-    heroImage: "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,

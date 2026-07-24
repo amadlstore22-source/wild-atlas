@@ -1844,7 +1844,7 @@ Nicht sicher, auf welcher Seite dieser Linie Sie stehen? [Erzählen Sie uns, was
     excerpt:
       "Zagora ist näher und günstiger. Merzouga hat die Dünen, die Sie sich vorgestellt haben. Der ehrliche Kompromiss hängt davon ab, wie viele Tage Sie haben, und wir sagen Ihnen, wann Zagora die falsche Wahl ist.",
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "desert",
     region: "sahara-south",
     readTime: 8,

@@ -1842,7 +1842,7 @@ Non siete sicuri da che parte di quella linea vi trovate? [Diteci cosa avete fat
     excerpt:
       "Zagora è più vicina ed economica. Merzouga ha le dune che avevate immaginato. Il compromesso onesto dipende da quanti giorni avete, e vi diremo quando Zagora è la scelta sbagliata.",
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "desert",
     region: "sahara-south",
     readTime: 8,

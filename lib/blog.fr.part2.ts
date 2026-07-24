@@ -1326,7 +1326,7 @@ Certaines kasbahs restaurées fonctionnent désormais comme maisons d'hôtes, of
     title: "Qu'est-ce qu'un riad ? La maison à cour du Maroc, expliquée",
     excerpt:
       "Chaque hôtel de Marrakech semble s'appeler riad. Voici ce que le mot signifie réellement, pourquoi cette conception existe, et comment distinguer un vrai riad d'une étiquette marketing.",
-    heroImage: "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,

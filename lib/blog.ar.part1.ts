@@ -1842,7 +1842,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "زاكورة أقرب وأرخص. مرزوكة تملك الكثبان التي تخيّلتها. المقايضة الصادقة تعتمد على عدد الأيام المتاحة لديك، وسنخبرك متى تكون زاكورة الخيار الخاطئ.",
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "desert",
     region: "sahara-south",
     readTime: 8,

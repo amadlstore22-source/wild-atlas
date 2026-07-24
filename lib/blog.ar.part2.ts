@@ -1328,7 +1328,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ما هو الرياض؟ منزل الفناء المغربي موضَّحًا",
     excerpt:
       "يبدو أن كل فندق في مراكش يسمّي نفسه رياضًا. إليك ما تعنيه الكلمة فعليًا، ولماذا وُجد هذا التصميم، وكيف تميّز رياضًا حقيقيًا عن مجرد تسمية تسويقية.",
-    heroImage: "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,

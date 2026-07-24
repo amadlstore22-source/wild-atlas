@@ -1899,7 +1899,7 @@ Not sure which side of that line you fall on? [Tell us what you have done before
     excerpt:
       "Zagora is closer and cheaper. Merzouga has the dunes you pictured. The honest trade-off comes down to how many days you have, and we will tell you when Zagora is the wrong choice.",
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -3447,7 +3447,7 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
     title: "What Is a Riad? Morocco's Courtyard House, Explained",
     excerpt:
       "Every hotel in Marrakech seems to call itself a riad. Here's what the word actually means, why the design exists, and how to tell a real one from a marketing label.",
-    heroImage: "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,

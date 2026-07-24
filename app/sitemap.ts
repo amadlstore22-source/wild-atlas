@@ -8,6 +8,13 @@ const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
 const BASE = "https://marrakechecotours.com";
 
+// Stable lastmod for tour/category/destination/guide pages. Using `new Date()`
+// stamped every URL with the build time, so the whole catalogue's <lastmod>
+// changed on every deploy — Google learns the dates are noise and discounts
+// them for crawl scheduling. Bump this only when tour content is meaningfully
+// revised, so the signal stays honest.
+const CATALOGUE_LASTMOD = new Date("2026-07-24");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     { path: "", freq: "weekly" as const, priority: 1.0 },
@@ -32,23 +39,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Content pages (tours, blog, destinations, categories) carry English bodies
-  // on every locale and canonicalise to /en, so only the canonical English URL
-  // belongs in the sitemap. Listing all six would submit known non-canonical
-  // duplicates. Restore the per-locale fan-out once bodies are translated.
-  const tourUrls = TOURS.map((t) => ({
-    url: `${BASE}/en/tours/${t.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.85,
-  }));
+  // Tours and categories are now translated per locale and each locale page
+  // self-canonicalises with full hreflang alternates (see the tour detail
+  // page's `alternates`), so every locale URL is a distinct canonical page and
+  // all six belong in the sitemap. Submitting only /en left the fr/es/de/it/ar
+  // tour pages discoverable via hreflang alone — slower to get indexed.
+  const tourUrls = LOCALES.flatMap((lang) =>
+    TOURS.map((t) => ({
+      url: `${BASE}/${lang}/tours/${t.slug}`,
+      lastModified: CATALOGUE_LASTMOD,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    }))
+  );
 
-  const categoryUrls = CATEGORIES.map((c) => ({
-    url: `${BASE}/en/categories/${c.id}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  const categoryUrls = LOCALES.flatMap((lang) =>
+    CATEGORIES.map((c) => ({
+      url: `${BASE}/${lang}/categories/${c.id}`,
+      lastModified: CATALOGUE_LASTMOD,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
 
   const blogUrls = BLOG_POSTS.map((p) => ({
     url: `${BASE}/en/blog/${p.slug}`,
@@ -57,20 +69,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const destinationUrls = DESTINATIONS.map((d) => ({
-    url: `${BASE}/en/destinations/${d.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.85,
-  }));
+  // Destinations and guides self-canonicalise per locale too — fan out all six.
+  const destinationUrls = LOCALES.flatMap((lang) =>
+    DESTINATIONS.map((d) => ({
+      url: `${BASE}/${lang}/destinations/${d.slug}`,
+      lastModified: CATALOGUE_LASTMOD,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    }))
+  );
 
-  // Guide bios are English-only too.
-  const guideUrls = GUIDES.map((g) => ({
-    url: `${BASE}/en/guides/${g.id}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
+  const guideUrls = LOCALES.flatMap((lang) =>
+    GUIDES.map((g) => ({
+      url: `${BASE}/${lang}/guides/${g.id}`,
+      lastModified: CATALOGUE_LASTMOD,
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    }))
+  );
 
   // The bare root is deliberately absent: it redirects to /en, and a sitemap
   // should list only final canonical URLs. Submitting a redirecting URL is

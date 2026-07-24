@@ -3780,6 +3780,73 @@ During Ramadan, many liquor shops and some bars stop selling alcohol for the mon
 If you want a drink in Morocco: book accommodation that serves alcohol (most mid-range and up do), or plan a stop at a licensed shop or supermarket in a city before heading somewhere more rural. Keep it inside private or licensed spaces. Expect availability to shrink the further you get from Marrakech, Casablanca, and the coastal resort towns, and to shrink further still during Ramadan. None of this makes Morocco a difficult place to have a drink — it just makes it a place where the drinking happens somewhere specific rather than anywhere at all, which is a different thing from it being hard to find.
 `,
   },
+  {
+    slug: "how-to-climb-toubkal-in-2-days",
+    author: MET_TEAM,
+    title: "How to Climb Toubkal in 2 Days from Marrakech",
+    excerpt:
+      "Two days is the fastest way to stand on the roof of North Africa. Here is exactly how the 2-day Toubkal summit works from Marrakech — the schedule, who it suits, the altitude question, and how it compares to the 4-day trek.",
+    heroImage: "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Toubkal 2 days", "climb Toubkal", "Toubkal summit", "2 day Toubkal trek", "High Atlas", "Imlil", "Toubkal from Marrakech"],
+    seoTitle: "How to Climb Toubkal in 2 Days from Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "The 2-day Toubkal summit from Marrakech, explained: the exact schedule, who it suits, the altitude risk, kit, and when to choose the 4-day trek instead. Book the express route.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
+    faq: [
+      { q: "Can you really climb Toubkal in 2 days?", a: "Yes. The standard 2-day route drives from Marrakech to Imlil, treks to the Toubkal Refuge (3,207 m) on day one, and summits Jbel Toubkal (4,167 m) before dawn on day two, descending all the way back to Marrakech that evening. It is the fastest realistic way to the summit and is exactly what our [2-day Toubkal summit tour](/en/tours/toubkal-summit-2day-marrakech) is built around. The trade-off is that there is no spare acclimatisation day." },
+      { q: "Is 2 days enough to acclimatise for Toubkal?", a: "For most fit walkers coming from sea level, yes, but it is tighter than the 4-day version. The single night at the refuge (3,207 m) does most of the acclimatising. If you have never been near 4,000 m or you know you react badly to altitude, the [4-day trek](/en/tours/toubkal-summit-trek-4day) builds in extra time and is the safer choice." },
+      { q: "How hard is the 2-day Toubkal climb?", a: "It is graded challenging rather than technical. There is no climbing equipment needed in summer, but summit day is a long pre-dawn push up steep scree (or snow in winter) at altitude, and the compressed schedule means two big days back to back. You need to be a fit, regular walker — this is not a beginner's first mountain." },
+      { q: "What is the best time of year for the 2-day summit?", a: "April to October for the non-technical summer route. From roughly November to March the summit becomes a snow climb needing crampons and an ice axe, which changes the difficulty considerably — doable, but a winter undertaking rather than a fast summer dash. See our guide on [what Toubkal is like in winter](/en/blog/toubkal-in-winter-what-to-expect)." },
+    ],
+    content: `
+## Two Days to the Roof of North Africa
+
+If your time in Morocco is short, you do not need a week to stand on top of it. Jbel Toubkal, at 4,167 m the highest peak in North Africa, can be summited in a tight but genuine two-day trip from Marrakech — and for a lot of fit travellers that is exactly the right amount of time. This is how the 2-day Toubkal climb actually works, who it suits, and when you should slow down and take longer instead.
+
+The fastest version is our [2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech): transfer, refuge night, pre-dawn summit, and back to the city the same evening. Everything below explains what that itinerary involves.
+
+## The 2-Day Schedule, Hour by Hour
+
+**Day 1 — Marrakech to the Toubkal Refuge (3,207 m).** A morning transfer of about ninety minutes takes you from Marrakech to Imlil (1,740 m), the trailhead village. From there you trek up the Mizane valley, past the Sidi Chamharouch shrine, to the Toubkal Refuge at 3,207 m. It is roughly five hours of steady uphill walking with a mule carrying the group's main bags. You reach the refuge in the afternoon, eat early, and sleep — because summit day starts in the dark.
+
+**Day 2 — Summit and descent to Marrakech.** A pre-dawn start, head torches on, for the steep push up the South Cirque to the summit ridge. Most groups reach the top for sunrise, with the whole High Atlas — and on a clear day the edge of the Sahara — laid out below. Then it is all the way back down: to the refuge for breakfast, on to Imlil, and the transfer back to Marrakech, arriving in the evening.
+
+Two days, one night, one very early morning. That is the whole shape of it.
+
+## Who the 2-Day Climb Is Right For
+
+The express route suits you if you are a **fit, regular walker** who is comfortable with a long day and does not have a full week to give the mountain. You should be used to several hours of uphill and able to handle a pre-dawn start at altitude.
+
+It is **not** the right choice if this is your first proper mountain, if you have never been near 4,000 m, or if you know altitude affects you badly. In those cases the extra day genuinely matters — which is the whole point of the next section.
+
+## 2-Day vs 4-Day: Which Toubkal Trek?
+
+The single biggest difference is acclimatisation. The [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) spends its extra days letting your body adjust to the altitude rather than covering more distance — and altitude, not fitness, is the usual reason people struggle near the summit. If you have the time and any doubt about how you handle height, the 4-day is the more comfortable, higher-success option.
+
+We have written a full comparison in [Toubkal in 2 days or 4: which should you book](/en/blog/toubkal-2-day-vs-4-day-which-trek), but the short version is: **2 days if you are fit and short on time, 4 days if you want the margin.** For trekkers who want something bigger again, the [6-day Ifni Lake circuit](/en/tours/toubkal-circuit-ifni-lake-6day) links the summit with the remote lake side of the massif.
+
+## The Altitude Question
+
+At 4,167 m, Toubkal is high enough that altitude is a real factor, even though the walking is non-technical. On the 2-day schedule your one night at 3,207 m does the acclimatising, so the advice is simple: hydrate hard, keep the pace steady on summit morning rather than racing, and tell your guide early if you get a headache, nausea or dizziness. Most people are fine. The compressed timeline just means there is less slack if you are not.
+
+## What You Need to Bring
+
+Because a mule carries the main bags to the refuge, you climb with a daypack: water, warm layers (summit dawn is cold even in summer), a windproof, sun protection, a head torch for the pre-dawn start, and snacks. A sleeping bag liner makes the refuge night more comfortable. Proper broken-in walking boots are non-negotiable. In winter the kit list grows to include crampons and an ice axe — see [what to expect on Toubkal in winter](/en/blog/toubkal-in-winter-what-to-expect) and [how hard Toubkal really is](/en/blog/how-hard-is-toubkal-difficulty-guide).
+
+One rule that catches people out: a licensed mountain guide is mandatory on Toubkal, and there is a checkpoint at Imlil that enforces it. Our tours include one — but if you were thinking of going alone, read [do you need a guide to climb Toubkal](/en/blog/do-you-need-a-guide-to-climb-toubkal) first.
+
+## Ready to Climb Toubkal in 2 Days?
+
+If you are fit, short on time, and want the summit without a week in the mountains, the express route is made for exactly that.
+
+👉 **[Book the 2-Day Toubkal Summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — refuge night, licensed Berber guide, all meals, and round-trip transfer included.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

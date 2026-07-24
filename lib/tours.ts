@@ -2469,6 +2469,306 @@ export const TOURS: Tour[] = [
     ],
     featured: false,
   },
+  {
+    id: "36",
+    slug: "azzaden-valley-2day-trek",
+    title: "Azzaden Valley — 2-Day Atlas Mountains Trek",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "moderate",
+    duration: "2 days / 1 night",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 175,
+    depositAmount: 45,
+    heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
+    gallery: [
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+      "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    ],
+    shortDescription:
+      "A two-day crossing into the quiet Azzaden Valley over the Tizi Mzik pass, sleeping in a Berber village guesthouse away from the Toubkal crowds.",
+    description:
+      "The Azzaden is the valley next door to the busy Imlil–Toubkal corridor, and it stays far quieter for it. Over two days you cross the Tizi Mzik pass (2,684 m) with the whole Toubkal massif opening up behind you, drop through juniper forest into the string of villages along the Azzaden river, and spend a night in a family-run guesthouse in Tizi Oussem. The second day traverses the Tizi Oudid pass and descends through terraced hamlets to Aguersioual. No technical ground, no altitude extremes — just a proper taste of Berber mountain life in two days from Marrakech.",
+    highlights: [
+      "Cross the Tizi Mzik pass (2,684 m) with panoramic High Atlas views",
+      "Overnight in a family-run Berber guesthouse in Tizi Oussem village",
+      "Walk the quiet Azzaden Valley — juniper forest, terraced fields, walnut groves",
+      "A genuine village-to-village traverse, well away from the Toubkal crowds",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "1 night Berber guesthouse accommodation",
+      "All meals during the trek",
+      "Mule to carry group luggage",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (recommended)",
+      "Personal trekking equipment",
+      "Tips for guide and muleteer",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1,850 m)",
+        description:
+          "Morning transfer from Marrakech to Imlil (1h30). Trek up to the Tizi Mzik pass (2,684 m) for lunch with views back over the Imlil valley and the Toubkal peaks, then descend through juniper forest into the Azzaden Valley to the village of Tizi Oussem. Around 6 hours walking. Dinner and overnight in a Berber guesthouse.",
+      },
+      {
+        day: 2,
+        title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakech",
+        description:
+          "Descend to Id Issa, then climb to the Tizi Oudid pass and traverse through a string of Berber hamlets and terraced farmland down to Aguersioual. Around 5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Azzaden Valley 2-Day Trek — Quiet Atlas Mountains Hike from Marrakech | Marrakech Eco Tours",
+    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $175.",
+    faq: [
+      { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,684 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
+      { q: "How is this different from the Toubkal treks?", a: "The Azzaden is the valley beside the main Imlil–Toubkal route, so it sees far fewer trekkers. You get the same Berber villages, passes and mountain scenery, but no summit push and no high-altitude refuge night — a gentler, quieter alternative." },
+      { q: "Where do we sleep?", a: "One night in a family-run Berber guesthouse in Tizi Oussem village — a real home rather than a hotel, with dinner and breakfast included. Rooms are simple and shared bathrooms are the norm." },
+      { q: "Do I carry my own luggage?", a: "No. A mule carries the group's main luggage between Imlil and the village, so you walk with just a daypack for water, layers and a camera." },
+    ],
+    featured: false,
+  },
+  {
+    id: "37",
+    slug: "atlas-mountains-3day-trek",
+    title: "High Atlas Villages — 3-Day Trek",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "moderate",
+    duration: "3 days / 2 nights",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 255,
+    depositAmount: 65,
+    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    gallery: [
+      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/ifni-loaded-mule-high-scree.jpg",
+    ],
+    shortDescription:
+      "Three days linking the Imlil, Azzaden and Ourika valleys over Berber passes, sleeping in village guesthouses — the classic High Atlas village circuit.",
+    description:
+      "This is the High Atlas without the summit fixation: three days walking valley to valley through the heart of Berber country. From Imlil you cross into the Azzaden, then traverse eastward over grazing passes toward the Ourika watershed, sleeping each night in a different village guesthouse. The walking is steady rather than severe — high passes but no scree slogs or altitude beyond about 2,700 m — and the point is the villages, the terraced fields, the shepherds' azibs and the changing valleys rather than a single high point. A strong three-day introduction to trekking in Morocco.",
+    highlights: [
+      "Link three Atlas valleys — Imlil, Azzaden and the Ourika watershed",
+      "Cross several Berber passes with High Atlas panoramas",
+      "Two nights in different village guesthouses, hosted by local families",
+      "Steady moderate walking with no summit push or high-altitude nights",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "2 nights Berber guesthouse accommodation",
+      "All meals during the trek",
+      "Mule to carry group luggage",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (recommended)",
+      "Personal trekking equipment",
+      "Tips for guide and muleteer",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Azzaden Valley",
+        description:
+          "Transfer from Marrakech to Imlil (1h30). Trek over the Tizi Mzik pass (2,684 m) into the Azzaden Valley, descending through juniper forest to a village guesthouse. Around 5–6 hours walking. Dinner and overnight in the village.",
+      },
+      {
+        day: 2,
+        title: "Azzaden → high pastures → Tacheddirt (2,300 m)",
+        description:
+          "A full traverse day, climbing over a grazing pass and dropping into the upper Imlil and Tacheddirt valleys — the highest permanently inhabited village in the region. Around 6 hours walking. Dinner and overnight in a village guesthouse.",
+      },
+      {
+        day: 3,
+        title: "Tacheddirt → Ourika Valley → Marrakech",
+        description:
+          "Descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 4–5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "3-Day Atlas Mountains Trek — High Atlas Berber Villages from Marrakech | Marrakech Eco Tours",
+    seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $255.",
+    faq: [
+      { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 2,700 m. If you walk regularly you will be fine." },
+      { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — shared bathrooms, mattresses on floor platforms or basic beds — rather than hotels, which is the point of the trek." },
+      { q: "Why is there no summit on this trek?", a: "It is built around the valleys and villages rather than a peak. That keeps the altitude moderate and the days steady, so it works for walkers who want real High Atlas trekking without the demands of a Toubkal summit attempt." },
+      { q: "Do mules carry the luggage?", a: "Yes. A mule carries the group's main luggage between guesthouses, so you walk with a daypack. Personal trekking gear is your own to bring." },
+    ],
+    featured: false,
+  },
+  {
+    id: "38",
+    slug: "family-atlas-4day-trek",
+    title: "Family High Atlas — 4-Day Gentle Trek",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–14 people",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 340,
+    depositAmount: 85,
+    heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
+    gallery: [
+      "/gallery/ifni-cattle-stream-azib.jpg",
+      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    ],
+    shortDescription:
+      "A four-day High Atlas trek paced for families: short walking days, gentle valleys, village guesthouses, and plenty of time with Berber families along the way.",
+    description:
+      "Trekking with children in the Atlas works when the days are short, the ground is easy, and there is something to see rather than just kilometres to cover — which is exactly how this trip is built. Four days move at a family pace through the lower Imlil and Ourika valleys: river crossings, walnut groves, waterfalls, bread baking in a village home, and half-days short enough to leave time for kids to actually be kids. Mules carry everything and can carry tired younger children too. No high passes, no long slogs — a real mountain adventure that a family with school-age children can do together.",
+    highlights: [
+      "Short, gentle walking days built around a family pace (3–4 hours)",
+      "Village guesthouse nights with Berber families — bread baking, mint tea",
+      "Waterfalls, river pools and walnut groves rather than high passes",
+      "Mules carry all luggage and can carry tired younger children",
+    ],
+    includes: [
+      "Professional licensed mountain guide experienced with families",
+      "3 nights Berber guesthouse accommodation",
+      "All meals during the trek",
+      "Mules to carry luggage (and tired children)",
+      "Round-trip transfer from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (recommended)",
+      "Personal hiking gear",
+      "Tips for guide and muleteers",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → first village (short walk)",
+        description:
+          "Transfer from Marrakech to Imlil (1h30). An easy afternoon walk through terraced fields and walnut groves to the first village guesthouse — short enough to settle in without tiring young legs. Around 2–3 hours. Dinner with the host family.",
+      },
+      {
+        day: 2,
+        title: "Valley walk & waterfalls",
+        description:
+          "A gentle day following the river up the valley to waterfalls and natural pools, with plenty of stops. Around 3–4 hours at a relaxed pace. Overnight in a village guesthouse, with time in the afternoon for the kids to explore or help bake bread.",
+      },
+      {
+        day: 3,
+        title: "Cross to the Ourika side",
+        description:
+          "An easy crossing over a low grazing pass into the greener Ourika valley, with mules on hand for anyone who tires. Around 3–4 hours. Overnight in a village guesthouse.",
+      },
+      {
+        day: 4,
+        title: "Ourika Valley → Marrakech",
+        description:
+          "A short final descent through the Ourika valley to the roadhead, with a last riverside stop. Around 2 hours. Transfer back to Marrakech, arriving early afternoon.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Family Atlas Mountains Trek 4 Days — Gentle Berber Village Hike from Marrakech | Marrakech Eco Tours",
+    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $340.",
+    faq: [
+      { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–4 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
+      { q: "What if a child gets tired mid-walk?", a: "The mules that carry the luggage can also carry a tired younger child, and the guide sets the pace around the group rather than a schedule. Short days and frequent stops are built in precisely so that no one is pushed." },
+      { q: "Where do we stay?", a: "Three nights in Berber village guesthouses hosted by local families, with all meals included. Families often eat together with the hosts, and there is usually bread baking or animals around that children enjoy. Bathrooms are simple and shared." },
+      { q: "Is it safe for families?", a: "Yes. The routes stay on easy valley trails with no exposure or high passes, the guide is experienced with families, and there is no altitude concern below about 2,200 m. Standard sensible precautions — sun, water, sturdy shoes — are all that is needed." },
+    ],
+    featured: false,
+  },
+  {
+    id: "39",
+    slug: "family-desert-4day-marrakech",
+    title: "Family Desert Adventure — 4-Day Marrakech to Sahara",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "4 days / 3 nights",
+    groupSize: "2–12 people",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 380,
+    depositAmount: 95,
+    heroImage: "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    gallery: [
+      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35032238/pexels-photo-35032238.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    ],
+    shortDescription:
+      "A four-day Marrakech-to-Sahara circuit paced for families: a comfortable vehicle, a kasbah film set, a night on the dunes, camel rides, and short easy stops.",
+    description:
+      "The classic Marrakech desert circuit, adapted so it works with children. The distances are the same — over the Atlas to Aït Ben Haddou, through the gorge country to the Erg Chebbi dunes and back — but the driving is broken into shorter, comfortable stages with proper stops, hotel nights with pools, and a desert camp built for families rather than a spartan bivouac. Kids get camel rides, a Game-of-Thrones film set to explore, sandboarding on the dunes, and a night under a sky full of stars. Everything moves in an air-conditioned vehicle, so there is no walking demand — just a big, memorable adventure the whole family can share.",
+    highlights: [
+      "A full night on the Erg Chebbi dunes in a family-friendly desert camp",
+      "Camel rides and sandboarding on the dunes for the kids",
+      "Explore the Aït Ben Haddou kasbah — a Game of Thrones and Gladiator film set",
+      "Comfortable air-conditioned vehicle with short, broken-up driving stages",
+    ],
+    includes: [
+      "Air-conditioned minibus/4x4 transport throughout",
+      "Professional bilingual driver-guide (English/French)",
+      "1 night hotel in Dades Valley (dinner + breakfast)",
+      "1 night family desert camp at Erg Chebbi (dinner + breakfast)",
+      "1 night hotel in Ouarzazate (breakfast)",
+      "Sunset and sunrise camel rides at Erg Chebbi",
+      "All transfers and access fees",
+    ],
+    excludes: [
+      "Lunches (recommended budget: €12–15 per meal)",
+      "Atlas Film Studios entry ticket (optional, ~€7)",
+      "Personal travel insurance",
+      "Tips",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Aït Ben Haddou → Dades Valley",
+        description:
+          "Cross the Tizi n'Tichka pass over the High Atlas with photo stops, then explore the earthen kasbah of Aït Ben Haddou — a favourite with kids who recognise it from films. Continue to a hotel in the Dades Valley for the night, with a pool to cool off in. Dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Dades Gorge → Todra Gorge → Erg Chebbi desert camp",
+        description:
+          "A gentle morning walk in the dramatic Todra Gorge (flat and easy), then on to Merzouga. Arrive at the dunes for a sunset camel ride into a family desert camp. Dinner around the fire and stargazing. Overnight at the camp.",
+      },
+      {
+        day: 3,
+        title: "Sunrise dunes → Ouarzazate",
+        description:
+          "Sunrise over the dunes and time for sandboarding before breakfast. Drive back west along the Road of a Thousand Kasbahs, with stops, to Ouarzazate. Overnight in a comfortable hotel.",
+      },
+      {
+        day: 4,
+        title: "Ouarzazate → Marrakech",
+        description:
+          "Optional visit to the Atlas Film Studios, then the drive back over the Atlas to Marrakech, arriving in the late afternoon.",
+      },
+    ],
+    meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
+    seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $380.",
+    faq: [
+      { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
+      { q: "What makes the desert camp family-friendly?", a: "The camp used on this trip has proper beds, private or shared bathroom tents, and dinner served together rather than a bare bivouac. The camel rides are short and led on foot, and there is space around the fire for children in the evening." },
+      { q: "How long is each day in the car?", a: "The longest driving days are the first and the last, crossing the Atlas — several hours each, but broken by the kasbah, gorges and photo stops rather than done in one push. The middle days are shorter, with more time actually in the desert." },
+      { q: "What isn't included?", a: "Lunches (budget roughly €12–15 per meal), the optional Atlas Film Studios ticket (~€7), personal travel insurance, and tips. Everything else — transport, three nights' accommodation with the meals listed, camel rides and access fees — is covered." },
+    ],
+    featured: false,
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {
@@ -2555,8 +2855,8 @@ export const CATEGORIES: {
  *  `tourCountsMatchCatalogue` in __tests__/lib/tours.test.ts fails if these
  *  drift from the real catalogue, so they cannot silently go stale. */
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
-  trekking: 7,
-  desert: 10,
+  trekking: 10,
+  desert: 11,
   cultural: 9,
   "day-tours": 8,
   // "hiking" is declared in Category but has no tours and no CATEGORIES entry.

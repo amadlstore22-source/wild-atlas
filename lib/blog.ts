@@ -3847,6 +3847,224 @@ If you are fit, short on time, and want the summit without a week in the mountai
 👉 **[Book the 2-Day Toubkal Summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — refuge night, licensed Berber guide, all meals, and round-trip transfer included.
 `,
   },
+  {
+    slug: "best-time-to-visit-paradise-valley",
+    author: MET_TEAM,
+    title: "The Best Time to Visit Paradise Valley, Morocco",
+    excerpt:
+      "Paradise Valley is a year-round trip, but the pools, the crowds and the water level change a lot by season. Here is the honest month-by-month guide to when to go near Agadir.",
+    heroImage: "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley", "best time to visit Paradise Valley", "Paradise Valley Agadir", "Immouzer", "Morocco travel"],
+    seoTitle: "Best Time to Visit Paradise Valley, Morocco (Month Guide)",
+    seoDescription:
+      "When to visit Paradise Valley near Agadir: the best months for full pools and swimming, when it is busiest, and when the waterfalls run. Honest season-by-season guide.",
+    relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "sous-massa-national-park"],
+    faq: [
+      { q: "What is the best month to visit Paradise Valley?", a: "March to June is the sweet spot: the winter rains have topped up the pools, the water is swimmable, and it is not yet the peak-summer crush. Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) runs year-round, but spring is when the valley looks its best." },
+      { q: "Is there water in Paradise Valley in summer?", a: "The main rock pools usually hold water through summer because they are spring-fed, so swimming is reliable even in July and August. What thins out is the flow over the higher Immouzer waterfalls, which depend on winter rain and can slow to a trickle by late summer." },
+      { q: "Is Paradise Valley crowded?", a: "In July, August and on weekends it can be busy at the main pools, especially late morning onward. Going early in the day, or visiting in spring or autumn, gives you the quiet version. Midweek outside summer you can have stretches of the valley nearly to yourself." },
+    ],
+    content: `
+## When to Go, and Why It Matters
+
+Paradise Valley — the palm-lined river gorge about an hour and a half inland from Agadir — is an all-year destination, but it is not the same place in every season. The water level, the crowds and the waterfalls all shift through the year, and picking the right month is the difference between a quiet swim in full pools and a hot walk to a half-empty one.
+
+For the full background on the valley itself, start with our [complete Paradise Valley guide](/en/blog/paradise-valley-agadir-complete-guide). This post is just about timing.
+
+## Spring (March–June): The Best Window
+
+Spring is the answer for most people. The winter rains have refilled the pools and boosted the Immouzer waterfalls, the palms are green, and the temperatures are warm without the summer extremes. Swimming is at its best, and the valley is busy but not overwhelmed. If you can choose, come now.
+
+## Summer (July–August): Reliable Pools, More People
+
+The spring-fed rock pools hold their water through summer, so swimming stays reliable — this is peak season for exactly that reason. The trade-offs are heat and crowds: the main pools fill up from late morning, especially on weekends. Go early, bring water and sun cover, and you will still have a great day.
+
+## Autumn (September–October): The Quiet Second Season
+
+After the summer rush thins out, autumn gives you warm water, mild air and far fewer people. The waterfalls are usually at their lowest before the winter rains arrive, but the pools remain swimmable. A quietly excellent time to visit.
+
+## Winter (November–February): Green, Fresh, Cooler
+
+Winter is when the valley greens up and the waterfalls come back to life after rain — it is beautiful, if cooler for swimming. Bright winter days are lovely for the walk and the scenery even if you only dip rather than swim. Storms can occasionally make the river rise, so it is worth checking conditions with your guide.
+
+## The Simple Version
+
+- **Best overall:** March–June
+- **Reliable swimming, busiest:** July–August
+- **Quietest with warm water:** September–October
+- **Greenest and freshest, cooler:** November–February
+
+Whatever the month, going with a local guide means you skip the parking and navigation and get taken to the good pools rather than the first busy one. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) covers exactly that, and you can pair it with an [Agadir surf lesson](/en/tours/agadir-surf-lesson) or a [Souss-Massa wildlife day](/en/tours/sous-massa-national-park) to fill out the trip.
+
+## Ready to Go?
+
+👉 **[Book the Paradise Valley Day Trip from Agadir](/en/tours/paradise-valley-agadir)** — round-trip transport, a local guide, and time to swim in the pools.
+`,
+  },
+  {
+    slug: "paradise-valley-swimming-guide",
+    author: MET_TEAM,
+    title: "Swimming in Paradise Valley: Pools, Safety & Tips",
+    excerpt:
+      "The rock pools are the whole point of Paradise Valley. Here is which pools to swim in, whether it is safe, what to bring, and how to find the quieter water away from the crowds.",
+    heroImage: "https://images.pexels.com/photos/37538524/pexels-photo-37538524.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley swimming", "Paradise Valley pools", "Paradise Valley Agadir", "Morocco swimming", "Immouzer"],
+    seoTitle: "Swimming in Paradise Valley: Pools, Safety & Tips",
+    seoDescription:
+      "A practical guide to swimming in Paradise Valley near Agadir: which rock pools to choose, is it safe to jump, what to bring, and how to find the quiet water.",
+    relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
+    faq: [
+      { q: "Can you swim in Paradise Valley?", a: "Yes — the spring-fed rock pools are the main reason people come, and they hold water year-round. The most popular pools sit a short walk from the main access point; our [Paradise Valley day trip](/en/tours/paradise-valley-agadir) takes you to good swimming spots rather than just the first crowded one." },
+      { q: "Is it safe to jump into the pools at Paradise Valley?", a: "Local youths cliff-jump at some of the deeper pools, but depths vary and change with the water level, so it is not something to copy on sight. Only ever enter water you have checked, swim where it is clearly deep enough, and treat the higher jumps as a spectator sport unless a guide who knows the pool confirms it is safe that day." },
+      { q: "What should I bring for swimming in Paradise Valley?", a: "Swimwear worn under your clothes (there are no real changing facilities), water shoes or sturdy sandals for the rocky riverbed, a towel, plenty of drinking water, sun protection, and a dry bag for your phone. There is little shade at the pools, so a hat matters." },
+    ],
+    content: `
+## The Pools Are the Point
+
+Take away the swimming and Paradise Valley is a pretty gorge. Add it back and it becomes one of the best day trips from Agadir: a chain of clear, spring-fed rock pools set between palm groves and red canyon walls, cool enough to be a relief on a hot day and deep enough in places to actually swim rather than paddle.
+
+This is the practical guide to doing that well. For the wider picture, the [complete Paradise Valley guide](/en/blog/paradise-valley-agadir-complete-guide) covers the valley end to end, and the [best time to visit](/en/blog/best-time-to-visit-paradise-valley) post handles seasons.
+
+## Which Pools to Swim In
+
+The pools nearest the main access point are the busiest — fine, but not the quiet experience most people picture. Walking a little further upstream thins the crowd quickly and usually reveals better water. Depths vary from ankle-deep runs between pools to spots deep enough for a proper swim. A guide who knows the valley will take you to pools that suit swimming rather than the first one everyone stops at, which is one real advantage of going with a tour rather than solo.
+
+## Is It Safe?
+
+For ordinary swimming, yes — with common sense. The water is calm in the pools themselves, but the riverbed is rocky and slippery, so water shoes save a lot of stubbed toes and cut feet.
+
+The cliff-jumping you may see local kids doing is a different matter. Pool depths change with the season's water level, and what was safe last month may not be today. Do not jump into water you have not personally checked, and treat the higher leaps as something to watch rather than join unless someone who knows that exact pool that day says otherwise.
+
+## What to Bring
+
+- **Swimwear under your clothes** — there are no changing rooms
+- **Water shoes or grippy sandals** — the riverbed is rocky
+- **Plenty of drinking water** and **sun protection** — shade is limited
+- **A dry bag** for your phone and valuables
+- **A towel** and a change of layers
+
+## The Easy Way to Do It
+
+Getting there means a drive inland from Agadir, parking, and a walk down into the valley — all straightforward with a guide and more of a faff on your own. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) handles the transport and takes you to the good pools, and it pairs naturally with other Agadir-area days like [Souss-Massa National Park](/en/tours/sous-massa-national-park) or the walled town of [Taroudant](/en/tours/taroudant-day-trip-agadir).
+
+## Ready for a Swim?
+
+👉 **[Book the Paradise Valley Day Trip from Agadir](/en/tours/paradise-valley-agadir)** — transport, a local guide, and time in the pools included.
+`,
+  },
+  {
+    slug: "paradise-valley-from-agadir",
+    author: MET_TEAM,
+    title: "Paradise Valley from Agadir: How to Get There",
+    excerpt:
+      "Paradise Valley is the easiest natural escape from Agadir. Here is how far it is, how to get there by car, taxi or tour, and how to make a day of it.",
+    heroImage: "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley from Agadir", "Agadir day trips", "Paradise Valley", "Immouzer", "how to get to Paradise Valley"],
+    seoTitle: "Paradise Valley from Agadir: How to Get There (2026)",
+    seoDescription:
+      "How to get from Agadir to Paradise Valley: distance, driving, taxi vs organised tour, how long to spend, and what else to combine it with. Practical day-trip guide.",
+    relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "agadir-to-essaouira-day-trip"],
+    faq: [
+      { q: "How far is Paradise Valley from Agadir?", a: "Paradise Valley is roughly 60 km northeast of Agadir, near Immouzer des Ida Outanane — about 1 hour 30 minutes by road, as the last stretch is a winding mountain road rather than a fast highway. Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) covers the drive both ways." },
+      { q: "Can you visit Paradise Valley from Agadir in a day?", a: "Yes — it is the classic half or full day out from Agadir. The drive is about 90 minutes each way, leaving plenty of time to walk into the valley, swim in the pools, and have lunch before heading back. Most people go in the morning to beat the midday crowds and heat." },
+      { q: "Is it better to drive or take a tour to Paradise Valley?", a: "A rental car works if you are comfortable on winding mountain roads and happy to find the parking and trailhead yourself. An organised tour removes all of that, gets you to the better pools, and lets you enjoy the scenery instead of the driving. For most visitors on a short trip, the tour is the easier choice." },
+    ],
+    content: `
+## The Easiest Escape from the Coast
+
+Of all the day trips from Agadir, Paradise Valley is the one that feels furthest from the resort strip while being the closest to reach. In about ninety minutes you swap the Atlantic beachfront for a palm-filled river gorge in the Anti-Atlas foothills — cool pools, red rock, and not a hotel in sight.
+
+Here is how to actually get there. For what to do once you arrive, see the [complete Paradise Valley guide](/en/blog/paradise-valley-agadir-complete-guide) and the [swimming guide](/en/blog/paradise-valley-swimming-guide).
+
+## How Far Is It?
+
+Paradise Valley sits about **60 km northeast of Agadir**, near the village of Immouzer des Ida Outanane. Allow roughly **1 hour 30 minutes** each way. It is not a long distance, but the final stretch is a winding mountain road that you take slowly — which is part of the appeal, with the scenery opening up as you climb.
+
+## Your Options
+
+**By rental car.** Doable if you are comfortable driving mountain switchbacks and don't mind hunting for the parking area and the path down to the pools. Set off early to beat both the heat and the crowds.
+
+**By grand taxi.** Cheaper per seat but less flexible, and you will still need to sort the walk in and back on your own timing.
+
+**By organised tour.** The simplest option: door-to-door transport from Agadir, a guide who takes you to the good pools rather than the first busy one, and no driving or navigation to think about. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) is built exactly for this.
+
+## Making a Day of It
+
+Paradise Valley is a half to full day depending on how long you linger in the water. Go in the morning — the light is better, the pools are quieter, and you avoid the hottest part of the day for the walk. Bring swimwear under your clothes, water shoes for the rocky riverbed, and plenty of water.
+
+If you have more days around Agadir, the valley slots neatly alongside other trips: an [Agadir surf lesson](/en/tours/agadir-surf-lesson) on the coast, or a day out to the windswept port of Essaouira on our [Agadir to Essaouira day trip](/en/tours/agadir-to-essaouira-day-trip).
+
+## Ready to Go?
+
+👉 **[Book the Paradise Valley Day Trip from Agadir](/en/tours/paradise-valley-agadir)** — round-trip transport, a local guide, and time to swim, all handled.
+`,
+  },
+  {
+    slug: "paradise-valley-from-marrakech",
+    author: MET_TEAM,
+    title: "Can You Visit Paradise Valley from Marrakech?",
+    excerpt:
+      "Paradise Valley is near Agadir, not Marrakech — so is a day trip from Marrakech realistic? Here is the honest answer on distance, timing, and the smarter way to do it.",
+    heroImage: "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 5,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley from Marrakech", "Paradise Valley", "Marrakech day trips", "Agadir", "Morocco itinerary"],
+    seoTitle: "Can You Visit Paradise Valley from Marrakech? (Honest Answer)",
+    seoDescription:
+      "Is Paradise Valley a realistic day trip from Marrakech? The honest distance and timing, why Agadir is the right base, and the better alternatives near Marrakech.",
+    relatedTours: ["paradise-valley-agadir", "ourika-valley-day-hike", "ouzoud-waterfalls-day-trip"],
+    faq: [
+      { q: "Can you do Paradise Valley as a day trip from Marrakech?", a: "Not really. Paradise Valley is near Agadir, roughly 3.5 hours' drive from Marrakech each way — so a same-day round trip would be about 7 hours in the car for a few hours at the pools. It only makes sense if you are already going to, or through, Agadir. From Marrakech, the [Ourika Valley](/en/tours/ourika-valley-day-hike) or [Ouzoud Waterfalls](/en/tours/ouzoud-waterfalls-day-trip) are the natural equivalents." },
+      { q: "How far is Paradise Valley from Marrakech?", a: "About 300 km, or roughly 3 to 3.5 hours by road via the A7 motorway toward Agadir. That distance is why Paradise Valley is sold as an Agadir day trip rather than a Marrakech one." },
+      { q: "What is the Marrakech equivalent of Paradise Valley?", a: "For a river-valley-and-pools day from Marrakech, the Ourika Valley is the closest match — green, cool, with waterfalls at Setti Fatma, about 90 minutes away. For a bigger waterfall, Ouzoud is the Marrakech-side icon. Both are covered by our day tours." },
+    ],
+    content: `
+## The Honest Answer First
+
+Let us be straight, because a lot of pages are not: **Paradise Valley is an Agadir trip, not a Marrakech one.** It sits about 60 km inland from Agadir, which is roughly 300 km — 3 to 3.5 hours' drive — from Marrakech. A same-day return from Marrakech means around seven hours in the car for a couple of hours at the pools. That is not a day trip anyone enjoys.
+
+So if you are based in Marrakech, this post saves you a mistake and points you at the better options.
+
+## When It Does Make Sense
+
+Visiting Paradise Valley from the Marrakech side only really works if you are **already travelling to or through Agadir** — for example on a longer Morocco itinerary that includes the south coast, or if you are moving between the two cities anyway. In that case, base yourself in Agadir for the valley and use our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir), which is built around the short drive from the coast.
+
+For the full picture of the valley itself, see the [complete Paradise Valley guide](/en/blog/paradise-valley-agadir-complete-guide).
+
+## The Better Marrakech Alternatives
+
+If you are staying in Marrakech and want the same *feeling* — a cool river valley with pools and waterfalls, reachable in a day — you have two strong options much closer to home:
+
+- **Ourika Valley.** The classic Marrakech river-valley escape: green terraces, Berber villages, and the Setti Fatma waterfalls, about 90 minutes away. Our [Ourika Valley day hike](/en/tours/ourika-valley-day-hike) covers it.
+- **Ouzoud Waterfalls.** Morocco's most dramatic falls, a 110 m triple cascade with wild monkeys, on our [Ouzoud Waterfalls day trip](/en/tours/ouzoud-waterfalls-day-trip).
+
+Both give you the water-and-nature day that people picture when they search for Paradise Valley — without the seven-hour round trip.
+
+## The Bottom Line
+
+Want Paradise Valley specifically? Do it from Agadir. Based in Marrakech and just want a beautiful valley day? Go to Ourika or Ouzoud instead.
+
+👉 **[Book the Paradise Valley Day Trip from Agadir](/en/tours/paradise-valley-agadir)** if Agadir is your base — or explore our [Ourika](/en/tours/ourika-valley-day-hike) and [Ouzoud](/en/tours/ouzoud-waterfalls-day-trip) trips from Marrakech.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

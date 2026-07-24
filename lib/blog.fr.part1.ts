@@ -1268,7 +1268,7 @@ Fès possède l'un des plus anciens quartiers juifs d'Afrique du Nord, établi e
     excerpt:
       "Le Maroc est largement sûr pour les touristes — mais il est utile de savoir ce qui est réel et ce qui relève de la mise en scène. Un guide berbère agréé vous donne le tableau sans fard : où sont les vrais risques, où ils ne sont pas, et comment éviter chaque arnaque qui cible les visiteurs de première fois.",
     heroImage:
-      "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,

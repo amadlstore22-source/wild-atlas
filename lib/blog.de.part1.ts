@@ -1261,7 +1261,7 @@ Fès besitzt eines der ältesten jüdischen Viertel Nordafrikas, gegründet 1438
     excerpt:
       "Marokko ist für Touristen überaus sicher – doch es hilft zu wissen, was real ist und was Theater. Ein lizenzierter Berberführer gibt Ihnen das ungeschminkte Bild: wo die Risiken liegen, wo nicht, und wie Sie jede Abzocke vermeiden, die auf Erstbesucher abzielt.",
     heroImage:
-      "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,

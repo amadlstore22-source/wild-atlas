@@ -8,7 +8,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "Le Maroc est sûr pour les femmes voyageant seules, et la mise en garde honnête, c'est que sûr ne veut pas dire confortable. À quoi ressemble vraiment l'attention qu'on y reçoit, comment s'habiller, et les stratégies qui fonctionnent.",
     heroImage:
-      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -1216,7 +1216,7 @@ Aït Benhaddou se trouve sur la route d'Ouarzazate empruntée par notre [Grand T
     title: "Qui sont les Berbères ? Une introduction depuis l'intérieur de la culture",
     excerpt:
       "Nos guides sont berbères, notre père fut l'un des premiers guides de montagne berbères agréés dans le Haut Atlas, et le mot est utilisé constamment sur les voyages au Maroc sans grande explication. Voici ce qu'il signifie réellement.",
-    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1272,7 +1272,7 @@ Comprendre cela n'est pas anecdotique — cela change la manière dont un trek s
     title: "Qu'est-ce qu'une kasbah ? Le mot derrière la moitié des monuments du Maroc",
     excerpt:
       "En anglais, « kasbah » est employé de façon vague pour désigner tout vieux bâtiment exotique. Voici ce que le mot signifie réellement, et en quoi il diffère d'un riad, d'un ksar et d'une médina.",
-    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1434,7 +1434,7 @@ Des chiffres sur une page ne transmettent pas vraiment ce que ressent une mer de
     title: "La meilleure carte SIM au Maroc pour les touristes (2026)",
     excerpt:
       "Vous avez besoin d'une connexion data qui fonctionne davantage dans l'Atlas et le Sahara qu'à Marrakech, ce qui change l'opérateur qui compte réellement. Voici quoi acheter et où.",
-    heroImage: "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1554,7 +1554,7 @@ Certains de nos itinéraires — le [Grand Tour du désert de 4 jours](/fr/tours
     title: "Visiter le Maroc pendant le Ramadan : ce qui change réellement",
     excerpt:
       "Le Ramadan 2026 se déroule de la mi-février à la mi-mars. Voici ce qui change véritablement pour un visiteur — horaires des restaurants, rythme de vie, et comment être un hôte respectueux — et ce qui ne change pas.",
-    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1609,7 +1609,7 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
     title: "L'alcool au Maroc : ce qui est légal, et où",
     excerpt:
       "Le Maroc est un pays à majorité musulmane où l'alcool est légal mais étroitement canalisé — vendu dans des lieux précis, selon des règles précises. Voici comment cela fonctionne réellement.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,

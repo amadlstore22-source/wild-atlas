@@ -10,7 +10,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "Il Marocco è sicuro per le donne che viaggiano da sole, e la nota onesta è che sicuro non significa sempre comodo. Come si manifesta davvero l'attenzione indesiderata, cosa indossare e le strategie che funzionano.",
     heroImage:
-      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -1218,7 +1218,7 @@ Aït Benhaddou si trova sulla strada di Ouarzazate percorsa dal nostro [Grand To
     title: "Chi Sono i Berberi? Un'Introduzione da Dentro la Cultura",
     excerpt:
       "Le nostre guide sono berbere, nostro padre fu una delle prime guide di montagna berbere autorizzate nell'Alto Atlante, e la parola viene usata costantemente nei viaggi in Marocco senza molte spiegazioni. Ecco cosa significa davvero.",
-    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1274,7 +1274,7 @@ Capire questo non è un aneddoto; cambia come si legge un trekking. Quando una g
     title: "Cos'è una Kasbah? La Parola Dietro Metà dei Monumenti del Marocco",
     excerpt:
       "Kasbah viene usata liberamente in inglese per significare 'edificio antico esotico'. Ecco cosa significa davvero, e come differisce da un riad, un ksar e una medina.",
-    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1436,7 +1436,7 @@ I numeri su una pagina non trasmettono davvero cosa si prova in un mare di dune 
     title: "La Migliore SIM in Marocco per Turisti (2026)",
     excerpt:
       "Ti serve la connessione dati più sull'Atlante e nel Sahara che a Marrakech, il che cambia quale operatore conta davvero. Ecco cosa comprare e dove.",
-    heroImage: "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1556,7 +1556,7 @@ Alcuni dei nostri itinerari, il [Grand Tour del Deserto di 4 giorni](/it/tours/d
     title: "Visitare il Marocco Durante il Ramadan: Cosa Cambia Davvero",
     excerpt:
       "Il Ramadan 2026 va da metà febbraio a metà marzo. Ecco cosa cambia davvero per un visitatore: orari dei ristoranti, ritmo di vita e come essere un ospite rispettoso, e cosa invece non cambia.",
-    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1611,7 +1611,7 @@ Genuinamente, dipende da cosa cerchi. I siti principali e i trekking sono più t
     title: "Alcol in Marocco: Cos'è Legale, e Dove",
     excerpt:
       "Il Marocco è un paese a maggioranza musulmana dove l'alcol è legale ma strettamente incanalato: venduto in luoghi specifici, secondo regole specifiche. Ecco come funziona davvero.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,

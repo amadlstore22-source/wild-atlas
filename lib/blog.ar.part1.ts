@@ -1260,7 +1260,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     title: "هل المغرب آمن للسياح؟ دليل صادق (2025)",
     excerpt:
       "المغرب آمن بشكل ساحق للسياح — لكن من المفيد معرفة ما هو حقيقي وما هو مسرحية. مرشد بربري مرخَّص يمنحك الصورة غير المنمَّقة: أين توجد المخاطر فعلًا، وأين لا توجد، وكيف تتجنب كل احتيال يستهدف الزوار لأول مرة.",
-    heroImage: "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,

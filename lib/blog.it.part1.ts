@@ -1260,7 +1260,7 @@ Fes ha uno dei quartieri ebraici più antichi del Nord Africa, istituito nel 143
     title: "Il Marocco è sicuro per i turisti? Una guida onesta (2025)",
     excerpt:
       "Il Marocco è nel complesso estremamente sicuro per i turisti — ma aiuta sapere cosa è reale e cosa è teatro. Una guida berbera autorizzata vi offre il quadro senza filtri: dove sono i rischi reali, dove non lo sono, e come evitare ogni truffa che prende di mira i visitatori alle prime armi.",
-    heroImage: "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,

@@ -10,7 +10,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "Marruecos es seguro para las mujeres que viajan solas, y la advertencia honesta es que seguro no significa cómodo. Cómo es en realidad la atención que reciben, qué ponerse y las estrategias que funcionan.",
     heroImage:
-      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -1218,7 +1218,7 @@ Ait Benhaddou está en la carretera hacia Ouarzazate que usan nuestro [Gran Tour
     title: "¿Quiénes son los bereberes? Una introducción desde dentro de la cultura",
     excerpt:
       "Nuestros guías son bereberes, nuestro padre fue uno de los primeros guías de montaña bereberes con licencia en el Alto Atlas, y la palabra se usa constantemente en los viajes por Marruecos sin mucha explicación. Esto es lo que realmente significa.",
-    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1274,7 +1274,7 @@ Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un gu
     title: "¿Qué es una kasbah? La palabra detrás de la mitad de los monumentos de Marruecos",
     excerpt:
       "Kasbah se usa de forma laxa en inglés para decir 'edificio antiguo exótico'. Esto es lo que realmente significa, y en qué se diferencia de un riad, un ksar y una medina.",
-    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1436,7 +1436,7 @@ Los números sobre el papel no transmiten realmente lo que se siente un mar de d
     title: "La mejor tarjeta SIM en Marruecos para turistas (2026)",
     excerpt:
       "Necesitas datos que funcionen más en el Atlas y el Sahara que en Marrakech, lo cual cambia qué operadora importa de verdad. Qué comprar y dónde.",
-    heroImage: "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1556,7 +1556,7 @@ Algunos de nuestros itinerarios —el [Gran Tour del Desierto de 4 días](/en/to
     title: "Visitar Marruecos durante el Ramadán: qué cambia de verdad",
     excerpt:
       "El Ramadán de 2026 va de mediados de febrero a mediados de marzo. Esto es lo que realmente cambia para un visitante: horarios de restaurantes, ritmo de vida, y cómo ser un invitado considerado, y lo que no cambia.",
-    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1611,7 +1611,7 @@ Genuinamente, depende de lo que busques. Los principales monumentos y treks est�
     title: "El alcohol en Marruecos: qué es legal, y dónde",
     excerpt:
       "Marruecos es un país de mayoría musulmana donde el alcohol es legal pero está estrictamente canalizado: se vende en lugares específicos, con normas específicas. Así es como funciona realmente.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,

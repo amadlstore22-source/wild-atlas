@@ -10,7 +10,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "المغرب آمن للمرأة المسافرة بمفردها، والتحفظ الصادق هو أن الأمان لا يعني الراحة دائمًا. كيف يبدو الانتباه غير المرغوب فيه فعليًا، وماذا ترتدين، والاستراتيجيات التي تنجح فعلاً.",
     heroImage:
-      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -1218,7 +1218,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "من هم الأمازيغ (البربر)؟ مقدمة من داخل الثقافة",
     excerpt:
       "مرشدونا أمازيغ، وكان والدنا من أوائل مرشدي الجبال الأمازيغ المرخّصين في الأطلس الكبير، وتُستخدم الكلمة باستمرار في رحلات المغرب دون تفسير يُذكر. إليك ما تعنيه فعليًا.",
-    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1274,7 +1274,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ما هي القصبة؟ الكلمة وراء نصف معالم المغرب",
     excerpt:
       "تُستخدم كلمة «قصبة» بشكل فضفاض في الإنجليزية لتعني «مبنى قديم غريب». إليك ما تعنيه فعليًا، وكيف تختلف عن الرياض والقصر والمدينة القديمة.",
-    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1436,7 +1436,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "أفضل شريحة اتصال (سيم) في المغرب للسياح (2026)",
     excerpt:
       "تحتاج بيانات تعمل فعليًا في الأطلس والصحراء أكثر مما تحتاجها في مراكش، وهذا يغيّر أي شبكة تهم فعليًا. إليك ما تشتريه وأين.",
-    heroImage: "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1556,7 +1556,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "زيارة المغرب خلال رمضان: ما الذي يتغير فعليًا",
     excerpt:
       "يمتد رمضان 2026 من منتصف فبراير إلى منتصف مارس. إليك ما يتغير فعليًا بالنسبة للزائر — مواعيد المطاعم، وإيقاع الحياة، وكيف تكون ضيفًا مراعيًا — وما لا يتغير.",
-    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1611,7 +1611,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الكحول في المغرب: ما هو قانوني، وأين",
     excerpt:
       "المغرب بلد ذو أغلبية مسلمة تكون فيه الكحول قانونية لكن مُقنَّنة بإحكام — تُباع في أماكن محددة، وفق قواعد محددة. إليك كيف يعمل الأمر فعليًا.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,

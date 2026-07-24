@@ -1316,7 +1316,7 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
     excerpt:
       "Morocco is overwhelmingly safe for tourists — but it helps to know what's real and what's theatre. A licensed Berber guide gives you the unvarnished picture: where the risks are, where they aren't, and how to avoid every scam that targets first-time visitors.",
     heroImage:
-      "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -2129,7 +2129,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     excerpt:
       "Morocco is safe for solo women, and the honest caveat is that safe does not mean comfortable. What the attention actually looks like, what to wear, and the strategies that work.",
     heroImage:
-      "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -3337,7 +3337,7 @@ Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](
     title: "Who Are the Berbers? An Introduction From Inside the Culture",
     excerpt:
       "Our guides are Berber, our father was one of the first licensed Berber mountain guides in the High Atlas, and the word gets used constantly on Morocco trips without much explanation. Here is what it actually means.",
-    heroImage: "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -3393,7 +3393,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
     title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
     excerpt:
       "Kasbah gets used loosely in English to mean 'exotic old building.' Here is what it actually means, and how it differs from a riad, a ksar and a medina.",
-    heroImage: "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -3555,7 +3555,7 @@ Numbers on a page don't really convey what a dune sea feels like at dawn. For th
     title: "The Best SIM Card in Morocco for Tourists (2026)",
     excerpt:
       "You need working data more in the Atlas and the Sahara than in Marrakech, which changes which network actually matters. Here's what to buy and where.",
-    heroImage: "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -3675,7 +3675,7 @@ Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-
     title: "Visiting Morocco During Ramadan: What Actually Changes",
     excerpt:
       "Ramadan 2026 runs mid-February to mid-March. Here's what genuinely changes for a visitor — restaurant hours, pace of life, and how to be a considerate guest — and what doesn't.",
-    heroImage: "https://images.unsplash.com/photo-1661987284979-23568e5f0023?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -3730,7 +3730,7 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
     title: "Alcohol in Morocco: What's Legal, and Where",
     excerpt:
       "Morocco is a Muslim-majority country where alcohol is legal but tightly channelled — sold in specific places, to specific rules. Here's how it actually works.",
-    heroImage: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 5,

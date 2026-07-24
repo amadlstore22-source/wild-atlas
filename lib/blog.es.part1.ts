@@ -1268,7 +1268,7 @@ Fez tiene uno de los barrios judíos más antiguos del norte de África, estable
     excerpt:
       "Marruecos es abrumadoramente seguro para los turistas, pero ayuda saber qué es real y qué es teatro. Un guía bereber con licencia te da la imagen sin adornos: dónde están los riesgos, dónde no están, y cómo evitar todos los timos que apuntan a los visitantes primerizos.",
     heroImage:
-      "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=1600&q=85",
+      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "root",
     readTime: 11,

@@ -221,7 +221,10 @@
     "contactCustomPlan": "Kontaktieren Sie uns für einen individuellen Plan →",
     "perPersonMobile": "Pro Person",
     "perPersonSuffix": "/ Person",
-    "bookMobile": "Buchen"
+    "bookMobile": "Buchen",
+    "perPersonShort": "Person",
+    "groupSaveNote": "Gruppenpreis — Sie sparen {amount}/Person",
+    "groupRateFrom": "Gruppen ab {price}/Person"
   },
   "cookieBanner": {
     "body": "Wir verwenden einige wenige Cookies, um Ihre Einstellungen zu speichern. Notwendige Cookies sind immer aktiv; es gibt keine Cookie-Wand.",

@@ -221,7 +221,10 @@
     "contactCustomPlan": "تواصل معنا لخطة مخصصة ←",
     "perPersonMobile": "للشخص",
     "perPersonSuffix": "/ للشخص",
-    "bookMobile": "احجز"
+    "bookMobile": "احجز",
+    "perPersonShort": "للشخص",
+    "groupSaveNote": "سعر المجموعة — توفّر {amount}‏/شخص",
+    "groupRateFrom": "المجموعات ابتداءً من {price}‏/شخص"
   },
   "cookieBanner": {
     "body": "نستخدم بعض ملفات تعريف الارتباط لتذكر تفضيلاتك. ملفات تعريف الارتباط الضرورية مفعّلة دائماً؛ ولا يوجد حاجز إجباري لملفات تعريف الارتباط.",

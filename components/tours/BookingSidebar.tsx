@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
+import { perPersonPrice } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { priceIn } from "@/lib/currency-core";
@@ -51,8 +52,14 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
     `Hello! I'd like to pay the ${format(tour.depositAmount)} deposit for "${tour.title}". Could you send me a payment link?`,
   );
   const priceMax = tour.priceMax ?? null;
-  const totalMin = tour.price * people;
-  const totalMax = priceMax ? priceMax * people : null;
+  // Group-size pricing: the per-person rate drops as the group grows. `effPer`
+  // is the rate for the currently-selected group; `basePer` is the 1–3 rate,
+  // so `saved` shows the discount when a bigger group has been chosen.
+  const effPer = perPersonPrice(tour, people);
+  const basePer = perPersonPrice(tour, 1);
+  const savedPerPerson = basePer - effPer;
+  const totalMin = effPer * people;
+  const totalMax = priceMax ? Math.round((priceMax / tour.price) * effPer) * people : null;
 
   return (
     <>
@@ -65,6 +72,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             {format(tour.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
           </div>
           <div className="text-white/55 text-xs mt-1">{b.exactPriceNote}</div>
+          {basePer > perPersonPrice(tour, 6) && (
+            <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow bg-white/10 px-2.5 py-1 rounded-full">
+              {(b.groupRateFrom ?? "Groups from {price}/person").replace("{price}", format(perPersonPrice(tour, 6)))}
+            </div>
+          )}
           <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">
             <div>
               <div className="text-white/65 text-xs">{b.deposit}</div>
@@ -174,13 +186,20 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 </div>
               </div>
 
-              {/* Total estimate */}
+              {/* Total estimate + group-size pricing */}
               {people > 0 && (
-                <div className="flex items-center justify-between bg-indigo/5 border border-indigo/10 px-4 py-2.5 rounded-[3px]">
-                  <span className="text-xs text-ink-soft">{b.estTotal}</span>
-                  <span className="font-bold text-indigo text-sm">
-                    {format(totalMin)}{totalMax ? ` – ${format(totalMax)}` : ""}
-                  </span>
+                <div className="bg-indigo/5 border border-indigo/10 px-4 py-2.5 rounded-[3px] space-y-1.5">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-ink-soft">{format(effPer)} <span className="text-ink-muted">/ {b.perPersonShort ?? "person"}</span></span>
+                    <span className="font-bold text-indigo text-sm">
+                      {format(totalMin)}{totalMax ? ` – ${format(totalMax)}` : ""}
+                    </span>
+                  </div>
+                  {savedPerPerson > 0 && (
+                    <div className="text-[0.7rem] text-forest font-semibold">
+                      {(b.groupSaveNote ?? "Group rate — you save {amount}/person").replace("{amount}", format(savedPerPerson))}
+                    </div>
+                  )}
                 </div>
               )}
 

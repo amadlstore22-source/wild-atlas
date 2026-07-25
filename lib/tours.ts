@@ -30,6 +30,11 @@ export interface Tour {
    *  (private tours price per booking; shared price per person). Defaults to
    *  "shared" when omitted so existing behaviour is unchanged. */
   tourType?: "private" | "shared";
+  /** Optional per-person price tiers: the price each traveller pays once the group
+   *  reaches `minPeople`. Larger groups share fixed costs (guide, vehicle), so the
+   *  per-person price drops. Tiers must be sorted ascending by minPeople and start
+   *  at 1. When omitted, `groupPriceTiers()` derives sensible tiers from `price`. */
+  groupPricing?: { minPeople: number; price: number }[];
   /** @deprecated Placeholder figures, not a real review corpus — the sum across
    *  tours (~2,276) far exceeds our actual 122 TripAdvisor reviews. Not rendered
    *  and not emitted as schema. Delete once real per-tour reviews exist, or
@@ -3076,6 +3081,33 @@ export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
   "day-tours": 8,
   // "hiking" is declared in Category but has no tours and no CATEGORIES entry.
 };
+
+/**
+ * Per-person price tiers for a tour, largest groups cheapest. Uses the tour's
+ * own `groupPricing` when set; otherwise derives tiers from the base `price`:
+ * the headline `price` is the 1–3 person rate, easing to ~92% at 4+ and ~85%
+ * at 6+ as fixed costs (guide, vehicle) spread across more travellers. Prices
+ * are rounded to the nearest $5 so the numbers read cleanly.
+ */
+export function groupPriceTiers(tour: Tour): { minPeople: number; price: number }[] {
+  if (tour.groupPricing?.length) return tour.groupPricing;
+  const round5 = (n: number) => Math.round(n / 5) * 5;
+  return [
+    { minPeople: 1, price: tour.price },
+    { minPeople: 4, price: round5(tour.price * 0.92) },
+    { minPeople: 6, price: round5(tour.price * 0.85) },
+  ];
+}
+
+/** The per-person price for a given group size, from the applicable tier. */
+export function perPersonPrice(tour: Tour, people: number): number {
+  const tiers = groupPriceTiers(tour);
+  let price = tiers[0].price;
+  for (const t of tiers) {
+    if (people >= t.minPeople) price = t.price;
+  }
+  return price;
+}
 
 // Difficulty badges as one cold-palette family: indigo-wash → saffron-wash →
 // terracotta-tint → deep terracotta. Structural tints on plaster, AA text.

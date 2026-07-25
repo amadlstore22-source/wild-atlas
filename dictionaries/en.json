@@ -158,7 +158,9 @@
     "anyPrice": "Any price",
     "underPrice": "Under {price}",
     "priceRange": "{min} to {max}",
-    "pricePlus": "{price}+"
+    "pricePlus": "{price}+",
+    "private": "Private",
+    "shared": "Shared"
   },
   "tourDetail": {
     "overview": "Overview",

@@ -78,6 +78,11 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         <div className="absolute top-5 right-5 z-20">
           <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>{tour.difficulty}</Badge>
         </div>
+        <div className="absolute top-5 left-5 z-20">
+          <Badge className={`border-0 shadow-sm ${tour.tourType === "private" ? "bg-brass text-charcoal" : "bg-white/85 text-charcoal"}`}>
+            {tour.tourType === "private" ? (dict?.tours.private ?? "Private") : (dict?.tours.shared ?? "Shared")}
+          </Badge>
+        </div>
 
         <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7 z-20">
           {/* Business-wide TripAdvisor rating, labelled as such. We have no
@@ -129,6 +134,11 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
 
         <div className="absolute top-3.5 right-3.5 z-20">
           <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>{tour.difficulty}</Badge>
+        </div>
+        <div className="absolute top-3.5 left-3.5 z-20">
+          <Badge className={`border-0 shadow-sm ${tour.tourType === "private" ? "bg-brass text-charcoal" : "bg-white/85 text-charcoal"}`}>
+            {tour.tourType === "private" ? (dict?.tours.private ?? "Private") : (dict?.tours.shared ?? "Shared")}
+          </Badge>
         </div>
         <div className="absolute bottom-3.5 left-4 z-20 flex items-center gap-1.5 text-cream/90 text-xs font-medium">
           <MapPin className="w-3.5 h-3.5 text-brass-glow" weight="fill" />

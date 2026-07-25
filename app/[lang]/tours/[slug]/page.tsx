@@ -163,6 +163,9 @@ export default async function TourDetailPage({ params }: TourParams) {
             <Badge className={`rounded-[3px] capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
               {tour.difficulty}
             </Badge>
+            <Badge className={`rounded-[3px] border-0 shadow-sm ${tour.tourType === "private" ? "bg-brass text-charcoal" : "bg-white/85 text-charcoal"}`}>
+              {tour.tourType === "private" ? dict.tours.private : dict.tours.shared}
+            </Badge>
           </div>
           <h1 className="hero-title font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">{tour.title}</h1>
           <div className="flex flex-wrap gap-6 mt-4 text-white/75 text-sm">

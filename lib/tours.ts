@@ -2889,6 +2889,101 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "41",
+    slug: "toubkal-summit-sahara-5day",
+    title: "Toubkal Summit & Sahara — 5-Day Mountain-to-Desert Tour",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "5 days / 4 nights",
+    groupSize: "2–10 people",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 690,
+    priceMax: 790,
+    depositAmount: 175,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription:
+      "The two great Moroccan adventures in one trip: summit Jbel Toubkal (4,167 m), then cross the Atlas to sleep under the stars on the Erg Chebbi dunes.",
+    description:
+      "This is Morocco's two headline experiences combined into a single, well-paced week: the highest summit in North Africa and the great dunes of the Sahara, back to back. The first two days climb Jbel Toubkal (4,167 m) from the Berber trailhead village of Imlil, with a refuge night at 3,207 m and a sunrise summit. Then, rather than returning to a hotel and starting again, you cross the High Atlas by road to the desert — through Aït Ben Haddou and the gorge country — for two nights that finish on the Erg Chebbi dunes at Merzouga, with a camel trek and a night in a desert camp. Mountain and desert, summit and Sahara, in five connected days. Run privately for your group.",
+    highlights: [
+      "Summit Jbel Toubkal (4,167 m) — the highest peak in North Africa",
+      "Sunrise from the roof of North Africa, then breakfast back at the refuge",
+      "Cross the Tizi n'Tichka pass and the UNESCO kasbah of Aït Ben Haddou",
+      "Camel trek into the Erg Chebbi dunes and a night in a Sahara desert camp",
+      "Two of Morocco's biggest experiences in one private, connected itinerary",
+    ],
+    includes: [
+      "Professional licensed mountain guide for the Toubkal trek",
+      "Private bilingual driver-guide (English/French) for the desert leg",
+      "1 night mountain refuge + 1 night Imlil guesthouse (trek)",
+      "1 night hotel in Dades Valley + 1 night Erg Chebbi desert camp",
+      "All meals during the trek; dinner + breakfast on desert-camp and Dades nights",
+      "Mule porter on the trek; sunset and sunrise camel treks at Erg Chebbi",
+      "Toubkal National Park fees, all transfers, and round-trip from Marrakech",
+    ],
+    excludes: [
+      "Travel insurance (mandatory for the trek)",
+      "Personal trekking equipment and sleeping bag",
+      "Lunches on the desert days (budget €12–15 per meal)",
+      "Crampons and ice axe if summiting in winter (rental available)",
+      "Tips for guides, driver, cook, and muleteer",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
+        description:
+          "Morning transfer from Marrakech to Imlil (1,740 m), about 90 minutes, where you meet your mountain guide. Trek up the Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge (3,207 m) — roughly 5 hours with a mule carrying the bags. Afternoon acclimatisation walk above the refuge, early dinner, and an early night before summit day.",
+      },
+      {
+        day: 2,
+        title: "Summit Toubkal (4,167 m) → Imlil",
+        description:
+          "Pre-dawn start by head torch for the steep push up the South Cirque to the summit for sunrise, with the whole High Atlas — and the edge of the Sahara — below. Descend to the refuge for a proper breakfast, then continue down to Imlil. Night in an Imlil guesthouse to rest tired legs before the desert leg.",
+      },
+      {
+        day: 3,
+        title: "Imlil → Aït Ben Haddou → Dades Valley",
+        description:
+          "Meet your desert driver-guide and cross the High Atlas by the Tizi n'Tichka pass. Stop at the earthen kasbah of Aït Ben Haddou (a Game of Thrones and Gladiator location), then follow the Road of a Thousand Kasbahs to a hotel in the Dades Valley. Dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Dades → Todra Gorge → Erg Chebbi Desert Camp",
+        description:
+          "Morning walk in the dramatic Todra Gorge (400 m walls), then east across the desert to Merzouga. Arrive at the Erg Chebbi dunes for a sunset camel trek into a Berber desert camp. Dinner around the fire and stargazing under one of the darkest skies in Morocco. Overnight at the camp.",
+      },
+      {
+        day: 5,
+        title: "Sunrise Dunes → Marrakech",
+        description:
+          "Optional sunrise camel ride over the dunes and breakfast at camp, then the drive back across the Atlas to Marrakech via Ouarzazate, arriving in the evening. Tour ends.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Toubkal Summit & Sahara 5-Day Tour from Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. Private 5-day mountain-to-desert tour from Marrakech. From $690.",
+    faq: [
+      { q: "How fit do I need to be for the Toubkal and Sahara combo?", a: "The trek half is graded challenging: two mountain days with a pre-dawn summit push at 4,167 m, so you need to be a fit, regular walker comfortable at altitude. The desert half is easy and vehicle-based, so it acts as a rest after the summit. If you can manage a hard two-day mountain trek, the rest of the trip is comfortable." },
+      { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },
+      { q: "Where do we sleep across the five days?", a: "One night in the Toubkal Refuge (a shared mountain hut at 3,207 m), one night in an Imlil village guesthouse, one night in a Dades Valley hotel, and one night in a Berber desert camp on the Erg Chebbi dunes. A sleeping bag liner is worth bringing for the refuge and camp." },
+      { q: "Is this a private tour?", a: "Yes. It runs privately for your party of 2–10, with a licensed mountain guide for the trek and a dedicated driver-guide and vehicle for the desert leg. You are not joined to other groups." },
+      { q: "Can the 5-day combo run in winter?", a: "Yes, but the Toubkal summit becomes a snow climb from roughly November to March, needing crampons and an ice axe (rental available) and a bit more mountain experience. The desert leg runs year-round; winter desert nights are cold, so pack warm layers." },
+    ],
+    featured: true,
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {
@@ -2975,7 +3070,7 @@ export const CATEGORIES: {
  *  `tourCountsMatchCatalogue` in __tests__/lib/tours.test.ts fails if these
  *  drift from the real catalogue, so they cannot silently go stale. */
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
-  trekking: 11,
+  trekking: 12,
   desert: 11,
   cultural: 9,
   "day-tours": 8,

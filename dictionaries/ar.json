@@ -182,7 +182,18 @@
     "transportIncluded": "النقل مشمول",
     "accommodationIncluded": "الإقامة مشمولة",
     "moreCategoryAdventures": "المزيد من مغامرات {category}",
-    "meetingPointHeading": "نقطة الالتقاء"
+    "meetingPointHeading": "نقطة الالتقاء",
+    "trust": {
+      "licensed": "وكالة محلية مرخَّصة",
+      "licensedSub": "وكالة مسجَّلة بمراكش",
+      "ratingSub": "{count} تقييمًا على TripAdvisor",
+      "yearsLabel": "سنة من الإرشاد",
+      "yearsSub": "مرشدون من عائلة أمازيغية من الأطلس",
+      "noPrepay": "بدون دفع مسبق",
+      "noPrepaySub": "عربون بسيط، والباقي عند الوصول",
+      "fastReply": "ردّ بشري سريع",
+      "fastReplySub": "عادةً خلال {hours} ساعة، من مرشد حقيقي"
+    }
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",

@@ -182,7 +182,18 @@
     "transportIncluded": "Transport included",
     "accommodationIncluded": "Accommodation included",
     "moreCategoryAdventures": "More {category} Adventures",
-    "meetingPointHeading": "Where You'll Meet"
+    "meetingPointHeading": "Where You'll Meet",
+    "trust": {
+      "licensed": "Licensed local operator",
+      "licensedSub": "Registered Marrakech agency",
+      "ratingSub": "{count} TripAdvisor reviews",
+      "yearsLabel": "years guiding",
+      "yearsSub": "Atlas Berber family guides",
+      "noPrepay": "No prepayment",
+      "noPrepaySub": "Small deposit, pay the rest on arrival",
+      "fastReply": "Fast human reply",
+      "fastReplySub": "Usually within {hours}h, by a real guide"
+    }
   },
   "booking": {
     "pricePerPerson": "Price per person",

@@ -182,7 +182,18 @@
     "transportIncluded": "Transporte incluido",
     "accommodationIncluded": "Alojamiento incluido",
     "moreCategoryAdventures": "Más Aventuras de {category}",
-    "meetingPointHeading": "Punto de encuentro"
+    "meetingPointHeading": "Punto de encuentro",
+    "trust": {
+      "licensed": "Agencia local autorizada",
+      "licensedSub": "Agencia registrada en Marrakech",
+      "ratingSub": "{count} opiniones en TripAdvisor",
+      "yearsLabel": "años guiando",
+      "yearsSub": "Guías de una familia bereber del Atlas",
+      "noPrepay": "Sin pago por adelantado",
+      "noPrepaySub": "Pequeña señal, el resto a la llegada",
+      "fastReply": "Respuesta humana rápida",
+      "fastReplySub": "Normalmente en {hours}h, por un guía real"
+    }
   },
   "booking": {
     "pricePerPerson": "Precio por persona",

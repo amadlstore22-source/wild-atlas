@@ -15,6 +15,7 @@ import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import TourLocationMap from "@/components/map/TourLocationMap";
 import TourNavBar from "@/components/tours/TourNavBar";
+import TourTrustBar from "@/components/tours/TourTrustBar";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument } from "@/lib/seo/schema";
@@ -175,6 +176,8 @@ export default async function TourDetailPage({ params }: TourParams) {
           </div>
         </div>
       </div>
+
+      <TourTrustBar dict={dict} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-28 lg:pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">

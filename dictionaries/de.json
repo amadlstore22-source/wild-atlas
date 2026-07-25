@@ -182,7 +182,18 @@
     "transportIncluded": "Transport inklusive",
     "accommodationIncluded": "Unterkunft inklusive",
     "moreCategoryAdventures": "Weitere {category}-Abenteuer",
-    "meetingPointHeading": "Treffpunkt"
+    "meetingPointHeading": "Treffpunkt",
+    "trust": {
+      "licensed": "Lizenzierter lokaler Anbieter",
+      "licensedSub": "In Marrakesch registrierte Agentur",
+      "ratingSub": "{count} Bewertungen auf TripAdvisor",
+      "yearsLabel": "Jahre Guiding",
+      "yearsSub": "Guides einer Berberfamilie aus dem Atlas",
+      "noPrepay": "Keine Vorauszahlung",
+      "noPrepaySub": "Kleine Anzahlung, Rest bei Ankunft",
+      "fastReply": "Schnelle persönliche Antwort",
+      "fastReplySub": "Meist innerhalb {hours} Std., von einem echten Guide"
+    }
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

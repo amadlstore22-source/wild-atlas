@@ -132,18 +132,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate",
         description:
           "Salida de Marrakech a las 7:00. Cruce del puerto de Tizi n'Tichka (2.260 m). Visita a Aït Ben Haddou. Noche en Ouarzazate, la puerta del desierto.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Ouarzazate → Valle del Draa → Campamento de Erg Chebbi",
         description:
           "Recorrido por el palmeral del valle del Draa. Llegada a Merzouga a media tarde. Paseo en camello hacia Erg Chebbi al atardecer. Cena y música gnawa bajo las estrellas.",
       },
       {
         day: 3,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer en el Sáhara → Garganta de Todra → Marrakech",
         description:
           "Despertar antes del amanecer para ver salir el sol sobre las dunas. Paseo en camello de regreso y desayuno. Vuelta pasando por la garganta de Todra. Llegada a Marrakech por la tarde-noche.",
@@ -431,18 +434,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
           "Salida a las 7:30. Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
       },
       {
         day: 2,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
           "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad.",
       },
       {
         day: 3,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
           "Exploración guiada de Fez el-Bali: curtidurías Chouara, Universidad de Al-Qarawiyyin, Medersa Bou Inania y los zocos laberínticos. El tour termina en Fez.",
@@ -504,13 +510,13 @@ export const TOURS: Tour[] = [
       "Tips",
     ],
     itinerary: [
-      { day: 1, title: "Marrakech → Aït M'hamed", description: "Traslado hasta el punto de partida. Encuentro con el equipo de mulas y el personal. Primera noche con una familia bereber." },
-      { day: 2, title: "Aït M'hamed → Agouti (2.600 m)", description: "Trekking a través del Aït Bouguemez, el 'Valle Feliz'. Campamento en Agouti." },
-      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Primer puerto de altura. Panorámicas impresionantes. Campamento salvaje en Tarkeddit." },
-      { day: 4, title: "Cima del M'Goun (4.068 m)", description: "Salida antes del amanecer. Ascenso al Jbel M'Goun. Descenso al campamento de la garganta del Tessaute." },
-      { day: 5, title: "Travesía de la Garganta del Tessaute", description: "Recorrido por la espectacular garganta de paredes rojizas. Baño salvaje en el río." },
-      { day: 6, title: "Salida de la Garganta → Bou Tharar", description: "Salida de la garganta. Noche en el pueblo de Bou Tharar con una familia local." },
-      { day: 7, title: "Bou Tharar → Marrakech", description: "Traslado de regreso a Marrakech pasando por el valle de las rosas. El tour concluye hacia las 16:00." },
+      { day: 1, title: "Marrakech → Aït M'hamed", description: "Traslado hasta el punto de partida. Encuentro con el equipo de mulas y el personal. Primera noche con una familia bereber.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 } },
+      { day: 2, title: "Aït M'hamed → Agouti (2.600 m)", description: "Trekking a través del Aït Bouguemez, el 'Valle Feliz'. Campamento en Agouti.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 } },
+      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Primer puerto de altura. Panorámicas impresionantes. Campamento salvaje en Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 } },
+      { day: 4, title: "Cima del M'Goun (4.068 m)", description: "Salida antes del amanecer. Ascenso al Jbel M'Goun. Descenso al campamento de la garganta del Tessaute.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 } },
+      { day: 5, title: "Travesía de la Garganta del Tessaute", description: "Recorrido por la espectacular garganta de paredes rojizas. Baño salvaje en el río.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 } },
+      { day: 6, title: "Salida de la Garganta → Bou Tharar", description: "Salida de la garganta. Noche en el pueblo de Bou Tharar con una familia local.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 } },
+      { day: 7, title: "Bou Tharar → Marrakech", description: "Traslado de regreso a Marrakech pasando por el valle de las rosas. El tour concluye hacia las 16:00.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 } },
     ],
     faq: [
       { q: "¿Es el M'Goun más duro que el Toubkal?", a: "En el conjunto de una semana, sí. Calificamos esta ruta como de nivel experto frente al nivel exigente de las rutas del Toubkal, no porque un día concreto sea técnico, sino porque son siete días seguidos en terreno remoto con menos lugares donde parar o dar la vuelta. Es esfuerzo sostenido más que un día especialmente duro." },
@@ -797,18 +803,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "Agadir → Tafraout → Primer Campamento",
         description:
           "Trayecto hasta Tafraout (2h30). Visita a las rocas pintadas. Inicio del trekking hacia las gargantas de almendros. Noche en una casa de huéspedes bereber.",
       },
       {
         day: 2,
+        stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "Travesía de la Cresta Alta",
         description:
           "Día completo de trekking por crestas de granito rosa con vistas al valle de Ameln, abajo. Noche en tienda de campaña o casa de huéspedes en un pueblo remoto.",
       },
       {
         day: 3,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Descenso del Valle → Agadir",
         description:
           "Descenso matinal a través del bosque de argán. Almuerzo tradicional en un pueblo. Trayecto de vuelta a Agadir. Llegada a última hora de la tarde.",
@@ -866,12 +875,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "Agadir → Tata → Foum Zguid → Erg Chegaga",
         description:
           "Salida de Agadir a las 6:30. Trayecto hacia el sur por las estribaciones del Antiatlas, vía Tata. Cruce de la hammada hasta Foum Zguid. Paseo en camello hacia Erg Chegaga al atardecer. Cena en el campamento bereber.",
       },
       {
         day: 2,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → Valle del Draa → Agadir",
         description:
           "Paseo en camello al amanecer para ver salir el sol sobre las dunas. Desayuno en el campamento. Trayecto hacia el norte por los magníficos palmerales del valle del Draa. Llegada a Agadir por la tarde-noche.",
@@ -1045,24 +1056,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Marrakech → Ifrane → Fez",
         description:
           "Salida de Marrakech a las 7:00. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad.",
       },
       {
         day: 2,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
           "Día completo guiado por Fez el-Bali: curtidurías Chouara, Universidad de Al-Qarawiyyin, Medersa Bou Inania y los antiguos zocos. Paseo por la tarde-noche sobre las murallas de la medina.",
       },
       {
         day: 3,
+        stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Fez → Volubilis → Mequinez → Chefchaouen",
         description:
           "Visita matinal a Volubilis, las ruinas romanas mejor conservadas de Marruecos. Trayecto a Mequinez (el Versalles marroquí). Continuación hasta Chefchaouen, en las montañas del Rif. Llegada por la tarde-noche.",
       },
       {
         day: 4,
+        stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Día Completo en Chefchaouen",
         description:
           "Día completo en la Ciudad Azul. Paseo guiado por los callejones azules de la medina, el mirador de la Mezquita Española y la cascada de Ras El-Maa. El tour concluye en Chefchaouen.",
@@ -1121,30 +1136,35 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
           "Trayecto hacia el norte desde Marrakech a través del Atlas. Parada en Aït Ben Haddou. Continuación hasta Midelt para pasar la noche en la altiplanicie entre las dos cadenas del Atlas.",
       },
       {
         day: 2,
+        stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Mequinez",
         description:
           "Mañana en las ruinas romanas de Volubilis. Tarde en Mequinez: la puerta de Bab Mansour, los graneros reales y los zocos de la medina. Noche en Mequinez.",
       },
       {
         day: 3,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Mequinez → Día Completo en Fez",
         description:
           "Día completo en Fez el-Bali con un guía experto. Curtidurías Chouara, Al-Qarawiyyin, Medersa Bou Inania y el antiguo zoco de los joyeros. Noche en Fez.",
       },
       {
         day: 4,
+        stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "Fez → Rabat",
         description:
           "Trayecto hacia el oeste hasta Rabat, en la costa atlántica. Visita a la Torre Hassan y el Mausoleo de Mohammed V, la Kasbah de los Oudayas y la medina amurallada. Noche en Rabat.",
       },
       {
         day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
           "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — la mayor mezquita del mundo fuera de Arabia Saudí). Continuación hacia el sur, a Marrakech. Llegada por la tarde-noche.",
@@ -1212,12 +1232,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakech → Aït Ben Haddou → Valle del Draa → Campamento de Zagora",
         description:
           "Recogida en tu alojamiento de Marrakech a las 7:00. Cruce del puerto de Tizi n'Tichka y parada en el Ksar de Aït Ben Haddou, Patrimonio de la UNESCO. Almuerzo en Ouarzazate. Trayecto hacia el sur por toda la extensión del oasis del valle del Draa — palmerales, pueblos de adobe y antiguas kasbahs graneras bordeando la carretera. Parada en Tamegroute para ver la biblioteca del siglo XIV y los famosos talleres de cerámica verde. Llegada al campamento del desierto cerca de Zagora a última hora de la tarde. Paseo en camello al atardecer por las dunas. Cena bereber tradicional y música alrededor de la hoguera.",
       },
       {
         day: 2,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer sobre las Dunas → Valle del Draa → Marrakech",
         description:
           "Paseo matinal o paseo opcional en camello para ver el amanecer en el desierto. Desayuno en el campamento. Salida a las 8:30 por el oasis del valle del Draa con la luz de la mañana, una atmósfera muy distinta a la de la tarde. Parada para almorzar en Ouarzazate o en ruta. Regreso a través del Alto Atlas. Llegada a Marrakech a las 18:30.",
@@ -1284,18 +1306,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
           "Recogida a las 7:00. Cruce del puerto de Tizi n'Tichka y visita a Aït Ben Haddou. Continuación hacia el sur, pasando por Ouarzazate, hasta el Valle del Azafrán cerca de Taliouine —la capital marroquí del azafrán— para una breve parada. Continuación hasta M'Hamid, el último pueblo antes del Sáhara abierto. Cena y noche en M'Hamid.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "M'Hamid → Erg Chegaga (Cruce en 4x4)",
         description:
           "Tras el desayuno, se sube al 4x4 — el asfalto termina aquí. Dos o tres horas de conducción todoterreno por desierto abierto, pasando junto a campamentos nómadas dispersos y llanuras de hammada con fósiles. Se llega al borde de Erg Chegaga hacia el mediodía. Paseo en camello adentrándose en el campo de dunas. El campamento se instala en el corazón del erg: sin carreteras, sin otros campamentos, sin contaminación lumínica. Atardecer sobre las dunas. Cena tradicional y un cielo cuajado de estrellas.",
       },
       {
         day: 3,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer en el Sáhara → M'Hamid → Marrakech",
         description:
           "Despertar antes del amanecer para subir a la cresta de la duna y ver salir el sol. Desayuno en el campamento. El 4x4 regresa a través del desierto hasta M'Hamid. Comienza el largo y bello trayecto hacia el norte por Zagora, el valle del Draa y de vuelta sobre el Alto Atlas. Llegada a Marrakech a las 19:30.",
@@ -1451,18 +1476,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
           "Recogida temprana en tu hotel de Agadir a las 6:30. Trayecto hacia el este hasta Taroudant (1 hora) — paseo por las murallas del siglo XVI y el zoco de especias de esta ciudad medieval perfectamente conservada. Continuación hasta Taliouine, el corazón azafranero de Marruecos, para una breve parada. Trayecto por Ouarzazate y visita al Ksar de Aït Ben Haddou, Patrimonio de la UNESCO. Continuación por el valle del Dades. Llegada al hotel a las 18:00. Cena y noche.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Valle del Dades → Garganta de Todra → Campamento de Erg Chebbi",
         description:
           "Desayuno en el hotel. Caminata por el suelo de la garganta de Todra — paredes de 400 m de piedra caliza rosada que enmarcan un estrecho corredor fluvial. Trayecto hacia el este, cruzando las llanuras del desierto, hasta Merzouga. Salida en camello al atardecer para adentrarte en las imponentes dunas de Erg Chebbi. Se llega al campamento cuando oscurece. Cena de tajín tradicional, música bereber y observación de estrellas en la oscuridad del Sáhara.",
       },
       {
         day: 3,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer en el Sáhara → Merzouga → Agadir",
         description:
           "Despertar a las 5:30 para el amanecer sobre las dunas. Paseo en camello de regreso, desayuno en el campamento, aseo en Merzouga. Comienza el largo trayecto de regreso hacia el oeste y el sur, pasando por Rissani, Tazarine y las llanuras del desierto, de vuelta sobre el puerto de Tizi n'Tichka hasta Agadir. Llegada entre las 20:00 y las 21:00.",
@@ -1526,12 +1554,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Agadir → Taroudant → Taznakht → Valle del Draa → Zagora",
         description:
           "Recogida en tu hotel de Agadir a las 7:30. Trayecto hacia el este hasta Taroudant: paseo por las murallas ocres del siglo XVI y el mercado bereber. Continuación hasta Taznakht, la capital bereber del tejido de alfombras. Entrada al valle del Draa por el oeste y recorrido hacia el sur entre palmerales y pueblos antiguos hasta Zagora. Llegada al campamento del desierto a tiempo para un paseo en camello por las dunas al atardecer. Cena bereber tradicional y música bajo las estrellas.",
       },
       {
         day: 2,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → Tamegroute → Valle del Draa → Agadir",
         description:
           "Paseo opcional en camello al amanecer para ver salir el sol. Desayuno en el campamento. Parada en Tamegroute, un pueblo con una biblioteca coránica del siglo XIV que alberga manuscritos iluminados a mano y una famosa cooperativa de cerámica esmaltada en verde. Trayecto hacia el norte por toda la extensión del valle del Draa con la luz de la mañana. Regreso pasando por Ouarzazate hasta Agadir. Llegada a las 18:30.",
@@ -1596,18 +1626,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Foum Zguid", lat: 30.087, lng: -6.868 },
         title: "Agadir → Estribaciones del Antiatlas → Tata → Foum Zguid / M'Hamid",
         description:
           "Recogida temprana en Agadir a las 6:30. Trayecto hacia el sur por las estribaciones del Antiatlas —la cadena montañosa más antigua de Marruecos, de aspecto más extraño y ancestral que el Alto Atlas. Paso por el pueblo oasis de Tata y continuación hasta Foum Zguid o M'Hamid, los últimos asentamientos antes de Erg Chegaga. Cena y noche.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "Cruce en 4x4 hacia Erg Chegaga",
         description:
           "Tras el desayuno, el asfalto se acaba. Se sube al 4x4 para el cruce todoterreno: dos o tres horas de conducción por hammada abierta, llanuras con fósiles y acacias dispersas. Llegada al borde de Erg Chegaga hacia el mediodía. Paseo en camello adentrándose en el campo de dunas. El campamento se instala en pleno erg. Atardecer sobre las dunas, cena a la luz del fuego, un silencio que no olvidarás.",
       },
       {
         day: 3,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → M'Hamid → Valle del Draa → Agadir",
         description:
           "Despertar antes del amanecer para ver salir el sol por completo sobre las dunas. Desayuno en el campamento. El 4x4 regresa a través del desierto hasta M'Hamid. Trayecto hacia el norte por el valle del Draa —uno de los trayectos más bellos de Marruecos— y de vuelta a Agadir vía Zagora y Ouarzazate. Llegada a Agadir a las 20:00.",
@@ -1676,24 +1709,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
           "Recogida en tu hotel de Agadir a las 6:30. Trayecto hacia el este hasta Taroudant — recorre las murallas del siglo XVI mejor conservadas de Marruecos y el antiguo mercado bereber de especias. Continuación hasta Taliouine para visitar una cooperativa de azafrán. Trayecto por Ouarzazate y parada en el Ksar de Aït Ben Haddou, Patrimonio de la UNESCO. Continuación por el espectacular valle del Dades. Llegada al hotel a las 18:00. Cena y noche.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Valle del Dades → Garganta de Todra → Campamento de Erg Chebbi",
         description:
           "Desayuno en el hotel. Caminata por el suelo de la garganta de Todra — paredes de piedra caliza de 400 m, un río bajo los pies y casi ninguna multitud a primera hora de la mañana. Trayecto hacia el este por el paisaje de oasis presahariano hasta Merzouga. Sube al camello en el borde de la duna y adéntrate en Erg Chebbi mientras se pone el sol. Llegada al campamento al caer la noche. Tajín tradicional, música gnawa y observación de estrellas en el cielo del Sáhara.",
       },
       {
         day: 3,
+        stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Amanecer en el Sáhara → Ruta de las Mil Kasbahs → Ouarzazate",
         description:
           "Despertar antes del amanecer para ver salir el sol sobre las dunas. Regreso en camello al campamento. Desayuno y aseo. Toma la Ruta de las Mil Kasbahs, una ruta de regreso meridional a través de Tazarine, N'Kob y el corredor del valle del Draa, jalonada de antiguas kasbahs de adobe que en su día sirvieron a las caravanas transaharianas. Llegada a Ouarzazate por la tarde-noche. Noche en hotel.",
       },
       {
         day: 4,
+        stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Agadir",
         description:
           "Visita matinal opcional a los Estudios Atlas o a la Kasbah Taourirt en Ouarzazate. Breve parada en Aït Ben Haddou con la luz de la mañana. Cruce por Marrakech y el Antiatlas hasta Agadir. Llegada a las 20:00.",
@@ -1756,24 +1793,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
           "Salida de Agadir por la mañana. Trayecto hacia el norte por la llanura atlántica hasta Marrakech (3h). Tarde libre o paseo opcional por la medina. Noche en un riad de Marrakech.",
       },
       {
         day: 2,
+        stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
           "Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
       },
       {
         day: 3,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
           "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad.",
       },
       {
         day: 4,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
           "Exploración guiada de Fez el-Bali: curtidurías Chouara, Universidad de Al-Qarawiyyin, Medersa Bou Inania y los zocos laberínticos. El tour termina en Fez.",
@@ -1832,30 +1873,35 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
           "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Tarde libre. Noche en un riad de Marrakech.",
       },
       {
         day: 2,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Marrakech → Ifrane → Fez",
         description:
           "Salida temprana de Marrakech. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad.",
       },
       {
         day: 3,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
           "Día completo guiado por Fez el-Bali: curtidurías Chouara, Universidad de Al-Qarawiyyin, Medersa Bou Inania y los antiguos zocos. Paseo por la tarde-noche sobre las murallas de la medina.",
       },
       {
         day: 4,
+        stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Fez → Volubilis → Mequinez → Chefchaouen",
         description:
           "Visita matinal a Volubilis, las ruinas romanas mejor conservadas de Marruecos. Trayecto a Mequinez (el Versalles marroquí). Continuación hasta Chefchaouen, en las montañas del Rif. Llegada por la tarde-noche.",
       },
       {
         day: 5,
+        stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Día Completo en Chefchaouen",
         description:
           "Día completo en la Ciudad Azul. Paseo guiado por los callejones azules de la medina, el mirador de la Mezquita Española y la cascada de Ras El-Maa. El tour concluye en Chefchaouen.",
@@ -1914,36 +1960,42 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
           "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Paseo por la medina por la tarde o tiempo libre. Noche en un riad de Marrakech.",
       },
       {
         day: 2,
+        stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
           "Trayecto hacia el norte desde Marrakech a través del Atlas. Parada en Aït Ben Haddou. Continuación hasta Midelt para pasar la noche en la altiplanicie entre las dos cadenas del Atlas.",
       },
       {
         day: 3,
+        stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Mequinez",
         description:
           "Mañana en las ruinas romanas de Volubilis. Tarde en Mequinez: la puerta de Bab Mansour, los graneros reales y los zocos de la medina. Noche en Mequinez.",
       },
       {
         day: 4,
+        stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Mequinez → Día Completo en Fez",
         description:
           "Día completo en Fez el-Bali con un guía experto. Curtidurías Chouara, Al-Qarawiyyin, Medersa Bou Inania y el antiguo zoco de los joyeros. Noche en Fez.",
       },
       {
         day: 5,
+        stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "Fez → Rabat",
         description:
           "Trayecto hacia el oeste hasta Rabat, en la costa atlántica. Visita a la Torre Hassan y el Mausoleo de Mohammed V, la Kasbah de los Oudayas y la medina amurallada. Noche en Rabat.",
       },
       {
         day: 6,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
           "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — la mayor mezquita del mundo fuera de Arabia Saudí). Continuación hacia el sur, a Marrakech. Traslado a Agadir o noche adicional. El tour concluye.",
@@ -2013,36 +2065,42 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
         title: "Marrakech → Imlil → Tachedirt (2.300 m)",
         description:
           "Traslado desde Marrakech a Imlil (1h30). Trekking por el valle de Imenane, pasando campos en terrazas y pueblos bereberes, hasta Tachedirt. Unas 5 horas de caminata.",
       },
       {
         day: 2,
+        stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
         title: "Tachedirt → Tizi Likemt (3.555 m) → Azib Likemt (2.250 m)",
         description:
           "Ascenso al puerto de Tizi Likemt con amplias vistas del Alto Atlas, y descenso hasta los pastos de verano de Azib Likemt. 6–7 horas.",
       },
       {
         day: 3,
+        stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
         title: "Azib Likemt → Tizi n'Ourai → Amsouzart (1.740 m)",
         description:
           "Se sigue el río Ourai, se cruza un puerto muy escénico y se desciende hasta el acogedor pueblo de Amsouzart para pasar la noche en una casa de familia. Unas 6 horas.",
       },
       {
         day: 4,
+        stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
         title: "Amsouzart → Lago Ifni (2.295 m)",
         description:
           "Una subida gradual lleva hasta el turquesa Lago Ifni, situado dramáticamente entre picos escarpados. Tarde libre junto al agua. 4–5 horas.",
       },
       {
         day: 5,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Lago Ifni → Tizi n'Ouanoums (3.664 m) → Refugio del Toubkal (3.207 m)",
         description:
           "Ascenso pronunciado y pedregoso hasta el puerto de Ouanoums, con vistas sobre el lago, y descenso hasta el Refugio del Toubkal. Noche temprana antes del día de cima. Unas 6 horas.",
       },
       {
         day: 6,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
           "Ascenso antes del amanecer por el Circo Sur hasta el techo del norte de África, con la cima al amanecer. Descenso a Imlil y traslado de vuelta a Marrakech. Un último día largo y gratificante.",
@@ -2106,12 +2164,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Refugio del Toubkal (3.207 m)",
         description:
           "Traslado matinal desde Marrakech a Imlil (1h30). Ascenso por el valle de Aït Mizane, pasando por el santuario de Sidi Chamharouch, hasta el Refugio del Toubkal. 4–5 horas de caminata. Cena y noche temprana.",
       },
       {
         day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
           "Salida antes del amanecer para la cima vía el Circo Sur (unas 3 horas de ascenso). Amanecer desde el techo del norte de África, y después descenso al refugio para almorzar y continuar bajando hasta Imlil (4–5 horas de descenso en total). Traslado de vuelta a Marrakech.",
@@ -2175,18 +2235,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Azzaden Valley", lat: 31.09, lng: -7.95 },
         title: "Marrakech → Imlil → Valle de Azzaden (Azib Tamsoult)",
         description:
           "Traslado desde Marrakech a Imlil. Ascenso por el puerto de Tizi n'Mzik (2.450 m) hacia el valle de Azzaden, pasando las cascadas de Ighouliden, hasta el refugio cerca de Azib Tamsoult. Unas 6 horas.",
       },
       {
         day: 2,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Azzaden → Puerto de Aguelzim (3.560 m) → Refugio del Toubkal (3.207 m)",
         description:
           "Ascenso exigente para salir del valle de Azzaden por el Puerto de Aguelzim, con grandes vistas del Atlas occidental, y descenso hasta el Refugio del Toubkal. Unas 6–7 horas. Noche temprana antes de la cima.",
       },
       {
         day: 3,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
           "Ascenso antes del amanecer por el Circo Sur hasta la cima con el amanecer. Largo descenso hasta Imlil (pasando por el refugio), y traslado a Marrakech. Un último día exigente pero inolvidable.",
@@ -2251,18 +2314,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Refugio del Toubkal (3.207 m)",
         description:
           "Traslado desde Marrakech a Imlil. Ascenso por el valle de Aït Mizane, pasando por Sidi Chamharouch, hasta el Refugio del Toubkal. 4–5 horas. Aclimatación y descanso antes de dos grandes días de cima.",
       },
       {
         day: 2,
+        stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
         title: "Ouanoukrim — Timesguida (4.089 m) y Ras (4.083 m)",
         description:
           "Ascenso hasta la zona de Tizi n'Ouanoums y escalada de las dos cumbres gemelas de Ouanoukrim, Timesguida y Ras, ambas por encima de los 4.000 m. Regreso al Refugio del Toubkal para pasar la noche. Un día completo y exigente.",
       },
       {
         day: 3,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
           "Ascenso final al Jbel Toubkal por el Circo Sur al amanecer, la más alta de las tres cimas. Largo descenso hasta Imlil y traslado de vuelta a Marrakech.",
@@ -2383,12 +2449,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Marrakech → Campamento del Desierto en Erg Chebbi",
         description:
           "Salida temprana de Marrakech, cruzando el Alto Atlas y el valle del Draa hasta Merzouga. Paseo en camello al atardecer por las dunas de Erg Chebbi. Cena en el campamento, seguida de la sesión guiada de observación de estrellas una vez cae la noche cerrada.",
       },
       {
         day: 2,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer → Merzouga → Marrakech",
         description:
           "Observación opcional del amanecer sobre las dunas. Desayuno en el campamento, traslado en camello o 4x4 de vuelta a Merzouga, y trayecto de regreso a Marrakech, con llegada por la tarde-noche.",
@@ -2447,12 +2515,14 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
         title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1.850 m)",
         description:
           "Traslado matinal de Marrakech a Imlil (1h30). Subida al puerto de Tizi Mzik (2.684 m) para almorzar con vistas al valle de Imlil y a los picos del Toubkal, y luego descenso entre bosque de enebros al valle de Azzaden hasta el pueblo de Tizi Oussem. Unas 6 horas de caminata. Cena y noche en casa de huéspedes bereber.",
       },
       {
         day: 2,
+        stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
         title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakech",
         description:
           "Descenso a Id Issa, luego subida al puerto de Tizi Oudid y travesía por una serie de aldeas bereberes y tierras en terrazas hasta Aguersioual. Unas 5 horas de caminata. Traslado de vuelta a Marrakech, llegada a última hora de la tarde.",
@@ -2512,18 +2582,21 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Valle de Azzaden",
         description:
           "Traslado de Marrakech a Imlil (1h30). Trekking por el puerto de Tizi Mzik (2.684 m) al valle de Azzaden, descendiendo entre bosque de enebros hasta una casa de huéspedes de pueblo. Unas 5-6 horas de caminata. Cena y noche en el pueblo.",
       },
       {
         day: 2,
+        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Azzaden → altos pastos → Tacheddirt (2.300 m)",
         description:
           "Una jornada completa de travesía, subiendo un puerto de pastoreo y bajando a los altos valles de Imlil y Tacheddirt, el pueblo habitado permanentemente más alto de la región. Unas 6 horas de caminata. Cena y noche en casa de huéspedes de pueblo.",
       },
       {
         day: 3,
+        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "Tacheddirt → Valle de Ourika → Marrakech",
         description:
           "Descenso por la cuenca del Ourika entre nogales y campos en terrazas hasta la carretera. Unas 4-5 horas de caminata. Traslado de vuelta a Marrakech, llegada a última hora de la tarde.",
@@ -2583,24 +2656,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Marrakech → Imlil → primer pueblo (caminata corta)",
         description:
           "Traslado de Marrakech a Imlil (1h30). Una caminata fácil por la tarde entre campos en terrazas y nogales hasta la primera casa de huéspedes de pueblo, lo bastante corta para instalarse sin cansar las piernas pequeñas. Unas 2-3 horas. Cena con la familia anfitriona.",
       },
       {
         day: 2,
+        stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Caminata por el valle y cascadas",
         description:
           "Una jornada suave siguiendo el río valle arriba hasta cascadas y pozas naturales, con muchas paradas. Unas 3-4 horas a ritmo relajado. Noche en casa de huéspedes de pueblo, con tiempo por la tarde para que los niños exploren o ayuden a hornear pan.",
       },
       {
         day: 3,
+        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Paso al lado de Ourika",
         description:
           "Un cruce fácil por un puerto de pastoreo bajo al valle más verde de Ourika, con mulas a mano para quien se canse. Unas 3-4 horas. Noche en casa de huéspedes de pueblo.",
       },
       {
         day: 4,
+        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "Valle de Ourika → Marrakech",
         description:
           "Un corto descenso final por el valle de Ourika hasta la carretera, con una última parada junto al río. Unas 2 horas. Traslado de vuelta a Marrakech, llegada a primera hora de la tarde.",
@@ -2662,24 +2739,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Marrakech → Ait Ben Haddou → Valle del Dades",
         description:
           "Cruza el puerto de Tizi n'Tichka sobre el Alto Atlas con paradas para fotos, y luego explora la kasbah de tierra de Ait Ben Haddou, una favorita de los niños que la reconocen de las películas. Continúa hasta un hotel del valle del Dades para pasar la noche, con piscina para refrescarse. Cena y noche.",
       },
       {
         day: 2,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Garganta del Dades → Garganta del Todra → Campamento del desierto en Erg Chebbi",
         description:
           "Una suave caminata matinal por la espectacular garganta del Todra (llana y fácil), y luego hacia Merzouga. Llegada a las dunas para un paseo en camello al atardecer hasta un campamento del desierto familiar. Cena alrededor del fuego y observación de estrellas. Noche en el campamento.",
       },
       {
         day: 3,
+        stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Dunas al amanecer → Uarzazate",
         description:
           "Amanecer sobre las dunas y tiempo para sandboard antes del desayuno. Regreso hacia el oeste por la Ruta de las Mil Kasbahs, con paradas, hasta Uarzazate. Noche en un hotel cómodo.",
       },
       {
         day: 4,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Uarzazate → Marrakech",
         description:
           "Visita opcional a los estudios de cine del Atlas, y luego el regreso por el Atlas hasta Marrakech, llegando a última hora de la tarde.",
@@ -2744,36 +2825,42 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Aït Bougmez", lat: 31.644, lng: -6.447 },
         title: "Marrakech → Ait Bougmez (1.800 m)",
         description:
           "Viaje sobre el Alto Atlas vía Ait M'hamed hasta el «Valle Feliz» de Ait Bougmez. Instalación, encuentro con el equipo y una corta caminata de aclimatación entre los campos en terrazas. Noche en gîte de pueblo.",
       },
       {
         day: 2,
+        stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 },
         title: "Ait Bougmez → altiplano de Tarkeddit (2.900 m)",
         description:
           "Subida constante fuera del valle hacia las aproximaciones del macizo del M'Goun, acampando en el altiplano de Tarkeddit bajo la arista cimera. Unas 6 horas de caminata.",
       },
       {
         day: 3,
+        stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 },
         title: "Cumbre del M'Goun (4.068 m) → valle de Oulilimt",
         description:
           "Salida antes del amanecer para la larga arista hasta la cumbre del M'Goun, la segunda más alta del norte de África, y luego un largo descenso al valle de Oulilimt para acampar. Un gran día, unas 8-9 horas.",
       },
       {
         day: 4,
+        stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 },
         title: "Oulilimt → gargantas del Tessaout",
         description:
           "Sigue el joven río Tessaout descendiendo por un espectacular sistema de gargantas, con cruces de río y paredes rocosas imponentes. Unas 6 horas. Acampada junto al río.",
       },
       {
         day: 5,
+        stop: { name: "Magdaz", lat: 31.47, lng: -6.26 },
         title: "Tessaout → pueblo de Magdaz (1.900 m)",
         description:
           "Continúa bajando el valle del Tessaout hasta Magdaz, el conjunto de altas casas de tierra que la UNESCO ha llamado el pueblo más bello de Marruecos. Unas 5 horas. Noche en gîte de pueblo.",
       },
       {
         day: 6,
+        stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "Magdaz → Amezri → altos pastos",
         description:
           "Deja el Tessaout, subiendo hacia el oeste por terreno de pastoreo en dirección a la siguiente divisoria. Unas 6 horas. Acampada en los altos pastos entre los azibs de los pastores.",
@@ -2786,6 +2873,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 8,
+        stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "Por los puertos occidentales",
         description:
           "Una jornada sostenida cruzando un puerto alto (en torno a 3.500 m) a un nuevo sistema de valles, avanzando constante hacia el oeste por la cordillera. Unas 7 horas. Acampada.",
@@ -2798,36 +2886,42 @@ export const TOURS: Tour[] = [
       },
       {
         day: 10,
+        stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Aproximación al macizo del Toubkal",
         description:
           "Subida hacia el borde oriental del macizo del Toubkal, con el paisaje volviéndose más alto y alpino. Unas 6 horas. Acampada.",
       },
       {
         day: 11,
+        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Tacheddirt (2.300 m)",
         description:
           "Descenso a Tacheddirt, el pueblo habitado permanentemente más alto de la región del Toubkal y la puerta a la aproximación final a la cumbre. Unas 5 horas. Noche en gîte de pueblo.",
       },
       {
         day: 12,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Tacheddirt → Refugio del Toubkal (3.207 m)",
         description:
           "Cruza el Tizi n'Tacheddirt y atraviesa al valle del Mizane hasta el Refugio del Toubkal. Unas 6 horas. Caminata de aclimatación por la tarde sobre el refugio. Acostarse temprano.",
       },
       {
         day: 13,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cumbre del Toubkal (4.167 m) → Refugio",
         description:
           "Ascensión a cumbre antes del amanecer por el Circo Sur hasta el punto más alto del norte de África para el amanecer, y luego descenso al refugio. Unas 7 horas ida y vuelta. Cena de celebración.",
       },
       {
         day: 14,
+        stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Refugio → Imlil (1.740 m)",
         description:
           "Descenso por el valle del Mizane pasando por el santuario de Sidi Chamharouch hasta Imlil. Unas 4 horas. Una última noche en una casa de huéspedes de Imlil para cerrar la travesía.",
       },
       {
         day: 15,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Imlil → Marrakech",
         description:
           "Traslado de vuelta a Marrakech, llegada a media mañana. Fin del circuito.",

@@ -2939,4 +2939,104 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "41",
+    slug: "toubkal-summit-sahara-5day",
+    title: "Cima del Toubkal y Sáhara — Circuito de 5 días de la montaña al desierto",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "5 días / 4 noches",
+    groupSize: "2 a 10 personas",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 690,
+    priceMax: 790,
+    depositAmount: 175,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription:
+      "Las dos grandes aventuras marroquíes en un solo viaje: coronar el Jbel Toubkal (4167 m) y luego cruzar el Atlas para dormir bajo las estrellas en las dunas de Erg Chebbi.",
+    description:
+      "Estas son las dos experiencias estrella de Marruecos reunidas en una única semana bien equilibrada: la cima más alta del norte de África y las grandes dunas del Sáhara, una tras otra. Los dos primeros días ascienden al Jbel Toubkal (4167 m) desde el pueblo bereber de Imlil, con una noche en refugio a 3207 m y una cima al amanecer. Después, en lugar de volver al hotel y empezar de nuevo, cruzas el Alto Atlas por carretera hasta el desierto — pasando por Aït Ben Haddou y el país de las gargantas — para dos noches que terminan en las dunas de Erg Chebbi, en Merzouga, con un paseo en camello y una noche en un campamento del desierto. Montaña y desierto, cima y Sáhara, en cinco días enlazados. Organizado de forma privada para tu grupo.",
+    highlights: [
+      "Coronar el Jbel Toubkal (4167 m) — la cima más alta del norte de África",
+      "Amanecer desde el techo del norte de África y luego desayuno en el refugio",
+      "Cruzar el puerto de Tizi n'Tichka y la kasbah Patrimonio de la Humanidad de Aït Ben Haddou",
+      "Paseo en camello por las dunas de Erg Chebbi y noche en un campamento sahariano",
+      "Dos de las mayores experiencias de Marruecos en un solo itinerario privado y enlazado",
+    ],
+    includes: [
+      "Guía de montaña profesional y titulado para el trekking del Toubkal",
+      "Chófer-guía privado bilingüe (inglés/francés) para la parte del desierto",
+      "1 noche en refugio de montaña + 1 noche en casa de huéspedes en Imlil (trekking)",
+      "1 noche de hotel en el valle del Dades + 1 noche en campamento en Erg Chebbi",
+      "Todas las comidas durante el trekking; cena + desayuno las noches de campamento y Dades",
+      "Arriero con mula en el trekking; paseos en camello al atardecer y al amanecer en Erg Chebbi",
+      "Tasas del Parque Nacional del Toubkal, todos los traslados y ida y vuelta desde Marrakech",
+    ],
+    excludes: [
+      "Seguro de viaje (obligatorio para el trekking)",
+      "Equipo de trekking personal y saco de dormir",
+      "Almuerzos de los días de desierto (prever 12 a 15 € por comida)",
+      "Crampones y piolet en caso de ascenso invernal (alquiler disponible)",
+      "Propinas para guías, chófer, cocinero y arriero",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        title: "Marrakech → Imlil → Refugio del Toubkal (3207 m)",
+        description:
+          "Traslado matinal de Marrakech a Imlil (1740 m), unos 90 minutos, donde conoces a tu guía de montaña. Ascenso por el valle del Mizane, pasando por el santuario de Sidi Chamharouch, hasta el refugio del Toubkal (3207 m) — unas 5 horas, con una mula que lleva el equipaje. Caminata de aclimatación por la tarde sobre el refugio, cena temprana y noche corta antes del día de cima.",
+      },
+      {
+        day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        title: "Cima del Toubkal (4167 m) → Imlil",
+        description:
+          "Salida antes del alba con frontal para el empinado ascenso del circo sur hasta la cima al amanecer, con todo el Alto Atlas — y el borde del Sáhara — a tus pies. Descenso al refugio para un buen desayuno y luego continuación hasta Imlil. Noche en casa de huéspedes en Imlil para descansar las piernas antes de la parte del desierto.",
+      },
+      {
+        day: 3,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
+        title: "Imlil → Aït Ben Haddou → Valle del Dades",
+        description:
+          "Encuentro con tu chófer-guía del desierto y travesía del Alto Atlas por el puerto de Tizi n'Tichka. Parada en la kasbah de adobe de Aït Ben Haddou (escenario de Juego de Tronos y Gladiator), y luego la Ruta de las Mil Kasbahs hasta un hotel en el valle del Dades. Cena y noche allí.",
+      },
+      {
+        day: 4,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
+        title: "Dades → Gargantas del Todra → Campamento de Erg Chebbi",
+        description:
+          "Caminata matinal por las espectaculares gargantas del Todra (paredes de 400 m) y luego ruta hacia el este a través del desierto hasta Merzouga. Llegada a las dunas de Erg Chebbi para un paseo en camello al atardecer hasta un campamento bereber. Cena alrededor del fuego y observación de estrellas bajo uno de los cielos más oscuros de Marruecos. Noche en el campamento.",
+      },
+      {
+        day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        title: "Dunas al amanecer → Marrakech",
+        description:
+          "Paseo en camello al amanecer opcional y desayuno en el campamento, luego el regreso por el Atlas hasta Marrakech vía Ouarzazate, llegando por la tarde-noche. Fin del circuito.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Pueblo de Imlil, montañas del Atlas" },
+    seoTitle: "Circuito 5 días Cima del Toubkal y Sáhara desde Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Combina las dos aventuras estrella de Marruecos: coronar el Jbel Toubkal (4167 m) y llegar a las dunas saharianas de Erg Chebbi. Circuito privado de 5 días de la montaña al desierto desde Marrakech. Desde 690 €.",
+    faq: [
+      { q: "¿Qué forma física hace falta para el combinado Toubkal y Sáhara?", a: "La parte de trekking es de dificultad alta: dos días de montaña con un ascenso antes del alba a 4167 m, así que hay que ser un caminante habitual y en forma, cómodo en altitud. La parte del desierto es fácil y se hace en vehículo, así que sirve de descanso tras la cima. Si puedes con un trekking de montaña exigente de dos días, el resto del viaje es cómodo." },
+      { q: "¿Por qué el Toubkal primero y el desierto después?", a: "La cima es la parte físicamente exigente, así que va primero mientras estás fresco, y los días de desierto — sobre todo carretera con caminatas cortas y paseos en camello — se convierten en una transición natural después. Además, permite resolver pronto la variable meteorológica más delicada (la cima)." },
+      { q: "¿Dónde se duerme durante los cinco días?", a: "Una noche en el refugio del Toubkal (un refugio de montaña compartido a 3207 m), una noche en casa de huéspedes en el pueblo de Imlil, una noche en un hotel del valle del Dades y una noche en un campamento bereber en las dunas de Erg Chebbi. Vale la pena llevar una sábana-saco para el refugio y el campamento." },
+      { q: "¿Es un circuito privado?", a: "Sí. Se organiza de forma privada para tu grupo de 2 a 10 personas, con un guía de montaña titulado para el trekking y un chófer-guía dedicado con vehículo para la parte del desierto. No os juntáis con otros grupos." },
+      { q: "¿Se puede hacer el combinado de 5 días en invierno?", a: "Sí, pero el ascenso al Toubkal se convierte en una ascensión sobre nieve aproximadamente de noviembre a marzo, que requiere crampones y piolet (alquiler disponible) y algo más de experiencia en montaña. La parte del desierto se hace todo el año; las noches de invierno en el desierto son frías, así que lleva capas de abrigo." },
+    ],
+    featured: true,
+  },
 ];

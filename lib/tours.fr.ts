@@ -2948,4 +2948,104 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "41",
+    slug: "toubkal-summit-sahara-5day",
+    title: "Sommet du Toubkal & Sahara — Circuit 5 jours de la montagne au désert",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "5 jours / 4 nuits",
+    groupSize: "2 à 10 personnes",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 690,
+    priceMax: 790,
+    depositAmount: 175,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription:
+      "Les deux grandes aventures marocaines en un seul voyage : gravir le Jbel Toubkal (4 167 m), puis traverser l'Atlas pour dormir à la belle étoile sur les dunes de l'Erg Chebbi.",
+    description:
+      "Voici les deux expériences phares du Maroc réunies en une seule semaine bien rythmée : le plus haut sommet d'Afrique du Nord et les grandes dunes du Sahara, l'un après l'autre. Les deux premiers jours gravissent le Jbel Toubkal (4 167 m) depuis le village berbère d'Imlil, avec une nuit en refuge à 3 207 m et un sommet au lever du soleil. Ensuite, plutôt que de rentrer à l'hôtel et de tout recommencer, vous traversez le Haut Atlas par la route jusqu'au désert — en passant par Aït Ben Haddou et le pays des gorges — pour deux nuits qui s'achèvent sur les dunes de l'Erg Chebbi à Merzouga, avec une balade à dos de chameau et une nuit dans un campement du désert. Montagne et désert, sommet et Sahara, en cinq jours enchaînés. Organisé en privé pour votre groupe.",
+    highlights: [
+      "Gravir le Jbel Toubkal (4 167 m) — le plus haut sommet d'Afrique du Nord",
+      "Lever de soleil depuis le toit de l'Afrique du Nord, puis petit-déjeuner au refuge",
+      "Franchir le col du Tizi n'Tichka et la kasbah classée UNESCO d'Aït Ben Haddou",
+      "Balade à dos de chameau dans les dunes de l'Erg Chebbi et nuit dans un campement saharien",
+      "Deux des plus grandes expériences du Maroc en un seul itinéraire privé et enchaîné",
+    ],
+    includes: [
+      "Guide de montagne professionnel et diplômé pour le trek du Toubkal",
+      "Chauffeur-guide privé bilingue (anglais/français) pour la partie désert",
+      "1 nuit en refuge de montagne + 1 nuit en maison d'hôtes à Imlil (trek)",
+      "1 nuit d'hôtel dans la vallée du Dadès + 1 nuit en campement à l'Erg Chebbi",
+      "Tous les repas pendant le trek ; dîner + petit-déjeuner les nuits au campement et au Dadès",
+      "Muletier pour le trek ; balades à dos de chameau au coucher et au lever du soleil à l'Erg Chebbi",
+      "Frais du parc national du Toubkal, tous les transferts, et aller-retour depuis Marrakech",
+    ],
+    excludes: [
+      "Assurance voyage (obligatoire pour le trek)",
+      "Équipement de trek personnel et sac de couchage",
+      "Déjeuners des journées désert (prévoir 12 à 15 € par repas)",
+      "Crampons et piolet en cas d'ascension hivernale (location possible)",
+      "Pourboires pour les guides, le chauffeur, le cuisinier et le muletier",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        title: "Marrakech → Imlil → Refuge du Toubkal (3 207 m)",
+        description:
+          "Transfert matinal de Marrakech à Imlil (1 740 m), environ 90 minutes, où vous rencontrez votre guide de montagne. Montée par la vallée du Mizane, en passant par le sanctuaire de Sidi Chamharouch, jusqu'au refuge du Toubkal (3 207 m) — environ 5 heures, un mulet portant les bagages. Marche d'acclimatation l'après-midi au-dessus du refuge, dîner tôt et nuit précoce avant le jour du sommet.",
+      },
+      {
+        day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        title: "Sommet du Toubkal (4 167 m) → Imlil",
+        description:
+          "Départ avant l'aube à la frontale pour la montée raide du cirque sud jusqu'au sommet au lever du soleil, avec tout le Haut Atlas — et la bordure du Sahara — à vos pieds. Descente au refuge pour un vrai petit-déjeuner, puis continuation jusqu'à Imlil. Nuit en maison d'hôtes à Imlil pour reposer les jambes avant la partie désert.",
+      },
+      {
+        day: 3,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
+        title: "Imlil → Aït Ben Haddou → Vallée du Dadès",
+        description:
+          "Rencontre avec votre chauffeur-guide du désert et traversée du Haut Atlas par le col du Tizi n'Tichka. Arrêt à la kasbah de terre d'Aït Ben Haddou (décor de Game of Thrones et de Gladiator), puis la Route des Mille Kasbahs jusqu'à un hôtel dans la vallée du Dadès. Dîner et nuit sur place.",
+      },
+      {
+        day: 4,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
+        title: "Dadès → Gorges du Todra → Campement de l'Erg Chebbi",
+        description:
+          "Marche matinale dans les spectaculaires gorges du Todra (parois de 400 m), puis route vers l'est à travers le désert jusqu'à Merzouga. Arrivée aux dunes de l'Erg Chebbi pour une balade à dos de chameau au coucher du soleil vers un campement berbère. Dîner autour du feu et observation des étoiles sous l'un des ciels les plus sombres du Maroc. Nuit au campement.",
+      },
+      {
+        day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        title: "Dunes au lever du soleil → Marrakech",
+        description:
+          "Balade à dos de chameau au lever du soleil en option et petit-déjeuner au campement, puis retour par l'Atlas jusqu'à Marrakech via Ouarzazate, arrivée en soirée. Fin du circuit.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Village d'Imlil, montagnes de l'Atlas" },
+    seoTitle: "Circuit 5 jours Sommet du Toubkal & Sahara depuis Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Combinez les deux aventures phares du Maroc : gravir le Jbel Toubkal (4 167 m) puis rejoindre les dunes sahariennes de l'Erg Chebbi. Circuit privé 5 jours de la montagne au désert depuis Marrakech. À partir de 690 €.",
+    faq: [
+      { q: "Quelle condition physique faut-il pour le combiné Toubkal et Sahara ?", a: "La partie trek est classée difficile : deux jours de montagne avec une ascension avant l'aube à 4 167 m, il faut donc être un marcheur régulier et en forme, à l'aise en altitude. La partie désert est facile et se fait en véhicule, elle sert donc de repos après le sommet. Si vous pouvez gérer un trek de montagne exigeant de deux jours, le reste du voyage est confortable." },
+      { q: "Pourquoi le Toubkal d'abord et le désert ensuite ?", a: "Le sommet est la partie physiquement exigeante, il vient donc en premier tant que vous êtes frais, et les journées désert — surtout de la route avec de courtes marches et des balades à dos de chameau — deviennent une transition naturelle ensuite. Cela permet aussi de traiter tôt la variable météo la plus délicate (le sommet)." },
+      { q: "Où dort-on pendant les cinq jours ?", a: "Une nuit au refuge du Toubkal (un refuge de montagne partagé à 3 207 m), une nuit en maison d'hôtes au village d'Imlil, une nuit dans un hôtel de la vallée du Dadès, et une nuit dans un campement berbère sur les dunes de l'Erg Chebbi. Un drap de sac de couchage est utile pour le refuge et le campement." },
+      { q: "Est-ce un circuit privé ?", a: "Oui. Il est organisé en privé pour votre groupe de 2 à 10 personnes, avec un guide de montagne diplômé pour le trek et un chauffeur-guide dédié avec véhicule pour la partie désert. Vous n'êtes pas regroupés avec d'autres groupes." },
+      { q: "Le combiné 5 jours peut-il se faire en hiver ?", a: "Oui, mais l'ascension du Toubkal devient une course sur neige d'environ novembre à mars, nécessitant crampons et piolet (location possible) et un peu plus d'expérience en montagne. La partie désert se fait toute l'année ; les nuits d'hiver dans le désert sont froides, prévoyez des couches chaudes." },
+    ],
+    featured: true,
+  },
 ];

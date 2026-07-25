@@ -2939,4 +2939,104 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "41",
+    slug: "toubkal-summit-sahara-5day",
+    title: "Toubkal-Gipfel & Sahara — 5-Tage-Tour vom Gebirge in die Wüste",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "5 Tage / 4 Nächte",
+    groupSize: "2 bis 10 Personen",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 690,
+    priceMax: 790,
+    depositAmount: 175,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription:
+      "Die zwei großen marokkanischen Abenteuer in einer Reise: den Jbel Toubkal (4.167 m) besteigen und dann über den Atlas fahren, um unter dem Sternenhimmel auf den Dünen des Erg Chebbi zu übernachten.",
+    description:
+      "Das sind Marokkos zwei Höhepunkte, vereint in einer gut getakteten Woche: der höchste Gipfel Nordafrikas und die großen Dünen der Sahara, direkt hintereinander. Die ersten beiden Tage führen vom Berberdorf Imlil auf den Jbel Toubkal (4.167 m), mit einer Nacht in der Schutzhütte auf 3.207 m und einem Gipfel bei Sonnenaufgang. Statt danach ins Hotel zurückzukehren und neu zu starten, überqueren Sie den Hohen Atlas auf der Straße in die Wüste — über Aït Ben Haddou und das Schluchtenland — für zwei Nächte, die auf den Dünen des Erg Chebbi bei Merzouga enden, mit einem Kamelritt und einer Nacht im Wüstencamp. Gebirge und Wüste, Gipfel und Sahara, in fünf zusammenhängenden Tagen. Privat für Ihre Gruppe organisiert.",
+    highlights: [
+      "Den Jbel Toubkal (4.167 m) besteigen — den höchsten Gipfel Nordafrikas",
+      "Sonnenaufgang vom Dach Nordafrikas, danach Frühstück zurück in der Hütte",
+      "Über den Tizi-n'Tichka-Pass und zur UNESCO-Kasbah Aït Ben Haddou",
+      "Kamelritt in die Dünen des Erg Chebbi und eine Nacht im Sahara-Wüstencamp",
+      "Zwei der größten Erlebnisse Marokkos in einer privaten, zusammenhängenden Route",
+    ],
+    includes: [
+      "Professioneller, lizenzierter Bergführer für das Toubkal-Trekking",
+      "Privater zweisprachiger Fahrer-Guide (Englisch/Französisch) für den Wüstenteil",
+      "1 Nacht Berghütte + 1 Nacht Gästehaus in Imlil (Trekking)",
+      "1 Nacht Hotel im Dades-Tal + 1 Nacht Wüstencamp am Erg Chebbi",
+      "Alle Mahlzeiten während des Trekkings; Abendessen + Frühstück an den Camp- und Dades-Nächten",
+      "Maultiertreiber beim Trekking; Kamelritte bei Sonnenuntergang und Sonnenaufgang am Erg Chebbi",
+      "Gebühren des Toubkal-Nationalparks, alle Transfers und Hin- und Rückfahrt ab Marrakesch",
+    ],
+    excludes: [
+      "Reiseversicherung (für das Trekking verpflichtend)",
+      "Persönliche Trekkingausrüstung und Schlafsack",
+      "Mittagessen an den Wüstentagen (12 bis 15 € pro Mahlzeit einplanen)",
+      "Steigeisen und Eispickel bei Winterbesteigung (Verleih möglich)",
+      "Trinkgelder für Guides, Fahrer, Koch und Maultiertreiber",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        title: "Marrakesch → Imlil → Toubkal-Hütte (3.207 m)",
+        description:
+          "Morgendlicher Transfer von Marrakesch nach Imlil (1.740 m), etwa 90 Minuten, wo Sie Ihren Bergführer treffen. Aufstieg durch das Mizane-Tal am Schrein von Sidi Chamharouch vorbei zur Toubkal-Hütte (3.207 m) — rund 5 Stunden, ein Maultier trägt das Gepäck. Nachmittags Akklimatisationswanderung oberhalb der Hütte, frühes Abendessen und frühe Nachtruhe vor dem Gipfeltag.",
+      },
+      {
+        day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        title: "Gipfel des Toubkal (4.167 m) → Imlil",
+        description:
+          "Aufbruch vor Tagesanbruch mit Stirnlampe für den steilen Anstieg durch den Südkessel zum Gipfel bei Sonnenaufgang, mit dem gesamten Hohen Atlas — und dem Rand der Sahara — unter Ihnen. Abstieg zur Hütte für ein richtiges Frühstück, dann weiter hinunter nach Imlil. Nacht im Gästehaus in Imlil, um die Beine vor dem Wüstenteil auszuruhen.",
+      },
+      {
+        day: 3,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
+        title: "Imlil → Aït Ben Haddou → Dades-Tal",
+        description:
+          "Treffen mit Ihrem Wüsten-Fahrer-Guide und Überquerung des Hohen Atlas über den Tizi-n'Tichka-Pass. Halt an der Lehmkasbah Aït Ben Haddou (Drehort von Game of Thrones und Gladiator), dann entlang der Straße der Tausend Kasbahs zu einem Hotel im Dades-Tal. Abendessen und Übernachtung.",
+      },
+      {
+        day: 4,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
+        title: "Dades → Todra-Schlucht → Wüstencamp Erg Chebbi",
+        description:
+          "Morgenwanderung in der dramatischen Todra-Schlucht (400 m hohe Wände), dann ostwärts durch die Wüste nach Merzouga. Ankunft an den Dünen des Erg Chebbi für einen Kamelritt bei Sonnenuntergang zu einem Berber-Wüstencamp. Abendessen am Feuer und Sternenbeobachtung unter einem der dunkelsten Himmel Marokkos. Übernachtung im Camp.",
+      },
+      {
+        day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        title: "Dünen bei Sonnenaufgang → Marrakesch",
+        description:
+          "Optionaler Kamelritt bei Sonnenaufgang über die Dünen und Frühstück im Camp, dann die Rückfahrt über den Atlas nach Marrakesch via Ouarzazate, Ankunft am Abend. Ende der Tour.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Dorf Imlil, Atlasgebirge" },
+    seoTitle: "5-Tage-Tour Toubkal-Gipfel & Sahara ab Marrakesch | Marrakech Eco Tours",
+    seoDescription:
+      "Verbinden Sie Marokkos zwei Höhepunkte: den Jbel Toubkal (4.167 m) besteigen und dann zu den Sahara-Dünen des Erg Chebbi. Private 5-Tage-Tour vom Gebirge in die Wüste ab Marrakesch. Ab 690 €.",
+    faq: [
+      { q: "Wie fit muss ich für die Toubkal-Sahara-Kombination sein?", a: "Der Trekking-Teil ist als anspruchsvoll eingestuft: zwei Bergtage mit einem Gipfelaufstieg vor Tagesanbruch auf 4.167 m, Sie sollten also ein fitter, regelmäßiger Wanderer sein, der sich in der Höhe wohlfühlt. Der Wüstenteil ist leicht und fahrzeugbasiert und dient damit als Erholung nach dem Gipfel. Wenn Sie ein anstrengendes zweitägiges Bergtrekking bewältigen, ist der Rest der Reise bequem." },
+      { q: "Warum zuerst der Toubkal und dann die Wüste?", a: "Der Gipfel ist der körperlich fordernde Teil, deshalb kommt er zuerst, solange Sie frisch sind, und die Wüstentage — überwiegend Fahrt mit kurzen Wanderungen und Kamelritten — werden danach zum natürlichen Ausklang. So wird auch die heikelste Wettervariable (der Gipfel) früh in der Reise abgehakt." },
+      { q: "Wo übernachten wir in den fünf Tagen?", a: "Eine Nacht in der Toubkal-Hütte (eine gemeinsam genutzte Berghütte auf 3.207 m), eine Nacht im Gästehaus im Dorf Imlil, eine Nacht in einem Hotel im Dades-Tal und eine Nacht in einem Berber-Wüstencamp auf den Dünen des Erg Chebbi. Ein Hüttenschlafsack lohnt sich für Hütte und Camp." },
+      { q: "Ist das eine private Tour?", a: "Ja. Sie läuft privat für Ihre Gruppe von 2 bis 10 Personen, mit einem lizenzierten Bergführer für das Trekking und einem eigenen Fahrer-Guide samt Fahrzeug für den Wüstenteil. Sie werden nicht mit anderen Gruppen zusammengelegt." },
+      { q: "Kann die 5-Tage-Kombination im Winter stattfinden?", a: "Ja, aber die Toubkal-Besteigung wird von etwa November bis März zu einer Schneetour, die Steigeisen und Eispickel (Verleih möglich) sowie etwas mehr Bergerfahrung erfordert. Der Wüstenteil ist ganzjährig möglich; Wüstennächte im Winter sind kalt, packen Sie also warme Schichten ein." },
+    ],
+    featured: true,
+  },
 ];

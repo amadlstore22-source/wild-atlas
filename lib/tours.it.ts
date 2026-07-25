@@ -2939,4 +2939,104 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "41",
+    slug: "toubkal-summit-sahara-5day",
+    title: "Cima del Toubkal e Sahara — Tour di 5 giorni dalla montagna al deserto",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "challenging",
+    duration: "5 giorni / 4 notti",
+    groupSize: "da 2 a 10 persone",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.9,
+    price: 690,
+    priceMax: 790,
+    depositAmount: 175,
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/toubkal-summit-ridge-climbers.jpg",
+    ],
+    shortDescription:
+      "Le due grandi avventure marocchine in un solo viaggio: raggiungere la cima del Jbel Toubkal (4.167 m) e poi attraversare l'Atlante per dormire sotto le stelle sulle dune dell'Erg Chebbi.",
+    description:
+      "Ecco le due esperienze di punta del Marocco riunite in un'unica settimana ben ritmata: la cima più alta del Nord Africa e le grandi dune del Sahara, una dopo l'altra. I primi due giorni salgono sul Jbel Toubkal (4.167 m) dal villaggio berbero di Imlil, con una notte al rifugio a 3.207 m e una vetta all'alba. Poi, invece di tornare in hotel e ricominciare, attraversi l'Alto Atlante su strada fino al deserto — passando per Aït Ben Haddou e il paese delle gole — per due notti che si concludono sulle dune dell'Erg Chebbi a Merzouga, con un giro in cammello e una notte in un campo nel deserto. Montagna e deserto, vetta e Sahara, in cinque giorni collegati. Organizzato in privato per il tuo gruppo.",
+    highlights: [
+      "Raggiungere la cima del Jbel Toubkal (4.167 m) — la più alta del Nord Africa",
+      "Alba dal tetto del Nord Africa, poi colazione di ritorno al rifugio",
+      "Valicare il passo Tizi n'Tichka e la kasbah patrimonio UNESCO di Aït Ben Haddou",
+      "Giro in cammello tra le dune dell'Erg Chebbi e una notte in un campo sahariano",
+      "Due delle più grandi esperienze del Marocco in un unico itinerario privato e collegato",
+    ],
+    includes: [
+      "Guida di montagna professionista e abilitata per il trekking del Toubkal",
+      "Autista-guida privato bilingue (inglese/francese) per la parte nel deserto",
+      "1 notte in rifugio di montagna + 1 notte in casa per ospiti a Imlil (trekking)",
+      "1 notte in hotel nella valle del Dades + 1 notte in campo all'Erg Chebbi",
+      "Tutti i pasti durante il trekking; cena + colazione nelle notti al campo e al Dades",
+      "Mulattiere durante il trekking; giri in cammello al tramonto e all'alba all'Erg Chebbi",
+      "Tasse del Parco Nazionale del Toubkal, tutti i trasferimenti e andata e ritorno da Marrakech",
+    ],
+    excludes: [
+      "Assicurazione di viaggio (obbligatoria per il trekking)",
+      "Attrezzatura da trekking personale e sacco a pelo",
+      "Pranzi nei giorni nel deserto (prevedere 12-15 € a pasto)",
+      "Ramponi e piccozza in caso di salita invernale (noleggio disponibile)",
+      "Mance per guide, autista, cuoco e mulattiere",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        title: "Marrakech → Imlil → Rifugio del Toubkal (3.207 m)",
+        description:
+          "Trasferimento mattutino da Marrakech a Imlil (1.740 m), circa 90 minuti, dove incontri la tua guida di montagna. Salita lungo la valle del Mizane, oltre il santuario di Sidi Chamharouch, fino al rifugio del Toubkal (3.207 m) — circa 5 ore, con un mulo che porta i bagagli. Camminata di acclimatazione nel pomeriggio sopra il rifugio, cena presto e notte breve prima del giorno di vetta.",
+      },
+      {
+        day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        title: "Cima del Toubkal (4.167 m) → Imlil",
+        description:
+          "Partenza prima dell'alba con la lampada frontale per la ripida salita del circo sud fino alla vetta all'alba, con tutto l'Alto Atlante — e il bordo del Sahara — sotto di te. Discesa al rifugio per una vera colazione, poi proseguimento fino a Imlil. Notte in casa per ospiti a Imlil per riposare le gambe prima della parte nel deserto.",
+      },
+      {
+        day: 3,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
+        title: "Imlil → Aït Ben Haddou → Valle del Dades",
+        description:
+          "Incontro con il tuo autista-guida del deserto e traversata dell'Alto Atlante per il passo Tizi n'Tichka. Sosta alla kasbah di terra di Aït Ben Haddou (set di Game of Thrones e Gladiator), poi la Strada delle Mille Kasbah fino a un hotel nella valle del Dades. Cena e pernottamento.",
+      },
+      {
+        day: 4,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
+        title: "Dades → Gole del Todra → Campo nel deserto dell'Erg Chebbi",
+        description:
+          "Camminata mattutina nelle spettacolari gole del Todra (pareti di 400 m), poi verso est attraverso il deserto fino a Merzouga. Arrivo alle dune dell'Erg Chebbi per un giro in cammello al tramonto verso un campo berbero. Cena attorno al fuoco e osservazione delle stelle sotto uno dei cieli più bui del Marocco. Pernottamento al campo.",
+      },
+      {
+        day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        title: "Dune all'alba → Marrakech",
+        description:
+          "Giro in cammello all'alba facoltativo e colazione al campo, poi il ritorno attraverso l'Atlante fino a Marrakech via Ouarzazate, con arrivo in serata. Fine del tour.",
+      },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Villaggio di Imlil, montagne dell'Atlante" },
+    seoTitle: "Tour 5 giorni Cima del Toubkal e Sahara da Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Combina le due avventure di punta del Marocco: raggiungere la cima del Jbel Toubkal (4.167 m) e poi le dune sahariane dell'Erg Chebbi. Tour privato di 5 giorni dalla montagna al deserto da Marrakech. Da 690 €.",
+    faq: [
+      { q: "Quanto devo essere allenato per la combinazione Toubkal e Sahara?", a: "La parte di trekking è classificata come impegnativa: due giorni di montagna con una salita in vetta prima dell'alba a 4.167 m, quindi occorre essere camminatori allenati e regolari, a proprio agio in quota. La parte nel deserto è facile e in veicolo, quindi funge da riposo dopo la vetta. Se riesci ad affrontare un trekking di montagna impegnativo di due giorni, il resto del viaggio è comodo." },
+      { q: "Perché prima il Toubkal e poi il deserto?", a: "La vetta è la parte fisicamente impegnativa, quindi viene per prima quando sei fresco, e i giorni nel deserto — soprattutto strada con brevi camminate e giri in cammello — diventano un naturale defaticamento successivo. Inoltre permette di risolvere presto la variabile meteo più delicata (la vetta)." },
+      { q: "Dove si dorme nei cinque giorni?", a: "Una notte al rifugio del Toubkal (un rifugio di montagna condiviso a 3.207 m), una notte in casa per ospiti nel villaggio di Imlil, una notte in un hotel della valle del Dades e una notte in un campo berbero sulle dune dell'Erg Chebbi. Un sacco lenzuolo è utile per il rifugio e il campo." },
+      { q: "È un tour privato?", a: "Sì. Si svolge in privato per il tuo gruppo da 2 a 10 persone, con una guida di montagna abilitata per il trekking e un autista-guida dedicato con veicolo per la parte nel deserto. Non vieni accorpato ad altri gruppi." },
+      { q: "La combinazione di 5 giorni si può fare in inverno?", a: "Sì, ma la salita al Toubkal diventa un'ascensione sulla neve da circa novembre a marzo, che richiede ramponi e piccozza (noleggio disponibile) e un po' più di esperienza in montagna. La parte nel deserto è fattibile tutto l'anno; le notti invernali nel deserto sono fredde, quindi porta strati caldi." },
+    ],
+    featured: true,
+  },
 ];

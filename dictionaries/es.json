@@ -193,7 +193,10 @@
       "noPrepaySub": "Pequeña señal, el resto a la llegada",
       "fastReply": "Respuesta humana rápida",
       "fastReplySub": "Normalmente en {hours}h, por un guía real"
-    }
+    },
+    "mealBreakfast": "Desayuno",
+    "mealLunch": "Almuerzo",
+    "mealDinner": "Cena"
   },
   "booking": {
     "pricePerPerson": "Precio por persona",

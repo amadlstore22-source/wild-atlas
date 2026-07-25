@@ -1,8 +1,30 @@
 "use client";
 import { useState } from "react";
-import { CaretDown, ForkKnife, Bed, Car } from "@phosphor-icons/react";
+import { CaretDown, ForkKnife, Bed, Car, PersonSimpleWalk, Path, TrendUp } from "@phosphor-icons/react";
 import type { ItineraryDay } from "@/lib/tours";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
+
+/** Compact "B,L,D" meal code → a readable, translated label. */
+function mealsLabel(code: string, dict: Dictionary): string {
+  const map: Record<string, string> = {
+    B: dict.tourDetail.mealBreakfast,
+    L: dict.tourDetail.mealLunch,
+    D: dict.tourDetail.mealDinner,
+  };
+  const parts = code
+    .split(",")
+    .map((c) => map[c.trim().toUpperCase()])
+    .filter(Boolean);
+  return parts.length ? parts.join(" · ") : code;
+}
+
+function Chip({ icon: Icon, children }: { icon: React.ComponentType<{ className?: string }>; children: React.ReactNode }) {
+  return (
+    <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
+      <Icon className="w-3.5 h-3.5 text-saffron" /> {children}
+    </span>
+  );
+}
 
 export default function TourItinerary({ itinerary, dict }: { itinerary: ItineraryDay[]; dict: Dictionary }) {
   const [openDay, setOpenDay] = useState<number>(1);
@@ -42,16 +64,21 @@ export default function TourItinerary({ itinerary, dict }: { itinerary: Itinerar
                   <div className="pl-14">
                     <p className="text-ink-soft text-sm leading-relaxed mb-4">{day.description}</p>
                     <div className="flex flex-wrap gap-3">
-                      <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                        <ForkKnife className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.mealsIncluded}
-                      </span>
-                      <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                        <Car className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.transportIncluded}
-                      </span>
-                      {day.day > 1 && (
-                        <span className="flex items-center gap-1.5 text-xs text-ink-soft bg-surface-sunk/60 px-3 py-1.5 rounded-[3px]">
-                          <Bed className="w-3.5 h-3.5 text-saffron" /> {dict.tourDetail.accommodationIncluded}
-                        </span>
+                      {day.walking && <Chip icon={PersonSimpleWalk}>{day.walking}</Chip>}
+                      {day.driving && <Chip icon={Car}>{day.driving}</Chip>}
+                      {day.distance && <Chip icon={Path}>{day.distance}</Chip>}
+                      {day.ascent && <Chip icon={TrendUp}>{day.ascent}</Chip>}
+                      {/* Meals: show the real per-day code when present, else the
+                          generic "meals included" label so older tours still read
+                          sensibly. */}
+                      <Chip icon={ForkKnife}>{day.meals ? mealsLabel(day.meals, dict) : dict.tourDetail.mealsIncluded}</Chip>
+                      {/* Where you sleep tonight: the named stay if given, else a
+                          generic label — but never on the final day, when the
+                          tour ends and there is no overnight. */}
+                      {day.stay ? (
+                        <Chip icon={Bed}>{day.stay}</Chip>
+                      ) : (
+                        day.day < itinerary.length && <Chip icon={Bed}>{dict.tourDetail.accommodationIncluded}</Chip>
                       )}
                     </div>
                   </div>

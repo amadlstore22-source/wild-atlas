@@ -193,7 +193,10 @@
       "noPrepaySub": "Small deposit, pay the rest on arrival",
       "fastReply": "Fast human reply",
       "fastReplySub": "Usually within {hours}h, by a real guide"
-    }
+    },
+    "mealBreakfast": "Breakfast",
+    "mealLunch": "Lunch",
+    "mealDinner": "Dinner"
   },
   "booking": {
     "pricePerPerson": "Price per person",

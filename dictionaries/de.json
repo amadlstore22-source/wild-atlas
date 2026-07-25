@@ -193,7 +193,10 @@
       "noPrepaySub": "Kleine Anzahlung, Rest bei Ankunft",
       "fastReply": "Schnelle persönliche Antwort",
       "fastReplySub": "Meist innerhalb {hours} Std., von einem echten Guide"
-    }
+    },
+    "mealBreakfast": "Frühstück",
+    "mealLunch": "Mittagessen",
+    "mealDinner": "Abendessen"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

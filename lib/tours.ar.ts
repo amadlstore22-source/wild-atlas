@@ -51,24 +51,40 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "بيت ضيافة",
+        walking: "1–2 h",
+        driving: "1.5 h",
         title: "مراكش ← إمليل (1,740 م)",
         description:
           "انتقال من مراكش إلى إمليل (ساعة ونصف)، قرية انطلاق مسار توبقال. استقرار في الإقامة، لقاء المرشد، ثم مشي قصير للتأقلم عبر الحقول الأمازيغية المُدرَّجة. عشاء ترحيبي.",
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "5 h",
+        distance: "≈11 km",
+        ascent: "+1,470 m",
         title: "إمليل ← ملجأ توبقال (3,207 م)",
         description:
           "مسير صاعد في وادي ميزان مروراً بضريح سيدي شمهروش وصولاً إلى الملجأ الجبلي. مشي تأقلمي بعد الظهر فوق المخيم. نوم مبكر استعداداً ليوم القمة.",
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "6–7 h",
+        ascent: "+960 m / −960 m",
         title: "يوم القمة — توبقال (4,167 م)",
         description:
           "انطلاق قبل الفجر في الساعة الخامسة صباحاً. صعود حاد عبر السفح الصخري الجنوبي. الوصول إلى القمة عند الشروق. نزول إلى الملجأ لعشاء احتفالي.",
       },
       {
         day: 4,
+        meals: "B",
+        walking: "5–6 h",
+        driving: "1.5 h",
         title: "الملجأ ← إمليل ← مراكش",
         description:
           "نزول صباحي عبر مروج الأزهار البرية. انتقال بالسيارة عودة إلى مراكش. تنتهي الرحلة في منتصف بعد الظهر.",
@@ -132,6 +148,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "مراكش ← آيت بن حدو ← ورززات",
         description:
@@ -139,6 +159,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "ورززات ← وادي درعة ← مخيم أرق الشبي",
         description:
@@ -146,6 +170,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "شروق الصحراء ← مضيق تودرا ← مراكش",
         description:
@@ -434,6 +461,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈340 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "مراكش ← تيزي نتيشكا ← آيت بن حدو ← ميدلت",
         description:
@@ -441,6 +472,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈220 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "ميدلت ← إفران ← غابة أزرو ← فاس",
         description:
@@ -448,6 +483,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "يوم كامل في مدينة فاس",
         description:
@@ -510,13 +546,13 @@ export const TOURS: Tour[] = [
       "Tips",
     ],
     itinerary: [
-      { day: 1, title: "مراكش ← آيت امحمد", description: "القيادة إلى نقطة انطلاق المسار. لقاء فريق البغال والطاقم. الليلة الأولى مع عائلة أمازيغية.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 } },
-      { day: 2, title: "آيت امحمد ← أݣوتي (2,600 م)", description: "مسير عبر وادي آيت بوݣمز 'الوادي السعيد'. مبيت في أݣوتي.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 } },
-      { day: 3, title: "أݣوتي ← تيزي نايت إيمي (3,650 م) ← تركديت", description: "أول ممر مرتفع. مناظر بانورامية خلّابة. مخيم بري في تركديت.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 } },
-      { day: 4, title: "قمة مݣون (4,068 م)", description: "انطلاق قبل الفجر. تسلق جبل مݣون. نزول إلى مخيم مضيق تساوت.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 } },
-      { day: 5, title: "عبور مضيق تساوت", description: "مسير عبر المضيق ذي الجدران الحمراء المهيبة. سباحة برية في النهر.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 } },
-      { day: 6, title: "الخروج من المضيق ← بوتهرار", description: "الخروج من المضيق. ليلة في قرية بوتهرار مع عائلة محلية.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 } },
-      { day: 7, title: "بوتهرار ← مراكش", description: "انتقال عودة إلى مراكش عبر وادي الورود. تنتهي الرحلة بحلول الرابعة مساءً.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 } },
+      { day: 1, title: "مراكش ← آيت امحمد", description: "القيادة إلى نقطة انطلاق المسار. لقاء فريق البغال والطاقم. الليلة الأولى مع عائلة أمازيغية.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "دار ضيافة قروية", driving: "5 h" },
+      { day: 2, title: "آيت امحمد ← أݣوتي (2,600 م)", description: "مسير عبر وادي آيت بوݣمز 'الوادي السعيد'. مبيت في أݣوتي.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 }, meals: "B,L,D", stay: "مخيّم", walking: "5 h", ascent: "+800 m" },
+      { day: 3, title: "أݣوتي ← تيزي نايت إيمي (3,650 م) ← تركديت", description: "أول ممر مرتفع. مناظر بانورامية خلّابة. مخيم بري في تركديت.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "مخيّم", walking: "6–7 h", ascent: "+1,050 m" },
+      { day: 4, title: "قمة مݣون (4,068 م)", description: "انطلاق قبل الفجر. تسلق جبل مݣون. نزول إلى مخيم مضيق تساوت.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "مخيّم", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
+      { day: 5, title: "عبور مضيق تساوت", description: "مسير عبر المضيق ذي الجدران الحمراء المهيبة. سباحة برية في النهر.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "مخيّم", walking: "5–6 h" },
+      { day: 6, title: "الخروج من المضيق ← بوتهرار", description: "الخروج من المضيق. ليلة في قرية بوتهرار مع عائلة محلية.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 }, meals: "B,L,D", stay: "بيت ضيافة", walking: "5 h" },
+      { day: 7, title: "بوتهرار ← مراكش", description: "انتقال عودة إلى مراكش عبر وادي الورود. تنتهي الرحلة بحلول الرابعة مساءً.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "4 h" },
     ],
     faq: [
       { q: "هل مݣون أصعب من توبقال؟", a: "على مدى أسبوع، نعم. نصنّف هذه الرحلة كخبيرة مقارنة بالتحدي في مسارات توبقال — ليس لأن يوماً واحداً بعينه تقني، بل لأنها سبعة أيام متتالية في بلاد نائية بأماكن أقل للتوقف أو الرجوع. جهد مستمر أكثر من كونه يوماً صعباً واحداً." },
@@ -803,6 +839,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "مخيّم",
+        walking: "3–4 h",
+        driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "أݣادير ← تافراوت ← المخيم الأول",
         description:
@@ -810,6 +850,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6 h",
+        ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "عبور الحافة العالية",
         description:
@@ -817,6 +861,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L",
+        walking: "4–5 h",
+        driving: "≈3 h",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "نزول الوادي ← أݣادير",
         description:
@@ -875,6 +922,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "مخيّم صحراوي",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "أݣادير ← تاطا ← فم زݣيد ← أرق الشيݣاݣة",
         description:
@@ -882,6 +933,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "الشروق ← وادي درعة ← أݣادير",
         description:
@@ -1056,6 +1110,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈7 h",
+        distance: "≈480 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "مراكش ← إفران ← فاس",
         description:
@@ -1063,6 +1121,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        stay: "فندق",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "يوم كامل في مدينة فاس",
         description:
@@ -1070,6 +1130,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "فاس ← وليلي ← مكناس ← شفشاون",
         description:
@@ -1077,6 +1141,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "يوم كامل في شفشاون",
         description:
@@ -1136,6 +1201,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "مراكش ← آيت بن حدو ← ورززات ← ميدلت",
         description:
@@ -1143,6 +1212,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "ميدلت ← وليلي ← مكناس",
         description:
@@ -1150,6 +1223,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        stay: "فندق",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "مكناس ← يوم كامل في فاس",
         description:
@@ -1157,6 +1232,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈3 h",
+        distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "فاس ← الرباط",
         description:
@@ -1164,6 +1243,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "الرباط ← الدار البيضاء ← مراكش",
         description:
@@ -1232,6 +1314,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "مخيّم صحراوي",
+        driving: "≈7 h",
+        distance: "≈360 km",
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "مراكش ← آيت بن حدو ← وادي درعة ← مخيم زاݣورة",
         description:
@@ -1239,6 +1325,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈7 h",
+        distance: "≈360 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "شروق الشمس فوق الكثبان ← وادي درعة ← مراكش",
         description:
@@ -1306,6 +1395,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "بيت ضيافة",
+        driving: "≈8 h",
+        distance: "≈460 km",
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "مراكش ← آيت بن حدو ← تالوين ← مهاميد",
         description:
@@ -1313,6 +1406,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "3–4 h (4x4)",
+        distance: "≈60 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "مهاميد ← أرق الشيݣاݣة (عبور بسيارة 4x4)",
         description:
@@ -1320,6 +1417,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈460 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "شروق الصحراء ← مهاميد ← مراكش",
         description:
@@ -1389,24 +1489,39 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈360 km",
         title: "مراكش ← آيت بن حدو ← ورززات ← وادي دادس",
         description:
           "الالتقاط عند السابعة صباحاً. صعود ممر تيزي نتيشكا عبر الأطلس الكبير (2,260 م). توقف عند قصر آيت بن حدو المصنّف تراثاً عالمياً لاستكشاف كامل مدته 45 دقيقة. استراحة غداء في ورززات مع خيار زيارة استوديوهات أطلس للأفلام (حيث صُوّر غلادييتور وصراع العروش). المتابعة عبر وادي دادس المهيب — قصبات وردية اللون، قرى الواحات، وتشكيلات صخرية 'أصابع القرد'. الوصول إلى الفندق في وادي دادس بحلول الخامسة مساءً. عشاء ومبيت.",
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "≈4 h",
+        distance: "≈220 km",
         title: "وادي دادس ← مضيق تودرا ← مخيم مرزوكة الصحراوي",
         description:
           "فطور في الفندق. المشي داخل مضيق تودرا عند أضيق نقطة فيه — ممر بعرض 40 متراً بين جدران كلسية بارتفاع 400 متر ونهر صافٍ تحت الأقدام. المتابعة شرقاً عبر السهول قبل الصحراوية، مروراً ببلدات الواحات ومراعي البدو. الوصول إلى مرزوكة بعد الظهر. امتطاء الجمل لرحلة الغروب نحو كثبان أرق الشبي الشاهقة. الوصول إلى المخيم بينما تتلون السماء بالأحمر. طاجين مغربي تقليدي للعشاء، موسيقى أمازيغية حول النار، وسماء نابضة بالنجوم.",
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈5 h",
+        distance: "≈300 km",
         title: "شروق الصحراء ← قرية مرزوكة ← ورززات",
         description:
           "الاستيقاظ عند 5:30 صباحاً لتسلق الكثيب ومشاهدة استيقاظ الصحراء. عودة بالجمل إلى المخيم، فطور، وتجديد النشاط في نُزُل مرزوكة. بدء العودة عبر 'طريق الألف قصبة' — طريق جنوبي مختلف عبر تازارين ونكوب، سلسلة من القصبات الطينية العتيقة على طول طريق قوافل قديم. الوصول إلى ورززات مساءً. مبيت في فندق.",
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈200 km",
         title: "ورززات ← آيت بن حدو ← تيزي نتيشكا ← مراكش",
         description:
           "زيارة صباحية اختيارية لقصبة تاوريرت في ورززات. توقف عودة قصير عند آيت بن حدو لمشاهدة زاوية أخرى في ضوء الصباح. الصعود عودة فوق ممر تيزي نتيشكا بإطلالات بانورامية على الأطلس. الوصول إلى مراكش بحلول الخامسة مساءً.",
@@ -1476,6 +1591,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "بيت ضيافة",
+        driving: "≈7 h",
+        distance: "≈420 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "أݣادير ← تارودانت ← تالوين ← آيت بن حدو ← وادي دادس",
         description:
@@ -1483,6 +1602,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "وادي دادس ← مضيق تودرا ← مخيم أرق الشبي",
         description:
@@ -1490,6 +1613,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈9 h",
+        distance: "≈560 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "شروق الصحراء ← مرزوكة ← أݣادير",
         description:
@@ -1554,6 +1680,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "مخيّم صحراوي",
+        driving: "≈8 h",
+        distance: "≈500 km",
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "أݣادير ← تارودانت ← تازناخت ← وادي درعة ← زاݣورة",
         description:
@@ -1561,6 +1691,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈500 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "الشروق ← تامݣروت ← وادي درعة ← أݣادير",
         description:
@@ -1626,6 +1759,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "بيت ضيافة",
+        driving: "≈7 h",
+        distance: "≈400 km",
         stop: { name: "Foum Zguid", lat: 30.087, lng: -6.868 },
         title: "أݣادير ← سفوح الأطلس الصغير ← تاطا ← فم زݣيد / مهاميد",
         description:
@@ -1633,6 +1770,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "3–4 h (4x4)",
+        distance: "≈70 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "عبور بسيارة 4x4 إلى أرق الشيݣاݣة",
         description:
@@ -1640,6 +1781,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "الشروق ← مهاميد ← وادي درعة ← أݣادير",
         description:
@@ -1709,6 +1853,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "بيت ضيافة",
+        driving: "≈7 h",
+        distance: "≈420 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "أݣادير ← تارودانت ← تالوين ← آيت بن حدو ← وادي دادس",
         description:
@@ -1716,6 +1864,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "وادي دادس ← مضيق تودرا ← مخيم أرق الشبي",
         description:
@@ -1723,6 +1875,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "شروق الصحراء ← طريق الألف قصبة ← ورززات",
         description:
@@ -1730,6 +1886,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "ورززات ← آيت بن حدو ← تيزي نتيشكا ← أݣادير",
         description:
@@ -1793,6 +1952,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "أݣادير ← مراكش",
         description:
@@ -1800,6 +1963,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈340 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "مراكش ← تيزي نتيشكا ← آيت بن حدو ← ميدلت",
         description:
@@ -1807,6 +1974,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈220 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "ميدلت ← إفران ← غابة أزرو ← فاس",
         description:
@@ -1814,6 +1985,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "يوم كامل في مدينة فاس",
         description:
@@ -1873,6 +2045,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "أݣادير ← مراكش",
         description:
@@ -1880,6 +2056,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈7 h",
+        distance: "≈480 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "مراكش ← إفران ← فاس",
         description:
@@ -1887,6 +2067,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        stay: "فندق",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "يوم كامل في مدينة فاس",
         description:
@@ -1894,6 +2076,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "فاس ← وليلي ← مكناس ← شفشاون",
         description:
@@ -1901,6 +2087,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "يوم كامل في شفشاون",
         description:
@@ -1960,6 +2147,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "أݣادير ← مراكش",
         description:
@@ -1967,6 +2158,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "مراكش ← آيت بن حدو ← ورززات ← ميدلت",
         description:
@@ -1974,6 +2169,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "ميدلت ← وليلي ← مكناس",
         description:
@@ -1981,6 +2180,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        stay: "فندق",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "مكناس ← يوم كامل في فاس",
         description:
@@ -1988,6 +2189,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈3 h",
+        distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "فاس ← الرباط",
         description:
@@ -1995,6 +2200,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "الرباط ← الدار البيضاء ← مراكش",
         description:
@@ -2065,6 +2273,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "دار ضيافة قروية",
+        walking: "4 h",
+        driving: "1.5 h",
+        ascent: "+560 m",
         stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
         title: "مراكش ← إمليل ← تاشديرت (2,300 م)",
         description:
@@ -2072,6 +2285,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6–7 h",
+        ascent: "+1,255 m / −1,305 m",
         stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
         title: "تاشديرت ← تيزي ليكمت (3,555 م) ← أزيب ليكمت (2,250 م)",
         description:
@@ -2079,6 +2296,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "6 h",
+        distance: "≈14 km",
         stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
         title: "أزيب ليكمت ← تيزي نوراي ← أمسوزارت (1,740 م)",
         description:
@@ -2086,6 +2307,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "5 h",
+        ascent: "+555 m",
         stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
         title: "أمسوزارت ← بحيرة إفني (2,295 م)",
         description:
@@ -2093,6 +2318,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "6–7 h",
+        ascent: "+1,370 m / −460 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "بحيرة إفني ← تيزي نوانومس (3,664 م) ← ملجأ توبقال (3,207 م)",
         description:
@@ -2100,6 +2329,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B",
+        walking: "7–8 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "قمة توبقال (4,167 م) ← إمليل ← مراكش",
         description:
@@ -2164,6 +2397,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "ملجأ جبلي",
+        walking: "5 h",
+        driving: "1.5 h",
+        ascent: "+1,470 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "مراكش ← إمليل ← ملجأ توبقال (3,207 م)",
         description:
@@ -2171,6 +2409,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        walking: "7–8 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "قمة توبقال (4,167 م) ← إمليل ← مراكش",
         description:
@@ -2235,6 +2477,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "مخيّم",
+        walking: "5–6 h",
+        driving: "1.5 h",
+        ascent: "+900 m",
         stop: { name: "Azzaden Valley", lat: 31.09, lng: -7.95 },
         title: "مراكش ← إمليل ← وادي أزادن (أزيب تامسولت)",
         description:
@@ -2242,6 +2489,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "6–7 h",
+        ascent: "+1,100 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "أزادن ← ممر أݣلزيم (3,560 م) ← ملجأ توبقال (3,207 م)",
         description:
@@ -2249,6 +2500,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        walking: "7 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "قمة توبقال (4,167 م) ← إمليل ← مراكش",
         description:
@@ -2314,6 +2569,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "ملجأ جبلي",
+        walking: "5 h",
+        driving: "1.5 h",
+        ascent: "+1,470 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "مراكش ← إمليل ← ملجأ توبقال (3,207 م)",
         description:
@@ -2321,6 +2581,11 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "7–8 h",
+        distance: "≈9 km",
+        ascent: "+880 m",
         stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
         title: "وانوكريم — تيمسݣيدة (4,089 م) ورأس (4,083 م)",
         description:
@@ -2328,6 +2593,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        walking: "6 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "قمة توبقال (4,167 م) ← إمليل ← مراكش",
         description:
@@ -2449,6 +2718,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "مخيّم صحراوي",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "مراكش ← مخيم أرق الشبي الصحراوي",
         description:
@@ -2456,6 +2729,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "الشروق ← مرزوكة ← مراكش",
         description:
@@ -2515,6 +2791,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "دار ضيافة قروية",
+        walking: "5–6 h",
+        driving: "1.5 h",
+        ascent: "+700 m",
         stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
         title: "مراكش ← إمليل ← تيزي مزيك ← تيزي وسّم (1,850 متراً)",
         description:
@@ -2522,6 +2803,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L",
+        walking: "5 h",
+        driving: "1.5 h",
+        distance: "≈12 km",
         stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
         title: "تيزي وسّم ← تيزي أوديد ← أكرسيوال ← مراكش",
         description:
@@ -2582,6 +2867,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "دار ضيافة قروية",
+        walking: "4–5 h",
+        driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "مراكش ← إمليل ← وادي أزادن",
         description:
@@ -2589,6 +2878,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "6 h",
+        ascent: "+800 m",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "أزادن ← المراعي العالية ← تاشدّيرت (2,300 متراً)",
         description:
@@ -2596,6 +2889,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L",
+        walking: "5 h",
+        driving: "1 h",
         stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "تاشدّيرت ← وادي أوريكا ← مراكش",
         description:
@@ -2656,6 +2952,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "بيت ضيافة",
+        walking: "2–3 h",
+        driving: "1.5 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "مراكش ← إمليل ← أول قرية (مشية قصيرة)",
         description:
@@ -2663,6 +2963,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "4 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "مشية في الوادي وشلالات",
         description:
@@ -2670,6 +2973,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "4–5 h",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "العبور إلى جانب أوريكا",
         description:
@@ -2677,6 +2983,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L",
+        walking: "3 h",
+        driving: "1 h",
         stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "وادي أوريكا ← مراكش",
         description:
@@ -2739,6 +3048,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "فندق",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "مراكش ← آيت بن حدّو ← وادي دادس",
         description:
@@ -2746,6 +3059,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "مخيّم صحراوي",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "مضيق دادس ← مضيق تودغا ← مخيّم صحراوي بعرق الشبي",
         description:
@@ -2753,6 +3070,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "فندق",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "الكثبان عند الشروق ← ورزازات",
         description:
@@ -2760,6 +3081,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "ورزازات ← مراكش",
         description:
@@ -2825,6 +3149,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "دار ضيافة قروية",
+        walking: "1–2 h",
+        driving: "5–6 h",
         stop: { name: "Aït Bougmez", lat: 31.644, lng: -6.447 },
         title: "مراكش ← آيت بوݣمّاز (1,800 متر)",
         description:
@@ -2832,6 +3160,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6 h",
+        ascent: "+1,100 m",
         stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 },
         title: "آيت بوݣمّاز ← هضبة تاركديت (2,900 متر)",
         description:
@@ -2839,6 +3171,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "8–9 h",
+        ascent: "+1,168 m / −1,150 m",
         stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 },
         title: "قمة مݣون (4,068 متراً) ← وادي أوليليمت",
         description:
@@ -2846,6 +3182,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6 h",
         stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 },
         title: "أوليليمت ← مضائق تساوت",
         description:
@@ -2853,6 +3192,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "5 h",
         stop: { name: "Magdaz", lat: 31.47, lng: -6.26 },
         title: "تساوت ← قرية مݣداز (1,900 متر)",
         description:
@@ -2860,6 +3202,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6 h",
+        ascent: "+900 m",
         stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "مݣداز ← أمزري ← المراعي العالية",
         description:
@@ -2867,12 +3213,19 @@ export const TOURS: Tour[] = [
       },
       {
         day: 7,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "2–3 h",
         title: "يوم راحة وتأقلم",
         description:
           "يوم أبطأ للتعافي في منتصف العبور — مشية اختيارية قصيرة، وغسيل، ووقت مع الطاقم قبل الأرض الأعلى القادمة. مبيت في التخييم أو في نُزُل قروي.",
       },
       {
         day: 8,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6–7 h",
+        ascent: "+850 m",
         stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "عبر الممرات الغربية",
         description:
@@ -2880,12 +3233,18 @@ export const TOURS: Tour[] = [
       },
       {
         day: 9,
+        meals: "B,L,D",
+        stay: "مخيّم",
+        walking: "6 h",
         title: "عبور الوديان النائية",
         description:
           "يوم كامل عبر وديان وقرى لا ترى تقريباً أي متسلق، متبعاً دروب البغال بين القرى. نحو 6 إلى 7 ساعات. مبيت في نُزُل قروي.",
       },
       {
         day: 10,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "6–7 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "الاقتراب من كتلة توبقال",
         description:
@@ -2893,6 +3252,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 11,
+        meals: "B,L,D",
+        stay: "دار ضيافة قروية",
+        walking: "5 h",
+        ascent: "+560 m",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "تاشدّيرت (2,300 متراً)",
         description:
@@ -2900,6 +3263,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 12,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "6 h",
+        ascent: "+900 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "تاشدّيرت ← ملجأ توبقال (3,207 متراً)",
         description:
@@ -2907,6 +3274,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 13,
+        meals: "B,L,D",
+        stay: "ملجأ جبلي",
+        walking: "7 h",
+        ascent: "+960 m / −960 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "قمة توبقال (4,167 متراً) ← الملجأ",
         description:
@@ -2914,6 +3285,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 14,
+        meals: "B,L,D",
+        stay: "بيت ضيافة",
+        walking: "5 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "الملجأ ← إمليل (1,740 متراً)",
         description:
@@ -2921,6 +3295,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 15,
+        meals: "B",
+        driving: "1.5 h",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "إمليل ← مراكش",
         description:

@@ -193,7 +193,10 @@
       "noPrepaySub": "عربون بسيط، والباقي عند الوصول",
       "fastReply": "ردّ بشري سريع",
       "fastReplySub": "عادةً خلال {hours} ساعة، من مرشد حقيقي"
-    }
+    },
+    "mealBreakfast": "فطور",
+    "mealLunch": "غداء",
+    "mealDinner": "عشاء"
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",

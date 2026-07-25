@@ -193,7 +193,10 @@
       "noPrepaySub": "Piccola caparra, il resto all'arrivo",
       "fastReply": "Risposta umana rapida",
       "fastReplySub": "Di solito entro {hours}h, da una guida vera"
-    }
+    },
+    "mealBreakfast": "Colazione",
+    "mealLunch": "Pranzo",
+    "mealDinner": "Cena"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

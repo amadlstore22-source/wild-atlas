@@ -51,24 +51,40 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Casa de huéspedes",
+        walking: "1–2 h",
+        driving: "1.5 h",
         title: "Marrakech → Imlil (1.740 m)",
         description:
           "Traslado desde Marrakech a Imlil (1h30), el pueblo de partida hacia el Toubkal. Instalación, encuentro con el guía y breve caminata de aclimatación por los campos bereberes en terrazas. Cena de bienvenida.",
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "5 h",
+        distance: "≈11 km",
+        ascent: "+1,470 m",
         title: "Imlil → Refugio del Toubkal (3.207 m)",
         description:
           "Ascenso por el valle de Mizane, pasando por el santuario de Sidi Chamharouch, hasta el refugio de montaña. Caminata de aclimatación por la tarde, por encima del campamento. Descanso temprano antes del día de cima.",
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "6–7 h",
+        ascent: "+960 m / −960 m",
         title: "Día de Cima — Toubkal (4.167 m)",
         description:
           "Salida antes del amanecer, a las 5:00. Ascenso pronunciado por el pedregal del Circo Sur. Cima al amanecer. Descenso al refugio para una cena de celebración.",
       },
       {
         day: 4,
+        meals: "B",
+        walking: "5–6 h",
+        driving: "1.5 h",
         title: "Refugio → Imlil → Marrakech",
         description:
           "Descenso matinal entre praderas de flores silvestres. Traslado de regreso a Marrakech. El tour termina a media tarde.",
@@ -132,6 +148,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate",
         description:
@@ -139,6 +159,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Ouarzazate → Valle del Draa → Campamento de Erg Chebbi",
         description:
@@ -146,6 +170,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer en el Sáhara → Garganta de Todra → Marrakech",
         description:
@@ -434,6 +461,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈340 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
@@ -441,6 +472,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈220 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
@@ -448,6 +483,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -510,13 +546,13 @@ export const TOURS: Tour[] = [
       "Tips",
     ],
     itinerary: [
-      { day: 1, title: "Marrakech → Aït M'hamed", description: "Traslado hasta el punto de partida. Encuentro con el equipo de mulas y el personal. Primera noche con una familia bereber.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 } },
-      { day: 2, title: "Aït M'hamed → Agouti (2.600 m)", description: "Trekking a través del Aït Bouguemez, el 'Valle Feliz'. Campamento en Agouti.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 } },
-      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Primer puerto de altura. Panorámicas impresionantes. Campamento salvaje en Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 } },
-      { day: 4, title: "Cima del M'Goun (4.068 m)", description: "Salida antes del amanecer. Ascenso al Jbel M'Goun. Descenso al campamento de la garganta del Tessaute.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 } },
-      { day: 5, title: "Travesía de la Garganta del Tessaute", description: "Recorrido por la espectacular garganta de paredes rojizas. Baño salvaje en el río.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 } },
-      { day: 6, title: "Salida de la Garganta → Bou Tharar", description: "Salida de la garganta. Noche en el pueblo de Bou Tharar con una familia local.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 } },
-      { day: 7, title: "Bou Tharar → Marrakech", description: "Traslado de regreso a Marrakech pasando por el valle de las rosas. El tour concluye hacia las 16:00.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 } },
+      { day: 1, title: "Marrakech → Aït M'hamed", description: "Traslado hasta el punto de partida. Encuentro con el equipo de mulas y el personal. Primera noche con una familia bereber.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "Casa rural (gîte)", driving: "5 h" },
+      { day: 2, title: "Aït M'hamed → Agouti (2.600 m)", description: "Trekking a través del Aït Bouguemez, el 'Valle Feliz'. Campamento en Agouti.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 }, meals: "B,L,D", stay: "Vivac", walking: "5 h", ascent: "+800 m" },
+      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Primer puerto de altura. Panorámicas impresionantes. Campamento salvaje en Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "Vivac", walking: "6–7 h", ascent: "+1,050 m" },
+      { day: 4, title: "Cima del M'Goun (4.068 m)", description: "Salida antes del amanecer. Ascenso al Jbel M'Goun. Descenso al campamento de la garganta del Tessaute.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "Vivac", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
+      { day: 5, title: "Travesía de la Garganta del Tessaute", description: "Recorrido por la espectacular garganta de paredes rojizas. Baño salvaje en el río.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "Vivac", walking: "5–6 h" },
+      { day: 6, title: "Salida de la Garganta → Bou Tharar", description: "Salida de la garganta. Noche en el pueblo de Bou Tharar con una familia local.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 }, meals: "B,L,D", stay: "Casa de huéspedes", walking: "5 h" },
+      { day: 7, title: "Bou Tharar → Marrakech", description: "Traslado de regreso a Marrakech pasando por el valle de las rosas. El tour concluye hacia las 16:00.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "4 h" },
     ],
     faq: [
       { q: "¿Es el M'Goun más duro que el Toubkal?", a: "En el conjunto de una semana, sí. Calificamos esta ruta como de nivel experto frente al nivel exigente de las rutas del Toubkal, no porque un día concreto sea técnico, sino porque son siete días seguidos en terreno remoto con menos lugares donde parar o dar la vuelta. Es esfuerzo sostenido más que un día especialmente duro." },
@@ -803,6 +839,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Vivac",
+        walking: "3–4 h",
+        driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "Agadir → Tafraout → Primer Campamento",
         description:
@@ -810,6 +850,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6 h",
+        ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.72, lng: -8.976 },
         title: "Travesía de la Cresta Alta",
         description:
@@ -817,6 +861,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L",
+        walking: "4–5 h",
+        driving: "≈3 h",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Descenso del Valle → Agadir",
         description:
@@ -875,6 +922,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Campamento en el desierto",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "Agadir → Tata → Foum Zguid → Erg Chegaga",
         description:
@@ -882,6 +933,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → Valle del Draa → Agadir",
         description:
@@ -1056,6 +1110,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈7 h",
+        distance: "≈480 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Marrakech → Ifrane → Fez",
         description:
@@ -1063,6 +1121,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        stay: "Hotel",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -1070,6 +1130,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Fez → Volubilis → Mequinez → Chefchaouen",
         description:
@@ -1077,6 +1141,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Día Completo en Chefchaouen",
         description:
@@ -1136,6 +1201,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
@@ -1143,6 +1212,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Mequinez",
         description:
@@ -1150,6 +1223,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        stay: "Hotel",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Mequinez → Día Completo en Fez",
         description:
@@ -1157,6 +1232,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈3 h",
+        distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "Fez → Rabat",
         description:
@@ -1164,6 +1243,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
@@ -1232,6 +1314,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Campamento en el desierto",
+        driving: "≈7 h",
+        distance: "≈360 km",
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakech → Aït Ben Haddou → Valle del Draa → Campamento de Zagora",
         description:
@@ -1239,6 +1325,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈7 h",
+        distance: "≈360 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer sobre las Dunas → Valle del Draa → Marrakech",
         description:
@@ -1306,6 +1395,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Casa de huéspedes",
+        driving: "≈8 h",
+        distance: "≈460 km",
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
@@ -1313,6 +1406,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "3–4 h (4x4)",
+        distance: "≈60 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "M'Hamid → Erg Chegaga (Cruce en 4x4)",
         description:
@@ -1320,6 +1417,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈460 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer en el Sáhara → M'Hamid → Marrakech",
         description:
@@ -1389,24 +1489,39 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈360 km",
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Valle del Dades",
         description:
           "Recogida a las 7:00. Ascenso del puerto de Tizi n'Tichka a través del Alto Atlas (2.260 m). Parada en el Ksar de Aït Ben Haddou, Patrimonio de la UNESCO, para una exploración completa de 45 minutos. Pausa para almorzar en Ouarzazate, con la opción de visitar los Estudios Atlas (donde se rodaron Gladiator y Juego de Tronos). Continuación por el espectacular valle del Dades — kasbahs de tono rosado, pueblos de oasis y las formaciones rocosas de 'dedos de mono'. Llegada al hotel del valle del Dades a las 17:00. Cena y noche.",
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "≈4 h",
+        distance: "≈220 km",
         title: "Valle del Dades → Garganta de Todra → Campamento del Desierto en Merzouga",
         description:
           "Desayuno en el hotel. Caminata por el punto más estrecho de la garganta de Todra: un corredor de 40 m de ancho entre paredes de piedra caliza de 400 m, con un río claro bajo los pies. Continuación hacia el este por las llanuras presaharianas, pasando pueblos de oasis y pastos nómadas. Llegada a Merzouga por la tarde. Salida en camello para el paseo al atardecer hacia las imponentes dunas de Erg Chebbi. Llegada al campamento cuando el cielo se tiñe de rojo. Tajín marroquí tradicional de cena, música bereber junto al fuego y un cielo repleto de estrellas.",
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         title: "Amanecer en el Sáhara → Pueblo de Merzouga → Ouarzazate",
         description:
           "Despertar a las 5:30 para subir a la duna y ver despertar al Sáhara. Regreso en camello al campamento, desayuno y aseo en la casa de huéspedes de Merzouga. Inicio del regreso por la 'Ruta de las Mil Kasbahs', una ruta distinta y más meridional a través de Tazarine y N'Kob, una hilera de antiguas kasbahs de adobe a lo largo de una vieja ruta de caravanas. Llegada a Ouarzazate por la tarde-noche. Noche en hotel.",
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈200 km",
         title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Marrakech",
         description:
           "Visita matinal a la Kasbah Taourirt en Ouarzazate (opcional). Breve parada de regreso en Aït Ben Haddou para verlo con otra luz por la mañana. Ascenso de vuelta por el puerto de Tizi n'Tichka con vistas panorámicas del Atlas. Llegada a Marrakech a las 17:00.",
@@ -1476,6 +1591,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Casa de huéspedes",
+        driving: "≈7 h",
+        distance: "≈420 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
@@ -1483,6 +1602,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Valle del Dades → Garganta de Todra → Campamento de Erg Chebbi",
         description:
@@ -1490,6 +1613,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈9 h",
+        distance: "≈560 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer en el Sáhara → Merzouga → Agadir",
         description:
@@ -1554,6 +1680,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Campamento en el desierto",
+        driving: "≈8 h",
+        distance: "≈500 km",
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Agadir → Taroudant → Taznakht → Valle del Draa → Zagora",
         description:
@@ -1561,6 +1691,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈500 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → Tamegroute → Valle del Draa → Agadir",
         description:
@@ -1626,6 +1759,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Casa de huéspedes",
+        driving: "≈7 h",
+        distance: "≈400 km",
         stop: { name: "Foum Zguid", lat: 30.087, lng: -6.868 },
         title: "Agadir → Estribaciones del Antiatlas → Tata → Foum Zguid / M'Hamid",
         description:
@@ -1633,6 +1770,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "3–4 h (4x4)",
+        distance: "≈70 km",
         stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
         title: "Cruce en 4x4 hacia Erg Chegaga",
         description:
@@ -1640,6 +1781,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈450 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Amanecer → M'Hamid → Valle del Draa → Agadir",
         description:
@@ -1709,6 +1853,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Casa de huéspedes",
+        driving: "≈7 h",
+        distance: "≈420 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
@@ -1716,6 +1864,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Valle del Dades → Garganta de Todra → Campamento de Erg Chebbi",
         description:
@@ -1723,6 +1875,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Amanecer en el Sáhara → Ruta de las Mil Kasbahs → Ouarzazate",
         description:
@@ -1730,6 +1886,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Agadir",
         description:
@@ -1793,6 +1952,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
@@ -1800,6 +1963,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈340 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
@@ -1807,6 +1974,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈220 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
@@ -1814,6 +1985,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -1873,6 +2045,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
@@ -1880,6 +2056,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈7 h",
+        distance: "≈480 km",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Marrakech → Ifrane → Fez",
         description:
@@ -1887,6 +2067,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        stay: "Hotel",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -1894,6 +2076,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Fez → Volubilis → Mequinez → Chefchaouen",
         description:
@@ -1901,6 +2087,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
         title: "Día Completo en Chefchaouen",
         description:
@@ -1960,6 +2147,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
@@ -1967,6 +2158,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈6 h",
+        distance: "≈360 km",
         stop: { name: "Midelt", lat: 32.68, lng: -4.745 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
@@ -1974,6 +2169,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Mequinez",
         description:
@@ -1981,6 +2180,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        stay: "Hotel",
         stop: { name: "Fes", lat: 34.033, lng: -5.0 },
         title: "Mequinez → Día Completo en Fez",
         description:
@@ -1988,6 +2189,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈3 h",
+        distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
         title: "Fez → Rabat",
         description:
@@ -1995,6 +2200,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
@@ -2065,6 +2273,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Casa rural (gîte)",
+        walking: "4 h",
+        driving: "1.5 h",
+        ascent: "+560 m",
         stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
         title: "Marrakech → Imlil → Tachedirt (2.300 m)",
         description:
@@ -2072,6 +2285,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6–7 h",
+        ascent: "+1,255 m / −1,305 m",
         stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
         title: "Tachedirt → Tizi Likemt (3.555 m) → Azib Likemt (2.250 m)",
         description:
@@ -2079,6 +2296,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "6 h",
+        distance: "≈14 km",
         stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
         title: "Azib Likemt → Tizi n'Ourai → Amsouzart (1.740 m)",
         description:
@@ -2086,6 +2307,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "5 h",
+        ascent: "+555 m",
         stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
         title: "Amsouzart → Lago Ifni (2.295 m)",
         description:
@@ -2093,6 +2318,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "6–7 h",
+        ascent: "+1,370 m / −460 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Lago Ifni → Tizi n'Ouanoums (3.664 m) → Refugio del Toubkal (3.207 m)",
         description:
@@ -2100,6 +2329,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B",
+        walking: "7–8 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
@@ -2164,6 +2397,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Refugio de montaña",
+        walking: "5 h",
+        driving: "1.5 h",
+        ascent: "+1,470 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Refugio del Toubkal (3.207 m)",
         description:
@@ -2171,6 +2409,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        walking: "7–8 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
@@ -2235,6 +2477,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Vivac",
+        walking: "5–6 h",
+        driving: "1.5 h",
+        ascent: "+900 m",
         stop: { name: "Azzaden Valley", lat: 31.09, lng: -7.95 },
         title: "Marrakech → Imlil → Valle de Azzaden (Azib Tamsoult)",
         description:
@@ -2242,6 +2489,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "6–7 h",
+        ascent: "+1,100 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Azzaden → Puerto de Aguelzim (3.560 m) → Refugio del Toubkal (3.207 m)",
         description:
@@ -2249,6 +2500,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        walking: "7 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
@@ -2314,6 +2569,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Refugio de montaña",
+        walking: "5 h",
+        driving: "1.5 h",
+        ascent: "+1,470 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Refugio del Toubkal (3.207 m)",
         description:
@@ -2321,6 +2581,11 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "7–8 h",
+        distance: "≈9 km",
+        ascent: "+880 m",
         stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
         title: "Ouanoukrim — Timesguida (4.089 m) y Ras (4.083 m)",
         description:
@@ -2328,6 +2593,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B",
+        walking: "6 h",
+        driving: "1.5 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cima del Toubkal (4.167 m) → Imlil → Marrakech",
         description:
@@ -2449,6 +2718,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Campamento en el desierto",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Marrakech → Campamento del Desierto en Erg Chebbi",
         description:
@@ -2456,6 +2729,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Amanecer → Merzouga → Marrakech",
         description:
@@ -2515,6 +2791,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Casa rural (gîte)",
+        walking: "5–6 h",
+        driving: "1.5 h",
+        ascent: "+700 m",
         stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
         title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1.850 m)",
         description:
@@ -2522,6 +2803,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L",
+        walking: "5 h",
+        driving: "1.5 h",
+        distance: "≈12 km",
         stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
         title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakech",
         description:
@@ -2582,6 +2867,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Casa rural (gîte)",
+        walking: "4–5 h",
+        driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Valle de Azzaden",
         description:
@@ -2589,6 +2878,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "6 h",
+        ascent: "+800 m",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Azzaden → altos pastos → Tacheddirt (2.300 m)",
         description:
@@ -2596,6 +2889,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L",
+        walking: "5 h",
+        driving: "1 h",
         stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "Tacheddirt → Valle de Ourika → Marrakech",
         description:
@@ -2656,6 +2952,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Casa de huéspedes",
+        walking: "2–3 h",
+        driving: "1.5 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Marrakech → Imlil → primer pueblo (caminata corta)",
         description:
@@ -2663,6 +2963,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "4 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Caminata por el valle y cascadas",
         description:
@@ -2670,6 +2973,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "4–5 h",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Paso al lado de Ourika",
         description:
@@ -2677,6 +2983,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L",
+        walking: "3 h",
+        driving: "1 h",
         stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
         title: "Valle de Ourika → Marrakech",
         description:
@@ -2739,6 +3048,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        stay: "Hotel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Dades Valley", lat: 31.356, lng: -6.01 },
         title: "Marrakech → Ait Ben Haddou → Valle del Dades",
         description:
@@ -2746,6 +3059,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,D",
+        stay: "Campamento en el desierto",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Garganta del Dades → Garganta del Todra → Campamento del desierto en Erg Chebbi",
         description:
@@ -2753,6 +3070,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,D",
+        stay: "Hotel",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
         title: "Dunas al amanecer → Uarzazate",
         description:
@@ -2760,6 +3081,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B",
+        driving: "≈4 h",
+        distance: "≈200 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Uarzazate → Marrakech",
         description:
@@ -2825,6 +3149,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Casa rural (gîte)",
+        walking: "1–2 h",
+        driving: "5–6 h",
         stop: { name: "Aït Bougmez", lat: 31.644, lng: -6.447 },
         title: "Marrakech → Ait Bougmez (1.800 m)",
         description:
@@ -2832,6 +3160,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6 h",
+        ascent: "+1,100 m",
         stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 },
         title: "Ait Bougmez → altiplano de Tarkeddit (2.900 m)",
         description:
@@ -2839,6 +3171,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "8–9 h",
+        ascent: "+1,168 m / −1,150 m",
         stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 },
         title: "Cumbre del M'Goun (4.068 m) → valle de Oulilimt",
         description:
@@ -2846,6 +3182,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6 h",
         stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 },
         title: "Oulilimt → gargantas del Tessaout",
         description:
@@ -2853,6 +3192,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "5 h",
         stop: { name: "Magdaz", lat: 31.47, lng: -6.26 },
         title: "Tessaout → pueblo de Magdaz (1.900 m)",
         description:
@@ -2860,6 +3202,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 6,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6 h",
+        ascent: "+900 m",
         stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "Magdaz → Amezri → altos pastos",
         description:
@@ -2867,12 +3213,19 @@ export const TOURS: Tour[] = [
       },
       {
         day: 7,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "2–3 h",
         title: "Día de descanso y aclimatación",
         description:
           "Un día más lento para recuperarse a mitad de travesía: una corta caminata opcional, colada y tiempo con el equipo antes del terreno más alto que viene. Noche en acampada o gîte de pueblo.",
       },
       {
         day: 8,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6–7 h",
+        ascent: "+850 m",
         stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 },
         title: "Por los puertos occidentales",
         description:
@@ -2880,12 +3233,18 @@ export const TOURS: Tour[] = [
       },
       {
         day: 9,
+        meals: "B,L,D",
+        stay: "Vivac",
+        walking: "6 h",
         title: "Travesía de valles remotos",
         description:
           "Una jornada completa por valles y aldeas que casi no ven senderistas, siguiendo caminos de mulas entre los pueblos. Unas 6-7 horas. Noche en gîte de pueblo.",
       },
       {
         day: 10,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "6–7 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Aproximación al macizo del Toubkal",
         description:
@@ -2893,6 +3252,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 11,
+        meals: "B,L,D",
+        stay: "Casa rural (gîte)",
+        walking: "5 h",
+        ascent: "+560 m",
         stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
         title: "Tacheddirt (2.300 m)",
         description:
@@ -2900,6 +3263,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 12,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "6 h",
+        ascent: "+900 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Tacheddirt → Refugio del Toubkal (3.207 m)",
         description:
@@ -2907,6 +3274,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 13,
+        meals: "B,L,D",
+        stay: "Refugio de montaña",
+        walking: "7 h",
+        ascent: "+960 m / −960 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Cumbre del Toubkal (4.167 m) → Refugio",
         description:
@@ -2914,6 +3285,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 14,
+        meals: "B,L,D",
+        stay: "Casa de huéspedes",
+        walking: "5 h",
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Refugio → Imlil (1.740 m)",
         description:
@@ -2921,6 +3295,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 15,
+        meals: "B",
+        driving: "1.5 h",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Imlil → Marrakech",
         description:

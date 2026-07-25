@@ -19,3 +19,5 @@ const TourLocationMapInner = dynamic(() => import("./TourLocationMapInner"), {
 export default function TourLocationMap(props: TourLocationMapProps) {
   return <TourLocationMapInner {...props} />;
 }
+
+export type { RouteStop } from "./TourLocationMapInner";

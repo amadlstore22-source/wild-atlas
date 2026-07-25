@@ -201,7 +201,14 @@ export default async function TourDetailPage({ params }: TourParams) {
             <section id="tour-location" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>
               <p className="flex items-center gap-1.5 text-ink-soft mb-4"><MapPin className="w-4 h-4 text-indigo" />{tour.meetingPoint.name}</p>
-              <TourLocationMap lat={tour.meetingPoint.lat} lng={tour.meetingPoint.lng} name={tour.meetingPoint.name} />
+              <TourLocationMap
+                lat={tour.meetingPoint.lat}
+                lng={tour.meetingPoint.lng}
+                name={tour.meetingPoint.name}
+                stops={tour.itinerary
+                  .filter((d) => d.stop)
+                  .map((d) => ({ name: d.stop!.name, lat: d.stop!.lat, lng: d.stop!.lng, day: d.day }))}
+              />
             </section>
 
             <section id="tour-included" className="scroll-mt-32">

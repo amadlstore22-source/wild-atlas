@@ -14,6 +14,11 @@ export interface ItineraryDay {
   day: number;
   title: string;
   description: string;
+  /** Key geographic stop for this day, plotted on the tour map and connected
+   *  into the route line. Optional: days without a distinct location (e.g. a
+   *  summit-and-return day) can omit it, and tours with no stops fall back to
+   *  the single meetingPoint marker. Coordinates must be real, verified places. */
+  stop?: { name: string; lat: number; lng: number };
 }
 
 export interface Tour {
@@ -119,24 +124,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Marrakech → Imlil (1,740 m)",
         description:
           "Transfer from Marrakech to Imlil (1h30), the trailhead village for Toubkal. Settle in, meet your guide, and take a short acclimatisation walk through the terraced Berber fields. Welcome dinner.",
       },
       {
         day: 2,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Trek up the Mizane Valley past the Sidi Chamharouch shrine to the mountain refuge. Afternoon acclimatisation walk above camp. Early sleep before summit day.",
       },
       {
         day: 3,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Summit Day — Toubkal (4,167 m)",
         description:
           "Pre-dawn start at 5:00 am. Steep ascent via the South Cirque scree. Summit at sunrise. Descent back to refuge for celebratory dinner.",
       },
       {
         day: 4,
+        stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Refuge → Imlil → Marrakech",
         description:
           "Morning descent through wildflower meadows. Transfer back to Marrakech. Tour ends mid-afternoon.",
@@ -1452,24 +1461,28 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Dades Valley",
         description:
           "Pick-up at 7:00 am. Ascend the Tizi n'Tichka pass through the High Atlas (2,260 m). Stop at the UNESCO Ksar of Aït Ben Haddou for a full 45-minute exploration. Lunch break in Ouarzazate with the option to visit the Atlas Film Studios (where Gladiator and Game of Thrones were filmed). Continue through the dramatic Dades Valley — rose-red kasbahs, oasis villages, and the 'monkey fingers' rock formations. Arrive hotel in Dades Valley by 5:00 pm. Dinner and overnight.",
       },
       {
         day: 2,
+        stop: { name: "Todra Gorge", lat: 31.58, lng: -5.6 },
         title: "Dades Valley → Todra Gorge → Merzouga Desert Camp",
         description:
           "Breakfast at the hotel. Walk into Todra Gorge at its narrowest point — a 40 m wide corridor between 400 m limestone walls with a clear river underfoot. Continue east through the pre-Saharan plains, past oasis towns and nomad pastures. Arrive Merzouga in the afternoon. Board your camel for the sunset trek into Erg Chebbi's towering dunes. Arrive at camp as the sky turns red. Traditional Moroccan tagine for dinner, Berber music around the fire, and a sky alive with stars.",
       },
       {
         day: 3,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Sahara Sunrise → Merzouga Village → Ouarzazate",
         description:
           "Rise at 5:30 am to climb the dune and watch the Sahara wake up. Return camel to camp, breakfast, and freshen up at the Merzouga guesthouse. Begin the return via the 'Road of a Thousand Kasbahs' — a different, more southern route through Tazarine and N'Kob, a string of ancient earthen kasbahs along an old caravan route. Arrive Ouarzazate in the evening. Overnight in hotel.",
       },
       {
         day: 4,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Marrakech",
         description:
           "Morning visit to Taourirt Kasbah in Ouarzazate (optional). Brief return stop at Aït Ben Haddou for a second angle in the morning light. Climb back over the Tizi n'Tichka pass with panoramic Atlas views. Arrive Marrakech by 5:00 pm.",
@@ -2947,30 +2960,35 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Morning transfer from Marrakech to Imlil (1,740 m), about 90 minutes, where you meet your mountain guide. Trek up the Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge (3,207 m) — roughly 5 hours with a mule carrying the bags. Afternoon acclimatisation walk above the refuge, early dinner, and an early night before summit day.",
       },
       {
         day: 2,
+        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Summit Toubkal (4,167 m) → Imlil",
         description:
           "Pre-dawn start by head torch for the steep push up the South Cirque to the summit for sunrise, with the whole High Atlas — and the edge of the Sahara — below. Descend to the refuge for a proper breakfast, then continue down to Imlil. Night in an Imlil guesthouse to rest tired legs before the desert leg.",
       },
       {
         day: 3,
+        stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Imlil → Aït Ben Haddou → Dades Valley",
         description:
           "Meet your desert driver-guide and cross the High Atlas by the Tizi n'Tichka pass. Stop at the earthen kasbah of Aït Ben Haddou (a Game of Thrones and Gladiator location), then follow the Road of a Thousand Kasbahs to a hotel in the Dades Valley. Dinner and overnight.",
       },
       {
         day: 4,
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Dades → Todra Gorge → Erg Chebbi Desert Camp",
         description:
           "Morning walk in the dramatic Todra Gorge (400 m walls), then east across the desert to Merzouga. Arrive at the Erg Chebbi dunes for a sunset camel trek into a Berber desert camp. Dinner around the fire and stargazing under one of the darkest skies in Morocco. Overnight at the camp.",
       },
       {
         day: 5,
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Sunrise Dunes → Marrakech",
         description:
           "Optional sunrise camel ride over the dunes and breakfast at camp, then the drive back across the Atlas to Marrakech via Ouarzazate, arriving in the evening. Tour ends.",

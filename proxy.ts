@@ -43,6 +43,30 @@ export function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
 
+  // Redirect guessed/legacy category slugs to a real category so external links
+  // (and Googlebot's URL guesses like /categories/imperial) land on a live page
+  // instead of a 404. Keys are the bad slug, values the real CATEGORIES id.
+  const CATEGORY_ALIASES: Record<string, string> = {
+    imperial: "cultural",
+    "imperial-cities": "cultural",
+    culture: "cultural",
+    trek: "trekking",
+    trekking: "trekking",
+    sahara: "desert",
+    "day-trips": "day-tours",
+    "day-tour": "day-tours",
+  };
+  const catMatch = pathname.match(/^\/([a-z]{2})\/categories\/([^/]+)\/?$/);
+  if (catMatch) {
+    const [, loc, slug] = catMatch;
+    const target = CATEGORY_ALIASES[slug];
+    if (target && target !== slug) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/${loc}/categories/${target}`;
+      return NextResponse.redirect(url, 301);
+    }
+  }
+
   const pathnameHasLocale = LOCALES.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );

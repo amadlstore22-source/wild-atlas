@@ -133,13 +133,13 @@ export default async function HomePage({ params }: LangParams) {
       <JsonLd data={websiteJsonLd} />
       <Hero lang={lang} dict={dict} />
       <TrustBar dict={dict} />
+      <OurStory dict={dict} lang={lang} />
       <FeaturedTours lang={lang} dict={dict} />
       <ZelligeDivider />
       <CategoryGrid dict={dict} lang={lang} categories={categoriesFor(lang)} />
       <WhyUs dict={dict} tourCount={STATS.tourCount} />
       <Testimonials dict={dict} />
       <ZelligeDivider />
-      <OurStory dict={dict} lang={lang} />
       <MapWrapper lang={lang} dict={dict} />
       <Gallery dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>

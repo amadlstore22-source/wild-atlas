@@ -1659,4 +1659,131 @@ Pendant le Ramadan, de nombreuses boutiques de spiritueux et certains bars cesse
 Si vous voulez boire un verre au Maroc : réservez un hébergement qui sert de l'alcool (la plupart des établissements de milieu et haut de gamme le font), ou prévoyez un arrêt dans une boutique agréée ou un supermarché en ville avant de vous rendre dans un endroit plus rural. Gardez cela à l'intérieur d'espaces privés ou agréés. Attendez-vous à ce que la disponibilité diminue à mesure que vous vous éloignez de Marrakech, Casablanca et des villes côtières balnéaires, et à ce qu'elle diminue encore davantage pendant le Ramadan. Rien de tout cela ne fait du Maroc un endroit difficile pour boire un verre — cela en fait simplement un endroit où l'on boit dans des lieux précis plutôt que n'importe où, ce qui est différent du fait que ce soit difficile à trouver.
 `,
   },
+  {
+    slug: "souss-massa-national-park-birdwatching-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Parc national de Souss-Massa : le meilleur de l'ornithologie au Maroc, depuis Agadir",
+    excerpt:
+      "À une demi-heure au sud d'Agadir se trouve l'un des derniers bastions de l'ibis chauve et une zone humide où les flamants roses pataugent dans l'estuaire atlantique. Voici comment visiter Souss-Massa.",
+    heroImage: "https://images.pexels.com/photos/35506095/pexels-photo-35506095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "wildlife",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["Souss-Massa", "Agadir", "birdwatching", "bald ibis", "wildlife Morocco", "flamingos"],
+    seoTitle: "Parc national de Souss-Massa — Excursion ornithologique depuis Agadir",
+    seoDescription:
+      "Guide complet du parc national de Souss-Massa près d'Agadir : l'ibis chauve menacé, les flamants roses de l'estuaire de la Massa, quand y aller et comment le visiter en une journée.",
+    relatedTours: ["sous-massa-national-park", "paradise-valley-agadir", "souss-valley-cultural-tour"],
+    content: `
+## Une côte sauvage juste au sud des stations balnéaires
+
+La plupart des visiteurs connaissent Agadir pour sa plage et son golf. Bien moins savent qu'à trente minutes au sud, le littoral devient sauvage : dunes, falaises et le large estuaire de l'oued Massa, le tout protégé au sein du **parc national de Souss-Massa**. Créé en 1991 et couvrant quelque 340 km² le long de l'Atlantique, c'est l'une des aires protégées les plus importantes du Maroc — et le meilleur endroit du pays pour observer les oiseaux.
+
+Si c'est la faune qui vous attire vers le sud, notre [excursion d'Agadir au parc national de Souss-Massa](/fr/tours/sous-massa-national-park) est conçue autour des meilleures heures de l'estuaire : tôt le matin et en fin d'après-midi, quand les oiseaux se nourrissent et que la lumière est basse.
+
+## La vedette : l'ibis chauve
+
+Souss-Massa est mondialement connu des ornithologues pour une raison. L'**ibis chauve** (*Geronticus eremita*) est l'un des oiseaux les plus rares de la planète — un étrange oiseau noir et brillant, au visage rouge et nu et au bec courbé, autrefois répandu en Afrique du Nord, au Proche-Orient et dans le sud de l'Europe, aujourd'hui réduit à une population minuscule. Les falaises autour de Souss-Massa et de Tamri, tout proche, abritent la plus grande colonie sauvage survivante au monde. Les voir ici, à l'état sauvage, est une rencontre véritablement unique dans une vie — et le travail de conservation mené dans le parc est la raison pour laquelle l'espèce existe encore.
+
+## Flamants roses, spatules et estuaire
+
+L'estuaire de la Massa est une mosaïque mouvante de lagune, de roselière et de vasière. Selon la saison, vous pourrez voir des **flamants roses** patauger dans les eaux peu profondes en lignes roses désordonnées, des **spatules blanches**, des sarcelles marbrées, des échasses blanches et — pour les yeux exercés — parfois un busard des roseaux survolant les roseaux. Les migrations d'automne et de printemps amènent des vagues de limicoles de passage ; l'hiver concentre la sauvagine. Même un non-initié repart frappé par le simple nombre d'oiseaux.
+
+**Idéal pour :** l'observation des oiseaux, la photographie, les promenades tranquilles dans la nature, une pause loin de la plage.
+
+## Quand y aller
+
+- **Meilleurs mois :** d'octobre à avril, lorsque les migrateurs et les hivernants sont présents et que la chaleur est douce.
+- **Meilleur moment de la journée :** les deux premières heures après le lever du soleil et les deux dernières avant le coucher. Midi est chaud et les oiseaux se reposent.
+- **À emporter :** des jumelles (indispensables), un chapeau, de l'eau et des chaussures fermées pour le sentier de l'estuaire.
+
+## Associer Souss-Massa au reste de la région
+
+Souss-Massa s'associe naturellement aux autres excursions à la journée au départ d'Agadir. Plutôt de l'eau douce et des palmiers que l'estuaire ? Les bassins de gorge de [Paradise Valley](/fr/tours/paradise-valley-agadir) sont à courte distance au nord. Plus intéressé par les gens et la terre que par les oiseaux ? Le [circuit culturel de la vallée du Souss, argan et Berbères](/fr/tours/souss-valley-cultural-tour) s'enfonce dans les forêts d'arganiers et les coopératives. Les trois font d'excellentes journées au départ d'Agadir.
+`,
+  },
+  {
+    slug: "taroudant-day-trip-from-agadir-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Taroudant : la « petite Marrakech » à visiter depuis Agadir",
+    excerpt:
+      "Ceinte de cinq kilomètres de remparts couleur miel, Taroudant est la ville-marché berbère fortifiée que les cars de touristes oublient. C'est une journée facile et enrichissante depuis Agadir.",
+    heroImage: "https://images.pexels.com/photos/37684084/pexels-photo-37684084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["Taroudant", "Agadir", "Souss Valley", "ramparts", "Berber market", "culture Morocco"],
+    seoTitle: "Excursion à Taroudant depuis Agadir — Remparts, souks et le Souss",
+    seoDescription:
+      "Pourquoi Taroudant vaut une journée depuis Agadir : des remparts du XVIe siècle intacts, deux souks berbères authentiques, des tanneries et l'oasis de Tiout. Que voir et comment organiser la visite.",
+    relatedTours: ["taroudant-day-trip-agadir", "souss-valley-cultural-tour", "sous-massa-national-park"],
+    content: `
+## La ville derrière les murs
+
+À une heure et demie à l'est d'Agadir, au cœur de la fertile plaine du Souss, se trouve **Taroudant** — une ville si entièrement ceinte de ses remparts de terre qu'y arriver donne l'impression de franchir une porte vers un autre siècle. On l'appelle la « petite Marrakech », et la comparaison est juste : les mêmes murs rouge-or, les mêmes souks vivants, la même énergie commerçante berbère — mais une fraction de la foule et aucune agitation. C'est ce que beaucoup de voyageurs espèrent trouver à Marrakech et n'y trouvent plus tout à fait.
+
+Notre [excursion d'Agadir à Taroudant](/fr/tours/taroudant-day-trip-agadir) est la manière la plus simple de la découvrir, avec un guide capable de vous mener au-delà de l'évident, dans les ruelles qui comptent.
+
+## Les remparts
+
+La caractéristique déterminante de Taroudant, c'est son mur : environ **cinq kilomètres** de remparts continus en pisé du XVIe siècle, ponctués de bastions et percés de cinq portes d'origine. Ils prennent une teinte ambre profond en fin de journée, et le grand classique est d'en faire le tour — à pied si le cœur vous en dit, ou en calèche, comme les habitants font encore la boucle. La couleur passe de l'ocre à midi au rose au coucher du soleil.
+
+## Deux souks, sans pression
+
+À l'intérieur, Taroudant compte deux marchés principaux, et leur ambiance ne pourrait être plus différente des bazars à touristes du nord. Le **Souk Arab** vend le quotidien — épices, produits frais, textiles, articles ménagers — tandis que le **Souk Berbère** penche vers les bijoux en argent, les tapis, le cuir et les produits à base d'argan venus de la campagne environnante. Le marchandage y est détendu et sincère ; vous traitez avec des gens qui vendent à leurs voisins, pas avec un piège à touristes.
+
+**Idéal pour :** les marchés authentiques, la photographie, une journée culturelle plus lente, les voyageurs qui ont trouvé Marrakech écrasante.
+
+## L'oasis de Tiout
+
+De nombreuses excursions à Taroudant ajoutent une halte à **Tiout**, une palmeraie à environ 40 minutes au sud-est, où une kasbah domine l'une des plus grandes dattraies du Souss. Une promenade parmi les palmiers et les canaux d'irrigation — le système de *khettara* qui irrigue cette terre depuis des siècles — offre un beau contrepoint à la ville close, et le site a servi de décor au film *Ali Baba et les Quarante Voleurs* de Jacques Becker (1954).
+
+## Composer votre journée
+
+Taroudant se trouve en plein cœur du Souss et s'associe donc naturellement aux autres excursions de l'intérieur. Enfoncez-vous davantage dans le pays de l'argan et la vie des villages berbères avec le [circuit culturel de la vallée du Souss](/fr/tours/souss-valley-cultural-tour), ou obliquez vers la côte et les oiseaux de l'estuaire du [parc national de Souss-Massa](/fr/tours/sous-massa-national-park). Deux de ces trois options composent une belle boucle de deux jours depuis Agadir.
+`,
+  },
+  {
+    slug: "argan-oil-souss-valley-agadir-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "L'huile d'argan et la vallée du Souss : une journée culturelle depuis Agadir",
+    excerpt:
+      "L'arganier ne pousse presque nulle part ailleurs sur Terre. Dans la vallée du Souss, derrière Agadir, vous pouvez voir l'huile pressée à la main, rencontrer les coopératives de femmes et manger chez une famille berbère.",
+    heroImage: "https://images.pexels.com/photos/13812743/pexels-photo-13812743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["argan oil", "Souss Valley", "Agadir", "Berber cooperative", "Amazigh culture", "honey"],
+    seoTitle: "Huile d'argan et vallée du Souss — Journée culturelle depuis Agadir",
+    seoDescription:
+      "D'où vient vraiment l'huile d'argan : une journée culturelle dans la vallée du Souss depuis Agadir — coopératives de femmes, pressage à la main, villages du miel et déjeuner en famille berbère.",
+    relatedTours: ["souss-valley-cultural-tour", "taroudant-day-trip-agadir", "paradise-valley-agadir"],
+    content: `
+## Un arbre qui ne pousse presque nulle part ailleurs
+
+L'**arganier** (*Argania spinosa*) est un quasi-endémique : il ne pousse en quantité commerciale qu'en un seul endroit sur Terre — la plaine du Souss et les versants de l'Anti-Atlas derrière Agadir. L'UNESCO a classé toute la région réserve de biosphère à cause de lui. Ces arbres noueux et épineux parsèment la semi-steppe comme sortis d'une fable, et dans certains villages vous verrez même des chèvres perchées dans les branches pour atteindre les fruits. L'huile pressée à partir des amandons contenus dans ces fruits est l'une des exportations emblématiques du Maroc et l'épine dorsale de l'économie rurale d'ici.
+
+Notre [circuit culturel de la vallée du Souss, argan et Berbères](/fr/tours/souss-valley-cultural-tour) est conçu pour vous montrer la réalité, pas un spectacle de bord de route.
+
+## Comment l'huile est réellement fabriquée
+
+L'huile d'argan est réputée pour être très laborieuse à produire, et voir le processus est ce qui rend la visite précieuse. Dans une véritable **coopérative de femmes**, vous observerez chaque étape faite à la main : concasser la noix dure entre deux pierres (un savoir-faire qui demande des années pour être rapide), torréfier les amandons pour l'huile alimentaire — ou les laisser crus pour l'huile cosmétique —, les broyer sur une meule de pierre et pétrir lentement la pâte pour libérer l'huile. Un litre d'huile prend presque une journée et environ trente kilos de fruits. Les coopératives comptent : elles mettent le revenu directement entre les mains des femmes amazighes (berbères) qui font le travail.
+
+**Idéal pour :** les voyageurs culturels, les amateurs de cuisine, les achats éthiques, les familles.
+
+## Miel, safran et déjeuner en famille
+
+Le Souss, c'est plus que l'argan. De nombreux itinéraires ajoutent un **village du miel**, où les apiculteurs produisent des miels de thym, d'eucalyptus et de rare euphorbe, et — en saison — un aperçu de la petite culture de safran et d'amandes qui complète le revenu des villages. Le cœur de la journée, cependant, reste généralement un **déjeuner dans une maison berbère** : tajine cuit au feu de bois, pain frais, huile d'argan et *amlou* (l'irrésistible pâte d'amande, d'argan et de miel) pour y tremper, et thé à la menthe versé de haut.
+
+## En faire un plus grand voyage
+
+L'argan et le Souss se marient à merveille avec les autres journées de l'intérieur de la région. Ajoutez la ville-marché fortifiée de [Taroudant](/fr/tours/taroudant-day-trip-agadir), une heure plus à l'est, pour ses remparts et ses souks ; ou rafraîchissez-vous ensuite dans les bassins ombragés de palmiers de [Paradise Valley](/fr/tours/paradise-valley-agadir), au nord d'Agadir. Ensemble, ils transforment des vacances balnéaires en une véritable rencontre avec le sud du Maroc.
+`,
+  },
 ];

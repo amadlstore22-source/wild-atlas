@@ -4065,6 +4065,133 @@ Want Paradise Valley specifically? Do it from Agadir. Based in Marrakech and jus
 👉 **[Book the Paradise Valley Day Trip from Agadir](/en/tours/paradise-valley-agadir)** if Agadir is your base — or explore our [Ourika](/en/tours/ourika-valley-day-hike) and [Ouzoud](/en/tours/ouzoud-waterfalls-day-trip) trips from Marrakech.
 `,
   },
+  {
+    slug: "souss-massa-national-park-birdwatching-guide",
+    author: MET_TEAM,
+    title: "Souss-Massa National Park: Morocco's Best Birdwatching, from Agadir",
+    excerpt:
+      "Half an hour south of Agadir lies one of the last strongholds of the northern bald ibis and a wetland where flamingos wade the Atlantic estuary. Here's how to visit Souss-Massa.",
+    heroImage: "https://images.pexels.com/photos/35506095/pexels-photo-35506095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "wildlife",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["Souss-Massa", "Agadir", "birdwatching", "bald ibis", "wildlife Morocco", "flamingos"],
+    seoTitle: "Souss-Massa National Park — Birdwatching Day Trip from Agadir",
+    seoDescription:
+      "A complete guide to Souss-Massa National Park near Agadir: the endangered northern bald ibis, flamingos on the Massa estuary, when to go, and how to visit on a day trip.",
+    relatedTours: ["sous-massa-national-park", "paradise-valley-agadir", "souss-valley-cultural-tour"],
+    content: `
+## A wild coast just south of the resorts
+
+Most visitors know Agadir for its beach and its golf. Far fewer know that thirty minutes south, the coastline turns wild: dunes, cliffs, and the broad estuary of the Oued Massa, all protected inside **Souss-Massa National Park**. Established in 1991 and covering some 340 km² along the Atlantic, it is one of the most important protected areas in Morocco — and the single best place in the country for birdwatching.
+
+If wildlife is what pulls you south, our [Agadir to Souss-Massa National Park day trip](/en/tours/sous-massa-national-park) is built around the estuary's best hours: early morning and late afternoon, when the birds feed and the light is low.
+
+## The star: the northern bald ibis
+
+Souss-Massa is world-famous among birders for one reason. The **northern bald ibis** (*Geronticus eremita*) is one of the rarest birds on earth — a strange, glossy-black bird with a bare red face and a curved bill, once found across North Africa, the Middle East, and southern Europe, now reduced to a tiny wild population. The cliffs around Souss-Massa and nearby Tamri hold the largest surviving wild colony in the world. Seeing them here, in the wild, is genuinely a once-in-a-lifetime encounter — and conservation work in the park is the reason the species still exists at all.
+
+## Flamingos, spoonbills, and the estuary
+
+The Massa estuary itself is a shifting mosaic of lagoon, reedbed, and mudflat. Depending on the season you may see **greater flamingos** wading the shallows in loose pink lines, **Eurasian spoonbills**, marbled ducks, black-winged stilts, and — for the sharp-eyed — the occasional marsh harrier quartering the reeds. Autumn and spring migration bring waves of passage waders; winter concentrates the wildfowl. Even a non-birder comes away struck by the sheer number of birds.
+
+**Best for:** birdwatching, photography, quiet nature walks, a break from the beach.
+
+## When to go
+
+- **Best months:** October to April, when migrants and wintering birds are present and the heat is gentle.
+- **Best time of day:** the first two hours after sunrise, and the last two before sunset. Midday is hot and the birds rest.
+- **Bring:** binoculars (essential), a hat, water, and closed shoes for the estuary trail.
+
+## Combining Souss-Massa with the rest of the region
+
+Souss-Massa pairs naturally with the other day trips out of Agadir. Freshwater and palms rather than estuary? The gorge pools of [Paradise Valley](/en/tours/paradise-valley-agadir) are a short drive north. More interested in the people and the land than the birds? The [Souss Valley argan and Berber culture tour](/en/tours/souss-valley-cultural-tour) heads inland to the argan forests and cooperatives. All three make excellent single days from an Agadir base.
+`,
+  },
+  {
+    slug: "taroudant-day-trip-from-agadir-guide",
+    author: MET_TEAM,
+    title: "Taroudant: the 'Little Marrakech' You Can Visit from Agadir",
+    excerpt:
+      "Ringed by five kilometres of honey-coloured ramparts, Taroudant is the walled Berber market town the tour buses forget. It's an easy, rewarding day from Agadir.",
+    heroImage: "https://images.pexels.com/photos/37684084/pexels-photo-37684084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["Taroudant", "Agadir", "Souss Valley", "ramparts", "Berber market", "culture Morocco"],
+    seoTitle: "Taroudant Day Trip from Agadir — Ramparts, Souks & the Souss",
+    seoDescription:
+      "Why Taroudant is worth a day from Agadir: complete 16th-century ramparts, two authentic Berber souks, tanneries, and the Tiout oasis. What to see and how to plan the trip.",
+    relatedTours: ["taroudant-day-trip-agadir", "souss-valley-cultural-tour", "sous-massa-national-park"],
+    content: `
+## The town inside the walls
+
+An hour and a half east of Agadir, in the heart of the fertile Souss plain, sits **Taroudant** — a town so completely encircled by its earthen ramparts that arriving feels like stepping through a gate into another century. People call it "Little Marrakech," and the comparison is fair: the same red-gold walls, the same working souks, the same Berber trading energy — but a fraction of the crowds and none of the hustle. It is what many travellers hope Marrakech will be and find it no longer quite is.
+
+Our [Agadir to Taroudant day trip](/en/tours/taroudant-day-trip-agadir) is the easiest way to see it, with a guide who can get you past the obvious and into the alleys that matter.
+
+## The ramparts
+
+Taroudant's defining feature is its wall: roughly **five kilometres** of continuous 16th-century mud-brick ramparts, studded with bastions and pierced by five original gates. They glow a deep amber at the end of the day, and the classic thing to do is circle them — on foot if you're keen, or by horse-drawn calèche, which is how locals still ride the loop. The colour shifts from ochre at noon to rose at sunset.
+
+## Two souks, no pressure
+
+Inside, Taroudant has two main markets, and they could not be more different in feel from the tourist bazaars further north. The **Souk Arab** deals in the everyday — spices, produce, textiles, household goods — while the **Souk Berbère** leans toward silver jewellery, carpets, leather, and argan products carried in from the surrounding countryside. Bargaining here is relaxed and genuine; you are trading with people who are selling to their neighbours, not running a tourist trap.
+
+**Best for:** authentic markets, photography, a slower cultural day, travellers who found Marrakech overwhelming.
+
+## The Tiout oasis
+
+Many Taroudant trips add a stop at **Tiout**, a palm oasis about 40 minutes southeast, where a kasbah looks out over one of the largest date groves in the Souss. A walk among the palms and irrigation channels — the *khettara* system that has watered this land for centuries — is a fine counterpoint to the walled town, and the setting was used in Jacques Becker's 1954 film *Ali Baba*.
+
+## Pairing your day
+
+Taroudant sits right in the middle of the Souss, so it slots neatly beside the region's other inland day trips. Go deeper into argan country and Berber village life with the [Souss Valley cultural tour](/en/tours/souss-valley-cultural-tour), or swing toward the coast and the estuary birds of [Souss-Massa National Park](/en/tours/sous-massa-national-park). Any two of the three make a rich two-day loop from Agadir.
+`,
+  },
+  {
+    slug: "argan-oil-souss-valley-agadir-guide",
+    author: MET_TEAM,
+    title: "Argan Oil and the Souss Valley: a Cultural Day from Agadir",
+    excerpt:
+      "The argan tree grows almost nowhere else on earth. In the Souss Valley behind Agadir you can watch the oil pressed by hand, meet the women's cooperatives, and eat in a Berber home.",
+    heroImage: "https://images.pexels.com/photos/13812743/pexels-photo-13812743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["argan oil", "Souss Valley", "Agadir", "Berber cooperative", "Amazigh culture", "honey"],
+    seoTitle: "Argan Oil & the Souss Valley — Cultural Day Trip from Agadir",
+    seoDescription:
+      "Where argan oil really comes from: a cultural day in the Souss Valley from Agadir — women's cooperatives, hand-pressing, honey villages, and a Berber family lunch.",
+    relatedTours: ["souss-valley-cultural-tour", "taroudant-day-trip-agadir", "paradise-valley-agadir"],
+    content: `
+## A tree that grows almost nowhere else
+
+The **argan tree** (*Argania spinosa*) is a botanical near-endemic: it grows in commercial quantity in exactly one place on earth — the Souss plain and the slopes of the Anti-Atlas behind Agadir. UNESCO recognised the whole region as a biosphere reserve because of it. The gnarled, thorny trees dot the semi-desert like something out of a fable, and in some villages you'll even see goats standing in the branches to reach the fruit. The oil pressed from the kernels inside that fruit is one of Morocco's signature exports and the backbone of the rural economy here.
+
+Our [Souss Valley argan and Berber culture tour](/en/tours/souss-valley-cultural-tour) is built to show you the real thing, not a roadside show.
+
+## How the oil is really made
+
+Argan oil is famously labour-intensive, and seeing the process is what makes the visit worthwhile. At a genuine **women's cooperative**, you'll watch each stage done by hand: cracking the hard nut between two stones (a skill that takes years to do quickly), roasting the kernels for culinary oil — or leaving them raw for cosmetic oil — grinding them on a stone quern, and slowly kneading the paste to release the oil. A litre of oil takes the better part of a day and around thirty kilos of fruit. The cooperatives matter: they put the income directly into the hands of the Amazigh (Berber) women who do the work.
+
+**Best for:** cultural travellers, food lovers, ethical shopping, families.
+
+## Honey, saffron, and a family lunch
+
+The Souss is more than argan. Many itineraries add a **honey village**, where beekeepers produce thyme, eucalyptus, and rare euphorbia honeys, and — in season — a look at the small-scale saffron and almond growing that supplements village income. The heart of the day, though, is usually a **lunch in a Berber home**: tagine cooked over wood, fresh bread, argan oil and *amlou* (the addictive almond-argan-honey spread) to dip it in, and mint tea poured from height.
+
+## Making it a bigger trip
+
+Argan and the Souss pair beautifully with the region's other inland days. Add the walled market town of [Taroudant](/en/tours/taroudant-day-trip-agadir), an hour further east, for ramparts and souks; or cool off afterwards in the palm-shaded pools of [Paradise Valley](/en/tours/paradise-valley-agadir) north of Agadir. Together they turn a beach holiday into a real encounter with southern Morocco.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

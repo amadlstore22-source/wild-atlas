@@ -40,9 +40,12 @@ const SINGLE_URL = args.url;
 const DRY_RUN = args["dry-run"] === "true";
 const TYPE = args.type || "URL_UPDATED"; // or URL_DELETED
 const LIMIT = args.limit ? parseInt(args.limit, 10) : Infinity;
+// Skip the first N URLs. Lets you page through a list bigger than the daily
+// quota on consecutive days without editing the file: --offset 200 --limit 200.
+const OFFSET = args.offset ? parseInt(args.offset, 10) : 0;
 
 if (!KEY_PATH || (!URLS_FILE && !SINGLE_URL)) {
-  console.error("Usage: node scripts/google-index.mjs --key <sa.json> (--urls <file> | --url <url>) [--limit N] [--dry-run]");
+  console.error("Usage: node scripts/google-index.mjs --key <sa.json> (--urls <file> | --url <url>) [--limit N] [--offset N] [--dry-run]");
   process.exit(1);
 }
 
@@ -63,9 +66,14 @@ if (SINGLE_URL) {
     .map((l) => l.trim())
     .filter((l) => l.startsWith("http"));
 }
-urls = urls.slice(0, LIMIT);
+const total = urls.length;
+urls = urls.slice(OFFSET, OFFSET === 0 && LIMIT === Infinity ? undefined : OFFSET + (LIMIT === Infinity ? total : LIMIT));
 
-console.log(`Loaded ${urls.length} URL(s). Type=${TYPE}. ${DRY_RUN ? "(DRY RUN)" : ""}`);
+console.log(
+  `Loaded ${urls.length} URL(s)` +
+    (OFFSET ? ` (skipped first ${OFFSET} of ${total})` : "") +
+    `. Type=${TYPE}. ${DRY_RUN ? "(DRY RUN)" : ""}`
+);
 if (urls.length > 200) {
   console.warn(
     `\n⚠️  ${urls.length} URLs exceeds the Indexing API's default 200/day quota. ` +

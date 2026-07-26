@@ -68,7 +68,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           <Image
             src={tour.heroImage}
             alt={tour.title}
-            fill priority
+            fill
             sizes="(max-width: 1024px) 100vw, 40vw"
             className="object-cover opacity-90 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05] motion-reduce:transition-none"
           />

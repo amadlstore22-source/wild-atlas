@@ -174,6 +174,48 @@ DATA = {
     4: {"meals":"B,D","stay":"hotel","driving":"≈4 h","distance":"≈200 km"},
     5: {"meals":"B"},
   },
+  # ---- Combined mountain-to-desert (5 days) ----
+  "toubkal-summit-sahara-5day": {
+    1: {"meals":"L,D","stay":"refuge","driving":"1.5 h","walking":"5 h","ascent":"+1,470 m"},
+    2: {"meals":"B,L,D","stay":"guesthouse","walking":"6–7 h","ascent":"+960 m / −2,430 m"},
+    3: {"meals":"D","stay":"hotel","driving":"≈5 h","distance":"≈300 km"},
+    4: {"meals":"B,D","stay":"desert camp","driving":"≈4 h","distance":"≈240 km","walking":"1–2 h"},
+    5: {"meals":"B","driving":"≈8 h","distance":"≈560 km"},
+  },
+  # ---- Single-day tours (no overnight; meals per the itinerary) ----
+  "ourika-valley-day-hike": {
+    1: {"meals":"L","driving":"≈1 h each way","walking":"3–4 h","distance":"≈65 km each way"},
+  },
+  "ouzoud-waterfalls-day-trip": {
+    1: {"meals":"—","driving":"≈2 h each way","walking":"2–3 h","distance":"≈150 km each way"},
+  },
+  "agafay-desert-sunset": {
+    1: {"meals":"D","driving":"30 min each way","distance":"≈40 km each way"},
+  },
+  "marrakech-medina-cultural-tour": {
+    1: {"meals":"—","walking":"4 h (on foot)"},
+  },
+  "paradise-valley-agadir": {
+    1: {"meals":"L","driving":"≈1.5 h each way","walking":"2–3 h","distance":"≈70 km each way"},
+  },
+  "sous-massa-national-park": {
+    1: {"meals":"L","driving":"≈1 h each way","walking":"2–3 h","distance":"≈60 km each way"},
+  },
+  "taroudant-day-trip-agadir": {
+    1: {"meals":"—","driving":"≈1 h each way","walking":"2–3 h","distance":"≈80 km each way"},
+  },
+  "agadir-surf-lesson": {
+    1: {"meals":"—","walking":"2 h session"},
+  },
+  "souss-valley-cultural-tour": {
+    1: {"meals":"L","driving":"≈1.5 h round trip","distance":"≈90 km round trip"},
+  },
+  "agadir-to-essaouira-day-trip": {
+    1: {"meals":"—","driving":"≈2 h each way","walking":"2–3 h","distance":"≈175 km each way"},
+  },
+  "marrakech-food-market-tour": {
+    1: {"meals":"L","walking":"4 h (on foot)"},
+  },
   "agadir-imperial-cities-6day": {
     1: {"meals":"D","stay":"hotel","driving":"≈4 h","distance":"≈250 km"},
     2: {"meals":"B,D","stay":"hotel","driving":"≈6 h","distance":"≈360 km"},
@@ -215,7 +257,9 @@ def enrich(path, loc):
             if not d:
                 return None
             parts = []
-            if "meals" in d: parts.append(f'meals: "{d["meals"]}"')
+            # "—" means no meal is included on this day: omit the field so the
+            # component shows no meal chip at all, rather than a literal dash.
+            if d.get("meals") and d["meals"] != "—": parts.append(f'meals: "{d["meals"]}"')
             if "stay" in d: parts.append(f'stay: "{js(stay_map[d["stay"]])}"')
             if "walking" in d: parts.append(f'walking: "{js(d["walking"])}"')
             if "driving" in d: parts.append(f'driving: "{js(d["driving"])}"')

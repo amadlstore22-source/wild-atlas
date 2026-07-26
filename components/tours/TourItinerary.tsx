@@ -68,18 +68,12 @@ export default function TourItinerary({ itinerary, dict }: { itinerary: Itinerar
                       {day.driving && <Chip icon={Car}>{day.driving}</Chip>}
                       {day.distance && <Chip icon={Path}>{day.distance}</Chip>}
                       {day.ascent && <Chip icon={TrendUp}>{day.ascent}</Chip>}
-                      {/* Meals: show the real per-day code when present, else the
-                          generic "meals included" label so older tours still read
-                          sensibly. */}
-                      <Chip icon={ForkKnife}>{day.meals ? mealsLabel(day.meals, dict) : dict.tourDetail.mealsIncluded}</Chip>
-                      {/* Where you sleep tonight: the named stay if given, else a
-                          generic label — but never on the final day, when the
-                          tour ends and there is no overnight. */}
-                      {day.stay ? (
-                        <Chip icon={Bed}>{day.stay}</Chip>
-                      ) : (
-                        day.day < itinerary.length && <Chip icon={Bed}>{dict.tourDetail.accommodationIncluded}</Chip>
-                      )}
+                      {/* Every tour now carries explicit per-day data, so each
+                          chip renders only when its fact actually applies — no
+                          more blanket "meals/accommodation included" on days that
+                          have neither. */}
+                      {day.meals && <Chip icon={ForkKnife}>{mealsLabel(day.meals, dict)}</Chip>}
+                      {day.stay && <Chip icon={Bed}>{day.stay}</Chip>}
                     </div>
                   </div>
                 </div>

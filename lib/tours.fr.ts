@@ -239,6 +239,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L",
+        walking: "3–4 h",
+        driving: "≈1 h each way",
+        distance: "≈65 km each way",
         title: "Journée complète — Vallée de l'Ourika",
         description:
           "Départ de Marrakech à 8h30. Début de la randonnée à 9h30 à travers villages et champs en terrasses. Baignade aux cascades. Déjeuner berbère traditionnel. Retour à Marrakech vers 17h00.",
@@ -296,6 +300,9 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        walking: "2–3 h",
+        driving: "≈2 h each way",
+        distance: "≈150 km each way",
         title: "Journée complète — Cascades d'Ouzoud",
         description:
           "Départ de Marrakech à 7h30. Arrivée à Ouzoud vers 9h30. Marche guidée jusqu'aux chutes, sentier des gorges, balade en barque, observation des macaques. Temps libre pour le déjeuner. Retour à Marrakech vers 18h00.",
@@ -354,6 +361,9 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "D",
+        driving: "30 min each way",
+        distance: "≈40 km each way",
         title: "Après-midi dans le désert d'Agafay",
         description:
           "Prise en charge à Marrakech à 15h00. Arrivée à Agafay vers 15h30. Session de quad, balade à dos de chameau au coucher du soleil (17h30–18h30). Dîner berbère traditionnel sous les étoiles. Retour à Marrakech vers 22h00.",
@@ -412,6 +422,7 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        walking: "4 h (on foot)",
         title: "Immersion complète dans la médina",
         description:
           "Départ à 9h00 depuis la mosquée Koutoubia. Traversée du Mellah, de la médersa Ben Youssef, des souks d'artisanat, des tanneries et de la place Jemaa el-Fnaa. Thé à la menthe dans un riad caché. Fin vers 13h00.",
@@ -618,6 +629,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L",
+        walking: "2–3 h",
+        driving: "≈1.5 h each way",
+        distance: "≈70 km each way",
         title: "Journée complète — Paradise Valley",
         description:
           "Départ d'Agadir à 9h00. Arrivée à Paradise Valley vers 10h00. Randonnée guidée dans les gorges, baignade dans les bassins naturels, déjeuner berbère sous les palmiers. Retour à Agadir vers 17h00.",
@@ -675,6 +690,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L",
+        walking: "2–3 h",
+        driving: "≈1 h each way",
+        distance: "≈60 km each way",
         title: "Journée complète — Souss-Massa",
         description:
           "Départ d'Agadir à 8h00. Session matinale à l'estuaire de la Massa pour observer ibis et flamants. Sentier côtier et dunes atlantiques après le déjeuner. Retour à Agadir vers 17h00.",
@@ -733,6 +752,9 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        walking: "2–3 h",
+        driving: "≈1 h each way",
+        distance: "≈80 km each way",
         title: "Journée complète — Taroudant",
         description:
           "Départ d'Agadir à 8h30. Arrivée à Taroudant vers 9h30. Visite guidée de la médina, des remparts, des souks et des tanneries. Arrêt facultatif à l'oasis de Tiout. Retour à Agadir vers 17h00.",
@@ -790,6 +812,7 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        walking: "2 h session",
         title: "Session de surf — Baie d'Agadir",
         description:
           "Rendez-vous avec votre moniteur à la plage à l'heure convenue. 30 min de cours au sol (technique et sécurité), 90 min dans l'eau. Sessions disponibles matin et après-midi tous les jours.",
@@ -1005,6 +1028,9 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L",
+        driving: "≈1.5 h round trip",
+        distance: "≈90 km round trip",
         title: "Journée complète — Vallée du Souss",
         description:
           "Départ d'Agadir à 9h00. Visite de la coopérative d'argan (10h00). Route vers le village de miel. Déjeuner en famille berbère (13h00). Visite l'après-midi d'Aït Baha ou du point de vue sur la vallée. Retour à Agadir vers 17h00.",
@@ -1061,6 +1087,9 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        walking: "2–3 h",
+        driving: "≈2 h each way",
+        distance: "≈175 km each way",
         title: "Agadir → Essaouira → Agadir",
         description:
           "Départ d'Agadir à 8h00. Arrivée à Essaouira vers 10h00. Visite guidée de la médina, des remparts et du port. Temps libre pour le déjeuner et l'exploration. Départ à 16h30. Retour à Agadir vers 18h30.",
@@ -2666,6 +2695,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L",
+        walking: "4 h (on foot)",
         title: "Demi-journée — Marchés de la médina et cours de cuisine",
         description:
           "Rendez-vous à la place aux épices de Rahba Kedima à 9h30. Balade guidée à travers les souks aux épices et à l'alimentation avec dégustations (90 minutes). Poursuite vers une cuisine familiale locale pour un cours pratique de tajine. Dégustation du tajine que vous avez cuisiné, accompagné de thé à la menthe. Fin vers 13h30.",
@@ -3377,6 +3408,11 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
+        meals: "L,D",
+        stay: "Refuge de montagne",
+        walking: "5 h",
+        driving: "1.5 h",
+        ascent: "+1,470 m",
         stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
         title: "Marrakech → Imlil → Refuge du Toubkal (3 207 m)",
         description:
@@ -3384,6 +3420,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
+        meals: "B,L,D",
+        stay: "Maison d'hôtes",
+        walking: "6–7 h",
+        ascent: "+960 m / −2,430 m",
         stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
         title: "Sommet du Toubkal (4 167 m) → Imlil",
         description:
@@ -3391,6 +3431,10 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
+        meals: "D",
+        stay: "Hôtel",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Imlil → Aït Ben Haddou → Vallée du Dadès",
         description:
@@ -3398,6 +3442,11 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
+        meals: "B,D",
+        stay: "Campement dans le désert",
+        walking: "1–2 h",
+        driving: "≈4 h",
+        distance: "≈240 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
         title: "Dadès → Gorges du Todra → Campement de l'Erg Chebbi",
         description:
@@ -3405,6 +3454,9 @@ export const TOURS: Tour[] = [
       },
       {
         day: 5,
+        meals: "B",
+        driving: "≈8 h",
+        distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Dunes au lever du soleil → Marrakech",
         description:

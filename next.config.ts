@@ -33,6 +33,14 @@ const nextConfig: NextConfig = {
     root: path.resolve(__dirname),
   },
   images: {
+    // Serve modern formats first — AVIF then WebP — falling back to the
+    // original for old browsers. Typically 30–50% smaller than JPEG at the
+    // same quality, which directly improves LCP on the image-heavy tour and
+    // hero pages. Next negotiates per request via the Accept header.
+    formats: ["image/avif", "image/webp"],
+    // Cache optimised variants for 31 days so repeat views and other users
+    // skip re-optimisation (the source images are static).
+    minimumCacheTTL: 60 * 60 * 24 * 31,
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "images.pexels.com" },

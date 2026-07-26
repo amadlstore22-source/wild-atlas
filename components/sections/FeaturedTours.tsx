@@ -11,10 +11,27 @@ interface Props {
   lang?: Locale;
 }
 
+// The homepage grid shows six tours. More than six carry `featured: true`, so
+// this list pins the order of the shown set — best-selling / most-representative
+// first — instead of leaving it to array position. Slugs not listed fall in
+// after these, in catalogue order, to backfill if the list ever shrinks.
+const FEATURED_ORDER = [
+  "toubkal-summit-trek-4day",
+  "toubkal-summit-2day-marrakech",
+  "sahara-3day-marrakech",
+  "desert-4day-marrakech",
+  "ourika-valley-day-hike",
+  "high-atlas-grand-traverse-15day",
+];
+
 export default function FeaturedTours({ dict, lang = "en" }: Props) {
   const tours = getFeaturedToursFor(lang);
+  const rank = (slug: string) => {
+    const i = FEATURED_ORDER.indexOf(slug);
+    return i === -1 ? FEATURED_ORDER.length : i;
+  };
   // Six featured tours in a clean 3-column x 2-row grid — no ragged trailing row.
-  const featured = tours.slice(0, 6);
+  const featured = [...tours].sort((a, b) => rank(a.slug) - rank(b.slug)).slice(0, 6);
 
   return (
     <Section tone="plaster" motif>

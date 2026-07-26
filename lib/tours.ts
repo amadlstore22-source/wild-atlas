@@ -2588,7 +2588,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Mount Toubkal Trek from Marrakech — Express Summit 4,167 m | Marrakech Eco Tours",
     seoDescription: "Climb Jbel Toubkal (4,167 m) in 2 days from Marrakech — the fastest route to North Africa's highest peak. Refuge night, all meals, licensed Berber guide & transfers. From $210.",
-    featured: false,
+    featured: true,
   },
   {
     id: "32",

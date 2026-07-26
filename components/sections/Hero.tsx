@@ -50,7 +50,7 @@ export default function Hero({ lang, dict }: Props) {
           <div className={`absolute inset-[-6%] ${reduce ? "" : "ken-burns"}`}>
             <Image
               src={SITE.heroPoster}
-              alt="The High Atlas Mountains at golden hour, Morocco"
+              alt="Terraced valley and stone villages of Imlil below the snow-capped High Atlas peaks, Morocco"
               fill priority sizes="100vw"
               className="object-cover object-center"
             />

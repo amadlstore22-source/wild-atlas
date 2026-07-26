@@ -48,7 +48,11 @@ export const SITE = {
   // Optional full-screen hero video (mp4/webm). Leave empty to use the
   // Ken Burns still image instead — the hero falls back automatically.
   heroVideo: "",
-  heroPoster: "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=85",
+  // Imlil / Tachdirt in the High Atlas — terraced valley below the snow-capped
+  // Toubkal peaks, our flagship trekking base. Pexels (Mohamed Khettouch),
+  // verified subject and landscape orientation. w=2400 for a crisp 4K-class hero.
+  heroPoster:
+    "https://images.pexels.com/photos/37538532/pexels-photo-37538532.jpeg?auto=compress&cs=tinysrgb&w=2400",
 } as const;
 
 export const SOCIAL = {

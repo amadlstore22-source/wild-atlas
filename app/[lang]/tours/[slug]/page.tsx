@@ -14,6 +14,7 @@ import TourItinerary from "@/components/tours/TourItinerary";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import TourLocationMap from "@/components/map/TourLocationMap";
+import tourRoutes from "@/lib/tour-routes.json";
 import TourNavBar from "@/components/tours/TourNavBar";
 import TourTrustBar from "@/components/tours/TourTrustBar";
 import JsonLd from "@/components/seo/JsonLd";
@@ -211,6 +212,7 @@ export default async function TourDetailPage({ params }: TourParams) {
                 stops={tour.itinerary
                   .filter((d) => d.stop)
                   .map((d) => ({ name: d.stop!.name, lat: d.stop!.lat, lng: d.stop!.lng, day: d.day }))}
+                routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
               />
             </section>
 

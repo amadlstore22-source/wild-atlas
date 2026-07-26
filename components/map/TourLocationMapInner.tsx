@@ -24,6 +24,11 @@ export interface TourLocationMapProps {
   color?: string;
   /** Ordered itinerary stops. When 2+, the map plots the numbered route. */
   stops?: RouteStop[];
+  /** Precomputed road-snapped route polyline ([lat,lng] pairs) for driving
+   *  tours, built offline by scripts/build-tour-routes.mjs. When present the
+   *  line follows real roads; when absent the stops are joined by straight
+   *  segments (correct for off-road trekking, where there is no road to snap). */
+  routeGeometry?: [number, number][];
 }
 
 function pinIcon(color: string, label: string, wide = false) {
@@ -54,6 +59,7 @@ export default function TourLocationMapInner({
   name,
   color = "#C1693A",
   stops,
+  routeGeometry,
 }: TourLocationMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -87,15 +93,23 @@ export default function TourLocationMapInner({
       { tileSize: 256, maxZoom: 18 }
     ).addTo(map);
 
-    // Route line connecting the stops in order
+    // Route line. Prefer the precomputed road-snapped geometry (driving tours)
+    // so the line follows the actual roads through the passes and valleys;
+    // otherwise join the stops directly, which is the honest shape for an
+    // off-road mountain trek. A road route is drawn solid (it IS the road); the
+    // straight fallback stays dashed to read as "direct line, not a road".
     if (hasRoute) {
-      const latlngs = points.map((p) => [p.lat, p.lng] as [number, number]);
+      const road = Array.isArray(routeGeometry) && routeGeometry.length >= 2;
+      const latlngs = road
+        ? routeGeometry!
+        : points.map((p) => [p.lat, p.lng] as [number, number]);
       L.polyline(latlngs, {
         color: "#FBF3E4",
-        weight: 3,
-        opacity: 0.9,
-        dashArray: "2 8",
+        weight: road ? 3.5 : 3,
+        opacity: 0.95,
+        dashArray: road ? undefined : "2 8",
         lineCap: "round",
+        lineJoin: "round",
       }).addTo(map);
     }
 
@@ -116,10 +130,13 @@ export default function TourLocationMapInner({
       }
     });
 
-    // Fit the route/point into view
+    // Fit the route/point into view. Include the road geometry's own extent so
+    // a route that loops out past its stops (a road detour, a gorge) stays fully
+    // in frame rather than being clipped to the straight stop-to-stop bounds.
     if (hasRoute) {
-      const bounds = L.latLngBounds(points.map((p) => [p.lat, p.lng] as [number, number]));
-      map.fitBounds(bounds, { padding: [40, 40], maxZoom: 11 });
+      const pts: [number, number][] = points.map((p) => [p.lat, p.lng]);
+      if (Array.isArray(routeGeometry) && routeGeometry.length >= 2) pts.push(...routeGeometry);
+      map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 11 });
     }
 
     L.control.attribution({ position: "bottomright", prefix: false }).addTo(map);
@@ -130,7 +147,7 @@ export default function TourLocationMapInner({
       map.remove();
       mapRef.current = null;
     };
-  }, [lat, lng, name, color, stops]);
+  }, [lat, lng, name, color, stops, routeGeometry]);
 
   return (
     <>

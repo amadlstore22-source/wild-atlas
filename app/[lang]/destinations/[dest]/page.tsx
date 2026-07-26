@@ -271,7 +271,7 @@ export default async function DestinationPage({ params }: PageParams) {
 
             {/* Right: sticky sidebar */}
             <div>
-              <div className="sticky top-24 space-y-4">
+              <div className="space-y-4">
                 {/* Quick info card */}
                 <div className="bg-card rounded-[4px] border border-sand-dark shadow-sm p-6">
                   <h3 className="font-display text-charcoal font-bold text-lg mb-4">{d.quickInfoTitle}</h3>

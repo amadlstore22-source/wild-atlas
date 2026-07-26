@@ -291,7 +291,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
             </article>
 
             <aside className="space-y-6">
-              <div className="bg-forest rounded-[4px] p-6 text-white sticky top-24">
+              <div className="bg-forest rounded-[4px] p-6 text-white">
                 <h3 className="font-display text-xl font-bold mb-2">{dict.tourDetail.planYourTrip}</h3>
                 <p className="text-white/70 text-sm mb-5 leading-relaxed">{dict.tourDetail.sidebarDesc}</p>
                 <Link href={`/${lang}/tours`} className="block text-center px-5 py-3 rounded-full bg-sunset text-white font-semibold text-sm hover:bg-emerald-soft transition-colors mb-3">

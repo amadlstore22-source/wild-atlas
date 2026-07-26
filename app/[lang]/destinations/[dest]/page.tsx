@@ -6,7 +6,22 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { toursFor } from "@/lib/tours-i18n";
+import { blogPostsFor } from "@/lib/blog-i18n";
 import TourCard from "@/components/ui/TourCard";
+
+// Maps each destination to the blog regions whose guides are relevant to it,
+// so the destination hub links out to the content cluster (and passes crawl
+// authority to it) instead of dead-ending. Ordered by relevance.
+const DEST_BLOG_REGIONS: Record<string, string[]> = {
+  marrakech: ["imperial-cities", "atlas-mountains", "sahara-south"],
+  "high-atlas": ["atlas-mountains"],
+  sahara: ["sahara-south"],
+  fes: ["imperial-cities"],
+  chefchaouen: ["imperial-cities"],
+  agadir: ["agadir-region", "coast-atlantic"],
+  ouzoud: ["atlas-mountains", "root"],
+  essaouira: ["coast-atlantic"],
+};
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Locale } from "@/app/[lang]/dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
@@ -66,6 +81,13 @@ export default async function DestinationPage({ params }: PageParams) {
       destination.relatedCategories.includes(t.category) ||
       destination.relatedOrigins.includes(t.origin)
   ).slice(0, 6);
+
+  const guideRegions = DEST_BLOG_REGIONS[dest] ?? [];
+  const relatedPosts = blogPostsFor(lang)
+    .filter((p) => p.region != null && guideRegions.includes(p.region))
+    // Keep the region order above as the priority order.
+    .sort((a, b) => guideRegions.indexOf(a.region ?? "") - guideRegions.indexOf(b.region ?? ""))
+    .slice(0, 4);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -355,6 +377,32 @@ export default async function DestinationPage({ params }: PageParams) {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedTours.map((tour, i) => (
                   <TourCard key={tour.id} tour={tour} lang={locale} dict={dict} delay={i * 0.07} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {relatedPosts.length > 0 && (
+            <section className="mt-4 pt-14 border-t border-sand-dark">
+              <h2 className="font-display text-charcoal text-3xl font-bold mb-8">
+                {(d as unknown as Record<string, string>).relatedGuidesTitle?.replace("{name}", destination.name)
+                  ?? `Read more about ${destination.name}`}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {relatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/${locale}/blog/${post.slug}`}
+                    className="group flex flex-col rounded-[4px] border border-sand-dark bg-white/60 p-5 transition-colors hover:border-forest/40 hover:bg-white"
+                  >
+                    <span className="text-brass-deep text-[11px] font-bold uppercase tracking-[0.16em] mb-2">
+                      {post.readTime} min read
+                    </span>
+                    <h3 className="font-display text-charcoal text-lg font-bold leading-snug mb-2 group-hover:text-forest transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-ink-soft text-sm leading-relaxed line-clamp-3">{post.excerpt}</p>
+                  </Link>
                 ))}
               </div>
             </section>

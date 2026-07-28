@@ -240,3 +240,145 @@ Numbers are estimates — your real data after 2 weeks replaces all of this.
 - **Draft the French / German / Spanish / Italian** versions of the ad copy for locale ad groups.
 - **Write a second RSA variant** to A/B test angle (speed vs. bucket-list vs. price).
 - **Set up a Performance Max** later, once Search is proven.
+
+---
+
+## 8. Localized ad copy — FR / DE / ES / IT
+
+Run each language as its **own ad group** (or its own campaign if you want separate budgets), targeting that language + the matching countries, with the **final URL pointing at the matching locale page**. All copy below is native (not translated) and **already length-checked** to Google's limits (headlines ≤30, descriptions ≤90). Pin headlines 1–2 to positions 1–2, same as the English ad.
+
+### French (Français)
+
+**Final URL:** `https://marrakechecotours.com/fr/tours/toubkal-summit-2day-marrakech`  
+**With UTM:** append `?utm_source=google&utm_medium=cpc&utm_campaign=toubkal-2day-fr`
+
+**Headlines (≤30):**
+```
+Ascension Toubkal en 2 Jours
+Sommet du Toubkal, 2 Jours
+Toit de l'Afrique du Nord
+Trek Toubkal dès Marrakech
+Guides Berbères Diplômés
+Toubkal 4 167 m en un Week-end
+À partir de 210 € Tout Inclus
+Petits Groupes Privés
+Noté 4,7★ par les Trekkeurs
+Nuit en Refuge + Sommet
+Réservez en Direct
+Conseils Gratuits sur WhatsApp
+Marrakech Eco Tours
+Agence Familiale et Éthique
+Ascension Rapide et Sportive
+```
+
+**Descriptions (≤90):**
+```
+Grimpez le plus haut sommet du Maroc en 2 jours depuis Marrakech. Dès 210 €.
+Guides berbères diplômés, nuit en refuge et repas inclus. Réservez en direct.
+Peu de temps ? Atteignez le Toubkal (4 167 m) en un week-end. Planifiez le vôtre.
+Agence familiale et éco-responsable. 1 000+ voyageurs ravis. Écrivez sur WhatsApp.
+```
+
+**Paths:** `Toubkal` / `2-Jours`
+
+### German (Deutsch)
+
+**Final URL:** `https://marrakechecotours.com/de/tours/toubkal-summit-2day-marrakech`  
+**With UTM:** append `?utm_source=google&utm_medium=cpc&utm_campaign=toubkal-2day-de`
+
+**Headlines (≤30):**
+```
+Toubkal in 2 Tagen besteigen
+Toubkal-Gipfel ab Marrakesch
+Dach von Nordafrika: 4.167 m
+Private 2-Tage-Toubkal-Tour
+Lizenzierte Berber-Guides
+Toubkal an einem Wochenende
+Ab 210 € · Alles inklusive
+Kleine Gruppen, echte Locals
+4,7★ von Trekkern bewertet
+Berghütte + Gipfel bei Sonne
+Direkt buchen, kein Vermittler
+Gratis-Beratung per WhatsApp
+Marrakech Eco Tours
+Ethisch, familiengeführt
+Schnell zum Gipfel
+```
+
+**Descriptions (≤90):**
+```
+Besteigen Sie Marokkos höchsten Gipfel in 2 Tagen ab Marrakesch. Ab 210 €.
+Lizenzierte Berber-Guides, Hüttenübernachtung & Mahlzeiten. Direkt buchen.
+Wenig Zeit? Den Jbel Toubkal (4.167 m) an einem Wochenende erklimmen. Jetzt planen.
+Familiengeführt und umweltbewusst. 1.000+ zufriedene Gäste. Schreiben Sie uns.
+```
+
+**Paths:** `Toubkal` / `2-Tage`
+
+### Spanish (Español)
+
+**Final URL:** `https://marrakechecotours.com/es/tours/toubkal-summit-2day-marrakech`  
+**With UTM:** append `?utm_source=google&utm_medium=cpc&utm_campaign=toubkal-2day-es`
+
+**Headlines (≤30):**
+```
+Sube al Toubkal en 2 Días
+Cumbre del Toubkal, 2 Días
+Techo del Norte de África
+Trek Privado al Toubkal
+Guías Bereberes Titulados
+Toubkal 4.167 m en un Finde
+Desde 210 € · Todo Incluido
+Grupos Pequeños y Privados
+Valorado 4,7★ por Viajeros
+Refugio + Cumbre al Amanecer
+Reserva Directa, Sin Comisión
+Asesoría Gratis por WhatsApp
+Marrakech Eco Tours
+Empresa Familiar y Ética
+Ascenso Rápido, Gran Aventura
+```
+
+**Descriptions (≤90):**
+```
+Sube a la cumbre más alta de Marruecos en 2 días desde Marrakech. Desde 210 €.
+Guías bereberes titulados, noche en refugio y comidas incluidas. Reserva directa.
+¿Poco tiempo? Corona el Toubkal (4.167 m) en un fin de semana. Planifícalo hoy.
+Empresa familiar y ecológica. Más de 1.000 viajeros felices. Escríbenos por WhatsApp.
+```
+
+**Paths:** `Toubkal` / `2-Dias`
+
+### Italian (Italiano)
+
+**Final URL:** `https://marrakechecotours.com/it/tours/toubkal-summit-2day-marrakech`  
+**With UTM:** append `?utm_source=google&utm_medium=cpc&utm_campaign=toubkal-2day-it`
+
+**Headlines (≤30):**
+```
+Scala il Toubkal in 2 Giorni
+Vetta del Toubkal da Marrakech
+Tetto del Nord Africa: 4.167 m
+Trek Privato al Toubkal
+Guide Berbere Qualificate
+Toubkal in un Weekend
+Da 210 € · Tutto Incluso
+Piccoli Gruppi Privati
+Valutato 4,7★ dai Trekker
+Rifugio + Vetta all'Alba
+Prenota Diretto
+Consulenza Gratis su WhatsApp
+Marrakech Eco Tours
+Azienda Familiare ed Etica
+Salita Veloce, Vera Avventura
+```
+
+**Descriptions (≤90):**
+```
+Sali sulla vetta più alta del Marocco in 2 giorni da Marrakech. Da 210 €.
+Guide berbere qualificate, notte in rifugio e pasti inclusi. Prenota diretto.
+Poco tempo? Conquista il Toubkal (4.167 m) in un weekend. Pianifica il tuo oggi.
+Azienda familiare ed ecologica. Oltre 1.000 viaggiatori felici. Scrivici su WhatsApp.
+```
+
+**Paths:** `Toubkal` / `2-Giorni`

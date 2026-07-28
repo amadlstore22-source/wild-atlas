@@ -241,7 +241,7 @@
     "groupRateFrom": "Groupes à partir de {price}/personne"
   },
   "cookieBanner": {
-    "body": "Nous utilisons quelques cookies pour mémoriser vos préférences. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",
+    "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",
     "policyLink": "Politique relative aux cookies",
     "necessaryOnly": "Nécessaires uniquement",
     "acceptAll": "Tout accepter"

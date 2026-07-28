@@ -241,7 +241,7 @@
     "groupRateFrom": "Groups from {price}/person"
   },
   "cookieBanner": {
-    "body": "We use a couple of cookies to remember your preferences. Necessary cookies are always active; there is no cookie wall.",
+    "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",
     "policyLink": "Cookie policy",
     "necessaryOnly": "Necessary only",
     "acceptAll": "Accept all"

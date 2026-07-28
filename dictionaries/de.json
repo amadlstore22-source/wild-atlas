@@ -241,7 +241,7 @@
     "groupRateFrom": "Gruppen ab {price}/Person"
   },
   "cookieBanner": {
-    "body": "Wir verwenden einige wenige Cookies, um Ihre Einstellungen zu speichern. Notwendige Cookies sind immer aktiv; es gibt keine Cookie-Wand.",
+    "body": "Wir verwenden Cookies, um Ihre Einstellungen zu speichern, und – wenn Sie zustimmen – Google Analytics, um die Nutzung der Website zu verstehen. Notwendige Cookies sind immer aktiv; es gibt keine Cookie-Wand.",
     "policyLink": "Cookie-Richtlinie",
     "necessaryOnly": "Nur notwendige",
     "acceptAll": "Alle akzeptieren"

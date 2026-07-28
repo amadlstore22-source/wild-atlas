@@ -1788,4 +1788,63 @@ Il Souss è più dell'argan. Molti itinerari aggiungono un **villaggio del miele
 L'argan e il Souss si sposano magnificamente con le altre giornate dell'entroterra della regione. Aggiungi la città-mercato murata di [Taroudant](/it/tours/taroudant-day-trip-agadir), un'ora più a est, per le mura e i souk; oppure rinfrescati poi nelle vasche ombreggiate dalle palme di [Paradise Valley](/it/tours/paradise-valley-agadir), a nord di Agadir. Insieme trasformano una vacanza al mare in un vero incontro con il sud del Marocco.
 `,
   },
+  {
+    slug: "morocco-unesco-sites-film-locations",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "I siti UNESCO del Marocco dove sono stati girati i film",
+    excerpt:
+      "Il gladiatore, Il Trono di Spade, Lawrence d'Arabia: alcuni dei più grandi film del cinema sono stati girati tra i siti Patrimonio dell'Umanità UNESCO del Marocco. Ecco dove metterti esattamente dove giravano le cineprese.",
+    heroImage: "https://images.pexels.com/photos/13811656/pexels-photo-13811656.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-07-26",
+    updatedAt: "2026-07-26",
+    tags: ["UNESCO Morocco", "film locations", "Ait Ben Haddou", "Gladiator", "Game of Thrones", "Ouarzazate", "Essaouira"],
+    seoTitle: "Siti UNESCO del Marocco e set cinematografici — Il gladiatore, Il Trono di Spade e altro",
+    seoDescription:
+      "Una guida ai siti Patrimonio dell'Umanità UNESCO del Marocco usati come set cinematografici — Aït Ben Haddou (Il gladiatore, Il Trono di Spade), gli studi Atlas di Ouarzazate ed Essaouira (Astapor). Come visitarli.",
+    relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "agadir-to-essaouira-day-trip"],
+    content: `
+## Dove il patrimonio mondiale incontra il grande schermo
+
+Il Marocco ha nove siti Patrimonio dell'Umanità UNESCO, e un numero sorprendente di essi ha fatto da set ad alcune delle più grandi produzioni della storia del cinema. La ragione è semplice: sono luoghi dove l'architettura, la luce e il paesaggio sono rimasti quasi immutati per secoli. Un regista in cerca dell'antica Roma, della Gerusalemme biblica o di una città fantastica d'Oriente non deve costruirla: in Marocco esiste già.
+
+Questa guida attraversa i siti UNESCO dove le cineprese hanno davvero girato, cosa vi è stato filmato e — poiché puoi visitarli tutti — come metterti esattamente dove è stata girata la scena.
+
+## Aït Ben Haddou: il luogo più filmato d'Africa
+
+Se il Marocco ha una capitale del cinema, è lo **ksar di Aït Ben Haddou** — un insieme di kasbah di terra che si erge nella valle dell'Ounila, iscritto dall'UNESCO nel **1987**. È il luogo più filmato del continente africano, apparso in oltre ottanta produzioni in sei decenni.
+
+L'elenco si legge come un programma di studi cinematografici. **Lawrence d'Arabia** (1962) ne usò le mura; **Il gioiello del Nilo** (1985) e **La mummia** (1999) seguirono. Poi arrivò **Il gladiatore** (2000) di Ridley Scott, le cui scene del mercato degli schiavi e della scuola di gladiatori furono girate ai piedi della kasbah — il film che riportò Aït Ben Haddou sulla mappa di Hollywood. **Alexander** (2004), **Le crociate** (2005) e **Prince of Persia** (2010) seguirono. E per una nuova generazione è **Yunkai**, la città schiavista che Daenerys Targaryen conquista nelle stagioni 3 e 4 de **Il Trono di Spade**.
+
+Soprattutto, nulla di tutto ciò è un set. È un villaggio UNESCO vivo che puoi attraversare, raggiungere guadando il fiume e fotografare nella stessa luce pomeridiana inseguita dai direttori della fotografia. Per tutta la storia e come organizzare una visita, leggi la nostra [guida di Aït Ben Haddou](/it/blog/ait-benhaddou-guide).
+
+**Come visitarlo:** Aït Ben Haddou si trova sulla via principale verso sud da Marrakech. Quasi tutti i tour del deserto si fermano qui — il nostro [tour del deserto di 4 giorni da Marrakech](/it/tours/desert-4day-marrakech) e il nostro [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) valicano entrambi il passo del Tizi n'Tichka e sostano alla kasbah lungo il cammino verso le dune.
+
+## Ouarzazate e gli studi Atlas: la Hollywood del deserto
+
+A venticinque minuti a est di Aït Ben Haddou si trova **Ouarzazate**, «la porta del deserto» — e appena fuori, gli **studi Atlas**, aperti nel 1983 e spesso descritti come i più grandi studi cinematografici del mondo per superficie. Più di duecento film e serie hanno usato Ouarzazate e i suoi studi.
+
+L'elenco qui è straordinario: **Kundun** (Martin Scorsese, 1997), **Il gladiatore**, **La mummia**, **Le crociate**, **Babel**, **Ben-Hur**, **Black Hawk Down**, **La passione di Cristo** e di nuovo **Il Trono di Spade**. Scenografie permanenti — un monastero tibetano, un tempio egizio, una città romana — sono conservate nel backlot e aperte ai visitatori, così puoi attraversare le stesse strutture che le cineprese hanno inquadrato.
+
+**Come visitarlo:** Ouarzazate è una tappa naturale per il pranzo o il pernottamento sulle rotte del deserto di più giorni. Lo stesso [tour del deserto di 4 giorni](/it/tours/desert-4day-marrakech) vi passa, e una visita agli studi si aggiunge con facilità.
+
+## Essaouira: Astapor sull'Atlantico
+
+Sulla costa, la medina di **Essaouira**, iscritta all'UNESCO — un porto fortificato del XVIII secolo progettato dall'architetto francese Théodore Cornut per il sultano Mohammed III —, portò Il Trono di Spade al mare. Le sue mura irte di cannoni e la **Skala du Port** divennero **Astapor**, la città degli Immacolati, nella stagione 3. Il «Sentiero del castigo» fu girato lungo le mura marine che oggi puoi percorrere gratuitamente.
+
+La storia cinematografica di Essaouira è ancora più antica: **Orson Welles** vi girò gran parte del suo **Otello** nel 1949-50 (c'è una piazza a lui intitolata), e la città appare in **John Wick 3 – Parabellum** (2019).
+
+**Come visitarla:** Essaouira è una gita facile dalla costa — la nostra [escursione da Agadir a Essaouira](/it/tours/agadir-to-essaouira-day-trip) percorre le mura, il porto e la medina dove giravano le cineprese.
+
+## Le altre città del patrimonio
+
+Gli altri siti UNESCO del Marocco sono cinematografici a pieno titolo anche dove non sono set celebri. Le medine medievali di **Fès** (il primo sito marocchino iscritto, nel 1981), **Marrakech** e **Meknès**, le rovine romane di **Volubilis** con i loro archi e mosaici ancora in piedi, e la cisterna portoghese di **El Jadida** — usata da Orson Welles in *Otello* — ricompensano tutte il viaggiatore che arriva per la storia e resta per l'atmosfera.
+
+## Metterti dove stavano le cineprese
+
+Ciò che rende il Marocco unico tra le mete del cinema è che i set non sono mai stati set. Aït Ben Haddou, Essaouira, Volubilis sono luoghi reali, protetti, abitati da mille anni, che si sono rivelati perfetti davanti alla cinepresa. Non visiti una ricostruzione; visiti l'originale, nella stessa luce, sulla stessa pietra. La maggior parte si trova lungo le classiche rotte verso sud e ovest da Marrakech, ed è per questo che il modo più semplice per vedere il cinema del Marocco è semplicemente prendere un [tour nel deserto del Sahara](/it/tours/sahara-3day-marrakech): le kasbah, gli studi e le dune formano un solo viaggio.
+`,
+  },
 ];

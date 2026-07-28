@@ -33,7 +33,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticUrls = LOCALES.flatMap((lang) =>
     staticRoutes.map(({ path, freq, priority }) => ({
       url: `${BASE}/${lang}${path}`,
-      lastModified: new Date(),
+      // Stable lastmod, not new Date(): stamping build time on every static
+      // page each deploy teaches Google the dates are noise (same reasoning as
+      // CATALOGUE_LASTMOD above). Bump when these pages are meaningfully revised.
+      lastModified: CATALOGUE_LASTMOD,
       changeFrequency: freq,
       priority,
     }))
@@ -62,12 +65,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  const blogUrls = BLOG_POSTS.map((p) => ({
-    url: `${BASE}/en/blog/${p.slug}`,
-    lastModified: new Date(p.updatedAt ?? p.publishedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  // Blog posts are translated per locale and each locale page self-canonicalises
+  // with full hreflang alternates (see app/[lang]/blog/[slug]/page.tsx). Listing
+  // only /en left the fr/es/de/it/ar blog URLs — which hreflang points at —
+  // absent from the sitemap, and slower to index. Fan out all six, same as tours.
+  const blogUrls = LOCALES.flatMap((lang) =>
+    BLOG_POSTS.map((p) => ({
+      url: `${BASE}/${lang}/blog/${p.slug}`,
+      lastModified: new Date(p.updatedAt ?? p.publishedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
 
   // Destinations and guides self-canonicalise per locale too — fan out all six.
   const destinationUrls = LOCALES.flatMap((lang) =>

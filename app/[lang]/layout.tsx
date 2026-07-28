@@ -52,10 +52,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Marrakech Eco Tours",
+    // Default share card for any page that doesn't set its own image (about,
+    // contact, guides, destinations index, legal pages). Branded, on an
+    // authentic first-party Toubkal summit photo. See scripts/build_og_image.mjs.
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@marrakechecotours",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,

@@ -34,7 +34,8 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       title: "Marrakech Eco Tours — Morocco Adventures",
       description: dict.hero.subheadline,
       url: `https://marrakechecotours.com/${lang}`,
-      // TODO: Replace with a real photo at /og-image.jpg once available (currently stock photo)
+      // Branded share card on an authentic first-party photo (a real Toubkal
+      // summit panorama). Regenerate with: node scripts/build_og_image.mjs
       images: [{ url: "https://marrakechecotours.com/og-image.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides" }],
     },
     alternates: {

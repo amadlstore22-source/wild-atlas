@@ -1847,4 +1847,289 @@ Los demás sitios UNESCO de Marruecos son cinematográficos por derecho propio i
 Lo que hace único a Marruecos entre los destinos de cine es que los decorados nunca fueron decorados. Aït Ben Haddou, Esauira, Volubilis son lugares reales, protegidos, habitados desde hace mil años, que resultaron ser perfectos ante la cámara. No visitas una recreación; visitas el original, con la misma luz, sobre la misma piedra. La mayor parte está a lo largo de las rutas clásicas hacia el sur y el oeste desde Marrakech, y por eso la forma más fácil de ver el cine de Marruecos es sencillamente tomar una [ruta por el desierto del Sáhara](/es/tours/sahara-3day-marrakech): las kasbahs, los estudios y las dunas forman un solo viaje.
 `,
   },
+  {
+    slug: "how-to-climb-toubkal-in-2-days",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Cómo subir al Toubkal en 2 días desde Marrakech",
+    excerpt:
+      "Dos días son la forma más rápida de pisar el techo del norte de África. Aquí te explicamos exactamente cómo funciona la ascensión al Toubkal en 2 días desde Marrakech: el horario, a quién le conviene, la cuestión de la altitud y cómo se compara con el trek de 4 días.",
+    heroImage: "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Toubkal 2 days", "climb Toubkal", "Toubkal summit", "2 day Toubkal trek", "High Atlas", "Imlil", "Toubkal from Marrakech"],
+    seoTitle: "Cómo subir al Toubkal en 2 días desde Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "La ascensión al Toubkal en 2 días desde Marrakech, explicada: el horario exacto, a quién le conviene, el riesgo de altitud, el equipo y cuándo elegir mejor el trek de 4 días. Reserva la ruta exprés.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
+    faq: [
+      { q: "¿De verdad se puede subir al Toubkal en 2 días?", a: "Sí. La ruta clásica de 2 días conduce desde Marrakech hasta Imlil, sube al refugio del Toubkal (3.207 m) el primer día y corona el Jbel Toubkal (4.167 m) antes del amanecer el segundo día, descendiendo hasta Marrakech esa misma tarde. Es la forma más rápida y realista de llegar a la cima, y es exactamente en torno a lo que se construye nuestro [tour de ascensión al Toubkal en 2 días](/es/tours/toubkal-summit-2day-marrakech). La contrapartida es que no hay un día extra de aclimatación." },
+      { q: "¿Bastan 2 días para aclimatarse al Toubkal?", a: "Para la mayoría de caminantes en forma que vienen del nivel del mar, sí, pero es más ajustado que la versión de 4 días. La única noche en el refugio (3.207 m) hace la mayor parte de la aclimatación. Si nunca has estado cerca de los 4.000 m o sabes que reaccionas mal a la altitud, el [trek de 4 días](/es/tours/toubkal-summit-trek-4day) reserva tiempo extra y es la opción más segura." },
+      { q: "¿Qué dificultad tiene la subida al Toubkal en 2 días?", a: "Está calificada como exigente más que técnica. En verano no se necesita equipo de escalada, pero el día de cima es un largo empujón antes del amanecer por pedreras empinadas (o nieve en invierno) en altitud, y el horario comprimido encadena dos jornadas grandes seguidas. Hay que ser un caminante habitual y en forma: esta no es la primera montaña de un principiante." },
+      { q: "¿Cuál es la mejor época del año para la cima en 2 días?", a: "De abril a octubre para la ruta estival no técnica. Desde noviembre hasta marzo aproximadamente, la cima se convierte en una ascensión sobre nieve que requiere crampones y piolet, lo que cambia bastante la dificultad: es posible, pero se trata de una empresa invernal y no de una escapada estival rápida. Consulta nuestra guía sobre [el Toubkal en invierno](/es/blog/toubkal-in-winter-what-to-expect)." },
+    ],
+    content: `
+## Dos días hasta el techo del norte de África
+
+Si tu tiempo en Marruecos es corto, no necesitas una semana para estar en su cima. El Jbel Toubkal, con 4.167 m el pico más alto del norte de África, puede coronarse en un viaje ajustado pero auténtico de dos días desde Marrakech, y para muchos viajeros en forma esa es exactamente la duración adecuada. Así funciona realmente la ascensión al Toubkal en 2 días, a quién le conviene y cuándo conviene ir más despacio y tomarse más tiempo.
+
+La versión más rápida es nuestra [ascensión al Toubkal en 2 días desde Marrakech](/es/tours/toubkal-summit-2day-marrakech): traslado, noche en el refugio, cima antes del amanecer y vuelta a la ciudad esa misma tarde. Todo lo que sigue explica en qué consiste ese itinerario.
+
+## El horario de 2 días, hora a hora
+
+**Día 1: de Marrakech al refugio del Toubkal (3.207 m).** Un traslado matinal de unos noventa minutos te lleva de Marrakech a Imlil (1.740 m), el pueblo de inicio. Desde allí subes por el valle del Mizane, pasando el santuario de Sidi Chamharouch, hasta el refugio del Toubkal a 3.207 m. Son unas cinco horas de subida constante, con un mulo cargando el equipaje principal del grupo. Llegas al refugio por la tarde, cenas temprano y duermes, porque el día de cima empieza a oscuras.
+
+**Día 2: cima y descenso a Marrakech.** Una salida antes del amanecer, con frontales encendidos, para el empujón empinado por el Circo Sur hasta la arista de cumbre. La mayoría de los grupos llegan arriba para el amanecer, con todo el Alto Atlas —y en un día claro el borde del Sáhara— extendido a sus pies. Luego toca todo el descenso: al refugio para desayunar, después a Imlil y el traslado de vuelta a Marrakech, con llegada al anochecer.
+
+Dos días, una noche, una madrugada muy temprana. Esa es toda su forma.
+
+## A quién le conviene la subida en 2 días
+
+La ruta exprés te conviene si eres un **caminante habitual y en forma**, cómodo con una jornada larga y sin una semana entera que dedicar a la montaña. Debes estar acostumbrado a varias horas de subida y ser capaz de afrontar una salida antes del amanecer en altitud.
+
+**No** es la elección correcta si esta es tu primera montaña de verdad, si nunca has estado cerca de los 4.000 m o si sabes que la altitud te afecta mucho. En esos casos el día extra importa de verdad, que es todo el sentido de la siguiente sección.
+
+## 2 días o 4 días: ¿qué trek del Toubkal?
+
+La mayor diferencia es la aclimatación. El [trek del Toubkal en 4 días](/es/tours/toubkal-summit-trek-4day) dedica sus días extra a dejar que tu cuerpo se adapte a la altitud en lugar de cubrir más distancia, y es la altitud, no la forma física, la razón habitual por la que la gente sufre cerca de la cima. Si tienes el tiempo y cualquier duda sobre cómo toleras la altura, el de 4 días es la opción más cómoda y con mayor tasa de éxito.
+
+Hemos escrito una comparación completa en [Toubkal en 2 o 4 días: cuál reservar](/es/blog/toubkal-2-day-vs-4-day-which-trek), pero en resumen: **2 días si estás en forma y con poco tiempo, 4 días si quieres margen.** Para quienes buscan algo aún mayor, el [circuito del lago Ifni en 6 días](/es/tours/toubkal-circuit-ifni-lake-6day) une la cima con el remoto lado del lago del macizo.
+
+## La cuestión de la altitud
+
+A 4.167 m, el Toubkal es lo bastante alto como para que la altitud sea un factor real, aunque la caminata no sea técnica. En el horario de 2 días, tu única noche a 3.207 m hace la aclimatación, así que el consejo es simple: hidrátate mucho, mantén un ritmo constante la mañana de cima en lugar de acelerar, y avisa pronto a tu guía si tienes dolor de cabeza, náuseas o mareos. La mayoría de la gente está bien. El calendario comprimido solo significa que hay menos margen si no es tu caso.
+
+## Qué llevar
+
+Como un mulo carga el equipaje principal hasta el refugio, subes con una mochila de día: agua, capas de abrigo (el amanecer en la cima es frío incluso en verano), un cortavientos, protección solar, un frontal para la salida antes del amanecer, y algo de comer. Un saco sábana hace más cómoda la noche en el refugio. Unas botas de montaña buenas y ya domadas son innegociables. En invierno la lista crece con crampones y piolet: consulta [qué esperar del Toubkal en invierno](/es/blog/toubkal-in-winter-what-to-expect) y [cuán difícil es realmente el Toubkal](/es/blog/how-hard-is-toubkal-difficulty-guide).
+
+Una norma que pilla a la gente: un guía de montaña acreditado es obligatorio en el Toubkal, y hay un control en Imlil que lo hace cumplir. Nuestros tours incluyen uno, pero si pensabas ir por tu cuenta, lee primero [¿necesitas un guía para subir al Toubkal?](/es/blog/do-you-need-a-guide-to-climb-toubkal).
+
+## ¿Listo para subir al Toubkal en 2 días?
+
+Si estás en forma, con poco tiempo y quieres la cima sin una semana en la montaña, la ruta exprés está hecha exactamente para eso.
+
+👉 **[Reserva la ascensión al Toubkal en 2 días desde Marrakech](/es/tours/toubkal-summit-2day-marrakech)**: noche en refugio, guía bereber acreditado, todas las comidas y traslado de ida y vuelta incluidos.
+`,
+  },
+  {
+    slug: "best-time-to-visit-paradise-valley",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "La mejor época para visitar Paradise Valley, Marruecos",
+    excerpt:
+      "Paradise Valley es un plan de todo el año, pero las pozas, la afluencia y el nivel del agua cambian mucho según la temporada. Aquí tienes la guía honesta, mes a mes, de cuándo ir cerca de Agadir.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley", "best time to visit Paradise Valley", "Paradise Valley Agadir", "Immouzer", "Morocco travel"],
+    seoTitle: "Mejor época para visitar Paradise Valley, Marruecos (guía por meses)",
+    seoDescription:
+      "Cuándo visitar Paradise Valley cerca de Agadir: los mejores meses para pozas llenas y baño, cuándo hay más gente y cuándo caen las cascadas. Guía honesta temporada a temporada.",
+    relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "sous-massa-national-park"],
+    faq: [
+      { q: "¿Cuál es el mejor mes para visitar Paradise Valley?", a: "De marzo a junio es el momento ideal: las lluvias de invierno han rellenado las pozas, el agua es apta para el baño y aún no llega la aglomeración del pleno verano. Nuestra [excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir) funciona todo el año, pero la primavera es cuando el valle luce mejor." },
+      { q: "¿Hay agua en Paradise Valley en verano?", a: "Las principales pozas de roca suelen conservar agua durante el verano porque se alimentan de manantiales, así que el baño es fiable incluso en julio y agosto. Lo que mengua es el caudal de las cascadas más altas de Immouzer, que dependen de la lluvia invernal y pueden reducirse a un hilo a finales de verano." },
+      { q: "¿Está Paradise Valley masificada?", a: "En julio, agosto y los fines de semana las pozas principales pueden llenarse, sobre todo a partir de media mañana. Yendo temprano en el día, o visitando en primavera u otoño, tendrás la versión tranquila. Entre semana fuera del verano puedes tener tramos del valle casi para ti solo." },
+    ],
+    content: `
+## Cuándo ir, y por qué importa
+
+Paradise Valley —el desfiladero fluvial bordeado de palmeras a hora y media tierra adentro desde Agadir— es un destino de todo el año, pero no es el mismo lugar en cada temporada. El nivel del agua, la afluencia y las cascadas cambian a lo largo del año, y elegir el mes adecuado marca la diferencia entre un baño tranquilo en pozas llenas y una caminata calurosa hasta una medio vacía.
+
+Para todo el contexto sobre el valle en sí, empieza por nuestra [guía completa de Paradise Valley](/es/blog/paradise-valley-agadir-complete-guide). Este artículo trata solo de cuándo ir.
+
+## Primavera (marzo–junio): la mejor ventana
+
+La primavera es la respuesta para la mayoría. Las lluvias de invierno han rellenado las pozas e impulsado las cascadas de Immouzer, las palmeras están verdes y las temperaturas son cálidas sin los extremos del verano. El baño está en su mejor momento y el valle está animado pero no desbordado. Si puedes elegir, ven ahora.
+
+## Verano (julio–agosto): pozas fiables, más gente
+
+Las pozas de roca alimentadas por manantiales conservan el agua todo el verano, así que el baño sigue siendo fiable; es temporada alta precisamente por eso. Las contrapartidas son el calor y la gente: las pozas principales se llenan desde media mañana, sobre todo los fines de semana. Sal temprano, lleva agua y protección solar, y aun así pasarás un gran día.
+
+## Otoño (septiembre–octubre): la segunda temporada tranquila
+
+Una vez que se disipa la avalancha veraniega, el otoño te da agua templada, aire suave y mucha menos gente. Las cascadas suelen estar en su punto más bajo antes de que lleguen las lluvias de invierno, pero las pozas siguen aptas para el baño. Una época discretamente excelente para visitar.
+
+## Invierno (noviembre–febrero): verde, fresco, más frío
+
+El invierno es cuando el valle reverdece y las cascadas cobran vida tras la lluvia: es precioso, aunque más frío para el baño. Los días luminosos de invierno son estupendos para la caminata y el paisaje aunque solo te mojes en lugar de nadar. Las tormentas pueden hacer crecer el río de vez en cuando, así que conviene comprobar las condiciones con tu guía.
+
+## La versión simple
+
+- **Mejor en general:** marzo–junio
+- **Baño fiable, más gente:** julio–agosto
+- **Lo más tranquilo con agua templada:** septiembre–octubre
+- **Lo más verde y fresco, más frío:** noviembre–febrero
+
+Sea cual sea el mes, ir con un guía local te ahorra el aparcamiento y la orientación y te lleva a las buenas pozas en lugar de a la primera masificada. Nuestra [excursión Paradise Valley e Immouzer desde Agadir](/es/tours/paradise-valley-agadir) cubre exactamente eso, y puedes combinarla con una [clase de surf en Agadir](/es/tours/agadir-surf-lesson) o un [día de naturaleza en Souss-Massa](/es/tours/sous-massa-national-park) para completar el viaje.
+
+## ¿Listo para ir?
+
+👉 **[Reserva la excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir)**: transporte de ida y vuelta, un guía local y tiempo para nadar en las pozas.
+`,
+  },
+  {
+    slug: "paradise-valley-swimming-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Bañarse en Paradise Valley: pozas, seguridad y consejos",
+    excerpt:
+      "Las pozas de roca son todo el sentido de Paradise Valley. Aquí tienes en cuáles bañarte, si es seguro, qué llevar y cómo encontrar el agua más tranquila lejos de la gente.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley swimming", "Paradise Valley pools", "Paradise Valley Agadir", "Morocco swimming", "Immouzer"],
+    seoTitle: "Bañarse en Paradise Valley: pozas, seguridad y consejos",
+    seoDescription:
+      "Una guía práctica para bañarse en Paradise Valley cerca de Agadir: qué pozas de roca elegir, si es seguro saltar, qué llevar y cómo encontrar el agua tranquila.",
+    relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
+    faq: [
+      { q: "¿Se puede nadar en Paradise Valley?", a: "Sí: las pozas de roca alimentadas por manantiales son el principal motivo de la visita y conservan agua todo el año. Las pozas más populares quedan a un corto paseo del punto de acceso principal; nuestra [excursión a Paradise Valley](/es/tours/paradise-valley-agadir) te lleva a buenos lugares de baño en lugar de solo a la primera poza masificada." },
+      { q: "¿Es seguro saltar a las pozas de Paradise Valley?", a: "Los jóvenes del lugar se lanzan desde los acantilados en algunas de las pozas más profundas, pero las profundidades varían y cambian con el nivel del agua, así que no es algo para imitar a simple vista. Entra solo en agua que hayas comprobado, nada donde sea claramente lo bastante profundo y trata los saltos más altos como algo para mirar, salvo que un guía que conozca la poza confirme que es seguro ese día." },
+      { q: "¿Qué debo llevar para bañarme en Paradise Valley?", a: "Bañador puesto debajo de la ropa (no hay vestuarios de verdad), escarpines o sandalias resistentes para el lecho rocoso del río, una toalla, mucha agua para beber, protección solar y una bolsa estanca para el móvil. Hay poca sombra en las pozas, así que un sombrero importa." },
+    ],
+    content: `
+## Las pozas son el sentido de todo
+
+Quita el baño y Paradise Valley es un desfiladero bonito. Añádelo y se convierte en una de las mejores excursiones de un día desde Agadir: una sucesión de pozas de roca claras, alimentadas por manantiales, entre palmerales y paredes de cañón rojas, lo bastante frescas para ser un alivio en un día caluroso y lo bastante profundas en algunos puntos para nadar de verdad en lugar de chapotear.
+
+Esta es la guía práctica para hacerlo bien. Para el panorama general, la [guía completa de Paradise Valley](/es/blog/paradise-valley-agadir-complete-guide) cubre el valle de principio a fin, y el artículo [mejor época para visitar](/es/blog/best-time-to-visit-paradise-valley) trata las temporadas.
+
+## En qué pozas bañarse
+
+Las pozas más cercanas al punto de acceso principal son las más concurridas: están bien, pero no son la experiencia tranquila que la mayoría imagina. Caminando un poco más río arriba, la gente se dispersa rápido y suele aparecer mejor agua. Las profundidades van desde tramos por el tobillo entre pozas hasta puntos lo bastante hondos para un baño de verdad. Un guía que conozca el valle te llevará a pozas aptas para nadar en lugar de a la primera donde todos se paran, lo cual es una ventaja real de ir con un tour en lugar de por tu cuenta.
+
+## ¿Es seguro?
+
+Para un baño normal, sí, con sentido común. El agua está calmada en las propias pozas, pero el lecho del río es rocoso y resbaladizo, así que los escarpines evitan muchos dedos golpeados y pies cortados.
+
+Los saltos de acantilado que quizá veas hacer a los chavales del lugar son otra cosa. Las profundidades de las pozas cambian con el nivel del agua de la temporada, y lo que era seguro el mes pasado puede no serlo hoy. No saltes a un agua que no hayas comprobado tú mismo, y trata los saltos más altos como algo para mirar en lugar de sumarte, salvo que alguien que conozca esa poza exacta ese día diga lo contrario.
+
+## Qué llevar
+
+- **Bañador debajo de la ropa**: no hay vestuarios
+- **Escarpines o sandalias con agarre**: el lecho del río es rocoso
+- **Mucha agua para beber** y **protección solar**: la sombra es limitada
+- **Una bolsa estanca** para el móvil y los objetos de valor
+- **Una toalla** y una capa de recambio
+
+## La forma fácil de hacerlo
+
+Llegar implica un trayecto tierra adentro desde Agadir, aparcar y bajar caminando al valle, todo sencillo con un guía y más engorroso por tu cuenta. Nuestra [excursión Paradise Valley e Immouzer desde Agadir](/es/tours/paradise-valley-agadir) se encarga del transporte y te lleva a las buenas pozas, y encaja de forma natural con otros días de la zona de Agadir como el [Parque Nacional de Souss-Massa](/es/tours/sous-massa-national-park) o la ciudad amurallada de [Taroudant](/es/tours/taroudant-day-trip-agadir).
+
+## ¿Listo para un baño?
+
+👉 **[Reserva la excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir)**: transporte, un guía local y tiempo en las pozas incluidos.
+`,
+  },
+  {
+    slug: "paradise-valley-from-agadir",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Paradise Valley desde Agadir: cómo llegar",
+    excerpt:
+      "Paradise Valley es la escapada natural más fácil desde Agadir. Aquí tienes a qué distancia está, cómo llegar en coche, taxi o tour, y cómo hacer una jornada completa.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 6,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley from Agadir", "Agadir day trips", "Paradise Valley", "Immouzer", "how to get to Paradise Valley"],
+    seoTitle: "Paradise Valley desde Agadir: cómo llegar (2026)",
+    seoDescription:
+      "Cómo ir de Agadir a Paradise Valley: distancia, conducción, taxi o tour organizado, cuánto tiempo pasar y con qué combinarlo. Guía práctica de excursión.",
+    relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "agadir-to-essaouira-day-trip"],
+    faq: [
+      { q: "¿A qué distancia está Paradise Valley de Agadir?", a: "Paradise Valley está a unos 60 km al noreste de Agadir, cerca de Immouzer des Ida Outanane: alrededor de 1 h 30 por carretera, ya que el último tramo es una carretera de montaña sinuosa y no una autovía rápida. Nuestra [excursión a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir) cubre el trayecto en ambos sentidos." },
+      { q: "¿Se puede visitar Paradise Valley desde Agadir en un día?", a: "Sí: es la salida clásica de medio día o día entero desde Agadir. El trayecto es de unos 90 minutos por sentido, dejando tiempo de sobra para caminar por el valle, nadar en las pozas y comer antes de volver. La mayoría va por la mañana para evitar la gente y el calor del mediodía." },
+      { q: "¿Es mejor conducir o hacer un tour a Paradise Valley?", a: "Un coche de alquiler funciona si te manejas en carreteras de montaña sinuosas y no te importa buscar el aparcamiento y el inicio del sendero por tu cuenta. Un tour organizado elimina todo eso, te lleva a las mejores pozas y te deja disfrutar del paisaje en lugar de la conducción. Para la mayoría de los visitantes en un viaje corto, el tour es la opción más fácil." },
+    ],
+    content: `
+## La escapada más fácil desde la costa
+
+De todas las excursiones desde Agadir, Paradise Valley es la que parece más lejos de la franja de resorts siendo la más cercana de alcanzar. En unos noventa minutos cambias el frente marítimo atlántico por un desfiladero fluvial lleno de palmeras en las estribaciones del Anti-Atlas: pozas frescas, roca roja y ni un hotel a la vista.
+
+Aquí tienes cómo llegar de verdad. Para qué hacer una vez allí, consulta la [guía completa de Paradise Valley](/es/blog/paradise-valley-agadir-complete-guide) y la [guía de baño](/es/blog/paradise-valley-swimming-guide).
+
+## ¿A qué distancia está?
+
+Paradise Valley se encuentra a unos **60 km al noreste de Agadir**, cerca del pueblo de Immouzer des Ida Outanane. Calcula alrededor de **1 h 30** por sentido. No es una distancia larga, pero el último tramo es una carretera de montaña sinuosa que se toma despacio, lo cual es parte del encanto, con el paisaje abriéndose a medida que subes.
+
+## Tus opciones
+
+**En coche de alquiler.** Factible si te manejas conduciendo curvas de montaña y no te importa buscar la zona de aparcamiento y el camino de bajada a las pozas. Sal temprano para evitar tanto el calor como la gente.
+
+**En gran taxi.** Más barato por plaza pero menos flexible, y aun así tendrás que organizar la caminata de ida y vuelta a tu propio ritmo.
+
+**En tour organizado.** La opción más sencilla: transporte puerta a puerta desde Agadir, un guía que te lleva a las buenas pozas en lugar de a la primera concurrida, y sin conducción ni orientación de las que preocuparse. Nuestra [excursión Paradise Valley e Immouzer desde Agadir](/es/tours/paradise-valley-agadir) está pensada exactamente para esto.
+
+## Hacer una jornada de ello
+
+Paradise Valley es de medio día a día entero según cuánto te demores en el agua. Ve por la mañana: la luz es mejor, las pozas están más tranquilas y evitas la parte más calurosa del día para la caminata. Lleva el bañador debajo de la ropa, escarpines para el lecho rocoso del río y mucha agua.
+
+Si tienes más días por Agadir, el valle encaja bien junto a otras salidas: una [clase de surf en Agadir](/es/tours/agadir-surf-lesson) en la costa, o un día al puerto batido por el viento de Essaouira con nuestra [excursión de Agadir a Essaouira](/es/tours/agadir-to-essaouira-day-trip).
+
+## ¿Listo para ir?
+
+👉 **[Reserva la excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir)**: transporte de ida y vuelta, un guía local y tiempo para nadar, todo resuelto.
+`,
+  },
+  {
+    slug: "paradise-valley-from-marrakech",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "¿Se puede visitar Paradise Valley desde Marrakech?",
+    excerpt:
+      "Paradise Valley está cerca de Agadir, no de Marrakech, así que ¿es realista una excursión desde Marrakech? Aquí tienes la respuesta honesta sobre distancia, tiempos y la forma más inteligente de hacerlo.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 5,
+    publishedAt: "2026-07-24",
+    updatedAt: "2026-07-24",
+    tags: ["Paradise Valley from Marrakech", "Paradise Valley", "Marrakech day trips", "Agadir", "Morocco itinerary"],
+    seoTitle: "¿Se puede visitar Paradise Valley desde Marrakech? (respuesta honesta)",
+    seoDescription:
+      "¿Es Paradise Valley una excursión realista desde Marrakech? La distancia y los tiempos honestos, por qué Agadir es la base adecuada y las mejores alternativas cerca de Marrakech.",
+    relatedTours: ["paradise-valley-agadir", "ourika-valley-day-hike", "ouzoud-waterfalls-day-trip"],
+    faq: [
+      { q: "¿Se puede hacer Paradise Valley como excursión de un día desde Marrakech?", a: "La verdad que no. Paradise Valley está cerca de Agadir, a unas 3,5 horas de coche de Marrakech por sentido, así que una ida y vuelta en el día serían unas 7 horas de coche para unas pocas horas en las pozas. Solo tiene sentido si ya vas a Agadir o pasas por allí. Desde Marrakech, el [valle del Ourika](/es/tours/ourika-valley-day-hike) o las [cascadas de Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) son los equivalentes naturales." },
+      { q: "¿A qué distancia está Paradise Valley de Marrakech?", a: "Unos 300 km, o alrededor de 3 a 3,5 horas por carretera por la autopista A7 hacia Agadir. Esa distancia es la razón por la que Paradise Valley se vende como excursión desde Agadir y no desde Marrakech." },
+      { q: "¿Cuál es el equivalente de Paradise Valley desde Marrakech?", a: "Para un día de valle fluvial y pozas desde Marrakech, el valle del Ourika es lo más parecido: verde, fresco, con las cascadas de Setti Fatma, a unos 90 minutos. Para una cascada mayor, Ouzoud es el icono del lado de Marrakech. Ambos están cubiertos por nuestras excursiones." },
+    ],
+    content: `
+## La respuesta honesta primero
+
+Seamos claros, porque muchas páginas no lo son: **Paradise Valley es un plan desde Agadir, no desde Marrakech.** Está a unos 60 km tierra adentro desde Agadir, que son unos 300 km —3 a 3,5 horas de coche— desde Marrakech. Una vuelta en el mismo día desde Marrakech significa unas siete horas de coche para un par de horas en las pozas. Eso no es una excursión que nadie disfrute.
+
+Así que si tu base es Marrakech, este artículo te ahorra un error y te orienta hacia las mejores opciones.
+
+## Cuándo sí tiene sentido
+
+Visitar Paradise Valley desde el lado de Marrakech solo funciona de verdad si **ya viajas hacia o a través de Agadir**, por ejemplo en un itinerario más largo por Marruecos que incluya la costa sur, o si de todos modos te desplazas entre las dos ciudades. En ese caso, instálate en Agadir para el valle y usa nuestra [excursión a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir), construida en torno al corto trayecto desde la costa.
+
+Para la visión completa del valle en sí, consulta la [guía completa de Paradise Valley](/es/blog/paradise-valley-agadir-complete-guide).
+
+## Las mejores alternativas desde Marrakech
+
+Si te alojas en Marrakech y quieres la misma *sensación* —un valle fluvial fresco con pozas y cascadas, alcanzable en un día— tienes dos opciones sólidas mucho más cerca:
+
+- **El valle del Ourika.** La escapada clásica de valle fluvial desde Marrakech: terrazas verdes, pueblos bereberes y las cascadas de Setti Fatma, a unos 90 minutos. Nuestra [ruta de un día por el valle del Ourika](/es/tours/ourika-valley-day-hike) lo cubre.
+- **Las cascadas de Ouzoud.** Las cataratas más espectaculares de Marruecos, una triple cascada de 110 m con monos salvajes, en nuestra [excursión a las cascadas de Ouzoud](/es/tours/ouzoud-waterfalls-day-trip).
+
+Ambas te dan el día de agua y naturaleza que la gente imagina al buscar Paradise Valley, sin la vuelta de siete horas.
+
+## En resumen
+
+¿Quieres Paradise Valley en concreto? Hazla desde Agadir. ¿Tu base es Marrakech y solo quieres un bonito día de valle? Ve al Ourika o a Ouzoud en su lugar.
+
+👉 **[Reserva la excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir)** si Agadir es tu base, o explora nuestras excursiones al [Ourika](/es/tours/ourika-valley-day-hike) y a [Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) desde Marrakech.
+`,
+  },
 ];

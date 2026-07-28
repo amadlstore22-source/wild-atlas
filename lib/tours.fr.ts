@@ -601,8 +601,7 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 30,
     depositAmount: 8,
-    heroImage:
-      "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
       "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",

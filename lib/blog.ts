@@ -3853,7 +3853,7 @@ If you are fit, short on time, and want the summit without a week in the mountai
     title: "The Best Time to Visit Paradise Valley, Morocco",
     excerpt:
       "Paradise Valley is a year-round trip, but the pools, the crowds and the water level change a lot by season. Here is the honest month-by-month guide to when to go near Agadir.",
-    heroImage: "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -3912,7 +3912,7 @@ Whatever the month, going with a local guide means you skip the parking and navi
     title: "Swimming in Paradise Valley: Pools, Safety & Tips",
     excerpt:
       "The rock pools are the whole point of Paradise Valley. Here is which pools to swim in, whether it is safe, what to bring, and how to find the quieter water away from the crowds.",
-    heroImage: "https://images.pexels.com/photos/37538524/pexels-photo-37538524.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -3968,7 +3968,7 @@ Getting there means a drive inland from Agadir, parking, and a walk down into th
     title: "Paradise Valley from Agadir: How to Get There",
     excerpt:
       "Paradise Valley is the easiest natural escape from Agadir. Here is how far it is, how to get there by car, taxi or tour, and how to make a day of it.",
-    heroImage: "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -4020,7 +4020,7 @@ If you have more days around Agadir, the valley slots neatly alongside other tri
     title: "Can You Visit Paradise Valley from Marrakech?",
     excerpt:
       "Paradise Valley is near Agadir, not Marrakech — so is a day trip from Marrakech realistic? Here is the honest answer on distance, timing, and the smarter way to do it.",
-    heroImage: "https://images.pexels.com/photos/37672157/pexels-photo-37672157.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
     category: "tips",
     region: "agadir-region",
     readTime: 5,

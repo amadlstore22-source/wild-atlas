@@ -7,7 +7,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "19 July 2026";
+const UPDATED = "28 July 2026";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Marrakech Eco Tours",
@@ -103,19 +103,21 @@ export default async function PrivacyPage({ params }: LangParams) {
       body: (
         <>
           <p>
-            Our website uses a small number of cookies. We do <strong>not</strong> use advertising cookies,
-            cross-site trackers, or third-party marketing pixels, and we do not use Google Analytics. The cookies
-            we set are:
+            Our website uses a small number of cookies. We do <strong>not</strong> use social media pixels or
+            cross-site advertising trackers. The cookies we set are:
           </p>
           <ul>
             <li><strong>Consent (met-cookie-consent)</strong> &mdash; remembers your cookie choice so we do not ask again. Strictly necessary.</li>
             <li><strong>Currency (met_currency)</strong> &mdash; remembers the display currency you select (EUR, USD, GBP, or MAD). Functional preference; set only when you change currency.</li>
+            <li><strong>Google Analytics (_ga, _gid and related)</strong> &mdash; help us understand, in aggregate, how visitors use the site and whether our advertising reaches the right people. <strong>Set only if you choose &ldquo;Accept all&rdquo;</strong>; if you choose &ldquo;Necessary only&rdquo; they are never set and Google Analytics does not load.</li>
           </ul>
           <p>
-            We also use privacy-friendly, cookieless measurement (see{" "}
+            We also use privacy-friendly, cookieless performance measurement (see{" "}
             <a href="#third-party">Third-Party Services</a>). A full breakdown, including how to refuse or clear
             cookies, is in our <Link href={`/${lang}/cookies`}>Cookie Policy</Link>. On your first visit a banner
-            lets you accept all cookies or keep only the strictly necessary ones.
+            lets you accept all cookies or keep only the strictly necessary ones. Our lawful basis for analytics
+            cookies is your <strong>consent</strong>, which you can withdraw at any time by clearing this
+            site&rsquo;s cookies.
           </p>
         </>
       ),
@@ -136,6 +138,13 @@ export default async function PrivacyPage({ params }: LangParams) {
               counts, Core Web Vitals) without cookies or personal identifiers. Vercel may log standard
               server data (IP address, request timestamps) for security. See{" "}
               <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel&rsquo;s Privacy Policy</a>.
+            </li>
+            <li>
+              <strong>Google (Analytics &amp; Ads)</strong> &mdash; <strong>only if you accept all cookies</strong>,
+              we use Google Analytics 4 to measure aggregate site usage and Google Ads to measure the performance
+              of our advertising. Google may process this data (including your IP address, from which we enable
+              IP anonymisation) outside Morocco. It does not load if you choose &ldquo;Necessary only&rdquo;. See{" "}
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>.
             </li>
             <li>
               <strong>PayPal</strong> &mdash; secure payment processing for deposits and full payments. PayPal
@@ -216,10 +225,10 @@ export default async function PrivacyPage({ params }: LangParams) {
       title: "International Transfers",
       body: (
         <p>
-          Our primary operations and data are based in Morocco. Our hosting (Vercel) and email delivery (Resend)
-          infrastructure may process data in the United States or European Union. Where personal data is
-          transferred outside Morocco, we take steps to ensure appropriate protections consistent with Moroccan
-          Law 09-08 and CNDP guidance.
+          Our primary operations and data are based in Morocco. Our hosting (Vercel), email delivery (Resend),
+          and &mdash; where you have accepted analytics cookies &mdash; Google Analytics/Ads infrastructure may
+          process data in the United States or European Union. Where personal data is transferred outside Morocco,
+          we take steps to ensure appropriate protections consistent with Moroccan Law 09-08 and CNDP guidance.
         </p>
       ),
     },

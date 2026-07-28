@@ -3,13 +3,19 @@ import { useState } from "react";
 import Link from "next/link";
 import { PaperPlaneTilt } from "@phosphor-icons/react";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
+import { track, trackConversion } from "@/lib/analytics";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict: Dictionary }) {
   const c = dict.contact;
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
   const [agreed, setAgreed] = useState(false);
-  const { sending, sent, error, submit: doSubmit } = useFormSubmit();
+  const { sending, sent, error, submit: doSubmit } = useFormSubmit({
+    onSuccess: () => {
+      track("contact_submit", { subject: form.subject });
+      trackConversion("enquiry");
+    },
+  });
 
   function update(field: string, value: string) {
     setForm((f) => ({ ...f, [field]: value }));

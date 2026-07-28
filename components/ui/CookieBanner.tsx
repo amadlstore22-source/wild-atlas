@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { CONSENT_EVENT } from "@/lib/analytics";
 
 const STORAGE_KEY = "met-cookie-consent";
 
@@ -21,11 +22,14 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
 
   function accept() {
     localStorage.setItem(STORAGE_KEY, "all");
+    // Tell GoogleAnalytics to boot now, without waiting for a reload.
+    window.dispatchEvent(new Event(CONSENT_EVENT));
     setShow(false);
   }
 
   function necessary() {
     localStorage.setItem(STORAGE_KEY, "necessary");
+    window.dispatchEvent(new Event(CONSENT_EVENT));
     setShow(false);
   }
 

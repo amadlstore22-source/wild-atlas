@@ -12,16 +12,21 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      // React dev mode (Turbopack HMR) requires eval() — allow only in development
+      // React dev mode (Turbopack HMR) requires eval() — allow only in development.
+      // Google Tag Manager / gtag.js (GA4 + Google Ads conversion tracking) loads
+      // from googletagmanager.com; it only runs after cookie consent.
       isDev
-        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com"
-        : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com",
+        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com"
+        : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com",
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com",
+      // Google Analytics sends hit beacons as GET images to these hosts.
+      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk",
       "font-src 'self'",
+      // GA4/Ads use fetch/beacon to google-analytics.com & the analytics regional
+      // endpoints; googletagmanager.com serves the container.
       isDev
-        ? "connect-src 'self' https://api.resend.com ws://localhost:* http://localhost:*"
-        : "connect-src 'self' https://api.resend.com",
+        ? "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com ws://localhost:* http://localhost:*"
+        : "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com",
       "frame-src https://www.paypal.com https://www.sandbox.paypal.com",
       "frame-ancestors 'none'",
     ].join("; "),

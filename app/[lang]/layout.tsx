@@ -7,6 +7,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieBanner from "@/components/ui/CookieBanner";
+import GoogleAnalytics from "@/components/ui/GoogleAnalytics";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import CurrencyProvider from "@/components/ui/CurrencyProvider";
@@ -109,6 +110,7 @@ export default async function LocaleLayout({
           <Footer lang={locale} dict={dict} />
           <WhatsAppButton dict={dict} />
           <CookieBanner lang={locale} dict={dict} />
+          <GoogleAnalytics />
           <Toaster richColors />
           <Analytics />
           <SpeedInsights />

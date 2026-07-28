@@ -1,10 +1,11 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { perPersonPrice } from "@/lib/tours";
 import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
 import { priceIn } from "@/lib/currency-core";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
@@ -25,6 +26,16 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
     if (!agreed) return;
     doSubmit({ type: "booking", tour: tour.title, name, email, date, people });
   }
+
+  // Count an enquiry conversion only once the submit actually succeeds — firing
+  // in handleInquiry would also count network failures. `sent` flips true after
+  // a successful send. Value = the deposit, a reasonable proxy for lead worth.
+  useEffect(() => {
+    if (sent) {
+      track("enquiry_submit", { tour: tour.title });
+      trackConversion("enquiry", { value: tour.depositAmount, currency: "EUR" });
+    }
+  }, [sent, tour.title, tour.depositAmount]);
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
   // depositAmount is stored in USD but the page displays the active currency.
@@ -283,6 +294,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                track("whatsapp_click", { location: "booking_sidebar", tour: tour.title });
+                trackConversion("whatsapp");
+              }}
               className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-[#25D366]/10 text-[#128C7E] font-semibold text-xs hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
             >
               <WhatsappLogo className="w-4 h-4" />
@@ -290,6 +305,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             </a>
             <a
               href={`tel:${SITE.phoneDial}`}
+              onClick={() => {
+                track("phone_click", { location: "booking_sidebar", tour: tour.title });
+                trackConversion("phone");
+              }}
               className="flex items-center justify-center gap-1.5 py-2.5 rounded-[3px] bg-indigo/5 text-indigo font-semibold text-xs hover:bg-indigo/10 transition-colors border border-indigo/10"
             >
               <Phone className="w-4 h-4" />
@@ -331,6 +350,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           href={waUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            track("whatsapp_click", { location: "mobile_bar", tour: tour.title });
+            trackConversion("whatsapp");
+          }}
           className="flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg"
         >
           <WhatsappLogo className="w-4 h-4" />

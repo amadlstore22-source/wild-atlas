@@ -4,17 +4,20 @@ import AnimateInView from "@/components/ui/AnimateInView";
 import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
+// Authentic photos from our own Toubkal treks (shot on the Imlil → Sidi
+// Chamharouch trail in Toubkal National Park) are mixed with regional stock so
+// the gallery reads as real trips, not a stock reel.
 const PHOTOS = [
-  { src: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=800&q=85", alt: "Jbel Toubkal summit — highest peak in North Africa", span: "col-span-1 row-span-2" },
+  { src: "/gallery/toubkal-national-park-peak-clouds.jpg", alt: "Jbel Toubkal massif under dramatic cloud, Toubkal National Park, High Atlas Morocco", span: "col-span-1 row-span-2" },
   { src: "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=800&q=85", alt: "Erg Chebbi golden dunes at sunset, Merzouga Sahara Morocco" },
   { src: "https://images.unsplash.com/photo-1685311572420-513619470404?w=800&q=85", alt: "Camel caravan at rest in the Sahara desert" },
   { src: "https://images.unsplash.com/photo-1722180862276-970599009d51?w=800&q=85", alt: "Marrakech medina — iconic architecture and ancient streets" },
-  { src: "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=800&q=85", alt: "Fes tanneries colourful dye vats Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg", alt: "Turquoise natural pool and waterfall on the Imlil to Sidi Chamharouch trail, Toubkal, Morocco", span: "col-span-1 row-span-2" },
   { src: "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=85", alt: "Essaouira blue fishing boats Atlantic coast Morocco" },
   { src: "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=85", alt: "The blue-washed streets of Chefchaouen in the Rif Mountains" },
-  { src: "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=800&q=85", alt: "Berber stone-built village below snow-capped Atlas peaks, High Atlas Morocco" },
-  { src: "https://images.unsplash.com/photo-1443904364754-fb9a64fe19e5?w=800&q=85", alt: "Winding mountain road ascending through the High Atlas range, Morocco" },
-  { src: "https://images.unsplash.com/photo-1585213303822-f19214012600?w=800&q=85", alt: "Ouzoud waterfalls cascading through forested gorge scenery, Morocco" },
+  { src: "/gallery/imlil-village-green-valley.jpg", alt: "Imlil village terraced into its green High Atlas valley below the Toubkal peaks, Morocco" },
+  { src: "/gallery/imlil-berber-village-kittens.jpg", alt: "Kittens on the stone steps of a Berber village in the High Atlas, Morocco" },
+  { src: "/gallery/imlil-valley-night-stars.jpg", alt: "Imlil valley at night — village lights and stars below the High Atlas, Morocco" },
   { src: "https://images.unsplash.com/photo-1670406071586-d6c619eab22b?w=800&q=85", alt: "Dramatic rocky Dadès Gorge landscape with layered sandstone cliffs, Morocco", span: "col-span-1 row-span-2" },
 ];
 

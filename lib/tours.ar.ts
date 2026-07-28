@@ -24,7 +24,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "تحدَّ جبل توبقال (4,167 م) — سقف شمال أفريقيا — عبر قرى أمازيغية وأودية جبلية عالية.",
     description:
@@ -2397,7 +2400,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "أسرع طريق إلى سقف شمال أفريقيا — تسلق جبل توبقال (4,167 م) في صعود مُركَّز مدته يومان من مراكش.",
     description:
@@ -2873,7 +2878,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription: "ثلاثة أيام تربط وديان إمليل وأزادن وأوريكا عبر ممرات أمازيغية، مع مبيت في دور ضيافة قروية — الجولة الكلاسيكية لقرى الأطلس الكبير.",
     description: "هذا هو الأطلس الكبير دون هوس القمة: ثلاثة أيام مشياً من وادٍ إلى وادٍ في قلب البلاد الأمازيغية. من إمليل تنتقل إلى أزادن، ثم تعبر شرقاً عبر ممرات رعوية باتجاه حوض أوريكا، نائماً كل ليلة في دار ضيافة قروية مختلفة. المشي منتظم لا قاسٍ — ممرات مرتفعة لكن دون منحدرات حصى ولا ارتفاع يتجاوز نحو 2,700 متر — والمقصد هو القرى والحقول المدرّجة وأزيب الرعاة والوديان المتغيّرة أكثر من نقطة عالية وحيدة. مقدّمة قوية من ثلاثة أيام للتسلق في المغرب.",
     highlights: [
@@ -2958,7 +2965,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription: "رحلة تسلق من أربعة أيام في الأطلس الكبير على إيقاع العائلات: أيام مشي قصيرة، وديان لطيفة، دور ضيافة قروية، ووقت وافر مع العائلات الأمازيغية في الطريق.",
     description: "ينجح التسلق مع الأطفال في الأطلس حين تكون الأيام قصيرة والأرض سهلة وهناك ما يُرى بدل مجرد كيلومترات تُقطَع — وهكذا بُنيت هذه الرحلة تماماً. أربعة أيام على إيقاع العائلة عبر وديان إمليل وأوريكا السفلى: عبور أنهار، بساتين جوز، شلالات، خبز الخبز في بيت قروي، وأنصاف أيام قصيرة بما يكفي لترك وقت للأطفال ليكونوا أطفالاً. تحمل البغال كل شيء ويمكنها حمل الصغار المتعبين أيضاً. لا ممرات عالية ولا مسيرات طويلة — مغامرة جبلية حقيقية يمكن لعائلة بأطفال في سن المدرسة خوضها معاً.",
     highlights: [
@@ -3367,7 +3376,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "أعظم مغامرتين مغربيتين في رحلة واحدة: تسلّق جبل توبقال (4167 م)، ثم عبور الأطلس للنوم تحت النجوم على كثبان عرق الشبي.",
     description:

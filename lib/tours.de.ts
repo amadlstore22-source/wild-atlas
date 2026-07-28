@@ -24,7 +24,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "Bezwingen Sie den Jbel Toubkal (4.167 m) — das Dach Nordafrikas — vorbei an Berberdörfern und hochgelegenen Alpentälern.",
     description:
@@ -2397,7 +2400,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "Der schnellste Weg zum Dach Nordafrikas — besteigen Sie den Jbel Toubkal (4.167 m) in einem fokussierten zweitägigen Aufstieg ab Marrakesch.",
     description:
@@ -2873,7 +2878,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription: "Drei Tage, die die Täler von Imlil, Azzaden und Ourika über Berber-Pässe verbinden, mit Nächten in Dorf-Gästehäusern — der klassische Dörfer-Rundweg im Hohen Atlas.",
     description: "Das ist der Hohe Atlas ohne die Gipfelfixierung: drei Tage Wandern von Tal zu Tal durchs Herz des Berberlandes. Von Imlil aus wechseln Sie ins Azzaden und queren dann ostwärts über Weidepässe Richtung Ourika-Einzugsgebiet, wobei Sie jede Nacht in einem anderen Dorf-Gästehaus schlafen. Das Gehen ist stetig statt hart — hohe Pässe, aber keine Geröllfelder und keine Höhe über etwa 2.700 m — und es geht um die Dörfer, die Terrassenfelder, die Hirten-Azibs und die wechselnden Täler statt um einen einzelnen Höhepunkt. Eine starke dreitägige Einführung ins Trekking in Marokko.",
     highlights: [
@@ -2958,7 +2965,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription: "Ein viertägiger Hoher-Atlas-Trek im Familientempo: kurze Gehtage, sanfte Täler, Dorf-Gästehäuser und viel Zeit mit Berberfamilien unterwegs.",
     description: "Trekking mit Kindern im Atlas gelingt, wenn die Tage kurz sind, das Gelände leicht ist und es etwas zu sehen gibt statt nur Kilometer abzuspulen — genau so ist diese Reise gebaut. Vier Tage im Familientempo durch die unteren Täler von Imlil und Ourika: Flussüberquerungen, Walnusshaine, Wasserfälle, Brotbacken in einem Dorfhaus und Halbtage kurz genug, um Kindern Zeit zu lassen, Kinder zu sein. Maultiere tragen alles und können auch müde jüngere Kinder tragen. Keine hohen Pässe, keine langen Märsche — ein echtes Bergabenteuer, das eine Familie mit schulpflichtigen Kindern gemeinsam machen kann.",
     highlights: [
@@ -3367,7 +3376,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "Die zwei großen marokkanischen Abenteuer in einer Reise: den Jbel Toubkal (4.167 m) besteigen und dann über den Atlas fahren, um unter dem Sternenhimmel auf den Dünen des Erg Chebbi zu übernachten.",
     description:

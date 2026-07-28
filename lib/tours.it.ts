@@ -24,7 +24,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "Conquista il Jbel Toubkal (4.167 m) — il tetto del Nord Africa — attraverso villaggi berberi e alte vallate alpine.",
     description:
@@ -2397,7 +2400,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "Il modo più rapido di raggiungere il tetto del Nord Africa — vetta del Jbel Toubkal (4.167 m) in un'ascensione mirata di due giorni da Marrakech.",
     description:
@@ -2873,7 +2878,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription: "Tre giorni che collegano le valli di Imlil, Azzaden e Ourika attraverso passi berberi, con notti in case di villaggio: il classico circuito dei villaggi dell'Alto Atlante.",
     description: "Questo è l'Alto Atlante senza la fissazione per la cima: tre giorni di cammino di valle in valle nel cuore del paese berbero. Da Imlil passi nell'Azzaden, poi attraversi verso est per passi di pascolo in direzione del bacino dell'Ourika, dormendo ogni notte in una diversa casa di villaggio. Il cammino è costante più che severo — passi elevati ma senza ghiaioni né quote oltre i 2.700 m circa — e il fulcro sono i villaggi, i campi terrazzati, gli azib dei pastori e le valli che cambiano più che un unico punto alto. Una solida introduzione di tre giorni al trekking in Marocco.",
     highlights: [
@@ -2958,7 +2965,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription: "Un trekking di quattro giorni nell'Alto Atlante al ritmo delle famiglie: tappe brevi, valli dolci, case di villaggio e molto tempo con le famiglie berbere lungo il cammino.",
     description: "Fare trekking con i bambini nell'Atlante funziona quando le giornate sono brevi, il terreno facile e c'è qualcosa da vedere più che solo chilometri da percorrere: è esattamente così che è costruito questo viaggio. Quattro giorni al ritmo della famiglia attraverso le basse valli di Imlil e Ourika: guadi, noceti, cascate, la panificazione in una casa di villaggio e mezze giornate abbastanza brevi da lasciare ai bambini il tempo di essere bambini. I muli portano tutto e possono portare anche i più piccoli stanchi. Nessun passo elevato, nessuna lunga marcia: una vera avventura di montagna che una famiglia con bambini in età scolare può fare insieme.",
     highlights: [
@@ -3367,7 +3376,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "Le due grandi avventure marocchine in un solo viaggio: raggiungere la cima del Jbel Toubkal (4.167 m) e poi attraversare l'Atlante per dormire sotto le stelle sulle dune dell'Erg Chebbi.",
     description:

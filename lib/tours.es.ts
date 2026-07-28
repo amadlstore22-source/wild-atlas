@@ -24,7 +24,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "Conquista el Jbel Toubkal (4.167 m) — el techo del norte de África — a través de pueblos bereberes y valles alpinos de alta montaña.",
     description:
@@ -2397,7 +2400,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "La forma más rápida de llegar al techo del norte de África — corona el Jbel Toubkal (4.167 m) en un ascenso concentrado de dos días desde Marrakech.",
     description:
@@ -2873,7 +2878,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription: "Tres días enlazando los valles de Imlil, Azzaden y Ourika por puertos bereberes, con noches en casas de huéspedes de pueblo: el circuito clásico de los pueblos del Alto Atlas.",
     description: "Este es el Alto Atlas sin la obsesión por la cumbre: tres días caminando de valle en valle por el corazón del país bereber. Desde Imlil pasas al Azzaden, y luego cruzas hacia el este por puertos de pastoreo en dirección a la cuenca del Ourika, durmiendo cada noche en una casa de huéspedes de pueblo distinta. La caminata es constante más que severa —puertos altos pero sin pedreras ni altitud más allá de unos 2.700 m— y lo importante son los pueblos, los campos en terrazas, los azibs de los pastores y los valles cambiantes más que un único punto alto. Una sólida introducción de tres días al trekking en Marruecos.",
     highlights: [
@@ -2958,7 +2965,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription: "Un trekking de cuatro días por el Alto Atlas al ritmo de las familias: jornadas de marcha cortas, valles suaves, casas de huéspedes de pueblo y mucho tiempo con las familias bereberes por el camino.",
     description: "Hacer trekking con niños en el Atlas funciona cuando las jornadas son cortas, el terreno fácil y hay algo que ver más que solo kilómetros que recorrer: así está construido exactamente este viaje. Cuatro días al ritmo familiar por los valles bajos de Imlil y Ourika: cruces de río, nogales, cascadas, hornear pan en una casa de pueblo y medias jornadas lo bastante cortas para dejar tiempo a que los niños sean niños. Las mulas lo llevan todo y también pueden llevar a los más pequeños cansados. Sin puertos altos ni largas caminatas: una auténtica aventura de montaña que una familia con niños en edad escolar puede hacer junta.",
     highlights: [
@@ -3367,7 +3376,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "Las dos grandes aventuras marroquíes en un solo viaje: coronar el Jbel Toubkal (4167 m) y luego cruzar el Atlas para dormir bajo las estrellas en las dunas de Erg Chebbi.",
     description:

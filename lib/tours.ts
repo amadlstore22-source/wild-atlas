@@ -110,7 +110,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "Conquer Jbel Toubkal (4,167 m) — the roof of North Africa — through Berber villages and high alpine valleys.",
     description:
@@ -2528,7 +2531,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "The fastest way to the roof of North Africa — summit Jbel Toubkal (4,167 m) in a focused two-day ascent from Marrakech.",
     description:
@@ -3012,7 +3017,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription:
       "Three days linking the Imlil, Azzaden and Ourika valleys over Berber passes, sleeping in village guesthouses — the classic High Atlas village circuit.",
     description:
@@ -3100,7 +3107,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription:
       "A four-day High Atlas trek paced for families: short walking days, gentle valleys, village guesthouses, and plenty of time with Berber families along the way.",
     description:
@@ -3377,7 +3386,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "The two great Moroccan adventures in one trip: summit Jbel Toubkal (4,167 m), then cross the Atlas to sleep under the stars on the Erg Chebbi dunes.",
     description:

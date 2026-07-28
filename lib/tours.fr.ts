@@ -33,7 +33,10 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/toubkal-national-park-peak-clouds.jpg",
+],
     shortDescription:
       "Conquérez le Jbel Toubkal (4 167 m) — le toit de l'Afrique du Nord — à travers villages berbères et vallées alpines d'altitude.",
     description:
@@ -2406,7 +2409,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
-    ],
+          "/gallery/toubkal-national-park-entrance-sign.jpg",
+      "/gallery/toubkal-trail-waterfall-gorge.jpg",
+],
     shortDescription:
       "Le moyen le plus rapide d'atteindre le toit de l'Afrique du Nord — sommet du Jbel Toubkal (4 167 m) en une ascension ciblée de deux jours depuis Marrakech.",
     description:
@@ -2882,7 +2887,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
-    ],
+          "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+      "/gallery/imlil-village-green-valley.jpg",
+],
     shortDescription: "Trois jours reliant les vallées d'Imlil, d'Azzaden et de l'Ourika par des cols berbères, avec des nuits en maisons d'hôtes de village — le circuit classique des villages du Haut Atlas.",
     description: "C'est le Haut Atlas sans l'obsession du sommet : trois jours de marche de vallée en vallée au cœur du pays berbère. Depuis Imlil, vous passez dans l'Azzaden, puis traversez vers l'est par des cols de pâturage en direction du bassin de l'Ourika, dormant chaque nuit dans une maison d'hôtes de village différente. La marche est régulière plutôt que sévère — des cols élevés mais sans pierriers ni altitude au-delà d'environ 2 700 m — et l'essentiel réside dans les villages, les champs en terrasses, les azibs des bergers et les vallées changeantes plutôt que dans un point culminant unique. Une belle introduction de trois jours au trek au Maroc.",
     highlights: [
@@ -2967,7 +2974,9 @@ export const TOURS: Tour[] = [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
-    ],
+          "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/imlil-berber-village-kittens.jpg",
+],
     shortDescription: "Un trek de quatre jours dans le Haut Atlas au rythme des familles : journées de marche courtes, vallées douces, maisons d'hôtes de village et beaucoup de temps avec les familles berbères en chemin.",
     description: "Faire du trek avec des enfants dans l'Atlas fonctionne quand les journées sont courtes, le terrain facile et qu'il y a quelque chose à voir plutôt que seulement des kilomètres à parcourir — c'est exactement ainsi que ce voyage est conçu. Quatre jours au rythme des familles à travers les basses vallées d'Imlil et de l'Ourika : traversées de rivière, noyeraies, cascades, cuisson du pain dans une maison de village, et des demi-journées assez courtes pour laisser aux enfants le temps d'être des enfants. Les mulets portent tout et peuvent aussi porter les plus petits fatigués. Pas de cols élevés, pas de longues marches — une vraie aventure en montagne qu'une famille avec des enfants scolarisés peut faire ensemble.",
     highlights: [
@@ -3376,7 +3385,9 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-    ],
+          "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
+],
     shortDescription:
       "Les deux grandes aventures marocaines en un seul voyage : gravir le Jbel Toubkal (4 167 m), puis traverser l'Atlas pour dormir à la belle étoile sur les dunes de l'Erg Chebbi.",
     description:

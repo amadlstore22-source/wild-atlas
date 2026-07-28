@@ -59,7 +59,10 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
   if (!tour) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
-    title: tour.seoTitle ?? `${tour.title} | Marrakech Eco Tours`,
+    // seoTitle already ends in "| Marrakech Eco Tours"; strip it so the layout
+    // template appends the brand exactly once (was producing a double suffix:
+    // "... | Marrakech Eco Tours | Marrakech Eco Tours").
+    title: (tour.seoTitle ?? tour.title).replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
     openGraph: {
       title: tour.title,
@@ -183,7 +186,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-28 lg:pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 space-y-12">
-            <TourGallery images={tour.gallery} title={tour.title} />
+            <TourGallery images={tour.gallery} title={tour.title} category={tour.category} origin={tour.origin} />
 
             <section id="tour-overview" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.overview}</h2>

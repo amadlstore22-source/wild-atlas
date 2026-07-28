@@ -40,7 +40,9 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
   const destination = DESTINATIONS.find((d) => d.slug === dest);
   if (!destination) return {};
   return {
-    title: destination.seoTitle,
+    // seoTitle already ends in the brand; strip it so the layout template
+    // doesn't append "| Marrakech Eco Tours" a second time.
+    title: destination.seoTitle.replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: destination.seoDescription,
     openGraph: {
       title: destination.seoTitle,

@@ -26,7 +26,9 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
   if (!post) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
-    title: post.seoTitle ?? `${post.title} | Marrakech Eco Tours`,
+    // Some seoTitles already carry "| Marrakech Eco Tours"; strip it so the
+    // layout template appends the brand exactly once (no double suffix).
+    title: (post.seoTitle ?? post.title).replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: post.seoDescription ?? post.excerpt,
     openGraph: {
       title: post.title,

@@ -74,12 +74,21 @@ export const SISTER_SITE = {
 // them everywhere a rating is shown so structured data stays consistent.
 export const TRIPADVISOR = {
   url: "https://www.tripadvisor.com/Attraction_Review-g293734-d18455591-Reviews-Morocco_Tours_With_Locals-Marrakech_Marrakech_Safi.html",
+  // Direct "write a review" link (skips straight to the form).
+  writeReviewUrl:
+    "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Morocco_Tours_With_Locals-Marrakech_Marrakech_Safi.html",
   listingName: "Morocco Tours With Locals",
   rating: 5.0,
   reviewCount: 122,
   ranking: 310,
   rankingOutOf: 3979,
 } as const;
+
+// Google Business Profile review link. To activate the Google button on the
+// /review page, replace PLACE_ID with the real Place ID (find it via Google's
+// Place ID Finder) — the URL below opens the "write a review" dialog directly.
+// Leave empty ("") to hide the Google button until you have it.
+export const GOOGLE_REVIEW_URL = "";
 
 export const WHATSAPP_MESSAGES = {
   general: "Hello! I'm interested in booking a tour with Marrakech Eco Tours.",

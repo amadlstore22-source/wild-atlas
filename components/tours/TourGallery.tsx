@@ -3,8 +3,24 @@ import { useState } from "react";
 import Image from "next/image";
 import { X, CaretLeft, CaretRight } from "@phosphor-icons/react";
 
-export default function TourGallery({ images, title }: { images: string[]; title: string }) {
+export default function TourGallery({
+  images,
+  title,
+  category,
+  origin,
+}: {
+  images: string[];
+  title: string;
+  category?: string;
+  origin?: string;
+}) {
   const [lightbox, setLightbox] = useState<number | null>(null);
+
+  // Keyword-rich alt: activity + departure city + country, so gallery photos
+  // are described for image search and screen readers rather than "photo 3".
+  const cat = category ? `${category} tour` : "tour";
+  const from = origin ? ` from ${origin[0].toUpperCase()}${origin.slice(1)}` : "";
+  const altFor = (i: number) => `${title} — ${cat}${from}, Morocco (photo ${i + 1})`;
 
   function prev() {
     setLightbox((i) => (i === null ? 0 : (i - 1 + images.length) % images.length));
@@ -26,7 +42,7 @@ export default function TourGallery({ images, title }: { images: string[]; title
           >
             <Image
               src={src}
-              alt={`${title} — photo ${i + 1}`}
+              alt={altFor(i)}
               fill
               className="object-cover"
               sizes="(max-width: 768px) 50vw, 33vw"
@@ -63,7 +79,7 @@ export default function TourGallery({ images, title }: { images: string[]; title
           <div className="relative w-full max-w-4xl h-[70vh] mx-16" onClick={(e) => e.stopPropagation()}>
             <Image
               src={images[lightbox]}
-              alt={`${title} — photo ${lightbox + 1}`}
+              alt={altFor(lightbox)}
               fill
               className="object-contain"
               sizes="90vw"

@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import NewsSection from "@/components/sections/NewsSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import CTABanner from "@/components/sections/CTABanner";
-import { getDictionary, hasLocale } from "../dictionaries";
+import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { STATS } from "@/lib/stats";
 
 type LangParams = { params: Promise<{ lang: string }> };
@@ -16,6 +16,16 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   return {
     title: `${dict.news.title} — Marrakech Eco Tours`,
     description: dict.news.subtitle,
+    // Self-canonical per locale, matching every other page type. Without it,
+    // the six near-identical locale news pages (same layout, same syndicated
+    // RSS content) landed in Search Console's "Duplicate without user-selected
+    // canonical" bucket. Now each locale consolidates onto itself.
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/news`,
+      languages: Object.fromEntries(
+        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/news`]),
+      ),
+    },
   };
 }
 

@@ -2132,4 +2132,549 @@ Ambas te dan el día de agua y naturaleza que la gente imagina al buscar Paradis
 👉 **[Reserva la excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir)** si Agadir es tu base, o explora nuestras excursiones al [Ourika](/es/tours/ourika-valley-day-hike) y a [Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) desde Marrakech.
 `,
   },
+  {
+    slug: "7-day-morocco-itinerary",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "El itinerario perfecto de 7 días por Marruecos (desde Marrakech)",
+    excerpt:
+      "Una semana basta para ver lo mejor de Marruecos —la ciudad imperial, el Alto Atlas y una noche bajo las estrellas del Sáhara— si planificas bien la ruta. Este es el itinerario de 7 días que le daríamos a un amigo.",
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["7 day morocco itinerary", "morocco itinerary", "one week in morocco", "morocco from marrakech", "morocco route", "morocco 7 days"],
+    seoTitle: "El itinerario perfecto de 7 días por Marruecos desde Marrakech (2026)",
+    seoDescription:
+      "Un itinerario práctico de 7 días por Marruecos desde Marrakech: la medina, el Alto Atlas y una noche en el Sáhara, día a día, con tiempos honestos y cómo reservarlo.",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour", "ourika-valley-day-hike"],
+    faq: [
+      { q: "¿Bastan 7 días para Marruecos?", a: "Siete días bastan para hacer bien una región, y el circuito clásico para principiantes es Marrakech, el Alto Atlas y el Sáhara. No es suficiente para añadir también Fez y el norte sin pasar la semana en tránsito. Este itinerario gira en torno a Marrakech como base única para excursiones, más una escapada de dos noches al desierto, para ver variedad real sin una conducción agotadora. Con más tiempo, nuestro [itinerario de 10 días por Marruecos](/es/blog/10-day-morocco-itinerary) añade Fez y las ciudades imperiales." },
+      { q: "¿Cuánto se conduce en un viaje de 7 días por Marruecos?", a: "Sinceramente, el Sáhara está lejos de Marrakech —unas 8-9 horas por trayecto—, por eso todo viaje serio al desierto parte la ruta por el puerto de Tizi n'Tichka con paradas en Aït Ben Haddou y las gargantas del Dades o el Todra. En este plan, los días 4-6 son la etapa del desierto donde se concentra la conducción; el resto son cortas distancias de excursión desde Marrakech. Ir con chófer-guía en vez de conducir tú mismo convierte los días largos en algo panorámico y no estresante." },
+      { q: "¿Cuál es el mejor mes para este itinerario de 7 días?", a: "La primavera (marzo-mayo) y el otoño (septiembre-noviembre) son ideales: días cálidos, noches frescas en el desierto y sin los extremos del verano. El verano funciona, pero el Sáhara es muy caluroso a mediodía, así que el tiempo en el desierto se traslada al amanecer y el atardecer. El invierno es precioso y tranquilo, con nieve en los picos del Atlas y noches frías en el desierto; lleva capas. Consulta nuestra [guía mes a mes del mejor momento para visitar Marruecos](/es/blog/best-time-to-visit-morocco)." },
+      { q: "¿Se puede hacer este itinerario de Marruecos como tour privado?", a: "Sí, y para un viaje de una semana con ruta fija suele ser la mejor opción. Un chófer-guía privado te deja marcar el ritmo, parar donde quieras y viajar en familia o grupo pequeño sin el horario de un autocar. Organizamos exactamente esta forma de viaje como itinerario privado a medida; escríbenos con tus fechas y lo construiremos en torno a ti." },
+    ],
+    content: `
+## Una semana, el Marruecos de verdad
+
+Siete días es el punto justo para un primer viaje a Marruecos. Es tiempo suficiente para sentir tres mundos completamente distintos —la sobrecarga sensorial de una ciudad imperial, la quietud verde del Alto Atlas y una noche silenciosa al borde del Sáhara— sin convertir las vacaciones en un maratón de conducción. El truco no es intentar verlo todo. Es elegir un buen circuito y hacerlo bien.
+
+Este es el itinerario que de verdad le daríamos a un amigo que aterriza en Marrakech para una semana. Usa Marrakech como base en el primer tramo y luego sale por la ruta clásica del desierto de dos noches y regresa. Con más tiempo, la extensión natural es nuestro [itinerario de 10 días por Marruecos](/es/blog/10-day-morocco-itinerary), que añade Fez y las ciudades imperiales del norte.
+
+¿No sabes si una semana es lo tuyo? Empieza por [cuántos días necesitas en Marruecos](/es/blog/how-many-days-do-you-need-in-morocco).
+
+## Día 1 — Llegada a Marrakech, entrar poco a poco en la medina
+
+Aterriza, deja las maletas en un riad dentro de las murallas de la medina y no planifiques de más la primera noche. Marrakech premia los comienzos lentos: té a la menta en una azotea, un primer paseo por los zocos cercanos y una cena mientras la [plaza Jemaa el-Fna](/es/blog/marrakech-medina-complete-guide) se llena de humo, música y puestos al caer la noche. El jet lag más la intensidad de la medina es mucho el día de llegada; una noche tranquila es lo acertado.
+
+## Día 2 — La medina de Marrakech, como es debido
+
+Dedica un día entero y guiado a la ciudad. La medina desorienta de verdad por tu cuenta, y un guía local convierte un laberinto estresante en un relato: el Palacio de la Bahía, las Tumbas Saadíes, la Madraza Ben Youssef, las curtidurías y los zocos donde los artesanos aún golpean el latón y tiñen el cuero. Nuestro [tour cultural de la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour) cubre exactamente este terreno con alguien que sabe leer la ciudad por ti. Por la tarde, baja el ritmo con un hammam: el baño de vapor tradicional es la forma correcta de terminar un día de pie.
+
+## Día 3 — Excursión al Alto Atlas (Ourika o Imlil)
+
+Cambia la ciudad por las montañas. A noventa minutos de Marrakech, el [valle del Ourika](/es/tours/ourika-valley-day-hike) asciende entre terrazas verdes, pueblos bereberes y las cascadas de Setti Fatma: una ruta fácil y preciosa, y un cambio de aire total. Si prefieres caminar hacia picos de verdad, la zona de Imlil está bajo el monte Toubkal y es el inicio de los grandes trekkings. En cualquier caso, vuelves a Marrakech por la noche habiendo visto el paisaje que la mayoría de los excursionistas se pierde.
+
+## Día 4 — De Marrakech a través del Atlas al valle del Dades
+
+Empieza la etapa del desierto. Hoy es la larga y espectacular ruta por el **puerto de Tizi n'Tichka** (2.260 m), la carretera del Alto Atlas que separa el norte verde del sur árido. Paras en **Aït Ben Haddou**, la kasbah de tierra declarada Patrimonio de la Humanidad que ha hecho de Egipto antiguo, Jerusalén y Poniente en la pantalla; consulta nuestra guía de [localizaciones de cine Patrimonio de la Humanidad en Marruecos](/es/blog/morocco-unesco-sites-film-locations). Pasas la noche cerca de **Ouarzazate** o el valle del **Dades**, de tonos rojo rosados, en pleno país de kasbahs.
+
+## Día 5 — Del Dades a Merzouga y las dunas de Erg Chebbi
+
+Más grandes paisajes del sur marroquí: la **garganta del Todra**, donde acantilados de 300 m se alzan sobre un río estrecho, y el largo trayecto al este por los oasis de palmeras datileras hasta **Merzouga**. A última hora de la tarde cambias el vehículo por camellos (o un 4x4) y sales a las dunas de **Erg Chebbi** —el Sáhara clásico y elevado que la mayoría imagina— hacia un campamento. Cena junto al fuego, tambores bajo las estrellas y un silencio que se oye. Es la noche en torno a la que se construye todo el viaje; nuestro [tour de 3 días por el Sáhara desde Marrakech](/es/tours/sahara-3day-marrakech) está diseñado en torno a esta experiencia. Para saber cómo es de verdad una noche de campamento, lee [el Sáhara, qué esperar](/es/blog/sahara-desert-morocco-what-to-expect).
+
+## Día 6 — Amanecer sobre las dunas y rumbo al oeste
+
+Despierta antes del alba para el amanecer sobre Erg Chebbi: cada minuto del madrugón vale la pena mientras las dunas pasan del gris al oro. Tras el desayuno en el campamento empieza el largo regreso hacia el oeste, normalmente por una ruta distinta (el valle del Draa o de nuevo por el Atlas) para no rehacer todo el camino. Es un gran día en coche, partido por paradas, con llegada a Marrakech o una parada en kasbah para la última noche.
+
+## Día 7 — Última mañana en Marrakech, salida
+
+Aprovecha la última mañana para lo que no encajaste: una última vuelta por los zocos para regalos, el Jardín Majorelle, un desayuno en azotea o simplemente otro té a la menta. Luego el traslado al aeropuerto. Siete días, tres paisajes y la textura real del país en lugar de una lista de tareas.
+
+## La versión honesta de este plan
+
+Algunas cosas que las versiones de folleto no te contarán:
+
+- **El desierto está lejos.** Los días 4-6 implican conducción real. Es el precio de una auténtica noche en el Sáhara desde Marrakech, y vale la pena, pero ve sabiéndolo y deja que un chófer-guía maneje las carreteras largas.
+- **No añadas Fez a un viaje de 7 días** salvo que quites el desierto. Intentar hacer Marrakech + Sáhara + Fez + el norte en una semana significa pasarla en tránsito. Para eso está el [itinerario de 10 días](/es/blog/10-day-morocco-itinerary).
+- **El privado gana al horario fijo** para una ruta así. Controlas las paradas y el ritmo.
+
+## Hazlo tuyo
+
+Es una plantilla, no una regla. Las familias lo ralentizan y cambian las rutas de cima por suaves paseos de valle; las parejas añaden un campamento de lujo; los senderistas dan dos días al Atlas en vez de uno. Construimos exactamente esta semana como **itinerario privado a medida** en torno a tus fechas, ritmo e intereses.
+
+👉 **[Descubre nuestros tours de Sáhara y Atlas](/es/tours/sahara-3day-marrakech)** o escríbenos por WhatsApp con tus fechas y daremos forma a toda la semana en torno a ti: guías bereberes titulados, grupos pequeños, sin las prisas de un autocar.
+`,
+  },
+  {
+    slug: "10-day-morocco-itinerary",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Itinerario de 10 días por Marruecos: ciudades, desierto y montañas",
+    excerpt:
+      "Diez días bastan para enlazar las dos grandes ciudades imperiales de Marruecos con el Sáhara y el Alto Atlas. Este es el circuito clásico Marrakech-Fez, día a día, con tiempos de conducción honestos y dónde ir más despacio.",
+    heroImage: "/gallery/toubkal-national-park-peak-clouds.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 13,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
+    seoTitle: "Itinerario de 10 días por Marruecos: ciudades, desierto y montañas (2026)",
+    seoDescription:
+      "Un itinerario completo de 10 días por Marruecos que enlaza Marrakech, el Sáhara, Fez y el Alto Atlas, día a día, con tiempos de conducción realistas, las mejores paradas y cómo reservarlo.",
+    relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
+    faq: [
+      { q: "¿Bastan 10 días para ver Marruecos?", a: "Diez días es la duración ideal para un primer viaje completo: suficiente para enlazar ambas grandes ciudades imperiales (Marrakech y Fez) con una auténtica noche en el Sáhara y tiempo en el Alto Atlas, sin vivir en el coche. Es la duración que más recomendamos. Con solo siete días dejarías fuera Fez y el norte —mira nuestro [itinerario de 7 días por Marruecos](/es/blog/7-day-morocco-itinerary)— y con dos semanas añadirías la costa atlántica y un trekking serio." },
+      { q: "¿Cuál es la mejor ruta para 10 días en Marruecos?", a: "La forma clásica y más eficiente es un circuito, no ir y volver: Marrakech → por el Atlas hasta el Sáhara → subiendo por las gargantas y oasis hasta Fez → y de vuelta a Marrakech (o salir en avión desde Fez). Hacerlo en circuito significa que rara vez rehaces el camino, y cada día trae paisajes nuevos. Este itinerario sigue ese circuito." },
+      { q: "¿Cuánta conducción hay en un itinerario de 10 días por Marruecos?", a: "Los dos días más largos son Marrakech al desierto (por el puerto de Tizi n'Tichka, partido por Aït Ben Haddou) y del desierto a Fez (por el valle del Ziz y los bosques de cedros del Medio Atlas). Ambos son completos pero genuinamente panorámicos. Los días de ciudad en Marrakech y Fez casi no implican conducción. Un chófer-guía privado convierte las etapas largas en parte del viaje en vez de tiempo muerto." },
+      { q: "¿Debo volar entre ciudades o conducir en Marruecos?", a: "Para este circuito, conduce: los paisajes entre las ciudades (los puertos del Atlas, las gargantas, los oasis, el Sáhara) son la mitad del sentido, y te los perderías volando. Volar solo tiene sentido si vas justo de tiempo y tratas Marrakech y Fez como escapadas urbanas separadas. Para un viaje de 10 días que quiere todo el país, el circuito por tierra es la opción correcta." },
+    ],
+    content: `
+## Diez días, el país entero
+
+Diez días es la duración que más recomendamos para un primer viaje a Marruecos. Es el punto en que el país deja de ser una escapada urbana y se convierte en un viaje de verdad: dos ciudades imperiales con mil años de historia entre ellas, una noche en el Sáhara, los grandes puertos del Alto Atlas y los oasis de palmeras y gargantas del sur, todo enlazado en un circuito que casi nunca vuelve sobre sus pasos.
+
+Si tienes menos tiempo, nuestro [itinerario de 7 días](/es/blog/7-day-morocco-itinerary) conserva Marrakech y el Sáhara y deja el norte. Si aún lo estás decidiendo, empieza por [cuántos días necesitas en Marruecos](/es/blog/how-many-days-do-you-need-in-morocco). Este plan asume que quieres verlo todo y hacerlo como circuito por tierra: la forma en que el país está pensado para recorrerse.
+
+## Días 1-2 — Marrakech
+
+Empieza por la ciudad roja. El día uno es llegada y una primera noche tranquila en la medina; el día dos, una exploración guiada completa: el Palacio de la Bahía, la Madraza Ben Youssef, los zocos, las curtidurías y el teatro de [Jemaa el-Fna](/es/blog/marrakech-medina-complete-guide) al caer la noche. Nuestro [tour cultural de la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour) da sentido al laberinto. Termina con un hammam. (Si quieres una excursión-respiro antes de la larga ruta del desierto, el [valle del Ourika](/es/tours/ourika-valley-day-hike) o las [cascadas de Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) sirven las dos.)
+
+## Día 3 — De Marrakech al valle del Dades
+
+Cruza el Alto Atlas por el **puerto de Tizi n'Tichka**, con parada en la kasbah Patrimonio de la Humanidad de **Aït Ben Haddou** —la ciudadela de tierra de *Gladiator*, *Juego de Tronos* y muchas más ([más sobre las localizaciones de cine de Marruecos](/es/blog/morocco-unesco-sites-film-locations))—. Continúa hacia Ouarzazate, "la puerta del desierto", y pasa la noche en el valle del **Dades**, de tonos rosados, entre las kasbahs.
+
+## Día 4 — Garganta del Todra hasta Merzouga y las dunas
+
+Camina por la **garganta del Todra**, donde acantilados de 300 m se cierran sobre un río frío, y luego conduce al este por pueblos-oasis hasta **Merzouga** y las grandes dunas de **Erg Chebbi**. A última hora de la tarde, monta en camello hasta un campamento para el atardecer, la cena y los tambores bajo un cielo sin contaminación lumínica. Nuestro [tour de 3 días por el Sáhara](/es/tours/sahara-3day-marrakech) está construido en torno a esta etapa. Lee [cómo es de verdad una noche de campamento en el Sáhara](/es/blog/sahara-desert-morocco-what-to-expect) antes de ir.
+
+## Día 5 — Amanecer en el Sáhara, al norte por el valle del Ziz hasta Fez
+
+Amanecer sobre las dunas y luego la larga y bonita ruta al norte hasta Fez: subiendo el **valle del Ziz**, pasando los ksur y los palmerales, por el **Medio Atlas** entre los bosques de cedros de Ifrane (atento a los macacos de Berbería). Es un gran día, pero uno de los más variados de todo el viaje. Noche en Fez. Toda esta travesía Marrakech-desierto-Fez es exactamente lo que cubre nuestro [tour del desierto de 3 días de Marrakech a Fez](/es/tours/marrakech-to-fes-3day).
+
+## Días 6-7 — Fez
+
+Dale dos noches a Fez: se las merece. **Fez el-Bali**, la ciudad vieja amurallada, es la mayor zona urbana sin coches del mundo y el corazón espiritual y cultural de Marruecos: la Qarawiyín (la universidad en funcionamiento continuo más antigua del mundo), las curtidurías medievales, las madrazas y una medina aún más laberíntica que la de Marrakech. Aquí un guía local es casi imprescindible. Fez es una ciudad de artesanos en activo, no un museo; un día y medio te deja sentirlo en lugar de solo marcarlo.
+
+## Día 8 — De Fez de vuelta hacia el Atlas
+
+Gira de nuevo al sur y al oeste. Según tus vuelos, este es el día para partir el regreso: o de vuelta por el Medio Atlas hacia Marrakech, o vía **Meknes** y las ruinas romanas de **Volubilis** si quieres una capa más de historia. Noche en ruta.
+
+## Día 9 — El Alto Atlas / Imlil
+
+Baja el ritmo antes del final con un día en plena montaña. Desde la zona de Marrakech, el valle de **Imlil** bajo el monte Toubkal es la base clásica: pueblos en terrazas, nogales y hospitalidad bereber. Camina tanto o tan poco como quieras; incluso media jornada de ruta aquí está a años luz de las ciudades. Los senderistas que quieran lo auténtico pueden incluir un intento de cima (mira nuestra [ascensión al Toubkal en 2 días](/es/tours/toubkal-summit-2day-marrakech)).
+
+## Día 10 — Marrakech, última mañana, salida
+
+De vuelta a Marrakech para la última mañana: zocos para regalos, un último desayuno en azotea, el Jardín Majorelle, y luego el aeropuerto. Diez días, ambas ciudades imperiales, el Sáhara y el Atlas, en un circuito limpio.
+
+## La versión honesta
+
+- **Hazlo en circuito, no de ida y vuelta.** Toda la eficiencia de un viaje de 10 días viene de no rehacer nunca dos veces la misma carretera.
+- **Dos noches en Fez, no una.** Es el arrepentimiento más común: se le da a Fez una noche apresurada y se desea haberse quedado. Tenlo en cuenta.
+- **Los dos días largos de coche son la etapa de ida al desierto y la del desierto a Fez.** Son panorámicos, pero reales. Un chófer-guía vale la pena.
+- **Puedes salir en avión desde Fez** en vez de volver a Marrakech si tus vuelos lo permiten: ahorra un día de conducción. Pregúntanos y lo planificamos de cualquiera de las dos formas.
+
+## Construye tus 10 días
+
+Es el circuito clásico, pero la mejor versión es la que se moldea en torno a ti: un campamento de lujo, más senderismo, una clase de cocina en Fez, un ritmo más lento con niños. Lo organizamos como **itinerario privado a medida** con guías bereberes titulados y sin las prisas de un autocar.
+
+👉 **[Mira nuestros tours de varios días](/es/tours/marrakech-to-fes-3day)** o escríbenos con tus fechas y construiremos los 10 días completos en torno a tu ritmo e intereses.
+`,
+  },
+  {
+    slug: "nila-blue-dye-morocco-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Nila: el famoso tinte azul de Marruecos (y cómo no mancharte)",
+    excerpt:
+      "El índigo profundo de los 'hombres azules' del desierto viene del nila. Esto es qué es, por qué las túnicas tuareg tiñen la piel y cómo llevarlo sin acabar con los dedos azules una semana.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["nila", "indigo Morocco", "blue men of the desert", "Tuareg blue", "Moroccan blue dye", "Sahara culture"],
+    seoTitle: "Nila: el tinte azul de Marruecos explicado (y cómo no mancharte)",
+    seoDescription:
+      "¿Qué es el nila, el índigo tras los 'hombres azules del desierto' de Marruecos? Por qué tiñe la piel, si se va al lavarlo y cómo llevar un tagelmust azul sin mancharte.",
+    relatedTours: ["merzouga-stargazing-desert-tour", "sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
+    faq: [
+      { q: "¿Qué es el nila en Marruecos?", a: "El nila es el índigo profundo usado tradicionalmente para teñir las túnicas y turbantes (tagelmust) de los tuareg y otros pueblos saharianos, de ahí su apodo de 'hombres azules del desierto'. El nila auténtico es un índigo natural, históricamente tan preciado que se comerciaba como moneda por todo el Sáhara. Se vende en bloque duro y oscuro o en polvo en los zocos del sur y en pueblos del desierto como Merzouga y Rissani." },
+      { q: "¿Por qué el tinte azul mancha la piel?", a: "El nila tradicional no está fijado químicamente a la tela como los tintes industriales, sino frotado y bruñido en el tejido, en parte a propósito. En el desierto el índigo pasa a la piel y se creía que protegía del sol y la mantenía suave. Así que un pañuelo teñido con nila auténtico dejará sin falta un tinte azul en el cuello y las manos, sobre todo al sudar. Es una característica, no un defecto: así sabes que es de verdad." },
+      { q: "¿El tinte azul nila se va al lavar?", a: "De la piel, sí: se desvanece en un día o dos y sale antes con un buen frotado, así que no te alarmes si los dedos se te ponen azules tras liar un turbante. De la ropa clara, con menos fiabilidad: trata un pañuelo de nila como unos vaqueros nuevos y mantenlo lejos de tu camisa blanca. Lávalo aparte, en agua fría, las primeras veces." },
+      { q: "¿Dónde comprar nila auténtico en Marruecos?", a: "El sur del desierto es el sitio: el mercado de Rissani cerca de Merzouga, y los puestos de Zagora y Ouarzazate, venden bloques de nila y tagelmust ya teñidos. En Marrakech lo encontrarás en el zoco de los tintoreros, aunque allí la calidad y autenticidad varían más. En nuestros tours por el desierto, los guías saben qué puestos venden el índigo genuino y no un azul sintético hecho pasar por nila." },
+    ],
+    content: `
+## El azul que se te queda pegado
+
+Pasa una noche en el Sáhara marroquí y tarde o temprano lo conocerás: el azul profundo, casi violeta, de un tagelmust tuareg, el largo turbante-pañuelo del desierto. Lía uno y en una hora tu cuello y las yemas de los dedos también se han vuelto azules. Eso es el **nila**, y la mancha no es un error. Es justo el sentido.
+
+Esto es qué es de verdad el nila, por qué los 'hombres azules del desierto' se llaman así y —la parte práctica— cómo disfrutarlo sin pasar el resto del viaje pareciendo que perdiste una pelea con una pluma estilográfica.
+
+## ¿Qué es el nila?
+
+El nila es **índigo natural**. Durante siglos fue uno de los bienes más valiosos que cruzaban el Sáhara, comerciado en bloques duros y oscuros junto a la sal y el oro, y apreciado por la extraordinaria profundidad de azul que daba a la tela. Los tuareg y otros pueblos saharianos lo usaban para teñir las túnicas y turbantes que protegen del sol, el viento y la arena.
+
+Como el pigmento se bruñe en la tela en vez de fijarse químicamente, tiene una manía característica: migra. A la piel, a otras telas, a todo lo que roza. En el desierto se veía como un beneficio: se creía que el índigo protegía y suavizaba la piel, lo que dio a sus portadores el apodo de **"hombres azules del desierto"**. Su piel adquiría literalmente un brillo azulado de toda una vida en túnicas de índigo.
+
+## Por qué mancha (y por qué eso es bueno)
+
+Los tintes modernos se fijan para no desteñir nunca. El nila tradicional es lo contrario: la transferencia es parte de su identidad. Una prueba rápida en el zoco: si un pañuelo "de nila" se queda perfectamente limpio contra tu palma húmeda, probablemente es un azul sintético. Si deja un fantasma de índigo en la piel, es el auténtico haciendo lo que siempre ha hecho.
+
+Es decir, el momento turístico clásico —liar un turbante en el campamento y luego ver que las manos se te han puesto azul pitufo— es un rito de paso, no un desastre.
+
+## Cómo llevar nila sin volverte azul
+
+No tienes que elegir entre el pañuelo auténtico y las manos limpias. Algunos trucos de los guías del desierto:
+
+- **Deja "reposar" un pañuelo nuevo.** Airéalo y dale un aclarado suave en frío antes de ponértelo: el pigmento suelto de la superficie sale primero.
+- **La piel seca transfiere menos.** La mayor parte del azul se mueve al sudar, así que un pañuelo llevado una tarde fresca mancha mucho menos que un turbante liado a pleno mediodía.
+- **Póntelo sobre una fina capa de algodón** en el cuello si de verdad quieres quedar limpio: un buff se lleva el contacto en lugar de tu piel.
+- **No te alarmes por las manos.** Lo que se transfiere sale de la piel en un día o dos; un buen frotado con jabón lo acelera. Es tinte, no un tatuaje.
+- **Protege tu ropa clara, no tu piel.** Lo único que de verdad vale la pena cuidar es una camisa blanca o un bolso claro. Trata el pañuelo como vaquero oscuro nuevo.
+
+## Comprar el auténtico
+
+El de verdad está en el sur. El **mercado de Rissani** cerca de Merzouga es famoso por él; también encontrarás bloques de nila y tagelmust listos para usar en **Zagora** y **Ouarzazate**. En el zoco de los tintoreros de Marrakech también se vende, aunque allí suben las probabilidades de llevarte un sintético.
+
+Si vas hacia las dunas con nosotros, pregunta a tu guía: sabe qué puestos venden el índigo de verdad y te enseñará encantado a liar un tagelmust como es debido (y a mantener la mayor parte del azul en la tela). Es uno de esos pequeños fragmentos genuinos de la cultura del desierto que un buen guía convierte de un souvenir en una historia.
+
+## Ve el azul donde le corresponde
+
+El nila tiene todo el sentido fuera, en la arena, liado contra un viento del desierto al atardecer, no doblado en una maleta ya en casa.
+
+👉 **[Pasa una noche en el Sáhara con nuestro tour del desierto de Merzouga](/es/tours/merzouga-stargazing-desert-tour)**: paseo en camello, un campamento bajo las estrellas y guías que te enseñarán a llevar el azul como un local. ¿Prefieres las dunas más salvajes? El [tour de 3 días por el Sáhara desde Marrakech](/es/tours/sahara-3day-marrakech) te lleva al corazón de Erg Chebbi.
+`,
+  },
+  {
+    slug: "moroccan-mint-tea-ceremony-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "El té a la menta marroquí: la ceremonia, el escanciado en alto y por qué no puedes rechazarlo",
+    excerpt:
+      "Lo llaman 'whisky bereber' y se sirve desde lo alto por una razón. Así funciona de verdad el ritual del té a la menta en Marruecos, y por qué rechazar un tercer vaso es prácticamente un incidente diplomático.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Moroccan mint tea", "Berber whisky", "atay", "Moroccan tea ceremony", "Morocco culture", "Moroccan hospitality"],
+    seoTitle: "El té a la menta marroquí: la ceremonia, el escanciado en alto y la etiqueta",
+    seoDescription:
+      "Por qué el té a la menta marroquí se sirve desde lo alto, qué significan 'los tres vasos' y la etiqueta para aceptarlo (y sobrevivirlo). Una guía divertida del ritual nacional de Marruecos.",
+    relatedTours: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike", "marrakech-food-market-tour"],
+    faq: [
+      { q: "¿Por qué el té a la menta marroquí se sirve desde tan alto?", a: "El escanciado en alto no es solo espectáculo: airea el té, forma una ligera espuma (la 'corona') encima de cada vaso y lo enfría un poco de camino. Un buen servidor sube la tetera más y más sin derramar una gota, y sí, parte es teatro. Un poco de espuma en tu vaso se considera la marca de un té bien servido." },
+      { q: "¿Qué significan los tres vasos de té marroquí?", a: "Hay un famoso dicho magrebí: el primer vaso es 'suave como la vida', el segundo 'fuerte como el amor' y el tercero 'amargo como la muerte', porque las mismas hojas se infusionan tres veces, volviéndose más fuertes y amargas en cada ronda. Que te ofrezcan los tres es señal de hospitalidad como es debido; beber al menos uno es cortesía básica." },
+      { q: "¿Es de mala educación rechazar el té a la menta marroquí?", a: "Rechazarlo de golpe puede resultar frío, porque el té es el gesto central de la hospitalidad marroquí: ofrecerlo es como un anfitrión, un tendero o una familia bereber dice 'aquí eres bienvenido'. No tienes que beber litros, pero aceptar un vaso, aunque lo bebas despacio, es lo educado. 'Solo un poco' siempre es una respuesta aceptable; el no rotundo es el que hay que evitar." },
+      { q: "¿Qué lleva de verdad el té a la menta marroquí?", a: "Té verde (normalmente té pólvora chino), un generoso manojo de hierbabuena fresca y una cantidad de azúcar francamente alarmante, tradicionalmente mucha. En invierno o en la montaña suele reforzarse con ajenjo (chiba), salvia u otras hierbas. Pídelo 'sin azúcar' o 'poco azúcar' si la versión estándar es demasiado dulce para ti." },
+    ],
+    content: `
+## "Whisky bereber"
+
+Pide un té a la menta en el Alto Atlas y alguien sonreirá y lo llamará *whisky bereber*: Marruecos es en gran parte abstemio, y este té verde dulce, ardiente y muy mentolado alimenta de todo: negocios, visitas familiares, negociaciones de boda y el simple acto de dar la bienvenida a un desconocido. Entiende cómo funciona el ritual y habrás desbloqueado una de las partes más cálidas de la cultura marroquí. Hazlo mal y solo te ofrecerán más té, así que lo que está en juego es agradablemente poco.
+
+## El escanciado en alto
+
+Lo primero que notarás es el modo de servir. El camarero levanta la tetera labrada cada vez más alto sobre el vaso, enviando un hilo fino de té en un arco desde una altura que parece disparatada, y de algún modo cada gota aterriza.
+
+Hay método en el drama. La larga caída **airea** el té, lo enfría un poco y forma una delicada espuma —la "corona"— encima de cada vaso. Un poco de espuma es la señal de un té servido con cuidado. También es, seamos sinceros, algo de show, y un buen servidor lo sabe. Ver a un anfitrión bereber servir a toda una mesa sin una sola salpicadura es realmente hipnótico.
+
+## Los tres vasos
+
+Hay un dicho que se oye por Marruecos y el Magreb:
+
+> *El primer vaso es suave como la vida, el segundo fuerte como el amor, el tercero amargo como la muerte.*
+
+No es poesía porque sí: es química. Las mismas hojas se infusionan tres veces, y cada ronda extrae más tanino, así que el té se vuelve más fuerte y amargo a medida que avanzas. Que te guíen por los tres es la experiencia completa de la hospitalidad. No estás obligado a llegar al tercer vaso, pero has de entender que ofrecértelo es un cumplido.
+
+## Por qué (más o menos) no puedes decir que no
+
+Aquí está el corazón cultural: ofrecer té es como los marroquíes dicen *eres bienvenido*. Un tendero que te trae té, una familia que te sienta en su casa, el primo de un guía que aparece con una bandeja en un pueblo de montaña: te tienden una hospitalidad real, y un rechazo tajante se lee como un pequeño desprecio a esa calidez.
+
+No tienes que beber un litro. **"Solo un poco" siempre vale.** Bebe despacio, acepta un vaso, sonríe: es todo lo que hace falta. El único gesto a evitar es el "no, gracias" occidental y cortante, que puede caer más frío de lo que pretendes. En caso de duda: coge el vaso.
+
+(Un aviso honesto: la receta tradicional lleva una cantidad heroica de azúcar. Si huyes de lo dulce, aprende pronto la frase para "poco azúcar": *shwiya d skkar*.)
+
+## Dónde lo encontrarás
+
+En todas partes. Pero el té está en su mejor momento donde más importa: servido por una familia bereber en un pueblo del Atlas tras un día de caminata, o dado en un campamento del desierto cuando el sol baja. En nuestro [tour cultural de la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour) te lo ofrecerán al modo tradicional en los zocos, y en un día por el [valle del Ourika](/es/tours/ourika-valley-day-hike) viene con vistas y, casi siempre, un plato de pan caliente y aceite de argán.
+
+## Ven por el té, quédate por la historia
+
+El té nunca es de verdad sobre el té. Es la puerta a una conversación, una casa, una amistad: el gesto más marroquí que existe.
+
+👉 **[Vive la hospitalidad marroquí real en nuestros tours culturales](/es/tours/marrakech-medina-cultural-tour)**: de los zocos de Marrakech a un vaso servido en una casa bereber en la montaña, con guías que te enseñarán la etiqueta (y el escanciado en alto, si te atreves).
+`,
+  },
+  {
+    slug: "haggling-in-moroccan-souks-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Cómo regatear en los zocos marroquíes sin perder la cabeza",
+    excerpt:
+      "El primer precio no es el precio. Esta es la guía honesta y algo divertida del regateo en los mercados de Marruecos: el truco del té, la retirada y cómo conseguir un precio justo sin convertirlo en batalla.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "imperial-cities",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["haggling Morocco", "Moroccan souks", "bargaining Marrakech", "how to haggle Morocco", "Marrakech shopping", "souk tips"],
+    seoTitle: "Cómo regatear en los zocos marroquíes (guía honesta y divertida)",
+    seoDescription:
+      "Cómo funciona de verdad el regateo en los zocos de Marruecos: la regla del primer precio, el truco del té, la retirada y cómo conseguir un buen precio sin estrés. Una guía práctica y desenfadada.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "marrakech-imperial-cities-5day"],
+    faq: [
+      { q: "¿Hay que regatear en Marruecos?", a: "En los zocos (los mercados tradicionales), sí: el primer precio que dan es un punto de partida, no el precio real, y pagarlo sin decir palabra solo se espera de quien no conoce el juego. En tiendas de precio fijo, supermercados, farmacias y la mayoría de cafés y restaurantes, no: allí los precios están fijados. Regla general: si no hay etiqueta y es artesanía, textil o souvenir, es negociable." },
+      { q: "¿Cuánto ofrecer al regatear en Marruecos?", a: "Un punto de partida común es contraofertar en torno al 40-50 % del primer precio pedido y cerrar en algún punto intermedio, pero no hay fórmula fija: depende del artículo, la temporada y cuántos otros puestos vendan lo mismo. El verdadero objetivo no es 'ganar'; es llegar a un precio con el que tú estés contento y el vendedor también. Si el trato te alegra, es un buen trato, sea cual sea el 'porcentaje'." },
+      { q: "¿Regatear en Marruecos es grosero o agresivo?", a: "Para nada: bien hecho, es amistoso, incluso divertido. Es un intercambio social, no una pelea: espera bromas, indignación fingida, vasos de té y teatro por ambos lados. La versión grosera es regatear con dureza algo que no piensas comprar, o exprimir a un artesano hasta márgenes insultantes por unos dírhams. Mantenlo cálido y con buen humor y ambos lo disfrutaréis." },
+      { q: "¿Qué es el truco de 'irse' en el zoco?", a: "Empezar a marcharte con educación es el movimiento de regateo más eficaz: si el vendedor canta un precio más bajo mientras te vas, ese precio era real; si te deja ir, probablemente ya estabas cerca de su suelo. Pero solo vete si de verdad estás dispuesto a no comprarlo. Las retiradas fingidas por el mismo artículo en el mismo puesto no funcionan dos veces, y usarlo como farol que no sientes solo hace perder el tiempo a todos." },
+    ],
+    content: `
+## Regla número uno: el primer precio nunca es el precio
+
+Entra en los zocos de Marrakech o Fez y entras en un juego al que todos juegan menos tú, al principio. Un tendero pone un precio a esa lámpara, alfombra o bolso de cuero, y suena raramente alto, porque lo es. La cifra de apertura es la primera línea de una conversación, no el coste. Regatear se espera, es normal y —esto es lo que la mayoría se pierde— se supone que es **divertido**.
+
+Así se juega bien, consigues un precio justo y disfrutas del teatro en vez de temerlo.
+
+## La coreografía básica
+
+Va más o menos así:
+
+1. Admiras algo. Preguntas el precio. Cae una cifra: alegre, con aplomo y demasiado alta.
+2. Pones cara de dolor. Contraofertas, bajo pero sin insultar (se suele empezar en torno al 40-50 % de lo pedido).
+3. Indignación fingida. "¡Eso está por debajo de mi coste!" Una mano en el pecho. Quizá la frase "para ti, amigo, precio especial".
+4. Subes un poco; bajan un poco. Se repite, idealmente con bromas.
+5. Aterrizáis en una cifra que os gusta a los dos, o no, y os separáis en buenos términos.
+
+Todo debe sentirse como broma, no como guerra. Si deja de ser amistoso, algo ha salido mal.
+
+## El truco del té
+
+Si te ofrecen un vaso de té a la menta mientras miras, entiende qué pasa: es hospitalidad genuina **y** un suave contrato social. Aceptar no te obliga a comprar, pero ralentiza todo, da calidez al intercambio y hace toda la negociación más relajada y humana. Coge el té. Disfrútalo. Regatearás mejor relajado que con prisas, y el vendedor también lo sabe. (Nuestra [guía del té a la menta](/es/blog/moroccan-mint-tea-ceremony-guide) explica por qué no deberías rechazarlo de todos modos.)
+
+## La retirada (úsala con honor)
+
+El movimiento más poderoso del zoco es la salida educada. Da las gracias, sonríe y empieza a derivar hacia el siguiente puesto. Pasa una de dos cosas:
+
+- Un precio mejor vuela tras de ti, en cuyo caso ese precio siempre fue real.
+- Te dejan ir, en cuyo caso probablemente ya estabas cerca del suelo y has aprendido el umbral real.
+
+La trampa: **solo vete si de verdad estarías bien sin comprarlo.** La retirada no es un farol que puedas repetir dos veces en el mismo puesto. Siéntelo o no lo hagas.
+
+## Mantenerlo justo (y amable)
+
+Algunos principios honestos que te harán mejor regateador y mejor invitado:
+
+- **Fija tu precio primero.** Sabe cuánto vale el artículo *para ti* antes de que empiece el ping-pong de cifras. Si aterrizas ahí, has ganado, sin importar los "porcentajes".
+- **No pelees por céntimos.** Regatear fuerte se espera en una alfombra de 500 dírhams. Apretar a un artesano por los últimos 5 dírhams de algo hecho a mano es simplemente mezquino. Suelen ser quienes lo *hicieron*.
+- **No regatees por deporte.** Regatear con teatro algo que nunca comprarás hace perder el tiempo a un trabajador. Juega solo cuando seas comprador de verdad.
+- **Sonríe. Siempre.** La calidez consigue mejor precio que la dureza. El comprador más amable de verdad suele irse con el mejor trato *y* la mejor tarde.
+
+## Dónde es precio fijo (para que respires)
+
+No todo es negociación. Cafés, restaurantes, farmacias, supermercados y tiendas modernas tienen precios fijados: regatear ahí es el único gesto que de verdad resulta raro. El juego del zoco aplica a artesanía, textiles, souvenirs y productos de mercado sin etiqueta. Cuando hay etiqueta, paga la etiqueta.
+
+## Hazlo con un local la primera vez
+
+Los zocos deslumbran y, el primer día, desorientan de verdad, que es justo cuando pagas de más. Entrar primero con un guía que conoce el rango justo (y los buenos talleres frente a las trampas para turistas) convierte el laberinto en un placer y te enseña el ritmo para el resto del viaje.
+
+👉 **[Explora los zocos con un local en nuestro tour cultural de la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour)**: aprenderás los precios reales, los buenos puestos y el arte del regateo amistoso de alguien que lo hace cada día. Foodies: nuestro [tour de mercados de Marrakech](/es/tours/marrakech-food-market-tour) hace lo mismo con la mitad comestible de la medina.
+`,
+  },
+  {
+    slug: "merzouga-travel-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Guía de Merzouga: la puerta a las dunas de Erg Chebbi",
+    excerpt:
+      "Merzouga es el pueblecito del desierto al pie de las dunas más altas de Marruecos, el Sáhara clásico que casi todos imaginan. Así se llega, cuándo ir y cómo es de verdad una noche en la arena.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Merzouga", "Erg Chebbi", "Merzouga desert", "Sahara Morocco", "Merzouga travel guide", "desert camp Merzouga"],
+    seoTitle: "Guía de Merzouga: dunas de Erg Chebbi, campamentos y cómo visitar",
+    seoDescription:
+      "Todo lo que necesitas para Merzouga y las dunas de Erg Chebbi: cómo llegar desde Marrakech o Fez, el mejor momento, los campamentos, los paseos en camello y cómo es de verdad una noche en el Sáhara.",
+    relatedTours: ["merzouga-3day-agadir", "merzouga-stargazing-desert-tour", "sahara-3day-marrakech"],
+    faq: [
+      { q: "¿Dónde está Merzouga y por qué ir?", a: "Merzouga es un pueblo del sureste de Marruecos, justo al borde de Erg Chebbi, el mar de dunas más espectacular del país, altas y esculpidas por el viento. Es la imagen del 'Sáhara' que la mayoría tiene en mente y la razón para hacer el largo viaje al sur: paseos en camello por la arena, noches en campamentos y uno de los mejores cielos estrellados de Marruecos. Nuestro [tour del desierto de Merzouga](/es/tours/merzouga-stargazing-desert-tour) está construido en torno a esto." },
+      { q: "¿Cómo se llega a Merzouga?", a: "Merzouga está a unas 8-9 horas por carretera desde Marrakech (normalmente repartidas en dos días vía Aït Ben Haddou y las gargantas) y a unas 7-8 horas desde Fez. Casi nadie lo hace en un solo día: la propia ruta, por el Alto Atlas y los oasis, es la mitad de la experiencia. La mayoría viene en un tour de varios días que parte el trayecto con paradas, mucho más cómodo que conducirlo todo tú mismo." },
+      { q: "¿Cómo es una noche en un campamento de Merzouga?", a: "Montas en camello (o en 4x4) por las dunas a última hora de la tarde hasta un campamento de tiendas bereberes. Hay cena —normalmente un tajín— junto al fuego, tambores y música bajo un cielo sin contaminación lumínica, y un silencio que sorprende de verdad. Duermes en el campamento y despiertas antes del alba para el amanecer sobre Erg Chebbi. Los campamentos van del sencillo al genuinamente lujoso con baños privados; adaptamos el campamento a lo que quieras." },
+      { q: "¿Cuál es el mejor momento para visitar Merzouga?", a: "La primavera (marzo-mayo) y el otoño (septiembre-noviembre) son ideales: días cálidos, noches frescas, cómodo para pasear en camello. El verano (junio-agosto) es muy caluroso de día, así que la actividad se traslada al amanecer y el atardecer, y las noches siguen cálidas. Los días de invierno son agradables, pero las noches del desierto se ponen muy frías, así que lleva capas. Nada hay que evitar por completo: Merzouga funciona todo el año si planificas en torno al calor." },
+    ],
+    content: `
+## El Sáhara que imaginabas
+
+Cuando alguien cierra los ojos e imagina el Sáhara —las dunas altas, onduladas y color albaricoque, las siluetas de camellos, la quietud imposible— está imaginando **Erg Chebbi**, y el pueblo a sus pies es **Merzouga**. Es el trozo de desierto más icónico de Marruecos, y llegar a él es todo un viaje al sur por montañas, gargantas y oasis. Así se hace y qué esperar al llegar.
+
+## Dónde está Merzouga (y por qué está lejos)
+
+Merzouga se sitúa en el sureste de Marruecos, cerca de la frontera con Argelia. Está lejos de todo: unas **8-9 horas desde Marrakech** y **7-8 desde Fez**. Esa distancia no es un detalle que pasar por alto: es lo más importante que entender sobre visitar Merzouga.
+
+La buena noticia: la ruta es genuinamente espectacular, no tiempo muerto. Desde Marrakech cruzas el **puerto de Tizi n'Tichka** por el Alto Atlas, paras en la kasbah de **Aït Ben Haddou** (mira nuestra [guía de Aït Ben Haddou](/es/blog/ait-benhaddou-guide)), pasas por **Ouarzazate** y enhebras las gargantas del **Todra** o el **Dades** antes de que los oasis den paso al desierto abierto. La mayoría, con razón, lo hace en dos días como parte de un tour en vez de una conducción agotadora.
+
+## Cómo llegar
+
+- **En un tour del desierto de varios días (recomendado).** El viaje se parte con las paradas adecuadas, no conduces y llegas relajado. Nuestro [tour de 3 días por el Sáhara desde Marrakech](/es/tours/sahara-3day-marrakech) y el [tour de Merzouga desde Agadir](/es/tours/merzouga-3day-agadir) están hechos para esto.
+- **En coche propio.** Posible si te manejas en las carreteras marroquíes y aceptas dos días largos por trayecto. Aun así querrás un guía local para las dunas.
+- **Desde Fez.** Una ruta alternativa común, a menudo combinada con un viaje open-jaw (entrada por Marrakech, salida por Fez) para no rehacer el camino.
+
+## Una noche en las dunas
+
+Aquí está la parte que se queda contigo. A última hora de la tarde dejas el vehículo y entras en Erg Chebbi —en **camello** al modo clásico o en **4x4** si prefieres— mientras el sol bajo tiñe la arena de dorado pálido a naranja profundo. Entre las dunas hay un **campamento bereber**: tiendas, alfombras, un fuego.
+
+La cena suele ser un tajín cocinado en el campamento; después vienen tambores y música, y luego eso para lo que nadie está del todo listo: levantas la vista y, sin contaminación lumínica, el cielo es *absurdo*. Es uno de los mejores **cielos estrellados** de Marruecos, de ahí nuestro [tour de observación de estrellas en Merzouga](/es/tours/merzouga-stargazing-desert-tour). Duermes en el campamento y despiertas a oscuras para el **amanecer sobre las dunas**, la foto por la que hiciste todo este camino.
+
+Los campamentos van del sencillo y tradicional al genuinamente lujoso (camas de verdad, baños privados, todo). Dinos el ambiente que quieres y lo adaptamos.
+
+## Cuándo ir
+
+- **Primavera (mar-may) y otoño (sep-nov):** el punto ideal, días cálidos, noches frescas, perfecto para el camello.
+- **Verano (jun-ago):** caluroso a mediodía, así que la actividad se mueve al alba y el ocaso; las noches siguen cálidas y agradables.
+- **Invierno (dic-feb):** días claros preciosos, pero las noches del desierto se ponen muy frías; lleva capas y espera un amanecer helado.
+
+Para el desglose completo, mira [el mejor momento para visitar Marruecos](/es/blog/best-time-to-visit-morocco).
+
+## Merzouga frente a los otros desiertos
+
+Merzouga (Erg Chebbi) es el Sáhara de dunas altas de postal y las 'grandes dunas' más fáciles de alcanzar. Si lo comparas con el más salvaje y difícil **Erg Chegaga** o el más cercano y pequeño **Zagora**, los hemos comparado con honestidad en [Merzouga vs Zagora](/es/blog/merzouga-vs-zagora-which-desert-tour) y [Erg Chebbi vs Erg Chegaga](/es/blog/erg-chebbi-vs-erg-chegaga). Versión corta: Merzouga es la mejor opción global para un primer viaje al Sáhara.
+
+## Qué llevar
+
+Capas (las noches del desierto viran al frío), un pañuelo para el sol y la arena —idealmente un [tagelmust teñido con nila](/es/blog/nila-blue-dye-morocco-guide) auténtico—, gafas de sol, crema solar, un frontal y algo de efectivo para el pueblo. Nuestra [lista completa para el desierto](/es/blog/what-to-pack-desert-tour-morocco) cubre el resto.
+
+## Ve a verlo
+
+Merzouga se gana su larga ruta. Una noche en Erg Chebbi es, para muchos viajeros, lo mejor que hacen en Marruecos.
+
+👉 **[Reserva el tour del desierto de Merzouga](/es/tours/merzouga-stargazing-desert-tour)**: paseo en camello, un campamento bajo las estrellas, el amanecer sobre las dunas, con guías bereberes locales que conocen la arena. ¿Vienes de la costa? El [tour de Merzouga desde Agadir](/es/tours/merzouga-3day-agadir) empieza en tu lado.
+`,
+  },
+  {
+    slug: "zagora-desert-guide",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Guía del desierto de Zagora: el Sáhara exprés desde Marrakech",
+    excerpt:
+      "¿Poco tiempo pero aún con ganas de desierto? Zagora es el trozo de Sáhara más cercano a Marrakech, una escapada a las dunas de dos días cuando no puedes dedicar tres. Esto es honestamente lo que obtienes, y lo que no.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Zagora", "Zagora desert", "2 day desert tour", "Sahara from Marrakech", "Draa Valley", "quick desert tour Morocco"],
+    seoTitle: "Guía del desierto de Zagora: el tour del Sáhara de 2 días desde Marrakech",
+    seoDescription:
+      "¿Merece la pena el desierto de Zagora? Una guía honesta del viaje al Sáhara más rápido de Marruecos desde Marrakech: la ruta, las dunas más pequeñas, una noche de campamento y cómo se compara con Merzouga.",
+    relatedTours: ["zagora-2day-marrakech", "zagora-2day-agadir", "sahara-2day-agadir"],
+    faq: [
+      { q: "¿Merece la pena el desierto de Zagora?", a: "Si solo tienes dos días, sí: Zagora te da una auténtica noche en el Sáhara (paseo en camello, un campamento bajo las estrellas, los palmerales del valle del Draa) sin el largo trayecto a Merzouga. Sé claro con el compromiso: las dunas de Zagora son más pequeñas y menos espectaculares que las de Erg Chebbi. Para una primera experiencia del desierto con agenda apretada es una gran elección; para las 'dunas gigantes' de postal, quieres Merzouga." },
+      { q: "¿A qué distancia está Zagora de Marrakech?", a: "Zagora está a unas 6-7 horas por carretera desde Marrakech, cruzando el Alto Atlas por el puerto de Tizi n'Tichka y bajando al valle del Draa, aproximadamente la mitad de distancia que Merzouga, por eso cabe en un tour de 2 días cuando Merzouga necesita tres. La ruta es panorámica por sí misma, pasando Aït Ben Haddou y Ouarzazate." },
+      { q: "¿Zagora o Merzouga: qué desierto elegir?", a: "Se reduce a tiempo frente a dunas. Elige Zagora si solo tienes dos días y quieres una prueba de desierto real pero más corta. Elige Merzouga (3 días) si quieres las dunas altas y clásicas de Erg Chebbi y no te importa la conducción extra. Lo desglosamos entero en nuestra comparación Merzouga vs Zagora, pero la respuesta en una línea es: Zagora por rapidez, Merzouga por el paisaje." },
+      { q: "¿Qué se hace en un tour del desierto de Zagora?", a: "Conduces de Marrakech por el Atlas y bajas al valle del Draa —el río más largo de Marruecos y una cinta de oasis de palmeras— para llegar a Zagora por la tarde. Luego un paseo en camello hasta un campamento para cena, música y una noche bajo las estrellas, con el amanecer sobre la arena antes del regreso. Es la misma forma que los tours más largos, comprimida en dos días." },
+    ],
+    content: `
+## El Sáhara cuando solo tienes un fin de semana
+
+No todos tienen tres o cuatro días para dar al desierto. Si Marrakech es tu base y el reloj aprieta, **Zagora** es la respuesta: la experiencia sahariana real más cercana a la ciudad, factible como **viaje de 2 días** cuando Merzouga exige tres. Esta es la guía honesta: lo que Zagora te da, y lo que no, para que elijas el desierto adecuado para tu viaje.
+
+## A qué distancia, y la ruta
+
+Zagora está a unas **6-7 horas** al sur de Marrakech, aproximadamente la mitad de distancia que Merzouga, que es toda la razón por la que cabe en un tour de dos días. Cruzas el Alto Atlas por el espectacular **puerto de Tizi n'Tichka**, pasas la famosa kasbah de [Aït Ben Haddou](/es/blog/ait-benhaddou-guide) y el pueblo de cine de **Ouarzazate**, y bajas al **valle del Draa** —el río más largo de Marruecos y un hilo verde de oasis de palmeras datileras y viejos ksur—. La ruta es de verdad preciosa, no solo un medio para llegar.
+
+## Cómo es un viaje a Zagora
+
+El ritmo refleja los grandes tours del desierto, comprimido:
+
+- **Día 1:** Marrakech por el Atlas, paradas en Aït Ben Haddou / Ouarzazate, bajada por los palmerales del Draa hasta Zagora. A última hora de la tarde, paseo en camello hasta un **campamento**: cena, tambores, una noche bajo un cielo enorme y oscuro.
+- **Día 2:** **Amanecer** sobre las dunas, desayuno en el campamento y luego el regreso a Marrakech, llegada por la noche.
+
+Nuestro [tour de 2 días a Zagora desde Marrakech](/es/tours/zagora-2day-marrakech) hace exactamente esto, y también hay una [opción de Zagora desde Agadir](/es/tours/zagora-2day-agadir).
+
+## El compromiso honesto
+
+Esta es la verdad que otras páginas evitan: **las dunas de Zagora son más pequeñas** que las montañas de arena de Erg Chebbi en Merzouga. Si tu imagen mental del Sáhara son las dunas albaricoque gigantes, eso es Merzouga, y ningún entusiasmo hará que la arena más suave de Zagora la iguale.
+
+Pero esa es la comparación equivocada para muchos viajeros. La pregunta correcta es *"¿quiero una auténtica noche en el desierto y solo tengo dos días?"*, y si la respuesta es sí, Zagora entrega un paseo en camello real, un campamento real, un cielo estrellado real y el precioso valle del Draa de camino, todo sin el día extra en el coche.
+
+Exponemos la elección entera en [Merzouga vs Zagora: qué tour del desierto](/es/blog/merzouga-vs-zagora-which-desert-tour) y [Agafay vs Merzouga vs Zagora](/es/blog/agafay-vs-merzouga-vs-zagora). Versión corta: **Zagora por rapidez, Merzouga por el paisaje, Agafay para una noche cerca de Marrakech.**
+
+## Para quién es Zagora
+
+- Para principiantes en un **viaje corto** que aun así quieren una noche en el desierto.
+- Para viajeros a quienes importa más la **experiencia** (campamento, estrellas, camello, valle de palmeras) que el máximo espectáculo de dunas.
+- Para quien lo combina con un itinerario ajetreado en Marrakech y no puede liberar un tercer día.
+
+Si nada de eso eres tú y quieres las grandes dunas a toda costa, salta a nuestra [guía de Merzouga](/es/blog/merzouga-travel-guide).
+
+## Qué llevar
+
+Capas para la noche fría del desierto, un pañuelo para el sol, gafas de sol, crema solar, un frontal y algo de efectivo. La [lista completa para el desierto](/es/blog/what-to-pack-desert-tour-morocco) te cubre.
+
+## Consigue tu noche en el desierto
+
+Dos días, una noche inolvidable en la arena, y estás de vuelta en Marrakech antes incluso de haberla echado de menos.
+
+👉 **[Reserva el tour del desierto de 2 días a Zagora desde Marrakech](/es/tours/zagora-2day-marrakech)**: paseo en camello, una noche en campamento bereber y los oasis de palmeras del valle del Draa, con guías locales que conocen la ruta rápida a la arena.
+`,
+  },
+  {
+    slug: "ouarzazate-guide-ouallywood",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Guía de Ouarzazate: 'Ouallywood', kasbahs y la puerta del desierto",
+    excerpt:
+      "Ouarzazate es donde Hollywood viene a rodar el mundo antiguo, y la puerta por la que pasa cada tour del desierto. Esto es qué ver, por qué la llaman Ouallywood y cómo encaja en tu viaje al Sáhara.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Ouarzazate", "Ouallywood", "Atlas Studios", "Taourirt Kasbah", "Morocco film locations", "door of the desert"],
+    seoTitle: "Guía de Ouarzazate: estudios de cine Ouallywood, kasbahs y qué ver",
+    seoDescription:
+      "Una guía de Ouarzazate, la 'puerta del desierto' de Marruecos: los estudios de cine del Atlas (Ouallywood), la kasbah de Taourirt, Aït Ben Haddou cercano y cómo encaja en un tour del Sáhara desde Marrakech.",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-to-fes-3day", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "¿Por qué llaman a Ouarzazate Ouallywood?", a: "Ouarzazate lleva décadas siendo una de las localizaciones de cine más activas del mundo: sus enormes Atlas Studios y las kasbahs y desiertos de alrededor han hecho de Egipto antiguo, Roma, Jerusalén y más en películas como Lawrence de Arabia, Gladiator, El reino de los cielos, La momia y la serie Juego de Tronos. El apodo 'Ouallywood' es un juego con Hollywood. Puedes visitar los estudios y ver decorados en pie de grandes producciones." },
+      { q: "¿Qué hay que ver en Ouarzazate?", a: "Lo principal son los Atlas Studios (y los más pequeños CLA Studios) por la historia del cine, la restaurada kasbah de Taourirt en el pueblo y, muy cerca, la espectacular kasbah Patrimonio de la Humanidad de Aït Ben Haddou, que es la verdadera estrella de la zona. Ouarzazate en sí es más una base cómoda y una puerta que una ciudad densa para visitar; la mayoría pasa una noche en vez de varios días." },
+      { q: "¿Merece la pena visitar Ouarzazate?", a: "Como destino en sí, es una agradable parada de una noche más que una ciudad donde detenerse mucho. Su valor real es ser la 'puerta del desierto': casi todo tour Marrakech-Sáhara pasa por ella, y es la base perfecta para Aït Ben Haddou y los estudios de cine. Trátala como una parada gratificante de camino a las dunas en vez de un viaje aparte y acertarás." },
+      { q: "¿A qué distancia está Ouarzazate de Marrakech?", a: "A unas 4 horas por carretera desde Marrakech, por el Alto Atlas vía el puerto de Tizi n'Tichka, una de las grandes rutas de montaña de Marruecos. Esa posición, justo pasadas las montañas por el lado del desierto, es precisamente por lo que se convirtió en el punto de lanzamiento tanto de equipos de rodaje como de tours del desierto que siguen al sur hacia Zagora y Merzouga." },
+    ],
+    content: `
+## La puerta del desierto
+
+Cruza el Alto Atlas al sur desde Marrakech y el verde cae hacia el ocre y la piedra. El primer pueblo del lado del desierto es **Ouarzazate**, apodada la "puerta del desierto" y, por improbable que parezca, uno de los lugares más filmados de la Tierra. Si haces casi cualquier tour del Sáhara desde Marrakech, pasarás por ella, así que vale la pena saber qué estás mirando.
+
+## Por qué la llaman "Ouallywood"
+
+Ouarzazate ha sido la doble de Hollywood para el mundo antiguo durante más de medio siglo. Los enormes **Atlas Studios** en su borde, más las kasbahs y el desierto de alrededor, han hecho de Egipto antiguo, Roma, Jerusalén, el Tíbet y más. Los créditos son un auténtico palmarés: *Lawrence de Arabia*, *El hombre que pudo reinar*, *La última tentación de Cristo*, *Gladiator*, *El reino de los cielos*, *La momia*, *Babel* y *Juego de Tronos* —Daenerys recorrió la Bahía de los Esclavos aquí—.
+
+De ahí "**Ouallywood**". Puedes visitar los estudios y pasear entre decorados en pie: calles romanas, templos egipcios, estatuas faraónicas cociéndose al sol. Es alegre y evidentemente falso de cerca, y más divertido por ello. Para la historia más amplia de Marruecos en el cine, mira nuestra guía de [localizaciones de cine Patrimonio de la Humanidad de Marruecos](/es/blog/morocco-unesco-sites-film-locations).
+
+## Qué ver de verdad
+
+- **Atlas Studios** (y los más pequeños CLA Studios): los decorados y atrezo de cine, la razón por la que la mayoría para.
+- **Kasbah de Taourirt**: una bonita kasbah de tierra restaurada en el pueblo, antaño sede de la poderosa familia Glaoui; una de verdad, no un decorado.
+- **Aït Ben Haddou**: el plato fuerte, a unos 30 minutos: el pueblo fortificado Patrimonio de la Humanidad que es en sí una localización de cine constante y uno de los lugares más bonitos de Marruecos. Todos los detalles en nuestra [guía de Aït Ben Haddou](/es/blog/ait-benhaddou-guide).
+- **Oasis de Fint**: un rincón verde menos conocido cerca, un bonito desvío corto si tienes tiempo.
+
+## Cómo encaja en tu viaje
+
+Sé realista: Ouarzazate es una **gran parada de una noche y una puerta, no una ciudad de varios días**. Su magia es la ubicación. Está a unas **4 horas de Marrakech** por el precioso **puerto de Tizi n'Tichka**, justo donde las montañas te entregan al desierto, que es precisamente por lo que equipos de rodaje y tours del desierto la usan como plataforma de lanzamiento.
+
+En un tour típico del Sáhara es la parada natural de la primera noche o un alto de comida-y-estudios de camino a las dunas de **Zagora** o **Merzouga**. Nuestro [tour de 3 días por el Sáhara desde Marrakech](/es/tours/sahara-3day-marrakech) y la [ruta del desierto de Marrakech a Fez](/es/tours/marrakech-to-fes-3day) pasan las dos por ella, así que obtienes Ouarzazate y Aït Ben Haddou tejidos en un viaje mayor en vez de como excursión aparte.
+
+## El veredicto
+
+No construyas unas vacaciones en torno a Ouarzazate: constrúyelas en torno al desierto y deja que Ouarzazate sea la puerta con carácter por la que pasas, cámara en mano, de camino. Entre los decorados de cine y las kasbahs, es una de las paradas más puramente *divertidas* de la ruta al sur.
+
+👉 **[Ve Ouarzazate y Aït Ben Haddou en un tour del Sáhara](/es/tours/sahara-3day-marrakech)**: los estudios de cine, las grandes kasbahs y las dunas más allá, todo en un viaje con guías que conocen las historias tras los decorados.
+`,
+  },
 ];

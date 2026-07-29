@@ -94,7 +94,8 @@ export default async function CategoryPage({ params }: CategoryParams) {
           <p className="text-ink-soft text-center py-20">{dict.categories.noToursYet}</p>
         ) : (
           <>
-            <p className="text-ink-soft text-sm mb-8">{toursAvailable}</p>
+            {/* h2 keeps the h1 → h3 card sequence from skipping a level. */}
+            <h2 className="text-ink-soft text-sm font-normal mb-8">{toursAvailable}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {tours.map((tour) => <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />)}
             </div>

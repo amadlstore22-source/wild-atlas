@@ -168,7 +168,8 @@ export default async function GuideProfilePage({ params }: GuideParams) {
             {/* Tours this guide leads */}
             {guidedTours.length > 0 && (
               <div>
-                <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.toursLedBy.replace("{name}", guide.name.split(" ")[0])}</p>
+                {/* h2 keeps the h1 → h3 card sequence from skipping a level. */}
+                <h2 className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.toursLedBy.replace("{name}", guide.name.split(" ")[0])}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {guidedTours.map((tour) => (
                     <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />

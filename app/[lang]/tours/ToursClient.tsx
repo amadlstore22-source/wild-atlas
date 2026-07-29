@@ -239,9 +239,14 @@ export default function ToursClient({
           </div>
         ) : (
           <>
-            <p className="text-ink-muted text-sm mb-6">{toursFoundText}</p>
+            {/* h2, not p: the hero is h1 and the cards are h3, so without a
+                level-2 here the heading order skips (Lighthouse a11y). The
+                results count is the honest label for this region. */}
+            <h2 className="text-ink-muted text-sm font-normal mb-6">{toursFoundText}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filtered.map((tour) => <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />)}
+              {filtered.map((tour, i) => (
+                <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} priority={i < 3} />
+              ))}
             </div>
           </>
         )}

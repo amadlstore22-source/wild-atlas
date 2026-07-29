@@ -42,9 +42,12 @@ interface Props {
   dict?: Dictionary;
   featured?: boolean;
   delay?: number;
+  /** Set on the first cards in a grid so the LCP candidate is not lazy-loaded.
+   *  On mobile the hero is only 52vh, so card one is in the viewport at load. */
+  priority?: boolean;
 }
 
-export default function TourCard({ tour, lang = "en", dict, featured = false, delay = 0 }: Props) {
+export default function TourCard({ tour, lang = "en", dict, featured = false, delay = 0, priority = false }: Props) {
   const reduce = useReducedMotion();
   const { format } = useCurrency();
   const fromLabel = dict?.common.from ?? "From";
@@ -75,6 +78,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             src={tour.heroImage}
             alt={tour.title}
             fill
+            priority={priority}
             sizes="(max-width: 1024px) 100vw, 40vw"
             className="object-cover opacity-90 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05] motion-reduce:transition-none"
           />
@@ -133,7 +137,11 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           src={tour.heroImage}
           alt={tour.title}
           fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={priority}
+          // The grid is capped at max-w-7xl (1280px) over 3 columns, so a card
+          // never exceeds ~400px however wide the viewport gets. Saying "33vw"
+          // made the browser fetch 640px crops into a 389px slot.
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
           className="object-cover transition-transform duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06] motion-reduce:transition-none"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/55 via-transparent to-transparent" />

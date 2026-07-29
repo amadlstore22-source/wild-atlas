@@ -4408,6 +4408,400 @@ This is the classic loop, but the best version is the one shaped around you — 
 👉 **[See our multi-day tours](/en/tours/marrakech-to-fes-3day)** or message us with your dates and we'll build the full 10 days around your pace and interests.
 `,
   },
+  {
+    slug: "nila-blue-dye-morocco-guide",
+    author: MET_TEAM,
+    title: "Nila: Morocco's Famous Blue Dye (and How Not to Stain Yourself)",
+    excerpt:
+      "The deep indigo of the 'blue men' of the desert comes from nila. Here's what it is, why Tuareg robes rub off on your skin, and how to wear it without turning your fingers blue for a week.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["nila", "indigo Morocco", "blue men of the desert", "Tuareg blue", "Moroccan blue dye", "Sahara culture"],
+    seoTitle: "Nila: Morocco's Blue Dye Explained (and How Not to Stain Yourself)",
+    seoDescription:
+      "What is nila, the indigo dye behind Morocco's 'blue men of the desert'? Why it rubs off on your skin, whether it washes out, and how to wear a blue tagelmust without staining.",
+    relatedTours: ["merzouga-stargazing-desert-tour", "sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
+    faq: [
+      { q: "What is nila in Morocco?", a: "Nila is the deep indigo dye traditionally used to colour the robes and headscarves (tagelmust) of the Tuareg and other Saharan peoples — the reason they're nicknamed the 'blue men of the desert.' Real nila is a natural indigo, historically so precious it was traded like currency across the Sahara. You'll see it sold as a hard, dark block or powder in the souks of the south and in desert towns like Merzouga and Rissani." },
+      { q: "Why does the blue dye rub off on your skin?", a: "Traditional nila isn't chemically fixed to the fabric the way industrial dyes are — it's rubbed and burnished into the cloth, partly on purpose. In the desert the indigo transfers onto the skin and was believed to protect against the sun and keep the skin soft. So a genuine nila-dyed scarf will absolutely leave a blue tint on your neck and hands, especially when you sweat. That's a feature, not a defect — it's how you know it's the real thing." },
+      { q: "Does nila blue dye wash off?", a: "Off your skin, yes — it fades in a couple of days and comes off faster with a good scrub, so don't panic if your fingers go blue after wrapping a turban. Out of pale clothing, less reliably: treat a nila scarf like a new pair of dark jeans and keep it away from your white shirt. Wash it separately in cold water the first few times." },
+      { q: "Where can I buy real nila in Morocco?", a: "The desert south is the place — Rissani's market near Merzouga, and stalls in Zagora and Ouarzazate, sell nila blocks and ready-dyed tagelmust scarves. In Marrakech you'll find it in the dye souk, though quality and authenticity vary more there. On our desert tours the guides know which stalls sell the genuine indigo rather than a synthetic blue passed off as nila." },
+    ],
+    content: `
+## The Blue That Comes Off on You
+
+Spend a night in the Moroccan Sahara and you'll meet it sooner or later: the deep, almost violet blue of a Tuareg tagelmust — the long headscarf-turban of the desert. Wrap one on, and within an hour your neck and fingertips have quietly turned blue too. That's **nila**, and the staining isn't a mistake. It's the whole point.
+
+Here's what nila actually is, why the "blue men of the desert" got their name, and — the practical bit — how to enjoy wearing it without spending the rest of your trip looking like you lost a fight with a fountain pen.
+
+## What Is Nila?
+
+Nila is natural **indigo dye**. For centuries it was one of the most valuable goods crossing the Sahara — traded in hard, dark blocks alongside salt and gold, and prized for the extraordinary depth of blue it gave to cloth. The Tuareg and other Saharan peoples used it to dye the robes and headscarves that protect against sun, wind and blowing sand.
+
+Because the pigment is burnished into the fabric rather than chemically bonded, it has a signature habit: it migrates. Onto skin, onto other cloth, onto anything it rubs against. In the desert that was considered a benefit — the indigo was thought to shield and soften the skin, which is how the wearers earned the nickname **"the blue men of the desert."** Their skin literally took on a bluish sheen from a lifetime in indigo robes.
+
+## Why It Stains (and Why That's Good)
+
+Modern dyes are fixed so they never rub off. Traditional nila is the opposite — the transfer is part of its identity. So a simple test in the souk: if a "nila" scarf stays perfectly clean against your damp palm, it's probably a synthetic blue. If it leaves a faint indigo ghost on your skin, that's the real thing doing exactly what it has always done.
+
+Which means the classic tourist moment — wrapping a turban at a desert camp, then noticing your hands have gone smurf-blue — is a rite of passage, not a disaster.
+
+## How to Wear Nila Without Turning Blue
+
+You don't have to choose between the authentic scarf and clean hands. A few tricks the desert guides use:
+
+- **Let a new scarf "cure."** Air it out and give it a gentle cold rinse before wearing — the loosest surface pigment comes off first.
+- **Dry skin transfers less.** Most of the blue moves when you're sweating, so a scarf worn on a cool evening stains far less than one wrapped at midday.
+- **Wrap over a thin cotton layer** at the neck if you really want to stay clean — a buff or a light collar takes the contact instead of your skin.
+- **Don't panic about your hands.** Whatever transfers washes off your skin in a day or two; a good soapy scrub speeds it up. It is dye, not a tattoo.
+- **Protect your pale clothes, not your skin.** The one thing genuinely worth guarding is a white shirt or a light bag. Treat the scarf like new dark denim.
+
+## Buying the Real Thing
+
+The genuine article lives in the south. The **Rissani market** near Merzouga is famous for it; you'll also find nila blocks and ready-dyed tagelmust in **Zagora** and **Ouarzazate**. In Marrakech's dye souk it's sold too, though there the odds of getting a synthetic blue go up.
+
+If you're heading to the dunes with us, just ask your guide — they know which stalls sell true indigo and will happily show you how to wind a tagelmust properly (and how to keep most of the blue on the cloth). It's one of those small, genuine bits of desert culture that a good guide turns from a souvenir into a story.
+
+## See the Blue Where It Belongs
+
+Nila makes the most sense out in the sand, wrapped against a desert wind at sunset — not folded in a suitcase back home.
+
+👉 **[Spend a night in the Sahara on our Merzouga desert tour](/en/tours/merzouga-stargazing-desert-tour)** — camel trek, a camp under the stars, and guides who'll teach you to wear the blue like a local. Prefer the wilder dunes? The [3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech) takes you deep into Erg Chebbi.
+`,
+  },
+  {
+    slug: "moroccan-mint-tea-ceremony-guide",
+    author: MET_TEAM,
+    title: "Moroccan Mint Tea: The Ceremony, the High Pour & Why You Can't Refuse",
+    excerpt:
+      "It's called 'Berber whisky' and it's poured from a great height for a reason. Here's how Morocco's mint tea ritual really works — and why saying no to a third glass is basically a diplomatic incident.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Moroccan mint tea", "Berber whisky", "atay", "Moroccan tea ceremony", "Morocco culture", "Moroccan hospitality"],
+    seoTitle: "Moroccan Mint Tea: The Ceremony, the High Pour & Etiquette",
+    seoDescription:
+      "Why Moroccan mint tea is poured from a height, what 'the three glasses' means, and the etiquette of accepting (and surviving) it. A fun guide to Morocco's national ritual.",
+    relatedTours: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike", "marrakech-food-market-tour"],
+    faq: [
+      { q: "Why is Moroccan mint tea poured from so high?", a: "The dramatic high pour isn't just for show — it aerates the tea, builds a light foam (the 'crown') on top of each glass, and cools it slightly on the way down. A good pourer will lift the pot higher and higher without spilling a drop, and yes, part of it is absolutely theatre. A little foam on your glass is considered the mark of a well-poured tea." },
+      { q: "What do the three glasses of Moroccan tea mean?", a: "There's a famous Maghrebi saying: the first glass is 'gentle as life,' the second 'strong as love,' the third 'bitter as death' — because the same leaves are re-steeped three times, growing stronger and more bitter with each round. Being offered all three is a sign of proper hospitality; drinking at least one is basic good manners." },
+      { q: "Is it rude to refuse Moroccan mint tea?", a: "Refusing outright can come across as cool, because tea is the core gesture of Moroccan hospitality — offering it is how a host, a shopkeeper, or a Berber family says 'you're welcome here.' You don't have to drink gallons, but accepting a glass, even if you sip slowly, is the polite move. 'Just a little' is always an acceptable answer; a flat no is the one to avoid." },
+      { q: "What's actually in Moroccan mint tea?", a: "Green tea (usually Chinese gunpowder tea), a generous bunch of fresh spearmint, and a genuinely alarming amount of sugar — traditionally a lot. In winter or in the mountains you'll often find it boosted with wormwood (chiba), sage, or other herbs. Ask for it 'without sugar' or 'a little sugar' if the standard version is too sweet for you." },
+    ],
+    content: `
+## "Berber Whisky"
+
+Order a mint tea in the High Atlas and someone will grin and call it *Berber whisky* — Morocco is largely dry, and this sweet, scalding, mint-heavy green tea is the drink that fuels everything: business deals, family visits, marriage negotiations, and the simple act of welcoming a stranger. Learn how the ritual works and you've unlocked one of the warmest parts of Moroccan culture. Get it wrong and you'll merely be offered more tea, so the stakes are pleasantly low.
+
+## The High Pour
+
+The first thing you'll notice is the pour. The server lifts the ornate pot higher and higher above the glass, sending a thin stream of tea arcing down from what looks like an unreasonable height — and somehow lands every drop.
+
+There's method in the drama. The long fall **aerates** the tea, cools it a touch, and builds a delicate foam — the "crown" — on top of each glass. A little froth is the sign of a tea poured with care. It's also, let's be honest, a bit of a show, and a good pourer knows it. Watching a Berber host pour for a full table without a single spill is genuinely mesmerising.
+
+## The Three Glasses
+
+There's a saying you'll hear across Morocco and the wider Maghreb:
+
+> *The first glass is gentle as life, the second is strong as love, the third is bitter as death.*
+
+It's not poetry for its own sake — it's chemistry. The same leaves are steeped three times, and each round pulls out more tannin, so the tea grows stronger and more bitter as you go. Being walked through all three is the full hospitality experience. You are not obliged to reach glass three, but you should understand that being offered it is a compliment.
+
+## Why You (Sort Of) Can't Say No
+
+Here's the cultural heart of it: offering tea is how Moroccans say *you are welcome*. A shopkeeper who brings you tea, a family who sits you down in their home, a guide's cousin who appears with a tray in a mountain village — they're extending real hospitality, and a flat refusal reads as a small rejection of that warmth.
+
+You don't have to drink a litre. **"Just a little" is always fine.** Sip slowly, accept one glass, smile — that's all it takes. The one move to avoid is the brisk Western "no thanks," which can land colder than you intend. When in doubt: take the glass.
+
+(One honest warning: the traditional recipe contains a heroic amount of sugar. If you're sweet-averse, learn the phrase for "a little sugar" — *shwiya d skkar* — early in your trip.)
+
+## Where You'll Meet It
+
+Everywhere. But the tea is at its best where it means the most: poured by a Berber family in an Atlas village after a day's walking, or handed to you at a desert camp as the sun drops. On our [Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour) you'll be offered it the traditional way in the souks, and on a day up the [Ourika Valley](/en/tours/ourika-valley-day-hike) it comes with a view and, usually, a plate of warm bread and argan oil.
+
+## Come for the Tea, Stay for the Story
+
+The tea is never really about the tea. It's the doorway into a conversation, a home, a friendship — the single most Moroccan gesture there is.
+
+👉 **[Experience real Moroccan hospitality on our cultural tours](/en/tours/marrakech-medina-cultural-tour)** — from the souks of Marrakech to a glass poured in a Berber home in the mountains, with guides who'll teach you the etiquette (and the high pour, if you're brave).
+`,
+  },
+  {
+    slug: "haggling-in-moroccan-souks-guide",
+    author: MET_TEAM,
+    title: "How to Haggle in the Moroccan Souks Without Losing Your Mind",
+    excerpt:
+      "The first price is not the price. Here's the honest, slightly funny guide to bargaining in Morocco's markets — the tea trick, the walk-away, and how to get a fair deal without turning it into a battle.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "tips",
+    region: "imperial-cities",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["haggling Morocco", "Moroccan souks", "bargaining Marrakech", "how to haggle Morocco", "Marrakech shopping", "souk tips"],
+    seoTitle: "How to Haggle in the Moroccan Souks (Honest, Funny Guide)",
+    seoDescription:
+      "How bargaining really works in Morocco's souks: the first-price rule, the tea trick, the walk-away, and how to get a fair deal without stress. A practical, light-hearted guide.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "marrakech-imperial-cities-5day"],
+    faq: [
+      { q: "Do you have to haggle in Morocco?", a: "In the souks (the traditional markets), yes — the first price quoted is a starting point, not the real price, and paying it without a word is expected only from someone who doesn't know the game. In fixed-price shops, supermarkets, pharmacies, and most cafes and restaurants, no — prices there are set. The rule of thumb: if there's no price tag and it's a craft, textile, or souvenir, it's negotiable." },
+      { q: "How much should you offer when haggling in Morocco?", a: "A common starting point is to counter at roughly 40-50% of the first asking price and settle somewhere in the middle, but there's no fixed formula — it depends on the item, the season, and how many other stalls sell the same thing. The real goal isn't to 'win'; it's to reach a price you're happy to pay and the seller is happy to accept. If you'd be pleased with the deal, it's a good deal, whatever the 'percentage.'" },
+      { q: "Is haggling in Morocco rude or aggressive?", a: "Not at all — done right, it's friendly, even fun. It's a social exchange, not a fight: expect jokes, mock outrage, glasses of tea, and theatrics on both sides. The rude version is haggling hard for something you have no intention of buying, or grinding a craftsperson down to insulting margins over a few dirhams. Keep it warm and good-humoured and you'll both enjoy it." },
+      { q: "What's the 'walk away' trick in the souk?", a: "Politely starting to leave is the single most effective bargaining move — if the seller calls a lower price as you go, that price was real; if they let you walk, you were probably already near their floor. But only walk away if you're genuinely willing to not buy it. Fake walk-aways for the same item at the same stall don't work twice, and using it as a bluff you don't mean just wastes everyone's time." },
+    ],
+    content: `
+## Rule One: The First Price Is Never the Price
+
+Step into the souks of Marrakech or Fes and you enter a game everyone is playing except, at first, you. A shopkeeper names a price for that lamp or rug or leather bag, and it sounds oddly high — because it is. The opening number is the first line of a conversation, not the cost. Bargaining is expected, it's normal, and — this is the part most visitors miss — it's supposed to be **fun**.
+
+Here's how to play it well, get a fair price, and actually enjoy the theatre instead of dreading it.
+
+## The Basic Choreography
+
+It goes roughly like this:
+
+1. You admire something. You ask the price. A number lands — cheerfully, confidently, and too high.
+2. You look pained. You counter, low but not insultingly so (people often start around 40-50% of the ask).
+3. Mock outrage. "That's below my cost!" A hand on the heart. Possibly the phrase "for you, my friend, special price."
+4. You go up a little; they come down a little. This repeats, ideally with jokes.
+5. You land on a number you both like — or you don't, and you part on good terms.
+
+The whole thing should feel like banter, not warfare. If it stops being friendly, something has gone wrong.
+
+## The Tea Trick
+
+If you're offered a glass of mint tea while browsing, know what's happening: it's genuine hospitality **and** a gentle social contract. Accepting doesn't obligate you to buy — but it does slow everything down, warm up the exchange, and make the whole negotiation more relaxed and human. Take the tea. Enjoy it. You'll bargain better relaxed than rushed, and the seller knows that too. (Our [mint tea guide](/en/blog/moroccan-mint-tea-ceremony-guide) explains why you shouldn't refuse it anyway.)
+
+## The Walk-Away (Use With Honour)
+
+The most powerful move in the souk is the polite exit. Thank them, smile, and start to drift toward the next stall. One of two things happens:
+
+- A better price flies after you — in which case, that price was always real.
+- They let you go — in which case you were probably already near the bottom, and you've learned the true floor.
+
+The catch: **only walk away if you'd actually be fine not buying it.** The walk-away is not a bluff you can run twice at the same stall. Mean it, or don't do it.
+
+## Keeping It Fair (and Kind)
+
+A few honest principles that'll make you both a better haggler and a better guest:
+
+- **Decide your price first.** Know what the item is worth *to you* before the number-tennis starts. If you land there, you've won — regardless of "percentages."
+- **Don't grind over pennies.** Haggling hard is expected on a 500-dirham rug. Squeezing a craftsperson over the last 5 dirhams on a handmade thing is just mean. These are often the people who *made* it.
+- **Don't haggle for sport.** Bargaining theatrically for something you'll never buy wastes a working person's time. Play the game only when you're a real buyer.
+- **Smile. Always.** Warmth gets you a better price than toughness. The friendliest shopper genuinely does tend to walk away with the best deal *and* the best afternoon.
+
+## Where It's Fixed Price (So You Can Relax)
+
+Not everything is a negotiation. Cafes, restaurants, pharmacies, supermarkets, and modern shops have set prices — trying to bargain there is the one move that actually reads as odd. The souk game applies to crafts, textiles, souvenirs, and market goods without a price tag. When there's a tag, pay the tag.
+
+## Do It With a Local the First Time
+
+The souks are dazzling and, on day one, genuinely disorienting — which is exactly when you overpay. Going in first with a guide who knows the fair range (and the good workshops from the tourist traps) turns the maze into a pleasure and teaches you the rhythm for the rest of your trip.
+
+👉 **[Explore the souks with a local on our Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour)** — you'll learn the real prices, the good stalls, and the art of the friendly haggle from someone who does it every day. Foodies: our [Marrakech food market tour](/en/tours/marrakech-food-market-tour) does the same for the edible half of the medina.
+`,
+  },
+  {
+    slug: "merzouga-travel-guide",
+    author: MET_TEAM,
+    title: "Merzouga Travel Guide: Gateway to the Erg Chebbi Dunes",
+    excerpt:
+      "Merzouga is the little desert village at the foot of Morocco's tallest dunes — the classic Sahara most people picture. Here's how to get there, when to go, and what a night in the sand is really like.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Merzouga", "Erg Chebbi", "Merzouga desert", "Sahara Morocco", "Merzouga travel guide", "desert camp Merzouga"],
+    seoTitle: "Merzouga Travel Guide: Erg Chebbi Dunes, Camps & How to Visit",
+    seoDescription:
+      "Everything you need for Merzouga and the Erg Chebbi dunes: how to get there from Marrakech or Fes, the best time to go, desert camps, camel treks, and what a Sahara night is really like.",
+    relatedTours: ["merzouga-3day-agadir", "merzouga-stargazing-desert-tour", "sahara-3day-marrakech"],
+    faq: [
+      { q: "Where is Merzouga and why go there?", a: "Merzouga is a village in southeastern Morocco, right at the edge of Erg Chebbi — the country's most spectacular sea of tall, wind-sculpted dunes. It's the classic 'Sahara' image most travellers have in mind, and the reason people make the long journey south: camel treks into the sand, nights in desert camps, and some of the best stargazing in Morocco. Our [Merzouga desert tour](/en/tours/merzouga-stargazing-desert-tour) is built around exactly this." },
+      { q: "How do you get to Merzouga?", a: "Merzouga is roughly 8-9 hours by road from Marrakech (usually split over two days via Aït Ben Haddou and the gorges) and about 7-8 hours from Fes. Almost no one does it as a single-day dash — the drive itself, over the High Atlas and through the oases, is half the experience. Most visitors come on a multi-day desert tour that breaks the journey with stops, which is far more comfortable than self-driving the whole way." },
+      { q: "What is a night in a Merzouga desert camp like?", a: "You ride camels (or take a 4x4) out over the dunes in the late afternoon to a camp of Berber tents. There's dinner — usually tagine — around a fire, drumming and music under a sky with no light pollution, and a silence that genuinely surprises people. You sleep in the camp and wake before dawn for sunrise over Erg Chebbi. Camps range from simple to genuinely luxurious with private bathrooms; we can match the camp to what you want." },
+      { q: "What is the best time to visit Merzouga?", a: "Spring (March-May) and autumn (September-November) are ideal — warm days, cool nights, comfortable for camel trekking. Summer (June-August) is very hot in the daytime, so desert activity shifts to sunrise and sunset, and the nights stay warm. Winter days are pleasant but desert nights get genuinely cold, so pack layers. Avoid nothing outright — Merzouga works year-round if you plan around the heat." },
+    ],
+    content: `
+## The Sahara You Pictured
+
+When people close their eyes and imagine the Sahara — the tall, rippling, apricot-coloured dunes, the camel silhouettes, the impossible quiet — they're picturing **Erg Chebbi**, and the village at its feet is **Merzouga**. It's the most iconic patch of desert in Morocco, and reaching it is a proper journey south through mountains, gorges and oases. This is how to do it, and what to expect when you arrive.
+
+## Where Merzouga Is (and Why It's Far)
+
+Merzouga sits in Morocco's southeast, near the Algerian border. It is a long way from anywhere: roughly **8-9 hours from Marrakech** and **7-8 from Fes**. That distance is not a detail to gloss over — it's the single most important thing to understand about visiting.
+
+The good news: the drive is genuinely spectacular, not dead time. From Marrakech you cross the **Tizi n'Tichka pass** over the High Atlas, stop at the kasbah of **Aït Ben Haddou** (see our [Aït Ben Haddou guide](/en/blog/ait-benhaddou-guide)), pass through **Ouarzazate**, and thread the **Todra** or **Dades** gorges before the oases give way to open desert. Most people rightly do it over two days as part of a tour rather than a punishing single drive.
+
+## Getting There
+
+- **On a multi-day desert tour (recommended).** The journey is broken with the right stops, you're not driving, and you arrive relaxed. Our [3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech) and [Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir) are built exactly for this.
+- **Self-drive.** Possible if you're confident on Moroccan roads and happy with two long days each way. You'll still want a local guide for the dunes themselves.
+- **From Fes.** A common alternative route, often paired with an open-jaw trip (into Marrakech, out of Fes) so you never backtrack.
+
+## A Night in the Dunes
+
+Here's the part that stays with people. In the late afternoon you leave the vehicle behind and head into Erg Chebbi — by **camel** in the classic way, or **4x4** if you prefer — as the low sun turns the sand from pale gold to deep orange. Out among the dunes is a **Berber camp**: tents, rugs, a fire.
+
+Dinner is usually a tagine cooked at the camp; afterwards there's drumming and music, and then the thing nobody's quite ready for — you look up, and with zero light pollution the sky is *absurd*. This is some of the best **stargazing** in Morocco, which is why our [Merzouga stargazing tour](/en/tours/merzouga-stargazing-desert-tour) leans into it. You sleep in the camp and wake in the dark for **sunrise over the dunes**, the photograph you came all this way for.
+
+Camps run from simple and traditional to genuinely luxurious (proper beds, private bathrooms, the lot). Tell us the vibe you want and we'll match it.
+
+## When to Go
+
+- **Spring (Mar-May) & autumn (Sep-Nov):** the sweet spot — warm days, cool nights, perfect for camel trekking.
+- **Summer (Jun-Aug):** hot midday, so activity moves to dawn and dusk; nights stay warm and pleasant.
+- **Winter (Dec-Feb):** lovely clear days, but desert nights get properly cold — pack layers and expect a chilly sunrise.
+
+For the full breakdown see [the best time to visit Morocco](/en/blog/best-time-to-visit-morocco).
+
+## Merzouga vs the Other Deserts
+
+Merzouga (Erg Chebbi) is the tall-dune, postcard Sahara and the easiest 'big dunes' to reach. If you're weighing it against the wilder, harder-to-reach **Erg Chegaga** or the closer, smaller **Zagora**, we've compared them honestly in [Merzouga vs Zagora](/en/blog/merzouga-vs-zagora-which-desert-tour) and [Erg Chebbi vs Erg Chegaga](/en/blog/erg-chebbi-vs-erg-chegaga). Short version: Merzouga is the best all-round choice for a first Sahara trip.
+
+## What to Bring
+
+Layers (desert nights swing cold), a scarf for sun and blowing sand — ideally a real [nila-dyed tagelmust](/en/blog/nila-blue-dye-morocco-guide) — sunglasses, sun cream, a head torch, and a little cash for the village. Our full [desert packing list](/en/blog/what-to-pack-desert-tour-morocco) covers the rest.
+
+## Go See It
+
+Merzouga earns its long drive. A night in Erg Chebbi is, for a lot of travellers, the single best thing they do in Morocco.
+
+👉 **[Book the Merzouga desert tour](/en/tours/merzouga-stargazing-desert-tour)** — camel trek, a camp under the stars, sunrise over the dunes, with local Berber guides who know the sand. Coming from the coast? The [Merzouga tour from Agadir](/en/tours/merzouga-3day-agadir) starts on your side.
+`,
+  },
+  {
+    slug: "zagora-desert-guide",
+    author: MET_TEAM,
+    title: "Zagora Desert Guide: The Quick Sahara from Marrakech",
+    excerpt:
+      "Short on time but still want the desert? Zagora is the closest slice of Sahara to Marrakech — a two-day dune escape when you can't spare three. Here's honestly what you get, and what you don't.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Zagora", "Zagora desert", "2 day desert tour", "Sahara from Marrakech", "Draa Valley", "quick desert tour Morocco"],
+    seoTitle: "Zagora Desert Guide: The 2-Day Sahara Tour from Marrakech",
+    seoDescription:
+      "Is the Zagora desert worth it? An honest guide to Morocco's quickest Sahara trip from Marrakech: the drive, the smaller dunes, a night in camp, and how it compares to Merzouga.",
+    relatedTours: ["zagora-2day-marrakech", "zagora-2day-agadir", "sahara-2day-agadir"],
+    faq: [
+      { q: "Is the Zagora desert worth it?", a: "If you only have two days, yes — Zagora gives you a genuine Sahara night (camel ride, a camp under the stars, the Draa Valley palm groves) without the long haul to Merzouga. Be clear-eyed about the trade-off: Zagora's dunes are smaller and less dramatic than Erg Chebbi's tall sand seas. For a first desert experience on a tight schedule it's a great choice; for the postcard 'giant dunes,' you want Merzouga instead." },
+      { q: "How far is Zagora from Marrakech?", a: "Zagora is about 6-7 hours' drive from Marrakech, crossing the High Atlas by the Tizi n'Tichka pass and dropping into the Draa Valley — roughly half the distance to Merzouga, which is why it fits into a 2-day tour where Merzouga needs three. The drive is scenic in its own right, past Aït Ben Haddou and Ouarzazate." },
+      { q: "Zagora or Merzouga — which desert should I choose?", a: "It comes down to time versus dunes. Choose Zagora if you have only two days and want a real but shorter desert taste. Choose Merzouga (3 days) if you want the tall, classic Erg Chebbi dunes and don't mind the extra driving. We break it down fully in our Merzouga vs Zagora comparison — but the one-line answer is: Zagora for speed, Merzouga for the scenery." },
+      { q: "What do you do on a Zagora desert tour?", a: "You drive from Marrakech over the Atlas and down into the Draa Valley — Morocco's longest river and a ribbon of palm oases — reaching Zagora in the afternoon. Then a camel trek out to a desert camp for dinner, music and a night under the stars, with sunrise over the sand before the drive back. It's the same shape as the longer tours, compressed into two days." },
+    ],
+    content: `
+## The Sahara When You Only Have a Weekend
+
+Not everyone has three or four days to give the desert. If Marrakech is your base and the clock is tight, **Zagora** is the answer: the closest real Sahara experience to the city, doable as a **2-day trip** where Merzouga demands three. This is the honest guide — what Zagora gives you, and what it doesn't, so you choose the right desert for your trip.
+
+## How Far, and the Drive
+
+Zagora sits about **6-7 hours** south of Marrakech — roughly half the distance to Merzouga, which is the whole reason it fits a two-day tour. You cross the High Atlas on the dramatic **Tizi n'Tichka pass**, pass the famous kasbah of [Aït Ben Haddou](/en/blog/ait-benhaddou-guide) and the film town of **Ouarzazate**, then descend into the **Draa Valley** — Morocco's longest river and a green thread of date-palm oases and old ksour. The drive is genuinely lovely, not just a means to an end.
+
+## What a Zagora Trip Looks Like
+
+The rhythm mirrors the bigger desert tours, compressed:
+
+- **Day 1:** Marrakech over the Atlas, stops at Aït Ben Haddou / Ouarzazate, down through the Draa palm groves to Zagora. Late afternoon, camel trek out to a **desert camp** — dinner, drumming, a night under a huge, dark sky.
+- **Day 2:** **Sunrise** over the dunes, breakfast at camp, then the drive back to Marrakech, arriving evening.
+
+Our [2-day Zagora tour from Marrakech](/en/tours/zagora-2day-marrakech) runs exactly this, and there's a [Zagora option from Agadir](/en/tours/zagora-2day-agadir) too.
+
+## The Honest Trade-Off
+
+Here's the truth other pages skip: **Zagora's dunes are smaller** than the towering sand mountains of Erg Chebbi at Merzouga. If your mental image of the Sahara is the giant apricot dunes, that's Merzouga, and no amount of enthusiasm makes Zagora's gentler sand match it.
+
+But that's the wrong comparison for a lot of travellers. The right question is *"do I want a genuine desert night, and do I only have two days?"* — and if the answer is yes, Zagora delivers a real camel trek, a real camp, a real star-filled sky, and the beautiful Draa Valley on the way, all without the extra day in the car.
+
+We lay the choice out fully in [Merzouga vs Zagora: which desert tour](/en/blog/merzouga-vs-zagora-which-desert-tour) and [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora). The short version: **Zagora for speed, Merzouga for the scenery, Agafay for a night close to Marrakech.**
+
+## Who Zagora Is Right For
+
+- First-timers on a **short trip** who still want a desert night.
+- Travellers who care more about the **experience** (camp, stars, camel, palm valley) than about maximum dune drama.
+- Anyone pairing it with a busy Marrakech itinerary who can't spare a third day.
+
+If none of that is you and you want the big dunes at any cost — skip to our [Merzouga guide](/en/blog/merzouga-travel-guide).
+
+## What to Bring
+
+Layers for the cold desert night, a sun scarf, sunglasses, sun cream, a head torch, and a little cash. The full [desert packing list](/en/blog/what-to-pack-desert-tour-morocco) has you covered.
+
+## Get Your Desert Night
+
+Two days, one unforgettable night in the sand, and you're back in Marrakech before you've even missed it.
+
+👉 **[Book the 2-day Zagora desert tour from Marrakech](/en/tours/zagora-2day-marrakech)** — camel trek, a night in a Berber camp, and the Draa Valley palm oases, with local guides who know the quick road to the sand.
+`,
+  },
+  {
+    slug: "ouarzazate-guide-ouallywood",
+    author: MET_TEAM,
+    title: "Ouarzazate Guide: 'Ouallywood', Kasbahs & the Door of the Desert",
+    excerpt:
+      "Ouarzazate is where Hollywood comes to film the ancient world — and the gateway every desert tour passes through. Here's what to see, why it's called Ouallywood, and how it fits your Sahara trip.",
+    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["Ouarzazate", "Ouallywood", "Atlas Studios", "Taourirt Kasbah", "Morocco film locations", "door of the desert"],
+    seoTitle: "Ouarzazate Guide: Ouallywood Film Studios, Kasbahs & What to See",
+    seoDescription:
+      "A guide to Ouarzazate, Morocco's 'door of the desert': the Atlas film studios (Ouallywood), Taourirt Kasbah, nearby Aït Ben Haddou, and how it fits into a Sahara tour from Marrakech.",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-to-fes-3day", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "Why is Ouarzazate called Ouallywood?", a: "Ouarzazate has been one of the world's busiest film locations for decades — its huge Atlas Studios and the surrounding kasbahs and desert have stood in for ancient Egypt, Rome, Jerusalem and beyond in films like Lawrence of Arabia, Gladiator, Kingdom of Heaven, The Mummy and TV's Game of Thrones. The nickname 'Ouallywood' is a play on Hollywood. You can tour the studios and see standing sets from major productions." },
+      { q: "What is there to see in Ouarzazate?", a: "The main sights are Atlas Studios (and the smaller CLA Studios) for the film history, the restored Taourirt Kasbah in town, and — just up the road — the spectacular UNESCO kasbah of Aït Ben Haddou, which is the real star of the area. Ouarzazate itself is more a comfortable base and gateway than a dense sightseeing city; most people spend a night rather than several days." },
+      { q: "Is Ouarzazate worth visiting?", a: "As a destination in its own right, it's a pleasant overnight rather than a must-linger city. Its real value is as the 'door of the desert' — nearly every Marrakech-to-Sahara tour passes through it, and it's the perfect base for Aït Ben Haddou and the film studios. Treat it as a rewarding stop on the way to the dunes rather than a separate trip and you'll get it right." },
+      { q: "How far is Ouarzazate from Marrakech?", a: "About 4 hours by road from Marrakech, over the High Atlas via the Tizi n'Tichka pass — one of Morocco's great mountain drives. That position, just beyond the mountains on the desert side, is exactly why it became the launch point for both film crews and desert tours heading further south to Zagora and Merzouga." },
+    ],
+    content: `
+## The Door of the Desert
+
+Cross the High Atlas south from Marrakech and the green falls away into ochre and stone. The first town on the desert side is **Ouarzazate** — nicknamed the "door of the desert," and, improbably, one of the most-filmed places on Earth. If you take almost any Sahara tour from Marrakech, you'll pass through here, so it's worth knowing what you're looking at.
+
+## Why They Call It "Ouallywood"
+
+Ouarzazate has been Hollywood's stand-in for the ancient world for over half a century. The vast **Atlas Studios** on its edge, plus the surrounding kasbahs and desert, have played ancient Egypt, Rome, Jerusalem, Tibet and more. The credits are a genuine roll-call: *Lawrence of Arabia*, *The Man Who Would Be King*, *The Last Temptation of Christ*, *Gladiator*, *Kingdom of Heaven*, *The Mummy*, *Babel*, and *Game of Thrones* — Daenerys walked Slaver's Bay here.
+
+Hence **"Ouallywood."** You can tour the studios and wander standing sets — Roman streets, Egyptian temples, pharaonic statues baking in the sun. It's cheerfully, obviously fake up close, and all the more fun for it. For the wider story of Morocco on film, see our guide to [Morocco's UNESCO film locations](/en/blog/morocco-unesco-sites-film-locations).
+
+## What to Actually See
+
+- **Atlas Studios** (and the smaller CLA Studios) — the film sets and props, the reason most people stop.
+- **Taourirt Kasbah** — a handsome, restored earthen kasbah in town, once the seat of the powerful Glaoui family; a real one, not a film set.
+- **Aït Ben Haddou** — the showstopper, about 30 minutes away: the UNESCO-listed fortified village that is itself a constant film location and one of the most beautiful sights in Morocco. Full details in our [Aït Ben Haddou guide](/en/blog/ait-benhaddou-guide).
+- **Fint Oasis** — a lesser-known green pocket nearby, a lovely short detour if you have time.
+
+## How It Fits Your Trip
+
+Be realistic: Ouarzazate is a **great overnight and gateway, not a multi-day city**. Its magic is location. It sits about **4 hours from Marrakech** over the stunning **Tizi n'Tichka pass**, right where the mountains hand you over to the desert — which is exactly why both film crews and desert tours use it as a launch pad.
+
+On a typical Sahara trip it's the natural first-night stop or a lunch-and-studios halt on the way to the dunes at **Zagora** or **Merzouga**. Our [3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech) and the [Marrakech to Fes desert route](/en/tours/marrakech-to-fes-3day) both pass right through, so you get Ouarzazate and Aït Ben Haddou woven into a bigger journey rather than as a separate trip.
+
+## The Verdict
+
+Don't build a holiday around Ouarzazate — build it around the desert, and let Ouarzazate be the characterful doorway you pass through, camera in hand, on the way. Between the film sets and the kasbahs, it's one of the more purely *fun* stops on the road south.
+
+👉 **[See Ouarzazate and Aït Ben Haddou on a Sahara tour](/en/tours/sahara-3day-marrakech)** — the film studios, the great kasbahs, and the dunes beyond, all on one journey with guides who know the stories behind the sets.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

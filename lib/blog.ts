@@ -161,6 +161,8 @@ If this is your first Morocco trip, start in Marrakech. It has the best internat
 
 If you have been to Marrakech before, fly into Agadir for the south and Anti-Atlas, or Fes for the north and imperial cities circuit. Both reward a completely different side of Morocco.
 
+Ready to plan the route? Our day-by-day [7-day Morocco itinerary](/en/blog/7-day-morocco-itinerary) covers Marrakech, the Atlas and the Sahara in a week, and the [10-day Morocco itinerary](/en/blog/10-day-morocco-itinerary) adds Fes and the imperial cities in one clean loop.
+
 The deep-dive guides below cover each region in full detail.
     `,
   },
@@ -2332,6 +2334,8 @@ This is the classic Marrakech-to-Fes loop, and it is classic because the geograp
 
 Our [3-day Marrakech to Fes route](/en/tours/marrakech-to-fes-3day) covers the middle section of exactly this itinerary, and the [5-day imperial cities trip](/en/tours/marrakech-imperial-cities-5day) is the north-heavy variant for people who care more about cities than dunes.
 
+For the full day-by-day version of this week, with timings and where to slow down, see our dedicated [7-day Morocco itinerary](/en/blog/7-day-morocco-itinerary).
+
 ## If you only have 5 days
 
 Pick one:
@@ -2348,6 +2352,8 @@ Now it opens up. Add:
 - **Chefchaouen** — the blue city, 4 hours north of Fes, and worth it.
 - **Essaouira** — Atlantic, windswept, relaxed, 3 hours from Marrakech. The best antidote to medina fatigue.
 - **A proper trek.** Two or three days in the High Atlas from Imlil, or a [Toubkal summit](/en/tours/toubkal-summit-trek-4day) if you are fit.
+
+Ten days is our most-recommended length — the full loop through both imperial cities, the Sahara and the Atlas. We've written it out day by day in our [10-day Morocco itinerary](/en/blog/10-day-morocco-itinerary).
 
 ## When to go matters as much as how long
 
@@ -4249,6 +4255,157 @@ Morocco's remaining UNESCO sites are cinematic in their own right even where the
 ## Standing where the cameras stood
 
 What makes Morocco unique among film destinations is that the sets were never sets. Aït Ben Haddou, Essaouira, Volubilis — these are real, protected, thousand-year-lived-in places that happened to be perfect on camera. You don't visit a recreation; you visit the original, in the same light, on the same stone. Most of it lies along the classic routes south and west from Marrakech, which is why the easiest way to see the cinema of Morocco is simply to take a [Sahara desert tour](/en/tours/sahara-3day-marrakech) — the kasbahs, the studios, and the dunes come as one journey.
+`,
+  },
+  {
+    slug: "7-day-morocco-itinerary",
+    author: MET_TEAM,
+    title: "The Perfect 7-Day Morocco Itinerary (From Marrakech)",
+    excerpt:
+      "One week is enough to see the best of Morocco — the imperial city, the High Atlas, and a night under the Sahara stars — if you plan the route well. Here is the 7-day itinerary we'd give a friend.",
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["7 day morocco itinerary", "morocco itinerary", "one week in morocco", "morocco from marrakech", "morocco route", "morocco 7 days"],
+    seoTitle: "The Perfect 7-Day Morocco Itinerary from Marrakech (2026)",
+    seoDescription:
+      "A practical 7-day Morocco itinerary from Marrakech: the medina, the High Atlas, and a night in the Sahara — day by day, with honest timings and how to book it.",
+    relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour", "ourika-valley-day-hike"],
+    faq: [
+      { q: "Is 7 days enough for Morocco?", a: "Seven days is enough to do one region properly — and the classic first-timer loop is Marrakech, the High Atlas, and the Sahara. It is not enough to add Fes and the north as well without spending the week in transit. This itinerary is built around Marrakech as a single base for day trips, then a two-night desert excursion, so you see genuine variety without a punishing amount of driving. If you have more time, our [10-day Morocco itinerary](/en/blog/10-day-morocco-itinerary) adds Fes and the imperial cities." },
+      { q: "How much of a 7-day Morocco trip is spent driving?", a: "Honestly, the Sahara is a long way from Marrakech — about 8–9 hours each way, which is why every reputable desert trip breaks the drive over the Tizi n'Tichka pass with stops at Aït Ben Haddou and the Dades or Todra gorges. On this plan, days 4–6 are the desert leg where most of the driving happens; the rest are short day-trip distances from Marrakech. Going with a driver-guide rather than self-driving means the long days are scenic rather than stressful." },
+      { q: "What is the best month for this 7-day itinerary?", a: "Spring (March–May) and autumn (September–November) are ideal: warm days, cool desert nights, and no summer extremes. Summer works but the Sahara is very hot midday, so desert time shifts to sunrise and sunset. Winter is beautiful and quiet, with snow on the Atlas peaks and cold desert nights — bring layers. See our [month-by-month guide to the best time to visit Morocco](/en/blog/best-time-to-visit-morocco)." },
+      { q: "Can you do this Morocco itinerary as a private tour?", a: "Yes — and for a week-long trip with a fixed route it is usually the better choice. A private driver-guide lets you set the pace, stop where you like, and travel as a family or small group without a fixed coach schedule. We run this exact shape of trip as a private, custom itinerary; message us with your dates and we'll build it around you." },
+    ],
+    content: `
+## One Week, the Real Morocco
+
+Seven days is the sweet spot for a first trip to Morocco. It is long enough to feel three completely different worlds — the sensory overload of an imperial city, the green quiet of the High Atlas, and a silent night on the edge of the Sahara — without turning the holiday into a driving marathon. The trick is not trying to see everything. It is choosing one strong loop and doing it well.
+
+This is the itinerary we would actually give a friend flying into Marrakech for a week. It uses Marrakech as a base for the first stretch, then heads out on the classic two-night desert route and loops back. If you have more time, the natural extension is our [10-day Morocco itinerary](/en/blog/10-day-morocco-itinerary), which adds Fes and the imperial cities of the north.
+
+Not sure a week is right for you? Start with [how many days you need in Morocco](/en/blog/how-many-days-do-you-need-in-morocco).
+
+## Day 1 — Arrive in Marrakech, Ease Into the Medina
+
+Fly in, drop your bags at a riad inside the medina walls, and don't over-plan the first evening. Marrakech rewards a slow start: mint tea on a rooftop, a first wander through the nearer souks, and dinner as the [Djemaa el-Fna square](/en/blog/marrakech-medina-complete-guide) fills with smoke, music and food stalls after dark. Jet lag plus the intensity of the medina is a lot on arrival day — a gentle evening is the right call.
+
+## Day 2 — Marrakech Medina, Properly
+
+Give the city a full, guided day. The medina is genuinely disorienting on your own, and a local guide turns a stressful maze into a story: the Bahia Palace, the Saadian Tombs, the Ben Youssef Madrasa, the tanneries, and the working souks where craftspeople still hammer brass and dye leather. Our [Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour) covers exactly this ground with someone who can read the city for you. In the afternoon, slow down for a hammam — the traditional steam-and-scrub is the correct way to end a day on your feet.
+
+## Day 3 — High Atlas Day Trip (Ourika or Imlil)
+
+Trade the city for the mountains. Ninety minutes from Marrakech, the [Ourika Valley](/en/tours/ourika-valley-day-hike) climbs into green terraces, Berber villages and the Setti Fatma waterfalls — an easy, beautiful day hike and a complete change of air. If you'd rather walk toward real peaks, the Imlil side sits below Mount Toubkal and is the trailhead for the serious treks. Either way you're back in Marrakech by evening, having seen the landscape most day-trippers miss.
+
+## Day 4 — Marrakech Over the Atlas to the Dades Valley
+
+The desert leg begins. Today is the long, spectacular drive over the **Tizi n'Tichka pass** (2,260 m), the High Atlas road that separates the green north from the arid south. You stop at **Aït Ben Haddou**, the UNESCO-listed earthen kasbah that has stood in for ancient Egypt, Jerusalem and Westeros on screen — see our guide to [Morocco's UNESCO film locations](/en/blog/morocco-unesco-sites-film-locations). You overnight around **Ouarzazate** or the rose-red **Dades Valley**, deep in kasbah country.
+
+## Day 5 — Dades to Merzouga and the Erg Chebbi Dunes
+
+More of Morocco's great southern scenery: the **Todra Gorge**, where cliffs rise 300 m over a narrow river, and the long run east through date-palm oases to **Merzouga**. In the late afternoon you swap the vehicle for camels (or a 4x4) and ride out into the **Erg Chebbi** dunes — the tall, classic Sahara most people picture — to a desert camp. Dinner around a fire, drumming under the stars, and a silence you can hear. This is the night the whole trip is built around; our [3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech) is designed around exactly this experience. For what a camp night is really like, read [the Sahara, what to expect](/en/blog/sahara-desert-morocco-what-to-expect).
+
+## Day 6 — Sunrise Over the Dunes, Then West
+
+Wake before dawn for the sunrise over Erg Chebbi — worth every minute of the early alarm as the dunes turn from grey to gold. After breakfast at camp, the long drive back west begins, usually via a different route (the Draa Valley or back over the Atlas) so you're not retracing the whole way. It's a big day in the car, broken by stops, arriving back in Marrakech or a kasbah stop for the final night.
+
+## Day 7 — Last Morning in Marrakech, Departure
+
+Use the last morning for whatever you didn't fit: a final souk run for gifts, the Jardin Majorelle, a rooftop breakfast, or simply another mint tea. Then the transfer to the airport. Seven days, three landscapes, and the real texture of the country rather than a checklist.
+
+## The Honest Version of This Plan
+
+A few things the glossy versions won't tell you:
+
+- **The desert is far.** Days 4–6 involve real driving. That's the price of a genuine Sahara night from Marrakech, and it's worth it — but go in knowing it, and let a driver-guide handle the long roads.
+- **Don't add Fes to a 7-day trip** unless you cut the desert. Trying to do Marrakech + Sahara + Fes + the north in a week means you'll spend it in transit. That's what the [10-day itinerary](/en/blog/10-day-morocco-itinerary) is for.
+- **Private beats fixed-schedule** for a route like this. You control the stops and the pace.
+
+## Make It Yours
+
+This is a template, not a rulebook. Families slow it down and swap the summit hikes for gentler valley walks; couples add a luxury desert camp; hikers give the Atlas two days instead of one. We build this exact week as a **private, custom itinerary** around your dates, pace and interests.
+
+👉 **[Explore our Sahara & Atlas tours](/en/tours/sahara-3day-marrakech)** or message us on WhatsApp with your dates and we'll shape the whole week around you — certified Berber guides, small groups, no coach-tour rush.
+`,
+  },
+  {
+    slug: "10-day-morocco-itinerary",
+    author: MET_TEAM,
+    title: "10-Day Morocco Itinerary: Cities, Desert & Mountains",
+    excerpt:
+      "Ten days is enough to link Morocco's two great imperial cities with the Sahara and the High Atlas. Here is the classic Marrakech-to-Fes loop, day by day, with honest driving times and where to slow down.",
+    heroImage: "/gallery/toubkal-national-park-peak-clouds.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 13,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
+    seoTitle: "10-Day Morocco Itinerary: Cities, Desert & Mountains (2026)",
+    seoDescription:
+      "A complete 10-day Morocco itinerary linking Marrakech, the Sahara, Fes and the High Atlas — day by day, with realistic driving times, the best stops, and how to book it.",
+    relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
+    faq: [
+      { q: "Is 10 days enough to see Morocco?", a: "Ten days is the ideal length for a first, comprehensive trip: enough to link both great imperial cities (Marrakech and Fes) with a proper Sahara night and time in the High Atlas, without living in the car. It's the length we most often recommend. With only seven days you'd drop Fes and the north — see our [7-day Morocco itinerary](/en/blog/7-day-morocco-itinerary) — and with two weeks you'd add the Atlantic coast and a serious trek." },
+      { q: "What is the best route for 10 days in Morocco?", a: "The classic and most efficient shape is a loop, not a back-and-forth: Marrakech → over the Atlas to the Sahara → up through the gorges and oases to Fes → and back to Marrakech (or fly out of Fes). Doing it as a loop means you rarely retrace your steps, and each day brings new scenery. This itinerary follows that loop." },
+      { q: "How much driving is in a 10-day Morocco itinerary?", a: "The two longest days are Marrakech to the desert (over the Tizi n'Tichka pass, broken by Aït Ben Haddou) and the desert up to Fes (through the Ziz Valley and the cedar forests of the Middle Atlas). Both are full but genuinely scenic days. The city days in Marrakech and Fes involve almost no driving. A private driver-guide turns the long legs into part of the trip rather than dead time." },
+      { q: "Should I fly between cities or drive in Morocco?", a: "For this loop, drive — the landscapes between the cities (the Atlas passes, the gorges, the oases, the Sahara) are half the point, and you'd miss all of it flying. Flying only makes sense if you're short on time and treating Marrakech and Fes as separate city breaks. For a 10-day trip that wants the whole country, the overland loop is the right call." },
+    ],
+    content: `
+## Ten Days, the Whole Country
+
+Ten days is the length we recommend most often for a first trip to Morocco. It is the point where the country stops being a single city break and becomes a proper journey: two imperial cities with a thousand years of history between them, a night in the Sahara, the great mountain passes of the High Atlas, and the palm oases and gorges of the south — all linked in one loop that rarely doubles back on itself.
+
+If you have less time, our [7-day itinerary](/en/blog/7-day-morocco-itinerary) keeps Marrakech and the Sahara and drops the north. If you're still deciding, start with [how many days you need in Morocco](/en/blog/how-many-days-do-you-need-in-morocco). This plan assumes you want to see it all and do it as an overland loop — the way the country is meant to be travelled.
+
+## Days 1–2 — Marrakech
+
+Begin in the red city. Day one is arrival and an easy first evening in the medina; day two is a full guided exploration — the Bahia Palace, Ben Youssef Madrasa, the souks, the tanneries, and the theatre of [Djemaa el-Fna](/en/blog/marrakech-medina-complete-guide) after dark. Our [Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour) makes sense of the maze. End with a hammam. (If you want a day-trip breather before the long desert drive, the [Ourika Valley](/en/tours/ourika-valley-day-hike) or [Ouzoud Waterfalls](/en/tours/ouzoud-waterfalls-day-trip) both work.)
+
+## Day 3 — Marrakech to the Dades Valley
+
+Cross the High Atlas by the **Tizi n'Tichka pass**, stopping at the UNESCO kasbah of **Aït Ben Haddou** — the earthen citadel from *Gladiator*, *Game of Thrones* and countless others ([more on Morocco's film locations](/en/blog/morocco-unesco-sites-film-locations)). Continue to Ouarzazate, "the door of the desert," and overnight in the rose-coloured **Dades Valley** among the kasbahs.
+
+## Day 4 — Todra Gorge to Merzouga & the Dunes
+
+Walk into the **Todra Gorge**, where 300 m cliffs close over a cold river, then drive east through oasis towns to **Merzouga** and the great **Erg Chebbi** dunes. Late afternoon, ride camels out to a desert camp for sunset, dinner and drumming under a sky with no light pollution. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is built around this leg. Read [what a Sahara camp night is really like](/en/blog/sahara-desert-morocco-what-to-expect) before you go.
+
+## Day 5 — Sahara Sunrise, North Through the Ziz Valley to Fes
+
+Sunrise over the dunes, then the long, beautiful drive north to Fes — up the **Ziz Valley**, past the ksour and palm groves, over the **Middle Atlas** through the cedar forests around Ifrane (watch for Barbary macaques). It's a big day, but one of the most scenically varied of the whole trip. Overnight in Fes. This whole Marrakech-to-desert-to-Fes traverse is exactly what our [3-day Marrakech to Fes desert tour](/en/tours/marrakech-to-fes-3day) covers.
+
+## Days 6–7 — Fes
+
+Give Fes two nights — it deserves them. **Fes el-Bali**, the old walled city, is the largest car-free urban area in the world and the spiritual and cultural heart of Morocco: the Al-Qarawiyyin (the world's oldest continually operating university), the medieval tanneries, the madrasas, and a medina even more labyrinthine than Marrakech's. A local guide is close to essential here. Fes is a working city of artisans, not a museum — a full day and a half lets you feel that rather than just tick it.
+
+## Day 8 — Fes Back Toward the Atlas
+
+Turn south and west again. Depending on your flights, this is the day to break the return: either back over the Middle Atlas toward Marrakech, or via **Meknes** and the Roman ruins of **Volubilis** if you want one more layer of history. Overnight en route.
+
+## Day 9 — The High Atlas / Imlil
+
+Slow the pace before the end with a day in the mountains proper. From the Marrakech side, the **Imlil** valley below Mount Toubkal is the classic base — terraced villages, walnut groves, and Berber hospitality. Walk as much or as little as you like; even a half-day hike here is a world away from the cities. Hikers who want the real thing can build in a summit attempt (see our [2-day Toubkal climb](/en/tours/toubkal-summit-2day-marrakech)).
+
+## Day 10 — Marrakech, Last Morning, Departure
+
+Back to Marrakech for the final morning — souks for gifts, a last rooftop breakfast, the Jardin Majorelle — then the airport. Ten days, both imperial cities, the Sahara, and the Atlas, in one clean loop.
+
+## The Honest Version
+
+- **Do it as a loop, not out-and-back.** The whole efficiency of a 10-day trip comes from never retracing the same road twice.
+- **Two nights in Fes, not one.** It's the single most common regret — people give Fes a rushed night and wish they'd stayed. Build it in.
+- **The two long driving days are the desert-in and the desert-to-Fes legs.** They're scenic, but they're real. A driver-guide is worth it.
+- **You can fly out of Fes** instead of looping back to Marrakech if your flights allow — it saves a day of driving. Ask us and we'll plan it either way.
+
+## Build Your 10 Days
+
+This is the classic loop, but the best version is the one shaped around you — a luxury desert camp, more hiking, a cooking class in Fes, a slower pace with kids. We run this as a **private, custom itinerary** with certified Berber guides and no fixed-coach rush.
+
+👉 **[See our multi-day tours](/en/tours/marrakech-to-fes-3day)** or message us with your dates and we'll build the full 10 days around your pace and interests.
 `,
   },
 ];

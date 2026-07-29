@@ -1,10 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck } from "@phosphor-icons/react";
+import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck, Star, HandHeart } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { perPersonPrice } from "@/lib/tours";
-import { SITE, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { reviewsForTour } from "@/lib/reviews";
 import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
 import { priceIn } from "@/lib/currency-core";
@@ -244,6 +245,34 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             </form>
           )}
 
+          {/* Social proof at the decision point. Research on travel conversion
+              is consistent that third-party review evidence belongs NEXT TO the
+              booking CTA, not in a distant testimonials section — and that a
+              quoted sentence outperforms a bare score. Reviews are real and
+              shared with the homepage block (lib/reviews.ts). */}
+          <div className="rounded-[3px] border border-rule bg-surface-sunk/30 p-4 space-y-3">
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-[0.7rem] font-semibold uppercase tracking-wider text-ink-muted">
+                {b.reviewQuotesTitle}
+              </span>
+              <span className="flex items-center gap-1 text-xs font-bold text-ink">
+                <Star className="w-3.5 h-3.5 text-saffron" weight="fill" aria-hidden="true" />
+                {TRIPADVISOR.rating.toFixed(1)}
+                <span className="font-normal text-ink-muted">({TRIPADVISOR.reviewCount})</span>
+              </span>
+            </div>
+            {reviewsForTour(tour.title).map((r) => (
+              <figure key={r.name} className="border-l-2 border-saffron/40 pl-3">
+                <blockquote className="text-xs text-ink-soft leading-relaxed italic">
+                  “{r.short}”
+                </blockquote>
+                <figcaption className="text-[0.68rem] text-ink-muted mt-1">
+                  {r.name} · {r.country} · {r.date}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+
           <div className="relative flex items-center gap-3">
             <div className="flex-1 h-px bg-rule" />
             <span className="text-xs text-ink-muted shrink-0">{b.orSecureSpot}</span>
@@ -314,6 +343,20 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               <Phone className="w-4 h-4" />
               {b.callUs}
             </a>
+          </div>
+
+          {/* Why book direct. Booking platforms take 25–40% from operators;
+              competitors make this a price argument, but for a family-run
+              outfit it is really a values argument — the money reaches the
+              guides rather than a middleman. Stated plainly, no hard sell. */}
+          <div className="rounded-[3px] border border-indigo/15 bg-indigo-wash/50 p-4">
+            <div className="flex items-start gap-2.5">
+              <HandHeart className="w-5 h-5 text-indigo shrink-0 mt-0.5" weight="duotone" aria-hidden="true" />
+              <div>
+                <p className="text-sm font-semibold text-indigo leading-snug">{b.bookDirectTitle}</p>
+                <p className="text-xs text-ink-soft leading-relaxed mt-1">{b.bookDirectBody}</p>
+              </div>
+            </div>
           </div>
 
           {/* Large group + custom plan */}

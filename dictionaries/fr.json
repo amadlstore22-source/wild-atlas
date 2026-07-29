@@ -240,7 +240,10 @@
     "bookMobile": "Réserver",
     "perPersonShort": "personne",
     "groupSaveNote": "Tarif groupe — vous économisez {amount}/personne",
-    "groupRateFrom": "Groupes à partir de {price}/personne"
+    "groupRateFrom": "Groupes à partir de {price}/personne",
+    "bookDirectTitle": "Pourquoi réserver directement chez nous",
+    "bookDirectBody": "Les plateformes de réservation prélèvent 25 à 40 % de commission. Réserver en direct, c'est faire en sorte que l'argent reste à la famille et aux guides qui marchent avec vous — et vous parlez aux personnes qui organisent le trek, pas à un centre d'appels.",
+    "reviewQuotesTitle": "Ce que disent les voyageurs"
   },
   "cookieBanner": {
     "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",

@@ -240,7 +240,10 @@
     "bookMobile": "Buchen",
     "perPersonShort": "Person",
     "groupSaveNote": "Gruppenpreis — Sie sparen {amount}/Person",
-    "groupRateFrom": "Gruppen ab {price}/Person"
+    "groupRateFrom": "Gruppen ab {price}/Person",
+    "bookDirectTitle": "Warum Sie direkt bei uns buchen sollten",
+    "bookDirectBody": "Buchungsplattformen verlangen von Veranstaltern 25–40 % Provision. Direkt zu buchen bedeutet, dass das Geld bei der Familie und den Bergführern bleibt, die mit Ihnen gehen — und Sie sprechen mit den Menschen, die den Trek führen, nicht mit einem Callcenter.",
+    "reviewQuotesTitle": "Was Reisende sagen"
   },
   "cookieBanner": {
     "body": "Wir verwenden Cookies, um Ihre Einstellungen zu speichern, und – wenn Sie zustimmen – Google Analytics, um die Nutzung der Website zu verstehen. Notwendige Cookies sind immer aktiv; es gibt keine Cookie-Wand.",

@@ -96,6 +96,11 @@ export default async function LocaleLayout({
       className={`${cormorant.variable} ${inter.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
     >
       <head>
+        {/* Map tiles come from ArcGIS. Lighthouse measured ~300 ms of mobile LCP
+            savings from establishing this connection early rather than at the
+            moment the (deferred) map first requests a tile. */}
+        <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
         {LOCALES.map((l) => (
           <link
             key={l}

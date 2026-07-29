@@ -240,7 +240,10 @@
     "bookMobile": "Prenota",
     "perPersonShort": "persona",
     "groupSaveNote": "Tariffa gruppo — risparmi {amount}/persona",
-    "groupRateFrom": "Gruppi da {price}/persona"
+    "groupRateFrom": "Gruppi da {price}/persona",
+    "bookDirectTitle": "Perché prenotare direttamente con noi",
+    "bookDirectBody": "Le piattaforme di prenotazione applicano agli operatori commissioni del 25–40 %. Prenotare diretto significa che il denaro resta alla famiglia e alle guide che camminano con te — e parli con chi organizza il trek, non con un call center.",
+    "reviewQuotesTitle": "Cosa dicono i viaggiatori"
   },
   "cookieBanner": {
     "body": "Utilizziamo cookie per ricordare le tue preferenze e, se accetti, Google Analytics per capire come viene usato il sito. I cookie necessari sono sempre attivi; non è presente alcun cookie wall.",

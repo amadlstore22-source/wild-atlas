@@ -18,10 +18,16 @@ function StarRating({ rating }: { rating: number }) {
   const full = Math.floor(rating);
   const half = rating % 1 >= 0.5;
   return (
-    <div className="flex items-center gap-0.5" aria-label={`${rating.toFixed(1)} out of 5`}>
+    // role="img" is required: aria-label is prohibited on a bare <div>, which
+    // has no role that permits an accessible name (Lighthouse "Elements use
+    // prohibited ARIA attributes"). With role="img" the label is valid and the
+    // decorative stars are hidden, so AT announces "4.7 out of 5", not "star
+    // star star star star".
+    <div className="flex items-center gap-0.5" role="img" aria-label={`${rating.toFixed(1)} out of 5`}>
       {[1, 2, 3, 4, 5].map((s) => (
         <Star
           key={s}
+          aria-hidden="true"
           weight={s <= full || (s === full + 1 && half) ? "fill" : "regular"}
           className={`w-3.5 h-3.5 ${s <= full ? "text-saffron" : s === full + 1 && half ? "text-saffron opacity-50" : "text-ink/20"}`}
         />

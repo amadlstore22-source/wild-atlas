@@ -4,39 +4,11 @@ import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import { TRIPADVISOR } from "@/lib/constants";
-import type { Dictionary } from "@/app/[lang]/dictionaries";
-
 /** Three full reviews shown at once — let people actually read them, rather than
- *  hiding six behind a fiddly carousel. Avatar tints drawn from the cold palette. */
-const REVIEWS = [
-  {
-    name: "Katherine L.",
-    country: "United Kingdom",
-    rating: 5,
-    tour: "Toubkal Summit Trek",
-    date: "March 2025",
-    text: "From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
-    color: "#2B3A67",
-  },
-  {
-    name: "Marco B.",
-    country: "Italy",
-    rating: 5,
-    tour: "3-Day Sahara Desert Tour",
-    date: "November 2024",
-    text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
-    color: "#C97B2B",
-  },
-  {
-    name: "Emily C.",
-    country: "United States",
-    rating: 5,
-    tour: "Marrakech Medina Cultural Tour",
-    date: "February 2025",
-    text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
-    color: "#1B2645",
-  },
-];
+ *  hiding six behind a fiddly carousel. Sourced from lib/reviews.ts so the tour
+ *  booking sidebar quotes the same reviews rather than a divergent copy. */
+import { REVIEWS } from "@/lib/reviews";
+import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 interface Props { dict: Dictionary }
 
@@ -75,9 +47,10 @@ export default function Testimonials({ dict }: Props) {
               transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1], delay: i * 0.1 }}
             >
               <div className="flex items-center justify-between mb-4">
-                <div className="flex" aria-label={`${r.rating} out of 5 stars`}>
+                {/* role="img": aria-label is prohibited on a bare <div>. */}
+                <div className="flex" role="img" aria-label={`${r.rating} out of 5 stars`}>
                   {Array.from({ length: r.rating }).map((_, s) => (
-                    <Star key={s} className="w-4 h-4 text-saffron" weight="fill" />
+                    <Star key={s} aria-hidden="true" className="w-4 h-4 text-saffron" weight="fill" />
                   ))}
                 </div>
                 <span className="text-ink-muted text-xs">{r.date}</span>

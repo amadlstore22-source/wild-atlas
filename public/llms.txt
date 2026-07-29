@@ -1,38 +1,66 @@
 # Marrakech Eco Tours
 
-> Licensed Moroccan tour operator offering small-group eco-conscious adventures led by certified Berber guides. Founded in 2010 by the Aitidar family. Based in Marrakech, Morocco.
+> Licensed Moroccan tour operator offering small-group, eco-conscious adventures led by certified Berber guides. Founded in 2010 by the Aitidar family. Based in Marrakech, Morocco.
 
 ## About
 
-Marrakech Eco Tours was founded in 2010 by brothers Smail and Mohamed Aitidar, sons of Lahsen Aitidar — one of the first licensed Berber mountain guides in the High Atlas (1980s). All guides hold Moroccan Ministry of Tourism certifications.
+Marrakech Eco Tours was founded in 2010 by brothers Smail and Mohamed Aitidar, sons of Lahsen Aitidar — one of the first licensed Berber mountain guides in the High Atlas. All guides hold Moroccan Ministry of Tourism certifications.
 
-Tours depart from Marrakech and Agadir. Group sizes are small (2–15 people). Private and custom tours available. Eco principles and Leave No Trace practices followed on all trips.
+Tours depart from Marrakech and Agadir. Group sizes are small (2–15 people). Private and custom departures available. Leave No Trace practices are followed on all trips.
 
-Languages: Arabic, Berber (Tachelhit), French, English, Spanish.
-Rating: 4.7/5 from 1,000+ travelers.
-Phone/WhatsApp: +212 653 936 003
+- Languages: Arabic, Berber (Tachelhit), French, English, Spanish
+- Rating: 5.0/5 on TripAdvisor (122 reviews); 1,000+ travellers hosted
+- Phone / WhatsApp: +212 653 936 003
+- Site languages: English, French, Spanish, German, Italian, Arabic
 
-## Tours Offered
+## Main pages
 
-- Toubkal Summit Trek (4 days) — climb Jbel Toubkal (4,167m), highest peak in North Africa
-- Sahara Desert Tour (3 days) — camel trek, luxury Berber camp, Erg Chebbi dunes, Aït Ben Haddou
-- Ourika Valley Day Hike — Setti Fatma waterfalls, Berber villages, natural pools
-- Mgoun Massif Traverse — remote high-atlas multi-day trek
-- Paradise Valley & Immouzer Waterfalls (from Agadir)
-- Souss-Massa National Park Wildlife Tour (from Agadir)
-- Marrakech Medina Cultural Tour
-- Fes Imperial City Tour
-- Essaouira Atlantic Coast Day Tour
-- 30+ total tours across trekking, desert, cultural, and day trip categories
+- [Home](https://marrakechecotours.com/en): tours, destinations and the family story
+- [All tours](https://marrakechecotours.com/en/tours): the full catalogue of 40 tours, filterable by category, difficulty, duration and price
+- [Destinations](https://marrakechecotours.com/en/destinations): guides to Marrakech, the High Atlas, the Sahara, Fes, Chefchaouen, Agadir, Ouzoud and Essaouira
+- [Guides](https://marrakechecotours.com/en/guides): the certified Berber guides who lead the treks
+- [Blog](https://marrakechecotours.com/en/blog): in-depth Morocco travel guides, itineraries and practical advice
+- [About](https://marrakechecotours.com/en/about): the Aitidar family history and how the company operates
+- [Contact](https://marrakechecotours.com/en/contact): enquiry form, WhatsApp and phone
 
-## Key Destinations
+## Signature tours
 
-Atlas Mountains (Toubkal, Mgoun, Ourika, Imlil), Sahara Desert (Merzouga, Erg Chebbi), Marrakech Medina, Fes el-Bali, Chefchaouen, Essaouira, Agadir, Ouzoud Falls, Draa Valley, Aït Ben Haddou (UNESCO)
+- [Toubkal Summit Trek, 4 days](https://marrakechecotours.com/en/tours/toubkal-summit-trek-4day): climb Jbel Toubkal (4,167 m), the highest peak in North Africa, with an acclimatisation day
+- [Mount Toubkal Express, 2 days](https://marrakechecotours.com/en/tours/toubkal-summit-2day-marrakech): the fastest route to the summit from Marrakech — refuge overnight, pre-dawn ascent
+- [Sahara Desert Tour, 3 days](https://marrakechecotours.com/en/tours/sahara-3day-marrakech): camel trek, Berber desert camp, Erg Chebbi dunes and Aït Ben Haddou
+- [Merzouga Stargazing Desert Tour](https://marrakechecotours.com/en/tours/merzouga-stargazing-desert-tour): desert nights under the Sahara sky
+- [Ourika Valley Day Hike](https://marrakechecotours.com/en/tours/ourika-valley-day-hike): Setti Fatma waterfalls, Berber villages and natural pools
+- [Ouzoud Waterfalls Day Trip](https://marrakechecotours.com/en/tours/ouzoud-waterfalls-day-trip): Morocco's 110 m triple cascade and its wild Barbary macaques
+- [Agafay Desert Sunset](https://marrakechecotours.com/en/tours/agafay-desert-sunset): stone desert an hour from Marrakech, camels and a Berber dinner
+- [Paradise Valley from Agadir](https://marrakechecotours.com/en/tours/paradise-valley-agadir): palm gorge and spring-fed rock pools inland from the coast
+- [Marrakech Medina Cultural Tour](https://marrakechecotours.com/en/tours/marrakech-medina-cultural-tour): souks, tanneries and riads with a local guide
+- [High Atlas Grand Traverse, 15 days](https://marrakechecotours.com/en/tours/high-atlas-grand-traverse-15day): the full traverse, for experienced trekkers
+
+## Useful travel guides
+
+- [How to climb Toubkal — complete guide](https://marrakechecotours.com/en/blog/how-to-climb-toubkal-complete-guide)
+- [How to climb Toubkal in 2 days](https://marrakechecotours.com/en/blog/how-to-climb-toubkal-in-2-days)
+- [Toubkal in 2 days or 4 — which trek](https://marrakechecotours.com/en/blog/toubkal-2-day-vs-4-day-which-trek)
+- [Do you need a guide to climb Toubkal?](https://marrakechecotours.com/en/blog/do-you-need-a-guide-to-climb-toubkal)
+- [How hard is Toubkal? Difficulty guide](https://marrakechecotours.com/en/blog/how-hard-is-toubkal-difficulty-guide)
+- [Toubkal weather by month](https://marrakechecotours.com/en/blog/toubkal-weather-by-month)
+- [Best time to visit Morocco](https://marrakechecotours.com/en/blog/best-time-to-visit-morocco)
+- [How many days do you need in Morocco?](https://marrakechecotours.com/en/blog/how-many-days-do-you-need-in-morocco)
+- [Merzouga vs Zagora — which desert tour](https://marrakechecotours.com/en/blog/merzouga-vs-zagora-which-desert-tour)
+- [What to pack for a Morocco desert tour](https://marrakechecotours.com/en/blog/what-to-pack-desert-tour-morocco)
+- [Is Morocco safe? A tourist's guide](https://marrakechecotours.com/en/blog/is-morocco-safe-tourist-guide)
+- [Solo female travel in Morocco](https://marrakechecotours.com/en/blog/solo-female-travel-morocco-guide)
+- [Morocco food guide — what to eat](https://marrakechecotours.com/en/blog/morocco-food-guide-what-to-eat)
+- [Who are the Berbers?](https://marrakechecotours.com/en/blog/who-are-the-berbers)
+
+## Key destinations covered
+
+Atlas Mountains (Toubkal, Mgoun, Ourika, Imlil, Azzaden), Sahara Desert (Merzouga, Erg Chebbi, Erg Chegaga, Zagora), Marrakech Medina, Fes el-Bali, Chefchaouen, Essaouira, Agadir and the Souss, Ouzoud Falls, Draa Valley, Dades and Todra gorges, Aït Ben Haddou (UNESCO).
 
 ## Booking
 
-Website: https://marrakechecotours.com
-WhatsApp: https://wa.me/212653936003
-Email: info@marrakechecotours.com
-Free cancellation: 14 days prior to departure
-Payment: PayPal deposit to secure booking
+- Website: https://marrakechecotours.com
+- WhatsApp: https://wa.me/212653936003
+- Email: info@marrakechecotours.com
+- Free cancellation up to 14 days before departure
+- A deposit secures the booking; the balance is settled locally

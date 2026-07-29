@@ -240,7 +240,10 @@
     "bookMobile": "Book",
     "perPersonShort": "person",
     "groupSaveNote": "Group rate — you save {amount}/person",
-    "groupRateFrom": "Groups from {price}/person"
+    "groupRateFrom": "Groups from {price}/person",
+    "bookDirectTitle": "Why book with us directly",
+    "bookDirectBody": "Booking platforms charge operators 25–40% commission. Booking direct means the money stays with the family and the guides who walk with you — and you deal with the people running the trek, not a call centre.",
+    "reviewQuotesTitle": "What travellers say"
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",

@@ -461,7 +461,10 @@ export default function ToursMap({ lang, dict }: { lang: Locale; dict: Dictionar
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.12em",
-                    color: "rgba(255,255,255,0.28)",
+                    // Raised from 0.28: at 10px on #141D33 that failed WCAG AA
+                    // contrast (Lighthouse). 0.70 keeps it a quiet label while
+                    // staying legible.
+                    color: "rgba(255,255,255,0.70)",
                     borderBottom: "1px solid rgba(255,255,255,0.06)",
                     flexShrink: 0,
                   }}
@@ -487,7 +490,9 @@ export default function ToursMap({ lang, dict }: { lang: Locale; dict: Dictionar
                         </div>
                         <div
                           style={{
-                            color: "rgba(255,255,255,0.36)",
+                            // Raised from 0.36 — failed WCAG AA on this ground.
+                            // Still visibly secondary to the white name above.
+                            color: "rgba(255,255,255,0.72)",
                             fontSize: 11,
                             lineHeight: 1.3,
                             marginTop: 1,

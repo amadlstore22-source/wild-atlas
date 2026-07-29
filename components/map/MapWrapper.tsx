@@ -1,10 +1,15 @@
 "use client";
 import dynamic from "next/dynamic";
+import { useEffect, useRef, useState } from "react";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ToursMap = dynamic(() => import("./ToursMap"), {
   ssr: false,
-  loading: () => (
+  loading: () => <MapSkeleton />,
+});
+
+function MapSkeleton() {
+  return (
     <div
       className="py-20"
       style={{ background: "linear-gradient(180deg,#0D150D 0%,#111711 100%)" }}
@@ -34,9 +39,46 @@ const ToursMap = dynamic(() => import("./ToursMap"), {
         </div>
       </div>
     </div>
-  ),
-});
+  );
+}
 
+/**
+ * Defers the map until it is about to enter the viewport.
+ *
+ * `dynamic(ssr:false)` alone still mounts the component on hydration, so
+ * Leaflet's bundle AND the ArcGIS satellite tiles began downloading during
+ * initial page load — competing with the hero image for bandwidth. On a
+ * throttled mobile connection that pushed homepage LCP to 5.7 s (element
+ * render delay 3.3 s) even though TTFB was only 10 ms.
+ *
+ * The map sits far below the fold, so nothing is lost by waiting until the
+ * reader scrolls within 400 px of it. Renders the same skeleton until then, so
+ * layout is reserved and CLS stays at 0.
+ */
 export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Dictionary }) {
-  return <ToursMap lang={lang} dict={dict} />;
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    // No IntersectionObserver (very old browser) → just load it.
+    if (typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return;
+    }
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setVisible(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "400px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  return <div ref={ref}>{visible ? <ToursMap lang={lang} dict={dict} /> : <MapSkeleton />}</div>;
 }

@@ -18,6 +18,7 @@ import TourLocationMap from "@/components/map/TourLocationMap";
 import tourRoutes from "@/lib/tour-routes.json";
 import TourNavBar from "@/components/tours/TourNavBar";
 import TourTrustBar from "@/components/tours/TourTrustBar";
+import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument } from "@/lib/seo/schema";
@@ -205,6 +206,12 @@ export default async function TourDetailPage({ params }: TourParams) {
             <div id="tour-itinerary" className="scroll-mt-32">
               <TourItinerary itinerary={tour.itinerary} dict={dict} />
             </div>
+
+            {/* Khatam-star divider marks the shift from the story (overview +
+                day-by-day) to the practical logistics (where you meet, what's
+                included). One divider, one meaningful break — per the motif's
+                "between major sections only" discipline. */}
+            <ZelligeDivider className="!my-2" />
 
             <section id="tour-location" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>

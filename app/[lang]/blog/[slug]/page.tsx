@@ -7,6 +7,7 @@ import { BLOG_POSTS } from "@/lib/blog";
 import { blogPostsFor, getBlogPostFor, blogRegionsFor } from "@/lib/blog-i18n";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
+import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import { buildFaqSchema } from "@/lib/seo/schema";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
@@ -274,9 +275,15 @@ export default async function BlogPostPage({ params }: BlogParams) {
                 </div>
               ))}
 
-              {/* Visible FAQ — must stay on-page: Google requires FAQPage schema
-                  to reflect content the user can actually see. */}
-              {post.faq && post.faq.length > 0 && <FaqSection faq={post.faq} />}
+              {/* Khatam-star divider marks the shift from the article body to
+                  the Q&A — a genuine major-section break, only when an FAQ
+                  follows. Keeps the motif meaningful, not decorative. */}
+              {post.faq && post.faq.length > 0 && (
+                <>
+                  <ZelligeDivider className="!my-8" />
+                  <FaqSection faq={post.faq} />
+                </>
+              )}
 
               {/* Editorial → money page. The reader has finished the article and
                   had their objections answered; this is the conversion moment. */}

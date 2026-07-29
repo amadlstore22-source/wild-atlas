@@ -13,6 +13,7 @@ import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
+import RelatedGuides from "@/components/tours/RelatedGuides";
 import TourLocationMap from "@/components/map/TourLocationMap";
 import tourRoutes from "@/lib/tour-routes.json";
 import TourNavBar from "@/components/tours/TourNavBar";
@@ -279,6 +280,8 @@ export default async function TourDetailPage({ params }: TourParams) {
           </div>
         </div>
       </div>
+
+      <RelatedGuides tour={tour} lang={lang} dict={dict} />
 
       <RelatedTours currentSlug={tour.slug} category={tour.category} lang={lang} dict={dict} />
     </>

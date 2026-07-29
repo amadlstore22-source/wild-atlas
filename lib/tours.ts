@@ -80,6 +80,11 @@ export interface Tour {
    *  without the other, which is why this is optional rather than synthesised.
    *  Google treats schema with no visible counterpart as a violation. */
   faq?: Faq[];
+  /** Optional curated list of blog-post slugs to surface in the tour page's
+   *  "Related Guides" section (RelatedGuides). When omitted, guides are matched
+   *  automatically by region + category. Flows blog topical authority into the
+   *  money page and answers pre-booking questions. */
+  relatedPosts?: string[];
 }
 
 export const TOURS: Tour[] = [

@@ -385,7 +385,7 @@ Nuestros meses favoritos para casi todo. Las multitudes del verano disminuyen, e
 
 ## ¿Qué pasa con el Ramadán?
 
-El Ramadán se desplaza por el calendario unos diez días cada año, ya que sigue el calendario islámico lunar y no el gregoriano, así que conviene comprobar las fechas concretas de tu año de viaje en lugar de asumir nada. Cambia el ritmo de Marruecos, pero no su belleza. Muchos restaurantes abren para visitantes no musulmanes durante las horas de luz. Las noches tras el Iftar (la ruptura del ayuno) son festivas y llenas de ambiente. Seguimos organizando tours durante todo el Ramadán; algunos lugares culturales tienen horarios reducidos. Un matiz de planificación que conviene conocer: como el Ramadán se adelanta cada año, se espera que caiga en febrero durante los próximos años, lo que significa que coincidirá con la temporada de floración del almendro del Anti-Atlas mencionada arriba en algunos años; merece la pena consultar ambos calendarios juntos si esa combinación te importa para tu viaje. Para el panorama completo de lo que cambia día a día, consulta [Visitar Marruecos durante el Ramadán](/en/blog/visiting-morocco-during-ramadan).
+El Ramadán se desplaza por el calendario unos diez días cada año, ya que sigue el calendario islámico lunar y no el gregoriano, así que conviene comprobar las fechas concretas de tu año de viaje en lugar de asumir nada. Cambia el ritmo de Marruecos, pero no su belleza. Muchos restaurantes abren para visitantes no musulmanes durante las horas de luz. Las noches tras el Iftar (la ruptura del ayuno) son festivas y llenas de ambiente. Seguimos organizando tours durante todo el Ramadán; algunos lugares culturales tienen horarios reducidos. Un matiz de planificación que conviene conocer: como el Ramadán se adelanta cada año, se espera que caiga en febrero durante los próximos años, lo que significa que coincidirá con la temporada de floración del almendro del Anti-Atlas mencionada arriba en algunos años; merece la pena consultar ambos calendarios juntos si esa combinación te importa para tu viaje. Para el panorama completo de lo que cambia día a día, consulta [Visitar Marruecos durante el Ramadán](/es/blog/visiting-morocco-during-ramadan).
 
 ## La conclusión
 
@@ -505,7 +505,7 @@ Los argán en las laderas de arriba merecen una segunda mirada, y no son solo pa
 
 ## Cómo llegar
 
-**En un tour guiado (recomendado):** nuestras excursiones de un día desde Agadir incluyen transporte de ida y vuelta, un guía que conoce los mejores puntos para bañarse y una comida bereber tradicional con una familia local. Recogida en tu hotel. Duración: de 8:00 a 17:00.
+**En un tour guiado (recomendado):** nuestra [excursión de un día a Paradise Valley desde Agadir](/es/tours/paradise-valley-agadir) incluyen transporte de ida y vuelta, un guía que conoce los mejores puntos para bañarse y una comida bereber tradicional con una familia local. Recogida en tu hotel. Duración: de 8:00 a 17:00.
 
 **En taxi o coche:** toma la N8 hacia el norte desde Agadir en dirección a Immouzer des Ida Outanane. Tras unos 30 km, sigue las señales hacia «Vallée du Paradis» o «Paradise Valley». El aparcamiento del inicio del sendero está señalizado. Un grand taxi compartido desde Agadir cuesta alrededor de 80–120 MAD por persona.
 
@@ -667,7 +667,7 @@ Lo menos conocido es cuán deliberadamente cerrada se mantuvo la localidad despu
 
 **Desde Tánger (2,5 horas):** si llegas en ferri desde España, Chefchaouen es una parada inicial natural.
 
-**Desde Marrakech (6-7 horas):** largo pero factible como trayecto en autobús nocturno o con un vuelo más coche usando Fez como punto de enlace.
+**Desde Marrakech (6-7 horas):** largo pero factible como trayecto en autobús nocturno o con un vuelo más coche usando Fez como punto de enlace. Como el trayecto es lo complicado, la mayoría lo integra en un viaje más largo: nuestro [tour de 4 días de Marrakech a Chefchaouen](/es/tours/marrakech-to-chefchaouen-4day) parte el camino con una noche en Fez.
 
 No hay tren a Chefchaouen. La estación de tren más cercana es Fez.
 
@@ -830,7 +830,7 @@ Es la introducción más accesible al Alto Atlas desde la ciudad, lo que lo conv
 
 ## Cómo llegar
 
-**En un tour guiado (recomendado):** nuestras excursiones de un día al valle de Ourika incluyen recogida en Marrakech a las 9:00, un guía local experto, comida con una familia bereber y regreso a las 17:00. El contexto del guía transforma la visita: cada terraza, hierba y edificio tiene una historia.
+**En un tour guiado (recomendado):** nuestra [excursión de un día al valle de Ourika](/es/tours/ourika-valley-day-hike) incluyen recogida en Marrakech a las 9:00, un guía local experto, comida con una familia bereber y regreso a las 17:00. El contexto del guía transforma la visita: cada terraza, hierba y edificio tiene una historia.
 
 **En taxi privado:** un grand taxi desde Marrakech hasta Setti Fatma (el final de la carretera del valle) cuesta aproximadamente 150-200 MAD por persona, ida y vuelta. Acuerda el precio antes de salir.
 
@@ -946,7 +946,7 @@ Los campamentos de glamping en Agafay se han desarrollado significativamente en 
 
 Marrakech en sí misma es un mal lugar para ver estrellas: las propias luces de la ciudad eclipsan la mayoría de ellas. Agafay resuelve ese problema casi por accidente: la meseta se sitúa lo bastante baja tras su propia línea de crestas, y lo bastante lejos del resplandor de la ciudad, como para que el cielo sobre ella se califique habitualmente entre Bortle 2 y 3 en la escala que usan los astrónomos para medir la oscuridad, lo que significa que la Vía Láctea es visible a simple vista en una noche despejada y sin luna. Eso es algo genuinamente raro de encontrar a 45 minutos de una ciudad de más de un millón de habitantes. Varios de los campamentos nocturnos ahora se apoyan directamente en esto, instalando telescopios y organizando una breve sesión guiada de constelaciones después de la cena en lugar de tratar el cielo como mero decorado.
 
-Si Agafay te deja con ganas de más, el Alto Atlas va todavía más lejos. Oukaimeden, a unos 80 km al sur de Marrakech, es un auténtico emplazamiento de observatorio profesional: allí se encuentra el propio observatorio nacional de Marruecos, elegido originalmente por su altitud y aire limpio y no por el turismo. No es algo que se visite en una velada estándar en Agafay, pero merece la pena saber que la misma cordillera que enmarca el atardecer de Agafay es también una de las razones por las que Marruecos se ha convertido en una base seria para el turismo de observación de estrellas por derecho propio. Para una versión más larga y específicamente diseñada de esta experiencia, más adentro del desierto propiamente dicho, consulta nuestro [viaje de observación de estrellas en el Sahara](/en/tours/merzouga-stargazing-desert-tour).
+Si Agafay te deja con ganas de más, el Alto Atlas va todavía más lejos. Oukaimeden, a unos 80 km al sur de Marrakech, es un auténtico emplazamiento de observatorio profesional: allí se encuentra el propio observatorio nacional de Marruecos, elegido originalmente por su altitud y aire limpio y no por el turismo. No es algo que se visite en una velada estándar en Agafay, pero merece la pena saber que la misma cordillera que enmarca el atardecer de Agafay es también una de las razones por las que Marruecos se ha convertido en una base seria para el turismo de observación de estrellas por derecho propio. Para una versión más larga y específicamente diseñada de esta experiencia, más adentro del desierto propiamente dicho, consulta nuestro [viaje de observación de estrellas en el Sahara](/es/tours/merzouga-stargazing-desert-tour).
     `,
   },
   {
@@ -1376,7 +1376,7 @@ Ve. Conoce los cinco timos de arriba. Reserva tu primera visita a la medina con 
 
 Todo lo demás es Marruecos siendo Marruecos: ruidoso, caótico, generoso, hermoso, y distinto a cualquier otro lugar de la Tierra.
 
-*Esta guía la ha escrito el equipo de Marrakech Eco Tours. Somos guías bereberes con licencia que llevamos organizando tours en Marruecos desde 2010. Si tienes preguntas concretas sobre un viaje que estás planeando, [contáctanos directamente](/en/contact); respondemos a todos los mensajes nosotros mismos.*
+*Esta guía la ha escrito el equipo de Marrakech Eco Tours. Somos guías bereberes con licencia que llevamos organizando tours en Marruecos desde 2010. Si tienes preguntas concretas sobre un viaje que estás planeando, [contáctanos directamente](/es/contact); respondemos a todos los mensajes nosotros mismos.*
     `,
   },
   {
@@ -1451,7 +1451,7 @@ Gite Panorama es la base que construyó nuestro padre, Lahsen, cuando fue uno de
 
 El gite no es un hotel. Es una operación de montaña en funcionamiento que ha estado en manos de una misma familia durante más de 30 años. Esa continuidad es lo que lo convierte en el punto de partida adecuado para una experiencia de montaña seria.
 
-*¿Listo para planear tu trekking al Toubkal? [Consulta el itinerario completo aquí](/en/tours/toubkal-summit-trek-4day) o [contáctanos directamente](/en/contact) para preguntar cualquier cosa antes de reservar.*
+*¿Listo para planear tu trekking al Toubkal? [Consulta el itinerario completo aquí](/es/tours/toubkal-summit-trek-4day) o [contáctanos directamente](/es/contact) para preguntar cualquier cosa antes de reservar.*
     `,
   },
   {
@@ -1525,7 +1525,7 @@ Ese conocimiento es el producto. La montaña es el escenario.
 
 Trabajamos con ciudadanos marroquíes en los mismos términos que con los visitantes internacionales. Los precios figuran en cada página del tour; no hay recargo para pasaportes marroquíes, y ofrecemos la misma política de cancelación y comunicación directa a todo el mundo.
 
-Si tienes preguntas concretas sobre un viaje —la mejor temporada para una ruta en particular, qué llevar, si una ruta es adecuada para el nivel físico de tu grupo—, [contáctanos directamente](/en/contact). Respondemos a cada mensaje en persona.
+Si tienes preguntas concretas sobre un viaje —la mejor temporada para una ruta en particular, qué llevar, si una ruta es adecuada para el nivel físico de tu grupo—, [contáctanos directamente](/es/contact). Respondemos a cada mensaje en persona.
 
 El Alto Atlas es, geológicamente hablando, todavía joven y sigue elevándose: fue empujado hacia arriba a medida que África se desplazaba hacia el norte, hacia Europa, una colisión que empezó hace decenas de millones de años y que, sorprendentemente, todavía ocurre hoy a unos pocos centímetros al año. Lleva aquí, con la forma que reconocerías, muchísimo tiempo según cualquier medida humana. Esperará. Pero también merece la pena no esperar demasiado más.
     `,
@@ -1627,7 +1627,7 @@ Si reservas un trekking de invierno, comenta los detalles con tu guía antes de 
 
 ## ¿Preguntas?
 
-Si tienes dudas sobre algún artículo, [contáctanos antes de tu trekking](/en/contact). Nuestros guías revisan los requisitos específicos de cada tour y te indicarán cualquier cosa que debas añadir o quitar según tu itinerario y la época del año. Preferimos responder preguntas ahora que tener a alguien que llegue sin preparación.
+Si tienes dudas sobre algún artículo, [contáctanos antes de tu trekking](/es/contact). Nuestros guías revisan los requisitos específicos de cada tour y te indicarán cualquier cosa que debas añadir o quitar según tu itinerario y la época del año. Preferimos responder preguntas ahora que tener a alguien que llegue sin preparación.
     `,
   },
   {
@@ -1712,7 +1712,7 @@ Dejando la ley a un lado, el argumento práctico es sólido en esta montaña en 
 
 Un guía con licencia cuesta entre 400 y 600 MAD al día aproximadamente. El detalle importante: **esa tarifa es por grupo, no por persona.** Un grupo de cuatro reparte la tarifa de un guía entre cuatro, por lo que los excursionistas en solitario pagan desproporcionadamente más.
 
-En la práctica, la mayoría de la gente reserva un paquete en lugar de contratar un guía por separado, porque el guía es solo una línea del presupuesto. También necesitas transporte desde Marrakech hasta Imlil, una cama en el refugio, comidas y, en invierno, crampones y piolet. Nuestro [trekking de 4 días a la cumbre del Toubkal](/en/tours/toubkal-summit-trek-4day) incluye todo eso, y la [versión de 2 días](/en/tours/toubkal-summit-2day-marrakech) hace lo mismo en un horario más comprimido para quienes tienen poco tiempo.
+En la práctica, la mayoría de la gente reserva un paquete en lugar de contratar un guía por separado, porque el guía es solo una línea del presupuesto. También necesitas transporte desde Marrakech hasta Imlil, una cama en el refugio, comidas y, en invierno, crampones y piolet. Nuestro [trekking de 4 días a la cumbre del Toubkal](/es/tours/toubkal-summit-trek-4day) incluye todo eso, y la [versión de 2 días](/es/tours/toubkal-summit-2day-marrakech) hace lo mismo en un horario más comprimido para quienes tienen poco tiempo.
 
 ## Cómo contratar legalmente
 
@@ -1729,7 +1729,7 @@ El Toubkal es una caminata sin más. No es técnico en verano, y a menudo los ex
 
 Pero la norma es la norma, se comprueba, y el control no atiende a tu palmarés de Munros. Presupuesta un guía, reparte el coste entre tu grupo y trátalo como el precio de entrada a una montaña genuinamente excelente.
 
-Si quieres hablar sobre qué itinerario se ajusta a tu forma física y tus fechas, [ponte en contacto](/en/contact); preferimos responder a eso antes de que reserves que después.
+Si quieres hablar sobre qué itinerario se ajusta a tu forma física y tus fechas, [ponte en contacto](/es/contact); preferimos responder a eso antes de que reserves que después.
     `,
   },
   {
@@ -1832,7 +1832,7 @@ La mitigación principal es el ritmo, que es un argumento más a favor de un gu�
 - **Guantes aislantes, más de repuesto.** Los guantes mojados a -15 dejan de ser guantes.
 - **Un termo.** El agua fría resulta poco atractiva y la gente deja de beber; la deshidratación entonces hace el trabajo del que se culpa a la altitud.
 
-Nuestro [trekking de 4 días al Toubkal](/en/tours/toubkal-summit-trek-4day) funciona en invierno con crampones, piolets y la sesión de formación incluida, y la [versión de 2 días](/en/tours/toubkal-summit-2day-marrakech) la comprime para excursionistas de montaña experimentados que no necesitan el día de aclimatación.
+Nuestro [trekking de 4 días al Toubkal](/es/tours/toubkal-summit-trek-4day) funciona en invierno con crampones, piolets y la sesión de formación incluida, y la [versión de 2 días](/es/tours/toubkal-summit-2day-marrakech) la comprime para excursionistas de montaña experimentados que no necesitan el día de aclimatación.
 
 ## ¿Merece la pena?
 
@@ -1840,7 +1840,7 @@ El Alto Atlas en invierno es genuinamente uno de los grandes espectáculos del n
 
 Es más duro, más frío y más incierto que el mismo trekking en mayo. Si eso te suena a disuasión, ve en primavera y lo pasarás genial. Si te suena al atractivo, esta es tu temporada.
 
-¿No sabes en qué lado de esa línea estás? [Cuéntanos qué has hecho antes](/en/contact) y te daremos una respuesta directa, incluso si esa respuesta es esperar un año.
+¿No sabes en qué lado de esa línea estás? [Cuéntanos qué has hecho antes](/es/contact) y te daremos una respuesta directa, incluso si esa respuesta es esperar un año.
     `,
   },
   {
@@ -1905,15 +1905,15 @@ Merece la pena entender por qué los paisajes difieren tanto en una distancia re
 ### Elige Merzouga si tienes 3 días
 Este es el viaje que la mayoría de la gente realmente quiere. Tres días permiten que el trayecto forme parte de la experiencia en lugar de ser una penalización: el puerto de Tizi n'Tichka, Aït Benhaddou, la garganta del Todra, los palmerales del valle del Draa. Llegas a las dunas a última hora de la tarde, sales al atardecer, duermes en el campamento y ves el amanecer sobre el erg.
 
-Nuestro [tour de 3 días al Sahara desde Marrakech](/en/tours/sahara-3day-marrakech) está construido sobre esta forma porque es el mínimo que le hace justicia al lugar.
+Nuestro [tour de 3 días al Sahara desde Marrakech](/es/tours/sahara-3day-marrakech) está construido sobre esta forma porque es el mínimo que le hace justicia al lugar.
 
 ### Elige Zagora solo si tienes 2 días
 Si tu viaje a Marruecos es corto y la elección es Zagora o nada, elige Zagora, con los ojos abiertos. Dormirás en el desierto, comerás un tayín bajo más estrellas de las que has visto en tu vida y montarás en camello al atardecer. Es una buena noche. No es Erg Chebbi.
 
-Nuestro [tour de 2 días a Zagora](/en/tours/zagora-2day-marrakech) es honesto sobre esto en el itinerario, lo cual consideramos una virtud.
+Nuestro [tour de 2 días a Zagora](/es/tours/zagora-2day-marrakech) es honesto sobre esto en el itinerario, lo cual consideramos una virtud.
 
 ### Considera Erg Chigaga si quieres dunas sin multitudes
-[Erg Chigaga](/en/tours/erg-chegaga-3day-marrakech) tiene dunas a la escala de Erg Chebbi y una fracción de los visitantes, porque llegar hasta allí implica un recorrido accidentado en 4x4 por desierto abierto desde M'hamid. Para algunas personas ese acceso es la mejor parte del viaje. Para otras son dos horas de zarandeo. Sabe cuál eres tú.
+[Erg Chigaga](/es/tours/erg-chegaga-3day-marrakech) tiene dunas a la escala de Erg Chebbi y una fracción de los visitantes, porque llegar hasta allí implica un recorrido accidentado en 4x4 por desierto abierto desde M'hamid. Para algunas personas ese acceso es la mejor parte del viaje. Para otras son dos horas de zarandeo. Sabe cuál eres tú.
 
 ## El problema de Merzouga en 2 días
 
@@ -1924,7 +1924,7 @@ Algunos operadores venden viajes de 2 días a Merzouga. La aritmética:
 - Eso son **18 horas en un vehículo dentro de un viaje de 48 horas.**
 - Lo que queda es una tarde, una noche y una madrugada en las dunas, la mayor parte a oscuras.
 
-Pasarías más tiempo mirando el respaldo de un asiento que el Sahara. No vendemos este viaje, y cuando la gente lo pide sugerimos Zagora o [Agafay](/en/tours/agafay-desert-sunset) en su lugar. Agafay es un desierto de piedra a una hora de Marrakech: sin mar de arena, pero con un paisaje real, un campamento real y sin 18 horas de conducción.
+Pasarías más tiempo mirando el respaldo de un asiento que el Sahara. No vendemos este viaje, y cuando la gente lo pide sugerimos Zagora o [Agafay](/es/tours/agafay-desert-sunset) en su lugar. Agafay es un desierto de piedra a una hora de Marrakech: sin mar de arena, pero con un paisaje real, un campamento real y sin 18 horas de conducción.
 
 ## Lo que cuesta cada uno realmente
 
@@ -1946,7 +1946,7 @@ Presupuesta por separado para propinas: aproximadamente **200-500 MAD en total**
 | 2 días | Zagora | Noche real en el desierto, paisaje modesto, honesto al respecto |
 | 1 día | Agafay | Desierto de piedra a una hora, sin pretensión de ser el Sahara |
 
-Si nos dices cuántos días tienes y qué es lo que realmente quieres del desierto, te orientaremos hacia el adecuado, incluso diciéndote cuándo la respuesta es «espera a tener tres días». [Pregúntanos](/en/contact).
+Si nos dices cuántos días tienes y qué es lo que realmente quieres del desierto, te orientaremos hacia el adecuado, incluso diciéndote cuándo la respuesta es «espera a tener tres días». [Pregúntanos](/es/contact).
     `,
   },
   {
@@ -2068,9 +2068,9 @@ El precio del tour no es el precio del viaje:
 
 Decide cuánto vale para ti la noche en el desierto, y luego compra ese nivel con honestidad. El fallo no es gastar demasiado poco: es gastar demasiado poco esperando el folleto del nivel de arriba.
 
-Si quieres verificar un presupuesto que te han dado en otro sitio, [envíanoslo](/en/contact). Te diremos si es justo, incluso cuando sea más barato que el nuestro.
+Si quieres verificar un presupuesto que te han dado en otro sitio, [envíanoslo](/es/contact). Te diremos si es justo, incluso cuando sea más barato que el nuestro.
 
-Nuestro [tour de 3 días al Sahara](/en/tours/sahara-3day-marrakech) y la [ruta de 4 días al desierto](/en/tours/desert-4day-marrakech) enumeran ambos exactamente qué está incluido y qué no, porque el argumento de arriba solo funciona si nosotros mismos nos ceñimos a él.
+Nuestro [tour de 3 días al Sahara](/es/tours/sahara-3day-marrakech) y la [ruta de 4 días al desierto](/es/tours/desert-4day-marrakech) enumeran ambos exactamente qué está incluido y qué no, porque el argumento de arriba solo funciona si nosotros mismos nos ceñimos a él.
     `,
   },
 ];

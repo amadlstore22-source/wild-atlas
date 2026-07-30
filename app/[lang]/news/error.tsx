@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 export default function NewsError({
   error,
@@ -10,6 +11,11 @@ export default function NewsError({
   error: Error & { digest?: string };
   unstable_retry: () => void;
 }) {
+  // This route lives under [lang], so the blog link has to follow the visitor's
+  // locale — hardcoding /en/blog dropped non-English readers into English.
+  const params = useParams<{ lang?: string }>();
+  const lang = typeof params?.lang === "string" ? params.lang : "en";
+
   useEffect(() => {
     console.error("[news-error]", error);
   }, [error]);
@@ -33,7 +39,7 @@ export default function NewsError({
           Try Again
         </button>
         <Link
-          href="/en/blog"
+          href={`/${lang}/blog`}
           className="px-6 py-3 rounded-full border border-forest text-forest font-bold text-sm hover:bg-forest hover:text-white transition-colors"
         >
           Read Our Blog

@@ -505,7 +505,7 @@ Les arganiers sur les pentes au-dessus méritent un second regard, pas seulement
 
 ## Comment y aller
 
-**En circuit guidé (recommandé) :** Nos excursions d'une journée depuis Agadir incluent le transport aller-retour, un guide connaissant les meilleurs spots de baignade, et un déjeuner berbère traditionnel avec une famille locale. Prise en charge à votre hôtel. Durée : 8h00–17h00.
+**En circuit guidé (recommandé) :** Notre [excursion d'une journée à Paradise Valley depuis Agadir](/fr/tours/paradise-valley-agadir) incluent le transport aller-retour, un guide connaissant les meilleurs spots de baignade, et un déjeuner berbère traditionnel avec une famille locale. Prise en charge à votre hôtel. Durée : 8h00–17h00.
 
 **En taxi ou en voiture :** Prenez la N8 au nord d'Agadir en direction d'Immouzer des Ida Outanane. Après environ 30 km, suivez les panneaux « Vallée du Paradis ». Le parking de départ est signalé. Un grand taxi partagé depuis Agadir coûte environ 80 à 120 MAD par personne.
 
@@ -667,7 +667,7 @@ Ce qui est moins connu, c'est à quel point la ville est restée délibérément
 
 **Depuis Tanger (2h30) :** si vous arrivez par ferry depuis l'Espagne, Chefchaouen est une première étape naturelle.
 
-**Depuis Marrakech (6 à 7 heures) :** long mais faisable en trajet de nuit en bus, ou en combinant avion et location de voiture via le hub de Fès.
+**Depuis Marrakech (6 à 7 heures) :** long mais faisable en trajet de nuit en bus, ou en combinant avion et location de voiture via le hub de Fès. Le trajet étant la partie difficile, la plupart des voyageurs l'intègrent à un séjour plus long : notre [circuit de 4 jours de Marrakech à Chefchaouen](/fr/tours/marrakech-to-chefchaouen-4day) coupe la route par une nuit à Fès.
 
 Il n'y a pas de train pour Chefchaouen. La gare la plus proche est à Fès.
 
@@ -830,7 +830,7 @@ C'est l'introduction la plus accessible au Haut Atlas depuis la ville, ce qui en
 
 ## Comment y aller
 
-**En circuit guidé (recommandé) :** nos excursions d'une journée dans la vallée de l'Ourika incluent la prise en charge à Marrakech à 9h00, un guide local compétent, le déjeuner avec une famille berbère, et le retour à 17h00. Le contexte apporté par le guide transforme la visite — chaque terrasse, chaque plante, chaque bâtiment a une histoire.
+**En circuit guidé (recommandé) :** notre [randonnée d'une journée dans la vallée de l'Ourika](/fr/tours/ourika-valley-day-hike) incluent la prise en charge à Marrakech à 9h00, un guide local compétent, le déjeuner avec une famille berbère, et le retour à 17h00. Le contexte apporté par le guide transforme la visite — chaque terrasse, chaque plante, chaque bâtiment a une histoire.
 
 **En taxi privé :** un grand taxi de Marrakech à Setti Fatma (le bout de la route de la vallée) coûte environ 150 à 200 MAD par personne aller-retour. Convenez du prix avant le départ.
 

@@ -498,7 +498,7 @@ Die Arganbäume auf den Hängen darüber verdienen einen zweiten Blick, nicht nu
 
 ## Anreise
 
-**Mit einer geführten Tour (empfohlen):** Unsere Tagestouren ab Agadir beinhalten Hin- und Rücktransport, einen Führer, der die besten Badestellen kennt, sowie ein traditionelles Berbermittagessen mit einer lokalen Familie. Abholung vom Hotel. Dauer: 8:00–17:00 Uhr.
+**Mit einer geführten Tour (empfohlen):** Unser [Paradise-Valley-Tagesausflug ab Agadir](/de/tours/paradise-valley-agadir) beinhalten Hin- und Rücktransport, einen Führer, der die besten Badestellen kennt, sowie ein traditionelles Berbermittagessen mit einer lokalen Familie. Abholung vom Hotel. Dauer: 8:00–17:00 Uhr.
 
 **Mit dem Taxi oder eigenem Auto:** Fahren Sie auf der N8 nordwärts von Agadir Richtung Immouzer des Ida Outanane. Nach etwa 30 km folgen Sie den Schildern zu "Vallée du Paradis" oder "Paradise Valley". Der Wanderparkplatz ist ausgeschildert. Ein geteiltes Grand Taxi ab Agadir kostet etwa 80–120 MAD pro Person.
 
@@ -660,7 +660,7 @@ Weniger bekannt ist, wie bewusst abgeschottet die Stadt danach blieb. Etwa 450 J
 
 **Ab Tanger (2,5 Stunden):** Wenn Sie mit der Fähre aus Spanien ankommen, ist Chefchaouen ein natürlicher erster Halt.
 
-**Ab Marrakesch (6–7 Stunden):** Lang, aber machbar als Nachtbusreise oder als Fly-and-Drive über das Drehkreuz Fès.
+**Ab Marrakesch (6–7 Stunden):** Lang, aber machbar als Nachtbusreise oder als Fly-and-Drive über das Drehkreuz Fès. Da die Fahrt der schwierige Teil ist, verbinden die meisten sie mit einer längeren Reise: unsere [4-tägige Tour von Marrakesch nach Chefchaouen](/de/tours/marrakech-to-chefchaouen-4day) teilt die Strecke mit einer Nacht in Fès.
 
 Es gibt keinen Zug nach Chefchaouen. Der nächstgelegene Bahnhof ist Fès.
 
@@ -823,7 +823,7 @@ Es ist der am leichtesten zugängliche Einstieg in den Hohen Atlas von der Stadt
 
 ## Anreise
 
-**Mit einer geführten Tour (empfohlen):** Unsere Tagestouren ins Ourika-Tal beinhalten die Abholung in Marrakesch um 9:00 Uhr, einen sachkundigen lokalen Führer, Mittagessen bei einer Berberfamilie und Rückkehr bis 17:00 Uhr. Der Kontext des Führers verwandelt den Besuch – jede Terrasse, jedes Kraut und jedes Gebäude hat eine Geschichte.
+**Mit einer geführten Tour (empfohlen):** Unsere [Tageswanderung ins Ourika-Tal ab Marrakesch](/de/tours/ourika-valley-day-hike) beinhalten die Abholung in Marrakesch um 9:00 Uhr, einen sachkundigen lokalen Führer, Mittagessen bei einer Berberfamilie und Rückkehr bis 17:00 Uhr. Der Kontext des Führers verwandelt den Besuch – jede Terrasse, jedes Kraut und jedes Gebäude hat eine Geschichte.
 
 **Mit dem privaten Taxi:** Ein Grand Taxi von Marrakesch nach Setti Fatma (dem Ende der Talstraße) kostet etwa 150–200 MAD pro Person für die Rückfahrt. Vereinbaren Sie den Preis vor der Abfahrt.
 

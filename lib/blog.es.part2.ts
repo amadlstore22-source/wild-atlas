@@ -101,11 +101,11 @@ La medina de Marrakech es donde se forman la mayoría de las malas primeras impr
 
 ## Dónde lo tienen más fácil las mujeres solas
 
-Los viajes organizados solucionan mucho de esto, lo cual nos interesa decir, así que valora el razonamiento más que la fuente: en un [trekking](/en/tours/toubkal-summit-trek-4day) o un [tour por el desierto](/en/tours/sahara-3day-marrakech), vas con un guía autorizado y un grupo, en lugares donde la economía del acoso no existe. Los pueblos del Atlas no tienen vendedores insistentes. El Sahara no tiene tiendas de alfombras.
+Los viajes organizados solucionan mucho de esto, lo cual nos interesa decir, así que valora el razonamiento más que la fuente: en un [trekking](/es/tours/toubkal-summit-trek-4day) o un [tour por el desierto](/es/tours/sahara-3day-marrakech), vas con un guía autorizado y un grupo, en lugares donde la economía del acoso no existe. Los pueblos del Atlas no tienen vendedores insistentes. El Sahara no tiene tiendas de alfombras.
 
 Las mujeres solas son habituales en nuestros grupos mixtos. Si la composición del grupo te importa, pregunta antes de reservar: te diremos con honestidad quién más va en la salida.
 
-Un [paseo guiado por la medina](/en/tours/marrakech-medina-cultural-tour) también es una forma realmente eficaz de que el primer día en Marrakech sea agradable en lugar de un suplicio: ves el lugar con alguien que corta las propuestas de venta antes de que empiecen, y aprendes la geografía lo suficientemente bien como para explorar sola después.
+Un [paseo guiado por la medina](/es/tours/marrakech-medina-cultural-tour) también es una forma realmente eficaz de que el primer día en Marrakech sea agradable en lugar de un suplicio: ves el lugar con alguien que corta las propuestas de venta antes de que empiecen, y aprendes la geografía lo suficientemente bien como para explorar sola después.
 
 ## La cuestión del hammam
 
@@ -119,7 +119,7 @@ Ve. Toma las precauciones normales que tomarías en cualquier ciudad desconocida
 
 Las mujeres a las que guiamos y que mejor lo pasan son las que llegaron esperando la atención, decidieron de antemano que no iba a definir el viaje, y luego se fueron a vivir el viaje.
 
-¿Preguntas sobre un itinerario concreto o una preocupación concreta? [Escríbenos directamente](/en/contact). Preferimos tener la conversación a que no vengas.
+¿Preguntas sobre un itinerario concreto o una preocupación concreta? [Escríbenos directamente](/es/contact). Preferimos tener la conversación a que no vengas.
     `,
   },
   {
@@ -197,7 +197,7 @@ Es el clásico circuito de Marrakech a Fez, y es clásico porque la geografía l
 
 **Día 1 — Llegada a Marrakech.** No planees nada. El jet lag más la medina ya es mucho. Come, duerme.
 
-**Día 2 — Marrakech.** Los zocos, la Jemaa el-Fna, un jardín, un palacio. Un [paseo guiado por la medina](/en/tours/marrakech-medina-cultural-tour) el primer día completo se amortiza solo: aprendes la geografía con alguien que frena las propuestas de venta antes de que empiecen, y luego exploras solo sabiendo dónde estás.
+**Día 2 — Marrakech.** Los zocos, la Jemaa el-Fna, un jardín, un palacio. Un [paseo guiado por la medina](/es/tours/marrakech-medina-cultural-tour) el primer día completo se amortiza solo: aprendes la geografía con alguien que frena las propuestas de venta antes de que empiecen, y luego exploras solo sabiendo dónde estás.
 
 **Día 3 — Cruzando el Atlas.** El puerto de Tizi n'Tichka, luego Aït Benhaddou, el ksar que has visto en una docena de películas. Noche en Dadès o Skoura.
 
@@ -211,13 +211,13 @@ Es el clásico circuito de Marrakech a Fez, y es clásico porque la geografía l
 
 **Reserva un billete open-jaw: entrada por Marrakech, salida por Fez.** Es la decisión de planificación con mayor impacto de todo el viaje. Significa que nunca conduces la misma carretera dos veces. El sobrecoste frente a un billete de ida y vuelta suele ser insignificante.
 
-Nuestra [ruta de 3 días de Marrakech a Fez](/en/tours/marrakech-to-fes-3day) cubre exactamente el tramo central de este itinerario, y el [viaje de 5 días por las ciudades imperiales](/en/tours/marrakech-imperial-cities-5day) es la variante centrada en el norte para quienes prefieren las ciudades a las dunas.
+Nuestra [ruta de 3 días de Marrakech a Fez](/es/tours/marrakech-to-fes-3day) cubre exactamente el tramo central de este itinerario, y el [viaje de 5 días por las ciudades imperiales](/es/tours/marrakech-imperial-cities-5day) es la variante centrada en el norte para quienes prefieren las ciudades a las dunas.
 
 ## Si solo tienes 5 días
 
 Elige uno:
 
-- **Marrakech + Sahara.** Dos noches en Marrakech, [viaje de 3 días al desierto](/en/tours/sahara-3day-marrakech) con regreso a Marrakech. Ves las dunas. Te saltas Fez.
+- **Marrakech + Sahara.** Dos noches en Marrakech, [viaje de 3 días al desierto](/es/tours/sahara-3day-marrakech) con regreso a Marrakech. Ves las dunas. Te saltas Fez.
 - **Ciudades imperiales.** Marrakech, Rabat, Meknes, Fez. Sin desierto, pero cuatro ciudades extraordinarias y mucha menos conducción.
 
 Lo que no funciona en 5 días: Marrakech, Merzouga **y** Fez. Son 20 horas o más en un vehículo. Hay quien lo hace. Vuelve cansado y vagamente decepcionado, y le echa la culpa a Marruecos.
@@ -228,7 +228,7 @@ Ahora se abre el abanico. Añade:
 
 - **Chefchaouen** — la ciudad azul, a 4 horas al norte de Fez, y vale la pena.
 - **Essaouira** — atlántica, ventosa, relajada, a 3 horas de Marrakech. El mejor antídoto contra la fatiga de medina.
-- **Un trekking de verdad.** Dos o tres días en el Alto Atlas desde Imlil, o una [cumbre del Toubkal](/en/tours/toubkal-summit-trek-4day) si estás en forma.
+- **Un trekking de verdad.** Dos o tres días en el Alto Atlas desde Imlil, o una [cumbre del Toubkal](/es/tours/toubkal-summit-trek-4day) si estás en forma.
 
 ## Cuándo ir importa tanto como cuánto tiempo
 
@@ -242,7 +242,7 @@ Brevemente, porque cambia las cuentas:
 
 Siete días, entrada por Marrakech y salida por Fez, un desierto, un cruce de montaña, dos ciudades. No añadas Essaouira "porque solo son tres horas". Tres horas de ida y otras tres de vuelta son un día entero, y solo tienes siete.
 
-Si nos cuentas tus fechas y qué te importa realmente, te esbozamos una ruta, incluido decirte con franqueza cuándo tu lista no encaja en los días de que dispones. [Escríbenos](/en/contact).
+Si nos cuentas tus fechas y qué te importa realmente, te esbozamos una ruta, incluido decirte con franqueza cuándo tu lista no encaja en los días de que dispones. [Escríbenos](/es/contact).
     `,
   },
   {
@@ -312,7 +312,7 @@ Pleno verano funciona, pero el problema cambia de sitio: la cima está bien mien
 
 De noviembre a marzo aproximadamente, el Toubkal se convierte en una montaña invernal. La nieve cubre la ruta superior, el suelo bajo los pies se endurece, y las consecuencias de un resbalón cambian por completo.
 
-Esto no lo deja fuera de alcance. Sí implica crampones, piolet, y alguien contigo que sepa leer las condiciones de nieve y avalanchas. Cubrimos los detalles en [Subir al Toubkal en invierno](/en/blog/toubkal-in-winter-what-to-expect); la versión corta es que los principiantes en forma sí llegan a la cima en invierno, pero solo con el equipo adecuado y un guía cualificado para esas condiciones.
+Esto no lo deja fuera de alcance. Sí implica crampones, piolet, y alguien contigo que sepa leer las condiciones de nieve y avalanchas. Cubrimos los detalles en [Subir al Toubkal en invierno](/es/blog/toubkal-in-winter-what-to-expect); la versión corta es que los principiantes en forma sí llegan a la cima en invierno, pero solo con el equipo adecuado y un guía cualificado para esas condiciones.
 
 La recompensa es una montaña genuinamente distinta: menos gente, crestas cubiertas de nieve, y una luz en la cresta cumbrera al amanecer que no se consigue en agosto.
 
@@ -334,7 +334,7 @@ Sea cual sea el mes, el principio es capas que puedas añadir y quitar sobre la 
 - **Añadidos de verano:** más agua de la que crees necesitar, protección solar para la aproximación, y una capa de abrigo que te pesará cargar hasta las 4 de la madrugada del día de cumbre, momento en el que se convierte en lo más importante de tu mochila.
 - **Añadidos de invierno:** crampones, piolet, botas rígidas que admitan crampones, abrigo reforzado, gafas de protección para la nieve arrastrada por el viento.
 
-Nuestra lista completa está en [Qué llevar para un trekking por el Alto Atlas](/en/blog/what-to-pack-high-atlas-trek-morocco).
+Nuestra lista completa está en [Qué llevar para un trekking por el Alto Atlas](/es/blog/what-to-pack-high-atlas-trek-morocco).
 
 ## Entonces, ¿cuándo deberías ir?
 
@@ -408,13 +408,13 @@ Ambos itinerarios llegan a la misma cima. La diferencia es cuánto margen le das
 
 El viaje de dos días es eficiente: subida al refugio, cumbre al amanecer, vuelta a Marrakech. Funciona, y los caminantes en forma lo hacen con regularidad. Pero pasas de la altitud de la ciudad a 4.167 metros en unas treinta horas, que es mucho pedir.
 
-La versión de cuatro días entra de forma más gradual e incluye tiempo para aclimatarse antes del empujón final. Para la mayoría de la gente, esta es la diferencia entre sacarse la cumbre a pulso y disfrutarla. Lo comparamos con detalle en [Toubkal en 2 días o en 4](/en/blog/toubkal-2-day-vs-4-day-which-trek).
+La versión de cuatro días entra de forma más gradual e incluye tiempo para aclimatarse antes del empujón final. Para la mayoría de la gente, esta es la diferencia entre sacarse la cumbre a pulso y disfrutarla. Lo comparamos con detalle en [Toubkal en 2 días o en 4](/es/blog/toubkal-2-day-vs-4-day-which-trek).
 
 ## El invierno es otra montaña
 
 Todo lo anterior describe el verano. De noviembre a marzo aproximadamente, la nieve cubre la ruta superior y el Toubkal deja de ser una caminata. Los crampones, el piolet y saber usarlos pasan a ser obligatorios, y las consecuencias de un resbalón cambian por completo.
 
-Los principiantes en forma sí llegan a la cima en invierno, pero solo con un guía cualificado para condiciones invernales. Ver [Subir al Toubkal en invierno](/en/blog/toubkal-in-winter-what-to-expect).
+Los principiantes en forma sí llegan a la cima en invierno, pero solo con un guía cualificado para condiciones invernales. Ver [Subir al Toubkal en invierno](/es/blog/toubkal-in-winter-what-to-expect).
 
 ## Entonces, ¿a quién le cuesta?
 
@@ -506,7 +506,7 @@ El planteamiento honesto: el de dos días es un buen viaje que te exige más. El
 
 ## Si tienes todavía más tiempo
 
-Más días no tienen por qué significar más de lo mismo. El [circuito de seis días del Toubkal con el lago Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) añade el lago turquesa al otro lado del macizo y terreno que la mayoría de quienes van al Toubkal nunca ve. El [reto de los tres picos](/en/tours/toubkal-three-peaks-4000m-3day) está calificado como experto y recorre varias cimas de 4.000 metros.
+Más días no tienen por qué significar más de lo mismo. El [circuito de seis días del Toubkal con el lago Ifni](/es/tours/toubkal-circuit-ifni-lake-6day) añade el lago turquesa al otro lado del macizo y terreno que la mayoría de quienes van al Toubkal nunca ve. El [reto de los tres picos](/es/tours/toubkal-three-peaks-4000m-3day) está calificado como experto y recorre varias cimas de 4.000 metros.
 
 Son viajes diferentes, no versiones más largas de este.
 
@@ -516,7 +516,7 @@ No es la forma física. Es el tiempo en altitud.
 
 Si puedes dedicar los días, dedícalos. Es la mejora más barata que puedes hacer a tus probabilidades de llegar arriba sintiéndote bien, y de recordar la vista en lugar del esfuerzo.
 
-Para más sobre lo que exige físicamente el trekking, ver [¿Qué tan difícil es el Toubkal, en realidad?](/en/blog/how-hard-is-toubkal-difficulty-guide)
+Para más sobre lo que exige físicamente el trekking, ver [¿Qué tan difícil es el Toubkal, en realidad?](/es/blog/how-hard-is-toubkal-difficulty-guide)
 `,
   },
   {
@@ -557,7 +557,7 @@ Si las dunas son lo importante, ve a Merzouga. Si tienes una tarde, ve a Agafay 
 
 Agafay es un paisaje rocoso y ondulado de colinas pálidas al suroeste de Marrakech. La publicidad a menudo insinúa dunas. No las hay.
 
-Lo que ofrece de verdad: un paisaje lunar extraordinario cerca de la ciudad, luz dramática al atardecer, campamentos con cena bajo un cielo genuinamente oscuro, y el Atlas como telón de fondo. Nuestro [viaje de atardecer a Agafay](/en/tours/agafay-desert-sunset) se hace en una tarde y una noche, así que no te cuesta ni un día de viaje.
+Lo que ofrece de verdad: un paisaje lunar extraordinario cerca de la ciudad, luz dramática al atardecer, campamentos con cena bajo un cielo genuinamente oscuro, y el Atlas como telón de fondo. Nuestro [viaje de atardecer a Agafay](/es/tours/agafay-desert-sunset) se hace en una tarde y una noche, así que no te cuesta ni un día de viaje.
 
 **Elígelo si** tu viaje es corto, quieres una noche de desierto sin dedicarle días a la conducción, o viajas con gente a quien no le gustarían los trayectos largos en coche.
 
@@ -569,7 +569,7 @@ Zagora está al sur del Atlas, en el valle del Draa, a la que se llega en un dí
 
 La propia ciudad tiene una historia real detrás de la parada turística: fue un punto de partida genuino de las caravanas transaharianas, y el famoso cartel de Zagora que dice "Tombouctou 52 Jours" (Tombuctú, 52 días) marca exactamente eso: la duración del trayecto en camello que hacían antaño los comerciantes desde aquí hasta Tombuctú, llevando sal, dátiles, textiles y mercancías hacia el sur y volviendo con oro y otros productos de comercio del África occidental. Esa red comercial funcionó durante siglos y solo terminó formalmente en la década de 1930 bajo la administración colonial francesa y española. Merece la pena detenerse ante el cartel por lo que realmente representa, no solo por la foto.
 
-El trato es sencillo: bastante menos conducción que a Merzouga, y una noche real en el desierto. Nuestro [viaje de dos días a Zagora](/en/tours/zagora-2day-marrakech) está calificado como fácil, con la distancia cubierta en vehículo.
+El trato es sencillo: bastante menos conducción que a Merzouga, y una noche real en el desierto. Nuestro [viaje de dos días a Zagora](/es/tours/zagora-2day-marrakech) está calificado como fácil, con la distancia cubierta en vehículo.
 
 **Elígelo si** tienes exactamente dos días y quieres una noche de desierto de verdad en lugar de una cena en un desierto de piedra.
 
@@ -579,7 +579,7 @@ El trato es sencillo: bastante menos conducción que a Merzouga, y una noche rea
 
 Erg Chebbi, junto a Merzouga, es lo auténtico: dunas de arena altas y bien definidas que cambian de color a lo largo del día. Es el paisaje que aparece en casi todas las fotografías del desierto de Marruecos.
 
-El inconveniente es la distancia. Merzouga está al otro lado del Atlas, por eso nuestro [viaje de tres días al Sahara](/en/tours/sahara-3day-marrakech) dura tres días y no menos. El trayecto cruza el puerto de Tizi n'Tichka y pasa por Aït Ben Haddou y las gargantas, así que el propio viaje tiene sus atractivos y no es tiempo muerto, pero sigue siendo mucha conducción.
+El inconveniente es la distancia. Merzouga está al otro lado del Atlas, por eso nuestro [viaje de tres días al Sahara](/es/tours/sahara-3day-marrakech) dura tres días y no menos. El trayecto cruza el puerto de Tizi n'Tichka y pasa por Aït Ben Haddou y las gargantas, así que el propio viaje tiene sus atractivos y no es tiempo muerto, pero sigue siendo mucha conducción.
 
 **Elígelo si** las dunas son la razón por la que vas, y puedes dedicar tres días.
 
@@ -595,7 +595,7 @@ El inconveniente es la distancia. Merzouga está al otro lado del Atlas, por eso
 
 ## Y si quieres menos gente
 
-Hay una cuarta opción que la mayoría de las comparativas se saltan. **Erg Chegaga** es más remoto que Merzouga, se llega en 4x4, con muchos menos campamentos a la vista. Nuestro [viaje de tres días a Erg Chegaga](/en/tours/erg-chegaga-3day-marrakech) está calificado como moderado en lugar de fácil, reflejando el acceso más duro.
+Hay una cuarta opción que la mayoría de las comparativas se saltan. **Erg Chegaga** es más remoto que Merzouga, se llega en 4x4, con muchos menos campamentos a la vista. Nuestro [viaje de tres días a Erg Chegaga](/es/tours/erg-chegaga-3day-marrakech) está calificado como moderado en lugar de fácil, reflejando el acceso más duro.
 
 Si la soledad te importa más que la comodidad, esa es la que hay que mirar.
 
@@ -638,7 +638,7 @@ La mayoría de los contenidos sobre el desierto de Marruecos tratan "el Sahara" 
 
 Estas son las dunas de las fotografías. Erg Chebbi cubre unos 170 kilómetros cuadrados —unos 28 km de norte a sur y 5-7 km de este a oeste—, un campo de dunas genuinamente compacto y contenido para los estándares saharianos, lo cual explica en parte su accesibilidad: nunca estás lejos de su borde. Las dunas se elevan hasta unos 150 metros sobre la llanura rocosa que las rodea, con una transición tan abrupta que el paso de la hamada llana al mar de dunas completo parece casi artificial, y las dunas cambian de color de forma convincente desde el amanecer hasta el atardecer.
 
-El acceso es sencillo: nuestro [viaje de tres días al Sahara](/en/tours/sahara-3day-marrakech) está calificado como fácil, con la distancia cubierta por carretera y solo un breve tramo en camello hasta el campamento.
+El acceso es sencillo: nuestro [viaje de tres días al Sahara](/es/tours/sahara-3day-marrakech) está calificado como fácil, con la distancia cubierta por carretera y solo un breve tramo en camello hasta el campamento.
 
 El inconveniente es la compañía. Chebbi es el destino consolidado, así que hay otros campamentos y otros visitantes. No estás solo ahí fuera, aunque las dunas son lo bastante grandes como para absorber a la gente mejor de lo que cabría esperar.
 
@@ -648,7 +648,7 @@ El inconveniente es la compañía. Chebbi es el destino consolidado, así que ha
 
 Chegaga es el erg más grande de Marruecos, con una superficie de unos 35 por 15 kilómetros, bastante mayor que la de Chebbi, aunque con un perfil de dunas más bajo y ondulado en lugar de los picos abruptos y esculpidos de Chebbi. Se percibe como vasto más que como escultural: un mar de arena más que un muro de dunas, situado a unos 56 kilómetros al suroeste de la pequeña ciudad de M'Hamid El Ghizlane, que ya de por sí está bien pasado el punto donde termina la carretera asfaltada.
 
-Lo que lo define es la lejanía. La aproximación final se hace en 4x4 por desierto abierto, y los campamentos allí son tan escasos que puedes de verdad no ver ninguno más que el tuyo. Nuestros viajes a Erg Chegaga salen tanto de [Marrakech](/en/tours/erg-chegaga-3day-marrakech) como de [Agadir](/en/tours/erg-chegaga-3day-agadir), y están calificados como moderados en lugar de fáciles precisamente por ese acceso.
+Lo que lo define es la lejanía. La aproximación final se hace en 4x4 por desierto abierto, y los campamentos allí son tan escasos que puedes de verdad no ver ninguno más que el tuyo. Nuestros viajes a Erg Chegaga salen tanto de [Marrakech](/es/tours/erg-chegaga-3day-marrakech) como de [Agadir](/es/tours/erg-chegaga-3day-agadir), y están calificados como moderados en lugar de fáciles precisamente por ese acceso.
 
 **Elige Chegaga si** la soledad es lo que realmente buscas, y estás dispuesto a cambiar algo de comodidad y conveniencia para conseguirla.
 
@@ -669,7 +669,7 @@ Pregúntate qué te decepcionaría más: compartir la vista, o pasar unas horas 
 
 Si compartir la vista te la estropearía, ve a Chegaga. Si el traslado duro te la estropearía, ve a Chebbi. Ambos son el Sahara de verdad, y ninguno es un premio de consolación.
 
-Para ver cómo se comparan con las opciones más cortas cerca de Marrakech, ver [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+Para ver cómo se comparan con las opciones más cortas cerca de Marrakech, ver [Agafay vs Merzouga vs Zagora](/es/blog/agafay-vs-merzouga-vs-zagora).
 `,
   },
   {
@@ -704,8 +704,8 @@ La mayoría de los itinerarios por Marruecos dan por hecho Marrakech. Es la base
 
 Marrakech está al pie del Alto Atlas, y esa geografía hace la mayor parte del trabajo.
 
-- **El Alto Atlas y el Toubkal.** Imlil, el punto de partida del Toubkal, está a hora y media aproximadamente. Esa cercanía es la razón por la que el [trekking de cuatro días al Toubkal](/en/tours/toubkal-summit-trek-4day) es posible como viaje autónomo.
-- **Las rutas clásicas del desierto.** Merzouga, Zagora y Erg Chegaga salen todas de aquí, siendo el [viaje de tres días al Sahara](/en/tours/sahara-3day-marrakech) el estándar.
+- **El Alto Atlas y el Toubkal.** Imlil, el punto de partida del Toubkal, está a hora y media aproximadamente. Esa cercanía es la razón por la que el [trekking de cuatro días al Toubkal](/es/tours/toubkal-summit-trek-4day) es posible como viaje autónomo.
+- **Las rutas clásicas del desierto.** Merzouga, Zagora y Erg Chegaga salen todas de aquí, siendo el [viaje de tres días al Sahara](/es/tours/sahara-3day-marrakech) el estándar.
 - **Excursiones de un día.** El valle de Ourika, las cascadas de Ouzoud, Agafay, y Essaouira en la costa.
 - **La propia medina.** La Jemaa el-Fna, los zocos, los barrios históricos: una experiencia en sí misma y no solo un lugar donde dormir.
 
@@ -717,12 +717,12 @@ Agadir fue reconstruida tras el terremoto de 1960, así que tiene poco del tejid
 
 Lo que la ciudad reconstruida tiene en lugar de tejido antiguo es una larga playa atlántica, un clima suave todo el año, y un registro mucho más tranquilo.
 
-- **Costa y surf.** Taghazout está cerca, y nuestras [clases de surf](/en/tours/agadir-surf-lesson) se hacen en medio día.
-- **Paradise Valley.** Garganta bordeada de palmeras con pozas naturales, a hora y media aproximadamente. Ver nuestra [excursión de un día](/en/tours/paradise-valley-agadir).
-- **Parque Nacional de Souss-Massa.** Aves incluyendo flamencos y el raro ibis eremita. [Más información aquí](/en/tours/sous-massa-national-park).
-- **Taroudant.** Ciudad amurallada a menudo descrita como una Marrakech más pequeña y tranquila. [Excursión de un día](/en/tours/taroudant-day-trip-agadir).
+- **Costa y surf.** Taghazout está cerca, y nuestras [clases de surf](/es/tours/agadir-surf-lesson) se hacen en medio día.
+- **Paradise Valley.** Garganta bordeada de palmeras con pozas naturales, a hora y media aproximadamente. Ver nuestra [excursión de un día](/es/tours/paradise-valley-agadir).
+- **Parque Nacional de Souss-Massa.** Aves incluyendo flamencos y el raro ibis eremita. [Más información aquí](/es/tours/sous-massa-national-park).
+- **Taroudant.** Ciudad amurallada a menudo descrita como una Marrakech más pequeña y tranquila. [Excursión de un día](/es/tours/taroudant-day-trip-agadir).
 - **El Anti-Atlas.** Más bajo y mucho más tranquilo que el Alto Atlas, en su mejor momento a finales de invierno y en primavera.
-- **El desierto, en más días.** Viajes de [dos](/en/tours/sahara-2day-agadir) y [tres días](/en/tours/merzouga-3day-agadir) también salen de aquí.
+- **El desierto, en más días.** Viajes de [dos](/es/tours/sahara-2day-agadir) y [tres días](/es/tours/merzouga-3day-agadir) también salen de aquí.
 
 ## Cara a cara
 
@@ -747,7 +747,7 @@ Lo que la ciudad reconstruida tiene en lugar de tejido antiguo es una larga play
 
 Un punto que merece decirse con claridad. En julio y agosto, el interior de Marruecos se vuelve genuinamente severo: Marrakech y el interior desértico se complican a mediodía. El Atlántico mantiene Agadir moderada durante los mismos meses.
 
-Si tu viaje está fijado en pleno verano, eso solo puede decidirlo. Ver [La mejor época para visitar Marruecos](/en/blog/best-time-to-visit-morocco) para el panorama mes a mes.
+Si tu viaje está fijado en pleno verano, eso solo puede decidirlo. Ver [La mejor época para visitar Marruecos](/es/blog/best-time-to-visit-morocco) para el panorama mes a mes.
 `,
   },
   {
@@ -776,7 +776,7 @@ El Toubkal absorbe la mayor parte de la atención de trekking de Marruecos porqu
 
 ## Circuito del Toubkal y lago Ifni — seis días
 
-El siguiente paso natural para quien se siente atraído por el Toubkal pero quiere algo más que una carrera a la cima. El [circuito de seis días](/en/tours/toubkal-circuit-ifni-lake-6day) incluye la cima y continúa hasta el lago Ifni al otro lado del macizo: un lago turquesa en un cuenco montañoso por lo demás árido, y una de las vistas más sorprendentes del Atlas.
+El siguiente paso natural para quien se siente atraído por el Toubkal pero quiere algo más que una carrera a la cima. El [circuito de seis días](/es/tours/toubkal-circuit-ifni-lake-6day) incluye la cima y continúa hasta el lago Ifni al otro lado del macizo: un lago turquesa en un cuenco montañoso por lo demás árido, y una de las vistas más sorprendentes del Atlas.
 
 Calificado como exigente. Seis días le dan a tu cuerpo tiempo para aclimatarse bien, lo cual es un beneficio secundario de la ruta más larga que la gente subestima.
 
@@ -784,7 +784,7 @@ Calificado como exigente. Seis días le dan a tu cuerpo tiempo para aclimatarse 
 
 ## Travesía del macizo del M'Goun — siete días
 
-El segundo gran macizo de Marruecos, y el más tranquilo de las rutas de aquí. El propio Jbel M'Goun culmina a 4.071 metros, comúnmente citado como el segundo o tercer pico más alto de la cordillera según la fuente, pero sin ambigüedad uno de los pocos picos marroquíes que superan los 4.000 metros. A diferencia del granito del Toubkal, el macizo del M'Goun es en gran parte de arenisca y caliza, por eso el terreno se percibe tan diferente: profundas gargantas de colores cortan entre crestas altas en lugar de la forma más clásica de pedregal y cima del Toubkal. La [travesía de siete días](/en/tours/mgoun-massif-trek) cruza esta alta montaña, bajando por el valle de Aït Bouguemez, conocido localmente como el "Valle Feliz" por sus fértiles campos en terrazas y sus pueblos de adobe bien cuidados, donde los grupos de trekking siguen siendo una novedad más que algo rutinario.
+El segundo gran macizo de Marruecos, y el más tranquilo de las rutas de aquí. El propio Jbel M'Goun culmina a 4.071 metros, comúnmente citado como el segundo o tercer pico más alto de la cordillera según la fuente, pero sin ambigüedad uno de los pocos picos marroquíes que superan los 4.000 metros. A diferencia del granito del Toubkal, el macizo del M'Goun es en gran parte de arenisca y caliza, por eso el terreno se percibe tan diferente: profundas gargantas de colores cortan entre crestas altas en lugar de la forma más clásica de pedregal y cima del Toubkal. La [travesía de siete días](/es/tours/mgoun-massif-trek) cruza esta alta montaña, bajando por el valle de Aït Bouguemez, conocido localmente como el "Valle Feliz" por sus fértiles campos en terrazas y sus pueblos de adobe bien cuidados, donde los grupos de trekking siguen siendo una novedad más que algo rutinario.
 
 Lo calificamos como experto. No porque ningún día concreto sea técnico, sino porque siete días consecutivos de caminata en terreno remoto con opciones limitadas de escape exigen más que una ruta más corta y mejor atendida.
 
@@ -792,13 +792,13 @@ Lo calificamos como experto. No porque ningún día concreto sea técnico, sino 
 
 ## Tres picos de 4.000 m del Toubkal — tres días
 
-La opción concentrada. [Tres días](/en/tours/toubkal-three-peaks-4000m-3day), varias cimas de 4.000 metros, calificado como experto. Es la ruta más corta de aquí pero no la más fácil: la dificultad está concentrada en pocos días en lugar de repartida.
+La opción concentrada. [Tres días](/es/tours/toubkal-three-peaks-4000m-3day), varias cimas de 4.000 metros, calificado como experto. Es la ruta más corta de aquí pero no la más fácil: la dificultad está concentrada en pocos días en lugar de repartida.
 
 **Elígelo si** ya te sientes cómodo en altitud y quieres el máximo desnivel en una ventana corta.
 
 ## Anti-Atlas — tres días
 
-Un carácter de montaña completamente distinto. El [trekking de tres días por el Anti-Atlas](/en/tours/anti-atlas-trekking-agadir) desde Agadir cruza un terreno más bajo y seco alrededor de Tafraoute, con formaciones de granito, almendros y pueblos dispersos por el paisaje.
+Un carácter de montaña completamente distinto. El [trekking de tres días por el Anti-Atlas](/es/tours/anti-atlas-trekking-agadir) desde Agadir cruza un terreno más bajo y seco alrededor de Tafraoute, con formaciones de granito, almendros y pueblos dispersos por el paisaje.
 
 Calificado como moderado, la ruta más accesible de aquí. Su temporada es inversa respecto al Alto Atlas: finales de invierno y primavera son ideales, y el verano resulta demasiado caluroso y expuesto.
 
@@ -824,7 +824,7 @@ Calificado como moderado, la ruta más accesible de aquí. Su temporada es inver
 
 Si es tu primer trekking de varios días en Marruecos, el circuito de Ifni es el mejor equilibrio entre ambición y apoyo. Si ya lo has hecho antes y quieres tranquilidad, el M'Goun es la opción.
 
-Para cómo se comparan las rutas estándar del Toubkal, ver [Toubkal en 2 días o en 4](/en/blog/toubkal-2-day-vs-4-day-which-trek), y [¿Qué tan difícil es el Toubkal, en realidad?](/en/blog/how-hard-is-toubkal-difficulty-guide) para lo que implica realmente la caminata.
+Para cómo se comparan las rutas estándar del Toubkal, ver [Toubkal en 2 días o en 4](/es/blog/toubkal-2-day-vs-4-day-which-trek), y [¿Qué tan difícil es el Toubkal, en realidad?](/es/blog/how-hard-is-toubkal-difficulty-guide) para lo que implica realmente la caminata.
 `,
   },
   {
@@ -861,13 +861,13 @@ Por eso todo viaje al desierto que organizamos desde Agadir dura al menos dos d�
 
 ## Las opciones
 
-**[Dos días a Zagora](/en/tours/sahara-2day-agadir)** — el viaje genuino más corto al desierto desde Agadir. Una noche en el desierto, dunas más pequeñas que las de Erg Chebbi, y la menor conducción de cualquier opción real. Calificado como fácil.
+**[Dos días a Zagora](/es/tours/sahara-2day-agadir)** — el viaje genuino más corto al desierto desde Agadir. Una noche en el desierto, dunas más pequeñas que las de Erg Chebbi, y la menor conducción de cualquier opción real. Calificado como fácil.
 
-**[Tres días a Merzouga](/en/tours/merzouga-3day-agadir)** — llega a Erg Chebbi, las dunas altas que la mayoría se imagina. El día extra es lo que te consigue el mejor campo de dunas. Calificado como fácil pese a la distancia, ya que la conducción está repartida.
+**[Tres días a Merzouga](/es/tours/merzouga-3day-agadir)** — llega a Erg Chebbi, las dunas altas que la mayoría se imagina. El día extra es lo que te consigue el mejor campo de dunas. Calificado como fácil pese a la distancia, ya que la conducción está repartida.
 
-**[Tres días a Erg Chegaga](/en/tours/erg-chegaga-3day-agadir)** — la alternativa remota, a la que se llega en 4x4 por desierto abierto con muchos menos campamentos a la vista. Calificado como moderado, reflejando el acceso más duro.
+**[Tres días a Erg Chegaga](/es/tours/erg-chegaga-3day-agadir)** — la alternativa remota, a la que se llega en 4x4 por desierto abierto con muchos menos campamentos a la vista. Calificado como moderado, reflejando el acceso más duro.
 
-**[Cuatro días](/en/tours/desert-4day-agadir)** — el mismo terreno a un ritmo más relajado, con más paradas integradas en la ruta en lugar de más tiempo en las dunas.
+**[Cuatro días](/es/tours/desert-4day-agadir)** — el mismo terreno a un ritmo más relajado, con más paradas integradas en la ruta en lugar de más tiempo en las dunas.
 
 ## Lo que muestra la ruta desde Agadir
 
@@ -894,7 +894,7 @@ Solo si el desierto es la única razón de tu viaje. Marrakech está más cerca 
 
 Pero si estás en Agadir por la costa, el surf o el Anti-Atlas, cambiar de base solo por trayectos más cortos al desierto no compensa la interrupción. Los viajes desde Agadir funcionan.
 
-Para ver cómo difieren entre sí los campos de dunas, ver [Erg Chebbi vs Erg Chegaga](/en/blog/erg-chebbi-vs-erg-chegaga). Para elegir base desde el principio, ver [Marrakech o Agadir](/en/blog/marrakech-vs-agadir-which-base).
+Para ver cómo difieren entre sí los campos de dunas, ver [Erg Chebbi vs Erg Chegaga](/es/blog/erg-chebbi-vs-erg-chegaga). Para elegir base desde el principio, ver [Marrakech o Agadir](/es/blog/marrakech-vs-agadir-which-base).
 `,
   },
   {
@@ -929,37 +929,37 @@ La más destacada. Una garganta bordeada de palmeras en las estribaciones del An
 
 Los niveles de agua oscilan mucho con las estaciones: tras las lluvias de invierno las pozas están en su mejor momento, y tras una sequía prolongada algunas se reducen o desaparecen. Las laderas sobre la garganta están cubiertas de argán, el mismo árbol del que depende la industria marroquí del aceite de argán y que apenas se encuentra en ningún otro lugar del planeta fuera de este rincón del país. Ve temprano: a media mañana en temporada alta las pozas principales están llenas de gente.
 
-[Nuestra excursión de un día](/en/tours/paradise-valley-agadir) está calificada como fácil y funciona bien con niños.
+[Nuestra excursión de un día](/es/tours/paradise-valley-agadir) está calificada como fácil y funciona bien con niños.
 
 ## Taroudant
 
 Una ciudad amurallada hacia el interior, a menudo llamada "la pequeña Marrakech", aunque la comparación resta valor a lo que realmente merece la visita, que es precisamente que *no* es Marrakech. Murallas intactas, zocos en activo, y una fracción de la presión turística.
 
-Si la medina de Marrakech suena atractiva en teoría pero agotadora en la práctica, [Taroudant](/en/tours/taroudant-day-trip-agadir) es la versión más suave de la misma idea.
+Si la medina de Marrakech suena atractiva en teoría pero agotadora en la práctica, [Taroudant](/es/tours/taroudant-day-trip-agadir) es la versión más suave de la misma idea.
 
 ## Essaouira
 
 La más larga de estas excursiones y aun así merece la pena. Un puerto fortificado en el Atlántico con una medina declarada Patrimonio de la Humanidad, barcas de pesca azules, murallas que se pueden recorrer, y un viento que la convierte en un centro de kitesurf.
 
-El trayecto costero hacia el norte es genuinamente escénico. Cuenta con un día completo. [Más información aquí](/en/tours/agadir-to-essaouira-day-trip).
+El trayecto costero hacia el norte es genuinamente escénico. Cuenta con un día completo. [Más información aquí](/es/tours/agadir-to-essaouira-day-trip).
 
 ## Parque Nacional de Souss-Massa
 
 Al sur de Agadir, protege humedales y hábitat costero donde el río Souss se encuentra con el Atlántico. El atractivo para los observadores de aves es el ibis eremita, y esta es una auténtica historia de éxito de conservación, no solo un pájaro para tachar en una lista. La especie estuvo a punto de desaparecer por completo; la costa atlántica de Marruecos alberga la única población silvestre autosuficiente que queda en el planeta, ya que las últimas colonias silvestres en otras partes de Oriente Medio se extinguieron. Tras la creación del Parque Nacional de Souss-Massa en 1991 y la llegada de medidas de protección específicas a principios de los años noventa, la población reproductora local pasó de unas 59 parejas en 1997 a bien más de 140 parejas dos décadas después, una recuperación lo bastante grande como para que la especie fuera oficialmente rebajada de "En peligro crítico" a la categoría menos severa de "En peligro" en 2018. Flamencos y otras aves acuáticas comparten los mismos humedales, pero el ibis es la razón por la que los observadores serios dedican un día entero a este parque.
 
-Más tranquila y especializada que las demás excursiones de aquí. [Más información](/en/tours/sous-massa-national-park).
+Más tranquila y especializada que las demás excursiones de aquí. [Más información](/es/tours/sous-massa-national-park).
 
 ## La costa surfera
 
 Taghazout, un poco más arriba en la costa, pasó de pueblo pesquero a pueblo de surf sin perder del todo la primera identidad. Oleaje atlántico constante, una serie de conocidos point breaks, y un montaje adecuado para principiantes.
 
-Nuestras [clases de surf](/en/tours/agadir-surf-lesson) se hacen en medio día, así que esta es la única excursión de aquí que te deja una tarde libre.
+Nuestras [clases de surf](/es/tours/agadir-surf-lesson) se hacen en medio día, así que esta es la única excursión de aquí que te deja una tarde libre.
 
 ## Hacia el Anti-Atlas
 
 Si un día no basta, el Anti-Atlas detrás de Agadir es una región de trekking por derecho propio: más baja y seca que el Alto Atlas, en su mejor momento a finales de invierno y en primavera, cuando florece el almendro alrededor de Tafraoute.
 
-Ver [Trekking por el Anti-Atlas](/en/blog/anti-atlas-trekking-guide).
+Ver [Trekking por el Anti-Atlas](/es/blog/anti-atlas-trekking-guide).
 
 ## Cómo elegir
 
@@ -975,7 +975,7 @@ Ver [Trekking por el Anti-Atlas](/en/blog/anti-atlas-trekking-guide).
 
 Sal temprano. Cada una de estas excursiones está a entre una y tres horas, y la diferencia entre salir a las siete y salir a las nueve es la diferencia entre llegar antes que la multitud o después.
 
-Para viajes al desierto desde Agadir, que necesitan más de un día, ver [¿Se puede visitar el Sahara desde Agadir?](/en/blog/sahara-desert-from-agadir)
+Para viajes al desierto desde Agadir, que necesitan más de un día, ver [¿Se puede visitar el Sahara desde Agadir?](/es/blog/sahara-desert-from-agadir)
 `,
   },
   {
@@ -1028,11 +1028,11 @@ El fondo del cañón es llano y fácil de caminar; no hace falta senderismo téc
 
 **Cuánto tiempo reservar:** 30-60 minutos cubren lo esencial; los escaladores o quienes quieran caminar más allá de la sección estrecha deben reservar medio día.
 
-**Combinar con:** La palmeraie de Tinghir y el país de kasbahs del [valle del Dadès](/en/blog/dades-valley-gorges-guide), que está en la misma carretera a poca distancia.
+**Combinar con:** La palmeraie de Tinghir y el país de kasbahs del [valle del Dadès](/es/blog/dades-valley-gorges-guide), que está en la misma carretera a poca distancia.
 
 ## Qué tours pasan por aquí
 
-La Garganta del Todra está incluida como parada en nuestro [tour de 3 días de Marrakech al Sahara](/en/tours/sahara-3day-marrakech), el [Gran Tour del Desierto de 4 días](/en/tours/desert-4day-marrakech), y el [tour de 3 días a Merzouga desde Agadir](/en/tours/merzouga-3day-agadir). Si estás decidiendo entre rutas del desierto en general, ver [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+La Garganta del Todra está incluida como parada en nuestro [tour de 3 días de Marrakech al Sahara](/es/tours/sahara-3day-marrakech), el [Gran Tour del Desierto de 4 días](/es/tours/desert-4day-marrakech), y el [tour de 3 días a Merzouga desde Agadir](/es/tours/merzouga-3day-agadir). Si estás decidiendo entre rutas del desierto en general, ver [Agafay vs Merzouga vs Zagora](/es/blog/agafay-vs-merzouga-vs-zagora).
 `,
   },
   {
@@ -1077,7 +1077,7 @@ Un desvío completo garganta arriba y de vuelta añade unas horas y no forma par
 
 Dadès y Todra están muy cerca en la misma carretera al este de Ouarzazate y se mencionan constantemente en la misma frase, pero son paisajes genuinamente diferentes, no dos versiones de lo mismo.
 
-Dadès es amplio y gradual: un valle de zigzags, kasbahs y palmerales irrigados que se despliega lentamente a lo largo de decenas de kilómetros. Todra es lo contrario: un cañón de caliza estrecho que aparece casi sin previo aviso, con paredes de 300 metros lo bastante cerca en algunos puntos como para tocar ambos lados con los brazos extendidos. Dadès recompensa una conducción lenta con las ventanillas bajadas. Todra recompensa bajarse del vehículo y adentrarse caminando. Ver nuestra [guía completa de la Garganta del Todra](/en/blog/todra-gorge-guide) para lo que eso implica realmente.
+Dadès es amplio y gradual: un valle de zigzags, kasbahs y palmerales irrigados que se despliega lentamente a lo largo de decenas de kilómetros. Todra es lo contrario: un cañón de caliza estrecho que aparece casi sin previo aviso, con paredes de 300 metros lo bastante cerca en algunos puntos como para tocar ambos lados con los brazos extendidos. Dadès recompensa una conducción lenta con las ventanillas bajadas. Todra recompensa bajarse del vehículo y adentrarse caminando. Ver nuestra [guía completa de la Garganta del Todra](/es/blog/todra-gorge-guide) para lo que eso implica realmente.
 
 Si solo tienes tiempo para uno en un itinerario apretado, Dadès es la mejor opción para quienes quieren arquitectura de kasbahs y paisaje de valle; Todra es la mejor opción para quienes quieren una única escena geológica dramática.
 
@@ -1091,7 +1091,7 @@ Si solo tienes tiempo para uno en un itinerario apretado, Dadès es la mejor opc
 
 ## Qué tours pasan por aquí
 
-El valle del Dadès forma parte de la ruta en nuestra [expedición de 3 días a Erg Chegaga](/en/tours/erg-chegaga-3day-marrakech), el [Gran Tour del Desierto de 4 días](/en/tours/desert-4day-marrakech), y el [tour de 3 días a Merzouga desde Agadir](/en/tours/merzouga-3day-agadir). Para las opciones más cortas de 2 días que no llegan tan lejos, ver [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+El valle del Dadès forma parte de la ruta en nuestra [expedición de 3 días a Erg Chegaga](/es/tours/erg-chegaga-3day-marrakech), el [Gran Tour del Desierto de 4 días](/es/tours/desert-4day-marrakech), y el [tour de 3 días a Merzouga desde Agadir](/es/tours/merzouga-3day-agadir). Para las opciones más cortas de 2 días que no llegan tan lejos, ver [Agafay vs Merzouga vs Zagora](/es/blog/agafay-vs-merzouga-vs-zagora).
 
 ## Preguntas habituales
 
@@ -1156,7 +1156,7 @@ Skoura rara vez recibe más que una breve parada en un itinerario estándar: un 
 
 ## Qué tours pasan por aquí
 
-Skoura está incluida en nuestro [Gran Tour del Desierto de 4 días](/en/tours/desert-4day-marrakech), diseñado para cubrir más de la carretera Ouarzazate-Merzouga que las opciones más cortas de 2 y 3 días. Para el país de kasbahs y cañones más adelante en la misma carretera, ver nuestras guías del [valle del Dadès](/en/blog/dades-valley-gorges-guide) y de la [Garganta del Todra](/en/blog/todra-gorge-guide). Si estás decidiendo cuántos días necesitas para la ruta completa, ver [Toubkal en 2 días o en 4](/en/blog/toubkal-2-day-vs-4-day-which-trek) para cómo pensamos ese equilibrio en general, o [Lo que realmente cuesta un tour al desierto en Marruecos](/en/blog/how-much-does-a-morocco-desert-tour-cost) para la versión específica del desierto.
+Skoura está incluida en nuestro [Gran Tour del Desierto de 4 días](/es/tours/desert-4day-marrakech), diseñado para cubrir más de la carretera Ouarzazate-Merzouga que las opciones más cortas de 2 y 3 días. Para el país de kasbahs y cañones más adelante en la misma carretera, ver nuestras guías del [valle del Dadès](/es/blog/dades-valley-gorges-guide) y de la [Garganta del Todra](/es/blog/todra-gorge-guide). Si estás decidiendo cuántos días necesitas para la ruta completa, ver [Toubkal en 2 días o en 4](/es/blog/toubkal-2-day-vs-4-day-which-trek) para cómo pensamos ese equilibrio en general, o [Lo que realmente cuesta un tour al desierto en Marruecos](/es/blog/how-much-does-a-morocco-desert-tour-cost) para la versión específica del desierto.
 `,
   },
   {
@@ -1209,7 +1209,7 @@ La mayoría de los itinerarios de tours al desierto lo tratan como una parada de
 
 ## Qué tours pasan por aquí
 
-Ait Benhaddou está en la carretera hacia Ouarzazate que usan nuestro [Gran Tour del Desierto de 4 días](/en/tours/desert-4day-marrakech) y el [tour de 3 días a Merzouga desde Agadir](/en/tours/merzouga-3day-agadir). Para el resto del mismo valle de ruta comercial, ver nuestras guías del [Oasis de Skoura](/en/blog/skoura-oasis-guide) y del [valle del Dadès](/en/blog/dades-valley-gorges-guide). Para el lado cultural-urbano de un viaje a Marruecos en general, ver [Medina de Marrakech: la guía completa del iniciado](/en/blog/marrakech-medina-complete-guide).
+Ait Benhaddou está en la carretera hacia Ouarzazate que usan nuestro [Gran Tour del Desierto de 4 días](/es/tours/desert-4day-marrakech) y el [tour de 3 días a Merzouga desde Agadir](/es/tours/merzouga-3day-agadir). Para el resto del mismo valle de ruta comercial, ver nuestras guías del [Oasis de Skoura](/es/blog/skoura-oasis-guide) y del [valle del Dadès](/es/blog/dades-valley-gorges-guide). Para el lado cultural-urbano de un viaje a Marruecos en general, ver [Medina de Marrakech: la guía completa del iniciado](/es/blog/marrakech-medina-complete-guide).
 `,
   },
   {
@@ -1264,7 +1264,7 @@ Es algo genuinamente útil de saber antes de un viaje, no solo una curiosidad cu
 
 ## Por qué esto importa en un viaje
 
-Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un guía señala un pueblo y dice "eso es un pueblo bereber", ayuda saber que no describe un enclave minoritario aislado; describe la cultura mayoritaria de las montañas que estás recorriendo, con su propia lengua, arquitectura, calendario e historia que se remonta más atrás que el propio nombre árabe del país. Si quieres la versión de esto centrada específicamente en las montañas, ver [¿Necesitas un guía para subir al Toubkal?](/en/blog/do-you-need-a-guide-to-climb-toubkal), que explica por qué esa tradición de guiado es ahora también un requisito legal.
+Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un guía señala un pueblo y dice "eso es un pueblo bereber", ayuda saber que no describe un enclave minoritario aislado; describe la cultura mayoritaria de las montañas que estás recorriendo, con su propia lengua, arquitectura, calendario e historia que se remonta más atrás que el propio nombre árabe del país. Si quieres la versión de esto centrada específicamente en las montañas, ver [¿Necesitas un guía para subir al Toubkal?](/es/blog/do-you-need-a-guide-to-climb-toubkal), que explica por qué esa tradición de guiado es ahora también un requisito legal.
 `,
   },
   {
@@ -1298,7 +1298,7 @@ La palabra en sí viene del árabe *qaṣaba*, que significa fortaleza o ciudade
 
 ## Kasbah vs ksar
 
-La palabra que en realidad buscas para todo un pueblo fortificado es ksar (plural ksour): un conjunto de edificios de estilo kasbah encerrado por un muro exterior compartido, construido colectivamente en lugar de como residencia de una sola familia. [Ait Benhaddou](/en/blog/ait-benhaddou-guide) es el ejemplo más conocido, y técnicamente es un ksar, aunque "la kasbah de Ait Benhaddou" es la frase que oirás usar indistintamente en la práctica, también por los guías.
+La palabra que en realidad buscas para todo un pueblo fortificado es ksar (plural ksour): un conjunto de edificios de estilo kasbah encerrado por un muro exterior compartido, construido colectivamente en lugar de como residencia de una sola familia. [Ait Benhaddou](/es/blog/ait-benhaddou-guide) es el ejemplo más conocido, y técnicamente es un ksar, aunque "la kasbah de Ait Benhaddou" es la frase que oirás usar indistintamente en la práctica, también por los guías.
 
 ## Telouet: cómo era realmente el poder de una kasbah
 
@@ -1314,11 +1314,11 @@ Los detalles de diseño defensivo son constantes en casi cualquier kasbah que me
 
 ## Dónde ver los mejores ejemplos
 
-La ruta de las kasbahs va hacia el este desde Marrakech, cruzando el puerto de Tizi n'Tichka hacia Ouarzazate —a veces llamada el "Hollywood del desierto" de Marruecos por sus estudios de cine— y continúa hacia los valles del Dadès y el Todra, donde la concentración de kasbahs es tan densa que la ruta tiene su propio apodo, la [Carretera de las Mil Kasbahs](/en/blog/dades-valley-gorges-guide). [Ait Benhaddou](/en/blog/ait-benhaddou-guide) y la [Kasbah Amridil en Skoura](/en/blog/skoura-oasis-guide) son los dos ejemplos más completos y accesibles de esa ruta, y la propia Telouet es un desvío que merece la pena fuera de la carretera de Tizi n'Tichka para quien tenga interés específico en la historia detrás de la arquitectura y no solo en las fotografías.
+La ruta de las kasbahs va hacia el este desde Marrakech, cruzando el puerto de Tizi n'Tichka hacia Ouarzazate —a veces llamada el "Hollywood del desierto" de Marruecos por sus estudios de cine— y continúa hacia los valles del Dadès y el Todra, donde la concentración de kasbahs es tan densa que la ruta tiene su propio apodo, la [Carretera de las Mil Kasbahs](/es/blog/dades-valley-gorges-guide). [Ait Benhaddou](/es/blog/ait-benhaddou-guide) y la [Kasbah Amridil en Skoura](/es/blog/skoura-oasis-guide) son los dos ejemplos más completos y accesibles de esa ruta, y la propia Telouet es un desvío que merece la pena fuera de la carretera de Tizi n'Tichka para quien tenga interés específico en la historia detrás de la arquitectura y no solo en las fotografías.
 
 ## Para dormir, no solo para mirar
 
-Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo una noche dentro de los gruesos muros de tierra en lugar de solo una parada fotográfica. Esto es distinto de alojarse en un riad, que es una casa de patio construida para la vida urbana, no la defensa; ver [¿Qué es un riad?](/en/blog/what-is-a-riad) para esa distinción.
+Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo una noche dentro de los gruesos muros de tierra en lugar de solo una parada fotográfica. Esto es distinto de alojarse en un riad, que es una casa de patio construida para la vida urbana, no la defensa; ver [¿Qué es un riad?](/es/blog/what-is-a-riad) para esa distinción.
 `,
   },
   {
@@ -1366,7 +1366,7 @@ Tres materiales tradicionales hacen casi todo el trabajo decorativo dentro de un
 
 ## Riad vs kasbah vs ksar
 
-Se confunden porque son todos edificios marroquíes tradicionales, pero resuelven problemas distintos. Una [kasbah](/en/blog/what-is-a-kasbah) es fortificada, construida para la defensa, históricamente en el sur. Un riad es doméstico, construido para la vida familiar privada dentro de una ciudad, sin ninguna función defensiva. Un ksar es todo un pueblo fortificado. Encontrarás riads dentro de medinas urbanas (Marrakech, Fez, Essaouira) y kasbahs en el sur presahariano; proceden de regiones y necesidades distintas.
+Se confunden porque son todos edificios marroquíes tradicionales, pero resuelven problemas distintos. Una [kasbah](/es/blog/what-is-a-kasbah) es fortificada, construida para la defensa, históricamente en el sur. Un riad es doméstico, construido para la vida familiar privada dentro de una ciudad, sin ninguna función defensiva. Un ksar es todo un pueblo fortificado. Encontrarás riads dentro de medinas urbanas (Marrakech, Fez, Essaouira) y kasbahs en el sur presahariano; proceden de regiones y necesidades distintas.
 
 ## Qué esperar al alojarte en uno
 
@@ -1426,7 +1426,7 @@ Hay pruebas reales de que el Sahara se ha expandido a lo largo de aproximadament
 
 ## Verlo de verdad
 
-Los números sobre el papel no transmiten realmente lo que se siente un mar de dunas al amanecer. Para eso, ver nuestro [tour de 3 días de Marrakech al Sahara](/en/tours/sahara-3day-marrakech), o si estás comparando qué región del desierto conviene a tu viaje, [Agafay vs Merzouga vs Zagora](/en/blog/agafay-vs-merzouga-vs-zagora).
+Los números sobre el papel no transmiten realmente lo que se siente un mar de dunas al amanecer. Para eso, ver nuestro [tour de 3 días de Marrakech al Sahara](/es/tours/sahara-3day-marrakech), o si estás comparando qué región del desierto conviene a tu viaje, [Agafay vs Merzouga vs Zagora](/es/blog/agafay-vs-merzouga-vs-zagora).
 `,
   },
   {
@@ -1477,7 +1477,7 @@ Una eSIM te permite activar datos antes de aterrizar, lo cual es genuinamente ú
 
 ## Cobertura en trekking y en el desierto
 
-Sé realista sobre la señal en cuanto dejas las carreteras asfaltadas. En treks de varios días por el Alto Atlas —ver [Qué llevar para un trekking por el Alto Atlas](/en/blog/what-to-pack-high-atlas-trek-morocco)— hay cobertura en pueblos como Imlil pero se adelgaza o desaparece en altitud y en los valles más remotos. En el desierto, las ciudades tienen señal; las dunas y los campamentos del desierto generalmente no. Avisa a la gente en casa de cuándo esperar noticias tuyas, en lugar de asumir que tendrás señal todo el viaje.
+Sé realista sobre la señal en cuanto dejas las carreteras asfaltadas. En treks de varios días por el Alto Atlas —ver [Qué llevar para un trekking por el Alto Atlas](/es/blog/what-to-pack-high-atlas-trek-morocco)— hay cobertura en pueblos como Imlil pero se adelgaza o desaparece en altitud y en los valles más remotos. En el desierto, las ciudades tienen señal; las dunas y los campamentos del desierto generalmente no. Avisa a la gente en casa de cuándo esperar noticias tuyas, en lugar de asumir que tendrás señal todo el viaje.
 
 ## Una forma sencilla de decidir
 
@@ -1546,7 +1546,7 @@ La luz del desierto es genuinamente espectacular a ambos extremos del día, y mu
 
 ## Si tu viaje combina desierto y montañas
 
-Algunos de nuestros itinerarios —el [Gran Tour del Desierto de 4 días](/en/tours/desert-4day-marrakech), por ejemplo— cubren mucho terreno y mucho rango de temperatura en poco tiempo. Si tu viaje también incluye trekking en el Alto Atlas, cruza esta lista con [Qué llevar para un trekking por el Alto Atlas](/en/blog/what-to-pack-high-atlas-trek-morocco); la lista de montaña necesita capas más técnicas que la del desierto.
+Algunos de nuestros itinerarios —el [Gran Tour del Desierto de 4 días](/es/tours/desert-4day-marrakech), por ejemplo— cubren mucho terreno y mucho rango de temperatura en poco tiempo. Si tu viaje también incluye trekking en el Alto Atlas, cruza esta lista con [Qué llevar para un trekking por el Alto Atlas](/es/blog/what-to-pack-high-atlas-trek-morocco); la lista de montaña necesita capas más técnicas que la del desierto.
 `,
   },
   {
@@ -1625,7 +1625,7 @@ Genuinamente, depende de lo que busques. Los principales monumentos y treks est�
       { q: "¿Es legal el alcohol en Marruecos?", a: "Sí. Marruecos es un país de mayoría musulmana y la mayoría de los marroquíes no beben, pero el alcohol es legal para cualquier mayor de 18 años, vendido y servido en locales con licencia: bares y restaurantes de hotel, algunos bares independientes y clubes de playa, grandes supermercados como Carrefour y Marjane, y tiendas de licores dedicadas en las ciudades." },
       { q: "¿Puedo beber en público en Marruecos?", a: "No: beber en público es un delito penal, y la embriaguez visible en público puede acarrear una multa o una breve estancia en una celda hasta serenarse. Bebe dentro de locales con licencia, habitaciones de hotel o entornos privados, y lleva el alcohol con discreción en lugar de visiblemente por la medina." },
       { q: "¿Habrá alcohol disponible en un viaje al desierto o a la montaña?", a: "Rara vez, y no cuentes con ello. Los pueblos pequeños a lo largo de las rutas de desierto y trekking normalmente no tienen locales con licencia, y la mayoría de las zonas rurales no tienen ninguno en absoluto. Si te importa para tu viaje, compra lo que quieras en Marrakech o Agadir antes de salir, y bébelo con responsabilidad y discreción en tu alojamiento." },
-      { q: "¿Cambia esto durante el Ramadán?", a: "Sí: muchas tiendas de licores y algunos bares dejan de vender alcohol por completo durante el mes de Ramadán, o restringen las ventas solo a huéspedes del hotel. Si tu viaje cae en Ramadán, compra con antelación o consulta con tu hotel en lugar de asumir que las tiendas estarán abiertas; ver nuestra guía sobre [visitar Marruecos durante el Ramadán](/en/blog/visiting-morocco-during-ramadan)." },
+      { q: "¿Cambia esto durante el Ramadán?", a: "Sí: muchas tiendas de licores y algunos bares dejan de vender alcohol por completo durante el mes de Ramadán, o restringen las ventas solo a huéspedes del hotel. Si tu viaje cae en Ramadán, compra con antelación o consulta con tu hotel en lugar de asumir que las tiendas estarán abiertas; ver nuestra guía sobre [visitar Marruecos durante el Ramadán](/es/blog/visiting-morocco-during-ramadan)." },
     ],
     content: `
 ## Legal, pero canalizado por lugares específicos
@@ -1654,7 +1654,7 @@ Una vez fuera de las grandes ciudades —en los pequeños pueblos a lo largo de 
 
 ## El Ramadán cambia esto
 
-Durante el Ramadán, muchas tiendas de licores y algunos bares dejan de vender alcohol durante el mes, o restringen el servicio a huéspedes del hotel. Si tu viaje cae en Ramadán —ver [Visitar Marruecos durante el Ramadán](/en/blog/visiting-morocco-during-ramadan) para las fechas de 2026— planifica con antelación en lugar de asumir la disponibilidad normal. Este es también el mes en el que más importa la norma de visibilidad: comer y beber en público durante las horas de ayuno está ampliamente desaconsejado para todos, turistas incluidos, y eso se extiende de forma natural al alcohol.
+Durante el Ramadán, muchas tiendas de licores y algunos bares dejan de vender alcohol durante el mes, o restringen el servicio a huéspedes del hotel. Si tu viaje cae en Ramadán —ver [Visitar Marruecos durante el Ramadán](/es/blog/visiting-morocco-during-ramadan) para las fechas de 2026— planifica con antelación en lugar de asumir la disponibilidad normal. Este es también el mes en el que más importa la norma de visibilidad: comer y beber en público durante las horas de ayuno está ampliamente desaconsejado para todos, turistas incluidos, y eso se extiende de forma natural al alcohol.
 
 ## Un resumen práctico
 

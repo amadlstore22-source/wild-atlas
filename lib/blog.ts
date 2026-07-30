@@ -127,7 +127,7 @@ A Sahara trip works best as 3–5 days minimum — long enough to get deep into 
 Morocco's cities reward slow travel. A week in Fes is not too long. The souks, the food, the architecture, the music — none of it reveals itself in a day. Budget two nights minimum in any medina city and at least half a day guided by someone who grew up there.
 
 ### Water and Coast
-Essaouira and Taghazout for surfing (consistent Atlantic swell, warm water relative to Europe, professional surf schools). Paradise Valley and the Ourika River for freshwater swimming. The Todra and Dades gorges for river trekking. Morocco's water adventures are under-known and excellent.
+Essaouira and Taghazout for surfing (consistent Atlantic swell, warm water relative to Europe, professional surf schools). [Paradise Valley](/en/tours/paradise-valley-agadir) and the [Ourika River](/en/tours/ourika-valley-day-hike) for freshwater swimming, reachable as a day trip from Agadir and Marrakech respectively. The Todra and Dades gorges for river trekking. Morocco's water adventures are under-known and excellent.
 
 ## When to Go
 
@@ -555,7 +555,7 @@ The argan trees on the slopes above are worth a second look, not just scenery to
 
 ## Getting There
 
-**On a guided tour (recommended):** Our day tours from Agadir include round-trip transport, a guide who knows the best swimming spots, and a traditional Berber lunch with a local family. Pick-up from your hotel. Duration: 8:00 am–5:00 pm.
+**On a guided tour (recommended):** Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) includes round-trip transport, a guide who knows the best swimming spots, and a traditional Berber lunch with a local family. Pick-up from your hotel. Duration: 8:00 am–5:00 pm.
 
 **By taxi or car:** Take the N8 north from Agadir towards Immouzer des Ida Outanane. After approximately 30 km, follow signs to "Vallée du Paradis" or "Paradise Valley." The trailhead car park is signposted. A shared grand taxi from Agadir costs around 80–120 MAD per person.
 
@@ -717,7 +717,7 @@ What is less widely known is how deliberately closed the town stayed afterward. 
 
 **From Tangier (2.5 hours):** If you're arriving by ferry from Spain, Chefchaouen is a natural first stop.
 
-**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub.
+**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub. Because the drive is the hard part, most travellers coming from the south fold it into a longer trip: our [4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) breaks the journey with a night in Fes rather than doing it in one sitting, and there is a [5-day version from Agadir](/en/tours/agadir-to-chefchaouen-5day) if you are starting further down the coast.
 
 There is no train to Chefchaouen. The nearest train station is Fes.
 
@@ -880,7 +880,7 @@ It is the most accessible introduction to the High Atlas from the city, making i
 
 ## Getting There
 
-**On a guided tour (recommended):** Our Ourika Valley day tours include pick-up from Marrakech at 9:00 am, a knowledgeable local guide, lunch with a Berber family, and return by 5:00 pm. The guide context transforms the visit — every terrace, herb, and building has a story.
+**On a guided tour (recommended):** Our [Ourika Valley day hike from Marrakech](/en/tours/ourika-valley-day-hike) includes pick-up from Marrakech at 9:00 am, a knowledgeable local guide, lunch with a Berber family, and return by 5:00 pm. The guide context transforms the visit — every terrace, herb, and building has a story.
 
 **By private taxi:** A grand taxi from Marrakech to Setti Fatma (the end of the valley road) costs approximately 150–200 MAD per person return. Agree the price before departure.
 
@@ -897,7 +897,7 @@ The valley is dotted with traditional Berber (Amazigh) villages — flat-roofed,
 ### Setti Fatma and the Waterfalls
 At the valley's head, the village of Setti Fatma marks the start of a waterfall hike. A marked trail ascends the steep hillside above the village, crossing the river several times on stepping stones. The first and most accessible waterfall is reached in 30–40 minutes. Four more waterfalls are above, each requiring more scrambling than the last.
 
-**The route:** Riverbed walk → first waterfall (30 min) → second waterfall (+20 min) → third waterfall (+25 min). Most day visitors go to the first or second and return. The upper waterfalls are for the energetic.
+**The route:** Riverbed walk → first waterfall (30 min) → second waterfall (+20 min) → third waterfall (+25 min). Most day visitors go to the first or second and return. The upper waterfalls are for the energetic. Our [Setti Fatma waterfall day trip](/en/tours/ourika-valley-day-hike) walks the trail with a guide who knows which crossings are safe after rain.
 
 ### The River
 In spring (April–June), the Ourika River is swollen with snowmelt from the High Atlas and runs fast and clear. Children swim in the pools, and the flat rocks along the bank are perfect for a picnic. In summer the river drops and warms; in autumn it is low but crystal clear.
@@ -2349,7 +2349,7 @@ What does not work in 5 days: Marrakech, Merzouga, **and** Fes. That is 20+ hour
 
 Now it opens up. Add:
 
-- **Chefchaouen** — the blue city, 4 hours north of Fes, and worth it.
+- **[Chefchaouen](/en/tours/marrakech-to-chefchaouen-4day)** — the blue city, 4 hours north of Fes, and worth it.
 - **Essaouira** — Atlantic, windswept, relaxed, 3 hours from Marrakech. The best antidote to medina fatigue.
 - **A proper trek.** Two or three days in the High Atlas from Imlil, or a [Toubkal summit](/en/tours/toubkal-summit-trek-4day) if you are fit.
 

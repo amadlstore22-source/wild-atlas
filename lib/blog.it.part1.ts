@@ -498,7 +498,7 @@ Gli alberi di argan sui pendii sopra meritano un secondo sguardo, non solo come 
 
 ## Come arrivare
 
-**Con un tour guidato (consigliato):** i nostri tour giornalieri da Agadir includono il trasporto andata e ritorno, una guida che conosce i migliori punti per nuotare e un pranzo tradizionale berbero con una famiglia locale. Ritiro dal vostro hotel. Durata: dalle 8:00 alle 17:00.
+**Con un tour guidato (consigliato):** la nostra [escursione giornaliera a Paradise Valley da Agadir](/it/tours/paradise-valley-agadir) includono il trasporto andata e ritorno, una guida che conosce i migliori punti per nuotare e un pranzo tradizionale berbero con una famiglia locale. Ritiro dal vostro hotel. Durata: dalle 8:00 alle 17:00.
 
 **In taxi o auto:** prendete la N8 verso nord da Agadir in direzione di Immouzer des Ida Outanane. Dopo circa 30 km, seguite le indicazioni per "Vallée du Paradis" o "Paradise Valley". Il parcheggio all'inizio del sentiero è segnalato. Un grand taxi condiviso da Agadir costa circa 80-120 MAD a persona.
 
@@ -660,7 +660,7 @@ Ciò che è meno noto è quanto la città sia rimasta deliberatamente chiusa in 
 
 **Da Tangeri (2,5 ore):** se arrivate in traghetto dalla Spagna, Chefchaouen è una tappa naturale iniziale.
 
-**Da Marrakech (6-7 ore):** lungo ma fattibile come viaggio notturno in autobus o con un volo più noleggio auto passando per lo snodo di Fes.
+**Da Marrakech (6-7 ore):** lungo ma fattibile come viaggio notturno in autobus o con un volo più noleggio auto passando per lo snodo di Fes. Poiché il viaggio è la parte difficile, la maggior parte lo inserisce in un itinerario più lungo: il nostro [tour di 4 giorni da Marrakech a Chefchaouen](/it/tours/marrakech-to-chefchaouen-4day) spezza il tragitto con una notte a Fes.
 
 Non esiste un treno per Chefchaouen. La stazione ferroviaria più vicina è Fes.
 
@@ -823,7 +823,7 @@ La Valle dell'Ourika (Vallée de l'Ourika) è una lussureggiante valle fluviale 
 
 ## Come arrivare
 
-**Con un tour guidato (consigliato):** i nostri tour giornalieri alla Valle dell'Ourika includono il ritiro da Marrakech alle 9:00, una guida locale esperta, il pranzo con una famiglia berbera e il ritorno entro le 17:00. Il contesto fornito dalla guida trasforma la visita — ogni terrazza, erba e edificio ha una storia.
+**Con un tour guidato (consigliato):** la nostra [escursione giornaliera nella Valle dell'Ourika da Marrakech](/it/tours/ourika-valley-day-hike) includono il ritiro da Marrakech alle 9:00, una guida locale esperta, il pranzo con una famiglia berbera e il ritorno entro le 17:00. Il contesto fornito dalla guida trasforma la visita — ogni terrazza, erba e edificio ha una storia.
 
 **In taxi privato:** un grand taxi da Marrakech a Setti Fatma (la fine della strada della valle) costa circa 150-200 MAD a persona andata e ritorno. Concordate il prezzo prima della partenza.
 

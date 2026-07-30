@@ -62,15 +62,21 @@ Cloudflare.
       the link** — routing does nothing until you do
 - [ ] Create custom address: `info@marrakechecotours.com` → your Gmail
 - [ ] Create custom address: `bookings@marrakechecotours.com` → your Gmail
-- [ ] Send a test message to `info@marrakechecotours.com` and confirm it
-      arrives
+- [x] Send a test message to `info@marrakechecotours.com` and confirm it
+      arrives — **DONE 2026-07-30**
+
+> **What actually happened:** Cloudflare refused to activate while the old
+> Namecheap MX records existed. Deleting them took out all 16 DNS records,
+> including the two CNAMEs serving the website and the Resend records. All
+> restored — see `DNS-RECORDS.md`, which now holds every value needed to
+> rebuild from scratch.
 
 ### 2b — DMARC (1 min, do it while you are in Cloudflare)
 
 You have no DMARC record. `p=none` is monitor-only and cannot cause
 legitimate mail to be rejected.
 
-- [ ] Cloudflare → **DNS** → **Records** → **Add record**
+- [x] Cloudflare → **DNS** → **Records** → **Add record** — **DONE 2026-07-30**
       - Type: `TXT`
       - Name: `_dmarc`
       - Content: `v=DMARC1; p=none; rua=mailto:info@marrakechecotours.com; fo=1`

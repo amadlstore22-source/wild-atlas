@@ -50,9 +50,15 @@ export const SITE = {
   heroVideo: "",
   // Imlil / Tachdirt in the High Atlas — terraced valley below the snow-capped
   // Toubkal peaks, our flagship trekking base. Pexels (Mohamed Khettouch),
-  // verified subject and landscape orientation. w=2400 for a crisp 4K-class hero.
+  // verified subject and landscape orientation.
+  //
+  // w=1920, not 2400: this is the SOURCE next/image fetches before transcoding,
+  // and the largest bucket we now generate is 1920 (see deviceSizes in
+  // next.config.ts). Asking Pexels for more pixels than we ever emit just adds
+  // download and transcode time to the first uncached request — which field data
+  // identified as the homepage's LCP bottleneck.
   heroPoster:
-    "https://images.pexels.com/photos/37538532/pexels-photo-37538532.jpeg?auto=compress&cs=tinysrgb&w=2400",
+    "https://images.pexels.com/photos/37538532/pexels-photo-37538532.jpeg?auto=compress&cs=tinysrgb&w=1920",
 } as const;
 
 export const SOCIAL = {

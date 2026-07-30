@@ -46,6 +46,12 @@ const nextConfig: NextConfig = {
     // Cache optimised variants for 31 days so repeat views and other users
     // skip re-optimisation (the source images are static).
     minimumCacheTTL: 60 * 60 * 24 * 31,
+    // Drop the 2048 and 3840 buckets from the default list. With sizes="100vw"
+    // on the heroes, those buckets make Vercel transcode a 4K variant on a cold
+    // cache miss before it can respond — which real-user data showed as ~2 s
+    // between TTFB (0.85 s) and FCP (2.97 s). No hero on the site renders wider
+    // than 1920, so the large buckets only ever cost time.
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "images.pexels.com" },

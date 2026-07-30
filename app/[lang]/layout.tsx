@@ -101,6 +101,16 @@ export default async function LocaleLayout({
             moment the (deferred) map first requests a tile. */}
         <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
+        {/* Every hero and card image is a remote Pexels/Unsplash original that
+            next/image optimises on demand. On a cold cache Vercel has to fetch
+            the source before it can transcode, and real-user field data showed
+            FCP 2.97 s against TTFB 0.85 s — ~2 s of that gap is this fetch.
+            Opening the connections during HTML parse removes the DNS+TLS
+            round-trips from the critical path. */}
+        <link rel="preconnect" href="https://images.pexels.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://images.pexels.com" />
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
         {LOCALES.map((l) => (
           <link
             key={l}

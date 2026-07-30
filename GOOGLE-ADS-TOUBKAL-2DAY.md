@@ -1,7 +1,7 @@
 # Google Ads Launch Kit — 2-Day Toubkal Trek
 
 **Product:** Mount Toubkal Express — 2-Day Summit from Marrakech
-**Price:** €210 · private · 2 days / 1 night · challenging · 4.7★ (34)
+**Price:** €210 · private · 2 days / 1 night · challenging · 5.0★ (122)
 **Landing page:** https://marrakechecotours.com/en/tours/toubkal-summit-2day-marrakech
 **Goal of first campaign:** get qualified enquiries (WhatsApp / contact form / deposit), learn CPC & conversion rate cheaply, then scale.
 
@@ -129,7 +129,7 @@ Licensed Local Berber Guides
 Summit Toubkal This Weekend
 From €210 · All-Inclusive
 Small Groups, Real Locals
-Rated 4.7★ by Trekkers
+Rated 5.0★ by 122 Trekkers
 Refuge Stay + Sunrise Summit
 Book Direct, No Middleman
 Free Trip Planning on WhatsApp
@@ -262,7 +262,7 @@ Guides Berbères Diplômés
 Toubkal 4 167 m en un Week-end
 À partir de 210 € Tout Inclus
 Petits Groupes Privés
-Noté 4,7★ par les Trekkeurs
+Noté 5,0★ · 122 avis
 Nuit en Refuge + Sommet
 Réservez en Direct
 Conseils Gratuits sur WhatsApp
@@ -296,7 +296,7 @@ Lizenzierte Berber-Guides
 Toubkal an einem Wochenende
 Ab 210 € · Alles inklusive
 Kleine Gruppen, echte Locals
-4,7★ von Trekkern bewertet
+5,0★ aus 122 Bewertungen
 Berghütte + Gipfel bei Sonne
 Direkt buchen, kein Vermittler
 Gratis-Beratung per WhatsApp
@@ -330,7 +330,7 @@ Guías Bereberes Titulados
 Toubkal 4.167 m en un Finde
 Desde 210 € · Todo Incluido
 Grupos Pequeños y Privados
-Valorado 4,7★ por Viajeros
+Valorado 5,0★ · 122 reseñas
 Refugio + Cumbre al Amanecer
 Reserva Directa, Sin Comisión
 Asesoría Gratis por WhatsApp
@@ -364,7 +364,7 @@ Guide Berbere Qualificate
 Toubkal in un Weekend
 Da 210 € · Tutto Incluso
 Piccoli Gruppi Privati
-Valutato 4,7★ dai Trekker
+Valutato 5,0★ · 122 recensioni
 Rifugio + Vetta all'Alba
 Prenota Diretto
 Consulenza Gratis su WhatsApp

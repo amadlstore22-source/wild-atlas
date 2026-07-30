@@ -41,16 +41,27 @@ google-site-verification=1P_MWUoC2qufSVCnaCwdjp2lSGbzjrt2fEuJDcvOGGo
 
 ## Resend — REQUIRED for the contact form to send
 
-These live on **subdomains** and survived the deletion. Do not remove them.
+Enter the Name column in Cloudflare as just `send` / `resend._domainkey` —
+Cloudflare appends the domain itself.
 
-| Name | Type | Purpose |
+| Name | Type | Value |
 |---|---|---|
-| `send.marrakechecotours.com` | TXT | SPF for Resend |
-| `send.marrakechecotours.com` | MX | `feedback-smtp.eu-west-1.amazonses.com` |
-| `resend._domainkey.marrakechecotours.com` | TXT | DKIM |
+| `send` | TXT | `v=spf1 include:amazonses.com ~all` |
+| `send` | MX | `feedback-smtp.eu-west-1.amazonses.com` (priority 10) |
+| `resend._domainkey` | TXT | `p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMMKNBXotlV0yxNYJ4xEzibpi3DFQ+…` |
 
-If these are ever lost, re-add them from the Resend dashboard
-(Domains → marrakechecotours.com → DNS records).
+The DKIM value is truncated here on purpose — it is long and unique. Copy the
+full string from the Resend dashboard (Domains → marrakechecotours.com), never
+from this file.
+
+> These were deleted along with everything else on 2026-07-30 and re-added from
+> Resend's dashboard. An initial check appeared to show them surviving, but that
+> was only DNS cache — once the TTL expired they were gone. **Always verify
+> against the authoritative nameserver**, not a public resolver:
+>
+> ```powershell
+> Resolve-DnsName send.marrakechecotours.com -Type TXT -Server vivienne.ns.cloudflare.com
+> ```
 
 ---
 
@@ -69,14 +80,14 @@ Plus DKIM TXT on `cf2024-1._domainkey`.
 
 ---
 
-## DMARC — add manually after routing is live
+## DMARC — added 2026-07-30
 
 | Type | Name | Content |
 |---|---|---|
 | TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:info@marrakechecotours.com; fo=1` |
 
 `p=none` is monitor-only and cannot cause legitimate mail to be rejected.
-Tighten to `p=quarantine` later once reports look clean.
+Tighten to `p=quarantine` later once the aggregate reports look clean.
 
 ---
 

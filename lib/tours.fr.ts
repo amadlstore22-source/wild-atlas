@@ -1388,7 +1388,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    title: "Erg Chegaga — Expédition désertique reculée de 3 jours",
+    title: "Erg Chegaga au départ de Marrakech — Expédition désertique reculée de 3 jours",
     category: "desert",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2267,7 +2267,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
-    title: "Circuit du Toubkal et lac d'Ifni — Trek de 6 jours",
+    title: "Circuit du Toubkal et lac d'Ifni au départ de Marrakech — Trek de 6 jours",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2475,7 +2475,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
-    title: "Sommet du Toubkal via le col d'Aguelzim — Trek de 3 jours",
+    title: "Sommet du Toubkal via le col d'Aguelzim au départ de Marrakech — Trek de 3 jours",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2566,7 +2566,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
-    title: "Toubkal — Trois sommets à 4 000 m — Défi de 3 jours",
+    title: "Toubkal au départ de Marrakech — Trois sommets à 4 000 m — Défi de 3 jours",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -2719,7 +2719,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
-    title: "Observation des étoiles dans le Sahara à Merzouga — Circuit désert ciel étoilé de 2 jours",
+    title: "Observation des étoiles dans le Sahara à Merzouga au départ de Marrakech — Circuit désert ciel étoilé de 2 jours",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",
@@ -2795,7 +2795,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
-    title: "Vallée d'Azzaden — Trek de 2 jours dans l'Atlas",
+    title: "Vallée d'Azzaden au départ de Marrakech — Trek de 2 jours dans l'Atlas",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2871,7 +2871,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
-    title: "Villages du Haut Atlas — Trek de 3 jours",
+    title: "Villages du Haut Atlas au départ de Marrakech — Trek de 3 jours",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2958,7 +2958,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    title: "Haut Atlas en famille — Trek doux de 4 jours",
+    title: "Haut Atlas en famille au départ de Marrakech — Trek doux de 4 jours",
     category: "trekking",
     origin: "marrakech",
     difficulty: "easy",
@@ -3152,7 +3152,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
-    title: "Grande Traversée du Haut Atlas — Trek de 15 jours du M'Goun au Toubkal",
+    title: "Grande Traversée du Haut Atlas au départ de Marrakech — Trek de 15 jours du M'Goun au Toubkal",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -3366,7 +3366,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
-    title: "Sommet du Toubkal & Sahara — Circuit 5 jours de la montagne au désert",
+    title: "Sommet du Toubkal & Sahara au départ de Marrakech — Circuit 5 jours de la montagne au désert",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",

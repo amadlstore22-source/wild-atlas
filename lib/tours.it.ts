@@ -1379,7 +1379,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    title: "Erg Chegaga — Spedizione nel Deserto Remoto di 3 Giorni",
+    title: "Erg Chegaga da Marrakech — Spedizione nel Deserto Remoto di 3 Giorni",
     category: "desert",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2258,7 +2258,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
-    title: "Circuito del Toubkal e Lago Ifni — Trekking di 6 Giorni",
+    title: "Circuito del Toubkal e Lago Ifni da Marrakech — Trekking di 6 Giorni",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2466,7 +2466,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
-    title: "Vetta del Toubkal via il Passo di Aguelzim — Trekking di 3 Giorni",
+    title: "Vetta del Toubkal via il Passo di Aguelzim da Marrakech — Trekking di 3 Giorni",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2557,7 +2557,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
-    title: "Toubkal Tre Vette Oltre i 4.000 m — Sfida di 3 Giorni",
+    title: "Toubkal Tre Vette Oltre i 4.000 m da Marrakech — Sfida di 3 Giorni",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -2710,7 +2710,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
-    title: "Osservazione delle Stelle nel Sahara di Merzouga — Tour del Deserto Dark Sky di 2 Giorni",
+    title: "Osservazione delle Stelle nel Sahara di Merzouga da Marrakech — Tour del Deserto Dark Sky di 2 Giorni",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",
@@ -2786,7 +2786,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
-    title: "Valle di Azzaden — Trekking di 2 giorni nell'Atlante",
+    title: "Valle di Azzaden da Marrakech — Trekking di 2 giorni nell'Atlante",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2862,7 +2862,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
-    title: "Villaggi dell'Alto Atlante — Trekking di 3 giorni",
+    title: "Villaggi dell'Alto Atlante da Marrakech — Trekking di 3 giorni",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2949,7 +2949,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    title: "Alto Atlante in famiglia — Trekking dolce di 4 giorni",
+    title: "Alto Atlante in famiglia da Marrakech — Trekking dolce di 4 giorni",
     category: "trekking",
     origin: "marrakech",
     difficulty: "easy",
@@ -3143,7 +3143,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
-    title: "Grande Traversata dell'Alto Atlante — Trekking di 15 giorni dal M'Goun al Toubkal",
+    title: "Grande Traversata dell'Alto Atlante da Marrakech — Trekking di 15 giorni dal M'Goun al Toubkal",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -3357,7 +3357,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
-    title: "Cima del Toubkal e Sahara — Tour di 5 giorni dalla montagna al deserto",
+    title: "Cima del Toubkal e Sahara da Marrakech — Tour di 5 giorni dalla montagna al deserto",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",

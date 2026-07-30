@@ -1379,7 +1379,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    title: "أرق الشيݣاݣة — رحلة استكشاف صحراوية نائية 3 أيام",
+    title: "أرق الشيݣاݣة من مراكش — رحلة استكشاف صحراوية نائية 3 أيام",
     category: "desert",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2258,7 +2258,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
-    title: "دورة توبقال وبحيرة إفني — رحلة 6 أيام",
+    title: "دورة توبقال وبحيرة إفني من مراكش — رحلة 6 أيام",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2466,7 +2466,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
-    title: "قمة توبقال عبر ممر أݣلزيم — رحلة 3 أيام",
+    title: "قمة توبقال عبر ممر أݣلزيم من مراكش — رحلة 3 أيام",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2557,7 +2557,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
-    title: "توبقال — ثلاث قمم بارتفاع 4,000 م — تحدي 3 أيام",
+    title: "توبقال من مراكش — ثلاث قمم بارتفاع 4,000 م — تحدي 3 أيام",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -2710,7 +2710,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
-    title: "مراقبة النجوم في صحراء مرزوكة — جولة صحراوية للسماء المظلمة يومين",
+    title: "مراقبة النجوم في صحراء مرزوكة من مراكش — جولة صحراوية للسماء المظلمة يومين",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",
@@ -2786,7 +2786,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
-    title: "وادي أزادن — رحلة تسلق يومين في جبال الأطلس",
+    title: "وادي أزادن من مراكش — رحلة تسلق يومين في جبال الأطلس",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2862,7 +2862,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
-    title: "قرى الأطلس الكبير — رحلة تسلق 3 أيام",
+    title: "قرى الأطلس الكبير من مراكش — رحلة تسلق 3 أيام",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2949,7 +2949,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    title: "الأطلس الكبير للعائلات — رحلة لطيفة من 4 أيام",
+    title: "الأطلس الكبير للعائلات من مراكش — رحلة لطيفة من 4 أيام",
     category: "trekking",
     origin: "marrakech",
     difficulty: "easy",
@@ -3143,7 +3143,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
-    title: "العبور الكبير للأطلس الكبير — رحلة 15 يوماً من مݣون إلى توبقال",
+    title: "العبور الكبير للأطلس الكبير من مراكش — رحلة 15 يوماً من مݣون إلى توبقال",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -3357,7 +3357,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
-    title: "قمة توبقال والصحراء — رحلة 5 أيام من الجبل إلى الصحراء",
+    title: "قمة توبقال والصحراء من مراكش — رحلة 5 أيام من الجبل إلى الصحراء",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",

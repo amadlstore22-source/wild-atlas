@@ -56,8 +56,16 @@ export const REVIEWS: Review[] = [
  * shares a keyword with the current tour title, then fill from the top. Keeps
  * the sidebar proof feeling specific rather than generic.
  */
+/** Departure cities and filler that appear in most tour titles — matching on
+ *  them would score every Marrakech-departing trek against a Marrakech medina
+ *  review, which is not the kind of relevance we want. */
+const GENERIC_TITLE_WORDS = new Set(["marrakech", "marrakesh", "agadir", "morocco", "moroccan", "tours"]);
+
 export function reviewsForTour(tourTitle: string, count = 2): Review[] {
-  const words = tourTitle.toLowerCase().split(/[^a-z]+/).filter((w) => w.length > 4);
+  const words = tourTitle
+    .toLowerCase()
+    .split(/[^a-z]+/)
+    .filter((w) => w.length > 4 && !GENERIC_TITLE_WORDS.has(w));
   const scored = REVIEWS.map((r) => {
     const hay = r.tour.toLowerCase();
     return { r, score: words.reduce((n, w) => n + (hay.includes(w) ? 1 : 0), 0) };

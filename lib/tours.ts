@@ -1492,7 +1492,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    title: "Erg Chegaga — 3-Day Remote Desert Expedition",
+    title: "Erg Chegaga from Marrakech — 3-Day Remote Desert Expedition",
     category: "desert",
     origin: "marrakech",
     difficulty: "moderate",
@@ -2384,7 +2384,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
-    title: "Toubkal Circuit & Ifni Lake — 6-Day Trek",
+    title: "Toubkal Circuit & Ifni Lake from Marrakech — 6-Day Trek",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2602,7 +2602,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
-    title: "Toubkal Summit via Aguelzim Pass — 3-Day Trek",
+    title: "Toubkal via Aguelzim Pass from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -2694,7 +2694,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
-    title: "Toubkal Three 4,000 m Peaks — 3-Day Challenge",
+    title: "Toubkal Three 4,000 m Peaks from Marrakech — 3-Day Challenge",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -2849,7 +2849,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
-    title: "Merzouga Sahara Stargazing — 2-Day Dark Sky Desert Tour",
+    title: "Merzouga Stargazing from Marrakech — 2-Day Dark Sky Desert Tour",
     category: "desert",
     origin: "marrakech",
     difficulty: "easy",
@@ -2926,7 +2926,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
-    title: "Azzaden Valley — 2-Day Atlas Mountains Trek",
+    title: "Azzaden Valley from Marrakech — 2-Day Atlas Mountains Trek",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -3005,7 +3005,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
-    title: "High Atlas Villages — 3-Day Trek",
+    title: "High Atlas Villages from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
     difficulty: "moderate",
@@ -3095,7 +3095,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    title: "Family High Atlas — 4-Day Gentle Trek",
+    title: "Family High Atlas from Marrakech — 4-Day Gentle Trek",
     category: "trekking",
     origin: "marrakech",
     difficulty: "easy",
@@ -3295,7 +3295,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
-    title: "High Atlas Grand Traverse — 15-Day M'Goun to Toubkal Trek",
+    title: "High Atlas Grand Traverse — 15-Day M'Goun to Toubkal Trek from Marrakech",
     category: "trekking",
     origin: "marrakech",
     difficulty: "expert",
@@ -3372,7 +3372,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
-    title: "Toubkal Summit & Sahara — 5-Day Mountain-to-Desert Tour",
+    title: "Toubkal & Sahara from Marrakech — 5-Day Mountain-to-Desert Tour",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",

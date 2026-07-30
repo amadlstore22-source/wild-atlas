@@ -1,0 +1,1410 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marrakech Eco Tours — Indexing Checklist</title>
+<style>
+  :root {
+    --bone: #F7F4EE;
+    --bone-raised: #FFFDF9;
+    --bone-sunk: #EDE7DA;
+    --ink: #1C1815;
+    --ink-muted: #6B6258;
+    --ink-faint: #9A9084;
+    --clay: #B5502E;
+    --clay-wash: #F3E2D9;
+    --clay-deep: #8B3B20;
+    --sage: #4F7A52;
+    --sage-wash: #E1EBE0;
+    --rule: #E2DACB;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+  }
+
+  :root[data-theme="dark"] {
+    --bone: #16130F;
+    --bone-raised: #1D1914;
+    --bone-sunk: #0F0D0A;
+    --ink: #EFE9DF;
+    --ink-muted: #A89E90;
+    --ink-faint: #6F675C;
+    --clay: #E08157;
+    --clay-wash: #2B1D16;
+    --clay-deep: #F2A484;
+    --sage: #7FBF83;
+    --sage-wash: #16221A;
+    --rule: #2E2820;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bone: #16130F;
+      --bone-raised: #1D1914;
+      --bone-sunk: #0F0D0A;
+      --ink: #EFE9DF;
+      --ink-muted: #A89E90;
+      --ink-faint: #6F675C;
+      --clay: #E08157;
+      --clay-wash: #2B1D16;
+      --clay-deep: #F2A484;
+      --sage: #7FBF83;
+      --sage-wash: #16221A;
+      --rule: #2E2820;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bone);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 1.5rem 6rem;
+  }
+
+  header.hero {
+    padding: 3.5rem 0 1.75rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.75rem;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--clay);
+    margin: 0 0 0.9rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.9rem, 4vw, 2.7rem);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.85rem;
+    text-wrap: balance;
+  }
+
+  .sub {
+    color: var(--ink-muted);
+    max-width: 60ch;
+    font-size: 1rem;
+    margin: 0 0 1.5rem;
+  }
+
+  /* progress */
+  .progress-card {
+    background: var(--bone-raised);
+    border: 1px solid var(--rule);
+    border-radius: 5px;
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .progress-num {
+    font-family: var(--serif);
+    font-size: 2.1rem;
+    line-height: 1;
+    color: var(--clay);
+    white-space: nowrap;
+  }
+
+  .progress-num small {
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+    font-weight: 400;
+  }
+
+  .progress-bar-track {
+    flex: 1 1 200px;
+    height: 8px;
+    background: var(--bone-sunk);
+    border-radius: 20px;
+    overflow: hidden;
+    min-width: 160px;
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--clay), var(--clay-deep));
+    border-radius: 20px;
+    width: 0%;
+    transition: width 0.25s ease;
+  }
+
+  .progress-reset {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    color: var(--ink-faint);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.4rem 0.65rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .progress-reset:hover { border-color: var(--clay); color: var(--clay); }
+
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bone);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+    margin: 1.5rem 0 1.75rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .search {
+    flex: 1 1 220px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bone-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.55rem 0.8rem;
+  }
+
+  .search svg { flex: none; opacity: 0.5; }
+
+  .search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: var(--ink);
+    font-size: 0.92rem;
+    width: 100%;
+    font-family: var(--sans);
+  }
+
+  .search input::placeholder { color: var(--ink-faint); }
+
+  .filter-toggle {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid var(--rule);
+    color: var(--ink-muted);
+    background: var(--bone-raised);
+    padding: 0.55rem 0.85rem;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .filter-toggle.active {
+    border-color: var(--sage);
+    color: var(--sage);
+    background: var(--sage-wash);
+  }
+
+  button.copyall {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid var(--clay);
+    color: var(--clay);
+    background: transparent;
+    padding: 0.55rem 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  button.copyall:hover { background: var(--clay); color: var(--bone-raised); }
+  button.copyall:active { transform: translateY(1px); }
+  button.copyall.done { background: var(--sage); border-color: var(--sage); color: var(--bone-raised); }
+
+  section.group {
+    margin-bottom: 1.1rem;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--bone-raised);
+    overflow: hidden;
+  }
+
+  .group-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.95rem 1.1rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .group-head:hover { background: var(--bone-sunk); }
+
+  .group-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    font-family: var(--serif);
+    font-size: 1.15rem;
+  }
+
+  .group-count {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    background: var(--sage-wash);
+    color: var(--sage);
+    padding: 0.15rem 0.5rem;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .group-actions { display: flex; align-items: center; gap: 0.75rem; }
+
+  .chev {
+    width: 9px; height: 9px;
+    border-right: 1.5px solid var(--ink-faint);
+    border-bottom: 1.5px solid var(--ink-faint);
+    transform: rotate(45deg);
+    transition: transform 0.18s ease;
+    flex: none;
+  }
+
+  section.group.open .chev { transform: rotate(-135deg); }
+
+  .group-body {
+    display: none;
+    border-top: 1px solid var(--rule);
+  }
+
+  section.group.open .group-body { display: block; }
+
+  .row {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 0.5rem 0.85rem;
+    align-items: center;
+    padding: 0.65rem 1.1rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.88rem;
+  }
+
+  .row:first-child { border-top: none; }
+
+  .row:hover { background: var(--clay-wash); }
+
+  .row.checked { background: var(--sage-wash); }
+  .row.checked:hover { background: var(--sage-wash); }
+
+  .row .check {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 19px;
+    height: 19px;
+    border: 1.5px solid var(--ink-faint);
+    border-radius: 4px;
+    background: var(--bone-raised);
+    cursor: pointer;
+    flex: none;
+    position: relative;
+    margin: 0;
+  }
+
+  .row .check:hover { border-color: var(--sage); }
+
+  .row .check:checked {
+    background: var(--sage);
+    border-color: var(--sage);
+  }
+
+  .row .check:checked::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid var(--bone-raised);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .row .title {
+    color: var(--ink);
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color 0.15s ease;
+  }
+
+  .row.checked .title {
+    color: var(--ink-faint);
+    text-decoration: line-through;
+    text-decoration-color: var(--ink-faint);
+    text-decoration-thickness: 1px;
+  }
+
+  .row .url {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    color: var(--clay);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .row .url:hover { text-decoration: underline; }
+  .row.checked .url { color: var(--ink-faint); }
+
+  .row .copy1 {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--ink-faint);
+    background: var(--bone-sunk);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    flex: none;
+  }
+
+  .row .copy1:hover { border-color: var(--clay); color: var(--clay); }
+  .row .copy1.done { color: var(--sage); border-color: var(--sage); }
+
+  .locale-block {
+    border-top: 1px solid var(--rule);
+  }
+
+  .locale-block:first-child { border-top: none; }
+
+  .locale-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding: 0.6rem 1.1rem 0.2rem;
+    background: var(--bone-sunk);
+  }
+
+  .empty {
+    padding: 2.5rem 1rem;
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 0.9rem;
+    display: none;
+  }
+
+  .hidden-row { display: none !important; }
+
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-faint);
+    font-size: 0.8rem;
+    font-family: var(--mono);
+  }
+
+  @media (max-width: 560px) {
+    .row { grid-template-columns: auto 1fr auto; }
+    .row .url { display: none; }
+    .row .copy1 { justify-self: end; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">marrakechecotours.com — indexing checklist</p>
+    <h1>Mark what you've indexed</h1>
+    <p class="sub">Every live URL, pulled straight from the site's real route data. Tick a box as you submit each URL in Search Console — your progress is saved in this browser and survives a reload.</p>
+    <div class="progress-card">
+      <div class="progress-num"><span id="progressCount">0</span> / <span id="progressTotal">0</span> <small>indexed</small></div>
+      <div class="progress-bar-track"><div class="progress-bar-fill" id="progressBar"></div></div>
+      <button class="progress-reset" id="resetProgress" type="button">Reset all checks</button>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="searchBox" type="text" placeholder="Filter by title or URL…" autocomplete="off" />
+    </div>
+    <button class="filter-toggle" id="hideDone" type="button">Hide indexed</button>
+    <button class="copyall" id="copyEverything" type="button">Copy all URLs</button>
+  </div>
+
+  <div id="groups"></div>
+  <p class="empty" id="emptyState">No pages match that search.</p>
+
+  <footer>generated from live site data · marrakechecotours.com · checklist state stored locally in this browser only</footer>
+</div>
+
+<script>
+  const DATA = {
+  "staticPerLocale": [
+    {
+      "lang": "en",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/en"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/en/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/en/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/en/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/en/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/en/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/en/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/en/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/en/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/en/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/en/cookies"
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/fr"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/fr/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/fr/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/fr/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/fr/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/fr/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/fr/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/fr/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/fr/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/fr/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/fr/cookies"
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/es"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/es/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/es/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/es/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/es/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/es/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/es/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/es/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/es/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/es/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/es/cookies"
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/de"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/de/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/de/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/de/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/de/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/de/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/de/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/de/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/de/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/de/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/de/cookies"
+        }
+      ]
+    },
+    {
+      "lang": "it",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/it"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/it/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/it/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/it/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/it/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/it/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/it/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/it/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/it/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/it/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/it/cookies"
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "urls": [
+        {
+          "label": "Homepage",
+          "url": "https://marrakechecotours.com/ar"
+        },
+        {
+          "label": "All Tours",
+          "url": "https://marrakechecotours.com/ar/tours"
+        },
+        {
+          "label": "Destinations",
+          "url": "https://marrakechecotours.com/ar/destinations"
+        },
+        {
+          "label": "Guides",
+          "url": "https://marrakechecotours.com/ar/guides"
+        },
+        {
+          "label": "News",
+          "url": "https://marrakechecotours.com/ar/news"
+        },
+        {
+          "label": "Blog",
+          "url": "https://marrakechecotours.com/ar/blog"
+        },
+        {
+          "label": "About",
+          "url": "https://marrakechecotours.com/ar/about"
+        },
+        {
+          "label": "Contact",
+          "url": "https://marrakechecotours.com/ar/contact"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "https://marrakechecotours.com/ar/terms"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://marrakechecotours.com/ar/privacy"
+        },
+        {
+          "label": "Cookie Policy",
+          "url": "https://marrakechecotours.com/ar/cookies"
+        }
+      ]
+    }
+  ],
+  "tours": [
+    {
+      "title": "Marrakech to Toubkal Summit — 4-Day Trek",
+      "url": "https://marrakechecotours.com/en/tours/toubkal-summit-trek-4day"
+    },
+    {
+      "title": "Marrakech to the Sahara — 3-Day Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/sahara-3day-marrakech"
+    },
+    {
+      "title": "Marrakech to Ourika Valley — Day Hike",
+      "url": "https://marrakechecotours.com/en/tours/ourika-valley-day-hike"
+    },
+    {
+      "title": "Marrakech to Ouzoud Waterfalls — Day Trip",
+      "url": "https://marrakechecotours.com/en/tours/ouzoud-waterfalls-day-trip"
+    },
+    {
+      "title": "Marrakech to Agafay Desert — Sunset & Dinner",
+      "url": "https://marrakechecotours.com/en/tours/agafay-desert-sunset"
+    },
+    {
+      "title": "Marrakech Medina — Cultural Tour",
+      "url": "https://marrakechecotours.com/en/tours/marrakech-medina-cultural-tour"
+    },
+    {
+      "title": "Marrakech to Fes — 3-Day Imperial Cities Tour",
+      "url": "https://marrakechecotours.com/en/tours/marrakech-to-fes-3day"
+    },
+    {
+      "title": "Marrakech to Mgoun Massif — 7-Day Traverse",
+      "url": "https://marrakechecotours.com/en/tours/mgoun-massif-trek"
+    },
+    {
+      "title": "Agadir to Paradise Valley & Immouzer Waterfalls",
+      "url": "https://marrakechecotours.com/en/tours/paradise-valley-agadir"
+    },
+    {
+      "title": "Agadir to Souss-Massa National Park — Wildlife Tour",
+      "url": "https://marrakechecotours.com/en/tours/sous-massa-national-park"
+    },
+    {
+      "title": "Agadir to Taroudant — Day Trip",
+      "url": "https://marrakechecotours.com/en/tours/taroudant-day-trip-agadir"
+    },
+    {
+      "title": "Agadir Beach Surf Lesson",
+      "url": "https://marrakechecotours.com/en/tours/agadir-surf-lesson"
+    },
+    {
+      "title": "Agadir to Anti-Atlas Mountains — 3-Day Trek",
+      "url": "https://marrakechecotours.com/en/tours/anti-atlas-trekking-agadir"
+    },
+    {
+      "title": "Agadir to the Sahara — 2-Day Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/sahara-2day-agadir"
+    },
+    {
+      "title": "Agadir to Souss Valley — Argan & Berber Culture Tour",
+      "url": "https://marrakechecotours.com/en/tours/souss-valley-cultural-tour"
+    },
+    {
+      "title": "Agadir to Essaouira — Day Trip",
+      "url": "https://marrakechecotours.com/en/tours/agadir-to-essaouira-day-trip"
+    },
+    {
+      "title": "Marrakech to Chefchaouen — 4-Day Blue City Tour",
+      "url": "https://marrakechecotours.com/en/tours/marrakech-to-chefchaouen-4day"
+    },
+    {
+      "title": "Marrakech — All 4 Imperial Cities — 5-Day Grand Tour",
+      "url": "https://marrakechecotours.com/en/tours/marrakech-imperial-cities-5day"
+    },
+    {
+      "title": "Marrakech to Zagora — 2-Day Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/zagora-2day-marrakech"
+    },
+    {
+      "title": "Erg Chegaga — 3-Day Remote Desert Expedition",
+      "url": "https://marrakechecotours.com/en/tours/erg-chegaga-3day-marrakech"
+    },
+    {
+      "title": "Marrakech Desert Grand Tour — 4 Days",
+      "url": "https://marrakechecotours.com/en/tours/desert-4day-marrakech"
+    },
+    {
+      "title": "Agadir to Merzouga — 3-Day Sahara Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/merzouga-3day-agadir"
+    },
+    {
+      "title": "Agadir to Zagora — 2-Day Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/zagora-2day-agadir"
+    },
+    {
+      "title": "Agadir to Erg Chegaga — 3-Day Remote Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/erg-chegaga-3day-agadir"
+    },
+    {
+      "title": "Agadir Desert Grand Tour — 4 Days",
+      "url": "https://marrakechecotours.com/en/tours/desert-4day-agadir"
+    },
+    {
+      "title": "Agadir to Fes — 4-Day Imperial Cities Tour",
+      "url": "https://marrakechecotours.com/en/tours/agadir-to-fes-4day"
+    },
+    {
+      "title": "Agadir to Chefchaouen — 5-Day Blue City Tour",
+      "url": "https://marrakechecotours.com/en/tours/agadir-to-chefchaouen-5day"
+    },
+    {
+      "title": "Agadir — All 4 Imperial Cities — 6-Day Grand Tour",
+      "url": "https://marrakechecotours.com/en/tours/agadir-imperial-cities-6day"
+    },
+    {
+      "title": "Toubkal Circuit & Ifni Lake — 6-Day Trek",
+      "url": "https://marrakechecotours.com/en/tours/toubkal-circuit-ifni-lake-6day"
+    },
+    {
+      "title": "Mount Toubkal Express — 2-Day Summit from Marrakech",
+      "url": "https://marrakechecotours.com/en/tours/toubkal-summit-2day-marrakech"
+    },
+    {
+      "title": "Toubkal Summit via Aguelzim Pass — 3-Day Trek",
+      "url": "https://marrakechecotours.com/en/tours/toubkal-aguelzim-pass-3day"
+    },
+    {
+      "title": "Toubkal Three 4,000 m Peaks — 3-Day Challenge",
+      "url": "https://marrakechecotours.com/en/tours/toubkal-three-peaks-4000m-3day"
+    },
+    {
+      "title": "Marrakech Food & Market Tour — Half-Day Culinary Walk",
+      "url": "https://marrakechecotours.com/en/tours/marrakech-food-market-tour"
+    },
+    {
+      "title": "Merzouga Sahara Stargazing — 2-Day Dark Sky Desert Tour",
+      "url": "https://marrakechecotours.com/en/tours/merzouga-stargazing-desert-tour"
+    }
+  ],
+  "categories": [
+    {
+      "title": "trekking",
+      "url": "https://marrakechecotours.com/en/categories/trekking"
+    },
+    {
+      "title": "desert",
+      "url": "https://marrakechecotours.com/en/categories/desert"
+    },
+    {
+      "title": "day-tours",
+      "url": "https://marrakechecotours.com/en/categories/day-tours"
+    },
+    {
+      "title": "cultural",
+      "url": "https://marrakechecotours.com/en/categories/cultural"
+    }
+  ],
+  "destinations": [
+    {
+      "title": "Marrakech",
+      "url": "https://marrakechecotours.com/en/destinations/marrakech"
+    },
+    {
+      "title": "High Atlas Mountains",
+      "url": "https://marrakechecotours.com/en/destinations/high-atlas"
+    },
+    {
+      "title": "Sahara Desert",
+      "url": "https://marrakechecotours.com/en/destinations/sahara"
+    },
+    {
+      "title": "Fes el-Bali",
+      "url": "https://marrakechecotours.com/en/destinations/fes"
+    },
+    {
+      "title": "Chefchaouen",
+      "url": "https://marrakechecotours.com/en/destinations/chefchaouen"
+    },
+    {
+      "title": "Agadir",
+      "url": "https://marrakechecotours.com/en/destinations/agadir"
+    },
+    {
+      "title": "Ouzoud Waterfalls",
+      "url": "https://marrakechecotours.com/en/destinations/ouzoud"
+    },
+    {
+      "title": "Essaouira",
+      "url": "https://marrakechecotours.com/en/destinations/essaouira"
+    }
+  ],
+  "guides": [
+    {
+      "title": "Smail Aitidar",
+      "url": "https://marrakechecotours.com/en/guides/smail-aitidar"
+    },
+    {
+      "title": "Mohamed Aitidar",
+      "url": "https://marrakechecotours.com/en/guides/mohamed-aitidar"
+    },
+    {
+      "title": "Lahsen Aitidar",
+      "url": "https://marrakechecotours.com/en/guides/lahsen-aitidar"
+    }
+  ],
+  "blog": [
+    {
+      "title": "Morocco: The Ultimate Adventure Travel Guide",
+      "url": "https://marrakechecotours.com/en/blog/morocco-ultimate-adventure-travel-guide"
+    },
+    {
+      "title": "How to Climb Jbel Toubkal: The Complete Guide for 2026",
+      "url": "https://marrakechecotours.com/en/blog/how-to-climb-toubkal-complete-guide"
+    },
+    {
+      "title": "Morocco's Sahara Desert: What to Expect on Your First Visit",
+      "url": "https://marrakechecotours.com/en/blog/sahara-desert-morocco-what-to-expect"
+    },
+    {
+      "title": "The Best Time to Visit Morocco (By What You Want to Do)",
+      "url": "https://marrakechecotours.com/en/blog/best-time-to-visit-morocco"
+    },
+    {
+      "title": "Marrakech to Fes by Road: The Most Spectacular Drive in Africa",
+      "url": "https://marrakechecotours.com/en/blog/marrakech-to-fes-road-trip-guide"
+    },
+    {
+      "title": "Paradise Valley Near Agadir: Everything You Need to Know",
+      "url": "https://marrakechecotours.com/en/blog/paradise-valley-agadir-complete-guide"
+    },
+    {
+      "title": "Essaouira Day Trip from Agadir: The Ultimate Guide",
+      "url": "https://marrakechecotours.com/en/blog/essaouira-day-trip-from-agadir"
+    },
+    {
+      "title": "Chefchaouen: The Blue City of Morocco — Complete Travel Guide",
+      "url": "https://marrakechecotours.com/en/blog/chefchaouen-complete-travel-guide"
+    },
+    {
+      "title": "Morocco Food Guide: 15 Dishes You Must Try (and Where to Find Them)",
+      "url": "https://marrakechecotours.com/en/blog/morocco-food-guide-what-to-eat"
+    },
+    {
+      "title": "Ourika Valley Day Trip from Marrakech: The Complete Guide",
+      "url": "https://marrakechecotours.com/en/blog/ourika-valley-day-trip-marrakech"
+    },
+    {
+      "title": "The Agafay Desert: Marrakech's Secret Rocky Wilderness",
+      "url": "https://marrakechecotours.com/en/blog/agafay-desert-marrakech-guide"
+    },
+    {
+      "title": "Marrakech Medina: The Insider's Complete Guide",
+      "url": "https://marrakechecotours.com/en/blog/marrakech-medina-complete-guide"
+    },
+    {
+      "title": "Taghazout: Morocco's Best Surf Village — Complete Guide",
+      "url": "https://marrakechecotours.com/en/blog/taghazout-surf-guide-morocco"
+    },
+    {
+      "title": "Trekking the Anti-Atlas: Morocco's Forgotten Mountain Range",
+      "url": "https://marrakechecotours.com/en/blog/anti-atlas-trekking-guide"
+    },
+    {
+      "title": "Fes Medina: How to Explore the World's Largest Car-Free City",
+      "url": "https://marrakechecotours.com/en/blog/fes-medina-travel-guide"
+    },
+    {
+      "title": "Is Morocco Safe for Tourists? An Honest Guide (2025)",
+      "url": "https://marrakechecotours.com/en/blog/is-morocco-safe-tourist-guide"
+    },
+    {
+      "title": "Gite Panorama Imlil: The Perfect Base Camp Before Toubkal",
+      "url": "https://marrakechecotours.com/en/blog/gite-panorama-imlil-base-camp-toubkal"
+    },
+    {
+      "title": "Morocco for Moroccans: Why Now Is the Best Time to Explore Your Own Country",
+      "url": "https://marrakechecotours.com/en/blog/morocco-for-moroccan-travellers-explore-your-own-country"
+    },
+    {
+      "title": "What to Pack for a High Atlas Trek: The Complete Gear List (From Our Guides)",
+      "url": "https://marrakechecotours.com/en/blog/what-to-pack-high-atlas-trek-morocco"
+    },
+    {
+      "title": "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
+      "url": "https://marrakechecotours.com/en/blog/do-you-need-a-guide-to-climb-toubkal"
+    },
+    {
+      "title": "Climbing Toubkal in Winter: What It Actually Takes",
+      "url": "https://marrakechecotours.com/en/blog/toubkal-in-winter-what-to-expect"
+    },
+    {
+      "title": "Merzouga vs Zagora: Which Desert Trip From Marrakech?",
+      "url": "https://marrakechecotours.com/en/blog/merzouga-vs-zagora-which-desert-tour"
+    },
+    {
+      "title": "What a Morocco Desert Tour Really Costs (and Why the Cheap Ones Are Cheap)",
+      "url": "https://marrakechecotours.com/en/blog/how-much-does-a-morocco-desert-tour-cost"
+    },
+    {
+      "title": "Solo Female Travel in Morocco: A Straight Answer",
+      "url": "https://marrakechecotours.com/en/blog/solo-female-travel-morocco-guide"
+    },
+    {
+      "title": "How Many Days Do You Need in Morocco?",
+      "url": "https://marrakechecotours.com/en/blog/how-many-days-do-you-need-in-morocco"
+    },
+    {
+      "title": "Toubkal Weather by Month: When to Climb and What to Expect",
+      "url": "https://marrakechecotours.com/en/blog/toubkal-weather-by-month"
+    },
+    {
+      "title": "How Hard Is Toubkal, Really? An Honest Difficulty Guide",
+      "url": "https://marrakechecotours.com/en/blog/how-hard-is-toubkal-difficulty-guide"
+    },
+    {
+      "title": "Toubkal in 2 Days or 4: Which Trek Should You Book?",
+      "url": "https://marrakechecotours.com/en/blog/toubkal-2-day-vs-4-day-which-trek"
+    },
+    {
+      "title": "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
+      "url": "https://marrakechecotours.com/en/blog/agafay-vs-merzouga-vs-zagora"
+    },
+    {
+      "title": "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
+      "url": "https://marrakechecotours.com/en/blog/erg-chebbi-vs-erg-chegaga"
+    },
+    {
+      "title": "Marrakech or Agadir: Which Base for Your Morocco Trip?",
+      "url": "https://marrakechecotours.com/en/blog/marrakech-vs-agadir-which-base"
+    },
+    {
+      "title": "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
+      "url": "https://marrakechecotours.com/en/blog/best-multi-day-treks-morocco"
+    },
+    {
+      "title": "Can You Visit the Sahara From Agadir? Yes, With Caveats",
+      "url": "https://marrakechecotours.com/en/blog/sahara-desert-from-agadir"
+    },
+    {
+      "title": "The Best Day Trips From Agadir",
+      "url": "https://marrakechecotours.com/en/blog/best-day-trips-from-agadir"
+    },
+    {
+      "title": "Todra Gorge: The Canyon on the Road to the Sahara",
+      "url": "https://marrakechecotours.com/en/blog/todra-gorge-guide"
+    },
+    {
+      "title": "Dades Valley: The Road of a Thousand Kasbahs",
+      "url": "https://marrakechecotours.com/en/blog/dades-valley-gorges-guide"
+    },
+    {
+      "title": "Skoura Oasis: A Palm Grove Full of Kasbahs",
+      "url": "https://marrakechecotours.com/en/blog/skoura-oasis-guide"
+    },
+    {
+      "title": "Ait Benhaddou: The Kasbah You've Already Seen in a Film",
+      "url": "https://marrakechecotours.com/en/blog/ait-benhaddou-guide"
+    },
+    {
+      "title": "Who Are the Berbers? An Introduction From Inside the Culture",
+      "url": "https://marrakechecotours.com/en/blog/who-are-the-berbers"
+    },
+    {
+      "title": "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
+      "url": "https://marrakechecotours.com/en/blog/what-is-a-kasbah"
+    },
+    {
+      "title": "What Is a Riad? Morocco's Courtyard House, Explained",
+      "url": "https://marrakechecotours.com/en/blog/what-is-a-riad"
+    },
+    {
+      "title": "Sahara Desert Facts: What's True, and What Gets Exaggerated",
+      "url": "https://marrakechecotours.com/en/blog/sahara-desert-facts"
+    },
+    {
+      "title": "The Best SIM Card in Morocco for Tourists (2026)",
+      "url": "https://marrakechecotours.com/en/blog/best-sim-card-morocco-tourists"
+    },
+    {
+      "title": "What to Pack for a Morocco Desert Tour",
+      "url": "https://marrakechecotours.com/en/blog/what-to-pack-desert-tour-morocco"
+    },
+    {
+      "title": "Visiting Morocco During Ramadan: What Actually Changes",
+      "url": "https://marrakechecotours.com/en/blog/visiting-morocco-during-ramadan"
+    },
+    {
+      "title": "Alcohol in Morocco: What's Legal, and Where",
+      "url": "https://marrakechecotours.com/en/blog/alcohol-in-morocco"
+    }
+  ]
+};
+  const STORAGE_KEY = "met-index-checklist-v1";
+
+  const groupsEl = document.getElementById("groups");
+  const searchBox = document.getElementById("searchBox");
+  const emptyState = document.getElementById("emptyState");
+  const copyEverythingBtn = document.getElementById("copyEverything");
+  const hideDoneBtn = document.getElementById("hideDone");
+  const resetBtn = document.getElementById("resetProgress");
+  const progressCountEl = document.getElementById("progressCount");
+  const progressTotalEl = document.getElementById("progressTotal");
+  const progressBarEl = document.getElementById("progressBar");
+
+  let checked = {};
+  try {
+    checked = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (e) { checked = {}; }
+
+  function saveChecked() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(checked)); } catch (e) {}
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  let allRowUrls = [];
+
+  function makeRow(title, url) {
+    const row = document.createElement("div");
+    row.className = "row";
+    row.dataset.url = url;
+    row.dataset.search = (title + " " + url).toLowerCase();
+    allRowUrls.push(url);
+    const isChecked = !!checked[url];
+    if (isChecked) row.classList.add("checked");
+    row.innerHTML = `
+      <input type="checkbox" class="check" ${isChecked ? "checked" : ""} aria-label="Mark ${escapeHtml(title)} as indexed" />
+      <span class="title">${escapeHtml(title)}</span>
+      <a class="url" href="${url}" target="_blank" rel="noopener noreferrer">${url.replace("https://marrakechecotours.com", "")}</a>
+      <button class="copy1" data-url="${url}" type="button">copy</button>
+    `;
+    return row;
+  }
+
+  function makeGroup(key, title, count, bodyBuilder, openByDefault) {
+    const section = document.createElement("section");
+    section.className = "group" + (openByDefault ? " open" : "");
+    section.dataset.group = key;
+
+    const head = document.createElement("div");
+    head.className = "group-head";
+    head.innerHTML = `
+      <span class="group-title">${title} <span class="group-count" data-groupcount="${key}">0 / ${count}</span></span>
+      <span class="group-actions">
+        <button class="copyall" data-copygroup="${key}" type="button">Copy section</button>
+        <span class="chev"></span>
+      </span>
+    `;
+    head.addEventListener("click", (e) => {
+      if (e.target.closest("button")) return;
+      section.classList.toggle("open");
+    });
+
+    const body = document.createElement("div");
+    body.className = "group-body";
+    bodyBuilder(body);
+
+    section.appendChild(head);
+    section.appendChild(body);
+    return section;
+  }
+
+  const staticCount = DATA.staticPerLocale.reduce((a, l) => a + l.urls.length, 0);
+
+  const staticGroup = makeGroup("static", "Static Pages (all locales)", staticCount, (body) => {
+    DATA.staticPerLocale.forEach(({ lang, urls }) => {
+      const block = document.createElement("div");
+      block.className = "locale-block";
+      block.dataset.locale = lang;
+      block.innerHTML = `<div class="locale-label"><span>${lang}</span><span data-localecount="${lang}"></span></div>`;
+      urls.forEach(({ label, url }) => block.appendChild(makeRow(label, url)));
+      body.appendChild(block);
+    });
+  }, true);
+
+  const toursGroup = makeGroup("tours", "Tours", DATA.tours.length, (body) => {
+    DATA.tours.forEach(({ title, url }) => body.appendChild(makeRow(title, url)));
+  }, false);
+
+  const blogGroup = makeGroup("blog", "Blog Posts", DATA.blog.length, (body) => {
+    DATA.blog.forEach(({ title, url }) => body.appendChild(makeRow(title, url)));
+  }, false);
+
+  const destGroup = makeGroup("destinations", "Destinations", DATA.destinations.length, (body) => {
+    DATA.destinations.forEach(({ title, url }) => body.appendChild(makeRow(title, url)));
+  }, false);
+
+  const catGroup = makeGroup("categories", "Tour Categories", DATA.categories.length, (body) => {
+    DATA.categories.forEach(({ title, url }) => body.appendChild(makeRow(title, url)));
+  }, false);
+
+  const guideGroup = makeGroup("guides", "Guide Bios", DATA.guides.length, (body) => {
+    DATA.guides.forEach(({ title, url }) => body.appendChild(makeRow(title, url)));
+  }, false);
+
+  [staticGroup, toursGroup, blogGroup, destGroup, catGroup, guideGroup].forEach(g => groupsEl.appendChild(g));
+
+  function groupUrls(key) {
+    if (key === "static") {
+      const urls = [];
+      DATA.staticPerLocale.forEach(l => l.urls.forEach(u => urls.push(u.url)));
+      return urls;
+    }
+    return DATA[key].map(u => u.url);
+  }
+
+  function updateProgress() {
+    const totalDone = allRowUrls.filter(u => checked[u]).length;
+    progressCountEl.textContent = totalDone;
+    progressTotalEl.textContent = allRowUrls.length;
+    progressBarEl.style.width = allRowUrls.length ? ((totalDone / allRowUrls.length) * 100).toFixed(1) + "%" : "0%";
+
+    document.querySelectorAll("[data-groupcount]").forEach(el => {
+      const key = el.dataset.groupcount;
+      const urls = groupUrls(key);
+      const done = urls.filter(u => checked[u]).length;
+      el.textContent = `${done} / ${urls.length}`;
+    });
+
+    document.querySelectorAll("[data-localecount]").forEach(el => {
+      const lang = el.dataset.localecount;
+      const localeData = DATA.staticPerLocale.find(l => l.lang === lang);
+      const urls = localeData.urls.map(u => u.url);
+      const done = urls.filter(u => checked[u]).length;
+      el.textContent = `${done}/${urls.length}`;
+    });
+  }
+
+  function applyHideDoneFilter() {
+    const hiding = hideDoneBtn.classList.contains("active");
+    document.querySelectorAll(".row").forEach(row => {
+      if (hiding && row.classList.contains("checked")) {
+        row.dataset.hiddenByDone = "1";
+      } else {
+        delete row.dataset.hiddenByDone;
+      }
+    });
+    applyVisibility();
+  }
+
+  function applyVisibility() {
+    let anyVisible = false;
+    document.querySelectorAll(".row").forEach(row => {
+      const hideForSearch = row.dataset.hiddenBySearch === "1";
+      const hideForDone = row.dataset.hiddenByDone === "1";
+      const hide = hideForSearch || hideForDone;
+      row.classList.toggle("hidden-row", hide);
+      if (!hide) anyVisible = true;
+    });
+    document.querySelectorAll(".locale-block").forEach(block => {
+      const hasVisible = [...block.querySelectorAll(".row")].some(r => !r.classList.contains("hidden-row"));
+      block.style.display = hasVisible ? "" : "none";
+    });
+    document.querySelectorAll("section.group").forEach(g => {
+      const hasVisible = [...g.querySelectorAll(".row")].some(r => !r.classList.contains("hidden-row"));
+      const q = searchBox.value.trim();
+      const hiding = hideDoneBtn.classList.contains("active");
+      if ((q || hiding) && hasVisible) g.classList.add("open");
+      g.style.display = hasVisible ? "" : "none";
+    });
+    emptyState.style.display = anyVisible ? "none" : "block";
+  }
+
+  function toggleRowChecked(row, url) {
+    const isNowChecked = !checked[url];
+    checked[url] = isNowChecked;
+    row.classList.toggle("checked", isNowChecked);
+    const cb = row.querySelector(".check");
+    if (cb) cb.checked = isNowChecked;
+    saveChecked();
+    updateProgress();
+    if (hideDoneBtn.classList.contains("active")) applyHideDoneFilter();
+  }
+
+  document.addEventListener("change", (e) => {
+    if (e.target.classList.contains("check")) {
+      const row = e.target.closest(".row");
+      const url = row.dataset.url;
+      checked[url] = e.target.checked;
+      row.classList.toggle("checked", e.target.checked);
+      saveChecked();
+      updateProgress();
+      if (hideDoneBtn.classList.contains("active")) applyHideDoneFilter();
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    const copyBtn = e.target.closest("button.copy1");
+    if (copyBtn) {
+      navigator.clipboard.writeText(copyBtn.dataset.url).then(() => flashDone(copyBtn));
+      return;
+    }
+    const groupBtn = e.target.closest("button[data-copygroup]");
+    if (groupBtn) {
+      const urls = groupUrls(groupBtn.dataset.copygroup).join("\n");
+      navigator.clipboard.writeText(urls).then(() => flashDone(groupBtn));
+      return;
+    }
+  });
+
+  function flashDone(btn) {
+    const original = btn.textContent;
+    btn.textContent = "Copied ✓";
+    btn.classList.add("done");
+    setTimeout(() => { btn.textContent = original; btn.classList.remove("done"); }, 1400);
+  }
+
+  copyEverythingBtn.addEventListener("click", () => {
+    navigator.clipboard.writeText(allRowUrls.join("\n")).then(() => flashDone(copyEverythingBtn));
+  });
+
+  hideDoneBtn.addEventListener("click", () => {
+    hideDoneBtn.classList.toggle("active");
+    hideDoneBtn.textContent = hideDoneBtn.classList.contains("active") ? "Show indexed" : "Hide indexed";
+    applyHideDoneFilter();
+  });
+
+  resetBtn.addEventListener("click", () => {
+    if (!confirm("Clear every checked box? This cannot be undone.")) return;
+    checked = {};
+    saveChecked();
+    document.querySelectorAll(".row").forEach(row => {
+      row.classList.remove("checked");
+      const cb = row.querySelector(".check");
+      if (cb) cb.checked = false;
+    });
+    updateProgress();
+    if (hideDoneBtn.classList.contains("active")) applyHideDoneFilter();
+  });
+
+  searchBox.addEventListener("input", () => {
+    const q = searchBox.value.trim().toLowerCase();
+    document.querySelectorAll(".row").forEach(row => {
+      const match = !q || row.dataset.search.includes(q);
+      if (match) delete row.dataset.hiddenBySearch;
+      else row.dataset.hiddenBySearch = "1";
+    });
+    applyVisibility();
+  });
+
+  updateProgress();
+</script>
+
+</body>
+</html>

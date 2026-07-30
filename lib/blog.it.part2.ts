@@ -1283,7 +1283,7 @@ Capire questo non è un aneddoto; cambia come si legge un trekking. Quando una g
     tags: ["cos'è una kasbah", "significato kasbah", "architettura Marocco", "ksar vs kasbah"],
     seoTitle: "Cos'è una Kasbah? Significato, Storia e Come Distinguerla da un Ksar",
     seoDescription:
-      "Una kasbah è un edificio fortificato, non un'intera città. Ecco la vera definizione, come differisce da ksar, riad e medina, e dove vedere i migliori esempi.",
+      "Una kasbah è un edificio fortificato, non un'intera città: ecco la differenza con un ksar. Significato, origine e dove vedere i migliori esempi.",
     faq: [
       { q: "Qual è la differenza tra una kasbah e un ksar?", a: "Una kasbah è un singolo edificio fortificato: tradizionalmente la residenza di un capo o governatore con mura difensive e torri d'angolo. Un ksar (plurale ksour) è un intero villaggio fortificato composto da molti di questi edifici raggruppati insieme, di solito circondato da un muro esterno. Aït Benhaddou è tecnicamente un ksar, non una singola kasbah, anche se viene spesso chiamato informalmente 'la kasbah'." },
       { q: "Una kasbah è la stessa cosa di un riad?", a: "No. Una kasbah è un edificio fortificato e difensivo, storicamente presente nel sud e nelle regioni pre-sahariane. Un riad è una casa tradizionale costruita intorno a un cortile-giardino interno, presente dentro le medine cittadine e costruita per la vita domestica, non per la difesa. Nascono da esigenze diverse e da parti diverse del paese, sebbene entrambe siano oggi comunemente usate come guesthouse." },
@@ -1337,7 +1337,7 @@ Alcune kasbah restaurate operano ora come guesthouse, offrendoti una notte dentr
     tags: ["cos'è un riad", "significato riad", "alloggio a Marrakech", "riad vs hotel"],
     seoTitle: "Cos'è un Riad? La Tradizionale Casa a Cortile Marocchina Spiegata",
     seoDescription:
-      "Un riad è una casa tradizionale costruita intorno a un giardino interno, non solo un termine di marketing da hotel boutique. Ecco la vera definizione e cosa aspettarsi soggiornandone uno.",
+      "Un riad è una casa tradizionale costruita attorno a un giardino interno, non un termine di marketing. La differenza con un dar e cosa aspettarsi.",
     faq: [
       { q: "Ogni 'riad' a Marrakech è un vero riad?", a: "No. La parola è diventata un'etichetta di marketing attaccata a quasi qualsiasi guesthouse boutique in una medina marocchina, che abbia o meno la caratteristica distintiva: un cortile centrale, tradizionalmente con giardino o fontana, intorno a cui si apre ogni stanza. Un vero riad è organizzato interamente intorno a quel cortile rivolto verso l'interno. Se una struttura si definisce riad ma è in realtà un edificio convertito che affaccia sulla strada senza cortile centrale, sta usando la parola in modo improprio." },
       { q: "Perché i riad guardano verso l'interno senza finestre sulla strada?", a: "Privacy e clima, in proporzioni più o meno uguali. Le case marocchine tradizionali tenevano la vita familiare schermata dalla strada, quindi i riad presentano mura esterne spoglie o minimamente decorate e mettono tutta la bellezza, i rivestimenti in piastrelle, gli stucchi intagliati, il giardino, all'interno, rivolta verso il cortile. Il cortile chiuso modera anche la temperatura, restando ombreggiato e fresco d'estate." },

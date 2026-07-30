@@ -1337,7 +1337,7 @@ Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo u
     tags: ["qué es un riad", "significado de riad", "alojamiento en Marrakech", "riad vs hotel"],
     seoTitle: "¿Qué es un riad? La casa-patio tradicional marroquí, explicada",
     seoDescription:
-      "Un riad es una casa tradicional construida alrededor de un jardín interior, no solo un término de marketing hotelero. La definición real y qué esperar al alojarse en uno.",
+      "Un riad es una casa tradicional construida en torno a un jardín interior, no un término de marketing. La diferencia con un dar y qué esperar.",
     faq: [
       { q: "¿Es cada 'riad' de Marrakech un riad de verdad?", a: "No. La palabra se ha convertido en una etiqueta de marketing que se aplica a casi cualquier casa de huéspedes boutique en una medina marroquí, tenga o no la característica que lo define: un patio central, tradicionalmente con jardín o fuente, alrededor del cual se abren todas las habitaciones. Un riad auténtico se organiza enteramente en torno a ese patio orientado hacia el interior. Si una propiedad se llama riad pero en realidad es un edificio de fachada a la calle sin patio central, está usando la palabra de forma laxa." },
       { q: "¿Por qué los riads dan la espalda a la calle, sin ventanas?", a: "Privacidad y clima, a partes casi iguales. Las casas marroquíes tradicionales mantenían la vida familiar apartada de la calle, así que los riads presentan muros exteriores lisos o mínimamente decorados y guardan toda la belleza —los azulejos, el yeso tallado, el jardín— dentro, mirando al patio. El patio cerrado también modera la temperatura, manteniéndose sombreado y fresco en verano." },

@@ -2384,7 +2384,7 @@ If you tell us your dates and what you actually care about, we will sketch a rou
     weatherRegion: "High Atlas",
     tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
     seoTitle: "Toubkal Weather by Month: When to Climb Jbel Toubkal",
-    seoDescription: "Month-by-month weather on Mount Toubkal, from deep winter snow to the settled autumn window, with live valley conditions and what to pack for each season.",
+    seoDescription: "Toubkal is climbable year-round: June–September needs no winter kit, January–March means crampons. Month-by-month snow line, temperatures and what to pack.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "What is the weather like on Mount Toubkal?", a: "Far colder than Marrakech. The summit stands at 4,167 metres, roughly 3,700 metres above the city, and temperature drops by around 6 to 10°C for every 1,000 metres you climb. A mild spring day in the valley can be close to freezing on the summit, before wind chill is counted." },

@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
 import L from "leaflet";
+// Imported here rather than the root layout — see the note in ToursMap.tsx.
+import "leaflet/dist/leaflet.css";
 
 /**
  * Tour map: either a single meeting-point pin, or — when `stops` are provided —

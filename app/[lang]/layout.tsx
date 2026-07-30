@@ -2,7 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
-import "leaflet/dist/leaflet.css";
+// leaflet.css is imported by the map components themselves (ToursMap,
+// TourLocationMapInner) so Next scopes it to the chunks that load a map. From
+// here it was a render-blocking stylesheet on all 802 pages.
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -11,8 +13,7 @@ import GoogleAnalytics from "@/components/ui/GoogleAnalytics";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import CurrencyProvider from "@/components/ui/CurrencyProvider";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import VercelAnalytics from "@/components/ui/VercelAnalytics";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 
@@ -111,15 +112,13 @@ export default async function LocaleLayout({
         <link rel="dns-prefetch" href="https://images.pexels.com" />
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
-        {LOCALES.map((l) => (
-          <link
-            key={l}
-            rel="alternate"
-            hrefLang={l}
-            href={`https://marrakechecotours.com/${l}`}
-          />
-        ))}
-        <link rel="alternate" hrefLang="x-default" href="https://marrakechecotours.com/en" />
+        {/* NO hreflang here — see the note on the `metadata` export above. A
+            layout cannot know the current path, so emitting alternates here
+            pointed every one of the 802 pages at the locale HOMEPAGE, on top of
+            the correct path-specific set from each page's generateMetadata.
+            Google saw two conflicting hreflang="en" targets per page, and drops
+            non-reciprocal clusters wholesale — so hreflang was doing nothing
+            site-wide. Per-page generateMetadata already covers every route. */}
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <CurrencyProvider>
@@ -132,8 +131,7 @@ export default async function LocaleLayout({
           <CookieBanner lang={locale} dict={dict} />
           <GoogleAnalytics />
           <Toaster richColors />
-          <Analytics />
-          <SpeedInsights />
+          <VercelAnalytics />
         </CurrencyProvider>
       </body>
     </html>

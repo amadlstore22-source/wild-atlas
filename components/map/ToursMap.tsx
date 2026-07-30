@@ -1,6 +1,12 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import L from "leaflet";
+// Imported here, not in the root layout: from the layout it shipped a
+// render-blocking 10 KB stylesheet to all 802 pages — every blog post and legal
+// page included — and partly defeated the IntersectionObserver deferral, since
+// the JS waited but the CSS still blocked first paint. Next scopes it to the
+// chunks that actually load a map.
+import "leaflet/dist/leaflet.css";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Destination {

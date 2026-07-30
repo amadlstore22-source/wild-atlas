@@ -38,8 +38,52 @@ const CATEGORIES_BY_LOCALE: Record<Locale, CategoryEntry[]> = {
   ar: CATEGORIES_AR,
 };
 
+/** EN tours by slug — the base every locale is layered on top of. */
+const EN_BY_SLUG = new Map(TOURS_EN.map((t) => [t.slug, t]));
+
+/**
+ * Locale tours, with the EN record as a fallback for any field the translation
+ * omits.
+ *
+ * This used to return the locale array wholesale. That silently dropped every
+ * non-editorial field the translator did not copy: `tourType` was set on all 40
+ * EN tours but missing from all five locale files, so `tour.tourType ===
+ * "private"` was false everywhere and **24 private tours were badged "Shared"
+ * in fr/es/de/it/ar** — a factually wrong claim about the product on 5 of 6
+ * language versions.
+ *
+ * Merging per field means a missing translation degrades to the English value
+ * instead of to `undefined`, and any future field added to EN cannot vanish
+ * from the other locales. Editorial fields the translator DID provide still win.
+ */
+function mergeWithEn(list: Tour[]): Tour[] {
+  return list.map((t) => {
+    const en = EN_BY_SLUG.get(t.slug);
+    if (!en) return t;
+    // Start from the EN record so every field is present and correctly typed,
+    // then overlay only the keys the translation actually supplies.
+    const merged: Tour = { ...en };
+    for (const key of Object.keys(t) as (keyof Tour)[]) {
+      const value = t[key];
+      if (value !== undefined && value !== null && value !== "") {
+        (merged as Record<keyof Tour, unknown>)[key] = value;
+      }
+    }
+    return merged;
+  });
+}
+
+const TOURS_MERGED: Record<Locale, Tour[]> = {
+  en: TOURS_EN,
+  fr: mergeWithEn(TOURS_BY_LOCALE.fr),
+  es: mergeWithEn(TOURS_BY_LOCALE.es),
+  de: mergeWithEn(TOURS_BY_LOCALE.de),
+  it: mergeWithEn(TOURS_BY_LOCALE.it),
+  ar: mergeWithEn(TOURS_BY_LOCALE.ar),
+};
+
 export function toursFor(locale: Locale): Tour[] {
-  return TOURS_BY_LOCALE[locale] ?? TOURS_EN;
+  return TOURS_MERGED[locale] ?? TOURS_EN;
 }
 
 export function getTourFor(locale: Locale, slug: string): Tour | undefined {

@@ -54,8 +54,15 @@ export async function logEnquiry(record: EnquiryRecord): Promise<void> {
       console.error(`[enquiry-log] sheet rejected the row: ${res.status}`);
     }
   } catch (err) {
-    // Includes the timeout. Log the enquiry itself so it is recoverable from
-    // server logs even if the sheet never received it.
-    console.error("[enquiry-log] could not write to sheet:", err, JSON.stringify(record));
+    // Includes the timeout. Deliberately does NOT log `record`: it holds the
+    // name, email, travel dates, group size and free-text message, and Vercel
+    // runtime logs have their own retention and a wider audience than the
+    // inbox. The enquiry is already delivered by email before this runs, so the
+    // sheet is a convenience copy — enough to know it failed and for which
+    // enquiry type, not a reason to spill a customer record into logs.
+    console.error(
+      `[enquiry-log] could not write to sheet (type=${record.type}, tour=${record.tour || "n/a"}):`,
+      err,
+    );
   }
 }

@@ -106,6 +106,16 @@ export async function POST(req: NextRequest) {
       if (!adminRes.ok) {
         const detail = await adminRes.text().catch(() => "");
         console.error("[contact] Resend admin error", adminRes.status, detail);
+        // The admin email IS the lead. Resend can reject a well-formed request
+        // (401 expired key, 403 unverified domain, 429 quota) and previously we
+        // logged that and still returned ok:true — so the visitor saw "Enquiry
+        // sent!", the enquiry was lost, AND trackConversion("enquiry") fired a
+        // Google Ads conversion for a booking that never existed. Paying to
+        // optimise toward lost leads is worse than showing an honest error.
+        return NextResponse.json(
+          { error: "We could not send your enquiry. Please reach us on WhatsApp or by email." },
+          { status: 502 },
+        );
       }
 
       // "Confirm availability" implied the date might not be free. We run private

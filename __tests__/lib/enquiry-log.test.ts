@@ -79,14 +79,21 @@ describe("logEnquiry", () => {
       await expect(logEnquiry(RECORD)).resolves.toBeUndefined();
     });
 
-    it("logs the enquiry when it fails, so it is recoverable from server logs", async () => {
+    it("logs the failure WITHOUT the customer's personal data", async () => {
+      // This previously asserted the opposite — that the whole record was
+      // logged "so it is recoverable". But the enquiry is already delivered by
+      // email before this runs, so the sheet is a convenience copy, and Vercel
+      // runtime logs have their own retention and a wider audience than the
+      // inbox. Enough to diagnose the failure, not a customer record.
       const errSpy = vi.spyOn(console, "error").mockImplementation(() => {});
       vi.stubGlobal("fetch", vi.fn(() => Promise.reject(new Error("down"))));
 
       await logEnquiry(RECORD);
 
       const logged = errSpy.mock.calls.flat().map(String).join(" ");
-      expect(logged).toContain("sarah@example.com");
+      expect(logged).toContain("[enquiry-log]");
+      expect(logged).not.toContain("sarah@example.com");
+      expect(logged).not.toContain(RECORD.name);
     });
   });
 });

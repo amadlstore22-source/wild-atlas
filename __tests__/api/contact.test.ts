@@ -181,9 +181,39 @@ describe("POST /api/contact", () => {
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
-  it("returns 200 even if Resend API fails", async () => {
+  it("returns 502 when Resend rejects the admin email — never a false success", async () => {
+    // This previously asserted 200. That was the bug: Resend can reject a
+    // well-formed request (401 expired key, 403 unverified domain, 429 quota),
+    // and returning ok:true meant the visitor saw "Enquiry sent!", the lead was
+    // lost, and trackConversion("enquiry") fired a Google Ads conversion for a
+    // booking that never existed — so we paid to optimise toward losing leads.
     process.env.RESEND_API_KEY = "test-key-123";
     vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response("{}", { status: 500 }))));
+
+    const req = makeRequest({
+      type: "general",
+      name: "Test",
+      email: "test@example.com",
+      message: "Hello",
+    });
+    const res = await POST(req);
+    expect(res.status).toBe(502);
+    const body = await res.json();
+    expect(body.error).toMatch(/WhatsApp/i);
+  });
+
+  it("still returns 200 when only the customer confirmation fails", async () => {
+    // The admin email IS the lead. If that landed, the enquiry is safe — a
+    // failed courtesy confirmation must not tell the visitor to try again.
+    process.env.RESEND_API_KEY = "test-key-123";
+    let call = 0;
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(() => {
+        call += 1;
+        return Promise.resolve(new Response("{}", { status: call === 1 ? 200 : 500 }));
+      }),
+    );
 
     const req = makeRequest({
       type: "general",

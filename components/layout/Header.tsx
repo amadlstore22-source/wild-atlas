@@ -121,14 +121,23 @@ export default function Header({ lang, dict }: Props) {
               onMouseEnter={() => setDropdown(true)}
               onMouseLeave={() => setDropdown(false)}
             >
-              <button
+              {/* A Link, not a button: this was the one item in the bar that
+                  went nowhere when clicked. Hover still opens the category
+                  dropdown, but clicking now lands on /tours — which is what
+                  people expect, and the only behaviour available on touch
+                  devices, where there is no hover at all. */}
+              <Link
+                href={`/${lang}/tours`}
                 aria-expanded={dropdown}
                 aria-haspopup="true"
-                className="flex items-center gap-1 px-3.5 py-2 text-sm font-medium text-ink rounded-[3px] transition-colors hover:text-indigo"
+                onClick={() => setDropdown(false)}
+                className={`flex items-center gap-1 px-3.5 py-2 text-sm font-medium rounded-[3px] transition-colors hover:text-indigo ${
+                  isActive(`/${lang}/tours`) ? "text-indigo" : "text-ink"
+                }`}
               >
                 {dict.nav.adventures}
                 <CaretDown className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdown ? "rotate-180" : ""}`} weight="bold" />
-              </button>
+              </Link>
               <div
                 className={`absolute top-full left-0 pt-3 transition-all duration-200 ${
                   dropdown ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"

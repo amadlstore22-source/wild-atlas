@@ -113,7 +113,16 @@ is bidding blind.
 > Analytics only loads after a visitor accepts cookies. That is deliberate
 > (GDPR) — if Realtime shows nothing, check you clicked "Accept all".
 
-- [ ] GA4 Realtime shows live traffic
+- [x] GA4 Realtime shows live traffic — **DONE 2026-07-30**
+      Property `Marrakech Eco Tours`, Measurement ID `G-MH5VKPGR38`,
+      set as `NEXT_PUBLIC_GA_ID` in Vercel (all environments) and in the
+      local `.env.local`.
+
+> Google's own "Google tag wasn't detected" warning in the GA4 setup wizard
+> will ALWAYS fail on this site, and that is correct. The detector loads the
+> page without accepting cookies, and `GoogleAnalytics.tsx` deliberately
+> renders nothing until consent is granted. Verify via **Realtime**, never
+> via that test.
 
 ---
 
@@ -137,6 +146,12 @@ create manually as a "Page load / custom event":
 
 > Values are a *relative* signal for the bidding algorithm, not real revenue.
 > An enquiry is worth roughly twice a WhatsApp tap; a deposit far more.
+>
+> **Note on `conversion_enquiry`:** the booking sidebar sends a real per-tour
+> value (`tour.depositAmount`, in EUR) while the general contact form sends
+> none. So in Google Ads set this action to **"Use the value from the event,
+> and use 20 EUR when no value is sent"** rather than a flat value — that way
+> a €50-deposit trek outbids a €10 day trip automatically.
 
 - [ ] For each action, copy its **conversion ID and label** — Google shows it
       as `AW-1234567890/AbCdEfGhIj`

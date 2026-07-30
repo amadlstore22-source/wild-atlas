@@ -36,7 +36,10 @@ does **not** prove production is broken. Test it.
    (env vars only apply to builds made after they are set)
 5. Repeat the form test above
 
-- [ ] Contact form delivers a real email to you
+- [x] Contact form delivers a real email to you
+      **VERIFIED 2026-07-30** — test enquiry arrived from
+      `noreply@marrakechecotours.com` into `marrakechecotours@gmail.com`
+      with all fields intact. Resend is configured on Vercel.
 
 > Also paste the same key into your local `.env.local` so the form works when
 > you run the site locally.
@@ -72,10 +75,16 @@ legitimate mail to be rejected.
       - Name: `_dmarc`
       - Content: `v=DMARC1; p=none; rua=mailto:info@marrakechecotours.com; fo=1`
 
-> ⚠️ Cloudflare may want to replace your SPF record. Afterwards, check the
-> **Resend dashboard** still shows the domain **verified** — if Resend's
-> SPF/DKIM records were overwritten, the contact form starts landing in spam.
-> Re-add them from Resend's dashboard if so.
+> ✅ **Checked 2026-07-30 — this is safe.** Resend authenticates on a
+> *subdomain*, not the root: its SPF and SES feedback MX live on
+> `send.marrakechecotours.com`, and its DKIM on
+> `resend._domainkey.marrakechecotours.com`. Cloudflare Email Routing only
+> touches **root** MX and SPF, so the two do not overlap and root changes
+> cannot break Resend sending.
+>
+> The root SPF being replaced (`include:spf.efwd.registrar-servers.com`)
+> points at the dead Namecheap forwarder and is useless — losing it is an
+> improvement. Still worth re-testing the contact form afterwards.
 
 ---
 

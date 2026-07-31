@@ -284,6 +284,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               href={paypalUrl}
               target="_blank"
               rel="noopener noreferrer"
+              // Paying the deposit is the highest-intent action on the page.
+              // Until now nothing called trackConversion("deposit"), so Google
+              // Ads never learned which keywords produce actual payers — the
+              // strongest bidding signal available.
+              onClick={() => trackConversion("deposit", { value: tour.depositAmount, currency: "EUR" })}
               className="w-full py-3 rounded-[3px] bg-[#0070BA] text-white font-bold hover:bg-[#005ea6] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#0070BA]/15"
             >
               <CreditCard className="w-4 h-4" />
@@ -309,6 +314,9 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 href={depositRequestUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                // Same intent as paying: this is the deposit step while no
+                // PayPal handle is configured, so it must count the same.
+                onClick={() => trackConversion("deposit", { value: tour.depositAmount, currency: "EUR" })}
                 className="w-full py-2.5 rounded-[3px] bg-indigo text-white font-bold text-sm hover:bg-indigo-deep transition-colors flex items-center justify-center gap-2"
               >
                 <CreditCard className="w-4 h-4" />
@@ -368,6 +376,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hello! I'd like to plan a private trip for a larger group on the "${tour.title}" tour. Can you help?`)}`}
               target="_blank"
               rel="noopener noreferrer"
+              // A large-group enquiry is worth more than a single booking, not
+              // less — this was the one WhatsApp CTA inside the sidebar itself
+              // that went untracked.
+              onClick={() => trackConversion("whatsapp")}
               className="flex items-center gap-1.5 text-xs font-semibold text-indigo hover:text-indigo-deep transition-colors"
             >
               <WhatsappLogo className="w-3.5 h-3.5 shrink-0" />

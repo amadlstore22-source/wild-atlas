@@ -6,6 +6,7 @@ import { motion } from "motion/react";
 import AnimateInView from "@/components/ui/AnimateInView";
 import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { WhatsAppLink } from "@/components/ui/ContactLinks";
 
 interface Props {
   dict: Dictionary;
@@ -62,15 +63,13 @@ export default function CTABanner({ dict, lang = "en", tourCount }: Props) {
                     {dict.cta.browseAll}
                     <ArrowRight className="w-4 h-4" weight="bold" />
                   </Link>
-                  <a
+                  <WhatsAppLink
                     href={whatsappUrl(WHATSAPP_MESSAGES.custom)}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[2px] bg-[#25D366] text-white font-semibold text-sm hover:bg-[#20ba5a] active:scale-[0.98] transition-all"
                   >
                     <WhatsappLogo className="w-4 h-4" weight="fill" />
                     {dict.cta.whatsapp}
-                  </a>
+                  </WhatsAppLink>
                 </motion.div>
 
                 <motion.div

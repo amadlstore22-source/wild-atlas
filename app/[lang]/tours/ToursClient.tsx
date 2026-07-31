@@ -8,6 +8,7 @@ import { whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "../dictionaries";
+import { WhatsAppLink } from "@/components/ui/ContactLinks";
 
 interface CategoryEntry {
   id: Category;
@@ -225,10 +226,10 @@ export default function ToursClient({
             <p className="font-semibold text-white text-sm leading-tight">{dict.tours.customBannerTitle}</p>
             <p className="text-white/70 text-xs mt-0.5">{dict.tours.customBannerDesc}</p>
           </div>
-          <a href={whatsappUrl("Hello! I'd like to plan a custom Morocco adventure for my group.")} target="_blank" rel="noopener noreferrer"
+          <WhatsAppLink href={whatsappUrl("Hello! I'd like to plan a custom Morocco adventure for my group.")}
             className="flex items-center gap-2 px-4 py-2.5 rounded-[3px] bg-card text-indigo font-semibold text-xs whitespace-nowrap hover:bg-surface-sunk transition-colors shrink-0">
             <WhatsappLogo className="w-4 h-4" /> {dict.tours.planCustomTrip}
-          </a>
+          </WhatsAppLink>
         </div>
 
         {filtered.length === 0 ? (

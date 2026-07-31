@@ -9,6 +9,7 @@ import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import TourCard from "@/components/ui/TourCard";
 import { whatsappUrl } from "@/lib/constants";
 import JsonLd from "@/components/seo/JsonLd";
+import { WhatsAppLink } from "@/components/ui/ContactLinks";
 
 type GuideParams = { params: Promise<{ lang: string; id: string }> };
 
@@ -121,15 +122,13 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 </div>
 
                 {!guide.isLegacy && (
-                  <a
+                  <WhatsAppLink
                     href={whatsappUrl(`Hello! I'd like to request ${guide.name} as my guide. Could you let me know their availability?`)}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] text-white font-semibold text-sm hover:bg-green-500 transition-colors"
                   >
                     <WhatsappLogo className="w-4 h-4" weight="fill" />
                     {g.requestThisGuide}
-                  </a>
+                  </WhatsAppLink>
                 )}
               </div>
             </div>

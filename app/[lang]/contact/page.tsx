@@ -7,6 +7,7 @@ import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE } from "@/lib/constants";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
+import { WhatsAppLink } from "@/components/ui/ContactLinks";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -100,10 +101,8 @@ export default async function ContactPage({ params }: LangParams) {
           {/* ── Sidebar ── */}
           <div className="space-y-4">
             {/* WhatsApp CTA — primary action */}
-            <a
+            <WhatsAppLink
               href={`https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`}
-              target="_blank"
-              rel="noopener noreferrer"
               className="flex items-center gap-4 p-5 bg-[#25D366] rounded-[4px] text-white hover:bg-[#1ebe5a] transition-colors shadow-lg shadow-[#25D366]/20"
             >
               <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
@@ -114,7 +113,7 @@ export default async function ContactPage({ params }: LangParams) {
                 <div className="font-bold text-base">{c.chatOnWhatsapp}</div>
                 <div className="text-white/70 text-xs mt-0.5">{c.typicallyReplies.replace("{hours}", String(SITE.responseHours))}</div>
               </div>
-            </a>
+            </WhatsAppLink>
 
             {/* Contact info cards */}
             {CONTACT_INFO.map((item) => (

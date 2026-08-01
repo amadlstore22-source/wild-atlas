@@ -4807,7 +4807,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     author: MET_TEAM,
     title: "How Much Does a Toubkal Guide Cost? (2026 Price Breakdown)",
     excerpt:
-      "A licensed Toubkal guide costs 400–700 MAD a day — but the guide is one line in a longer bill. Here is the honest, itemised cost of climbing Toubkal, and how hiring direct compares with booking a package.",
+      "A licensed Toubkal guide costs 500–800 MAD a day — but the guide is one line in a longer bill. Here is the honest, itemised cost of climbing Toubkal, and how hiring direct compares with booking a package.",
     heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -4820,9 +4820,9 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
       "What a licensed Toubkal mountain guide really costs in 2026: day rates, the full itemised trek bill (mule, refuge, meals, park fee, transfer), winter surcharges and tipping.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
     faq: [
-      { q: "How much does a Toubkal guide cost per day?", a: "A licensed mountain guide typically costs 400–700 MAD per day (roughly £30–55 / €35–65) hired directly at Imlil, and the fee is split across your group rather than charged per person. Winter ascents sit at the upper end because the summit becomes a snow climb. That fee covers the guide only — the mule, refuge bed, meals, park fee and transfer are separate." },
+      { q: "How much does a Toubkal guide cost per day?", a: "A licensed mountain guide typically costs 500–800 MAD per day (roughly £40–63 / €46–74) hired directly at Imlil, and the fee is split across your group rather than charged per person. Winter ascents sit at the upper end because the summit becomes a snow climb. That fee covers the guide only — the mule, refuge bed and half board, park fee and transfer are separate." },
       { q: "Is a guide mandatory to climb Toubkal?", a: "Yes. A licensed mountain guide is required on Toubkal and there is a checkpoint at Imlil that enforces it. Guides are certified by the Moroccan Ministry of Tourism. See [do you need a guide to climb Toubkal](/en/blog/do-you-need-a-guide-to-climb-toubkal) for the full explanation." },
-      { q: "What does a 2-day Toubkal trek cost in total?", a: "Organising it yourself, two people typically spend 2,600–4,200 MAD in total (about £210–340 / €245–390 for the pair) once the guide, mule, refuge, meals, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €210 per person with all of that included." },
+      { q: "What does a 2-day Toubkal trek cost in total?", a: "Organising it yourself, two people typically spend 2,400–3,600 MAD in total (about £190–285 / €225–335 for the pair) once the guide, mule, refuge with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €210 per person with all of that included." },
       { q: "Is it cheaper to hire a guide yourself than book a package?", a: "Usually less than people expect. The guide's day rate is only one line of the bill — the refuge, meals, mule, park fee and the return transfer from Marrakech make up most of the rest. Self-organising gives you more flexibility and slightly more control over cost, especially in a larger group; a package trades that for having the logistics handled." },
       { q: "How much should I tip a Toubkal guide?", a: "Around 10–15% of the trip cost, split between the guide and the muleteer, paid in cash in dirhams at the end. It is customary and appreciated but never compulsory — give more if conditions were hard or your guide made a difficult day work." },
     ],
@@ -4830,9 +4830,9 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
 ## What a Toubkal guide actually costs
 
 Let us give you the number first, because most pages bury it: for a **standard two-day
-Toubkal ascent, a licensed mountain guide costs roughly 400–700 MAD per day** (about
-£30–55 / €35–65 / $40–75) when you hire one directly at Imlil. Over a two-day trip that is
-usually **800–1,400 MAD (£65–110 / €75–130)** for the guide alone, split between everyone
+Toubkal ascent, a licensed mountain guide costs roughly 500–800 MAD per day** (about
+£40–63 / €46–74 / $50–80) when you hire one directly at Imlil. Over a two-day trip that is
+usually **1,000–1,600 MAD (£80–127 / €92–148)** for the guide alone, split between everyone
 in your group.
 
 That is the guide's fee only. It is not the price of the trek. The rest of this guide
@@ -4857,17 +4857,16 @@ with season and group size.
 
 | Item | Typical cost | Notes |
 |---|---|---|
-| Licensed mountain guide | 400–700 MAD / day | Split across the group |
-| Mule + muleteer | 150–250 MAD / day | Carries group bags to the refuge |
-| Toubkal Refuge bed | 150–200 MAD / night | Book ahead in high season |
-| Meals (half board at refuge) | 150–250 MAD / day | Dinner, breakfast, often a packed lunch |
+| Licensed mountain guide | 500–800 MAD / day | Split across the group |
+| Mule + muleteer | 250–300 MAD / day | Carries group bags to the refuge |
+| Toubkal Refuge, bed + half board | 300–350 MAD / night | Dinner and breakfast included. Book ahead in high season |
 | National park entry | Small fixed fee | Payable at the Imlil checkpoint |
 | Transfer Marrakech ⇄ Imlil | 600–1,000 MAD return | Per vehicle, not per person |
 | Crampons + ice axe (winter) | 100–150 MAD / day | Rental in Imlil, Nov–Mar |
 | Tips | 10–15% | Customary, never compulsory |
 
 **A realistic all-in total** for two people organising it themselves: roughly
-**2,600–4,200 MAD (£210–340 / €245–390) for the pair**, depending on season and how much
+**2,400–3,600 MAD (£190–285 / €225–335) for the pair**, depending on season and how much
 you negotiate. Per person that lands not far from a packaged price — which surprises people.
 
 ## Why the totals converge
@@ -4935,7 +4934,7 @@ If you are weighing the options, these help:
 
 ## The short version
 
-A licensed Toubkal guide costs **400–700 MAD a day**, and the guide is one line in a bill
+A licensed Toubkal guide costs **500–800 MAD a day**, and the guide is one line in a bill
 that also includes the mule, the refuge, meals, park fees and the transfer. Organise it
 yourself and you will pay somewhere near a package price, with more admin and more
 flexibility. Book a package and you trade a little of that flexibility for someone else

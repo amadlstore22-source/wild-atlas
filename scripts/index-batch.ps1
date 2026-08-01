@@ -20,7 +20,14 @@ param(
   [Parameter(Mandatory = $true, Position = 0)]
   [string]$Batch,
 
-  [switch]$DryRun
+  [switch]$DryRun,
+
+  # Submit at most N URLs. Use with -Offset to page a list larger than the
+  # 200/day quota across consecutive days without editing the file.
+  [int]$Limit = 0,
+
+  # Skip the first N URLs.
+  [int]$Offset = 0
 )
 
 $ErrorActionPreference = "Stop"
@@ -36,13 +43,22 @@ $urls = if ([System.IO.Path]::IsPathRooted($Batch)) { $Batch } else { Join-Path 
 if (-not (Test-Path $key))   { throw "Service account key not found: $key" }
 if (-not (Test-Path $urls))  { throw "Batch file not found: $urls" }
 
-$count = (Get-Content $urls | Where-Object { $_.Trim() -ne "" }).Count
-Write-Host "Submitting $count URLs from $(Split-Path -Leaf $urls)" -ForegroundColor Cyan
+$total = (Get-Content $urls | Where-Object { $_.Trim() -ne "" }).Count
+
+# What will actually be sent once --offset and --limit are applied.
+$count = $total - $Offset
+if ($count -lt 0) { $count = 0 }
+if ($Limit -gt 0 -and $Limit -lt $count) { $count = $Limit }
+
+Write-Host "Submitting $count of $total URLs from $(Split-Path -Leaf $urls)" -ForegroundColor Cyan
 if ($count -gt 200) {
   Write-Host "WARNING: over the 200/day quota - the tail will be rejected." -ForegroundColor Yellow
+  Write-Host "         Re-run with -Limit 200, then tomorrow add -Offset 200." -ForegroundColor Yellow
 }
 
 $nodeArgs = @($script, "--key", $key, "--urls", $urls)
-if ($DryRun) { $nodeArgs += "--dry-run" }
+if ($DryRun)      { $nodeArgs += "--dry-run" }
+if ($Limit -gt 0) { $nodeArgs += @("--limit", $Limit) }
+if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 
 & node @nodeArgs

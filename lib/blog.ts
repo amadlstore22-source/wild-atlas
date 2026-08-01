@@ -2433,6 +2433,8 @@ Both give you long daylight, a route largely clear of snow, and settled spells. 
 
 Mid-summer works, but the problem shifts: the summit is fine while the approach through the valley is hot. That is why summit starts are early, and why the walking day is arranged around the sun rather than around the clock.
 
+Those two windows are also when the refuge fills first. If you are planning around them, the [2-day summit](/en/tours/toubkal-summit-2day-marrakech) is the shortest route up, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) adds acclimatisation days that make the summit morning considerably more likely to go well.
+
 ## Winter: not off-limits, just different
 
 From roughly November to March, Toubkal becomes a winter mountain. Snow covers the upper route, the ground underfoot turns hard, and the consequences of a slip change entirely.
@@ -2533,7 +2535,7 @@ Both itineraries reach the same summit. The difference is how much room your bod
 
 The two-day trip is efficient: up to the refuge, summit at dawn, back to Marrakech. It works, and fit walkers do it regularly. But you go from city altitude to 4,167 metres in about thirty hours, which is a lot to ask.
 
-The four-day version walks in more gradually and includes time to acclimatise before the summit push. For most people this is the difference between grinding out a summit and enjoying one. We compare them properly in [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek).
+The four-day version walks in more gradually and includes time to acclimatise before the summit push. For most people this is the difference between grinding out a summit and enjoying one. We compare them properly in [Toubkal in 2 Days or 4](/en/blog/toubkal-2-day-vs-4-day-which-trek), and run both — the [2-day](/en/tours/toubkal-summit-2day-marrakech) and the [4-day](/en/tours/toubkal-summit-trek-4day) — so the honest advice is to pick by how much time your body gets, not by price.
 
 ## Winter is a different mountain
 
@@ -3441,6 +3443,8 @@ Defensive design details are consistent across almost every kasbah worth visitin
 
 The kasbah road runs east from Marrakech over the Tizi n'Tichka pass toward Ouarzazate — sometimes called Morocco's "Hollywood of the desert" for its film studios — and on toward the Dades and Todra valleys, where the concentration of kasbahs is so dense the route has its own nickname, the [Road of a Thousand Kasbahs](/en/blog/dades-valley-gorges-guide). [Ait Benhaddou](/en/blog/ait-benhaddou-guide) and [Kasbah Amridil in Skoura](/en/blog/skoura-oasis-guide) are the two most complete and accessible examples on that route, and Telouet itself is a worthwhile detour off the Tizi n'Tichka road for anyone specifically interested in the history behind the architecture rather than just the photographs.
 
+That road is not a day trip from Marrakech — Ait Benhaddou alone is four hours each way, and the kasbahs worth seeing are strung along the next 200 km. Our [4-day desert route from Marrakech](/en/tours/desert-4day-marrakech) follows it properly, stopping at Ait Benhaddou and Skoura on the way to the dunes instead of turning back at the first one.
+
 ## For Sleeping, Not Just Looking
 
 Some restored kasbahs now operate as guesthouses, giving you a night inside the thick earthen walls rather than just a photo stop. This is different from staying in a riad, which is a courtyard house built for city life, not defence — see [What Is a Riad?](/en/blog/what-is-a-riad) for that distinction.
@@ -3496,6 +3500,8 @@ These get confused because they're all traditional Moroccan buildings, but they 
 ## What to Expect Staying in One
 
 Most riads operating as guesthouses today keep the traditional layout — rooms around a central courtyard, often with a rooftop terrace added for views over the medina — while adding modern plumbing and, usually, a small plunge pool in the courtyard itself. Because everything opens onto one shared space, a riad often feels more like staying in someone's home than in a hotel, for better and occasionally for worse: sound can travel across the courtyard more than it would down a hotel corridor.
+
+Finding them is the harder part. Riads are deliberately invisible from the street, so the doors worth knowing are the ones with nothing on them — which is why our [Marrakech medina tour](/en/tours/marrakech-medina-cultural-tour) walks the derbs where they cluster rather than the main souk routes.
 
 ## A Marketing Word, Sometimes
 
@@ -3603,6 +3609,8 @@ An eSIM lets you activate data before you land, which is genuinely useful if you
 ## Coverage on Trek and in the Desert
 
 Be realistic about signal once you leave paved roads. On multi-day treks in the High Atlas — see [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — coverage exists in villages like Imlil but thins out or disappears at altitude and in the more remote valleys. In the desert, towns have signal; the dunes and desert camps generally do not. Tell people at home when to expect to hear from you, rather than assuming you'll have a signal the whole trip.
+
+For what it is worth on our own trips: there is usable signal at Imlil and patchy signal at the Toubkal refuge, and none on the [3-day Sahara route](/en/tours/sahara-3day-marrakech) once you leave Merzouga for the camp. Our guides carry phones and know where the reception spots are, so a message home is always possible — just not on demand.
 
 ## A Simple Way to Decide
 
@@ -3776,6 +3784,8 @@ This matters more than it might seem, because Morocco's relationship with alcoho
 ## Away From the Cities
 
 Once you're outside major cities — in the small towns along a desert route, or the mountain villages on a High Atlas trek — licensed venues thin out fast, and many rural areas have none at all. Small, more conservative communities may have no alcohol available anywhere nearby, licensed or otherwise. If having a drink on a multi-day trip matters to you, the practical approach is to buy what you want in Marrakech or Agadir before you depart, rather than expecting availability along the route, and to drink it discreetly at your accommodation rather than assuming the same casual attitude that might apply in a beach-club city.
+
+This applies to our own trips too, and guests ask often enough that it is worth stating plainly: village guesthouses and mountain refuges on a [High Atlas trek](/en/tours/atlas-mountains-3day-trek) do not serve alcohol, and the [Agafay desert camp](/en/tours/agafay-desert-sunset) is licensed. Bring your own for the mountains if you want it, and nobody will mind you drinking it at the guesthouse.
 
 ## Ramadan Changes This
 

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Script from "next/script";
-import { GA_ID, CONSENT_EVENT, hasAnalyticsConsent } from "@/lib/analytics";
+import { GA_ID, ADS_ID, CONSENT_EVENT, hasAnalyticsConsent } from "@/lib/analytics";
 
 // Loads Google Analytics 4 (gtag.js) — the same tag Google Ads conversion
 // tracking rides on — but ONLY after the visitor accepts all cookies. It reads
@@ -42,6 +42,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${GA_ID}', { anonymize_ip: true });
+          ${ADS_ID ? `gtag('config', '${ADS_ID}');` : ""}
         `}
       </Script>
     </>

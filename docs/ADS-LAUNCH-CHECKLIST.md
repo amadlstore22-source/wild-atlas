@@ -155,8 +155,13 @@ create manually as a "Page load / custom event":
 
 - [ ] For each action, copy its **conversion ID and label** — Google shows it
       as `AW-1234567890/AbCdEfGhIj`
-- [ ] Vercel → Environment Variables → add all four, all three environments:
-      - `NEXT_PUBLIC_ADS_SEND_TO_ENQUIRY`
+- [ ] Vercel → Environment Variables → add **five** vars, all three environments:
+      - `NEXT_PUBLIC_ADS_CONVERSION_ID` — the account only, e.g. `AW-1234567890`,
+        with **no** `/LABEL` suffix. This one is easy to miss and nothing works
+        without it: gtag.js drops any `send_to: "AW-…/LABEL"` event unless the
+        AW account was registered on the tag with its own `gtag('config')` call.
+        The four below are accepted and silently discarded on their own.
+      - `NEXT_PUBLIC_ADS_SEND_TO_ENQUIRY` — full `AW-1234567890/AbCdEfGhIj`
       - `NEXT_PUBLIC_ADS_SEND_TO_WHATSAPP`
       - `NEXT_PUBLIC_ADS_SEND_TO_PHONE`
       - `NEXT_PUBLIC_ADS_SEND_TO_DEPOSIT`

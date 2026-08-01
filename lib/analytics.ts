@@ -16,6 +16,17 @@ export const CONSENT_EVENT = "met-consent-change";
 
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
 
+/**
+ * Google Ads conversion ID ("AW-1234567890"), without any /LABEL suffix.
+ *
+ * gtag.js only routes a `send_to: "AW-xxx/LABEL"` event if that AW account has
+ * been registered on the tag with its own gtag('config') call. Configuring GA4
+ * alone is not enough — the event is accepted and silently dropped, which is
+ * indistinguishable from working until you notice Ads reports zero conversions.
+ * GoogleAnalytics.tsx emits the second config line when this is set.
+ */
+export const ADS_ID = process.env.NEXT_PUBLIC_ADS_CONVERSION_ID ?? "";
+
 export function hasAnalyticsConsent(): boolean {
   if (typeof window === "undefined") return false;
   try {

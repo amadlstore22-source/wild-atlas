@@ -94,6 +94,7 @@ export const TOURS: Tour[] = [
   {
     id: "1",
     slug: "toubkal-summit-trek-4day",
+    relatedPosts: ["toubkal-4-day-trek-cost", "toubkal-2-day-vs-4-day-which-trek", "how-hard-is-toubkal-difficulty-guide", "what-to-pack-high-atlas-trek-morocco"],
     title: "Marrakech to Toubkal Summit — 4-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -202,6 +203,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
+    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect"],
     title: "Marrakech to Merzouga — 3-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -1212,6 +1214,7 @@ export const TOURS: Tour[] = [
   {
     id: "17",
     slug: "marrakech-to-chefchaouen-4day",
+    relatedPosts: ["marrakech-to-chefchaouen-tour-cost", "chefchaouen-complete-travel-guide", "fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide"],
     title: "Marrakech to Chefchaouen — 4-Day Blue City Tour",
     category: "cultural",
     origin: "marrakech",
@@ -2384,6 +2387,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
+    relatedPosts: ["toubkal-circuit-ifni-lake-cost", "best-multi-day-treks-morocco", "what-to-pack-high-atlas-trek-morocco", "toubkal-weather-by-month"],
     title: "Toubkal Circuit & Ifni Lake from Marrakech — 6-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -2516,6 +2520,7 @@ export const TOURS: Tour[] = [
   {
     id: "31",
     slug: "toubkal-summit-2day-marrakech",
+    relatedPosts: ["toubkal-2-day-trek-cost", "how-to-climb-toubkal-in-2-days", "toubkal-2-day-vs-4-day-which-trek", "how-hard-is-toubkal-difficulty-guide"],
     title: "Mount Toubkal Express — 2-Day Summit from Marrakech",
     category: "trekking",
     origin: "marrakech",

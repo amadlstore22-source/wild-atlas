@@ -5493,6 +5493,208 @@ any Moroccan operator keeps it with the people running the camp.
 👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — €245 per person, private 4x4, luxury camp, sunset camel ride included.
 `,
   },
+  {
+    slug: "sahara-tour-from-agadir-cost",
+    relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
+    author: MET_TEAM,
+    title: "What Does a Sahara Tour from Agadir Cost? (2026 Breakdown)",
+    excerpt:
+      "Agadir is 450 km from the nearest real dunes, which changes the maths completely. Here is what a desert trip from the coast costs in 2026, and why the 2-day version is mostly driving.",
+    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    tags: ["Sahara from Agadir cost", "Agadir desert tour price", "Erg Chegaga", "Foum Zguid", "desert tour from Agadir"],
+    seoTitle: "Sahara Tour from Agadir Cost 2026 — Honest Price Breakdown",
+    seoDescription:
+      "What a Sahara desert tour from Agadir costs in 2026: 2-day, 3-day and 4-day routes compared, why Agadir trips reach Erg Chegaga rather than Merzouga, and what is excluded.",
+    faq: [
+      { q: "How much does a Sahara tour from Agadir cost?", a: "Our [2-day Erg Chegaga trip](/en/tours/sahara-2day-agadir) is €195 per person, the [3-day private Chegaga route](/en/tours/erg-chegaga-3day-agadir) is €345, and the [4-day route to Erg Chebbi](/en/tours/desert-4day-agadir) is €420. The 2-day is cheapest per trip but involves roughly 16 hours of driving across two days, so the cost per hour actually in the dunes is the highest of the three." },
+      { q: "Why do Agadir desert tours go to Erg Chegaga instead of Merzouga?", a: "Geography. Erg Chegaga is roughly 450 km from Agadir via Tata and Foum Zguid; Merzouga is around 700 km. On a 2-day trip Chegaga is reachable and Merzouga is not, which is why the short Agadir itineraries head there. The 4-day route has the time to reach Erg Chebbi at Merzouga instead." },
+      { q: "Is 2 days enough for a desert trip from Agadir?", a: "It is enough to sleep in the dunes, which is the thing most people came for. It is not a relaxed trip: roughly 8 hours of driving each way, a sunset camel trek in, a night at camp, a dawn camel trek and the drive back. If you want more desert and less vehicle, the 3-day gives you two camp nights for €150 more." },
+      { q: "What is not included in an Agadir desert tour?", a: "On the 2-day: lunch on day one, personal items and tips. On the 4-day: lunches throughout at roughly €12–15 each, the optional Atlas Film Studios ticket (~€7), alcoholic drinks, travel insurance and tips. Accommodation, dinners, breakfasts, camel treks and all transport are included on every route." },
+    ],
+    content: `
+## The distance decides the price
+
+Agadir is on the Atlantic coast. The nearest genuine dune sea, **Erg Chegaga**, is about
+450 km inland via Tata and Foum Zguid. Erg Chebbi at Merzouga — the one in most Morocco
+photographs — is around 700 km away.
+
+That single fact shapes every desert itinerary from Agadir, and it is why a coastal
+desert trip costs differently from the same trip out of Marrakech.
+
+| Route | Price pp | Nights | Reaches |
+|---|---|---|---|
+| [2-day Erg Chegaga](/en/tours/sahara-2day-agadir) | €195 | 1 (camp) | Erg Chegaga |
+| [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €345 | 2 (both camp) | Erg Chegaga |
+| [4-day Erg Chebbi](/en/tours/desert-4day-agadir) | €420 | 3 (hotel + camp + hotel) | Merzouga |
+
+## The 2-day trip, honestly
+
+€195 buys 4x4 transport, an experienced desert guide, one night in a luxury desert camp
+with dinner and breakfast, and all camel rides.
+
+What it also involves is **roughly 8 hours of driving each way**. Day one departs Agadir
+at 6:30 am, runs south through the Anti-Atlas foothills via Tata, crosses the hammada to
+Foum Zguid, and reaches the dunes for a sunset camel trek. Day two is a dawn camel trek,
+breakfast at camp, then the drive north through the Draa Valley palm groves back to
+Agadir.
+
+That is a genuine desert night. It is not a leisurely trip, and anyone selling it as one
+is not being straight with you. If the driving sounds like too much, the honest advice is
+to take the 3-day rather than to expect the 2-day to feel different.
+
+## Why the 3-day costs €150 more
+
+The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €345 against €195, which looks
+steep for one extra day. Three things change:
+
+- **Two nights at Erg Chegaga** rather than one, so the driving is amortised over more desert time
+- **Private 4x4** with an off-road guide, rather than shared transport
+- **Smaller group** — 2–8 rather than 2–10
+
+Per hour actually spent in the dunes, the 3-day is considerably better value. The 2-day is
+better value only if your constraint is time rather than money.
+
+## The 4-day to Merzouga
+
+€420, and the only Agadir route that reaches **Erg Chebbi**. Three nights: a hotel in the
+Dades Valley, a Berber camp at Erg Chebbi, and a hotel in Ouarzazate. Sunset and sunrise
+camel treks, mineral water and mint tea throughout, and a bilingual driver-guide.
+
+Erg Chebbi's dunes are higher and the erg is larger than Chegaga's. Whether that justifies
+€225 over the 2-day depends on how much a specific dune sea matters to you — both are real
+Sahara, and Chegaga is markedly quieter.
+
+## What is excluded, by route
+
+| | 2-day | 4-day |
+|---|---|---|
+| Lunches | Day 1 only | All days, €12–15 each |
+| Atlas Film Studios | n/a | Optional, ~€7 |
+| Alcohol | — | Not included |
+| Travel insurance | Not included | Not included |
+| Tips | Not included | Not included |
+
+Budget lunches realistically: on the 4-day that is three or four meals at €12–15, so
+€40–60 per person on top of the headline price.
+
+## Agadir or Marrakech as your base?
+
+If the desert is your main objective, Marrakech is closer to both ergs and has more
+departures. If you are already on the coast for the beaches or the surf, the Agadir routes
+save you a 3-hour transfer each way. We compare the two bases in
+[Marrakech vs Agadir](/en/blog/marrakech-vs-agadir-which-base).
+
+## Where the money goes
+
+Platform commission runs **25–40%**. On a €345 trip that is up to €138 leaving Morocco —
+more than the camp and the camel handlers earn between them. Booking direct with any
+Moroccan operator keeps it with the people running the camp.
+
+👉 **[See the 2-day Erg Chegaga trip from Agadir](/en/tours/sahara-2day-agadir)** — €195 per person, luxury camp, all camel treks included.
+`,
+  },
+  {
+    slug: "family-desert-tour-morocco-cost",
+    relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
+    author: MET_TEAM,
+    title: "What Does a Family Desert Tour in Morocco Cost? (2026)",
+    excerpt:
+      "Taking children to the Sahara costs less than most parents expect, but the budget has different lines. Here is what a 4-day family desert trip actually costs, including the ones nobody lists.",
+    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    tags: ["family desert tour cost", "Morocco with kids", "family Sahara trip", "Erg Chebbi family", "Morocco family holiday cost"],
+    seoTitle: "Family Desert Tour Morocco Cost 2026 — Full Price Guide",
+    seoDescription:
+      "What a 4-day family desert tour in Morocco costs in 2026: transport, camps, camel rides and meals itemised, plus the practical extras parents should budget for.",
+    faq: [
+      { q: "How much does a family desert tour in Morocco cost?", a: "Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is €380 per person and includes air-conditioned private transport, a bilingual driver-guide, three nights of accommodation with dinners and breakfasts, and sunset and sunrise camel rides at Erg Chebbi. Budget roughly €40–60 per person on top for lunches." },
+      { q: "Is a desert tour suitable for young children?", a: "The camel rides and the dunes themselves are the easy part — children generally love both. The demanding part is the driving: Merzouga is about 560 km from Marrakech, so days one and four involve long stretches in the vehicle. The 4-day itinerary breaks it with overnight stops in the Dades Valley and Ouarzazate rather than driving it in one push, which is what makes it workable with kids." },
+      { q: "Do children pay full price on a desert tour?", a: "Ask us — it depends on ages and how your group fills the vehicle. Because the transport, the driver-guide and the camp are largely per-trip costs rather than per-person, a family of four often works out considerably cheaper per head than two adults travelling alone. Message us with your ages and dates and we will quote the actual number." },
+      { q: "What should families budget on top of the tour price?", a: "Lunches at roughly €12–15 per person per meal, the optional Atlas Film Studios ticket at around €7, travel insurance, and tips. For a family of four over four days that is realistically €150–250 on top of the tour price." },
+    ],
+    content: `
+## The headline number
+
+Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is
+**€380 per person**, and it is built differently from the standard adult itinerary — not
+in what it visits, but in how the days are paced.
+
+## What is included
+
+- Air-conditioned minibus or 4x4 for the whole route
+- Professional bilingual driver-guide (English/French)
+- **1 night hotel in the Dades Valley** — dinner and breakfast
+- **1 night family desert camp at Erg Chebbi** — dinner and breakfast
+- **1 night hotel in Ouarzazate** — breakfast
+- Sunset and sunrise camel rides at Erg Chebbi
+- All transfers and access fees
+
+The three-night structure is the point. Merzouga is roughly 560 km from Marrakech, and the
+difference between a trip that works with children and one that does not is whether that
+distance is broken up or driven in one go.
+
+## The costs nobody lists
+
+This is where family budgets go wrong, so here it is plainly:
+
+| Extra | Realistic cost |
+|---|---|
+| Lunches | €12–15 per person, per meal |
+| Atlas Film Studios (optional) | ~€7 per person |
+| Travel insurance | Varies — get it |
+| Tips | 10–15% of trip cost |
+
+For a family of four across four days, lunches alone are realistically **€150–200**. That
+is not a hidden charge — it is on the tour page — but it is the line most people forget
+when comparing quotes.
+
+## Why families often pay less per head
+
+Worth understanding before you assume a family trip costs four times a solo one.
+
+The vehicle, the driver-guide and much of the camp cost are **per trip**, not per person.
+Meals and beds are per person. So a family of four spreads the large fixed costs four
+ways, where a couple spreads the same costs two ways.
+
+The practical effect: per head, a family of four on this route usually pays noticeably
+less than two adults travelling alone. If you have specific ages and dates, message us and
+we will quote the real number rather than a per-person estimate.
+
+## What children actually make of it
+
+The camel rides at sunset and sunrise are the parts kids remember, and Erg Chebbi's dunes
+are effectively the world's largest sandpit. The Dades Valley night breaks the drive at a
+point where children are usually done with the car.
+
+The honest caution is the driving. Days one and four have long vehicle stretches through
+genuinely spectacular country, but spectacular country still looks like a car window to a
+six-year-old. Download things in advance.
+
+## Family desert or family trek?
+
+If your children are older and the driving sounds worse than the walking, the
+[4-day family Atlas trek](/en/tours/family-atlas-4day-trek) stays in the mountains with
+village guesthouse nights and much shorter transfers. It is the same length and a
+completely different rhythm.
+
+## Where the money goes
+
+Platform commission of **25–40%** on a €380 trip is up to €152 per person leaving Morocco.
+On a family of four that is a substantial sum that never reaches the camp, the camel
+handlers or the guesthouses. Booking direct keeps it in the country.
+
+👉 **[See the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — €380 per person, three nights, camel rides at Erg Chebbi, paced for children.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

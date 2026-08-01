@@ -1018,6 +1018,7 @@ export const TOURS: Tour[] = [
   {
     id: "14",
     slug: "sahara-2day-agadir",
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco"],
     title: "Agadir to the Sahara — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -1869,6 +1870,7 @@ export const TOURS: Tour[] = [
   {
     id: "28",
     slug: "erg-chegaga-3day-agadir",
+    relatedPosts: ["sahara-tour-from-agadir-cost", "erg-chebbi-vs-erg-chegaga", "sahara-desert-from-agadir", "what-to-pack-desert-tour-morocco"],
     title: "Agadir to Erg Chegaga — 3-Day Remote Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -1960,6 +1962,7 @@ export const TOURS: Tour[] = [
   {
     id: "29",
     slug: "desert-4day-agadir",
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "best-day-trips-from-agadir", "what-to-pack-desert-tour-morocco"],
     title: "Agadir Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "agadir",
@@ -3199,6 +3202,7 @@ export const TOURS: Tour[] = [
   {
     id: "39",
     slug: "family-desert-4day-marrakech",
+    relatedPosts: ["family-desert-tour-morocco-cost", "sahara-desert-morocco-what-to-expect", "what-to-pack-desert-tour-morocco", "agafay-vs-merzouga-vs-zagora"],
     title: "Family Desert Adventure — 4-Day Marrakech to Sahara",
     category: "desert",
     origin: "marrakech",

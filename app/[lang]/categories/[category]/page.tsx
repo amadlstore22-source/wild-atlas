@@ -80,7 +80,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
       {faq.length > 0 && <JsonLd data={faqPageDocument(faq)} />}
 
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
-        <Image src={cat.heroImage} alt={cat.label} fill className="object-cover" priority />
+        <Image src={cat.heroImage} alt={cat.label} fill sizes="100vw" className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <span className="text-5xl block mb-3">{cat.icon}</span>

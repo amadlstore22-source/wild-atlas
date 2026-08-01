@@ -82,7 +82,7 @@ export default async function BlogPage({
     return (
       <Link href={`/${lang}/blog/${post.slug}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
         <div className="relative h-52 overflow-hidden">
-          <Image src={post.heroImage} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+          <Image src={post.heroImage} alt={post.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
           <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wide ${CATEGORY_COLORS[post.category]}`}>{post.category}</span>
         </div>
         <div className="p-6 flex flex-col flex-1">
@@ -106,7 +106,7 @@ export default async function BlogPage({
   return (
     <div>
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
-        <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill className="object-cover" priority />
+        <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill sizes="100vw" className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <h1 className="hero-title font-display text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>
@@ -127,7 +127,7 @@ export default async function BlogPage({
             <Link href={`/${lang}/blog/${pillarPost.slug}`} className="group block">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden tex-emerald shadow-xl hover:shadow-2xl transition-shadow">
                 <div className="relative h-64 lg:h-auto min-h-[340px]">
-                  <Image src={pillarPost.heroImage} alt={pillarPost.title} fill className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={pillarPost.heroImage} alt={pillarPost.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 to-transparent lg:bg-none" />
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center tex-emerald">
@@ -210,7 +210,7 @@ export default async function BlogPage({
           <Link href={`/${lang}/blog/${featured.slug}`} className="group block mb-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden bg-card shadow-md hover:shadow-xl transition-shadow">
               <div className="relative h-64 lg:h-auto min-h-[320px]">
-                <Image src={featured.heroImage} alt={featured.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src={featured.heroImage} alt={featured.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
                 <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-4 ${CATEGORY_COLORS[featured.category]}`}>{featured.category}</span>

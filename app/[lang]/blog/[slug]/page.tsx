@@ -232,7 +232,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
       <JsonLd data={jsonLd} />
       <div>
         <div className="relative h-[55vh] min-h-[360px] overflow-hidden">
-          <Image src={post.heroImage} alt={post.title} fill className="object-cover" priority />
+          <Image src={post.heroImage} alt={post.title} fill sizes="100vw" className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/80 via-indigo-deep/30 to-indigo-deep/15" />
           <div className="absolute inset-0 flex flex-col justify-end max-w-4xl mx-auto px-4 sm:px-6 pb-12 w-full left-0 right-0">
             <nav className="flex items-center gap-2 text-white/60 text-sm mb-5 flex-wrap">
@@ -318,7 +318,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                     {relatedPosts.map((related) => (
                       <Link key={related.slug} href={`/${lang}/blog/${related.slug}`} className="flex gap-3 group">
                         <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0">
-                          <Image src={related.heroImage} alt={related.title} fill className="object-cover" />
+                          <Image src={related.heroImage} alt={related.title} fill sizes="64px" className="object-cover" />
                         </div>
                         <div>
                           <p className="text-charcoal text-sm font-semibold group-hover:text-forest transition-colors leading-snug">{related.title}</p>

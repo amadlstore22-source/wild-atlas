@@ -79,6 +79,21 @@
       "desc": "Réponse WhatsApp sous 24 heures, souvent bien plus vite. L'e-mail peut prendre un peu plus de temps. De vraies personnes, toujours joignables."
     }
   },
+  "whyBook": {
+    "title": "Pourquoi réserver avec nous",
+    "intro": "Nous sommes une agence marrakchie agréée, dirigée par des guides berbères de l'Atlas, et non un revendeur. Vous échangez directement avec ceux qui mènent le circuit.",
+    "licensed": "Opérateur local agréé",
+    "licensedSub": "Agence enregistrée à Marrakech",
+    "ratingSub": "{count} avis TripAdvisor",
+    "local": "Guidé par des locaux",
+    "localSub": "Plus de {years} ans dans l'Atlas",
+    "noPrepay": "Sans prépaiement",
+    "noPrepaySub": "Petit acompte, annulation gratuite jusqu'à {days} jours avant",
+    "fastReply": "Réponse humaine rapide",
+    "fastReplySub": "En général sous {hours} h, par un vrai guide",
+    "browseTours": "Voir tous les circuits",
+    "askQuestion": "Posez-nous une question"
+  },
   "ourStory": {
     "eyebrow": "Notre histoire",
     "title": "Nés dans l'Atlas",

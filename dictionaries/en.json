@@ -79,6 +79,21 @@
       "desc": "WhatsApp replies within 24 hours, usually much faster. Email may take a little longer. Real people, always reachable."
     }
   },
+  "whyBook": {
+    "title": "Why book with us",
+    "intro": "We are a licensed Marrakech agency run by Atlas Berber guides, not a reseller. You deal with the people who actually run the trip.",
+    "licensed": "Licensed local operator",
+    "licensedSub": "Registered Marrakech agency",
+    "ratingSub": "{count} TripAdvisor reviews",
+    "local": "Guided by locals",
+    "localSub": "{years}+ years in the Atlas",
+    "noPrepay": "No prepayment",
+    "noPrepaySub": "Small deposit, free cancellation up to {days} days before",
+    "fastReply": "Fast human reply",
+    "fastReplySub": "Usually within {hours}h, by a real guide",
+    "browseTours": "Browse all tours",
+    "askQuestion": "Ask us a question"
+  },
   "ourStory": {
     "eyebrow": "Our Story",
     "title": "Born in the Atlas Mountains",

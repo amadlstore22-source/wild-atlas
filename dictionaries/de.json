@@ -79,6 +79,21 @@
       "desc": "WhatsApp-Antworten innerhalb von 24 Stunden, meist deutlich schneller. Bei E-Mails kann es etwas länger dauern. Echte Menschen, immer erreichbar."
     }
   },
+  "whyBook": {
+    "title": "Warum bei uns buchen",
+    "intro": "Wir sind eine lizenzierte Agentur aus Marrakesch, geführt von Berberguides aus dem Atlas — kein Wiederverkäufer. Sie sprechen direkt mit denen, die die Tour durchführen.",
+    "licensed": "Lizenzierter lokaler Veranstalter",
+    "licensedSub": "Eingetragene Agentur in Marrakesch",
+    "ratingSub": "{count} TripAdvisor-Bewertungen",
+    "local": "Von Einheimischen geführt",
+    "localSub": "Über {years} Jahre im Atlas",
+    "noPrepay": "Keine Vorauszahlung",
+    "noPrepaySub": "Kleine Anzahlung, kostenlose Stornierung bis {days} Tage vorher",
+    "fastReply": "Schnelle persönliche Antwort",
+    "fastReplySub": "Meist innerhalb von {hours} Std., von einem echten Guide",
+    "browseTours": "Alle Touren ansehen",
+    "askQuestion": "Stellen Sie uns eine Frage"
+  },
   "ourStory": {
     "eyebrow": "Unsere Geschichte",
     "title": "Geboren im Atlasgebirge",

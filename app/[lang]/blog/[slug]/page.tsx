@@ -12,6 +12,7 @@ import { buildFaqSchema } from "@/lib/seo/schema";
 import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
+import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
 import { getDictionary, hasLocale } from "../../dictionaries";
 type BlogParams = { params: Promise<{ lang: string; slug: string }> };
 
@@ -305,6 +306,12 @@ export default async function BlogPostPage({ params }: BlogParams) {
               {post.relatedTours && post.relatedTours.length > 0 && (
                 <RelatedTourCards slugs={post.relatedTours} lang={lang} dict={dict} />
               )}
+
+              {/* Placed after the tour cards, not before: the reader has just
+                  seen a specific trip and price, and the objection that follows
+                  is "why these people". Answering it earlier, with nothing
+                  concrete on screen yet, is a claim about no one in particular. */}
+              <WhyBookWithUs dict={dict} lang={lang} />
 
               <div className="mt-10 pt-8 border-t border-sand-dark flex flex-wrap gap-2">
                 <Tag className="w-4 h-4 text-ink-muted mt-0.5" />

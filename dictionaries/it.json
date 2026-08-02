@@ -79,6 +79,21 @@
       "desc": "Risposte su WhatsApp entro 24 ore, di solito molto più rapide. L'email può richiedere un po' più di tempo. Persone vere, sempre raggiungibili."
     }
   },
+  "whyBook": {
+    "title": "Perché prenotare con noi",
+    "intro": "Siamo un'agenzia autorizzata di Marrakech, guidata da guide berbere dell'Atlante, non un rivenditore. Parli direttamente con chi conduce il viaggio.",
+    "licensed": "Operatore locale autorizzato",
+    "licensedSub": "Agenzia registrata a Marrakech",
+    "ratingSub": "{count} recensioni su TripAdvisor",
+    "local": "Guidati da gente del posto",
+    "localSub": "Oltre {years} anni sull'Atlante",
+    "noPrepay": "Nessun pagamento anticipato",
+    "noPrepaySub": "Piccolo acconto, cancellazione gratuita fino a {days} giorni prima",
+    "fastReply": "Risposta umana rapida",
+    "fastReplySub": "Di solito entro {hours} h, da una guida vera",
+    "browseTours": "Vedi tutti i tour",
+    "askQuestion": "Facci una domanda"
+  },
   "ourStory": {
     "eyebrow": "La Nostra Storia",
     "title": "Nati tra le Montagne dell'Atlante",

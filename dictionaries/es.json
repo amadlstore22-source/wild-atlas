@@ -79,6 +79,21 @@
       "desc": "Respuestas por WhatsApp en 24 horas, normalmente mucho antes. El correo electrónico puede tardar un poco más. Personas reales, siempre disponibles."
     }
   },
+  "whyBook": {
+    "title": "Por qué reservar con nosotros",
+    "intro": "Somos una agencia de Marrakech con licencia, dirigida por guías bereberes del Atlas, no un revendedor. Hablas directamente con quienes realizan el viaje.",
+    "licensed": "Operador local autorizado",
+    "licensedSub": "Agencia registrada en Marrakech",
+    "ratingSub": "{count} opiniones en TripAdvisor",
+    "local": "Guiado por locales",
+    "localSub": "Más de {years} años en el Atlas",
+    "noPrepay": "Sin pago por adelantado",
+    "noPrepaySub": "Pequeño depósito, cancelación gratuita hasta {days} días antes",
+    "fastReply": "Respuesta humana rápida",
+    "fastReplySub": "Normalmente en {hours} h, por un guía real",
+    "browseTours": "Ver todos los tours",
+    "askQuestion": "Haznos una pregunta"
+  },
   "ourStory": {
     "eyebrow": "Nuestra Historia",
     "title": "Nacidos en el Atlas",

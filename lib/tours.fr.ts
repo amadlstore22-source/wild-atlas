@@ -148,13 +148,12 @@ export const TOURS: Tour[] = [
     includes: [
       "Private 4x4 transport throughout",
       "Sunset camel ride",
-      "1 night luxury desert camp (dinner + breakfast)",
-      "1 night hotel in Ouarzazate or Merzouga",
+      "1 night desert camp (dinner + breakfast)",
+      "1 night hotel in Ouarzazate, Merzouga or Dades Gorges",
       "Experienced desert guide",
-      "Sandboarding equipment",
     ],
     excludes: [
-      "Lunches on days 1 and 3",
+      "Lunches",
       "Personal expenses and tips",
     ],
     itinerary: [

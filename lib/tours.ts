@@ -224,26 +224,24 @@ export const TOURS: Tour[] = [
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
     ],
     shortDescription:
-      "Ride camels into the golden Erg Chebbi dunes and sleep under a million stars in a luxury Berber desert camp.",
+      "Ride camels into the golden Erg Chebbi dunes and sleep under a million stars in a traditional Berber desert camp.",
     description:
-      "Three days from Marrakech to the Sahara and back. Cross the High Atlas, stop at the UNESCO Ksar of Aït Ben Haddou, wind through the Draa Valley, and ride camels into Erg Chebbi as the sun melts into the dunes. One night under the stars in a traditional luxury camp.",
+      "Three days from Marrakech to the Sahara and back. Cross the High Atlas, stop at the UNESCO Ksar of Aït Ben Haddou, wind through the Draa Valley, and ride camels into Erg Chebbi as the sun melts into the dunes. One night under the stars in a traditional camp.",
     highlights: [
       "Camel trek into Erg Chebbi dunes at sunset",
-      "Overnight in a luxury Berber desert camp",
+      "Overnight in a traditional Berber desert camp",
       "Aït Ben Haddou UNESCO World Heritage Ksar",
       "Stargazing with zero light pollution",
-      "Sandboarding on the great dunes",
     ],
     includes: [
       "Private 4x4 transport throughout",
       "Sunset camel ride",
-      "1 night luxury desert camp (dinner + breakfast)",
-      "1 night hotel in Ouarzazate or Merzouga",
+      "1 night desert camp (dinner + breakfast)",
+      "1 night hotel in Ouarzazate, Merzouga or Dades Gorges",
       "Experienced desert guide",
-      "Sandboarding equipment",
     ],
     excludes: [
-      "Lunches on days 1 and 3",
+      "Lunches",
       "Personal expenses and tips",
     ],
     itinerary: [
@@ -288,7 +286,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour with Aït Ben Haddou, Draa Valley, and luxury Berber camp. From $245.",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour with Aït Ben Haddou, Draa Valley, and traditional Berber camp. From $245.",
     featured: true,
   },
   {

@@ -9,6 +9,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import { buildFaqSchema } from "@/lib/seo/schema";
+import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import { getDictionary, hasLocale } from "../../dictionaries";
@@ -63,11 +64,9 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
     // discards clusters that do not point back at each other.
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/blog/${blogSlugFor(lang, post.slug)}`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [
-          l,
-          `https://marrakechecotours.com/${l}/blog/${blogSlugFor(l, post.slug)}`,
-        ])
+      languages: hreflangLanguages(
+        LOCALES,
+        (l) => `https://marrakechecotours.com/${l}/blog/${blogSlugFor(l, post.slug)}`
       ),
     },
   };

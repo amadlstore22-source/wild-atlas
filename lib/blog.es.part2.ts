@@ -3293,7 +3293,7 @@ de cedros por el camino, la ruta terrestre se gana su precio.
       "Lo que cuesta un tour de 3 días de Marrakech a Merzouga en 2026, qué separa las ofertas económicas de los tours privados, y los costes ocultos de los presupuestos baratos.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "¿Cuánto cuesta un tour de 3 días al Sáhara desde Marrakech?", a: "Los precios van desde unos 95 € por un minibús compartido con campamento básico hasta 245 € por un 4x4 privado con campamento de lujo. Nuestro [tour de 3 días al Sáhara](/es/tours/sahara-3day-marrakech) cuesta 245 € por persona e incluye transporte privado, el paseo en camello al atardecer, una noche en campamento de lujo con cena y desayuno, una noche de hotel, un guía del desierto y equipo de sandboard." },
+      { q: "¿Cuánto cuesta un tour de 3 días al Sáhara desde Marrakech?", a: "Los precios van desde unos 95 € por un minibús compartido con campamento básico hasta 245 € por un 4x4 privado con campamento de lujo. Nuestro [tour de 3 días al Sáhara](/es/tours/sahara-3day-marrakech) cuesta 245 € por persona e incluye transporte privado, el paseo en camello al atardecer, una noche en campamento con cena y desayuno, una noche de hotel y un guía del desierto." },
       { q: "¿Por qué algunos tours por el desierto marroquí son tan baratos?", a: "El ahorro viene de cuatro sitios: un minibús compartido de 16 plazas en lugar de un vehículo privado; un campamento básico con baños compartidos en lugar de privados; las comidas excluidas los dos días de carretera; y un grupo más grande, lo que significa más paradas y menos flexibilidad. Nada de eso es deshonesto si se comunica: pregunta qué se aplica antes de pagar." },
       { q: "¿Son suficientes tres días para el Sáhara?", a: "Es el itinerario más corto que llega de verdad al Erg Chebbi. Merzouga está a unos 560 km de Marrakech, así que los días uno y tres son en gran parte días de carretera, con la noche en el desierto en medio. Si quieres más dunas y menos coche, el [tour de 4 días](/es/tours/desert-4day-marrakech) añade una noche y un ritmo más pausado." },
       { q: "¿Qué no incluye un tour de 3 días por el desierto?", a: "En nuestro viaje: las comidas de los días 1 y 3, los gastos personales y las propinas. Las comidas en ruta cuestan normalmente 60–120 MAD cada una en los restaurantes de carretera. Las propinas para el conductor-guía y el personal del campamento son costumbre, en torno al 10–15 %." },
@@ -3314,11 +3314,10 @@ persona**.
 | Variable | Gama económica | Nuestro viaje |
 |---|---|---|
 | Transporte | Minibús compartido, hasta 16 personas | 4x4 privado |
-| Campamento | Básico, baños compartidos | Campamento de lujo, cena + desayuno |
-| Noche 2 | A veces solo campamento | Hotel en Uarzazate o Merzouga |
-| Comidas | Excluidas | Excluidas (días 1 y 3) |
+| Campamento | Básico, baños compartidos | Cena + desayuno incluidos |
+| Noche 2 | A veces solo campamento | Hotel en Uarzazate, Merzouga o gargantas del Dades |
+| Comidas | Excluidas | Excluidas |
 | Paseo en camello | Normalmente incluido | Incluido, al atardecer |
-| Sandboard | Alquiler aparte | Equipo incluido |
 | Grupo | Quien reserve | Privado, 2–12 |
 
 El mayor factor es el vehículo. Un minibús compartido reparte el combustible y el conductor
@@ -3355,7 +3354,7 @@ son vagas, esa es justamente la información que necesitabas.
 - **Gastos personales y propinas** — un 10–15 % para el conductor-guía y el personal del campamento es lo habitual
 
 Todo lo demás —transporte privado, paseo en camello al atardecer, campamento de lujo con
-cena y desayuno, noche de hotel, guía del desierto y equipo de sandboard— está en el precio.
+cena y desayuno, noche de hotel y guía del desierto — está en el precio.
 
 ## ¿Qué desierto, además?
 

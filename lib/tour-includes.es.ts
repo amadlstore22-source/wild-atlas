@@ -18,13 +18,12 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Paseo en camello al atardecer",
-      "1 noche en campamento de lujo en el desierto (cena + desayuno)",
-      "1 noche de hotel en Ouarzazate o Merzouga",
+      "1 noche en campamento en el desierto (cena + desayuno)",
+      "1 noche de hotel en Ouarzazate, Merzouga o las gargantas del Dades",
       "Guía del desierto experimentado",
-      "Equipo de sandboard",
     ],
     excludes: [
-      "Almuerzos de los días 1 y 3",
+      "Almuerzos",
       "Gastos personales y propinas",
     ],
   },

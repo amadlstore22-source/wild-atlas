@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import { Star, GoogleLogo, WhatsappLogo, Heart } from "@phosphor-icons/react/dist/ssr";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { SITE, TRIPADVISOR, GOOGLE_REVIEW_URL, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
+const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     robots: { index: false, follow: true },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/review`,
-      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/review`])),
+      languages: hreflangForPath(LOCALES, "/review"),
     },
   };
 }

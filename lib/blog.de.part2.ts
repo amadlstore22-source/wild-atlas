@@ -3294,7 +3294,7 @@ Zedernwald unterwegs wollen, verdient die Überlandroute ihren Preis.
       "Was eine 3-tägige Tour von Marrakesch nach Merzouga 2026 kostet, was Billigangebote von Privattouren unterscheidet, und die versteckten Kosten günstiger Angebote.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 245 € für einen privaten 4x4 mit Luxuscamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 245 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Luxuscamp mit Abendessen und Frühstück, eine Hotelnacht, einen Wüstenführer und Sandboard-Ausrüstung." },
+      { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 245 € für einen privaten 4x4 mit Luxuscamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 245 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Wüstencamp mit Abendessen und Frühstück, eine Hotelnacht und einen Wüstenführer." },
       { q: "Warum sind manche Wüstentouren in Marokko so günstig?", a: "Die Ersparnis kommt aus vier Bereichen: ein Sammelminibus mit 16 Plätzen statt eines Privatfahrzeugs; ein einfaches Camp mit Gemeinschaftsbädern statt privater; an beiden Fahrtagen ausgeschlossene Mittagessen; und eine größere Gruppe, also mehr Stopps und weniger Flexibilität. Nichts davon ist unehrlich, wenn es offengelegt wird — fragen Sie vor der Zahlung nach, was zutrifft." },
       { q: "Reichen drei Tage für die Sahara?", a: "Es ist die kürzeste Route, die den Erg Chebbi wirklich erreicht. Merzouga liegt etwa 560 km von Marrakesch entfernt, also sind Tag eins und drei weitgehend Fahrtage, mit der Wüstennacht dazwischen. Wenn Sie mehr Zeit in den Dünen und weniger im Auto wollen, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) eine Nacht und ein ruhigeres Tempo hinzu." },
       { q: "Was ist bei einer 3-Tages-Wüstentour nicht enthalten?", a: "Bei unserer Tour: die Mittagessen an Tag 1 und 3, persönliche Ausgaben und Trinkgeld. Mittagessen unterwegs kosten in den Raststätten der Route typischerweise 60–120 MAD. Trinkgeld für Fahrer-Guide und Campteam ist mit etwa 10–15 % üblich." },
@@ -3314,11 +3314,10 @@ Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet **245 € pr
 | Variable | Günstiges Ende | Unsere Tour |
 |---|---|---|
 | Transport | Sammelminibus, bis 16 Personen | Privater 4x4 |
-| Wüstencamp | Einfach, Gemeinschaftsbäder | Luxuscamp, Abendessen + Frühstück |
-| Nacht 2 | Manchmal nur Camp | Hotel in Ouarzazate oder Merzouga |
-| Mittagessen | Ausgeschlossen | Ausgeschlossen (Tag 1 und 3) |
+| Wüstencamp | Einfach, Gemeinschaftsbäder | Abendessen + Frühstück inklusive |
+| Nacht 2 | Manchmal nur Camp | Hotel in Ouarzazate, Merzouga oder Dades-Schlucht |
+| Mittagessen | Ausgeschlossen | Ausgeschlossen |
 | Kamelritt | Meist enthalten | Enthalten, bei Sonnenuntergang |
-| Sandboard | Verleih extra | Ausrüstung enthalten |
 | Gruppe | Wer bucht | Privat, 2–12 |
 
 Der größte Faktor ist das Fahrzeug. Ein Sammelminibus verteilt Kraftstoff und Fahrer auf
@@ -3354,8 +3353,8 @@ Antworten vage, ist genau das die Information, die Sie brauchten.
 - **Mittagessen an Tag 1 und 3** — Stopps unterwegs, typischerweise 60–120 MAD
 - **Persönliche Ausgaben und Trinkgeld** — 10–15 % für Fahrer-Guide und Campteam sind üblich
 
-Alles andere — privater Transport, Kamelritt bei Sonnenuntergang, Luxuscamp mit Abendessen
-und Frühstück, Hotelnacht, Wüstenführer und Sandboard-Ausrüstung — ist im Preis enthalten.
+Alles andere — privater Transport, Kamelritt bei Sonnenuntergang, Wüstencamp mit Abendessen
+und Frühstück, Hotelnacht und Wüstenführer — ist im Preis enthalten.
 
 ## Welche Wüste eigentlich?
 
@@ -3373,7 +3372,7 @@ Buchungsplattformen nehmen **25–40 % Provision**. Bei einer Tour für 245 € 
 einem marokkanischen Veranstalter zu buchen hält das bei den Menschen, die das Camp
 betreiben.
 
-👉 **[Die 3-Tages-Saharatour ab Marrakesch ansehen](/de/tours/sahara-3day-marrakech)** — 245 € pro Person, privater 4x4, Luxuscamp, Kamelritt bei Sonnenuntergang inklusive.
+👉 **[Die 3-Tages-Saharatour ab Marrakesch ansehen](/de/tours/sahara-3day-marrakech)** — 245 € pro Person, privater 4x4, Wüstencamp, Kamelritt bei Sonnenuntergang inklusive.
 `,
   },
   {

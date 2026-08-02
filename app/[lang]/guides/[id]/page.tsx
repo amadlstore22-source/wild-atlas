@@ -10,6 +10,7 @@ import TourCard from "@/components/ui/TourCard";
 import { whatsappUrl } from "@/lib/constants";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 
 type GuideParams = { params: Promise<{ lang: string; id: string }> };
 
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: GuideParams): Promise<Metadat
     description: guide.shortBio,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides/${id}`,
-      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/guides/${id}`])),
+      languages: hreflangForPath(LOCALES, `/guides/${id}`),
     },
   };
 }

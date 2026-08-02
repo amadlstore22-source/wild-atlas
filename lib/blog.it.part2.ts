@@ -3291,7 +3291,7 @@ cedreta lungo la strada, la via terrestre si guadagna il suo prezzo.
       "Quanto costa un tour di 3 giorni da Marrakech a Merzouga nel 2026, cosa distingue le offerte economiche dai tour privati, e i costi nascosti dei preventivi a basso prezzo.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 245 € per un 4x4 privato con campo di lusso. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 245 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo di lusso con cena e colazione, una notte in hotel, una guida del deserto e l'attrezzatura da sandboard." },
+      { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 245 € per un 4x4 privato con campo di lusso. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 245 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo con cena e colazione, una notte in hotel e una guida del deserto." },
       { q: "Perché alcuni tour nel deserto marocchino costano così poco?", a: "Il risparmio viene da quattro fronti: un minibus condiviso da 16 posti invece di un veicolo privato; un campo essenziale con bagni in comune invece che privati; i pranzi esclusi in entrambi i giorni di strada; e un gruppo più numeroso, quindi più soste e meno flessibilità. Nulla di disonesto se dichiarato: chiedi cosa si applica prima di pagare." },
       { q: "Tre giorni bastano per il Sahara?", a: "È l'itinerario più breve che raggiunge davvero l'Erg Chebbi. Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e tre sono in gran parte giornate di strada, con la notte nel deserto in mezzo. Se vuoi più dune e meno auto, il [tour di 4 giorni](/it/tours/desert-4day-marrakech) aggiunge una notte e un ritmo più disteso." },
       { q: "Cosa non è incluso in un tour di 3 giorni nel deserto?", a: "Nel nostro viaggio: i pranzi dei giorni 1 e 3, le spese personali e le mance. I pranzi lungo la strada costano in genere 60-120 MAD ciascuno nei ristoranti di sosta. Le mance per l'autista-guida e il personale del campo sono consuetudine, intorno al 10-15 %." },
@@ -3311,11 +3311,10 @@ persona**.
 | Variabile | Fascia economica | Il nostro viaggio |
 |---|---|---|
 | Trasporto | Minibus condiviso, fino a 16 persone | 4x4 privato |
-| Campo | Essenziale, bagni in comune | Campo di lusso, cena + colazione |
-| Notte 2 | A volte solo campo | Hotel a Ouarzazate o Merzouga |
-| Pranzi | Esclusi | Esclusi (giorni 1 e 3) |
+| Campo | Essenziale, bagni in comune | Cena + colazione incluse |
+| Notte 2 | A volte solo campo | Hotel a Ouarzazate, Merzouga o gole del Dades |
+| Pranzi | Esclusi | Esclusi |
 | Giro in cammello | Di solito incluso | Incluso, al tramonto |
-| Sandboard | Noleggio extra | Attrezzatura inclusa |
 | Gruppo | Chi prenota | Privato, 2-12 |
 
 Il fattore principale è il veicolo. Un minibus condiviso divide carburante e autista su
@@ -3351,7 +3350,7 @@ risposte sono vaghe, quella è esattamente l'informazione che ti serviva.
 - **Spese personali e mance** — il 10-15 % per l'autista-guida e il personale del campo è consuetudine
 
 Tutto il resto — trasporto privato, giro in cammello al tramonto, campo di lusso con cena e
-colazione, notte in hotel, guida del deserto e attrezzatura da sandboard — è nel prezzo.
+colazione, notte in hotel e guida del deserto — è nel prezzo.
 
 ## Quale deserto, però?
 

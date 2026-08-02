@@ -7,6 +7,7 @@ import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import CTABanner from "@/components/sections/CTABanner";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import { STATS } from "@/lib/stats";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       "Our guides are licensed Berber professionals who were born and raised in the landscapes they lead. No hired staff from agencies — these are the people who know Morocco's mountains and medinas by heart.",
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides`,
-      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/guides`])),
+      languages: hreflangForPath(LOCALES, "/guides"),
     },
   };
 }

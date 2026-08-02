@@ -11,6 +11,7 @@ import { SITE } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/about`,
-      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/about`])),
+      languages: hreflangForPath(LOCALES, "/about"),
     },
   };
 }

@@ -8,13 +8,14 @@ import { SITE } from "@/lib/constants";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
     title: dict.contact.pageTitle,
     description: dict.contact.pageSubtitle,
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/contact`,
-      languages: Object.fromEntries(LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/contact`])),
+      languages: hreflangForPath(LOCALES, "/contact"),
     },
   };
 }

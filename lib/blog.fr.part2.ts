@@ -3297,7 +3297,7 @@ et la cédraie en chemin, la route mérite son prix.
       "Ce que coûte un circuit de 3 jours Marrakech–Merzouga en 2026, ce qui sépare les offres économiques des circuits privés, et les coûts cachés des devis bon marché.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Combien coûte un circuit de 3 jours dans le Sahara depuis Marrakech ?", a: "Les prix vont d'environ 95 € pour un minibus partagé avec bivouac basique à 245 € pour un 4x4 privé avec camp de luxe. Notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) est à 245 € par personne et comprend le transport privé, la balade à dos de chameau au coucher du soleil, une nuit en camp de luxe avec dîner et petit-déjeuner, une nuit d'hôtel, un guide du désert et le matériel de sandboard." },
+      { q: "Combien coûte un circuit de 3 jours dans le Sahara depuis Marrakech ?", a: "Les prix vont d'environ 95 € pour un minibus partagé avec bivouac basique à 245 € pour un 4x4 privé avec camp de luxe. Notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) est à 245 € par personne et comprend le transport privé, la balade à dos de chameau au coucher du soleil, une nuit en camp avec dîner et petit-déjeuner, une nuit d'hôtel et un guide du désert." },
       { q: "Pourquoi certains circuits dans le désert marocain sont-ils si bon marché ?", a: "Les économies viennent de quatre endroits : un minibus partagé de 16 places plutôt qu'un véhicule privé ; un camp basique avec sanitaires communs plutôt que privés ; les déjeuners exclus les deux jours de route ; et un groupe plus grand, donc plus d'arrêts et moins de souplesse. Rien de malhonnête si c'est annoncé — demandez ce qui s'applique avant de payer." },
       { q: "Trois jours suffisent-ils pour le Sahara ?", a: "C'est l'itinéraire le plus court qui atteigne réellement l'Erg Chebbi. Merzouga est à environ 560 km de Marrakech, donc les jours un et trois sont largement des journées de route, avec la nuit dans le désert entre les deux. Si vous voulez plus de dunes et moins de voiture, le [circuit de 4 jours](/fr/tours/desert-4day-marrakech) ajoute une nuit et un rythme plus lent." },
       { q: "Qu'est-ce qui n'est pas inclus dans un circuit de 3 jours dans le désert ?", a: "Sur notre circuit : les déjeuners des jours 1 et 3, les dépenses personnelles et les pourboires. Les déjeuners sur la route coûtent généralement 60 à 120 MAD chacun dans les restaurants d'étape. Les pourboires pour le chauffeur-guide et le personnel du camp sont d'usage, autour de 10 à 15 %." },
@@ -3318,11 +3318,10 @@ personne**.
 | Variable | Entrée de gamme | Notre circuit |
 |---|---|---|
 | Transport | Minibus partagé, jusqu'à 16 personnes | 4x4 privé |
-| Camp | Basique, sanitaires communs | Camp de luxe, dîner + petit-déjeuner |
-| Nuit 2 | Parfois camp seulement | Hôtel à Ouarzazate ou Merzouga |
-| Déjeuners | Exclus | Exclus (jours 1 et 3) |
+| Camp | Basique, sanitaires communs | Dîner + petit-déjeuner inclus |
+| Nuit 2 | Parfois camp seulement | Hôtel à Ouarzazate, Merzouga ou gorges du Dadès |
+| Déjeuners | Exclus | Exclus |
 | Chameau | Généralement inclus | Inclus, au coucher du soleil |
-| Sandboard | Location en supplément | Matériel inclus |
 | Groupe | Qui réserve | Privé, 2–12 |
 
 Le facteur principal est le véhicule. Un minibus partagé répartit le carburant et le
@@ -3361,7 +3360,7 @@ c'est précisément l'information dont vous aviez besoin.
 - **Dépenses personnelles et pourboires** — 10 à 15 % pour le chauffeur-guide et le personnel du camp
 
 Tout le reste — transport privé, balade à dos de chameau au coucher du soleil, camp de luxe
-avec dîner et petit-déjeuner, nuit d'hôtel, guide du désert et matériel de sandboard — est
+avec dîner et petit-déjeuner, nuit d'hôtel et guide du désert — est
 compris dans le prix.
 
 ## Quel désert, au fait ?

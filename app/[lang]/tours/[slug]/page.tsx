@@ -28,6 +28,7 @@ import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // Import from currency-core, not currency: the latter is "use client" and its
 // constants read as undefined during server render.
 import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
 /** Tour prices are stored in USD but the site displays EUR by default. Google
@@ -76,9 +77,7 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
     // hreflang alternates rather than collapsing to /en.
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/tours/${slug}`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/tours/${slug}`])
-      ),
+      languages: hreflangForPath(LOCALES, `/tours/${slug}`),
     },
   };
 }

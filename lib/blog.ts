@@ -5423,7 +5423,7 @@ the cedar forest along the way, the overland route earns its cost.
     seoDescription:
       "What a 3-day Marrakech to Merzouga Sahara tour costs in 2026, what separates budget and private trips, and the hidden costs in cheap desert tour quotes.",
     faq: [
-      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €245 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €245 per person and includes private transport, the sunset camel ride, one night in a luxury desert camp with dinner and breakfast, one hotel night, a desert guide and sandboarding equipment." },
+      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €245 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €245 per person and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
       { q: "Why are some Morocco desert tours so cheap?", a: "The savings come from four places, and it is worth knowing which: a shared 16-seat minibus rather than a private vehicle; a basic camp with shared bathrooms rather than private ones; lunches excluded on both driving days; and a larger group, which means more stops and less flexibility. None of that is dishonest if disclosed — ask which applies before paying." },
       { q: "Is the 3-day Sahara tour enough time?", a: "It is the shortest itinerary that reaches Erg Chebbi properly. Merzouga is about 560 km from Marrakech, so days one and three are substantially driving days, with the desert night in between. If you want more time in the dunes rather than the car, the [4-day route](/en/tours/desert-4day-marrakech) adds a night and a slower pace." },
       { q: "What is not included in a 3-day desert tour?", a: "On our trip, lunches on days one and three, plus personal expenses and tips. Lunches on the road are typically 60–120 MAD each at the roadside restaurants the route uses. Tips for the driver-guide and camp staff are customary at around 10–15%." },
@@ -5443,11 +5443,10 @@ Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€245 per person*
 | Variable | Budget end | Our trip |
 |---|---|---|
 | Transport | Shared minibus, up to 16 people | Private 4x4 |
-| Desert camp | Basic, shared bathrooms | Luxury camp, dinner + breakfast |
-| Night 2 | Sometimes camp only | Hotel in Ouarzazate or Merzouga |
-| Lunches | Excluded | Excluded (days 1 and 3) |
+| Desert camp | Basic, shared bathrooms | Dinner + breakfast included |
+| Night 2 | Sometimes camp only | Hotel in Ouarzazate, Merzouga or Dades Gorges |
+| Lunches | Excluded | Excluded |
 | Camel ride | Usually included | Included, sunset |
-| Sandboarding | Rental extra | Equipment included |
 | Group | Whoever books | Private, 2–12 |
 
 The single biggest driver is the vehicle. A shared minibus splits the fuel and driver
@@ -5480,11 +5479,11 @@ the information you needed.
 
 ## What is not included on our trip
 
-- **Lunches on days 1 and 3** — roadside stops, typically 60–120 MAD
+- **Lunches** — roadside stops, typically 60–120 MAD
 - **Personal expenses and tips** — 10–15% for the driver-guide and camp staff is customary
 
-Everything else — private transport, the sunset camel ride, the luxury camp with dinner
-and breakfast, the hotel night, the desert guide and sandboarding equipment — is in the
+Everything else — private transport, the sunset camel ride, the camp with dinner
+and breakfast, the hotel night and the desert guide — is in the
 price.
 
 ## Which desert, though?
@@ -5501,7 +5500,7 @@ Booking platforms take **25–40%** commission. On a €245 tour that is up to �
 Morocco — more than the camp and the camel handlers earn between them. Direct booking with
 any Moroccan operator keeps it with the people running the camp.
 
-👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — €245 per person, private 4x4, luxury camp, sunset camel ride included.
+👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — €245 per person, private 4x4, desert camp, sunset camel ride included.
 `,
   },
   {

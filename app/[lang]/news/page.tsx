@@ -6,6 +6,7 @@ import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import CTABanner from "@/components/sections/CTABanner";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { STATS } from "@/lib/stats";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -22,9 +23,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     // canonical" bucket. Now each locale consolidates onto itself.
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/news`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/news`]),
-      ),
+      languages: hreflangForPath(LOCALES, "/news"),
     },
   };
 }

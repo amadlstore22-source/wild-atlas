@@ -11,6 +11,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
 import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 type CategoryParams = { params: Promise<{ lang: string; category: string }> };
 
 export async function generateStaticParams() {
@@ -24,16 +25,14 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
   if (!hasLocale(lang)) return {};
   const cat = getCategoryFor(lang, category as Category);
   if (!cat) return {};
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
     title: `${cat.label} Adventures in Morocco — Marrakech Eco Tours`,
     description: cat.description,
     openGraph: { title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/categories/${category}`,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/categories/${category}`])
-      ),
+      languages: hreflangForPath(LOCALES, `/categories/${category}`),
     },
   };
 }

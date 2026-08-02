@@ -18,13 +18,12 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
     includes: [
       "Privater 4x4-Transport während der gesamten Tour",
       "Kamelritt bei Sonnenuntergang",
-      "1 Nacht im Luxus-Wüstencamp (Abendessen + Frühstück)",
-      "1 Nacht Hotel in Ouarzazate oder Merzouga",
+      "1 Nacht im Wüstencamp (Abendessen + Frühstück)",
+      "1 Nacht Hotel in Ouarzazate, Merzouga oder der Dades-Schlucht",
       "Erfahrener Wüstenführer",
-      "Sandboard-Ausrüstung",
     ],
     excludes: [
-      "Mittagessen an Tag 1 und 3",
+      "Mittagessen",
       "Persönliche Ausgaben und Trinkgelder",
     ],
   },

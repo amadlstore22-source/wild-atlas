@@ -32,7 +32,18 @@ const MET_TEAM: BlogAuthor = { name: "MET Team", role: "Marrakech Eco Tours", is
 export type BlogFaq = Faq;
 
 export interface BlogPost {
+  /** Stable identity across every locale. NEVER translate this — it is the key
+   *  blogPostsFor() joins on, so a translated `slug` silently matches nothing
+   *  and the locale falls back to English for that post. To localise the URL,
+   *  set `localizedSlug` instead and leave this alone. */
   slug: string;
+  /** Optional locale-specific URL segment. When set, the post is served at
+   *  /<lang>/blog/<localizedSlug> and the old /<lang>/blog/<slug> 301s to it
+   *  (see proxy.ts). When absent the English slug is used, which is the case
+   *  for every post published before 2026-08 — those URLs are already indexed
+   *  and ranking, so renaming them would trade real positions for a marginal
+   *  gain. New posts get localised slugs; existing ones deliberately do not. */
+  localizedSlug?: string;
   title: string;
   excerpt: string;
   content: string;

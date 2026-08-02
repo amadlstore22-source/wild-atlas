@@ -2679,6 +2679,7 @@ Non costruire una vacanza attorno a Ouarzazate: costruiscila attorno al deserto 
   },
   {
     slug: "toubkal-guide-cost",
+    localizedSlug: "prezzo-guida-toubkal",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa una guida per il Toubkal? (Prezzi 2026)",
     excerpt:
@@ -2828,6 +2829,7 @@ assicurati di sapere cosa è incluso prima di lasciare Marrakech.
   },
   {
     slug: "toubkal-2-day-trek-cost",
+    localizedSlug: "prezzo-trek-toubkal-2-giorni",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un trek di 2 giorni al Toubkal? (Dettaglio 2026)",
     excerpt:
@@ -2945,6 +2947,7 @@ organizzare.
   },
   {
     slug: "toubkal-4-day-trek-cost",
+    localizedSlug: "prezzo-trek-toubkal-4-giorni",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un trek di 4 giorni al Toubkal? (Dettaglio 2026)",
     excerpt:
@@ -3056,6 +3059,7 @@ di più, ma perché è l'acclimatamento a portarti in cima.
   },
   {
     slug: "toubkal-circuit-ifni-lake-cost",
+    localizedSlug: "prezzo-circuito-toubkal-lago-ifni",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa il circuito del Toubkal di 6 giorni? (Dettaglio 2026)",
     excerpt:
@@ -3163,6 +3167,7 @@ che portano il tuo materiale oltre il colle.
   },
   {
     slug: "marrakech-to-chefchaouen-tour-cost",
+    localizedSlug: "prezzo-tour-marrakech-chefchaouen",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Marrakech-Chefchaouen: quanto costa davvero il viaggio nel 2026",
     excerpt:
@@ -3269,6 +3274,7 @@ cedreta lungo la strada, la via terrestre si guadagna il suo prezzo.
   },
   {
     slug: "3-day-sahara-tour-cost-marrakech",
+    localizedSlug: "prezzo-tour-sahara-3-giorni-marrakech",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech? (2026)",
     excerpt:
@@ -3368,6 +3374,7 @@ avanti il campo.
   },
   {
     slug: "sahara-tour-from-agadir-cost",
+    localizedSlug: "prezzo-tour-sahara-agadir",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un tour nel Sahara da Agadir? (Dettaglio 2026)",
     excerpt:
@@ -3475,6 +3482,7 @@ Prenotare in diretta mantiene quella somma alle persone che mandano avanti il ca
   },
   {
     slug: "family-desert-tour-morocco-cost",
+    localizedSlug: "prezzo-tour-deserto-famiglia-marocco",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un tour nel deserto in famiglia in Marocco? (2026)",
     excerpt:

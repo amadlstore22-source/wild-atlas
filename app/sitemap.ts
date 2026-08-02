@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
+import { blogSlugFor } from "@/lib/blog-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
 
@@ -69,9 +70,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // with full hreflang alternates (see app/[lang]/blog/[slug]/page.tsx). Listing
   // only /en left the fr/es/de/it/ar blog URLs — which hreflang points at —
   // absent from the sitemap, and slower to index. Fan out all six, same as tours.
+  // blogSlugFor resolves the locale's own URL segment, so a post with a
+  // localised slug is submitted under that URL rather than the English one.
+  // Submitting the English spelling for a locale that 301s it away would ask
+  // Google to crawl a redirect on every deploy.
   const blogUrls = LOCALES.flatMap((lang) =>
     BLOG_POSTS.map((p) => ({
-      url: `${BASE}/${lang}/blog/${p.slug}`,
+      url: `${BASE}/${lang}/blog/${blogSlugFor(lang, p.slug)}`,
       lastModified: new Date(p.updatedAt ?? p.publishedAt),
       changeFrequency: "monthly" as const,
       priority: 0.6,

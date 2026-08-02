@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowLeft, ArrowRight, Tag } from "@phosphor-icons/react/dist/ssr";
 import { BLOG_POSTS } from "@/lib/blog";
-import { blogPostsFor, getBlogPostFor, blogRegionsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, getBlogPostFor, blogRegionsFor, blogSlugFor } from "@/lib/blog-i18n";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
@@ -15,8 +15,14 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 type BlogParams = { params: Promise<{ lang: string; slug: string }> };
 
 export async function generateStaticParams() {
+  // Emit the localised segment per locale where one exists, so the page is
+  // prerendered at the URL it is actually served from. Posts without a
+  // localizedSlug keep the English segment in every locale.
   return BLOG_POSTS.flatMap((p) =>
-    ["en", "fr", "es", "de", "it", "ar"].map((lang) => ({ lang, slug: p.slug }))
+    (["en", "fr", "es", "de", "it", "ar"] as const).map((lang) => ({
+      lang,
+      slug: blogSlugFor(lang, p.slug),
+    }))
   );
 }
 
@@ -48,10 +54,20 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
     },
     // Post bodies are now translated per locale, so each locale gets its own
     // canonical URL and full hreflang alternates rather than collapsing to /en.
+    //
+    // Both are built from post.slug via blogSlugFor rather than from the
+    // requested `slug`: a locale may serve this post under a localised segment,
+    // and each hreflang entry must name that locale's real URL. Using the
+    // incoming segment would point every alternate at whichever spelling the
+    // visitor happened to arrive on, breaking hreflang reciprocity — Google
+    // discards clusters that do not point back at each other.
     alternates: {
-      canonical: `https://marrakechecotours.com/${lang}/blog/${slug}`,
+      canonical: `https://marrakechecotours.com/${lang}/blog/${blogSlugFor(lang, post.slug)}`,
       languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `https://marrakechecotours.com/${l}/blog/${slug}`])
+        LOCALES.map((l) => [
+          l,
+          `https://marrakechecotours.com/${l}/blog/${blogSlugFor(l, post.slug)}`,
+        ])
       ),
     },
   };

@@ -59,8 +59,24 @@ export function blogPostsFor(locale: Locale): BlogPost[] {
   return BLOG_POSTS_EN.map((enPost) => bySlug.get(enPost.slug) ?? enPost);
 }
 
+/**
+ * Resolve a post by either its localised URL segment or its English slug.
+ *
+ * Accepting both matters: the English slug is what every already-indexed URL,
+ * external backlink, and inline link inside translated content uses. Matching
+ * `localizedSlug` first means the localised URL is canonical, while the English
+ * one still resolves instead of 404ing — proxy.ts redirects it so only one is
+ * indexed.
+ */
 export function getBlogPostFor(locale: Locale, slug: string): BlogPost | undefined {
-  return blogPostsFor(locale).find((p) => p.slug === slug);
+  const posts = blogPostsFor(locale);
+  return posts.find((p) => p.localizedSlug === slug) ?? posts.find((p) => p.slug === slug);
+}
+
+/** The URL segment a post should be served at in this locale. */
+export function blogSlugFor(locale: Locale, slug: string): string {
+  const post = blogPostsFor(locale).find((p) => p.slug === slug);
+  return post?.localizedSlug ?? slug;
 }
 
 export function blogRegionsFor(locale: Locale): RegionEntry[] {

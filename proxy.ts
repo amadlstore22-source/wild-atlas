@@ -1,5 +1,58 @@
 import { NextRequest, NextResponse } from "next/server";
 
+/* Localised blog URL segments, English slug -> locale segment.
+ *
+ * Must stay in sync with `localizedSlug` in lib/blog.<locale>.part*.ts —
+ * __tests__/lib/blog.test.ts asserts they match, because a drift here would
+ * 301 a live URL into a 404.
+ *
+ * Arabic is deliberately absent: Arabic-script URLs are percent-encoded to
+ * unreadable byte strings when shared, which loses the readability that is the
+ * only real benefit of localising the slug in the first place. */
+const BLOG_SLUGS_FR: Record<string, string> = {
+  "toubkal-2-day-trek-cost": "prix-trek-toubkal-2-jours",
+  "toubkal-4-day-trek-cost": "prix-trek-toubkal-4-jours",
+  "toubkal-circuit-ifni-lake-cost": "prix-circuit-toubkal-lac-ifni",
+  "toubkal-guide-cost": "prix-guide-toubkal",
+  "marrakech-to-chefchaouen-tour-cost": "prix-circuit-marrakech-chefchaouen",
+  "3-day-sahara-tour-cost-marrakech": "prix-circuit-sahara-3-jours-marrakech",
+  "sahara-tour-from-agadir-cost": "prix-circuit-sahara-agadir",
+  "family-desert-tour-morocco-cost": "prix-circuit-desert-famille-maroc",
+};
+
+const BLOG_SLUGS_ES: Record<string, string> = {
+  "toubkal-2-day-trek-cost": "precio-trek-toubkal-2-dias",
+  "toubkal-4-day-trek-cost": "precio-trek-toubkal-4-dias",
+  "toubkal-circuit-ifni-lake-cost": "precio-circuito-toubkal-lago-ifni",
+  "toubkal-guide-cost": "precio-guia-toubkal",
+  "marrakech-to-chefchaouen-tour-cost": "precio-tour-marrakech-chefchaouen",
+  "3-day-sahara-tour-cost-marrakech": "precio-tour-sahara-3-dias-marrakech",
+  "sahara-tour-from-agadir-cost": "precio-tour-sahara-agadir",
+  "family-desert-tour-morocco-cost": "precio-tour-desierto-familia-marruecos",
+};
+
+const BLOG_SLUGS_DE: Record<string, string> = {
+  "toubkal-2-day-trek-cost": "toubkal-trek-2-tage-kosten",
+  "toubkal-4-day-trek-cost": "toubkal-trek-4-tage-kosten",
+  "toubkal-circuit-ifni-lake-cost": "toubkal-runde-ifni-see-kosten",
+  "toubkal-guide-cost": "toubkal-bergfuehrer-kosten",
+  "marrakech-to-chefchaouen-tour-cost": "marrakesch-chefchaouen-tour-kosten",
+  "3-day-sahara-tour-cost-marrakech": "sahara-tour-3-tage-marrakesch-kosten",
+  "sahara-tour-from-agadir-cost": "sahara-tour-agadir-kosten",
+  "family-desert-tour-morocco-cost": "familien-wuestentour-marokko-kosten",
+};
+
+const BLOG_SLUGS_IT: Record<string, string> = {
+  "toubkal-2-day-trek-cost": "prezzo-trek-toubkal-2-giorni",
+  "toubkal-4-day-trek-cost": "prezzo-trek-toubkal-4-giorni",
+  "toubkal-circuit-ifni-lake-cost": "prezzo-circuito-toubkal-lago-ifni",
+  "toubkal-guide-cost": "prezzo-guida-toubkal",
+  "marrakech-to-chefchaouen-tour-cost": "prezzo-tour-marrakech-chefchaouen",
+  "3-day-sahara-tour-cost-marrakech": "prezzo-tour-sahara-3-giorni-marrakech",
+  "sahara-tour-from-agadir-cost": "prezzo-tour-sahara-agadir",
+  "family-desert-tour-morocco-cost": "prezzo-tour-deserto-famiglia-marocco",
+};
+
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
 const DEFAULT_LOCALE = "en";
 
@@ -56,6 +109,31 @@ export function proxy(request: NextRequest) {
     "day-trips": "day-tours",
     "day-tour": "day-tours",
   };
+  // Posts whose URL segment differs per locale. English slug -> per-locale
+  // segment. Only posts published from 2026-08 are listed: older posts are
+  // already indexed and ranking under the English slug, and renaming those
+  // would trade real positions for a marginal gain.
+  //
+  // Kept as a literal rather than imported from lib/blog so the edge bundle
+  // does not pull in the whole 5,000-line post corpus.
+  const BLOG_LOCALIZED_SLUGS: Record<string, Record<string, string>> = {
+    fr: BLOG_SLUGS_FR,
+    es: BLOG_SLUGS_ES,
+    de: BLOG_SLUGS_DE,
+    it: BLOG_SLUGS_IT,
+  };
+  const blogMatch = pathname.match(/^\/([a-z]{2})\/blog\/([^/]+)\/?$/);
+  if (blogMatch) {
+    const [, loc, slug] = blogMatch;
+    const target = BLOG_LOCALIZED_SLUGS[loc]?.[slug];
+    if (target && target !== slug) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/${loc}/blog/${target}`;
+      // 301: the localised URL is canonical, so consolidate signals onto it.
+      return NextResponse.redirect(url, 301);
+    }
+  }
+
   const catMatch = pathname.match(/^\/([a-z]{2})\/categories\/([^/]+)\/?$/);
   if (catMatch) {
     const [, loc, slug] = catMatch;

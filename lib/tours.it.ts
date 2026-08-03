@@ -7,6 +7,7 @@ export const TOURS: Tour[] = [
   {
     id: "1",
     slug: "toubkal-summit-trek-4day",
+    localizedSlug: "trek-cima-toubkal-4-giorni",
     title: "Da Marrakech alla vetta del Toubkal — Trekking di 4 giorni",
     category: "trekking",
     origin: "marrakech",
@@ -107,6 +108,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
+    localizedSlug: "tour-deserto-3-giorni-marrakech",
     title: "Da Marrakech a Merzouga — Tour del Deserto di 3 Giorni",
     category: "desert",
     origin: "marrakech",
@@ -195,6 +197,7 @@ export const TOURS: Tour[] = [
   {
     id: "3",
     slug: "ourika-valley-day-hike",
+    localizedSlug: "escursione-valle-ourika",
     title: "Da Marrakech alla Valle dell'Ourika — Escursione Giornaliera",
     category: "day-tours",
     origin: "marrakech",
@@ -255,6 +258,7 @@ export const TOURS: Tour[] = [
   {
     id: "4",
     slug: "ouzoud-waterfalls-day-trip",
+    localizedSlug: "gita-cascate-ouzoud",
     title: "Da Marrakech alle Cascate di Ouzoud — Gita Giornaliera",
     category: "day-tours",
     origin: "marrakech",
@@ -315,6 +319,7 @@ export const TOURS: Tour[] = [
   {
     id: "5",
     slug: "agafay-desert-sunset",
+    localizedSlug: "tramonto-deserto-agafay",
     title: "Da Marrakech al Deserto di Agafay — Tramonto e Cena",
     category: "day-tours",
     origin: "marrakech",
@@ -376,6 +381,7 @@ export const TOURS: Tour[] = [
   {
     id: "6",
     slug: "marrakech-medina-cultural-tour",
+    localizedSlug: "tour-culturale-medina-marrakech",
     title: "Medina di Marrakech — Tour Culturale",
     category: "cultural",
     origin: "marrakech",
@@ -435,6 +441,7 @@ export const TOURS: Tour[] = [
   {
     id: "7",
     slug: "marrakech-to-fes-3day",
+    localizedSlug: "marrakech-fes-3-giorni",
     title: "Da Marrakech a Fes — Tour delle Città Imperiali di 3 Giorni",
     category: "cultural",
     origin: "marrakech",
@@ -517,6 +524,7 @@ export const TOURS: Tour[] = [
   {
     id: "8",
     slug: "mgoun-massif-trek",
+    localizedSlug: "trek-massiccio-mgoun-7-giorni",
     title: "Da Marrakech al Massiccio del M'Goun — Traversata di 7 Giorni",
     category: "trekking",
     origin: "marrakech",
@@ -584,6 +592,7 @@ export const TOURS: Tour[] = [
   {
     id: "9",
     slug: "paradise-valley-agadir",
+    localizedSlug: "paradise-valley-agadir-giornata",
     title: "Da Agadir alla Paradise Valley e alle Cascate di Immouzer",
     category: "day-tours",
     origin: "agadir",
@@ -643,6 +652,7 @@ export const TOURS: Tour[] = [
   {
     id: "10",
     slug: "sous-massa-national-park",
+    localizedSlug: "parco-nazionale-souss-massa",
     title: "Da Agadir al Parco Nazionale di Souss-Massa — Tour Naturalistico",
     category: "day-tours",
     origin: "agadir",
@@ -705,6 +715,7 @@ export const TOURS: Tour[] = [
   {
     id: "11",
     slug: "taroudant-day-trip-agadir",
+    localizedSlug: "gita-taroudant-agadir",
     title: "Da Agadir a Taroudant — Gita Giornaliera",
     category: "cultural",
     origin: "agadir",
@@ -766,6 +777,7 @@ export const TOURS: Tour[] = [
   {
     id: "12",
     slug: "agadir-surf-lesson",
+    localizedSlug: "lezione-surf-agadir",
     title: "Lezione di Surf sulla Spiaggia di Agadir",
     category: "day-tours",
     origin: "agadir",
@@ -824,6 +836,7 @@ export const TOURS: Tour[] = [
   {
     id: "13",
     slug: "anti-atlas-trekking-agadir",
+    localizedSlug: "trek-anti-atlante-agadir",
     title: "Da Agadir ai Monti Anti-Atlante — Trekking di 3 Giorni",
     category: "trekking",
     origin: "agadir",
@@ -908,6 +921,7 @@ export const TOURS: Tour[] = [
   {
     id: "14",
     slug: "sahara-2day-agadir",
+    localizedSlug: "tour-deserto-2-giorni-agadir",
     title: "Da Agadir al Sahara — Tour del Deserto di 2 Giorni",
     category: "desert",
     origin: "agadir",
@@ -980,6 +994,7 @@ export const TOURS: Tour[] = [
   {
     id: "15",
     slug: "souss-valley-cultural-tour",
+    localizedSlug: "tour-culturale-valle-souss",
     title: "Da Agadir alla Valle del Souss — Tour dell'Argan e della Cultura Berbera",
     category: "cultural",
     origin: "agadir",
@@ -1042,6 +1057,7 @@ export const TOURS: Tour[] = [
   {
     id: "16",
     slug: "agadir-to-essaouira-day-trip",
+    localizedSlug: "gita-essaouira-agadir",
     title: "Da Agadir a Essaouira — Gita Giornaliera",
     category: "day-tours",
     origin: "agadir",
@@ -1101,6 +1117,7 @@ export const TOURS: Tour[] = [
   {
     id: "17",
     slug: "marrakech-to-chefchaouen-4day",
+    localizedSlug: "marrakech-chefchaouen-4-giorni",
     title: "Da Marrakech a Chefchaouen — Tour della Città Blu di 4 Giorni",
     category: "cultural",
     origin: "marrakech",
@@ -1192,6 +1209,7 @@ export const TOURS: Tour[] = [
   {
     id: "18",
     slug: "marrakech-imperial-cities-5day",
+    localizedSlug: "citta-imperiali-marrakech-5-giorni",
     title: "Marrakech — Tutte e 4 le Città Imperiali — Grand Tour di 5 Giorni",
     category: "cultural",
     origin: "marrakech",
@@ -1300,6 +1318,7 @@ export const TOURS: Tour[] = [
   {
     id: "23",
     slug: "zagora-2day-marrakech",
+    localizedSlug: "tour-zagora-2-giorni-marrakech",
     title: "Da Marrakech a Zagora — Tour del Deserto di 2 Giorni",
     category: "desert",
     origin: "marrakech",
@@ -1378,6 +1397,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
+    localizedSlug: "erg-chegaga-3-giorni-marrakech",
     title: "Erg Chegaga da Marrakech — Spedizione nel Deserto Remoto di 3 Giorni",
     category: "desert",
     origin: "marrakech",
@@ -1469,6 +1489,7 @@ export const TOURS: Tour[] = [
   {
     id: "25",
     slug: "desert-4day-marrakech",
+    localizedSlug: "tour-deserto-4-giorni-marrakech",
     title: "Grand Tour del Deserto da Marrakech — 4 Giorni",
     category: "desert",
     origin: "marrakech",
@@ -1575,6 +1596,7 @@ export const TOURS: Tour[] = [
   {
     id: "26",
     slug: "merzouga-3day-agadir",
+    localizedSlug: "merzouga-3-giorni-agadir",
     title: "Da Agadir a Merzouga — Tour del Deserto del Sahara di 3 Giorni",
     category: "desert",
     origin: "agadir",
@@ -1666,6 +1688,7 @@ export const TOURS: Tour[] = [
   {
     id: "27",
     slug: "zagora-2day-agadir",
+    localizedSlug: "tour-zagora-2-giorni-agadir",
     title: "Da Agadir a Zagora — Tour del Deserto di 2 Giorni",
     category: "desert",
     origin: "agadir",
@@ -1744,6 +1767,7 @@ export const TOURS: Tour[] = [
   {
     id: "28",
     slug: "erg-chegaga-3day-agadir",
+    localizedSlug: "erg-chegaga-3-giorni-agadir",
     title: "Da Agadir all'Erg Chegaga — Tour del Deserto Remoto di 3 Giorni",
     category: "desert",
     origin: "agadir",
@@ -1834,6 +1858,7 @@ export const TOURS: Tour[] = [
   {
     id: "29",
     slug: "desert-4day-agadir",
+    localizedSlug: "tour-deserto-4-giorni-agadir",
     title: "Grand Tour del Deserto da Agadir — 4 Giorni",
     category: "desert",
     origin: "agadir",
@@ -1943,6 +1968,7 @@ export const TOURS: Tour[] = [
   {
     id: "19",
     slug: "agadir-to-fes-4day",
+    localizedSlug: "agadir-fes-4-giorni",
     title: "Da Agadir a Fes — Tour delle Città Imperiali di 4 Giorni",
     category: "cultural",
     origin: "agadir",
@@ -2036,6 +2062,7 @@ export const TOURS: Tour[] = [
   {
     id: "20",
     slug: "agadir-to-chefchaouen-5day",
+    localizedSlug: "agadir-chefchaouen-5-giorni",
     title: "Da Agadir a Chefchaouen — Tour della Città Blu di 5 Giorni",
     category: "cultural",
     origin: "agadir",
@@ -2138,6 +2165,7 @@ export const TOURS: Tour[] = [
   {
     id: "21",
     slug: "agadir-imperial-cities-6day",
+    localizedSlug: "citta-imperiali-agadir-6-giorni",
     title: "Agadir — Tutte e 4 le Città Imperiali — Grand Tour di 6 Giorni",
     category: "cultural",
     origin: "agadir",
@@ -2257,6 +2285,7 @@ export const TOURS: Tour[] = [
   {
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
+    localizedSlug: "circuito-toubkal-lago-ifni-6-giorni",
     title: "Circuito del Toubkal e Lago Ifni da Marrakech — Trekking di 6 Giorni",
     category: "trekking",
     origin: "marrakech",
@@ -2383,6 +2412,7 @@ export const TOURS: Tour[] = [
   {
     id: "31",
     slug: "toubkal-summit-2day-marrakech",
+    localizedSlug: "salita-toubkal-2-giorni",
     title: "Toubkal Express — Vetta in 2 Giorni da Marrakech",
     category: "trekking",
     origin: "marrakech",
@@ -2465,6 +2495,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
+    localizedSlug: "toubkal-passo-aguelzim-3-giorni",
     title: "Vetta del Toubkal via il Passo di Aguelzim da Marrakech — Trekking di 3 Giorni",
     category: "trekking",
     origin: "marrakech",
@@ -2556,6 +2587,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
+    localizedSlug: "toubkal-tre-cime-4000m-3-giorni",
     title: "Toubkal Tre Vette Oltre i 4.000 m da Marrakech — Sfida di 3 Giorni",
     category: "trekking",
     origin: "marrakech",
@@ -2649,6 +2681,7 @@ export const TOURS: Tour[] = [
   {
     id: "34",
     slug: "marrakech-food-market-tour",
+    localizedSlug: "tour-gastronomico-marrakech",
     title: "Tour del Cibo e dei Mercati di Marrakech — Passeggiata Culinaria di Mezza Giornata",
     category: "day-tours",
     origin: "marrakech",
@@ -2709,6 +2742,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
+    localizedSlug: "notte-stellata-merzouga",
     title: "Osservazione delle Stelle nel Sahara di Merzouga da Marrakech — Tour del Deserto Dark Sky di 2 Giorni",
     category: "desert",
     origin: "marrakech",
@@ -2785,6 +2819,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
+    localizedSlug: "trek-valle-azzaden-2-giorni",
     title: "Valle di Azzaden da Marrakech — Trekking di 2 giorni nell'Atlante",
     category: "trekking",
     origin: "marrakech",
@@ -2861,6 +2896,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
+    localizedSlug: "trek-villaggi-alto-atlante-3-giorni",
     title: "Villaggi dell'Alto Atlante da Marrakech — Trekking di 3 giorni",
     category: "trekking",
     origin: "marrakech",
@@ -2948,6 +2984,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
+    localizedSlug: "trek-atlante-famiglia-4-giorni",
     title: "Alto Atlante in famiglia da Marrakech — Trekking dolce di 4 giorni",
     category: "trekking",
     origin: "marrakech",
@@ -3044,6 +3081,7 @@ export const TOURS: Tour[] = [
   {
     id: "39",
     slug: "family-desert-4day-marrakech",
+    localizedSlug: "tour-deserto-famiglia-4-giorni",
     title: "Avventura nel deserto in famiglia — 4 giorni da Marrakech al Sahara",
     category: "desert",
     origin: "marrakech",
@@ -3142,6 +3180,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
+    localizedSlug: "grande-traversata-alto-atlante-15-giorni",
     title: "Grande Traversata dell'Alto Atlante da Marrakech — Trekking di 15 giorni dal M'Goun al Toubkal",
     category: "trekking",
     origin: "marrakech",
@@ -3356,6 +3395,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
+    localizedSlug: "toubkal-sahara-5-giorni",
     title: "Cima del Toubkal e Sahara da Marrakech — Tour di 5 giorni dalla montagna al deserto",
     category: "trekking",
     origin: "marrakech",

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
 import { blogSlugFor } from "@/lib/blog-i18n";
+import { tourSlugFor } from "@/lib/tours-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
 
@@ -48,9 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // page's `alternates`), so every locale URL is a distinct canonical page and
   // all six belong in the sitemap. Submitting only /en left the fr/es/de/it/ar
   // tour pages discoverable via hreflang alone — slower to get indexed.
+  // tourSlugFor resolves the locale's own URL segment, same reasoning as the
+  // blog below: submitting the English spelling for a locale that 308s it away
+  // asks Google to crawl a redirect on every deploy.
   const tourUrls = LOCALES.flatMap((lang) =>
     TOURS.map((t) => ({
-      url: `${BASE}/${lang}/tours/${t.slug}`,
+      url: `${BASE}/${lang}/tours/${tourSlugFor(lang, t.slug)}`,
       lastModified: CATALOGUE_LASTMOD,
       changeFrequency: "monthly" as const,
       priority: 0.85,

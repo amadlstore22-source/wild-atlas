@@ -86,8 +86,23 @@ export function toursFor(locale: Locale): Tour[] {
   return TOURS_MERGED[locale] ?? TOURS_EN;
 }
 
+/**
+ * Resolve a tour by either its localised URL segment or its English slug.
+ *
+ * Both must resolve. The English slug is what every already-indexed URL, every
+ * external backlink, and every inline `/xx/tours/...` link inside translated
+ * blog copy uses; only proxy.ts decides which one is canonical by redirecting.
+ * Matching `localizedSlug` first makes the localised URL win when both exist.
+ */
 export function getTourFor(locale: Locale, slug: string): Tour | undefined {
-  return toursFor(locale).find((t) => t.slug === slug);
+  const tours = toursFor(locale);
+  return tours.find((t) => t.localizedSlug === slug) ?? tours.find((t) => t.slug === slug);
+}
+
+/** The URL segment a tour should be served at in this locale. */
+export function tourSlugFor(locale: Locale, slug: string): string {
+  const tour = toursFor(locale).find((t) => t.slug === slug);
+  return tour?.localizedSlug ?? slug;
 }
 
 export function getFeaturedToursFor(locale: Locale): Tour[] {

@@ -36,7 +36,16 @@ export interface ItineraryDay {
 
 export interface Tour {
   id: string;
+  /** Stable identity across every locale. NEVER translate this — it is the key
+   *  the locale merge joins on, so a translated `slug` in a locale file silently
+   *  matches nothing and that tour falls back to English. To localise the URL,
+   *  set `localizedSlug` in the locale file and leave this alone. */
   slug: string;
+  /** Optional locale-specific URL segment, set only in lib/tours.<locale>.ts.
+   *  When present the tour is served at /<lang>/tours/<localizedSlug> and the
+   *  English URL 308s to it (see proxy.ts). Both resolve, so existing backlinks
+   *  and inline links inside translated copy keep working. */
+  localizedSlug?: string;
   title: string;
   category: Category;
   origin: Origin;

@@ -73,6 +73,181 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "high-atlas-village-trek-cost": "prezzo-trek-villaggi-alto-atlante",
 };
 
+/* Localised tour URL segments, English slug -> locale segment.
+ * Same contract as the blog maps above: must stay in sync with
+ * `localizedSlug` in lib/tours.<locale>.ts, which a test asserts. */
+const TOUR_SLUGS_FR: Record<string, string> = {
+  "toubkal-summit-trek-4day": "trek-sommet-toubkal-4-jours",
+  "sahara-3day-marrakech": "circuit-desert-3-jours-marrakech",
+  "ourika-valley-day-hike": "randonnee-vallee-ourika-journee",
+  "ouzoud-waterfalls-day-trip": "excursion-cascades-ouzoud",
+  "agafay-desert-sunset": "coucher-soleil-desert-agafay",
+  "marrakech-medina-cultural-tour": "visite-culturelle-medina-marrakech",
+  "marrakech-to-fes-3day": "marrakech-fes-3-jours",
+  "mgoun-massif-trek": "trek-massif-mgoun-7-jours",
+  "paradise-valley-agadir": "paradise-valley-agadir-journee",
+  "sous-massa-national-park": "parc-national-souss-massa",
+  "taroudant-day-trip-agadir": "excursion-taroudant-agadir",
+  "agadir-surf-lesson": "cours-surf-agadir",
+  "anti-atlas-trekking-agadir": "trek-anti-atlas-agadir",
+  "sahara-2day-agadir": "circuit-desert-2-jours-agadir",
+  "souss-valley-cultural-tour": "circuit-culturel-vallee-souss",
+  "agadir-to-essaouira-day-trip": "excursion-essaouira-agadir",
+  "marrakech-to-chefchaouen-4day": "marrakech-chefchaouen-4-jours",
+  "marrakech-imperial-cities-5day": "villes-imperiales-marrakech-5-jours",
+  "zagora-2day-marrakech": "circuit-zagora-2-jours-marrakech",
+  "erg-chegaga-3day-marrakech": "erg-chegaga-3-jours-marrakech",
+  "desert-4day-marrakech": "circuit-desert-4-jours-marrakech",
+  "merzouga-3day-agadir": "merzouga-3-jours-agadir",
+  "zagora-2day-agadir": "circuit-zagora-2-jours-agadir",
+  "erg-chegaga-3day-agadir": "erg-chegaga-3-jours-agadir",
+  "desert-4day-agadir": "circuit-desert-4-jours-agadir",
+  "agadir-to-fes-4day": "agadir-fes-4-jours",
+  "agadir-to-chefchaouen-5day": "agadir-chefchaouen-5-jours",
+  "agadir-imperial-cities-6day": "villes-imperiales-agadir-6-jours",
+  "toubkal-circuit-ifni-lake-6day": "circuit-toubkal-lac-ifni-6-jours",
+  "toubkal-summit-2day-marrakech": "ascension-toubkal-2-jours",
+  "toubkal-aguelzim-pass-3day": "toubkal-col-aguelzim-3-jours",
+  "toubkal-three-peaks-4000m-3day": "toubkal-trois-sommets-4000m-3-jours",
+  "marrakech-food-market-tour": "visite-gastronomique-marrakech",
+  "merzouga-stargazing-desert-tour": "nuit-etoilee-merzouga",
+  "azzaden-valley-2day-trek": "trek-vallee-azzaden-2-jours",
+  "atlas-mountains-3day-trek": "trek-villages-haut-atlas-3-jours",
+  "family-atlas-4day-trek": "trek-atlas-famille-4-jours",
+  "family-desert-4day-marrakech": "circuit-desert-famille-4-jours",
+  "high-atlas-grand-traverse-15day": "grande-traversee-haut-atlas-15-jours",
+  "toubkal-summit-sahara-5day": "toubkal-sahara-5-jours",
+};
+
+const TOUR_SLUGS_ES: Record<string, string> = {
+  "toubkal-summit-trek-4day": "trek-cumbre-toubkal-4-dias",
+  "sahara-3day-marrakech": "tour-desierto-3-dias-marrakech",
+  "ourika-valley-day-hike": "senderismo-valle-ourika",
+  "ouzoud-waterfalls-day-trip": "excursion-cascadas-ouzoud",
+  "agafay-desert-sunset": "atardecer-desierto-agafay",
+  "marrakech-medina-cultural-tour": "tour-cultural-medina-marrakech",
+  "marrakech-to-fes-3day": "marrakech-fez-3-dias",
+  "mgoun-massif-trek": "trek-macizo-mgoun-7-dias",
+  "paradise-valley-agadir": "paradise-valley-agadir-dia",
+  "sous-massa-national-park": "parque-nacional-souss-massa",
+  "taroudant-day-trip-agadir": "excursion-taroudant-agadir",
+  "agadir-surf-lesson": "clase-surf-agadir",
+  "anti-atlas-trekking-agadir": "trek-anti-atlas-agadir",
+  "sahara-2day-agadir": "tour-desierto-2-dias-agadir",
+  "souss-valley-cultural-tour": "tour-cultural-valle-souss",
+  "agadir-to-essaouira-day-trip": "excursion-essaouira-agadir",
+  "marrakech-to-chefchaouen-4day": "marrakech-chefchaouen-4-dias",
+  "marrakech-imperial-cities-5day": "ciudades-imperiales-marrakech-5-dias",
+  "zagora-2day-marrakech": "tour-zagora-2-dias-marrakech",
+  "erg-chegaga-3day-marrakech": "erg-chegaga-3-dias-marrakech",
+  "desert-4day-marrakech": "tour-desierto-4-dias-marrakech",
+  "merzouga-3day-agadir": "merzouga-3-dias-agadir",
+  "zagora-2day-agadir": "tour-zagora-2-dias-agadir",
+  "erg-chegaga-3day-agadir": "erg-chegaga-3-dias-agadir",
+  "desert-4day-agadir": "tour-desierto-4-dias-agadir",
+  "agadir-to-fes-4day": "agadir-fez-4-dias",
+  "agadir-to-chefchaouen-5day": "agadir-chefchaouen-5-dias",
+  "agadir-imperial-cities-6day": "ciudades-imperiales-agadir-6-dias",
+  "toubkal-circuit-ifni-lake-6day": "circuito-toubkal-lago-ifni-6-dias",
+  "toubkal-summit-2day-marrakech": "ascension-toubkal-2-dias",
+  "toubkal-aguelzim-pass-3day": "toubkal-collado-aguelzim-3-dias",
+  "toubkal-three-peaks-4000m-3day": "toubkal-tres-cumbres-4000m-3-dias",
+  "marrakech-food-market-tour": "tour-gastronomico-marrakech",
+  "merzouga-stargazing-desert-tour": "noche-estrellas-merzouga",
+  "azzaden-valley-2day-trek": "trek-valle-azzaden-2-dias",
+  "atlas-mountains-3day-trek": "trek-pueblos-alto-atlas-3-dias",
+  "family-atlas-4day-trek": "trek-atlas-familia-4-dias",
+  "family-desert-4day-marrakech": "tour-desierto-familia-4-dias",
+  "high-atlas-grand-traverse-15day": "gran-travesia-alto-atlas-15-dias",
+  "toubkal-summit-sahara-5day": "toubkal-sahara-5-dias",
+};
+
+const TOUR_SLUGS_DE: Record<string, string> = {
+  "toubkal-summit-trek-4day": "toubkal-gipfel-trek-4-tage",
+  "sahara-3day-marrakech": "wuestentour-3-tage-marrakesch",
+  "ourika-valley-day-hike": "wanderung-ourika-tal",
+  "ouzoud-waterfalls-day-trip": "ausflug-ouzoud-wasserfaelle",
+  "agafay-desert-sunset": "sonnenuntergang-agafay-wueste",
+  "marrakech-medina-cultural-tour": "kulturtour-medina-marrakesch",
+  "marrakech-to-fes-3day": "marrakesch-fes-3-tage",
+  "mgoun-massif-trek": "mgoun-massiv-trek-7-tage",
+  "paradise-valley-agadir": "paradise-valley-agadir-tagestour",
+  "sous-massa-national-park": "nationalpark-souss-massa",
+  "taroudant-day-trip-agadir": "ausflug-taroudant-agadir",
+  "agadir-surf-lesson": "surfkurs-agadir",
+  "anti-atlas-trekking-agadir": "anti-atlas-trekking-agadir",
+  "sahara-2day-agadir": "wuestentour-2-tage-agadir",
+  "souss-valley-cultural-tour": "kulturtour-souss-tal",
+  "agadir-to-essaouira-day-trip": "ausflug-essaouira-agadir",
+  "marrakech-to-chefchaouen-4day": "marrakesch-chefchaouen-4-tage",
+  "marrakech-imperial-cities-5day": "koenigsstaedte-marrakesch-5-tage",
+  "zagora-2day-marrakech": "zagora-tour-2-tage-marrakesch",
+  "erg-chegaga-3day-marrakech": "erg-chegaga-3-tage-marrakesch",
+  "desert-4day-marrakech": "wuestentour-4-tage-marrakesch",
+  "merzouga-3day-agadir": "merzouga-3-tage-agadir",
+  "zagora-2day-agadir": "zagora-tour-2-tage-agadir",
+  "erg-chegaga-3day-agadir": "erg-chegaga-3-tage-agadir",
+  "desert-4day-agadir": "wuestentour-4-tage-agadir",
+  "agadir-to-fes-4day": "agadir-fes-4-tage",
+  "agadir-to-chefchaouen-5day": "agadir-chefchaouen-5-tage",
+  "agadir-imperial-cities-6day": "koenigsstaedte-agadir-6-tage",
+  "toubkal-circuit-ifni-lake-6day": "toubkal-runde-ifni-see-6-tage",
+  "toubkal-summit-2day-marrakech": "toubkal-besteigung-2-tage",
+  "toubkal-aguelzim-pass-3day": "toubkal-aguelzim-pass-3-tage",
+  "toubkal-three-peaks-4000m-3day": "toubkal-drei-gipfel-4000m-3-tage",
+  "marrakech-food-market-tour": "kulinarische-tour-marrakesch",
+  "merzouga-stargazing-desert-tour": "sternenhimmel-merzouga",
+  "azzaden-valley-2day-trek": "azzaden-tal-trek-2-tage",
+  "atlas-mountains-3day-trek": "hoher-atlas-dorftrek-3-tage",
+  "family-atlas-4day-trek": "familien-atlas-trek-4-tage",
+  "family-desert-4day-marrakech": "familien-wuestentour-4-tage",
+  "high-atlas-grand-traverse-15day": "hoher-atlas-durchquerung-15-tage",
+  "toubkal-summit-sahara-5day": "toubkal-sahara-5-tage",
+};
+
+const TOUR_SLUGS_IT: Record<string, string> = {
+  "toubkal-summit-trek-4day": "trek-cima-toubkal-4-giorni",
+  "sahara-3day-marrakech": "tour-deserto-3-giorni-marrakech",
+  "ourika-valley-day-hike": "escursione-valle-ourika",
+  "ouzoud-waterfalls-day-trip": "gita-cascate-ouzoud",
+  "agafay-desert-sunset": "tramonto-deserto-agafay",
+  "marrakech-medina-cultural-tour": "tour-culturale-medina-marrakech",
+  "marrakech-to-fes-3day": "marrakech-fes-3-giorni",
+  "mgoun-massif-trek": "trek-massiccio-mgoun-7-giorni",
+  "paradise-valley-agadir": "paradise-valley-agadir-giornata",
+  "sous-massa-national-park": "parco-nazionale-souss-massa",
+  "taroudant-day-trip-agadir": "gita-taroudant-agadir",
+  "agadir-surf-lesson": "lezione-surf-agadir",
+  "anti-atlas-trekking-agadir": "trek-anti-atlante-agadir",
+  "sahara-2day-agadir": "tour-deserto-2-giorni-agadir",
+  "souss-valley-cultural-tour": "tour-culturale-valle-souss",
+  "agadir-to-essaouira-day-trip": "gita-essaouira-agadir",
+  "marrakech-to-chefchaouen-4day": "marrakech-chefchaouen-4-giorni",
+  "marrakech-imperial-cities-5day": "citta-imperiali-marrakech-5-giorni",
+  "zagora-2day-marrakech": "tour-zagora-2-giorni-marrakech",
+  "erg-chegaga-3day-marrakech": "erg-chegaga-3-giorni-marrakech",
+  "desert-4day-marrakech": "tour-deserto-4-giorni-marrakech",
+  "merzouga-3day-agadir": "merzouga-3-giorni-agadir",
+  "zagora-2day-agadir": "tour-zagora-2-giorni-agadir",
+  "erg-chegaga-3day-agadir": "erg-chegaga-3-giorni-agadir",
+  "desert-4day-agadir": "tour-deserto-4-giorni-agadir",
+  "agadir-to-fes-4day": "agadir-fes-4-giorni",
+  "agadir-to-chefchaouen-5day": "agadir-chefchaouen-5-giorni",
+  "agadir-imperial-cities-6day": "citta-imperiali-agadir-6-giorni",
+  "toubkal-circuit-ifni-lake-6day": "circuito-toubkal-lago-ifni-6-giorni",
+  "toubkal-summit-2day-marrakech": "salita-toubkal-2-giorni",
+  "toubkal-aguelzim-pass-3day": "toubkal-passo-aguelzim-3-giorni",
+  "toubkal-three-peaks-4000m-3day": "toubkal-tre-cime-4000m-3-giorni",
+  "marrakech-food-market-tour": "tour-gastronomico-marrakech",
+  "merzouga-stargazing-desert-tour": "notte-stellata-merzouga",
+  "azzaden-valley-2day-trek": "trek-valle-azzaden-2-giorni",
+  "atlas-mountains-3day-trek": "trek-villaggi-alto-atlante-3-giorni",
+  "family-atlas-4day-trek": "trek-atlante-famiglia-4-giorni",
+  "family-desert-4day-marrakech": "tour-deserto-famiglia-4-giorni",
+  "high-atlas-grand-traverse-15day": "grande-traversata-alto-atlante-15-giorni",
+  "toubkal-summit-sahara-5day": "toubkal-sahara-5-giorni",
+};
+
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];
 const DEFAULT_LOCALE = "en";
 
@@ -142,6 +317,25 @@ export function proxy(request: NextRequest) {
     de: BLOG_SLUGS_DE,
     it: BLOG_SLUGS_IT,
   };
+  const TOUR_LOCALIZED_SLUGS: Record<string, Record<string, string>> = {
+    fr: TOUR_SLUGS_FR,
+    es: TOUR_SLUGS_ES,
+    de: TOUR_SLUGS_DE,
+    it: TOUR_SLUGS_IT,
+  };
+  const tourMatch = pathname.match(/^\/([a-z]{2})\/tours\/([^/]+)\/?$/);
+  if (tourMatch) {
+    const [, loc, slug] = tourMatch;
+    const target = TOUR_LOCALIZED_SLUGS[loc]?.[slug];
+    if (target && target !== slug) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/${loc}/tours/${target}`;
+      // 308 rather than 301: these are the booking pages, and 308 preserves the
+      // request method. Permanent either way, so ranking signals consolidate.
+      return NextResponse.redirect(url, 308);
+    }
+  }
+
   const blogMatch = pathname.match(/^\/([a-z]{2})\/blog\/([^/]+)\/?$/);
   if (blogMatch) {
     const [, loc, slug] = blogMatch;

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { TOURS, DIFFICULTY_COLORS } from "@/lib/tours";
-import { getTourFor } from "@/lib/tours-i18n";
+import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
 import BookingSidebar from "@/components/tours/BookingSidebar";
@@ -28,7 +28,7 @@ import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // Import from currency-core, not currency: the latter is "use client" and its
 // constants read as undefined during server render.
 import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
-import { hreflangForPath } from "@/lib/seo/hreflang";
+import { hreflangLanguages } from "@/lib/seo/hreflang";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
 /** Tour prices are stored in USD but the site displays EUR by default. Google
@@ -50,8 +50,14 @@ function localisePrice(text: string | undefined, usd: number): string | undefine
 }
 
 export async function generateStaticParams() {
+  // Each locale is prerendered at its OWN URL segment. Emitting t.slug for every
+  // locale would prerender only the English spelling, leaving the localised URL
+  // to render on demand — and the sitemap points at the localised one.
   return TOURS.flatMap((t) =>
-    ["en", "fr", "es", "de", "it", "ar"].map((lang) => ({ lang, slug: t.slug }))
+    (["en", "fr", "es", "de", "it", "ar"] as const).map((lang) => ({
+      lang,
+      slug: tourSlugFor(lang, t.slug),
+    }))
   );
 }
 
@@ -75,9 +81,16 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
     // Tour copy is now translated per locale (title/description/itinerary/
     // includes-excludes), so each locale gets its own canonical URL and full
     // hreflang alternates rather than collapsing to /en.
+    // Built from the RESOLVED tour, not the incoming `slug`: a request may
+    // arrive on either spelling, and the canonical must always name this
+    // locale's own segment. Each alternate likewise uses that locale's segment,
+    // or the cluster points at URLs that redirect and Google discards it.
     alternates: {
-      canonical: `https://marrakechecotours.com/${lang}/tours/${slug}`,
-      languages: hreflangForPath(LOCALES, `/tours/${slug}`),
+      canonical: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
+      languages: hreflangLanguages(
+        LOCALES,
+        (l) => `https://marrakechecotours.com/${l}/tours/${tourSlugFor(l, tour.slug)}`
+      ),
     },
   };
 }
@@ -95,7 +108,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     "@type": "Product",
     name: tour.title,
     description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
-    url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
+    url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
     image: tour.heroImage,
     brand: { "@type": "Brand", name: "Marrakech Eco Tours" },
     offers: {
@@ -103,7 +116,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       priceCurrency: DEFAULT_CURRENCY,
       price: schemaPrice(tour.price),
       availability: "https://schema.org/InStock",
-      url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}`,
+      url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
     },
     // No aggregateRating: we have no per-tour review corpus to substantiate one.
     // Our verifiable rating is business-wide (TripAdvisor, see Organization
@@ -117,7 +130,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: tour.shortDescription,
     touristType: "Adventure",
-    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
+    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,
@@ -129,7 +142,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `https://marrakechecotours.com/${lang}` },
       { "@type": "ListItem", position: 2, name: "Tours", item: `https://marrakechecotours.com/${lang}/tours` },
-      { "@type": "ListItem", position: 3, name: tour.title, item: `https://marrakechecotours.com/${lang}/tours/${tour.slug}` },
+      { "@type": "ListItem", position: 3, name: tour.title, item: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
     ],
   };
 

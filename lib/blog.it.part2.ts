@@ -3579,4 +3579,466 @@ mantiene nel Paese.
 👉 **[Scopri il tour di 4 giorni nel deserto per famiglie](/it/tours/family-desert-4day-marrakech)** — 350 € a persona, tre notti, giri in cammello all'Erg Chebbi, con un ritmo pensato per i bambini.
 `,
   },
+  {
+    slug: "toubkal-three-peaks-trek-cost",
+    localizedSlug: "prezzo-trek-tre-cime-toubkal",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Quanto costa il trek delle Tre Cime del Toubkal? (2026)",
+    excerpt:
+      "Tre vette di 4.000 m in tre giorni costano più di una normale salita al Toubkal, ma non per il motivo che si immagina. Ecco cosa compra il sovrapprezzo, voce per voce.",
+    heroImage: "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    tags: ["prezzo tre cime Toubkal", "costo Ouanoukrim", "Timesguida", "Ras Ouanoukrim", "4000 m Marocco", "Alto Atlante"],
+    seoTitle: "Prezzo del trek Tre Cime del Toubkal nel 2026 — Dettaglio completo",
+    seoDescription:
+      "Quanto costa il trek delle tre cime del Toubkal nel 2026: sovrapprezzo della guida, due notti in rifugio, mulo e tasse del parco, rispetto a un pacchetto da 331 €.",
+    faq: [
+      { q: "Quanto costa il trek delle Tre Cime del Toubkal?", a: "Il nostro [trek di 3 giorni alle tre cime](/it/tours/toubkal-three-peaks-4000m-3day) costa 331 € a persona, con guida d'alta quota, entrambe le notti in rifugio, tutti i pasti, il portatore con mulo, le tasse del parco e il transfer da Marrakech. Organizzare lo stesso itinerario in autonomia costa circa 3.200–4.600 MAD per due persone, sommando ogni voce." },
+      { q: "Perché costa più di un normale trek al Toubkal?", a: "Non per il giorno in più. La differenza è la guida: Timesguida e Ras Ouanoukrim sono classificati esperto e richiedono una guida qualificata per l'alta quota, la cui tariffa giornaliera sta nella parte alta della fascia 500–800 MAD e non a metà. La seconda notte in rifugio e i pasti aggiuntivi completano il resto." },
+      { q: "Servono capacità alpinistiche?", a: "In estate no: è cammino impegnativo su ghiaione e roccia, non arrampicata. Da novembre a marzo tutte e tre le cime richiedono ramponi e piccozza, e la capacità di usarli. È la differenza principale rispetto alla via normale del Toubkal." },
+      { q: "Tre cime in tre giorni è realistico?", a: "È davvero impegnativo. Si dorme due notti a 3.207 m e si sale in vetta in entrambi i giorni pieni, senza margine di acclimatamento. Chi non è stato sopra i 3.000 m di recente dovrebbe considerare prima il [trek del Toubkal di 4 giorni](/it/tours/toubkal-summit-trek-4day), il cui giorno extra esiste proprio per acclimatarsi." },
+    ],
+    content: `
+## La risposta breve
+
+Il nostro [trek di 3 giorni alle Tre Cime](/it/tours/toubkal-three-peaks-4000m-3day)
+costa **331 € a persona**, tutto incluso. Organizzare lo stesso itinerario da soli costa
+circa **3.200–4.600 MAD per due persone** — e la distanza fra i due numeri è minore di
+quanto sembri.
+
+## Cosa stai pagando davvero
+
+Questo trek sale su **Timesguida (4.089 m)**, **Ras Ouanoukrim (4.083 m)** e
+**Toubkal (4.167 m)** in tre giorni, con base al rifugio del Toubkal a 3.207 m.
+
+| Voce | Costo tipico 2026 | Note |
+|---|---|---|
+| Guida autorizzata d'alta quota | 700–800 MAD / giorno | Parte alta della fascia — grado esperto |
+| Rifugio del Toubkal, mezza pensione | 300–350 MAD / notte | Due notti, cena e colazione |
+| Mulo + mulattiere | 250–300 MAD / giorno | Porta il materiale del gruppo al rifugio |
+| Ingresso al parco nazionale | Piccola tassa fissa | Si paga al posto di controllo di Imlil |
+| Transfer Marrakech ⇄ Imlil | 600–1.000 MAD andata e ritorno | Per veicolo, non per persona |
+| Ramponi + piccozza (nov–mar) | 100–150 MAD / giorno | Noleggio a Imlil, per persona |
+| Mance | 10–15 % | Consuetudine, mai obbligatorie |
+
+## La guida fa tutta la differenza
+
+Una normale salita al Toubkal richiede una guida alpina autorizzata. La coppia
+Ouanoukrim no: richiede una guida **qualificata per l'alta quota**, e ce ne sono molte
+meno. È una tariffa nella parte alta dei 500–800 MAD anziché a metà, per ogni giorno del
+viaggio.
+
+Per questo il trek delle tre cime non è semplicemente «il 2 giorni più un giorno». La
+[vetta in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 193 € e questo 331 €:
+il 71 % in più per un viaggio più lungo del 50 %, con una guida più rara e una notte in
+rifugio in più.
+
+## L'inverno cambia il numero
+
+Da novembre a marzo tutte e tre le cime sono innevate, e ramponi e piccozza smettono di
+essere facoltativi. Il noleggio a Imlil costa **100–150 MAD a persona al giorno**,
+quindi un viaggio invernale di tre giorni aggiunge circa 300–450 MAD a testa. Mettilo a
+bilancio invece di scoprirlo all'inizio del sentiero.
+
+## Cosa non è incluso
+
+- **Assicurazione di viaggio con copertura d'alta quota** — obbligatoria, e davvero necessaria su una montagna di 4.167 m
+- **Attrezzatura personale da trekking** — scarponi, strati, frontale
+- **Mance per guida e portatore** — 10–15 % è la consuetudine
+- **Ramponi e piccozza in inverno** — noleggio disponibile a Imlil
+
+Tutto il resto — guida d'alta quota, entrambe le notti in rifugio, tutti i pasti del
+trek, il portatore con mulo, le tasse del parco e l'andata e ritorno da Marrakech — è
+nei 331 €.
+
+## Conviene rispetto a una sola vetta?
+
+Se sei già stato sopra i 3.000 m di recente e vuoi la cosa più dura che l'Alto Atlante
+offra in un lungo weekend, sì. Se l'obiettivo è il Toubkal in sé, il
+[trek di 4 giorni](/it/tours/toubkal-summit-trek-4day) a 350 € è l'acquisto migliore:
+costa poco di più ma include una vera giornata di acclimatamento, il fattore che più
+determina se si arriva davvero in cima.
+
+👉 **[Scopri il trek Tre Cime del Toubkal](/it/tours/toubkal-three-peaks-4000m-3day)** — 331 € a persona, tre vette di 4.000 m, guida d'alta quota ed entrambe le notti in rifugio incluse.
+`,
+  },
+  {
+    slug: "mgoun-massif-trek-cost",
+    localizedSlug: "prezzo-trek-massiccio-mgoun",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Quanto costa un trek nel massiccio del Mgoun? (7 giorni, 2026)",
+    excerpt:
+      "La seconda vetta del Marocco vede una frazione del traffico del Toubkal, e la struttura dei costi è diversa: meno strutture fisse, più giorni, una carovana di muli completa.",
+    heroImage: "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    tags: ["prezzo trek Mgoun", "costo Jbel Mgoun", "massiccio M'Goun", "trek 7 giorni Marocco", "ospitalità berbera", "Alto Atlante"],
+    seoTitle: "Prezzo del trek nel massiccio del Mgoun 2026 — Dettaglio 7 giorni",
+    seoDescription:
+      "Quanto costa una traversata del Mgoun di 7 giorni nel 2026: guida esperta, carovana di muli, ospitalità berbera e campo, rispetto a un pacchetto da 754 €.",
+    faq: [
+      { q: "Quanto costa un trek nel massiccio del Mgoun?", a: "La nostra [traversata del Mgoun di 7 giorni](/it/tours/mgoun-massif-trek) costa 754 € a persona, e comprende la guida esperta d'alta montagna, tutti i pasti, la carovana di muli, l'ospitalità presso famiglie berbere e il campo tendato, la comunicazione satellitare e le tasse del parco nazionale. Organizzare sette giorni con lo stesso supporto in autonomia difficilmente costa meno, perché carovana e cuoco sono costi fissi indipendenti dalla dimensione del gruppo." },
+      { q: "Perché il Mgoun costa più al giorno del Toubkal?", a: "Il Toubkal ha un sistema di rifugi e una strada fino a Imlil. Il Mgoun non ha né l'uno né l'altra per gran parte del percorso: porti con te alloggio, cibo e cuoco, il che significa una carovana completa per sette giorni invece di un singolo mulo fino a un rifugio. L'isolamento è il prodotto ed è anche il costo." },
+      { q: "Quanto è difficile il trek del Mgoun?", a: "Esperto. Il Jbel Mgoun è alto 4.068 m, il percorso attraversa alti valichi e gole in sette giorni, e non c'è una via d'uscita facile a metà strada. È adatto a chi ha già fatto itinerari di montagna di più giorni, non a un primo trek marocchino — per quello c'è il [trek dei villaggi dell'Alto Atlante di 3 giorni](/it/tours/atlas-mountains-3day-trek)." },
+      { q: "Cosa non è incluso?", a: "L'assicurazione di viaggio e sanitaria, che è obbligatoria; l'attrezzatura alpinistica tecnica; e le mance per guida, cuoco e mulattieri. Tutto il resto, compresi tutti i pasti dei sette giorni e le tasse del parco nazionale, è coperto." },
+    ],
+    content: `
+## La risposta breve
+
+La nostra [traversata del massiccio del Mgoun di 7 giorni](/it/tours/mgoun-massif-trek)
+costa **754 € a persona**, con guida esperta, carovana di muli, cuoco, tutti i pasti,
+ospitalità presso famiglie, campo tendato e tasse del parco.
+
+A differenza dei trek del Toubkal, qui non esiste un confronto sensato con il «me lo
+organizzo da solo» — e capire perché spiega tutto il prezzo.
+
+## Il Mgoun non costa come il Toubkal
+
+Sul Toubkal cammini verso un **rifugio**: un edificio con letti, cucina e gestore. Paghi
+300–350 MAD a notte e non porti quasi nulla. La montagna ha infrastrutture.
+
+Il Mgoun no. Per gran parte dei sette giorni non c'è rifugio, né strada, né negozio. Il
+tuo alloggio, il tuo cibo e la persona che lo cucina viaggiano con te.
+
+| Voce | Costo tipico 2026 | Note |
+|---|---|---|
+| Guida esperta d'alta montagna | 700–900 MAD / giorno | Rara; qualifica per 4.068 m |
+| Carovana di muli | 250–300 MAD / mulo / giorno | Porta tende, cibo, attrezzatura |
+| Cuoco | 300–400 MAD / giorno | Costo fisso qualunque sia il gruppo |
+| Casa di famiglia berbera | 150–250 MAD / persona / notte | Cena e colazione incluse |
+| Notti in tenda | Attrezzatura ammortizzata | Tende trasportate dalla carovana |
+| Tasse di parco / accesso | Piccola tassa fissa | Si paga sul posto |
+| Mance | 10–15 % | Guida, cuoco e mulattieri |
+
+## Perché qui la dimensione del gruppo conta di più
+
+Guida, cuoco e gran parte della carovana sono **costi fissi**. Sono gli stessi che
+camminino due persone o otto. Su un viaggio di sette giorni è una somma importante
+divisa per quanti la condividono: per questo il trek va da 2 a 8 persone e per questo
+una coppia paga proporzionalmente più di un gruppo di sei.
+
+È l'opposto dei tour nel deserto, dove il veicolo è il costo principale e si ripartisce
+in modo netto.
+
+## Cosa coprono i 754 €
+
+- **Guida autorizzata esperta d'alta montagna** per tutti i sette giorni
+- **Tutti i pasti** — non solo mezza pensione
+- **Carovana di muli** per attrezzatura e campo
+- **Ospitalità presso famiglie berbere e campo tendato** in villaggi remoti
+- **Comunicazione satellitare d'emergenza** — per gran parte del percorso non c'è segnale
+- **Tasse del parco nazionale**
+
+Non incluso: assicurazione di viaggio e sanitaria (obbligatoria), attrezzatura
+alpinistica tecnica e mance.
+
+## Conviene rispetto a un trek del Toubkal?
+
+Sono prodotti diversi. Il [trek del Toubkal di 4 giorni](/it/tours/toubkal-summit-trek-4day)
+a 350 € ti porta sulla vetta più alta del Nord Africa, con un rifugio ogni notte e altri
+trekker intorno. Il Mgoun a 754 € ti dà sette giorni in cui probabilmente non incontrerai
+nessun altro gruppo, dormendo in case di famiglia in villaggi che la strada non
+raggiunge.
+
+Se l'attrattiva è la vetta, scegli il Toubkal. Se l'attrattiva è l'isolamento, il Mgoun
+è il trek giusto — e il prezzo è quanto costa sostenere quell'isolamento.
+
+Per la versione integrale, la [Grande Traversata di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)
+collega Mgoun e Toubkal in un unico attraversamento.
+
+👉 **[Scopri la traversata del Mgoun di 7 giorni](/it/tours/mgoun-massif-trek)** — 754 € a persona, la seconda vetta del Marocco, supporto completo di muli e ospitalità berbera.
+`,
+  },
+  {
+    slug: "high-atlas-grand-traverse-cost",
+    localizedSlug: "prezzo-grande-traversata-alto-atlante",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Quanto costa la Grande Traversata dell'Alto Atlante? (15 giorni, 2026)",
+    excerpt:
+      "Quindici giorni, due vette di 4.000 m e una squadra di montagna completa. A 1.518 € è il viaggio più caro che organizziamo — ed è il più economico al giorno. Ecco dove vanno i soldi.",
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 9,
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    tags: ["prezzo traversata Alto Atlante", "costo Grande Traversata", "M'Goun Toubkal", "trek 15 giorni Marocco", "Aït Bougmez", "Magdaz"],
+    seoTitle: "Prezzo della Grande Traversata dell'Alto Atlante 2026 — 15 giorni",
+    seoDescription:
+      "Quanto costa la traversata M'Goun–Toubkal di 15 giorni nel 2026: guida, cuoco, carovana, 14 notti e tasse dei parchi — e perché il prezzo giornaliero è il più basso.",
+    faq: [
+      { q: "Quanto costa la Grande Traversata dell'Alto Atlante?", a: "La nostra [traversata di 15 giorni](/it/tours/high-atlas-grand-traverse-15day) costa 1.518 € a persona e copre la guida d'alta quota, il cuoco, la carovana di muli completa, tutte le 14 notti, ogni pasto, le tasse di entrambi i parchi nazionali e i transfer da Marrakech. È il prezzo di listino più alto che pratichiamo e la tariffa giornaliera più bassa di tutti i nostri trek." },
+      { q: "Perché il costo giornaliero è più basso di un trek corto?", a: "Perché i costi fissi si distribuiscono di più. I transfer da Marrakech, la mobilitazione della guida e la formazione della carovana costano più o meno lo stesso per tre giorni e per quindici. In un trek da weekend queste voci fisse dominano il prezzo; su quindici giorni si diluiscono. A 1.518 €, la traversata viene circa 101 € al giorno contro i circa 110 € del trek dei villaggi di 3 giorni." },
+      { q: "Serve esperienza pregressa in alta quota?", a: "Sì. È classificata esperto, sale sia sul M'Goun (4.068 m) sia sul Toubkal (4.167 m), e passa due settimane in terreno remoto dove l'evacuazione è lenta. Presuppone esperienza di trekking di più giorni in montagna. Se non ce l'hai, inizia dal [trek del Toubkal di 4 giorni](/it/tours/toubkal-summit-trek-4day)." },
+      { q: "Cosa non è incluso?", a: "Assicurazione di viaggio con copertura d'alta quota (obbligatoria), attrezzatura personale e sacco a pelo, ramponi e piccozza se le condizioni invernali lo richiedono, e mance per guida, cuoco e mulattieri. Tutto il resto nei quindici giorni è coperto." },
+    ],
+    content: `
+## La risposta breve
+
+La [Grande Traversata dell'Alto Atlante di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)
+costa **1.518 € a persona**. È il numero più grande di questo sito e, per giorno di
+montagna, anche il **trek più economico che organizziamo**.
+
+Entrambe le cose sono vere insieme, e vale la pena capire perché prima di confrontarla
+con un viaggio breve.
+
+## Dove vanno i soldi
+
+La traversata parte dalla valle di **Aït Bougmez**, passa sopra il **M'Goun (4.068 m)**,
+attraversa **Magdaz**, altopiani remoti e gole, fino alla vetta del
+**Toubkal (4.167 m)**. Quattordici notti tra gîte di villaggio, rifugi di montagna e
+campi tendati.
+
+| Voce | Costo tipico 2026 | Note |
+|---|---|---|
+| Guida autorizzata d'alta quota | 700–900 MAD / giorno | Per tutti i 15 giorni |
+| Cuoco | 300–400 MAD / giorno | Fisso, indipendente dal gruppo |
+| Carovana di muli | 250–300 MAD / mulo / giorno | Porta attrezzatura, cibo e campo |
+| Gîte di villaggio e rifugi | 150–350 MAD / persona / notte | Varia secondo il luogo |
+| Notti in tenda | Attrezzatura trasportata | Dove non ci sono villaggi |
+| Tasse parchi M'Goun + Toubkal | Due tasse distinte | Entrambe incluse |
+| Transfer verso gli attacchi | 600–1.000 MAD ciascuno | Valli diverse alle due estremità |
+| Mance | 10–15 % | Guida, cuoco e mulattieri |
+
+## Perché la tariffa giornaliera scende
+
+Un trek ha costi che non crescono con la durata. Il veicolo fino all'attacco del
+sentiero, la mobilitazione della guida, la formazione di una carovana, il rientro da
+un'altra valle: tutto questo costa più o meno uguale per tre giorni e per quindici.
+
+Nel [trek dei villaggi di 3 giorni](/it/tours/atlas-mountains-3day-trek) a 235 €, quelle
+voci fisse sono una grossa fetta del prezzo. Distribuite su quindici giorni quasi
+scompaiono:
+
+| Trek | Prezzo | Giorni | Al giorno |
+|---|---|---|---|
+| Villaggi dell'Alto Atlante, 3 giorni | 235 € | 3 | ~78 € |
+| Vetta del Toubkal, 4 giorni | 350 € | 4 | ~88 € |
+| Traversata del Mgoun, 7 giorni | 754 € | 7 | ~108 € |
+| Grande Traversata, 15 giorni | 1.518 € | 15 | ~101 € |
+
+La traversata compra due settimane di supporto completo di montagna per circa la
+tariffa giornaliera di quattro giorni sul Mgoun — con due vette di 4.000 m invece di
+una.
+
+## Cosa è davvero incluso
+
+- **Guida professionista autorizzata d'alta quota** per l'intera traversata
+- **14 notti** tra gîte di villaggio, rifugi di montagna e campo tendato
+- **Tutti i pasti** dei quindici giorni
+- **Cuoco e carovana completa** che portano attrezzatura, cibo e campo
+- **Tasse d'accesso ai parchi del Toubkal e del M'Goun** — due permessi distinti
+- **Transfer di andata e ritorno** da Marrakech verso attacchi posti alle estremità opposte della catena
+
+Non incluso: assicurazione con copertura d'alta quota (obbligatoria), attrezzatura
+personale e sacco a pelo, ramponi e piccozza se servono in inverno, e mance.
+
+## Per chi è davvero
+
+Non è un primo trek marocchino. È classificata esperto, passa due settimane in un
+territorio da cui uscire richiede un giorno o più, e sale su entrambe le montagne più
+alte del Nord Africa.
+
+Se è il viaggio che vuoi, il prezzo al giorno è il migliore dell'Alto Atlante. Se stai
+verificando se il trekking di lunga durata fa per te, la
+[traversata del Mgoun di 7 giorni](/it/tours/mgoun-massif-trek) copre un terreno simile
+con metà dell'impegno.
+
+👉 **[Scopri la Grande Traversata dell'Alto Atlante di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)** — 1.518 € a persona, vette del M'Goun e del Toubkal, squadra di montagna completa per due settimane.
+`,
+  },
+  {
+    slug: "toubkal-sahara-5day-cost",
+    localizedSlug: "prezzo-toubkal-sahara-5-giorni",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Toubkal e Sahara in 5 giorni: quanto costa? (2026)",
+    excerpt:
+      "Unire la vetta più alta del Nord Africa a una notte fra le dune di Erg Chebbi costa 635 €. Prenotare i due separatamente costa meno e funziona peggio: ecco i conti.",
+    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    tags: ["prezzo Toubkal Sahara", "montagna e deserto Marocco", "tour 5 giorni Marocco prezzo", "vetta Toubkal", "Erg Chebbi", "tour combinato"],
+    seoTitle: "Prezzo del tour Toubkal e Sahara di 5 giorni (2026) — Dettaglio",
+    seoDescription:
+      "Quanto costa il tour combinato Toubkal e Sahara di 5 giorni nel 2026, voce per voce — e perché prenotare trek e deserto separatamente alla fine rende meno.",
+    faq: [
+      { q: "Quanto costa il tour Toubkal e Sahara di 5 giorni?", a: "Il nostro [tour montagna-deserto di 5 giorni](/it/tours/toubkal-summit-sahara-5day) costa 635 € a persona. Copre la guida alpina autorizzata per il trek del Toubkal, un autista-guida privato per la parte nel deserto, tutte e quattro le notti, il portatore con mulo, i giri in cammello a Erg Chebbi, le tasse del parco e ogni transfer da Marrakech." },
+      { q: "Conviene prenotare trek e deserto separatamente?", a: "Costa meno comprarli, ma non funziona meglio. La [vetta del Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 193 € e il [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) 225 €: 418 € insieme, ma sono cinque giorni con due rientri distinti a Marrakech e una giornata di transfer sprecata in mezzo. Il tour combinato costa 635 € per un itinerario continuo che non torna mai sui propri passi, con veicolo privato anziché condiviso." },
+      { q: "Serve esperienza per la parte del Toubkal?", a: "È classificata impegnativa, non esperto. Si dorme al rifugio a 3.207 m e si sale in vetta la mattina dopo: in estate non serve tecnica, ma è una salita lunga in quota. Basta una discreta forma fisica; le salite invernali richiedono ramponi e piccozza." },
+      { q: "Cosa non è incluso?", a: "Assicurazione di viaggio (obbligatoria per il trek), attrezzatura personale e sacco a pelo, i pranzi nei giorni nel deserto (calcola 12–15 € a pasto), ramponi e piccozza per una salita fra novembre e marzo, e le mance per guide, autista, cuoco e mulattiere." },
+    ],
+    content: `
+## La risposta breve
+
+Il [tour Toubkal e Sahara di 5 giorni](/it/tours/toubkal-summit-sahara-5day) costa
+**635 € a persona** e copre entrambe le metà del viaggio da un capo all'altro.
+
+La domanda ovvia è se non si possa prenotare un trek al Toubkal e un tour nel deserto
+separatamente spendendo meno. Prenotarli per meno si può. *Farli* per meno no — e la
+differenza è una giornata persa.
+
+## I conti che tutti vogliono vedere
+
+| Opzione | Prezzo | Cosa succede |
+|---|---|---|
+| [Toubkal 2 giorni](/it/tours/toubkal-summit-2day-marrakech) + [Sahara 3 giorni](/it/tours/sahara-3day-marrakech) | 418 € | Rientro a Marrakech in mezzo; 5 giorni più un cambio |
+| [Combinato 5 giorni](/it/tours/toubkal-summit-sahara-5day) | 635 € | Itinerario continuo, veicolo privato, nessun ritorno indietro |
+
+Prenotare separatamente sembra 217 € più economico. Quello che costa è la giornata fra i
+due viaggi: scendi da Imlil a Marrakech, dormi e riparti verso sud il mattino dopo su un
+terreno già percorso in parte. L'itinerario combinato collega Imlil → Aït Ben Haddou →
+Dades → Erg Chebbi in un'unica linea.
+
+Sostituisce anche un minibus condiviso con un **autista-guida privato** nella parte del
+deserto, il che da solo spiega gran parte della differenza di prezzo.
+
+## Dove vanno i 635 €
+
+| Voce | Costo tipico 2026 | Note |
+|---|---|---|
+| Guida alpina autorizzata (trek) | 500–800 MAD / giorno | Ripartita sul gruppo |
+| Autista-guida privato (deserto) | 800–1.200 MAD / giorno | Per veicolo, inglese/francese |
+| Rifugio del Toubkal, mezza pensione | 300–350 MAD / notte | Notte 1, a 3.207 m |
+| Guesthouse a Imlil | 200–300 MAD / notte | Notte 2, dopo la vetta |
+| Hotel nella valle del Dades | 250–400 MAD / notte | Notte 3, cena e colazione |
+| Campo nel deserto, Erg Chebbi | 300–500 MAD / notte | Notte 4, cena e colazione |
+| Portatore con mulo (trek) | 250–300 MAD / giorno | Porta il materiale del gruppo |
+| Giri in cammello a Erg Chebbi | Inclusi | Tramonto e alba |
+| Tasse del Toubkal + transfer | Fisso | Tutto incluso |
+
+## I cinque giorni
+
+- **Giorno 1** — Marrakech → Imlil → rifugio del Toubkal (3.207 m)
+- **Giorno 2** — Vetta del Toubkal (4.167 m), discesa a Imlil
+- **Giorno 3** — Imlil → Aït Ben Haddou → valle del Dades
+- **Giorno 4** — Dades → gole del Todra → campo di Erg Chebbi
+- **Giorno 5** — Alba sulle dune → Marrakech
+
+Due delle più grandi esperienze del Marocco senza un transfer sprecato in mezzo.
+
+## Cosa non è incluso
+
+- **Assicurazione di viaggio** — obbligatoria per il trek
+- **Attrezzatura personale da trekking e sacco a pelo**
+- **Pranzi nei giorni nel deserto** — calcola 12–15 € a pasto
+- **Ramponi e piccozza** per una salita invernale (noleggio a Imlil)
+- **Mance** per guide, autista, cuoco e mulattiere
+
+## È il viaggio giusto?
+
+Se hai cinque giorni e vuoi sia la montagna sia il deserto, è il modo efficiente di
+farlo. Se ti interessa solo la vetta, il
+[trek del Toubkal di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) a 193 € basta da
+solo. Se sono le dune ad attrarti, il
+[tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) a 225 € è la via diretta.
+
+La combinazione vale il suo sovrapprezzo quando vuoi davvero entrambe le cose, non come
+modo per risparmiare su una delle due.
+
+👉 **[Scopri il tour Toubkal e Sahara di 5 giorni](/it/tours/toubkal-summit-sahara-5day)** — 635 € a persona, vetta a 4.167 m e una notte fra le dune di Erg Chebbi, privato dall'inizio alla fine.
+`,
+  },
+  {
+    slug: "high-atlas-village-trek-cost",
+    localizedSlug: "prezzo-trek-villaggi-alto-atlante",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Quanto costa un trek di 3 giorni fra i villaggi dell'Alto Atlante? (2026)",
+    excerpt:
+      "Il modo più economico di entrare nell'Alto Atlante con una guida e un letto ogni notte costa 235 €. Ecco cosa copre, quanto fa risparmiare l'autonomia e perché il divario è minore di quanto sembri.",
+    heroImage: "/gallery/imlil-village-green-valley.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    tags: ["prezzo trek Alto Atlante", "costo trek villaggi Atlante", "Imlil Azzaden", "guesthouse berbera", "trek 3 giorni Marrakech", "trek senza vetta"],
+    seoTitle: "Prezzo di un trek di 3 giorni fra i villaggi dell'Alto Atlante (2026)",
+    seoDescription:
+      "Quanto costa un trek di 3 giorni fra i villaggi dell'Alto Atlante nel 2026: guida, guesthouse, mulo e transfer nel dettaglio, rispetto a un pacchetto da 235 €.",
+    faq: [
+      { q: "Quanto costa un trek di 3 giorni fra i villaggi dell'Alto Atlante?", a: "Il nostro [trek dei villaggi di 3 giorni](/it/tours/atlas-mountains-3day-trek) costa 235 € a persona, con guida alpina autorizzata, due notti in guesthouse berbere, tutti i pasti, un mulo per i bagagli del gruppo e il transfer di andata e ritorno da Marrakech. Organizzare la stessa cosa in autonomia costa circa 2.600–3.900 MAD per due persone." },
+      { q: "È più economico di un trek al Toubkal?", a: "No, e non per il motivo che ci si aspetta. Sono 235 € contro 193 € della [vetta del Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech), quindi costa un po' di più, perché sono tre giorni invece di due. Quello che risparmi è il rifugio: le guesthouse sono più comode di una camerata a 3.207 m, e non c'è nessuna notte in quota." },
+      { q: "Bisogna essere allenati?", a: "È classificato moderato: cammino costante su valichi, senza attacco alla vetta né notti in alta quota. Il punto più alto è intorno ai 2.300 m a Tacheddirt. Se cammini regolarmente starai bene; è il trek che consigliamo per una prima volta sull'Atlante." },
+      { q: "Serve una guida per un trek fra villaggi?", a: "Non per legge, a differenza del Toubkal, dove la guida autorizzata è obbligatoria e viene controllata a Imlil. Ma il percorso collega tre valli attraverso valichi senza segnaletica, e le guesthouse sono case di famiglia e non attività registrate: la guida è ciò che fa esistere il percorso e i letti." },
+    ],
+    content: `
+## La risposta breve
+
+Il nostro [trek di 3 giorni fra i villaggi dell'Alto Atlante](/it/tours/atlas-mountains-3day-trek)
+costa **235 € a persona**. Due persone che organizzano lo stesso percorso da sole
+spendono di solito **2.600–3.900 MAD in totale** (circa 240–360 € in due).
+
+Per una volta l'opzione autonoma è davvero più economica — e vale la pena essere onesti
+sul perché, e su cosa ci si perde.
+
+## In cosa consiste il trek
+
+Tre valli — **Imlil**, **Azzaden** e lo spartiacque dell'**Ourika** — collegate da
+valichi berberi, con due notti in guesthouse di villaggi diversi. Nessuna vetta, nessun
+rifugio, nessuna notte in quota. Il punto più alto è a circa **2.300 m a Tacheddirt**.
+
+| Voce | Costo tipico 2026 | Note |
+|---|---|---|
+| Guida alpina autorizzata | 500–800 MAD / giorno | Ripartita sul gruppo |
+| Guesthouse di villaggio | 200–300 MAD / persona / notte | Cena e colazione incluse |
+| Mulo + mulattiere | 250–300 MAD / giorno | Porta i bagagli fra i villaggi |
+| Transfer Marrakech ⇄ Imlil | 600–1.000 MAD andata e ritorno | Per veicolo, non per persona |
+| Rientro dall'Ourika | 400–700 MAD | Valle diversa da quella di partenza |
+| Mance | 10–15 % | Consuetudine, mai obbligatorie |
+
+## Perché il divario è reale ma piccolo
+
+Su tre giorni la guida è 1.500–2.400 MAD, il mulo 750–900, due notti in guesthouse
+800–1.200 in due, e i transfer 1.000–1.700 — perché si finisce in una **valle diversa da
+quella di partenza**, cosa che si dimentica regolarmente nel fare il preventivo.
+
+Questi sono i conti onesti: nella parte bassa di ogni fascia, due persone possono farlo
+per poco meno del pacchetto. Nella parte alta no.
+
+## Cosa compra il pacchetto che i conti nascondono
+
+Le guesthouse di questo percorso sono **case di famiglia**, non attività registrate. Non
+esiste una pagina di prenotazione per la casa di Tacheddirt. Il percorso fra l'Azzaden e
+lo spartiacque dell'Ourika non ha segnaletica e presenta diversi bivi plausibili ma
+sbagliati.
+
+Quindi la guida non è un extra su un viaggio che potresti comunque montare da solo: per
+la maggior parte dei visitatori, la guida *è* il modo in cui il percorso e i letti
+vengono a esistere. È diverso dal Toubkal, dove il rifugio accetta prenotazioni e il
+sentiero è evidente.
+
+## Rispetto alle alternative
+
+| Trek | Prezzo | Notti | Quota |
+|---|---|---|---|
+| [Valle dell'Azzaden, 2 giorni](/it/tours/azzaden-valley-2day-trek) | 161 € | 1 | Fondovalle |
+| **Villaggi, 3 giorni** | **235 €** | **2** | **~2.300 m** |
+| [Vetta del Toubkal, 2 giorni](/it/tours/toubkal-summit-2day-marrakech) | 193 € | 1 | 4.167 m |
+
+Il trek del Toubkal costa meno di quello dei villaggi e sale molto più in alto — ma è un
+attacco alla vetta con camerata in rifugio, non una camminata fra villaggi. Sono vacanze
+diverse, non due prezzi per la stessa cosa.
+
+## Cosa non è incluso
+
+- **Assicurazione di viaggio** — qui consigliata più che obbligatoria
+- **Attrezzatura personale da trekking** — scarponi e strati
+- **Mance** per guida e mulattiere
+
+Tutto il resto — guida, due notti in guesthouse con i pasti, il mulo ed entrambi i
+transfer — è nei 235 €.
+
+👉 **[Scopri il trek di 3 giorni fra i villaggi dell'Alto Atlante](/it/tours/atlas-mountains-3day-trek)** — 235 € a persona, tre valli, due notti presso famiglie berbere, senza attacco alla vetta.
+`,
+  },
 ];

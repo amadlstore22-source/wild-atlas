@@ -5760,7 +5760,7 @@ day of the trip.
 
 This is why the three-peaks trek is not simply "the 2-day trek plus a day". The
 [2-day summit](/en/tours/toubkal-summit-2day-marrakech) is €193 and this is €331 —
-a 58% increase for a 50% longer trip with a scarcer guide and an extra refuge night.
+a 71% increase for a 50% longer trip with a scarcer guide and an extra refuge night.
 
 ## Winter changes the number
 
@@ -5946,7 +5946,7 @@ disappear:
 | Trek | Price | Days | Per day |
 |---|---|---|---|
 | 3-day High Atlas villages | €235 | 3 | ~€78 |
-| 4-day Toubkal summit | €350 | 4 | €95 |
+| 4-day Toubkal summit | €350 | 4 | ~€88 |
 | 7-day Mgoun traverse | €754 | 7 | ~€108 |
 | 15-day Grand Traverse | €1,518 | 15 | ~€101 |
 

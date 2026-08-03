@@ -18,6 +18,11 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "3-day-sahara-tour-cost-marrakech": "prix-circuit-sahara-3-jours-marrakech",
   "sahara-tour-from-agadir-cost": "prix-circuit-sahara-agadir",
   "family-desert-tour-morocco-cost": "prix-circuit-desert-famille-maroc",
+  "toubkal-three-peaks-trek-cost": "prix-trek-trois-sommets-toubkal",
+  "mgoun-massif-trek-cost": "prix-trek-massif-mgoun",
+  "high-atlas-grand-traverse-cost": "prix-grande-traversee-haut-atlas",
+  "toubkal-sahara-5day-cost": "prix-toubkal-sahara-5-jours",
+  "high-atlas-village-trek-cost": "prix-trek-villages-haut-atlas",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -29,6 +34,11 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "3-day-sahara-tour-cost-marrakech": "precio-tour-sahara-3-dias-marrakech",
   "sahara-tour-from-agadir-cost": "precio-tour-sahara-agadir",
   "family-desert-tour-morocco-cost": "precio-tour-desierto-familia-marruecos",
+  "toubkal-three-peaks-trek-cost": "precio-trek-tres-cumbres-toubkal",
+  "mgoun-massif-trek-cost": "precio-trek-macizo-mgoun",
+  "high-atlas-grand-traverse-cost": "precio-gran-travesia-alto-atlas",
+  "toubkal-sahara-5day-cost": "precio-toubkal-sahara-5-dias",
+  "high-atlas-village-trek-cost": "precio-trek-pueblos-alto-atlas",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -40,6 +50,11 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "3-day-sahara-tour-cost-marrakech": "sahara-tour-3-tage-marrakesch-kosten",
   "sahara-tour-from-agadir-cost": "sahara-tour-agadir-kosten",
   "family-desert-tour-morocco-cost": "familien-wuestentour-marokko-kosten",
+  "toubkal-three-peaks-trek-cost": "toubkal-drei-gipfel-trek-kosten",
+  "mgoun-massif-trek-cost": "mgoun-massiv-trek-kosten",
+  "high-atlas-grand-traverse-cost": "hoher-atlas-grand-traverse-kosten",
+  "toubkal-sahara-5day-cost": "toubkal-sahara-5-tage-kosten",
+  "high-atlas-village-trek-cost": "hoher-atlas-dorftrek-kosten",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -51,6 +66,11 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "3-day-sahara-tour-cost-marrakech": "prezzo-tour-sahara-3-giorni-marrakech",
   "sahara-tour-from-agadir-cost": "prezzo-tour-sahara-agadir",
   "family-desert-tour-morocco-cost": "prezzo-tour-deserto-famiglia-marocco",
+  "toubkal-three-peaks-trek-cost": "prezzo-trek-tre-cime-toubkal",
+  "mgoun-massif-trek-cost": "prezzo-trek-massiccio-mgoun",
+  "high-atlas-grand-traverse-cost": "prezzo-grande-traversata-alto-atlante",
+  "toubkal-sahara-5day-cost": "prezzo-toubkal-sahara-5-giorni",
+  "high-atlas-village-trek-cost": "prezzo-trek-villaggi-alto-atlante",
 };
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];

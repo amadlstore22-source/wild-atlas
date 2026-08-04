@@ -18,7 +18,7 @@ export async function generateMetadata({ params, searchParams }: ToursPageProps)
   const { q, origin, cat, diff, dur, price } = await searchParams;
   const isFiltering = Boolean(q || origin || cat || diff || dur || price);
   return {
-    title: "All Tours — Marrakech Eco Tours | Morocco Adventures",
+    title: "All Tours — Morocco Adventures",
     description: "Browse 30+ guided tours across Morocco — trekking, Sahara desert, cultural, and day tours from Marrakech and Agadir.",
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/tours`,

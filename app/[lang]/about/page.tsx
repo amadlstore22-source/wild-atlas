@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   if (!hasLocale(lang)) return {};
   const { LOCALES } = await import("../dictionaries");
   return {
-    title: "Our Story — Marrakech Eco Tours | Born in the Atlas Mountains",
+    title: "Our Story — Born in the Atlas Mountains",
     description: "Marrakech Eco Tours was founded by Berber guides who grew up in the High Atlas. We run ethical, small-group adventures through Morocco's most remote landscapes — no middlemen, no greenwashing.",
     openGraph: {
       title: "Our Story — Marrakech Eco Tours",

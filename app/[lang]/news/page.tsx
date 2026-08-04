@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
   return {
-    title: `${dict.news.title} — Marrakech Eco Tours`,
+    title: dict.news.title,
     description: dict.news.subtitle,
     // Self-canonical per locale, matching every other page type. Without it,
     // the six near-identical locale news pages (same layout, same syndicated

@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   return {
-    title: "Meet Our Guides — Marrakech Eco Tours | Licensed Berber Mountain Guides",
+    title: "Meet Our Guides — Licensed Berber Mountain Guides",
     description:
       "Our guides are licensed Berber professionals who were born and raised in the landscapes they lead. No hired staff from agencies — these are the people who know Morocco's mountains and medinas by heart.",
     alternates: {

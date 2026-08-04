@@ -4,6 +4,17 @@ import type { NextConfig } from "next";
 const isDev = process.env.NODE_ENV === "development";
 
 const securityHeaders = [
+  // HSTS: tells browsers to use HTTPS for this host for the next two years,
+  // which closes the window where a first plain-HTTP request can be intercepted
+  // before the redirect fires. Two years with subdomains is the preload-list
+  // requirement; the site is HTTPS-only already, so nothing regresses.
+  // Not set in dev, where localhost is served over plain HTTP.
+  ...(isDev
+    ? []
+    : [{
+        key: "Strict-Transport-Security",
+        value: "max-age=63072000; includeSubDomains; preload",
+      }]),
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "X-Frame-Options", value: "DENY" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
   if (!cat) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
-    title: `${cat.label} Adventures in Morocco — Marrakech Eco Tours`,
+    title: `${cat.label} Adventures in Morocco`,
     description: cat.description,
     openGraph: { title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
     alternates: {

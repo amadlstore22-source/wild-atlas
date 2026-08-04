@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   return {
-    title: "Morocco Destinations — Atlas, Sahara, Medinas & Coast | Marrakech Eco Tours",
+    title: "Morocco Destinations — Atlas, Sahara, Medinas & Coast",
     description:
       "Explore Morocco's most extraordinary destinations: High Atlas trekking, Sahara desert, Marrakech medina, Fes, Chefchaouen, Agadir surf, Ouzoud waterfalls, and Essaouira. Find guided tours for every destination.",
     openGraph: {

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: GuideParams): Promise<Metadat
   const guide = GUIDES.find((g) => g.id === id);
   if (!guide) return {};
   return {
-    title: `${guide.name} — Licensed Guide | Marrakech Eco Tours`,
+    title: `${guide.name} — Licensed Mountain Guide`,
     description: guide.shortBio,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides/${id}`,

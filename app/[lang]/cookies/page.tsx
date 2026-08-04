@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { hasLocale } from "../dictionaries";
@@ -9,11 +10,28 @@ type LangParams = { params: Promise<{ lang: string }> };
 
 const UPDATED = "28 July 2026";
 
-export const metadata: Metadata = {
-  title: "Cookie Policy — Marrakech Eco Tours",
-  description: "The cookies and privacy-friendly measurement Marrakech Eco Tours uses, and how to control them.",
-  robots: { index: true, follow: false },
-};
+/**
+ * Per-locale metadata. This was a static `metadata` export, which cannot see
+ * the locale — so all six language versions shipped with no canonical and no
+ * hreflang, leaving six near-identical URLs competing as duplicates.
+ *
+ * follow: false is deliberate and preserved: legal boilerplate should not spend
+ * link equity on outbound links.
+ */
+export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
+  return {
+    title: "Cookie Policy",
+    description: "The cookies and privacy-friendly measurement Marrakech Eco Tours uses, and how to control them.",
+    robots: { index: true, follow: false },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/cookies`,
+      languages: hreflangForPath(LOCALES, "/cookies"),
+    },
+  };
+}
 
 export default async function CookiesPage({ params }: LangParams) {
   const { lang } = await params;

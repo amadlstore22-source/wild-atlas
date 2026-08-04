@@ -45,3 +45,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local indexing-quota ledger; machine-specific, not shared state.
+docs/.submitted-today.json

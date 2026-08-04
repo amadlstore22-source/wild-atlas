@@ -51,9 +51,36 @@ if ($count -lt 0) { $count = 0 }
 if ($Limit -gt 0 -and $Limit -lt $count) { $count = $Limit }
 
 Write-Host "Submitting $count of $total URLs from $(Split-Path -Leaf $urls)" -ForegroundColor Cyan
-if ($count -gt 200) {
-  Write-Host "WARNING: over the 200/day quota - the tail will be rejected." -ForegroundColor Yellow
-  Write-Host "         Re-run with -Limit 200, then tomorrow add -Offset 200." -ForegroundColor Yellow
+
+# The 200/day quota is per PROJECT per DAY, not per batch. Warning only when a
+# single file exceeds 200 missed the real failure mode: two batches of 78 and
+# 159 on the same day, where the second is rejected from URL 123 onward with a
+# 429. Track what has already gone out today and warn on the running total.
+$ledger = Join-Path $repo "docs/.submitted-today.json"
+$today = (Get-Date).ToString("yyyy-MM-dd")
+$usedToday = 0
+if (Test-Path $ledger) {
+  try {
+    $entry = Get-Content $ledger -Raw | ConvertFrom-Json
+    if ($entry.date -eq $today) { $usedToday = [int]$entry.count }
+  } catch { $usedToday = 0 }
+}
+
+$remaining = 200 - $usedToday
+if ($usedToday -gt 0) {
+  Write-Host "Already submitted today: $usedToday - $remaining of the 200/day quota left." -ForegroundColor DarkGray
+}
+
+if ($count -gt $remaining) {
+  Write-Host ""
+  Write-Host "WARNING: this exceeds today's remaining quota ($remaining)." -ForegroundColor Yellow
+  Write-Host "         URLs past #$remaining will fail with HTTP 429." -ForegroundColor Yellow
+  if ($remaining -gt 0) {
+    Write-Host "         Run with -Limit $remaining today, then -Offset $remaining tomorrow." -ForegroundColor Yellow
+  } else {
+    Write-Host "         Quota is exhausted for today. Try again after midnight Pacific." -ForegroundColor Yellow
+  }
+  Write-Host ""
 }
 
 $nodeArgs = @($script, "--key", $key, "--urls", $urls)
@@ -62,3 +89,15 @@ if ($Limit -gt 0) { $nodeArgs += @("--limit", $Limit) }
 if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 
 & node @nodeArgs
+
+# Record the run so the next invocation today knows the remaining quota.
+# Counts what was ATTEMPTED, not what succeeded: a 429 still consumes nothing,
+# but anything that returned 200 did, and attempts are the safe over-estimate.
+# Skipped on -DryRun, which sends nothing.
+if (-not $DryRun) {
+  $newTotal = $usedToday + $count
+  @{ date = $today; count = $newTotal } | ConvertTo-Json -Compress |
+    Set-Content -Path $ledger -Encoding utf8
+  Write-Host ""
+  Write-Host "Quota used today: $newTotal / 200" -ForegroundColor DarkGray
+}

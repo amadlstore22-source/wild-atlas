@@ -50,15 +50,18 @@ export const SITE = {
   heroVideo: "",
   // Imlil / Tachdirt in the High Atlas — terraced valley below the snow-capped
   // Toubkal peaks, our flagship trekking base. Pexels (Mohamed Khettouch),
-  // verified subject and landscape orientation.
+  // used under the Pexels licence, which permits self-hosting.
   //
-  // w=1920, not 2400: this is the SOURCE next/image fetches before transcoding,
-  // and the largest bucket we now generate is 1920 (see deviceSizes in
-  // next.config.ts). Asking Pexels for more pixels than we ever emit just adds
-  // download and transcode time to the first uncached request — which field data
-  // identified as the homepage's LCP bottleneck.
-  heroPoster:
-    "https://images.pexels.com/photos/37538532/pexels-photo-37538532.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  // Self-hosted, NOT hotlinked from Pexels. next/image proxies a remote src
+  // through /_next/image on our own domain, so the SERVER fetches the original
+  // before it can transcode — an extra round trip in front of first paint on
+  // every cold cache. Field data measured that as the homepage LCP bottleneck
+  // (6.8s mobile). Serving from /public removes the hop entirely.
+  //
+  // Fetched at w=2400 by scripts/fetch-hero-images.ps1 and downsized per
+  // breakpoint at build time; the largest bucket we emit is 1920 (deviceSizes
+  // in next.config.ts), so visitors never receive the full-size file.
+  heroPoster: "/gallery/imlil-valley-high-atlas-hero.jpg",
 } as const;
 
 export const SOCIAL = {

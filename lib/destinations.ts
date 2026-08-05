@@ -87,7 +87,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.0573,
     lng: -7.9149,
-    heroImage: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1400&q=85",
+    heroImage: "/gallery/category-hero-atlas-ridge.jpg",
     about:
       "The High Atlas is one of Africa's great mountain ranges — a 2,400 km spine of glaciated peaks, Berber villages, and ancient mule trails stretching from the Atlantic to the Algerian border. At its highest point stands Jbel Toubkal (4,167 m), the roof of North Africa and the most accessible 4,000-metre summit on the continent. For millennia, Berber communities have farmed the terraced valleys and tracked the high passes on routes unchanged since medieval caravan trade.",
     knownFor: [

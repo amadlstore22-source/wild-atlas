@@ -9,7 +9,7 @@ import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 // the gallery reads as real trips, not a stock reel.
 const PHOTOS = [
   { src: "/gallery/toubkal-national-park-peak-clouds.jpg", alt: "Jbel Toubkal massif under dramatic cloud, Toubkal National Park, High Atlas Morocco", span: "col-span-1 row-span-2" },
-  { src: "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=800&q=85", alt: "Erg Chebbi golden dunes at sunset, Merzouga Sahara Morocco" },
+  { src: "/gallery/category-hero-medina-doorway.jpg", alt: "Erg Chebbi golden dunes at sunset, Merzouga Sahara Morocco" },
   { src: "https://images.unsplash.com/photo-1685311572420-513619470404?w=800&q=85", alt: "Camel caravan at rest in the Sahara desert" },
   { src: "https://images.unsplash.com/photo-1722180862276-970599009d51?w=800&q=85", alt: "Marrakech medina — iconic architecture and ancient streets" },
   { src: "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg", alt: "Turquoise natural pool and waterfall on the Imlil to Sidi Chamharouch trail, Toubkal, Morocco", span: "col-span-1 row-span-2" },

@@ -53,7 +53,7 @@ const DESTINATIONS: Destination[] = [
     lat: 31.0573,
     lng: -7.9149,
     color: "#4B7A3A",
-    image: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=500&q=80",
+    image: "/gallery/category-hero-atlas-ridge.jpg",
     description:
       "The definitive High Atlas challenge: ascend through Berber villages and glacial valleys to the highest summit in all of North Africa at 4,167 m.",
     known: [

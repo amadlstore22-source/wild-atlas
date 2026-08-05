@@ -228,7 +228,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "الصحراء الكبرى لا تشبه أي مكان آخر على وجه الأرض. إليك دليلًا صادقًا عن الصحراء المغربية — أي الكثبان تستحق الرحلة، وكيف يبدو مخيم الصحراء فعليًا، وكيف تتجنب فخاخ السياح.",
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
@@ -804,7 +804,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "على بعد 60 كم فقط من مراكش، يُعد وادي أوريكا أقرب مشهد طبيعي أصيل من جبال الأطلس الكبير إلى المدينة. قرى أمازيغية، ونهر نابض بالحياة، ونزهة إلى الشلالات — كل ذلك في نصف يوم أو يوم كامل.",
     heroImage:
-      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
+      "/gallery/category-hero-desert-caravan.jpg",
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
@@ -1730,7 +1730,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "يحوّل الثلج توبقال من جبل يُصعَد سيرًا إلى جبل شتوي حقيقي: مسامير جليدية، وفأس جليد، وسلسلة عواقب أكثر حدة. هل يستطيع المبتدئ اللائق فعلها، وما الذي يتغير بين نونبر وأبريل.",
     heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+      "/gallery/category-hero-atlas-ridge.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,

@@ -106,7 +106,7 @@ export default async function BlogPage({
   return (
     <div>
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
-        <Image src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80" alt="Morocco travel" fill sizes="100vw" className="object-cover" priority />
+        <Image src="/gallery/destination-hero-toubkal-snow.jpg" alt="Morocco travel" fill sizes="100vw" className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <h1 className="hero-title font-display text-6xl lg:text-7xl font-bold leading-tight">{dict.blog.pageTitle}</h1>

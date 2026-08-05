@@ -129,9 +129,9 @@ export const TOURS: Tour[] = [
     price: 245,
     depositAmount: 65,
     heroImage:
-      "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
@@ -220,7 +220,7 @@ export const TOURS: Tour[] = [
     heroImage:
       "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
-      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1200&q=85",
+      "/gallery/category-hero-desert-caravan.jpg",
       "https://images.unsplash.com/photo-1568241360857-e23e825c4e08?w=1200&q=85",
       "https://images.unsplash.com/photo-1597823262196-cc7e878d73ce?w=1200&q=85",
     ],
@@ -545,11 +545,11 @@ export const TOURS: Tour[] = [
     price: 820,
     depositAmount: 200,
     heroImage:
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+      "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "/gallery/category-hero-mgoun-massif.jpg",
       "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
       "Le trek le plus sauvage du Maroc — 7 jours à travers le massif reculé du M'Goun (4 068 m), sans un seul autre touriste en vue.",
@@ -612,7 +612,7 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 30,
     depositAmount: 8,
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
       "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",
@@ -945,7 +945,7 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
     ],
     shortDescription:
@@ -1138,7 +1138,7 @@ export const TOURS: Tour[] = [
     price: 340,
     depositAmount: 85,
     heroImage:
-      "https://images.pexels.com/photos/37764121/pexels-photo-37764121.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
@@ -1420,7 +1420,7 @@ export const TOURS: Tour[] = [
     heroImage:
       "https://images.pexels.com/photos/35666328/pexels-photo-35666328.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
@@ -1514,7 +1514,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
     ],
     shortDescription:
@@ -1621,7 +1621,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
     ],
     shortDescription:
@@ -1791,7 +1791,7 @@ export const TOURS: Tour[] = [
       "https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
       "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
     ],
     shortDescription:
@@ -2518,10 +2518,10 @@ export const TOURS: Tour[] = [
     heroImage:
       "https://images.pexels.com/photos/29601658/pexels-photo-29601658.jpeg?auto=compress&cs=tinysrgb&w=1600",
     gallery: [
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "/gallery/category-hero-mgoun-massif.jpg",
+      "/gallery/category-hero-atlas-ridge.jpg",
       "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
-      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
+      "/gallery/destination-hero-toubkal-snow.jpg",
     ],
     shortDescription:
       "La route pittoresque vers le sommet — par la vallée d'Azzaden, les cascades d'Ighouliden, et le col d'Aguelzim (3 560 m) jusqu'au Toubkal.",
@@ -2608,11 +2608,11 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1600&q=85",
+      "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1200&q=85",
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
-      "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1200&q=85",
+      "/gallery/destination-hero-toubkal-snow.jpg",
+      "/gallery/category-hero-atlas-ridge.jpg",
+      "/gallery/category-hero-mgoun-massif.jpg",
       "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
     ],
     shortDescription:
@@ -2766,9 +2766,9 @@ export const TOURS: Tour[] = [
       "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1600&q=85",
     gallery: [
       "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1200&q=85",
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1200&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
       "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1200&q=85",
+      "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
       "Balade à dos de chameau dans l'Erg Chebbi au coucher du soleil, suivie d'une session guidée d'observation des étoiles à l'œil nu et au télescope sous l'un des ciels les plus sombres d'Afrique du Nord.",

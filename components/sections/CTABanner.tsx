@@ -102,7 +102,7 @@ export default function CTABanner({ dict, lang = "en", tourCount }: Props) {
                   transition={{ duration: 0.7, ease }}
                 >
                   <Image
-                    src="https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=840&q=85"
+                    src="/gallery/category-hero-medina-doorway.jpg"
                     alt="Sahara desert at sunset"
                     fill
                     className="object-cover"

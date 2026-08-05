@@ -228,7 +228,7 @@ Sì. La vetta del Toubkal si trova a 4.167 m — abbastanza alta da causare mal 
     excerpt:
       "Il Sahara non ha eguali sulla Terra. Ecco una guida onesta al Sahara marocchino — quali dune valgono il viaggio, com'è davvero un campo nel deserto e come evitare le trappole per turisti.",
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
@@ -804,7 +804,7 @@ Tè verde gunpowder infuso forte, versato da un'altezza (per creare la schiuma) 
     excerpt:
       "A soli 60 km da Marrakech, la Valle dell'Ourika è il paesaggio autentico dell'Alto Atlante più vicino alla città. Villaggi berberi, un fiume in piena attività e un'escursione alle cascate — tutto in mezza giornata o una giornata intera.",
     heroImage:
-      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
+      "/gallery/category-hero-desert-caravan.jpg",
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
@@ -1730,7 +1730,7 @@ Se volete discutere quale itinerario si adatta alla vostra forma fisica e alle v
     excerpt:
       "La neve trasforma il Toubkal da camminata in salita in una vera montagna invernale: ramponi, piccozza e conseguenze più severe. Se un principiante in forma può farcela, e cosa cambia tra novembre e aprile.",
     heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+      "/gallery/category-hero-atlas-ridge.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,

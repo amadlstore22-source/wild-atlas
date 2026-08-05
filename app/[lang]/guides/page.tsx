@@ -42,8 +42,13 @@ export default async function GuidesPage({ params }: LangParams) {
         <div
           className="absolute inset-0 opacity-20"
           style={{
+            // A pre-compressed variant, not the shared 2400px hero source. A
+            // CSS background bypasses next/image, so whatever is named here is
+            // shipped byte-for-byte with no resizing or AVIF/WebP negotiation.
+            // At 20% opacity behind text, 186 KB is indistinguishable from the
+            // 1.5 MB original. Regenerate with sharp if the source changes.
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1920&q=60)",
+              "url(/gallery/guides-hero-atlas-ridge-bg.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

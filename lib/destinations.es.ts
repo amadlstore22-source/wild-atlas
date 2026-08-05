@@ -57,7 +57,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.0573,
     lng: -7.9149,
-    heroImage: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1400&q=85",
+    heroImage: "/gallery/category-hero-atlas-ridge.jpg",
     about:
       "El Alto Atlas es una de las grandes cordilleras de África: una columna vertebral de 2.400 km de picos glaciares, aldeas bereberes y antiguas rutas de mulas que se extiende desde el Atlántico hasta la frontera argelina. En su punto más alto se alza el Jbel Toubkal (4.167 m), el techo del norte de África y la cima de 4.000 metros más accesible del continente. Durante milenios, las comunidades bereberes han cultivado los valles en terrazas y recorrido los altos puertos por rutas invariables desde las caravanas medievales.",
     knownFor: [

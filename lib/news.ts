@@ -50,11 +50,11 @@ const TARGET_COUNT = 6;
 const MOROCCO_IMAGES = [
   "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800&q=80", // Rabat zellige fountain
   "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80", // Marrakech medina
-  "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=800&q=80",    // Atlas mountains
+  "/gallery/about-hero-berber-team.jpg",    // Atlas mountains
   "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=80", // Chefchaouen blue city
   "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=80", // Essaouira coast
-  "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80", // kasbah & oasis
-  "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=800&q=80", // Erg Chebbi sunset
+  "/gallery/contact-hero-morocco-doorway.jpg", // kasbah & oasis
+  "/gallery/category-hero-medina-doorway.jpg", // Erg Chebbi sunset
   "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=800&q=80", // Aït Benhaddou ksar
 ];
 

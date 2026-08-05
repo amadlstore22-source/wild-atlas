@@ -46,7 +46,7 @@ export default async function DestinationsPage({ params }: LangParams) {
       <div className="relative py-32 tex-emerald overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1920&q=80"
+            src="/gallery/destination-hero-toubkal-snow.jpg"
             alt="Morocco landscapes"
             fill
             className="object-cover opacity-35"

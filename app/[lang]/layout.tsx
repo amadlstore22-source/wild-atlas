@@ -111,11 +111,13 @@ export default async function LocaleLayout({
             An unused preconnect is not free: it holds a socket and competes
             with real requests during the critical path.
 
-            dns-prefetch is kept for neither, for the same reason.
-
-            The remote-origin cost is real, but it lands on the Vercel image
-            optimiser, not the browser, so the fix is self-hosting the source
-            image rather than a client-side hint. */}
+            The remote-origin cost was real, but it landed on the Vercel image
+            optimiser rather than the browser, so a client-side hint could never
+            have fixed it. Every LCP-candidate image is now self-hosted from
+            /public/gallery (see scripts/fetch-hero-images.ps1), which removes
+            the hop at its source. Both origins are still allowed in
+            next.config.ts remotePatterns for the lazy, below-the-fold images
+            that remain remote — those load after paint and cost nothing. */}
         {/* NO hreflang here — see the note on the `metadata` export above. A
             layout cannot know the current path, so emitting alternates here
             pointed every one of the 802 pages at the locale HOMEPAGE, on top of

@@ -57,7 +57,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.0573,
     lng: -7.9149,
-    heroImage: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1400&q=85",
+    heroImage: "/gallery/category-hero-atlas-ridge.jpg",
     about:
       "Le Haut Atlas est l'une des grandes chaînes montagneuses d'Afrique — une épine dorsale de 2 400 km de sommets englacés, de villages berbères et d'antiques sentiers muletiers, s'étendant de l'Atlantique à la frontière algérienne. À son point culminant se dresse le Jbel Toubkal (4 167 m), le toit de l'Afrique du Nord et le sommet de 4 000 mètres le plus accessible du continent. Depuis des millénaires, les communautés berbères cultivent les vallées en terrasses et parcourent les hauts cols sur des itinéraires inchangés depuis les caravanes du Moyen Âge.",
     knownFor: [

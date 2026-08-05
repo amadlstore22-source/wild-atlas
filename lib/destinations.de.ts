@@ -57,7 +57,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.0573,
     lng: -7.9149,
-    heroImage: "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1400&q=85",
+    heroImage: "/gallery/category-hero-atlas-ridge.jpg",
     about:
       "Der Hohe Atlas ist eines der großen Gebirgsmassive Afrikas – ein 2.400 km langes Rückgrat aus vergletscherten Gipfeln, Berberdörfern und uralten Maultierpfaden, das sich vom Atlantik bis zur algerischen Grenze erstreckt. An seinem höchsten Punkt erhebt sich der Jbel Toubkal (4.167 m), das Dach Nordafrikas und der am leichtesten erreichbare 4.000er-Gipfel des Kontinents. Seit Jahrtausenden bewirtschaften Berbergemeinschaften die terrassierten Täler und durchqueren die hohen Pässe auf Routen, die sich seit den mittelalterlichen Karawanenzügen kaum verändert haben.",
     knownFor: [

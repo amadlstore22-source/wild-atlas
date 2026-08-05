@@ -235,7 +235,7 @@ Sí. La cumbre del Toubkal está a 4.167 m, suficientemente alto como para provo
     excerpt:
       "El Sahara no se parece a nada más en la Tierra. Aquí tienes una guía honesta sobre el Sahara marroquí: qué dunas merecen el viaje, cómo es en realidad un campamento en el desierto y cómo evitar las trampas para turistas.",
     heroImage:
-      "https://images.unsplash.com/photo-1617374128851-c84e37dc9f37?w=1600&q=85",
+      "/gallery/category-hero-medina-doorway.jpg",
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
@@ -811,7 +811,7 @@ Té verde gunpowder preparado fuerte, servido desde una altura considerable (par
     excerpt:
       "A solo 60 km de Marrakech, el valle de Ourika es el paisaje genuino del Alto Atlas más cercano a la ciudad. Pueblos bereberes, un río en movimiento y una caminata a una cascada, todo en medio día o un día completo.",
     heroImage:
-      "https://images.unsplash.com/photo-1739464889400-e87ec57f246d?w=1600&q=85",
+      "/gallery/category-hero-desert-caravan.jpg",
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
@@ -1739,7 +1739,7 @@ Si quieres hablar sobre qué itinerario se ajusta a tu forma física y tus fecha
     excerpt:
       "La nieve convierte el Toubkal de una caminata en una auténtica montaña de invierno: crampones, piolet y un conjunto de consecuencias más severo. Si un principiante en forma puede hacerlo, y qué cambia entre noviembre y abril.",
     heroImage:
-      "https://images.unsplash.com/photo-1611859836043-a9177f500a27?w=1600&q=85",
+      "/gallery/category-hero-atlas-ridge.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,

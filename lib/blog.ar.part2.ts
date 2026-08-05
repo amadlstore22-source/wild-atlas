@@ -1110,7 +1110,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "واحة سكورة: بستان نخيل مليء بالقصبات",
     excerpt:
       "واحة نخيل تعمل فعليًا ومزينة بقصبات تاريخية، شرق ورزازات مباشرة. أهدأ وأقل ازدحامًا من التوقفات الأكبر على طريق الصحراء — وهذا معظم جاذبيتها.",
-    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    heroImage: "/gallery/contact-hero-morocco-doorway.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 5,
@@ -1920,7 +1920,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "أفضل وقت لزيارة وادي الجنة (Paradise Valley)، المغرب",
     excerpt:
       "وادي الجنة وجهة على مدار السنة، لكن البرك والزحام ومنسوب الماء تتغير كثيراً بحسب الموسم. إليك الدليل الصادق شهراً بشهر لأفضل وقت للذهاب قرب أكادير.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -1979,7 +1979,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "السباحة في وادي الجنة: البرك والسلامة والنصائح",
     excerpt:
       "البرك الصخرية هي كل مغزى وادي الجنة. إليك في أيها تسبح، وهل هو آمن، وماذا تحضر، وكيف تجد الماء الأهدأ بعيداً عن الزحام.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2035,7 +2035,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "وادي الجنة من أكادير: كيف تصل إليه",
     excerpt:
       "وادي الجنة هو أسهل ملاذ طبيعي من أكادير. إليك كم يبعد، وكيف تصل إليه بالسيارة أو الأجرة أو رحلة منظّمة، وكيف تجعله يوماً كاملاً.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2087,7 +2087,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "هل يمكن زيارة وادي الجنة من مراكش؟",
     excerpt:
       "وادي الجنة قرب أكادير لا مراكش — فهل رحلة يوم من مراكش واقعية؟ إليك الجواب الصادق حول المسافة والتوقيت والطريقة الأذكى.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 5,
@@ -2289,7 +2289,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "النيلة: صبغة المغرب الزرقاء الشهيرة (وكيف لا تلطّخ نفسك)",
     excerpt:
       "الأزرق العميق لـ«رجال الصحراء الزرق» يأتي من النيلة. إليك ما هي، ولماذا تنتقل أثواب الطوارق إلى الجلد، وكيف ترتديها دون أن تزرقّ أصابعك أسبوعاً.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الشاي المغربي بالنعناع: الطقس، والصبّ من عُلوّ، ولماذا لا يمكنك الرفض",
     excerpt:
       "يسمّونه «ويسكي الأمازيغ» ويُصبّ من ارتفاع لسبب. إليك كيف يعمل طقس الشاي بالنعناع في المغرب فعلاً — ولماذا رفض كأس ثالث حادثة دبلوماسية تقريباً.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كيف تساوم في الأسواق المغربية دون أن تفقد صوابك",
     excerpt:
       "السعر الأول ليس السعر. إليك الدليل الصادق والطريف قليلاً للمساومة في أسواق المغرب: حيلة الشاي، والانصراف، وكيف تحصل على سعر عادل دون أن تجعلها معركة.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل مرزوقة: بوابة كثبان عرق الشبّي",
     excerpt:
       "مرزوقة قرية الصحراء الصغيرة عند سفح أعلى كثبان المغرب — الصحراء الكلاسيكية التي يتخيّلها معظم الناس. إليك كيف تصل، ومتى تذهب، وكيف تكون ليلة في الرمل فعلاً.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل صحراء زاكورة: الصحراء السريعة من مراكش",
     excerpt:
       "وقت قليل لكن ما زلت تشتهي الصحراء؟ زاكورة أقرب شريحة صحراء من مراكش — هروب كثبان بيومين حين لا تقدر على ثلاثة. إليك بصدق ما تحصل عليه، وما لا تحصل.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل ورزازات: «أواليوود» والقصبات وباب الصحراء",
     excerpt:
       "ورزازات حيث تأتي هوليوود لتصوير العالم القديم — والباب الذي تعبره كل جولة صحراوية. إليك ماذا ترى، ولماذا يسمّونها أواليوود، وكيف تندرج في رحلتك الصحراوية.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,
@@ -3128,7 +3128,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "من مراكش إلى شفشاون: كم تكلّف الرحلة فعلًا في 2026",
     excerpt:
       "بين مراكش وشفشاون 580 كيلومترًا ومعظم داخل المغرب. إليك تكلفة الطريق والمحطات والليالي — بما في ذلك رحلة العودة التي لا يحسبها أحد.",
-    heroImage: "https://images.pexels.com/photos/37764121/pexels-photo-37764121.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-desert-camp-night.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 7,
@@ -3228,7 +3228,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية من ثلاثة أيام من مراكش؟ (2026)",
     excerpt:
       "رحلة الثلاثة أيام إلى مرزوقة هي المسار الصحراوي الأكثر حجزًا في المغرب، والأكثر تفاوتًا في السعر. إليك ما يفصل حافلة صغيرة مشتركة بـ 95 يورو عن رباعية دفع خاصة بـ 225 يورو.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3321,7 +3321,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية من أݣادير؟ (تفصيل 2026)",
     excerpt:
       "تبعد أݣادير 450 كيلومترًا عن أقرب كثبان حقيقية، وهذا يغيّر الحساب كليًا. إليك تكلفة رحلة صحراوية من الساحل في 2026، ولماذا نسخة اليومين طريق في معظمها.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -3423,7 +3423,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية عائلية في المغرب؟ (2026)",
     excerpt:
       "اصطحاب الأطفال إلى الصحراء يكلّف أقل مما يتوقع معظم الآباء، لكن الميزانية فيها بنود مختلفة. إليك التكلفة الحقيقية لرحلة صحراوية عائلية من أربعة أيام.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3517,7 +3517,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة رحلة القمم الثلاث في توبقال؟ (2026)",
     excerpt:
       "ثلاث قمم فوق 4000 متر في ثلاثة أيام تكلّف أكثر من صعود توبقال المعتاد — لكن ليس للسبب الذي يتوقعه معظم الناس. إليك ما يشتريه الفارق، بنداً بنداً.",
-    heroImage: "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1600&q=85",
+    heroImage: "/gallery/destination-hero-toubkal-snow.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -3598,7 +3598,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة رحلة إلى كتلة مݣون؟ (سبعة أيام، 2026)",
     excerpt:
       "ثاني أعلى قمة في المغرب تستقبل جزءاً يسيراً من حركة توبقال، وبنية التكلفة مختلفة: مرافق ثابتة أقل، أيام أكثر، وقافلة بغال كاملة.",
-    heroImage: "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+    heroImage: "/gallery/category-hero-mgoun-massif.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,

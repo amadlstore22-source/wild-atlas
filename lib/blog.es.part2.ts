@@ -1110,7 +1110,7 @@ El valle del Dadès forma parte de la ruta en nuestra [expedición de 3 días a 
     title: "Oasis de Skoura: un palmeral lleno de kasbahs",
     excerpt:
       "Un oasis de palmeras en activo salpicado de kasbahs históricas, justo al este de Ouarzazate. Más tranquilo y menos visitado que las paradas grandes de la carretera al desierto, lo cual es la mayor parte de su atractivo.",
-    heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600&q=85",
+    heroImage: "/gallery/contact-hero-morocco-doorway.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 5,
@@ -1920,7 +1920,7 @@ Si estás en forma, con poco tiempo y quieres la cima sin una semana en la monta
     title: "La mejor época para visitar Paradise Valley, Marruecos",
     excerpt:
       "Paradise Valley es un plan de todo el año, pero las pozas, la afluencia y el nivel del agua cambian mucho según la temporada. Aquí tienes la guía honesta, mes a mes, de cuándo ir cerca de Agadir.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -1979,7 +1979,7 @@ Sea cual sea el mes, ir con un guía local te ahorra el aparcamiento y la orient
     title: "Bañarse en Paradise Valley: pozas, seguridad y consejos",
     excerpt:
       "Las pozas de roca son todo el sentido de Paradise Valley. Aquí tienes en cuáles bañarte, si es seguro, qué llevar y cómo encontrar el agua más tranquila lejos de la gente.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2035,7 +2035,7 @@ Llegar implica un trayecto tierra adentro desde Agadir, aparcar y bajar caminand
     title: "Paradise Valley desde Agadir: cómo llegar",
     excerpt:
       "Paradise Valley es la escapada natural más fácil desde Agadir. Aquí tienes a qué distancia está, cómo llegar en coche, taxi o tour, y cómo hacer una jornada completa.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2087,7 +2087,7 @@ Si tienes más días por Agadir, el valle encaja bien junto a otras salidas: una
     title: "¿Se puede visitar Paradise Valley desde Marrakech?",
     excerpt:
       "Paradise Valley está cerca de Agadir, no de Marrakech, así que ¿es realista una excursión desde Marrakech? Aquí tienes la respuesta honesta sobre distancia, tiempos y la forma más inteligente de hacerlo.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 5,
@@ -2289,7 +2289,7 @@ Es el circuito clásico, pero la mejor versión es la que se moldea en torno a t
     title: "Nila: el famoso tinte azul de Marruecos (y cómo no mancharte)",
     excerpt:
       "El índigo profundo de los 'hombres azules' del desierto viene del nila. Esto es qué es, por qué las túnicas tuareg tiñen la piel y cómo llevarlo sin acabar con los dedos azules una semana.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ El nila tiene todo el sentido fuera, en la arena, liado contra un viento del des
     title: "El té a la menta marroquí: la ceremonia, el escanciado en alto y por qué no puedes rechazarlo",
     excerpt:
       "Lo llaman 'whisky bereber' y se sirve desde lo alto por una razón. Así funciona de verdad el ritual del té a la menta en Marruecos, y por qué rechazar un tercer vaso es prácticamente un incidente diplomático.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ El té nunca es de verdad sobre el té. Es la puerta a una conversación, una ca
     title: "Cómo regatear en los zocos marroquíes sin perder la cabeza",
     excerpt:
       "El primer precio no es el precio. Esta es la guía honesta y algo divertida del regateo en los mercados de Marruecos: el truco del té, la retirada y cómo conseguir un precio justo sin convertirlo en batalla.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ Los zocos deslumbran y, el primer día, desorientan de verdad, que es justo cuan
     title: "Guía de Merzouga: la puerta a las dunas de Erg Chebbi",
     excerpt:
       "Merzouga es el pueblecito del desierto al pie de las dunas más altas de Marruecos, el Sáhara clásico que casi todos imaginan. Así se llega, cuándo ir y cómo es de verdad una noche en la arena.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ Merzouga se gana su larga ruta. Una noche en Erg Chebbi es, para muchos viajeros
     title: "Guía del desierto de Zagora: el Sáhara exprés desde Marrakech",
     excerpt:
       "¿Poco tiempo pero aún con ganas de desierto? Zagora es el trozo de Sáhara más cercano a Marrakech, una escapada a las dunas de dos días cuando no puedes dedicar tres. Esto es honestamente lo que obtienes, y lo que no.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ Dos días, una noche inolvidable en la arena, y estás de vuelta en Marrakech an
     title: "Guía de Ouarzazate: 'Ouallywood', kasbahs y la puerta del desierto",
     excerpt:
       "Ouarzazate es donde Hollywood viene a rodar el mundo antiguo, y la puerta por la que pasa cada tour del desierto. Esto es qué ver, por qué la llaman Ouallywood y cómo encaja en tu viaje al Sáhara.",
-    heroImage: "https://images.pexels.com/photos/36540904/pexels-photo-36540904.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,
@@ -3174,7 +3174,7 @@ sube tu material por el puerto.
     title: "Marrakech a Chefchaouen: lo que cuesta de verdad el viaje en 2026",
     excerpt:
       "De Marrakech a Chefchaouen hay 580 km y buena parte del interior de Marruecos. Esto es lo que cuestan la carretera, las paradas y las noches, incluida la vuelta que nadie presupuesta.",
-    heroImage: "https://images.pexels.com/photos/37764121/pexels-photo-37764121.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-desert-camp-night.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 7,
@@ -3281,7 +3281,7 @@ de cedros por el camino, la ruta terrestre se gana su precio.
     title: "¿Cuánto cuesta un tour de 3 días al Sáhara desde Marrakech? (2026)",
     excerpt:
       "El viaje de 3 días a Merzouga es la ruta desértica más reservada de Marruecos y la más variable en precio. Esto es lo que separa un minibús compartido de 95 € de un 4x4 privado de 225 €.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3382,7 +3382,7 @@ lleva el campamento.
     title: "¿Cuánto cuesta un tour al Sáhara desde Agadir? (Desglose 2026)",
     excerpt:
       "Agadir está a 450 km de las primeras dunas de verdad, y eso cambia las cuentas por completo. Esto es lo que cuesta un viaje al desierto desde la costa en 2026, y por qué la versión de 2 días es sobre todo carretera.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -3489,7 +3489,7 @@ Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
     title: "¿Cuánto cuesta un tour por el desierto en familia en Marruecos? (2026)",
     excerpt:
       "Llevar niños al Sáhara cuesta menos de lo que la mayoría de padres espera, pero el presupuesto tiene otras líneas. Esto es lo que cuesta de verdad un viaje familiar de 4 días por el desierto.",
-    heroImage: "https://images.pexels.com/photos/998637/pexels-photo-998637.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3589,7 +3589,7 @@ mantiene en el país.
     title: "¿Cuánto cuesta el trek de las Tres Cumbres del Toubkal? (2026)",
     excerpt:
       "Tres cumbres de 4.000 m en tres días cuestan más que una ascensión normal al Toubkal, pero no por la razón que se supone. Esto es lo que compra el sobrecoste, partida por partida.",
-    heroImage: "https://images.unsplash.com/photo-1560789590-ee4cc7125967?w=1600&q=85",
+    heroImage: "/gallery/destination-hero-toubkal-snow.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -3676,7 +3676,7 @@ llega de verdad a la cumbre.
     title: "¿Cuánto cuesta un trek al macizo del Mgoun? (7 días, 2026)",
     excerpt:
       "La segunda cumbre de Marruecos recibe una fracción del tráfico del Toubkal, y su estructura de costes es distinta: menos infraestructura fija, más días, una recua de mulas completa.",
-    heroImage: "https://images.unsplash.com/photo-1766680460144-56a2937a5433?w=1600&q=85",
+    heroImage: "/gallery/category-hero-mgoun-massif.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,

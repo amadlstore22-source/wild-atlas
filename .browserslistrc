@@ -1,0 +1,24 @@
+# Browser targets for the build.
+#
+# These targets cover every browser that can render the site at all. The oldest
+# (Safari 15.4, March 2022) already supports every modern JS feature the app
+# uses, so nothing regresses by declaring them.
+#
+# NOTE, honest limitation: this does NOT remove the ~14 KiB "Legacy JavaScript"
+# chunk Lighthouse reports. That chunk is Next.js's own polyfill bundle, which
+# is injected unconditionally (not nomodule-gated) and is not driven by
+# browserslist. Verified after adding this file: the runtime feature-detects for
+# Array.prototype.at, Object.fromEntries, trimStart/trimEnd et al. are still in
+# the output. Removing them would mean patching the framework's bundling, which
+# is not worth 14 KiB.
+#
+# This file still earns its place: it governs CSS autoprefixing and any
+# browserslist-aware tooling added later, and it documents the support floor.
+#
+# Deliberately NOT supporting IE11: it cannot run the React 19 runtime.
+
+>0.3%
+last 2 versions
+Firefox ESR
+not dead
+not op_mini all

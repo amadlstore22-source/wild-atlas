@@ -54,8 +54,11 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formName} *</label>
+          <label htmlFor="contact-name" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formName} *</label>
           <input
+            id="contact-name"
+            name="name"
+            autoComplete="name"
             required
             type="text"
             value={form.name}
@@ -65,8 +68,11 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
           />
         </div>
         <div>
-          <label className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formEmail} *</label>
+          <label htmlFor="contact-email" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formEmail} *</label>
           <input
+            id="contact-email"
+            name="email"
+            autoComplete="email"
             required
             type="email"
             value={form.email}
@@ -78,8 +84,10 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
       </div>
 
       <div>
-        <label className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formSubjectLabel}</label>
+        <label htmlFor="contact-subject" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formSubjectLabel}</label>
         <input
+          id="contact-subject"
+          name="subject"
           type="text"
           value={form.subject}
           onChange={(e) => update("subject", e.target.value)}
@@ -89,8 +97,10 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
       </div>
 
       <div>
-        <label className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formMessage} *</label>
+        <label htmlFor="contact-message" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5">{c.formMessage} *</label>
         <textarea
+          id="contact-message"
+          name="message"
           required
           rows={5}
           value={form.message}

@@ -102,16 +102,20 @@ export default async function LocaleLayout({
             moment the (deferred) map first requests a tile. */}
         <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
-        {/* Every hero and card image is a remote Pexels/Unsplash original that
-            next/image optimises on demand. On a cold cache Vercel has to fetch
-            the source before it can transcode, and real-user field data showed
-            FCP 2.97 s against TTFB 0.85 s — ~2 s of that gap is this fetch.
-            Opening the connections during HTML parse removes the DNS+TLS
-            round-trips from the critical path. */}
-        <link rel="preconnect" href="https://images.pexels.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://images.pexels.com" />
-        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        {/* No preconnect to images.pexels.com / images.unsplash.com.
+            Those were added on the theory that the browser reaches the origins
+            directly, but next/image proxies every remote source through
+            /_next/image on our own domain — the SERVER fetches the original,
+            never the client. Lighthouse confirmed both connections were opened
+            and then never used on the homepage and the tour pages alike.
+            An unused preconnect is not free: it holds a socket and competes
+            with real requests during the critical path.
+
+            dns-prefetch is kept for neither, for the same reason.
+
+            The remote-origin cost is real, but it lands on the Vercel image
+            optimiser, not the browser, so the fix is self-hosting the source
+            image rather than a client-side hint. */}
         {/* NO hreflang here — see the note on the `metadata` export above. A
             layout cannot know the current path, so emitting alternates here
             pointed every one of the 802 pages at the locale HOMEPAGE, on top of

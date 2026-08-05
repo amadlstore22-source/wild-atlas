@@ -118,8 +118,13 @@ export default function TourLocationMapInner({
     // Markers
     points.forEach((p, i) => {
       const label = hasRoute ? String(p.day ?? i + 1) : "";
+      // `alt` becomes the marker's accessible name. Without it Leaflet renders
+      // role="button" with only a digit inside, so a screen reader announces
+      // "1, button" with no indication of what it marks. Lighthouse flags this
+      // under "ARIA commands must have an accessible name".
       const marker = L.marker([p.lat, p.lng], {
         icon: hasRoute ? pinIcon(color, label) : pinIcon(color, "", true),
+        alt: hasRoute ? `Day ${p.day ?? i + 1}: ${p.name}` : p.name,
       }).addTo(map);
       marker.bindPopup(
         `<strong>${hasRoute ? `Day ${p.day ?? i + 1} · ` : ""}${p.name}</strong>`,

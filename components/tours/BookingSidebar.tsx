@@ -149,6 +149,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 <label htmlFor="booking-name" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1">{b.nameLabel}</label>
                 <input
                   id="booking-name"
+                  name="name"
+                  // autoComplete lets the browser fill these from a saved
+                  // profile. On a mobile booking form that removes two of the
+                  // four fields a visitor has to type.
+                  autoComplete="name"
                   type="text"
                   required
                   value={name}
@@ -161,6 +166,8 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 <label htmlFor="booking-email" className="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1">{b.emailLabel}</label>
                 <input
                   id="booking-email"
+                  name="email"
+                  autoComplete="email"
                   type="email"
                   required
                   value={email}
@@ -171,9 +178,17 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               </div>
 
               <div className="grid grid-cols-2 gap-3">
+                {/* htmlFor/id pairs are required, not cosmetic: without them a
+                    screen reader announces these as unlabelled inputs even
+                    though the text sits directly above. Lighthouse flagged both
+                    under "Form elements must have labels". */}
                 <div>
-                  <label className="text-xs text-ink-muted mb-1 block">{b.preferredDate}</label>
+                  <label htmlFor="booking-date" className="text-xs text-ink-muted mb-1 block">
+                    {b.preferredDate}
+                  </label>
                   <input
+                    id="booking-date"
+                    name="preferred-date"
                     type="date"
                     value={date}
                     min={minDate}
@@ -183,9 +198,13 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                   />
                 </div>
                 <div>
-                  <label className="text-xs text-ink-muted mb-1 block">{b.travellers}</label>
+                  <label htmlFor="booking-travellers" className="text-xs text-ink-muted mb-1 block">
+                    {b.travellers}
+                  </label>
                   <div className="relative">
                     <input
+                      id="booking-travellers"
+                      name="travellers"
                       type="number"
                       min={1}
                       max={20}

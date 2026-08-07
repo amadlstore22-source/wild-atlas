@@ -258,7 +258,13 @@
     "groupRateFrom": "Groups from {price}/person",
     "bookDirectTitle": "Why book with us directly",
     "bookDirectBody": "Booking platforms charge operators 25–40% commission. Booking direct means the money stays with the family and the guides who walk with you — and you deal with the people running the trek, not a call centre.",
-    "reviewQuotesTitle": "What travellers say"
+    "reviewQuotesTitle": "What travellers say",
+    "groupPricingTitle": "Price per person by group size",
+    "groupPricingNote": "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows.",
+    "groupPricingPeople": "Travellers",
+    "groupPricingRate": "Each",
+    "groupPricingTotal": "Total",
+    "groupPricingPlus": "{n}+"
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",

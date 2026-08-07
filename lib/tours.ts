@@ -3609,50 +3609,69 @@ export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
  * own `groupPricing` when set; otherwise derives tiers from the base `price`.
  *
  * WHY THE CURVE IS SHAPED THIS WAY
- * The dominant cost on a private tour is the vehicle and driver-guide, and that
- * cost is fixed regardless of how many seats are filled. Moroccan operators
- * price accordingly: they quote per vehicle and divide by headcount, which is
- * why a solo traveller pays far more per person than a group of four. Published
- * competitor tables show roughly $1,800–2,400 per vehicle for a 3-day private
- * tour, landing at ~$900–1,200pp for two and ~$450–600pp for four.
+ * The dominant cost on a private multi-day tour is the vehicle and the
+ * driver-guide, and that cost is fixed however many seats are filled. Moroccan
+ * operators price accordingly: they quote per vehicle and divide by headcount.
+ * Three published tier tables from marrakech-desert-trips.com (3-day Merzouga,
+ * 4-day Merzouga, 4-day Marrakech-Fes) follow near-identical curves — 2 people
+ * pay ~56% of the solo rate, 4 pay ~43%, 6 pay ~36%. Fitting a line through
+ * their totals gives roughly EUR 585 fixed + EUR 172 per head.
  *
- * A true per-vehicle split (price ÷ people) would be far too steep for a
- * headline rate — it would read as though the solo price were punitive. These
- * tiers instead follow the SHAPE of that economics while keeping the headline
- * honest: the base `price` is the solo rate, easing to 97.5% at 2, 90% at 3,
- * 82% at 4, and 75% at 6+, where a larger vehicle is typically needed and the
- * saving flattens out.
+ * We do NOT copy that depth. Their solo price (EUR 790) is above our entire
+ * solo price (EUR 320), so the same split would price us near or below cost.
+ * What transfers is the SHAPE, not the numbers: steep from 1 to 2, flattening
+ * after 4.
  *
- * The 2-person tier is deliberately shallow (2.5%). Couples are the most common
- * booking and the sidebar defaults to 2 travellers, so this tier is what most
- * visitors see first — it needs to show a real saving without discounting the
- * single largest segment. On the 3-day Sahara tour it puts two people at €624
- * against €640 undiscounted.
+ * DURATION DECIDES THE DEPTH
+ * A multi-day tour carries a large fixed cost (vehicle, fuel, driver-guide for
+ * several days), so spreading it across a full car is a real saving and a deep
+ * curve is honest. A one-day walking or city tour is mostly per-head — the
+ * guide's fee barely shrinks per person — so the same discount would sell below
+ * cost. Applying one curve to both took a EUR 35 private day tour down to
+ * EUR 22 per person at six, which is not a saving, it is a loss.
  *
- * SHARED tours are excluded: a seat on a shared departure costs the same
- * whether one or six people book it, so there is no fixed cost to spread and a
- * group discount would just be lost margin.
+ *   multi-day  100 / 93 / 88 / 84 / 81 / 79%   (21% off at six)
+ *   single-day 100 / 96 / 94 / 92 / 91 / 90%   (10% off at six)
+ *
+ * WHY NOT DEEPER
+ * Modelling the cost from published Moroccan rates — 4x4 with driver at
+ * EUR 150-300/day, desert camp 400-1,200 MAD pp, Dades hotel 150-300 MAD pp —
+ * puts a 3-day departure at roughly EUR 270 fixed + EUR 51 per head at the
+ * lean end. On that basis a EUR 320 solo booking makes about nothing, and the
+ * profit on a booking is carried almost entirely by travellers 2 and up.
+ *
+ * Matching the market's 36%-off-at-six curve would cut profit per booking by
+ * roughly a third, which only pays for itself if it wins 47-71% MORE bookings.
+ * That is a large bet on price sensitivity nobody here has measured yet. This
+ * curve keeps ~84% of the profit of a flat curve while still undercutting the
+ * published competitor table at every group size. Revisit once the enquiry
+ * sheet shows how group size actually distributes — see docs/PRICING.md.
+ *
+ * SHARED tours are excluded entirely: a seat on a shared departure costs the
+ * same whether one or six people book it, so there is no fixed cost to spread
+ * and a group discount would just be lost margin.
  *
  * NOT rounded to $5. Rounding the stored USD fights the EUR target — the site
- * sells in EUR, and $5 steps land 2-person totals up to €8 away from the
+ * sells in EUR, and $5 steps land 2-person totals up to EUR 8 away from the
  * intended figure. Rounding happens once, at display, in formatPrice().
+ *
+ * The multipliers are the one number to revisit once real booking data is in:
+ * see docs/PRICING.md.
  */
 export function groupPriceTiers(tour: Tour): { minPeople: number; price: number }[] {
   if (tour.groupPricing?.length) return tour.groupPricing;
   // Shared departures are sold per seat — no vehicle cost to divide.
   if (tour.tourType === "shared") return [{ minPeople: 1, price: tour.price }];
-  return [
-    { minPeople: 1, price: tour.price },
-    { minPeople: 2, price: Math.round(tour.price * 0.975) },
-    { minPeople: 3, price: Math.round(tour.price * 0.9) },
-    { minPeople: 4, price: Math.round(tour.price * 0.82) },
-    // Without a 5 tier the marginal cost of joining zigzags: person 4 adds
-    // ~€184, person 5 ~€262, person 6 ~€130. Nobody is overcharged (the total
-    // never falls) but a group of five gets the worst deal of any size, which
-    // is arbitrary rather than intentional. 0.785 smooths the step.
-    { minPeople: 5, price: Math.round(tour.price * 0.785) },
-    { minPeople: 6, price: Math.round(tour.price * 0.75) },
-  ];
+
+  const multiDay = durationDays(tour) >= 2;
+  const m = multiDay
+    ? [1, 0.93, 0.88, 0.84, 0.81, 0.79]
+    : [1, 0.96, 0.94, 0.92, 0.91, 0.9];
+
+  return m.map((mult, i) => ({
+    minPeople: i + 1,
+    price: Math.round(tour.price * mult),
+  }));
 }
 
 /** The per-person price for a given group size, from the applicable tier. */

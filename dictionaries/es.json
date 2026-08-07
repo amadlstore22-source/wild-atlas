@@ -258,7 +258,13 @@
     "groupRateFrom": "Grupos desde {price}/persona",
     "bookDirectTitle": "Por qué reservar directamente con nosotros",
     "bookDirectBody": "Las plataformas de reservas cobran a los operadores entre un 25 % y un 40 % de comisión. Reservar directo significa que el dinero se queda con la familia y los guías que caminan contigo — y hablas con quienes organizan el trek, no con un centro de llamadas.",
-    "reviewQuotesTitle": "Lo que dicen los viajeros"
+    "reviewQuotesTitle": "Lo que dicen los viajeros",
+    "groupPricingTitle": "Precio por persona según el tamaño del grupo",
+    "groupPricingNote": "El vehículo y el guía cuestan lo mismo viajen los que viajen, así que el precio por persona baja a medida que crece el grupo.",
+    "groupPricingPeople": "Viajeros",
+    "groupPricingRate": "Por pers.",
+    "groupPricingTotal": "Total",
+    "groupPricingPlus": "{n}+"
   },
   "cookieBanner": {
     "body": "Usamos cookies para recordar tus preferencias y, si las aceptas, Google Analytics para entender cómo se usa el sitio. Las cookies necesarias están siempre activas; no existe un muro de cookies.",

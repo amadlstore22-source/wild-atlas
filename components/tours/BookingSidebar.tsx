@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck, Star, HandHeart } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
-import { perPersonPrice } from "@/lib/tours";
+import { perPersonPrice, groupPriceTiers } from "@/lib/tours";
 import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { reviewsForTour } from "@/lib/reviews";
 import { track, trackConversion } from "@/lib/analytics";
@@ -69,6 +69,12 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // so `saved` shows the discount when a bigger group has been chosen.
   const effPer = perPersonPrice(tour, people);
   const basePer = perPersonPrice(tour, 1);
+  // The full tier table, shown openly on the page. Competitors publish a "from"
+  // price that is really the 14–17 person rate and hide the rest behind "contact
+  // us for a quote" — a couple then discovers the real number only by email.
+  // Showing every tier is the honest version and removes a reason to bounce.
+  const tiers = groupPriceTiers(tour);
+  const showTiers = tiers.length > 1 && tiers[tiers.length - 1].price < tiers[0].price;
   const savedPerPerson = basePer - effPer;
   const totalMin = effPer * people;
   const totalMax = priceMax ? Math.round((priceMax / tour.price) * effPer) * people : null;
@@ -84,9 +90,9 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             {format(tour.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
           </div>
           <div className="text-white/55 text-xs mt-1">{b.exactPriceNote}</div>
-          {basePer > perPersonPrice(tour, 6) && (
+          {showTiers && (
             <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow bg-white/10 px-2.5 py-1 rounded-full">
-              {(b.groupRateFrom ?? "Groups from {price}/person").replace("{price}", format(perPersonPrice(tour, 6)))}
+              {(b.groupRateFrom ?? "Groups from {price}/person").replace("{price}", format(tiers[tiers.length - 1].price))}
             </div>
           )}
           <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">
@@ -100,6 +106,62 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             </div>
           </div>
         </div>
+
+        {/* Group price table. Published openly rather than hidden behind an
+            enquiry: the competitor tables that do exist show a couple paying
+            EUR 435pp where we charge EUR 272, and a visitor cannot compare what
+            they cannot see. */}
+        {showTiers && (
+          <div className="px-6 py-4 border-b border-rule bg-parchment/40">
+            <div className="text-[0.7rem] font-semibold uppercase tracking-widest text-ink-soft mb-2">
+              {b.groupPricingTitle ?? "Price per person by group size"}
+            </div>
+            <table className="w-full text-sm tabular-nums">
+              <thead>
+                <tr className="text-ink-muted text-[0.7rem] uppercase tracking-wide">
+                  <th scope="col" className="text-start font-medium pb-1">
+                    {b.groupPricingPeople ?? "Travellers"}
+                  </th>
+                  <th scope="col" className="text-end font-medium pb-1">
+                    {b.groupPricingRate ?? "Each"}
+                  </th>
+                  <th scope="col" className="text-end font-medium pb-1">
+                    {b.groupPricingTotal ?? "Total"}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {tiers.map((tier, i) => {
+                  const next = tiers[i + 1];
+                  const isLast = !next;
+                  // A tier covers minPeople up to the next tier's threshold.
+                  const label = isLast
+                    ? (b.groupPricingPlus ?? "{n}+").replace("{n}", String(tier.minPeople))
+                    : next.minPeople - tier.minPeople === 1
+                      ? String(tier.minPeople)
+                      : `${tier.minPeople}–${next.minPeople - 1}`;
+                  // Total shown for the smallest group in the tier, which is the
+                  // number that bracket's price actually applies to first.
+                  const active = people >= tier.minPeople && (isLast || people < next.minPeople);
+                  return (
+                    <tr
+                      key={tier.minPeople}
+                      className={active ? "text-ink font-semibold" : "text-ink-soft"}
+                    >
+                      <td className="py-0.5 text-start">{label}</td>
+                      <td className="py-0.5 text-end">{format(tier.price)}</td>
+                      <td className="py-0.5 text-end">{format(tier.price * tier.minPeople)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+            <p className="text-[0.7rem] text-ink-muted mt-2 leading-snug">
+              {b.groupPricingNote ??
+                "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows."}
+            </p>
+          </div>
+        )}
 
         <div className="p-6 space-y-5">
           {/* Answers the question the page otherwise leaves hanging: "can I go on

@@ -258,7 +258,13 @@
     "groupRateFrom": "Gruppi da {price}/persona",
     "bookDirectTitle": "Perché prenotare direttamente con noi",
     "bookDirectBody": "Le piattaforme di prenotazione applicano agli operatori commissioni del 25–40 %. Prenotare diretto significa che il denaro resta alla famiglia e alle guide che camminano con te — e parli con chi organizza il trek, non con un call center.",
-    "reviewQuotesTitle": "Cosa dicono i viaggiatori"
+    "reviewQuotesTitle": "Cosa dicono i viaggiatori",
+    "groupPricingTitle": "Prezzo a persona in base al numero di partecipanti",
+    "groupPricingNote": "Il veicolo e la guida costano lo stesso a prescindere da quanti viaggiano, quindi il prezzo a persona scende al crescere del gruppo.",
+    "groupPricingPeople": "Viaggiatori",
+    "groupPricingRate": "A pers.",
+    "groupPricingTotal": "Totale",
+    "groupPricingPlus": "{n}+"
   },
   "cookieBanner": {
     "body": "Utilizziamo cookie per ricordare le tue preferenze e, se accetti, Google Analytics per capire come viene usato il sito. I cookie necessari sono sempre attivi; non è presente alcun cookie wall.",

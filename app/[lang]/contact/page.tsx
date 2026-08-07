@@ -78,7 +78,7 @@ export default async function ContactPage({ params }: LangParams) {
       <div className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
           src="/gallery/contact-hero-morocco-doorway.jpg"
-          alt="Traditional Moroccan mint tea being poured in a riad"
+          alt="Kasbah above the palm oasis of the Draa Valley at dusk, Morocco"
           fill
           className="object-cover object-center"
           priority

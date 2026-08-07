@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       title: "Our Story — Marrakech Eco Tours",
       description: "A team of licensed Berber guides sharing Morocco's wildest places — honestly, sustainably, without the middlemen.",
       url: `https://marrakechecotours.com/${lang}/about`,
-      images: [{ url: "/gallery/about-hero-berber-team.jpg", width: 1200, height: 630, alt: "High Atlas Mountains at sunrise, Morocco" }],
+      images: [{ url: "/gallery/toubkal-summit-guide-thumbs-up.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours guides at the Toubkal summit marker, High Atlas, Morocco" }],
     },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/about`,
@@ -60,8 +60,8 @@ export default async function AboutPage({ params }: LangParams) {
       {/* ── Hero ── */}
       <div className="relative h-[65vh] min-h-[440px] flex items-end">
         <Image
-          src="/gallery/about-hero-berber-team.jpg"
-          alt="High Atlas Mountains at sunrise, Morocco"
+          src="/gallery/toubkal-summit-guide-thumbs-up.jpg"
+          alt="Marrakech Eco Tours guides at the Toubkal summit marker, High Atlas, Morocco"
           fill
           className="object-cover"
           priority

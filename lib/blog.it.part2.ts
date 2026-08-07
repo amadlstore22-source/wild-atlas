@@ -4363,4 +4363,154 @@ parte che si ricorda.
 👉 **[Scopri il Grand Tour condiviso di 4 giorni](/it/tours/desert-4day-marrakech)** — 331 € a posto, oppure **[il tour famiglia privato di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 346 € a testa in quattro.
 `,
   },
+  {
+    slug: "booking-morocco-tour-direct-vs-platform",
+    localizedSlug: "prenotare-tour-marocco-diretto-o-piattaforma",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech", "toubkal-summit-2day-marrakech"],
+    author: MET_TEAM,
+    title: "Prenotare un tour in Marocco: diretto o tramite piattaforma (2026)",
+    excerpt:
+      "Le piattaforme di rivendita applicano agli operatori una commissione del 20-30 %, e si somma al tuo prezzo invece di essere assorbita. Ecco il meccanismo, quanto ti costa, e i due casi in cui la piattaforma resta la scelta giusta.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["prenotare tour Marocco diretto", "commissione tour Marocco", "GetYourGuide o prenotazione diretta", "prenotazione tour deserto Marocco", "ricarico concierge hotel", "consigli prenotazione viaggio Marocco"],
+    seoTitle: "Prenotare un tour in Marocco: diretto o piattaforma — 2026",
+    seoDescription:
+      "Le piattaforme di rivendita prendono il 20-30 % di commissione sui tour in Marocco e si somma al tuo prezzo. Come funziona il ricarico e quando la piattaforma conviene.",
+    faq: [
+      { q: "Conviene prenotare un tour in Marocco direttamente con l'operatore?", a: "Di solito sì, perché elimini uno strato di commissione e non un servizio. Le grandi piattaforme di rivendita pubblicano commissioni nell'ordine del 20-30 % del prezzo del biglietto, e gli operatori calcolano i loro annunci per assorbirla: l'annuncio porta quindi la commissione sopra la tariffa diretta. Prenotare diretto significa anche che chi risponde alle tue domande è chi organizza il viaggio." },
+      { q: "Quanta commissione prendono le piattaforme di tour in Marocco?", a: "Le grandi piattaforme di rivendita pubblicano tariffe che si collocano in linea di massima fra il 20 e il 30 %, e i concierge degli hotel a Marrakech trattengono spesso una quota simile o maggiore sui tour che organizzano. Non è nascosto né scorretto — è così che quei canali si finanziano — ma si somma al tuo prezzo anziché essere assorbito dall'operatore, perché chi lavora con un margine sottile non può farsi carico di un quarto del biglietto." },
+      { q: "È sicuro prenotare un tour in Marocco in modo diretto?", a: "Lo è, purché verifichi che l'operatore sia autorizzato e paghi in un modo che lasci traccia. Cerca una ragione sociale registrata, un indirizzo fisico, un numero di licenza e prezzi pubblicati anziché preventivo su richiesta. Versa una caparra con carta o bonifico invece che in contanti all'arrivo, e fatti mettere per iscritto cosa è incluso. I nostri prezzi sono pubblicati per dimensione del gruppo su ogni pagina di tour proprio perché non ci sia nulla da trattare o da scoprire dopo." },
+      { q: "Quando conviene davvero prenotare tramite piattaforma?", a: "In due situazioni. La prima: se prenoti una singola attività economica in una città che stai per lasciare e la finestra di cancellazione gratuita conta più del prezzo, perché le condizioni di cancellazione delle piattaforme sono spesso più generose di quanto possa offrire un piccolo operatore. La seconda: se non riesci in alcun modo a verificare un operatore e la procedura di reclamo della piattaforma vale il sovrapprezzo. Per un viaggio di più giorni con caparra il calcolo di solito va nella direzione opposta." },
+      { q: "Il tour è peggiore se prenoto diretto?", a: "No: nella maggior parte dei casi sono letteralmente lo stesso veicolo, la stessa guida e lo stesso campo, perché la piattaforma non gestisce nulla. Rivende un viaggio realizzato da un'azienda locale. Ciò che cambia è chi risponde alle tue email prima della partenza e quanta parte di ciò che paghi arriva a chi il viaggio lo fa." },
+    ],
+    content: `
+## La risposta breve
+
+Le piattaforme di rivendita e i concierge degli hotel non organizzano tour. Rivendono
+viaggi realizzati da aziende locali, alle quali applicano una commissione: le tariffe
+pubblicate si collocano in linea di massima fra il **20 e il 30 %**, e i banchi
+concierge trattengono spesso una quota comparabile.
+
+Un operatore non può assorbire un quarto del biglietto, quindi la commissione si
+**somma** al prezzo diretto. È tutto qui il meccanismo, ed è il motivo per cui lo
+stesso viaggio può portare due cifre piuttosto diverse.
+
+## Come si vede nella pratica
+
+Il modo onesto di mostrarlo non è indovinare il margine di un'altra azienda, ma
+confrontare **prezzi pubblicati per lo stesso viaggio**.
+
+Ecco il nostro [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) accanto
+alla tariffa diretta pubblicata da un operatore di Marrakech comparabile, sullo stesso
+percorso Marrakech→Merzouga e con la stessa durata:
+
+| Viaggiatori | Noi | Un operatore comparabile, diretto |
+|---|---|---|
+| 1 | 711 € | 790 € |
+| 2 | 392 € ciascuno | 435 € ciascuno |
+| 4 | 292 € ciascuno | 325 € ciascuno |
+| 6 | 238 € ciascuno | 265 € ciascuno |
+
+Entrambe le colonne sono prezzi **diretti**. Nessuna include la commissione di un
+rivenditore. Il divario fra loro è normale concorrenza — circa il 10 % — ed è una
+frazione di quanto uno strato di commissione aggiunge sopra l'una o l'altra.
+
+Questo è il punto da portare a casa: la differenza fra due operatori diretti è
+piccola. Quella fra diretto e rivenduto non lo è.
+
+## Perché gli operatori si inseriscono comunque sulle piattaforme
+
+Sarebbe disonesto presentare gli operatori come vittime. Le piattaforme offrono cose
+reali:
+
+- **Visibilità.** Qualcuno che non ci ha mai sentiti nominare trova un tour nel
+  deserto da Marrakech.
+- **Infrastruttura di pagamento** in valute e modalità che una piccola azienda
+  marocchina non può facilmente sostenere da sola.
+- **Una procedura di reclamo** che dà a un visitatore ansioso alla prima esperienza un
+  posto a cui rivolgersi.
+
+Per chi non può verificare nessuno e prenota da seimila chilometri, questo vale
+qualcosa. La domanda è se valga il 20-30 % di un viaggio di più giorni; per la maggior
+parte di chi prenota un tour famiglia da 1.168 €, no.
+
+## Cosa cambia davvero prenotare diretto
+
+**I soldi arrivano a chi realizza il viaggio.** Su una prenotazione con molta
+commissione, una fetta rilevante di quanto paghi non arriva mai in Marocco. In
+diretto, paga l'autista-guida, la casa per ospiti del Dades e i cammellieri.
+
+**Parli con l'operatore prima di partire.** Le domande su un seggiolino, su una dieta
+o su un volo in ritardo vanno alla persona che le risolverà davvero, non a una coda di
+assistenza che le inoltra.
+
+**L'itinerario può adattarsi.** Un annuncio su piattaforma è un prodotto fisso. Una
+prenotazione diretta è una conversazione: una notte in più, un altro punto di
+partenza, una sosta che ti sta a cuore.
+
+**Il prezzo è il prezzo.** I nostri sono pubblicati per dimensione del gruppo su ogni
+pagina di tour. Nessun preventivo su richiesta e nessuna scoperta accanto al veicolo
+su pranzi mai inclusi.
+
+## Come prenotare diretto senza correre rischi
+
+È l'obiezione legittima a tutto quanto sopra, quindi ecco la versione pratica.
+
+**Verifica che l'operatore sia reale e autorizzato.** Ragione sociale registrata,
+indirizzo fisico in Marocco, numero di licenza, guide con nome e cognome. Le guide
+marocchine sono autorizzate dal Ministero del Turismo ed è del tutto normale
+chiederlo.
+
+**Preferisci i prezzi pubblicati al preventivo su richiesta.** Un operatore che non
+vuole pubblicare quanto costa il viaggio per la tua dimensione di gruppo si tiene lo
+spazio per farti un prezzo su misura.
+
+**Versa una caparra con carta o bonifico, non in contanti.** Un pagamento con carta
+lascia una traccia e una via di reclamo. Una caparra invece dell'intero importo limita
+l'esposizione da entrambe le parti: la nostra è una cifra fissa e il saldo si paga in
+giornata.
+
+**Fatti mettere per iscritto cosa è incluso.** In particolare: pranzi, mance, ingressi
+e che fine fanno i tuoi soldi se annulli. Questi quattro punti coprono quasi tutte le
+controversie di cui abbiamo mai sentito parlare.
+
+**Cerca una traccia reale.** Recensioni su più di un sito, fotografie chiaramente dei
+loro viaggi, un'email a cui risponde una persona.
+
+## Quando la piattaforma resta la scelta giusta
+
+Due casi autentici, e non ci costa nulla dirlo:
+
+**Una singola attività economica con cancellazione stretta.** Per un
+[tramonto ad Agafay](/it/tours/agafay-desert-sunset) da 69 € magari prenoti con due
+giorni di anticipo e un programma che può cambiare. Le condizioni di cancellazione
+delle piattaforme sono spesso più generose di quanto possa offrire un piccolo
+operatore, e su un biglietto da 69 € la commissione è di pochi euro. Prenditi la
+flessibilità.
+
+**Non riesci davvero a verificare nessuno.** Di fronte a un operatore senza numero di
+licenza, senza indirizzo e senza storia, la procedura di reclamo della piattaforma
+vale quello che costa. È un motivo per essere selettivi sull'operatore, non per pagare
+un ricarico su uno che hai già verificato.
+
+## La regola pratica
+
+In sintesi: **più il viaggio è lungo e costoso, più conviene prenotare diretto.**
+
+- Una [passeggiata nella medina](/it/tours/marrakech-medina-cultural-tour) da 41 €: la
+  commissione è di un paio di euro. Prenota dove ti fa comodo.
+- Un [tour condiviso a Zagora](/it/tours/zagora-2day-marrakech) da 62 €: sono ancora
+  pochi soldi, ma guadagni una persona vera a cui chiedere del punto di ritrovo.
+- Un [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) da 1.168 € in
+  quattro: qui uno strato di commissione vale diverse centinaia di euro, e non ti dà
+  nulla che l'operatore non stesse già fornendo.
+
+👉 **[Guarda i nostri prezzi pubblicati](/it/tours)** — ogni tour mostra la tariffa per ciascuna dimensione di gruppo, senza preventivo su richiesta e senza strato di commissione.
+`,
+  },
 ];

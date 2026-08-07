@@ -4389,4 +4389,157 @@ liberté qui laisse le souvenir.
 👉 **[Découvrez le Grand Tour partagé de 4 jours](/fr/tours/desert-4day-marrakech)** — 331 € par siège, ou **[le circuit famille privé de 4 jours](/fr/tours/family-desert-4day-marrakech)** à 346 € chacun à quatre.
 `,
   },
+  {
+    slug: "booking-morocco-tour-direct-vs-platform",
+    localizedSlug: "reserver-circuit-maroc-direct-ou-plateforme",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech", "toubkal-summit-2day-marrakech"],
+    author: MET_TEAM,
+    title: "Réserver un circuit au Maroc : en direct ou via une plateforme (2026)",
+    excerpt:
+      "Les plateformes de revente facturent aux opérateurs 20 à 30 % de commission, et elle s'ajoute à votre prix au lieu d'être absorbée. Voici le mécanisme, ce qu'il vous coûte, et les deux cas où passer par une plateforme reste le bon choix.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["réserver circuit Maroc en direct", "commission circuit Maroc", "GetYourGuide ou réservation directe", "réservation circuit désert Maroc", "marge conciergerie hôtel", "conseils réservation voyage Maroc"],
+    seoTitle: "Réserver un circuit au Maroc : direct ou plateforme — 2026",
+    seoDescription:
+      "Les plateformes de revente prélèvent 20 à 30 % de commission sur les circuits au Maroc et elle s'ajoute à votre prix. Le mécanisme, son coût, et quand la plateforme reste utile.",
+    faq: [
+      { q: "Est-il moins cher de réserver un circuit au Maroc directement auprès de l'opérateur ?", a: "Le plus souvent oui, parce que vous supprimez une couche de commission et non un service. Les grandes plateformes de revente publient des taux de commission de l'ordre de 20 à 30 % du prix du billet, et les opérateurs calculent leurs annonces pour absorber ce prélèvement — autrement dit l'annonce porte la commission en plus du tarif direct. Réserver en direct signifie aussi que la personne qui répond à vos questions est celle qui organise le voyage." },
+      { q: "Quelle commission prennent les plateformes de circuits au Maroc ?", a: "Les grandes plateformes de revente publient des taux se situant globalement entre 20 et 30 %, et les conciergeries d'hôtels à Marrakech prélèvent couramment une part comparable ou supérieure sur les circuits qu'elles organisent. Ce n'est ni caché ni malhonnête — c'est ainsi que ces canaux se financent — mais cette commission s'ajoute à votre prix au lieu d'être absorbée, car un opérateur travaillant sur une marge mince ne peut pas absorber un quart du billet." },
+      { q: "Est-il sûr de réserver un circuit au Maroc en direct ?", a: "Oui, à condition de vérifier que l'opérateur est agréé et de payer d'une manière qui laisse une trace. Cherchez une raison sociale enregistrée, une adresse physique, un numéro de licence et des prix publiés plutôt qu'un devis sur demande. Versez un acompte par carte ou virement plutôt qu'en espèces à l'arrivée, et faites confirmer les inclusions par écrit. Nos propres prix sont publiés par taille de groupe sur chaque page de circuit, précisément pour qu'il n'y ait rien à négocier ni à découvrir plus tard." },
+      { q: "Quand une plateforme est-elle réellement préférable ?", a: "Dans deux situations. D'abord, si vous réservez une activité isolée et peu chère dans une ville que vous quittez bientôt et que la fenêtre d'annulation gratuite compte plus que le prix : les conditions d'annulation des plateformes sont souvent plus souples que ce qu'un petit opérateur peut offrir. Ensuite, si vous ne parvenez pas du tout à vérifier un opérateur et que la procédure de litige de la plateforme vaut réellement le surcoût à vos yeux. Pour un voyage de plusieurs jours avec acompte, le calcul penche généralement dans l'autre sens." },
+      { q: "Le circuit est-il moins bon si je réserve en direct ?", a: "Non — dans la plupart des cas c'est littéralement le même véhicule, le même guide et le même campement, car la plateforme n'exploite rien. Elle revend un voyage organisé par une société locale. Ce qui change, c'est qui répond à vos messages avant le départ et quelle part de ce que vous payez parvient aux personnes qui réalisent le voyage." },
+    ],
+    content: `
+## La réponse courte
+
+Les plateformes de revente et les conciergeries d'hôtels n'organisent pas de
+circuits. Elles revendent des voyages exploités par des sociétés locales, auxquelles
+elles facturent une commission — les taux publiés se situent globalement entre
+**20 et 30 %**, les conciergeries prélevant souvent une part comparable.
+
+Un opérateur ne peut pas absorber un quart du billet : la commission vient donc
+**s'ajouter** au prix direct. C'est tout le mécanisme, et c'est pourquoi un même
+voyage peut porter deux prix très différents.
+
+## À quoi cela ressemble concrètement
+
+La façon honnête de le montrer n'est pas de deviner la marge d'une autre société,
+mais de comparer des **prix publiés pour le même voyage**.
+
+Voici notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) face au
+tarif direct publié par un opérateur marrakchi comparable, sur le même trajet
+Marrakech→Merzouga et la même durée :
+
+| Voyageurs | Chez nous | Un opérateur comparable, en direct |
+|---|---|---|
+| 1 | 711 € | 790 € |
+| 2 | 392 € chacun | 435 € chacun |
+| 4 | 292 € chacun | 325 € chacun |
+| 6 | 238 € chacun | 265 € chacun |
+
+Ces deux colonnes sont des prix **directs**. Aucune n'inclut la commission d'un
+revendeur. L'écart entre elles relève de la concurrence ordinaire — environ 10 % —
+et il représente une fraction de ce qu'une couche de commission ajoute par-dessus
+l'une ou l'autre.
+
+C'est le point à retenir : l'écart entre deux opérateurs directs est faible. L'écart
+entre direct et revendu ne l'est pas.
+
+## Pourquoi les opérateurs s'inscrivent quand même sur les plateformes
+
+Il serait malhonnête de présenter les opérateurs en victimes. Les plateformes
+apportent des choses réelles :
+
+- **La découverte.** Quelqu'un qui n'a jamais entendu parler de nous trouve un
+  circuit dans le désert au départ de Marrakech.
+- **Une infrastructure de paiement** dans des devises et par des moyens qu'une
+  petite société marocaine ne peut pas facilement gérer seule.
+- **Une procédure de litige** qui donne un recours à un premier visiteur inquiet.
+
+Pour un voyageur qui ne peut vérifier personne et réserve à six mille kilomètres,
+cela a une valeur. La question est de savoir si elle vaut 20 à 30 % d'un voyage de
+plusieurs jours ; pour la plupart des gens qui réservent un circuit familial à
+1 168 €, non.
+
+## Ce que la réservation directe change vraiment
+
+**L'argent parvient à ceux qui réalisent le voyage.** Sur une réservation lourdement
+commissionnée, une part significative de ce que vous payez n'arrive jamais au Maroc.
+En direct, elle rémunère le chauffeur-guide, la maison d'hôtes du Dadès et les
+chameliers.
+
+**Vous parlez à l'opérateur avant de partir.** Les questions sur un siège auto, un
+régime alimentaire ou un vol tardif vont à la personne qui les résoudra réellement,
+et non à une file d'assistance qui les transmettra.
+
+**L'itinéraire peut s'adapter.** Une annonce de plateforme est un produit figé. Une
+réservation directe est une conversation : une nuit supplémentaire, un autre point
+de prise en charge, un arrêt qui compte pour vous.
+
+**Le prix est le prix.** Les nôtres sont publiés par taille de groupe sur chaque page
+de circuit. Pas de devis sur demande, et rien à découvrir devant le véhicule sur des
+déjeuners qui n'étaient pas compris.
+
+## Comment réserver en direct sans prendre de risque
+
+C'est l'objection légitime à tout ce qui précède ; voici donc la version pratique.
+
+**Vérifiez que l'opérateur est réel et agréé.** Une raison sociale enregistrée, une
+adresse physique au Maroc, un numéro de licence, des guides nommés. Les guides
+marocains sont agréés par le ministère du Tourisme et il est tout à fait normal de le
+demander.
+
+**Préférez les prix publiés au devis sur demande.** Un opérateur qui refuse de
+publier le prix pour votre taille de groupe se garde la possibilité de vous tarifer
+individuellement.
+
+**Versez un acompte par carte ou virement, pas en espèces.** Un paiement par carte
+laisse une trace et une voie de recours. Un acompte plutôt que la totalité limite
+l'exposition des deux côtés — le nôtre est un montant fixe, le solde étant réglé le
+jour même.
+
+**Faites confirmer les inclusions par écrit.** Précisément : déjeuners, pourboires,
+droits d'entrée, et ce qu'il advient de votre argent en cas d'annulation. Ces quatre
+points couvrent presque tous les litiges dont nous ayons entendu parler.
+
+**Cherchez des traces réelles.** Des avis sur plusieurs sites, des photographies
+manifestement issues de leurs propres voyages, un e-mail auquel une personne répond.
+
+## Quand la plateforme reste le bon choix
+
+Deux cas authentiques, et cela ne nous coûte rien de le dire :
+
+**Une activité isolée et bon marché avec une annulation serrée.** Pour une
+[sortie au coucher du soleil à Agafay](/fr/tours/agafay-desert-sunset) à 69 €, vous
+réservez peut-être deux jours à l'avance avec un programme susceptible de changer.
+Les conditions d'annulation des plateformes sont souvent plus souples qu'un petit
+opérateur ne peut l'offrir, et sur un billet à 69 € la commission représente quelques
+euros. Prenez la souplesse.
+
+**Vous ne pouvez réellement vérifier personne.** Face à un opérateur sans numéro de
+licence, sans adresse et sans historique, la procédure de litige de la plateforme
+vaut son prix. C'est une raison d'être exigeant sur le choix de l'opérateur — pas une
+raison de payer une marge sur un opérateur que vous avez vérifié.
+
+## La règle empirique
+
+En résumé : **plus le voyage est long et cher, plus la réservation directe est
+rentable.**
+
+- Une [visite de la médina](/fr/tours/marrakech-medina-cultural-tour) à 41 € : la
+  commission représente quelques euros. Réservez où cela vous arrange.
+- Un [circuit partagé à Zagora](/fr/tours/zagora-2day-marrakech) à 62 € : toujours
+  peu d'argent, mais vous gagnez un interlocuteur réel pour la prise en charge.
+- Un [circuit famille de 4 jours](/fr/tours/family-desert-4day-marrakech) à 1 168 €
+  pour quatre : une couche de commission représente ici plusieurs centaines d'euros,
+  et ne vous apporte rien que l'opérateur ne fournissait déjà.
+
+👉 **[Consultez nos prix publiés](/fr/tours)** — chaque circuit affiche son tarif à chaque taille de groupe, sans devis sur demande ni couche de commission.
+`,
+  },
 ];

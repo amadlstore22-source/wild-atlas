@@ -4368,4 +4368,154 @@ gente recuerda.
 👉 **[Descubre el Gran Circuito compartido de 4 días](/es/tours/desert-4day-marrakech)** — 331 € por plaza, o **[el circuito familiar privado de 4 días](/es/tours/family-desert-4day-marrakech)** a 346 € cada uno siendo cuatro.
 `,
   },
+  {
+    slug: "booking-morocco-tour-direct-vs-platform",
+    localizedSlug: "reservar-circuito-marruecos-directo-o-plataforma",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech", "toubkal-summit-2day-marrakech"],
+    author: MET_TEAM,
+    title: "Reservar un circuito en Marruecos: directo o por plataforma (2026)",
+    excerpt:
+      "Las plataformas de reventa cobran a los operadores entre un 20 y un 30 % de comisión, y se suma a tu precio en lugar de absorberse. Aquí está el mecanismo, lo que te cuesta, y los dos casos en que la plataforma sigue siendo la opción correcta.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["reservar circuito Marruecos directo", "comisión circuito Marruecos", "GetYourGuide o reserva directa", "reserva circuito desierto Marruecos", "margen conserjería hotel", "consejos reservar viaje Marruecos"],
+    seoTitle: "Reservar circuito en Marruecos: directo o plataforma — 2026",
+    seoDescription:
+      "Las plataformas de reventa se llevan un 20-30 % de comisión en los circuitos por Marruecos y se suma a tu precio. Cómo funciona, cuánto cuesta y cuándo compensa la plataforma.",
+    faq: [
+      { q: "¿Es más barato reservar un circuito en Marruecos directamente con el operador?", a: "Normalmente sí, porque eliminas una capa de comisión y no un servicio. Las grandes plataformas de reventa publican comisiones en torno al 20-30 % del precio del billete, y los operadores calculan sus anuncios para absorberla, lo que significa que el anuncio lleva la comisión encima de la tarifa directa. Reservar directo también implica que quien responde a tus preguntas es quien organiza el viaje." },
+      { q: "¿Qué comisión cobran las plataformas de circuitos en Marruecos?", a: "Las grandes plataformas de reventa publican tarifas que se sitúan en general entre el 20 y el 30 %, y las conserjerías de hoteles en Marrakech suelen llevarse una parte similar o mayor por los circuitos que gestionan. No es algo oculto ni impropio —así se financian esos canales—, pero se suma a tu precio en vez de absorberlo el operador, porque quien trabaja con un margen ajustado no puede asumir una cuarta parte del billete." },
+      { q: "¿Es seguro reservar un circuito en Marruecos directamente?", a: "Lo es, siempre que compruebes que el operador está autorizado y pagues de una forma que deje rastro. Busca una razón social registrada, una dirección física, un número de licencia y precios publicados en vez de presupuesto a petición. Paga una señal con tarjeta o transferencia en lugar de efectivo a la llegada, y pide por escrito qué incluye. Nuestros precios se publican por tamaño de grupo en cada página de circuito precisamente para que no haya nada que negociar ni que descubrir después." },
+      { q: "¿Cuándo compensa de verdad reservar por plataforma?", a: "En dos situaciones. Primera: si reservas una actividad suelta y barata en una ciudad que estás a punto de dejar y la ventana de cancelación gratuita te importa más que el precio, ya que las condiciones de cancelación de las plataformas suelen ser más generosas de lo que puede ofrecer un operador pequeño. Segunda: si no logras verificar a ningún operador y el proceso de reclamación de la plataforma te compensa el sobrecoste. Para un viaje de varios días con señal, la cuenta suele salir al revés." },
+      { q: "¿El circuito es peor si reservo directo?", a: "No: en la mayoría de los casos es literalmente el mismo vehículo, el mismo guía y el mismo campamento, porque la plataforma no opera nada. Revende un viaje que realiza una empresa local. Lo que cambia es quién responde a tus correos antes de viajar y qué parte de lo que pagas llega a quienes hacen el viaje." },
+    ],
+    content: `
+## La respuesta corta
+
+Las plataformas de reventa y las conserjerías de hotel no organizan circuitos.
+Revenden viajes operados por empresas locales, y a esas empresas les cobran una
+comisión: las tarifas publicadas se sitúan en general entre el **20 y el 30 %**, y
+las conserjerías suelen llevarse una parte comparable.
+
+Un operador no puede absorber una cuarta parte del billete, así que la comisión se
+**suma** al precio directo. Ese es todo el mecanismo, y por eso el mismo viaje puede
+llevar dos cifras bastante distintas.
+
+## Cómo se ve esto en la práctica
+
+La forma honesta de mostrarlo no es adivinar el margen de otra empresa, sino comparar
+**precios publicados para el mismo viaje**.
+
+Este es nuestro [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech) frente a
+la tarifa directa publicada por un operador de Marrakech comparable, en la misma ruta
+Marrakech→Merzouga y con la misma duración:
+
+| Viajeros | Nosotros | Un operador comparable, directo |
+|---|---|---|
+| 1 | 711 € | 790 € |
+| 2 | 392 € cada uno | 435 € cada uno |
+| 4 | 292 € cada uno | 325 € cada uno |
+| 6 | 238 € cada uno | 265 € cada uno |
+
+Ambas columnas son precios **directos**. Ninguna incluye la comisión de un
+revendedor. La diferencia entre ellas es competencia ordinaria —en torno al 10 %— y
+es una fracción de lo que una capa de comisión añade encima de cualquiera de las dos.
+
+Ese es el punto que conviene retener: la diferencia entre dos operadores directos es
+pequeña. La diferencia entre directo y revendido no lo es.
+
+## Por qué los operadores se anuncian igualmente en las plataformas
+
+Sería deshonesto presentar a los operadores como víctimas. Las plataformas aportan
+cosas reales:
+
+- **Descubrimiento.** Alguien que nunca ha oído hablar de nosotros encuentra un
+  circuito por el desierto desde Marrakech.
+- **Infraestructura de pago** en divisas y métodos que una empresa marroquí pequeña
+  no puede sostener con facilidad por su cuenta.
+- **Un proceso de reclamación** que da a un visitante primerizo y nervioso un sitio
+  al que acudir.
+
+Para quien no puede verificar a nadie y reserva a seis mil kilómetros, eso vale algo.
+La cuestión es si vale un 20-30 % de un viaje de varios días; para la mayoría de
+quienes reservan un circuito familiar de 1.168 €, no.
+
+## Qué cambia realmente reservar directo
+
+**El dinero llega a quienes hacen el viaje.** En una reserva con mucha comisión, una
+parte relevante de lo que pagas no llega nunca a Marruecos. En directo, paga al
+conductor-guía, a la casa de huéspedes del Dades y a los camelleros.
+
+**Hablas con el operador antes de viajar.** Las dudas sobre una silla infantil, una
+dieta o un vuelo tardío van a quien realmente las resolverá, no a una cola de soporte
+que las reenvía.
+
+**El itinerario puede adaptarse.** Un anuncio de plataforma es un producto cerrado.
+Una reserva directa es una conversación: una noche más, otro punto de recogida, una
+parada que te importa.
+
+**El precio es el precio.** Los nuestros se publican por tamaño de grupo en cada
+página de circuito. No hay presupuesto a petición ni sorpresas junto al vehículo con
+comidas que nunca estuvieron incluidas.
+
+## Cómo reservar directo sin asumir riesgos
+
+Esta es la objeción justa a todo lo anterior, así que aquí va la versión práctica.
+
+**Comprueba que el operador es real y está autorizado.** Razón social registrada,
+dirección física en Marruecos, número de licencia y guías con nombre. Los guías
+marroquíes están autorizados por el Ministerio de Turismo y es del todo normal
+preguntarlo.
+
+**Prefiere precios publicados al presupuesto a petición.** Un operador que no quiere
+publicar cuánto cuesta el viaje para tu tamaño de grupo se reserva margen para
+ponerte un precio a medida.
+
+**Paga una señal con tarjeta o transferencia, no en efectivo.** Un pago con tarjeta
+deja rastro y una vía de reclamación. Una señal en lugar del importe completo limita
+la exposición por ambas partes: la nuestra es una cantidad fija y el resto se abona el
+mismo día.
+
+**Pide por escrito qué incluye.** En concreto: comidas, propinas, entradas y qué pasa
+con tu dinero si cancelas. Esos cuatro puntos cubren casi todas las disputas de las
+que hemos tenido noticia.
+
+**Busca un rastro real.** Reseñas en más de un sitio, fotografías que claramente son
+de sus propios viajes, un correo que contesta una persona.
+
+## Cuándo la plataforma sigue siendo lo correcto
+
+Dos casos auténticos, y no nos cuesta nada decirlo:
+
+**Una actividad suelta y barata con cancelación ajustada.** Para una
+[salida al atardecer en Agafay](/es/tours/agafay-desert-sunset) de 69 € quizá reserves
+con dos días de margen y un plan que puede cambiar. Las condiciones de cancelación de
+las plataformas suelen ser más generosas de lo que puede ofrecer un operador pequeño,
+y sobre un billete de 69 € la comisión son unos pocos euros. Quédate con la
+flexibilidad.
+
+**No puedes verificar a nadie de verdad.** Ante un operador sin número de licencia,
+sin dirección y sin historial, el proceso de reclamación de la plataforma vale lo que
+cuesta. Eso es motivo para ser exigente con el operador, no para pagar un sobreprecio
+por uno que ya has comprobado.
+
+## La regla práctica
+
+En resumen: **cuanto más largo y caro es el viaje, más compensa reservar directo.**
+
+- Un [paseo por la medina](/es/tours/marrakech-medina-cultural-tour) de 41 €: la
+  comisión son un par de euros. Reserva donde te resulte cómodo.
+- Un [circuito compartido a Zagora](/es/tours/zagora-2day-marrakech) de 62 €: sigue
+  siendo poco dinero, pero ganas una persona real a quien preguntar por la recogida.
+- Un [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) de 1.168 €
+  para cuatro: aquí una capa de comisión son varios cientos de euros, y no te aporta
+  nada que el operador no estuviera dando ya.
+
+👉 **[Consulta nuestros precios publicados](/es/tours)** — cada circuito muestra su tarifa en cada tamaño de grupo, sin presupuesto a petición ni capa de comisión.
+`,
+  },
 ];

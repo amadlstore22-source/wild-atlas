@@ -6484,6 +6484,151 @@ is the part people remember.
 👉 **[See the 4-day shared Grand Tour](/en/tours/desert-4day-marrakech)** — €331 per seat, or **[the 4-day private family tour](/en/tours/family-desert-4day-marrakech)** at €346 each for four.
 `,
   },
+  {
+    slug: "booking-morocco-tour-direct-vs-platform",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech", "toubkal-summit-2day-marrakech"],
+    author: MET_TEAM,
+    title: "Booking a Morocco Tour Direct vs Through a Platform (2026)",
+    excerpt:
+      "Resale platforms charge operators 20–30% commission, and it is added to your price rather than absorbed. Here is how the mechanism works, what it costs you, and the two cases where booking through a platform is still the right call.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["book Morocco tour direct", "Morocco tour commission", "GetYourGuide vs direct booking", "Morocco desert tour booking", "hotel desk tour markup", "Morocco travel booking tips"],
+    seoTitle: "Booking a Morocco Tour: Direct vs Platform — 2026 Price Guide",
+    seoDescription:
+      "Resale platforms take 20–30% commission on Morocco tours and it is added to your price. How the markup works, what it costs, and when a platform is still worth it.",
+    faq: [
+      { q: "Is it cheaper to book a Morocco tour directly with the operator?", a: "Usually yes, because you remove a commission layer rather than a service. The large resale platforms publish commission rates in the region of 20–30% of the ticket price, and operators price their platform listings to absorb that — which means the listing carries the commission on top of the direct rate. Booking direct with a licensed local operator also means the person answering your questions is the person running the trip." },
+      { q: "How much commission do tour platforms charge in Morocco?", a: "The major resale platforms publish commission rates broadly in the 20–30% range, and hotel concierge desks in Marrakech commonly take a similar or larger cut on tours they arrange. This is not hidden or improper — it is how those channels fund themselves — but it is added to your price rather than absorbed by the operator, because an operator working on a thin margin cannot absorb a quarter of the ticket." },
+      { q: "Is it safe to book a Morocco tour directly?", a: "It is, provided you check the operator is licensed and you pay in a way that leaves a record. Look for a registered company name, a physical address, a licence number, and published prices rather than quote-on-request. Pay a deposit by card or bank transfer rather than cash on arrival, and get the inclusions in writing. Our own prices are published per group size on each tour page precisely so there is nothing to negotiate or discover later." },
+      { q: "When is booking through a platform actually better?", a: "Two situations. First, if you are booking a single cheap activity in a city you are about to leave and the free-cancellation window matters more than the price — platform cancellation terms are often more generous than a small operator can offer. Second, if you cannot verify an operator at all and the platform's dispute process is genuinely worth the markup to you. For a multi-day trip with a deposit, the calculus usually goes the other way." },
+      { q: "Do I get a worse tour if I book direct?", a: "No — in most cases it is literally the same vehicle, the same guide and the same camp, because the platform does not operate anything. It resells a trip run by a local company. What changes is who answers your email before you travel and how much of what you pay reaches the people running the trip." },
+    ],
+    content: `
+## The short answer
+
+Resale platforms and hotel desks do not run tours. They resell trips operated by
+local companies, and they charge those companies a commission — published rates
+sit broadly in the **20–30%** range, with concierge desks often taking a similar
+cut.
+
+An operator cannot absorb a quarter of the ticket, so the commission goes **on top
+of** the direct price. That is the whole mechanism, and it is why the same trip can
+carry two quite different numbers.
+
+## What that looks like in practice
+
+The honest way to show this is not to guess at another company’s markup, but to
+compare **published prices for the same trip**.
+
+Here is our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) against the
+published direct rate of a comparable Marrakech operator running the same
+Marrakech→Merzouga route over the same three days:
+
+| Travellers | Ours | A comparable operator, direct |
+|---|---|---|
+| 1 | €711 | €790 |
+| 2 | €392 each | €435 each |
+| 4 | €292 each | €325 each |
+| 6 | €238 each | €265 each |
+
+Both of those are **direct** prices. Neither includes a reseller’s commission. The
+gap between them is ordinary competition — roughly 10% — and it is a fraction of
+what a commission layer adds on top of either.
+
+That is the point worth taking away: the difference between two direct operators is
+small. The difference between direct and resold is not.
+
+## Why operators list on platforms anyway
+
+It would be dishonest to present this as operators being victims. Platforms provide
+something real:
+
+- **Discovery.** Someone who has never heard of us finds a Marrakech desert tour.
+- **Payment infrastructure** in currencies and methods a small Moroccan company
+  cannot easily support alone.
+- **A dispute process** that gives a nervous first-time visitor somewhere to go.
+
+For a traveller who cannot verify anyone and is booking from six thousand
+kilometres away, that is worth something. The question is whether it is worth
+20–30% of a multi-day trip, and for most people booking a €1,168 family desert
+tour, it is not.
+
+## What booking direct actually changes
+
+**The money reaches the people running the trip.** On a commission-heavy booking,
+a meaningful slice of what you pay never reaches Morocco at all. Direct, it pays
+the driver-guide, the guesthouse in the Dades and the camel handlers.
+
+**You talk to the operator before you travel.** Questions about a child’s car seat,
+a dietary requirement or a late flight go to the person who will actually solve
+them, not to a support queue that forwards them.
+
+**The itinerary can flex.** Platform listings are fixed products. A direct booking
+is a conversation — an extra night, a different pickup point, a stop that matters
+to you.
+
+**The price is the price.** Ours are published per group size on every tour page.
+There is no quote-on-request step, and no discovering at the vehicle that lunch was
+never included.
+
+## How to book direct without taking a risk
+
+This is the fair objection to everything above, so here is the practical version.
+
+**Check the operator is real and licensed.** A registered company name, a physical
+address in Morocco, a licence number, and named guides. Moroccan guides are
+licensed by the Ministry of Tourism and it is entirely normal to ask.
+
+**Prefer published prices to quote-on-request.** An operator unwilling to publish
+what a trip costs at your group size is keeping room to price you individually.
+
+**Pay a deposit by card or transfer, not cash.** A card payment leaves a record and
+a chargeback route. A deposit rather than the full amount limits exposure either way
+— ours is a fixed deposit with the balance due on the day.
+
+**Get the inclusions in writing.** Specifically: lunches, tips, entrance fees and
+what happens to your money if you cancel. Those four cover almost every dispute we
+have ever heard about.
+
+**Look for a real trail.** Reviews on more than one site, photographs that are
+clearly of their own trips, an email answered by a person.
+
+## When a platform is still the right choice
+
+Two genuine cases, and it costs us nothing to say so:
+
+**A single cheap activity with a tight cancellation window.** For a €69
+[Agafay sunset trip](/en/tours/agafay-desert-sunset) you may be booking two days
+ahead with a plan that might change. Platform cancellation terms are often more
+generous than a small operator can offer, and on a €69 ticket the commission is a
+few euros. Take the flexibility.
+
+**You genuinely cannot verify anyone.** If you are looking at an operator with no
+licence number, no address and no trail, the platform’s dispute process is worth
+paying for. That is a reason to be careful about which operator — not a reason to
+pay a markup on one you have checked.
+
+## The rule of thumb
+
+Roughly: **the longer and more expensive the trip, the more booking direct is
+worth.**
+
+- A €41 [medina walk](/en/tours/marrakech-medina-cultural-tour): the commission is
+  a couple of euros. Book wherever is convenient.
+- A €62 [shared Zagora trip](/en/tours/zagora-2day-marrakech): still small money,
+  but you gain a real person to ask about pickup.
+- A €1,168 [4-day family desert tour](/en/tours/family-desert-4day-marrakech) for
+  four: a commission layer here is a few hundred euros, and it buys you nothing the
+  operator was not already providing.
+
+👉 **[See our published prices](/en/tours)** — every tour lists its rate at each group size, with no quote-on-request step and no commission layer.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

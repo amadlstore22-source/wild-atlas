@@ -25,6 +25,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "high-atlas-village-trek-cost": "prix-trek-villages-haut-atlas",
   "morocco-tour-price-group-size": "prix-circuit-maroc-taille-groupe",
   "private-vs-shared-desert-tour-morocco": "circuit-desert-prive-ou-partage",
+  "booking-morocco-tour-direct-vs-platform": "reserver-circuit-maroc-direct-ou-plateforme",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -43,6 +44,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "high-atlas-village-trek-cost": "precio-trek-pueblos-alto-atlas",
   "morocco-tour-price-group-size": "precio-circuito-marruecos-tamano-grupo",
   "private-vs-shared-desert-tour-morocco": "circuito-desierto-privado-o-compartido",
+  "booking-morocco-tour-direct-vs-platform": "reservar-circuito-marruecos-directo-o-plataforma",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -61,6 +63,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "high-atlas-village-trek-cost": "hoher-atlas-dorftrek-kosten",
   "morocco-tour-price-group-size": "marokko-tour-preis-gruppengroesse",
   "private-vs-shared-desert-tour-morocco": "wuestentour-privat-oder-geteilt",
+  "booking-morocco-tour-direct-vs-platform": "marokko-tour-direkt-oder-plattform-buchen",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -79,6 +82,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "high-atlas-village-trek-cost": "prezzo-trek-villaggi-alto-atlante",
   "morocco-tour-price-group-size": "prezzo-tour-marocco-dimensione-gruppo",
   "private-vs-shared-desert-tour-morocco": "tour-deserto-privato-o-condiviso",
+  "booking-morocco-tour-direct-vs-platform": "prenotare-tour-marocco-diretto-o-piattaforma",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

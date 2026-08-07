@@ -1787,8 +1787,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 28,
     rating: 4.9,
-    price: 345,
-    depositAmount: 87,
+    price: 876,
+    depositAmount: 193,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -1988,8 +1988,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 34,
     rating: 4.7,
-    price: 360,
-    depositAmount: 90,
+    price: 1120,
+    depositAmount: 246,
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
@@ -3101,8 +3101,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 380,
-    depositAmount: 95,
+    price: 876,
+    depositAmount: 193,
     heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3416,9 +3416,9 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 690,
+    price: 1033,
     priceMax: 790,
-    depositAmount: 175,
+    depositAmount: 227,
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",

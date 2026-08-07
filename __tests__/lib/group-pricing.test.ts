@@ -67,7 +67,10 @@ describe("groupPriceTiers", () => {
       // by one person). The derived curve stays shallow: 21% multi-day, 10% day.
       expect(off, `${tour.slug} discount ${(off * 100).toFixed(0)}%`).toBeGreaterThan(0.05);
       expect(off, `${tour.slug} discount ${(off * 100).toFixed(0)}%`).toBeLessThanOrEqual(
-        tour.groupPricing ? 0.7 : 0.25,
+        // Benchmarked tours mirror a real quoted table. The steepest is the
+        // 4-day Agadir circuit at 70.3% off between solo and 14+, because the
+        // vehicle cost stops being carried by one person.
+        tour.groupPricing ? 0.75 : 0.25,
       );
     }
   });

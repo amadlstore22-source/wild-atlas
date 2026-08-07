@@ -1947,8 +1947,17 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 28,
     rating: 4.9,
-    price: 345,
-    depositAmount: 87,
+    // Benchmarked 10% under their 3-day Agadir to Erg Chigaga — same trip
+    // (published table, verified Aug 2026).
+    price: 876,
+    depositAmount: 193,
+    groupPricing: [
+      { minPeople: 1, price: 876 }, // €806
+      { minPeople: 2, price: 513 }, // €472
+      { minPeople: 3, price: 387 }, // €356
+      { minPeople: 4, price: 309 }, // €284
+      { minPeople: 5, price: 278 }, // €256
+    ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -2024,7 +2033,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour — Remote Sahara & 4x4 Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $345.",
+    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $876.",
   },
   {
     id: "29",
@@ -2149,8 +2158,21 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 34,
     rating: 4.7,
-    price: 360,
-    depositAmount: 90,
+    // Benchmarked 10% under their 4-day Agadir to Merzouga — same length, same start point
+    // (published table, verified Aug 2026).
+    price: 1120,
+    depositAmount: 246,
+    groupPricing: [
+      { minPeople: 1, price: 1120 }, // €1030
+      { minPeople: 2, price: 616 }, // €567
+      { minPeople: 3, price: 513 }, // €472
+      { minPeople: 4, price: 454 }, // €418
+      { minPeople: 5, price: 387 }, // €356
+      { minPeople: 6, price: 352 }, // €324
+      { minPeople: 7, price: 333 }, // €306
+      { minPeople: 10, price: 317 }, // €292
+      { minPeople: 14, price: 296 }, // €272  (raised from €266 — the source table inverts here)
+    ],
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
@@ -2228,7 +2250,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 34.0331, lng: -5.0003, name: "Fes el-Bali, Imperial City" },
     seoTitle: "4-Day Agadir to Fes Tour — High Atlas, Aït Ben Haddou & Imperial City | Marrakech Eco Tours",
-    seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From $360.",
+    seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From $1120.",
     featured: false,
   },
   {
@@ -3279,8 +3301,21 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 380,
-    depositAmount: 95,
+    // Benchmarked 10% under their 4-day Marrakech to Merzouga — same length, same route
+    // (published table, verified Aug 2026).
+    price: 876,
+    depositAmount: 193,
+    groupPricing: [
+      { minPeople: 1, price: 876 }, // €806
+      { minPeople: 2, price: 485 }, // €446
+      { minPeople: 3, price: 415 }, // €382
+      { minPeople: 4, price: 376 }, // €346
+      { minPeople: 5, price: 356 }, // €328
+      { minPeople: 6, price: 317 }, // €292
+      { minPeople: 7, price: 298 }, // €274
+      { minPeople: 10, price: 289 }, // €266
+      { minPeople: 14, price: 270 }, // €248  (raised from €238 — the source table inverts here)
+    ],
     heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3359,7 +3394,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $380.",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $876.",
     faq: [
       { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
       { q: "What makes the desert camp family-friendly?", a: "The camp used on this trip has proper beds, private or shared bathroom tents, and dinner served together rather than a bare bivouac. The camel rides are short and led on foot, and there is space around the fire for children in the evening." },
@@ -3457,9 +3492,24 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 690,
-    priceMax: 790,
-    depositAmount: 175,
+    // Benchmarked 10% under their 5-day Toubkal Trek & Sahara — same trip, same length
+    // (published table, verified Aug 2026).
+    price: 1033,
+    // No priceMax: the group tiers below express the real spread. The old
+    // 690-790 band was a seasonal range on a single per-person price and
+    // would now sit BELOW the solo rate, inverting the displayed range.
+    depositAmount: 227,
+    groupPricing: [
+      { minPeople: 1, price: 1033 }, // €950
+      { minPeople: 2, price: 700 }, // €644
+      { minPeople: 3, price: 493 }, // €454
+      { minPeople: 4, price: 426 }, // €392
+      { minPeople: 5, price: 406 }, // €374
+      { minPeople: 6, price: 396 }, // €364
+      { minPeople: 7, price: 387 }, // €356
+      { minPeople: 10, price: 356 }, // €328
+      { minPeople: 14, price: 337 }, // €310
+    ],
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3558,7 +3608,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Toubkal Summit & Sahara 5-Day Tour from Marrakech | Marrakech Eco Tours",
     seoDescription:
-      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. Private 5-day mountain-to-desert tour from Marrakech. From $690.",
+      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. Private 5-day mountain-to-desert tour from Marrakech. From $1033 solo, far less per person for two or more.",
     faq: [
       { q: "How fit do I need to be for the Toubkal and Sahara combo?", a: "The trek half is graded challenging: two mountain days with a pre-dawn summit push at 4,167 m, so you need to be a fit, regular walker comfortable at altitude. The desert half is easy and vehicle-based, so it acts as a rest after the summit. If you can manage a hard two-day mountain trek, the rest of the trip is comfortable." },
       { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },

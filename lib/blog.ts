@@ -5630,7 +5630,7 @@ Moroccan operator keeps it with the people running the camp.
     seoDescription:
       "What a 4-day family desert tour in Morocco costs in 2026: transport, camps, camel rides and meals itemised, plus the practical extras parents should budget for.",
     faq: [
-      { q: "How much does a family desert tour in Morocco cost?", a: "Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is €350 per person and includes air-conditioned private transport, a bilingual driver-guide, three nights of accommodation with dinners and breakfasts, and sunset and sunrise camel rides at Erg Chebbi. Budget roughly €40–60 per person on top for lunches." },
+      { q: "How much does a family desert tour in Morocco cost?", a: "Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is €347 per person for a family of four — €1,388 for the four of you — and includes air-conditioned private transport, a bilingual driver-guide, three nights of accommodation with dinners and breakfasts, and sunset and sunrise camel rides at Erg Chebbi. A couple pays €446 each and a solo traveller €806, because the vehicle and driver cost the same however many seats are filled. Budget roughly €40–60 per person on top for lunches." },
       { q: "Is a desert tour suitable for young children?", a: "The camel rides and the dunes themselves are the easy part — children generally love both. The demanding part is the driving: Merzouga is about 560 km from Marrakech, so days one and four involve long stretches in the vehicle. The 4-day itinerary breaks it with overnight stops in the Dades Valley and Ouarzazate rather than driving it in one push, which is what makes it workable with kids." },
       { q: "Do children pay full price on a desert tour?", a: "Ask us — it depends on ages and how your group fills the vehicle. Because the transport, the driver-guide and the camp are largely per-trip costs rather than per-person, a family of four often works out considerably cheaper per head than two adults travelling alone. Message us with your ages and dates and we will quote the actual number." },
       { q: "What should families budget on top of the tour price?", a: "Lunches at roughly €12–15 per person per meal, the optional Atlas Film Studios ticket at around €7, travel insurance, and tips. For a family of four over four days that is realistically €150–250 on top of the tour price." },
@@ -5639,7 +5639,7 @@ Moroccan operator keeps it with the people running the camp.
 ## The headline number
 
 Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is
-**€350 per person**, and it is built differently from the standard adult itinerary — not
+**€347 per person for a family of four**, and it is built differently from the standard adult itinerary — not
 in what it visits, but in how the days are paced.
 
 ## What is included
@@ -5702,11 +5702,11 @@ completely different rhythm.
 
 ## Where the money goes
 
-Platform commission of **25–40%** on a €350 trip is up to €152 per person leaving Morocco.
+Platform commission of **25–40%** on a €1,388 family booking is up to €555 leaving Morocco.
 On a family of four that is a substantial sum that never reaches the camp, the camel
 handlers or the guesthouses. Booking direct keeps it in the country.
 
-👉 **[See the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — €350 per person, three nights, camel rides at Erg Chebbi, paced for children.
+👉 **[See the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — €347 per person for a family of four, three nights, camel rides at Erg Chebbi, paced for children.
 `,
   },
   {
@@ -5989,7 +5989,7 @@ the commitment.
     author: MET_TEAM,
     title: "Toubkal and Sahara in 5 Days — What Does It Cost? (2026)",
     excerpt:
-      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €635. Booking the two separately looks cheaper on paper and works less well — here is the arithmetic.",
+      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €950 solo, or €392 each for four. Booking the two separately looks cheaper on paper and works less well — here is the arithmetic.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -6001,8 +6001,8 @@ the commitment.
     seoDescription:
       "What the combined 5-day Toubkal summit and Sahara desert tour costs in 2026, itemised — and why booking the trek and the desert trip separately comes to more.",
     faq: [
-      { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €635 per person. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
-      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "Not on the headline figure — and it is worth being straight about that. The [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €193 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €392 each for a pair, so €585 per person booked separately against €635 combined. What the extra €50 buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
+      { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €950 for one traveller, €644 each for two and €392 each for four. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
+      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "Not on the headline figure — and it is worth being straight about that. The [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €193 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €392 each for a pair, so €585 per person booked separately against €644 each combined. What the extra €59 buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
       { q: "Do I need trekking experience for the Toubkal leg?", a: "It is graded challenging rather than expert. You sleep at the refuge at 3,207 m and summit the following morning — no technical skill needed in summer, but it is a long ascent at altitude. Reasonable hill fitness is enough; winter ascents need crampons and an ice axe." },
       { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and March, and tips for the guides, driver, cook and muleteer." },
     ],

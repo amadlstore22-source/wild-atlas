@@ -85,6 +85,41 @@ private day tour took it to €22pp at six, which is a loss, not a saving.
 
 A tour can override everything by setting `groupPricing` explicitly.
 
+## The floor: never more than 15% under
+
+Our price must not sit more than **15% below the cheapest comparable competitor**.
+
+Undercutting is intended — it is the whole position. Undercutting by a third is
+giving the trip away, and the modelled cost base leaves little room for it.
+
+The floor is measured against the **cheapest** rival at each group size, not an
+average. Fifteen percent under the mean can still be thirty percent under the
+cheapest option a customer will actually find, which is the price they compare
+against.
+
+Encoded in `lib/competitor-prices.ts` (`MAX_UNDERCUT = 0.15`) and enforced by
+`__tests__/lib/price-floor.test.ts`. The same file also guards the other
+direction: `MAX_PREMIUM = 0.02` fails the build if we drift *above* a rival
+selling the same trip.
+
+Current position — every benchmarked tour sits at 10% under, comfortably inside
+the floor:
+
+| Tour | Ours @2 | Cheapest rival | Under by |
+|---|---:|---:|---:|
+| Sahara 3-day (Marrakech) | €392 | €435 | 10% |
+| Marrakech → Fes 3-day | €572 | €635 | 10% |
+| Erg Chigaga 3-day (Marrakech) | €459 | €510 | 10% |
+| Erg Chigaga 3-day (Agadir) | €473 | €525 | 10% |
+| Agadir → Fes 4-day | €567 | €630 | 10% |
+| Family desert 4-day | €446 | €495 | 10% |
+| Toubkal + Sahara 5-day | €644 | €715 | 10% |
+
+**These tests fail when a competitor moves, not only when we do.** If a rival
+cuts prices we can end up above the market without touching our own data. That
+should surface as a failed build rather than as lost bookings, so re-check the
+source pages roughly twice a year and update the table.
+
 ## Before you change it
 
 Pull from the enquiry Google Sheet (every enquiry records `people`):

@@ -6,6 +6,7 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { toursFor } from "@/lib/tours-i18n";
+import { CATEGORIES } from "@/lib/tours";
 import { blogPostsFor } from "@/lib/blog-i18n";
 import TourCard from "@/components/ui/TourCard";
 
@@ -295,7 +296,13 @@ export default async function DestinationPage({ params }: PageParams) {
                     <div>
                       <dt className="text-ink-muted text-xs uppercase tracking-widest font-semibold mb-0.5">{d.categoriesLabel}</dt>
                       <dd className="flex flex-wrap gap-1.5 mt-1">
-                        {destination.relatedCategories.map((cat) => (
+                        {destination.relatedCategories
+                          // Only link categories that actually have a page.
+                          // "hiking" is declared on three destinations but has
+                          // no tours and no CATEGORIES entry, so it is never
+                          // built — the link 404'd in every locale.
+                          .filter((cat) => CATEGORIES.some((c) => c.id === cat))
+                          .map((cat) => (
                           <Link
                             key={cat}
                             href={`/${locale}/categories/${cat}`}
@@ -303,7 +310,7 @@ export default async function DestinationPage({ params }: PageParams) {
                           >
                             {cat.replaceAll("-", " ")}
                           </Link>
-                        ))}
+                          ))}
                       </dd>
                     </div>
                   </dl>

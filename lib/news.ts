@@ -49,13 +49,13 @@ const TARGET_COUNT = 6;
 // by article id — always on-brand, and varied across the list.
 const MOROCCO_IMAGES = [
   "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800&q=80", // Rabat zellige fountain
-  "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80", // Marrakech medina
+  "/gallery/blog-marrakech-medina-complete-guide.jpg", // Marrakech medina
   "/gallery/about-hero-berber-team.jpg",    // Atlas mountains
-  "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=800&q=80", // Chefchaouen blue city
-  "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=800&q=80", // Essaouira coast
+  "/gallery/blog-chefchaouen-complete-travel-guide.jpg", // Chefchaouen blue city
+  "/gallery/blog-essaouira-day-trip-from-agadir.jpg", // Essaouira coast
   "/gallery/contact-hero-morocco-doorway.jpg", // kasbah & oasis
   "/gallery/category-hero-medina-doorway.jpg", // Erg Chebbi sunset
-  "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=800&q=80", // Aït Benhaddou ksar
+  "/gallery/blog-ait-benhaddou-guide.jpg", // Aït Benhaddou ksar
 ];
 
 // Feeds whose supplied images can't be trusted to depict Morocco — always use a

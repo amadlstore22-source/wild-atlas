@@ -115,26 +115,28 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 124,
     rating: 4.8,
-    price: 245,
-    depositAmount: 65,
+    price: 348,
+    depositAmount: 90,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "امتطِ الجِمال نحو كثبان أرق الشبي الذهبية وبِت تحت مليون نجمة في مخيم صحراوي أمازيغي فاخر.",
     description:
-      "ثلاثة أيام من مراكش إلى الصحراء وعودة. اعبر الأطلس الكبير، وتوقف عند قصر آيت بن حدو المصنّف تراثاً عالمياً لليونسكو، وتعرّج عبر وادي درعة، وامتطِ الجِمال نحو أرق الشبي بينما تذوب الشمس بين الكثبان. ليلة واحدة تحت النجوم في مخيم فاخر تقليدي.",
+      "ثلاثة أيام من مراكش إلى الصحراء، في مسار دائري لا ذهاباً وإياباً على الطريق نفسه. اعبر الأطلس الكبير عبر تيزي ن'تيشكا، وتوقف عند قصر آيت بن حدو المدرج في التراث العالمي، وبِت في مضائق دادس، وسِر في مضيق تودغا، ثم امتطِ الجمال إلى عرق الشبي بينما تذوب الشمس في الكثبان. تعود الرحلة غرباً عبر ألنيف وتازارين — أرض الأحافير، أهدأ بكثير من طريق الذهاب.",
     highlights: [
       "رحلة جِمال إلى كثبان أرق الشبي عند الغروب",
       "المبيت في مخيم صحراوي أمازيغي فاخر",
       "قصر آيت بن حدو المصنّف تراثاً عالمياً لليونسكو",
       "مراقبة النجوم في غياب تام للتلوث الضوئي",
       "التزلج على الكثبان الرملية الكبرى",
+      "مضائق دادس ومضيق تودغا في طريق الذهاب",
+      "طريق عودة مختلف عبر ألنيف وتازارين — دون تكرار الطريق نفسه",
     ],
     includes: [
       "Private 4x4 transport throughout",
@@ -151,34 +153,34 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "D",
-        stay: "فندق",
-        driving: "≈6 h",
-        distance: "≈360 km",
-        stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
-        title: "مراكش ← آيت بن حدو ← ورززات",
+        stay: "فندق / قصبة",
+        driving: "≈7 ساعات",
+        distance: "≈420 كم",
+        stop: { name: "مضائق دادس", lat: 31.5203, lng: -5.9906 },
+        title: "مراكش ← آيت بن حدو ← مضائق دادس",
         description:
-          "الانطلاق من مراكش عند السابعة صباحاً. عبور ممر تيزي نتيشكا (2,260 م). زيارة قصر آيت بن حدو. المبيت في ورززات — بوابة الصحراء.",
+          "الانطلاق من مراكش في السابعة صباحاً وعبور ممر تيزي ن'تيشكا (2260 م) عبر الأطلس الكبير. زيارة قصر آيت بن حدو المدرج في التراث العالمي لليونسكو، ثم المتابعة بعد ورزازات على طول وادي الألف قصبة. المبيت في مضائق دادس.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "مخيّم صحراوي",
-        driving: "≈4 h",
-        distance: "≈240 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
-        title: "ورززات ← وادي درعة ← مخيم أرق الشبي",
+        stay: "مخيم صحراوي",
+        driving: "≈5 ساعات",
+        distance: "≈300 كم",
+        stop: { name: "عرق الشبي، مرزوكة", lat: 31.1, lng: -3.98 },
+        title: "دادس ← مضيق تودغا ← أرفود ← عرق الشبي",
         description:
-          "القيادة عبر نخيل وادي درعة. الوصول إلى مرزوكة في منتصف بعد الظهر. رحلة جِمال إلى أرق الشبي عند الغروب. عشاء وموسيقى كناوة تحت النجوم.",
+          "صباح في مضيق تودغا حيث تضيق جدران الوادي إلى 10 أمتار وترتفع 300 متر. المتابعة عبر أرفود إلى مرزوكة والوصول بعد الظهر. رحلة على الجمال إلى كثبان عرق الشبي عند الغروب، ثم العشاء وإيقاعات كناوة في المخيم.",
       },
       {
         day: 3,
         meals: "B",
-        driving: "≈8 h",
-        distance: "≈560 km",
-        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
-        title: "شروق الصحراء ← مضيق تودرا ← مراكش",
+        driving: "≈9 ساعات",
+        distance: "≈560 كم",
+        stop: { name: "مراكش", lat: 31.6295, lng: -7.9811 },
+        title: "عرق الشبي ← ألنيف ← تازارين ← ورزازات ← مراكش",
         description:
-          "الاستيقاظ قبل الفجر لمشاهدة شروق الشمس فوق الكثبان. رحلة جِمال عودة وفطور. العودة عبر مضيق تودرا. الوصول إلى مراكش بحلول المساء.",
+          "شروق الشمس فوق الكثبان والعودة على الجمال لتناول الفطور. القيادة غرباً على طريق الصحراء عبر ألنيف وتازارين — أرض الأحافير، أهدأ بكثير من الطريق الرئيسي — ثم ورزازات والعودة عبر تيزي ن'تيشكا. الوصول إلى مراكش مساءً.",
       },
     ],
     faq: [
@@ -206,7 +208,7 @@ export const TOURS: Tour[] = [
     price: 35,
     depositAmount: 10,
     heroImage:
-      "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
       "/gallery/category-hero-desert-caravan.jpg",
       "https://images.unsplash.com/photo-1568241360857-e23e825c4e08?w=1200&q=85",
@@ -266,9 +268,9 @@ export const TOURS: Tour[] = [
     price: 30,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1683028094236-7e5655c6607b?w=1600&q=85",
+      "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1683028094236-7e5655c6607b?w=1200&q=85",
+      "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
       "https://images.unsplash.com/photo-1768498681713-e100323adb3c?w=1200&q=85",
       "https://images.unsplash.com/photo-1603982626518-eff2f11a4e70?w=1200&q=85",
     ],
@@ -326,11 +328,11 @@ export const TOURS: Tour[] = [
     price: 75,
     depositAmount: 20,
     heroImage:
-      "https://images.unsplash.com/photo-1535191059345-c16453b851b2?w=1600&q=85",
+      "/gallery/tours-agafay-desert-sunset.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1535191059345-c16453b851b2?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1200&q=85",
+      "/gallery/tours-agafay-desert-sunset.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     ],
     shortDescription:
       "الصحراء الكبرى في 30 دقيقة — ركوب دراجات رباعية عند الغروب، وركوب الجِمال، وعشاء أمازيغي تقليدي في صحراء أݣافاي الحجرية.",
@@ -388,10 +390,10 @@ export const TOURS: Tour[] = [
     price: 45,
     depositAmount: 12,
     heroImage:
-      "https://images.pexels.com/photos/34793906/pexels-photo-34793906.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1200&q=85",
-      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1200&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
+      "/gallery/blog-how-many-days-do-you-need-in-morocco.jpg",
       "https://images.unsplash.com/photo-1653260137243-2b3daabf9aab?w=1200&q=85",
     ],
     shortDescription:
@@ -446,9 +448,9 @@ export const TOURS: Tour[] = [
     price: 290,
     depositAmount: 75,
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
     ],
@@ -531,7 +533,7 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
       "/gallery/category-hero-mgoun-massif.jpg",
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1200&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
@@ -596,9 +598,9 @@ export const TOURS: Tour[] = [
     depositAmount: 8,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
-      "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
+      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
       "فردوس مخفي من مضايق مُحاطة بالنخيل، وبِرَك سباحة طبيعية، وجداول صافية على بُعد 35 كم من أݣادير.",
@@ -654,9 +656,9 @@ export const TOURS: Tour[] = [
     price: 70,
     depositAmount: 18,
     heroImage:
-      "https://images.unsplash.com/photo-1593253029968-940e0625b482?w=1600&q=85",
+      "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1593253029968-940e0625b482?w=1200&q=85",
+      "/gallery/tours-sous-massa-national-park.jpg",
       "https://images.unsplash.com/photo-1497206365907-f5e630693df0?w=1200&q=85",
       "https://images.unsplash.com/photo-1697703297863-26350bad726b?w=1200&q=85",
     ],
@@ -717,9 +719,9 @@ export const TOURS: Tour[] = [
     price: 40,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+      "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1200&q=85",
+      "/gallery/tours-taroudant-day-trip-agadir.jpg",
       "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1200&q=85",
       "https://images.unsplash.com/photo-1573133001449-a19835a04971?w=1200&q=85",
     ],
@@ -777,11 +779,11 @@ export const TOURS: Tour[] = [
     price: 28,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1200&q=85",
+      "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&q=85",
+      "/gallery/blog-best-day-trips-from-agadir.jpg",
     ],
     shortDescription:
       "تعلّم ركوب الأمواج على مياه أݣادير الأطلسية الدافئة — تدريب احترافي، لوح وبدلة غطس مشمولان.",
@@ -835,9 +837,9 @@ export const TOURS: Tour[] = [
     price: 280,
     depositAmount: 70,
     heroImage:
-      "https://images.unsplash.com/photo-1517227062101-68105352ffc7?w=1600&q=85",
+      "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1517227062101-68105352ffc7?w=1200&q=85",
+      "/gallery/tours-anti-atlas-trekking-agadir.jpg",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
       "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1200&q=85",
     ],
@@ -919,11 +921,11 @@ export const TOURS: Tour[] = [
     price: 195,
     depositAmount: 50,
     heroImage:
-      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "اعبر الأطلس الصغير ووادي درعة نحو الصحراء — رحلة جِمال، ومخيم صحراوي، وشروق شمس فوق أرق الشيݣاݣة.",
@@ -992,9 +994,9 @@ export const TOURS: Tour[] = [
     price: 38,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1593253029656-9aaee080fb29?w=1600&q=85",
+      "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1593253029656-9aaee080fb29?w=1200&q=85",
+      "/gallery/tours-souss-valley-cultural-tour.jpg",
       "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1200&q=85",
       "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
     ],
@@ -1053,11 +1055,11 @@ export const TOURS: Tour[] = [
     price: 40,
     depositAmount: 10,
     heroImage:
-      "https://images.pexels.com/photos/31930613/pexels-photo-31930613.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1200&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
       "https://images.unsplash.com/photo-1624802746702-60ca95bdb605?w=1200&q=85",
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1200&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     ],
     shortDescription:
       "أكثر مدن الساحل الأطلسي سحراً — قوارب زرقاء، وأسوار عتيقة، وأطزج مأكولات بحرية في المغرب.",
@@ -1114,7 +1116,7 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
     ],
@@ -1203,11 +1205,11 @@ export const TOURS: Tour[] = [
     price: 480,
     depositAmount: 120,
     heroImage:
-      "https://images.pexels.com/photos/29595710/pexels-photo-29595710.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
       "أربع عواصم إمبراطورية مغربية في خمسة أيام — مراكش، مكناس، فاس، والرباط — من بلد ظل يحمل أربعة مقاعد للسلطة على مدى ألف عام.",
@@ -1311,11 +1313,11 @@ export const TOURS: Tour[] = [
     price: 149,
     depositAmount: 38,
     heroImage:
-      "https://images.pexels.com/photos/11387348/pexels-photo-11387348.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "أسرع طريق إلى الصحراء من مراكش — عبر آيت بن حدو ونخيل وادي درعة الممتد 200 كم إلى مخيم صحراوي تحت النجوم قرب زاݣورة.",
@@ -1389,12 +1391,12 @@ export const TOURS: Tour[] = [
     price: 320,
     depositAmount: 80,
     heroImage:
-      "https://images.pexels.com/photos/35666328/pexels-photo-35666328.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-sahara-desert-facts.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "أكثر صحاري المغرب نأياً — يتطلب أرق الشيݣاݣة رحلة بسيارة 4x4 على طرق وعرة تتجاوز آخر طريق معبّد للوصول إلى كثبان ترتفع 120 متراً فوق بحر رملي شاسع خالٍ من السكان.",
@@ -1480,12 +1482,12 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "أربعة أيام عبر كامل امتداد جنوب المغرب — جبال، ومضايق، واستوديوهات أفلام، وليلة في الصحراء، وطريق الألف قصبة — وصولاً إلى أرق الشبي وعودة.",
@@ -1586,12 +1588,12 @@ export const TOURS: Tour[] = [
     price: 295,
     depositAmount: 75,
     heroImage:
-      "https://images.pexels.com/photos/9029494/pexels-photo-9029494.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "من ساحل أݣادير الأطلسي إلى أشهر حقل كثبان في الصحراء الكبرى — عبر تارودانت وتالوين وآيت بن حدو ومضيق تودرا وصولاً إلى رحلة جِمال عند الغروب في أرق الشبي.",
@@ -1677,11 +1679,11 @@ export const TOURS: Tour[] = [
     price: 179,
     depositAmount: 45,
     heroImage:
-      "https://images.pexels.com/photos/35901289/pexels-photo-35901289.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "يومان من شواطئ أݣادير الأطلسية إلى الصحراء — عبر مدينة تارودانت المسوّرة، وعاصمة السجاد تازناخت، ونخيل وادي درعة الممتد 200 كم وصولاً إلى كثبان زاݣورة.",
@@ -1755,11 +1757,11 @@ export const TOURS: Tour[] = [
     price: 345,
     depositAmount: 87,
     heroImage:
-      "https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "أفضل مسار صحراوي من أݣادير — جنوباً عبر سفوح الأطلس الصغير ووادي درعة للوصول إلى أرق الشيݣاݣة، أكثر حقول كثبان المغرب نأياً، بسيارة 4x4.",
@@ -1845,12 +1847,12 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.pexels.com/photos/30757368/pexels-photo-30757368.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "أربعة أيام من الساحل الأطلسي إلى الصحراء وعودة — تارودانت وآيت بن حدو ومضيق تودرا وليلة كاملة في مخيم أرق الشبي الصحراوي وطريق الألف قصبة.",
@@ -1954,9 +1956,9 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.pexels.com/photos/38112211/pexels-photo-38112211.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
     ],
@@ -2047,9 +2049,9 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.pexels.com/photos/33891400/pexels-photo-33891400.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
     ],
@@ -2149,11 +2151,11 @@ export const TOURS: Tour[] = [
     price: 560,
     depositAmount: 140,
     heroImage:
-      "https://images.pexels.com/photos/30398390/pexels-photo-30398390.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
       "أربع عواصم إمبراطورية مغربية في ستة أيام من الساحل الأطلسي — مراكش، مكناس، فاس، والرباط.",
@@ -2476,7 +2478,7 @@ export const TOURS: Tour[] = [
     price: 330,
     depositAmount: 85,
     heroImage:
-      "https://images.pexels.com/photos/29601658/pexels-photo-29601658.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
       "/gallery/category-hero-mgoun-massif.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
@@ -2661,11 +2663,11 @@ export const TOURS: Tour[] = [
     price: 45,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1600&q=85",
+      "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1200&q=85",
+      "/gallery/tours-marrakech-food-market-tour.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
       "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
     ],
     shortDescription:
@@ -2720,11 +2722,11 @@ export const TOURS: Tour[] = [
     price: 210,
     depositAmount: 55,
     heroImage:
-      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1600&q=85",
+      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1200&q=85",
+      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
@@ -3054,9 +3056,9 @@ export const TOURS: Tour[] = [
     rating: 4,
     price: 380,
     depositAmount: 95,
-    heroImage: "https://images.pexels.com/photos/10434667/pexels-photo-10434667.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
     gallery: [
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35032238/pexels-photo-35032238.jpeg?auto=compress&cs=tinysrgb&w=1200",
     ],
@@ -3372,8 +3374,8 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
-      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/tours-desert-4day-marrakech.jpg",
+      "/gallery/tours-sahara-2day-agadir.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
           "/gallery/toubkal-national-park-peak-clouds.jpg",
       "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",

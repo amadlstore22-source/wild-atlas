@@ -376,7 +376,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
     excerpt:
       "Morocco is a year-round destination — but the best month depends entirely on what you are planning. Here is a month-by-month breakdown from guides who live and work in the country.",
     heroImage:
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -461,7 +461,7 @@ If you can only visit once: **April, May, or October**. You get every type of Mo
     excerpt:
       "The overland route from Marrakech to Fes passes through the High Atlas, Aït Ben Haddou, the Draa Valley, cedar forests, and a medieval imperial city. Here is how to do it properly.",
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -535,7 +535,7 @@ Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night
     excerpt:
       "Paradise Valley is one of Morocco's best-kept secrets — a lush palm gorge with natural swimming pools just 35 km from Agadir. Here is how to get there, what to bring, and when to go.",
     heroImage:
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -621,7 +621,7 @@ At the top of the valley, near the village of Immouzer des Ida Outanane, a seaso
     excerpt:
       "Essaouira is two hours north of Agadir and one of Morocco's most magical cities. Blue boats, ancient ramparts, fresh seafood, and the constant Atlantic wind. Here is how to make the most of a day trip.",
     heroImage:
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     category: "culture",
     readTime: 6,
     publishedAt: "2025-06-01",
@@ -699,7 +699,7 @@ Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* 
     excerpt:
       "Chefchaouen is Morocco's most photogenic town — a labyrinth of blue-washed alleyways tucked into the Rif Mountains. Here is everything you need to know before you visit.",
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
     category: "culture",
     readTime: 7,
     publishedAt: "2025-07-15",
@@ -785,7 +785,7 @@ Chefchaouen's riads are excellent value — you can stay in a beautiful blue-til
     excerpt:
       "Moroccan cuisine is one of the most complex and aromatic in the world — built on centuries of Berber, Arab, Andalusian, and Jewish influence. Here are the 15 dishes that define it.",
     heroImage:
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
@@ -939,7 +939,7 @@ In spring (April–June), the Ourika River is swollen with snowmelt from the Hig
     excerpt:
       "Forget the Sahara for a moment — just 40 km from Marrakech lies the Agafay Desert, a vast lunar landscape of stone and silence. Here is why it deserves a place on every Morocco itinerary.",
     heroImage:
-      "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
+      "/gallery/blog-agafay-desert-marrakech-guide.jpg",
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
@@ -1018,7 +1018,7 @@ If Agafay leaves you wanting more, the High Atlas goes further still. Oukaimeden
     excerpt:
       "Djemaa el-Fna, the souks, the palaces, the hammams — Marrakech's medina is one of the most intense and rewarding urban experiences on earth. Here is how to navigate it without getting lost, ripped off, or overwhelmed.",
     heroImage:
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -1099,7 +1099,7 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     excerpt:
       "Taghazout, 20 km north of Agadir, has become one of the world's premier surf destinations. Consistent Atlantic swell, warm water, cheap living, and extraordinary scenery. Here is everything you need to know.",
     heroImage:
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1191,7 +1191,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     excerpt:
       "The Anti-Atlas is older than the Himalayas, less visited than the High Atlas, and arguably more beautiful. Here is the guide to trekking Morocco's most under-explored mountain range.",
     heroImage:
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1600&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1266,7 +1266,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     excerpt:
       "Fes el-Bali is the most complete surviving medieval city on earth — a UNESCO World Heritage labyrinth of 9,400 alleyways, 785 mosques, and a tannery unchanged since the 12th century. Here is how to do it justice.",
     heroImage:
-      "https://images.unsplash.com/photo-1528657249085-c569d3c869e4?w=1600&q=85",
+      "/gallery/blog-fes-medina-travel-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
@@ -1329,7 +1329,7 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
     excerpt:
       "Morocco is overwhelmingly safe for tourists — but it helps to know what's real and what's theatre. A licensed Berber guide gives you the unvarnished picture: where the risks are, where they aren't, and how to avoid every scam that targets first-time visitors.",
     heroImage:
-      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-is-morocco-safe-tourist-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -1912,7 +1912,7 @@ Not sure which side of that line you fall on? [Tell us what you have done before
     excerpt:
       "Zagora is closer and cheaper. Merzouga has the dunes you pictured. The honest trade-off comes down to how many days you have, and we will tell you when Zagora is the wrong choice.",
     heroImage:
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -2018,7 +2018,7 @@ If you tell us how many days you have and what you actually want out of the dese
     excerpt:
       "A breakdown of real 2026 prices for Sahara trips from Marrakech, what separates a $90 tour from a $300 one, how much to tip, and where the money actually goes.",
     heroImage:
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
     region: "sahara-south",
     readTime: 8,
@@ -2142,7 +2142,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     excerpt:
       "Morocco is safe for solo women, and the honest caveat is that safe does not mean comfortable. What the attention actually looks like, what to wear, and the strategies that work.",
     heroImage:
-      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-solo-female-travel-morocco-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -2261,7 +2261,7 @@ Questions about a specific itinerary or a specific worry? [Ask us directly](/en/
     excerpt:
       "Seven days is enough for a first trip if you resist the urge to see everything. The routes that work at 5, 7, and 10 days — and the itinerary mistake almost every first-timer makes.",
     heroImage:
-      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1600&q=85",
+      "/gallery/blog-how-many-days-do-you-need-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 9,
@@ -2662,7 +2662,7 @@ For more on what the trek demands physically, see [How Hard Is Toubkal, Really?]
     author: MET_TEAM,
     title: "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
     excerpt: "Three very different deserts sold under one word. What each actually is, how long each needs, and which one matches the picture in your head.",
-    heroImage: "https://images.unsplash.com/photo-1614364962243-5eefd3905fe9?w=1600&q=85",
+    heroImage: "/gallery/blog-agafay-vs-merzouga-vs-zagora.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2749,7 +2749,7 @@ The mistake to avoid is booking Agafay expecting the Sahara. It is a fine trip o
     author: MET_TEAM,
     title: "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
     excerpt: "Morocco has two great sand seas. One is easier to reach and unmistakably spectacular; the other is remote enough that you may see no other camp at all.",
-    heroImage: "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1600&q=85",
+    heroImage: "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2815,7 +2815,7 @@ For how these compare against the shorter options closer to Marrakech, see [Agaf
     author: MET_TEAM,
     title: "Marrakech or Agadir: Which Base for Your Morocco Trip?",
     excerpt: "Two very different starting points, and the choice shapes everything you can reach. A guide from an operator that runs trips from both.",
-    heroImage: "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1600&q=85",
+    heroImage: "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -2970,7 +2970,7 @@ For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/bl
     author: MET_TEAM,
     title: "Can You Visit the Sahara From Agadir? Yes, With Caveats",
     excerpt: "Not as a day trip, whatever you are told at the hotel desk. What the two, three and four-day options from Agadir actually involve, and how the route differs.",
-    heroImage: "https://images.unsplash.com/photo-1672754521539-49de145445a6?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-from-agadir.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -3040,7 +3040,7 @@ For how the dune fields themselves differ, see [Erg Chebbi vs Erg Chegaga](/en/b
     author: MET_TEAM,
     title: "The Best Day Trips From Agadir",
     excerpt: "Agadir's own attractions are modest, but what sits within a couple of hours is not. Six day trips worth the early start, and what each actually delivers.",
-    heroImage: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1600&q=85",
+    heroImage: "/gallery/blog-best-day-trips-from-agadir.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -3122,7 +3122,7 @@ For desert trips from Agadir, which need more than a day, see [Can You Visit the
     title: "Todra Gorge: The Canyon on the Road to the Sahara",
     excerpt:
       "A 300-metre limestone canyon you pass on the way to Merzouga — and one of the most dramatic stops on the entire route. Here is what it actually is and why the drive slows down for it.",
-    heroImage: "https://images.unsplash.com/photo-1706804391543-0edd327103d9?w=1600&q=85",
+    heroImage: "/gallery/blog-todra-gorge-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3179,7 +3179,7 @@ Todra Gorge is included as a stop on our [3-day Marrakech to the Sahara tour](/e
     title: "Dades Valley: The Road of a Thousand Kasbahs",
     excerpt:
       "Switchback roads, rose-red rock formations, and kasbahs built into the cliffs. Dades Valley is the most visually dramatic stretch of the drive to the Sahara.",
-    heroImage: "https://images.unsplash.com/photo-1738189237717-739ec4e0ee2a?w=1600&q=85",
+    heroImage: "/gallery/blog-dades-valley-gorges-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3303,7 +3303,7 @@ Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrak
     title: "Ait Benhaddou: The Kasbah You've Already Seen in a Film",
     excerpt:
       "A UNESCO-listed fortified village near Ouarzazate that has stood in for ancient Rome, Yunkai, and more. Here's what it actually is beneath the film-set reputation.",
-    heroImage: "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3356,7 +3356,7 @@ Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](
     title: "Who Are the Berbers? An Introduction From Inside the Culture",
     excerpt:
       "Our guides are Berber, our father was one of the first licensed Berber mountain guides in the High Atlas, and the word gets used constantly on Morocco trips without much explanation. Here is what it actually means.",
-    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-who-are-the-berbers.jpg",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -3412,7 +3412,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
     title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
     excerpt:
       "Kasbah gets used loosely in English to mean 'exotic old building.' Here is what it actually means, and how it differs from a riad, a ksar and a medina.",
-    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -3468,7 +3468,7 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
     title: "What Is a Riad? Morocco's Courtyard House, Explained",
     excerpt:
       "Every hotel in Marrakech seems to call itself a riad. Here's what the word actually means, why the design exists, and how to tell a real one from a marketing label.",
-    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-riad.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,
@@ -3525,7 +3525,7 @@ Because "riad" now signals boutique and traditional to international travellers,
     title: "Sahara Desert Facts: What's True, and What Gets Exaggerated",
     excerpt:
       "The Sahara is bigger, older and less empty than most people picture. Here are the real numbers behind the desert you're about to visit — and a few common claims that don't hold up.",
-    heroImage: "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-facts.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3578,7 +3578,7 @@ Numbers on a page don't really convey what a dune sea feels like at dawn. For th
     title: "The Best SIM Card in Morocco for Tourists (2026)",
     excerpt:
       "You need working data more in the Atlas and the Sahara than in Marrakech, which changes which network actually matters. Here's what to buy and where.",
-    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-best-sim-card-morocco-tourists.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -3634,7 +3634,7 @@ If your trip includes any multi-day trekking or a desert tour beyond a single da
     title: "What to Pack for a Morocco Desert Tour",
     excerpt:
       "Desert days are hot and desert nights are genuinely cold — the packing mistake almost everyone makes is preparing for one and not the other. Here's the list our guides actually use.",
-    heroImage: "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -3700,7 +3700,7 @@ Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-
     title: "Visiting Morocco During Ramadan: What Actually Changes",
     excerpt:
       "Ramadan 2026 runs mid-February to mid-March. Here's what genuinely changes for a visitor — restaurant hours, pace of life, and how to be a considerate guest — and what doesn't.",
-    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-visiting-morocco-during-ramadan.jpg",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -3755,7 +3755,7 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
     title: "Alcohol in Morocco: What's Legal, and Where",
     excerpt:
       "Morocco is a Muslim-majority country where alcohol is legal but tightly channelled — sold in specific places, to specific rules. Here's how it actually works.",
-    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-alcohol-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -4098,7 +4098,7 @@ Want Paradise Valley specifically? Do it from Agadir. Based in Marrakech and jus
     title: "Souss-Massa National Park: Morocco's Best Birdwatching, from Agadir",
     excerpt:
       "Half an hour south of Agadir lies one of the last strongholds of the northern bald ibis and a wetland where flamingos wade the Atlantic estuary. Here's how to visit Souss-Massa.",
-    heroImage: "https://images.pexels.com/photos/35506095/pexels-photo-35506095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-souss-massa-national-park-birdwatching-guide.jpg",
     category: "wildlife",
     region: "agadir-region",
     readTime: 7,
@@ -4143,7 +4143,7 @@ Souss-Massa pairs naturally with the other day trips out of Agadir. Freshwater a
     title: "Taroudant: the 'Little Marrakech' You Can Visit from Agadir",
     excerpt:
       "Ringed by five kilometres of honey-coloured ramparts, Taroudant is the walled Berber market town the tour buses forget. It's an easy, rewarding day from Agadir.",
-    heroImage: "https://images.pexels.com/photos/37684084/pexels-photo-37684084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-taroudant-day-trip-from-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -4186,7 +4186,7 @@ Taroudant sits right in the middle of the Souss, so it slots neatly beside the r
     title: "Argan Oil and the Souss Valley: a Cultural Day from Agadir",
     excerpt:
       "The argan tree grows almost nowhere else on earth. In the Souss Valley behind Agadir you can watch the oil pressed by hand, meet the women's cooperatives, and eat in a Berber home.",
-    heroImage: "https://images.pexels.com/photos/13812743/pexels-photo-13812743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-argan-oil-souss-valley-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -4225,7 +4225,7 @@ Argan and the Souss pair beautifully with the region's other inland days. Add th
     title: "Morocco's UNESCO Sites Where the Movies Were Filmed",
     excerpt:
       "Gladiator, Game of Thrones, Lawrence of Arabia — some of cinema's biggest films were shot among Morocco's UNESCO World Heritage sites. Here's where to stand exactly where the cameras rolled.",
-    heroImage: "https://images.pexels.com/photos/13811656/pexels-photo-13811656.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-morocco-unesco-sites-film-locations.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 8,
@@ -5411,7 +5411,7 @@ the cedar forest along the way, the overland route earns its cost.
     author: MET_TEAM,
     title: "What Does a 3-Day Sahara Tour from Marrakech Cost? (2026)",
     excerpt:
-      "A 3-day Merzouga trip is the most-booked desert route in Morocco, and the most variable in price. Here is what separates a €95 shared minibus from a €225 private 4x4 — and which difference actually matters.",
+      "A 3-day Merzouga trip is the most-booked desert route in Morocco, and the most variable in price. Here is what separates a €95 shared minibus from a €320 private 4x4 — and which difference actually matters.",
     heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
     category: "desert",
     region: "sahara-south",
@@ -5423,7 +5423,7 @@ the cedar forest along the way, the overland route earns its cost.
     seoDescription:
       "What a 3-day Marrakech to Merzouga Sahara tour costs in 2026, what separates budget and private trips, and the hidden costs in cheap desert tour quotes.",
     faq: [
-      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €225 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €225 per person and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
+      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €350 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €320 for one traveller and €312 each for two, dropping to €240 each at six, and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
       { q: "Why are some Morocco desert tours so cheap?", a: "The savings come from four places, and it is worth knowing which: a shared 16-seat minibus rather than a private vehicle; a basic camp with shared bathrooms rather than private ones; lunches excluded on both driving days; and a larger group, which means more stops and less flexibility. None of that is dishonest if disclosed — ask which applies before paying." },
       { q: "Is the 3-day Sahara tour enough time?", a: "It is the shortest itinerary that reaches Erg Chebbi properly. Merzouga is about 560 km from Marrakech, so days one and three are substantially driving days, with the desert night in between. If you want more time in the dunes rather than the car, the [4-day route](/en/tours/desert-4day-marrakech) adds a night and a slower pace." },
       { q: "What is not included in a 3-day desert tour?", a: "On our trip, lunches on days one and three, plus personal expenses and tips. Lunches on the road are typically 60–120 MAD each at the roadside restaurants the route uses. Tips for the driver-guide and camp staff are customary at around 10–15%." },
@@ -5431,12 +5431,16 @@ the cedar forest along the way, the overland route earns its cost.
     content: `
 ## The price range is the story
 
-A 3-day Marrakech to Merzouga tour is advertised anywhere between about **€95 and €250**.
+A 3-day Marrakech to Merzouga tour is advertised anywhere between about **€95 and €350**.
 That is a wider spread than any other Moroccan itinerary, and it is not because some
 operators are greedy. It is because "3-day Sahara tour" describes four quite different
 products.
 
-Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€225 per person**.
+Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€320 for one traveller,
+falling to €312 each for two and €240 each at six**. That is the part most price lists
+hide: on a private tour the vehicle and the driver-guide cost the same whether one
+person or six is sitting in it, so the per-person price drops as the group fills the
+car. A €95 shared seat never does that, because you are buying a seat, not the vehicle.
 
 ## What actually separates the prices
 
@@ -5444,7 +5448,7 @@ Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€225 per person*
 |---|---|---|
 | Transport | Shared minibus, up to 16 people | Private 4x4 |
 | Desert camp | Basic, shared bathrooms | Dinner + breakfast included |
-| Night 2 | Sometimes camp only | Hotel in Ouarzazate, Merzouga or Dades Gorges |
+| Night 2 | Sometimes camp only | Hotel or kasbah in the Dades Gorges |
 | Lunches | Excluded | Excluded |
 | Camel ride | Usually included | Included, sunset |
 | Group | Whoever books | Private, 2–12 |
@@ -5496,11 +5500,11 @@ hour from Marrakech, good for a night but not a Sahara substitute. We compare th
 
 ## Where the money goes
 
-Booking platforms take **25–40%** commission. On a €225 tour that is up to €98 leaving
+Booking platforms take **25–40%** commission. On a €320 tour that is up to €128 leaving
 Morocco — more than the camp and the camel handlers earn between them. Direct booking with
 any Moroccan operator keeps it with the people running the camp.
 
-👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — €225 per person, private 4x4, desert camp, sunset camel ride included.
+👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — from €320, less per person for groups; private 4x4, desert camp, sunset camel ride included.
 `,
   },
   {
@@ -5576,7 +5580,7 @@ Dades Valley, a Berber camp at Erg Chebbi, and a hotel in Ouarzazate. Sunset and
 camel treks, mineral water and mint tea throughout, and a bilingual driver-guide.
 
 Erg Chebbi's dunes are higher and the erg is larger than Chegaga's. Whether that justifies
-€225 over the 2-day depends on how much a specific dune sea matters to you — both are real
+€320 over the 2-day depends on how much a specific dune sea matters to you — both are real
 Sahara, and Chegaga is markedly quieter.
 
 ## What is excluded, by route
@@ -5985,7 +5989,7 @@ the commitment.
     author: MET_TEAM,
     title: "Toubkal and Sahara in 5 Days — What Does It Cost? (2026)",
     excerpt:
-      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €635. Booking the two separately costs more and works less well — here is the arithmetic.",
+      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €635. Booking the two separately looks cheaper on paper and works less well — here is the arithmetic.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -5998,7 +6002,7 @@ the commitment.
       "What the combined 5-day Toubkal summit and Sahara desert tour costs in 2026, itemised — and why booking the trek and the desert trip separately comes to more.",
     faq: [
       { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €635 per person. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
-      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "Yes. The [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €193 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €225 — €418 together, but that is five days with two separate returns to Marrakech and a wasted transfer day between them. The combined tour is €635 for a continuous route that never doubles back, with a private vehicle throughout rather than a shared one." },
+      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "Not on the headline figure — and it is worth being straight about that. The [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €193 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €320, so €513 booked separately against €635 combined. What the extra €122 buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
       { q: "Do I need trekking experience for the Toubkal leg?", a: "It is graded challenging rather than expert. You sleep at the refuge at 3,207 m and summit the following morning — no technical skill needed in summer, but it is a long ascent at altitude. Reasonable hill fitness is enough; winter ascents need crampons and an ice axe." },
       { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and March, and tips for the guides, driver, cook and muleteer." },
     ],
@@ -6016,7 +6020,7 @@ the difference is a wasted day.
 
 | Option | Price | What happens |
 |---|---|---|
-| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €418 | Return to Marrakech between them; 5 days plus a changeover |
+| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €513 | Return to Marrakech between them; 5 days plus a changeover |
 | [5-day combined](/en/tours/toubkal-summit-sahara-5day) | €635 | Continuous route, private vehicle, no backtracking |
 
 Booking separately looks €217 cheaper. What it costs you is the day between the two
@@ -6065,7 +6069,7 @@ If you have five days and want both the mountain and the desert, this is the
 efficient way to do it. If you only care about the summit, the
 [2-day Toubkal trek](/en/tours/toubkal-summit-2day-marrakech) at €193 does that
 alone. If the dunes are the draw, the
-[3-day Sahara tour](/en/tours/sahara-3day-marrakech) at €225 is the direct route.
+[3-day Sahara tour](/en/tours/sahara-3day-marrakech) from €320 is the direct route.
 
 The combination is worth its premium when you actually want both — not as a way of
 saving money on either.

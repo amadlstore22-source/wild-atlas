@@ -308,7 +308,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "المغرب وجهة تصلح على مدار السنة — لكن أفضل شهر يعتمد كليًا على ما تخطط له. إليك تحليلًا شهريًا عمليًا من مرشدين يعيشون ويعملون في البلاد.",
     heroImage:
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -393,7 +393,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "يمر الطريق البري من مراكش إلى فاس عبر الأطلس الكبير، وآيت بن حدو، ووادي درعة، وغابات الأرز، ومدينة إمبراطورية من العصور الوسطى. إليك كيف تخوض هذه الرحلة بالشكل الصحيح.",
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -467,7 +467,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "وادي الفردوس واحد من أفضل أسرار المغرب المحفوظة — أخدود نخيلي خصيب بأحواض سباحة طبيعية على بعد 35 كم فقط من أكادير. إليك كيف تصل إليه، وماذا تحمل، ومتى تذهب.",
     heroImage:
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -553,7 +553,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "تبعد الصويرة ساعتين شمال أكادير وهي واحدة من أكثر مدن المغرب سحرًا. قوارب زرقاء، أسوار عتيقة، مأكولات بحرية طازجة، وريح الأطلسي الدائمة. إليك كيف تستفيد أقصى ما يمكن من رحلة ليوم واحد.",
     heroImage:
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     category: "culture",
     readTime: 6,
     publishedAt: "2025-06-01",
@@ -631,7 +631,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "شفشاون هي أكثر بلدات المغرب تصويرًا — متاهة من الأزقة المطلية بالأزرق تحتضنها جبال الريف. إليك كل ما تحتاج معرفته قبل زيارتك.",
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
     category: "culture",
     readTime: 7,
     publishedAt: "2025-07-15",
@@ -717,7 +717,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "المطبخ المغربي واحد من أكثر المطابخ تعقيدًا وعطرية في العالم — بُني على قرون من التأثيرات الأمازيغية والعربية والأندلسية واليهودية. إليك الأطباق الخمسة عشر التي تحدد هويته.",
     heroImage:
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
@@ -871,7 +871,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "انسَ الصحراء الكبرى للحظة — على بعد 40 كم فقط من مراكش تقع صحراء أكافاي، مشهد قمري شاسع من الحجر والصمت. إليك لماذا تستحق مكانًا في كل برنامج سياحي مغربي.",
     heroImage:
-      "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
+      "/gallery/blog-agafay-desert-marrakech-guide.jpg",
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
@@ -950,7 +950,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "ساحة جامع الفنا، والأسواق، والقصور، والحمامات — مدينة مراكش العتيقة واحدة من أكثر التجارب الحضرية كثافة ومتعة على وجه الأرض. إليك كيف تتنقل فيها دون أن تضيع أو تُخدع أو تُرهق.",
     heroImage:
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -1031,7 +1031,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "أصبحت تغازوت، على بعد 20 كم شمال أكادير، واحدة من أبرز وجهات ركوب الأمواج في العالم. أمواج أطلسية منتظمة، مياه دافئة، معيشة رخيصة، ومناظر استثنائية. إليك كل ما تحتاج معرفته.",
     heroImage:
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1123,7 +1123,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "الأطلس الصغير أقدم من جبال الهيمالايا، وأقل زيارة من الأطلس الكبير، وربما أجمل منه. إليك دليل التنزّه في سلسلة المغرب الجبلية الأقل استكشافًا.",
     heroImage:
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1600&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1198,7 +1198,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "فاس البالي هي المدينة القروسطية الأكثر اكتمالًا الباقية على وجه الأرض — متاهة مصنَّفة لدى اليونسكو من 9400 زقاق، و785 مسجدًا، ومدبغة لم تتغير منذ القرن الثاني عشر. إليك كيف تنصفها بزيارتك.",
     heroImage:
-      "https://images.unsplash.com/photo-1528657249085-c569d3c869e4?w=1600&q=85",
+      "/gallery/blog-fes-medina-travel-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
@@ -1260,7 +1260,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     title: "هل المغرب آمن للسياح؟ دليل صادق (2025)",
     excerpt:
       "المغرب آمن بشكل ساحق للسياح — لكن من المفيد معرفة ما هو حقيقي وما هو مسرحية. مرشد بربري مرخَّص يمنحك الصورة غير المنمَّقة: أين توجد المخاطر فعلًا، وأين لا توجد، وكيف تتجنب كل احتيال يستهدف الزوار لأول مرة.",
-    heroImage: "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-is-morocco-safe-tourist-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -1842,7 +1842,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "زاكورة أقرب وأرخص. مرزوكة تملك الكثبان التي تخيّلتها. المقايضة الصادقة تعتمد على عدد الأيام المتاحة لديك، وسنخبرك متى تكون زاكورة الخيار الخاطئ.",
     heroImage:
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -1948,7 +1948,7 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     excerpt:
       "تفصيل للأسعار الحقيقية لعام 2026 لرحلات الصحراء الكبرى من مراكش، وما يميّز جولة بـ90 دولارًا عن أخرى بـ300 دولار، وكم تُكرم، وأين يذهب المال فعليًا.",
     heroImage:
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
     region: "sahara-south",
     readTime: 8,

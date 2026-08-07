@@ -74,7 +74,7 @@ const DESTINATIONS: Destination[] = [
     lat: 31.1513,
     lng: -3.9785,
     color: "#B8722A",
-    image: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500&q=80",
+    image: "/gallery/destinations-sahara.jpg",
     description:
       "An ocean of golden dunes stretching to the Algerian border. Arrive by camel, sleep in a Berber camp, and watch sunrise paint the Sahara copper and gold.",
     known: [

@@ -308,7 +308,7 @@ Der Rückritt bei Sonnenaufgang ist kürzer und wird meist im gemächlichen Schr
     excerpt:
       "Marokko ist ein ganzjähriges Reiseziel – doch der beste Monat hängt vollständig davon ab, was Sie planen. Hier folgt eine Monat-für-Monat-Übersicht von Guides, die im Land leben und arbeiten.",
     heroImage:
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -393,7 +393,7 @@ Wenn Sie nur einmal reisen können: **April, Mai oder Oktober.** Sie erleben jed
     excerpt:
       "Die Überlandroute von Marrakesch nach Fès führt durch den Hohen Atlas, vorbei an Aït Ben Haddou, dem Draa-Tal, Zedernwäldern und einer mittelalterlichen Königsstadt. So machen Sie es richtig.",
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -467,7 +467,7 @@ Riad-Zimmer in Ouarzazate und Midelt: 50–100 $/Nacht. Riads in Fès: 80–200 
     excerpt:
       "Paradise Valley ist eines von Marokkos bestgehüteten Geheimnissen – eine üppige Palmenschlucht mit natürlichen Schwimmbecken nur 35 km von Agadir entfernt. So kommen Sie hin, was Sie mitnehmen sollten und wann die beste Reisezeit ist.",
     heroImage:
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -553,7 +553,7 @@ Am Kopf des Tals, nahe dem Dorf Immouzer des Ida Outanane, stürzt ein saisonale
     excerpt:
       "Essaouira liegt zwei Stunden nördlich von Agadir und ist eine von Marokkos magischsten Städten. Blaue Boote, uralte Wehrmauern, frische Meeresfrüchte und der stetige Atlantikwind. So holen Sie das Beste aus einem Tagesausflug heraus.",
     heroImage:
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     category: "culture",
     readTime: 6,
     publishedAt: "2025-06-01",
@@ -631,7 +631,7 @@ Essaouira trägt aus gutem Grund den Beinamen "die windige Stadt Afrikas". Der *
     excerpt:
       "Chefchaouen ist Marokkos fotogenste Stadt – ein Labyrinth blau getünchter Gassen, eingebettet in das Rif-Gebirge. Hier ist alles, was Sie vor Ihrem Besuch wissen müssen.",
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
     category: "culture",
     readTime: 7,
     publishedAt: "2025-07-15",
@@ -717,7 +717,7 @@ Chefchaouens Riads bieten hervorragendes Preis-Leistungs-Verhältnis – Sie kö
     excerpt:
       "Die marokkanische Küche ist eine der komplexesten und aromatischsten der Welt – geprägt von Jahrhunderten berberischen, arabischen, andalusischen und jüdischen Einflusses. Hier sind die 15 Gerichte, die sie ausmachen.",
     heroImage:
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
@@ -871,7 +871,7 @@ Im Frühling (April–Juni) ist der Ourika-Fluss von Schmelzwasser aus dem Hohen
     excerpt:
       "Vergessen Sie für einen Moment die Sahara – nur 40 km von Marrakesch liegt die Agafay-Wüste, eine weite Mondlandschaft aus Stein und Stille. Hier ist, warum sie einen Platz auf jedem Marokko-Reiseplan verdient.",
     heroImage:
-      "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
+      "/gallery/blog-agafay-desert-marrakech-guide.jpg",
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
@@ -950,7 +950,7 @@ Wenn Agafay Sie nach mehr verlangen lässt, geht der Hohe Atlas noch weiter. Ouk
     excerpt:
       "Djemaa el-Fna, die Souks, die Paläste, die Hammams – Marrakeschs Medina ist eines der intensivsten und lohnendsten urbanen Erlebnisse der Erde. Hier erfahren Sie, wie Sie sich zurechtfinden, ohne sich zu verlaufen, abgezockt oder überwältigt zu werden.",
     heroImage:
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -1031,7 +1031,7 @@ Ein Besuch in einem traditionellen Hammam (Badehaus) gehört zu den prägenden M
     excerpt:
       "Taghazout, 20 km nördlich von Agadir, hat sich zu einem der weltweit führenden Surfziele entwickelt. Beständige Atlantikdünung, warmes Wasser, günstiges Leben und außergewöhnliche Landschaft. Hier ist alles, was Sie wissen müssen.",
     heroImage:
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1123,7 +1123,7 @@ Taghazout ist nicht nur für Surfer geeignet. Nicht-surfende Partner und Begleit
     excerpt:
       "Der Anti-Atlas ist älter als der Himalaya, weniger besucht als der Hohe Atlas und wohl schöner. Hier ist der Leitfaden zum Trekking in Marokkos am wenigsten erschlossener Gebirgskette.",
     heroImage:
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1600&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1198,7 +1198,7 @@ Der Anti-Atlas besitzt eine außergewöhnliche Vogelwelt. Der **Diademrötel** i
     excerpt:
       "Fès el-Bali ist die vollständigste erhaltene mittelalterliche Stadt der Erde – ein UNESCO-Weltkulturerbe-Labyrinth aus 9.400 Gassen, 785 Moscheen und einer Gerberei, unverändert seit dem 12. Jahrhundert. Hier erfahren Sie, wie Sie ihr gerecht werden.",
     heroImage:
-      "https://images.unsplash.com/photo-1528657249085-c569d3c869e4?w=1600&q=85",
+      "/gallery/blog-fes-medina-travel-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
@@ -1261,7 +1261,7 @@ Fès besitzt eines der ältesten jüdischen Viertel Nordafrikas, gegründet 1438
     excerpt:
       "Marokko ist für Touristen überaus sicher – doch es hilft zu wissen, was real ist und was Theater. Ein lizenzierter Berberführer gibt Ihnen das ungeschminkte Bild: wo die Risiken liegen, wo nicht, und wie Sie jede Abzocke vermeiden, die auf Erstbesucher abzielt.",
     heroImage:
-      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-is-morocco-safe-tourist-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -1844,7 +1844,7 @@ Nicht sicher, auf welcher Seite dieser Linie Sie stehen? [Erzählen Sie uns, was
     excerpt:
       "Zagora ist näher und günstiger. Merzouga hat die Dünen, die Sie sich vorgestellt haben. Der ehrliche Kompromiss hängt davon ab, wie viele Tage Sie haben, und wir sagen Ihnen, wann Zagora die falsche Wahl ist.",
     heroImage:
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -1950,7 +1950,7 @@ Wenn Sie uns sagen, wie viele Tage Sie haben und was Sie tatsächlich von der W�
     excerpt:
       "Eine Aufschlüsselung realer 2026er-Preise für Sahara-Reisen ab Marrakesch, was eine 90-$-Tour von einer 300-$-Tour unterscheidet, wie viel Trinkgeld angemessen ist, und wohin das Geld tatsächlich fließt.",
     heroImage:
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
     region: "sahara-south",
     readTime: 8,

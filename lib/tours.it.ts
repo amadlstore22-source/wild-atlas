@@ -117,26 +117,28 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 124,
     rating: 4.8,
-    price: 245,
-    depositAmount: 65,
+    price: 348,
+    depositAmount: 90,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "Cavalca i cammelli tra le dorate dune dell'Erg Chebbi e dormi sotto un milione di stelle in un campo berbero di lusso nel deserto.",
     description:
-      "Tre giorni da Marrakech al Sahara e ritorno. Attraversa l'Alto Atlante, fermati al Ksar patrimonio UNESCO di Aït Ben Haddou, percorri la Valle del Draa e cavalca il cammello nell'Erg Chebbi mentre il sole si scioglie tra le dune. Una notte sotto le stelle in un tradizionale campo di lusso.",
+      "Tre giorni da Marrakech al Sahara, ad anello anziché andata e ritorno. Attraversa l'Alto Atlante per il Tizi n'Tichka, fermati al Ksar patrimonio UNESCO di Aït Ben Haddou, dormi nelle gole del Dades, percorri il canyon del Todra e cavalca il cammello nell'Erg Chebbi mentre il sole si scioglie tra le dune. Il ritorno procede verso ovest per Alnif e Tazarine — terra di fossili, molto più tranquilla della strada dell'andata.",
     highlights: [
       "Trekking in cammello tra le dune dell'Erg Chebbi al tramonto",
       "Notte in un campo berbero di lusso nel deserto",
       "Ksar di Aït Ben Haddou, patrimonio UNESCO",
       "Osservazione delle stelle senza inquinamento luminoso",
       "Sandboard sulle grandi dune",
+      "Gole del Dades e canyon del Todra all'andata",
+      "Ritorno per un'altra strada via Alnif e Tazarine — senza rifare lo stesso percorso",
     ],
     includes: [
       "Private 4x4 transport throughout",
@@ -153,34 +155,34 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈360 km",
-        stop: { name: "Ouarzazate", lat: 30.92, lng: -6.893 },
-        title: "Marrakech → Aït Ben Haddou → Ouarzazate",
+        stay: "Hotel / Kasbah",
+        driving: "≈7 h",
+        distance: "≈420 km",
+        stop: { name: "Gole del Dades", lat: 31.5203, lng: -5.9906 },
+        title: "Marrakech → Aït Ben Haddou → Gole del Dades",
         description:
-          "Partenza da Marrakech alle 7:00. Attraversamento del passo Tizi n'Tichka (2.260 m). Visita di Aït Ben Haddou. Notte a Ouarzazate — la porta del deserto.",
+          "Partenza da Marrakech alle 7:00 e attraversamento del passo Tizi n'Tichka (2.260 m) sull'Alto Atlante. Visita allo Ksar di Aït Ben Haddou, patrimonio UNESCO, poi proseguimento oltre Ouarzazate lungo la Valle delle Mille Kasbah. Notte nelle gole del Dades.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "Campo nel deserto",
-        driving: "≈4 h",
-        distance: "≈240 km",
+        stay: "Campo tendato nel deserto",
+        driving: "≈5 h",
+        distance: "≈300 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.1, lng: -3.98 },
-        title: "Ouarzazate → Valle del Draa → Campo dell'Erg Chebbi",
+        title: "Dades → Gole del Todra → Erfoud → Erg Chebbi",
         description:
-          "Percorso lungo la palmeria della Valle del Draa. Arrivo a Merzouga nel primo pomeriggio. Trekking in cammello nell'Erg Chebbi al tramonto. Cena e musica gnawa sotto le stelle.",
+          "Mattinata nelle gole del Todra, dove le pareti del canyon si restringono a 10 m e si innalzano per 300 m. Proseguimento via Erfoud fino a Merzouga, arrivo a metà pomeriggio. Escursione in cammello tra le dune dell'Erg Chebbi al tramonto, poi cena e percussioni gnawa al campo.",
       },
       {
         day: 3,
         meals: "B",
-        driving: "≈8 h",
+        driving: "≈9 h",
         distance: "≈560 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
-        title: "Alba nel Sahara → Gola del Todra → Marrakech",
+        title: "Erg Chebbi → Alnif → Tazarine → Ouarzazate → Marrakech",
         description:
-          "Sveglia prima dell'alba per ammirare il sole che sorge sulle dune. Rientro in cammello e colazione. Ritorno via la Gola del Todra. Arrivo a Marrakech in serata.",
+          "Alba sulle dune e rientro in cammello per la colazione. Viaggio verso ovest sulla strada del deserto attraverso Alnif e Tazarine — terra di fossili, molto più tranquilla della via principale — quindi Ouarzazate e ritorno per il Tizi n'Tichka. Arrivo a Marrakech in serata.",
       },
     ],
     faq: [
@@ -209,7 +211,7 @@ export const TOURS: Tour[] = [
     price: 35,
     depositAmount: 10,
     heroImage:
-      "https://images.pexels.com/photos/38084347/pexels-photo-38084347.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
       "/gallery/category-hero-desert-caravan.jpg",
       "https://images.unsplash.com/photo-1568241360857-e23e825c4e08?w=1200&q=85",
@@ -270,9 +272,9 @@ export const TOURS: Tour[] = [
     price: 30,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1683028094236-7e5655c6607b?w=1600&q=85",
+      "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1683028094236-7e5655c6607b?w=1200&q=85",
+      "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
       "https://images.unsplash.com/photo-1768498681713-e100323adb3c?w=1200&q=85",
       "https://images.unsplash.com/photo-1603982626518-eff2f11a4e70?w=1200&q=85",
     ],
@@ -331,11 +333,11 @@ export const TOURS: Tour[] = [
     price: 75,
     depositAmount: 20,
     heroImage:
-      "https://images.unsplash.com/photo-1535191059345-c16453b851b2?w=1600&q=85",
+      "/gallery/tours-agafay-desert-sunset.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1535191059345-c16453b851b2?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1200&q=85",
+      "/gallery/tours-agafay-desert-sunset.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     ],
     shortDescription:
       "Il Sahara in 30 minuti — quad al tramonto, cavalcate in cammello e una cena berbera tradizionale nel deserto roccioso di Agafay.",
@@ -394,10 +396,10 @@ export const TOURS: Tour[] = [
     price: 45,
     depositAmount: 12,
     heroImage:
-      "https://images.pexels.com/photos/34793906/pexels-photo-34793906.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1200&q=85",
-      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1200&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
+      "/gallery/blog-how-many-days-do-you-need-in-morocco.jpg",
       "https://images.unsplash.com/photo-1653260137243-2b3daabf9aab?w=1200&q=85",
     ],
     shortDescription:
@@ -453,9 +455,9 @@ export const TOURS: Tour[] = [
     price: 290,
     depositAmount: 75,
     heroImage:
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1600&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
     ],
@@ -539,7 +541,7 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
       "/gallery/category-hero-mgoun-massif.jpg",
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1200&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
@@ -605,9 +607,9 @@ export const TOURS: Tour[] = [
     depositAmount: 8,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
-      "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1200&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
+      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
       "Un paradiso nascosto fatto di gole punteggiate di palme, piscine naturali e torrenti cristallini a 35 km da Agadir.",
@@ -664,9 +666,9 @@ export const TOURS: Tour[] = [
     price: 70,
     depositAmount: 18,
     heroImage:
-      "https://images.unsplash.com/photo-1593253029968-940e0625b482?w=1600&q=85",
+      "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1593253029968-940e0625b482?w=1200&q=85",
+      "/gallery/tours-sous-massa-national-park.jpg",
       "https://images.unsplash.com/photo-1497206365907-f5e630693df0?w=1200&q=85",
       "https://images.unsplash.com/photo-1697703297863-26350bad726b?w=1200&q=85",
     ],
@@ -728,9 +730,9 @@ export const TOURS: Tour[] = [
     price: 40,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1600&q=85",
+      "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1778339517491-167ba786167b?w=1200&q=85",
+      "/gallery/tours-taroudant-day-trip-agadir.jpg",
       "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1200&q=85",
       "https://images.unsplash.com/photo-1573133001449-a19835a04971?w=1200&q=85",
     ],
@@ -789,11 +791,11 @@ export const TOURS: Tour[] = [
     price: 28,
     depositAmount: 8,
     heroImage:
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1600&q=85",
+      "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1537174621888-eba6137cf6c9?w=1200&q=85",
+      "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&q=85",
+      "/gallery/blog-best-day-trips-from-agadir.jpg",
     ],
     shortDescription:
       "Impara a surfare sulle calde onde atlantiche di Agadir — istruzione professionale, tavola e muta incluse.",
@@ -848,9 +850,9 @@ export const TOURS: Tour[] = [
     price: 280,
     depositAmount: 70,
     heroImage:
-      "https://images.unsplash.com/photo-1517227062101-68105352ffc7?w=1600&q=85",
+      "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1517227062101-68105352ffc7?w=1200&q=85",
+      "/gallery/tours-anti-atlas-trekking-agadir.jpg",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
       "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1200&q=85",
     ],
@@ -933,11 +935,11 @@ export const TOURS: Tour[] = [
     price: 195,
     depositAmount: 50,
     heroImage:
-      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "Attraversa l'Anti-Atlante e la Valle del Draa verso il Sahara — trekking in cammello, campo nel deserto e un'alba sull'Erg Chegaga.",
@@ -1007,9 +1009,9 @@ export const TOURS: Tour[] = [
     price: 38,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1593253029656-9aaee080fb29?w=1600&q=85",
+      "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1593253029656-9aaee080fb29?w=1200&q=85",
+      "/gallery/tours-souss-valley-cultural-tour.jpg",
       "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1200&q=85",
       "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
     ],
@@ -1069,11 +1071,11 @@ export const TOURS: Tour[] = [
     price: 40,
     depositAmount: 10,
     heroImage:
-      "https://images.pexels.com/photos/31930613/pexels-photo-31930613.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1200&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
       "https://images.unsplash.com/photo-1624802746702-60ca95bdb605?w=1200&q=85",
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1200&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     ],
     shortDescription:
       "La città più magica della costa atlantica — barche blu, antiche mura e il pesce più fresco del Marocco.",
@@ -1131,7 +1133,7 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
     ],
@@ -1221,11 +1223,11 @@ export const TOURS: Tour[] = [
     price: 480,
     depositAmount: 120,
     heroImage:
-      "https://images.pexels.com/photos/29595710/pexels-photo-29595710.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
       "Le quattro capitali imperiali del Marocco in cinque giorni — Marrakech, Meknes, Fes e Rabat — da un paese che da mille anni ha avuto quattro sedi di potere.",
@@ -1330,11 +1332,11 @@ export const TOURS: Tour[] = [
     price: 149,
     depositAmount: 38,
     heroImage:
-      "https://images.pexels.com/photos/11387348/pexels-photo-11387348.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "La via più rapida al Sahara da Marrakech — attraverso Aït Ben Haddou e i 200 km di palmeria della Valle del Draa fino a un campo nel deserto sotto le stelle vicino a Zagora.",
@@ -1409,12 +1411,12 @@ export const TOURS: Tour[] = [
     price: 320,
     depositAmount: 80,
     heroImage:
-      "https://images.pexels.com/photos/35666328/pexels-photo-35666328.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-sahara-desert-facts.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "Il deserto più remoto del Marocco — l'Erg Chegaga richiede un viaggio fuoristrada in 4x4 oltre l'ultima strada asfaltata per raggiungere dune alte 120 m che si innalzano su un vasto mare di sabbia disabitato.",
@@ -1501,12 +1503,12 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "Quattro giorni attraverso l'intero sud del Marocco — montagne, canyon, studi cinematografici, una notte nel deserto e la Strada delle Mille Kasbah — fino all'Erg Chebbi e ritorno.",
@@ -1608,12 +1610,12 @@ export const TOURS: Tour[] = [
     price: 295,
     depositAmount: 75,
     heroImage:
-      "https://images.pexels.com/photos/9029494/pexels-photo-9029494.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "Dalla costa atlantica di Agadir al campo di dune più iconico del Sahara — attraverso Taroudant, Taliouine, Aït Ben Haddou e la Gola del Todra fino a un trekking in cammello al tramonto sull'Erg Chebbi.",
@@ -1700,11 +1702,11 @@ export const TOURS: Tour[] = [
     price: 179,
     depositAmount: 45,
     heroImage:
-      "https://images.pexels.com/photos/35901289/pexels-photo-35901289.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     ],
     shortDescription:
       "Due giorni dalle spiagge atlantiche di Agadir al deserto — via la città fortificata di Taroudant, la capitale del tappeto di Taznakht e i 200 km di palmeria della Valle del Draa fino alle dune di Zagora.",
@@ -1779,11 +1781,11 @@ export const TOURS: Tour[] = [
     price: 345,
     depositAmount: 87,
     heroImage:
-      "https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
+      "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     ],
     shortDescription:
       "La migliore rotta sahariana da Agadir — verso sud attraverso le pendici dell'Anti-Atlante e la Valle del Draa per raggiungere l'Erg Chegaga, il campo di dune più remoto del Marocco, in 4x4.",
@@ -1870,12 +1872,12 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.pexels.com/photos/30757368/pexels-photo-30757368.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&q=85",
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/blog-sahara-desert-facts.jpg",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     ],
     shortDescription:
       "Quattro giorni dalla costa atlantica al Sahara e ritorno — Taroudant, Aït Ben Haddou, la Gola del Todra, una notte intera in un campo nel deserto dell'Erg Chebbi e la Strada delle Mille Kasbah.",
@@ -1980,9 +1982,9 @@ export const TOURS: Tour[] = [
     price: 360,
     depositAmount: 90,
     heroImage:
-      "https://images.pexels.com/photos/38112211/pexels-photo-38112211.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
       "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
     ],
@@ -2074,9 +2076,9 @@ export const TOURS: Tour[] = [
     price: 420,
     depositAmount: 105,
     heroImage:
-      "https://images.pexels.com/photos/33891400/pexels-photo-33891400.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1200&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
     ],
@@ -2177,11 +2179,11 @@ export const TOURS: Tour[] = [
     price: 560,
     depositAmount: 140,
     heroImage:
-      "https://images.pexels.com/photos/30398390/pexels-photo-30398390.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1767936925033-9a5b59925613?w=1200&q=85",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
       "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
       "Le quattro capitali imperiali del Marocco in sei giorni dalla costa atlantica — Marrakech, Meknes, Fes e Rabat.",
@@ -2507,7 +2509,7 @@ export const TOURS: Tour[] = [
     price: 330,
     depositAmount: 85,
     heroImage:
-      "https://images.pexels.com/photos/29601658/pexels-photo-29601658.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
       "/gallery/category-hero-mgoun-massif.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
@@ -2694,11 +2696,11 @@ export const TOURS: Tour[] = [
     price: 45,
     depositAmount: 10,
     heroImage:
-      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1600&q=85",
+      "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1761255240953-c571ba0b98d7?w=1200&q=85",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1200&q=85",
+      "/gallery/tours-marrakech-food-market-tour.jpg",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
       "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
     ],
     shortDescription:
@@ -2754,11 +2756,11 @@ export const TOURS: Tour[] = [
     price: 210,
     depositAmount: 55,
     heroImage:
-      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1600&q=85",
+      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1683138155815-d7edd806d8a3?w=1200&q=85",
+      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
-      "https://images.unsplash.com/photo-1685311572420-513619470404?w=1200&q=85",
+      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
@@ -3092,9 +3094,9 @@ export const TOURS: Tour[] = [
     rating: 4,
     price: 380,
     depositAmount: 95,
-    heroImage: "https://images.pexels.com/photos/10434667/pexels-photo-10434667.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
     gallery: [
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/35032238/pexels-photo-35032238.jpeg?auto=compress&cs=tinysrgb&w=1200",
     ],
@@ -3412,8 +3414,8 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
-      "https://images.pexels.com/photos/29107888/pexels-photo-29107888.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "https://images.pexels.com/photos/35976808/pexels-photo-35976808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/tours-desert-4day-marrakech.jpg",
+      "/gallery/tours-sahara-2day-agadir.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
           "/gallery/toubkal-national-park-peak-clouds.jpg",
       "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",

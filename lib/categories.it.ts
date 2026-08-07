@@ -33,6 +33,6 @@ export const CATEGORIES: {
     label: "Tour Culturali",
     icon: "🕌",
     description: "Medine, ksour e souk, visitati con guide che vi sono cresciute.",
-    heroImage: "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+    heroImage: "/gallery/categories-cultural.jpg",
   },
 ];

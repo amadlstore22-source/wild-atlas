@@ -8,7 +8,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.6295,
     lng: -7.9811,
-    heroImage: "https://images.unsplash.com/photo-1708823081494-3e5bbd2ce931?w=1400&q=85",
+    heroImage: "/gallery/destinations-marrakech.jpg",
     about:
       "Marrakesch ist die lebendigste Stadt Marokkos – ein tausend Jahre altes Labyrinth aus Souks, Palästen und Straßentheater, erbaut aus rosafarbenem Stein. Die Medina von Marrakesch ist UNESCO-Weltkulturerbe und eines der am dichtesten besiedelten Stadtgebiete der Welt, Heimat von über 90.000 Menschen auf einer Fläche von weniger als zwei Quadratkilometern. In ihrem Herzen liegt der Djemaa el-Fna, der außergewöhnlichste öffentliche Platz der Erde: tagsüber Gewürzmarkt und Saftstand, nachts ein Karneval aus Geschichtenerzählern, Akrobaten und Gnaoua-Musikern, der seit 900 Jahren jeden einzelnen Abend stattfindet.",
     knownFor: [
@@ -105,7 +105,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Drâa-Tafilalet",
     lat: 31.1513,
     lng: -3.9785,
-    heroImage: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1400&q=85",
+    heroImage: "/gallery/destinations-sahara.jpg",
     about:
       "Erg Chebbi, nahe dem Dorf Merzouga, ist der spektakulärste Abschnitt saharischen Sandmeers in Marokko – ein 50 km² großes Feld aus Sterndünen, das sich bis zu 150 Meter über die flache Hamada (Kieswüste) erhebt. Die Dünen bestehen vollständig aus feinem, orangerotem Sand, den die vorherrschenden Nordwestwinde zu klassischen sichelförmigen Barchandünen geformt haben. Bei Sonnenuntergang und Sonnenaufgang verwandelt das Licht den Erg in eine Landschaft aus geschmolzenem Gold und Kupfer, die es so nirgendwo sonst auf der Erde gibt.",
     knownFor: [
@@ -153,7 +153,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Fès-Meknès",
     lat: 34.0545,
     lng: -4.9815,
-    heroImage: "https://images.unsplash.com/photo-1582742850838-24590fb39fdc?w=1400&q=85",
+    heroImage: "/gallery/destinations-fes.jpg",
     about:
       "Fès el-Bali ist wohl das bemerkenswerteste urbane Überbleibsel der Erde – eine voll funktionsfähige mittelalterliche Stadt mit 156.000 Einwohnern auf 256 Hektar, die seit dem Jahr 789 n. Chr. ununterbrochen bewohnt ist. Sie ist das größte autofreie Stadtgebiet der Welt. Jede Straße ihres Labyrinths aus 9.400 Gassen transportiert Waren per Hand oder Maultier. Dieselben Handwerke werden seit tausend Jahren in denselben Werkstätten ausgeübt: Ledergerbung, Keramikglasur, Messingeinlegearbeiten, Zellij-Mosaike. Die Stadt wurde von Moulay Idriss I. gegründet und expandierte unter der Marinidendynastie zu jenem großen Sitz islamischer Gelehrsamkeit, der sie bis heute geblieben ist.",
     knownFor: [
@@ -200,7 +200,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Tanger-Tétouan-Al Hoceïma",
     lat: 35.1688,
     lng: -5.2689,
-    heroImage: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=1400&q=85",
+    heroImage: "/gallery/destinations-chefchaouen.jpg",
     about:
       "Chefchaouen liegt auf 600 m Höhe an den Hängen des Rif-Gebirges – eine kleine, bemerkenswert gut erhaltene Medina, deren Mauern, Treppen und Blumentöpfe durchgehend in Blau und Weiß getüncht sind. Die Tradition des Blaufärbens, eingeführt von jüdischen Flüchtlingen der spanischen Reconquista in den 1930er Jahren, ist so zentral für die Identität der Stadt geworden, dass die Bewohner ihre Häuser jeden Frühling neu streichen. Der Effekt ist völlig anders als alles andere in Marokko: heiter, fotogen und wirklich entschleunigt.",
     knownFor: [
@@ -247,7 +247,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "https://images.unsplash.com/photo-1562874732-260714dfe537?w=1400&q=85",
+    heroImage: "/gallery/destinations-agadir.jpg",
     about:
       "Agadir ist Marokkos wichtigste Badestadt – ein moderner Atlantikhafen, der nach einem verheerenden Erdbeben im Jahr 1960 vollständig wiederaufgebaut wurde. Am Fuß des Anti-Atlas-Gebirges gelegen, mit einem neun Kilometer langen, geschwungenen Weißsandstrand, dient Agadir sowohl Pauschaltouristen als auch Abenteurern als südliches Tor zu Marokko. Dreißig Minuten nördlich liegt Taghazout, ein Dorf, das sich zu einem der berühmtesten Surfziele der Welt entwickelt hat. Die Region Souss-Massa rund um Agadir beherbergt Nationalparks, Arganölwälder, von Flamingos bevölkerte Feuchtgebiete und Berbergemeinschaften, die eine jahrhundertealte Lebensweise bewahren.",
     knownFor: [
@@ -294,7 +294,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Béni Mellal-Khénifra",
     lat: 32.0187,
     lng: -6.7188,
-    heroImage: "https://images.unsplash.com/photo-1535027341838-aa4d6ab54a25?w=1400&q=85",
+    heroImage: "/gallery/destinations-ouzoud.jpg",
     about:
       "Die Cascades d'Ouzoud sind der spektakulärste Wasserfall Nordafrikas – eine dreifache Kaskade, die 110 Meter über rötliche Klippen in ein türkisfarbenes Becken stürzt, gespeist vom Fluss El-Abid. Der Name 'Ouzoud' bedeutet auf Tamazight (Berberisch) 'Olivenmahlen' – ein Verweis auf die traditionellen Olivenmühlen, die hier seit Generationen in Betrieb sind. Der Ort liegt in einer tiefen Schlucht, umgeben von Oliven- und Feigenhainen, und ist Heimat einer Kolonie wilder Berberaffen – die einzigen wilden Primaten Afrikas außerhalb Subsahara-Afrikas.",
     knownFor: [
@@ -341,7 +341,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Marrakech-Safi",
     lat: 31.5085,
     lng: -9.7595,
-    heroImage: "https://images.unsplash.com/photo-1555686367-56d5186965d5?w=1400&q=85",
+    heroImage: "/gallery/destinations-essaouira.jpg",
     about:
       "Essaouira ist der große atlantische Gegenpol zu Marrakesch – weiß getüncht, wo Marrakesch rosarot ist, windumtost, wo Marrakesch still ist, und tiefenentspannt, wo Marrakesch elektrisierend ist. Die im 18. Jahrhundert von den Portugiesen errichteten Befestigungsanlagen der Stadt ragen in die Atlantikbrandung hinein und umschließen eine UNESCO-Welterbe-Medina mit blauen Bogenläden, Fischernetzreparaturen und Gnaoua-Musik, die aus Caféeingängen weht. Essaouira zog seit jeher Künstler, Musiker und Schriftsteller an – Jimi Hendrix besuchte die Stadt 1969 und inspirierte damit eine ganze Reisendengeneration, es ihm gleichzutun.",
     knownFor: [

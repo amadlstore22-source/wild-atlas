@@ -315,7 +315,7 @@ Le retour en chameau au lever du soleil est plus court et généralement effectu
     excerpt:
       "Le Maroc est une destination praticable toute l'année — mais le meilleur mois dépend entièrement de ce que vous prévoyez. Voici une analyse mois par mois établie par des guides qui vivent et travaillent dans le pays.",
     heroImage:
-      "https://images.unsplash.com/photo-1722180862276-970599009d51?w=1600&q=85",
+      "/gallery/blog-best-time-to-visit-morocco.jpg",
     category: "tips",
     readTime: 6,
     publishedAt: "2025-02-14",
@@ -400,7 +400,7 @@ Si vous ne pouvez visiter qu'une seule fois : **avril, mai ou octobre**. Vous ob
     excerpt:
       "L'itinéraire terrestre entre Marrakech et Fès traverse le Haut Atlas, Aït Ben Haddou, la vallée du Drâa, des forêts de cèdres, et une ville impériale médiévale. Voici comment le faire dans les règles de l'art.",
     heroImage:
-      "https://images.unsplash.com/photo-1565458901745-4c797b564f73?w=1600&q=85",
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
@@ -474,7 +474,7 @@ Chambres en riad à Ouarzazate et Midelt : 50 à 100 $/nuit. Riads à Fès : 80 
     excerpt:
       "La Vallée du Paradis est l'un des secrets les mieux gardés du Maroc — une gorge luxuriante bordée de palmiers avec des piscines naturelles à seulement 35 km d'Agadir. Voici comment y aller, quoi apporter, et quand partir.",
     heroImage:
-      "https://images.unsplash.com/photo-1777815966041-7d8a58fb7fad?w=1600&q=85",
+      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     readTime: 5,
     publishedAt: "2025-05-08",
@@ -560,7 +560,7 @@ En haut de la vallée, près du village d'Immouzer des Ida Outanane, une cascade
     excerpt:
       "Essaouira se trouve à deux heures au nord d'Agadir et compte parmi les villes les plus magiques du Maroc. Bateaux bleus, remparts anciens, fruits de mer frais, et le vent atlantique constant. Voici comment profiter au maximum d'une excursion d'une journée.",
     heroImage:
-      "https://images.unsplash.com/photo-1565985482571-03a42ea59d80?w=1600&q=85",
+      "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     category: "culture",
     readTime: 6,
     publishedAt: "2025-06-01",
@@ -638,7 +638,7 @@ Essaouira est surnommée « la ville venteuse d'Afrique », et pour de bonnes ra
     excerpt:
       "Chefchaouen est la ville la plus photogénique du Maroc — un labyrinthe de ruelles bleues niché dans le Rif. Voici tout ce qu'il faut savoir avant de vous y rendre.",
     heroImage:
-      "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?w=1600&q=85",
+      "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
     category: "culture",
     readTime: 7,
     publishedAt: "2025-07-15",
@@ -724,7 +724,7 @@ Les riads de Chefchaouen offrent un excellent rapport qualité-prix — vous pou
     excerpt:
       "La cuisine marocaine est l'une des plus complexes et aromatiques au monde — bâtie sur des siècles d'influences berbères, arabes, andalouses et juives. Voici les 15 plats qui la définissent.",
     heroImage:
-      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=1600&q=85",
+      "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
@@ -878,7 +878,7 @@ Au printemps (avril–juin), la rivière Ourika, gonflée par la fonte des neige
     excerpt:
       "Oubliez un instant le Sahara — à seulement 40 km de Marrakech se trouve le désert d'Agafay, un vaste paysage lunaire de pierre et de silence. Voici pourquoi il mérite sa place sur tout itinéraire marocain.",
     heroImage:
-      "https://images.unsplash.com/photo-1673283579119-d108cbd0ed7f?w=1600&q=85",
+      "/gallery/blog-agafay-desert-marrakech-guide.jpg",
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
@@ -957,7 +957,7 @@ Si Agafay vous donne envie d'aller plus loin, le Haut Atlas offre encore plus. O
     excerpt:
       "Djemaa el-Fna, les souks, les palais, les hammams — la médina de Marrakech est l'une des expériences urbaines les plus intenses et gratifiantes au monde. Voici comment y naviguer sans vous perdre, vous faire arnaquer, ou vous sentir submergé.",
     heroImage:
-      "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1600&q=85",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -1038,7 +1038,7 @@ Une visite dans un hammam traditionnel (bain public) est l'une des expériences 
     excerpt:
       "Taghazout, à 20 km au nord d'Agadir, est devenu l'une des premières destinations de surf au monde. Houle atlantique constante, eau chaude, coût de la vie modeste, et un cadre extraordinaire. Voici tout ce qu'il faut savoir.",
     heroImage:
-      "https://images.unsplash.com/photo-1538053367502-742497073841?w=1600&q=85",
+      "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     category: "tips",
     readTime: 7,
     publishedAt: "2025-11-25",
@@ -1130,7 +1130,7 @@ Taghazout n'est pas réservée qu'aux surfeurs. Les partenaires et compagnons no
     excerpt:
       "L'Anti-Atlas est plus ancien que l'Himalaya, moins visité que le Haut Atlas, et sans doute plus beau. Voici le guide de la randonnée dans le massif le moins exploré du Maroc.",
     heroImage:
-      "https://images.unsplash.com/photo-1575064038796-5f31308aa3e9?w=1600&q=85",
+      "/gallery/blog-anti-atlas-trekking-guide.jpg",
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
@@ -1205,7 +1205,7 @@ L'Anti-Atlas possède une avifaune exceptionnelle. Le **rougequeue de Moussier**
     excerpt:
       "Fès el-Bali est la ville médiévale la plus complète encore existante sur terre — un labyrinthe classé à l'UNESCO comptant 9 400 ruelles, 785 mosquées, et une tannerie inchangée depuis le XIIe siècle. Voici comment lui rendre justice.",
     heroImage:
-      "https://images.unsplash.com/photo-1528657249085-c569d3c869e4?w=1600&q=85",
+      "/gallery/blog-fes-medina-travel-guide.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
@@ -1268,7 +1268,7 @@ Fès possède l'un des plus anciens quartiers juifs d'Afrique du Nord, établi e
     excerpt:
       "Le Maroc est largement sûr pour les touristes — mais il est utile de savoir ce qui est réel et ce qui relève de la mise en scène. Un guide berbère agréé vous donne le tableau sans fard : où sont les vrais risques, où ils ne sont pas, et comment éviter chaque arnaque qui cible les visiteurs de première fois.",
     heroImage:
-      "https://images.pexels.com/photos/36871944/pexels-photo-36871944.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-is-morocco-safe-tourist-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -1851,7 +1851,7 @@ Vous ne savez pas de quel côté de cette ligne vous vous situez ? [Dites-nous c
     excerpt:
       "Zagora est plus proche et moins chère. Merzouga a les dunes que vous imaginiez. Le compromis honnête dépend du nombre de jours dont vous disposez, et nous vous dirons quand Zagora est le mauvais choix.",
     heroImage:
-      "https://images.pexels.com/photos/37818882/pexels-photo-37818882.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 8,
@@ -1957,7 +1957,7 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
     excerpt:
       "Une analyse des prix réels 2026 pour les séjours sahariens depuis Marrakech, ce qui distingue un circuit à 90 $ d'un circuit à 300 $, combien donner en pourboire, et où va réellement l'argent.",
     heroImage:
-      "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1600&q=85",
+      "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
     region: "sahara-south",
     readTime: 8,

@@ -33,6 +33,6 @@ export const CATEGORIES: {
     label: "Kulturelle Touren",
     icon: "🕌",
     description: "Medinas, Ksours und Souks, erkundet mit Guides, die dort aufgewachsen sind.",
-    heroImage: "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+    heroImage: "/gallery/categories-cultural.jpg",
   },
 ];

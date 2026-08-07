@@ -37,6 +37,6 @@ export const CATEGORIES: {
     label: "Circuits Culturels",
     icon: "🕌",
     description: "Médinas, ksour et souks, parcourus avec des guides qui y ont grandi.",
-    heroImage: "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+    heroImage: "/gallery/categories-cultural.jpg",
   },
 ];

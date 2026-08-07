@@ -10,7 +10,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "المغرب آمن للمرأة المسافرة بمفردها، والتحفظ الصادق هو أن الأمان لا يعني الراحة دائمًا. كيف يبدو الانتباه غير المرغوب فيه فعليًا، وماذا ترتدين، والاستراتيجيات التي تنجح فعلاً.",
     heroImage:
-      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-solo-female-travel-morocco-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -129,7 +129,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "سبعة أيام كافية لرحلة أولى إذا قاومت رغبة رؤية كل شيء. المسارات التي تنجح في 5 و7 و10 أيام — وخطأ التخطيط الذي يقع فيه تقريبًا كل زائر لأول مرة.",
     heroImage:
-      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1600&q=85",
+      "/gallery/blog-how-many-days-do-you-need-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 9,
@@ -524,7 +524,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "أكافاي أم مرزوكة أم زاكورة: أي صحراء من مراكش؟",
     excerpt: "ثلاث وجهات مختلفة تمامًا تُباع تحت كلمة واحدة. ما هي كل واحدة فعليًا، وكم من الوقت تحتاج كل منها، وأيها تطابق الصورة التي في ذهنك.",
-    heroImage: "https://images.unsplash.com/photo-1614364962243-5eefd3905fe9?w=1600&q=85",
+    heroImage: "/gallery/blog-agafay-vs-merzouga-vs-zagora.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -611,7 +611,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "أرق الشبي أم أرق شغاغة: أي كثبان صحراوية؟",
     excerpt: "يمتلك المغرب بحرين رمليين عظيمين. أحدهما أسهل وصولًا ومذهل بلا شك؛ والآخر نائي بما يكفي لدرجة أنك قد لا ترى أي مخيم آخر على الإطلاق.",
-    heroImage: "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1600&q=85",
+    heroImage: "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -677,7 +677,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "مراكش أم أكادير: أي قاعدة لرحلتك في المغرب؟",
     excerpt: "نقطتا انطلاق مختلفتان تمامًا، والاختيار يشكّل كل ما يمكنك الوصول إليه. دليل من مشغّل يدير رحلات من كلتيهما.",
-    heroImage: "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1600&q=85",
+    heroImage: "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -832,7 +832,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "هل يمكن زيارة الصحراء الكبرى من أكادير؟ نعم، مع بعض التحفظات",
     excerpt: "ليست رحلة يوم واحد، مهما قيل لك عند مكتب استقبال الفندق. ما تتضمنه فعليًا خيارات اليومين والثلاثة والأربعة أيام من أكادير، وكيف يختلف المسار.",
-    heroImage: "https://images.unsplash.com/photo-1672754521539-49de145445a6?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-from-agadir.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -902,7 +902,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "أفضل الرحلات النهارية من أكادير",
     excerpt: "معالم أكادير نفسها متواضعة، لكن ما يقع على بُعد ساعتين ليس كذلك. ست رحلات نهارية تستحق الانطلاقة المبكرة، وما يقدمه كل منها فعليًا.",
-    heroImage: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1600&q=85",
+    heroImage: "/gallery/blog-best-day-trips-from-agadir.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -984,7 +984,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "أخدود تودرا: الوادي المنحوت في الطريق إلى الصحراء الكبرى",
     excerpt:
       "أخدود من الحجر الجيري بارتفاع 300 متر تمر به في طريقك إلى مرزوكة — وأحد أكثر التوقفات دراماتيكية على طول المسار بأكمله. إليك ما هو فعليًا ولماذا تتباطأ الرحلة من أجله.",
-    heroImage: "https://images.unsplash.com/photo-1706804391543-0edd327103d9?w=1600&q=85",
+    heroImage: "/gallery/blog-todra-gorge-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1041,7 +1041,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "وادي دادس: طريق الألف قصبة",
     excerpt:
       "طرق متعرجة، وتشكيلات صخرية وردية اللون، وقصبات مبنية داخل الجروف. وادي دادس هو أكثر الامتدادات دراماتيكية بصريًا في الطريق إلى الصحراء الكبرى.",
-    heroImage: "https://images.unsplash.com/photo-1738189237717-739ec4e0ee2a?w=1600&q=85",
+    heroImage: "/gallery/blog-dades-valley-gorges-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1165,7 +1165,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "آيت بن حدو: القصبة التي شاهدتها بالفعل في فيلم",
     excerpt:
       "قرية محصّنة مدرجة في قائمة اليونسكو قرب ورزازات، مثّلت روما القديمة ويونكاي وأكثر. إليك ما هي فعليًا خلف سمعتها كموقع تصوير سينمائي.",
-    heroImage: "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1218,7 +1218,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "من هم الأمازيغ (البربر)؟ مقدمة من داخل الثقافة",
     excerpt:
       "مرشدونا أمازيغ، وكان والدنا من أوائل مرشدي الجبال الأمازيغ المرخّصين في الأطلس الكبير، وتُستخدم الكلمة باستمرار في رحلات المغرب دون تفسير يُذكر. إليك ما تعنيه فعليًا.",
-    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-who-are-the-berbers.jpg",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1274,7 +1274,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ما هي القصبة؟ الكلمة وراء نصف معالم المغرب",
     excerpt:
       "تُستخدم كلمة «قصبة» بشكل فضفاض في الإنجليزية لتعني «مبنى قديم غريب». إليك ما تعنيه فعليًا، وكيف تختلف عن الرياض والقصر والمدينة القديمة.",
-    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1328,7 +1328,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ما هو الرياض؟ منزل الفناء المغربي موضَّحًا",
     excerpt:
       "يبدو أن كل فندق في مراكش يسمّي نفسه رياضًا. إليك ما تعنيه الكلمة فعليًا، ولماذا وُجد هذا التصميم، وكيف تميّز رياضًا حقيقيًا عن مجرد تسمية تسويقية.",
-    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-riad.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,
@@ -1383,7 +1383,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "حقائق عن الصحراء الكبرى: ما هو صحيح، وما يُبالَغ فيه",
     excerpt:
       "الصحراء الكبرى أكبر وأقدم وأقل خلوًا مما يتخيله معظم الناس. إليك الأرقام الحقيقية وراء الصحراء التي أنت على وشك زيارتها — وبعض الادعاءات الشائعة التي لا تصمد.",
-    heroImage: "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-facts.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1436,7 +1436,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "أفضل شريحة اتصال (سيم) في المغرب للسياح (2026)",
     excerpt:
       "تحتاج بيانات تعمل فعليًا في الأطلس والصحراء أكثر مما تحتاجها في مراكش، وهذا يغيّر أي شبكة تهم فعليًا. إليك ما تشتريه وأين.",
-    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-best-sim-card-morocco-tourists.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1490,7 +1490,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ماذا تحزم لرحلة صحراوية في المغرب",
     excerpt:
       "أيام الصحراء حارة وليالي الصحراء باردة حقًا — الخطأ في الحزم الذي يقع فيه تقريبًا الجميع هو الاستعداد لأحدهما وليس الآخر. إليك القائمة التي يستخدمها مرشدونا فعليًا.",
-    heroImage: "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1556,7 +1556,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "زيارة المغرب خلال رمضان: ما الذي يتغير فعليًا",
     excerpt:
       "يمتد رمضان 2026 من منتصف فبراير إلى منتصف مارس. إليك ما يتغير فعليًا بالنسبة للزائر — مواعيد المطاعم، وإيقاع الحياة، وكيف تكون ضيفًا مراعيًا — وما لا يتغير.",
-    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-visiting-morocco-during-ramadan.jpg",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1611,7 +1611,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الكحول في المغرب: ما هو قانوني، وأين",
     excerpt:
       "المغرب بلد ذو أغلبية مسلمة تكون فيه الكحول قانونية لكن مُقنَّنة بإحكام — تُباع في أماكن محددة، وفق قواعد محددة. إليك كيف يعمل الأمر فعليًا.",
-    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-alcohol-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1667,7 +1667,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "حديقة سوس ماسة الوطنية: أفضل مواقع مراقبة الطيور في المغرب، انطلاقًا من أكادير",
     excerpt:
       "على بُعد نصف ساعة جنوب أكادير يقع أحد آخر معاقل طائر أبو منجل الأصلع، وأرض رطبة تخوض فيها طيور النحام مصبّ المحيط الأطلسي. إليك كيفية زيارة سوس ماسة.",
-    heroImage: "https://images.pexels.com/photos/35506095/pexels-photo-35506095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-souss-massa-national-park-birdwatching-guide.jpg",
     category: "wildlife",
     region: "agadir-region",
     readTime: 7,
@@ -1712,7 +1712,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "تارودانت: «مراكش الصغيرة» التي يمكنك زيارتها من أكادير",
     excerpt:
       "محاطة بخمسة كيلومترات من الأسوار بلون العسل، تارودانت هي المدينة–السوق الأمازيغية المحصّنة التي تنساها حافلات السياح. إنها يوم سهل وممتع انطلاقًا من أكادير.",
-    heroImage: "https://images.pexels.com/photos/37684084/pexels-photo-37684084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-taroudant-day-trip-from-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -1755,7 +1755,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "زيت الأركان ووادي سوس: يوم ثقافي انطلاقًا من أكادير",
     excerpt:
       "شجرة الأركان لا تنمو تقريبًا في أي مكان آخر على الأرض. في وادي سوس خلف أكادير يمكنك مشاهدة عصر الزيت يدويًا، ولقاء تعاونيات النساء، وتناول الطعام في بيت أمازيغي.",
-    heroImage: "https://images.pexels.com/photos/13812743/pexels-photo-13812743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-argan-oil-souss-valley-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -1794,7 +1794,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "مواقع التراث العالمي لليونسكو في المغرب حيث صُوِّرت الأفلام",
     excerpt:
       "المصارع، صراع العروش، لورنس العرب — صُوِّرت بعض أكبر أفلام السينما بين مواقع التراث العالمي لليونسكو في المغرب. إليك أين تقف في المكان نفسه الذي دارت فيه الكاميرات.",
-    heroImage: "https://images.pexels.com/photos/13811656/pexels-photo-13811656.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-morocco-unesco-sites-film-locations.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 8,

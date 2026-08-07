@@ -8,7 +8,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     excerpt:
       "Le Maroc est sûr pour les femmes voyageant seules, et la mise en garde honnête, c'est que sûr ne veut pas dire confortable. À quoi ressemble vraiment l'attention qu'on y reçoit, comment s'habiller, et les stratégies qui fonctionnent.",
     heroImage:
-      "https://images.pexels.com/photos/35216129/pexels-photo-35216129.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "/gallery/blog-solo-female-travel-morocco-guide.jpg",
     category: "tips",
     region: "root",
     readTime: 10,
@@ -127,7 +127,7 @@ Des questions sur un itinéraire précis ou une inquiétude particulière ? [Con
     excerpt:
       "Sept jours suffisent pour un premier voyage si vous résistez à l'envie de tout voir. Les itinéraires qui fonctionnent sur 5, 7 et 10 jours — et l'erreur d'itinéraire que commet presque tout premier visiteur.",
     heroImage:
-      "https://images.unsplash.com/photo-1772580310425-63f2290c2ba7?w=1600&q=85",
+      "/gallery/blog-how-many-days-do-you-need-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 9,
@@ -522,7 +522,7 @@ Pour en savoir plus sur ce que le trek exige physiquement, voir [Le Toubkal est-
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Agafay, Merzouga ou Zagora : quel désert depuis Marrakech ?",
     excerpt: "Trois déserts très différents vendus sous un seul mot. Ce qu'est réellement chacun, la durée qu'il nécessite, et lequel correspond à l'image que vous avez en tête.",
-    heroImage: "https://images.unsplash.com/photo-1614364962243-5eefd3905fe9?w=1600&q=85",
+    heroImage: "/gallery/blog-agafay-vs-merzouga-vs-zagora.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -609,7 +609,7 @@ L'erreur à éviter est de réserver Agafay en s'attendant au Sahara. C'est un e
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Erg Chebbi ou Erg Chegaga : quelles dunes du Sahara ?",
     excerpt: "Le Maroc possède deux grandes mers de sable. L'une est plus facile d'accès et indéniablement spectaculaire ; l'autre est assez reculée pour que vous ne voyiez peut-être aucun autre camp.",
-    heroImage: "https://images.unsplash.com/photo-1743890914315-b53fb9e704cf?w=1600&q=85",
+    heroImage: "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -675,7 +675,7 @@ Pour comparer ces options avec les alternatives plus courtes proches de Marrakec
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Marrakech ou Agadir : quelle base pour votre voyage au Maroc ?",
     excerpt: "Deux points de départ très différents, et ce choix détermine tout ce que vous pouvez atteindre. Un guide écrit par un opérateur qui organise des circuits depuis les deux villes.",
-    heroImage: "https://images.unsplash.com/photo-1701793347370-bde5c22670e9?w=1600&q=85",
+    heroImage: "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -830,7 +830,7 @@ Pour comparer les itinéraires standards du Toubkal, voir [Le Toubkal en 2 jours
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Peut-on visiter le Sahara depuis Agadir ? Oui, avec des réserves",
     excerpt: "Pas en excursion d'une journée, quoi qu'on vous dise à la réception de l'hôtel. Ce qu'impliquent réellement les options de deux, trois et quatre jours depuis Agadir, et en quoi l'itinéraire diffère.",
-    heroImage: "https://images.unsplash.com/photo-1672754521539-49de145445a6?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-from-agadir.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -900,7 +900,7 @@ Pour voir en quoi les champs de dunes eux-mêmes diffèrent, voir [Erg Chebbi ou
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Les meilleures excursions d'une journée depuis Agadir",
     excerpt: "Les attraits propres d'Agadir sont modestes, mais ce qui se trouve à quelques heures ne l'est pas. Six excursions d'une journée qui valent le lever matinal, et ce que chacune offre réellement.",
-    heroImage: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1600&q=85",
+    heroImage: "/gallery/blog-best-day-trips-from-agadir.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -982,7 +982,7 @@ Pour les circuits désertiques depuis Agadir, qui nécessitent plus d'une journ�
     title: "Les gorges du Todra : le canyon sur la route du Sahara",
     excerpt:
       "Un canyon calcaire de 300 mètres que l'on traverse en route vers Merzouga — et l'un des arrêts les plus spectaculaires de tout l'itinéraire. Voici ce que c'est réellement, et pourquoi la route ralentit pour lui.",
-    heroImage: "https://images.unsplash.com/photo-1706804391543-0edd327103d9?w=1600&q=85",
+    heroImage: "/gallery/blog-todra-gorge-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1039,7 +1039,7 @@ Les gorges du Todra sont incluses comme arrêt sur notre [circuit de 3 jours de 
     title: "La vallée du Dadès : la route des mille kasbahs",
     excerpt:
       "Routes en lacets, formations rocheuses rouge-rosé, et kasbahs bâties à même les falaises. La vallée du Dadès est la portion la plus spectaculaire visuellement de la route vers le Sahara.",
-    heroImage: "https://images.unsplash.com/photo-1738189237717-739ec4e0ee2a?w=1600&q=85",
+    heroImage: "/gallery/blog-dades-valley-gorges-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1163,7 +1163,7 @@ Skoura est inclus dans notre [Grand Tour du désert de 4 jours](/fr/tours/desert
     title: "Aït Benhaddou : la kasbah que vous avez déjà vue dans un film",
     excerpt:
       "Un village fortifié classé à l'UNESCO près d'Ouarzazate qui a incarné la Rome antique, Yunkai, et bien plus encore. Voici ce qu'il est réellement, au-delà de sa réputation de décor de cinéma.",
-    heroImage: "https://images.unsplash.com/photo-1527338611623-4e242563220a?w=1600&q=85",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1216,7 +1216,7 @@ Aït Benhaddou se trouve sur la route d'Ouarzazate empruntée par notre [Grand T
     title: "Qui sont les Berbères ? Une introduction depuis l'intérieur de la culture",
     excerpt:
       "Nos guides sont berbères, notre père fut l'un des premiers guides de montagne berbères agréés dans le Haut Atlas, et le mot est utilisé constamment sur les voyages au Maroc sans grande explication. Voici ce qu'il signifie réellement.",
-    heroImage: "https://images.pexels.com/photos/33808740/pexels-photo-33808740.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-who-are-the-berbers.jpg",
     category: "culture",
     region: "atlas-mountains",
     readTime: 8,
@@ -1272,7 +1272,7 @@ Comprendre cela n'est pas anecdotique — cela change la manière dont un trek s
     title: "Qu'est-ce qu'une kasbah ? Le mot derrière la moitié des monuments du Maroc",
     excerpt:
       "En anglais, « kasbah » est employé de façon vague pour désigner tout vieux bâtiment exotique. Voici ce que le mot signifie réellement, et en quoi il diffère d'un riad, d'un ksar et d'une médina.",
-    heroImage: "https://images.pexels.com/photos/37818895/pexels-photo-37818895.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1326,7 +1326,7 @@ Certaines kasbahs restaurées fonctionnent désormais comme maisons d'hôtes, of
     title: "Qu'est-ce qu'un riad ? La maison à cour du Maroc, expliquée",
     excerpt:
       "Chaque hôtel de Marrakech semble s'appeler riad. Voici ce que le mot signifie réellement, pourquoi cette conception existe, et comment distinguer un vrai riad d'une étiquette marketing.",
-    heroImage: "https://images.pexels.com/photos/36966423/pexels-photo-36966423.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-what-is-a-riad.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 5,
@@ -1381,7 +1381,7 @@ Parce que « riad » évoque désormais boutique et traditionnel pour les voyage
     title: "Faits sur le désert du Sahara : ce qui est vrai, et ce qui est exagéré",
     excerpt:
       "Le Sahara est plus grand, plus ancien et moins vide que la plupart des gens l'imaginent. Voici les vrais chiffres derrière le désert que vous êtes sur le point de visiter — et quelques affirmations courantes qui ne tiennent pas la route.",
-    heroImage: "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=85",
+    heroImage: "/gallery/blog-sahara-desert-facts.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1434,7 +1434,7 @@ Des chiffres sur une page ne transmettent pas vraiment ce que ressent une mer de
     title: "La meilleure carte SIM au Maroc pour les touristes (2026)",
     excerpt:
       "Vous avez besoin d'une connexion data qui fonctionne davantage dans l'Atlas et le Sahara qu'à Marrakech, ce qui change l'opérateur qui compte réellement. Voici quoi acheter et où.",
-    heroImage: "https://images.pexels.com/photos/36209321/pexels-photo-36209321.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-best-sim-card-morocco-tourists.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1488,7 +1488,7 @@ Si votre voyage inclut du trekking de plusieurs jours ou un circuit désertique 
     title: "Que mettre dans son sac pour un circuit désertique au Maroc",
     excerpt:
       "Les journées désertiques sont chaudes et les nuits désertiques sont véritablement froides — l'erreur de préparation que presque tout le monde commet, c'est de se préparer pour l'une et d'oublier l'autre. Voici la liste que nos guides utilisent réellement.",
-    heroImage: "https://images.unsplash.com/photo-1685311572420-513619470404?w=1600&q=85",
+    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -1554,7 +1554,7 @@ Certains de nos itinéraires — le [Grand Tour du désert de 4 jours](/fr/tours
     title: "Visiter le Maroc pendant le Ramadan : ce qui change réellement",
     excerpt:
       "Le Ramadan 2026 se déroule de la mi-février à la mi-mars. Voici ce qui change véritablement pour un visiteur — horaires des restaurants, rythme de vie, et comment être un hôte respectueux — et ce qui ne change pas.",
-    heroImage: "https://images.pexels.com/photos/36503098/pexels-photo-36503098.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-visiting-morocco-during-ramadan.jpg",
     category: "culture",
     region: "root",
     readTime: 7,
@@ -1609,7 +1609,7 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
     title: "L'alcool au Maroc : ce qui est légal, et où",
     excerpt:
       "Le Maroc est un pays à majorité musulmane où l'alcool est légal mais étroitement canalisé — vendu dans des lieux précis, selon des règles précises. Voici comment cela fonctionne réellement.",
-    heroImage: "https://images.pexels.com/photos/30497987/pexels-photo-30497987.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-alcohol-in-morocco.jpg",
     category: "tips",
     region: "root",
     readTime: 5,
@@ -1665,7 +1665,7 @@ Si vous voulez boire un verre au Maroc : réservez un hébergement qui sert de l
     title: "Parc national de Souss-Massa : le meilleur de l'ornithologie au Maroc, depuis Agadir",
     excerpt:
       "À une demi-heure au sud d'Agadir se trouve l'un des derniers bastions de l'ibis chauve et une zone humide où les flamants roses pataugent dans l'estuaire atlantique. Voici comment visiter Souss-Massa.",
-    heroImage: "https://images.pexels.com/photos/35506095/pexels-photo-35506095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-souss-massa-national-park-birdwatching-guide.jpg",
     category: "wildlife",
     region: "agadir-region",
     readTime: 7,
@@ -1710,7 +1710,7 @@ Souss-Massa s'associe naturellement aux autres excursions à la journée au dép
     title: "Taroudant : la « petite Marrakech » à visiter depuis Agadir",
     excerpt:
       "Ceinte de cinq kilomètres de remparts couleur miel, Taroudant est la ville-marché berbère fortifiée que les cars de touristes oublient. C'est une journée facile et enrichissante depuis Agadir.",
-    heroImage: "https://images.pexels.com/photos/37684084/pexels-photo-37684084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-taroudant-day-trip-from-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -1753,7 +1753,7 @@ Taroudant se trouve en plein cœur du Souss et s'associe donc naturellement aux 
     title: "L'huile d'argan et la vallée du Souss : une journée culturelle depuis Agadir",
     excerpt:
       "L'arganier ne pousse presque nulle part ailleurs sur Terre. Dans la vallée du Souss, derrière Agadir, vous pouvez voir l'huile pressée à la main, rencontrer les coopératives de femmes et manger chez une famille berbère.",
-    heroImage: "https://images.pexels.com/photos/13812743/pexels-photo-13812743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-argan-oil-souss-valley-agadir-guide.jpg",
     category: "culture",
     region: "agadir-region",
     readTime: 6,
@@ -1792,7 +1792,7 @@ L'argan et le Souss se marient à merveille avec les autres journées de l'inté
     title: "Les sites UNESCO du Maroc où les films ont été tournés",
     excerpt:
       "Gladiator, Game of Thrones, Lawrence d'Arabie — certains des plus grands films du cinéma ont été tournés parmi les sites du patrimoine mondial de l'UNESCO au Maroc. Voici où se tenir là même où les caméras ont tourné.",
-    heroImage: "https://images.pexels.com/photos/13811656/pexels-photo-13811656.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    heroImage: "/gallery/blog-morocco-unesco-sites-film-locations.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 8,

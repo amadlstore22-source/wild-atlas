@@ -33,6 +33,6 @@ export const CATEGORIES: {
     label: "Tours Culturales",
     icon: "🕌",
     description: "Medinas, ksour y zocos, recorridos con guías que crecieron en ellos.",
-    heroImage: "https://images.unsplash.com/photo-1761062403563-103fb5ee768c?w=1600&q=85",
+    heroImage: "/gallery/categories-cultural.jpg",
   },
 ];

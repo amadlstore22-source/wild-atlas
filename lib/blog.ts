@@ -1990,12 +1990,12 @@ You would spend more time looking at the back of a headrest than at the Sahara. 
 
 ## What each actually costs
 
-Shared 3-day Merzouga tours run roughly **$120–$180 per person** at the budget end, up to **$200–$350** private. Zagora, being shorter, sits lower. Luxury desert camps run considerably higher.
+Shared 3-day Merzouga tours run roughly **€110–€170 per person** at the budget end, up to **€190–€330** private. Zagora, being shorter, sits lower. Luxury desert camps run considerably higher.
 
 Two things worth knowing about desert pricing:
 
 - **Booking direct with a licensed local operator typically saves 30–50%** versus booking through a hotel desk or a reseller platform, because you are removing a commission layer rather than a service.
-- **The cheap end has a mechanism.** A $90 3-day tour is not generous; it is recouping margin somewhere — a rushed schedule, a large group, a camp with shared facilities, or a heavy carpet-shop stop. That may be a fine trade. Just know you are making it.
+- **The cheap end has a mechanism.** An €85 3-day tour is not generous; it is recouping margin somewhere — a rushed schedule, a large group, a camp with shared facilities, or a heavy carpet-shop stop. That may be a fine trade. Just know you are making it.
 
 Budget separately for tips: roughly **200–500 MAD total** across driver, camel handlers, and camp staff for a multi-day trip. It is voluntary in theory and expected in practice, and it matters to the people doing the hardest work on your trip.
 
@@ -2016,23 +2016,23 @@ If you tell us how many days you have and what you actually want out of the dese
     author: MET_TEAM,
     title: "What a Morocco Desert Tour Really Costs (and Why the Cheap Ones Are Cheap)",
     excerpt:
-      "A breakdown of real 2026 prices for Sahara trips from Marrakech, what separates a $90 tour from a $300 one, how much to tip, and where the money actually goes.",
+      "A breakdown of real 2026 prices for Sahara trips from Marrakech, what separates an €85 tour from a €280 one, how much to tip, and where the money actually goes.",
     heroImage:
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
     region: "sahara-south",
     readTime: 8,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-08-07",
     tags: ["Morocco cost", "desert tour price", "Morocco budget", "tipping Morocco", "Sahara tour"],
     seoTitle: "Morocco Desert Tour Cost 2026 — Real Prices & Tipping | Marrakech Eco Tours",
     seoDescription:
-      "Real 2026 prices for Sahara desert tours from Marrakech: shared vs private vs luxury, what a $90 tour cuts to hit that number, how much to tip, and why booking direct saves 30-50%.",
+      "Real 2026 prices for Sahara desert tours from Marrakech: shared vs private vs luxury, what an €85 tour cuts to hit that number, how much to tip, and why booking direct saves 30-50%.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "desert-4day-marrakech"],
     faq: [
       {
         q: "How much does a 3-day Sahara desert tour from Marrakech cost?",
-        a: "Most 3-day desert tours cost between $150 and $300 per person in 2026. Shared group departures run roughly $120 to $180, private tours $200 to $350, and luxury camps $400 to $700. The cheapest advertised departures start near $90, which is achieved by cutting group size limits, camp quality, or schedule.",
+        a: "Most 3-day desert tours cost between €140 and €280 per person in 2026. Shared group departures run roughly €110 to €170, private tours €190 to €330, and luxury camps €370 to €650. The cheapest advertised departures start near €85, which is achieved by cutting group size limits, camp quality, or schedule. For reference, our own [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €392 per person for two travellers and €292 each for four, private throughout.",
       },
       {
         q: "How much should you tip on a Morocco desert tour?",
@@ -2043,8 +2043,8 @@ If you tell us how many days you have and what you actually want out of the dese
         a: "Booking direct with a licensed local operator in advance typically saves 30 to 50% compared with booking through a hotel desk or reseller platform, because you remove a commission layer. Booking on arrival in Marrakech can occasionally surface last-minute discounts, but you sacrifice choice of operator and, in peak season, availability entirely.",
       },
       {
-        q: "Why are some Morocco desert tours only $90?",
-        a: "A $90 three-day tour has to recover its margin somewhere. Usually that means a larger group in a bigger minibus, a basic camp with shared facilities, a compressed schedule with long driving days, and often commission stops at carpet or argan cooperatives where the operator earns a cut. None of that is fraud, but you should know it is the trade you are making.",
+        q: "Why are some Morocco desert tours only €85?",
+        a: "An €85 three-day tour has to recover its margin somewhere. Usually that means a larger group in a bigger minibus, a basic camp with shared facilities, a compressed schedule with long driving days, and often commission stops at carpet or argan cooperatives where the operator earns a cut. None of that is fraud, but you should know it is the trade you are making.",
       },
       {
         q: "When should you book a Morocco desert tour?",
@@ -2058,11 +2058,13 @@ Here is what a Sahara trip from Marrakech costs in 2026, per person:
 
 | Tour type | 2 days | 3 days |
 |---|---|---|
-| Shared group | $80–$120 | $120–$180 |
-| Private | ~$150–$250 | $200–$350 |
-| Luxury camp | — | $400–$700 |
+| Shared group | €75–€110 | €110–€170 |
+| Private | ~€140–€230 | €190–€330 |
+| Luxury camp | — | €370–€650 |
 
-The cheapest departures on the big resale platforms advertise from around **$90** for three days. The comfortable end of shared sits near **$300**. Both numbers are real. They buy different trips.
+The cheapest departures on the big resale platforms advertise from around **€85** for three days. The comfortable end of shared sits near **€280**. Both numbers are real. They buy different trips.
+
+For a fixed point in that range: our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€392 per person for two** and **€292 each for four**, private throughout — and our [shared 2-day Zagora trip](/en/tours/zagora-2day-marrakech) is **€62 per seat**. Those two numbers bracket most of the table above.
 
 ## Where the money goes
 
@@ -2076,16 +2078,16 @@ It is worth understanding the cost structure, because it explains every price on
 
 Because fuel and distance are fixed, **the cheap tours cut the other lines.** That is not a scandal; it is arithmetic.
 
-## What $90 actually buys
+## What €85 actually buys
 
-A $90 three-day tour recovers its margin somewhere. Typically:
+An €85 three-day tour recovers its margin somewhere. Typically:
 
 - **A bigger group.** Sixteen people in a minibus instead of six in a 4x4.
 - **A basic camp.** Shared tents, shared facilities, thin mattresses.
 - **A compressed schedule.** Fewer stops, longer driving blocks, less time at the dunes.
 - **Commission stops.** A long pause at a carpet shop or argan cooperative where the operator takes a cut of what you buy.
 
-If you are 24, travelling on a budget, and mostly want to sleep in the Sahara and see the stars, a $90 tour delivers exactly that, and complaining about the minibus afterwards is a bit unfair. If you are on a two-week honeymoon, it will feel like a mistake.
+If you are 24, travelling on a budget, and mostly want to sleep in the Sahara and see the stars, an €85 tour delivers exactly that, and complaining about the minibus afterwards is a bit unfair. If you are on a two-week honeymoon, it will feel like a mistake.
 
 **Know what you are buying.** That is the whole message.
 
@@ -2101,7 +2103,7 @@ We are a direct operator, so treat that paragraph with appropriate suspicion. Th
 
 Tipping trips people up because nobody states a number. Here are numbers, for a 3-day trip, per person:
 
-- **Driver-guide:** 200–500 MAD ($22–$55)
+- **Driver-guide:** 200–500 MAD (€19–€47)
 - **Camel handlers:** 50–100 MAD
 - **Camp staff:** 100–200 MAD across two nights
 

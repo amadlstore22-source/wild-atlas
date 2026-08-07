@@ -1920,12 +1920,12 @@ Passereste più tempo a guardare il poggiatesta davanti a voi che il Sahara. Non
 
 ## Quanto costa ciascuno
 
-I tour condivisi di 3 giorni a Merzouga costano circa **$120-$180 a persona** nella fascia economica, fino a **$200-$350** in versione privata. Zagora, essendo più breve, costa meno. I campi di lusso costano considerevolmente di più.
+I tour condivisi di 3 giorni a Merzouga costano circa **€110-€170 a persona** nella fascia economica, fino a **€190-€330** in versione privata. Zagora, essendo più breve, costa meno. I campi di lusso costano considerevolmente di più.
 
 Due cose che vale la pena sapere sui prezzi del deserto:
 
 - **Prenotare direttamente con un operatore locale autorizzato fa risparmiare tipicamente il 30-50%** rispetto a prenotare tramite la reception di un hotel o una piattaforma di rivendita, perché state eliminando uno strato di commissione piuttosto che un servizio.
-- **La fascia economica ha un meccanismo.** Un tour di 3 giorni da $90 non è generoso; sta recuperando margine da qualche parte — un programma frettoloso, un grande gruppo, un campo con strutture condivise, o una lunga sosta commissionata in un negozio di tappeti. Potrebbe essere un buon compromesso. Basta sapere che lo state facendo.
+- **La fascia economica ha un meccanismo.** Un tour di 3 giorni da €85 non è generoso; sta recuperando margine da qualche parte — un programma frettoloso, un grande gruppo, un campo con strutture condivise, o una lunga sosta commissionata in un negozio di tappeti. Potrebbe essere un buon compromesso. Basta sapere che lo state facendo.
 
 Mettete a budget separatamente le mance: circa **200-500 MAD in totale** tra autista, cammellieri e staff del campo per un viaggio di più giorni. È volontario in teoria e previsto in pratica, e conta per le persone che fanno il lavoro più duro del vostro viaggio.
 
@@ -1946,7 +1946,7 @@ Se ci dite quanti giorni avete e cosa volete davvero dal deserto, vi indirizzere
     author: MET_TEAM,
     title: "Quanto costa davvero un tour nel deserto in Marocco (e perché quelli economici sono economici)",
     excerpt:
-      "Un'analisi dei prezzi reali del 2026 per i viaggi nel Sahara da Marrakech, cosa distingue un tour da $90 da uno da $300, quanto dare di mancia, e dove va davvero il denaro.",
+      "Un'analisi dei prezzi reali del 2026 per i viaggi nel Sahara da Marrakech, cosa distingue un tour da €85 da uno da €280, quanto dare di mancia, e dove va davvero il denaro.",
     heroImage:
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
@@ -1957,12 +1957,12 @@ Se ci dite quanti giorni avete e cosa volete davvero dal deserto, vi indirizzere
     tags: ["costo Marocco", "prezzo tour nel deserto", "budget Marocco", "mance in Marocco", "tour nel Sahara"],
     seoTitle: "Costo del tour nel deserto in Marocco 2026 — Prezzi reali e mance | Marrakech Eco Tours",
     seoDescription:
-      "Prezzi reali del 2026 per i tour nel deserto del Sahara da Marrakech: condiviso contro privato contro lusso, cosa taglia un tour da $90 per raggiungere quella cifra, quanto dare di mancia, e perché prenotare direttamente fa risparmiare il 30-50%.",
+      "Prezzi reali del 2026 per i tour nel deserto del Sahara da Marrakech: condiviso contro privato contro lusso, cosa taglia un tour da €85 per raggiungere quella cifra, quanto dare di mancia, e perché prenotare direttamente fa risparmiare il 30-50%.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "desert-4day-marrakech"],
     faq: [
       {
         q: "Quanto costa un tour nel deserto del Sahara di 3 giorni da Marrakech?",
-        a: "La maggior parte dei tour nel deserto di 3 giorni costa tra $150 e $300 a persona nel 2026. Le partenze di gruppo condivise costano circa $120-$180, i tour privati $200-$350, e i campi di lusso $400-$700. Le partenze pubblicizzate più economiche partono da circa $90, ottenuto tagliando i limiti di dimensione del gruppo, la qualità del campo o il programma.",
+        a: "La maggior parte dei tour nel deserto di 3 giorni costa tra €140 e €280 a persona nel 2026. Le partenze di gruppo condivise costano circa €110-€170, i tour privati €190-€330, e i campi di lusso €370-€650. Le partenze pubblicizzate più economiche partono da circa €85, ottenuto tagliando i limiti di dimensione del gruppo, la qualità del campo o il programma.",
       },
       {
         q: "Quanto bisogna dare di mancia su un tour nel deserto in Marocco?",
@@ -1973,8 +1973,8 @@ Se ci dite quanti giorni avete e cosa volete davvero dal deserto, vi indirizzere
         a: "Prenotare direttamente con un operatore locale autorizzato in anticipo fa risparmiare tipicamente il 30-50% rispetto a prenotare tramite la reception di un hotel o una piattaforma di rivendita, perché eliminate uno strato di commissione. Prenotare all'arrivo a Marrakech può occasionalmente far emergere sconti dell'ultimo minuto, ma sacrificate la scelta dell'operatore e, in alta stagione, la disponibilità stessa.",
       },
       {
-        q: "Perché alcuni tour nel deserto in Marocco costano solo $90?",
-        a: "Un tour di tre giorni da $90 deve recuperare il margine da qualche parte. Solitamente significa un gruppo più grande in un minibus più grande, un campo basico con strutture condivise, un programma compresso con lunghe giornate di guida, e spesso soste commissionate presso cooperative di tappeti o argan dove l'operatore guadagna una percentuale. Niente di tutto ciò è frode, ma dovreste sapere che è il compromesso che state facendo.",
+        q: "Perché alcuni tour nel deserto in Marocco costano solo €85?",
+        a: "Un tour di tre giorni da €85 deve recuperare il margine da qualche parte. Solitamente significa un gruppo più grande in un minibus più grande, un campo basico con strutture condivise, un programma compresso con lunghe giornate di guida, e spesso soste commissionate presso cooperative di tappeti o argan dove l'operatore guadagna una percentuale. Niente di tutto ciò è frode, ma dovreste sapere che è il compromesso che state facendo.",
       },
       {
         q: "Quando bisognerebbe prenotare un tour nel deserto in Marocco?",
@@ -1988,11 +1988,11 @@ Ecco quanto costa un viaggio nel Sahara da Marrakech nel 2026, a persona:
 
 | Tipo di tour | 2 giorni | 3 giorni |
 |---|---|---|
-| Gruppo condiviso | $80-$120 | $120-$180 |
-| Privato | ~$150-$250 | $200-$350 |
-| Campo di lusso | — | $400-$700 |
+| Gruppo condiviso | €75-€110 | €110-€170 |
+| Privato | ~€140-€230 | €190-€330 |
+| Campo di lusso | — | €370-€650 |
 
-Le partenze più economiche sulle grandi piattaforme di rivendita pubblicizzano a partire da circa **$90** per tre giorni. La fascia confortevole del condiviso si avvicina a **$300**. Entrambi i numeri sono reali. Comprano viaggi diversi.
+Le partenze più economiche sulle grandi piattaforme di rivendita pubblicizzano a partire da circa **€85** per tre giorni. La fascia confortevole del condiviso si avvicina a **€280**. Entrambi i numeri sono reali. Comprano viaggi diversi.
 
 ## Dove va il denaro
 
@@ -2006,16 +2006,16 @@ Vale la pena capire la struttura dei costi, perché spiega ogni prezzo di quella
 
 Poiché carburante e distanza sono fissi, **i tour economici tagliano le altre voci.** Questo non è uno scandalo; è aritmetica.
 
-## Cosa compra davvero $90
+## Cosa compra davvero €85
 
-Un tour di tre giorni da $90 recupera il margine da qualche parte. Tipicamente:
+Un tour di tre giorni da €85 recupera il margine da qualche parte. Tipicamente:
 
 - **Un gruppo più grande.** Sedici persone in un minibus invece di sei in un 4x4.
 - **Un campo basico.** Tende condivise, strutture condivise, materassi sottili.
 - **Un programma compresso.** Meno soste, blocchi di guida più lunghi, meno tempo alle dune.
 - **Soste commissionate.** Una lunga pausa in un negozio di tappeti o in una cooperativa dell'argan dove l'operatore prende una percentuale su ciò che acquistate.
 
-Se avete 24 anni, viaggiate con un budget limitato, e volete soprattutto dormire nel Sahara e vedere le stelle, un tour da $90 offre esattamente questo, e lamentarsi del minibus dopo è un po' ingiusto. Se siete in luna di miele di due settimane, sembrerà un errore.
+Se avete 24 anni, viaggiate con un budget limitato, e volete soprattutto dormire nel Sahara e vedere le stelle, un tour da €85 offre esattamente questo, e lamentarsi del minibus dopo è un po' ingiusto. Se siete in luna di miele di due settimane, sembrerà un errore.
 
 **Sapete cosa state comprando.** Questo è tutto il messaggio.
 
@@ -2031,7 +2031,7 @@ Siamo un operatore diretto, quindi trattate questo paragrafo con la dovuta caute
 
 Le mance mettono in difficoltà le persone perché nessuno indica un numero. Ecco dei numeri, per un viaggio di 3 giorni, a persona:
 
-- **Autista-guida:** 200-500 MAD ($22-$55)
+- **Autista-guida:** 200-500 MAD (€19-€47)
 - **Cammellieri:** 50-100 MAD
 - **Staff del campo:** 100-200 MAD su due notti
 

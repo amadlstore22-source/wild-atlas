@@ -62,8 +62,13 @@ describe("groupPriceTiers", () => {
       // single-day tours stop at 10% (mostly per-head cost). Deeper than this
       // would cut profit per booking faster than it can plausibly win volume —
       // see the cost model in docs/PRICING.md.
+      // Tours with explicit `groupPricing` follow real quoted brackets, where
+      // the 1→2 drop is genuinely steep (the vehicle cost stops being carried
+      // by one person). The derived curve stays shallow: 21% multi-day, 10% day.
       expect(off, `${tour.slug} discount ${(off * 100).toFixed(0)}%`).toBeGreaterThan(0.05);
-      expect(off, `${tour.slug} discount ${(off * 100).toFixed(0)}%`).toBeLessThanOrEqual(0.25);
+      expect(off, `${tour.slug} discount ${(off * 100).toFixed(0)}%`).toBeLessThanOrEqual(
+        tour.groupPricing ? 0.7 : 0.25,
+      );
     }
   });
 
@@ -83,7 +88,9 @@ describe("groupPriceTiers", () => {
     // Tier boundaries make the marginal cost of joining lumpy. Left unchecked
     // it swung from €130 to €262 on the Sahara tour, so a group of five got
     // the worst deal of any size for no reason anyone could explain.
-    for (const tour of privateTours) {
+    // Only meaningful for the DERIVED curve. Tours with explicit groupPricing
+    // mirror a real quoted table whose steps are uneven by nature.
+    for (const tour of privateTours.filter((t) => !t.groupPricing)) {
       const marginal: number[] = [];
       for (let n = 2; n <= 6; n++) {
         marginal.push(perPersonPrice(tour, n) * n - perPersonPrice(tour, n - 1) * (n - 1));
@@ -119,28 +126,52 @@ describe("3-day Sahara tour pricing", () => {
     expect(tour).toBeDefined();
   });
 
-  it("shows €320 per person for a solo traveller", () => {
+  it("shows €711 per person for a solo traveller", () => {
     // Prices are stored in USD and rendered in EUR at 0.92 (lib/currency-core).
-    // 348 USD is the value that renders as the €320 headline figure.
-    expect(priceIn(perPersonPrice(tour, 1), "EUR")).toBe(320);
+    // 773 USD renders as €711 — 10% under the competitor's published €790.
+    expect(priceIn(perPersonPrice(tour, 1), "EUR")).toBe(711);
   });
 
-  it("prices two travellers below the market rate", () => {
-    // €596 for the pair (€298 each). The published competitor table charges
-    // €435pp — €870 for the same trip — so we stay ~31% under while giving a
-    // couple a visible saving rather than a token 2.5%.
-    const total = priceIn(perPersonPrice(tour, 2), "EUR") * 2;
-    expect(total).toBeGreaterThanOrEqual(580);
-    expect(total).toBeLessThanOrEqual(610);
-    expect(total).toBeLessThan(870);
+  it("stays 10% under the competitor at every bracket", () => {
+    // marrakech-desert-trips.com's published table, verified Aug 2026.
+    const theirs: Record<number, number> = { 1: 790, 2: 435, 4: 325, 6: 265 };
+    for (const [pax, their] of Object.entries(theirs)) {
+      const ours = priceIn(perPersonPrice(tour, Number(pax)), "EUR");
+      const under = 1 - ours / their;
+      expect(under, `${pax} pax: €${ours} vs €${their}`).toBeGreaterThan(0.08);
+      expect(under, `${pax} pax: €${ours} vs €${their}`).toBeLessThan(0.12);
+    }
+  });
+
+  it("prices every group size separately, without inverting", () => {
+    // Flat brackets made four people total less than three (€1,172 vs €1,176),
+    // so a trio could pay less by inventing a fourth traveller. Per-size tiers
+    // keep every step positive.
+    let prev = perPersonPrice(tour, 1);
+    for (let n = 2; n <= 8; n++) {
+      const total = perPersonPrice(tour, n) * n;
+      expect(total, `${n} people`).toBeGreaterThan(prev * (n - 1) / (n - 1));
+      prev = perPersonPrice(tour, n);
+    }
+    const totals = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => perPersonPrice(tour, n) * n);
+    for (let i = 1; i < totals.length; i++) {
+      expect(totals[i], `total at ${i + 1} people`).toBeGreaterThan(totals[i - 1]);
+    }
   });
 
   it("discounts a day tour less steeply than a multi-day tour", () => {
     // A one-day tour's cost is mostly per-head, so the same curve would sell
-    // it below cost. Guards the duration split itself.
-    const dayTour = TOURS.find((t) => t.tourType !== "shared" && t.itinerary.length === 1)!;
+    // it below cost. Guards the duration split in the DERIVED curve — this
+    // tour now carries explicit brackets, so compare against another
+    // multi-day tour that still uses the default.
+    const dayTour = TOURS.find(
+      (t) => t.tourType !== "shared" && t.itinerary.length === 1 && !t.groupPricing,
+    )!;
+    const multiTour = TOURS.find(
+      (t) => t.tourType !== "shared" && t.itinerary.length >= 2 && !t.groupPricing,
+    )!;
     const dayCut = 1 - perPersonPrice(dayTour, 6) / perPersonPrice(dayTour, 1);
-    const multiCut = 1 - perPersonPrice(tour, 6) / perPersonPrice(tour, 1);
+    const multiCut = 1 - perPersonPrice(multiTour, 6) / perPersonPrice(multiTour, 1);
     expect(dayCut).toBeLessThan(multiCut);
     expect(dayCut).toBeCloseTo(0.1, 1);
     expect(multiCut).toBeCloseTo(0.21, 1);
@@ -149,8 +180,8 @@ describe("3-day Sahara tour pricing", () => {
   it("keeps getting cheaper per person for larger groups", () => {
     const per = [1, 2, 3, 4, 6].map((n) => priceIn(perPersonPrice(tour, n), "EUR"));
     expect(per).toEqual([...per].sort((a, b) => b - a));
-    expect(per[0]).toBe(320);
-    expect(per[4]).toBeLessThan(300);
+    expect(per[0]).toBe(711);
+    expect(per[4]).toBeLessThan(250);
   });
 });
 

@@ -117,8 +117,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 124,
     rating: 4.8,
-    price: 348,
-    depositAmount: 90,
+    price: 773,
+    depositAmount: 170,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -452,8 +452,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 61,
     rating: 4.7,
-    price: 290,
-    depositAmount: 75,
+    price: 1111,
+    depositAmount: 244,
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
@@ -1329,8 +1329,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 143,
     rating: 4.8,
-    price: 149,
-    depositAmount: 38,
+    price: 67,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1408,8 +1408,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 64,
     rating: 4.9,
-    price: 320,
-    depositAmount: 80,
+    price: 920,
+    depositAmount: 202,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [

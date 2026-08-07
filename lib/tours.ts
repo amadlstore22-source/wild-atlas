@@ -222,10 +222,28 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 124,
     rating: 4.8,
-    // Stored in USD (see lib/currency-core.ts). 348 USD renders as €320 at the
-    // 0.92 rate, which is the headline figure this tour is sold on.
-    price: 348,
-    depositAmount: 90,
+    // Stored in USD (see lib/currency-core.ts). Benchmarked against
+    // marrakech-desert-trips.com's published 3-day Merzouga table
+    // (verified Aug 2026) and set 10% under it at every bracket.
+    price: 773,
+    depositAmount: 170,
+    // Priced per exact group size, mirroring how these trips are quoted.
+    // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
+    // people total less than three (€1,172 vs €1,176), so a trio was
+    // better off booking a phantom fourth. Per-size tiers never invert.
+    // The 1→2 drop is steep because the vehicle and driver-guide cost the
+    // same either way; only camp, meals and fees scale per head.
+    groupPricing: [
+      { minPeople: 1, price: 773 }, // €711
+      { minPeople: 2, price: 426 }, // €392
+      { minPeople: 3, price: 356 }, // €328
+      { minPeople: 4, price: 317 }, // €292
+      { minPeople: 5, price: 289 }, // €266
+      { minPeople: 6, price: 259 }, // €238
+      { minPeople: 7, price: 239 }, // €220
+      { minPeople: 10, price: 216 }, // €199  (raised from €194: the source table inverts here)
+      { minPeople: 14, price: 201 }, // €185  (raised from €176: the source table inverts here)
+    ],
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -298,7 +316,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €320, less per person for groups.",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €711 for one traveller, €392 each for two or three, and less again for larger groups.",
     featured: true,
   },
   {
@@ -557,8 +575,28 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 61,
     rating: 4.7,
-    price: 290,
-    depositAmount: 75,
+    // Stored in USD (see lib/currency-core.ts). Benchmarked against
+    // marrakech-desert-trips.com's published 3-day Marrakech to Fes table
+    // (verified Aug 2026) and set 10% under it at every bracket.
+    price: 1111,
+    depositAmount: 244,
+    // Priced per exact group size, mirroring how these trips are quoted.
+    // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
+    // people total less than three (€1,172 vs €1,176), so a trio was
+    // better off booking a phantom fourth. Per-size tiers never invert.
+    // The 1→2 drop is steep because the vehicle and driver-guide cost the
+    // same either way; only camp, meals and fees scale per head.
+    groupPricing: [
+      { minPeople: 1, price: 1111 }, // €1022
+      { minPeople: 2, price: 622 }, // €572
+      { minPeople: 3, price: 533 }, // €490
+      { minPeople: 4, price: 485 }, // €446
+      { minPeople: 5, price: 454 }, // €418
+      { minPeople: 6, price: 406 }, // €374
+      { minPeople: 7, price: 387 }, // €356
+      { minPeople: 10, price: 349 }, // €321  (raised from €310: the source table inverts here)
+      { minPeople: 14, price: 325 }, // €299  (raised from €284: the source table inverts here)
+    ],
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
@@ -625,7 +663,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 34.0331, lng: -5.0003, name: "Fes el-Bali, Imperial City" },
     seoTitle: "3-Day Marrakech to Fes Tour — Imperial Cities & High Atlas | Marrakech Eco Tours",
-    seoDescription: "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. 3-day private 4x4 tour with riad accommodation. From $290.",
+    seoDescription: "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. 3-day private 4x4 tour with riad accommodation. From $1111 solo, far less per person for two or more.",
     featured: false,
   },
   {
@@ -1436,8 +1474,11 @@ export const TOURS: Tour[] = [
     tourType: "shared",
     reviewCount: 143,
     rating: 4.8,
-    price: 149,
-    depositAmount: 38,
+    // Shared departure: a flat per-seat price with no group tiers,
+    // because a seat costs the same however many people book it.
+    // Benchmarked on their 2-day Zagora shared seat at €69, less 10%.
+    price: 67,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1501,7 +1542,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
     featured: false,
     seoTitle: "Marrakech to Zagora 2-Day Desert Tour — Draa Valley, Camel Trek & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $149.",
+    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $67.",
   },
   {
     id: "24",
@@ -1515,8 +1556,24 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 64,
     rating: 4.9,
-    price: 320,
-    depositAmount: 80,
+    // Stored in USD (see lib/currency-core.ts). Benchmarked against
+    // marrakech-desert-trips.com's published 3-day Erg Chigaga table
+    // (verified Aug 2026) and set 10% under it at every bracket.
+    price: 920,
+    depositAmount: 202,
+    // Priced per exact group size, mirroring how these trips are quoted.
+    // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
+    // people total less than three (€1,172 vs €1,176), so a trio was
+    // better off booking a phantom fourth. Per-size tiers never invert.
+    // The 1→2 drop is steep because the vehicle and driver-guide cost the
+    // same either way; only camp, meals and fees scale per head.
+    groupPricing: [
+      { minPeople: 1, price: 920 }, // €846
+      { minPeople: 2, price: 499 }, // €459
+      { minPeople: 3, price: 376 }, // €346
+      { minPeople: 4, price: 317 }, // €292
+      { minPeople: 5, price: 278 }, // €256
+    ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
@@ -1593,7 +1650,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Erg Chegaga 3-Day Desert Tour from Marrakech — Remote Dunes & 4x4 Sahara Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $320.",
+    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $920 solo, far less per person for two or more.",
   },
   {
     id: "25",

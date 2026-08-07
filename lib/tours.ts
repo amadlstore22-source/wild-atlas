@@ -3646,6 +3646,11 @@ export function groupPriceTiers(tour: Tour): { minPeople: number; price: number 
     { minPeople: 2, price: Math.round(tour.price * 0.975) },
     { minPeople: 3, price: Math.round(tour.price * 0.9) },
     { minPeople: 4, price: Math.round(tour.price * 0.82) },
+    // Without a 5 tier the marginal cost of joining zigzags: person 4 adds
+    // ~€184, person 5 ~€262, person 6 ~€130. Nobody is overcharged (the total
+    // never falls) but a group of five gets the worst deal of any size, which
+    // is arbitrary rather than intentional. 0.785 smooths the step.
+    { minPeople: 5, price: Math.round(tour.price * 0.785) },
     { minPeople: 6, price: Math.round(tour.price * 0.75) },
   ];
 }

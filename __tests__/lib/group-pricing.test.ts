@@ -63,6 +63,37 @@ describe("groupPriceTiers", () => {
     }
   });
 
+  it("never makes the booking total fall as the group grows", () => {
+    // A bigger group must never pay less in TOTAL than a smaller one, or two
+    // people could book a phantom third to pay less.
+    for (const tour of TOURS) {
+      for (let n = 2; n <= 12; n++) {
+        const prev = perPersonPrice(tour, n - 1) * (n - 1);
+        const now = perPersonPrice(tour, n) * n;
+        expect(now, `${tour.slug} at ${n} people`).toBeGreaterThanOrEqual(prev);
+      }
+    }
+  });
+
+  it("keeps the cost of adding one more traveller reasonably smooth", () => {
+    // Tier boundaries make the marginal cost of joining lumpy. Left unchecked
+    // it swung from €130 to €262 on the Sahara tour, so a group of five got
+    // the worst deal of any size for no reason anyone could explain.
+    for (const tour of privateTours) {
+      const marginal: number[] = [];
+      for (let n = 2; n <= 6; n++) {
+        marginal.push(perPersonPrice(tour, n) * n - perPersonPrice(tour, n - 1) * (n - 1));
+      }
+      const lo = Math.min(...marginal);
+      const hi = Math.max(...marginal);
+      // The first traveller added is legitimately the priciest (they trigger
+      // the smallest discount), so compare the 3rd-6th only.
+      const tail = marginal.slice(1);
+      const spread = Math.max(...tail) / Math.min(...tail);
+      expect(spread, `${tour.slug} marginal spread ${lo}–${hi}`).toBeLessThan(1.6);
+    }
+  });
+
   it("returns a tour's explicit groupPricing untouched when set", () => {
     const custom: Tour = {
       ...TOURS[0],

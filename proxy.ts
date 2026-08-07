@@ -23,6 +23,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "high-atlas-grand-traverse-cost": "prix-grande-traversee-haut-atlas",
   "toubkal-sahara-5day-cost": "prix-toubkal-sahara-5-jours",
   "high-atlas-village-trek-cost": "prix-trek-villages-haut-atlas",
+  "morocco-tour-price-group-size": "prix-circuit-maroc-taille-groupe",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -39,6 +40,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "high-atlas-grand-traverse-cost": "precio-gran-travesia-alto-atlas",
   "toubkal-sahara-5day-cost": "precio-toubkal-sahara-5-dias",
   "high-atlas-village-trek-cost": "precio-trek-pueblos-alto-atlas",
+  "morocco-tour-price-group-size": "precio-circuito-marruecos-tamano-grupo",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -55,6 +57,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "high-atlas-grand-traverse-cost": "hoher-atlas-grand-traverse-kosten",
   "toubkal-sahara-5day-cost": "toubkal-sahara-5-tage-kosten",
   "high-atlas-village-trek-cost": "hoher-atlas-dorftrek-kosten",
+  "morocco-tour-price-group-size": "marokko-tour-preis-gruppengroesse",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -71,6 +74,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "high-atlas-grand-traverse-cost": "prezzo-grande-traversata-alto-atlante",
   "toubkal-sahara-5day-cost": "prezzo-toubkal-sahara-5-giorni",
   "high-atlas-village-trek-cost": "prezzo-trek-villaggi-alto-atlante",
+  "morocco-tour-price-group-size": "prezzo-tour-marocco-dimensione-gruppo",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

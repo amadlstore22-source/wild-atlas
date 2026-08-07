@@ -4046,4 +4046,171 @@ Transfers — steckt in den 235 €.
 👉 **[Zum 3-tägigen Dorftrek im Hohen Atlas](/de/tours/atlas-mountains-3day-trek)** — 235 € pro Person, drei Täler, zwei Nächte bei Berberfamilien, ohne Gipfelanstieg.
 `,
   },
+  {
+    slug: "morocco-tour-price-group-size",
+    localizedSlug: "marokko-tour-preis-gruppengroesse",
+    relatedTours: ["sahara-3day-marrakech", "toubkal-summit-2day-marrakech", "atlas-mountains-3day-trek"],
+    author: MET_TEAM,
+    title: "Wie die Gruppengröße den Preis Ihrer Marokko-Tour verändert (2026)",
+    excerpt:
+      "Eine Privattour wird pro Fahrzeug berechnet — der zweite Mitreisende kostet fast nichts. Hier ist die komplette Tabelle: was eine, zwei, vier und sechs Personen zahlen, und warum der Sprung von eins auf zwei so groß ist.",
+    heroImage: "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["Marokko Tour Gruppenrabatt", "Privattour Preis pro Person", "Marokko Tour Kosten pro Person", "Preis nach Gruppengröße", "Wüstentour Preis 2 Personen", "Marokko Reisebudget"],
+    seoTitle: "Marokko-Tourpreise nach Gruppengröße — Tabelle 2026",
+    seoDescription:
+      "Warum eine Marokko-Privattour für eine Person 711 € kostet und für zwei je 392 €. Die komplette Preistabelle pro Person nach Gruppengröße und der Grund für den steilen Abfall.",
+    faq: [
+      { q: "Warum ist eine Marokko-Privattour für zwei Personen so viel günstiger als für eine?", a: "Weil eine Privattour pro Fahrzeug berechnet wird, nicht pro Sitzplatz. Der 4x4, der Fahrer, der Kraftstoff und die Übernachtungen kosten fast dasselbe, ob eine Person reist oder zwei. Bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) liegt der Einzelpreis bei 711 € und der Preis zu zweit bei je 392 € — ein Rückgang von 45 %, weil der zweite Reisende nur seine eigenen Mahlzeiten und sein Bett hinzufügt, nicht ein zweites Fahrzeug." },
+      { q: "Wie viel spare ich, wenn wir zu viert statt zu zweit reisen?", a: "Bei der [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) sinkt der Preis pro Person von 392 € zu zweit auf 292 € zu viert — rund 26 % pro Person. Die Ersparnis ist real, aber deutlich kleiner als der Sprung von eins auf zwei, denn bei vier Personen sind die fixen Fahrzeugkosten bereits weit verteilt und Sie addieren nur noch Kosten pro Kopf: Mahlzeiten, Betten im Zelt und den Kamelritt." },
+      { q: "Gelten Gruppenrabatte auch für geteilte Wüstentouren?", a: "Nein, und es lohnt sich zu verstehen, warum. Eine geteilte Tour wie der [2-tägige Zagora-Trip](/de/tours/zagora-2day-marrakech) wird pro Sitzplatz zu 62 € verkauft — Sie kaufen einen Platz in einem Minibus, der ohnehin fährt. Es gibt keine Fahrzeugkosten zu teilen, also kosten sechs Plätze das Sechsfache eines Platzes. Gruppenpreise gibt es nur bei Privattouren." },
+      { q: "Gibt es eine Gruppengröße, ab der der Preis nicht mehr sinkt?", a: "Ja. Ab sechs Personen flacht der Preis pro Person ab, und ab acht bewegt er sich kaum noch. An diesem Punkt braucht es ein zweites Fahrzeug oder einen größeren Minibus, sodass sich die Fixkosten, die Sie gerade verteilt haben, zu verdoppeln beginnen. Unsere veröffentlichten Staffeln reichen bis vierzehn Personen, aber die relevanten Ersparnisse liegen alle in den ersten sechs." },
+      { q: "Sind die Rabatte bei Tagestouren genauso hoch wie bei Mehrtagestouren?", a: "Nein. Eine [Medina-Tour in Marrakesch](/de/tours/marrakech-medina-cultural-tour) kostet allein 41 € und zu sechst 38 € — rund 7 %, weil eine Tour zu Fuß kaum Fixkosten zum Teilen hat. Sie bezahlen den Tag eines lizenzierten Guides, und dieser Preis ist fast derselbe, wer auch immer erscheint. Mehrtagestouren mit Fahrzeug und Unterkunft rabattieren um ein Vielfaches stärker." },
+    ],
+    content: `
+## Die kurze Antwort
+
+Bei einer **privaten** Tour in Marokko fällt der Preis pro Person stark, je größer
+die Gruppe wird — weil Sie ein Fahrzeug und einen Fahrer mieten, nicht Sitzplätze
+kaufen. Bei einer **geteilten** Tour fällt er überhaupt nicht, weil es nichts zu
+teilen gibt.
+
+So sieht das bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) aus:
+
+| Reisende | Preis pro Person | Gruppensumme | Ersparnis ggü. allein |
+|---|---|---|---|
+| 1 | 711 € | 711 € | — |
+| 2 | 392 € | 784 € | 45 % |
+| 3 | 328 € | 984 € | 54 % |
+| 4 | 292 € | 1.168 € | 59 % |
+| 5 | 266 € | 1.330 € | 63 % |
+| 6 | 238 € | 1.428 € | 67 % |
+
+Achten Sie auf den Verlauf. Der Sprung von eins auf zwei beträgt **45 %**. Der von
+fünf auf sechs **11 %**. Diese Kurve ist keine Marketingentscheidung — sie ist
+Arithmetik, und man sollte sie verstehen, bevor man Angebote vergleicht.
+
+## Warum der erste Passagier das ganze Fahrzeug trägt
+
+Eine private 3-Tages-Wüstentour hat zwei Arten von Kosten.
+
+**Fixkosten** ändern sich nicht mit der Personenzahl:
+
+- Der 4x4 und sein Kraftstoff für rund 1.100 km
+- Die drei Tage des Fahrer-Guides
+- Maut und Parkgebühren
+
+**Kosten pro Kopf** steigen mit der Teilnehmerzahl:
+
+- Bett und Abendessen im Gästehaus der Dades-Schlucht
+- Das Zelt im Wüstencamp und die Mahlzeiten dort
+- Das Kamel hinaus zu den Dünen
+
+Auf einer kurzen Reise ist der fixe Block der größere von beiden. Ein Alleinreisender
+zahlt ihn vollständig. Ein zweiter Reisender zahlt nichts davon — er addiert nur
+sein Bett, sein Abendessen und sein Kamel. Das ist die gesamte Erklärung für die
+45-%-Klippe, und die Tabelle jedes ehrlichen Veranstalters hat dieselbe Form.
+
+## Was das für den Anbietervergleich bedeutet
+
+Die meisten marokkanischen Veranstalter veröffentlichen einen Einzelpreis und dann
+einen „ab"-Preis, und beide sind für unterschiedliche Gruppengrößen gerechnet. Ein
+Aufhänger von 295 € ist sehr oft der Preis **für vier Personen**. Unserer liegt bei
+vier Personen bei 292 €.
+
+Prüfen Sie beim Vergleich zweier Angebote also drei Dinge:
+
+1. **Für wie viele Personen gilt der Preis?** Das ist mit Abstand die häufigste
+   Quelle von Missverständnissen und der Grund, warum zwei Angebote 50 % auseinander
+   wirken können, obwohl sie dieselbe Reise beschreiben.
+2. **Privat oder geteilt?** Ein geteilter Platz für 69 € und eine Privattour für
+   711 € sind keine konkurrierenden Produkte, was auch immer die Suchergebnisse
+   nahelegen.
+3. **Was ist ausgeschlossen?** Mittagessen und Trinkgelder liegen fast überall
+   außerhalb des Preises, auch hier.
+
+## Dieselbe Kurve beim Trekking, aber viel flacher
+
+Treks rabattieren weniger stark, weil der fixe Block kleiner ist — es gibt einen
+Transfer nach Imlil und zurück, aber kein Fahrzeug, das drei Tage lang gebunden ist.
+
+[2-tägige Toubkal-Besteigung](/de/tours/toubkal-summit-2day-marrakech):
+
+| Reisende | Preis pro Person |
+|---|---|
+| 1 | 193 € |
+| 2 | 179 € |
+| 4 | 162 € |
+| 6 | 153 € |
+
+[3-tägiger Dorftrek im Hohen Atlas](/de/tours/atlas-mountains-3day-trek):
+
+| Reisende | Preis pro Person |
+|---|---|
+| 1 | 235 € |
+| 2 | 218 € |
+| 4 | 197 € |
+| 6 | 185 € |
+
+Von eins auf sechs sind das **21 %** Ersparnis beim Toubkal-Trek gegenüber **67 %**
+bei der Wüstentour. Dasselbe Prinzip, eine völlig andere Größenordnung — denn das
+Honorar eines Bergführers ist überwiegend ein Tagessatz, dem es gleichgültig ist,
+wie viele Menschen hinter ihm gehen.
+
+## Tagestouren bewegen sich kaum
+
+Eine [kulturelle Medina-Tour in Marrakesch](/de/tours/marrakech-medina-cultural-tour)
+kostet allein **41 €** und zu sechst **38 €**. Drei Euro.
+
+Kein Fahrzeug, keine Unterkunft, kein Kraftstoff — nur der Nachmittag eines
+lizenzierten Guides. Nichts zu teilen heißt nichts zu rabattieren, und ein
+Veranstalter, der Ihnen auf einer Tour zu Fuß einen großen Gruppenrabatt verspricht,
+rabattiert etwas anderes.
+
+## Geteilte Touren haben gar keine Gruppenpreise
+
+Das überrascht viele, deshalb sei es klar gesagt. Der
+[2-tägige Wüstentrip nach Zagora](/de/tours/zagora-2day-marrakech) kostet
+**62 € pro Platz**. Sechs Personen zahlen 372 €. Es gibt keine Staffel, keine
+Spanne und keine Verhandlung, denn der Minibus fährt, ob Sie einen Platz buchen
+oder sechs.
+
+Wenn Sie zu zweit mit knappem Budget reisen, ist die geteilte Tour drastisch
+günstiger als die private. Ab vier Personen wird der Abstand klein genug, dass die
+Privattour — Ihr eigenes Fahrzeug, Ihr eigener Zeitplan, Stopps dort, wo Sie wollen
+— ernsthaft abzuwägen ist.
+
+## Wo die Ersparnisse aufhören
+
+Ab sechs Personen flacht der Preis pro Person ab. Ab acht bewegt er sich sehr wenig.
+In dieser Größe kommt ein zweites Fahrzeug oder ein größerer Minibus ins Spiel, und
+die Fixkosten, die Sie sechs Personen lang verteilt haben, beginnen sich zu
+verdoppeln.
+
+Wir veröffentlichen Staffeln bis vierzehn, und sie fallen weiterhin sanft — aber
+wenn Sie eine Gruppengröße zum Buchen wählen, passiert alles Wesentliche zwischen
+einer und sechs Personen.
+
+## Wie Sie diese Tabelle nutzen
+
+- **Allein unterwegs?** Die geteilte Tour ist die ehrliche Empfehlung — oder finden
+  Sie eine weitere Person und halbieren Sie Ihre Kosten ungefähr.
+- **Zu zweit?** Sie haben den steilsten Teil der Kurve bereits hinter sich. Zwei
+  Freunde dazuzunehmen spart jedem etwa ein Viertel, nicht noch einmal die Hälfte.
+- **Eine vierköpfige Familie?** Sie sind bei jeder unserer Privattouren nahe am
+  effizienten Punkt.
+- **Sechs oder mehr?** Sie sind am Boden angekommen. Buchen Sie die Privattour und
+  genießen Sie es, das Fahrzeug für sich zu haben.
+
+Jeder Preis auf dieser Website wird nach Gruppengröße auf der Tourseite selbst
+veröffentlicht — es gibt keinen Schritt „kontaktieren Sie uns für Gruppenpreise",
+und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
+
+👉 **[Zur 3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech)** — 392 € pro Person zu zweit, 292 € zu viert, mit der vollständigen Staffeltabelle auf der Seite.
+`,
+  },
 ];

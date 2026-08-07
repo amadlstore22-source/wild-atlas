@@ -4045,4 +4045,167 @@ Todo lo demás —guía, dos noches con comidas, la mula y ambos traslados— es
 👉 **[Descubre el trek de 3 días por los pueblos del Alto Atlas](/es/tours/atlas-mountains-3day-trek)** — 235 € por persona, tres valles, dos noches con familias bereberes, sin asalto a cumbre.
 `,
   },
+  {
+    slug: "morocco-tour-price-group-size",
+    localizedSlug: "precio-circuito-marruecos-tamano-grupo",
+    relatedTours: ["sahara-3day-marrakech", "toubkal-summit-2day-marrakech", "atlas-mountains-3day-trek"],
+    author: MET_TEAM,
+    title: "Cómo el tamaño del grupo cambia el precio de tu circuito en Marruecos (2026)",
+    excerpt:
+      "Un circuito privado se cobra por vehículo: el segundo pasajero apenas cuesta transportarlo. Aquí tienes la tabla completa — lo que pagan una, dos, cuatro y seis personas, y por qué la caída de una a dos es tan pronunciada.",
+    heroImage: "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    tags: ["descuento de grupo circuito Marruecos", "precio circuito privado por persona", "coste circuito Marruecos por persona", "precio según tamaño del grupo", "precio circuito desierto 2 personas", "presupuesto viaje Marruecos"],
+    seoTitle: "Precios de circuitos en Marruecos por tamaño de grupo — 2026",
+    seoDescription:
+      "Por qué un circuito privado en Marruecos cuesta 711 € para una persona y 392 € cada una para dos. La tabla completa de precios por persona según el tamaño del grupo.",
+    faq: [
+      { q: "¿Por qué un circuito privado en Marruecos es mucho más barato para dos que para una persona?", a: "Porque un circuito privado se cobra por vehículo, no por plaza. El 4x4, el conductor, el combustible y las noches de alojamiento cuestan casi lo mismo viaje una persona o dos. En nuestro [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech) la tarifa individual es de 711 € y la de dos, de 392 € cada una — una caída del 45 %, porque el segundo viajero solo añade sus comidas y su cama, no un segundo vehículo." },
+      { q: "¿Cuánto ahorro viajando con cuatro personas en lugar de dos?", a: "En el [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech) el precio por persona baja de 392 € con dos a 292 € con cuatro — alrededor de un 26 % cada uno. El ahorro es real pero mucho menor que el de uno a dos, porque con cuatro el coste fijo del vehículo ya está muy repartido y solo añades costes por cabeza: comidas, camas en la jaima y el paseo en dromedario." },
+      { q: "¿Los descuentos de grupo se aplican también a los circuitos compartidos?", a: "No, y merece la pena entender por qué. Un circuito compartido como el [viaje de 2 días a Zagora](/es/tours/zagora-2day-marrakech) se vende por plaza, a 62 € — compras un asiento en un minibús que sale reserves tú o no. No hay coste de vehículo que dividir, así que seis plazas cuestan seis veces una plaza. El precio por grupo solo existe en los circuitos privados." },
+      { q: "¿Hay un tamaño de grupo en el que el precio deja de bajar?", a: "Sí. A partir de seis personas el precio por persona se aplana, y a partir de ocho apenas se mueve. En ese punto hace falta un segundo vehículo o un minibús mayor, así que el coste fijo que estabas repartiendo empieza a duplicarse. Nuestros tramos publicados llegan a catorce personas, pero todo el ahorro relevante ocurre en los seis primeros." },
+      { q: "¿Las excursiones de un día descuentan tanto como los circuitos de varios días?", a: "No. Una [visita a la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour) cuesta 41 € en solitario y 38 € con seis personas — en torno al 7 %, porque una visita a pie casi no tiene coste fijo que dividir. Estás pagando el día de un guía autorizado, y ese precio es casi el mismo vaya quien vaya. Los circuitos de varios días, con vehículo y alojamiento, bajan mucho más." },
+    ],
+    content: `
+## La respuesta corta
+
+En un circuito **privado** en Marruecos el precio por persona cae con fuerza a
+medida que crece el grupo — porque estás alquilando un vehículo y un conductor, no
+comprando plazas. En un circuito **compartido** no baja en absoluto, porque no hay
+nada que dividir.
+
+Así se ve en nuestro [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech):
+
+| Viajeros | Precio por persona | Total del grupo | Ahorro vs individual |
+|---|---|---|---|
+| 1 | 711 € | 711 € | — |
+| 2 | 392 € | 784 € | 45 % |
+| 3 | 328 € | 984 € | 54 % |
+| 4 | 292 € | 1.168 € | 59 % |
+| 5 | 266 € | 1.330 € | 63 % |
+| 6 | 238 € | 1.428 € | 67 % |
+
+Fíjate en la forma. La caída de uno a dos es del **45 %**. La de cinco a seis, del
+**11 %**. Esa curva no es una decisión de marketing — es aritmética, y conviene
+entenderla antes de comparar presupuestos.
+
+## Por qué el primer pasajero carga con todo el vehículo
+
+Un circuito privado de 3 días por el desierto tiene dos tipos de coste.
+
+Los **costes fijos** no cambian con el número de personas:
+
+- El 4x4 y su combustible, para unos 1.100 km
+- Los tres días del conductor-guía
+- Peajes y aparcamiento
+
+Los **costes por cabeza** crecen con el número de participantes:
+
+- Cama y cena en la casa de huéspedes de las gargantas del Dades
+- La jaima del campamento y sus comidas
+- El dromedario hasta las dunas
+
+En un viaje corto el bloque fijo es el mayor de los dos. Un viajero solo lo paga
+entero. Un segundo viajero no paga nada de él — solo añade su cama, su cena y su
+dromedario. Esa es toda la explicación del acantilado del 45 %, y la tabla de
+cualquier operador honesto tiene la misma forma.
+
+## Qué significa esto al comparar operadores
+
+La mayoría de los operadores marroquíes publican un precio individual y luego un
+precio «desde», y los dos se calculan con tamaños de grupo distintos. Un reclamo de
+295 € suele ser la tarifa **para cuatro personas**. La nuestra con cuatro es de
+292 €.
+
+Así que al comparar dos presupuestos, comprueba tres cosas:
+
+1. **¿Para cuántas personas se indica el precio?** Es con diferencia la primera
+   fuente de confusión, y la razón por la que dos presupuestos pueden parecer
+   separados un 50 % describiendo el mismo viaje.
+2. **¿Es privado o compartido?** Una plaza compartida de 69 € y un circuito privado
+   de 711 € no son productos rivales, digan lo que digan los resultados de búsqueda.
+3. **¿Qué queda excluido?** Las comidas del mediodía y las propinas están fuera del
+   precio en casi todas partes, aquí incluido.
+
+## La misma curva en un trek, pero mucho más plana
+
+Los treks descuentan menos, porque el bloque fijo es más pequeño — hay un traslado
+de ida y vuelta a Imlil, pero ningún vehículo ocupado tres días.
+
+[Ascensión al Toubkal en 2 días](/es/tours/toubkal-summit-2day-marrakech):
+
+| Viajeros | Precio por persona |
+|---|---|
+| 1 | 193 € |
+| 2 | 179 € |
+| 4 | 162 € |
+| 6 | 153 € |
+
+[Trek de 3 días por los pueblos del Alto Atlas](/es/tours/atlas-mountains-3day-trek):
+
+| Viajeros | Precio por persona |
+|---|---|
+| 1 | 235 € |
+| 2 | 218 € |
+| 4 | 197 € |
+| 6 | 185 € |
+
+De uno a seis el ahorro es del **21 %** en el trek del Toubkal frente al **67 %**
+del circuito del desierto. El mismo principio, una magnitud muy distinta — porque
+los honorarios de un guía de montaña son sobre todo un coste diario al que le da
+igual cuánta gente camine detrás.
+
+## Las excursiones de un día apenas se mueven
+
+Una [visita cultural a la medina de Marrakech](/es/tours/marrakech-medina-cultural-tour)
+cuesta **41 €** en solitario y **38 €** con seis personas. Tres euros.
+
+No hay vehículo, ni alojamiento, ni combustible — solo la tarde de un guía
+autorizado. Nada que dividir significa nada que descontar, y un operador que te
+promete un gran descuento de grupo en una visita a pie está descontando otra cosa.
+
+## Los circuitos compartidos no tienen precio de grupo
+
+Esto sorprende, así que conviene decirlo claro. El
+[viaje de 2 días al desierto de Zagora](/es/tours/zagora-2day-marrakech) cuesta
+**62 € por plaza**. Seis personas pagan 372 €. No hay tramo, ni horquilla, ni
+negociación, porque el minibús sale reserves una plaza o seis.
+
+Si sois dos con un presupuesto ajustado, el circuito compartido es muchísimo más
+barato que el privado. A partir de cuatro, la diferencia se estrecha lo bastante
+como para que el circuito privado — vuestro propio vehículo, vuestro propio ritmo,
+paradas donde queráis — merezca considerarse en serio.
+
+## Dónde se acaba el ahorro
+
+Pasadas seis personas, el precio por persona se aplana. Pasadas ocho, se mueve muy
+poco. A ese tamaño entra en escena un segundo vehículo o un minibús mayor, y el
+coste fijo que llevabas seis personas repartiendo empieza a duplicarse.
+
+Publicamos tramos hasta catorce y siguen bajando suavemente — pero si estás
+eligiendo con qué tamaño de grupo reservar, todo lo relevante ocurre entre una y
+seis personas.
+
+## Cómo usar esta tabla
+
+- **¿Viajas solo?** El circuito compartido es la recomendación honesta — o encuentra
+  a otro viajero y reduce tu coste casi a la mitad.
+- **¿En pareja?** Ya has pasado la parte más empinada de la curva. Añadir dos amigos
+  os ahorra alrededor de un cuarto a cada uno, no otra mitad.
+- **¿Una familia de cuatro?** Estás cerca del punto eficiente en todos nuestros
+  circuitos privados.
+- **¿Seis o más?** Estás en el suelo. Reserva el circuito privado y disfruta de
+  tener el vehículo para vosotros.
+
+Cada precio de esta web se publica por tamaño de grupo en la propia página del
+circuito — no hay un paso de «contáctanos para tarifas de grupo», y el número que
+ves para tu grupo es el que pagas.
+
+👉 **[Descubre el circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech)** — 392 € por persona siendo dos, 292 € siendo cuatro, con la tabla completa de tramos publicada en la página.
+`,
+  },
 ];

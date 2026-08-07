@@ -24,6 +24,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "toubkal-sahara-5day-cost": "prix-toubkal-sahara-5-jours",
   "high-atlas-village-trek-cost": "prix-trek-villages-haut-atlas",
   "morocco-tour-price-group-size": "prix-circuit-maroc-taille-groupe",
+  "private-vs-shared-desert-tour-morocco": "circuit-desert-prive-ou-partage",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -41,6 +42,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "toubkal-sahara-5day-cost": "precio-toubkal-sahara-5-dias",
   "high-atlas-village-trek-cost": "precio-trek-pueblos-alto-atlas",
   "morocco-tour-price-group-size": "precio-circuito-marruecos-tamano-grupo",
+  "private-vs-shared-desert-tour-morocco": "circuito-desierto-privado-o-compartido",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -58,6 +60,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "toubkal-sahara-5day-cost": "toubkal-sahara-5-tage-kosten",
   "high-atlas-village-trek-cost": "hoher-atlas-dorftrek-kosten",
   "morocco-tour-price-group-size": "marokko-tour-preis-gruppengroesse",
+  "private-vs-shared-desert-tour-morocco": "wuestentour-privat-oder-geteilt",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -75,6 +78,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "toubkal-sahara-5day-cost": "prezzo-toubkal-sahara-5-giorni",
   "high-atlas-village-trek-cost": "prezzo-trek-villaggi-alto-atlante",
   "morocco-tour-price-group-size": "prezzo-tour-marocco-dimensione-gruppo",
+  "private-vs-shared-desert-tour-morocco": "tour-deserto-privato-o-condiviso",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

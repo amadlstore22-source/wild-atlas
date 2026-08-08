@@ -26,7 +26,7 @@ export const CATEGORIES: {
     label: "جولات ليوم واحد",
     icon: "🌄",
     description: "رحلات ليوم واحد من مراكش وأݣادير: شلالات وأودية وسواحل، مع العودة في المساء.",
-    heroImage: "/gallery/category-hero-desert-caravan.jpg",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
   },
   {
     id: "cultural",

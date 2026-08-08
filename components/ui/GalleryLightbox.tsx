@@ -150,7 +150,7 @@ export default function GalleryLightbox({ photos }: { photos: GalleryPhoto[] }) 
           className={`relative overflow-hidden rounded-[4px] group cursor-pointer text-left ${photo.span ?? ""}`}
           aria-label={`View photo: ${photo.alt}`}
         >
-          <div className="absolute inset-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]">
+          <span className="block absolute inset-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]">
             <Image
               src={photo.src}
               alt={photo.alt}
@@ -158,17 +158,17 @@ export default function GalleryLightbox({ photos }: { photos: GalleryPhoto[] }) 
               className="object-cover"
               sizes="(max-width: 768px) 50vw, 33vw"
             />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-          <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
-          <div className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm opacity-0 scale-75 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100">
+          </span>
+          <span className="block absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+          <span className="block absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
+          <span className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm opacity-0 scale-75 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100">
             <Camera className="w-3.5 h-3.5 text-white" />
-          </div>
-          <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full transition-transform duration-[350ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-y-0">
-            <p className="text-white text-xs font-medium leading-snug line-clamp-2 drop-shadow-lg">
+          </span>
+          <span className="block absolute bottom-0 left-0 right-0 p-4 translate-y-full transition-transform duration-[350ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-y-0">
+            <span className="block text-white text-xs font-medium leading-snug line-clamp-2 drop-shadow-lg">
               {photo.alt}
-            </p>
-          </div>
+            </span>
+          </span>
         </button>
       ))}
 

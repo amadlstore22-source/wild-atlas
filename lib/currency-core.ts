@@ -21,11 +21,21 @@
 export type Currency = "EUR" | "USD" | "GBP" | "MAD";
 
 // 1 USD = X units of currency. Review quarterly.
+//
+// Verified 2026-08-08 against the ECB reference rates (api.frankfurter.dev,
+// dated 2026-08-07): USD->EUR 0.86693, USD->GBP 0.74352. MAD is not an ECB
+// currency; 9.33 is the August 2026 mid-market rate.
+//
+// The previous values (EUR 0.92, GBP 0.79) were roughly 6% high, so every
+// price rendered ~6% dearer than the stored USD figure actually meant. The
+// stored USD prices in lib/tours.ts were rebased by the same factor in the
+// same commit, so the EUR shelf prices customers see did not move — this
+// corrects the conversion, not the pricing.
 export const RATES: Record<Currency, number> = {
   USD: 1,
-  EUR: 0.92,
-  GBP: 0.79,
-  MAD: 9.9,
+  EUR: 0.86693,
+  GBP: 0.74352,
+  MAD: 9.33,
 };
 
 export const CURRENCY_SYMBOL: Record<Currency, string> = {

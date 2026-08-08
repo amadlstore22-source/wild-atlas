@@ -26,7 +26,7 @@ export const CATEGORIES: {
     label: "Tagesausflüge",
     icon: "🌄",
     description: "Tagesausflüge ab Marrakesch und Agadir: Wasserfälle, Täler, Küste. Rückkehr am Abend.",
-    heroImage: "/gallery/category-hero-desert-caravan.jpg",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
   },
   {
     id: "cultural",

@@ -30,7 +30,7 @@ export const CATEGORIES: {
     label: "Excursions d'une journée",
     icon: "🌄",
     description: "Escapades d'une journée depuis Marrakech et Agadir : cascades, vallées, littoral. Retour le soir même.",
-    heroImage: "/gallery/category-hero-desert-caravan.jpg",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
   },
   {
     id: "cultural",

@@ -27,8 +27,9 @@ describe("structured-data price matches the visible price", () => {
   });
 
   it("formatPrice converts from USD, not to it", () => {
-    // Guards the conversion direction: 380 USD -> 350 EUR, never 413.
-    expect(formatPrice(380, "EUR")).toBe("€350");
+    // Guards the conversion direction: 380 USD -> 329 EUR, never 438.
+    // (329 = 380 * 0.86693, the ECB rate verified 2026-08-07.)
+    expect(formatPrice(380, "EUR")).toBe("€329");
     expect(formatPrice(380, "USD")).toBe("$380");
   });
 });

@@ -33,7 +33,7 @@ describe("PayPal deposit link", () => {
   it("never sends the unconverted USD figure when displaying EUR", () => {
     const usd = 95;
     const url = depositUrl(usd, "EUR");
-    expect(url).toContain("87EUR");
+    expect(url).toContain("82EUR");
     expect(url).not.toContain("95EUR");
   });
 

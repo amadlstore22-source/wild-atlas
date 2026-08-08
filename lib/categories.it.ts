@@ -26,7 +26,7 @@ export const CATEGORIES: {
     label: "Gite Giornaliere",
     icon: "🌄",
     description: "Escursioni di un giorno da Marrakech e Agadir: cascate, valli, costa. Rientro in serata.",
-    heroImage: "/gallery/category-hero-desert-caravan.jpg",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
   },
   {
     id: "cultural",

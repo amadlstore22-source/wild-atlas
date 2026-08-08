@@ -524,7 +524,7 @@ The route is driveable in a standard car except immediately after heavy snowfall
 - Fes: Riad Laaroussa, Riad Dar Roumana (book at least 3 months in advance in peak season)
 
 **What to budget**
-Riad rooms in Ouarzazate and Midelt: $50–100/night. Fes riads: $80–200/night. The full guided tour (private 4x4, English-speaking guide, 2 nights riad accommodation, breakfast daily): from $290 per person sharing.
+Riad rooms in Ouarzazate and Midelt: €45–90/night. Fes riads: €75–185/night. The full [3-day guided tour](/en/tours/marrakech-to-fes-3day) (private 4x4, English-speaking guide, 2 nights riad accommodation, breakfast daily) is €572 per person for two, falling to €446 each for four.
     `,
   },
   {
@@ -3611,7 +3611,7 @@ Morocco has three mobile operators: Maroc Telecom (branded IAM), Orange, and Inw
 
 ## What to Actually Buy, and What It Costs
 
-Tourist SIM pricing in Morocco is genuinely cheap by most travellers' home-country standards. A basic package with several gigabytes of data typically runs 30–50 MAD (roughly €3–5); a larger tourist bundle — commonly 20–30 GB valid for a month, with some calling minutes included — runs closer to 150–200 MAD (roughly $15–20). That larger package comfortably covers a typical two-week trip including navigation, messaging, and photo uploads. City phone shops are consistently 20–40% cheaper than the same SIM bought at an airport kiosk, so if convenience isn't essential, waiting until you're in town saves real money.
+Tourist SIM pricing in Morocco is genuinely cheap by most travellers' home-country standards. A basic package with several gigabytes of data typically runs 30–50 MAD (roughly €3–5); a larger tourist bundle — commonly 20–30 GB valid for a month, with some calling minutes included — runs closer to 150–200 MAD (roughly €14–19). That larger package comfortably covers a typical two-week trip including navigation, messaging, and photo uploads. City phone shops are consistently 20–40% cheaper than the same SIM bought at an airport kiosk, so if convenience isn't essential, waiting until you're in town saves real money.
 
 Buy at an airport kiosk on arrival for convenience (available at Marrakech, Casablanca, Agadir, Fes and Tangier airports) or at a phone shop in any city centre. Either way, bring your passport — registration is mandatory and takes a couple of minutes at the counter.
 

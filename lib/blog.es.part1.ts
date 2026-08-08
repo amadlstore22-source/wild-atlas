@@ -463,7 +463,7 @@ La ruta se puede recorrer en un coche estándar salvo justo después de nevadas 
 - Fez: Riad Laaroussa, Riad Dar Roumana (reserva con al menos 3 meses de antelación en temporada alta)
 
 **Qué presupuestar**
-Habitaciones de riad en Ouarzazate y Midelt: 50–100 $/noche. Riads en Fez: 80–200 $/noche. El tour guiado completo (4x4 privado, guía de habla inglesa, 2 noches de alojamiento en riad, desayuno diario): desde 290 $ por persona compartiendo.
+Habitaciones de riad en Ouarzazate y Midelt: 45–90 €/noche. Riads en Fez: 75–185 €/noche. El [tour guiado de 3 días](/es/tours/marrakech-to-fes-3day) (4x4 privado, guía de habla inglesa, 2 noches de alojamiento en riad, desayuno diario) cuesta 572 € por persona siendo dos, y 446 € cada uno siendo cuatro.
     `,
   },
   {

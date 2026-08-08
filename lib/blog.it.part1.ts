@@ -456,7 +456,7 @@ Il percorso è percorribile con un'auto normale, tranne subito dopo forti nevica
 - Fes: Riad Laaroussa, Riad Dar Roumana (prenotate con almeno 3 mesi di anticipo in alta stagione)
 
 **Quanto budget prevedere**
-Camere in riad a Ouarzazate e Midelt: 50-100 $/notte. Riad a Fes: 80-200 $/notte. Il tour guidato completo (4x4 privato, guida in lingua inglese, 2 notti in riad, colazione inclusa ogni giorno): a partire da 290 $ a persona in condivisione.
+Camere in riad a Ouarzazate e Midelt: 45-90 €/notte. Riad a Fes: 75-185 €/notte. Il [tour guidato di 3 giorni](/it/tours/marrakech-to-fes-3day) (4x4 privato, guida in lingua inglese, 2 notti in riad, colazione inclusa ogni giorno) costa 572 € a persona in due, e 446 € a testa in quattro.
     `,
   },
   {

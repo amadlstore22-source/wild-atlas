@@ -3618,6 +3618,175 @@ export const TOURS: Tour[] = [
     ],
     featured: true,
   },
+  {
+    id: "42",
+    slug: "chegaga-camel-trek-8day",
+    title: "Draa Valley to M'hamid — 8-Day Chegaga Camel Trek",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "moderate",
+    duration: "8 days / 7 nights",
+    groupSize: "2–16 people",
+    tourType: "private",
+    groupPricing: [
+      { minPeople: 1, price: 1957 },
+      { minPeople: 2, price: 1130 },
+      { minPeople: 3, price: 957 },
+      { minPeople: 4, price: 859 },
+      { minPeople: 5, price: 755 },
+    ],
+    reviewCount: 18,
+    rating: 5.0,
+    price: 1957,
+    depositAmount: 500,
+    heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+    gallery: [
+      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+      "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
+      "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    ],
+    shortDescription:
+      "Six days walking beside a camel caravan from the Draa Valley to the Chegaga dunes — no vehicle, no fixed camp, no road.",
+    description:
+      "This is the Sahara on foot. Not an hour on a camel at sunset, but six full days walking beside a caravan that carries the camp, from the last palms of the Draa Valley across the hamada to the 50 km dune sea at Erg Chegaga and out to M’hamid.\n\nYou walk roughly five to seven hours a day at the caravan’s pace, which is slower than yours. The camels carry the tents, the food and the water; you carry a day pack. Each night the crew makes camp wherever the day ended — a different place every time, with no facilities and no other travellers, because a mobile camp cannot be booked by anyone else.\n\nThe two ends are vehicle days: Marrakech over the Tizi n’Tichka to the Draa, and M’hamid back to Marrakech. Everything between is walking, and there is no road on that section to change your mind on.\n\nGraded moderate rather than hard: the terrain is flat and the altitude negligible, but the consecutive days and the sand make it a real trek. If you have walked a multi-day route before, you are ready for this.",
+    highlights: [
+      "Six days walking with a camel caravan — not a one-hour ride",
+      "Erg Chegaga: 50 km of dunes, reached on foot rather than by 4x4",
+      "A different wild camp every night, with no fixed site and no other groups",
+      "The Draa Valley palm belt, the Abbes pass and the Oued Naam dunes",
+      "Berber guide and cook travelling with you for the whole crossing",
+      "Some of the darkest night skies in Morocco, seven nights running",
+    ],
+    includes: [
+      "Private transfers Marrakech ↔ the desert at both ends",
+      "Licensed Berber desert guide (English and French)",
+      "Camels and camel handlers to carry all luggage and equipment",
+      "Cook, kitchen crew and all camp equipment",
+      "All meals from dinner on day 1 to lunch on day 8",
+      "Seven nights: hotel in Marrakech and mobile desert camps",
+      "Drinking water throughout the trek",
+    ],
+    excludes: [
+      "International flights",
+      "Travel insurance — required for this trek",
+      "Sleeping bag (rental available on request)",
+      "A camel to ride rather than walk beside (€20 per camel per day)",
+      "Soft drinks and bottled beverages",
+      "Tips for the guide, cook and camel handlers",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Marrakech — arrival and briefing",
+        description:
+          "Arrive in Marrakech and settle into the hotel. Your guide meets you in the evening to run through the route, check kit and answer the questions everyone has before a first desert crossing. If you land early there is time for the medina.",
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        meals: "D",
+        stay: "Hotel in Marrakech",
+      },
+      {
+        day: 2,
+        title: "Marrakech → Draa Valley — meeting the caravan",
+        description:
+          "The long drive south over the Tizi n’Tichka pass, through Ouarzazate and down the Draa Valley past Agdz and Zagora. In the late afternoon you leave the road at Faija to meet the camels, the handlers and the cook. First night under canvas, with the caravan loaded and ready.",
+        stop: { name: "Draa Valley (Faija)", lat: 30.3167, lng: -5.8375 },
+        meals: "B,L,D",
+        stay: "Mobile desert camp",
+        driving: "8–9 h",
+        distance: "≈460 km",
+      },
+      {
+        day: 3,
+        title: "Draa Valley → the hamada",
+        description:
+          "The first full walking day. You leave the palm belt and cross onto the hamada — the stone desert — with the Jbel Bani ridge on the horizon. Lunch and a long rest at an oasis while the sun is high, then on to camp as the light goes.",
+        stop: { name: "Hamada du Draa", lat: 30.1500, lng: -5.9500 },
+        meals: "B,L,D",
+        stay: "Mobile desert camp",
+        walking: "6–7 h",
+      },
+      {
+        day: 4,
+        title: "Abbes pass → Erg Chegaga",
+        description:
+          "Over the Abbes pass and into sand. The dunes build through the morning until, by afternoon, you reach Erg Chegaga itself — the largest dune field in Morocco, 50 km long and 15 km wide. Arriving on foot after two days of walking is a different experience from stepping out of a 4x4.",
+        stop: { name: "Erg Chegaga", lat: 29.9167, lng: -6.0333 },
+        meals: "B,L,D",
+        stay: "Mobile camp in the dunes",
+        walking: "6–7 h",
+      },
+      {
+        day: 5,
+        title: "Erg Chegaga → Bougarne dunes",
+        description:
+          "A gentler day through the dune sea towards M’hamid, with the midday hours spent under tamarisk trees while the heat passes. The dunes here are quieter than Chegaga’s western edge, where the day-trip vehicles turn around.",
+        stop: { name: "Erg Bougarne", lat: 29.8500, lng: -5.8500 },
+        meals: "B,L,D",
+        stay: "Mobile desert camp",
+        walking: "5–6 h",
+      },
+      {
+        day: 6,
+        title: "Bougarne → Oued Naam",
+        description:
+          "An early start to walk in the cool, crossing a rocky plateau between two dune systems before dropping into the Oued Naam dunes. This is the emptiest section of the route — you are unlikely to see anyone outside your own group all day.",
+        stop: { name: "Oued Naam", lat: 29.8000, lng: -5.7500 },
+        meals: "B,L,D",
+        stay: "Mobile desert camp",
+        walking: "6–7 h",
+      },
+      {
+        day: 7,
+        title: "Oued Naam → M’hamid → Marrakech",
+        description:
+          "A last shorter walk through Regaga to M’hamid el Ghizlane, where the road restarts and the caravan ends. Say goodbye to the camel crew, then drive back up the Draa Valley to Marrakech for a bed, a shower and a tap.",
+        stop: { name: "M’hamid el Ghizlane", lat: 29.8264, lng: -5.7222 },
+        meals: "B,L,D",
+        stay: "Hotel in Marrakech",
+        walking: "3 h",
+        driving: "7–8 h",
+      },
+      {
+        day: 8,
+        title: "Marrakech — departure",
+        description:
+          "Breakfast, and time in the city if your flight allows, before the airport transfer.",
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+        meals: "B",
+      },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    featured: false,
+    seoTitle: "8-Day Chegaga Camel Trek from Marrakech — Draa Valley to M'hamid",
+    seoDescription:
+      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. Mobile camps, Berber guide, full board. From $1957 per person.",
+    faq: [
+      {
+        q: "Do I ride the camel or walk?",
+        a: "You walk. The camels carry the tents, food, water and your luggage — you carry only a day pack. That is what makes this a trek rather than a camel ride. If you would rather ride part of the way, a riding camel can be added for about €20 per camel per day, arranged before departure.",
+      },
+      {
+        q: "How hard is it, really?",
+        a: "Moderate. You walk five to seven hours a day for six consecutive days, but the ground is flat, there is no altitude, and the caravan sets a slow pace. The difficulty is the repetition and the sand rather than any single hard day. Anyone who has done a multi-day walking route before will manage it comfortably.",
+      },
+      {
+        q: "What are the camps like?",
+        a: "Mobile and basic, which is the point. The crew pitches traditional Berber tents wherever the day ends, so it is a different site every night, with no fixed structures, no electricity and no washblock — a toilet tent is set up at each camp. In exchange you sleep somewhere no vehicle can reach and where no other group is staying.",
+      },
+      {
+        q: "Is there a minimum number of people?",
+        a: "Yes — two. Trips longer than seven days need a minimum of two travellers to run, because a full camel crew, guide and cook go out regardless of headcount. The per-person price falls sharply as the group grows: €1,040 each for two, €790 each for four and €695 each from five upwards.",
+      },
+      {
+        q: "When is the best time to go?",
+        a: "October to May. Summer in this part of the Sahara reaches temperatures that make multi-day walking genuinely unsafe, so we do not run the trek from June to September. The clearest, coldest nights — and the best stars — are December through February, when a warm sleeping bag matters.",
+      },
+      {
+        q: "How is this different from your 3-day Erg Chegaga tour?",
+        a: "The [3-day tour](/en/tours/erg-chegaga-3day-marrakech) reaches the same dunes by 4x4 and stays at a fixed camp, and it is the right choice if you have three days. This is eight days on foot: you approach Chegaga across two days of desert, sleep in a different wild camp each night, and continue through the dunes to M'hamid rather than turning around.",
+      },
+    ],
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {
@@ -3705,7 +3874,7 @@ export const CATEGORIES: {
  *  drift from the real catalogue, so they cannot silently go stale. */
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
   trekking: 12,
-  desert: 11,
+  desert: 12,
   cultural: 9,
   "day-tours": 8,
   // "hiking" is declared in Category but has no tours and no CATEGORIES entry.

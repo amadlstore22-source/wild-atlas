@@ -129,6 +129,7 @@ const TOUR_SLUGS_FR: Record<string, string> = {
   "family-desert-4day-marrakech": "circuit-desert-famille-4-jours",
   "high-atlas-grand-traverse-15day": "grande-traversee-haut-atlas-15-jours",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-jours",
+  "chegaga-camel-trek-8day": "trek-chameau-chegaga-8-jours",
 };
 
 const TOUR_SLUGS_ES: Record<string, string> = {
@@ -172,6 +173,7 @@ const TOUR_SLUGS_ES: Record<string, string> = {
   "family-desert-4day-marrakech": "tour-desierto-familia-4-dias",
   "high-atlas-grand-traverse-15day": "gran-travesia-alto-atlas-15-dias",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-dias",
+  "chegaga-camel-trek-8day": "trek-camellos-chegaga-8-dias",
 };
 
 const TOUR_SLUGS_DE: Record<string, string> = {
@@ -215,6 +217,7 @@ const TOUR_SLUGS_DE: Record<string, string> = {
   "family-desert-4day-marrakech": "familien-wuestentour-4-tage",
   "high-atlas-grand-traverse-15day": "hoher-atlas-durchquerung-15-tage",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-tage",
+  "chegaga-camel-trek-8day": "kameltrekking-chegaga-8-tage",
 };
 
 const TOUR_SLUGS_IT: Record<string, string> = {
@@ -258,6 +261,7 @@ const TOUR_SLUGS_IT: Record<string, string> = {
   "family-desert-4day-marrakech": "tour-deserto-famiglia-4-giorni",
   "high-atlas-grand-traverse-15day": "grande-traversata-alto-atlante-15-giorni",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-giorni",
+  "chegaga-camel-trek-8day": "trek-cammelli-chegaga-8-giorni",
 };
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];

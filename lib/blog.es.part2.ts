@@ -3492,7 +3492,7 @@ un traslado de 3 horas en cada sentido. Comparamos ambas bases en
 ## Adónde va el dinero
 
 La comisión de las plataformas va del **25 al 40 %**. En un viaje de 482 € eso son hasta
-138 € que salen de Marruecos, más de lo que ganan juntos el campamento y los camelleros.
+193 € que salen de Marruecos, más de lo que ganan juntos el campamento y los camelleros.
 Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
 
 👉 **[Descubre el viaje de 2 días al Erg Chegaga desde Agadir](/es/tours/sahara-2day-agadir)** — 225 € por persona, campamento de lujo, todos los paseos en camello incluidos.

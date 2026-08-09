@@ -3505,7 +3505,7 @@ comparons les deux bases dans
 ## Où va l'argent
 
 La commission des plateformes va de **25 à 40 %**. Sur un circuit à 482 €, cela représente
-jusqu'à 138 € qui quittent le Maroc — plus que ce que gagnent ensemble le camp et les
+jusqu'à 193 € qui quittent le Maroc — plus que ce que gagnent ensemble le camp et les
 chameliers. Réserver en direct garde cette somme chez les gens qui font tourner le camp.
 
 👉 **[Découvrez le circuit de 2 jours à l'Erg Chegaga depuis Agadir](/fr/tours/sahara-2day-agadir)** — 225 € par personne, camp de luxe, toutes les méharées incluses.

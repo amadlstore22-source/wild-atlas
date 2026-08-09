@@ -3489,7 +3489,7 @@ risparmiano un transfer di 3 ore per senso. Confrontiamo le due basi in
 ## Dove finiscono i soldi
 
 La commissione delle piattaforme va dal **25 al 40 %**. Su un viaggio da 482 € sono fino a
-138 € che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri.
+193 € che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri.
 Prenotare in diretta mantiene quella somma alle persone che mandano avanti il campo.
 
 👉 **[Scopri il viaggio di 2 giorni all'Erg Chegaga da Agadir](/it/tours/sahara-2day-agadir)** — 225 € a persona, campo di lusso, tutti i giri in cammello inclusi.

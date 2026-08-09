@@ -184,16 +184,24 @@ describe("3-day Sahara tour pricing", () => {
   });
 
   it("discounts a day tour less steeply than a multi-day tour", () => {
-    // A one-day tour's cost is mostly per-head, so the same curve would sell
-    // it below cost. Guards the duration split in the DERIVED curve — this
-    // tour now carries explicit brackets, so compare against another
-    // multi-day tour that still uses the default.
-    const dayTour = TOURS.find(
-      (t) => t.tourType !== "shared" && t.itinerary.length === 1 && !t.groupPricing,
-    )!;
-    const multiTour = TOURS.find(
-      (t) => t.tourType !== "shared" && t.itinerary.length >= 2 && !t.groupPricing,
-    )!;
+    // A one-day tour's cost is mostly per-head, so the same curve would sell it
+    // below cost. This guards the duration split.
+    //
+    // Every tour now carries explicit brackets, so there is no live tour left
+    // running on the derived curve to sample. The rule still has to hold for
+    // any tour added without its own ladder, so it is exercised against
+    // synthetic tours built from a real one.
+    const base = TOURS.find((t) => t.itinerary.length >= 2)!;
+    const strip = (t: typeof base, days: number) => ({
+      ...t,
+      groupPricing: undefined,
+      tourType: "private" as const,
+      duration: `${days} day${days > 1 ? "s" : ""}`,
+      itinerary: t.itinerary.slice(0, days),
+    });
+    const dayTour = strip(base, 1);
+    const multiTour = strip(base, 3);
+
     const dayCut = 1 - perPersonPrice(dayTour, 6) / perPersonPrice(dayTour, 1);
     const multiCut = 1 - perPersonPrice(multiTour, 6) / perPersonPrice(multiTour, 1);
     expect(dayCut).toBeLessThan(multiCut);

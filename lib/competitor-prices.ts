@@ -36,6 +36,10 @@ export interface CompetitorTour {
   verified: string;
   /** Why this is a fair comparison — same trip, same length, same start point. */
   basis: string;
+  /** False when the rival's product is no longer the same shape as ours
+   *  (e.g. a shared minibus seat against our private tour). Excluded from
+   *  the price floor rather than deleted, so the reasoning is not lost. */
+  comparable?: boolean;
   /** Per-person EUR price, keyed by group size. */
   prices: Record<number, number>;
 }
@@ -126,6 +130,12 @@ export const COMPETITOR_PRICES: CompetitorTour[] = [
     operator: "Marrakech Desert Trips",
     source: "https://www.marrakech-desert-trips.com/shared-marrakech-desert-tours/",
     verified: "2026-08",
+    // NOT COMPARABLE since our Zagora tour became private (2026-08). This €69
+    // is a seat on a shared minibus; ours is now a private vehicle and guide,
+    // so the two are different products and holding our price to it would sell
+    // below cost. Kept for the record — replace when a private 2-day Zagora
+    // quote is verified.
+    comparable: false,
     basis: "2-day shared Marrakech→Zagora, per seat (shared, so no group tiers)",
     prices: { 1: 69 },
   },
@@ -133,7 +143,10 @@ export const COMPETITOR_PRICES: CompetitorTour[] = [
 
 /** Every competitor entry benchmarking a given tour. */
 export function competitorsFor(slug: string): CompetitorTour[] {
-  return COMPETITOR_PRICES.filter((c) => c.slug === slug);
+  // `comparable: false` entries are kept for the record but excluded here, so
+  // both the floor check and cheapestCompetitor() ignore rivals whose product
+  // is no longer the same shape as ours.
+  return COMPETITOR_PRICES.filter((c) => c.slug === slug && c.comparable !== false);
 }
 
 /**

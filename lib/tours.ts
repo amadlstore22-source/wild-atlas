@@ -690,8 +690,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 31,
     rating: 5.0,
-    price: 870,
-    depositAmount: 212,
+    // Real ladder, not the derived curve: a solo trekker pays for the whole
+    // private guide, mules and vehicle across seven days, so solo is ~1.8x
+    // the two-person rate rather than the shallow premium the curve assumes.
+    // EUR 1350 / 760 / 710 / 680 / 625 / 596 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 1557 },
+      { minPeople: 2, price: 877 },
+      { minPeople: 3, price: 819 },
+      { minPeople: 4, price: 784 },
+      { minPeople: 5, price: 721 },
+      { minPeople: 6, price: 687 },
+    ],
+    price: 1557,
+    depositAmount: 343,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -739,7 +751,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït M'hamed, Mgoun Massif" },
     seoTitle: "Mgoun Massif Trek 7 Days — Morocco's Wildest High-Altitude Traverse | Marrakech Eco Tours",
-    seoDescription: "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m), cross high passes, and sleep in Berber family homes with no other tourists. From $870.",
+    seoDescription: "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m), cross high passes, and sleep in Berber family homes with no other tourists. From $1557.",
     featured: false,
   },
 

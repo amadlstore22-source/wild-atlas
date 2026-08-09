@@ -5813,9 +5813,9 @@ factor in whether people actually reach a summit.
     tags: ["Mgoun trek cost", "Jbel Mgoun price", "M'Goun massif", "7 day trek Morocco", "Berber homestay", "High Atlas"],
     seoTitle: "Mgoun Massif Trek Cost in 2026 — 7-Day Price Breakdown",
     seoDescription:
-      "What a 7-day Mgoun Massif traverse costs in 2026: expert guide, mule team, homestays and camping itemised, plus how self-organising compares with a €754 package.",
+      "What a 7-day Mgoun Massif traverse costs in 2026: expert guide, mule team, homestays and camping itemised, plus how self-organising compares with a package from €760.",
     faq: [
-      { q: "How much does a Mgoun Massif trek cost?", a: "Our [7-day Mgoun traverse](/en/tours/mgoun-massif-trek) is €754 per person, including the expert high-mountain guide, all meals, the mule team, Berber family homestays and camping, satellite communication and national park fees. Arranging seven days of the same support independently is difficult to price below it, because the mule team and cook are fixed costs whatever the group size." },
+      { q: "How much does a Mgoun Massif trek cost?", a: "Our [7-day Mgoun traverse](/en/tours/mgoun-massif-trek) is €760 per person for two, €596 at six, or €1,350 solo, including the expert high-mountain guide, all meals, the mule team, Berber family homestays and camping, satellite communication and national park fees. Arranging seven days of the same support independently is difficult to price below it, because the mule team and cook are fixed costs whatever the group size." },
       { q: "Why is Mgoun more expensive per day than Toubkal?", a: "Toubkal has a refuge system and a road head at Imlil. Mgoun has neither for most of the route — you carry your accommodation, food and cook with you, which means a full mule team for seven days rather than a single mule to a refuge. The remoteness is the product and also the cost." },
       { q: "How hard is the Mgoun trek?", a: "Expert. Jbel Mgoun is 4,068 m, the route crosses high passes and gorges over seven days, and there is no easy exit partway. It suits trekkers who have done multi-day mountain routes before, not a first Moroccan trek — for that, see the [3-day High Atlas village trek](/en/tours/atlas-mountains-3day-trek)." },
       { q: "What is not included in the Mgoun trek price?", a: "Travel and medical insurance, which is mandatory; technical mountaineering equipment; and tips for the guide, cook and muleteers. Everything else, including all meals for seven days and the national park fees, is covered." },
@@ -5823,7 +5823,7 @@ factor in whether people actually reach a summit.
     content: `
 ## The short answer
 
-Our [7-day Mgoun Massif traverse](/en/tours/mgoun-massif-trek) is **€754 per person**
+Our [7-day Mgoun Massif traverse](/en/tours/mgoun-massif-trek) is **from €760 per person**
 with the expert guide, mule team, cook, all meals, homestays, camping and park fees
 included.
 
@@ -5859,7 +5859,7 @@ pays proportionally more than a group of six.
 This is the opposite of the desert tours, where the vehicle is the main cost and
 scales cleanly.
 
-## What the €754 actually covers
+## What the €760 actually covers
 
 - **Expert licensed high-mountain guide** for all seven days
 - **All meals throughout** — not just half board
@@ -5875,7 +5875,7 @@ equipment, and tips.
 
 Different products. The [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) at
 €360 gets you North Africa's highest summit with a refuge each night and other
-trekkers around. Mgoun at €754 gets you seven days where you will likely see no
+trekkers around. Mgoun at €760 gets you seven days where you will likely see no
 other tour group at all, sleeping in family homes in villages the road does not
 reach.
 
@@ -5886,7 +5886,7 @@ For the full version of this, the
 [15-day Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) links Mgoun and
 Toubkal into a single crossing.
 
-👉 **[See the 7-day Mgoun Massif traverse](/en/tours/mgoun-massif-trek)** — €754 per person, Morocco's second-highest peak, full mule support and Berber homestays.
+👉 **[See the 7-day Mgoun Massif traverse](/en/tours/mgoun-massif-trek)** — from €760 per person, Morocco's second-highest peak, full mule support and Berber homestays.
 `,
   },
   {
@@ -5952,8 +5952,8 @@ disappear:
 | Trek | Price | Days | Per day |
 |---|---|---|---|
 | 3-day High Atlas villages | €235 | 3 | ~€78 |
-| 4-day Toubkal summit | €350 | 4 | ~€88 |
-| 7-day Mgoun traverse | €754 | 7 | ~€108 |
+| 4-day Toubkal summit | €360 | 4 | ~€90 |
+| 7-day Mgoun traverse | €760 | 7 | ~€109 |
 | 15-day Grand Traverse | €1,518 | 15 | ~€101 |
 
 The traverse buys two weeks of full mountain support for roughly what four days of

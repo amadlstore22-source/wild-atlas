@@ -3950,6 +3950,26 @@ export function groupPriceTiers(tour: Tour): { minPeople: number; price: number 
   }));
 }
 
+/** The cheapest per-person price and the group size that unlocks it.
+ *
+ *  Listing cards used to show `tour.price`, which is the SOLO rate — the most
+ *  expensive per-person figure a tour has. On the 8-day camel trek that meant
+ *  advertising EUR1,800 when a group of five pays EUR695, so the headline number
+ *  scared people off before they reached the tier table. Cards now lead with
+ *  the lowest rate and say what group size it needs, which is both the more
+ *  attractive number and the honest one.
+ *
+ *  `minPeople` is 1 when a tour has no group discount, so callers can tell
+ *  whether a qualifier is needed at all. */
+export function lowestGroupPrice(tour: Tour): { price: number; minPeople: number } {
+  const tiers = groupPriceTiers(tour);
+  let best = tiers[0];
+  for (const t of tiers) {
+    if (t.price < best.price) best = t;
+  }
+  return { price: best.price, minPeople: best.minPeople };
+}
+
 /** The per-person price for a given group size, from the applicable tier. */
 export function perPersonPrice(tour: Tour, people: number): number {
   const tiers = groupPriceTiers(tour);

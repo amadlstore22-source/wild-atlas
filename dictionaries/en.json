@@ -264,7 +264,8 @@
     "groupPricingPeople": "Travellers",
     "groupPricingRate": "Each",
     "groupPricingTotal": "Total",
-    "groupPricingPlus": "{n}+"
+    "groupPricingPlus": "{n}+",
+    "perPersonGroupNote": "per person for {count}+ travellers · {solo} solo"
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",
@@ -581,6 +582,7 @@
       "moderate": "Moderate",
       "challenging": "Challenging",
       "expert": "Expert"
-    }
+    },
+    "perPersonGroup": "/ person for {count}+"
   }
 }

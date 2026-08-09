@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Clock, Users, Star, MapPin, CheckCircle, ArrowRight } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
-import { DIFFICULTY_COLORS } from "@/lib/tours";
+import { DIFFICULTY_COLORS, lowestGroupPrice } from "@/lib/tours";
 import { TRIPADVISOR } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { Badge } from "@/components/ui/badge";
@@ -51,9 +51,20 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
   const reduce = useReducedMotion();
   const { format } = useCurrency();
   const fromLabel = dict?.common.from ?? "From";
-  const perPersonLabel = dict?.common.perPerson ?? "/ person";
   const viewTourLabel = dict?.featuredTours.viewTour ?? "View Tour";
-  const priceLabel = tour.priceMax ? `${format(tour.price)} - ${format(tour.priceMax)}` : format(tour.price);
+
+  // Lead with the cheapest per-person rate, not tour.price — that field is the
+  // SOLO rate, the dearest figure a tour has, and quoting it on a card scares
+  // people off before they see the group tiers. When the cheap rate needs a
+  // minimum group, say so on the card so the number stays honest.
+  const cheapest = lowestGroupPrice(tour);
+  const perPersonLabel =
+    cheapest.minPeople > 1
+      ? (dict?.common.perPersonGroup ?? "/ person for {count}+").replace("{count}", String(cheapest.minPeople))
+      : (dict?.common.perPerson ?? "/ person");
+  const priceLabel = tour.priceMax
+    ? `${format(cheapest.price)} - ${format(tour.priceMax)}`
+    : format(cheapest.price);
   const CATEGORY_LABEL: Record<string, string> = dict
     ? {
         trekking: dict.categories.trekking,

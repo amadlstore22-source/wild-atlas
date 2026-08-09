@@ -264,7 +264,8 @@
     "groupPricingPeople": "Voyageurs",
     "groupPricingRate": "Par pers.",
     "groupPricingTotal": "Total",
-    "groupPricingPlus": "{n}+"
+    "groupPricingPlus": "{n}+",
+    "perPersonGroupNote": "par personne à partir de {count} voyageurs · {solo} en solo"
   },
   "cookieBanner": {
     "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",
@@ -581,6 +582,7 @@
       "moderate": "Modéré",
       "challenging": "Difficile",
       "expert": "Expert"
-    }
+    },
+    "perPersonGroup": "/ personne à partir de {count}"
   }
 }

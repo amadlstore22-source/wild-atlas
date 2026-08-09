@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Envelope, CreditCard, ShieldCheck, Phone, WhatsappLogo, CheckCircle, CalendarCheck, Star, HandHeart } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
-import { perPersonPrice, groupPriceTiers } from "@/lib/tours";
+import { perPersonPrice, groupPriceTiers, lowestGroupPrice } from "@/lib/tours";
 import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { reviewsForTour } from "@/lib/reviews";
 import { track, trackConversion } from "@/lib/analytics";
@@ -73,6 +73,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // price that is really the 14–17 person rate and hide the rest behind "contact
   // us for a quote" — a couple then discovers the real number only by email.
   // Showing every tier is the honest version and removes a reason to bounce.
+  const cheapest = lowestGroupPrice(tour);
   const tiers = groupPriceTiers(tour);
   const showTiers = tiers.length > 1 && tiers[tiers.length - 1].price < tiers[0].price;
   const savedPerPerson = basePer - effPer;
@@ -86,9 +87,21 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
         {/* Price header */}
         <div className="bg-indigo p-6 text-white">
           <div className="text-white/70 text-xs uppercase tracking-widest mb-1">{b.pricePerPerson}</div>
+          {/* Lead with the cheapest per-person rate. tour.price is the SOLO
+              rate — the dearest figure the tour has — and heading the sidebar
+              with it made a EUR695 trek look like a EUR1,800 one. The solo rate
+              stays visible directly underneath, so nobody travelling alone is
+              surprised at checkout. */}
           <div className="font-display text-4xl font-bold">
-            {format(tour.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
+            {format(cheapest.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
           </div>
+          {cheapest.minPeople > 1 && (
+            <div className="text-white/70 text-xs mt-1">
+              {(b.perPersonGroupNote ?? "per person for {count}+ travellers · {solo} solo").
+                replace("{count}", String(cheapest.minPeople)).
+                replace("{solo}", format(tour.price))}
+            </div>
+          )}
           <div className="text-white/55 text-xs mt-1">{b.exactPriceNote}</div>
           {showTiers && (
             <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow bg-white/10 px-2.5 py-1 rounded-full">

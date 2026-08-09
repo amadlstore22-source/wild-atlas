@@ -312,6 +312,8 @@ export const TOURS: Tour[] = [
       { q: "Ist das Mittagessen inbegriffen?", a: "Nein. Das Mittagessen ist nicht enthalten, es gibt aber Restaurants mit Blick auf die Fälle. Der Preis umfasst Hin- und Rücktransport ab Marrakesch, einen zertifizierten Führer, die Bootsfahrt an den Fällen und Mineralwasser." },
       { q: "Werden wir die wilden Affen sehen?", a: "In Ouzoud lebt eine Kolonie wilder Berberaffen rund um die oberen Fälle, und Sichtungen sind häufig – da es Wildtiere sind, jedoch nie garantiert." },
       { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 15 Personen auf einer Tour in geteilter Gruppe." },
+    
+      { q: "Gibt es an den Ouzoud-Fällen eine Bootsfahrt?", a: "Ja, und sie ist im Preis enthalten. Kleine Holzboote queren das Becken am Fuß der Kaskaden und bringen Sie nah genug heran, um die Gischt zu spüren — kurz, der beste Blick auf die Fälle von unten und der Moment, den die meisten fotografieren. Erreichbar über den Schluchtenpfad, der von oben hinabführt." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Ouzoud-Wasserfälle Tagesausflug ab Marrakesch — Berberaffen & 110 m Fälle | Marrakech Eco Tours",

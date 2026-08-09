@@ -312,6 +312,8 @@ export const TOURS: Tour[] = [
       { q: "¿Está incluido el almuerzo?", a: "No. El almuerzo no está incluido, aunque hay restaurantes con vistas a las cataratas. El precio cubre el transporte de ida y vuelta desde Marrakech, un guía certificado, el paseo en barca al pie de las cataratas y el agua mineral." },
       { q: "¿Veremos los monos salvajes?", a: "Ouzoud tiene una colonia de macacos de Berbería salvajes alrededor de las cataratas superiores, y los avistamientos son frecuentes, aunque, al ser animales salvajes, nunca están garantizados." },
       { q: "¿De qué tamaño es el grupo?", a: "Entre 2 y 15 personas en una excursión de grupo compartido." },
+    
+      { q: "¿Hay paseo en barca en las cascadas de Ouzoud?", a: "Sí, y está incluido en el precio. Pequeñas barcas de madera cruzan la poza al pie de las cascadas y te acercan lo bastante para sentir el rocío: es corto, es la mejor vista de los saltos desde abajo y es el momento que casi todos fotografían. Se llega por el sendero de la garganta que baja desde arriba." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Excursión de un Día a las Cascadas de Ouzoud desde Marrakech — Monos de Berbería y 110 m de Cascada | Marrakech Eco Tours",

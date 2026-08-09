@@ -321,6 +321,8 @@ export const TOURS: Tour[] = [
       { q: "Le déjeuner est-il inclus ?", a: "Non. Le déjeuner n'est pas inclus, mais des restaurants surplombent les chutes. Le prix couvre le transport aller-retour depuis Marrakech, un guide certifié, la balade en barque au pied des chutes et l'eau minérale." },
       { q: "Verra-t-on les singes sauvages ?", a: "Ouzoud abrite une colonie de macaques de Barbarie sauvages autour des chutes supérieures, et les observations sont fréquentes, même si, comme pour tout animal sauvage, elles ne sont jamais garanties." },
       { q: "Quelle est la taille du groupe ?", a: "Entre 2 et 15 personnes lors d'une excursion en groupe partagé." },
+    
+      { q: "Y a-t-il une balade en barque aux cascades d'Ouzoud ?", a: "Oui, et elle est comprise dans le prix. De petites barques en bois traversent la vasque au pied des cascades et vous approchent assez pour sentir les embruns : c'est court, c'est la plus belle vue des chutes depuis le bas, et c'est le moment que tout le monde photographie. On y accède par le sentier des gorges qui descend depuis le sommet." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Excursion d'une journée aux cascades d'Ouzoud au départ de Marrakech — Macaques de Barbarie et chutes de 110 m | Marrakech Eco Tours",

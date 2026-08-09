@@ -312,6 +312,8 @@ export const TOURS: Tour[] = [
       { q: "Il pranzo è incluso?", a: "No. Il pranzo non è incluso, ma ci sono ristoranti con vista sulle cascate. Il prezzo copre il trasporto andata e ritorno da Marrakech, una guida certificata, il giro in barca ai piedi delle cascate e l'acqua minerale." },
       { q: "Vedremo le scimmie selvatiche?", a: "Ouzoud ospita una colonia di macachi di Barbaria selvatici attorno alle cascate superiori, e gli avvistamenti sono frequenti, anche se, trattandosi di animali selvatici, non sono mai garantiti." },
       { q: "Quanto è grande il gruppo?", a: "Tra 2 e 15 persone in un'escursione in gruppo condiviso." },
+    
+      { q: "C'è un giro in barca alle cascate di Ouzoud?", a: "Sì, ed è compreso nel prezzo. Piccole barche di legno attraversano la pozza ai piedi delle cascate e ti portano abbastanza vicino da sentire gli spruzzi: è breve, è la vista migliore delle cascate dal basso ed è il momento che quasi tutti fotografano. Ci si arriva dal sentiero della gola che scende dall'alto." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Gita alle Cascate di Ouzoud da Marrakech — Macachi della Barberia e 110m di Cascate | Marrakech Eco Tours",

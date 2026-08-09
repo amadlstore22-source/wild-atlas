@@ -473,6 +473,8 @@ export const TOURS: Tour[] = [
       { q: "Is lunch included?", a: "No. Lunch is not included, though there are restaurants overlooking the falls. The price covers round-trip transport from Marrakech, a certified guide, the boat ride at the falls, and mineral water." },
       { q: "Will we see the wild monkeys?", a: "Ouzoud has a resident colony of wild Barbary macaques around the upper falls, and sightings are common, though as wild animals they are never guaranteed." },
       { q: "How big is the group?", a: "Between 2 and 15 people on a shared day trip." },
+    
+      { q: "Is there a boat ride at Ouzoud Falls?", a: "Yes, and it is included in the price. Small wooden boats run across the pool at the foot of the cascades and take you close enough to feel the spray — it is short, it is the best view of the falls from below, and it is the moment most people photograph. You reach it on the gorge trail that descends from the top." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Ouzoud Waterfalls Day Trip from Marrakech — Barbary Macaques & 110m Falls | Marrakech Eco Tours",

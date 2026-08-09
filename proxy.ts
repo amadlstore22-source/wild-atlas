@@ -285,6 +285,15 @@ function getLocale(request: NextRequest): string {
   return DEFAULT_LOCALE;
 }
 
+/** Does this path already start with a /<locale> segment? Shared by the www
+ *  handler and the fall-through locale redirect so the two cannot disagree
+ *  about what counts as already-localised. */
+function hasLocalePrefix(pathname: string) {
+  return LOCALES.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+}
+
 export function proxy(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
   if (host.endsWith(".vercel.app")) {
@@ -302,6 +311,14 @@ export function proxy(request: NextRequest) {
     const url = new URL(request.url);
     url.host = host.slice(4);
     url.protocol = "https";
+    // Add the locale prefix here too when the path lacks one, so www root goes
+    // straight to https://apex/en instead of chaining apex root -> apex/en.
+    // Search Console listed both www roots under "Page with redirect", and a
+    // two-hop chain is a wasted crawl on the single most-linked URL on the site.
+    if (!hasLocalePrefix(url.pathname)) {
+      const locale = isCrawler(request) ? DEFAULT_LOCALE : getLocale(request);
+      url.pathname = `/${locale}${url.pathname === "/" ? "" : url.pathname}`;
+    }
     return NextResponse.redirect(url, 308);
   }
 
@@ -375,10 +392,7 @@ export function proxy(request: NextRequest) {
     }
   }
 
-  const pathnameHasLocale = LOCALES.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-  if (pathnameHasLocale) return;
+  if (hasLocalePrefix(pathname)) return;
 
   // Crawlers get the canonical default locale, never an Accept-Language guess.
   // Googlebot commonly sends "Accept-Language: it" or similar, and honouring it

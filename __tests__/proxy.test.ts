@@ -69,3 +69,51 @@ describe("apex host consolidation", () => {
     expect(res?.headers.get("location")).toContain("marrakechecotours.com");
   });
 });
+
+describe("www consolidation resolves in a single hop", () => {
+  function wwwReq(url: string, headers: Record<string, string> = {}) {
+    const u = new URL(url);
+    return new NextRequest(u, { headers: { host: u.host, ...headers } });
+  }
+
+  // Search Console listed both www roots under "Page with redirect". They were
+  // chaining: www root -> apex root -> apex/en. Two hops on the most-linked URL
+  // on the site wastes crawl budget and dilutes the signal passed through, so
+  // the www handler now applies the locale prefix itself.
+  it("sends the www root straight to the localised apex", () => {
+    const res = proxy(wwwReq("https://www.marrakechecotours.com/", {
+      "user-agent": "Googlebot/2.1",
+    }));
+    expect(res?.headers.get("location")).toBe("https://marrakechecotours.com/en");
+  });
+
+  it("upgrades http and localises in the same hop", () => {
+    const res = proxy(wwwReq("http://www.marrakechecotours.com/", {
+      "user-agent": "Googlebot/2.1",
+    }));
+    expect(res?.headers.get("location")).toBe("https://marrakechecotours.com/en");
+  });
+
+  it("leaves an already-localised www path alone apart from the host", () => {
+    const res = proxy(wwwReq("https://www.marrakechecotours.com/en/destinations"));
+    expect(res?.headers.get("location")).toBe(
+      "https://marrakechecotours.com/en/destinations"
+    );
+  });
+
+  it("preserves the query string when consolidating the host", () => {
+    const res = proxy(wwwReq("https://www.marrakechecotours.com/it/tours?origin=agadir"));
+    expect(res?.headers.get("location")).toBe(
+      "https://marrakechecotours.com/it/tours?origin=agadir"
+    );
+  });
+
+  it("redirects the apex root once, not twice", () => {
+    const first = proxy(req("/", { "user-agent": "Googlebot/2.1" }));
+    const to = first?.headers.get("location");
+    expect(to).toBe("https://marrakechecotours.com/en");
+    // and the destination must not itself redirect
+    const second = proxy(req("/en", { "user-agent": "Googlebot/2.1" }));
+    expect(second).toBeUndefined();
+  });
+});

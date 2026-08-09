@@ -17,16 +17,21 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
-  const [people, setPeople] = useState(2);
+  // The smallest bookable group, from the tour's own tiers — some tours (the
+  // family trek) cannot be booked solo, so 1 is not always the floor.
+  const minPeople = groupPriceTiers(tour)[0]?.minPeople ?? 1;
+  const [people, setPeople] = useState(Math.max(2, minPeople));
   // The travellers field is a controlled number input, but clamping on every
   // keystroke made it impossible to clear: Math.max(1, Number("")) is 1, so the
   // digit reappeared before a second one could be typed. Keep the raw string
   // while the field is focused and clamp on blur instead.
-  const [peopleInput, setPeopleInput] = useState("2");
+  const [peopleInput, setPeopleInput] = useState(String(Math.max(2, minPeople)));
   // Empty or zero is a real error now that the field can be cleared: snapping
   // silently back to 1 would send an enquiry for the wrong group size.
   const peopleInvalid =
-    peopleInput.trim() === "" || !Number.isFinite(Number(peopleInput)) || Number(peopleInput) < 1;
+    peopleInput.trim() === "" ||
+    !Number.isFinite(Number(peopleInput)) ||
+    Number(peopleInput) < minPeople;
   const [agreed, setAgreed] = useState(false);
   const { format, currency } = useCurrency();
   const { sending, sent, error, submit: doSubmit } = useFormSubmit();
@@ -154,8 +159,8 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               <div className="flex items-center gap-1">
                 <button
                   type="button"
-                  onClick={() => setPeople((n) => Math.max(1, n - 1))}
-                  disabled={people <= 1}
+                  onClick={() => setPeople((n) => Math.max(minPeople, n - 1))}
+                  disabled={people <= minPeople}
                   aria-label={b.groupSizeFewer ?? "Fewer travellers"}
                   className="w-7 h-7 rounded-[3px] border border-rule text-indigo font-bold leading-none disabled:opacity-35 disabled:cursor-not-allowed hover:bg-indigo-wash transition-colors"
                 >
@@ -355,7 +360,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                         const n = Number(raw);
                         // Only move the quote once the field holds a usable
                         // number; an empty box leaves the last valid size.
-                        if (raw !== "" && Number.isFinite(n) && n >= 1) {
+                        if (raw !== "" && Number.isFinite(n) && n >= minPeople) {
                           setPeople(Math.min(20, Math.floor(n)));
                         }
                       }}
@@ -364,7 +369,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                         // empty or zero field keeps its warning instead of
                         // being silently rewritten to 1.
                         const n = Number(peopleInput);
-                        if (peopleInput.trim() !== "" && Number.isFinite(n) && n >= 1) {
+                        if (peopleInput.trim() !== "" && Number.isFinite(n) && n >= minPeople) {
                           const clamped = Math.min(20, Math.floor(n));
                           setPeople(clamped);
                           setPeopleInput(String(clamped));
@@ -386,7 +391,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                       role="alert"
                       className="text-terracotta text-xs mt-1"
                     >
-                      {b.travellersRequired ?? "Enter at least 1 traveller."}
+                      {(minPeople > 1
+                        ? (b.travellersRequiredMin ?? "Enter at least {count} travellers.")
+                        : (b.travellersRequired ?? "Enter at least 1 traveller.")
+                      ).replace("{count}", String(minPeople))}
                     </p>
                   )}
                 </div>

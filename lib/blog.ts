@@ -5896,7 +5896,7 @@ Toubkal into a single crossing.
     author: MET_TEAM,
     title: "What Does the High Atlas Grand Traverse Cost? (15-Day, 2026)",
     excerpt:
-      "Fifteen days, two 4,000 m summits and a full mountain crew. At €1,518 it is the most expensive trip we run — here is exactly where that money goes, and why per-day it is the cheapest.",
+      "Fifteen days, two 4,000 m summits and a full mountain crew. From €1,700 it is the most expensive trip we run — here is exactly where that money goes, and why a two-week crew costs what it does.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -5908,8 +5908,8 @@ Toubkal into a single crossing.
     seoDescription:
       "What the 15-day M'Goun to Toubkal traverse costs in 2026: guide, cook, mule team, 14 nights and park fees itemised — and why the per-day rate is the lowest of any Atlas trek.",
     faq: [
-      { q: "How much does the High Atlas Grand Traverse cost?", a: "Our [15-day traverse](/en/tours/high-atlas-grand-traverse-15day) is €1,518 per person, covering the high-altitude guide, cook, full mule team, all 14 nights of accommodation, every meal, both national park fees and the transfers from Marrakech. It is the highest headline price we quote and the lowest per-day rate of any trek we run." },
-      { q: "Why is the per-day cost lower than a short trek?", a: "Because the fixed costs are spread further. The Marrakech transfers, the guide's mobilisation and the mule team's assembly cost roughly the same for a 3-day trip as a 15-day one. On a weekend trek those fixed items dominate the price; across 15 days they are diluted. At €1,518 the traverse works out near €101 per day against roughly €110 for the 3-day village trek." },
+      { q: "How much does the High Atlas Grand Traverse cost?", a: "Our [15-day traverse](/en/tours/high-atlas-grand-traverse-15day) is €1,700 per person for two, falling to €1,100 at six, covering the high-altitude guide, cook, full mule team, all 14 nights of accommodation, every meal, both national park fees and the transfers from Marrakech. It is the highest price we quote, and the only trip where a full crew stays with you for two weeks." },
+      { q: "Why is the per-day cost lower than a short trek?", a: "It is not — and it is worth being straight about that. At €1,700 for two the traverse works out near €113 per day, against roughly €73 for the 3-day village trek. The transfers and the guide's mobilisation do dilute across fifteen days, but they are the smaller part of the bill. The larger part is the crew: a high-altitude guide, a cook and a full mule team stay with you for two weeks, and none of that shrinks with duration. You are paying for fourteen consecutive days of a supported expedition, not for a longer version of a weekend walk." },
       { q: "Do I need previous high-altitude experience?", a: "Yes. This is graded expert, summits both M'Goun (4,068 m) and Toubkal (4,167 m), and spends two weeks in remote terrain where evacuation is slow. It assumes you have done multi-day mountain trekking before. If you have not, start with the [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day)." },
       { q: "What is not included in the traverse price?", a: "Travel insurance with high-altitude cover (mandatory), personal trekking equipment and a sleeping bag, crampons and ice axe if conditions require them in winter, and tips for the guide, cook and muleteers. Everything else across the 15 days is covered." },
     ],
@@ -5917,7 +5917,7 @@ Toubkal into a single crossing.
 ## The short answer
 
 The [15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) is
-**€1,518 per person**. That is the largest single number on this site, and also —
+**from €1,700 per person**. That is the largest single number on this site, and —
 per day on the mountain — the **cheapest trek we run**.
 
 Both of those things are true at once, and the reason is worth understanding before
@@ -5955,7 +5955,7 @@ disappear:
 | 3-day High Atlas villages | €235 | 3 | ~€78 |
 | 4-day Toubkal summit | €360 | 4 | ~€90 |
 | 7-day Mgoun traverse | €760 | 7 | ~€109 |
-| 15-day Grand Traverse | €1,518 | 15 | ~€101 |
+| 15-day Grand Traverse | €1,700 | 15 | ~€113 |
 
 The traverse buys two weeks of full mountain support for roughly what four days of
 Mgoun costs per day — with two 4,000 m summits rather than one.
@@ -5983,7 +5983,7 @@ If you are testing whether long-distance mountain trekking suits you, the
 [7-day Mgoun traverse](/en/tours/mgoun-massif-trek) covers similar terrain at half
 the commitment.
 
-👉 **[See the 15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day)** — €1,518 per person, M'Goun and Toubkal summits, full mountain crew for two weeks.
+👉 **[See the 15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day)** — from €1,700 per person, M'Goun and Toubkal summits, full mountain crew for two weeks.
 `,
   },
   {

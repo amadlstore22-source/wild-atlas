@@ -3192,7 +3192,6 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 1751,
-    priceMax: 1963,
     depositAmount: 424,
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     gallery: [

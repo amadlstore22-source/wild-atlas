@@ -62,6 +62,10 @@ export interface Tour {
    *  per-person price drops. Tiers must be sorted ascending by minPeople and start
    *  at 1. When omitted, `groupPriceTiers()` derives sensible tiers from `price`. */
   groupPricing?: { minPeople: number; price: number }[];
+  /** Smallest bookable group. Tiers below this are dropped, so the page never
+   *  quotes a group size that cannot actually be booked. Omit for tours that
+   *  take a single traveller. */
+  minPeople?: number;
   /** @deprecated Placeholder figures, not a real review corpus — the sum across
    *  tours (~2,276) far exceeds our actual 122 TripAdvisor reviews. Not rendered
    *  and not emitted as schema. Delete once real per-tour reviews exist, or
@@ -3269,10 +3273,12 @@ export const TOURS: Tour[] = [
     origin: "marrakech",
     difficulty: "easy",
     duration: "4 days / 3 nights",
-    groupSize: "2–14 people",
+    groupSize: "3–14 people",
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
+    // Sold to families: three is the smallest booking.
+    minPeople: 3,
     price: 361,
     depositAmount: 90,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3487,9 +3493,22 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 1751,
-    priceMax: 1963,
-    depositAmount: 424,
+    // Real ladder, not the derived curve: a solo traveller pays for the whole
+    // private guide and vehicle, so solo is far above the shallow premium
+    // groupPriceTiers() would assume.
+    // Sold from two travellers up - not offered solo.
+    minPeople: 2,
+    // Real ladder, not the derived curve.
+    // EUR 1700 / 1400 / 1290 / 1230 / 1100 for 2/3/4/5/6+.
+    groupPricing: [
+      { minPeople: 2, price: 1961 },
+      { minPeople: 3, price: 1615 },
+      { minPeople: 4, price: 1488 },
+      { minPeople: 5, price: 1419 },
+      { minPeople: 6, price: 1269 },
+    ],
+    price: 1961,
+    depositAmount: 431,
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3542,7 +3561,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "High Atlas Grand Traverse 15 Days — M'Goun to Toubkal Trek | Marrakech Eco Tours",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1751.",
+    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1961.",
     faq: [
       { q: "How fit and experienced do I need to be for the Grand Traverse?", a: "This is graded expert — the most demanding trip we run. It is fifteen consecutive days of walking, several of them long (8–9 hours), with two 4,000 m summits and high passes. You should already have multi-day trekking experience, be comfortable at altitude, and be prepared for consecutive hard days in remote country. It is not a first big trek." },
       { q: "Which peaks does the traverse summit?", a: "Both of North Africa's highest: M'Goun (4,068 m) early in the route from the Aït Bougmez side, and Jbel Toubkal (4,167 m) near the end. Weather permitting, both summits are part of the standard itinerary rather than optional extras." },
@@ -4007,19 +4026,36 @@ export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
  * see docs/PRICING.md.
  */
 export function groupPriceTiers(tour: Tour): { minPeople: number; price: number }[] {
-  if (tour.groupPricing?.length) return tour.groupPricing;
+  // A tour with a booking minimum must not advertise smaller groups. Applied
+  // to every branch below, so explicit and derived ladders behave the same.
+  const floor = (tiers: { minPeople: number; price: number }[]) => {
+    const min = tour.minPeople ?? 1;
+    if (min <= 1) return tiers;
+    const kept = tiers.filter((t) => t.minPeople >= min);
+    // Re-base the first surviving tier to the minimum itself, so a tour whose
+    // ladder jumps (say 1, 2, 4, 6) with a minimum of 3 still opens at 3
+    // rather than silently starting at 4.
+    const below = [...tiers].reverse().find((t) => t.minPeople <= min);
+    return kept.length && kept[0].minPeople === min
+      ? kept
+      : [{ minPeople: min, price: (below ?? tiers[0]).price }, ...kept];
+  };
+
+  if (tour.groupPricing?.length) return floor(tour.groupPricing);
   // Shared departures are sold per seat — no vehicle cost to divide.
-  if (tour.tourType === "shared") return [{ minPeople: 1, price: tour.price }];
+  if (tour.tourType === "shared") return floor([{ minPeople: 1, price: tour.price }]);
 
   const multiDay = durationDays(tour) >= 2;
   const m = multiDay
     ? [1, 0.93, 0.88, 0.84, 0.81, 0.79]
     : [1, 0.96, 0.94, 0.92, 0.91, 0.9];
 
-  return m.map((mult, i) => ({
-    minPeople: i + 1,
-    price: Math.round(tour.price * mult),
-  }));
+  return floor(
+    m.map((mult, i) => ({
+      minPeople: i + 1,
+      price: Math.round(tour.price * mult),
+    })),
+  );
 }
 
 /** The cheapest per-person price and the group size that unlocks it.

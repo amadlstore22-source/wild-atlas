@@ -281,7 +281,8 @@
     "groupSizeLabel": "Combien de voyageurs ?",
     "groupSizeFewer": "Moins de voyageurs",
     "groupSizeMore": "Plus de voyageurs",
-    "travellersRequired": "Indiquez au moins 1 voyageur."
+    "travellersRequired": "Indiquez au moins 1 voyageur.",
+    "travellersRequiredMin": "Indiquez au moins {count} voyageurs."
   },
   "cookieBanner": {
     "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",

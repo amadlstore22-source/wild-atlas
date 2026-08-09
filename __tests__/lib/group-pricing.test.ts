@@ -17,13 +17,19 @@ describe("groupPriceTiers", () => {
     }
   });
 
-  it("starts at 1 person for the headline price", () => {
+  it("starts at the smallest bookable group for the headline price", () => {
     for (const tour of TOURS) {
       const tiers = groupPriceTiers(tour);
-      expect(tiers[0].minPeople, tour.slug).toBe(1);
-      // The advertised "from" price must be what a solo traveller actually pays,
-      // otherwise the headline is a price no one can book.
-      expect(tiers[0].price, tour.slug).toBe(tour.price);
+      const min = tour.minPeople ?? 1;
+      // Usually 1, but a tour with a booking minimum (the family trek takes
+      // three) must open at ITS minimum — quoting a 1-person rate for a trip
+      // that cannot be booked solo is the same bug in the other direction.
+      expect(tiers[0].minPeople, tour.slug).toBe(min);
+      // The advertised "from" price must be what the smallest bookable group
+      // actually pays, otherwise the headline is a price no one can book.
+      if (min === 1) {
+        expect(tiers[0].price, tour.slug).toBe(tour.price);
+      }
     }
   });
 
@@ -41,7 +47,15 @@ describe("groupPriceTiers", () => {
     // The booking sidebar defaults to 2 travellers, so this is the number most
     // visitors see first. If it equals the solo price the discount is invisible.
     for (const tour of privateTours) {
-      expect(perPersonPrice(tour, 2), tour.slug).toBeLessThan(perPersonPrice(tour, 1));
+      // Compare against the smallest bookable group, not a hard-coded 1: on a
+      // tour with a minimum of three, "2" is not a bookable size and both
+      // lookups would return the same tier.
+      const min = tour.minPeople ?? 1;
+      // Only meaningful when a couple is BIGGER than the smallest bookable
+      // group. Where the minimum is already 2 (or more) there is no smaller
+      // tier to save against.
+      if (min >= 2) continue;
+      expect(perPersonPrice(tour, 2), tour.slug).toBeLessThan(perPersonPrice(tour, min));
     }
   });
 

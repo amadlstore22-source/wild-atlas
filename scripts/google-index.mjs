@@ -143,6 +143,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
   let ok = 0;
   let failed = 0;
+  let quotaHit = -1; // index where the daily quota stopped us, if it did
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
     try {
@@ -156,6 +157,20 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         ok++;
         console.log(`  ✓ ${url}`);
       } else {
+        // A 429 naming the PER DAY limit is terminal — the quota resets at
+        // midnight Pacific and every further request today will fail the same
+        // way. Stop rather than printing the same error for every URL left.
+        // (A per-minute 429 is different: it was already retried above.)
+        if (r.status === 429 && /per day/i.test(r.body)) {
+          quotaHit = i;
+          console.log(
+            `\n  ⚠ Daily quota reached after ${ok} submitted this run.\n` +
+              `    Google allows 200 publish requests per day; it resets at ` +
+              `midnight Pacific.\n    Stopping here rather than retrying ` +
+              `${urls.length - i} more that would fail identically.`
+          );
+          break;
+        }
         failed++;
         console.log(`  ✗ [${r.status}] ${url} — ${r.body.slice(0, 160)}`);
         if (r.status === 403) {
@@ -174,4 +189,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   }
 
   console.log(`\nDone. ${ok} submitted, ${failed} failed, of ${urls.length}.`);
+
+  // Tell the operator exactly where to pick up. Without this the next run needs
+  // mental arithmetic over OFFSET + how many actually went through, which is
+  // how the same 200 URLs end up being submitted twice.
+  const reached = OFFSET + (quotaHit >= 0 ? quotaHit : ok + failed);
+  if (reached < total) {
+    console.log(
+      `\nResume tomorrow from URL ${reached + 1} of ${total}:\n` +
+        `  node scripts/google-index.mjs --key ${args.key} --urls ${args.urls} ` +
+        `--offset ${reached} --limit 200`
+    );
+  } else {
+    console.log(`\nAll ${total} URLs in this list have been submitted.`);
+  }
 })();

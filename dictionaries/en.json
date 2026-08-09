@@ -280,7 +280,11 @@
     "groupPricingPerson": "person",
     "groupPricingEachSuffix": "per person",
     "groupPricingBestValue": "Best value",
-    "groupPricingPeopleWord": "people"
+    "groupPricingPeopleWord": "people",
+    "groupSizeLabel": "How many travelling?",
+    "groupSizeFewer": "Fewer travellers",
+    "groupSizeMore": "More travellers",
+    "travellersRequired": "Enter at least 1 traveller."
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",

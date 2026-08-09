@@ -280,7 +280,11 @@
     "groupPricingPerson": "شخص",
     "groupPricingEachSuffix": "للفرد",
     "groupPricingBestValue": "أفضل سعر",
-    "groupPricingPeopleWord": "أشخاص"
+    "groupPricingPeopleWord": "أشخاص",
+    "groupSizeLabel": "كم عدد المسافرين؟",
+    "groupSizeFewer": "عدد أقل من المسافرين",
+    "groupSizeMore": "عدد أكبر من المسافرين",
+    "travellersRequired": "أدخل مسافرًا واحدًا على الأقل."
   },
   "cookieBanner": {
     "body": "نستخدم ملفات تعريف الارتباط لتذكر تفضيلاتك، وإذا وافقت، نستخدم Google Analytics لفهم كيفية استخدام الموقع. ملفات تعريف الارتباط الضرورية مفعّلة دائماً؛ ولا يوجد حاجز إجباري لملفات تعريف الارتباط.",

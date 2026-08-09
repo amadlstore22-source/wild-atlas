@@ -18,13 +18,22 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [people, setPeople] = useState(2);
+  // The travellers field is a controlled number input, but clamping on every
+  // keystroke made it impossible to clear: Math.max(1, Number("")) is 1, so the
+  // digit reappeared before a second one could be typed. Keep the raw string
+  // while the field is focused and clamp on blur instead.
+  const [peopleInput, setPeopleInput] = useState("2");
+  // Empty or zero is a real error now that the field can be cleared: snapping
+  // silently back to 1 would send an enquiry for the wrong group size.
+  const peopleInvalid =
+    peopleInput.trim() === "" || !Number.isFinite(Number(peopleInput)) || Number(peopleInput) < 1;
   const [agreed, setAgreed] = useState(false);
   const { format, currency } = useCurrency();
   const { sending, sent, error, submit: doSubmit } = useFormSubmit();
 
   function handleInquiry(e: React.FormEvent) {
     e.preventDefault();
-    if (!agreed) return;
+    if (!agreed || peopleInvalid) return;
     doSubmit({ type: "booking", tour: tour.title, name, email, date, people });
   }
 
@@ -37,6 +46,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
       trackConversion("enquiry", { value: tour.depositAmount, currency: "EUR" });
     }
   }, [sent, tour.title, tour.depositAmount]);
+
+  // Mirror programmatic changes (stepper, tier row) into the text field.
+  useEffect(() => {
+    setPeopleInput(String(people));
+  }, [people]);
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
   // depositAmount is stored in USD but the page displays the active currency.
@@ -129,6 +143,41 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             <div className="text-[0.7rem] font-semibold uppercase tracking-widest text-ink-soft mb-2">
               {b.groupPricingTitle ?? "Price per person by group size"}
             </div>
+
+            {/* The group-size control belongs WITH the prices. It previously
+                existed only as a number field inside the enquiry form far
+                below, so from here the highlighted bracket looked fixed. */}
+            <div className="flex items-center justify-between gap-3 mb-3 rounded-[3px] border border-indigo/20 bg-card px-3 py-2">
+              <span className="text-xs font-semibold text-ink-soft">
+                {b.groupSizeLabel ?? "How many travelling?"}
+              </span>
+              <div className="flex items-center gap-1">
+                <button
+                  type="button"
+                  onClick={() => setPeople((n) => Math.max(1, n - 1))}
+                  disabled={people <= 1}
+                  aria-label={b.groupSizeFewer ?? "Fewer travellers"}
+                  className="w-7 h-7 rounded-[3px] border border-rule text-indigo font-bold leading-none disabled:opacity-35 disabled:cursor-not-allowed hover:bg-indigo-wash transition-colors"
+                >
+                  &minus;
+                </button>
+                <span
+                  aria-live="polite"
+                  className="w-8 text-center font-bold text-indigo tabular-nums text-sm"
+                >
+                  {people}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setPeople((n) => Math.min(20, n + 1))}
+                  disabled={people >= 20}
+                  aria-label={b.groupSizeMore ?? "More travellers"}
+                  className="w-7 h-7 rounded-[3px] border border-rule text-indigo font-bold leading-none disabled:opacity-35 disabled:cursor-not-allowed hover:bg-indigo-wash transition-colors"
+                >
+                  +
+                </button>
+              </div>
+            </div>
             <ul className="flex flex-col gap-1.5">
               {tiers.map((tier, i) => {
                 const next = tiers[i + 1];
@@ -153,8 +202,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                         {b.groupPricingBestValue ?? "Best value"}
                       </span>
                     )}
-                    <div
-                      className={`flex items-center justify-between gap-2 rounded-[3px] border bg-card px-3.5 ${
+                    <button
+                      type="button"
+                      onClick={() => setPeople(tier.minPeople)}
+                      aria-pressed={active}
+                      className={`w-full text-start flex items-center justify-between gap-2 rounded-[3px] border bg-card px-3.5 transition-colors hover:border-indigo/50 ${
                         best
                           ? "py-3 border-terracotta"
                           : active
@@ -177,7 +229,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                           {b.groupPricingEachSuffix ?? "per person"}
                         </span>
                       </span>
-                    </div>
+                    </button>
                   </li>
                 );
               })}
@@ -296,12 +348,47 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                       type="number"
                       min={1}
                       max={20}
-                      value={people}
-                      onChange={(e) => setPeople(Math.max(1, Number(e.target.value)))}
-                      className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
+                      value={peopleInput}
+                      onChange={(e) => {
+                        const raw = e.target.value;
+                        setPeopleInput(raw);
+                        const n = Number(raw);
+                        // Only move the quote once the field holds a usable
+                        // number; an empty box leaves the last valid size.
+                        if (raw !== "" && Number.isFinite(n) && n >= 1) {
+                          setPeople(Math.min(20, Math.floor(n)));
+                        }
+                      }}
+                      onBlur={() => {
+                        // Only normalise a value that is already valid — an
+                        // empty or zero field keeps its warning instead of
+                        // being silently rewritten to 1.
+                        const n = Number(peopleInput);
+                        if (peopleInput.trim() !== "" && Number.isFinite(n) && n >= 1) {
+                          const clamped = Math.min(20, Math.floor(n));
+                          setPeople(clamped);
+                          setPeopleInput(String(clamped));
+                        }
+                      }}
+                      aria-invalid={peopleInvalid}
+                      aria-describedby={peopleInvalid ? "booking-travellers-error" : undefined}
+                      className={`w-full px-3 py-2.5 rounded-[3px] border text-ink text-sm focus:outline-none focus:ring-1 transition-colors ${
+                        peopleInvalid
+                          ? "border-terracotta focus:border-terracotta focus:ring-terracotta/20"
+                          : "border-rule focus:border-indigo focus:ring-indigo/20"
+                      }`}
                     />
                     <span className="absolute right-3 top-1/2 -translate-y-1/2 text-ink-muted text-xs pointer-events-none">{b.paxSuffix}</span>
                   </div>
+                  {peopleInvalid && (
+                    <p
+                      id="booking-travellers-error"
+                      role="alert"
+                      className="text-terracotta text-xs mt-1"
+                    >
+                      {b.travellersRequired ?? "Enter at least 1 traveller."}
+                    </p>
+                  )}
                 </div>
               </div>
 
@@ -343,7 +430,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
 
               <button
                 type="submit"
-                disabled={sending || !agreed}
+                disabled={sending || !agreed || peopleInvalid}
                 className="btn-brass w-full !py-3 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 <Envelope className="w-4 h-4" />

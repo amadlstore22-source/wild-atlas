@@ -5728,9 +5728,9 @@ handlers or the guesthouses. Booking direct keeps it in the country.
     tags: ["Toubkal three peaks cost", "Ouanoukrim price", "Timesguida", "Ras Ouanoukrim", "4000m Morocco", "High Atlas"],
     seoTitle: "Toubkal Three Peaks Trek Cost in 2026 — Full Price Breakdown",
     seoDescription:
-      "What the three-summit Toubkal trek costs in 2026: guide premium, two refuge nights, mule and park fees itemised, plus how it compares with a €331 package.",
+      "What the three-summit Toubkal trek costs in 2026: guide premium, two refuge nights, mule and park fees itemised, plus how it compares with a package from €280.",
     faq: [
-      { q: "How much does the Toubkal Three Peaks trek cost?", a: "Our [3-day three-summit trek](/en/tours/toubkal-three-peaks-4000m-3day) is €331 per person with the high-altitude guide, both refuge nights, all meals, the mule porter, park fees and the Marrakech transfer included. Organising the same itinerary independently runs to roughly 3,200–4,600 MAD for two people once every line is added up." },
+      { q: "How much does the Toubkal Three Peaks trek cost?", a: "Our [3-day three-summit trek](/en/tours/toubkal-three-peaks-4000m-3day) is €280 per person for two, €230 at six, or €600 solo, with the high-altitude guide, both refuge nights, all meals, the mule porter, park fees and the Marrakech transfer included. Organising the same itinerary independently runs to roughly 3,200–4,600 MAD for two people once every line is added up." },
       { q: "Why does it cost more than a standard Toubkal trek?", a: "Not because of the extra day. The difference is the guide: Timesguida and Ras Ouanoukrim are graded expert and need a high-altitude qualified guide, whose day rate sits at the top of the 500–800 MAD band rather than the middle. The second refuge night and the extra meals add the rest." },
       { q: "Do I need technical climbing skills for the three peaks?", a: "Not in summer — it is hard walking on scree and rock rather than climbing. From November to March all three summits need crampons and an ice axe, and the ability to use them. That is the single biggest thing that separates this trek from the standard Toubkal route." },
       { q: "Is three peaks in three days realistic?", a: "It is genuinely demanding. You sleep two nights at 3,207 m and summit on both full days, so there is no acclimatisation buffer. Anyone who has not been above 3,000 m recently should consider the [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) first, where the extra day exists specifically to acclimatise." },
@@ -5739,7 +5739,7 @@ handlers or the guesthouses. Booking direct keeps it in the country.
 ## The short answer
 
 Our [3-day Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day) is
-**€331 per person**, everything included. Arranging the identical itinerary yourself
+**from €280 per person**, everything included. Arranging the identical itinerary yourself
 comes to roughly **3,200–4,600 MAD for two people** — and the gap between those
 numbers is smaller than it looks, for reasons worth understanding.
 
@@ -5766,7 +5766,7 @@ That is a rate at the top of the 500–800 MAD range rather than the middle, on 
 day of the trip.
 
 This is why the three-peaks trek is not simply "the 2-day trek plus a day". The
-[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is from €195 and this is €331 —
+[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is from €195 and this is from €280 —
 a 71% increase for a 50% longer trip with a scarcer guide and an extra refuge night.
 
 ## Winter changes the number
@@ -5785,7 +5785,7 @@ discovering it at the trailhead.
 
 Everything else — the high-altitude guide, both refuge nights, all meals on the
 trek, the mule porter, park fees and the round-trip from Marrakech — is in the
-€331.
+€280.
 
 ## Is it worth it over a single summit?
 
@@ -5795,7 +5795,7 @@ Atlas offers in a long weekend, yes. If Toubkal itself is the goal, the
 slightly more but includes a proper acclimatisation day, which is the single largest
 factor in whether people actually reach a summit.
 
-👉 **[See the Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day)** — €331 per person, three 4,000 m summits, high-altitude guide and both refuge nights included.
+👉 **[See the Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day)** — from €280 per person, three 4,000 m summits, high-altitude guide and both refuge nights included.
 `,
   },
   {

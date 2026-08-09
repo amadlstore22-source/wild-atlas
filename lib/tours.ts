@@ -2756,8 +2756,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 18,
     rating: 4.8,
-    price: 351,
-    depositAmount: 90,
+    // Real ladder, not the derived curve: a solo traveller pays for the whole
+    // private guide and vehicle, so solo is far above the shallow premium
+    // groupPriceTiers() would assume.
+    // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 692 },
+      { minPeople: 2, price: 323 },
+      { minPeople: 3, price: 311 },
+      { minPeople: 4, price: 300 },
+      { minPeople: 5, price: 288 },
+      { minPeople: 6, price: 265 },
+    ],
+    price: 692,
+    depositAmount: 152,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -2833,7 +2845,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Toubkal Trek via Aguelzim Pass from Marrakech — Azzaden Valley Route | Marrakech Eco Tours",
-    seoDescription: "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). Licensed guide, refuges, all meals & transfers. From $351.",
+    seoDescription: "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). Licensed guide, refuges, all meals & transfers. From $692.",
     featured: false,
   },
   {
@@ -2848,8 +2860,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 12,
     rating: 4.9,
-    price: 382,
-    depositAmount: 96,
+    // Real ladder, not the derived curve: a solo traveller pays for the whole
+    // private guide and vehicle, so solo is far above the shallow premium
+    // groupPriceTiers() would assume.
+    // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 692 },
+      { minPeople: 2, price: 323 },
+      { minPeople: 3, price: 311 },
+      { minPeople: 4, price: 300 },
+      { minPeople: 5, price: 288 },
+      { minPeople: 6, price: 265 },
+    ],
+    price: 692,
+    depositAmount: 152,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -2927,7 +2951,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Toubkal Three Peaks 4,000 m Challenge — 3-Day High Atlas Trek | Marrakech Eco Tours",
-    seoDescription: "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). Expert-level trek from Marrakech with licensed guide. From $382.",
+    seoDescription: "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). Expert-level trek from Marrakech with licensed guide. From $692.",
     featured: false,
   },
   {

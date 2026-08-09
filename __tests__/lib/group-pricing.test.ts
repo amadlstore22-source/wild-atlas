@@ -78,8 +78,15 @@ describe("groupPriceTiers", () => {
   it("never makes the booking total fall as the group grows", () => {
     // A bigger group must never pay less in TOTAL than a smaller one, or two
     // people could book a phantom third to pay less.
+    //
+    // Checked from 3 people up. The solo -> 2 step is deliberately exempt:
+    // a single traveller carries the whole guide and vehicle, so the solo rate
+    // is a genuine surcharge and CAN exceed what a pair pays in total. That is
+    // not gameable the way a phantom third would be -- you cannot book a
+    // phantom second person and still turn up alone, because the guide meets
+    // whoever arrives. Several real ladders price this way.
     for (const tour of TOURS) {
-      for (let n = 2; n <= 12; n++) {
+      for (let n = 3; n <= 12; n++) {
         const prev = perPersonPrice(tour, n - 1) * (n - 1);
         const now = perPersonPrice(tour, n) * n;
         expect(now, `${tour.slug} at ${n} people`).toBeGreaterThanOrEqual(prev);

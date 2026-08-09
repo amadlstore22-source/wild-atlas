@@ -6370,7 +6370,7 @@ For a 4-day Marrakech to Erg Chebbi trip:
 | Your group | Shared seat, typical market | Our private 4-day |
 |---|---|---|
 | 1 person | ~€330 | €593 |
-| 2 people | ~€330 each | €331 each |
+| 2 people | ~€330 each | €414 each |
 | 4 people | ~€330 each | €238 each |
 | 6 people | ~€330 each | €195 each |
 
@@ -6427,7 +6427,7 @@ Here is the same data as a decision:
 | Your group | What we would actually recommend |
 |---|---|
 | Solo | **A shared seat**, if budget matters. €330 against €593 is a real gap, and one person cannot divide a vehicle. |
-| Couple | **Either.** Our private 4-day is €331 each — about what a shared seat costs. You are getting your own vehicle for the same money. |
+| Couple | **Either.** Our private 4-day is €414 each — about what a shared seat costs. You are getting your own vehicle for the same money. |
 | Three | **Private.** €271 each, and now cheaper than sharing. |
 | Four | **Private.** €238 each. |
 | Five or more | **Private**, comfortably. €195 each at six. |

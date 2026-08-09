@@ -1,36 +1,3 @@
-TIER 1 - NEW TOUR PAGES (all locales) - submit first
-https://marrakechecotours.com/en/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/en/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/en/tours/family-atlas-4day-trek
-https://marrakechecotours.com/en/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/en/tours/high-atlas-grand-traverse-15day
-https://marrakechecotours.com/fr/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/fr/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/fr/tours/family-atlas-4day-trek
-https://marrakechecotours.com/fr/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/fr/tours/high-atlas-grand-traverse-15day
-https://marrakechecotours.com/es/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/es/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/es/tours/family-atlas-4day-trek
-https://marrakechecotours.com/es/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/es/tours/high-atlas-grand-traverse-15day
-https://marrakechecotours.com/de/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/de/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/de/tours/family-atlas-4day-trek
-https://marrakechecotours.com/de/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/de/tours/high-atlas-grand-traverse-15day
-https://marrakechecotours.com/it/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/it/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/it/tours/family-atlas-4day-trek
-https://marrakechecotours.com/it/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/it/tours/high-atlas-grand-traverse-15day
-https://marrakechecotours.com/ar/tours/azzaden-valley-2day-trek
-https://marrakechecotours.com/ar/tours/atlas-mountains-3day-trek
-https://marrakechecotours.com/ar/tours/family-atlas-4day-trek
-https://marrakechecotours.com/ar/tours/family-desert-4day-marrakech
-https://marrakechecotours.com/ar/tours/high-atlas-grand-traverse-15day
-
-TIER 2 - ALL ENGLISH TOUR PAGES (money pages)
 https://marrakechecotours.com/en/tours/agadir-imperial-cities-6day
 https://marrakechecotours.com/en/tours/agadir-surf-lesson
 https://marrakechecotours.com/en/tours/agadir-to-chefchaouen-5day
@@ -40,6 +7,7 @@ https://marrakechecotours.com/en/tours/agafay-desert-sunset
 https://marrakechecotours.com/en/tours/anti-atlas-trekking-agadir
 https://marrakechecotours.com/en/tours/atlas-mountains-3day-trek
 https://marrakechecotours.com/en/tours/azzaden-valley-2day-trek
+https://marrakechecotours.com/en/tours/chegaga-camel-trek-8day
 https://marrakechecotours.com/en/tours/desert-4day-agadir
 https://marrakechecotours.com/en/tours/desert-4day-marrakech
 https://marrakechecotours.com/en/tours/erg-chegaga-3day-agadir
@@ -66,10 +34,15 @@ https://marrakechecotours.com/en/tours/taroudant-day-trip-agadir
 https://marrakechecotours.com/en/tours/toubkal-aguelzim-pass-3day
 https://marrakechecotours.com/en/tours/toubkal-circuit-ifni-lake-6day
 https://marrakechecotours.com/en/tours/toubkal-summit-2day-marrakech
+https://marrakechecotours.com/en/tours/toubkal-summit-sahara-5day
 https://marrakechecotours.com/en/tours/toubkal-summit-trek-4day
 https://marrakechecotours.com/en/tours/toubkal-three-peaks-4000m-3day
 https://marrakechecotours.com/en/tours/zagora-2day-agadir
 https://marrakechecotours.com/en/tours/zagora-2day-marrakech
-
-TIER 3 - sitemap covers the rest (fr/es/de/it/ar tours, blogs, etc.)
-https://marrakechecotours.com/sitemap.xml
+https://marrakechecotours.com/en
+https://marrakechecotours.com/en/about
+https://marrakechecotours.com/en/blog
+https://marrakechecotours.com/en/contact
+https://marrakechecotours.com/en/guides
+https://marrakechecotours.com/en/how-we-operate
+https://marrakechecotours.com/en/tours

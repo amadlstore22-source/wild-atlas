@@ -216,11 +216,8 @@
     "mealLunch": "Mittagessen",
     "mealDinner": "Abendessen",
     "guideBlock": {
-      "namedTitle": "{name} führt diese Route",
-      "namedBody": "Kein Bergführer, den eine Agentur in Ihrer Anreisewoche zuteilt. {name} führt seit {years} Jahren in diesen Bergen und ist genau diese Route öfter gegangen, als er zählen kann — lizenziert vom marokkanischen Tourismusministerium, geboren und aufgewachsen im Hohen Atlas.",
-      "namedLink": "Profil von {name} lesen",
       "familyTitle": "Geführt von der Familie, die hier aufgewachsen ist",
-      "familyBody": "Ihr Bergführer ist ein lizenzierter Berber-Guide aus der Familie Aitidar, kein für die Woche gebuchter Freiberufler. Über {years} Jahre Führungstradition im Hohen Atlas, und jeder Guide wird auf einer Route geschult, bevor er sie führt.",
+      "familyBody": "Wer Sie auch führt, es ist ein lizenzierter Berber-Guide aus dem Familienteam — kein Freiberufler, den eine Agentur in Ihrer Anreisewoche zuteilt. Jeder Guide wird auf einer Route geschult, bevor er sie führt, und alle sind vom marokkanischen Tourismusministerium lizenziert. Über {years} Jahre Führungstradition im Hohen Atlas.",
       "familyLink": "Die Bergführer kennenlernen"
     }
   },

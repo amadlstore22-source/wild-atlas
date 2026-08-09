@@ -216,11 +216,8 @@
     "mealLunch": "Pranzo",
     "mealDinner": "Cena",
     "guideBlock": {
-      "namedTitle": "{name} conduce questo itinerario",
-      "namedBody": "Non una guida assegnata da un'agenzia la settimana del vostro arrivo. {name} fa la guida su queste montagne da {years} anni e ha percorso questo itinerario più volte di quante riesca a contarne — autorizzato dal Ministero del Turismo marocchino, nato e cresciuto nell'Alto Atlante.",
-      "namedLink": "Leggi il profilo di {name}",
       "familyTitle": "Condotto dalla famiglia cresciuta qui",
-      "familyBody": "La vostra guida è una guida berbera autorizzata della famiglia Aitidar, non un freelance ingaggiato per la settimana. Oltre {years} anni di tradizione nell'Alto Atlante, e ogni guida viene formata su un itinerario prima di condurlo.",
+      "familyBody": "Chiunque vi guidi è una guida berbera autorizzata del team familiare — non un freelance assegnato da un'agenzia la settimana del vostro arrivo. Ogni guida viene formata su un itinerario prima di condurlo, e tutte sono autorizzate dal Ministero del Turismo marocchino. Oltre {years} anni di tradizione nell'Alto Atlante.",
       "familyLink": "Conoscere le guide"
     }
   },

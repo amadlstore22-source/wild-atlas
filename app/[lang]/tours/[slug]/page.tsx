@@ -224,7 +224,7 @@ export default async function TourDetailPage({ params }: TourParams) {
                 absorbed the route, so "who actually takes you on it" is the
                 natural next question and the strongest thing we can answer
                 that a copy-paste competitor cannot. */}
-            <TourGuideBlock tour={tour} lang={lang} dict={dict} />
+            <TourGuideBlock lang={lang} dict={dict} />
 
             {/* Khatam-star divider marks the shift from the story (overview +
                 day-by-day) to the practical logistics (where you meet, what's

@@ -216,11 +216,8 @@
     "mealLunch": "Lunch",
     "mealDinner": "Dinner",
     "guideBlock": {
-      "namedTitle": "{name} leads this route",
-      "namedBody": "Not a guide assigned by an agency the week you arrive. {name} has been guiding in these mountains for {years} years and has walked this exact route more times than he can count — licensed by Morocco's National Office for Tourism, born and raised in the High Atlas.",
-      "namedLink": "Read {name}'s profile",
       "familyTitle": "Led by the family who grew up here",
-      "familyBody": "Your guide is a licensed Berber guide from the Aitidar family, not a freelancer booked in for the week. {years}+ years of guiding heritage in the High Atlas, and every guide is trained on a route before they lead it.",
+      "familyBody": "Whoever guides you is a licensed Berber guide from the family team — not a freelancer an agency assigns the week you arrive. Every guide is trained on a route before they lead it, and each one is licensed by Morocco's National Office for Tourism. {years}+ years of guiding heritage in the High Atlas.",
       "familyLink": "Meet the guides"
     }
   },

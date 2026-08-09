@@ -2513,8 +2513,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 21,
     rating: 4.9,
-    price: 658,
-    depositAmount: 165,
+    // Real ladder, not the derived curve: a solo traveller pays for the whole
+    // private guide and vehicle, so solo is far above the shallow premium
+    // groupPriceTiers() would assume.
+    // EUR 990 / 790 / 585 / 510 / 480 / 450 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 1142 },
+      { minPeople: 2, price: 911 },
+      { minPeople: 3, price: 675 },
+      { minPeople: 4, price: 588 },
+      { minPeople: 5, price: 554 },
+      { minPeople: 6, price: 519 },
+    ],
+    price: 1142,
+    depositAmount: 251,
     // Our own photographs, ordered to follow the itinerary: the high approach
     // and azib pastures of days 1-4, the lake the tour is named after, then the
     // Toubkal summit day that closes it. The summit frames are snow and the
@@ -2630,7 +2642,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni from Marrakech — Summit & Circuit | Marrakech Eco Tours",
-    seoDescription: "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). Licensed Berber guide, all meals & transfers. From $658.",
+    seoDescription: "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). Licensed Berber guide, all meals & transfers. From $1142.",
     featured: false,
   },
   {

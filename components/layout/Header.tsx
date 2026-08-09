@@ -55,7 +55,8 @@ export default function Header({ lang, dict }: Props) {
     { label: dict.nav.destinations, href: `/${lang}/destinations` },
     { label: dict.nav.gallery, href: `/${lang}#gallery` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
-    { label: dict.nav.about, href: `/${lang}/about` },
+    { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
+              { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
   ];
 
@@ -306,6 +307,7 @@ export default function Header({ lang, dict }: Props) {
               { label: dict.nav.destinations, href: `/${lang}/destinations` },
               { label: dict.nav.gallery, href: `/${lang}#gallery` },
               { label: dict.nav.blog, href: `/${lang}/blog` },
+              { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
               { label: dict.nav.about, href: `/${lang}/about` },
               { label: dict.nav.contact, href: `/${lang}/contact` },
             ].map((item) => (

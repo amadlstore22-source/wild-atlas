@@ -2289,7 +2289,7 @@ Es el circuito clásico, pero la mejor versión es la que se moldea en torno a t
     title: "Nila: el famoso tinte azul de Marruecos (y cómo no mancharte)",
     excerpt:
       "El índigo profundo de los 'hombres azules' del desierto viene del nila. Esto es qué es, por qué las túnicas tuareg tiñen la piel y cómo llevarlo sin acabar con los dedos azules una semana.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ El nila tiene todo el sentido fuera, en la arena, liado contra un viento del des
     title: "El té a la menta marroquí: la ceremonia, el escanciado en alto y por qué no puedes rechazarlo",
     excerpt:
       "Lo llaman 'whisky bereber' y se sirve desde lo alto por una razón. Así funciona de verdad el ritual del té a la menta en Marruecos, y por qué rechazar un tercer vaso es prácticamente un incidente diplomático.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ El té nunca es de verdad sobre el té. Es la puerta a una conversación, una ca
     title: "Cómo regatear en los zocos marroquíes sin perder la cabeza",
     excerpt:
       "El primer precio no es el precio. Esta es la guía honesta y algo divertida del regateo en los mercados de Marruecos: el truco del té, la retirada y cómo conseguir un precio justo sin convertirlo en batalla.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ Los zocos deslumbran y, el primer día, desorientan de verdad, que es justo cuan
     title: "Guía de Merzouga: la puerta a las dunas de Erg Chebbi",
     excerpt:
       "Merzouga es el pueblecito del desierto al pie de las dunas más altas de Marruecos, el Sáhara clásico que casi todos imaginan. Así se llega, cuándo ir y cómo es de verdad una noche en la arena.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-merzouga-3day-agadir.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ Merzouga se gana su larga ruta. Una noche en Erg Chebbi es, para muchos viajeros
     title: "Guía del desierto de Zagora: el Sáhara exprés desde Marrakech",
     excerpt:
       "¿Poco tiempo pero aún con ganas de desierto? Zagora es el trozo de Sáhara más cercano a Marrakech, una escapada a las dunas de dos días cuando no puedes dedicar tres. Esto es honestamente lo que obtienes, y lo que no.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-zagora-2day-marrakech.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ Dos días, una noche inolvidable en la arena, y estás de vuelta en Marrakech an
     title: "Guía de Ouarzazate: 'Ouallywood', kasbahs y la puerta del desierto",
     excerpt:
       "Ouarzazate es donde Hollywood viene a rodar el mundo antiguo, y la puerta por la que pasa cada tour del desierto. Esto es qué ver, por qué la llaman Ouallywood y cómo encaja en tu viaje al Sáhara.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,

@@ -265,7 +265,9 @@
     "groupPricingRate": "للفرد",
     "groupPricingTotal": "الإجمالي",
     "groupPricingPlus": "+{n}",
-    "perPersonGroupNote": "للفرد عند {count}+ مسافرين · {solo} للفرد الواحد"
+    "perPersonGroupNote": "للفرد عند {count}+ مسافرين · {solo} للفرد الواحد",
+    "fromPerPerson": "ابتداءً من، للفرد",
+    "perPersonGroupSuffix": "/ للفرد، {count}+"
   },
   "cookieBanner": {
     "body": "نستخدم ملفات تعريف الارتباط لتذكر تفضيلاتك، وإذا وافقت، نستخدم Google Analytics لفهم كيفية استخدام الموقع. ملفات تعريف الارتباط الضرورية مفعّلة دائماً؛ ولا يوجد حاجز إجباري لملفات تعريف الارتباط.",

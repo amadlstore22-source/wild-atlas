@@ -4437,7 +4437,7 @@ This is the classic loop, but the best version is the one shaped around you — 
     title: "Nila: Morocco's Famous Blue Dye (and How Not to Stain Yourself)",
     excerpt:
       "The deep indigo of the 'blue men' of the desert comes from nila. Here's what it is, why Tuareg robes rub off on your skin, and how to wear it without turning your fingers blue for a week.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -4502,7 +4502,7 @@ Nila makes the most sense out in the sand, wrapped against a desert wind at suns
     title: "Moroccan Mint Tea: The Ceremony, the High Pour & Why You Can't Refuse",
     excerpt:
       "It's called 'Berber whisky' and it's poured from a great height for a reason. Here's how Morocco's mint tea ritual really works — and why saying no to a third glass is basically a diplomatic incident.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -4563,7 +4563,7 @@ The tea is never really about the tea. It's the doorway into a conversation, a h
     title: "How to Haggle in the Moroccan Souks Without Losing Your Mind",
     excerpt:
       "The first price is not the price. Here's the honest, slightly funny guide to bargaining in Morocco's markets — the tea trick, the walk-away, and how to get a fair deal without turning it into a battle.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -4638,7 +4638,7 @@ The souks are dazzling and, on day one, genuinely disorienting — which is exac
     title: "Merzouga Travel Guide: Gateway to the Erg Chebbi Dunes",
     excerpt:
       "Merzouga is the little desert village at the foot of Morocco's tallest dunes — the classic Sahara most people picture. Here's how to get there, when to go, and what a night in the sand is really like.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-merzouga-3day-agadir.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -4709,7 +4709,7 @@ Merzouga earns its long drive. A night in Erg Chebbi is, for a lot of travellers
     title: "Zagora Desert Guide: The Quick Sahara from Marrakech",
     excerpt:
       "Short on time but still want the desert? Zagora is the closest slice of Sahara to Marrakech — a two-day dune escape when you can't spare three. Here's honestly what you get, and what you don't.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-zagora-2day-marrakech.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -4777,7 +4777,7 @@ Two days, one unforgettable night in the sand, and you're back in Marrakech befo
     title: "Ouarzazate Guide: 'Ouallywood', Kasbahs & the Door of the Desert",
     excerpt:
       "Ouarzazate is where Hollywood comes to film the ancient world — and the gateway every desert tour passes through. Here's what to see, why it's called Ouallywood, and how it fits your Sahara trip.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,

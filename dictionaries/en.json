@@ -265,7 +265,9 @@
     "groupPricingRate": "Each",
     "groupPricingTotal": "Total",
     "groupPricingPlus": "{n}+",
-    "perPersonGroupNote": "per person for {count}+ travellers · {solo} solo"
+    "perPersonGroupNote": "per person for {count}+ travellers · {solo} solo",
+    "fromPerPerson": "From, per person",
+    "perPersonGroupSuffix": "/ person, {count}+"
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",

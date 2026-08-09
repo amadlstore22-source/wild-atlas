@@ -265,7 +265,9 @@
     "groupPricingRate": "Par pers.",
     "groupPricingTotal": "Total",
     "groupPricingPlus": "{n}+",
-    "perPersonGroupNote": "par personne à partir de {count} voyageurs · {solo} en solo"
+    "perPersonGroupNote": "par personne à partir de {count} voyageurs · {solo} en solo",
+    "fromPerPerson": "À partir de, par personne",
+    "perPersonGroupSuffix": "/ personne, {count}+"
   },
   "cookieBanner": {
     "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",

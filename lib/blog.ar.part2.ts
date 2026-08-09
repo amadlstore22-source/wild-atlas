@@ -2289,7 +2289,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "النيلة: صبغة المغرب الزرقاء الشهيرة (وكيف لا تلطّخ نفسك)",
     excerpt:
       "الأزرق العميق لـ«رجال الصحراء الزرق» يأتي من النيلة. إليك ما هي، ولماذا تنتقل أثواب الطوارق إلى الجلد، وكيف ترتديها دون أن تزرقّ أصابعك أسبوعاً.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الشاي المغربي بالنعناع: الطقس، والصبّ من عُلوّ، ولماذا لا يمكنك الرفض",
     excerpt:
       "يسمّونه «ويسكي الأمازيغ» ويُصبّ من ارتفاع لسبب. إليك كيف يعمل طقس الشاي بالنعناع في المغرب فعلاً — ولماذا رفض كأس ثالث حادثة دبلوماسية تقريباً.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كيف تساوم في الأسواق المغربية دون أن تفقد صوابك",
     excerpt:
       "السعر الأول ليس السعر. إليك الدليل الصادق والطريف قليلاً للمساومة في أسواق المغرب: حيلة الشاي، والانصراف، وكيف تحصل على سعر عادل دون أن تجعلها معركة.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل مرزوقة: بوابة كثبان عرق الشبّي",
     excerpt:
       "مرزوقة قرية الصحراء الصغيرة عند سفح أعلى كثبان المغرب — الصحراء الكلاسيكية التي يتخيّلها معظم الناس. إليك كيف تصل، ومتى تذهب، وكيف تكون ليلة في الرمل فعلاً.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-merzouga-3day-agadir.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل صحراء زاكورة: الصحراء السريعة من مراكش",
     excerpt:
       "وقت قليل لكن ما زلت تشتهي الصحراء؟ زاكورة أقرب شريحة صحراء من مراكش — هروب كثبان بيومين حين لا تقدر على ثلاثة. إليك بصدق ما تحصل عليه، وما لا تحصل.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-zagora-2day-marrakech.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دليل ورزازات: «أواليوود» والقصبات وباب الصحراء",
     excerpt:
       "ورزازات حيث تأتي هوليوود لتصوير العالم القديم — والباب الذي تعبره كل جولة صحراوية. إليك ماذا ترى، ولماذا يسمّونها أواليوود، وكيف تندرج في رحلتك الصحراوية.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,

@@ -490,9 +490,20 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
         className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 flex items-center gap-3 shadow-2xl"
       >
         <div className="flex-1 min-w-0">
-          <div className="text-xs text-ink-muted">{b.perPersonMobile}</div>
+          {/* Same rule as the sidebar and the cards: lead with the cheapest
+              per-person rate, not tour.price (the solo rate). This bar is the
+              last thing a mobile visitor sees before tapping Book, so quoting
+              the dearest figure here undid the fix everywhere else. */}
+          <div className="text-xs text-ink-muted">
+            {cheapest.minPeople > 1 ? (b.fromPerPerson ?? "From, per person") : b.perPersonMobile}
+          </div>
           <div className="font-bold text-indigo text-xl leading-tight">
-            {format(tour.price)}{priceMax ? `–${format(priceMax)}` : ""} <span className="text-xs font-normal text-ink-muted">{b.perPersonSuffix}</span>
+            {format(cheapest.price)}{priceMax ? `–${format(priceMax)}` : ""}{" "}
+            <span className="text-xs font-normal text-ink-muted">
+              {cheapest.minPeople > 1
+                ? (b.perPersonGroupSuffix ?? "/ person, {count}+").replace("{count}", String(cheapest.minPeople))
+                : b.perPersonSuffix}
+            </span>
           </div>
         </div>
         <a

@@ -2289,7 +2289,7 @@ Das ist die klassische Runde, aber die beste Version ist die, die um Sie herum g
     title: "Nila: Marokkos berühmter blauer Farbstoff (und wie Sie sich nicht färben)",
     excerpt:
       "Das tiefe Indigo der «blauen Männer» der Wüste stammt vom Nila. Hier erfahren Sie, was es ist, warum Tuareg-Gewänder auf der Haut abfärben und wie Sie es tragen, ohne eine Woche lang blaue Finger zu haben.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ Nila ergibt am meisten Sinn draußen im Sand, gegen einen Wüstenwind bei Sonnen
     title: "Marokkanischer Minztee: das Ritual, der hohe Guss und warum man nicht ablehnen kann",
     excerpt:
       "Man nennt ihn «Berber-Whisky» und gießt ihn aus großer Höhe – aus gutem Grund. So funktioniert das Minztee-Ritual Marokkos wirklich – und warum das Ablehnen eines dritten Glases praktisch ein diplomatischer Zwischenfall ist.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ Der Tee dreht sich nie wirklich um den Tee. Er ist die Tür zu einem Gespräch, 
     title: "Wie man in den marokkanischen Souks feilscht, ohne den Verstand zu verlieren",
     excerpt:
       "Der erste Preis ist nicht der Preis. Hier ist der ehrliche, leicht witzige Führer zum Handeln auf Marokkos Märkten – der Tee-Trick, das Weggehen und wie man einen fairen Deal bekommt, ohne daraus eine Schlacht zu machen.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ Die Souks sind schillernd und am ersten Tag wirklich verwirrend – genau dann z
     title: "Merzouga-Reiseführer: Tor zu den Erg-Chebbi-Dünen",
     excerpt:
       "Merzouga ist das kleine Wüstendorf am Fuß der höchsten Dünen Marokkos – die klassische Sahara, die sich die meisten vorstellen. Hier erfahren Sie, wie Sie hinkommen, wann Sie fahren sollten und wie eine Nacht im Sand wirklich ist.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-merzouga-3day-agadir.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ Merzouga verdient seine lange Fahrt. Eine Nacht im Erg Chebbi ist für viele Rei
     title: "Zagora-Wüstenführer: die schnelle Sahara ab Marrakesch",
     excerpt:
       "Wenig Zeit, aber trotzdem Lust auf Wüste? Zagora ist das nächstgelegene Stück Sahara ab Marrakesch – ein Zwei-Tage-Dünenausflug, wenn man keine drei erübrigen kann. Hier steht ehrlich, was Sie bekommen und was nicht.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-zagora-2day-marrakech.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ Zwei Tage, eine unvergessliche Nacht im Sand, und Sie sind zurück in Marrakesch
     title: "Ouarzazate-Führer: «Ouallywood», Kasbahs und das Tor zur Wüste",
     excerpt:
       "Ouarzazate ist, wo Hollywood die antike Welt dreht – und das Tor, durch das jede Wüstentour führt. Hier erfahren Sie, was es zu sehen gibt, warum es Ouallywood heißt und wie es in Ihre Sahara-Reise passt.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,

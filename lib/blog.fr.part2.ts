@@ -2289,7 +2289,7 @@ C'est la boucle classique, mais la meilleure version est celle façonnée autour
     title: "Le nila : le célèbre bleu du Maroc (et comment ne pas se tacher)",
     excerpt:
       "Le bleu profond des « hommes bleus » du désert vient du nila. Voici ce que c'est, pourquoi les robes touarègues déteignent sur la peau, et comment le porter sans avoir les doigts bleus pendant une semaine.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 6,
@@ -2354,7 +2354,7 @@ Le nila prend tout son sens dehors dans le sable, enroulé contre un vent du dé
     title: "Le thé à la menthe marocain : la cérémonie, le versement en hauteur et pourquoi on ne peut pas refuser",
     excerpt:
       "On l'appelle le « whisky berbère » et on le verse de haut pour une raison. Voici comment fonctionne vraiment le rituel du thé à la menthe au Maroc — et pourquoi refuser un troisième verre est quasiment un incident diplomatique.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2415,7 +2415,7 @@ Le thé n'est jamais vraiment une question de thé. C'est la porte d'entrée ver
     title: "Comment marchander dans les souks marocains sans perdre la tête",
     excerpt:
       "Le premier prix n'est pas le prix. Voici le guide honnête et un peu drôle du marchandage dans les marchés du Maroc — l'astuce du thé, le départ simulé, et comment obtenir un prix juste sans en faire une bataille.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
     category: "tips",
     region: "imperial-cities",
     readTime: 7,
@@ -2490,7 +2490,7 @@ Les souks sont éblouissants et, le premier jour, vraiment déroutants — c'est
     title: "Guide de Merzouga : la porte des dunes de l'Erg Chebbi",
     excerpt:
       "Merzouga est le petit village du désert au pied des plus hautes dunes du Maroc — le Sahara classique que la plupart imaginent. Voici comment s'y rendre, quand y aller, et à quoi ressemble vraiment une nuit dans le sable.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-merzouga-3day-agadir.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -2561,7 +2561,7 @@ Merzouga mérite sa longue route. Une nuit dans l'Erg Chebbi est, pour beaucoup 
     title: "Guide du désert de Zagora : le Sahara express depuis Marrakech",
     excerpt:
       "Peu de temps mais toujours envie du désert ? Zagora est la tranche de Sahara la plus proche de Marrakech — une escapade dans les dunes de deux jours quand on ne peut pas en donner trois. Voici honnêtement ce qu'on obtient, et ce qu'on n'obtient pas.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/tours-zagora-2day-marrakech.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -2629,7 +2629,7 @@ Deux jours, une nuit inoubliable dans le sable, et vous êtes de retour à Marra
     title: "Guide de Ouarzazate : « Ouallywood », kasbahs et la porte du désert",
     excerpt:
       "Ouarzazate, c'est là qu'Hollywood vient filmer le monde antique — et la porte que traverse chaque circuit du désert. Voici quoi voir, pourquoi on l'appelle Ouallywood, et comment cela s'inscrit dans votre voyage au Sahara.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/blog-ait-benhaddou-guide.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 7,

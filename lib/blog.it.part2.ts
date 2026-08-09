@@ -3762,7 +3762,7 @@ collega Mgoun e Toubkal in un unico attraversamento.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa la Grande Traversata dell'Alto Atlante? (15 giorni, 2026)",
     excerpt:
-      "Quindici giorni, due vette di 4.000 m e una squadra di montagna completa. A 1.518 € è il viaggio più caro che organizziamo — ed è il più economico al giorno. Ecco dove vanno i soldi.",
+      "Quindici giorni, due vette di 4.000 m e una squadra di montagna completa. Da 1.700 € è il viaggio più caro che organizziamo: ecco dove vanno i soldi e perché una squadra impegnata due settimane costa quello che costa.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3774,8 +3774,8 @@ collega Mgoun e Toubkal in un unico attraversamento.
     seoDescription:
       "Quanto costa la traversata M'Goun–Toubkal di 15 giorni nel 2026: guida, cuoco, carovana, 14 notti e tasse dei parchi — e perché il prezzo giornaliero è il più basso.",
     faq: [
-      { q: "Quanto costa la Grande Traversata dell'Alto Atlante?", a: "La nostra [traversata di 15 giorni](/it/tours/high-atlas-grand-traverse-15day) costa 1.400 € a persona e copre la guida d'alta quota, il cuoco, la carovana di muli completa, tutte le 14 notti, ogni pasto, le tasse di entrambi i parchi nazionali e i transfer da Marrakech. È il prezzo di listino più alto che pratichiamo e la tariffa giornaliera più bassa di tutti i nostri trek." },
-      { q: "Perché il costo giornaliero è più basso di un trek corto?", a: "Perché i costi fissi si distribuiscono di più. I transfer da Marrakech, la mobilitazione della guida e la formazione della carovana costano più o meno lo stesso per tre giorni e per quindici. In un trek da weekend queste voci fisse dominano il prezzo; su quindici giorni si diluiscono. A 1.518 €, la traversata viene circa 101 € al giorno contro i circa 110 € del trek dei villaggi di 3 giorni." },
+      { q: "Quanto costa la Grande Traversata dell'Alto Atlante?", a: "La nostra [traversata di 15 giorni](/it/tours/high-atlas-grand-traverse-15day) costa 1.700 € a persona per due e copre la guida d'alta quota, il cuoco, la carovana di muli completa, tutte le 14 notti, ogni pasto, le tasse di entrambi i parchi nazionali e i transfer da Marrakech. È il prezzo più alto che pratichiamo, ed è l'unico viaggio in cui una squadra completa resta con voi due settimane." },
+      { q: "Perché il costo giornaliero è più basso di un trek corto?", a: "Non lo è, ed è meglio dirlo chiaramente. A 1.700 € per due la traversata viene circa 113 € al giorno, contro i circa 73 € del trek dei villaggi di 3 giorni. I transfer e la mobilitazione della guida si diluiscono davvero su quindici giorni, ma non sono la parte grossa del conto. La parte grossa è la squadra: una guida d'alta quota, un cuoco e una carovana di muli completa restano con voi due settimane, e nulla di tutto ciò si riduce con la durata. State pagando quattordici giorni consecutivi di spedizione assistita, non una versione lunga di una camminata da weekend." },
       { q: "Serve esperienza pregressa in alta quota?", a: "Sì. È classificata esperto, sale sia sul M'Goun (4.068 m) sia sul Toubkal (4.167 m), e passa due settimane in terreno remoto dove l'evacuazione è lenta. Presuppone esperienza di trekking di più giorni in montagna. Se non ce l'hai, inizia dal [trek del Toubkal di 4 giorni](/it/tours/toubkal-summit-trek-4day)." },
       { q: "Cosa non è incluso?", a: "Assicurazione di viaggio con copertura d'alta quota (obbligatoria), attrezzatura personale e sacco a pelo, ramponi e piccozza se le condizioni invernali lo richiedono, e mance per guida, cuoco e mulattieri. Tutto il resto nei quindici giorni è coperto." },
     ],
@@ -3783,7 +3783,7 @@ collega Mgoun e Toubkal in un unico attraversamento.
 ## La risposta breve
 
 La [Grande Traversata dell'Alto Atlante di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)
-costa **1.518 € a persona**. È il numero più grande di questo sito e, per giorno di
+costa **da 1.700 € a persona**. È il numero più grande di questo sito e, per giorno di
 montagna, anche il **trek più economico che organizziamo**.
 
 Entrambe le cose sono vere insieme, e vale la pena capire perché prima di confrontarla
@@ -3820,9 +3820,9 @@ scompaiono:
 | Trek | Prezzo | Giorni | Al giorno |
 |---|---|---|---|
 | Villaggi dell'Alto Atlante, 3 giorni | 235 € | 3 | ~78 € |
-| Vetta del Toubkal, 4 giorni | 350 € | 4 | ~88 € |
-| Traversata del Mgoun, 7 giorni | 754 € | 7 | ~108 € |
-| Grande Traversata, 15 giorni | 1.518 € | 15 | ~101 € |
+| Vetta del Toubkal, 4 giorni | 360 € | 4 | ~90 € |
+| Traversata del Mgoun, 7 giorni | 760 € | 7 | ~109 € |
+| Grande Traversata, 15 giorni | 1.700 € | 15 | ~113 € |
 
 La traversata compra due settimane di supporto completo di montagna per circa la
 tariffa giornaliera di quattro giorni sul Mgoun — con due vette di 4.000 m invece di
@@ -3851,7 +3851,7 @@ verificando se il trekking di lunga durata fa per te, la
 [traversata del Mgoun di 7 giorni](/it/tours/mgoun-massif-trek) copre un terreno simile
 con metà dell'impegno.
 
-👉 **[Scopri la Grande Traversata dell'Alto Atlante di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)** — 1.400 € a persona, vette del M'Goun e del Toubkal, squadra di montagna completa per due settimane.
+👉 **[Scopri la Grande Traversata dell'Alto Atlante di 15 giorni](/it/tours/high-atlas-grand-traverse-15day)** — da 1.700 € a persona, vette del M'Goun e del Toubkal, squadra di montagna completa per due settimane.
 `,
   },
   {
@@ -3860,7 +3860,7 @@ con metà dell'impegno.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Toubkal e Sahara in 5 giorni: quanto costa? (2026)",
     excerpt:
-      "Unire la vetta più alta del Nord Africa a una notte fra le dune di Erg Chebbi costa 635 €. Prenotare i due separatamente costa meno e funziona peggio: ecco i conti.",
+      "Unire la vetta più alta del Nord Africa a una notte fra le dune di Erg Chebbi costa 644 € a persona per due. Prenotare i due separatamente costa 685 €: di più, e con un itinerario peggiore. Ecco i conti.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3872,8 +3872,8 @@ con metà dell'impegno.
     seoDescription:
       "Quanto costa il tour combinato Toubkal e Sahara di 5 giorni nel 2026, voce per voce — e perché prenotare trek e deserto separatamente alla fine rende meno.",
     faq: [
-      { q: "Quanto costa il tour Toubkal e Sahara di 5 giorni?", a: "Il nostro [tour montagna-deserto di 5 giorni](/it/tours/toubkal-summit-sahara-5day) costa 635 € a persona. Copre la guida alpina autorizzata per il trek del Toubkal, un autista-guida privato per la parte nel deserto, tutte e quattro le notti, il portatore con mulo, i giri in cammello a Erg Chebbi, le tasse del parco e ogni transfer da Marrakech." },
-      { q: "Conviene prenotare trek e deserto separatamente?", a: "Costa meno comprarli, ma non funziona meglio. La [vetta del Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 195 € e il [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) 225 €: 418 € insieme, ma sono cinque giorni con due rientri distinti a Marrakech e una giornata di transfer sprecata in mezzo. Il tour combinato costa 635 € per un itinerario continuo che non torna mai sui propri passi, con veicolo privato anziché condiviso." },
+      { q: "Quanto costa il tour Toubkal e Sahara di 5 giorni?", a: "Il nostro [tour montagna-deserto di 5 giorni](/it/tours/toubkal-summit-sahara-5day) costa 644 € a persona per due. Copre la guida alpina autorizzata per il trek del Toubkal, un autista-guida privato per la parte nel deserto, tutte e quattro le notti, il portatore con mulo, i giri in cammello a Erg Chebbi, le tasse del parco e ogni transfer da Marrakech." },
+      { q: "Conviene prenotare trek e deserto separatamente?", a: "No: il combinato costa meno ed è anche meglio tracciato. La [vetta del Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 195 € e il [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) 490 € a persona per due, quindi 685 € separatamente contro 644 € combinati: 41 € in meno. E vi risparmia cinque giorni con due rientri distinti a Marrakech e una giornata di transfer sprecata in mezzo. Il combinato segue un itinerario continuo che non torna mai sui propri passi, con veicolo privato dall'inizio alla fine." },
       { q: "Serve esperienza per la parte del Toubkal?", a: "È classificata impegnativa, non esperto. Si dorme al rifugio a 3.207 m e si sale in vetta la mattina dopo: in estate non serve tecnica, ma è una salita lunga in quota. Basta una discreta forma fisica; le salite invernali richiedono ramponi e piccozza." },
       { q: "Cosa non è incluso?", a: "Assicurazione di viaggio (obbligatoria per il trek), attrezzatura personale e sacco a pelo, i pranzi nei giorni nel deserto (calcola 12–15 € a pasto), ramponi e piccozza per una salita fra novembre e marzo, e le mance per guide, autista, cuoco e mulattiere." },
     ],
@@ -3881,7 +3881,7 @@ con metà dell'impegno.
 ## La risposta breve
 
 Il [tour Toubkal e Sahara di 5 giorni](/it/tours/toubkal-summit-sahara-5day) costa
-**635 € a persona** e copre entrambe le metà del viaggio da un capo all'altro.
+**644 € a persona per due** e copre entrambe le metà del viaggio da un capo all'altro.
 
 La domanda ovvia è se non si possa prenotare un trek al Toubkal e un tour nel deserto
 separatamente spendendo meno. Prenotarli per meno si può. *Farli* per meno no — e la
@@ -3891,8 +3891,8 @@ differenza è una giornata persa.
 
 | Opzione | Prezzo | Cosa succede |
 |---|---|---|
-| [Toubkal 2 giorni](/it/tours/toubkal-summit-2day-marrakech) + [Sahara 3 giorni](/it/tours/sahara-3day-marrakech) | 418 € | Rientro a Marrakech in mezzo; 5 giorni più un cambio |
-| [Combinato 5 giorni](/it/tours/toubkal-summit-sahara-5day) | 635 € | Itinerario continuo, veicolo privato, nessun ritorno indietro |
+| [Toubkal 2 giorni](/it/tours/toubkal-summit-2day-marrakech) + [Sahara 3 giorni](/it/tours/sahara-3day-marrakech) | 685 € | Rientro a Marrakech in mezzo; 5 giorni più un cambio |
+| [Combinato 5 giorni](/it/tours/toubkal-summit-sahara-5day) | 644 € | Itinerario continuo, veicolo privato, nessun ritorno indietro |
 
 Prenotare separatamente sembra 217 € più economico. Quello che costa è la giornata fra i
 due viaggi: scendi da Imlil a Marrakech, dormi e riparti verso sud il mattino dopo su un
@@ -3902,7 +3902,7 @@ Dades → Erg Chebbi in un'unica linea.
 Sostituisce anche un minibus condiviso con un **autista-guida privato** nella parte del
 deserto, il che da solo spiega gran parte della differenza di prezzo.
 
-## Dove vanno i 635 €
+## Dove vanno i 644 €
 
 | Voce | Costo tipico 2026 | Note |
 |---|---|---|
@@ -3945,7 +3945,7 @@ solo. Se sono le dune ad attrarti, il
 La combinazione vale il suo sovrapprezzo quando vuoi davvero entrambe le cose, non come
 modo per risparmiare su una delle due.
 
-👉 **[Scopri il tour Toubkal e Sahara di 5 giorni](/it/tours/toubkal-summit-sahara-5day)** — 635 € a persona, vetta a 4.167 m e una notte fra le dune di Erg Chebbi, privato dall'inizio alla fine.
+👉 **[Scopri il tour Toubkal e Sahara di 5 giorni](/it/tours/toubkal-summit-sahara-5day)** — 644 € a persona per due, vetta a 4.167 m e una notte fra le dune di Erg Chebbi, privato dall'inizio alla fine.
 `,
   },
   {

@@ -3767,7 +3767,7 @@ zu einer einzigen Durchquerung.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet die Grand Traverse durch den Hohen Atlas? (15 Tage, 2026)",
     excerpt:
-      "Fünfzehn Tage, zwei 4.000er und eine komplette Bergmannschaft. Mit 1.518 € ist es die teuerste Reise, die wir anbieten — und pro Tag die günstigste. Hier steht, wohin das Geld geht.",
+      "Fünfzehn Tage, zwei 4.000er und eine komplette Bergmannschaft. Ab 1.700 € ist es die teuerste Reise, die wir anbieten — hier steht, wohin das Geld geht und warum eine Mannschaft über zwei Wochen kostet, was sie kostet.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3779,8 +3779,8 @@ zu einer einzigen Durchquerung.
     seoDescription:
       "Was die 15-tägige Durchquerung von M'Goun zum Toubkal 2026 kostet: Führer, Koch, Karawane, 14 Nächte und Parkgebühren — und warum der Tagespreis der niedrigste ist.",
     faq: [
-      { q: "Was kostet die Grand Traverse durch den Hohen Atlas?", a: "Unsere [15-tägige Durchquerung](/de/tours/high-atlas-grand-traverse-15day) kostet 1.400 € pro Person und umfasst den Höhenbergführer, den Koch, die komplette Maultierkarawane, alle 14 Übernachtungen, sämtliche Mahlzeiten, die Gebühren beider Nationalparks und die Transfers ab Marrakesch. Es ist der höchste Preis in unserem Programm und der niedrigste Tagessatz aller unserer Treks." },
-      { q: "Warum sind die Kosten pro Tag niedriger als bei einem kurzen Trek?", a: "Weil sich die Fixkosten weiter verteilen. Die Transfers ab Marrakesch, die Mobilisierung des Führers und das Zusammenstellen der Karawane kosten für drei Tage ungefähr dasselbe wie für fünfzehn. Bei einem Wochenendtrek dominieren diese Fixposten den Preis; auf fünfzehn Tage verteilt verdünnen sie sich. Bei 1.518 € liegt die Durchquerung bei rund 101 € pro Tag gegenüber etwa 110 € beim 3-Tages-Dorftrek." },
+      { q: "Was kostet die Grand Traverse durch den Hohen Atlas?", a: "Unsere [15-tägige Durchquerung](/de/tours/high-atlas-grand-traverse-15day) kostet 1.700 € pro Person bei zwei Reisenden und umfasst den Höhenbergführer, den Koch, die komplette Maultierkarawane, alle 14 Übernachtungen, sämtliche Mahlzeiten, die Gebühren beider Nationalparks und die Transfers ab Marrakesch. Es ist der höchste Preis in unserem Programm und die einzige Reise, auf der eine komplette Mannschaft zwei Wochen bei Ihnen bleibt." },
+      { q: "Warum sind die Kosten pro Tag niedriger als bei einem kurzen Trek?", a: "Sie sind es nicht — und das sagen wir lieber deutlich. Bei 1.700 € für zwei liegt die Durchquerung bei rund 113 € pro Tag, gegenüber etwa 73 € beim 3-Tages-Dorftrek. Die Transfers und die Mobilisierung des Führers verteilen sich zwar über fünfzehn Tage, aber sie sind nicht der größere Teil der Rechnung. Der größere Teil ist die Mannschaft: Höhenbergführer, Koch und eine komplette Maultierkarawane bleiben zwei Wochen bei Ihnen, und nichts davon schrumpft mit der Dauer. Sie zahlen für vierzehn zusammenhängende Tage begleiteter Expedition, nicht für eine längere Version einer Wochenendwanderung." },
       { q: "Brauche ich Vorerfahrung in großer Höhe?", a: "Ja. Die Tour ist als Experten-Route eingestuft, besteigt sowohl den M'Goun (4.068 m) als auch den Toubkal (4.167 m) und verbringt zwei Wochen in abgelegenem Gelände, in dem eine Evakuierung langsam ist. Mehrtägige Bergerfahrung wird vorausgesetzt. Falls die fehlt, beginnen Sie mit dem [4-Tages-Toubkal-Trek](/de/tours/toubkal-summit-trek-4day)." },
       { q: "Was ist nicht enthalten?", a: "Reiseversicherung mit Höhendeckung (verpflichtend), persönliche Ausrüstung und Schlafsack, Steigeisen und Pickel, falls Winterbedingungen es erfordern, sowie Trinkgelder für Führer, Koch und Maultiertreiber. Alles Übrige über die fünfzehn Tage ist abgedeckt." },
     ],
@@ -3788,7 +3788,7 @@ zu einer einzigen Durchquerung.
 ## Die kurze Antwort
 
 Die [15-tägige Grand Traverse durch den Hohen Atlas](/de/tours/high-atlas-grand-traverse-15day)
-kostet **1.518 € pro Person**. Das ist die größte Einzelzahl auf dieser Website — und
+kostet **ab 1.700 € pro Person**. Das ist die größte Einzelzahl auf dieser Website — und
 pro Tag am Berg zugleich der **günstigste Trek, den wir anbieten**.
 
 Beides stimmt gleichzeitig, und es lohnt sich zu verstehen, warum, bevor Sie mit einer
@@ -3824,9 +3824,9 @@ fast:
 | Trek | Preis | Tage | Pro Tag |
 |---|---|---|---|
 | Dörfer im Hohen Atlas, 3 Tage | 235 € | 3 | ~78 € |
-| Toubkal-Gipfel, 4 Tage | 350 € | 4 | ~88 € |
-| Mgoun-Durchquerung, 7 Tage | 754 € | 7 | ~108 € |
-| Grand Traverse, 15 Tage | 1.518 € | 15 | ~101 € |
+| Toubkal-Gipfel, 4 Tage | 360 € | 4 | ~90 € |
+| Mgoun-Durchquerung, 7 Tage | 760 € | 7 | ~109 € |
+| Grand Traverse, 15 Tage | 1.700 € | 15 | ~113 € |
 
 Die Durchquerung kauft zwei Wochen vollständige Bergunterstützung für ungefähr den
 Tagessatz von vier Tagen am Mgoun — mit zwei 4.000ern statt einem.
@@ -3854,7 +3854,7 @@ Wenn Sie erst testen, ob Ihnen Langstrecken-Trekking liegt, deckt die
 [7-tägige Mgoun-Durchquerung](/de/tours/mgoun-massif-trek) ähnliches Gelände mit dem
 halben Aufwand ab.
 
-👉 **[Zur 15-tägigen Grand Traverse](/de/tours/high-atlas-grand-traverse-15day)** — 1.400 € pro Person, M'Goun- und Toubkal-Gipfel, zwei Wochen komplette Bergmannschaft.
+👉 **[Zur 15-tägigen Grand Traverse](/de/tours/high-atlas-grand-traverse-15day)** — ab 1.700 € pro Person, M'Goun- und Toubkal-Gipfel, zwei Wochen komplette Bergmannschaft.
 `,
   },
   {
@@ -3863,7 +3863,7 @@ halben Aufwand ab.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Toubkal und Sahara in 5 Tagen — was kostet das? (2026)",
     excerpt:
-      "Den höchsten Gipfel Nordafrikas mit einer Nacht in den Dünen von Erg Chebbi zu verbinden kostet 635 €. Beides getrennt zu buchen ist billiger und funktioniert schlechter — hier ist die Rechnung.",
+      "Den höchsten Gipfel Nordafrikas mit einer Nacht in den Dünen von Erg Chebbi zu verbinden kostet 644 € pro Person bei zwei Reisenden. Beides getrennt zu buchen kommt auf 685 € — teurer und schlechter gelegt. Hier ist die Rechnung.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3875,8 +3875,8 @@ halben Aufwand ab.
     seoDescription:
       "Was die kombinierte 5-Tages-Tour Toubkal und Sahara 2026 kostet, aufgeschlüsselt — und warum getrennt gebuchte Trek- und Wüstentouren am Ende teurer werden.",
     faq: [
-      { q: "Was kostet die 5-Tages-Tour Toubkal und Sahara?", a: "Unsere [5-tägige Berg-und-Wüste-Tour](/de/tours/toubkal-summit-sahara-5day) kostet 635 € pro Person. Darin enthalten sind der lizenzierte Bergführer für den Toubkal-Trek, ein privater Fahrer-Guide für die Wüstenetappe, alle vier Nächte, der Maultierträger, die Kamelritte am Erg Chebbi, die Parkgebühren und sämtliche Transfers ab Marrakesch." },
-      { q: "Ist es günstiger, Trek und Wüstentour getrennt zu buchen?", a: "Günstiger im Einkauf, ja; besser, nein. Der [2-Tages-Toubkal-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € und die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) 225 € — zusammen 418 €, aber das sind fünf Tage mit zwei getrennten Rückfahrten nach Marrakesch und einem verlorenen Transfertag dazwischen. Die Kombinationstour kostet 635 € für eine durchgehende Route ohne Umwege, mit privatem Fahrzeug statt geteiltem Minibus." },
+      { q: "Was kostet die 5-Tages-Tour Toubkal und Sahara?", a: "Unsere [5-tägige Berg-und-Wüste-Tour](/de/tours/toubkal-summit-sahara-5day) kostet 644 € pro Person bei zwei Reisenden. Darin enthalten sind der lizenzierte Bergführer für den Toubkal-Trek, ein privater Fahrer-Guide für die Wüstenetappe, alle vier Nächte, der Maultierträger, die Kamelritte am Erg Chebbi, die Parkgebühren und sämtliche Transfers ab Marrakesch." },
+      { q: "Ist es günstiger, Trek und Wüstentour getrennt zu buchen?", a: "Nein — die Kombinationstour ist sowohl günstiger als auch besser gelegt. Der [2-Tages-Toubkal-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € und die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) 490 € pro Person bei zwei Reisenden — zusammen 685 € gegenüber 644 € kombiniert, also 41 € weniger. Dazu sparen Sie sich fünf Tage mit zwei getrennten Rückfahrten nach Marrakesch und einem verlorenen Transfertag dazwischen. Die Kombination folgt einer durchgehenden Route ohne Umwege, mit privatem Fahrzeug von Anfang bis Ende." },
       { q: "Brauche ich Trekkingerfahrung für die Toubkal-Etappe?", a: "Sie ist als anspruchsvoll eingestuft, nicht als Experten-Route. Sie schlafen in der Hütte auf 3.207 m und gehen am folgenden Morgen auf den Gipfel — im Sommer ohne technische Anforderungen, aber es ist ein langer Anstieg in der Höhe. Vernünftige Grundkondition genügt; Winterbesteigungen brauchen Steigeisen und Pickel." },
       { q: "Was ist nicht enthalten?", a: "Reiseversicherung (für den Trek verpflichtend), persönliche Trekkingausrüstung und Schlafsack, die Mittagessen an den Wüstentagen (kalkulieren Sie 12–15 € pro Mahlzeit), Steigeisen und Pickel bei einer Besteigung zwischen November und März, sowie Trinkgelder für Führer, Fahrer, Koch und Maultiertreiber." },
     ],
@@ -3884,7 +3884,7 @@ halben Aufwand ab.
 ## Die kurze Antwort
 
 Die [5-Tages-Tour Toubkal und Sahara](/de/tours/toubkal-summit-sahara-5day) kostet
-**635 € pro Person** und deckt beide Hälften der Reise durchgehend ab.
+**644 € pro Person bei zwei Reisenden** und deckt beide Hälften der Reise durchgehend ab.
 
 Die naheliegende Frage: Könnte man nicht einfach einen Toubkal-Trek und eine Wüstentour
 getrennt für weniger buchen? Buchen ja. *Machen* nein — und der Unterschied ist ein
@@ -3894,8 +3894,8 @@ verlorener Tag.
 
 | Option | Preis | Was passiert |
 |---|---|---|
-| [Toubkal 2 Tage](/de/tours/toubkal-summit-2day-marrakech) + [Sahara 3 Tage](/de/tours/sahara-3day-marrakech) | 418 € | Rückkehr nach Marrakesch dazwischen; 5 Tage plus Wechsel |
-| [Kombiniert 5 Tage](/de/tours/toubkal-summit-sahara-5day) | 635 € | Durchgehende Route, privates Fahrzeug, keine Umwege |
+| [Toubkal 2 Tage](/de/tours/toubkal-summit-2day-marrakech) + [Sahara 3 Tage](/de/tours/sahara-3day-marrakech) | 685 € | Rückkehr nach Marrakesch dazwischen; 5 Tage plus Wechsel |
+| [Kombiniert 5 Tage](/de/tours/toubkal-summit-sahara-5day) | 644 € | Durchgehende Route, privates Fahrzeug, keine Umwege |
 
 Getrennt gebucht sieht es 217 € günstiger aus. Was es kostet, ist der Tag zwischen den
 beiden Reisen: Sie kommen von Imlil nach Marrakesch herunter, schlafen und fahren am
@@ -3905,7 +3905,7 @@ kombinierte Route führt Imlil → Aït Ben Haddou → Dades → Erg Chebbi in e
 Sie tauscht außerdem den geteilten Minibus gegen einen **privaten Fahrer-Guide** auf der
 Wüstenetappe, was allein den Großteil des Preisunterschieds ausmacht.
 
-## Wohin die 635 € gehen
+## Wohin die 644 € gehen
 
 | Posten | Üblicher Preis 2026 | Anmerkungen |
 |---|---|---|
@@ -3948,7 +3948,7 @@ die Dünen der Reiz, ist die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrake
 Die Kombination ist ihren Aufpreis wert, wenn Sie wirklich beides wollen — nicht als
 Weg, bei einem von beiden zu sparen.
 
-👉 **[Zur 5-Tages-Tour Toubkal & Sahara](/de/tours/toubkal-summit-sahara-5day)** — 635 € pro Person, Gipfel auf 4.167 m und eine Nacht in den Dünen von Erg Chebbi, durchgehend privat.
+👉 **[Zur 5-Tages-Tour Toubkal & Sahara](/de/tours/toubkal-summit-sahara-5day)** — 644 € pro Person bei zwei Reisenden, Gipfel auf 4.167 m und eine Nacht in den Dünen von Erg Chebbi, durchgehend privat.
 `,
   },
   {

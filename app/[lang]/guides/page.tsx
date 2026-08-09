@@ -71,7 +71,7 @@ export default async function GuidesPage({ params }: LangParams) {
       {/* ── Trust strip ── */}
       <div className="bg-forest text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-          <div className="flex flex-wrap items-center gap-6 text-sm text-white/70 divide-x divide-white/20">
+          <div className="flex flex-wrap items-center gap-6 text-sm text-white/85 divide-x divide-white/20">
             <div className="flex items-center gap-2 pr-6">
               <Certificate className="w-4 h-4 text-white" weight="fill" />
               <span>{g.trustLicensed}</span>
@@ -183,7 +183,7 @@ export default async function GuidesPage({ params }: LangParams) {
                   <div className="text-white/50 text-sm mt-0.5">{guide.role}</div>
                 </div>
               </div>
-              <p className="text-white/70 text-sm leading-relaxed">{guide.shortBio}</p>
+              <p className="text-white/85 text-sm leading-relaxed">{guide.shortBio}</p>
               <div className="mt-6 text-xs text-white/40">
                 {guide.yearsGuiding}+ · {guide.languages.join(", ")}
               </div>

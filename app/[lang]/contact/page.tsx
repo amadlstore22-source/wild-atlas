@@ -112,7 +112,7 @@ export default async function ContactPage({ params }: LangParams) {
               <div>
                 <div className="text-xs font-bold uppercase tracking-widest opacity-75 mb-0.5">{c.fastestReply}</div>
                 <div className="font-bold text-base">{c.chatOnWhatsapp}</div>
-                <div className="text-white/70 text-xs mt-0.5">{c.typicallyReplies.replace("{hours}", String(SITE.responseHours))}</div>
+                <div className="text-white/85 text-xs mt-0.5">{c.typicallyReplies.replace("{hours}", String(SITE.responseHours))}</div>
               </div>
             </WhatsAppLink>
 

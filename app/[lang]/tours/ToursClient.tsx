@@ -224,7 +224,7 @@ export default function ToursClient({
           <div className="w-10 h-10 rounded-[3px] bg-white/15 flex items-center justify-center shrink-0"><UsersThree className="w-5 h-5 text-white" /></div>
           <div className="flex-1 min-w-0">
             <p className="font-semibold text-white text-sm leading-tight">{dict.tours.customBannerTitle}</p>
-            <p className="text-white/70 text-xs mt-0.5">{dict.tours.customBannerDesc}</p>
+            <p className="text-white/85 text-xs mt-0.5">{dict.tours.customBannerDesc}</p>
           </div>
           <WhatsAppLink href={whatsappUrl("Hello! I'd like to plan a custom Morocco adventure for my group.")}
             className="flex items-center gap-2 px-4 py-2.5 rounded-[3px] bg-card text-indigo font-semibold text-xs whitespace-nowrap hover:bg-surface-sunk transition-colors shrink-0">

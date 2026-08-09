@@ -105,7 +105,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
       <div className="bg-card rounded-[4px] shadow-lg border border-rule overflow-hidden">
         {/* Price header */}
         <div className="bg-indigo p-6 text-white">
-          <div className="text-white/70 text-xs uppercase tracking-widest mb-1">{b.pricePerPerson}</div>
+          <div className="text-white/85 text-xs uppercase tracking-widest mb-1">{b.pricePerPerson}</div>
           {/* Lead with the cheapest per-person rate. tour.price is the SOLO
               rate — the dearest figure the tour has — and heading the sidebar
               with it made a EUR695 trek look like a EUR1,800 one. The solo rate
@@ -115,7 +115,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             {format(cheapest.price)}{priceMax ? ` – ${format(priceMax)}` : ""}
           </div>
           {cheapest.minPeople > 1 && (
-            <div className="text-white/70 text-xs mt-1">
+            <div className="text-white/85 text-xs mt-1">
               {(b.perPersonGroupNote ?? "per person for {count}+ travellers · {solo} solo").
                 replace("{count}", String(cheapest.minPeople)).
                 replace("{solo}", format(tour.price))}

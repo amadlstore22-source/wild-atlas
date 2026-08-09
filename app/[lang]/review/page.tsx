@@ -66,7 +66,7 @@ export default async function ReviewPage({ params }: LangParams) {
         {/* Card */}
         <div className="bg-card rounded-[6px] border border-sand-dark shadow-riad overflow-hidden">
           <div className="bg-forest px-8 pt-10 pb-8 text-center text-white">
-            <p className="text-white/70 text-xs font-semibold uppercase tracking-[0.2em] mb-3">{t.eyebrow}</p>
+            <p className="text-white/85 text-xs font-semibold uppercase tracking-[0.2em] mb-3">{t.eyebrow}</p>
             <div className="flex justify-center gap-1 mb-4" aria-hidden="true">
               {[0, 1, 2, 3, 4].map((i) => (
                 <Star key={i} weight="fill" className="w-7 h-7 text-sunset" />

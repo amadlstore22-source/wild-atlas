@@ -97,12 +97,14 @@ export default async function LocaleLayout({
       className={`${cormorant.variable} ${inter.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
     >
       <head>
-        {/* Map tiles come from ArcGIS. Lighthouse measured ~300 ms of mobile LCP
-            savings from establishing this connection early rather than at the
-            moment the (deferred) map first requests a tile. */}
-        <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
-        {/* No preconnect to images.pexels.com / images.unsplash.com.
+        {/* No arcgisonline preconnect here. Map tiles do come from ArcGIS, and
+            the hint is worth ~300 ms of mobile LCP — but only on the tour pages,
+            which are the only route that renders a map. In this shared layout it
+            fired on all ~900 pages and Lighthouse flagged it as unused on the
+            blog. It now lives in components/map/TourLocationMap.tsx, next to the
+            component that actually requests the tiles.
+
+            No preconnect to images.pexels.com / images.unsplash.com.
             Those were added on the theory that the browser reaches the origins
             directly, but next/image proxies every remote source through
             /_next/image on our own domain — the SERVER fetches the original,

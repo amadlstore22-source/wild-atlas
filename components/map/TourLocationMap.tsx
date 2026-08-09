@@ -17,7 +17,18 @@ const TourLocationMapInner = dynamic(() => import("./TourLocationMapInner"), {
 });
 
 export default function TourLocationMap(props: TourLocationMapProps) {
-  return <TourLocationMapInner {...props} />;
+  return (
+    <>
+      {/* Scoped to the routes that actually draw a map. The tile connection is
+          worth ~300 ms of mobile LCP when it is opened before the deferred
+          Leaflet bundle asks for a tile; in the shared layout the same hint was
+          an unused socket on every blog and content page. React hoists these
+          into <head>. */}
+      <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
+      <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
+      <TourLocationMapInner {...props} />
+    </>
+  );
 }
 
 export type { RouteStop } from "./TourLocationMapInner";

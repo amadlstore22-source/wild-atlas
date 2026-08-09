@@ -267,7 +267,11 @@
     "groupPricingPlus": "{n}+",
     "perPersonGroupNote": "par personne à partir de {count} voyageurs · {solo} en solo",
     "fromPerPerson": "À partir de, par personne",
-    "perPersonGroupSuffix": "/ personne, {count}+"
+    "perPersonGroupSuffix": "/ personne, {count}+",
+    "groupPricingPerson": "personne",
+    "groupPricingEachSuffix": "par personne",
+    "groupPricingBestValue": "Meilleur tarif",
+    "groupPricingPeopleWord": "personnes"
   },
   "cookieBanner": {
     "body": "Nous utilisons des cookies pour mémoriser vos préférences et, si vous les acceptez, Google Analytics pour comprendre l'utilisation du site. Les cookies nécessaires sont toujours actifs ; il n'y a pas de mur de cookies.",
@@ -586,5 +590,31 @@
       "expert": "Expert"
     },
     "perPersonGroup": "/ personne à partir de {count}"
+  },
+  "howWeOperate": {
+    "pageTitle": "Comment nous travaillons",
+    "pageSubtitle": "Les questions que l'on se pose avant de confier ses vacances à un inconnu — avec des réponses claires.",
+    "eyebrow": "Dans les coulisses",
+    "intro": "La plupart des sites de voyage vous disent où vous irez. Beaucoup moins vous disent qui conduit, à quoi ressemble vraiment le campement, ou ce qui se passe quand le temps tourne. Cette page le fait. Si quelque chose n'est pas clair, écrivez-nous : c'est un guide qui répondra, pas un centre d'appels.",
+    "guidesTitle": "Qui encadre votre voyage",
+    "guidesBody": "Chaque trek est encadré par un guide agréé par le ministère du Tourisme marocain. Cet agrément est une obligation légale pour la haute montagne ici, et tous les opérateurs informels ne le détiennent pas. Nos guides sont berbères, nés dans le Haut Atlas, et chacun est formé sur chaque itinéraire avant de le mener — aucun guide n'emmène un groupe là où il n'a pas marché lui-même.",
+    "guidesLink": "Rencontrer les guides",
+    "vehiclesTitle": "Véhicules et transferts",
+    "vehiclesBody": "Les circuits désert et longue distance se font en 4x4 privé ou en minibus selon la taille du groupe, avec un chauffeur qui parcourt ces routes toute l'année. Un circuit privé, c'est votre véhicule : aucun inconnu ramassé en route, aucune attente que le programme se remplisse. Ce que chaque circuit comprend est détaillé sur sa propre page, avant même votre demande.",
+    "campsTitle": "Où vous dormez",
+    "campsBody": "Les nuits au désert se passent en campements berbères — vrais lits, couvertures, tentes partagées ou privées selon le voyage. Les treks en montagne utilisent refuges et gîtes de village, simples et propres plutôt que luxueux ; sur les traversées reculées, nous transportons des campements mobiles. Chaque page de circuit précise l'hébergement pour chaque nuit, pour que vous sachiez avant de réserver, pas en arrivant.",
+    "safetyTitle": "Sécurité et mauvais temps",
+    "safetyBody": "Les décisions de sécurité appartiennent à votre guide, et elles sont sans appel. Si un col est dangereux, enneigé, ou si la météo tourne, l'itinéraire bascule vers une alternative sûre — c'est normal dans le Haut Atlas, pas un échec. Si un circuit doit être annulé pour cause de météo, vous êtes remboursé intégralement ou reprogrammé, à votre choix. Nous préférons perdre la réservation que d'engager un groupe dans des conditions qu'il ne devrait pas affronter.",
+    "moneyTitle": "Acompte, paiement et annulation",
+    "moneyBody": "Vous versez un acompte pour bloquer les dates et réglez le solde au départ. Une annulation à plus de 14 jours du départ donne lieu au remboursement intégral de l'acompte. À moins de 14 jours, des frais de 50 % s'appliquent, et les absences sont facturées en totalité. Ces conditions sont les mêmes pour tous et ne changent jamais après coup.",
+    "moneyLink": "Conditions complètes",
+    "bookingTitle": "Réserver en direct",
+    "bookingBody": "Aucune plateforme entre vous et nous. Les demandes arrivent directement à la famille et reçoivent généralement une réponse sous 24 heures, par WhatsApp ou e-mail, par quelqu'un qui guide. C'est aussi pourquoi nos prix sont ce qu'ils sont : aucune commission n'en est prélevée avant que les guides soient payés.",
+    "insuranceTitle": "Assurance",
+    "insuranceBody": "L'assurance voyage n'est pas obligatoire pour réserver, mais elle est vivement conseillée en montagne. Cherchez une couverture incluant annulation, frais médicaux et évacuation d'urgence — les contrats standard excluent souvent la randonnée au-delà d'une certaine altitude, et le Toubkal culmine à 4 167 m.",
+    "ctaTitle": "Une question ?",
+    "ctaBody": "Posez-la. Un guide vous répondra, souvent le jour même.",
+    "ctaButton": "Nous écrire sur WhatsApp",
+    "ctaSecondary": "Envoyer une demande"
   }
 }

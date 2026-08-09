@@ -129,46 +129,59 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
             <div className="text-[0.7rem] font-semibold uppercase tracking-widest text-ink-soft mb-2">
               {b.groupPricingTitle ?? "Price per person by group size"}
             </div>
-            <table className="w-full text-sm tabular-nums">
-              <thead>
-                <tr className="text-ink-muted text-[0.7rem] uppercase tracking-wide">
-                  <th scope="col" className="text-start font-medium pb-1">
-                    {b.groupPricingPeople ?? "Travellers"}
-                  </th>
-                  <th scope="col" className="text-end font-medium pb-1">
-                    {b.groupPricingRate ?? "Each"}
-                  </th>
-                  <th scope="col" className="text-end font-medium pb-1">
-                    {b.groupPricingTotal ?? "Total"}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {tiers.map((tier, i) => {
-                  const next = tiers[i + 1];
-                  const isLast = !next;
-                  // A tier covers minPeople up to the next tier's threshold.
-                  const label = isLast
-                    ? (b.groupPricingPlus ?? "{n}+").replace("{n}", String(tier.minPeople))
-                    : next.minPeople - tier.minPeople === 1
-                      ? String(tier.minPeople)
-                      : `${tier.minPeople}–${next.minPeople - 1}`;
-                  // Total shown for the smallest group in the tier, which is the
-                  // number that bracket's price actually applies to first.
-                  const active = people >= tier.minPeople && (isLast || people < next.minPeople);
-                  return (
-                    <tr
-                      key={tier.minPeople}
-                      className={active ? "text-ink font-semibold" : "text-ink-soft"}
+            <ul className="flex flex-col gap-1.5">
+              {tiers.map((tier, i) => {
+                const next = tiers[i + 1];
+                const isLast = !next;
+                // A tier covers minPeople up to the next tier's threshold.
+                const label = isLast
+                  ? (b.groupPricingPlus ?? "{n}+").replace("{n}", String(tier.minPeople))
+                  : next.minPeople - tier.minPeople === 1
+                    ? String(tier.minPeople)
+                    : `${tier.minPeople}\u2013${next.minPeople - 1}`;
+                const active = people >= tier.minPeople && (isLast || people < next.minPeople);
+                // The cheapest bracket is the one worth calling out.
+                const best = tier.price === cheapest.price;
+                const peopleWord =
+                  tier.minPeople === 1 && !isLast
+                    ? (b.groupPricingPerson ?? "person")
+                    : (b.groupPricingPeopleWord ?? "people");
+                return (
+                  <li key={tier.minPeople} className={best ? "relative pt-2" : "relative"}>
+                    {best && (
+                      <span className="absolute top-0 left-1/2 -translate-x-1/2 z-10 bg-terracotta text-white text-[0.58rem] font-bold uppercase tracking-widest px-2 py-0.5 rounded-[2px] whitespace-nowrap">
+                        {b.groupPricingBestValue ?? "Best value"}
+                      </span>
+                    )}
+                    <div
+                      className={`flex items-center justify-between gap-2 rounded-[3px] border bg-card px-3.5 ${
+                        best
+                          ? "py-3 border-terracotta"
+                          : active
+                            ? "py-2.5 border-indigo/40 bg-indigo-wash/40"
+                            : "py-2.5 border-rule"
+                      }`}
                     >
-                      <td className="py-0.5 text-start">{label}</td>
-                      <td className="py-0.5 text-end">{format(tier.price)}</td>
-                      <td className="py-0.5 text-end">{format(tier.price * tier.minPeople)}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+                      <span className="text-[0.72rem] font-bold uppercase tracking-wider text-indigo shrink-0">
+                        {label} {peopleWord}
+                      </span>
+                      <span className="flex items-baseline gap-1.5 min-w-0">
+                        <span
+                          className={`font-display text-xl leading-none tabular-nums ${
+                            best ? "text-terracotta" : "text-indigo"
+                          }`}
+                        >
+                          {format(tier.price)}
+                        </span>
+                        <span className="text-[0.58rem] uppercase tracking-wider text-ink-muted whitespace-nowrap">
+                          {b.groupPricingEachSuffix ?? "per person"}
+                        </span>
+                      </span>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
             <p className="text-[0.7rem] text-ink-muted mt-2 leading-snug">
               {b.groupPricingNote ??
                 "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows."}

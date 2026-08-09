@@ -267,7 +267,11 @@
     "groupPricingPlus": "{n}+",
     "perPersonGroupNote": "a persona per {count}+ viaggiatori · {solo} da solo",
     "fromPerPerson": "Da, a persona",
-    "perPersonGroupSuffix": "/ persona, {count}+"
+    "perPersonGroupSuffix": "/ persona, {count}+",
+    "groupPricingPerson": "persona",
+    "groupPricingEachSuffix": "a persona",
+    "groupPricingBestValue": "Miglior prezzo",
+    "groupPricingPeopleWord": "persone"
   },
   "cookieBanner": {
     "body": "Utilizziamo cookie per ricordare le tue preferenze e, se accetti, Google Analytics per capire come viene usato il sito. I cookie necessari sono sempre attivi; non è presente alcun cookie wall.",
@@ -586,5 +590,31 @@
       "expert": "Esperto"
     },
     "perPersonGroup": "/ persona per {count}+"
+  },
+  "howWeOperate": {
+    "pageTitle": "Come lavoriamo",
+    "pageSubtitle": "Le domande che ci si pone prima di affidare la propria vacanza a uno sconosciuto — con risposte chiare.",
+    "eyebrow": "Dietro i viaggi",
+    "intro": "La maggior parte dei siti di viaggio dice dove andrete. Molti meno dicono chi guida, com'è davvero il campo, o cosa succede se il tempo cambia. Questa pagina lo fa. Se qualcosa non è chiaro, scriveteci: risponderà una guida, non un call center.",
+    "guidesTitle": "Chi guida il vostro viaggio",
+    "guidesBody": "Ogni trek è condotto da una guida autorizzata dal Ministero del Turismo marocchino. Questa licenza è un obbligo di legge per l'alta montagna, e non tutti gli operatori informali la possiedono. Le nostre guide sono berbere, nate nell'Alto Atlante, e ciascuna viene formata su ogni itinerario prima di condurlo: nessuna guida porta un gruppo dove non ha camminato di persona.",
+    "guidesLink": "Conoscere le guide",
+    "vehiclesTitle": "Veicoli e trasferimenti",
+    "vehiclesBody": "I tour nel deserto e sulle lunghe distanze viaggiano in 4x4 privato o minibus secondo il gruppo, con un autista che percorre queste strade tutto l'anno. Privato significa che il veicolo è vostro: nessuno sconosciuto raccolto per strada, nessuna attesa che un calendario si riempia. Ciò che ogni tour include è indicato per intero sulla sua pagina, prima ancora della richiesta.",
+    "campsTitle": "Dove dormite",
+    "campsBody": "Le notti nel deserto si passano in campi berberi: letti veri, coperte, tende condivise o private secondo il viaggio. I trek in montagna usano rifugi e gîte di villaggio, semplici e puliti più che lussuosi; sulle traversate remote portiamo campi mobili. Ogni pagina indica l'alloggio per ogni singola notte, così lo sapete prima di prenotare, non all'arrivo.",
+    "safetyTitle": "Sicurezza e maltempo",
+    "safetyBody": "Le decisioni sulla sicurezza spettano alla guida, e sono definitive. Se un colle è pericoloso, innevato o le previsioni peggiorano, l'itinerario passa a un'alternativa sicura: nell'Alto Atlante è normale, non un fallimento. Se un tour va annullato del tutto per il meteo, ricevete il rimborso completo o una nuova data, a vostra scelta. Preferiamo perdere la prenotazione che spingere un gruppo in condizioni che non dovrebbe affrontare.",
+    "moneyTitle": "Caparra, pagamento e cancellazione",
+    "moneyBody": "Versate una caparra per bloccare le date e il saldo all'inizio del viaggio. Cancellando più di 14 giorni prima della partenza, la caparra è rimborsata per intero. Entro i 14 giorni si applica il 50 %, e le mancate presentazioni sono addebitate per intero. Queste condizioni valgono per tutti e non le cambiamo a posteriori.",
+    "moneyLink": "Condizioni complete",
+    "bookingTitle": "Prenotare diretto",
+    "bookingBody": "Non c'è nessuna piattaforma tra voi e noi. Le richieste arrivano direttamente alla famiglia e ricevono di norma risposta entro 24 ore, via WhatsApp o e-mail, da qualcuno che fa la guida. È anche il motivo per cui i nostri prezzi sono questi: nessuna commissione viene tolta prima che le guide siano pagate.",
+    "insuranceTitle": "Assicurazione",
+    "insuranceBody": "L'assicurazione di viaggio non è obbligatoria per prenotare, ma è caldamente consigliata in montagna. Cercate una polizza che copra annullamento, spese mediche ed evacuazione d'emergenza: le coperture standard spesso escludono il trekking oltre una certa quota, e il Toubkal è a 4.167 m.",
+    "ctaTitle": "Avete ancora una domanda?",
+    "ctaBody": "Fatela. Una guida risponderà, spesso in giornata.",
+    "ctaButton": "Scriveteci su WhatsApp",
+    "ctaSecondary": "Invia una richiesta"
   }
 }

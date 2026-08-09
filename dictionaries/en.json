@@ -267,7 +267,11 @@
     "groupPricingPlus": "{n}+",
     "perPersonGroupNote": "per person for {count}+ travellers · {solo} solo",
     "fromPerPerson": "From, per person",
-    "perPersonGroupSuffix": "/ person, {count}+"
+    "perPersonGroupSuffix": "/ person, {count}+",
+    "groupPricingPerson": "person",
+    "groupPricingEachSuffix": "per person",
+    "groupPricingBestValue": "Best value",
+    "groupPricingPeopleWord": "people"
   },
   "cookieBanner": {
     "body": "We use cookies to remember your preferences and, if you accept, Google Analytics to understand how the site is used. Necessary cookies are always active; there is no cookie wall.",
@@ -586,5 +590,31 @@
       "expert": "Expert"
     },
     "perPersonGroup": "/ person for {count}+"
+  },
+  "howWeOperate": {
+    "pageTitle": "How We Operate",
+    "pageSubtitle": "The questions people ask before trusting a stranger with their holiday — answered plainly.",
+    "eyebrow": "Behind the trips",
+    "intro": "Most tour sites tell you where you will go. Far fewer tell you who is driving, what the camp is actually like, or what happens when the weather turns. This page does that. If something here is unclear, message us and ask — a guide will answer, not a call centre.",
+    "guidesTitle": "Who leads your trip",
+    "guidesBody": "Every trek is led by a guide licensed by Morocco's National Office for Tourism. That licence is a legal requirement for mountain guiding here, and it is not something informal operators always hold. Our guides are Berber, born in the High Atlas, and each one is trained on every route they lead before they lead it — no guide takes a group somewhere they have not walked themselves.",
+    "guidesLink": "Meet the guides",
+    "vehiclesTitle": "Vehicles and transfers",
+    "vehiclesBody": "Desert and long-distance tours run in a private 4x4 or minibus depending on group size, with a driver who works these roads year-round. A private tour means the vehicle is yours: no picking up strangers along the way, no waiting at meeting points while a schedule fills. What each tour includes is listed in full on its own page, before you enquire.",
+    "campsTitle": "Where you sleep",
+    "campsBody": "Desert nights are spent in Berber camps — proper beds, blankets, and shared or private tents depending on the trip. Mountain treks use refuges and village gîtes, which are simple and clean rather than luxurious; on remote traverses we carry mobile camps. Each tour page names the accommodation for every single night, so you know before you book, not after you arrive.",
+    "safetyTitle": "Safety and bad weather",
+    "safetyBody": "Safety decisions belong to your guide, and they are final. If a pass is unsafe, snowed in, or the forecast turns, the route changes to a safe alternative — this is normal in the High Atlas and not a failure of the trip. If a tour has to be cancelled outright for weather, you get a full refund or a reschedule, your choice. We would rather lose the booking than push a group into conditions they should not be in.",
+    "moneyTitle": "Deposits, payment and cancellation",
+    "moneyBody": "You pay a deposit to hold the dates and the balance at the start of the trip. Cancel more than 14 days before departure and the deposit is refunded in full. Inside 14 days a 50% fee applies, and no-shows are charged in full. Those terms are the same for everyone and we do not change them after the fact.",
+    "moneyLink": "Full terms",
+    "bookingTitle": "Booking direct",
+    "bookingBody": "There is no platform between you and us. Enquiries reach the family directly and are usually answered within 24 hours, by WhatsApp or email, by someone who guides. That is also why our prices are what they are — no commission is taken out of them before the guides are paid.",
+    "insuranceTitle": "Insurance",
+    "insuranceBody": "Travel insurance is not required to book, but it is strongly recommended for anything in the mountains. Look for a policy covering trip cancellation, medical costs and emergency evacuation — standard cover often excludes trekking above a certain altitude, and Toubkal is 4,167 m.",
+    "ctaTitle": "Still have a question?",
+    "ctaBody": "Ask it. A guide will answer, usually the same day.",
+    "ctaButton": "Message us on WhatsApp",
+    "ctaSecondary": "Send an enquiry"
   }
 }

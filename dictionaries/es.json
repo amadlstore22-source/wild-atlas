@@ -267,7 +267,11 @@
     "groupPricingPlus": "{n}+",
     "perPersonGroupNote": "por persona para {count}+ viajeros · {solo} en solitario",
     "fromPerPerson": "Desde, por persona",
-    "perPersonGroupSuffix": "/ persona, {count}+"
+    "perPersonGroupSuffix": "/ persona, {count}+",
+    "groupPricingPerson": "persona",
+    "groupPricingEachSuffix": "por persona",
+    "groupPricingBestValue": "Mejor precio",
+    "groupPricingPeopleWord": "personas"
   },
   "cookieBanner": {
     "body": "Usamos cookies para recordar tus preferencias y, si las aceptas, Google Analytics para entender cómo se usa el sitio. Las cookies necesarias están siempre activas; no existe un muro de cookies.",
@@ -586,5 +590,31 @@
       "expert": "Experto"
     },
     "perPersonGroup": "/ persona para {count}+"
+  },
+  "howWeOperate": {
+    "pageTitle": "Cómo trabajamos",
+    "pageSubtitle": "Las preguntas que uno se hace antes de confiar sus vacaciones a un desconocido — respondidas con claridad.",
+    "eyebrow": "Entre bastidores",
+    "intro": "La mayoría de las webs de viajes te dicen adónde irás. Muy pocas te dicen quién conduce, cómo es realmente el campamento o qué pasa si cambia el tiempo. Esta página sí. Si algo no queda claro, escríbenos: responderá un guía, no un centro de llamadas.",
+    "guidesTitle": "Quién dirige tu viaje",
+    "guidesBody": "Cada trek lo dirige un guía autorizado por el Ministerio de Turismo de Marruecos. Esa licencia es un requisito legal para la alta montaña aquí, y no todos los operadores informales la tienen. Nuestros guías son bereberes, nacidos en el Alto Atlas, y cada uno se forma en cada ruta antes de dirigirla: ningún guía lleva a un grupo donde no ha caminado él mismo.",
+    "guidesLink": "Conoce a los guías",
+    "vehiclesTitle": "Vehículos y traslados",
+    "vehiclesBody": "Los circuitos por el desierto y de larga distancia van en 4x4 privado o minibús según el tamaño del grupo, con un conductor que recorre estas carreteras todo el año. Un circuito privado significa que el vehículo es tuyo: sin recoger a desconocidos por el camino, sin esperar a que se llene un horario. Lo que incluye cada circuito está detallado en su propia página, antes de que preguntes.",
+    "campsTitle": "Dónde duermes",
+    "campsBody": "Las noches en el desierto se pasan en campamentos bereberes: camas de verdad, mantas y tiendas compartidas o privadas según el viaje. Los treks de montaña usan refugios y gîtes de aldea, sencillos y limpios más que lujosos; en las travesías remotas llevamos campamentos móviles. Cada página de circuito indica el alojamiento de cada noche, para que lo sepas antes de reservar, no al llegar.",
+    "safetyTitle": "Seguridad y mal tiempo",
+    "safetyBody": "Las decisiones de seguridad son del guía, y son definitivas. Si un puerto es peligroso, está nevado o el pronóstico empeora, la ruta cambia a una alternativa segura: es normal en el Alto Atlas, no un fracaso del viaje. Si un circuito debe cancelarse por completo por el tiempo, recibes el reembolso íntegro o lo reprogramas, tú eliges. Preferimos perder la reserva antes que meter a un grupo en condiciones que no debería afrontar.",
+    "moneyTitle": "Depósito, pago y cancelación",
+    "moneyBody": "Pagas un depósito para reservar las fechas y el resto al inicio del viaje. Si cancelas con más de 14 días de antelación, el depósito se devuelve íntegro. Dentro de los 14 días se aplica un 50 % y las ausencias se cobran completas. Estas condiciones son iguales para todos y no las cambiamos después.",
+    "moneyLink": "Condiciones completas",
+    "bookingTitle": "Reserva directa",
+    "bookingBody": "No hay plataforma entre tú y nosotros. Las consultas llegan directamente a la familia y suelen responderse en 24 horas, por WhatsApp o correo, por alguien que guía. Por eso nuestros precios son los que son: no se descuenta ninguna comisión antes de pagar a los guías.",
+    "insuranceTitle": "Seguro",
+    "insuranceBody": "El seguro de viaje no es obligatorio para reservar, pero se recomienda mucho en montaña. Busca una póliza que cubra cancelación, gastos médicos y evacuación de emergencia: las coberturas estándar suelen excluir el trekking por encima de cierta altitud, y el Toubkal tiene 4.167 m.",
+    "ctaTitle": "¿Te queda alguna duda?",
+    "ctaBody": "Pregúntala. Un guía responderá, normalmente el mismo día.",
+    "ctaButton": "Escríbenos por WhatsApp",
+    "ctaSecondary": "Enviar consulta"
   }
 }

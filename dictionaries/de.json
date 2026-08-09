@@ -267,7 +267,11 @@
     "groupPricingPlus": "{n}+",
     "perPersonGroupNote": "pro Person ab {count} Reisenden · {solo} allein",
     "fromPerPerson": "Ab, pro Person",
-    "perPersonGroupSuffix": "/ Person, ab {count}"
+    "perPersonGroupSuffix": "/ Person, ab {count}",
+    "groupPricingPerson": "Person",
+    "groupPricingEachSuffix": "pro Person",
+    "groupPricingBestValue": "Bester Preis",
+    "groupPricingPeopleWord": "Personen"
   },
   "cookieBanner": {
     "body": "Wir verwenden Cookies, um Ihre Einstellungen zu speichern, und – wenn Sie zustimmen – Google Analytics, um die Nutzung der Website zu verstehen. Notwendige Cookies sind immer aktiv; es gibt keine Cookie-Wand.",
@@ -586,5 +590,31 @@
       "expert": "Experte"
     },
     "perPersonGroup": "/ Person ab {count}"
+  },
+  "howWeOperate": {
+    "pageTitle": "Wie wir arbeiten",
+    "pageSubtitle": "Die Fragen, die man stellt, bevor man Fremden seinen Urlaub anvertraut — klar beantwortet.",
+    "eyebrow": "Hinter den Reisen",
+    "intro": "Die meisten Reiseseiten sagen Ihnen, wohin es geht. Weit weniger sagen Ihnen, wer fährt, wie das Camp wirklich aussieht oder was passiert, wenn das Wetter umschlägt. Diese Seite tut das. Wenn etwas unklar ist, schreiben Sie uns — es antwortet ein Bergführer, kein Callcenter.",
+    "guidesTitle": "Wer Ihre Reise führt",
+    "guidesBody": "Jedes Trekking wird von einem Bergführer geleitet, der vom marokkanischen Tourismusministerium lizenziert ist. Diese Lizenz ist hier gesetzliche Pflicht im Hochgebirge, und informelle Anbieter haben sie nicht immer. Unsere Bergführer sind Berber, geboren im Hohen Atlas, und jeder wird auf jeder Route geschult, bevor er sie führt — niemand führt eine Gruppe dorthin, wo er nicht selbst gegangen ist.",
+    "guidesLink": "Die Bergführer kennenlernen",
+    "vehiclesTitle": "Fahrzeuge und Transfers",
+    "vehiclesBody": "Wüsten- und Langstreckentouren fahren je nach Gruppengröße im privaten 4x4 oder Minibus, mit einem Fahrer, der diese Straßen das ganze Jahr kennt. Privat heißt: Das Fahrzeug gehört Ihnen — keine Fremden unterwegs, kein Warten, bis sich ein Termin füllt. Was jede Tour enthält, steht vollständig auf ihrer eigenen Seite, schon vor Ihrer Anfrage.",
+    "campsTitle": "Wo Sie schlafen",
+    "campsBody": "Wüstennächte verbringen Sie in Berbercamps — richtige Betten, Decken, Gemeinschafts- oder Privatzelte je nach Reise. Bergtrekkings nutzen Hütten und Dorf-Gîtes, eher einfach und sauber als luxuriös; auf abgelegenen Durchquerungen führen wir mobile Camps mit. Jede Tourseite nennt die Unterkunft für jede einzelne Nacht — Sie wissen es vor der Buchung, nicht erst bei der Ankunft.",
+    "safetyTitle": "Sicherheit und schlechtes Wetter",
+    "safetyBody": "Sicherheitsentscheidungen trifft Ihr Bergführer, und sie sind endgültig. Ist ein Pass gefährlich, verschneit oder dreht die Vorhersage, wechselt die Route auf eine sichere Alternative — im Hohen Atlas ist das normal und kein Scheitern der Reise. Muss eine Tour wetterbedingt ganz ausfallen, erhalten Sie die volle Rückerstattung oder einen neuen Termin, ganz wie Sie wollen. Lieber verlieren wir die Buchung, als eine Gruppe in Bedingungen zu schicken, in die sie nicht gehört.",
+    "moneyTitle": "Anzahlung, Zahlung und Stornierung",
+    "moneyBody": "Sie zahlen eine Anzahlung, um die Termine zu sichern, und den Rest zu Reisebeginn. Bei Stornierung mehr als 14 Tage vor Abreise wird die Anzahlung vollständig erstattet. Innerhalb von 14 Tagen fallen 50 % an, Nichterscheinen wird voll berechnet. Diese Bedingungen gelten für alle gleich und werden nachträglich nicht geändert.",
+    "moneyLink": "Vollständige Bedingungen",
+    "bookingTitle": "Direkt buchen",
+    "bookingBody": "Zwischen Ihnen und uns steht keine Plattform. Anfragen erreichen die Familie direkt und werden meist innerhalb von 24 Stunden beantwortet, per WhatsApp oder E-Mail, von jemandem, der selbst führt. Auch deshalb sind unsere Preise, wie sie sind: Es wird keine Provision abgezogen, bevor die Bergführer bezahlt werden.",
+    "insuranceTitle": "Versicherung",
+    "insuranceBody": "Eine Reiseversicherung ist für die Buchung nicht erforderlich, im Gebirge aber dringend zu empfehlen. Achten Sie auf Rücktritt, Krankheitskosten und Notfall-Evakuierung — Standardtarife schließen Trekking oberhalb einer bestimmten Höhe oft aus, und der Toubkal misst 4.167 m.",
+    "ctaTitle": "Noch eine Frage?",
+    "ctaBody": "Stellen Sie sie. Ein Bergführer antwortet, meist noch am selben Tag.",
+    "ctaButton": "Auf WhatsApp schreiben",
+    "ctaSecondary": "Anfrage senden"
   }
 }

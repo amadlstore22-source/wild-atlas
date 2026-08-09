@@ -6,7 +6,8 @@ import { CalendarBlank, Clock, ArrowRight, MapPin } from "@phosphor-icons/react/
 import type { BlogPost, BlogRegion } from "@/lib/blog";
 import { blogPostsFor, blogCategoriesFor, blogRegionsFor } from "@/lib/blog-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
-import { getDictionary, hasLocale } from "../dictionaries";
+import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({
@@ -27,6 +28,7 @@ export async function generateMetadata({
     description: dict.blog.pageSubtitle,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/blog`,
+      languages: hreflangForPath(LOCALES, "/blog"),
     },
     ...(isFiltering && { robots: { index: false, follow: true } }),
   };

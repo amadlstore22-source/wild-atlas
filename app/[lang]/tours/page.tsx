@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getDictionary, hasLocale } from "../dictionaries";
+import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 import { toursFor, categoriesFor } from "@/lib/tours-i18n";
 import ToursClient from "./ToursClient";
 
@@ -22,6 +23,10 @@ export async function generateMetadata({ params, searchParams }: ToursPageProps)
     description: "Browse 30+ guided tours across Morocco — trekking, Sahara desert, cultural, and day tours from Marrakech and Agadir.",
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/tours`,
+      // The six locale index pages are translations of one another, not
+      // duplicates. Without hreflang Google has to guess, and it reported
+      // picking its own canonical for pages in this family.
+      languages: hreflangForPath(LOCALES, "/tours"),
     },
     ...(isFiltering && { robots: { index: false, follow: true } }),
   };

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getDictionary, hasLocale } from "../dictionaries";
+import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
+import { hreflangForPath } from "@/lib/seo/hreflang";
 import { destinationsFor } from "@/lib/destinations-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 
@@ -20,7 +21,10 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       description: "From Atlas peaks to Atlantic surf — discover where our adventures take you.",
       url: `https://marrakechecotours.com/${lang}/destinations`,
     },
-    alternates: { canonical: `https://marrakechecotours.com/${lang}/destinations` },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/destinations`,
+      languages: hreflangForPath(LOCALES, "/destinations"),
+    },
   };
 }
 

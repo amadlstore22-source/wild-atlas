@@ -78,3 +78,44 @@ describe("every route with hreflang declares x-default", () => {
     expect(offenders, `missing x-default in:\n  ${offenders.join("\n  ")}`).toEqual([]);
   });
 });
+
+describe("every indexable localised route emits hreflang", () => {
+  function pageFiles(dir: string, out: string[] = []): string[] {
+    for (const entry of readdirSync(dir)) {
+      const p = join(dir, entry);
+      if (statSync(p).isDirectory()) pageFiles(p, out);
+      else if (entry === "page.tsx") out.push(p);
+    }
+    return out;
+  }
+
+  // Search Console reported "Duplicate, Google chose different canonical" for
+  // pages under /[lang]. The cause was three index routes — /tours, /blog and
+  // /destinations — that set a canonical but no hreflang, so the six locale
+  // versions looked like duplicates of each other rather than translations.
+  //
+  // The sibling test above only checks that routes which ALREADY have a
+  // languages block spell out x-default. It cannot catch a route that omits
+  // hreflang entirely, which is precisely how those three slipped through.
+  it("has no /[lang] route with a canonical but no languages block", () => {
+    const langDir = join(__dirname, "..", "..", "app", "[lang]");
+    const offenders: string[] = [];
+
+    for (const file of pageFiles(langDir)) {
+      const src = readFileSync(file, "utf-8");
+      // Only routes that declare a canonical are making an indexing claim.
+      if (!/alternates:\s*\{|canonical:/.test(src)) continue;
+      const hasLanguages =
+        /languages:/.test(src) || /hreflang(Languages|ForPath)\s*\(/.test(src);
+      if (!hasLanguages) {
+        offenders.push(file.split(/\[lang\][\/]/)[1] ?? file);
+      }
+    }
+
+    expect(
+      offenders,
+      `these routes claim a canonical but declare no hreflang, so Google sees the ` +
+        `six locale versions as duplicates:\n  ${offenders.join("\n  ")}`
+    ).toEqual([]);
+  });
+});

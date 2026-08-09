@@ -64,11 +64,29 @@ node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-ind
 node scripts/google-index.mjs --key ./service-account.json --url https://marrakechecotours.com/en/tours/high-atlas-grand-traverse-15day
 ```
 
-### Working through 696 URLs under the 200/day cap
-Run `--limit 200` today, then again tomorrow, etc. Because `docs/all-index-urls.txt`
-is generated in a stable order, and successful re-submissions are harmless, the
-simplest approach is: run `--limit 200` daily for ~4 days. (Or trim the file to
-the ~200 you care about most and just run that once.)
+### Working through 882 URLs under the 200/day cap
+
+**`--limit` alone is not enough — you must also advance `--offset`.** `--limit
+200` always takes the FIRST 200 lines of the file; the script keeps no record of
+previous runs. Running it daily without an offset resubmits the same 200 URLs
+forever and never reaches the rest.
+
+Increment the offset by 200 each day:
+
+```bash
+node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-index-urls.txt --offset 0   --limit 200   # day 1
+node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-index-urls.txt --offset 200 --limit 200   # day 2
+node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-index-urls.txt --offset 400 --limit 200   # day 3
+node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-index-urls.txt --offset 600 --limit 200   # day 4
+node scripts/google-index.mjs --key ./service-account.json --urls ./docs/all-index-urls.txt --offset 800 --limit 200   # day 5 (82 left)
+```
+
+The header line confirms where you are: `Loaded 200 URL(s) (skipped first 400 of
+882)`. Add `--dry-run` to check before sending — it uses no quota.
+
+If you started with `priority-index-urls.txt` (48 English money pages), those are
+the first 48 lines of `all-index-urls.txt`, so begin the sequence at
+`--offset 48` to avoid repeating them.
 
 ## Regenerating the URL list
 

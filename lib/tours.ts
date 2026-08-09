@@ -241,8 +241,8 @@ export const TOURS: Tour[] = [
     // Stored in USD (see lib/currency-core.ts). Benchmarked against
     // marrakech-desert-trips.com's published 3-day Merzouga table
     // (verified Aug 2026) and set 10% under it at every bracket.
-    price: 820,
-    depositAmount: 180,
+    price: 1230,
+    depositAmount: 271,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -250,15 +250,15 @@ export const TOURS: Tour[] = [
     // The 1→2 drop is steep because the vehicle and driver-guide cost the
     // same either way; only camp, meals and fees scale per head.
     groupPricing: [
-      { minPeople: 1, price: 820 }, // €711
-      { minPeople: 2, price: 452 }, // €392
-      { minPeople: 3, price: 378 }, // €328
-      { minPeople: 4, price: 337 }, // €292
-      { minPeople: 5, price: 307 }, // €266
-      { minPeople: 6, price: 275 }, // €238
-      { minPeople: 7, price: 254 }, // €220
-      { minPeople: 10, price: 229 }, // €199  (raised from €194: the source table inverts here)
-      { minPeople: 14, price: 213 }, // €185  (raised from €176: the source table inverts here)
+      { minPeople: 1, price: 1230 },
+      { minPeople: 2, price: 565 },
+      { minPeople: 3, price: 454 },
+      { minPeople: 4, price: 388 },
+      { minPeople: 5, price: 338 },
+      { minPeople: 6, price: 292 },
+      { minPeople: 7, price: 269 },
+      { minPeople: 10, price: 243 },
+      { minPeople: 14, price: 226 },
     ],
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -332,7 +332,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €711 for one traveller, €392 each for two or three, and less again for larger groups.",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €1,066 for one traveller, €490 each for two, €394 for three, and less again for larger groups.",
     featured: true,
   },
   {
@@ -351,15 +351,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 66 },
-      { minPeople: 2, price: 37 },
-      { minPeople: 3, price: 33 },
-      { minPeople: 4, price: 31 },
-      { minPeople: 5, price: 30 },
-      { minPeople: 6, price: 28 },
+      { minPeople: 1, price: 99 },
+      { minPeople: 2, price: 46 },
+      { minPeople: 3, price: 40 },
+      { minPeople: 4, price: 36 },
+      { minPeople: 5, price: 33 },
+      { minPeople: 6, price: 30 },
     ],
-    price: 66,
-    depositAmount: 15,
+    price: 99,
+    depositAmount: 22,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -404,7 +404,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
     seoTitle: "Ourika Valley Day Hike from Marrakech — Waterfalls & Berber Villages | Marrakech Eco Tours",
-    seoDescription: "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. Guided day trip with Berber lunch included. From $66.",
+    seoDescription: "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. Guided day trip with Berber lunch included. From $99.",
     featured: true,
   },
   {
@@ -423,15 +423,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 57 },
-      { minPeople: 2, price: 32 },
-      { minPeople: 3, price: 29 },
-      { minPeople: 4, price: 27 },
-      { minPeople: 5, price: 26 },
-      { minPeople: 6, price: 24 },
+      { minPeople: 1, price: 86 },
+      { minPeople: 2, price: 40 },
+      { minPeople: 3, price: 35 },
+      { minPeople: 4, price: 31 },
+      { minPeople: 5, price: 29 },
+      { minPeople: 6, price: 25 },
     ],
-    price: 57,
-    depositAmount: 13,
+    price: 86,
+    depositAmount: 19,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -476,7 +476,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Ouzoud Waterfalls Day Trip from Marrakech — Barbary Macaques & 110m Falls | Marrakech Eco Tours",
-    seoDescription: "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. Day trip from Marrakech with guide included. From $57.",
+    seoDescription: "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. Day trip from Marrakech with guide included. From $86.",
     featured: false,
   },
   {
@@ -495,15 +495,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 143 },
-      { minPeople: 2, price: 80 },
-      { minPeople: 3, price: 72 },
-      { minPeople: 4, price: 67 },
-      { minPeople: 5, price: 64 },
-      { minPeople: 6, price: 61 },
+      { minPeople: 1, price: 214 },
+      { minPeople: 2, price: 100 },
+      { minPeople: 3, price: 86 },
+      { minPeople: 4, price: 77 },
+      { minPeople: 5, price: 70 },
+      { minPeople: 6, price: 65 },
     ],
-    price: 143,
-    depositAmount: 31,
+    price: 214,
+    depositAmount: 47,
     heroImage:
       "/gallery/tours-agafay-desert-sunset.jpg",
     gallery: [
@@ -549,7 +549,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.4969, lng: -8.1073, name: "Agafay Desert, Marrakech Region" },
     seoTitle: "Agafay Desert Sunset Tour from Marrakech — Quad Biking, Camels & Berber Dinner | Marrakech Eco Tours",
-    seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From $143.",
+    seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From $214.",
     featured: false,
   },
   {
@@ -822,15 +822,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 57 },
-      { minPeople: 2, price: 32 },
-      { minPeople: 3, price: 29 },
-      { minPeople: 4, price: 27 },
-      { minPeople: 5, price: 26 },
-      { minPeople: 6, price: 24 },
+      { minPeople: 1, price: 86 },
+      { minPeople: 2, price: 40 },
+      { minPeople: 3, price: 35 },
+      { minPeople: 4, price: 31 },
+      { minPeople: 5, price: 29 },
+      { minPeople: 6, price: 25 },
     ],
-    price: 57,
-    depositAmount: 13,
+    price: 86,
+    depositAmount: 19,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
@@ -874,7 +874,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5376, lng: -9.5000, name: "Paradise Valley, Tamraght" },
     seoTitle: "Paradise Valley Day Trip from Agadir — Natural Swimming Pools & Palm Gorge | Marrakech Eco Tours",
-    seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $57.",
+    seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $86.",
     featured: true,
   },
   {
@@ -893,15 +893,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 132 },
-      { minPeople: 2, price: 74 },
-      { minPeople: 3, price: 67 },
-      { minPeople: 4, price: 62 },
-      { minPeople: 5, price: 59 },
-      { minPeople: 6, price: 56 },
+      { minPeople: 1, price: 198 },
+      { minPeople: 2, price: 92 },
+      { minPeople: 3, price: 80 },
+      { minPeople: 4, price: 71 },
+      { minPeople: 5, price: 65 },
+      { minPeople: 6, price: 59 },
     ],
-    price: 132,
-    depositAmount: 29,
+    price: 198,
+    depositAmount: 44,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -948,7 +948,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.0559, lng: -9.6320, name: "Souss-Massa National Park, Massa" },
     seoTitle: "Souss-Massa National Park Wildlife Tour from Agadir — Rare Northern Bald Ibis | Marrakech Eco Tours",
-    seoDescription: "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. Expert naturalist guide, binoculars, and picnic included. From $132.",
+    seoDescription: "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. Expert naturalist guide, binoculars, and picnic included. From $198.",
     featured: true,
   },
   {
@@ -1040,15 +1040,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 54 },
-      { minPeople: 2, price: 30 },
-      { minPeople: 3, price: 27 },
-      { minPeople: 4, price: 25 },
-      { minPeople: 5, price: 24 },
-      { minPeople: 6, price: 23 },
+      { minPeople: 1, price: 81 },
+      { minPeople: 2, price: 38 },
+      { minPeople: 3, price: 32 },
+      { minPeople: 4, price: 29 },
+      { minPeople: 5, price: 26 },
+      { minPeople: 6, price: 24 },
     ],
-    price: 54,
-    depositAmount: 12,
+    price: 81,
+    depositAmount: 18,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -1091,7 +1091,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4206, lng: -9.5981, name: "Agadir Beach, Agadir Bay" },
     seoTitle: "Surf Lesson Agadir — Learn to Surf on Morocco's Atlantic Coast | Marrakech Eco Tours",
-    seoDescription: "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. Beginner and intermediate levels. From $54.",
+    seoDescription: "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. Beginner and intermediate levels. From $81.",
     featured: false,
   },
   {
@@ -1207,15 +1207,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 371 },
-      { minPeople: 2, price: 207 },
-      { minPeople: 3, price: 170 },
-      { minPeople: 4, price: 149 },
-      { minPeople: 5, price: 135 },
-      { minPeople: 6, price: 122 },
+      { minPeople: 1, price: 556 },
+      { minPeople: 2, price: 259 },
+      { minPeople: 3, price: 204 },
+      { minPeople: 4, price: 171 },
+      { minPeople: 5, price: 148 },
+      { minPeople: 6, price: 129 },
     ],
-    price: 371,
-    depositAmount: 82,
+    price: 556,
+    depositAmount: 122,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1272,7 +1272,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
     seoTitle: "2-Day Sahara Tour from Agadir — Erg Chegaga Desert Camp & Draa Valley | Marrakech Eco Tours",
-    seoDescription: "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. 2-day tour from Agadir. From $371.",
+    seoDescription: "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. 2-day tour from Agadir. From $556.",
     featured: true,
   },
   {
@@ -1365,15 +1365,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 77 },
-      { minPeople: 2, price: 43 },
-      { minPeople: 3, price: 39 },
-      { minPeople: 4, price: 36 },
-      { minPeople: 5, price: 34 },
-      { minPeople: 6, price: 33 },
+      { minPeople: 1, price: 116 },
+      { minPeople: 2, price: 54 },
+      { minPeople: 3, price: 47 },
+      { minPeople: 4, price: 41 },
+      { minPeople: 5, price: 37 },
+      { minPeople: 6, price: 35 },
     ],
-    price: 77,
-    depositAmount: 17,
+    price: 116,
+    depositAmount: 26,
     heroImage:
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
@@ -1417,7 +1417,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
     seoTitle: "Essaouira Day Trip from Agadir — UNESCO Medina & Atlantic Ramparts | Marrakech Eco Tours",
-    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From $77.",
+    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From $116.",
     featured: false,
   },
   {
@@ -1663,15 +1663,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 127 },
-      { minPeople: 2, price: 71 },
-      { minPeople: 3, price: 58 },
-      { minPeople: 4, price: 51 },
-      { minPeople: 5, price: 46 },
-      { minPeople: 6, price: 42 },
+      { minPeople: 1, price: 190 },
+      { minPeople: 2, price: 89 },
+      { minPeople: 3, price: 70 },
+      { minPeople: 4, price: 59 },
+      { minPeople: 5, price: 51 },
+      { minPeople: 6, price: 45 },
     ],
-    price: 127,
-    depositAmount: 28,
+    price: 190,
+    depositAmount: 42,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1735,7 +1735,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
     featured: false,
     seoTitle: "Marrakech to Zagora 2-Day Desert Tour — Draa Valley, Camel Trek & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $127.",
+    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $190.",
   },
   {
     id: "24",
@@ -1752,8 +1752,8 @@ export const TOURS: Tour[] = [
     // Stored in USD (see lib/currency-core.ts). Benchmarked against
     // marrakech-desert-trips.com's published 3-day Erg Chigaga table
     // (verified Aug 2026) and set 10% under it at every bracket.
-    price: 976,
-    depositAmount: 214,
+    price: 1464,
+    depositAmount: 322,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -1761,11 +1761,11 @@ export const TOURS: Tour[] = [
     // The 1→2 drop is steep because the vehicle and driver-guide cost the
     // same either way; only camp, meals and fees scale per head.
     groupPricing: [
-      { minPeople: 1, price: 976 }, // €846
-      { minPeople: 2, price: 530 }, // €459
-      { minPeople: 3, price: 399 }, // €346
-      { minPeople: 4, price: 337 }, // €292
-      { minPeople: 5, price: 295 }, // €256
+      { minPeople: 1, price: 1464 },
+      { minPeople: 2, price: 662 },
+      { minPeople: 3, price: 479 },
+      { minPeople: 4, price: 388 },
+      { minPeople: 5, price: 324 },
     ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -1843,7 +1843,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Erg Chegaga 3-Day Desert Tour from Marrakech — Remote Dunes & 4x4 Sahara Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $976 solo, far less per person for two or more.",
+    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $1464 solo, far less per person for two or more.",
   },
   {
     id: "25",
@@ -1861,15 +1861,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 684 },
-      { minPeople: 2, price: 382 },
-      { minPeople: 3, price: 313 },
-      { minPeople: 4, price: 275 },
-      { minPeople: 5, price: 248 },
-      { minPeople: 6, price: 225 },
+      { minPeople: 1, price: 1026 },
+      { minPeople: 2, price: 478 },
+      { minPeople: 3, price: 376 },
+      { minPeople: 4, price: 316 },
+      { minPeople: 5, price: 273 },
+      { minPeople: 6, price: 238 },
     ],
-    price: 684,
-    depositAmount: 150,
+    price: 1026,
+    depositAmount: 226,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -1961,7 +1961,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     featured: true,
     seoTitle: "4-Day Desert Tour from Marrakech — Erg Chebbi, Todra Gorge & Road of a Thousand Kasbahs | Marrakech Eco Tours",
-    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From $684.",
+    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From $1026.",
   },
 
   // ─────────────────────────────────────────────
@@ -1983,15 +1983,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 560 },
-      { minPeople: 2, price: 313 },
-      { minPeople: 3, price: 257 },
-      { minPeople: 4, price: 225 },
-      { minPeople: 5, price: 203 },
-      { minPeople: 6, price: 185 },
+      { minPeople: 1, price: 840 },
+      { minPeople: 2, price: 391 },
+      { minPeople: 3, price: 308 },
+      { minPeople: 4, price: 259 },
+      { minPeople: 5, price: 223 },
+      { minPeople: 6, price: 196 },
     ],
-    price: 560,
-    depositAmount: 123,
+    price: 840,
+    depositAmount: 185,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -2068,7 +2068,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir to Merzouga 3-Day Desert Tour — Erg Chebbi, Taroudant & Taliouine | Marrakech Eco Tours",
-    seoDescription: "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. 3-day desert tour with Berber camp. From $560.",
+    seoDescription: "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. 3-day desert tour with Berber camp. From $840.",
   },
   {
     id: "27",
@@ -2086,15 +2086,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 340 },
-      { minPeople: 2, price: 190 },
-      { minPeople: 3, price: 156 },
-      { minPeople: 4, price: 137 },
-      { minPeople: 5, price: 124 },
-      { minPeople: 6, price: 112 },
+      { minPeople: 1, price: 510 },
+      { minPeople: 2, price: 238 },
+      { minPeople: 3, price: 187 },
+      { minPeople: 4, price: 158 },
+      { minPeople: 5, price: 136 },
+      { minPeople: 6, price: 119 },
     ],
-    price: 340,
-    depositAmount: 75,
+    price: 510,
+    depositAmount: 112,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -2158,7 +2158,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir to Zagora 2-Day Desert Tour — Draa Valley, Taroudant & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. Berber camp under the stars. From $340.",
+    seoDescription: "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. Berber camp under the stars. From $510.",
   },
   {
     id: "28",
@@ -2175,14 +2175,14 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 3-day Agadir to Erg Chigaga — same trip
     // (published table, verified Aug 2026).
-    price: 930,
-    depositAmount: 205,
+    price: 1395,
+    depositAmount: 307,
     groupPricing: [
-      { minPeople: 1, price: 930 }, // €806
-      { minPeople: 2, price: 544 }, // €472
-      { minPeople: 3, price: 411 }, // €356
-      { minPeople: 4, price: 328 }, // €284
-      { minPeople: 5, price: 295 }, // €256
+      { minPeople: 1, price: 1395 },
+      { minPeople: 2, price: 680 },
+      { minPeople: 3, price: 493 },
+      { minPeople: 4, price: 377 },
+      { minPeople: 5, price: 324 },
     ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
@@ -2259,7 +2259,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour — Remote Sahara & 4x4 Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $930.",
+    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $1395.",
   },
   {
     id: "29",
@@ -2278,15 +2278,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 797 },
-      { minPeople: 2, price: 445 },
-      { minPeople: 3, price: 365 },
-      { minPeople: 4, price: 320 },
-      { minPeople: 5, price: 289 },
-      { minPeople: 6, price: 263 },
+      { minPeople: 1, price: 1196 },
+      { minPeople: 2, price: 556 },
+      { minPeople: 3, price: 438 },
+      { minPeople: 4, price: 368 },
+      { minPeople: 5, price: 318 },
+      { minPeople: 6, price: 279 },
     ],
-    price: 797,
-    depositAmount: 175,
+    price: 1196,
+    depositAmount: 263,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2377,7 +2377,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "4-Day Desert Tour from Agadir — Erg Chebbi, Taroudant, Todra Gorge & Road of 1000 Kasbahs | Marrakech Eco Tours",
-    seoDescription: "The complete Agadir desert grand tour — 4 days through Taroudant, Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp, and the Road of a Thousand Kasbahs. From $797.",
+    seoDescription: "The complete Agadir desert grand tour — 4 days through Taroudant, Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp, and the Road of a Thousand Kasbahs. From $1196.",
   },
 
   // ─────────────────────────────────────────────
@@ -3206,15 +3206,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 84 },
-      { minPeople: 2, price: 47 },
-      { minPeople: 3, price: 42 },
-      { minPeople: 4, price: 39 },
-      { minPeople: 5, price: 38 },
-      { minPeople: 6, price: 36 },
+      { minPeople: 1, price: 126 },
+      { minPeople: 2, price: 59 },
+      { minPeople: 3, price: 50 },
+      { minPeople: 4, price: 45 },
+      { minPeople: 5, price: 42 },
+      { minPeople: 6, price: 38 },
     ],
-    price: 84,
-    depositAmount: 18,
+    price: 126,
+    depositAmount: 28,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
@@ -3253,7 +3253,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6316, lng: -7.9868, name: "Rahba Kedima Spice Square, Marrakech Medina" },
     seoTitle: "Marrakech Food & Market Tour — Spice Souk Walk & Cooking Class | Marrakech Eco Tours",
-    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From $84.",
+    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From $126.",
     faq: [
       { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
       { q: "Do we need to arrive hungry?", a: "Come with an appetite but not empty-handed — the walk includes a dozen small tastings before you even reach the cooking class, so pace yourself, and skip a big breakfast." },
@@ -3277,15 +3277,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 399 },
-      { minPeople: 2, price: 223 },
-      { minPeople: 3, price: 183 },
-      { minPeople: 4, price: 161 },
-      { minPeople: 5, price: 145 },
-      { minPeople: 6, price: 132 },
+      { minPeople: 1, price: 598 },
+      { minPeople: 2, price: 279 },
+      { minPeople: 3, price: 220 },
+      { minPeople: 4, price: 185 },
+      { minPeople: 5, price: 160 },
+      { minPeople: 6, price: 140 },
     ],
-    price: 399,
-    depositAmount: 88,
+    price: 598,
+    depositAmount: 132,
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
@@ -3341,7 +3341,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "Merzouga Stargazing Tour — 2-Day Sahara Dark Sky Desert Trip | Marrakech Eco Tours",
-    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From $399.",
+    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From $598.",
     faq: [
       { q: "Do I need my own astronomy knowledge or equipment?", a: "No. The guide provides the telescope and explains everything from scratch — this is designed for complete beginners as much as anyone with an interest in astronomy." },
       { q: "What's the best time of year for this tour?", a: "October through May. The sky is clearest and the desert night is cool enough to sit outside comfortably; summer nights are still starry but far hotter." },
@@ -3667,18 +3667,18 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 4-day Marrakech to Merzouga — same length, same route
     // (published table, verified Aug 2026).
-    price: 930,
-    depositAmount: 205,
+    price: 1395,
+    depositAmount: 307,
     groupPricing: [
-      { minPeople: 1, price: 930 }, // €806
-      { minPeople: 2, price: 515 }, // €446
-      { minPeople: 3, price: 441 }, // €382
-      { minPeople: 4, price: 399 }, // €346
-      { minPeople: 5, price: 378 }, // €328
-      { minPeople: 6, price: 337 }, // €292
-      { minPeople: 7, price: 316 }, // €274
-      { minPeople: 10, price: 307 }, // €266
-      { minPeople: 14, price: 286 }, // €248  (raised from €238 — the source table inverts here)
+      { minPeople: 1, price: 1395 },
+      { minPeople: 2, price: 644 },
+      { minPeople: 3, price: 529 },
+      { minPeople: 4, price: 459 },
+      { minPeople: 5, price: 416 },
+      { minPeople: 6, price: 357 },
+      { minPeople: 7, price: 335 },
+      { minPeople: 10, price: 325 },
+      { minPeople: 14, price: 303 },
     ],
     heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
     gallery: [
@@ -3758,7 +3758,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $1395.",
     faq: [
       { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
       { q: "What makes the desert camp family-friendly?", a: "The camp used on this trip has proper beds, private or shared bathroom tents, and dinner served together rather than a bare bivouac. The camel rides are short and led on foot, and there is space around the fire for children in the evening." },
@@ -4006,16 +4006,16 @@ export const TOURS: Tour[] = [
     groupSize: "2–16 people",
     tourType: "private",
     groupPricing: [
-      { minPeople: 1, price: 2076 },
-      { minPeople: 2, price: 1200 },
-      { minPeople: 3, price: 1015 },
-      { minPeople: 4, price: 911 },
-      { minPeople: 5, price: 802 },
+      { minPeople: 1, price: 3114 },
+      { minPeople: 2, price: 1500 },
+      { minPeople: 3, price: 1218 },
+      { minPeople: 4, price: 1048 },
+      { minPeople: 5, price: 882 },
     ],
     reviewCount: 18,
     rating: 5.0,
-    price: 2076,
-    depositAmount: 531,
+    price: 3114,
+    depositAmount: 685,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -4136,7 +4136,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "8-Day Chegaga Camel Trek from Marrakech — Draa Valley to M'hamid",
     seoDescription:
-      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. Mobile camps, Berber guide, full board. From $2076 per person.",
+      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. Mobile camps, Berber guide, full board. From $3114 per person.",
     faq: [
       {
         q: "Do I ride the camel or walk?",

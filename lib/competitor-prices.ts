@@ -51,11 +51,19 @@ export interface CompetitorTour {
 export const MAX_UNDERCUT = 0.15;
 
 /**
- * We should also not be *above* the market on a like-for-like trip. A small
- * premium is defensible (licensed Berber guides, family operation, no
- * middleman); a large one is not, when the customer can see both pages.
+ * We should also not be *above* the market on a like-for-like trip by more than
+ * we can justify. Raised from 2% to 40% on 2026-08-09, when the operator moved
+ * to a deliberate premium position: +50% solo, +25% at two, tapering to +6% at
+ * six. That puts us roughly 35% above the cheapest benchmarked rival at solo
+ * and ~13% at two.
+ *
+ * That is a pricing DECISION, not a bug, and the justification is real -
+ * licensed Berber guides from one family, no middleman, published tier tables
+ * rather than "contact us for a quote". The check is kept rather than deleted
+ * so a genuine mistake (a mistyped tier, a rival cutting prices hard) still
+ * surfaces; it now catches anything beyond the intended band.
  */
-export const MAX_PREMIUM = 0.02;
+export const MAX_PREMIUM = 0.4;
 
 export const COMPETITOR_PRICES: CompetitorTour[] = [
   {

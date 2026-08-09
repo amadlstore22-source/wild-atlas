@@ -87,8 +87,8 @@ export default async function TermsPage({ params }: LangParams) {
             typically around a quarter of the tour price. The figure displayed on the tour page at the time of
             booking is the one that applies.
           </li>
-          <li>The remaining balance is due no later than <strong>14 days before your departure date</strong>.</li>
-          <li>Bookings made within 14 days of departure require full payment at the time of booking.</li>
+          <li>The remaining balance is paid <strong>on arrival</strong>, at the start of your tour, in cash or by card. Nothing further is charged before you travel.</li>
+          <li>Last-minute bookings are accepted on the same terms, subject to availability &mdash; the deposit secures the dates and the balance is paid on arrival.</li>
           <li>Deposits and payments are arranged via <strong>PayPal</strong>. Where an automatic checkout link is not available on the tour page, we send a PayPal payment request by WhatsApp or email once you confirm your booking details, and your deposit is secured once that payment is completed. We do not store or access your card or bank details. PayPal&rsquo;s own terms and fees apply.</li>
           <li>Prices are displayed in your chosen currency (EUR, USD, GBP, or MAD) for convenience; the contractual price is agreed in writing on confirmation. Exchange-rate fluctuations are your responsibility.</li>
           <li>Group bookings of 6 or more persons may be subject to a custom quote &mdash; contact us before booking.</li>

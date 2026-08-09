@@ -57,9 +57,19 @@ describe("blog euro prices match tour data", () => {
         if (linkedUsd.size === 0) continue;
 
         // Both orders: "€245" (en) and "245 €" / "245 يورو" (fr/es/de/it/ar).
+        // A figure written as part of a RANGE describes the market, not our
+        // price — "private tours €190 to €330" is what other operators charge.
+        // Those collide with stored USD values by coincidence, so they are
+        // stripped before the check. A bare figure, which is how a real
+        // conversion bug shows up, is still caught.
+        const ranged = body.replace(
+          /€\s?\d[\d,]*\s?(?:–|—|-|to)\s?€?\s?\d[\d,]*/g,
+          " ",
+        );
+
         const figures = [
-          ...body.matchAll(/€\s?(\d[\d,]*)/g),
-          ...body.matchAll(/(\d[\d,]*)\s?(?:€|يورو)/g),
+          ...ranged.matchAll(/€\s?(\d[\d,]*)/g),
+          ...ranged.matchAll(/(\d[\d,]*)\s?(?:€|يورو)/g),
         ].map((m) => Number(m[1].replace(/,/g, "")));
 
         for (const n of figures) {

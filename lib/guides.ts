@@ -40,8 +40,8 @@ Smail speaks five languages and is licensed by Morocco's National Office for Tou
 His guiding philosophy: "A guide's job is not to show people the mountain. It is to make them feel it."`,
     routesLed: [
       "toubkal-summit-trek-4day",
-      "mgoun-massif-traverse-7day",
-      "3-day-sahara-desert-tour-from-marrakech",
+      "mgoun-massif-trek",
+      "sahara-3day-marrakech",
     ],
     isFounder: true,
   },
@@ -66,8 +66,8 @@ He leads the cultural and medina tours personally and trains guides in the citie
 Mohamed speaks five languages and holds an official guiding licence from the Moroccan National Office for Tourism.`,
     routesLed: [
       "marrakech-medina-cultural-tour",
-      "fes-medina-full-day-tour",
-      "chefchaouen-and-rif-mountains-day-tour",
+      "marrakech-to-fes-3day",
+      "marrakech-to-chefchaouen-4day",
     ],
     isFounder: true,
   },

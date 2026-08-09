@@ -214,7 +214,15 @@
     },
     "mealBreakfast": "Petit-déjeuner",
     "mealLunch": "Déjeuner",
-    "mealDinner": "Dîner"
+    "mealDinner": "Dîner",
+    "guideBlock": {
+      "namedTitle": "{name} encadre cet itinéraire",
+      "namedBody": "Pas un guide affecté par une agence la semaine de votre arrivée. {name} guide dans ces montagnes depuis {years} ans et a parcouru cet itinéraire précis plus de fois qu'il ne peut les compter — agréé par le ministère du Tourisme marocain, né et grandi dans le Haut Atlas.",
+      "namedLink": "Voir le profil de {name}",
+      "familyTitle": "Encadré par la famille qui a grandi ici",
+      "familyBody": "Votre guide est un guide berbère agréé de la famille Aitidar, pas un indépendant réservé pour la semaine. Plus de {years} ans d'héritage de guidage dans le Haut Atlas, et chaque guide est formé sur un itinéraire avant de le mener.",
+      "familyLink": "Rencontrer les guides"
+    }
   },
   "booking": {
     "pricePerPerson": "Prix par personne",

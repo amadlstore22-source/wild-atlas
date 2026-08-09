@@ -18,6 +18,7 @@ import TourLocationMap from "@/components/map/TourLocationMap";
 import tourRoutes from "@/lib/tour-routes.json";
 import TourNavBar from "@/components/tours/TourNavBar";
 import TourTrustBar from "@/components/tours/TourTrustBar";
+import TourGuideBlock from "@/components/tours/TourGuideBlock";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
@@ -219,6 +220,12 @@ export default async function TourDetailPage({ params }: TourParams) {
               <TourItinerary itinerary={tour.itinerary} dict={dict} />
             </div>
 
+            {/* Placed straight after the day-by-day: the reader has just
+                absorbed the route, so "who actually takes you on it" is the
+                natural next question and the strongest thing we can answer
+                that a copy-paste competitor cannot. */}
+            <TourGuideBlock tour={tour} lang={lang} dict={dict} />
+
             {/* Khatam-star divider marks the shift from the story (overview +
                 day-by-day) to the practical logistics (where you meet, what's
                 included). One divider, one meaningful break — per the motif's
@@ -300,9 +307,16 @@ export default async function TourDetailPage({ params }: TourParams) {
         </div>
       </div>
 
-      <RelatedGuides tour={tour} lang={lang} dict={dict} />
+      {/* The sticky booking bar is fixed over the bottom of the viewport on
+          mobile, and these trailing sections live outside the main column's
+          pb-28 — so without their own bottom padding they scroll underneath
+          it. Matches the bar's height plus breathing room; lg:pb-0 because the
+          bar is lg:hidden. */}
+      <div className="pb-24 lg:pb-0">
+        <RelatedGuides tour={tour} lang={lang} dict={dict} />
 
-      <RelatedTours currentSlug={tour.slug} category={tour.category} lang={lang} dict={dict} />
+        <RelatedTours currentSlug={tour.slug} category={tour.category} lang={lang} dict={dict} />
+      </div>
     </>
   );
 }

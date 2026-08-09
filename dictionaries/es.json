@@ -214,7 +214,15 @@
     },
     "mealBreakfast": "Desayuno",
     "mealLunch": "Almuerzo",
-    "mealDinner": "Cena"
+    "mealDinner": "Cena",
+    "guideBlock": {
+      "namedTitle": "{name} dirige esta ruta",
+      "namedBody": "No es un guía asignado por una agencia la semana en que llegas. {name} lleva {years} años guiando en estas montañas y ha recorrido esta ruta exacta más veces de las que puede contar: autorizado por el Ministerio de Turismo de Marruecos, nacido y criado en el Alto Atlas.",
+      "namedLink": "Ver el perfil de {name}",
+      "familyTitle": "Dirigido por la familia que creció aquí",
+      "familyBody": "Tu guía es un guía bereber autorizado de la familia Aitidar, no un autónomo contratado para la semana. Más de {years} años de herencia guiando en el Alto Atlas, y cada guía se forma en una ruta antes de dirigirla.",
+      "familyLink": "Conoce a los guías"
+    }
   },
   "booking": {
     "pricePerPerson": "Precio por persona",

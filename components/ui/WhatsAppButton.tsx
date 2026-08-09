@@ -44,7 +44,16 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
   useEffect(() => {
     const check = () => {
       const bar = document.querySelector<HTMLElement>("[data-sticky-cta]");
-      setBarPresent(!!bar && bar.offsetParent !== null);
+      if (!bar) {
+        setBarPresent(false);
+        return;
+      }
+      // offsetParent is null for ANY position:fixed element, not only hidden
+      // ones, so it reported "no bar" on the very pages that have one and the
+      // float kept covering the Book button. getComputedStyle answers the
+      // question actually being asked: is this bar displayed at this width?
+      const visible = getComputedStyle(bar).display !== "none";
+      setBarPresent(visible);
     };
     check();
 

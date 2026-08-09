@@ -113,8 +113,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 48,
     rating: 4.9,
-    price: 404,
-    depositAmount: 100,
+    // Real ladder, not the derived curve: a solo trekker pays for the whole
+    // private guide and vehicle, so solo is ~2x the two-person rate rather
+    // than the shallow premium groupPriceTiers() would assume.
+    // EUR 650 / 360 / 320 / 290 / 270 / 260 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 750 },
+      { minPeople: 2, price: 415 },
+      { minPeople: 3, price: 369 },
+      { minPeople: 4, price: 335 },
+      { minPeople: 5, price: 311 },
+      { minPeople: 6, price: 300 },
+    ],
+    price: 750,
+    depositAmount: 165,
     // Real photographs from our own Toubkal departures (in public/gallery),
     // ordered to follow the trek: summit celebration, the Imlil valley start,
     // the ascent, and the summit ridge.
@@ -206,7 +218,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Toubkal Summit Trek 4 Days — Climb North Africa's Highest Peak | Marrakech Eco Tours",
-    seoDescription: "Conquer Jbel Toubkal (4,167 m) with a licensed Berber guide. 4-day summit trek from Marrakech — refuges, all meals, and round-trip transfer included. From $404.",
+    seoDescription: "Conquer Jbel Toubkal (4,167 m) with a licensed Berber guide. 4-day summit trek from Marrakech — refuges, all meals, and round-trip transfer included. From $750.",
     featured: true,
   },
   {
@@ -2622,8 +2634,20 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 34,
     rating: 4.7,
-    price: 223,
-    depositAmount: 59,
+    // Real ladder, not the derived curve: a solo trekker pays for the whole
+    // private guide and vehicle, so solo is ~2x the two-person rate rather
+    // than the shallow premium groupPriceTiers() would assume.
+    // EUR 350 / 195 / 185 / 175 / 165 / 153 at the rate in lib/currency-core.ts.
+    groupPricing: [
+      { minPeople: 1, price: 404 },
+      { minPeople: 2, price: 225 },
+      { minPeople: 3, price: 213 },
+      { minPeople: 4, price: 202 },
+      { minPeople: 5, price: 190 },
+      { minPeople: 6, price: 176 },
+    ],
+    price: 404,
+    depositAmount: 89,
     // Real photos from our Toubkal departures. A different selection from the
     // 4-day tour so the two pages don't look identical — this focuses on the
     // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
@@ -2693,7 +2717,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Mount Toubkal Trek from Marrakech — Express Summit 4,167 m | Marrakech Eco Tours",
-    seoDescription: "Climb Jbel Toubkal (4,167 m) in 2 days from Marrakech — the fastest route to North Africa's highest peak. Refuge night, all meals, licensed Berber guide & transfers. From $223.",
+    seoDescription: "Climb Jbel Toubkal (4,167 m) in 2 days from Marrakech — the fastest route to North Africa's highest peak. Refuge night, all meals, licensed Berber guide & transfers. From $404.",
     featured: true,
   },
   {

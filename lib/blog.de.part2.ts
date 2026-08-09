@@ -3045,8 +3045,9 @@ weit mehr.
 
 Wenn Sie vier Tage haben und der Gipfel nicht das einzige Ziel ist: Die
 [6-Tages-Toubkal-Runde über den Ifni-See](/de/tours/toubkal-circuit-ifni-lake-6day) deckt
-deutlich mehr des Massivs ab, für 570 € — wieder unterproportional mehr, aus demselben Grund
-der Kosten pro Tour.
+deutlich mehr des Massivs ab, ab 790 € pro Person. Diese Route steigt schneller als die
+Tagezahl: Die Runde zeltet, statt durchgehend Hütten zu nutzen, also stehen Maultiere und ein Koch
+für die gesamte Strecke auf der Rechnung statt eines über die Tour verteilten Transfers.
 
 ## Kurzfassung
 
@@ -3066,7 +3067,7 @@ weil Akklimatisierung Sie nach oben bringt.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet die 6-Tages-Toubkal-Runde? (Aufstellung 2026)",
     excerpt:
-      "Die Toubkal-Runde über den Ifni-See kostet bei uns 570 € und in Eigenregie 6.000–9.000 MAD — und die Selbstorganisation ist schwieriger als bei den Gipfelrouten, weil Zeltlager und Maultiere dazukommen.",
+      "Die Toubkal-Runde über den Ifni-See kostet bei uns ab 790 € pro Person und in Eigenregie 6.000–9.000 MAD — und die Selbstorganisation ist schwieriger als bei den Gipfelrouten, weil Zeltlager und Maultiere dazukommen.",
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3090,7 +3091,7 @@ weil Akklimatisierung Sie nach oben bringt.
 Zwei Personen, die die 6-Tages-Toubkal-Runde selbst organisieren, geben typischerweise
 **6.000–9.000 MAD aus (etwa 560–840 € für beide)**. Unsere
 [6-Tages-Runde über den Ifni-See](/de/tours/toubkal-circuit-ifni-lake-6day) kostet
-**570 € pro Person**.
+**ab 790 € pro Person**.
 
 Der Abstand zwischen Selbstorganisation und Buchung ist auf dieser Route kleiner als bei den
 Gipfeltreks, und der Grund ist Logistik, nicht Preisgestaltung.
@@ -3159,7 +3160,7 @@ ist — die Verteilung der Kosten pro Tour auf mehr Tage fängt den Unterschied 
 
 ## Wohin das Geld fließt
 
-Plattformprovisionen liegen bei **25–40 %**. Bei einem Trek für 570 € sind das bis zu 248 €,
+Plattformprovisionen liegen bei **25–40 %**. Bei einem Trek für 790 € sind das bis zu 316 €,
 die Marokko verlassen — mehr als das gesamte Führerhonorar für die Woche. Direkt bei einem
 marokkanischen Veranstalter zu buchen hält das bei den Menschen, die Ihr Material über den
 Pass tragen.

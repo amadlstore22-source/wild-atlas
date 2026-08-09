@@ -3042,8 +3042,9 @@ seconda opzione fa risparmiare molto di più.
 
 Se hai quattro giorni e la vetta non è l'unico obiettivo, il
 [circuito del Toubkal di 6 giorni via lago Ifni](/it/tours/toubkal-circuit-ifni-lake-6day)
-copre molto di più del massiccio per 570 €: di nuovo, meno che proporzionalmente di più, per
-la stessa ragione dei costi per viaggio.
+copre molto di più del massiccio, da 790 € a persona. Questo però sale più in fretta del numero
+di giorni: il circuito campeggia invece di incatenare rifugi, quindi muli e un cuoco restano sul
+conto per tutto il percorso, anziché un transfer distribuito lungo il tragitto.
 
 ## In breve
 
@@ -3063,7 +3064,7 @@ di più, ma perché è l'acclimatamento a portarti in cima.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa il circuito del Toubkal di 6 giorni? (Dettaglio 2026)",
     excerpt:
-      "Il circuito del Toubkal via lago Ifni costa 570 € con noi e 6.000-9.000 MAD organizzandolo da soli, e la versione fai-da-te è più difficile delle vie di vetta perché entrano in gioco campo e muli.",
+      "Il circuito del Toubkal via lago Ifni costa da 790 € a persona con noi e 6.000-9.000 MAD organizzandolo da soli, e la versione fai-da-te è più difficile delle vie di vetta perché entrano in gioco campo e muli.",
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3073,7 +3074,7 @@ di più, ma perché è l'acclimatamento a portarti in cima.
     tags: ["prezzo circuito Toubkal", "trek lago Ifni", "Toubkal 6 giorni", "prezzo trekking Alto Atlante", "massiccio del Toubkal"],
     seoTitle: "Prezzo del circuito del Toubkal di 6 giorni 2026 — lago Ifni",
     seoDescription:
-      "Quanto costa il circuito del Toubkal di 6 giorni via lago Ifni nel 2026: guida, muli, rifugi, gîte, campo e tasse del parco dettagliati, e confronto con un pacchetto da 570 €.",
+      "Quanto costa il circuito del Toubkal di 6 giorni via lago Ifni nel 2026: guida, muli, rifugi, gîte, campo e tasse del parco dettagliati, e confronto con un pacchetto da 790 €.",
     relatedTours: ["toubkal-circuit-ifni-lake-6day", "toubkal-summit-trek-4day", "mgoun-massif-trek"],
     faq: [
       { q: "Quanto costa il circuito del Toubkal di 6 giorni?", a: "Da soli, due persone spendono in genere 6.000-9.000 MAD in totale (circa 560-840 € per la coppia) tra sei giorni di guida, cinque notti di alloggio misto, muli per il materiale da campo, tasse del parco e transfer. Il nostro [circuito del Toubkal di 6 giorni](/it/tours/toubkal-circuit-ifni-lake-6day) costa 790 € a persona con tutto incluso." },
@@ -3087,7 +3088,7 @@ di più, ma perché è l'acclimatamento a portarti in cima.
 Due persone che organizzano da sole il circuito del Toubkal di 6 giorni spendono in genere
 **6.000-9.000 MAD (circa 560-840 € per la coppia)**. Il nostro
 [circuito di 6 giorni via lago Ifni](/it/tours/toubkal-circuit-ifni-lake-6day) costa
-**570 € a persona**.
+**da 790 € a persona**.
 
 Il divario tra organizzarsi da soli e prenotare si restringe su questo itinerario rispetto ai
 trek di vetta, e la ragione è logistica più che di prezzo.
@@ -3157,7 +3158,7 @@ pesante: la distribuzione dei costi per viaggio su più giorni assorbe la differ
 
 ## Dove finiscono i soldi
 
-La commissione delle piattaforme va dal **25 al 40 %**. Su un trek da 570 € sono fino a
+La commissione delle piattaforme va dal **25 al 40 %**. Su un trek da 790 € sono fino a
 248 € che escono dal Marocco, più dell'intero onorario della guida per la settimana.
 Prenotare in diretta con qualsiasi operatore marocchino mantiene quella somma alle persone
 che portano il tuo materiale oltre il colle.

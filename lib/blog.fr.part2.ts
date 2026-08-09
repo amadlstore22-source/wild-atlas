@@ -3049,8 +3049,9 @@ seconde option rapporte bien davantage.
 
 Si vous disposez de quatre jours et que le sommet n'est pas le seul objectif, le
 [circuit du Toubkal en 6 jours par le lac d'Ifni](/fr/tours/toubkal-circuit-ifni-lake-6day)
-couvre bien davantage du massif pour 570 € — là encore, moins que proportionnellement plus,
-pour la même raison de coûts par voyage.
+couvre bien davantage du massif, à partir de 790 € par personne. Celui-ci augmente plus vite
+que le nombre de jours : le circuit bivouaque au lieu d'enchaîner les refuges, donc les mules et
+un cuisinier sont sur la facture du début à la fin, au lieu d'un transfert réparti sur le trajet.
 
 ## En résumé
 
@@ -3070,7 +3071,7 @@ coûte plus cher, mais parce que l'acclimatation est ce qui vous mène au sommet
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Combien coûte le circuit du Toubkal en 6 jours ? (Détail 2026)",
     excerpt:
-      "Le circuit du Toubkal par le lac d'Ifni est à 570 € chez nous et 6 000 à 9 000 MAD à organiser soi-même — et la version autonome est plus difficile que les voies du sommet, car le bivouac et les mules entrent dans la facture.",
+      "Le circuit du Toubkal par le lac d'Ifni est à partir de 790 € par personne chez nous et 6 000 à 9 000 MAD à organiser soi-même — et la version autonome est plus difficile que les voies du sommet, car le bivouac et les mules entrent dans la facture.",
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3080,7 +3081,7 @@ coûte plus cher, mais parce que l'acclimatation est ce qui vous mène au sommet
     tags: ["prix circuit Toubkal", "trek lac d'Ifni", "Toubkal 6 jours", "prix trekking Haut Atlas", "massif du Toubkal"],
     seoTitle: "Prix du circuit du Toubkal en 6 jours 2026 — lac d'Ifni",
     seoDescription:
-      "Ce que coûte le circuit du Toubkal en 6 jours par le lac d'Ifni en 2026 : guide, mules, refuges, gîtes, bivouac et frais de parc détaillés, et comparaison avec un forfait à 570 €.",
+      "Ce que coûte le circuit du Toubkal en 6 jours par le lac d'Ifni en 2026 : guide, mules, refuges, gîtes, bivouac et frais de parc détaillés, et comparaison avec un forfait à partir de 790 €.",
     relatedTours: ["toubkal-circuit-ifni-lake-6day", "toubkal-summit-trek-4day", "mgoun-massif-trek"],
     faq: [
       { q: "Combien coûte le circuit du Toubkal en 6 jours ?", a: "En autonomie, deux personnes dépensent généralement 6 000 à 9 000 MAD au total (environ 560–840 € pour le duo) sur six jours d'encadrement, cinq nuits d'hébergement varié, des mules pour le matériel de bivouac, les frais de parc et les transferts. Notre [circuit du Toubkal en 6 jours](/fr/tours/toubkal-circuit-ifni-lake-6day) est à 790 € par personne, tout compris." },
@@ -3094,7 +3095,7 @@ coûte plus cher, mais parce que l'acclimatation est ce qui vous mène au sommet
 Deux personnes organisant elles-mêmes le circuit du Toubkal en 6 jours dépensent
 généralement **6 000 à 9 000 MAD (environ 560–840 € pour le duo)**. Notre
 [circuit en 6 jours par le lac d'Ifni](/fr/tours/toubkal-circuit-ifni-lake-6day) est à
-**570 € par personne**.
+**à partir de 790 € par personne**.
 
 L'écart entre l'autonomie et la réservation se resserre sur cet itinéraire par rapport aux
 treks du sommet, et la raison tient à la logistique plutôt qu'aux tarifs.
@@ -3164,7 +3165,7 @@ répartition des coûts par voyage sur plus de jours absorbe la différence.
 
 ## Où va l'argent
 
-La commission des plateformes va de **25 à 40 %**. Sur un trek à 570 €, cela représente
+La commission des plateformes va de **25 à 40 %**. Sur un trek à 790 €, cela représente
 jusqu'à 248 € qui quittent le Maroc — plus que l'ensemble des honoraires du guide pour la
 semaine. Réserver en direct auprès de n'importe quel opérateur marocain garde cette somme
 chez les gens qui portent votre matériel par-dessus le col.

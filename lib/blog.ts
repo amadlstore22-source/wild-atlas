@@ -5067,8 +5067,8 @@ Worth budgeting separately:
 
 ## Where the money goes
 
-Booking platforms charge operators **25–40% commission**. On a €193 trek that is up to
-€84 leaving Morocco entirely — money that never reaches the guide, the muleteer, the
+Booking platforms charge operators **25–40% commission**. On a €195 trek that is up to
+€78 leaving Morocco entirely — money that never reaches the guide, the muleteer, the
 refuge, or the family running the trip.
 
 That is the honest argument for booking direct with any Moroccan operator, not only us.
@@ -5106,7 +5106,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
     faq: [
       { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €360 per person for two, €260 at six, or €650 solo — all of it included." },
       { q: "Why is the 4-day not double the price of the 2-day?", a: "Because the largest costs are charged per trip rather than per day. The Marrakech transfer, the mule hire and a share of the guide's engagement are the same whether you walk for two days or four. Only the daily guide rate, the refuge nights and the meals scale with duration — which is why €195 becomes €360 rather than €390." },
-      { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €157 buys a materially higher chance of standing on the summit." },
+      { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €165 buys a materially higher chance of standing on the summit." },
       { q: "What extra costs should I budget for on a 4-day trek?", a: "Travel insurance covering trekking to altitude, personal equipment, and tips of 10–15% split between the guide and muleteer. Between November and March add crampons and ice axe rental at roughly 100–150 MAD per day. Everything else — refuges, all meals, mule, park fees and transfers — is included in our package." },
     ],
     content: `
@@ -5578,7 +5578,7 @@ better value only if your constraint is time rather than money.
 
 ## The 4-day to Merzouga
 
-€386 and the only Agadir route that reaches **Erg Chebbi**. Three nights: a hotel in the
+From €482 solo, €319 each at four, and the only Agadir route that reaches **Erg Chebbi**. Three nights: a hotel in the
 Dades Valley, a Berber camp at Erg Chebbi, and a hotel in Ouarzazate. Sunset and sunrise
 camel treks, mineral water and mint tea throughout, and a bilingual driver-guide.
 
@@ -5608,7 +5608,7 @@ save you a 3-hour transfer each way. We compare the two bases in
 
 ## Where the money goes
 
-Platform commission runs **25–40%**. On a €317 trip that is up to €138 leaving Morocco —
+Platform commission runs **25–40%**. On a €482 trip that is up to €193 leaving Morocco —
 more than the camp and the camel handlers earn between them. Booking direct with any
 Moroccan operator keeps it with the people running the camp.
 
@@ -6188,13 +6188,13 @@ transfers — is in the €235.
     tags: ["Morocco tour group discount", "private tour price per person", "Morocco tour cost per person", "group size pricing", "desert tour price 2 people", "Morocco travel budget"],
     seoTitle: "Morocco Tour Prices by Group Size — Full 2026 Table",
     seoDescription:
-      "Why a Morocco private tour costs €711 for one person and €392 each for two. The full per-person price table by group size, and the reason the drop is so steep.",
+      "Why a Morocco private tour costs €1,066 for one person and €490 each for two. The full per-person price table by group size, and the reason the drop is so steep.",
     faq: [
-      { q: "Why is a Morocco private tour so much cheaper for two people than for one?", a: "Because a private tour is priced per vehicle, not per seat. The 4x4, the driver, the fuel and the nights of accommodation cost almost the same whether one person travels or two. On our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the solo rate is €1,066 and the rate for two is €490 each — a 45% drop, because the second traveller adds only their own meals and bed, not a second vehicle." },
-      { q: "How much do I save by travelling with four people instead of two?", a: "On the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the per-person price falls from €490 at two people to €336 at four — about 26% each. The saving is real but much smaller than the one-to-two drop, because by four people the fixed vehicle cost has already been spread thin and you are mostly adding per-head costs: meals, tent beds and camel hire." },
+      { q: "Why is a Morocco private tour so much cheaper for two people than for one?", a: "Because a private tour is priced per vehicle, not per seat. The 4x4, the driver, the fuel and the nights of accommodation cost almost the same whether one person travels or two. On our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the solo rate is €1,066 and the rate for two is €490 each — a 54% drop, because the second traveller adds only their own meals and bed, not a second vehicle." },
+      { q: "How much do I save by travelling with four people instead of two?", a: "On the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the per-person price falls from €490 at two people to €336 at four — about 31% each. The saving is real but much smaller than the one-to-two drop, because by four people the fixed vehicle cost has already been spread thin and you are mostly adding per-head costs: meals, tent beds and camel hire." },
       { q: "Do group discounts apply to shared desert tours as well?", a: "Not with other operators, and it is worth understanding why. A shared seat is one place in a minibus that runs whether you book or not, so there is no vehicle cost to divide and six seats cost six times one. Group pricing only exists where a vehicle and guide are being shared out. Every tour we run is private, so all of ours carry a tier table — including the [2-day Zagora trip](/en/tours/zagora-2day-marrakech)." },
       { q: "Is there a group size where the price stops falling?", a: "Yes. Past six people the per-person price flattens, and past eight it barely moves at all. At that point a second vehicle or a larger minibus is needed, so the fixed cost you were spreading starts to duplicate. Our published tiers run to fourteen people, but the meaningful savings are all in the first six." },
-      { q: "Do day tours discount as steeply as multi-day tours?", a: "No. A [Marrakech medina tour](/en/tours/marrakech-medina-cultural-tour) is €41 solo and €38 at six people — roughly 7%, because a walking tour has almost no fixed cost to divide. You are paying for a licensed guide’s day, and that price is nearly the same whoever turns up. Multi-day tours with a vehicle and accommodation discount several times harder." },
+      { q: "Do day tours discount as steeply as multi-day tours?", a: "They discount steeply from one to two, then flatten fast. A [Marrakech medina tour](/en/tours/marrakech-medina-cultural-tour) is €73 solo and €41 each for two, but only €31 at six — so almost the whole saving arrives with the second person. A guide’s day is the cost being divided, and two people already split it. Multi-day tours keep falling further because a vehicle, fuel and accommodation are being spread as well." },
     ],
     content: `
 ## The short answer
@@ -6207,15 +6207,15 @@ Here is what that looks like on our [3-day Sahara tour](/en/tours/sahara-3day-ma
 
 | Travellers | Price per person | Group total | Saving vs solo |
 |---|---|---|---|
-| 1 | €711 | €711 | — |
-| 2 | €392 | €784 | 45% |
-| 3 | €328 | €984 | 54% |
-| 4 | €292 | €1,168 | 59% |
-| 5 | €266 | €1,330 | 63% |
-| 6 | €238 | €1,428 | 67% |
+| 1 | €1,066 | €1,066 | — |
+| 2 | €490 | €980 | 54% |
+| 3 | €394 | €1,182 | 63% |
+| 4 | €336 | €1,344 | 68% |
+| 5 | €293 | €1,465 | 73% |
+| 6 | €253 | €1,518 | 76% |
 
-Notice the shape. The drop from one to two is **45%**. The drop from five to six is
-**11%**. That curve is not a marketing decision — it is arithmetic, and it is worth
+Notice the shape. The drop from one to two is **54%**. The drop from five to six is
+**14%**. That curve is not a marketing decision — it is arithmetic, and it is worth
 understanding before you compare quotes.
 
 ## Why the first passenger carries the whole vehicle
@@ -6242,16 +6242,16 @@ cliff, and every honest operator’s table has the same shape.
 ## What this means when you compare operators
 
 Most Moroccan operators publish a solo price and then a "from" price, and the two
-are calculated at different group sizes. A €295 headline is very often the
-**four-person** rate. Ours at four people is €292.
+are calculated at different group sizes. A €339 headline is very often the
+**four-person** rate. Ours at four people is €336.
 
 So when you compare two quotes, check three things:
 
 1. **How many people is the price quoted for?** This is the single most common
    source of confusion, and the reason two quotes can look 50% apart while
    describing the same trip.
-2. **Is it private or shared?** A €69 shared seat and a €711 private tour are not
-   competing products, whatever the search results suggest.
+2. **Is it private or shared?** A €69 shared seat and a €1,066 solo private tour are
+   not competing products, whatever the search results suggest.
 3. **What is excluded?** Lunches and tips sit outside the price almost everywhere,
    including here.
 
@@ -6273,24 +6273,27 @@ transfer to Imlil and back, but no vehicle running for three days.
 
 | Travellers | Price per person |
 |---|---|
-| 1 | €235 |
-| 2 | €218 |
-| 4 | €197 |
-| 6 | €185 |
+| 1 | €416 |
+| 2 | €235 |
+| 4 | €192 |
+| 6 | €169 |
 
-Solo to six is a **21%** saving on the Toubkal trek against **67%** on the desert
-tour. The same principle, a very different magnitude — because a mountain
+Solo to six is a **56%** saving on the Toubkal trek against **76%** on the desert
+tour. The same principle, a smaller magnitude — because a mountain
 guide’s fee is mostly a per-day cost that does not care how many people are
-walking behind him.
+walking behind him, so there is less fixed cost to spread than a 1,100 km vehicle
+hire carries.
 
-## Day tours barely move at all
+## Day tours drop once, then stop
 
 A [Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour) is
-**€41** solo and **€38** at six people. Three euros.
+**€73** solo, **€41** each for two and **€31** at six.
 
-There is no vehicle, no accommodation and no fuel — only a licensed guide’s
-afternoon. Nothing to divide means nothing to discount, and an operator promising a
-large group discount on a walking tour is discounting something else.
+The shape is different from the desert tour. Almost the whole saving arrives with
+the second person, and the next four barely change anything. What is being divided
+is a licensed guide’s afternoon — one cost, split once. There is no vehicle, no
+fuel and no accommodation to keep spreading, which is why the curve flattens
+immediately instead of falling all the way to six.
 
 ## Shared seats elsewhere have no group pricing at all
 
@@ -6535,17 +6538,24 @@ Marrakech→Merzouga route over the same three days:
 
 | Travellers | Ours | A comparable operator, direct |
 |---|---|---|
-| 1 | €711 | €790 |
-| 2 | €392 each | €435 each |
-| 4 | €292 each | €325 each |
-| 6 | €238 each | €265 each |
+| 1 | €1,066 | €790 |
+| 2 | €490 each | €435 each |
+| 4 | €336 each | €325 each |
+| 6 | €253 each | €265 each |
 
-Both of those are **direct** prices. Neither includes a reseller’s commission. The
-gap between them is ordinary competition — roughly 10% — and it is a fraction of
-what a commission layer adds on top of either.
+Both of those are **direct** prices, and neither includes a reseller’s commission.
+We are not the cheapest of the two — at most group sizes we sit a little above
+them, and only at six people do we come in under. We would rather show that than
+hide it.
 
-That is the point worth taking away: the difference between two direct operators is
-small. The difference between direct and resold is not.
+The spread between two direct operators is ordinary competition, and it is
+narrow: a few percent either way, reflecting vehicle age, guide experience and
+what is actually included. A commission layer is 20–30% on top of whichever you
+pick.
+
+That is the point worth taking away: the difference between two direct operators
+is small, and you should choose between them on what you get. The difference
+between direct and resold is not small, and it buys you nothing extra at all.
 
 ## Why operators list on platforms anyway
 
@@ -6559,7 +6569,7 @@ something real:
 
 For a traveller who cannot verify anyone and is booking from six thousand
 kilometres away, that is worth something. The question is whether it is worth
-20–30% of a multi-day trip, and for most people booking a €1,168 family desert
+20–30% of a multi-day trip, and for most people booking a €1,592 family desert
 tour, it is not.
 
 ## What booking direct actually changes
@@ -6622,7 +6632,7 @@ pay a markup on one you have checked.
 Roughly: **the longer and more expensive the trip, the more booking direct is
 worth.**
 
-- A €41 [medina walk](/en/tours/marrakech-medina-cultural-tour): the commission is
+- A €73 [medina walk](/en/tours/marrakech-medina-cultural-tour): the commission is
   a couple of euros. Book wherever is convenient.
 - A €77 [2-day Zagora trip](/en/tours/zagora-2day-marrakech): still small money,
   but you gain a real person to ask about pickup.

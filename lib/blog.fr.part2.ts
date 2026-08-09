@@ -2972,7 +2972,7 @@ Les deux sont légitimes. Choisissez selon le temps que vous voulez consacrer à
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Combien coûte un trek de 4 jours au Toubkal ? (Détail 2026)",
     excerpt:
-      "Le trek du Toubkal en 4 jours coûte 350 € chez nous et 4 200 à 6 000 MAD à organiser soi-même. Voici le détail, et pourquoi les deux jours supplémentaires coûtent bien moins que le double.",
+      "Le trek du Toubkal en 4 jours coûte à partir de 360 € chez nous et 4 200 à 6 000 MAD à organiser soi-même. Voici le détail, et pourquoi les deux jours supplémentaires coûtent bien moins que le double.",
     heroImage: "/gallery/toubkal-group-snow-ascent.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -2982,7 +2982,7 @@ Les deux sont légitimes. Choisissez selon le temps que vous voulez consacrer à
     tags: ["prix Toubkal 4 jours", "coût trek Toubkal", "acclimatation Toubkal", "prix trekking Haut Atlas", "Imlil"],
     seoTitle: "Prix d'un trek de 4 jours au Toubkal en 2026 — guide détaillé",
     seoDescription:
-      "Ce que coûte un trek de 4 jours au Toubkal en 2026 : guide, refuges, mule, frais de parc et transfert détaillés en dirhams, et comparaison avec le 2 jours et un forfait à 350 €.",
+      "Ce que coûte un trek de 4 jours au Toubkal en 2026 : guide, refuges, mule, frais de parc et transfert détaillés en dirhams, et comparaison avec le 2 jours et un forfait à partir de 360 €.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Combien coûte un trek de 4 jours au Toubkal ?", a: "En autonomie, deux personnes dépensent généralement 4 200 à 6 000 MAD au total (environ 390–560 € pour le duo) sur quatre jours d'honoraires de guide, trois nuits en refuge en demi-pension, la mule, les frais de parc et le transfert depuis Marrakech. Notre [trek du Toubkal en 4 jours](/fr/tours/toubkal-summit-trek-4day) est à 360 € par personne, tout compris." },
@@ -3071,7 +3071,7 @@ un cuisinier sont sur la facture du début à la fin, au lieu d'un transfert ré
 ## En résumé
 
 S'organiser soi-même coûte environ 4 200 à 6 000 MAD à un duo et une journée
-d'organisation à Imlil. Notre forfait est à 350 € par personne avec le guide, trois nuits
+d'organisation à Imlil. Notre forfait est à partir de 360 € par personne avec le guide, trois nuits
 en refuge, tous les repas, la mule, les frais de parc et les deux transferts inclus.
 
 Le 4 jours est la version que nous recommandons à la plupart des gens, non parce qu'elle

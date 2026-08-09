@@ -2966,7 +2966,7 @@ organizzare.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un trek di 4 giorni al Toubkal? (Dettaglio 2026)",
     excerpt:
-      "Il trek di 4 giorni al Toubkal costa 350 € con noi e 4.200-6.000 MAD organizzandolo da soli. Ecco il dettaglio, e perché i due giorni in più costano molto meno del doppio.",
+      "Il trek di 4 giorni al Toubkal costa da 360 € con noi e 4.200-6.000 MAD organizzandolo da soli. Ecco il dettaglio, e perché i due giorni in più costano molto meno del doppio.",
     heroImage: "/gallery/toubkal-group-snow-ascent.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -2976,7 +2976,7 @@ organizzare.
     tags: ["prezzo Toubkal 4 giorni", "costo trek Toubkal", "acclimatamento Toubkal", "prezzo trekking Alto Atlante", "Imlil"],
     seoTitle: "Prezzo di un trek di 4 giorni al Toubkal nel 2026 — guida dettagliata",
     seoDescription:
-      "Quanto costa un trek di 4 giorni al Toubkal nel 2026: guida, rifugi, mulo, tasse del parco e transfer dettagliati in dirham, e confronto con il 2 giorni e un pacchetto da 350 €.",
+      "Quanto costa un trek di 4 giorni al Toubkal nel 2026: guida, rifugi, mulo, tasse del parco e transfer dettagliati in dirham, e confronto con il 2 giorni e un pacchetto da 360 €.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Quanto costa un trek di 4 giorni al Toubkal?", a: "Da soli, due persone spendono in genere 4.200-6.000 MAD in totale (circa 390-560 € per la coppia) tra quattro giorni di guida, tre notti in rifugio in mezza pensione, il mulo, le tasse del parco e il transfer da Marrakech. Il nostro [trek di 4 giorni al Toubkal](/it/tours/toubkal-summit-trek-4day) costa 360 € a persona con tutto incluso." },
@@ -3012,7 +3012,7 @@ giorni.
 
 ## Perché quattro giorni non sono due volte due giorni
 
-Sorprende, quindi diciamolo chiaramente. Il nostro 2 giorni costa da 195 € e il 4 giorni 350 €:
+Sorprende, quindi diciamolo chiaramente. Il nostro 2 giorni costa da 195 € e il 4 giorni 360 €:
 165 € in più, non 195 € in più.
 
 Il motivo è che il transfer da Marrakech, l'ingaggio del mulo e i costi fissi di
@@ -3064,7 +3064,7 @@ conto per tutto il percorso, anziché un transfer distribuito lungo il tragitto.
 ## In breve
 
 Organizzarsi da soli costa a una coppia circa 4.200-6.000 MAD e una giornata di pratiche a
-Imlil. Il nostro pacchetto costa 350 € a persona con guida, tre notti in rifugio, tutti i
+Imlil. Il nostro pacchetto costa da 360 € a persona con guida, tre notti in rifugio, tutti i
 pasti, il mulo, le tasse del parco ed entrambi i transfer inclusi.
 
 Il 4 giorni è la versione che consigliamo alla maggior parte delle persone, non perché costi

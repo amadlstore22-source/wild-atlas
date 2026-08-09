@@ -2970,7 +2970,7 @@ verbringen wollen.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet ein 4-Tages-Trek zum Toubkal? (Aufstellung 2026)",
     excerpt:
-      "Der 4-Tages-Trek kostet bei uns 350 € und in Eigenregie 4.200–6.000 MAD. Hier die Aufschlüsselung — und warum die zwei zusätzlichen Tage weit weniger als das Doppelte kosten.",
+      "Der 4-Tages-Trek kostet bei uns ab 360 € und in Eigenregie 4.200–6.000 MAD. Hier die Aufschlüsselung — und warum die zwei zusätzlichen Tage weit weniger als das Doppelte kosten.",
     heroImage: "/gallery/toubkal-group-snow-ascent.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -3067,7 +3067,7 @@ für die gesamte Strecke auf der Rechnung statt eines über die Tour verteilten 
 ## Kurzfassung
 
 Selbst organisieren kostet ein Paar rund 4.200–6.000 MAD plus einen Tag Organisation in
-Imlil. Unser Paket kostet 350 € pro Person mit Führer, drei Hüttennächten, allen Mahlzeiten,
+Imlil. Unser Paket kostet ab 360 € pro Person mit Führer, drei Hüttennächten, allen Mahlzeiten,
 Maultier, Parkgebühren und beiden Transfers.
 
 Den 4-Tages-Trek empfehlen wir den meisten Menschen — nicht weil er mehr kostet, sondern

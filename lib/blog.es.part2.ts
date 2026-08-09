@@ -2969,7 +2969,7 @@ organizar.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "¿Cuánto cuesta un trek de 4 días al Toubkal? (Desglose 2026)",
     excerpt:
-      "El trek de 4 días al Toubkal cuesta 350 € con nosotros y entre 4.200 y 6.000 MAD organizándolo tú. Este es el desglose, y por qué los dos días extra cuestan mucho menos del doble.",
+      "El trek de 4 días al Toubkal cuesta desde 360 € con nosotros y entre 4.200 y 6.000 MAD organizándolo tú. Este es el desglose, y por qué los dos días extra cuestan mucho menos del doble.",
     heroImage: "/gallery/toubkal-group-snow-ascent.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -2979,7 +2979,7 @@ organizar.
     tags: ["precio Toubkal 4 días", "coste trek Toubkal", "aclimatación Toubkal", "precio trekking Alto Atlas", "Imlil"],
     seoTitle: "Precio de un trek de 4 días al Toubkal en 2026 — guía detallada",
     seoDescription:
-      "Lo que cuesta un trek de 4 días al Toubkal en 2026: guía, refugios, mula, tasas del parque y traslado desglosados en dírhams, y comparación con el de 2 días y un paquete de 350 €.",
+      "Lo que cuesta un trek de 4 días al Toubkal en 2026: guía, refugios, mula, tasas del parque y traslado desglosados en dírhams, y comparación con el de 2 días y un paquete desde 360 €.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "¿Cuánto cuesta un trek de 4 días al Toubkal?", a: "Por tu cuenta, dos personas suelen gastar entre 4.200 y 6.000 MAD en total (unos 390–560 € para la pareja) entre cuatro días de guía, tres noches de refugio en media pensión, la mula, las tasas del parque y el traslado desde Marrakech. Nuestro [trek de 4 días al Toubkal](/es/tours/toubkal-summit-trek-4day) cuesta 360 € por persona con todo incluido." },
@@ -3066,7 +3066,7 @@ la factura durante toda la ruta, en lugar de un traslado repartido a lo largo de
 ## En resumen
 
 Organizarlo por tu cuenta le cuesta a una pareja unos 4.200–6.000 MAD y un día de gestiones
-en Imlil. Nuestro paquete cuesta 350 € por persona con el guía, tres noches de refugio,
+en Imlil. Nuestro paquete cuesta desde 360 € por persona con el guía, tres noches de refugio,
 todas las comidas, la mula, las tasas del parque y ambos traslados incluidos.
 
 El de 4 días es la versión que recomendamos a la mayoría, no porque cueste más, sino porque

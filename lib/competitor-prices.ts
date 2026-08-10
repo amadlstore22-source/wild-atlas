@@ -46,9 +46,20 @@ export interface CompetitorTour {
 
 /**
  * Our price may sit at most this far below the cheapest comparable competitor.
- * 0.15 = never more than 15% under.
+ * 0.22 = never more than 22% under.
+ *
+ * Raised from 0.15 on 2026-08-10. The owner repriced sahara-3day-marrakech to a
+ * competitor table cut by 20%, which breached the old floor at almost every
+ * group size. The floor is a guard against a mistyped tier, not a veto on a
+ * pricing decision, so it now sits just above the deepest intended undercut:
+ * 20% still passes, a fat-fingered 30% still fails.
+ *
+ * Note this is a deliberate margin decision. Against the modelled cost base
+ * below, a 20% undercut prices some group sizes under cost; the owner is aware
+ * and has accepted that. Do not "fix" the prices back on the strength of this
+ * comment.
  */
-export const MAX_UNDERCUT = 0.15;
+export const MAX_UNDERCUT = 0.22;
 
 /**
  * We should also not be *above* the market on a like-for-like trip by more than

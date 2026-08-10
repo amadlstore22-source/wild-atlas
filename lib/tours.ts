@@ -238,27 +238,43 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 124,
     rating: 4.8,
-    // Stored in USD (see lib/currency-core.ts). Benchmarked against
-    // marrakech-desert-trips.com's published 3-day Merzouga table
-    // (verified Aug 2026) and set 10% under it at every bracket.
-    price: 1230,
-    depositAmount: 271,
+    // Stored in USD (see lib/currency-core.ts) but SET FROM AN EUR LADDER:
+    // a benchmarked competitor table undercut by 20% at every published
+    // bracket, with the solo rate held at €690 rather than the −20% figure.
+    // Each value is EUR / 0.86693 rounded to the dollar, and every tier
+    // round-trips back to its exact euro figure at the current rate. If
+    // RATES.EUR is revised these need recomputing, or the displayed ladder
+    // drifts off the quoted one.
+    price: 796,
+    depositAmount: 175,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
     // better off booking a phantom fourth. Per-size tiers never invert.
     // The 1→2 drop is steep because the vehicle and driver-guide cost the
     // same either way; only camp, meals and fees scale per head.
+    //
+    // 8, 9, 11, 12 and 13 are interpolated rather than taken from the source
+    // table, which publishes flat 7–9 / 10–13 / 14–17 bands. Those bands
+    // invert: at −20% a party of 9 totals €1,764 while 10 totals €1,720, so
+    // nine travellers save by booking a phantom tenth — the exact fault this
+    // per-size ladder exists to avoid. Filling the gaps keeps the total
+    // strictly rising across 1–17.
     groupPricing: [
-      { minPeople: 1, price: 1230 },
-      { minPeople: 2, price: 565 },
-      { minPeople: 3, price: 454 },
-      { minPeople: 4, price: 388 },
-      { minPeople: 5, price: 338 },
-      { minPeople: 6, price: 292 },
-      { minPeople: 7, price: 269 },
-      { minPeople: 10, price: 243 },
-      { minPeople: 14, price: 226 },
+      { minPeople: 1, price: 796 },
+      { minPeople: 2, price: 401 },
+      { minPeople: 3, price: 337 },
+      { minPeople: 4, price: 300 },
+      { minPeople: 5, price: 272 },
+      { minPeople: 6, price: 245 },
+      { minPeople: 7, price: 226 },
+      { minPeople: 8, price: 215 },
+      { minPeople: 9, price: 205 },
+      { minPeople: 10, price: 198 },
+      { minPeople: 11, price: 194 },
+      { minPeople: 12, price: 189 },
+      { minPeople: 13, price: 185 },
+      { minPeople: 14, price: 180 },
     ],
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -332,7 +348,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €1,066 for one traveller, €490 each for two, €394 for three, and less again for larger groups.",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €690 for one traveller, €348 each for two, €292 for three, and €212 each from six people.",
     featured: true,
   },
   {

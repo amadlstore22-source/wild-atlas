@@ -152,26 +152,28 @@ describe("3-day Sahara tour pricing", () => {
     expect(tour).toBeDefined();
   });
 
-  it("shows €1,066 per person for a solo traveller", () => {
+  it("shows €690 per person for a solo traveller", () => {
     // Prices are stored in USD and rendered in EUR (lib/currency-core).
-    // Was €711 while we undercut the market; the operator moved to a premium
-    // position on 2026-08-09 (+50% solo), so solo now sits above the
-    // competitor's published €790 rather than under it.
-    expect(priceIn(perPersonPrice(tour, 1), "EUR")).toBe(1066);
+    // History: €711 undercutting the market, then €1,066 on a premium
+    // position (2026-08-09), now €690 — the owner's quoted ladder, set from a
+    // competitor table cut by 20% with solo held at €690 rather than the
+    // −20% figure. The USD tiers are chosen so each one round-trips back to
+    // its exact euro figure at the current rate.
+    expect(priceIn(perPersonPrice(tour, 1), "EUR")).toBe(690);
   });
 
-  it("keeps the premium over the competitor within the intended band", () => {
-    // marrakech-desert-trips.com's published table, verified Aug 2026.
-    // We used to sit ~10% UNDER these figures. Since the 2026-08-09 uplift we
-    // sit above them, steepest at solo and tapering with group size. The test
-    // now guards that band, so a mistyped tier or a rival price cut still
-    // surfaces instead of passing silently.
+  it("stays below the competitor at every benchmarked group size", () => {
+    // marrakech-desert-trips.com's published table, verified Aug 2026. The
+    // ladder is that table cut by 20%, except solo which is held at €690
+    // (13% under their €790 rather than 20%). Guarding the band in both
+    // directions still catches a mistyped tier, and it catches a rival price
+    // cut that would leave us above the market without our data changing.
     const theirs: Record<number, number> = { 1: 790, 2: 435, 4: 325, 6: 265 };
     for (const [pax, their] of Object.entries(theirs)) {
       const ours = priceIn(perPersonPrice(tour, Number(pax)), "EUR");
-      const premium = ours / their - 1;
-      expect(premium, `${pax} pax: €${ours} vs €${their}`).toBeGreaterThan(-0.05);
-      expect(premium, `${pax} pax: €${ours} vs €${their}`).toBeLessThan(0.4);
+      const undercut = 1 - ours / their;
+      expect(undercut, `${pax} pax: €${ours} vs €${their}`).toBeGreaterThan(0.1);
+      expect(undercut, `${pax} pax: €${ours} vs €${their}`).toBeLessThan(0.25);
     }
   });
 
@@ -218,9 +220,9 @@ describe("3-day Sahara tour pricing", () => {
   it("keeps getting cheaper per person for larger groups", () => {
     const per = [1, 2, 3, 4, 6].map((n) => priceIn(perPersonPrice(tour, n), "EUR"));
     expect(per).toEqual([...per].sort((a, b) => b - a));
-    // Solo was €711 while we undercut the market; €1,066 since the 2026-08-09
-    // uplift. The shape is the point: every bracket cheaper than the last.
-    expect(per[0]).toBe(1066);
+    // Solo has been €711, then €1,066, now €690. The shape is the point:
+    // every bracket cheaper per person than the last, whatever the level.
+    expect(per[0]).toBe(690);
     expect(per[4]).toBeLessThan(300);
   });
 });

@@ -26,6 +26,22 @@ export function faqPageDocument(faq: Faq[]) {
   return { "@context": "https://schema.org", ...buildFaqSchema(faq) };
 }
 
+/**
+ * `priceValidUntil` for Offer nodes, as an ISO date one year from build time.
+ *
+ * Google lists this as a recommended Offer property and may stop showing a
+ * price it considers stale. It is deliberately derived from the build date
+ * rather than hardcoded: a fixed date silently expires and then reads as a
+ * *worse* signal than omitting the field, and nothing would fail loudly when
+ * it did. Every deploy re-stamps it, so it stays valid for as long as the site
+ * is maintained.
+ */
+export function priceValidUntil(from: Date = new Date()) {
+  const until = new Date(from);
+  until.setFullYear(until.getFullYear() + 1);
+  return until.toISOString().slice(0, 10);
+}
+
 export interface Crumb {
   name: string;
   path: string;

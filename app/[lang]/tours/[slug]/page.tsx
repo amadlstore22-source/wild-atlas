@@ -22,7 +22,7 @@ import TourGuideBlock from "@/components/tours/TourGuideBlock";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
-import { faqPageDocument } from "@/lib/seo/schema";
+import { faqPageDocument, priceValidUntil } from "@/lib/seo/schema";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
@@ -103,6 +103,8 @@ export default async function TourDetailPage({ params }: TourParams) {
   if (!tour) notFound();
   const dict = await getDictionary(lang);
   const { includes, excludes } = await tourIncludesFor(lang, tour);
+  // One value shared by both Offer nodes below, so they cannot drift apart.
+  const validUntil = priceValidUntil();
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -116,6 +118,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       "@type": "Offer",
       priceCurrency: DEFAULT_CURRENCY,
       price: schemaPrice(tour.price),
+      priceValidUntil: validUntil,
       availability: "https://schema.org/InStock",
       url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
     },
@@ -131,7 +134,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: tour.shortDescription,
     touristType: "Adventure",
-    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
+    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, priceValidUntil: validUntil, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,

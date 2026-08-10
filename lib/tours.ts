@@ -883,7 +883,7 @@ export const TOURS: Tour[] = [
       { q: "Can children do this trip?", a: "Yes, it is one of our more family-friendly day trips. The walk to the main pools is short and straightforward, and the swimming is the point. The jumping rocks are optional and there is plenty to do without them." },
       { q: "How early should we leave?", a: "Early. Paradise Valley is about ninety minutes from Agadir, and arriving before the mid-morning crowd changes the experience considerably — the difference between having a pool largely to yourselves and sharing it." },
     ],
-    meetingPoint: { lat: 30.5376, lng: -9.5000, name: "Paradise Valley, Tamraght" },
+    meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Paradise Valley Day Trip from Agadir — Natural Swimming Pools & Palm Gorge | Marrakech Eco Tours",
     seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $86.",
     featured: true,

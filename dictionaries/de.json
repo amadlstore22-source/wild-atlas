@@ -627,5 +627,23 @@
     "ctaBody": "Stellen Sie sie. Ein Bergführer antwortet, meist noch am selben Tag.",
     "ctaButton": "Auf WhatsApp schreiben",
     "ctaSecondary": "Anfrage senden"
+  },
+  "seo": {
+    "about": {
+      "title": "Unsere Geschichte — ein Familienbetrieb Berber-Bergführer",
+      "description": "Marrakech Eco Tours wurde von lizenzierten Berber-Bergführern aus dem Hohen Atlas gegründet. Treks und Wüstentouren in kleinen Gruppen, direkt und ohne Zwischenhändler."
+    },
+    "destinations": {
+      "title": "Marokko-Reiseziele — Atlas, Sahara, Medinas und Küste",
+      "description": "Acht marokkanische Reiseziele, die wir wirklich führen: Hoher Atlas, Sahara, Marrakesch und Fes, Chefchaouen, Essaouira, Ouzoud und die Küste bei Agadir."
+    },
+    "guides": {
+      "title": "Unsere Bergführer — lizenzierte Berber-Guides",
+      "description": "Die lizenzierten Berber-Bergführer, die unsere Treks leiten — geboren und aufgewachsen in den Tälern des Hohen Atlas, in denen sie arbeiten."
+    },
+    "guideTitleSuffix": "lizenzierter Bergführer",
+    "home": {
+      "title": "Marrakech Eco Tours — Atlas-Trekking, Sahara & Kulturreisen"
+    }
   }
 }

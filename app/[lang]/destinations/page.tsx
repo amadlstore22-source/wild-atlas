@@ -12,13 +12,15 @@ type LangParams = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
   return {
-    title: "Morocco Destinations — Atlas, Sahara, Medinas & Coast",
-    description:
-      "Explore Morocco's most extraordinary destinations: High Atlas trekking, Sahara desert, Marrakech medina, Fes, Chefchaouen, Agadir surf, Ouzoud waterfalls, and Essaouira. Find guided tours for every destination.",
+    // Localised: these were hardcoded English, so every locale shared one
+    // identical title and snippet despite serving translated content.
+    title: dict.seo.destinations.title,
+    description: dict.seo.destinations.description,
     openGraph: {
-      title: "Morocco Destinations — Marrakech Eco Tours",
-      description: "From Atlas peaks to Atlantic surf — discover where our adventures take you.",
+      title: dict.seo.destinations.title,
+      description: dict.seo.destinations.description,
       url: `https://marrakechecotours.com/${lang}/destinations`,
     },
     alternates: {

@@ -18,12 +18,16 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const { LOCALES } = await import("../dictionaries");
+  const dict = await getDictionary(lang);
   return {
-    title: "Our Story — Born in the Atlas Mountains",
-    description: "Marrakech Eco Tours was founded by Berber guides who grew up in the High Atlas. We run ethical, small-group adventures through Morocco's most remote landscapes — no middlemen, no greenwashing.",
+    // Read from the dictionary so each locale gets its own title and snippet.
+    // These were hardcoded English, so /fr/about served French content under an
+    // English <title> and all six locales competed on one identical string.
+    title: dict.seo.about.title,
+    description: dict.seo.about.description,
     openGraph: {
-      title: "Our Story — Marrakech Eco Tours",
-      description: "A team of licensed Berber guides sharing Morocco's wildest places — honestly, sustainably, without the middlemen.",
+      title: dict.seo.about.title,
+      description: dict.seo.about.description,
       url: `https://marrakechecotours.com/${lang}/about`,
       images: [{ url: "/gallery/toubkal-summit-guide-thumbs-up.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours guides at the Toubkal summit marker, High Atlas, Morocco" }],
     },

@@ -27,11 +27,14 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   const dict = await getDictionary(lang);
   return {
     title: {
-      absolute: "Marrakech Eco Tours — Trekking, Desert Tours & Cultural Excursions in Morocco",
+      // Localised, and shortened from 81 characters. Google truncates SERP
+      // titles around 60, so the old version lost "& Cultural Excursions in
+      // Morocco" on every result. The description was already localised.
+      absolute: dict.seo.home.title,
     },
     description: dict.hero.subheadline,
     openGraph: {
-      title: "Marrakech Eco Tours — Morocco Adventures",
+      title: dict.seo.home.title,
       description: dict.hero.subheadline,
       url: `https://marrakechecotours.com/${lang}`,
       // Branded share card on an authentic first-party photo (a real Toubkal

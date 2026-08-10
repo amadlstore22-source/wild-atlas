@@ -627,5 +627,23 @@
     "ctaBody": "Posez-la. Un guide vous répondra, souvent le jour même.",
     "ctaButton": "Nous écrire sur WhatsApp",
     "ctaSecondary": "Envoyer une demande"
+  },
+  "seo": {
+    "about": {
+      "title": "Notre histoire — une agence familiale de guides berbères",
+      "description": "Marrakech Eco Tours a été fondée par des guides berbères agréés, nés dans le Haut Atlas. Treks et circuits désert en petit groupe, en direct et sans intermédiaire."
+    },
+    "destinations": {
+      "title": "Destinations au Maroc — Atlas, Sahara, médinas et côte",
+      "description": "Huit destinations marocaines où nous guidons vraiment : Haut Atlas, Sahara, Marrakech et Fès, Chefchaouen, Essaouira, Ouzoud et la côte d'Agadir."
+    },
+    "guides": {
+      "title": "Nos guides — guides de montagne berbères agréés",
+      "description": "Les guides berbères agréés qui mènent nos treks, nés et élevés dans les vallées du Haut Atlas où ils travaillent. Rencontrez l'équipe avant de réserver."
+    },
+    "guideTitleSuffix": "guide de montagne agréé",
+    "home": {
+      "title": "Marrakech Eco Tours — Treks de l'Atlas, Sahara et culture"
+    }
   }
 }

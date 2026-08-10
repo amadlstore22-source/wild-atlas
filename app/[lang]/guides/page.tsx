@@ -14,10 +14,10 @@ type LangParams = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
   return {
-    title: "Meet Our Guides — Licensed Berber Mountain Guides",
-    description:
-      "Our guides are licensed Berber professionals who were born and raised in the landscapes they lead. No hired staff from agencies — these are the people who know Morocco's mountains and medinas by heart.",
+    title: dict.seo.guides.title,
+    description: dict.seo.guides.description,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides`,
       languages: hreflangForPath(LOCALES, "/guides"),

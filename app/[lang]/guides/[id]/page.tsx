@@ -22,10 +22,15 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: GuideParams): Promise<Metadata> {
   const { id, lang } = await params;
-  const guide = GUIDES.find((g) => g.id === id);
+  // Localised lookup and suffix. Both were English-only, so every locale's
+  // guide page carried an identical English title and bio in the SERP even
+  // though the page body was translated.
+  if (!hasLocale(lang)) return {};
+  const guide = getGuideFor(lang, id) ?? GUIDES.find((g) => g.id === id);
   if (!guide) return {};
+  const dict = await getDictionary(lang);
   return {
-    title: `${guide.name} — Licensed Mountain Guide`,
+    title: `${guide.name} — ${dict.seo.guideTitleSuffix}`,
     description: guide.shortBio,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides/${id}`,

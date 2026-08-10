@@ -39,7 +39,12 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
   const { lang, dest } = await params;
-  const destination = DESTINATIONS.find((d) => d.slug === dest);
+  // Localised lookup, not the English DESTINATIONS. The page body already used
+  // destinationsFor(lang) while this metadata read the English catalogue, so
+  // all six locales shared one identical title and description.
+  const destination = hasLocale(lang)
+    ? getDestinationFor(lang, dest)
+    : DESTINATIONS.find((d) => d.slug === dest);
   if (!destination) return {};
   return {
     // seoTitle already ends in the brand; strip it so the layout template

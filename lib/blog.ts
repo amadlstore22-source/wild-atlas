@@ -5464,6 +5464,165 @@ the cedar forest along the way, the overland route earns its cost.
 `,
   },
   {
+    slug: "morocco-camel-trek-sahara-guide",
+    relatedTours: ["chegaga-camel-trek-8day", "sahara-3day-marrakech", "merzouga-stargazing-desert-tour"],
+    author: MET_TEAM,
+    title: "Camel Trekking in the Sahara: What It Is Actually Like (2026)",
+    excerpt:
+      "Most Morocco camel treks are a ninety-minute ride into the dunes at sunset. A real caravan trek is something else: you walk, the camels carry the camp, and you cover about 17 km a day. Here is the difference, and the welfare question nobody puts on a booking page.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-10",
+    updatedAt: "2026-08-10",
+    tags: ["camel trek Morocco", "Erg Chegaga camel trek", "Sahara caravan trek", "camel welfare Morocco", "M'hamid desert trek"],
+    seoTitle: "Camel Trekking Morocco 2026 — What a Real Sahara Caravan Is Like",
+    seoDescription:
+      "The difference between a sunset camel ride and a multi-day Sahara caravan trek: distances, daily hours, what you actually walk, and how to judge an operator on camel welfare.",
+    faq: [
+      { q: "Do you ride the camel the whole way on a multi-day trek?", a: "No, and any operator promising that is describing a different trip. On a caravan trek the camels carry the camp — tents, water, food, cooking kit — and the group walks alongside. On our [8-day Chegaga camel trek](/en/tours/chegaga-camel-trek-8day) you walk five to seven hours a day for six consecutive days, roughly 17 km daily. Short rides are usually possible, but the walking is the trip. The one-to-two-hour sunset ride most people picture is a different product entirely, and it is the one included in our [3-day Sahara tour](/en/tours/sahara-3day-marrakech)." },
+      { q: "How far do you actually cover on a Sahara caravan trek?", a: "Ours runs about 83 km on foot across five trekking days: Draa Valley to the Hamada du Draa, over the Abbes pass into Erg Chegaga, then Bougarne, Oued Naam and out at M'hamid. That is a little under 17 km a day. It sounds modest until you do it in sand — flat ground with no altitude, but the repetition is the difficulty rather than any single hard day." },
+      { q: "Is camel trekking in Morocco ethical?", a: "It depends entirely on the operator, and the concern is legitimate. Morocco has no national animal welfare legislation, and PETA has documented camels at tourist ride sites being beaten, tethered on short ropes without shade, and sold for meat once they stop earning. The practices that separate a responsible trek are specific: camels owned by the nomad families who work them rather than by a ride concession, animals carrying equipment instead of people, enough camels that no animal is overloaded, rest between departures, and soft head ropes rather than nose pegs. Ask any operator those questions directly — the ones doing it properly answer without hesitating." },
+      { q: "How fit do you need to be?", a: "Moderately. There is no altitude and no technical ground, so it is not a mountain trek, but you are walking most of a working day in soft sand for six days running. Anyone who has completed a multi-day walking route will manage. The genuine difficulties are heat, sun exposure and sleeping outdoors, not the terrain." },
+      { q: "When is the best time for a camel trek?", a: "October to April. Midday temperatures in the Draa and around Chegaga become dangerous from May onward and the caravan schedule stops making sense. Winter is the strongest window: the days are clear and walkable, though desert nights drop close to freezing and a proper sleeping bag matters more than people expect." },
+      { q: "Where do you sleep on a caravan trek?", a: "In a moving bivouac the caravan carries and pitches — not a fixed camp with a restaurant. That is the trade: no plumbing, no generator, no other groups, and no light within 50 km of the Chegaga dunes. If you want a shower and a bed, the fixed-camp trips from Merzouga are the better fit and we run those too." }
+    ],
+    content: `
+## Two different things share one name
+
+Search "Morocco camel trek" and you will get two products described in nearly
+identical language.
+
+The first is a **sunset ride**: an hour, maybe ninety minutes, from a car park
+at the edge of the dunes to a fixed camp. You sit on a saddled dromedary in a
+line of ten, a handler leads, and you arrive in time for dinner and drumming.
+It is genuinely lovely, and it is what most people mean by a camel trek. It is
+included in our [3-day Sahara tour](/en/tours/sahara-3day-marrakech).
+
+The second is a **caravan trek**, and it barely resembles the first. The camels
+carry the camp — tents, water, food, cooking kit. You walk. Days are five to
+seven hours on foot, you sleep wherever the caravan stops, and there is no road
+and no fixed camp for the duration.
+
+Both are worth doing. Booking one expecting the other is the mistake, and the
+booking pages rarely make the difference obvious.
+
+## What the walking actually involves
+
+Our [8-day Chegaga trek](/en/tours/chegaga-camel-trek-8day) covers roughly
+**83 km on foot across five trekking days** — a little under 17 km a day. The
+route runs Draa Valley → the Hamada du Draa → over the Abbes pass into **Erg
+Chegaga** → the Bougarne dunes → Oued Naam → out at M'hamid.
+
+Seventeen kilometres sounds light. In sand, at desert pace, it is a working
+day. The ground is flat, there is no altitude and nothing technical, so the
+difficulty is repetition rather than any one hard section — six consecutive
+days of the same effort, with the sun and the surface doing the wearing.
+
+The pace is set by the caravan, not by you, and it is slower than you would
+walk alone. That is deliberate: the camels set a rhythm the whole group can
+hold for a week.
+
+## Do you ride at all?
+
+Some, usually briefly, and less than you are imagining.
+
+The camels are load animals on this kind of trip. Their work is carrying the
+camp; a rider is extra weight on an animal already carrying a week of water and
+equipment. In practice people ride a little — crossing a stretch of open
+hamada, or when a blister needs an hour off — and walk the rest.
+
+This is not a limitation we apologise for. **It is the ethical structure of the
+trip**, and it is worth explaining why.
+
+## The welfare question
+
+This deserves a straight answer rather than a paragraph of reassurance.
+
+Morocco has **no national animal welfare law**. PETA's investigations at
+Moroccan tourist ride sites documented camels beaten, tethered on ropes a few
+feet long without shade in extreme heat, and sold for slaughter once they stop
+being profitable — often after around five years of ride work. That reporting
+is real and it is about a real part of this industry.
+
+It does not describe every operation, and the difference is not a matter of
+branding. It is structural, and you can check it with direct questions:
+
+- **Who owns the camels?** Animals owned by the nomad families who work them
+  are cared for differently from animals owned by a ride concession that rents
+  them out by the hour.
+- **Do the camels carry people or equipment?** Pack work spread across a
+  caravan is a fundamentally lighter load than continuous rider rotation.
+- **How many camels per traveller?** More animals means less weight each.
+- **What happens between departures?** Rest and natural grazing, or tethered at
+  a ride site waiting for the next group.
+- **What happens when a camel is too old to work?** The honest answer in a good
+  operation is retirement at sixteen to eighteen, not the meat market.
+
+Ask those five questions of any operator, ours included. The ones doing it
+properly answer immediately and specifically, because the answers are simply
+how they already work. Vagueness is the signal.
+
+Our caravan camels belong to the M'hamid families who walk them, they carry
+equipment rather than passengers, and they rest between departures. That is
+also precisely why you walk.
+
+## What it is like to sleep out there
+
+There is no fixed camp on this route. The bivouac moves with you and is pitched
+where the day ends.
+
+The practical consequences: no plumbing, no generator, no wifi, and — past the
+Chegaga dunes — no artificial light within about 50 km. The night sky is the
+part people describe afterwards, and it is a straightforward function of that
+distance from anything electrical.
+
+Desert nights are **cold**. Winter lows around Chegaga sit close to freezing,
+and the temperature swing between afternoon and 3 am is the thing most first-
+timers underestimate. A real sleeping bag matters more than any other item you
+pack — see [what to pack for a desert tour](/en/blog/what-to-pack-desert-tour-morocco).
+
+## When to go
+
+**October to April.** Outside that window the midday heat in the Draa makes a
+walking caravan unsafe rather than merely unpleasant, and reputable operators
+stop running them.
+
+Within it:
+
+- **October–November**: warm days, mild nights. The easiest introduction.
+- **December–February**: clear, cold, excellent walking. Bring the sleeping bag.
+- **March–April**: warming, longer days, and the last comfortable window before
+  the season closes.
+
+## Chegaga or Chebbi?
+
+Caravan treks work at Erg Chegaga in a way they do not at Erg Chebbi, and the
+reason is access. Chebbi is reached by a sealed road from Merzouga, which is
+what makes the fixed camps and short rides there possible. Chegaga is 50-odd km
+from the nearest tarmac, which rules out the day-trip model and leaves the
+caravan as the honest way in.
+
+That is the whole trade-off: Chebbi is easier to reach and busier; Chegaga
+takes days and is empty. We compare them in detail in
+[Erg Chebbi vs Erg Chegaga](/en/blog/erg-chebbi-vs-erg-chegaga).
+
+## Who this suits
+
+A caravan trek is right for you if you want a walking route with a desert as
+the terrain, you are comfortable being genuinely off-grid for the better part
+of a week, and the idea of no shower for six days reads as part of the appeal
+rather than a cost.
+
+It is the wrong trip if what you actually want is dunes at sunset, a good
+dinner and a bed. That trip exists, we run it, and it is not a lesser
+experience — it is a different one. Book the one you want.
+
+👉 **[See the 8-day Chegaga camel trek](/en/tours/chegaga-camel-trek-8day)** — 83 km on foot through the Draa and Erg Chegaga, moving bivouac, camels owned and walked by the M'hamid families who work them.
+`,
+  },
+  {
     slug: "3-day-sahara-tour-cost-marrakech",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     author: MET_TEAM,

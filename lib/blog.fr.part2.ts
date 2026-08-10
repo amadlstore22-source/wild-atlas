@@ -3297,6 +3297,160 @@ et la cédraie en chemin, la route mérite son prix.
 `,
   },
   {
+    slug: "morocco-camel-trek-sahara-guide",
+    localizedSlug: "trek-dromadaire-sahara-maroc",
+    relatedTours: ["chegaga-camel-trek-8day", "sahara-3day-marrakech", "merzouga-stargazing-desert-tour"],
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Trek à dromadaire dans le Sahara : la réalité du terrain (2026)",
+    excerpt:
+      "La plupart des « treks à dromadaire » au Maroc sont une balade de 90 minutes dans les dunes au coucher du soleil. Une vraie caravane, c'est autre chose : vous marchez, les dromadaires portent le camp, et vous couvrez environ 17 km par jour. Voici la différence — et la question du bien-être animal que personne n'affiche sur une page de réservation.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-10",
+    updatedAt: "2026-08-10",
+    tags: ["trek dromadaire Maroc", "caravane Erg Chegaga", "trek Sahara à pied", "bien-être dromadaires Maroc", "désert M'hamid"],
+    seoTitle: "Trek à dromadaire au Maroc 2026 — à quoi ressemble une vraie caravane",
+    seoDescription:
+      "La différence entre une balade à dromadaire au coucher du soleil et une caravane de plusieurs jours dans le Sahara : distances, heures de marche, et comment juger un opérateur sur le bien-être animal.",
+    faq: [
+      { q: "Monte-t-on à dromadaire pendant tout le trek ?", a: "Non, et tout opérateur qui le promet décrit un autre voyage. Sur une caravane, les dromadaires portent le camp — tentes, eau, nourriture, matériel de cuisine — et le groupe marche à côté. Sur notre [trek de 8 jours à Chegaga](/fr/tours/chegaga-camel-trek-8day), vous marchez cinq à sept heures par jour pendant six jours consécutifs, soit environ 17 km quotidiens. De courtes montées restent possibles, mais la marche est le voyage. La balade d'une à deux heures que la plupart des gens imaginent est un produit différent, inclus dans notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech)." },
+      { q: "Quelle distance parcourt-on réellement ?", a: "La nôtre représente environ 83 km à pied sur cinq jours de marche : la vallée du Draa, la hamada du Draa, le passage d'Abbes vers l'Erg Chegaga, puis Bougarne, Oued Naam et la sortie à M'hamid. Un peu moins de 17 km par jour. Cela paraît modeste jusqu'à ce qu'on le fasse dans le sable — terrain plat, aucune altitude, mais c'est la répétition qui fait la difficulté, pas une journée en particulier." },
+      { q: "Le trek à dromadaire au Maroc est-il éthique ?", a: "Cela dépend entièrement de l'opérateur, et la question est légitime. Le Maroc n'a pas de loi nationale sur le bien-être animal, et PETA a documenté sur des sites touristiques des dromadaires frappés, attachés à des cordes très courtes sans ombre, et vendus à la boucherie dès qu'ils ne rapportent plus. Les pratiques qui distinguent un trek responsable sont précises : des animaux appartenant aux familles nomades qui les font travailler plutôt qu'à une concession de balades, des dromadaires qui portent du matériel et non des passagers, assez d'animaux pour qu'aucun ne soit surchargé, du repos entre les départs, et des cordes souples plutôt que des anneaux nasaux. Posez ces questions directement — ceux qui travaillent correctement répondent sans hésiter." },
+      { q: "Quelle condition physique faut-il ?", a: "Modérée. Ni altitude ni terrain technique, ce n'est pas un trek de montagne, mais vous marchez la majeure partie d'une journée de travail dans le sable, six jours de suite. Toute personne ayant déjà fait une randonnée de plusieurs jours s'en sortira. Les vraies difficultés sont la chaleur, l'exposition au soleil et le fait de dormir dehors — pas le terrain." },
+      { q: "Quelle est la meilleure période ?", a: "D'octobre à avril. À partir de mai, les températures de mi-journée dans le Draa et autour de Chegaga deviennent dangereuses et le calendrier des caravanes n'a plus de sens. L'hiver est la meilleure fenêtre : journées claires et marchables, même si les nuits frôlent le zéro et qu'un vrai sac de couchage compte plus qu'on ne le croit." },
+      { q: "Où dort-on ?", a: "Dans un bivouac mobile que la caravane transporte et monte chaque soir — pas un camp fixe avec restaurant. C'est le compromis : pas de plomberie, pas de générateur, aucun autre groupe, et aucune lumière artificielle à moins de 50 km des dunes de Chegaga. Si vous voulez une douche et un lit, les camps fixes depuis Merzouga conviennent mieux, et nous les proposons aussi." }
+    ],
+    content: `
+## Deux choses très différentes portent le même nom
+
+Cherchez « trek à dromadaire Maroc » et vous trouverez deux produits décrits
+dans des termes presque identiques.
+
+Le premier est une **balade au coucher du soleil** : une heure, peut-être
+quatre-vingt-dix minutes, d'un parking en bordure de dunes jusqu'à un camp
+fixe. C'est sincèrement beau, et c'est ce que la plupart des gens entendent par
+trek à dromadaire. C'est inclus dans notre
+[circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech).
+
+Le second est une **caravane**, et cela n'a presque rien à voir. Les
+dromadaires portent le camp. Vous marchez. Cinq à sept heures par jour, vous
+dormez là où la caravane s'arrête, et il n'y a ni route ni camp fixe.
+
+Les deux valent le détour. L'erreur est de réserver l'un en attendant l'autre.
+
+## Ce que représente vraiment la marche
+
+Notre [trek de 8 jours à Chegaga](/fr/tours/chegaga-camel-trek-8day) couvre
+environ **83 km à pied sur cinq jours de marche** — un peu moins de 17 km par
+jour. L'itinéraire suit la vallée du Draa → la hamada du Draa → le passage
+d'Abbes vers l'**Erg Chegaga** → les dunes de Bougarne → Oued Naam → M'hamid.
+
+Dix-sept kilomètres paraissent peu. Dans le sable, au rythme du désert, c'est
+une journée de travail. Le sol est plat, sans altitude ni difficulté technique :
+c'est la répétition qui pèse, pas une section en particulier.
+
+## Monte-t-on, au fond ?
+
+Un peu, brièvement, et moins que vous ne l'imaginez.
+
+Ici, les dromadaires sont des animaux de bât. Leur travail est de porter le
+camp ; un cavalier, c'est du poids supplémentaire sur une bête qui transporte
+déjà une semaine d'eau et de matériel.
+
+Ce n'est pas une limite dont nous nous excusons. **C'est la structure éthique
+du voyage**, et cela mérite une explication.
+
+## La question du bien-être animal
+
+Elle mérite une réponse directe plutôt qu'un paragraphe rassurant.
+
+Le Maroc n'a **aucune loi nationale sur le bien-être animal**. Les enquêtes de
+PETA sur des sites touristiques marocains ont documenté des dromadaires
+frappés, attachés à des cordes de quelques dizaines de centimètres sans ombre
+par forte chaleur, et vendus à l'abattage dès qu'ils cessent d'être rentables —
+souvent après environ cinq ans. Ces constats sont réels et concernent une part
+réelle de ce secteur.
+
+Ils ne décrivent pas toutes les exploitations, et la différence n'est pas une
+affaire d'image. Elle est structurelle, et cinq questions suffisent :
+
+- **À qui appartiennent les dromadaires ?** Ceux des familles nomades qui les
+  font travailler ne sont pas traités comme ceux d'une concession qui les loue
+  à l'heure.
+- **Portent-ils des personnes ou du matériel ?** Le bât réparti sur une
+  caravane est une charge bien plus légère qu'une rotation continue de
+  cavaliers.
+- **Combien de dromadaires par voyageur ?** Plus d'animaux, moins de poids
+  chacun.
+- **Que se passe-t-il entre deux départs ?** Repos et pâturage, ou attache sur
+  un site de balades en attendant le groupe suivant.
+- **Et quand une bête est trop vieille ?** La bonne réponse est la retraite vers
+  seize à dix-huit ans, pas la boucherie.
+
+Posez ces cinq questions à n'importe quel opérateur, y compris nous. Ceux qui
+travaillent correctement répondent immédiatement, parce que c'est déjà leur
+fonctionnement. Le flou est le signal.
+
+Nos dromadaires appartiennent aux familles de M'hamid qui les accompagnent, ils
+portent du matériel et non des passagers, et ils se reposent entre les départs.
+C'est aussi exactement pour cela que vous marchez.
+
+## Dormir là-bas
+
+Il n'y a pas de camp fixe. Le bivouac se déplace avec vous.
+
+Conséquences concrètes : pas de plomberie, pas de générateur, pas de wifi et —
+au-delà des dunes de Chegaga — aucune lumière artificielle à moins de 50 km. Le
+ciel nocturne est ce dont les gens parlent au retour, et c'est la conséquence
+directe de cette distance.
+
+Les nuits sont **froides**. Autour de Chegaga, l'hiver frôle le zéro, et
+l'amplitude entre l'après-midi et trois heures du matin est ce que les
+débutants sous-estiment le plus. Un vrai sac de couchage compte plus que tout
+le reste — voir [que mettre dans son sac pour le désert](/fr/blog/what-to-pack-desert-tour-morocco).
+
+## Quand partir
+
+**D'octobre à avril.** En dehors de cette fenêtre, la chaleur de mi-journée
+dans le Draa rend une caravane à pied dangereuse, et les opérateurs sérieux
+cessent d'en organiser.
+
+- **Octobre–novembre** : journées chaudes, nuits douces. L'entrée en matière la
+  plus facile.
+- **Décembre–février** : clair, froid, excellent pour marcher. Prévoyez le sac
+  de couchage.
+- **Mars–avril** : réchauffement, journées plus longues, dernière fenêtre
+  confortable.
+
+## Chegaga ou Chebbi ?
+
+Les caravanes fonctionnent à l'Erg Chegaga et pas à l'Erg Chebbi, pour une
+raison d'accès. Chebbi est desservi par une route goudronnée depuis Merzouga,
+ce qui rend possibles les camps fixes et les courtes balades. Chegaga est à une
+cinquantaine de kilomètres du premier bitume, ce qui exclut la formule
+d'excursion et laisse la caravane comme seule manière honnête d'y entrer.
+
+C'est tout l'arbitrage : Chebbi est plus accessible et plus fréquenté ; Chegaga
+demande des jours et reste vide. Comparaison détaillée dans
+[Erg Chebbi ou Erg Chegaga](/fr/blog/erg-chebbi-vs-erg-chegaga).
+
+## À qui cela convient
+
+Une caravane vous conviendra si vous cherchez un itinéraire de marche dont le
+terrain est un désert, si être réellement coupé du monde pendant près d'une
+semaine vous va, et si l'absence de douche pendant six jours fait partie de
+l'attrait plutôt que du prix à payer.
+
+C'est le mauvais voyage si ce que vous voulez, ce sont des dunes au coucher du
+soleil, un bon dîner et un lit. Ce voyage existe, nous le proposons, et il n'est
+pas inférieur — il est différent. Réservez celui que vous voulez vraiment.
+
+👉 **[Découvrez le trek de 8 jours à Chegaga](/fr/tours/chegaga-camel-trek-8day)** — 83 km à pied par le Draa et l'Erg Chegaga, bivouac mobile, dromadaires appartenant aux familles de M'hamid qui les accompagnent.
+`,
+  },
+  {
     slug: "3-day-sahara-tour-cost-marrakech",
     localizedSlug: "prix-circuit-sahara-3-jours-marrakech",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },

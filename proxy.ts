@@ -10,6 +10,7 @@ import { NextRequest, NextResponse } from "next/server";
  * unreadable byte strings when shared, which loses the readability that is the
  * only real benefit of localising the slug in the first place. */
 const BLOG_SLUGS_FR: Record<string, string> = {
+  "morocco-camel-trek-sahara-guide": "trek-dromadaire-sahara-maroc",
   "toubkal-2-day-trek-cost": "prix-trek-toubkal-2-jours",
   "toubkal-4-day-trek-cost": "prix-trek-toubkal-4-jours",
   "toubkal-circuit-ifni-lake-cost": "prix-circuit-toubkal-lac-ifni",
@@ -29,6 +30,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
+  "morocco-camel-trek-sahara-guide": "trekking-camello-sahara-marruecos",
   "toubkal-2-day-trek-cost": "precio-trek-toubkal-2-dias",
   "toubkal-4-day-trek-cost": "precio-trek-toubkal-4-dias",
   "toubkal-circuit-ifni-lake-cost": "precio-circuito-toubkal-lago-ifni",
@@ -48,6 +50,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
+  "morocco-camel-trek-sahara-guide": "kameltrekking-sahara-marokko",
   "toubkal-2-day-trek-cost": "toubkal-trek-2-tage-kosten",
   "toubkal-4-day-trek-cost": "toubkal-trek-4-tage-kosten",
   "toubkal-circuit-ifni-lake-cost": "toubkal-runde-ifni-see-kosten",
@@ -67,6 +70,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
+  "morocco-camel-trek-sahara-guide": "trekking-cammello-sahara-marocco",
   "toubkal-2-day-trek-cost": "prezzo-trek-toubkal-2-giorni",
   "toubkal-4-day-trek-cost": "prezzo-trek-toubkal-4-giorni",
   "toubkal-circuit-ifni-lake-cost": "prezzo-circuito-toubkal-lago-ifni",

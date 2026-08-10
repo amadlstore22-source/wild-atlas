@@ -3291,6 +3291,148 @@ de cedros por el camino, la ruta terrestre se gana su precio.
 `,
   },
   {
+    slug: "morocco-camel-trek-sahara-guide",
+    localizedSlug: "trekking-camello-sahara-marruecos",
+    relatedTours: ["chegaga-camel-trek-8day", "sahara-3day-marrakech", "merzouga-stargazing-desert-tour"],
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Trekking en camello por el Sáhara: cómo es en realidad (2026)",
+    excerpt:
+      "La mayoría de los «trekkings en camello» de Marruecos son un paseo de noventa minutos por las dunas al atardecer. Una caravana de verdad es otra cosa: tú caminas, los camellos cargan el campamento y se recorren unos 17 km al día. Aquí está la diferencia, y la cuestión del bienestar animal que nadie pone en la página de reservas.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-10",
+    updatedAt: "2026-08-10",
+    tags: ["trekking camello Marruecos", "caravana Erg Chegaga", "Sáhara a pie", "bienestar camellos Marruecos", "desierto M'hamid"],
+    seoTitle: "Trekking en camello Marruecos 2026 — cómo es una caravana real",
+    seoDescription:
+      "La diferencia entre un paseo en camello al atardecer y una caravana de varios días por el Sáhara: distancias, horas de marcha y cómo juzgar a un operador por el bienestar animal.",
+    faq: [
+      { q: "¿Se va montado en camello todo el trayecto?", a: "No, y cualquier operador que lo prometa está describiendo otro viaje. En una caravana los camellos cargan el campamento — tiendas, agua, comida, cocina — y el grupo camina al lado. En nuestro [trekking de 8 días a Chegaga](/es/tours/chegaga-camel-trek-8day) se camina de cinco a siete horas diarias durante seis días seguidos, unos 17 km al día. Se puede montar un rato, pero caminar es el viaje. El paseo de una o dos horas que casi todo el mundo imagina es otro producto, y está incluido en nuestro [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech)." },
+      { q: "¿Cuánta distancia se recorre realmente?", a: "La nuestra son unos 83 km a pie en cinco jornadas: valle del Draa, hamada del Draa, el paso de Abbes hacia Erg Chegaga, luego Bougarne, Oued Naam y salida en M'hamid. Algo menos de 17 km diarios. Suena poco hasta que se hace sobre arena — terreno llano, sin altitud, pero la dificultad está en la repetición, no en una jornada concreta." },
+      { q: "¿Es ético el trekking en camello en Marruecos?", a: "Depende por completo del operador, y la preocupación es legítima. Marruecos no tiene ley nacional de bienestar animal, y PETA ha documentado en puntos turísticos camellos golpeados, atados con cuerdas muy cortas sin sombra y vendidos para carne cuando dejan de ser rentables. Las prácticas que distinguen a un operador responsable son concretas: animales propiedad de las familias nómadas que los trabajan y no de una concesión de paseos, camellos que cargan material en vez de personas, suficientes animales para que ninguno vaya sobrecargado, descanso entre salidas y cuerdas blandas en lugar de anillas nasales. Pregúntalo directamente: quien lo hace bien responde sin dudar." },
+      { q: "¿Qué forma física hace falta?", a: "Moderada. No hay altitud ni terreno técnico, así que no es un trekking de montaña, pero se camina casi toda una jornada sobre arena blanda seis días seguidos. Quien haya hecho una ruta de varios días lo llevará bien. Las dificultades reales son el calor, la exposición al sol y dormir a la intemperie, no el terreno." },
+      { q: "¿Cuál es la mejor época?", a: "De octubre a abril. A partir de mayo las temperaturas de mediodía en el Draa y en Chegaga se vuelven peligrosas y el calendario de caravanas deja de tener sentido. El invierno es la mejor ventana: días despejados y caminables, aunque las noches rozan el cero y un buen saco de dormir importa más de lo que se cree." },
+      { q: "¿Dónde se duerme?", a: "En un vivac móvil que la caravana transporta y monta cada tarde, no en un campamento fijo con restaurante. Ese es el intercambio: sin fontanería, sin generador, sin otros grupos y sin luz artificial en unos 50 km alrededor de las dunas de Chegaga. Si quieres ducha y cama, los campamentos fijos desde Merzouga encajan mejor, y también los operamos." }
+    ],
+    content: `
+## Dos cosas distintas con el mismo nombre
+
+Busca «trekking en camello Marruecos» y encontrarás dos productos descritos casi
+igual.
+
+El primero es un **paseo al atardecer**: una hora, quizá noventa minutos, desde
+un aparcamiento al borde de las dunas hasta un campamento fijo. Es realmente
+bonito, y es lo que casi todo el mundo entiende por trekking en camello. Está
+incluido en nuestro [circuito Sáhara de 3 días](/es/tours/sahara-3day-marrakech).
+
+El segundo es una **caravana**, y apenas se parece. Los camellos cargan el
+campamento. Tú caminas. Cinco a siete horas al día, duermes donde para la
+caravana, y no hay carretera ni campamento fijo.
+
+Los dos merecen la pena. El error es reservar uno esperando el otro.
+
+## Qué implica caminar de verdad
+
+Nuestro [trekking de 8 días a Chegaga](/es/tours/chegaga-camel-trek-8day)
+cubre unos **83 km a pie en cinco jornadas** — algo menos de 17 km al día. La
+ruta va del valle del Draa → la hamada del Draa → el paso de Abbes hacia
+**Erg Chegaga** → las dunas de Bougarne → Oued Naam → M'hamid.
+
+Diecisiete kilómetros suenan a poco. Sobre arena, al ritmo del desierto, son una
+jornada completa. El terreno es llano y sin altitud: lo que cansa es la
+repetición, no ningún tramo concreto.
+
+## ¿Se monta algo?
+
+Algo, brevemente, y menos de lo que imaginas.
+
+Aquí los camellos son animales de carga. Su trabajo es llevar el campamento; un
+jinete es peso extra sobre un animal que ya transporta una semana de agua y
+material.
+
+No es una limitación de la que nos disculpemos. **Es la estructura ética del
+viaje**, y merece explicación.
+
+## La cuestión del bienestar animal
+
+Merece una respuesta directa, no un párrafo tranquilizador.
+
+Marruecos **no tiene ley nacional de bienestar animal**. Las investigaciones de
+PETA en puntos turísticos marroquíes documentaron camellos golpeados, atados con
+cuerdas de pocos palmos sin sombra con calor extremo y vendidos para sacrificio
+en cuanto dejan de ser rentables, a menudo tras unos cinco años. Es real y
+afecta a una parte real del sector.
+
+No describe a todas las operaciones, y la diferencia no es de marca. Es
+estructural, y se comprueba con cinco preguntas:
+
+- **¿De quién son los camellos?** Los de las familias nómadas que los trabajan
+  no se cuidan igual que los de una concesión que los alquila por horas.
+- **¿Cargan personas o material?** El bagaje repartido en una caravana es mucho
+  menos carga que una rotación continua de jinetes.
+- **¿Cuántos camellos por viajero?** Más animales, menos peso cada uno.
+- **¿Qué pasa entre salidas?** Descanso y pasto, o atados esperando al siguiente
+  grupo.
+- **¿Y cuando ya no puede trabajar?** La respuesta honesta es jubilación hacia
+  los dieciséis o dieciocho años, no el matadero.
+
+Haz esas preguntas a cualquier operador, nosotros incluidos. Quien lo hace bien
+responde al instante, porque es simplemente cómo ya trabaja. La vaguedad es la
+señal.
+
+Nuestros camellos pertenecen a las familias de M'hamid que los acompañan, cargan
+material y no pasajeros, y descansan entre salidas. Por eso mismo tú caminas.
+
+## Dormir ahí fuera
+
+No hay campamento fijo. El vivac se mueve contigo.
+
+Consecuencias prácticas: sin fontanería, sin generador, sin wifi y — pasadas las
+dunas de Chegaga — sin luz artificial en unos 50 km. El cielo nocturno es lo que
+la gente cuenta después, y es consecuencia directa de esa distancia.
+
+Las noches son **frías**. En invierno, cerca de Chegaga, rozan el cero, y el
+salto térmico entre la tarde y las tres de la madrugada es lo que más
+subestiman los primerizos. Un buen saco importa más que cualquier otra cosa —
+ver [qué llevar al desierto](/es/blog/what-to-pack-desert-tour-morocco).
+
+## Cuándo ir
+
+**De octubre a abril.** Fuera de esa ventana el calor de mediodía en el Draa
+hace insegura una caravana a pie, y los operadores serios dejan de organizarlas.
+
+- **Octubre–noviembre**: días cálidos, noches suaves. La entrada más fácil.
+- **Diciembre–febrero**: despejado, frío, excelente para caminar. Lleva el saco.
+- **Marzo–abril**: temperaturas al alza, días más largos, última ventana cómoda.
+
+## ¿Chegaga o Chebbi?
+
+Las caravanas funcionan en Erg Chegaga y no en Erg Chebbi, por acceso. A Chebbi
+llega una carretera asfaltada desde Merzouga, y eso hace posibles los campamentos
+fijos y los paseos cortos. Chegaga está a unos 50 km del primer asfalto, lo que
+descarta el modelo de excursión y deja la caravana como la forma honesta de
+entrar.
+
+Ese es el intercambio: Chebbi es más accesible y más concurrido; Chegaga exige
+días y está vacío. Comparación detallada en
+[Erg Chebbi o Erg Chegaga](/es/blog/erg-chebbi-vs-erg-chegaga).
+
+## A quién le encaja
+
+Una caravana te encaja si quieres una ruta de senderismo cuyo terreno es un
+desierto, si estar realmente desconectado casi una semana te parece bien, y si
+seis días sin ducha forman parte del atractivo y no del precio.
+
+Es el viaje equivocado si lo que quieres son dunas al atardecer, una buena cena
+y una cama. Ese viaje existe, lo operamos, y no es inferior: es distinto.
+Reserva el que de verdad quieres.
+
+👉 **[Ver el trekking de 8 días a Chegaga](/es/tours/chegaga-camel-trek-8day)** — 83 km a pie por el Draa y Erg Chegaga, vivac móvil, camellos de las familias de M'hamid que los acompañan.
+`,
+  },
+  {
     slug: "3-day-sahara-tour-cost-marrakech",
     localizedSlug: "precio-tour-sahara-3-dias-marrakech",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },

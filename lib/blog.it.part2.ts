@@ -3289,6 +3289,152 @@ cedreta lungo la strada, la via terrestre si guadagna il suo prezzo.
 `,
   },
   {
+    slug: "morocco-camel-trek-sahara-guide",
+    localizedSlug: "trekking-cammello-sahara-marocco",
+    relatedTours: ["chegaga-camel-trek-8day", "sahara-3day-marrakech", "merzouga-stargazing-desert-tour"],
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Trekking in cammello nel Sahara: com'è davvero (2026)",
+    excerpt:
+      "La maggior parte dei «trekking in cammello» in Marocco è un giro di novanta minuti fra le dune al tramonto. Una vera carovana è un'altra cosa: cammini tu, i cammelli portano il campo, e si percorrono circa 17 km al giorno. Ecco la differenza, e la questione del benessere animale che nessuno scrive nella pagina di prenotazione.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-10",
+    updatedAt: "2026-08-10",
+    tags: ["trekking cammello Marocco", "carovana Erg Chegaga", "Sahara a piedi", "benessere cammelli Marocco", "deserto M'hamid"],
+    seoTitle: "Trekking in cammello Marocco 2026 — com'è una vera carovana",
+    seoDescription:
+      "La differenza fra un giro in cammello al tramonto e una carovana di più giorni nel Sahara: distanze, ore di cammino e come valutare un operatore sul benessere animale.",
+    faq: [
+      { q: "Si sta in groppa per tutto il trekking?", a: "No, e chi lo promette sta descrivendo un altro viaggio. In una carovana i cammelli portano il campo — tende, acqua, cibo, cucina — e il gruppo cammina accanto. Sul nostro [trekking di 8 giorni a Chegaga](/it/tours/chegaga-camel-trek-8day) si cammina dalle cinque alle sette ore al giorno per sei giorni consecutivi, circa 17 km quotidiani. Qualche tratto in groppa è possibile, ma il viaggio è camminare. Il giro di una o due ore che quasi tutti immaginano è un altro prodotto, incluso nel nostro [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech)." },
+      { q: "Quanti chilometri si percorrono davvero?", a: "Il nostro sono circa 83 km a piedi in cinque giornate: valle del Draa, hamada del Draa, il passo di Abbes verso l'Erg Chegaga, poi Bougarne, Oued Naam e uscita a M'hamid. Poco meno di 17 km al giorno. Sembra poco finché non lo si fa sulla sabbia — terreno piatto, nessuna quota, ma la difficoltà è la ripetizione, non una giornata in particolare." },
+      { q: "Il trekking in cammello in Marocco è etico?", a: "Dipende interamente dall'operatore, e la preoccupazione è legittima. Il Marocco non ha una legge nazionale sul benessere animale, e PETA ha documentato in siti turistici cammelli picchiati, legati con corde cortissime senza ombra e venduti per la macellazione quando smettono di rendere. Le pratiche che distinguono un operatore responsabile sono precise: animali di proprietà delle famiglie nomadi che li conducono e non di una concessione di giri turistici, cammelli che portano attrezzatura anziché persone, animali a sufficienza perché nessuno sia sovraccarico, riposo fra le partenze e corde morbide invece di anelli nasali. Falle direttamente, queste domande: chi lavora bene risponde senza esitare." },
+      { q: "Che preparazione serve?", a: "Moderata. Niente quota né terreno tecnico, quindi non è un trekking di montagna, ma si cammina quasi un'intera giornata lavorativa sulla sabbia per sei giorni di fila. Chi ha già fatto un percorso di più giorni se la caverà. Le difficoltà vere sono caldo, esposizione al sole e dormire all'aperto, non il terreno." },
+      { q: "Qual è il periodo migliore?", a: "Da ottobre ad aprile. Da maggio in poi le temperature di mezzogiorno nel Draa e attorno a Chegaga diventano pericolose e il calendario delle carovane non ha più senso. L'inverno è la finestra migliore: giornate limpide e camminabili, anche se le notti sfiorano lo zero e un sacco a pelo serio conta più di quanto si creda." },
+      { q: "Dove si dorme?", a: "In un bivacco mobile che la carovana trasporta e monta ogni sera, non in un campo fisso con ristorante. È questo lo scambio: niente impianti, niente generatore, nessun altro gruppo e nessuna luce artificiale entro una cinquantina di chilometri dalle dune di Chegaga. Se volete doccia e letto, i campi fissi da Merzouga sono più adatti, e li gestiamo anche noi." }
+    ],
+    content: `
+## Due cose diverse con lo stesso nome
+
+Cerca «trekking in cammello Marocco» e troverai due prodotti descritti quasi
+allo stesso modo.
+
+Il primo è un **giro al tramonto**: un'ora, forse novanta minuti, da un
+parcheggio ai margini delle dune fino a un campo fisso. È davvero bello, ed è
+ciò che quasi tutti intendono per trekking in cammello. È incluso nel nostro
+[tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech).
+
+Il secondo è una **carovana**, e non le somiglia quasi per nulla. I cammelli
+portano il campo. Tu cammini. Cinque-sette ore al giorno, dormi dove si ferma
+la carovana, e non c'è né strada né campo fisso.
+
+Entrambi valgono. L'errore è prenotare l'uno aspettandosi l'altro.
+
+## Cosa comporta davvero camminare
+
+Il nostro [trekking di 8 giorni a Chegaga](/it/tours/chegaga-camel-trek-8day)
+copre circa **83 km a piedi in cinque giornate** — poco meno di 17 km al
+giorno. Il percorso va dalla valle del Draa → l'hamada del Draa → il passo di
+Abbes verso l'**Erg Chegaga** → le dune di Bougarne → Oued Naam → M'hamid.
+
+Diciassette chilometri sembrano pochi. Sulla sabbia, al passo del deserto, sono
+una giornata piena. Il terreno è piatto, senza quota e senza tratti tecnici: a
+pesare è la ripetizione, non un singolo passaggio.
+
+## Si sale mai in groppa?
+
+Un po', brevemente, e meno di quanto immagini.
+
+Qui i cammelli sono animali da soma. Il loro lavoro è portare il campo; un
+cavaliere è peso in più su un animale che trasporta già una settimana di acqua
+e attrezzatura.
+
+Non è un limite di cui ci scusiamo. **È la struttura etica del viaggio**, e
+merita una spiegazione.
+
+## La questione del benessere animale
+
+Merita una risposta diretta, non un paragrafo rassicurante.
+
+Il Marocco **non ha una legge nazionale sul benessere animale**. Le inchieste di
+PETA nei siti turistici marocchini hanno documentato cammelli picchiati, legati
+con corde di pochi palmi senza ombra sotto il caldo estremo e venduti al macello
+appena smettono di essere redditizi, spesso dopo circa cinque anni. È reale e
+riguarda una parte reale del settore.
+
+Non descrive ogni operazione, e la differenza non è di marchio. È strutturale, e
+si verifica con cinque domande:
+
+- **Di chi sono i cammelli?** Quelli delle famiglie nomadi che li conducono non
+  sono curati come quelli di una concessione che li affitta a ore.
+- **Portano persone o attrezzatura?** Il carico distribuito su una carovana è
+  ben più leggero di una rotazione continua di cavalieri.
+- **Quanti cammelli per viaggiatore?** Più animali, meno peso ciascuno.
+- **Cosa succede fra una partenza e l'altra?** Riposo e pascolo, oppure legati a
+  un sito di giri turistici in attesa del gruppo successivo.
+- **E quando un animale è troppo vecchio?** La risposta onesta è il ritiro verso
+  i sedici-diciotto anni, non il macello.
+
+Fai queste domande a qualsiasi operatore, noi compresi. Chi lavora bene risponde
+subito e nel dettaglio, perché è semplicemente come già opera. La vaghezza è il
+segnale.
+
+I nostri cammelli appartengono alle famiglie di M'hamid che li accompagnano,
+portano attrezzatura e non passeggeri, e riposano fra le partenze. È anche
+esattamente per questo che si cammina.
+
+## Com'è dormire là fuori
+
+Non c'è campo fisso. Il bivacco si sposta con te.
+
+Conseguenze pratiche: niente impianti, niente generatore, niente wifi e — oltre
+le dune di Chegaga — nessuna luce artificiale entro una cinquantina di
+chilometri. Del cielo notturno la gente parla al ritorno, ed è conseguenza
+diretta di quella distanza.
+
+Le notti sono **fredde**. D'inverno, attorno a Chegaga, si sfiora lo zero, e lo
+sbalzo fra il pomeriggio e le tre del mattino è ciò che i principianti
+sottovalutano di più. Un sacco a pelo serio conta più di ogni altra cosa —
+vedi [cosa mettere in valigia per il deserto](/it/blog/what-to-pack-desert-tour-morocco).
+
+## Quando andare
+
+**Da ottobre ad aprile.** Fuori da questa finestra il caldo di mezzogiorno nel
+Draa rende insicura una carovana a piedi, e gli operatori seri smettono di
+organizzarla.
+
+- **Ottobre–novembre**: giornate calde, notti miti. L'ingresso più facile.
+- **Dicembre–febbraio**: limpido, freddo, ottimo per camminare. Porta il sacco.
+- **Marzo–aprile**: temperature in salita, giornate più lunghe, ultima finestra
+  comoda.
+
+## Chegaga o Chebbi?
+
+Le carovane funzionano all'Erg Chegaga e non all'Erg Chebbi, per una ragione di
+accesso. A Chebbi arriva una strada asfaltata da Merzouga, ed è ciò che rende
+possibili i campi fissi e i giri brevi. Chegaga dista una cinquantina di
+chilometri dal primo asfalto, il che esclude il modello dell'escursione e lascia
+la carovana come il modo onesto di entrarci.
+
+È tutto qui lo scambio: Chebbi è più raggiungibile e più affollato; Chegaga
+richiede giorni ed è vuoto. Confronto dettagliato in
+[Erg Chebbi o Erg Chegaga](/it/blog/erg-chebbi-vs-erg-chegaga).
+
+## A chi si adatta
+
+Una carovana fa per te se vuoi un percorso di cammino il cui terreno è un
+deserto, se stare davvero scollegato per quasi una settimana ti sta bene, e se
+sei giorni senza doccia fanno parte dell'attrattiva e non del prezzo.
+
+È il viaggio sbagliato se quello che vuoi sono dune al tramonto, una buona cena
+e un letto. Quel viaggio esiste, lo organizziamo, e non è inferiore: è diverso.
+Prenota quello che vuoi davvero.
+
+👉 **[Scopri il trekking di 8 giorni a Chegaga](/it/tours/chegaga-camel-trek-8day)** — 83 km a piedi fra Draa ed Erg Chegaga, bivacco mobile, cammelli delle famiglie di M'hamid che li accompagnano.
+`,
+  },
+  {
     slug: "3-day-sahara-tour-cost-marrakech",
     localizedSlug: "prezzo-tour-sahara-3-giorni-marrakech",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },

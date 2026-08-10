@@ -136,11 +136,10 @@ export const TOURS: Tour[] = [
     // the ascent, and the summit ridge.
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
-      "/gallery/toubkal-summit-guide-thumbs-up.jpg",
       "/gallery/toubkal-group-snow-ascent.jpg",
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-refuge-summer-approach.jpg",
           "/gallery/toubkal-national-park-entrance-sign.jpg",
       "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
       "/gallery/toubkal-national-park-peak-clouds.jpg",
@@ -452,8 +451,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
-      "https://images.unsplash.com/photo-1768498681713-e100323adb3c?w=1200&q=85",
-      "https://images.unsplash.com/photo-1603982626518-eff2f11a4e70?w=1200&q=85",
     ],
     shortDescription:
       "Morocco's most spectacular waterfalls — 110 m of cascading water, wild Barbary macaques, and a stunning gorge.",
@@ -525,7 +522,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/tours-agafay-desert-sunset.jpg",
     gallery: [
-      "/gallery/tours-agafay-desert-sunset.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
     ],
@@ -679,8 +675,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
-      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
     ],
     shortDescription:
       "Two of Morocco's greatest cities in three days — High Atlas pass, Ifrane, cedar forest, and the ancient medina of Fes.",
@@ -773,7 +767,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
-      "/gallery/category-hero-mgoun-massif.jpg",
       "/gallery/blog-anti-atlas-trekking-guide.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
@@ -924,8 +917,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
       "/gallery/tours-sous-massa-national-park.jpg",
-      "https://images.unsplash.com/photo-1497206365907-f5e630693df0?w=1200&q=85",
-      "https://images.unsplash.com/photo-1697703297863-26350bad726b?w=1200&q=85",
     ],
     shortDescription:
       "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve.",
@@ -999,8 +990,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
-      "https://images.unsplash.com/photo-1598590971729-d3040c9112cb?w=1200&q=85",
-      "https://images.unsplash.com/photo-1573133001449-a19835a04971?w=1200&q=85",
     ],
     shortDescription:
       "The 'grandmother of Marrakech' — ancient rose-red walls, spice souks, and a Berber market untouched by mass tourism.",
@@ -1070,7 +1059,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
-      "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
       "/gallery/blog-best-day-trips-from-agadir.jpg",
     ],
@@ -1141,8 +1129,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
-      "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
-      "https://images.unsplash.com/photo-1729442045686-fe062f3c6c16?w=1200&q=85",
     ],
     shortDescription:
       "Three days in the ancient Anti-Atlas — painted valleys, almond blossom gorges, and Berber villages with no other tourists.",
@@ -1323,8 +1309,6 @@ export const TOURS: Tour[] = [
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
       "/gallery/tours-souss-valley-cultural-tour.jpg",
-      "https://images.unsplash.com/photo-1750981081058-acc10295bc11?w=1200&q=85",
-      "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
     ],
     shortDescription:
       "Visit a women-run argan cooperative, a honey village, and a Berber family lunch in the Souss Valley.",
@@ -2787,13 +2771,12 @@ export const TOURS: Tour[] = [
     // changing with altitude and season rather than as mismatched stock.
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
-      "/gallery/ifni-lake-from-the-pass.jpg",
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
       "/gallery/toubkal-trekkers-below-summit.jpg",
       "/gallery/toubkal-summit-ridge-climbers.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-cirque-refuge-approach.jpg",
     ],
     shortDescription:
       "The full loop around Jbel Toubkal — remote Berber villages, high passes over 3,600 m, the turquoise Lake Ifni, and a summit finale at 4,167 m.",
@@ -2930,10 +2913,9 @@ export const TOURS: Tour[] = [
     // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
     heroImage: "/gallery/toubkal-summit-ridge-climbers.jpg",
     gallery: [
-      "/gallery/toubkal-summit-ridge-climbers.jpg",
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/toubkal-summit-group-pyramid.jpg",
           "/gallery/toubkal-national-park-entrance-sign.jpg",
       "/gallery/toubkal-trail-waterfall-gorge.jpg",
 ],
@@ -3130,7 +3112,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
-      "/gallery/destination-hero-toubkal-snow.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
       "/gallery/category-hero-mgoun-massif.jpg",
       "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
@@ -3236,7 +3217,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
-      "/gallery/tours-marrakech-food-market-tour.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/blog-morocco-food-guide-what-to-eat.jpg",
       "https://images.unsplash.com/photo-1596750320291-a082a23dcc19?w=1200&q=85",
@@ -3307,7 +3287,6 @@ export const TOURS: Tour[] = [
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
-      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
@@ -3394,8 +3373,7 @@ export const TOURS: Tour[] = [
     depositAmount: 72,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
-      "/gallery/ifni-cattle-stream-azib.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/trek-camp-golden-hour-valley.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
     ],
@@ -3484,9 +3462,8 @@ export const TOURS: Tour[] = [
     depositAmount: 106,
     heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
     gallery: [
-      "/gallery/ifni-mule-approach-toubkal-behind.jpg",
       "/gallery/ifni-cattle-stream-azib.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/guided-group-stream-crossing.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
           "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
       "/gallery/imlil-village-green-valley.jpg",
@@ -3587,9 +3564,8 @@ export const TOURS: Tour[] = [
     depositAmount: 141,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
-      "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
-      "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+      "/gallery/imlil-mule-trail-toubkal-behind.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
           "/gallery/toubkal-trail-waterfall-gorge.jpg",
       "/gallery/imlil-berber-village-kittens.jpg",
@@ -3813,7 +3789,7 @@ export const TOURS: Tour[] = [
     ],
     price: 1961,
     depositAmount: 431,
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3905,7 +3881,7 @@ export const TOURS: Tour[] = [
       { minPeople: 10, price: 378 }, // €328
       { minPeople: 14, price: 358 }, // €310
     ],
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
       "/gallery/toubkal-predawn-summit-start-crampons.jpg",
@@ -4036,7 +4012,6 @@ export const TOURS: Tour[] = [
     depositAmount: 685,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
-      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     ],

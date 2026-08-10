@@ -4,21 +4,27 @@ import AnimateInView from "@/components/ui/AnimateInView";
 import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
-// Authentic photos from our own Toubkal treks (shot on the Imlil → Sidi
-// Chamharouch trail in Toubkal National Park) are mixed with regional stock so
-// the gallery reads as real trips, not a stock reel.
+// Photographs from our own trips, shot by us and by our guides on departures we
+// ran. Every frame here is first-party: the summit shots are our own clients on
+// the Toubkal pyramid, the camps are ours, the guide is one of ours.
+//
+// Three entries used to be images already carrying the rest of the site (one of
+// them a medina doorway captioned as Sahara dunes), and the last was an external
+// Unsplash file — a stock photo of a place we run trips to, loaded from someone
+// else's CDN. Both were replaced: the point of this section is that these are
+// real trips, and a stock reel undercuts the claim it is making.
 const PHOTOS = [
   { src: "/gallery/toubkal-national-park-peak-clouds.jpg", alt: "Jbel Toubkal massif under dramatic cloud, Toubkal National Park, High Atlas Morocco", span: "col-span-1 row-span-2" },
-  { src: "/gallery/category-hero-medina-doorway.jpg", alt: "Erg Chebbi golden dunes at sunset, Merzouga Sahara Morocco" },
-  { src: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg", alt: "Camel caravan at rest in the Sahara desert" },
-  { src: "/gallery/blog-best-time-to-visit-morocco.jpg", alt: "Marrakech medina — iconic architecture and ancient streets" },
+  { src: "/gallery/toubkal-summit-group-pyramid.jpg", alt: "Our trekkers at the summit pyramid of Jbel Toubkal, 4,167 m, High Atlas Morocco" },
+  { src: "/gallery/trek-camp-golden-hour-valley.jpg", alt: "Our trek camp pitched above a High Atlas valley at golden hour, Morocco" },
+  { src: "/gallery/imlil-mule-trail-toubkal-behind.jpg", alt: "Riding the mule trail out of Imlil with the snow-covered Toubkal ridge behind, Morocco" },
   { src: "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg", alt: "Turquoise natural pool and waterfall on the Imlil to Sidi Chamharouch trail, Toubkal, Morocco", span: "col-span-1 row-span-2" },
-  { src: "/gallery/blog-essaouira-day-trip-from-agadir.jpg", alt: "Essaouira blue fishing boats Atlantic coast Morocco" },
-  { src: "/gallery/blog-chefchaouen-complete-travel-guide.jpg", alt: "The blue-washed streets of Chefchaouen in the Rif Mountains" },
+  { src: "/gallery/berber-guide-waterfall-portrait.jpg", alt: "One of our certified Berber mountain guides at a High Atlas waterfall, Morocco" },
+  { src: "/gallery/trek-camp-high-valley-dawn.jpg", alt: "Berber tents at our high-mountain trek camp at first light, High Atlas Morocco" },
   { src: "/gallery/imlil-village-green-valley.jpg", alt: "Imlil village terraced into its green High Atlas valley below the Toubkal peaks, Morocco" },
   { src: "/gallery/imlil-berber-village-kittens.jpg", alt: "Kittens on the stone steps of a Berber village in the High Atlas, Morocco" },
   { src: "/gallery/imlil-valley-night-stars.jpg", alt: "Imlil valley at night — village lights and stars below the High Atlas, Morocco" },
-  { src: "https://images.unsplash.com/photo-1670406071586-d6c619eab22b?w=800&q=85", alt: "Dramatic rocky Dadès Gorge landscape with layered sandstone cliffs, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/trek-winter-ascent-snow-traverse.jpg", alt: "Our group traversing a snow slope on a winter ascent in the High Atlas, Morocco", span: "col-span-1 row-span-2" },
 ];
 
 interface Props {

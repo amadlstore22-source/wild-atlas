@@ -2715,7 +2715,7 @@ Ne bâtissez pas des vacances autour de Ouarzazate — bâtissez-les autour du d
       { q: "Est-il moins cher d'engager un guide soi-même que de réserver un forfait ?", a: "Moins que ce que les gens imaginent. Le tarif journalier du guide n'est qu'une ligne de la facture — le refuge, les repas, la mule, les frais de parc et le transfert aller-retour depuis Marrakech représentent l'essentiel du reste. S'organiser soi-même offre plus de souplesse et un peu plus de contrôle sur le coût, surtout en grand groupe ; un forfait échange cela contre une logistique prise en charge." },
       { q: "Combien faut-il donner de pourboire à un guide du Toubkal ?", a: "Environ 10 à 15 % du coût du voyage, réparti entre le guide et le muletier, en espèces et en dirhams à la fin. C'est d'usage et apprécié, mais jamais obligatoire — donnez davantage si les conditions ont été difficiles ou si votre guide a sauvé une journée compliquée." },
     
-      { q: "Combien coûte un trek du Toubkal depuis Marrakech ?", a: "Notre [trek de 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à partir de 195 € par personne à deux et 153 € à six ; celui [de 4 jours](/fr/tours/toubkal-summit-trek-4day) à partir de 360 € à deux et 260 € à six. Les deux comprennent le transport aller-retour depuis Marrakech, le guide agréé, les nuits en refuge, tous les repas en montagne, le soutien des mules et les frais de parc national — le prix affiché est donc celui que vous payez, et non un tarif de base auquel s'ajoutent ensuite les coûts de la montagne." },
+      { q: "Combien coûte un trek du Toubkal depuis Marrakech ?", a: "Notre [trek de 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à partir de 195 € par personne à deux et 153 € à six ; celui [de 4 jours](/fr/tours/toubkal-summit-trek-4day) à partir de 360 € à deux et 295 € à six. Les deux comprennent le transport aller-retour depuis Marrakech, le guide agréé, les nuits en refuge, tous les repas en montagne, le soutien des mules et les frais de parc national — le prix affiché est donc celui que vous payez, et non un tarif de base auquel s'ajoutent ensuite les coûts de la montagne." },
     ],
     content: `
 ## Ce que coûte réellement un guide du Toubkal
@@ -4050,7 +4050,7 @@ pour moitié moins d'engagement.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Toubkal et Sahara en 5 jours — combien ça coûte ? (2026)",
     excerpt:
-      "Associer le plus haut sommet d'Afrique du Nord à une nuit dans les dunes de l'Erg Chebbi coûte 644 € par personne pour deux. Réserver les deux séparément revient à 543 € — moins cher sur le papier, mais avec un jour de battement et un retour en arrière. Voici le calcul.",
+      "Associer le plus haut sommet d'Afrique du Nord à une nuit dans les dunes de l'Erg Chebbi coûte 644 € par personne pour deux. Réserver les deux séparément revient à 575 € — moins cher sur le papier, mais avec un jour de battement et un retour en arrière. Voici le calcul.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -4063,7 +4063,7 @@ pour moitié moins d'engagement.
       "Ce que coûte le circuit combiné Toubkal et Sahara en 5 jours en 2026, détaillé — et ce que l'on gagne vraiment à les enchaîner plutôt qu'à les réserver séparément.",
     faq: [
       { q: "Combien coûte le circuit Toubkal et Sahara en 5 jours ?", a: "Notre [circuit montagne-désert en 5 jours](/fr/tours/toubkal-summit-sahara-5day) est à 644 € par personne pour deux. Cela couvre le guide de montagne agréé pour le trek du Toubkal, un chauffeur-guide privé pour la partie désert, les quatre nuits, le porteur à mule, les méharées à l'Erg Chebbi, les frais de parc et tous les transferts depuis Marrakech." },
-      { q: "Est-ce moins cher que de réserver le trek et le désert séparément ?", a: "Cela dépend du nombre de voyageurs. En solo c'est 1 040 € séparément contre 950 € combiné, et à quatre 435 € contre 392 € — moins cher les deux fois. À deux, l'inverse : 543 € séparément contre 644 € combiné, soit 101 € de plus, mais le trajet est continu. Le [sommet du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € et le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) à 348 € par personne pour deux, soit 543 € séparément contre 644 € en combiné : 41 € de moins. Et cela vous évite cinq jours avec deux retours distincts à Marrakech et une journée de transfert perdue entre les deux. Le combiné suit un itinéraire continu qui ne revient jamais sur ses pas, avec un véhicule privé du début à la fin." },
+      { q: "Est-ce moins cher que de réserver le trek et le désert séparément ?", a: "Cela dépend du nombre de voyageurs. En solo c'est 1 300 € séparément contre 950 € combiné, et à quatre 435 € contre 392 € — moins cher les deux fois. À deux, l'inverse : 575 € séparément contre 644 € combiné, soit 69 € de plus, mais le trajet est continu. Le [sommet du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € et le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) à 380 € par personne pour deux, soit 575 € séparément contre 644 € en combiné : 41 € de moins. Et cela vous évite cinq jours avec deux retours distincts à Marrakech et une journée de transfert perdue entre les deux. Le combiné suit un itinéraire continu qui ne revient jamais sur ses pas, avec un véhicule privé du début à la fin." },
       { q: "Faut-il de l'expérience pour la partie Toubkal ?", a: "C'est classé soutenu plutôt qu'expert. Vous dormez au refuge à 3 207 m et faites le sommet le lendemain matin — aucune technique nécessaire en été, mais c'est une longue montée en altitude. Une bonne condition physique suffit ; les ascensions hivernales demandent crampons et piolet." },
       { q: "Qu'est-ce qui n'est pas inclus ?", a: "L'assurance voyage (obligatoire pour le trek), l'équipement personnel et le sac de couchage, les déjeuners des journées désert (prévoir 12–15 € par repas), les crampons et le piolet pour un sommet entre novembre et mars, et les pourboires pour les guides, le chauffeur, le cuisinier et le muletier." },
     ],
@@ -4082,7 +4082,7 @@ perdue.
 
 | Option | Prix | Ce qui se passe |
 |---|---|---|
-| [Toubkal 2 jours](/fr/tours/toubkal-summit-2day-marrakech) + [Sahara 3 jours](/fr/tours/sahara-3day-marrakech) | 543 € | Retour à Marrakech entre les deux ; 5 jours plus un changement |
+| [Toubkal 2 jours](/fr/tours/toubkal-summit-2day-marrakech) + [Sahara 3 jours](/fr/tours/sahara-3day-marrakech) | 575 € | Retour à Marrakech entre les deux ; 5 jours plus un changement |
 | [Combiné 5 jours](/fr/tours/toubkal-summit-sahara-5day) | 644 € | Itinéraire continu, véhicule privé, aucun retour en arrière |
 
 Réserver séparément paraît 217 € moins cher. Ce que cela vous coûte, c'est la journée
@@ -4252,10 +4252,10 @@ Tout le reste — guide, deux nuits en gîte avec les repas, la mule et les deux
     tags: ["remise groupe circuit Maroc", "prix circuit privé par personne", "coût circuit Maroc par personne", "tarif selon la taille du groupe", "prix circuit désert 2 personnes", "budget voyage Maroc"],
     seoTitle: "Prix des circuits au Maroc selon la taille du groupe — 2026",
     seoDescription:
-      "Pourquoi un circuit privé au Maroc coûte 690 € pour une personne et 348 € chacune pour deux. Le tableau complet des prix par personne selon la taille du groupe.",
+      "Pourquoi un circuit privé au Maroc coûte 690 € pour une personne et 380 € chacune pour deux. Le tableau complet des prix par personne selon la taille du groupe.",
     faq: [
-      { q: "Pourquoi un circuit privé au Maroc est-il bien moins cher à deux qu'à une personne ?", a: "Parce qu'un circuit privé se facture au véhicule, pas au siège. Le 4x4, le chauffeur, le carburant et les nuits d'hébergement coûtent presque la même chose qu'une personne voyage ou deux. Sur notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le tarif solo est de 690 € et celui à deux de 348 € chacun — une baisse de 54 %, parce que le second voyageur n'ajoute que ses repas et son lit, pas un second véhicule." },
-      { q: "Combien j'économise en voyageant à quatre plutôt qu'à deux ?", a: "Sur le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le prix par personne passe de 348 € à deux à 260 € à quatre — environ 31 % chacun. L'économie est réelle mais bien moindre que celle de un à deux, car à quatre le coût fixe du véhicule est déjà largement réparti et vous n'ajoutez plus que des coûts par tête : repas, lits sous tente et location de dromadaire." },
+      { q: "Pourquoi un circuit privé au Maroc est-il bien moins cher à deux qu'à une personne ?", a: "Parce qu'un circuit privé se facture au véhicule, pas au siège. Le 4x4, le chauffeur, le carburant et les nuits d'hébergement coûtent presque la même chose qu'une personne voyage ou deux. Sur notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le tarif solo est de 690 € et celui à deux de 380 € chacun — une baisse de 54 %, parce que le second voyageur n'ajoute que ses repas et son lit, pas un second véhicule." },
+      { q: "Combien j'économise en voyageant à quatre plutôt qu'à deux ?", a: "Sur le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le prix par personne passe de 380 € à deux à 295 € à quatre — environ 31 % chacun. L'économie est réelle mais bien moindre que celle de un à deux, car à quatre le coût fixe du véhicule est déjà largement réparti et vous n'ajoutez plus que des coûts par tête : repas, lits sous tente et location de dromadaire." },
       { q: "Les remises de groupe s'appliquent-elles aussi aux circuits partagés ?", a: "Pas chez les autres opérateurs, et il vaut la peine de comprendre pourquoi. Un siège partagé est une place dans un minibus qui part que vous réserviez ou non : il n'y a aucun coût de véhicule à diviser, donc six sièges coûtent six fois un siège. La tarification de groupe n'existe que là où un véhicule et un guide se répartissent. Tous nos circuits sont privés, donc chacun affiche son tableau de paliers — y compris le [circuit Zagora de 2 jours](/fr/tours/zagora-2day-marrakech), à 77 € chacun à deux et 39 € à six." },
       { q: "Y a-t-il une taille de groupe où le prix cesse de baisser ?", a: "Oui. Au-delà de six personnes, le prix par personne s'aplatit, et au-delà de huit il ne bouge presque plus. À ce stade il faut un second véhicule ou un minibus plus grand, donc le coût fixe que vous répartissiez commence à se dupliquer. Nos paliers publiés vont jusqu'à quatorze personnes, mais les économies importantes se jouent toutes dans les six premières." },
       { q: "Les excursions à la journée offrent-elles des remises aussi fortes ?", a: "Elles baissent fortement de un à deux, puis se stabilisent vite. Une [visite de la médina de Marrakech](/fr/tours/marrakech-medina-cultural-tour) coûte 73 € en solo, 41 € chacun à deux, mais seulement 31 € à six — l'essentiel de l'économie arrive donc avec la deuxième personne. Ce qui se divise, c'est la journée d'un guide agréé : un seul coût, partagé une fois. Les circuits de plusieurs jours continuent de baisser parce qu'un véhicule, du carburant et l'hébergement se répartissent en plus." },
@@ -4273,14 +4273,14 @@ Voici ce que cela donne sur notre [circuit Sahara de 3 jours](/fr/tours/sahara-3
 | Voyageurs | Prix par personne | Total groupe |
 |---|---|---|
 | 1 | 690 € | 690 € |
-| 2 | 348 € | 696 € |
-| 3 | 292 € | 876 € |
-| 4 | 260 € | 1 040 € |
-| 5 | 236 € | 1 180 € |
-| 6 | 212 € | 1 272 € |
+| 2 | 380 € | 760 € |
+| 3 | 320 € | 960 € |
+| 4 | 295 € | 1 300 € |
+| 5 | 260 € | 1 300 € |
+| 6 | 230 € | 1 380 € |
 
-Observez la forme de la courbe. La baisse de un à deux est de **50 %**. Celle de
-cinq à six est de **10 %**. Cette courbe n'est pas une décision marketing — c'est
+Observez la forme de la courbe. La baisse de un à deux est de **45 %**. Celle de
+cinq à six est de **12 %**. Cette courbe n'est pas une décision marketing — c'est
 de l'arithmétique, et il vaut mieux la comprendre avant de comparer des devis.
 
 ## Pourquoi le premier passager porte tout le véhicule
@@ -4301,7 +4301,7 @@ Les **coûts par tête** augmentent avec le nombre de participants :
 
 Sur un court séjour, le bloc fixe est le plus important des deux. Un voyageur seul
 le paie intégralement. Un second voyageur n'en paie rien — il n'ajoute que son lit,
-son dîner et son dromadaire. Voilà toute l'explication de la falaise à 50 %, et le
+son dîner et son dromadaire. Voilà toute l'explication de la falaise à 45 %, et le
 tableau de tout opérateur honnête a la même forme.
 
 ## Ce que cela implique quand vous comparez les opérateurs
@@ -4309,7 +4309,7 @@ tableau de tout opérateur honnête a la même forme.
 La plupart des opérateurs marocains publient un prix solo puis un prix « à partir
 de », et les deux sont calculés pour des tailles de groupe différentes. Une accroche
 à 339 € correspond très souvent au tarif **pour quatre personnes**. Le nôtre à
-quatre est de 260 €.
+quatre est de 295 €.
 
 Quand vous comparez deux devis, vérifiez donc trois choses :
 
@@ -4403,7 +4403,7 @@ Chaque prix de ce site est publié par taille de groupe sur la page du circuit
 elle-même — il n'y a pas d'étape « contactez-nous pour les tarifs de groupe », et
 le nombre affiché pour votre groupe est celui que vous payez.
 
-👉 **[Découvrez le circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech)** — 348 € par personne à deux, 260 € à quatre, avec le tableau complet des paliers publié sur la page.
+👉 **[Découvrez le circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech)** — 380 € par personne à deux, 295 € à quatre, avec le tableau complet des paliers publié sur la page.
 `,
   },
   {
@@ -4520,7 +4520,7 @@ Le coût fixe du véhicule se répartit sur moins de jours, donc sur un court s�
 supplément solo pèse davantage :
 
 - [Circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) : **690 €** seul,
-  **348 €** chacun à deux, **260 €** à quatre, **212 €** à six
+  **380 €** chacun à deux, **295 €** à quatre, **230 €** à six
 - Une place partagée sur 3 jours tourne autour de **110–170 €** et n'en bouge pas
 
 Le schéma tient : le chiffre partagé ne bouge pas, le privé baisse jusqu'à le
@@ -4615,9 +4615,9 @@ Marrakech→Merzouga et la même durée :
 | Voyageurs | Chez nous | Un opérateur comparable, en direct |
 |---|---|---|
 | 1 | 690 € | 790 € |
-| 2 | 348 € chacun | 435 € chacun |
-| 4 | 260 € chacun | 325 € chacun |
-| 6 | 212 € chacun | 265 € chacun |
+| 2 | 380 € chacun | 435 € chacun |
+| 4 | 295 € chacun | 325 € chacun |
+| 6 | 230 € chacun | 265 € chacun |
 
 Ces deux colonnes sont des prix **directs**, et aucune n'inclut la commission d'un
 revendeur. Nous sommes en dessous à chaque taille de groupe : environ 13 % en solo,

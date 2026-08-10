@@ -3,10 +3,10 @@ import dynamic from "next/dynamic";
 import type { TourLocationMapProps } from "./TourLocationMapInner";
 
 /**
- * Client wrapper. Leaflet touches `window` at module load, so the actual map
- * must not render on the server — but `ssr: false` is only allowed inside a
+ * Client wrapper. MapLibre GL touches `window` at module load, so the actual
+ * map must not render on the server — but `ssr: false` is only allowed inside a
  * Client Component, not the server-rendered tour page. This thin wrapper is
- * that boundary: it dynamically imports the Leaflet implementation with SSR
+ * that boundary: it dynamically imports the map implementation with SSR
  * disabled and shows a sized placeholder until it hydrates.
  */
 const TourLocationMapInner = dynamic(() => import("./TourLocationMapInner"), {
@@ -21,11 +21,14 @@ export default function TourLocationMap(props: TourLocationMapProps) {
     <>
       {/* Scoped to the routes that actually draw a map. The tile connection is
           worth ~300 ms of mobile LCP when it is opened before the deferred
-          Leaflet bundle asks for a tile; in the shared layout the same hint was
+          map bundle asks for a tile; in the shared layout the same hint was
           an unused socket on every blog and content page. React hoists these
-          into <head>. */}
+          into <head>. Two hosts now: Esri serves the satellite imagery,
+          OpenFreeMap the vector labels and glyphs drawn over it. */}
       <link rel="preconnect" href="https://server.arcgisonline.com" crossOrigin="anonymous" />
       <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
+      <link rel="preconnect" href="https://tiles.openfreemap.org" crossOrigin="anonymous" />
+      <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
       <TourLocationMapInner {...props} />
     </>
   );

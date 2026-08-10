@@ -25,6 +25,14 @@ const PHOTOS = [
   { src: "/gallery/imlil-berber-village-kittens.jpg", alt: "Kittens on the stone steps of a Berber village in the High Atlas, Morocco" },
   { src: "/gallery/imlil-valley-night-stars.jpg", alt: "Imlil valley at night — village lights and stars below the High Atlas, Morocco" },
   { src: "/gallery/trek-winter-ascent-snow-traverse.jpg", alt: "Our group traversing a snow slope on a winter ascent in the High Atlas, Morocco", span: "col-span-1 row-span-2" },
+  // The Sahara was missing entirely: eleven High Atlas frames and nothing from
+  // the desert, on a site where the Merzouga and Chegaga trips are half the
+  // catalogue. Each of these was opened and checked before being listed — the
+  // gallery folder contains files whose names do not match their contents
+  // (destinations-sahara.jpg is Monument Valley, in Arizona).
+  { src: "/gallery/blog-hero-sahara-dunes-golden.jpg", alt: "Desert camp among the Erg Chebbi dunes at golden hour, Merzouga Sahara, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/tours-erg-chegaga-3day-marrakech.jpg", alt: "Berber tents pitched below the dunes of Erg Chegaga, Draa Valley, Morocco" },
+  { src: "/gallery/tours-merzouga-stargazing-desert-tour.jpg", alt: "The night sky over a dune at Erg Chebbi, Merzouga — no artificial light for 50 km, Morocco" },
 ];
 
 interface Props {

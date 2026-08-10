@@ -74,7 +74,9 @@ const DESTINATIONS: Destination[] = [
     lat: 31.1513,
     lng: -3.9785,
     color: "#B8722A",
-    image: "/gallery/destinations-sahara.jpg",
+    // Was destinations-sahara.jpg, which is a photograph of Monument Valley in
+    // Arizona — the American southwest standing in for Erg Chebbi.
+    image: "/gallery/tours-desert-4day-marrakech.jpg",
     description:
       "An ocean of golden dunes stretching to the Algerian border. Arrive by camel, sleep in a Berber camp, and watch sunrise paint the Sahara copper and gold.",
     known: [

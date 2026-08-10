@@ -238,12 +238,11 @@ export const TOURS: Tour[] = [
     reviewCount: 124,
     rating: 4.8,
     // Stored in USD (see lib/currency-core.ts) but SET FROM AN EUR LADDER:
-    // a benchmarked competitor table undercut by 20% at every published
-    // bracket, with the solo rate held at €690 rather than the −20% figure.
-    // Each value is EUR / 0.86693 rounded to the dollar, and every tier
-    // round-trips back to its exact euro figure at the current rate. If
-    // RATES.EUR is revised these need recomputing, or the displayed ladder
-    // drifts off the quoted one.
+    // the owner quotes 690 / 380 / 320 / 295 / 260 / 230 EUR per person, flat
+    // from six up. Each value is EUR / 0.86693 rounded to the dollar, and
+    // every tier round-trips back to its exact euro figure at the current
+    // rate. If RATES.EUR is revised these need recomputing, or the displayed
+    // ladder drifts off the quoted one.
     price: 796,
     depositAmount: 175,
     // Priced per exact group size, mirroring how these trips are quoted.
@@ -261,19 +260,11 @@ export const TOURS: Tour[] = [
     // strictly rising across 1–17.
     groupPricing: [
       { minPeople: 1, price: 796 },
-      { minPeople: 2, price: 401 },
-      { minPeople: 3, price: 337 },
-      { minPeople: 4, price: 300 },
-      { minPeople: 5, price: 272 },
-      { minPeople: 6, price: 245 },
-      { minPeople: 7, price: 226 },
-      { minPeople: 8, price: 215 },
-      { minPeople: 9, price: 205 },
-      { minPeople: 10, price: 198 },
-      { minPeople: 11, price: 194 },
-      { minPeople: 12, price: 189 },
-      { minPeople: 13, price: 185 },
-      { minPeople: 14, price: 180 },
+      { minPeople: 2, price: 438 },
+      { minPeople: 3, price: 369 },
+      { minPeople: 4, price: 340 },
+      { minPeople: 5, price: 300 },
+      { minPeople: 6, price: 265 },
     ],
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -347,7 +338,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €690 for one traveller, €348 each for two, €292 for three, and €212 each from six people.",
+    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €690 for one traveller, €380 each for two, €320 for three, and €230 each from six people.",
     featured: true,
   },
   {

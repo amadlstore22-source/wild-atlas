@@ -2715,7 +2715,7 @@ Bauen Sie keinen Urlaub um Ouarzazate – bauen Sie ihn um die Wüste und lassen
       { q: "Ist es günstiger, selbst einen Führer zu engagieren, als ein Paket zu buchen?", a: "Weniger, als die meisten erwarten. Der Tagessatz des Führers ist nur eine Zeile der Rechnung — Hütte, Verpflegung, Maultier, Parkgebühr und der Hin- und Rücktransfer ab Marrakesch machen den Großteil des Rests aus. Selbst organisieren gibt mehr Flexibilität und etwas mehr Kostenkontrolle, besonders in größeren Gruppen; ein Paket tauscht das gegen erledigte Logistik." },
       { q: "Wie viel Trinkgeld gibt man einem Toubkal-Bergführer?", a: "Etwa 10–15 % der Reisekosten, aufgeteilt zwischen Führer und Maultiertreiber, bar in Dirham am Ende. Es ist üblich und wird geschätzt, aber nie verpflichtend — geben Sie mehr, wenn die Bedingungen hart waren oder Ihr Führer einen schwierigen Tag gerettet hat." },
     
-      { q: "Was kostet ein Toubkal-Trek ab Marrakesch?", a: "Unser [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) kostet ab 195 € pro Person zu zweit und 153 € zu sechst; der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 360 € zu zweit und 260 € zu sechst. Beide enthalten den Transfer ab Marrakesch und zurück, den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, Maultierunterstützung und die Nationalparkgebühren — die angezeigte Zahl ist also die, die Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später addiert werden." },
+      { q: "Was kostet ein Toubkal-Trek ab Marrakesch?", a: "Unser [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) kostet ab 195 € pro Person zu zweit und 153 € zu sechst; der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 360 € zu zweit und 295 € zu sechst. Beide enthalten den Transfer ab Marrakesch und zurück, den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, Maultierunterstützung und die Nationalparkgebühren — die angezeigte Zahl ist also die, die Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später addiert werden." },
     ],
     content: `
 ## Was ein Toubkal-Bergführer tatsächlich kostet
@@ -4025,7 +4025,7 @@ halben Aufwand ab.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Toubkal und Sahara in 5 Tagen — was kostet das? (2026)",
     excerpt:
-      "Den höchsten Gipfel Nordafrikas mit einer Nacht in den Dünen von Erg Chebbi zu verbinden kostet 644 € pro Person bei zwei Reisenden. Beides getrennt zu buchen kommt auf 543 € — auf dem Papier günstiger, aber mit einem Wechseltag und einer doppelt gefahrenen Strecke. Hier ist die Rechnung.",
+      "Den höchsten Gipfel Nordafrikas mit einer Nacht in den Dünen von Erg Chebbi zu verbinden kostet 644 € pro Person bei zwei Reisenden. Beides getrennt zu buchen kommt auf 575 € — auf dem Papier günstiger, aber mit einem Wechseltag und einer doppelt gefahrenen Strecke. Hier ist die Rechnung.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -4038,7 +4038,7 @@ halben Aufwand ab.
       "Was die kombinierte 5-Tages-Tour Toubkal und Sahara 2026 kostet, aufgeschlüsselt — und warum getrennt gebuchte Trek- und Wüstentouren am Ende teurer werden.",
     faq: [
       { q: "Was kostet die 5-Tages-Tour Toubkal und Sahara?", a: "Unsere [5-tägige Berg-und-Wüste-Tour](/de/tours/toubkal-summit-sahara-5day) kostet 644 € pro Person bei zwei Reisenden. Darin enthalten sind der lizenzierte Bergführer für den Toubkal-Trek, ein privater Fahrer-Guide für die Wüstenetappe, alle vier Nächte, der Maultierträger, die Kamelritte am Erg Chebbi, die Parkgebühren und sämtliche Transfers ab Marrakesch." },
-      { q: "Ist es günstiger, Trek und Wüstentour getrennt zu buchen?", a: "Das hängt von der Gruppengröße ab. Allein sind es 1.040 € getrennt gegenüber 950 € kombiniert, zu viert 435 € gegenüber 392 € — beide Male günstiger. Zu zweit ist es umgekehrt: 543 € getrennt gegenüber 644 € kombiniert, also 101 € mehr, dafür eine durchgehende Route. Der [2-Tages-Toubkal-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € und die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) 348 € pro Person bei zwei Reisenden — zusammen 543 € gegenüber 644 € kombiniert, also 41 € weniger. Dazu sparen Sie sich fünf Tage mit zwei getrennten Rückfahrten nach Marrakesch und einem verlorenen Transfertag dazwischen. Die Kombination folgt einer durchgehenden Route ohne Umwege, mit privatem Fahrzeug von Anfang bis Ende." },
+      { q: "Ist es günstiger, Trek und Wüstentour getrennt zu buchen?", a: "Das hängt von der Gruppengröße ab. Allein sind es 1.300 € getrennt gegenüber 950 € kombiniert, zu viert 435 € gegenüber 392 € — beide Male günstiger. Zu zweit ist es umgekehrt: 575 € getrennt gegenüber 644 € kombiniert, also 69 € mehr, dafür eine durchgehende Route. Der [2-Tages-Toubkal-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € und die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) 380 € pro Person bei zwei Reisenden — zusammen 575 € gegenüber 644 € kombiniert, also 41 € weniger. Dazu sparen Sie sich fünf Tage mit zwei getrennten Rückfahrten nach Marrakesch und einem verlorenen Transfertag dazwischen. Die Kombination folgt einer durchgehenden Route ohne Umwege, mit privatem Fahrzeug von Anfang bis Ende." },
       { q: "Brauche ich Trekkingerfahrung für die Toubkal-Etappe?", a: "Sie ist als anspruchsvoll eingestuft, nicht als Experten-Route. Sie schlafen in der Hütte auf 3.207 m und gehen am folgenden Morgen auf den Gipfel — im Sommer ohne technische Anforderungen, aber es ist ein langer Anstieg in der Höhe. Vernünftige Grundkondition genügt; Winterbesteigungen brauchen Steigeisen und Pickel." },
       { q: "Was ist nicht enthalten?", a: "Reiseversicherung (für den Trek verpflichtend), persönliche Trekkingausrüstung und Schlafsack, die Mittagessen an den Wüstentagen (kalkulieren Sie 12–15 € pro Mahlzeit), Steigeisen und Pickel bei einer Besteigung zwischen November und März, sowie Trinkgelder für Führer, Fahrer, Koch und Maultiertreiber." },
     ],
@@ -4056,7 +4056,7 @@ verlorener Tag.
 
 | Option | Preis | Was passiert |
 |---|---|---|
-| [Toubkal 2 Tage](/de/tours/toubkal-summit-2day-marrakech) + [Sahara 3 Tage](/de/tours/sahara-3day-marrakech) | 543 € | Rückkehr nach Marrakesch dazwischen; 5 Tage plus Wechsel |
+| [Toubkal 2 Tage](/de/tours/toubkal-summit-2day-marrakech) + [Sahara 3 Tage](/de/tours/sahara-3day-marrakech) | 575 € | Rückkehr nach Marrakesch dazwischen; 5 Tage plus Wechsel |
 | [Kombiniert 5 Tage](/de/tours/toubkal-summit-sahara-5day) | 644 € | Durchgehende Route, privates Fahrzeug, keine Umwege |
 
 Getrennt gebucht sieht es 217 € günstiger aus. Was es kostet, ist der Tag zwischen den
@@ -4225,10 +4225,10 @@ Transfers — steckt in den 235 €.
     tags: ["Marokko Tour Gruppenrabatt", "Privattour Preis pro Person", "Marokko Tour Kosten pro Person", "Preis nach Gruppengröße", "Wüstentour Preis 2 Personen", "Marokko Reisebudget"],
     seoTitle: "Marokko-Tourpreise nach Gruppengröße — Tabelle 2026",
     seoDescription:
-      "Warum eine Marokko-Privattour für eine Person 690 € kostet und für zwei je 348 €. Die komplette Preistabelle pro Person nach Gruppengröße und der Grund für den steilen Abfall.",
+      "Warum eine Marokko-Privattour für eine Person 690 € kostet und für zwei je 380 €. Die komplette Preistabelle pro Person nach Gruppengröße und der Grund für den steilen Abfall.",
     faq: [
-      { q: "Warum ist eine Marokko-Privattour für zwei Personen so viel günstiger als für eine?", a: "Weil eine Privattour pro Fahrzeug berechnet wird, nicht pro Sitzplatz. Der 4x4, der Fahrer, der Kraftstoff und die Übernachtungen kosten fast dasselbe, ob eine Person reist oder zwei. Bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) liegt der Einzelpreis bei 690 € und der Preis zu zweit bei je 348 € — ein Rückgang von 54 %, weil der zweite Reisende nur seine eigenen Mahlzeiten und sein Bett hinzufügt, nicht ein zweites Fahrzeug." },
-      { q: "Wie viel spare ich, wenn wir zu viert statt zu zweit reisen?", a: "Bei der [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) sinkt der Preis pro Person von 348 € zu zweit auf 260 € zu viert — rund 31 % pro Person. Die Ersparnis ist real, aber deutlich kleiner als der Sprung von eins auf zwei, denn bei vier Personen sind die fixen Fahrzeugkosten bereits weit verteilt und Sie addieren nur noch Kosten pro Kopf: Mahlzeiten, Betten im Zelt und den Kamelritt." },
+      { q: "Warum ist eine Marokko-Privattour für zwei Personen so viel günstiger als für eine?", a: "Weil eine Privattour pro Fahrzeug berechnet wird, nicht pro Sitzplatz. Der 4x4, der Fahrer, der Kraftstoff und die Übernachtungen kosten fast dasselbe, ob eine Person reist oder zwei. Bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) liegt der Einzelpreis bei 690 € und der Preis zu zweit bei je 380 € — ein Rückgang von 54 %, weil der zweite Reisende nur seine eigenen Mahlzeiten und sein Bett hinzufügt, nicht ein zweites Fahrzeug." },
+      { q: "Wie viel spare ich, wenn wir zu viert statt zu zweit reisen?", a: "Bei der [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) sinkt der Preis pro Person von 380 € zu zweit auf 295 € zu viert — rund 31 % pro Person. Die Ersparnis ist real, aber deutlich kleiner als der Sprung von eins auf zwei, denn bei vier Personen sind die fixen Fahrzeugkosten bereits weit verteilt und Sie addieren nur noch Kosten pro Kopf: Mahlzeiten, Betten im Zelt und den Kamelritt." },
       { q: "Gelten Gruppenrabatte auch für geteilte Wüstentouren?", a: "Nein, und es lohnt sich zu verstehen, warum. Eine geteilte Tour wie der [2-tägige Zagora-Trip](/de/tours/zagora-2day-marrakech) wird pro Sitzplatz zu 77 € verkauft — Sie kaufen einen Platz in einem Minibus, der ohnehin fährt. Es gibt keine Fahrzeugkosten zu teilen, also kosten sechs Plätze das Sechsfache eines Platzes. Gruppenpreise gibt es nur bei Privattouren." },
       { q: "Gibt es eine Gruppengröße, ab der der Preis nicht mehr sinkt?", a: "Ja. Ab sechs Personen flacht der Preis pro Person ab, und ab acht bewegt er sich kaum noch. An diesem Punkt braucht es ein zweites Fahrzeug oder einen größeren Minibus, sodass sich die Fixkosten, die Sie gerade verteilt haben, zu verdoppeln beginnen. Unsere veröffentlichten Staffeln reichen bis vierzehn Personen, aber die relevanten Ersparnisse liegen alle in den ersten sechs." },
       { q: "Sind die Rabatte bei Tagestouren genauso hoch wie bei Mehrtagestouren?", a: "Sie fallen von eins auf zwei stark und flachen dann schnell ab. Eine [Medina-Tour in Marrakesch](/de/tours/marrakech-medina-cultural-tour) kostet allein 73 €, zu zweit je 41 € und zu sechst nur 31 € — fast die gesamte Ersparnis kommt also mit der zweiten Person. Geteilt wird der Tag eines lizenzierten Guides: eine einzige Kostenstelle, einmal aufgeteilt. Mehrtagestouren fallen weiter, weil zusätzlich Fahrzeug, Kraftstoff und Unterkunft verteilt werden." },
@@ -4246,14 +4246,14 @@ So sieht das bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakec
 | Reisende | Preis pro Person | Gruppensumme |
 |---|---|---|
 | 1 | 690 € | 690 € |
-| 2 | 348 € | 696 € |
-| 3 | 292 € | 876 € |
-| 4 | 260 € | 1.040 € |
-| 5 | 236 € | 1.180 € |
-| 6 | 212 € | 1.272 € |
+| 2 | 380 € | 760 € |
+| 3 | 320 € | 960 € |
+| 4 | 295 € | 1.300 € |
+| 5 | 260 € | 1.300 € |
+| 6 | 230 € | 1.380 € |
 
-Achten Sie auf den Verlauf. Der Sprung von eins auf zwei beträgt **50 %**. Der von
-fünf auf sechs **10 %**. Diese Kurve ist keine Marketingentscheidung — sie ist
+Achten Sie auf den Verlauf. Der Sprung von eins auf zwei beträgt **45 %**. Der von
+fünf auf sechs **12 %**. Diese Kurve ist keine Marketingentscheidung — sie ist
 Arithmetik, und man sollte sie verstehen, bevor man Angebote vergleicht.
 
 ## Warum der erste Passagier das ganze Fahrzeug trägt
@@ -4282,7 +4282,7 @@ sein Bett, sein Abendessen und sein Kamel. Das ist die gesamte Erklärung für d
 Die meisten marokkanischen Veranstalter veröffentlichen einen Einzelpreis und dann
 einen „ab"-Preis, und beide sind für unterschiedliche Gruppengrößen gerechnet. Ein
 Aufhänger von 339 € ist sehr oft der Preis **für vier Personen**. Unserer liegt bei
-vier Personen bei 260 €.
+vier Personen bei 295 €.
 
 Prüfen Sie beim Vergleich zweier Angebote also drei Dinge:
 
@@ -4372,7 +4372,7 @@ Jeder Preis auf dieser Website wird nach Gruppengröße auf der Tourseite selbst
 veröffentlicht — es gibt keinen Schritt „kontaktieren Sie uns für Gruppenpreise",
 und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
 
-👉 **[Zur 3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech)** — 348 € pro Person zu zweit, 260 € zu viert, mit der vollständigen Staffeltabelle auf der Seite.
+👉 **[Zur 3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech)** — 380 € pro Person zu zweit, 295 € zu viert, mit der vollständigen Staffeltabelle auf der Seite.
 `,
   },
   {
@@ -4486,7 +4486,7 @@ Die festen Fahrzeugkosten verteilen sich auf weniger Tage, auf einer kurzen Reis
 wiegt der Alleinreisenden-Aufschlag also schwerer:
 
 - [3-Tage-Sahara-Tour](/de/tours/sahara-3day-marrakech): **690 €** allein,
-  **348 €** pro Person zu zweit, **260 €** zu viert, **212 €** zu sechst
+  **380 €** pro Person zu zweit, **295 €** zu viert, **230 €** zu sechst
 - Ein geteilter 3-Tage-Platz liegt bei etwa **110–170 €** und bleibt dort
 
 Das Muster hält: Die geteilte Zahl bewegt sich nicht, die private fällt, bis sie sie
@@ -4581,9 +4581,9 @@ derselben Route Marrakesch→Merzouga über dieselben drei Tage:
 | Reisende | Bei uns | Ein vergleichbarer Veranstalter, direkt |
 |---|---|---|
 | 1 | 690 € | 790 € |
-| 2 | je 348 € | je 435 € |
-| 4 | je 260 € | je 325 € |
-| 6 | je 212 € | je 265 € |
+| 2 | je 380 € | je 435 € |
+| 4 | je 295 € | je 325 € |
+| 6 | je 230 € | je 265 € |
 
 Beide Spalten sind **Direktpreise**, in keiner steckt die Provision eines
 Wiederverkäufers. Wir liegen bei jeder Gruppengröße darunter: rund 13 % allein und

@@ -105,7 +105,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Drâa-Tafilalet",
     lat: 31.1513,
     lng: -3.9785,
-    heroImage: "/gallery/destinations-sahara.jpg",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
     about:
       "L'Erg Chebbi, près du village de Merzouga, est la portion la plus spectaculaire de mer de sable saharienne du Maroc — un champ de dunes étoilées de 50 km² culminant à 150 mètres au-dessus de la hamada plane (plaine caillouteuse). Les dunes sont entièrement composées d'un sable fin orangé-rouge, sculpté par les vents dominants du nord-ouest en classiques croissants de barkhanes. Au coucher et au lever du soleil, la lumière transforme l'Erg en un paysage d'or et de cuivre en fusion, unique au monde.",
     knownFor: [

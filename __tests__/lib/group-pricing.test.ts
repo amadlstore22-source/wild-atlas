@@ -164,15 +164,16 @@ describe("3-day Sahara tour pricing", () => {
 
   it("stays below the competitor at every benchmarked group size", () => {
     // marrakech-desert-trips.com's published table, verified Aug 2026. The
-    // ladder is that table cut by 20%, except solo which is held at €690
-    // (13% under their €790 rather than 20%). Guarding the band in both
-    // directions still catches a mistyped tier, and it catches a rival price
-    // cut that would leave us above the market without our data changing.
+    // owner's ladder undercuts it at every size, but not by a uniform margin:
+    // ~13% at one, two and six, and ~9% at four where their bracket is keenest.
+    // Guarding the band in both directions still catches a mistyped tier, and
+    // it catches a rival price cut that would leave us above the market without
+    // our own data changing.
     const theirs: Record<number, number> = { 1: 790, 2: 435, 4: 325, 6: 265 };
     for (const [pax, their] of Object.entries(theirs)) {
       const ours = priceIn(perPersonPrice(tour, Number(pax)), "EUR");
       const undercut = 1 - ours / their;
-      expect(undercut, `${pax} pax: €${ours} vs €${their}`).toBeGreaterThan(0.1);
+      expect(undercut, `${pax} pax: €${ours} vs €${their}`).toBeGreaterThan(0.05);
       expect(undercut, `${pax} pax: €${ours} vs €${their}`).toBeLessThan(0.25);
     }
   });

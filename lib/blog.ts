@@ -201,7 +201,7 @@ The deep-dive guides below cover each region in full detail.
       { q: "What is the Toubkal Refuge like?", a: "It is a working mountain hut at around 3,200 metres, not a hotel. Expect shared dormitory rooms, bunk beds with mattresses and blankets, communal meals, and cold nights. Bring a sleeping bag liner, a head torch and earplugs, and treat the early night as part of the plan since summit starts are well before dawn." },
       { q: "What is the best time of year to climb Toubkal?", a: "April to October is the straightforward season, with the most settled weather from May to September. November to March is a genuine winter mountaineering trip: snow on the upper route, crampons and an ice axe required, and conditions that turn quickly. Both are possible with a guide, but they are different undertakings." },
     
-      { q: "How much does it cost to climb Toubkal?", a: "With us the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) from €360 for two and €260 at six. Both include the licensed guide, refuge nights, all meals on the mountain, national park fees and return transport from Marrakech. Arranging it yourself is cheaper on paper but the gap narrows fast once you have paid guide, refuge, mule and transport separately." },
+      { q: "How much does it cost to climb Toubkal?", a: "With us the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) from €360 for two and €295 at six. Both include the licensed guide, refuge nights, all meals on the mountain, national park fees and return transport from Marrakech. Arranging it yourself is cheaper on paper but the gap narrows fast once you have paid guide, refuge, mule and transport separately." },
       { q: "Can a beginner climb Toubkal?", a: "Yes, and most people who summit it are not mountaineers. There is no technical climbing on the standard route in summer — no rope, no scrambling that needs hands for balance beyond the odd rocky step. What it does demand is the ability to walk uphill for five to six hours on consecutive days at altitude. If you can manage a long hilly day walk at home without dreading the next one, you have the engine for it. Winter is a different mountain and does need crampons, an ice axe and the skills to use them." },
       { q: "What is the success rate on Toubkal?", a: "Far higher on the 4-day itinerary than the 2-day, and the reason is always altitude rather than fitness. The 2-day goes from 1,740 m at Imlil to 4,167 m in roughly thirty hours, which is fast enough that some people are turned back by headache and nausea regardless of how fit they are. The 4-day walks in gradually with a night to acclimatise first. If reaching the summit matters more to you than the extra days cost, take the longer itinerary." },
       { q: "Do you need a permit to climb Toubkal?", a: "You need a national park access fee, which is included in every Toubkal trek we run, so there is nothing for you to arrange or queue for. Since 2018 Moroccan authorities also require trekkers in the Toubkal massif to be accompanied by a licensed guide, which is enforced at the Imlil trailhead — that is a legal requirement rather than an upsell, and it is the reason the mountain has no genuine unguided option." },
@@ -2072,7 +2072,7 @@ If you tell us how many days you have and what you actually want out of the dese
     faq: [
       {
         q: "How much does a 3-day Sahara desert tour from Marrakech cost?",
-        a: "Most 3-day desert tours cost between €140 and €280 per person in 2026. Shared group departures run roughly €110 to €170, private tours €190 to €330, and luxury camps €370 to €650. The cheapest advertised departures start near €85, which is achieved by cutting group size limits, camp quality, or schedule. For reference, our own [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €348 per person for two travellers and €260 each for four, private throughout — inside the private-tour range above rather than above it.",
+        a: "Most 3-day desert tours cost between €140 and €280 per person in 2026. Shared group departures run roughly €110 to €170, private tours €190 to €330, and luxury camps €370 to €650. The cheapest advertised departures start near €85, which is achieved by cutting group size limits, camp quality, or schedule. For reference, our own [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €380 per person for two travellers and €295 each for four, private throughout — inside the private-tour range above rather than above it.",
       },
       {
         q: "How much should you tip on a Morocco desert tour?",
@@ -2104,7 +2104,7 @@ Here is what a Sahara trip from Marrakech costs in 2026, per person:
 
 The cheapest departures on the big resale platforms advertise from around **€85** for three days. The comfortable end of shared sits near **€280**. Both numbers are real. They buy different trips.
 
-For a fixed point in that range: our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€348 per person for two** and **€260 each for four**, private throughout — and our [2-day Zagora trip](/en/tours/zagora-2day-marrakech) starts at **€77 per person**. Those two numbers bracket most of the table above.
+For a fixed point in that range: our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€380 per person for two** and **€295 each for four**, private throughout — and our [2-day Zagora trip](/en/tours/zagora-2day-marrakech) starts at **€77 per person**. Those two numbers bracket most of the table above.
 
 ## Where the money goes
 
@@ -4902,7 +4902,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
       { q: "Is it cheaper to hire a guide yourself than book a package?", a: "Usually less than people expect. The guide's day rate is only one line of the bill — the refuge, meals, mule, park fee and the return transfer from Marrakech make up most of the rest. Self-organising gives you more flexibility and slightly more control over cost, especially in a larger group; a package trades that for having the logistics handled." },
       { q: "How much should I tip a Toubkal guide?", a: "Around 10–15% of the trip cost, split between the guide and the muleteer, paid in cash in dirhams at the end. It is customary and appreciated but never compulsory — give more if conditions were hard or your guide made a difficult day work." },
     
-      { q: "What does a Toubkal trek cost from Marrakech?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €360 for two and €260 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain, mule support and national park fees — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
+      { q: "What does a Toubkal trek cost from Marrakech?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €360 for two and €295 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain, mule support and national park fees — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
     ],
     content: `
 ## What a Toubkal guide actually costs
@@ -5159,7 +5159,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
     seoDescription:
       "What a 4-day Toubkal trek costs in 2026: guide, refuges, mule, park fees and transfer broken down in dirhams, and how the total compares with the 2-day route and a package from €360.",
     faq: [
-      { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €360 per person for two, €260 at six, or €650 solo — all of it included." },
+      { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €360 per person for two, €295 at six, or €650 solo — all of it included." },
       { q: "Why is the 4-day not double the price of the 2-day?", a: "Because the largest costs are charged per trip rather than per day. The Marrakech transfer, the mule hire and a share of the guide's engagement are the same whether you walk for two days or four. Only the daily guide rate, the refuge nights and the meals scale with duration — which is why €195 becomes €360 rather than €390." },
       { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €165 buys a materially higher chance of standing on the summit." },
       { q: "What extra costs should I budget for on a 4-day trek?", a: "Travel insurance covering trekking to altitude, personal equipment, and tips of 10–15% split between the guide and muleteer. Between November and March add crampons and ice axe rental at roughly 100–150 MAD per day. Everything else — refuges, all meals, mule, park fees and transfers — is included in our package." },
@@ -5169,7 +5169,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
 
 Two people organising a 4-day Toubkal trek themselves typically spend
 **4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair)**. Our packaged
-[4-day trek](/en/tours/toubkal-summit-trek-4day) is **from €360 per person** for two — €650 solo, €260 at six.
+[4-day trek](/en/tours/toubkal-summit-trek-4day) is **from €360 per person** for two — €650 solo, €295 at six.
 
 ## The itemised bill
 
@@ -5640,7 +5640,7 @@ experience — it is a different one. Book the one you want.
     seoDescription:
       "What a 3-day Marrakech to Merzouga Sahara tour costs in 2026, what separates budget and private trips, and the hidden costs in cheap desert tour quotes.",
     faq: [
-      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €350 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €690 for one traveller, €348 each for two, €292 for three, dropping to €212 each at six, and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
+      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €350 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €690 for one traveller, €380 each for two, €320 for three, dropping to €230 each at six, and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
       { q: "Why are some Morocco desert tours so cheap?", a: "The savings come from four places, and it is worth knowing which: a shared 16-seat minibus rather than a private vehicle; a basic camp with shared bathrooms rather than private ones; lunches excluded on both driving days; and a larger group, which means more stops and less flexibility. None of that is dishonest if disclosed — ask which applies before paying." },
       { q: "Is the 3-day Sahara tour enough time?", a: "It is the shortest itinerary that reaches Erg Chebbi properly. Merzouga is about 560 km from Marrakech, so days one and three are substantially driving days, with the desert night in between. If you want more time in the dunes rather than the car, the [4-day route](/en/tours/desert-4day-marrakech) adds a night and a slower pace." },
       { q: "What is not included in a 3-day desert tour?", a: "On our trip, lunches on days one and three, plus personal expenses and tips. Lunches on the road are typically 60–120 MAD each at the roadside restaurants the route uses. Tips for the driver-guide and camp staff are customary at around 10–15%." },
@@ -5654,7 +5654,7 @@ operators are greedy. It is because "3-day Sahara tour" describes four quite dif
 products.
 
 Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€690 for one traveller,
-€348 each for two, and €212 each at six**. That is the part most price lists
+€380 each for two, and €230 each at six**. That is the part most price lists
 hide: on a private tour the vehicle and the driver-guide cost the same whether one
 person or six is sitting in it, so the per-person price drops as the group fills the
 car. A €95 shared seat never does that, because you are buying a seat, not the vehicle.
@@ -5717,11 +5717,11 @@ hour from Marrakech, good for a night but not a Sahara substitute. We compare th
 
 ## Where the money goes
 
-Booking platforms take **25–40%** commission. On a €348 booking that is up to €139 leaving
+Booking platforms take **25–40%** commission. On a €380 booking that is up to €139 leaving
 Morocco — more than the camp and the camel handlers earn between them. Direct booking with
 any Moroccan operator keeps it with the people running the camp.
 
-👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — from €690 solo, €348 each for two; private 4x4, desert camp, sunset camel ride included.
+👉 **[See the 3-day Sahara tour from Marrakech](/en/tours/sahara-3day-marrakech)** — from €690 solo, €380 each for two; private 4x4, desert camp, sunset camel ride included.
 `,
   },
   {
@@ -6219,7 +6219,7 @@ the commitment.
       "What the combined 5-day Toubkal summit and Sahara desert tour costs in 2026, itemised — and why booking the trek and the desert trip separately comes to more.",
     faq: [
       { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €950 for one traveller, €644 each for two and €392 each for four. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
-      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "It depends on how many of you there are. Solo it is €1,040 separately against €950 combined, and at four it is €435 against €392 — cheaper both times. For a pair it runs the other way: the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €195 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €348 each, so €543 separately against €644 combined — €101 more. What the combined trip also buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
+      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "It depends on how many of you there are. Solo it is €1,300 separately against €950 combined, and at four it is €490 against €392 — cheaper both times. For a pair it runs the other way: the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €195 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €380 each, so €575 separately against €644 combined — €69 more. What the combined trip also buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
       { q: "Do I need trekking experience for the Toubkal leg?", a: "It is graded challenging rather than expert. You sleep at the refuge at 3,207 m and summit the following morning — no technical skill needed in summer, but it is a long ascent at altitude. Reasonable hill fitness is enough; winter ascents need crampons and an ice axe." },
       { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and March, and tips for the guides, driver, cook and muleteer." },
     ],
@@ -6237,10 +6237,10 @@ the difference is a wasted day.
 
 | Option | Price | What happens |
 |---|---|---|
-| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €543 | Return to Marrakech between them; 5 days plus a changeover |
+| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €575 | Return to Marrakech between them; 5 days plus a changeover |
 | [5-day combined](/en/tours/toubkal-summit-sahara-5day) | €644 | Continuous route, private vehicle, no backtracking |
 
-At two travellers, booking separately is €101 cheaper on the headline figure. What it
+At two travellers, booking separately is €69 cheaper on the headline figure. What it
 costs you is the day between the two trips — you come down from Imlil to Marrakech, sleep, then set off south the next
 morning over ground you have partly already covered. The combined itinerary runs
 Imlil → Aït Ben Haddou → Dades → Erg Chebbi as one line.
@@ -6402,10 +6402,10 @@ transfers — is in the €235.
     tags: ["Morocco tour group discount", "private tour price per person", "Morocco tour cost per person", "group size pricing", "desert tour price 2 people", "Morocco travel budget"],
     seoTitle: "Morocco Tour Prices by Group Size — Full 2026 Table",
     seoDescription:
-      "Why a Morocco private tour costs €690 for one person and €348 each for two. The full per-person price table by group size, and the reason the drop is so steep.",
+      "Why a Morocco private tour costs €690 for one person and €380 each for two. The full per-person price table by group size, and the reason the drop is so steep.",
     faq: [
-      { q: "Why is a Morocco private tour so much cheaper for two people than for one?", a: "Because a private tour is priced per vehicle, not per seat. The 4x4, the driver, the fuel and the nights of accommodation cost almost the same whether one person travels or two. On our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the solo rate is €690 and the rate for two is €348 each — a 50% drop, because the second traveller adds only their own meals and bed, not a second vehicle." },
-      { q: "How much do I save by travelling with four people instead of two?", a: "On the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the per-person price falls from €348 at two people to €260 at four — about 25% each. The saving is real but much smaller than the one-to-two drop, because by four people the fixed vehicle cost has already been spread thin and you are mostly adding per-head costs: meals, tent beds and camel hire." },
+      { q: "Why is a Morocco private tour so much cheaper for two people than for one?", a: "Because a private tour is priced per vehicle, not per seat. The 4x4, the driver, the fuel and the nights of accommodation cost almost the same whether one person travels or two. On our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the solo rate is €690 and the rate for two is €380 each — a 50% drop, because the second traveller adds only their own meals and bed, not a second vehicle." },
+      { q: "How much do I save by travelling with four people instead of two?", a: "On the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the per-person price falls from €380 at two people to €295 at four — about 25% each. The saving is real but much smaller than the one-to-two drop, because by four people the fixed vehicle cost has already been spread thin and you are mostly adding per-head costs: meals, tent beds and camel hire." },
       { q: "Do group discounts apply to shared desert tours as well?", a: "Not with other operators, and it is worth understanding why. A shared seat is one place in a minibus that runs whether you book or not, so there is no vehicle cost to divide and six seats cost six times one. Group pricing only exists where a vehicle and guide are being shared out. Every tour we run is private, so all of ours carry a tier table — including the [2-day Zagora trip](/en/tours/zagora-2day-marrakech)." },
       { q: "Is there a group size where the price stops falling?", a: "Yes. Past six people the per-person price flattens, and past eight it barely moves at all. At that point a second vehicle or a larger minibus is needed, so the fixed cost you were spreading starts to duplicate. Our published tiers run to fourteen people, but the meaningful savings are all in the first six." },
       { q: "Do day tours discount as steeply as multi-day tours?", a: "They discount steeply from one to two, then flatten fast. A [Marrakech medina tour](/en/tours/marrakech-medina-cultural-tour) is €73 solo and €41 each for two, but only €31 at six — so almost the whole saving arrives with the second person. A guide’s day is the cost being divided, and two people already split it. Multi-day tours keep falling further because a vehicle, fuel and accommodation are being spread as well." },
@@ -6422,14 +6422,14 @@ Here is what that looks like on our [3-day Sahara tour](/en/tours/sahara-3day-ma
 | Travellers | Price per person | Group total |
 |---|---|---|
 | 1 | €690 | €690 |
-| 2 | €348 | €696 |
-| 3 | €292 | €876 |
-| 4 | €260 | €1,040 |
-| 5 | €236 | €1,180 |
-| 6 | €212 | €1,272 |
+| 2 | €380 | €760 |
+| 3 | €320 | €960 |
+| 4 | €295 | €1,300 |
+| 5 | €260 | €1,300 |
+| 6 | €230 | €1,380 |
 
-Notice the shape. The drop from one to two is **50%**. The drop from five to six is
-**10%**. That curve is not a marketing decision — it is arithmetic, and it is worth
+Notice the shape. The drop from one to two is **45%**. The drop from five to six is
+**12%**. That curve is not a marketing decision — it is arithmetic, and it is worth
 understanding before you compare quotes.
 
 ## Why the first passenger carries the whole vehicle
@@ -6457,7 +6457,7 @@ cliff, and every honest operator’s table has the same shape.
 
 Most Moroccan operators publish a solo price and then a "from" price, and the two
 are calculated at different group sizes. A €339 headline is very often the
-**four-person** rate. Ours at four people is €260.
+**four-person** rate. Ours at four people is €295.
 
 So when you compare two quotes, check three things:
 
@@ -6548,7 +6548,7 @@ Every price on this site is published per group size on the tour page itself —
 there is no "contact us for group rates" step, and the number shown at your group
 size is the number you pay.
 
-👉 **[See the 3-day Sahara tour](/en/tours/sahara-3day-marrakech)** — €348 per person for two, €260 for four, with the full tier table published on the page.
+👉 **[See the 3-day Sahara tour](/en/tours/sahara-3day-marrakech)** — €380 per person for two, €295 for four, with the full tier table published on the page.
 `,
   },
   {
@@ -6659,8 +6659,8 @@ for the full curve.
 The fixed vehicle cost is spread over fewer days, so on a short trip the solo
 premium bites harder:
 
-- [3-day Sahara tour](/en/tours/sahara-3day-marrakech): **€690** solo, **€348**
-  each for two, **€292** each for four, **€238** at six
+- [3-day Sahara tour](/en/tours/sahara-3day-marrakech): **€690** solo, **€380**
+  each for two, **€320** each for four, **€238** at six
 - A shared 3-day seat sits around **€110–170** and stays there
 
 The pattern holds: the shared number does not move, the private one falls until
@@ -6753,13 +6753,13 @@ Marrakech→Merzouga route over the same three days:
 | Travellers | Ours | A comparable operator, direct |
 |---|---|---|
 | 1 | €690 | €790 |
-| 2 | €348 each | €435 each |
-| 4 | €260 each | €325 each |
-| 6 | €212 each | €265 each |
+| 2 | €380 each | €435 each |
+| 4 | €295 each | €325 each |
+| 6 | €230 each | €265 each |
 
 Both of those are **direct** prices, and neither includes a reseller’s commission.
-We sit below them at every group size, by roughly 13% solo and about 20% once
-there are two or more of you. That gap is deliberate rather than a sale, and it
+We sit below them at every group size, by roughly 13% at most sizes and about
+9% at four. That gap is deliberate rather than a sale, and it
 is the same table we publish on the tour page — compare it against anyone.
 
 The spread between two direct operators is ordinary competition, and it is

@@ -105,7 +105,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Drâa-Tafilalet",
     lat: 31.1513,
     lng: -3.9785,
-    heroImage: "/gallery/destinations-sahara.jpg",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
     about:
       "Erg Chebbi, nahe dem Dorf Merzouga, ist der spektakulärste Abschnitt saharischen Sandmeers in Marokko – ein 50 km² großes Feld aus Sterndünen, das sich bis zu 150 Meter über die flache Hamada (Kieswüste) erhebt. Die Dünen bestehen vollständig aus feinem, orangerotem Sand, den die vorherrschenden Nordwestwinde zu klassischen sichelförmigen Barchandünen geformt haben. Bei Sonnenuntergang und Sonnenaufgang verwandelt das Licht den Erg in eine Landschaft aus geschmolzenem Gold und Kupfer, die es so nirgendwo sonst auf der Erde gibt.",
     knownFor: [

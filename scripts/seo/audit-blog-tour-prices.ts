@@ -14,14 +14,14 @@
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { TOURS } from "../../lib/tours";
+import { TOURS, type Tour } from "../../lib/tours";
 import { RATES } from "../../lib/currency-core";
 
 const EUR = RATES.EUR;
 const eur = (usd: number) => Math.round(usd * EUR);
 
 /** Every euro figure a tour can legitimately be quoted at. */
-function legitimateFigures(tour: any): Set<number> {
+function legitimateFigures(tour: Tour): Set<number> {
   const out = new Set<number>();
   const tiers = tour.groupPricing ?? [{ minPeople: 1, price: tour.price }];
   for (const t of tiers) {
@@ -35,8 +35,8 @@ function legitimateFigures(tour: any): Set<number> {
   return out;
 }
 
-const bySlug = new Map<string, any>();
-for (const t of TOURS as any[]) bySlug.set(t.slug, t);
+const bySlug = new Map<string, Tour>();
+for (const t of TOURS) bySlug.set(t.slug, t);
 
 const blogDir = join(process.cwd(), "lib");
 const blogFiles = readdirSync(blogDir).filter(
@@ -94,7 +94,13 @@ for (const h of suspect) {
 console.log(`${suspect.length} blog figure(s) do not match any price of the tour they link to.\n`);
 for (const [slug, hits] of [...byTour.entries()].sort((a, b) => b[1].length - a[1].length)) {
   const tour = bySlug.get(slug);
-  const tiers = (tour.groupPricing ?? []).map((t: any) => `${t.minPeople}:${eur(t.price)}`).join("  ");
+  // Every hit was built from a slug that resolved above, so this cannot miss —
+  // but the map lookup is still Tour | undefined and skipping is safer than a
+  // non-null assertion that would crash the audit if the invariant ever broke.
+  if (!tour) continue;
+  const tiers = (tour.groupPricing ?? [])
+    .map((t) => `${t.minPeople}:${eur(t.price)}`)
+    .join("  ");
   console.log(`\n=== ${slug} ===`);
   console.log(`   actual EUR tiers -> ${tiers || eur(tour.price)}`);
   for (const h of hits) {

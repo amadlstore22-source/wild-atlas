@@ -105,7 +105,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Drâa-Tafilalet",
     lat: 31.1513,
     lng: -3.9785,
-    heroImage: "/gallery/destinations-sahara.jpg",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
     about:
       "Erg Chebbi, cerca del pueblo de Merzouga, es la sección más espectacular del mar de arena sahariano de Marruecos: un campo de dunas estrelladas de 50 km² que se eleva hasta 150 metros sobre la hamada llana (llanura de grava). Las dunas están compuestas enteramente de fina arena rojiza-anaranjada, esculpida por los vientos dominantes del noroeste en clásicas formas de barjanes en forma de media luna. Al atardecer y al amanecer, la luz transforma el Erg en un paisaje de oro y cobre fundidos que no existe en ningún otro lugar del mundo.",
     knownFor: [

@@ -65,17 +65,17 @@ describe("tour meeting points", () => {
 
     for (const tour of TOURS) {
       const points = [
-        { name: `${tour.slug} meetingPoint`, ...tour.meetingPoint },
+        { ...tour.meetingPoint, label: `${tour.slug} meetingPoint` },
         ...(tour.itinerary ?? [])
           .filter((d) => d.stop)
-          .map((d) => ({ name: `${tour.slug} day ${d.day} ${d.stop!.name}`, ...d.stop! })),
+          .map((d) => ({ ...d.stop!, label: `${tour.slug} day ${d.day} ${d.stop!.name}` })),
       ];
 
       for (const p of points) {
-        if (UNSOURCEABLE.some((u) => p.name.includes(u))) continue;
+        if (UNSOURCEABLE.some((u) => p.label.includes(u))) continue;
         const dp = (v: number) => (String(v).split(".")[1] ?? "").length;
         if (Math.min(dp(p.lat), dp(p.lng)) < 2) {
-          vague.push(`${p.name}: ${p.lat}, ${p.lng}`);
+          vague.push(`${p.label}: ${p.lat}, ${p.lng}`);
         }
       }
     }

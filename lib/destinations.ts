@@ -135,7 +135,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Drâa-Tafilalet",
     lat: 31.1513,
     lng: -3.9785,
-    heroImage: "/gallery/destinations-sahara.jpg",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
     about:
       "Erg Chebbi, near the village of Merzouga, is Morocco's most spectacular section of Saharan sand sea — a 50 km² field of star dunes rising to 150 metres above the flat hamada (gravel plain). The dunes are entirely composed of fine orange-red sand sculpted by prevailing northwesterly winds into classic crescent barchan shapes. At sunset and sunrise, the light transforms the Erg into a landscape of molten gold and copper that exists nowhere else on earth.",
     knownFor: [

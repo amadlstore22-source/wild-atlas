@@ -17,6 +17,9 @@ export interface RouteStop {
   lng: number;
   /** 1-based order label shown in the pin; omitted for a plain single marker. */
   day?: number;
+  /** Last day of a multi-night stay, set by mergeStopsAtSameLocation so one pin
+   *  can read "2-3". Equal to `day` for a single-night stop. */
+  dayEnd?: number;
 }
 
 export interface TourLocationMapProps {
@@ -36,12 +39,22 @@ export interface TourLocationMapProps {
 function pinIcon(color: string, label: string, wide = false) {
   const w = 34;
   const h = 44;
+  // A merged range ("2-3") needs a wider well than a single digit, and the
+  // glyphs must shrink to fit inside it. Sized so three characters clear the
+  // circle edge at the same visual weight a lone digit has.
+  const long = label.length > 1;
+  const rx = long ? 11 : 6;
+  const fontSize = long ? 8.5 : 9;
   return L.divIcon({
     html: `<div style="position:relative;display:inline-block;">
       <svg width="${w}" height="${h}" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="${color}"/>
-        <circle cx="14" cy="14" r="6" fill="white" fill-opacity="0.95"/>
-        <text x="14" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="${color}" font-family="system-ui,sans-serif">${label}</text>
+        ${
+          long
+            ? `<rect x="${14 - rx}" y="8" width="${rx * 2}" height="12" rx="6" fill="white" fill-opacity="0.95"/>`
+            : `<circle cx="14" cy="14" r="${rx}" fill="white" fill-opacity="0.95"/>`
+        }
+        <text x="14" y="${long ? 17.5 : 18}" text-anchor="middle" font-size="${fontSize}" font-weight="700" fill="${color}" font-family="system-ui,sans-serif">${label}</text>
       </svg>
       ${
         wide
@@ -53,6 +66,48 @@ function pinIcon(color: string, label: string, wide = false) {
     iconSize: [w, wide ? 64 : h],
     iconAnchor: [w / 2, h],
   });
+}
+
+/**
+ * Collapse stops that share a coordinate into a single pin.
+ *
+ * A multi-night stay repeats the same lat/lng for each night, so the map drew
+ * one marker exactly on top of another: `marrakech-to-chefchaouen-4day` has
+ * four stops at two locations and rendered as two pins with no indication that
+ * either covers two days. Merging is also the more truthful label — you really
+ * do spend days 2-3 in Fes, and "2-3" says so where a hidden duplicate did not.
+ *
+ * Grouped by rounded coordinate rather than exact equality: the same place is
+ * sometimes entered at slightly different precision across itinerary entries.
+ * ~50 m is far tighter than any two genuine stops on these routes.
+ */
+export function mergeStopsAtSameLocation(stops: RouteStop[]): RouteStop[] {
+  const out: RouteStop[] = [];
+  const indexByKey = new Map<string, number>();
+
+  stops.forEach((s, i) => {
+    const key = `${s.lat.toFixed(3)},${s.lng.toFixed(3)}`;
+    const existing = indexByKey.get(key);
+    if (existing === undefined) {
+      indexByKey.set(key, out.length);
+      out.push({ ...s, day: s.day ?? i + 1, dayEnd: s.day ?? i + 1 });
+      return;
+    }
+    // Extend the run. Days on one route are ascending, so the later stop is
+    // always the end of the range.
+    out[existing].dayEnd = s.day ?? i + 1;
+  });
+
+  return out;
+}
+
+/** "3" for a single day, "2-3" for a stay spanning several. */
+export function stopLabel(stop: RouteStop): string {
+  const start = stop.day;
+  const end = stop.dayEnd;
+  if (start === undefined) return "";
+  if (end === undefined || end === start) return String(start);
+  return `${start}-${end}`;
 }
 
 export default function TourLocationMapInner({
@@ -69,8 +124,13 @@ export default function TourLocationMapInner({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const hasRoute = Array.isArray(stops) && stops.length >= 2;
-    const points: RouteStop[] = hasRoute ? stops! : [{ name, lat, lng }];
+    // Merge before deciding whether this is a route: a "4-day" itinerary whose
+    // stops sit at two locations is a two-pin map, and the straight-line
+    // fallback should be drawn between those two, not between four coincident
+    // points.
+    const merged = Array.isArray(stops) ? mergeStopsAtSameLocation(stops) : [];
+    const hasRoute = merged.length >= 2;
+    const points: RouteStop[] = hasRoute ? merged : [{ name, lat, lng }];
 
     const map = L.map(containerRef.current, {
       center: [lat, lng],
@@ -117,17 +177,19 @@ export default function TourLocationMapInner({
 
     // Markers
     points.forEach((p, i) => {
-      const label = hasRoute ? String(p.day ?? i + 1) : "";
+      const label = hasRoute ? stopLabel(p) || String(i + 1) : "";
+      // "Day 2-3" reads correctly for a merged stay; "Day 2" for a single night.
+      const dayText = label.includes("-") ? `Days ${label}` : `Day ${label}`;
       // `alt` becomes the marker's accessible name. Without it Leaflet renders
       // role="button" with only a digit inside, so a screen reader announces
       // "1, button" with no indication of what it marks. Lighthouse flags this
       // under "ARIA commands must have an accessible name".
       const marker = L.marker([p.lat, p.lng], {
         icon: hasRoute ? pinIcon(color, label) : pinIcon(color, "", true),
-        alt: hasRoute ? `Day ${p.day ?? i + 1}: ${p.name}` : p.name,
+        alt: hasRoute ? `${dayText}: ${p.name}` : p.name,
       }).addTo(map);
       marker.bindPopup(
-        `<strong>${hasRoute ? `Day ${p.day ?? i + 1} · ` : ""}${p.name}</strong>`,
+        `<strong>${hasRoute ? `${dayText} · ` : ""}${p.name}</strong>`,
         { closeButton: false }
       );
       if (!hasRoute) {
@@ -143,7 +205,12 @@ export default function TourLocationMapInner({
     if (hasRoute) {
       const pts: [number, number][] = points.map((p) => [p.lat, p.lng]);
       if (Array.isArray(routeGeometry) && routeGeometry.length >= 2) pts.push(...routeGeometry);
-      map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 11 });
+      // maxZoom 11 was capping compact treks that could comfortably show real
+      // terrain, while doing nothing for the long desert routes (Agadir to
+      // Merzouga spans ~534 km and is bounds-limited far below any cap). Raising
+      // it lets a tight route zoom in properly; the long ones are unaffected
+      // because their own extent, not the cap, decides the zoom.
+      map.fitBounds(L.latLngBounds(pts), { padding: [28, 28], maxZoom: 13 });
     }
 
     L.control.attribution({ position: "bottomright", prefix: false }).addTo(map);

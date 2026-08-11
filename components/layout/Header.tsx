@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import {
   List, X, CaretDown, Globe, CurrencyCircleDollar,
-  SunHorizon, Footprints, Tent, Compass,
+  SunHorizon, Footprints, Tent, Compass, UsersThree,
 } from "@phosphor-icons/react";
 import { useCurrency, CURRENCIES, CURRENCY_SYMBOL, type Currency } from "@/lib/currency";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -48,6 +48,10 @@ export default function Header({ lang, dict }: Props) {
     { label: dict.categories.trekking, href: `/${lang}/categories/trekking`, Icon: Footprints },
     { label: dict.categories.desertTours, href: `/${lang}/categories/desert`, Icon: Tent },
     { label: dict.categories.culturalTours, href: `/${lang}/categories/cultural`, Icon: Compass },
+    // Shared departures are a booking type, not a category — they span desert
+    // and day-tours — so this anchors the /tours section rather than a
+    // /categories page, which would 404.
+    { label: dict.categories.sharedTours, href: `/${lang}/tours#shared`, Icon: UsersThree },
   ];
 
   const NAV = [

@@ -42,6 +42,14 @@ const ROAD_TOURS = new Set([
   // We route from stop 2 (summit area / Imlil) onward so the desert leg snaps to
   // roads while the mountain leg stays a straight line to the summit.
   "toubkal-summit-sahara-5day",
+  // Shared daily departures. Same roads as their private equivalents — the
+  // difference is who else is in the minibus, not the route.
+  //
+  // Only the multi-day ones. The three shared day trips (Ouzoud, Agafay,
+  // Essaouira) carry a single itinerary stop, so there is no leg to route
+  // between — same as their private twins, which are also absent here.
+  "shared-merzouga-3day-marrakech",
+  "shared-zagora-2day-marrakech",
 ]);
 
 // Extract, per tour, its ordered stop coordinates from the English source.

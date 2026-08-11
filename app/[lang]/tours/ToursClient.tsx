@@ -254,7 +254,8 @@ export default function ToursClient({
         ) : (
           <>
             {sharedTours.length > 0 && !isFiltering && (
-              <section className="mb-14">
+              // scroll-mt clears the sticky header when the nav links to #shared.
+              <section id="shared" className="mb-14 scroll-mt-28">
                 <h2 className="font-display text-ink text-2xl font-bold">
                   {dict.tours.sharedHeading}
                 </h2>

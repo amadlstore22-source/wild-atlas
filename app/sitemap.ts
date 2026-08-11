@@ -15,7 +15,7 @@ const BASE = "https://marrakechecotours.com";
 // changed on every deploy — Google learns the dates are noise and discounts
 // them for crawl scheduling. Bump this only when tour content is meaningfully
 // revised, so the signal stays honest.
-const CATALOGUE_LASTMOD = new Date("2026-07-24");
+const CATALOGUE_LASTMOD = new Date("2026-08-11");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

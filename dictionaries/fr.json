@@ -47,6 +47,7 @@
     "dayTours": "Excursions d'une journée",
     "desertTours": "Circuits dans le désert",
     "culturalTours": "Circuits culturels",
+    "sharedTours": "Circuits partagés",
     "noToursYet": "Aucun circuit dans cette catégorie pour l'instant — revenez bientôt !"
   },
   "featuredTours": {

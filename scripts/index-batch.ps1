@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   Submits a batch of URLs to the Google Indexing API.
 
@@ -93,11 +93,23 @@ if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 # Record the run so the next invocation today knows the remaining quota.
 # Counts what was ATTEMPTED, not what succeeded: a 429 still consumes nothing,
 # but anything that returned 200 did, and attempts are the safe over-estimate.
-# Skipped on -DryRun, which sends nothing.
-if (-not $DryRun) {
+#
+# Only when node actually ran, though. This used to add $count unconditionally,
+# so a run that died on a network error before sending a single URL still
+# charged the full batch against the day -- one ETIMEDOUT took the ledger to
+# 400/200 having submitted nothing, and locked out the rest of the day.
+# Exit code 0 means the submitter completed and printed its own tally; anything
+# else means we cannot know what went out, and the safe assumption for a
+# CONNECTION failure is that nothing did.
+$submitterExit = $LASTEXITCODE
+if (-not $DryRun -and $submitterExit -eq 0) {
   $newTotal = $usedToday + $count
   @{ date = $today; count = $newTotal } | ConvertTo-Json -Compress |
     Set-Content -Path $ledger -Encoding utf8
   Write-Host ""
   Write-Host "Quota used today: $newTotal / 200" -ForegroundColor DarkGray
+} elseif (-not $DryRun) {
+  Write-Host ""
+  Write-Host "Submitter exited with code $submitterExit - ledger NOT advanced." -ForegroundColor Yellow
+  Write-Host "If it failed before sending, today's quota is untouched. Re-run when the network is back." -ForegroundColor Yellow
 }

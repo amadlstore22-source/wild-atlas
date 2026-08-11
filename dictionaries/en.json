@@ -176,7 +176,9 @@
     "priceRange": "{min} to {max}",
     "pricePlus": "{price}+",
     "private": "Private",
-    "shared": "Shared"
+    "shared": "Shared",
+    "sharedHeading": "Shared tours — daily departures",
+    "sharedIntro": "A seat on a fixed daily departure, shared with other travellers. Flat price per person, no group-size discount to work out: the vehicle runs whether you book or not. Cheaper than the private equivalent, less flexible on stops."
   },
   "tourDetail": {
     "overview": "Overview",

@@ -176,7 +176,9 @@
     "priceRange": "{min} bis {max}",
     "pricePlus": "{price}+",
     "private": "Privat",
-    "shared": "Geteilt"
+    "shared": "Geteilt",
+    "sharedHeading": "Gruppentouren — tägliche Abfahrten",
+    "sharedIntro": "Ein Platz auf einer festen täglichen Abfahrt, geteilt mit anderen Reisenden. Pauschalpreis pro Person, ohne Gruppenrabatt: das Fahrzeug fährt, ob Sie buchen oder nicht. Günstiger als die private Variante, weniger flexibel bei den Stopps."
   },
   "tourDetail": {
     "overview": "Überblick",

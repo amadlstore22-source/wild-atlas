@@ -136,6 +136,19 @@ export default function ToursClient({
     ? dict.tours.toursFound.replace("{count}", String(filtered.length))
     : dict.tours.toursFoundPlural.replace("{count}", String(filtered.length));
 
+  // Shared daily departures, surfaced above the grid rather than left to be
+  // found by scrolling. They are a different product from everything else here:
+  // a fixed seat on a departure that runs regardless, at a flat per-person
+  // price, where every other tour is private and prices per booking. Hidden
+  // while a filter is active so it does not compete with the user's own query.
+  const sharedTours = useMemo(
+    () => tours.filter((t) => t.tourType === "shared"),
+    [tours]
+  );
+  const isFiltering =
+    search !== "" || category !== "all" || difficulty !== "all" ||
+    origin !== "all" || duration !== "all" || price !== "all";
+
   const chip = (activeState: boolean) =>
     `px-3 py-1.5 rounded-[3px] text-xs font-semibold transition-colors border ${
       activeState
@@ -240,6 +253,22 @@ export default function ToursClient({
           </div>
         ) : (
           <>
+            {sharedTours.length > 0 && !isFiltering && (
+              <section className="mb-14">
+                <h2 className="font-display text-ink text-2xl font-bold">
+                  {dict.tours.sharedHeading}
+                </h2>
+                <p className="text-ink-muted text-sm mt-2 mb-6 max-w-2xl leading-relaxed">
+                  {dict.tours.sharedIntro}
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {sharedTours.map((tour) => (
+                    <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* h2, not p: the hero is h1 and the cards are h3, so without a
                 level-2 here the heading order skips (Lighthouse a11y). The
                 results count is the honest label for this region. */}

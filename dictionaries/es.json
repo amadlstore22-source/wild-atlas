@@ -176,7 +176,9 @@
     "priceRange": "{min} a {max}",
     "pricePlus": "{price}+",
     "private": "Privado",
-    "shared": "Compartido"
+    "shared": "Compartido",
+    "sharedHeading": "Circuitos compartidos — salidas diarias",
+    "sharedIntro": "Una plaza en una salida diaria fija, compartida con otros viajeros. Precio único por persona, sin descuento por tamaño de grupo: el vehículo sale reserves o no. Más barato que el equivalente privado, menos flexible en las paradas."
   },
   "tourDetail": {
     "overview": "Resumen",

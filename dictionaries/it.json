@@ -176,7 +176,9 @@
     "priceRange": "Da {min} a {max}",
     "pricePlus": "{price}+",
     "private": "Privato",
-    "shared": "Condiviso"
+    "shared": "Condiviso",
+    "sharedHeading": "Tour condivisi — partenze giornaliere",
+    "sharedIntro": "Un posto su una partenza giornaliera fissa, condivisa con altri viaggiatori. Prezzo fisso a persona, senza sconti per dimensione del gruppo: il veicolo parte che tu prenoti o no. Più economico del privato, meno flessibile sulle soste."
   },
   "tourDetail": {
     "overview": "Panoramica",

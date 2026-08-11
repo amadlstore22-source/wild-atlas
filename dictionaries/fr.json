@@ -176,7 +176,9 @@
     "priceRange": "{min} à {max}",
     "pricePlus": "{price}+",
     "private": "Privé",
-    "shared": "Partagé"
+    "shared": "Partagé",
+    "sharedHeading": "Circuits partagés — départs quotidiens",
+    "sharedIntro": "Une place sur un départ quotidien fixe, partagé avec d'autres voyageurs. Prix forfaitaire par personne, sans remise selon la taille du groupe : le véhicule part que vous réserviez ou non. Moins cher que l'équivalent privé, moins souple sur les arrêts."
   },
   "tourDetail": {
     "overview": "Aperçu",

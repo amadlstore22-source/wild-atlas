@@ -93,6 +93,11 @@ const BLOG_SLUGS_IT: Record<string, string> = {
  * Same contract as the blog maps above: must stay in sync with
  * `localizedSlug` in lib/tours.<locale>.ts, which a test asserts. */
 const TOUR_SLUGS_FR: Record<string, string> = {
+  "shared-merzouga-3day-marrakech": "desert-merzouga-3-jours-partage",
+  "shared-zagora-2day-marrakech": "desert-zagora-2-jours-partage",
+  "shared-ouzoud-waterfalls-day-trip": "excursion-partagee-cascades-ouzoud",
+  "shared-agafay-dinner-camel-ride": "agafay-diner-dromadaire-spectacle-feu",
+  "shared-essaouira-day-trip": "excursion-partagee-essaouira",
   "toubkal-summit-trek-4day": "trek-sommet-toubkal-4-jours",
   "sahara-3day-marrakech": "circuit-desert-3-jours-marrakech",
   "ourika-valley-day-hike": "randonnee-vallee-ourika-journee",
@@ -137,6 +142,11 @@ const TOUR_SLUGS_FR: Record<string, string> = {
 };
 
 const TOUR_SLUGS_ES: Record<string, string> = {
+  "shared-merzouga-3day-marrakech": "desierto-merzouga-3-dias-compartido",
+  "shared-zagora-2day-marrakech": "desierto-zagora-2-dias-compartido",
+  "shared-ouzoud-waterfalls-day-trip": "excursion-compartida-cascadas-ouzoud",
+  "shared-agafay-dinner-camel-ride": "agafay-cena-camello-espectaculo-fuego",
+  "shared-essaouira-day-trip": "excursion-compartida-essaouira",
   "toubkal-summit-trek-4day": "trek-cumbre-toubkal-4-dias",
   "sahara-3day-marrakech": "tour-desierto-3-dias-marrakech",
   "ourika-valley-day-hike": "senderismo-valle-ourika",
@@ -181,6 +191,11 @@ const TOUR_SLUGS_ES: Record<string, string> = {
 };
 
 const TOUR_SLUGS_DE: Record<string, string> = {
+  "shared-merzouga-3day-marrakech": "merzouga-wueste-3-tage-geteilt",
+  "shared-zagora-2day-marrakech": "zagora-wueste-2-tage-geteilt",
+  "shared-ouzoud-waterfalls-day-trip": "ouzoud-wasserfaelle-gruppentour",
+  "shared-agafay-dinner-camel-ride": "agafay-abendessen-kamelritt-feuershow",
+  "shared-essaouira-day-trip": "essaouira-gruppentagestour",
   "toubkal-summit-trek-4day": "toubkal-gipfel-trek-4-tage",
   "sahara-3day-marrakech": "wuestentour-3-tage-marrakesch",
   "ourika-valley-day-hike": "wanderung-ourika-tal",
@@ -225,6 +240,11 @@ const TOUR_SLUGS_DE: Record<string, string> = {
 };
 
 const TOUR_SLUGS_IT: Record<string, string> = {
+  "shared-merzouga-3day-marrakech": "deserto-merzouga-3-giorni-condiviso",
+  "shared-zagora-2day-marrakech": "deserto-zagora-2-giorni-condiviso",
+  "shared-ouzoud-waterfalls-day-trip": "escursione-condivisa-cascate-ouzoud",
+  "shared-agafay-dinner-camel-ride": "agafay-cena-cammello-spettacolo-fuoco",
+  "shared-essaouira-day-trip": "escursione-condivisa-essaouira",
   "toubkal-summit-trek-4day": "trek-cima-toubkal-4-giorni",
   "sahara-3day-marrakech": "tour-deserto-3-giorni-marrakech",
   "ourika-valley-day-hike": "escursione-valle-ourika",

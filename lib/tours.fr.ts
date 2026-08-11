@@ -3609,4 +3609,339 @@ export const TOURS: Tour[] = [
       { q: "En quoi est-ce différent de votre circuit de 3 jours à l’erg Chegaga ?", a: "Le [circuit de 3 jours](/fr/tours/erg-chegaga-3day-marrakech) rejoint les mêmes dunes en 4x4 et séjourne dans un camp fixe ; c’est le bon choix si vous disposez de trois jours. Ici, ce sont huit jours à pied : vous approchez Chegaga par deux jours de désert, dormez chaque nuit dans un bivouac différent, et poursuivez à travers les dunes jusqu’à M’hamid au lieu de faire demi-tour." },
     ],
   },
+  {
+    id: "44",
+    slug: "shared-merzouga-3day-marrakech",
+    localizedSlug: "desert-merzouga-3-jours-partage",
+    title: "Désert de Merzouga depuis Marrakech — Circuit partagé de 3 jours",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "3 jours / 2 nuits",
+    groupSize: "Jusqu'à 16 personnes",
+    tourType: "shared",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    // Shared seat, flat per person. A single tier, deliberately: the minibus
+    // runs whether you book or not, so there is no vehicle cost to spread and
+    // six travellers pay six times one. Only private tours discount by size.
+    groupPricing: [{ minPeople: 1, price: 138 }],
+    price: 138,
+    depositAmount: 30,
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    gallery: [
+      "/gallery/tours-desert-4day-marrakech.jpg",
+      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
+    ],
+    shortDescription:
+      "Le grand classique Marrakech-Merzouga en départ quotidien partagé — Aït Ben Haddou, les gorges et une nuit dans les dunes de l'Erg Chebbi.",
+    description:
+      "Le même itinéraire que notre circuit privé de 3 jours, sur un départ quotidien que vous partagez avec d'autres voyageurs. Le col du Tizi n'Tichka, le ksar d'Aït Ben Haddou classé UNESCO, les gorges du Dadès et du Todra, puis une balade à dos de dromadaire dans l'Erg Chebbi et une nuit au bivouac. Vous renoncez à la liberté de vous arrêter où bon vous semble ; vous obtenez le Sahara au tiers du prix du privé.",
+    highlights: [
+      "Tizi n'Tichka pass through the High Atlas",
+      "UNESCO Ksar of Aït Ben Haddou",
+      "Dades and Todra gorges",
+      "Camel trek into the Erg Chebbi dunes at sunset",
+      "Night in a Berber desert camp",
+    ],
+    includes: [
+      "Transport in a shared air-conditioned minibus",
+      "Two nights accommodation (hotel + desert camp)",
+      "Dinner and breakfast at the camp",
+      "Camel trek at sunset",
+      "English or French speaking driver",
+    ],
+    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    itinerary: [
+      {
+        day: 1,
+        driving: "≈7 h",
+        distance: "≈420 km",
+        title: "Marrakech → Aït Ben Haddou → Dades Gorges",
+        description:
+          "Depart Marrakech around 7:00 am and cross the Tizi n'Tichka pass. Stop at Aït Ben Haddou and Ouarzazate, then continue along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
+        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+      },
+      {
+        day: 2,
+        driving: "≈5 h",
+        distance: "≈300 km",
+        title: "Dades → Todra Gorge → Merzouga",
+        description:
+          "Morning in the Todra Gorge, then on via Erfoud to Merzouga. Camel trek into the dunes at sunset, dinner and drumming at camp.",
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+      },
+      {
+        day: 3,
+        driving: "≈9 h",
+        distance: "≈560 km",
+        title: "Sunrise over the dunes → Marrakech",
+        description:
+          "Sunrise over Erg Chebbi, then the long drive back to Marrakech via Alnif, Tazarine and Ouarzazate. Arrive early evening.",
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+      },
+    ],
+    faq: [
+      { q: "How is this different from the private 3-day tour?", a: "Route and overnight stops are the same. What differs is the vehicle and the pace: you share an air-conditioned minibus with up to sixteen others on a fixed schedule, so stops are set rather than yours to choose. The [private version](/fr/tours/sahara-3day-marrakech) gives you your own 4x4 and driver-guide, and the freedom to stop where you like — at a higher price per person." },
+      { q: "How many people are on a shared departure?", a: "Up to sixteen, and often fewer outside high season. You will be with travellers from several countries; the driver speaks English or French." },
+      { q: "What is not included?", a: "Lunches, drinks, tips and entry fees. Dinner and breakfast at the desert camp are included, as are both nights of accommodation and the sunset camel trek." },
+      { q: "Do shared departures run every day?", a: "Yes, daily year-round. Very small groups in low season are occasionally merged with the following day's departure — you would be told before booking, not on the morning." },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    seoTitle: "Merzouga Desert 3-Day Shared Tour from Marrakech — €120 | Marrakech Eco Tours",
+    seoDescription: "Shared daily departure from Marrakech to the Erg Chebbi dunes: Aït Ben Haddou, Dades and Todra gorges, camel trek and a night at a desert camp. €120 per person.",
+    featured: false,
+  },
+  {
+    id: "45",
+    slug: "shared-zagora-2day-marrakech",
+    localizedSlug: "desert-zagora-2-jours-partage",
+    title: "Désert de Zagora depuis Marrakech — Circuit partagé de 2 jours",
+    category: "desert",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "2 jours / 1 nuit",
+    groupSize: "Jusqu'à 16 personnes",
+    tourType: "shared",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    groupPricing: [{ minPeople: 1, price: 98 }],
+    price: 98,
+    depositAmount: 22,
+    heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+    gallery: [
+      "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+      "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    ],
+    shortDescription:
+      "Le chemin le plus court vers une nuit au désert — l'Atlas, la vallée du Draa, une balade à dromadaire et un bivouac sous les étoiles.",
+    description:
+      "Zagora est la nuit au désert la plus proche de Marrakech, et c'est tout son intérêt : une longue journée de route au lieu de deux. Le Tizi n'Tichka, Aït Ben Haddou et Ouarzazate, puis les palmeraies de la vallée du Draa, une balade à dromadaire et un bivouac avec dîner et musique. Les dunes sont plus petites qu'à l'Erg Chebbi : c'est le prix du raccourci.",
+    highlights: [
+      "Tizi n'Tichka pass and Aït Ben Haddou",
+      "Draa Valley palm groves",
+      "Camel ride into the Zagora dunes",
+      "Night in a Berber camp with dinner and music",
+    ],
+    includes: [
+      "Transport in a shared air-conditioned minibus",
+      "One night in a desert camp",
+      "Dinner and breakfast",
+      "Camel ride",
+      "English or French speaking driver",
+    ],
+    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    itinerary: [
+      {
+        day: 1,
+        driving: "≈8 h",
+        distance: "≈360 km",
+        title: "Marrakech → Aït Ben Haddou → Zagora",
+        description:
+          "Early departure over the Tizi n'Tichka. Stops at Aït Ben Haddou and Ouarzazate, then south through the Draa Valley. Camel ride into the dunes at sunset, dinner at camp.",
+        stop: { name: "Zagora, Draa Valley", lat: 30.3306, lng: -5.8381 },
+      },
+      {
+        day: 2,
+        driving: "≈8 h",
+        distance: "≈360 km",
+        title: "Sunrise → Marrakech",
+        description:
+          "Sunrise over the dunes, breakfast at camp, then the drive back to Marrakech through the Draa Valley and over the Atlas. Arrive late afternoon.",
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+      },
+    ],
+    faq: [
+      { q: "Zagora or Merzouga?", a: "Zagora is closer — one driving day rather than two — but its dunes are low and scrubby. Erg Chebbi at Merzouga is the tall golden sand sea most people picture, and it needs the [3-day trip](/fr/tours/shared-merzouga-3day-marrakech). If your time is tight, Zagora; if you want the dunes from the photographs, Merzouga." },
+      { q: "How long is the driving?", a: "About eight hours each way. It is a long day in the vehicle for one desert night, which is the honest trade-off of the two-day format." },
+      { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious." },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    seoTitle: "Zagora Desert 2-Day Shared Tour from Marrakech — €85 | Marrakech Eco Tours",
+    seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a night in a Berber camp. €85 per person.",
+    featured: false,
+  },
+  {
+    id: "46",
+    slug: "shared-ouzoud-waterfalls-day-trip",
+    localizedSlug: "excursion-partagee-cascades-ouzoud",
+    title: "Cascades d'Ouzoud — Excursion partagée depuis Marrakech",
+    category: "day-tours",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "1 jour",
+    groupSize: "Jusqu'à 16 personnes",
+    tourType: "shared",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    groupPricing: [{ minPeople: 1, price: 46 }],
+    price: 46,
+    depositAmount: 10,
+    heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
+    gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
+    shortDescription:
+      "La plus haute cascade d'Afrique du Nord en départ quotidien partagé — 110 m de chutes, des macaques sauvages et une barque au pied de l'eau.",
+    description:
+      "Les cascades d'Ouzoud tombent de 110 mètres en trois paliers dans une gorge d'oliviers et de vieux moulins, avec une colonie de macaques de Barbarie le long du sentier. Un minibus partagé quitte Marrakech chaque matin ; vous descendez jusqu'au pied des chutes, prenez la petite barque sous les embruns, et rentrez en ville le soir.",
+    highlights: [
+      "The 110 m Ouzoud cascades, highest in North Africa",
+      "Wild Barbary macaques on the gorge trail",
+      "Boat ride at the foot of the falls",
+      "Traditional watermills still grinding",
+    ],
+    includes: [
+      "Round-trip transport in a shared minibus",
+      "Local guide at the falls",
+      "Mineral water",
+    ],
+    excludes: ["Lunch", "Boat ride ticket", "Tips"],
+    itinerary: [
+      {
+        day: 1,
+        walking: "2–3 h",
+        driving: "≈2 h each way",
+        distance: "≈150 km each way",
+        title: "Full Day — Ouzoud Waterfalls",
+        description:
+          "Depart Marrakech around 8:00 am, arriving Ouzoud mid-morning. Guided walk down the gorge to the base of the falls, boat ride, macaque spotting, free time for lunch overlooking the cascades. Back in Marrakech by early evening.",
+        stop: { name: "Ouzoud Falls, Middle Atlas", lat: 32.0152, lng: -6.7189 },
+      },
+    ],
+    faq: [
+      { q: "How much walking is there?", a: "Two to three hours at your own pace. The gorge trail descends to the base of the falls and climbs back, on steps and packed earth — no scrambling, but it is a real descent and return." },
+      { q: "Will we see the monkeys?", a: "Ouzoud has a resident colony of wild Barbary macaques along the upper trail and sightings are common, though they are wild animals and never guaranteed. Please do not feed them." },
+      { q: "Is the boat ride included?", a: "No — the small boats at the base of the falls are run locally and cost a few dirhams, paid on the day. Transport, the guide and water are included." },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    seoTitle: "Ouzoud Waterfalls Shared Day Trip from Marrakech — €40 | Marrakech Eco Tours",
+    seoDescription: "Shared daily departure to the Ouzoud Falls: 110 m cascades, wild Barbary macaques, gorge walk and boat ride. Round-trip from Marrakech, €40 per person.",
+    featured: false,
+  },
+  {
+    id: "47",
+    slug: "shared-agafay-dinner-camel-ride",
+    localizedSlug: "agafay-diner-dromadaire-spectacle-feu",
+    title: "Désert d'Agafay — Dîner, dromadaire et spectacle de feu",
+    category: "day-tours",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "Demi-journée / soirée",
+    groupSize: "Jusqu'à 20 personnes",
+    tourType: "shared",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    groupPricing: [{ minPeople: 1, price: 35 }],
+    price: 35,
+    depositAmount: 8,
+    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    gallery: ["/gallery/tours-agafay-desert-sunset.jpg"],
+    shortDescription:
+      "Une soirée dans le désert de pierre à quarante minutes de Marrakech — dromadaire au coucher du soleil, dîner sous les étoiles et spectacle de feu.",
+    description:
+      "Agafay est un désert rocheux plutôt qu'une mer de sable, et son atout est la proximité : quarante minutes de Marrakech, l'Atlas à l'horizon et aucune pollution lumineuse. La soirée enchaîne balade à dromadaire à l'heure dorée, puis dîner au bivouac avec musique et spectacle de feu, et retour au riad le soir même. Ce n'est pas le Sahara, et nous le disons — mais comme sortie de soirée, c'est difficile à battre.",
+    highlights: [
+      "Camel ride across the Agafay stone desert at sunset",
+      "Dinner in a desert camp with the High Atlas on the skyline",
+      "Live music and fire show",
+      "Back in Marrakech the same evening",
+    ],
+    includes: [
+      "Round-trip transfer from your Marrakech riad or hotel",
+      "Camel ride",
+      "Three-course dinner",
+      "Live music and fire show",
+    ],
+    excludes: ["Drinks beyond water and tea", "Tips", "Quad biking or other extras"],
+    itinerary: [
+      {
+        day: 1,
+        driving: "≈40 min each way",
+        distance: "≈30 km each way",
+        title: "Evening — Agafay Desert",
+        description:
+          "Pick-up from your riad in the late afternoon. Camel ride across the stone desert as the light goes, then dinner at the camp with music and a fire show. Return to Marrakech around 10:30 pm.",
+        stop: { name: "Agafay Desert", lat: 31.4333, lng: -8.1500 },
+      },
+    ],
+    faq: [
+      { q: "Is Agafay the Sahara?", a: "No, and any operator telling you otherwise is selling you something. Agafay is a rocky, lunar-looking desert about 30 km from Marrakech — no sand dunes. It is a genuinely beautiful evening and a poor substitute for Erg Chebbi. For real dunes you need [Merzouga](/fr/tours/shared-merzouga-3day-marrakech) or [Zagora](/fr/tours/shared-zagora-2day-marrakech)." },
+      { q: "What time does it finish?", a: "Back at your riad around 10:30 pm. Pick-up is mid to late afternoon depending on the season and sunset time." },
+      { q: "Is it suitable for children?", a: "Yes — it is short, there is no walking to speak of, and the camel ride and fire show tend to be the highlight of the trip for younger children." },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    seoTitle: "Agafay Desert Dinner, Camel Ride & Fire Show from Marrakech — €30 | Marrakech Eco Tours",
+    seoDescription: "Evening in the Agafay stone desert: sunset camel ride, three-course dinner, live music and a fire show, 40 minutes from Marrakech. €30 per person.",
+    featured: false,
+  },
+  {
+    id: "48",
+    slug: "shared-essaouira-day-trip",
+    localizedSlug: "excursion-partagee-essaouira",
+    title: "Essaouira — Excursion partagée depuis Marrakech",
+    category: "day-tours",
+    origin: "marrakech",
+    difficulty: "easy",
+    duration: "1 jour",
+    groupSize: "Jusqu'à 16 personnes",
+    tourType: "shared",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    groupPricing: [{ minPeople: 1, price: 35 }],
+    price: 35,
+    depositAmount: 8,
+    heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
+    gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
+    shortDescription:
+      "La cité portuaire atlantique en départ quotidien partagé — remparts, barques bleues, médina et coopératives d'argan sur la route.",
+    description:
+      "Essaouira est un port fortifié sur l'Atlantique, à trois heures à l'ouest de Marrakech : blanche et bleue, facile à parcourir à pied, et bien plus fraîche que la ville en été. L'excursion partagée s'arrête dans une coopérative d'argan sur le trajet, puis vous laisse plusieurs heures libres dans la médina classée UNESCO, sur les remparts et au port de pêche avant le retour.",
+    highlights: [
+      "UNESCO-listed medina and 18th-century ramparts",
+      "The blue fishing fleet in the working harbour",
+      "Argan oil cooperative on the Marrakech road",
+      "Atlantic air and a long beach",
+    ],
+    includes: [
+      "Round-trip transport in a shared air-conditioned minibus",
+      "Stop at an argan cooperative",
+      "Free time in the medina",
+    ],
+    excludes: ["Lunch", "Guide inside the medina", "Tips"],
+    itinerary: [
+      {
+        day: 1,
+        driving: "≈3 h each way",
+        distance: "≈190 km each way",
+        title: "Full Day — Essaouira",
+        description:
+          "Depart Marrakech around 8:00 am, stopping at an argan cooperative en route. Arrive Essaouira late morning with free time for the medina, ramparts, harbour and lunch. Depart mid-afternoon, back in Marrakech early evening.",
+        stop: { name: "Essaouira Medina", lat: 31.5125, lng: -9.7700 },
+      },
+    ],
+    faq: [
+      { q: "How long do we actually get in Essaouira?", a: "Roughly four to five hours, which is enough for the medina, the ramparts, the harbour and a leisurely lunch. It is not enough to add the beach at any length — for that, stay overnight." },
+      { q: "Is a guide included in the medina?", a: "No. You have free time to explore on your own, which most people prefer in a town this walkable. Transport and the argan stop are included." },
+      { q: "Is the argan stop a sales pitch?", a: "It is a working women's cooperative where you can watch the pressing and buy if you want to. Nobody obliges you to." },
+    ],
+    meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
+    seoTitle: "Essaouira Shared Day Trip from Marrakech — €30 | Marrakech Eco Tours",
+    seoDescription: "Shared daily departure to Essaouira: UNESCO medina, 18th-century ramparts, the blue fishing harbour and an argan cooperative en route. €30 per person.",
+    featured: false,
+  },
 ];

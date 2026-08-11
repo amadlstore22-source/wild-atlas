@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useCallback, useState, useSyncExternalStore } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -7,31 +7,51 @@ import { CONSENT_EVENT } from "@/lib/analytics";
 
 const STORAGE_KEY = "met-cookie-consent";
 
+/**
+ * Whether consent has already been stored. Read through useSyncExternalStore
+ * rather than an effect: localStorage is an external store, and reading it in
+ * an effect meant the first client render always said "no banner", then a
+ * second render brought it in — a cascading render React 19 now flags, and a
+ * visible flash on slow devices.
+ *
+ * The server snapshot is `true` (already consented) so the banner is absent
+ * from the HTML and appears only once the client confirms it is needed.
+ */
+function subscribe(onChange: () => void) {
+  window.addEventListener("storage", onChange);
+  return () => window.removeEventListener("storage", onChange);
+}
+
+function hasConsent() {
+  try {
+    return localStorage.getItem(STORAGE_KEY) !== null;
+  } catch {
+    // localStorage unavailable (private mode, blocked cookies) — treat as
+    // consented so we never trap someone behind a banner they cannot dismiss.
+    return true;
+  }
+}
+
 export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dictionary }) {
-  const [show, setShow] = useState(false);
+  const stored = useSyncExternalStore(subscribe, hasConsent, () => true);
+  // Set the moment the visitor chooses, so the banner leaves without waiting
+  // for a storage event (which does not fire in the tab that wrote the value).
+  const [dismissed, setDismissed] = useState(false);
+  const show = !stored && !dismissed;
 
-  useEffect(() => {
+  const choose = useCallback((value: "all" | "necessary") => {
     try {
-      if (!localStorage.getItem(STORAGE_KEY)) {
-        setShow(true);
-      }
+      localStorage.setItem(STORAGE_KEY, value);
     } catch {
-      // localStorage not available (SSR guard)
+      // Blocked storage: the banner still dismisses for this session.
     }
-  }, []);
-
-  function accept() {
-    localStorage.setItem(STORAGE_KEY, "all");
     // Tell GoogleAnalytics to boot now, without waiting for a reload.
     window.dispatchEvent(new Event(CONSENT_EVENT));
-    setShow(false);
-  }
+    setDismissed(true);
+  }, []);
 
-  function necessary() {
-    localStorage.setItem(STORAGE_KEY, "necessary");
-    window.dispatchEvent(new Event(CONSENT_EVENT));
-    setShow(false);
-  }
+  const accept = () => choose("all");
+  const necessary = () => choose("necessary");
 
   return (
     <AnimatePresence>

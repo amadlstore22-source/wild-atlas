@@ -57,14 +57,16 @@ function MapSkeleton() {
  */
 export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  // A browser with no IntersectionObserver can never be told the map scrolled
+  // into view, so it starts visible. Decided in the lazy initialiser rather
+  // than an effect: setting it from inside the effect rendered the skeleton
+  // once first, and React 19 flags the cascading render.
+  const [visible, setVisible] = useState(
+    () => typeof IntersectionObserver === "undefined"
+  );
 
   useEffect(() => {
-    // No IntersectionObserver (very old browser) → just load it.
-    if (typeof IntersectionObserver === "undefined") {
-      setVisible(true);
-      return;
-    }
+    if (typeof IntersectionObserver === "undefined") return;
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(

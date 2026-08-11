@@ -364,7 +364,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 99 },
-      { minPeople: 2, price: 46 },
+      { minPeople: 2, price: 51 },
       { minPeople: 3, price: 40 },
       { minPeople: 4, price: 36 },
       { minPeople: 5, price: 33 },
@@ -436,7 +436,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 86 },
-      { minPeople: 2, price: 40 },
+      { minPeople: 2, price: 44 },
       { minPeople: 3, price: 35 },
       { minPeople: 4, price: 31 },
       { minPeople: 5, price: 29 },
@@ -508,7 +508,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 214 },
-      { minPeople: 2, price: 100 },
+      { minPeople: 2, price: 109 },
       { minPeople: 3, price: 86 },
       { minPeople: 4, price: 77 },
       { minPeople: 5, price: 70 },
@@ -831,7 +831,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 86 },
-      { minPeople: 2, price: 40 },
+      { minPeople: 2, price: 44 },
       { minPeople: 3, price: 35 },
       { minPeople: 4, price: 31 },
       { minPeople: 5, price: 29 },
@@ -902,7 +902,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 198 },
-      { minPeople: 2, price: 92 },
+      { minPeople: 2, price: 101 },
       { minPeople: 3, price: 80 },
       { minPeople: 4, price: 71 },
       { minPeople: 5, price: 65 },
@@ -1045,7 +1045,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 81 },
-      { minPeople: 2, price: 38 },
+      { minPeople: 2, price: 42 },
       { minPeople: 3, price: 32 },
       { minPeople: 4, price: 29 },
       { minPeople: 5, price: 26 },
@@ -1209,7 +1209,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 556 },
-      { minPeople: 2, price: 259 },
+      { minPeople: 2, price: 280 },
       { minPeople: 3, price: 204 },
       { minPeople: 4, price: 171 },
       { minPeople: 5, price: 148 },
@@ -1365,7 +1365,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 116 },
-      { minPeople: 2, price: 54 },
+      { minPeople: 2, price: 59 },
       { minPeople: 3, price: 47 },
       { minPeople: 4, price: 41 },
       { minPeople: 5, price: 37 },
@@ -1663,7 +1663,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 190 },
-      { minPeople: 2, price: 89 },
+      { minPeople: 2, price: 96 },
       { minPeople: 3, price: 70 },
       { minPeople: 4, price: 59 },
       { minPeople: 5, price: 51 },
@@ -1765,8 +1765,8 @@ export const TOURS: Tour[] = [
     // same either way; only camp, meals and fees scale per head.
     groupPricing: [
       { minPeople: 1, price: 1464 },
-      { minPeople: 2, price: 662 },
-      { minPeople: 3, price: 479 },
+      { minPeople: 2, price: 733 },
+      { minPeople: 3, price: 490 },
       { minPeople: 4, price: 388 },
       { minPeople: 5, price: 324 },
     ],
@@ -1869,7 +1869,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 1026 },
-      { minPeople: 2, price: 478 },
+      { minPeople: 2, price: 514 },
       { minPeople: 3, price: 376 },
       { minPeople: 4, price: 316 },
       { minPeople: 5, price: 273 },
@@ -1995,7 +1995,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 840 },
-      { minPeople: 2, price: 391 },
+      { minPeople: 2, price: 422 },
       { minPeople: 3, price: 308 },
       { minPeople: 4, price: 259 },
       { minPeople: 5, price: 223 },
@@ -2098,7 +2098,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 510 },
-      { minPeople: 2, price: 238 },
+      { minPeople: 2, price: 257 },
       { minPeople: 3, price: 187 },
       { minPeople: 4, price: 158 },
       { minPeople: 5, price: 136 },
@@ -2190,7 +2190,7 @@ export const TOURS: Tour[] = [
     depositAmount: 307,
     groupPricing: [
       { minPeople: 1, price: 1395 },
-      { minPeople: 2, price: 680 },
+      { minPeople: 2, price: 698 },
       { minPeople: 3, price: 493 },
       { minPeople: 4, price: 377 },
       { minPeople: 5, price: 324 },
@@ -2290,7 +2290,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 1196 },
-      { minPeople: 2, price: 556 },
+      { minPeople: 2, price: 599 },
       { minPeople: 3, price: 438 },
       { minPeople: 4, price: 368 },
       { minPeople: 5, price: 318 },
@@ -3006,7 +3006,7 @@ export const TOURS: Tour[] = [
     // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
     groupPricing: [
       { minPeople: 1, price: 692 },
-      { minPeople: 2, price: 323 },
+      { minPeople: 2, price: 348 },
       { minPeople: 3, price: 311 },
       { minPeople: 4, price: 300 },
       { minPeople: 5, price: 288 },
@@ -3110,7 +3110,7 @@ export const TOURS: Tour[] = [
     // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
     groupPricing: [
       { minPeople: 1, price: 692 },
-      { minPeople: 2, price: 323 },
+      { minPeople: 2, price: 348 },
       { minPeople: 3, price: 311 },
       { minPeople: 4, price: 300 },
       { minPeople: 5, price: 288 },
@@ -3215,7 +3215,7 @@ export const TOURS: Tour[] = [
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 126 },
-      { minPeople: 2, price: 59 },
+      { minPeople: 2, price: 64 },
       { minPeople: 3, price: 50 },
       { minPeople: 4, price: 45 },
       { minPeople: 5, price: 42 },
@@ -3285,7 +3285,7 @@ export const TOURS: Tour[] = [
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
       { minPeople: 1, price: 598 },
-      { minPeople: 2, price: 279 },
+      { minPeople: 2, price: 300 },
       { minPeople: 3, price: 220 },
       { minPeople: 4, price: 185 },
       { minPeople: 5, price: 160 },
@@ -3677,7 +3677,7 @@ export const TOURS: Tour[] = [
     depositAmount: 307,
     groupPricing: [
       { minPeople: 1, price: 1395 },
-      { minPeople: 2, price: 644 },
+      { minPeople: 2, price: 698 },
       { minPeople: 3, price: 529 },
       { minPeople: 4, price: 459 },
       { minPeople: 5, price: 416 },
@@ -4017,7 +4017,7 @@ export const TOURS: Tour[] = [
     tourType: "private",
     groupPricing: [
       { minPeople: 1, price: 3114 },
-      { minPeople: 2, price: 1500 },
+      { minPeople: 2, price: 1559 },
       { minPeople: 3, price: 1218 },
       { minPeople: 4, price: 1048 },
       { minPeople: 5, price: 882 },

@@ -28,6 +28,15 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // digit reappeared before a second one could be typed. Keep the raw string
   // while the field is focused and clamp on blur instead.
   const [peopleInput, setPeopleInput] = useState(String(Math.max(2, minPeople)));
+  // Programmatic changes (stepper, tier row) have to reach the text field, but
+  // doing it in an effect meant an extra render pass on every stepper click.
+  // Adjusting during render is React's documented pattern for exactly this:
+  // https://react.dev/reference/react/useState#storing-information-from-previous-renders
+  const [lastPeople, setLastPeople] = useState(people);
+  if (people !== lastPeople) {
+    setLastPeople(people);
+    setPeopleInput(String(people));
+  }
   // Empty or zero is a real error now that the field can be cleared: snapping
   // silently back to 1 would send an enquiry for the wrong group size.
   const peopleInvalid =
@@ -53,11 +62,6 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
       trackConversion("enquiry", { value: tour.depositAmount, currency: "EUR" });
     }
   }, [sent, tour.title, tour.depositAmount]);
-
-  // Mirror programmatic changes (stepper, tier row) into the text field.
-  useEffect(() => {
-    setPeopleInput(String(people));
-  }, [people]);
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
   // depositAmount is stored in USD but the page displays the active currency.

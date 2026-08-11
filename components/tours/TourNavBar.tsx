@@ -3,6 +3,17 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
+/** The scroll-spy only ever needs the ids, and those never change. Kept out of
+ *  the component so the observer effect has a stable dependency: SECTIONS was
+ *  rebuilt on every render, so listing it as a dependency would have torn down
+ *  and re-created the IntersectionObserver on each one. */
+const SECTION_IDS = [
+  "tour-overview",
+  "tour-itinerary",
+  "tour-included",
+  "tour-book",
+] as const;
+
 export default function TourNavBar({ dict }: { dict: Dictionary }) {
   const SECTIONS = [
     { id: "tour-overview",   label: dict.tourDetail.overview },
@@ -41,7 +52,9 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
     );
     visObs.observe(sentinel);
 
-    const sectionEls = SECTIONS.map((s) => document.getElementById(s.id)).filter(Boolean) as HTMLElement[];
+    // SECTION_IDS, not SECTIONS: the labelled array is rebuilt on every render,
+    // so depending on it would tear down and rebuild both observers each time.
+    const sectionEls = SECTION_IDS.map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
     const activeObs = new IntersectionObserver(
       (entries) => {
         const visible = entries.filter((e) => e.isIntersecting);

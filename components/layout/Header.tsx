@@ -60,11 +60,22 @@ export default function Header({ lang, dict }: Props) {
     { label: dict.nav.gallery, href: `/${lang}#gallery` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
     { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
-              { label: dict.nav.about, href: `/${lang}/about` },
+    { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
   ];
 
-  useEffect(() => { setOpen(false); setDropdown(false); setLangOpen(false); setCurOpen(false); }, [pathname]);
+  // Close every menu when the route changes. Done during render rather than in
+  // an effect: an effect ran a full render with the old menu still open before
+  // correcting it, which on a slow phone showed the mobile menu briefly
+  // overlaying the page the visitor had just navigated to.
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
+    setOpen(false);
+    setDropdown(false);
+    setLangOpen(false);
+    setCurOpen(false);
+  }
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -312,7 +323,7 @@ export default function Header({ lang, dict }: Props) {
               { label: dict.nav.gallery, href: `/${lang}#gallery` },
               { label: dict.nav.blog, href: `/${lang}/blog` },
               { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
-              { label: dict.nav.about, href: `/${lang}/about` },
+    { label: dict.nav.about, href: `/${lang}/about` },
               { label: dict.nav.contact, href: `/${lang}/contact` },
             ].map((item) => (
               <Link key={item.href} href={item.href} onClick={() => setOpen(false)}

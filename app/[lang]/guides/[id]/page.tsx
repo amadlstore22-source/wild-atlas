@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, Translate, Certificate, ArrowLeft, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { GUIDES } from "@/lib/guides";
-import { guidesFor, getGuideFor } from "@/lib/guides-i18n";
+import { getGuideFor } from "@/lib/guides-i18n";
 import { toursFor } from "@/lib/tours-i18n";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import TourCard from "@/components/ui/TourCard";

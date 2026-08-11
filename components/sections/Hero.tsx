@@ -1,5 +1,6 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+import { useRef } from "react";
+import { useMediaQuery, DESKTOP_MOTION_QUERY } from "@/lib/use-media-query";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
@@ -15,7 +16,7 @@ interface Props {
 const ease = [0.16, 1, 0.3, 1] as const;
 
 export default function Hero({ lang, dict }: Props) {
-  const [isDesktop, setIsDesktop] = useState(false);
+  const isDesktop = useMediaQuery(DESKTOP_MOTION_QUERY);
   const reduce = useReducedMotion();
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
@@ -23,14 +24,6 @@ export default function Hero({ lang, dict }: Props) {
   const mediaY = useTransform(scrollYProgress, [0, 1], ["0%", "16%"]);
   const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "26%"]);
   const contentOpacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
-
-  useEffect(() => {
-    const mq = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
-    setIsDesktop(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
 
   const parallax = isDesktop && !reduce;
 

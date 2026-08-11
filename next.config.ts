@@ -43,6 +43,14 @@ const securityHeaders = [
         : "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://server.arcgisonline.com",
       "frame-src https://www.paypal.com https://www.sandbox.paypal.com",
       "frame-ancestors 'none'",
+      // These three do NOT inherit from default-src, so omitting them left real
+      // gaps: object-src allows Flash/Java-style plugin embeds, base-uri lets an
+      // injected <base> rewrite every relative URL on the page (including the
+      // booking form action), and form-action controls where a form may POST.
+      // Nothing here uses plugins, a <base> tag, or cross-origin form posts.
+      "object-src 'none'",
+      "base-uri 'self'",
+      "form-action 'self'",
     ].join("; "),
   },
 ];

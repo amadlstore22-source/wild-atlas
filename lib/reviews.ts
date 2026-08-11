@@ -52,9 +52,15 @@ export const REVIEWS: Review[] = [
 ];
 
 /**
- * Picks the two reviews most relevant to a tour: prefer ones whose `tour`
- * shares a keyword with the current tour title, then fill from the top. Keeps
- * the sidebar proof feeling specific rather than generic.
+ * Picks the reviews genuinely relevant to a tour: ones whose `tour` shares a
+ * keyword with the current tour title.
+ *
+ * Returns an empty array when nothing matches, and callers must handle that.
+ * This used to `.slice(0, count)` an unfiltered list, so a zero-scoring tour
+ * still rendered the top review — an Ouzoud waterfalls day trip showed a
+ * Toubkal summit quote, on 23 of 46 tour pages. Attaching a real traveller's
+ * words to a trip they did not take is the opposite of the trust signal the
+ * block exists to give, so no proof is better than borrowed proof.
  */
 /** Departure cities and filler that appear in most tour titles — matching on
  *  them would score every Marrakech-departing trek against a Marrakech medina
@@ -71,6 +77,7 @@ export function reviewsForTour(tourTitle: string, count = 2): Review[] {
     return { r, score: words.reduce((n, w) => n + (hay.includes(w) ? 1 : 0), 0) };
   });
   return scored
+    .filter((s) => s.score > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, count)
     .map((s) => s.r);

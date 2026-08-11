@@ -14,6 +14,8 @@ import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
   const b = dict.booking;
+  // Only reviews genuinely about this tour — often none, see lib/reviews.ts.
+  const quotes = reviewsForTour(tour.title);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
@@ -452,7 +454,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               booking CTA, not in a distant testimonials section — and that a
               quoted sentence outperforms a bare score. Reviews are real and
               shared with the homepage block (lib/reviews.ts). */}
-          <div className="rounded-[3px] border border-rule bg-surface-sunk/30 p-4 space-y-3">
+          <div
+            className={`rounded-[3px] border border-rule bg-surface-sunk/30 p-4${
+              quotes.length ? " space-y-3" : ""
+            }`}
+          >
             <div className="flex items-center justify-between gap-2">
               <span className="text-[0.7rem] font-semibold uppercase tracking-wider text-ink-muted">
                 {b.reviewQuotesTitle}
@@ -463,7 +469,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 <span className="font-normal text-ink-muted">({TRIPADVISOR.reviewCount})</span>
               </span>
             </div>
-            {reviewsForTour(tour.title).map((r) => (
+            {/* May be empty: reviewsForTour returns only genuine keyword
+                matches, so a tour with no review of its own shows the verified
+                TripAdvisor rating above and no quote, rather than another
+                trip's words. */}
+            {quotes.map((r) => (
               <figure key={r.name} className="border-l-2 border-saffron/40 pl-3">
                 <blockquote className="text-xs text-ink-soft leading-relaxed italic">
                   “{r.short}”

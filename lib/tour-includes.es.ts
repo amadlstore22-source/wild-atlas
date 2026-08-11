@@ -475,4 +475,71 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Propinas para el guía y el equipo del campamento",
     ],
   },
+  "shared-merzouga-3day-marrakech": {
+    includes: [
+      "Transporte en minibús compartido con aire acondicionado",
+      "Dos noches de alojamiento (hotel + campamento en el desierto)",
+      "Cena y desayuno en el campamento",
+      "Paseo en camello al atardecer",
+      "Conductor de habla inglesa o francesa",
+    ],
+    excludes: [
+      "Almuerzos",
+      "Bebidas",
+      "Propinas",
+      "Entradas",
+    ],
+  },
+  "shared-zagora-2day-marrakech": {
+    includes: [
+      "Transporte en minibús compartido con aire acondicionado",
+      "Una noche en campamento en el desierto",
+      "Cena y desayuno",
+      "Paseo en camello",
+      "Conductor de habla inglesa o francesa",
+    ],
+    excludes: [
+      "Almuerzos",
+      "Bebidas",
+      "Propinas",
+      "Entradas",
+    ],
+  },
+  "shared-ouzoud-waterfalls-day-trip": {
+    includes: [
+      "Transporte de ida y vuelta en minibús compartido",
+      "Guía local en las cascadas",
+      "Agua mineral",
+    ],
+    excludes: [
+      "Almuerzo",
+      "Billete del paseo en barca",
+      "Propinas",
+    ],
+  },
+  "shared-agafay-dinner-camel-ride": {
+    includes: [
+      "Traslado de ida y vuelta desde su riad u hotel en Marrakech",
+      "Paseo en camello",
+      "Cena de tres platos",
+      "Música en vivo y espectáculo de fuego",
+    ],
+    excludes: [
+      "Bebidas más allá del agua y el té",
+      "Propinas",
+      "Quad u otros extras",
+    ],
+  },
+  "shared-essaouira-day-trip": {
+    includes: [
+      "Transporte de ida y vuelta en minibús compartido con aire acondicionado",
+      "Parada en una cooperativa de aceite de argán",
+      "Tiempo libre en la medina",
+    ],
+    excludes: [
+      "Almuerzo",
+      "Guía dentro de la medina",
+      "Propinas",
+    ],
+  },
 };

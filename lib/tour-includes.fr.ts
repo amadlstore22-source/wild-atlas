@@ -475,4 +475,71 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Pourboires pour le guide et l'équipe du camp",
     ],
   },
+  "shared-merzouga-3day-marrakech": {
+    includes: [
+      "Transport en minibus climatisé partagé",
+      "Deux nuits d'hébergement (hôtel + campement dans le désert)",
+      "Dîner et petit-déjeuner au campement",
+      "Balade à dos de chameau au coucher du soleil",
+      "Chauffeur anglophone ou francophone",
+    ],
+    excludes: [
+      "Déjeuners",
+      "Boissons",
+      "Pourboires",
+      "Frais d'entrée",
+    ],
+  },
+  "shared-zagora-2day-marrakech": {
+    includes: [
+      "Transport en minibus climatisé partagé",
+      "Une nuit en campement dans le désert",
+      "Dîner et petit-déjeuner",
+      "Balade à dos de chameau",
+      "Chauffeur anglophone ou francophone",
+    ],
+    excludes: [
+      "Déjeuners",
+      "Boissons",
+      "Pourboires",
+      "Frais d'entrée",
+    ],
+  },
+  "shared-ouzoud-waterfalls-day-trip": {
+    includes: [
+      "Transport aller-retour en minibus partagé",
+      "Guide local aux cascades",
+      "Eau minérale",
+    ],
+    excludes: [
+      "Déjeuner",
+      "Billet pour la promenade en barque",
+      "Pourboires",
+    ],
+  },
+  "shared-agafay-dinner-camel-ride": {
+    includes: [
+      "Transfert aller-retour depuis votre riad ou hôtel à Marrakech",
+      "Balade à dos de chameau",
+      "Dîner trois plats",
+      "Musique live et spectacle de feu",
+    ],
+    excludes: [
+      "Boissons autres que l'eau et le thé",
+      "Pourboires",
+      "Quad et autres suppléments",
+    ],
+  },
+  "shared-essaouira-day-trip": {
+    includes: [
+      "Transport aller-retour en minibus climatisé partagé",
+      "Arrêt dans une coopérative d'huile d'argan",
+      "Temps libre dans la médina",
+    ],
+    excludes: [
+      "Déjeuner",
+      "Guide dans la médina",
+      "Pourboires",
+    ],
+  },
 };

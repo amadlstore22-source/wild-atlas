@@ -475,4 +475,71 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Trinkgelder für Reiseführer und Camp-Team",
     ],
   },
+  "shared-merzouga-3day-marrakech": {
+    includes: [
+      "Transport im klimatisierten Gruppen-Minibus",
+      "Zwei Übernachtungen (Hotel + Wüstencamp)",
+      "Abendessen und Frühstück im Camp",
+      "Kamelritt bei Sonnenuntergang",
+      "Englisch- oder französischsprachiger Fahrer",
+    ],
+    excludes: [
+      "Mittagessen",
+      "Getränke",
+      "Trinkgelder",
+      "Eintrittsgelder",
+    ],
+  },
+  "shared-zagora-2day-marrakech": {
+    includes: [
+      "Transport im klimatisierten Gruppen-Minibus",
+      "Eine Nacht im Wüstencamp",
+      "Abendessen und Frühstück",
+      "Kamelritt",
+      "Englisch- oder französischsprachiger Fahrer",
+    ],
+    excludes: [
+      "Mittagessen",
+      "Getränke",
+      "Trinkgelder",
+      "Eintrittsgelder",
+    ],
+  },
+  "shared-ouzoud-waterfalls-day-trip": {
+    includes: [
+      "Hin- und Rücktransport im Gruppen-Minibus",
+      "Örtlicher Guide an den Wasserfällen",
+      "Mineralwasser",
+    ],
+    excludes: [
+      "Mittagessen",
+      "Ticket für die Bootsfahrt",
+      "Trinkgelder",
+    ],
+  },
+  "shared-agafay-dinner-camel-ride": {
+    includes: [
+      "Hin- und Rücktransfer von Ihrem Riad oder Hotel in Marrakesch",
+      "Kamelritt",
+      "Drei-Gänge-Abendessen",
+      "Live-Musik und Feuershow",
+    ],
+    excludes: [
+      "Getränke außer Wasser und Tee",
+      "Trinkgelder",
+      "Quadfahren oder andere Extras",
+    ],
+  },
+  "shared-essaouira-day-trip": {
+    includes: [
+      "Hin- und Rücktransport im klimatisierten Gruppen-Minibus",
+      "Halt bei einer Arganöl-Kooperative",
+      "Freie Zeit in der Medina",
+    ],
+    excludes: [
+      "Mittagessen",
+      "Guide in der Medina",
+      "Trinkgelder",
+    ],
+  },
 };

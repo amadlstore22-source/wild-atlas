@@ -475,4 +475,71 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Mance per la guida e lo staff del campo",
     ],
   },
+  "shared-merzouga-3day-marrakech": {
+    includes: [
+      "Trasporto in minibus condiviso con aria condizionata",
+      "Due notti di alloggio (hotel + campo nel deserto)",
+      "Cena e colazione al campo",
+      "Giro in cammello al tramonto",
+      "Autista di lingua inglese o francese",
+    ],
+    excludes: [
+      "Pranzi",
+      "Bevande",
+      "Mance",
+      "Biglietti d'ingresso",
+    ],
+  },
+  "shared-zagora-2day-marrakech": {
+    includes: [
+      "Trasporto in minibus condiviso con aria condizionata",
+      "Una notte in campo nel deserto",
+      "Cena e colazione",
+      "Giro in cammello",
+      "Autista di lingua inglese o francese",
+    ],
+    excludes: [
+      "Pranzi",
+      "Bevande",
+      "Mance",
+      "Biglietti d'ingresso",
+    ],
+  },
+  "shared-ouzoud-waterfalls-day-trip": {
+    includes: [
+      "Trasporto andata e ritorno in minibus condiviso",
+      "Guida locale alle cascate",
+      "Acqua minerale",
+    ],
+    excludes: [
+      "Pranzo",
+      "Biglietto per il giro in barca",
+      "Mance",
+    ],
+  },
+  "shared-agafay-dinner-camel-ride": {
+    includes: [
+      "Trasferimento andata e ritorno dal vostro riad o hotel a Marrakech",
+      "Giro in cammello",
+      "Cena di tre portate",
+      "Musica dal vivo e spettacolo del fuoco",
+    ],
+    excludes: [
+      "Bevande oltre ad acqua e tè",
+      "Mance",
+      "Quad o altri extra",
+    ],
+  },
+  "shared-essaouira-day-trip": {
+    includes: [
+      "Trasporto andata e ritorno in minibus condiviso con aria condizionata",
+      "Sosta in una cooperativa di olio di argan",
+      "Tempo libero nella medina",
+    ],
+    excludes: [
+      "Pranzo",
+      "Guida all'interno della medina",
+      "Mance",
+    ],
+  },
 };

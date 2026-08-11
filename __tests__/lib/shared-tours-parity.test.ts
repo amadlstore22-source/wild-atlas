@@ -77,3 +77,32 @@ describe("shared tours have the same components as every other tour", () => {
     }
   });
 });
+
+describe("shared tours are localised, not silently falling back to English", () => {
+  it("translates includes/excludes in every locale", async () => {
+    // tourIncludesFor() falls back to the English strings when a locale file
+    // has no entry for a slug — silently, with no type error. That shipped 25
+    // pages (5 tours x 5 locales) rendering English bullets under a translated
+    // "What's included" heading.
+    const { tourIncludesFor } = await import("@/lib/tour-includes-i18n");
+    for (const slug of SHARED) {
+      const tour = TOURS.find((t) => t.slug === slug)!;
+      const en = await tourIncludesFor("en", tour);
+      for (const lang of LOCALES.filter((l) => l !== "en")) {
+        const local = await tourIncludesFor(lang, tour);
+        expect(
+          local.includes[0],
+          `${slug} falls back to English includes in ${lang}`
+        ).not.toBe(en.includes[0]);
+        expect(
+          local.includes.length,
+          `${slug} includes count differs in ${lang}`
+        ).toBe(en.includes.length);
+        expect(
+          local.excludes.length,
+          `${slug} excludes count differs in ${lang}`
+        ).toBe(en.excludes.length);
+      }
+    }
+  });
+});

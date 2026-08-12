@@ -2713,7 +2713,7 @@ Non costruire una vacanza attorno a Ouarzazate: costruiscila attorno al deserto 
       { q: "La guida è obbligatoria per salire sul Toubkal?", a: "Sì. Una guida alpina abilitata è obbligatoria sul Toubkal e a Imlil c'è un posto di controllo che lo verifica. Le guide sono certificate dal Ministero del Turismo marocchino. Vedi [serve una guida per salire sul Toubkal](/it/blog/do-you-need-a-guide-to-climb-toubkal) per la spiegazione completa." },
       { q: "Quanto costa in totale un trek di 2 giorni al Toubkal?", a: "Organizzandolo da soli, due persone spendono in genere 2.400-3.600 MAD in totale (circa 225-335 € per la coppia) sommando guida, mulo, rifugio in mezza pensione, ingresso al parco e transfer da Marrakech. La nostra [salita al Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 195 € a persona con tutto incluso." },
       { q: "Conviene ingaggiare una guida da soli invece di prenotare un pacchetto?", a: "Meno di quanto si pensi. La tariffa giornaliera della guida è solo una voce del conto: rifugio, pasti, mulo, ingresso al parco e transfer andata e ritorno da Marrakech costituiscono la maggior parte del resto. Organizzarsi da soli dà più flessibilità e un po' più di controllo sulla spesa, soprattutto in gruppi numerosi; un pacchetto scambia questo con la logistica già risolta." },
-      { q: "Quanta mancia si lascia a una guida del Toubkal?", a: "Circa il 10-15 % del costo del viaggio, divisa tra guida e mulattiere, in contanti e in dirham alla fine. È consuetudine e viene apprezzata, ma non è mai obbligatoria: date di più se le condizioni sono state dure o se la guida ha salvato una giornata difficile." },
+      { q: "Quanta mancia si lascia a una guida del Toubkal?", a: "Circa 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere, da parte del gruppo, in contanti e in dirham alla fine. È consuetudine e viene apprezzata, ma non è mai obbligatoria: date di più se le condizioni sono state dure o se la guida ha salvato una giornata difficile." },
     
       { q: "Quanto costa un trek del Toubkal da Marrakech?", a: "Il nostro [trek di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) parte da 195 € a persona in due e 153 € in sei; quello [di 4 giorni](/it/tours/toubkal-summit-trek-4day) da 360 € in due e 295 € in sei. Entrambi comprendono il trasporto andata e ritorno da Marrakech, la guida abilitata, le notti in rifugio, tutti i pasti in montagna, il supporto dei muli e le tasse del parco nazionale — la cifra che vedi è quindi quella che paghi, non una tariffa base a cui aggiungere poi i costi della montagna." },
     ],
@@ -2755,7 +2755,7 @@ Ecco tutto ciò che comporta davvero un viaggio di due giorni. I prezzi sono tar
 | Ingresso al parco nazionale | Piccola quota fissa | Da pagare al controllo di Imlil |
 | Transfer Marrakech ⇄ Imlil | 600-1.000 MAD andata e ritorno | Per veicolo, non a persona |
 | Ramponi + piccozza (inverno) | 100-150 MAD / giorno | Noleggio a Imlil, nov.-mar. |
-| Mance | 10-15 % | Consuetudine, mai obbligatorie |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Consuetudine, mai obbligatorie |
 
 **Un totale realistico tutto compreso** per due persone che si organizzano da sole: circa
 **2.400-3.600 MAD (225-335 €) per la coppia**, a seconda della stagione e di quanto
@@ -2815,7 +2815,7 @@ prima di versare un acconto.
 ## Le mance
 
 La mancia è consuetudine e sinceramente apprezzata, senza essere obbligatoria. Come ordine di
-grandezza, **il 10-15 % del costo del viaggio**, diviso tra guida e mulattiere, con qualcosa
+grandezza, **150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere**, da parte del gruppo, con qualcosa
 in più se le condizioni sono state dure. In contanti, in dirham, alla fine.
 
 ## Pianificare il tuo trek
@@ -2863,7 +2863,7 @@ assicurati di sapere cosa è incluso prima di lasciare Marrakech.
     faq: [
       { q: "Quanto costa un trek di 2 giorni al Toubkal?", a: "Organizzandolo da soli, due persone spendono in genere 2.400-3.600 MAD in totale (circa 225-335 € per la coppia) sommando guida, mulo, rifugio in mezza pensione, ingresso al parco e transfer da Marrakech. La nostra [salita al Toubkal in 2 giorni](/it/tours/toubkal-summit-2day-marrakech) costa 195 € a persona con tutto incluso." },
       { q: "Il trek di 2 giorni costa meno di quello di 4?", a: "Sì, ma meno di quanto suggerisca il numero di giorni. Quello di 2 giorni costa da 195 € a persona e quello [di 4](/it/tours/toubkal-summit-trek-4day) 360 €: non il doppio, perché onorario della guida, mulo e transfer da Marrakech si pagano per viaggio e non per giorno. I due giorni in più comprano soprattutto acclimatamento, il fattore decisivo per arrivare in vetta." },
-      { q: "Cosa non è incluso in un pacchetto Toubkal di 2 giorni?", a: "L'assicurazione di viaggio (obbligatoria e caldamente consigliata su una montagna di 4.167 m), l'attrezzatura personale da trekking, le mance per guida e mulattiere, e ramponi e piccozza tra novembre e marzo. Calcola circa 100-150 MAD al giorno per il noleggio del materiale invernale a Imlil e il 10-15 % del costo del viaggio per le mance." },
+      { q: "Cosa non è incluso in un pacchetto Toubkal di 2 giorni?", a: "L'assicurazione di viaggio (obbligatoria e caldamente consigliata su una montagna di 4.167 m), l'attrezzatura personale da trekking, le mance per guida e mulattiere, e ramponi e piccozza tra novembre e marzo. Calcola circa 100-150 MAD al giorno per il noleggio del materiale invernale a Imlil e 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere per le mance." },
       { q: "Si può salire sul Toubkal in 2 giorni senza guida?", a: "No. Una guida alpina abilitata è obbligatoria sul Toubkal e a Imlil c'è un posto di controllo che lo verifica. Vedi [serve una guida per salire sul Toubkal](/it/blog/do-you-need-a-guide-to-climb-toubkal) per la norma e le sue ragioni." },
     ],
     content: `
@@ -2890,7 +2890,7 @@ distinti, e la guida è solo il maggiore.
 | Ingresso al parco nazionale | Piccola quota fissa | Da pagare al controllo di Imlil |
 | Transfer Marrakech ⇄ Imlil | 600-1.000 MAD andata e ritorno | Per veicolo, non a persona |
 | Ramponi + piccozza (inverno) | 100-150 MAD / giorno | Noleggio a Imlil, nov.-mar. |
-| Mance | 10-15 % | Consuetudine, mai obbligatorie |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Consuetudine, mai obbligatorie |
 
 Su due giorni sono circa 1.000-1.600 MAD di guida, 500-600 di mulo, 300-350 per la notte in
 rifugio e 600-1.000 per il transfer andata e ritorno.
@@ -2936,7 +2936,7 @@ Da mettere a budget a parte:
 - **Assicurazione di viaggio** — obbligatoria nei nostri viaggi e sensata su qualsiasi montagna di 4.167 m. Verifica che copra il trekking in quota.
 - **Attrezzatura personale** — scarponi, strati, giacca calda. Vedi [cosa mettere in valigia per un trek nell'Alto Atlante](/it/blog/what-to-pack-high-atlas-trek-morocco).
 - **Materiale invernale** — ramponi e piccozza da novembre a marzo, 100-150 MAD/giorno a Imlil.
-- **Mance** — 10-15 % del costo del viaggio, tra guida e mulattiere, in dirham alla fine.
+- **Mance** — 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere, da parte del gruppo, in dirham alla fine.
 
 ## Dove finiscono i soldi
 
@@ -2982,7 +2982,7 @@ organizzare.
       { q: "Quanto costa un trek di 4 giorni al Toubkal?", a: "Da soli, due persone spendono in genere 4.200-6.000 MAD in totale (circa 390-560 € per la coppia) tra quattro giorni di guida, tre notti in rifugio in mezza pensione, il mulo, le tasse del parco e il transfer da Marrakech. Il nostro [trek di 4 giorni al Toubkal](/it/tours/toubkal-summit-trek-4day) costa 360 € a persona con tutto incluso." },
       { q: "Perché il 4 giorni non costa il doppio del 2 giorni?", a: "Perché i costi maggiori si pagano per viaggio e non per giorno. Il transfer da Marrakech, il noleggio del mulo e parte dell'impegno della guida sono identici che si cammini due o quattro giorni. Solo la tariffa giornaliera della guida, le notti in rifugio e i pasti crescono con la durata: per questo 195 € diventano 360 € e non 390 €." },
       { q: "Vale la pena il costo extra del trek di 4 giorni?", a: "Per la maggior parte delle persone sì. L'altitudine è la causa più comune di fallimento di un tentativo al Toubkal, e l'itinerario di 4 giorni sale gradualmente con tempo per acclimatarsi prima dell'attacco finale. Il 2 giorni passa da 450 m a 4.167 m in circa trenta ore. I 165 € in più comprano una probabilità nettamente più alta di arrivare in vetta." },
-      { q: "Quali costi extra prevedere su un trek di 4 giorni?", a: "Un'assicurazione di viaggio che copra il trekking in quota, l'attrezzatura personale e mance del 10-15 % divise tra guida e mulattiere. Tra novembre e marzo aggiungi il noleggio di ramponi e piccozza a circa 100-150 MAD al giorno. Tutto il resto — rifugi, tutti i pasti, mulo, tasse del parco e transfer — è incluso nel nostro pacchetto." },
+      { q: "Quali costi extra prevedere su un trek di 4 giorni?", a: "Un'assicurazione di viaggio che copra il trekking in quota, l'attrezzatura personale e mance del 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere divise tra guida e mulattiere. Tra novembre e marzo aggiungi il noleggio di ramponi e piccozza a circa 100-150 MAD al giorno. Tutto il resto — rifugi, tutti i pasti, mulo, tasse del parco e transfer — è incluso nel nostro pacchetto." },
     ],
     content: `
 ## La risposta breve
@@ -3004,7 +3004,7 @@ variano con la stagione e la dimensione del gruppo.
 | Ingresso al parco nazionale | Piccola quota fissa | No |
 | Transfer Marrakech ⇄ Imlil | 600-1.000 MAD andata e ritorno | No |
 | Ramponi + piccozza (inverno) | 100-150 MAD / giorno | Sì, nov.-mar. |
-| Mance | 10-15 % | Proporzionali |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Proporzionali |
 
 Su quattro giorni: circa 2.000-3.200 MAD di guida, 1.000-1.200 di mulo, 900-1.050 per tre
 notti in rifugio, e lo stesso transfer da 600-1.000 che pagheresti in un viaggio di due
@@ -3051,7 +3051,7 @@ seconda opzione fa risparmiare molto di più.
 - **Assicurazione di viaggio** — obbligatoria nei nostri viaggi. Verifica che copra il trekking sopra i 4.000 m.
 - **Attrezzatura personale** — vedi [cosa mettere in valigia per un trek nell'Alto Atlante](/it/blog/what-to-pack-high-atlas-trek-morocco).
 - **Materiale invernale** — ramponi e piccozza, 100-150 MAD/giorno a Imlil, da novembre a marzo. Vedi [il Toubkal in inverno](/it/blog/toubkal-in-winter-what-to-expect).
-- **Mance** — 10-15 % del costo del viaggio, tra guida e mulattiere, in dirham.
+- **Mance** — 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere, da parte del gruppo, in dirham.
 
 ## Andare oltre la vetta
 
@@ -3095,7 +3095,7 @@ di più, ma perché è l'acclimatamento a portarti in cima.
       { q: "Quanto costa il circuito del Toubkal di 6 giorni?", a: "Da soli, due persone spendono in genere 6.000-9.000 MAD in totale (circa 560-840 € per la coppia) tra sei giorni di guida, cinque notti di alloggio misto, muli per il materiale da campo, tasse del parco e transfer. Il nostro [circuito del Toubkal di 6 giorni](/it/tours/toubkal-circuit-ifni-lake-6day) costa 790 € a persona con tutto incluso." },
       { q: "Perché il circuito costa più al giorno del trek di vetta?", a: "Perché esce dalla rete dei rifugi. Il circuito attraversa verso il lago Ifni e le valli meridionali dove non ci sono rifugi, quindi le notti si dividono tra rifugi di montagna, gîte di villaggio e campo tendato — e il campo comporta muli aggiuntivi, un cuoco e attrezzatura. È un costo reale in più, non un ricarico." },
       { q: "Vale la pena aggiungere il lago Ifni a un viaggio al Toubkal?", a: "Se hai i giorni, sì. Il lago Ifni è l'unico lago permanente dell'Alto Atlante, in una conca sotto il versante sud del massiccio, e raggiungerlo significa valicare un colle in quota che la maggior parte dei visitatori del Toubkal non vede mai. Le vie di vetta ti mostrano la montagna; il circuito ti mostra la catena intorno." },
-      { q: "Cosa non è incluso nel prezzo del circuito di 6 giorni?", a: "L'assicurazione di viaggio, l'attrezzatura personale da trekking incluso un sacco a pelo per le notti in tenda, e le mance per guida, cuoco e mulattieri — in genere il 10-15 % del costo del viaggio. Tutto il resto, comprese tutte e cinque le notti, tutti i pasti, i muli e le tasse del parco, è incluso." },
+      { q: "Cosa non è incluso nel prezzo del circuito di 6 giorni?", a: "L'assicurazione di viaggio, l'attrezzatura personale da trekking incluso un sacco a pelo per le notti in tenda, e le mance per guida, cuoco e mulattieri — in genere 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere. Tutto il resto, comprese tutte e cinque le notti, tutti i pasti, i muli e le tasse del parco, è incluso." },
     ],
     content: `
 ## La risposta breve
@@ -3158,7 +3158,7 @@ nostro catalogo.
 
 - **Assicurazione di viaggio** — obbligatoria, e deve coprire il trekking in quota.
 - **Attrezzatura personale incluso sacco a pelo** — necessaria specificamente per le notti in tenda. Vedi [cosa mettere in valigia per un trek nell'Alto Atlante](/it/blog/what-to-pack-high-atlas-trek-morocco).
-- **Mance** — 10-15 % del costo del viaggio, divise tra guida, cuoco e mulattieri. Su questo itinerario ci sono più persone da ringraziare che su un trek in rifugio.
+- **Mance** — 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere, divise tra guida, cuoco e mulattieri. Su questo itinerario ci sono più persone da ringraziare che su un trek in rifugio.
 
 ## A confronto
 
@@ -3456,7 +3456,7 @@ Prenota quello che vuoi davvero.
       { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 225 € per un 4x4 privato con campo di lusso. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 225 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo con cena e colazione, una notte in hotel e una guida del deserto." },
       { q: "Perché alcuni tour nel deserto marocchino costano così poco?", a: "Il risparmio viene da quattro fronti: un minibus condiviso da 16 posti invece di un veicolo privato; un campo essenziale con bagni in comune invece che privati; i pranzi esclusi in entrambi i giorni di strada; e un gruppo più numeroso, quindi più soste e meno flessibilità. Nulla di disonesto se dichiarato: chiedi cosa si applica prima di pagare." },
       { q: "Tre giorni bastano per il Sahara?", a: "È l'itinerario più breve che raggiunge davvero l'Erg Chebbi. Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e tre sono in gran parte giornate di strada, con la notte nel deserto in mezzo. Se vuoi più dune e meno auto, il [tour di 4 giorni](/it/tours/desert-4day-marrakech) aggiunge una notte e un ritmo più disteso." },
-      { q: "Cosa non è incluso in un tour di 3 giorni nel deserto?", a: "Nel nostro viaggio: i pranzi dei giorni 1 e 3, le spese personali e le mance. I pranzi lungo la strada costano in genere 60-120 MAD ciascuno nei ristoranti di sosta. Le mance per l'autista-guida e il personale del campo sono consuetudine, intorno al 10-15 %." },
+      { q: "Cosa non è incluso in un tour di 3 giorni nel deserto?", a: "Nel nostro viaggio: i pranzi dei giorni 1 e 3, le spese personali e le mance. I pranzi lungo la strada costano in genere 60-120 MAD ciascuno nei ristoranti di sosta. Le mance per l'autista-guida e il personale del campo sono consuetudine, intorno al 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere." },
     ],
     content: `
 ## La forbice di prezzo è la storia
@@ -3509,7 +3509,7 @@ risposte sono vaghe, quella è esattamente l'informazione che ti serviva.
 ## Cosa non è incluso nel nostro viaggio
 
 - **Pranzi dei giorni 1 e 3** — soste lungo la strada, in genere 60-120 MAD
-- **Spese personali e mance** — il 10-15 % per l'autista-guida e il personale del campo è consuetudine
+- **Spese personali e mance** — il 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere per l'autista-guida e il personale del campo è consuetudine
 
 Tutto il resto — trasporto privato, giro in cammello al tramonto, campo di lusso con cena e
 colazione, notte in hotel e guida del deserto — è nel prezzo.
@@ -3695,7 +3695,7 @@ quella distanza venga spezzata o no.
 | Pranzi | 12-15 € a persona a pasto |
 | Atlas Studios (facoltativo) | ~7 € a persona |
 | Assicurazione di viaggio | Variabile — stipulatela |
-| Mance | 10-15 % del costo del tour |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere del costo del tour |
 
 Per una famiglia di quattro su quattro giorni, i soli pranzi sono realisticamente
 **150-200 €**. Non è un costo nascosto — è sulla pagina del tour — ma è la voce che la
@@ -3785,7 +3785,7 @@ Questo trek sale su **Timesguida (4.089 m)**, **Ras Ouanoukrim (4.083 m)** e
 | Ingresso al parco nazionale | Piccola tassa fissa | Si paga al posto di controllo di Imlil |
 | Transfer Marrakech ⇄ Imlil | 600–1.000 MAD andata e ritorno | Per veicolo, non per persona |
 | Ramponi + piccozza (nov–mar) | 100–150 MAD / giorno | Noleggio a Imlil, per persona |
-| Mance | 10–15 % | Consuetudine, mai obbligatorie |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Consuetudine, mai obbligatorie |
 
 ## La guida fa tutta la differenza
 
@@ -3810,7 +3810,7 @@ bilancio invece di scoprirlo all'inizio del sentiero.
 
 - **Assicurazione di viaggio con copertura d'alta quota** — obbligatoria, e davvero necessaria su una montagna di 4.167 m
 - **Attrezzatura personale da trekking** — scarponi, strati, frontale
-- **Mance per guida e portatore** — 10–15 % è la consuetudine
+- **Mance per guida e portatore** — 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere è la consuetudine
 - **Ramponi e piccozza in inverno** — noleggio disponibile a Imlil
 
 Tutto il resto — guida d'alta quota, entrambe le notti in rifugio, tutti i pasti del
@@ -3877,7 +3877,7 @@ tuo alloggio, il tuo cibo e la persona che lo cucina viaggiano con te.
 | Casa di famiglia berbera | 150–250 MAD / persona / notte | Cena e colazione incluse |
 | Notti in tenda | Attrezzatura ammortizzata | Tende trasportate dalla carovana |
 | Tasse di parco / accesso | Piccola tassa fissa | Si paga sul posto |
-| Mance | 10–15 % | Guida, cuoco e mulattieri |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Guida, cuoco e mulattieri |
 
 ## Perché qui la dimensione del gruppo conta di più
 
@@ -3967,7 +3967,7 @@ campi tendati.
 | Notti in tenda | Attrezzatura trasportata | Dove non ci sono villaggi |
 | Tasse parchi M'Goun + Toubkal | Due tasse distinte | Entrambe incluse |
 | Transfer verso gli attacchi | 600–1.000 MAD ciascuno | Valli diverse alle due estremità |
-| Mance | 10–15 % | Guida, cuoco e mulattieri |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Guida, cuoco e mulattieri |
 
 ## Perché la tariffa giornaliera scende
 
@@ -4156,7 +4156,7 @@ rifugio, nessuna notte in quota. Il punto più alto è a circa **2.300 m a Tache
 | Mulo + mulattiere | 250–300 MAD / giorno | Porta i bagagli fra i villaggi |
 | Transfer Marrakech ⇄ Imlil | 600–1.000 MAD andata e ritorno | Per veicolo, non per persona |
 | Rientro dall'Ourika | 400–700 MAD | Valle diversa da quella di partenza |
-| Mance | 10–15 % | Consuetudine, mai obbligatorie |
+| Mance | 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere | Consuetudine, mai obbligatorie |
 
 ## Perché il divario è reale ma piccolo
 

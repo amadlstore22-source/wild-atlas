@@ -2713,7 +2713,7 @@ Bauen Sie keinen Urlaub um Ouarzazate – bauen Sie ihn um die Wüste und lassen
       { q: "Ist ein Bergführer am Toubkal Pflicht?", a: "Ja. Ein lizenzierter Bergführer ist am Toubkal vorgeschrieben, und eine Kontrollstelle in Imlil setzt das durch. Die Führer sind vom marokkanischen Tourismusministerium zertifiziert. Siehe [Braucht man einen Führer für den Toubkal?](/de/blog/do-you-need-a-guide-to-climb-toubkal) für die vollständige Erklärung." },
       { q: "Was kostet ein 2-Tages-Trek zum Toubkal insgesamt?", a: "In Eigenregie geben zwei Personen typischerweise 2.400–3.600 MAD insgesamt aus (etwa 225–335 € für beide), wenn Führer, Maultier, Hütte mit Halbpension, Parkgebühr und Transfer ab Marrakesch zusammengerechnet werden. Unsere [2-Tages-Toubkal-Besteigung](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € pro Person mit allem inklusive." },
       { q: "Ist es günstiger, selbst einen Führer zu engagieren, als ein Paket zu buchen?", a: "Weniger, als die meisten erwarten. Der Tagessatz des Führers ist nur eine Zeile der Rechnung — Hütte, Verpflegung, Maultier, Parkgebühr und der Hin- und Rücktransfer ab Marrakesch machen den Großteil des Rests aus. Selbst organisieren gibt mehr Flexibilität und etwas mehr Kostenkontrolle, besonders in größeren Gruppen; ein Paket tauscht das gegen erledigte Logistik." },
-      { q: "Wie viel Trinkgeld gibt man einem Toubkal-Bergführer?", a: "Etwa 10–15 % der Reisekosten, aufgeteilt zwischen Führer und Maultiertreiber, bar in Dirham am Ende. Es ist üblich und wird geschätzt, aber nie verpflichtend — geben Sie mehr, wenn die Bedingungen hart waren oder Ihr Führer einen schwierigen Tag gerettet hat." },
+      { q: "Wie viel Trinkgeld gibt man einem Toubkal-Bergführer?", a: "Etwa 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, bar in Dirham am Ende. Es ist üblich und wird geschätzt, aber nie verpflichtend — geben Sie mehr, wenn die Bedingungen hart waren oder Ihr Führer einen schwierigen Tag gerettet hat." },
     
       { q: "Was kostet ein Toubkal-Trek ab Marrakesch?", a: "Unser [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) kostet ab 195 € pro Person zu zweit und 153 € zu sechst; der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 360 € zu zweit und 295 € zu sechst. Beide enthalten den Transfer ab Marrakesch und zurück, den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, Maultierunterstützung und die Nationalparkgebühren — die angezeigte Zahl ist also die, die Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später addiert werden." },
     ],
@@ -2756,7 +2756,7 @@ für 2026 und variieren je nach Saison und Gruppengröße.
 | Nationalpark-Eintritt | Kleine Pauschale | Zahlbar an der Kontrollstelle Imlil |
 | Transfer Marrakesch ⇄ Imlil | 600–1.000 MAD hin und zurück | Pro Fahrzeug, nicht pro Person |
 | Steigeisen + Eispickel (Winter) | 100–150 MAD / Tag | Verleih in Imlil, Nov.–März |
-| Trinkgeld | 10–15 % | Üblich, nie verpflichtend |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Üblich, nie verpflichtend |
 
 **Ein realistischer Gesamtbetrag** für zwei Personen in Eigenregie: rund
 **2.400–3.600 MAD (225–335 €) für beide**, je nach Saison und Verhandlungsgeschick. Pro
@@ -2815,7 +2815,7 @@ Antwort ein, bevor Sie anzahlen.
 ## Trinkgeld
 
 Trinkgeld ist üblich und wird aufrichtig geschätzt, ohne verpflichtend zu sein. Als
-Richtwert **10–15 % der Reisekosten**, aufgeteilt zwischen Führer und Maultiertreiber, etwas
+Richtwert **150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe**, aufgeteilt zwischen Führer und Maultiertreiber, etwas
 mehr bei harten Bedingungen. Bar, in Dirham, am Ende.
 
 ## Ihren eigenen Trek planen
@@ -2864,7 +2864,7 @@ Marrakesch verlassen.
     faq: [
       { q: "Was kostet ein 2-Tages-Trek zum Toubkal?", a: "In Eigenregie geben zwei Personen typischerweise 2.400–3.600 MAD insgesamt aus (etwa 225–335 € für beide), wenn Führer, Maultier, Hütte mit Halbpension, Parkgebühr und Transfer ab Marrakesch zusammengerechnet werden. Unsere [2-Tages-Toubkal-Besteigung](/de/tours/toubkal-summit-2day-marrakech) kostet 195 € pro Person mit allem inklusive." },
       { q: "Ist der 2-Tages-Trek günstiger als der 4-Tages-Trek?", a: "Ja, aber weniger, als die Tagesanzahl vermuten lässt. Der 2-Tages-Trek kostet ab 195 € pro Person, der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) 360 € — nicht das Doppelte, weil Führerhonorar, Maultier und Transfer ab Marrakesch pro Tour und nicht pro Tag berechnet werden. Die zwei zusätzlichen Tage kaufen vor allem Akklimatisierung, den entscheidenden Faktor für den Gipfelerfolg." },
-      { q: "Was ist in einem 2-Tages-Toubkal-Paket nicht enthalten?", a: "Reiseversicherung (obligatorisch und an einem 4.167-m-Berg dringend zu empfehlen), persönliche Trekkingausrüstung, Trinkgeld für Führer und Maultiertreiber sowie Steigeisen und Eispickel zwischen November und März. Rechnen Sie mit etwa 100–150 MAD pro Tag für Winterausrüstung in Imlil und 10–15 % der Reisekosten für Trinkgeld." },
+      { q: "Was ist in einem 2-Tages-Toubkal-Paket nicht enthalten?", a: "Reiseversicherung (obligatorisch und an einem 4.167-m-Berg dringend zu empfehlen), persönliche Trekkingausrüstung, Trinkgeld für Führer und Maultiertreiber sowie Steigeisen und Eispickel zwischen November und März. Rechnen Sie mit etwa 100–150 MAD pro Tag für Winterausrüstung in Imlil und 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe für Trinkgeld." },
       { q: "Kann man den Toubkal in 2 Tagen ohne Führer besteigen?", a: "Nein. Ein lizenzierter Bergführer ist am Toubkal vorgeschrieben, und eine Kontrollstelle in Imlil setzt das durch. Siehe [Braucht man einen Führer für den Toubkal?](/de/blog/do-you-need-a-guide-to-climb-toubkal) für Regel und Begründung." },
     ],
     content: `
@@ -2891,7 +2891,7 @@ der Führer ist nur der größte davon.
 | Nationalpark-Eintritt | Kleine Pauschale | Zahlbar an der Kontrollstelle Imlil |
 | Transfer Marrakesch ⇄ Imlil | 600–1.000 MAD hin und zurück | Pro Fahrzeug, nicht pro Person |
 | Steigeisen + Eispickel (Winter) | 100–150 MAD / Tag | Verleih in Imlil, Nov.–März |
-| Trinkgeld | 10–15 % | Üblich, nie verpflichtend |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Üblich, nie verpflichtend |
 
 Über zwei Tage ergibt das grob 1.000–1.600 MAD für den Führer, 500–600 für das Maultier,
 300–350 für die Hüttennacht und 600–1.000 für den Transfer hin und zurück.
@@ -2940,7 +2940,7 @@ Separat einzuplanen:
 - **Reiseversicherung** — bei unseren Touren obligatorisch und an jedem 4.167-m-Berg sinnvoll. Prüfen Sie, ob Trekking in Höhe abgedeckt ist.
 - **Persönliche Ausrüstung** — Schuhe, Schichten, warme Jacke. Siehe [Packliste für einen Trek im Hohen Atlas](/de/blog/what-to-pack-high-atlas-trek-morocco).
 - **Winterausrüstung** — Steigeisen und Eispickel von November bis März, 100–150 MAD/Tag in Imlil.
-- **Trinkgeld** — 10–15 % der Reisekosten, zwischen Führer und Maultiertreiber, bar in Dirham.
+- **Trinkgeld** — 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, zwischen Führer und Maultiertreiber, bar in Dirham.
 
 ## Wohin das Geld fließt
 
@@ -2986,7 +2986,7 @@ verbringen wollen.
       { q: "Was kostet ein 4-Tages-Trek zum Toubkal?", a: "In Eigenregie geben zwei Personen typischerweise 4.200–6.000 MAD insgesamt aus (etwa 390–560 € für beide) für vier Tage Führerhonorar, drei Hüttennächte mit Halbpension, das Maultier, Parkgebühren und den Transfer ab Marrakesch. Unser [4-Tages-Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) kostet 360 € pro Person mit allem inklusive." },
       { q: "Warum kostet der 4-Tages-Trek nicht das Doppelte des 2-Tages-Treks?", a: "Weil die größten Kosten pro Tour und nicht pro Tag berechnet werden. Der Transfer ab Marrakesch, die Maultiermiete und ein Teil der Führerbindung sind gleich, ob Sie zwei oder vier Tage gehen. Nur der Tagessatz des Führers, die Hüttennächte und die Mahlzeiten skalieren mit der Dauer — deshalb werden aus 195 € 360 € und nicht 390 €." },
       { q: "Lohnt sich der Aufpreis für den 4-Tages-Trek?", a: "Für die meisten ja. Die Höhe ist der häufigste Grund für einen gescheiterten Toubkal-Versuch, und die 4-Tages-Route steigt allmählich an und lässt Zeit zur Akklimatisierung vor dem Gipfelgang. Die 2-Tages-Route geht in rund dreißig Stunden von 450 m auf 4.167 m. Die zusätzlichen 165 € kaufen eine deutlich höhere Gipfelchance." },
-      { q: "Welche Zusatzkosten sollte man für einen 4-Tages-Trek einplanen?", a: "Eine Reiseversicherung, die Trekking in Höhe abdeckt, persönliche Ausrüstung und 10–15 % Trinkgeld, aufgeteilt zwischen Führer und Maultiertreiber. Von November bis März kommen Steigeisen und Eispickel für etwa 100–150 MAD pro Tag dazu. Alles andere — Hütten, alle Mahlzeiten, Maultier, Parkgebühren und Transfers — ist in unserem Paket enthalten." },
+      { q: "Welche Zusatzkosten sollte man für einen 4-Tages-Trek einplanen?", a: "Eine Reiseversicherung, die Trekking in Höhe abdeckt, persönliche Ausrüstung und 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber Trinkgeld, aufgeteilt zwischen Führer und Maultiertreiber. Von November bis März kommen Steigeisen und Eispickel für etwa 100–150 MAD pro Tag dazu. Alles andere — Hütten, alle Mahlzeiten, Maultier, Parkgebühren und Transfers — ist in unserem Paket enthalten." },
     ],
     content: `
 ## Die kurze Antwort
@@ -3008,7 +3008,7 @@ Vier Tage verändern, welche Kosten skalieren und welche nicht. Die Sätze sind 
 | Nationalpark-Eintritt | Kleine Pauschale | Nein |
 | Transfer Marrakesch ⇄ Imlil | 600–1.000 MAD hin und zurück | Nein |
 | Steigeisen + Eispickel (Winter) | 100–150 MAD / Tag | Ja, Nov.–März |
-| Trinkgeld | 10–15 % | Anteilig |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Anteilig |
 
 Über vier Tage: rund 2.000–3.200 MAD für den Führer, 1.000–1.200 für das Maultier,
 900–1.050 für drei Hüttennächte und derselbe Transfer für 600–1.000, den Sie auch bei einer
@@ -3054,7 +3054,7 @@ weit mehr.
 - **Reiseversicherung** — bei unseren Touren obligatorisch. Prüfen Sie, ob Trekking über 4.000 m abgedeckt ist.
 - **Persönliche Ausrüstung** — siehe [Packliste für einen Trek im Hohen Atlas](/de/blog/what-to-pack-high-atlas-trek-morocco).
 - **Winterausrüstung** — Steigeisen und Eispickel, 100–150 MAD/Tag in Imlil, November bis März. Siehe [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect).
-- **Trinkgeld** — 10–15 % der Reisekosten, zwischen Führer und Maultiertreiber, in Dirham.
+- **Trinkgeld** — 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, zwischen Führer und Maultiertreiber, in Dirham.
 
 ## Weiter als bis zum Gipfel
 
@@ -3098,7 +3098,7 @@ weil Akklimatisierung Sie nach oben bringt.
       { q: "Was kostet die 6-Tages-Toubkal-Runde?", a: "In Eigenregie geben zwei Personen typischerweise 6.000–9.000 MAD insgesamt aus (etwa 560–840 € für beide) für sechs Tage Führung, fünf Nächte gemischte Unterkunft, Maultiere für die Lagerausrüstung, Parkgebühren und Transfers. Unsere [6-Tages-Toubkal-Runde](/de/tours/toubkal-circuit-ifni-lake-6day) kostet 790 € pro Person mit allem inklusive." },
       { q: "Warum kostet die Runde pro Tag mehr als der Gipfeltrek?", a: "Weil sie das Hüttennetz verlässt. Die Runde quert zum Ifni-See und in die Südtäler, wo es keine Hütten gibt, sodass die Nächte sich auf Berghütten, Dorf-Gîtes und Zeltlager verteilen — und Zelten bedeutet zusätzliche Maultiere, einen Koch und Material. Das sind echte Mehrkosten, kein Aufschlag." },
       { q: "Lohnt sich der Ifni-See als Ergänzung zu einer Toubkal-Reise?", a: "Wenn Sie die Tage haben, ja. Der Ifni-See ist der einzige permanente See im Hohen Atlas, in einem Kessel unterhalb der Südseite des Massivs, und ihn zu erreichen bedeutet, einen hohen Pass zu queren, den die meisten Toubkal-Besucher nie sehen. Die Gipfelrouten zeigen Ihnen den Berg; die Runde zeigt Ihnen das Gebirge ringsum." },
-      { q: "Was ist im Preis der 6-Tages-Runde nicht enthalten?", a: "Reiseversicherung, persönliche Trekkingausrüstung einschließlich Schlafsack für die Zeltnächte, und Trinkgeld für Führer, Koch und Maultiertreiber — typischerweise 10–15 % der Reisekosten. Alles andere, einschließlich aller fünf Nächte, sämtlicher Mahlzeiten, der Maultiere und der Parkgebühren, ist enthalten." },
+      { q: "Was ist im Preis der 6-Tages-Runde nicht enthalten?", a: "Reiseversicherung, persönliche Trekkingausrüstung einschließlich Schlafsack für die Zeltnächte, und Trinkgeld für Führer, Koch und Maultiertreiber — typischerweise 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe. Alles andere, einschließlich aller fünf Nächte, sämtlicher Mahlzeiten, der Maultiere und der Parkgebühren, ist enthalten." },
     ],
     content: `
 ## Die kurze Antwort
@@ -3160,7 +3160,7 @@ Gruppengröße ist hier daher anteilig größer als irgendwo sonst in unserem Pr
 
 - **Reiseversicherung** — obligatorisch, und sie sollte Trekking in Höhe abdecken.
 - **Persönliche Ausrüstung inkl. Schlafsack** — speziell für die Zeltnächte nötig. Siehe [Packliste für einen Trek im Hohen Atlas](/de/blog/what-to-pack-high-atlas-trek-morocco).
-- **Trinkgeld** — 10–15 % der Reisekosten, aufgeteilt zwischen Führer, Koch und Maultiertreibern. Auf dieser Route gibt es mehr Menschen zu bedenken als bei einem Hüttentrek.
+- **Trinkgeld** — 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, aufgeteilt zwischen Führer, Koch und Maultiertreibern. Auf dieser Route gibt es mehr Menschen zu bedenken als bei einem Hüttentrek.
 
 ## Im Vergleich
 
@@ -3459,7 +3459,7 @@ sie ist nicht schlechter — sie ist anders. Buchen Sie die, die Sie wollen.
       { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 225 € für einen privaten 4x4 mit Luxuscamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 225 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Wüstencamp mit Abendessen und Frühstück, eine Hotelnacht und einen Wüstenführer." },
       { q: "Warum sind manche Wüstentouren in Marokko so günstig?", a: "Die Ersparnis kommt aus vier Bereichen: ein Sammelminibus mit 16 Plätzen statt eines Privatfahrzeugs; ein einfaches Camp mit Gemeinschaftsbädern statt privater; an beiden Fahrtagen ausgeschlossene Mittagessen; und eine größere Gruppe, also mehr Stopps und weniger Flexibilität. Nichts davon ist unehrlich, wenn es offengelegt wird — fragen Sie vor der Zahlung nach, was zutrifft." },
       { q: "Reichen drei Tage für die Sahara?", a: "Es ist die kürzeste Route, die den Erg Chebbi wirklich erreicht. Merzouga liegt etwa 560 km von Marrakesch entfernt, also sind Tag eins und drei weitgehend Fahrtage, mit der Wüstennacht dazwischen. Wenn Sie mehr Zeit in den Dünen und weniger im Auto wollen, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) eine Nacht und ein ruhigeres Tempo hinzu." },
-      { q: "Was ist bei einer 3-Tages-Wüstentour nicht enthalten?", a: "Bei unserer Tour: die Mittagessen an Tag 1 und 3, persönliche Ausgaben und Trinkgeld. Mittagessen unterwegs kosten in den Raststätten der Route typischerweise 60–120 MAD. Trinkgeld für Fahrer-Guide und Campteam ist mit etwa 10–15 % üblich." },
+      { q: "Was ist bei einer 3-Tages-Wüstentour nicht enthalten?", a: "Bei unserer Tour: die Mittagessen an Tag 1 und 3, persönliche Ausgaben und Trinkgeld. Mittagessen unterwegs kosten in den Raststätten der Route typischerweise 60–120 MAD. Trinkgeld für Fahrer-Guide und Campteam ist mit etwa 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber üblich." },
     ],
     content: `
 ## Die Preisspanne ist die eigentliche Geschichte
@@ -3513,7 +3513,7 @@ Antworten vage, ist genau das die Information, die Sie brauchten.
 ## Was bei unserer Tour nicht enthalten ist
 
 - **Mittagessen an Tag 1 und 3** — Stopps unterwegs, typischerweise 60–120 MAD
-- **Persönliche Ausgaben und Trinkgeld** — 10–15 % für Fahrer-Guide und Campteam sind üblich
+- **Persönliche Ausgaben und Trinkgeld** — 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber für Fahrer-Guide und Campteam sind üblich
 
 Alles andere — privater Transport, Kamelritt bei Sonnenuntergang, Wüstencamp mit Abendessen
 und Frühstück, Hotelnacht und Wüstenführer — ist im Preis enthalten.
@@ -3698,7 +3698,7 @@ Hier laufen Familienbudgets aus dem Ruder, deshalb klar gesagt:
 | Mittagessen | 12–15 € pro Person und Mahlzeit |
 | Atlas-Filmstudios (optional) | ~7 € pro Person |
 | Reiseversicherung | Variabel — schließen Sie eine ab |
-| Trinkgeld | 10–15 % der Tourkosten |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber der Tourkosten |
 
 Für eine vierköpfige Familie über vier Tage machen allein die Mittagessen realistisch
 **150–200 €** aus. Das ist keine versteckte Gebühr — es steht auf der Tourseite — aber es
@@ -3788,7 +3788,7 @@ Dieser Trek besteigt **Timesguida (4.089 m)**, **Ras Ouanoukrim (4.083 m)** und
 | Nationalpark-Eintritt | Kleine feste Gebühr | Zahlbar an der Kontrolle in Imlil |
 | Transfer Marrakesch ⇄ Imlil | 600–1.000 MAD hin und zurück | Pro Fahrzeug, nicht pro Person |
 | Steigeisen + Pickel (Nov–März) | 100–150 MAD / Tag | Verleih in Imlil, pro Person |
-| Trinkgeld | 10–15 % | Üblich, nie verpflichtend |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Üblich, nie verpflichtend |
 
 ## Der Bergführer macht den ganzen Unterschied
 
@@ -3813,7 +3813,7 @@ Sie das ein, statt es am Ausgangspunkt zu entdecken.
 
 - **Reiseversicherung mit Höhendeckung** — verpflichtend und an einem 4.167 m hohen Berg wirklich nötig
 - **Persönliche Trekkingausrüstung** — Schuhe, Schichten, Stirnlampe
-- **Trinkgeld für Führer und Träger** — 10–15 % sind üblich
+- **Trinkgeld für Führer und Träger** — 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber sind üblich
 - **Steigeisen und Pickel im Winter** — Verleih in Imlil möglich
 
 Alles andere — Höhenbergführer, beide Hüttennächte, alle Mahlzeiten auf dem Trek, der
@@ -3881,7 +3881,7 @@ reisen mit Ihnen.
 | Übernachtung bei Berberfamilie | 150–250 MAD / Person / Nacht | Abendessen und Frühstück inklusive |
 | Zeltnächte | Ausrüstung amortisiert | Zelte von der Karawane getragen |
 | Park- / Zugangsgebühren | Kleine feste Gebühr | Vor Ort zu zahlen |
-| Trinkgeld | 10–15 % | Führer, Koch und Maultiertreiber |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Führer, Koch und Maultiertreiber |
 
 ## Warum die Gruppengröße hier stärker zählt
 
@@ -3971,7 +3971,7 @@ Die Durchquerung führt vom Tal **Aït Bougmez** über den **M'Goun (4.068 m)**,
 | Zeltnächte | Ausrüstung mitgeführt | Wo es kein Dorf gibt |
 | Parkgebühren M'Goun + Toubkal | Zwei getrennte Gebühren | Beide inklusive |
 | Transfers zu den Ausgangspunkten | je 600–1.000 MAD | Verschiedene Täler an beiden Enden |
-| Trinkgeld | 10–15 % | Führer, Koch und Maultiertreiber |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Führer, Koch und Maultiertreiber |
 
 ## Warum der Tagessatz sinkt
 
@@ -4160,7 +4160,7 @@ Tacheddirt**.
 | Maultier + Treiber | 250–300 MAD / Tag | Trägt das Gepäck zwischen den Dörfern |
 | Transfer Marrakesch ⇄ Imlil | 600–1.000 MAD hin und zurück | Pro Fahrzeug, nicht pro Person |
 | Rückfahrt aus dem Ourika | 400–700 MAD | Anderes Tal als der Start |
-| Trinkgeld | 10–15 % | Üblich, nie verpflichtend |
+| Trinkgeld | 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber | Üblich, nie verpflichtend |
 
 ## Warum der Abstand real, aber klein ist
 

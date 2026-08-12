@@ -2713,7 +2713,7 @@ Ne bâtissez pas des vacances autour de Ouarzazate — bâtissez-les autour du d
       { q: "Un guide est-il obligatoire pour gravir le Toubkal ?", a: "Oui. Un guide de montagne agréé est obligatoire sur le Toubkal et un poste de contrôle à Imlil le vérifie. Les guides sont certifiés par le ministère du Tourisme marocain. Voir [faut-il un guide pour gravir le Toubkal](/fr/blog/do-you-need-a-guide-to-climb-toubkal) pour l'explication complète." },
       { q: "Combien coûte un trek de 2 jours au Toubkal au total ?", a: "En vous organisant vous-même, deux personnes dépensent généralement 2 400 à 3 600 MAD au total (environ 225–335 € pour le duo) une fois additionnés le guide, la mule, le refuge en demi-pension, les frais de parc et le transfert depuis Marrakech. Notre [ascension du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € par personne, tout compris." },
       { q: "Est-il moins cher d'engager un guide soi-même que de réserver un forfait ?", a: "Moins que ce que les gens imaginent. Le tarif journalier du guide n'est qu'une ligne de la facture — le refuge, les repas, la mule, les frais de parc et le transfert aller-retour depuis Marrakech représentent l'essentiel du reste. S'organiser soi-même offre plus de souplesse et un peu plus de contrôle sur le coût, surtout en grand groupe ; un forfait échange cela contre une logistique prise en charge." },
-      { q: "Combien faut-il donner de pourboire à un guide du Toubkal ?", a: "Environ 10 à 15 % du coût du voyage, réparti entre le guide et le muletier, en espèces et en dirhams à la fin. C'est d'usage et apprécié, mais jamais obligatoire — donnez davantage si les conditions ont été difficiles ou si votre guide a sauvé une journée compliquée." },
+      { q: "Combien faut-il donner de pourboire à un guide du Toubkal ?", a: "Environ 150 à 200 MAD par jour pour le guide et 70 à 100 pour le muletier, de la part du groupe, en espèces et en dirhams à la fin. C'est d'usage et apprécié, mais jamais obligatoire — donnez davantage si les conditions ont été difficiles ou si votre guide a sauvé une journée compliquée." },
     
       { q: "Combien coûte un trek du Toubkal depuis Marrakech ?", a: "Notre [trek de 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à partir de 195 € par personne à deux et 153 € à six ; celui [de 4 jours](/fr/tours/toubkal-summit-trek-4day) à partir de 360 € à deux et 295 € à six. Les deux comprennent le transport aller-retour depuis Marrakech, le guide agréé, les nuits en refuge, tous les repas en montagne, le soutien des mules et les frais de parc national — le prix affiché est donc celui que vous payez, et non un tarif de base auquel s'ajoutent ensuite les coûts de la montagne." },
     ],
@@ -2756,7 +2756,7 @@ typiques 2026 et varient selon la saison et la taille du groupe.
 | Entrée du parc national | Petit forfait fixe | À régler au poste d'Imlil |
 | Transfert Marrakech ⇄ Imlil | 600–1 000 MAD aller-retour | Par véhicule, pas par personne |
 | Crampons + piolet (hiver) | 100–150 MAD / jour | Location à Imlil, nov.–mars |
-| Pourboires | 10–15 % | D'usage, jamais obligatoire |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | D'usage, jamais obligatoire |
 
 **Un total réaliste tout compris** pour deux personnes qui s'organisent seules : environ
 **2 400 à 3 600 MAD (225–335 €) pour le duo**, selon la saison et votre capacité à
@@ -2819,7 +2819,7 @@ s'applique, et obtenez la réponse avant de payer un acompte.
 ## Les pourboires
 
 Le pourboire est d'usage et sincèrement apprécié, sans être obligatoire. En ordre de
-grandeur, **10 à 15 % du coût du voyage**, répartis entre le guide et le muletier, avec un
+grandeur, **150 à 200 MAD par jour pour le guide et 70 à 100 MAD pour le muletier**, de la part du groupe, avec un
 peu plus si les conditions ont été difficiles. En espèces, en dirhams, à la fin.
 
 ## Préparer votre propre trek
@@ -2867,7 +2867,7 @@ assurez-vous de savoir ce qui est inclus avant de quitter Marrakech.
     faq: [
       { q: "Combien coûte un trek de 2 jours au Toubkal ?", a: "En vous organisant vous-même, deux personnes dépensent généralement 2 400 à 3 600 MAD au total (environ 225–335 € pour le duo) une fois additionnés le guide, la mule, le refuge en demi-pension, les frais de parc et le transfert depuis Marrakech. Notre [ascension du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € par personne, tout compris." },
       { q: "Le trek de 2 jours est-il moins cher que celui de 4 jours ?", a: "Oui, mais moins que le nombre de jours ne le laisse penser. Le 2 jours est à partir de 195 € par personne et le [4 jours](/fr/tours/toubkal-summit-trek-4day) à 360 € — pas le double, car les honoraires du guide, la mule et le transfert depuis Marrakech sont facturés par voyage et non par jour. Les deux jours supplémentaires achètent surtout de l'acclimatation, qui est le principal facteur de réussite au sommet." },
-      { q: "Qu'est-ce qui n'est pas inclus dans un forfait Toubkal de 2 jours ?", a: "L'assurance voyage (obligatoire et vivement recommandée sur une montagne de 4 167 m), l'équipement personnel de randonnée, les pourboires pour le guide et le muletier, et les crampons et piolet entre novembre et mars. Comptez environ 100 à 150 MAD par jour pour la location de matériel hivernal à Imlil et 10 à 15 % du coût du voyage pour les pourboires." },
+      { q: "Qu'est-ce qui n'est pas inclus dans un forfait Toubkal de 2 jours ?", a: "L'assurance voyage (obligatoire et vivement recommandée sur une montagne de 4 167 m), l'équipement personnel de randonnée, les pourboires pour le guide et le muletier, et les crampons et piolet entre novembre et mars. Comptez environ 100 à 150 MAD par jour pour la location de matériel hivernal à Imlil et environ 450 à 600 MAD de la part du groupe pour les pourboires." },
       { q: "Peut-on gravir le Toubkal en 2 jours sans guide ?", a: "Non. Un guide de montagne agréé est obligatoire sur le Toubkal et un poste de contrôle à Imlil le vérifie. Voir [faut-il un guide pour gravir le Toubkal](/fr/blog/do-you-need-a-guide-to-climb-toubkal) pour la règle et son raisonnement." },
     ],
     content: `
@@ -2894,7 +2894,7 @@ coûts distincts, et le guide n'est que le plus important d'entre eux.
 | Entrée du parc national | Petit forfait fixe | À régler au poste d'Imlil |
 | Transfert Marrakech ⇄ Imlil | 600–1 000 MAD aller-retour | Par véhicule, pas par personne |
 | Crampons + piolet (hiver) | 100–150 MAD / jour | Location à Imlil, nov.–mars |
-| Pourboires | 10–15 % | D'usage, jamais obligatoire |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | D'usage, jamais obligatoire |
 
 Sur deux jours cela représente environ 1 000 à 1 600 MAD pour le guide, 500 à 600 pour la
 mule, 300 à 350 pour la nuit en refuge, et 600 à 1 000 pour le transfert aller-retour.
@@ -2943,7 +2943,7 @@ le plus fiable. Nous comparons les deux honnêtement dans
 - **Assurance voyage** — obligatoire sur nos séjours, et sensée sur toute montagne de 4 167 m. Vérifiez qu'elle couvre la randonnée en altitude.
 - **Équipement personnel** — chaussures, couches, veste chaude. Voir [que mettre dans son sac pour un trek du Haut Atlas](/fr/blog/what-to-pack-high-atlas-trek-morocco).
 - **Matériel d'hiver** — crampons et piolet de novembre à mars, 100–150 MAD/jour à Imlil.
-- **Pourboires** — 10 à 15 % du coût du voyage, entre guide et muletier, en dirhams à la fin.
+- **Pourboires** — 150 à 200 MAD par jour pour le guide, 70 à 100 MAD pour le muletier, de la part du groupe, en dirhams à la fin.
 
 ## Où va l'argent
 
@@ -2988,7 +2988,7 @@ Les deux sont légitimes. Choisissez selon le temps que vous voulez consacrer à
       { q: "Combien coûte un trek de 4 jours au Toubkal ?", a: "En autonomie, deux personnes dépensent généralement 4 200 à 6 000 MAD au total (environ 390–560 € pour le duo) sur quatre jours d'honoraires de guide, trois nuits en refuge en demi-pension, la mule, les frais de parc et le transfert depuis Marrakech. Notre [trek du Toubkal en 4 jours](/fr/tours/toubkal-summit-trek-4day) est à 360 € par personne, tout compris." },
       { q: "Pourquoi le 4 jours ne coûte-t-il pas le double du 2 jours ?", a: "Parce que les coûts les plus importants sont facturés par voyage et non par jour. Le transfert depuis Marrakech, la location de la mule et une part de l'engagement du guide sont identiques que vous marchiez deux ou quatre jours. Seuls le tarif journalier du guide, les nuits en refuge et les repas augmentent avec la durée — d'où 195 € qui deviennent 360 € et non 390 €." },
       { q: "Le trek de 4 jours au Toubkal vaut-il le surcoût ?", a: "Pour la plupart des gens, oui. L'altitude est la première cause d'échec d'une tentative au Toubkal, et l'itinéraire en 4 jours monte progressivement avec du temps pour s'acclimater avant l'assaut final. Le 2 jours passe de 450 m à 4 167 m en une trentaine d'heures. Les 165 € supplémentaires achètent une probabilité nettement plus élevée d'atteindre le sommet." },
-      { q: "Quels coûts supplémentaires prévoir sur un trek de 4 jours ?", a: "Une assurance voyage couvrant la randonnée en altitude, l'équipement personnel, et des pourboires de 10 à 15 % répartis entre le guide et le muletier. De novembre à mars, ajoutez la location de crampons et piolet à environ 100–150 MAD par jour. Tout le reste — refuges, tous les repas, mule, frais de parc et transferts — est inclus dans notre forfait." },
+      { q: "Quels coûts supplémentaires prévoir sur un trek de 4 jours ?", a: "Une assurance voyage couvrant la randonnée en altitude, l'équipement personnel, et des pourboires de 150 à 200 MAD par jour pour le guide et 70 à 100 pour le muletier, de la part du groupe. De novembre à mars, ajoutez la location de crampons et piolet à environ 100–150 MAD par jour. Tout le reste — refuges, tous les repas, mule, frais de parc et transferts — est inclus dans notre forfait." },
     ],
     content: `
 ## La réponse courte
@@ -3010,7 +3010,7 @@ Quatre jours modifient quels coûts augmentent et lesquels non. Les tarifs sont 
 | Entrée du parc national | Petit forfait fixe | Non |
 | Transfert Marrakech ⇄ Imlil | 600–1 000 MAD aller-retour | Non |
 | Crampons + piolet (hiver) | 100–150 MAD / jour | Oui, nov.–mars |
-| Pourboires | 10–15 % | Proportionnel |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | Proportionnel |
 
 Sur quatre jours : environ 2 000 à 3 200 MAD pour le guide, 1 000 à 1 200 pour la mule,
 900 à 1 050 pour trois nuits en refuge, et le même transfert à 600–1 000 MAD que sur un
@@ -3058,7 +3058,7 @@ seconde option rapporte bien davantage.
 - **Assurance voyage** — obligatoire sur nos séjours. Vérifiez qu'elle couvre la randonnée au-dessus de 4 000 m.
 - **Équipement personnel** — voir [que mettre dans son sac pour un trek du Haut Atlas](/fr/blog/what-to-pack-high-atlas-trek-morocco).
 - **Matériel d'hiver** — crampons et piolet, 100–150 MAD/jour à Imlil, de novembre à mars. Voir [le Toubkal en hiver](/fr/blog/toubkal-in-winter-what-to-expect).
-- **Pourboires** — 10 à 15 % du coût du voyage, entre guide et muletier, en dirhams.
+- **Pourboires** — 150 à 200 MAD par jour pour le guide, 70 à 100 MAD pour le muletier, de la part du groupe, en dirhams.
 
 ## Aller plus loin que le sommet
 
@@ -3102,7 +3102,7 @@ coûte plus cher, mais parce que l'acclimatation est ce qui vous mène au sommet
       { q: "Combien coûte le circuit du Toubkal en 6 jours ?", a: "En autonomie, deux personnes dépensent généralement 6 000 à 9 000 MAD au total (environ 560–840 € pour le duo) sur six jours d'encadrement, cinq nuits d'hébergement varié, des mules pour le matériel de bivouac, les frais de parc et les transferts. Notre [circuit du Toubkal en 6 jours](/fr/tours/toubkal-circuit-ifni-lake-6day) est à 790 € par personne, tout compris." },
       { q: "Pourquoi le circuit coûte-t-il plus cher par jour que le trek du sommet ?", a: "Parce qu'il quitte le réseau des refuges. Le circuit traverse vers le lac d'Ifni et les vallées du sud où il n'y a pas de refuge, donc les nuits se répartissent entre refuges de montagne, gîtes de village et bivouac — et le bivouac implique des mules supplémentaires, un cuisinier et du matériel. C'est un vrai coût additionnel, pas une marge." },
       { q: "Le lac d'Ifni vaut-il la peine d'être ajouté à un séjour au Toubkal ?", a: "Si vous avez les jours, oui. Le lac d'Ifni est le seul lac permanent du Haut Atlas, dans une cuvette sous le versant sud du massif, et l'atteindre suppose de franchir un col que la plupart des visiteurs du Toubkal ne voient jamais. Les voies du sommet vous montrent la montagne ; le circuit vous montre la chaîne autour." },
-      { q: "Qu'est-ce qui n'est pas inclus dans le prix du circuit de 6 jours ?", a: "L'assurance voyage, l'équipement personnel de randonnée y compris un sac de couchage pour les nuits de bivouac, et les pourboires pour le guide, le cuisinier et les muletiers — généralement 10 à 15 % du coût du voyage. Tout le reste, y compris les cinq nuits, tous les repas, les mules et les frais de parc, est inclus." },
+      { q: "Qu'est-ce qui n'est pas inclus dans le prix du circuit de 6 jours ?", a: "L'assurance voyage, l'équipement personnel de randonnée y compris un sac de couchage pour les nuits de bivouac, et les pourboires pour le guide, le cuisinier et les muletiers — généralement 150 à 200 MAD par jour pour le guide, 100 à 150 pour le cuisinier et 70 à 100 par muletier, de la part du groupe. Tout le reste, y compris les cinq nuits, tous les repas, les mules et les frais de parc, est inclus." },
     ],
     content: `
 ## La réponse courte
@@ -3165,7 +3165,7 @@ notre catalogue.
 
 - **Assurance voyage** — obligatoire, et elle doit couvrir la randonnée en altitude.
 - **Équipement personnel dont un sac de couchage** — nécessaire pour les nuits de bivouac. Voir [que mettre dans son sac pour un trek du Haut Atlas](/fr/blog/what-to-pack-high-atlas-trek-morocco).
-- **Pourboires** — 10 à 15 % du coût du voyage, répartis entre le guide, le cuisinier et les muletiers. Plus de personnes à remercier que sur un trek en refuge.
+- **Pourboires** — 150 à 200 MAD par jour pour le guide, 100 à 150 pour le cuisinier, 70 à 100 par muletier, de la part du groupe. Plus de personnes à remercier que sur un trek en refuge.
 
 ## Comparatif
 
@@ -3472,7 +3472,7 @@ pas inférieur — il est différent. Réservez celui que vous voulez vraiment.
       { q: "Combien coûte un circuit de 3 jours dans le Sahara depuis Marrakech ?", a: "Les prix vont d'environ 95 € pour un minibus partagé avec bivouac basique à 225 € pour un 4x4 privé avec camp de luxe. Notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) est à 225 € par personne et comprend le transport privé, la balade à dos de chameau au coucher du soleil, une nuit en camp avec dîner et petit-déjeuner, une nuit d'hôtel et un guide du désert." },
       { q: "Pourquoi certains circuits dans le désert marocain sont-ils si bon marché ?", a: "Les économies viennent de quatre endroits : un minibus partagé de 16 places plutôt qu'un véhicule privé ; un camp basique avec sanitaires communs plutôt que privés ; les déjeuners exclus les deux jours de route ; et un groupe plus grand, donc plus d'arrêts et moins de souplesse. Rien de malhonnête si c'est annoncé — demandez ce qui s'applique avant de payer." },
       { q: "Trois jours suffisent-ils pour le Sahara ?", a: "C'est l'itinéraire le plus court qui atteigne réellement l'Erg Chebbi. Merzouga est à environ 560 km de Marrakech, donc les jours un et trois sont largement des journées de route, avec la nuit dans le désert entre les deux. Si vous voulez plus de dunes et moins de voiture, le [circuit de 4 jours](/fr/tours/desert-4day-marrakech) ajoute une nuit et un rythme plus lent." },
-      { q: "Qu'est-ce qui n'est pas inclus dans un circuit de 3 jours dans le désert ?", a: "Sur notre circuit : les déjeuners des jours 1 et 3, les dépenses personnelles et les pourboires. Les déjeuners sur la route coûtent généralement 60 à 120 MAD chacun dans les restaurants d'étape. Les pourboires pour le chauffeur-guide et le personnel du camp sont d'usage, autour de 10 à 15 %." },
+      { q: "Qu'est-ce qui n'est pas inclus dans un circuit de 3 jours dans le désert ?", a: "Sur notre circuit : les déjeuners des jours 1 et 3, les dépenses personnelles et les pourboires. Les déjeuners sur la route coûtent généralement 60 à 120 MAD chacun dans les restaurants d'étape. Les pourboires pour le chauffeur-guide et le personnel du camp sont d'usage, autour de 350 à 800 MAD au total pour le chauffeur-guide, les chameliers et le personnel du camp." },
     ],
     content: `
 ## La fourchette de prix, voilà l'histoire
@@ -3529,7 +3529,7 @@ c'est précisément l'information dont vous aviez besoin.
 ## Ce qui n'est pas inclus chez nous
 
 - **Déjeuners des jours 1 et 3** — arrêts sur la route, généralement 60 à 120 MAD
-- **Dépenses personnelles et pourboires** — 10 à 15 % pour le chauffeur-guide et le personnel du camp
+- **Dépenses personnelles et pourboires** — 350 à 800 MAD au total pour le chauffeur-guide, les chameliers et le personnel du camp
 
 Tout le reste — transport privé, balade à dos de chameau au coucher du soleil, camp de luxe
 avec dîner et petit-déjeuner, nuit d'hôtel et guide du désert — est
@@ -3719,7 +3719,7 @@ C'est là que les budgets familiaux dérapent, alors disons-le clairement :
 | Déjeuners | 12–15 € par personne et par repas |
 | Studios Atlas (optionnel) | ~7 € par personne |
 | Assurance voyage | Variable — prenez-en une |
-| Pourboires | 10–15 % du coût du circuit |
+| Pourboires | 350–800 MAD au total |
 
 Pour une famille de quatre sur quatre jours, les seuls déjeuners représentent réellement
 **150 à 200 €**. Ce n'est pas un frais caché — c'est indiqué sur la page du circuit — mais
@@ -3810,7 +3810,7 @@ Ce trek enchaîne **Timesguida (4 089 m)**, **Ras Ouanoukrim (4 083 m)** et
 | Entrée du parc national | Petit forfait fixe | Payable au poste d'Imlil |
 | Transfert Marrakech ⇄ Imlil | 600–1 000 MAD aller-retour | Par véhicule, pas par personne |
 | Crampons + piolet (nov.–mars) | 100–150 MAD / jour | Location à Imlil, par personne |
-| Pourboires | 10–15 % | D'usage, jamais obligatoires |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | D'usage, jamais obligatoires |
 
 ## Le guide fait toute la différence
 
@@ -3835,7 +3835,7 @@ découvrir au départ du sentier.
 
 - **Assurance voyage couvrant l'altitude** — obligatoire, et réellement nécessaire sur un 4 167 m
 - **Équipement personnel de randonnée** — chaussures, couches, lampe frontale
-- **Pourboires guide et porteur** — 10 à 15 % d'usage
+- **Pourboires guide et porteur** — 150 à 200 MAD par jour pour le guide, 70 à 100 pour le porteur, d'usage
 - **Crampons et piolet en hiver** — location possible à Imlil
 
 Tout le reste — guide haute altitude, les deux nuits en refuge, tous les repas du trek,
@@ -3904,7 +3904,7 @@ avec vous.
 | Nuit chez une famille berbère | 150–250 MAD / personne / nuit | Dîner et petit-déjeuner inclus |
 | Nuits sous tente | Matériel amorti | Tentes portées par les mules |
 | Frais de parc / d'accès | Petit forfait fixe | Payé sur place |
-| Pourboires | 10–15 % | Guide, cuisinier et muletiers |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | Guide, cuisinier et muletiers |
 
 ## Pourquoi la taille du groupe compte davantage ici
 
@@ -3995,7 +3995,7 @@ bivouacs.
 | Nuits sous tente | Matériel porté | Là où il n'y a pas de village |
 | Frais parcs M'Goun + Toubkal | Deux forfaits distincts | Les deux inclus |
 | Transferts vers et depuis les départs | 600–1 000 MAD chacun | Vallées différentes à chaque extrémité |
-| Pourboires | 10–15 % | Guide, cuisinier et muletiers |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | Guide, cuisinier et muletiers |
 
 ## Pourquoi le tarif journalier baisse
 
@@ -4187,7 +4187,7 @@ Tacheddirt**.
 | Mule + muletier | 250–300 MAD / jour | Porte les bagages entre les villages |
 | Transfert Marrakech ⇄ Imlil | 600–1 000 MAD aller-retour | Par véhicule, pas par personne |
 | Retour depuis l'Ourika | 400–700 MAD | Vallée différente du départ |
-| Pourboires | 10–15 % | D'usage, jamais obligatoires |
+| Pourboires | 150–200 MAD / jour guide, 70–100 MAD / jour muletier | D'usage, jamais obligatoires |
 
 ## Pourquoi l'écart est réel mais faible
 

@@ -1968,7 +1968,7 @@ Zwei Dinge lohnt es sich bei der Wüstenpreisgestaltung zu wissen:
 - **Die Direktbuchung bei einem lizenzierten lokalen Veranstalter spart typischerweise 30–50 %** gegenüber einer Buchung über die Hotelrezeption oder eine Wiederverkaufsplattform, da Sie eine Provisionsebene entfernen statt eine Leistung.
 - **Das günstige Ende hat einen Mechanismus.** Eine 3-tägige Tour für 90 $ ist nicht großzügig; sie holt die Marge irgendwo herein – ein gehetzter Zeitplan, eine große Gruppe, ein Camp mit Gemeinschaftseinrichtungen oder ein langer Teppichladen-Stopp. Das kann ein guter Kompromiss sein. Wissen Sie nur, dass Sie ihn eingehen.
 
-Budgetieren Sie separat für Trinkgelder: etwa **200–500 MAD insgesamt** für Fahrer, Kameltreiber und Camp-Personal bei einer mehrtägigen Reise. Es ist theoretisch freiwillig und in der Praxis erwartet, und es zählt für die Menschen, die die härteste Arbeit auf Ihrer Reise leisten.
+Budgetieren Sie separat für Trinkgelder: etwa **350–800 MAD insgesamt** für Fahrer, Kameltreiber und Camp-Personal bei einer mehrtägigen Reise. Es ist theoretisch freiwillig und in der Praxis erwartet, und es zählt für die Menschen, die die härteste Arbeit auf Ihrer Reise leisten.
 
 ## Die Zusammenfassung
 
@@ -2007,7 +2007,7 @@ Wenn Sie uns sagen, wie viele Tage Sie haben und was Sie tatsächlich von der W�
       },
       {
         q: "Wie viel Trinkgeld sollte man bei einer Marokko-Wüstentour geben?",
-        a: "Für eine mehrtägige Wüstentour budgetieren Sie insgesamt etwa 200 bis 500 MAD pro Person für alle Beteiligten zusammen. Eine grobe Aufteilung für eine 3-tägige Reise ist 200 bis 500 MAD für Ihren Fahrer-Führer, 50 bis 100 MAD für die Kameltreiber und 100 bis 200 MAD für das Camp-Personal über zwei Nächte. Trinkgeld ist freiwillig, aber in Marokkos Tourismuswirtschaft wahrhaft erwartet.",
+        a: "Für eine mehrtägige Wüstentour budgetieren Sie insgesamt etwa 350 bis 800 MAD pro Person für alle Beteiligten zusammen. Eine grobe Aufteilung für eine 3-tägige Reise ist 200 bis 500 MAD für Ihren Fahrer-Führer, 50 bis 100 MAD für die Kameltreiber und 100 bis 200 MAD für das Camp-Personal über zwei Nächte. Trinkgeld ist freiwillig, aber in Marokkos Tourismuswirtschaft wahrhaft erwartet.",
       },
       {
         q: "Ist es günstiger, eine Marokkotour im Voraus oder bei Ankunft zu buchen?",
@@ -2076,7 +2076,7 @@ Trinkgeld stolpert Menschen, weil niemand eine Zahl nennt. Hier sind Zahlen, fü
 - **Kameltreiber:** 50–100 MAD
 - **Camp-Personal:** 100–200 MAD über zwei Nächte
 
-Gesamt: etwa **200–500 MAD**, je nach Gruppengröße und Verlauf der Reise.
+Gesamt: etwa **350–800 MAD** (33–75 €), je nach Gruppengröße und Verlauf der Reise.
 
 Trinkgeld ist freiwillig und wahrhaft erwartet. Die Menschen, die die meiste körperliche Arbeit leisten – die Kameltreiber, die neben Ihrem Tier durch den Sand gehen, der Camp-Koch – stehen am weitesten unten in der Bezahlungskette. Kleine Bargeldbeträge zählen für sie überproportional. Bringen Sie kleine Scheine mit; niemand kann an einem Wüstencamp einen 200-MAD-Schein wechseln.
 

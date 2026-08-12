@@ -1974,7 +1974,7 @@ Dos cosas que conviene saber sobre los precios del desierto:
 - **Reservar directamente con un operador local con licencia normalmente ahorra un 30-50%** frente a reservar a través de un mostrador de hotel o una plataforma revendedora, porque eliminas una capa de comisión en lugar de un servicio.
 - **El extremo barato tiene un mecanismo.** Un tour de 3 días por 90 $ no es generosidad; está recuperando margen en algún sitio: un horario apresurado, un grupo grande, un campamento con instalaciones compartidas o una parada pesada en una tienda de alfombras. Puede ser un buen trato. Simplemente sabe que lo estás haciendo.
 
-Presupuesta por separado para propinas: aproximadamente **200-500 MAD en total** repartidos entre conductor, camelleros y personal del campamento en un viaje de varios días. Es voluntario en teoría y esperado en la práctica, e importa a quienes hacen el trabajo más duro de tu viaje.
+Presupuesta por separado para propinas: aproximadamente **350-800 MAD en total** repartidos entre conductor, camelleros y personal del campamento en un viaje de varios días. Es voluntario en teoría y esperado en la práctica, e importa a quienes hacen el trabajo más duro de tu viaje.
 
 ## El resumen
 
@@ -2013,7 +2013,7 @@ Si nos dices cuántos días tienes y qué es lo que realmente quieres del desier
       },
       {
         q: "¿Cuánto se debe dar de propina en un tour al desierto de Marruecos?",
-        a: "Para un tour al desierto de varios días, presupuesta aproximadamente entre 200 y 500 MAD en total por persona repartidos entre todos los implicados. Un reparto aproximado para un viaje de 3 días es de 200 a 500 MAD para tu conductor-guía, 50 a 100 MAD para los camelleros y 100 a 200 MAD para el personal del campamento durante dos noches. La propina es voluntaria pero genuinamente esperada en la economía turística de Marruecos.",
+        a: "Para un tour al desierto de varios días, presupuesta aproximadamente entre 350 y 800 MAD en total por persona repartidos entre todos los implicados. Un reparto aproximado para un viaje de 3 días es de 200 a 500 MAD para tu conductor-guía, 50 a 100 MAD para los camelleros y 100 a 200 MAD para el personal del campamento durante dos noches. La propina es voluntaria pero genuinamente esperada en la economía turística de Marruecos.",
       },
       {
         q: "¿Es más barato reservar un tour de Marruecos con antelación o al llegar?",
@@ -2082,7 +2082,7 @@ Las propinas confunden a la gente porque nadie da una cifra. Aquí tienes númer
 - **Camelleros:** 50-100 MAD
 - **Personal del campamento:** 100-200 MAD en dos noches
 
-Total: aproximadamente **200-500 MAD** según el tamaño del grupo y cómo haya ido el viaje.
+Total: aproximadamente **350-800 MAD** (33-75 €) según el tamaño del grupo y cómo haya ido el viaje.
 
 Las propinas son voluntarias y genuinamente esperadas. Las personas que hacen el trabajo físico más duro —los camelleros que caminan junto a tu animal en la arena, el cocinero del campamento— están más abajo en la cadena de pago. Pequeñas cantidades de efectivo les importan de forma desproporcionada. Lleva billetes pequeños; nadie puede cambiar un billete de 200 MAD en un campamento del desierto.
 

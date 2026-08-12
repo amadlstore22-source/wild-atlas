@@ -2037,7 +2037,7 @@ Two things worth knowing about desert pricing:
 - **Booking direct with a licensed local operator typically saves 30–50%** versus booking through a hotel desk or a reseller platform, because you are removing a commission layer rather than a service.
 - **The cheap end has a mechanism.** An €85 3-day tour is not generous; it is recouping margin somewhere — a rushed schedule, a large group, a camp with shared facilities, or a heavy carpet-shop stop. That may be a fine trade. Just know you are making it.
 
-Budget separately for tips: roughly **200–500 MAD total** across driver, camel handlers, and camp staff for a multi-day trip. It is voluntary in theory and expected in practice, and it matters to the people doing the hardest work on your trip.
+Budget separately for tips: roughly **350–800 MAD total** across driver, camel handlers, and camp staff for a multi-day trip. It is voluntary in theory and expected in practice, and it matters to the people doing the hardest work on your trip.
 
 ## The summary
 
@@ -2076,7 +2076,7 @@ If you tell us how many days you have and what you actually want out of the dese
       },
       {
         q: "How much should you tip on a Morocco desert tour?",
-        a: "For a multi-day desert tour, budget roughly 200 to 500 MAD in total per person across everyone involved. A rough split for a 3-day trip is 200 to 500 MAD for your driver-guide, 50 to 100 MAD for the camel handlers, and 100 to 200 MAD for camp staff over two nights. Tipping is voluntary but genuinely expected in Morocco's tourism economy.",
+        a: "For a multi-day desert tour, budget roughly 350 to 800 MAD (€33–€75) in total per person across everyone involved. A rough split for a 3-day trip is 200 to 500 MAD for your driver-guide, 50 to 100 MAD for the camel handlers, and 100 to 200 MAD for camp staff over two nights. Tipping is voluntary but genuinely expected in Morocco's tourism economy.",
       },
       {
         q: "Is it cheaper to book a Morocco tour in advance or on arrival?",
@@ -2147,7 +2147,7 @@ Tipping trips people up because nobody states a number. Here are numbers, for a 
 - **Camel handlers:** 50–100 MAD
 - **Camp staff:** 100–200 MAD across two nights
 
-Total: roughly **200–500 MAD** depending on group size and how the trip went.
+Total: roughly **350–800 MAD** (€33–€75) depending on group size and how the trip went.
 
 Tips are voluntary and genuinely expected. The people doing the most physical work — the camel handlers walking beside your animal in the sand, the camp cook — are the furthest down the pay chain. Small amounts of cash matter disproportionately to them. Bring small denominations; nobody can break a 200 MAD note at a desert camp.
 

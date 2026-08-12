@@ -1975,7 +1975,7 @@ Deux choses à savoir sur la tarification des circuits désertiques :
 - **Réserver directement avec un opérateur local agréé permet généralement d'économiser 30 à 50 %** par rapport à une réservation via un desk d'hôtel ou une plateforme de revente, car vous supprimez une couche de commission plutôt qu'un service.
 - **Le bas de gamme a un mécanisme.** Un circuit de 3 jours à 90 $ n'est pas généreux ; il récupère sa marge quelque part — un horaire précipité, un grand groupe, un campement aux installations partagées, ou un arrêt prolongé dans une boutique de tapis. Cela peut être un compromis acceptable. Sachez simplement que vous le faites.
 
-Prévoyez un budget séparé pour les pourboires : environ **200 à 500 MAD au total** répartis entre le chauffeur, les chameliers et le personnel du campement pour un voyage de plusieurs jours. C'est volontaire en théorie et attendu en pratique, et cela compte pour les personnes qui font le travail le plus difficile de votre voyage.
+Prévoyez un budget séparé pour les pourboires : environ **350 à 800 MAD au total** répartis entre le chauffeur, les chameliers et le personnel du campement pour un voyage de plusieurs jours. C'est volontaire en théorie et attendu en pratique, et cela compte pour les personnes qui font le travail le plus difficile de votre voyage.
 
 ## Le résumé
 
@@ -2014,7 +2014,7 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
       },
       {
         q: "Combien faut-il donner en pourboire sur un circuit désertique au Maroc ?",
-        a: "Pour un circuit désertique de plusieurs jours, prévoyez environ 200 à 500 MAD au total par personne, répartis entre toutes les personnes impliquées. Une répartition approximative pour un voyage de 3 jours est de 200 à 500 MAD pour votre chauffeur-guide, 50 à 100 MAD pour les chameliers, et 100 à 200 MAD pour le personnel du campement sur deux nuits. Le pourboire est volontaire mais réellement attendu dans l'économie touristique marocaine.",
+        a: "Pour un circuit désertique de plusieurs jours, prévoyez environ 350 à 800 MAD au total par personne, répartis entre toutes les personnes impliquées. Une répartition approximative pour un voyage de 3 jours est de 200 à 500 MAD pour votre chauffeur-guide, 50 à 100 MAD pour les chameliers, et 100 à 200 MAD pour le personnel du campement sur deux nuits. Le pourboire est volontaire mais réellement attendu dans l'économie touristique marocaine.",
       },
       {
         q: "Est-il moins cher de réserver un circuit au Maroc à l'avance ou sur place ?",
@@ -2083,7 +2083,7 @@ Le pourboire déstabilise les gens car personne n'énonce de chiffre. Voici des 
 - **Chameliers :** 50–100 MAD
 - **Personnel du campement :** 100–200 MAD sur deux nuits
 
-Total : environ **200 à 500 MAD** selon la taille du groupe et le déroulement du voyage.
+Total : environ **350 à 800 MAD** (33–75 €) selon la taille du groupe et le déroulement du voyage.
 
 Les pourboires sont volontaires et réellement attendus. Les personnes qui font le travail le plus physique — les chameliers marchant à côté de votre animal dans le sable, le cuisinier du campement — sont les plus bas dans la chaîne de rémunération. De petites sommes en liquide comptent de façon disproportionnée pour eux. Apportez de petites coupures ; personne ne peut faire la monnaie d'un billet de 200 MAD dans un campement désertique.
 

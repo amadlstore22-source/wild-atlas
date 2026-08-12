@@ -1966,7 +1966,7 @@ Due cose che vale la pena sapere sui prezzi del deserto:
 - **Prenotare direttamente con un operatore locale autorizzato fa risparmiare tipicamente il 30-50%** rispetto a prenotare tramite la reception di un hotel o una piattaforma di rivendita, perché state eliminando uno strato di commissione piuttosto che un servizio.
 - **La fascia economica ha un meccanismo.** Un tour di 3 giorni da €85 non è generoso; sta recuperando margine da qualche parte — un programma frettoloso, un grande gruppo, un campo con strutture condivise, o una lunga sosta commissionata in un negozio di tappeti. Potrebbe essere un buon compromesso. Basta sapere che lo state facendo.
 
-Mettete a budget separatamente le mance: circa **200-500 MAD in totale** tra autista, cammellieri e staff del campo per un viaggio di più giorni. È volontario in teoria e previsto in pratica, e conta per le persone che fanno il lavoro più duro del vostro viaggio.
+Mettete a budget separatamente le mance: circa **350-800 MAD in totale** tra autista, cammellieri e staff del campo per un viaggio di più giorni. È volontario in teoria e previsto in pratica, e conta per le persone che fanno il lavoro più duro del vostro viaggio.
 
 ## Il riepilogo
 
@@ -2005,7 +2005,7 @@ Se ci dite quanti giorni avete e cosa volete davvero dal deserto, vi indirizzere
       },
       {
         q: "Quanto bisogna dare di mancia su un tour nel deserto in Marocco?",
-        a: "Per un tour nel deserto di più giorni, mettete a budget circa 200-500 MAD in totale a persona tra tutte le persone coinvolte. Una suddivisione approssimativa per un viaggio di 3 giorni è 200-500 MAD per il vostro autista-guida, 50-100 MAD per i cammellieri, e 100-200 MAD per lo staff del campo su due notti. Le mance sono volontarie ma genuinamente previste nell'economia turistica marocchina.",
+        a: "Per un tour nel deserto di più giorni, mettete a budget circa 350-800 MAD in totale a persona tra tutte le persone coinvolte. Una suddivisione approssimativa per un viaggio di 3 giorni è 200-500 MAD per il vostro autista-guida, 50-100 MAD per i cammellieri, e 100-200 MAD per lo staff del campo su due notti. Le mance sono volontarie ma genuinamente previste nell'economia turistica marocchina.",
       },
       {
         q: "È più economico prenotare un tour in Marocco in anticipo o all'arrivo?",
@@ -2074,7 +2074,7 @@ Le mance mettono in difficoltà le persone perché nessuno indica un numero. Ecc
 - **Cammellieri:** 50-100 MAD
 - **Staff del campo:** 100-200 MAD su due notti
 
-Totale: circa **200-500 MAD** a seconda della dimensione del gruppo e di come è andato il viaggio.
+Totale: circa **350-800 MAD** (33-75 €) a seconda della dimensione del gruppo e di come è andato il viaggio.
 
 Le mance sono volontarie e genuinamente previste. Le persone che fanno il lavoro fisico più pesante — i cammellieri che camminano accanto al vostro animale nella sabbia, il cuoco del campo — sono le più in fondo alla catena retributiva. Piccole somme di contante contano in modo sproporzionato per loro. Portate banconote di piccolo taglio; nessuno può cambiare una banconota da 200 MAD in un campo nel deserto.
 

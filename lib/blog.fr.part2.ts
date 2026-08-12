@@ -5301,4 +5301,159 @@ Si vous voulez le surclassement, dites-le nous à la réservation et nous le chi
 👉 **[Voir nos circuits dans le désert](/fr/tours?cat=desert)** — chacun précise exactement quel campement est inclus, parce que « campement dans le désert » ne dit pas, à soi seul, ce que vous achetez.
 `,
   },
+  {
+    slug: "7-day-agadir-itinerary-morocco",
+    localizedSlug: "itineraire-7-jours-maroc-depuis-agadir",
+    author: MET_TEAM,
+    title: "Itinéraire de 7 jours au Maroc au départ d'Agadir (prix réels)",
+    excerpt:
+      "La plupart des itinéraires marocains partent de Marrakech. Si vous avez atterri à Agadir, voici une semaine qui fonctionne depuis la côte — bâtie sur des circuits que nous opérons vraiment, avec les prix par personne et les distances de route que personne ne mentionne.",
+    heroImage: "/gallery/tours-desert-4day-agadir.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 11,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    tags: [
+      "itinéraire Agadir",
+      "7 jours au Maroc",
+      "itinéraire Maroc depuis Agadir",
+      "Agadir Sahara",
+      "une semaine au Maroc",
+    ],
+    seoTitle: "Itinéraire 7 jours au Maroc depuis Agadir, prix réels",
+    seoDescription:
+      "Une semaine au Maroc au départ d'Agadir : désert, villes impériales ou côte, avec des circuits réels, les prix par personne et des temps de route honnêtes. Par un opérateur marocain.",
+    relatedTours: [
+      "desert-4day-agadir",
+      "agadir-imperial-cities-6day",
+      "paradise-valley-agadir",
+      "taroudant-day-trip-agadir",
+    ],
+    faq: [
+      {
+        q: "Agadir est-elle une bonne base pour visiter le Maroc ?",
+        a: "Pour une semaine, oui — avec une réserve. Agadir est excellente pour la côte, Paradise Valley, Taroudant et l'Anti-Atlas, tous à deux heures au plus. Mais elle se trouve à environ 250 km au sud-ouest de Marrakech : tout ce qui touche au Sahara ou aux villes impériales commence donc par une longue route. Intégrez honnêtement ce trajet et la semaine fonctionne très bien ; ignorez-le et vous passerez vos vacances en voiture.",
+      },
+      {
+        q: "À quelle distance se trouve le Sahara depuis Agadir ?",
+        a: "L'Erg Chebbi, près de Merzouga, est à environ 700 km d'Agadir, soit une journée entière de route dans chaque sens. C'est pourquoi nos circuits dans le désert au départ de la côte durent quatre jours plutôt que trois — le même itinéraire depuis Marrakech vous épargne la première étape. Si vous ne disposez que de trois jours, Zagora est le désert réaliste, pas Merzouga.",
+      },
+      {
+        q: "Peut-on voir les villes impériales depuis Agadir en une semaine ?",
+        a: "Oui, avec notre grand circuit de 6 jours, qui couvre Marrakech, Meknès, Fès et Rabat à 515 EUR par personne pour deux voyageurs. C'est une semaine très routière par construction : vous traversez le pays et revenez. Si voir les quatre capitales compte plus pour vous que des journées tranquilles, elle tient ses promesses ; sinon, une semaine dans le désert depuis la côte demande bien moins de route.",
+      },
+      {
+        q: "Combien coûte une semaine au Maroc depuis Agadir ?",
+        a: "Pour les circuits eux-mêmes, comptez environ 470 à 600 EUR par personne pour deux voyageurs sur les itinéraires de cet article, en privé du début à la fin. Cela exclut votre hôtel à Agadir les jours libres, les repas non listés dans chaque circuit, et les pourboires. Voyager à quatre plutôt qu'à deux réduit nettement le prix par personne sur tous nos circuits de plusieurs jours — d'environ 18 à 39 % selon l'itinéraire.",
+      },
+      {
+        q: "Quelle est la meilleure période pour cet itinéraire ?",
+        a: "De mars à mai et de septembre à novembre. Agadir elle-même est douce toute l'année, mais les étapes désertiques sont éprouvantes en juillet et août, quand les maximales à l'intérieur dépassent 45 degrés, et les cols du Haut Atlas peuvent fermer brièvement après les tempêtes d'hiver. L'hiver sur la côte est agréable et calme, et les nuits dans le désert sont vraiment froides.",
+      },
+      {
+        q: "Faut-il partager la semaine entre Agadir et Marrakech ?",
+        a: "C'est souvent le meilleur plan. Deux nuits à Marrakech à la fin d'un circuit désertique ou impérial vous épargnent 250 km de retour et vous donnent la médina sans la pression horaire d'une excursion. Dites-le nous à la réservation : nous pouvons terminer un circuit à Marrakech plutôt que de revenir sur la côte.",
+      },
+    ],
+    content: `
+## Pourquoi cet itinéraire existe
+
+Presque tous les itinéraires marocains en ligne commencent à Marrakech. C'est logique — la plupart des visiteurs y atterrissent. Mais beaucoup de gens arrivent à Agadir, sur un vol charter ou une réservation soleil d'hiver, et découvrent ensuite que les guides qu'ils ont lus ne s'appliquent pas.
+
+Voici la semaine que nous organiserions pour un ami arrivant à Agadir. Tout y correspond à un circuit que nous opérons réellement, aux prix de nos propres pages de réservation, et les trajets sont décrits tels qu'ils sont vraiment plutôt que comme une brochure les présenterait.
+
+Un cadrage honnête avant de commencer : **Agadir est une base superbe pour le sud et très loin de tout le reste.** Paradise Valley est à 35 km. Merzouga à environ 700. Planifiez en tenant compte de cela et la semaine est excellente.
+
+## La version courte
+
+| Formule | Jours | Ce que vous voyez | Par personne, deux voyageurs |
+| --- | --- | --- | --- |
+| Semaine désert | 4 de circuit + 3 sur la côte | Sahara à l'Erg Chebbi, Aït Ben Haddou, Todra | environ 519 EUR |
+| Semaine impériale | 6 de circuit + 1 sur la côte | Marrakech, Meknès, Fès, Rabat | environ 515 EUR |
+| Côte et montagnes | excursions à la journée | Paradise Valley, Taroudant, Anti-Atlas | environ 330 EUR |
+
+Les trois sont des circuits privés. Les prix baissent fortement avec la taille du groupe — le même circuit désertique revient à environ 319 EUR par personne à quatre, et 242 EUR à six.
+
+## Formule 1 : la semaine désert
+
+Le meilleur choix si vous n'avez jamais vu le Sahara, et celui que la plupart des gens devraient retenir.
+
+**Jours 1 à 4 — [Grand circuit désert depuis Agadir](/fr/tours/circuit-desert-4-jours-agadir), 519 EUR par personne pour deux.**
+
+Le premier jour file vers l'intérieur par Taroudant et franchit l'Atlas jusqu'à Ouarzazate. Le deuxième vous emmène à Aït Ben Haddou puis dans les gorges du Dadès ou du Todra. Le troisième est la longue poussée vers l'Erg Chebbi, la balade à dos de dromadaire au coucher du soleil et la nuit au campement. Le quatrième vous ramène sur la côte.
+
+Ce circuit dure quatre jours parce qu'il ne peut pas faire autrement. Le même désert depuis Marrakech est un circuit de trois jours ; depuis Agadir vous ajoutez environ 250 km dans chaque sens. Tout opérateur qui vous vend Merzouga depuis Agadir en trois jours conduit de nuit ou vous emmène ailleurs en l'appelant le Sahara.
+
+**Jours 5 à 7 — la côte.**
+
+Rentrez fatigués et utilisez les jours restants près de la base :
+
+- [Paradise Valley et Immouzer](/fr/tours/paradise-valley-agadir-journee), 38 EUR par personne pour deux — gorges de palmiers et vasques naturelles, à 35 km
+- [Taroudant](/fr/tours/excursion-taroudant-agadir), 37 EUR par personne pour deux — la ville close et son marché, bien plus calme que Marrakech
+- Une journée à ne rien faire sur la plage, ce qui, après quatre jours de route dans le désert, n'est pas une journée perdue
+
+**Total de la semaine, deux voyageurs : environ 594 EUR par personne** pour les circuits, plus votre hébergement à Agadir les jours libres.
+
+## Formule 2 : la semaine impériale
+
+Pour les voyageurs qui préfèrent les villes, l'histoire et les médinas aux dunes.
+
+**Jours 1 à 6 — [Agadir et les 4 villes impériales](/fr/tours/villes-imperiales-agadir-6-jours), 515 EUR par personne pour deux.**
+
+Marrakech, Meknès, Fès et Rabat en six jours, avec retour sur la côte. Vous traversez l'Atlas, passez un vrai moment dans la médina de Fès — celle que la plupart des gens trouvent à la fois plus déroutante et plus gratifiante que Marrakech — et voyez Volubilis la romaine et le littoral de Rabat au retour.
+
+Soyez lucide : c'est une semaine de route. Six jours pour quatre villes dispersées dans le pays, cela veut dire des départs matinaux et de longs transferts. C'est le bon voyage pour qui veut de l'ampleur, et le mauvais pour qui veut s'installer dans un riad et lire.
+
+**Jour 7 — récupérez sur la côte**, ou ajoutez [Paradise Valley](/fr/tours/paradise-valley-agadir-journee) à 38 EUR chacun s'il vous reste de l'énergie.
+
+Si Chefchaouen compte plus pour vous que les quatre capitales, notre [circuit de 5 jours Agadir-Chefchaouen](/fr/tours/agadir-chefchaouen-5-jours) est à 386 EUR par personne pour deux et vous laisse deux jours libres.
+
+## Formule 3 : la semaine côte et montagnes
+
+L'option sans précipitation, celle que nous recommandons discrètement aux familles avec de jeunes enfants et à tous ceux qui n'aiment pas les longs trajets.
+
+- **Jour 1** — [Paradise Valley et Immouzer](/fr/tours/paradise-valley-agadir-journee), 38 EUR chacun
+- **Jour 2** — [Taroudant](/fr/tours/excursion-taroudant-agadir), 37 EUR chacun
+- **Jour 3** — plage et souk d'Agadir
+- **Jours 4 et 5** — [trek dans l'Anti-Atlas](/fr/tours/trek-anti-atlas-agadir), 258 EUR par personne pour deux, dans le granit de Tafraoute et les vallées d'amandiers
+- **Jour 6** — [Essaouira](/fr/tours/excursion-essaouira-agadir), 51 EUR chacun, la ville atlantique et venteuse aux barques bleues
+- **Jour 7** — repos, ou le [parc national de Souss-Massa](/fr/tours/parc-national-souss-massa) à 88 EUR chacun pour l'ibis chauve et l'embouchure du fleuve
+
+**Total de la semaine, deux voyageurs : environ 472 EUR par personne**, et aucune journée ne demande plus de deux heures de route environ.
+
+## Les trajets, honnêtement
+
+C'est la section que la plupart des itinéraires passent sous silence.
+
+| Étape | Distance | Durée réaliste |
+| --- | --- | --- |
+| Agadir – Marrakech | 250 km | 3 à 3,5 heures |
+| Agadir – Taroudant | 80 km | 1 h 15 |
+| Agadir – Paradise Valley | 35 km | 1 heure |
+| Agadir – Essaouira | 175 km | 2,5 à 3 heures |
+| Agadir – Merzouga | ~700 km | une journée entière, répartie sur deux |
+| Agadir – Fès | ~650 km | une journée entière, répartie sur deux |
+
+Les routes marocaines sont bonnes et le réseau autoroutier est meilleur que ce que la plupart des visiteurs imaginent, mais les sections de montagne sont lentes et personne n'apprécie le col du Tizi n'Tichka à vive allure. Les durées ci-dessus sont celles qu'un conducteur raisonnable met réellement, arrêts compris.
+
+## Ce que nous choisirions
+
+Si c'est votre première semaine au Maroc et que vous atterrissez à Agadir : **prenez la semaine désert.** Quatre jours de circuit, trois jours de côte, une nuit sous un ciel dont vous vous souviendrez, et assez de temps de récupération pour rentrer reposé plutôt qu'épuisé.
+
+Si vous avez déjà vu le Sahara, ou si les dunes ne vous attirent pas, la semaine impériale est le meilleur voyage — à condition de partir en sachant que c'est une semaine de route.
+
+Et si vous voyagez avec de jeunes enfants, prenez la formule trois. Nous avons écrit séparément sur le [voyage au Maroc en famille](/fr/blog/maroc-en-famille-avec-enfants), et en résumé ce sont les distances, et non la culture, qui rendent les voyages familiaux difficiles ici.
+
+## Avant de réserver
+
+Deux choses à trancher tôt :
+
+**La taille du groupe change le prix plus que tout le reste.** Chaque circuit privé ci-dessus baisse fortement par personne à mesure que le groupe grandit. Quatre voyageurs paient chacun entre 18 et 39 % de moins que deux, selon l'itinéraire.
+
+**Vous n'êtes pas obligé de revenir à Agadir.** Si vous rentrez depuis Marrakech, dites-le à la réservation : terminer un circuit désertique ou impérial là-bas supprime une étape de 250 km et vous offre deux nuits tranquilles dans la médina.
+
+👉 **[Voir tous les circuits au départ d'Agadir](/fr/tours?origin=agadir)** — chacun indique la durée réelle, ce qui est inclus, et le prix à chaque taille de groupe.
+`,
+  },
 ];

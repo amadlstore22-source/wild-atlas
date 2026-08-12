@@ -5260,4 +5260,159 @@ Wenn Sie das Upgrade wollen, sagen Sie es bei der Buchung, und wir kalkulieren e
 👉 **[Unsere Wüstentouren ansehen](/de/tours?cat=desert)** — bei jeder steht genau, welches Camp enthalten ist, denn „Wüstencamp" allein sagt nicht, was Sie kaufen.
 `,
   },
+  {
+    slug: "7-day-agadir-itinerary-morocco",
+    localizedSlug: "7-tage-marokko-route-ab-agadir",
+    author: MET_TEAM,
+    title: "7 Tage Marokko ab Agadir: eine Route mit echten Preisen",
+    excerpt:
+      "Fast jede Marokko-Route beginnt in Marrakesch. Wenn Sie in Agadir gelandet sind, finden Sie hier eine Woche, die von der Küste aus funktioniert — aus Touren, die wir wirklich durchführen, mit Preisen pro Person und den Fahrstrecken, die sonst niemand nennt.",
+    heroImage: "/gallery/tours-desert-4day-agadir.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 11,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    tags: [
+      "Agadir Route",
+      "7 Tage Marokko",
+      "Marokko Rundreise ab Agadir",
+      "Agadir Sahara",
+      "eine Woche Marokko",
+    ],
+    seoTitle: "7 Tage Marokko ab Agadir: Route mit echten Preisen",
+    seoDescription:
+      "Eine Woche Marokko ab Agadir: Wüste, Königsstädte oder Küste, mit echten Touren, Preisen pro Person und ehrlichen Fahrzeiten. Von einem marokkanischen Veranstalter.",
+    relatedTours: [
+      "desert-4day-agadir",
+      "agadir-imperial-cities-6day",
+      "paradise-valley-agadir",
+      "taroudant-day-trip-agadir",
+    ],
+    faq: [
+      {
+        q: "Ist Agadir eine gute Basis für Marokko?",
+        a: "Für eine Woche ja, mit einer Einschränkung. Agadir eignet sich hervorragend für die Küste, Paradise Valley, Taroudant und den Antiatlas, alle höchstens zwei Stunden entfernt. Aber es liegt rund 250 km südwestlich von Marrakesch, sodass alles rund um Sahara oder Königsstädte mit einer langen Fahrt beginnt. Rechnen Sie diese Fahrt ehrlich ein, dann funktioniert die Woche gut; ignorieren Sie sie, verbringen Sie den Urlaub im Fahrzeug.",
+      },
+      {
+        q: "Wie weit ist die Sahara von Agadir entfernt?",
+        a: "Der Erg Chebbi bei Merzouga liegt rund 700 km von Agadir entfernt, also ein voller Fahrtag pro Richtung. Deshalb dauern unsere Wüstentouren ab der Küste vier statt drei Tage — dieselbe Route ab Marrakesch spart Ihnen die erste Etappe. Wenn Sie nur drei Tage haben, ist Zagora die realistische Wüste, nicht Merzouga.",
+      },
+      {
+        q: "Kann man die Königsstädte in einer Woche ab Agadir sehen?",
+        a: "Ja, mit unserer 6-tägigen großen Rundreise über Marrakesch, Meknes, Fes und Rabat, zu 515 EUR pro Person bei zwei Reisenden. Es ist von Natur aus eine fahrtintensive Woche: Sie durchqueren das Land und kommen zurück. Wenn Ihnen alle vier Hauptstädte wichtiger sind als entspannte Tage, liefert sie; wenn nicht, erfordert eine Wüstenwoche ab der Küste deutlich weniger Straße.",
+      },
+      {
+        q: "Was kostet eine Woche Marokko ab Agadir?",
+        a: "Für die Touren selbst rechnen Sie mit etwa 470 bis 600 EUR pro Person bei zwei Reisenden auf den Routen dieses Artikels, durchgehend privat. Nicht enthalten sind Ihr Hotel in Agadir an den freien Tagen, Mahlzeiten außerhalb der jeweiligen Leistungen und Trinkgelder. Zu viert statt zu zweit zu reisen senkt den Preis pro Person auf allen mehrtägigen Touren deutlich — je nach Route um etwa 18 bis 39 Prozent.",
+      },
+      {
+        q: "Wann ist die beste Reisezeit für diese Route?",
+        a: "März bis Mai und September bis November. Agadir selbst ist ganzjährig mild, aber die Wüstenetappen sind im Juli und August hart, wenn die Höchstwerte im Landesinneren über 45 Grad steigen, und die Pässe im Hohen Atlas können nach Winterstürmen kurzzeitig gesperrt sein. Der Winter an der Küste ist angenehm und ruhig, und die Wüstennächte sind wirklich kalt.",
+      },
+      {
+        q: "Sollte ich die Woche zwischen Agadir und Marrakesch aufteilen?",
+        a: "Oft ist das der bessere Plan. Zwei Nächte in Marrakesch am Ende einer Wüsten- oder Königsstädte-Route sparen Ihnen 250 km Rückweg und geben Ihnen die Medina ohne den Zeitdruck eines Tagesausflugs. Sagen Sie es bei der Buchung, dann beenden wir eine Tour in Marrakesch, statt an die Küste zurückzufahren.",
+      },
+    ],
+    content: `
+## Warum es diese Route gibt
+
+Fast jede Marokko-Route im Netz beginnt in Marrakesch. Das ist naheliegend — dort landen die meisten. Aber viele Menschen kommen stattdessen in Agadir an, mit einem Pauschalflug oder einer Wintersonnen-Buchung, und stellen dann fest, dass die gelesenen Reiseführer nicht passen.
+
+Das ist die Woche, die wir für einen Freund planen würden, der in Agadir ankommt. Alles darin entspricht einer Tour, die wir wirklich durchführen, zu Preisen von unseren eigenen Buchungsseiten, und die Fahrten sind so beschrieben, wie sie wirklich sind, und nicht, wie ein Prospekt sie darstellen würde.
+
+Eine ehrliche Einordnung vorweg: **Agadir ist eine hervorragende Basis für den Süden und weit weg von allem anderen.** Paradise Valley liegt 35 km entfernt. Merzouga rund 700. Planen Sie damit, und die Woche wird ausgezeichnet.
+
+## Die Kurzfassung
+
+| Variante | Tage | Was Sie sehen | Pro Person, zwei Reisende |
+| --- | --- | --- | --- |
+| Wüstenwoche | 4 Tour + 3 Küste | Sahara am Erg Chebbi, Aït Ben Haddou, Todra | etwa 519 EUR |
+| Königsstädte-Woche | 6 Tour + 1 Küste | Marrakesch, Meknes, Fes, Rabat | etwa 515 EUR |
+| Küste und Berge | Tagesausflüge | Paradise Valley, Taroudant, Antiatlas | etwa 330 EUR |
+
+Alle drei sind private Touren. Die Preise sinken mit der Gruppengröße deutlich — dieselbe Wüstentour kostet zu viert etwa 319 EUR pro Person und zu sechst 242 EUR.
+
+## Variante 1: die Wüstenwoche
+
+Die beste Wahl, wenn Sie die Sahara noch nie gesehen haben, und die, für die sich die meisten entscheiden sollten.
+
+**Tage 1 bis 4 — [Große Wüstentour ab Agadir](/de/tours/wuestentour-4-tage-agadir), 519 EUR pro Person zu zweit.**
+
+Tag eins führt landeinwärts über Taroudant und über den Atlas nach Ouarzazate. Tag zwei bringt Sie nach Aït Ben Haddou und in die Dades- oder Todra-Schlucht. Tag drei ist der lange Vorstoß zum Erg Chebbi, der Kamelritt bei Sonnenuntergang und die Nacht im Wüstencamp. Tag vier führt zurück an die Küste.
+
+Vier Tage sind es, weil es nicht anders geht. Dieselbe Wüste ab Marrakesch ist eine Dreitagestour; ab Agadir kommen rund 250 km pro Richtung dazu. Wer Ihnen Merzouga ab Agadir in drei Tagen verkauft, fährt entweder nachts durch oder bringt Sie woandershin und nennt es Sahara.
+
+**Tage 5 bis 7 — die Küste.**
+
+Sie kommen müde zurück und nutzen die restlichen Tage in der Nähe:
+
+- [Paradise Valley und Immouzer](/de/tours/paradise-valley-agadir-tagestour), 38 EUR pro Person zu zweit — Palmenschluchten und natürliche Badebecken, 35 km entfernt
+- [Taroudant](/de/tours/ausflug-taroudant-agadir), 37 EUR pro Person zu zweit — die ummauerte Marktstadt, weit ruhiger als Marrakesch
+- Ein Tag, an dem Sie am Strand gar nichts tun, was nach vier Tagen Wüstenfahrt kein verlorener Tag ist
+
+**Wochensumme, zwei Reisende: rund 594 EUR pro Person** für die Touren, plus Ihre Unterkunft in Agadir an den freien Tagen.
+
+## Variante 2: die Königsstädte-Woche
+
+Für Reisende, denen Städte, Geschichte und Medinas mehr bedeuten als Dünen.
+
+**Tage 1 bis 6 — [Agadir und alle 4 Königsstädte](/de/tours/koenigsstaedte-agadir-6-tage), 515 EUR pro Person zu zweit.**
+
+Marrakesch, Meknes, Fes und Rabat in sechs Tagen, mit Rückkehr an die Küste. Sie überqueren den Atlas, verbringen echte Zeit in der Medina von Fes — die die meisten zugleich überwältigender und lohnender finden als Marrakesch — und sehen auf dem Rückweg das römische Volubilis und die Küste von Rabat.
+
+Seien Sie sich im Klaren: Das ist eine Fahrtwoche. Sechs Tage für vier über das Land verteilte Städte bedeuten frühe Starts und lange Transfers. Es ist die richtige Reise für alle, die Breite wollen, und die falsche für alle, die in einem Riad sitzen und lesen möchten.
+
+**Tag 7 — an der Küste erholen**, oder [Paradise Valley](/de/tours/paradise-valley-agadir-tagestour) für 38 EUR pro Person anhängen, falls noch Energie da ist.
+
+Wenn Ihnen Chefchaouen mehr bedeutet als alle vier Hauptstädte, kostet unsere [5-Tage-Tour Agadir–Chefchaouen](/de/tours/agadir-chefchaouen-5-tage) 386 EUR pro Person zu zweit und lässt Ihnen zwei freie Tage.
+
+## Variante 3: die Küsten- und Bergwoche
+
+Die entspannte Variante, und die, die wir Familien mit kleinen Kindern und allen, die lange Fahrten nicht mögen, leise empfehlen.
+
+- **Tag 1** — [Paradise Valley und Immouzer](/de/tours/paradise-valley-agadir-tagestour), 38 EUR pro Person
+- **Tag 2** — [Taroudant](/de/tours/ausflug-taroudant-agadir), 37 EUR pro Person
+- **Tag 3** — Strand und Souk von Agadir
+- **Tage 4 und 5** — [Trekking im Antiatlas](/de/tours/anti-atlas-trekking-agadir), 258 EUR pro Person zu zweit, im Granit von Tafraoute und in den Mandeltälern
+- **Tag 6** — [Essaouira](/de/tours/ausflug-essaouira-agadir), 51 EUR pro Person, die windige Atlantikstadt mit den blauen Booten
+- **Tag 7** — Ruhe, oder der [Nationalpark Souss-Massa](/de/tours/nationalpark-souss-massa) für 88 EUR pro Person, wegen der Waldrappe und der Flussmündung
+
+**Wochensumme, zwei Reisende: rund 472 EUR pro Person**, und kein Tag verlangt mehr als etwa zwei Stunden Fahrt.
+
+## Die Fahrten, ehrlich
+
+Das ist der Abschnitt, den die meisten Routen weglassen.
+
+| Etappe | Distanz | Realistische Zeit |
+| --- | --- | --- |
+| Agadir – Marrakesch | 250 km | 3–3,5 Stunden |
+| Agadir – Taroudant | 80 km | 1,25 Stunden |
+| Agadir – Paradise Valley | 35 km | 1 Stunde |
+| Agadir – Essaouira | 175 km | 2,5–3 Stunden |
+| Agadir – Merzouga | ~700 km | ein voller Tag, auf zwei verteilt |
+| Agadir – Fes | ~650 km | ein voller Tag, auf zwei verteilt |
+
+Marokkanische Straßen sind gut und das Autobahnnetz besser, als die meisten Besucher erwarten, aber Bergabschnitte sind langsam, und den Tizi-n'Tichka-Pass mag niemand im Tempo. Die Zeiten oben sind die, die ein vernünftiger Fahrer tatsächlich braucht, mit Pausen.
+
+## Was wir wählen würden
+
+Wenn es Ihre erste Woche in Marokko ist und Sie in Agadir landen: **nehmen Sie die Wüstenwoche.** Vier Tage Tour, drei Tage Küste, eine Nacht unter einem Himmel, an den Sie sich erinnern werden, und genug Erholung, um ausgeruht statt zerschlagen heimzufliegen.
+
+Wenn Sie die Sahara schon gesehen haben oder Dünen Sie schlicht nicht reizen, ist die Königsstädte-Woche die bessere Reise — vorausgesetzt, Sie fahren im Wissen los, dass es eine Fahrtwoche ist.
+
+Und wenn Sie mit kleinen Kindern reisen, nehmen Sie Variante drei. Über das [Reisen in Marokko mit Kindern](/de/blog/marokko-mit-kindern-familienreise) haben wir gesondert geschrieben; kurz gesagt sind es die Entfernungen und nicht die Kultur, die Familienreisen hier schwierig machen.
+
+## Vor der Buchung
+
+Zwei Dinge, die Sie früh entscheiden sollten:
+
+**Die Gruppengröße verändert den Preis stärker als alles andere.** Jede private Tour oben fällt pro Person deutlich, je größer die Gruppe wird. Vier Reisende zahlen je nach Route zwischen etwa 18 und 39 Prozent weniger pro Person als zwei.
+
+**Sie müssen nicht nach Agadir zurück.** Wenn Sie ab Marrakesch heimfliegen, sagen Sie es bei der Buchung: Eine Wüsten- oder Königsstädte-Tour dort zu beenden spart eine 250-km-Etappe und schenkt Ihnen zwei ruhige Nächte in der Medina.
+
+👉 **[Alle Touren ab Agadir ansehen](/de/tours?origin=agadir)** — bei jeder stehen die echte Dauer, die Leistungen und der Preis für jede Gruppengröße.
+`,
+  },
 ];

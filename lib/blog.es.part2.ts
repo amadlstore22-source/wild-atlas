@@ -5243,4 +5243,159 @@ Si quieres la mejora, dínoslo al reservar y te la presupuestamos con honestidad
 👉 **[Ver nuestros circuitos por el desierto](/es/tours?cat=desert)** — cada uno indica exactamente qué campamento incluye, porque «campamento en el desierto», por sí solo, no te dice qué estás comprando.
 `,
   },
+  {
+    slug: "7-day-agadir-itinerary-morocco",
+    localizedSlug: "itinerario-7-dias-marruecos-desde-agadir",
+    author: MET_TEAM,
+    title: "Itinerario de 7 días por Marruecos desde Agadir (con precios reales)",
+    excerpt:
+      "Casi todos los itinerarios de Marruecos empiezan en Marrakech. Si has aterrizado en Agadir, esta es una semana que funciona desde la costa: construida con tours que operamos de verdad, con los precios por persona y las distancias que nadie menciona.",
+    heroImage: "/gallery/tours-desert-4day-agadir.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 11,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    tags: [
+      "itinerario Agadir",
+      "7 días en Marruecos",
+      "itinerario Marruecos desde Agadir",
+      "Agadir al Sáhara",
+      "una semana en Marruecos",
+    ],
+    seoTitle: "Itinerario de 7 días por Marruecos desde Agadir",
+    seoDescription:
+      "Una semana en Marruecos saliendo de Agadir: desierto, ciudades imperiales o costa, con tours reales, precios por persona y tiempos de carretera honestos. De un operador marroquí.",
+    relatedTours: [
+      "desert-4day-agadir",
+      "agadir-imperial-cities-6day",
+      "paradise-valley-agadir",
+      "taroudant-day-trip-agadir",
+    ],
+    faq: [
+      {
+        q: "¿Es Agadir una buena base para recorrer Marruecos?",
+        a: "Para una semana, sí, con una salvedad. Agadir es excelente para la costa, Paradise Valley, Taroudant y el Anti-Atlas, todos a un par de horas como mucho. Pero está a unos 250 km al suroeste de Marrakech, así que cualquier cosa que implique el Sáhara o las ciudades imperiales empieza con un trayecto largo. Cuenta ese trayecto con honestidad y la semana funciona bien; ignóralo y pasarás las vacaciones dentro de un vehículo.",
+      },
+      {
+        q: "¿A qué distancia está el Sáhara desde Agadir?",
+        a: "El Erg Chebbi, junto a Merzouga, está a unos 700 km de Agadir, que es un día entero de carretera en cada sentido. Por eso nuestros viajes al desierto desde la costa duran cuatro días y no tres: el mismo itinerario desde Marrakech te ahorra el primer tramo. Si solo tienes tres días libres, el desierto realista es Zagora, no Merzouga.",
+      },
+      {
+        q: "¿Se pueden ver las ciudades imperiales desde Agadir en una semana?",
+        a: "Sí, con nuestro gran tour de 6 días, que cubre Marrakech, Mequinez, Fez y Rabat a 515 EUR por persona para dos viajeros. Es una semana con mucha carretera por diseño: cruzas el país y vuelves. Si ver las cuatro capitales te importa más que tener días sin prisa, cumple; si no, una semana de desierto desde la costa implica bastante menos carretera.",
+      },
+      {
+        q: "¿Cuánto cuesta una semana en Marruecos desde Agadir?",
+        a: "Para los tours en sí, calcula entre 470 y 600 EUR por persona para dos viajeros en las rutas de este artículo, en privado de principio a fin. Eso excluye tu hotel en Agadir los días libres, las comidas no incluidas en cada tour y las propinas. Viajar de cuatro en lugar de dos reduce bastante la cifra por persona en todos nuestros tours de varios días: entre un 18 y un 39 % según la ruta.",
+      },
+      {
+        q: "¿Cuál es la mejor época del año para este itinerario?",
+        a: "De marzo a mayo y de septiembre a noviembre. Agadir en sí es templada todo el año, pero los tramos de desierto son durísimos en julio y agosto, cuando las máximas del interior superan los 45 grados, y los puertos del Alto Atlas pueden cerrarse brevemente tras los temporales de invierno. El invierno en la costa es agradable y tranquilo, y las noches del desierto son realmente frías.",
+      },
+      {
+        q: "¿Debería repartir la semana entre Agadir y Marrakech?",
+        a: "Suele ser el mejor plan. Dos noches en Marrakech al final de una ruta de desierto o imperial te ahorran un tramo de vuelta de 250 km y te dan la medina sin la presión horaria de una excursión de un día. Dínoslo al reservar y podemos terminar un tour en Marrakech en lugar de volver a la costa.",
+      },
+    ],
+    content: `
+## Por qué existe este itinerario
+
+Casi todos los itinerarios de Marruecos que hay en internet empiezan en Marrakech. Es razonable: allí aterriza la mayoría. Pero mucha gente llega a Agadir, en un vuelo de paquete o en una reserva de sol de invierno, y descubre que las guías que ha leído no le sirven.
+
+Esta es la semana que le planearíamos a un amigo que llega a Agadir. Todo lo que hay en ella corresponde a un tour que operamos de verdad, con precios de nuestras propias páginas de reserva, y los trayectos están descritos como son en realidad y no como los pintaría un folleto.
+
+Un encuadre honesto antes de los días: **Agadir es una base estupenda para el sur y queda muy lejos de todo lo demás.** Paradise Valley está a 35 km. Merzouga a unos 700. Planifica contando con eso y la semana sale excelente.
+
+## La versión corta
+
+| Opción | Días | Qué ves | Por persona, dos viajeros |
+| --- | --- | --- | --- |
+| Semana de desierto | 4 de tour + 3 de costa | Sáhara en Erg Chebbi, Aït Ben Haddou, Todra | unos 519 EUR |
+| Semana imperial | 6 de tour + 1 de costa | Marrakech, Mequinez, Fez, Rabat | unos 515 EUR |
+| Costa y montaña | excursiones de un día | Paradise Valley, Taroudant, Anti-Atlas | unos 330 EUR |
+
+Las tres son en privado. Los precios bajan mucho con el tamaño del grupo: el mismo tour de desierto sale a unos 319 EUR por persona siendo cuatro, y 242 EUR siendo seis.
+
+## Opción 1: la semana de desierto
+
+La mejor elección si nunca has visto el Sáhara, y la que debería tomar la mayoría.
+
+**Días 1 a 4 — [Gran Tour del Desierto desde Agadir](/es/tours/tour-desierto-4-dias-agadir), 519 EUR por persona para dos.**
+
+El primer día tira hacia el interior por Taroudant y cruza el Atlas hasta Uarzazat. El segundo te lleva por Aït Ben Haddou y las gargantas del Dades o del Todra. El tercero es el empujón largo hasta Erg Chebbi, el paseo en dromedario al atardecer y la noche en el campamento. El cuarto te devuelve a la costa.
+
+Son cuatro días porque no pueden ser menos. El mismo desierto desde Marrakech es un viaje de tres días; desde Agadir sumas unos 250 km en cada sentido. Cualquier operador que te venda Merzouga desde Agadir en tres días o conduce de noche o te lleva a otro sitio y lo llama Sáhara.
+
+**Días 5 a 7 — la costa.**
+
+Vuelves cansado y aprovechas los días que quedan cerca de la base:
+
+- [Paradise Valley e Immouzer](/es/tours/paradise-valley-agadir-dia), 38 EUR por persona para dos: gargantas de palmeras y pozas naturales, a 35 km
+- [Taroudant](/es/tours/excursion-taroudant-agadir), 37 EUR por persona para dos: la ciudad amurallada y su mercado, mucho más tranquila que Marrakech
+- Un día sin hacer absolutamente nada en la playa, que después de cuatro días de carretera por el desierto no es un día perdido
+
+**Total de la semana, dos viajeros: unos 594 EUR por persona** en tours, más tu alojamiento en Agadir los días libres.
+
+## Opción 2: la semana imperial
+
+Para quien prefiere ciudades, historia y medinas antes que dunas.
+
+**Días 1 a 6 — [Agadir y las 4 ciudades imperiales](/es/tours/ciudades-imperiales-agadir-6-dias), 515 EUR por persona para dos.**
+
+Marrakech, Mequinez, Fez y Rabat en seis días, volviendo a la costa. Cruzas el Atlas, pasas tiempo de verdad en la medina de Fez —la que la mayoría encuentra a la vez más abrumadora y más gratificante que la de Marrakech— y ves la Volubilis romana y el litoral de Rabat a la vuelta.
+
+Sin engaños: es una semana de carretera. Seis días para cuatro ciudades repartidas por el país significa madrugones y traslados largos. Es el viaje correcto para quien quiere amplitud, y el equivocado para quien quiere sentarse en un riad a leer.
+
+**Día 7 — recupérate en la costa**, o añade [Paradise Valley](/es/tours/paradise-valley-agadir-dia) a 38 EUR cada uno si te queda energía.
+
+Si Chefchaouen te importa más que ver las cuatro capitales, nuestro [tour de 5 días de Agadir a Chefchaouen](/es/tours/agadir-chefchaouen-5-dias) cuesta 386 EUR por persona para dos y te deja dos días libres.
+
+## Opción 3: la semana de costa y montaña
+
+La opción sin prisas, y la que recomendamos discretamente a quien viaja con niños pequeños o a quien sencillamente no disfruta de los trayectos largos.
+
+- **Día 1** — [Paradise Valley e Immouzer](/es/tours/paradise-valley-agadir-dia), 38 EUR cada uno
+- **Día 2** — [Taroudant](/es/tours/excursion-taroudant-agadir), 37 EUR cada uno
+- **Día 3** — playa y zoco de Agadir
+- **Días 4 y 5** — [trekking por el Anti-Atlas](/es/tours/trek-anti-atlas-agadir), 258 EUR por persona para dos, entre el granito de Tafraoute y los valles de almendros
+- **Día 6** — [Essaouira](/es/tours/excursion-essaouira-agadir), 51 EUR cada uno, la ciudad atlántica y ventosa de las barcas azules
+- **Día 7** — descanso, o el [parque nacional de Souss-Massa](/es/tours/parque-nacional-souss-massa) a 88 EUR cada uno por el ibis eremita y la desembocadura
+
+**Total de la semana, dos viajeros: unos 472 EUR por persona**, y ningún día exige más de unas dos horas de carretera.
+
+## Los trayectos, con honestidad
+
+Esta es la sección que casi todos los itinerarios se saltan.
+
+| Tramo | Distancia | Tiempo realista |
+| --- | --- | --- |
+| Agadir – Marrakech | 250 km | 3 a 3,5 horas |
+| Agadir – Taroudant | 80 km | 1 h 15 |
+| Agadir – Paradise Valley | 35 km | 1 hora |
+| Agadir – Essaouira | 175 km | 2,5 a 3 horas |
+| Agadir – Merzouga | ~700 km | un día entero, repartido en dos |
+| Agadir – Fez | ~650 km | un día entero, repartido en dos |
+
+Las carreteras marroquíes son buenas y la red de autopistas es mejor de lo que espera la mayoría, pero los tramos de montaña son lentos y a nadie le gusta el puerto de Tizi n'Tichka a velocidad. Los tiempos de arriba son los que tarda de verdad un conductor sensato, con paradas.
+
+## Qué elegiríamos nosotros
+
+Si es tu primera semana en Marruecos y aterrizas en Agadir: **coge la semana de desierto.** Cuatro días de tour, tres de costa, una noche bajo un cielo que recordarás, y tiempo de sobra para volar de vuelta descansado en lugar de destrozado.
+
+Si ya has visto el Sáhara, o las dunas sencillamente no te interesan, la semana imperial es mejor viaje, siempre que vayas sabiendo que es una semana de carretera.
+
+Y si viajas con niños pequeños, coge la opción tres. Hemos escrito aparte sobre [viajar por Marruecos con niños](/es/blog/marruecos-con-ninos-guia-familiar), y en resumen son las distancias, y no la cultura, lo que complica aquí los viajes en familia.
+
+## Antes de reservar
+
+Dos cosas que conviene decidir pronto:
+
+**El tamaño del grupo cambia el precio más que ninguna otra cosa.** Todos los tours privados de arriba caen mucho por persona a medida que crece el grupo. Cuatro viajeros pagan entre un 18 y un 39 % menos cada uno que dos, según la ruta.
+
+**No tienes por qué volver a Agadir.** Si vuelas de regreso desde Marrakech, dilo al reservar: terminar allí un tour de desierto o imperial elimina un tramo de 250 km y te compra dos noches sin prisa en la medina.
+
+👉 **[Ver todos los tours desde Agadir](/es/tours?origin=agadir)** — cada uno indica la duración real, qué incluye y el precio en cada tamaño de grupo.
+`,
+  },
 ];

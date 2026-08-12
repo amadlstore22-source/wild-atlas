@@ -4885,7 +4885,7 @@ noche.
 Elige el itinerario que dé tiempo a tu cuerpo, dile la verdad a tu guía sobre cómo te
 encuentras, y la altitud pasa a ser algo que notas en lugar de algo que te detiene.
 
-👉 **[Ver nuestros treks al Toubkal](/es/tours?category=trekking)** — el de 4 días
+👉 **[Ver nuestros treks al Toubkal](/es/tours?cat=trekking)** — el de 4 días
 incluye una jornada de aclimatación dedicada, y cada salida la dirige un guía de montaña
 local titulado.
 `,
@@ -5097,7 +5097,7 @@ El Sáhara con un niño de siete años son unas vacaciones estupendas. El mismo 
 comprimido en un programa diseñado para adultos es una discusión larga dentro de un
 coche.
 
-👉 **[Ver nuestras salidas familiares](/es/tours?category=trekking)** — los circuitos de
+👉 **[Ver nuestras salidas familiares](/es/tours?cat=trekking)** — los circuitos de
 desierto y Atlas en familia están calibrados para niños, y decimos claramente cuándo un
 viaje no encaja con la edad que traes.
 `,
@@ -5240,7 +5240,7 @@ Usamos campamentos bereberes estándar en la mayoría de nuestras salidas al des
 
 Si quieres la mejora, dínoslo al reservar y te la presupuestamos con honestidad para tus fechas — incluido decirte cuándo creemos que no compensa, que para una pareja en abril con una sola noche de desierto suele ser nuestra respuesta.
 
-👉 **[Ver nuestros circuitos por el desierto](/es/tours?category=desert)** — cada uno indica exactamente qué campamento incluye, porque «campamento en el desierto», por sí solo, no te dice qué estás comprando.
+👉 **[Ver nuestros circuitos por el desierto](/es/tours?cat=desert)** — cada uno indica exactamente qué campamento incluye, porque «campamento en el desierto», por sí solo, no te dice qué estás comprando.
 `,
   },
 ];

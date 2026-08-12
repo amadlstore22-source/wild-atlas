@@ -4893,7 +4893,7 @@ brutta notte.
 Scegliete l'itinerario che dà tempo al vostro corpo, dite la verità alla guida su come vi
 sentite, e la quota diventa una cosa che notate anziché una cosa che vi ferma.
 
-👉 **[Vedi i nostri trek al Toubkal](/it/tours?category=trekking)** — quello di 4 giorni
+👉 **[Vedi i nostri trek al Toubkal](/it/tours?cat=trekking)** — quello di 4 giorni
 comprende una giornata di acclimatamento dedicata, e ogni partenza è condotta da una
 guida alpina locale abilitata.
 `,
@@ -5106,7 +5106,7 @@ in più.
 Il Sahara con un bambino di sette anni è una vacanza davvero bella. Lo stesso Sahara
 compresso in un programma pensato per adulti è una lunga discussione in macchina.
 
-👉 **[Vedi le nostre partenze per famiglie](/it/tours?category=trekking)** — i viaggi nel
+👉 **[Vedi le nostre partenze per famiglie](/it/tours?cat=trekking)** — i viaggi nel
 deserto e sull'Atlante per famiglie sono calibrati sui bambini, e diciamo chiaramente
 quando un viaggio non è adatto all'età che portate.
 `,
@@ -5249,7 +5249,7 @@ Usiamo campi berberi standard sulla maggior parte delle nostre partenze nel dese
 
 Se vuoi l'upgrade, dillo quando prenoti e lo quotiamo onestamente per le tue date — compreso dirti quando riteniamo che non ne valga la pena, che per una coppia ad aprile su una singola notte nel deserto è di solito la nostra risposta.
 
-👉 **[Guarda i nostri tour nel deserto](/it/tours?category=desert)** — ognuno indica esattamente quale campo è incluso, perché «campo nel deserto», da solo, non dice cosa stai comprando.
+👉 **[Guarda i nostri tour nel deserto](/it/tours?cat=desert)** — ognuno indica esattamente quale campo è incluso, perché «campo nel deserto», da solo, non dice cosa stai comprando.
 `,
   },
 ];

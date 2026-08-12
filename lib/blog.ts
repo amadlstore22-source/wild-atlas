@@ -7071,7 +7071,7 @@ Choose the itinerary that gives your body time, tell your guide the truth about 
 you feel, and the altitude becomes a thing you notice rather than a thing that stops
 you.
 
-👉 **[See our Toubkal treks](/en/tours?category=trekking)** — the 4-day includes a
+👉 **[See our Toubkal treks](/en/tours?cat=trekking)** — the 4-day includes a
 dedicated acclimatisation day, and every departure is led by a licensed local
 mountain guide.
 `,
@@ -7276,7 +7276,7 @@ driving, more stopping, and choosing the version of a trip that takes an extra d
 The Sahara with a seven-year-old is a genuinely great holiday. The same Sahara squeezed
 into a schedule designed for adults is a long argument in a vehicle.
 
-👉 **[See our family departures](/en/tours?category=trekking)** — the family desert and
+👉 **[See our family departures](/en/tours?cat=trekking)** — the family desert and
 Atlas trips are paced for children, and we are happy to say plainly when a trip is not
 right for the age you are bringing.
 `,
@@ -7458,8 +7458,162 @@ If you want the upgrade, tell us when you book and we will price it for your dat
 honestly — including telling you when we think it is not worth it, which for a couple in
 April on a single desert night is usually our answer.
 
-👉 **[See our desert tours](/en/tours?category=desert)** — every one lists exactly what
+👉 **[See our desert tours](/en/tours?cat=desert)** — every one lists exactly what
 camp is included, because "desert camp" on its own does not tell you what you are buying.
+`,
+  },
+  {
+    slug: "7-day-agadir-itinerary-morocco",
+    author: MET_TEAM,
+    title: "A 7-Day Morocco Itinerary from Agadir (With Real Prices)",
+    excerpt:
+      "Most Morocco itineraries start in Marrakech. If you have landed in Agadir, here is a week that works from the coast — built from tours we actually run, with the per-person prices and the driving distances nobody mentions.",
+    heroImage: "/gallery/tours-desert-4day-agadir.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 11,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    tags: [
+      "Agadir itinerary",
+      "7 days in Morocco",
+      "Morocco itinerary from Agadir",
+      "Agadir to Sahara",
+      "week in Morocco",
+    ],
+    seoTitle: "7-Day Morocco Itinerary from Agadir, With Real Prices",
+    seoDescription:
+      "A week in Morocco starting from Agadir: desert, imperial cities or coast, mapped to real tours with per-person prices and honest driving times. From a Moroccan operator.",
+    relatedTours: [
+      "desert-4day-agadir",
+      "agadir-imperial-cities-6day",
+      "paradise-valley-agadir",
+      "taroudant-day-trip-agadir",
+    ],
+    faq: [
+      {
+        q: "Is Agadir a good base for exploring Morocco?",
+        a: "For a week, yes — with one caveat. Agadir is excellent for the coast, Paradise Valley, Taroudant and the Anti-Atlas, all within a couple of hours. But it sits about 250 km southwest of Marrakech, so anything involving the Sahara or the imperial cities starts with a long drive. Budget that drive honestly and the week works well; ignore it and you will spend your holiday in a vehicle.",
+      },
+      {
+        q: "How far is the Sahara from Agadir?",
+        a: "Erg Chebbi near Merzouga is roughly 700 km from Agadir, which is a full day of driving each way. That is why our desert trips from the coast run four days rather than three — the same itinerary from Marrakech saves you the first leg. If you only have three days spare, Zagora is the more realistic desert, not Merzouga.",
+      },
+      {
+        q: "Can you see the imperial cities from Agadir in a week?",
+        a: "Yes, on our 6-day grand tour, which covers Marrakech, Meknes, Fes and Rabat at 515 EUR per person for two. It is a driving-heavy week by design — you are crossing the country and coming back. If seeing all four capitals matters more to you than unhurried days, it delivers; if it does not, a desert week from the coast involves far less road.",
+      },
+      {
+        q: "How much does a week in Morocco from Agadir cost?",
+        a: "For the touring itself, plan roughly 470 to 600 EUR per person for two travellers on the routes in this article, private throughout. That excludes your Agadir hotel on the free days, meals not listed in each tour, and tips. Travelling as four rather than two cuts the per-person figure substantially on every multi-day tour we run — between about 18 and 39 percent depending on the route.",
+      },
+      {
+        q: "What is the best time of year for this itinerary?",
+        a: "March to May and September to November. Agadir itself is mild year-round, but the desert legs are punishing in July and August, when daytime highs inland pass 45 degrees Celsius, and the High Atlas passes can close briefly after winter storms. Winter on the coast is pleasant and quiet, and desert nights are genuinely cold.",
+      },
+      {
+        q: "Should I split my week between Agadir and Marrakech?",
+        a: "It is often the better plan. Two nights in Marrakech at the end of a desert or imperial route saves you a 250 km return leg and gives you the medina without a day trip's time pressure. Tell us when you book and we can finish a tour in Marrakech rather than returning to the coast.",
+      },
+    ],
+    content: `
+## Why this itinerary exists
+
+Almost every Morocco itinerary online starts in Marrakech. That is reasonable — most visitors land there. But a large number of people arrive at Agadir instead, on a package flight or a winter-sun booking, and then find that the guides they read do not apply.
+
+This is the week we would plan for a friend arriving at Agadir. Everything in it maps to a tour we actually operate, at prices from our own booking pages, and the drives are described as they really are rather than as a brochure would have them.
+
+One honest framing before the days: **Agadir is a superb base for the south and a long way from everything else.** Paradise Valley is 35 km away. Merzouga is roughly 700. Plan around that and the week is excellent.
+
+## The short version
+
+| Option | Days | What you get | Per person, two travellers |
+| --- | --- | --- | --- |
+| Desert week | 4 touring + 3 coast | Sahara at Erg Chebbi, Aït Ben Haddou, Todra | about 519 EUR |
+| Imperial week | 6 touring + 1 coast | Marrakech, Meknes, Fes, Rabat | about 515 EUR |
+| Coast and mountains | day trips throughout | Paradise Valley, Taroudant, Anti-Atlas | about 330 EUR |
+
+All three are private tours. Prices fall substantially with group size — the same desert tour is about 319 EUR each for four people, and 242 EUR each for six.
+
+## Option 1: the desert week
+
+The strongest choice if you have never seen the Sahara, and the one most people should take.
+
+**Days 1–4 — [Agadir Desert Grand Tour](/en/tours/desert-4day-agadir), 519 EUR per person for two.**
+
+Day one runs inland through Taroudant and over the Atlas to Ouarzazate. Day two takes you through Aït Ben Haddou and the Dades or Todra gorges. Day three is the long push to Erg Chebbi, the camel ride at sunset, and the night in a desert camp. Day four brings you back to the coast.
+
+It is four days because it has to be. The same desert from Marrakech is a three-day trip; from Agadir you are adding roughly 250 km each way. Any operator selling you Merzouga from Agadir in three days is either driving through the night or taking you somewhere else and calling it the Sahara.
+
+**Days 5–7 — the coast.**
+
+Come back tired and use the remaining days close to home:
+
+- [Paradise Valley and Immouzer](/en/tours/paradise-valley-agadir), 38 EUR per person for two — palm gorges and natural pools, 35 km out
+- [Taroudant](/en/tours/taroudant-day-trip-agadir), 37 EUR per person for two — the walled market town, far quieter than Marrakech
+- A day doing nothing at all on the beach, which after four days of desert driving is not a wasted day
+
+**Week total, two travellers: roughly 594 EUR per person** for the touring, plus your Agadir accommodation on the free days.
+
+## Option 2: the imperial week
+
+For travellers who care more about cities, history and medinas than dunes.
+
+**Days 1–6 — [Agadir to All 4 Imperial Cities](/en/tours/agadir-imperial-cities-6day), 515 EUR per person for two.**
+
+Marrakech, Meknes, Fes and Rabat in six days, returning to the coast. You cross the Atlas, spend real time in the Fes medina — which is the one most people find more overwhelming and more rewarding than Marrakech — and see Roman Volubilis and the Rabat coastline on the way back.
+
+Be clear-eyed: this is a driving week. Six days for four cities spread across the country means early starts and long transfers. It is the right trip for someone who wants breadth, and the wrong trip for someone who wants to sit in one riad and read.
+
+**Day 7 — recover on the coast**, or add [Paradise Valley](/en/tours/paradise-valley-agadir) at 38 EUR each if you still have energy.
+
+If Chefchaouen matters more to you than seeing all four capitals, our [5-day Agadir to Chefchaouen tour](/en/tours/agadir-to-chefchaouen-5day) is 386 EUR per person for two and leaves you two spare days.
+
+## Option 3: the coast and mountains week
+
+The unhurried option, and the one we quietly recommend to people travelling with small children or anyone who does not enjoy long drives.
+
+- **Day 1** — [Paradise Valley and Immouzer](/en/tours/paradise-valley-agadir), 38 EUR each
+- **Day 2** — [Taroudant](/en/tours/taroudant-day-trip-agadir), 37 EUR each
+- **Day 3** — beach and the Agadir souk
+- **Days 4–5** — [Anti-Atlas trekking](/en/tours/anti-atlas-trekking-agadir), 258 EUR per person for two, in the Tafraoute granite and the almond valleys
+- **Day 6** — [Essaouira](/en/tours/agadir-to-essaouira-day-trip), 51 EUR each, the windy Atlantic town with the blue boats
+- **Day 7** — rest, or [Souss-Massa National Park](/en/tours/sous-massa-national-park) at 88 EUR each for the bald ibis and the river mouth
+
+**Week total, two travellers: roughly 472 EUR per person**, and no day requires more than about two hours of driving.
+
+## The drives, honestly
+
+This is the section most itineraries skip.
+
+| Leg | Distance | Realistic time |
+| --- | --- | --- |
+| Agadir to Marrakech | 250 km | 3–3.5 hours |
+| Agadir to Taroudant | 80 km | 1.25 hours |
+| Agadir to Paradise Valley | 35 km | 1 hour |
+| Agadir to Essaouira | 175 km | 2.5–3 hours |
+| Agadir to Merzouga | ~700 km | full day, broken over two |
+| Agadir to Fes | ~650 km | full day, broken over two |
+
+Moroccan roads are good and the motorway network is better than most visitors expect, but mountain sections are slow and nobody enjoys the Tizi n'Tichka pass at speed. The times above are what a sensible driver actually takes, with stops.
+
+## What we would pick
+
+If it is your first week in Morocco and you are landing at Agadir: **take the desert week.** Four days of touring, three days of coast, one night under a sky you will remember, and enough recovery time that you fly home rested rather than wrecked.
+
+If you have seen the Sahara already, or dunes simply do not interest you, the imperial week is the better trip — provided you go in knowing it is a driving week.
+
+And if you are travelling with young children, take option three. We have written separately about [travelling in Morocco with kids](/en/blog/morocco-with-kids-family-guide), and the short version is that distances, not culture, are what make family trips here difficult.
+
+## Before you book
+
+Two things worth deciding early:
+
+**Group size changes the price more than anything else.** Every private tour above drops steeply per person as the group grows. Four travellers pay between about 18 and 39 percent less each than two, depending on the route.
+
+**You do not have to return to Agadir.** If you are flying home from Marrakech, say so when booking — finishing a desert or imperial tour there removes a 250 km leg and buys you two unhurried nights in the medina.
+
+👉 **[See all tours from Agadir](/en/tours?origin=agadir)** — each one lists the real duration, what is included, and the price at every group size.
 `,
   },
 ];

@@ -4938,7 +4938,7 @@ Choisissez l'itinéraire qui laisse du temps à votre corps, dites la vérité �
 sur ce que vous ressentez, et l'altitude devient une chose que l'on remarque plutôt
 qu'une chose qui vous arrête.
 
-👉 **[Voir nos treks du Toubkal](/fr/tours?category=trekking)** — le 4 jours comprend une
+👉 **[Voir nos treks du Toubkal](/fr/tours?cat=trekking)** — le 4 jours comprend une
 journée d'acclimatation dédiée, et chaque départ est encadré par un guide de montagne
 local diplômé.
 `,
@@ -5155,7 +5155,7 @@ prend un jour de plus.
 Le Sahara avec un enfant de sept ans est de vraies belles vacances. Le même Sahara
 comprimé dans un programme conçu pour adultes est une longue dispute en voiture.
 
-👉 **[Voir nos départs familles](/fr/tours?category=trekking)** — les circuits désert et
+👉 **[Voir nos départs familles](/fr/tours?cat=trekking)** — les circuits désert et
 Atlas famille sont calibrés pour les enfants, et nous disons franchement quand un voyage
 ne convient pas à l'âge que vous emmenez.
 `,
@@ -5298,7 +5298,7 @@ Nous utilisons des campements berbères standard sur la plupart de nos départs 
 
 Si vous voulez le surclassement, dites-le nous à la réservation et nous le chiffrerons honnêtement pour vos dates — y compris en vous disant quand nous ne le jugeons pas justifié, ce qui, pour un couple en avril sur une seule nuit dans le désert, est généralement notre réponse.
 
-👉 **[Voir nos circuits dans le désert](/fr/tours?category=desert)** — chacun précise exactement quel campement est inclus, parce que « campement dans le désert » ne dit pas, à soi seul, ce que vous achetez.
+👉 **[Voir nos circuits dans le désert](/fr/tours?cat=desert)** — chacun précise exactement quel campement est inclus, parce que « campement dans le désert » ne dit pas, à soi seul, ce que vous achetez.
 `,
   },
 ];

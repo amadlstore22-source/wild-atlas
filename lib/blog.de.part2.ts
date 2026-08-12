@@ -4903,7 +4903,7 @@ Wählen Sie die Route, die Ihrem Körper Zeit lässt, sagen Sie Ihrem Guide ehrl
 Ihnen geht — dann wird die Höhe zu etwas, das Sie bemerken, statt zu etwas, das Sie
 aufhält.
 
-👉 **[Unsere Toubkal-Treks ansehen](/de/tours?category=trekking)** — die 4-Tage-Tour
+👉 **[Unsere Toubkal-Treks ansehen](/de/tours?cat=trekking)** — die 4-Tage-Tour
 enthält einen eigenen Akklimatisierungstag, und jede Abfahrt wird von einem staatlich
 geprüften einheimischen Bergführer geleitet.
 `,
@@ -5114,7 +5114,7 @@ dauert.
 Die Sahara mit einem Siebenjährigen ist ein richtig guter Urlaub. Dieselbe Sahara,
 gepresst in einen Erwachsenenplan, ist ein langer Streit im Auto.
 
-👉 **[Unsere Familienabfahrten ansehen](/de/tours?category=trekking)** — die Familien-
+👉 **[Unsere Familienabfahrten ansehen](/de/tours?cat=trekking)** — die Familien-
 Wüsten- und Atlastouren sind auf Kinder abgestimmt, und wir sagen offen, wenn eine Reise
 für das mitgebrachte Alter nicht passt.
 `,
@@ -5257,7 +5257,7 @@ Wir nutzen auf den meisten Wüstenabfahrten Standard-Berbercamps und schreiben d
 
 Wenn Sie das Upgrade wollen, sagen Sie es bei der Buchung, und wir kalkulieren es ehrlich für Ihre Daten — einschließlich der Auskunft, wann wir es nicht für sinnvoll halten, was für ein Paar im April mit einer einzigen Wüstennacht meist unsere Antwort ist.
 
-👉 **[Unsere Wüstentouren ansehen](/de/tours?category=desert)** — bei jeder steht genau, welches Camp enthalten ist, denn „Wüstencamp" allein sagt nicht, was Sie kaufen.
+👉 **[Unsere Wüstentouren ansehen](/de/tours?cat=desert)** — bei jeder steht genau, welches Camp enthalten ist, denn „Wüstencamp" allein sagt nicht, was Sie kaufen.
 `,
   },
 ];

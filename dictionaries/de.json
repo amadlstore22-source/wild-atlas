@@ -60,6 +60,13 @@
     "days": "Tage",
     "viewTour": "Tour ansehen"
   },
+  "featuredGuides": {
+    "eyebrow": "Vor der Buchung",
+    "title": "Ratgeber aus unseren eigenen Touren",
+    "subtitle": "Die häufigsten Fragen unserer Gäste — beantwortet von den Guides, die diese Routen führen.",
+    "viewAll": "Alle Ratgeber lesen",
+    "minRead": "Min. Lesezeit"
+  },
   "whyUs": {
     "eyebrow": "Warum wir",
     "title": "Gemacht für echte Abenteurer",

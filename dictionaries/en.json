@@ -60,6 +60,13 @@
     "days": "days",
     "viewTour": "View Tour"
   },
+  "featuredGuides": {
+    "eyebrow": "Before You Book",
+    "title": "Guides From Our Own Trips",
+    "subtitle": "The questions travellers ask us most, answered by the guides who run these routes.",
+    "viewAll": "Read All Guides",
+    "minRead": "min read"
+  },
   "whyUs": {
     "eyebrow": "Why Choose Us",
     "title": "Built for Serious Adventurers",

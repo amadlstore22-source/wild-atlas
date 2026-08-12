@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import CategoryGrid from "@/components/sections/CategoryGrid";
 import FeaturedTours from "@/components/sections/FeaturedTours";
+import FeaturedGuides from "@/components/sections/FeaturedGuides";
 import WhyUs from "@/components/sections/WhyUs";
 import MapWrapper from "@/components/map/MapWrapper";
 import Testimonials from "@/components/sections/Testimonials";
@@ -145,6 +146,7 @@ export default async function HomePage({ params }: LangParams) {
       <Testimonials dict={dict} />
       <ZelligeDivider />
       <MapWrapper lang={lang} dict={dict} />
+      <FeaturedGuides dict={dict} lang={lang} />
       <Gallery dict={dict} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />

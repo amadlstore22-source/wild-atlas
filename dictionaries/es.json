@@ -60,6 +60,13 @@
     "days": "días",
     "viewTour": "Ver Tour"
   },
+  "featuredGuides": {
+    "eyebrow": "Antes de reservar",
+    "title": "Guías de nuestros propios viajes",
+    "subtitle": "Las preguntas que más nos hacen los viajeros, respondidas por los guías que hacen estas rutas.",
+    "viewAll": "Leer todas las guías",
+    "minRead": "min de lectura"
+  },
   "whyUs": {
     "eyebrow": "Por Qué Elegirnos",
     "title": "Pensado para Viajeros Exigentes",

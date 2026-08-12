@@ -60,6 +60,13 @@
     "days": "jours",
     "viewTour": "Voir le circuit"
   },
+  "featuredGuides": {
+    "eyebrow": "Avant de réserver",
+    "title": "Guides tirés de nos propres circuits",
+    "subtitle": "Les questions que les voyageurs nous posent le plus, par les guides qui mènent ces itinéraires.",
+    "viewAll": "Lire tous les guides",
+    "minRead": "min de lecture"
+  },
   "whyUs": {
     "eyebrow": "Pourquoi nous choisir",
     "title": "Conçu pour les aventuriers exigeants",

@@ -1,0 +1,50 @@
+agadir-to-chefchaouen-5day|cultural|private|5 days / 4 nights|691|386|277|228|22
+agadir-to-fes-4day|cultural|private|4 days / 3 nights|1030|567|418|324|34
+marrakech-imperial-cities-5day|cultural|private|5 days / 4 nights|792|442|318|261|27
+marrakech-medina-cultural-tour|cultural|private|Half day (4 hours)|73|41|34|31|97
+marrakech-to-chefchaouen-4day|cultural|private|4 days / 3 nights|560|313|225|185|43
+marrakech-to-fes-3day|cultural|private|3 days / 2 nights|1022|572|446|374|61
+souss-valley-cultural-tour|cultural|private|1 day|62|35|29|26|73
+taroudant-day-trip-agadir|cultural|private|1 day|67|37|31|29|84
+agadir-surf-lesson|day-tours|private|Half day (2–3 hours)|70|36|25|21|211
+agadir-to-essaouira-day-trip|day-tours|private|1 day|101|51|36|30|118
+agafay-desert-sunset|day-tours|private|1 day (afternoon–evening)|186|94|67|56|89
+marrakech-food-market-tour|day-tours|private|Half day (4 hours)|109|55|39|33|34
+ourika-valley-day-hike|day-tours|private|1 day|86|44|31|26|203
+ouzoud-waterfalls-day-trip|day-tours|private|1 day|75|38|27|22|167
+paradise-valley-agadir|day-tours|private|1 day|75|38|27|22|142
+shared-agafay-dinner-camel-ride|day-tours|shared|Half day / evening|30|30|30|30|0
+shared-essaouira-day-trip|day-tours|shared|1 day|30|30|30|30|0
+shared-ouzoud-waterfalls-day-trip|day-tours|shared|1 day|40|40|40|40|0
+sous-massa-national-park|day-tours|private|1 day|172|88|62|51|58
+chegaga-camel-trek-8day|desert|private|8 days / 7 nights|2700|1352|909|765|18
+desert-4day-agadir|desert|private|4 days / 3 nights|1037|519|319|242|39
+desert-4day-marrakech|desert|private|4 days / 3 nights|889|446|274|206|98
+erg-chegaga-3day-agadir|desert|private|3 days / 2 nights|1209|605|327|281|28
+erg-chegaga-3day-marrakech|desert|private|3 days / 2 nights|1269|635|336|281|64
+family-desert-4day-marrakech|desert|private|4 days / 3 nights|1209|605|398|309|0
+merzouga-3day-agadir|desert|private|3 days / 2 nights|728|366|225|170|52
+merzouga-stargazing-desert-tour|desert|private|2 days / 1 night|518|260|160|121|21
+sahara-2day-agadir|desert|private|2 days / 1 night|482|243|148|112|47
+sahara-3day-marrakech|desert|private|3 days / 2 nights|690|380|295|230|124
+shared-merzouga-3day-marrakech|desert|shared|3 days / 2 nights|120|120|120|120|0
+shared-zagora-2day-marrakech|desert|shared|2 days / 1 night|85|85|85|85|0
+zagora-2day-agadir|desert|private|2 days / 1 night|442|223|137|103|41
+zagora-2day-marrakech|desert|private|2 days / 1 night|165|83|51|39|143
+anti-atlas-trekking-agadir|trekking|private|3 days / 2 nights|457|258|212|186|29
+atlas-mountains-3day-trek|trekking|private|3 days / 2 nights|416|235|192|169|0
+azzaden-valley-2day-trek|trekking|private|2 days / 1 night|285|161|133|116|0
+family-atlas-4day-trek|trekking|private|4 days / 3 nights|554|313|257|225|0
+high-atlas-grand-traverse-15day|trekking|private|15 days / 14 nights|null|1700|1290|1100|0
+mgoun-massif-trek|trekking|private|7 days / 6 nights|1350|760|680|596|31
+toubkal-aguelzim-pass-3day|trekking|private|3 days / 2 nights|600|302|260|230|18
+toubkal-circuit-ifni-lake-6day|trekking|private|6 days / 5 nights|990|790|510|450|21
+toubkal-summit-2day-marrakech|trekking|private|2 days / 1 night|350|195|175|153|34
+toubkal-summit-sahara-5day|trekking|private|5 days / 4 nights|950|644|392|364|0
+toubkal-summit-trek-4day|trekking|private|4 days / 3 nights|650|360|290|260|48
+toubkal-three-peaks-4000m-3day|trekking|private|3 days / 2 nights|600|302|260|230|12
+npm notice
+npm notice New major version of npm available! 11.13.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice

@@ -1406,7 +1406,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
     featured: false,
     seoTitle: "Tour del Deserto 2 Giorni da Marrakech a Zagora — Valle del Draa, Trekking in Cammello e Campo Berbero | Marrakech Eco Tours",
-    seoDescription: "La via più rapida al Sahara — Aït Ben Haddou, i 200 km di palmeria della Valle del Draa e un trekking in cammello tra le dune. Tour del deserto di 2 giorni da Marrakech con campo berbero. Da $71.",
+    seoDescription: "La via più rapida al Sahara — Aït Ben Haddou, i 200 km di palmeria della Valle del Draa e un trekking in cammello tra le dune. Tour del deserto di 2 giorni da Marrakech con campo berbero. Da $415.",
   },
   {
     id: "24",

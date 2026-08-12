@@ -1662,15 +1662,18 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 190 },
-      { minPeople: 2, price: 96 },
-      { minPeople: 3, price: 70 },
-      { minPeople: 4, price: 59 },
-      { minPeople: 5, price: 51 },
-      { minPeople: 6, price: 45 },
+      { minPeople: 1, price: 415 },
+      { minPeople: 2, price: 225 },
+      { minPeople: 3, price: 213 },
+      { minPeople: 4, price: 196 },
+      { minPeople: 5, price: 167 },
+      { minPeople: 6, price: 150 },
+      { minPeople: 7, price: 133 },
+      { minPeople: 10, price: 121 },
+      { minPeople: 14, price: 110 },
     ],
-    price: 190,
-    depositAmount: 42,
+    price: 415,
+    depositAmount: 90,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1738,7 +1741,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: false,
     seoTitle: "Marrakech to Zagora 2-Day Desert Tour — Draa Valley, Camel Trek & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $190.",
+    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $415.",
   },
   {
     id: "24",

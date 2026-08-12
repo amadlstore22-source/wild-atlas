@@ -1415,7 +1415,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
     featured: false,
     seoTitle: "Circuit désert de Marrakech à Zagora en 2 jours — Vallée du Drâa, balade à dos de chameau et camp berbère | Marrakech Eco Tours",
-    seoDescription: "La route la plus rapide vers le Sahara — Aït Ben Haddou, les 200 km de palmeraie de la vallée du Drâa et une balade à dos de chameau dans les dunes. Circuit désert de 2 jours au départ de Marrakech avec camp berbère. À partir de 149 $.",
+    seoDescription: "La route la plus rapide vers le Sahara — Aït Ben Haddou, les 200 km de palmeraie de la vallée du Drâa et une balade à dos de chameau dans les dunes. Circuit désert de 2 jours au départ de Marrakech avec camp berbère. À partir de 415 $.",
   },
   {
     id: "24",

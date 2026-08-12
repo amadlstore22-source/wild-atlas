@@ -1406,7 +1406,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.3323, lng: -5.8366, name: "Zagora, Draa Valley" },
     featured: false,
     seoTitle: "Marrakesch nach Zagora 2-tägige Wüstentour — Draa-Tal, Kameltrekking & Berbercamp | Marrakech Eco Tours",
-    seoDescription: "Die schnellste Route zur Sahara — Aït Ben Haddou, die 200 km lange Draa-Tal-Palmenoase und ein Kameltrekking in die Dünen. 2-tägige Wüstentour ab Marrakesch mit Berbercamp. Ab $71.",
+    seoDescription: "Die schnellste Route zur Sahara — Aït Ben Haddou, die 200 km lange Draa-Tal-Palmenoase und ein Kameltrekking in die Dünen. 2-tägige Wüstentour ab Marrakesch mit Berbercamp. Ab $415.",
   },
   {
     id: "24",

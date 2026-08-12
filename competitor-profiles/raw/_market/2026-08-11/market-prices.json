@@ -1,0 +1,38 @@
+{
+  "_note": "Live competitor prices, EUR per person, fetched 2026-08-11. Only operators publishing an explicit ladder or a firm figure are included. 'band' keys are group sizes.",
+  "private": {
+    "zagora-2day-marrakech": {
+      "marrakech-desert-trips": {"1":425,"2":235,"3":195,"4":175,"5":155,"6":135,"10":115,"14":105}
+    },
+    "sahara-3day-marrakech": {
+      "marrakech-desert-trips": {"1":790,"2":435,"3":365,"4":325,"5":295,"6":265,"10":215,"14":195},
+      "morocco-fabulous-travel": {"2":215,"17":150}
+    },
+    "desert-4day-marrakech": {
+      "marrakech-desert-trips": {"1":895,"2":495,"3":425,"4":385,"5":365,"6":325,"10":295,"14":265}
+    },
+    "erg-chegaga-3day-marrakech": {
+      "market-range-observed": {"2":494,"_low":185,"_high":400}
+    },
+    "ouzoud-waterfalls-day-trip": {
+      "feel-morocco-private": {"2":60}
+    }
+  },
+  "shared": {
+    "shared-merzouga-3day-marrakech": {
+      "marrakech-desert-trips":95, "marrakesh-desert-tours":89,
+      "igomorocco":95, "moroccolivetrips":95
+    },
+    "shared-ouzoud-waterfalls-day-trip": {
+      "igomorocco":19, "marrakech-desert-trips":19,
+      "chameaumarrakech":20, "feel-morocco":20
+    },
+    "shared-essaouira-day-trip": {"_observed_typical":25},
+    "shared-zagora-2day-marrakech": {"igomorocco":69}
+  },
+  "toubkal": {
+    "toubkal-summit-2day-marrakech": {"atlas-toubkal-trek":135, "market-low":120, "market-high":280},
+    "toubkal-summit-trek-4day": {"market-range_low":260, "market-range_high":480},
+    "guide-day-rate-imlil-bureau": 50
+  }
+}

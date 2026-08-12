@@ -2104,7 +2104,7 @@ Here is what a Sahara trip from Marrakech costs in 2026, per person:
 
 The cheapest departures on the big resale platforms advertise from around **€85** for three days. The comfortable end of shared sits near **€280**. Both numbers are real. They buy different trips.
 
-For a fixed point in that range: our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€380 per person for two** and **€295 each for four**, private throughout — and our [2-day Zagora trip](/en/tours/zagora-2day-marrakech) starts at **€83 per person**. Those two numbers bracket most of the table above.
+For a fixed point in that range: our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is **€380 per person for two** and **€295 each for four**, private throughout — and our [2-day Zagora trip](/en/tours/zagora-2day-marrakech) is **€195 per person for two**, dropping to **€170 each for four**. Those are private rates, which is why they sit above the shared column in the table.
 
 ## Where the money goes
 
@@ -6848,8 +6848,8 @@ worth.**
 
 - A €73 [medina walk](/en/tours/marrakech-medina-cultural-tour): the commission is
   a couple of euros. Book wherever is convenient.
-- A €83 [2-day Zagora trip](/en/tours/zagora-2day-marrakech): still small money,
-  but you gain a real person to ask about pickup.
+- A €360 [2-day Zagora trip](/en/tours/zagora-2day-marrakech) for one: the
+  commission is now real money, and you gain a person to ask about pickup.
 - A €1,592 [4-day family desert tour](/en/tours/family-desert-4day-marrakech) for
   four: a commission layer here is a few hundred euros, and it buys you nothing the
   operator was not already providing.

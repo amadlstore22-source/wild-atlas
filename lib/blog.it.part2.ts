@@ -4682,4 +4682,220 @@ In sintesi: **più il viaggio è lungo e costoso, più conviene prenotare dirett
 👉 **[Guarda i nostri prezzi pubblicati](/it/tours)** — ogni tour mostra la tariffa per ciascuna dimensione di gruppo, senza preventivo su richiesta e senza strato di commissione.
 `,
   },
+  {
+    slug: "altitude-sickness-toubkal-guide",
+    localizedSlug: "mal-di-montagna-toubkal",
+    relatedTours: [
+      "toubkal-summit-trek-4day",
+      "toubkal-summit-2day-marrakech",
+      "toubkal-circuit-ifni-lake-6day",
+      "toubkal-three-peaks-4000m-3day",
+    ],
+    author: MET_TEAM,
+    title: "Mal di montagna sul Toubkal: cosa succede davvero a 4.167 m",
+    excerpt:
+      "Il Toubkal è abbastanza alto da provocare il mal acuto di montagna e abbastanza basso perché resti quasi sempre lieve. Cosa fa l'altitudine al corpo, i sintomi che impongono di rallentare, quelli che impongono di scendere, e perché l'itinerario conta più della forma fisica.",
+    heroImage: "/gallery/toubkal-cirque-refuge-approach.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 10,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "mal di montagna Toubkal",
+      "mal acuto di montagna",
+      "acclimatamento Toubkal",
+      "trekking Alto Atlante",
+      "rifugio del Toubkal",
+    ],
+    seoTitle: "Mal di montagna sul Toubkal — sintomi e prevenzione (2026)",
+    seoDescription:
+      "Il Toubkal raggiunge 4.167 m, quota sufficiente per il mal acuto di montagna. I sintomi, quando scendere e perché l'itinerario di 4 giorni previene meglio di qualsiasi farmaco.",
+    faq: [
+      {
+        q: "Si può soffrire di mal di montagna sul Toubkal?",
+        a: "Sì. La cima è a 4.167 m e il rifugio a 3.207 m, entrambi sopra la soglia dei 2.500 m oltre la quale il mal acuto di montagna diventa possibile. Sintomi lievi — mal di testa, inappetenza, sonno disturbato al rifugio — sono frequenti e normali. Le forme gravi sono rare sul Toubkal, perché la montagna è bassa su scala himalayana e perché si può scendere in fretta.",
+      },
+      {
+        q: "La forma fisica protegge dal mal di montagna?",
+        a: "No, ed è l'equivoco più diffuso che incontriamo. La suscettibilità dipende soprattutto dalla fisiologia individuale, non dalla capacità aerobica. Chi è molto allenato è semmai leggermente più esposto, perché sale in fretta e supera il proprio acclimatamento. La persona più forte del gruppo non è affatto detto che stia meglio al rifugio.",
+      },
+      {
+        q: "Il trek di 2 giorni è pericoloso per via della quota?",
+        a: "Pericoloso no, ma lascia meno tempo al corpo. I 2 giorni collegano Imlil (1.740 m), il rifugio (3.207 m), la cima (4.167 m) e il ritorno, con una sola notte in quota prima del giorno di vetta. I 4 giorni aggiungono una giornata e una notte di acclimatamento prima della stessa salita, e le nostre guide vedono nettamente meno rinunce. Se non siete mai stati sopra i 3.000 m, scegliete il lungo.",
+      },
+      {
+        q: "Devo prendere il Diamox per il Toubkal?",
+        a: "È una domanda per un medico che conosce la vostra storia clinica, non per un operatore, e non prescriviamo nulla da un sito web. Quello che possiamo dire: la maggior parte sale il Toubkal senza farmaci, e l'acetazolamide non sostituisce un profilo di salita sensato. Se avete avuto problemi in quota, parlatene prima di partire.",
+      },
+      {
+        q: "Cosa succede se sto male al rifugio?",
+        a: "Lo dite alla vostra guida, subito e senza scusarvi. I sintomi lievi di solito significano riposare, bere, mangiare e rivalutare al mattino. Se sono gravi o peggiorano, la risposta è scendere — e dal rifugio a Imlil è una camminata semplice che vi porta 1.500 m più in basso in poche ore.",
+      },
+      {
+        q: "I bambini sono più sensibili?",
+        a: "Non sono più suscettibili degli adulti, ma segnalano peggio i sintomi, e un bambino stanco assomiglia molto a un bambino lievemente ipossico. Sui trek in famiglia accorciamo le giornate, teniamo d'occhio appetito e umore quanto il ritmo, e scegliamo itinerari che dormono più in basso.",
+      },
+    ],
+    content: `
+## La quota, in numeri
+
+Quattro numeri riassumono tutto l'argomento:
+
+| Luogo | Quota |
+| --- | --- |
+| Imlil, la partenza | 1.740 m |
+| Sidi Chamharouch | 2.350 m |
+| Rifugio del Toubkal | 3.207 m |
+| Cima del Toubkal | 4.167 m |
+
+Il mal acuto di montagna diventa possibile sopra i **2.500 m** circa. Superate quindi
+quella soglia verso Sidi Chamharouch la prima mattina, dormite 700 m più in alto e
+raggiungete la vetta 1.600 m sopra.
+
+Questo fa del Toubkal una vera montagna d'alta quota. E ne fa anche, su scala mondiale,
+una montagna modesta: la cima è più bassa del campo base dell'Everest, e l'itinerario
+resta una camminata senza terreno tecnico in estate. Da qui il profilo di rischio —
+**abbastanza alta perché i sintomi lievi siano normali, abbastanza bassa perché le forme
+gravi restino rare.**
+
+## Cosa fa davvero la quota
+
+L'aria a 4.167 m non è più povera di ossigeno in proporzione — è sempre al 21 %. Quello
+che cala è la pressione che spinge quell'ossigeno nel sangue. In vetta ogni respiro porta
+circa il 60 % dell'ossigeno che lo stesso respiro vi dà a Marrakech.
+
+Il corpo se ne accorge in pochi minuti e compensa: respirate più in fretta e più a fondo,
+il battito sale e, in uno o due giorni, i reni iniziano ad aggiustare la chimica del
+sangue. **L'acclimatamento è proprio quell'aggiustamento, e richiede un tempo che né la
+forma fisica né la volontà sostituiscono.**
+
+Il mal di montagna arriva quando salite più in fretta di quanto quell'aggiustamento
+consenta.
+
+## I sintomi che impongono di rallentare
+
+Il mal di montagna lieve è frequente al rifugio e non è, di per sé, un'emergenza:
+
+- **Mal di testa** — il sintomo caratteristico, spesso frontale e peggiore da sdraiati
+- **Inappetenza o nausea** — la cena al rifugio lasciata intatta è un classico
+- **Sonno spezzato** — compresa la sensazione sgradevole di svegliarsi senza fiato
+- **Stanchezza sproporzionata** rispetto a quanto avete camminato
+- **Capogiri** alzandosi in fretta
+
+In quel caso: smettete di salire, bevete, mangiate quel che riuscite, riposate e vedete
+come va la notte. Molti si svegliano meglio. Molti raggiungono la vetta la mattina dopo.
+
+## I sintomi che impongono di scendere
+
+Questi differiscono per natura, non solo per intensità. Indicano le due forme pericolose
+— edema cerebrale ed edema polmonare d'alta quota:
+
+- **Mal di testa forte che non risponde a riposo e antidolorifici**
+- **Confusione, parola impastata o comportamento insolito** — spesso lo notano prima gli
+  altri
+- **Perdita di coordinazione** — il test classico è non riuscire a camminare in linea
+  retta mettendo un piede davanti all'altro
+- **Fiato corto a riposo**, tosse persistente, oppressione al petto o respiro che suona
+  umido
+- **Qualsiasi sintomo che peggiora mentre siete a riposo**
+
+In montagna non esiste una gestione ingegnosa di tutto questo. **La terapia è la discesa,
+e non è una decisione da rimandare al mattino.** Dal rifugio, Imlil è a poche ore e
+1.500 m più in basso: è il dato più rassicurante di questo itinerario, la cura è sempre
+disponibile ed è sempre in discesa.
+
+## Perché l'itinerario conta più del farmaco
+
+È la parte che quasi tutte le pagine saltano, e quella in cui un operatore può davvero
+essere utile.
+
+Il trek di 2 giorni e quello di 4 raggiungono la stessa cima. La differenza è ciò che
+accade prima del giorno di vetta:
+
+| | 2 giorni | 4 giorni |
+| --- | --- | --- |
+| Notti sopra i 3.000 m prima della vetta | 1 | 2 |
+| Giornata di acclimatamento | nessuna | sì |
+| Dislivello nel giorno di vetta | 960 m | 960 m |
+| Rinunce abituali | più alte | nettamente inferiori |
+
+Il nostro [trek alla cima del Toubkal in 4
+giorni](/it/tours/trek-cima-toubkal-4-giorni) esiste per quella riga centrale. I giorni
+in più non servono a coprire più terreno: servono a far recuperare il corpo, l'unico
+intervento con un effetto grande su come ci si sente il giorno di vetta. La [versione di
+2 giorni](/it/tours/salita-toubkal-2-giorni) è un viaggio vero e molti la fanno bene, ma
+chiede di più a un corpo avvisato con meno anticipo.
+
+Se non siete mai stati vicino ai 4.000 m, il consiglio onesto è l'itinerario lungo. Non
+è un tentativo di vendere di più: è la differenza fra stare in cima e tornare indietro
+300 m sotto con il mal di testa.
+
+## La forma fisica non protegge come credete
+
+La suscettibilità è soprattutto fisiologia individuale. Alcuni si acclimatano facilmente
+e altri no, e non c'è modo affidabile di sapere a quale gruppo appartenete finché non
+salite.
+
+Ci sono maratoneti che stanno male in quota. E gente che ha già raggiunto vette senza
+problemi — un successo precedente predice poco, mentre un *fallimento* precedente è un
+avvertimento ragionevole.
+
+Essere molto allenati comporta anzi un piccolo rischio in più, perché si sale più in
+fretta di quanto il proprio aggiustamento permetta. La mattina di vetta le guide impongono
+deliberatamente un ritmo che al più forte del gruppo sembra troppo lento. Non è prudenza
+fine a sé stessa: è il meccanismo che funziona.
+
+## Cosa fanno le nostre guide
+
+Ogni trek in quota è condotto da una guida alpina marocchina abilitata, e la gestione
+dell'altitudine fa parte del mestiere quotidiano, non delle competenze d'emergenza:
+
+- **Ritmo dettato da davanti, deliberatamente lento** nella salita al rifugio e di nuovo
+  la mattina di vetta
+- **Controlli dei sintomi che sembrano una conversazione** — appetito, sonno, mal di
+  testa, come vi sentite sui tratti pianeggianti
+- **Disciplina nell'acqua** — 3-4 litri al giorno, che sembrano eccessivi finché non ci
+  si accorge di quanto è secca l'aria
+- **Una decisione presa presto anziché tardi** se qualcuno è in difficoltà, perché
+  scendere di giorno è semplice e di notte non lo è
+- **L'autorità di far tornare indietro un gruppo**, che vale più di qualsiasi
+  attrezzatura
+
+Le nostre guide vengono dalle valli sotto questa montagna e la salgono per tutta la
+stagione. Hanno visto moltissime persone sentirsi male a 3.207 m e stare bene al
+mattino, e conoscono i pochi segni che indicano che stavolta è diverso.
+
+## Cosa aiuta davvero
+
+- **Bevete più di quanto vi va.** La disidratazione imita e peggiora il mal di montagna.
+- **Mangiate, anche senza appetito.** I carboidrati sono il carburante che chiede un
+  corpo che sta compensando.
+- **Niente alcol al rifugio.** Deprime la respirazione notturna, nel momento peggiore.
+- **Salire in alto, dormire in basso** dove l'itinerario lo consente — i nostri circuiti
+  lunghi sono costruiti così.
+- **Non nascondete i sintomi.** Il motivo più comune per cui un problema lieve diventa
+  serio è non voler rovinare la vetta del gruppo.
+- **Arrivate un giorno prima a Marrakech** se avete volato a lungo. Marrakech è solo a
+  466 m e non acclimata, ma partire riposati vale quota vera.
+
+## Quanto bisogna preoccuparsi?
+
+Moderatamente. Mettete in conto il mal di testa al rifugio e consideratelo normale.
+Mettete in conto di dormire male e di non voler cenare. Mettete in conto una guida che
+cammina più lenta di voi.
+
+Le forme gravi sono poco comuni sul Toubkal, e la ragione è strutturale più che fortuna:
+la montagna si ferma a 4.167 m, il rifugio è a poche ore da una testa di strada e la
+discesa è una camminata, non un soccorso. Pochi quattromila perdonano così bene una
+brutta notte.
+
+Scegliete l'itinerario che dà tempo al vostro corpo, dite la verità alla guida su come vi
+sentite, e la quota diventa una cosa che notate anziché una cosa che vi ferma.
+
+👉 **[Vedi i nostri trek al Toubkal](/it/tours?category=trekking)** — quello di 4 giorni
+comprende una giornata di acclimatamento dedicata, e ogni partenza è condotta da una
+guida alpina locale abilitata.
+`,
+  },
 ];

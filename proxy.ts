@@ -31,6 +31,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
+  "altitude-sickness-toubkal-guide": "mal-de-altura-toubkal",
   "morocco-camel-trek-sahara-guide": "trekking-camello-sahara-marruecos",
   "toubkal-2-day-trek-cost": "precio-trek-toubkal-2-dias",
   "toubkal-4-day-trek-cost": "precio-trek-toubkal-4-dias",
@@ -51,6 +52,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
+  "altitude-sickness-toubkal-guide": "hoehenkrankheit-toubkal",
   "morocco-camel-trek-sahara-guide": "kameltrekking-sahara-marokko",
   "toubkal-2-day-trek-cost": "toubkal-trek-2-tage-kosten",
   "toubkal-4-day-trek-cost": "toubkal-trek-4-tage-kosten",
@@ -71,6 +73,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
+  "altitude-sickness-toubkal-guide": "mal-di-montagna-toubkal",
   "morocco-camel-trek-sahara-guide": "trekking-cammello-sahara-marocco",
   "toubkal-2-day-trek-cost": "prezzo-trek-toubkal-2-giorni",
   "toubkal-4-day-trek-cost": "prezzo-trek-toubkal-4-giorni",

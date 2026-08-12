@@ -5111,4 +5111,145 @@ deserto e sull'Atlante per famiglie sono calibrati sui bambini, e diciamo chiara
 quando un viaggio non è adatto all'età che portate.
 `,
   },
+  {
+    slug: "luxury-vs-standard-desert-camp-morocco",
+    localizedSlug: "campo-deserto-lusso-o-standard",
+    author: MET_TEAM,
+    title: "Campo di lusso o standard in Marocco: cosa ottieni davvero",
+    excerpt:
+      "La differenza è soprattutto una: se il bagno è dentro la tua tenda oppure no. Ecco cosa offre davvero ciascuna formula, quanto costa l'upgrade, e quando conviene e quando no.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "campo di lusso Marocco",
+      "campo standard deserto",
+      "campo Merzouga",
+      "alloggio Erg Chebbi",
+      "confronto campi Sahara",
+    ],
+    seoTitle: "Campo nel deserto in Marocco: lusso o standard a confronto",
+    seoDescription:
+      "Cosa separa davvero un campo sahariano di lusso da uno standard, quanto costa l'upgrade e quando vale la spesa. Scritto da un operatore che prenota entrambi.",
+    relatedTours: [
+      "sahara-3day-marrakech",
+      "erg-chegaga-3day-marrakech",
+      "shared-merzouga-3day-marrakech",
+      "family-desert-4day-marrakech",
+    ],
+    faq: [
+      {
+        q: "Qual è la vera differenza tra un campo di lusso e uno standard?",
+        a: "Soprattutto il bagno. Una tenda di lusso ha il suo bagno privato con water con scarico e doccia calda; un campo standard ha servizi condivisi in un blocco separato. Tutto il resto — letti più grandi, tappeti, corrente, a volte riscaldamento o aria condizionata — deriva dallo stesso investimento. Le dune fuori sono identiche.",
+      },
+      {
+        q: "Quanto costa in più un campo di lusso?",
+        a: "Sul mercato in generale i campi standard vanno dai 40 ai 100 EUR a notte e quelli di lusso dai 150 ai 500 EUR, con l'ultra-lusso ancora più su. Come upgrade su un tour già prenotato, calcola circa 70 EUR a persona per notte: è la tariffa corrente che gli operatori qui applicano per farti cambiare campo.",
+      },
+      {
+        q: "Un campo standard è scomodo?",
+        a: "No, ma è essenziale. Un letto vero con materasso, lenzuola e coperte dentro una tenda in tela o in lana, bagni e docce condivisi lì vicino, cena cucinata sul posto e tamburi attorno al fuoco. Quello che non hai è la privacy in bagno e l'acqua calda garantita all'ora che preferisci.",
+      },
+      {
+        q: "I campi di lusso hanno corrente e riscaldamento?",
+        a: "Di solito sì — corrente solare o da generatore per luce e ricarica, stufe per le notti invernali e a volte aria condizionata d'estate. I campi standard hanno tipicamente luce per qualche ora la sera e nessun controllo della temperatura, cosa che pesa molto più a gennaio che ad aprile.",
+      },
+      {
+        q: "Quale campo dovrebbero scegliere le famiglie?",
+        a: "Con bambini sotto gli otto anni circa, il bagno privato è l'upgrade più utile che esista: un blocco servizi dall'altra parte della sabbia, al buio, è esattamente il punto in cui una notte nel deserto in famiglia va storta. I ragazzi più grandi in genere trovano il campo standard molto più avventuroso.",
+      },
+      {
+        q: "I campi di lusso sono meno autentici?",
+        a: "In parte sì, ed è giusto dirlo. Una tenda con tappeto, letto vero e doccia a pioggia è una camera d'albergo fatta di tela. La tenda tradizionale in lana nera è più vicina a come nel deserto si è dormito davvero. Se questo conti o meno è una questione personale, non morale.",
+      },
+    ],
+    content: `
+## La risposta breve
+
+Quasi tutta la differenza è il bagno.
+
+Un **campo standard** ti dà un letto vero dentro una tenda in tela o in lana nera, con bagni e docce condivisi in un blocco a pochi passi. Un **campo di lusso** ti dà le stesse dune, la stessa cena, lo stesso cielo — e il tuo bagno dentro la tenda, con water con scarico e doccia calda che funziona quando vuoi tu.
+
+Tutto il resto che compare nell'elenco del lusso — letti più grandi, tappeti, mobili, prese, riscaldamento — deriva dallo stesso investimento. Ma se togli l'involucro pubblicitario, stai soprattutto decidendo se ti va di attraversare la sabbia al buio alle due di notte.
+
+## Com'è davvero un campo standard
+
+È quello che includono la maggior parte dei nostri tour nel deserto, e non è campeggio spartano:
+
+- Un letto con rete, materasso, lenzuola e coperte, dentro una tenda in tela o una tenda berbera tradizionale in lana nera
+- Bagni con scarico e docce condivisi in un blocco vicino. Acqua calda quasi sempre, non sempre
+- Cena cucinata sul posto — di solito tajine, insalate, pane, frutta — e colazione
+- Luce nelle ore serali, poi i generatori si spengono
+- Tamburi e fuoco sotto un cielo estremamente buio
+
+Quello che non ti dà: privacy in bagno, acqua calda garantita all'ora che vuoi, corrente per ricaricare di notte, o riscaldamento d'inverno.
+
+La maggior parte di chi ci passa una notte la descrive poi come la migliore del viaggio. L'assenza di elettricità c'entra parecchio.
+
+## Cosa compra davvero l'upgrade al lusso
+
+- **Un bagno privato nella tua tenda** — water con scarico, lavandino, doccia calda con pressione vera. Questo è l'upgrade; il resto è contorno.
+- **Una tenda più grande** con letto vero, tappeti, divanetti, a volte una piccola terrazza
+- **Corrente affidabile** per luce e ricarica, da solare o generatore
+- **Riscaldamento d'inverno, aria condizionata d'estate** nei campi migliori
+- **Cibo migliore**, più portate, e di solito un'atmosfera più tranquilla e curata
+
+Cosa non cambia: le dune, il tramonto, le stelle, il giro in dromedario, il silenzio. Quelli sono gratis e identici in entrambi.
+
+## I soldi, senza giri di parole
+
+| | Standard | Lusso |
+| --- | --- | --- |
+| Prezzo di mercato a notte | 40–100 EUR | 150–500 EUR |
+| Upgrade tipico su un tour prenotato | — | circa 70 EUR a persona, a notte |
+| Bagno | blocco condiviso | privato, in tenda |
+| Corrente | solo la sera | continua, solare o generatore |
+| Controllo temperatura | assente | riscaldamento, spesso A/C |
+
+Due cose meritano attenzione in quella tabella.
+
+Primo, la forbice del lusso è enorme. 150 EUR e 500 EUR comprano esperienze davvero diverse, e un campo pubblicizzato come «di lusso» nella parte bassa di quella forbice può essere un campo standard con un letto migliore. Chiedi esplicitamente se il bagno è dentro la tenda, perché è la domanda che li separa per davvero.
+
+Secondo, l'upgrade si paga **a persona e a notte**, quindi cresce in fretta. Per una coppia su due notti nel deserto sono circa 280 EUR — che sul nostro [tour di 3 giorni nel Sahara](/it/tours/tour-deserto-3-giorni-marrakech) a 380 EUR a persona per due viaggiatori è un'aggiunta notevole al prezzo del viaggio.
+
+## Quando diremmo di pagarlo
+
+**In viaggio con bambini piccoli.** Il caso più forte. Un blocco servizi da raggiungere attraversando sabbia aperta, al buio, con un bambino di cinque anni, è la cosa che trasforma una notte magica in una notte difficile. Il nostro [tour famiglia di 4 giorni nel deserto](/it/tours/tour-deserto-famiglia-4-giorni) è costruito attorno a un campo per famiglie esattamente per questo.
+
+**Da dicembre a febbraio.** Le notti nel deserto scendono davvero vicino allo zero. Una tenda riscaldata a gennaio non è un acquisto di comodità, è la differenza tra dormire e non dormire.
+
+**Se una notte storta ti rovinerebbe il viaggio.** C'è chi dorme ovunque. Se non sei tra questi, e questa è l'unica notte nel deserto di una vacanza di due settimane, comprati il sonno.
+
+**Problemi di mobilità o esigenze mediche.** Camminare fino a un blocco condiviso sulla sabbia molle di notte è più difficile di quanto sembri.
+
+## Quando diremmo di risparmiare
+
+**Una notte, tempo decente, senza bambini.** Lo standard va benissimo in primavera e in autunno, e i soldi rendono di più su un giorno di viaggio in più.
+
+**Se vuoi il deserto com'è davvero.** Nella tenda tradizionale in lana nera qui si dorme da moltissimo tempo. Una suite di tela con doccia a pioggia è una camera d'albergo che si trova in un campo di dune. Sono piacevoli entrambe; solo una delle due è il Sahara.
+
+**Su una partenza condivisa.** Il nostro [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso) costa 120 EUR a persona. Aggiungere 70 EUR a notte per un bagno privato cambia il tipo di viaggio che hai prenotato, e a quel punto un tour privato con campo standard conviene spesso di più.
+
+**Se significa togliere un giorno.** Più tempo nel deserto batte un bagno più bello, quasi sempre. Due notti all'Erg Chegaga in campo standard sono un viaggio migliore di una notte all'Erg Chebbi in campo di lusso — vedi il nostro [confronto tra Erg Chebbi ed Erg Chegaga](/it/blog/erg-chebbi-vs-erg-chegaga) per capire perché le dune più remote valgono la strada in più.
+
+## La domanda da fare prima di prenotare
+
+I campi si descrivono con le parole che sceglie l'operatore, e «lusso» non è un termine regolamentato. Prima di pagare un upgrade, fai una domanda precisa:
+
+**«Il bagno è dentro la mia tenda, o è condiviso?»**
+
+Quella singola risposta ti dice più di qualsiasi fotografia su una pagina di prenotazione. Tutto il resto — i tappeti, le lanterne, il vassoio di ottone — compare nelle foto di entrambi.
+
+## Cosa prenotiamo noi
+
+Usiamo campi berberi standard sulla maggior parte delle nostre partenze nel deserto, e lo scriviamo chiaramente nelle inclusioni di ogni tour invece di lasciarlo vago. Dove un tour include un campo di lusso o per famiglie, è indicato anche quello.
+
+Se vuoi l'upgrade, dillo quando prenoti e lo quotiamo onestamente per le tue date — compreso dirti quando riteniamo che non ne valga la pena, che per una coppia ad aprile su una singola notte nel deserto è di solito la nostra risposta.
+
+👉 **[Guarda i nostri tour nel deserto](/it/tours?category=desert)** — ognuno indica esattamente quale campo è incluso, perché «campo nel deserto», da solo, non dice cosa stai comprando.
+`,
+  },
 ];

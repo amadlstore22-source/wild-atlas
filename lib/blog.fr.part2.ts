@@ -5160,4 +5160,145 @@ Atlas famille sont calibrés pour les enfants, et nous disons franchement quand 
 ne convient pas à l'âge que vous emmenez.
 `,
   },
+  {
+    slug: "luxury-vs-standard-desert-camp-morocco",
+    localizedSlug: "campement-desert-luxe-ou-standard",
+    author: MET_TEAM,
+    title: "Campement de luxe ou standard au Maroc : ce que vous obtenez vraiment",
+    excerpt:
+      "La différence tient surtout à une chose : la salle de bain est-elle dans votre tente ou non. Voici ce que chaque formule offre réellement, ce que coûte le surclassement, et quand il vaut la peine ou non.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "campement de luxe Maroc",
+      "bivouac standard désert",
+      "campement Merzouga",
+      "hébergement Erg Chebbi",
+      "comparatif campements Sahara",
+    ],
+    seoTitle: "Campement désert luxe ou standard au Maroc : le comparatif",
+    seoDescription:
+      "Ce qui sépare vraiment un campement saharien de luxe d'un campement standard, ce que coûte le surclassement, et quand il vaut la dépense. Par un opérateur qui réserve les deux.",
+    relatedTours: [
+      "sahara-3day-marrakech",
+      "erg-chegaga-3day-marrakech",
+      "shared-merzouga-3day-marrakech",
+      "family-desert-4day-marrakech",
+    ],
+    faq: [
+      {
+        q: "Quelle est la vraie différence entre un campement de luxe et un campement standard ?",
+        a: "Essentiellement la salle de bain. Une tente de luxe dispose de sa propre salle d'eau privative, avec toilettes à chasse et douche chaude ; un campement standard propose des sanitaires partagés dans un bloc séparé. Tout le reste — lits plus grands, tapis, électricité, parfois chauffage ou climatisation — découle du même investissement. Les dunes, dehors, sont identiques.",
+      },
+      {
+        q: "Combien coûte un campement de luxe en plus ?",
+        a: "Sur le marché au sens large, les campements standard se situent entre 40 et 100 EUR la nuit, et les campements de luxe entre 150 et 500 EUR, l'ultra-luxe montant encore au-dessus. En surclassement sur un circuit déjà réservé, comptez environ 70 EUR par personne et par nuit : c'est le tarif courant pratiqué ici pour vous faire changer de campement.",
+      },
+      {
+        q: "Un campement standard est-il inconfortable ?",
+        a: "Non, mais il est sobre. Un vrai lit avec matelas, draps et couvertures sous une tente de toile ou de laine, des toilettes et douches partagées à proximité, un dîner préparé sur place et des percussions autour du feu. Ce que vous n'avez pas : l'intimité pour la salle de bain, ni l'eau chaude garantie à l'heure qui vous arrange.",
+      },
+      {
+        q: "Les campements de luxe ont-ils l'électricité et le chauffage ?",
+        a: "Généralement oui — énergie solaire ou groupe électrogène pour l'éclairage et la recharge, chauffage pour les nuits d'hiver et parfois climatisation en été. Les campements standard n'ont le plus souvent que quelques heures d'éclairage en soirée et aucune régulation thermique, ce qui pèse davantage en janvier qu'en avril.",
+      },
+      {
+        q: "Quel campement choisir en famille ?",
+        a: "Pour des enfants de moins de huit ans environ, la salle de bain privative est le surclassement le plus utile qui soit : un bloc sanitaire à traverser dans le sable, la nuit, c'est précisément là où une nuit familiale dans le désert tourne mal. Les plus grands trouvent en général le campement standard bien plus aventureux.",
+      },
+      {
+        q: "Les campements de luxe sont-ils moins authentiques ?",
+        a: "En partie, et il est honnête de le dire. Une tente avec tapis, vrai lit et douche à l'italienne, c'est une chambre d'hôtel en toile. La tente traditionnelle en laine noire est plus proche de la manière dont on a réellement dormi dans ce désert. Que cela compte ou non est une question personnelle, pas une question morale.",
+      },
+    ],
+    content: `
+## La réponse courte
+
+L'essentiel de la différence, c'est la salle de bain.
+
+Un **campement standard** vous offre un vrai lit sous une tente de toile ou de laine noire, avec toilettes et douches partagées dans un bloc à quelques pas. Un **campement de luxe** vous offre les mêmes dunes, le même dîner, le même ciel — et votre propre salle d'eau dans la tente, avec toilettes à chasse et douche chaude qui fonctionne quand vous le voulez.
+
+Tout le reste de ce qu'on inscrit du côté luxe — lits plus grands, tapis, mobilier, prises électriques, chauffage — découle du même investissement. Mais si l'on retire l'emballage marketing, vous décidez surtout si vous acceptez de traverser du sable dans le noir à deux heures du matin.
+
+## À quoi ressemble vraiment un campement standard
+
+C'est ce qu'incluent la plupart de nos circuits dans le désert, et ce n'est pas du camping sauvage :
+
+- Un lit à cadre avec matelas, draps et couvertures, sous une tente de toile ou une tente berbère traditionnelle en laine noire
+- Toilettes à chasse et douches partagées dans un bloc voisin. Eau chaude le plus souvent, pas toujours
+- Dîner préparé sur place — en général tajine, salades, pain, fruits — et petit-déjeuner
+- Éclairage en soirée, puis extinction des groupes électrogènes
+- Percussions et feu de camp sous un ciel extrêmement noir
+
+Ce qu'il ne vous donne pas : l'intimité pour la salle de bain, l'eau chaude garantie à l'heure voulue, de quoi recharger vos appareils la nuit, ni le chauffage en hiver.
+
+La plupart des gens qui y passent une nuit la décrivent ensuite comme la meilleure du voyage. L'absence d'électricité y est pour beaucoup.
+
+## Ce que le surclassement achète réellement
+
+- **Une salle d'eau privative dans votre tente** — toilettes à chasse, lavabo, douche chaude avec une vraie pression. C'est cela, le surclassement ; le reste est de la garniture.
+- **Une tente plus grande** avec un vrai lit, des tapis, un coin salon, parfois une petite terrasse
+- **Une électricité fiable** pour l'éclairage et la recharge, en solaire ou groupe électrogène
+- **Chauffage en hiver, climatisation en été** dans les meilleurs campements
+- **Une meilleure table**, davantage de plats, et généralement une atmosphère plus calme et plus soignée
+
+Ce que cela ne change pas : les dunes, le coucher de soleil, les étoiles, la balade à dos de dromadaire, le silence. Tout cela est gratuit et identique dans les deux cas.
+
+## L'argent, sans détour
+
+| | Standard | Luxe |
+| --- | --- | --- |
+| Tarif marché par nuit | 40–100 EUR | 150–500 EUR |
+| Surclassement type sur un circuit réservé | — | environ 70 EUR par personne et par nuit |
+| Salle de bain | bloc partagé | privative dans la tente |
+| Électricité | soirée uniquement | complète, solaire ou groupe |
+| Régulation thermique | aucune | chauffage, souvent clim |
+
+Deux choses méritent d'être relevées dans ce tableau.
+
+D'abord, la fourchette du luxe est énorme. 150 EUR et 500 EUR n'achètent pas du tout la même expérience, et un campement annoncé « de luxe » au bas de cette fourchette peut n'être qu'un campement standard avec un meilleur lit. Demandez explicitement si la salle de bain est dans la tente, car c'est la question qui les sépare vraiment.
+
+Ensuite, le surclassement se facture **par personne et par nuit**, il grimpe donc vite. Pour un couple sur deux nuits dans le désert, cela représente environ 280 EUR — ce qui, sur notre [circuit de 3 jours dans le Sahara](/fr/tours/circuit-desert-3-jours-marrakech) à 380 EUR par personne pour deux voyageurs, alourdit sérieusement le prix du voyage.
+
+## Quand nous vous dirions de payer
+
+**Avec de jeunes enfants.** Le cas le plus solide. Un bloc sanitaire à rejoindre en traversant du sable, dans le noir, avec un enfant de cinq ans, c'est ce qui transforme une nuit magique en nuit difficile. Notre [circuit désert en famille de 4 jours](/fr/tours/circuit-desert-famille-4-jours) est construit autour d'un campement familial précisément pour cette raison.
+
+**De décembre à février.** Les nuits sahariennes descendent réellement près de zéro. Une tente chauffée en janvier n'est pas un achat de confort, c'est la différence entre dormir et ne pas dormir.
+
+**Si une mauvaise nuit gâchait le voyage.** Certains dorment n'importe où. Si ce n'est pas votre cas, et qu'il s'agit de l'unique nuit dans le désert de quinze jours de vacances, achetez le sommeil.
+
+**Mobilité réduite ou besoins médicaux.** Marcher jusqu'à un bloc partagé sur du sable mou, la nuit, est plus difficile qu'il n'y paraît.
+
+## Quand nous vous dirions d'économiser
+
+**Une seule nuit, météo correcte, sans enfants.** Le standard convient très bien au printemps et en automne, et l'argent est mieux placé dans une journée de circuit supplémentaire.
+
+**Si vous voulez le désert tel qu'il est.** La tente traditionnelle en laine noire, c'est ainsi qu'on dort ici depuis très longtemps. Une suite en toile avec douche à l'italienne est une chambre d'hôtel posée dans un champ de dunes. Les deux sont agréables ; une seule est le Sahara.
+
+**Sur un départ partagé.** Notre [circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage) est à 120 EUR par personne. Ajouter 70 EUR par nuit pour une salle de bain privative change la nature du voyage réservé, et à ce niveau de prix un circuit privé avec campement standard offre souvent un meilleur rapport qualité-prix.
+
+**Si cela vous coûte une journée.** Plus de temps dans le désert vaut mieux qu'une plus belle salle de bain, presque à chaque fois. Deux nuits à l'Erg Chegaga en campement standard font un meilleur voyage qu'une nuit à l'Erg Chebbi en campement de luxe — voir notre [comparatif Erg Chebbi / Erg Chegaga](/fr/blog/erg-chebbi-vs-erg-chegaga) pour comprendre pourquoi les dunes les plus reculées valent la route supplémentaire.
+
+## La question à poser avant de réserver
+
+Les campements sont décrits avec les mots que choisit l'opérateur, et « luxe » n'est pas un terme réglementé. Avant de payer un surclassement, posez une question précise :
+
+**« La salle de bain est-elle dans ma tente, ou partagée ? »**
+
+Cette seule réponse vous en dit plus que n'importe quelle photo sur une page de réservation. Tout le reste — les tapis, les lanternes, le plateau en laiton — figure sur les photos des deux formules.
+
+## Ce que nous réservons
+
+Nous utilisons des campements berbères standard sur la plupart de nos départs dans le désert, et nous le disons clairement dans les inclusions de chaque circuit plutôt que de rester vagues. Lorsqu'un circuit inclut un campement de luxe ou familial, c'est indiqué aussi.
+
+Si vous voulez le surclassement, dites-le nous à la réservation et nous le chiffrerons honnêtement pour vos dates — y compris en vous disant quand nous ne le jugeons pas justifié, ce qui, pour un couple en avril sur une seule nuit dans le désert, est généralement notre réponse.
+
+👉 **[Voir nos circuits dans le désert](/fr/tours?category=desert)** — chacun précise exactement quel campement est inclus, parce que « campement dans le désert » ne dit pas, à soi seul, ce que vous achetez.
+`,
+  },
 ];

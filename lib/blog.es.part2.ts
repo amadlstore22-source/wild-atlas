@@ -5102,4 +5102,145 @@ desierto y Atlas en familia están calibrados para niños, y decimos claramente 
 viaje no encaja con la edad que traes.
 `,
   },
+  {
+    slug: "luxury-vs-standard-desert-camp-morocco",
+    localizedSlug: "campamento-desierto-lujo-o-estandar",
+    author: MET_TEAM,
+    title: "Campamento de lujo o estándar en Marruecos: qué obtienes de verdad",
+    excerpt:
+      "La diferencia es sobre todo una cosa: si el baño está dentro de tu jaima o no. Esto es lo que ofrece realmente cada opción, cuánto cuesta la mejora, y cuándo merece la pena y cuándo no.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "campamento de lujo Marruecos",
+      "campamento estándar desierto",
+      "campamento Merzouga",
+      "alojamiento Erg Chebbi",
+      "comparativa campamentos Sáhara",
+    ],
+    seoTitle: "Campamento desierto de lujo o estándar en Marruecos",
+    seoDescription:
+      "Qué separa de verdad a un campamento sahariano de lujo de uno estándar, cuánto cuesta la mejora y cuándo compensa pagarla. Escrito por un operador que reserva ambos.",
+    relatedTours: [
+      "sahara-3day-marrakech",
+      "erg-chegaga-3day-marrakech",
+      "shared-merzouga-3day-marrakech",
+      "family-desert-4day-marrakech",
+    ],
+    faq: [
+      {
+        q: "¿Cuál es la diferencia real entre un campamento de lujo y uno estándar?",
+        a: "Sobre todo el baño. Una jaima de lujo tiene baño propio dentro, con inodoro con cisterna y ducha caliente; un campamento estándar tiene servicios compartidos en un bloque aparte. Todo lo demás — camas más grandes, alfombras, electricidad, a veces calefacción o aire acondicionado — se deriva de la misma inversión. Las dunas de fuera son idénticas.",
+      },
+      {
+        q: "¿Cuánto cuesta más un campamento de lujo?",
+        a: "En el mercado general, los campamentos estándar rondan los 40–100 EUR por noche y los de lujo entre 150 y 500 EUR, con el ultralujo aún por encima. Como mejora sobre un circuito ya reservado, cuenta con unos 70 EUR por persona y noche: es la tarifa habitual que cobran aquí los operadores por cambiarte de campamento.",
+      },
+      {
+        q: "¿Es incómodo un campamento estándar?",
+        a: "No, pero es básico. Una cama de verdad con colchón, sábanas y mantas dentro de una jaima de lona o de lana, aseos y duchas compartidos cerca, cena cocinada en el sitio y tambores alrededor del fuego. Lo que no tienes es intimidad en el baño ni agua caliente fiable a la hora que quieras.",
+      },
+      {
+        q: "¿Tienen electricidad y calefacción los campamentos de lujo?",
+        a: "Normalmente sí — energía solar o generador para luz y recarga, calefactores para las noches de invierno y a veces aire acondicionado en verano. Los campamentos estándar suelen tener luz unas pocas horas por la tarde y ningún control de temperatura, lo que pesa mucho más en enero que en abril.",
+      },
+      {
+        q: "¿Qué campamento deberían elegir las familias?",
+        a: "Con niños de menos de unos ocho años, el baño privado es la mejora más útil que existe: un bloque de aseos al otro lado de la arena, a oscuras, es justo donde se tuerce una noche familiar en el desierto. Los niños mayores suelen encontrar el campamento estándar mucho más aventurero.",
+      },
+      {
+        q: "¿Son menos auténticos los campamentos de lujo?",
+        a: "En parte, y es justo decirlo. Una jaima con alfombra, cama de verdad y ducha de lluvia es una habitación de hotel hecha de lona. La jaima tradicional de lana negra se parece más a como se ha dormido realmente en el desierto. Si eso importa o no es una cuestión personal, no moral.",
+      },
+    ],
+    content: `
+## La respuesta corta
+
+Casi toda la diferencia es el baño.
+
+Un **campamento estándar** te da una cama de verdad dentro de una jaima de lona o de lana negra, con aseos y duchas compartidos en un bloque a pocos pasos. Un **campamento de lujo** te da las mismas dunas, la misma cena, el mismo cielo — y tu propio baño dentro de la jaima, con inodoro con cisterna y ducha caliente que funciona cuando quieres.
+
+Todo lo demás que aparece en la lista del lujo — camas más grandes, alfombras, muebles, enchufes, calefacción — sale de la misma inversión. Pero si le quitas el envoltorio comercial, sobre todo estás decidiendo si te importa cruzar arena a oscuras a las dos de la madrugada.
+
+## Cómo es realmente un campamento estándar
+
+Es lo que incluyen la mayoría de nuestros circuitos por el desierto, y no es acampada dura:
+
+- Una cama con somier, colchón, sábanas y mantas, dentro de una jaima de lona o una jaima bereber tradicional de lana negra
+- Aseos con cisterna y duchas compartidos en un bloque cercano. Agua caliente casi siempre, no siempre
+- Cena cocinada en el sitio — normalmente tajine, ensaladas, pan, fruta — y desayuno
+- Luz durante las horas de la tarde, luego se apagan los generadores
+- Tambores y hoguera bajo un cielo extremadamente oscuro
+
+Lo que no te da: intimidad en el baño, agua caliente garantizada a la hora que quieras, corriente para cargar aparatos por la noche, ni calefacción en invierno.
+
+La mayoría de quienes pasan una noche así la describen después como la mejor del viaje. La ausencia de electricidad tiene mucho que ver.
+
+## Qué compra realmente la mejora a lujo
+
+- **Un baño propio dentro de tu jaima** — inodoro con cisterna, lavabo, ducha caliente con presión de verdad. Esa es la mejora; el resto es adorno.
+- **Una jaima más grande** con cama en condiciones, alfombras, asientos, a veces una pequeña terraza
+- **Electricidad fiable** para luz y recarga, solar o de generador
+- **Calefacción en invierno, aire acondicionado en verano** en los mejores campamentos
+- **Mejor comida**, más platos, y normalmente un ambiente más tranquilo y cuidado
+
+Lo que no cambia: las dunas, la puesta de sol, las estrellas, el paseo en dromedario, el silencio. Todo eso es gratis e idéntico en ambos.
+
+## El dinero, sin rodeos
+
+| | Estándar | Lujo |
+| --- | --- | --- |
+| Precio de mercado por noche | 40–100 EUR | 150–500 EUR |
+| Mejora típica sobre un circuito reservado | — | unos 70 EUR por persona y noche |
+| Baño | bloque compartido | propio, dentro de la jaima |
+| Electricidad | solo por la tarde | completa, solar o generador |
+| Control de temperatura | ninguno | calefacción, a menudo A/A |
+
+Dos cosas merecen atención en esa tabla.
+
+Primero, el rango del lujo es enorme. 150 EUR y 500 EUR compran experiencias genuinamente distintas, y un campamento anunciado como «de lujo» en la parte baja de ese rango puede ser un campamento estándar con mejor cama. Pregunta expresamente si el baño está dentro de la jaima, porque esa es la pregunta que de verdad los separa.
+
+Segundo, la mejora se cobra **por persona y por noche**, así que escala rápido. Para una pareja en dos noches de desierto son unos 280 EUR — que sobre nuestro [circuito de 3 días por el Sáhara](/es/tours/tour-desierto-3-dias-marrakech) a 380 EUR por persona para dos viajeros es una adición considerable al precio del viaje.
+
+## Cuándo diríamos que la pagues
+
+**Viajando con niños pequeños.** El caso más claro. Un bloque de aseos al otro lado de la arena abierta, a oscuras, con un niño de cinco años, es lo que convierte una noche mágica en una noche difícil. Nuestro [circuito familiar de 4 días por el desierto](/es/tours/tour-desierto-familia-4-dias) está construido en torno a un campamento familiar exactamente por eso.
+
+**De diciembre a febrero.** Las noches del desierto bajan de verdad casi hasta cero. Una jaima con calefacción en enero no es una compra de confort, es la diferencia entre dormir y no dormir.
+
+**Si una mala noche te estropearía el viaje.** Hay gente que duerme en cualquier sitio. Si tú no eres de esos, y esta es la única noche de desierto de unas vacaciones de dos semanas, compra el sueño.
+
+**Problemas de movilidad o necesidades médicas.** Caminar hasta un bloque compartido sobre arena blanda de noche es más difícil de lo que parece.
+
+## Cuándo diríamos que te ahorres el dinero
+
+**Una noche, buen tiempo, sin niños.** El estándar está genuinamente bien en primavera y otoño, y el dinero rinde más en un día extra de viaje.
+
+**Si quieres el desierto tal como es.** La jaima tradicional de lana negra es como se ha dormido aquí desde hace muchísimo tiempo. Una suite de lona con ducha de lluvia es una habitación de hotel que da la casualidad de estar en un campo de dunas. Las dos son agradables; solo una es el Sáhara.
+
+**En una salida compartida.** Nuestro [circuito compartido de 3 días a Merzouga](/es/tours/desierto-merzouga-3-dias-compartido) cuesta 120 EUR por persona. Añadir 70 EUR por noche por un baño privado cambia el tipo de viaje que has reservado, y a ese precio un circuito privado con campamento estándar suele salir más a cuenta.
+
+**Si supone quitar un día.** Más tiempo en el desierto gana a un baño más bonito casi siempre. Dos noches en Erg Chegaga en campamento estándar son mejor viaje que una noche en Erg Chebbi en uno de lujo — mira nuestra [comparativa Erg Chebbi y Erg Chegaga](/es/blog/erg-chebbi-vs-erg-chegaga) para entender por qué las dunas más remotas compensan la carretera extra.
+
+## La pregunta que hay que hacer antes de reservar
+
+Los campamentos se describen con las palabras que elige el operador, y «lujo» no es un término regulado. Antes de pagar una mejora, haz una pregunta concreta:
+
+**«¿El baño está dentro de mi jaima, o es compartido?»**
+
+Esa única respuesta te dice más que cualquier fotografía de una página de reservas. Todo lo demás — las alfombras, los faroles, la bandeja de latón — sale en las fotos de los dos.
+
+## Qué reservamos nosotros
+
+Usamos campamentos bereberes estándar en la mayoría de nuestras salidas al desierto, y lo decimos con claridad en las inclusiones de cada circuito en lugar de dejarlo difuso. Cuando un circuito incluye un campamento de lujo o familiar, también se indica.
+
+Si quieres la mejora, dínoslo al reservar y te la presupuestamos con honestidad para tus fechas — incluido decirte cuándo creemos que no compensa, que para una pareja en abril con una sola noche de desierto suele ser nuestra respuesta.
+
+👉 **[Ver nuestros circuitos por el desierto](/es/tours?category=desert)** — cada uno indica exactamente qué campamento incluye, porque «campamento en el desierto», por sí solo, no te dice qué estás comprando.
+`,
+  },
 ];

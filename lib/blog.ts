@@ -7397,7 +7397,7 @@ tent, because that is the question that actually separates them.
 
 Second, the upgrade is charged **per person per night**, so it scales fast. For a couple
 on a two-night desert trip, it is around €280 — which on our
-[3-day Sahara tour](/en/tours/sahara-3day-marrakech) at €380 per person is a substantial
+[3-day Sahara tour](/en/tours/sahara-3day-marrakech) at €380 per person for two is a substantial
 addition to the trip price.
 
 ## When we would say pay for it

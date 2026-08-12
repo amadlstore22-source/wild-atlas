@@ -10,6 +10,7 @@ import { NextRequest, NextResponse } from "next/server";
  * unreadable byte strings when shared, which loses the readability that is the
  * only real benefit of localising the slug in the first place. */
 const BLOG_SLUGS_FR: Record<string, string> = {
+  "luxury-vs-standard-desert-camp-morocco": "campement-desert-luxe-ou-standard",
   "altitude-sickness-toubkal-guide": "mal-aigu-des-montagnes-toubkal",
   "morocco-with-kids-family-guide": "maroc-en-famille-avec-enfants",
   "morocco-camel-trek-sahara-guide": "trek-dromadaire-sahara-maroc",
@@ -32,6 +33,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
+  "luxury-vs-standard-desert-camp-morocco": "campamento-desierto-lujo-o-estandar",
   "altitude-sickness-toubkal-guide": "mal-de-altura-toubkal",
   "morocco-with-kids-family-guide": "marruecos-con-ninos-guia-familiar",
   "morocco-camel-trek-sahara-guide": "trekking-camello-sahara-marruecos",
@@ -54,6 +56,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
+  "luxury-vs-standard-desert-camp-morocco": "wuestencamp-luxus-oder-standard",
   "altitude-sickness-toubkal-guide": "hoehenkrankheit-toubkal",
   "morocco-with-kids-family-guide": "marokko-mit-kindern-familienreise",
   "morocco-camel-trek-sahara-guide": "kameltrekking-sahara-marokko",
@@ -76,6 +79,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
+  "luxury-vs-standard-desert-camp-morocco": "campo-deserto-lusso-o-standard",
   "altitude-sickness-toubkal-guide": "mal-di-montagna-toubkal",
   "morocco-with-kids-family-guide": "marocco-con-bambini-guida-famiglie",
   "morocco-camel-trek-sahara-guide": "trekking-cammello-sahara-marocco",

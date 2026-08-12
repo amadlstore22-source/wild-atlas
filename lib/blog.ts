@@ -7076,6 +7076,211 @@ dedicated acclimatisation day, and every departure is led by a licensed local
 mountain guide.
 `,
   },
+  {
+    slug: "morocco-with-kids-family-guide",
+    relatedTours: [
+      "family-desert-4day-marrakech",
+      "family-atlas-4day-trek",
+      "ourika-valley-day-hike",
+      "ouzoud-waterfalls-day-trip",
+    ],
+    author: MET_TEAM,
+    title: "Morocco With Kids: An Honest Guide From the Guides Who Take Them",
+    excerpt:
+      "What age travels well, how long a child will really sit in a 4x4, what happens about car seats, and which of our trips work with a five-year-old. Written from the trips we actually run, not from a checklist.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 11,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "Morocco with kids",
+      "family travel Morocco",
+      "Morocco family tour",
+      "desert tour with children",
+      "Atlas trek with kids",
+    ],
+    seoTitle: "Morocco With Kids — Honest Family Travel Guide (2026)",
+    seoDescription:
+      "What age travels well in Morocco, car seats, food, and how long children really last in a 4x4. Practical advice from guides who run family trips in the Atlas and the Sahara.",
+    faq: [
+      {
+        q: "What is a good age to take children to Morocco?",
+        a: "Four and up handles a desert or mountain trip comfortably. Under four is entirely doable but changes what you should book — shorter drives, a base you return to, and no long transfer days. From about seven a child can join essentially everything we run, including the camel legs and a full trekking day.",
+      },
+      {
+        q: "Are car seats available in Morocco?",
+        a: "Morocco does not require them by law and hire cars rarely include one that fits well. If your child needs a seat, bring your own — it is the one piece of bulky luggage genuinely worth carrying. Tell us in advance and we will make sure the vehicle can fit it properly.",
+      },
+      {
+        q: "How long will a child sit in a 4x4?",
+        a: "Honestly? About two hours before it stops being fun. Our desert routes have driving days of five to seven hours, which is why the family versions break them differently — more stops, shorter legs, and a first night closer to Marrakech. A 3-day Sahara trip compressed into two days is where family holidays go wrong.",
+      },
+      {
+        q: "Is the food a problem for picky eaters?",
+        a: "Less than parents expect. Bread, plain couscous, chips, omelettes, oranges and yoghurt are available almost everywhere, and tagine without the spice is a normal request rather than a difficult one. Tell your guide on day one and it gets handled quietly at every stop.",
+      },
+      {
+        q: "Can young children ride the camels?",
+        a: "Yes, usually shared with a parent for the under-sixes, and the leg into camp is short and led at walking pace. Nobody has to ride. Walking the same stretch alongside is common, and on family departures we plan for it rather than treating it as an exception.",
+      },
+      {
+        q: "Is Morocco safe for children?",
+        a: "Yes, and Moroccan public life is unusually welcoming to children — they will be talked to, offered things and generally fussed over. The real hazards are mundane: sun, dehydration, traffic in medina streets and upset stomachs. Bottled water, hats, and holding hands in crowds covers most of it.",
+      },
+    ],
+    content: `
+## The short version
+
+Morocco is one of the easier long-haul destinations to bring children to. It is close
+to Europe, the food is plain enough at its base to feed a fussy six-year-old, and
+Moroccan adults treat children as public property in the warmest possible sense.
+
+What goes wrong is almost never the country. It is the itinerary — specifically, adults
+booking the trip they would take alone and hoping the children keep up.
+
+## What age actually travels well
+
+**Under four.** Entirely possible, but book differently: a base you return to each
+night, drives under two hours, and no desert overnight. Marrakech plus day trips to the
+[Ourika Valley](/en/tours/ourika-valley-day-hike) and
+[Ouzoud](/en/tours/ouzoud-waterfalls-day-trip) is a genuinely good week at this age.
+
+**Four to six.** The sweet spot for a first Morocco trip. Long enough attention span for
+a desert night, short enough legs that you want the family-paced version. Camel rides
+are shared with a parent.
+
+**Seven to eleven.** Can do essentially everything we run. Full trekking days, a proper
+Sahara overnight, the camel leg on their own animal. This is the age where children
+remember the trip in detail years later.
+
+**Teenagers.** The constraint stops being stamina and becomes interest. Give them
+something with a challenge in it — a summit, a longer trek, sandboarding — rather than
+a scenic drive.
+
+## The driving is the real variable
+
+This is the thing most family guides underplay. Morocco's distances are large and its
+mountain roads are slow.
+
+| Route | Driving time |
+| --- | --- |
+| Marrakech → Ourika Valley | 1 hour |
+| Marrakech → Imlil (Atlas trailhead) | 1.5 hours |
+| Marrakech → Ouzoud falls | 2.5 hours |
+| Marrakech → Aït Ben Haddou | 3.5 hours |
+| Marrakech → Merzouga (Sahara) | 9–10 hours, split over two days |
+
+A child is good for roughly two hours in a vehicle before the trip stops being enjoyable
+for anyone. That is not a discipline problem, it is arithmetic, and it is why our
+[4-day family desert tour](/en/tours/family-desert-4day-marrakech) exists as a separate
+product rather than a note on the standard one. It splits the same route over more days,
+stops more often, and does not ask a seven-year-old to sit through a nine-hour day.
+
+**If you take one thing from this page:** do not compress the Sahara into a 3-day trip
+with young children. The dunes are worth it; the drive to reach them in three days is
+not.
+
+## Car seats, plainly
+
+Morocco has no legal requirement for child car seats and most vehicles here will not
+have one that fits your child properly.
+
+If your child needs a seat, **bring it from home.** It is bulky and annoying to fly with
+and it is still the right call. Tell us the age and seat type when you book and we will
+confirm the vehicle can anchor it properly rather than promising vaguely.
+
+For older children, a booster is easier to source and easier to travel with. For babies
+and toddlers there is no good improvised answer, which is worth knowing before you plan
+a driving-heavy itinerary.
+
+## Food, and the picky-eater question
+
+Parents worry about this more than it deserves.
+
+The base of Moroccan cooking is bread, rice, couscous, potatoes, eggs, chicken and
+oranges. Every one of those is available in every place we stop, and "tagine but plain,
+for the children" is an ordinary request that guesthouse kitchens field constantly.
+
+Practical notes from actual trips:
+
+- **Bottled water only**, including for teeth. This is the single highest-value habit.
+- **Fruit you peel** is the safest snack — oranges and bananas are everywhere.
+- **Mint tea is very sweet.** Most children love it; it will also keep them awake.
+- **Bring the snacks they already like** for the drives. Familiar food on a long
+  transfer day is worth more than any local delicacy.
+- **Tell the guide on day one** about allergies or refusals. It gets handled at every
+  subsequent stop without you having to negotiate each meal.
+
+## What children actually enjoy
+
+After a lot of family departures, the pattern is consistent — and it is not what the
+brochures emphasise.
+
+**Reliable hits:** sandboarding down a dune, the camp fire and drumming, mules on the
+trek, kittens and goats in the villages, sleeping in a tent, the sheer novelty of a
+donkey in a street.
+
+**Reliable misses:** long kasbah tours, carpet cooperatives, anything requiring quiet
+appreciation of architecture, the fourth hour of any drive.
+
+We build family departures around the first list. An adult itinerary spends its time on
+the second.
+
+## Which of our trips work with children
+
+**[4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — the Sahara at a
+pace that works. Rated easy, built for 2–12 people, and the driving is split so no day
+is punishing. Around €398 per person for a family of four.
+
+**[4-day family Atlas trek](/en/tours/family-atlas-4day-trek)** — village-to-village
+walking with mules carrying the bags. Short days, real Berber villages, and nothing
+technical. About €257 per person at four.
+
+**[Ourika Valley day hike](/en/tours/ourika-valley-day-hike)** — an hour from Marrakech,
+water to paddle in, and back for dinner. Roughly €31 each for a family of four.
+
+**[Ouzoud waterfalls](/en/tours/ouzoud-waterfalls-day-trip)** — wild macaques and a big
+waterfall. Universally popular with children; about €27 each at four.
+
+**[Agafay sunset with dinner](/en/tours/agafay-desert-sunset)** — an hour from the city,
+a taste of desert scenery, home the same night. Good for families who want the feeling
+without the drive.
+
+What we would not recommend under about twelve: the Toubkal summit routes. That is an
+altitude decision rather than a fitness one — see our [altitude
+guide](/en/blog/altitude-sickness-toubkal-guide) for why.
+
+## Practical things worth knowing
+
+- **Sun is the main hazard.** Hats, high-factor cream, and staying in the shade between
+  noon and three. Desert sun in April is stronger than most European summers.
+- **Nappies and formula** are available in Marrakech supermarkets but not reliably in
+  small mountain villages. Stock up before you leave the city.
+- **Medina streets have motorbikes.** Hold hands. It is the one place where Morocco's
+  child-friendliness does not extend to the traffic.
+- **Guesthouses often have flat roofs and open stairwells.** Worth a look round when you
+  arrive with a toddler.
+- **Public toilets are unreliable outside cities.** Carry tissue and hand gel; use the
+  facilities at every restaurant stop whether or not anyone claims to need them.
+- **Spring and autumn** are far easier than July and August, when the desert is
+  genuinely too hot for small children in the middle of the day.
+
+## The honest summary
+
+Morocco with children works, and works well, if the itinerary is built around what a
+child can actually do rather than what an adult wants to see. That mostly means less
+driving, more stopping, and choosing the version of a trip that takes an extra day.
+
+The Sahara with a seven-year-old is a genuinely great holiday. The same Sahara squeezed
+into a schedule designed for adults is a long argument in a vehicle.
+
+👉 **[See our family departures](/en/tours?category=trekking)** — the family desert and
+Atlas trips are paced for children, and we are happy to say plainly when a trip is not
+right for the age you are bringing.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

@@ -4890,4 +4890,216 @@ incluye una jornada de aclimatación dedicada, y cada salida la dirige un guía 
 local titulado.
 `,
   },
+  {
+    slug: "morocco-with-kids-family-guide",
+    localizedSlug: "marruecos-con-ninos-guia-familiar",
+    relatedTours: [
+      "family-desert-4day-marrakech",
+      "family-atlas-4day-trek",
+      "ourika-valley-day-hike",
+      "ouzoud-waterfalls-day-trip",
+    ],
+    author: MET_TEAM,
+    title: "Marruecos con niños: la guía honesta de los guías que los llevan",
+    excerpt:
+      "A qué edad se viaja bien, cuánto aguanta de verdad un niño en un 4x4, qué pasa con las sillitas de coche, y cuáles de nuestros circuitos funcionan con un niño de cinco años. Escrito desde las salidas que realmente organizamos.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 11,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "Marruecos con niños",
+      "viaje familiar Marruecos",
+      "circuito familiar Marruecos",
+      "desierto con niños",
+      "trekking Atlas en familia",
+    ],
+    seoTitle: "Marruecos con niños — guía familiar honesta (2026)",
+    seoDescription:
+      "A qué edad viajar a Marruecos, sillitas de coche, comida y cuánto aguantan los niños en un 4x4. Consejos prácticos de guías que llevan salidas familiares en el Atlas y el Sáhara.",
+    faq: [
+      {
+        q: "¿A qué edad conviene llevar niños a Marruecos?",
+        a: "A partir de cuatro años un circuito de desierto o montaña se lleva bien. Por debajo es perfectamente posible, pero cambia lo que hay que reservar: trayectos cortos, una base a la que volver y ninguna jornada larga de traslado. Sobre los siete, un niño puede participar en casi todo lo que hacemos, incluidas las etapas en camello y una jornada completa de marcha.",
+      },
+      {
+        q: "¿Hay sillitas de coche en Marruecos?",
+        a: "La ley marroquí no las exige y los vehículos de alquiler rara vez llevan una que encaje bien. Si tu hijo la necesita, trae la tuya: es el único bulto voluminoso que de verdad merece la pena. Avísanos al reservar y confirmaremos que el vehículo permite anclarla correctamente.",
+      },
+      {
+        q: "¿Cuánto aguanta un niño en un 4x4?",
+        a: "Con sinceridad, unas dos horas antes de que deje de ser divertido. Nuestras rutas al desierto tienen jornadas de cinco a siete horas de carretera, y por eso las versiones familiares se construyen de otra manera: más paradas, etapas más cortas y una primera noche más cerca de Marrakech. Comprimir un circuito de 3 días al Sáhara en dos es donde se tuercen las vacaciones.",
+      },
+      {
+        q: "¿La comida es un problema para niños quisquillosos?",
+        a: "Menos de lo que temen los padres. Pan, cuscús sin más, patatas fritas, tortillas, naranjas y yogures hay en todas partes, y « un tagine sin especias para los niños » es una petición normal. Díselo al guía el primer día y se resuelve discretamente en cada parada.",
+      },
+      {
+        q: "¿Pueden montar en camello los niños pequeños?",
+        a: "Sí, normalmente compartiendo con un adulto los menores de seis años, y la etapa hasta el campamento es corta y al paso. Nadie está obligado a montar: caminar ese tramo al lado es habitual, y en las salidas familiares lo planificamos en lugar de tratarlo como una excepción.",
+      },
+      {
+        q: "¿Es Marruecos seguro para los niños?",
+        a: "Sí, y la vida pública marroquí es especialmente acogedora con ellos: les hablarán, les ofrecerán cosas y los cuidarán. Los riesgos reales son mundanos: sol, deshidratación, tráfico en las callejuelas de la medina y estómagos revueltos. Agua embotellada, gorras y ir de la mano entre la gente cubren casi todo.",
+      },
+    ],
+    content: `
+## La versión corta
+
+Marruecos es uno de los destinos lejanos más fáciles a los que llevar niños. Está cerca
+de Europa, la cocina es lo bastante sencilla en su base como para alimentar a un niño
+quisquilloso de seis años, y los adultos marroquíes tratan a los niños como asunto de
+todos, en el sentido más cálido posible.
+
+Lo que sale mal casi nunca es el país. Es el itinerario: adultos que reservan el viaje
+que harían solos y esperan que los niños sigan el ritmo.
+
+## Qué edad viaja bien
+
+**Menos de cuatro años.** Perfectamente posible, pero se reserva distinto: una base a la
+que volver cada noche, trayectos de menos de dos horas y ninguna noche en el desierto.
+Marrakech más excursiones al [valle del Ourika](/es/tours/senderismo-valle-ourika) y a
+[Ouzoud](/es/tours/excursion-cascadas-ouzoud) es una semana estupenda a esta edad.
+
+**Cuatro a seis años.** La edad ideal para un primer viaje. Suficiente atención para una
+noche en el desierto, y piernas lo bastante cortas como para querer la versión al ritmo
+familiar. El camello se comparte con un adulto.
+
+**Siete a once años.** Puede hacer prácticamente todo lo que ofrecemos: jornadas
+completas de marcha, una noche de verdad en el Sáhara, su propio camello. Es la edad en
+que los niños recuerdan el viaje con detalle años después.
+
+**Adolescentes.** La limitación deja de ser el aguante y pasa a ser el interés. Dales
+algo con reto — una cumbre, un trek más largo, sandboard — antes que una carretera
+panorámica.
+
+## La carretera es la variable real
+
+Es lo que casi todas las guías familiares minimizan. Las distancias marroquíes son
+grandes y las carreteras de montaña, lentas.
+
+| Trayecto | Duración |
+| --- | --- |
+| Marrakech → valle del Ourika | 1 hora |
+| Marrakech → Imlil (inicio del Atlas) | 1 h 30 |
+| Marrakech → cascadas de Ouzoud | 2 h 30 |
+| Marrakech → Aït Ben Haddou | 3 h 30 |
+| Marrakech → Merzouga (Sáhara) | 9–10 h, repartidas en dos días |
+
+Un niño aguanta unas dos horas en el coche antes de que el viaje deje de ser agradable
+para todos. No es un problema de disciplina, es aritmética, y por eso nuestro [tour al
+desierto en familia de 4 días](/es/tours/tour-desierto-familia-4-dias) existe como
+producto aparte y no como una nota al pie. Reparte la misma ruta en más días, para más a
+menudo y no obliga a un niño de siete años a soportar nueve horas de coche.
+
+**Si te quedas con una sola idea:** no comprimas el Sáhara en tres días con niños
+pequeños. Las dunas lo valen; la carretera para llegar en tres días, no.
+
+## Las sillitas, sin rodeos
+
+Marruecos no exige por ley sillas infantiles y la mayoría de vehículos no tendrá una que
+encaje bien con tu hijo.
+
+Si la necesita, **tráela de casa.** Es voluminosa y molesta de facturar, y aun así es lo
+correcto. Indícanos la edad y el tipo de silla al reservar y confirmaremos que el
+vehículo permite fijarla bien, en lugar de prometerlo de forma vaga.
+
+Para niños mayores, un elevador es más fácil de conseguir y de transportar. Para bebés no
+hay una buena solución improvisada, algo que conviene saber antes de planear un itinerario
+con mucha carretera.
+
+## La comida y el niño quisquilloso
+
+Los padres se preocupan por esto más de lo que merece.
+
+La base de la cocina marroquí es pan, arroz, cuscús, patatas, huevos, pollo y naranjas.
+Todo eso existe en cada sitio donde paramos, y « tagine pero sin especias, para los
+niños » es una petición corriente en las cocinas de las casas de huéspedes.
+
+Notas de salidas reales:
+
+- **Solo agua embotellada**, también para lavarse los dientes. Es el hábito más rentable.
+- **Fruta que se pela** es el mejor tentempié: naranjas y plátanos hay en todas partes.
+- **El té con menta lleva mucho azúcar.** A casi todos los niños les encanta; también los
+  mantendrá despiertos.
+- **Lleva los snacks que ya les gustan** para la carretera. Comida familiar en un día de
+  traslado largo vale más que cualquier delicia local.
+- **Díselo al guía el primer día** si hay alergias o rechazos. A partir de ahí se
+  gestiona en cada parada sin que tengas que negociar cada comida.
+
+## Qué disfrutan de verdad los niños
+
+Tras muchas salidas familiares, el patrón se repite, y no es lo que destacan los
+folletos.
+
+**Éxitos seguros:** bajar una duna en sandboard, la hoguera y los tambores, las mulas del
+trek, gatitos y cabras en los pueblos, dormir en una jaima, la simple novedad de un burro
+por la calle.
+
+**Fracasos seguros:** las visitas largas a kasbahs, las cooperativas de alfombras,
+cualquier cosa que exija contemplar arquitectura en silencio, la cuarta hora de cualquier
+trayecto.
+
+Construimos las salidas familiares alrededor de la primera lista. Un itinerario de
+adultos se pasa el tiempo en la segunda.
+
+## Cuáles de nuestros circuitos funcionan con niños
+
+**[Tour desierto en familia 4 días](/es/tours/tour-desierto-familia-4-dias)** — el Sáhara
+a un ritmo llevadero. Clasificado como fácil, pensado para 2–12 personas, con la
+carretera repartida para que ningún día sea castigo. Unos 398 € por persona en una
+familia de cuatro.
+
+**[Trek Atlas en familia 4 días](/es/tours/trek-atlas-familia-4-dias)** — de pueblo en
+pueblo con mulas cargando el equipaje. Jornadas cortas, pueblos bereberes de verdad, nada
+técnico. Unos 257 € por persona a cuatro.
+
+**[Senderismo en el valle del Ourika](/es/tours/senderismo-valle-ourika)** — a una hora
+de Marrakech, agua donde chapotear y de vuelta para cenar. Unos 31 € por persona en una
+familia de cuatro.
+
+**[Cascadas de Ouzoud](/es/tours/excursion-cascadas-ouzoud)** — macacos en libertad y una
+gran cascada. Un éxito universal con niños; unos 27 € por persona a cuatro.
+
+**[Atardecer en Agafay con cena](/es/tours/atardecer-desierto-agafay)** — a una hora de la
+ciudad, un anticipo de paisaje desértico y de vuelta esa misma noche. Ideal para familias
+que quieren la sensación sin la carretera.
+
+Lo que no recomendamos por debajo de unos doce años: las rutas a la cumbre del Toubkal. Es
+una decisión de altitud, no de forma física — mira nuestra [guía sobre el mal de
+altura](/es/blog/mal-de-altura-toubkal).
+
+## Cosas prácticas que conviene saber
+
+- **El sol es el peligro principal.** Gorras, crema de factor alto y sombra entre las 12 y
+  las 15. El sol del desierto en abril es más fuerte que la mayoría de veranos europeos.
+- **Pañales y leche de fórmula** se encuentran en los supermercados de Marrakech, pero no
+  de forma fiable en pueblos de montaña. Abastécete antes de salir de la ciudad.
+- **Por las medinas circulan motos.** Ir de la mano: es el único sitio donde la amabilidad
+  marroquí no alcanza al tráfico.
+- **Las casas de huéspedes suelen tener azoteas y escaleras abiertas.** Merece una vuelta
+  de reconocimiento al llegar con un niño pequeño.
+- **Los baños públicos son poco fiables fuera de las ciudades.** Lleva pañuelos y gel, y
+  aprovecha los de cada parada aunque nadie diga necesitarlo.
+- **Primavera y otoño** son mucho más fáciles que julio y agosto, cuando el desierto es
+  realmente demasiado caluroso para niños pequeños a mediodía.
+
+## El resumen honesto
+
+Marruecos en familia funciona, y funciona bien, si el itinerario se construye en torno a
+lo que un niño puede hacer de verdad y no a lo que un adulto quiere ver. Eso significa
+sobre todo menos carretera, más paradas y elegir la versión del viaje que ocupa un día
+más.
+
+El Sáhara con un niño de siete años son unas vacaciones estupendas. El mismo Sáhara
+comprimido en un programa diseñado para adultos es una discusión larga dentro de un
+coche.
+
+👉 **[Ver nuestras salidas familiares](/es/tours?category=trekking)** — los circuitos de
+desierto y Atlas en familia están calibrados para niños, y decimos claramente cuándo un
+viaje no encaja con la edad que traes.
+`,
+  },
 ];

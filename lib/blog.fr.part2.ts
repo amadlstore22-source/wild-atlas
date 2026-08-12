@@ -4943,4 +4943,221 @@ journée d'acclimatation dédiée, et chaque départ est encadré par un guide d
 local diplômé.
 `,
   },
+  {
+    slug: "morocco-with-kids-family-guide",
+    localizedSlug: "maroc-en-famille-avec-enfants",
+    relatedTours: [
+      "family-desert-4day-marrakech",
+      "family-atlas-4day-trek",
+      "ourika-valley-day-hike",
+      "ouzoud-waterfalls-day-trip",
+    ],
+    author: MET_TEAM,
+    title: "Le Maroc en famille : le guide honnête des guides qui emmènent les enfants",
+    excerpt:
+      "À quel âge voyager, combien de temps un enfant tient vraiment en 4x4, ce qu'il en est des sièges auto, et lesquels de nos circuits fonctionnent avec un enfant de cinq ans. Écrit à partir des départs que nous organisons réellement.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 11,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "Maroc en famille",
+      "voyage famille Maroc",
+      "circuit famille Maroc",
+      "désert avec enfants",
+      "trek Atlas en famille",
+    ],
+    seoTitle: "Le Maroc en famille — guide honnête avec enfants (2026)",
+    seoDescription:
+      "À quel âge voyager au Maroc, sièges auto, repas, et combien de temps les enfants tiennent en 4x4. Conseils pratiques de guides qui mènent des départs familles dans l'Atlas et au Sahara.",
+    faq: [
+      {
+        q: "À quel âge emmener des enfants au Maroc ?",
+        a: "À partir de quatre ans, un circuit désert ou montagne se passe bien. En dessous, c'est tout à fait faisable mais cela change ce qu'il faut réserver : trajets courts, un point de chute où l'on revient, et pas de longue journée de transfert. Vers sept ans, un enfant peut participer à presque tout ce que nous proposons, y compris les étapes à dos de chameau et une journée complète de marche.",
+      },
+      {
+        q: "Trouve-t-on des sièges auto au Maroc ?",
+        a: "La loi marocaine ne les impose pas et les véhicules de location en proposent rarement un vraiment adapté. Si votre enfant en a besoin, apportez le vôtre — c'est le seul bagage encombrant qui vaut vraiment la peine. Prévenez-nous à la réservation et nous vérifierons que le véhicule permet de bien le fixer.",
+      },
+      {
+        q: "Combien de temps un enfant tient-il en 4x4 ?",
+        a: "Honnêtement, environ deux heures avant que cela cesse d'être agréable. Nos itinéraires désert comportent des journées de cinq à sept heures de route, d'où les versions familles construites autrement : plus d'arrêts, des étapes plus courtes, et une première nuit plus proche de Marrakech. Comprimer un circuit de 3 jours au Sahara en deux jours, c'est là que les vacances déraillent.",
+      },
+      {
+        q: "La nourriture pose-t-elle problème aux enfants difficiles ?",
+        a: "Moins que les parents ne le craignent. Pain, couscous nature, frites, omelettes, oranges et yaourts se trouvent partout, et « un tagine sans épices pour les enfants » est une demande banale. Dites-le au guide le premier jour et cela se règle discrètement à chaque étape.",
+      },
+      {
+        q: "Les jeunes enfants peuvent-ils monter à dos de chameau ?",
+        a: "Oui, en général avec un parent pour les moins de six ans, et l'étape vers le campement est courte et menée au pas. Personne n'est obligé de monter : marcher à côté est courant, et sur les départs familles nous le prévoyons plutôt que de le traiter comme une exception.",
+      },
+      {
+        q: "Le Maroc est-il sûr pour les enfants ?",
+        a: "Oui, et la vie publique marocaine est particulièrement accueillante avec les enfants — on leur parlera, on leur offrira des choses, on s'occupera d'eux. Les vrais risques sont ordinaires : soleil, déshydratation, circulation dans les ruelles et estomacs dérangés. Eau en bouteille, chapeaux et main tenue dans la foule couvrent l'essentiel.",
+      },
+    ],
+    content: `
+## En résumé
+
+Le Maroc est l'une des destinations lointaines les plus faciles avec des enfants. Il est
+proche de l'Europe, la cuisine reste assez simple à la base pour nourrir un enfant
+difficile de six ans, et les adultes marocains considèrent les enfants comme une affaire
+collective, au sens le plus chaleureux du terme.
+
+Ce qui coince n'est presque jamais le pays. C'est l'itinéraire — précisément, des
+adultes qui réservent le voyage qu'ils feraient seuls en espérant que les enfants
+suivent.
+
+## Quel âge voyage bien
+
+**Moins de quatre ans.** Tout à fait possible, mais à organiser autrement : un point de
+chute où l'on revient chaque soir, des trajets de moins de deux heures, pas de nuit dans
+le désert. Marrakech plus des excursions à la [vallée de
+l'Ourika](/fr/tours/randonnee-vallee-ourika-journee) et à
+[Ouzoud](/fr/tours/excursion-cascades-ouzoud) fait une très bonne semaine à cet âge.
+
+**Quatre à six ans.** L'âge idéal pour un premier voyage au Maroc. Assez d'attention pour
+une nuit dans le désert, assez de petites jambes pour vouloir la version au rythme
+famille. Le chameau se partage avec un parent.
+
+**Sept à onze ans.** Peut faire presque tout ce que nous proposons : journées de marche
+complètes, vraie nuit au Sahara, son propre chameau. C'est l'âge où les enfants se
+souviennent du voyage en détail des années après.
+
+**Adolescents.** La contrainte n'est plus l'endurance mais l'intérêt. Donnez-leur un défi
+— un sommet, un trek plus long, du sandboard — plutôt qu'une route panoramique.
+
+## La route est la vraie variable
+
+C'est le point que la plupart des guides familles minimisent. Les distances marocaines
+sont grandes et les routes de montagne lentes.
+
+| Trajet | Durée |
+| --- | --- |
+| Marrakech → vallée de l'Ourika | 1 heure |
+| Marrakech → Imlil (départ Atlas) | 1 h 30 |
+| Marrakech → cascades d'Ouzoud | 2 h 30 |
+| Marrakech → Aït Ben Haddou | 3 h 30 |
+| Marrakech → Merzouga (Sahara) | 9–10 h, réparties sur deux jours |
+
+Un enfant tient environ deux heures en voiture avant que le voyage cesse d'être agréable
+pour tout le monde. Ce n'est pas une question de discipline, c'est de l'arithmétique, et
+c'est pourquoi notre [circuit désert famille de 4
+jours](/fr/tours/circuit-desert-famille-4-jours) existe comme produit distinct et non
+comme une note en bas de page. Il répartit le même trajet sur plus de jours, s'arrête
+plus souvent, et ne demande pas à un enfant de sept ans de subir neuf heures de route.
+
+**Si vous ne retenez qu'une chose :** ne comprimez pas le Sahara en trois jours avec de
+jeunes enfants. Les dunes le valent ; la route pour les atteindre en trois jours, non.
+
+## Les sièges auto, clairement
+
+Le Maroc n'impose pas légalement les sièges enfants et la plupart des véhicules n'en
+auront pas un réellement adapté à votre enfant.
+
+Si votre enfant en a besoin, **apportez-le depuis chez vous.** C'est encombrant et
+pénible à prendre en avion, et c'est quand même le bon choix. Indiquez l'âge et le type
+de siège à la réservation : nous confirmerons que le véhicule permet de le fixer
+correctement, plutôt que de le promettre vaguement.
+
+Pour les plus grands, un rehausseur est plus facile à trouver et à transporter. Pour les
+bébés et tout-petits, il n'existe pas de bonne solution improvisée — à savoir avant de
+prévoir un itinéraire chargé en route.
+
+## Les repas et les enfants difficiles
+
+Les parents s'en inquiètent plus que nécessaire.
+
+La base de la cuisine marocaine, c'est pain, riz, couscous, pommes de terre, œufs, poulet
+et oranges. Tout cela existe partout où nous nous arrêtons, et « un tagine nature pour
+les enfants » est une demande ordinaire pour les cuisines des maisons d'hôtes.
+
+Notes tirées de vrais départs :
+
+- **Eau en bouteille uniquement**, y compris pour les dents. C'est l'habitude la plus
+  rentable.
+- **Les fruits à éplucher** sont l'encas le plus sûr — oranges et bananes partout.
+- **Le thé à la menthe est très sucré.** La plupart des enfants adorent ; il les tiendra
+  aussi éveillés.
+- **Emportez les encas qu'ils aiment déjà** pour la route. Un aliment familier lors d'un
+  long transfert vaut mieux que n'importe quelle spécialité.
+- **Prévenez le guide le premier jour** en cas d'allergie ou de refus. Cela se gère
+  ensuite à chaque étape sans que vous ayez à renégocier chaque repas.
+
+## Ce que les enfants aiment vraiment
+
+Après beaucoup de départs familles, le constat est constant — et ce n'est pas ce que les
+brochures mettent en avant.
+
+**Succès garantis :** descendre une dune en sandboard, le feu de camp et les tambours,
+les mules du trek, les chatons et les chèvres dans les villages, dormir sous la tente,
+la simple nouveauté d'un âne dans une rue.
+
+**Échecs garantis :** les longues visites de kasbahs, les coopératives de tapis, tout ce
+qui demande une contemplation silencieuse de l'architecture, la quatrième heure de
+n'importe quel trajet.
+
+Nous construisons les départs familles autour de la première liste. Un itinéraire adulte
+passe son temps sur la seconde.
+
+## Lesquels de nos circuits marchent avec des enfants
+
+**[Circuit désert famille 4 jours](/fr/tours/circuit-desert-famille-4-jours)** — le
+Sahara à un rythme tenable. Classé facile, prévu pour 2 à 12 personnes, avec une route
+répartie pour qu'aucune journée ne soit punitive. Environ 398 € par personne pour une
+famille de quatre.
+
+**[Trek Atlas famille 4 jours](/fr/tours/trek-atlas-famille-4-jours)** — de village en
+village, les mules portant les sacs. Journées courtes, vrais villages berbères, rien de
+technique. Environ 257 € par personne à quatre.
+
+**[Randonnée vallée de l'Ourika](/fr/tours/randonnee-vallee-ourika-journee)** — à une
+heure de Marrakech, de l'eau où patauger, et retour pour le dîner. Environ 31 € par
+personne pour une famille de quatre.
+
+**[Cascades d'Ouzoud](/fr/tours/excursion-cascades-ouzoud)** — des macaques en liberté et
+une grande cascade. Plébiscité par les enfants ; environ 27 € par personne à quatre.
+
+**[Coucher de soleil à Agafay avec dîner](/fr/tours/coucher-soleil-desert-agafay)** — à
+une heure de la ville, un avant-goût de paysage désertique, retour le soir même. Idéal
+pour les familles qui veulent la sensation sans la route.
+
+Ce que nous déconseillons avant douze ans environ : les itinéraires au sommet du Toubkal.
+C'est une question d'altitude et non de forme physique — voir notre [guide sur le mal des
+montagnes](/fr/blog/mal-aigu-des-montagnes-toubkal).
+
+## À savoir en pratique
+
+- **Le soleil est le principal danger.** Chapeaux, crème indice élevé, et ombre entre
+  midi et 15 h. Le soleil du désert en avril est plus fort que la plupart des étés
+  européens.
+- **Couches et lait infantile** se trouvent dans les supermarchés de Marrakech, mais pas
+  de façon fiable dans les villages de montagne. Faites le plein avant de quitter la
+  ville.
+- **Des motos circulent dans les médinas.** Tenez la main des enfants : c'est le seul
+  endroit où la bienveillance marocaine ne s'étend pas à la circulation.
+- **Les maisons d'hôtes ont souvent des toits-terrasses et des escaliers ouverts.** Un
+  tour d'inspection à l'arrivée s'impose avec un tout-petit.
+- **Les toilettes publiques sont aléatoires hors des villes.** Emportez mouchoirs et gel,
+  et faites-en utiliser à chaque arrêt restaurant, que quelqu'un le réclame ou non.
+- **Le printemps et l'automne** sont bien plus faciles que juillet-août, où le désert est
+  réellement trop chaud pour de jeunes enfants en milieu de journée.
+
+## Le résumé honnête
+
+Le Maroc en famille fonctionne, et bien, à condition de construire l'itinéraire autour de
+ce qu'un enfant peut réellement faire plutôt que de ce qu'un adulte veut voir. Cela
+signifie surtout moins de route, plus d'arrêts, et choisir la version d'un circuit qui
+prend un jour de plus.
+
+Le Sahara avec un enfant de sept ans est de vraies belles vacances. Le même Sahara
+comprimé dans un programme conçu pour adultes est une longue dispute en voiture.
+
+👉 **[Voir nos départs familles](/fr/tours?category=trekking)** — les circuits désert et
+Atlas famille sont calibrés pour les enfants, et nous disons franchement quand un voyage
+ne convient pas à l'âge que vous emmenez.
+`,
+  },
 ];

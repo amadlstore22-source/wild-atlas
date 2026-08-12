@@ -11,6 +11,7 @@ import { NextRequest, NextResponse } from "next/server";
  * only real benefit of localising the slug in the first place. */
 const BLOG_SLUGS_FR: Record<string, string> = {
   "altitude-sickness-toubkal-guide": "mal-aigu-des-montagnes-toubkal",
+  "morocco-with-kids-family-guide": "maroc-en-famille-avec-enfants",
   "morocco-camel-trek-sahara-guide": "trek-dromadaire-sahara-maroc",
   "toubkal-2-day-trek-cost": "prix-trek-toubkal-2-jours",
   "toubkal-4-day-trek-cost": "prix-trek-toubkal-4-jours",
@@ -32,6 +33,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
 
 const BLOG_SLUGS_ES: Record<string, string> = {
   "altitude-sickness-toubkal-guide": "mal-de-altura-toubkal",
+  "morocco-with-kids-family-guide": "marruecos-con-ninos-guia-familiar",
   "morocco-camel-trek-sahara-guide": "trekking-camello-sahara-marruecos",
   "toubkal-2-day-trek-cost": "precio-trek-toubkal-2-dias",
   "toubkal-4-day-trek-cost": "precio-trek-toubkal-4-dias",
@@ -53,6 +55,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
 
 const BLOG_SLUGS_DE: Record<string, string> = {
   "altitude-sickness-toubkal-guide": "hoehenkrankheit-toubkal",
+  "morocco-with-kids-family-guide": "marokko-mit-kindern-familienreise",
   "morocco-camel-trek-sahara-guide": "kameltrekking-sahara-marokko",
   "toubkal-2-day-trek-cost": "toubkal-trek-2-tage-kosten",
   "toubkal-4-day-trek-cost": "toubkal-trek-4-tage-kosten",
@@ -74,6 +77,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
 
 const BLOG_SLUGS_IT: Record<string, string> = {
   "altitude-sickness-toubkal-guide": "mal-di-montagna-toubkal",
+  "morocco-with-kids-family-guide": "marocco-con-bambini-guida-famiglie",
   "morocco-camel-trek-sahara-guide": "trekking-cammello-sahara-marocco",
   "toubkal-2-day-trek-cost": "prezzo-trek-toubkal-2-giorni",
   "toubkal-4-day-trek-cost": "prezzo-trek-toubkal-4-giorni",

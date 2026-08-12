@@ -4898,4 +4898,217 @@ comprende una giornata di acclimatamento dedicata, e ogni partenza è condotta d
 guida alpina locale abilitata.
 `,
   },
+  {
+    slug: "morocco-with-kids-family-guide",
+    localizedSlug: "marocco-con-bambini-guida-famiglie",
+    relatedTours: [
+      "family-desert-4day-marrakech",
+      "family-atlas-4day-trek",
+      "ourika-valley-day-hike",
+      "ouzoud-waterfalls-day-trip",
+    ],
+    author: MET_TEAM,
+    title: "Marocco con i bambini: la guida onesta delle guide che li accompagnano",
+    excerpt:
+      "A che età si viaggia bene, quanto regge davvero un bambino in 4x4, come funziona con i seggiolini, e quali dei nostri viaggi vanno bene con un bambino di cinque anni. Scritto a partire dalle partenze che organizziamo davvero.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 11,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "Marocco con bambini",
+      "viaggio famiglia Marocco",
+      "tour famiglia Marocco",
+      "deserto con bambini",
+      "trek Atlante in famiglia",
+    ],
+    seoTitle: "Marocco con i bambini — guida onesta per famiglie (2026)",
+    seoDescription:
+      "A che età viaggiare in Marocco, seggiolini auto, cibo e quanto reggono i bambini in 4x4. Consigli pratici dalle guide che accompagnano famiglie nell'Atlante e nel Sahara.",
+    faq: [
+      {
+        q: "A che età portare i bambini in Marocco?",
+        a: "Dai quattro anni un viaggio nel deserto o in montagna funziona bene. Sotto è del tutto fattibile, ma cambia cosa prenotare: tragitti brevi, una base a cui tornare e nessuna giornata lunga di trasferimento. Verso i sette anni un bambino può partecipare a quasi tutto quello che proponiamo, comprese le tappe in cammello e una giornata piena di cammino.",
+      },
+      {
+        q: "Si trovano seggiolini auto in Marocco?",
+        a: "La legge marocchina non li impone e i veicoli a noleggio raramente ne hanno uno davvero adatto. Se vostro figlio ne ha bisogno, portate il vostro: è l'unico bagaglio ingombrante che vale davvero la pena. Ditecelo alla prenotazione e verificheremo che il veicolo permetta di fissarlo correttamente.",
+      },
+      {
+        q: "Quanto regge un bambino in 4x4?",
+        a: "Onestamente, circa due ore prima che smetta di essere divertente. I nostri itinerari nel deserto hanno giornate da cinque a sette ore di strada, ed è per questo che le versioni per famiglie sono costruite diversamente: più soste, tappe più brevi e una prima notte più vicina a Marrakech. Comprimere un tour di 3 giorni nel Sahara in due è il punto in cui le vacanze si rovinano.",
+      },
+      {
+        q: "Il cibo è un problema per i bambini schizzinosi?",
+        a: "Meno di quanto temano i genitori. Pane, couscous semplice, patatine, frittate, arance e yogurt ci sono ovunque, e « tagine ma senza spezie, per i bambini » è una richiesta del tutto normale. Ditelo alla guida il primo giorno e verrà gestito con discrezione a ogni sosta.",
+      },
+      {
+        q: "I bambini piccoli possono salire sui cammelli?",
+        a: "Sì, di solito insieme a un genitore per i sotto i sei anni, e la tappa verso il campo è breve e condotta al passo. Nessuno è obbligato a salire: percorrere quel tratto a piedi accanto è comune, e nelle partenze per famiglie lo mettiamo in conto anziché trattarlo come un'eccezione.",
+      },
+      {
+        q: "Il Marocco è sicuro per i bambini?",
+        a: "Sì, e la vita pubblica marocchina è particolarmente accogliente con loro: verranno interpellati, riceveranno piccoli doni e saranno coccolati. I rischi veri sono banali: sole, disidratazione, traffico nei vicoli della medina e mal di stomaco. Acqua in bottiglia, cappelli e tenersi per mano nella folla coprono quasi tutto.",
+      },
+    ],
+    content: `
+## In breve
+
+Il Marocco è una delle mete lontane più semplici in cui portare bambini. È vicino
+all'Europa, la cucina è abbastanza semplice alla base da sfamare un bambino schizzinoso di
+sei anni, e gli adulti marocchini considerano i bambini una faccenda di tutti, nel senso
+più caloroso possibile.
+
+Ciò che va storto non è quasi mai il paese. È l'itinerario: adulti che prenotano il
+viaggio che farebbero da soli sperando che i bambini stiano al passo.
+
+## Quale età viaggia bene
+
+**Sotto i quattro anni.** Del tutto possibile, ma da prenotare diversamente: una base a
+cui tornare ogni sera, tragitti sotto le due ore e nessuna notte nel deserto. Marrakech più
+escursioni alla [valle dell'Ourika](/it/tours/escursione-valle-ourika) e a
+[Ouzoud](/it/tours/gita-cascate-ouzoud) è una settimana davvero buona a questa età.
+
+**Da quattro a sei anni.** L'età ideale per un primo viaggio in Marocco. Attenzione
+sufficiente per una notte nel deserto, gambe abbastanza corte da volere la versione al
+ritmo delle famiglie. Il cammello si condivide con un genitore.
+
+**Da sette a undici anni.** Può fare praticamente tutto: giornate intere di cammino, una
+vera notte nel Sahara, il proprio cammello. È l'età in cui i bambini ricordano il viaggio
+nei dettagli anni dopo.
+
+**Adolescenti.** Il limite non è più la resistenza ma l'interesse. Dategli qualcosa con
+una sfida — una cima, un trek più lungo, il sandboard — piuttosto che una strada
+panoramica.
+
+## La strada è la vera variabile
+
+È il punto che quasi tutte le guide per famiglie minimizzano. Le distanze marocchine sono
+grandi e le strade di montagna lente.
+
+| Tratta | Durata |
+| --- | --- |
+| Marrakech → valle dell'Ourika | 1 ora |
+| Marrakech → Imlil (partenza Atlante) | 1 h 30 |
+| Marrakech → cascate di Ouzoud | 2 h 30 |
+| Marrakech → Aït Ben Haddou | 3 h 30 |
+| Marrakech → Merzouga (Sahara) | 9–10 h, divise in due giorni |
+
+Un bambino regge circa due ore in auto prima che il viaggio smetta di essere piacevole per
+tutti. Non è un problema di disciplina, è aritmetica, ed è il motivo per cui il nostro
+[tour nel deserto per famiglie di 4
+giorni](/it/tours/tour-deserto-famiglia-4-giorni) esiste come prodotto a sé e non come
+una nota a piè di pagina. Distribuisce lo stesso percorso su più giorni, si ferma più
+spesso e non chiede a un bambino di sette anni di sopportare nove ore di macchina.
+
+**Se dovete ricordare una cosa sola:** non comprimete il Sahara in tre giorni con bambini
+piccoli. Le dune ne valgono la pena; la strada per raggiungerle in tre giorni no.
+
+## I seggiolini, senza giri di parole
+
+Il Marocco non impone per legge i seggiolini e la maggior parte dei veicoli non ne avrà
+uno adatto a vostro figlio.
+
+Se ne ha bisogno, **portatelo da casa.** È ingombrante e fastidioso in aereo, e resta la
+scelta giusta. Indicateci età e tipo di seggiolino alla prenotazione: confermeremo che il
+veicolo permette di ancorarlo bene, invece di prometterlo vagamente.
+
+Per i bambini più grandi, un rialzo è più facile da trovare e trasportare. Per neonati e
+piccolissimi non esiste una buona soluzione improvvisata, cosa che conviene sapere prima
+di pianificare un itinerario molto stradale.
+
+## Il cibo e la questione dei bambini difficili
+
+I genitori se ne preoccupano più del necessario.
+
+La base della cucina marocchina è pane, riso, couscous, patate, uova, pollo e arance.
+Tutto questo c'è in ogni posto in cui ci fermiamo, e « tagine ma semplice, per i bambini »
+è una richiesta ordinaria per le cucine delle case di ospitalità.
+
+Note da partenze reali:
+
+- **Solo acqua in bottiglia**, anche per lavarsi i denti. È l'abitudine più redditizia.
+- **La frutta da sbucciare** è lo spuntino più sicuro: arance e banane ovunque.
+- **Il tè alla menta è molto zuccherato.** Quasi tutti i bambini lo adorano; li terrà
+  anche svegli.
+- **Portate gli snack che già amano** per la strada. Cibo familiare in una lunga giornata
+  di trasferimento vale più di qualsiasi specialità locale.
+- **Ditelo alla guida il primo giorno** in caso di allergie o rifiuti. Da lì in poi viene
+  gestito a ogni sosta senza dover rinegoziare ogni pasto.
+
+## Cosa piace davvero ai bambini
+
+Dopo molte partenze per famiglie, lo schema è costante — e non è ciò che i dépliant
+mettono in evidenza.
+
+**Successi garantiti:** scendere una duna con il sandboard, il fuoco da campo e i tamburi,
+i muli del trek, gattini e capre nei villaggi, dormire in tenda, la semplice novità di un
+asino per strada.
+
+**Fallimenti garantiti:** le lunghe visite alle kasbah, le cooperative di tappeti,
+qualsiasi cosa richieda contemplazione silenziosa dell'architettura, la quarta ora di
+qualunque tragitto.
+
+Costruiamo le partenze per famiglie attorno alla prima lista. Un itinerario per adulti
+passa il tempo sulla seconda.
+
+## Quali dei nostri viaggi funzionano con i bambini
+
+**[Tour deserto famiglia 4 giorni](/it/tours/tour-deserto-famiglia-4-giorni)** — il Sahara
+a un ritmo sostenibile. Classificato facile, pensato per 2–12 persone, con la strada
+distribuita perché nessuna giornata sia punitiva. Circa 398 € a persona per una famiglia
+di quattro.
+
+**[Trek Atlante famiglia 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni)** — di
+villaggio in villaggio, con i muli a portare i bagagli. Giornate brevi, veri villaggi
+berberi, nulla di tecnico. Circa 257 € a persona in quattro.
+
+**[Escursione nella valle dell'Ourika](/it/tours/escursione-valle-ourika)** — a un'ora da
+Marrakech, acqua in cui sguazzare e rientro per cena. Circa 31 € a persona per una
+famiglia di quattro.
+
+**[Cascate di Ouzoud](/it/tours/gita-cascate-ouzoud)** — macachi in libertà e una grande
+cascata. Un successo universale con i bambini; circa 27 € a persona in quattro.
+
+**[Tramonto ad Agafay con cena](/it/tours/tramonto-deserto-agafay)** — a un'ora dalla
+città, un assaggio di paesaggio desertico e rientro in serata. Ottimo per famiglie che
+vogliono la sensazione senza la strada.
+
+Cosa sconsigliamo sotto i dodici anni circa: gli itinerari alla cima del Toubkal. È una
+questione di quota, non di forma fisica — vedete la nostra [guida al mal di
+montagna](/it/blog/mal-di-montagna-toubkal).
+
+## Cose pratiche da sapere
+
+- **Il sole è il pericolo principale.** Cappelli, crema a fattore alto e ombra fra
+  mezzogiorno e le tre. Il sole del deserto ad aprile è più forte di quasi tutte le estati
+  europee.
+- **Pannolini e latte in formula** si trovano nei supermercati di Marrakech, ma non in
+  modo affidabile nei villaggi di montagna. Fate scorta prima di lasciare la città.
+- **Nelle medine circolano i motorini.** Tenete la mano ai bambini: è l'unico posto in cui
+  la gentilezza marocchina non si estende al traffico.
+- **Le case di ospitalità hanno spesso terrazze e scale aperte.** Con un bambino piccolo
+  vale un giro di ricognizione all'arrivo.
+- **I bagni pubblici sono inaffidabili fuori città.** Portate fazzoletti e gel, e fateli
+  usare a ogni sosta al ristorante, che qualcuno dichiari di averne bisogno o no.
+- **Primavera e autunno** sono molto più semplici di luglio e agosto, quando il deserto è
+  davvero troppo caldo per bambini piccoli a metà giornata.
+
+## Il riassunto onesto
+
+Il Marocco in famiglia funziona, e funziona bene, se l'itinerario è costruito attorno a
+ciò che un bambino può davvero fare invece che a ciò che un adulto vuole vedere. Vuol dire
+soprattutto meno strada, più soste e scegliere la versione del viaggio che dura un giorno
+in più.
+
+Il Sahara con un bambino di sette anni è una vacanza davvero bella. Lo stesso Sahara
+compresso in un programma pensato per adulti è una lunga discussione in macchina.
+
+👉 **[Vedi le nostre partenze per famiglie](/it/tours?category=trekking)** — i viaggi nel
+deserto e sull'Atlante per famiglie sono calibrati sui bambini, e diciamo chiaramente
+quando un viaggio non è adatto all'età che portate.
+`,
+  },
 ];

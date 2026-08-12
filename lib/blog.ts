@@ -7281,6 +7281,187 @@ Atlas trips are paced for children, and we are happy to say plainly when a trip 
 right for the age you are bringing.
 `,
   },
+  {
+    slug: "luxury-vs-standard-desert-camp-morocco",
+    relatedTours: [
+      "sahara-3day-marrakech",
+      "erg-chegaga-3day-marrakech",
+      "shared-merzouga-3day-marrakech",
+      "family-desert-4day-marrakech",
+    ],
+    author: MET_TEAM,
+    title: "Luxury vs Standard Desert Camps in Morocco: What You Actually Get",
+    excerpt:
+      "The difference is mostly one thing — whether the bathroom is inside your tent. Here is what each type really offers, what the upgrade costs, and when it is worth paying for and when it is not.",
+    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "luxury desert camp Morocco",
+      "standard desert camp",
+      "Merzouga camp",
+      "Erg Chebbi accommodation",
+      "Sahara camp comparison",
+    ],
+    seoTitle: "Luxury vs Standard Desert Camps Morocco — Honest Comparison",
+    seoDescription:
+      "What separates a luxury Sahara camp from a standard one, what the upgrade costs, and when the extra money is worth it. Written by an operator who books both.",
+    faq: [
+      {
+        q: "What is the real difference between a luxury and standard desert camp?",
+        a: "Mostly the bathroom. A luxury tent has its own en-suite with a flush toilet and a hot shower; a standard camp has shared facilities in a separate block. Everything else — bigger beds, rugs, power, sometimes heating or air conditioning — follows from the same investment. The dunes outside are identical.",
+      },
+      {
+        q: "How much more does a luxury camp cost?",
+        a: "In the wider market, standard camps run roughly €40–€100 a night and luxury camps €150–€500, with ultra-luxury going higher still. As an upgrade on a booked tour, expect somewhere around €70 per person per night — that is the going rate operators here charge to move you across.",
+      },
+      {
+        q: "Is a standard desert camp uncomfortable?",
+        a: "No, but it is basic. A proper bed with a mattress, sheets and blankets inside a canvas or wool tent, shared toilets and showers nearby, dinner cooked on site and drumming round the fire. What you do not get is privacy in the bathroom or reliable hot water at the hour you want it.",
+      },
+      {
+        q: "Do luxury camps have electricity and heating?",
+        a: "Usually yes — solar or generator power for lighting and charging, with heaters for winter nights and sometimes air conditioning in summer. Standard camps typically have lighting for a few evening hours and no climate control, which matters more in January than in April.",
+      },
+      {
+        q: "Which camp should families choose?",
+        a: "For children under about eight, the en-suite bathroom is the single most useful upgrade there is — a shared toilet block across sand in the dark is where family desert nights go wrong. Older children generally find the standard camp more of an adventure.",
+      },
+      {
+        q: "Are luxury camps less authentic?",
+        a: "Somewhat, and it is fair to say so. A tent with a rug, a real bed and a rain shower is a hotel room made of canvas. The traditional black wool tent is closer to how the desert was actually slept in. Whether that matters is a personal question, not a moral one.",
+      },
+    ],
+    content: `
+## The short answer
+
+Nearly all of the difference is the bathroom.
+
+A **standard camp** gives you a proper bed inside a canvas or black wool tent, with
+shared toilets and showers in a block a short walk away. A **luxury camp** gives you the
+same dunes, the same dinner, the same sky — and your own bathroom inside your tent, with
+a flush toilet and a hot shower that works when you want it.
+
+Everything else that gets listed on the luxury side — bigger beds, rugs, furniture,
+power sockets, heating — follows from the same investment. But if you strip the marketing
+away, you are mostly deciding whether you want to walk across sand in the dark at 2am.
+
+## What a standard camp is really like
+
+This is what most of our desert tours include, and it is not roughing it:
+
+- A frame bed with a mattress, sheets and blankets, inside a canvas or traditional black
+  wool tent
+- Shared flush toilets and showers in a nearby block. Hot water usually, not always
+- Dinner cooked on site — normally tagine, salads, bread, fruit — and breakfast
+- Lighting for the evening hours, then generators off
+- Drumming and a fire under an extremely dark sky
+
+What it does not give you: privacy in the bathroom, guaranteed hot water at the hour you
+want it, power to charge things overnight, or heating in winter.
+
+Most people who stay in one describe it afterwards as the best night of the trip. The
+absence of electricity is a large part of why.
+
+## What the luxury upgrade actually buys
+
+- **An en-suite bathroom in your tent** — flush toilet, sink, hot shower with real
+  pressure. This is the upgrade; the rest is trimming.
+- **A larger tent** with a proper bed, rugs, seating, sometimes a small terrace
+- **Reliable power** for lighting and charging, from solar or a generator
+- **Heating in winter, air conditioning in summer** at the better camps
+- **Better food**, more courses, and usually a quieter, more curated atmosphere
+
+What it does not change: the dunes, the sunset, the stars, the camel ride, the silence.
+Those are free and identical at both.
+
+## The money, plainly
+
+| | Standard | Luxury |
+| --- | --- | --- |
+| Market rate per night | €40–€100 | €150–€500 |
+| Typical upgrade on a booked tour | — | about €70 per person, per night |
+| Bathroom | shared block | en-suite in tent |
+| Power | evening only | full, solar or generator |
+| Climate control | none | heating, often A/C |
+
+Two things worth noticing in that table.
+
+First, the market range for luxury is enormous. €150 and €500 buy genuinely different
+experiences, and a camp advertised as "luxury" at the bottom of that range may be a
+standard camp with a better bed. Ask specifically whether the bathroom is inside the
+tent, because that is the question that actually separates them.
+
+Second, the upgrade is charged **per person per night**, so it scales fast. For a couple
+on a two-night desert trip, it is around €280 — which on our
+[3-day Sahara tour](/en/tours/sahara-3day-marrakech) at €380 per person is a substantial
+addition to the trip price.
+
+## When we would say pay for it
+
+**Travelling with young children.** The single strongest case. A shared toilet block
+across open sand, in the dark, with a five-year-old, is the thing that turns a magical
+night into a difficult one. Our [4-day family desert
+tour](/en/tours/family-desert-4day-marrakech) is built around a family camp for exactly
+this reason.
+
+**December to February.** Desert nights genuinely drop near freezing. A heated tent is
+not a comfort purchase in January, it is the difference between sleeping and not.
+
+**If a bad night would spoil the trip.** Some people can sleep anywhere. If you are not
+one of them, and this is the one desert night of a two-week holiday, buy the sleep.
+
+**Mobility issues or medical needs.** Walking to a shared block over soft sand at night
+is harder than it sounds.
+
+## When we would say save the money
+
+**One night, decent weather, no children.** Standard is genuinely fine in spring and
+autumn, and the money is better spent on an extra day of the trip.
+
+**If you want the desert as it actually is.** The traditional black wool tent is how
+people have slept out here for a very long time. A canvas suite with a rain shower is a
+hotel room that happens to be in a dune field. Both are pleasant; only one of them is the
+Sahara.
+
+**On a shared departure.** Our [shared 3-day
+Merzouga trip](/en/tours/shared-merzouga-3day-marrakech) is €120 per person. Adding €70 a
+night for a private bathroom changes what kind of trip you have booked, and at that point
+a private tour with a standard camp is often better value.
+
+**If it means dropping a day.** More time in the desert beats a nicer bathroom, almost
+every time. Two nights at Erg Chegaga in a standard camp is a better trip than one night
+at Erg Chebbi in a luxury one — see our [Erg Chebbi vs Erg Chegaga
+comparison](/en/blog/erg-chebbi-vs-erg-chegaga) for why the remoter dunes are worth the
+extra driving.
+
+## The question to ask before booking
+
+Camps are described with the words the operator chooses, and "luxury" is not a regulated
+term. Before you pay for an upgrade, ask one specific question:
+
+**"Is the bathroom inside my tent, or shared?"**
+
+That single answer tells you more than any photograph on a listing page. Everything else
+— the rugs, the lanterns, the brass tray — appears in the photos of both.
+
+## What we book
+
+We use standard Berber camps on most desert departures and say so plainly in each tour's
+inclusions rather than leaving it vague. Where a tour includes a luxury or family camp,
+that is stated too.
+
+If you want the upgrade, tell us when you book and we will price it for your dates
+honestly — including telling you when we think it is not worth it, which for a couple in
+April on a single desert night is usually our answer.
+
+👉 **[See our desert tours](/en/tours?category=desert)** — every one lists exactly what
+camp is included, because "desert camp" on its own does not tell you what you are buying.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

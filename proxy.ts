@@ -10,6 +10,7 @@ import { NextRequest, NextResponse } from "next/server";
  * unreadable byte strings when shared, which loses the readability that is the
  * only real benefit of localising the slug in the first place. */
 const BLOG_SLUGS_FR: Record<string, string> = {
+  "altitude-sickness-toubkal-guide": "mal-aigu-des-montagnes-toubkal",
   "morocco-camel-trek-sahara-guide": "trek-dromadaire-sahara-maroc",
   "toubkal-2-day-trek-cost": "prix-trek-toubkal-2-jours",
   "toubkal-4-day-trek-cost": "prix-trek-toubkal-4-jours",

@@ -4725,4 +4725,222 @@ rentable.**
 👉 **[Consultez nos prix publiés](/fr/tours)** — chaque circuit affiche son tarif à chaque taille de groupe, sans devis sur demande ni couche de commission.
 `,
   },
+  {
+    slug: "altitude-sickness-toubkal-guide",
+    localizedSlug: "mal-aigu-des-montagnes-toubkal",
+    relatedTours: [
+      "toubkal-summit-trek-4day",
+      "toubkal-summit-2day-marrakech",
+      "toubkal-circuit-ifni-lake-6day",
+      "toubkal-three-peaks-4000m-3day",
+    ],
+    author: MET_TEAM,
+    title: "Le mal des montagnes au Toubkal : ce qui se passe vraiment à 4 167 m",
+    excerpt:
+      "Le Toubkal est assez haut pour provoquer le mal aigu des montagnes, et assez bas pour qu'il reste presque toujours bénin. Ce que l'altitude fait à votre corps, les symptômes qui imposent de ralentir, ceux qui imposent de descendre, et pourquoi l'itinéraire compte plus que la condition physique.",
+    heroImage: "/gallery/toubkal-cirque-refuge-approach.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 10,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "mal des montagnes Toubkal",
+      "mal aigu des montagnes",
+      "acclimatation Toubkal",
+      "trek Haut Atlas",
+      "refuge du Toubkal",
+    ],
+    seoTitle: "Mal des montagnes au Toubkal — symptômes et prévention (2026)",
+    seoDescription:
+      "Le Toubkal culmine à 4 167 m, assez haut pour le mal aigu des montagnes. Les symptômes, quand descendre, et pourquoi l'itinéraire de 4 jours prévient mieux que tout médicament.",
+    faq: [
+      {
+        q: "Peut-on avoir le mal des montagnes au Toubkal ?",
+        a: "Oui. Le sommet est à 4 167 m et le refuge à 3 207 m, tous deux au-dessus du seuil de 2 500 m où le mal aigu des montagnes devient possible. Des symptômes légers — mal de tête, appétit coupé, sommeil haché au refuge — sont fréquents et normaux. Les formes graves restent rares au Toubkal, parce que la montagne est basse à l'échelle himalayenne et parce qu'on peut redescendre vite.",
+      },
+      {
+        q: "La forme physique protège-t-elle du mal des montagnes ?",
+        a: "Non, et c'est l'idée reçue la plus répandue. La sensibilité relève surtout de la physiologie individuelle, pas de la capacité aérobie. Les marcheurs très entraînés sont même un peu plus exposés, car ils montent vite et dépassent leur propre acclimatation. La personne la plus forte du groupe n'est pas forcément celle qui se sentira le mieux au refuge.",
+      },
+      {
+        q: "Le trek de 2 jours est-il dangereux à cause de l'altitude ?",
+        a: "Pas dangereux, mais il laisse moins de temps au corps. Le 2 jours enchaîne Imlil (1 740 m), le refuge (3 207 m), le sommet (4 167 m) et le retour, avec une seule nuit en altitude avant le jour du sommet. Le 4 jours ajoute une journée et une nuit d'acclimatation avant la même ascension, et nos guides y voient nettement moins d'abandons. Si vous n'avez jamais dépassé 3 000 m, prenez le long.",
+      },
+      {
+        q: "Faut-il prendre du Diamox pour le Toubkal ?",
+        a: "C'est une question pour un médecin qui connaît vos antécédents, pas pour un voyagiste, et nous ne prescrirons rien depuis un site web. Ce que nous pouvons dire : la plupart des gens gravissent le Toubkal sans médicament, et l'acétazolamide ne remplace pas un profil d'ascension raisonnable. En cas d'antécédent en altitude, consultez avant de partir.",
+      },
+      {
+        q: "Que se passe-t-il si je tombe malade au refuge ?",
+        a: "Vous le dites à votre guide, tout de suite et sans vous excuser. Des symptômes légers impliquent en général de se reposer, boire, manger et réévaluer au matin. Si les symptômes sont sévères ou s'aggravent, la réponse est la descente — et du refuge à Imlil, c'est une marche simple qui vous fait perdre 1 500 m en quelques heures.",
+      },
+      {
+        q: "Les enfants sont-ils plus sensibles ?",
+        a: "Ils ne sont pas plus sensibles que les adultes, mais ils signalent moins bien les symptômes, et un enfant fatigué ressemble à un enfant légèrement hypoxique. Sur les treks en famille, nous raccourcissons les journées, surveillons l'appétit et l'humeur autant que le rythme, et choisissons des itinéraires qui dorment plus bas.",
+      },
+    ],
+    content: `
+## L'altitude, en chiffres
+
+Quatre chiffres résument tout le sujet :
+
+| Lieu | Altitude |
+| --- | --- |
+| Imlil, le départ | 1 740 m |
+| Sidi Chamharouch | 2 350 m |
+| Refuge du Toubkal | 3 207 m |
+| Sommet du Toubkal | 4 167 m |
+
+Le mal aigu des montagnes (MAM) devient possible au-dessus d'environ **2 500 m**. Vous
+franchissez donc ce seuil vers Sidi Chamharouch le premier matin, dormez 700 m plus
+haut, et atteignez le sommet 1 600 m au-dessus.
+
+Cela fait du Toubkal une vraie montagne d'altitude. Cela en fait aussi, à l'échelle
+mondiale, une montagne modeste : le sommet est plus bas que le camp de base de l'Everest,
+et l'itinéraire reste une marche sans difficulté technique en été. D'où le profil de
+risque — **assez haut pour que des symptômes légers soient normaux, assez bas pour
+qu'une forme grave reste rare.**
+
+## Ce que l'altitude fait réellement
+
+L'air à 4 167 m n'est pas plus pauvre en oxygène en proportion — il en contient toujours
+21 %. Ce qui baisse, c'est la pression qui pousse cet oxygène dans le sang. Au sommet,
+chaque respiration apporte environ 60 % de l'oxygène que la même respiration vous donne
+à Marrakech.
+
+Le corps réagit en quelques minutes : respiration plus rapide et plus profonde, rythme
+cardiaque plus élevé, puis en un ou deux jours un ajustement rénal de la chimie
+sanguine. **L'acclimatation, c'est cet ajustement, et il demande un temps que ni la
+forme physique ni la volonté ne remplacent.**
+
+Le MAM survient quand on monte plus vite que cet ajustement.
+
+## Les symptômes qui imposent de ralentir
+
+Un MAM léger est fréquent au refuge et n'est pas, en soi, une urgence :
+
+- **Mal de tête** — le symptôme signature, souvent frontal, pire allongé
+- **Perte d'appétit ou nausée** — le dîner au refuge auquel on ne touche pas
+- **Sommeil haché** — y compris la sensation dérangeante de se réveiller essoufflé
+- **Fatigue disproportionnée** par rapport à la marche de la journée
+- **Vertiges** en se levant rapidement
+
+Dans ce cas : arrêter de monter, boire, manger ce qui passe, se reposer et voir comment
+se passe la nuit. Beaucoup se réveillent mieux. Beaucoup atteignent le sommet le
+lendemain.
+
+## Les symptômes qui imposent de descendre
+
+Ceux-là diffèrent par nature, pas seulement par intensité. Ils signalent les deux formes
+dangereuses — œdème cérébral et œdème pulmonaire de haute altitude :
+
+- **Mal de tête sévère résistant au repos et aux antalgiques**
+- **Confusion, troubles de la parole ou comportement inhabituel** — souvent remarqués
+  par les autres en premier
+- **Perte de coordination** — le test classique est l'incapacité à marcher droit, un
+  pied devant l'autre
+- **Essoufflement au repos**, toux persistante, oppression thoracique ou respiration
+  qui semble humide
+- **Tout symptôme qui s'aggrave alors que vous êtes au repos**
+
+Il n'existe aucune prise en charge astucieuse en altitude. **Le traitement est la
+descente, et cela ne se remet pas au lendemain.** Depuis le refuge, Imlil est à quelques
+heures et 1 500 m plus bas : c'est le fait le plus rassurant de cet itinéraire, le remède
+est toujours disponible et toujours vers le bas.
+
+## Pourquoi l'itinéraire compte plus que le médicament
+
+C'est le point que la plupart des pages évitent, et celui où un opérateur peut vraiment
+aider.
+
+Le trek de 2 jours et celui de 4 jours atteignent le même sommet. La différence est ce
+qui précède le jour du sommet :
+
+| | 2 jours | 4 jours |
+| --- | --- | --- |
+| Nuits au-dessus de 3 000 m avant le sommet | 1 | 2 |
+| Journée d'acclimatation | aucune | oui |
+| Dénivelé le jour du sommet | 960 m | 960 m |
+| Taux d'abandon habituel | plus élevé | nettement plus bas |
+
+Notre [trek du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) existe à cause
+de cette ligne du milieu. Les jours supplémentaires ne servent pas à couvrir plus de
+terrain : ils laissent le corps rattraper son retard, la seule intervention qui change
+vraiment le ressenti du jour du sommet. La [version de 2
+jours](/fr/tours/ascension-toubkal-2-jours) est un vrai voyage que beaucoup réussissent,
+mais elle demande davantage à un corps prévenu plus tard.
+
+Si vous n'êtes jamais monté près de 4 000 m, la recommandation honnête est l'itinéraire
+long. Ce n'est pas de la vente additionnelle : c'est la différence entre être au sommet
+et faire demi-tour 300 m en dessous avec un mal de tête.
+
+## La forme physique ne protège pas comme vous le croyez
+
+La sensibilité au MAM relève surtout de la physiologie individuelle. Certains
+s'acclimatent facilement, d'autres non, et rien ne permet de savoir lequel vous êtes
+avant d'être monté.
+
+Des marathoniens font des MAM. Des gens ayant déjà atteint des sommets sans problème
+aussi — un succès passé prédit mal, même si un *échec* passé constitue un avertissement
+raisonnable.
+
+Être très en forme comporte même un petit risque supplémentaire, car on monte plus vite
+que son propre ajustement. Le matin du sommet, les guides imposent délibérément un
+rythme qui paraît trop lent au plus fort du groupe. Ce n'est pas de la prudence
+gratuite : c'est le mécanisme qui fonctionne.
+
+## Ce que font nos guides
+
+Chaque trek en altitude est encadré par un guide de montagne marocain diplômé, et la
+gestion de l'altitude fait partie du métier ordinaire, pas des compétences d'urgence :
+
+- **Rythme imposé depuis l'avant, volontairement lent** à la montée vers le refuge puis
+  le matin du sommet
+- **Des contrôles de symptômes qui ressemblent à une conversation** — appétit, sommeil,
+  maux de tête, ressenti sur le plat
+- **Discipline hydrique** — 3 à 4 litres par jour, ce qui paraît excessif jusqu'à ce
+  qu'on remarque la sécheresse de l'air
+- **Une décision prise tôt plutôt que tard** si quelqu'un peine, parce que descendre de
+  jour est simple et de nuit ne l'est pas
+- **L'autorité de faire redescendre un groupe**, qui vaut plus que n'importe quel
+  équipement
+
+Nos guides viennent des vallées sous cette montagne et la gravissent toute la saison.
+Ils ont vu énormément de gens se sentir mal à 3 207 m et aller bien au matin, et
+connaissent les quelques signes qui indiquent que cette fois, c'est différent.
+
+## Ce qui aide vraiment
+
+- **Buvez plus que vous n'en avez envie.** La déshydratation imite et aggrave le MAM.
+- **Mangez, même sans appétit.** Les glucides sont le carburant que réclame un corps qui
+  compense.
+- **Pas d'alcool au refuge.** Il déprime la respiration nocturne, au pire moment.
+- **Monter haut, dormir bas** quand l'itinéraire le permet — nos circuits longs sont
+  construits ainsi.
+- **Ne cachez pas vos symptômes.** La raison la plus fréquente pour qu'un problème bénin
+  s'aggrave est de ne pas vouloir gâcher le sommet du groupe.
+- **Arrivez un jour à l'avance à Marrakech** après un long vol. Marrakech n'est qu'à
+  466 m et n'acclimate pas, mais partir reposé vaut de l'altitude.
+
+## Faut-il s'inquiéter ?
+
+Modérément. Attendez-vous à un mal de tête au refuge et considérez-le comme normal.
+Attendez-vous à mal dormir et à ne pas vouloir dîner. Attendez-vous à un guide plus lent
+que vous.
+
+Les formes graves sont rares au Toubkal, pour des raisons structurelles plus que par
+chance : la montagne plafonne à 4 167 m, le refuge est à quelques heures d'une route, et
+la descente est une marche, pas un secours. Peu de sommets de 4 000 m pardonnent aussi
+bien une mauvaise nuit.
+
+Choisissez l'itinéraire qui laisse du temps à votre corps, dites la vérité à votre guide
+sur ce que vous ressentez, et l'altitude devient une chose que l'on remarque plutôt
+qu'une chose qui vous arrête.
+
+👉 **[Voir nos treks du Toubkal](/fr/tours?category=trekking)** — le 4 jours comprend une
+journée d'acclimatation dédiée, et chaque départ est encadré par un guide de montagne
+local diplômé.
+`,
+  },
 ];

@@ -6865,6 +6865,217 @@ worth.**
 👉 **[See our published prices](/en/tours)** — every tour lists its rate at each group size, with no quote-on-request step and no commission layer.
 `,
   },
+  {
+    slug: "altitude-sickness-toubkal-guide",
+    relatedTours: [
+      "toubkal-summit-trek-4day",
+      "toubkal-summit-2day-marrakech",
+      "toubkal-circuit-ifni-lake-6day",
+      "toubkal-three-peaks-4000m-3day",
+    ],
+    author: MET_TEAM,
+    title: "Altitude Sickness on Toubkal: What Actually Happens at 4,167 m",
+    excerpt:
+      "Toubkal is high enough for altitude sickness and low enough that it is almost always mild. Here is what the altitude does to you, the symptoms that mean slow down, the ones that mean go down, and why the itinerary you choose matters more than your fitness.",
+    heroImage: "/gallery/toubkal-cirque-refuge-approach.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 10,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    tags: [
+      "Toubkal altitude sickness",
+      "acute mountain sickness",
+      "Toubkal acclimatisation",
+      "High Atlas trekking",
+      "Toubkal refuge",
+    ],
+    seoTitle: "Altitude Sickness on Toubkal — Symptoms & Prevention (2026)",
+    seoDescription:
+      "Toubkal reaches 4,167 m, high enough for acute mountain sickness. The symptoms, when to descend, why the 4-day itinerary prevents more sickness than any drug, and what our guides carry.",
+    faq: [
+      {
+        q: "Can you get altitude sickness on Toubkal?",
+        a: "Yes. The summit is 4,167 m and the refuge sits at 3,207 m, both above the 2,500 m mark where acute mountain sickness becomes possible. Mild symptoms — headache, poor appetite, broken sleep at the refuge — are common and normal. Severe altitude illness is rare on Toubkal, because the mountain is low enough by Himalayan standards and because you can descend fast when something goes wrong.",
+      },
+      {
+        q: "Does being fit protect you from altitude sickness?",
+        a: "No, and this is the single most common misconception we meet. Susceptibility is largely individual physiology, not aerobic capacity. Fit walkers are arguably at slightly higher risk because they climb faster and out-run their own acclimatisation. The strongest person in a group is not reliably the one who feels best at the refuge.",
+      },
+      {
+        q: "Is the 2-day Toubkal trek dangerous because of altitude?",
+        a: "Not dangerous, but it gives your body less time. The 2-day goes Imlil (1,740 m) to the refuge (3,207 m) to the summit (4,167 m) and back, so you sleep one night at altitude before summit day. The 4-day spends an extra day and night acclimatising before the same summit push, and our guides see noticeably fewer people turn back on it. If you have never been above 3,000 m, book the longer one.",
+      },
+      {
+        q: "Should I take Diamox for Toubkal?",
+        a: "That is a question for a doctor who knows your medical history, not for a tour operator, and we will not prescribe over a website. What we can say is that most people climb Toubkal without medication, and that acetazolamide is not a substitute for a sensible ascent profile. If you have had altitude problems before, speak to a travel clinic before you fly.",
+      },
+      {
+        q: "What happens if I get sick at the refuge?",
+        a: "You tell your guide, immediately and without apologising. Mild symptoms usually mean resting, drinking, eating and reassessing in the morning. If symptoms are severe or worsening, the answer is descent — and the descent from the refuge to Imlil is straightforward, walkable and gets you 1,500 m lower in a few hours. That escape route is why Toubkal is a forgiving mountain to have a bad night on.",
+      },
+      {
+        q: "Do children get altitude sickness more easily?",
+        a: "Children are not more susceptible than adults, but they are worse at reporting symptoms, and a tired eight-year-old and a mildly hypoxic eight-year-old look similar. On family treks we keep days shorter, watch appetite and mood as closely as pace, and pick itineraries that sleep lower.",
+      },
+    ],
+    content: `
+## The altitude, in plain numbers
+
+Four figures decide everything about this subject:
+
+| Place | Altitude |
+| --- | --- |
+| Imlil, the trailhead | 1,740 m |
+| Sidi Chamharouch | 2,350 m |
+| Toubkal Refuge | 3,207 m |
+| Toubkal summit | 4,167 m |
+
+Acute mountain sickness — AMS — becomes possible above roughly **2,500 m**. So you
+cross into the zone somewhere around Sidi Chamharouch on your first morning, sleep
+700 m above it, and summit 1,600 m above it.
+
+That makes Toubkal genuinely high. It also makes it, by the standards of the world's
+big mountains, quite modest: the summit is lower than Everest Base Camp, and the
+whole route is a walk-in and walk-out with no technical ground in summer. The
+combination is what shapes the risk — **high enough that mild symptoms are normal,
+low enough that serious illness is rare.**
+
+## What altitude actually does
+
+Air at 4,167 m is not short of oxygen as a proportion — it is still 21% oxygen. What
+falls is the pressure pushing that oxygen across your lungs into your blood. At the
+summit each breath delivers roughly 60% of the oxygen the same breath gives you in
+Marrakech.
+
+Your body notices within minutes and starts compensating: you breathe faster and
+deeper, your heart rate rises, and over a day or two your kidneys begin adjusting
+your blood chemistry. **Acclimatisation is that adjustment, and it takes time you
+cannot substitute with fitness or willpower.**
+
+AMS is what happens when you climb faster than the adjustment can keep up.
+
+## The symptoms that mean slow down
+
+Mild AMS is common at the refuge and, in itself, not an emergency:
+
+- **Headache** — the signature symptom, usually frontal, often worse lying down
+- **Poor appetite or nausea** — dinner at the refuge going untouched is a classic
+- **Broken sleep** — including the unsettling sensation of waking short of breath
+- **Fatigue beyond what the day's walking explains**
+- **Dizziness** when you stand up quickly
+
+If this is you, the plan is: stop climbing, drink, eat what you can, rest, and see
+how the night goes. Many people wake up better. Plenty summit the next morning.
+
+## The symptoms that mean go down
+
+These are different in kind, not just degree. They point at the two dangerous forms
+of altitude illness — fluid on the brain (HACE) and fluid in the lungs (HAPE):
+
+- **Severe headache that does not respond to rest or painkillers**
+- **Confusion, slurred speech, or unusual behaviour** — often noticed by others first
+- **Loss of coordination** — the classic test is being unable to walk a straight line
+  heel-to-toe
+- **Breathlessness at rest**, a persistent cough, chest tightness, or breathing that
+  sounds wet or gurgly
+- **Any symptom that keeps getting worse while you are resting**
+
+There is no clever management of these on the mountain. **The treatment is descent,
+and it is not a decision to sleep on.** From the refuge, Imlil is a few hours down
+and 1,500 m lower, which is the single most reassuring fact about this route: the cure
+is always available and always downhill.
+
+## Why the itinerary matters more than the drug
+
+This is the part most pages skip, and it is where an operator can actually help.
+
+The 2-day trek and the 4-day trek reach the same summit. The difference is what
+happens before summit day:
+
+| | 2-day | 4-day |
+| --- | --- | --- |
+| Nights above 3,000 m before summit | 1 | 2 |
+| Acclimatisation day | none | yes |
+| Ascent on summit day | 960 m | 960 m |
+| Typical turn-back rate | higher | noticeably lower |
+
+Our [4-day Toubkal summit trek](/en/tours/toubkal-summit-trek-4day) exists because of
+that middle row. The extra days are not spent covering more ground — they are spent
+letting your body catch up, which is the only intervention with a large effect on how
+summit day feels. The [2-day version](/en/tours/toubkal-summit-2day-marrakech) is a
+real trip and plenty of people do it well, but it asks more of a body that has had
+less warning.
+
+If you have never been near 4,000 m, the honest recommendation is the longer
+itinerary. It is not upselling — it is the difference between standing on the summit
+and turning around 300 m below it with a headache.
+
+## Fitness is not the protection you think it is
+
+Susceptibility to AMS is mostly individual physiology. Some people acclimatise easily
+and some do not, and there is no reliable way to know which you are until you go high.
+
+Marathon runners get altitude sickness. So do people who have summited before without
+trouble — previous success is a weak predictor, though previous *failure* is a
+reasonable warning.
+
+If anything, being very fit carries a small extra risk, because fit walkers climb
+faster and can out-pace their own adjustment. On summit morning the guides deliberately
+set a pace that feels too slow to the strongest person in the group. That is not
+caution for its own sake; it is the mechanism working.
+
+## What our guides do about it
+
+Every trek we run to altitude is led by a licensed Moroccan mountain guide, and
+altitude management is a routine part of the job rather than an emergency skill:
+
+- **Pace set from the front, deliberately slow** on the climb to the refuge and again
+  on summit morning
+- **Symptom checks that sound like conversation** — appetite, sleep, headache, how
+  you feel on the flat sections
+- **Water discipline** — 3 to 4 litres a day, which sounds excessive until you notice
+  how dry the air is
+- **A decision made early rather than late** if someone is struggling, because
+  descending in daylight is straightforward and descending at night is not
+- **The authority to turn a party around**, which is worth more than any equipment
+
+Our guides are from the valleys below this mountain and climb it through the season.
+They have watched a great many people feel rough at 3,207 m and be fine by morning,
+and they know the small number of signs that mean this one is different.
+
+## Practical things that genuinely help
+
+- **Drink more than you want to.** Dehydration mimics and worsens AMS.
+- **Eat, even without appetite.** Carbohydrate is the fuel your compensating body wants.
+- **No alcohol at the refuge.** It suppresses breathing at night, which is the worst
+  possible time.
+- **Climb high, sleep low** where the itinerary allows — our longer circuits are
+  built this way.
+- **Do not hide symptoms.** The commonest reason a mild problem becomes a serious one
+  is somebody not wanting to spoil the group's summit day.
+- **Arrive a day early in Marrakech** if you have flown far. Marrakech is only 466 m,
+  so it does not acclimatise you, but starting rested is worth real altitude.
+
+## So how worried should you be?
+
+Mildly. Expect a headache at the refuge and treat it as normal. Expect to sleep badly
+and to not want dinner. Expect the guide to walk slower than you would.
+
+Serious altitude illness on Toubkal is uncommon, and the reason is structural rather
+than luck: the mountain tops out at 4,167 m, the refuge is a few hours from a road
+head, and the descent is a walk rather than a rescue. Very few 4,000 m peaks are this
+forgiving of a bad night.
+
+Choose the itinerary that gives your body time, tell your guide the truth about how
+you feel, and the altitude becomes a thing you notice rather than a thing that stops
+you.
+
+👉 **[See our Toubkal treks](/en/tours?category=trekking)** — the 4-day includes a
+dedicated acclimatisation day, and every departure is led by a licensed local
+mountain guide.
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

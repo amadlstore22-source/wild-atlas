@@ -1670,7 +1670,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 150 },
       { minPeople: 7, price: 133 },
       { minPeople: 10, price: 121 },
-      { minPeople: 14, price: 110 },
+      { minPeople: 14, price: 113 },
     ],
     price: 415,
     depositAmount: 90,

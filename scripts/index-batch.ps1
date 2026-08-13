@@ -88,13 +88,21 @@ if ($DryRun)      { $nodeArgs += "--dry-run" }
 if ($Limit -gt 0) { $nodeArgs += @("--limit", $Limit) }
 if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 
-# Tee the submitter's output so we can read back exactly how many requests
-# actually reached Google. Charging the whole batch was wrong: a network drop
-# that never left the machine consumes no quota, but still got billed to the
-# day -- which is how a run of 15 real submissions reported 146/200 used.
-$submitterOutput = & node @nodeArgs | Tee-Object -Variable captured
-# Print everything except the machine-readable marker line.
-$captured | Where-Object { $_ -notmatch '^QUOTA_CONSUMED=' } | ForEach-Object { $_ }
+# Stream the submitter's output line by line as it arrives, while capturing it
+# so we can read back how many requests actually reached Google. Piping the
+# whole run into Tee-Object buffered everything and showed a blank screen until
+# it finished -- the per-URL progress has to stay live on a run this long.
+#
+# Charging the whole batch to the ledger was wrong: a network drop that never
+# left the machine consumes no quota, but still got billed to the day -- which
+# is how a run of 15 real submissions reported 146/200 used.
+$captured = New-Object System.Collections.Generic.List[string]
+& node @nodeArgs 2>&1 | ForEach-Object {
+  $line = [string]$_
+  $captured.Add($line)
+  # The marker is machine-readable bookkeeping, not output for the operator.
+  if ($line -notmatch '^QUOTA_CONSUMED=') { Write-Host $line }
+}
 
 # Record the run so the next invocation today knows the remaining quota.
 # Counts what was ATTEMPTED, not what succeeded: a 429 still consumes nothing,

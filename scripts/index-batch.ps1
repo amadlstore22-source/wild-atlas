@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
   Submits a batch of URLs to the Google Indexing API.
 
@@ -88,7 +88,13 @@ if ($DryRun)      { $nodeArgs += "--dry-run" }
 if ($Limit -gt 0) { $nodeArgs += @("--limit", $Limit) }
 if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 
-& node @nodeArgs
+# Tee the submitter's output so we can read back exactly how many requests
+# actually reached Google. Charging the whole batch was wrong: a network drop
+# that never left the machine consumes no quota, but still got billed to the
+# day -- which is how a run of 15 real submissions reported 146/200 used.
+$submitterOutput = & node @nodeArgs | Tee-Object -Variable captured
+# Print everything except the machine-readable marker line.
+$captured | Where-Object { $_ -notmatch '^QUOTA_CONSUMED=' } | ForEach-Object { $_ }
 
 # Record the run so the next invocation today knows the remaining quota.
 # Counts what was ATTEMPTED, not what succeeded: a 429 still consumes nothing,
@@ -103,7 +109,13 @@ if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 # CONNECTION failure is that nothing did.
 $submitterExit = $LASTEXITCODE
 if (-not $DryRun -and $submitterExit -eq 0) {
-  $newTotal = $usedToday + $count
+  # Prefer the submitter's own count of requests that reached Google.
+  # Fall back to the batch size only if the marker is missing (older script).
+  $consumed = $count
+  $marker = $captured | Select-String -Pattern '^QUOTA_CONSUMED=(\d+)$' |
+    Select-Object -Last 1
+  if ($marker) { $consumed = [int]$marker.Matches[0].Groups[1].Value }
+  $newTotal = $usedToday + $consumed
   @{ date = $today; count = $newTotal } | ConvertTo-Json -Compress |
     Set-Content -Path $ledger -Encoding utf8
   Write-Host ""

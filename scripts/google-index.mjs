@@ -143,6 +143,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
   let ok = 0;
   let failed = 0;
+  let netFail = 0; // never reached Google: no quota consumed
+  let netOk = 0;   // succeeded only after a network retry
   let quotaHit = -1; // index where the daily quota stopped us, if it did
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
@@ -182,18 +184,52 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         }
       }
     } catch (e) {
-      failed++;
-      console.log(`  ✗ ERROR ${url} — ${e.message}`);
+      // A thrown fetch is a NETWORK failure: the request never reached Google,
+      // so it consumed no quota and the URL is not necessarily bad. Transient
+      // DNS/TLS/socket drops used to fail the whole tail of a batch in one go.
+      // Retry with backoff before giving up on the URL.
+      let recovered = false;
+      for (const wait of [1000, 3000, 8000]) {
+        await sleep(wait);
+        try {
+          const r = await publish(token, url);
+          if (r.status === 200) {
+            ok++; netOk++;
+            console.log(`  ✓ ${url} (after retry)`);
+            recovered = true;
+            break;
+          }
+          if (r.status === 429 && /per day/i.test(r.body)) {
+            quotaHit = i;
+            recovered = true;
+            break;
+          }
+        } catch { /* still down - try the next backoff */ }
+      }
+      if (quotaHit >= 0) break;
+      if (!recovered) {
+        failed++; netFail++;
+        console.log(`  ✗ NETWORK ${url} — ${e.message} (not sent, no quota used)`);
+      }
     }
     await sleep(300); // gentle pacing
   }
 
   console.log(`\nDone. ${ok} submitted, ${failed} failed, of ${urls.length}.`);
+  if (netFail > 0) {
+    console.log(
+      `   of those never reached Google (network), so they used NO quota` +
+        `
+  and are still pending. Re-run this same batch to retry them.`
+    );
+  }
 
   // Tell the operator exactly where to pick up. Without this the next run needs
   // mental arithmetic over OFFSET + how many actually went through, which is
   // how the same 200 URLs end up being submitted twice.
-  const reached = OFFSET + (quotaHit >= 0 ? quotaHit : ok + failed);
+  // Network failures were never sent, so they are NOT "reached" - counting
+  // them silently skipped those URLs forever on the next run.
+  const reached = OFFSET + (quotaHit >= 0 ? quotaHit : ok + (failed - netFail));
   if (reached < total) {
     console.log(
       `\nResume tomorrow from URL ${reached + 1} of ${total}:\n` +
@@ -203,4 +239,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   } else {
     console.log(`\nAll ${total} URLs in this list have been submitted.`);
   }
+  // The wrapper reads this to charge the daily ledger accurately: only
+  // requests that actually reached Google count against the 200/day quota.
+  console.log(`\nQUOTA_CONSUMED=${ok + (failed - netFail)}`);
 })();

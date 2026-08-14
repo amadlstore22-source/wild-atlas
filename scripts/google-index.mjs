@@ -218,9 +218,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   console.log(`\nDone. ${ok} submitted, ${failed} failed, of ${urls.length}.`);
   if (netFail > 0) {
     console.log(
-      `   of those never reached Google (network), so they used NO quota` +
-        `
-  and are still pending. Re-run this same batch to retry them.`
+      `  ${netFail} of those never reached Google (network), so they used` +
+        ` NO quota\n  and are still pending. Re-run this batch to retry them.`
     );
   }
 

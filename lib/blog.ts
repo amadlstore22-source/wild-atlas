@@ -170,7 +170,7 @@ The two shoulder seasons — **April–May** and **September–October** — are
 
 If this is your first Morocco trip, start in Marrakech. It has the best international flight connections, the most developed tourism infrastructure, and it gives you a base for both the Atlas (day trips or multi-day treks) and day excursions south. Fly in, spend two nights in the medina, then head to the mountains or the south.
 
-If you have been to Marrakech before, fly into Agadir for the south and Anti-Atlas, or Fes for the north and imperial cities circuit. Both reward a completely different side of Morocco.
+If you have been to Marrakech before, fly into Agadir for the south and Anti-Atlas, or Fes for the north and imperial cities circuit. Both reward a completely different side of Morocco. And if you already live here, [exploring Morocco as a Moroccan traveller](/en/blog/morocco-for-moroccan-travellers-explore-your-own-country) covers the same ground without the visitor assumptions.
 
 Ready to plan the route? Our day-by-day [7-day Morocco itinerary](/en/blog/7-day-morocco-itinerary) covers Marrakech, the Atlas and the Sahara in a week, and the [10-day Morocco itinerary](/en/blog/10-day-morocco-itinerary) adds Fes and the imperial cities in one clean loop.
 
@@ -322,7 +322,7 @@ Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sicknes
     faq: [
       { q: "How long does it take to reach the Sahara from Marrakech?", a: "Merzouga and the Erg Chebbi dunes sit on the far side of the Atlas, which is why we run the trip over three days rather than one. The driving is broken up by the Tizi n'Tichka pass, Ait Ben Haddou and the gorges, so the road is part of the trip rather than time lost getting there." },
       { q: "What is a night in a desert camp actually like?", a: "Beds with blankets in a tent, a shared dinner, and complete quiet once the generators go off. The dunes are genuinely dark, which is the point: the night sky is the reason most people remember the camp rather than the camel ride. Nights get cold outside summer, so bring a warm layer even when the day has been hot." },
-      { q: "Is there phone signal or wifi in the desert?", a: "Signal is patchy at best out on the dunes and often absent altogether. You will have connectivity in the towns and guesthouses along the route, so plan to send messages before you head out to the camp rather than from it." },
+      { q: "Is there phone signal or wifi in the desert?", a: "Signal is patchy at best out on the dunes and often absent altogether. You will have connectivity in the towns and guesthouses along the route, so plan to send messages before you head out to the camp rather than from it. Which network you are on changes how much of the route is covered — see [the best SIM card in Morocco](/en/blog/best-sim-card-morocco-tourists)." },
       { q: "Do you need to be fit for a desert tour?", a: "No. Our Sahara trips are rated easy: the distance is covered by vehicle, and the camel ride into the camp is short and optional. If you would rather walk the last stretch into the dunes than ride, that is entirely normal and the guides expect it." },
     
       { q: "What should I wear in the Sahara?", a: "Layers, and more of them than the word 'desert' suggests. Daytime is hot enough for light long sleeves — long rather than short, because loose cotton over your arms is cooler in direct sun than bare skin and spares you the burn. Evenings drop sharply once the sun is down, so a fleece or jacket is not optional even in summer, and between November and February you will want a hat and something warm for the night. Closed shoes beat sandals for the camel and the dunes, since sand at midday is hotter than the air." },
@@ -512,7 +512,7 @@ The first 90 minutes from Marrakech ascend the High Atlas via one of Morocco's m
 UNESCO World Heritage Ksar, 30 km north of Ouarzazate. This extraordinary fortified mud-brick village has appeared in more Hollywood films than almost any location on earth — Gladiator, Game of Thrones, Lawrence of Arabia, The Mummy. Allow 2 hours to walk through the ksar and climb to the granary at the top.
 
 **Ouarzazate**
-The self-styled "door of the desert" — a pleasant small city with a large kasbah and several riad hotels. Overnight here.
+The self-styled "door of the desert" — a pleasant small city with a large kasbah and several riad hotels. Overnight here. It is also Morocco's film capital, and if you have an afternoon spare our [Ouarzazate and Ouallywood guide](/en/blog/ouarzazate-guide-ouallywood) covers the studios and which sets you can actually walk onto.
 
 ## Day 2 — Ouarzazate → Draa Valley → Todra Gorge → Midelt
 
@@ -578,7 +578,7 @@ Riad rooms in Ouarzazate and Midelt: €45–90/night. Fes riads: €75–185/ni
     content: `
 ## What Is Paradise Valley?
 
-Paradise Valley (Vallée du Paradis) is a dramatic palm-lined gorge carved by the Tamraght River in the foothills of the Anti-Atlas, approximately 35 km north of Agadir. It is one of the most beautiful natural sites in southern Morocco and remains surprisingly unknown outside the country.
+Paradise Valley (Vallée du Paradis) is a dramatic palm-lined gorge carved by the Tamraght River in the foothills of the Anti-Atlas, approximately 35 km north of Agadir. It is one of the most beautiful natural sites in southern Morocco and remains surprisingly unknown outside the country. If you are based in Marrakech rather than the coast, read [Paradise Valley from Marrakech](/en/blog/paradise-valley-from-marrakech) first — it is a long day each way, and there are closer alternatives.
 
 The valley is defined by:
 - Towering date and Canary Island palms lining a canyon floor
@@ -753,7 +753,7 @@ What is less widely known is how deliberately closed the town stayed afterward. 
 
 **From Tangier (2.5 hours):** If you're arriving by ferry from Spain, Chefchaouen is a natural first stop.
 
-**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub. Because the drive is the hard part, most travellers coming from the south fold it into a longer trip: our [4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) breaks the journey with a night in Fes rather than doing it in one sitting, and there is a [5-day version from Agadir](/en/tours/agadir-to-chefchaouen-5day) if you are starting further down the coast.
+**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub. Because the drive is the hard part, most travellers coming from the south fold it into a longer trip: our [4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) breaks the journey with a night in Fes rather than doing it in one sitting, and there is a [5-day version from Agadir](/en/tours/agadir-to-chefchaouen-5day) if you are starting further down the coast. What each option actually costs, including the bus and self-drive routes, is broken down in [Marrakech to Chefchaouen tour cost](/en/blog/marrakech-to-chefchaouen-tour-cost).
 
 There is no train to Chefchaouen. The nearest train station is Fes.
 
@@ -1439,7 +1439,7 @@ Morocco is a safe destination for solo female travellers, and hundreds of thousa
 
 Practical things that help: dressing modestly (shoulders and knees covered) in medinas and traditional areas; walking with purpose and avoiding making sustained eye contact with people who are bothering you; staying in a riad rather than a large hotel (the staff know the area and can advise); and booking your first day's medina visit with a licensed guide rather than navigating alone on arrival.
 
-Night walking alone in the medina — particularly in Marrakech after 10 pm — carries more risk than daytime walking, as you're less visible and potential confrontations are harder to manage. Most solo female visitors say the main issue is unwanted attention rather than anything threatening.
+Night walking alone in the medina — particularly in Marrakech after 10 pm — carries more risk than daytime walking, as you're less visible and potential confrontations are harder to manage. Most solo female visitors say the main issue is unwanted attention rather than anything threatening. Our [solo female travel guide](/en/blog/solo-female-travel-morocco-guide) goes through what that attention actually looks like, what to wear, and the strategies that reduce it.
 
 ## Border areas and the Sahara
 
@@ -1581,6 +1581,8 @@ This is not unique to Morocco — people in every country are last to discover t
 ## What's Changed
 
 Domestic adventure tourism has grown significantly in Morocco over the last five years. The reasons are layered:
+
+If you are mapping out what the country actually offers region by region, our [adventure travel guide to Morocco](/en/blog/morocco-ultimate-adventure-travel-guide) covers the Atlas, the Sahara, the coast and the south in one place.
 
 **Cost:** A weekend in the High Atlas costs a fraction of a flight to Europe. A three-day Sahara circuit from Marrakech is achievable on a teacher's or engineer's budget, especially when booked directly with an operator.
 
@@ -2133,7 +2135,7 @@ If you are 24, travelling on a budget, and mostly want to sleep in the Sahara an
 
 ## Booking direct vs platforms
 
-Booking direct with a licensed local operator generally runs **30–50% cheaper** than the same trip through a hotel concierge or a reseller platform. The mechanism is not mysterious: those channels take a commission, often a large one, and it is added to your price rather than absorbed.
+Booking direct with a licensed local operator generally runs **30–50% cheaper** than the same trip through a hotel concierge or a reseller platform. The mechanism is not mysterious: those channels take a commission, often a large one, and it is added to your price rather than absorbed. [Booking direct versus through a platform](/en/blog/booking-morocco-tour-direct-vs-platform) works through the real numbers on both sides.
 
 The counterargument for platforms is buyer protection and easy cancellation, which are real benefits. The counterargument for direct is that you are talking to the people who will actually drive you, so you can ask specific questions and get answers from someone accountable for them.
 
@@ -2220,7 +2222,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     content: `
 ## The straight answer
 
-Morocco is safe for solo female travellers. It is ranked among the safest countries in Africa for visitors, and Western government travel advisories consistently place it in their lowest or second-lowest risk tier — check your own government's current advisory before you travel, since these are reviewed periodically and the exact wording shifts, but Morocco has sat at the safe end of that scale for years.
+Morocco is safe for solo female travellers. It is ranked among the safest countries in Africa for visitors, and Western government travel advisories consistently place it in their lowest or second-lowest risk tier — check your own government's current advisory before you travel, since these are reviewed periodically and the exact wording shifts, but Morocco has sat at the safe end of that scale for years. For the version of this that is not specific to women — scams, taxis, night walking, what actually goes wrong — see [Is Morocco Safe?](/en/blog/is-morocco-safe-tourist-guide).
 
 And: it can be tiring in a way those countries are not.
 
@@ -2907,6 +2909,8 @@ What the rebuilt city has instead of ancient fabric is a long Atlantic beach, a 
 - **Taroudant.** Walled town often described as a smaller, quieter Marrakech. [Day trip](/en/tours/taroudant-day-trip-agadir).
 - **The Anti-Atlas.** Lower and far quieter than the High Atlas, at its best in late winter and spring.
 - **The desert, over more days.** [Two-day](/en/tours/sahara-2day-agadir) and [three-day](/en/tours/merzouga-3day-agadir) trips run from here too.
+
+If you have landed at Agadir and want the whole week planned rather than a list of options, our [7-day Morocco itinerary from Agadir](/en/blog/7-day-agadir-itinerary-morocco) maps three versions — desert, imperial cities, or coast and mountains — with the real per-person prices and honest driving times.
 
 ## Side by side
 
@@ -3785,7 +3789,7 @@ In parts of Morocco, a tradition older than any restaurant schedule still plays 
 
 ## Eating and Drinking as a Visitor
 
-There's no legal restriction on tourists eating or drinking during daylight hours in Ramadan. The expectation is discretion rather than abstinence — eating inside a restaurant or your riad draws no attention at all; eating conspicuously on an open café terrace in a smaller, more conservative town is more likely to be noticed. In Marrakech's main tourist districts, this is rarely something visitors need to think about.
+There's no legal restriction on tourists eating or drinking during daylight hours in Ramadan. The expectation is discretion rather than abstinence — eating inside a restaurant or your riad draws no attention at all; eating conspicuously on an open café terrace in a smaller, more conservative town is more likely to be noticed. In Marrakech's main tourist districts, this is rarely something visitors need to think about. Alcohol is the one thing that does change materially: many liquor shops close for the month and some bars restrict service to hotel guests — [how alcohol works in Morocco](/en/blog/alcohol-in-morocco) covers the normal rules and what Ramadan alters.
 
 ## Tours and Treks During Ramadan
 
@@ -3814,9 +3818,9 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["alcohol in Morocco", "Morocco drinking laws", "can you drink in Morocco", "Morocco bars"],
-    seoTitle: "Alcohol in Morocco 2026 — What's Legal, Where to Buy, and What to Know",
+    seoTitle: "Can You Drink Alcohol in Morocco? Yes — Where to Buy It",
     seoDescription:
-      "Alcohol is legal in Morocco for visitors, sold through licensed bars, hotels and specific shops. Here's how the rules actually work, and what changes during Ramadan.",
+      "Yes — alcohol is legal for visitors over 18. Where to buy it (Carrefour, Marjane, licensed bars), what it costs, where drinking is banned, and what changes in Ramadan.",
     faq: [
       { q: "Is alcohol legal in Morocco?", a: "Yes. Morocco is a Muslim-majority country and most Moroccans don't drink, but alcohol is legal for anyone over 18, sold and served in licensed venues: hotel bars and restaurants, some standalone bars and beach clubs, larger supermarkets like Carrefour and Marjane, and dedicated liquor shops in cities." },
       { q: "Can I drink in public in Morocco?", a: "No — public drinking is a criminal offence, and visible public intoxication can lead to a fine or a short spell in a holding cell. Drink inside licensed venues, hotel rooms or private settings, and carry alcohol discreetly rather than visibly through the medina." },
@@ -4134,7 +4138,7 @@ For the full picture of the valley itself, see the [complete Paradise Valley gui
 
 If you are staying in Marrakech and want the same *feeling* — a cool river valley with pools and waterfalls, reachable in a day — you have two strong options much closer to home:
 
-- **Ourika Valley.** The classic Marrakech river-valley escape: green terraces, Berber villages, and the Setti Fatma waterfalls, about 90 minutes away. Our [Ourika Valley day hike](/en/tours/ourika-valley-day-hike) covers it.
+- **Ourika Valley.** The classic Marrakech river-valley escape: green terraces, Berber villages, and the Setti Fatma waterfalls, about 90 minutes away. Our [Ourika Valley day hike](/en/tours/ourika-valley-day-hike) covers it, and the [full Ourika day trip guide](/en/blog/ourika-valley-day-trip-marrakech) has the practical detail — when the falls run hardest, what the walk involves, and what a fair price looks like.
 - **Ouzoud Waterfalls.** Morocco's most dramatic falls, a 110 m triple cascade with wild monkeys, on our [Ouzoud Waterfalls day trip](/en/tours/ouzoud-waterfalls-day-trip).
 
 Both give you the water-and-nature day that people picture when they search for Paradise Valley — without the seven-hour round trip.
@@ -7408,7 +7412,8 @@ addition to the trip price.
 across open sand, in the dark, with a five-year-old, is the thing that turns a magical
 night into a difficult one. Our [4-day family desert
 tour](/en/tours/family-desert-4day-marrakech) is built around a family camp for exactly
-this reason.
+this reason, and [what a family desert tour costs](/en/blog/family-desert-tour-morocco-cost)
+sets out the per-person price at each group size.
 
 **December to February.** Desert nights genuinely drop near freezing. A heated tent is
 not a comfort purchase in January, it is the difference between sleeping and not.

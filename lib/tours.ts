@@ -350,6 +350,7 @@ export const TOURS: Tour[] = [
   {
     id: "3",
     slug: "ourika-valley-day-hike",
+    relatedPosts: ["ourika-valley-day-trip-marrakech", "best-day-trips-from-agadir", "marrakech-medina-complete-guide"],
     title: "Marrakech to Ourika Valley — Day Hike",
     category: "day-tours",
     origin: "marrakech",
@@ -422,6 +423,7 @@ export const TOURS: Tour[] = [
   {
     id: "4",
     slug: "ouzoud-waterfalls-day-trip",
+    relatedPosts: ["ourika-valley-day-trip-marrakech", "best-time-to-visit-morocco"],
     title: "Marrakech to Ouzoud Waterfalls — Day Trip",
     category: "day-tours",
     origin: "marrakech",
@@ -494,6 +496,7 @@ export const TOURS: Tour[] = [
   {
     id: "5",
     slug: "agafay-desert-sunset",
+    relatedPosts: ["agafay-desert-marrakech-guide", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco"],
     title: "Marrakech to Agafay Desert — Sunset & Dinner",
     category: "day-tours",
     origin: "marrakech",
@@ -566,6 +569,7 @@ export const TOURS: Tour[] = [
   {
     id: "6",
     slug: "marrakech-medina-cultural-tour",
+    relatedPosts: ["marrakech-medina-complete-guide", "haggling-in-moroccan-souks-guide", "what-is-a-riad", "moroccan-mint-tea-ceremony-guide"],
     title: "Marrakech Medina — Cultural Tour",
     category: "cultural",
     origin: "marrakech",
@@ -637,6 +641,7 @@ export const TOURS: Tour[] = [
   {
     id: "7",
     slug: "marrakech-to-fes-3day",
+    relatedPosts: ["marrakech-to-fes-road-trip-guide", "fes-medina-travel-guide", "morocco-unesco-sites-film-locations"],
     title: "Marrakech to Fes — 3-Day Imperial Cities Tour",
     category: "cultural",
     origin: "marrakech",
@@ -738,6 +743,7 @@ export const TOURS: Tour[] = [
   {
     id: "8",
     slug: "mgoun-massif-trek",
+    relatedPosts: ["mgoun-massif-trek-cost", "best-multi-day-treks-morocco", "what-to-pack-high-atlas-trek-morocco"],
     title: "Marrakech to Mgoun Massif — 7-Day Traverse",
     category: "trekking",
     origin: "marrakech",
@@ -817,6 +823,7 @@ export const TOURS: Tour[] = [
   {
     id: "9",
     slug: "paradise-valley-agadir",
+    relatedPosts: ["paradise-valley-agadir-complete-guide", "paradise-valley-from-agadir", "best-time-to-visit-paradise-valley", "paradise-valley-swimming-guide"],
     title: "Agadir to Paradise Valley & Immouzer Waterfalls",
     category: "day-tours",
     origin: "agadir",
@@ -888,6 +895,7 @@ export const TOURS: Tour[] = [
   {
     id: "10",
     slug: "sous-massa-national-park",
+    relatedPosts: ["souss-massa-national-park-birdwatching-guide", "argan-oil-souss-valley-agadir-guide"],
     title: "Agadir to Souss-Massa National Park — Wildlife Tour",
     category: "day-tours",
     origin: "agadir",
@@ -960,6 +968,7 @@ export const TOURS: Tour[] = [
   {
     id: "11",
     slug: "taroudant-day-trip-agadir",
+    relatedPosts: ["taroudant-day-trip-from-agadir-guide", "best-day-trips-from-agadir"],
     title: "Agadir to Taroudant — Day Trip",
     category: "cultural",
     origin: "agadir",
@@ -1031,6 +1040,7 @@ export const TOURS: Tour[] = [
   {
     id: "12",
     slug: "agadir-surf-lesson",
+    relatedPosts: ["taghazout-surf-guide-morocco", "best-day-trips-from-agadir"],
     title: "Agadir Beach Surf Lesson",
     category: "day-tours",
     origin: "agadir",
@@ -1100,6 +1110,7 @@ export const TOURS: Tour[] = [
   {
     id: "13",
     slug: "anti-atlas-trekking-agadir",
+    relatedPosts: ["anti-atlas-trekking-guide", "what-to-pack-high-atlas-trek-morocco", "best-multi-day-treks-morocco"],
     title: "Agadir to Anti-Atlas Mountains — 3-Day Trek",
     category: "trekking",
     origin: "agadir",
@@ -1279,6 +1290,7 @@ export const TOURS: Tour[] = [
   {
     id: "15",
     slug: "souss-valley-cultural-tour",
+    relatedPosts: ["argan-oil-souss-valley-agadir-guide", "who-are-the-berbers"],
     title: "Agadir to Souss Valley — Argan & Berber Culture Tour",
     category: "cultural",
     origin: "agadir",
@@ -1351,6 +1363,7 @@ export const TOURS: Tour[] = [
   {
     id: "16",
     slug: "agadir-to-essaouira-day-trip",
+    relatedPosts: ["essaouira-day-trip-from-agadir", "best-day-trips-from-agadir"],
     title: "Agadir to Essaouira — Day Trip",
     category: "day-tours",
     origin: "agadir",
@@ -1526,6 +1539,7 @@ export const TOURS: Tour[] = [
   {
     id: "18",
     slug: "marrakech-imperial-cities-5day",
+    relatedPosts: ["fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco", "morocco-unesco-sites-film-locations"],
     title: "Marrakech — All 4 Imperial Cities — 5-Day Grand Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1646,6 +1660,7 @@ export const TOURS: Tour[] = [
   {
     id: "23",
     slug: "zagora-2day-marrakech",
+    relatedPosts: ["zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco"],
     title: "Marrakech to Zagora — 2-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -1746,6 +1761,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
+    relatedPosts: ["erg-chebbi-vs-erg-chegaga", "morocco-camel-trek-sahara-guide", "luxury-vs-standard-desert-camp-morocco"],
     title: "Erg Chegaga from Marrakech — 3-Day Remote Desert Expedition",
     category: "desert",
     origin: "marrakech",
@@ -1858,6 +1874,7 @@ export const TOURS: Tour[] = [
   {
     id: "25",
     slug: "desert-4day-marrakech",
+    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide"],
     title: "Marrakech Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "marrakech",
@@ -1984,6 +2001,7 @@ export const TOURS: Tour[] = [
   {
     id: "26",
     slug: "merzouga-3day-agadir",
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "merzouga-travel-guide"],
     title: "Agadir to Merzouga — 3-Day Sahara Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2087,6 +2105,7 @@ export const TOURS: Tour[] = [
   {
     id: "27",
     slug: "zagora-2day-agadir",
+    relatedPosts: ["zagora-desert-guide", "sahara-desert-from-agadir"],
     title: "Agadir to Zagora — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2400,6 +2419,7 @@ export const TOURS: Tour[] = [
   {
     id: "19",
     slug: "agadir-to-fes-4day",
+    relatedPosts: ["fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide"],
     title: "Agadir to Fes — 4-Day Imperial Cities Tour",
     category: "cultural",
     origin: "agadir",
@@ -2507,6 +2527,7 @@ export const TOURS: Tour[] = [
   {
     id: "20",
     slug: "agadir-to-chefchaouen-5day",
+    relatedPosts: ["chefchaouen-complete-travel-guide", "marrakech-to-chefchaouen-tour-cost"],
     title: "Agadir to Chefchaouen — 5-Day Blue City Tour",
     category: "cultural",
     origin: "agadir",
@@ -2621,6 +2642,7 @@ export const TOURS: Tour[] = [
   {
     id: "21",
     slug: "agadir-imperial-cities-6day",
+    relatedPosts: ["7-day-agadir-itinerary-morocco", "fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco"],
     title: "Agadir — All 4 Imperial Cities — 6-Day Grand Tour",
     category: "cultural",
     origin: "agadir",
@@ -2994,6 +3016,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
+    relatedPosts: ["how-hard-is-toubkal-difficulty-guide", "toubkal-guide-cost", "altitude-sickness-toubkal-guide"],
     title: "Toubkal via Aguelzim Pass from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3098,6 +3121,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
+    relatedPosts: ["toubkal-three-peaks-trek-cost", "altitude-sickness-toubkal-guide", "how-hard-is-toubkal-difficulty-guide"],
     title: "Toubkal Three 4,000 m Peaks from Marrakech — 3-Day Challenge",
     category: "trekking",
     origin: "marrakech",
@@ -3203,6 +3227,7 @@ export const TOURS: Tour[] = [
   {
     id: "34",
     slug: "marrakech-food-market-tour",
+    relatedPosts: ["morocco-food-guide-what-to-eat", "moroccan-mint-tea-ceremony-guide"],
     title: "Marrakech Food & Market Tour — Half-Day Culinary Walk",
     category: "day-tours",
     origin: "marrakech",
@@ -3274,6 +3299,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
+    relatedPosts: ["merzouga-travel-guide", "sahara-desert-facts", "luxury-vs-standard-desert-camp-morocco"],
     title: "Merzouga Stargazing from Marrakech — 2-Day Dark Sky Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -3364,6 +3390,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
+    relatedPosts: ["high-atlas-village-trek-cost", "gite-panorama-imlil-base-camp-toubkal", "what-to-pack-high-atlas-trek-morocco"],
     title: "Azzaden Valley from Marrakech — 2-Day Atlas Mountains Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3453,6 +3480,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
+    relatedPosts: ["high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
     title: "High Atlas Villages from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3553,6 +3581,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
+    relatedPosts: ["morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco"],
     title: "Family High Atlas from Marrakech — 4-Day Gentle Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3783,6 +3812,7 @@ export const TOURS: Tour[] = [
   {
     id: "40",
     slug: "high-atlas-grand-traverse-15day",
+    relatedPosts: ["high-atlas-grand-traverse-cost", "best-multi-day-treks-morocco", "what-to-pack-high-atlas-trek-morocco"],
     title: "High Atlas Grand Traverse — 15-Day M'Goun to Toubkal Trek from Marrakech",
     category: "trekking",
     origin: "marrakech",
@@ -3873,6 +3903,7 @@ export const TOURS: Tour[] = [
   {
     id: "41",
     slug: "toubkal-summit-sahara-5day",
+    relatedPosts: ["toubkal-sahara-5day-cost", "how-to-climb-toubkal-complete-guide", "altitude-sickness-toubkal-guide"],
     title: "Toubkal & Sahara from Marrakech — 5-Day Mountain-to-Desert Tour",
     category: "trekking",
     origin: "marrakech",
@@ -4011,6 +4042,7 @@ export const TOURS: Tour[] = [
   {
     id: "42",
     slug: "chegaga-camel-trek-8day",
+    relatedPosts: ["morocco-camel-trek-sahara-guide", "erg-chebbi-vs-erg-chegaga", "sahara-desert-facts"],
     title: "Draa Valley to M'hamid — 8-Day Chegaga Camel Trek",
     category: "desert",
     origin: "marrakech",

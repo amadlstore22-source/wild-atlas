@@ -1291,7 +1291,7 @@ Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un gu
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qué es una kasbah", "significado de kasbah", "arquitectura marroquí", "ksar vs kasbah"],
-    seoTitle: "¿Qué es una kasbah? Significado, historia y cómo distinguirla de un ksar",
+    seoTitle: "¿Qué es una kasbah? Significado y diferencia con un ksar",
     seoDescription:
       "Una kasbah es un edificio fortificado, no toda una ciudad. La definición real, en qué se diferencia de un ksar, un riad y una medina, y dónde ver los mejores ejemplos.",
     faq: [
@@ -1345,7 +1345,7 @@ Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo u
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qué es un riad", "significado de riad", "alojamiento en Marrakech", "riad vs hotel"],
-    seoTitle: "¿Qué es un riad? La casa-patio tradicional marroquí, explicada",
+    seoTitle: "¿Qué es un riad? Significado y qué esperar dentro",
     seoDescription:
       "Un riad es una casa tradicional construida en torno a un jardín interior, no un término de marketing. La diferencia con un dar y qué esperar.",
     faq: [
@@ -1628,7 +1628,7 @@ Genuinamente, depende de lo que busques. Los principales monumentos y treks est�
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["alcohol en Marruecos", "leyes de bebida en Marruecos", "se puede beber en Marruecos", "bares en Marruecos"],
-    seoTitle: "El alcohol en Marruecos 2026 — Qué es legal, dónde comprarlo, y qué saber",
+    seoTitle: "¿Se puede beber alcohol en Marruecos? Sí — dónde comprarlo",
     seoDescription:
       "El alcohol es legal en Marruecos para los visitantes, vendido en bares con licencia, hoteles y tiendas específicas. Así funcionan realmente las normas, y lo que cambia durante el Ramadán.",
     faq: [

@@ -1291,7 +1291,7 @@ Das zu verstehen ist keine Trivialität – es verändert, wie sich ein Trek lie
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["was ist eine Kasbah", "Kasbah Bedeutung", "Marokko Architektur", "Ksar vs Kasbah"],
-    seoTitle: "Was ist eine Kasbah? Bedeutung, Geschichte und Unterschied zum Ksar",
+    seoTitle: "Was ist eine Kasbah? Bedeutung und Unterschied zum Ksar",
     seoDescription:
       "Eine Kasbah ist ein einzelnes befestigtes Gebäude, keine Stadt — das unterscheidet sie vom Ksar. Bedeutung, Wortherkunft und die besten Beispiele.",
     faq: [
@@ -1345,7 +1345,7 @@ Manche restaurierten Kasbahs dienen heute als Gästehäuser und bieten eine Nach
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["was ist ein Riad", "Riad Bedeutung", "Unterkunft Marrakech", "Riad vs Hotel"],
-    seoTitle: "Was ist ein Riad? Das traditionelle marokkanische Hofhaus erklärt",
+    seoTitle: "Was ist ein Riad? Das Hofhaus einfach erklärt",
     seoDescription:
       "Ein Riad ist ein traditionelles Haus, gebaut um einen inneren Garten, nicht nur ein Marketingbegriff für Boutique-Hotels. Die echte Definition und was Sie bei einem Aufenthalt erwartet.",
     faq: [
@@ -1628,9 +1628,9 @@ Das hängt tatsächlich davon ab, was Sie suchen. Große Sehenswürdigkeiten und
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Alkohol in Marokko", "Marokko Alkoholgesetze", "kann man in Marokko trinken", "Marokko Bars"],
-    seoTitle: "Alkohol in Marokko 2026 — Was legal ist, wo man kauft, und was zu wissen ist",
+    seoTitle: "Alkohol in Marokko: Ja, erlaubt — wo Sie ihn kaufen",
     seoDescription:
-      "Alkohol ist in Marokko für Besucher legal: lizenzierte Bars, Hotels und Supermärkte wie Carrefour. Wo man kauft, was es kostet und was im Ramadan gilt.",
+      "Ja — Alkohol ist für Besucher ab 18 legal. Wo Sie ihn kaufen (Carrefour, Marjane), was er kostet, wo Trinken verboten ist, und was im Ramadan gilt.",
     faq: [
       { q: "Ist Alkohol in Marokko legal?", a: "Ja. Marokko ist ein mehrheitlich muslimisches Land, und die meisten Marokkaner trinken nicht, aber Alkohol ist für alle über 18 legal, verkauft und ausgeschenkt in lizenzierten Betrieben: Hotelbars und -restaurants, manche eigenständige Bars und Strandclubs, größere Supermärkte wie Carrefour und Marjane, und spezialisierte Spirituosenläden in den Städten." },
       { q: "Darf ich in Marokko in der Öffentlichkeit trinken?", a: "Nein – öffentliches Trinken ist eine Straftat, und sichtbare öffentliche Trunkenheit kann zu einer Geldstrafe oder einem kurzen Aufenthalt in Gewahrsam führen. Trinken Sie innerhalb lizenzierter Betriebe, Hotelzimmer oder privater Umgebungen, und transportieren Sie Alkohol diskret statt sichtbar durch die Medina." },

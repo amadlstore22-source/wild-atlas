@@ -1291,7 +1291,7 @@ Comprendre cela n'est pas anecdotique — cela change la manière dont un trek s
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qu'est-ce qu'une kasbah", "signification de kasbah", "architecture marocaine", "ksar contre kasbah"],
-    seoTitle: "Qu'est-ce qu'une kasbah ? Signification, histoire et comment la distinguer d'un ksar",
+    seoTitle: "Qu'est-ce qu'une kasbah ? Sens et différence avec un ksar",
     seoDescription:
       "Une kasbah est un bâtiment fortifié, pas une ville entière. Voici la véritable définition, en quoi elle diffère d'un ksar, d'un riad et d'une médina, et où voir les meilleurs exemples.",
     faq: [
@@ -1345,7 +1345,7 @@ Certaines kasbahs restaurées fonctionnent désormais comme maisons d'hôtes, of
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qu'est-ce qu'un riad", "signification de riad", "hébergement à Marrakech", "riad contre hôtel"],
-    seoTitle: "Qu'est-ce qu'un riad ? La maison à cour marocaine traditionnelle expliquée",
+    seoTitle: "Qu'est-ce qu'un riad ? Signification et intérieur",
     seoDescription:
       "Un riad est une maison traditionnelle construite autour d'un jardin intérieur, pas seulement un terme marketing pour hôtel-boutique. Voici la véritable définition et à quoi s'attendre en y séjournant.",
     faq: [

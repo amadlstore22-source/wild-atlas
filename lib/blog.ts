@@ -3857,6 +3857,8 @@ During Ramadan, many liquor shops and some bars stop selling alcohol for the mon
 ## A Practical Summary
 
 If you want a drink in Morocco: book accommodation that serves alcohol (most mid-range and up do), or plan a stop at a licensed shop or supermarket in a city before heading somewhere more rural. Keep it inside private or licensed spaces. Expect availability to shrink the further you get from Marrakech, Casablanca, and the coastal resort towns, and to shrink further still during Ramadan. None of this makes Morocco a difficult place to have a drink — it just makes it a place where the drinking happens somewhere specific rather than anywhere at all, which is a different thing from it being hard to find.
+
+If you are still deciding where the trip goes, that geography matters more than the law does. Marrakech and the coast are straightforward; the desert and the mountains are where availability thins out. Our [desert tours](/en/tours?cat=desert) each state what the camp serves, and the [High Atlas treks](/en/tours?cat=trekking) run through villages where the answer is simply no — worth knowing before you book rather than after.
 `,
   },
   {

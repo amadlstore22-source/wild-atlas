@@ -1669,6 +1669,10 @@ Während des Ramadan stellen viele Spirituosenläden und manche Bars den Alkohol
 ## Eine praktische Zusammenfassung
 
 Wenn Sie in Marokko einen Drink möchten: Buchen Sie eine Unterkunft, die Alkohol serviert (die meisten im mittleren Segment und darüber tun das), oder planen Sie einen Stopp bei einem lizenzierten Laden oder Supermarkt in einer Stadt, bevor Sie irgendwohin ländlicher fahren. Behalten Sie es innerhalb privater oder lizenzierter Räume. Rechnen Sie damit, dass die Verfügbarkeit schrumpft, je weiter Sie sich von Marrakech, Casablanca und den Küstenresortstädten entfernen, und noch weiter während des Ramadan. Nichts davon macht Marokko zu einem schwierigen Ort für einen Drink – es macht es nur zu einem Ort, an dem das Trinken an einem bestimmten Ort stattfindet statt überall, was etwas anderes ist, als dass es schwer zu finden wäre.
+
+Wenn Sie noch überlegen, wohin die Reise geht, zählt diese Geografie mehr als das Gesetz. Marrakesch und die Küste sind unkompliziert; in der Wüste und in den Bergen wird die Verfügbarkeit dünn. Bei unseren [Wüstentouren](/de/tours?cat=desert) steht jeweils dabei, was das Camp ausschenkt, und die [Trekkingtouren im Hohen Atlas](/de/tours?cat=trekking) führen durch Dörfer, in denen die Antwort schlicht nein lautet — gut zu wissen, bevor Sie buchen, nicht danach.
+
+Wenn Sie noch überlegen, wohin die Reise geht, zählt diese Geografie mehr als das Gesetz. Marrakesch und die Küste sind unkompliziert; in der Wüste und in den Bergen wird die Verfügbarkeit dünn. Bei unseren [Wüstentouren](/de/tours?cat=desert) steht jeweils dabei, was das Camp ausschenkt, und die [Trekkingtouren im Hohen Atlas](/de/tours?cat=trekking) führen durch Dörfer, in denen die Antwort schlicht nein lautet — gut zu wissen, bevor Sie buchen, nicht danach.
 `,
   },
   {

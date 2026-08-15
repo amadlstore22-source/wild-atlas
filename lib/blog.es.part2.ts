@@ -1669,6 +1669,8 @@ Durante el Ramadán, muchas tiendas de licores y algunos bares dejan de vender a
 ## Un resumen práctico
 
 Si quieres tomar una copa en Marruecos: reserva alojamiento que sirva alcohol (la mayoría de gama media y alta lo hace), o planea una parada en una tienda o supermercado con licencia en una ciudad antes de dirigirte a algo más rural. Mantenlo dentro de espacios privados o con licencia. Espera que la disponibilidad se reduzca cuanto más te alejes de Marrakech, Casablanca y las ciudades turísticas de la costa, y que se reduzca aún más durante el Ramadán. Nada de esto convierte a Marruecos en un lugar difícil para tomar una copa; simplemente lo convierte en un lugar donde el consumo ocurre en un sitio específico en lugar de en cualquier parte, que es distinto de que sea difícil de encontrar.
+
+Si todavía estás decidiendo por dónde va el viaje, esa geografía pesa más que la ley. Marrakech y la costa no dan problemas; es en el desierto y en la montaña donde la disponibilidad se reduce. Nuestros [tours por el desierto](/es/tours?cat=desert) indican qué sirve cada campamento, y los [trekkings por el Alto Atlas](/es/tours?cat=trekking) atraviesan pueblos donde la respuesta es sencillamente no — conviene saberlo antes de reservar y no después.
 `,
   },
   {

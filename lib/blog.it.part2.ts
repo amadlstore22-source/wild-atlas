@@ -1669,6 +1669,8 @@ Durante il Ramadan, molti negozi di liquori e alcuni bar interrompono la vendita
 ## Un Riepilogo Pratico
 
 Se vuoi bere qualcosa in Marocco: prenota un alloggio che serva alcol (la maggior parte di fascia media e superiore lo fa), oppure pianifica una sosta in un negozio autorizzato o supermercato in città prima di dirigerti verso zone più rurali. Tienilo dentro spazi privati o autorizzati. Aspettati che la disponibilità si riduca man mano che ti allontani da Marrakech, Casablanca e le città costiere turistiche, e che si riduca ulteriormente durante il Ramadan. Nulla di tutto questo rende il Marocco un posto difficile in cui bere qualcosa: rende solo un posto dove il bere avviene in un luogo specifico piuttosto che ovunque, il che è diverso dall'essere difficile da trovare.
+
+Se stai ancora decidendo dove andrà il viaggio, quella geografia conta più della legge. Marrakech e la costa non danno problemi; è nel deserto e in montagna che la disponibilità si assottiglia. I nostri [tour nel deserto](/it/tours?cat=desert) indicano cosa serve ciascun campo, e i [trekking dell'Alto Atlante](/it/tours?cat=trekking) attraversano villaggi dove la risposta è semplicemente no — meglio saperlo prima di prenotare che dopo.
 `,
   },
   {

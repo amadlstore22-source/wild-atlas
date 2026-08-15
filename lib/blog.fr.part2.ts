@@ -1669,6 +1669,10 @@ Pendant le Ramadan, de nombreuses boutiques de spiritueux et certains bars cesse
 ## Un résumé pratique
 
 Si vous voulez boire un verre au Maroc : réservez un hébergement qui sert de l'alcool (la plupart des établissements de milieu et haut de gamme le font), ou prévoyez un arrêt dans une boutique agréée ou un supermarché en ville avant de vous rendre dans un endroit plus rural. Gardez cela à l'intérieur d'espaces privés ou agréés. Attendez-vous à ce que la disponibilité diminue à mesure que vous vous éloignez de Marrakech, Casablanca et des villes côtières balnéaires, et à ce qu'elle diminue encore davantage pendant le Ramadan. Rien de tout cela ne fait du Maroc un endroit difficile pour boire un verre — cela en fait simplement un endroit où l'on boit dans des lieux précis plutôt que n'importe où, ce qui est différent du fait que ce soit difficile à trouver.
+
+Si vous hésitez encore sur l'itinéraire, cette géographie compte davantage que la loi. Marrakech et la côte ne posent aucun problème ; c'est dans le désert et en montagne que la disponibilité se raréfie. Nos [circuits dans le désert](/fr/tours?cat=desert) précisent chacun ce que sert le campement, et les [treks du Haut Atlas](/fr/tours?cat=trekking) traversent des villages où la réponse est simplement non — mieux vaut le savoir avant de réserver qu'après.
+
+Si vous hésitez encore sur l'itinéraire, cette géographie compte davantage que la loi. Marrakech et la côte ne posent aucun problème ; c'est dans le désert et en montagne que la disponibilité se raréfie. Nos [circuits dans le désert](/fr/tours?cat=desert) précisent chacun ce que sert le campement, et les [treks du Haut Atlas](/fr/tours?cat=trekking) traversent des villages où la réponse est simplement non — mieux vaut le savoir avant de réserver qu'après.
 `,
   },
   {

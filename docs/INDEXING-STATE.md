@@ -1,7 +1,12 @@
 # Indexing state
 
-**As of 2026-08-15: all 882 site URLs have been submitted to the Google
+**As of 2026-08-16: all 960 site URLs have been submitted to the Google
 Indexing API.** There is no backlog left to work through.
+
+The 882 figure recorded here on 2026-08-15 was accurate for the list as it
+stood, but the list itself was stale — see "When to submit again" below. Trust
+a freshly regenerated `docs/all-index-urls.txt` over any count written down
+here, including this one.
 
 ## What this does and does not mean
 
@@ -18,10 +23,20 @@ Only for pages that genuinely changed:
 2. Pages whose price or substance changed — stale Product snippets in search
    results are the one case worth spending quota on.
 
-Rebuild the master list from the BUILT sitemap so it can never drift:
+Rebuild the master list from the BUILT sitemap — it is generated, never
+hand-edited, so it cannot contain a URL the site does not serve:
 
     npx next build
     node scripts/build-index-urls.mjs
+
+**Run this every time pages ship, not only when you plan a batch.** The list
+does not drift on its own, but it goes stale the moment new pages are merged
+without regenerating it, and a stale list silently hides live pages from every
+batch you build afterwards. On 2026-08-16 the rebuild jumped 882 → 960: only
+18 were that day's new posts, and the other 60 were pages that had been live
+for days (all five shared tours in fr/es/de/it/ar, five translated blog posts)
+and had never once been submitted. Nothing reports this — the batch you build
+simply omits them.
 
 Then assemble a small batch and run:
 

@@ -833,7 +833,7 @@ Morocco's most famous dish is named after the conical clay pot it's cooked in. T
 - **Chicken tagine with preserved lemon and green olives** — the definitive Moroccan flavour
 - **Kefta tagine** — spiced meatballs with eggs in tomato sauce
 
-**Where:** Every riad restaurant serves tagine. For an exceptional version, seek out a local family restaurant rather than a tourist-facing establishment.
+**Where:** Every riad restaurant serves tagine. For an exceptional version, seek out a local family restaurant rather than a tourist-facing establishment. Better still, learn to build one yourself — a [Marrakech cooking class](/en/blog/moroccan-cooking-class-marrakech-guide) teaches the layering and the spice base rather than a single recipe.
 
 ### 2. Couscous
 By tradition, couscous is the dish of Friday — prepared by hand, steamed over a broth of seven vegetables, and served with slow-cooked lamb or chicken. The Friday couscous at a family home is incomparably better than any restaurant version.
@@ -7621,6 +7621,344 @@ Two things worth deciding early:
 **You do not have to return to Agadir.** If you are flying home from Marrakech, say so when booking — finishing a desert or imperial tour there removes a 250 km leg and buys you two unhurried nights in the medina.
 
 👉 **[See all tours from Agadir](/en/tours?origin=agadir)** — each one lists the real duration, what is included, and the price at every group size.
+`,
+  },
+  {
+    slug: "best-things-to-do-in-morocco",
+    author: MET_TEAM,
+    title: "The 15 Best Things to Do in Morocco (2026)",
+    excerpt:
+      "Camel treks, blue streets, tanneries, hammams, surf breaks and the Sahara. The fifteen experiences worth building a Morocco trip around \u2014 and honest notes on which are worth the money.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 14,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["things to do in Morocco", "Morocco activities", "Morocco bucket list", "what to do in Morocco", "Morocco experiences"],
+    seoTitle: "15 Best Things to Do in Morocco \u2014 Ranked and Priced",
+    seoDescription:
+      "The fifteen experiences worth planning a Morocco trip around: Sahara camel treks, Toubkal, Chefchaouen, hammams, cooking classes and surf. With real prices and honest verdicts.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "What is the single most popular activity in Morocco?", a: "A Sahara desert trip \u2014 specifically a camel ride into the dunes at Erg Chebbi near Merzouga and a night at a desert camp. It is the experience most people build the rest of their itinerary around. From Marrakech it needs three days, because Merzouga is a full day's drive each way." },
+      { q: "How many days do you need to do the main things?", a: "Seven to ten days covers the classic set: Marrakech, a three-day Sahara trip, and either Chefchaouen or the coast. In under a week you have to choose between the desert and the north \u2014 trying to do both means spending most of your holiday in a vehicle." },
+      { q: "What is the cheapest way to do these activities?", a: "Shared group departures. An Agafay desert evening runs \u20ac30 per person, an Essaouira day trip \u20ac30, and a full three-day Sahara trip \u20ac120. Private tours cost more per person for one or two travellers, but become competitive from about four people upward." },
+      { q: "Is a hammam worth doing?", a: "Yes, and it is the most underrated thing on this list. A local hammam beldi costs 10\u201320 MAD; a tourist hammam with a scrub and massage runs 150\u2013400 MAD. Go on your last day, after the trekking." },
+      { q: "Do I need to book activities in advance?", a: "Book multi-day trips and treks in advance, especially March\u2013May and September\u2013November. Day trips, hammams and cooking classes can usually be arranged a day or two ahead, though shared departures do fill in high season." },
+    ],
+    content: `
+Morocco packs an unusual amount into a small space. In one week you can sleep in the Sahara, climb above 4,000 m, walk a medieval medina and surf an Atlantic point break. The difficulty is not finding things to do \u2014 it is choosing, and knowing which of the famous experiences actually justify the time and money.
+
+This is the list we would give a friend. Fifteen things, grouped by the kind of day they make, with real prices and an honest verdict on each.
+
+## Desert and adventure
+
+### 1. Sleep in the Sahara at Erg Chebbi
+
+The single most requested experience in Morocco, and it deserves the reputation. Erg Chebbi near Merzouga is a genuine sand sea \u2014 dunes to 150 m, the colour shifting from apricot to deep orange as the sun drops. You ride a camel over the last ridge, sleep at a camp, and wake for sunrise.
+
+The catch is distance. Merzouga is roughly a day's drive from Marrakech, so this is a **three-day trip**, not a day trip. Anyone selling you the Sahara from Marrakech in a day is selling you Agafay, which is a different thing entirely.
+
+**Cost:** from \u20ac120 per person on a [shared 3-day departure](/en/tours/shared-merzouga-3day-marrakech). A [private version](/en/tours/sahara-3day-marrakech) of the same route is \u20ac230 per person at six travellers.
+
+**Verdict:** do it. If you only have two days, [Zagora](/en/tours/shared-zagora-2day-marrakech) is the honest substitute \u2014 closer, but low scrubby dunes rather than the sand sea from the photographs.
+
+### 2. An evening in the Agafay stone desert
+
+Forty minutes from Marrakech, Agafay is a lunar landscape of grey hills with the Atlas on the skyline. No dunes \u2014 it is a rocky desert, and operators who call it "the desert near Marrakech" are stretching the word. As an evening out, though, it is excellent: camel ride at golden hour, dinner in a camp, fire show, back at your riad by 10:30 pm.
+
+**Cost:** \u20ac30 per person for the [shared evening](/en/tours/shared-agafay-dinner-camel-ride).
+
+**Verdict:** worth it as an evening, never as a Sahara replacement. Read the [Agafay guide](/en/blog/agafay-desert-marrakech-guide) before booking, and the [three-way comparison](/en/blog/agafay-vs-merzouga-vs-zagora) if you are choosing between deserts.
+
+### 3. Climb Jbel Toubkal
+
+At 4,167 m, Toubkal is the highest peak in North Africa, and it is a walk rather than a climb \u2014 no ropes, no technical ground, from late spring to autumn. What it does demand is fitness and a head for altitude: 1,500 m of ascent on summit day.
+
+**Cost:** the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is the standard route. See [how hard Toubkal really is](/en/blog/how-hard-is-toubkal-difficulty-guide) for a straight answer on the difficulty.
+
+**Verdict:** the best value adventure in Morocco if you are fit. In winter it becomes a mountaineering objective needing crampons and an ice axe \u2014 [what to expect in winter](/en/blog/toubkal-in-winter-what-to-expect).
+
+### 4. Trek between Berber villages in the High Atlas
+
+The quieter alternative to a summit bid, and for many people the better trip. Walking valley to valley \u2014 Imlil, Azzaden, Ourika \u2014 you stay in village guesthouses, eat with families, and see an agricultural system worked the same way for centuries.
+
+**Verdict:** choose this over Toubkal if your interest is people and landscape rather than altitude. Start with [the best multi-day treks](/en/blog/best-multi-day-treks-morocco).
+
+### 5. Surf at Taghazout or Imsouane
+
+Morocco's Atlantic coast has world-class right-hand point breaks, and the water is surfable year-round. Taghazout, north of Agadir, is the hub; Imsouane has one of the longest rides in Africa. Anchor Point works best October to March, when the Atlantic swells arrive.
+
+**Verdict:** worth building a week around if you surf. Beginners are well served \u2014 see the [Taghazout surf guide](/en/blog/taghazout-surf-guide-morocco).
+
+## Culture and history
+
+### 6. Jemaa el-Fna and the Marrakech souks
+
+Marrakech's central square is a genuine spectacle after dark: food stalls, musicians, storytellers, crowds. The souks behind it run for kilometres. It is also the most aggressively commercial place in Morocco, and first-timers routinely overpay by three or four times.
+
+**Verdict:** unmissable, but go with your eyes open. Read [haggling in the souks](/en/blog/haggling-in-moroccan-souks-guide) first \u2014 it will save you more than the price of a guided walk. A [guided medina tour](/en/tours/marrakech-medina-cultural-tour) is \u20ac31 per person at six and removes the navigation problem entirely.
+
+### 7. Get lost in the Fes medina
+
+Fes el-Bali is the largest car-free urban area in the world and, unlike Marrakech, it is still primarily a working city rather than a tourist economy. Nine thousand alleys, a ninth-century university, and the Chouara tannery \u2014 where hides are still worked in stone vats using a process unchanged since the medieval period.
+
+**Verdict:** the more authentic of the two great medinas. Take a guide for the first morning; the [Fes medina guide](/en/blog/fes-medina-travel-guide) explains why.
+
+### 8. Photograph the blue streets of Chefchaouen
+
+Chefchaouen is genuinely as blue as the photographs, and genuinely small \u2014 a morning covers the medina. It sits in the Rif Mountains five hours north of Fes, so it is a real detour, best folded into a route rather than visited as a day trip.
+
+**Verdict:** worth the detour if your itinerary runs north. See the [complete Chefchaouen guide](/en/blog/chefchaouen-complete-travel-guide).
+
+### 9. A\u00eft Benhaddou
+
+The UNESCO-listed ksar of A\u00eft Benhaddou is the most photographed earthen architecture in Morocco, and its film credits \u2014 Gladiator, Game of Thrones, Lawrence of Arabia \u2014 explain the crowds. It sits directly on the road south, so almost every desert route stops there.
+
+**Verdict:** you will see it anyway on a Sahara trip. Climb to the top for the view over the Ounila valley. Background in the [A\u00eft Benhaddou guide](/en/blog/ait-benhaddou-guide) and the [film locations piece](/en/blog/morocco-unesco-sites-film-locations).
+
+### 10. Jardin Majorelle in Marrakech
+
+The electric-blue garden built by Jacques Majorelle and later rescued by Yves Saint Laurent. Small, beautiful, and extremely busy \u2014 book a timed ticket and go at opening.
+
+**Verdict:** worth an hour, not a morning. Combine it with the YSL museum next door.
+
+### 11. Todra Gorge and the Dades valley
+
+A 300 m limestone canyon narrowing to a corridor barely ten metres wide, with a road running through it. The Dades valley nearby has the switchback road that appears on every Morocco poster.
+
+**Verdict:** you pass both on the standard Marrakech\u2013Merzouga route, which is a strong argument for the three-day desert trip over flying. See the [Todra](/en/blog/todra-gorge-guide) and [Dades](/en/blog/dades-valley-gorges-guide) guides.
+
+## Food and wellness
+
+### 12. Take a tagine cooking class
+
+The most reliably enjoyable half-day in Morocco. You walk the spice souk learning to tell real saffron from dyed safflower, then cook a tagine from scratch with a local family and eat what you made.
+
+**Cost:** the [Marrakech food and market tour](/en/tours/marrakech-food-market-tour) is \u20ac109 solo and \u20ac33 per person at six \u2014 the steepest group discount of anything we run.
+
+**Verdict:** the single best-value cultural experience on this list, and the one people talk about afterwards. Pair it with the [food guide](/en/blog/morocco-food-guide-what-to-eat), and [what you actually learn in a class](/en/blog/moroccan-cooking-class-marrakech-guide) if you want the detail before booking.
+
+### 13. A traditional hammam
+
+Morocco's bathhouse ritual: steam, a black-soap scrub with a kessa glove, and a rinse. There are two versions. A **hammam beldi** is the local public bath \u2014 10\u201320 MAD, no English, bring your own soap and glove. A **tourist hammam** costs 150\u2013400 MAD and adds a massage, mint tea and staff who speak English.
+
+**Verdict:** do it on your last day, after the trekking. The scrub is more thorough than most visitors expect. Details in the [Marrakech medina guide](/en/blog/marrakech-medina-complete-guide).
+
+### 14. Drink mint tea properly
+
+Not a tourist activity so much as the texture of Moroccan daily life \u2014 but the ceremony has real rules, and understanding them changes how you read every interaction. Three glasses, poured from height, each one different.
+
+**Verdict:** free, and the [mint tea guide](/en/blog/moroccan-mint-tea-ceremony-guide) is a five-minute read that pays off daily.
+
+### 15. Stay in a riad
+
+A riad is a courtyard house turned inward around a garden or fountain, and staying in one inside the medina walls is a fundamentally different experience from a hotel on the new-town ring road.
+
+**Verdict:** book at least a couple of nights in one. [What is a riad](/en/blog/what-is-a-riad) covers what to look for and what the word actually means.
+
+## Building these into a trip
+
+Most of the list clusters into three bases. Marrakech covers the souks, Agafay, cooking classes, hammams and the Toubkal trailhead. The Sahara needs three days out and back. The north \u2014 Fes and Chefchaouen \u2014 is a separate leg.
+
+That is why a week is the practical minimum for a first trip and ten days is comfortable. Our [7-day](/en/blog/7-day-morocco-itinerary) and [10-day](/en/blog/10-day-morocco-itinerary) itineraries sequence these properly, and [how many days you need](/en/blog/how-many-days-do-you-need-in-morocco) is the honest version of that question.
+
+If cost is the deciding factor, the [shared departure guide](/en/blog/shared-group-tours-morocco-guide) explains where group departures beat private tours and where they do not \u2014 the crossover is around four travellers.
+`,
+  },
+  {
+    slug: "shared-group-tours-morocco-guide",
+    author: MET_TEAM,
+    title: "Shared Group Tours in Morocco: What You Get for \u20ac30",
+    excerpt:
+      "Shared departures are the cheapest way to see Morocco \u2014 \u20ac30 for an Agafay evening, \u20ac120 for three days in the Sahara. What you give up, what you keep, and the group size where private wins.",
+    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["shared tours Morocco", "group tours Morocco", "budget Morocco tours", "cheap Morocco tours", "daily departures Marrakech"],
+    seoTitle: "Shared Group Tours Morocco \u2014 Real Prices from \u20ac30",
+    seoDescription:
+      "What a shared Morocco tour actually costs and includes: Agafay evenings from \u20ac30, Essaouira \u20ac30, Ouzoud \u20ac40, three days in the Sahara \u20ac120. And when private is cheaper.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "shared-agafay-dinner-camel-ride", "shared-essaouira-day-trip", "shared-ouzoud-waterfalls-day-trip", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "How much does a shared tour in Morocco cost?", a: "From \u20ac30 for a half-day or day trip out of Marrakech \u2014 an Agafay desert evening or an Essaouira day trip are both \u20ac30 per person, Ouzoud waterfalls \u20ac40. Multi-day: Zagora two days is \u20ac85 and the three-day Merzouga Sahara run is \u20ac120 per person, including accommodation and camp meals." },
+      { q: "How many people are on a shared departure?", a: "Up to sixteen on the minibus tours, up to twenty for the Agafay evening. Outside high season groups are often much smaller. You will be with travellers from several countries and the driver speaks English or French." },
+      { q: "Is a shared tour worth it compared to private?", a: "For one or two travellers, almost always. The three-day Sahara is \u20ac120 shared against \u20ac690 for one person privately. From about four travellers the gap narrows sharply, and at six the private tour costs \u20ac230 per person for a vehicle that is yours alone." },
+      { q: "What is not included in a shared tour?", a: "Typically lunches, drinks, tips and entry fees. Accommodation and camp dinners and breakfasts are included on the multi-day trips. Budget roughly 100\u2013150 MAD a day for the meals you buy yourself." },
+      { q: "Do shared tours run every day?", a: "Yes, daily year-round on the main routes. Very small groups in low season are occasionally merged with the following day's departure \u2014 you would be told before booking, not on the morning of travel." },
+    ],
+    content: `
+A shared tour is a fixed departure you join rather than commission. The vehicle runs on a set date and route whether or not you book, and you buy a seat on it. That single fact explains everything about the price, the pace and the trade-offs.
+
+For a solo traveller or a couple, shared departures are the cheapest legitimate way to see Morocco by a wide margin. This is what they actually cost and what you give up.
+
+## What shared departures cost
+
+Every figure below is our own current price per person.
+
+| Trip | Duration | Price per person |
+|---|---|---|
+| [Agafay dinner, camel ride and fire show](/en/tours/shared-agafay-dinner-camel-ride) | Evening | \u20ac30 |
+| [Essaouira day trip](/en/tours/shared-essaouira-day-trip) | 1 day | \u20ac30 |
+| [Ouzoud waterfalls](/en/tours/shared-ouzoud-waterfalls-day-trip) | 1 day | \u20ac40 |
+| [Zagora desert](/en/tours/shared-zagora-2day-marrakech) | 2 days / 1 night | \u20ac85 |
+| [Merzouga Sahara](/en/tours/shared-merzouga-3day-marrakech) | 3 days / 2 nights | \u20ac120 |
+
+The multi-day prices include accommodation and camp meals. That is the number that surprises people: \u20ac120 covers two nights, dinner and breakfast at the desert camp, a camel trek and roughly 1,300 km of driving.
+
+## Why the price does not drop for groups
+
+On our private tours, the per-person price falls steeply with group size \u2014 the [3-day Sahara](/en/tours/sahara-3day-marrakech) runs \u20ac690 for one traveller and \u20ac230 each at six, because you are splitting one vehicle and one driver.
+
+Shared departures have a single flat rate with no tiers. The reason is structural: the minibus runs regardless, so there is no vehicle cost for your group to spread. Six friends on a shared departure pay six times one seat. This is worth understanding, because it is exactly what creates the crossover point.
+
+## Where private becomes the better buy
+
+Compare the same three-day Merzouga route both ways:
+
+| Travellers | Shared, total | Private, total | Cheaper |
+|---|---|---|---|
+| 1 | \u20ac120 | \u20ac690 | Shared, by a mile |
+| 2 | \u20ac240 | \u20ac760 | Shared |
+| 4 | \u20ac480 | \u20ac1,180 | Shared |
+| 6 | \u20ac720 | \u20ac1,380 | Shared |
+
+On this route shared stays cheaper at every group size \u2014 but look at what the gap buys. At six travellers you are paying roughly \u20ac660 more for your own 4x4 and driver-guide, the freedom to stop where you like, and no fixed schedule. Split six ways that is \u20ac110 each for a fundamentally different trip.
+
+On day trips the maths tips faster. A private [Ouzoud day trip](/en/tours/ouzoud-waterfalls-day-trip) is \u20ac22 per person at six against \u20ac40 shared \u2014 the private tour is simply cheaper *and* better. The [group size guide](/en/blog/morocco-tour-price-group-size) has the full table, and [private vs shared](/en/blog/private-vs-shared-desert-tour-morocco) works through the desert comparison in detail.
+
+**The short rule:** travelling alone or as a couple, book shared. Four or more on a day trip, price the private version \u2014 it often wins outright. Four or more on a multi-day trip, decide whether the flexibility is worth roughly \u20ac100 each.
+
+## What you actually give up
+
+**Fixed stops.** The itinerary is set. You stop where the schedule says, for as long as the schedule says. If the light is extraordinary over the Dades valley, the minibus does not pull over.
+
+**Early starts.** Shared departures leave around 7:00 am because the route demands it. There is no negotiating a later start.
+
+**The group.** Up to sixteen people, of varying punctuality. Most travellers find this a plus \u2014 you meet people \u2014 but it does mean the day runs at the pace of the slowest person back to the vehicle.
+
+**Seat, not vehicle.** You cannot ask for the air conditioning to be turned down or the music changed. It is a shared space.
+
+## What you do not give up
+
+This is the part operators undersell. On our shared departures the **route and the overnight stops are identical** to the private tour. Same Tizi n'Tichka pass, same A\u00eft Benhaddou, same Dades and Todra gorges, same camel trek into Erg Chebbi, same camp.
+
+You are not getting a lesser version of the Sahara. You are getting the same Sahara on someone else's schedule.
+
+## Which shared trip to pick
+
+**One evening free in Marrakech:** the [Agafay evening](/en/tours/shared-agafay-dinner-camel-ride) at \u20ac30. Camel ride at sunset, dinner, fire show, back by 10:30 pm. It is a stone desert, not the Sahara \u2014 we say so on the tour page too.
+
+**One free day:** [Essaouira](/en/tours/shared-essaouira-day-trip) for the Atlantic and a UNESCO medina, or [Ouzoud](/en/tours/shared-ouzoud-waterfalls-day-trip) for the 110 m waterfalls and wild macaques.
+
+**Two days:** [Zagora](/en/tours/shared-zagora-2day-marrakech). Honest verdict \u2014 the dunes are low and scrubby. It is the right choice only if you cannot spare three days.
+
+**Three days:** [Merzouga](/en/tours/shared-merzouga-3day-marrakech). The real sand sea at Erg Chebbi. If you have three days, this is the trip. [Merzouga vs Zagora](/en/blog/merzouga-vs-zagora-which-desert-tour) settles the choice properly.
+
+## Practical notes
+
+Bring cash for lunches \u2014 100\u2013150 MAD a day covers it. Pack a warm layer for the desert camp regardless of season; the Sahara drops sharply after dark, which catches out most first-timers. [What to pack for a desert tour](/en/blog/what-to-pack-desert-tour-morocco) has the full list.
+
+Book multi-day departures ahead in March\u2013May and September\u2013November. Day trips can usually be arranged a day or two out.
+
+Finally: book direct where you can. Platform commissions run 20\u201330%, and on a \u20ac30 seat that is the whole margin \u2014 it comes out of the camp, the driver or the meal. [Direct vs platform](/en/blog/booking-morocco-tour-direct-vs-platform) explains what the commission actually pays for.
+`,
+  },
+  {
+    slug: "moroccan-cooking-class-marrakech-guide",
+    author: MET_TEAM,
+    title: "Moroccan Cooking Classes in Marrakech: What You Actually Learn",
+    excerpt:
+      "A spice souk walk, a tagine cooked from scratch with a local family, and the mint tea ceremony done properly. What a Marrakech cooking class involves, what it costs, and how to spot a bad one.",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 10,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["Moroccan cooking class", "Marrakech cooking class", "tagine class Marrakech", "Morocco food tour", "cooking class Morocco"],
+    seoTitle: "Marrakech Cooking Class \u2014 What You Learn and What It Costs",
+    seoDescription:
+      "What a Moroccan cooking class in Marrakech actually involves: the spice souk walk, cooking a tagine from scratch, the mint tea ceremony. Real prices from \u20ac33 per person.",
+    relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "How much does a cooking class in Marrakech cost?", a: "Our [food and market tour](/en/tours/marrakech-food-market-tour) is \u20ac109 for one person and \u20ac33 per person at six \u2014 the steepest group discount of anything we run, because the guide and the kitchen cost the same whether two people cook or eight. Around town, expect \u20ac25\u2013\u20ac60 per person for a half day." },
+      { q: "How long does a Moroccan cooking class take?", a: "Half a day, about four hours. Ours starts at 9:30 am at the Rahba Kedima spice square, runs 90 minutes of guided market tastings, then moves to a family kitchen for the class and the meal you cooked." },
+      { q: "Do you eat what you cook?", a: "Yes \u2014 a full tagine lunch is the point of the class, not a tasting portion. Come hungry and do not book a heavy breakfast beforehand." },
+      { q: "Are cooking classes suitable for vegetarians?", a: "Yes. Vegetable tagine is a staple of the Moroccan kitchen rather than an accommodation, so it is cooked the same way as any other. Tell us when booking and the market walk is adjusted too." },
+      { q: "Is it worth doing a class with the market walk included?", a: "The market walk is what separates a class from a demonstration. Learning to tell real saffron from dyed safflower, or which olives are cured for which dish, is knowledge you use for the rest of the trip \u2014 including when haggling." },
+    ],
+    content: `
+A cooking class is the most reliably good half-day in Marrakech. It is also the one experience visitors most often book badly \u2014 there is a real gap between a class where you shop, cook and eat with a family, and a hotel demonstration where someone cooks at you.
+
+Here is what the good version involves.
+
+## It starts at the spice square, not the kitchen
+
+The market walk is the part that makes the difference, and any class that skips it is a demonstration wearing a class's name.
+
+Ours begins at **Rahba Kedima**, the spice square in the medina. The first thing you learn there is how to tell **real saffron from dyed safflower** \u2014 a distinction worth knowing before anyone sells you a bag of it. Real saffron is threads with a trumpet-shaped end, deep red, and costs what it costs because it takes 150 flowers to make a gram. Safflower is flat yellow-orange petals sold by the handful.
+
+From there the walk runs through the working food souks with tastings: olives cured four different ways, preserved lemons, msemen off the griddle, dates, almonds, fresh cheese. These are the stalls that supply the medina's own kitchens rather than tourist counters.
+
+By the time you reach the kitchen you know what the ingredients are, what they cost, and what a fair price looks like. That last part pays off for the rest of the trip \u2014 see [haggling in the souks](/en/blog/haggling-in-moroccan-souks-guide).
+
+## What you cook
+
+The core of the class is a **tagine from scratch** \u2014 the conical earthenware pot and the dish cooked in it share a name. What you learn is not a recipe so much as a method:
+
+**Layering.** A tagine is built, not stirred. Onions and oil at the base, then meat or vegetables, then the aromatics on top, so steam circulates down the cone and returns to the food rather than escaping.
+
+**The spice base.** Most Moroccan savoury cooking runs on a small set: cumin, sweet paprika, ginger, turmeric, black pepper, and often a pinch of saffron or a preserved lemon. Ras el hanout is a blend, and every spice merchant's is different.
+
+**Time and heat.** Low and slow, barely a simmer, an hour or more. The dish cooks in its own moisture with very little added liquid \u2014 which is why it works so well in a country where water was historically scarce.
+
+**Bread as the utensil.** Khobz is not a side dish, it is the fork. Eating with the right hand and a piece of bread is the normal way to eat a tagine, and doing it properly is part of the lesson.
+
+Most classes also cover **Moroccan salads** \u2014 the cooked vegetable dishes served before the main \u2014 and finish with mint tea.
+
+## The mint tea ceremony
+
+Mint tea has more rules than most visitors realise. Gunpowder green tea, a generous quantity of fresh spearmint, and a great deal of sugar. The first infusion is rinsed off and discarded. It is poured **from height**, which aerates it and builds the foam that a well-poured glass is judged on.
+
+Three glasses are traditional, and the often-quoted Maghrebi saying holds that the first is gentle as life, the second strong as love, the third bitter as death \u2014 the flavour genuinely changes as the leaves keep steeping. Refusing tea is close to refusing hospitality itself, so accept at least one glass. The [mint tea guide](/en/blog/moroccan-mint-tea-ceremony-guide) goes further.
+
+## What it costs
+
+Our [Marrakech food and market tour](/en/tours/marrakech-food-market-tour) is a half day, four hours, and includes the guide, all tastings on the walk, the cooking instruction and ingredients, the full tagine lunch you helped prepare, and the tea ceremony.
+
+| Travellers | Price per person |
+|---|---|
+| 1 | \u20ac109 |
+| 2 | \u20ac55 |
+| 4 | \u20ac39 |
+| 6+ | \u20ac33 |
+
+That is the steepest group discount of anything we run, for a simple reason: the guide, the kitchen and the family cooking with you cost the same whether two people show up or eight. Almost the entire solo price is the fixed cost of the day.
+
+Around Marrakech generally, expect \u20ac25\u2013\u20ac60 per person for a half-day class. Below that, something is missing \u2014 usually the market walk, sometimes the eating.
+
+## How to spot a bad class
+
+**No market visit.** The single clearest signal. If the ingredients are pre-portioned in bowls when you arrive, you are attending a demonstration.
+
+**Groups over about ten.** Everyone needs a station and a pot. Large groups mean watching one person cook.
+
+**A hotel conference room.** The good classes happen in a family kitchen or a riad courtyard, because the person teaching cooks there daily.
+
+**Tasting portions.** You should eat a full meal. If lunch is three forkfuls, the class was built for photographs.
+
+## Fitting it into a trip
+
+A cooking class works best **early** in a Marrakech stay. Everything you learn about ingredients, prices and the layout of the souks makes the following days easier \u2014 you will read menus differently and pay less for spices.
+
+It pairs naturally with a [guided medina tour](/en/tours/marrakech-medina-cultural-tour), which covers the palaces, the tanneries and the navigation problem the souks pose to first-timers. Both are half days, so one of each fills a Marrakech day comfortably.
+
+For what to order once you are eating out on your own, the [Morocco food guide](/en/blog/morocco-food-guide-what-to-eat) runs through fifteen dishes and where to find them. And if you are still deciding what else to build the trip around, [the best things to do in Morocco](/en/blog/best-things-to-do-in-morocco) puts the cooking class in context against the desert, the mountains and the coast.
 `,
   },
 ];

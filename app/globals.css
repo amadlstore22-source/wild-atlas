@@ -413,6 +413,37 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
 .ken-burns { animation: ken-burns 20s ease-out forwards; }
 .float-soft { animation: float-soft 6s ease-in-out infinite; }
 
+/* ------------------------------------------------------------
+   HERO ENTRANCE — CSS, deliberately not Motion.
+   The hero copy is above the fold, and the <h1> is the LCP element on
+   mobile. Animating it with Motion's `initial={{ opacity: 0 }}` meant the
+   headline was INVISIBLE in the server HTML and only appeared once React had
+   hydrated and Motion had loaded. The browser cannot count an invisible
+   element as LCP, so LCP waited on the whole JS pipeline: measured 6.8s on
+   mobile with a render delay of 6,075ms out of it, while load delay and load
+   time were both 0. Nothing was slow to download — the text was simply hidden.
+   These keyframes run off the main thread from the first frame of CSS, so the
+   headline paints with the document and LCP is bound by TTFB again.
+   Keep above-the-fold text on this path; use Motion below the fold.
+   ------------------------------------------------------------ */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(var(--hero-rise-from, 28px)); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-rise {
+  /* Matches the previous Motion transition: [0.16, 1, 0.3, 1], 0.9s. */
+  animation: hero-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.hero-rise-eyebrow { --hero-rise-from: 16px; animation-duration: 0.7s; animation-delay: 0.05s; }
+.hero-rise-h1      { --hero-rise-from: 28px; animation-delay: 0.15s; }
+.hero-rise-sub     { --hero-rise-from: 18px; animation-duration: 0.8s; animation-delay: 0.3s; }
+.hero-rise-cta     { --hero-rise-from: 14px; animation-duration: 0.7s; animation-delay: 0.45s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-rise { animation: none; opacity: 1; transform: none; }
+}
+
 /* ============================================================
    WHATSAPP BUTTON
    ============================================================ */

@@ -62,43 +62,28 @@ export default function Hero({ lang, dict }: Props) {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
             {/* Eyebrow */}
-            <motion.div
-              className="mb-6"
-              initial={reduce ? false : { opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease, delay: 0.05 }}
-            >
+            <div className="mb-6 hero-rise hero-rise-eyebrow">
               <span className="eyebrow text-brass-glow">{dict.hero.eyebrow}</span>
-            </motion.div>
+            </div>
 
             {/* Headline — Cormorant, 2 lines, brass italic accent */}
-            <motion.h1
-              className="font-display text-cream font-semibold leading-[1.02] mb-6"
+            {/* CSS entrance, not Motion: this is the mobile LCP element, and
+                `initial={{ opacity: 0 }}` hid it until hydration. See
+                .hero-rise in globals.css. */}
+            <h1
+              className="font-display text-cream font-semibold leading-[1.02] mb-6 hero-rise hero-rise-h1"
               style={{ fontSize: "clamp(3rem, 7vw, 5.75rem)" }}
-              initial={reduce ? false : { opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.9, ease, delay: 0.15 }}
             >
               {dict.hero.headline1}
               <br />
               <span className="italic text-brass-glow leading-[1.1] pb-1 inline-block">{dict.hero.headline2}</span>
-            </motion.h1>
+            </h1>
 
-            <motion.p
-              className="text-cream/80 text-lg sm:text-xl leading-relaxed mb-9 max-w-lg"
-              initial={reduce ? false : { opacity: 0, y: 18 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease, delay: 0.3 }}
-            >
+            <p className="text-cream/80 text-lg sm:text-xl leading-relaxed mb-9 max-w-lg hero-rise hero-rise-sub">
               {dict.hero.subheadline}
-            </motion.p>
+            </p>
 
-            <motion.div
-              className="flex flex-wrap gap-3.5 items-center"
-              initial={reduce ? false : { opacity: 0, y: 14 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease, delay: 0.45 }}
-            >
+            <div className="flex flex-wrap gap-3.5 items-center hero-rise hero-rise-cta">
               <BrassButton href={`/${lang}/tours`} variant="brass">
                 {dict.hero.browseAll}
                 <ArrowRight className="w-4 h-4" weight="bold" />
@@ -109,7 +94,7 @@ export default function Hero({ lang, dict }: Props) {
               >
                 {dict.hero.planCustom}
               </a>
-            </motion.div>
+            </div>
           </div>
         </div>
       </motion.div>

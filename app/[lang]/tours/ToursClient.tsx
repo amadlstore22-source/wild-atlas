@@ -275,8 +275,16 @@ export default function ToursClient({
                 results count is the honest label for this region. */}
             <h2 className="text-ink-muted text-sm font-normal mb-6">{toursFoundText}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filtered.map((tour, i) => (
-                <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} priority={i < 3} />
+              {/* No `priority` on these cards. They sit below the fold, but
+                  next/image emits a <link rel="preload"> for every priority
+                  image, so three card images competed with the hero — the real
+                  LCP element — for the mobile connection. Measured as a
+                  2,000ms LCP "resource load delay" while the hero itself
+                  downloaded in only 1,120ms. Google's guidance: the LCP
+                  resource must be discoverable in the HTML and not starved by
+                  competing preloads. */}
+              {filtered.map((tour) => (
+                <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
               ))}
             </div>
           </>

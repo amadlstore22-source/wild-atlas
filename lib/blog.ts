@@ -75,7 +75,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Morocco: The Ultimate Adventure Travel Guide",
     excerpt:
       "From the snowy peaks of the High Atlas to the golden dunes of the Sahara, Morocco is one of the world's great adventure destinations. This is your complete guide to exploring it.",
-    heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
+    heroImage: "/gallery/solo-trekker-high-ridge-summer.jpg",
     category: "tips",
     region: "root",
     readTime: 12,
@@ -1842,7 +1842,7 @@ If you want to talk through which itinerary fits your fitness and your dates, [g
     excerpt:
       "Snow turns Toubkal from a walk-up into a proper winter mountain: crampons, an ice axe, and a steeper set of consequences. Whether a fit beginner can do it, and what changes between November and April.",
     heroImage:
-      "/gallery/category-hero-atlas-ridge.jpg",
+      "/gallery/high-atlas-snow-peaks-above-village.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -4342,7 +4342,7 @@ What makes Morocco unique among film destinations is that the sets were never se
     title: "The Perfect 7-Day Morocco Itinerary (From Marrakech)",
     excerpt:
       "One week is enough to see the best of Morocco — the imperial city, the High Atlas, and a night under the Sahara stars — if you plan the route well. Here is the 7-day itinerary we'd give a friend.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/imlil-valley-terrace-view.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -4561,7 +4561,7 @@ Nila makes the most sense out in the sand, wrapped against a desert wind at suns
     title: "Moroccan Mint Tea: The Ceremony, the High Pour & Why You Can't Refuse",
     excerpt:
       "It's called 'Berber whisky' and it's poured from a great height for a reason. Here's how Morocco's mint tea ritual really works — and why saying no to a third glass is basically a diplomatic incident.",
-    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
+    heroImage: "/gallery/berber-home-interior-mint-tea.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -6125,7 +6125,7 @@ Toubkal into a single crossing.
     title: "What Does the High Atlas Grand Traverse Cost? (15-Day, 2026)",
     excerpt:
       "Fifteen days, two 4,000 m summits and a full mountain crew. From €1,700 it is the most expensive trip we run — here is exactly where that money goes, and why a two-week crew costs what it does.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/trekking-group-scree-slope-summer.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -7874,7 +7874,7 @@ Finally: book direct where you can. Platform commissions run 20\u201330%, and on
     title: "Moroccan Cooking Classes in Marrakech: What You Actually Learn",
     excerpt:
       "A spice souk walk, a tagine cooked from scratch with a local family, and the mint tea ceremony done properly. What a Marrakech cooking class involves, what it costs, and how to spot a bad one.",
-    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
+    heroImage: "/gallery/clients-lunch-terrace-atlas-village.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 10,

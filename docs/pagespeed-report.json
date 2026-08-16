@@ -1167,6 +1167,169 @@
       },
       "opportunities": [],
       "at": "2026-08-16T14:20:05.522Z"
+    },
+    "how-we-operate::desktop": {
+      "name": "how-we-operate",
+      "path": "/en/how-we-operate",
+      "form": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.4 s",
+        "lcp": "0.8 s",
+        "tbt": "0 ms",
+        "cls": "0"
+      },
+      "lcpElement": "",
+      "lcpPhases": {
+        "TTFB": 234,
+        "Load Delay": 0,
+        "Load Time": 0,
+        "Render Delay": 600
+      },
+      "opportunities": [],
+      "at": "2026-08-16T14:20:19.856Z"
+    },
+    "news::desktop": {
+      "name": "news",
+      "path": "/en/news",
+      "form": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.3 s",
+        "lcp": "0.8 s",
+        "tbt": "0 ms",
+        "cls": "0"
+      },
+      "lcpElement": "",
+      "lcpPhases": {
+        "TTFB": 330,
+        "Load Delay": 0,
+        "Load Time": 0,
+        "Render Delay": 485
+      },
+      "opportunities": [
+        {
+          "id": "uses-responsive-images",
+          "title": "Properly size images",
+          "savingsMs": 0,
+          "savingsKb": 183
+        }
+      ],
+      "at": "2026-08-16T14:20:36.939Z"
+    },
+    "locale-ar-home::desktop": {
+      "name": "locale-ar-home",
+      "path": "/ar",
+      "form": "desktop",
+      "scores": {
+        "performance": 98,
+        "accessibility": 99,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.5 s",
+        "lcp": "1.0 s",
+        "tbt": "0 ms",
+        "cls": "0"
+      },
+      "lcpElement": "",
+      "lcpPhases": {
+        "TTFB": 238,
+        "Load Delay": 0,
+        "Load Time": 0,
+        "Render Delay": 720
+      },
+      "opportunities": [
+        {
+          "id": "uses-responsive-images",
+          "title": "Properly size images",
+          "savingsMs": 0,
+          "savingsKb": 44
+        },
+        {
+          "id": "legacy-javascript",
+          "title": "Avoid serving legacy JavaScript to modern browsers",
+          "savingsMs": 0,
+          "savingsKb": 10
+        }
+      ],
+      "at": "2026-08-16T14:20:56.856Z"
+    },
+    "locale-ar-blog::desktop": {
+      "name": "locale-ar-blog",
+      "path": "/ar/blog/best-things-to-do-in-morocco",
+      "form": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.5 s",
+        "lcp": "1.0 s",
+        "tbt": "0 ms",
+        "cls": "0"
+      },
+      "lcpElement": "",
+      "lcpPhases": {
+        "TTFB": 303,
+        "Load Delay": 0,
+        "Load Time": 288,
+        "Render Delay": 392
+      },
+      "opportunities": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 40,
+          "savingsKb": 24
+        },
+        {
+          "id": "legacy-javascript",
+          "title": "Avoid serving legacy JavaScript to modern browsers",
+          "savingsMs": 40,
+          "savingsKb": 2
+        }
+      ],
+      "at": "2026-08-16T14:21:16.390Z"
+    },
+    "locale-fr-blog::desktop": {
+      "name": "locale-fr-blog",
+      "path": "/fr/blog/que-faire-au-maroc",
+      "form": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.5 s",
+        "lcp": "0.9 s",
+        "tbt": "0 ms",
+        "cls": "0"
+      },
+      "lcpElement": "",
+      "lcpPhases": {
+        "TTFB": 299,
+        "Load Delay": 12,
+        "Load Time": 224,
+        "Render Delay": 404
+      },
+      "opportunities": [],
+      "at": "2026-08-16T14:21:33.801Z"
     }
   }
 }

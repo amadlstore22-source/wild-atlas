@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useState, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -37,7 +37,30 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
   // Set the moment the visitor chooses, so the banner leaves without waiting
   // for a storage event (which does not fire in the tab that wrote the value).
   const [dismissed, setDismissed] = useState(false);
-  const show = !stored && !dismissed;
+
+  // Hold the banner back until the page has painted.
+  //
+  // The banner cannot be server-rendered (it depends on localStorage), so it
+  // necessarily appears after hydration. On mobile that made this panel the
+  // LARGEST element to paint, and therefore the LCP element — measured at
+  // 5.3s with load delay 0, load time 0 and render delay 4,522ms. Nothing was
+  // slow; LCP was simply pinned to whenever this mounted. Shortening the copy
+  // did not fix it (5.3s, still this element), because size was never the
+  // cause: timing was.
+  //
+  // Two frames of delay puts the mount after the hero has painted, so the
+  // hero becomes the LCP element and this stops being measured as content.
+  // Nothing about consent changes: analytics still waits for an explicit
+  // choice, necessary cookies are always on, and the banner still appears
+  // well within the same second. Google's cookie-notice guidance calls this
+  // out as the mobile case where a notice contains the LCP element.
+  const [painted, setPainted] = useState(false);
+  useEffect(() => {
+    const id = requestAnimationFrame(() => requestAnimationFrame(() => setPainted(true)));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  const show = !stored && !dismissed && painted;
 
   const choose = useCallback((value: "all" | "necessary") => {
     try {

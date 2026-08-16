@@ -31,6 +31,9 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "morocco-tour-price-group-size": "prix-circuit-maroc-taille-groupe",
   "private-vs-shared-desert-tour-morocco": "circuit-desert-prive-ou-partage",
   "booking-morocco-tour-direct-vs-platform": "reserver-circuit-maroc-direct-ou-plateforme",
+  "best-things-to-do-in-morocco": "que-faire-au-maroc",
+  "shared-group-tours-morocco-guide": "circuits-partages-maroc",
+  "moroccan-cooking-class-marrakech-guide": "cours-de-cuisine-marrakech",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -55,6 +58,9 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "morocco-tour-price-group-size": "precio-circuito-marruecos-tamano-grupo",
   "private-vs-shared-desert-tour-morocco": "circuito-desierto-privado-o-compartido",
   "booking-morocco-tour-direct-vs-platform": "reservar-circuito-marruecos-directo-o-plataforma",
+  "best-things-to-do-in-morocco": "que-hacer-en-marruecos",
+  "shared-group-tours-morocco-guide": "circuitos-compartidos-marruecos",
+  "moroccan-cooking-class-marrakech-guide": "clase-de-cocina-marrakech",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -79,6 +85,9 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "morocco-tour-price-group-size": "marokko-tour-preis-gruppengroesse",
   "private-vs-shared-desert-tour-morocco": "wuestentour-privat-oder-geteilt",
   "booking-morocco-tour-direct-vs-platform": "marokko-tour-direkt-oder-plattform-buchen",
+  "best-things-to-do-in-morocco": "was-man-in-marokko-machen-kann",
+  "shared-group-tours-morocco-guide": "gruppentouren-marokko",
+  "moroccan-cooking-class-marrakech-guide": "kochkurs-marrakesch",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -103,6 +112,9 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "morocco-tour-price-group-size": "prezzo-tour-marocco-dimensione-gruppo",
   "private-vs-shared-desert-tour-morocco": "tour-deserto-privato-o-condiviso",
   "booking-morocco-tour-direct-vs-platform": "prenotare-tour-marocco-diretto-o-piattaforma",
+  "best-things-to-do-in-morocco": "cosa-fare-in-marocco",
+  "shared-group-tours-morocco-guide": "tour-condivisi-marocco",
+  "moroccan-cooking-class-marrakech-guide": "corso-di-cucina-marrakech",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

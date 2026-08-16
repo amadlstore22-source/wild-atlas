@@ -5460,4 +5460,345 @@ Deux choses à trancher tôt :
 👉 **[Voir tous les circuits au départ d'Agadir](/fr/tours?origin=agadir)** — chacun indique la durée réelle, ce qui est inclus, et le prix à chaque taille de groupe.
 `,
   },
+  {
+    slug: "best-things-to-do-in-morocco",
+    localizedSlug: "que-faire-au-maroc",
+    author: MET_TEAM,
+    title: "Les 15 meilleures choses à faire au Maroc (2026)",
+    excerpt:
+      "Méharées, ruelles bleues, tanneries, hammams, spots de surf et le Sahara. Les quinze expériences autour desquelles construire un voyage au Maroc — et un avis honnête sur celles qui valent leur prix.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 14,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["que faire au Maroc", "activités Maroc", "incontournables Maroc", "visiter le Maroc", "expériences Maroc"],
+    seoTitle: "Que faire au Maroc : les 15 incontournables et leurs prix",
+    seoDescription:
+      "Les quinze expériences autour desquelles bâtir un voyage au Maroc : méharée au Sahara, Toubkal, Chefchaouen, hammam, cours de cuisine et surf. Prix réels et avis honnêtes.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "Quelle est l'activité la plus populaire au Maroc ?", a: "Un séjour dans le Sahara — plus précisément une méharée dans les dunes de l'Erg Chebbi près de Merzouga et une nuit en campement. C'est l'expérience autour de laquelle la plupart des voyageurs organisent le reste de leur itinéraire. Depuis Marrakech, il faut trois jours, car Merzouga est à une journée de route." },
+      { q: "Combien de jours faut-il pour faire l'essentiel ?", a: "Sept à dix jours couvrent le classique : Marrakech, trois jours dans le Sahara, puis Chefchaouen ou la côte. En moins d'une semaine, il faut choisir entre le désert et le nord — vouloir faire les deux revient à passer son séjour en voiture." },
+      { q: "Quelle est la façon la moins chère de faire ces activités ?", a: "Les départs groupés partagés. Une soirée dans l'Agafay coûte 30 € par personne, une journée à Essaouira 30 €, et trois jours complets dans le Sahara 120 €. Les circuits privés coûtent plus cher par personne à un ou deux, mais deviennent compétitifs à partir de quatre voyageurs." },
+      { q: "Le hammam vaut-il le détour ?", a: "Oui, et c'est le plus sous-estimé de cette liste. Un hammam beldi de quartier coûte 10 à 20 MAD ; un hammam touristique avec gommage et massage entre 150 et 400 MAD. Gardez-le pour le dernier jour, après le trekking." },
+      { q: "Faut-il réserver les activités à l'avance ?", a: "Réservez les circuits de plusieurs jours et les treks à l'avance, surtout de mars à mai et de septembre à novembre. Les excursions à la journée, hammams et cours de cuisine se réservent en général un ou deux jours avant, même si les départs partagés se remplissent en haute saison." },
+    ],
+    content: `
+Le Maroc concentre une variété inhabituelle sur un petit territoire. En une semaine, on peut dormir dans le Sahara, monter au-dessus de 4 000 m, parcourir une médina médiévale et surfer un point break atlantique. La difficulté n'est pas de trouver quoi faire — c'est de choisir, et de savoir lesquelles de ces expériences célèbres méritent vraiment le temps et l'argent.
+
+Voici la liste que nous donnerions à un ami. Quinze choses, regroupées par type de journée, avec les prix réels et un avis franc sur chacune.
+
+## Désert et aventure
+
+### 1. Dormir dans le Sahara à l'Erg Chebbi
+
+L'expérience la plus demandée du Maroc, et elle mérite sa réputation. L'Erg Chebbi près de Merzouga est une véritable mer de sable — des dunes jusqu'à 150 m, dont la couleur passe de l'abricot à l'orange profond quand le soleil descend. On franchit la dernière crête à dos de dromadaire, on dort au campement et on se lève pour le lever du soleil.
+
+Le hic, c'est la distance. Merzouga est à environ une journée de route de Marrakech : c'est donc un **circuit de trois jours**, pas une excursion à la journée. Quiconque vous vend le Sahara depuis Marrakech en une journée vous vend l'Agafay, ce qui est tout autre chose.
+
+**Prix :** à partir de 120 € par personne en [départ partagé de 3 jours](/fr/tours/shared-merzouga-3day-marrakech). La [version privée](/fr/tours/sahara-3day-marrakech) du même itinéraire revient à 230 € par personne à six.
+
+**Verdict :** faites-le. Si vous n'avez que deux jours, [Zagora](/fr/tours/shared-zagora-2day-marrakech) est le substitut honnête — plus proche, mais des dunes basses et broussailleuses plutôt que la mer de sable des photos.
+
+### 2. Une soirée dans le désert de pierre d'Agafay
+
+À quarante minutes de Marrakech, l'Agafay est un paysage lunaire de collines grises avec l'Atlas à l'horizon. Pas de dunes — c'est un désert rocheux, et les agences qui l'appellent « le désert près de Marrakech » forcent le mot. Comme soirée, en revanche, c'est excellent : balade à dromadaire à l'heure dorée, dîner au campement, spectacle de feu, retour au riad vers 22 h 30.
+
+**Prix :** 30 € par personne pour la [soirée partagée](/fr/tours/shared-agafay-dinner-camel-ride).
+
+**Verdict :** ça vaut le coup comme soirée, jamais comme remplacement du Sahara. Lisez le [guide de l'Agafay](/fr/blog/agafay-desert-marrakech-guide) avant de réserver.
+
+### 3. Gravir le Jbel Toubkal
+
+À 4 167 m, le Toubkal est le plus haut sommet d'Afrique du Nord, et c'est une randonnée plutôt qu'une escalade — sans corde ni passage technique, de la fin du printemps à l'automne. Ce qu'il exige, c'est une bonne condition physique et une tolérance à l'altitude : 1 500 m de dénivelé le jour du sommet.
+
+**Prix :** le [trek de 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est la voie normale. Voir [la difficulté réelle du Toubkal](/fr/blog/how-hard-is-toubkal-difficulty-guide) pour une réponse franche.
+
+**Verdict :** la meilleure aventure du Maroc en rapport qualité-prix si vous êtes en forme. En hiver, cela devient un objectif d'alpinisme nécessitant crampons et piolet.
+
+### 4. Randonner de village en village dans le Haut Atlas
+
+L'alternative plus calme à la course au sommet, et pour beaucoup le meilleur voyage. En marchant de vallée en vallée — Imlil, Azzaden, Ourika — on loge chez l'habitant, on mange en famille et on découvre un système agricole travaillé de la même façon depuis des siècles.
+
+**Verdict :** préférez ceci au Toubkal si ce qui vous intéresse, ce sont les gens et les paysages plutôt que l'altitude. Commencez par [les meilleurs treks de plusieurs jours](/fr/blog/best-multi-day-treks-morocco).
+
+### 5. Surfer à Taghazout ou Imsouane
+
+La côte atlantique marocaine offre des point breaks de droite de classe mondiale, et l'eau se surfe toute l'année. Taghazout, au nord d'Agadir, est le centre névralgique ; Imsouane possède l'une des plus longues vagues d'Afrique. Anchor Point fonctionne surtout d'octobre à mars.
+
+**Verdict :** vaut la peine d'y consacrer une semaine si vous surfez. Voir le [guide du surf à Taghazout](/fr/blog/taghazout-surf-guide-morocco).
+
+## Culture et histoire
+
+### 6. Jemaa el-Fna et les souks de Marrakech
+
+La place centrale de Marrakech est un véritable spectacle à la nuit tombée : stands de nourriture, musiciens, conteurs, foule. Les souks derrière s'étendent sur des kilomètres. C'est aussi l'endroit le plus commercial du Maroc, et les nouveaux venus paient couramment trois à quatre fois le prix.
+
+**Verdict :** incontournable, mais allez-y averti. Lisez [négocier dans les souks](/fr/blog/haggling-in-moroccan-souks-guide) d'abord. Une [visite guidée de la médina](/fr/tours/marrakech-medina-cultural-tour) coûte 31 € par personne à six et supprime le problème de navigation.
+
+### 7. Se perdre dans la médina de Fès
+
+Fès el-Bali est la plus grande zone urbaine sans voitures au monde et, contrairement à Marrakech, elle reste avant tout une ville qui travaille plutôt qu'une économie touristique. Neuf mille ruelles, une université du IXe siècle, et la tannerie Chouara — où les peaux sont encore travaillées dans des cuves de pierre selon un procédé inchangé depuis le Moyen Âge.
+
+**Verdict :** la plus authentique des deux grandes médinas. Prenez un guide la première matinée ; le [guide de la médina de Fès](/fr/blog/fes-medina-travel-guide) explique pourquoi.
+
+### 8. Photographier les ruelles bleues de Chefchaouen
+
+Chefchaouen est vraiment aussi bleue que sur les photos, et vraiment petite — une matinée suffit pour la médina. Elle se trouve dans le Rif à cinq heures au nord de Fès : c'est un vrai détour, à intégrer dans un itinéraire plutôt qu'à visiter à la journée.
+
+**Verdict :** vaut le détour si votre itinéraire monte vers le nord. Voir le [guide complet de Chefchaouen](/fr/blog/chefchaouen-complete-travel-guide).
+
+### 9. Aït Benhaddou
+
+Le ksar d'Aït Benhaddou, classé à l'UNESCO, est l'architecture de terre la plus photographiée du Maroc, et son palmarès cinématographique — Gladiator, Game of Thrones, Lawrence d'Arabie — explique la foule. Il est directement sur la route du sud, donc presque tous les circuits désertiques s'y arrêtent.
+
+**Verdict :** vous le verrez de toute façon lors d'un circuit saharien. Montez en haut pour la vue sur la vallée de l'Ounila. Contexte dans le [guide d'Aït Benhaddou](/fr/blog/ait-benhaddou-guide).
+
+### 10. Le jardin Majorelle à Marrakech
+
+Le jardin bleu électrique créé par Jacques Majorelle puis sauvé par Yves Saint Laurent. Petit, magnifique, et extrêmement fréquenté — réservez un billet horodaté et venez à l'ouverture.
+
+**Verdict :** vaut une heure, pas une matinée. À combiner avec le musée YSL voisin.
+
+### 11. Les gorges du Todra et la vallée du Dadès
+
+Un canyon calcaire de 300 m qui se resserre en un couloir d'à peine dix mètres de large, traversé par une route. La vallée du Dadès voisine abrite la route en lacets qui figure sur toutes les affiches du Maroc.
+
+**Verdict :** vous passez devant les deux sur l'itinéraire classique Marrakech-Merzouga, ce qui plaide fortement pour le circuit de trois jours plutôt que l'avion. Voir les guides du [Todra](/fr/blog/todra-gorge-guide) et du [Dadès](/fr/blog/dades-valley-gorges-guide).
+
+## Cuisine et bien-être
+
+### 12. Suivre un cours de cuisine (tajine)
+
+La demi-journée la plus systématiquement réussie du Maroc. On parcourt le souk aux épices en apprenant à distinguer le vrai safran du carthame teint, puis on cuisine un tajine de zéro avec une famille locale et on mange ce qu'on a préparé.
+
+**Prix :** la [visite des marchés et cours de cuisine](/fr/tours/marrakech-food-market-tour) coûte 109 € en solo et 33 € par personne à six — la remise de groupe la plus forte de tout notre catalogue.
+
+**Verdict :** la meilleure expérience culturelle en rapport qualité-prix de cette liste, et celle dont les gens reparlent après. À associer au [guide de la cuisine marocaine](/fr/blog/morocco-food-guide-what-to-eat).
+
+### 13. Un hammam traditionnel
+
+Le rituel du bain marocain : vapeur, gommage au savon noir avec un gant kessa, et rinçage. Il en existe deux versions. Un **hammam beldi** est le bain public de quartier — 10 à 20 MAD, pas d'anglais, apportez votre savon et votre gant. Un **hammam touristique** coûte 150 à 400 MAD et ajoute massage, thé à la menthe et personnel anglophone.
+
+**Verdict :** à faire le dernier jour, après le trekking. Le gommage est plus vigoureux que la plupart ne l'imaginent.
+
+### 14. Boire le thé à la menthe dans les règles
+
+Moins une activité touristique que la texture même de la vie marocaine — mais la cérémonie a de vraies règles, et les comprendre change la lecture de chaque interaction. Trois verres, versés de haut, chacun différent.
+
+**Verdict :** gratuit, et le [guide du thé à la menthe](/fr/blog/moroccan-mint-tea-ceremony-guide) est une lecture de cinq minutes qui sert tous les jours.
+
+### 15. Dormir dans un riad
+
+Un riad est une maison à patio tournée vers l'intérieur autour d'un jardin ou d'une fontaine, et y séjourner à l'intérieur des remparts est une expérience fondamentalement différente d'un hôtel sur la ceinture périphérique.
+
+**Verdict :** réservez-y au moins deux nuits. [Qu'est-ce qu'un riad](/fr/blog/what-is-a-riad) explique quoi rechercher.
+
+## Construire un voyage autour de tout cela
+
+L'essentiel de la liste se regroupe autour de trois bases. Marrakech couvre les souks, l'Agafay, les cours de cuisine, les hammams et le départ vers le Toubkal. Le Sahara demande trois jours aller-retour. Le nord — Fès et Chefchaouen — est une étape distincte.
+
+C'est pourquoi une semaine est le minimum pratique pour un premier voyage et dix jours un rythme confortable. Nos itinéraires de [7 jours](/fr/blog/7-day-morocco-itinerary) et [10 jours](/fr/blog/10-day-morocco-itinerary) enchaînent tout cela correctement.
+
+Si le budget décide, le [guide des départs partagés](/fr/blog/shared-group-tours-morocco-guide) explique où les départs groupés battent les circuits privés et où ce n'est plus le cas — la bascule se situe autour de quatre voyageurs.
+`,
+  },
+  {
+    slug: "shared-group-tours-morocco-guide",
+    localizedSlug: "circuits-partages-maroc",
+    author: MET_TEAM,
+    title: "Circuits partagés au Maroc : ce que vous avez pour 30 €",
+    excerpt:
+      "Les départs partagés sont la façon la moins chère de voir le Maroc — 30 € pour une soirée dans l'Agafay, 120 € pour trois jours au Sahara. Ce que vous perdez, ce que vous gardez, et la taille de groupe où le privé l'emporte.",
+    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["circuits partagés Maroc", "excursions groupées Maroc", "Maroc pas cher", "départs quotidiens Marrakech", "circuit économique Maroc"],
+    seoTitle: "Circuits partagés au Maroc — prix réels à partir de 30 €",
+    seoDescription:
+      "Ce que coûte et comprend vraiment un circuit partagé au Maroc : soirée Agafay 30 €, Essaouira 30 €, Ouzoud 40 €, trois jours au Sahara 120 €. Et quand le privé revient moins cher.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "shared-agafay-dinner-camel-ride", "shared-essaouira-day-trip", "shared-ouzoud-waterfalls-day-trip", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "Combien coûte un circuit partagé au Maroc ?", a: "À partir de 30 € pour une demi-journée ou une journée au départ de Marrakech — une soirée dans l'Agafay ou une journée à Essaouira coûtent toutes deux 30 € par personne, les cascades d'Ouzoud 40 €. Sur plusieurs jours : Zagora en deux jours revient à 85 € et le circuit de trois jours vers Merzouga à 120 € par personne, hébergement et repas au campement compris." },
+      { q: "Combien de personnes sur un départ partagé ?", a: "Jusqu'à seize en minibus, jusqu'à vingt pour la soirée dans l'Agafay. Hors haute saison, les groupes sont souvent bien plus petits. Vous serez avec des voyageurs de plusieurs pays et le chauffeur parle anglais ou français." },
+      { q: "Un circuit partagé vaut-il mieux qu'un privé ?", a: "Pour une ou deux personnes, presque toujours. Le Sahara en trois jours coûte 120 € en partagé contre 690 € pour une personne seule en privé. À partir de quatre voyageurs l'écart se resserre nettement, et à six le circuit privé revient à 230 € par personne pour un véhicule rien qu'à vous." },
+      { q: "Qu'est-ce qui n'est pas inclus dans un circuit partagé ?", a: "En général les déjeuners, les boissons, les pourboires et les droits d'entrée. L'hébergement ainsi que les dîners et petits-déjeuners au campement sont inclus sur les circuits de plusieurs jours. Comptez environ 100 à 150 MAD par jour pour les repas à votre charge." },
+      { q: "Les circuits partagés partent-ils tous les jours ?", a: "Oui, quotidiennement toute l'année sur les grands itinéraires. Les très petits groupes en basse saison sont parfois regroupés avec le départ du lendemain — vous en seriez informé avant de réserver, pas le matin même." },
+    ],
+    content: `
+Un circuit partagé est un départ fixe que l'on rejoint plutôt que l'on commande. Le véhicule part à une date et sur un itinéraire donnés, que vous réserviez ou non, et vous achetez une place à bord. Ce seul fait explique tout : le prix, le rythme et les compromis.
+
+Pour un voyageur seul ou un couple, les départs partagés sont de loin la façon la moins chère de voir le Maroc. Voici ce qu'ils coûtent vraiment et ce à quoi vous renoncez.
+
+## Ce que coûtent les départs partagés
+
+Chaque tarif ci-dessous est notre prix actuel par personne.
+
+| Circuit | Durée | Prix par personne |
+|---|---|---|
+| [Agafay : dîner, dromadaire et spectacle de feu](/fr/tours/shared-agafay-dinner-camel-ride) | Soirée | 30 € |
+| [Journée à Essaouira](/fr/tours/shared-essaouira-day-trip) | 1 jour | 30 € |
+| [Cascades d'Ouzoud](/fr/tours/shared-ouzoud-waterfalls-day-trip) | 1 jour | 40 € |
+| [Désert de Zagora](/fr/tours/shared-zagora-2day-marrakech) | 2 jours / 1 nuit | 85 € |
+| [Sahara de Merzouga](/fr/tours/shared-merzouga-3day-marrakech) | 3 jours / 2 nuits | 120 € |
+
+Les prix sur plusieurs jours incluent l'hébergement et les repas au campement. C'est le chiffre qui surprend : 120 € couvrent deux nuits, le dîner et le petit-déjeuner au campement du désert, une méharée et environ 1 300 km de route.
+
+## Pourquoi le prix ne baisse pas avec le groupe
+
+Sur nos circuits privés, le prix par personne chute fortement avec la taille du groupe — le [Sahara en 3 jours](/fr/tours/sahara-3day-marrakech) revient à 690 € pour une personne et 230 € chacun à six, parce que vous partagez un véhicule et un chauffeur.
+
+Les départs partagés ont un tarif unique sans paliers. La raison est structurelle : le minibus part de toute façon, il n'y a donc aucun coût de véhicule à répartir. Six amis sur un départ partagé paient six fois une place. Comprendre cela est important, car c'est exactement ce qui crée le point de bascule.
+
+## Où le privé devient le meilleur achat
+
+Comparons le même itinéraire de trois jours vers Merzouga dans les deux formules :
+
+| Voyageurs | Partagé, total | Privé, total | Le moins cher |
+|---|---|---|---|
+| 1 | 120 € | 690 € | Partagé, très largement |
+| 2 | 240 € | 760 € | Partagé |
+| 4 | 480 € | 1 180 € | Partagé |
+| 6 | 720 € | 1 380 € | Partagé |
+
+Sur cet itinéraire, le partagé reste moins cher à toutes les tailles de groupe — mais regardez ce que l'écart achète. À six voyageurs, vous payez environ 660 € de plus pour votre propre 4x4 et votre chauffeur-guide, la liberté de vous arrêter où vous voulez et aucun horaire imposé. Divisé par six, cela fait 110 € chacun pour un voyage fondamentalement différent.
+
+Sur les excursions à la journée, le calcul bascule plus vite. Une [journée privée à Ouzoud](/fr/tours/ouzoud-waterfalls-day-trip) revient à 22 € par personne à six contre 40 € en partagé — le circuit privé est tout simplement moins cher *et* meilleur. Le [guide de la taille du groupe](/fr/blog/morocco-tour-price-group-size) donne le tableau complet.
+
+**La règle courte :** seul ou en couple, réservez en partagé. À quatre ou plus pour une journée, chiffrez la version privée — elle gagne souvent nettement. À quatre ou plus sur plusieurs jours, demandez-vous si la liberté vaut environ 100 € chacun.
+
+## Ce à quoi vous renoncez vraiment
+
+**Des arrêts fixes.** L'itinéraire est arrêté. On s'arrête là où le programme le dit, le temps qu'il le dit. Si la lumière est extraordinaire sur la vallée du Dadès, le minibus ne se range pas.
+
+**Des départs matinaux.** Les départs partagés partent vers 7 h parce que l'itinéraire l'exige. Impossible de négocier plus tard.
+
+**Le groupe.** Jusqu'à seize personnes, de ponctualité variable. La plupart y voient un avantage — on rencontre du monde — mais la journée avance au rythme du plus lent à remonter dans le véhicule.
+
+**Une place, pas un véhicule.** Vous ne pouvez pas demander de baisser la climatisation ou de changer la musique. C'est un espace partagé.
+
+## Ce à quoi vous ne renoncez pas
+
+C'est la partie que les agences sous-vendent. Sur nos départs partagés, **l'itinéraire et les étapes de nuit sont identiques** à ceux du circuit privé. Même col du Tizi n'Tichka, même Aït Benhaddou, mêmes gorges du Dadès et du Todra, même méharée dans l'Erg Chebbi, même campement.
+
+Vous n'obtenez pas une version au rabais du Sahara. Vous obtenez le même Sahara, à l'horaire de quelqu'un d'autre.
+
+## Quel circuit partagé choisir
+
+**Une soirée libre à Marrakech :** la [soirée dans l'Agafay](/fr/tours/shared-agafay-dinner-camel-ride) à 30 €. C'est un désert de pierre, pas le Sahara — nous le disons aussi sur la page du circuit.
+
+**Une journée libre :** [Essaouira](/fr/tours/shared-essaouira-day-trip) pour l'Atlantique et une médina classée, ou [Ouzoud](/fr/tours/shared-ouzoud-waterfalls-day-trip) pour les chutes de 110 m et les magots en liberté.
+
+**Deux jours :** [Zagora](/fr/tours/shared-zagora-2day-marrakech). Avis honnête — les dunes sont basses et broussailleuses. C'est le bon choix uniquement si vous ne pouvez pas dégager trois jours.
+
+**Trois jours :** [Merzouga](/fr/tours/shared-merzouga-3day-marrakech). La vraie mer de sable de l'Erg Chebbi. Si vous avez trois jours, c'est ce circuit-là. [Merzouga ou Zagora](/fr/blog/merzouga-vs-zagora-which-desert-tour) tranche la question.
+
+## Notes pratiques
+
+Prévoyez des espèces pour les déjeuners — 100 à 150 MAD par jour suffisent. Emportez une couche chaude pour le campement quelle que soit la saison ; le Sahara chute fortement après la nuit tombée, ce qui surprend la plupart des primo-visiteurs. [Que mettre dans sa valise](/fr/blog/what-to-pack-desert-tour-morocco) donne la liste complète.
+
+Réservez les départs de plusieurs jours à l'avance de mars à mai et de septembre à novembre.
+
+Enfin : réservez en direct quand vous le pouvez. Les commissions des plateformes vont de 20 à 30 %, et sur une place à 30 € c'est toute la marge — elle est prise sur le campement, le chauffeur ou le repas. [Direct ou plateforme](/fr/blog/booking-morocco-tour-direct-vs-platform) explique ce que la commission paie réellement.
+`,
+  },
+  {
+    slug: "moroccan-cooking-class-marrakech-guide",
+    localizedSlug: "cours-de-cuisine-marrakech",
+    author: MET_TEAM,
+    title: "Cours de cuisine à Marrakech : ce qu'on y apprend vraiment",
+    excerpt:
+      "Une promenade au souk aux épices, un tajine cuisiné de zéro avec une famille, et la cérémonie du thé à la menthe dans les règles. Ce que contient un cours de cuisine à Marrakech, son prix, et comment repérer les mauvais.",
+    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 10,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    tags: ["cours de cuisine marocaine", "cours de cuisine Marrakech", "atelier tajine", "gastronomie Maroc", "cuisine marocaine"],
+    seoTitle: "Cours de cuisine à Marrakech : contenu et prix réels",
+    seoDescription:
+      "Ce que contient vraiment un cours de cuisine marocaine à Marrakech : le souk aux épices, le tajine cuisiné de zéro, la cérémonie du thé. Prix réels à partir de 33 € par personne.",
+    relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "Combien coûte un cours de cuisine à Marrakech ?", a: "Notre [visite des marchés et cours de cuisine](/fr/tours/marrakech-food-market-tour) coûte 109 € pour une personne et 33 € par personne à six — la remise de groupe la plus forte de notre catalogue, car le guide et la cuisine coûtent la même chose que l'on soit deux ou huit. En ville, comptez 25 à 60 € par personne pour une demi-journée." },
+      { q: "Combien de temps dure un cours de cuisine marocaine ?", a: "Une demi-journée, environ quatre heures. Le nôtre commence à 9 h 30 sur la place aux épices de Rahba Kedima, comprend 90 minutes de dégustations guidées au marché, puis rejoint une cuisine familiale pour le cours et le repas que vous avez préparé." },
+      { q: "Mange-t-on ce que l'on cuisine ?", a: "Oui — un déjeuner tajine complet est l'objet même du cours, pas une portion de dégustation. Venez avec de l'appétit et évitez un petit-déjeuner copieux." },
+      { q: "Les cours conviennent-ils aux végétariens ?", a: "Oui. Le tajine de légumes est un classique de la cuisine marocaine plutôt qu'un aménagement : il se cuisine exactement comme les autres. Précisez-le à la réservation et la promenade au marché est adaptée aussi." },
+      { q: "Faut-il choisir un cours avec la visite du marché ?", a: "La visite du marché est ce qui distingue un cours d'une démonstration. Apprendre à distinguer le vrai safran du carthame teint, ou quelles olives accompagnent quel plat, est un savoir qui sert tout le reste du voyage — y compris pour négocier." },
+    ],
+    content: `
+Un cours de cuisine est la demi-journée la plus systématiquement réussie de Marrakech. C'est aussi l'expérience que les visiteurs réservent le plus souvent mal — il y a un vrai écart entre un cours où l'on fait le marché, où l'on cuisine et où l'on mange en famille, et une démonstration d'hôtel où quelqu'un cuisine devant vous.
+
+Voici ce que contient la bonne version.
+
+## Ça commence à la place aux épices, pas en cuisine
+
+La promenade au marché fait toute la différence, et tout cours qui la saute est une démonstration déguisée.
+
+Le nôtre débute à **Rahba Kedima**, la place aux épices de la médina. La première chose qu'on y apprend, c'est à distinguer le **vrai safran du carthame teint** — une distinction utile avant que quiconque vous en vende un sachet. Le vrai safran, ce sont des filaments à l'extrémité en trompette, rouge profond, dont le prix s'explique : il faut 150 fleurs pour un gramme. Le carthame, ce sont des pétales plats jaune-orangé vendus à la poignée.
+
+Ensuite, la promenade traverse les souks alimentaires en activité, avec dégustations : olives préparées de quatre façons, citrons confits, msemen sortis de la plaque, dattes, amandes, fromage frais. Ce sont les étals qui approvisionnent les cuisines de la médina, pas des comptoirs à touristes.
+
+Quand vous arrivez en cuisine, vous savez ce que sont les ingrédients, ce qu'ils coûtent et à quoi ressemble un prix juste. Ce dernier point sert tout le reste du séjour — voir [négocier dans les souks](/fr/blog/haggling-in-moroccan-souks-guide).
+
+## Ce que vous cuisinez
+
+Le cœur du cours, c'est un **tajine préparé de zéro** — le plat conique en terre cuite et le plat qu'on y cuisine portent le même nom. Ce qu'on apprend n'est pas tant une recette qu'une méthode :
+
+**Le montage.** Un tajine se construit, il ne se remue pas. Oignons et huile au fond, puis la viande ou les légumes, puis les aromates au-dessus, pour que la vapeur circule le long du cône et retombe sur les aliments au lieu de s'échapper.
+
+**La base d'épices.** L'essentiel de la cuisine salée marocaine repose sur un petit ensemble : cumin, paprika doux, gingembre, curcuma, poivre noir, souvent une pincée de safran ou un citron confit. Le ras el-hanout est un mélange, et celui de chaque marchand est différent.
+
+**Le temps et le feu.** Doux et lent, à peine un frémissement, une heure ou plus. Le plat cuit dans sa propre humidité avec très peu de liquide ajouté — ce qui explique son efficacité dans un pays où l'eau a longtemps été rare.
+
+**Le pain comme couvert.** Le khobz n'est pas un accompagnement, c'est la fourchette. Manger de la main droite avec un morceau de pain est la façon normale de manger un tajine, et bien le faire fait partie de la leçon.
+
+La plupart des cours abordent aussi les **salades marocaines** — ces préparations de légumes cuits servies avant le plat — et se terminent par le thé à la menthe.
+
+## La cérémonie du thé à la menthe
+
+Le thé à la menthe obéit à plus de règles qu'on ne l'imagine. Thé vert gunpowder, une bonne quantité de menthe fraîche, et beaucoup de sucre. La première infusion est rincée et jetée. On verse **de haut**, ce qui aère le thé et forme la mousse à laquelle on juge un verre bien servi.
+
+Trois verres sont de tradition, et le dicton maghrébin souvent cité veut que le premier soit doux comme la vie, le deuxième fort comme l'amour, le troisième amer comme la mort — le goût change réellement à mesure que les feuilles infusent. Refuser le thé revient presque à refuser l'hospitalité : acceptez au moins un verre. Le [guide du thé à la menthe](/fr/blog/moroccan-mint-tea-ceremony-guide) va plus loin.
+
+## Ce que cela coûte
+
+Notre [visite des marchés et cours de cuisine de Marrakech](/fr/tours/marrakech-food-market-tour) dure une demi-journée, quatre heures, et comprend le guide, toutes les dégustations, l'instruction et les ingrédients, le déjeuner tajine complet que vous avez préparé, et la cérémonie du thé.
+
+| Voyageurs | Prix par personne |
+|---|---|
+| 1 | 109 € |
+| 2 | 55 € |
+| 4 | 39 € |
+| 6+ | 33 € |
+
+C'est la remise de groupe la plus forte de notre catalogue, pour une raison simple : le guide, la cuisine et la famille qui cuisine avec vous coûtent la même chose que deux personnes se présentent ou huit. Presque tout le prix en solo correspond au coût fixe de la journée.
+
+À Marrakech en général, comptez 25 à 60 € par personne pour une demi-journée. En dessous, il manque quelque chose — le plus souvent la visite du marché, parfois le repas.
+
+## Comment repérer un mauvais cours
+
+**Pas de visite au marché.** Le signal le plus clair. Si les ingrédients sont déjà dosés dans des bols à votre arrivée, vous assistez à une démonstration.
+
+**Des groupes de plus de dix personnes.** Il faut un poste et un plat par participant. Un grand groupe, c'est regarder une seule personne cuisiner.
+
+**Une salle de séminaire d'hôtel.** Les bons cours se déroulent dans une cuisine familiale ou un patio de riad, parce que la personne qui enseigne y cuisine tous les jours.
+
+**Des portions de dégustation.** Vous devez manger un vrai repas. Si le déjeuner tient en trois bouchées, le cours a été conçu pour les photos.
+
+## L'intégrer à un voyage
+
+Un cours de cuisine fonctionne mieux **en début** de séjour à Marrakech. Tout ce que vous apprenez sur les ingrédients, les prix et la géographie des souks facilite les jours suivants — vous lirez les menus autrement et paierez les épices moins cher.
+
+Il se marie naturellement avec une [visite guidée de la médina](/fr/tours/marrakech-medina-cultural-tour), qui couvre les palais, les tanneries et le problème d'orientation que posent les souks. Les deux durent une demi-journée : une de chaque remplit confortablement une journée à Marrakech.
+
+Pour savoir quoi commander ensuite au restaurant, le [guide de la cuisine marocaine](/fr/blog/morocco-food-guide-what-to-eat) passe en revue quinze plats et où les trouver. Et si vous hésitez encore sur le reste du voyage, [que faire au Maroc](/fr/blog/que-faire-au-maroc) replace le cours de cuisine face au désert, aux montagnes et à la côte.
+`,
+  },
 ];

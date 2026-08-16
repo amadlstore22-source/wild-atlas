@@ -295,7 +295,7 @@
     "travellersRequiredMin": "Indica almeno {count} viaggiatori."
   },
   "cookieBanner": {
-    "body": "Utilizziamo cookie per ricordare le tue preferenze e, se accetti, Google Analytics per capire come viene usato il sito. I cookie necessari sono sempre attivi; non è presente alcun cookie wall.",
+    "body": "Usiamo cookie per le tue preferenze e, con il tuo consenso, Google Analytics. I cookie necessari sono sempre attivi.",
     "policyLink": "Informativa sui cookie",
     "necessaryOnly": "Solo necessari",
     "acceptAll": "Accetta tutti"

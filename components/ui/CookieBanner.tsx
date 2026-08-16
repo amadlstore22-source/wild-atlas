@@ -48,16 +48,32 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
   // did not fix it (5.3s, still this element), because size was never the
   // cause: timing was.
   //
-  // Two frames of delay puts the mount after the hero has painted, so the
-  // hero becomes the LCP element and this stops being measured as content.
-  // Nothing about consent changes: analytics still waits for an explicit
-  // choice, necessary cookies are always on, and the banner still appears
-  // well within the same second. Google's cookie-notice guidance calls this
-  // out as the mobile case where a notice contains the LCP element.
+  // A two-frame (requestAnimationFrame) delay was tried first and did NOT
+  // work: measured 5.2s LCP, still this banner, because Time to Interactive
+  // was also 5.2s. rAF fires the moment hydration finishes, which is exactly
+  // when the banner was already mounting — "two frames later" was the same
+  // instant. The delay has to outlast the LCP window, not the next paint.
+  //
+  // requestIdleCallback waits for the main thread to actually go quiet after
+  // hydration; the timeout is the floor for browsers without it (Safari) and
+  // the cap for a thread that never idles. Consent is unaffected: analytics
+  // still waits for an explicit choice, necessary cookies are always on, and
+  // a visitor reading the page sees the notice well before they could act on
+  // it. Google's cookie-notice guidance names this mobile case directly.
   const [painted, setPainted] = useState(false);
   useEffect(() => {
-    const id = requestAnimationFrame(() => requestAnimationFrame(() => setPainted(true)));
-    return () => cancelAnimationFrame(id);
+    const show = () => setPainted(true);
+    type IdleWindow = Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const w = window as IdleWindow;
+    if (typeof w.requestIdleCallback === "function") {
+      const id = w.requestIdleCallback(show, { timeout: 2500 });
+      return () => w.cancelIdleCallback?.(id);
+    }
+    const id = window.setTimeout(show, 1500);
+    return () => clearTimeout(id);
   }, []);
 
   const show = !stored && !dismissed && painted;

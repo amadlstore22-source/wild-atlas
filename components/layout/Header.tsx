@@ -9,6 +9,7 @@ import {
 } from "@phosphor-icons/react";
 import { useCurrency, CURRENCIES, CURRENCY_SYMBOL, type Currency } from "@/lib/currency";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { translatePath } from "@/lib/locale-switch";
 
 const LOCALES: { code: Locale; label: string; flag: string }[] = [
   { code: "en", label: "English", flag: "🇬🇧" },
@@ -93,9 +94,11 @@ export default function Header({ lang, dict }: Props) {
   }, [open]);
 
   function switchLocale(newLang: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = newLang;
-    router.push(segments.join("/") || `/${newLang}`);
+    // Translates the SLUG as well as the locale segment. Swapping only
+    // segments[1] sent /fr/blog/prix-guide-toubkal to
+    // /en/blog/prix-guide-toubkal — a 404, because English serves that post at
+    // toubkal-guide-cost. See lib/locale-switch.ts.
+    router.push(translatePath(pathname, lang, newLang));
     setLangOpen(false);
   }
 

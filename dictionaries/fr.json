@@ -655,5 +655,18 @@
     "home": {
       "title": "Marrakech Eco Tours — Treks de l'Atlas, Sahara et culture"
     }
+  },
+  "review": {
+    "metaTitle": "Laisser un avis",
+    "metaDesc": "Votre voyage au Maroc vous a plu ? Laissez un avis — cela compte énormément pour notre petite équipe familiale de guides berbères.",
+    "eyebrow": "Merci d'avoir voyagé avec nous",
+    "heading": "Comment s'est passée votre aventure ?",
+    "sub": "Votre satisfaction est la raison d'être de notre travail. Si nos guides et le voyage ont rendu votre Maroc mémorable, quelques mots compteraient beaucoup pour notre petite équipe familiale — et ils aident d'autres voyageurs à nous trouver.",
+    "matterTitle": "Pourquoi c'est important",
+    "matterBody": "Nous sommes une famille de guides berbères agréés, pas une plateforme de réservation. Nous ne dépensons rien en publicité — les voyageurs nous trouvent grâce aux récits de ceux qui sont venus avant eux. Votre avis, c'est ce qui décide la prochaine famille, le prochain couple ou le prochain voyageur solo à nous faire confiance.",
+    "tripadvisor": "Donnez votre avis sur Tripadvisor",
+    "google": "Donnez votre avis sur Google",
+    "whatsapp": "Envoyez-nous plutôt un message privé",
+    "thanks": "De la part de Lahsen, Mohamed, Smail et de toute l'équipe — merci. Bslama !"
   }
 }

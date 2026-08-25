@@ -655,5 +655,18 @@
     "home": {
       "title": "Marrakech Eco Tours — Atlas Trekking, Sahara & Cultural Tours"
     }
+  },
+  "review": {
+    "metaTitle": "Leave a Review",
+    "metaDesc": "Loved your Morocco tour? Share a review — it means the world to our small family team of Berber guides.",
+    "eyebrow": "Thank you for travelling with us",
+    "heading": "How was your adventure?",
+    "sub": "Your happiness is the whole reason we do this. If our guides and the trip made your Morocco memorable, a few words would mean everything to our small family team — and it helps other travellers find us.",
+    "matterTitle": "Why it matters",
+    "matterBody": "We're a family of licensed Berber guides, not a booking platform. We don't spend on advertising — travellers find us through the stories of travellers who came before. Your review is how the next family, couple, or solo adventurer decides to trust us.",
+    "tripadvisor": "Review us on Tripadvisor",
+    "google": "Review us on Google",
+    "whatsapp": "Send us a private message instead",
+    "thanks": "From Lahsen, Mohamed, Smail and the whole team — thank you. Bslama!"
   }
 }

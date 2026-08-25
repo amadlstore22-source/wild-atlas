@@ -40,7 +40,10 @@ type ReviewCopy = {
 function fallback(dict: unknown): ReviewCopy {
   const d = (dict as { review?: Partial<ReviewCopy> }).review ?? {};
   return {
-    metaTitle: d.metaTitle ?? "Leave a Review — Marrakech Eco Tours",
+    // No brand suffix here: the [lang] layout's title template already appends
+    // "| Marrakech Eco Tours", so carrying it in the string rendered the brand
+    // twice ("Leave a Review — Marrakech Eco Tours | Marrakech Eco Tours").
+    metaTitle: d.metaTitle ?? "Leave a Review",
     metaDesc: d.metaDesc ?? "Loved your Morocco tour? Share a review — it means the world to our small family team of Berber guides.",
     eyebrow: d.eyebrow ?? "Thank you for travelling with us",
     heading: d.heading ?? "How was your adventure?",

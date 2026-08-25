@@ -11,7 +11,9 @@ import Link from "next/link";
 // The 404 status code is what really matters and was always correct; this
 // makes the meta agree with it instead of arguing with it.
 export const metadata: Metadata = {
-  title: "Page not found — Marrakech Eco Tours",
+  // The root layout's title template appends "| Marrakech Eco Tours", so
+  // naming the brand here rendered it twice.
+  title: "Page not found",
   robots: { index: false, follow: true },
 };
 

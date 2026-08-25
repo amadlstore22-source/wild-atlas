@@ -2908,7 +2908,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Azzaden Valley 2-Day Trek — Quiet Atlas Mountains Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "2-Tage-Trek im Azzaden-Tal — ruhige Atlas-Wanderung ab Marrakesch | Marrakech Eco Tours",
     seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $186.",
     faq: [
       { q: "Wie fit muss ich für den Azzaden-Trek sein?", a: "Er ist als mittel eingestuft: zwei Tage mit jeweils etwa 5–6 Stunden Gehzeit, mit Pässen bis 2.684 m. Es gibt kein technisches Klettern, aber Sie sollten mehrere Stunden auf Anstiegs- und Abstiegspfaden sicher sein. Er eignet sich für einigermaßen aktive Wanderer, nicht für komplette Anfänger." },
@@ -2996,7 +2996,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "3-Day Atlas Mountains Trek — High Atlas Berber Villages from Marrakech | Marrakech Eco Tours",
+    seoTitle: "3-Tage-Trek im Atlasgebirge — Berberdörfer des Hohen Atlas ab Marrakesch | Marrakech Eco Tours",
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $271.",
     faq: [
       { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 4–6 Stunden über Pässe bis etwa 2.700 m. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
@@ -3093,7 +3093,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Family Atlas Mountains Trek 4 Days — Gentle Berber Village Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "Familien-Trek im Atlasgebirge 4 Tage — sanfte Berberdorf-Wanderung ab Marrakesch | Marrakech Eco Tours",
     seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $361.",
     faq: [
       { q: "Für welches Kindesalter ist dieser Trek geeignet?", a: "Er funktioniert gut für schulpflichtige Kinder ab etwa 6 Jahren, die ans Gehen und Draußensein gewöhnt sind. Die Tage sind kurz (2–4 Stunden) und leicht, und Maultiere sind zur Hand, um müde jüngere Kinder zu tragen. Für Kleinkinder ist er nicht ideal — das Gehen, so sanft es ist, führt weiterhin über Bergpfade." },
@@ -3192,7 +3192,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
-    seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
+    seoTitle: "Familien-Wüstentour 4 Tage — von Marrakesch in die Sahara mit Kindern | Marrakech Eco Tours",
     seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
     faq: [
       { q: "Ist dieser Wüstentrip für kleine Kinder geeignet?", a: "Ja. Es gibt keinen Gehanspruch — alles bewegt sich im klimatisierten Fahrzeug, und die Stopps (Kasbah, Schlucht, Dünen) sind kurz und leicht. Die Fahrt ist allerdings real, er passt also für Kinder, die einigermaßen gut im Auto reisen; die Etappen sind bewusst mit häufigen Stopps aufgeteilt, um zu helfen." },
@@ -3409,7 +3409,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
-    seoTitle: "High Atlas Grand Traverse 15 Days — M'Goun to Toubkal Trek | Marrakech Eco Tours",
+    seoTitle: "Große Hoher-Atlas-Durchquerung 15 Tage — Trek vom M'Goun zum Toubkal | Marrakech Eco Tours",
     seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1751.",
     faq: [
       { q: "Wie fit und erfahren muss ich für die Große Durchquerung sein?", a: "Sie ist als Experte eingestuft — die anspruchsvollste Reise, die wir anbieten. Es sind fünfzehn aufeinanderfolgende Wandertage, mehrere davon lang (8–9 Stunden), mit zwei 4.000-m-Gipfeln und hohen Pässen. Sie sollten bereits Mehrtages-Trekkingerfahrung haben, in der Höhe sicher sein und auf aufeinanderfolgende harte Tage in abgelegenem Gelände vorbereitet sein. Es ist kein erster großer Trek." },
@@ -3708,8 +3708,8 @@ export const TOURS: Tour[] = [
       { q: "Fahren die Gruppentouren täglich?", a: "Ja, täglich das ganze Jahr über. Sehr kleine Gruppen in der Nebensaison werden gelegentlich mit der Abfahrt des Folgetages zusammengelegt — das würde man Ihnen vor der Buchung sagen, nicht am Morgen." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Merzouga Desert 3-Day Shared Tour from Marrakech — €120 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure from Marrakech to the Erg Chebbi dunes: Aït Ben Haddou, Dades and Todra gorges, camel trek and a night at a desert camp. €120 per person.",
+    seoTitle: "Merzouga-Wüste 3-Tage-Gruppentour ab Marrakesch — €120 | Marrakech Eco Tours",
+    seoDescription: "Tägliche Gruppenabfahrt ab Marrakesch zu den Dünen des Erg Chebbi: Aït Ben Haddou, Dades- und Todra-Schlucht, Kamelritt und Übernachtung im Wüstencamp. €120 pro Person.",
     featured: false,
   },
   {
@@ -3780,8 +3780,8 @@ export const TOURS: Tour[] = [
       { q: "Wie ist das Camp?", a: "Traditionelle Berberzelte mit Gemeinschaftsanlagen, Abendessen und Frühstück und meist Trommeln nach dem Essen. Einfach, nicht luxuriös." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Zagora Desert 2-Day Shared Tour from Marrakech — €85 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a night in a Berber camp. €85 per person.",
+    seoTitle: "Zagora-Wüste 2-Tage-Gruppentour ab Marrakesch — €85 | Marrakech Eco Tours",
+    seoDescription: "Tägliche Gruppenabfahrt zu den Dünen von Zagora: Tizi n'Tichka, Aït Ben Haddou, Draa-Tal, Kamelritt und Übernachtung im Berbercamp. €85 pro Person.",
     featured: false,
   },
   {
@@ -3839,8 +3839,8 @@ export const TOURS: Tour[] = [
       { q: "Ist die Bootsfahrt inbegriffen?", a: "Nein — die kleinen Boote am Fuß der Fälle werden lokal betrieben und kosten ein paar Dirham, vor Ort zu zahlen. Transport, Guide und Wasser sind enthalten." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Ouzoud Waterfalls Shared Day Trip from Marrakech — €40 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to the Ouzoud Falls: 110 m cascades, wild Barbary macaques, gorge walk and boat ride. Round-trip from Marrakech, €40 per person.",
+    seoTitle: "Ouzoud-Wasserfälle Gruppentagestour ab Marrakesch — €40 | Marrakech Eco Tours",
+    seoDescription: "Tägliche Gruppenabfahrt zu den Ouzoud-Wasserfällen: 110 m hohe Kaskaden, freilebende Berberaffen, Schluchtwanderung und Bootsfahrt. Hin- und Rückfahrt ab Marrakesch, €40 pro Person.",
     featured: false,
   },
   {
@@ -3898,8 +3898,8 @@ export const TOURS: Tour[] = [
       { q: "Ist das für Kinder geeignet?", a: "Ja — es ist kurz, es wird praktisch nicht gelaufen, und Kamelritt und Feuershow sind für jüngere Kinder oft der Höhepunkt der ganzen Reise." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Agafay Desert Dinner, Camel Ride & Fire Show from Marrakech — €30 | Marrakech Eco Tours",
-    seoDescription: "Evening in the Agafay stone desert: sunset camel ride, three-course dinner, live music and a fire show, 40 minutes from Marrakech. €30 per person.",
+    seoTitle: "Agafay-Wüste Abendessen, Kamelritt und Feuershow ab Marrakesch — €30 | Marrakech Eco Tours",
+    seoDescription: "Abend in der Steinwüste Agafay: Kamelritt bei Sonnenuntergang, Drei-Gänge-Menü, Live-Musik und Feuershow, 40 Minuten von Marrakesch. €30 pro Person.",
     featured: false,
   },
   {
@@ -3956,8 +3956,8 @@ export const TOURS: Tour[] = [
       { q: "Ist der Arganöl-Stopp eine Verkaufsveranstaltung?", a: "Es ist eine arbeitende Frauenkooperative, in der Sie beim Pressen zusehen und kaufen können, wenn Sie möchten. Niemand verpflichtet Sie dazu." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Essaouira Shared Day Trip from Marrakech — €30 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to Essaouira: UNESCO medina, 18th-century ramparts, the blue fishing harbour and an argan cooperative en route. €30 per person.",
+    seoTitle: "Essaouira Gruppentagestour ab Marrakesch — €30 | Marrakech Eco Tours",
+    seoDescription: "Tägliche Gruppenabfahrt nach Essaouira: UNESCO-Medina, Stadtmauern aus dem 18. Jahrhundert, blauer Fischerhafen und unterwegs eine Arganöl-Kooperative. €30 pro Person.",
     featured: false,
   },
 ];

@@ -2873,7 +2873,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Azzaden Valley 2-Day Trek — Quiet Atlas Mountains Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "رحلة سير يومين في وادي أزادن — مسار هادئ في الأطلس من مراكش | Marrakech Eco Tours",
     seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $186.",
     faq: [
       { q: "ما مقدار اللياقة اللازمة لرحلة أزادن؟", a: "مصنّفة متوسطة: يومان بنحو 5 إلى 6 ساعات مشي في كل منهما، وعبور ممرات حتى 2,684 متراً. لا تسلق تقني، لكن ينبغي أن تكون مرتاحاً على مسارات الصعود والنزول لعدة ساعات. تناسب المشّائين النشطين نسبياً أكثر من المبتدئين تماماً." },
@@ -2960,7 +2960,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "3-Day Atlas Mountains Trek — High Atlas Berber Villages from Marrakech | Marrakech Eco Tours",
+    seoTitle: "رحلة سير 3 أيام في الأطلس — قرى أمازيغية في الأطلس الكبير من مراكش | Marrakech Eco Tours",
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $271.",
     faq: [
       { q: "هل تصلح هذه الرحلة كأول مسار متعدد الأيام؟", a: "نعم — مصنّفة متوسطة ومصمَّمة كمقدّمة قوية للتسلق في المغرب. لا قمة ولا أرض تقنية؛ الأيام من 4 إلى 6 ساعات عبر ممرات حتى نحو 2,700 متر. إن كنت تمشي بانتظام فستكون بخير." },
@@ -3056,7 +3056,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Family Atlas Mountains Trek 4 Days — Gentle Berber Village Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "رحلة عائلية في الأطلس 4 أيام — مسار سهل عبر القرى الأمازيغية من مراكش | Marrakech Eco Tours",
     seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $361.",
     faq: [
       { q: "ما سنّ الأطفال المناسب لهذه الرحلة؟", a: "تناسب جيداً الأطفال في سن المدرسة من نحو 6 سنوات فما فوق ممن اعتادوا المشي واللعب في الهواء الطلق. الأيام قصيرة (2 إلى 4 ساعات) وبمستوى سهل، وتتوفر بغال لحمل الصغار الذين يتعبون. أما للأطفال الصغار جداً فليست مثالية — فالمشي، وإن كان لطيفاً، يبقى على مسارات جبلية." },
@@ -3154,7 +3154,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
-    seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
+    seoTitle: "جولة صحراوية عائلية 4 أيام — من مراكش إلى الصحراء مع الأطفال | Marrakech Eco Tours",
     seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
     faq: [
       { q: "هل تناسب جولة الصحراء هذه الأطفال الصغار؟", a: "نعم. لا مطلب للمشي — كل شيء يتنقّل في مركبة مكيّفة، والتوقفات (القصبة، المضيق، الكثبان) قصيرة وسهلة. القيادة حقيقية مع ذلك، فتناسب الأطفال الذين يسافرون بالسيارة بشكل معقول؛ المراحل مجزّأة عمداً بتوقفات متكررة للمساعدة." },
@@ -3370,7 +3370,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
-    seoTitle: "High Atlas Grand Traverse 15 Days — M'Goun to Toubkal Trek | Marrakech Eco Tours",
+    seoTitle: "عبور الأطلس الكبير 15 يومًا — رحلة من مغون إلى توبقال | Marrakech Eco Tours",
     seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1751.",
     faq: [
       { q: "ما اللياقة والخبرة اللازمتان للعبور الكبير؟", a: "مصنّف للخبراء — أكثر رحلة تطلّباً نقدّمها. إنها خمسة عشر يوماً متتالياً من المشي، عدة منها طويلة (8 إلى 9 ساعات)، مع قمتين بارتفاع 4,000 متر وممرات عالية. ينبغي أن تمتلك خبرة سابقة في التسلق متعدد الأيام، وأن تكون مرتاحاً في الارتفاع، ومستعداً لأيام صعبة متتالية في أرض نائية. ليست أول رحلة تسلق كبيرة." },
@@ -3666,8 +3666,8 @@ export const TOURS: Tour[] = [
       { q: "هل تنطلق الرحلات الجماعية يوميًا؟", a: "نعم، يوميًا على مدار السنة. وتُدمج المجموعات الصغيرة جدًا في الموسم المنخفض أحيانًا مع رحلة اليوم التالي — وستُخبر بذلك قبل الحجز لا صباح الرحلة." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Merzouga Desert 3-Day Shared Tour from Marrakech — €120 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure from Marrakech to the Erg Chebbi dunes: Aït Ben Haddou, Dades and Todra gorges, camel trek and a night at a desert camp. €120 per person.",
+    seoTitle: "جولة جماعية 3 أيام إلى صحراء مرزوقة من مراكش — €120 | Marrakech Eco Tours",
+    seoDescription: "انطلاق يومي جماعي من مراكش إلى كثبان عرق الشبي: آيت بن حدو، مضايق دادس وتودغة، ركوب الجمال وليلة في مخيم صحراوي. €120 للشخص.",
     featured: false,
   },
   {
@@ -3737,8 +3737,8 @@ export const TOURS: Tour[] = [
       { q: "كيف هو المخيم؟", a: "خيام أمازيغية تقليدية بمرافق مشتركة، مع عشاء وفطور، وعادةً إيقاعات الطبول بعد الطعام. إنه بسيط لا فاخر." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Zagora Desert 2-Day Shared Tour from Marrakech — €85 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a night in a Berber camp. €85 per person.",
+    seoTitle: "جولة جماعية يومين إلى صحراء زاكورة من مراكش — €85 | Marrakech Eco Tours",
+    seoDescription: "انطلاق يومي جماعي إلى كثبان زاكورة: تيزي نتيشكا، آيت بن حدو، وادي درعة، ركوب الجمال وليلة في مخيم أمازيغي. €85 للشخص.",
     featured: false,
   },
   {
@@ -3795,8 +3795,8 @@ export const TOURS: Tour[] = [
       { q: "هل جولة القارب مشمولة؟", a: "لا — فالقوارب الصغيرة أسفل الشلالات يشغّلها السكان المحليون وتكلّف بضعة دراهم تُدفع في حينه. أما النقل والمرشد والماء فمشمولة." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Ouzoud Waterfalls Shared Day Trip from Marrakech — €40 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to the Ouzoud Falls: 110 m cascades, wild Barbary macaques, gorge walk and boat ride. Round-trip from Marrakech, €40 per person.",
+    seoTitle: "شلالات أوزود رحلة يومية جماعية من مراكش — €40 | Marrakech Eco Tours",
+    seoDescription: "انطلاق يومي جماعي إلى شلالات أوزود: مساقط بارتفاع 110 متر، قرود مغربية طليقة، مسير في الوادي وجولة بالقارب. ذهابًا وإيابًا من مراكش، €40 للشخص.",
     featured: false,
   },
   {
@@ -3853,8 +3853,8 @@ export const TOURS: Tour[] = [
       { q: "هل هي مناسبة للأطفال؟", a: "نعم — فهي قصيرة، ولا مشي يُذكر، وركوب الجمال وعرض النار غالبًا ما يكونان أجمل ما في الرحلة عند الأطفال الصغار." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Agafay Desert Dinner, Camel Ride & Fire Show from Marrakech — €30 | Marrakech Eco Tours",
-    seoDescription: "Evening in the Agafay stone desert: sunset camel ride, three-course dinner, live music and a fire show, 40 minutes from Marrakech. €30 per person.",
+    seoTitle: "صحراء أكافاي: عشاء وركوب الجمال وعرض ناري من مراكش — €30 | Marrakech Eco Tours",
+    seoDescription: "أمسية في صحراء أكافاي الحجرية: ركوب الجمال عند الغروب، عشاء من ثلاثة أطباق، موسيقى حية وعرض ناري، على بعد 40 دقيقة من مراكش. €30 للشخص.",
     featured: false,
   },
   {
@@ -3910,8 +3910,8 @@ export const TOURS: Tour[] = [
       { q: "هل توقف الأركان مجرد عرض للبيع؟", a: "إنها تعاونية نسائية عاملة يمكنك أن تشاهد فيها عملية العصر وأن تشتري إن رغبت. ولا أحد يُلزمك بذلك." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Essaouira Shared Day Trip from Marrakech — €30 | Marrakech Eco Tours",
-    seoDescription: "Shared daily departure to Essaouira: UNESCO medina, 18th-century ramparts, the blue fishing harbour and an argan cooperative en route. €30 per person.",
+    seoTitle: "الصويرة رحلة يومية جماعية من مراكش — €30 | Marrakech Eco Tours",
+    seoDescription: "انطلاق يومي جماعي إلى الصويرة: مدينة عتيقة مصنفة عالميًا، أسوار من القرن الثامن عشر، ميناء صيد أزرق وتعاونية أركان في الطريق. €30 للشخص.",
     featured: false,
   },
 ];

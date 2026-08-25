@@ -30,6 +30,7 @@ import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // constants read as undefined during server render.
 import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
 import { hreflangLanguages } from "@/lib/seo/hreflang";
+import { ogBase } from "@/lib/seo/open-graph";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
 /** Tour prices are stored in USD but the site displays EUR by default. Google
@@ -75,6 +76,7 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
     title: (tour.seoTitle ?? tour.title).replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
     openGraph: {
+      ...ogBase(lang),
       title: tour.title,
       description: tour.shortDescription,
       images: [{ url: tour.heroImage, width: 1400, height: 900, alt: tour.title }],

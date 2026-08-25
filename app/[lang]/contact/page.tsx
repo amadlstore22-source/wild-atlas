@@ -9,6 +9,7 @@ import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import { ogBase } from "@/lib/seo/open-graph";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     title: dict.contact.pageTitle,
     description: dict.contact.pageSubtitle,
     openGraph: {
+      ...ogBase(lang),
       title: dict.contact.pageTitle,
       description: dict.contact.pageSubtitle,
       url: `https://marrakechecotours.com/${lang}/contact`,

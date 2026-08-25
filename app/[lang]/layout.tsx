@@ -16,6 +16,7 @@ import CurrencyProvider from "@/components/ui/CurrencyProvider";
 import VercelAnalytics from "@/components/ui/VercelAnalytics";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
+import { ogBase } from "@/lib/seo/open-graph";
 
 // Cormorant Garamond — the display serif. Elegant, high-contrast, editorial —
 // the "riad luxury" voice for all headlines. Self-hosted via next/font (CSP-safe).
@@ -42,37 +43,48 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Marrakech Eco Tours — Trekking, Desert Tours & Cultural Excursions",
-    template: "%s | Marrakech Eco Tours",
-  },
-  description:
-    "Discover world-class trekking, hiking, cultural tours and excursions with Marrakech Eco Tours. Professional guides, breathtaking landscapes, unforgettable experiences.",
-  metadataBase: new URL("https://marrakechecotours.com"),
-  openGraph: {
-    type: "website",
-    siteName: "Marrakech Eco Tours",
-    // Default share card for any page that doesn't set its own image (about,
-    // contact, guides, destinations index, legal pages). Branded, on an
-    // authentic first-party Toubkal summit photo. See scripts/build_og_image.mjs.
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@marrakechecotours",
-    images: ["/og-image.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true },
-  },
-  // NOTE: hreflang/canonical alternates are intentionally NOT set here.
-  // Layout metadata can't know the current path, so a static mapping would
-  // wrongly point every page's alternates at the locale homepage. Each page's
-  // own generateMetadata defines path-correct alternates instead.
-};
+// Must be generateMetadata, not a static `metadata` export: og:locale depends
+// on which locale is rendering, and a static object cannot see `params`. Pages
+// that declare their own `openGraph` replace this one wholesale (Next does not
+// deep-merge), so they spread `ogBase(lang)` themselves — this covers the rest
+// (guides, news, legal pages), which inherit the layout untouched.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  return {
+    title: {
+      default: "Marrakech Eco Tours — Trekking, Desert Tours & Cultural Excursions",
+      template: "%s | Marrakech Eco Tours",
+    },
+    description:
+      "Discover world-class trekking, hiking, cultural tours and excursions with Marrakech Eco Tours. Professional guides, breathtaking landscapes, unforgettable experiences.",
+    metadataBase: new URL("https://marrakechecotours.com"),
+    openGraph: {
+      ...ogBase(lang),
+      // Default share card for any page that doesn't set its own image (about,
+      // contact, guides, destinations index, legal pages). Branded, on an
+      // authentic first-party Toubkal summit photo. See scripts/build_og_image.mjs.
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@marrakechecotours",
+      images: ["/og-image.jpg"],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true },
+    },
+    // NOTE: hreflang/canonical alternates are intentionally NOT set here.
+    // Layout metadata can't know the current path, so a static mapping would
+    // wrongly point every page's alternates at the locale homepage. Each page's
+    // own generateMetadata defines path-correct alternates instead.
+  };
+}
 
 export async function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));

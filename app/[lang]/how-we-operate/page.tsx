@@ -16,6 +16,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
 import JsonLd from "@/components/seo/JsonLd";
 import { ArabesqueDivider } from "@/components/ui/MoroccanMotifs";
+import { ogBase } from "@/lib/seo/open-graph";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     title: h.pageTitle,
     description: h.pageSubtitle,
     openGraph: {
+      ...ogBase(lang),
       title: `${h.pageTitle} — Marrakech Eco Tours`,
       description: h.pageSubtitle,
       url: `https://marrakechecotours.com/${lang}/how-we-operate`,

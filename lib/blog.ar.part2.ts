@@ -759,7 +759,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "أفضل رحلات التسلق متعددة الأيام في المغرب (غير توبقال)",
     excerpt: "توبقال يستقطب معظم الزوار، لكنه قمة واحدة في سلسلة جبلية شاسعة. أربعة مسارات أطول، وما يتطلبه كل منها، وكيف تختار حسب لياقتك والأيام المتاحة لك.",
-    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    heroImage: "/gallery/high-atlas-peaks-summit-cairn.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -1284,7 +1284,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ما هي القصبة؟ الكلمة وراء نصف معالم المغرب",
     excerpt:
       "تُستخدم كلمة «قصبة» بشكل فضفاض في الإنجليزية لتعني «مبنى قديم غريب». إليك ما تعنيه فعليًا، وكيف تختلف عن الرياض والقصر والمدينة القديمة.",
-    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
+    heroImage: "/gallery/kasbah-palm-oasis-draa.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1500,7 +1500,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "ماذا تحزم لرحلة صحراوية في المغرب",
     excerpt:
       "أيام الصحراء حارة وليالي الصحراء باردة حقًا — الخطأ في الحزم الذي يقع فيه تقريبًا الجميع هو الاستعداد لأحدهما وليس الآخر. إليك القائمة التي يستخدمها مرشدونا فعليًا.",
-    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+    heroImage: "/gallery/walkers-dune-crest-dawn.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -2148,7 +2148,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "برنامج 7 أيام المثالي في المغرب (انطلاقاً من مراكش)",
     excerpt:
       "أسبوع واحد يكفي لرؤية أفضل ما في المغرب — المدينة الإمبراطورية، والأطلس الكبير، وليلة تحت نجوم الصحراء — إذا خططت للمسار جيداً. إليك برنامج 7 أيام الذي ننصح به صديقاً.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/imlil-valley-terrace-view.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -2367,7 +2367,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الشاي المغربي بالنعناع: الطقس، والصبّ من عُلوّ، ولماذا لا يمكنك الرفض",
     excerpt:
       "يسمّونه «ويسكي الأمازيغ» ويُصبّ من ارتفاع لسبب. إليك كيف يعمل طقس الشاي بالنعناع في المغرب فعلاً — ولماذا رفض كأس ثالث حادثة دبلوماسية تقريباً.",
-    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
+    heroImage: "/gallery/berber-guesthouse-group-dinner.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2696,7 +2696,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة مرشد جبلي لتوبقال؟ (أسعار 2026)",
     excerpt:
       "المرشد الجبلي المرخّص يتقاضى 500-800 درهم يوميًا — لكن المرشد بند واحد في فاتورة أطول. إليك التكلفة الحقيقية والمفصّلة لتسلق توبقال، ومقارنة التعاقد المباشر بحجز باقة.",
-    heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    heroImage: "/gallery/guide-briefing-client-snow-peaks.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,
@@ -3245,7 +3245,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "رحلة الجمال في الصحراء: كيف تجري في الواقع (2026)",
     excerpt:
       "معظم «رحلات الجمال» في المغرب ركوب لتسعين دقيقة بين الكثبان عند الغروب. أما القافلة الحقيقية فشيء آخر: أنت تمشي، والجمال تحمل المخيّم، وتقطعون نحو 17 كيلومترًا يوميًا. إليك الفرق، ومسألة الرفق بالحيوان التي لا يذكرها أحد في صفحة الحجز.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-ridge-backlit.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -3373,7 +3373,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية من ثلاثة أيام من مراكش؟ (2026)",
     excerpt:
       "رحلة الثلاثة أيام إلى مرزوقة هي المسار الصحراوي الأكثر حجزًا في المغرب، والأكثر تفاوتًا في السعر. إليك ما يفصل حافلة صغيرة مشتركة بـ 95 يورو عن رباعية دفع خاصة بـ 225 يورو.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-crest-sand-sea.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3466,7 +3466,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية من أݣادير؟ (تفصيل 2026)",
     excerpt:
       "تبعد أݣادير 450 كيلومترًا عن أقرب كثبان حقيقية، وهذا يغيّر الحساب كليًا. إليك تكلفة رحلة صحراوية من الساحل في 2026، ولماذا نسخة اليومين طريق في معظمها.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/sahara-dunes-tamarisk-morning.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -3568,7 +3568,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة جولة صحراوية عائلية في المغرب؟ (2026)",
     excerpt:
       "اصطحاب الأطفال إلى الصحراء يكلّف أقل مما يتوقع معظم الآباء، لكن الميزانية فيها بنود مختلفة. إليك التكلفة الحقيقية لرحلة صحراوية عائلية من أربعة أيام.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/family-children-camels-desert.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3828,7 +3828,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة العبور الكبير للأطلس الكبير؟ (15 يوماً، 2026)",
     excerpt:
       "خمسة عشر يوماً، وقمتان فوق 4000 متر، وطاقم جبلي كامل. من 1700 يورو هي أغلى رحلاتنا — وإليك أين يذهب هذا المبلغ، ولماذا يكلّف طاقم يبقى معك أسبوعين ما يكلّفه.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/trekkers-above-cloud-inversion.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -4009,7 +4009,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "كم تكلفة رحلة ثلاثة أيام بين قرى الأطلس الكبير؟ (2026)",
     excerpt:
       "أرخص طريقة لدخول الأطلس الكبير بمرشد وسرير كل ليلة تكلّف 235 يورو. إليك ما تغطيه، وما يوفّره التنظيم الذاتي، ولماذا الفارق أصغر مما يبدو.",
-    heroImage: "/gallery/imlil-village-green-valley.jpg",
+    heroImage: "/gallery/high-atlas-terraced-fields-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -4394,7 +4394,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "حجز رحلة في المغرب: مباشرةً أم عبر منصّة؟ (2026)",
     excerpt:
       "منصّات إعادة البيع تتقاضى من المشغّلين عمولة بين 20 و30 بالمئة، وتُضاف إلى سعرك بدل أن تُستوعَب. إليك الآلية، وما تكلّفك، والحالتان اللتان تبقى فيهما المنصّة الخيار الصائب.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camels-resting-dunes-golden-hour.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -4727,7 +4727,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "المغرب مع الأطفال: دليل صادق من المرشدين الذين يصطحبونهم",
     excerpt:
       "أي عمر يسافر جيدًا، وكم يتحمّل الطفل فعلًا داخل سيارة الدفع الرباعي، وماذا عن مقاعد السيارة، وأي رحلاتنا تناسب طفلًا في الخامسة. مكتوب من واقع الانطلاقات التي ننظّمها فعلًا.",
-    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    heroImage: "/gallery/desert-camp-campfire-family-dusk.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 11,
@@ -5451,7 +5451,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "دروس الطبخ المغربي في مراكش: ماذا تتعلّم فعلًا",
     excerpt:
       "جولة في سوق التوابل، وطاجين من الصفر مع عائلة، وطقس أتاي كما ينبغي. ماذا يتضمن درس الطبخ في مراكش، وكم يكلّف، وكيف تميّز الرديء منه.",
-    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
+    heroImage: "/gallery/clients-lunch-terrace-atlas-village.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 10,

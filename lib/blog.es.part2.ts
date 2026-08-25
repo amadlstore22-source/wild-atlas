@@ -759,7 +759,7 @@ Si tu viaje está fijado en pleno verano, eso solo puede decidirlo. Ver [La mejo
     author: MET_TEAM,
     title: "Los mejores treks de varios días en Marruecos (más allá del Toubkal)",
     excerpt: "El Toubkal se lleva todo el tráfico, pero es una sola cima en una cordillera muy extensa. Cuatro rutas más largas, lo que exige cada una, y cómo elegir según forma física y días disponibles.",
-    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    heroImage: "/gallery/high-atlas-peaks-summit-cairn.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -1284,7 +1284,7 @@ Entender esto no es una anécdota: cambia cómo se lee un trekking. Cuando un gu
     title: "¿Qué es una kasbah? La palabra detrás de la mitad de los monumentos de Marruecos",
     excerpt:
       "Kasbah se usa de forma laxa en inglés para decir 'edificio antiguo exótico'. Esto es lo que realmente significa, y en qué se diferencia de un riad, un ksar y una medina.",
-    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
+    heroImage: "/gallery/kasbah-palm-oasis-draa.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -1500,7 +1500,7 @@ Si tu viaje incluye cualquier trekking de varios días o un tour al desierto de 
     title: "Qué llevar para un tour al desierto en Marruecos",
     excerpt:
       "Los días de desierto son calurosos y las noches de desierto son genuinamente frías; el error de equipaje que comete casi todo el mundo es prepararse para uno y no para el otro. Esta es la lista que usan de verdad nuestros guías.",
-    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+    heroImage: "/gallery/walkers-dune-crest-dawn.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -2150,7 +2150,7 @@ Ambas te dan el día de agua y naturaleza que la gente imagina al buscar Paradis
     title: "El itinerario perfecto de 7 días por Marruecos (desde Marrakech)",
     excerpt:
       "Una semana basta para ver lo mejor de Marruecos —la ciudad imperial, el Alto Atlas y una noche bajo las estrellas del Sáhara— si planificas bien la ruta. Este es el itinerario de 7 días que le daríamos a un amigo.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/imlil-valley-terrace-view.jpg",
     category: "tips",
     region: "root",
     readTime: 11,
@@ -2369,7 +2369,7 @@ El nila tiene todo el sentido fuera, en la arena, liado contra un viento del des
     title: "El té a la menta marroquí: la ceremonia, el escanciado en alto y por qué no puedes rechazarlo",
     excerpt:
       "Lo llaman 'whisky bereber' y se sirve desde lo alto por una razón. Así funciona de verdad el ritual del té a la menta en Marruecos, y por qué rechazar un tercer vaso es prácticamente un incidente diplomático.",
-    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
+    heroImage: "/gallery/berber-guesthouse-group-dinner.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -2699,7 +2699,7 @@ No construyas unas vacaciones en torno a Ouarzazate: constrúyelas en torno al d
     title: "¿Cuánto cuesta un guía para el Toubkal? (Precios 2026)",
     excerpt:
       "Un guía de montaña titulado cuesta entre 500 y 800 MAD al día, pero el guía es solo una línea de una factura más larga. Este es el coste real y detallado de subir al Toubkal, y cómo se compara contratar directamente con reservar un paquete.",
-    heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    heroImage: "/gallery/guide-briefing-client-snow-peaks.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,
@@ -3300,7 +3300,7 @@ de cedros por el camino, la ruta terrestre se gana su precio.
     title: "Trekking en camello por el Sáhara: cómo es en realidad (2026)",
     excerpt:
       "La mayoría de los «trekkings en camello» de Marruecos son un paseo de noventa minutos por las dunas al atardecer. Una caravana de verdad es otra cosa: tú caminas, los camellos cargan el campamento y se recorren unos 17 km al día. Aquí está la diferencia, y la cuestión del bienestar animal que nadie pone en la página de reservas.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-ridge-backlit.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -3441,7 +3441,7 @@ Reserva el que de verdad quieres.
     title: "¿Cuánto cuesta un tour de 3 días al Sáhara desde Marrakech? (2026)",
     excerpt:
       "El viaje de 3 días a Merzouga es la ruta desértica más reservada de Marruecos y la más variable en precio. Esto es lo que separa un minibús compartido de 95 € de un 4x4 privado de 225 €.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-crest-sand-sea.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3542,7 +3542,7 @@ lleva el campamento.
     title: "¿Cuánto cuesta un tour al Sáhara desde Agadir? (Desglose 2026)",
     excerpt:
       "Agadir está a 450 km de las primeras dunas de verdad, y eso cambia las cuentas por completo. Esto es lo que cuesta un viaje al desierto desde la costa en 2026, y por qué la versión de 2 días es sobre todo carretera.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/sahara-dunes-tamarisk-morning.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -3649,7 +3649,7 @@ Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
     title: "¿Cuánto cuesta un tour por el desierto en familia en Marruecos? (2026)",
     excerpt:
       "Llevar niños al Sáhara cuesta menos de lo que la mayoría de padres espera, pero el presupuesto tiene otras líneas. Esto es lo que cuesta de verdad un viaje familiar de 4 días por el desierto.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/family-children-camels-desert.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -3926,7 +3926,7 @@ une el Mgoun y el Toubkal en una sola ruta.
     title: "¿Cuánto cuesta la Gran Travesía del Alto Atlas? (15 días, 2026)",
     excerpt:
       "Quince días, dos cumbres de 4.000 m y un equipo de montaña completo. Desde 1.700 € es el viaje más caro que operamos: aquí va el desglose de por qué un equipo de dos semanas cuesta lo que cuesta.",
-    heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
+    heroImage: "/gallery/trekkers-above-cloud-inversion.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -4117,7 +4117,7 @@ forma de ahorrar en cualquiera de ellas.
     title: "¿Cuánto cuesta un trek de 3 días por los pueblos del Alto Atlas? (2026)",
     excerpt:
       "La forma más barata de entrar en el Alto Atlas con guía y una cama cada noche cuesta 235 €. Esto es lo que cubre, lo que ahorra organizarlo por tu cuenta, y por qué la diferencia es menor de lo que parece.",
-    heroImage: "/gallery/imlil-village-green-valley.jpg",
+    heroImage: "/gallery/high-atlas-terraced-fields-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -4532,7 +4532,7 @@ página: el número que ves para tu tamaño de grupo es el que pagas.
     title: "Reservar un circuito en Marruecos: directo o por plataforma (2026)",
     excerpt:
       "Las plataformas de reventa cobran a los operadores entre un 20 y un 30 % de comisión, y se suma a tu precio en lugar de absorberse. Aquí está el mecanismo, lo que te cuesta, y los dos casos en que la plataforma sigue siendo la opción correcta.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camels-resting-dunes-golden-hour.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -4905,7 +4905,7 @@ local titulado.
     title: "Marruecos con niños: la guía honesta de los guías que los llevan",
     excerpt:
       "A qué edad se viaja bien, cuánto aguanta de verdad un niño en un 4x4, qué pasa con las sillitas de coche, y cuáles de nuestros circuitos funcionan con un niño de cinco años. Escrito desde las salidas que realmente organizamos.",
-    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    heroImage: "/gallery/desert-camp-campfire-family-dusk.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 11,
@@ -5654,7 +5654,7 @@ Por último: reserva directo cuando puedas. Las comisiones de las plataformas va
     title: "Clases de cocina en Marrakech: qué se aprende de verdad",
     excerpt:
       "Un paseo por el zoco de las especias, un tajín desde cero con una familia y la ceremonia del té como es debido. Qué incluye una clase de cocina en Marrakech, cuánto cuesta y cómo detectar una mala.",
-    heroImage: "/gallery/tours-marrakech-food-market-tour.jpg",
+    heroImage: "/gallery/clients-lunch-terrace-atlas-village.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 10,

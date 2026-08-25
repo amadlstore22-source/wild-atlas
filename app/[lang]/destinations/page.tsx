@@ -6,6 +6,7 @@ import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { destinationsFor } from "@/lib/destinations-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
+import { ogBase } from "@/lib/seo/open-graph";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     title: dict.seo.destinations.title,
     description: dict.seo.destinations.description,
     openGraph: {
+      ...ogBase(lang),
       title: dict.seo.destinations.title,
       description: dict.seo.destinations.description,
       url: `https://marrakechecotours.com/${lang}/destinations`,

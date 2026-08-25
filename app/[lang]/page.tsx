@@ -20,6 +20,7 @@ import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { categoriesFor } from "@/lib/tours-i18n";
+import { ogBase } from "@/lib/seo/open-graph";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -35,6 +36,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     },
     description: dict.hero.subheadline,
     openGraph: {
+      ...ogBase(lang),
       title: dict.seo.home.title,
       description: dict.hero.subheadline,
       url: `https://marrakechecotours.com/${lang}`,

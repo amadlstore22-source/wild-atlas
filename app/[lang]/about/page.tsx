@@ -12,6 +12,7 @@ import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import { ogBase } from "@/lib/seo/open-graph";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
     title: dict.seo.about.title,
     description: dict.seo.about.description,
     openGraph: {
+      ...ogBase(lang),
       title: dict.seo.about.title,
       description: dict.seo.about.description,
       url: `https://marrakechecotours.com/${lang}/about`,

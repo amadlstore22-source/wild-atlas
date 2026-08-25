@@ -27,6 +27,7 @@ import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import type { Locale } from "@/app/[lang]/dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
+import { ogBase } from "@/lib/seo/open-graph";
 
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
 
@@ -52,6 +53,7 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
     title: destination.seoTitle.replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: destination.seoDescription,
     openGraph: {
+      ...ogBase(lang),
       title: destination.seoTitle,
       description: destination.seoDescription,
       url: `https://marrakechecotours.com/${lang}/destinations/${dest}`,

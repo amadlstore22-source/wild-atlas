@@ -14,6 +14,7 @@ import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { ogBase } from "@/lib/seo/open-graph";
 type BlogParams = { params: Promise<{ lang: string; slug: string }> };
 
 export async function generateStaticParams() {
@@ -40,6 +41,7 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
     title: (post.seoTitle ?? post.title).replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
     description: post.seoDescription ?? post.excerpt,
     openGraph: {
+      ...ogBase(lang),
       title: post.title,
       description: post.excerpt,
       images: [{ url: post.heroImage }],

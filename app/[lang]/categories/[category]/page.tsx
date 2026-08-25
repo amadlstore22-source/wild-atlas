@@ -12,6 +12,7 @@ import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
 import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import { ogBase } from "@/lib/seo/open-graph";
 type CategoryParams = { params: Promise<{ lang: string; category: string }> };
 
 export async function generateStaticParams() {
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
   return {
     title: `${cat.label} Adventures in Morocco`,
     description: cat.description,
-    openGraph: { title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
+    openGraph: { ...ogBase(lang), title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/categories/${category}`,
       languages: hreflangForPath(LOCALES, `/categories/${category}`),

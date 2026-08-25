@@ -1690,7 +1690,7 @@ export const TOURS: Tour[] = [
     price: 415,
     depositAmount: 90,
     heroImage:
-      "/gallery/tours-zagora-2day-marrakech.jpg",
+      "/gallery/children-camels-palm-oasis-draa.jpg",
     gallery: [
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
@@ -2945,7 +2945,7 @@ export const TOURS: Tour[] = [
     // Real photos from our Toubkal departures. A different selection from the
     // 4-day tour so the two pages don't look identical — this focuses on the
     // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
-    heroImage: "/gallery/toubkal-summit-ridge-climbers.jpg",
+    heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     gallery: [
       "/gallery/toubkal-trekker-snow-slope.jpg",
       "/gallery/toubkal-final-snow-slope-dawn.jpg",
@@ -3323,7 +3323,7 @@ export const TOURS: Tour[] = [
     price: 598,
     depositAmount: 132,
     heroImage:
-      "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
+      "/gallery/camel-riders-sunset-silhouette.jpg",
     gallery: [
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
@@ -3503,7 +3503,7 @@ export const TOURS: Tour[] = [
     ],
     price: 480,
     depositAmount: 106,
-    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
       "/gallery/guided-group-stream-crossing.jpg",
@@ -3718,7 +3718,7 @@ export const TOURS: Tour[] = [
       { minPeople: 10, price: 325 },
       { minPeople: 14, price: 303 },
     ],
-    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -4061,7 +4061,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     price: 3114,
     depositAmount: 685,
-    heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+    heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -4230,7 +4230,7 @@ export const TOURS: Tour[] = [
     groupPricing: [{ minPeople: 1, price: 138 }],
     price: 138,
     depositAmount: 30,
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",

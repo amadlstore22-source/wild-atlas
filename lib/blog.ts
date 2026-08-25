@@ -309,7 +309,7 @@ Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sicknes
     excerpt:
       "The Sahara is unlike anything else on earth. Here is an honest guide to the Moroccan Sahara — which dunes are worth the journey, what a desert camp is really like, and how to avoid the tourist traps.",
     heroImage:
-      "/gallery/category-hero-medina-doorway.jpg",
+      "/gallery/sahara-sunset-panorama-wide.jpg",
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
@@ -1054,7 +1054,7 @@ If Agafay leaves you wanting more, the High Atlas goes further still. Oukaimeden
     excerpt:
       "Djemaa el-Fna, the souks, the palaces, the hammams — Marrakech's medina is one of the most intense and rewarding urban experiences on earth. Here is how to navigate it without getting lost, ripped off, or overwhelmed.",
     heroImage:
-      "/gallery/blog-marrakech-medina-complete-guide.jpg",
+      "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
@@ -1735,7 +1735,7 @@ If you're unsure about any item, [contact us before your trek](/en/contact). Our
     title: "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
     excerpt:
       "Since 2018 a licensed guide has been mandatory on Jbel Toubkal, and there are checkpoints that enforce it. Here is what the rule actually says, who checks, and what happens if you turn up without one.",
-    heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    heroImage: "/gallery/trekkers-rocky-ridge-sunflare.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -2943,7 +2943,7 @@ If your trip is fixed to high summer, that alone may decide it. See [The Best Ti
     author: MET_TEAM,
     title: "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
     excerpt: "Toubkal gets the traffic, but it is one summit in a very large range. Four longer routes, what each demands, and how to pick by fitness and days available.",
-    heroImage: "/gallery/ifni-mule-approach-toubkal-behind.jpg",
+    heroImage: "/gallery/high-atlas-peaks-summit-cairn.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -3468,7 +3468,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
     title: "What Is a Kasbah? The Word Behind Half of Morocco's Landmarks",
     excerpt:
       "Kasbah gets used loosely in English to mean 'exotic old building.' Here is what it actually means, and how it differs from a riad, a ksar and a medina.",
-    heroImage: "/gallery/blog-what-is-a-kasbah.jpg",
+    heroImage: "/gallery/kasbah-palm-oasis-draa.jpg",
     category: "culture",
     region: "sahara-south",
     readTime: 5,
@@ -3690,7 +3690,7 @@ If your trip includes any multi-day trekking or a desert tour beyond a single da
     title: "What to Pack for a Morocco Desert Tour",
     excerpt:
       "Desert days are hot and desert nights are genuinely cold — the packing mistake almost everyone makes is preparing for one and not the other. Here's the list our guides actually use.",
-    heroImage: "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+    heroImage: "/gallery/walkers-dune-crest-dawn.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 6,
@@ -4561,7 +4561,7 @@ Nila makes the most sense out in the sand, wrapped against a desert wind at suns
     title: "Moroccan Mint Tea: The Ceremony, the High Pour & Why You Can't Refuse",
     excerpt:
       "It's called 'Berber whisky' and it's poured from a great height for a reason. Here's how Morocco's mint tea ritual really works — and why saying no to a third glass is basically a diplomatic incident.",
-    heroImage: "/gallery/berber-home-interior-mint-tea.jpg",
+    heroImage: "/gallery/berber-guesthouse-group-dinner.jpg",
     category: "culture",
     region: "root",
     readTime: 6,
@@ -4890,7 +4890,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     title: "How Much Does a Toubkal Guide Cost? (2026 Price Breakdown)",
     excerpt:
       "A licensed Toubkal guide costs 500–800 MAD a day — but the guide is one line in a longer bill. Here is the honest, itemised cost of climbing Toubkal, and how hiring direct compares with booking a package.",
-    heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
+    heroImage: "/gallery/guide-briefing-client-snow-peaks.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,
@@ -5484,7 +5484,7 @@ the cedar forest along the way, the overland route earns its cost.
     title: "Camel Trekking in the Sahara: What It Is Actually Like (2026)",
     excerpt:
       "Most Morocco camel treks are a ninety-minute ride into the dunes at sunset. A real caravan trek is something else: you walk, the camels carry the camp, and you cover about 17 km a day. Here is the difference, and the welfare question nobody puts on a booking page.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-ridge-backlit.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 9,
@@ -5643,7 +5643,7 @@ experience — it is a different one. Book the one you want.
     title: "What Does a 3-Day Sahara Tour from Marrakech Cost? (2026)",
     excerpt:
       "A 3-day Merzouga trip is the most-booked desert route in Morocco, and the most variable in price. Here is what separates a €95 shared minibus from a private 4x4 — and which difference actually matters.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camel-caravan-dune-crest-sand-sea.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -5745,7 +5745,7 @@ any Moroccan operator keeps it with the people running the camp.
     title: "What Does a Sahara Tour from Agadir Cost? (2026 Breakdown)",
     excerpt:
       "Agadir is 450 km from the nearest real dunes, which changes the maths completely. Here is what a desert trip from the coast costs in 2026, and why the 2-day version is mostly driving.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/sahara-dunes-tamarisk-morning.jpg",
     category: "desert",
     region: "agadir-region",
     readTime: 7,
@@ -5850,7 +5850,7 @@ Moroccan operator keeps it with the people running the camp.
     title: "What Does a Family Desert Tour in Morocco Cost? (2026)",
     excerpt:
       "Taking children to the Sahara costs less than most parents expect, but the budget has different lines. Here is what a 4-day family desert trip actually costs, including the ones nobody lists.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/family-children-camels-desert.jpg",
     category: "desert",
     region: "sahara-south",
     readTime: 7,
@@ -6125,7 +6125,7 @@ Toubkal into a single crossing.
     title: "What Does the High Atlas Grand Traverse Cost? (15-Day, 2026)",
     excerpt:
       "Fifteen days, two 4,000 m summits and a full mountain crew. From €1,700 it is the most expensive trip we run — here is exactly where that money goes, and why a two-week crew costs what it does.",
-    heroImage: "/gallery/trekking-group-scree-slope-summer.jpg",
+    heroImage: "/gallery/trekkers-above-cloud-inversion.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 9,
@@ -6315,7 +6315,7 @@ saving money on either.
     title: "What Does a 3-Day High Atlas Village Trek Cost? (2026)",
     excerpt:
       "The cheapest way into the High Atlas with a guide and a bed each night is €235. Here is what that covers, what self-organising saves, and why the gap is smaller than it looks.",
-    heroImage: "/gallery/imlil-village-green-valley.jpg",
+    heroImage: "/gallery/high-atlas-terraced-fields-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
@@ -6726,7 +6726,7 @@ so the number you see at your group size is the number you pay.
     title: "Booking a Morocco Tour Direct vs Through a Platform (2026)",
     excerpt:
       "Resale platforms charge operators 20–30% commission, and it is added to your price rather than absorbed. Here is how the mechanism works, what it costs you, and the two cases where booking through a platform is still the right call.",
-    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    heroImage: "/gallery/camels-resting-dunes-golden-hour.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -7094,7 +7094,7 @@ mountain guide.
     title: "Morocco With Kids: An Honest Guide From the Guides Who Take Them",
     excerpt:
       "What age travels well, how long a child will really sit in a 4x4, what happens about car seats, and which of our trips work with a five-year-old. Written from the trips we actually run, not from a checklist.",
-    heroImage: "/gallery/tours-family-desert-4day-marrakech.jpg",
+    heroImage: "/gallery/desert-camp-campfire-family-dusk.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 11,

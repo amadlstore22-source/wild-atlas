@@ -10,7 +10,8 @@
     "destinations": "Destinos",
     "gallery": "Galería",
     "guides": "Guías",
-    "howWeOperate": "Cómo trabajamos"
+    "howWeOperate": "Cómo trabajamos",
+    "events": "Eventos"
   },
   "hero": {
     "eyebrow": "Local · Ecológico · Auténtico",
@@ -668,5 +669,21 @@
     "google": "Opina sobre nosotros en Google",
     "whatsapp": "Prefiero enviaros un mensaje privado",
     "thanks": "De parte de Lahsen, Mohamed, Smail y de todo el equipo — gracias. ¡Bslama!"
+  },
+  "events": {
+    "metaTitle": "Salidas para festivales y próximos eventos",
+    "metaDesc": "Festivales marroquíes que merecen un viaje — el festival Gnaoua, la cosecha de rosas, el moussem de Imilchil — y los circuitos que organizamos para llegar.",
+    "eyebrow": "Planifica según el calendario",
+    "heading": "Próximos eventos y salidas para festivales",
+    "sub": "Algunos de los mejores días en Marruecos dependen de un calendario que no controlamos: una cosecha, el avistamiento de la luna, una feria de montaña. Estos son los que merecen que organices un viaje a su alrededor, con las salidas que hacemos para llegar.",
+    "confirmed": "Fechas confirmadas por los organizadores",
+    "estimated": "Fechas aún sin confirmar",
+    "lunar": "Fecha fijada por el avistamiento de la luna",
+    "bookAhead": "Reserva unas {weeks} semanas antes — el alojamiento cerca de estos eventos se llena pronto.",
+    "seeDepartures": "Ver salidas",
+    "departuresHeading": "Circuitos que hacemos para esto",
+    "officialSource": "Web oficial del festival",
+    "allEvents": "Todos los próximos eventos",
+    "disclaimer": "Las fechas de los festivales en Marruecos cambian. Las fiestas de cosecha siguen al cultivo, las fechas religiosas siguen el avistamiento de la luna que anuncia el Ministerio de Habices y Asuntos Islámicos, y los moussems de pueblo se fijan localmente, a veces con solo unas semanas de antelación. Señalamos con claridad qué fechas han confirmado los organizadores y cuáles siguen siendo nuestra mejor estimación — y te avisaremos antes de que reserves vuelos."
   }
 }

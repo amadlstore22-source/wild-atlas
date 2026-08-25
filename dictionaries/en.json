@@ -10,7 +10,8 @@
     "destinations": "Destinations",
     "gallery": "Gallery",
     "guides": "Guides",
-    "howWeOperate": "How we operate"
+    "howWeOperate": "How we operate",
+    "events": "Events"
   },
   "hero": {
     "eyebrow": "Local · Eco-conscious · Authentic",
@@ -668,5 +669,21 @@
     "google": "Review us on Google",
     "whatsapp": "Send us a private message instead",
     "thanks": "From Lahsen, Mohamed, Smail and the whole team — thank you. Bslama!"
+  },
+  "events": {
+    "metaTitle": "Festival Departures & Upcoming Events",
+    "metaDesc": "Moroccan festivals worth planning a trip around — the Gnaoua festival, the rose harvest, the Imilchil moussem — and the tours we run to reach them.",
+    "eyebrow": "Plan around the calendar",
+    "heading": "Upcoming events and festival departures",
+    "sub": "Some of the best days in Morocco are fixed to a calendar we do not control: a harvest, a moon sighting, a mountain fair. These are the ones worth building a trip around, with the departures we run to reach them.",
+    "confirmed": "Dates confirmed by the organisers",
+    "estimated": "Dates not yet confirmed",
+    "lunar": "Date set by moon sighting",
+    "bookAhead": "Book around {weeks} weeks ahead — accommodation near these events fills early.",
+    "seeDepartures": "See departures",
+    "departuresHeading": "Tours we run for this",
+    "officialSource": "Official festival site",
+    "allEvents": "All upcoming events",
+    "disclaimer": "Festival dates in Morocco move. Harvest festivals follow the crop, religious dates follow the moon sighting announced by the Ministry of Endowments and Islamic Affairs, and village moussems are set locally, sometimes only weeks ahead. We mark clearly which dates the organisers have confirmed and which are still our best estimate — and we will tell you before you book flights."
   }
 }

@@ -10,7 +10,8 @@
     "destinations": "Destinations",
     "gallery": "Galerie",
     "guides": "Guides",
-    "howWeOperate": "Comment nous travaillons"
+    "howWeOperate": "Comment nous travaillons",
+    "events": "Événements"
   },
   "hero": {
     "eyebrow": "Local · Éco-responsable · Authentique",
@@ -668,5 +669,21 @@
     "google": "Donnez votre avis sur Google",
     "whatsapp": "Envoyez-nous plutôt un message privé",
     "thanks": "De la part de Lahsen, Mohamed, Smail et de toute l'équipe — merci. Bslama !"
+  },
+  "events": {
+    "metaTitle": "Départs festivals et événements à venir",
+    "metaDesc": "Les festivals marocains autour desquels organiser un voyage — le festival Gnaoua, la récolte des roses, le moussem d'Imilchil — et les circuits que nous proposons pour y assister.",
+    "eyebrow": "Organisez selon le calendrier",
+    "heading": "Événements à venir et départs festivals",
+    "sub": "Certains des plus beaux jours au Maroc dépendent d'un calendrier que nous ne maîtrisons pas : une récolte, une observation de la lune, une foire de montagne. Voici ceux qui méritent qu'on construise un voyage autour, avec les départs que nous organisons pour s'y rendre.",
+    "confirmed": "Dates confirmées par les organisateurs",
+    "estimated": "Dates non encore confirmées",
+    "lunar": "Date fixée par l'observation de la lune",
+    "bookAhead": "Réservez environ {weeks} semaines à l'avance — les hébergements près de ces événements se remplissent tôt.",
+    "seeDepartures": "Voir les départs",
+    "departuresHeading": "Nos circuits pour cet événement",
+    "officialSource": "Site officiel du festival",
+    "allEvents": "Tous les événements à venir",
+    "disclaimer": "Les dates des festivals marocains changent. Les fêtes de récolte suivent la culture, les dates religieuses suivent l'observation de la lune annoncée par le ministère des Habous et des Affaires islamiques, et les moussems villageois sont fixés localement, parfois quelques semaines seulement à l'avance. Nous indiquons clairement quelles dates sont confirmées par les organisateurs et lesquelles restent notre meilleure estimation — et nous vous préviendrons avant que vous ne réserviez vos vols."
   }
 }

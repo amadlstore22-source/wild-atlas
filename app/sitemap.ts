@@ -5,6 +5,7 @@ import { blogSlugFor } from "@/lib/blog-i18n";
 import { tourSlugFor } from "@/lib/tours-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
+import { EVENTS } from "@/lib/events";
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
@@ -23,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tours", freq: "weekly" as const, priority: 0.9 },
     { path: "/destinations", freq: "monthly" as const, priority: 0.9 },
     { path: "/guides", freq: "monthly" as const, priority: 0.8 },
+    { path: "/events", freq: "weekly" as const, priority: 0.8 },
     { path: "/news", freq: "daily" as const, priority: 0.8 },
     { path: "/blog", freq: "weekly" as const, priority: 0.7 },
     { path: "/about", freq: "monthly" as const, priority: 0.7 },
@@ -107,6 +109,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  // Event pages carry dates, so they change more often than the catalogue.
+  // lastModified stays CATALOGUE_LASTMOD until an event's own data is edited;
+  // bumping it on every deploy would teach Google the dates are noise.
+  const eventUrls = LOCALES.flatMap((lang) =>
+    EVENTS.map((e) => ({
+      url: `${BASE}/${lang}/events/${e.slug}`,
+      lastModified: CATALOGUE_LASTMOD,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }))
+  );
+
   // The bare root is deliberately absent: it redirects to /en, and a sitemap
   // should list only final canonical URLs. Submitting a redirecting URL is
   // what Search Console reports as "Page with redirect". /en is in staticUrls
@@ -117,6 +131,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryUrls,
     ...destinationUrls,
     ...guideUrls,
+    ...eventUrls,
     ...blogUrls,
   ];
 }

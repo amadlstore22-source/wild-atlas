@@ -10,7 +10,8 @@
     "destinations": "Destinazioni",
     "gallery": "Galleria",
     "guides": "Guide",
-    "howWeOperate": "Come lavoriamo"
+    "howWeOperate": "Come lavoriamo",
+    "events": "Eventi"
   },
   "hero": {
     "eyebrow": "Locale · Eco-consapevole · Autentico",
@@ -668,5 +669,21 @@
     "google": "Recensiscici su Google",
     "whatsapp": "Preferisco inviarvi un messaggio privato",
     "thanks": "Da Lahsen, Mohamed, Smail e da tutto il team — grazie. Bslama!"
+  },
+  "events": {
+    "metaTitle": "Partenze per i festival ed eventi in arrivo",
+    "metaDesc": "Feste marocchine per cui vale la pena organizzare un viaggio — il festival Gnaoua, la raccolta delle rose, il moussem di Imilchil — e i tour con cui ci arriviamo.",
+    "eyebrow": "Pianifica sul calendario",
+    "heading": "Eventi in arrivo e partenze per i festival",
+    "sub": "Alcuni dei giorni più belli in Marocco dipendono da un calendario che non decidiamo noi: un raccolto, l'avvistamento della luna, una fiera di montagna. Questi sono quelli per cui vale la pena costruire un viaggio, con le partenze che organizziamo per arrivarci.",
+    "confirmed": "Date confermate dagli organizzatori",
+    "estimated": "Date non ancora confermate",
+    "lunar": "Data fissata dall'avvistamento della luna",
+    "bookAhead": "Prenota circa {weeks} settimane prima — gli alloggi vicino a questi eventi si riempiono presto.",
+    "seeDepartures": "Vedi le partenze",
+    "departuresHeading": "I nostri tour per questo evento",
+    "officialSource": "Sito ufficiale del festival",
+    "allEvents": "Tutti gli eventi in arrivo",
+    "disclaimer": "Le date dei festival in Marocco cambiano. Le feste del raccolto seguono la coltura, le date religiose seguono l'avvistamento della luna annunciato dal Ministero degli Habous e degli Affari islamici, e i moussem di villaggio si fissano localmente, a volte solo poche settimane prima. Indichiamo chiaramente quali date sono confermate dagli organizzatori e quali restano la nostra stima migliore — e ve lo diremo prima che prenotiate i voli."
   }
 }

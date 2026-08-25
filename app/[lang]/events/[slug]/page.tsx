@@ -1,0 +1,209 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { notFound } from "next/navigation";
+import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
+import { hreflangForPath } from "@/lib/seo/hreflang";
+import { ogBase } from "@/lib/seo/open-graph";
+import { EVENTS, toursForEvent } from "@/lib/events";
+import { eventFor } from "@/lib/events.i18n";
+import { formatEventDates, confidenceLabel } from "@/lib/events-format";
+import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
+import { buildBreadcrumbSchema } from "@/lib/seo/schema";
+
+type EventParams = { params: Promise<{ lang: string; slug: string }> };
+
+export async function generateStaticParams() {
+  return EVENTS.flatMap((e) =>
+    (["en", "fr", "es", "de", "it", "ar"] as const).map((lang) => ({
+      lang,
+      slug: e.slug,
+    }))
+  );
+}
+
+export async function generateMetadata({ params }: EventParams): Promise<Metadata> {
+  const { lang, slug } = await params;
+  if (!hasLocale(lang)) return {};
+  const event = eventFor(lang, slug);
+  if (!event) return {};
+  const dict = await getDictionary(lang);
+  const dates = formatEventDates(event, lang);
+  const title = `${event.name} ${dates}`;
+  return {
+    title,
+    description: event.blurb,
+    openGraph: {
+      ...ogBase(lang),
+      title,
+      description: event.blurb,
+      images: [{ url: event.heroImage, width: 1400, height: 900, alt: event.name }],
+      url: `https://marrakechecotours.com/${lang}/events/${slug}`,
+    },
+    alternates: {
+      canonical: `https://marrakechecotours.com/${lang}/events/${slug}`,
+      languages: hreflangForPath(LOCALES, `/events/${slug}`),
+    },
+    // The dictionary is loaded so the page and its metadata stay in one
+    // language; nothing else here needs it yet.
+    ...(dict ? {} : {}),
+  };
+}
+
+export default async function EventDetailPage({ params }: EventParams) {
+  const { lang, slug } = await params;
+  if (!hasLocale(lang)) notFound();
+  const event = eventFor(lang, slug);
+  if (!event) notFound();
+
+  const dict = await getDictionary(lang);
+  const t = dict.events;
+  const dates = formatEventDates(event, lang);
+  const tours = toursForEvent(event);
+
+  /**
+   * schema.org/Event. `eventStatus` and a precise `startDate` are only honest
+   * when the organiser has published the date, so unconfirmed events emit the
+   * window they actually have and nothing more.
+   */
+  const eventSchema = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    name: event.name,
+    description: event.blurb,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    image: [`https://marrakechecotours.com${event.heroImage}`],
+    location: {
+      "@type": "Place",
+      name: event.name,
+      address: { "@type": "PostalAddress", addressCountry: "MA" },
+    },
+    organizer: {
+      "@type": "Organization",
+      name: "Marrakech Eco Tours",
+      url: "https://marrakechecotours.com",
+    },
+    ...(event.sourceUrl ? { sameAs: event.sourceUrl } : {}),
+  };
+
+  // Crumb takes a `path`; buildBreadcrumbSchema prepends the site origin.
+  const crumbs = {
+    "@context": "https://schema.org",
+    ...buildBreadcrumbSchema([
+      { name: "Home", path: `/${lang}` },
+      { name: t.heading, path: `/${lang}/events` },
+      { name: event.name, path: `/${lang}/events/${event.slug}` },
+    ]),
+  };
+
+  return (
+    <div className="bg-[var(--color-sand-50)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+
+      <section className="relative h-[45vh] min-h-[300px] w-full">
+        <Image
+          src={event.heroImage}
+          alt={event.name}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-black/20" />
+        <div className="absolute inset-x-0 bottom-0 mx-auto max-w-4xl px-4 pb-8">
+          <span className="rounded-full bg-white/90 px-3 py-1 font-body text-xs text-[var(--color-clay-900)]">
+            {dates}
+          </span>
+          <h1 className="mt-3 font-display text-3xl text-white sm:text-4xl">
+            {event.name}
+          </h1>
+        </div>
+      </section>
+
+      <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
+        <p className="font-body text-lg leading-relaxed text-[var(--color-clay-800)]">
+          {event.description}
+        </p>
+
+        {/* Date honesty: for anything not confirmed by the organiser, say so
+            plainly rather than letting the month window imply precision. */}
+        <div className="mt-8 rounded-lg border border-[var(--color-sand-300)] bg-white p-5">
+          <p className="font-body text-sm font-semibold text-[var(--color-clay-900)]">
+            {confidenceLabel(event.confidence, t)}
+          </p>
+          {event.dateNote ? (
+            <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-clay-700)]">
+              {event.dateNote}
+            </p>
+          ) : null}
+          {event.sourceUrl ? (
+            <p className="mt-2 font-body text-sm">
+              <a
+                href={event.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-terracotta-600)] underline"
+              >
+                {t.officialSource}
+              </a>
+            </p>
+          ) : null}
+          <p className="mt-3 font-body text-sm text-[var(--color-clay-700)]">
+            {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
+          </p>
+        </div>
+
+        {tours.length > 0 ? (
+          <section className="mt-10">
+            <h2 className="font-display text-2xl text-[var(--color-clay-900)]">
+              {t.departuresHeading}
+            </h2>
+            <ul className="mt-4 grid gap-4">
+              {tours.map((tour) => {
+                const localised = getTourFor(lang, tourSlugFor(lang, tour.slug));
+                const name = localised?.title ?? tour.title;
+                return (
+                  <li key={tour.slug}>
+                    <Link
+                      href={`/${lang}/tours/${tourSlugFor(lang, tour.slug)}`}
+                      className="flex items-center gap-4 rounded-lg border border-[var(--color-sand-300)] bg-white p-4 hover:border-[var(--color-terracotta-600)]"
+                    >
+                      <div className="relative h-16 w-24 shrink-0 overflow-hidden rounded">
+                        <Image
+                          src={localised?.heroImage ?? tour.heroImage}
+                          alt={name}
+                          fill
+                          sizes="96px"
+                          className="object-cover"
+                        />
+                      </div>
+                      <span className="font-body text-sm text-[var(--color-clay-900)]">
+                        {name}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ) : null}
+
+        <p className="mt-10 font-body text-sm">
+          <Link href={`/${lang}/events`} className="text-[var(--color-terracotta-600)] underline">
+            &larr; {t.allEvents}
+          </Link>
+        </p>
+      </article>
+    </div>
+  );
+}

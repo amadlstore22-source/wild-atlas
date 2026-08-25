@@ -10,7 +10,8 @@
     "destinations": "Reiseziele",
     "gallery": "Galerie",
     "guides": "Guides",
-    "howWeOperate": "Wie wir arbeiten"
+    "howWeOperate": "Wie wir arbeiten",
+    "events": "Termine"
   },
   "hero": {
     "eyebrow": "Lokal · Umweltbewusst · Authentisch",
@@ -668,5 +669,21 @@
     "google": "Bewerten Sie uns auf Google",
     "whatsapp": "Lieber eine private Nachricht senden",
     "thanks": "Von Lahsen, Mohamed, Smail und dem ganzen Team — danke. Bslama!"
+  },
+  "events": {
+    "metaTitle": "Festival-Termine und kommende Veranstaltungen",
+    "metaDesc": "Marokkanische Feste, für die sich eine Reise lohnt — das Gnaoua-Festival, die Rosenernte, das Moussem von Imilchil — und die Touren, mit denen wir hinfahren.",
+    "eyebrow": "Nach dem Kalender planen",
+    "heading": "Kommende Veranstaltungen und Festival-Termine",
+    "sub": "Einige der schönsten Tage in Marokko hängen an einem Kalender, den wir nicht bestimmen: eine Ernte, eine Mondsichtung, ein Bergmarkt. Das sind die Anlässe, um die sich eine Reise wirklich lohnt — mit den Touren, die wir dorthin führen.",
+    "confirmed": "Termine vom Veranstalter bestätigt",
+    "estimated": "Termine noch nicht bestätigt",
+    "lunar": "Termin durch Mondsichtung festgelegt",
+    "bookAhead": "Buchen Sie rund {weeks} Wochen im Voraus — Unterkünfte in der Nähe sind früh ausgebucht.",
+    "seeDepartures": "Termine ansehen",
+    "departuresHeading": "Unsere Touren dafür",
+    "officialSource": "Offizielle Festival-Website",
+    "allEvents": "Alle kommenden Veranstaltungen",
+    "disclaimer": "Festivaltermine in Marokko verschieben sich. Erntefeste richten sich nach der Ernte, religiöse Termine nach der Mondsichtung, die das Ministerium für Stiftungen und islamische Angelegenheiten bekannt gibt, und Dorf-Moussems werden vor Ort festgelegt, manchmal erst wenige Wochen vorher. Wir kennzeichnen klar, welche Termine der Veranstalter bestätigt hat und welche unsere beste Schätzung sind — und wir sagen Ihnen Bescheid, bevor Sie Flüge buchen."
   }
 }

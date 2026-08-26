@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { TOURS, DIFFICULTY_COLORS } from "@/lib/tours";
+import { TOURS, DIFFICULTY_COLORS, lowestGroupPrice } from "@/lib/tours";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
@@ -22,7 +22,7 @@ import TourGuideBlock from "@/components/tours/TourGuideBlock";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
-import { faqPageDocument, priceValidUntil } from "@/lib/seo/schema";
+import { faqPageDocument, priceValidUntil, buildAggregateOffer } from "@/lib/seo/schema";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
@@ -33,11 +33,6 @@ import { hreflangLanguages } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
-/** Tour prices are stored in USD but the site displays EUR by default. Google
- *  compares structured-data prices against the visible page, so the schema must
- *  quote the same currency a visitor actually sees, not the storage unit. */
-const schemaPrice = (usd: number) => String(priceIn(usd, DEFAULT_CURRENCY));
-
 /**
  * Tour seoDescription strings end with a hardcoded "From $380." written in the
  * storage currency (USD). That sentence is what Google prints as the meta
@@ -45,10 +40,19 @@ const schemaPrice = (usd: number) => String(priceIn(usd, DEFAULT_CURRENCY));
  * defaulted to EUR. Rewrite it from the same source as every other price rather
  * than hand-editing 32 strings that would drift on the next rate change.
  */
-function localisePrice(text: string | undefined, usd: number): string | undefined {
+function localisePrice(text: string | undefined, _usd: number): string | undefined {
   if (!text) return text;
-  const shown = `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${priceIn(usd, DEFAULT_CURRENCY).toLocaleString("en-US")}`;
-  return text.replace(/\$[\d,]+/g, shown);
+  // Convert EACH figure found, rather than replacing every match with one
+  // price. The original substituted `usd` (the SOLO rate) into every "$N" in
+  // the string, which was harmless while descriptions quoted exactly one price
+  // -- but descriptions now lead with the cheapest tier ("From $30 pp for 6+")
+  // and that rewrote it to the solo "EUR86 pp for 6+": wrong number AND a
+  // group claim attached to a solo price.
+  return text.replace(/\$([\d,]+)/g, (_m, digits: string) => {
+    const value = Number(digits.replace(/,/g, ""));
+    if (!Number.isFinite(value)) return _m;
+    return `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${priceIn(value, DEFAULT_CURRENCY).toLocaleString("en-US")}`;
+  });
 }
 
 export async function generateStaticParams() {
@@ -107,6 +111,18 @@ export default async function TourDetailPage({ params }: TourParams) {
   const { includes, excludes } = await tourIncludesFor(lang, tour);
   // One value shared by both Offer nodes below, so they cannot drift apart.
   const validUntil = priceValidUntil();
+  // The ladder, not the solo rate: see buildAggregateOffer's docblock. Built
+  // once and shared by both nodes for the same anti-drift reason as validUntil.
+  const cheapest = lowestGroupPrice(tour);
+  const tourUrl = `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`;
+  const offer = buildAggregateOffer({
+    low: priceIn(cheapest.price, DEFAULT_CURRENCY),
+    high: priceIn(tour.price, DEFAULT_CURRENCY),
+    currency: DEFAULT_CURRENCY,
+    url: tourUrl,
+    validUntil,
+    minPeople: cheapest.minPeople > 1 ? cheapest.minPeople : undefined,
+  });
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -116,14 +132,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
     image: tour.heroImage,
     brand: { "@type": "Brand", name: "Marrakech Eco Tours" },
-    offers: {
-      "@type": "Offer",
-      priceCurrency: DEFAULT_CURRENCY,
-      price: schemaPrice(tour.price),
-      priceValidUntil: validUntil,
-      availability: "https://schema.org/InStock",
-      url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
-    },
+    offers: offer,
     // No aggregateRating: we have no per-tour review corpus to substantiate one.
     // Our verifiable rating is business-wide (TripAdvisor, see Organization
     // schema on the homepage), so claiming per-product ratings here would be
@@ -136,7 +145,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: tour.shortDescription,
     touristType: "Adventure",
-    offers: { "@type": "Offer", price: schemaPrice(tour.price), priceCurrency: DEFAULT_CURRENCY, priceValidUntil: validUntil, availability: "https://schema.org/InStock", url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
+    offers: offer,
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     image: tour.gallery,
     duration: tour.duration,

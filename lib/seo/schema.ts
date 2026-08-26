@@ -64,3 +64,61 @@ export function buildBreadcrumbSchema(crumbs: Crumb[], id?: string) {
 export function breadcrumbDocument(crumbs: Crumb[]) {
   return { "@context": "https://schema.org", ...buildBreadcrumbSchema(crumbs) };
 }
+
+/**
+ * AggregateOffer spanning a tour's whole per-person price ladder.
+ *
+ * A plain `Offer` carrying `tour.price` quotes the SOLO rate — the most
+ * expensive per-person figure a tour has. That was defensible while the pages
+ * advertised "From EUR650", but the meta descriptions now lead with the group
+ * rate ("From EUR260 pp for 6+"), and a single `price` cannot be true of both.
+ * Google cross-checks structured-data prices against the visible page, so the
+ * node has to describe the RANGE the page actually sells, not one end of it.
+ *
+ * `lowPrice` therefore comes from lowestGroupPrice() — the same helper the
+ * booking sidebar and the listing cards use — so schema, card and sidebar can
+ * never disagree. Listing cards previously showed tour.price and advertised
+ * EUR1,800 for a trek a group of five pays EUR695 for; that bug is the reason
+ * lowestGroupPrice() exists, and reading tour.price here would reintroduce it
+ * in the one place a human reviewer never sees.
+ *
+ * Prices arrive already converted to the display currency: callers pass the
+ * output of priceIn(), because the ladder is stored in USD and shown in EUR.
+ */
+export function buildAggregateOffer(opts: {
+  low: number;
+  high: number;
+  currency: string;
+  url: string;
+  validUntil: string;
+  /** Group size that unlocks `low`; omitted when the ladder is flat. */
+  minPeople?: number;
+}) {
+  const { low, high, currency, url, validUntil, minPeople } = opts;
+  // A flat ladder (shared seats, or a single-tier tour) has nothing to
+  // aggregate. Emitting AggregateOffer with lowPrice === highPrice is legal but
+  // tells Google nothing, so fall back to the simpler node it understands best.
+  if (low === high) {
+    return {
+      "@type": "Offer",
+      price: String(low),
+      priceCurrency: currency,
+      priceValidUntil: validUntil,
+      availability: "https://schema.org/InStock",
+      url,
+    };
+  }
+  return {
+    "@type": "AggregateOffer",
+    lowPrice: String(low),
+    highPrice: String(high),
+    priceCurrency: currency,
+    priceValidUntil: validUntil,
+    availability: "https://schema.org/InStock",
+    url,
+    // eligibleQuantity states the group size that unlocks lowPrice, so the
+    // "for 6+" qualifier in the meta description is machine-readable too. IE is
+    // the UN/CEFACT code for "count of persons".
+    ...(minPeople ? { eligibleQuantity: { "@type": "QuantitativeValue", minValue: minPeople, unitCode: "IE" } } : {}),
+  };
+}

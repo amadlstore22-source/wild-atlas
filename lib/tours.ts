@@ -108,7 +108,7 @@ export const TOURS: Tour[] = [
     id: "1",
     slug: "toubkal-summit-trek-4day",
     relatedPosts: ["toubkal-4-day-trek-cost", "toubkal-2-day-vs-4-day-which-trek", "how-hard-is-toubkal-difficulty-guide", "what-to-pack-high-atlas-trek-morocco"],
-    title: "Marrakech to Toubkal Summit — 4-Day Trek",
+    title: "4-Day Toubkal Summit Trek from Marrakech",
     category: "trekking",
     origin: "marrakech",
     difficulty: "challenging",
@@ -147,7 +147,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Conquer Jbel Toubkal (4,167 m) — the roof of North Africa — through Berber villages and high alpine valleys.",
     description:
-      "The Toubkal Summit Trek is the definitive High Atlas adventure. Cross ancient mule paths, sleep in mountain refuges, and stand on the highest point in North Africa as sunrise spreads across Morocco. A life-changing four days that requires fitness but no technical climbing.",
+      "This 4-day Toubkal summit trek leaves Marrakech for Imlil (1,740 m) and climbs to 4,167 m — the highest peak in North Africa. Our family is from the southern slopes of the High Atlas, where these paths begin. You walk the old mule track up the Mizane Valley past the Sidi Chamharouch shrine to the refuge at 3,207 m, then start for the summit at 5:00 am on day three and reach the top at sunrise. It asks for fitness and a head for long days, not for climbing experience: there is no rope and no technical ground, and your licensed mountain guide has walked this route in every season.",
     highlights: [
       "Summit Jbel Toubkal at 4,167 m — highest peak in North Africa",
       "Sleep in traditional Berber mountain refuges at 3,207 m",
@@ -220,8 +220,8 @@ export const TOURS: Tour[] = [
       { q: "What time does summit day start?", a: "Before dawn. The summit push from the refuge takes around three hours, and an early start means reaching the top for sunrise and getting down before the afternoon weather builds. It is the coldest part of the day, so the warm layer you have been carrying finally earns its place." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Toubkal Summit Trek 4 Days — Climb North Africa's Highest Peak | Marrakech Eco Tours",
-    seoDescription: "Conquer Jbel Toubkal (4,167 m) with a licensed Berber guide. 4-day summit trek from Marrakech — refuges, all meals, and round-trip transfer included. From $750.",
+    seoTitle: "4-Day Toubkal Trek from Marrakech",
+    seoDescription: "Summit Jbel Toubkal (4,167 m) with licensed Berber guides. Mule support, mountain refuges. From €260 pp for 6+. Free cancellation 14 days.",
     featured: true,
   },
   {
@@ -343,8 +343,8 @@ export const TOURS: Tour[] = [
       { q: "Is this suitable for children?", a: "Yes, and families book it regularly. The camel ride is short and optional, the walking is minimal, and the itinerary is graded easy. The long driving days are the real consideration with young children rather than anything about the desert itself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "3-Day Sahara Desert Tour from Marrakech — Camels, Dunes & Desert Camp | Marrakech Eco Tours",
-    seoDescription: "Camel trek into Erg Chebbi at sunset and sleep under the stars. 3-day Marrakech to Sahara tour via Aït Ben Haddou, Dades and Todra gorges, returning through Alnif and Tazarine. From €690 for one traveller, €380 each for two, €320 for three, and €230 each from six people.",
+    seoTitle: "3-Day Merzouga Desert Tour, Marrakech",
+    seoDescription: "Camel trek into Erg Chebbi, overnight Berber camp, Aït Ben Haddou & Todra Gorge. Private 4x4, licensed guides. From €230 pp for 6+.",
     featured: true,
   },
   {
@@ -416,8 +416,9 @@ export const TOURS: Tour[] = [
       { q: "How large is the group?", a: "Between 2 and 15 people. It is a shared day tour, so you may walk with others." },
     ],
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
-    seoTitle: "Ourika Valley Day Hike from Marrakech — Waterfalls & Berber Villages | Marrakech Eco Tours",
-    seoDescription: "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. Guided day trip with Berber lunch included. From $99.",
+    seoTitle: "Ourika Valley Day Hike from Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. From $30 pp for 6+.",
     featured: true,
   },
   {
@@ -489,8 +490,9 @@ export const TOURS: Tour[] = [
       { q: "Is there a boat ride at Ouzoud Falls?", a: "Yes, and it is included in the price. Small wooden boats run across the pool at the foot of the cascades and take you close enough to feel the spray — it is short, it is the best view of the falls from below, and it is the moment most people photograph. You reach it on the gorge trail that descends from the top." },
     ],
     meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
-    seoTitle: "Ouzoud Waterfalls Day Trip from Marrakech — Barbary Macaques & 110m Falls | Marrakech Eco Tours",
-    seoDescription: "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. Day trip from Marrakech with guide included. From $86.",
+    seoTitle: "Ouzoud Waterfalls Day Trip from Marrakech | Marrakech Eco Tours",
+    seoDescription:
+      "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. From $25 pp for 6+.",
     featured: false,
   },
   {
@@ -562,7 +564,7 @@ export const TOURS: Tour[] = [
       { q: "Do I need quad-biking experience?", a: "No. The quad session includes basic instruction and is run at an easy pace suitable for first-timers." },
     ],
     meetingPoint: { lat: 31.4969, lng: -8.1073, name: "Agafay Desert, Marrakech Region" },
-    seoTitle: "Agafay Desert Sunset Tour from Marrakech — Quad Biking, Camels & Berber Dinner | Marrakech Eco Tours",
+    seoTitle: "Agafay Desert Sunset Tour from Marrakech | Marrakech Eco Tours",
     seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From $214.",
     featured: false,
   },
@@ -634,8 +636,9 @@ export const TOURS: Tour[] = [
       { q: "How large is the group?", a: "Small — between 2 and 8 people, and private to your party." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
-    seoTitle: "Marrakech Medina Cultural Tour — Souks, Tanneries & Riads | Marrakech Eco Tours",
-    seoDescription: "Explore the UNESCO Marrakech medina with a local guide — leather tanneries, Ben Youssef Madrasa, Djemaa El-Fna, and hidden riad gardens. Private half-day tour. From $84.",
+    seoTitle: "Marrakech Medina Cultural Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Explore the UNESCO Marrakech medina with a local guide — leather tanneries, Ben Youssef Madrasa, Djemaa El-Fna, and hidden riad gardens. From $36 pp for 6+.",
     featured: false,
   },
   {
@@ -736,8 +739,9 @@ export const TOURS: Tour[] = [
       { q: "What kind of accommodation is it?", a: "Two nights in riads — traditional courtyard guesthouses — with breakfast each morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "3-Day Marrakech to Fes Tour — Imperial Cities & High Atlas | Marrakech Eco Tours",
-    seoDescription: "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. 3-day private 4x4 tour with riad accommodation. From $1179 solo, far less per person for two or more.",
+    seoTitle: "3-Day Marrakech to Fes Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. From $345 pp for 14+.",
     featured: false,
   },
   {
@@ -812,8 +816,9 @@ export const TOURS: Tour[] = [
       { q: "What experience do I need for the M'Goun traverse?", a: "Previous multi-day trekking. This is not a first big walk: you should already know how your body handles consecutive days on rough ground and how you respond to altitude. If you have done Toubkal comfortably, you have a reasonable basis for this." },
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït M'hamed, Mgoun Massif" },
-    seoTitle: "Mgoun Massif Trek 7 Days — Morocco's Wildest High-Altitude Traverse | Marrakech Eco Tours",
-    seoDescription: "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m), cross high passes, and sleep in Berber family homes with no other tourists. From $1557.",
+    seoTitle: "Mgoun Massif Trek 7 Days | Marrakech Eco Tours",
+    seoDescription:
+      "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m) and sleep in Berber family homes. From $687 pp for 6+.",
     featured: false,
   },
 
@@ -888,7 +893,7 @@ export const TOURS: Tour[] = [
       { q: "How early should we leave?", a: "Early. Paradise Valley is about ninety minutes from Agadir, and arriving before the mid-morning crowd changes the experience considerably — the difference between having a pool largely to yourselves and sharing it." },
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
-    seoTitle: "Paradise Valley Day Trip from Agadir — Natural Swimming Pools & Palm Gorge | Marrakech Eco Tours",
+    seoTitle: "Paradise Valley Day Trip from Agadir | Marrakech Eco Tours",
     seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $86.",
     featured: true,
   },
@@ -961,8 +966,9 @@ export const TOURS: Tour[] = [
       { q: "How big is the group?", a: "Between 2 and 12 people — a small shared group, so the naturalist guide can still point out birds and wildlife to everyone." },
     ],
     meetingPoint: { lat: 30.0559, lng: -9.6320, name: "Souss-Massa National Park, Massa" },
-    seoTitle: "Souss-Massa National Park Wildlife Tour from Agadir — Rare Northern Bald Ibis | Marrakech Eco Tours",
-    seoDescription: "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. Expert naturalist guide, binoculars, and picnic included. From $198.",
+    seoTitle: "Souss-Massa National Park Wildlife Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. From $59 pp for 6+.",
     featured: true,
   },
   {
@@ -1033,7 +1039,7 @@ export const TOURS: Tour[] = [
       { q: "How large is the group?", a: "Between 2 and 14 people on a shared day trip." },
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
-    seoTitle: "Taroudant Day Trip from Agadir — Ancient Ramparts & Berber Market | Marrakech Eco Tours",
+    seoTitle: "Taroudant Day Trip from Agadir | Marrakech Eco Tours",
     seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and authentic Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From $77.",
     featured: false,
   },
@@ -1103,8 +1109,9 @@ export const TOURS: Tour[] = [
       { q: "How long is the lesson?", a: "The session runs 2–3 hours in total, including the warm-up, safety briefing, and time in the water, in a small group of 2–8." },
     ],
     meetingPoint: { lat: 30.4206, lng: -9.5981, name: "Agadir Beach, Agadir Bay" },
-    seoTitle: "Surf Lesson Agadir — Learn to Surf on Morocco's Atlantic Coast | Marrakech Eco Tours",
-    seoDescription: "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. Beginner and intermediate levels. From $81.",
+    seoTitle: "Surf Lessons in Agadir — Atlantic Coast | Marrakech Eco Tours",
+    seoDescription:
+      "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. From $24 pp for 6+.",
     featured: false,
   },
   {
@@ -1198,8 +1205,9 @@ export const TOURS: Tour[] = [
       { q: "Where do we sleep?", a: "In Berber guesthouses in mountain villages — simple, hosted accommodation rather than hotels, with all meals included." },
     ],
     meetingPoint: { lat: 29.7231, lng: -8.9762, name: "Tafraoute, Anti-Atlas Mountains" },
-    seoTitle: "Anti-Atlas Mountains Trek 3 Days from Agadir — Pink Granite & Painted Rocks | Marrakech Eco Tours",
-    seoDescription: "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. Private tour from Agadir. From $527.",
+    seoTitle: "Anti-Atlas Mountains Trek 3 Days | Marrakech Eco Tours",
+    seoDescription:
+      "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. From $215 pp for 6+.",
     featured: true,
   },
   {
@@ -1283,8 +1291,9 @@ export const TOURS: Tour[] = [
       { q: "How demanding is it?", a: "Easy. The distance is covered by 4x4, and the camel rides are short and optional." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
-    seoTitle: "2-Day Sahara Tour from Agadir — Erg Chegaga Desert Camp & Draa Valley | Marrakech Eco Tours",
-    seoDescription: "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. 2-day tour from Agadir. From $556.",
+    seoTitle: "2-Day Sahara Tour from Agadir | Marrakech Eco Tours",
+    seoDescription:
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. From $129 pp for 6+.",
     featured: true,
   },
   {
@@ -1356,7 +1365,7 @@ export const TOURS: Tour[] = [
       { q: "How large is the group?", a: "Between 2 and 14 people on a shared day trip, so you may be travelling alongside others rather than in a private group." },
     ],
     meetingPoint: { lat: 30.0667, lng: -8.6500, name: "Souss Valley, Aït Baha Region" },
-    seoTitle: "Souss Valley Argan & Culture Day Trip from Agadir — Women's Cooperative | Marrakech Eco Tours",
+    seoTitle: "Souss Valley Argan & Culture Day Trip | Marrakech Eco Tours",
     seoDescription: "Visit a women-run argan oil cooperative, a honey village beekeeper, and share a Berber family lunch in the Souss Valley — Morocco's argan heartland. From $72.",
     featured: false,
   },
@@ -1428,7 +1437,7 @@ export const TOURS: Tour[] = [
       { q: "How big is the group?", a: "Between 2 and 14 people on a shared day trip." },
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
-    seoTitle: "Essaouira Day Trip from Agadir — UNESCO Medina & Atlantic Ramparts | Marrakech Eco Tours",
+    seoTitle: "Essaouira Day Trip from Agadir | Marrakech Eco Tours",
     seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From $116.",
     featured: false,
   },
@@ -1532,7 +1541,7 @@ export const TOURS: Tour[] = [
       { q: "Where do we stay?", a: "Three nights in riads with breakfast each morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Marrakech to Chefchaouen 4-Day Blue City Tour — Fes, Volubilis & Rif Mountains | Marrakech Eco Tours",
+    seoTitle: "Marrakech to Chefchaouen 4-Day Blue City | Marrakech Eco Tours",
     seoDescription: "4-day tour from Marrakech to the blue-washed streets of Chefchaouen via Fes, Volubilis Roman ruins, and Meknes. Private 4x4 with riad accommodation. From $646.",
     featured: false,
   },
@@ -1649,8 +1658,9 @@ export const TOURS: Tour[] = [
       { q: "Is it private?", a: "Yes, it runs as a private tour for your party of 2–12 with your own guide and vehicle." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "All 4 Imperial Cities Morocco 5-Day Tour — Marrakech, Meknes, Fes & Rabat | Marrakech Eco Tours",
-    seoDescription: "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. Private 4x4 from Marrakech. From $913.",
+    seoTitle: "All 4 Imperial Cities Morocco 5-Day Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. From $301 pp for 6+.",
     featured: false,
   },
 
@@ -1755,8 +1765,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: false,
-    seoTitle: "Marrakech to Zagora 2-Day Desert Tour — Draa Valley, Camel Trek & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. 2-day desert tour from Marrakech with Berber camp. From $415.",
+    seoTitle: "Marrakech to Zagora 2-Day Desert Tour | Marrakech Eco Tours",
+    seoDescription:
+      "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. From $113 pp for 14+.",
   },
   {
     id: "24",
@@ -1868,8 +1879,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
-    seoTitle: "Erg Chegaga 3-Day Desert Tour from Marrakech — Remote Dunes & 4x4 Sahara Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga via 4x4 off-road crossing, 2 nights in a private Berber camp. No crowds, 120 m dunes. From $1464 solo, far less per person for two or more.",
+    seoTitle: "Erg Chegaga 3-Day Desert Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga by 4x4, 2 nights in a private Berber camp. From $324 pp for 5+.",
   },
   {
     id: "25",
@@ -1991,7 +2003,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
-    seoTitle: "4-Day Desert Tour from Marrakech — Erg Chebbi, Todra Gorge & Road of a Thousand Kasbahs | Marrakech Eco Tours",
+    seoTitle: "4-Day Desert Tour from Marrakech | Marrakech Eco Tours",
     seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From $1026.",
   },
 
@@ -2099,8 +2111,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
-    seoTitle: "Agadir to Merzouga 3-Day Desert Tour — Erg Chebbi, Taroudant & Taliouine | Marrakech Eco Tours",
-    seoDescription: "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. 3-day desert tour with Berber camp. From $840.",
+    seoTitle: "Agadir to Merzouga 3-Day Desert Tour | Marrakech Eco Tours",
+    seoDescription:
+      "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. From $196 pp for 6+.",
   },
   {
     id: "27",
@@ -2190,8 +2203,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
-    seoTitle: "Agadir to Zagora 2-Day Desert Tour — Draa Valley, Taroudant & Berber Camp | Marrakech Eco Tours",
-    seoDescription: "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. Berber camp under the stars. From $510.",
+    seoTitle: "Agadir to Zagora 2-Day Desert Tour | Marrakech Eco Tours",
+    seoDescription:
+      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From $119 pp for 6+.",
   },
   {
     id: "28",
@@ -2291,8 +2305,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
-    seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour — Remote Sahara & 4x4 Expedition | Marrakech Eco Tours",
-    seoDescription: "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. Fewer tourists, bigger silence. From $1395.",
+    seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour | Marrakech Eco Tours",
+    seoDescription:
+      "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. From $324 pp for 5+.",
   },
   {
     id: "29",
@@ -2409,8 +2424,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
-    seoTitle: "4-Day Desert Tour from Agadir — Erg Chebbi, Taroudant, Todra Gorge & Road of 1000 Kasbahs | Marrakech Eco Tours",
-    seoDescription: "The complete Agadir desert grand tour — 4 days through Taroudant, Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp, and the Road of a Thousand Kasbahs. From $1196.",
+    seoTitle: "4-Day Desert Tour from Agadir | Marrakech Eco Tours",
+    seoDescription:
+      "The complete Agadir desert grand tour — 4 days via Taroudant, Aït Ben Haddou, Todra Gorge and an Erg Chebbi camp. From $279 pp for 6+.",
   },
 
   // ─────────────────────────────────────────────
@@ -2520,7 +2536,7 @@ export const TOURS: Tour[] = [
       { q: "Where do we stay?", a: "Three nights in riads with breakfast each morning." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
-    seoTitle: "4-Day Agadir to Fes Tour — High Atlas, Aït Ben Haddou & Imperial City | Marrakech Eco Tours",
+    seoTitle: "4-Day Agadir to Fes Tour | Marrakech Eco Tours",
     seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From $1188.",
     featured: false,
   },
@@ -2635,8 +2651,9 @@ export const TOURS: Tour[] = [
       { q: "Where do we stay?", a: "Four nights in riads with breakfast each morning." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
-    seoTitle: "5-Day Agadir to Chefchaouen Tour — Fes, Volubilis & Blue City | Marrakech Eco Tours",
-    seoDescription: "5-day tour from Agadir to Morocco's Blue City via Marrakech, Fes, the Roman ruins of Volubilis, and the imperial gates of Meknes. Private 4x4 with riads. From $797.",
+    seoTitle: "5-Day Agadir to Chefchaouen Tour | Marrakech Eco Tours",
+    seoDescription:
+      "5-day tour from Agadir to Morocco's Blue City via Marrakech, Fes, the Roman ruins of Volubilis, and the imperial gates of Meknes. From $263 pp for 6+.",
     featured: false,
   },
   {
@@ -2763,7 +2780,7 @@ export const TOURS: Tour[] = [
       { q: "Is it private?", a: "Yes — a private tour for your party of 2–12 with your own guide and vehicle." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
-    seoTitle: "All 4 Imperial Cities Morocco 6-Day Tour from Agadir — Marrakech, Meknes, Fes & Rabat | Marrakech Eco Tours",
+    seoTitle: "All 4 Imperial Cities Morocco 6-Day Tour | Marrakech Eco Tours",
     seoDescription: "Grand 6-day circuit from Agadir through all four Moroccan imperial cities — Marrakech, Meknes, Fes, and Rabat. Private 4x4 with riad accommodation. From $1063.",
     featured: false,
   },
@@ -2911,8 +2928,9 @@ export const TOURS: Tour[] = [
       { q: "What is required but not included?", a: "Travel insurance is mandatory and not included, along with personal trekking equipment and tips for the guide, cook, and muleteers." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni from Marrakech — Summit & Circuit | Marrakech Eco Tours",
-    seoDescription: "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). Licensed Berber guide, all meals & transfers. From $1142.",
+    seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni | Marrakech Eco Tours",
+    seoDescription:
+      "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). From $519 pp for 6+.",
     featured: false,
   },
   {
@@ -3009,8 +3027,8 @@ export const TOURS: Tour[] = [
       { q: "Can I do this trek in winter?", a: "Only with winter equipment and a guide qualified for those conditions. From roughly November to March the upper route is snow-covered and requires crampons, an ice axe and the skills to use them. It becomes a mountaineering trip rather than a walk." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "2-Day Mount Toubkal Trek from Marrakech — Express Summit 4,167 m | Marrakech Eco Tours",
-    seoDescription: "Climb Jbel Toubkal (4,167 m) in 2 days from Marrakech — the fastest route to North Africa's highest peak. Refuge night, all meals, licensed Berber guide & transfers. From $404.",
+    seoTitle: "2-Day Toubkal Trek from Marrakech",
+    seoDescription: "Reach North Africa’s highest peak in two days. Private or small group, overnight at Toubkal Refuge. From €153 pp for 6+. Licensed Berber guides.",
     featured: true,
   },
   {
@@ -3114,8 +3132,9 @@ export const TOURS: Tour[] = [
       { q: "Is travel insurance required?", a: "Yes, it is mandatory for this trek and not included. Tips for the guide and porter are also not included." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "3-Day Toubkal Trek via Aguelzim Pass from Marrakech — Azzaden Valley Route | Marrakech Eco Tours",
-    seoDescription: "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). Licensed guide, refuges, all meals & transfers. From $692.",
+    seoTitle: "3-Day Toubkal Trek via Aguelzim Pass | Marrakech Eco Tours",
+    seoDescription:
+      "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). From $265 pp for 6+.",
     featured: false,
   },
   {
@@ -3220,8 +3239,9 @@ export const TOURS: Tour[] = [
       { q: "Do I carry my own gear?", a: "No — a mule porter carries the group gear to the refuge, so you climb with a daypack on summit days." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Toubkal Three Peaks 4,000 m Challenge — 3-Day High Atlas Trek | Marrakech Eco Tours",
-    seoDescription: "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). Expert-level trek from Marrakech with licensed guide. From $692.",
+    seoTitle: "Toubkal Three Peaks 4,000 m Challenge | Marrakech Eco Tours",
+    seoDescription:
+      "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). From $265 pp for 6+.",
     featured: false,
   },
   {
@@ -3287,7 +3307,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6316, lng: -7.9868, name: "Rahba Kedima Spice Square, Marrakech Medina" },
-    seoTitle: "Marrakech Food & Market Tour — Spice Souk Walk & Cooking Class | Marrakech Eco Tours",
+    seoTitle: "Marrakech Food & Market Tour | Marrakech Eco Tours",
     seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From $126.",
     faq: [
       { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
@@ -3375,7 +3395,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Merzouga Stargazing Tour — 2-Day Sahara Dark Sky Desert Trip | Marrakech Eco Tours",
+    seoTitle: "Merzouga Stargazing Tour | Marrakech Eco Tours",
     seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From $598.",
     faq: [
       { q: "Do I need my own astronomy knowledge or equipment?", a: "No. The guide provides the telescope and explains everything from scratch — this is designed for complete beginners as much as anyone with an interest in astronomy." },
@@ -3467,7 +3487,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Azzaden Valley 2-Day Trek — Quiet Atlas Mountains Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "Azzaden Valley 2-Day Trek | Marrakech Eco Tours",
     seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $329.",
     faq: [
       { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,684 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
@@ -3568,7 +3588,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "3-Day Atlas Mountains Trek — High Atlas Berber Villages from Marrakech | Marrakech Eco Tours",
+    seoTitle: "3-Day Atlas Mountains Trek | Marrakech Eco Tours",
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $480.",
     faq: [
       { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 2,700 m. If you walk regularly you will be fine." },
@@ -3680,7 +3700,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "Family Atlas Mountains Trek 4 Days — Gentle Berber Village Hike from Marrakech | Marrakech Eco Tours",
+    seoTitle: "Family Atlas Mountains Trek 4 Days | Marrakech Eco Tours",
     seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $639.",
     faq: [
       { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–4 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
@@ -3795,7 +3815,7 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Family Desert Tour 4 Days — Marrakech to Sahara with Kids | Marrakech Eco Tours",
+    seoTitle: "Family Desert Tour 4 Days | Marrakech Eco Tours",
     seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $1395.",
     faq: [
       { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
@@ -3889,8 +3909,9 @@ export const TOURS: Tour[] = [
       { day: 15, title: "Imlil → Marrakech", description: "Transfer back to Marrakech, arriving late morning. Tour ends.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "1.5 h" },
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
-    seoTitle: "High Atlas Grand Traverse 15 Days — M'Goun to Toubkal Trek | Marrakech Eco Tours",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support. From $1961.",
+    seoTitle: "High Atlas Grand Traverse 15 Days | Marrakech Eco Tours",
+    seoDescription:
+      "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. From $1269 pp for 6+.",
     faq: [
       { q: "How fit and experienced do I need to be for the Grand Traverse?", a: "This is graded expert — the most demanding trip we run. It is fifteen consecutive days of walking, several of them long (8–9 hours), with two 4,000 m summits and high passes. You should already have multi-day trekking experience, be comfortable at altitude, and be prepared for consecutive hard days in remote country. It is not a first big trek." },
       { q: "Which peaks does the traverse summit?", a: "Both of North Africa's highest: M'Goun (4,068 m) early in the route from the Aït Bougmez side, and Jbel Toubkal (4,167 m) near the end. Weather permitting, both summits are part of the standard itinerary rather than optional extras." },
@@ -4027,9 +4048,9 @@ export const TOURS: Tour[] = [
       },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Toubkal Summit & Sahara 5-Day Tour from Marrakech | Marrakech Eco Tours",
+    seoTitle: "Toubkal Summit & Sahara 5-Day Tour | Marrakech Eco Tours",
     seoDescription:
-      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. Private 5-day mountain-to-desert tour from Marrakech. From $1096 solo, far less per person for two or more.",
+      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. From $358 pp for 14+.",
     faq: [
       { q: "How fit do I need to be for the Toubkal and Sahara combo?", a: "The trek half is graded challenging: two mountain days with a pre-dawn summit push at 4,167 m, so you need to be a fit, regular walker comfortable at altitude. The desert half is easy and vehicle-based, so it acts as a rest after the summit. If you can manage a hard two-day mountain trek, the rest of the trip is comfortable." },
       { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },
@@ -4178,9 +4199,9 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: false,
-    seoTitle: "8-Day Chegaga Camel Trek from Marrakech — Draa Valley to M'hamid",
+    seoTitle: "8-Day Chegaga Camel Trek from Marrakech | Marrakech Eco Tours",
     seoDescription:
-      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. Mobile camps, Berber guide, full board. From $3114 per person.",
+      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. From $882 pp for 5+.",
     faq: [
       {
         q: "Do I ride the camel or walk?",
@@ -4291,7 +4312,7 @@ export const TOURS: Tour[] = [
       { q: "Do shared departures run every day?", a: "Yes, daily year-round. Very small groups in low season are occasionally merged with the following day's departure — you would be told before booking, not on the morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Merzouga Desert 3-Day Shared Tour from Marrakech — €120 | Marrakech Eco Tours",
+    seoTitle: "Merzouga Desert 3-Day Shared Tour | Marrakech Eco Tours",
     seoDescription: "Shared daily departure from Marrakech to the Erg Chebbi dunes: Aït Ben Haddou, Dades and Todra gorges, camel trek and a night at a desert camp. €120 per person.",
     featured: false,
   },
@@ -4363,7 +4384,7 @@ export const TOURS: Tour[] = [
       { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Zagora Desert 2-Day Shared Tour from Marrakech — €85 | Marrakech Eco Tours",
+    seoTitle: "Zagora Desert 2-Day Shared Tour | Marrakech Eco Tours",
     seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a night in a Berber camp. €85 per person.",
     featured: false,
   },
@@ -4422,7 +4443,7 @@ export const TOURS: Tour[] = [
       { q: "Is the boat ride included?", a: "No — the small boats at the base of the falls are run locally and cost a few dirhams, paid on the day. Transport, the guide and water are included." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Ouzoud Waterfalls Shared Day Trip from Marrakech — €40 | Marrakech Eco Tours",
+    seoTitle: "Ouzoud Waterfalls Shared Day Trip | Marrakech Eco Tours",
     seoDescription: "Shared daily departure to the Ouzoud Falls: 110 m cascades, wild Barbary macaques, gorge walk and boat ride. Round-trip from Marrakech, €40 per person.",
     featured: false,
   },
@@ -4481,7 +4502,7 @@ export const TOURS: Tour[] = [
       { q: "Is it suitable for children?", a: "Yes — it is short, there is no walking to speak of, and the camel ride and fire show tend to be the highlight of the trip for younger children." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Agafay Desert Dinner, Camel Ride & Fire Show from Marrakech — €30 | Marrakech Eco Tours",
+    seoTitle: "Agafay Desert Dinner & Camel Ride | Marrakech Eco Tours",
     seoDescription: "Evening in the Agafay stone desert: sunset camel ride, three-course dinner, live music and a fire show, 40 minutes from Marrakech. €30 per person.",
     featured: false,
   },
@@ -4539,7 +4560,7 @@ export const TOURS: Tour[] = [
       { q: "Is the argan stop a sales pitch?", a: "It is a working women's cooperative where you can watch the pressing and buy if you want to. Nobody obliges you to." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Essaouira Shared Day Trip from Marrakech — €30 | Marrakech Eco Tours",
+    seoTitle: "Essaouira Shared Day Trip from Marrakech | Marrakech Eco Tours",
     seoDescription: "Shared daily departure to Essaouira: UNESCO medina, 18th-century ramparts, the blue fishing harbour and an argan cooperative en route. €30 per person.",
     featured: false,
   },

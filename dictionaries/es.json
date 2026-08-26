@@ -655,6 +655,10 @@
     "guideTitleSuffix": "guía de montaña titulado",
     "home": {
       "title": "Marrakech Eco Tours — Trekking del Atlas, Sáhara y cultura"
+    },
+    "tours": {
+      "title": "Todos los tours por Marruecos",
+      "description": "Más de 30 tours guiados por Marruecos — trekking en el Atlas, noches en el Sáhara y excursiones culturales desde Marrakech y Agadir. Guías bereberes."
     }
   },
   "review": {

@@ -655,6 +655,10 @@
     "guideTitleSuffix": "guide de montagne agréé",
     "home": {
       "title": "Marrakech Eco Tours — Treks de l'Atlas, Sahara et culture"
+    },
+    "tours": {
+      "title": "Tous nos circuits au Maroc",
+      "description": "Plus de 30 circuits guidés au Maroc — treks de l’Atlas, nuits dans le Sahara, excursions culturelles depuis Marrakech et Agadir. Guides berbères agréés."
     }
   },
   "review": {

@@ -3,7 +3,8 @@ import { useRef } from "react";
 import { useMediaQuery, DESKTOP_MOTION_QUERY } from "@/lib/use-media-query";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
-import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
+import * as m from "motion/react-m";
+import { useScroll, useTransform, useReducedMotion } from "motion/react";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
 import BrassButton from "@/components/ui/BrassButton";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -30,7 +31,7 @@ export default function Hero({ lang, dict }: Props) {
   return (
     <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-indigo-deep">
       {/* Cinematic full-bleed media — video if provided, else slow Ken-Burns photo */}
-      <motion.div className="absolute inset-0 overflow-hidden" style={parallax ? { y: mediaY } : undefined}>
+      <m.div className="absolute inset-0 overflow-hidden" style={parallax ? { y: mediaY } : undefined}>
         {SITE.heroVideo ? (
           <video
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -52,10 +53,10 @@ export default function Hero({ lang, dict }: Props) {
         {/* Warm cinematic scrim — deepen left for text contrast, warm sunset glow bottom */}
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-deep/85 via-indigo-deep/45 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/80 via-transparent to-indigo-deep/25" />
-      </motion.div>
+      </m.div>
 
       {/* Content */}
-      <motion.div
+      <m.div
         className="relative z-10 min-h-[100dvh] flex flex-col justify-end pb-20 sm:pb-24 pt-28"
         style={parallax ? { y: contentY, opacity: contentOpacity } : undefined}
       >
@@ -97,10 +98,10 @@ export default function Hero({ lang, dict }: Props) {
             </div>
           </div>
         </div>
-      </motion.div>
+      </m.div>
 
       {/* Minimal scroll indicator */}
-      <motion.div
+      <m.div
         className="absolute bottom-7 left-1/2 -translate-x-1/2 z-10 hidden sm:flex flex-col items-center gap-2"
         initial={reduce ? false : { opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -108,7 +109,7 @@ export default function Hero({ lang, dict }: Props) {
         aria-hidden="true"
       >
         <span className={`w-px h-12 bg-gradient-to-b from-brass-glow/70 to-transparent ${reduce ? "" : "float-soft"}`} />
-      </motion.div>
+      </m.div>
 
       {/* Trust micro-line (single small element, allowed) */}
       <div className="absolute bottom-7 right-5 sm:right-8 z-10 hidden md:flex items-center gap-2 text-cream/70 text-xs">

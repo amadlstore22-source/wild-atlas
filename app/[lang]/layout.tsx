@@ -13,6 +13,7 @@ import GoogleAnalytics from "@/components/ui/GoogleAnalytics";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import CurrencyProvider from "@/components/ui/CurrencyProvider";
+import MotionProvider from "@/components/ui/MotionProvider";
 import VercelAnalytics from "@/components/ui/VercelAnalytics";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
@@ -142,6 +143,10 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <CurrencyProvider>
+          {/* Supplies Motion's domAnimation features to every <m.*> below.
+              Must wrap all of them: an m component with no LazyMotion ancestor
+              renders inert. */}
+          <MotionProvider>
           <SmoothScroll />
           <ScrollProgress />
           <Header lang={locale} dict={dict} />
@@ -152,6 +157,7 @@ export default async function LocaleLayout({
           <GoogleAnalytics />
           <Toaster richColors />
           <VercelAnalytics />
+          </MotionProvider>
         </CurrencyProvider>
       </body>
     </html>

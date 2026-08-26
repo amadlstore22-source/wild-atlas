@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import * as m from "motion/react-m";
+import { AnimatePresence } from "motion/react";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 /** The scroll-spy only ever needs the ids, and those never change. Kept out of
@@ -91,7 +92,7 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
                 so the far-left edge is always empty on desktop — the rail can
                 never collide with page content. Flat right side + left-flush
                 rounding makes it read as anchored to the edge, not floating. */}
-            <motion.nav
+            <m.nav
               aria-label="Tour sections"
               className={`hidden xl:block fixed left-0 top-1/2 z-30 -translate-y-1/2 ${scrolling ? "" : "pointer-events-none"}`}
               initial={{ opacity: 0, x: -100 }}
@@ -129,11 +130,11 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
                   );
                 })}
               </ul>
-            </motion.nav>
+            </m.nav>
 
             {/* Below xl there is no room for a left rail, so fall back to a slim
                 horizontal bar tucked under the header. */}
-            <motion.nav
+            <m.nav
               aria-label="Tour sections"
               className="xl:hidden fixed top-16 lg:top-20 left-0 right-0 z-30 bg-surface/85 backdrop-blur-md border-b border-rule/70"
               initial={{ y: -48, opacity: 0 }}
@@ -159,7 +160,7 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
                   ))}
                 </div>
               </div>
-            </motion.nav>
+            </m.nav>
           </>
         )}
       </AnimatePresence>

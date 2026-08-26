@@ -2,7 +2,8 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { motion, useScroll, useMotionValueEvent } from "motion/react";
+import * as m from "motion/react-m";
+import { useScroll, useMotionValueEvent } from "motion/react";
 import {
   List, X, CaretDown, Globe, CurrencyCircleDollar,
   SunHorizon, Footprints, Tent, Compass, UsersThree,
@@ -286,7 +287,7 @@ export default function Header({ lang, dict }: Props) {
         }`}
       >
         <div className="absolute inset-0 bg-indigo-deep/40 backdrop-blur-sm" onClick={() => setOpen(false)} />
-        <motion.div
+        <m.div
           initial={false}
           animate={{ y: open ? 0 : -16, opacity: open ? 1 : 0 }}
           transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
@@ -368,7 +369,7 @@ export default function Header({ lang, dict }: Props) {
               </Link>
             </div>
           </nav>
-        </motion.div>
+        </m.div>
       </div>
     </header>
   );

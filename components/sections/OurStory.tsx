@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import { ArchImage } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -21,7 +21,7 @@ export default function OurStory({ dict, lang = "en" }: Props) {
 
           {/* Left: the ONE arch of the whole design — Lahsen / the guides,
               framed like a riad doorway. Emotional centre of the site. */}
-          <motion.div
+          <m.div
             className="relative"
             initial={{ opacity: 0, x: -36 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -38,10 +38,10 @@ export default function OurStory({ dict, lang = "en" }: Props) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/45 via-transparent to-transparent" />
             </ArchImage>
-          </motion.div>
+          </m.div>
 
           {/* Right: editorial text */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: 36 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -71,7 +71,7 @@ export default function OurStory({ dict, lang = "en" }: Props) {
               {dict.ourStory.meetTeam}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" weight="bold" />
             </Link>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </section>

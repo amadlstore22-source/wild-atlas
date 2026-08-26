@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, useReducedMotion } from "motion/react";
+import * as m from "motion/react-m";
+import { useReducedMotion } from "motion/react";
 import { Clock, Users, Star, MapPin, CheckCircle, ArrowRight } from "@phosphor-icons/react";
 import type { Tour } from "@/lib/tours";
 import { DIFFICULTY_COLORS, lowestGroupPrice } from "@/lib/tours";
@@ -77,7 +78,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
 
   if (featured) {
     return (
-      <motion.article
+      <m.article
         className="group relative overflow-hidden rounded-[4px] bg-indigo-deep row-span-2 flex flex-col min-h-[480px] shadow-[var(--shadow-riad)] ring-1 ring-saffron/25"
         initial={reduce ? false : { opacity: 0, y: 28 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -131,12 +132,12 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             </Link>
           </div>
         </div>
-      </motion.article>
+      </m.article>
     );
   }
 
   return (
-    <motion.article
+    <m.article
       className="group relative bg-card rounded-[4px] overflow-hidden ring-1 ring-rule flex flex-col shadow-[var(--shadow-riad-sm)] transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-riad)] hover:ring-indigo/40"
       initial={reduce ? false : { opacity: 0, y: 22 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -214,6 +215,6 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           </Link>
         </div>
       </div>
-    </motion.article>
+    </m.article>
   );
 }

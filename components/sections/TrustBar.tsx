@@ -1,6 +1,6 @@
 "use client";
 import { Star, Users, Leaf, Shield, Mountains } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
@@ -22,7 +22,7 @@ export default function TrustBar({ dict }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-stretch divide-x divide-sand-dark">
           {SIGNALS.map((s, i) => (
-            <motion.div
+            <m.div
               key={s.label}
               className="flex items-center gap-3 px-6 py-4 flex-1 min-w-[160px] group"
               initial={{ opacity: 0, y: 10 }}
@@ -34,7 +34,7 @@ export default function TrustBar({ dict }: Props) {
                 <div className="font-bold text-charcoal text-sm leading-none">{s.value}</div>
                 <div className="text-ink-muted text-xs mt-0.5 leading-tight">{s.label}</div>
               </div>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

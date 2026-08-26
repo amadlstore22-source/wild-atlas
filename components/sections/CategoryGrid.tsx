@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import AnimateInView from "@/components/ui/AnimateInView";
 import CategoryAnimation from "@/components/sections/CategoryAnimation";
 import { TOUR_COUNT_BY_CATEGORY, type Category } from "@/lib/tours";
@@ -55,7 +55,7 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[280px] lg:auto-rows-[300px]">
 
           {/* Cell 1: Hero */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
@@ -94,11 +94,11 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                 </span>
               </div>
             </Link>
-          </motion.div>
+          </m.div>
 
           {/* Cell 2: Tall right */}
           {tall && (
-            <motion.div
+            <m.div
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
@@ -135,12 +135,12 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </m.div>
           )}
 
           {/* Cells 3-5: smaller bottom row */}
           {rest.map((cat, i) => (
-            <motion.div
+            <m.div
               key={cat.id}
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -174,7 +174,7 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

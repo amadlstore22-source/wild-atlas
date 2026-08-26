@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import { WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { track, trackConversion } from "@/lib/analytics";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
@@ -89,7 +89,7 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
   };
 
   return (
-    <motion.a
+    <m.a
       href={whatsappUrl(WHATSAPP_MESSAGES.general)}
       target="_blank"
       rel="noopener noreferrer"
@@ -116,7 +116,7 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
       </span>
 
       {/* Button with pulse ring */}
-      <motion.div
+      <m.div
         className="relative shrink-0"
         whileHover={{ scale: 1.12 }}
         whileTap={{ scale: 0.95 }}
@@ -128,7 +128,7 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
             <path d={WA_PATH} />
           </svg>
         </div>
-      </motion.div>
-    </motion.a>
+      </m.div>
+    </m.a>
   );
 }

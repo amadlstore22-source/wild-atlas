@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import { Mountains, Compass, UsersThree, Leaf } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -38,7 +38,7 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
             {/* Image side */}
-            <motion.div
+            <m.div
               className="relative rounded-[4px] overflow-hidden min-h-[560px]"
               initial={{ opacity: 0, x: -32 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -57,7 +57,7 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
               {/* Floating value cards */}
               <div className="absolute bottom-6 left-6 right-6 grid grid-cols-2 gap-3">
                 {VALUES.map((v, i) => (
-                  <motion.div
+                  <m.div
                     key={v.title}
                     className="bg-white/92 backdrop-blur-sm rounded-xl p-4 shadow-xl"
                     initial={{ opacity: 0, y: 16 }}
@@ -68,13 +68,13 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
                     <v.Icon className="w-5 h-5 text-forest mb-1.5" weight="duotone" />
                     <div className="font-semibold text-charcoal text-xs leading-tight">{v.title}</div>
                     <div className="text-ink-soft text-[11px] leading-snug mt-0.5">{v.body}</div>
-                  </motion.div>
+                  </m.div>
                 ))}
               </div>
-            </motion.div>
+            </m.div>
 
             {/* Text side */}
-            <motion.div
+            <m.div
               initial={{ opacity: 0, x: 32 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.25 }}
@@ -92,7 +92,7 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
                 <p>{dict.about.storyBody3}</p>
                 <p className="font-semibold text-charcoal/80">{dict.about.storyBody4}</p>
               </div>
-            </motion.div>
+            </m.div>
           </div>
         </div>
       </section>
@@ -109,7 +109,7 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
 
           <div className="relative max-w-3xl mx-auto">
             {/* Vertical line — draws downward as timeline enters view */}
-            <motion.div
+            <m.div
               className="absolute left-[28px] top-4 bottom-4 w-px bg-gradient-to-b from-indigo/30 via-forest/20 to-transparent hidden sm:block origin-top"
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
@@ -118,9 +118,9 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
             />
 
             <div className="space-y-10">
-              {MILESTONES.map((m, i) => (
-                <motion.div
-                  key={m.year}
+              {MILESTONES.map((milestone, i) => (
+                <m.div
+                  key={milestone.year}
                   className="flex gap-8 items-start"
                   initial={{ opacity: 0, x: -24 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -129,15 +129,15 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
                 >
                   {/* Year bubble */}
                   <div className="shrink-0 w-14 h-14 rounded-full bg-forest flex items-center justify-center shadow-lg shadow-forest/20 z-10">
-                    <span className="font-mono text-white text-[10px] font-bold text-center leading-tight px-1">{m.year}</span>
+                    <span className="font-mono text-white text-[10px] font-bold text-center leading-tight px-1">{milestone.year}</span>
                   </div>
 
                   {/* Content */}
                   <div className="flex-1 pt-2 pb-2">
-                    <h3 className="font-display text-charcoal font-bold text-lg mb-2">{m.title}</h3>
-                    <p className="text-ink-soft text-sm leading-relaxed">{m.body}</p>
+                    <h3 className="font-display text-charcoal font-bold text-lg mb-2">{milestone.title}</h3>
+                    <p className="text-ink-soft text-sm leading-relaxed">{milestone.body}</p>
                   </div>
-                </motion.div>
+                </m.div>
               ))}
             </div>
           </div>

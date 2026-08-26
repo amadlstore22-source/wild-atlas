@@ -1,6 +1,6 @@
 "use client";
 import { UsersThree, Leaf, ChatCircle, MapTrifold } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import AnimateInView from "@/components/ui/AnimateInView";
 import { SITE } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
@@ -50,7 +50,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
           {/* Right: 4 reason cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {WHY.map((item, i) => (
-              <motion.div
+              <m.div
                 key={item.title}
                 className="p-6 rounded-[3px] border border-saffron/20 transition-all duration-300 group"
                 style={{ background: "rgba(255,255,255,0.06)" }}
@@ -65,7 +65,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
                 </div>
                 <h3 className="font-semibold text-cream text-sm mb-2">{item.title}</h3>
                 <p className="text-cream/70 text-xs leading-relaxed">{item.body}</p>
-              </motion.div>
+              </m.div>
             ))}
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
           <div className="hidden lg:block absolute top-5 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-transparent via-saffron/30 to-transparent pointer-events-none" />
 
           {STEPS.map((s, i) => (
-            <motion.div
+            <m.div
               key={s.num}
               className="relative"
               initial={{ opacity: 0, y: 20 }}
@@ -101,7 +101,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
               </div>
               <h4 className="font-semibold text-cream text-sm mb-1.5">{s.title}</h4>
               <p className="text-cream/65 text-xs leading-relaxed">{s.body}</p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
-import { motion, useInView } from "motion/react";
+import * as m from "motion/react-m";
+import { useInView } from "motion/react";
 import type { HTMLMotionProps, Variants } from "motion/react";
 
 type Variant = "fade-up" | "fade-in" | "scale-in" | "fade-left" | "fade-right";
@@ -33,7 +34,7 @@ interface Props extends HTMLMotionProps<"div"> {
   delay?: number;
   duration?: number;
   /** Pass "span", "section", "article", etc. to render a different element */
-  as?: keyof typeof motion;
+  as?: keyof typeof m;
   once?: boolean;
   amount?: number | "some" | "all";
 }
@@ -53,7 +54,10 @@ export default function AnimateInView({
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once, amount });
 
-  const Tag = motion[as] as typeof motion.div;
+  // Indexed off the m namespace, not motion: importing `motion` here would
+  // pull the full 34kb component back in and defeat LazyMotion for the whole
+  // app, since this wrapper is used on most pages.
+  const Tag = m[as] as typeof m.div;
   const v = VARIANTS[variant];
 
   return (

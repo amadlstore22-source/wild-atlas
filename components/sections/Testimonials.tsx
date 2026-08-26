@@ -1,6 +1,6 @@
 "use client";
 import { Star } from "@phosphor-icons/react";
-import { motion } from "motion/react";
+import * as m from "motion/react-m";
 import AnimateInView from "@/components/ui/AnimateInView";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import { TRIPADVISOR } from "@/lib/constants";
@@ -38,7 +38,7 @@ export default function Testimonials({ dict }: Props) {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {REVIEWS.map((r, i) => (
-            <motion.blockquote
+            <m.blockquote
               key={r.name}
               className="bg-card rounded-[4px] p-7 border border-rule flex flex-col shadow-[var(--shadow-riad-sm)]"
               initial={{ opacity: 0, y: 24 }}
@@ -73,7 +73,7 @@ export default function Testimonials({ dict }: Props) {
                   <div className="text-ink-muted text-xs truncate">{r.country} · {r.tour}</div>
                 </div>
               </footer>
-            </motion.blockquote>
+            </m.blockquote>
           ))}
         </div>
       </div>

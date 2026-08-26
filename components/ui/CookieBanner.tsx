@@ -1,6 +1,7 @@
 "use client";
 import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import * as m from "motion/react-m";
+import { AnimatePresence } from "motion/react";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { CONSENT_EVENT } from "@/lib/analytics";
@@ -95,7 +96,7 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
   return (
     <AnimatePresence>
       {show && (
-        <motion.div
+        <m.div
           role="dialog"
           aria-label="Cookie consent"
           data-sticky-cta
@@ -127,7 +128,7 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
               </button>
             </div>
           </div>
-        </motion.div>
+        </m.div>
       )}
     </AnimatePresence>
   );

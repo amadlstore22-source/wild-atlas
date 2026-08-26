@@ -3,7 +3,8 @@ import { useEffect, useCallback, useState } from "react";
 import Image from "next/image";
 import { createPortal } from "react-dom";
 import { X, ArrowLeft, ArrowRight, Camera } from "@phosphor-icons/react";
-import { motion, AnimatePresence } from "motion/react";
+import * as m from "motion/react-m";
+import { AnimatePresence } from "motion/react";
 
 export interface GalleryPhoto {
   src: string;
@@ -48,7 +49,7 @@ function Lightbox({ photos, initialIndex, onClose }: LightboxProps) {
   const photo = photos[idx];
 
   return createPortal(
-    <motion.div
+    <m.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -80,7 +81,7 @@ function Lightbox({ photos, initialIndex, onClose }: LightboxProps) {
       </button>
 
       {/* Image */}
-      <motion.div
+      <m.div
         key={idx}
         initial={{ opacity: 0, x: direction * 60 }}
         animate={{ opacity: 1, x: 0 }}
@@ -105,7 +106,7 @@ function Lightbox({ photos, initialIndex, onClose }: LightboxProps) {
             <p className="text-white/85 text-sm leading-snug">{photo.alt}</p>
           </div>
         </div>
-      </motion.div>
+      </m.div>
 
       {/* Next */}
       <button
@@ -133,7 +134,7 @@ function Lightbox({ photos, initialIndex, onClose }: LightboxProps) {
           />
         ))}
       </div>
-    </motion.div>,
+    </m.div>,
     document.body
   );
 }

@@ -358,6 +358,16 @@ function hasLocalePrefix(pathname: string) {
   );
 }
 
+/** Crawler-facing files that exist at exactly one path, with no locale prefix.
+ *
+ *  They are matched by `config.matcher` ONLY so the .vercel.app redirect below
+ *  can reach them -- the preview host was serving "Allow: /" under its own
+ *  name, which is how Google indexed wild-atlas-six.vercel.app as a separate
+ *  site. On the real host they must pass straight through: every other branch
+ *  in proxy() ends at the locale redirect, which would rewrite /robots.txt to
+ *  /en/robots.txt and take robots.txt and the sitemap off the site entirely. */
+const HOST_LEVEL_FILES = new Set(["/robots.txt", "/sitemap.xml"]);
+
 export function proxy(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
   if (host.endsWith(".vercel.app")) {
@@ -366,6 +376,9 @@ export function proxy(request: NextRequest) {
     url.protocol = "https";
     return NextResponse.redirect(url, 308);
   }
+
+  // Past the preview-host check, these serve as-is on the canonical host.
+  if (HOST_LEVEL_FILES.has(request.nextUrl.pathname)) return;
 
   // Consolidate the www host onto the bare apex, which every canonical, the
   // sitemap, and all JSON-LD already point to. Without this Googlebot indexes
@@ -474,5 +487,22 @@ export const config = {
   // Skip Next internals, the API, and any request for a file with an extension
   // (og-image.jpg, icon.svg, the IndexNow key .txt, etc.) so static assets in
   // /public are served directly instead of being swept into the locale redirect.
-  matcher: ["/((?!_next|api|.*\\.[\\w]+$).*)"],
+  //
+  // robots.txt and sitemap.xml are the two deliberate exceptions. They carry
+  // extensions, so the rule above skipped them -- which meant the preview host
+  // served "User-Agent: * / Allow: /" under its OWN name while every HTML page
+  // 308'd away. Google accepted the invitation and indexed
+  // wild-atlas-six.vercel.app/tours?origin=marrakech as a separate result,
+  // competing with the real domain. Matching them here lets the .vercel.app
+  // redirect at the top of proxy() cover them too.
+  //
+  // Everything else in /public keeps its exemption on purpose:
+  // google0efcdd8577e942f1.html is the Search Console verification file and
+  // 2dc71b105b5a38bfaceaace47ca6e7b9.txt is the IndexNow key. Redirecting
+  // either would break verification for the whole property.
+  matcher: [
+    "/((?!_next|api|.*\\.[\\w]+$).*)",
+    "/robots.txt",
+    "/sitemap.xml",
+  ],
 };

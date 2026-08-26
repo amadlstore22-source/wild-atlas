@@ -1,12 +1,24 @@
 # Indexing state
 
-**As of 2026-08-16: all 960 site URLs have been submitted to the Google
-Indexing API.** There is no backlog left to work through.
+**As of 2026-08-26: 960 of 1,002 site URLs have been submitted to the Google
+Indexing API.** The outstanding 42 are the event pages added on 2026-08-26
+(`docs/batch-2026-08-26-events.txt`), pending quota.
 
-The 882 figure recorded here on 2026-08-15 was accurate for the list as it
-stood, but the list itself was stale — see "When to submit again" below. Trust
-a freshly regenerated `docs/all-index-urls.txt` over any count written down
-here, including this one.
+> **2026-08-26 — quota wasted, read this before building any batch.** 200 URLs
+> were re-submitted (English + French tours) that had already gone out on
+> 2026-08-16. They were selected by building a fresh priority queue from the
+> sitemap instead of reading this file, which already said not to do that.
+> Nothing failed — Google accepted all 200 — so there was no error to notice;
+> the cost was simply a day of quota buying nothing, and the 42 genuinely new
+> pages had to wait for the next reset.
+>
+> The diff that answers "what is left" is always **the current list vs the
+> last submitted list**, never "the sitemap, ordered by priority". Use
+> `scripts/seo/diff-unsubmitted.mjs`, which does exactly that:
+>
+>     npx next build
+>     node scripts/build-index-urls.mjs
+>     node scripts/seo/diff-unsubmitted.mjs
 
 ## What this does and does not mean
 
@@ -65,3 +77,11 @@ hreflang works, and that count should grow, not shrink.
 date. Google's own count is authoritative: if it returns a per-day 429 while
 the ledger disagrees, trust Google and correct the file. That happened on
 2026-08-14, when a crashed run had already spent requests the ledger never saw.
+
+## Log
+
+| Date | Batch | Sent | Note |
+|------|-------|------|------|
+| 2026-08-16 | new posts | 78 | list rebuild jumped 882 → 960 |
+| 2026-08-26 | (none — wasted) | 200 | re-sent already-submitted tours; see warning above |
+| pending | `batch-2026-08-26-events.txt` | 42 | event pages, blocked on quota reset |

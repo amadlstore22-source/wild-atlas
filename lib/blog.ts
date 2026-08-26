@@ -391,7 +391,10 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
 - **Bring cash.** There are no ATMs in the deep desert. Merzouga town has one unreliable machine.
 - **Protect your phone camera** from sand. A thin ziplock bag works perfectly.
 - **Pack earplugs** if you are a light sleeper — the pre-dawn call to prayer from nearby mosques carries far in the desert air.
-    `,
+    
+
+For the numbers behind that — highs, lows and the best months to come — see [Sahara weather month by month](/en/blog/sahara-desert-weather-what-to-expect).
+`,
   },
   {
     slug: "best-time-to-visit-morocco",
@@ -476,7 +479,10 @@ Ramadan moves through the calendar by about ten days each year, since it follows
 ## The Bottom Line
 
 If you can only visit once: **April, May, or October**. You get every type of Morocco at its best — green mountains, comfortable desert, blue skies over the Atlantic, and lively cities without the summer heat.
-    `,
+    
+
+If a particular festival is what you are travelling for, the timing question changes shape — see our [festivals calendar by month](/en/blog/morocco-festivals-calendar-by-month) for which dates are confirmed and which are still a window.
+`,
   },
   {
     slug: "marrakech-to-fes-road-trip-guide",
@@ -550,7 +556,10 @@ The route is driveable in a standard car except immediately after heavy snowfall
 
 **What to budget**
 Riad rooms in Ouarzazate and Midelt: €45–90/night. Fes riads: €75–185/night. The full [3-day guided tour](/en/tours/marrakech-to-fes-3day) (private 4x4, English-speaking guide, 2 nights riad accommodation, breakfast daily) is €572 per person for two, falling to €446 each for four.
-    `,
+    
+
+If you are weighing this against the train, or wondering which parts of Morocco the railway actually reaches, see [getting around Morocco](/en/blog/getting-around-morocco-transport-guide) — trains, buses, grands taxis and where each stops being useful.
+`,
   },
   {
     slug: "paradise-valley-agadir-complete-guide",
@@ -2051,7 +2060,10 @@ Budget separately for tips: roughly **350–800 MAD total** across driver, camel
 | 1 day | Agafay | Stone desert an hour away, no pretence of the Sahara |
 
 If you tell us how many days you have and what you actually want out of the desert, we will point you at the right one — including telling you when the answer is "wait until you have three days." [Ask us](/en/contact).
-    `,
+    
+
+Whichever you choose, the season matters as much as the destination: [Sahara weather month by month](/en/blog/sahara-desert-weather-what-to-expect) covers when to go and what the nights actually do.
+`,
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
@@ -2423,7 +2435,10 @@ Briefly, because it changes the maths:
 Seven days, Marrakech in and Fes out, one desert, one mountain crossing, two cities. Do not add Essaouira "because it is only three hours." Three hours each way is a day, and you only have seven.
 
 If you tell us your dates and what you actually care about, we will sketch a route — including telling you when the honest answer is that your list does not fit the days you have. [Ask us](/en/contact).
-    `,
+    
+
+How far you get in the time you have depends heavily on how you move. [Getting around Morocco](/en/blog/getting-around-morocco-transport-guide) has the real journey times: 2h10 Tangier to Casablanca by high-speed rail, but no train at all to the desert.
+`,
   },
   {
     slug: "toubkal-weather-by-month",
@@ -3747,6 +3762,9 @@ Desert light is genuinely spectacular at both ends of the day, and a lot of gues
 ## If Your Trip Combines Desert and Mountains
 
 Some of our itineraries — the [4-day Desert Grand Tour](/en/tours/desert-4day-marrakech), for instance — cover a lot of ground and a lot of temperature range in a short time. If your trip also includes High Atlas trekking, cross-reference this list against [What to Pack for a High Atlas Trek](/en/blog/what-to-pack-high-atlas-trek-morocco) — the mountain list needs more technical layers than the desert one.
+
+
+What you need depends enormously on the month. [Sahara weather month by month](/en/blog/sahara-desert-weather-what-to-expect) has the temperatures — 19°C days in January against 43°C in July, and nights that fall close to freezing in winter.
 `,
   },
   {
@@ -3802,6 +3820,9 @@ Ramadan ends with Eid al-Fitr, a genuine public holiday marked by family gatheri
 ## Is It a Good Time to Visit?
 
 Genuinely, it depends what you're after. Major sites and treks are quieter. Evenings have an atmosphere — street food stalls, a slower, warmer pace after sunset, the nafar's drum somewhere in the dark before dawn — that doesn't exist the rest of the year. The trade-off is a quieter, slower daytime, and a little more advance planning around meal times. It is not a reason to avoid Morocco, but it is a different Morocco than an August visit — and for travellers genuinely curious about the culture rather than just the landscape, arguably a richer one.
+
+
+Ramadan is one of several Moroccan dates that move from year to year. Our [festivals calendar by month](/en/blog/morocco-festivals-calendar-by-month) sets out which are fixed, which follow a harvest, and which are decided by moon sighting.
 `,
   },
   {
@@ -7960,6 +7981,396 @@ It pairs naturally with a [guided medina tour](/en/tours/marrakech-medina-cultur
 
 For what to order once you are eating out on your own, the [Morocco food guide](/en/blog/morocco-food-guide-what-to-eat) runs through fifteen dishes and where to find them. And if you are still deciding what else to build the trip around, [the best things to do in Morocco](/en/blog/best-things-to-do-in-morocco) puts the cooking class in context against the desert, the mountains and the coast.
 `,
+  },
+  {
+    slug: "morocco-festivals-calendar-by-month",
+    author: MET_TEAM,
+    title: "Morocco Festivals by Month: What Is Worth Planning a Trip Around",
+    excerpt:
+      "Gnaoua on the Atlantic, the rose harvest in the Dades, a High Atlas betrothal fair, and Ramadan. Which dates are fixed, which move, and how far ahead to book.",
+    heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
+    category: "culture",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["Morocco festivals", "Gnaoua festival", "Rose Festival Morocco", "Imilchil moussem", "Morocco events calendar"],
+    seoTitle: "Morocco Festivals by Month \u2014 Dates, and Which Ones Move",
+    seoDescription:
+      "A month-by-month guide to Moroccan festivals: Gnaoua in Essaouira, the Kelaat M'Gouna rose harvest, the Imilchil moussem, Ramadan. Which dates are confirmed and which shift.",
+    relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "What is the biggest festival in Morocco?", a: "By international profile, the Gnaoua and World Music Festival in Essaouira \u2014 three days of free open-air concerts in late June that draw hundreds of thousands of people. By local significance it is arguably Ramadan and the Eid that closes it, which changes the rhythm of the entire country for a month." },
+      { q: "Do Moroccan festival dates change every year?", a: "Most of them, yes, and for three different reasons. Religious dates follow the Hijri calendar and are fixed in Morocco by moon sighting through the Ministry of Endowments and Islamic Affairs, so they move about eleven days earlier each Gregorian year. Harvest festivals like the Rose Festival follow the crop. Village moussems are set locally, sometimes only weeks ahead. Only a handful \u2014 the Marrakech Marathon, for instance \u2014 are announced far in advance on a fixed date." },
+      { q: "When is the Rose Festival in Morocco?", a: "Kelaat M'Gouna holds it at the peak of the damask rose harvest, which has fallen in the first two weeks of May every recent year \u2014 the 2026 edition ran 7\u201310 May. The organisers confirm the exact days only a few weeks ahead, so treat May as the window rather than booking flights to a specific date." },
+      { q: "Can you travel in Morocco during Ramadan?", a: "Yes, and it is one of the more memorable times to come, but the day runs differently. Many restaurants stay closed until sunset, museums and offices keep shorter hours, and the medina properly wakes after the iftar cannon. Trekking is unaffected \u2014 guides plan food and water around it. Non-Muslim visitors are not expected to fast, and tourist restaurants in Marrakech and Agadir serve through the day." },
+      { q: "How far ahead should I book around a festival?", a: "For Gnaoua, accommodation in Essaouira is reported to need nine to twelve months \u2014 which is why a day trip from Marrakech is often the realistic way to attend. Kelaat M'Gouna fills months ahead during the rose harvest. For everything else, six to ten weeks is usually enough." },
+    ],
+    content: `Morocco does not have one festival season. It has a religious calendar that
+drifts by eleven days a year, a farming calendar tied to what is ripening, and
+a handful of fixed-date events that behave like anything in Europe. Planning a
+trip around any of them means knowing which kind you are dealing with.
+
+## The short version
+
+| Festival | Roughly when | How fixed is it? |
+| --- | --- | --- |
+| Marrakech Marathon | Late January | **Confirmed** far ahead |
+| Almond blossom, Anti-Atlas | February–March | A season, not a date |
+| Ramadan and Eid al-Fitr | Moves ~11 days earlier each year | Moon sighting |
+| Rose Festival, Kelaat M'Gouna | First half of May | Follows the harvest |
+| Gnaoua, Essaouira | Late June | Announced a few months ahead |
+| Imilchil moussem | September | Set locally, often weeks ahead |
+
+## January — the marathon, and the clearest air of the year
+
+The [Marrakech International Marathon](/en/events/marrakech-international-marathon)
+is the one genuinely fixed date on this list: the 37th edition runs on
+**Sunday 31 January 2027**, announced well in advance on the organisers' own
+site. A full and half marathon through the old city walls, the Palmeraie and
+the avenues of Gueliz, with around 15,000 runners.
+
+January is also, unexpectedly, one of the best months to be here. The air is
+clear, the Atlas is under snow, and the desert days are pleasant even as the
+nights turn very cold. A race weekend pairs naturally with a couple of days in
+the mountains either side.
+
+## February and March — blossom, and usually Ramadan
+
+Between the winter rains and the spring heat, the almond terraces of the
+Anti-Atlas around Tafraoute flower white and pink against pink granite. It is
+[a season rather than a date](/en/events/almond-blossom-anti-atlas): lower
+valleys turn first, higher villages up to three weeks later, and the timing
+shifts with the winter rainfall.
+
+**Ramadan** currently falls across this window and moves earlier each year. It
+is worth understanding rather than avoiding — see
+[visiting Morocco during Ramadan](/en/blog/visiting-morocco-during-ramadan)
+for what actually changes day to day. The short answer: quiet days, and cities
+that come alive after sunset.
+
+## May — the rose harvest
+
+The valley floor between Kelaat M'Gouna and Boumalne Dades grows damask roses
+for rose water and oil. When the harvest peaks, the town holds a moussem:
+floats, Ait Atta dancing, a rose queen, and souks selling the season's
+distillate.
+
+What makes this one practical is geography. Kelaat M'Gouna sits **directly on
+the Marrakech-to-Sahara road**, so a [three-day desert
+tour](/en/tours/shared-merzouga-3day-marrakech) timed for early May passes
+through the harvest without any detour. You are driving that road anyway.
+
+The catch: the organisers confirm dates only a few weeks ahead, because the
+flowers decide. Treat the first half of May as the window. See the
+[Rose Festival page](/en/events/rose-festival-kelaat-mgouna) for the current
+state of the dates.
+
+## June — Gnaoua in Essaouira
+
+Three days of Gnaoua trance music on the Atlantic, in a walled town that
+empties of cars and fills with drums. Maalems — Gnaoua master musicians —
+play open stages across the city alongside jazz and world-music guests who
+improvise with them. It is free, it is outdoors, and the medina stays awake
+until dawn.
+
+The practical problem is beds. Accommodation in Essaouira is reported to sell
+out **nine to twelve months** ahead for the festival, and prices trip. This is
+why a [day trip from Marrakech](/en/tours/shared-essaouira-day-trip) is often
+the more realistic way to see it: three hours each way, and you sleep in a city
+that still has rooms.
+
+## September — the Imilchil moussem
+
+Held on a plateau at around 2,200 m in the High Atlas, this is first a
+livestock and goods fair for the surrounding Ait Haddidou villages, and second
+the betrothal gathering it is famous for internationally.
+
+It is remote. The approach is a long mountain drive, and it is a working
+community event rather than a performance — which is exactly the reason to go.
+The dates are set by the community and tied to the late-summer herding
+calendar, announced locally and often only weeks ahead. It pairs with
+[High Atlas village trekking](/en/tours/atlas-mountains-3day-trek), since you
+are already deep in those mountains.
+
+## The one thing to understand about dates
+
+Anyone who prints a precise date for a Moroccan harvest festival or a moussem
+eighteen months out is guessing. We publish what the organisers have actually
+confirmed and clearly mark what is still a window — you can see the current
+state of all of them on our [upcoming events page](/en/events).
+
+If you are building a trip around one of these, tell us which and we will say
+plainly how confident the date is before you book anything.`,
+  },
+  {
+    slug: "getting-around-morocco-transport-guide",
+    author: MET_TEAM,
+    title: "Getting Around Morocco: Trains, Buses, Grands Taxis and When to Just Hire a Driver",
+    excerpt:
+      "Al Boraq does Tangier to Casablanca in 2h10. But no train reaches Merzouga, Chefchaouen, Essaouira or Ouarzazate \u2014 and that is where most people actually want to go.",
+    heroImage: "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 12,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["Morocco transport", "Morocco trains", "ONCF", "Al Boraq", "getting around Morocco"],
+    seoTitle: "Getting Around Morocco \u2014 Trains, Buses and Real Journey Times",
+    seoDescription:
+      "Morocco transport explained: Al Boraq high-speed rail, ONCF journey times and fares, CTM buses, grands taxis \u2014 and the destinations no train reaches.",
+    relatedTours: ["marrakech-to-fes-3day", "marrakech-to-chefchaouen-4day", "marrakech-imperial-cities-5day", "shared-essaouira-day-trip"],
+    faq: [
+      { q: "Does Morocco have good trains?", a: "Between the cities on the northern line, yes \u2014 genuinely good. Al Boraq is Africa's first high-speed rail, running up to 320 km/h, and covers Tangier to Casablanca in 2h10. Classic ONCF Al Atlas trains continue to Marrakech in about 2h40 from Casablanca and to Fes in roughly 3h45. Comfortable, punctual and cheap." },
+      { q: "Can you take a train to the Sahara or Chefchaouen?", a: "No. The rail network does not reach Merzouga, Ouarzazate, Chefchaouen or Essaouira. For the desert the nearest railhead leaves you several hundred kilometres and a full day of driving short. Those destinations are reached by bus, grand taxi, hired car or an organised tour." },
+      { q: "How much do Moroccan trains cost?", a: "Cheap by European standards. Tangier to Casablanca on Al Boraq runs between 99 and 224 dirhams in second class and 129 to 292 in first, depending on how far ahead you book. Booking opens three months before departure." },
+      { q: "Is it safe to drive in Morocco?", a: "The motorways are modern and easy. The difficulty is elsewhere: mountain roads like the Tizi n'Tichka are narrow with long drops and slow lorries, city traffic is assertive, and rural roads mix cars with mopeds, carts and livestock. Many visitors who are perfectly confident drivers at home find the Atlas passes more tiring than expected." },
+      { q: "What is a grand taxi?", a: "A shared long-distance taxi, usually an old Mercedes, that runs a fixed route and leaves when it is full \u2014 typically six passengers. Very cheap and genuinely useful for short hops between towns. You can also pay for the empty seats to have it leave immediately, which is still inexpensive." },
+    ],
+    content: `Morocco's transport splits cleanly in two, and knowing where the line falls
+saves a lot of wasted planning. The northern cities are joined by fast, cheap,
+comfortable trains. Everywhere most visitors actually want to go — the desert,
+the gorges, the blue city, the Atlantic — has no train at all.
+
+## The trains, where they run
+
+**Al Boraq** is Africa's first high-speed rail line, open since November 2018
+and running up to **320 km/h** on the dedicated Tangier–Kenitra section. It cut
+Tangier to Casablanca from 4h45 to **2h10**.
+
+From Casablanca, classic **Al Atlas** expresses continue:
+
+| Route | Journey time |
+| --- | --- |
+| Tangier → Casablanca (Al Boraq) | 2h10 |
+| Tangier → Rabat (Al Boraq) | 1h20 |
+| Casablanca → Marrakech | ~2h40 |
+| Casablanca → Fes | ~3h45 |
+| Marrakech → Tangier (one change) | ~5h30–6h |
+
+Fares are low: Tangier–Casablanca costs **99 to 224 dirhams** in second class,
+129 to 292 in first, depending on how early you book. **Booking opens three
+months ahead.** First class gets you a six-seat air-conditioned compartment and
+is worth the small premium in summer.
+
+An extension of the high-speed line towards Marrakech is under construction,
+which will eventually cut the Casablanca run substantially. It is not open yet.
+
+## Where the trains do not go
+
+This is the part that catches people out. **No railway reaches:**
+
+- **Merzouga or the Erg Chebbi dunes** — the Sahara
+- **Ouarzazate, Ait Ben Haddou, the Dades and Todra gorges**
+- **Chefchaouen** — the blue city
+- **Essaouira** — the Atlantic coast
+- **Imlil and the Toubkal trailheads**
+
+That is, more or less, the entire list of reasons people come to Morocco in the
+first place. For these you need a bus, a grand taxi, a hire car, or a tour.
+
+## Buses
+
+**CTM** and **Supratours** are the two intercity operators worth using. Both
+are modern, air-conditioned, run to a timetable and let you book online.
+Supratours is run by the rail operator and connects to train stations, which
+makes rail-plus-bus combinations straightforward — the standard way to reach
+Essaouira is the train to Marrakech and a bus onward, roughly three hours, with
+departures every two to three hours.
+
+The cheaper local buses that leave from souk stations are an experience, but
+they stop constantly and have no fixed departure time.
+
+## Grands taxis
+
+A shared long-distance taxi, usually an ageing Mercedes, running a fixed route
+and leaving when six passengers have accumulated. They are cheap, frequent and
+the normal way Moroccans move between neighbouring towns. If you do not want to
+wait, buy the remaining seats — still inexpensive, and the taxi leaves at once.
+
+Agree the fare before getting in. Rates on established routes are effectively
+fixed and locals will tell you what they are.
+
+## Hiring a car
+
+Sensible if you want to explore the Atlantic coast or the Anti-Atlas at your
+own pace. Less sensible than it looks for the mountain and desert routes.
+
+The **Tizi n'Tichka** — the pass every Marrakech-to-Sahara journey crosses — is
+a long climb of tight switchbacks with drops, slow lorries and, in winter,
+snow. It is a genuinely demanding drive, and after seven or eight hours of it
+you arrive at the dunes tired. Add that most desert accommodation is down
+unsigned pistes that a standard hire car should not attempt, and the appeal
+narrows.
+
+Also budget for: a credit card deposit, careful photography of existing damage
+at pickup, and police checkpoints where you simply slow down, say hello and
+carry on.
+
+## When a driver or a tour is genuinely the better answer
+
+Not for everything. If you are moving between Marrakech, Casablanca, Rabat, Fes
+and Tangier, take the train — it is faster, cheaper and more comfortable than
+anything we could sell you.
+
+It changes when the destination has no railway and the drive is the hard part:
+
+- **Marrakech to the Sahara.** Two long driving days each way over the Tichka.
+  Our [three-day Merzouga run](/en/tours/shared-merzouga-3day-marrakech) is
+  €120 per person shared — less than hiring a car for the same days, and you
+  are not the one driving the pass.
+- **Marrakech to Chefchaouen.** [Four days](/en/tours/marrakech-to-chefchaouen-4day),
+  because doing it in one is nine hours of motorway.
+- **The imperial cities.** [Five days](/en/tours/marrakech-imperial-cities-5day)
+  covering Fes, Meknes and Volubilis — the last of which has no public
+  transport at all.
+- **Marrakech to Fes overland**, via [Ait Ben Haddou and the
+  gorges](/en/tours/marrakech-to-fes-3day) rather than the motorway, which is
+  the whole point of going that way.
+
+For a fuller cost comparison, see
+[booking direct versus a platform](/en/blog/booking-morocco-tour-direct-vs-platform)
+and [what group size does to the price](/en/blog/morocco-tour-price-group-size).
+
+## A sensible default
+
+Trains between the big northern cities. Tour or driver for the desert, the
+gorges and the mountains. Grands taxis for short hops. Hire a car only if the
+driving is the part you are looking forward to.`,
+  },
+  {
+    slug: "sahara-desert-weather-what-to-expect",
+    author: MET_TEAM,
+    title: "Sahara Weather in Morocco: 43\u00b0C Days, Near-Freezing Nights, and What That Means for Packing",
+    excerpt:
+      "Merzouga runs from 19\u00b0C in January to 43\u00b0C in July \u2014 and the nights collapse. The dunes sit at 730 m, which is why. Month by month, and what actually goes in the bag.",
+    heroImage: "/gallery/sahara-dunes-tamarisk-morning.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 11,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
+    seoTitle: "Sahara Desert Weather Morocco \u2014 Month by Month Temperatures",
+    seoDescription:
+      "Merzouga and Erg Chebbi temperatures month by month: 19\u00b0C in January to 43\u00b0C in July, with nights near freezing in winter. When to go and what to pack.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
+    faq: [
+      { q: "How cold does the Sahara get at night in Morocco?", a: "Cold enough to be genuinely uncomfortable if you have packed only for the daytime. Merzouga's January nights sit around 6\u00b0C on the averages, and clear still nights can run several degrees lower again \u2014 close to freezing. The dunes are at 730 m altitude and the air is extremely dry, so the heat escapes fast once the sun goes down." },
+      { q: "What is the best month to visit the Moroccan Sahara?", a: "October, November, March and April. Daytime highs of 24\u201330\u00b0C are comfortable for camel trekking and dune walking, and the nights are cool rather than cold. Winter gives you the clearest skies and the emptiest camps but demands proper warm layers. July and August, at 42\u201343\u00b0C, are hard work." },
+      { q: "How hot is the Sahara in summer?", a: "Average July highs at Merzouga reach 43\u00b0C, with August close behind at 42\u00b0C, and the nights stay around 29\u00b0C. Tours still run \u2014 camel treks shift to early morning and after sunset, and the middle of the day is spent in shade \u2014 but it is not the season for a first visit." },
+      { q: "Does it rain in the Moroccan Sahara?", a: "Rarely, but it is not impossible. When it does rain it can be sudden and heavy, and dry riverbeds can flood fast \u2014 which is the reason guides avoid camping in a wadi. A few days a year, mostly in spring and autumn." },
+      { q: "What about sandstorms?", a: "Most likely in spring, when the chergui wind blows. A real sandstorm cuts visibility and gets sand into everything; camps sit it out. It is uncomfortable rather than dangerous with a guide who knows the ground. A scarf you can wrap over your face is genuinely useful, not a souvenir." },
+    ],
+    content: `The single most common mistake on a Moroccan desert trip is packing for a
+desert. People bring shorts and a sun hat, and then spend the night awake and
+cold. Erg Chebbi sits at **730 metres** of altitude in extremely dry air, and
+once the sun drops there is nothing to hold the heat in.
+
+## Merzouga, month by month
+
+Average daytime highs at Merzouga:
+
+| Month | High | Notes |
+| --- | --- | --- |
+| January | 19°C | Nights near freezing. Clearest skies of the year. |
+| February | 21°C | Still cold after dark. |
+| March | 26°C | Excellent. Some wind. |
+| April | 30°C | Arguably the best month. |
+| May | 34°C | Getting hot by midday. |
+| June | 39°C | Hard going. |
+| July | 43°C | Nights stay around 29°C. |
+| August | 42°C | As above. |
+| September | 37°C | Cooling. |
+| October | 30°C | Excellent. |
+| November | 24°C | Excellent, cold nights returning. |
+| December | 20°C | Cold nights, clear skies. |
+
+Night-time lows run from about **6°C in January to 29°C in July** on the
+averages — and on a still, cloudless winter night the reading at the camp can
+be several degrees below that January figure. Different sources put it
+anywhere from 6°C down to below zero, which tells you something in itself:
+pack for the cold end, not the average.
+
+## What the swing actually feels like
+
+In November you can be walking a dune ridge in a t-shirt at four in the
+afternoon, and reaching for a fleece, a hat and a second blanket by eight in
+the evening. The drop is fast — most of it happens in the hour around sunset.
+
+This is also why the winter desert is so good for stars. Cold, dry, still air
+is exactly what you want, and there is no light pollution for a hundred
+kilometres. Our
+[Merzouga stargazing tour](/en/tours/merzouga-stargazing-desert-tour) exists
+because those winter nights are genuinely exceptional.
+
+## The best months
+
+**October, November, March, April.** Days of 24–30°C, nights cool but not
+punishing. This is when we run the most departures and when the camps are
+fullest — book earlier than you think.
+
+**December to February.** Cold nights, but the clearest skies, the emptiest
+dunes and the sharpest light for photography. Entirely worth it if you bring
+the right layers.
+
+**May and September.** Shoulder months. Hot at midday, fine morning and
+evening.
+
+**July and August.** 42–43°C. Tours run — camel treks move to dawn and dusk,
+the middle of the day is for shade — but it is not the season for a first
+visit, and it is difficult with young children. If you are travelling with
+kids, see our [family desert tour](/en/tours/family-desert-4day-marrakech) and
+aim for spring or autumn.
+
+## Wind and sand
+
+Spring brings the **chergui**, the hot dry wind off the interior. Most days it
+is just wind. Occasionally it lifts enough sand to cut visibility properly, at
+which point camps stop and wait it out.
+
+A sandstorm is uncomfortable rather than dangerous when you are with people who
+know the terrain. Sand gets into cameras, bags and hair regardless. The
+cotton scarf every guide wears is not decorative — wrapped over the nose and
+mouth it is the single most useful thing you will own that day.
+
+Rain is rare but real, mostly spring and autumn. When it comes it can be
+sudden, and dry riverbeds flood quickly. That is why a good guide never camps
+in a wadi, whatever the forecast says.
+
+## What to actually pack
+
+For the daytime, all year: loose long sleeves and long trousers (more
+comfortable than shorts in real heat, and they stop you burning), a brimmed
+hat, high-factor sunscreen, sunglasses, and more water than you think.
+
+**For the nights, October through April, this is the part people get wrong:**
+
+- A proper insulating layer — fleece or down, not a hoodie
+- A windproof outer layer
+- A hat and thin gloves for December to February
+- Warm socks; camp floors are cold sand
+- Closed shoes for the evening
+
+Camps provide thick blankets and most have heaters in winter, but you will be
+outside for dinner, for the stars, and for sunrise. That is when the cold
+finds you.
+
+For the full list, including what to leave behind, see
+[what to pack for a desert tour](/en/blog/what-to-pack-desert-tour-morocco).
+
+## Choosing your dates
+
+If the weather is what decides your trip, aim for late October, November, March
+or early April, and book the camp early because everyone else has worked this
+out too. Our [three-day Merzouga
+departure](/en/tours/shared-merzouga-3day-marrakech) runs daily year-round at
+€120 per person, and we will tell you honestly if the month you are
+considering is a bad one.
+
+Not sure which desert to choose? [Merzouga versus
+Zagora](/en/blog/merzouga-vs-zagora-which-desert-tour) compares the drives, the
+dunes and the cost.`,
   },
 ];
 

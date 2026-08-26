@@ -5741,4 +5741,373 @@ Casa de forma natural con una [visita guiada a la medina](/es/tours/marrakech-me
 Para saber qué pedir luego por tu cuenta, la [guía gastronómica de Marruecos](/es/blog/morocco-food-guide-what-to-eat) repasa quince platos y dónde encontrarlos. Y si aún decides el resto del viaje, [qué hacer en Marruecos](/es/blog/que-hacer-en-marruecos) sitúa la clase de cocina frente al desierto, la montaña y la costa.
 `,
   },
+  {
+    slug: "morocco-festivals-calendar-by-month",
+    localizedSlug: "calendario-festivales-marruecos-por-mes",
+    author: MET_TEAM,
+    title: "Festivales de Marruecos mes a mes: cu\u00e1les merecen organizar un viaje",
+    excerpt:
+      "Gnaoua en el Atl\u00e1ntico, la cosecha de rosas en el Dades, una feria de esponsales en el Alto Atlas, y el Ramad\u00e1n. Qu\u00e9 fechas son fijas, cu\u00e1les se mueven y con cu\u00e1nta antelaci\u00f3n reservar.",
+    heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
+    category: "culture",
+    region: "root",
+    readTime: 11,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["festivales Marruecos", "festival Gnaoua", "festival de las rosas Marruecos", "moussem Imilchil", "calendario eventos Marruecos"],
+    seoTitle: "Festivales de Marruecos mes a mes \u2014 fechas y cu\u00e1les cambian",
+    seoDescription:
+      "Gu\u00eda mes a mes de los festivales marroqu\u00edes: Gnaoua en Essaouira, la cosecha de rosas de Kelaat M'Gouna, el moussem de Imilchil, el Ramad\u00e1n. Fechas confirmadas y ventanas.",
+    relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "\u00bfCu\u00e1l es el festival m\u00e1s grande de Marruecos?", a: "Por proyecci\u00f3n internacional, el Festival Gnaoua y M\u00fasicas del Mundo de Essaouira: tres d\u00edas de conciertos gratuitos al aire libre a finales de junio que atraen a cientos de miles de personas. Por significado local, probablemente el Ramad\u00e1n y el Eid que lo cierra, que cambian el ritmo del pa\u00eds entero durante un mes." },
+      { q: "\u00bfCambian cada a\u00f1o las fechas de los festivales marroqu\u00edes?", a: "La mayor\u00eda s\u00ed, y por tres razones distintas. Las fechas religiosas siguen el calendario h\u00e9gira y en Marruecos las fija el avistamiento de la luna a trav\u00e9s del Ministerio de Habices y Asuntos Isl\u00e1micos, as\u00ed que se adelantan unos once d\u00edas cada a\u00f1o gregoriano. Las fiestas de cosecha como el Festival de las Rosas siguen al cultivo. Los moussems de pueblo se fijan localmente, a veces con solo unas semanas de antelaci\u00f3n." },
+      { q: "\u00bfCu\u00e1ndo es el Festival de las Rosas en Marruecos?", a: "Kelaat M'Gouna lo celebra en el pico de la cosecha de la rosa de Damasco, que ha ca\u00eddo en las dos primeras semanas de mayo todos los a\u00f1os recientes: la edici\u00f3n de 2026 fue del 7 al 10 de mayo. Los organizadores confirman los d\u00edas exactos solo unas semanas antes, as\u00ed que trata mayo como la ventana en lugar de reservar vuelos para una fecha concreta." },
+      { q: "\u00bfSe puede viajar a Marruecos durante el Ramad\u00e1n?", a: "S\u00ed, y es una de las \u00e9pocas m\u00e1s memorables para venir, pero el d\u00eda transcurre de otra manera. Muchos restaurantes cierran hasta la puesta de sol, museos y oficinas reducen horarios, y la medina despierta de verdad tras el ca\u00f1onazo del iftar. El trekking no se ve afectado: los gu\u00edas planifican comida y agua en consecuencia." },
+      { q: "\u00bfCon cu\u00e1nta antelaci\u00f3n hay que reservar en torno a un festival?", a: "Para Gnaoua, el alojamiento en Essaouira necesitar\u00eda de nueve a doce meses, por lo que una excursi\u00f3n de un d\u00eda desde Marrakech suele ser la v\u00eda realista. Kelaat M'Gouna se llena con meses de antelaci\u00f3n durante la cosecha. Para lo dem\u00e1s, seis a diez semanas suelen bastar." },
+    ],
+    content: `Marruecos no tiene una temporada de festivales. Tiene un calendario religioso
+que se desplaza once días al año, un calendario agrícola atado a lo que
+madura, y un puñado de eventos de fecha fija que se comportan como cualquier
+cosa en Europa. Planificar un viaje en torno a uno de ellos exige saber con
+cuál estás tratando.
+
+## En resumen
+
+| Festival | Aproximadamente | ¿Fecha fija? |
+| --- | --- | --- |
+| Maratón de Marrakech | Finales de enero | **Confirmada** con mucha antelación |
+| Almendros en flor, Anti-Atlas | Febrero–marzo | Una temporada, no una fecha |
+| Ramadán y Eid al-Fitr | ~11 días antes cada año | Avistamiento de la luna |
+| Festival de las Rosas, Kelaat M'Gouna | Primera quincena de mayo | Sigue la cosecha |
+| Gnaoua, Essaouira | Finales de junio | Se anuncia unos meses antes |
+| Moussem de Imilchil | Septiembre | Fijado localmente, a veces con semanas |
+
+## Enero — el maratón y el aire más limpio del año
+
+El [Maratón Internacional de Marrakech](/es/events/marrakech-international-marathon)
+es la única fecha realmente fija de esta lista: la 37ª edición se corre el
+**domingo 31 de enero de 2027**, anunciada con antelación en la web de los
+organizadores. Maratón y media a través de las murallas de la ciudad vieja, el
+Palmeral y las avenidas de Gueliz, con unos 15.000 corredores.
+
+Enero es además, inesperadamente, uno de los mejores meses para estar aquí. El
+aire es limpio, el Atlas está nevado y los días en el desierto son agradables
+aunque las noches se vuelvan muy frías.
+
+## Febrero y marzo — la floración y, normalmente, el Ramadán
+
+Entre las lluvias de invierno y el calor de la primavera, las terrazas de
+almendros del Anti-Atlas alrededor de Tafraoute florecen en blanco y rosa
+contra el granito rosado. Es
+[una temporada más que una fecha](/es/events/almond-blossom-anti-atlas): los
+valles bajos florecen primero y los pueblos más altos hasta tres semanas
+después.
+
+El **Ramadán** cae actualmente en esta ventana y se adelanta cada año. Merece
+entenderse más que evitarse — véase
+[viajar a Marruecos durante el Ramadán](/es/blog/visiting-morocco-during-ramadan)
+para lo que cambia en el día a día.
+
+## Mayo — la cosecha de rosas
+
+El fondo del valle entre Kelaat M'Gouna y Boumalne Dades cultiva rosa de
+Damasco para agua y aceite. Cuando la cosecha alcanza su pico, el pueblo
+celebra un moussem: carrozas, danzas Ait Atta, una reina de las rosas y zocos
+que venden el destilado de la temporada.
+
+Lo que lo hace práctico es la geografía. Kelaat M'Gouna está **justo en la
+carretera de Marrakech al Sáhara**, así que un
+[tour del desierto de tres días](/es/tours/desierto-merzouga-3-dias-compartido)
+programado a principios de mayo atraviesa la cosecha sin desvío alguno.
+
+El inconveniente: los organizadores confirman las fechas solo unas semanas
+antes, porque deciden las flores. Véase la
+[página del Festival de las Rosas](/es/events/rose-festival-kelaat-mgouna).
+
+## Junio — Gnaoua en Essaouira
+
+Tres días de trance gnaoua frente al Atlántico, en una ciudad amurallada que se
+vacía de coches y se llena de tambores. Los maalems — maestros músicos gnaoua —
+tocan en escenarios abiertos por toda la ciudad, junto a invitados de jazz y
+músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la
+medina no duerme hasta el amanecer.
+
+El problema práctico son las camas. El alojamiento en Essaouira se agotaría con
+**nueve a doce meses** de antelación. De ahí que una
+[excursión de un día desde Marrakech](/es/tours/excursion-compartida-essaouira)
+suela ser la forma realista de verlo.
+
+## Septiembre — el moussem de Imilchil
+
+En una meseta a unos 2.200 m en el Alto Atlas, es ante todo una feria de ganado
+y mercancías para los pueblos Ait Haddidou de los alrededores, y después el
+encuentro de esponsales que lo hizo famoso.
+
+Es remoto. El acceso es una larga carretera de montaña, y es un acto
+comunitario real más que un espectáculo, que es justo la razón para ir. Las
+fechas las fija la comunidad y se atan al calendario ganadero de finales de
+verano. Combina con el
+[trekking por los pueblos del Alto Atlas](/es/tours/trek-pueblos-alto-atlas-3-dias).
+
+## Lo único que hay que entender sobre las fechas
+
+Quien publique una fecha exacta para una fiesta de cosecha marroquí o un
+moussem con dieciocho meses de antelación está adivinando. Nosotros publicamos
+lo que los organizadores han confirmado de verdad y marcamos con claridad lo
+que sigue siendo una ventana — puedes ver el estado actual de todos en nuestra
+[página de próximos eventos](/es/events).`,
+  },
+  {
+    slug: "getting-around-morocco-transport-guide",
+    localizedSlug: "como-moverse-por-marruecos-transporte",
+    author: MET_TEAM,
+    title: "C\u00f3mo moverse por Marruecos: trenes, autobuses, grands taxis y cu\u00e1ndo contratar un conductor",
+    excerpt:
+      "Al Boraq une T\u00e1nger y Casablanca en 2h10. Pero ning\u00fan tren llega a Merzouga, Chefchaouen, Essaouira ni Ouarzazate \u2014 que es adonde quiere ir casi todo el mundo.",
+    heroImage: "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 12,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["transporte Marruecos", "trenes Marruecos", "ONCF", "Al Boraq", "moverse por Marruecos"],
+    seoTitle: "C\u00f3mo moverse por Marruecos \u2014 trenes, autobuses y tiempos reales",
+    seoDescription:
+      "El transporte en Marruecos explicado: el AVE Al Boraq, tiempos y tarifas de ONCF, autobuses CTM, grands taxis \u2014 y los destinos a los que no llega ning\u00fan tren.",
+    relatedTours: ["marrakech-to-fes-3day", "marrakech-to-chefchaouen-4day", "marrakech-imperial-cities-5day", "shared-essaouira-day-trip"],
+    faq: [
+      { q: "\u00bfTiene Marruecos buenos trenes?", a: "Entre las ciudades de la l\u00ednea norte, s\u00ed, realmente buenos. Al Boraq es el primer tren de alta velocidad de \u00c1frica, hasta 320 km/h, y cubre T\u00e1nger\u2013Casablanca en 2h10. Los trenes cl\u00e1sicos Al Atlas siguen hasta Marrakech en unas 2h40 desde Casablanca y hasta Fez en unas 3h45. C\u00f3modos, puntuales y baratos." },
+      { q: "\u00bfSe puede llegar en tren al S\u00e1hara o a Chefchaouen?", a: "No. La red ferroviaria no llega a Merzouga, Ouarzazate, Chefchaouen ni Essaouira. Para el desierto, la estaci\u00f3n m\u00e1s cercana te deja a varios cientos de kil\u00f3metros y un d\u00eda entero de carretera. Esos destinos se alcanzan en autob\u00fas, grand taxi, coche de alquiler o tour organizado." },
+      { q: "\u00bfCu\u00e1nto cuestan los trenes marroqu\u00edes?", a: "Poco para el est\u00e1ndar europeo. T\u00e1nger\u2013Casablanca en Al Boraq cuesta entre 99 y 224 d\u00edrhams en segunda y de 129 a 292 en primera, seg\u00fan la antelaci\u00f3n. La venta abre tres meses antes de la salida." },
+      { q: "\u00bfEs seguro conducir en Marruecos?", a: "Las autopistas son modernas y f\u00e1ciles. La dificultad est\u00e1 en otra parte: carreteras de monta\u00f1a como el Tizi n'Tichka son estrechas con ca\u00eddas largas y camiones lentos, el tr\u00e1fico urbano es decidido, y las carreteras rurales mezclan coches, ciclomotores, carros y ganado. Muchos visitantes que conducen con soltura en casa encuentran los puertos del Atlas m\u00e1s cansados de lo esperado." },
+      { q: "\u00bfQu\u00e9 es un grand taxi?", a: "Un taxi compartido de larga distancia, normalmente un viejo Mercedes, que hace una ruta fija y sale cuando se llena, en general con seis pasajeros. Muy barato y realmente \u00fatil para trayectos cortos entre pueblos. Tambi\u00e9n puedes pagar las plazas vac\u00edas para salir de inmediato, y sigue siendo econ\u00f3mico." },
+    ],
+    content: `El transporte marroquí se divide claramente en dos, y saber dónde cae la línea
+ahorra mucha planificación inútil. Las ciudades del norte están unidas por
+trenes rápidos, baratos y cómodos. Casi todo lo que los visitantes quieren ver
+de verdad — el desierto, las gargantas, la ciudad azul, el Atlántico — no tiene
+tren.
+
+## Los trenes, por donde circulan
+
+**Al Boraq** es la primera línea de alta velocidad de África, abierta en
+noviembre de 2018, con hasta **320 km/h** en el tramo dedicado Tánger–Kenitra.
+Redujo Tánger–Casablanca de 4h45 a **2h10**.
+
+| Trayecto | Duración |
+| --- | --- |
+| Tánger → Casablanca (Al Boraq) | 2h10 |
+| Tánger → Rabat (Al Boraq) | 1h20 |
+| Casablanca → Marrakech | ~2h40 |
+| Casablanca → Fez | ~3h45 |
+| Marrakech → Tánger (un cambio) | ~5h30–6h |
+
+Las tarifas son bajas: Tánger–Casablanca cuesta **99 a 224 dírhams** en
+segunda, 129 a 292 en primera. **La venta abre tres meses antes.** La primera
+clase ofrece un compartimento climatizado de seis plazas, algo que se agradece
+en verano.
+
+Una extensión de la alta velocidad hacia Marrakech está en construcción. Aún no
+está abierta.
+
+## Adonde no llegan los trenes
+
+Esto es lo que pilla a la gente. **Ningún ferrocarril llega a:**
+
+- **Merzouga y las dunas de Erg Chebbi** — el Sáhara
+- **Ouarzazate, Ait Ben Haddou, las gargantas del Dades y del Todra**
+- **Chefchaouen** — la ciudad azul
+- **Essaouira** — la costa atlántica
+- **Imlil y los inicios de ruta hacia el Toubkal**
+
+Es, más o menos, la lista completa de razones por las que se viaja a Marruecos.
+Para eso hace falta autobús, grand taxi, coche o tour.
+
+## Autobuses
+
+**CTM** y **Supratours** son las dos compañías interurbanas que merece la pena
+usar. Modernas, con aire acondicionado, con horario y reservables online.
+Supratours pertenece al operador ferroviario y enlaza con las estaciones, lo
+que hace sencillas las combinaciones tren + autobús: a Essaouira se va en tren
+hasta Marrakech y luego en autobús, unas tres horas, con salidas cada dos o
+tres horas.
+
+## Grands taxis
+
+Un taxi compartido de larga distancia, normalmente un Mercedes viejo, que hace
+una ruta fija y sale cuando reúne seis pasajeros. Baratos, frecuentes, y es
+como se mueven los marroquíes entre pueblos vecinos. Si no quieres esperar,
+compra las plazas restantes y el taxi sale al momento.
+
+Acuerda la tarifa antes de subir. En las rutas establecidas los precios están
+de hecho fijados y los locales te dirán cuáles son.
+
+## Alquilar coche
+
+Sensato para recorrer la costa atlántica o el Anti-Atlas a tu ritmo. Menos
+sensato de lo que parece para las rutas de montaña y desierto.
+
+El **Tizi n'Tichka** — el puerto que cruza todo viaje de Marrakech al Sáhara —
+es una larga subida de curvas cerradas con caídas, camiones lentos y, en
+invierno, nieve. Es una conducción exigente, y tras siete u ocho horas llegas a
+las dunas agotado. Añade que la mayoría de los campamentos están al final de
+pistas sin señalizar por las que un coche de alquiler no debería ir.
+
+## Cuándo un conductor o un tour es de verdad la mejor respuesta
+
+No para todo. Si te mueves entre Marrakech, Casablanca, Rabat, Fez y Tánger,
+toma el tren: es más rápido, más barato y más cómodo que nada que pudiéramos
+venderte.
+
+Cambia cuando el destino no tiene estación y la carretera es lo difícil:
+
+- **Marrakech al Sáhara.** Dos largos días de carretera por el Tichka en cada
+  sentido. Nuestro [tour de tres días a Merzouga](/es/tours/desierto-merzouga-3-dias-compartido)
+  cuesta 120 € por persona compartido — menos que alquilar coche esos mismos
+  días, y no conduces tú el puerto.
+- **Marrakech a Chefchaouen.** [Cuatro días](/es/tours/marrakech-chefchaouen-4-dias),
+  porque hacerlo en uno son nueve horas de autopista.
+- **Las ciudades imperiales.** [Cinco días](/es/tours/ciudades-imperiales-marrakech-5-dias)
+  cubriendo Fez, Meknes y Volubilis, esta última sin transporte público alguno.
+- **Marrakech a Fez por carretera**, vía [Ait Ben Haddou y las gargantas](/es/tours/marrakech-fez-3-dias)
+  en lugar de la autopista, que es todo el sentido de ir por ahí.
+
+Para comparar costes, véase
+[reservar directo o por plataforma](/es/blog/reservar-circuito-marruecos-directo-o-plataforma)
+y [qué le hace al precio el tamaño del grupo](/es/blog/precio-circuito-marruecos-tamano-grupo).
+
+## Una regla sencilla
+
+Tren entre las grandes ciudades del norte. Tour o conductor para el desierto,
+las gargantas y las montañas. Grands taxis para trayectos cortos. Coche de
+alquiler solo si conducir es la parte que te apetece.`,
+  },
+  {
+    slug: "sahara-desert-weather-what-to-expect",
+    localizedSlug: "clima-desierto-sahara-marruecos",
+    author: MET_TEAM,
+    title: "Clima del S\u00e1hara marroqu\u00ed: 43 \u00b0C de d\u00eda, casi cero de noche",
+    excerpt:
+      "Merzouga va de 19 \u00b0C en enero a 43 \u00b0C en julio, y las noches se desploman. Las dunas est\u00e1n a 730 m de altitud, que es la raz\u00f3n. Mes a mes, y qu\u00e9 meter de verdad en la mochila.",
+    heroImage: "/gallery/sahara-dunes-tamarisk-morning.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 11,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    tags: ["clima Sahara", "temperatura Merzouga", "cuando ir desierto Marruecos", "que llevar desierto", "clima Erg Chebbi"],
+    seoTitle: "Clima del desierto del S\u00e1hara en Marruecos \u2014 mes a mes",
+    seoDescription:
+      "Temperaturas en Merzouga y Erg Chebbi mes a mes: de 19 \u00b0C en enero a 43 \u00b0C en julio, con noches cerca de cero en invierno. Cu\u00e1ndo ir y qu\u00e9 llevar.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
+    faq: [
+      { q: "\u00bfCu\u00e1nto fr\u00edo hace de noche en el S\u00e1hara marroqu\u00ed?", a: "El suficiente para ser inc\u00f3modo de verdad si solo has preparado para el d\u00eda. Las noches de enero en Merzouga rondan los 6 \u00b0C de media, y una noche despejada y en calma puede bajar varios grados m\u00e1s, cerca de cero. Las dunas est\u00e1n a 730 m y el aire es extremadamente seco, as\u00ed que el calor se escapa r\u00e1pido en cuanto se pone el sol." },
+      { q: "\u00bfCu\u00e1l es el mejor mes para visitar el S\u00e1hara marroqu\u00ed?", a: "Octubre, noviembre, marzo y abril. M\u00e1ximas de 24 a 30 \u00b0C, c\u00f3modas para el camello y para caminar por las dunas, y noches frescas sin llegar a fr\u00edas. El invierno da los cielos m\u00e1s limpios y los campamentos m\u00e1s vac\u00edos, pero exige capas de abrigo de verdad. Julio y agosto, a 42\u201343 \u00b0C, son duros." },
+      { q: "\u00bfQu\u00e9 calor hace en verano?", a: "Las m\u00e1ximas medias de julio en Merzouga llegan a 43 \u00b0C, agosto queda cerca con 42 \u00b0C, y las noches se quedan en torno a 29 \u00b0C. Los tours funcionan \u2014 los paseos en camello se mueven al amanecer y al atardecer \u2014 pero no es la temporada para una primera visita." },
+      { q: "\u00bfLlueve en el S\u00e1hara marroqu\u00ed?", a: "Rara vez, pero no es imposible. Cuando llueve puede ser repentino y fuerte, y los cauces secos se inundan deprisa, raz\u00f3n por la que un buen gu\u00eda nunca acampa en un uadi. Unos pocos d\u00edas al a\u00f1o, sobre todo en primavera y oto\u00f1o." },
+      { q: "\u00bfY las tormentas de arena?", a: "Sobre todo en primavera, cuando sopla el chergui. Una tormenta de arena real reduce la visibilidad y mete arena en todo; los campamentos la esperan. Es inc\u00f3moda m\u00e1s que peligrosa con un gu\u00eda que conoce el terreno. Un pa\u00f1uelo que puedas enrollarte en la cara es realmente \u00fatil, no un souvenir." },
+    ],
+    content: `El error más común en un viaje al desierto marroquí es hacer la maleta para un
+desierto. La gente lleva pantalón corto y gorra, y luego pasa la noche
+despierta y helada. Erg Chebbi está a **730 metros** de altitud en aire
+extremadamente seco, y en cuanto cae el sol no hay nada que retenga el calor.
+
+## Merzouga, mes a mes
+
+Máximas medias diurnas:
+
+| Mes | Máxima | Notas |
+| --- | --- | --- |
+| Enero | 19 °C | Noches cerca de cero. Los cielos más limpios del año. |
+| Febrero | 21 °C | Sigue haciendo frío al anochecer. |
+| Marzo | 26 °C | Excelente. Algo de viento. |
+| Abril | 30 °C | Probablemente el mejor mes. |
+| Mayo | 34 °C | Calor al mediodía. |
+| Junio | 39 °C | Duro. |
+| Julio | 43 °C | Las noches se quedan en 29 °C. |
+| Agosto | 42 °C | Igual. |
+| Septiembre | 37 °C | Refrescando. |
+| Octubre | 30 °C | Excelente. |
+| Noviembre | 24 °C | Excelente, vuelven las noches frías. |
+| Diciembre | 20 °C | Noches frías, cielos limpios. |
+
+Las mínimas nocturnas van de unos **6 °C en enero a 29 °C en julio** de media, y
+en una noche despejada y en calma el campamento puede marcar varios grados por
+debajo de esa cifra de enero. Las fuentes discrepan, lo que ya dice algo:
+prepárate para el extremo frío, no para la media.
+
+## Qué se siente de verdad con ese salto
+
+En noviembre puedes caminar por una cresta de duna en camiseta a las cuatro de
+la tarde y estar buscando un forro polar, un gorro y una segunda manta a las
+ocho. La caída es rápida: casi todo ocurre en la hora que rodea la puesta de
+sol.
+
+Por eso también el desierto invernal es tan bueno para las estrellas. Aire
+frío, seco y quieto es exactamente lo que hace falta, y no hay contaminación
+lumínica en cien kilómetros. Nuestra
+[noche de estrellas en Merzouga](/es/tours/noche-estrellas-merzouga) existe por
+esa razón.
+
+## Los mejores meses
+
+**Octubre, noviembre, marzo, abril.** Días de 24 a 30 °C, noches frescas pero no
+castigadoras. Es cuando más salidas hacemos y cuando los campamentos están más
+llenos: reserva antes de lo que crees.
+
+**De diciembre a febrero.** Noches frías, pero los cielos más limpios, las
+dunas más vacías y la luz más nítida para fotografiar.
+
+**Mayo y septiembre.** Meses intermedios. Calor al mediodía, perfectos por la
+mañana y por la tarde.
+
+**Julio y agosto.** 42–43 °C. Los tours salen, pero no es la temporada de una
+primera visita y es difícil con niños pequeños. Si viajas en familia, mira
+nuestro [tour del desierto en familia](/es/tours/tour-desierto-familia-4-dias)
+y apunta a primavera u otoño.
+
+## Viento y arena
+
+La primavera trae el **chergui**, el viento cálido y seco del interior. La
+mayoría de los días es solo viento. A veces levanta bastante arena como para
+reducir la visibilidad en serio, y entonces los campamentos paran y esperan.
+
+La arena entra igualmente en cámaras, mochilas y pelo. El pañuelo que lleva
+cada guía no es decorativo: enrollado sobre nariz y boca es lo más útil que
+tendrás ese día.
+
+## Qué llevar de verdad
+
+Para el día, todo el año: manga larga y pantalón largo holgados (más cómodos
+que el corto con calor real), gorro de ala, protección solar alta, gafas de
+sol, y más agua de la que crees.
+
+**Para las noches, de octubre a abril, aquí es donde la gente se equivoca:**
+
+- Una capa aislante de verdad — forro polar o plumas, no una sudadera
+- Una capa cortavientos
+- Gorro y guantes finos de diciembre a febrero
+- Calcetines gruesos; el suelo de las jaimas es arena fría
+- Calzado cerrado para la noche
+
+Los campamentos dan mantas gruesas y la mayoría tiene estufas en invierno, pero
+estarás fuera para la cena, para las estrellas y para el amanecer. Ahí es
+cuando te encuentra el frío.
+
+Para la lista completa, mira
+[qué llevar a un tour del desierto](/es/blog/what-to-pack-desert-tour-morocco).
+
+## Elegir fechas
+
+Si el clima decide tu viaje, apunta a finales de octubre, noviembre, marzo o
+principios de abril, y reserva el campamento pronto. Nuestra
+[salida de tres días a Merzouga](/es/tours/desierto-merzouga-3-dias-compartido)
+sale a diario todo el año a 120 € por persona, y te diremos honestamente si el
+mes que estás mirando es malo.
+
+¿No sabes qué desierto elegir?
+[Merzouga o Zagora](/es/blog/merzouga-vs-zagora-which-desert-tour) compara los
+trayectos, las dunas y el coste.`,
+  },
 ];

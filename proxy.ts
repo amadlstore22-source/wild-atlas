@@ -34,6 +34,9 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "best-things-to-do-in-morocco": "que-faire-au-maroc",
   "shared-group-tours-morocco-guide": "circuits-partages-maroc",
   "moroccan-cooking-class-marrakech-guide": "cours-de-cuisine-marrakech",
+  "morocco-festivals-calendar-by-month": "calendrier-festivals-maroc-par-mois",
+  "getting-around-morocco-transport-guide": "se-deplacer-au-maroc-transports",
+  "sahara-desert-weather-what-to-expect": "meteo-desert-sahara-maroc",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -61,6 +64,9 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "best-things-to-do-in-morocco": "que-hacer-en-marruecos",
   "shared-group-tours-morocco-guide": "circuitos-compartidos-marruecos",
   "moroccan-cooking-class-marrakech-guide": "clase-de-cocina-marrakech",
+  "morocco-festivals-calendar-by-month": "calendario-festivales-marruecos-por-mes",
+  "getting-around-morocco-transport-guide": "como-moverse-por-marruecos-transporte",
+  "sahara-desert-weather-what-to-expect": "clima-desierto-sahara-marruecos",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -88,6 +94,9 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "best-things-to-do-in-morocco": "was-man-in-marokko-machen-kann",
   "shared-group-tours-morocco-guide": "gruppentouren-marokko",
   "moroccan-cooking-class-marrakech-guide": "kochkurs-marrakesch",
+  "morocco-festivals-calendar-by-month": "marokko-festivals-kalender-nach-monat",
+  "getting-around-morocco-transport-guide": "fortbewegung-in-marokko-verkehrsmittel",
+  "sahara-desert-weather-what-to-expect": "wetter-sahara-wueste-marokko",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -115,6 +124,9 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "best-things-to-do-in-morocco": "cosa-fare-in-marocco",
   "shared-group-tours-morocco-guide": "tour-condivisi-marocco",
   "moroccan-cooking-class-marrakech-guide": "corso-di-cucina-marrakech",
+  "morocco-festivals-calendar-by-month": "calendario-festival-marocco-per-mese",
+  "getting-around-morocco-transport-guide": "spostarsi-in-marocco-trasporti",
+  "sahara-desert-weather-what-to-expect": "clima-deserto-sahara-marocco",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

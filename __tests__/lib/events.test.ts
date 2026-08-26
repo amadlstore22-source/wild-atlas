@@ -20,13 +20,18 @@ const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
  * confidence must constrain what we are allowed to SAY, not merely what we
  * store.
  *
- * Concretely, while researching this feature BOTH aggregator summaries were
- * wrong against the organisers' own sites:
- *   - Gnaoua: aggregator said "24-26 June 2027"; festival-gnaoua.net says
- *     25-27 June 2026.
- *   - Marrakech Marathon: aggregator said "31 Jan 2027, 37th edition";
- *     marrakechmarathon.com says Sunday 25 January 2026, 36th edition.
  * Hence the rule that a `confirmed` date must cite the organiser's own URL.
+ * Two things that happened while building this feature show why the source
+ * matters more than the value:
+ *   - Gnaoua: an aggregator said "24-26 June 2027"; festival-gnaoua.net said
+ *     25-27 June 2026. The aggregator was wrong.
+ *   - Marrakech Marathon: an aggregator said "31 Jan 2027, 37th edition" and
+ *     was dismissed because the official site still showed 25 Jan 2026. Hours
+ *     later the official site rolled over to exactly that. The aggregator was
+ *     right, just early.
+ * Only the organiser's page is authoritative at the moment it is read, which
+ * is also why "no event has silently expired" below matters: these entries go
+ * stale on their own.
  */
 
 describe("event date honesty", () => {

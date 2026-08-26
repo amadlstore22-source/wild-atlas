@@ -21,13 +21,20 @@ import { TOURS } from "./tours";
  * an `estimated` or `lunar` event carries a single-day date, or if a
  * `confirmed` event has no source URL.
  *
- * Two verification notes worth keeping, because both aggregator summaries were
- * WRONG when checked against the organisers' own sites in Aug 2026:
- *   - Gnaoua: aggregators said "24-26 June 2027". festival-gnaoua.net says
- *     25-27 June 2026, 27th edition.
- *   - Marrakech Marathon: aggregators said "31 Jan 2027, 37th edition".
- *     marrakechmarathon.com says Sunday 25 January 2026, 36th edition.
- * Always re-check `sourceUrl` before publishing a new season.
+ * ALWAYS verify a date against `sourceUrl` — the organiser's own site — and
+ * never against an aggregator or a search summary. Two things happened here
+ * within a single day in Aug 2026 that between them make the point:
+ *
+ *   - Gnaoua: an aggregator gave "24-26 June 2027"; festival-gnaoua.net said
+ *     25-27 June 2026. The aggregator was simply wrong.
+ *   - Marrakech Marathon: an aggregator gave "31 Jan 2027, 37th edition" and
+ *     was dismissed, because marrakechmarathon.com still showed 25 Jan 2026,
+ *     36th edition. Hours later the official site rolled over to exactly the
+ *     31 Jan 2027 / 37th the aggregator had claimed.
+ *
+ * So the rule is not "aggregators lie". It is that only the organiser's page
+ * is authoritative AT THE MOMENT YOU READ IT, and that these entries go stale
+ * on their own — re-check every `sourceUrl` before publishing a new season.
  */
 
 export type DateConfidence = "confirmed" | "estimated" | "lunar";

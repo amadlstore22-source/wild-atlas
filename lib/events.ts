@@ -74,15 +74,22 @@ export const EVENTS: TourEvent[] = [
     name: "Gnaoua and World Music Festival, Essaouira",
     shortName: "Gnaoua Festival",
     region: "coast-atlantic",
-    startDate: "2026-06-25",
-    endDate: "2026-06-27",
-    confidence: "confirmed",
+    // The 27th edition (25-27 June 2026) has now passed and the organisers
+    // have not yet announced 2027, so this drops to `estimated` on the June
+    // window it has held for years. Promote back to `confirmed` — with the
+    // exact dates and this same sourceUrl — the moment festival-gnaoua.net
+    // publishes the 28th edition.
+    startDate: "2027-06-01",
+    endDate: "2027-06-30",
+    confidence: "estimated",
     sourceUrl: "https://www.festival-gnaoua.net/en/home/",
-    year: 2026,
+    dateNote:
+      "The organisers announce each edition a few months ahead and have not yet published 2027 dates. The festival has been held in late June for years — the 27th edition ran 25–27 June 2026.",
+    year: 2027,
     blurb:
       "Three days of Gnaoua trance music on the Atlantic, in a walled town that empties of cars and fills with drums.",
     description:
-      "The 27th edition brings maalems — Gnaoua master musicians — onto open stages across Essaouira, alongside jazz and world-music guests who improvise with them. It is free, it is outdoors, and the medina stays awake until dawn. Accommodation in Essaouira sells out months ahead, so a day trip from Marrakech is often the more realistic way to see it.",
+      "Maalems — Gnaoua master musicians — play open stages across Essaouira, alongside jazz and world-music guests who improvise with them. It is free, it is outdoors, and the medina stays awake until dawn. Accommodation in Essaouira sells out months ahead, so a day trip from Marrakech is often the more realistic way to see it.",
     tourSlugs: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
     heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
     bookAheadWeeks: 40,
@@ -92,13 +99,16 @@ export const EVENTS: TourEvent[] = [
     name: "Marrakech International Marathon",
     shortName: "Marrakech Marathon",
     region: "marrakech",
-    startDate: "2026-01-25",
-    endDate: "2026-01-25",
+    // 37th edition, confirmed on marrakechmarathon.com: "Sunday 31 Jan 2027".
+    // A single-day range is correct here precisely BECAUSE it is confirmed —
+    // the one-day rule in events.test.ts applies only to unconfirmed events.
+    startDate: "2027-01-31",
+    endDate: "2027-01-31",
     confidence: "confirmed",
     sourceUrl: "https://marrakechmarathon.com/",
-    year: 2026,
+    year: 2027,
     blurb:
-      "The 36th edition runs the ramparts and palm groves in the cool of a Marrakech January.",
+      "The 37th edition runs the ramparts and palm groves in the cool of a Marrakech January.",
     description:
       "A full and half marathon through the old city walls, the Palmeraie and the avenues of Gueliz, with around 15,000 runners. January is the coolest running month and also prime Toubkal winter-trekking season, so a race weekend pairs naturally with a couple of days in the Atlas either side.",
     tourSlugs: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike"],

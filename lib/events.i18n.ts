@@ -28,7 +28,9 @@ const COPY: Table = {
       blurb:
         "Trois jours de transe gnaoua face à l'Atlantique, dans une cité fortifiée vidée de ses voitures et remplie de tambours.",
       description:
-        "La 27e édition réunit les maâlems — maîtres musiciens gnaoua — sur des scènes ouvertes à travers Essaouira, aux côtés d'invités jazz et musiques du monde qui improvisent avec eux. C'est gratuit, en plein air, et la médina veille jusqu'à l'aube. Les hébergements à Essaouira se remplissent des mois à l'avance : une excursion à la journée depuis Marrakech est souvent la façon la plus réaliste d'y assister.",
+        "Les maâlems se réunissent — maîtres musiciens gnaoua — sur des scènes ouvertes à travers Essaouira, aux côtés d'invités jazz et musiques du monde qui improvisent avec eux. C'est gratuit, en plein air, et la médina veille jusqu'à l'aube. Les hébergements à Essaouira se remplissent des mois à l'avance : une excursion à la journée depuis Marrakech est souvent la façon la plus réaliste d'y assister.",
+      dateNote:
+        "Les organisateurs annoncent chaque édition quelques mois à l'avance et n'ont pas encore publié les dates 2027. Le festival se tient fin juin depuis des années — la 27e édition a eu lieu du 25 au 27 juin 2026.",
     },
     es: {
       name: "Festival Gnaoua y Músicas del Mundo, Essaouira",
@@ -36,7 +38,9 @@ const COPY: Table = {
       blurb:
         "Tres días de trance gnaoua frente al Atlántico, en una ciudad amurallada que se vacía de coches y se llena de tambores.",
       description:
-        "La 27ª edición reúne a los maalems — maestros músicos gnaoua — en escenarios abiertos por toda Essaouira, junto a invitados de jazz y músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la medina no duerme hasta el amanecer. El alojamiento en Essaouira se agota con meses de antelación, así que una excursión de un día desde Marrakech suele ser la forma más realista de verlo.",
+        "Los maalems se reúnen — maestros músicos gnaoua — en escenarios abiertos por toda Essaouira, junto a invitados de jazz y músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la medina no duerme hasta el amanecer. El alojamiento en Essaouira se agota con meses de antelación, así que una excursión de un día desde Marrakech suele ser la forma más realista de verlo.",
+      dateNote:
+        "Los organizadores anuncian cada edición unos meses antes y aún no han publicado las fechas de 2027. El festival se celebra a finales de junio desde hace años: la 27ª edición fue del 25 al 27 de junio de 2026.",
     },
     de: {
       name: "Gnaoua- und Weltmusikfestival, Essaouira",
@@ -44,7 +48,9 @@ const COPY: Table = {
       blurb:
         "Drei Tage Gnaoua-Trance am Atlantik, in einer Stadtmauer ohne Autos und voller Trommeln.",
       description:
-        "Die 27. Ausgabe bringt Maalems — Gnaoua-Meistermusiker — auf offene Bühnen in ganz Essaouira, zusammen mit Jazz- und Weltmusikgästen, die mit ihnen improvisieren. Der Eintritt ist frei, alles findet draußen statt, und die Medina bleibt bis zum Morgengrauen wach. Unterkünfte in Essaouira sind Monate im Voraus ausgebucht, daher ist ein Tagesausflug ab Marrakesch oft der realistischere Weg.",
+        "Maalems kommen — Gnaoua-Meistermusiker — auf offene Bühnen in ganz Essaouira, zusammen mit Jazz- und Weltmusikgästen, die mit ihnen improvisieren. Der Eintritt ist frei, alles findet draußen statt, und die Medina bleibt bis zum Morgengrauen wach. Unterkünfte in Essaouira sind Monate im Voraus ausgebucht, daher ist ein Tagesausflug ab Marrakesch oft der realistischere Weg.",
+      dateNote:
+        "Die Veranstalter geben jede Ausgabe einige Monate im Voraus bekannt und haben die Termine für 2027 noch nicht veröffentlicht. Das Festival findet seit Jahren Ende Juni statt — die 27. Ausgabe lief vom 25. bis 27. Juni 2026.",
     },
     it: {
       name: "Festival Gnaoua e Musiche del Mondo, Essaouira",
@@ -52,7 +58,9 @@ const COPY: Table = {
       blurb:
         "Tre giorni di trance gnaoua sull'Atlantico, in una città murata svuotata di auto e piena di tamburi.",
       description:
-        "La 27ª edizione porta i maalem — maestri musicisti gnaoua — su palchi aperti in tutta Essaouira, insieme a ospiti jazz e world music che improvvisano con loro. È gratuito, all'aperto, e la medina resta sveglia fino all'alba. Gli alloggi a Essaouira si esauriscono con mesi di anticipo, quindi una gita in giornata da Marrakech è spesso il modo più realistico per viverlo.",
+        "I maalem si riuniscono — maestri musicisti gnaoua — su palchi aperti in tutta Essaouira, insieme a ospiti jazz e world music che improvvisano con loro. È gratuito, all'aperto, e la medina resta sveglia fino all'alba. Gli alloggi a Essaouira si esauriscono con mesi di anticipo, quindi una gita in giornata da Marrakech è spesso il modo più realistico per viverlo.",
+      dateNote:
+        "Gli organizzatori annunciano ogni edizione qualche mese prima e non hanno ancora pubblicato le date del 2027. Il festival si tiene a fine giugno da anni: la 27ª edizione si è svolta dal 25 al 27 giugno 2026.",
     },
     ar: {
       name: "مهرجان كناوة وموسيقى العالم، الصويرة",
@@ -60,7 +68,9 @@ const COPY: Table = {
       blurb:
         "ثلاثة أيام من إيقاع كناوة على المحيط الأطلسي، في مدينة مسوَّرة تخلو من السيارات وتمتلئ بالطبول.",
       description:
-        "تجمع الدورة السابعة والعشرون المعلمين — أساتذة موسيقى كناوة — على منصات مفتوحة في أنحاء الصويرة، إلى جانب ضيوف من الجاز وموسيقى العالم يرتجلون معهم. الدخول مجاني، والعروض في الهواء الطلق، والمدينة العتيقة تسهر حتى الفجر. أماكن الإقامة في الصويرة تُحجز قبل أشهر، لذا فإن رحلة يومية من مراكش غالبًا ما تكون الطريقة الأكثر واقعية للحضور.",
+        "يجتمع المعلمون — أساتذة موسيقى كناوة — على منصات مفتوحة في أنحاء الصويرة، إلى جانب ضيوف من الجاز وموسيقى العالم يرتجلون معهم. الدخول مجاني، والعروض في الهواء الطلق، والمدينة العتيقة تسهر حتى الفجر. أماكن الإقامة في الصويرة تُحجز قبل أشهر، لذا فإن رحلة يومية من مراكش غالبًا ما تكون الطريقة الأكثر واقعية للحضور.",
+      dateNote:
+        "يعلن المنظمون عن كل دورة قبل أشهر قليلة، ولم ينشروا بعد مواعيد 2027. يُقام المهرجان في أواخر يونيو منذ سنوات — أُقيمت الدورة السابعة والعشرون من 25 إلى 27 يونيو 2026.",
     },
   },
 
@@ -69,7 +79,7 @@ const COPY: Table = {
       name: "Marathon International de Marrakech",
       shortName: "Marathon de Marrakech",
       blurb:
-        "La 36e édition longe les remparts et la palmeraie dans la fraîcheur de janvier à Marrakech.",
+        "La 37e édition longe les remparts et la palmeraie dans la fraîcheur de janvier à Marrakech.",
       description:
         "Un marathon et un semi-marathon à travers les murailles de la vieille ville, la Palmeraie et les avenues de Guéliz, avec environ 15 000 coureurs. Janvier est le mois le plus frais pour courir et aussi la pleine saison du trek hivernal au Toubkal : un week-end de course s'associe naturellement à quelques jours dans l'Atlas.",
     },
@@ -77,7 +87,7 @@ const COPY: Table = {
       name: "Maratón Internacional de Marrakech",
       shortName: "Maratón de Marrakech",
       blurb:
-        "La 36ª edición recorre las murallas y el palmeral en el fresco enero de Marrakech.",
+        "La 37ª edición recorre las murallas y el palmeral en el fresco enero de Marrakech.",
       description:
         "Un maratón y un medio maratón por las murallas de la ciudad vieja, el Palmeral y las avenidas de Gueliz, con unos 15 000 corredores. Enero es el mes más fresco para correr y también plena temporada de trekking invernal en el Toubkal, así que un fin de semana de carrera combina de forma natural con unos días en el Atlas.",
     },
@@ -85,7 +95,7 @@ const COPY: Table = {
       name: "Marrakesch-Marathon",
       shortName: "Marrakesch-Marathon",
       blurb:
-        "Die 36. Ausgabe führt an Stadtmauern und Palmenhainen entlang, in der Kühle des Januars.",
+        "Die 37. Ausgabe führt an Stadtmauern und Palmenhainen entlang, in der Kühle des Januars.",
       description:
         "Ein Marathon und ein Halbmarathon durch die alten Stadtmauern, die Palmeraie und die Alleen von Gueliz, mit rund 15.000 Läuferinnen und Läufern. Der Januar ist der kühlste Laufmonat und zugleich Hochsaison für Winter-Trekking am Toubkal — ein Rennwochenende lässt sich gut mit ein paar Tagen im Atlas verbinden.",
     },
@@ -93,7 +103,7 @@ const COPY: Table = {
       name: "Maratona Internazionale di Marrakech",
       shortName: "Maratona di Marrakech",
       blurb:
-        "La 36ª edizione corre lungo le mura e i palmeti nel fresco gennaio di Marrakech.",
+        "La 37ª edizione corre lungo le mura e i palmeti nel fresco gennaio di Marrakech.",
       description:
         "Una maratona e una mezza maratona attraverso le mura della città vecchia, la Palmeraie e i viali di Gueliz, con circa 15.000 partecipanti. Gennaio è il mese più fresco per correre ed è anche piena stagione di trekking invernale sul Toubkal: un weekend di gara si abbina naturalmente a qualche giorno sull'Atlante.",
     },
@@ -101,7 +111,7 @@ const COPY: Table = {
       name: "ماراطون مراكش الدولي",
       shortName: "ماراطون مراكش",
       blurb:
-        "الدورة السادسة والثلاثون تمر بالأسوار والنخيل في برودة يناير بمراكش.",
+        "الدورة السابعة والثلاثون تمر بالأسوار والنخيل في برودة يناير بمراكش.",
       description:
         "ماراطون ونصف ماراطون عبر أسوار المدينة القديمة والنخيل وشوارع كليز، بمشاركة نحو 15 ألف عدّاء. يناير هو أبرد شهور الجري، وهو أيضًا موسم الترحال الشتوي في توبقال، لذا يتلاءم أسبوع السباق تمامًا مع بضعة أيام في الأطلس.",
     },

@@ -84,6 +84,29 @@ describe("event date honesty", () => {
     ).toEqual([]);
   });
 
+  it("no event has silently expired", () => {
+    /**
+     * The index only lists events whose window is still open, so an event
+     * left on a past edition does not error — it just vanishes from the page.
+     * That happened: Gnaoua and the Marrakech Marathon were both entered on
+     * their 2026 dates, and by the time the pages were reviewed the index
+     * showed four estimated events and neither confirmed one.
+     *
+     * These are annual, so the fix is always to roll the entry to the next
+     * edition (re-checking `sourceUrl`), not to delete it.
+     */
+    const today = new Date().toISOString().slice(0, 10);
+    const expired = EVENTS.filter((e) => e.endDate < today).map(
+      (e) => `${e.slug} (ended ${e.endDate})`
+    );
+    expect(
+      expired,
+      "These events have passed and no longer appear anywhere on the site.\n" +
+        "Roll each to its next edition and re-check the organiser's dates:\n  " +
+        expired.join("\n  ")
+    ).toEqual([]);
+  });
+
   it("start date never falls after end date", () => {
     const inverted = EVENTS.filter((e) => e.startDate > e.endDate).map((e) => e.slug);
     expect(inverted, `inverted date range: ${inverted.join(", ")}`).toEqual([]);
@@ -155,18 +178,35 @@ describe("events link to real tours and images", () => {
 });
 
 describe("upcomingEvents filtering", () => {
-  it("drops events whose window has closed and keeps ones still running", () => {
-    // Fixed clock so the assertion does not drift with the real date.
-    const during = upcomingEvents(new Date("2026-06-26T00:00:00Z"));
-    expect(
-      during.map((e) => e.slug),
-      "an event is still 'upcoming' on its own final day"
-    ).toContain("gnaoua-world-music-festival-essaouira");
+  it("keeps an event on its final day and drops it the day after", () => {
+    // Derived from the data, not hardcoded to one festival: an earlier version
+    // named Gnaoua explicitly and broke the moment that event rolled to its
+    // next edition — testing the calendar rather than the rule.
+    const sample = [...EVENTS].sort((a, b) => a.endDate.localeCompare(b.endDate))[0];
+    const lastDay = new Date(sample.endDate + "T00:00:00Z");
+    const dayAfter = new Date(lastDay.getTime() + 24 * 60 * 60 * 1000);
 
-    const after = upcomingEvents(new Date("2026-06-28T00:00:00Z"));
-    expect(after.map((e) => e.slug)).not.toContain(
-      "gnaoua-world-music-festival-essaouira"
-    );
+    expect(
+      upcomingEvents(lastDay).map((e) => e.slug),
+      `${sample.slug} is still 'upcoming' on its own final day`
+    ).toContain(sample.slug);
+
+    expect(
+      upcomingEvents(dayAfter).map((e) => e.slug),
+      `${sample.slug} should drop off the day after it ends`
+    ).not.toContain(sample.slug);
+  });
+
+  it("never lists an event whose window has already closed", () => {
+    // The live index calls this with the real clock, so a stale event would
+    // sit on the page advertising a date that has passed.
+    const now = new Date();
+    const today = now.toISOString().slice(0, 10);
+    const stale = upcomingEvents(now).filter((e) => e.endDate < today);
+    expect(
+      stale.map((e) => `${e.slug} ended ${e.endDate}`),
+      "past events still showing as upcoming"
+    ).toEqual([]);
   });
 
   it("returns events soonest first", () => {
@@ -279,18 +319,27 @@ describe("event prose is translated in every locale", () => {
     }
   });
 
-  it("an unconfirmed event keeps a dateNote in every locale", () => {
-    const missing: string[] = [];
+  it("an unconfirmed event has a TRANSLATED dateNote in every locale", () => {
+    /**
+     * Checking `eventFor(...).dateNote` for mere presence is not enough:
+     * eventFor spreads the English base first, so a missing translation
+     * inherits the English string and the field looks populated. That is
+     * exactly how the untranslated seoTitles survived — a fallback reads as
+     * success. Assert against EVENT_COPY, the translations themselves.
+     */
+    const problems: string[] = [];
     for (const e of EVENTS.filter((x) => x.confidence !== "confirmed")) {
       for (const loc of NON_EN) {
-        if (!eventFor(loc, e.slug)?.dateNote) missing.push(`${e.slug} [${loc}]`);
+        const note = EVENT_COPY[e.slug]?.[loc]?.dateNote;
+        if (!note) problems.push(`${e.slug} [${loc}] — no translated dateNote`);
+        else if (note === e.dateNote) problems.push(`${e.slug} [${loc}] — still English`);
       }
     }
     expect(
-      missing,
-      "Losing dateNote in translation drops the warning that the date can\n" +
-        "move, in exactly the languages least likely to notice:\n  " +
-        missing.join("\n  ")
+      problems,
+      "The dateNote is the warning that a date can still move. Falling back\n" +
+        "to English drops it for exactly the readers least able to spot it:\n  " +
+        problems.join("\n  ")
     ).toEqual([]);
   });
 });

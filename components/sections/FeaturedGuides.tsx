@@ -72,7 +72,12 @@ export default function FeaturedGuides({ dict, lang }: Props) {
             <div className="relative aspect-[16/10] overflow-hidden">
               <Image
                 src={post.heroImage}
-                alt=""
+                // Every other blog card on the site (blog index, RelatedGuides,
+                // NewsSection, the post hero) uses post.title. This one alone
+                // shipped alt="", so the homepage's three featured guides were
+                // the only blog images Google could not associate with their
+                // subject.
+                alt={post.title}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 768px) 100vw, 33vw"

@@ -1,8 +1,13 @@
 # Indexing state
 
-**As of 2026-08-26: 960 of 1,002 site URLs have been submitted to the Google
-Indexing API.** The outstanding 42 are the event pages added on 2026-08-26
-(`docs/batch-2026-08-26-events.txt`), pending quota.
+**As of 2026-08-26: 961 of 1,002 site URLs have been submitted to the Google
+Indexing API.** The outstanding **41** are event pages
+(`docs/batch-2026-08-26-events.txt`, resume at `--offset 1`), blocked on quota.
+
+Resume with:
+
+    cd C:\Users\cash\wild-atlas
+    node scripts/google-index.mjs --key ./service-account.json --urls ./docs/batch-2026-08-26-events.txt --offset 1 --limit 41
 
 > **2026-08-26 — quota wasted, read this before building any batch.** 200 URLs
 > were re-submitted (English + French tours) that had already gone out on
@@ -84,4 +89,5 @@ the ledger disagrees, trust Google and correct the file. That happened on
 |------|-------|------|------|
 | 2026-08-16 | new posts | 78 | list rebuild jumped 882 → 960 |
 | 2026-08-26 | (none — wasted) | 200 | re-sent already-submitted tours; see warning above |
-| pending | `batch-2026-08-26-events.txt` | 42 | event pages, blocked on quota reset |
+| 2026-08-26 | `batch-2026-08-26-events.txt` | 1 | `/en/events` only — one URL slipped through on a rounding edge, the next call hit the wall immediately |
+| pending | same batch, `--offset 1` | 41 | remaining event pages, blocked until midnight Pacific |

@@ -73,6 +73,28 @@ export interface TourEvent {
   heroImage: string;
   /** Recommended booking lead time in weeks — festivals fill accommodation. */
   bookAheadWeeks: number;
+  /**
+   * Three to five concrete things this event gives a traveller that an ordinary
+   * week does not. Specific and checkable — a named place, a named practice, a
+   * number — never "unforgettable experience".
+   *
+   * The event page previously went straight from a prose description to a list
+   * of tours, which asked the reader to work out for themselves why the date
+   * mattered. These carry that argument.
+   */
+  highlights: string[];
+  /**
+   * The honest counterweight: what is genuinely harder, more crowded, more
+   * expensive or more uncertain about travelling for this event.
+   *
+   * Deliberately not a disclaimer. A festival page that lists only upsides
+   * reads like every OTA listing and is worth nothing to someone deciding
+   * whether to reshape a trip around a date. Saying "the approach is a five-
+   * hour mountain drive" is what makes the rest of the page credible — and it
+   * is the same instinct as the confidence system above, applied to the
+   * experience rather than the date.
+   */
+  considerations: string[];
 }
 
 export const EVENTS: TourEvent[] = [
@@ -100,6 +122,18 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
     heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
     bookAheadWeeks: 40,
+    highlights: [
+      "Maalems — Gnaoua master musicians — on open stages across the medina",
+      "Free and outdoors: no ticket, no venue, the whole town is the festival",
+      "Jazz and world-music guests improvising with Gnaoua groups on the same stage",
+      "Essaouira closed to cars, so the walled town is walkable end to end",
+      "The medina stays awake until dawn",
+    ],
+    considerations: [
+      "Essaouira accommodation sells out months ahead — a day trip from Marrakech is often the only realistic way in.",
+      "Crowds are heavy and the medina is loud all night; light sleepers should not stay inside the walls.",
+      "The 2027 dates are not published yet. We hold the late-June window the festival has used for years and confirm as soon as the organisers announce.",
+    ],
   },
   {
     slug: "marrakech-international-marathon",
@@ -121,6 +155,17 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike"],
     heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
     bookAheadWeeks: 10,
+    highlights: [
+      "A route through the old city walls, the Palmeraie and the avenues of Gueliz",
+      "Full and half marathon, around 15,000 runners",
+      "January is the coolest running month of the Moroccan year",
+      "The same weeks are prime Toubkal winter-trekking season, so a race weekend pairs with the Atlas",
+    ],
+    considerations: [
+      "Marrakech hotels raise rates and fill for race weekend; book well before the New Year.",
+      "Road closures reshape the city centre on race morning — transfers need to be planned around them.",
+      "Pairing the race with a Toubkal trek means winter conditions on the mountain: crampons and an ice axe, not a summer walk.",
+    ],
   },
   {
     slug: "rose-festival-kelaat-mgouna",
@@ -140,6 +185,17 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["shared-merzouga-3day-marrakech", "sahara-3day-marrakech"],
     heroImage: "/gallery/kasbah-palm-oasis-draa.jpg",
     bookAheadWeeks: 20,
+    highlights: [
+      "Damask rose harvest at its peak across the Dades valley floor",
+      "A moussem with floats, Ait Atta dancing and the crowning of a rose queen",
+      "Souks selling the season's rose water and oil, distilled locally",
+      "Kelaat M'Gouna sits directly on the Marrakech-to-Sahara road, so a desert tour timed right passes straight through it",
+    ],
+    considerations: [
+      "Dates are confirmed only a few weeks ahead because they follow the harvest, so a trip built around them carries real date risk.",
+      "The town is small and fills completely for the moussem; most visitors stay in Boumalne Dades or pass through on a desert itinerary.",
+      "The roses are a working crop. Harvest starts before dawn and the fields are picked out by mid-morning.",
+    ],
   },
   {
     slug: "imilchil-marriage-moussem",
@@ -159,6 +215,18 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["atlas-mountains-3day-trek", "high-atlas-grand-traverse-15day"],
     heroImage: "/gallery/high-atlas-terraced-fields-sunrise.jpg",
     bookAheadWeeks: 10,
+    highlights: [
+      "A High Atlas plateau at around 2,200 m, well off the tourist circuit",
+      "First a livestock and goods fair for the surrounding Ait Haddidou villages",
+      "The betrothal gathering it is famous for, still run by the community",
+      "A working community event rather than a performance staged for visitors",
+    ],
+    considerations: [
+      "Remote: the approach is a long mountain drive on slow roads, and that journey is most of the commitment.",
+      "The exact days are set locally and often announced only weeks ahead, so this is hard to book a flight around.",
+      "Accommodation near Imilchil is basic and limited. Expect a gite or a village room, not a hotel.",
+      "It is a community occasion, not a show. Photograph people only with their agreement.",
+    ],
   },
   {
     slug: "ramadan-and-eid-al-fitr",
@@ -178,6 +246,18 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["marrakech-medina-cultural-tour", "toubkal-summit-2day-marrakech"],
     heroImage: "/gallery/berber-guesthouse-group-dinner.jpg",
     bookAheadWeeks: 6,
+    highlights: [
+      "The medina comes properly alive after the iftar cannon each evening",
+      "Atlas villages break the fast together in a way visitors rarely get to see",
+      "Trekking is unaffected — guides plan food and water around the fast",
+      "Eid al-Fitr closes the month with the biggest celebration of the Moroccan year",
+    ],
+    considerations: [
+      "Many restaurants stay closed until sunset, and museums and offices keep shorter hours.",
+      "Daytime cities are quiet and slow; the energy arrives after dark, which suits some trips and not others.",
+      "Start and end dates move with the local moon sighting and are sometimes announced only the evening before.",
+      "Eid itself closes much of the country for two to three days, including transport and most shops.",
+    ],
   },
   {
     slug: "almond-blossom-anti-atlas",
@@ -197,6 +277,18 @@ export const EVENTS: TourEvent[] = [
     tourSlugs: ["anti-atlas-trekking-agadir"],
     heroImage: "/gallery/high-atlas-terraced-fields-sunrise.jpg",
     bookAheadWeeks: 6,
+    highlights: [
+      "Almond terraces in flower against the pink granite of the Ameln valley",
+      "The best walking weather of the Anti-Atlas year: warm days, cold nights",
+      "The quietest season on the trails around Tafraoute",
+      "Tafraoute holds an almond blossom festival most years",
+    ],
+    considerations: [
+      "Blossom is a season, not a date. Timing shifts with winter rainfall, and a late year can miss it.",
+      "Altitude staggers the display: lower valleys turn first, higher villages up to three weeks later.",
+      "Nights are genuinely cold at altitude, and village accommodation is often unheated.",
+      "The Tafraoute festival's dates are set locally and are not announced far ahead.",
+    ],
   },
 ];
 

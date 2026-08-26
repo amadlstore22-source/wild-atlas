@@ -307,9 +307,43 @@ describe("event prose is translated in every locale", () => {
         for (const field of ["blurb", "description"] as const) {
           if (copy[field] === e[field]) same.push(`${e.slug}.${field} [${loc}]`);
         }
+        // highlights and considerations are prose too, just in list form. They
+        // were added after this test and would otherwise have been free to fall
+        // back to English for all five locales -- which is exactly the failure
+        // this suite exists to catch, since eventFor() spreads locale copy over
+        // the English base and a missing array is invisible on the page.
+        for (const field of ["highlights", "considerations"] as const) {
+          const localised = copy[field];
+          if (!localised) {
+            same.push(`${e.slug}.${field} [${loc}] — missing, falls back to English`);
+            continue;
+          }
+          localised.forEach((line, i) => {
+            if (line === e[field][i]) same.push(`${e.slug}.${field}[${i}] [${loc}]`);
+          });
+        }
       }
     }
     expect(same, "untranslated event prose:\n  " + same.join("\n  ")).toEqual([]);
+  });
+
+  it("every locale keeps the same number of highlights and considerations", () => {
+    // A locale with fewer lines than English is a half-finished translation:
+    // the page renders a shorter list with no error, and nothing else notices.
+    const drift: string[] = [];
+    for (const e of EVENTS) {
+      for (const loc of NON_EN) {
+        const copy = EVENT_COPY[e.slug]?.[loc];
+        if (!copy) continue;
+        for (const field of ["highlights", "considerations"] as const) {
+          const n = copy[field]?.length ?? 0;
+          if (n !== e[field].length) {
+            drift.push(`${e.slug}.${field} [${loc}]: ${n} vs ${e[field].length} in English`);
+          }
+        }
+      }
+    }
+    expect(drift, "list length drifted from English:\n  " + drift.join("\n  ")).toEqual([]);
   });
 
   it("eventFor swaps prose but never the dates", () => {

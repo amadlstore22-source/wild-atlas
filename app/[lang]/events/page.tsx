@@ -41,17 +41,17 @@ export default async function EventsPage({ params }: LangParams) {
   const events = upcomingEventsFor(lang);
 
   return (
-    <div className="bg-[var(--color-sand-50)]">
-      <section className="relative overflow-hidden bg-[var(--color-clay-900)] py-16 sm:py-24">
+    <div className="bg-[var(--color-sand)]">
+      <section className="relative overflow-hidden bg-[var(--color-ink)] py-16 sm:py-24">
         <ZelligeBand className="absolute inset-x-0 bottom-0 opacity-20" />
         <div className="relative mx-auto max-w-4xl px-4 text-center">
-          <p className="font-body text-xs uppercase tracking-[0.2em] text-[var(--color-sand-300)]">
+          <p className="font-body text-xs uppercase tracking-[0.2em] text-[var(--color-sand-dark)]">
             {t.eyebrow}
           </p>
           <h1 className="mt-3 font-display text-4xl text-white sm:text-5xl">
             {t.heading}
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl font-body text-base leading-relaxed text-[var(--color-sand-200)]">
+          <p className="mx-auto mt-4 max-w-2xl font-body text-base leading-relaxed text-[var(--color-sand)]">
             {t.sub}
           </p>
         </div>
@@ -64,7 +64,7 @@ export default async function EventsPage({ params }: LangParams) {
           ))}
         </ul>
 
-        <p className="mt-12 rounded-lg border border-[var(--color-sand-300)] bg-white p-5 font-body text-sm leading-relaxed text-[var(--color-clay-700)]">
+        <p className="mt-12 rounded-lg border border-[var(--color-sand-dark)] bg-white p-5 font-body text-sm leading-relaxed text-[var(--color-ink-muted)]">
           {t.disclaimer}
         </p>
       </section>
@@ -83,7 +83,7 @@ function EventCard({
 }) {
   const dates = formatEventDates(event, lang);
   return (
-    <li className="overflow-hidden rounded-xl border border-[var(--color-sand-300)] bg-white shadow-sm">
+    <li className="overflow-hidden rounded-xl border border-[var(--color-sand-dark)] bg-white shadow-sm">
       <Link href={`/${lang}/events/${event.slug}`} className="group grid sm:grid-cols-[240px_1fr]">
         <div className="relative aspect-[4/3] sm:aspect-auto">
           <Image
@@ -96,23 +96,23 @@ function EventCard({
         </div>
         <div className="p-5 sm:p-6">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-full bg-[var(--color-clay-900)] px-3 py-1 font-body text-xs text-white">
+            <span className="rounded-full bg-[var(--color-ink)] px-3 py-1 font-body text-xs text-white">
               {dates}
             </span>
-            <span className="font-body text-xs text-[var(--color-clay-600)]">
+            <span className="font-body text-xs text-[var(--color-ink-muted)]">
               {confidenceLabel(event.confidence, t)}
             </span>
           </div>
-          <h2 className="mt-3 font-display text-2xl text-[var(--color-clay-900)] group-hover:underline">
+          <h2 className="mt-3 font-display text-2xl text-[var(--color-ink)] group-hover:underline">
             {event.name}
           </h2>
-          <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-clay-700)]">
+          <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-ink-muted)]">
             {event.blurb}
           </p>
-          <p className="mt-3 font-body text-xs text-[var(--color-clay-600)]">
+          <p className="mt-3 font-body text-xs text-[var(--color-ink-muted)]">
             {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
           </p>
-          <span className="mt-4 inline-block font-body text-sm text-[var(--color-terracotta-600)]">
+          <span className="mt-4 inline-block font-body text-sm text-[var(--color-terracotta)]">
             {t.seeDepartures} &rarr;
           </span>
         </div>

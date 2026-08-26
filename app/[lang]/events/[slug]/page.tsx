@@ -100,7 +100,7 @@ export default async function EventDetailPage({ params }: EventParams) {
   };
 
   return (
-    <div className="bg-[var(--color-sand-50)]">
+    <div className="bg-[var(--color-sand)]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }}
@@ -121,7 +121,7 @@ export default async function EventDetailPage({ params }: EventParams) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-black/20" />
         <div className="absolute inset-x-0 bottom-0 mx-auto max-w-4xl px-4 pb-8">
-          <span className="rounded-full bg-white/90 px-3 py-1 font-body text-xs text-[var(--color-clay-900)]">
+          <span className="rounded-full bg-white/90 px-3 py-1 font-body text-xs text-[var(--color-ink)]">
             {dates}
           </span>
           <h1 className="mt-3 font-display text-3xl text-white sm:text-4xl">
@@ -131,18 +131,18 @@ export default async function EventDetailPage({ params }: EventParams) {
       </section>
 
       <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
-        <p className="font-body text-lg leading-relaxed text-[var(--color-clay-800)]">
+        <p className="font-body text-lg leading-relaxed text-[var(--color-ink-soft)]">
           {event.description}
         </p>
 
         {/* Date honesty: for anything not confirmed by the organiser, say so
             plainly rather than letting the month window imply precision. */}
-        <div className="mt-8 rounded-lg border border-[var(--color-sand-300)] bg-white p-5">
-          <p className="font-body text-sm font-semibold text-[var(--color-clay-900)]">
+        <div className="mt-8 rounded-lg border border-[var(--color-sand-dark)] bg-white p-5">
+          <p className="font-body text-sm font-semibold text-[var(--color-ink)]">
             {confidenceLabel(event.confidence, t)}
           </p>
           {event.dateNote ? (
-            <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-clay-700)]">
+            <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-ink-muted)]">
               {event.dateNote}
             </p>
           ) : null}
@@ -152,20 +152,58 @@ export default async function EventDetailPage({ params }: EventParams) {
                 href={event.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[var(--color-terracotta-600)] underline"
+                className="text-[var(--color-terracotta)] underline"
               >
                 {t.officialSource}
               </a>
             </p>
           ) : null}
-          <p className="mt-3 font-body text-sm text-[var(--color-clay-700)]">
+          <p className="mt-3 font-body text-sm text-[var(--color-ink-muted)]">
             {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
           </p>
         </div>
 
+        {/* The page used to run description -> tours, which left the reader to
+            work out for themselves why the date mattered. These two lists carry
+            that argument, and the second one is what makes the first credible:
+            a festival page with only upsides reads like every OTA listing. */}
+        {event.highlights.length > 0 ? (
+          <section className="mt-10">
+            <h2 className="font-display text-2xl text-[var(--color-ink)]">
+              {t.whyGo}
+            </h2>
+            <ul className="mt-4 grid gap-3">
+              {event.highlights.map((item) => (
+                <li key={item} className="flex gap-3 font-body text-[var(--color-ink-soft)]">
+                  <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-terracotta)]" />
+                  <span className="leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
+        {/* bg-bone, not sand: the page ground is already --color-sand, so a
+            sand panel on sand would not read as a panel at all. */}
+        {event.considerations.length > 0 ? (
+          <section className="mt-10 rounded-lg border border-[var(--color-sand-dark)] bg-[var(--color-bone)] p-5">
+            <h2 className="font-display text-xl text-[var(--color-ink)]">
+              {t.beforeYouGo}
+            </h2>
+            <ul className="mt-3 grid gap-3">
+              {event.considerations.map((item) => (
+                <li key={item} className="flex gap-3 font-body text-sm text-[var(--color-ink-muted)]">
+                  <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-ink-faint)]" />
+                  <span className="leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
         {tours.length > 0 ? (
           <section className="mt-10">
-            <h2 className="font-display text-2xl text-[var(--color-clay-900)]">
+            <h2 className="font-display text-2xl text-[var(--color-ink)]">
               {t.departuresHeading}
             </h2>
             <ul className="mt-4 grid gap-4">
@@ -176,7 +214,7 @@ export default async function EventDetailPage({ params }: EventParams) {
                   <li key={tour.slug}>
                     <Link
                       href={`/${lang}/tours/${tourSlugFor(lang, tour.slug)}`}
-                      className="flex items-center gap-4 rounded-lg border border-[var(--color-sand-300)] bg-white p-4 hover:border-[var(--color-terracotta-600)]"
+                      className="flex items-center gap-4 rounded-lg border border-[var(--color-sand-dark)] bg-white p-4 hover:border-[var(--color-terracotta)]"
                     >
                       <div className="relative h-16 w-24 shrink-0 overflow-hidden rounded">
                         <Image
@@ -187,7 +225,7 @@ export default async function EventDetailPage({ params }: EventParams) {
                           className="object-cover"
                         />
                       </div>
-                      <span className="font-body text-sm text-[var(--color-clay-900)]">
+                      <span className="font-body text-sm text-[var(--color-ink)]">
                         {name}
                       </span>
                     </Link>
@@ -199,7 +237,7 @@ export default async function EventDetailPage({ params }: EventParams) {
         ) : null}
 
         <p className="mt-10 font-body text-sm">
-          <Link href={`/${lang}/events`} className="text-[var(--color-terracotta-600)] underline">
+          <Link href={`/${lang}/events`} className="text-[var(--color-terracotta)] underline">
             &larr; {t.allEvents}
           </Link>
         </p>

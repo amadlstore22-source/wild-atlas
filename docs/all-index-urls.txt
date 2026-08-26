@@ -72,6 +72,7 @@ https://marrakechecotours.com/en/blog/erg-chebbi-vs-erg-chegaga
 https://marrakechecotours.com/en/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/en/blog/family-desert-tour-morocco-cost
 https://marrakechecotours.com/en/blog/fes-medina-travel-guide
+https://marrakechecotours.com/en/blog/getting-around-morocco-transport-guide
 https://marrakechecotours.com/en/blog/gite-panorama-imlil-base-camp-toubkal
 https://marrakechecotours.com/en/blog/haggling-in-moroccan-souks-guide
 https://marrakechecotours.com/en/blog/high-atlas-grand-traverse-cost
@@ -93,6 +94,7 @@ https://marrakechecotours.com/en/blog/mgoun-massif-trek-cost
 https://marrakechecotours.com/en/blog/moroccan-cooking-class-marrakech-guide
 https://marrakechecotours.com/en/blog/moroccan-mint-tea-ceremony-guide
 https://marrakechecotours.com/en/blog/morocco-camel-trek-sahara-guide
+https://marrakechecotours.com/en/blog/morocco-festivals-calendar-by-month
 https://marrakechecotours.com/en/blog/morocco-food-guide-what-to-eat
 https://marrakechecotours.com/en/blog/morocco-for-moroccan-travellers-explore-your-own-country
 https://marrakechecotours.com/en/blog/morocco-tour-price-group-size
@@ -110,6 +112,7 @@ https://marrakechecotours.com/en/blog/private-vs-shared-desert-tour-morocco
 https://marrakechecotours.com/en/blog/sahara-desert-facts
 https://marrakechecotours.com/en/blog/sahara-desert-from-agadir
 https://marrakechecotours.com/en/blog/sahara-desert-morocco-what-to-expect
+https://marrakechecotours.com/en/blog/sahara-desert-weather-what-to-expect
 https://marrakechecotours.com/en/blog/sahara-tour-from-agadir-cost
 https://marrakechecotours.com/en/blog/shared-group-tours-morocco-guide
 https://marrakechecotours.com/en/blog/skoura-oasis-guide
@@ -193,6 +196,7 @@ https://marrakechecotours.com/ar/blog/erg-chebbi-vs-erg-chegaga
 https://marrakechecotours.com/ar/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/ar/blog/family-desert-tour-morocco-cost
 https://marrakechecotours.com/ar/blog/fes-medina-travel-guide
+https://marrakechecotours.com/ar/blog/getting-around-morocco-transport-guide
 https://marrakechecotours.com/ar/blog/gite-panorama-imlil-base-camp-toubkal
 https://marrakechecotours.com/ar/blog/haggling-in-moroccan-souks-guide
 https://marrakechecotours.com/ar/blog/high-atlas-grand-traverse-cost
@@ -214,6 +218,7 @@ https://marrakechecotours.com/ar/blog/mgoun-massif-trek-cost
 https://marrakechecotours.com/ar/blog/moroccan-cooking-class-marrakech-guide
 https://marrakechecotours.com/ar/blog/moroccan-mint-tea-ceremony-guide
 https://marrakechecotours.com/ar/blog/morocco-camel-trek-sahara-guide
+https://marrakechecotours.com/ar/blog/morocco-festivals-calendar-by-month
 https://marrakechecotours.com/ar/blog/morocco-food-guide-what-to-eat
 https://marrakechecotours.com/ar/blog/morocco-for-moroccan-travellers-explore-your-own-country
 https://marrakechecotours.com/ar/blog/morocco-tour-price-group-size
@@ -231,6 +236,7 @@ https://marrakechecotours.com/ar/blog/private-vs-shared-desert-tour-morocco
 https://marrakechecotours.com/ar/blog/sahara-desert-facts
 https://marrakechecotours.com/ar/blog/sahara-desert-from-agadir
 https://marrakechecotours.com/ar/blog/sahara-desert-morocco-what-to-expect
+https://marrakechecotours.com/ar/blog/sahara-desert-weather-what-to-expect
 https://marrakechecotours.com/ar/blog/sahara-tour-from-agadir-cost
 https://marrakechecotours.com/ar/blog/shared-group-tours-morocco-guide
 https://marrakechecotours.com/ar/blog/skoura-oasis-guide
@@ -356,6 +362,7 @@ https://marrakechecotours.com/de/blog/erg-chebbi-vs-erg-chegaga
 https://marrakechecotours.com/de/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/de/blog/familien-wuestentour-marokko-kosten
 https://marrakechecotours.com/de/blog/fes-medina-travel-guide
+https://marrakechecotours.com/de/blog/fortbewegung-in-marokko-verkehrsmittel
 https://marrakechecotours.com/de/blog/gite-panorama-imlil-base-camp-toubkal
 https://marrakechecotours.com/de/blog/gruppentouren-marokko
 https://marrakechecotours.com/de/blog/haggling-in-moroccan-souks-guide
@@ -370,6 +377,7 @@ https://marrakechecotours.com/de/blog/how-to-climb-toubkal-in-2-days
 https://marrakechecotours.com/de/blog/is-morocco-safe-tourist-guide
 https://marrakechecotours.com/de/blog/kameltrekking-sahara-marokko
 https://marrakechecotours.com/de/blog/kochkurs-marrakesch
+https://marrakechecotours.com/de/blog/marokko-festivals-kalender-nach-monat
 https://marrakechecotours.com/de/blog/marokko-mit-kindern-familienreise
 https://marrakechecotours.com/de/blog/marokko-tour-direkt-oder-plattform-buchen
 https://marrakechecotours.com/de/blog/marokko-tour-preis-gruppengroesse
@@ -414,6 +422,7 @@ https://marrakechecotours.com/de/blog/toubkal-trek-4-tage-kosten
 https://marrakechecotours.com/de/blog/toubkal-weather-by-month
 https://marrakechecotours.com/de/blog/visiting-morocco-during-ramadan
 https://marrakechecotours.com/de/blog/was-man-in-marokko-machen-kann
+https://marrakechecotours.com/de/blog/wetter-sahara-wueste-marokko
 https://marrakechecotours.com/de/blog/what-is-a-kasbah
 https://marrakechecotours.com/de/blog/what-is-a-riad
 https://marrakechecotours.com/de/blog/what-to-pack-desert-tour-morocco
@@ -515,11 +524,14 @@ https://marrakechecotours.com/es/blog/best-multi-day-treks-morocco
 https://marrakechecotours.com/es/blog/best-sim-card-morocco-tourists
 https://marrakechecotours.com/es/blog/best-time-to-visit-morocco
 https://marrakechecotours.com/es/blog/best-time-to-visit-paradise-valley
+https://marrakechecotours.com/es/blog/calendario-festivales-marruecos-por-mes
 https://marrakechecotours.com/es/blog/campamento-desierto-lujo-o-estandar
 https://marrakechecotours.com/es/blog/chefchaouen-complete-travel-guide
 https://marrakechecotours.com/es/blog/circuito-desierto-privado-o-compartido
 https://marrakechecotours.com/es/blog/circuitos-compartidos-marruecos
 https://marrakechecotours.com/es/blog/clase-de-cocina-marrakech
+https://marrakechecotours.com/es/blog/clima-desierto-sahara-marruecos
+https://marrakechecotours.com/es/blog/como-moverse-por-marruecos-transporte
 https://marrakechecotours.com/es/blog/dades-valley-gorges-guide
 https://marrakechecotours.com/es/blog/do-you-need-a-guide-to-climb-toubkal
 https://marrakechecotours.com/es/blog/erg-chebbi-vs-erg-chegaga
@@ -682,6 +694,7 @@ https://marrakechecotours.com/fr/blog/best-multi-day-treks-morocco
 https://marrakechecotours.com/fr/blog/best-sim-card-morocco-tourists
 https://marrakechecotours.com/fr/blog/best-time-to-visit-morocco
 https://marrakechecotours.com/fr/blog/best-time-to-visit-paradise-valley
+https://marrakechecotours.com/fr/blog/calendrier-festivals-maroc-par-mois
 https://marrakechecotours.com/fr/blog/campement-desert-luxe-ou-standard
 https://marrakechecotours.com/fr/blog/chefchaouen-complete-travel-guide
 https://marrakechecotours.com/fr/blog/circuit-desert-prive-ou-partage
@@ -708,6 +721,7 @@ https://marrakechecotours.com/fr/blog/marrakech-to-fes-road-trip-guide
 https://marrakechecotours.com/fr/blog/marrakech-vs-agadir-which-base
 https://marrakechecotours.com/fr/blog/merzouga-travel-guide
 https://marrakechecotours.com/fr/blog/merzouga-vs-zagora-which-desert-tour
+https://marrakechecotours.com/fr/blog/meteo-desert-sahara-maroc
 https://marrakechecotours.com/fr/blog/moroccan-mint-tea-ceremony-guide
 https://marrakechecotours.com/fr/blog/morocco-food-guide-what-to-eat
 https://marrakechecotours.com/fr/blog/morocco-for-moroccan-travellers-explore-your-own-country
@@ -739,6 +753,7 @@ https://marrakechecotours.com/fr/blog/reserver-circuit-maroc-direct-ou-plateform
 https://marrakechecotours.com/fr/blog/sahara-desert-facts
 https://marrakechecotours.com/fr/blog/sahara-desert-from-agadir
 https://marrakechecotours.com/fr/blog/sahara-desert-morocco-what-to-expect
+https://marrakechecotours.com/fr/blog/se-deplacer-au-maroc-transports
 https://marrakechecotours.com/fr/blog/skoura-oasis-guide
 https://marrakechecotours.com/fr/blog/solo-female-travel-morocco-guide
 https://marrakechecotours.com/fr/blog/souss-massa-national-park-birdwatching-guide
@@ -849,8 +864,10 @@ https://marrakechecotours.com/it/blog/best-multi-day-treks-morocco
 https://marrakechecotours.com/it/blog/best-sim-card-morocco-tourists
 https://marrakechecotours.com/it/blog/best-time-to-visit-morocco
 https://marrakechecotours.com/it/blog/best-time-to-visit-paradise-valley
+https://marrakechecotours.com/it/blog/calendario-festival-marocco-per-mese
 https://marrakechecotours.com/it/blog/campo-deserto-lusso-o-standard
 https://marrakechecotours.com/it/blog/chefchaouen-complete-travel-guide
+https://marrakechecotours.com/it/blog/clima-deserto-sahara-marocco
 https://marrakechecotours.com/it/blog/corso-di-cucina-marrakech
 https://marrakechecotours.com/it/blog/cosa-fare-in-marocco
 https://marrakechecotours.com/it/blog/dades-valley-gorges-guide
@@ -907,6 +924,7 @@ https://marrakechecotours.com/it/blog/sahara-desert-morocco-what-to-expect
 https://marrakechecotours.com/it/blog/skoura-oasis-guide
 https://marrakechecotours.com/it/blog/solo-female-travel-morocco-guide
 https://marrakechecotours.com/it/blog/souss-massa-national-park-birdwatching-guide
+https://marrakechecotours.com/it/blog/spostarsi-in-marocco-trasporti
 https://marrakechecotours.com/it/blog/taghazout-surf-guide-morocco
 https://marrakechecotours.com/it/blog/taroudant-day-trip-from-agadir-guide
 https://marrakechecotours.com/it/blog/todra-gorge-guide

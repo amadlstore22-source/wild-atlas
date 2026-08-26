@@ -7,7 +7,7 @@ import WhyUs from "@/components/sections/WhyUs";
 import AboutStory from "@/components/sections/AboutStory";
 import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
-import { SITE } from "@/lib/constants";
+import { SITE, TRIPADVISOR } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
@@ -40,20 +40,69 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   };
 }
 
-const aboutJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  name: "About Marrakech Eco Tours",
-  description: "Marrakech Eco Tours was founded by certified Berber guides born in the High Atlas Mountains. We offer ethical, small-group trekking and adventure tours across Morocco.",
-  url: "https://marrakechecotours.com/en/about",
-  breadcrumb: {
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://marrakechecotours.com/en" },
-      { "@type": "ListItem", position: 2, name: "About", item: "https://marrakechecotours.com/en/about" },
+/**
+ * The About page is the page an AI assistant reads to answer "who are they?",
+ * so it has to identify the same ENTITY the homepage describes rather than
+ * describing a page in isolation.
+ *
+ * It does that with an @graph carrying both the page and the organisation, and
+ * the organisation node reuses the homepage's stable @id (#organization). Same
+ * @id means the two pages describe ONE entity, so a consumer merges them rather
+ * than reconciling two similar businesses.
+ *
+ * The node is deliberately thin — identity, founding date, contact, sameAs. The
+ * homepage node stays the authoritative one with geo, opening hours and the
+ * aggregateRating. `aggregateRating` is NOT repeated here: the same 122 reviews
+ * asserted on a second URL is the duplicated-review-markup problem already
+ * declined for per-tour ratings, and an @id reference does not need it.
+ *
+ * Every URL is built from `lang`. These were hardcoded to /en, so all six
+ * locales published structured data pointing at the English page — the same
+ * defect already fixed on this page's <title> and on /[lang]/tours.
+ */
+function aboutJsonLd(lang: string) {
+  const base = `https://marrakechecotours.com/${lang}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        name: "About Marrakech Eco Tours",
+        description: "Marrakech Eco Tours was founded by certified Berber guides born in the High Atlas Mountains. We offer ethical, small-group trekking and adventure tours across Morocco.",
+        url: `${base}/about`,
+        inLanguage: lang,
+        mainEntity: { "@id": "https://marrakechecotours.com/#organization" },
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: base },
+            { "@type": "ListItem", position: 2, name: "About", item: `${base}/about` },
+          ],
+        },
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://marrakechecotours.com/#organization",
+        name: "Marrakech Eco Tours",
+        url: "https://marrakechecotours.com",
+        description: "Family-run Berber guiding operation. Licensed Moroccan tour operator since 2010, specialising in High Atlas trekking and Sahara desert tours from Marrakech and Agadir.",
+        foundingDate: String(SITE.foundedYear),
+        telephone: "+212653936003",
+        email: SITE.email,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Marrakech",
+          addressCountry: "MA",
+        },
+        sameAs: [
+          "https://instagram.com/met_morocco",
+          "https://facebook.com/marrakechecotours",
+          TRIPADVISOR.url,
+        ],
+      },
     ],
-  },
-};
+  };
+}
 
 export default async function AboutPage({ params }: LangParams) {
   const { lang } = await params;
@@ -62,7 +111,7 @@ export default async function AboutPage({ params }: LangParams) {
 
   return (
     <>
-      <JsonLd data={aboutJsonLd} />
+      <JsonLd data={aboutJsonLd(lang)} />
       {/* ── Hero ── */}
       <div className="relative h-[65vh] min-h-[440px] flex items-end">
         <Image

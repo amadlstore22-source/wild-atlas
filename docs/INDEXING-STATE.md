@@ -1,16 +1,19 @@
 # Indexing state
 
-**As of 2026-08-26: 961 of 1,020 site URLs have been submitted.** The
-outstanding **59** are in one ready batch: 41 event pages plus the 18 pages of
-the three new articles. Blocked only on the daily quota.
+**As of 2026-08-27: all 1,020 site URLs have been submitted.** The final batch
+of 59 — 41 event pages plus the 18 pages of the three new articles — went out
+on 2026-08-27: **59 submitted, 0 failed, QUOTA_CONSUMED=59**.
 
-Send the whole thing in one run once the quota resets (midnight Pacific):
+`docs/batch-2026-08-27-pending.txt` is now **spent**. It is kept as the record
+of what went out, not as a queue to re-run. Re-running it would repeat the
+2026-08-16 mistake described below.
 
-    cd C:\Users\cash\wild-atlas
-    node scripts/google-index.mjs --key ./service-account.json --urls ./docs/batch-2026-08-27-pending.txt
+Events were ordered first because nothing linked to them yet, so discovery was
+the whole point. The articles already had inbound links from seven existing
+posts.
 
-Events are ordered first: nothing links to them yet, so discovery is the whole
-point. The articles already have inbound links from seven existing posts.
+**Nothing is outstanding.** Do not infer from this line that a later batch is
+needed — run the diff below to find out what, if anything, is genuinely new.
 
 > **2026-08-26 — quota wasted, read this before building any batch.** 200 URLs
 > were re-submitted (English + French tours) that had already gone out on
@@ -93,4 +96,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-16 | new posts | 78 | list rebuild jumped 882 → 960 |
 | 2026-08-26 | (none — wasted) | 200 | re-sent already-submitted tours; see warning above |
 | 2026-08-26 | `batch-2026-08-26-events.txt` | 1 | `/en/events` only — one URL slipped through on a rounding edge, the next call hit the wall immediately |
-| pending | `batch-2026-08-27-pending.txt` | 59 | 41 events + 18 new-article pages, one run, blocked until midnight Pacific |
+| 2026-08-27 | `batch-2026-08-27-pending.txt` | 59 | 41 events + 18 new-article pages, one run. 59 submitted, 0 failed. **Site now fully submitted: `diff-unsubmitted.mjs` reports 1020 / 1020, 0 outstanding.** |

@@ -22,7 +22,7 @@ import TourGuideBlock from "@/components/tours/TourGuideBlock";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
-import { faqPageDocument, priceValidUntil, buildAggregateOffer } from "@/lib/seo/schema";
+import { faqPageDocument, priceValidUntil, buildAggregateOffer, absoluteUrl } from "@/lib/seo/schema";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
@@ -137,7 +137,8 @@ export default async function TourDetailPage({ params }: TourParams) {
     name: tour.title,
     description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
     url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
-    image: tour.heroImage,
+    // Absolute: JSON-LD resolves a relative path against schema.org, not us.
+    image: absoluteUrl(tour.heroImage),
     brand: { "@type": "Brand", name: "Marrakech Eco Tours" },
     offers: offer,
     // No aggregateRating: we have no per-tour review corpus to substantiate one.
@@ -154,8 +155,45 @@ export default async function TourDetailPage({ params }: TourParams) {
     touristType: "Adventure",
     offers: offer,
     provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
-    image: tour.gallery,
-    duration: tour.duration,
+    // Absolute URLs. Google requires image URLs it can fetch and index; a
+    // site-relative path is resolved against schema.org's own namespace, not
+    // ours, so the images were unreachable.
+    image: tour.gallery.map(absoluteUrl),
+    // NOT `duration`. schema.org's vocabulary puts `duration` on Event, Movie,
+    // MediaObject and friends — never on Trip/TouristTrip — and its range is
+    // Duration (ISO 8601), so the free-text "4 days / 3 nights" failed twice
+    // over. Confirmed against schemaorg-current-https.jsonld and reported by
+    // validator.schema.org as UNKNOWN_FIELD + TYPE_CONVERSION_FAILED on every
+    // one of the 47 tours.
+    //
+    // `itinerary` is the property Trip actually defines, and it carries more
+    // than the duration did: the real day-by-day route, with the named stops
+    // already stored for the map. Day count is still recoverable from the list
+    // length, and the human-readable "4 days / 3 nights" is on the page and in
+    // the Product description where it belongs.
+    itinerary: {
+      "@type": "ItemList",
+      numberOfItems: tour.itinerary.length,
+      itemListElement: tour.itinerary.map((day, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          // Place, not a bare name: `itinerary` expects ItemList or Place, and
+          // days with a verified stop carry real coordinates.
+          "@type": "Place",
+          name: day.stop?.name ?? day.title,
+          ...(day.stop
+            ? {
+                geo: {
+                  "@type": "GeoCoordinates",
+                  latitude: day.stop.lat,
+                  longitude: day.stop.lng,
+                },
+              }
+            : {}),
+        },
+      })),
+    },
   };
 
   const breadcrumbJsonLd = {

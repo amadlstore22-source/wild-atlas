@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/seo/schema";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -107,7 +108,8 @@ export default async function DestinationPage({ params }: PageParams) {
     name: destination.name,
     description: destination.about,
     url: `https://marrakechecotours.com/${lang}/destinations/${dest}`,
-    image: destination.heroImage,
+    // Absolute: a relative path in JSON-LD resolves against schema.org.
+    image: absoluteUrl(destination.heroImage),
     geo: {
       "@type": "GeoCoordinates",
       latitude: destination.lat,

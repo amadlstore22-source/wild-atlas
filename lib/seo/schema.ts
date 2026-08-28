@@ -3,6 +3,23 @@ import type { Faq } from "./types";
 const SITE = "https://marrakechecotours.com";
 
 /**
+ * Absolutises a site-relative asset path for structured data.
+ *
+ * JSON-LD has no base URL of its own: a relative `image` is resolved against
+ * the schema.org vocabulary namespace, not this site, so Google cannot fetch
+ * it and the image is simply dropped from any rich result. Every tour Product
+ * and TouristTrip node shipped `/gallery/...` this way, and every destination
+ * node did too.
+ *
+ * Idempotent, so it is safe to map over a mixed list: the gallery is
+ * first-party today but a few nodes reference remote hosts.
+ */
+export function absoluteUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) return path;
+  return `${SITE}${path.startsWith("/") ? "" : "/"}${path}`;
+}
+
+/**
  * FAQPage node WITHOUT `@context`, so it can either be pushed into an existing
  * `@graph` (blog posts) or wrapped for a standalone script (tours, categories).
  *

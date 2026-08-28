@@ -35,6 +35,24 @@ over the number.
 >     node scripts/build-index-urls.mjs
 >     node scripts/seo/diff-unsubmitted.mjs
 
+> **You cannot verify a submission against Google right now (2026-08-28).**
+> The Indexing API has a known defect: `urlNotifications:publish` returns HTTP
+> 200 but with a `urlNotificationMetadata` containing only the url — the
+> documented `latestUpdate` field is absent — and `urlNotifications/metadata`
+> then returns 404 NOT_FOUND for that same url indefinitely.
+>
+> Reproduced deliberately: a publish returned 200, and a metadata read three
+> seconds later returned 404. EVERY url this project has submitted reads back
+> as 404, including ones watched succeeding by hand. Google's tracker has it
+> at p2 — see support.google.com/webmasters/thread/366501095 and
+> github.com/googleapis/google-api-nodejs-client/issues/3560.
+>
+> So a 404 from `scripts/seo/verify-submitted.mjs` is the EXPECTED result and
+> proves nothing. Do not re-send on the strength of one: that repeats the
+> 2026-08-16 waste. The publish returning 200 is the only success signal
+> available, and Search Console's Page Indexing report is the real check,
+> days later.
+
 ## What this does and does not mean
 
 Submission is a crawl *hint*, not indexing. Google officially supports the

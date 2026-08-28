@@ -149,20 +149,48 @@ if (-not $DryRun -and -not $SkipLiveCheck) {
   if ($Limit -gt 0)  { $toCheck = $toCheck | Select-Object -First $Limit }
 
   Write-Host "Checking $($toCheck.Count) URL(s) are live..." -ForegroundColor DarkGray
+
+  # HttpClient rather than Invoke-WebRequest. The first version of this check
+  # used Invoke-WebRequest -SkipHttpErrorCheck, which is PowerShell 7+ only:
+  # under Windows PowerShell 5.1 -- the default shell, and the one this repo is
+  # actually driven from -- it throws a parameter-binding error BEFORE issuing
+  # any request. The catch turned that into code 0, so every URL failed the
+  # check whether or not it was live, and the guard blocked every legitimate
+  # batch. A guard that cannot pass is worse than no guard: it trains you to
+  # reach for -SkipLiveCheck, which is exactly what it exists to prevent.
+  #
+  # HttpClient is .NET Framework 4.5+ / .NET Core, so it behaves identically on
+  # 5.1 and 7.x, returns non-2xx as a status rather than an exception, and does
+  # not follow redirects when told not to.
+  Add-Type -AssemblyName System.Net.Http -ErrorAction SilentlyContinue
+  $handler = New-Object System.Net.Http.HttpClientHandler
+  $handler.AllowAutoRedirect = $false
+  $client = New-Object System.Net.Http.HttpClient($handler)
+  $client.Timeout = [TimeSpan]::FromSeconds(20)
+
   $bad = New-Object System.Collections.Generic.List[string]
   foreach ($u in $toCheck) {
     try {
-      $r = Invoke-WebRequest -Uri $u.Trim() -Method Head -MaximumRedirection 0 `
-             -SkipHttpErrorCheck -TimeoutSec 20
-      $code = [int]$r.StatusCode
+      $req = New-Object System.Net.Http.HttpRequestMessage(
+        [System.Net.Http.HttpMethod]::Head, $u.Trim())
+      $resp = $client.SendAsync($req).GetAwaiter().GetResult()
+      $code = [int]$resp.StatusCode
+      $resp.Dispose()
     } catch {
-      $code = 0
+      # A genuine transport failure (DNS, TLS, timeout). Distinct from a live
+      # server returning an error status, so report it as such rather than
+      # silently as 0.
+      $code = -1
     }
     # A 3xx matters as much as a 404: submitting a URL that redirects asks
     # Google to crawl the redirect rather than the page, which is what shows up
     # in Search Console as "Page with redirect".
-    if ($code -ne 200) { $bad.Add(("{0}  {1}" -f $code, $u.Trim())) }
+    if ($code -ne 200) {
+      $label = if ($code -eq -1) { "no-response" } else { $code }
+      $bad.Add(("{0}  {1}" -f $label, $u.Trim()))
+    }
   }
+  $client.Dispose()
 
   if ($bad.Count -gt 0) {
     Write-Host ""
@@ -170,6 +198,7 @@ if (-not $DryRun -and -not $SkipLiveCheck) {
     $bad | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
     Write-Host ""
     Write-Host "      A 404 usually means the deploy has not finished - wait a minute and retry." -ForegroundColor Yellow
+    Write-Host "      'no-response' is a transport failure (DNS/TLS/timeout), not the server." -ForegroundColor Yellow
     Write-Host "      A 3xx means the list holds a URL that redirects; fix the list, do not submit it." -ForegroundColor Yellow
     Write-Host "      Override with -SkipLiveCheck only if you know why." -ForegroundColor DarkGray
     exit 1

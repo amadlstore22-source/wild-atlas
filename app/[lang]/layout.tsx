@@ -37,11 +37,31 @@ const inter = Inter({
   display: "swap",
 });
 
+// preload:false is deliberate and is worth ~170 KB on every non-Arabic page.
+//
+// next/font injects a <link rel="preload"> for every weight of every font
+// declared in this module, at the highest fetch priority the browser has —
+// regardless of whether the page actually renders a glyph from it. The Arabic
+// variable is applied only when isRtl (see the <html> className below), but
+// the preload tags are emitted from module scope, so they went out on ALL six
+// locales. Measured on the live site: 8 font preloads on /en, /fr, /es, /de
+// and /it, five of which were IBM Plex Sans Arabic at 300/400/500/600/700 —
+// 170 KB of Arabic glyphs competing with the LCP hero image for bandwidth on
+// pages where not one character of Arabic is ever drawn.
+//
+// preload:false keeps the @font-face rules; it only drops the <link> hint. So
+// Arabic pages still get the font — the browser fetches it when it hits text
+// that needs it — while the other five locales stop paying for it entirely.
+// The tradeoff is a possible flash of fallback text on /ar only, which is what
+// display:"swap" and adjustFontFallback already handle.
+//
+// __tests__/lib/font-preload.test.ts asserts this stays false.
 const ibmPlexArabic = IBM_Plex_Sans_Arabic({
   variable: "--font-arabic",
   subsets: ["arabic"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
+  preload: false,
 });
 
 // Must be generateMetadata, not a static `metadata` export: og:locale depends

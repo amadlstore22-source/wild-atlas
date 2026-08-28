@@ -179,6 +179,7 @@ const TOUR_SLUGS_FR: Record<string, string> = {
   "high-atlas-grand-traverse-15day": "grande-traversee-haut-atlas-15-jours",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-jours",
   "chegaga-camel-trek-8day": "trek-chameau-chegaga-8-jours",
+  "morocco-highlights-toubkal-sahara-8day": "toubkal-sahara-8-jours-maroc",
 };
 
 const TOUR_SLUGS_ES: Record<string, string> = {
@@ -228,6 +229,7 @@ const TOUR_SLUGS_ES: Record<string, string> = {
   "high-atlas-grand-traverse-15day": "gran-travesia-alto-atlas-15-dias",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-dias",
   "chegaga-camel-trek-8day": "trek-camellos-chegaga-8-dias",
+  "morocco-highlights-toubkal-sahara-8day": "toubkal-sahara-8-dias-marruecos",
 };
 
 const TOUR_SLUGS_DE: Record<string, string> = {
@@ -277,6 +279,7 @@ const TOUR_SLUGS_DE: Record<string, string> = {
   "high-atlas-grand-traverse-15day": "hoher-atlas-durchquerung-15-tage",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-tage",
   "chegaga-camel-trek-8day": "kameltrekking-chegaga-8-tage",
+  "morocco-highlights-toubkal-sahara-8day": "toubkal-sahara-8-tage-marokko",
 };
 
 const TOUR_SLUGS_IT: Record<string, string> = {
@@ -326,6 +329,7 @@ const TOUR_SLUGS_IT: Record<string, string> = {
   "high-atlas-grand-traverse-15day": "grande-traversata-alto-atlante-15-giorni",
   "toubkal-summit-sahara-5day": "toubkal-sahara-5-giorni",
   "chegaga-camel-trek-8day": "trek-cammelli-chegaga-8-giorni",
+  "morocco-highlights-toubkal-sahara-8day": "toubkal-sahara-8-giorni-marocco",
 };
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"];

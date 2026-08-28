@@ -293,7 +293,12 @@
     "groupSizeFewer": "Fewer travellers",
     "groupSizeMore": "More travellers",
     "travellersRequired": "Enter at least 1 traveller.",
-    "travellersRequiredMin": "Enter at least {count} travellers."
+    "travellersRequiredMin": "Enter at least {count} travellers.",
+    "fixedDepartureTitle": "Set departures",
+    "fixedDepartureSeats": "{count} seats per departure",
+    "fixedDepartureWas": "was {price}",
+    "fixedDepartureSave": "Save {price}",
+    "fixedDepartureNote": "A set-date group departure, sold by the seat. The price is the same whatever the size of your party."
   },
   "cookieBanner": {
     "body": "We use cookies for your preferences and, with your consent, Google Analytics. Necessary cookies are always on.",

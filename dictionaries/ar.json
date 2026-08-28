@@ -293,7 +293,12 @@
     "groupSizeFewer": "عدد أقل من المسافرين",
     "groupSizeMore": "عدد أكبر من المسافرين",
     "travellersRequired": "أدخل مسافرًا واحدًا على الأقل.",
-    "travellersRequiredMin": "أدخل {count} مسافرين على الأقل."
+    "travellersRequiredMin": "أدخل {count} مسافرين على الأقل.",
+    "fixedDepartureTitle": "مواعيد ثابتة",
+    "fixedDepartureSeats": "{count} مقعدًا لكل موعد",
+    "fixedDepartureWas": "بدلًا من {price}",
+    "fixedDepartureSave": "وفّر {price}",
+    "fixedDepartureNote": "رحلة جماعية بموعد ثابت، تُباع بالمقعد. السعر واحد مهما كان عدد أفراد مجموعتك."
   },
   "cookieBanner": {
     "body": "نستخدم ملفات تعريف الارتباط لتفضيلاتك، وبموافقتك، Google Analytics. الملفات الضرورية تعمل دائمًا.",

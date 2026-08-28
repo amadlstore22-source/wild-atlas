@@ -22,8 +22,18 @@ const LOCALE_TAG: Record<string, string> = {
   ar: "ar-MA",
 };
 
-function tag(lang: string): string {
+/**
+ * Locale -> BCP-47 tag for Intl formatting. Exported because the booking
+ * sidebar formats fixed-departure dates too, and a second copy of this map
+ * would drift: bare "en" resolves to en-US and renders "Mar 5, 2027" on a site
+ * that is British English everywhere else.
+ */
+export function localeTag(lang: string): string {
   return LOCALE_TAG[lang] ?? "en-GB";
+}
+
+function tag(lang: string): string {
+  return localeTag(lang);
 }
 
 /** "25–27 June 2026", collapsing shared month/year across the range. */

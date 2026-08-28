@@ -122,6 +122,13 @@ export default async function TourDetailPage({ params }: TourParams) {
     url: tourUrl,
     validUntil,
     minPeople: cheapest.minPeople > 1 ? cheapest.minPeople : undefined,
+    // Fixed departures only: a real seat cap becomes LimitedAvailability, and
+    // a real pre-discount rate becomes a strike-through reference price. Both
+    // are undefined for every private tour, so their schema is unchanged.
+    seatsTotal: tour.fixedDeparture?.seatsTotal,
+    listPrice: tour.fixedDeparture?.listPrice
+      ? priceIn(tour.fixedDeparture.listPrice, DEFAULT_CURRENCY)
+      : undefined,
   });
 
   const productJsonLd = {

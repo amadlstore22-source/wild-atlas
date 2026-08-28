@@ -192,6 +192,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "grande-traversee-haut-atlas-15-jours": "high-atlas-grand-traverse-15day",
     "toubkal-sahara-5-jours": "toubkal-summit-sahara-5day",
     "trek-chameau-chegaga-8-jours": "chegaga-camel-trek-8day",
+    "toubkal-sahara-8-jours-maroc": "morocco-highlights-toubkal-sahara-8day",
   },
   es: {
     "desierto-merzouga-3-dias-compartido": "shared-merzouga-3day-marrakech",
@@ -240,6 +241,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "gran-travesia-alto-atlas-15-dias": "high-atlas-grand-traverse-15day",
     "toubkal-sahara-5-dias": "toubkal-summit-sahara-5day",
     "trek-camellos-chegaga-8-dias": "chegaga-camel-trek-8day",
+    "toubkal-sahara-8-dias-marruecos": "morocco-highlights-toubkal-sahara-8day",
   },
   de: {
     "merzouga-wueste-3-tage-geteilt": "shared-merzouga-3day-marrakech",
@@ -288,6 +290,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "hoher-atlas-durchquerung-15-tage": "high-atlas-grand-traverse-15day",
     "toubkal-sahara-5-tage": "toubkal-summit-sahara-5day",
     "kameltrekking-chegaga-8-tage": "chegaga-camel-trek-8day",
+    "toubkal-sahara-8-tage-marokko": "morocco-highlights-toubkal-sahara-8day",
   },
   it: {
     "deserto-merzouga-3-giorni-condiviso": "shared-merzouga-3day-marrakech",
@@ -336,6 +339,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "grande-traversata-alto-atlante-15-giorni": "high-atlas-grand-traverse-15day",
     "toubkal-sahara-5-giorni": "toubkal-summit-sahara-5day",
     "trek-cammelli-chegaga-8-giorni": "chegaga-camel-trek-8day",
+    "toubkal-sahara-8-giorni-marocco": "morocco-highlights-toubkal-sahara-8day",
   },
 };
 

@@ -293,7 +293,12 @@
     "groupSizeFewer": "Meno viaggiatori",
     "groupSizeMore": "Più viaggiatori",
     "travellersRequired": "Indica almeno 1 viaggiatore.",
-    "travellersRequiredMin": "Indica almeno {count} viaggiatori."
+    "travellersRequiredMin": "Indica almeno {count} viaggiatori.",
+    "fixedDepartureTitle": "Partenze a date fisse",
+    "fixedDepartureSeats": "{count} posti per partenza",
+    "fixedDepartureWas": "anziché {price}",
+    "fixedDepartureSave": "Risparmia {price}",
+    "fixedDepartureNote": "Una partenza di gruppo a data fissa, venduta a posto. Il prezzo è lo stesso qualunque sia la dimensione del tuo gruppo."
   },
   "cookieBanner": {
     "body": "Usiamo cookie per le tue preferenze e, con il tuo consenso, Google Analytics. I cookie necessari sono sempre attivi.",

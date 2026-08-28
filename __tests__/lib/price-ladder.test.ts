@@ -53,10 +53,69 @@ describe("group price ladders", () => {
     // booking minimum, which is a real operating constraint rather than a gap.
     // What must hold is that the advertised price is the first tier's, so the
     // card and the booking form cannot disagree.
-    for (const tour of TOURS) {
+    //
+    // Fixed departures are exempt and must be: they sell individual seats on a
+    // set date, so the price is flat by design and there is no ladder to quote
+    // from. The exemption is keyed on `fixedDeparture` rather than a slug list
+    // so the next one added is covered automatically — but it is an exemption
+    // from the LADDER rule only, never from having a price (asserted below).
+    for (const tour of TOURS.filter((t) => !t.fixedDeparture)) {
       const tiers = tour.groupPricing ?? [];
       expect(tiers.length, `${tour.slug} has no group pricing`).toBeGreaterThan(0);
       expect(tour.price, `${tour.slug} headline price differs from tier 1`).toBe(tiers[0].price);
+    }
+  });
+
+  /**
+   * Fixed departures replace the ladder with a seat price, so the ladder rules
+   * above cannot police them. These are the invariants that take their place.
+   *
+   * The discount pair is the one worth guarding. `listPrice` renders as a
+   * struck-through reference price in both the page and the Offer schema, and
+   * a listPrice at or below `price` would show a "discount" from a figure that
+   * is not higher — the visual claim and the arithmetic would disagree, and
+   * nothing else in the build compares the two numbers.
+   */
+  it("fixed departures carry a flat seat price and an honest discount", () => {
+    for (const tour of TOURS.filter((t) => t.fixedDeparture)) {
+      const fd = tour.fixedDeparture!;
+
+      expect(
+        tour.groupPricing,
+        `${tour.slug} is a fixed departure but also carries groupPricing. The
+` +
+          `two pricing models contradict each other: a seat price is flat, a
+` +
+          `ladder is not. Drop one.`,
+      ).toBeUndefined();
+
+      expect(tour.price, `${tour.slug} fixed departure has no seat price`).toBeGreaterThan(0);
+      expect(fd.seatsTotal, `${tour.slug} seat cap must be a real number`).toBeGreaterThan(0);
+      expect(
+        fd.dates.length,
+        `${tour.slug} is a fixed departure with no dates. A set-date trip that
+` +
+          `states no date cannot be booked and emits no useful schema.`,
+      ).toBeGreaterThan(0);
+
+      for (const d of fd.dates) {
+        expect(d, `${tour.slug} departure date must be ISO YYYY-MM-DD`).toMatch(
+          /^\d{4}-\d{2}-\d{2}$/,
+        );
+      }
+
+      if (fd.listPrice !== undefined) {
+        expect(
+          fd.listPrice,
+          `${tour.slug}: listPrice (${fd.listPrice}) must exceed the selling
+` +
+            `price (${tour.price}). It renders as a struck-through "was" figure,
+` +
+            `so a listPrice at or below the real price advertises a discount
+` +
+            `that does not exist.`,
+        ).toBeGreaterThan(tour.price);
+      }
     }
   });
 });

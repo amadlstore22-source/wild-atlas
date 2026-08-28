@@ -293,7 +293,12 @@
     "groupSizeFewer": "Weniger Reisende",
     "groupSizeMore": "Mehr Reisende",
     "travellersRequired": "Bitte mindestens 1 Reisenden angeben.",
-    "travellersRequiredMin": "Bitte mindestens {count} Reisende angeben."
+    "travellersRequiredMin": "Bitte mindestens {count} Reisende angeben.",
+    "fixedDepartureTitle": "Feste Termine",
+    "fixedDepartureSeats": "{count} Plätze pro Termin",
+    "fixedDepartureWas": "statt {price}",
+    "fixedDepartureSave": "{price} sparen",
+    "fixedDepartureNote": "Eine Gruppenreise mit festem Termin, verkauft pro Platz. Der Preis ist unabhängig von Ihrer Gruppengröße derselbe."
   },
   "cookieBanner": {
     "body": "Wir verwenden Cookies für Ihre Einstellungen und, mit Ihrer Zustimmung, Google Analytics. Notwendige Cookies sind immer aktiv.",

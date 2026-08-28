@@ -93,8 +93,49 @@ export function buildAggregateOffer(opts: {
   validUntil: string;
   /** Group size that unlocks `low`; omitted when the ladder is flat. */
   minPeople?: number;
+  /**
+   * A set-date departure with a finite seat count. Emits
+   * schema.org/LimitedAvailability plus `inventoryLevel`, which is what makes
+   * "limited seats" a machine-readable claim rather than page copy Google
+   * cannot verify. Only pass this when the seat cap is real — the availability
+   * enum is a factual assertion about stock, and a permanent
+   * LimitedAvailability on an uncapped tour is the structured-data equivalent
+   * of a fake countdown timer.
+   */
+  seatsTotal?: number;
+  /**
+   * The undiscounted rate, in the same display currency as `low`/`high`. Emits
+   * a strike-through reference price. Only legitimate when this price is
+   * genuinely charged outside the promotion: the EU Omnibus Directive requires
+   * a "was" figure to be a real prior price, and Google's structured-data spam
+   * policy treats an invented anchor as misleading markup.
+   */
+  listPrice?: number;
 }) {
-  const { low, high, currency, url, validUntil, minPeople } = opts;
+  const { low, high, currency, url, validUntil, minPeople, seatsTotal, listPrice } = opts;
+
+  // Shared by both branches so a seat-capped tour cannot advertise InStock in
+  // one shape and LimitedAvailability in the other.
+  const availability = seatsTotal
+    ? "https://schema.org/LimitedAvailability"
+    : "https://schema.org/InStock";
+  const inventory = seatsTotal
+    ? { inventoryLevel: { "@type": "QuantitativeValue", value: seatsTotal, unitCode: "IE" } }
+    : {};
+  // priceSpecification carries the pre-discount figure. Rich results render it
+  // as a strike-through; omitted entirely when there is no real list price, so
+  // an undiscounted tour never implies one.
+  const reference =
+    listPrice && listPrice > low
+      ? {
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            priceType: "https://schema.org/ListPrice",
+            price: String(listPrice),
+            priceCurrency: currency,
+          },
+        }
+      : {};
   // A flat ladder (shared seats, or a single-tier tour) has nothing to
   // aggregate. Emitting AggregateOffer with lowPrice === highPrice is legal but
   // tells Google nothing, so fall back to the simpler node it understands best.
@@ -104,8 +145,10 @@ export function buildAggregateOffer(opts: {
       price: String(low),
       priceCurrency: currency,
       priceValidUntil: validUntil,
-      availability: "https://schema.org/InStock",
+      availability,
       url,
+      ...inventory,
+      ...reference,
     };
   }
   return {
@@ -114,8 +157,10 @@ export function buildAggregateOffer(opts: {
     highPrice: String(high),
     priceCurrency: currency,
     priceValidUntil: validUntil,
-    availability: "https://schema.org/InStock",
+    availability,
     url,
+    ...inventory,
+    ...reference,
     // eligibleQuantity states the group size that unlocks lowPrice, so the
     // "for 6+" qualifier in the meta description is machine-readable too. IE is
     // the UN/CEFACT code for "count of persons".

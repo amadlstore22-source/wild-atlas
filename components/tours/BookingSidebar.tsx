@@ -9,6 +9,7 @@ import { reviewsForTour } from "@/lib/reviews";
 import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
 import { priceIn } from "@/lib/currency-core";
+import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -100,6 +101,14 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // Showing every tier is the honest version and removes a reason to bounce.
   const cheapest = lowestGroupPrice(tour);
   const tiers = groupPriceTiers(tour);
+  // Fixed departures: a set-date trip sold by the seat. The Offer schema for
+  // these already asserts LimitedAvailability, an inventoryLevel and a
+  // ListPrice, and Google requires structured data to have a visible
+  // counterpart -- so the seats, the dates and the pre-discount price all have
+  // to be rendered, not merely emitted. Undefined for every private tour, so
+  // this block simply does not render for them.
+  const fd = tour.fixedDeparture;
+  const fdSaving = fd?.listPrice ? fd.listPrice - tour.price : 0;
   const showTiers = tiers.length > 1 && tiers[tiers.length - 1].price < tiers[0].price;
   const savedPerPerson = basePer - effPer;
   const totalMin = effPer * people;
@@ -131,6 +140,48 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           {showTiers && (
             <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow bg-white/10 px-2.5 py-1 rounded-full">
               {(b.groupRateFrom ?? "Groups from {price}/person").replace("{price}", format(tiers[tiers.length - 1].price))}
+            </div>
+          )}
+          {fd && (
+            <div className="mt-3 pt-3 border-t border-white/15">
+              {fd.listPrice && (
+                <div className="flex items-baseline gap-2 mb-2">
+                  {/* A real pre-discount rate, not an invented anchor: see the
+                      `listPrice` docblock on the Tour interface. */}
+                  <span className="text-white/60 text-sm line-through">
+                    {(b.fixedDepartureWas ?? "was {price}").replace("{price}", format(fd.listPrice))}
+                  </span>
+                  {fdSaving > 0 && (
+                    <span className="text-[0.7rem] font-semibold text-brass-glow bg-white/10 px-2 py-0.5 rounded-full">
+                      {(b.fixedDepartureSave ?? "Save {price}").replace("{price}", format(fdSaving))}
+                    </span>
+                  )}
+                </div>
+              )}
+              <div className="text-white/85 text-xs uppercase tracking-widest mb-1.5">
+                {b.fixedDepartureTitle ?? "Set departures"}
+              </div>
+              <ul className="flex flex-wrap gap-1.5 mb-2">
+                {fd.dates.map((d) => (
+                  <li
+                    key={d}
+                    className="text-[0.72rem] font-semibold text-white bg-white/10 px-2 py-0.5 rounded-full"
+                  >
+                    {new Date(`${d}T00:00:00Z`).toLocaleDateString(localeTag(lang), {
+                      day: "numeric",
+                      month: "short",
+                      year: "numeric",
+                      timeZone: "UTC",
+                    })}
+                  </li>
+                ))}
+              </ul>
+              <div className="text-white/55 text-xs">
+                {(b.fixedDepartureSeats ?? "{count} seats per departure").replace(
+                  "{count}",
+                  String(fd.seatsTotal),
+                )}
+              </div>
             </div>
           )}
           <div className="mt-4 pt-4 border-t border-white/15 grid grid-cols-2 gap-2 text-sm">

@@ -1,6 +1,6 @@
 # Indexing state
 
-**As of 2026-08-28: all 1,026 site URLs have been submitted.** The 8-day
+**As of 2026-08-28: all 1,050 site URLs have been submitted.** The 8-day
 Toubkal + Sahara fixed-departure tour shipped that day and added six pages
 (one per locale); they went out as `docs/batch-2026-08-28.txt`: **6 submitted,
 0 failed, QUOTA_CONSUMED=6**.
@@ -102,3 +102,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-26 | `batch-2026-08-26-events.txt` | 1 | `/en/events` only — one URL slipped through on a rounding edge, the next call hit the wall immediately |
 | 2026-08-27 | `batch-2026-08-27-pending.txt` | 59 | 41 events + 18 new-article pages, one run. 59 submitted, 0 failed. **Site now fully submitted: `diff-unsubmitted.mjs` reports 1020 / 1020, 0 outstanding.** |
 | 2026-08-28 | `batch-2026-08-28.txt` | 6 | 8-day Toubkal + Sahara tour, six locales. Verified all six served HTTP 200 before sending — they 404'd for ~2 min while Vercel deployed. 6 submitted, 0 failed. |
+| 2026-08-28 | `batch-2026-08-28-posts.txt` | 24 | Four new posts x six locales. Both index-batch.ps1 guards ran: nothing-outstanding check passed, and all 24 verified serving 200 before sending. |

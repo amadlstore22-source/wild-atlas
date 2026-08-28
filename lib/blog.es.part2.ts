@@ -6265,6 +6265,8 @@ Ese intervalo de ocho meses explica una confusión persistente: los artículos q
 accidente en 1970 están citando el hallazgo, no el siniestro. Ambas fechas son reales, y
 no son el mismo suceso.
 
+![El motor del Lockheed Constellation incrustado en las rocas de la cumbre de Tibherine Este, con el Alto Atlas difuminándose en la bruma detrás.](/gallery/tibherine-east-plane-wreck-sunrise.jpg "Uno de los motores, todavía en la cima donde chocó en 1969.")
+
 ## Dónde está realmente
 
 Tibherine es una **cumbre gemela**: Este a 3.880 m y Oeste a 3.887 m, lo bastante parecidas
@@ -6286,6 +6288,8 @@ referencia — dice **ocho**. Publicamos ocho.
 Importa más allá de la pedantería. Se trata de un vuelo de carga de guerra que mató a
 todos los que iban a bordo y quedó sin encontrar en una ladera durante casi un año. Partir
 por la mitad la cifra de víctimas lo convierte en una curiosidad.
+
+![Restos esparcidos por la cumbre de Tibherine Este, con las crestas del Alto Atlas perdiéndose en la distancia.](/gallery/tibherine-east-plane-wreck-ridges.jpg "Los restos descienden por la cara oeste y el corredor de debajo.")
 
 ## ¿Se puede ir a verlo?
 

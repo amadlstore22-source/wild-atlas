@@ -170,6 +170,14 @@ export default async function BlogPostPage({ params }: BlogParams) {
       .replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, '<a href="$2">$1</a>');
   }
 
+  // ![alt](/path.jpg) with an optional "caption" after the path.
+  // The path is restricted to a leading slash for the same reason links are:
+  // it cannot become an external or javascript: URL.
+  // ![alt](/path.jpg "caption") — the path must start with a slash, for the
+  // same reason inline links are restricted: it can never become an external
+  // host or a javascript: URL from authored content.
+  const IMG_LINE = /^!\[([^\]]*)\]\((\/[^)\s]+)(?:\s+"([^"]*)")?\)\s*$/;
+
   const isTableRow = (l: string) => l.trimStart().startsWith("|");
   // A separator row (|---|---|) marks the line above as the header.
   const isTableDivider = (l: string) => /^\s*\|[\s|:-]+\|\s*$/.test(l) && l.includes("-");
@@ -243,7 +251,53 @@ export default async function BlogPostPage({ params }: BlogParams) {
   // into its output — instead we split the source on the token and render the
   // segments either side of the widget.
   // `\r?$` matters: lib/blog.ts is CRLF, so a bare `$` would never match.
-  const segments = post.content.split(/^\[\[WEATHER\]\]\r?$/m).map(renderMarkdown);
+  /**
+   * Inline images: ![alt](/gallery/file.jpg "optional caption") on its own line.
+   *
+   * WHY THIS IS SPLIT INTO REACT RATHER THAN EMITTED AS HTML
+   * The obvious implementation is an <img> tag inside renderMarkdown's output
+   * string. That was written and thrown away, because a raw <img> inside
+   * dangerouslySetInnerHTML BYPASSES the Next image optimizer entirely — no
+   * AVIF, no WebP, no per-device resizing. next.config.ts configures all three,
+   * and the gallery averages 238 KB per JPEG, so four images in an article
+   * would ship roughly 1 MB of unoptimised bytes on a site whose LCP is already
+   * 3.0 s against a 2.5 s threshold. The feature would have worsened the exact
+   * metric it exists to serve.
+   *
+   * So images are split out the same way [[WEATHER]] is, and each renders
+   * through <Image>: AVIF/WebP negotiation, correct srcset, lazy below the fold.
+   *
+   * width/height are given explicitly rather than using `fill`, so the browser
+   * reserves the box before the bytes arrive — that is what holds CLS at zero
+   * in a flowing article. `fill` needs a sized parent and would reintroduce the
+   * shift this avoids.
+   */
+  type Block =
+    | { kind: "html"; html: string }
+    | { kind: "img"; alt: string; src: string; caption?: string };
+
+  function toBlocks(markdown: string): Block[] {
+    const out: Block[] = [];
+    let buffer: string[] = [];
+    const flush = () => {
+      const text = buffer.join("\n").trim();
+      if (text) out.push({ kind: "html", html: renderMarkdown(text) });
+      buffer = [];
+    };
+    for (const line of markdown.split("\n")) {
+      const m = line.trim().match(IMG_LINE);
+      if (m) {
+        flush();
+        out.push({ kind: "img", alt: m[1] ?? "", src: m[2], caption: m[3] });
+      } else {
+        buffer.push(line);
+      }
+    }
+    flush();
+    return out;
+  }
+
+  const blocks = post.content.split(/^\[\[WEATHER\]\]\r?$/m).map(toBlocks);
 
   return (
     <>
@@ -283,11 +337,40 @@ export default async function BlogPostPage({ params }: BlogParams) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
             <article className="bg-card rounded-[4px] p-8 sm:p-12 shadow-sm">
               <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-l-4 border-sunset pl-5">{post.excerpt}</p>
-              {segments.map((html, i) => (
+              {blocks.map((segment, i) => (
                 <div key={i}>
-                  <div className="blog-prose max-w-none" dangerouslySetInnerHTML={{ __html: html }} />
+                  {segment.map((block, j) =>
+                    block.kind === "html" ? (
+                      <div
+                        key={j}
+                        className="blog-prose max-w-none"
+                        dangerouslySetInnerHTML={{ __html: block.html }}
+                      />
+                    ) : (
+                      <figure key={j} className="my-8">
+                        {/* Sized, not `fill`: the box is reserved before the
+                            bytes arrive, so the article never shifts. 1600 is
+                            the width the gallery is optimised to; `sizes` caps
+                            the request at the real column width so mobile does
+                            not download a desktop variant. */}
+                        <Image
+                          src={block.src}
+                          alt={block.alt}
+                          width={1600}
+                          height={1067}
+                          sizes="(max-width: 1024px) 100vw, 768px"
+                          className="w-full h-auto rounded-[4px]"
+                        />
+                        {block.caption && (
+                          <figcaption className="mt-2 text-sm text-ink-soft italic">
+                            {block.caption}
+                          </figcaption>
+                        )}
+                      </figure>
+                    ),
+                  )}
                   {/* Widget sits between segments only, never after the last one. */}
-                  {i < segments.length - 1 && post.weatherRegion && (
+                  {i < blocks.length - 1 && post.weatherRegion && (
                     <BlogWeather region={post.weatherRegion} dict={dict} />
                   )}
                 </div>

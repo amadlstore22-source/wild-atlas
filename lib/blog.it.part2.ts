@@ -6267,6 +6267,8 @@ Questo intervallo di otto mesi spiega una confusione persistente: gli articoli c
 l'incidente al 1970 citano il ritrovamento, non lo schianto. Entrambe le date sono reali, e
 non sono lo stesso evento.
 
+![Il motore del Lockheed Constellation incastrato nelle rocce di vetta del Tibherine Est, con l'Alto Atlante che sfuma nella foschia alle spalle.](/gallery/tibherine-east-plane-wreck-sunrise.jpg "Uno dei motori, ancora sulla cima dove si schiantò nel 1969.")
+
 ## Dove si trova davvero
 
 Il Tibherine è una **cima gemella**: Est a 3.880 m e Ovest a 3.887 m, abbastanza simili per
@@ -6288,6 +6290,8 @@ d'incidente di riferimento — dice **otto**. Noi pubblichiamo otto.
 Non è pedanteria. Si tratta di un volo di carico bellico che uccise tutti a bordo e rimase
 introvabile su un fianco di montagna per quasi un anno. Dimezzare il bilancio lo trasforma
 in una curiosità.
+
+![Detriti sparsi sulla vetta del Tibherine Est, le creste dell'Alto Atlante che si perdono in lontananza.](/gallery/tibherine-east-plane-wreck-ridges.jpg "I detriti scendono lungo la parete ovest e il canale sottostante.")
 
 ## Si può andare a vederlo?
 

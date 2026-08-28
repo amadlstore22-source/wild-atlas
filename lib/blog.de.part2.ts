@@ -6283,6 +6283,8 @@ Diese acht Monate erklären eine hartnäckige Verwechslung: Artikel, die den Abs
 datieren, zitieren den Fund, nicht den Unfall. Beide Daten sind real, und sie bezeichnen
 nicht dasselbe Ereignis.
 
+![Der Motor der Lockheed Constellation, eingebettet in den Gipfelfels des Tibherine Ost, dahinter der im Dunst verschwindende Hohe Atlas.](/gallery/tibherine-east-plane-wreck-sunrise.jpg "Einer der Motoren, noch immer am Gipfel, an dem er 1969 einschlug.")
+
 ## Wo es tatsächlich liegt
 
 Tibherine ist ein **Zwillingsgipfel**: Ost auf 3.880 m und West auf 3.887 m, in Höhe und
@@ -6304,6 +6306,8 @@ Unfallbericht — nennt **acht**. Wir veröffentlichen acht.
 Das ist mehr als Pedanterie. Es geht um einen Kriegsfrachtflug, bei dem alle an Bord
 starben und der fast ein Jahr lang unentdeckt an einem Berghang lag. Die Opferzahl zu
 halbieren macht daraus eine Kuriosität.
+
+![Trümmer über den Gipfel des Tibherine Ost verstreut, die Grate des Hohen Atlas verlieren sich in der Ferne.](/gallery/tibherine-east-plane-wreck-ridges.jpg "Die Trümmer ziehen sich die Westflanke und die Rinne darunter hinab.")
 
 ## Kann man es besuchen?
 

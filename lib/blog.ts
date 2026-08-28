@@ -8571,6 +8571,8 @@ That eight-month gap explains a persistent confusion: articles that date the cra
 1970 are citing the discovery, not the accident. Both dates are real, and they are not
 the same event.
 
+![The Lockheed Constellation engine embedded in the summit rocks of Tibherine East, with the High Atlas receding into haze behind it.](/gallery/tibherine-east-plane-wreck-sunrise.jpg "One of the engines, still on the summit where it struck in 1969.")
+
 ## Where it actually is
 
 Tibherine is a **twin summit**: East at 3,880 m and West at 3,887 m, close enough in
@@ -8592,6 +8594,8 @@ We publish eight.
 It matters beyond pedantry. This is a war-cargo flight that killed everyone aboard and
 lay unfound on a mountainside for most of a year. Halving the casualty figure turns it
 into a curiosity.
+
+![Wreckage scattered across the summit of Tibherine East, ridges of the High Atlas fading into the distance.](/gallery/tibherine-east-plane-wreck-ridges.jpg "Debris runs down the west face and into the couloir below.")
 
 ## Can you go and see it?
 

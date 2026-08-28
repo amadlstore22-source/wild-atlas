@@ -6174,4 +6174,362 @@ Vous hésitez sur le désert ?
 [Merzouga ou Zagora](/fr/blog/merzouga-vs-zagora-which-desert-tour) compare les
 routes, les dunes et le coût.`,
   },
+  {
+    slug: "toubkal-sahara-8-day-tour-cost",
+    author: MET_TEAM,
+    title: "Combien coûte le circuit Toubkal et Sahara de 8 jours ? (départs 2027)",
+    excerpt:
+      "Huit jours, deux objectifs : le plus haut sommet d'Afrique du Nord et les dunes de l'erg Chebbi. Voici ce que coûte réellement un départ à date fixe, comment cela se compare à réserver les parties séparément, et pourquoi le prix par personne ne change pas avec la taille du groupe.",
+    heroImage: "/gallery/toubkal-refuge-approach-trekkers.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    tags: ["Toubkal", "Sahara", "erg Chebbi", "trekking", "Maroc"],
+    seoTitle: "Circuit Toubkal et Sahara 8 jours — prix et départs 2027",
+    seoDescription:
+      "Ce que coûte le circuit de 8 jours Toubkal et Sahara : 889 € par personne sur des départs fixes, contre 1 413 € en réservant le même parcours séparément.",
+    faq: [
+      { q: "Combien coûte le circuit Toubkal et Sahara de 8 jours ?", a: "889 € par personne sur les départs fixes de 2027, au lieu d'un tarif normal de 921 €. Cela comprend tous les transferts aéroport, l'hébergement en demi-pension, tous les repas pendant le trek, le guide de montagne diplômé, les mules en montagne et la méharée à l'erg Chebbi. Le dîner à Marrakech, l'assurance voyage et les pourboires ne sont pas inclus — un choix délibéré, détaillé plus bas." },
+      { q: "Pourquoi le prix ne change-t-il pas selon la taille du groupe ?", a: "Parce qu'il s'agit d'un départ à date fixe vendu à la place, et non d'un circuit privé. Sur nos circuits privés, le guide et le véhicule sont un coût fixe réparti entre les participants : six personnes paient donc beaucoup moins chacune qu'une seule. Ici le voyage part à sa date publiée quoi qu'il arrive, et ce qui varie, c'est le nombre de places restantes sur 14. Deux amis paient le même prix par personne qu'un voyageur seul, ce qui est rare au Maroc et fait de cet itinéraire un très bon choix en solo." },
+      { q: "Que signifie concrètement la limite de 14 places ?", a: "Le départ ferme dès que les 14 places sont vendues. Ce plafond répond à deux contraintes réelles plutôt qu'à une tactique commerciale : le refuge du Toubkal et le campement du désert ont une capacité limitée pour une nuit donnée, et un guide ne peut encadrer qu'un nombre limité de personnes un matin de sommet, dans le noir. Si une date affiche complet, la suivante est vraiment la suivante." },
+      { q: "Est-ce moins cher de réserver les parties séparément ?", a: "Non, et l'écart est net. En prenant des circuits comparables dans notre propre catalogue — le trek Toubkal de 4 jours, un circuit Sahara privé de 3 jours et une journée guidée dans la médina — on arrive à environ 1 413 € au tarif solo. L'itinéraire combiné est à 889 € parce qu'il s'agit d'un seul parcours continu avec un seul guide et un seul véhicule, au lieu de trois voyages distincts portant chacun ses transferts et sa journée de guidage." },
+      { q: "Qu'est-ce qui n'est pas inclus, et combien cela coûte-t-il ?", a: "Le dîner à Marrakech lors des deux nuits en riad : la médina regorge d'adresses qui méritent d'être choisies par vous, et un dîner d'hôtel imposé est la pire façon d'y manger — comptez 100 à 250 MAD par personne. L'assurance voyage est obligatoire et à votre charge, car les garanties pour le trekking au-dessus de 4 000 m varient beaucoup d'un contrat à l'autre. Les pourboires sont d'usage : 150 à 200 MAD par jour pour le guide et 70 à 100 MAD pour les muletiers, de la part du groupe, en espèces à la fin." },
+      { q: "Faut-il être un trekkeur expérimenté ?", a: "Non, mais il faut être en forme pour deux longues journées consécutives. Le jour du sommet dure environ neuf heures avec un départ avant l'aube, et il n'y a aucune escalade technique sur l'itinéraire normal : ni corde, ni passage d'escalade au-delà de quelques ressauts rocheux. Ce qu'il faut, c'est de l'endurance de randonnée en altitude. Si vous marchez six heures en moyenne montagne sans redouter le lendemain, vous avez ce qu'il faut." },
+    ],
+    content: `
+Deux objectifs que la plupart des gens traitent comme deux voyages distincts : le Jbel
+Toubkal à 4 167 m, et la mer de sable de l'erg Chebbi. Voici ce que coûte leur réunion en
+un itinéraire de huit jours, et où va l'argent.
+
+## Le chiffre principal
+
+**889 € par personne**, sur les départs fixes de 2027, au lieu d'un tarif normal de 921 €.
+
+C'est un prix à la place, fixe. Il ne baisse pas si vous venez à plusieurs et n'augmente
+pas si vous venez seul — l'inverse de presque tous les voyages au Maroc, y compris les
+nôtres.
+
+## Pourquoi le prix ne bouge pas avec le groupe
+
+Sur un circuit privé, le guide, le véhicule et le chauffeur sont un coût fixe réparti
+entre les participants. Une personne paie tout ; six personnes divisent par six. C'est
+pourquoi notre [trek Toubkal de 4 jours](/en/tours/toubkal-summit-trek-4day) va de 650 €
+en solo à 260 € chacun à six.
+
+Un départ fixe inverse cette logique. Le voyage part à sa date publiée que quatre ou
+quatorze personnes aient réservé, donc le prix de la place est fixe et ce qui varie, c'est
+la disponibilité. Pour un voyageur seul c'est nettement plus avantageux ; pour un groupe
+de six, cela vaut la peine de comparer avec la version privée.
+
+## Ce que coûte le même parcours réservé séparément
+
+D'après notre propre catalogue, au tarif solo :
+
+| Élément | Circuit comparable | Prix solo |
+|---|---|---|
+| Sommet du Toubkal | [Trek Toubkal 4 jours](/en/tours/toubkal-summit-trek-4day) à 650 € en solo | 650 € |
+| Sahara / erg Chebbi | Circuit Sahara privé 3 jours | 690 € |
+| Médina de Marrakech | Visite culturelle guidée | 73 € |
+| **Total** | | **1 413 €** |
+
+Le circuit combiné coûte 889 € pour le même parcours. L'écart n'est pas une remise : c'est
+ce qui disparaît quand trois voyages deviennent un seul itinéraire — deux séries de
+transferts aller-retour depuis Marrakech, deux journées de guidage supplémentaires, et les
+jours de véhicule à vide entre les deux.
+
+## Ce qui est inclus
+
+- Tous les transferts aéroport, à l'arrivée et au départ
+- Sept nuits : riad, gîte, refuge de montagne et campement dans le désert
+- Demi-pension tout au long, et **tous** les repas pendant le trek
+- Guide de montagne diplômé pour l'ensemble du voyage
+- Mules en montagne, dromadaires à l'erg Chebbi
+- Droits d'entrée du parc national
+
+## Ce qui ne l'est pas, et pourquoi
+
+- **Le dîner à Marrakech** lors des deux nuits en riad. C'est délibéré. La médina compte
+  plus d'adresses qui valent le détour qu'aucun programme ne devrait choisir à votre
+  place, et un dîner d'hôtel imposé est la pire façon d'y manger. Comptez 100 à 250 MAD.
+- **L'assurance voyage.** Obligatoire, et à votre charge, parce que les garanties pour le
+  trekking au-dessus de 4 000 m varient énormément selon les contrats — mieux vaut lire
+  le vôtre que faire confiance au nôtre.
+- **Les pourboires.** 150 à 200 MAD par jour pour le guide, 70 à 100 MAD pour les
+  muletiers, de la part du groupe, en espèces à la fin.
+
+## Les départs
+
+Cinq dates, mars et avril 2027, 14 places chacune. Les départs de mars se font en
+conditions hivernales au sommet — lisez
+[gravir le Toubkal en mars](/en/blog/climbing-toubkal-in-march) avant de choisir, car la
+montagne début mars et la même montagne à la mi-avril sont deux propositions bien
+différentes.
+
+## En résumé
+
+889 € achètent huit jours, deux objectifs emblématiques du Maroc, un seul guide et un
+parcours continu. Réserver le même terrain en voyages séparés coûte environ 1 413 €. Le
+prix de la place ne change pas avec la taille du groupe, ce qui en fait une valeur
+inhabituellement bonne pour les voyageurs seuls — et une comparaison à faire soigneusement
+si vous êtes six.
+`,
+  },
+  {
+    slug: "tibherine-plane-wreck-toubkal",
+    author: MET_TEAM,
+    title: "L'épave d'avion du Tibherine : le plus haut site de crash du Maroc",
+    excerpt:
+      "Un moteur d'avion est encastré dans un sommet voisin du Toubkal, avec des débris éparpillés sur toute la face ouest. Il est là depuis 1969, et la plupart des récits se trompent sur les détails.",
+    heroImage: "/gallery/tibherine-east-plane-wreck-sunrise.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 6,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    tags: ["Toubkal", "Tibherine", "Haut Atlas", "histoire", "Maroc"],
+    seoTitle: "L'épave d'avion du Tibherine au-dessus du Toubkal",
+    seoDescription:
+      "Un Lockheed Constellation a percuté le Tibherine Est à 3 880 m en novembre 1969, chargé de munitions pour le Biafra. L'épave n'a été retrouvée que huit mois plus tard.",
+    faq: [
+      { q: "Où se trouve exactement l'épave du Tibherine ?", a: "Sur le Tibherine Est, un sommet de 3 880 m du massif du Toubkal, au nord du Toubkal lui-même. Le Tibherine est un sommet jumeau — Est à 3 880 m et Ouest à 3 887 m, assez proches en hauteur et en forme pour être appelés localement « les jumeaux ». L'épave est sur le sommet oriental, avec des débris répandus sur la face ouest et un moteur encastré dans les rochers du sommet." },
+      { q: "De quel avion s'agissait-il et que s'est-il passé ?", a: "Un Lockheed L-749A Constellation, qui volait de nuit de Faro au Portugal vers São Tomé, chargé de munitions destinées au Biafra pendant la guerre civile nigériane. Le 28 novembre 1969, l'équipage a signalé des problèmes moteur et demandé à se dérouter vers l'aéroport le plus proche, mais l'appareil a perdu de l'altitude et percuté la montagne. Les huit personnes à bord ont péri." },
+      { q: "Combien de temps avant que l'épave soit retrouvée ?", a: "Près de huit mois. Le crash a eu lieu le 28 novembre 1969 et l'épave n'a été localisée que le 18 juillet 1970, quand des alpinistes en course dans le massif du Toubkal sont tombés sur les débris. C'est cet écart qui explique que beaucoup de récits datent le crash de 1970 : ils citent la découverte, pas l'accident." },
+      { q: "Les treks du Toubkal passent-ils par l'épave ?", a: "Pas sur l'itinéraire normal. Nos treks montent au sommet du Toubkal puis redescendent au refuge ; le Tibherine est un objectif distinct, atteint par une ligne différente et bien moins fréquentée. Il peut être ajouté pour des trekkeurs expérimentés avec un guide qui connaît l'approche, mais il ne rentre pas dans un programme de deux jours et ne doit jamais être traité comme un simple détour." },
+      { q: "Est-ce dangereux d'y aller ?", a: "C'est le terrain qui pose problème, pas l'épave. L'approche n'est pas balisée, le sol est instable et exposé par endroits, et le versant nord du massif est plus raide que l'itinéraire touristique. C'est du terrain pour randonneurs expérimentés accompagnés d'un guide, par temps stable — et depuis 2018 un guide diplômé est de toute façon obligatoire partout dans le parc national du Toubkal." },
+      { q: "Pourquoi les sources divergent-elles sur le nombre de victimes ?", a: "Plusieurs articles de voyage parlent de quatre membres d'équipage. Le registre du Bureau of Aircraft Accidents Archives — le rapport d'accident de référence — indique huit. Nous publions huit pour cette raison. L'altitude est brouillée de la même façon : les chiffres de 3 886 et 3 887 m circulent parce que des auteurs citent le Tibherine Ouest pour une épave qui se trouve sur le Tibherine Est, à 3 880 m." },
+    ],
+    content: `
+Marchez sur le versant nord du massif du Toubkal et vous tombez sur quelque chose qui
+arrête net la plupart des gens : un moteur d'avion, posé dans les rochers d'un sommet de
+3 880 m, avec du métal éparpillé sur la pente en contrebas.
+
+Il est là depuis 1969. La plupart des récits se trompent sur au moins un détail — voici
+ce que dit réellement le rapport.
+
+## Ce qui s'est passé
+
+Dans la nuit du **28 novembre 1969**, un Lockheed L-749A Constellation volait de Faro, au
+Portugal, vers São Tomé. Sa cargaison : des munitions, à destination finale du Biafra —
+le territoire qui avait fait sécession du Nigeria en 1967 et se trouvait, fin 1969, dans
+les derniers mois d'une guerre perdue.
+
+Au-dessus du Maroc, l'équipage a eu des ennuis moteur et a annoncé au contrôle aérien
+vouloir se dérouter vers l'aéroport le plus proche. L'appareil a perdu de l'altitude à la
+place, et percuté le Tibherine Est. Les huit personnes à bord ont péri.
+
+## Huit mois avant que quiconque la retrouve
+
+L'épave n'a été localisée que le **18 juillet 1970**, quand des alpinistes en course dans
+le massif du Toubkal sont tombés sur les débris vers 3 900 m.
+
+Ces huit mois expliquent une confusion tenace : les articles qui datent le crash de 1970
+citent la découverte, pas l'accident. Les deux dates sont réelles, et ce ne sont pas le
+même événement.
+
+## Où c'est réellement
+
+Le Tibherine est un **sommet jumeau** : Est à 3 880 m et Ouest à 3 887 m, assez proches en
+hauteur et en profil pour être appelés localement « les jumeaux ». L'épave est sur le
+sommet **oriental**.
+
+C'est la source de l'autre erreur courante. Les récits qui citent 3 886 ou 3 887 m donnent
+la hauteur du sommet ouest pour une épave qui gît sur celui de l'est.
+
+Les débris descendent la face ouest et le couloir en dessous. L'un des moteurs est encastré
+dans le sommet lui-même — c'est la pièce que photographient la plupart des trekkeurs.
+
+## Ce que la plupart des articles se trompent
+
+Le nombre de morts est celui qui mérite correction. Plusieurs récits de voyage parlent de
+quatre membres d'équipage. Le Bureau of Aircraft Accidents Archives — le rapport
+d'accident de référence — indique **huit**. Nous publions huit.
+
+Ce n'est pas de la pédanterie. Il s'agit d'un vol de cargaison de guerre qui a tué tout le
+monde à bord et est resté introuvable sur un flanc de montagne pendant presque un an.
+Diviser le bilan par deux transforme cela en curiosité.
+
+## Peut-on aller le voir ?
+
+Pas sur l'itinéraire normal du Toubkal, et nous préférons le dire clairement plutôt que de
+laisser entendre le contraire.
+
+Nos [treks du Toubkal](/en/tours/toubkal-summit-trek-4day) montent au sommet du Toubkal à
+4 167 m et redescendent au refuge. Le Tibherine est un objectif distinct sur une ligne
+différente, bien moins parcourue. L'approche n'est pas balisée, le terrain est instable et
+plus raide que tout ce qu'on trouve sur le sentier touristique.
+
+Il peut être ajouté pour des trekkeurs expérimentés, avec un guide qui connaît le terrain
+et par temps stable. Il ne rentre pas dans un programme de deux jours. Si le voir compte
+pour vous, dites-le au moment de la demande et nous vous dirons honnêtement si cela
+s'intègre au voyage envisagé — souvent la réponse est qu'il faut une journée de plus.
+
+Depuis 2018, un guide diplômé est obligatoire partout dans le parc national du Toubkal :
+ce n'est de toute façon pas un itinéraire à tenter seul.
+`,
+  },
+  {
+    slug: "climbing-toubkal-in-march",
+    author: MET_TEAM,
+    title: "Gravir le Toubkal en mars : à quoi vous vous engagez vraiment",
+    excerpt:
+      "Mars est le mois où l'on réserve en s'attendant au printemps et où l'on trouve l'hiver. Voici à quoi ressemble vraiment la montagne, le matériel qu'elle exige, et les cas où avril est la meilleure réponse.",
+    heroImage: "/gallery/toubkal-final-snow-slope-dawn.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    tags: ["Toubkal", "trekking hivernal", "Haut Atlas", "Maroc", "saisons"],
+    seoTitle: "Gravir le Toubkal en mars — neige, matériel et conseils",
+    seoDescription:
+      "En mars le Toubkal est encore hivernal au-dessus de 3 000 m : neige, crampons et piolet. Ce qui vous attend, ce qu'il faut, et quand choisir avril.",
+    faq: [
+      { q: "Y a-t-il encore de la neige sur le Toubkal en mars ?", a: "Oui, au-dessus d'environ 3 000 m. Mars est la fin de la saison hivernale, et le cône sommital porte généralement de la neige jusqu'en avril une année normale. On peut être en manches courtes dans la vallée à Imlil pendant que le sommet est largement sous zéro à l'aube — 2 400 m d'écart de hauteur expliquent l'essentiel." },
+      { q: "Faut-il des crampons et un piolet en mars ?", a: "La plupart des années, oui, et il faut savoir s'en servir, pas seulement les porter. Les pentes finales passent de la marche à l'escalade sur neige quand elles sont gelées, et c'est précisément là qu'elles sont les plus difficiles. Les deux se louent à Imlil pour 100 à 150 MAD par jour. Sur nos départs guidés, ils sont fournis quand les conditions l'exigent." },
+      { q: "Mars est-il plus dangereux que l'été ?", a: "C'est une montagne différente plutôt que simplement plus dure. Les fortes chutes de neige entre janvier et mars créent un vrai risque d'avalanche sur les pentes chargées, et le temps tourne plus vite qu'en été. C'est pourquoi un guide compte davantage en mars qu'en juillet : le jugement sur l'opportunité de monter aujourd'hui est ce que vous payez." },
+      { q: "Mars ou avril pour gravir le Toubkal ?", a: "Avril, pour la plupart des gens. La limite des neiges a généralement reculé, la marche est plus facile et les jours sont plus longs, alors que les foules ne sont pas encore là. Choisissez mars si vous voulez vraiment la montagne en condition hivernale et que vous êtes à l'aise sur la neige — c'est plus calme, et les vues du sommet dans l'air froid et clair sont les plus belles de l'année." },
+      { q: "Quel froid fait-il le matin du sommet ?", a: "Sous zéro, de manière fiable, et avec le vent sur l'arête sommitale la sensation est nettement plus froide que le thermomètre. On part dans le noir, au moment le plus froid de la journée. Une vraie doudoune, des gants chauds plus une paire de rechange, et de quoi couvrir le visage ne sont pas optionnels en mars." },
+      { q: "Un débutant peut-il gravir le Toubkal en mars ?", a: "Un débutant en bonne condition physique le peut, avec un guide et par temps stable — mais c'est honnêtement plus dur que le même trek en juin, et le taux de réussite au sommet est plus faible. Si c'est votre première grande montagne et que le sommet compte, avril et après sont une introduction plus clémente. Si vous avez de l'expérience de randonnée hivernale, mars est un mois gratifiant là-haut." },
+    ],
+    content: `
+Mars est le mois qui piège les gens. Les vols sont bon marché, Marrakech est chaude, et la
+montagne paraît assez proche sur la carte pour ressembler à une balade de printemps.
+Au-dessus de 3 000 m, c'est encore l'hiver.
+
+## À quoi ressemble vraiment mars
+
+Imlil à 1 740 m peut être agréable en mars : du soleil, des manches courtes l'après-midi,
+des amandiers en fleurs dans les vallées. Le sommet est 2 427 m plus haut, et cette
+différence est toute l'histoire.
+
+Au-dessus d'environ 3 000 m la montagne porte de la neige, et une année normale le cône
+sommital la garde jusqu'en avril. Le matin du sommet, vous quittez le refuge dans le noir,
+par températures négatives, sur un terrain gelé pendant la nuit.
+
+## Le matériel qui cesse d'être optionnel
+
+- **Crampons et piolet** — et le savoir-faire pour les utiliser. La neige gelée, c'est le
+  moment où les pentes finales cessent d'être une marche, et c'est aussi le moment où
+  elles sont les plus dures. La location à Imlil coûte 100 à 150 MAD par jour ; sur nos
+  départs guidés, ils sont fournis quand les conditions l'exigent.
+- **Des chaussures rigides** capables de recevoir un crampon. Une chaussure de trail
+  souple ne le peut pas : c'est l'erreur de matériel la plus fréquente que nous voyons en
+  mars.
+- **De l'isolation et une paire de gants de rechange.** Vous partez dans le noir et le vent
+  sur l'arête sommitale fait le reste.
+
+## Le risque dont personne ne parle
+
+Les fortes chutes de neige entre janvier et mars chargent les pentes, ce qui crée un vrai
+risque d'avalanche sur certaines expositions dans certaines conditions. Le temps tourne
+aussi bien plus vite qu'en été.
+
+C'est pourquoi un guide vaut davantage en mars qu'en juillet. Sa valeur n'est pas de
+retrouver un sentier que vous pourriez suivre seul : c'est le jugement sur l'opportunité de
+monter aujourd'hui, et la volonté de faire demi-tour. Depuis 2018, un guide diplômé est de
+toute façon obligatoire dans le parc national du Toubkal.
+
+## Mars ou avril ?
+
+**Choisissez avril** pour la version la plus simple : la limite des neiges a généralement
+reculé, la marche est plus facile, les jours sont plus longs, et les foules de l'été ne
+sont pas là. Pour une première grande montagne, avril et après sont une introduction plus
+clémente, avec un taux de réussite nettement supérieur.
+
+**Choisissez mars** si vous voulez vraiment la montagne en condition hivernale et que vous
+êtes à l'aise sur la neige. C'est plus calme, et les vues du sommet dans l'air froid et
+clair sont les plus belles de l'année.
+
+Nos [départs Toubkal et Sahara de 8 jours](/en/tours/morocco-highlights-toubkal-sahara-8day)
+partent des deux côtés de cette limite — trois dates en mars, deux en avril — et c'est
+délibéré. Si vous hésitez entre elles, le paragraphe ci-dessus est la décision.
+
+## Accordez-vous la journée supplémentaire
+
+Quel que soit le mois, c'est l'altitude qui décide de plus de sommets que la forme
+physique. Le [programme de 4 jours](/en/tours/toubkal-summit-trek-4day) monte
+progressivement avec une nuit d'acclimatation ; la version de 2 jours passe de 1 740 m à
+4 167 m en une trentaine d'heures. En mars, quand la montée finale est de toute façon plus
+dure et plus lente, cette journée vaut encore plus qu'en juillet.
+`,
+  },
+  {
+    slug: "toubkal-aguelzim-pass-trek-cost",
+    author: MET_TEAM,
+    title: "Combien coûte le trek du col d'Aguelzim au Toubkal en 3 jours ?",
+    excerpt:
+      "Le col d'Aguelzim est la voie tranquille vers le Toubkal — une traversée en altitude qui évite complètement la vallée du Mizane. Voici ce que coûte la version de trois jours et à qui elle convient vraiment.",
+    heroImage: "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 6,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    tags: ["Toubkal", "Aguelzim", "Haut Atlas", "trekking", "Maroc"],
+    seoTitle: "Trek du col d'Aguelzim au Toubkal, 3 jours — prix et itinéraire",
+    seoDescription:
+      "Ce que coûte la voie du col d'Aguelzim vers le Toubkal en 3 jours, en quoi elle diffère de l'approche classique par le Mizane, et à qui convient cette ligne plus tranquille.",
+    faq: [
+      { q: "Qu'est-ce que la voie du col d'Aguelzim ?", a: "Une approche alternative du refuge du Toubkal qui franchit le Tizi n'Aguelzim vers 3 560 m au lieu de remonter la vallée du Mizane. Elle est plus longue et plus haute que la voie normale, et nettement plus calme : l'essentiel du trafic du Toubkal ne la voit jamais. La contrepartie est un vrai col dès le premier jour au lieu d'une montée progressive en fond de vallée." },
+      { q: "Aguelzim est-il plus difficile que la voie normale ?", a: "Oui, sensiblement. L'approche classique gagne de la hauteur régulièrement le long d'une vallée ; Aguelzim place un col de 3 560 m sur votre route avant même que vous ayez dormi en altitude. Cette voie convient aux personnes ayant de l'expérience en randonnée qui veulent la ligne tranquille, pas à quelqu'un qui tente sa première montagne." },
+      { q: "Pourquoi choisir Aguelzim plutôt que la voie normale ?", a: "La solitude, et de meilleures vues. Le sentier de la vallée du Mizane est le plus fréquenté de l'Atlas en été, avec des caravanes de mules et des marcheurs à la journée presque jusqu'au refuge. La traversée d'Aguelzim est vide en comparaison, et le col lui-même vous donne tout le massif d'un seul regard, ce que l'approche par la vallée ne fait jamais." },
+      { q: "Quelle condition physique faut-il ?", a: "Assez pour une longue journée comportant un col élevé, sur des jours consécutifs. Ce n'est pas une voie technique en été — ni corde ni escalade — mais la traversée du premier jour est un vrai effort en altitude avant toute acclimatation. Si vous faites régulièrement des journées de randonnée de six ou sept heures, vous êtes dans la bonne fourchette." },
+    ],
+    content: `
+Presque tous ceux qui gravissent le Toubkal remontent la vallée du Mizane depuis Imlil. En
+été, ce sentier porte des caravanes de mules, des marcheurs à la journée et un défilé
+continu de trekkeurs jusqu'au refuge.
+
+Le col d'Aguelzim est l'autre entrée.
+
+## L'itinéraire
+
+Au lieu de suivre le fond de vallée, cette ligne franchit le **Tizi n'Aguelzim vers
+3 560 m** et rejoint le refuge par le haut. Elle est plus longue, plus haute, et vide en
+comparaison — et la vue depuis le col donne tout le massif d'un coup, ce que l'approche
+par la vallée ne fait jamais.
+
+## Ce que cela coûte
+
+Notre [trek Aguelzim de 3 jours](/en/tours/toubkal-aguelzim-pass-3day) est à 600 € pour
+une personne, 302 € chacun à deux, et 230 € chacun à six. Comme tous nos départs privés,
+il est tarifé sur une échelle dégressive, parce que le guide et le transport sont un coût
+fixe réparti entre les participants : le tarif par personne baisse donc quand le groupe
+grandit, et un trekkeur seul porte l'ensemble.
+
+Cela comprend le guide de montagne diplômé, les nuits en refuge, tous les repas en
+montagne, le portage à dos de mule, les droits du parc national et le transport
+aller-retour depuis Marrakech.
+
+## À qui cela convient, honnêtement
+
+**Pas** à une première montagne. La voie normale gagne sa hauteur progressivement le long
+d'une vallée ; Aguelzim place un col de 3 560 m devant vous dès le premier jour, avant
+toute nuit en altitude. C'est une vraie différence dans le ressenti du voyage, et dans vos
+chances d'arriver au sommet en forme.
+
+Elle convient aux randonneurs expérimentés qui ont déjà fait des trekkings de plusieurs
+jours et préfèrent avoir la montagne pour eux plutôt que prendre la ligne la plus facile.
+Si c'est votre premier grand sommet, la
+[voie normale de 4 jours](/en/tours/toubkal-summit-trek-4day) est le meilleur choix et
+nous vous le dirons si vous demandez.
+
+## Ce qui est inclus
+
+La même chose que sur nos autres treks du Toubkal : guide de montagne diplômé, hébergement
+en refuge, tous les repas en montagne, mules pour le matériel collectif, droits du parc
+national et transport aller-retour depuis Marrakech. L'assurance voyage, le matériel
+personnel et les pourboires ne sont pas inclus.
+
+## En résumé
+
+Aguelzim est l'approche des connaisseurs vers le Toubkal — plus haute, plus longue, plus
+calme et plus belle. Elle coûte à peu près ce que coûte le trek classique de trois jours,
+parce que la différence tient à la ligne et non à la logistique. Prenez-la si vous avez
+les jambes et voulez la solitude ; prenez la vallée si c'est votre premier sommet de
+l'Atlas.
+`,
+  },
 ];

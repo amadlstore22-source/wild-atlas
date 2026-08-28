@@ -15,6 +15,17 @@
 
 .EXAMPLE
   .\scripts\index-batch.ps1 docs/batch-2026-08-01.txt -DryRun
+
+.NOTES
+  Two guards run before anything is sent, each from a real incident:
+
+    - the batch is refused if nothing is outstanding site-wide (2026-08-16:
+      200 URLs re-sent for nothing, and Google reported no error)
+    - the batch is refused if any URL does not serve HTTP 200 (2026-08-28:
+      six URLs 404'd because Vercel was still deploying)
+
+  Override with -Force and -SkipLiveCheck respectively. -DryRun skips both,
+  since it sends nothing.
 #>
 param(
   [Parameter(Mandatory = $true, Position = 0)]
@@ -27,7 +38,14 @@ param(
   [int]$Limit = 0,
 
   # Skip the first N URLs.
-  [int]$Offset = 0
+  [int]$Offset = 0,
+
+  # Send even if the batch has already been submitted, or if some URLs are not
+  # serving 200. Both guards exist because of real incidents -- see below.
+  [switch]$Force,
+
+  # Skip the live-URL check. Only for a batch you have already verified.
+  [switch]$SkipLiveCheck
 )
 
 $ErrorActionPreference = "Stop"
@@ -81,6 +99,82 @@ if ($count -gt $remaining) {
     Write-Host "         Quota is exhausted for today. Try again after midnight Pacific." -ForegroundColor Yellow
   }
   Write-Host ""
+}
+
+# ---------------------------------------------------------------------------
+# Guard 1: has this batch already gone out?
+#
+# On 2026-08-16, 200 URLs were re-submitted because a fresh queue was built
+# from the sitemap instead of reading docs/INDEXING-STATE.md. Google accepted
+# all 200 -- there is no error when you re-send -- so the only symptom was a
+# day of quota buying nothing. A spent batch file is the easiest way to repeat
+# that, since it looks exactly like an unsent one.
+#
+# diff-unsubmitted.mjs compares the list against what has actually been sent,
+# which is the only question that matters.
+# ---------------------------------------------------------------------------
+if (-not $DryRun -and -not $Force) {
+  $diff = Join-Path $repo "scripts/seo/diff-unsubmitted.mjs"
+  if (Test-Path $diff) {
+    $diffOut = & node $diff 2>&1 | Out-String
+    if ($diffOut -match "NOT yet submitted\s*:\s*(\d+)") {
+      $outstanding = [int]$Matches[1]
+      if ($outstanding -eq 0) {
+        Write-Host ""
+        Write-Host "STOP: nothing is outstanding - every site URL has already been submitted." -ForegroundColor Red
+        Write-Host "      Re-sending buys nothing and spends quota. Google accepts duplicates" -ForegroundColor Red
+        Write-Host "      silently, so there would be no error to notice." -ForegroundColor Red
+        Write-Host ""
+        Write-Host "      If you genuinely need to re-submit (a price changed, say), use -Force." -ForegroundColor DarkGray
+        exit 1
+      }
+      Write-Host "Outstanding across the site: $outstanding URL(s)." -ForegroundColor DarkGray
+    }
+  }
+}
+
+# ---------------------------------------------------------------------------
+# Guard 2: are the URLs actually serving?
+#
+# On 2026-08-28 a batch of six was built the moment the commit was pushed, and
+# all six still returned 404 -- Vercel had not finished deploying. Submitting
+# then spends quota to show Google a 404 on a brand-new page, and the URLs can
+# be recorded as not-found. They went live ~105 seconds later.
+#
+# HEAD is enough to tell serving from missing, and is far cheaper than GET.
+# ---------------------------------------------------------------------------
+if (-not $DryRun -and -not $SkipLiveCheck) {
+  $toCheck = Get-Content $urls | Where-Object { $_.Trim() -ne "" }
+  if ($Offset -gt 0) { $toCheck = $toCheck | Select-Object -Skip $Offset }
+  if ($Limit -gt 0)  { $toCheck = $toCheck | Select-Object -First $Limit }
+
+  Write-Host "Checking $($toCheck.Count) URL(s) are live..." -ForegroundColor DarkGray
+  $bad = New-Object System.Collections.Generic.List[string]
+  foreach ($u in $toCheck) {
+    try {
+      $r = Invoke-WebRequest -Uri $u.Trim() -Method Head -MaximumRedirection 0 `
+             -SkipHttpErrorCheck -TimeoutSec 20
+      $code = [int]$r.StatusCode
+    } catch {
+      $code = 0
+    }
+    # A 3xx matters as much as a 404: submitting a URL that redirects asks
+    # Google to crawl the redirect rather than the page, which is what shows up
+    # in Search Console as "Page with redirect".
+    if ($code -ne 200) { $bad.Add(("{0}  {1}" -f $code, $u.Trim())) }
+  }
+
+  if ($bad.Count -gt 0) {
+    Write-Host ""
+    Write-Host "STOP: $($bad.Count) URL(s) are not serving 200:" -ForegroundColor Red
+    $bad | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
+    Write-Host ""
+    Write-Host "      A 404 usually means the deploy has not finished - wait a minute and retry." -ForegroundColor Yellow
+    Write-Host "      A 3xx means the list holds a URL that redirects; fix the list, do not submit it." -ForegroundColor Yellow
+    Write-Host "      Override with -SkipLiveCheck only if you know why." -ForegroundColor DarkGray
+    exit 1
+  }
+  Write-Host "All $($toCheck.Count) serving 200." -ForegroundColor DarkGray
 }
 
 $nodeArgs = @($script, "--key", $key, "--urls", $urls)

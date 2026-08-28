@@ -23,6 +23,7 @@ https://marrakechecotours.com/en/tours/marrakech-to-fes-3day
 https://marrakechecotours.com/en/tours/merzouga-3day-agadir
 https://marrakechecotours.com/en/tours/merzouga-stargazing-desert-tour
 https://marrakechecotours.com/en/tours/mgoun-massif-trek
+https://marrakechecotours.com/en/tours/morocco-highlights-toubkal-sahara-8day
 https://marrakechecotours.com/en/tours/ourika-valley-day-hike
 https://marrakechecotours.com/en/tours/ouzoud-waterfalls-day-trip
 https://marrakechecotours.com/en/tours/paradise-valley-agadir
@@ -317,6 +318,7 @@ https://marrakechecotours.com/ar/tours/marrakech-to-fes-3day
 https://marrakechecotours.com/ar/tours/merzouga-3day-agadir
 https://marrakechecotours.com/ar/tours/merzouga-stargazing-desert-tour
 https://marrakechecotours.com/ar/tours/mgoun-massif-trek
+https://marrakechecotours.com/ar/tours/morocco-highlights-toubkal-sahara-8day
 https://marrakechecotours.com/ar/tours/ourika-valley-day-hike
 https://marrakechecotours.com/ar/tours/ouzoud-waterfalls-day-trip
 https://marrakechecotours.com/ar/tours/paradise-valley-agadir
@@ -500,6 +502,7 @@ https://marrakechecotours.com/de/tours/toubkal-drei-gipfel-4000m-3-tage
 https://marrakechecotours.com/de/tours/toubkal-gipfel-trek-4-tage
 https://marrakechecotours.com/de/tours/toubkal-runde-ifni-see-6-tage
 https://marrakechecotours.com/de/tours/toubkal-sahara-5-tage
+https://marrakechecotours.com/de/tours/toubkal-sahara-8-tage-marokko
 https://marrakechecotours.com/de/tours/wanderung-ourika-tal
 https://marrakechecotours.com/de/tours/wuestentour-2-tage-agadir
 https://marrakechecotours.com/de/tours/wuestentour-3-tage-marrakesch
@@ -660,6 +663,7 @@ https://marrakechecotours.com/es/tours/parque-nacional-souss-massa
 https://marrakechecotours.com/es/tours/senderismo-valle-ourika
 https://marrakechecotours.com/es/tours/toubkal-collado-aguelzim-3-dias
 https://marrakechecotours.com/es/tours/toubkal-sahara-5-dias
+https://marrakechecotours.com/es/tours/toubkal-sahara-8-dias-marruecos
 https://marrakechecotours.com/es/tours/toubkal-tres-cumbres-4000m-3-dias
 https://marrakechecotours.com/es/tours/tour-cultural-medina-marrakech
 https://marrakechecotours.com/es/tours/tour-cultural-valle-souss
@@ -836,6 +840,7 @@ https://marrakechecotours.com/fr/tours/parc-national-souss-massa
 https://marrakechecotours.com/fr/tours/randonnee-vallee-ourika-journee
 https://marrakechecotours.com/fr/tours/toubkal-col-aguelzim-3-jours
 https://marrakechecotours.com/fr/tours/toubkal-sahara-5-jours
+https://marrakechecotours.com/fr/tours/toubkal-sahara-8-jours-maroc
 https://marrakechecotours.com/fr/tours/toubkal-trois-sommets-4000m-3-jours
 https://marrakechecotours.com/fr/tours/trek-anti-atlas-agadir
 https://marrakechecotours.com/fr/tours/trek-atlas-famille-4-jours
@@ -999,6 +1004,7 @@ https://marrakechecotours.com/it/tours/parco-nazionale-souss-massa
 https://marrakechecotours.com/it/tours/salita-toubkal-2-giorni
 https://marrakechecotours.com/it/tours/toubkal-passo-aguelzim-3-giorni
 https://marrakechecotours.com/it/tours/toubkal-sahara-5-giorni
+https://marrakechecotours.com/it/tours/toubkal-sahara-8-giorni-marocco
 https://marrakechecotours.com/it/tours/toubkal-tre-cime-4000m-3-giorni
 https://marrakechecotours.com/it/tours/tour-culturale-medina-marrakech
 https://marrakechecotours.com/it/tours/tour-culturale-valle-souss

@@ -1,19 +1,23 @@
 # Indexing state
 
-**As of 2026-08-27: all 1,020 site URLs have been submitted.** The final batch
-of 59 — 41 event pages plus the 18 pages of the three new articles — went out
-on 2026-08-27: **59 submitted, 0 failed, QUOTA_CONSUMED=59**.
+**As of 2026-08-28: all 1,026 site URLs have been submitted.** The 8-day
+Toubkal + Sahara fixed-departure tour shipped that day and added six pages
+(one per locale); they went out as `docs/batch-2026-08-28.txt`: **6 submitted,
+0 failed, QUOTA_CONSUMED=6**.
 
-`docs/batch-2026-08-27-pending.txt` is now **spent**. It is kept as the record
-of what went out, not as a queue to re-run. Re-running it would repeat the
-2026-08-16 mistake described below.
-
-Events were ordered first because nothing linked to them yet, so discovery was
-the whole point. The articles already had inbound links from seven existing
-posts.
+Every batch file in `docs/` is **spent**. They are kept as the record of what
+went out, not as queues to re-run. Re-running one would repeat the 2026-08-16
+mistake described below.
 
 **Nothing is outstanding.** Do not infer from this line that a later batch is
 needed — run the diff below to find out what, if anything, is genuinely new.
+The count in this header goes stale the moment pages ship, so trust the diff
+over the number.
+
+> **Submit only what is actually serving.** The 2026-08-28 batch was built and
+> then held for ~2 minutes because all six URLs still 404'd: the commit was
+> pushed but Vercel had not finished deploying. Submitting a URL that is not
+> live yet spends quota to show Google a 404. Curl the batch before sending it.
 
 > **2026-08-26 — quota wasted, read this before building any batch.** 200 URLs
 > were re-submitted (English + French tours) that had already gone out on
@@ -97,3 +101,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-26 | (none — wasted) | 200 | re-sent already-submitted tours; see warning above |
 | 2026-08-26 | `batch-2026-08-26-events.txt` | 1 | `/en/events` only — one URL slipped through on a rounding edge, the next call hit the wall immediately |
 | 2026-08-27 | `batch-2026-08-27-pending.txt` | 59 | 41 events + 18 new-article pages, one run. 59 submitted, 0 failed. **Site now fully submitted: `diff-unsubmitted.mjs` reports 1020 / 1020, 0 outstanding.** |
+| 2026-08-28 | `batch-2026-08-28.txt` | 6 | 8-day Toubkal + Sahara tour, six locales. Verified all six served HTTP 200 before sending — they 404'd for ~2 min while Vercel deployed. 6 submitted, 0 failed. |

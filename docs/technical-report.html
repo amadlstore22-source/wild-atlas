@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wild Atlas — Technical Report</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+  @page { @bottom-right { content: counter(page); } }
+
+  :root {
+    --ink:      #1c1a17;
+    --ink-soft: #4a453e;
+    --rule:     #d9d3c8;
+    --sand:     #f7f4ee;
+    --clay:     #9a4f2c;
+    --pine:     #2f5545;
+    --amber:    #b07c1e;
+    --crimson:  #a02c2c;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { font-size: 10.2pt; }
+
+  body {
+    margin: 0;
+    font-family: "Georgia", "Iowan Old Style", serif;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  /* ---------- cover ---------- */
+  .cover {
+    height: 247mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    page-break-after: always;
+  }
+  .cover-top { border-top: 3px solid var(--clay); padding-top: 10mm; }
+  .eyebrow {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--clay); font-weight: 700; margin: 0 0 6mm;
+  }
+  .cover h1 {
+    font-size: 34pt; line-height: 1.05; margin: 0 0 5mm; font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .cover .sub {
+    font-size: 12pt; color: var(--ink-soft); margin: 0; max-width: 120mm;
+    line-height: 1.45;
+  }
+  .cover-meta {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 6mm;
+    border-top: 1px solid var(--rule); padding-top: 6mm;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  .cover-meta div { font-size: 8pt; }
+  .cover-meta .k {
+    letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft);
+    display: block; margin-bottom: 1.5mm; font-size: 7pt;
+  }
+  .cover-meta .v { font-size: 13pt; color: var(--ink); font-weight: 600; }
+
+  .figures {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 0; border: 1px solid var(--rule); border-radius: 2px;
+    overflow: hidden; margin: 0;
+  }
+  .fig {
+    padding: 6mm 5mm; border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule); background: var(--sand);
+  }
+  .fig:nth-child(3n) { border-right: none; }
+  .fig:nth-child(n+4) { border-bottom: none; }
+  .fig .n {
+    font-size: 21pt; font-weight: 600; display: block; line-height: 1;
+    margin-bottom: 2mm; color: var(--pine);
+  }
+  .fig .l {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.5pt;
+    color: var(--ink-soft); letter-spacing: .04em;
+  }
+
+  /* ---------- structure ---------- */
+  h2 {
+    font-size: 15pt; font-weight: 400; margin: 0 0 4mm;
+    padding-bottom: 2.5mm; border-bottom: 2px solid var(--clay);
+    page-break-after: avoid;
+  }
+  h2 .num {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt;
+    color: var(--clay); font-weight: 700; margin-right: 3mm;
+    letter-spacing: .1em;
+  }
+  h3 {
+    font-size: 11pt; font-weight: 700; margin: 7mm 0 2.5mm;
+    page-break-after: avoid; color: var(--ink);
+  }
+  h4 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 8.5pt; font-weight: 700; margin: 5mm 0 2mm;
+    letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft);
+    page-break-after: avoid;
+  }
+  section { page-break-before: always; }
+  section.cont { page-break-before: auto; }
+
+  p { margin: 0 0 3mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 5mm; }
+  li { margin-bottom: 1.5mm; }
+
+  code, .mono {
+    font-family: "Consolas", "SF Mono", monospace;
+    font-size: 8.5pt; background: var(--sand); padding: 0.4mm 1.2mm;
+    border-radius: 2px; color: var(--clay);
+  }
+
+  table {
+    width: 100%; border-collapse: collapse; margin: 0 0 4mm;
+    font-size: 9pt; page-break-inside: avoid;
+  }
+  th {
+    text-align: left; font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 7.5pt; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-soft); border-bottom: 1.5px solid var(--ink);
+    padding: 2mm 2.5mm 1.5mm 0; font-weight: 700;
+  }
+  td {
+    padding: 1.8mm 2.5mm 1.8mm 0; border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; padding-right: 0; }
+  tr:last-child td { border-bottom: none; }
+
+  .callout {
+    border-left: 3px solid var(--amber); background: var(--sand);
+    padding: 3.5mm 4mm; margin: 0 0 4mm; page-break-inside: avoid;
+  }
+  .callout.warn { border-left-color: var(--crimson); }
+  .callout.good { border-left-color: var(--pine); }
+  .callout h4 { margin-top: 0; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .tree {
+    font-family: "Consolas", monospace; font-size: 8pt; line-height: 1.55;
+    background: var(--sand); padding: 4mm; border: 1px solid var(--rule);
+    white-space: pre; margin: 0 0 4mm; page-break-inside: avoid;
+  }
+  .tree .c { color: var(--ink-soft); }
+
+  .lede {
+    font-size: 11pt; color: var(--ink-soft); line-height: 1.5;
+    border-left: 2px solid var(--rule); padding-left: 4mm; margin: 0 0 5mm;
+  }
+  .two { column-count: 2; column-gap: 7mm; }
+  .two > * { break-inside: avoid; }
+  .tag {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7pt;
+    letter-spacing: .06em; text-transform: uppercase; padding: 0.6mm 1.8mm;
+    border-radius: 2px; background: var(--pine); color: #fff; font-weight: 700;
+  }
+  .tag.warn { background: var(--crimson); }
+  .tag.amber { background: var(--amber); }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="cover-top">
+    <p class="eyebrow">Technical Report &middot; 28 August 2026</p>
+    <h1>Wild Atlas</h1>
+    <p class="sub">A six-language Moroccan tour platform: architecture, content systems,
+    pricing model, and the regression-test culture that holds it together.</p>
+  </div>
+
+  <div class="figures">
+    <div class="fig"><span class="n">1,052</span><span class="l">Prerendered pages</span></div>
+    <div class="fig"><span class="n">6</span><span class="l">Locales, fully translated</span></div>
+    <div class="fig"><span class="n">47</span><span class="l">Tours in catalogue</span></div>
+    <div class="fig"><span class="n">94</span><span class="l">Blog articles</span></div>
+    <div class="fig"><span class="n">402</span><span class="l">Tests, 51 suites</span></div>
+    <div class="fig"><span class="n">373</span><span class="l">Commits</span></div>
+  </div>
+
+  <div class="cover-meta">
+    <div><span class="k">Domain</span><span class="v">marrakechecotours.com</span></div>
+    <div><span class="k">Framework</span><span class="v">Next.js 16.3</span></div>
+    <div><span class="k">Runtime</span><span class="v">React 19.2</span></div>
+    <div><span class="k">Deploy</span><span class="v">Vercel</span></div>
+  </div>
+</div>
+
+<!-- ============ 1. OVERVIEW ============ -->
+<section class="cont">
+  <h2><span class="num">01</span>What this project is</h2>
+
+  <p class="lede">A direct-booking site for a Berber family guiding operation in the High
+  Atlas. It sells trekking, desert and cultural tours from Marrakech and Agadir, in six
+  languages, without an intermediary taking 25&ndash;40% commission.</p>
+
+  <p>The commercial premise shapes the architecture. Booking platforms charge operators a
+  quarter to two-fifths of the ticket price; on a &euro;195 trek that is up to &euro;78
+  that never reaches the guide, the muleteer or the refuge. Every technical decision
+  here &mdash; the static generation, the six-locale content model, the aggressive SEO
+  instrumentation &mdash; exists to make direct discovery work well enough that the
+  intermediary becomes unnecessary.</p>
+
+  <h3>Scale in numbers</h3>
+  <table>
+    <tr><th>Dimension</th><th class="num">Count</th><th>Notes</th></tr>
+    <tr><td>Prerendered pages</td><td class="num">1,052</td><td>Static HTML at build time</td></tr>
+    <tr><td>Indexable URLs</td><td class="num">1,050</td><td>Submitted to Google, 0 outstanding</td></tr>
+    <tr><td>Tours</td><td class="num">47</td><td>&times; 6 locales = 282 tour pages</td></tr>
+    <tr><td>Blog articles</td><td class="num">94</td><td>&times; 6 locales = 564 article pages</td></tr>
+    <tr><td>Destinations</td><td class="num">8</td><td>Regional landing pages</td></tr>
+    <tr><td>Events</td><td class="num">6</td><td>Festival calendar with date-confidence model</td></tr>
+    <tr><td>Guides</td><td class="num">3</td><td>Named, licensed mountain guides</td></tr>
+    <tr><td>Gallery images</td><td class="num">165</td><td>Own photography, web-optimised</td></tr>
+  </table>
+
+  <h3>Code volume</h3>
+  <table>
+    <tr><th>Area</th><th class="num">Lines</th><th>Character</th></tr>
+    <tr><td><code>lib/</code></td><td class="num">86,140</td><td>Content-as-code: tours, posts, translations</td></tr>
+    <tr><td><code>scripts/</code></td><td class="num">13,362</td><td>Content migrations, SEO audits, indexing</td></tr>
+    <tr><td><code>components/</code></td><td class="num">7,290</td><td>59 React components across 8 domains</td></tr>
+    <tr><td><code>__tests__/</code></td><td class="num">5,588</td><td>51 suites, 402 assertions</td></tr>
+    <tr><td><code>app/</code></td><td class="num">5,504</td><td>32 routes, App Router</td></tr>
+  </table>
+
+  <div class="callout">
+    <h4>The ratio that explains the project</h4>
+    <p>Library code outweighs application code roughly 15:1. That is not bloat &mdash;
+    it is the deliberate consequence of storing all content as typed TypeScript rather
+    than in a CMS. Every tour, article and translation is a compile-checked object, so
+    a missing field or a mistyped price fails the build instead of reaching a customer.</p>
+  </div>
+</section>
+
+<!-- ============ 2. STACK ============ -->
+<section>
+  <h2><span class="num">02</span>Technology stack</h2>
+
+  <h3>Runtime and framework</h3>
+  <table>
+    <tr><th>Package</th><th>Version</th><th>Role</th></tr>
+    <tr><td>next</td><td>16.3.0</td><td>App Router, static generation, proxy middleware</td></tr>
+    <tr><td>react / react-dom</td><td>19.2.4</td><td>Server Components by default</td></tr>
+    <tr><td>typescript</td><td>^5</td><td>Strict; content is type-checked, not just code</td></tr>
+    <tr><td>tailwindcss</td><td>^4</td><td>Design tokens via CSS custom properties</td></tr>
+    <tr><td>motion</td><td>^12.40</td><td>Animation, loaded through LazyMotion</td></tr>
+    <tr><td>maplibre-gl / leaflet</td><td>^6.2 / ^1.9</td><td>Itinerary route maps</td></tr>
+    <tr><td>@base-ui/react</td><td>^1.6</td><td>Accessible primitives</td></tr>
+    <tr><td>vitest</td><td>^4.1.9</td><td>Test runner, jsdom environment</td></tr>
+  </table>
+
+  <div class="callout warn">
+    <h4>A framework caveat recorded in AGENTS.md</h4>
+    <p>Next.js 16 differs materially from earlier versions that dominate training data
+    and tutorials. The repository instructs any contributor &mdash; human or AI &mdash;
+    to read <code>node_modules/next/dist/docs/</code> before writing code, rather than
+    relying on recalled patterns. This is enforced by convention, not tooling, and it
+    exists because assumed APIs were a recurring source of defects.</p>
+  </div>
+
+  <h3>Infrastructure</h3>
+  <ul>
+    <li><strong>Hosting:</strong> Vercel. <code>git push</code> <em>is</em> the deploy &mdash; there is no separate publish step and no <code>.vercel</code> directory in the repo.</li>
+    <li><strong>Analytics:</strong> Vercel Analytics and Speed Insights.</li>
+    <li><strong>Search:</strong> Google Indexing API with a service-account key, quota-managed.</li>
+    <li><strong>Repository:</strong> GitHub, <code>amadlstore22-source/wild-atlas</code>.</li>
+  </ul>
+</section>
+
+<!-- ============ 3. STRUCTURE ============ -->
+<section>
+  <h2><span class="num">03</span>Repository structure</h2>
+
+  <div class="tree">wild-atlas/
+├── app/                     <span class="c"># 32 routes, App Router</span>
+│   ├── [lang]/              <span class="c"># every page is locale-scoped</span>
+│   │   ├── tours/[slug]/    <span class="c"># the money pages</span>
+│   │   ├── blog/[slug]/     <span class="c"># 94 articles × 6</span>
+│   │   ├── events/[slug]/   <span class="c"># festival calendar</span>
+│   │   ├── destinations/    guides/    categories/
+│   │   └── about  contact  news  legal pages
+│   ├── api/                 <span class="c"># contact + newsletter handlers</span>
+│   ├── sitemap.ts           <span class="c"># 1,050 URLs, stable lastmod</span>
+│   └── robots.ts
+│
+├── lib/                     <span class="c"># 86k lines — content as typed data</span>
+│   ├── tours.ts             <span class="c"># 47 tours, 4,980 lines</span>
+│   ├── tours.{fr,es,de,it,ar}.ts
+│   ├── blog.ts              <span class="c"># 94 posts, 8,787 lines</span>
+│   ├── blog.{locale}.part1/2.ts
+│   ├── *-i18n.ts            <span class="c"># merge layers, 6 of them</span>
+│   ├── seo/                 <span class="c"># schema, hreflang, open-graph</span>
+│   ├── currency-core.ts     <span class="c"># USD storage → EUR display</span>
+│   └── events.ts            <span class="c"># date-confidence model</span>
+│
+├── components/              <span class="c"># 59 components, 8 domains</span>
+│   ├── tours/  blog/  sections/  map/  seo/  ui/  layout/  legal/
+│
+├── __tests__/lib/           <span class="c"># 51 suites — each records an incident</span>
+├── scripts/seo/             <span class="c"># content migrations + audits</span>
+├── dictionaries/            <span class="c"># 6 UI-string JSON files</span>
+├── docs/                    <span class="c"># INDEXING-STATE, PRICING, DNS…</span>
+└── proxy.ts                 <span class="c"># 512 lines: locale + slug routing</span></div>
+
+  <h3>The content-as-code decision</h3>
+  <p>There is no CMS. Tours and articles live in TypeScript files with declared
+  interfaces, which buys three properties a database cannot:</p>
+  <ul>
+    <li><strong>Compile-time safety.</strong> A tour missing <code>itinerary</code> fails <code>tsc</code>, not a page render.</li>
+    <li><strong>Reviewable diffs.</strong> A price change is a line in a commit, attributable and revertible.</li>
+    <li><strong>Testable content.</strong> Assertions run against the catalogue itself &mdash; every price, every meta description, every internal link.</li>
+  </ul>
+  <p>The cost is that content edits require a deploy. For a catalogue that changes
+  weekly rather than hourly, that trade is favourable.</p>
+</section>
+
+<!-- ============ 4. I18N ============ -->
+<section>
+  <h2><span class="num">04</span>The six-locale system</h2>
+
+  <p class="lede">English, French, Spanish, German, Italian and Arabic &mdash; not
+  machine-translated at request time, but authored per language and merged at build.</p>
+
+  <h3>How a locale page is assembled</h3>
+  <ol>
+    <li><code>proxy.ts</code> resolves the locale prefix and, where one exists, the localised URL segment.</li>
+    <li><code>{entity}-i18n.ts</code> layers the locale record over the English one.</li>
+    <li>Missing fields fall back to English rather than rendering empty.</li>
+    <li><code>dictionaries/{locale}.json</code> supplies UI strings &mdash; labels, buttons, headings.</li>
+  </ol>
+
+  <h3>Two merge strategies, deliberately different</h3>
+  <table>
+    <tr><th>Entity</th><th>Strategy</th><th>Rationale</th></tr>
+    <tr><td>Tours</td><td>Per <em>field</em></td><td>Structural data (price, coordinates) shared; prose translated. A missing field degrades to English, not <code>undefined</code>.</td></tr>
+    <tr><td>Blog posts</td><td>Per <em>post</em></td><td>An article is translated wholly or not at all; a half-English post is worse than an English one.</td></tr>
+  </table>
+
+  <div class="callout warn">
+    <h4>The empty-array trap</h4>
+    <p>The per-field merge overlays any value that is not <code>undefined</code>,
+    <code>null</code> or <code>""</code>. An <strong>empty array passes that guard</strong>.
+    So <code>itinerary: []</code> in a locale file type-checks, builds, renders a page
+    &mdash; and silently ships a booking page with no itinerary, because the English
+    fallback never fires.</p>
+    <p>This is now caught by <code>fixed-departure.test.ts</code>, which asserts through
+    the same function the page calls, so it tests the merged result a reader actually sees.</p>
+  </div>
+
+  <h3>Localised URLs</h3>
+  <p>Some tours carry a <code>localizedSlug</code>, so the French page serves at
+  <code>/fr/tours/trek-sommet-toubkal-4-jours</code> while the English URL 308-redirects
+  to it. That requires three files to agree: the tour data, the forward map in
+  <code>proxy.ts</code>, and the reverse map in <code>lib/locale-switch.ts</code>. Drift
+  between them sends a live, indexed booking page to a 404 &mdash; so two test suites
+  exist purely to assert they match.</p>
+</section>
+
+<!-- ============ 5. PRICING ============ -->
+<section>
+  <h2><span class="num">05</span>Pricing architecture</h2>
+
+  <p class="lede">Prices are stored in USD and displayed in EUR. This single fact is
+  responsible for more historical defects than any other design choice, and for the
+  tests that now guard it.</p>
+
+  <h3>Storage and conversion</h3>
+  <p>Conversion happens at <code>0.86693</code>, defined in <code>lib/currency-core.ts</code>
+  with an instruction to review quarterly. Four currencies are offered &mdash; EUR
+  (default), USD, GBP, MAD.</p>
+
+  <div class="callout warn">
+    <h4>The conversion defect this causes</h4>
+    <p>Writing a customer-facing figure directly into <code>price</code> produces the
+    wrong number: <code>price: 889</code> renders as <strong>&euro;771</strong>, not
+    &euro;889. Stored values must be solved backwards from the intended display price
+    &mdash; <code>1025 &times; 0.86693 = 888.6 &rarr; &euro;889</code>.</p>
+    <p>The same trap bit the blog: prose quoting the stored USD figure with a euro sign
+    overstated eight cost articles by ~9% across six languages before
+    <code>blog-prices.test.ts</code> existed.</p>
+  </div>
+
+  <h3>Two pricing models</h3>
+  <table>
+    <tr><th>Model</th><th>Mechanism</th><th>Why</th></tr>
+    <tr><td><span class="tag">Private</span></td><td><code>groupPricing</code> ladder: per-person rate falls as group grows</td><td>Guide and vehicle are a fixed cost divided among the party</td></tr>
+    <tr><td><span class="tag amber">Fixed departure</span></td><td>Flat seat price; <code>fixedDeparture</code> carries dates, seat cap, list price</td><td>Trip runs on its published date regardless; what varies is availability</td></tr>
+  </table>
+
+  <p>Three helpers keep the ladder honest across every surface:
+  <code>groupPriceTiers()</code>, <code>lowestGroupPrice()</code> and
+  <code>perPersonPrice()</code>. Listing cards once displayed <code>tour.price</code>
+  &mdash; the solo rate, the most expensive figure a tour has &mdash; advertising
+  &euro;1,800 for a trek a group of five pays &euro;695 for. <code>lowestGroupPrice()</code>
+  exists because of that incident.</p>
+
+  <h3>Invariants under test</h3>
+  <ul>
+    <li>A larger party never pays less <em>in total</em> than a smaller one.</li>
+    <li>The per-person price never rises as the group grows.</li>
+    <li>The advertised headline equals the first bookable tier.</li>
+    <li>A fixed departure carries no ladder, and its list price genuinely exceeds its selling price.</li>
+    <li>Every price quoted in prose matches the tour data &mdash; in all six languages.</li>
+  </ul>
+</section>
+
+<!-- ============ 6. TESTING ============ -->
+<section>
+  <h2><span class="num">06</span>The regression-test culture</h2>
+
+  <p class="lede">51 suites, 402 assertions. Almost every one exists because a specific
+  defect reached production and nothing in the build caught it.</p>
+
+  <h3>The convention: write the incident, not the assertion</h3>
+  <p>Each suite opens with a docblock naming what shipped, what it cost, and why nothing
+  else caught it. The distinction matters:</p>
+
+  <div class="tree">// Bad — restates the assertion
+/** Checks that blog prices match tour prices. */
+
+// Good — records the incident
+/**
+ * Tour prices are stored in USD and rendered in EUR. Blog prose that
+ * quotes the stored number with a euro sign overstates the price by
+ * ~9% — the article says €245 while the booking page says €225.
+ *
+ * That shipped across all eight cost posts in six languages before
+ * this test existed. Nothing else catches it: the number is valid
+ * TypeScript, the page builds, and only a reader comparing the two
+ * notices.
+ */</div>
+
+  <p>The second form tells the next reader <em>why the check is shaped as it is</em>, so
+  they can distinguish a real failure from a false positive instead of deleting the test.</p>
+
+  <h3>Three supporting rules</h3>
+  <ul>
+    <li><strong>Assert catalogue-wide, not on today's change.</strong> Defects recur on pages nobody is editing. The FAQ-parity check has caught three separate incidents; the orphan check caught four commercial pages sitting at positions 48&ndash;73.</li>
+    <li><strong>Failure messages name the fix.</strong> They list offending items and state the remedy, because they are read by someone who did not write the test.</li>
+    <li><strong>Encode the rule, not the data.</strong> <code>expect(TOURS.length).toBe(46)</code> fails on the next tour added and teaches nothing.</li>
+  </ul>
+
+  <h3>What the suites cover</h3>
+  <div class="two">
+  <p><strong>Pricing:</strong> price-ladder, group-pricing, price-floor, blog-prices, currency, min-people, deposit-link, tipping-consistency</p>
+  <p><strong>Localisation:</strong> hreflang, locale-switch, localized-slugs, localized-tour-slugs, faq-locale-parity, seo-i18n, shared-tours-parity, hero-image-locale-sync</p>
+  <p><strong>SEO:</strong> seo-meta-length, blog-meta-length, orphan-posts, title-brand-suffix, index-list-urls, llms-txt, price-valid-until, not-found-robots</p>
+  <p><strong>Integrity:</strong> map-accuracy, hero-images, reviews-relevance, events, fixed-departure, guide-routes, featured-guides</p>
+  <p><strong>Platform:</strong> csp, proxy-host-files, rate-limit, request-origin, lcp-guards, motion-imports, css-tokens</p>
+  </div>
+
+  <div class="callout">
+    <h4>A known blind spot, documented</h4>
+    <p>Vitest never imports page components. A JSX syntax error can therefore break
+    <code>tsc</code> while all 402 tests pass. The verification sequence exists for
+    exactly this reason and runs typecheck, tests, build and the hreflang audit in order
+    &mdash; <code>next build</code> exiting 0 does not prove a page rendered, so the
+    artefact is checked on disk.</p>
+  </div>
+</section>
+
+<!-- ============ 7. SEO ============ -->
+<section>
+  <h2><span class="num">07</span>Search infrastructure</h2>
+
+  <h3>Structured data</h3>
+  <p>Emitted from <code>lib/seo/schema.ts</code>, with one governing rule: <em>structured
+  data must have a visible counterpart on the page</em>. Google's spam policy targets
+  markup asserting facts a reader cannot see.</p>
+  <table>
+    <tr><th>Type</th><th>Where</th><th>Notes</th></tr>
+    <tr><td>Product / Offer</td><td>Tour pages</td><td>AggregateOffer across the ladder, not the solo rate</td></tr>
+    <tr><td>&nbsp;&nbsp;&hookrightarrow; LimitedAvailability</td><td>Fixed departures</td><td>With <code>inventoryLevel</code> &mdash; a real seat cap</td></tr>
+    <tr><td>&nbsp;&nbsp;&hookrightarrow; ListPrice</td><td>Discounted tours</td><td>Only where the reference price is genuinely charged</td></tr>
+    <tr><td>FAQPage</td><td>Tours, articles</td><td>Rendered visibly, never schema-only</td></tr>
+    <tr><td>Event</td><td>Festival pages</td><td>No <code>offers</code> &mdash; we do not sell admission</td></tr>
+    <tr><td>BreadcrumbList</td><td>All deep pages</td><td>&nbsp;</td></tr>
+    <tr><td>LocalBusiness</td><td>About</td><td>Shared <code>@id</code> across an <code>@graph</code></td></tr>
+  </table>
+
+  <div class="callout good">
+    <h4>Two refusals worth recording</h4>
+    <p><strong>Event offers.</strong> Adding our tour price to a festival's
+    <code>Event.offers</code> would tell Google that &euro;95 buys admission to the
+    Gnaoua Festival. It does not &mdash; the festival is free. Recommended field left
+    empty rather than filled dishonestly.</p>
+    <p><strong>Invented anchors.</strong> A struck-through &quot;was&quot; price is only
+    emitted where the higher figure is genuinely charged outside a promotion. The EU
+    Omnibus Directive requires it, and Google treats a fabricated anchor as misleading
+    markup.</p>
+  </div>
+
+  <h3>Indexing pipeline</h3>
+  <p>A four-step sequence, with the diff as the source of truth:</p>
+  <div class="tree">npx next build                          <span class="c"># sitemap is generated, never hand-edited</span>
+node scripts/build-index-urls.mjs       <span class="c"># rebuild master list from the BUILT sitemap</span>
+node scripts/seo/diff-unsubmitted.mjs   <span class="c"># current list vs what was actually sent</span>
+.\scripts\index-batch.ps1 &lt;batch&gt;       <span class="c"># submit, quota-tracked</span></div>
+
+  <p>The submitter is guarded by two pre-flight checks, each added after a real loss:</p>
+  <ul>
+    <li><strong>Duplicate guard.</strong> On 2026-08-16, 200 URLs were re-sent because a queue was rebuilt from the sitemap instead of read from the state file. Google accepts duplicates silently, so nothing failed and nothing surfaced &mdash; the cost was a full day of quota buying nothing.</li>
+    <li><strong>Live-URL guard.</strong> A batch built the instant a commit was pushed found all URLs returning 404: Vercel had not finished deploying. They went live ~105 seconds later. Submitting in that window spends quota to show Google a 404.</li>
+  </ul>
+
+  <div class="callout warn">
+    <h4>Verification is currently impossible &mdash; a Google-side defect</h4>
+    <p>As of 28 August 2026, <code>urlNotifications:publish</code> returns HTTP 200 but
+    with a metadata object containing only the URL; the documented
+    <code>latestUpdate</code> field is absent. <code>urlNotifications/metadata</code>
+    then returns 404 for that URL indefinitely.</p>
+    <p>Reproduced deliberately: a publish returned 200, and a read three seconds later
+    returned 404 NOT_FOUND. Every URL this project has submitted reads back as 404,
+    including ones observed succeeding. Google's tracker has it at p2, reported across
+    the Node, Python and PHP clients.</p>
+    <p><strong>Consequence:</strong> a 404 from the verifier proves nothing, and
+    re-sending on that basis would repeat the 2026-08-16 waste. Search Console's Page
+    Indexing report is the only real check.</p>
+  </div>
+
+  <h3>Internal linking as ranking signal</h3>
+  <p>Counting tour mentions across the blog reveals which pages the site actually votes
+  for &mdash; and the correlation with ranking is direct:</p>
+  <table>
+    <tr><th>Tour</th><th class="num">Blog mentions</th><th>Status</th></tr>
+    <tr><td>3-Day Sahara</td><td class="num">66</td><td>Ranks</td></tr>
+    <tr><td>4-Day Toubkal</td><td class="num">44</td><td>Ranks</td></tr>
+    <tr><td>Ifni Lake 6-day</td><td class="num">15</td><td>Moderate</td></tr>
+    <tr><td>8-Day Toubkal + Sahara <em>(at launch)</em></td><td class="num">0</td><td>Orphaned</td></tr>
+    <tr><td>8-Day Toubkal + Sahara <em>(now)</em></td><td class="num">9</td><td>Linked</td></tr>
+  </table>
+  <p>An <code>orphan-posts</code> suite fails the build when any article has no inbound
+  internal link, because the same defect previously stranded four commercial pages.</p>
+</section>
+
+<!-- ============ 8. CONTENT ============ -->
+<section>
+  <h2><span class="num">08</span>Content systems</h2>
+
+  <h3>The events date-confidence model</h3>
+  <p>Moroccan festival dates move by three distinct mechanisms, and conflating them puts
+  wrong dates on a booking page. <code>lib/events.ts</code> encodes the distinction in
+  the type system:</p>
+  <table>
+    <tr><th>Confidence</th><th>Meaning</th><th>Rendering</th></tr>
+    <tr><td><code>confirmed</code></td><td>Organiser has published the date</td><td>Stated flatly; <code>sourceUrl</code> required</td></tr>
+    <tr><td><code>estimated</code></td><td>Tied to a harvest or season, unannounced</td><td>A window, never a precise day</td></tr>
+    <tr><td><code>lunar</code></td><td>Hijri calendar, fixed by moon sighting</td><td>Never presented as exact</td></tr>
+  </table>
+  <p>Tests fail if an <code>estimated</code> or <code>lunar</code> event carries a
+  single-day date, or if a <code>confirmed</code> one lacks an organiser URL.</p>
+
+  <div class="callout">
+    <h4>Why aggregators are not acceptable sources</h4>
+    <p>Two incidents within one day established the rule. An aggregator gave the Gnaoua
+    festival as 24&ndash;26 June 2027; the organiser's own site said 25&ndash;27 June
+    2026 &mdash; the aggregator was simply wrong. The Marrakech Marathon was the
+    inverse: an aggregator claimed 31 January 2027 and was dismissed because the
+    official site still showed 25 January 2026 &mdash; then hours later the official
+    site rolled over to exactly what the aggregator had said.</p>
+    <p>The rule is not that aggregators lie. It is that only the organiser's page is
+    authoritative <em>at the moment you read it</em>, and entries go stale on their own.</p>
+  </div>
+
+  <h3>Editorial standards</h3>
+  <ul>
+    <li><strong>Honest counterweights.</strong> Event pages carry <code>considerations</code> alongside <code>highlights</code> &mdash; what is genuinely harder, more crowded or more uncertain. A page listing only upsides reads like an OTA listing and is worth nothing to someone deciding.</li>
+    <li><strong>Primary sources.</strong> The Tibherine crash article publishes eight deaths, from the Bureau of Aircraft Accidents Archives, where several travel sites say four.</li>
+    <li><strong>Scope honesty.</strong> That article states plainly that no standard itinerary visits the wreck, rather than implying a stop the tour does not include.</li>
+    <li><strong>SERP budgets.</strong> Meta descriptions are bounded at both ends &mdash; 85 to 165 characters &mdash; because fixing over-long ones by truncating produced 43-character fragments that wasted the slot.</li>
+  </ul>
+
+  <h3>The six-locale publishing recipe</h3>
+  <p>Content migrations are Python scripts run as
+  <code>PYTHONIOENCODING=utf-8 py &lt;file&gt;</code>, written to disk rather than passed
+  as heredocs &mdash; backslashes and French apostrophes are consumed by the shell
+  otherwise. Each script asserts its anchors match exactly once before writing, so a
+  changed file fails loudly instead of silently patching the wrong place.</p>
+</section>
+
+<!-- ============ 9. PERFORMANCE ============ -->
+<section>
+  <h2><span class="num">09</span>Performance and platform</h2>
+
+  <h3>Rendering strategy</h3>
+  <p>1,052 pages are prerendered as static HTML at build time. Tour and blog detail pages
+  use <code>generateStaticParams</code> across all six locales; only the contact and
+  newsletter endpoints are dynamic.</p>
+
+  <h3>Core Web Vitals</h3>
+  <table>
+    <tr><th>Metric</th><th>Field value</th><th>Google threshold</th><th>Status</th></tr>
+    <tr><td>LCP</td><td>3.0 s</td><td>&le; 2.5 s</td><td>Needs improvement</td></tr>
+    <tr><td>FCP</td><td>2.5 s</td><td>&le; 1.8 s</td><td>Needs improvement</td></tr>
+    <tr><td>TTFB</td><td>0.8 s</td><td>&le; 0.8 s</td><td>Good</td></tr>
+    <tr><td>CLS</td><td>Insufficient data</td><td>&le; 0.1</td><td>Unassessable</td></tr>
+    <tr><td>INP</td><td>Insufficient data</td><td>&le; 200 ms</td><td>Unassessable</td></tr>
+  </table>
+  <p>These are origin-level CrUX figures. Individual pages lack sufficient field samples,
+  so CrUX falls back to origin aggregates &mdash; which means the site is
+  <em>unassessable</em> rather than failing.</p>
+
+  <h3>Platform-level guards</h3>
+  <ul>
+    <li><strong>CSP</strong> is asserted by test, after undefined CSS custom properties invalidated whole declarations and elements inherited an ancestor's colour.</li>
+    <li><strong>Motion</strong> imports are checked: the <code>motion</code> component cannot tree-shake below 34 kB, so <code>m</code> + <code>LazyMotion</code> is enforced.</li>
+    <li><strong>LCP guards</strong> assert the hero image is prioritised.</li>
+    <li><strong>Rate limiting and origin checks</strong> protect the two API routes.</li>
+  </ul>
+
+  <div class="callout warn">
+    <h4>A proxy defect with real SEO cost</h4>
+    <p>Next.js middleware matchers exclude paths containing a file extension by default.
+    That meant <code>robots.txt</code> and <code>sitemap.xml</code> bypassed the proxy
+    entirely &mdash; and the Vercel preview domain
+    <code>wild-atlas-six.vercel.app</code> was being indexed by Google as a separate
+    site, competing with the production domain.</p>
+    <p>Fixed by adding both files to the matcher explicitly and returning early for
+    host-level files, with a test asserting the matcher still covers them.</p>
+  </div>
+</section>
+
+<!-- ============ 10. STATE ============ -->
+<section>
+  <h2><span class="num">10</span>Current state and open work</h2>
+
+  <h3>Verified as of 28 August 2026</h3>
+  <table>
+    <tr><th>Check</th><th>Result</th></tr>
+    <tr><td><code>tsc --noEmit</code></td><td>Clean</td></tr>
+    <tr><td><code>vitest run</code></td><td>402 passed, 51 suites</td></tr>
+    <tr><td><code>next build</code></td><td>1,072 pages generated</td></tr>
+    <tr><td>hreflang audit</td><td>1,044 / 1,044 correct</td></tr>
+    <tr><td>Indexing</td><td>1,050 / 1,050 submitted, 0 outstanding</td></tr>
+  </table>
+
+  <h3>Open work, in priority order</h3>
+  <table>
+    <tr><th>Item</th><th>Owner</th><th>Assessment</th></tr>
+    <tr><td>Backlinks</td><td>Off-site</td><td><strong>The genuine bottleneck.</strong> Commercial queries sit near position 52. No amount of on-page work substitutes for external authority.</td></tr>
+    <tr><td>Google Business Profile</td><td>User</td><td>The <code>LocalBusiness</code> schema has nothing to anchor to. Largest local-visibility gap.</td></tr>
+    <tr><td>Real event data</td><td>User</td><td>The six festivals are researched placeholders pending confirmed dates.</td></tr>
+    <tr><td>Guide photographs</td><td>User</td><td>Smail, Mohamed and Lahsen render initials.</td></tr>
+    <tr><td>Blog inline images</td><td>Dev</td><td>The markdown renderer supports headings, lists, tables and paragraphs &mdash; but not images. Own photography cannot appear inside articles.</td></tr>
+    <tr><td>LCP improvement</td><td>Dev</td><td>3.0 s against a 2.5 s threshold.</td></tr>
+    <tr><td>Review corpus</td><td>Data</td><td><code>reviewCount</code> and <code>rating</code> are deprecated placeholders summing to ~2,276 against 122 real TripAdvisor reviews. Not rendered, not emitted as schema.</td></tr>
+  </table>
+
+  <h3>Assessment</h3>
+  <p>The engineering is in unusually good order for a project this size. The test culture
+  is the strongest asset &mdash; not because 402 assertions is a large number, but
+  because each one encodes a defect that actually escaped to production, which makes the
+  suite a record of how this system fails rather than a checklist.</p>
+
+  <p>The technical SEO is close to exhausted as a lever. Structured data, hreflang,
+  sitemaps, internal linking and indexing are all correct and verified. What remains is
+  not a code problem: commercial queries sit near position 52 because the domain lacks
+  external authority, and that is earned through backlinks and a Business Profile rather
+  than shipped from a repository.</p>
+
+  <p>The most valuable remaining engineering task is small: adding image support to the
+  markdown renderer. The project owns 165 photographs from real departures and cannot
+  currently place any of them inside an article.</p>
+</section>
+
+</body>
+</html>

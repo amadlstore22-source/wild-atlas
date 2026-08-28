@@ -168,6 +168,11 @@ export const TOURS: Tour[] = [
           "/gallery/toubkal-national-park-entrance-sign.jpg",
       "/gallery/toubkal-trail-turquoise-pool-waterfall.jpg",
       "/gallery/toubkal-national-park-peak-clouds.jpg",
+      "/gallery/toubkal-refuge-approach-trekkers.jpg",
+      "/gallery/toubkal-cirque-meltwater-stream.jpg",
+      "/gallery/toubkal-traverse-trekkers-mule.jpg",
+      "/gallery/toubkal-valley-trail-trekkers.jpg",
+      "/gallery/toubkal-refuge-valley-view.jpg",
 ],
     shortDescription:
       "Conquer Jbel Toubkal (4,167 m) — the roof of North Africa — through Berber villages and high alpine valleys.",
@@ -2995,6 +3000,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-summit-group-pyramid.jpg",
           "/gallery/toubkal-national-park-entrance-sign.jpg",
       "/gallery/toubkal-trail-waterfall-gorge.jpg",
+      "/gallery/toubkal-refuge-approach-trekkers.jpg",
+      "/gallery/toubkal-valley-trail-trekkers.jpg",
+      "/gallery/toubkal-national-park-sign-trilingual.jpg",
 ],
     shortDescription:
       "The fastest way to the roof of North Africa — summit Jbel Toubkal (4,167 m) in a focused two-day ascent from Marrakech.",
@@ -4628,7 +4636,10 @@ export const TOURS: Tour[] = [
       "/gallery/blog-dades-valley-gorges-guide.jpg",
       "/gallery/camel-caravan-dune-crest-sand-sea.jpg",
       "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
-    ],
+          "/gallery/toubkal-refuge-approach-trekkers.jpg",
+      "/gallery/toubkal-cirque-meltwater-stream.jpg",
+      "/gallery/atlas-valley-pines-sunrise-haze.jpg",
+],
     shortDescription:
       "North Africa's highest summit and the dunes of Erg Chebbi in one 8-day trip, on set departures of 14 seats.",
     description:

@@ -299,6 +299,31 @@ A 2-day ascent is possible (Imlil → Refuge → Summit → Imlil) but removes a
 
 **Is altitude sickness a risk?**
 Yes. Toubkal's summit sits at 4,167 m — high enough for acute mountain sickness in some people. Ascending slowly, drinking 3–4 litres of water per day, and not rushing Day 2 are the key preventive measures.
+
+## The plane wreck on Tibherine
+
+Trekkers on the Toubkal massif often come back asking about the aircraft
+engine sitting on a summit east of the main peak. It is real, and the story
+behind it is worth knowing.
+
+On the night of 28 November 1969 a Lockheed L-749A Constellation flying from
+Faro in Portugal towards Sao Tome — carrying ammunition bound for Biafra —
+lost engine power over Morocco. The crew asked to divert, but the aircraft
+lost height and struck Tibherine East at around 3,880 m. All eight people on
+board were killed. The wreck was not found until 18 July 1970, when
+mountaineers came across it; debris is scattered down the west face, and one
+of the engines remains embedded in the summit rocks.
+
+Tibherine is a twin summit — East at 3,880 m and West at 3,887 m, close enough
+in height and shape that they are known locally as the twins. The wreck is on
+the eastern top.
+
+**It is not on the standard Toubkal route.** Our summit treks go to Toubkal
+itself and return to the refuge, so reaching the wreck means a separate
+objective and a guide who knows the approach. If seeing it matters to you, say
+so when you enquire and we will tell you honestly whether it fits the itinerary
+you are considering — on a two-day trek, it does not.
+
     `,
   },
   {

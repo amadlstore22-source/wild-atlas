@@ -185,7 +185,15 @@ export default function ToursClient({
             <Sliders className="w-5 h-5 text-ink-muted shrink-0 hidden lg:block" />
             <div className="relative flex-1 w-full">
               <MagnifyingGlass className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
-              <input type="text" placeholder={dict.tours.searchPlaceholder} value={search} onChange={(e) => setSearch(e.target.value)}
+              <input
+                type="search"
+                // Named for screen readers. Unlike the newsletter field — whose
+                // placeholder is the example value "your@email.com" — this
+                // placeholder describes the field's purpose ("Search tours,
+                // destinations...") and is translated in all six locales, so it
+                // is a legitimate accessible name.
+                aria-label={dict.tours.searchPlaceholder}
+                placeholder={dict.tours.searchPlaceholder} value={search} onChange={(e) => setSearch(e.target.value)}
                 className="w-full pl-9 pr-4 py-2.5 rounded-[3px] border border-rule bg-surface-raised text-ink placeholder:text-ink-muted focus:outline-none focus:border-indigo text-sm" />
             </div>
             {hasFilters && (

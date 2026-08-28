@@ -252,6 +252,7 @@ export default function Footer({ lang, dict }: Props) {
           <div className="sm:min-w-[340px]">
             <NewsletterForm
               placeholder="your@email.com"
+              label={dict.contact.formEmail}
               buttonLabel={dict.footer.newsletterBtn}
               successLabel={dict.footer.newsletterSuccess}
               errorLabel={dict.footer.newsletterError}

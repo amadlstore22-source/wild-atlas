@@ -183,6 +183,8 @@ export const TOURS: Tour[] = [
       "Sleep in traditional Berber mountain refuges at 3,207 m",
       "Start in the trailhead village of Imlil, deep in the Atlas",
       "Panoramic views spanning Morocco and Algeria",
+      "/gallery/refuge-group-dinner-long-table.jpg",
+      "/gallery/trek-lunch-mint-tea-walnut-grove.jpg",
     ],
     includes: [
       "Professional licensed mountain guide",
@@ -303,6 +305,8 @@ export const TOURS: Tour[] = [
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/camel-caravan-sunset-riders.jpg",
+      "/gallery/camp-cook-preparing-vegetables.jpg",
     ],
     shortDescription:
       "Ride camels into the golden Erg Chebbi dunes and sleep under a million stars in a traditional Berber desert camp.",
@@ -409,6 +413,7 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-desert-caravan.jpg",
       "https://images.unsplash.com/photo-1568241360857-e23e825c4e08?w=1200&q=85",
       "https://images.unsplash.com/photo-1597823262196-cc7e878d73ce?w=1200&q=85",
+      "/gallery/ourika-valley-cascade-cafe.jpg",
     ],
     shortDescription:
       "A full-day hike through walnut groves, Berber villages, and mountain streams just 45 minutes from Marrakech.",
@@ -710,6 +715,7 @@ export const TOURS: Tour[] = [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
+      "/gallery/ait-ben-haddou-kasbah-wide.jpg",
     ],
     shortDescription:
       "Two of Morocco's greatest cities in three days — High Atlas pass, Ifrane, cedar forest, and the ancient medina of Fes.",
@@ -806,6 +812,8 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/blog-anti-atlas-trekking-guide.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
+      "/gallery/high-camp-tents-below-ridge.jpg",
+      "/gallery/trek-scramble-gorge-poles.jpg",
     ],
     shortDescription:
       "Morocco's wildest trek — 7 days crossing the remote Mgoun Massif (4,068 m) with no other tourists in sight.",
@@ -960,6 +968,7 @@ export const TOURS: Tour[] = [
       "/gallery/atlantic-coast-trek-beach-walkers.jpg",
       "/gallery/atlantic-coast-sea-arch-cliff.jpg",
       "/gallery/atlantic-coast-trek-argan-trail-group.jpg",
+      "/gallery/wild-ostrich-souss-massa.jpg",
     ],
     shortDescription:
       "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve.",
@@ -1179,6 +1188,7 @@ export const TOURS: Tour[] = [
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
       "/gallery/atlantic-coast-trek-camels-argan-track.jpg",
       "/gallery/coastal-desert-camp-dusk-tents.jpg",
+      "/gallery/tafraoute-painted-rocks.jpg",
     ],
     shortDescription:
       "Three days in the ancient Anti-Atlas — painted valleys, almond blossom gorges, and Berber villages with no other tourists.",
@@ -1277,6 +1287,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/camels-couched-camp-dawn.jpg",
     ],
     shortDescription:
       "Cross the Anti-Atlas and Draa Valley to the Sahara — camel trek, desert camp, and a sunrise over Erg Chegaga.",
@@ -1740,6 +1751,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/caravan-dune-ridge-long-shadows.jpg",
     ],
     shortDescription:
       "The fastest route to the Sahara from Marrakech — through Aït Ben Haddou and the 200 km Draa Valley palmery to a desert camp under the stars near Zagora.",
@@ -1842,6 +1854,8 @@ export const TOURS: Tour[] = [
       "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/group-walking-dune-ridge.jpg",
+      "/gallery/dune-summit-arms-raised.jpg",
     ],
     shortDescription:
       "Morocco's most remote desert — Erg Chegaga requires a 4x4 off-road journey past the last paved road to reach dunes rising 120 m above a vast and unpopulated sea of sand.",
@@ -1951,6 +1965,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+      "/gallery/ait-ben-haddou-kasbah-wide.jpg",
     ],
     shortDescription:
       "Four days through the full sweep of Morocco's south — mountains, canyons, film studios, a night in the desert, and the Road of a Thousand Kasbahs — all the way to Erg Chebbi and back.",
@@ -2078,6 +2093,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/camels-resting-dune-golden-hour.jpg",
     ],
     shortDescription:
       "From Agadir's Atlantic coast to the Sahara's most iconic dune field — through Taroudant, Taliouine, Aït Ben Haddou, and Todra Gorge to a sunset camel trek on Erg Chebbi.",
@@ -2182,6 +2198,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
+      "/gallery/camels-resting-acacia-tree.jpg",
     ],
     shortDescription:
       "Two days from Agadir's Atlantic beaches to the desert — via the walled city of Taroudant, the carpet capital of Taznakht, and the 200 km Draa Valley palmery to the Zagora dunes.",
@@ -2272,6 +2289,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-sahara-desert-facts.jpg",
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
+      "/gallery/group-walking-dune-ridge.jpg",
     ],
     shortDescription:
       "Agadir's best Sahara route — south through the Anti-Atlas foothills and Draa Valley to reach Erg Chegaga, Morocco's most remote dune field, by 4x4.",
@@ -3018,6 +3036,8 @@ export const TOURS: Tour[] = [
       "Overnight in the Toubkal Refuge at 3,207 m",
       "Pass the Sidi Chamharouch shrine and its waterfall",
       "Sunrise panorama across the entire High Atlas range",
+      "/gallery/refuge-group-dinner-long-table.jpg",
+      "/gallery/berber-salad-platter-trail-lunch.jpg",
     ],
     includes: [
       "Professional licensed mountain guide",
@@ -3208,6 +3228,8 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-atlas-ridge.jpg",
       "/gallery/category-hero-mgoun-massif.jpg",
       "/gallery/guided-group-mountain-trail.jpg",
+      "/gallery/trek-group-descending-scree.jpg",
+      "/gallery/summit-ridge-arms-wide-atlas.jpg",
     ],
     shortDescription:
       "Bag three of the High Atlas's 4,000 m summits in three days — Ras Ouanoukrim, Timesguida, and Jbel Toubkal.",
@@ -3386,6 +3408,8 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-medina-doorway.jpg",
       "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
+      "/gallery/desert-campfire-night-guests.jpg",
+      "/gallery/camels-couched-camp-dawn.jpg",
     ],
     shortDescription:
       "Camel trek into Erg Chebbi at sunset, then a guided naked-eye and telescope stargazing session under one of the darkest skies in North Africa.",
@@ -3476,6 +3500,8 @@ export const TOURS: Tour[] = [
       "/gallery/trek-camp-golden-hour-valley.jpg",
       "/gallery/ifni-loaded-mule-high-scree.jpg",
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
+      "/gallery/atlas-mule-train-green-trail.jpg",
+      "/gallery/atlas-terraced-fields-sunrise.jpg",
     ],
     shortDescription:
       "A two-day crossing into the quiet Azzaden Valley over the Tizi Mzik pass, sleeping in a Berber village guesthouse away from the Toubkal crowds.",
@@ -3681,6 +3707,8 @@ export const TOURS: Tour[] = [
       "Village guesthouse nights with Berber families — bread baking, mint tea",
       "Waterfalls, river pools and walnut groves rather than high passes",
       "Mules carry all luggage and can carry tired younger children",
+      "/gallery/trek-lunch-mint-tea-walnut-grove.jpg",
+      "/gallery/berber-salad-platter-trail-lunch.jpg",
     ],
     includes: [
       "Professional licensed mountain guide experienced with families",
@@ -4126,6 +4154,7 @@ export const TOURS: Tour[] = [
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
       "/gallery/family-camel-trek-palmeraie-children.jpg",
       "/gallery/coastal-desert-camp-dusk-tents.jpg",
+      "/gallery/caravan-dune-ridge-long-shadows.jpg",
     ],
     shortDescription:
       "Six days walking beside a camel caravan from the Draa Valley to the Chegaga dunes — no vehicle, no fixed camp, no road.",
@@ -4296,6 +4325,8 @@ export const TOURS: Tour[] = [
       "/gallery/tours-desert-4day-marrakech.jpg",
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
+      "/gallery/camel-caravan-dune-crest-walker.jpg",
+      "/gallery/desert-campfire-night-guests.jpg",
     ],
     shortDescription:
       "The classic Marrakech to Merzouga run on a shared daily departure — Aït Ben Haddou, the gorges, and a night in the Erg Chebbi dunes.",
@@ -4379,6 +4410,8 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
+      "/gallery/camels-resting-acacia-tree.jpg",
+      "/gallery/trekkers-crossing-dune-field.jpg",
     ],
     shortDescription:
       "The shortest route to a desert night — over the Atlas to the Draa Valley, a camel ride and a camp under the stars.",

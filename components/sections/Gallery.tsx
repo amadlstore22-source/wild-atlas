@@ -50,6 +50,22 @@ const PHOTOS = [
   { src: "/gallery/family-desert-camp-campfire-dusk.jpg", alt: "A family with young children around the campfire at our Sahara camp at dusk, guide tending the fire, Morocco", span: "col-span-1 row-span-2" },
   { src: "/gallery/family-desert-camel-caravan-dunes.jpg", alt: "Children riding in the camel caravan across the Erg Chebbi dunes with our guide leading on foot, Merzouga Morocco" },
   { src: "/gallery/family-camel-trek-palmeraie-children.jpg", alt: "Children in sun scarves riding camels past the palm groves and mud-brick walls of a Draa Valley village, Morocco" },
+  // What a departure actually looks like: the meals, the mules, the refuge
+  // table, the guide. The gallery was heavy on landscape and light on the
+  // things a person is actually buying — every frame here has our guests or
+  // our crew in it.
+  { src: "/gallery/camel-caravan-sunset-riders.jpg", alt: "Our guests riding the camel caravan into the sunset across the Erg Chebbi dunes, Merzouga Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/trek-lunch-mint-tea-walnut-grove.jpg", alt: "Trailside lunch of Berber salad and mint tea spread on rugs under walnut trees, High Atlas Morocco" },
+  { src: "/gallery/refuge-group-dinner-long-table.jpg", alt: "Our trekkers eating together at the long table of a mountain refuge, High Atlas Morocco" },
+  { src: "/gallery/atlas-terraced-fields-sunrise.jpg", alt: "Terraced Berber fields catching first light across a High Atlas valley, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/atlas-mule-train-green-trail.jpg", alt: "Our mule train carrying kit up a green spring trail in the High Atlas, Morocco" },
+  { src: "/gallery/camp-cook-preparing-vegetables.jpg", alt: "Our camp cook preparing fresh vegetables inside the mess tent on a desert departure, Morocco" },
+  { src: "/gallery/desert-campfire-night-guests.jpg", alt: "Guests and guides around the campfire under a black desert sky, Sahara Morocco" },
+  { src: "/gallery/trek-scramble-gorge-poles.jpg", alt: "Trekkers scrambling a rocky gorge step with poles on a High Atlas route, Morocco" },
+  { src: "/gallery/winter-ascent-crampons-helmet.jpg", alt: "A trekker in helmet and crampons on a winter ascent in the snow-covered High Atlas, Morocco" },
+  { src: "/gallery/camels-resting-acacia-tree.jpg", alt: "Baggage camels resting in the shade of a lone acacia on a desert crossing, Morocco" },
+  { src: "/gallery/ait-ben-haddou-kasbah-wide.jpg", alt: "The earthen kasbah of Aït Ben Haddou rising above the palm groves, Ouarzazate Morocco" },
+  { src: "/gallery/wild-ostrich-souss-massa.jpg", alt: "A wild ostrich on the coastal plain of Souss-Massa National Park, Morocco" },
 ];
 
 interface Props {

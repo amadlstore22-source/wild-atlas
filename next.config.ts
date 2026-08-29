@@ -88,6 +88,39 @@ const nextConfig: NextConfig = {
         source: "/(.*)",
         headers: securityHeaders,
       },
+      {
+        // Static photography served from /public.
+        //
+        // Vercel serves /public with `Cache-Control: public, max-age=0,
+        // must-revalidate`, and next/image DERIVES the optimized image's
+        // max-age from the upstream header: per the Next docs, "the expiration
+        // of the optimized image is defined by either the minimumCacheTTL or
+        // the upstream image Cache-Control header, whichever is larger", and
+        // the fix is to set the header on the SOURCE asset (/some-asset.jpg),
+        // never on /_next/image itself.
+        //
+        // So every /_next/image response was going out with max-age=0 too.
+        // Measured on the live site: Vercel's own edge reported X-Vercel-Cache:
+        // HIT, but the BROWSER was told to revalidate on every view — while
+        // hashed JS beside it correctly gets max-age=31536000, immutable. On a
+        // page carrying 33 images, a returning visitor re-requested all of them
+        // on every navigation. Those are billable edge requests as well as a
+        // slower repeat visit.
+        //
+        // NOT `immutable`: these filenames are stable, not content-hashed, and
+        // gallery files have genuinely been replaced in place three times
+        // (resizing passes). immutable would pin a stale photograph in every
+        // visitor's browser for a year with no way to bust it. A 30-day
+        // max-age with a year of stale-while-revalidate gives the same
+        // practical hit rate while still letting a replaced file propagate.
+        source: "/gallery/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=2592000, stale-while-revalidate=31536000",
+          },
+        ],
+      },
     ];
   },
 };

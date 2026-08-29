@@ -33,6 +33,23 @@ const PHOTOS = [
   { src: "/gallery/blog-hero-sahara-dunes-golden.jpg", alt: "Desert camp among the Erg Chebbi dunes at golden hour, Merzouga Sahara, Morocco", span: "col-span-1 row-span-2" },
   { src: "/gallery/tours-erg-chegaga-3day-marrakech.jpg", alt: "Berber tents pitched below the dunes of Erg Chegaga, Draa Valley, Morocco" },
   { src: "/gallery/tours-merzouga-stargazing-desert-tour.jpg", alt: "The night sky over a dune at Erg Chebbi, Merzouga — no artificial light for 50 km, Morocco" },
+  // Atlantic coast trek, September 2018 — a multi-day walk the gallery had no
+  // frames of at all. Same rule as the Sahara block above: every one of these
+  // was opened and looked at before it was listed, and the filenames were
+  // written from what is in the frame rather than from where we assumed it was
+  // shot.
+  { src: "/gallery/atlantic-coast-trek-beach-walkers.jpg", alt: "Our group walking the tideline of an empty beach below a headland on the Atlantic coast of Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/atlantic-coast-trek-argan-trail-group.jpg", alt: "Our trekkers on a stony trail through argan woodland above the Atlantic coast, Morocco" },
+  { src: "/gallery/atlantic-coast-trek-camels-argan-track.jpg", alt: "One of our guides in a blue turban walking the baggage camels along an argan-lined track on the Atlantic coast of Morocco" },
+  { src: "/gallery/atlantic-coast-sea-arch-cliff.jpg", alt: "Natural rock arch in the sea cliffs with Atlantic surf breaking below, on the coast of Morocco" },
+  { src: "/gallery/coastal-desert-camp-dusk-tents.jpg", alt: "Our tents pitched among coastal dunes at dusk as the camels are unloaded, Morocco" },
+  // Families on our own desert departures. The catalogue sells a family desert
+  // tour and a family Atlas trek, and until now the gallery showed neither —
+  // a parent deciding whether this trip suits a seven-year-old had nothing to
+  // look at.
+  { src: "/gallery/family-desert-camp-campfire-dusk.jpg", alt: "A family with young children around the campfire at our Sahara camp at dusk, guide tending the fire, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/family-desert-camel-caravan-dunes.jpg", alt: "Children riding in the camel caravan across the Erg Chebbi dunes with our guide leading on foot, Merzouga Morocco" },
+  { src: "/gallery/family-camel-trek-palmeraie-children.jpg", alt: "Children in sun scarves riding camels past the palm groves and mud-brick walls of a Draa Valley village, Morocco" },
 ];
 
 interface Props {

@@ -957,6 +957,9 @@ export const TOURS: Tour[] = [
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
       "/gallery/tours-sous-massa-national-park.jpg",
+      "/gallery/atlantic-coast-trek-beach-walkers.jpg",
+      "/gallery/atlantic-coast-sea-arch-cliff.jpg",
+      "/gallery/atlantic-coast-trek-argan-trail-group.jpg",
     ],
     shortDescription:
       "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve.",
@@ -1174,6 +1177,8 @@ export const TOURS: Tour[] = [
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
+      "/gallery/atlantic-coast-trek-camels-argan-track.jpg",
+      "/gallery/coastal-desert-camp-dusk-tents.jpg",
     ],
     shortDescription:
       "Three days in the ancient Anti-Atlas — painted valleys, almond blossom gorges, and Berber villages with no other tourists.",
@@ -1429,7 +1434,7 @@ export const TOURS: Tour[] = [
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
       "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
-      "https://images.unsplash.com/photo-1624802746702-60ca95bdb605?w=1200&q=85",
+      "/gallery/atlantic-coast-sea-arch-cliff.jpg",
       "/gallery/blog-taghazout-surf-guide-morocco.jpg",
     ],
     shortDescription:
@@ -3774,8 +3779,8 @@ export const TOURS: Tour[] = [
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
-      "https://images.pexels.com/photos/36218738/pexels-photo-36218738.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "https://images.pexels.com/photos/35032238/pexels-photo-35032238.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/gallery/family-desert-camp-campfire-dusk.jpg",
+      "/gallery/family-desert-camel-caravan-dunes.jpg",
     ],
     shortDescription:
       "A four-day Marrakech-to-Sahara circuit paced for families: a comfortable vehicle, a kasbah film set, a night on the dunes, camel rides, and short easy stops.",
@@ -4119,6 +4124,8 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
+      "/gallery/family-camel-trek-palmeraie-children.jpg",
+      "/gallery/coastal-desert-camp-dusk-tents.jpg",
     ],
     shortDescription:
       "Six days walking beside a camel caravan from the Draa Valley to the Chegaga dunes — no vehicle, no fixed camp, no road.",

@@ -3096,7 +3096,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/category-hero-mgoun-massif.jpg",
       "/gallery/category-hero-atlas-ridge.jpg",
-      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+      "/gallery/trekking-group-scree-slope-summer.jpg",
       "/gallery/destination-hero-toubkal-snow.jpg",
     ],
     shortDescription:
@@ -3202,7 +3202,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/category-hero-atlas-ridge.jpg",
       "/gallery/category-hero-mgoun-massif.jpg",
-      "https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=1200&q=85",
+      "/gallery/guided-group-mountain-trail.jpg",
     ],
     shortDescription:
       "Bag three of the High Atlas's 4,000 m summits in three days — Ras Ouanoukrim, Timesguida, and Jbel Toubkal.",

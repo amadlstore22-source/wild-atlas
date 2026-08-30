@@ -697,6 +697,10 @@
     "whyGo": "Perché vale la pena questa data",
     "beforeYouGo": "Cosa sapere prima di programmare il viaggio",
     "departureDates": "Date di partenza fisse",
-    "departureDatesNote": "Quattordici posti per partenza. Queste date sono fisse e non si spostano."
+    "departureDatesNote": "Quattordici posti per partenza. Queste date sono fisse e non si spostano.",
+    "bookingOpen": "Prenotazioni aperte",
+    "bookingNext": "prossima partenza il {date}",
+    "bookingClosed": "Questa stagione è conclusa",
+    "bookAheadSeats": "Prenota circa {weeks} settimane prima — ogni partenza è limitata a quattordici posti."
   }
 }

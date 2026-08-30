@@ -136,7 +136,24 @@ export const EVENTS: TourEvent[] = [
       "Most people choose between the mountains and the desert. This trip does both in eight days: three days on Toubkal, at 4,167 m the highest point in North Africa, then south over the Tizi n'Tichka to a night in the Erg Chebbi dunes at Merzouga. It runs on set dates rather than on demand, which is what makes it a shared trip at a private trip's standard -- fourteen seats, one licensed mountain guide, and a fixed price per seat however few people book.",
     tourSlugs: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "shared-merzouga-3day-marrakech"],
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
-    bookAheadWeeks: 12,
+    // 16 weeks, not the 12 this launched with, and not a festival's 40.
+    //
+    // The other entries here are FESTIVALS, where bookAheadWeeks answers "how
+    // early does accommodation near the event sell out" -- Gnaoua is 40 because
+    // Essaouira's riads fill most of a year ahead. This is our own trip and the
+    // constraint is different: fourteen seats, and once they are gone the date
+    // is gone whatever hotels do.
+    //
+    // Sized against the closest real comparators rather than a guess. Nepal
+    // operators quote 6-8 weeks for a spring trek and roughly six months as
+    // "almost always sufficient"; general tour booking windows have SHORTENED
+    // to 15-25 days, but that figure is for day tours and activities, not for
+    // a trip someone books international flights around. A March departure sold
+    // by the seat needs the flight decision made before Christmas, so 16 weeks
+    // (mid-November for the 5 March departure) is the honest number: late
+    // enough not to nag in September, early enough that it is not advice given
+    // after the fact.
+    bookAheadWeeks: 16,
     highlights: [
       "Jbel Toubkal at 4,167 m -- the highest summit in North Africa",
       "A night in the Erg Chebbi dunes at Merzouga, reached by camel",

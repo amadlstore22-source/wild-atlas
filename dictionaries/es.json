@@ -697,6 +697,10 @@
     "whyGo": "Por qué merece la pena esta fecha",
     "beforeYouGo": "Lo que conviene saber antes de planificar en torno a ella",
     "departureDates": "Fechas de salida fijas",
-    "departureDatesNote": "Catorce plazas por salida. Estas fechas son fijas y no se mueven."
+    "departureDatesNote": "Catorce plazas por salida. Estas fechas son fijas y no se mueven.",
+    "bookingOpen": "Reservas abiertas",
+    "bookingNext": "próxima salida el {date}",
+    "bookingClosed": "Esta temporada ha terminado",
+    "bookAheadSeats": "Reserva unas {weeks} semanas antes — cada salida está limitada a catorce plazas."
   }
 }

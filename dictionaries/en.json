@@ -697,6 +697,10 @@
     "whyGo": "Why this date is worth it",
     "beforeYouGo": "What to know before you plan around it",
     "departureDates": "Set departure dates",
-    "departureDatesNote": "Fourteen seats per departure. These dates are fixed and do not move."
+    "departureDatesNote": "Fourteen seats per departure. These dates are fixed and do not move.",
+    "bookingOpen": "Booking open now",
+    "bookingNext": "next departure {date}",
+    "bookingClosed": "This season has finished",
+    "bookAheadSeats": "Book around {weeks} weeks ahead — each departure is capped at fourteen seats."
   }
 }

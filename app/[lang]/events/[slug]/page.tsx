@@ -10,6 +10,7 @@ import { eventFor } from "@/lib/events.i18n";
 import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
+import BookingStatus from "@/components/events/BookingStatus";
 
 type EventParams = { params: Promise<{ lang: string; slug: string }> };
 
@@ -149,9 +150,28 @@ export default async function EventDetailPage({ params }: EventParams) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-black/20" />
         <div className="absolute inset-x-0 bottom-0 mx-auto max-w-4xl px-4 pb-8">
-          <span className="rounded-full bg-white/90 px-3 py-1 font-body text-xs text-[var(--color-ink)]">
-            {dates}
-          </span>
+          {/* Live booking status sits at the top, above the fold, because on a
+              set-departure trip "can I still get on this?" is the first
+              question and it was previously only answerable by scrolling.
+              Client-rendered: this page is SSG, so a server-computed badge
+              would freeze at build time and keep advertising a departure that
+              had already left. */}
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-full bg-white/90 px-3 py-1 font-body text-xs text-[var(--color-ink)]">
+              {dates}
+            </span>
+            {event.departureDates && event.departureDates.length > 0 ? (
+              <BookingStatus
+                dates={event.departureDates}
+                lang={lang}
+                labels={{
+                  open: t.bookingOpen,
+                  next: t.bookingNext,
+                  closed: t.bookingClosed,
+                }}
+              />
+            ) : null}
+          </div>
           <h1 className="mt-3 font-display text-3xl text-white sm:text-4xl">
             {event.name}
           </h1>
@@ -187,7 +207,13 @@ export default async function EventDetailPage({ params }: EventParams) {
             </p>
           ) : null}
           <p className="mt-3 font-body text-sm text-[var(--color-ink-muted)]">
-            {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
+            {/* Festivals fill nearby ACCOMMODATION; our own departures run out of
+                SEATS. Shipping the festival sentence on a set-departure page gives
+                a confident reason to book early that is not the actual reason. */}
+            {(event.departureDates?.length ? t.bookAheadSeats : t.bookAhead).replace(
+              "{weeks}",
+              String(event.bookAheadWeeks),
+            )}
           </p>
         </div>
 

@@ -697,6 +697,10 @@
     "whyGo": "Warum sich dieser Termin lohnt",
     "beforeYouGo": "Was Sie wissen sollten, bevor Sie danach planen",
     "departureDates": "Feste Abreisetermine",
-    "departureDatesNote": "Vierzehn Plätze pro Termin. Diese Daten stehen fest und verschieben sich nicht."
+    "departureDatesNote": "Vierzehn Plätze pro Termin. Diese Daten stehen fest und verschieben sich nicht.",
+    "bookingOpen": "Buchung jetzt möglich",
+    "bookingNext": "nächster Termin am {date}",
+    "bookingClosed": "Diese Saison ist beendet",
+    "bookAheadSeats": "Buchen Sie rund {weeks} Wochen im Voraus — jeder Termin ist auf vierzehn Plätze begrenzt."
   }
 }

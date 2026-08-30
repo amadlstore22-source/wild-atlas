@@ -7,6 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import type { TourEvent } from "@/lib/events";
 import { upcomingEventsFor } from "@/lib/events.i18n";
+import BookingStatus from "@/components/events/BookingStatus";
 import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 
@@ -79,7 +80,18 @@ function EventCard({
 }: {
   event: TourEvent;
   lang: string;
-  t: { confirmed: string; estimated: string; lunar: string; bookAhead: string; seeDepartures: string; departureDates: string };
+  t: {
+    confirmed: string;
+    estimated: string;
+    lunar: string;
+    bookAhead: string;
+    bookAheadSeats: string;
+    seeDepartures: string;
+    departureDates: string;
+    bookingOpen: string;
+    bookingNext: string;
+    bookingClosed: string;
+  };
 }) {
   // A set-departure trip's startDate..endDate spans the whole SEASON so the
   // sort and expiry logic work, but printing that range on a card reads as one
@@ -115,6 +127,13 @@ function EventCard({
             <span className="font-body text-xs text-[var(--color-ink-muted)]">
               {confidenceLabel(event.confidence, t)}
             </span>
+            {departures.length > 0 ? (
+              <BookingStatus
+                dates={departures}
+                lang={lang}
+                labels={{ open: t.bookingOpen, next: t.bookingNext, closed: t.bookingClosed }}
+              />
+            ) : null}
           </div>
           <h2 className="mt-3 font-display text-2xl text-[var(--color-ink)] group-hover:underline">
             {event.name}
@@ -128,7 +147,13 @@ function EventCard({
             </p>
           ) : null}
           <p className="mt-3 font-body text-xs text-[var(--color-ink-muted)]">
-            {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
+            {/* Festivals fill nearby ACCOMMODATION; our own departures run out of
+                SEATS. Shipping the festival sentence on a set-departure page gives
+                a confident reason to book early that is not the actual reason. */}
+            {(event.departureDates?.length ? t.bookAheadSeats : t.bookAhead).replace(
+              "{weeks}",
+              String(event.bookAheadWeeks),
+            )}
           </p>
           <span className="mt-4 inline-block font-body text-sm text-[var(--color-terracotta)]">
             {t.seeDepartures} &rarr;

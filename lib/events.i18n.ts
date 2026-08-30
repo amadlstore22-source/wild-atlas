@@ -21,6 +21,113 @@ type EventCopy = Pick<TourEvent, "name" | "shortName" | "blurb" | "description">
 type Table = Record<string, Record<Exclude<Locale, "en">, EventCopy>>;
 
 const COPY: Table = {
+  "morocco-highlights-8day-departures": {
+    fr: {
+      name: "Morocco Highlights 8 jours : sommet du Toubkal et désert du Sahara",
+      shortName: "Highlights 8 jours",
+      blurb:
+        "Le plus haut sommet d'Afrique du Nord et les dunes de l'Erg Chebbi en un seul voyage, sur cinq départs fixes de quatorze places.",
+      description:
+        "La plupart des voyageurs choisissent entre la montagne et le désert. Ce circuit fait les deux en huit jours : trois jours sur le Toubkal, 4 167 m et point culminant de l'Afrique du Nord, puis la descente vers le sud par le Tizi n'Tichka jusqu'à une nuit dans les dunes de l'Erg Chebbi, à Merzouga. Il part à dates fixes plutôt qu'à la demande, et c'est ce qui en fait un circuit partagé au niveau d'un circuit privé : quatorze places, un guide de montagne diplômé, et un prix par personne qui ne bouge pas quel que soit le nombre d'inscrits.",
+      highlights: [
+        "Le Jbel Toubkal à 4 167 m — le plus haut sommet d'Afrique du Nord",
+        "Une nuit dans les dunes de l'Erg Chebbi à Merzouga, rejointes à dos de dromadaire",
+        "Cinq départs fixes entre mars et avril 2027, quatorze places chacun",
+        "Un seul guide de montagne diplômé sur les huit jours, et non un chauffeur différent à chaque étape",
+        "Un prix par personne fixe : il n'augmente pas parce que vous n'êtes que trois",
+      ],
+      considerations: [
+        "Le circuit est classé difficile. Le Toubkal est une longue marche en altitude, sans difficulté technique, mais la journée du sommet dure huit à dix heures et commence avant l'aube.",
+        "En mars et début avril, la neige tient encore sur l'arête sommitale et les crampons sont parfois nécessaires — ils sont fournis, mais l'ascension est alors réellement hivernale.",
+        "Les départs fixes ne se déplacent pas. Si la date ne vous convient pas, le même terrain se parcourt en privé sur notre circuit Toubkal et Sahara de 5 jours, à la date de votre choix.",
+        "Quatorze places au maximum, et ce sont les départs de mars qui se remplissent en premier.",
+      ],
+    },
+    es: {
+      name: "Morocco Highlights 8 días: cumbre del Toubkal y desierto del Sáhara",
+      shortName: "Highlights 8 días",
+      blurb:
+        "La cumbre más alta del norte de África y las dunas del Erg Chebbi en un solo viaje, en cinco salidas fijas de catorce plazas.",
+      description:
+        "La mayoría de los viajeros elige entre la montaña y el desierto. Este circuito hace ambas cosas en ocho días: tres jornadas en el Toubkal, 4.167 m y techo del norte de África, y después el descenso hacia el sur por el Tizi n'Tichka hasta pasar una noche en las dunas del Erg Chebbi, en Merzouga. Sale en fechas fijas y no bajo demanda, y eso es lo que lo convierte en un circuito compartido con el nivel de uno privado: catorce plazas, un guía de montaña titulado y un precio por persona que no cambia por muy pocos que sean los inscritos.",
+      highlights: [
+        "El Jbel Toubkal a 4.167 m: la cumbre más alta del norte de África",
+        "Una noche en las dunas del Erg Chebbi, en Merzouga, a la que se llega en camello",
+        "Cinco salidas fijas entre marzo y abril de 2027, con catorce plazas cada una",
+        "Un mismo guía de montaña titulado durante los ocho días, y no un conductor distinto en cada tramo",
+        "Precio por plaza cerrado: no sube porque solo hayan reservado tres personas",
+      ],
+      considerations: [
+        "El circuito está calificado como exigente. El Toubkal es una caminata larga en altura, sin dificultad técnica, pero la jornada de cumbre dura de ocho a diez horas y arranca antes del amanecer.",
+        "En marzo y principios de abril todavía puede haber nieve en la arista de cumbre y a veces hacen falta crampones: se facilitan, pero en esas fechas la ascensión es realmente invernal.",
+        "Las salidas fijas no se mueven. Si la fecha no le encaja, el mismo recorrido se hace en privado en nuestro circuito Toubkal y Sáhara de 5 días, en la fecha que prefiera.",
+        "El límite son catorce plazas, y las salidas de marzo son las primeras en llenarse.",
+      ],
+    },
+    de: {
+      name: "Morocco Highlights 8 Tage: Toubkal-Gipfel und Sahara",
+      shortName: "Highlights 8 Tage",
+      blurb:
+        "Der höchste Gipfel Nordafrikas und die Dünen des Erg Chebbi in einer Reise, auf fünf festen Terminen mit je vierzehn Plätzen.",
+      description:
+        "Die meisten Reisenden entscheiden sich zwischen Bergen und Wüste. Diese Reise verbindet beides in acht Tagen: drei Tage am Toubkal, mit 4.167 m der höchste Punkt Nordafrikas, danach über den Tizi n'Tichka nach Süden zu einer Nacht in den Dünen des Erg Chebbi bei Merzouga. Sie startet zu festen Terminen statt auf Anfrage, und genau das macht sie zu einer Gruppenreise auf dem Niveau einer privaten: vierzehn Plätze, ein staatlich geprüfter Bergführer und ein Preis pro Platz, der gleich bleibt, wie wenige auch buchen.",
+      highlights: [
+        "Der Jbel Toubkal mit 4.167 m — der höchste Gipfel Nordafrikas",
+        "Eine Nacht in den Dünen des Erg Chebbi bei Merzouga, per Kamel erreicht",
+        "Fünf feste Termine zwischen März und April 2027 mit je vierzehn Plätzen",
+        "Ein einziger geprüfter Bergführer über alle acht Tage statt eines wechselnden Fahrers pro Etappe",
+        "Ein fester Preis pro Platz: Er steigt nicht, wenn nur drei Personen buchen",
+      ],
+      considerations: [
+        "Die Reise ist als anspruchsvoll eingestuft. Der Toubkal ist eine lange Höhenwanderung ohne technische Schwierigkeiten, doch der Gipfeltag dauert acht bis zehn Stunden und beginnt vor Sonnenaufgang.",
+        "Im März und Anfang April liegt am Gipfelgrat oft noch Schnee, und Steigeisen sind mitunter nötig — sie werden gestellt, aber der Aufstieg ist dann eine echte Winterbesteigung.",
+        "Feste Termine lassen sich nicht verschieben. Passt das Datum nicht, führt unsere 5-tägige Toubkal-und-Sahara-Reise privat über dasselbe Gelände, an einem Datum Ihrer Wahl.",
+        "Vierzehn Plätze sind das Maximum, und die März-Termine sind zuerst ausgebucht.",
+      ],
+    },
+    it: {
+      name: "Morocco Highlights 8 giorni: vetta del Toubkal e deserto del Sahara",
+      shortName: "Highlights 8 giorni",
+      blurb:
+        "La vetta più alta del Nord Africa e le dune dell'Erg Chebbi in un unico viaggio, su cinque partenze fisse da quattordici posti.",
+      description:
+        "Quasi tutti scelgono tra la montagna e il deserto. Questo viaggio fa entrambe le cose in otto giorni: tre giornate sul Toubkal, 4.167 m e punto più alto del Nord Africa, poi la discesa a sud attraverso il Tizi n'Tichka fino a una notte tra le dune dell'Erg Chebbi, a Merzouga. Parte a date fisse e non su richiesta, ed è questo a renderlo un viaggio di gruppo con lo standard di uno privato: quattordici posti, una guida alpina abilitata e un prezzo a posto che non cambia per quanti pochi siano gli iscritti.",
+      highlights: [
+        "Il Jbel Toubkal a 4.167 m: la vetta più alta del Nord Africa",
+        "Una notte tra le dune dell'Erg Chebbi, a Merzouga, raggiunte in cammello",
+        "Cinque partenze fisse tra marzo e aprile 2027, da quattordici posti ciascuna",
+        "Un'unica guida alpina abilitata per tutti gli otto giorni, non un autista diverso a ogni tratta",
+        "Prezzo a posto fisso: non sale perché hanno prenotato solo in tre",
+      ],
+      considerations: [
+        "Il viaggio è classificato impegnativo. Il Toubkal è una lunga camminata in quota, senza difficoltà tecniche, ma la giornata di vetta dura dalle otto alle dieci ore e inizia prima dell'alba.",
+        "A marzo e inizio aprile la neve può ancora coprire la cresta sommitale e a volte servono i ramponi: vengono forniti, ma in quel periodo la salita è a tutti gli effetti invernale.",
+        "Le partenze fisse non si spostano. Se la data non va bene, lo stesso itinerario si percorre in privato con il nostro viaggio Toubkal e Sahara di 5 giorni, nella data che preferite.",
+        "Il limite è di quattordici posti, e le partenze di marzo sono le prime a esaurirsi.",
+      ],
+    },
+    ar: {
+      name: "جولة المغرب المميزة في 8 أيام: قمة توبقال وصحراء مرزوكة",
+      shortName: "الجولة المميزة 8 أيام",
+      blurb:
+        "أعلى قمة في شمال أفريقيا وكثبان عرق الشبي في رحلة واحدة، على خمسة مواعيد ثابتة سعة أربعة عشر مقعداً.",
+      description:
+        "يختار معظم المسافرين بين الجبل والصحراء. هذه الرحلة تجمع الاثنين في ثمانية أيام: ثلاثة أيام على توبقال، 4167 متراً وأعلى نقطة في شمال أفريقيا، ثم الانحدار جنوباً عبر ممر تيزي ن تيشكا إلى ليلة بين كثبان عرق الشبي في مرزوكة. تنطلق في مواعيد محددة لا حسب الطلب، وهذا ما يجعلها رحلة جماعية بمستوى الرحلة الخاصة: أربعة عشر مقعداً، ومرشد جبلي مرخّص واحد، وسعر للمقعد لا يتغير مهما قلّ عدد المشاركين.",
+      highlights: [
+        "جبل توبقال على ارتفاع 4167 متراً — أعلى قمة في شمال أفريقيا",
+        "ليلة بين كثبان عرق الشبي في مرزوكة، يُوصل إليها على ظهر الجمال",
+        "خمسة مواعيد ثابتة بين مارس وأبريل 2027، بأربعة عشر مقعداً لكل موعد",
+        "مرشد جبلي مرخّص واحد طوال الأيام الثمانية، لا سائق مختلف في كل مرحلة",
+        "سعر ثابت للمقعد: لا يرتفع لأن ثلاثة أشخاص فقط حجزوا",
+      ],
+      considerations: [
+        "الرحلة مصنّفة صعبة. توبقال مسير طويل على ارتفاع عالٍ دون صعوبة تقنية، لكن يوم القمة يستغرق من ثماني إلى عشر ساعات ويبدأ قبل الفجر.",
+        "في مارس وأوائل أبريل قد يبقى الثلج على حرف القمة وتلزم أحياناً أدوات التسلق الجليدي — نوفّرها، لكن الصعود حينها شتوي بحق.",
+        "المواعيد الثابتة لا تتغير. إن لم يناسبك التاريخ، فالمسار نفسه متاح بشكل خاص في رحلة توبقال والصحراء لخمسة أيام، في أي تاريخ تختاره.",
+        "أربعة عشر مقعداً هو الحد الأقصى، ومواعيد مارس هي أول ما يمتلئ.",
+      ],
+    },
+  },
   "gnaoua-world-music-festival-essaouira": {
     fr: {
       name: "Festival Gnaoua et Musiques du Monde, Essaouira",

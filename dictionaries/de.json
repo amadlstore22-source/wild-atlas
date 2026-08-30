@@ -695,6 +695,8 @@
     "allEvents": "Alle kommenden Veranstaltungen",
     "disclaimer": "Festivaltermine in Marokko verschieben sich. Erntefeste richten sich nach der Ernte, religiöse Termine nach der Mondsichtung, die das Ministerium für Stiftungen und islamische Angelegenheiten bekannt gibt, und Dorf-Moussems werden vor Ort festgelegt, manchmal erst wenige Wochen vorher. Wir kennzeichnen klar, welche Termine der Veranstalter bestätigt hat und welche unsere beste Schätzung sind — und wir sagen Ihnen Bescheid, bevor Sie Flüge buchen.",
     "whyGo": "Warum sich dieser Termin lohnt",
-    "beforeYouGo": "Was Sie wissen sollten, bevor Sie danach planen"
+    "beforeYouGo": "Was Sie wissen sollten, bevor Sie danach planen",
+    "departureDates": "Feste Abreisetermine",
+    "departureDatesNote": "Vierzehn Plätze pro Termin. Diese Daten stehen fest und verschieben sich nicht."
   }
 }

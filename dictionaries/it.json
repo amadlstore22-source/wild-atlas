@@ -695,6 +695,8 @@
     "allEvents": "Tutti gli eventi in arrivo",
     "disclaimer": "Le date dei festival in Marocco cambiano. Le feste del raccolto seguono la coltura, le date religiose seguono l'avvistamento della luna annunciato dal Ministero degli Habous e degli Affari islamici, e i moussem di villaggio si fissano localmente, a volte solo poche settimane prima. Indichiamo chiaramente quali date sono confermate dagli organizzatori e quali restano la nostra stima migliore — e ve lo diremo prima che prenotiate i voli.",
     "whyGo": "Perché vale la pena questa data",
-    "beforeYouGo": "Cosa sapere prima di programmare il viaggio"
+    "beforeYouGo": "Cosa sapere prima di programmare il viaggio",
+    "departureDates": "Date di partenza fisse",
+    "departureDatesNote": "Quattordici posti per partenza. Queste date sono fisse e non si spostano."
   }
 }

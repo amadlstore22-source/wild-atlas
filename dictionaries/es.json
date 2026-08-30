@@ -695,6 +695,8 @@
     "allEvents": "Todos los próximos eventos",
     "disclaimer": "Las fechas de los festivales en Marruecos cambian. Las fiestas de cosecha siguen al cultivo, las fechas religiosas siguen el avistamiento de la luna que anuncia el Ministerio de Habices y Asuntos Islámicos, y los moussems de pueblo se fijan localmente, a veces con solo unas semanas de antelación. Señalamos con claridad qué fechas han confirmado los organizadores y cuáles siguen siendo nuestra mejor estimación — y te avisaremos antes de que reserves vuelos.",
     "whyGo": "Por qué merece la pena esta fecha",
-    "beforeYouGo": "Lo que conviene saber antes de planificar en torno a ella"
+    "beforeYouGo": "Lo que conviene saber antes de planificar en torno a ella",
+    "departureDates": "Fechas de salida fijas",
+    "departureDatesNote": "Catorce plazas por salida. Estas fechas son fijas y no se mueven."
   }
 }

@@ -695,6 +695,8 @@
     "allEvents": "All upcoming events",
     "disclaimer": "Festival dates in Morocco move. Harvest festivals follow the crop, religious dates follow the moon sighting announced by the Ministry of Endowments and Islamic Affairs, and village moussems are set locally, sometimes only weeks ahead. We mark clearly which dates the organisers have confirmed and which are still our best estimate — and we will tell you before you book flights.",
     "whyGo": "Why this date is worth it",
-    "beforeYouGo": "What to know before you plan around it"
+    "beforeYouGo": "What to know before you plan around it",
+    "departureDates": "Set departure dates",
+    "departureDatesNote": "Fourteen seats per departure. These dates are fixed and do not move."
   }
 }

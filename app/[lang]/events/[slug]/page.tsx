@@ -7,7 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import { EVENTS, toursForEvent } from "@/lib/events";
 import { eventFor } from "@/lib/events.i18n";
-import { formatEventDates, confidenceLabel } from "@/lib/events-format";
+import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
@@ -87,6 +87,34 @@ export default async function EventDetailPage({ params }: EventParams) {
       url: "https://marrakechecotours.com",
     },
     ...(event.sourceUrl ? { sameAs: event.sourceUrl } : {}),
+    // A set-departure trip is a SERIES, not one long event. Emitting only the
+    // season's startDate..endDate told Google there was a single seven-week
+    // event running 5 March - 22 April, which is the same misreading the page
+    // body is built to avoid — and the one a rich result would repeat in the
+    // SERP, where there is no page copy to correct it. Each departure is
+    // therefore its own subEvent with a real start and end.
+    ...(event.departureDates && event.departureDates.length > 0
+      ? {
+          subEvent: event.departureDates.map((d) => {
+            // The trip is 8 days / 7 nights, so it ends 7 days after it leaves.
+            const end = new Date(`${d}T00:00:00Z`);
+            end.setUTCDate(end.getUTCDate() + 7);
+            return {
+              "@type": "Event",
+              name: event.name,
+              startDate: d,
+              endDate: end.toISOString().slice(0, 10),
+              eventStatus: "https://schema.org/EventScheduled",
+              eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+              location: {
+                "@type": "Place",
+                name: event.name,
+                address: { "@type": "PostalAddress", addressCountry: "MA" },
+              },
+            };
+          }),
+        }
+      : {}),
   };
 
   // Crumb takes a `path`; buildBreadcrumbSchema prepends the site origin.
@@ -162,6 +190,47 @@ export default async function EventDetailPage({ params }: EventParams) {
             {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
           </p>
         </div>
+
+        {/* Set departures list each date individually.
+            The single startDate/endDate above spans the whole season so the
+            sort and expiry logic keep working, but rendering only that range
+            would read as one seven-week event -- someone would arrive in the
+            middle expecting to join. These are five separate eight-day trips.
+
+            The seat count is rendered rather than left in JSON-LD alone:
+            fixed-departure.test.ts records that a cap visible only to a crawler
+            is exactly the structured-data mismatch Google's spam policy targets.
+
+            Date formatting goes through localeTag for the same reason the
+            booking sidebar does -- bare "en" resolves to en-US and prints
+            "Mar 5, 2027" on a site that is British English everywhere else. */}
+        {event.departureDates && event.departureDates.length > 0 ? (
+          <section className="mt-8 rounded-lg border border-[var(--color-sand-dark)] bg-white p-5">
+            <h2 className="font-body text-sm font-semibold text-[var(--color-ink)]">
+              {t.departureDates}
+            </h2>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {event.departureDates.map((d) => (
+                <li
+                  key={d}
+                  className="rounded-full bg-[var(--color-sand)] px-3 py-1 font-body text-sm font-semibold text-[var(--color-ink)]"
+                >
+                  <time dateTime={d}>
+                    {new Date(`${d}T00:00:00Z`).toLocaleDateString(localeTag(lang), {
+                      day: "numeric",
+                      month: "long",
+                      year: "numeric",
+                      timeZone: "UTC",
+                    })}
+                  </time>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-3 font-body text-sm text-[var(--color-ink-muted)]">
+              {t.departureDatesNote}
+            </p>
+          </section>
+        ) : null}
 
         {/* The page used to run description -> tours, which left the reader to
             work out for themselves why the date mattered. These two lists carry

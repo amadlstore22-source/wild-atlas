@@ -95,9 +95,62 @@ export interface TourEvent {
    * experience rather than the date.
    */
   considerations: string[];
+  /**
+   * Set departure dates (ISO), for events that are our OWN trips rather than
+   * third-party festivals.
+   *
+   * A festival is one occurrence, so TourEvent carries a single
+   * startDate/endDate. A set-departure trip is several, and collapsing five
+   * eight-day departures into one seven-week range would read as a single long
+   * event -- someone would arrive mid-window expecting to join one. When this
+   * is present the UI lists each departure and startDate/endDate exist only to
+   * span the season so the existing sort and expiry logic keep working.
+   *
+   * Never retype these: they are read from the tour's own `fixedDeparture`
+   * block so the events page and the booking page cannot disagree.
+   */
+  departureDates?: string[];
 }
 
 export const EVENTS: TourEvent[] = [
+  {
+    // OUR OWN DEPARTURE, not a third-party festival -- see `departureDates` on
+    // TourEvent above for why this entry carries five dates instead of one
+    // range, and why `confirmed` is honest here when we are the organiser.
+    slug: "morocco-highlights-8day-departures",
+    name: "8-Day Morocco Highlights: Toubkal Summit and Sahara Desert",
+    shortName: "8-Day Highlights",
+    region: "atlas-mountains",
+    startDate: "2027-03-05",
+    endDate: "2027-04-22",
+    confidence: "confirmed",
+    // We set these dates and sell seats against them, so the authoritative
+    // page is our own -- which is precisely what the "cite the organiser"
+    // rule asks for.
+    sourceUrl: "https://marrakechecotours.com/en/tours/morocco-highlights-toubkal-sahara-8day",
+    departureDates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
+    year: 2027,
+    blurb:
+      "North Africa's highest summit and the dunes of Erg Chebbi in one trip, on five set departures of fourteen seats.",
+    description:
+      "Most people choose between the mountains and the desert. This trip does both in eight days: three days on Toubkal, at 4,167 m the highest point in North Africa, then south over the Tizi n'Tichka to a night in the Erg Chebbi dunes at Merzouga. It runs on set dates rather than on demand, which is what makes it a shared trip at a private trip's standard -- fourteen seats, one licensed mountain guide, and a fixed price per seat however few people book.",
+    tourSlugs: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "shared-merzouga-3day-marrakech"],
+    heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
+    bookAheadWeeks: 12,
+    highlights: [
+      "Jbel Toubkal at 4,167 m -- the highest summit in North Africa",
+      "A night in the Erg Chebbi dunes at Merzouga, reached by camel",
+      "Five set departures between March and April 2027, fourteen seats each",
+      "One licensed mountain guide for the whole eight days, not a different driver each leg",
+      "A fixed price per seat: it does not rise because only three people booked",
+    ],
+    considerations: [
+      "This is graded challenging. Toubkal is a long walk at altitude, not a technical climb, but summit day is eight to ten hours and starts before dawn.",
+      "March and early April can still hold snow on the summit ridge, and crampons are sometimes needed -- they are provided, but the ascent is genuinely a winter one at that time of year.",
+      "Set departures do not move. If the date does not suit you, the same ground is covered privately on our 5-day Toubkal and Sahara trip, on any date you choose.",
+      "Fourteen seats is the cap, and the March departures are the ones that fill first.",
+    ],
+  },
   {
     slug: "gnaoua-world-music-festival-essaouira",
     name: "Gnaoua and World Music Festival, Essaouira",

@@ -7,7 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import type { TourEvent } from "@/lib/events";
 import { upcomingEventsFor } from "@/lib/events.i18n";
-import { formatEventDates, confidenceLabel } from "@/lib/events-format";
+import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 
 type LangParams = { params: Promise<{ lang: string }> };
@@ -79,9 +79,22 @@ function EventCard({
 }: {
   event: TourEvent;
   lang: string;
-  t: { confirmed: string; estimated: string; lunar: string; bookAhead: string; seeDepartures: string };
+  t: { confirmed: string; estimated: string; lunar: string; bookAhead: string; seeDepartures: string; departureDates: string };
 }) {
-  const dates = formatEventDates(event, lang);
+  // A set-departure trip's startDate..endDate spans the whole SEASON so the
+  // sort and expiry logic work, but printing that range on a card reads as one
+  // long event rather than five separate eight-day trips. Show the first
+  // departure instead, with the rest indicated by count on the line below.
+  const departures = event.departureDates ?? [];
+  const dates =
+    departures.length > 0
+      ? new Date(`${departures[0]}T00:00:00Z`).toLocaleDateString(localeTag(lang), {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          timeZone: "UTC",
+        })
+      : formatEventDates(event, lang);
   return (
     <li className="overflow-hidden rounded-xl border border-[var(--color-sand-dark)] bg-white shadow-sm">
       <Link href={`/${lang}/events/${event.slug}`} className="group grid sm:grid-cols-[240px_1fr]">
@@ -109,6 +122,11 @@ function EventCard({
           <p className="mt-2 font-body text-sm leading-relaxed text-[var(--color-ink-muted)]">
             {event.blurb}
           </p>
+          {departures.length > 1 ? (
+            <p className="mt-2 font-body text-xs font-semibold text-[var(--color-ink)]">
+              {t.departureDates}: {departures.length}
+            </p>
+          ) : null}
           <p className="mt-3 font-body text-xs text-[var(--color-ink-muted)]">
             {t.bookAhead.replace("{weeks}", String(event.bookAheadWeeks))}
           </p>

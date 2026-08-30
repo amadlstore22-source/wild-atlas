@@ -695,6 +695,8 @@
     "allEvents": "Tous les événements à venir",
     "disclaimer": "Les dates des festivals marocains changent. Les fêtes de récolte suivent la culture, les dates religieuses suivent l'observation de la lune annoncée par le ministère des Habous et des Affaires islamiques, et les moussems villageois sont fixés localement, parfois quelques semaines seulement à l'avance. Nous indiquons clairement quelles dates sont confirmées par les organisateurs et lesquelles restent notre meilleure estimation — et nous vous préviendrons avant que vous ne réserviez vos vols.",
     "whyGo": "Pourquoi cette date en vaut la peine",
-    "beforeYouGo": "À savoir avant d'organiser votre voyage autour"
+    "beforeYouGo": "À savoir avant d'organiser votre voyage autour",
+    "departureDates": "Dates de départ fixes",
+    "departureDatesNote": "Quatorze places par départ. Ces dates sont fixes et ne changent pas."
   }
 }

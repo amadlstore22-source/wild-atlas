@@ -459,7 +459,7 @@ export const TOURS: Tour[] = [
   {
     id: "4",
     slug: "ouzoud-waterfalls-day-trip",
-    relatedPosts: ["ourika-valley-day-trip-marrakech", "best-time-to-visit-morocco"],
+    relatedPosts: ["ourika-valley-day-trip-marrakech", "best-time-to-visit-morocco", "ouzoud-waterfalls-day-trip-cost"],
     title: "Marrakech to Ouzoud Waterfalls — Day Trip",
     category: "day-tours",
     origin: "marrakech",
@@ -533,7 +533,7 @@ export const TOURS: Tour[] = [
   {
     id: "5",
     slug: "agafay-desert-sunset",
-    relatedPosts: ["agafay-desert-marrakech-guide", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["agafay-desert-marrakech-guide", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "agafay-desert-evening-cost"],
     title: "Marrakech to Agafay Desert — Sunset & Dinner",
     category: "day-tours",
     origin: "marrakech",
@@ -866,7 +866,7 @@ export const TOURS: Tour[] = [
   {
     id: "9",
     slug: "paradise-valley-agadir",
-    relatedPosts: ["paradise-valley-agadir-complete-guide", "paradise-valley-from-agadir", "best-time-to-visit-paradise-valley", "paradise-valley-swimming-guide"],
+    relatedPosts: ["paradise-valley-agadir-complete-guide", "paradise-valley-from-agadir", "best-time-to-visit-paradise-valley", "paradise-valley-swimming-guide", "paradise-valley-agadir-cost"],
     title: "Agadir to Paradise Valley & Immouzer Waterfalls",
     category: "day-tours",
     origin: "agadir",
@@ -1819,7 +1819,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    relatedPosts: ["erg-chebbi-vs-erg-chegaga", "morocco-camel-trek-sahara-guide", "luxury-vs-standard-desert-camp-morocco"],
+    relatedPosts: ["erg-chebbi-vs-erg-chegaga", "morocco-camel-trek-sahara-guide", "luxury-vs-standard-desert-camp-morocco", "erg-chegaga-tour-cost"],
     title: "Erg Chegaga from Marrakech — 3-Day Remote Desert Expedition",
     category: "desert",
     origin: "marrakech",
@@ -2063,7 +2063,7 @@ export const TOURS: Tour[] = [
   {
     id: "26",
     slug: "merzouga-3day-agadir",
-    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "merzouga-travel-guide"],
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "merzouga-travel-guide", "merzouga-3-day-tour-cost"],
     title: "Agadir to Merzouga — 3-Day Sahara Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2169,7 +2169,7 @@ export const TOURS: Tour[] = [
   {
     id: "27",
     slug: "zagora-2day-agadir",
-    relatedPosts: ["zagora-desert-guide", "sahara-desert-from-agadir"],
+    relatedPosts: ["zagora-desert-guide", "sahara-desert-from-agadir", "zagora-2-day-tour-cost"],
     title: "Agadir to Zagora — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -4129,7 +4129,7 @@ export const TOURS: Tour[] = [
   {
     id: "42",
     slug: "chegaga-camel-trek-8day",
-    relatedPosts: ["morocco-camel-trek-sahara-guide", "erg-chebbi-vs-erg-chegaga", "sahara-desert-facts"],
+    relatedPosts: ["morocco-camel-trek-sahara-guide", "erg-chebbi-vs-erg-chegaga", "sahara-desert-facts", "erg-chegaga-tour-cost"],
     title: "Draa Valley to M'hamid — 8-Day Chegaga Camel Trek",
     category: "desert",
     origin: "marrakech",
@@ -4301,7 +4301,7 @@ export const TOURS: Tour[] = [
   {
     id: "44",
     slug: "shared-merzouga-3day-marrakech",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "merzouga-travel-guide", "what-to-pack-desert-tour-morocco", "3-day-sahara-tour-cost-marrakech"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "merzouga-travel-guide", "what-to-pack-desert-tour-morocco", "3-day-sahara-tour-cost-marrakech", "merzouga-3-day-tour-cost"],
     title: "Merzouga Desert from Marrakech — 3-Day Shared Tour",
     category: "desert",
     origin: "marrakech",
@@ -4390,7 +4390,7 @@ export const TOURS: Tour[] = [
   {
     id: "45",
     slug: "shared-zagora-2day-marrakech",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco", "zagora-2-day-tour-cost"],
     title: "Zagora Desert from Marrakech — 2-Day Shared Tour",
     category: "desert",
     origin: "marrakech",
@@ -4464,7 +4464,7 @@ export const TOURS: Tour[] = [
   {
     id: "46",
     slug: "shared-ouzoud-waterfalls-day-trip",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "best-day-trips-from-agadir", "how-many-days-do-you-need-in-morocco"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "best-day-trips-from-agadir", "how-many-days-do-you-need-in-morocco", "ouzoud-waterfalls-day-trip-cost"],
     title: "Ouzoud Waterfalls — Shared Day Trip from Marrakech",
     category: "day-tours",
     origin: "marrakech",
@@ -4523,7 +4523,7 @@ export const TOURS: Tour[] = [
   {
     id: "47",
     slug: "shared-agafay-dinner-camel-ride",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "agafay-desert-marrakech-guide", "agafay-vs-merzouga-vs-zagora"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "agafay-desert-marrakech-guide", "agafay-vs-merzouga-vs-zagora", "agafay-desert-evening-cost"],
     title: "Agafay Desert — Dinner, Camel Ride & Fire Show",
     category: "day-tours",
     origin: "marrakech",

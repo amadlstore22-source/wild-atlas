@@ -78,15 +78,28 @@ export const SISTER_SITE = {
   blurb: "Road cycling, mountain biking & ski touring in the Atlas",
 } as const;
 
-// TripAdvisor listing: "Morocco Tours With Locals" (same team, sister brand).
+// TripAdvisor listing. Renamed by the owner in Aug 2026 from "Morocco Tours
+// With Locals" to match this site's brand — same listing, same reviews, same
+// id (d18455591), so the rating and count below are unaffected.
+//
+// `listingName` now matches SITE.name, which is why TripAdvisorBadge no longer
+// prints an "as <other name>" line: that disclosure existed only because the
+// listing was under a different trading name, and repeating the brand back to
+// the reader would be noise. Restore it if the names ever diverge again — see
+// the badge component, which decides this by comparison rather than by a flag.
+//
+// TripAdvisor URLs resolve on the numeric id, not the slug, so the old
+// Morocco_Tours_With_Locals links still work; these use the current slug so
+// nothing depends on a redirect.
+//
 // Real, verifiable numbers — keep these in sync with the live listing and use
 // them everywhere a rating is shown so structured data stays consistent.
 export const TRIPADVISOR = {
-  url: "https://www.tripadvisor.com/Attraction_Review-g293734-d18455591-Reviews-Morocco_Tours_With_Locals-Marrakech_Marrakech_Safi.html",
+  url: "https://www.tripadvisor.com/Attraction_Review-g293734-d18455591-Reviews-Marrakech_Eco_Tours-Marrakech_Marrakech_Safi.html",
   // Direct "write a review" link (skips straight to the form).
   writeReviewUrl:
-    "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Morocco_Tours_With_Locals-Marrakech_Marrakech_Safi.html",
-  listingName: "Morocco Tours With Locals",
+    "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Marrakech_Eco_Tours-Marrakech_Marrakech_Safi.html",
+  listingName: "Marrakech Eco Tours",
   rating: 5.0,
   reviewCount: 122,
   ranking: 310,

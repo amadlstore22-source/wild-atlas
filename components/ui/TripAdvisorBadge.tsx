@@ -1,4 +1,4 @@
-import { TRIPADVISOR } from "@/lib/constants";
+import { SITE, TRIPADVISOR } from "@/lib/constants";
 
 /**
  * TripAdvisor owl mark + a filled-bubble rating row.
@@ -41,7 +41,25 @@ interface Props {
 }
 
 export default function TripAdvisorBadge({ variant = "full", className = "" }: Props) {
-  const label = `Rated ${TRIPADVISOR.rating.toFixed(1)} out of 5 from ${TRIPADVISOR.reviewCount} reviews on TripAdvisor (as ${TRIPADVISOR.listingName})`;
+  /**
+   * The "as <listing name>" line is a DISCLOSURE, not decoration. It existed
+   * because the reviews were filed under a different trading name ("Morocco
+   * Tours With Locals"), and quoting a rating earned under another name
+   * without saying so is the kind of thing that makes real social proof look
+   * borrowed.
+   *
+   * The owner renamed the listing to match this brand in Aug 2026, so the line
+   * would now read "Marrakech Eco Tours — as Marrakech Eco Tours". Decided by
+   * COMPARISON rather than by deleting the markup or setting a flag: if the
+   * listing is ever renamed again, or this site rebrands, the disclosure comes
+   * back on its own instead of silently staying off.
+   */
+  const showListingName =
+    TRIPADVISOR.listingName.trim().toLowerCase() !== SITE.name.trim().toLowerCase();
+
+  const label = showListingName
+    ? `Rated ${TRIPADVISOR.rating.toFixed(1)} out of 5 from ${TRIPADVISOR.reviewCount} reviews on TripAdvisor (as ${TRIPADVISOR.listingName})`
+    : `Rated ${TRIPADVISOR.rating.toFixed(1)} out of 5 from ${TRIPADVISOR.reviewCount} reviews on TripAdvisor`;
 
   if (variant === "compact") {
     return (
@@ -81,7 +99,9 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
             {TRIPADVISOR.reviewCount} reviews on{" "}
             <span className="font-semibold text-white/70 group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
           </div>
-          <div className="mt-0.5 text-[10px] text-white/30">as {TRIPADVISOR.listingName}</div>
+          {showListingName ? (
+            <div className="mt-0.5 text-[10px] text-white/30">as {TRIPADVISOR.listingName}</div>
+          ) : null}
         </div>
       </a>
     );
@@ -105,7 +125,9 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
           {TRIPADVISOR.reviewCount} reviews on{" "}
           <span className="font-semibold text-ink-soft group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
         </div>
-        <div className="mt-0.5 text-[10px] text-ink-muted">as {TRIPADVISOR.listingName}</div>
+        {showListingName ? (
+            <div className="mt-0.5 text-[10px] text-ink-muted">as {TRIPADVISOR.listingName}</div>
+          ) : null}
       </div>
     </a>
   );

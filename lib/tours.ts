@@ -183,8 +183,6 @@ export const TOURS: Tour[] = [
       "Sleep in traditional Berber mountain refuges at 3,207 m",
       "Start in the trailhead village of Imlil, deep in the Atlas",
       "Panoramic views spanning Morocco and Algeria",
-      "/gallery/refuge-group-dinner-long-table.jpg",
-      "/gallery/trek-lunch-mint-tea-walnut-grove.jpg",
     ],
     includes: [
       "Professional licensed mountain guide",
@@ -314,7 +312,9 @@ export const TOURS: Tour[] = [
       "Three days from Marrakech to the Sahara and back, on a loop rather than an out-and-back. Cross the High Atlas by the Tizi n'Tichka, stop at the UNESCO Ksar of Aït Ben Haddou, sleep in the Dades Gorges, walk the Todra canyon, then ride camels into Erg Chebbi as the sun melts into the dunes. The return runs west through Alnif and Tazarine — fossil country, and far quieter than the road you came in on.",
     highlights: [
       "Camel trek into Erg Chebbi dunes at sunset",
-      "Overnight in a traditional Berber desert camp",
+      "Overnight in a luxury Berber desert camp",
+      "Stargazing with no light pollution at all",
+      "Sandboarding on the big dunes",
       "Aït Ben Haddou UNESCO World Heritage Ksar",
       "Dades Gorges and the Todra canyon on the way out",
       "A different road home via Alnif and Tazarine — no backtracking",
@@ -3036,8 +3036,6 @@ export const TOURS: Tour[] = [
       "Overnight in the Toubkal Refuge at 3,207 m",
       "Pass the Sidi Chamharouch shrine and its waterfall",
       "Sunrise panorama across the entire High Atlas range",
-      "/gallery/refuge-group-dinner-long-table.jpg",
-      "/gallery/berber-salad-platter-trail-lunch.jpg",
     ],
     includes: [
       "Professional licensed mountain guide",
@@ -3707,8 +3705,6 @@ export const TOURS: Tour[] = [
       "Village guesthouse nights with Berber families — bread baking, mint tea",
       "Waterfalls, river pools and walnut groves rather than high passes",
       "Mules carry all luggage and can carry tired younger children",
-      "/gallery/trek-lunch-mint-tea-walnut-grove.jpg",
-      "/gallery/berber-salad-platter-trail-lunch.jpg",
     ],
     includes: [
       "Professional licensed mountain guide experienced with families",

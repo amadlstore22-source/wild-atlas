@@ -1,9 +1,15 @@
 # Indexing state
 
-**As of 2026-08-28: all 1,050 site URLs have been submitted.** The 8-day
-Toubkal + Sahara fixed-departure tour shipped that day and added six pages
-(one per locale); they went out as `docs/batch-2026-08-28.txt`: **6 submitted,
-0 failed, QUOTA_CONSUMED=6**.
+**As of 2026-09-02: all 1,122 site URLs have been submitted.** The Casablanca
+5-day tour and four desert guides shipped that day; the diff also surfaced 36
+"cost" blog pages and an events page that had been live for weeks and had
+never been submitted. All 72 went out as `docs/batch-2026-09-02.txt`:
+**72 submitted, 0 failed, quota 72/200**.
+
+> The 36 stale pages are the lesson worth keeping: nothing reports a page that
+> no batch ever included. They were found only because the diff compares the
+> rebuilt list against the last committed one. Memory would have missed them —
+> they were not part of that day's work.
 
 Every batch file in `docs/` is **spent**. They are kept as the record of what
 went out, not as queues to re-run. Re-running one would repeat the 2026-08-16
@@ -121,3 +127,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-27 | `batch-2026-08-27-pending.txt` | 59 | 41 events + 18 new-article pages, one run. 59 submitted, 0 failed. **Site now fully submitted: `diff-unsubmitted.mjs` reports 1020 / 1020, 0 outstanding.** |
 | 2026-08-28 | `batch-2026-08-28.txt` | 6 | 8-day Toubkal + Sahara tour, six locales. Verified all six served HTTP 200 before sending — they 404'd for ~2 min while Vercel deployed. 6 submitted, 0 failed. |
 | 2026-08-28 | `batch-2026-08-28-posts.txt` | 24 | Four new posts x six locales. Both index-batch.ps1 guards ran: nothing-outstanding check passed, and all 24 verified serving 200 before sending. |
+| 2026-09-02 | `batch-2026-09-02.txt` | 72 | Casablanca 5-day tour (6 locales), four desert guides (24), the 8-day departures event page (6), and **36 "cost" blog pages that had been live for weeks and were never submitted** — found by the diff, not by memory. All 72 verified serving 200. 72 submitted, 0 failed. |

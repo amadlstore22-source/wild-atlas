@@ -23,6 +23,7 @@
     "allTours": "Tous les circuits",
     "fromMarrakech": "Au départ de Marrakech",
     "fromAgadir": "Au départ d'Agadir",
+    "fromCasablanca": "Au départ de Casablanca",
     "searchBtn": "Rechercher",
     "browseAll": "Découvrir les aventures",
     "planCustom": "Créer un voyage sur mesure"
@@ -230,7 +231,10 @@
       "familyTitle": "Encadré par la famille qui a grandi ici",
       "familyBody": "Quel que soit votre guide, c'est un guide berbère agréé de l'équipe familiale — pas un indépendant affecté par une agence la semaine de votre arrivée. Chaque guide est formé sur un itinéraire avant de le mener, et tous sont agréés par le ministère du Tourisme marocain. Plus de {years} ans d'héritage de guidage dans le Haut Atlas.",
       "familyLink": "Rencontrer les guides"
-    }
+    },
+    "mapKeyTour": "Votre circuit",
+    "mapKeyTransfer": "Transfert par la route",
+    "mapKeyOffRoad": "Hors-piste en 4x4 ou à dos de chameau"
   },
   "booking": {
     "pricePerPerson": "Prix par personne",

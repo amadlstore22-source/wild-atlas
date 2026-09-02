@@ -90,6 +90,7 @@ export default function ToursClient({
     { id: "all", label: dict.hero.allTours },
     { id: "marrakech", label: dict.hero.fromMarrakech },
     { id: "agadir", label: dict.hero.fromAgadir },
+    { id: "casablanca", label: dict.hero.fromCasablanca },
   ];
 
   const DURATIONS: { id: DurationBucket | "all"; label: string }[] = [

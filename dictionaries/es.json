@@ -23,6 +23,7 @@
     "allTours": "Todos los Tours",
     "fromMarrakech": "Desde Marrakech",
     "fromAgadir": "Desde Agadir",
+    "fromCasablanca": "Desde Casablanca",
     "searchBtn": "Buscar",
     "browseAll": "Ver Aventuras",
     "planCustom": "Planificar Viaje a Medida"
@@ -230,7 +231,10 @@
       "familyTitle": "Dirigido por la familia que creció aquí",
       "familyBody": "Quien te guíe será un guía bereber autorizado del equipo familiar, no un autónomo que una agencia asigna la semana en que llegas. Cada guía se forma en una ruta antes de dirigirla, y todos tienen licencia del Ministerio de Turismo de Marruecos. Más de {years} años de herencia guiando en el Alto Atlas.",
       "familyLink": "Conoce a los guías"
-    }
+    },
+    "mapKeyTour": "Tu tour",
+    "mapKeyTransfer": "Traslado por carretera",
+    "mapKeyOffRoad": "Fuera de pista en 4x4 o camello"
   },
   "booking": {
     "pricePerPerson": "Precio por persona",

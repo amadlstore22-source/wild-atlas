@@ -41,6 +41,23 @@ const REGION_COLORS: Record<string, string> = {
   "Béni Mellal-Khénifra": "#5A6B8C",
 };
 
+/**
+ * The same hues, lightened for text on the card's dark pill.
+ *
+ * REGION_COLORS are chosen to read on light ground. Printed on the pill's dark
+ * plate they measured 1.0-3.3:1 — Tanger's #2B3A67 was 1.02:1, which is
+ * invisible. These variants keep each region's hue identity and all clear
+ * WCAG AA (4.5:1) against the plate.
+ */
+const REGION_TEXT_COLORS: Record<string, string> = {
+  "Marrakech-Safi": "#EE9C86",
+  "Drâa-Tafilalet": "#EFB877",
+  "Fès-Meknès": "#DFA45E",
+  "Tanger-Tétouan-Al Hoceïma": "#9FB0DC",
+  "Souss-Massa": "#A9B6D4",
+  "Béni Mellal-Khénifra": "#B3C1DE",
+};
+
 export default async function DestinationsPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
@@ -73,7 +90,7 @@ export default async function DestinationsPage({ params }: LangParams) {
           >
             {d.title}
           </h1>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed">
             {d.subtitle}
           </p>
         </div>
@@ -86,6 +103,7 @@ export default async function DestinationsPage({ params }: LangParams) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {DESTINATIONS.map((dest) => {
             const color = REGION_COLORS[dest.region] ?? "#2B3A67";
+            const pillText = REGION_TEXT_COLORS[dest.region] ?? "#9FB0DC";
             return (
               <Link
                 key={dest.slug}
@@ -100,25 +118,33 @@ export default async function DestinationsPage({ params }: LangParams) {
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/90 via-indigo-deep/30 to-indigo-deep/15" />
+                  {/* Scrim must stay strong across the whole text block, not just
+                      the bottom edge. At via-/30 the subtitle measured 2.55:1 over a
+                      sunlit beach — WCAG AA wants 4.5:1 — and the Agadir and Beni
+                      Mellal cards were effectively unreadable. */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/95 from-25% via-indigo-deep/75 via-55% to-transparent" />
                 </div>
 
                 <div className="relative mt-auto p-6 z-10">
                   <span
-                    className="inline-block text-[10px] font-bold uppercase tracking-[0.12em] px-2.5 py-0.5 rounded-full mb-3 border"
-                    style={{ color, borderColor: color + "60", background: color + "20" }}
+                    className="inline-block text-[10px] font-bold uppercase tracking-[0.12em] px-2.5 py-0.5 rounded-full mb-3 border backdrop-blur-sm"
+                    style={{
+                      color: pillText,
+                      borderColor: pillText + "66",
+                      background: "rgba(12, 16, 34, 0.72)",
+                    }}
                   >
                     {dest.region.split("-")[0]}
                   </span>
-                  <h2 className="font-display text-white font-bold text-xl leading-tight mb-1 group-hover:text-sand transition-colors">
+                  <h2 className="font-display text-white font-bold text-xl leading-tight mb-1 group-hover:text-sand transition-colors [text-shadow:0_1px_3px_rgba(0,0,0,0.55)]">
                     {dest.name}
                   </h2>
-                  <p className="text-white/55 text-sm mb-4">{dest.subtitle}</p>
+                  <p className="text-white/85 text-sm mb-4 [text-shadow:0_1px_2px_rgba(0,0,0,0.5)]">{dest.subtitle}</p>
                   <div className="flex flex-wrap gap-1.5">
                     {dest.knownFor.slice(0, 2).map((k, i) => (
                       <span
                         key={i}
-                        className="text-[10px] text-white/50 bg-white/8 border border-white/10 rounded-full px-2 py-0.5 leading-tight"
+                        className="text-[10px] text-white/80 bg-black/35 border border-white/20 rounded-full px-2 py-0.5 leading-tight"
                       >
                         {k.split("—")[0].trim()}
                       </span>

@@ -48,3 +48,22 @@ next-env.d.ts
 
 # Local indexing-quota ledger; machine-specific, not shared state.
 docs/.submitted-today.json
+
+# Document ledger: customer names, emails and amounts, plus the invoice and
+# contract numbering. Local only — it must never reach a git remote, public or
+# private. LOSING IT RESTARTS NUMBERING, which is how two clients were once
+# issued the same reference. Keep a backup outside the repo; it is small.
+data/documents.json
+data/invoices.json
+
+# Booking files: a real client's name, email, dates and price. Same reasoning
+# as the ledger above — customer data never goes to a git remote. The example
+# in bookings/EXAMPLE.json is committed instead, with invented details.
+bookings/*.json
+!bookings/EXAMPLE.json
+
+# Client enquiry archive: real names, email addresses and negotiated prices,
+# transcribed from the inbox. Same reasoning as the ledger above - customer
+# data never reaches a git remote. The patterns learned from it are written up
+# without personal details in docs/QUOTING-PATTERNS.md, which IS committed.
+data/client-archive.json

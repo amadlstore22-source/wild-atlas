@@ -39,12 +39,26 @@ export default function TourLocationMap(props: TourLocationMapProps) {
   // into view, so it starts visible. Decided in the lazy initialiser rather
   // than an effect, matching MapWrapper: setting it from inside the effect
   // renders the skeleton once first and React 19 flags the cascading render.
-  const [visible, setVisible] = useState(
-    () => typeof IntersectionObserver === "undefined",
-  );
+  // HYDRATION: this MUST start false on both server and client.
+  //
+  // It used to be `typeof IntersectionObserver === "undefined"`, which is true
+  // on the server and false in the browser — so the server rendered the map's
+  // Suspense boundary while the client's first render produced the skeleton,
+  // and React threw "server rendered HTML didn't match the client" on every
+  // tour page. A lazy initialiser cannot read a browser-only global for this
+  // reason: the first client render has to match the server exactly.
+  //
+  // The no-IntersectionObserver fallback still works — it is handled in the
+  // effect below, which runs only in the browser, after hydration.
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (typeof IntersectionObserver === "undefined") return;
+    // No IntersectionObserver (old browser, some test envs): show it now.
+    // This runs post-hydration, so it cannot cause a mismatch.
+    if (typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return;
+    }
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(

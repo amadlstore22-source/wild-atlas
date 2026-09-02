@@ -9,7 +9,9 @@
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "invoice": "node scripts/make-invoice.mjs",
+    "contract": "node scripts/make-contract.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

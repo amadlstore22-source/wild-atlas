@@ -53,6 +53,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "calendrier-festivals-maroc-par-mois": "morocco-festivals-calendar-by-month",
     "se-deplacer-au-maroc-transports": "getting-around-morocco-transport-guide",
     "meteo-desert-sahara-maroc": "sahara-desert-weather-what-to-expect",
+    "campement-desert-maroc-realite": "morocco-desert-camp-what-its-really-like",
+    "comment-fonctionne-la-reservation-maroc": "how-booking-a-morocco-tour-works",
+    "desert-maroc-en-hiver": "morocco-desert-in-winter-guide",
+    "circuit-desert-maroc-seniors": "morocco-desert-tour-older-travellers",
   },
   es: {
     "itinerario-7-dias-marruecos-desde-agadir": "7-day-agadir-itinerary-morocco",
@@ -82,6 +86,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "calendario-festivales-marruecos-por-mes": "morocco-festivals-calendar-by-month",
     "como-moverse-por-marruecos-transporte": "getting-around-morocco-transport-guide",
     "clima-desierto-sahara-marruecos": "sahara-desert-weather-what-to-expect",
+    "campamento-desierto-marruecos-realidad": "morocco-desert-camp-what-its-really-like",
+    "como-funciona-la-reserva-marruecos": "how-booking-a-morocco-tour-works",
+    "desierto-marruecos-en-invierno": "morocco-desert-in-winter-guide",
+    "circuito-desierto-marruecos-mayores": "morocco-desert-tour-older-travellers",
   },
   de: {
     "7-tage-marokko-route-ab-agadir": "7-day-agadir-itinerary-morocco",
@@ -111,6 +119,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "marokko-festivals-kalender-nach-monat": "morocco-festivals-calendar-by-month",
     "fortbewegung-in-marokko-verkehrsmittel": "getting-around-morocco-transport-guide",
     "wetter-sahara-wueste-marokko": "sahara-desert-weather-what-to-expect",
+    "wuestencamp-marokko-wie-es-wirklich-ist": "morocco-desert-camp-what-its-really-like",
+    "wie-die-buchung-in-marokko-funktioniert": "how-booking-a-morocco-tour-works",
+    "marokko-wueste-im-winter": "morocco-desert-in-winter-guide",
+    "wuestentour-marokko-fuer-aeltere-reisende": "morocco-desert-tour-older-travellers",
   },
   it: {
     "itinerario-7-giorni-marocco-da-agadir": "7-day-agadir-itinerary-morocco",
@@ -140,12 +152,17 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "calendario-festival-marocco-per-mese": "morocco-festivals-calendar-by-month",
     "spostarsi-in-marocco-trasporti": "getting-around-morocco-transport-guide",
     "clima-deserto-sahara-marocco": "sahara-desert-weather-what-to-expect",
+    "campo-deserto-marocco-com-e-davvero": "morocco-desert-camp-what-its-really-like",
+    "come-funziona-la-prenotazione-marocco": "how-booking-a-morocco-tour-works",
+    "deserto-marocco-in-inverno": "morocco-desert-in-winter-guide",
+    "tour-deserto-marocco-anziani": "morocco-desert-tour-older-travellers",
   },
 };
 
 /** localised segment -> English slug. Tours. Generated; see scripts. */
 const TOUR_TO_EN: Record<string, Record<string, string>> = {
   fr: {
+    "casablanca-fes-sahara-marrakech-5-jours": "casablanca-fes-sahara-marrakech-5day",
     "desert-merzouga-3-jours-partage": "shared-merzouga-3day-marrakech",
     "desert-zagora-2-jours-partage": "shared-zagora-2day-marrakech",
     "excursion-partagee-cascades-ouzoud": "shared-ouzoud-waterfalls-day-trip",
@@ -195,6 +212,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "toubkal-sahara-8-jours-maroc": "morocco-highlights-toubkal-sahara-8day",
   },
   es: {
+    "casablanca-fez-sahara-marrakech-5-dias": "casablanca-fes-sahara-marrakech-5day",
     "desierto-merzouga-3-dias-compartido": "shared-merzouga-3day-marrakech",
     "desierto-zagora-2-dias-compartido": "shared-zagora-2day-marrakech",
     "excursion-compartida-cascadas-ouzoud": "shared-ouzoud-waterfalls-day-trip",
@@ -244,6 +262,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "toubkal-sahara-8-dias-marruecos": "morocco-highlights-toubkal-sahara-8day",
   },
   de: {
+    "casablanca-fes-sahara-marrakesch-5-tage": "casablanca-fes-sahara-marrakech-5day",
     "merzouga-wueste-3-tage-geteilt": "shared-merzouga-3day-marrakech",
     "zagora-wueste-2-tage-geteilt": "shared-zagora-2day-marrakech",
     "ouzoud-wasserfaelle-gruppentour": "shared-ouzoud-waterfalls-day-trip",
@@ -293,6 +312,7 @@ const TOUR_TO_EN: Record<string, Record<string, string>> = {
     "toubkal-sahara-8-tage-marokko": "morocco-highlights-toubkal-sahara-8day",
   },
   it: {
+    "casablanca-fes-sahara-marrakech-5-giorni": "casablanca-fes-sahara-marrakech-5day",
     "deserto-merzouga-3-giorni-condiviso": "shared-merzouga-3day-marrakech",
     "deserto-zagora-2-giorni-condiviso": "shared-zagora-2day-marrakech",
     "escursione-condivisa-cascate-ouzoud": "shared-ouzoud-waterfalls-day-trip",

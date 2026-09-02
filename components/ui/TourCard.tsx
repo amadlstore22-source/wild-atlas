@@ -11,7 +11,11 @@ import { useCurrency } from "@/lib/currency";
 import { Badge } from "@/components/ui/badge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
-const ORIGIN_LABEL: Record<string, string> = { marrakech: "Marrakech", agadir: "Agadir" };
+const ORIGIN_LABEL: Record<string, string> = {
+  marrakech: "Marrakech",
+  agadir: "Agadir",
+  casablanca: "Casablanca",
+};
 
 const ease = [0.16, 1, 0.3, 1] as const;
 

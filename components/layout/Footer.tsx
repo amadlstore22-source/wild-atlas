@@ -52,6 +52,7 @@ export default function Footer({ lang, dict }: Props) {
     { label: dict.categories.culturalTours, href: `/${lang}/categories/cultural` },
     { label: dict.hero.fromMarrakech, href: `/${lang}/tours?origin=marrakech` },
     { label: dict.hero.fromAgadir, href: `/${lang}/tours?origin=agadir` },
+    { label: dict.hero.fromCasablanca, href: `/${lang}/tours?origin=casablanca` },
   ];
 
   const DESTINATIONS_LINKS = [

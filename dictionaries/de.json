@@ -23,6 +23,7 @@
     "allTours": "Alle Touren",
     "fromMarrakech": "Ab Marrakesch",
     "fromAgadir": "Ab Agadir",
+    "fromCasablanca": "Ab Casablanca",
     "searchBtn": "Suchen",
     "browseAll": "Abenteuer entdecken",
     "planCustom": "Individuelle Reise planen"
@@ -230,7 +231,10 @@
       "familyTitle": "Geführt von der Familie, die hier aufgewachsen ist",
       "familyBody": "Wer Sie auch führt, es ist ein lizenzierter Berber-Guide aus dem Familienteam — kein Freiberufler, den eine Agentur in Ihrer Anreisewoche zuteilt. Jeder Guide wird auf einer Route geschult, bevor er sie führt, und alle sind vom marokkanischen Tourismusministerium lizenziert. Über {years} Jahre Führungstradition im Hohen Atlas.",
       "familyLink": "Die Bergführer kennenlernen"
-    }
+    },
+    "mapKeyTour": "Ihre Tour",
+    "mapKeyTransfer": "Transfer auf der Straße",
+    "mapKeyOffRoad": "Abseits der Straße mit 4x4 oder Kamel"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

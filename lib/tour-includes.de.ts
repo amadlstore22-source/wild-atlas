@@ -1,4 +1,23 @@
 export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: string[] }> = {
+  "casablanca-fes-sahara-marrakech-5day": {
+    includes: [
+      "Privates klimatisiertes Fahrzeug für Ihre Gruppe, durchgehend",
+      "Deutsch- oder englischsprachiger Fahrer-Guide, alle fünf Tage",
+      "Lizenzierter lokaler Guide für den ganzen Tag in Fès",
+      "4 Übernachtungen: Riad in Fès (2 Nächte), Wüstencamp, Hotel im Dades-Tal",
+      "Abendessen und Frühstück im Camp",
+      "Täglich Frühstück",
+      "Kamelritt am Erg Chebbi bei Sonnenuntergang und Sonnenaufgang",
+      "Kraftstoff, Maut und Parkgebühren",
+    ],
+    excludes: [
+      "Mittagessen",
+      "Rücktransfer Marrakesch – Casablanca (als Extra buchbar)",
+      "Eintrittsgelder für Denkmäler und Stätten",
+      "Getränke, persönliche Ausgaben und Trinkgelder",
+      "Reiseversicherung",
+    ],
+  },
   "toubkal-summit-trek-4day": {
     includes: [
       "Professioneller lizenzierter Bergführer",

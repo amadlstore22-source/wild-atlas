@@ -3,6 +3,14 @@ import { useEffect, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
+import {
+  activeStops,
+  hasTransferLeg,
+  offRoadConnectors,
+  routeLegs,
+  splitGeometry,
+} from "@/lib/route-legs";
+
 /**
  * Tour map: either a single meeting-point pin, or — when `stops` are provided —
  * the numbered itinerary route, each stop pinned and connected in walking or
@@ -37,6 +45,18 @@ export interface TourLocationMapProps {
   color?: string;
   /** Ordered itinerary stops. When 2+, the map plots the numbered route. */
   stops?: RouteStop[];
+  /**
+   * Departure city ("marrakech" | "agadir"). Drives the transfer/active split:
+   * the drive to and from the hub is transport, not the tour, and framing on it
+   * rendered the Erg Chegaga dunes at 0.5% of the map. See lib/route-legs.ts.
+   */
+  origin?: string;
+  /**
+   * Translated map-key labels. Hardcoding English here would leak untranslated
+   * copy onto all five locale tour pages — the exact defect
+   * __tests__/lib/locale-english-leak.test.ts exists to prevent.
+   */
+  mapKey?: { tour: string; transfer: string; offRoad: string };
   /** Precomputed road-snapped route polyline ([lat,lng] pairs) for driving
    *  tours, built offline by scripts/build-tour-routes.mjs. When present the
    *  line follows real roads; when absent the stops are joined by straight
@@ -117,9 +137,21 @@ export default function TourLocationMapInner({
   color = "#C1693A",
   stops,
   routeGeometry,
+  origin = "",
+  mapKey,
 }: TourLocationMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+
+  // The key is rendered from the same functions that draw the lines, so it can
+  // never advertise a line style the map does not contain.
+  const keyStops = Array.isArray(stops) ? mergeStopsAtSameLocation(stops) : [];
+  const showTransferKey = keyStops.length >= 2 && hasTransferLeg(keyStops, origin);
+  const showOffRoadKey =
+    keyStops.length >= 2 &&
+    Array.isArray(routeGeometry) &&
+    routeGeometry.length >= 2 &&
+    offRoadConnectors(routeGeometry, keyStops).length > 0;
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -199,11 +231,39 @@ export default function TourLocationMapInner({
     // style, and keeping it out of the load handler means a cached style that
     // resolves before the listener attaches cannot leave the map sitting at the
     // default zoom-8 country view — which is exactly what it did.
+    // FRAME ON THE EXPERIENCE, NOT ON THE DRIVE TO IT.
+    //
+    // This used to extend the bounds over every stop AND the full road
+    // geometry, which meant the 218 km transfer from Marrakech decided the
+    // zoom. Measured across the catalogue, that rendered the actual tour at
+    // 0.5% of the frame on erg-chegaga-3day-marrakech, 2.7% on
+    // agadir-to-chefchaouen-5day and under 10% on four more.
+    //
+    // The transfer is still drawn and still reachable by zooming out — it just
+    // no longer dictates the view. activeStops falls back to every stop when a
+    // tour is all-transfer (the city-to-city cultural trips, where the drive is
+    // the product), so those frame exactly as they did before.
     if (hasRoute) {
+      const framed = activeStops(points, origin);
       const bounds = new maplibregl.LngLatBounds();
-      for (const p of points) bounds.extend([p.lng, p.lat]);
+      for (const p of framed) bounds.extend([p.lng, p.lat]);
+
+      // Include road geometry only where it belongs to a framed leg, so a
+      // transfer's road does not drag the bounds back out to the hub.
       if (Array.isArray(routeGeometry)) {
-        for (const [la, ln] of routeGeometry) bounds.extend([ln, la]);
+        const runs = splitGeometry(routeGeometry, points, origin);
+        if (runs.length) {
+          for (const run of runs) {
+            if (run.transfer) continue;
+            // splitGeometry returns slices of routeGeometry, which is stored
+            // [lat, lng] — NOT [lng, lat]. Reading it the other way round put
+            // the bounds off the coast of west Africa and framed the whole
+            // continent. LngLatBounds.extend takes [lng, lat].
+            for (const [la, ln] of run.coords) bounds.extend([ln, la]);
+          }
+        } else {
+          for (const [la, ln] of routeGeometry) bounds.extend([ln, la]);
+        }
       }
       map.fitBounds(bounds, { padding: 42, maxZoom: 13, duration: 0 });
     }
@@ -221,22 +281,117 @@ export default function TourLocationMapInner({
       if (map.getSource("route")) return;
       try {
         const road = Array.isArray(routeGeometry) && routeGeometry.length >= 2;
-        const coords: [number, number][] = road
-          ? routeGeometry!.map(([la, ln]) => [ln, la])
-          : points.map((p) => [p.lng, p.lat]);
+
+        // THREE KINDS OF GROUND, DRAWN DIFFERENTLY.
+        //
+        // It was all one cream line, which is why these maps did not read as
+        // tours. A customer needs to tell apart:
+        //
+        //   TRANSFER  the minibus to and from the hub city. Drawing a 218 km
+        //             drive exactly like a camel trek was actively misleading.
+        //   ACTIVE    the tour itself — the reason for the trip.
+        //   OFF-ROAD  where the tarmac ends. Erg Chegaga has no road; OSRM
+        //             stops 17.6 km short and the pin sat in blank sand with
+        //             nothing joining it. Dashes say "4x4 and camel from here"
+        //             rather than leaving it looking like a broken map.
+        const features: GeoJSON.Feature[] = [];
+
+        const runs = road ? splitGeometry(routeGeometry!, points, origin) : [];
+        if (runs.length) {
+          for (const run of runs) {
+            features.push({
+              type: "Feature",
+              properties: { transfer: run.transfer, offroad: false },
+              geometry: {
+                type: "LineString",
+                coordinates: run.coords.map(([la, ln]) => [ln, la]),
+              },
+            });
+          }
+        } else {
+          // No usable split: fall back to the previous whole-line behaviour,
+          // marking hub legs from the stops where we can.
+          const legs = routeLegs(points, origin);
+          if (road) {
+            features.push({
+              type: "Feature",
+              properties: { transfer: false, offroad: false },
+              geometry: {
+                type: "LineString",
+                coordinates: routeGeometry!.map(([la, ln]) => [ln, la]),
+              },
+            });
+          } else {
+            for (const leg of legs) {
+              features.push({
+                type: "Feature",
+                properties: { transfer: leg.transfer, offroad: false },
+                geometry: {
+                  type: "LineString",
+                  coordinates: [
+                    [leg.from.lng, leg.from.lat],
+                    [leg.to.lng, leg.to.lat],
+                  ],
+                },
+              });
+            }
+          }
+        }
+
+        if (road) {
+          for (const c of offRoadConnectors(routeGeometry!, points)) {
+            features.push({
+              type: "Feature",
+              properties: { transfer: false, offroad: true },
+              geometry: { type: "LineString", coordinates: c.coords },
+            });
+          }
+        }
 
         map.addSource("route", {
           type: "geojson",
-          data: {
-            type: "Feature",
-            properties: {},
-            geometry: { type: "LineString", coordinates: coords },
+          data: { type: "FeatureCollection", features },
+        });
+
+        // Transfers first so the active line always draws on top where they
+        // share ground.
+        map.addLayer({
+          id: "route-transfer",
+          type: "line",
+          source: "route",
+          filter: ["==", ["get", "transfer"], true],
+          layout: { "line-cap": "round", "line-join": "round" },
+          paint: {
+            "line-color": "#B9B2A6",
+            "line-width": 2.5,
+            "line-opacity": 0.75,
+            "line-dasharray": [2, 2.5],
           },
         });
+
+        map.addLayer({
+          id: "route-offroad",
+          type: "line",
+          source: "route",
+          filter: ["==", ["get", "offroad"], true],
+          layout: { "line-cap": "round", "line-join": "round" },
+          paint: {
+            "line-color": "#FBF3E4",
+            "line-width": 2.5,
+            "line-opacity": 0.9,
+            "line-dasharray": [1, 2],
+          },
+        });
+
         map.addLayer({
           id: "route-line",
           type: "line",
           source: "route",
+          filter: [
+            "all",
+            ["==", ["get", "transfer"], false],
+            ["==", ["get", "offroad"], false],
+          ],
           layout: { "line-cap": "round", "line-join": "round" },
           paint: {
             "line-color": "#FBF3E4",
@@ -303,11 +458,42 @@ export default function TourLocationMapInner({
         .maplibregl-ctrl-group button:hover { background: rgba(40,55,40,0.95) !important; }
         .maplibregl-popup-content { border-radius: 6px !important; margin: 0 !important; padding: 8px 12px !important; font-size: 12px !important; }
       `}</style>
-      <div
-        ref={containerRef}
-        className="h-[340px] w-full rounded-[4px] overflow-hidden shadow-sm"
-        aria-label={stops && stops.length >= 2 ? `Route map for ${name}` : `Map showing ${name}`}
-      />
+      {/* `isolate` is load-bearing, not decorative. MapLibre's own stylesheet
+          puts its controls at z-index 800 and the zoom bar at 1000, while the
+          site header is z-50 (components/layout/Header.tsx:116). Without a
+          stacking context here the zoom buttons paint straight over the sticky
+          nav as soon as the map scrolls under it. `isolate` makes every
+          MapLibre z-index resolve INSIDE this wrapper, so the whole map sits
+          below the header as one unit — one class, rather than re-numbering
+          the library's layers. */}
+      <div className="isolate">
+        <div
+          ref={containerRef}
+          className="h-[340px] w-full rounded-[4px] overflow-hidden shadow-sm"
+          aria-label={stops && stops.length >= 2 ? `Route map for ${name}` : `Map showing ${name}`}
+        />
+
+        {(showTransferKey || showOffRoadKey) && (
+          <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-[11px] text-ink-soft">
+            <li className="flex items-center gap-2">
+              <span aria-hidden className="h-0 w-6 shrink-0 border-t-[3px] border-[#C9BFAE]" />
+              {mapKey?.tour ?? "Your tour"}
+            </li>
+            {showTransferKey && (
+              <li className="flex items-center gap-2">
+                <span aria-hidden className="h-0 w-6 shrink-0 border-t-[2px] border-dashed border-[#B9B2A6]" />
+                {mapKey?.transfer ?? "Transfer by road"}
+              </li>
+            )}
+            {showOffRoadKey && (
+              <li className="flex items-center gap-2">
+                <span aria-hidden className="h-0 w-6 shrink-0 border-t-[2px] border-dotted border-[#C9BFAE]" />
+                {mapKey?.offRoad ?? "Off-road by 4x4 or camel"}
+              </li>
+            )}
+          </ul>
+        )}
+      </div>
     </>
   );
 }

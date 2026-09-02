@@ -37,6 +37,10 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "morocco-festivals-calendar-by-month": "calendrier-festivals-maroc-par-mois",
   "getting-around-morocco-transport-guide": "se-deplacer-au-maroc-transports",
   "sahara-desert-weather-what-to-expect": "meteo-desert-sahara-maroc",
+  "morocco-desert-camp-what-its-really-like": "campement-desert-maroc-realite",
+  "how-booking-a-morocco-tour-works": "comment-fonctionne-la-reservation-maroc",
+  "morocco-desert-in-winter-guide": "desert-maroc-en-hiver",
+  "morocco-desert-tour-older-travellers": "circuit-desert-maroc-seniors",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -67,6 +71,10 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "morocco-festivals-calendar-by-month": "calendario-festivales-marruecos-por-mes",
   "getting-around-morocco-transport-guide": "como-moverse-por-marruecos-transporte",
   "sahara-desert-weather-what-to-expect": "clima-desierto-sahara-marruecos",
+  "morocco-desert-camp-what-its-really-like": "campamento-desierto-marruecos-realidad",
+  "how-booking-a-morocco-tour-works": "como-funciona-la-reserva-marruecos",
+  "morocco-desert-in-winter-guide": "desierto-marruecos-en-invierno",
+  "morocco-desert-tour-older-travellers": "circuito-desierto-marruecos-mayores",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -97,6 +105,10 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "morocco-festivals-calendar-by-month": "marokko-festivals-kalender-nach-monat",
   "getting-around-morocco-transport-guide": "fortbewegung-in-marokko-verkehrsmittel",
   "sahara-desert-weather-what-to-expect": "wetter-sahara-wueste-marokko",
+  "morocco-desert-camp-what-its-really-like": "wuestencamp-marokko-wie-es-wirklich-ist",
+  "how-booking-a-morocco-tour-works": "wie-die-buchung-in-marokko-funktioniert",
+  "morocco-desert-in-winter-guide": "marokko-wueste-im-winter",
+  "morocco-desert-tour-older-travellers": "wuestentour-marokko-fuer-aeltere-reisende",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -127,12 +139,17 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "morocco-festivals-calendar-by-month": "calendario-festival-marocco-per-mese",
   "getting-around-morocco-transport-guide": "spostarsi-in-marocco-trasporti",
   "sahara-desert-weather-what-to-expect": "clima-deserto-sahara-marocco",
+  "morocco-desert-camp-what-its-really-like": "campo-deserto-marocco-com-e-davvero",
+  "how-booking-a-morocco-tour-works": "come-funziona-la-prenotazione-marocco",
+  "morocco-desert-in-winter-guide": "deserto-marocco-in-inverno",
+  "morocco-desert-tour-older-travellers": "tour-deserto-marocco-anziani",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.
  * Same contract as the blog maps above: must stay in sync with
  * `localizedSlug` in lib/tours.<locale>.ts, which a test asserts. */
 const TOUR_SLUGS_FR: Record<string, string> = {
+  "casablanca-fes-sahara-marrakech-5day": "casablanca-fes-sahara-marrakech-5-jours",
   "shared-merzouga-3day-marrakech": "desert-merzouga-3-jours-partage",
   "shared-zagora-2day-marrakech": "desert-zagora-2-jours-partage",
   "shared-ouzoud-waterfalls-day-trip": "excursion-partagee-cascades-ouzoud",
@@ -183,6 +200,7 @@ const TOUR_SLUGS_FR: Record<string, string> = {
 };
 
 const TOUR_SLUGS_ES: Record<string, string> = {
+  "casablanca-fes-sahara-marrakech-5day": "casablanca-fez-sahara-marrakech-5-dias",
   "shared-merzouga-3day-marrakech": "desierto-merzouga-3-dias-compartido",
   "shared-zagora-2day-marrakech": "desierto-zagora-2-dias-compartido",
   "shared-ouzoud-waterfalls-day-trip": "excursion-compartida-cascadas-ouzoud",
@@ -233,6 +251,7 @@ const TOUR_SLUGS_ES: Record<string, string> = {
 };
 
 const TOUR_SLUGS_DE: Record<string, string> = {
+  "casablanca-fes-sahara-marrakech-5day": "casablanca-fes-sahara-marrakesch-5-tage",
   "shared-merzouga-3day-marrakech": "merzouga-wueste-3-tage-geteilt",
   "shared-zagora-2day-marrakech": "zagora-wueste-2-tage-geteilt",
   "shared-ouzoud-waterfalls-day-trip": "ouzoud-wasserfaelle-gruppentour",
@@ -283,6 +302,7 @@ const TOUR_SLUGS_DE: Record<string, string> = {
 };
 
 const TOUR_SLUGS_IT: Record<string, string> = {
+  "casablanca-fes-sahara-marrakech-5day": "casablanca-fes-sahara-marrakech-5-giorni",
   "shared-merzouga-3day-marrakech": "deserto-merzouga-3-giorni-condiviso",
   "shared-zagora-2day-marrakech": "deserto-zagora-2-giorni-condiviso",
   "shared-ouzoud-waterfalls-day-trip": "escursione-condivisa-cascate-ouzoud",

@@ -1,0 +1,105 @@
+{
+  "_comment": "EXAMPLE ONLY - invented client, safe to commit. Copy this file, fill in the real details, and the copy is gitignored automatically. All amounts are EUR CENTS: 85000 = 850.00 EUR.",
+  "clientName": "Example Client",
+  "clientEmail": "",
+  "travellers": 3,
+  "tourTitle": "Marrakech a Merzouga — 3 días por el desierto (privado)",
+  "departure": "2026-09-20",
+  "ret": "2026-09-22",
+  "guideLanguage": "Español",
+  "total": 85000,
+  "deposit": 17500,
+  "days": [
+    {
+      "day": 1,
+      "title": "Marrakech → Aït Ben Haddou → Gargantas del Dades",
+      "body": "Salida de Marrakech a las 7:00 h y cruce del paso Tizi n'Tichka (2.260 m) a través del Alto Atlas. Visita al ksar de Aït Ben Haddou (Patrimonio de la Humanidad de la UNESCO). Continuación pasando por Ouarzazate y el Valle de las Mil Kasbahs. Noche en las Gargantas del Dades."
+    },
+    {
+      "day": 2,
+      "title": "Dades → Garganta del Todra → Merzouga",
+      "body": "Mañana en la Garganta del Todra, donde las paredes del cañón se estrechan hasta los 10 metros y se elevan 300 metros. Continuación vía Erfoud hacia Merzouga, con llegada a media tarde. Paseo en camello por las dunas de Erg Chebbi al atardecer, seguido de cena y música gnawa en el campamento."
+    },
+    {
+      "day": 3,
+      "title": "Amanecer sobre las dunas → Marrakech",
+      "body": "Amanecer sobre Erg Chebbi y regreso en camello para desayunar. Trayecto hacia el oeste por la carretera del desierto pasando por Alnif y Tazarine —zona rica en fósiles y mucho más tranquila que la ruta principal—, después Ouarzazate y nuevo cruce del Tizi n'Tichka. Llegada a Marrakech por la tarde."
+    }
+  ],
+  "accommodation": [
+    {
+      "night": "Noche 1 · 20 de septiembre",
+      "name": "Luxury Riad Dades",
+      "detail": "Gargantas del Dades. Cena y desayuno incluidos."
+    },
+    {
+      "night": "Noche 2 · 21 de septiembre",
+      "name": "Sahara Garden — Erg Chebbi",
+      "detail": "Campamento en las dunas, al que se llega en camello al atardecer. Jaima privada para los tres viajeros, con baño y ducha privados. Cena y desayuno incluidos."
+    }
+  ],
+  "includes": [
+    "Vehículo privado 4x4 durante todo el recorrido, solo para su grupo",
+    "Conductor-guía de habla española, los tres días completos",
+    "Guía experto en el desierto",
+    "Noche 1: Luxury Riad Dades (cena y desayuno)",
+    "Noche 2: campamento Sahara Garden, jaima privada con baño privado (cena y desayuno)",
+    "Paseo en camello por Erg Chebbi al atardecer y de nuevo al amanecer",
+    "Música gnawa en el campamento",
+    "Todos los carburantes, peajes y aparcamientos"
+  ],
+  "excludes": [
+    "Almuerzos durante el trayecto (aproximadamente 70–120 MAD por persona)",
+    "Bebidas, gastos personales y propinas",
+    "Seguro de viaje (recomendado)"
+  ],
+  "en": {
+    "_comment": "English edition. Only the prose differs — reference, dates and money come from the shared fields above, so the two documents cannot disagree on anything a customer would dispute. Clause 9 in both states the Spanish governs.",
+    "tourTitle": "Marrakech to Merzouga — 3-day desert tour (private)",
+    "guideLanguage": "Spanish",
+    "days": [
+      {
+        "day": 1,
+        "title": "Marrakech → Aït Ben Haddou → Dades Gorges",
+        "body": "Depart Marrakech at 07:00 and cross the Tizi n'Tichka pass (2,260 m) through the High Atlas. Visit the ksar of Aït Ben Haddou (UNESCO World Heritage). Continue past Ouarzazate and along the Valley of a Thousand Kasbahs. Overnight in the Dades Gorges."
+      },
+      {
+        "day": 2,
+        "title": "Dades → Todra Gorge → Merzouga",
+        "body": "Morning in the Todra Gorge, where the canyon walls narrow to 10 metres and rise 300 metres. Continue via Erfoud to Merzouga, arriving mid-afternoon. Camel ride into the Erg Chebbi dunes at sunset, followed by dinner and Gnawa music at camp."
+      },
+      {
+        "day": 3,
+        "title": "Sunrise over the dunes → Marrakech",
+        "body": "Sunrise over Erg Chebbi and the camel ride back for breakfast. Head west on the desert road through Alnif and Tazarine — fossil country, and far quieter than the main route — then Ouarzazate and back over the Tizi n'Tichka. Arrive in Marrakech in the afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "night": "Night 1 · 20 September",
+        "name": "Luxury Riad Dades",
+        "detail": "Dades Gorges. Dinner and breakfast included."
+      },
+      {
+        "night": "Night 2 · 21 September",
+        "name": "Sahara Garden — Erg Chebbi",
+        "detail": "Camp in the dunes, reached by camel at sunset. Private tent for the three travellers, with private bathroom and shower. Dinner and breakfast included."
+      }
+    ],
+    "includes": [
+      "Private 4x4 vehicle throughout, for your group only",
+      "Spanish-speaking driver-guide, all three full days",
+      "Expert desert guide",
+      "Night 1: Luxury Riad Dades (dinner and breakfast)",
+      "Night 2: Sahara Garden camp, private tent with private bathroom (dinner and breakfast)",
+      "Camel ride at Erg Chebbi at sunset and again at sunrise",
+      "Gnawa music at camp",
+      "All fuel, tolls and parking"
+    ],
+    "excludes": [
+      "Lunches on the road (roughly 70–120 MAD per person)",
+      "Drinks, personal expenses and tips",
+      "Travel insurance (recommended)"
+    ]
+  }
+}

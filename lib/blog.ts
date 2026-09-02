@@ -6825,6 +6825,8 @@ so the number you see at your group size is the number you pay.
       { q: "Do I get a worse tour if I book direct?", a: "No — in most cases it is literally the same vehicle, the same guide and the same camp, because the platform does not operate anything. It resells a trip run by a local company. What changes is who answers your email before you travel and how much of what you pay reaches the people running the trip." },
     ],
     content: `
+> Decided to book direct? [How booking works: deposits, balances and why we send a contract first](/en/blog/how-booking-a-morocco-tour-works) walks through the process step by step.
+
 ## The short answer
 
 Resale platforms and hotel desks do not run tours. They resell trips operated by
@@ -7218,6 +7220,8 @@ mountain guide.
       },
     ],
     content: `
+> Travelling with grandparents as well? [Taking your parents to the Sahara](/en/blog/morocco-desert-tour-older-travellers) covers camel alternatives, driving days and what to ask before booking.
+
 ## The short version
 
 Morocco is one of the easier long-haul destinations to bring children to. It is close
@@ -7423,6 +7427,8 @@ right for the age you are bringing.
       },
     ],
     content: `
+> Before comparing tiers, it is worth knowing what any desert camp is like: [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) covers the tents, the bathrooms, the food and the cold.
+
 ## The short answer
 
 Nearly all of the difference is the bathroom.
@@ -9290,6 +9296,492 @@ sun is down, even in summer, because there is nothing out there to hold the heat
 
 **[Shared Agafay evening](/en/tours/shared-agafay-dinner-camel-ride)** ·
 **[Private Agafay sunset](/en/tours/agafay-desert-sunset)**
+`,
+  },
+  {
+    slug: "morocco-desert-camp-what-its-really-like",
+    author: MET_TEAM,
+    title: "What a Sahara Desert Camp Is Actually Like",
+    excerpt:
+      "Every operator says 'traditional Berber camp'. That tells you nothing. Here is what the tents are actually like, whether the bathroom is private, what the food is, and how cold it gets at night.",
+    heroImage: "/gallery/blog-hero-desert-camp-night.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["desert camp", "Sahara camp", "Merzouga camp", "Erg Chebbi", "private tent", "desert accommodation"],
+    seoTitle: "What a Sahara Desert Camp Is Really Like — Morocco 2026",
+    seoDescription:
+      "Private tents, shared bathrooms, food, and how cold it gets: an honest look at what a Moroccan desert camp is actually like, from the operator who runs them.",
+    relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech"],
+    faq: [
+      {
+        q: "Do desert camps have private bathrooms?",
+        a: "Some do and some do not, and this is the single biggest difference between camps at different price points. At Sahara Garden in Erg Chebbi, which we use for our private desert tours, each tent is private to your group and has its own bathroom with a shower and flushing toilet. Standard camps on shared departures typically give you a private sleeping tent but shared washing facilities in a separate block. Always ask the operator to state which one you are getting, in writing, before you pay.",
+      },
+      {
+        q: "How cold does the Sahara get at night?",
+        a: "Colder than almost everyone expects. Sand does not hold heat, so the temperature falls sharply the moment the sun goes down. In summer a 40C day can drop to 20C by midnight. In December, January and February a pleasant 20C afternoon can fall to near freezing by dawn. Camps provide thick blankets and the tents are well insulated, but you should bring a warm layer, and in winter a hat, whatever the daytime forecast says.",
+      },
+      {
+        q: "Is there electricity and wifi at a desert camp?",
+        a: "Most camps run on solar power with a generator as backup, which means lighting in the tents and usually a socket or two in the communal area for charging a phone. Do not count on charging several devices at once. Mobile signal at Erg Chebbi is generally usable for messages; wifi is rare and slow where it exists. Treat one night off the grid as part of the experience rather than a problem to solve.",
+      },
+      {
+        q: "What food is served at a desert camp?",
+        a: "Dinner is normally a tagine, cooked at the camp, served with bread and salad, followed by fresh fruit and mint tea. Breakfast is bread, jam, olive oil, eggs and coffee or tea. Vegetarian is straightforward and standard; vegan, gluten-free and allergy requirements are all workable but must be given at booking, not on the day, because everything has to be carried out to the camp in advance.",
+      },
+    ],
+    content: `
+Every desert tour listing in Morocco says the same thing: a night in a traditional Berber camp under the stars. It is technically true of a tent with a foam mattress and a shared latrine, and equally true of a tent with a private bathroom and a proper bed. The phrase does not distinguish them, and the price often does not either.
+
+This is what actually varies, and what to ask before you book.
+
+## The tent
+
+The word "tent" covers a lot of ground. What you should establish is two separate things, because operators sometimes blur them.
+
+**Is the tent private to your group?** On most camps, yes. You get your own tent, and your family or party is not sharing it with strangers. This is normal and you should expect it.
+
+**Does the tent have its own bathroom?** This is the real variable. At the camps we use for our private desert tours — Sahara Garden, in the Erg Chebbi dunes — each tent has a private bathroom with a shower and a flushing toilet, inside the tent. At standard camps on shared departures, you typically get a private sleeping tent but a shared washing block a short walk away.
+
+Neither is wrong. A shared block is entirely civilised and is part of why a shared departure costs a third of a private one. But they are different products, and you should know which you are buying.
+
+**Ask the question directly, and ask for the answer in writing.** Any operator who will not name the camp and state the bathroom arrangement is telling you something. [How booking works](/en/blog/how-booking-a-morocco-tour-works) covers what a written confirmation should contain.
+
+## The bed
+
+Beds in the better camps are proper beds — a frame, a mattress, sheets and a pile of heavy wool blankets. In simpler camps you may get a thick foam mattress on a rug. Both sleep well after a day on the road; the difference is felt more at the moment you sit down than at the moment you fall asleep.
+
+Blankets are always provided, and always more than you think you will need. Take them.
+
+## Getting there
+
+At Erg Chebbi you reach the camp by camel, setting out in the late afternoon so you arrive as the sun goes down. The ride is around 45 minutes to an hour depending on the camp's position in the dunes.
+
+If someone in your party cannot or would rather not ride — a bad back, a nervous child, an older traveller, or simply no interest — say so at booking. A 4x4 can take you in instead, and the rest of the group can still ride. This is a normal request and no camp we work with finds it awkward. It is much easier arranged in advance than negotiated at the trailhead.
+
+## The evening
+
+Dinner is a tagine, cooked at camp. Bread, salad, fruit, mint tea. It is simple food done properly, and after a day of driving it lands very well.
+
+Afterwards there is usually drumming around a fire. How long it goes on depends on the group. Nobody is obliged to join in and nobody minds if you slip away to look at the sky, which is the real reason to be there — Erg Chebbi is hundreds of kilometres from any significant light source, and on a moonless night the Milky Way is genuinely startling.
+
+## The cold
+
+This is the thing people get wrong most often.
+
+Sand does not retain heat. When the sun goes down, the temperature falls fast, and it keeps falling until dawn. A 40C summer day becomes a 20C night. A 22C February afternoon can be close to freezing by the time you get up for sunrise.
+
+Camps supply heavy blankets and the tents hold warmth well. But between dinner and bed you will be outside, and at 5:30am you will be climbing a dune in the dark. **Bring a warm layer whatever the season, and in winter bring a hat and something for your hands.** Nobody has ever regretted the extra jumper. If you are travelling between December and February, our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) has the month-by-month numbers.
+
+## Power, signal, water
+
+Solar with a generator backup is the norm. Expect lights in the tent and a socket or two in the communal area. Do not plan on charging four devices.
+
+Phone signal at Erg Chebbi is usually good enough for messages. Wifi is rare, and where it exists it is slow. One evening without it is not a hardship.
+
+Bottled water is provided. Showers, where present, run on tanked water — take a short one, for the obvious reason.
+
+## What to bring
+
+- A warm layer, and in winter a hat and gloves
+- A head torch or your phone for finding the bathroom at night
+- Sandals or something you can slip on and off
+- Any medication you need, in your day bag rather than the main luggage
+- A scarf, which is genuinely useful against blown sand
+
+You do not need a sleeping bag. You do not need to bring water. You do not need hiking boots for the camp itself.
+
+## Luxury camps, and whether they are worth it
+
+Most operators, ourselves included, offer an upgrade to a "luxury" camp. What you are actually buying is a larger tent, a proper en-suite bathroom, better furniture, and usually a quieter position in the dunes.
+
+Whether that is worth the supplement depends entirely on you. If you sleep badly in unfamiliar places, if you are travelling with someone who would find a shared bathroom genuinely difficult, or if this is the one big night of the trip, it is money well spent. If you are young, easy-going, and out there for the dunes rather than the bedding, the standard camp does the same job.
+
+We have written about the difference in more detail in our [luxury versus standard desert camp guide](/en/blog/luxury-vs-standard-desert-camp-morocco).
+
+## The honest summary
+
+A desert camp is not a hotel and is not trying to be. It is a good bed, a good dinner and an extraordinary sky, in a place it takes real effort to reach.
+
+The things that go wrong are almost always expectation failures rather than camp failures — someone who assumed a private bathroom and got a shared one, or who packed for a 40C day and froze at 3am. Both are avoidable by asking two questions before you book.
+
+**[Private 3-day desert tour](/en/tours/sahara-3day-marrakech)** · **[Shared 3-day departure](/en/tours/shared-merzouga-3day-marrakech)** · **[4-day desert tour](/en/tours/desert-4day-marrakech)**
+`,
+  },
+  {
+    slug: "how-booking-a-morocco-tour-works",
+    author: MET_TEAM,
+    title: "How Booking Works: Deposits, Balances and Why We Send a Contract First",
+    excerpt:
+      "You are about to send money to a company you found online, in a country you have never visited. Here is exactly how our booking process works, what you pay when, and what you get in writing before any money moves.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["booking Morocco tour", "tour deposit", "Morocco travel payment", "tour contract", "booking process"],
+    seoTitle: "How to Book a Morocco Tour Safely — Deposits and Contracts",
+    seoDescription:
+      "What you pay, when you pay it, and what you get in writing first. An honest guide to booking a Morocco tour direct, from a licensed Marrakech operator.",
+    relatedTours: ["sahara-3day-marrakech", "toubkal-summit-trek-4day", "desert-4day-marrakech"],
+    faq: [
+      {
+        q: "How much deposit do I pay to book a Morocco tour?",
+        a: "Ours is 22% of the total, on every tour we sell — a day trip, a three-day desert circuit or a six-day trek. It is a fixed proportion rather than a number we decide per booking, so you can check it yourself against any price on the site. The remaining 78% is paid when you arrive in Marrakech, before the tour begins.",
+      },
+      {
+        q: "Should I get a contract before paying a tour deposit?",
+        a: "Yes, and any legitimate operator will send one without being asked twice. It should name the exact tour and dates, the number of travellers, the total price and deposit, the accommodation by property name, what is included and excluded, and the cancellation terms. If an operator resists putting those things in writing, that is the point to stop.",
+      },
+      {
+        q: "What is your cancellation policy?",
+        a: "Free cancellation up to 14 days before departure, with the deposit refunded in full. Cancellations within 14 days are subject to a 50% fee, and no-shows are charged in full. If we have to cancel for weather or safety, you get a full refund or a reschedule, whichever you prefer.",
+      },
+      {
+        q: "Is it safe to pay a Moroccan tour operator directly?",
+        a: "It is, provided you check the same things you would anywhere: that the operator is licensed, that they will put the booking in writing before you pay, that the deposit is a sensible proportion rather than the whole amount, and that the balance is due on arrival rather than in advance. An operator asking for 100% up front by bank transfer, with no written confirmation, is the pattern to walk away from.",
+      },
+    ],
+    content: `
+Booking a tour in Morocco means sending money to a company you found on the internet, in a country you have probably never been to, often several months before you travel. Being cautious about that is not paranoia. It is sense.
+
+So here is exactly how it works with us, in the order it happens.
+
+## 1. You ask, we quote
+
+You send an enquiry. We reply with a price, an itinerary, what is included, and what is not.
+
+The price we send is the price. We do not quote high and wait to be negotiated down, and we do not quote low and add compulsory extras later. If we cannot do something at the price you have in mind, we say so and explain what would have to be cut — and usually those are exactly the things you told us mattered.
+
+## 2. You ask more questions
+
+Most people do, and the questions are almost always the same three: which hotel, is the tent private, and how long is the drive on the last day.
+
+We answer all three with specifics. The hotel by name. The tent arrangement including the bathroom. The driving hours per day, including the ones that are genuinely long. If you want to know what you are actually asking about, our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) sets out what varies between camps.
+
+If an operator will not name the accommodation, that is worth noticing. There are only two reasons not to: they do not know yet because they book it after you pay, or they know and would rather you did not.
+
+## 3. We send a written confirmation before you pay anything
+
+This is the part that matters most, and it is the part people are often surprised we do without being asked twice.
+
+Before any money moves, you get a document that states:
+
+- The exact tour, the exact dates, the number of travellers
+- The total price, the deposit, and the balance
+- The accommodation for each night, **by property name**
+- Everything included, and everything excluded
+- The cancellation terms
+- Our licence details
+
+You read it. If anything is wrong or missing, you tell us and we correct it. Only then does anyone pay.
+
+This is not a courtesy. It is the thing that lets you check that the trip in your head and the trip in our system are the same trip.
+
+## 4. The deposit: 22%
+
+Our deposit is **22% of the total**, and it is 22% on everything we sell — a half-day in the medina, a three-day desert circuit, a six-day Toubkal trek.
+
+It is a fixed proportion rather than a figure we invent per booking, which means you can check it. Take any price on this site, take 22%, and that is the deposit.
+
+What the deposit does is real: it reserves the vehicle and the driver-guide for your dates, and it books and pays for your camp and hotel rooms. Those are commitments we make to other people on the strength of it.
+
+**The remaining 78% is paid when you arrive in Marrakech**, before the tour starts, in cash or by transfer, whichever suits you.
+
+We do not ask for the full amount in advance. An operator who does is asking you to carry all of the risk of the transaction, which is backwards.
+
+## 5. Free cancellation to 14 days
+
+Cancel more than 14 days before departure and your deposit is refunded in full.
+
+Within 14 days there is a 50% fee, because at that point we have paid for rooms that cannot be resold. No-shows are charged in full.
+
+If **we** cancel — a closed mountain pass, a weather situation that makes a route unsafe — you get a full refund or a reschedule, your choice. Safety decisions belong to the guide and they are final. We would rather lose a booking than take a group somewhere they should not be.
+
+## 6. On the day
+
+Your driver-guide collects you from your riad or hotel. You pay the balance. You go.
+
+## Why we book direct rather than through a platform
+
+Booking platforms add 20 to 30% to the price, and that money does not improve your trip. It goes to the platform.
+
+There is a second, less obvious cost. When you book through an intermediary, your questions go through them too, and the answers get slower and vaguer. The person who knows whether the tent at Sahara Garden has its own bathroom is the person who books it — and on a platform, that person is three emails away from you.
+
+We have written more about this in [booking direct versus through a platform](/en/blog/booking-morocco-tour-direct-vs-platform).
+
+## What to check with any operator, including us
+
+Whoever you book with, ask for these:
+
+1. **A licence number.** Moroccan tour operators are licensed. Ask for it.
+2. **The accommodation by name.** Not "a standard hotel". The name.
+3. **A written confirmation before payment.** Itinerary, inclusions, exclusions, price, cancellation terms.
+4. **A deposit, not the full amount.** 20-30% is normal. 100% up front is not.
+5. **A real answer about driving times.** Some days in Morocco are long. An operator who says every day is comfortable has not done the route.
+
+If an operator does all five, you are almost certainly fine. If they resist any of them, keep looking.
+
+**[See our tours](/en/tours)** · **[Ask us a question](/en/contact)**
+`,
+  },
+  {
+    slug: "morocco-desert-in-winter-guide",
+    author: MET_TEAM,
+    title: "The Sahara in Winter: December, January and February",
+    excerpt:
+      "Winter is one of the best times to see the Moroccan desert, and almost nobody tells you how cold the nights actually get. Temperatures, what to pack, snow on the Atlas passes, and why the light is better.",
+    heroImage: "/gallery/coastal-desert-camp-dusk-tents.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["Morocco winter", "Sahara winter", "desert in December", "Morocco in January", "Morocco in February", "winter desert tour"],
+    seoTitle: "Morocco's Sahara in Winter — December to February Guide 2026",
+    seoDescription:
+      "Winter is the best light and the smallest crowds in the Moroccan Sahara, and the coldest nights. Real temperatures, what to pack, and Atlas pass closures.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech"],
+    weatherRegion: "Sahara",
+    faq: [
+      {
+        q: "How cold is the Sahara desert at night in winter?",
+        a: "At Erg Chebbi in December and January, night-time lows are typically 3-8C and can touch freezing on a clear, still night. Daytime highs over the same period are usually a pleasant 18-22C. That swing of roughly 15 degrees between afternoon and dawn is the single thing winter visitors underestimate most.",
+      },
+      {
+        q: "Is it worth visiting the Moroccan desert in winter?",
+        a: "Yes, and for several reasons. Daytime temperatures are comfortable for walking rather than punishing, the light is low and gold for far longer each day, the air is clearer so the stars are better, and the camps and dunes are much quieter than in spring or autumn. The trade-off is genuinely cold nights and a small chance of a snow-related delay crossing the High Atlas.",
+      },
+      {
+        q: "Can the Tizi n'Tichka pass close in winter?",
+        a: "Occasionally, yes. The pass reaches 2,260 m and can close for a few hours after heavy snow while it is cleared, most often in January and February. We watch the forecast, tell you well in advance if it looks likely, and reroute via Taroudant or adjust the schedule rather than sitting in a queue. It is an inconvenience rather than a trip-ender, and it is rare.",
+      },
+      {
+        q: "What should I pack for the Moroccan desert in winter?",
+        a: "Layers, on the assumption that you will wear all of them at 6am and one of them at 2pm. A warm mid-layer or fleece, a windproof outer layer, a hat, gloves, and warm socks for the camp. Then the usual desert kit: sunglasses, sunscreen, a scarf against blown sand, and comfortable shoes. Camps provide heavy blankets, so you do not need a sleeping bag.",
+      },
+    ],
+    content: `
+Most people book Morocco's desert for spring or autumn, on the reasonable theory that a desert in summer is unbearable and a desert in winter is a compromise.
+
+Half of that is right. Summer at Erg Chebbi is genuinely brutal. But winter is not the compromise — for a lot of travellers it is the best time of year to be out there, provided you know what the nights do.
+
+[[WEATHER]]
+
+## The numbers
+
+At Erg Chebbi, roughly:
+
+| | Daytime high | Night low |
+|---|---|---|
+| December | 18-21C | 3-7C |
+| January | 17-20C | 2-6C |
+| February | 20-23C | 4-8C |
+
+Those daytime figures are the point. Walking up a dune at 20C is a pleasure. Walking up the same dune in July at 43C is an ordeal you endure for the view at the top.
+
+The night figures are the warning. A clear, still desert night in January can reach freezing. That is not a problem — camps carry heavy blankets and the tents hold heat — but it is a problem if you packed for the afternoon.
+
+## Why the light is better
+
+Winter sun sits low. That means the golden hour lasts significantly longer, the dunes hold shadow and texture through much more of the day, and the harsh vertical midday light that flattens everything in summer photographs simply does not happen.
+
+If you are carrying a camera, this is the season.
+
+The air is also drier and clearer, which means the night sky is at its best. Erg Chebbi is hundreds of kilometres from meaningful light pollution in any direction, and on a moonless winter night the Milky Way is bright enough to cast the faintest shadow.
+
+## Why it is quieter
+
+Winter is low season everywhere except Christmas and New Year. Fewer 4x4s on the desert road, fewer groups at the viewpoints, fewer tents at the camp.
+
+The gorges in particular — Todra and Dades — are transformed by this. In April, Todra can feel like a car park with a canyon attached. In January you can hear it.
+
+## The Atlas passes
+
+This is the one real winter risk, and it is worth understanding rather than worrying about.
+
+Every desert route from Marrakech crosses the High Atlas at the **Tizi n'Tichka**, 2,260 m. After heavy snow the pass can close for a few hours while the ploughs work, most often in January and February.
+
+What that actually means in practice:
+
+- It is uncommon, not routine
+- We watch the forecast in the days before your departure
+- If it looks likely, we tell you in advance rather than on the morning
+- We can reroute or shift the schedule
+
+The road has been substantially upgraded in recent years and clears faster than it used to. Treat it as a small scheduling risk, not a reason to avoid the season.
+
+If your trip includes the mountains as well as the desert, our [Toubkal in winter guide](/en/blog/toubkal-in-winter-what-to-expect) covers the higher-altitude side of it.
+
+## What to pack
+
+The rule is layers, because you will genuinely wear everything you brought at 6am and one thin layer at 2pm.
+
+**For the cold end:**
+- A warm mid-layer — fleece or light down
+- A windproof outer layer
+- A hat. Most heat is lost from the head, and dawn on a dune is windy
+- Gloves, or at minimum pockets you can commit to
+- Warm socks specifically for the evening at camp
+
+**For the desert generally:**
+- Sunglasses. Winter sun is low and goes straight into your eyes
+- Sunscreen. It is still the Sahara
+- A scarf, for blown sand and for warmth
+- Comfortable closed shoes for walking, sandals for camp
+
+**You do not need:** a sleeping bag, technical mountaineering kit, or anything for rain. Winter rain in the pre-Sahara is rare and brief. Camps supply heavy blankets — our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) covers what the tents are actually like.
+
+## Ramadan
+
+Check the dates. Ramadan moves roughly eleven days earlier each year, which through the late 2020s puts it in late winter and early spring.
+
+Travelling during Ramadan is entirely workable and can be a fascinating time to visit, but it changes the rhythm of the day — restaurant hours, the pace of the afternoon, the atmosphere after sunset. We have covered what it means for travellers in [visiting Morocco during Ramadan](/en/blog/visiting-morocco-during-ramadan).
+
+## Christmas and New Year
+
+The exception to winter being quiet. The last two weeks of December are busy, camps book out well ahead, and prices firm up.
+
+If you want the desert at its emptiest, come in the middle of January instead. If you want to be somewhere extraordinary on New Year's Eve, book it in September.
+
+## Who winter suits
+
+**Good for:** photographers, anyone who dislikes heat, travellers who want the dunes without the crowds, people combining the desert with the imperial cities where winter is also comfortable.
+
+**Less good for:** anyone who feels the cold badly and will not pack for it, or a trip planned so tightly that a few hours' delay at a snowy pass would wreck it.
+
+For most people, winter in the Moroccan Sahara is the version of it worth having: warm enough to enjoy, cold enough to remember, and quiet enough to hear.
+
+**[Private 3-day desert tour](/en/tours/sahara-3day-marrakech)** · **[4-day desert tour](/en/tours/desert-4day-marrakech)** · **[Shared departure](/en/tours/shared-merzouga-3day-marrakech)**
+`,
+  },
+  {
+    slug: "morocco-desert-tour-older-travellers",
+    author: MET_TEAM,
+    title: "Taking Your Parents to the Sahara: A Desert Tour After 60",
+    excerpt:
+      "Camels are optional, the driving days are the real consideration, and a shared tour is not automatically the wrong choice. What actually matters when booking a Moroccan desert trip for older travellers.",
+    heroImage: "/gallery/camels-couched-camp-dawn.jpg",
+    category: "tips",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["Morocco for seniors", "older travellers Morocco", "desert tour accessibility", "Morocco with parents", "camel ride alternative"],
+    seoTitle: "Morocco Desert Tours for Older Travellers — An Honest Guide",
+    seoDescription:
+      "Is a Sahara tour suitable after 60? Camel alternatives, the real driving distances, choosing between private and shared, and what to ask before booking.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech"],
+    faq: [
+      {
+        q: "Do I have to ride a camel on a Morocco desert tour?",
+        a: "No. The camel ride into the dunes is the standard way to reach the camp, but a 4x4 can take you in instead — and the rest of your group can still ride if they want to. Tell the operator at booking rather than on the day, so the vehicle is arranged. Nobody at any camp we work with finds this an unusual request.",
+      },
+      {
+        q: "Is a Sahara desert tour suitable for someone in their sixties or seventies?",
+        a: "For most people in reasonable health, yes. The physical demands are modest: getting in and out of a vehicle, some walking on uneven ground at the gorges and kasbahs, and a short walk on sand at the camp. The genuine challenge is not fitness but the length of the driving days, and that is solved by choosing the right itinerary rather than by being fitter.",
+      },
+      {
+        q: "How long are the drives on a Morocco desert tour?",
+        a: "On the standard 3-day Marrakech to Merzouga route, day one is about seven hours, day two about five, and day three about nine — the return leg is long because it covers the whole distance back in one go. The 4-day version splits that return over two days with a night in Ouarzazate, which makes a substantial difference to how the trip feels.",
+      },
+      {
+        q: "Should older travellers book a private or a shared desert tour?",
+        a: "It depends on what you want from it. A private tour lets you stop when you like, take breaks, and set the pace, which matters on the long driving days. A shared departure puts you with other travellers, which some older visitors specifically want for the company. Neither is automatically right — but if mobility or stamina is a concern, private buys you flexibility that a fixed schedule cannot.",
+      },
+    ],
+    content: `
+We get this enquiry regularly, usually from someone booking for their parents, and usually phrased as a worry: is this too much for them?
+
+Almost always, the answer is no — but not for the reason people expect, and the things that actually matter are not the things they ask about.
+
+## The camel is not the problem
+
+This is the question everyone leads with, and it is the easiest to solve.
+
+The camel ride into the dunes is how you normally reach the camp at Erg Chebbi. It takes about 45 minutes to an hour. Camels kneel to let you on and stand up in two lurching movements — front legs then back, or the reverse — and that motion is the part that gives people trouble, more than the ride itself.
+
+**If anyone would rather not, a 4x4 takes them to the camp instead.** The rest of the group can still ride. Both arrive at the same place at the same time.
+
+Say so at booking rather than at the trailhead. It is a completely routine request, but the vehicle has to be there.
+
+## The driving is the real consideration
+
+Here is what nobody tells you clearly enough.
+
+Morocco's desert is a long way from Marrakech. On the standard 3-day route:
+
+- **Day 1:** about 7 hours' driving, roughly 420 km
+- **Day 2:** about 5 hours, roughly 300 km
+- **Day 3:** about 9 hours, roughly 560 km
+
+That third day is the whole return journey in one go, and it is the part that tires people out — not the dunes, not the camel, not the camp. Nine hours in a vehicle is a long day at any age.
+
+**The fix is the 4-day itinerary.** It covers the same ground but splits the return over two days with a night in Ouarzazate, so no single day is much over five hours. For older travellers this is usually the single most valuable change you can make to the trip, and it costs less than most people assume.
+
+If the desert is not the fixed point, [Zagora](/en/tours/zagora-2day-marrakech) is a shorter run south — one driving day rather than two. The dunes are lower and less dramatic than Erg Chebbi, which is a real trade-off, but it is a genuinely easier trip.
+
+## Private or shared
+
+The instinct is to assume older travellers need a private tour. Sometimes that is right, and sometimes it misses the point entirely.
+
+**Private gives you control.** Stop when you want, take a longer break at the gorge, start later in the morning, ask the driver to pull over for a photograph. On a long driving day that flexibility is worth a great deal.
+
+**Shared gives you company.** We have had enquiries where the whole reason for choosing a shared departure was that a traveller wanted their parents to meet other people rather than spending three days with only family. That is a completely valid reason, and it is not a compromise — it is the product they wanted.
+
+The honest answer: if mobility, stamina or a medical consideration is in play, book private. If it is purely about sociability, shared is fine and the group is usually a broad mix of ages and nationalities.
+
+## What the days actually ask of you
+
+Physically, a desert tour is undemanding:
+
+- Getting in and out of a 4x4 or minibus, several times a day
+- Walking on uneven ground at Aït Ben Haddou, which is a hillside kasbah with steps and no handrails
+- A short, gentle walk at the Todra Gorge, on the flat
+- Walking on sand at the camp — soft going, but short distances
+- Optionally climbing a dune at sunrise, which is genuinely tiring and entirely optional
+
+Nothing is timed. Nothing requires fitness beyond walking comfortably for twenty minutes.
+
+**Aït Ben Haddou is the one to think about.** The old ksar is built up a hillside, the surfaces are uneven earth and stone, and the climb to the top is steep. Plenty of people admire it from the bottom, photograph it from the bridge, and skip the climb — the view from below is the famous one anyway.
+
+## Accommodation
+
+Ask for specifics, as you would anywhere.
+
+For older travellers the questions worth asking are: does the room have a private bathroom, is there a shower rather than only a bath, how many stairs, and — at the desert camp — is the bathroom in the tent or in a shared block a walk away.
+
+At Sahara Garden, the camp we use in Erg Chebbi, tents are private with their own bathroom and shower. At standard camps on shared departures, the sleeping tent is private and the washing facilities are shared. Neither is worse; they are different, and at 70 the difference matters more than at 25. Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) goes through this properly.
+
+Getting up at 3am and walking a hundred metres across sand to a shared block is a genuine consideration. It is worth paying to avoid if it applies to you.
+
+## Heat, cold and season
+
+Summer is the thing to avoid. July and August at Erg Chebbi routinely pass 43C, and that is hard on anybody.
+
+**Spring and autumn are the easy answer** — March to May, September to November, comfortable by day and mild at night.
+
+**Winter is genuinely good** if you pack for it: pleasant 18-22C afternoons, and nights that can approach freezing. Camps supply heavy blankets, but bring a warm layer, a hat, and warm socks. Our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) covers this properly.
+
+## Medical, practically
+
+- Bring medication in your day bag, not the main luggage, and bring more than the trip needs
+- Tell the operator about anything relevant at booking — mobility, heart conditions, diabetes. Not to be refused, but so the guide knows
+- Merzouga has a small clinic. Serious cases go to Errachidia, about two hours away
+- Travel insurance with medical cover is not required by us but is strongly recommended
+- Bring copies of prescriptions if you carry anything unusual
+
+## The short version
+
+The desert is far more accessible to older travellers than most people assume. The camel is optional, the walking is modest, and the camps are more comfortable than the word "camp" implies.
+
+The thing that actually determines whether the trip is a pleasure or an endurance test is the length of the driving days — and that is a booking decision, made before you leave home.
+
+**[4-day desert tour](/en/tours/desert-4day-marrakech)** — the one we usually recommend · **[3-day private](/en/tours/sahara-3day-marrakech)** · **[2-day Zagora](/en/tours/zagora-2day-marrakech)**
 `,
   },
 ];

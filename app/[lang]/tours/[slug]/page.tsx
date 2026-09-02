@@ -302,6 +302,12 @@ export default async function TourDetailPage({ params }: TourParams) {
                   .filter((d) => d.stop)
                   .map((d) => ({ name: d.stop!.name, lat: d.stop!.lat, lng: d.stop!.lng, day: d.day }))}
                 routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
+                origin={tour.origin}
+                mapKey={{
+                  tour: dict.tourDetail.mapKeyTour,
+                  transfer: dict.tourDetail.mapKeyTransfer,
+                  offRoad: dict.tourDetail.mapKeyOffRoad,
+                }}
               />
             </section>
 

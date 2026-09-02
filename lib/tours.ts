@@ -8,7 +8,7 @@ export type Category =
   | "cultural"
   | "day-tours";
 
-export type Origin = "marrakech" | "agadir";
+export type Origin = "marrakech" | "agadir" | "casablanca";
 
 export interface ItineraryDay {
   day: number;
@@ -257,7 +257,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
-    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect"],
+    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers"],
     title: "Marrakech to Merzouga — 3-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -367,13 +367,13 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Why does this trip take three days?", a: "Because Merzouga and the Erg Chebbi dunes are on the far side of the Atlas. Three days is what the distance requires — anything shorter either goes somewhere that is not the real Sahara, or spends almost all of it driving." },
       { q: "What do we see on the drive?", a: "The route crosses the Tizi n'Tichka pass and takes in Aït Ben Haddou and the gorge country, so the journey carries its own sights rather than being time lost getting somewhere. The driving is broken into stages with stops rather than done in one push." },
-      { q: "What is the night in the desert camp like?", a: "Beds with blankets in a tent, dinner together, and complete quiet once the generators stop. The dunes are genuinely dark, which is why most people remember the night sky rather than the camel ride. Bring a warm layer — desert nights get cold outside summer." },
+      { q: "What is the night in the desert camp like?", a: "Beds with blankets in a tent, dinner together, and complete quiet once the generators stop. The dunes are genuinely dark, which is why most people remember the night sky rather than the camel ride. Bring a warm layer — desert nights get cold outside summer. For the full picture, see [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like)." },
       { q: "Do I have to ride a camel?", a: "No. The camel leg into the camp is short and optional, and walking that stretch instead is common enough that the guides expect it. All the real distance is covered by vehicle." },
       { q: "How much driving is there each day?", a: "Day one is the long one: roughly six to seven hours from Marrakech over the Tizi n'Tichka pass at 2,260 m, broken by stops at Aït Ben Haddou and lunch. Day two is gentler, around four to five hours through the gorge country to Merzouga. Day three is the return leg, and the longest single stretch — we take the western road through Alnif and Tazarine, which is quieter than the way you came in." },
-      { q: "What are the toilet and shower facilities like at the camp?", a: "The permanent camps we use have bathroom tents with running water and a real shower — private or shared depending on the camp. Water pressure in the middle of the Erg is modest and hot water is not guaranteed at every hour, but it is a proper shower rather than a bucket. If an en-suite tent matters to you, say so when you book and we will quote a camp that has them." },
+      { q: "What are the toilet and shower facilities like at the camp?", a: "The permanent camps we use have bathroom tents with running water and a real shower — private or shared depending on the camp. Water pressure in the middle of the Erg is modest and hot water is not guaranteed at every hour, but it is a proper shower rather than a bucket. If an en-suite tent matters to you, say so when you book and we will quote a camp that has them. Our [guide to what a desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) covers the tents, the bathrooms and the food in detail." },
       { q: "Can I charge my phone in the desert?", a: "There is power at the camp in the evening from a generator, so a phone or camera battery will charge. It goes off at night, which is deliberate — the quiet and the dark are most of the point. Bring a power bank if you rely on your phone for photographs." },
       { q: "What happens to my main luggage?", a: "It stays in the 4x4. You only carry a small daypack on the camel leg into the camp, so pack an overnight layer, a torch and anything you need before morning into that bag. The vehicle is with our driver throughout." },
-      { q: "How cold does it get at night?", a: "Colder than people expect. Spring and autumn nights in the dunes sit around 12–18 °C; in December and January they can drop to near freezing. The camp provides blankets, but bring a warm layer for the evening — the temperature falls fast once the sun goes down." },
+      { q: "How cold does it get at night?", a: "Colder than people expect. Spring and autumn nights in the dunes sit around 12–18 °C; in December and January they can drop to near freezing. The camp provides blankets, but bring a warm layer for the evening — the temperature falls fast once the sun goes down. If you are travelling between December and February, our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) has the real temperatures and a packing list." },
       { q: "Is this suitable for children?", a: "Yes, and families book it regularly. The camel ride is short and optional, the walking is minimal, and the itinerary is graded easy. The long driving days are the real consideration with young children rather than anything about the desert itself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
@@ -679,7 +679,7 @@ export const TOURS: Tour[] = [
   {
     id: "7",
     slug: "marrakech-to-fes-3day",
-    relatedPosts: ["marrakech-to-fes-road-trip-guide", "fes-medina-travel-guide", "morocco-unesco-sites-film-locations"],
+    relatedPosts: ["marrakech-to-fes-road-trip-guide", "fes-medina-travel-guide", "morocco-unesco-sites-film-locations", "morocco-desert-camp-what-its-really-like", "how-booking-a-morocco-tour-works"],
     title: "Marrakech to Fes — 3-Day Imperial Cities Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1258,7 +1258,7 @@ export const TOURS: Tour[] = [
   {
     id: "14",
     slug: "sahara-2day-agadir",
-    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Agadir to the Sahara — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -1332,7 +1332,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Can you really reach the desert from Agadir in two days?", a: "Yes — this two-day trip uses 4x4 transport to reach a desert camp for one night, with all camel rides included. It is the shortest genuine desert overnight from Agadir." },
-      { q: "What is the camp like?", a: "A luxury desert camp for one night, with dinner and breakfast included. The night sky and quiet are what most people remember." },
+      { q: "What is the camp like?", a: "A luxury desert camp for one night, with dinner and breakfast included. The night sky and quiet are what most people remember. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
       { q: "What is included?", a: "4x4 transport throughout, an experienced desert guide, one night at the luxury desert camp with dinner and breakfast, and all camel rides. Lunch on day one, personal items, and tips are not included." },
       { q: "How demanding is it?", a: "Easy. The distance is covered by 4x4, and the camel rides are short and optional." },
     ],
@@ -1490,7 +1490,7 @@ export const TOURS: Tour[] = [
   {
     id: "17",
     slug: "marrakech-to-chefchaouen-4day",
-    relatedPosts: ["marrakech-to-chefchaouen-tour-cost", "chefchaouen-complete-travel-guide", "fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide"],
+    relatedPosts: ["marrakech-to-chefchaouen-tour-cost", "chefchaouen-complete-travel-guide", "fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide", "how-booking-a-morocco-tour-works"],
     title: "Marrakech to Chefchaouen — 4-Day Blue City Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1594,7 +1594,7 @@ export const TOURS: Tour[] = [
   {
     id: "18",
     slug: "marrakech-imperial-cities-5day",
-    relatedPosts: ["fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco", "morocco-unesco-sites-film-locations"],
+    relatedPosts: ["fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco", "morocco-unesco-sites-film-locations", "how-booking-a-morocco-tour-works"],
     title: "Marrakech — All 4 Imperial Cities — 5-Day Grand Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1716,7 +1716,7 @@ export const TOURS: Tour[] = [
   {
     id: "23",
     slug: "zagora-2day-marrakech",
-    relatedPosts: ["zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-tour-older-travellers"],
     title: "Marrakech to Zagora — 2-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -1802,11 +1802,11 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Is Zagora the full Sahara or a closer desert?", a: "Zagora is the nearer desert option from Marrakech, reachable in a two-day trip. It offers a genuine camp night and camel trek without the longer drive to the big Erg Chebbi dunes." },
-      { q: "What is the desert night like?", a: "One night in a Berber desert camp with dinner and breakfast, reached by a sunset camel trek. Nights get cold outside summer, so bring a warm layer." },
+      { q: "What is the desert night like?", a: "One night in a Berber desert camp with dinner and breakfast, reached by a sunset camel trek. Nights get cold outside summer, so bring a warm layer. More detail in [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like)." },
       { q: "What is included?", a: "Air-conditioned minibus transport, an English-speaking driver-guide, one night at the Berber camp with dinner and breakfast, the sunset camel trek, and mineral water and tea. Lunches on both days, personal travel insurance, and tips are not included." },
       { q: "How demanding is it?", a: "Easy — the distance is covered by minibus and the camel trek is short." },
       { q: "Why choose Zagora over Merzouga?", a: "Distance. Zagora is reachable in a single day's drive from Marrakech, so two days is enough; Merzouga needs three. The trade-off is the dunes — Zagora's are smaller and the landscape is more stony desert than the tall Erg Chebbi sand people picture. If you have three days, Merzouga is the bigger view. If you have two, Zagora is the honest answer." },
-      { q: "What are the camp facilities?", a: "Bathroom tents with running water and a shower, beds with blankets, and dinner and breakfast included. There is generator power in the evening. It is a straightforward desert camp rather than a luxury one, which is reflected in the price." },
+      { q: "What are the camp facilities?", a: "Bathroom tents with running water and a shower, beds with blankets, and dinner and breakfast included. There is generator power in the evening. It is a straightforward desert camp rather than a luxury one, which is reflected in the price. Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) explains what varies between camps and what to ask before booking." },
       { q: "How long is the drive?", a: "About seven hours each way, over the Tizi n'Tichka pass and down through the Draa Valley palm groves. It is a full driving day in each direction, which is the honest shape of a two-day desert trip from Marrakech." },
       { q: "Do we ride camels?", a: "Yes, a short ride into the camp at sunset, and it is optional — walking the same stretch is common. The ride is around an hour, which is comfortable for most people who have never been on a camel." },
     ],
@@ -1819,7 +1819,7 @@ export const TOURS: Tour[] = [
   {
     id: "24",
     slug: "erg-chegaga-3day-marrakech",
-    relatedPosts: ["erg-chebbi-vs-erg-chegaga", "morocco-camel-trek-sahara-guide", "luxury-vs-standard-desert-camp-morocco", "erg-chegaga-tour-cost"],
+    relatedPosts: ["erg-chebbi-vs-erg-chegaga", "morocco-camel-trek-sahara-guide", "luxury-vs-standard-desert-camp-morocco", "erg-chegaga-tour-cost", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Erg Chegaga from Marrakech — 3-Day Remote Desert Expedition",
     category: "desert",
     origin: "marrakech",
@@ -1923,8 +1923,8 @@ export const TOURS: Tour[] = [
       { q: "Is Erg Chegaga worth the extra effort over Merzouga?", a: "If solitude is what you are actually after, yes. If you want the tall sculpted dunes from the photographs with straightforward access, Merzouga is the better use of the same three days. Neither is a consolation prize; they are different experiences." },
       { q: "How is Erg Chegaga different from Erg Chebbi?", a: "Chegaga is larger, wilder and much harder to reach — the last stretch is off-road across the reg, and there is no town at the edge of it. Erg Chebbi at Merzouga has a road to the dunes and far more camps. If you want the emptier of the two and do not mind the rougher approach, Chegaga is the one." },
       { q: "Do I need a 4x4 for this, and is the off-road section difficult?", a: "Yes, and it is included. The final approach to Chegaga is genuine off-road driving across stony desert, which is why this tour costs more than a Merzouga trip of the same length. Our drivers run it routinely; for passengers it is a bumpy hour, not a technical one." },
-      { q: "What are the camp facilities out at Chegaga?", a: "Simpler than Merzouga, because everything has to be brought in across the reg. Bathroom tents with running water, beds with blankets, dinner and breakfast. That remoteness is the reason the night sky there is what it is." },
-      { q: "How cold does it get at night?", a: "Around 12–18 °C on spring and autumn nights, and near freezing in midwinter. Blankets are provided, and a warm evening layer is worth packing in any season." },
+      { q: "What are the camp facilities out at Chegaga?", a: "Simpler than Merzouga, because everything has to be brought in across the reg. Bathroom tents with running water, beds with blankets, dinner and breakfast. That remoteness is the reason the night sky there is what it is. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for how camps differ." },
+      { q: "How cold does it get at night?", a: "Around 12–18 °C on spring and autumn nights, and near freezing in midwinter. Blankets are provided, and a warm evening layer is worth packing in any season. If you are travelling between December and February, our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) has the real temperatures and a packing list." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
@@ -1935,7 +1935,7 @@ export const TOURS: Tour[] = [
   {
     id: "25",
     slug: "desert-4day-marrakech",
-    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide"],
+    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers"],
     title: "Marrakech Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "marrakech",
@@ -2043,12 +2043,12 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "How much walking or difficulty is involved?", a: "Very little — it is graded easy. Most distance is by air-conditioned minibus or 4x4; effort is limited to short walks at Todra Gorge and Aït Ben Haddou and the optional camel treks." },
-      { q: "Where do we sleep each night?", a: "One night in a Dades Valley hotel, one night in a Berber camp at Erg Chebbi, and one night in an Ouarzazate hotel. Dinner and breakfast are included except the final Ouarzazate morning (breakfast only)." },
+      { q: "Where do we sleep each night?", a: "One night in a Dades Valley hotel, one night in a Berber camp at Erg Chebbi, and one night in an Ouarzazate hotel. Dinner and breakfast are included except the final Ouarzazate morning (breakfast only). Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) covers what the tents and bathrooms are actually like." },
       { q: "What is not included?", a: "Lunches (budget roughly €12–15 per meal), the optional Atlas Film Studios ticket (~€7), alcoholic drinks, personal travel insurance, and tips." },
       { q: "Do we reach the real Sahara?", a: "Yes — you reach Erg Chebbi with a full night at a desert camp plus sunset and sunrise camel treks. The four-day length is what crossing the Atlas properly requires." },
       { q: "What does the fourth day buy me over the 3-day tour?", a: "Time rather than extra distance. The three-day version is a hard loop with two long driving days; the fourth day lets the gorge country and the dunes breathe, and usually means a second night in the desert region rather than a dawn start for the return. If the driving is what worries you about a three-day trip, this is the version to book." },
       { q: "What are the sleeping arrangements?", a: "A mix of desert camp and hotel or kasbah nights, with dinner and breakfast at each. The camp has shared facilities; the hotels are private rooms. The exact split depends on the route we run for your dates." },
-      { q: "How cold does the desert get at night?", a: "In spring and autumn, around 12–18 °C after dark. In midwinter it can approach freezing in the dunes. Blankets are provided at the camp, but a warm layer for the evening is worth packing whatever the season — the drop after sunset is sharp." },
+      { q: "How cold does the desert get at night?", a: "In spring and autumn, around 12–18 °C after dark. In midwinter it can approach freezing in the dunes. Blankets are provided at the camp, but a warm layer for the evening is worth packing whatever the season — the drop after sunset is sharp. Our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) has month-by-month temperatures if you are travelling between December and February." },
       { q: "Can dietary requirements be catered for?", a: "Yes. Vegetarian is straightforward everywhere on this route, and vegan, halal and common allergies can be handled if you tell us when booking so the camp and the kasbahs know in advance." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
@@ -2063,7 +2063,7 @@ export const TOURS: Tour[] = [
   {
     id: "26",
     slug: "merzouga-3day-agadir",
-    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "merzouga-travel-guide", "merzouga-3-day-tour-cost"],
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "merzouga-travel-guide", "merzouga-3-day-tour-cost", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Agadir to Merzouga — 3-Day Sahara Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2169,7 +2169,7 @@ export const TOURS: Tour[] = [
   {
     id: "27",
     slug: "zagora-2day-agadir",
-    relatedPosts: ["zagora-desert-guide", "sahara-desert-from-agadir", "zagora-2-day-tour-cost"],
+    relatedPosts: ["zagora-desert-guide", "sahara-desert-from-agadir", "zagora-2-day-tour-cost", "morocco-desert-camp-what-its-really-like"],
     title: "Agadir to Zagora — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2250,7 +2250,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Is this the full Sahara?", a: "Zagora is the nearer desert from Agadir, done as a two-day trip with a Berber camp night and a sunset camel trek — a genuine desert overnight without the longest drives." },
       { q: "What is included?", a: "Air-conditioned transport, an English-speaking driver-guide, one night at a Berber desert camp with dinner and breakfast, the sunset camel trek, and mineral water and mint tea. Lunches on both days, personal travel insurance, and tips are not included." },
-      { q: "What is the camp night like?", a: "A Berber desert camp with dinner and breakfast; bring a warm layer as desert nights get cold outside summer." },
+      { q: "What is the camp night like?", a: "A Berber desert camp with dinner and breakfast; bring a warm layer as desert nights get cold outside summer. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like)." },
       { q: "How demanding is it?", a: "Easy — transport does the distance and the camel trek is short." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
@@ -2262,7 +2262,7 @@ export const TOURS: Tour[] = [
   {
     id: "28",
     slug: "erg-chegaga-3day-agadir",
-    relatedPosts: ["sahara-tour-from-agadir-cost", "erg-chebbi-vs-erg-chegaga", "sahara-desert-from-agadir", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["sahara-tour-from-agadir-cost", "erg-chebbi-vs-erg-chegaga", "sahara-desert-from-agadir", "what-to-pack-desert-tour-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Agadir to Erg Chegaga — 3-Day Remote Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2365,7 +2365,7 @@ export const TOURS: Tour[] = [
   {
     id: "29",
     slug: "desert-4day-agadir",
-    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "best-day-trips-from-agadir", "what-to-pack-desert-tour-morocco"],
+    relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "best-day-trips-from-agadir", "what-to-pack-desert-tour-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers"],
     title: "Agadir Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "agadir",
@@ -3377,7 +3377,7 @@ export const TOURS: Tour[] = [
   {
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
-    relatedPosts: ["merzouga-travel-guide", "sahara-desert-facts", "luxury-vs-standard-desert-camp-morocco"],
+    relatedPosts: ["merzouga-travel-guide", "sahara-desert-facts", "luxury-vs-standard-desert-camp-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Merzouga Stargazing from Marrakech — 2-Day Dark Sky Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -3775,7 +3775,7 @@ export const TOURS: Tour[] = [
   {
     id: "39",
     slug: "family-desert-4day-marrakech",
-    relatedPosts: ["family-desert-tour-morocco-cost", "sahara-desert-morocco-what-to-expect", "what-to-pack-desert-tour-morocco", "agafay-vs-merzouga-vs-zagora"],
+    relatedPosts: ["family-desert-tour-morocco-cost", "sahara-desert-morocco-what-to-expect", "what-to-pack-desert-tour-morocco", "agafay-vs-merzouga-vs-zagora", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Family Desert Adventure — 4-Day Marrakech to Sahara",
     category: "desert",
     origin: "marrakech",
@@ -4125,7 +4125,7 @@ export const TOURS: Tour[] = [
   {
     id: "42",
     slug: "chegaga-camel-trek-8day",
-    relatedPosts: ["morocco-camel-trek-sahara-guide", "erg-chebbi-vs-erg-chegaga", "sahara-desert-facts", "erg-chegaga-tour-cost"],
+    relatedPosts: ["morocco-camel-trek-sahara-guide", "erg-chebbi-vs-erg-chegaga", "sahara-desert-facts", "erg-chegaga-tour-cost", "morocco-desert-camp-what-its-really-like"],
     title: "Draa Valley to M'hamid — 8-Day Chegaga Camel Trek",
     category: "desert",
     origin: "marrakech",
@@ -4278,7 +4278,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "What are the camps like?",
-        a: "Mobile and basic, which is the point. The crew pitches traditional Berber tents wherever the day ends, so it is a different site every night, with no fixed structures, no electricity and no washblock — a toilet tent is set up at each camp. In exchange you sleep somewhere no vehicle can reach and where no other group is staying.",
+        a: "Mobile and basic, which is the point. The crew pitches traditional Berber tents wherever the day ends, so it is a different site every night, with no fixed structures, no electricity and no washblock — a toilet tent is set up at each camp. In exchange you sleep somewhere no vehicle can reach and where no other group is staying. Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) covers the tents, bathrooms and food.",
       },
       {
         q: "Is there a minimum number of people?",
@@ -4297,7 +4297,7 @@ export const TOURS: Tour[] = [
   {
     id: "44",
     slug: "shared-merzouga-3day-marrakech",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "merzouga-travel-guide", "what-to-pack-desert-tour-morocco", "3-day-sahara-tour-cost-marrakech", "merzouga-3-day-tour-cost"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "merzouga-travel-guide", "what-to-pack-desert-tour-morocco", "3-day-sahara-tour-cost-marrakech", "merzouga-3-day-tour-cost", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     title: "Merzouga Desert from Marrakech — 3-Day Shared Tour",
     category: "desert",
     origin: "marrakech",
@@ -4386,7 +4386,7 @@ export const TOURS: Tour[] = [
   {
     id: "45",
     slug: "shared-zagora-2day-marrakech",
-    relatedPosts: ["private-vs-shared-desert-tour-morocco", "zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco", "zagora-2-day-tour-cost"],
+    relatedPosts: ["private-vs-shared-desert-tour-morocco", "zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco", "zagora-2-day-tour-cost", "morocco-desert-camp-what-its-really-like"],
     title: "Zagora Desert from Marrakech — 2-Day Shared Tour",
     category: "desert",
     origin: "marrakech",
@@ -4450,7 +4450,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Zagora or Merzouga?", a: "Zagora is closer — one driving day rather than two — but its dunes are low and scrubby. Erg Chebbi at Merzouga is the tall golden sand sea most people picture, and it needs the [3-day trip](/en/tours/shared-merzouga-3day-marrakech). If your time is tight, Zagora; if you want the dunes from the photographs, Merzouga." },
       { q: "How long is the driving?", a: "About eight hours each way. It is a long day in the vehicle for one desert night, which is the honest trade-off of the two-day format." },
-      { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious." },
+      { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Zagora Desert 2-Day Shared Tour | Marrakech Eco Tours",
@@ -4634,7 +4634,7 @@ export const TOURS: Tour[] = [
     featured: false,
   },
   {
-    id: "47",
+    id: "50",
     slug: "morocco-highlights-toubkal-sahara-8day",
     title: "8-Day Morocco Highlights: Toubkal Summit and Sahara Desert",
     category: "trekking",
@@ -4796,6 +4796,180 @@ export const TOURS: Tour[] = [
       "Toubkal (4,167 m) and the Erg Chebbi dunes in one 8-day trip from Marrakech. Five set departures from March 2027, 14 seats, €889 pp — was €921.",
     featured: true,
   },
+  {
+    id: "49",
+    slug: "casablanca-fes-sahara-marrakech-5day",
+    relatedPosts: [
+      "morocco-desert-camp-what-its-really-like",
+      "how-booking-a-morocco-tour-works",
+      "fes-medina-travel-guide",
+      "morocco-unesco-sites-film-locations",
+    ],
+    title: "Casablanca to Marrakech — 5-Day Imperial Cities & Sahara",
+    category: "cultural",
+    origin: "casablanca",
+    difficulty: "easy",
+    duration: "5 days / 4 nights",
+    groupSize: "2–12 people",
+    tourType: "private",
+    reviewCount: 0,
+    // Not rendered: cards show TRIPADVISOR.rating site-wide. Mirrors the real
+    // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
+    // the truthful number for a product with no reviews of its own yet.
+    rating: 5.0,
+    // Stored in USD (see lib/currency-core.ts) but SET FROM THE OWNER'S EUR
+    // PARTY TOTALS: 1380 / 1650 / 1960 / 2369 / 2675 / 2819 EUR for parties of
+    // one to six. groupPricing is PER PERSON, so each total is divided by the
+    // party size before conversion; every tier round-trips back to its exact
+    // euro figure at the current rate. If RATES.EUR is revised these need
+    // recomputing, or the displayed ladder drifts off the quoted one.
+    //
+    // The party totals rise strictly across 1-6, so no group is ever better off
+    // booking a phantom extra traveller -- the inversion trap documented on
+    // sahara-3day-marrakech.
+    price: 1592,
+    depositAmount: 351,
+    groupPricing: [
+      { minPeople: 1, price: 1592 },
+      { minPeople: 2, price: 952 },
+      { minPeople: 3, price: 753 },
+      { minPeople: 4, price: 683 },
+      { minPeople: 5, price: 617 },
+      { minPeople: 6, price: 542 },
+    ],
+    // Hero and gallery follow the itinerary north to south. The Rabat and
+    // Volubilis photographs are the operator's own; before this the tour's
+    // Day 1 was illustrated with a Fes tannery, because the gallery held no
+    // images of the northern stops at all.
+    heroImage: "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",
+    gallery: [
+      "/gallery/rabat-hassan-tower-columns.jpg",
+      "/gallery/volubilis-basilica-arches.jpg",
+      "/gallery/volubilis-arch-of-caracalla-inscription.jpg",
+      "/gallery/destinations-fes.jpg",
+      "/gallery/blog-hero-sahara-dunes-golden.jpg",
+      "/gallery/blog-todra-gorge-guide.jpg",
+      "/gallery/ait-ben-haddou-kasbah-wide.jpg",
+    ],
+    shortDescription:
+      "North to south across Morocco in five days: Rabat, Roman Volubilis, Meknes, two nights in Fes, the Erg Chebbi dunes, and the gorges home to Marrakech.",
+    description:
+      "One journey the length of the country, starting where most people land and finishing where most people want to be. You cross from the Atlantic to the Sahara and back into the High Atlas, taking in three imperial cities, the best-preserved Roman site in Morocco, a full guided day inside the Fes medina, a night in the Erg Chebbi dunes, and the gorge road through Todra and Dades. Private vehicle and driver-guide throughout, so the pace is yours.",
+    highlights: [
+      "Hassan Tower and the Kasbah of the Udayas in Rabat",
+      "Volubilis — Roman mosaics still in the ground where they were laid",
+      "Bab Mansour and the imperial granaries at Meknes",
+      "A full guided day in the Fes medina, the world's largest car-free urban area",
+      "Camel trek into the Erg Chebbi dunes and a night at a desert camp",
+      "Todra Gorge and the Dades valley",
+      "Aït Ben Haddou and the Atlas film studios at Ouarzazate",
+    ],
+    includes: [
+      "Private air-conditioned vehicle for your group throughout",
+      "English or French speaking driver-guide, all five days",
+      "Licensed local guide for the full Fes city day",
+      "4 nights accommodation: riad in Fes (2 nights), desert camp, Dades hotel",
+      "Dinner and breakfast at the desert camp",
+      "Breakfast daily",
+      "Camel trek at Erg Chebbi at sunset and sunrise",
+      "All fuel, tolls and parking",
+    ],
+    excludes: [
+      "Lunches",
+      "Return transfer Marrakech to Casablanca (available as an extra)",
+      "Monument and site entry fees",
+      "Drinks, personal expenses and tips",
+      "Travel insurance",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        driving: "≈6 h",
+        distance: "≈370 km",
+        stay: "Riad in the Fes medina",
+        meals: "Breakfast at the riad on arrival day is not included; dinner optional",
+        title: "Casablanca → Rabat → Volubilis → Meknes → Fes",
+        description:
+          "Collection from your Casablanca hotel or the airport. North along the coast to Rabat for the Hassan Tower and the Kasbah of the Udayas above the river mouth. Inland to Volubilis, the Roman city whose floor mosaics are still in place under the open sky, then Meknes for Bab Mansour and Moulay Ismail's imperial granaries. Arrive Fes in the evening; night in a riad inside the medina.",
+        stop: { name: "Fes", lat: 34.0181, lng: -5.0078 },
+      },
+      {
+        day: 2,
+        driving: "—",
+        distance: "On foot",
+        stay: "Riad in the Fes medina",
+        meals: "Breakfast",
+        title: "Fes — a full guided day in the medina",
+        description:
+          "A licensed Fes guide for the whole day, which the medina genuinely requires: Fes el-Bali has around nine thousand lanes and no vehicles. The Chouara tanneries, the Al-Attarine and Bou Inania madrasas, the Al-Qarawiyyin — founded in 859 and the oldest continuously operating university in the world — the souks by trade, and the potters' quarter. Second night in the same riad, so nothing is packed and unpacked.",
+        stop: { name: "Fes medina", lat: 34.0653, lng: -4.9734 },
+      },
+      {
+        day: 3,
+        driving: "≈7 h 30",
+        distance: "≈460 km",
+        stay: "Desert camp, Erg Chebbi",
+        meals: "Breakfast, dinner at camp",
+        title: "Fes → Ifrane → Midelt → Erfoud → Erg Chebbi",
+        description:
+          "The long day, broken into stages. Up through the cedar forests of the Middle Atlas to Ifrane, an alpine-looking town of pitched roofs at 1,665 m, with Barbary macaques in the cedars beyond it. Down through Midelt and the Ziz valley — a canyon of date palms that runs for kilometres — to Errachidia and Erfoud. Camel trek into the Erg Chebbi dunes at sunset, dinner and Berber music at camp.",
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1500, lng: -3.9833 },
+      },
+      {
+        day: 4,
+        driving: "≈4 h 30",
+        distance: "≈280 km",
+        stay: "Hotel in the Dades valley",
+        meals: "Breakfast, dinner",
+        title: "Erg Chebbi → Merzouga → Todra Gorge → Dades",
+        description:
+          "Sunrise over the dunes and the camel ride back for breakfast. West along the old caravan road through Tinghir to the Todra Gorge, where the walls close to ten metres and rise three hundred. On to the Dades valley for the night, beneath the rock formations locals call the monkey fingers.",
+        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+      },
+      {
+        day: 5,
+        driving: "≈5 h 30",
+        distance: "≈330 km",
+        stay: "—",
+        meals: "Breakfast",
+        title: "Dades → Kalaat M'Gouna → Ouarzazate → Aït Ben Haddou → Marrakech",
+        description:
+          "Through Kalaat M'Gouna, the rose-growing town where the valley's damask roses are distilled, to Ouarzazate and the Atlas Film Studios. Lunch at Aït Ben Haddou, the UNESCO ksar that has stood in for half the ancient world on screen, then over the Tizi n'Tichka pass (2,260 m) into Marrakech in the late afternoon.",
+        stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
+      },
+    ],
+    faq: [
+      {
+        q: "Does this tour start in Casablanca and finish in Marrakech?",
+        a: "Yes. We collect you in Casablanca — your hotel or the airport, whichever suits — and the tour ends in Marrakech on day five. It is designed as a one-way journey across the country rather than a loop, which is what lets you see the north, the Sahara and the High Atlas without covering the same road twice.",
+      },
+      {
+        q: "Can you take us back to Casablanca at the end?",
+        a: "Yes, as an extra rather than as part of the tour. It is about 270 km of motorway from Marrakech, roughly three hours, and we will quote it with your booking. Many travellers instead fly out of Marrakech or take the train, which runs to Casablanca in around three hours and is comfortable and inexpensive.",
+      },
+      {
+        q: "How long are the driving days?",
+        a: "Day one is about six hours spread across three stops, day two has no driving at all, day three is the longest at around seven and a half hours broken by Ifrane and the Ziz valley, day four is about four and a half, and day five about five and a half. The full-day stop in Fes sits deliberately between the two longest days.",
+      },
+      {
+        q: "Why do we need a local guide in Fes?",
+        a: "Because Fes el-Bali has roughly nine thousand lanes, no vehicles, and no logic that reveals itself in an afternoon. A licensed Fes guide is included for the full day: they get you into the madrasas and the tanneries, explain what you are looking at, and end the constant negotiation that a visitor walking alone attracts. It is the single biggest difference between a good day in Fes and a frustrating one.",
+      },
+      {
+        q: "What is the desert camp like?",
+        a: "You reach it by camel at sunset, and it is a private tent for your group with dinner, breakfast and Berber music at the fire. Bathroom arrangements vary by camp tier and we will tell you exactly which you are getting before you book. Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) sets out the differences in full.",
+      },
+      {
+        q: "Is this better than starting in Marrakech?",
+        a: "It depends where you land. If you fly into Casablanca — as most long-haul arrivals do — this saves you the journey south before your holiday starts. If you are already in Marrakech, our [3-day Marrakech to Fes tour](/en/tours/marrakech-to-fes-3day) covers the same ground in the opposite direction.",
+      },
+    ],
+    meetingPoint: { lat: 33.5731, lng: -7.5898, name: "Casablanca — your hotel or Mohammed V airport" },
+    seoTitle: "Casablanca to Marrakech — 5-Day Tour",
+    seoDescription:
+      "Private 5-day tour from Casablanca: Rabat, Volubilis, Meknes, two nights in Fes, the Erg Chebbi dunes and the gorges to Marrakech. From $542 pp for 6+.",
+    featured: false,
+  },
 ];
 
 export function getTour(slug: string): Tour | undefined {
@@ -4884,7 +5058,7 @@ export const CATEGORIES: {
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
   trekking: 13,
   desert: 14,
-  cultural: 9,
+  cultural: 10,
   "day-tours": 11,
   // "hiking" is declared in Category but has no tours and no CATEGORIES entry.
 };

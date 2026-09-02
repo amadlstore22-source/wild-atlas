@@ -23,6 +23,7 @@
     "allTours": "Tutti i Tour",
     "fromMarrakech": "Da Marrakech",
     "fromAgadir": "Da Agadir",
+    "fromCasablanca": "Da Casablanca",
     "searchBtn": "Cerca",
     "browseAll": "Scopri le Avventure",
     "planCustom": "Crea un Viaggio su Misura"
@@ -230,7 +231,10 @@
       "familyTitle": "Condotto dalla famiglia cresciuta qui",
       "familyBody": "Chiunque vi guidi è una guida berbera autorizzata del team familiare — non un freelance assegnato da un'agenzia la settimana del vostro arrivo. Ogni guida viene formata su un itinerario prima di condurlo, e tutte sono autorizzate dal Ministero del Turismo marocchino. Oltre {years} anni di tradizione nell'Alto Atlante.",
       "familyLink": "Conoscere le guide"
-    }
+    },
+    "mapKeyTour": "Il tuo tour",
+    "mapKeyTransfer": "Trasferimento su strada",
+    "mapKeyOffRoad": "Fuoristrada in 4x4 o cammello"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

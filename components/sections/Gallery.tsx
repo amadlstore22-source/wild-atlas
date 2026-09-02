@@ -66,6 +66,17 @@ const PHOTOS = [
   { src: "/gallery/camels-resting-acacia-tree.jpg", alt: "Baggage camels resting in the shade of a lone acacia on a desert crossing, Morocco" },
   { src: "/gallery/ait-ben-haddou-kasbah-wide.jpg", alt: "The earthen kasbah of Aït Ben Haddou rising above the palm groves, Ouarzazate Morocco" },
   { src: "/gallery/wild-ostrich-souss-massa.jpg", alt: "A wild ostrich on the coastal plain of Souss-Massa National Park, Morocco" },
+  // The imperial north: Rabat and Volubilis. The gallery was entirely southern
+  // -- Atlas, Sahara, Atlantic -- while the catalogue now sells a five-day tour
+  // that opens with these two sites. Photographs are our own, taken on the
+  // route we actually drive.
+  { src: "/gallery/rabat-mausoleum-mohammed-v-columns.jpg", alt: "The Mausoleum of Mohammed V seen across the field of broken columns on the Hassan esplanade, Rabat Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/rabat-hassan-tower-columns.jpg", alt: "The unfinished Hassan Tower minaret rising above the ranks of stone column stumps left by the abandoned mosque, Rabat Morocco" },
+  { src: "/gallery/volubilis-basilica-arches.jpg", alt: "The arched basilica of the Roman city of Volubilis with fallen Corinthian capitals in the foreground, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/volubilis-arch-of-caracalla-inscription.jpg", alt: "The Latin dedication inscription along the attic of the Arch of Caracalla at Volubilis, Morocco" },
+  { src: "/gallery/rabat-mausoleum-carved-portal.jpg", alt: "Carved stucco portal and bronze door of the Mausoleum of Mohammed V beneath its green tiled roofline, Rabat Morocco" },
+  { src: "/gallery/rabat-mausoleum-marble-arcade.jpg", alt: "Detail of the carved white marble arcade and interlaced arches at the Mausoleum of Mohammed V, Rabat Morocco" },
+  { src: "/gallery/rabat-zellij-tile-fountain.jpg", alt: "A zellij mosaic tile fountain set into a carved stone wall on the Hassan esplanade, Rabat Morocco" },
 ];
 
 interface Props {

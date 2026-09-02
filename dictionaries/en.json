@@ -23,6 +23,7 @@
     "allTours": "All Tours",
     "fromMarrakech": "From Marrakech",
     "fromAgadir": "From Agadir",
+    "fromCasablanca": "From Casablanca",
     "searchBtn": "Search",
     "browseAll": "Browse Adventures",
     "planCustom": "Plan Custom Trip"
@@ -230,7 +231,10 @@
       "familyTitle": "Led by the family who grew up here",
       "familyBody": "Whoever guides you is a licensed Berber guide from the family team — not a freelancer an agency assigns the week you arrive. Every guide is trained on a route before they lead it, and each one is licensed by Morocco's National Office for Tourism. {years}+ years of guiding heritage in the High Atlas.",
       "familyLink": "Meet the guides"
-    }
+    },
+    "mapKeyTour": "Your tour",
+    "mapKeyTransfer": "Transfer by road",
+    "mapKeyOffRoad": "Off-road by 4x4 or camel"
   },
   "booking": {
     "pricePerPerson": "Price per person",

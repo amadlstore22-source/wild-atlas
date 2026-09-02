@@ -6470,4 +6470,494 @@ porque la diferencia está en la línea y no en la logística. Tómala si tienes
 quieres la soledad; toma el valle si es tu primera cumbre del Atlas.
 `,
   },
+  {
+    slug: "morocco-desert-camp-what-its-really-like",
+    localizedSlug: "campamento-desierto-marruecos-realidad",
+    author: MET_TEAM,
+    title: "Cómo es realmente un campamento en el Sáhara",
+    excerpt:
+      "Todos los operadores anuncian un «campamento bereber tradicional». Eso no dice nada. Así son de verdad las jaimas, si el baño es privado, qué se come y el frío que hace por la noche.",
+    heroImage: "/gallery/blog-hero-desert-camp-night.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["campamento desierto", "campamento Sáhara", "campamento Merzouga", "Erg Chebbi", "jaima privada", "alojamiento desierto"],
+    seoTitle: "Cómo es un campamento en el Sáhara — Marruecos 2026",
+    seoDescription:
+      "Jaimas privadas, baños compartidos, comida y frío nocturno: una mirada honesta a los campamentos del desierto marroquí, desde el operador que los gestiona.",
+    relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech"],
+    faq: [
+      {
+        q: "¿Los campamentos del desierto tienen baño privado?",
+        a: "Algunos sí y otros no, y esa es la mayor diferencia entre campamentos de distinta gama. En Sahara Garden, en Erg Chebbi, que usamos en nuestros circuitos privados, cada jaima es privada y tiene su propio baño con ducha e inodoro. Los campamentos estándar de las salidas compartidas suelen ofrecer jaima privada para dormir pero baños comunes en un bloque aparte. Pida siempre al operador que le confirme por escrito cuál de los dos le corresponde, antes de pagar.",
+      },
+      {
+        q: "¿Qué frío hace por la noche en el Sáhara?",
+        a: "Más del que casi nadie espera. La arena no retiene el calor, así que la temperatura cae en cuanto se pone el sol. En verano, un día de 40 °C puede bajar a 20 °C hacia medianoche. En diciembre, enero y febrero, una agradable tarde de 20 °C puede acercarse a cero al amanecer. Los campamentos dan mantas gruesas y las jaimas aíslan bien, pero lleve una capa de abrigo, y gorro en invierno, diga lo que diga la previsión.",
+      },
+      {
+        q: "¿Hay electricidad y wifi en un campamento del desierto?",
+        a: "La mayoría funciona con energía solar y un generador de apoyo, lo que significa luz en las jaimas y normalmente uno o dos enchufes en la zona común para cargar el móvil. No cuente con cargar varios dispositivos a la vez. La cobertura móvil en Erg Chebbi suele bastar para mensajes; el wifi es raro y lento donde existe. Tome una noche sin conexión como parte de la experiencia.",
+      },
+      {
+        q: "¿Qué se come en un campamento del desierto?",
+        a: "La cena suele ser un tajín, cocinado allí mismo, con pan y ensalada, seguido de fruta fresca y té con menta. El desayuno es pan, mermelada, aceite de oliva, huevos y café o té. Lo vegetariano es sencillo y habitual; vegano, sin gluten y alergias son viables pero deben indicarse al reservar, no el mismo día, porque todo hay que llevarlo al campamento con antelación.",
+      },
+    ],
+    content: `
+Todos los anuncios de circuitos por el desierto marroquí dicen lo mismo: una noche en un campamento bereber tradicional bajo las estrellas. Es técnicamente cierto de una jaima con un colchón de espuma y una letrina común, e igual de cierto de una jaima con baño privado y una cama de verdad. La frase no las distingue, y el precio a menudo tampoco.
+
+Esto es lo que varía de verdad, y lo que hay que preguntar antes de reservar.
+
+## La jaima
+
+La palabra «jaima» abarca mucho. Conviene establecer dos cosas distintas, porque los operadores a veces las mezclan.
+
+**¿Es la jaima privada para su grupo?** En la mayoría de campamentos, sí. Tiene su propia jaima y no la comparte con desconocidos. Es lo normal y debe esperarlo.
+
+**¿Tiene la jaima su propio baño?** Aquí está la variable real. En los campamentos que usamos para nuestros circuitos privados —Sahara Garden, en las dunas de Erg Chebbi— cada jaima tiene baño privado con ducha e inodoro, dentro de la propia jaima. En los campamentos estándar de las salidas compartidas, normalmente hay jaima privada para dormir y un bloque de baños común a pocos pasos.
+
+Ninguna de las dos opciones está mal. Un bloque común es perfectamente civilizado y es parte de por qué una salida compartida cuesta un tercio de un circuito privado. Pero son productos distintos y usted debe saber cuál compra.
+
+**Haga la pregunta directamente y pida la respuesta por escrito.** Un operador que no quiere nombrar el campamento ni precisar los baños le está diciendo algo.
+
+## La cama
+
+En los mejores campamentos son camas de verdad: somier, colchón, sábanas y una pila de mantas gruesas de lana. En los más sencillos tendrá un colchón grueso de espuma sobre una alfombra. En ambos se duerme bien tras un día de carretera; la diferencia se nota más al sentarse que al dormirse.
+
+Las mantas siempre se proporcionan, y siempre más de las que cree necesitar. Cójalas.
+
+## Cómo se llega
+
+En Erg Chebbi se llega al campamento en camello, saliendo a última hora de la tarde para llegar al ponerse el sol. El paseo dura entre 45 minutos y una hora según dónde esté el campamento en las dunas.
+
+Si alguien de su grupo no puede o prefiere no montar —dolor de espalda, un niño nervioso, un viajero mayor, o simplemente ningunas ganas— dígalo al reservar. Un 4x4 puede llevarle en su lugar, y el resto del grupo puede montar igualmente. Es una petición normal y ningún campamento con el que trabajamos la encuentra rara. Se organiza mucho mejor con antelación que en el punto de salida.
+
+## La noche
+
+La cena es un tajín, cocinado en el campamento. Pan, ensalada, fruta, té con menta. Es comida sencilla bien hecha, y después de un día de carretera sienta muy bien.
+
+Después suele haber tambores alrededor del fuego. Lo que dure depende del grupo. Nadie está obligado a participar y a nadie le importa si se escapa a mirar el cielo, que es la verdadera razón de estar allí: Erg Chebbi está a cientos de kilómetros de cualquier fuente de luz importante, y en una noche sin luna la Vía Láctea es genuinamente asombrosa.
+
+## El frío
+
+Esto es lo que la gente calcula mal más a menudo.
+
+La arena no retiene el calor. Cuando se pone el sol, la temperatura cae rápido, y sigue cayendo hasta el amanecer. Un día de verano de 40 °C se convierte en una noche de 20 °C. Una tarde de febrero de 22 °C puede rondar el cero cuando se levante para el amanecer.
+
+Los campamentos dan mantas gruesas y las jaimas conservan bien el calor. Pero entre la cena y la cama estará fuera, y a las 5:30 subirá una duna a oscuras. **Lleve una capa de abrigo en cualquier estación, y en invierno gorro y algo para las manos.** Nadie ha lamentado nunca el jersey de más.
+
+## Electricidad, cobertura, agua
+
+Solar con generador de apoyo es la norma. Espere luz en la jaima y uno o dos enchufes en la zona común. No planee cargar cuatro aparatos.
+
+La cobertura móvil en Erg Chebbi suele bastar para mensajes. El wifi es raro y donde lo hay va lento. Una noche sin él no es un sufrimiento.
+
+Se proporciona agua embotellada. Las duchas, donde las hay, funcionan con depósito: que sea corta, por la razón evidente.
+
+## Qué llevar
+
+- Una capa de abrigo, y en invierno gorro y guantes
+- Un frontal o el móvil para encontrar el baño de noche
+- Sandalias o algo fácil de poner y quitar
+- Su medicación, en la mochila de mano y no en la maleta
+- Un pañuelo, realmente útil contra la arena en suspensión
+
+No necesita saco de dormir. No necesita llevar agua. No necesita botas de montaña para el campamento en sí.
+
+## Los campamentos de lujo, y si compensan
+
+Casi todos los operadores, nosotros incluidos, ofrecen mejora a campamento «de lujo». Lo que compra realmente: una jaima más grande, un baño privado en condiciones, mejor mobiliario y normalmente una posición más tranquila entre las dunas.
+
+Si compensa el suplemento depende enteramente de usted. Si duerme mal en sitios desconocidos, si viaja con alguien a quien un baño compartido le resultaría difícil de verdad, o si esta es la gran noche del viaje, es dinero bien gastado. Si es joven, adaptable y va por las dunas más que por la ropa de cama, el campamento estándar hace el mismo trabajo.
+
+Lo detallamos en nuestra [guía de campamento de lujo o estándar](/es/blog/campamento-desierto-lujo-o-estandar).
+
+## En resumen
+
+Un campamento del desierto no es un hotel ni pretende serlo. Es una buena cama, una buena cena y un cielo extraordinario, en un lugar al que cuesta llegar de verdad.
+
+Lo que sale mal casi siempre es una expectativa fallida más que un fallo del campamento: alguien que daba por hecho un baño privado y encontró uno común, o que hizo la maleta para 40 °C y pasó frío a las 3 de la madrugada. Ambas cosas se evitan preguntando dos cosas antes de reservar.
+
+**[Circuito privado 3 días](/es/tours/sahara-3day-marrakech)** · **[Salida compartida 3 días](/es/tours/shared-merzouga-3day-marrakech)** · **[Circuito 4 días](/es/tours/desert-4day-marrakech)**
+`,
+  },
+  {
+    slug: "how-booking-a-morocco-tour-works",
+    localizedSlug: "como-funciona-la-reserva-marruecos",
+    author: MET_TEAM,
+    title: "Cómo funciona la reserva: depósito, saldo y contrato antes de pagar",
+    excerpt:
+      "Está a punto de enviar dinero a una empresa que encontró en internet, en un país que no conoce. Así funciona exactamente nuestro proceso de reserva, qué paga y cuándo, y qué recibe por escrito antes de que se mueva un euro.",
+    heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 8,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["reservar circuito Marruecos", "depósito circuito", "pago viaje Marruecos", "contrato circuito", "proceso de reserva"],
+    seoTitle: "Reservar un circuito en Marruecos con seguridad — depósitos y contratos",
+    seoDescription:
+      "Qué paga, cuándo lo paga y qué recibe por escrito antes. Guía honesta para reservar un circuito en Marruecos en directo, de un operador autorizado de Marrakech.",
+    relatedTours: ["sahara-3day-marrakech", "toubkal-summit-trek-4day", "desert-4day-marrakech"],
+    faq: [
+      {
+        q: "¿Cuánto depósito hay que pagar para reservar un circuito en Marruecos?",
+        a: "El nuestro es el 22 % del total, en todos los circuitos que vendemos: una excursión de un día, un circuito de tres días por el desierto o un trekking de seis. Es una proporción fija y no una cifra que decidamos en cada reserva, así que puede comprobarlo usted mismo sobre cualquier precio de la web. El 78 % restante se paga al llegar a Marrakech, antes de empezar.",
+      },
+      {
+        q: "¿Debo exigir un contrato antes de pagar el depósito?",
+        a: "Sí, y cualquier operador legítimo se lo enviará sin que haya que pedirlo dos veces. Debe indicar el circuito y las fechas exactas, el número de viajeros, el precio total y el depósito, el alojamiento con el nombre de cada establecimiento, qué está incluido y excluido, y las condiciones de cancelación. Si un operador se resiste a poner eso por escrito, ahí es donde hay que parar.",
+      },
+      {
+        q: "¿Cuál es su política de cancelación?",
+        a: "Cancelación gratuita hasta 14 días antes de la salida, con devolución íntegra del depósito. Las cancelaciones dentro de los 14 días tienen un cargo del 50 %, y las ausencias se cobran completas. Si cancelamos nosotros por meteorología o seguridad, recibe la devolución íntegra o un cambio de fecha, a su elección.",
+      },
+      {
+        q: "¿Es seguro pagar directamente a un operador marroquí?",
+        a: "Lo es, siempre que compruebe lo mismo que comprobaría en cualquier sitio: que el operador esté autorizado, que ponga la reserva por escrito antes de pagar, que el depósito sea una proporción razonable y no el total, y que el saldo se pague a la llegada y no por adelantado. Un operador que pide el 100 % por adelantado por transferencia, sin confirmación escrita, es el patrón del que hay que alejarse.",
+      },
+    ],
+    content: `
+Reservar un circuito en Marruecos significa enviar dinero a una empresa que encontró en internet, en un país en el que probablemente no ha estado nunca, a menudo meses antes de viajar. Ser cauto con eso no es paranoia. Es sentido común.
+
+Así que esto es exactamente cómo funciona con nosotros, en el orden en que ocurre.
+
+## 1. Usted pregunta, nosotros presupuestamos
+
+Envía una consulta. Respondemos con un precio, un itinerario, qué incluye y qué no.
+
+El precio que enviamos es el precio. No inflamos para que nos regateen a la baja, ni ofrecemos barato para añadir extras obligatorios después. Si no podemos hacer algo al precio que tiene en mente, lo decimos y explicamos qué habría que recortar; y normalmente son justo las cosas que usted dijo que le importaban.
+
+## 2. Usted pregunta más
+
+Casi todo el mundo lo hace, y casi siempre son las mismas tres: qué hotel, si la jaima es privada, y cuánta carretera hay el último día.
+
+Respondemos a las tres con concreción. El hotel por su nombre. La jaima, baño incluido. Las horas de carretera por día, incluidas las que son realmente largas.
+
+Si un operador no quiere nombrar el alojamiento, merece la pena fijarse. Solo hay dos razones: o no lo sabe todavía porque lo reserva después de que usted pague, o lo sabe y prefiere que usted no.
+
+## 3. Enviamos confirmación escrita antes de que pague nada
+
+Esta es la parte que más importa, y la que sorprende que hagamos sin que haya que pedirla dos veces.
+
+Antes de que se mueva un euro, recibe un documento que indica:
+
+- El circuito exacto, las fechas exactas, el número de viajeros
+- El precio total, el depósito y el saldo
+- El alojamiento de cada noche, **con nombre**
+- Todo lo incluido y todo lo excluido
+- Las condiciones de cancelación
+- Nuestros datos de licencia
+
+Usted lo lee. Si algo está mal o falta, nos lo dice y lo corregimos. Solo entonces paga alguien.
+
+No es una cortesía. Es lo que le permite comprobar que el viaje que tiene en la cabeza y el que tenemos en el sistema son el mismo viaje.
+
+## 4. El depósito: 22 %
+
+Nuestro depósito es el **22 % del total**, y es el 22 % en todo lo que vendemos: media jornada en la medina, tres días por el desierto, seis días de trekking al Toubkal.
+
+Es una proporción fija y no una cifra que inventamos en cada reserva, lo que significa que puede comprobarlo. Tome cualquier precio de esta web, calcule el 22 %, y ese es el depósito.
+
+Lo que hace el depósito es real: reserva el vehículo y el conductor-guía para sus fechas, y reserva y paga sus habitaciones en el campamento y el hotel. Son compromisos que adquirimos con otras personas sobre esa base.
+
+**El 78 % restante se paga al llegar a Marrakech**, antes de empezar, en efectivo o por transferencia, como prefiera.
+
+No pedimos el importe completo por adelantado. Un operador que lo hace le está pidiendo que cargue usted con todo el riesgo de la operación, lo cual está del revés.
+
+## 5. Cancelación gratuita hasta 14 días
+
+Cancele con más de 14 días de antelación y su depósito se devuelve íntegro.
+
+Dentro de los 14 días hay un cargo del 50 %, porque a esas alturas hemos pagado habitaciones que ya no se pueden revender. Las ausencias se cobran completas.
+
+Si cancelamos **nosotros** —un puerto de montaña cerrado, una situación meteorológica que hace insegura una ruta— recibe la devolución íntegra o un cambio de fecha, a su elección. Las decisiones de seguridad son del guía y son definitivas. Preferimos perder una reserva a llevar a un grupo donde no debería estar.
+
+## 6. El día de la salida
+
+Su conductor-guía le recoge en el riad u hotel. Paga el saldo. Salen.
+
+## Por qué reservar en directo y no por una plataforma
+
+Las plataformas añaden entre un 20 y un 30 % al precio, y ese dinero no mejora su viaje. Va a la plataforma.
+
+Hay un segundo coste, menos obvio. Cuando reserva por un intermediario, sus preguntas pasan también por él, y las respuestas se vuelven más lentas y más vagas. Quien sabe si la jaima de Sahara Garden tiene baño propio es quien la reserva, y en una plataforma esa persona está a tres correos de usted.
+
+Lo desarrollamos en [reservar en directo o por plataforma](/es/blog/reservar-circuito-marruecos-directo-o-plataforma).
+
+## Qué comprobar en cualquier operador, nosotros incluidos
+
+Reserve con quien reserve, pida esto:
+
+1. **Un número de licencia.** Los operadores marroquíes están autorizados. Pídalo.
+2. **El alojamiento con nombre.** No «un hotel estándar». El nombre.
+3. **Confirmación escrita antes de pagar.** Itinerario, inclusiones, exclusiones, precio, condiciones.
+4. **Un depósito, no el total.** El 20-30 % es normal. El 100 % por adelantado no.
+5. **Una respuesta real sobre las horas de carretera.** Algunos días en Marruecos son largos. Un operador que dice que todos los días son cómodos no ha hecho la ruta.
+
+Si un operador cumple los cinco, casi con certeza está usted bien. Si se resiste en alguno, siga buscando.
+
+**[Ver nuestros circuitos](/es/tours)** · **[Consúltenos](/es/contact)**
+`,
+  },
+  {
+    slug: "morocco-desert-in-winter-guide",
+    localizedSlug: "desierto-marruecos-en-invierno",
+    author: MET_TEAM,
+    title: "El Sáhara en invierno: diciembre, enero y febrero",
+    excerpt:
+      "El invierno es una de las mejores épocas para ver el desierto marroquí, y casi nadie le cuenta el frío que hace de noche. Temperaturas, qué llevar, nieve en los puertos del Atlas y por qué la luz es mejor.",
+    heroImage: "/gallery/coastal-desert-camp-dusk-tents.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 9,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["Marruecos en invierno", "Sáhara en invierno", "desierto en diciembre", "Marruecos en enero", "Marruecos en febrero", "circuito desierto invierno"],
+    seoTitle: "El Sáhara marroquí en invierno — guía de diciembre a febrero 2026",
+    seoDescription:
+      "El invierno da la mejor luz y menos gente en el Sáhara marroquí, y las noches más frías. Temperaturas reales, qué llevar y cierres de puertos del Atlas.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech"],
+    weatherRegion: "Sahara",
+    faq: [
+      {
+        q: "¿Qué frío hace de noche en el Sáhara en invierno?",
+        a: "En Erg Chebbi, en diciembre y enero, las mínimas nocturnas están normalmente entre 3 y 8 °C y pueden rozar el cero en una noche despejada y sin viento. Las máximas diurnas del mismo periodo suelen ser unos agradables 18 a 22 °C. Ese salto de unos quince grados entre la tarde y el amanecer es lo que más subestiman los visitantes de invierno.",
+      },
+      {
+        q: "¿Merece la pena visitar el desierto marroquí en invierno?",
+        a: "Sí, por varias razones. Las temperaturas de día son cómodas para caminar en vez de castigadoras, la luz se mantiene baja y dorada mucho más tiempo cada día, el aire es más limpio y las estrellas se ven mejor, y tanto los campamentos como las dunas están mucho más tranquilos que en primavera u otoño. A cambio: noches realmente frías y una pequeña probabilidad de retraso por nieve al cruzar el Alto Atlas.",
+      },
+      {
+        q: "¿Puede cerrarse el puerto de Tizi n'Tichka en invierno?",
+        a: "Ocasionalmente, sí. El puerto llega a 2.260 m y puede cerrarse unas horas tras una nevada fuerte mientras se despeja, sobre todo en enero y febrero. Vigilamos la previsión, avisamos con antelación si parece probable, y desviamos por Taroudant o ajustamos el horario en lugar de esperar en una cola. Es una molestia, no el fin del viaje, y es poco frecuente.",
+      },
+      {
+        q: "¿Qué hay que llevar al desierto marroquí en invierno?",
+        a: "Capas, dando por hecho que las llevará todas a las 6 de la mañana y solo una a las 2 de la tarde. Una capa intermedia de abrigo o polar, una capa exterior cortavientos, gorro, guantes y calcetines gruesos para el campamento. Después el equipo habitual del desierto: gafas de sol, protector solar, un pañuelo contra la arena y calzado cómodo. Los campamentos dan mantas gruesas, así que no hace falta saco de dormir.",
+      },
+    ],
+    content: `
+Casi todo el mundo reserva el desierto marroquí para primavera u otoño, con la teoría razonable de que un desierto en verano es insoportable y un desierto en invierno es una solución de compromiso.
+
+La mitad es cierta. El verano en Erg Chebbi es realmente brutal. Pero el invierno no es un compromiso: para muchos viajeros es la mejor época del año para estar allí, siempre que sepa lo que hacen las noches.
+
+[[WEATHER]]
+
+## Los números
+
+En Erg Chebbi, aproximadamente:
+
+| | Máxima de día | Mínima de noche |
+|---|---|---|
+| Diciembre | 18-21 °C | 3-7 °C |
+| Enero | 17-20 °C | 2-6 °C |
+| Febrero | 20-23 °C | 4-8 °C |
+
+Esas máximas son el argumento. Subir una duna a 20 °C es un placer. Subir la misma duna en julio a 43 °C es una prueba que se soporta por las vistas de arriba.
+
+Las mínimas son la advertencia. Una noche despejada y sin viento de enero en el desierto puede llegar a cero. No es un problema —los campamentos llevan mantas gruesas y las jaimas conservan el calor— pero sí lo es si hizo la maleta pensando en la tarde.
+
+## Por qué la luz es mejor
+
+El sol de invierno va bajo. Eso significa que la hora dorada dura bastante más, las dunas conservan sombra y textura durante mucha más parte del día, y la luz vertical y dura del mediodía que aplana todo en las fotos de verano sencillamente no ocurre.
+
+Si lleva cámara, esta es la temporada.
+
+El aire también es más seco y limpio, lo que da el mejor cielo nocturno. Erg Chebbi está a cientos de kilómetros de cualquier contaminación lumínica reseñable, y en una noche de invierno sin luna la Vía Láctea brilla lo bastante como para proyectar la más leve de las sombras.
+
+## Por qué hay menos gente
+
+El invierno es temporada baja salvo en Navidad y Año Nuevo. Menos 4x4 en la carretera del desierto, menos grupos en los miradores, menos jaimas en el campamento.
+
+Las gargantas en particular —Todra y Dades— quedan transformadas. En abril, Todra puede parecer un aparcamiento con un cañón al lado. En enero se oye.
+
+## Los puertos del Atlas
+
+Este es el único riesgo invernal real, y conviene entenderlo más que temerlo.
+
+Todas las rutas al desierto desde Marrakech cruzan el Alto Atlas por el **Tizi n'Tichka**, a 2.260 m. Tras una nevada fuerte, el puerto puede cerrarse unas horas mientras trabajan las quitanieves, sobre todo en enero y febrero.
+
+En la práctica:
+
+- Es poco frecuente, no rutinario
+- Vigilamos la previsión los días previos a su salida
+- Si parece probable, avisamos con antelación y no la misma mañana
+- Podemos desviar o mover el horario
+
+La carretera se ha mejorado mucho en los últimos años y se despeja más rápido que antes. Tómelo como un pequeño riesgo de planificación, no como razón para evitar la temporada.
+
+Si su viaje incluye también la montaña, nuestra [guía del Toubkal en invierno](/es/blog/toubkal-in-winter-what-to-expect) cubre la parte de altitud.
+
+## Qué llevar
+
+La regla son las capas, porque llevará puesto de verdad todo lo que trajo a las 6 de la mañana y una sola capa fina a las 2 de la tarde.
+
+**Para el frío:**
+- Una capa intermedia de abrigo: polar o plumas ligero
+- Una capa exterior cortavientos
+- Gorro. La mayor parte del calor se pierde por la cabeza, y el amanecer en una duna es ventoso
+- Guantes, o como mínimo bolsillos a los que comprometerse
+- Calcetines gruesos específicamente para la noche en el campamento
+
+**Para el desierto en general:**
+- Gafas de sol. El sol de invierno va bajo y entra directo a los ojos
+- Protector solar. Sigue siendo el Sáhara
+- Un pañuelo, contra la arena y para el abrigo
+- Calzado cerrado cómodo para andar, sandalias para el campamento
+
+**No necesita:** saco de dormir, material de montaña técnico, ni nada para la lluvia. La lluvia invernal en el presáhara es rara y breve.
+
+## El Ramadán
+
+Compruebe las fechas. El Ramadán se adelanta unos once días cada año, lo que a finales de la década lo sitúa al final del invierno y principios de primavera.
+
+Viajar en Ramadán es perfectamente viable y puede ser una época fascinante, pero cambia el ritmo del día: horarios de restaurantes, el pulso de la tarde, el ambiente después de la puesta de sol. Lo tratamos en [visitar Marruecos durante el Ramadán](/es/blog/visiting-morocco-during-ramadan).
+
+## Navidad y Año Nuevo
+
+La excepción a la tranquilidad invernal. Las dos últimas semanas de diciembre son de mucho movimiento, los campamentos se llenan con mucha antelación y los precios se tensan.
+
+Si quiere el desierto lo más vacío posible, venga a mediados de enero. Si quiere estar en un sitio extraordinario en Nochevieja, resérvelo en septiembre.
+
+## A quién le va bien el invierno
+
+**Bien para:** fotógrafos, quien lleve mal el calor, viajeros que quieren las dunas sin la multitud, y quien combine el desierto con las ciudades imperiales, también agradables en invierno.
+
+**Menos bien para:** quien pase mucho frío y no se equipe para ello, o un viaje tan ajustado que unas horas de retraso en un puerto nevado lo estropeen.
+
+Para la mayoría, el invierno en el Sáhara marroquí es la versión que merece la pena: lo bastante templado para disfrutarlo, lo bastante frío para recordarlo, y lo bastante tranquilo para oírlo.
+
+**[Circuito privado 3 días](/es/tours/sahara-3day-marrakech)** · **[Circuito 4 días](/es/tours/desert-4day-marrakech)** · **[Salida compartida](/es/tours/shared-merzouga-3day-marrakech)**
+`,
+  },
+  {
+    slug: "morocco-desert-tour-older-travellers",
+    localizedSlug: "circuito-desierto-marruecos-mayores",
+    author: MET_TEAM,
+    title: "Llevar a tus padres al Sáhara: un circuito por el desierto después de los 60",
+    excerpt:
+      "El camello es opcional, los días de carretera son la verdadera cuestión, y un circuito compartido no es automáticamente la opción equivocada. Lo que importa de verdad al reservar un viaje al desierto marroquí con viajeros mayores.",
+    heroImage: "/gallery/camels-couched-camp-dawn.jpg",
+    category: "tips",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    tags: ["Marruecos para mayores", "viajeros senior Marruecos", "accesibilidad circuito desierto", "Marruecos con los padres", "alternativa al camello"],
+    seoTitle: "Circuitos por el desierto de Marruecos para mayores — guía honesta",
+    seoDescription:
+      "¿Es adecuado un circuito por el Sáhara después de los 60? Alternativas al camello, distancias reales, privado o compartido, y qué preguntar antes de reservar.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech"],
+    faq: [
+      {
+        q: "¿Hay que montar en camello en un circuito por el desierto de Marruecos?",
+        a: "No. El paseo en camello es la forma habitual de llegar al campamento, pero un 4x4 puede llevarle en su lugar, y el resto de su grupo puede montar si quiere. Dígalo al reservar y no el mismo día, para que el vehículo esté previsto. Ningún campamento con el que trabajamos considera rara esta petición.",
+      },
+      {
+        q: "¿Es adecuado un circuito por el Sáhara para alguien de sesenta o setenta años?",
+        a: "Para la mayoría de personas con salud razonable, sí. Las exigencias físicas son modestas: subir y bajar de un vehículo, algo de caminata por terreno irregular en las gargantas y las kasbahs, y un paseo corto sobre arena en el campamento. La dificultad real no es la forma física sino la duración de los días de carretera, y eso se resuelve eligiendo el itinerario adecuado.",
+      },
+      {
+        q: "¿Cuántas horas de carretera hay en un circuito por el desierto de Marruecos?",
+        a: "En la ruta clásica de 3 días de Marrakech a Merzouga, el primer día son unas siete horas, el segundo unas cinco y el tercero unas nueve: el regreso cubre toda la distancia de una vez. La versión de 4 días reparte ese regreso en dos jornadas con noche en Ouarzazate, lo que cambia sustancialmente cómo se siente el viaje.",
+      },
+      {
+        q: "¿Deberían los viajeros mayores elegir circuito privado o compartido?",
+        a: "Depende de qué busquen. Un circuito privado permite parar cuando se quiera, hacer descansos y marcar el ritmo, lo que importa en los días largos de carretera. Una salida compartida le pone con otros viajeros, algo que algunos visitantes mayores buscan precisamente por la compañía. Ninguno es automáticamente el correcto, pero si hay dudas de movilidad o resistencia, el privado compra una flexibilidad que un horario fijo no puede dar.",
+      },
+    ],
+    content: `
+Recibimos esta consulta con frecuencia, normalmente de alguien que reserva para sus padres y normalmente formulada como una preocupación: ¿es demasiado para ellos?
+
+Casi siempre la respuesta es no, pero no por la razón que se espera, y lo que de verdad importa no es lo que nos preguntan.
+
+## El camello no es el problema
+
+Es la pregunta con la que todo el mundo empieza, y la más fácil de resolver.
+
+El paseo en camello es como se llega normalmente al campamento en Erg Chebbi. Dura entre 45 minutos y una hora. Los camellos se arrodillan para que uno monte y se levantan en dos movimientos bruscos —patas delanteras y luego traseras, o al revés— y ese movimiento es lo que da problemas, más que el paseo en sí.
+
+**Si alguien prefiere no hacerlo, un 4x4 le lleva al campamento.** El resto del grupo puede montar igualmente. Ambos llegan al mismo sitio a la misma hora.
+
+Dígalo al reservar, no en el punto de salida. Es una petición completamente rutinaria, pero el vehículo tiene que estar allí.
+
+## La carretera es la cuestión real
+
+Esto es lo que no se cuenta con la claridad suficiente.
+
+El desierto de Marruecos está lejos de Marrakech. En la ruta clásica de 3 días:
+
+- **Día 1:** unas 7 horas de carretera, unos 420 km
+- **Día 2:** unas 5 horas, unos 300 km
+- **Día 3:** unas 9 horas, unos 560 km
+
+Ese tercer día es todo el regreso de una vez, y es lo que cansa a la gente: no las dunas, no el camello, no el campamento. Nueve horas en un vehículo es un día largo a cualquier edad.
+
+**La solución es el itinerario de 4 días.** Cubre el mismo terreno pero reparte el regreso en dos jornadas con noche en Ouarzazate, de modo que ningún día pasa mucho de cinco horas. Para viajeros mayores suele ser el cambio más valioso que puede hacer, y cuesta menos de lo que casi todos suponen.
+
+Si el desierto no es el punto fijo, [Zagora](/es/tours/zagora-2day-marrakech) es una bajada más corta hacia el sur: un día de carretera en vez de dos. Las dunas son más bajas y menos espectaculares que Erg Chebbi, lo que es un compromiso real, pero es un viaje genuinamente más fácil.
+
+## Privado o compartido
+
+El instinto dice que los viajeros mayores necesitan circuito privado. A veces acierta, y a veces se pierde el punto por completo.
+
+**El privado da control.** Parar cuando se quiera, alargar el descanso en la garganta, salir más tarde, pedirle al conductor que se detenga para una foto. En un día largo de carretera esa flexibilidad vale mucho.
+
+**El compartido da compañía.** Hemos tenido consultas en las que la razón entera para elegir salida compartida era que una viajera quería que sus padres conocieran a otras personas en lugar de pasar tres días solo en familia. Es una razón completamente válida, y no es un compromiso: es el producto que querían.
+
+La respuesta honesta: si hay movilidad, resistencia o una cuestión médica en juego, reserve privado. Si es puramente sociabilidad, el compartido está bien y el grupo suele mezclar edades y nacionalidades.
+
+## Qué exigen realmente los días
+
+Físicamente, un circuito por el desierto es poco exigente:
+
+- Subir y bajar de un 4x4 o minibús, varias veces al día
+- Andar por terreno irregular en Aït Ben Haddou, una kasbah en ladera con escalones y sin barandilla
+- Un paseo corto y suave en la garganta del Todra, en llano
+- Andar sobre arena en el campamento: terreno blando, pero distancias cortas
+- Opcionalmente subir una duna al amanecer, que cansa de verdad y es totalmente opcional
+
+Nada está cronometrado. Nada exige más forma física que caminar cómodamente veinte minutos.
+
+**Aït Ben Haddou es el punto a considerar.** El viejo ksar está construido en ladera, las superficies son de tierra y piedra irregulares, y la subida a lo alto es empinada. Mucha gente lo admira desde abajo, lo fotografía desde el puente y se salta la subida: la vista de abajo es de todos modos la famosa.
+
+## El alojamiento
+
+Pida concreción, como en cualquier sitio.
+
+Para viajeros mayores las preguntas útiles son: ¿tiene la habitación baño privado?, ¿hay ducha en vez de bañera?, ¿cuántas escaleras?, y —en el campamento— ¿está el baño dentro de la jaima o en un bloque común a cierta distancia?
+
+En Sahara Garden, el campamento que usamos en Erg Chebbi, las jaimas son privadas con su propio baño y ducha. En los campamentos estándar de las salidas compartidas, la jaima de dormir es privada y los baños comunes. Ninguno es peor; son distintos, y a los 70 la diferencia importa más que a los 25.
+
+Levantarse a las 3 de la madrugada y cruzar cien metros de arena hasta un bloque común es una consideración real. Merece la pena pagar por evitarlo si le afecta.
+
+## Calor, frío y temporada
+
+El verano es lo que hay que evitar. Julio y agosto en Erg Chebbi pasan habitualmente de 43 °C, y eso es duro para cualquiera.
+
+**Primavera y otoño son la respuesta fácil:** de marzo a mayo, de septiembre a noviembre, cómodo de día y templado de noche.
+
+**El invierno es realmente bueno** si se equipa: tardes agradables de 18-22 °C y noches que pueden rondar el cero. Los campamentos dan mantas gruesas, pero lleve una capa de abrigo, gorro y calcetines gruesos. Nuestra [guía del desierto en invierno](/es/blog/desierto-marruecos-en-invierno) lo trata en detalle.
+
+## Lo médico, en la práctica
+
+- Lleve la medicación en la mochila de mano, no en la maleta, y más de la que necesita el viaje
+- Comunique al reservar cualquier cosa relevante: movilidad, cardiopatías, diabetes. No para que le rechacen, sino para que el guía lo sepa
+- Merzouga tiene una pequeña clínica. Los casos serios van a Errachidia, a unas dos horas
+- El seguro de viaje con cobertura médica no lo exigimos nosotros, pero se recomienda encarecidamente
+- Lleve copias de las recetas si toma algo poco común
+
+## En corto
+
+El desierto es mucho más accesible para viajeros mayores de lo que casi todos suponen. El camello es opcional, la caminata es modesta y los campamentos son más cómodos de lo que la palabra «campamento» sugiere.
+
+Lo que de verdad determina si el viaje es un placer o una prueba de resistencia es la duración de los días de carretera, y eso se decide al reservar, antes de salir de casa.
+
+**[Circuito 4 días](/es/tours/desert-4day-marrakech)** — el que solemos recomendar · **[3 días privado](/es/tours/sahara-3day-marrakech)** · **[2 días a Zagora](/es/tours/zagora-2day-marrakech)**
+`,
+  },
 ];

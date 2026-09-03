@@ -1,6 +1,8 @@
 # Indexing state
 
-**As of 2026-09-03: all 1,146 site URLs have been submitted.** Four guides
+**As of 2026-09-03: all 1,146 site URLs have been submitted**, and 18 of them
+were re-sent the same day as a deliberate recrawl (see the `-Force` row in the
+ledger) after a factual fix landed in FAQPage structured data. Four guides
 supporting the Casablanca route — Volubilis, Meknes and Moulay Idriss, the
 route cost breakdown and the open-jaw airports guide — shipped in six locales
 and went out as `docs/batch-2026-09-03.txt`: **24 submitted, 0 failed**.
@@ -132,3 +134,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-28 | `batch-2026-08-28-posts.txt` | 24 | Four new posts x six locales. Both index-batch.ps1 guards ran: nothing-outstanding check passed, and all 24 verified serving 200 before sending. |
 | 2026-09-02 | `batch-2026-09-02.txt` | 72 | Casablanca 5-day tour (6 locales), four desert guides (24), the 8-day departures event page (6), and **36 "cost" blog pages that had been live for weeks and were never submitted** — found by the diff, not by memory. All 72 verified serving 200. 72 submitted, 0 failed. |
 | 2026-09-03 | `batch-2026-09-03.txt` | 24 | Four Casablanca-route guides (Volubilis, Meknes/Moulay Idriss, the route cost breakdown, open-jaw airports) x six locales. The diff reported exactly 24 — no stale pages this time, because 2026-09-02 cleared the backlog. All verified serving 200 before sending. |
+| 2026-09-03 | `batch-2026-09-03-chegaga-recrawl.txt` | 18 | **A recrawl, not new pages** — the first time `-Force` was used. Both Erg Chegaga 3-day tours (Agadir and Marrakech, six locales each) plus the Agadir cost article in six locales, after fixing a night count that was wrong in FAQPage structured data. The nothing-outstanding guard correctly blocked it (the diff was 1146/1146, 0 new) and was overridden deliberately: changed substance on a live page is the documented reason to spend quota. All 18 verified serving 200. 18 submitted, 0 failed. |

@@ -1,10 +1,13 @@
 # Indexing state
 
-**As of 2026-09-02: all 1,122 site URLs have been submitted.** The Casablanca
-5-day tour and four desert guides shipped that day; the diff also surfaced 36
-"cost" blog pages and an events page that had been live for weeks and had
-never been submitted. All 72 went out as `docs/batch-2026-09-02.txt`:
-**72 submitted, 0 failed, quota 72/200**.
+**As of 2026-09-03: all 1,146 site URLs have been submitted.** Four guides
+supporting the Casablanca route — Volubilis, Meknes and Moulay Idriss, the
+route cost breakdown and the open-jaw airports guide — shipped in six locales
+and went out as `docs/batch-2026-09-03.txt`: **24 submitted, 0 failed**.
+
+The day before, `batch-2026-09-02.txt` sent 72: the Casablanca 5-day tour and
+four desert guides, plus 36 "cost" blog pages and an events page that had been
+live for weeks and had never been submitted at all.
 
 > The 36 stale pages are the lesson worth keeping: nothing reports a page that
 > no batch ever included. They were found only because the diff compares the
@@ -128,3 +131,4 @@ the ledger disagrees, trust Google and correct the file. That happened on
 | 2026-08-28 | `batch-2026-08-28.txt` | 6 | 8-day Toubkal + Sahara tour, six locales. Verified all six served HTTP 200 before sending — they 404'd for ~2 min while Vercel deployed. 6 submitted, 0 failed. |
 | 2026-08-28 | `batch-2026-08-28-posts.txt` | 24 | Four new posts x six locales. Both index-batch.ps1 guards ran: nothing-outstanding check passed, and all 24 verified serving 200 before sending. |
 | 2026-09-02 | `batch-2026-09-02.txt` | 72 | Casablanca 5-day tour (6 locales), four desert guides (24), the 8-day departures event page (6), and **36 "cost" blog pages that had been live for weeks and were never submitted** — found by the diff, not by memory. All 72 verified serving 200. 72 submitted, 0 failed. |
+| 2026-09-03 | `batch-2026-09-03.txt` | 24 | Four Casablanca-route guides (Volubilis, Meknes/Moulay Idriss, the route cost breakdown, open-jaw airports) x six locales. The diff reported exactly 24 — no stale pages this time, because 2026-09-02 cleared the backlog. All verified serving 200 before sending. |

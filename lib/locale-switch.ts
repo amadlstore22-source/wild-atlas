@@ -26,6 +26,10 @@ import type { Locale } from "@/app/[lang]/dictionaries";
 /** localised segment -> English slug. Blog posts. Generated; see scripts. */
 const BLOG_TO_EN: Record<string, Record<string, string>> = {
   fr: {
+    "volubilis-ruines-romaines": "volubilis-roman-ruins-guide",
+    "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guide",
+    "prix-circuit-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",
+    "arriver-casablanca-repartir-marrakech": "fly-into-casablanca-out-of-marrakech",
     "itineraire-7-jours-maroc-depuis-agadir": "7-day-agadir-itinerary-morocco",
     "campement-desert-luxe-ou-standard": "luxury-vs-standard-desert-camp-morocco",
     "mal-aigu-des-montagnes-toubkal": "altitude-sickness-toubkal-guide",
@@ -59,6 +63,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "circuit-desert-maroc-seniors": "morocco-desert-tour-older-travellers",
   },
   es: {
+    "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
+    "meknes-moulay-idriss-guia": "meknes-moulay-idriss-guide",
+    "precio-tour-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",
+    "llegar-casablanca-salir-marrakech": "fly-into-casablanca-out-of-marrakech",
     "itinerario-7-dias-marruecos-desde-agadir": "7-day-agadir-itinerary-morocco",
     "campamento-desierto-lujo-o-estandar": "luxury-vs-standard-desert-camp-morocco",
     "mal-de-altura-toubkal": "altitude-sickness-toubkal-guide",
@@ -92,6 +100,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "circuito-desierto-marruecos-mayores": "morocco-desert-tour-older-travellers",
   },
   de: {
+    "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
+    "meknes-moulay-idriss-reisefuehrer": "meknes-moulay-idriss-guide",
+    "kosten-rundreise-casablanca-marrakesch": "casablanca-to-marrakech-tour-cost",
+    "ankunft-casablanca-abflug-marrakesch": "fly-into-casablanca-out-of-marrakech",
     "7-tage-marokko-route-ab-agadir": "7-day-agadir-itinerary-morocco",
     "wuestencamp-luxus-oder-standard": "luxury-vs-standard-desert-camp-morocco",
     "hoehenkrankheit-toubkal": "altitude-sickness-toubkal-guide",
@@ -125,6 +137,10 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "wuestentour-marokko-fuer-aeltere-reisende": "morocco-desert-tour-older-travellers",
   },
   it: {
+    "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
+    "meknes-moulay-idriss-guida": "meknes-moulay-idriss-guide",
+    "prezzo-tour-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",
+    "arrivo-casablanca-partenza-marrakech": "fly-into-casablanca-out-of-marrakech",
     "itinerario-7-giorni-marocco-da-agadir": "7-day-agadir-itinerary-morocco",
     "campo-deserto-lusso-o-standard": "luxury-vs-standard-desert-camp-morocco",
     "mal-di-montagna-toubkal": "altitude-sickness-toubkal-guide",

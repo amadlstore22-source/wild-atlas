@@ -10,6 +10,10 @@ import { NextRequest, NextResponse } from "next/server";
  * unreadable byte strings when shared, which loses the readability that is the
  * only real benefit of localising the slug in the first place. */
 const BLOG_SLUGS_FR: Record<string, string> = {
+  "volubilis-roman-ruins-guide": "volubilis-ruines-romaines",
+  "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guide",
+  "casablanca-to-marrakech-tour-cost": "prix-circuit-casablanca-marrakech",
+  "fly-into-casablanca-out-of-marrakech": "arriver-casablanca-repartir-marrakech",
   "7-day-agadir-itinerary-morocco": "itineraire-7-jours-maroc-depuis-agadir",
   "luxury-vs-standard-desert-camp-morocco": "campement-desert-luxe-ou-standard",
   "altitude-sickness-toubkal-guide": "mal-aigu-des-montagnes-toubkal",
@@ -44,6 +48,10 @@ const BLOG_SLUGS_FR: Record<string, string> = {
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
+  "volubilis-roman-ruins-guide": "volubilis-ruinas-romanas",
+  "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guia",
+  "casablanca-to-marrakech-tour-cost": "precio-tour-casablanca-marrakech",
+  "fly-into-casablanca-out-of-marrakech": "llegar-casablanca-salir-marrakech",
   "7-day-agadir-itinerary-morocco": "itinerario-7-dias-marruecos-desde-agadir",
   "luxury-vs-standard-desert-camp-morocco": "campamento-desierto-lujo-o-estandar",
   "altitude-sickness-toubkal-guide": "mal-de-altura-toubkal",
@@ -78,6 +86,10 @@ const BLOG_SLUGS_ES: Record<string, string> = {
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
+  "volubilis-roman-ruins-guide": "volubilis-roemische-ruinen",
+  "meknes-moulay-idriss-guide": "meknes-moulay-idriss-reisefuehrer",
+  "casablanca-to-marrakech-tour-cost": "kosten-rundreise-casablanca-marrakesch",
+  "fly-into-casablanca-out-of-marrakech": "ankunft-casablanca-abflug-marrakesch",
   "7-day-agadir-itinerary-morocco": "7-tage-marokko-route-ab-agadir",
   "luxury-vs-standard-desert-camp-morocco": "wuestencamp-luxus-oder-standard",
   "altitude-sickness-toubkal-guide": "hoehenkrankheit-toubkal",
@@ -112,6 +124,10 @@ const BLOG_SLUGS_DE: Record<string, string> = {
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
+  "volubilis-roman-ruins-guide": "volubilis-rovine-romane",
+  "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guida",
+  "casablanca-to-marrakech-tour-cost": "prezzo-tour-casablanca-marrakech",
+  "fly-into-casablanca-out-of-marrakech": "arrivo-casablanca-partenza-marrakech",
   "7-day-agadir-itinerary-morocco": "itinerario-7-giorni-marocco-da-agadir",
   "luxury-vs-standard-desert-camp-morocco": "campo-deserto-lusso-o-standard",
   "altitude-sickness-toubkal-guide": "mal-di-montagna-toubkal",

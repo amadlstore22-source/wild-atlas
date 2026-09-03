@@ -1857,7 +1857,11 @@ Los demás sitios UNESCO de Marruecos son cinematográficos por derecho propio i
 ## Situarte donde estuvieron las cámaras
 
 Lo que hace único a Marruecos entre los destinos de cine es que los decorados nunca fueron decorados. Aït Ben Haddou, Esauira, Volubilis son lugares reales, protegidos, habitados desde hace mil años, que resultaron ser perfectos ante la cámara. No visitas una recreación; visitas el original, con la misma luz, sobre la misma piedra. La mayor parte está a lo largo de las rutas clásicas hacia el sur y el oeste desde Marrakech, y por eso la forma más fácil de ver el cine de Marruecos es sencillamente tomar una [ruta por el desierto del Sáhara](/es/tours/sahara-3day-marrakech): las kasbahs, los estudios y las dunas forman un solo viaje.
-`,
+
+
+## Para seguir leyendo
+
+Dos de los lugares citados arriba tienen su propia guía: [Volubilis](/es/blog/volubilis-ruinas-romanas), la ciudad romana cuyos mosaicos siguen en el suelo, y [Mequinez y Mulay Idriss](/es/blog/meknes-moulay-idriss-guia), la capital imperial y la ciudad santa que la domina.`,
   },
   {
     slug: "how-to-climb-toubkal-in-2-days",
@@ -3290,7 +3294,11 @@ Si quieres la ciudad azul y nada más, vuela. Si quieres Fez, Volubilis, Mequine
 de cedros por el camino, la ruta terrestre se gana su precio.
 
 👉 **[Descubre el tour de 4 días de Marrakech a Chefchaouen](/es/tours/marrakech-to-chefchaouen-4day)** — 313 € por persona, transporte privado, tres noches de riad, vía Fez y Volubilis.
-`,
+
+
+## La otra ruta del norte
+
+Chefchaouen no es el único camino hacia el norte. La alternativa pasa por Casablanca, Rabat, Volubilis, Mequinez y Fez antes de bajar al Sáhara: la ciudad romana y la capital imperial en lugar de la ciudad azul. El precio y la duración son comparables — nuestra [guía de precios Casablanca-Marrakech](/es/blog/precio-tour-casablanca-marrakech) desglosa esa ruta por tamaño de grupo, y el [circuito de 5 días](/es/tours/casablanca-fez-sahara-marrakech-5-dias) muestra el día a día.`,
   },
   {
     slug: "morocco-camel-trek-sahara-guide",
@@ -5981,7 +5989,11 @@ y [qué le hace al precio el tamaño del grupo](/es/blog/precio-circuito-marruec
 
 Tren entre las grandes ciudades del norte. Tour o conductor para el desierto,
 las gargantas y las montañas. Grands taxis para trayectos cortos. Coche de
-alquiler solo si conducir es la parte que te apetece.`,
+alquiler solo si conducir es la parte que te apetece.
+
+## Una decisión previa a todas las demás
+
+Si su viaje cruza el país, quizá no necesite volver al punto de partida. Llegar a un aeropuerto y salir por otro elimina todo el trayecto de vuelta: nuestra guía sobre [llegar a Casablanca y salir por Marrakech](/es/blog/llegar-casablanca-salir-marrakech) explica cuándo merece la pena y cuándo no.`,
   },
   {
     slug: "sahara-desert-weather-what-to-expect",
@@ -6958,6 +6970,355 @@ El desierto es mucho más accesible para viajeros mayores de lo que casi todos s
 Lo que de verdad determina si el viaje es un placer o una prueba de resistencia es la duración de los días de carretera, y eso se decide al reservar, antes de salir de casa.
 
 **[Circuito 4 días](/es/tours/desert-4day-marrakech)** — el que solemos recomendar · **[3 días privado](/es/tours/sahara-3day-marrakech)** · **[2 días a Zagora](/es/tours/zagora-2day-marrakech)**
+`,
+  },
+  {
+    slug: "volubilis-roman-ruins-guide",
+    localizedSlug: "volubilis-ruinas-romanas",
+    author: MET_TEAM,
+    title: "Volubilis: la ciudad romana de Marruecos, y por qué los mosaicos siguen a la intemperie",
+    excerpt:
+      "El yacimiento romano mejor conservado de Marruecos, y el único donde los mosaicos siguen en el suelo en el que se colocaron. Qué hay realmente, cuánto cuesta, cuándo ir y cómo encaja en una ruta hacia el sur.",
+    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 9,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    tags: ["Volubilis", "ruinas romanas Marruecos", "UNESCO Marruecos", "Mequinez", "ciudades imperiales"],
+    seoTitle: "Volubilis: ruinas romanas, precio y consejos",
+    seoDescription:
+      "La ciudad romana mejor conservada de Marruecos, con los mosaicos aún en el suelo. Entrada 70 MAD, dos horas, y por qué conviene evitar media mañana.",
+    faq: [
+      { q: "¿Cuánto cuesta la entrada a Volubilis?", a: "70 dirhams por adulto, que se pagan en la taquilla junto a la puerta principal. Lleve efectivo: el datáfono de la caseta falla a menudo y no hay cajero en el yacimiento. Un guía oficial en la entrada cuesta unos 150-200 dirhams por grupo, no por persona, y aquí resulta más útil que en la mayoría de los sitios: sin él estará mirando piedra bonita sin saber en qué casa se encuentra." },
+      { q: "¿Cuánto tiempo hace falta en Volubilis?", a: "Dos horas para una visita completa, incluido el paseo de ida y vuelta hasta el arco de Caracalla. Noventa minutos bastan si camina con paso vivo. En menos de una hora verá la basílica y el arco y se perderá casi todos los mosaicos, repartidos por las casas del Decumanus en lugar de reunidos en un punto." },
+      { q: "¿Merece la pena Volubilis si ya he visto ruinas romanas en Europa?", a: "Para la mayoría sí, y por un motivo concreto: los mosaicos siguen en el suelo. En casi todos los yacimientos mediterráneos los buenos pavimentos se levantaron hace tiempo y hoy están tras un cristal, a menudo en otra ciudad. En Volubilis usted camina por la misma calle junto a la que se colocaron y los mira in situ, a cielo abierto. Es un yacimiento más pequeño que Ostia o Éfeso y no pretende lo contrario: lo que ofrece es cercanía, no escala." },
+      { q: "¿Se pueden visitar Volubilis y Mequinez el mismo día?", a: "Sin problema. Están a unos cuarenta minutos, y Mulay Idriss queda entre ambos, así que los tres se recorren habitualmente en un mismo circuito. Desde Fez es un día largo: la mayoría de las excursiones que cubren los tres duran de 10 a 11 horas. Resulta mucho más cómodo en una ruta que ya baja hacia el sur, que es como lo hace nuestro [circuito de 5 días de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) en su primera jornada." },
+      { q: "¿Cuál es la mejor hora del día para visitarlo?", a: "Temprano. Abre a las 8:00, los autocares de Fez llegan hacia las 10:00 y no hay prácticamente sombra en todo el recinto: en julio y agosto el suelo entre las casas resulta castigador a mediodía. Llegar a la apertura le da una hora de luz rasante sobre las columnas, que es además cuando mejor fotografía el yacimiento. La hora previa al cierre es la segunda mejor opción." },
+    ],
+    content: `
+## Qué es realmente Volubilis
+
+Volubilis es la ciudad romana mejor conservada de Marruecos. Ocupa una ladera sobre la llanura del Zerhoun, a unos treinta kilómetros al norte de Mequinez, y es Patrimonio Mundial de la UNESCO desde 1997.
+
+Su historia es más extraña de lo que sugieren la mayoría de las guías. En el siglo I a.C. la ciudad no era de Roma sino de Mauritania, y su rey era **Juba II**: criado en Roma, instalado por Augusto y casado con Cleopatra Selene, hija de Cleopatra y Marco Antonio. Bajo su reinado Volubilis se convirtió en un próspero centro de cultura helenística tardía, y por eso sus mosaicos beben de la mitología griega y no de la iconografía militar romana.
+
+Roma anexionó el reino tras la muerte del hijo de Juba. La ciudad siguió creciendo y, hacia 216-217 d.C., su consejo levantó un arco al emperador Caracalla para agradecerle la concesión de la ciudadanía romana a sus habitantes y la exención de impuestos. Ese arco sigue en pie, y sigue siendo lo primero que se ve.
+
+## Lo que lo hace distinto
+
+A casi todos los yacimientos romanos del Mediterráneo les han quitado el suelo. Los mosaicos se levantaron, se embalaron y se llevaron a un museo, con frecuencia en otra ciudad, y lo que uno recorre es el plano de unas habitaciones sin su arte.
+
+**En Volubilis los mosaicos siguen donde se colocaron.** Están en el suelo de las casas que dan a la calle principal, a cielo abierto, con nada más que una cuerda baja de por medio. Uno mira el pavimento de un comedor del siglo II desde la puerta que usaban los comensales.
+
+Esta es la razón para venir, y conviene saberlo antes de llegar porque cambia la forma de recorrer el yacimiento. La tentación es ir directo a las grandes estructuras en pie: la basílica, el capitolio, el arco. Son imponentes. Pero los mosaicos están en las casas, y si solo recorre el eje monumental se perderá casi todos.
+
+## Qué buscar
+
+**La casa de Orfeo** es la mayor del yacimiento y guarda el pavimento más conocido: Orfeo encantando a los animales, con un mosaico de delfines en el comedor. Tenía patio con estanque y jardín, y varias salas con suelos mitológicos.
+
+**El arco de Caracalla** cierra un extremo del Decumanus Maximus, la calle principal. Aquella calle estaba flanqueada por aceras anchas y unas doscientas tiendas: situarse bajo el arco y mirar calle abajo es lo que mejor transmite Volubilis como ciudad viva y no como ruina.
+
+**La basílica y el capitolio** son las estructuras más altas que quedan en pie, las de todas las fotografías. Son el centro cívico: tribunal y templo, el equivalente romano de una plaza del ayuntamiento.
+
+**Las almazaras.** Es fácil pasarlas por alto, y sin embargo explican la ciudad entera. Volubilis era rica porque esta llanura daba aceitunas, y las prensas están repartidas por todo el barrio residencial. La riqueza que pagó los mosaicos salía del suelo, aquí mismo.
+
+## Práctica
+
+**Entrada:** 70 dirhams. En la práctica, solo efectivo.
+
+**Horario:** de 8:00 a 18:00; cierra a las 17:00 en invierno.
+
+**Tiempo necesario:** dos horas para verlo bien.
+
+**Guías:** esperan en la entrada, unos 150-200 dirhams por grupo. En la mayoría de los sitios marroquíes el guía es opcional. Aquí cambia la visita, porque buena parte del yacimiento son cimientos y trazado de calles: sin alguien que le diga en qué casa está, mucho se lee como muretes.
+
+**Sombra:** prácticamente ninguna. En verano el recinto está expuesto y hace calor, con máximas altas en julio y agosto. Sombrero, agua y salida temprana no son opcionales en esos meses.
+
+## Cuándo ir
+
+**Temprano por la mañana, en cualquier estación.** Las puertas abren a las 8:00, los autocares de Fez llegan hacia las 10:00, y la diferencia entre esas dos horas es la que hay entre tener el Decumanus para usted y hacer cola para fotografiar el arco.
+
+**La primavera es la mejor estación.** La llanura del Zerhoun está verde, las flores silvestres rodean el yacimiento y la temperatura permite caminar dos horas a campo abierto. El otoño va justo detrás.
+
+**El invierno** es tranquilo y frío, perfectamente agradable para caminar, con cierre a las 17:00. **El verano** es duro a mediodía y estupendo en sus dos extremos.
+
+## Cómo encaja Volubilis en una ruta
+
+Volubilis, **Mulay Idriss** y **Mequinez** están a unos cuarenta minutos entre sí, y casi todo el mundo los visita en un mismo circuito. Desde Fez, como excursión de un día, son de 10 a 11 horas, la mayoría en carretera.
+
+Funciona mucho mejor dentro de un trayecto que ya va en esa dirección. Bajando desde Rabat, los tres se encadenan de forma natural camino de Fez: así lo hace nuestro [circuito de 5 días Casablanca-Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) — Rabat por la mañana, Volubilis y Mequinez por la tarde, Fez para dormir. Ve los mismos lugares sin un día de rodeo.
+
+La mayoría de los itinerarios de cinco días entre Casablanca y Marrakech que se venden en internet pasan por Chefchaouen. Es un buen viaje, pero deja fuera la ciudad romana. Si el mundo antiguo es parte de lo que le trae a Marruecos, revise el itinerario antes de reservar: las dos rutas comparten inicio y final, y muy poco más.
+
+Si prefiere partir de Marrakech, nuestro [circuito de las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) cubre las cuatro capitales e incluye Volubilis de camino al norte.
+`,
+  },
+  {
+    slug: "meknes-moulay-idriss-guide",
+    localizedSlug: "meknes-moulay-idriss-guia",
+    author: MET_TEAM,
+    title: "Mequinez y Mulay Idriss: la ciudad imperial por la que todos pasan de largo",
+    excerpt:
+      "Mequinez fue capital de Marruecos durante cincuenta y cinco años, y tiene la puerta que lo demuestra. La mayoría de los itinerarios le conceden noventa minutos camino de Fez. Esto es lo que hay de verdad, y por qué la ciudad santa de la colina merece el desvío.",
+    heroImage: "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    tags: ["Mequinez", "Mulay Idriss", "Bab Mansour", "ciudades imperiales", "cultura Marruecos"],
+    seoTitle: "Mequinez y Mulay Idriss: qué ver",
+    seoDescription:
+      "Bab Mansour, los graneros de Mulay Ismail y la ciudad santa de la colina. Qué merece su tiempo en la capital imperial menos visitada de Marruecos.",
+    faq: [
+      { q: "¿Merece la pena Mequinez o voy directo a Fez?", a: "Las dos, si la ruta lo permite: están a una hora y no se parecen en nada. Fez es la experiencia más profunda y más exigente: una medina de nueve mil callejones donde se perderá, y así debe ser. Mequinez es una capital imperial a escala manejable, y se ve lo principal en media jornada sin guía. Si solo tiene un día, désela a Fez. Si de todos modos conduce entre Rabat y Fez, parar en Mequinez le cuesta unas horas y añade una ciudad realmente distinta." },
+      { q: "¿Cuánto tiempo hace falta en Mequinez?", a: "Media jornada la cubre bien: Bab Mansour y la plaza el-Hedim, los graneros de Heri es-Souani, el mausoleo de Mulay Ismail y un paseo por la medina. Noventa minutos —lo que dan la mayoría de los circuitos— le dejan la puerta, una foto y de vuelta al vehículo. Los graneros son lo que se salta cuando hay prisa y lo que se recuerda después." },
+      { q: "¿Pueden los no musulmanes visitar Mulay Idriss?", a: "Sí. La ciudad está abierta a todos los visitantes desde hace décadas: puede recorrer las calles, subir a los miradores y contemplar el santuario desde arriba. Lo que no está abierto a no musulmanes es el santuario en sí y el mausoleo de su interior. El límite está claramente señalado y se respeta localmente: una barra de madera atravesada en el callejón indica dónde parar." },
+      { q: "¿A qué distancia está Mulay Idriss de Volubilis?", a: "Unos cinco kilómetros: se ve la ciudad blanca sobre sus dos colinas desde el yacimiento romano, y el trayecto dura diez minutos. Volubilis, Mulay Idriss y Mequinez suelen hacerse en un mismo circuito, y la geografía lo facilita: la ciudad romana, la ciudad santa levantada en parte con sus piedras, y la capital imperial que llegó mil años después, todo en cuarenta minutos." },
+      { q: "¿Qué es Heri es-Souani y merece la entrada?", a: "Los graneros reales: un enorme almacén abovedado que Mulay Ismail construyó dentro de su alcazaba para guardar grano y alimentar a la ciudad y a sus caballos durante un asedio. La entrada cuesta unos 10 dirhams, en efectivo, y el horario va aproximadamente de 9:00 a 12:00 y de 15:00 a 18:30. Merece la pena: la escala es el asunto. Enormes salas abovedadas con muros lo bastante gruesos para mantener el grano fresco todo un verano marroquí, y una techumbre parcialmente hundida, lo que mejora el lugar en vez de estropearlo." },
+    ],
+    content: `
+## La ciudad que dejó de ser capital
+
+Durante cincuenta y cinco años Mequinez fue la capital de Marruecos. **El sultán Mulay Ismail**, fundador de la dinastía alauí —la que todavía reina—, la convirtió en una ciudad imperial a una escala pensada para rivalizar con lo que había oído de Versalles. Después la capital se trasladó, y Mequinez se quedó con las murallas, las puertas, los graneros y las caballerizas de una corte que se había ido.
+
+Eso explica cómo se siente. Mequinez tiene arquitectura imperial a escala imperial y una fracción de los visitantes de Fez o Marrakech. Puede plantarse ante su mayor monumento sin hacer cola.
+
+## Bab Mansour
+
+**Bab Mansour** es el motivo por el que la gente para, y se lo gana. Se la considera generalmente la puerta más bella de Marruecos: un enorme arco ceremonial frente a la plaza el-Hedim, cubierto de zellige y enmarcado por columnas de mármol que los constructores se llevaron de Volubilis, carretera arriba.
+
+Era una puerta para una corte, no para el tráfico: lo que importaba era lo que sentían los visitantes al acercarse al sultán. El efecto se mantiene más o menos, y es mejor a última hora de la tarde, cuando la luz cruza la plaza y da sobre el alicatado en lugar de aplanarlo.
+
+La plaza el-Hedim, delante, es una plaza de barrio, más pequeña y tranquila que Yamaa el-Fna, con el mercado de alimentación en un lateral. Es buen sitio para sentarse veinte minutos y ver a una ciudad marroquí vivir su tarde.
+
+## Los graneros, la verdadera sorpresa
+
+**Heri es-Souani** es lo que la gente recuerda. Mulay Ismail lo levantó dentro de la alcazaba para almacenar grano y abastecer a la ciudad y a sus caballos durante un asedio: un vasto conjunto de salas abovedadas con muros lo bastante gruesos para mantener estable la temperatura todo el verano.
+
+Parte de la techumbre se ha hundido con los siglos, así que la luz cae en haces entre los arcos, en salas diseñadas para estar a oscuras. El resultado es uno de los interiores más fotogénicos de Marruecos, y casi siempre está tranquilo.
+
+Entrada: unos 10 dirhams, en efectivo. Horario aproximado: de 9:00 a 12:00 y de 15:00 a 18:30. El cierre de mediodía pilla desprevenidos a muchos y es la primera razón por la que los visitantes se lo pierden.
+
+Al lado están las ruinas de las caballerizas reales, construidas para una caballería que se contaba por miles.
+
+## El mausoleo de Mulay Ismail
+
+El **mausoleo de Mulay Ismail** es uno de los pocos lugares de culto activos de Marruecos en los que se admite a no musulmanes, lo que lo convierte en una excepción que conviene aprovechar. Los patios son serenos, el alicatado excepcional, y da la medida del hombre cuya ambición explica todo lo demás en la ciudad.
+
+Vista con discreción, descálcese donde se indique y baje la voz: hay gente rezando, y esto no es un museo.
+
+## Mulay Idriss, en la colina
+
+A cinco kilómetros de Volubilis, una ciudad blanca se derrama sobre dos cerros: **Mulay Idriss Zerhoun**, la ciudad más sagrada de Marruecos.
+
+Está construida alrededor de la tumba de **Mulay Idriss I**, que llevó el islam a Marruecos en el siglo VIII y fundó su primera dinastía. Durante siglos los no musulmanes no podían pernoctar aquí. Esa restricción desapareció hace mucho y hoy la ciudad tiene casas de huéspedes, pero el ambiente que generó no se ha borrado del todo: es antes una ciudad de peregrinación que un destino turístico, lo que para el estándar marroquí la vuelve excepcionalmente relajada. Nadie intenta venderle una alfombra.
+
+**Qué hacer:** subir. La ciudad es empinada y la recompensa son los miradores, desde los que se domina el tejado de teja verde del santuario y la llanura del Zerhoun hasta Volubilis. Todo el mundo le indicará el camino, y son unos veinte minutos de cuesta.
+
+**Qué no puede hacer:** entrar en el santuario. Los no musulmanes recorren la ciudad libremente pero no cruzan al recinto sagrado: una barra de madera atravesada en el callejón marca el límite con claridad.
+
+## Hacer los tres
+
+Volubilis, Mulay Idriss y Mequinez están a unos cuarenta minutos entre sí, y tienen más sentido juntos que por separado: la ciudad romana, la ciudad santa levantada en parte con sus piedras, y la capital imperial que reutilizó su mármol mil años después.
+
+Desde Fez como excursión es un día largo: de 10 a 11 horas, casi todo conduciendo. Funciona mucho mejor dentro de una ruta que ya va en esa dirección. Nuestro [circuito de 5 días Casablanca-Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) toma Rabat por la mañana y Volubilis y Mequinez por la tarde, llegando a Fez para dormir: los tres lugares no le cuestan ni un día extra. El [circuito de las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) hace lo propio desde Marrakech, cubriendo las cuatro capitales.
+
+Para el detalle del yacimiento romano antes de ir, vea nuestra [guía de Volubilis](/es/blog/volubilis-ruinas-romanas): qué mirar y a qué hora llegar.
+
+## Una nota sobre el tiempo
+
+El problema real de Mequinez es que está a una hora de Fez, y Fez abruma en el mejor sentido. La mayoría de los itinerarios le dan noventa minutos porque el programa está montado para llegar a Fez antes del anochecer.
+
+Si ese es su caso, dedíquelos a **Bab Mansour y los graneros**, y sáltese la medina. La medina es agradable y mañana verá una mejor. Los graneros no los verá en ningún otro sitio.
+`,
+  },
+  {
+    slug: "casablanca-to-marrakech-tour-cost",
+    localizedSlug: "precio-tour-casablanca-marrakech",
+    author: MET_TEAM,
+    title: "¿Cuánto cuesta un circuito de 5 días de Casablanca a Marrakech?",
+    excerpt:
+      "Los precios que se publican para esta ruta van de unos 500 a 1.850 euros por persona, y la cifra rara vez significa lo mismo. Esto es lo que mueve el precio, nuestra propia escala según el tamaño del grupo, y lo que va realmente aparte.",
+    heroImage: "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    tags: ["Casablanca Marrakech", "precio circuito Marruecos", "Marruecos 5 días", "precio tour privado", "itinerario Marruecos"],
+    seoTitle: "Precio tour Casablanca-Marrakech (5 días)",
+    seoDescription:
+      "Lo que cuesta de verdad un circuito privado de 5 días de Casablanca a Marrakech, por persona según el grupo, y por qué los precios van de 500 a 1.850 euros.",
+    faq: [
+      { q: "¿Cuánto cuesta un circuito de 5 días de Casablanca a Marrakech?", a: "Los precios anunciados para esta ruta van de unos 500 a 1.850 euros por persona, lo que demuestra que la cifra sola dice poco. La diferencia está sobre todo en el tamaño del grupo y el alojamiento: el vehículo y el conductor cuestan lo mismo lleven una persona o seis, así que el precio por persona cae con fuerza según crece el grupo. Nuestro circuito privado sale a 1.380 euros para un viajero solo y a 470 euros por persona siendo seis, todo incluido en transporte, guía, alojamiento y campamento en el desierto." },
+      { q: "¿Por qué un viajero solo paga mucho más por persona?", a: "Porque un circuito privado cobra un vehículo, un conductor y cinco días de su tiempo, y luego divide. Una persona carga con todo el coste; seis lo reparten. Nada se abarata al crecer el grupo —el combustible, los peajes, el conductor y el guía de Fez cuestan igual—, así que el precio por persona es aritmética, no un recargo a quien viaja solo. Si viaja solo y el precio privado supera su presupuesto, una salida compartida es la alternativa honesta." },
+      { q: "¿Está incluido el traslado de vuelta a Casablanca?", a: "No, y conviene comprobarlo en cualquier presupuesto que compare. El circuito termina en Marrakech, que es el sentido de la ruta: usted vuela desde allí. Si necesita regresar a Casablanca después, organizamos el traslado, pero se cobra aparte porque la mayoría de los viajeros no lo necesita. Algunos operadores ofrecen un circuito Casablanca-Casablanca, que es un viaje más largo con un día de vuelta sobre lo andado." },
+      { q: "¿Qué no está incluido en el precio?", a: "Los almuerzos, las entradas a monumentos, la propina del guía local y lo que compre por el camino. Las entradas son pequeñas por separado —70 dirhams en Volubilis, unos 10 en los graneros de Mequinez— pero suman a lo largo de cinco días: calcule entre 300 y 500 dirhams por persona para todo el viaje. La cena y el desayuno sí están incluidos, igual que el campamento." },
+      { q: "¿Cambia el precio según la temporada?", a: "Sí, sobre todo por el alojamiento. Los riads de Fez y los campamentos del Erg Chebbi suben en Navidad, Año Nuevo y Semana Santa, y en los picos de primavera y otoño. Julio y agosto son los más baratos en el desierto por la razón evidente de que hace 45 grados. Damos el precio real para sus fechas en lugar de una cifra de reclamo con condiciones." },
+    ],
+    content: `
+## La respuesta honesta, primero
+
+Busque esta ruta y encontrará los mismos cinco días anunciados a unos **500 euros por persona** y a **1.850 euros por persona**. Son dos precios reales, de operadores reales. Ninguno miente.
+
+La cifra por sí sola no sirve de mucho, porque responde a preguntas distintas. Lo que de verdad la mueve:
+
+**El tamaño del grupo**, por encima de todo. Un circuito privado compra un vehículo, un conductor y cinco días de su tiempo. Ese coste es fijo. Que se divida entre una persona o entre seis es el mayor factor de lo que paga cada uno.
+
+**Privado o compartido.** Una plaza en una salida compartida siempre cuesta menos que un vehículo privado. A cambio cede flexibilidad y la certeza de la salida.
+
+**Dónde duerme.** Un riad en la medina de Fez y un hotel estándar en la circunvalación no son el mismo producto, y la distancia entre un campamento básico y uno de lujo es mayor de lo que se imagina.
+
+**Lo que el presupuesto omite.** De ahí salen casi siempre las cifras más bajas. Almuerzos, entradas, propinas y traslado de vuelta suelen quedar fuera, y un presupuesto de 500 euros que los excluye no es realmente un viaje de 500 euros.
+
+## Nuestros precios para esta ruta
+
+Nuestro [circuito de 5 días Casablanca-Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) es privado, y el precio por persona baja según crece el grupo:
+
+| Viajeros | Por persona | Total grupo |
+|---|---|---|
+| 1 | €1,380 | €1,380 |
+| 2 | €825 | €1,650 |
+| 3 | €653 | €1,960 |
+| 4 | €592 | €2,369 |
+| 5 | €535 | €2,675 |
+| 6 | €470 | €2,819 |
+
+Incluye transporte privado en toda la ruta, su conductor, alojamiento con desayuno y cena, el guía local para la jornada en Fez, y el campamento con el paseo en dromedario en el Erg Chebbi.
+
+**Un depósito del 22 % confirma la reserva**; el resto se paga en Marruecos. Es la misma estructura para todo lo que organizamos, y nuestra [guía sobre cómo funciona la reserva](/es/blog/como-funciona-la-reserva-marruecos) explica la secuencia.
+
+## Por qué viajar solo cuesta lo que cuesta
+
+La caída más pronunciada de la tabla está entre uno y dos viajeros: de 1.380 a 825 euros cada uno.
+
+Nada cambia en el viaje. El vehículo es el mismo, el conductor trabaja los mismos cinco días, el guía de Fez cobra igual, y el combustible y los peajes son idénticos. La única diferencia es entre cuántas personas se divide el coste.
+
+Merece la pena decirlo claro, porque un presupuesto para una persona puede parecer un castigo. No lo es. Si el precio privado supera lo que quiere gastar viajando solo, las opciones honestas son una salida compartida o venir acompañado.
+
+## Lo que va realmente aparte
+
+**Los almuerzos.** La cena y el desayuno están dentro; el almuerzo no, porque depende de dónde le deje la carretera y es mejor que elija usted.
+
+**Las entradas.** Volubilis, 70 dirhams. Los graneros de Mequinez, unos 10. Los monumentos de Fez varían. En cinco días, calcule de 300 a 500 dirhams por persona.
+
+**El traslado de vuelta a Casablanca.** El circuito termina en Marrakech a propósito: usted vuela desde allí. Si necesita volver a Casablanca lo organizamos, cobrado aparte. Compruébelo en otros presupuestos: un circuito Casablanca-Casablanca es un viaje distinto y más largo, con vuelta sobre lo andado.
+
+**Las propinas.** Habituales, no obligatorias, y enteramente a su criterio.
+
+## Comparar presupuestos como es debido
+
+Tres preguntas despejan casi toda la confusión:
+
+**1. ¿El precio es por persona o por grupo?** Algunos operadores cotizan el vehículo. Los nuestros son por persona, y la tabla de arriba muestra ambos: no hay nada que calcular.
+
+**2. ¿Dónde dormimos exactamente?** No la categoría: el nombre. «Riad en Fez» abarca un abanico enorme. Por experiencia, la gente no se compromete hasta que el alojamiento tiene nombre, y un operador que no quiere darlo antes del depósito le está diciendo algo.
+
+**3. ¿Por dónde va la ruta?** La mayoría de los itinerarios de cinco días entre Casablanca y Marrakech que se venden en internet pasan por **Chefchaouen**. El nuestro pasa por **Rabat, Volubilis y Mequinez**: la ciudad romana y la capital imperial en lugar de la ciudad azul. Ambos son buenos viajes. No son el mismo viaje, y comparar sus precios sin notarlo es comparar dos vacaciones distintas.
+
+Para el detalle de lo que contiene la ruta del norte, vea nuestras guías de [Volubilis](/es/blog/volubilis-ruinas-romanas) y de [Mequinez y Mulay Idriss](/es/blog/meknes-moulay-idriss-guia).
+
+## ¿Bastan cinco días?
+
+Para esta ruta, sí, con una salvedad: se conduce de verdad. De Casablanca al Sáhara y de vuelta hasta Marrakech se recorre buena parte de Marruecos, y los días tres y cuatro llevan distancia real.
+
+A cambio obtiene todo el registro del país en un solo viaje: costa atlántica, ruinas romanas, la mayor medina sin coches del mundo, el Atlas Medio y las dunas del Erg Chebbi. Si sus vuelos están fijados y dispone de cinco días, esta ruta los aprovecha casi tan bien como Marruecos permite.
+
+Si prefiere ir más despacio y profundizar en las ciudades, el [circuito de las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) cubre el mismo terreno histórico sin la etapa del desierto. Y si el Sáhara es el motivo del viaje, nuestra [guía del precio según el tamaño del grupo](/es/blog/precio-circuito-marruecos-tamano-grupo) explica cómo se aplica la misma aritmética a todos nuestros itinerarios por el desierto.
+`,
+  },
+  {
+    slug: "fly-into-casablanca-out-of-marrakech",
+    localizedSlug: "llegar-casablanca-salir-marrakech",
+    author: MET_TEAM,
+    title: "Llegar a Casablanca y salir por Marrakech: ¿merece la pena?",
+    excerpt:
+      "Dos aeropuertos distintos, un solo viaje, y ni un día perdido en volver sobre lo andado. Cuándo tiene sentido un billete multidestino en Marruecos, cuándo cuesta más de lo que ahorra, y cómo unir las dos ciudades por su cuenta.",
+    heroImage: "/gallery/rabat-hassan-tower-columns.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    tags: ["vuelo multidestino", "aeropuerto Casablanca", "aeropuerto Marrakech", "itinerario Marruecos", "consejos Marruecos"],
+    seoTitle: "Llegar a Casablanca y salir por Marrakech",
+    seoDescription:
+      "Llegar a un aeropuerto marroquí y salir por otro ahorra un día de vuelta sobre lo andado. Cuándo funciona, qué cuesta y cómo unir las dos ciudades.",
+    faq: [
+      { q: "¿Se puede llegar a Casablanca y salir por Marrakech?", a: "Sí. Resérvelo como multidestino y no como dos billetes de ida: la mayoría de aerolíneas y buscadores lo tratan como una sola tarifa, a menudo cercana al precio de un ida y vuelta. Casablanca Mohammed V es el mayor aeropuerto de Marruecos y el de red intercontinental más amplia, y Marrakech Menara concentra el tráfico europeo de corto radio, así que la combinación funciona especialmente bien si viene de fuera de Europa y regresa a ella." },
+      { q: "¿Es más caro un billete multidestino?", a: "A veces algo, muchas veces nada, y en ocasiones más barato que un ida y vuelta a un solo aeropuerto. Depende por completo de la ruta. Lo que ahorra con seguridad es un día: con un ida y vuelta a una sola ciudad, un viaje que cruza el país tiene que volver por donde vino, y ese regreso suele ser de cuatro a seis horas de carretera que no le aportan nada." },
+      { q: "¿Cómo se va de Casablanca a Marrakech viajando por libre?", a: "En tren. ONCF opera el servicio Al Atlas entre Casa Voyageurs y Marrakech en unas 2 horas 40 a 3 horas, con hasta diez salidas diarias. Es cómodo, barato y fiable, y es como hacen el trayecto la mayoría de los marroquíes. Ojo: la línea de alta velocidad Al Boraq no llega a Marrakech; va de Casablanca hacia el norte, por Rabat y Kenitra, hasta Tánger." },
+      { q: "¿A qué aeropuerto conviene llegar?", a: "Al que tenga mejor vuelo desde donde vive, que en largo radio suele ser Casablanca. Mohammed V tiene la red internacional más amplia, incluidas rutas directas desde Norteamérica. Marrakech Menara es densa en corto radio europeo. Si un circuito le recoge en cualquiera de los dos, el aeropuerto importa menos que el horario y el precio del vuelo." },
+      { q: "¿Hay que terminar en Marrakech o pueden llevarnos de vuelta a Casablanca?", a: "Nuestra ruta de 5 días termina en Marrakech a propósito para que vuele desde allí. Si su billete regresa desde Casablanca podemos organizar el traslado final, pero se cobra aparte en lugar de ir incluido, porque la mayoría de los viajeros de esta ruta no lo necesita. Conviene presupuestar ese traslado antes de comprar los vuelos: cambiar el billete puede salir más barato." },
+    ],
+    content: `
+## El problema de volver al punto de partida
+
+Casi todos los itinerarios marroquíes son circuitos cerrados. Aterriza en Marrakech, conduce hasta el desierto y vuelve a Marrakech, con frecuencia por la misma carretera al revés.
+
+Para un viaje al desierto está bien: no hay otra forma de llegar al Erg Chebbi y volver a un avión. Pero en un viaje que cruza el país, el círculo le cuesta un día entero. Casablanca, Fez, el Sáhara y Marrakech forman una línea natural a través de Marruecos, y la única razón para dar media vuelta al final es que su billete lo obligue.
+
+Un billete **multidestino** —entrada por un aeropuerto, salida por otro— elimina eso. Es el truco de reserva más útil para Marruecos, y sorprende cuánta gente no sabe que existe.
+
+## Cómo reservarlo
+
+Busque la opción **multidestino** en lugar de ida y vuelta en cualquier buscador. Introduce su aeropuerto de origen hacia Casablanca, y después Marrakech hacia casa, y se tarifa como un solo billete.
+
+Dos cosas que conviene saber:
+
+**Normalmente no es mucho más caro que un ida y vuelta**, y a veces sale menos. Varía según ruta y aerolínea: compruébelo, en un sentido y en el otro.
+
+**No compre dos billetes de ida sueltos** salvo que el precio sea claramente mejor. Un billete único mantiene a la aerolínea responsable de todo el trayecto si hay un retraso; dos billetes, no.
+
+## Dos aeropuertos realmente distintos
+
+**Casablanca Mohammed V** es el mayor y más transitado de Marruecos, con la red internacional más amplia, incluidos vuelos de largo radio directos que Marrakech no tiene. Si viene de Norteamérica o de más lejos, es muy a menudo donde aterriza su único vuelo sin escalas.
+
+**Marrakech Menara** es densa en tráfico europeo de corto radio. Las aerolíneas de bajo coste vuelan aquí desde toda Europa varias veces al día, con frecuencia más barato que a Casablanca.
+
+Junte ambos datos y el patrón es claro: **largo radio a la llegada, corto radio europeo a la salida** es una combinación habitual y sensata: llegar desde lejos al aeropuerto mejor conectado y salir por la ruta densa y barata.
+
+## Por dónde va realmente el viaje
+
+Si esta combinación funciona tan bien en Marruecos es por geografía. Casablanca está en la costa atlántica, al norte. Marrakech está en el interior, al sur. Los grandes lugares históricos del país se alinean entre ambas, y el desierto queda al final de esa línea.
+
+Aterrizar en Casablanca permite un itinerario **Rabat, Volubilis, Mequinez, Fez, Atlas Medio, Erg Chebbi, valle del Dades, Ait Ben Haddou, Marrakech** en una sola línea hacia adelante, sin repetir una carretera. Es lo que hace nuestro [circuito de 5 días Casablanca-Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias), y solo es posible porque no tiene que volver a su punto de partida.
+
+Haga el mismo viaje en circuito cerrado desde Marrakech y perderá un día subiendo al norte antes de que el itinerario empiece.
+
+## Unir las dos ciudades por su cuenta
+
+Si viaja por libre en lugar de en circuito, las dos ciudades están bien comunicadas.
+
+**El tren es la respuesta.** El servicio Al Atlas de ONCF une Casa Voyageurs con Marrakech en **unas 2 horas 40 a 3 horas**, con hasta diez salidas diarias. Es cómodo, económico, y es como viajan entre ambas la mayoría de los marroquíes.
+
+Una corrección que conviene hacer, porque aparece en mucha literatura de viajes: **la línea de alta velocidad Al Boraq no llega a Marrakech.** Al Boraq sube de Casablanca hacia Rabat, Kenitra y Tánger. La extensión hacia el sur, hacia Marrakech y Agadir, está prevista pero no en servicio. El trayecto Casablanca-Marrakech se hace en tren interurbano convencional, y bueno.
+
+**En coche** son unas tres horas por la autopista de peaje A7. **El traslado privado** es lo más flexible y lo más caro.
+
+## Cuándo no es la decisión correcta
+
+No siempre lo es.
+
+**Si su viaje es solo al desierto**, de todos modos regresa hacia Marrakech, y un ida y vuelta a Marrakech es más sencillo y normalmente más barato. Todos nuestros itinerarios por el desierto salen y terminan allí por ese motivo.
+
+**Si la diferencia de precio es grande.** Compruébelo. A veces un multidestino se tarifa mal en una ruta concreta, y si la diferencia supera lo que costaría un traslado, tome el ida y vuelta y añada el tren.
+
+**Si se queda en una sola región.** Quien pase una semana en el Atlas o en la costa cerca de Agadir no gana nada usando dos aeropuertos.
+
+## Lista de comprobación
+
+**Reserve multidestino, no dos billetes de ida.**
+
+**Revise las normas de visado y entrada una vez**, no por aeropuerto: son nacionales, y salir por otra ciudad no cambia nada.
+
+**Diga a su operador el aeropuerto y la hora.** En esa ruta recogemos en Casablanca y terminamos en Marrakech por defecto, pero el punto de recogida conviene confirmarlo por escrito y no darlo por supuesto.
+
+**Presupueste el traslado de vuelta antes de comprar los vuelos** si su billete debe salir de Casablanca. A veces cambiar el vuelo sale más barato que la carretera.
+
+Para el panorama completo de trenes, autobuses y vuelos internos, vea nuestra [guía para moverse por Marruecos](/es/blog/como-moverse-por-marruecos-transporte). Para lo que cuesta la ruta del norte, nuestra [guía de precios Casablanca-Marrakech](/es/blog/precio-tour-casablanca-marrakech) la desglosa por tamaño de grupo.
 `,
   },
 ];

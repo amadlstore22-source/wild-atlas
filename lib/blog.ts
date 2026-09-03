@@ -4399,7 +4399,7 @@ Essaouira's film history runs deeper still: **Orson Welles** shot much of his **
 
 ## The other heritage cities
 
-Morocco's remaining UNESCO sites are cinematic in their own right even where they aren't famous backdrops. The medieval medinas of **Fes** (the first Moroccan site inscribed, in 1981), **Marrakech**, and **Meknes**, the Roman ruins of **Volubilis** with their standing arches and mosaics, and the Portuguese cistern of **El Jadida** — used by Orson Welles in *Othello* — all reward the traveller who comes for the history and stays for the atmosphere.
+Morocco's remaining UNESCO sites are cinematic in their own right even where they aren't famous backdrops. The medieval medinas of **Fes** (the first Moroccan site inscribed, in 1981), **Marrakech**, and **Meknes**, the Roman ruins of [**Volubilis**](/en/blog/volubilis-roman-ruins-guide) with their standing arches and mosaics still in the ground, and the Portuguese cistern of **El Jadida** — used by Orson Welles in *Othello* — all reward the traveller who comes for the history and stays for the atmosphere.
 
 ## Standing where the cameras stood
 
@@ -4536,7 +4536,7 @@ Give Fes two nights — it deserves them. **Fes el-Bali**, the old walled city, 
 
 ## Day 8 — Fes Back Toward the Atlas
 
-Turn south and west again. Depending on your flights, this is the day to break the return: either back over the Middle Atlas toward Marrakech, or via **Meknes** and the Roman ruins of **Volubilis** if you want one more layer of history. Overnight en route.
+Turn south and west again. Depending on your flights, this is the day to break the return: either back over the Middle Atlas toward Marrakech, or via [**Meknes**](/en/blog/meknes-moulay-idriss-guide) and the Roman ruins of [**Volubilis**](/en/blog/volubilis-roman-ruins-guide) if you want one more layer of history. Overnight en route.
 
 ## Day 9 — The High Atlas / Imlil
 
@@ -5550,7 +5550,18 @@ If you want the Blue City and nothing else, fly. If you want Fes, Volubilis, Mek
 the cedar forest along the way, the overland route earns its cost.
 
 👉 **[See the 4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day)** — €313 per person, private transport, three riad nights, via Fes and Volubilis.
-`,
+
+
+## The other northern route
+
+Chefchaouen is not the only way north. The alternative runs
+Casablanca–Rabat–Volubilis–Meknes–Fes and on to the Sahara, trading the blue
+city for the Roman ruins and the imperial capital. It costs broadly the same
+and takes the same five days — our
+[Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost)
+breaks that route down by group size, and the
+[5-day tour itself](/en/tours/casablanca-fes-sahara-marrakech-5day) shows the
+day-by-day.`,
   },
   {
     slug: "morocco-camel-trek-sahara-guide",
@@ -8302,7 +8313,13 @@ and [what group size does to the price](/en/blog/morocco-tour-price-group-size).
 
 Trains between the big northern cities. Tour or driver for the desert, the
 gorges and the mountains. Grands taxis for short hops. Hire a car only if the
-driving is the part you are looking forward to.`,
+driving is the part you are looking forward to.
+
+One booking decision sits upstream of all of this: if your trip crosses the
+country, you may not need to come back at all. Flying into one airport and
+out of another saves the return leg entirely — our guide to
+[flying into Casablanca and out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech)
+covers when that is worth doing and when it is not.`,
   },
   {
     slug: "sahara-desert-weather-what-to-expect",
@@ -9782,6 +9799,351 @@ The desert is far more accessible to older travellers than most people assume. T
 The thing that actually determines whether the trip is a pleasure or an endurance test is the length of the driving days — and that is a booking decision, made before you leave home.
 
 **[4-day desert tour](/en/tours/desert-4day-marrakech)** — the one we usually recommend · **[3-day private](/en/tours/sahara-3day-marrakech)** · **[2-day Zagora](/en/tours/zagora-2day-marrakech)**
+`,
+  },
+  {
+    slug: "volubilis-roman-ruins-guide",
+    author: MET_TEAM,
+    region: "imperial-cities",
+    title: "Volubilis: Morocco's Roman City, and Why the Mosaics Are Still Outside",
+    excerpt:
+      "The best-preserved Roman site in Morocco, and the only one where the mosaics are still in the floors they were laid in. What is actually there, what it costs, when to go, and how it fits into a route south.",
+    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    category: "culture",
+    readTime: 9,
+    publishedAt: "2026-09-03",
+    tags: ["Volubilis", "Roman ruins Morocco", "UNESCO Morocco", "Meknes", "imperial cities"],
+    seoTitle: "Volubilis Roman Ruins Guide: Cost & Tips",
+    seoDescription:
+      "Morocco's best-preserved Roman city, with mosaics still in the ground. Entry 70 MAD, two hours, and why mid-morning is the worst time to arrive.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-fes-3day"],
+    faq: [
+      { q: "How much does it cost to enter Volubilis?", a: "70 dirhams per adult, paid at the kiosk by the main gate. Bring cash — the card machine at the booth is unreliable and there is no ATM at the site. An official guide at the entrance costs roughly 150-200 dirhams for a group, not per person, and is worth it here more than at most sites: without one you are looking at attractive stonework with no idea which house you are standing in." },
+      { q: "How long do you need at Volubilis?", a: "Two hours is right for a thorough visit, including the walk out to the Arch of Caracalla and back. Ninety minutes is enough if you are moving briskly. Under an hour and you will see the basilica and the arch and miss most of the mosaics, which are spread through the houses along the Decumanus rather than gathered in one place." },
+      { q: "Is Volubilis worth visiting if I have already seen Roman ruins in Europe?", a: "For most people, yes, and for one specific reason: the mosaics are still in the ground. At most Mediterranean sites the good floors were lifted long ago and are now behind glass in a museum, often in another city. At Volubilis you walk the same street the mosaics were laid beside and look down at them in situ, open to the sky. It is a smaller site than Ostia or Ephesus and does not pretend otherwise — what it offers is proximity, not scale." },
+      { q: "Can you visit Volubilis and Meknes in the same day?", a: "Comfortably. They are about forty minutes apart, and Moulay Idriss sits between them, so the three are routinely done as one loop. Coming from Fes it is a long day — most Fes day trips covering all three run 10 to 11 hours. It is far easier as part of a route heading south, which is how our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes it in on the first day." },
+      { q: "What is the best time of day to visit?", a: "Early. The site opens at 8am, tour buses from Fes arrive around 10, and there is almost no shade anywhere on the site — in July and August the ground between the houses is punishing by midday. Arriving at opening gives you an hour of low light on the columns, which is also when the site photographs best. The hour before closing is the second-best option." },
+    ],
+    content: `
+## What Volubilis actually is
+
+Volubilis is the best-preserved Roman city in Morocco, sitting on a slope above the Zerhoun plain about thirty kilometres north of Meknes. It was made a UNESCO World Heritage Site in 1997.
+
+The short version of its history is stranger than most guidebooks make it sound. In the first century BC the city belonged not to Rome but to Mauretania, and its king was **Juba II** — raised in Rome, installed by Augustus, and married to Cleopatra Selene, the daughter of Cleopatra and Mark Antony. Under him Volubilis became a wealthy centre of late Hellenistic culture, which is why the mosaics here draw on Greek mythology rather than Roman military scenes.
+
+Rome annexed the kingdom after Juba's son was killed. The city kept growing, and in around 216-217 AD its council put up an arch to the emperor Caracalla, thanking him for granting Roman citizenship to its inhabitants and exempting them from tax. That arch is still standing, and it is still the first thing you see.
+
+## The thing that makes it different
+
+Most Roman sites in the Mediterranean have been stripped of their floors. The mosaics were lifted, crated, and moved to a museum, often in a different city, and what you walk through is the outline of rooms with the art removed.
+
+**At Volubilis the mosaics are still where they were laid.** They sit in the floors of the houses along the main street, open to the sky, with nothing between you and them but a low rope. You look down at a second-century dining room floor while standing in the doorway the diners used.
+
+This is the single reason to come, and it is worth understanding before you arrive, because it changes how you walk the site. The temptation is to make for the big standing structures — the basilica, the capitol, the arch. Those are impressive. But the mosaics are in the domestic buildings, and if you only walk the monumental spine you will miss almost all of them.
+
+## What to look for
+
+**The House of Orpheus** is the largest house on the site and holds the best-known floor: Orpheus playing to the animals, with a dolphin mosaic in the dining room. It had a courtyard with a pool and a garden, and several rooms with mythological floors.
+
+**The Arch of Caracalla** spans one end of the Decumanus Maximus, the main street. That street was lined with broad walkways and something like two hundred shops — standing under the arch and looking down it is the clearest sense you get of Volubilis as a working town rather than a ruin.
+
+**The basilica and capitol** are the tallest surviving structures and the ones in every photograph. They are the civic centre: law courts and temple, the Roman equivalent of a town hall square.
+
+**The olive presses.** Easy to walk past, and they explain the whole city. Volubilis was rich because this plain grew olives, and the presses are scattered right through the residential quarters. The wealth that paid for the mosaics came out of the ground here.
+
+## Practicalities
+
+**Entry** is 70 dirhams. Cash only in practice.
+
+**Opening hours** are 8am to 6pm, closing at 5pm in winter.
+
+**Time needed:** two hours for a proper look.
+
+**Guides** wait at the entrance, around 150-200 dirhams per group. At most Moroccan sites a guide is optional. Here it changes the visit, because much of the site is foundations and street plans — without someone to tell you which house you are in, a lot of it reads as low walls.
+
+**Shade:** effectively none. In summer the site is exposed and hot, reaching the high thirties and occasionally low forties in July and August. Hat, water, and an early start are not optional in those months.
+
+## When to go
+
+**Early morning, in any season.** The gates open at 8, the coaches from Fes arrive around 10, and the difference between those two hours is the difference between having the Decumanus to yourself and queuing to photograph the arch.
+
+**Spring is the best season overall.** The Zerhoun plain is green, the wildflowers are out around the site, and the temperature is comfortable enough to spend two hours walking on open ground. Autumn is a close second.
+
+**Winter** is quiet and cold and perfectly pleasant for walking, with a 5pm close. **Summer** is hard work in the middle of the day and fine at either end of it.
+
+## How Volubilis fits a route
+
+Volubilis, **Moulay Idriss**, and **Meknes** sit within about forty minutes of each other, and almost everyone visits them as one loop. Done from Fes as a day trip, that is a 10 to 11 hour day, most of it in a vehicle.
+
+It works far better as part of a journey that is already going that way. Coming south from Rabat, the three sit naturally on the road toward Fes, which is how our [Casablanca to Marrakech 5-day tour](/en/tours/casablanca-fes-sahara-marrakech-5day) handles it: Rabat in the morning, Volubilis and Meknes in the afternoon, Fes for the night. You see the same sites without a day of doubling back.
+
+Most five-day Casablanca-to-Marrakech itineraries sold online route through Chefchaouen instead. That is a good trip and a beautiful town, but it means skipping the Roman city entirely. If the ancient world is part of why you are coming to Morocco, check the itinerary before you book — the two routes share a start and a finish and very little in between.
+
+If you would rather see it from Marrakech, our [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) covers all four imperial capitals and takes in Volubilis on the way north.
+`,
+  },
+  {
+    slug: "meknes-moulay-idriss-guide",
+    author: MET_TEAM,
+    region: "imperial-cities",
+    title: "Meknes and Moulay Idriss: The Imperial City Everyone Drives Past",
+    excerpt:
+      "Meknes was the capital of Morocco for fifty-five years and has the gate to prove it. Most itineraries give it ninety minutes on the way to Fes. Here is what is actually there, and why the holy town on the hill above it is worth the detour.",
+    heroImage: "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-03",
+    tags: ["Meknes", "Moulay Idriss", "Bab Mansour", "imperial cities", "Morocco culture"],
+    seoTitle: "Meknes & Moulay Idriss: What to See",
+    seoDescription:
+      "Bab Mansour, the granaries of Moulay Ismail, and the holy town on the hill. What is worth your time in Morocco's least-visited imperial capital.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "agadir-imperial-cities-6day"],
+    faq: [
+      { q: "Is Meknes worth visiting, or should I just go to Fes?", a: "Both, if the route allows — they are an hour apart and completely different in character. Fes is the deeper experience and the harder one: a medina of nine thousand alleys where you will get lost and should. Meknes is an imperial capital at a manageable scale, and you can see its main sights in half a day without a guide. If you have one day, give it to Fes. If you are driving between Rabat and Fes anyway, stopping in Meknes costs you a few hours and adds a genuinely different city." },
+      { q: "How long do you need in Meknes?", a: "Half a day covers it properly: Bab Mansour and Place el-Hedim, the granaries at Heri es-Souani, the mausoleum of Moulay Ismail, and a walk through the medina. Ninety minutes — which is what most tours allow — gets you the gate, a photograph, and back in the vehicle. The granaries are the thing people skip when rushed and the thing they remember afterwards." },
+      { q: "Can non-Muslims visit Moulay Idriss?", a: "Yes. The town is open to all visitors and has been for decades; you can walk the streets, climb to the terrace viewpoints, and look down on the shrine from above. What is not open to non-Muslims is the shrine itself and the mausoleum at its centre. That boundary is clearly marked and locally observed — a low wooden bar across the lane tells you where to stop." },
+      { q: "How far is Moulay Idriss from Volubilis?", a: "About five kilometres — you can see the white town on its twin hills from the Roman site, and the drive takes ten minutes. Volubilis, Moulay Idriss and Meknes are usually done as one loop, and the geography makes it natural: the Roman city, the holy town founded partly from its stones, and the imperial capital that came a thousand years later, all within forty minutes." },
+      { q: "What is Heri es-Souani and is it worth the entry?", a: "The royal granaries: a vast vaulted store Moulay Ismail built inside his kasbah to hold grain and feed the city and its horses through a siege. Entry is around 10 dirhams, cash only, and hours run roughly 9-12 and 3-6:30. It is worth it — the scale is the point. Enormous arched halls with walls thick enough to keep grain cool through a Moroccan summer, and a roof that has partly fallen in, which makes it better rather than worse." },
+    ],
+    content: `
+## The city that stopped being the capital
+
+For fifty-five years Meknes was the capital of Morocco. **Sultan Moulay Ismail**, founder of the Alaouite dynasty — the family that still rules the country — built it into an imperial city on a scale meant to rival what he had heard of Versailles. Then the capital moved, and Meknes was left with the walls, the gates, the granaries and the stables of a court that had gone.
+
+That is why it feels the way it does. Meknes has imperial architecture at imperial scale and a fraction of the visitors of Fes or Marrakech. You can stand in front of its greatest monument without queuing.
+
+## Bab Mansour
+
+**Bab Mansour** is the reason most people stop, and it earns it. It is generally reckoned the finest gate in Morocco: a vast ceremonial arch facing Place el-Hedim, covered in zellij tilework, framed by marble columns the builders took from Volubilis up the road.
+
+It was a gate for a court, not for traffic — the point was what visitors felt approaching the sultan. That is still roughly the effect, and it is best in late afternoon when the light comes across the square onto the tilework rather than flattening it.
+
+Place el-Hedim in front of it is a working square, smaller and calmer than Jemaa el-Fna, with the food market along one side. It is a good place to sit for twenty minutes and watch a Moroccan city go about its evening.
+
+## The granaries, which are the real surprise
+
+**Heri es-Souani** is what people remember. Moulay Ismail built it inside the kasbah to store grain and provision the city and its horses through a siege — a vast complex of vaulted halls with walls thick enough to hold the temperature steady through summer.
+
+Part of the roof has collapsed over the centuries, so light falls in shafts through the arches into rooms that were designed to be dark. The result is one of the most photogenic interiors in Morocco, and it is nearly always quiet.
+
+Entry is about 10 dirhams, cash only. Opening hours run roughly 9am to noon and 3pm to 6:30pm — the midday closure catches people out, and it is the single most common reason visitors miss it.
+
+Next door are the ruins of the royal stables, built for a cavalry numbered in the thousands.
+
+## The mausoleum of Moulay Ismail
+
+The **mausoleum of Moulay Ismail** is one of the few active religious sites in Morocco that non-Muslims may enter, which makes it unusual and worth taking up. The courtyards are calm, the tilework is exceptional, and it gives you a sense of the man whose ambition explains everything else in the city.
+
+Dress conservatively, remove shoes where indicated, and keep your voice down — people are praying, and this is not a museum.
+
+## Moulay Idriss, on the hill
+
+Five kilometres from Volubilis, a white town drapes over two hilltops: **Moulay Idriss Zerhoun**, the holiest town in Morocco.
+
+It is built around the tomb of **Moulay Idriss I**, who brought Islam to Morocco in the eighth century and founded its first dynasty. For centuries non-Muslims could not stay here overnight. That restriction is long gone and the town now has guesthouses, but the atmosphere it produced has not entirely faded — this is a pilgrimage town first and a tourist destination second, which by Moroccan standards makes it exceptionally relaxed. Nobody is trying to sell you a carpet.
+
+**What to do:** climb. The town is steep and the reward is the terrace viewpoints, where you look down over the green-tiled roof of the shrine and out across the Zerhoun plain toward Volubilis. Everyone will point you toward them, and it takes about twenty minutes of uphill walking.
+
+**What you cannot do:** enter the shrine itself. Non-Muslims may walk the town freely but not pass into the sanctuary — a wooden bar across the lane marks the line clearly.
+
+## Doing all three
+
+Volubilis, Moulay Idriss and Meknes sit within about forty minutes of each other, and they make more sense together than separately: the Roman city, the holy town partly built from its stones, and the imperial capital that reused its marble a thousand years later.
+
+From Fes as a day trip that is a long day — 10 to 11 hours, most of it driving. It works far better as part of a route already heading that way. Our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes Rabat in the morning and Volubilis and Meknes in the afternoon, arriving in Fes for the night, so the sites cost you no extra day at all. The [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) does the same from Marrakech, covering all four capitals.
+
+If you want the detail on the Roman site before you go, our [guide to Volubilis](/en/blog/volubilis-roman-ruins-guide) covers what to look for and when to arrive.
+
+## A note on time
+
+The honest problem with Meknes is that it is an hour from Fes, and Fes is overwhelming in the best way. Most itineraries give Meknes ninety minutes because the schedule is built around getting to Fes before dark.
+
+If that is your situation, spend the ninety minutes on **Bab Mansour and the granaries** and skip the medina. The medina is pleasant and you will see a better one tomorrow. The granaries you will not see anywhere else.
+`,
+  },
+  {
+    slug: "casablanca-to-marrakech-tour-cost",
+    author: MET_TEAM,
+    region: "imperial-cities",
+    title: "How Much Does a 5-Day Casablanca to Marrakech Tour Cost?",
+    excerpt:
+      "Quoted prices for this route swing from about 500 to 1,850 euros per person, and the number usually means different things. Here is what changes the price, what our own ladder looks like by group size, and what is genuinely extra.",
+    heroImage: "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-03",
+    tags: ["Casablanca to Marrakech", "Morocco tour cost", "5 day Morocco", "private tour price", "Morocco itinerary"],
+    seoTitle: "Casablanca to Marrakech Tour Cost (5 Days)",
+    seoDescription:
+      "What a private 5-day Casablanca to Marrakech tour really costs, per person by group size, and why quotes range from 500 to 1,850 euros.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-fes-3day"],
+    faq: [
+      { q: "How much does a 5-day Casablanca to Marrakech tour cost?", a: "Advertised prices for this route run from roughly 500 to 1,850 euros per person, which tells you the number alone is close to meaningless. The spread is mostly group size and accommodation: the same vehicle and driver cost the same whether one person or six is in it, so the per-person figure falls sharply as the party grows. Our own private tour works out at 1,380 euros for one traveller and 470 per person for six, all-in for transport, guiding, accommodation and the desert camp." },
+      { q: "Why is a solo traveller charged so much more per person?", a: "Because a private tour prices a vehicle, a driver and five days of their time, and then divides. One person carries the whole cost; six people split it. Nothing about the trip gets cheaper with more people — the fuel, the tolls, the driver and the guide in Fes cost the same — so the per-person number is arithmetic, not a surcharge on solo travellers. If you are travelling alone and the private price is beyond your budget, a shared departure is the honest alternative." },
+      { q: "Is the transfer back to Casablanca included?", a: "No, and you should check this against any quote you compare. The tour finishes in Marrakech, which is the point of the route — you fly out from there. If you need to return to Casablanca afterwards we can arrange the transfer, but it is priced separately because most travellers do not need it. Some operators quote a Casablanca-to-Casablanca loop, which is a longer trip with a day of backtracking in it." },
+      { q: "What is not included in the price?", a: "Lunches, entry tickets to monuments, the local guide's tip, and anything you buy along the way. Entry fees are small individually — Volubilis is 70 dirhams, the Meknes granaries about 10 — but they add up across five days, so budget roughly 300 to 500 dirhams per person for the whole trip. Dinner and breakfast are included, as is the desert camp." },
+      { q: "Does the price change by season?", a: "Yes, mainly through accommodation. Riads in Fes and camps in the Erg Chebbi charge more over Christmas, New Year and Easter, and in the spring and autumn peaks. July and August are cheapest in the desert for the obvious reason that it is 45 degrees. We quote the real price for your dates rather than a headline low-season figure with conditions attached." },
+    ],
+    content: `
+## The honest answer first
+
+Search this route and you will find the same five days quoted at about **500 euros per person** and at **1,850 euros per person**. Both are real prices from real operators. Neither is lying.
+
+The number on its own is close to useless, because it is answering different questions. What actually moves it:
+
+**Group size**, more than anything else. A private tour buys a vehicle, a driver, and five days of their time. That cost is fixed. Whether it is divided by one person or by six is the single biggest factor in what you pay each.
+
+**Private or shared.** A seat on a shared departure is cheaper than a private vehicle, always. You trade flexibility and departure certainty for it.
+
+**Where you sleep.** A riad in the Fes medina and a standard hotel on the ring road are not the same product, and the gap between a basic desert camp and a luxury one is larger than most people expect.
+
+**What the quote leaves out.** This is where the cheapest numbers usually come from. Lunches, entry fees, guide tips and the return transfer are all commonly excluded, and a 500-euro quote that excludes them is not really a 500-euro trip.
+
+## Our prices for this route
+
+Our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) is private, and the per-person price falls as the party grows:
+
+| Travellers | Per person | Party total |
+|---|---|---|
+| 1 | €1,380 | €1,380 |
+| 2 | €825 | €1,650 |
+| 3 | €653 | €1,960 |
+| 4 | €592 | €2,369 |
+| 5 | €535 | €2,675 |
+| 6 | €470 | €2,819 |
+
+That covers private transport for the whole route, your driver, accommodation with breakfast and dinner, the local guide for the day in Fes, and the desert camp with the camel trek at Erg Chebbi.
+
+**A deposit of 22% confirms the booking**; the balance is paid in Morocco. That is the same structure across everything we run, and our [guide to how booking works](/en/blog/how-booking-a-morocco-tour-works) walks through the sequence.
+
+## Why solo travel costs what it does
+
+The steepest drop in that table is between one traveller and two — 1,380 down to 825 each.
+
+Nothing about the trip changes. The vehicle is the same, the driver works the same five days, the guide in Fes charges the same, and the fuel and tolls are identical. The only difference is how many people the cost divides between.
+
+This is worth saying plainly because a solo quote can look like a penalty. It is not. If the private price is more than you want to spend on your own, the honest options are to travel on a shared departure or to bring someone.
+
+## What is genuinely extra
+
+**Lunches.** Dinner and breakfast are in; lunch is not, because it stops where the day's driving puts you and it is better that you choose.
+
+**Entry fees.** Volubilis is 70 dirhams. The granaries at Meknes are about 10. The Fes monuments vary. Across five days, budget roughly 300-500 dirhams per person.
+
+**The transfer back to Casablanca.** The tour ends in Marrakech deliberately — you fly home from there. If you need to get back to Casablanca we will arrange it, priced separately. Check this against other quotes: a Casablanca-to-Casablanca loop is a different, longer trip with backtracking built in.
+
+**Tips.** Customary, not obligatory, and entirely your call.
+
+## Comparing quotes properly
+
+Three questions cut through most of the confusion:
+
+**1. Is the price per person or per party?** Some operators quote the vehicle. Ours are per person, and the table above shows both so there is nothing to work out.
+
+**2. Where exactly do we sleep?** Not the category — the name. "Riad in Fes" covers an enormous range. In our experience people do not commit until the accommodation is named, and an operator who will not name it before deposit is telling you something.
+
+**3. Which way does it route?** Most five-day Casablanca-to-Marrakech itineraries online go via **Chefchaouen**. Ours goes via **Rabat, Volubilis and Meknes** — the Roman city and the imperial capital instead of the blue town. Both are good trips. They are not the same trip, and comparing their prices without noticing that is comparing two different holidays.
+
+If you want the detail on what the northern route actually contains, see our guides to [Volubilis](/en/blog/volubilis-roman-ruins-guide) and to [Meknes and Moulay Idriss](/en/blog/meknes-moulay-idriss-guide).
+
+## Is five days enough?
+
+For this route, yes, with one caveat: it is a genuine drive. Casablanca to the Sahara and back up to Marrakech covers a lot of Morocco, and days three and four have real distance in them.
+
+What you get for that is the country's range in one trip — Atlantic coast, Roman ruins, the largest car-free medina in the world, the Middle Atlas, and the Erg Chebbi dunes. If your flights are fixed and your time is five days, this route uses them about as efficiently as Morocco allows.
+
+If you would rather stay slower and go deeper on the cities, the [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) covers the same historic ground without the desert leg. And if the point of the trip is the Sahara, our [group-size guide](/en/blog/morocco-tour-price-group-size) explains how the same arithmetic plays out across every desert itinerary we run.
+`,
+  },
+  {
+    slug: "fly-into-casablanca-out-of-marrakech",
+    author: MET_TEAM,
+    region: "root",
+    title: "Fly Into Casablanca, Out of Marrakech: Is It Worth It?",
+    excerpt:
+      "Two different airports, one trip, and no day wasted doubling back. When an open-jaw booking makes sense in Morocco, when it costs more than it saves, and how to get between the two cities if you do it yourself.",
+    heroImage: "/gallery/rabat-hassan-tower-columns.jpg",
+    category: "tips",
+    readTime: 7,
+    publishedAt: "2026-09-03",
+    tags: ["open jaw flights", "Casablanca airport", "Marrakech airport", "Morocco itinerary", "Morocco travel tips"],
+    seoTitle: "Fly Into Casablanca, Out of Marrakech",
+    seoDescription:
+      "Arriving at one Moroccan airport and leaving from another saves a day of backtracking. When it works, what it costs, and how to travel between the two.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-fes-3day"],
+    faq: [
+      { q: "Can you fly into Casablanca and out of Marrakech?", a: "Yes. Book it as a multi-city or open-jaw ticket rather than two one-ways — most airlines and booking sites handle it as a single fare, and it is often close to the price of a return. Casablanca Mohammed V is Morocco's largest airport with the widest long-haul network, and Marrakech Menara has heavy short-haul traffic from Europe, so the combination works especially well if you are coming from outside Europe and leaving to it." },
+      { q: "Is an open-jaw ticket more expensive?", a: "Sometimes slightly, often not at all, and occasionally cheaper than a return into a single airport. It depends entirely on the route. What it reliably saves is a day: with a return into one city, a trip that crosses the country has to come back the way it went, and that backtrack is usually four to six hours of driving that buys you nothing." },
+      { q: "How do you get from Casablanca to Marrakech if you are travelling independently?", a: "The train. ONCF runs the Al Atlas service between Casa Voyageurs and Marrakech in roughly 2 hours 40 to 3 hours, with up to ten departures a day. It is comfortable, cheap and reliable, and it is the way most Moroccans make the trip. Note that Morocco's high-speed Al Boraq line does not serve Marrakech — it runs north from Casablanca through Rabat and Kenitra to Tangier." },
+      { q: "Which airport should I arrive at?", a: "Whichever has the better flight from where you live, which for long-haul is usually Casablanca. Mohammed V has the broadest international network, including direct routes from North America. Marrakech Menara is dense with European short-haul. If a tour is meeting you either way, the airport matters less than the flight time and price." },
+      { q: "Do we have to end in Marrakech, or can you take us back to Casablanca?", a: "Our 5-day route deliberately ends in Marrakech so you can fly out from there. If your ticket returns from Casablanca we can arrange the transfer at the end, but it is charged separately rather than built into the price, because most travellers on this route do not need it. It is worth pricing that transfer before you book flights — it may be cheaper to change the ticket." },
+    ],
+    content: `
+## The problem with returning to where you started
+
+Most Morocco itineraries are loops. You land in Marrakech, drive out to the desert, and drive back to Marrakech — and the return leg is often the same road in reverse.
+
+For a desert trip that is fine; there is no other way to reach the Erg Chebbi and get back to a plane. But for a trip that crosses the country, the loop costs you a full day. Casablanca to Fes to the Sahara to Marrakech is a natural line across Morocco, and the only reason to turn around at the end is that your ticket says so.
+
+An **open-jaw** ticket — into one airport, out of another — removes that. It is the single most useful booking trick for Morocco and a surprising number of people do not know it is available.
+
+## How to book it
+
+Look for **multi-city** rather than return on any booking site. You enter your home airport to Casablanca, then Marrakech back to your home airport, and it prices as one ticket.
+
+Two things worth knowing:
+
+**It is usually not much more than a return**, and sometimes less. It varies by route and airline, so check rather than assume in either direction.
+
+**Do not book two separate one-ways** unless the price is clearly better. A single ticket keeps the airline responsible for the whole journey if a leg is delayed; two tickets do not.
+
+## The two airports are genuinely different
+
+**Casablanca Mohammed V** is Morocco's largest and busiest airport, with the widest international network — including direct long-haul routes that Marrakech does not have. If you are flying from North America or further afield, this is very often where your only non-stop lands.
+
+**Marrakech Menara** is dense with short-haul European traffic. Budget carriers from across Europe fly here several times a day, frequently cheaper than to Casablanca.
+
+Put those two facts together and the pattern is clear: **long-haul in, European short-haul out** is a common and sensible combination — arriving from far away at the airport with the connections, leaving on the cheap dense route.
+
+## Where the trip actually goes
+
+The reason this pairing works so well for Morocco is geography. Casablanca is on the Atlantic coast in the north. Marrakech is inland to the south. The country's great historic sites sit along the line between them, and the desert sits at the bottom of it.
+
+Landing at Casablanca lets a trip run **Rabat, Volubilis, Meknes, Fes, the Middle Atlas, Erg Chebbi, the Dades valley, Ait Ben Haddou, Marrakech** as a single forward line, never repeating a road. That is what our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) does, and it is only possible because it does not have to return to its starting point.
+
+Do the same trip as a loop from Marrakech and you spend a day getting north before the itinerary begins.
+
+## Getting between the cities yourself
+
+If you are travelling independently rather than on a tour, the two cities are well connected.
+
+**The train is the answer.** ONCF's Al Atlas service runs Casa Voyageurs to Marrakech in roughly **2 hours 40 minutes to 3 hours**, with up to ten departures a day. It is comfortable, inexpensive, and the way most Moroccans travel between the two.
+
+One correction worth making, because it appears in a lot of travel writing: **Morocco's high-speed Al Boraq line does not serve Marrakech.** Al Boraq runs north from Casablanca through Rabat and Kenitra to Tangier. Southward extension toward Marrakech and Agadir is planned but not running. The Casablanca-Marrakech journey is a conventional intercity train, and a good one.
+
+**Driving** takes about three hours on the A7 toll road. **Private transfer** is the most flexible and the most expensive.
+
+## When an open-jaw is the wrong call
+
+It is not always right.
+
+**If your trip is desert-only**, you are coming back toward Marrakech anyway, and a return ticket into Marrakech is simpler and usually cheaper. Our desert itineraries all start and finish there for that reason.
+
+**If the fare difference is large.** Check it. Occasionally an open-jaw prices badly on a particular route, and if the gap is bigger than what a transfer would cost, take the return and add the train.
+
+**If you are staying in one region.** Someone spending a week in the Atlas or on the coast near Agadir gains nothing from two airports.
+
+## Practical checklist
+
+**Book multi-city, not two one-ways.**
+
+**Check the visa and entry rules once**, not per airport — they are national, and leaving from a different city changes nothing.
+
+**Tell your tour operator which airport and what time.** We collect from Casablanca and finish in Marrakech as standard on that route, but the pickup point is worth confirming in writing rather than assuming.
+
+**Price the return transfer before you book flights** if your ticket has to come back from Casablanca. Sometimes changing the flight is cheaper than the drive.
+
+For the wider picture on trains, buses and internal flights, see our [guide to getting around Morocco](/en/blog/getting-around-morocco-transport-guide). For what the northern route costs, our [Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost) breaks it down by group size.
 `,
   },
 ];

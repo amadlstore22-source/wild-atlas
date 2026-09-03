@@ -1433,11 +1433,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "El desierto más remoto de Marruecos — Erg Chegaga exige un trayecto en 4x4 campo a través, más allá de la última carretera asfaltada, hasta dunas de 120 m sobre un vasto e inhabitado mar de arena.",
     description:
-      "Erg Chegaga es el Sáhara que la mayoría de los turistas nunca encuentran. A diferencia de Erg Chebbi, cerca de Merzouga —donde las caravanas de camellos se cruzan a la vista de los hoteles—, Chegaga exige un trayecto en 4x4 campo a través, más allá del final del asfalto en M'Hamid, el último pueblo antes del auténtico Sáhara. El campo de dunas se extiende kilómetros con apenas otra alma a la vista. Tres días desde Marrakech pasando por Aït Ben Haddou, el Valle del Azafrán de Taliouine y el borde del mundo conocido, seguidos de dos noches en pleno desierto, donde el silencio es el único sonido.",
+      "Erg Chegaga es el Sáhara que la mayoría de los turistas nunca encuentran. A diferencia de Erg Chebbi, cerca de Merzouga —donde las caravanas de camellos se cruzan a la vista de los hoteles—, Chegaga exige un trayecto en 4x4 campo a través, más allá del final del asfalto en M'Hamid, el último pueblo antes del auténtico Sáhara. El campo de dunas se extiende kilómetros con apenas otra alma a la vista. Tres días desde Marrakech pasando por Aït Ben Haddou, el Valle del Azafrán de Taliouine y el borde del mundo conocido, seguidos de una noche en pleno desierto, donde el silencio es el único sonido.",
     highlights: [
       "Erg Chegaga — menos turistas, dunas de 120 m, un silencio profundo",
       "Cruce del desierto en 4x4 campo a través desde M'Hamid hasta el campo de dunas",
-      "2 noches en un campamento del desierto sin otro campamento a la vista",
+      "Una noche en un campamento del desierto sin otro campamento a la vista",
       "Valle del Azafrán de Taliouine — la capital de las especias de Marruecos",
       "Ksar de Aït Ben Haddou, Patrimonio de la UNESCO",
       "Paseos en camello al amanecer y al atardecer en un rincón privado del Sáhara",
@@ -1446,7 +1446,7 @@ export const TOURS: Tour[] = [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía del desierto con experiencia en conducción todoterreno",
       "1 noche de hotel en M'Hamid o en el valle del Dades",
-      "2 noches en campamento bereber en el desierto (todas las comidas)",
+      "1 noche en campamento bereber en el desierto (todas las comidas)",
       "All camel treks",
       "Agua mineral y té de menta",
     ],
@@ -1502,7 +1502,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Tour de Desierto de 3 Días a Erg Chegaga desde Marrakech — Dunas Remotas y Expedición en 4x4 al Sáhara | Marrakech Eco Tours",
-    seoDescription: "La experiencia más remota del desierto de Marruecos — 3 días desde Marrakech a Erg Chegaga vía cruce en 4x4, 2 noches en un campamento bereber privado. Sin multitudes, dunas de 120 m. Desde 320 $.",
+    seoDescription: "La experiencia más remota del desierto de Marruecos — 3 días desde Marrakech a Erg Chegaga vía cruce en 4x4, una noche en un campamento bereber privado. Sin multitudes, dunas de 120 m. Desde 320 $.",
   },
   {
     id: "25",
@@ -1810,11 +1810,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "La mejor ruta de Agadir al Sáhara — hacia el sur, por las estribaciones del Antiatlas y el valle del Draa, hasta llegar en 4x4 a Erg Chegaga, el campo de dunas más remoto de Marruecos.",
     description:
-      "Desde Agadir, la ruta hacia Erg Chegaga es la más natural de Marruecos. Dirígete hacia el sur por las estribaciones del Antiatlas, vía Tata y Foum Zguid, entrando al borde del Sáhara desde el oeste, un enfoque muy distinto al de la ruta habitual desde Marrakech. Erg Chegaga es el Sáhara para quienes quieren menos turistas, dunas de mayor extensión total y una sensación más genuina de naturaleza salvaje. El cruce en 4x4 desde M'Hamid forma parte de la aventura. Dos noches en pleno desierto, lejos de todo.",
+      "Desde Agadir, la ruta hacia Erg Chegaga es la más natural de Marruecos. Dirígete hacia el sur por las estribaciones del Antiatlas, vía Tata y Foum Zguid, entrando al borde del Sáhara desde el oeste, un enfoque muy distinto al de la ruta habitual desde Marrakech. Erg Chegaga es el Sáhara para quienes quieren menos turistas, dunas de mayor extensión total y una sensación más genuina de naturaleza salvaje. El cruce en 4x4 desde M'Hamid forma parte de la aventura. Una noche en pleno desierto, lejos de todo.",
     highlights: [
       "Erg Chegaga — el campo de dunas más remoto de Marruecos, al que se llega en 4x4",
       "Enfoque sur único vía las estribaciones del Antiatlas y Tata",
-      "2 noches en un campamento bereber sin otro campamento a la vista",
+      "Una noche en un campamento bereber sin otro campamento a la vista",
       "Regreso por el valle del Draa — corredor completo de 200 km de oasis",
       "Paseos en camello al atardecer y al amanecer en dunas vastas y vacías",
       "Algunos de los cielos más oscuros del norte de África para observar estrellas",
@@ -1823,7 +1823,7 @@ export const TOURS: Tour[] = [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía del desierto con experiencia en conducción todoterreno",
       "1 noche de alojamiento en Foum Zguid o M'Hamid",
-      "2 noches en campamento bereber en Erg Chegaga (todas las comidas)",
+      "1 noche en campamento bereber en Erg Chegaga (todas las comidas)",
       "All camel treks",
       "Agua mineral y té durante todo el recorrido",
     ],
@@ -1867,15 +1867,15 @@ export const TOURS: Tour[] = [
       },
     ],
     faq: [
-      { q: "¿En qué se diferencia Erg Chegaga de otros viajes al desierto?", a: "Erg Chegaga es el campo de dunas más salvaje y menos visitado, al que se llega en 4x4 todoterreno. Este viaje está clasificado como moderado y pasa dos noches en el campamento del desierto allí: más remoto que las rutas de Zagora o Merzouga." },
-      { q: "¿Dónde se duerme?", a: "Una noche en Foum Zguid o M'Hamid y dos noches en el campamento bereber del desierto en Erg Chegaga, con todas las comidas incluidas en el campamento." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado con un guía del desierto experto en todoterreno, las tres noches descritas (dos en campamento con todas las comidas), todos los paseos en camello, y agua mineral y té durante todo el viaje. Los almuerzos de los días 1 y 3, el seguro de viaje personal y las propinas no están incluidos." },
+      { q: "¿En qué se diferencia Erg Chegaga de otros viajes al desierto?", a: "Erg Chegaga es el campo de dunas más salvaje y menos visitado, al que se llega en 4x4 todoterreno. Este viaje está clasificado como moderado y llega a un campamento en pleno erg: más remoto que las rutas de Zagora o Merzouga." },
+      { q: "¿Dónde se duerme?", a: "Una noche en Foum Zguid o M'Hamid y una noche en el campamento bereber del desierto en Erg Chegaga, con todas las comidas incluidas en el campamento." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado con un guía del desierto experto en todoterreno, las dos noches descritas (una en campamento con todas las comidas), todos los paseos en camello, y agua mineral y té durante todo el viaje. Los almuerzos de los días 1 y 3, el seguro de viaje personal y las propinas no están incluidos." },
       { q: "¿Por qué está clasificado como moderado?", a: "El aislamiento y el largo trayecto todoterreno para llegar a Erg Chegaga lo hacen más exigente que los circuitos de desierto fáciles, aunque no es un trek." },
     ],
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Tour de Desierto de 3 Días de Agadir a Erg Chegaga — Sáhara Remoto y Expedición en 4x4 | Marrakech Eco Tours",
-    seoDescription: "El desierto más remoto de Marruecos desde Agadir — 3 días por el Antiatlas hasta Erg Chegaga en 4x4, 2 noches en un campamento bereber privado. Menos turistas, más silencio. Desde 345 $.",
+    seoDescription: "El desierto más remoto de Marruecos desde Agadir — 3 días por el Antiatlas hasta Erg Chegaga en 4x4, una noche en un campamento bereber privado. Menos turistas, más silencio. Desde 345 $.",
   },
   {
     id: "29",

@@ -1860,11 +1860,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Morocco's most remote desert — Erg Chegaga requires a 4x4 off-road journey past the last paved road to reach dunes rising 120 m above a vast and unpopulated sea of sand.",
     description:
-      "Erg Chegaga is the Sahara that most tourists never find. Unlike Erg Chebbi near Merzouga — where camel trains file past each other in view of hotels — Chegaga requires an off-road 4x4 journey beyond the end of the tarmac at M'Hamid, the last village before the true Sahara. The dune field stretches for kilometres with barely another soul in sight. Three days from Marrakech through Aït Ben Haddou, the Saffron Valley of Taliouine, and the edge of the known world — then two nights deep in the desert where silence is the only sound.",
+      "Erg Chegaga is the Sahara that most tourists never find. Unlike Erg Chebbi near Merzouga — where camel trains file past each other in view of hotels — Chegaga requires an off-road 4x4 journey beyond the end of the tarmac at M'Hamid, the last village before the true Sahara. The dune field stretches for kilometres with barely another soul in sight. Three days from Marrakech through Aït Ben Haddou, the Saffron Valley of Taliouine, and the edge of the known world — then a night deep in the desert where silence is the only sound.",
     highlights: [
       "Erg Chegaga — fewer tourists, 120 m dunes, profound silence",
       "4x4 off-road desert crossing from M'Hamid into the dune field",
-      "2 nights in a desert camp with no other camps in sight",
+      "A night in a desert camp with no other camps in sight",
       "Saffron Valley of Taliouine — Morocco's spice capital",
       "UNESCO Ksar of Aït Ben Haddou",
       "Sunrise and sunset camel treks in a private corner of the Sahara",
@@ -1873,7 +1873,7 @@ export const TOURS: Tour[] = [
       "Private 4x4 transport throughout",
       "Experienced desert guide with off-road expertise",
       "1 night hotel in M'Hamid or Dades Valley",
-      "2 nights Berber desert camp (all meals)",
+      "1 night Berber desert camp (all meals)",
       "All camel treks",
       "Mineral water and mint tea",
     ],
@@ -1930,7 +1930,7 @@ export const TOURS: Tour[] = [
     featured: true,
     seoTitle: "Erg Chegaga 3-Day Desert Tour | Marrakech Eco Tours",
     seoDescription:
-      "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga by 4x4, 2 nights in a private Berber camp. From $324 pp for 5+.",
+      "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga by 4x4, a night in a private Berber camp. From $324 pp for 5+.",
   },
   {
     id: "25",
@@ -2294,11 +2294,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Agadir's best Sahara route — south through the Anti-Atlas foothills and Draa Valley to reach Erg Chegaga, Morocco's most remote dune field, by 4x4.",
     description:
-      "From Agadir, the route to Erg Chegaga is the most natural in Morocco. Head south through the Anti-Atlas foothills via Tata and Foum Zguid, entering the edge of the Sahara from the west — a very different approach than the standard Marrakech route. Erg Chegaga is the Sahara for those who want fewer tourists, larger dunes in total, and a more genuine feeling of wilderness. The 4x4 crossing from M'Hamid is part of the adventure. Two nights deep in the desert, away from everything.",
+      "From Agadir, the route to Erg Chegaga is the most natural in Morocco. Head south through the Anti-Atlas foothills via Tata and Foum Zguid, entering the edge of the Sahara from the west — a very different approach than the standard Marrakech route. Erg Chegaga is the Sahara for those who want fewer tourists, larger dunes in total, and a more genuine feeling of wilderness. The 4x4 crossing from M'Hamid is part of the adventure. A night deep in the desert, away from everything.",
     highlights: [
       "Erg Chegaga — Morocco's most remote dune field, reached by 4x4",
       "Unique southern approach via Anti-Atlas foothills and Tata",
-      "2 nights in a Berber camp with no other camps in sight",
+      "A night in a Berber camp with no other camps in sight",
       "Draa Valley return — full 200 km oasis corridor",
       "Sunset and sunrise camel treks on vast, empty dunes",
       "Some of the darkest skies in North Africa for stargazing",
@@ -2307,7 +2307,7 @@ export const TOURS: Tour[] = [
       "Private 4x4 transport throughout",
       "Experienced desert guide with off-road expertise",
       "1 night accommodation in Foum Zguid or M'Hamid",
-      "2 nights Berber desert camp at Erg Chegaga (all meals)",
+      "1 night Berber desert camp at Erg Chegaga (all meals)",
       "All camel treks",
       "Mineral water and tea throughout",
     ],
@@ -2351,16 +2351,16 @@ export const TOURS: Tour[] = [
       },
     ],
     faq: [
-      { q: "How is Erg Chegaga different from other desert trips?", a: "Erg Chegaga is the wilder, less-visited big dune field, reached by off-road 4x4. This trip is graded moderate and spends two nights at a desert camp there — more remote than the Zagora or Merzouga routes." },
-      { q: "Where do we stay?", a: "One night in Foum Zguid or M'Hamid and two nights at the Berber desert camp at Erg Chegaga with all meals included at the camp." },
-      { q: "What is included?", a: "Private 4x4 transport with an off-road-experienced desert guide, the three nights described (two at camp with all meals), all camel treks, and mineral water and tea throughout. Lunches on days 1 and 3, personal travel insurance, and tips are not included." },
+      { q: "How is Erg Chegaga different from other desert trips?", a: "Erg Chegaga is the wilder, less-visited big dune field, reached by off-road 4x4. This trip is graded moderate and reaches a camp deep in the erg — more remote than the Zagora or Merzouga routes." },
+      { q: "Where do we stay?", a: "One night in Foum Zguid or M'Hamid and one night at the Berber desert camp at Erg Chegaga, with all meals included at the camp." },
+      { q: "What is included?", a: "Private 4x4 transport with an off-road-experienced desert guide, the two nights described (one at camp with all meals), all camel treks, and mineral water and tea throughout. Lunches on days 1 and 3, personal travel insurance, and tips are not included." },
       { q: "Why is it graded moderate?", a: "The remoteness and long off-road driving to reach Erg Chegaga make it more involved than the easy desert circuits, though it is not a trek." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
     seoTitle: "Agadir to Erg Chegaga 3-Day Desert Tour | Marrakech Eco Tours",
     seoDescription:
-      "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, 2 nights in a private Berber camp. From $324 pp for 5+.",
+      "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, a night in a private Berber camp. From $324 pp for 5+.",
   },
   {
     id: "29",

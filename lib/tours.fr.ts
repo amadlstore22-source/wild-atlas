@@ -1442,11 +1442,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Le désert le plus reculé du Maroc — l'Erg Chegaga exige un trajet hors piste en 4x4 au-delà de la dernière route goudronnée pour atteindre des dunes s'élevant à 120 m au-dessus d'une mer de sable vaste et déserte.",
     description:
-      "L'Erg Chegaga, c'est le Sahara que la plupart des touristes ne trouvent jamais. Contrairement à l'Erg Chebbi près de Merzouga — où les caravanes de chameaux se croisent à la vue des hôtels — Chegaga exige un trajet hors piste en 4x4 au-delà de la fin du bitume à M'Hamid, dernier village avant le vrai Sahara. Le champ de dunes s'étend sur des kilomètres, presque sans âme qui vive. Trois jours au départ de Marrakech, via Aït Ben Haddou, la vallée du safran de Taliouine, et le bout du monde connu — puis deux nuits au cœur du désert, où le silence est le seul bruit.",
+      "L'Erg Chegaga, c'est le Sahara que la plupart des touristes ne trouvent jamais. Contrairement à l'Erg Chebbi près de Merzouga — où les caravanes de chameaux se croisent à la vue des hôtels — Chegaga exige un trajet hors piste en 4x4 au-delà de la fin du bitume à M'Hamid, dernier village avant le vrai Sahara. Le champ de dunes s'étend sur des kilomètres, presque sans âme qui vive. Trois jours au départ de Marrakech, via Aït Ben Haddou, la vallée du safran de Taliouine, et le bout du monde connu — puis une nuit au cœur du désert, où le silence est le seul bruit.",
     highlights: [
       "Erg Chegaga — moins de touristes, dunes de 120 m, silence profond",
       "Traversée désertique hors piste en 4x4 depuis M'Hamid jusqu'au champ de dunes",
-      "2 nuits dans un camp désertique sans aucun autre camp en vue",
+      "Une nuit dans un camp désertique sans aucun autre camp en vue",
       "Vallée du safran de Taliouine — la capitale des épices du Maroc",
       "Ksar d'Aït Ben Haddou classé à l'UNESCO",
       "Balades à dos de chameau au lever et au coucher du soleil dans un coin privé du Sahara",
@@ -1455,7 +1455,7 @@ export const TOURS: Tour[] = [
       "Transport privé en 4x4 sur tout le circuit",
       "Guide du désert expérimenté, spécialiste de la conduite hors-piste",
       "1 nuit à l'hôtel à M'Hamid ou dans la vallée du Dadès",
-      "2 nuits en campement berbère dans le désert (tous les repas)",
+      "1 nuit en campement berbère dans le désert (tous les repas)",
       "All camel treks",
       "Eau minérale et thé à la menthe",
     ],
@@ -1511,7 +1511,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Circuit désert de 3 jours à l'Erg Chegaga au départ de Marrakech — Dunes reculées et expédition 4x4 dans le Sahara | Marrakech Eco Tours",
-    seoDescription: "L'expérience désertique la plus reculée du Maroc — 3 jours de Marrakech à l'Erg Chegaga via une traversée hors piste en 4x4, 2 nuits dans un camp berbère privé. Sans foule, dunes de 120 m. À partir de 320 $.",
+    seoDescription: "L'expérience désertique la plus reculée du Maroc — 3 jours de Marrakech à l'Erg Chegaga via une traversée hors piste en 4x4, une nuit dans un camp berbère privé. Sans foule, dunes de 120 m. À partir de 320 $.",
   },
   {
     id: "25",
@@ -1819,11 +1819,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "La meilleure route saharienne au départ d'Agadir — vers le sud à travers les contreforts de l'Anti-Atlas et la vallée du Drâa pour atteindre en 4x4 l'Erg Chegaga, le champ de dunes le plus reculé du Maroc.",
     description:
-      "Depuis Agadir, la route vers l'Erg Chegaga est la plus naturelle du Maroc. Direction le sud à travers les contreforts de l'Anti-Atlas via Tata et Foum Zguid, en entrant dans le Sahara par l'ouest — une approche très différente de l'itinéraire classique au départ de Marrakech. L'Erg Chegaga, c'est le Sahara pour ceux qui veulent moins de touristes, davantage de dunes au total, et un sentiment de nature sauvage plus authentique. La traversée en 4x4 depuis M'Hamid fait partie de l'aventure. Deux nuits au cœur du désert, loin de tout.",
+      "Depuis Agadir, la route vers l'Erg Chegaga est la plus naturelle du Maroc. Direction le sud à travers les contreforts de l'Anti-Atlas via Tata et Foum Zguid, en entrant dans le Sahara par l'ouest — une approche très différente de l'itinéraire classique au départ de Marrakech. L'Erg Chegaga, c'est le Sahara pour ceux qui veulent moins de touristes, davantage de dunes au total, et un sentiment de nature sauvage plus authentique. La traversée en 4x4 depuis M'Hamid fait partie de l'aventure. Une nuit au cœur du désert, loin de tout.",
     highlights: [
       "Erg Chegaga — le champ de dunes le plus reculé du Maroc, atteint en 4x4",
       "Approche méridionale unique via les contreforts de l'Anti-Atlas et Tata",
-      "2 nuits dans un camp berbère sans aucun autre camp en vue",
+      "Une nuit dans un camp berbère sans aucun autre camp en vue",
       "Retour par la vallée du Drâa — corridor complet de 200 km d'oasis",
       "Balades à dos de chameau au coucher et au lever du soleil sur de vastes dunes désertes",
       "Parmi les ciels les plus sombres d'Afrique du Nord pour l'observation des étoiles",
@@ -1832,7 +1832,7 @@ export const TOURS: Tour[] = [
       "Transport privé en 4x4 sur tout le circuit",
       "Guide du désert expérimenté, spécialiste de la conduite hors-piste",
       "1 nuit d'hébergement à Foum Zguid ou M'Hamid",
-      "2 nuits en campement berbère à l'Erg Chegaga (tous les repas)",
+      "1 nuit en campement berbère à l'Erg Chegaga (tous les repas)",
       "All camel treks",
       "Eau minérale et thé tout au long du circuit",
     ],
@@ -1876,15 +1876,15 @@ export const TOURS: Tour[] = [
       },
     ],
     faq: [
-      { q: "En quoi l'Erg Chegaga diffère-t-il des autres circuits désertiques ?", a: "L'Erg Chegaga est le champ de dunes plus sauvage et moins fréquenté, atteint en 4x4 tout-terrain. Ce circuit est classé modéré et passe deux nuits au camp du désert sur place — plus reculé que les itinéraires de Zagora ou de Merzouga." },
-      { q: "Où dort-on ?", a: "Une nuit à Foum Zguid ou M'Hamid et deux nuits au camp berbère du désert à l'Erg Chegaga, tous les repas inclus au camp." },
-      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé avec un guide du désert expérimenté en tout-terrain, les trois nuits décrites (deux au camp avec tous les repas), toutes les balades à dos de chameau, ainsi que l'eau minérale et le thé tout au long. Les déjeuners des jours 1 et 3, l'assurance voyage personnelle et les pourboires ne sont pas inclus." },
+      { q: "En quoi l'Erg Chegaga diffère-t-il des autres circuits désertiques ?", a: "L'Erg Chegaga est le champ de dunes plus sauvage et moins fréquenté, atteint en 4x4 tout-terrain. Ce circuit est classé modéré et rejoint un camp au cœur de l'erg — plus reculé que les itinéraires de Zagora ou de Merzouga." },
+      { q: "Où dort-on ?", a: "Une nuit à Foum Zguid ou M'Hamid et une nuit au camp berbère du désert à l'Erg Chegaga, tous les repas inclus au camp." },
+      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé avec un guide du désert expérimenté en tout-terrain, les deux nuits décrites (une au camp avec tous les repas), toutes les balades à dos de chameau, ainsi que l'eau minérale et le thé tout au long. Les déjeuners des jours 1 et 3, l'assurance voyage personnelle et les pourboires ne sont pas inclus." },
       { q: "Pourquoi est-il classé modéré ?", a: "L'isolement et le long trajet tout-terrain pour atteindre l'Erg Chegaga le rendent plus engagé que les circuits désertiques faciles, bien que ce ne soit pas un trek." },
     ],
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Circuit désert de 3 jours d'Agadir à l'Erg Chegaga — Sahara reculé et expédition 4x4 | Marrakech Eco Tours",
-    seoDescription: "Le désert le plus reculé du Maroc au départ d'Agadir — 3 jours à travers l'Anti-Atlas jusqu'à l'Erg Chegaga en 4x4, 2 nuits dans un camp berbère privé. Moins de touristes, plus de silence. À partir de 345 $.",
+    seoDescription: "Le désert le plus reculé du Maroc au départ d'Agadir — 3 jours à travers l'Anti-Atlas jusqu'à l'Erg Chegaga en 4x4, une nuit dans un camp berbère privé. Moins de touristes, plus de silence. À partir de 345 $.",
   },
   {
     id: "29",

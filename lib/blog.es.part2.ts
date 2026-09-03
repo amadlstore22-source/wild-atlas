@@ -3580,7 +3580,7 @@ viaje al desierto desde la costa cuesta distinto que el mismo viaje desde Marrak
 | Ruta | Precio p.p. | Noches | Llega a |
 |---|---|---|---|
 | [2 días Erg Chegaga](/es/tours/sahara-2day-agadir) | 225 € | 1 (campamento) | Erg Chegaga |
-| [3 días Erg Chegaga, privado](/es/tours/erg-chegaga-3day-agadir) | 327 € | 2 (campamento) | Erg Chegaga |
+| [3 días Erg Chegaga, privado](/es/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hotel + campamento) | Erg Chegaga |
 | [4 días Erg Chebbi](/es/tours/desert-4day-agadir) | 482 € | 3 (hotel + campamento + hotel) | Merzouga |
 
 ## El viaje de 2 días, con honestidad
@@ -3603,7 +3603,7 @@ coger el de 3 días, no esperar que el de 2 se sienta distinto.
 La [ruta de 3 días](/es/tours/erg-chegaga-3day-agadir) cuesta 327 € frente a 179 €, lo que
 parece mucho por un día más. Cambian tres cosas:
 
-- **Dos noches en el Erg Chegaga** en lugar de una, así que la carretera se amortiza en más tiempo de desierto
+- **La carretera se reparte en dos días**, con una noche de hotel en Foum Zguid, en lugar de 8 h de ida y 8 h de vuelta en días consecutivos
 - **4x4 privado** con guía especializado en todoterreno, en vez de transporte compartido
 - **Grupo más pequeño** — de 2 a 8 en lugar de 2 a 10
 

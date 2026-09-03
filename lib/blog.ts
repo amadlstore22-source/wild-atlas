@@ -5860,7 +5860,7 @@ desert trip costs differently from the same trip out of Marrakech.
 | Route | Price pp | Nights | Reaches |
 |---|---|---|---|
 | [2-day Erg Chegaga](/en/tours/sahara-2day-agadir) | €243 | 1 (camp) | Erg Chegaga |
-| [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €327 | 2 (both camp) | Erg Chegaga |
+| [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €327 | 2 (hotel + camp) | Erg Chegaga |
 | [4-day Erg Chebbi](/en/tours/desert-4day-agadir) | €519 | 3 (hotel + camp + hotel) | Merzouga |
 
 ## The 2-day trip, honestly
@@ -5883,7 +5883,7 @@ to take the 3-day rather than to expect the 2-day to feel different.
 The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €327 against €179 which looks
 steep for one extra day. Three things change:
 
-- **Two nights at Erg Chegaga** rather than one, so the driving is amortised over more desert time
+- **The drive is split over two days** with a hotel night in Foum Zguid, rather than 8 hours out and 8 hours back on consecutive days
 - **Private 4x4** with an off-road guide, rather than shared transport
 - **Smaller group** — 2–8 rather than 2–10
 

@@ -1433,11 +1433,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Il deserto più remoto del Marocco — l'Erg Chegaga richiede un viaggio fuoristrada in 4x4 oltre l'ultima strada asfaltata per raggiungere dune alte 120 m che si innalzano su un vasto mare di sabbia disabitato.",
     description:
-      "L'Erg Chegaga è il Sahara che la maggior parte dei turisti non trova mai. A differenza dell'Erg Chebbi vicino a Merzouga — dove le carovane di cammelli si incrociano a vista d'hotel — Chegaga richiede un viaggio fuoristrada in 4x4 oltre la fine dell'asfalto a M'Hamid, l'ultimo villaggio prima del vero Sahara. Il campo di dune si estende per chilometri con a malapena un'altra anima in vista. Tre giorni da Marrakech attraverso Aït Ben Haddou, la Valle dello Zafferano di Taliouine e il limite del mondo conosciuto — poi due notti nel profondo del deserto dove l'unico suono è il silenzio.",
+      "L'Erg Chegaga è il Sahara che la maggior parte dei turisti non trova mai. A differenza dell'Erg Chebbi vicino a Merzouga — dove le carovane di cammelli si incrociano a vista d'hotel — Chegaga richiede un viaggio fuoristrada in 4x4 oltre la fine dell'asfalto a M'Hamid, l'ultimo villaggio prima del vero Sahara. Il campo di dune si estende per chilometri con a malapena un'altra anima in vista. Tre giorni da Marrakech attraverso Aït Ben Haddou, la Valle dello Zafferano di Taliouine e il limite del mondo conosciuto — poi una notte nel profondo del deserto dove l'unico suono è il silenzio.",
     highlights: [
       "Erg Chegaga — meno turisti, dune alte 120 m, silenzio profondo",
       "Attraversamento fuoristrada in 4x4 da M'Hamid nel campo di dune",
-      "2 notti in un campo nel deserto senza altri campi in vista",
+      "Una notte in un campo nel deserto senza altri campi in vista",
       "Valle dello Zafferano di Taliouine — la capitale marocchina delle spezie",
       "Ksar di Aït Ben Haddou, patrimonio UNESCO",
       "Trekking in cammello all'alba e al tramonto in un angolo privato del Sahara",
@@ -1446,7 +1446,7 @@ export const TOURS: Tour[] = [
       "Trasporto privato in 4x4 per tutto il percorso",
       "Guida del deserto esperta di guida fuoristrada",
       "1 notte in hotel a M'Hamid o nella valle del Dades",
-      "2 notti in campo berbero nel deserto (tutti i pasti)",
+      "1 notte in campo berbero nel deserto (tutti i pasti)",
       "All camel treks",
       "Acqua minerale e tè alla menta",
     ],
@@ -1502,7 +1502,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Tour del Deserto Erg Chegaga 3 Giorni da Marrakech — Dune Remote e Spedizione Sahariana in 4x4 | Marrakech Eco Tours",
-    seoDescription: "L'esperienza del deserto più remota del Marocco — 3 giorni da Marrakech all'Erg Chegaga via attraversamento fuoristrada in 4x4, 2 notti in un campo berbero privato. Nessuna folla, dune di 120 m. Da $976.",
+    seoDescription: "L'esperienza del deserto più remota del Marocco — 3 giorni da Marrakech all'Erg Chegaga via attraversamento fuoristrada in 4x4, una notte in un campo berbero privato. Nessuna folla, dune di 120 m. Da $976.",
   },
   {
     id: "25",
@@ -1810,11 +1810,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "La migliore rotta sahariana da Agadir — verso sud attraverso le pendici dell'Anti-Atlante e la Valle del Draa per raggiungere l'Erg Chegaga, il campo di dune più remoto del Marocco, in 4x4.",
     description:
-      "Da Agadir, la rotta verso l'Erg Chegaga è la più naturale del Marocco. Si dirige verso sud attraverso le pendici dell'Anti-Atlante via Tata e Foum Zguid, entrando nel Sahara da ovest — un approccio molto diverso dalla rotta standard da Marrakech. L'Erg Chegaga è il Sahara per chi vuole meno turisti, dune più estese nel complesso, e una sensazione più autentica di wilderness. L'attraversamento in 4x4 da M'Hamid fa parte dell'avventura. Due notti nel profondo del deserto, lontano da tutto.",
+      "Da Agadir, la rotta verso l'Erg Chegaga è la più naturale del Marocco. Si dirige verso sud attraverso le pendici dell'Anti-Atlante via Tata e Foum Zguid, entrando nel Sahara da ovest — un approccio molto diverso dalla rotta standard da Marrakech. L'Erg Chegaga è il Sahara per chi vuole meno turisti, dune più estese nel complesso, e una sensazione più autentica di wilderness. L'attraversamento in 4x4 da M'Hamid fa parte dell'avventura. Una notte nel profondo del deserto, lontano da tutto.",
     highlights: [
       "Erg Chegaga — il campo di dune più remoto del Marocco, raggiunto in 4x4",
       "Approccio meridionale unico via le pendici dell'Anti-Atlante e Tata",
-      "2 notti in un campo berbero senza altri campi in vista",
+      "Una notte in un campo berbero senza altri campi in vista",
       "Ritorno via la Valle del Draa — intero corridoio dell'oasi di 200 km",
       "Trekking in cammello al tramonto e all'alba su dune vaste e vuote",
       "Alcuni dei cieli più bui del Nord Africa per l'osservazione delle stelle",
@@ -1823,7 +1823,7 @@ export const TOURS: Tour[] = [
       "Trasporto privato in 4x4 per tutto il percorso",
       "Guida del deserto esperta di guida fuoristrada",
       "1 notte di pernottamento a Foum Zguid o M'Hamid",
-      "2 notti in campo berbero all'Erg Chegaga (tutti i pasti)",
+      "1 notte in campo berbero all'Erg Chegaga (tutti i pasti)",
       "All camel treks",
       "Acqua minerale e tè per tutto il viaggio",
     ],
@@ -1867,15 +1867,15 @@ export const TOURS: Tour[] = [
       },
     ],
     faq: [
-      { q: "In cosa si differenzia l'Erg Chegaga dagli altri viaggi nel deserto?", a: "L'Erg Chegaga è il campo di dune più selvaggio e meno visitato, raggiunto in 4x4 fuoristrada. Questo viaggio è classificato come moderato e trascorre due notti al campo nel deserto lì: più remoto degli itinerari di Zagora o Merzouga." },
-      { q: "Dove si dorme?", a: "Una notte a Foum Zguid o M'Hamid e due notti al campo berbero nel deserto all'Erg Chegaga, con tutti i pasti inclusi al campo." },
-      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato con una guida del deserto esperta di fuoristrada, le tre notti descritte (due al campo con tutti i pasti), tutti i giri in cammello e acqua minerale e tè per tutto il viaggio. I pranzi dei giorni 1 e 3, l'assicurazione di viaggio personale e le mance non sono inclusi." },
+      { q: "In cosa si differenzia l'Erg Chegaga dagli altri viaggi nel deserto?", a: "L'Erg Chegaga è il campo di dune più selvaggio e meno visitato, raggiunto in 4x4 fuoristrada. Questo viaggio è classificato come moderato e raggiunge un campo nel cuore dell'erg: più remoto degli itinerari di Zagora o Merzouga." },
+      { q: "Dove si dorme?", a: "Una notte a Foum Zguid o M'Hamid e una notte al campo berbero nel deserto all'Erg Chegaga, con tutti i pasti inclusi al campo." },
+      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato con una guida del deserto esperta di fuoristrada, le due notti descritte (una al campo con tutti i pasti), tutti i giri in cammello e acqua minerale e tè per tutto il viaggio. I pranzi dei giorni 1 e 3, l'assicurazione di viaggio personale e le mance non sono inclusi." },
       { q: "Perché è classificato come moderato?", a: "L'isolamento e il lungo tragitto fuoristrada per raggiungere l'Erg Chegaga lo rendono più impegnativo dei circuiti desertici facili, pur non essendo un trek." },
     ],
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Tour del Deserto 3 Giorni da Agadir all'Erg Chegaga — Sahara Remoto e Spedizione in 4x4 | Marrakech Eco Tours",
-    seoDescription: "Il deserto più remoto del Marocco da Agadir — 3 giorni attraverso l'Anti-Atlante fino all'Erg Chegaga in 4x4, 2 notti in un campo berbero privato. Meno turisti, più silenzio. Da $930.",
+    seoDescription: "Il deserto più remoto del Marocco da Agadir — 3 giorni attraverso l'Anti-Atlante fino all'Erg Chegaga in 4x4, una notte in un campo berbero privato. Meno turisti, più silenzio. Da $930.",
   },
   {
     id: "29",

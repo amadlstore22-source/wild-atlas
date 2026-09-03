@@ -3586,7 +3586,7 @@ der Küste anders kostet als dieselbe Reise ab Marrakesch.
 | Route | Preis p. P. | Nächte | Erreicht |
 |---|---|---|---|
 | [2 Tage Erg Chegaga](/de/tours/sahara-2day-agadir) | 225 € | 1 (Camp) | Erg Chegaga |
-| [3 Tage Erg Chegaga, privat](/de/tours/erg-chegaga-3day-agadir) | 327 € | 2 (Camp) | Erg Chegaga |
+| [3 Tage Erg Chegaga, privat](/de/tours/erg-chegaga-3day-agadir) | 327 € | 2 (Hotel + Camp) | Erg Chegaga |
 | [4 Tage Erg Chebbi](/de/tours/desert-4day-agadir) | 482 € | 3 (Hotel + Camp + Hotel) | Merzouga |
 
 ## Die 2-Tages-Tour, ehrlich betrachtet
@@ -3609,7 +3609,7 @@ Nehmen Sie die 3-Tages-Tour, statt zu hoffen, die 2-Tages-Tour fühle sich ander
 Die [3-Tages-Route](/de/tours/erg-chegaga-3day-agadir) kostet 327 € statt 179 €, was für
 einen zusätzlichen Tag viel wirkt. Drei Dinge ändern sich:
 
-- **Zwei Nächte am Erg Chegaga** statt einer, sodass sich die Fahrt auf mehr Wüstenzeit verteilt
+- **Die Fahrt verteilt sich auf zwei Tage**, mit einer Hotelnacht in Foum Zguid, statt 8 Stunden hin und 8 Stunden zurück an aufeinanderfolgenden Tagen
 - **Privater 4x4** mit Offroad-erfahrenem Führer statt Sammeltransport
 - **Kleinere Gruppe** — 2–8 statt 2–10
 

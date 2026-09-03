@@ -1433,11 +1433,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Marokkos abgelegenste Wüste — Erg Chegaga erfordert eine 4x4-Offroad-Fahrt hinter der letzten Teerstraße, zu Dünen, die 120 m über ein weites, menschenleeres Sandmeer aufragen.",
     description:
-      "Erg Chegaga ist die Sahara, die die meisten Touristen nie finden. Anders als der Erg Chebbi bei Merzouga — wo Kamelkarawanen in Sichtweite der Hotels aneinander vorbeiziehen — erfordert Chegaga eine Offroad-4x4-Fahrt jenseits des Teerbelags von M'Hamid, dem letzten Dorf vor der echten Sahara. Das Dünenfeld erstreckt sich über Kilometer, kaum eine andere Seele in Sicht. Drei Tage ab Marrakesch über Aït Ben Haddou, das Safrantal von Taliouine und den Rand der bekannten Welt — dann zwei Nächte tief in der Wüste, wo Stille der einzige Klang ist.",
+      "Erg Chegaga ist die Sahara, die die meisten Touristen nie finden. Anders als der Erg Chebbi bei Merzouga — wo Kamelkarawanen in Sichtweite der Hotels aneinander vorbeiziehen — erfordert Chegaga eine Offroad-4x4-Fahrt jenseits des Teerbelags von M'Hamid, dem letzten Dorf vor der echten Sahara. Das Dünenfeld erstreckt sich über Kilometer, kaum eine andere Seele in Sicht. Drei Tage ab Marrakesch über Aït Ben Haddou, das Safrantal von Taliouine und den Rand der bekannten Welt — dann eine Nacht tief in der Wüste, wo Stille der einzige Klang ist.",
     highlights: [
       "Erg Chegaga — weniger Touristen, 120 m hohe Dünen, tiefe Stille",
       "4x4-Offroad-Wüstendurchquerung von M'Hamid ins Dünenfeld",
-      "2 Nächte in einem Wüstencamp ohne andere Camps in Sicht",
+      "Eine Nacht in einem Wüstencamp ohne andere Camps in Sicht",
       "Safrantal von Taliouine — Marokkos Gewürzhauptstadt",
       "UNESCO-Ksar Aït Ben Haddou",
       "Kameltrekking bei Sonnenauf- und -untergang in einem privaten Winkel der Sahara",
@@ -1446,7 +1446,7 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Erfahrener Wüstenführer mit Offroad-Erfahrung",
       "1 Nacht im Hotel in M'Hamid oder im Dades-Tal",
-      "2 Nächte im Berber-Wüstencamp (alle Mahlzeiten)",
+      "1 Nacht im Berber-Wüstencamp (alle Mahlzeiten)",
       "All camel treks",
       "Mineralwasser und Minztee",
     ],
@@ -1502,7 +1502,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.8250, lng: -5.7246, name: "M'Hamid, Gateway to Erg Chegaga" },
     featured: true,
     seoTitle: "Erg Chegaga 3-tägige Wüstentour ab Marrakesch — Abgelegene Dünen & 4x4-Sahara-Expedition | Marrakech Eco Tours",
-    seoDescription: "Marokkos abgelegenstes Wüstenerlebnis — 3 Tage ab Marrakesch zum Erg Chegaga per 4x4-Offroad-Durchquerung, 2 Nächte in einem privaten Berbercamp. Keine Menschenmassen, 120 m hohe Dünen. Ab $976.",
+    seoDescription: "Marokkos abgelegenstes Wüstenerlebnis — 3 Tage ab Marrakesch zum Erg Chegaga per 4x4-Offroad-Durchquerung, eine Nacht in einem privaten Berbercamp. Keine Menschenmassen, 120 m hohe Dünen. Ab $976.",
   },
   {
     id: "25",
@@ -1810,11 +1810,11 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Agadirs beste Sahara-Route — nach Süden durch die Ausläufer des Anti-Atlas und das Draa-Tal, um mit dem 4x4 den Erg Chegaga zu erreichen, Marokkos abgelegenstes Dünenfeld.",
     description:
-      "Von Agadir aus ist die Route zum Erg Chegaga die natürlichste in Marokko. Fahren Sie nach Süden durch die Ausläufer des Anti-Atlas über Tata und Foum Zguid und erreichen Sie den Rand der Sahara von Westen — ein ganz anderer Zugang als die Standardroute über Marrakesch. Erg Chegaga ist die Sahara für alle, die weniger Touristen, insgesamt größere Dünen und ein echteres Gefühl von Wildnis suchen. Die 4x4-Durchquerung ab M'Hamid ist Teil des Abenteuers. Zwei Nächte tief in der Wüste, fernab von allem.",
+      "Von Agadir aus ist die Route zum Erg Chegaga die natürlichste in Marokko. Fahren Sie nach Süden durch die Ausläufer des Anti-Atlas über Tata und Foum Zguid und erreichen Sie den Rand der Sahara von Westen — ein ganz anderer Zugang als die Standardroute über Marrakesch. Erg Chegaga ist die Sahara für alle, die weniger Touristen, insgesamt größere Dünen und ein echteres Gefühl von Wildnis suchen. Die 4x4-Durchquerung ab M'Hamid ist Teil des Abenteuers. Eine Nacht tief in der Wüste, fernab von allem.",
     highlights: [
       "Erg Chegaga — Marokkos abgelegenstes Dünenfeld, erreichbar per 4x4",
       "Einzigartiger südlicher Zugang über die Ausläufer des Anti-Atlas und Tata",
-      "2 Nächte im Berbercamp ohne andere Camps in Sicht",
+      "Eine Nacht im Berbercamp ohne andere Camps in Sicht",
       "Rückfahrt durch das Draa-Tal — vollständiger 200 km langer Oasenkorridor",
       "Kameltrekking bei Sonnenauf- und -untergang auf weiten, leeren Dünen",
       "Einige der dunkelsten Himmel Nordafrikas für die Sternenbeobachtung",
@@ -1823,7 +1823,7 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Erfahrener Wüstenführer mit Offroad-Erfahrung",
       "1 Übernachtung in Foum Zguid oder M'Hamid",
-      "2 Nächte im Berber-Camp am Erg Chegaga (alle Mahlzeiten)",
+      "1 Nacht im Berber-Camp am Erg Chegaga (alle Mahlzeiten)",
       "All camel treks",
       "Mineralwasser und Tee während der gesamten Reise",
     ],
@@ -1867,15 +1867,15 @@ export const TOURS: Tour[] = [
       },
     ],
     faq: [
-      { q: "Wie unterscheidet sich das Erg Chegaga von anderen Wüstenreisen?", a: "Das Erg Chegaga ist das wildere, weniger besuchte große Dünenfeld, erreicht im Offroad-4x4. Diese Reise ist als mittel eingestuft und verbringt dort zwei Nächte im Wüstencamp – abgelegener als die Routen von Zagora oder Merzouga." },
-      { q: "Wo übernachtet man?", a: "Eine Nacht in Foum Zguid oder M'Hamid und zwei Nächte im Berber-Wüstencamp am Erg Chegaga, mit allen Mahlzeiten inklusive im Camp." },
-      { q: "Was ist inbegriffen?", a: "Privater 4x4-Transport mit einem offroad-erfahrenen Wüstenführer, die drei beschriebenen Nächte (zwei im Camp mit allen Mahlzeiten), alle Kamelritte sowie Mineralwasser und Tee durchgehend. Die Mittagessen an Tag 1 und 3, die persönliche Reiseversicherung und Trinkgelder sind nicht enthalten." },
+      { q: "Wie unterscheidet sich das Erg Chegaga von anderen Wüstenreisen?", a: "Das Erg Chegaga ist das wildere, weniger besuchte große Dünenfeld, erreicht im Offroad-4x4. Diese Reise ist als mittel eingestuft und erreicht ein Camp tief im Erg – abgelegener als die Routen von Zagora oder Merzouga." },
+      { q: "Wo übernachtet man?", a: "Eine Nacht in Foum Zguid oder M'Hamid und eine Nacht im Berber-Wüstencamp am Erg Chegaga, mit allen Mahlzeiten inklusive im Camp." },
+      { q: "Was ist inbegriffen?", a: "Privater 4x4-Transport mit einem offroad-erfahrenen Wüstenführer, die zwei beschriebenen Nächte (eine im Camp mit allen Mahlzeiten), alle Kamelritte sowie Mineralwasser und Tee durchgehend. Die Mittagessen an Tag 1 und 3, die persönliche Reiseversicherung und Trinkgelder sind nicht enthalten." },
       { q: "Warum ist es als mittel eingestuft?", a: "Die Abgeschiedenheit und die lange Offroad-Fahrt zum Erg Chegaga machen es anspruchsvoller als die leichten Wüstenrundfahrten, obwohl es kein Trekking ist." },
     ],
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir zum Erg Chegaga 3-tägige Wüstentour — Abgelegene Sahara & 4x4-Expedition | Marrakech Eco Tours",
-    seoDescription: "Marokkos abgelegenste Wüste ab Agadir — 3 Tage durch den Anti-Atlas zum Erg Chegaga per 4x4, 2 Nächte in einem privaten Berbercamp. Weniger Touristen, mehr Stille. Ab $930.",
+    seoDescription: "Marokkos abgelegenste Wüste ab Agadir — 3 Tage durch den Anti-Atlas zum Erg Chegaga per 4x4, eine Nacht in einem privaten Berbercamp. Weniger Touristen, mehr Stille. Ab $930.",
   },
   {
     id: "29",

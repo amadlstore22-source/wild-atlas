@@ -3605,7 +3605,7 @@ Marrakech.
 | Itinéraire | Prix / pers. | Nuits | Atteint |
 |---|---|---|---|
 | [2 jours Erg Chegaga](/fr/tours/sahara-2day-agadir) | 225 € | 1 (camp) | Erg Chegaga |
-| [3 jours Erg Chegaga, privé](/fr/tours/erg-chegaga-3day-agadir) | 327 € | 2 (camp) | Erg Chegaga |
+| [3 jours Erg Chegaga, privé](/fr/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hôtel + camp) | Erg Chegaga |
 | [4 jours Erg Chebbi](/fr/tours/desert-4day-agadir) | 482 € | 3 (hôtel + camp + hôtel) | Merzouga |
 
 ## Le circuit de 2 jours, honnêtement
@@ -3628,7 +3628,7 @@ sincère est de prendre le 3 jours plutôt que d'espérer que le 2 jours soit di
 Le [circuit de 3 jours](/fr/tours/erg-chegaga-3day-agadir) est à 327 € contre 179 €, ce qui
 paraît beaucoup pour un jour de plus. Trois choses changent :
 
-- **Deux nuits à l'Erg Chegaga** au lieu d'une, donc la route est amortie sur plus de temps dans le désert
+- **La route est répartie sur deux jours**, avec une nuit d'hôtel à Foum Zguid, au lieu de 8 h à l'aller et 8 h au retour sur deux jours consécutifs
 - **4x4 privé** avec un guide tout-terrain, plutôt qu'un transport partagé
 - **Groupe plus petit** — 2 à 8 au lieu de 2 à 10
 

@@ -67,3 +67,13 @@ bookings/*.json
 # data never reaches a git remote. The patterns learned from it are written up
 # without personal details in docs/QUOTING-PATTERNS.md, which IS committed.
 data/client-archive.json
+
+# Backups and scratch copies of the above. The named files were ignored but
+# their .bak twins were NOT: writing data/client-archive.json.bak before an
+# edit left eight real customer names and email addresses staged-able by a
+# plain `git add .`. Ignore the whole directory by default and re-admit only
+# what is meant to be shared, so a new file in data/ is private unless somebody
+# decides otherwise.
+data/*
+!data/.gitkeep
+!data/README.md

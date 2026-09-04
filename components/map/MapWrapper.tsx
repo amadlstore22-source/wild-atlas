@@ -78,6 +78,11 @@ export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Diction
     // No IntersectionObserver (old browser, some test envs): show it now.
     // This runs post-hydration, so it cannot cause a mismatch.
     if (typeof IntersectionObserver === "undefined") {
+      // Fallback for browsers without IntersectionObserver. `visible` cannot be
+      // initialised from that global: it is undefined on the server and defined
+      // in the browser, so a lazy initialiser would render different trees and
+      // throw a hydration mismatch on every page carrying a map.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setVisible(true);
       return;
     }

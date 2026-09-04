@@ -131,6 +131,7 @@ Required:
 
 Optional:
   --email     alejandro@example.com   omitted from the invoice if not given
+  --phone     "+34 692 86 92 45"       client phone/WhatsApp, same treatment
   --deposit   175           default 0
   --standard  320           undiscounted price PER PERSON, to show a discount
   --departure 2026-09-20
@@ -193,6 +194,7 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     issued,
     clientName: args.name,
     clientEmail: args.email,
+    clientPhone: args.phone,
     tourTitle: args.tour,
     route: args.route,
     description: args.desc,

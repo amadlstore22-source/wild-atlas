@@ -56,6 +56,9 @@ export default function TourLocationMap(props: TourLocationMapProps) {
     // No IntersectionObserver (old browser, some test envs): show it now.
     // This runs post-hydration, so it cannot cause a mismatch.
     if (typeof IntersectionObserver === "undefined") {
+      // Same reason as MapWrapper, and the comment on the useState above
+      // records the hydration error this exact pattern already caused once.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setVisible(true);
       return;
     }

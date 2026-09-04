@@ -26,6 +26,12 @@ export interface InvoiceInput {
    * reads as authoritative and is wrong. Omitted from the invoice when absent.
    */
   clientEmail?: string;
+  /**
+   * Client's phone / WhatsApp, as they gave it. Printed under "Billed to" so
+   * the driver has a contact number on the document itself, which matters most
+   * for same-day pick-ups. Omitted when absent, like clientEmail.
+   */
+  clientPhone?: string;
   /** Free text, e.g. "3-Day Private Sahara Desert Tour". */
   tourTitle: string;
   /** e.g. "Marrakech → Merzouga". */
@@ -355,6 +361,7 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
       <div class="label">Billed to</div>
       <strong>${esc(inv.clientName)}</strong>
       ${inv.clientEmail ? `<div>${esc(inv.clientEmail)}</div>` : ""}
+      ${inv.clientPhone ? `<div>${esc(inv.clientPhone)}</div>` : ""}
       <div>${inv.people} traveller${inv.people === 1 ? "" : "s"}</div>
     </div>
   </div>

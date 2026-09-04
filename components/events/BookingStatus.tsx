@@ -48,6 +48,11 @@ interface Props {
 
 export default function BookingStatus({ dates, lang, labels }: Props) {
   const [mounted, setMounted] = useState(false);
+  // Deliberate mount gate. `mounted` MUST start false on both server and client
+  // so hydration matches; the badge depends on the current date, and rendering a
+  // build-time guess then correcting it flashes a wrong status on a date
+  // boundary. One extra render is the cheaper failure — see the docblock above.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;

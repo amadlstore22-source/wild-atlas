@@ -426,8 +426,22 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
    headline paints with the document and LCP is bound by TTFB again.
    Keep above-the-fold text on this path; use Motion below the fold.
    ------------------------------------------------------------ */
+/* opacity starts at 0.06, NOT 0 — this is the second half of the fix above and
+   it is not a style choice.
+
+   Chrome excludes any element with opacity:0 from LCP entirely: it is not a
+   candidate until a frame paints it visible. Moving off Motion put the H1 in
+   the server HTML, but `from { opacity: 0 }` still meant the first paint did
+   not count, so LCP waited for the animation to advance — 4.9s on mobile with
+   4,125ms of render delay, load delay and load time both 0, in the 2026-08-16
+   PageSpeed run. Exactly the earlier symptom, one layer down.
+
+   0.06 is below the threshold of perception against the hero scrim over a
+   0.9s ease, so the entrance looks identical, but the very first paint is a
+   valid LCP candidate. See debugbear.com/blog/opacity-animation-poor-lcp.
+   Do not "tidy" this back to 0. */
 @keyframes hero-rise {
-  from { opacity: 0; transform: translateY(var(--hero-rise-from, 28px)); }
+  from { opacity: 0.06; transform: translateY(var(--hero-rise-from, 28px)); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
@@ -435,8 +449,11 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
   /* Matches the previous Motion transition: [0.16, 1, 0.3, 1], 0.9s. */
   animation: hero-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+/* No animation-delay on the H1: `both` applies the from-state during the delay,
+   so any delay is dead time in which the LCP element is still near-invisible.
+   The eyebrow above it keeps its stagger; the headline leads instead. */
 .hero-rise-eyebrow { --hero-rise-from: 16px; animation-duration: 0.7s; animation-delay: 0.05s; }
-.hero-rise-h1      { --hero-rise-from: 28px; animation-delay: 0.15s; }
+.hero-rise-h1      { --hero-rise-from: 28px; }
 .hero-rise-sub     { --hero-rise-from: 18px; animation-duration: 0.8s; animation-delay: 0.3s; }
 .hero-rise-cta     { --hero-rise-from: 14px; animation-duration: 0.7s; animation-delay: 0.45s; }
 

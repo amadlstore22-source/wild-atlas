@@ -304,7 +304,15 @@ export default async function BlogPostPage({ params }: BlogParams) {
       <JsonLd data={jsonLd} />
       <div>
         <div className="relative h-[55vh] min-h-[360px] overflow-hidden">
-          <Image src={post.heroImage} alt={post.title} fill sizes="100vw" className="object-cover" priority />
+          <Image
+            src={post.heroImage}
+            alt={post.title}
+            fill
+            sizes="100vw"
+            className="object-cover"
+            fetchPriority="high"
+            loading="eager"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/80 via-indigo-deep/30 to-indigo-deep/15" />
           <div className="absolute inset-0 flex flex-col justify-end max-w-4xl mx-auto px-4 sm:px-6 pb-12 w-full left-0 right-0">
             <nav className="flex items-center gap-2 text-white/60 text-sm mb-5 flex-wrap">

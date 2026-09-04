@@ -160,7 +160,15 @@ export default function ToursClient({
   return (
     <div>
       <div className="relative h-[52vh] min-h-[360px] flex items-end">
-        <Image src="/gallery/category-hero-medina-doorway.jpg" alt="Morocco tours" fill className="object-cover" priority sizes="100vw" />
+        <Image
+          src="/gallery/category-hero-medina-doorway.jpg"
+          alt="Morocco tours"
+          fill
+          className="object-cover"
+          sizes="100vw"
+          fetchPriority="high"
+          loading="eager"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/82 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <h1 className="hero-title font-display text-5xl lg:text-6xl font-bold leading-tight">{dict.tours.pageTitle}</h1>

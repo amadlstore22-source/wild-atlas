@@ -223,7 +223,19 @@ export default async function TourDetailPage({ params }: TourParams) {
       <TourNavBar dict={dict} />
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
-        <Image src={tour.heroImage} alt={tour.title} fill className="object-cover" priority sizes="100vw" />
+        <Image
+          src={tour.heroImage}
+          alt={tour.title}
+          fill
+          className="object-cover"
+          sizes="100vw"
+          // The LCP element on this route. `priority` alone emitted a preload
+          // that still sat at normal priority behind the font preloads —
+          // measured Load Delay ~2.0s. fetchPriority tells the browser this
+          // is the one image worth fetching first.
+          fetchPriority="high"
+          loading="eager"
+        />
         {/* Scrim: darker at the bottom where the title/meta sit, plus a top wash
             so breadcrumbs stay legible on light images (sand, snow). */}
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/92 via-indigo-deep/55 to-indigo-deep/25" />

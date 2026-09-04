@@ -68,6 +68,20 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing or invalid fields" }, { status: 400 });
     }
 
+    // Recorded BEFORE any delivery is attempted, and before the two early
+    // returns below. Both of those abandon the request: 503 when RESEND_API_KEY
+    // is absent, 502 when Resend rejects the send (expired key, unverified
+    // domain, quota). A record written after them never runs for precisely the
+    // enquiries that most need one — the visitor is told to use WhatsApp, and
+    // if they do not, the lead is gone with nothing written down anywhere.
+    //
+    // The trade-off is deliberate: the sheet may hold a row for an enquiry
+    // whose email later failed. An over-recorded lead is recoverable by reading
+    // the sheet; a lost one is not. logEnquiry swallows all its own failures
+    // and is bounded by a 4 s timeout, so it can neither block nor break
+    // delivery. __tests__/lib/contact-route-logging-order.test.ts pins this.
+    await logEnquiry({ type, name, email, tour, date, people, subject, message });
+
     const resendKey = process.env.RESEND_API_KEY;
     if (!resendKey) {
       // Never tell the visitor "sent" when nothing was delivered — a dropped
@@ -149,10 +163,6 @@ export async function POST(req: NextRequest) {
         console.error("[contact] Resend confirmation error", confirmRes.status, detail);
       }
     }
-
-    // Internal record, written after the emails so it can never delay or block
-    // delivery. logEnquiry swallows all its own failures by design.
-    await logEnquiry({ type, name, email, tour, date, people, subject, message });
 
     return NextResponse.json({ ok: true });
   } catch (err) {

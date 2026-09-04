@@ -57,9 +57,14 @@ export async function logEnquiry(record: EnquiryRecord): Promise<void> {
     // Includes the timeout. Deliberately does NOT log `record`: it holds the
     // name, email, travel dates, group size and free-text message, and Vercel
     // runtime logs have their own retention and a wider audience than the
-    // inbox. The enquiry is already delivered by email before this runs, so the
-    // sheet is a convenience copy — enough to know it failed and for which
-    // enquiry type, not a reason to spill a customer record into logs.
+    // inbox. Enough to know it failed and for which enquiry type, not a reason
+    // to spill a customer record into logs.
+    //
+    // NOTE: this now runs BEFORE the emails are sent (see app/api/contact),
+    // so it is no longer safe to assume the enquiry has already been
+    // delivered when this fires. If both this and Resend fail, the enquiry
+    // exists only in this log line — which is why the type and tour are
+    // included.
     console.error(
       `[enquiry-log] could not write to sheet (type=${record.type}, tour=${record.tour || "n/a"}):`,
       err,

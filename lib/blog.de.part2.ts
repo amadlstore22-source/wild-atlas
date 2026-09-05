@@ -347,6 +347,8 @@ Wenn Sie den Berg ruhig und dramatisch möchten und bereit sind, mit Pickel und 
 Wenn Sie nur im Juli oder August reisen können, fahren Sie trotzdem – starten Sie früh, trinken Sie mehr, als nötig erscheint, und behandeln Sie die Talhitze, nicht die Gipfelkälte, als das, worauf Sie achten müssen.
 
 Der einzige Ansatz, der nicht funktioniert, ist, den Toubkal wie ein warmes Wanderland zu behandeln, nur weil es bei der Landung in Marrakech 35 °C waren. Der Berg ist ein anderes Klima, und wer damit Probleme hat, hat fast immer für die Stadt gepackt.
+
+Wenn Sie wissen, wann Sie kommen: Unsere [4-tägige Toubkal-Gipfelbesteigung](/de/tours/toubkal-gipfel-trek-4-tage) plant einen Reservetag für genau das Wetter ein, das oben beschrieben ist — bei einem schlechten Fenster versuchen Sie es am nächsten Morgen erneut, statt umzukehren. Wer nur ein Wochenende hat, findet in der [2-tägigen Variante](/de/tours/toubkal-besteigung-2-tage) die kürzere Option, die dafür keinen Puffer lässt.
 `,
   },
   {
@@ -440,6 +442,8 @@ Kräftigung für den Abstieg ist der unterschätzte Teil – Quadrizeps und Knie
 Der Toubkal ist erreichbar für eine entschlossene Person von durchschnittlicher Fitness, die die Höhe ernst nimmt. Es ist kein Spaziergang, und ihn so zu behandeln ist der Grund, warum Menschen unterhalb des Gipfels umkehren.
 
 Wählen Sie die längere Route, wenn Ihr Zeitplan es erlaubt, gehen Sie langsamer, als nötig erscheint, und das Dach Nordafrikas ist gut erreichbar.
+
+Genau dafür ist unser [4-tägiger Toubkal-Gipfeltrek](/de/tours/toubkal-gipfel-trek-4-tage) gebaut: zwei Nächte auf Höhe vor dem Gipfelversuch, was die oben beschriebene Akklimatisierung erledigt. Die [2-Tages-Besteigung](/de/tours/toubkal-besteigung-2-tage) bleibt möglich, wenn Sie Höhe bereits gewohnt sind — das ist die schnelle Version, nicht die leichte.
 `,
   },
   {
@@ -1329,6 +1333,8 @@ Die Kasbah-Straße führt östlich von Marrakech über den Tizi-n'-Tichka-Pass R
 ## Zum Übernachten, nicht nur zum Anschauen
 
 Manche restaurierten Kasbahs dienen heute als Gästehäuser und bieten eine Nacht innerhalb der dicken Lehmwände statt nur einen Fotostopp. Das unterscheidet sich vom Aufenthalt in einem Riad, einem für das Stadtleben gebauten Hofhaus ohne Verteidigungsfunktion – siehe [Was ist ein Riad?](/de/blog/what-is-a-riad) für diese Unterscheidung.
+
+Genau das machen unsere [Wüstentouren ab Marrakesch](/de/tours/wuestentour-4-tage-marrakesch): Die Übernachtung im Dades-Tal findet in einer restaurierten Kasbah statt, nicht in einem Hotel am Ortsrand. Wer die städtische Variante sehen möchte, findet sie beim [Kulturrundgang durch die Medina von Marrakesch](/de/tours/kulturtour-medina-marrakesch), der mehrere Innenhöfe von innen zeigt.
 `,
   },
   {
@@ -1385,6 +1391,10 @@ Die meisten heute als Gästehäuser betriebenen Riads behalten das traditionelle
 ## Manchmal nur ein Marketingwort
 
 Weil "Riad" internationalen Reisenden inzwischen Boutique und Tradition signalisiert, wird das Wort locker an Anwesen angehängt, die gar keinen zentralen Innenhof haben. Wenn Ihnen das Layout wichtig ist, fragen Sie direkt nach oder suchen Sie vor der Buchung nach einem Hof-Foto – das prägende Merkmal ist die Architektur, nicht der Name auf dem Schild.
+
+## Wo Sie echte Riads sehen
+
+In der Medina von Marrakesch ergibt diese Bauweise am meisten Sinn: fensterlose Gassen auf der einen Seite und hinter einer unscheinbaren Tür ein Hof mit Orangenbäumen und einem Brunnen. Von außen ahnt man nichts, und genau das ist der Punkt. Unser [Kulturrundgang durch die Medina](/de/tours/kulturtour-medina-marrakesch) führt mit einem lokalen Guide in mehrere dieser Höfe hinein.
 `,
   },
   {
@@ -1612,6 +1622,8 @@ Der Ramadan endet mit Eid al-Fitr, einem echten gesetzlichen Feiertag, geprägt 
 ## Ist es eine gute Reisezeit?
 
 Das hängt tatsächlich davon ab, was Sie suchen. Große Sehenswürdigkeiten und Treks sind ruhiger. Die Abende haben eine Atmosphäre – Straßenessen-Stände, ein langsameres, wärmeres Tempo nach Sonnenuntergang, die Trommel des Nafar irgendwo im Dunkeln vor der Morgendämmerung –, die es sonst im Jahr nicht gibt. Der Tausch ist ein ruhigerer, langsamerer Tag und etwas mehr vorausschauende Planung rund um Essenszeiten. Das ist kein Grund, Marokko zu meiden, aber es ist ein anderes Marokko als ein Augustbesuch – und für Reisende, die sich wirklich für die Kultur interessieren und nicht nur für die Landschaft, womöglich ein reicheres.
+
+Praktisch heißt das: Touren laufen im Ramadan normal weiter. Auf unseren [Wüstentouren ab Marrakesch](/de/tours/wuestentour-4-tage-marrakesch) wird das Abendessen im Camp zum Fastenbrechen serviert, was der stimmungsvollste Moment des Tages ist, und die Fahrerinnen und Fahrer planen die Mittagspausen entsprechend.
 `,
   },
   {
@@ -1628,9 +1640,9 @@ Das hängt tatsächlich davon ab, was Sie suchen. Große Sehenswürdigkeiten und
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Alkohol in Marokko", "Marokko Alkoholgesetze", "kann man in Marokko trinken", "Marokko Bars"],
-    seoTitle: "Alkohol in Marokko: Ja, erlaubt — wo Sie ihn kaufen",
+    seoTitle: "Darf man in Marokko Alkohol trinken? Ja — ab 18",
     seoDescription:
-      "Ja — Alkohol ist für Besucher ab 18 legal. Wo Sie ihn kaufen (Carrefour, Marjane), was er kostet, wo Trinken verboten ist, und was im Ramadan gilt.",
+      "Alkohol ist in Marokko für Besucher ab 18 Jahren legal. Wo Sie ihn kaufen (Carrefour, Marjane, lizenzierte Bars), was er kostet, wo Trinken verboten ist und was im Ramadan gilt.",
     faq: [
       { q: "Ist Alkohol in Marokko legal?", a: "Ja. Marokko ist ein mehrheitlich muslimisches Land, und die meisten Marokkaner trinken nicht, aber Alkohol ist für alle über 18 legal, verkauft und ausgeschenkt in lizenzierten Betrieben: Hotelbars und -restaurants, manche eigenständige Bars und Strandclubs, größere Supermärkte wie Carrefour und Marjane, und spezialisierte Spirituosenläden in den Städten." },
       { q: "Darf ich in Marokko in der Öffentlichkeit trinken?", a: "Nein – öffentliches Trinken ist eine Straftat, und sichtbare öffentliche Trunkenheit kann zu einer Geldstrafe oder einem kurzen Aufenthalt in Gewahrsam führen. Trinken Sie innerhalb lizenzierter Betriebe, Hotelzimmer oder privater Umgebungen, und transportieren Sie Alkohol diskret statt sichtbar durch die Medina." },

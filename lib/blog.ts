@@ -3882,6 +3882,8 @@ Genuinely, it depends what you're after. Major sites and treks are quieter. Even
 
 
 Ramadan is one of several Moroccan dates that move from year to year. Our [festivals calendar by month](/en/blog/morocco-festivals-calendar-by-month) sets out which are fixed, which follow a harvest, and which are decided by moon sighting.
+
+Practically: tours run as normal through Ramadan. On our [desert tours from Marrakech](/en/tours/desert-4day-marrakech) dinner at the camp is served as the fast breaks, which is the best hour of the day to be there, and drivers plan the lunch stops around it. The [Toubkal treks](/en/tours/toubkal-summit-trek-4day) are barely affected at all — the mountain villages keep their own rhythm.
 `,
   },
   {
@@ -3898,9 +3900,9 @@ Ramadan is one of several Moroccan dates that move from year to year. Our [festi
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["alcohol in Morocco", "Morocco drinking laws", "can you drink in Morocco", "Morocco bars"],
-    seoTitle: "Can You Drink Alcohol in Morocco? Yes — Where to Buy It",
+    seoTitle: "Is Alcohol Legal in Morocco? Yes — Drinking Age Is 18",
     seoDescription:
-      "Yes — alcohol is legal for visitors over 18. Where to buy it (Carrefour, Marjane, licensed bars), what it costs, where drinking is banned.",
+      "Legal in Morocco for visitors 18+. Where to buy it (Carrefour, Marjane, licensed bars), what it costs, and where drinking is banned.",
     faq: [
       { q: "Is alcohol legal in Morocco?", a: "Yes. Morocco is a Muslim-majority country and most Moroccans don't drink, but alcohol is legal for anyone over 18, sold and served in licensed venues: hotel bars and restaurants, some standalone bars and beach clubs, larger supermarkets like Carrefour and Marjane, and dedicated liquor shops in cities." },
       { q: "Can I drink in public in Morocco?", a: "No — public drinking is a criminal offence, and visible public intoxication can lead to a fine or a short spell in a holding cell. Drink inside licensed venues, hotel rooms or private settings, and carry alcohol discreetly rather than visibly through the medina." },

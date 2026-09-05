@@ -347,6 +347,8 @@ Si quieres la montaña en silencio y dramática, y estás dispuesto a aprender a
 Si solo puedes viajar en julio o agosto, ve de todos modos: sal temprano, bebe más de lo que te parece necesario, y trata el calor del valle, no el frío de la cima, como lo que hay que gestionar.
 
 El único enfoque que no funciona es tratar el Toubkal como una caminata de país cálido porque en Marrakech hacía 35 °C al aterrizar. La montaña es un clima distinto, y quienes lo pasan mal casi siempre son los que hicieron la maleta para la ciudad.
+
+Cuando tengas las fechas: nuestro [trek a la cumbre del Toubkal en 4 días](/es/tours/trek-cumbre-toubkal-4-dias) reserva un día de margen para exactamente el tiempo que describimos arriba — si la ventana se cierra, se reintenta al día siguiente en lugar de dar media vuelta.
 `,
   },
   {
@@ -440,6 +442,8 @@ Fortalecer para el descenso es la parte infravalorada: los cuádriceps y las rod
 El Toubkal es alcanzable para una persona decidida y de forma física ordinaria que se tome en serio la altitud. No es un paseo, y tratarlo como tal es como la gente acaba dando media vuelta antes de la cima.
 
 Dale el itinerario más largo si tu agenda lo permite, camina más despacio de lo que te parece necesario, y el techo del norte de África está bien a tu alcance.
+
+Para eso está pensado nuestro [trek a la cumbre del Toubkal en 4 días](/es/tours/trek-cumbre-toubkal-4-dias): dos noches en altura antes del intento de cumbre, que es justo la aclimatación de la que habla este artículo. La [ascensión en 2 días](/es/tours/ascension-toubkal-2-dias) sigue siendo viable si ya estás acostumbrado a la altura — es la versión rápida, no la fácil.
 `,
   },
   {
@@ -1329,6 +1333,8 @@ La ruta de las kasbahs va hacia el este desde Marrakech, cruzando el puerto de T
 ## Para dormir, no solo para mirar
 
 Algunas kasbahs restauradas funcionan hoy como casas de huéspedes, ofreciendo una noche dentro de los gruesos muros de tierra en lugar de solo una parada fotográfica. Esto es distinto de alojarse en un riad, que es una casa de patio construida para la vida urbana, no la defensa; ver [¿Qué es un riad?](/es/blog/what-is-a-riad) para esa distinción.
+
+Eso es exactamente lo que hacen nuestros [tours al desierto desde Marrakech](/es/tours/tour-desierto-4-dias-marrakech): la noche en el valle del Dades es en una kasbah restaurada, no en un hotel a las afueras del pueblo.
 `,
   },
   {
@@ -1385,6 +1391,12 @@ La mayoría de los riads que hoy funcionan como casas de huéspedes conservan el
 ## Una palabra de marketing, a veces
 
 Como "riad" ahora transmite boutique y tradicional a los viajeros internacionales, la palabra se acaba aplicando de forma laxa a propiedades que en realidad no tienen un patio central. Si el trazado te importa, pregunta directamente, o busca una foto del patio antes de reservar: lo que define la palabra es la arquitectura, no el nombre en el cartel.
+
+## Dónde verás riads de verdad
+
+La medina de Marrakech es donde la arquitectura tiene más sentido: callejones sin ventanas a un lado, y detrás de una puerta anodina, un patio con naranjos y una fuente. Desde fuera no se adivina, y esa es exactamente la idea. Nuestra [visita cultural por la medina de Marrakech](/es/tours/tour-cultural-medina-marrakech) entra en varios de estos patios con un guía local.
+
+Si su viaje continúa hacia el sur, el equivalente rural es la kasbah: misma lógica de vida hacia dentro, construida en tierra en lugar de en yeso y azulejo. Los [circuitos por el desierto](/es/tours/tour-desierto-4-dias-marrakech) pernoctan en kasbahs restauradas del valle del Dades, que es la manera más directa de ver la diferencia entre ambas tradiciones en un mismo viaje.
 `,
   },
   {
@@ -1492,6 +1504,8 @@ Sé realista sobre la señal en cuanto dejas las carreteras asfaltadas. En treks
 ## Una forma sencilla de decidir
 
 Si tu viaje incluye cualquier trekking de varios días o un tour al desierto de más de un día, compra una SIM de Maroc Telecom; la ventaja de cobertura precisamente en esas situaciones es real y está bien documentada, y la diferencia de precio frente a Orange o Inwi es lo bastante pequeña como para no importar. Si tu viaje es genuinamente solo urbano —Marrakech, Fez, Casablanca, Essaouira, sin noches de montaña o desierto— cualquiera de las tres operadoras te servirá bien, y merece la pena comparar los precios actuales de los paquetes en el quiosco del aeropuerto o en tu primera tienda de teléfonos en lugar de asumir que una es siempre la más barata.
+
+Un apunte concreto: en nuestros [tours al desierto](/es/tours/tour-desierto-4-dias-marrakech) el campamento de Erg Chebbi tiene cobertura decente con Maroc Telecom y casi nula con las demás, mientras que en el [trek del Toubkal](/es/tours/trek-cumbre-toubkal-4-dias) la señal desaparece por encima de Imlil con cualquier operadora. En ambos casos el guía lleva teléfono satelital, así que la SIM es para ti, no para la seguridad del grupo.
 `,
   },
   {

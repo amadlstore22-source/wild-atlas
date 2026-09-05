@@ -347,6 +347,8 @@ Si vous voulez la montagne calme et spectaculaire, et que vous êtes prêt à ap
 Si vous ne pouvez voyager qu'en juillet ou en août, partez quand même — commencez tôt, buvez plus que ce qui vous semble nécessaire, et traitez la chaleur de la vallée, non le froid du sommet, comme la chose à gérer.
 
 La seule approche qui ne fonctionne pas est de considérer le Toubkal comme une randonnée en pays chaud parce que Marrakech affichait 35 °C à votre atterrissage. La montagne relève d'un climat différent, et les personnes qui peinent sont presque toujours celles qui ont fait leurs bagages pour la ville.
+
+Une fois vos dates choisies : notre [trek du sommet du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) garde une journée de réserve pour exactement les conditions décrites ci-dessus — si la fenêtre se referme, on retente le lendemain au lieu de renoncer.
 `,
   },
   {
@@ -440,6 +442,8 @@ Renforcer les muscles pour la descente est la partie sous-estimée — quadricep
 Le Toubkal est accessible à une personne déterminée, d'une condition physique ordinaire, qui prend l'altitude au sérieux. Ce n'est pas une balade, et le traiter comme telle est la façon dont les gens finissent par faire demi-tour en dessous du sommet.
 
 Choisissez l'itinéraire le plus long si votre emploi du temps le permet, marchez plus lentement que ce qui vous semble nécessaire, et le toit de l'Afrique du Nord est largement à votre portée.
+
+C'est précisément ce que fait notre [trek du sommet du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) : deux nuits en altitude avant la tentative, ce qui règle l'acclimatation dont il est question plus haut. L'[ascension en 2 jours](/fr/tours/ascension-toubkal-2-jours) reste possible si vous êtes déjà habitué à l'altitude — c'est la version rapide, pas la version facile.
 `,
   },
   {
@@ -1628,9 +1632,9 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["alcool au Maroc", "lois marocaines sur l'alcool", "peut-on boire au Maroc", "bars au Maroc"],
-    seoTitle: "L'alcool au Maroc 2026 — Ce qui est légal, où en acheter, et ce qu'il faut savoir",
+    seoTitle: "Peut-on boire de l'alcool au Maroc ? Oui — à partir de 18 ans",
     seoDescription:
-      "L'alcool est légal au Maroc pour les visiteurs, vendu dans des bars, hôtels et boutiques spécifiques agréés. Voici comment fonctionnent réellement les règles, et ce qui change pendant le Ramadan.",
+      "L'alcool est légal au Maroc pour les visiteurs de plus de 18 ans. Où en acheter (Carrefour, Marjane, bars agréés), les prix, où il est interdit de boire, et ce qui change pendant le Ramadan.",
     faq: [
       { q: "L'alcool est-il légal au Maroc ?", a: "Oui. Le Maroc est un pays à majorité musulmane et la plupart des Marocains ne boivent pas, mais l'alcool est légal pour toute personne de plus de 18 ans, vendu et servi dans des établissements agréés : bars et restaurants d'hôtels, quelques bars indépendants et clubs de plage, les grandes chaînes de supermarchés comme Carrefour et Marjane, et des boutiques de spiritueux dédiées dans les villes." },
       { q: "Peut-on boire en public au Maroc ?", a: "Non — boire en public est une infraction pénale, et l'ivresse publique visible peut entraîner une amende ou un bref séjour en cellule. Buvez à l'intérieur d'établissements agréés, de chambres d'hôtel ou dans un cadre privé, et transportez l'alcool discrètement plutôt que visiblement à travers la médina." },

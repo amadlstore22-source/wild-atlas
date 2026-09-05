@@ -1385,6 +1385,12 @@ La maggior parte dei riad che operano oggi come guesthouse mantiene il layout tr
 ## Una Parola di Marketing, a Volte
 
 Poiché "riad" ora segnala boutique e tradizione ai viaggiatori internazionali, la parola viene attaccata liberamente a strutture che non hanno effettivamente un cortile centrale. Se il layout ti importa, chiedi direttamente, o cerca una foto del cortile prima di prenotare: la caratteristica distintiva è l'architettura, non il nome sull'insegna.
+
+## Dove vedere riad autentici
+
+La medina di Marrakech è il posto in cui questa architettura ha più senso: vicoli senza finestre da un lato e, dietro una porta anonima, un cortile con aranci e una fontana. Da fuori non si intuisce, ed è esattamente il punto. Il nostro [tour culturale della medina di Marrakech](/it/tours/tour-culturale-medina-marrakech) entra in diversi di questi cortili con una guida locale.
+
+Se il viaggio prosegue verso sud, l'equivalente rurale è la kasbah: stessa logica rivolta verso l'interno, costruita in terra cruda anziché in gesso e zellij. I [tour nel deserto](/it/tours/tour-deserto-4-giorni-marrakech) pernottano in kasbah restaurate della valle del Dades, il modo più diretto per vedere entrambe le tradizioni nello stesso viaggio.
 `,
   },
   {
@@ -1492,6 +1498,8 @@ Sii realistico sul segnale una volta lasciate le strade asfaltate. Nei trekking 
 ## Un Modo Semplice per Decidere
 
 Se il tuo viaggio include qualsiasi trekking di più giorni o un tour desertico oltre un solo giorno, compra una SIM Maroc Telecom: il vantaggio di copertura esattamente in quelle situazioni è reale e ben documentato, e la differenza di prezzo rispetto a Orange o Inwi è abbastanza piccola da non contare. Se il tuo viaggio è genuinamente solo urbano, Marrakech, Fes, Casablanca, Essaouira, senza notti in montagna o nel deserto, uno qualsiasi dei tre operatori ti servirà bene, e vale la pena confrontare i prezzi attuali dei pacchetti al chiosco aeroportuale o al tuo primo negozio di telefonia piuttosto che presumere che uno sia sempre il più economico.
+
+Vale la pena dirlo: sui nostri [tour nel deserto](/it/tours/tour-deserto-4-giorni-marrakech) il campo a Erg Chebbi ha copertura Maroc Telecom discreta e praticamente nulla con gli altri, mentre sul [trek del Toubkal](/it/tours/trek-cima-toubkal-4-giorni) il segnale sparisce sopra Imlil con qualsiasi operatore. In entrambi i casi la guida ha un telefono satellitare, quindi la SIM serve a voi, non alla sicurezza del gruppo.
 `,
   },
   {
@@ -1628,9 +1636,9 @@ Genuinamente, dipende da cosa cerchi. I siti principali e i trekking sono più t
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["alcol in Marocco", "leggi sull'alcol in Marocco", "si può bere in Marocco", "bar in Marocco"],
-    seoTitle: "Alcol in Marocco 2026: Cos'è Legale, Dove Comprarlo, e Cosa Sapere",
+    seoTitle: "Si può bere alcol in Marocco? Sì — dai 18 anni",
     seoDescription:
-      "L'alcol è legale in Marocco per i visitatori, venduto tramite bar, hotel e negozi specifici autorizzati. Ecco come funzionano davvero le regole, e cosa cambia durante il Ramadan.",
+      "L'alcol è legale in Marocco per i visitatori dai 18 anni. Dove comprarlo (Carrefour, Marjane, bar autorizzati), quanto costa, dove è vietato bere, e cosa cambia durante il Ramadan.",
     faq: [
       { q: "L'alcol è legale in Marocco?", a: "Sì. Il Marocco è un paese a maggioranza musulmana e la maggior parte dei marocchini non beve, ma l'alcol è legale per chiunque abbia più di 18 anni, venduto e servito in locali autorizzati: bar e ristoranti d'hotel, alcuni bar indipendenti e beach club, i supermercati più grandi come Carrefour e Marjane, e negozi di liquori dedicati nelle città." },
       { q: "Posso bere in pubblico in Marocco?", a: "No: bere in pubblico è un reato penale, e l'ubriachezza visibile in pubblico può portare a una multa o a un breve fermo in cella. Bevi dentro locali autorizzati, camere d'hotel o contesti privati, e trasporta l'alcol con discrezione piuttosto che visibilmente attraverso la medina." },

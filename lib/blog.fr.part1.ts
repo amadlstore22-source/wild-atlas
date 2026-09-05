@@ -1294,6 +1294,17 @@ Fès possède l'un des plus anciens quartiers juifs d'Afrique du Nord, établi e
 - **Commencez à Bab Bou Jeloud.** La porte principale de la médina. De là, les deux artères principales — Talaa Kebira et Talaa Seghira — mènent au cœur de la vieille ville.
 - **La meilleure heure est l'aube.** La médina s'éveille tôt — boulangers, bouchers et marchands d'épices commencent avant 6h00. Une promenade matinale, quand la lumière est basse et que la ville vaque à ses propres affaires plutôt que de se donner en spectacle pour les touristes, est extraordinaire.
 - **Logez à l'intérieur de la médina.** Un riad à l'intérieur des remparts de la médina — même modeste — vous donne accès à la ville à ses meilleures heures. Les riads en périphérie de Fès (Ville Nouvelle) passent à côté de l'essentiel.
+
+
+## Comment se rendre à Fès
+
+Fès se trouve dans le nord, et votre manière d'arriver détermine ce que vous verrez du Maroc en chemin.
+
+- **Depuis Marrakech.** Le train direct met environ 7 heures. Faire la route en deux ou trois jours transforme le trajet en voyage : le col du Tizi n'Tichka, Aït Ben Haddou et les cédraies du Moyen Atlas sont tous sur l'itinéraire. Notre [circuit de 3 jours Marrakech-Fès](/fr/tours/marrakech-fes-3-jours) couvre ce parcours avec un chauffeur-guide.
+- **Depuis Agadir.** Il n'y a pas de train direct, et la route est assez longue pour qu'un trajet d'une traite gâche le paysage. Notre [circuit de 4 jours Agadir-Fès](/fr/tours/agadir-fes-4-jours) fait étape à Marrakech et à Midelt, et vous arrivez avec une journée entière pour la médina.
+- **En avion.** Fès–Saïss (FEZ) est desservi en direct depuis plusieurs villes européennes et se trouve à 15 minutes de la médina. Si votre temps est compté, prenez l'avion et consacrez-le entièrement à la ville.
+
+Quelle que soit votre arrivée, accordez deux journées pleines à la médina. Une seule suffit pour la voir, pas pour la comprendre.
     `,
   },
   {

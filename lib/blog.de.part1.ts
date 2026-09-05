@@ -1287,6 +1287,17 @@ Fès besitzt eines der ältesten jüdischen Viertel Nordafrikas, gegründet 1438
 - **Beginnen Sie an Bab Bou Jeloud.** Das Haupttor zur Medina. Von hier aus führen die beiden Hauptadern – Talaa Kebira und Talaa Seghira – ins Herz der Altstadt.
 - **Die beste Zeit ist der Morgengrauen.** Die Medina erwacht früh – Bäcker, Metzger und Gewürzhändler beginnen vor 6:00 Uhr. Ein früher Morgenspaziergang, wenn das Licht niedrig steht und die Stadt ihre eigenen Geschäfte erledigt, statt für Touristen zu inszenieren, ist außergewöhnlich.
 - **Bleiben Sie innerhalb der Medina.** Ein Riad innerhalb der Medina-Mauern – selbst ein einfaches – verschafft Ihnen Zugang zur Stadt zu ihren besten Stunden. Riads am äußeren Rand von Fès (Ville Nouvelle) verfehlen den Sinn der Sache.
+
+
+## Anreise nach Fes
+
+Fes liegt im Norden, und wie Sie anreisen, entscheidet darüber, wie viel von Marokko Sie unterwegs sehen.
+
+- **Von Marrakesch.** Der direkte Zug braucht rund 7 Stunden. Fährt man die Strecke stattdessen in zwei oder drei Tagen, wird aus dem Transfer die Reise: der Tizi-n'Tichka-Pass, Aït Ben Haddou und die Zedernwälder des Mittleren Atlas liegen alle am Weg. Unsere [3-Tage-Tour von Marrakesch nach Fes](/de/tours/marrakesch-fes-3-tage) fährt diese Route mit Fahrer-Guide.
+- **Von Agadir.** Es gibt keinen direkten Zug, und die Strecke ist lang genug, dass eine Fahrt am Stück die Landschaft verschenkt. Unsere [4-Tage-Tour von Agadir nach Fes](/de/tours/agadir-fes-4-tage) übernachtet in Marrakesch und Midelt, sodass Ihnen bei der Ankunft ein ganzer Tag für die Medina bleibt.
+- **Mit dem Flugzeug.** Fès–Saïss (FEZ) wird aus mehreren europäischen Städten direkt angeflogen und liegt 15 Minuten von der Medina entfernt. Wenn Ihre Zeit knapp ist, fliegen Sie und verbringen Sie sie ganz hier.
+
+Wie auch immer Sie ankommen: Planen Sie zwei volle Tage für die Medina ein. Einer reicht, um sie zu sehen, nicht um sie zu verstehen.
     `,
   },
   {

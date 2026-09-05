@@ -1294,6 +1294,17 @@ Fez tiene uno de los barrios judíos más antiguos del norte de África, estable
 - **Empieza en Bab Bou Jeloud.** La puerta principal de la medina. Desde aquí, las dos arterias principales —Talaa Kebira y Talaa Seghira— llevan al corazón de la ciudad antigua.
 - **La mejor hora es el amanecer.** La medina despierta temprano: panaderos, carniceros y comerciantes de especias empiezan antes de las 6:00. Un paseo de madrugada, cuando la luz es baja y la ciudad se ocupa de sus propios asuntos en lugar de actuar para los turistas, es extraordinario.
 - **Alójate dentro de la medina.** Un riad dentro de las murallas de la medina —incluso uno sencillo— te da acceso a la ciudad en sus mejores horas. Los riads en el extremo exterior de Fez (Ville Nouvelle) se pierden lo esencial.
+
+
+## Cómo llegar a Fez
+
+Fez está en el norte, y la forma de llegar determina cuánto de Marruecos verá por el camino.
+
+- **Desde Marrakech.** El tren directo tarda unas 7 horas. Hacer la ruta por carretera en dos o tres días convierte el traslado en el viaje: el puerto de Tizi n'Tichka, Aït Ben Haddou y los cedrales del Atlas Medio están todos en el trayecto. Nuestro [circuito de 3 días de Marrakech a Fez](/es/tours/marrakech-fez-3-dias) recorre ese camino con chófer-guía.
+- **Desde Agadir.** No hay tren directo, y la carretera es lo bastante larga como para que hacerla de un tirón desaproveche el paisaje. Nuestro [circuito de 4 días de Agadir a Fez](/es/tours/agadir-fez-4-dias) hace noche en Marrakech y Midelt, y se llega con un día entero para la medina.
+- **En avión.** Fez–Saíss (FEZ) tiene vuelos directos desde varias ciudades europeas y está a 15 minutos de la medina. Si va justo de tiempo, vuele y dedíquelo todo a la ciudad.
+
+Llegue como llegue, reserve dos días completos para la medina. Uno basta para verla, no para entenderla.
     `,
   },
   {

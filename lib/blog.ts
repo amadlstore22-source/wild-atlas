@@ -1402,6 +1402,16 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
 - **Start at Bab Bou Jeloud.** The main gate into the medina. From here, the two main arteries — Talaa Kebira and Talaa Seghira — lead into the heart of the old city.
 - **The best time is dawn.** The medina wakes early — bakers, butchers, and spice merchants begin before 6:00 am. An early morning walk, when the light is low and the city is doing its own business rather than performing for tourists, is extraordinary.
 - **Stay inside the medina.** A riad within the medina walls — even a simple one — gives you access to the city at its best hours. Riads on the outer edge of Fes (Ville Nouvelle) miss the point.
+
+## Getting to Fes
+
+Fes sits in the north, and how you arrive shapes how much of Morocco you see on the way.
+
+- **From Marrakech.** The direct train takes around 7 hours. Driving it over two or three days instead turns the transfer into the trip: the Tizi n'Tichka pass, Aït Ben Haddou, and the Middle Atlas cedar forests all sit on the route. Our [3-day Marrakech to Fes tour](/en/tours/marrakech-to-fes-3day) covers that ground with a driver-guide.
+- **From Agadir.** There is no direct train, and the drive is long enough that doing it in one push wastes the landscape. Our [4-day Agadir to Fes tour](/en/tours/agadir-to-fes-4day) breaks it at Marrakech and Midelt, arriving with a full day left for the medina.
+- **By air.** Fès–Saïss (FEZ) has direct flights from several European cities and is 15 minutes from the medina. If your time is short, fly in and spend all of it here rather than on the road.
+
+Whichever way you arrive, give the medina two full days. One is enough to see it and not enough to understand it.
     `,
   },
   {

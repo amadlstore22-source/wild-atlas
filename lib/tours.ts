@@ -1297,13 +1297,13 @@ export const TOURS: Tour[] = [
       "Erg Chegaga — the remote dune field fewer tourists reach",
       "Draa Valley palmery and ancient kasbahs",
       "Sunset and sunrise camel treks",
-      "Luxury Berber desert camp under the Milky Way",
+      "Berber desert camp under the Milky Way — en-suite tent available",
       "Southern route through Tata and Foum Zguid",
     ],
     includes: [
       "4x4 transport throughout",
       "Experienced desert guide",
-      "1 night luxury desert camp (dinner + breakfast)",
+      "1 night desert camp, private sleeping tent (dinner + breakfast)",
       "All camel rides",
     ],
     excludes: ["Lunch on day 1", "Personal items and tips"],
@@ -1332,14 +1332,14 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Can you really reach the desert from Agadir in two days?", a: "Yes — this two-day trip uses 4x4 transport to reach a desert camp for one night, with all camel rides included. It is the shortest genuine desert overnight from Agadir." },
-      { q: "What is the camp like?", a: "A luxury desert camp for one night, with dinner and breakfast included. The night sky and quiet are what most people remember. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
-      { q: "What is included?", a: "4x4 transport throughout, an experienced desert guide, one night at the luxury desert camp with dinner and breakfast, and all camel rides. Lunch on day one, personal items, and tips are not included." },
+      { q: "What is the camp like?", a: "A permanent desert camp in the Chegaga dunes for one night, with dinner and breakfast included. The standard rate gives you a private sleeping tent with a shared washing block a short walk away. A tent with its own en-suite bathroom and shower is available for +\u20ac30 per person for the night — the trip has only one desert night, so it applies once. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
+      { q: "What is included?", a: "4x4 transport throughout, an experienced desert guide, one night at the desert camp in a private sleeping tent with dinner and breakfast, and all camel rides. Washing facilities at the standard rate are a shared block; an en-suite tent is +\u20ac30 per person. Lunch on day one, personal items, and tips are not included." },
       { q: "How demanding is it?", a: "Easy. The distance is covered by 4x4, and the camel rides are short and optional." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "2-Day Sahara Tour from Agadir | Marrakech Eco Tours",
     seoDescription:
-      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, luxury desert camp, and a sunrise over the Sahara. From $129 pp for 6+.",
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $129 pp for 6+.",
     featured: true,
   },
   {

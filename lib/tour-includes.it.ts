@@ -194,7 +194,7 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
     includes: [
       "Trasporto in 4x4 per tutto il tour",
       "Guida del deserto esperta",
-      "1 notte in campo tendato di lusso nel deserto (cena + colazione)",
+      "1 notte in campo tendato, tenda privata (cena + colazione)",
       "Tutte le passeggiate in cammello",
     ],
     excludes: [

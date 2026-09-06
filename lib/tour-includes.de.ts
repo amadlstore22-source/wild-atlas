@@ -194,7 +194,7 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
     includes: [
       "4x4-Transport während der gesamten Tour",
       "Erfahrener Wüstenführer",
-      "1 Nacht im Luxus-Wüstencamp (Abendessen + Frühstück)",
+      "1 Nacht im Wüstencamp, eigenes Schlafzelt (Abendessen + Frühstück)",
       "Alle Kamelritte",
     ],
     excludes: [

@@ -9900,7 +9900,7 @@ This is the single reason to come, and it is worth understanding before you arri
 
 Volubilis, **Moulay Idriss**, and **Meknes** sit within about forty minutes of each other, and almost everyone visits them as one loop. Done from Fes as a day trip, that is a 10 to 11 hour day, most of it in a vehicle.
 
-It works far better as part of a journey that is already going that way. Coming south from Rabat, the three sit naturally on the road toward Fes, which is how our [Casablanca to Marrakech 5-day tour](/en/tours/casablanca-fes-sahara-marrakech-5day) handles it: Rabat in the morning, Volubilis and Meknes in the afternoon, Fes for the night. You see the same sites without a day of doubling back.
+It works far better as part of a journey that is already going that way. Coming south from [Rabat](/en/blog/rabat-complete-travel-guide), the three sit naturally on the road toward Fes, which is how our [Casablanca to Marrakech 5-day tour](/en/tours/casablanca-fes-sahara-marrakech-5day) handles it: Rabat in the morning, Volubilis and Meknes in the afternoon, Fes for the night. You see the same sites without a day of doubling back.
 
 Most five-day Casablanca-to-Marrakech itineraries sold online route through Chefchaouen instead. That is a good trip and a beautiful town, but it means skipping the Roman city entirely. If the ancient world is part of why you are coming to Morocco, check the itinerary before you book — the two routes share a start and a finish and very little in between.
 
@@ -9975,7 +9975,7 @@ It is built around the tomb of **Moulay Idriss I**, who brought Islam to Morocco
 
 Volubilis, Moulay Idriss and Meknes sit within about forty minutes of each other, and they make more sense together than separately: the Roman city, the holy town partly built from its stones, and the imperial capital that reused its marble a thousand years later.
 
-From Fes as a day trip that is a long day — 10 to 11 hours, most of it driving. It works far better as part of a route already heading that way. Our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes Rabat in the morning and Volubilis and Meknes in the afternoon, arriving in Fes for the night, so the sites cost you no extra day at all. The [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) does the same from Marrakech, covering all four capitals.
+From Fes as a day trip that is a long day — 10 to 11 hours, most of it driving. It works far better as part of a route already heading that way. Our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes [Rabat](/en/blog/rabat-complete-travel-guide) in the morning and Volubilis and Meknes in the afternoon, arriving in Fes for the night, so the sites cost you no extra day at all. The [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) does the same from Marrakech, covering all four capitals.
 
 If you want the detail on the Roman site before you go, our [guide to Volubilis](/en/blog/volubilis-roman-ruins-guide) covers what to look for and when to arrive.
 
@@ -10169,6 +10169,159 @@ It is not always right.
 **Price the return transfer before you book flights** if your ticket has to come back from Casablanca. Sometimes changing the flight is cheaper than the drive.
 
 For the wider picture on trains, buses and internal flights, see our [guide to getting around Morocco](/en/blog/getting-around-morocco-transport-guide). For what the northern route costs, our [Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost) breaks it down by group size.
+`,
+  },
+  {
+    slug: "rabat-complete-travel-guide",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Rabat: Morocco's Quiet Capital — Complete Travel Guide",
+    excerpt:
+      "Rabat holds a UNESCO-listed medina, a 12th-century kasbah above the Atlantic, and a Roman-then-Merinid necropolis full of storks — and almost no crowds. Here is how to see it.",
+    heroImage:
+      "/gallery/rabat-mausoleum-esplanade.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Rabat", "imperial cities", "Kasbah des Oudayas", "Chellah", "Hassan Tower", "Morocco capital"],
+    seoTitle: "Rabat Travel Guide 2026 — Morocco's Capital, What to See",
+    seoDescription:
+      "What to see in Rabat: the Kasbah des Oudayas, Hassan Tower, and the Chellah necropolis. Entry fees, hours, and how long the city really needs.",
+    relatedTours: ["marrakech-imperial-cities-5day", "agadir-imperial-cities-6day", "casablanca-fes-sahara-marrakech-5day"],
+    content: `
+## The Imperial City People Skip
+
+Rabat is Morocco's capital, one of its four imperial cities, and the one most
+visitors drive straight past on the way between Casablanca and Fes. That is
+the reason to go.
+
+Where Marrakech sells you something every thirty seconds and Fes can feel like
+a test of nerve, Rabat is a working administrative city that happens to hold
+nine centuries of architecture. Nobody follows you through the medina. The
+kasbah is residential, not a stage set. You can stand at the Hassan Tower on a
+Tuesday morning and have the esplanade largely to yourself.
+
+The historic core has been a UNESCO World Heritage Site since 2012 — a
+listing that covers both the old city and the French colonial town beside it,
+which is unusual and tells you something about how Rabat is built in layers
+rather than rings.
+
+## The Kasbah des Oudayas
+
+This is the oldest and best part of the city, and it is free.
+
+The kasbah sits on a bluff where the Bou Regreg river meets the Atlantic. Its
+origins are Almoravid, but the fortress you walk into is essentially Almohad:
+the 12th century is when it took its present shape, and the main mosque inside
+dates from around 1150. The monumental gate, Bab Oudaia, is one of the finest
+surviving pieces of Almohad military architecture anywhere — carved geometric
+and vegetal stonework wrapped around an arch built to stop an army.
+
+The blue-and-white lanes inside are the photograph everyone takes. They are
+also somebody's street: the kasbah is lived in, so keep your voice down and
+ask before photographing doorways.
+
+Two things worth knowing:
+
+**The Andalusian Gardens are not Andalusian.** They are beautiful — orange
+trees, fountains, geometric paths inside ochre walls — but they were laid out
+in the early 20th century, not by the Moriscos who resettled here in the
+1600s. Most guides get this wrong. The Andalusian contribution to the kasbah
+is real, it is just in the buildings rather than the flowerbeds.
+
+**Café Maure is worth the stop.** It sits on the terrace above the river
+mouth, mint tea is cheap, and the view across to Salé is the one that stays
+with people.
+
+Give the kasbah 1.5 to 3 hours. Free to enter, and you can wander it at any
+reasonable hour.
+
+## Hassan Tower and the Mausoleum of Mohammed V
+
+An unfinished minaret and a finished masterpiece, facing each other across a
+field of broken columns.
+
+The tower was begun in 1195 and abandoned when the sultan died. It was meant
+to be the largest minaret in the world, attached to the largest mosque; what
+stands is 44 metres of the intended 86, surrounded by the stumps of 348
+columns that never held a roof. An earthquake took the rest in 1755.
+
+Opposite it, the Mausoleum of Mohammed V is the opposite proposition: 20th
+century, finished to an extraordinary standard, and open to visitors. Carved
+cedar, zellij tilework, an onyx sarcophagus under a dome. Royal guards stand
+at the entrances in full dress and are used to being photographed.
+
+**Open daily 9am to 6pm. Free entry, both sites.** Dress respectfully — this
+is a working royal mausoleum, not a museum. Allow an hour.
+
+The site is lit at night, and the walk past it after dark is one of the
+better things you can do in Rabat for free.
+
+## The Chellah
+
+The strangest place in the city, and the one people remember.
+
+The Chellah is a walled necropolis built on top of a Roman town. The Romans
+called it Sala Colonia and left a forum, a triumphal arch and a main street
+you can still walk. The Merinids arrived in the 14th century, walled the whole
+thing, and buried their sultans inside it — so you get Roman paving leading to
+a Merinid minaret, with a mosque and a zaouia in between, all of it slowly
+returning to the ground.
+
+Storks nest on the ruins. In spring the noise of them is the defining sound of
+the place, and the nests on top of the minaret are the photograph.
+
+**Entry is 70 DH, or 120 DH with an audioguide.** Moroccans and foreign
+residents pay half. Allow 1.5 hours, and go late in the afternoon when the
+light is low and the storks are active.
+
+## The Medina and the Rest
+
+Rabat's medina is small, tidy, and refreshingly free of hard selling. It is a
+place to buy something you actually want rather than something you have been
+talked into. Rue des Consuls is the main craft street.
+
+If you have a second day: the Mohammed VI Museum of Modern and Contemporary
+Art is genuinely good and the only museum of its kind in the country, and the
+rowboat crossing of the Bou Regreg to Salé costs a few dirhams and takes five
+minutes.
+
+## How Long Rabat Needs
+
+**One full day** covers the three big sites — kasbah in the morning, Hassan
+Tower before lunch, Chellah in the late afternoon. That is the standard
+imperial-cities itinerary and it works.
+
+**Two days** adds the medina, the museum, Salé, and the time to sit still,
+which is the thing Rabat is actually good for.
+
+Most tours give it a day, and for a first visit that is honest rather than
+mean. The city rewards a slow morning more than a long list.
+
+## When to Come
+
+Spring (March to May) and autumn (September to November) are the best months:
+mild, clear, and the storks are at the Chellah in spring. Rabat is Atlantic
+rather than Saharan, so summers are far softer than Marrakech and winters are
+grey and wet rather than cold. There is no bad month, only wetter ones.
+
+## Getting There
+
+Rabat sits on the main line between Casablanca and Tangier, and the train is
+genuinely good — roughly an hour from Casablanca, around four and a half from
+Marrakech. The station is central.
+
+If you are travelling the imperial cities as a circuit, Rabat usually falls
+between Casablanca and Meknes, which is the natural geographic order and the
+one our routes follow. Our
+[5-day imperial cities tour from Marrakech](/en/tours/marrakech-imperial-cities-5day)
+covers Rabat, Meknes and Fes with the driving handled and entry fees included,
+and the
+[6-day version from Agadir](/en/tours/agadir-imperial-cities-6day) does the
+same from the coast. For the practical alternatives, our
+[guide to getting around Morocco](/en/blog/getting-around-morocco-transport-guide)
+compares trains, buses and private transfers by route.
 `,
   },
 ];

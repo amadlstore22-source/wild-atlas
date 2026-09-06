@@ -7335,4 +7335,158 @@ No siempre lo es.
 Para el panorama completo de trenes, autobuses y vuelos internos, vea nuestra [guía para moverse por Marruecos](/es/blog/como-moverse-por-marruecos-transporte). Para lo que cuesta la ruta del norte, nuestra [guía de precios Casablanca-Marrakech](/es/blog/precio-tour-casablanca-marrakech) la desglosa por tamaño de grupo.
 `,
   },
+  {
+    slug: "rabat-complete-travel-guide",
+    region: "imperial-cities",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Rabat: la capital tranquila de Marruecos — guía completa",
+    excerpt:
+      "Rabat reúne una medina declarada Patrimonio de la Humanidad, una kasbah del siglo XII sobre el Atlántico y una necrópolis romana y luego meriní llena de cigüeñas, casi sin multitudes. Así se visita.",
+    heroImage:
+      "/gallery/rabat-mausoleum-esplanade.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Rabat", "ciudades imperiales", "kasbah de los Udayas", "Chellah", "torre Hassan", "capital de Marruecos"],
+    seoTitle: "Guía de Rabat 2026 — la capital de Marruecos, qué ver",
+    seoDescription:
+      "Qué ver en Rabat: la kasbah de los Udayas, la torre Hassan y la necrópolis de Chellah. Precios, horarios y cuánto tiempo necesita de verdad.",
+    relatedTours: ["marrakech-imperial-cities-5day", "agadir-imperial-cities-6day", "casablanca-fes-sahara-marrakech-5day"],
+    content: `
+## La ciudad imperial que todos se saltan
+
+Rabat es la capital de Marruecos, una de sus cuatro ciudades imperiales, y la
+que la mayoría de los viajeros cruza sin detenerse camino de Casablanca a Fez.
+Esa es exactamente la razón para ir.
+
+Donde Marrakech te vende algo cada treinta segundos y Fez puede poner a prueba
+los nervios, Rabat es una ciudad administrativa en funcionamiento que además
+guarda nueve siglos de arquitectura. Nadie te sigue por la medina. La kasbah
+está habitada, no es un decorado. Un martes por la mañana tendrás la explanada
+de la torre Hassan casi para ti solo.
+
+El núcleo histórico es Patrimonio de la Humanidad de la UNESCO desde 2012, una
+declaración que abarca tanto la ciudad vieja como la ciudad colonial francesa
+contigua: algo poco habitual que dice mucho de una ciudad construida por capas
+y no por anillos.
+
+## La kasbah de los Udayas
+
+Es la parte más antigua y mejor de la ciudad, y es gratuita.
+
+La kasbah se alza sobre un promontorio donde el río Bu Regreg se encuentra con
+el Atlántico. Sus orígenes son almorávides, pero la fortaleza en la que entras
+es esencialmente almohade: en el siglo XII tomó su forma actual, y la mezquita
+principal data de alrededor de 1150. La puerta monumental, Bab Udaya, es una
+de las mejores muestras de arquitectura militar almohade que se conservan:
+labra geométrica y vegetal alrededor de un arco construido para detener a un
+ejército.
+
+Las callejuelas azules y blancas del interior son la foto que todo el mundo
+hace. También son la calle de alguien: la kasbah está habitada, así que baja
+la voz y pide permiso antes de fotografiar una puerta.
+
+Dos cosas que conviene saber:
+
+**Los jardines andalusíes no son andalusíes.** Son preciosos —naranjos,
+fuentes, senderos geométricos entre muros ocre— pero se trazaron a principios
+del siglo XX, no por los moriscos que se reinstalaron aquí en el XVII. La
+mayoría de las guías se equivocan en esto. La aportación andalusí a la kasbah
+es real, solo que está en los edificios y no en los parterres.
+
+**El Café Maure merece la parada.** Ocupa la terraza sobre la desembocadura,
+el té con menta es barato y la vista hacia Salé es la que se recuerda.
+
+Calcula entre 1,5 y 3 horas para la kasbah. Entrada libre.
+
+## La torre Hassan y el mausoleo de Mohammed V
+
+Un alminar inacabado y una obra maestra terminada, frente a frente sobre un
+campo de columnas rotas.
+
+La torre se empezó en 1195 y se abandonó al morir el sultán. Iba a ser el
+alminar más alto del mundo, junto a la mezquita más grande; quedan 44 metros
+de los 86 previstos, rodeados por los muñones de 348 columnas que nunca
+sostuvieron un techo. El terremoto de 1755 se llevó el resto.
+
+Enfrente, el mausoleo de Mohammed V es justo lo contrario: siglo XX, acabado
+con una maestría extraordinaria y abierto al público. Cedro tallado, zellige,
+un sarcófago de ónice bajo una cúpula. Guardias reales de gala en las entradas,
+acostumbrados a ser fotografiados.
+
+**Abierto todos los días de 9:00 a 18:00. Entrada gratuita a ambos sitios.**
+Vístete con respeto: es un mausoleo real en uso, no un museo. Calcula una
+hora.
+
+El recinto se ilumina de noche, y pasear por allí al anochecer es una de las
+mejores cosas gratuitas que se pueden hacer en Rabat.
+
+## El Chellah
+
+El lugar más extraño de la ciudad, y el que la gente recuerda.
+
+El Chellah es una necrópolis amurallada levantada sobre una ciudad romana. Los
+romanos la llamaron Sala Colonia y dejaron un foro, un arco de triunfo y una
+calle principal que aún se recorre. Los meriníes llegaron en el siglo XIV,
+amurallaron el conjunto y enterraron allí a sus sultanes: así que un pavimento
+romano lleva hasta un alminar meriní, con una mezquita y una zauía entre
+medias, todo ello volviendo despacio a la tierra.
+
+Las cigüeñas anidan sobre las ruinas. En primavera su crotoreo es el sonido
+que define el lugar, y los nidos en lo alto del alminar son la fotografía.
+
+**La entrada cuesta 70 DH, o 120 DH con audioguía.** Marroquíes y residentes
+extranjeros pagan la mitad. Calcula 1,5 horas y ve a última hora de la tarde,
+con la luz baja y las cigüeñas activas.
+
+## La medina y lo demás
+
+La medina de Rabat es pequeña, cuidada y notablemente libre de venta agresiva.
+Es un sitio para comprar algo que realmente quieres, no algo que te han
+convencido de llevarte. La rue des Consuls es la calle de la artesanía.
+
+Si dispones de un segundo día: el Museo Mohammed VI de Arte Moderno y
+Contemporáneo es realmente bueno y único en el país, y cruzar el Bu Regreg
+hasta Salé en barca cuesta unos pocos dírhams y lleva cinco minutos.
+
+## Cuánto tiempo necesita Rabat
+
+**Un día completo** cubre los tres grandes sitios: la kasbah por la mañana, la
+torre Hassan antes de comer, el Chellah a última hora de la tarde. Es el
+programa habitual de las ciudades imperiales y funciona.
+
+**Dos días** añaden la medina, el museo, Salé y el tiempo para sentarse, que
+es justo lo que Rabat sabe dar.
+
+La mayoría de los circuitos le dedican un día y, para una primera visita, eso
+es honesto más que tacaño. La ciudad premia una mañana lenta más que una lista
+larga.
+
+## Cuándo ir
+
+Primavera (de marzo a mayo) y otoño (de septiembre a noviembre) son las
+mejores épocas: suaves, despejadas, y en primavera están las cigüeñas en el
+Chellah. Rabat es atlántica y no sahariana, así que los veranos son mucho más
+llevaderos que en Marrakech y los inviernos son grises y lluviosos más que
+fríos. No hay un mal mes, solo meses más húmedos.
+
+## Cómo llegar
+
+Rabat está en la línea principal entre Casablanca y Tánger, y el tren es
+realmente bueno: alrededor de una hora desde Casablanca y unas cuatro y media
+desde Marrakech. La estación es céntrica.
+
+Si haces las ciudades imperiales como circuito, Rabat encaja de forma natural
+entre Casablanca y Mequinez, que es el orden geográfico que siguen nuestras
+rutas. Nuestro
+[circuito de las ciudades imperiales de 5 días desde Marrakech](/es/tours/ciudades-imperiales-marrakech-5-dias)
+cubre Rabat, Mequinez y Fez con la conducción resuelta y las entradas
+incluidas, y la
+[versión de 6 días desde Agadir](/es/tours/ciudades-imperiales-agadir-6-dias)
+hace lo mismo desde la costa. Para las alternativas prácticas, nuestra
+[guía para moverse por Marruecos](/es/blog/como-moverse-por-marruecos-transporte)
+compara trenes, autobuses y traslados privados por ruta.
+`,
+  },
 ];

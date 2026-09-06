@@ -10134,7 +10134,7 @@ Put those two facts together and the pattern is clear: **long-haul in, European 
 
 The reason this pairing works so well for Morocco is geography. Casablanca is on the Atlantic coast in the north. Marrakech is inland to the south. The country's great historic sites sit along the line between them, and the desert sits at the bottom of it.
 
-Landing at Casablanca lets a trip run **Rabat, Volubilis, Meknes, Fes, the Middle Atlas, Erg Chebbi, the Dades valley, Ait Ben Haddou, Marrakech** as a single forward line, never repeating a road. That is what our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) does, and it is only possible because it does not have to return to its starting point.
+Landing at [Casablanca](/en/blog/casablanca-complete-travel-guide) lets a trip run **Rabat, Volubilis, Meknes, Fes, the Middle Atlas, Erg Chebbi, the Dades valley, Ait Ben Haddou, Marrakech** as a single forward line, never repeating a road. That is what our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) does, and it is only possible because it does not have to return to its starting point.
 
 Do the same trip as a loop from Marrakech and you spend a day getting north before the itinerary begins.
 
@@ -10193,7 +10193,7 @@ For the wider picture on trains, buses and internal flights, see our [guide to g
 ## The Imperial City People Skip
 
 Rabat is Morocco's capital, one of its four imperial cities, and the one most
-visitors drive straight past on the way between Casablanca and Fes. That is
+visitors drive straight past on the way between [Casablanca](/en/blog/casablanca-complete-travel-guide) and [Fes](/en/blog/fes-medina-travel-guide). That is
 the reason to go.
 
 Where Marrakech sells you something every thirty seconds and Fes can feel like
@@ -10322,6 +10322,155 @@ and the
 same from the coast. For the practical alternatives, our
 [guide to getting around Morocco](/en/blog/getting-around-morocco-transport-guide)
 compares trains, buses and private transfers by route.
+`,
+  },
+  {
+    slug: "casablanca-complete-travel-guide",
+    region: "imperial-cities",
+    author: MET_TEAM,
+    title: "Casablanca: What to Do With a Day in Morocco's Biggest City",
+    excerpt:
+      "Most visitors land in Casablanca and leave the same day. If you have a day here, the Hassan II Mosque alone justifies it — and there is more to the city than the airport road suggests.",
+    heroImage:
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Casablanca", "Hassan II Mosque", "Morocco arrival", "Art Deco", "Morocco cities"],
+    seoTitle: "Casablanca Travel Guide 2026 — Is It Worth a Day?",
+    seoDescription:
+      "What to see in Casablanca: the Hassan II Mosque, ticket prices and tour times, the Habous quarter, and whether the city is worth a day of your trip.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day"],
+    content: `
+## The City Everyone Lands In and Nobody Stays In
+
+Casablanca is where most people arrive in Morocco and where almost nobody
+lingers. Mohammed V is the country's main international airport, and the
+standard move is to clear customs and get straight on a train to Marrakech or
+Fes.
+
+That is a defensible plan. Casablanca is not a tourist city — it is Morocco's
+commercial capital, a working port of nearly four million people, and it does
+not arrange itself for visitors the way Marrakech does. There is no great
+medina here. The old city is small and unremarkable.
+
+But it holds one building worth crossing a continent for, and a stratum of
+1930s architecture that exists nowhere else in Africa. If your flight lands in
+the morning or leaves in the evening, you have time for both.
+
+## The Hassan II Mosque
+
+This is the reason to stop.
+
+It is the only mosque in Morocco that non-Muslims may enter — the only one,
+anywhere in the country — and it is one of the largest in the world. The
+minaret stands 210 metres, the second tallest in the world. The prayer hall
+holds 25,000 people and the courtyard another 80,000.
+
+It was completed in 1993, designed by the French architect Michel Pinseau and
+built by Moroccan craftsmen drawn from every region of the kingdom. That last
+detail is what you actually see inside: cedar from the Middle Atlas, marble
+from Agadir, granite, zellij and carved plaster executed at a standard almost
+nothing modern matches. Part of the structure stands over the Atlantic, which
+was deliberate — a verse holding that God's throne was built upon the water.
+
+**How to visit, precisely:**
+
+Non-Muslims may enter **only on a paid guided tour**. You cannot wander in.
+
+  Foreign adults      140 MAD
+  Students with ID     70 MAD
+  Children over 6      30 MAD
+  Children under 6     free
+  Museum (separate)    30 MAD
+
+Tours run **Saturday to Thursday at 09:00, 10:00, 11:00, 12:00, 15:00 and
+16:00**. On **Friday** the schedule drops to 09:00, 10:00, 15:00 and 16:00,
+and the morning tours are frequently cancelled — if Friday is your only day,
+plan for the afternoon. During **Ramadan** visits are mornings only, roughly
+09:00 to 11:00.
+
+The interior tour lasts about 45 minutes. Allow 1.5 to 2.5 hours in total once
+you account for the ticket queue, security and time outside — the exterior and
+the sea wall deserve their own half hour, and the building photographs best
+from the plaza to the west in late afternoon.
+
+**Dress:** shoulders and knees covered, for men and women both. Shoes come off
+before you enter. A headscarf is not required for women but is welcome.
+
+The mosque closes to visitors during the five daily prayers, which is why the
+tour times are shaped the way they are.
+
+## The Art Deco City
+
+This is Casablanca's second act, and almost nobody looks for it.
+
+Under the French protectorate from 1912, Casablanca was built out as a modern
+port city in a hurry, at exactly the moment Art Deco was at its height. What
+went up was a hybrid — European Deco massing with Moroccan geometric
+ornament, carved plaster and zellij worked into balconies and doorways. It got
+called Mauresque, and there is more of it here than anywhere else on the
+continent.
+
+Much of it is faded and some is in poor repair, which is part of the effect.
+Walk the streets around **Boulevard Mohammed V** and **Place Mohammed V** and
+look up: the detail is all above the shopfronts.
+
+## The Habous Quarter
+
+If you want a medina, this is the one to see — with an asterisk.
+
+The Habous, or New Medina, was built by the French in the 1930s as a planned
+version of a Moroccan old city: arcades, courtyards, ordered lanes. It is
+authentic in the sense that people live and trade there, and inauthentic in
+that it was drawn by architects rather than grown over centuries.
+
+It is a good place to buy books and olives, the bakeries are excellent, and
+nobody will chase you down an alley. Give it an hour.
+
+## What Else, If You Have Time
+
+**The corniche at Ain Diab** is where the city goes to eat fish and watch the
+Atlantic. Good for a late lunch.
+
+**Rick's Café** is a themed restaurant opened in 2004 by a former American
+diplomat. It has nothing to do with the 1942 film, which was shot entirely in
+Burbank, California, and never came near Morocco. It is a handsome room and a
+pleasant evening; just know what it is.
+
+## Is Casablanca Worth a Day?
+
+**Yes, if it costs you nothing extra.** If you land in the morning or fly out
+at night, the mosque and a walk through the Deco streets fill that time better
+than an airport lounge.
+
+**Probably not, if you would take a day from somewhere else.** Fes and
+Marrakech both reward a third day more than Casablanca rewards a first. The
+honest ranking puts it behind Rabat too, which is an hour up the coast and has
+far more to look at.
+
+The exception is the mosque. If Islamic architecture is the reason you came to
+Morocco, this is the one building you can go inside, and that changes the
+calculation entirely.
+
+## Getting Out
+
+The train station, Casa Voyageurs, connects to everything. Roughly one hour to
+[Rabat](/en/blog/rabat-complete-travel-guide), three and a half to
+[Fes](/en/blog/fes-medina-travel-guide), and three to
+[Marrakech](/en/blog/marrakech-medina-complete-guide). There is a direct train
+from the airport, so you never need a taxi if you do not want one.
+
+If you are travelling the north as a circuit, Casablanca is the natural
+starting point rather than a destination: our
+[5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day)
+begins here and runs through Rabat, [Meknes](/en/blog/meknes-moulay-idriss-guide),
+[Volubilis](/en/blog/volubilis-roman-ruins-guide) and Fes before turning south.
+For the trade-offs of flying into one city and out of another, see
+[flying into Casablanca and out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech),
+and for what the route costs by group size, our
+[Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost).
 `,
   },
 ];

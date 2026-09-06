@@ -7550,4 +7550,160 @@ fait de même depuis la côte. Pour les solutions pratiques, notre
 compare trains, bus et transferts privés selon l'itinéraire.
 `,
   },
+  {
+    slug: "casablanca-complete-travel-guide",
+    region: "imperial-cities",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Casablanca : que faire en une journée dans la plus grande ville du Maroc",
+    excerpt:
+      "La plupart des voyageurs atterrissent à Casablanca et repartent le jour même. Si vous avez une journée, la mosquée Hassan II la justifie à elle seule — et la ville vaut mieux que la route de l'aéroport.",
+    heroImage:
+      "/gallery/blog-marrakech-to-fes-road-trip-guide.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Casablanca", "mosquée Hassan II", "arrivée au Maroc", "Art déco", "villes du Maroc"],
+    seoTitle: "Guide de Casablanca 2026 — la ville vaut-elle une journée ?",
+    seoDescription:
+      "Que voir à Casablanca : la mosquée Hassan II, tarifs et horaires des visites, le quartier des Habous, et si la ville mérite une journée.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day"],
+    content: `
+## La ville où tout le monde atterrit et où personne ne reste
+
+Casablanca est le point d'arrivée de la plupart des voyageurs au Maroc, et
+presque personne n'y reste. Mohammed V est le principal aéroport international
+du pays, et le réflexe habituel est de passer la douane et de sauter dans un
+train pour Marrakech ou Fès.
+
+Ce réflexe se défend. Casablanca n'est pas une ville touristique : c'est la
+capitale économique du Maroc, un port en activité de près de quatre millions
+d'habitants, et elle ne s'organise pas pour les visiteurs comme le fait
+Marrakech. Il n'y a pas de grande médina ici. La vieille ville est petite et
+sans grand intérêt.
+
+Mais elle abrite un édifice qui vaut la traversée d'un continent, et une
+strate d'architecture des années 1930 qui n'existe nulle part ailleurs en
+Afrique. Si votre vol atterrit le matin ou repart le soir, vous avez le temps
+pour les deux.
+
+## La mosquée Hassan II
+
+C'est la raison de s'arrêter.
+
+C'est la seule mosquée du Maroc que les non-musulmans peuvent visiter — la
+seule, dans tout le pays — et l'une des plus grandes du monde. Le minaret
+culmine à 210 mètres, le deuxième plus haut du monde. La salle de prière
+accueille 25 000 personnes, l'esplanade 80 000 de plus.
+
+Elle a été achevée en 1993, conçue par l'architecte français Michel Pinseau et
+bâtie par des artisans marocains venus de toutes les régions du royaume. C'est
+ce dernier détail que l'on voit à l'intérieur : cèdre du Moyen Atlas, marbre
+d'Agadir, granit, zellige et plâtre sculpté exécutés à un niveau que presque
+rien de moderne n'égale. Une partie de l'édifice s'avance sur l'Atlantique,
+volontairement — en écho au verset selon lequel le trône de Dieu fut bâti sur
+l'eau.
+
+**Comment la visiter, précisément :**
+
+Les non-musulmans n'entrent **que dans le cadre d'une visite guidée payante**.
+On ne se promène pas librement.
+
+  Adultes étrangers          140 MAD
+  Étudiants avec carte        70 MAD
+  Enfants de plus de 6 ans    30 MAD
+  Enfants de moins de 6 ans   gratuit
+  Musée (séparé)              30 MAD
+
+Les visites ont lieu **du samedi au jeudi à 9h, 10h, 11h, 12h, 15h et 16h**.
+Le **vendredi**, l'horaire se réduit à 9h, 10h, 15h et 16h, et les visites du
+matin sont fréquemment annulées : si le vendredi est votre seul jour, prévoyez
+l'après-midi. Pendant le **ramadan**, les visites se limitent au matin,
+environ de 9h à 11h.
+
+La visite intérieure dure environ 45 minutes. Comptez 1h30 à 2h30 au total en
+tenant compte de la file, du contrôle de sécurité et du temps dehors :
+l'extérieur et la digue méritent leur demi-heure, et le bâtiment se photographie
+le mieux depuis l'esplanade ouest en fin d'après-midi.
+
+**Tenue :** épaules et genoux couverts, pour les hommes comme pour les femmes.
+On se déchausse avant d'entrer. Le foulard n'est pas obligatoire pour les
+femmes mais il est apprécié.
+
+La mosquée ferme aux visiteurs pendant les cinq prières quotidiennes, ce qui
+explique la forme des horaires.
+
+## La ville Art déco
+
+C'est le second acte de Casablanca, et presque personne ne le cherche.
+
+Sous le protectorat français, à partir de 1912, Casablanca a été développée en
+ville portuaire moderne dans l'urgence, précisément au moment où l'Art déco
+était à son apogée. Il en est sorti un hybride : volumes déco européens et
+ornement géométrique marocain, plâtre sculpté et zellige intégrés aux balcons
+et aux portes. On a appelé cela le style mauresque, et il y en a plus ici que
+partout ailleurs sur le continent.
+
+Une grande partie est fanée et une part est mal entretenue, ce qui fait partie
+de l'effet. Parcourez les rues autour du **boulevard Mohammed V** et de la
+**place Mohammed V**, et levez les yeux : le détail est au-dessus des
+vitrines.
+
+## Le quartier des Habous
+
+Si vous voulez une médina, c'est celle-ci — avec un astérisque.
+
+Les Habous, ou nouvelle médina, ont été construits par les Français dans les
+années 1930 comme une version planifiée de la vieille ville marocaine :
+arcades, cours, ruelles ordonnées. C'est authentique au sens où l'on y vit et
+l'on y commerce, et inauthentique au sens où cela a été dessiné par des
+architectes plutôt que façonné par les siècles.
+
+C'est un bon endroit pour acheter des livres et des olives, les boulangeries
+y sont excellentes, et personne ne vous poursuivra dans une ruelle. Comptez
+une heure.
+
+## Et sinon, si vous avez le temps
+
+**La corniche d'Aïn Diab** est l'endroit où la ville vient manger du poisson
+et regarder l'Atlantique. Parfait pour un déjeuner tardif.
+
+**Le Rick's Café** est un restaurant à thème ouvert en 2004 par une ancienne
+diplomate américaine. Il n'a aucun lien avec le film de 1942, tourné
+intégralement à Burbank, en Californie, et qui n'a jamais approché le Maroc.
+La salle est belle et la soirée agréable ; sachez simplement ce que c'est.
+
+## Casablanca vaut-elle une journée ?
+
+**Oui, si elle ne vous coûte rien de plus.** Si vous atterrissez le matin ou
+repartez le soir, la mosquée et une promenade dans les rues déco remplissent
+ce temps mieux qu'un salon d'aéroport.
+
+**Probablement pas si vous devez prendre ce jour ailleurs.** Fès et Marrakech
+récompensent une troisième journée plus que Casablanca n'en récompense une
+première. Honnêtement, elle passe aussi après Rabat, à une heure de route au
+nord, qui offre bien plus à voir.
+
+L'exception, c'est la mosquée. Si l'architecture islamique est la raison de
+votre venue au Maroc, c'est le seul édifice dans lequel vous pouvez entrer, et
+cela change tout le calcul.
+
+## Repartir
+
+La gare de Casa Voyageurs dessert tout le pays. Environ une heure pour
+[Rabat](/fr/blog/rabat-complete-travel-guide), trois heures et demie pour
+[Fès](/fr/blog/fes-medina-travel-guide), et trois heures pour
+[Marrakech](/fr/blog/marrakech-medina-complete-guide). Un train direct relie
+l'aéroport, vous n'avez donc jamais besoin d'un taxi.
+
+Si vous parcourez le nord en circuit, Casablanca est un point de départ
+naturel plutôt qu'une destination : notre
+[circuit de 5 jours de Casablanca à Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours)
+part d'ici et passe par Rabat, Meknès, Volubilis et Fès avant de descendre vers
+le sud. Pour les arbitrages du vol en aller simple sur deux villes, voyez
+[atterrir à Casablanca et repartir de Marrakech](/fr/blog/arriver-casablanca-repartir-marrakech),
+et pour le coût de la route selon la taille du groupe, notre
+[guide des prix Casablanca-Marrakech](/fr/blog/prix-circuit-casablanca-marrakech).
+`,
+  },
 ];

@@ -1667,6 +1667,21 @@ Wenn Sie einen Wintertrek buchen, besprechen Sie die Details vor der Abreise mit
 ## Fragen?
 
 Wenn Sie sich bei einem Gegenstand unsicher sind, [kontaktieren Sie uns vor Ihrem Trek](/de/contact). Unsere Führer prüfen die konkreten Anforderungen für jede Tour und weisen Sie auf alles hin, was Sie je nach Itinerar und Jahreszeit hinzufügen oder weglassen sollten. Wir beantworten Fragen lieber jetzt, als dass jemand unvorbereitet ankommt.
+
+## Wofür Sie eigentlich packen
+
+Diese Liste ist für den Hohen Atlas geschrieben, aber die Anforderungen
+unterscheiden sich je nach Trek deutlich. Der [4-tägige
+Toubkal-Gipfeltrek](/de/tours/toubkal-gipfel-trek-4-tage) verbringt zwei
+Nächte auf über 3.200 m — dort brauchen Sie die warmen Schichten wirklich,
+und der Gipfelmorgen beginnt vor Sonnenaufgang bei etwa null Grad. Die
+[2-tägige Besteigung](/de/tours/toubkal-besteigung-2-tage) stellt dieselben
+Ansprüche in kürzerer Zeit.
+
+Bei beiden trägt ein Maultier das Gruppengepäck, Sie tragen also nur den
+Tagesrucksack. Das ändert die Packliste mehr als jeder einzelne
+Ausrüstungsgegenstand: Sie müssen nicht jedes Gramm abwägen, sondern nur
+das dabeihaben, was Sie zwischen den Etappen brauchen.
     `,
   },
   {

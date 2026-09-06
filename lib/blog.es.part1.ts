@@ -1674,6 +1674,19 @@ Si reservas un trekking de invierno, comenta los detalles con tu guía antes de 
 ## ¿Preguntas?
 
 Si tienes dudas sobre algún artículo, [contáctanos antes de tu trekking](/es/contact). Nuestros guías revisan los requisitos específicos de cada tour y te indicarán cualquier cosa que debas añadir o quitar según tu itinerario y la época del año. Preferimos responder preguntas ahora que tener a alguien que llegue sin preparación.
+
+## Para qué estás preparando la mochila en realidad
+
+Esta lista vale para el Alto Atlas en general, pero lo que necesitas cambia
+según el trek. El [trek a la cumbre del Toubkal en 4 días](/es/tours/trek-cumbre-toubkal-4-dias)
+pasa dos noches por encima de los 3.200 m: ahí es donde las capas de abrigo
+dejan de ser opcionales, y la mañana de cumbre empieza antes del amanecer, en
+torno a cero grados. La [ascensión en 2 días](/es/tours/ascension-toubkal-2-dias)
+exige lo mismo en menos tiempo.
+
+En ambos, una mula lleva el material del grupo y tú caminas con una mochila de
+día. Eso cambia la lista más que cualquier objeto concreto: no tienes que pesar
+cada gramo, solo llevar lo que necesitas entre etapas.
     `,
   },
   {

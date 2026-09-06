@@ -1783,6 +1783,19 @@ If you're booking a winter trek, discuss the specifics with your guide before de
 ## Questions?
 
 If you're unsure about any item, [contact us before your trek](/en/contact). Our guides review the specific requirements for each tour and will flag anything you should add or remove based on your itinerary and the time of year. We'd rather answer questions now than have someone arrive unprepared.
+
+## What you are actually packing for
+
+This list is written for the High Atlas generally, but what you need shifts
+with the trek. The [4-day Toubkal summit trek](/en/tours/toubkal-summit-trek-4day)
+spends two nights above 3,200 m, which is where the warm layers stop being
+optional — the summit morning starts before dawn at around freezing. The
+[2-day ascent](/en/tours/toubkal-summit-2day-marrakech) makes the same demands
+in less time.
+
+On both, a mule carries the group gear and you walk with a daypack. That
+changes the list more than any single item on it: you are not weighing every
+gram, only carrying what you need between stages.
     `,
   },
   {

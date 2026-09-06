@@ -1674,6 +1674,20 @@ Si vous réservez un trek d'hiver, discutez des détails avec votre guide avant 
 ## Des questions ?
 
 Si vous avez un doute sur un article, [contactez-nous avant votre trek](/fr/contact). Nos guides examinent les exigences spécifiques de chaque circuit et vous signaleront tout ce que vous devriez ajouter ou retirer en fonction de votre itinéraire et de la période de l'année. Nous préférons répondre aux questions maintenant plutôt que de voir quelqu'un arriver mal préparé.
+
+## Ce pour quoi vous préparez réellement votre sac
+
+Cette liste vaut pour le Haut Atlas en général, mais les besoins changent selon
+le trek. Le [trek du sommet du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours)
+passe deux nuits au-dessus de 3 200 m : c'est là que les couches chaudes
+cessent d'être facultatives, et le matin du sommet commence avant l'aube,
+autour de zéro degré. L'[ascension en 2 jours](/fr/tours/ascension-toubkal-2-jours)
+impose les mêmes exigences en moins de temps.
+
+Sur les deux, un mulet porte le matériel collectif et vous marchez avec un sac
+à dos léger. Cela change la liste plus que n'importe quel article : vous ne
+pesez pas chaque gramme, vous emportez seulement ce dont vous avez besoin
+entre les étapes.
     `,
   },
   {

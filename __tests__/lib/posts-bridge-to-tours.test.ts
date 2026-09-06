@@ -50,6 +50,7 @@ const HIGH_TRAFFIC: [locale: string, slug: string][] = [
   ["de", "what-is-a-riad"],
   ["it", "what-is-a-riad"],
   ["de", "what-is-a-kasbah"],
+  ["de", "what-to-pack-high-atlas-trek-morocco"],
   ["es", "what-is-a-kasbah"],
   ["en", "best-sim-card-morocco-tourists"],
   ["it", "best-sim-card-morocco-tourists"],

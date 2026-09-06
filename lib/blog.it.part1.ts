@@ -1665,6 +1665,20 @@ Se prenotate un trekking invernale, discutete i dettagli con la vostra guida pri
 ## Domande?
 
 Se non siete sicuri su qualche oggetto, [contattateci prima del vostro trekking](/it/contact). Le nostre guide rivedono i requisiti specifici per ogni tour e segnaleranno qualsiasi cosa dobbiate aggiungere o rimuovere in base al vostro itinerario e al periodo dell'anno. Preferiamo rispondere alle domande ora piuttosto che avere qualcuno impreparato all'arrivo.
+
+## Per cosa state davvero preparando lo zaino
+
+Questa lista vale per l'Alto Atlante in generale, ma ciò che serve cambia a
+seconda del trek. Il [trek alla cima del Toubkal in 4 giorni](/it/tours/trek-cima-toubkal-4-giorni)
+passa due notti sopra i 3.200 m: è lì che gli strati caldi smettono di essere
+facoltativi, e la mattina della vetta comincia prima dell'alba, intorno allo
+zero. La [salita in 2 giorni](/it/tours/salita-toubkal-2-giorni) pone le stesse
+richieste in meno tempo.
+
+In entrambi i casi un mulo porta il materiale del gruppo e voi camminate con
+uno zaino da giornata. Questo cambia la lista più di qualsiasi singolo
+oggetto: non dovete pesare ogni grammo, ma solo portare ciò che vi serve fra
+una tappa e l'altra.
     `,
   },
   {

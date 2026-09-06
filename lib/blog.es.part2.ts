@@ -3514,7 +3514,7 @@ uno y tres son realmente días de carretera: no es un defecto del itinerario, es
 Lo que varía es cómo se reparte la conducción. La ruta pasa por Ait Benhaddou, Uarzazate,
 las gargantas del Dades y del Todra y los palmerales del Draa. Un viaje apresurado los
 fotografía por la ventanilla; uno más pausado para. Si prefieres más tiempo entre dunas y
-menos carretera, el [tour de 4 días](/es/tours/desert-4day-marrakech) a 414 € añade una
+menos carretera, el [tour de 4 días](/es/tours/desert-4day-marrakech) a 446 € añade una
 noche y un ritmo más suave.
 
 ## Las preguntas que conviene hacer antes de reservar
@@ -4397,7 +4397,7 @@ ves para tu grupo es el que pagas.
     author: MET_TEAM,
     title: "Circuito por el desierto privado o compartido en Marruecos: cuál sale realmente más barato (2026)",
     excerpt:
-      "Una plaza en minibús compartido cuesta lo mismo la reserve quien la reserve. Un circuito privado se reparte entre vosotros: 414 € por persona siendo dos en nuestra ruta de 4 días, 206 € siendo seis. Aquí se cruzan los dos precios, y cuándo la plaza compartida sigue siendo la mejor opción.",
+      "Una plaza en minibús compartido cuesta lo mismo la reserve quien la reserve. Un circuito privado se reparte entre vosotros: 446 € por persona siendo dos en nuestra ruta de 4 días, 236 € siendo seis. Aquí se cruzan los dos precios, y cuándo la plaza compartida sigue siendo la mejor opción.",
     heroImage: "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
@@ -4407,10 +4407,10 @@ ves para tu grupo es el que pagas.
     tags: ["circuito desierto privado o compartido", "circuito desierto compartido Marruecos", "circuito Sáhara privado Marruecos", "comparativa circuitos Merzouga", "minibús circuito desierto", "merece la pena circuito desierto Marruecos"],
     seoTitle: "Circuito por el desierto de Marruecos: privado o compartido — 2026",
     seoDescription:
-      "Los circuitos compartidos por el desierto de Marruecos cuestan 110–170 € la plaza y nunca bajan. Nuestro circuito privado de 4 días sale a 414 € por persona siendo dos y 206 € siendo seis. Dónde está el punto de equilibrio y cuándo compartir sigue siendo mejor.",
+      "Los circuitos compartidos por el desierto de Marruecos cuestan 110–170 € la plaza y nunca bajan. Nuestro circuito privado de 4 días sale a 446 € por persona siendo dos y 236 € siendo seis. Dónde está el punto de equilibrio y cuándo compartir sigue siendo mejor.",
     faq: [
       { q: "¿Cuál es la diferencia real entre un circuito privado y uno compartido?", a: "Un circuito compartido te sienta en un minibús con seis a diez viajeros más, con un horario fijo que no puede cambiar. Un circuito privado es tu propio vehículo y tu conductor-guía: la hora de salida, las paradas para fotos y los sitios de comida los decides tú. La ruta suele ser casi idéntica: lo que cambia es quién más va en el vehículo, quién marca el ritmo y cómo se comporta el precio cuando crece tu grupo. Todos nuestros circuitos son privados, incluido el [Gran Circuito de 4 días](/es/tours/desert-4day-marrakech)." },
-      { q: "¿Merece la pena pagar más por un circuito privado por el desierto?", a: "Depende casi por completo del tamaño del grupo. Solo, una plaza compartida es mucho más barata y la respuesta honesta suele ser no: una persona no puede repartir el coste de un 4x4. Siendo dos, nuestro [circuito privado de 4 días](/es/tours/desert-4day-marrakech) sale a 414 € cada uno, más o menos lo que cuesta una plaza compartida en la misma ruta. Con cuatro son 274 € y con seis 206 €, así que a partir de unas tres personas el privado es a la vez más barato y mejor." },
+      { q: "¿Merece la pena pagar más por un circuito privado por el desierto?", a: "Depende casi por completo del tamaño del grupo. Solo, una plaza compartida es mucho más barata y la respuesta honesta suele ser no: una persona no puede repartir el coste de un 4x4. Siendo dos, nuestro [circuito privado de 4 días](/es/tours/desert-4day-marrakech) sale a 446 € cada uno, más o menos lo que cuesta una plaza compartida en la misma ruta. Con cuatro son 274 € y con seis 236 €, así que a partir de unas tres personas el privado es a la vez más barato y mejor." },
       { q: "¿Cuánta gente va en un circuito compartido por el desierto de Marruecos?", a: "Normalmente entre seis y diez, en un minibús con capacidad para dieciséis. Nuestras salidas compartidas se limitan a diez para que nadie pase cuatro días en un asiento central. No conocerás al grupo de antemano, y el horario lo marca el itinerario y no los pasajeros: ese es el intercambio que aceptas a cambio del precio más bajo." },
       { q: "¿Se puede parar a hacer fotos en un circuito compartido?", a: "Sí, pero en las paradas previstas y no a petición. El conductor sigue un horario que debe funcionar para todo el vehículo, así que los miradores del Tizi n'Tichka, Aït Ben Haddou y las gargantas del Todra tienen su parada, pero la curva sin nombre con la luz bonita no. En un circuito privado esa parada te cuesta una frase al conductor." },
       { q: "¿Qué es mejor para una familia con niños pequeños?", a: "Un circuito privado, y no sobre todo por comodidad. Los niños marcan su propio horario de comidas, siestas y paradas al baño, y un minibús compartido no puede absorberlo sin incomodar a ocho desconocidos. El [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) sale a 398 € por persona siendo cuatro, y una familia de cuatro es justo el tamaño en el que el privado deja de costar un suplemento." },
@@ -4428,9 +4428,9 @@ Para un circuito de 4 días de Marrakech a Erg Chebbi:
 | Tu grupo | Plaza compartida, mercado | Nuestro privado de 4 días |
 |---|---|---|
 | 1 persona | ~330 € | 889 € |
-| 2 personas | ~330 € cada una | 414 € cada una |
+| 2 personas | ~330 € cada una | 446 € cada una |
 | 4 personas | ~330 € cada una | 274 € cada una |
-| 6 personas | ~330 € cada una | 206 € cada una |
+| 6 personas | ~330 € cada una | 236 € cada una |
 
 Fíjate en la segunda fila. Siendo dos, el circuito privado ya iguala a una plaza
 compartida, y a partir de ahí solo baja, porque el precio compartido nunca se mueve
@@ -4485,10 +4485,10 @@ Los mismos datos, en forma de decisión:
 | Tu grupo | Lo que recomendaríamos honestamente |
 |---|---|
 | Solo | **Una plaza compartida**, si el presupuesto manda. 330 € frente a 889 € es una diferencia real, y una persona no puede dividir un vehículo. |
-| En pareja | **Cualquiera de las dos.** Nuestro privado de 4 días sale a 414 € cada uno, más o menos lo que cuesta una plaza compartida: tienes tu propio vehículo por el mismo dinero. |
+| En pareja | **Cualquiera de las dos.** Nuestro privado de 4 días sale a 446 € cada uno, más o menos lo que cuesta una plaza compartida: tienes tu propio vehículo por el mismo dinero. |
 | Tres | **Privado.** 326 € cada uno, y ya más barato que compartir. |
 | Cuatro | **Privado.** 274 € cada uno. |
-| Cinco o más | **Privado**, sin discusión. 206 € cada uno siendo seis. |
+| Cinco o más | **Privado**, sin discusión. 236 € cada uno siendo seis. |
 
 La razón es la que gobierna toda la tarificación turística marroquí: lo compartido se
 vende por plaza y lo privado por vehículo. Mira
@@ -4543,7 +4543,7 @@ es lo que la gente recuerda.
 Todos nuestros circuitos son privados y cada uno publica su tabla de tramos en su
 página: el número que ves para tu tamaño de grupo es el que pagas.
 
-👉 **[Descubre el Gran Circuito de 4 días](/es/tours/desert-4day-marrakech)** — 414 € cada uno siendo dos, 206 € siendo seis — o **[el circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech)** a 398 € cada uno siendo cuatro.
+👉 **[Descubre el Gran Circuito de 4 días](/es/tours/desert-4day-marrakech)** — 446 € cada uno siendo dos, 236 € siendo seis — o **[el circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech)** a 398 € cada uno siendo cuatro.
 `,
   },
   {

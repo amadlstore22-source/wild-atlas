@@ -1948,13 +1948,19 @@ export const TOURS: Tour[] = [
     // Ladder scaled from the confirmed price, read as the two-person rate.
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    //
+    // The 5 and 6+ tiers were raised by hand on 2026-09-06 (273 -> 283,
+    // 238 -> 272) because the measured curve discounted large groups further
+    // than the operator wanted to go. They no longer sit on that curve, so do
+    // not "correct" them back to it. USD chosen to land on the intended EUR
+    // shelf prices at RATES.EUR: 283 -> EUR 245, 272 -> EUR 236.
     groupPricing: [
       { minPeople: 1, price: 1026 },
       { minPeople: 2, price: 514 },
       { minPeople: 3, price: 376 },
       { minPeople: 4, price: 316 },
-      { minPeople: 5, price: 273 },
-      { minPeople: 6, price: 238 },
+      { minPeople: 5, price: 283 },
+      { minPeople: 6, price: 272 },
     ],
     price: 1026,
     depositAmount: 226,

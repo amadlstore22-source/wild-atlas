@@ -6688,7 +6688,7 @@ size is the number you pay.
     author: MET_TEAM,
     title: "Private vs Shared Desert Tour in Morocco: Which Is Actually Cheaper (2026)",
     excerpt:
-      "A shared minibus seat costs the same whoever books it. A private tour splits one vehicle between you — €414 each for two on our 4-day route, €206 at six. Here is where the two prices cross, and when a shared seat is still the better call.",
+      "A shared minibus seat costs the same whoever books it. A private tour splits one vehicle between you — €446 each for two on our 4-day route, €236 at six. Here is where the two prices cross, and when a shared seat is still the better call.",
     heroImage: "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
@@ -6698,10 +6698,10 @@ size is the number you pay.
     tags: ["private vs shared desert tour", "Morocco shared desert tour", "private Sahara tour Morocco", "Merzouga tour comparison", "desert tour minibus", "Morocco desert tour worth it"],
     seoTitle: "Private vs Shared Morocco Desert Tour — 2026 Price Comparison",
     seoDescription:
-      "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €414 each for two and €206 at six.",
+      "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €446 each for two and €236 at six.",
     faq: [
       { q: "What is the real difference between a private and a shared desert tour?", a: "A shared tour puts you in a minibus with six to ten other travellers on a fixed schedule that cannot change. A private tour is your own vehicle and driver-guide, so departure time, photo stops and lunch spots are yours to decide. The route is usually near-identical — what changes is who else is in the vehicle, who sets the pace, and how the price behaves as your group grows. Every tour we run is private, including the [4-day Grand Tour](/en/tours/desert-4day-marrakech)." },
-      { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €446 each, which is roughly what a shared seat on the same route costs. At four it is €274 each and at six €206, so from about three people up the private tour is both cheaper and better." },
+      { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €446 each, which is roughly what a shared seat on the same route costs. At four it is €274 each and at six €236, so from about three people up the private tour is both cheaper and better." },
       { q: "How many people are on a shared Morocco desert tour?", a: "Typically six to ten, in a minibus that seats up to sixteen. Our shared departures cap at ten so nobody is in a middle seat for four days. You will not know the group in advance, and the schedule is set by the itinerary rather than by the passengers — that is the trade you are making for the lower price." },
       { q: "Can you stop for photos on a shared desert tour?", a: "Yes, but at scheduled stops rather than on request. The driver holds a timetable that has to work for everyone in the vehicle, so the Tizi n’Tichka viewpoints, Ait Ben Haddou and the Todra Gorge all get their stop, while the unmarked bend with the good light does not. On a private tour that stop costs you a sentence to the driver." },
       { q: "Which is better for a family with young children?", a: "A private tour, and not primarily for comfort. Children set their own schedule for meals, naps and toilet stops, and a shared minibus cannot absorb that without inconveniencing eight strangers. The [4-day family desert tour](/en/tours/family-desert-4day-marrakech) is €398 per person for four — and a family of four is exactly the size at which private stops costing a premium." },
@@ -6717,10 +6717,10 @@ For a 4-day Marrakech to Erg Chebbi trip:
 
 | Your group | Shared seat, typical market | Our private 4-day |
 |---|---|---|
-| 1 person | ~€330 | €593 |
-| 2 people | ~€330 each | €414 each |
-| 4 people | ~€330 each | €238 each |
-| 6 people | ~€330 each | €195 each |
+| 1 person | ~€330 | €889 |
+| 2 people | ~€330 each | €446 each |
+| 4 people | ~€330 each | €274 each |
+| 6 people | ~€330 each | €236 each |
 
 Read the second row. At two people the private tour already matches a shared
 seat, and from there it only falls — because the shared price never moves and
@@ -6774,11 +6774,11 @@ Here is the same data as a decision:
 
 | Your group | What we would actually recommend |
 |---|---|
-| Solo | **A shared seat**, if budget matters. €330 against €593 is a real gap, and one person cannot divide a vehicle. |
-| Couple | **Either.** Our private 4-day is €414 each — about what a shared seat costs. You are getting your own vehicle for the same money. |
-| Three | **Private.** €271 each, and now cheaper than sharing. |
-| Four | **Private.** €238 each. |
-| Five or more | **Private**, comfortably. €195 each at six. |
+| Solo | **A shared seat**, if budget matters. €330 against €889 is a real gap, and one person cannot divide a vehicle. |
+| Couple | **Either.** Our private 4-day is €446 each — about what a shared seat costs. You are getting your own vehicle for the same money. |
+| Three | **Private.** €326 each, and now cheaper than sharing. |
+| Four | **Private.** €274 each. |
+| Five or more | **Private**, comfortably. €236 each at six. |
 
 The reason is the one that governs all Moroccan tour pricing: shared is sold per
 seat, private per vehicle. See
@@ -6833,7 +6833,7 @@ part people remember.
 Every tour we run is private, and every one publishes its tier table on the page,
 so the number you see at your group size is the number you pay.
 
-👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €446 each for two, €206 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €398 each for four.
+👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €446 each for two, €236 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €398 each for four.
 `,
   },
   {

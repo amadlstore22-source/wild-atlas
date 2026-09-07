@@ -7663,4 +7663,150 @@ und zu den Kosten der Strecke nach Gruppengröße unseren
 [Preisleitfaden Casablanca-Marrakesch](/de/blog/kosten-rundreise-casablanca-marrakesch).
 `,
   },
+  {
+    slug: "essaouira-complete-travel-guide",
+    region: "coast-atlantic",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Essaouira: die ummauerte Atlantikstadt — der komplette Guide",
+    excerpt:
+      "Eine UNESCO-gelistete Festungsstadt am Atlantik, mit Bronzekanonen auf den Wällen, dem besten Fisch Marokkos und einem Wind, der nie aufhört. Das sollten Sie vorher wissen.",
+    heroImage:
+      "/gallery/destinations-essaouira.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Essaouira", "Mogador", "Atlantikküste", "UNESCO Marokko", "Kitesurfen Marokko", "Gnaoua-Festival"],
+    seoTitle: "Essaouira Reiseführer 2026 — was sehen und wann hinfahren",
+    seoDescription:
+      "Medina, Wälle und Hafen von Essaouira, der Wind, der die Stadt prägt, die beste Reisezeit — und ob ein Tagesausflug reicht.",
+    relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
+    content: `
+## Die Stadt, die sich wie ein anderes Land anfühlt
+
+Essaouira liegt drei Stunden von Marrakesch entfernt und gehört einer ganz
+anderen Welt an.
+
+Wo Marrakesch heiß, rot und unerbittlich ist, ist Essaouira weiß und blau, kühl
+genug für eine Jacke im August und geradezu aggressiv entspannt. Die Medina ist
+ummauert, flach und im Raster angelegt — man kann sich schlicht nicht verlaufen,
+was nach Fès oder Marrakesch für sich genommen Urlaub ist. Niemand bedrängt
+Sie. Katzen sind in der Überzahl.
+
+Es ist die eine marokkanische Stadt, in die Leute für einen Tag kommen und dann
+anfangen, ihre Reise umzuplanen, um zu bleiben.
+
+## Eine Festung nach französischem Plan
+
+Die Geschichte erklärt das Raster.
+
+Die Portugiesen hielten den Ort im 16. Jahrhundert kurz und nannten ihn
+**Mogador** — ein Name, der noch benutzt wird und den Sie auf alten Karten
+finden. Er blieb bis zur Unabhängigkeit Marokkos 1956.
+
+Die Stadt, durch die Sie gehen, ist allerdings jünger: In den 1760er-Jahren
+errichtet unter Sultan Sidi Mohammed Ben Abdallah, der einen Hafen für den
+direkten Handel mit Europa wollte, und angelegt vom französischen
+Militäringenieur **Théodore Cornut** nach den Bastionsprinzipien seines
+Jahrhunderts — gerade Straßen, gewinkelte Mauern, befestigter Hafen. Das ist ein
+europäischer Festungsplan, ausgeführt in marokkanischem Material für einen
+marokkanischen König, und genau deshalb hat die **UNESCO die Stadt 2001
+gelistet**: Sie ist das klarste erhaltene Beispiel dieser Idee in Nordafrika.
+Unser [Leitfaden zum Tagesausflug ab Agadir](/de/blog/essaouira-day-trip-from-agadir)
+geht darauf ein, wie diese Befestigungstradition an die Atlantikküste kam.
+
+## Die Skala de la Ville
+
+Die Seemauer entlang des nördlichen Medinarands, besetzt mit Bronzekanonen, die
+noch immer auf den Atlantik zeigen.
+
+Das ist das Postkartenmotiv, und es verdient das: Wellen, die unten gegen die
+Wälle schlagen, salzgrüne Rohre und die Purpurinseln draußen. Der Eintritt
+kostet etwa **10 MAD**, geöffnet ungefähr **9:00 bis 17:30 Uhr**. Kommen Sie am
+späten Nachmittag — das Licht steigt vom Wasser auf und die ganze Mauer wird
+golden.
+
+Unter den Wällen liegen die Holzwerkstätten, in denen Thujaholz aus dem
+Hinterland zu Dosen und Schalen wird. Echtes Handwerk, kein
+Souvenir-Zusammenbau, und schon der Geruch lohnt den Umweg.
+
+## Der Hafen
+
+Arbeitend, laut und für niemanden inszeniert.
+
+Blaue Holzboote, Möwen, Eis, Männer beim Netzflicken. Die Fischauktion ist
+morgens, und die Grills am Hafen braten nach Gewicht, worauf Sie zeigen, an
+einem Tisch am Kai. Handeln Sie den Preis aus, bevor sie anfangen — das ist
+üblich und keine Warnung speziell für Essaouira.
+
+Das ist der beste Fisch Marokkos. Nicht der raffinierteste, der frischeste.
+
+## Der Wind
+
+Davor warnt niemand, und es ändert, was Sie einpacken sollten.
+
+Essaouira liegt in der Bahn der Nordost-Passatwinde, die fast ununterbrochen
+wehen. **Im Juli liegt der Schnitt bei etwa 35 km/h, mit Böen über 55.** Das ist
+echter Wind, keine Seebrise. Deshalb bleibt die Stadt kühl, wenn Marrakesch bei
+45 °C liegt — und deshalb ist der Strand oft kein Liegestrand.
+
+**Wer zum Kite- oder Windsurfen kommt**, findet einen der besten Spots Afrikas;
+die Saison läuft etwa von April bis Oktober, Höhepunkt Juni bis August.
+
+**Wer zum Sonnen kommt**, sollte im **Mai, September oder Oktober** anreisen,
+wenn der Wind nachlässt und die Stadt am schönsten ist.
+
+So oder so: Windjacke einpacken, egal was die Vorhersage sagt. Manche kommen im
+August in Sahara-Kleidung an und kaufen am ersten Abend einen Pullover.
+
+## Das Gnaoua-Festival
+
+Essaouiras zweite Identität ist musikalisch. Das **Gnaoua and World Music
+Festival** füllt die Stadt jeden Juni vier Tage lang — **25. bis 27. Juni
+2026**, die 27. Ausgabe — mit Gnaoua-Maâlems neben Jazz-, Funk- und
+Weltmusikern auf offenen Bühnen.
+
+Es ist kostenlos, es ist sehr gut, und die Stadt ist restlos voll. Wer dabei
+sein will, bucht Monate im Voraus. Wer nicht, meidet diese Woche.
+
+## Tagesausflug oder bleiben?
+
+**Ein Tag funktioniert.** Drei Stunden pro Richtung ab Marrakesch lassen fünf
+bis sechs Stunden vor Ort — genug für Wälle, Medina, Mittagessen am Hafen und
+einen Gang an den Strand. Unsere
+[Gruppentagestour ab Marrakesch](/de/tours/essaouira-gruppentagestour) macht
+genau das, und von der Küste aus ist der
+[Ausflug ab Agadir](/de/tours/ausflug-essaouira-agadir) die kürzere Fahrt.
+
+**Zwei Nächte sind allerdings die bessere Reise**, wenn der Plan es hergibt. Die
+Stadt verändert sich völlig, sobald die Tagesbusse weg sind: Die Wälle leeren
+sich, das Licht wird lang, und die Restaurants hören auf, Mittagslokale zu sein.
+Essaouira ist eine der wenigen marokkanischen Städte, in denen der Abend der
+eigentliche Punkt ist.
+
+## Wann hinfahren
+
+  **Mai, September, Oktober**   Insgesamt am besten. Warm, ruhigerer Wind,
+                                weniger Menschen.
+  **Juni bis August**           Am windigsten und vollsten. Ideal zum
+                                Kitesurfen, kühl im Vergleich zum Landesinneren
+                                — aber Schichten mitnehmen.
+  **November bis März**         Ruhig und oft wunderschön, allerdings ziehen
+                                Atlantikstürme durch und manche Tage sind grau
+                                und nass.
+
+Essaouira wird nie richtig heiß und nie richtig kalt. Es ist das verlässliche
+Ventil, wenn das Landesinnere unerträglich wird.
+
+## Anreise
+
+Drei Stunden ab Marrakesch auf guter Straße, zweieinhalb ab Agadir. Supratours
+und CTM fahren die Strecke ab Marrakesch mehrmals täglich mit bequemen Bussen.
+
+Wer eine größere Route baut: Essaouira ergänzt Marrakesch, statt mit ihm zu
+konkurrieren — zwei Nächte an der Küste zwischen
+[Medina](/de/blog/marrakech-medina-complete-guide) und Wüste setzen den ganzen
+Urlaub neu auf.
+`,
+  },
 ];

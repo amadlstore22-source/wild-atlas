@@ -699,7 +699,7 @@ Planning the budget? See [what a Paradise Valley trip from Agadir costs](/en/blo
     content: `
 ## Why Essaouira Is Worth the Drive
 
-Essaouira (Swiri in Berber, or "the wind" in Tamazight) is one of the most distinctive cities in North Africa. A fortified medina on the Atlantic coast, it combines whitewashed walls, blue fishing boats, crashing ocean waves, and a genuinely multicultural history — Berber, Arab, Jewish, Portuguese, and French layers visible on every street.
+[Essaouira](/en/blog/essaouira-complete-travel-guide) (Swiri in Berber, or "the wind" in Tamazight) is one of the most distinctive cities in North Africa. A fortified medina on the Atlantic coast, it combines whitewashed walls, blue fishing boats, crashing ocean waves, and a genuinely multicultural history — Berber, Arab, Jewish, Portuguese, and French layers visible on every street.
 
 The city's fortifications are often assumed to be Portuguese, and there is a real reason for the confusion: Portugal did hold a fort at this exact site in the 16th century. But the medina and ramparts you actually walk today are younger and different in origin — built in the 1760s under Sultan Sidi Mohammed Ben Abdallah, designed by Théodore Cornut, a French military architect and mathematician who applied European bastion-fortification principles (the same tradition used at Saint-Malo in France) to a purpose-built Moroccan royal port. The result is one of the earliest examples in Africa of European military engineering used in service of a North African monarchy rather than a colonial power, and it is why Essaouira's grid-planned streets feel distinctly different from the organic, winding medinas of Marrakech or Fes.
 
@@ -10471,6 +10471,149 @@ For the trade-offs of flying into one city and out of another, see
 [flying into Casablanca and out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech),
 and for what the route costs by group size, our
 [Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost).
+`,
+  },
+  {
+    slug: "essaouira-complete-travel-guide",
+    region: "coast-atlantic",
+    author: MET_TEAM,
+    title: "Essaouira: The Walled Atlantic Town — Complete Travel Guide",
+    excerpt:
+      "A UNESCO-listed fortress town on the Atlantic, with Portuguese cannons on the ramparts, the best seafood in Morocco, and a wind that never stops. Here is what to know before you go.",
+    heroImage:
+      "/gallery/destinations-essaouira.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Essaouira", "Mogador", "Atlantic coast", "UNESCO Morocco", "kitesurfing Morocco", "Gnaoua festival"],
+    seoTitle: "Essaouira Travel Guide 2026 — What to See and When to Go",
+    seoDescription:
+      "Essaouira's medina, ramparts and port, the wind that defines the town, when to visit, and whether a day trip is enough or you should stay.",
+    relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
+    content: `
+## The Town That Feels Like a Different Country
+
+Essaouira is three hours from Marrakech and belongs to another world entirely.
+
+Where Marrakech is hot, red and relentless, Essaouira is white and blue, cool
+enough to need a jacket in August, and almost aggressively relaxed. The medina
+is walled, flat and laid out on a grid — you genuinely cannot get lost in it,
+which after Fes or Marrakech is its own kind of holiday. Nobody hassles you
+much. Cats outnumber touts.
+
+It is the one Moroccan town that people arrive at for a day and start
+rearranging their trip to stay in.
+
+## A Fortress Built to a French Plan
+
+The history explains the grid.
+
+The Portuguese held the site briefly in the 16th century and called it
+**Mogador** — a name still used, and the reason you will see it on old maps and
+some wine labels. It kept that name right up to Moroccan independence in 1956.
+
+The town you walk through today, though, is younger: built in the 1760s by
+Sultan Sidi Mohammed Ben Abdallah, who wanted a port that could trade directly
+with Europe, and laid out by the French military engineer **Théodore Cornut**
+to the bastion principles of his own century — straight streets, angled walls, a
+fortified harbour. That is a European fortress plan executed in Moroccan
+materials for a Moroccan king, and it is precisely why **UNESCO listed the town
+in 2001**: it is the clearest surviving example of the idea in North Africa. Our
+[Agadir day-trip guide](/en/blog/essaouira-day-trip-from-agadir) goes further
+into how that fortification tradition reached the Atlantic coast.
+
+## The Skala de la Ville
+
+The sea wall along the northern edge of the medina, lined with bronze cannons
+still pointing out at the Atlantic.
+
+This is the postcard, and it earns it: waves hitting the ramparts below,
+gun barrels going green with salt, and the Îles Purpuraires offshore. Entry is
+around **10 MAD** and it is open roughly **9:00 to 17:30**. Go in the late
+afternoon — the light comes off the water and the whole wall turns gold.
+
+Underneath the ramparts are the woodworking workshops, where thuya wood from
+the hinterland is turned into boxes and bowls. It is genuine craft rather than
+souvenir assembly, and the smell of the wood alone is worth the detour.
+
+## The Port
+
+Working, loud, and not staged for anyone.
+
+Blue wooden boats, gulls, ice, men mending nets. The fish auction happens in
+the morning and the grills beside the port will cook whatever you point at,
+by weight, at a table on the quay. Agree the price before they start — that is
+normal practice, not a warning about Essaouira specifically.
+
+This is the best seafood in Morocco. Not the most refined; the freshest.
+
+## The Wind
+
+Nobody warns people about this, and it changes what you should pack.
+
+Essaouira sits in the path of the north-east trade winds, and they blow almost
+constantly. **In July the average is about 35 km/h with gusts over 55.** That
+is a genuine wind, not a sea breeze. It is why the town stays cool when
+Marrakech is at 45 °C, and it is also why the beach is often not a lying-down
+beach.
+
+**If you came to kitesurf or windsurf,** this is one of the best spots in
+Africa and the season runs roughly April to October, peaking June to August.
+
+**If you came to sunbathe,** come in **May, September or October**, when the
+wind eases and the town is at its most pleasant.
+
+Either way, bring a windproof layer whatever the forecast says. People arrive
+in August dressed for the Sahara and spend the first evening buying a jumper.
+
+## The Gnaoua Festival
+
+Essaouira's other identity is musical. The **Gnaoua World Music Festival**
+fills the town for four days every June — **25 to 27 June in 2026**, its 27th
+edition — with Gnaoua maâlems playing alongside jazz, funk and world musicians
+on open stages.
+
+It is free, it is very good, and the town is completely full. If you want to be
+there, book months ahead. If you do not, avoid that week entirely.
+
+## Day Trip or Stay?
+
+**A day trip works.** Three hours each way from Marrakech leaves five or six
+hours in town, which covers the ramparts, the medina, lunch at the port and the
+beach. Our
+[shared day trip from Marrakech](/en/tours/shared-essaouira-day-trip) does
+exactly that, and from the coast the
+[Agadir day trip](/en/tours/agadir-to-essaouira-day-trip) is a shorter drive —
+our [guide to the Agadir route](/en/blog/essaouira-day-trip-from-agadir) covers
+that side in detail.
+
+**But two nights is the better trip**, if the itinerary can carry it. The town
+changes completely after the day buses leave: the ramparts empty, the light
+goes long, and the restaurants stop being lunch places. Essaouira is one of the
+few Moroccan towns where the evening is the point.
+
+## When to Come
+
+  **May, September, October**   Best overall. Warm, calmer wind, fewer people.
+  **June to August**            Windiest and busiest. Perfect for kitesurfing,
+                                cool compared with inland, but bring layers.
+  **November to March**         Quiet and often lovely, though Atlantic storms
+                                blow through and some days are grey and wet.
+
+Essaouira never gets properly hot and never gets properly cold. It is the
+reliable escape valve when the interior is unbearable.
+
+## Getting There
+
+Three hours from Marrakech on a good road, two and a half from Agadir. Both are
+straightforward drives, and Supratours and CTM run comfortable buses on the
+Marrakech route several times a day.
+
+If you are building a wider trip, Essaouira pairs naturally with Marrakech
+rather than competing with it — a couple of nights on the coast between the
+[medina](/en/blog/marrakech-medina-complete-guide) and the desert resets the
+whole holiday.
 `,
   },
 ];

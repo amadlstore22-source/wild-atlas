@@ -7706,4 +7706,155 @@ et pour le coût de la route selon la taille du groupe, notre
 [guide des prix Casablanca-Marrakech](/fr/blog/prix-circuit-casablanca-marrakech).
 `,
   },
+  {
+    slug: "essaouira-complete-travel-guide",
+    region: "coast-atlantic",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Essaouira : la cité fortifiée de l'Atlantique — guide complet",
+    excerpt:
+      "Une ville forte classée à l'UNESCO sur l'Atlantique, avec ses canons de bronze sur les remparts, les meilleurs poissons du Maroc et un vent qui ne s'arrête jamais. Voici ce qu'il faut savoir avant d'y aller.",
+    heroImage:
+      "/gallery/destinations-essaouira.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Essaouira", "Mogador", "côte atlantique", "UNESCO Maroc", "kitesurf Maroc", "festival Gnaoua"],
+    seoTitle: "Guide d'Essaouira 2026 — que voir et quand y aller",
+    seoDescription:
+      "La médina, les remparts et le port d'Essaouira, le vent qui définit la ville, quand venir, et si une journée suffit ou s'il vaut mieux y dormir.",
+    relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
+    content: `
+## La ville qui semble appartenir à un autre pays
+
+Essaouira est à trois heures de Marrakech et appartient à un tout autre monde.
+
+Là où Marrakech est chaude, rouge et incessante, Essaouira est blanche et
+bleue, assez fraîche pour exiger une veste en août, et presque agressivement
+détendue. La médina est fortifiée, plate et dessinée selon un plan en damier :
+on ne peut vraiment pas s'y perdre, ce qui, après Fès ou Marrakech, tient des
+vacances. Personne ne vous harcèle. Les chats sont plus nombreux que les
+rabatteurs.
+
+C'est la seule ville marocaine où les gens arrivent pour une journée et
+commencent à réorganiser leur voyage pour y rester.
+
+## Une forteresse au plan français
+
+L'histoire explique le damier.
+
+Les Portugais ont brièvement tenu le site au XVIe siècle et l'ont appelé
+**Mogador** — un nom encore utilisé, et la raison pour laquelle vous le verrez
+sur de vieilles cartes. Il est resté jusqu'à l'indépendance du Maroc en 1956.
+
+La ville que vous parcourez est pourtant plus jeune : bâtie dans les années
+1760 par le sultan Sidi Mohammed Ben Abdallah, qui voulait un port commerçant
+directement avec l'Europe, et tracée par l'ingénieur militaire français
+**Théodore Cornut** selon les principes bastionnés de son siècle — rues
+droites, murs à angles, port fortifié. C'est un plan de forteresse européenne
+exécuté en matériaux marocains pour un roi marocain, et c'est précisément
+pourquoi **l'UNESCO l'a classée en 2001** : c'est l'exemple le plus clair de
+cette idée en Afrique du Nord. Notre
+[guide de l'excursion depuis Agadir](/fr/blog/essaouira-day-trip-from-agadir)
+détaille comment cette tradition de fortification a atteint la côte atlantique.
+
+## La Skala de la Ville
+
+Le mur de mer qui borde le nord de la médina, hérissé de canons de bronze
+toujours pointés vers l'Atlantique.
+
+C'est la carte postale, et elle la mérite : les vagues frappant les remparts en
+contrebas, les fûts verdis par le sel, et les îles Purpuraires au large.
+L'entrée coûte environ **10 MAD** et le site ouvre à peu près de **9h à 17h30**.
+Venez en fin d'après-midi : la lumière remonte de l'eau et tout le mur devient
+doré.
+
+Sous les remparts se trouvent les ateliers de marqueterie, où le bois de thuya
+de l'arrière-pays devient boîtes et coupes. C'est de l'artisanat véritable, et
+l'odeur du bois vaut à elle seule le détour.
+
+## Le port
+
+En activité, bruyant, et mis en scène pour personne.
+
+Barques bleues, mouettes, glace, hommes réparant les filets. La criée a lieu le
+matin, et les grillades à côté du port cuisent au poids ce que vous désignez, à
+une table sur le quai. Convenez du prix avant qu'ils ne commencent : c'est
+l'usage, pas une mise en garde propre à Essaouira.
+
+Ce sont les meilleurs produits de la mer du Maroc. Pas les plus raffinés : les
+plus frais.
+
+## Le vent
+
+Personne ne prévient, et cela change ce qu'il faut emporter.
+
+Essaouira se trouve sur la route des alizés de nord-est, qui soufflent presque
+sans interruption. **En juillet, la moyenne avoisine 35 km/h avec des rafales
+au-delà de 55.** C'est un vrai vent, pas une brise marine. C'est pour cela que
+la ville reste fraîche quand Marrakech est à 45 °C, et aussi pour cela que la
+plage n'est pas toujours une plage où l'on s'allonge.
+
+**Si vous venez pour le kitesurf ou la planche à voile**, c'est l'un des
+meilleurs spots d'Afrique, et la saison va d'avril à octobre, avec un pic de
+juin à août.
+
+**Si vous venez pour bronzer**, venez en **mai, septembre ou octobre**, quand le
+vent faiblit et que la ville est à son meilleur.
+
+Dans tous les cas, emportez un coupe-vent quelles que soient les prévisions. Des
+gens arrivent en août habillés pour le Sahara et passent la première soirée à
+acheter un pull.
+
+## Le festival Gnaoua
+
+L'autre identité d'Essaouira est musicale. Le **festival Gnaoua et musiques du
+monde** remplit la ville quatre jours chaque juin — **du 25 au 27 juin 2026**,
+pour sa 27e édition — avec les maâlems gnaoua jouant aux côtés de musiciens de
+jazz, de funk et du monde entier sur des scènes en plein air.
+
+C'est gratuit, c'est excellent, et la ville est absolument comble. Si vous
+voulez y être, réservez des mois à l'avance. Sinon, évitez cette semaine.
+
+## Excursion d'une journée ou séjour ?
+
+**Une journée fonctionne.** Trois heures de route dans chaque sens depuis
+Marrakech laissent cinq à six heures sur place, de quoi voir les remparts, la
+médina, déjeuner au port et passer sur la plage. Notre
+[excursion partagée depuis Marrakech](/fr/tours/excursion-partagee-essaouira)
+fait exactement cela, et depuis la côte l'
+[excursion depuis Agadir](/fr/tours/excursion-essaouira-agadir) est une route
+plus courte.
+
+**Mais deux nuits valent mieux**, si l'itinéraire le permet. La ville change
+complètement une fois les bus de la journée repartis : les remparts se vident,
+la lumière s'allonge, et les restaurants cessent d'être des cantines de midi.
+Essaouira est l'une des rares villes marocaines où le soir est l'essentiel.
+
+## Quand venir
+
+  **Mai, septembre, octobre**   Le meilleur compromis. Doux, vent plus calme,
+                                moins de monde.
+  **Juin à août**               Le plus venté et le plus fréquenté. Parfait
+                                pour le kitesurf, frais comparé à l'intérieur,
+                                mais prévoyez des couches.
+  **Novembre à mars**           Calme et souvent très beau, même si les
+                                tempêtes atlantiques amènent des journées
+                                grises et pluvieuses.
+
+Essaouira n'est jamais vraiment chaude ni vraiment froide. C'est la soupape
+fiable quand l'intérieur devient insupportable.
+
+## Y aller
+
+Trois heures depuis Marrakech par une bonne route, deux heures et demie depuis
+Agadir. Supratours et CTM assurent des bus confortables sur la ligne de
+Marrakech plusieurs fois par jour.
+
+Si vous construisez un itinéraire plus large, Essaouira complète Marrakech
+plutôt qu'elle ne lui fait concurrence : deux nuits sur la côte entre la
+[médina](/fr/blog/marrakech-medina-complete-guide) et le désert remettent tout
+le voyage d'aplomb.
+`,
+  },
 ];

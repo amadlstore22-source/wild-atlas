@@ -7641,4 +7641,150 @@ y para lo que cuesta la ruta por tamaño de grupo, nuestra
 [guía de precios Casablanca-Marrakech](/es/blog/precio-tour-casablanca-marrakech).
 `,
   },
+  {
+    slug: "essaouira-complete-travel-guide",
+    region: "coast-atlantic",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Esauira: la ciudad amurallada del Atlántico — guía completa",
+    excerpt:
+      "Una ciudad fortificada declarada Patrimonio de la Humanidad sobre el Atlántico, con cañones de bronce en las murallas, el mejor pescado de Marruecos y un viento que no para. Esto es lo que conviene saber.",
+    heroImage:
+      "/gallery/destinations-essaouira.jpg",
+    category: "culture",
+    readTime: 8,
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    tags: ["Esauira", "Mogador", "costa atlántica", "UNESCO Marruecos", "kitesurf Marruecos", "festival Gnaoua"],
+    seoTitle: "Guía de Esauira 2026 — qué ver y cuándo ir",
+    seoDescription:
+      "La medina, las murallas y el puerto de Esauira, el viento que define la ciudad, cuándo ir y si basta un día o conviene dormir allí.",
+    relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
+    content: `
+## La ciudad que parece de otro país
+
+Esauira está a tres horas de Marrakech y pertenece a otro mundo por completo.
+
+Donde Marrakech es calurosa, roja e implacable, Esauira es blanca y azul, lo
+bastante fresca como para necesitar chaqueta en agosto, y casi agresivamente
+tranquila. La medina está amurallada, es llana y sigue un trazado en cuadrícula:
+literalmente no puedes perderte en ella, lo que después de Fez o Marrakech es
+unas vacaciones en sí mismo. Nadie te agobia. Hay más gatos que vendedores.
+
+Es la única ciudad marroquí a la que la gente llega por un día y empieza a
+reorganizar el viaje para quedarse.
+
+## Una fortaleza con plano francés
+
+La historia explica la cuadrícula.
+
+Los portugueses ocuparon brevemente el emplazamiento en el siglo XVI y lo
+llamaron **Mogador**, un nombre que todavía se usa y que verás en mapas
+antiguos. Se mantuvo hasta la independencia de Marruecos en 1956.
+
+La ciudad que recorres, sin embargo, es más joven: la levantó en la década de
+1760 el sultán Sidi Mohammed Ben Abdallah, que quería un puerto capaz de
+comerciar directamente con Europa, y la trazó el ingeniero militar francés
+**Théodore Cornut** según los principios abaluartados de su siglo: calles
+rectas, muros en ángulo, puerto fortificado. Es un plano de fortaleza europea
+ejecutado con materiales marroquíes para un rey marroquí, y justo por eso
+**la UNESCO la declaró Patrimonio en 2001**: es el ejemplo más claro de esa idea
+en el norte de África. Nuestra
+[guía de la excursión desde Agadir](/es/blog/essaouira-day-trip-from-agadir)
+profundiza en cómo esa tradición de fortificación llegó a la costa atlántica.
+
+## La Skala de la Ville
+
+El muro marino que recorre el borde norte de la medina, erizado de cañones de
+bronce todavía apuntando al Atlántico.
+
+Es la postal, y se la gana: las olas golpeando las murallas abajo, los cañones
+verdes de sal y las islas Purpurarias en el horizonte. La entrada cuesta unos
+**10 MAD** y abre aproximadamente de **9:00 a 17:30**. Ve a última hora de la
+tarde: la luz sube desde el agua y todo el muro se vuelve dorado.
+
+Bajo las murallas están los talleres de marquetería, donde la madera de tuya
+del interior se convierte en cajas y cuencos. Es artesanía de verdad, y el olor
+de la madera ya justifica el rodeo.
+
+## El puerto
+
+En activo, ruidoso y no montado para nadie.
+
+Barcas azules, gaviotas, hielo, hombres remendando redes. La subasta del
+pescado es por la mañana, y las parrillas junto al puerto cocinan al peso lo que
+les señales, en una mesa del muelle. Acuerda el precio antes de que empiecen: es
+la costumbre, no una advertencia sobre Esauira en particular.
+
+Es el mejor marisco de Marruecos. No el más refinado: el más fresco.
+
+## El viento
+
+Nadie avisa de esto, y cambia lo que hay que meter en la maleta.
+
+Esauira está en la ruta de los alisios del noreste, que soplan casi sin parar.
+**En julio la media ronda los 35 km/h con rachas por encima de 55.** Es viento
+de verdad, no brisa marina. Por eso la ciudad sigue fresca cuando Marrakech
+está a 45 °C, y también por eso la playa no siempre es una playa para tumbarse.
+
+**Si vienes a hacer kitesurf o windsurf**, es uno de los mejores spots de
+África, y la temporada va de abril a octubre, con el pico entre junio y agosto.
+
+**Si vienes a tomar el sol**, ven en **mayo, septiembre u octubre**, cuando el
+viento afloja y la ciudad está en su mejor momento.
+
+En cualquier caso, lleva un cortavientos diga lo que diga el pronóstico. Hay
+quien llega en agosto vestido para el Sáhara y pasa la primera tarde comprando
+un jersey.
+
+## El festival Gnaoua
+
+La otra identidad de Esauira es musical. El **Festival Gnaoua y Músicas del
+Mundo** llena la ciudad cuatro días cada junio —**del 25 al 27 de junio de
+2026**, en su 27ª edición— con maâlems gnaoua tocando junto a músicos de jazz,
+funk y música del mundo en escenarios al aire libre.
+
+Es gratuito, es muy bueno y la ciudad se llena por completo. Si quieres estar,
+reserva con meses de antelación. Si no, evita esa semana.
+
+## ¿Excursión de un día o quedarse?
+
+**Un día funciona.** Tres horas de ida y tres de vuelta desde Marrakech dejan
+cinco o seis horas allí, suficientes para las murallas, la medina, comer en el
+puerto y pisar la playa. Nuestra
+[excursión compartida desde Marrakech](/es/tours/excursion-compartida-essaouira)
+hace exactamente eso, y desde la costa la
+[excursión desde Agadir](/es/tours/excursion-essaouira-agadir) es un trayecto
+más corto.
+
+**Pero dos noches es mejor viaje**, si el itinerario lo permite. La ciudad
+cambia por completo cuando se van los autobuses del día: las murallas se vacían,
+la luz se alarga y los restaurantes dejan de ser sitios de almuerzo. Esauira es
+una de las pocas ciudades marroquíes donde la tarde-noche es lo importante.
+
+## Cuándo ir
+
+  **Mayo, septiembre, octubre**  Lo mejor en conjunto. Cálido, viento más
+                                 suave, menos gente.
+  **De junio a agosto**          Lo más ventoso y concurrido. Perfecto para
+                                 kitesurf, fresco frente al interior, pero
+                                 lleva capas.
+  **De noviembre a marzo**       Tranquilo y a menudo precioso, aunque pasan
+                                 temporales atlánticos y hay días grises y
+                                 lluviosos.
+
+Esauira nunca llega a hacer calor de verdad ni frío de verdad. Es la válvula de
+escape fiable cuando el interior se vuelve insoportable.
+
+## Cómo llegar
+
+Tres horas desde Marrakech por buena carretera, dos y media desde Agadir.
+Supratours y CTM cubren la ruta de Marrakech con autobuses cómodos varias veces
+al día.
+
+Si construyes un viaje más amplio, Esauira complementa a Marrakech en vez de
+competir con ella: un par de noches en la costa entre la
+[medina](/es/blog/marrakech-medina-complete-guide) y el desierto reordenan las
+vacaciones enteras.
+`,
+  },
 ];

@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { GALLERY_PHOTOS, GALLERY_GROUP_ORDER } from "@/lib/gallery-photos";
+import { galleryPhotosFor, galleryAltMapFor } from "@/lib/gallery-i18n";
+import type { Locale } from "@/app/[lang]/dictionaries";
 
 /**
  * The /gallery page reads sixteen strings out of `dict.gallery` and two out of
@@ -190,6 +192,109 @@ describe("lightbox control labels", () => {
         src.includes("<GalleryLightbox") && src.includes("labels="),
         `${file} renders a lightbox without a labels prop, so its controls are English`
       ).toBe(true);
+    }
+  });
+});
+
+describe("gallery alt text localisation", () => {
+  /**
+   * Every gallery image carried its English alt string in all six locales.
+   * Nothing failed: an alt is a plain string, so English text on /ar/gallery
+   * typechecks, renders, and passes any visual review. What it actually cost:
+   * a screen reader on the Arabic page announced 66 English descriptions, the
+   * page's ImageObject schema published English descriptions under an Arabic
+   * `inLanguage`, and Google Images had nothing to match a non-English query
+   * against — on a page whose entire purpose is its images.
+   *
+   * galleryPhotosFor() falls back to English for a missing entry rather than
+   * throwing, so a newly added photo degrades instead of crashing. This test
+   * is what stops that fallback from becoming the permanent state.
+   */
+  const TRANSLATED: Locale[] = ["fr", "es", "de", "it", "ar"];
+
+  it("every locale translates every photo", () => {
+    const failures: string[] = [];
+    for (const lang of TRANSLATED) {
+      const map = galleryAltMapFor(lang);
+      if (!map) {
+        failures.push(`${lang}: no alt map at all`);
+        continue;
+      }
+      for (const photo of GALLERY_PHOTOS) {
+        const alt = map[photo.src];
+        if (typeof alt !== "string" || alt.trim() === "") {
+          failures.push(`${lang}: ${photo.src} has no translation`);
+        }
+      }
+    }
+    expect(
+      failures,
+      `These photos fall back to English alt text in a non-English page. Add\n` +
+        `each to lib/gallery-alt.<locale>.ts:\n  ` + failures.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("no locale carries an entry for a photo that no longer exists", () => {
+    // A renamed file leaves an orphan key that silently does nothing, and the
+    // photo it was meant for quietly reverts to English.
+    const known = new Set(GALLERY_PHOTOS.map((p) => p.src));
+    const orphans: string[] = [];
+    for (const lang of TRANSLATED) {
+      const map = galleryAltMapFor(lang) ?? {};
+      for (const src of Object.keys(map)) {
+        if (!known.has(src)) orphans.push(`${lang}: ${src}`);
+      }
+    }
+    expect(
+      orphans,
+      `These alt entries name photos that are not in GALLERY_PHOTOS, so they\n` +
+        `are dead and the photo they were written for now renders English:\n  ` +
+        orphans.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("translations are not English copies", () => {
+    const failures: string[] = [];
+    for (const lang of TRANSLATED) {
+      const map = galleryAltMapFor(lang) ?? {};
+      for (const photo of GALLERY_PHOTOS) {
+        if (map[photo.src] === photo.alt) {
+          failures.push(`${lang}: ${photo.src} is identical to English`);
+        }
+      }
+    }
+    expect(
+      failures,
+      `An alt string identical to English is an untranslated paste:\n  ` +
+        failures.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("Arabic alt text is actually in Arabic script", () => {
+    // The clearest signal a translation was skipped, same reasoning as
+    // faq-locale-parity: Latin script in the Arabic file is a paste.
+    const map = galleryAltMapFor("ar") ?? {};
+    const latin = GALLERY_PHOTOS.filter((p) => !/[؀-ۿ]/.test(map[p.src] ?? "")).map(
+      (p) => p.src
+    );
+    expect(
+      latin,
+      `These Arabic alt strings contain no Arabic script:\n  ` + latin.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("galleryPhotosFor returns the same photos in the same order for every locale", () => {
+    // Only alt may differ. If src, group, span or the ordering drift, the grid
+    // and the sitemap stop agreeing about what is on the page.
+    const en = galleryPhotosFor("en");
+    for (const lang of TRANSLATED) {
+      const localised = galleryPhotosFor(lang);
+      expect(localised.length, `${lang} has a different photo count`).toBe(en.length);
+      localised.forEach((p, i) => {
+        expect(p.src, `${lang} photo ${i} src drifted`).toBe(en[i].src);
+        expect(p.group, `${lang} photo ${i} group drifted`).toBe(en[i].group);
+        expect(p.span, `${lang} photo ${i} span drifted`).toBe(en[i].span);
+      });
     }
   });
 });

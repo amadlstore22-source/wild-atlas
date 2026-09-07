@@ -2,9 +2,11 @@
 import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import { lightboxLabels } from "@/lib/lightbox-labels";
 import AnimateInView from "@/components/ui/AnimateInView";
-import { GALLERY_PHOTOS, GALLERY_GROUP_ORDER } from "@/lib/gallery-photos";
+import { GALLERY_GROUP_ORDER } from "@/lib/gallery-photos";
+// Alt text is per-locale; src/group/span are not. See lib/gallery-i18n.ts.
+import { galleryPhotosFor } from "@/lib/gallery-i18n";
 import type { GalleryGroup } from "@/lib/gallery-photos";
-import type { Dictionary } from "@/app/[lang]/dictionaries";
+import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 /**
  * The gallery page's grids, one section per region.
@@ -26,7 +28,14 @@ import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 type GroupCopy = { title: string; blurb: string };
 
-export default function GalleryPageContent({ dict }: { dict: Dictionary }) {
+export default function GalleryPageContent({
+  dict,
+  lang,
+}: {
+  dict: Dictionary;
+  lang: Locale;
+}) {
+  const photos = galleryPhotosFor(lang);
   const copy: Record<GalleryGroup, GroupCopy> = {
     atlas: { title: dict.gallery.groupAtlas, blurb: dict.gallery.groupAtlasBlurb },
     desert: { title: dict.gallery.groupDesert, blurb: dict.gallery.groupDesertBlurb },
@@ -37,8 +46,8 @@ export default function GalleryPageContent({ dict }: { dict: Dictionary }) {
   return (
     <>
       {GALLERY_GROUP_ORDER.map((group) => {
-        const photos = GALLERY_PHOTOS.filter((p) => p.group === group);
-        if (photos.length === 0) return null;
+        const inGroup = photos.filter((p) => p.group === group);
+        if (inGroup.length === 0) return null;
         return (
           <section key={group} className="mb-20 last:mb-0 scroll-mt-24" id={group}>
             <AnimateInView variant="fade-up" className="mb-8 max-w-2xl">
@@ -55,7 +64,7 @@ export default function GalleryPageContent({ dict }: { dict: Dictionary }) {
                 row-span reads the way it was composed to. */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
               <GalleryLightbox
-                photos={photos}
+                photos={inGroup}
                 labels={lightboxLabels(dict.common, {
                   play: dict.gallery.slideshow,
                   pause: dict.gallery.slideshowStop,

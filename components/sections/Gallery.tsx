@@ -5,7 +5,8 @@ import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import { lightboxLabels } from "@/lib/lightbox-labels";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 // The photo list lives in lib/ so app/sitemap.ts can read it as plain data.
-import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
+// Alt text is per-locale; src/group/span are not. See lib/gallery-i18n.ts.
+import { galleryPhotosFor } from "@/lib/gallery-i18n";
 
 interface Props {
   dict: Dictionary;
@@ -37,7 +38,7 @@ export default function Gallery({ dict, lang = "en" }: Props) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
           <GalleryLightbox
-            photos={GALLERY_PHOTOS}
+            photos={galleryPhotosFor(lang)}
             labels={lightboxLabels(dict.common, {
               play: dict.gallery.slideshow,
               pause: dict.gallery.slideshowStop,

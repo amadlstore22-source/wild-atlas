@@ -5,8 +5,12 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import CTABanner from "@/components/sections/CTABanner";
 import GalleryPageContent from "@/components/sections/GalleryPageContent";
 import GalleryHeroSlideshow from "@/components/sections/GalleryHeroSlideshow";
-import { getDictionary, hasLocale } from "../dictionaries";
+import { getDictionary, hasLocale, type Locale } from "../dictionaries";
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
+// Alt text is per-locale, and it is what the ImageObject schema publishes
+// as each image's description — English there on /ar/gallery is structured
+// data disagreeing with the page's own language. See lib/gallery-i18n.ts.
+import { galleryPhotosFor } from "@/lib/gallery-i18n";
 import { STATS } from "@/lib/stats";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
@@ -88,7 +92,8 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
  * #organization and the About page references it by @id; a third copy would be
  * the duplicated-entity problem those two already avoid.
  */
-function galleryJsonLd(lang: string, title: string, description: string) {
+function galleryJsonLd(lang: Locale, title: string, description: string) {
+  const photos = galleryPhotosFor(lang);
   const base = `https://marrakechecotours.com/${lang}`;
   return {
     "@context": "https://schema.org",
@@ -108,7 +113,7 @@ function galleryJsonLd(lang: string, title: string, description: string) {
     // Capped at 60. The page carries 66 and Google's guidance is that a very
     // long ItemList adds bytes to every crawl without adding understanding;
     // the sitemap already declares the images independently.
-    image: GALLERY_PHOTOS.slice(0, 60).map((p) => ({
+    image: photos.slice(0, 60).map((p) => ({
       "@type": "ImageObject",
       contentUrl: `https://marrakechecotours.com${p.src}`,
       description: p.alt,
@@ -121,6 +126,16 @@ export default async function GalleryPage({ params }: LangParams) {
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
 
+  // The hero reel resolved for this locale: same eight frames, this locale's
+  // alt text. HERO_REEL names them by src, so the lookup is against the
+  // localised list rather than the English constant.
+  const localised = galleryPhotosFor(lang);
+  const heroPhotos = HERO_REEL.map((src) => {
+    const photo = localised.find((p) => p.src === src);
+    if (!photo) throw new Error(`HERO_REEL references a photo that is not in GALLERY_PHOTOS: ${src}`);
+    return photo;
+  });
+
   return (
     <>
       <JsonLd data={galleryJsonLd(lang, dict.seo.gallery.title, dict.seo.gallery.description)} />
@@ -129,7 +144,7 @@ export default async function GalleryPage({ params }: LangParams) {
           The page opens on the work itself. A gallery that opens on a still
           frame with a "play" button under it asks the visitor to do something
           before the page does anything. */}
-      <GalleryHeroSlideshow photos={HERO_PHOTOS}>
+      <GalleryHeroSlideshow photos={heroPhotos}>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
           <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">
             {dict.gallery.eyebrow}
@@ -155,7 +170,7 @@ export default async function GalleryPage({ params }: LangParams) {
       {/* ── Grouped grids ── */}
       <section className="bg-surface py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <GalleryPageContent dict={dict} />
+          <GalleryPageContent dict={dict} lang={lang} />
 
           <div className="mt-16 pt-10 border-t border-sand-dark flex justify-center">
             <Link

@@ -149,7 +149,7 @@ export default async function HomePage({ params }: LangParams) {
       <ZelligeDivider />
       <MapWrapper lang={lang} dict={dict} />
       <FeaturedGuides dict={dict} lang={lang} />
-      <Gallery dict={dict} />
+      <Gallery dict={dict} lang={lang} />
       <Suspense fallback={<NewsSectionSkeleton />}>
         <NewsTeaserSection lang={lang} dict={dict} />
       </Suspense>

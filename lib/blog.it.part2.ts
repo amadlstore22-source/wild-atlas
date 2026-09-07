@@ -3458,7 +3458,7 @@ Prenota quello che vuoi davvero.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech? (2026)",
     excerpt:
-      "Il viaggio di 3 giorni a Merzouga è l'itinerario nel deserto più prenotato del Marocco e il più variabile nel prezzo. Ecco cosa separa un minibus condiviso da 95 € da un 4x4 privato da 225 €.",
+      "Il viaggio di 3 giorni a Merzouga è l'itinerario nel deserto più prenotato del Marocco e il più variabile nel prezzo. Ecco cosa separa un minibus condiviso da 95 € da un 4x4 privato da 380 €.",
     heroImage: "/gallery/camel-caravan-dune-crest-sand-sea.jpg",
     category: "desert",
     region: "sahara-south",
@@ -3471,7 +3471,7 @@ Prenota quello che vuoi davvero.
       "Quanto costa un tour di 3 giorni da Marrakech a Merzouga nel 2026, cosa distingue le offerte economiche dai tour privati, e i costi nascosti dei preventivi a basso prezzo.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 225 € per un 4x4 privato con campo di lusso. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 225 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo con cena e colazione, una notte in hotel e una guida del deserto." },
+      { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 380 € per un 4x4 privato con campo berbero. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 380 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo con cena e colazione, una notte in hotel e una guida del deserto." },
       { q: "Perché alcuni tour nel deserto marocchino costano così poco?", a: "Il risparmio viene da quattro fronti: un minibus condiviso da 16 posti invece di un veicolo privato; un campo essenziale con bagni in comune invece che privati; i pranzi esclusi in entrambi i giorni di strada; e un gruppo più numeroso, quindi più soste e meno flessibilità. Nulla di disonesto se dichiarato: chiedi cosa si applica prima di pagare." },
       { q: "Tre giorni bastano per il Sahara?", a: "È l'itinerario più breve che raggiunge davvero l'Erg Chebbi. Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e tre sono in gran parte giornate di strada, con la notte nel deserto in mezzo. Se vuoi più dune e meno auto, il [tour di 4 giorni](/it/tours/desert-4day-marrakech) aggiunge una notte e un ritmo più disteso." },
       { q: "Cosa non è incluso in un tour di 3 giorni nel deserto?", a: "Nel nostro viaggio: i pranzi dei giorni 1 e 3, le spese personali e le mance. I pranzi lungo la strada costano in genere 60-120 MAD ciascuno nei ristoranti di sosta. Le mance per l'autista-guida e il personale del campo sono consuetudine, intorno al 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere." },
@@ -3483,7 +3483,7 @@ Un tour di 3 giorni da Marrakech a Merzouga viene proposto tra circa **95 € e 
 forbice più ampia di qualsiasi itinerario marocchino, e non perché alcuni operatori siano
 avidi. È perché «tour di 3 giorni nel Sahara» descrive quattro prodotti piuttosto diversi.
 
-Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa **225 € a
+Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa **380 € a
 persona**.
 
 ## Cosa separa davvero i prezzi
@@ -3543,12 +3543,12 @@ sostituto del Sahara. Li confrontiamo in
 
 ## Dove finiscono i soldi
 
-Le piattaforme prendono il **25-40 %** di commissione. Su un tour da 225 € sono fino a 98 €
+Le piattaforme prendono il **25-40 %** di commissione. Su un tour da 380 € sono fino a 152 €
 che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri. Prenotare
 in diretta con qualsiasi operatore marocchino mantiene quella somma alle persone che mandano
 avanti il campo.
 
-👉 **[Scopri il tour di 3 giorni nel Sahara da Marrakech](/it/tours/sahara-3day-marrakech)** — 225 € a persona, 4x4 privato, campo di lusso, giro in cammello al tramonto incluso.
+👉 **[Scopri il tour di 3 giorni nel Sahara da Marrakech](/it/tours/sahara-3day-marrakech)** — 380 € a persona, 4x4 privato, campo berbero, giro in cammello al tramonto incluso.
 `,
   },
   {
@@ -3570,7 +3570,7 @@ avanti il campo.
       "Quanto costa un tour nel deserto da Agadir nel 2026: itinerari di 2, 3 e 4 giorni a confronto, perché i tour da Agadir vanno all'Erg Chegaga invece che a Merzouga.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 400 € a persona, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 327 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 482 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
+      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 400 € a persona, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 327 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 519 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
       { q: "Perché i tour da Agadir vanno all'Erg Chegaga invece che a Merzouga?", a: "Geografia. L'Erg Chegaga dista circa 450 km da Agadir via Tata e Foum Zguid; Merzouga circa 700 km. In un viaggio di 2 giorni Chegaga è raggiungibile e Merzouga no, ed è per questo che gli itinerari brevi vanno lì. Quello di 4 giorni ha il tempo di raggiungere l'Erg Chebbi." },
       { q: "Bastano 2 giorni per un viaggio nel deserto da Agadir?", a: "Bastano per dormire tra le dune, che è ciò per cui la maggior parte parte. Non è un viaggio rilassante: circa 8 ore di strada per senso, un giro in cammello al tramonto, una notte al campo, un giro all'alba e il ritorno. Se vuoi più deserto e meno veicolo, quello di 3 giorni offre due notti al campo per 150 € in più." },
       { q: "Cosa non è incluso in un tour nel deserto da Agadir?", a: "In quello di 2 giorni: il pranzo del giorno uno, gli effetti personali e le mance. In quello di 4 giorni: tutti i pranzi a circa 12-15 € ciascuno, il biglietto facoltativo per gli Atlas Studios (~7 €), le bevande alcoliche, l'assicurazione di viaggio e le mance. Alloggio, cene, colazioni, giri in cammello e tutto il trasporto sono inclusi in ogni itinerario." },
@@ -3589,11 +3589,11 @@ un viaggio nel deserto dalla costa costi diversamente dallo stesso viaggio da Ma
 |---|---|---|---|
 | [2 giorni Erg Chegaga](/it/tours/sahara-2day-agadir) | 400 € | 1 (campo) | Erg Chegaga |
 | [3 giorni Erg Chegaga, privato](/it/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hotel + campo) | Erg Chegaga |
-| [4 giorni Erg Chebbi](/it/tours/desert-4day-agadir) | 482 € | 3 (hotel + campo + hotel) | Merzouga |
+| [4 giorni Erg Chebbi](/it/tours/desert-4day-agadir) | 519 € | 3 (hotel + campo + hotel) | Merzouga |
 
 ## Il viaggio di 2 giorni, onestamente
 
-179 € comprendono trasporto in 4x4, una guida del deserto esperta, una notte in campo di
+400 € comprendono trasporto in 4x4, una guida del deserto esperta, una notte in campo berbero
 lusso con cena e colazione, e tutti i giri in cammello.
 
 Quello che comporta anche sono **circa 8 ore di strada per senso**. Il giorno uno parte da
@@ -3608,7 +3608,7 @@ giorni, non sperare che quello di 2 sia diverso.
 
 ## Perché quello di 3 giorni costa 150 € in più
 
-L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 327 € contro 179 €, che
+L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 327 € contro 400 €, che
 sembra molto per un giorno in più. Cambiano tre cose:
 
 - **La strada è distribuita su due giorni**, con una notte in hotel a Foum Zguid, invece di 8 ore all'andata e 8 al ritorno in giorni consecutivi
@@ -3627,7 +3627,7 @@ cammello al tramonto e all'alba, acqua minerale e tè alla menta per tutto il vi
 autista-guida bilingue.
 
 Le dune dell'Erg Chebbi sono più alte e l'erg è più vasto di quello di Chegaga. Che questo
-giustifichi 225 € in più rispetto a quello di 2 giorni dipende da quanto ti importi di un
+giustifichi quello di 3 giorni rispetto a quello di 2 giorni dipende da quanto ti importi di un
 mare di dune specifico: entrambi sono Sahara vero, e Chegaga è nettamente più tranquillo.
 
 ## Cosa è escluso, per itinerario
@@ -3678,7 +3678,7 @@ Prenotare in diretta mantiene quella somma alle persone che mandano avanti il ca
       "Quanto costa un tour di 4 giorni nel deserto marocchino in famiglia nel 2026: trasporto, campi, giri in cammello e pasti dettagliati, più gli extra che i genitori dovrebbero prevedere.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
-      { q: "Quanto costa un tour nel deserto in famiglia in Marocco?", a: "Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech) costa 350 € a persona e comprende trasporto privato con aria condizionata, un autista-guida bilingue, tre notti di alloggio con cene e colazioni, e i giri in cammello al tramonto e all'alba all'Erg Chebbi. Calcola circa 40-60 € a persona in più per i pranzi." },
+      { q: "Quanto costa un tour nel deserto in famiglia in Marocco?", a: "Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech) costa 398 € a persona e comprende trasporto privato con aria condizionata, un autista-guida bilingue, tre notti di alloggio con cene e colazioni, e i giri in cammello al tramonto e all'alba all'Erg Chebbi. Calcola circa 40-60 € a persona in più per i pranzi." },
       { q: "Un tour nel deserto è adatto ai bambini piccoli?", a: "I giri in cammello e le dune sono la parte facile: ai bambini piacciono quasi sempre entrambi. La parte impegnativa è la strada: Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e quattro hanno lunghi tratti in veicolo. L'itinerario di 4 giorni la spezza con tappe nella valle del Dades e a Ouarzazate invece di farla tutta d'un fiato, ed è questo che lo rende praticabile con i bambini." },
       { q: "I bambini pagano il prezzo pieno in un tour nel deserto?", a: "Chiedeteci: dipende dalle età e da come il vostro gruppo riempie il veicolo. Poiché trasporto, autista-guida e campo sono in gran parte costi per viaggio e non a persona, una famiglia di quattro spesso costa sensibilmente meno a testa di due adulti che viaggiano da soli. Scriveteci età e date e vi diamo la cifra reale." },
       { q: "Cosa devono prevedere le famiglie oltre al prezzo del tour?", a: "I pranzi a circa 12-15 € a persona a pasto, il biglietto facoltativo per gli Atlas Studios a circa 7 €, l'assicurazione di viaggio e le mance. Per una famiglia di quattro su quattro giorni sono realisticamente 150-250 € oltre al prezzo del tour." },
@@ -3687,7 +3687,7 @@ Prenotare in diretta mantiene quella somma alle persone che mandano avanti il ca
 ## La cifra esposta
 
 Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech)
-costa **350 € a persona**, ed è costruito diversamente dall'itinerario standard per adulti:
+costa **398 € a persona**, ed è costruito diversamente dall'itinerario standard per adulti:
 non in ciò che visita, ma nel ritmo delle giornate.
 
 ## Cosa è incluso
@@ -3751,12 +3751,12 @@ completamente diverso.
 
 ## Dove finiscono i soldi
 
-Una commissione di piattaforma del **25-40 %** su un viaggio da 350 € sono fino a 152 € a
+Una commissione di piattaforma del **25-40 %** su un viaggio da 398 € sono fino a 159 € a
 persona che escono dal Marocco. Su una famiglia di quattro è una somma considerevole che non
 raggiunge mai il campo, i cammellieri o le case di villaggio. Prenotare in diretta la
 mantiene nel Paese.
 
-👉 **[Scopri il tour di 4 giorni nel deserto per famiglie](/it/tours/family-desert-4day-marrakech)** — 350 € a persona, tre notti, giri in cammello all'Erg Chebbi, con un ritmo pensato per i bambini.
+👉 **[Scopri il tour di 4 giorni nel deserto per famiglie](/it/tours/family-desert-4day-marrakech)** — 398 € a persona, tre notti, giri in cammello all'Erg Chebbi, con un ritmo pensato per i bambini.
 `,
   },
   {
@@ -3775,9 +3775,9 @@ mantiene nel Paese.
     tags: ["prezzo tre cime Toubkal", "costo Ouanoukrim", "Timesguida", "Ras Ouanoukrim", "4000 m Marocco", "Alto Atlante"],
     seoTitle: "Prezzo del trek Tre Cime del Toubkal nel 2026 — Dettaglio completo",
     seoDescription:
-      "Quanto costa il trek delle tre cime del Toubkal nel 2026: sovrapprezzo della guida, due notti in rifugio, mulo e tasse del parco, rispetto a un pacchetto da 280 €.",
+      "Quanto costa il trek delle tre cime del Toubkal nel 2026: sovrapprezzo della guida, due notti in rifugio, mulo e tasse del parco, rispetto a un pacchetto da 302 €.",
     faq: [
-      { q: "Quanto costa il trek delle Tre Cime del Toubkal?", a: "Il nostro [trek di 3 giorni alle tre cime](/it/tours/toubkal-three-peaks-4000m-3day) costa 280 € a persona, con guida d'alta quota, entrambe le notti in rifugio, tutti i pasti, il portatore con mulo, le tasse del parco e il transfer da Marrakech. Organizzare lo stesso itinerario in autonomia costa circa 3.200–4.600 MAD per due persone, sommando ogni voce." },
+      { q: "Quanto costa il trek delle Tre Cime del Toubkal?", a: "Il nostro [trek di 3 giorni alle tre cime](/it/tours/toubkal-three-peaks-4000m-3day) costa 302 € a persona, con guida d'alta quota, entrambe le notti in rifugio, tutti i pasti, il portatore con mulo, le tasse del parco e il transfer da Marrakech. Organizzare lo stesso itinerario in autonomia costa circa 3.200–4.600 MAD per due persone, sommando ogni voce." },
       { q: "Perché costa più di un normale trek al Toubkal?", a: "Non per il giorno in più. La differenza è la guida: Timesguida e Ras Ouanoukrim sono classificati esperto e richiedono una guida qualificata per l'alta quota, la cui tariffa giornaliera sta nella parte alta della fascia 500–800 MAD e non a metà. La seconda notte in rifugio e i pasti aggiuntivi completano il resto." },
       { q: "Servono capacità alpinistiche?", a: "In estate no: è cammino impegnativo su ghiaione e roccia, non arrampicata. Da novembre a marzo tutte e tre le cime richiedono ramponi e piccozza, e la capacità di usarli. È la differenza principale rispetto alla via normale del Toubkal." },
       { q: "Tre cime in tre giorni è realistico?", a: "È davvero impegnativo. Si dorme due notti a 3.207 m e si sale in vetta in entrambi i giorni pieni, senza margine di acclimatamento. Chi non è stato sopra i 3.000 m di recente dovrebbe considerare prima il [trek del Toubkal di 4 giorni](/it/tours/toubkal-summit-trek-4day), il cui giorno extra esiste proprio per acclimatarsi." },
@@ -3786,7 +3786,7 @@ mantiene nel Paese.
 ## La risposta breve
 
 Il nostro [trek di 3 giorni alle Tre Cime](/it/tours/toubkal-three-peaks-4000m-3day)
-costa da **280 € a persona**, tutto incluso. Organizzare lo stesso itinerario da soli costa
+costa da **302 € a persona**, tutto incluso. Organizzare lo stesso itinerario da soli costa
 circa **3.200–4.600 MAD per due persone** — e la distanza fra i due numeri è minore di
 quanto sembri.
 
@@ -3843,7 +3843,7 @@ offra in un lungo weekend, sì. Se l'obiettivo è il Toubkal in sé, il
 costa poco di più ma include una vera giornata di acclimatamento, il fattore che più
 determina se si arriva davvero in cima.
 
-👉 **[Scopri il trek Tre Cime del Toubkal](/it/tours/toubkal-three-peaks-4000m-3day)** — 280 € a persona, tre vette di 4.000 m, guida d'alta quota ed entrambe le notti in rifugio incluse.
+👉 **[Scopri il trek Tre Cime del Toubkal](/it/tours/toubkal-three-peaks-4000m-3day)** — 302 € a persona, tre vette di 4.000 m, guida d'alta quota ed entrambe le notti in rifugio incluse.
 `,
   },
   {
@@ -4120,7 +4120,7 @@ Se hai cinque giorni e vuoi sia la montagna sia il deserto, è il modo efficient
 farlo. Se ti interessa solo la vetta, il
 [trek del Toubkal di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) a 195 € basta da
 solo. Se sono le dune ad attrarti, il
-[tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) a 225 € è la via diretta.
+[tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) a 380 € è la via diretta.
 
 La combinazione vale il suo sovrapprezzo quando vuoi davvero entrambe le cose, non come
 modo per risparmiare su una delle due.
@@ -4674,7 +4674,7 @@ loro viaggi, un'email a cui risponde una persona.
 Due casi autentici, e non ci costa nulla dirlo:
 
 **Una singola attività economica con cancellazione stretta.** Per un
-[tramonto ad Agafay](/it/tours/agafay-desert-sunset) da 87 € magari prenoti con due
+[tramonto ad Agafay](/it/tours/agafay-desert-sunset) da 94 € magari prenoti con due
 giorni di anticipo e un programma che può cambiare. Le condizioni di cancellazione
 delle piattaforme sono spesso più generose di quanto possa offrire un piccolo
 operatore, e su un biglietto da 69 € la commissione è di pochi euro. Prenditi la

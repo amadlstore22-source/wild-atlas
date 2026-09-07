@@ -634,7 +634,9 @@
       "challenging": "Anspruchsvoll",
       "expert": "Experte"
     },
-    "perPersonGroup": "/ Person ab {count}"
+    "perPersonGroup": "/ Person ab {count}",
+    "photoPosition": "Foto {n} von {total}",
+    "viewPhoto": "Foto ansehen: {alt}"
   },
   "howWeOperate": {
     "pageTitle": "Wie wir arbeiten",

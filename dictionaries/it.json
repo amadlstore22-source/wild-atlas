@@ -634,7 +634,9 @@
       "challenging": "Impegnativo",
       "expert": "Esperto"
     },
-    "perPersonGroup": "/ persona per {count}+"
+    "perPersonGroup": "/ persona per {count}+",
+    "photoPosition": "Foto {n} di {total}",
+    "viewPhoto": "Vedi la foto: {alt}"
   },
   "howWeOperate": {
     "pageTitle": "Come lavoriamo",

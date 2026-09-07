@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import AnimateInView from "@/components/ui/AnimateInView";
 import GalleryLightbox from "@/components/ui/GalleryLightbox";
+import { lightboxLabels } from "@/lib/lightbox-labels";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 // The photo list lives in lib/ so app/sitemap.ts can read it as plain data.
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
@@ -35,7 +36,13 @@ export default function Gallery({ dict, lang = "en" }: Props) {
         </AnimateInView>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
-          <GalleryLightbox photos={GALLERY_PHOTOS} />
+          <GalleryLightbox
+            photos={GALLERY_PHOTOS}
+            labels={lightboxLabels(dict.common, {
+              play: dict.gallery.slideshow,
+              pause: dict.gallery.slideshowStop,
+            })}
+          />
         </div>
       </div>
     </section>

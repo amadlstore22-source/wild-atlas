@@ -117,6 +117,83 @@ describe("gallery page strings", () => {
   });
 });
 
+describe("lightbox control labels", () => {
+  /**
+   * The lightbox is a modal that traps the page, and its five controls are
+   * the whole interface for anyone using a screen reader. All five were
+   * hardcoded English on every locale — including Arabic — while three of
+   * them (close, previous, next) had sat translated in `common` the entire
+   * time with nothing passing them.
+   *
+   * Nothing catches this: an aria-label is a plain string, so a hardcoded one
+   * typechecks, renders and passes every visual review. Only someone browsing
+   * in Arabic with a screen reader would ever have found it.
+   */
+  const CONTROL_KEYS = ["close", "previous", "next", "photoPosition", "viewPhoto"] as const;
+
+  it("every locale carries all five control labels", () => {
+    const failures: string[] = [];
+    for (const lang of LOCALES) {
+      const c = dict(lang).common ?? {};
+      for (const key of CONTROL_KEYS) {
+        const v = c[key];
+        if (typeof v !== "string" || v.trim() === "") {
+          failures.push(`${lang}: common.${key} is ${JSON.stringify(v)}`);
+        }
+      }
+    }
+    expect(
+      failures,
+      `These are the accessible names of the lightbox controls. A missing one\n` +
+        `falls back to English, which is what this test exists to stop:\n  ` +
+        failures.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("placeholder labels keep their placeholders", () => {
+    const failures: string[] = [];
+    for (const lang of LOCALES) {
+      const c = dict(lang).common ?? {};
+      if (!String(c.photoPosition).includes("{n}")) failures.push(`${lang}: photoPosition has no {n}`);
+      if (!String(c.photoPosition).includes("{total}")) failures.push(`${lang}: photoPosition has no {total}`);
+      if (!String(c.viewPhoto).includes("{alt}")) failures.push(`${lang}: viewPhoto has no {alt}`);
+    }
+    expect(
+      failures,
+      `The lightbox does .replace() on these. Without the placeholder the\n` +
+        `number or the photo description never appears in the accessible name:\n  ` +
+        failures.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("no lightbox aria-label is a hardcoded string literal", () => {
+    // The regression itself: catch a plain-string aria-label coming back.
+    const src = readFileSync("components/ui/GalleryLightbox.tsx", "utf8");
+    const literals = [...src.matchAll(/aria-label="([^"]+)"/g)].map((m) => m[1]);
+    expect(
+      literals,
+      `aria-label must come from the labels prop so it can be translated.\n` +
+        `These are hardcoded and will render English in all six locales:\n  ` +
+        literals.join("\n  ")
+    ).toEqual([]);
+  });
+
+  it("both galleries pass labels to the lightbox", () => {
+    // A lightbox rendered without the prop silently falls back to English —
+    // exactly the state the homepage gallery was in.
+    for (const file of [
+      "components/sections/Gallery.tsx",
+      "components/sections/GalleryPageContent.tsx",
+    ]) {
+      const src = readFileSync(file, "utf8");
+      expect(
+        src.includes("<GalleryLightbox") && src.includes("labels="),
+        `${file} renders a lightbox without a labels prop, so its controls are English`
+      ).toBe(true);
+    }
+  });
+});
+
 describe("gallery photo grouping", () => {
   it("every photo has a group the page renders", () => {
     const orphans = GALLERY_PHOTOS.filter(

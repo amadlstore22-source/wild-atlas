@@ -634,7 +634,9 @@
       "challenging": "Challenging",
       "expert": "Expert"
     },
-    "perPersonGroup": "/ person for {count}+"
+    "perPersonGroup": "/ person for {count}+",
+    "photoPosition": "Photo {n} of {total}",
+    "viewPhoto": "View photo: {alt}"
   },
   "howWeOperate": {
     "pageTitle": "How We Operate",

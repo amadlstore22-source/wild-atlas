@@ -5765,7 +5765,7 @@ experience — it is a different one. Book the one you want.
     seoDescription:
       "What a 3-day Marrakech to Merzouga Sahara tour costs in 2026, what separates budget and private trips, and the hidden costs in cheap desert tour quotes.",
     faq: [
-      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €350 for a private 4x4 with a luxury camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €690 for one traveller, €380 each for two, €320 for three, dropping to €230 each at six, and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
+      { q: "How much does a 3-day Sahara tour from Marrakech cost?", a: "Prices range from roughly €95 for a shared minibus with a basic camp to €350 for a private 4x4 with an en-suite camp. Our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €690 for one traveller, €380 each for two, €320 for three, dropping to €230 each at six, and includes private transport, the sunset camel ride, one night in a desert camp with dinner and breakfast, one hotel night and a desert guide." },
       { q: "Why are some Morocco desert tours so cheap?", a: "The savings come from four places, and it is worth knowing which: a shared 16-seat minibus rather than a private vehicle; a basic camp with shared bathrooms rather than private ones; lunches excluded on both driving days; and a larger group, which means more stops and less flexibility. None of that is dishonest if disclosed — ask which applies before paying." },
       { q: "Is the 3-day Sahara tour enough time?", a: "It is the shortest itinerary that reaches Erg Chebbi properly. Merzouga is about 560 km from Marrakech, so days one and three are substantially driving days, with the desert night in between. If you want more time in the dunes rather than the car, the [4-day route](/en/tours/desert-4day-marrakech) adds a night and a slower pace." },
       { q: "What is not included in a 3-day desert tour?", a: "On our trip, lunches on days one and three, plus personal expenses and tips. Lunches on the road are typically 60–120 MAD each at the roadside restaurants the route uses. Tips for the driver-guide and camp staff are customary at around 350–800 MAD across the driver-guide, camel handlers and camp staff." },
@@ -5890,7 +5890,7 @@ desert trip costs differently from the same trip out of Marrakech.
 
 ## The 2-day trip, honestly
 
-€179 buys 4x4 transport, an experienced desert guide, one night in a luxury desert camp
+€400 buys 4x4 transport, an experienced desert guide, one night in a Berber desert camp
 with dinner and breakfast, and all camel rides.
 
 What it also involves is **roughly 8 hours of driving each way**. Day one departs Agadir
@@ -5905,7 +5905,7 @@ to take the 3-day rather than to expect the 2-day to feel different.
 
 ## Why the 3-day costs €150 more
 
-The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €327 against €179 which looks
+The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €327 against €400 which looks
 steep for one extra day. Three things change:
 
 - **The drive is split over two days** with a hotel night in Foum Zguid, rather than 8 hours out and 8 hours back on consecutive days
@@ -5947,7 +5947,7 @@ save you a 3-hour transfer each way. We compare the two bases in
 
 ## Where the money goes
 
-Platform commission runs **25–40%**. On a €482 trip that is up to €193 leaving Morocco —
+Platform commission runs **25–40%**. On a €519 trip that is up to €208 leaving Morocco —
 more than the camp and the camel handlers earn between them. Booking direct with any
 Moroccan operator keeps it with the people running the camp.
 
@@ -6352,7 +6352,7 @@ the commitment.
 ## The short answer
 
 The [5-day Toubkal and Sahara tour](/en/tours/toubkal-summit-sahara-5day) is
-**€635 per person**, covering both halves of the trip end to end.
+**€644 per person**, covering both halves of the trip end to end.
 
 The obvious question is whether you could just book a Toubkal trek and a desert tour
 separately for less. You can book them for less. You cannot do them for less — and
@@ -6373,7 +6373,7 @@ Imlil → Aït Ben Haddou → Dades → Erg Chebbi as one line.
 It also swaps a shared minibus for a **private driver-guide** on the desert leg,
 which is most of the price difference on its own.
 
-## Where the €635 goes
+## Where the €644 goes
 
 | Item | Typical 2026 cost | Notes |
 |---|---|---|
@@ -6416,7 +6416,7 @@ alone. If the dunes are the draw, the
 The combination is worth its premium when you actually want both — not as a way of
 saving money on either.
 
-👉 **[See the 5-day Toubkal & Sahara tour](/en/tours/toubkal-summit-sahara-5day)** — €635 per person, summit at 4,167 m and a night in the Erg Chebbi dunes, private throughout.
+👉 **[See the 5-day Toubkal & Sahara tour](/en/tours/toubkal-summit-sahara-5day)** — €644 per person, summit at 4,167 m and a night in the Erg Chebbi dunes, private throughout.
 
 
 If eight days suits you better than five, the

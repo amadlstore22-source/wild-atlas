@@ -634,7 +634,9 @@
       "challenging": "صعب",
       "expert": "للمحترفين"
     },
-    "perPersonGroup": "/ للفرد عند {count}+"
+    "perPersonGroup": "/ للفرد عند {count}+",
+    "photoPosition": "صورة {n} من {total}",
+    "viewPhoto": "عرض الصورة: {alt}"
   },
   "howWeOperate": {
     "pageTitle": "كيف نعمل",

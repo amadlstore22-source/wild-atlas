@@ -3480,7 +3480,7 @@ sie ist nicht schlechter — sie ist anders. Buchen Sie die, die Sie wollen.
       "Was eine 3-tägige Tour von Marrakesch nach Merzouga 2026 kostet, was Billigangebote von Privattouren unterscheidet, und die versteckten Kosten günstiger Angebote.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 225 € für einen privaten 4x4 mit Luxuscamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 225 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Wüstencamp mit Abendessen und Frühstück, eine Hotelnacht und einen Wüstenführer." },
+      { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 380 € für einen privaten 4x4 mit Berber-Wüstencamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 380 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Wüstencamp mit Abendessen und Frühstück, eine Hotelnacht und einen Wüstenführer." },
       { q: "Warum sind manche Wüstentouren in Marokko so günstig?", a: "Die Ersparnis kommt aus vier Bereichen: ein Sammelminibus mit 16 Plätzen statt eines Privatfahrzeugs; ein einfaches Camp mit Gemeinschaftsbädern statt privater; an beiden Fahrtagen ausgeschlossene Mittagessen; und eine größere Gruppe, also mehr Stopps und weniger Flexibilität. Nichts davon ist unehrlich, wenn es offengelegt wird — fragen Sie vor der Zahlung nach, was zutrifft." },
       { q: "Reichen drei Tage für die Sahara?", a: "Es ist die kürzeste Route, die den Erg Chebbi wirklich erreicht. Merzouga liegt etwa 560 km von Marrakesch entfernt, also sind Tag eins und drei weitgehend Fahrtage, mit der Wüstennacht dazwischen. Wenn Sie mehr Zeit in den Dünen und weniger im Auto wollen, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) eine Nacht und ein ruhigeres Tempo hinzu." },
       { q: "Was ist bei einer 3-Tages-Wüstentour nicht enthalten?", a: "Bei unserer Tour: die Mittagessen an Tag 1 und 3, persönliche Ausgaben und Trinkgeld. Mittagessen unterwegs kosten in den Raststätten der Route typischerweise 60–120 MAD. Trinkgeld für Fahrer-Guide und Campteam ist mit etwa 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber üblich." },
@@ -3493,7 +3493,7 @@ angeboten. Das ist die größte Spanne aller marokkanischen Routen, und nicht, w
 Veranstalter gierig wären. Sondern weil „3-Tages-Saharatour" vier ziemlich verschiedene
 Produkte beschreibt.
 
-Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet **225 € pro Person**.
+Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet **380 € pro Person**.
 
 ## Was die Preise tatsächlich trennt
 
@@ -3553,12 +3553,12 @@ Sahara-Ersatz. Wir vergleichen sie in
 
 ## Wohin das Geld fließt
 
-Buchungsplattformen nehmen **25–40 % Provision**. Bei einer Tour für 225 € sind das bis zu
-98 €, die Marokko verlassen — mehr als Camp und Kameltreiber zusammen verdienen. Direkt bei
+Buchungsplattformen nehmen **25–40 % Provision**. Bei einer Tour für 380 € sind das bis zu
+152 €, die Marokko verlassen — mehr als Camp und Kameltreiber zusammen verdienen. Direkt bei
 einem marokkanischen Veranstalter zu buchen hält das bei den Menschen, die das Camp
 betreiben.
 
-👉 **[Die 3-Tages-Saharatour ab Marrakesch ansehen](/de/tours/sahara-3day-marrakech)** — 225 € pro Person, privater 4x4, Wüstencamp, Kamelritt bei Sonnenuntergang inklusive.
+👉 **[Die 3-Tages-Saharatour ab Marrakesch ansehen](/de/tours/sahara-3day-marrakech)** — 380 € pro Person, privater 4x4, Berber-Wüstencamp, Kamelritt bei Sonnenuntergang inklusive.
 `,
   },
   {
@@ -3580,7 +3580,7 @@ betreiben.
       "Was eine Wüstentour ab Agadir 2026 kostet: 2-, 3- und 4-Tages-Routen im Vergleich, warum Touren ab Agadir zum Erg Chegaga statt nach Merzouga fahren.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Was kostet eine Saharatour ab Agadir?", a: "Unsere [2-Tages-Tour zum Erg Chegaga](/de/tours/sahara-2day-agadir) kostet 400 € pro Person, die [3-tägige Privatroute](/de/tours/erg-chegaga-3day-agadir) 327 € und die [4-Tages-Route zum Erg Chebbi](/de/tours/desert-4day-agadir) 482 €. Die 2-Tages-Tour ist pro Reise am günstigsten, umfasst aber rund 16 Stunden Fahrt an zwei Tagen, sodass die Kosten pro Stunde in den Dünen die höchsten der drei sind." },
+      { q: "Was kostet eine Saharatour ab Agadir?", a: "Unsere [2-Tages-Tour zum Erg Chegaga](/de/tours/sahara-2day-agadir) kostet 400 € pro Person, die [3-tägige Privatroute](/de/tours/erg-chegaga-3day-agadir) 327 € und die [4-Tages-Route zum Erg Chebbi](/de/tours/desert-4day-agadir) 519 €. Die 2-Tages-Tour ist pro Reise am günstigsten, umfasst aber rund 16 Stunden Fahrt an zwei Tagen, sodass die Kosten pro Stunde in den Dünen die höchsten der drei sind." },
       { q: "Warum fahren Wüstentouren ab Agadir zum Erg Chegaga statt nach Merzouga?", a: "Geografie. Der Erg Chegaga liegt etwa 450 km von Agadir entfernt über Tata und Foum Zguid; Merzouga rund 700 km. Bei einer 2-Tages-Tour ist Chegaga erreichbar und Merzouga nicht, weshalb die kurzen Routen dorthin führen. Die 4-Tages-Route hat die Zeit, stattdessen den Erg Chebbi zu erreichen." },
       { q: "Reichen 2 Tage für eine Wüstenreise ab Agadir?", a: "Sie reichen, um in den Dünen zu übernachten — das, wofür die meisten kommen. Eine entspannte Reise ist es nicht: rund 8 Stunden Fahrt je Richtung, ein Kamelritt bei Sonnenuntergang, eine Nacht im Camp, ein Kamelritt im Morgengrauen und die Rückfahrt. Wenn Sie mehr Wüste und weniger Fahrzeug wollen, gibt Ihnen die 3-Tages-Tour zwei Campnächte für 150 € mehr." },
       { q: "Was ist bei einer Wüstentour ab Agadir nicht enthalten?", a: "Bei der 2-Tages-Tour: das Mittagessen an Tag eins, persönliche Dinge und Trinkgeld. Bei der 4-Tages-Tour: alle Mittagessen zu je etwa 12–15 €, das optionale Ticket für die Atlas-Filmstudios (~7 €), alkoholische Getränke, Reiseversicherung und Trinkgeld. Unterkunft, Abendessen, Frühstück, Kamelritte und der gesamte Transport sind auf allen Routen enthalten." },
@@ -3599,11 +3599,11 @@ der Küste anders kostet als dieselbe Reise ab Marrakesch.
 |---|---|---|---|
 | [2 Tage Erg Chegaga](/de/tours/sahara-2day-agadir) | 400 € | 1 (Camp) | Erg Chegaga |
 | [3 Tage Erg Chegaga, privat](/de/tours/erg-chegaga-3day-agadir) | 327 € | 2 (Hotel + Camp) | Erg Chegaga |
-| [4 Tage Erg Chebbi](/de/tours/desert-4day-agadir) | 482 € | 3 (Hotel + Camp + Hotel) | Merzouga |
+| [4 Tage Erg Chebbi](/de/tours/desert-4day-agadir) | 519 € | 3 (Hotel + Camp + Hotel) | Merzouga |
 
 ## Die 2-Tages-Tour, ehrlich betrachtet
 
-179 € umfassen 4x4-Transport, einen erfahrenen Wüstenführer, eine Nacht im Luxuscamp mit
+400 € umfassen 4x4-Transport, einen erfahrenen Wüstenführer, eine Nacht im Berber-Wüstencamp mit
 Abendessen und Frühstück sowie alle Kamelritte.
 
 Was sie ebenfalls umfasst, sind **rund 8 Stunden Fahrt je Richtung**. Tag eins startet um
@@ -3618,7 +3618,7 @@ Nehmen Sie die 3-Tages-Tour, statt zu hoffen, die 2-Tages-Tour fühle sich ander
 
 ## Warum die 3-Tages-Tour 150 € mehr kostet
 
-Die [3-Tages-Route](/de/tours/erg-chegaga-3day-agadir) kostet 327 € statt 179 €, was für
+Die [3-Tages-Route](/de/tours/erg-chegaga-3day-agadir) kostet 327 € statt 400 €, was für
 einen zusätzlichen Tag viel wirkt. Drei Dinge ändern sich:
 
 - **Die Fahrt verteilt sich auf zwei Tage**, mit einer Hotelnacht in Foum Zguid, statt 8 Stunden hin und 8 Stunden zurück an aufeinanderfolgenden Tagen
@@ -3635,8 +3635,8 @@ Hotel im Dades-Tal, ein Berbercamp am Erg Chebbi und ein Hotel in Ouarzazate. Ka
 Sonnenuntergang und Sonnenaufgang, Mineralwasser und Minztee durchgehend, und ein
 zweisprachiger Fahrer-Guide.
 
-Die Dünen des Erg Chebbi sind höher und der Erg ist größer als der von Chegaga. Ob das 225 €
-mehr als die 2-Tages-Tour rechtfertigt, hängt davon ab, wie wichtig Ihnen ein bestimmtes
+Die Dünen des Erg Chebbi sind höher und der Erg ist größer als der von Chegaga. Ob das
+die 3-Tages-Tour gegenüber der 2-Tages-Tour rechtfertigt, hängt davon ab, wie wichtig Ihnen ein bestimmtes
 Dünenmeer ist — beide sind echte Sahara, und Chegaga ist deutlich ruhiger.
 
 ## Was pro Route ausgeschlossen ist
@@ -3687,7 +3687,7 @@ hält das bei den Menschen, die das Camp betreiben.
       "Was eine 4-tägige Familien-Wüstentour in Marokko 2026 kostet: Transport, Camps, Kamelritte und Mahlzeiten aufgeschlüsselt, plus die praktischen Extras, die Eltern einplanen sollten.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
-      { q: "Was kostet eine Familien-Wüstentour in Marokko?", a: "Unsere [4-tägige Familien-Wüstentour ab Marrakesch](/de/tours/family-desert-4day-marrakech) kostet 350 € pro Person und umfasst klimatisierten Privattransport, einen zweisprachigen Fahrer-Guide, drei Nächte Unterkunft mit Abendessen und Frühstück sowie Kamelritte bei Sonnenuntergang und Sonnenaufgang am Erg Chebbi. Rechnen Sie mit etwa 40–60 € pro Person zusätzlich für Mittagessen." },
+      { q: "Was kostet eine Familien-Wüstentour in Marokko?", a: "Unsere [4-tägige Familien-Wüstentour ab Marrakesch](/de/tours/family-desert-4day-marrakech) kostet 398 € pro Person und umfasst klimatisierten Privattransport, einen zweisprachigen Fahrer-Guide, drei Nächte Unterkunft mit Abendessen und Frühstück sowie Kamelritte bei Sonnenuntergang und Sonnenaufgang am Erg Chebbi. Rechnen Sie mit etwa 40–60 € pro Person zusätzlich für Mittagessen." },
       { q: "Ist eine Wüstentour für kleine Kinder geeignet?", a: "Die Kamelritte und die Dünen sind der einfache Teil — Kinder lieben beides meist. Anspruchsvoll ist die Fahrt: Merzouga liegt rund 560 km von Marrakesch entfernt, also haben Tag eins und vier lange Fahrzeugetappen. Die 4-Tages-Route bricht sie mit Übernachtungen im Dades-Tal und in Ouarzazate, statt sie am Stück zu fahren — das macht sie mit Kindern machbar." },
       { q: "Zahlen Kinder auf einer Wüstentour den vollen Preis?", a: "Fragen Sie uns — das hängt vom Alter ab und davon, wie Ihre Gruppe das Fahrzeug füllt. Da Transport, Fahrer-Guide und Camp weitgehend Kosten pro Reise und nicht pro Person sind, kommt eine vierköpfige Familie pro Kopf oft deutlich günstiger weg als zwei allein reisende Erwachsene. Schreiben Sie uns Alter und Daten, und wir nennen die tatsächliche Zahl." },
       { q: "Was sollten Familien zusätzlich zum Tourpreis einplanen?", a: "Mittagessen zu etwa 12–15 € pro Person und Mahlzeit, das optionale Ticket für die Atlas-Filmstudios für rund 7 €, Reiseversicherung und Trinkgeld. Für eine vierköpfige Familie über vier Tage sind das realistisch 150–250 € zusätzlich zum Tourpreis." },
@@ -3696,7 +3696,7 @@ hält das bei den Menschen, die das Camp betreiben.
 ## Die Ausgangszahl
 
 Unsere [4-tägige Familien-Wüstentour ab Marrakesch](/de/tours/family-desert-4day-marrakech)
-kostet **350 € pro Person** und ist anders aufgebaut als die Standardroute für Erwachsene —
+kostet **398 € pro Person** und ist anders aufgebaut als die Standardroute für Erwachsene —
 nicht darin, was sie besucht, sondern im Tempo der Tage.
 
 ## Was enthalten ist
@@ -3760,12 +3760,12 @@ Rhythmus.
 
 ## Wohin das Geld fließt
 
-Eine Plattformprovision von **25–40 %** auf eine Reise für 350 € sind bis zu 152 € pro
+Eine Plattformprovision von **25–40 %** auf eine Reise für 398 € sind bis zu 159 € pro
 Person, die Marokko verlassen. Bei einer vierköpfigen Familie ist das eine erhebliche Summe,
 die weder das Camp noch die Kameltreiber noch die Gästehäuser erreicht. Direkt zu buchen
 hält sie im Land.
 
-👉 **[Die 4-tägige Familien-Wüstentour ansehen](/de/tours/family-desert-4day-marrakech)** — 350 € pro Person, drei Nächte, Kamelritte am Erg Chebbi, im Tempo für Kinder.
+👉 **[Die 4-tägige Familien-Wüstentour ansehen](/de/tours/family-desert-4day-marrakech)** — 398 € pro Person, drei Nächte, Kamelritte am Erg Chebbi, im Tempo für Kinder.
 `,
   },
   {
@@ -3786,7 +3786,7 @@ hält sie im Land.
     seoDescription:
       "Was der Drei-Gipfel-Trek am Toubkal 2026 kostet: Bergführeraufschlag, zwei Hüttennächte, Maultier und Parkgebühren aufgeschlüsselt, verglichen mit einem 331-€-Paket.",
     faq: [
-      { q: "Was kostet der Toubkal-Drei-Gipfel-Trek?", a: "Unser [3-Tages-Trek zu den drei Gipfeln](/de/tours/toubkal-three-peaks-4000m-3day) kostet 280 € pro Person, inklusive Höhenbergführer, beider Hüttennächte, aller Mahlzeiten, des Maultierträgers, der Parkgebühren und des Transfers ab Marrakesch. Dieselbe Route eigenständig zu organisieren kommt auf rund 3.200–4.600 MAD für zwei Personen, wenn man jeden Posten addiert." },
+      { q: "Was kostet der Toubkal-Drei-Gipfel-Trek?", a: "Unser [3-Tages-Trek zu den drei Gipfeln](/de/tours/toubkal-three-peaks-4000m-3day) kostet 302 € pro Person, inklusive Höhenbergführer, beider Hüttennächte, aller Mahlzeiten, des Maultierträgers, der Parkgebühren und des Transfers ab Marrakesch. Dieselbe Route eigenständig zu organisieren kommt auf rund 3.200–4.600 MAD für zwei Personen, wenn man jeden Posten addiert." },
       { q: "Warum kostet er mehr als ein normaler Toubkal-Trek?", a: "Nicht wegen des zusätzlichen Tages. Der Unterschied ist der Bergführer: Timesguida und Ras Ouanoukrim sind als Experten-Route eingestuft und erfordern einen höhenqualifizierten Führer, dessen Tagessatz am oberen Ende der Spanne von 500–800 MAD liegt statt in der Mitte. Die zweite Hüttennacht und die zusätzlichen Mahlzeiten machen den Rest aus." },
       { q: "Brauche ich alpintechnische Kenntnisse?", a: "Im Sommer nicht — es ist anspruchsvolles Gehen über Geröll und Fels, kein Klettern. Von November bis März brauchen alle drei Gipfel Steigeisen und Pickel sowie die Fähigkeit, damit umzugehen. Das ist der größte Unterschied zur normalen Toubkal-Route." },
       { q: "Sind drei Gipfel in drei Tagen realistisch?", a: "Es ist wirklich fordernd. Sie schlafen zwei Nächte auf 3.207 m und gehen an beiden vollen Tagen auf einen Gipfel, ohne Akklimatisationspuffer. Wer nicht kürzlich über 3.000 m war, sollte zuerst den [4-Tages-Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) erwägen, dessen zusätzlicher Tag genau der Akklimatisation dient." },
@@ -3795,7 +3795,7 @@ hält sie im Land.
 ## Die kurze Antwort
 
 Unser [3-Tages-Drei-Gipfel-Trek](/de/tours/toubkal-three-peaks-4000m-3day) kostet
-ab **280 € pro Person**, alles inklusive. Dieselbe Route selbst zu organisieren kommt auf
+ab **302 € pro Person**, alles inklusive. Dieselbe Route selbst zu organisieren kommt auf
 etwa **3.200–4.600 MAD für zwei Personen** — und der Abstand zwischen diesen Zahlen ist
 kleiner, als er aussieht.
 
@@ -3822,7 +3822,7 @@ es weit weniger. Das ist ein Satz am oberen Ende der 500–800 MAD statt in der 
 zwar an jedem Tag der Tour.
 
 Deshalb ist der Drei-Gipfel-Trek nicht einfach „der 2-Tages-Trek plus ein Tag“. Der
-[2-Tages-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 €, dieser 280 € —
+[2-Tages-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 195 €, dieser 302 € —
 71 % mehr für eine um 50 % längere Tour mit einem selteneren Führer und einer
 zusätzlichen Hüttennacht.
 
@@ -3852,7 +3852,7 @@ einem langen Wochenende bietet: ja. Wenn der Toubkal selbst das Ziel ist, ist de
 kostet etwas mehr, enthält aber einen echten Akklimatisationstag, den größten
 Einzelfaktor dafür, ob Menschen tatsächlich oben ankommen.
 
-👉 **[Zum Toubkal-Drei-Gipfel-Trek](/de/tours/toubkal-three-peaks-4000m-3day)** — 280 € pro Person, drei 4.000er, Höhenbergführer und beide Hüttennächte inklusive.
+👉 **[Zum Toubkal-Drei-Gipfel-Trek](/de/tours/toubkal-three-peaks-4000m-3day)** — 302 € pro Person, drei 4.000er, Höhenbergführer und beide Hüttennächte inklusive.
 `,
   },
   {
@@ -4129,7 +4129,7 @@ Wenn Sie fünf Tage haben und Berg und Wüste wollen, ist das der effiziente Weg
 Ihnen nur um den Gipfel, schafft das der
 [2-Tages-Toubkal-Trek](/de/tours/toubkal-summit-2day-marrakech) für 195 € allein. Sind
 die Dünen der Reiz, ist die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) für
-225 € der direkte Weg.
+380 € der direkte Weg.
 
 Die Kombination ist ihren Aufpreis wert, wenn Sie wirklich beides wollen — nicht als
 Weg, bei einem von beiden zu sparen.
@@ -4687,7 +4687,7 @@ erkennbar von eigenen Reisen stammen, eine E-Mail, die ein Mensch beantwortet.
 Zwei echte Fälle, und es kostet uns nichts, das zu sagen:
 
 **Eine einzelne günstige Aktivität mit knapper Stornofrist.** Für einen
-[Sonnenuntergang in der Agafay](/de/tours/agafay-desert-sunset) für 87 € buchen Sie
+[Sonnenuntergang in der Agafay](/de/tours/agafay-desert-sunset) für 94 € buchen Sie
 vielleicht zwei Tage im Voraus, mit einem Plan, der sich noch ändern kann.
 Plattform-Stornobedingungen sind oft großzügiger, als ein kleiner Veranstalter sie
 bieten kann, und bei einem 69-€-Ticket sind es ein paar Euro Provision. Nehmen Sie die

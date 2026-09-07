@@ -1,5 +1,6 @@
 "use client";
 import GalleryLightbox from "@/components/ui/GalleryLightbox";
+import { lightboxLabels } from "@/lib/lightbox-labels";
 import AnimateInView from "@/components/ui/AnimateInView";
 import { GALLERY_PHOTOS, GALLERY_GROUP_ORDER } from "@/lib/gallery-photos";
 import type { GalleryGroup } from "@/lib/gallery-photos";
@@ -55,10 +56,10 @@ export default function GalleryPageContent({ dict }: { dict: Dictionary }) {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
               <GalleryLightbox
                 photos={photos}
-                labels={{
+                labels={lightboxLabels(dict.common, {
                   play: dict.gallery.slideshow,
                   pause: dict.gallery.slideshowStop,
-                }}
+                })}
               />
             </div>
           </section>

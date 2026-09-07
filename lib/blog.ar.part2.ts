@@ -6703,7 +6703,7 @@ Bureau of Aircraft Accidents Archives — تقرير الحادث المرجعي
     title: "وليلي: المدينة الرومانية في المغرب، ولماذا بقيت الفسيفساء في العراء",
     excerpt:
       "أفضل موقع روماني محفوظ في المغرب، والوحيد الذي ما تزال فسيفساؤه في الأرض التي وُضعت فيها. ما الذي ستراه فعلًا، وكم يكلّف، ومتى تزوره، وكيف يندرج ضمن طريق نحو الجنوب.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 9,

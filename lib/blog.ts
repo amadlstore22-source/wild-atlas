@@ -9833,7 +9833,7 @@ The thing that actually determines whether the trip is a pleasure or an enduranc
     title: "Volubilis: Morocco's Roman City, and Why the Mosaics Are Still Outside",
     excerpt:
       "The best-preserved Roman site in Morocco, and the only one where the mosaics are still in the floors they were laid in. What is actually there, what it costs, when to go, and how it fits into a route south.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     readTime: 9,
     publishedAt: "2026-09-03",

@@ -7049,7 +7049,7 @@ Ce qui détermine réellement si le voyage est un plaisir ou une épreuve, c'est
     title: "Volubilis : la cité romaine du Maroc, et pourquoi les mosaïques sont restées dehors",
     excerpt:
       "Le site romain le mieux conservé du Maroc, et le seul où les mosaïques sont encore dans le sol où elles ont été posées. Ce qu'on y voit vraiment, ce que cela coûte, quand y aller et comment l'intégrer à une route vers le sud.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     region: undefined,
     readTime: 9,

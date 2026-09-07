@@ -7009,7 +7009,7 @@ Was tatsächlich entscheidet, ob die Reise ein Vergnügen oder eine Ausdauerprü
     title: "Volubilis: Marokkos römische Stadt — und warum die Mosaike noch im Freien liegen",
     excerpt:
       "Die besterhaltene römische Stätte Marokkos und die einzige, in der die Mosaike noch in dem Boden liegen, in den sie gelegt wurden. Was es wirklich zu sehen gibt, was es kostet, wann man kommt und wie es sich in eine Route nach Süden fügt.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 9,

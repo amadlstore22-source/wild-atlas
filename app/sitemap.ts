@@ -6,10 +6,16 @@ import { tourSlugFor } from "@/lib/tours-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
 import { EVENTS } from "@/lib/events";
+import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
 const BASE = "https://marrakechecotours.com";
+
+// Absolute URL for a site-relative image path. Image sitemaps ignore relative
+// paths, so every entry has to carry the origin.
+const img = (p?: string): string[] | undefined =>
+  p ? [p.startsWith("http") ? p : `${BASE}${p}`] : undefined;
 
 // Stable lastmod for tour/category/destination/guide pages. Using `new Date()`
 // stamped every URL with the build time, so the whole catalogue's <lastmod>
@@ -35,6 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/cookies", freq: "yearly" as const, priority: 0.3 },
   ];
 
+  // The gallery lives on the homepage rather than a page of its own, so its
+  // frames are declared against `/{lang}` -- the URL that actually embeds them.
+  // Capped at the first 24: all 66 are within Google's 1,000-per-page limit,
+  // but a list that long buries the frames the grid opens with.
+  const galleryImages = GALLERY_PHOTOS.slice(0, 24).map((p) => `${BASE}${p.src}`);
+
   const staticUrls = LOCALES.flatMap((lang) =>
     staticRoutes.map(({ path, freq, priority }) => ({
       url: `${BASE}/${lang}${path}`,
@@ -44,6 +56,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: CATALOGUE_LASTMOD,
       changeFrequency: freq,
       priority,
+      // Only the homepage carries the gallery; the other static routes have no
+      // images of their own worth declaring here.
+      ...(path === "" ? { images: galleryImages } : {}),
     }))
   );
 
@@ -61,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: CATALOGUE_LASTMOD,
       changeFrequency: "monthly" as const,
       priority: 0.85,
+      images: img(t.heroImage),
     }))
   );
 
@@ -87,6 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(p.updatedAt ?? p.publishedAt),
       changeFrequency: "monthly" as const,
       priority: 0.6,
+      images: img(p.heroImage),
     }))
   );
 

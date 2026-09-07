@@ -6990,7 +6990,7 @@ Ciò che determina davvero se il viaggio sia un piacere o una prova di resistenz
     title: "Volubilis: la città romana del Marocco, e perché i mosaici sono ancora all'aperto",
     excerpt:
       "Il sito romano meglio conservato del Marocco, e l'unico in cui i mosaici sono ancora nel pavimento in cui furono posati. Cosa si vede davvero, quanto costa, quando andarci e come si inserisce in un itinerario verso sud.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 9,

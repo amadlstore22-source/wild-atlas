@@ -6993,7 +6993,7 @@ Lo que de verdad determina si el viaje es un placer o una prueba de resistencia 
     title: "Volubilis: la ciudad romana de Marruecos, y por qué los mosaicos siguen a la intemperie",
     excerpt:
       "El yacimiento romano mejor conservado de Marruecos, y el único donde los mosaicos siguen en el suelo en el que se colocaron. Qué hay realmente, cuánto cuesta, cuándo ir y cómo encaja en una ruta hacia el sur.",
-    heroImage: "/gallery/volubilis-basilica-arches.jpg",
+    heroImage: "/gallery/volubilis-basilica-stork-nest.jpg",
     category: "culture",
     region: "imperial-cities",
     readTime: 9,

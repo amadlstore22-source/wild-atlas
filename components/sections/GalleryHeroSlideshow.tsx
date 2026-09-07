@@ -79,13 +79,23 @@ export default function GalleryHeroSlideshow({
               opacity: i === idx ? 1 : 0,
               transition: `opacity ${FADE_MS}ms ease-in-out`,
             }}
-            // The visible frame is the one being described; the rest are
-            // decorative duplicates of content already listed below.
+            // The visible frame is the one being announced. aria-hidden on the
+            // wrapper is what silences the others for assistive tech -- the alt
+            // string below stays populated on every slide regardless.
+            //
+            // WHY EVERY SLIDE KEEPS ITS ALT. This previously read
+            // alt={i === idx ? photo.alt : ""}, reasoning that a hidden frame
+            // needs no description. That is true for a screen reader and false
+            // for a crawler: WINDOW slides are in the server-rendered HTML at
+            // once, so Bing's URL inspection saw two images with an empty alt
+            // on /en/gallery -- on the one page whose entire purpose is images.
+            // aria-hidden already prevents the duplicate announcement, so the
+            // empty alt bought nothing and cost image-search description.
             aria-hidden={i !== idx}
           >
             <Image
               src={photo.src}
-              alt={i === idx ? photo.alt : ""}
+              alt={photo.alt}
               fill
               className="object-cover"
               sizes="100vw"

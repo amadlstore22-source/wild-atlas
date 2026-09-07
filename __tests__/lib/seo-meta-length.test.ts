@@ -114,6 +114,75 @@ describe("per-locale SEO strings", () => {
     ).toEqual([]);
   });
 
+  /**
+   * Bing URL Inspection on /en/gallery, 2026-09-07: "Title too long" and "Meta
+   * Description too long or too short". The gallery title rendered at 76 chars
+   * and the description at 188; FR/ES/DE/IT were 70-79 and 189-201. Only the
+   * Arabic pair was inside the limits, by accident of the language being terser.
+   *
+   * The suite above has measured title and description length since 2026-08-26
+   * -- but only over TOURS, whose lengths live on tour.seoTitle. Pages whose
+   * metadata comes from dictionaries/*.json (gallery, about, contact, tours
+   * index, blog index) were checked here for PRESENCE and for being TRANSLATED,
+   * and never once for length. So the gallery shipped 6 over-length titles and
+   * 5 over-length descriptions past a green suite that already contained the
+   * constants TITLE_MAX and DESC_MAX.
+   *
+   * Nothing else catches it: the strings are valid JSON, every page builds and
+   * renders, hreflang passes, and truncation is only visible in a live SERP.
+   *
+   * Deliberately catalogue-wide over every seo.* key in all six locales rather
+   * than scoped to seo.gallery -- the gallery is not special, it is merely the
+   * page that happened to get inspected.
+   */
+  // Pages that render their title via `absolute:` opt out of the layout's
+  // "%s | Marrakech Eco Tours" template, so the brand is NOT appended and the
+  // whole budget belongs to the string itself. app/[lang]/page.tsx does this
+  // for seo.home deliberately (its own comment records the shortening from 81
+  // chars); measuring it with BRAND added would report 83 for a title that
+  // renders at 61 live, and "fixing" that would cut a working title in half.
+  // Keep this in step with any page that adopts `absolute:`.
+  const ABSOLUTE_TITLE_KEYS = new Set(["home"]);
+
+  it("no dictionary seo title is truncated once the brand suffix is appended", () => {
+    const tooLong: string[] = [];
+    for (const lc of Object.keys(DICTS)) {
+      for (const [key, section] of Object.entries(DICTS[lc].seo ?? {})) {
+        if (typeof section === "string" || !section?.title) continue;
+        const len = ABSOLUTE_TITLE_KEYS.has(key)
+          ? section.title.length
+          : renderedTitle(section.title).length;
+        if (len > TITLE_MAX) tooLong.push(`${lc}.seo.${key} (${len})`);
+      }
+    }
+    expect(
+      tooLong,
+      `These dictionary titles exceed ${TITLE_MAX} chars once the layout\n` +
+        `template appends " | Marrakech Eco Tours", so the SERP listing is\n` +
+        `clipped. Shorten the title in dictionaries/<lc>.json -- budget is\n` +
+        `~${TITLE_MAX - BRAND.length} chars before the brand:\n  ` +
+        tooLong.join("\n  "),
+    ).toEqual([]);
+  });
+
+  it("no dictionary seo description is truncated in the SERP snippet", () => {
+    const tooLong: string[] = [];
+    for (const lc of Object.keys(DICTS)) {
+      for (const [key, section] of Object.entries(DICTS[lc].seo ?? {})) {
+        if (typeof section === "string" || !section?.description) continue;
+        const len = section.description.length;
+        if (len > DESC_MAX) tooLong.push(`${lc}.seo.${key} (${len})`);
+      }
+    }
+    expect(
+      tooLong,
+      `These dictionary descriptions exceed ${DESC_MAX} chars, so the snippet\n` +
+        `is cut mid-sentence and anything after the cut is never read. Rewrite\n` +
+        `so the persuasive part lands first, in dictionaries/<lc>.json:\n  ` +
+        tooLong.join("\n  "),
+    ).toEqual([]);
+  });
+
   it("no locale reuses the English title verbatim", () => {
     const copied: string[] = [];
     for (const key of Object.keys(en.seo)) {

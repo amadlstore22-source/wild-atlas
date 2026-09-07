@@ -1007,7 +1007,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
     seoTitle: "Circuit Sahara de 2 jours au départ d'Agadir — Camp désertique de l'Erg Chegaga et vallée du Drâa | Marrakech Eco Tours",
-    seoDescription: "Les dunes reculées de l'Erg Chegaga via la route méridionale de la vallée du Drâa — balade à dos de chameau, campement berbère et lever de soleil sur le Sahara. Circuit de 2 jours au départ d'Agadir. À partir de 195 $.",
+    seoDescription: "Les dunes reculées de l'Erg Chegaga via la route méridionale de la vallée du Drâa — balade à dos de chameau, campement berbère et lever de soleil sur le Sahara. Circuit de 2 jours au départ d'Agadir. À partir de 225 $.",
     featured: true,
   },
   {
@@ -1793,7 +1793,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Circuit désert d'Agadir à Zagora en 2 jours — Vallée du Drâa, Taroudant et camp berbère | Marrakech Eco Tours",
-    seoDescription: "De la côte d'Agadir au désert de Zagora en 2 jours — via Taroudant, les 200 km de palmeraie de la vallée du Drâa et une balade à dos de chameau au coucher du soleil. Camp berbère sous les étoiles. À partir de 179 $.",
+    seoDescription: "De la côte d'Agadir au désert de Zagora en 2 jours — via Taroudant, les 200 km de palmeraie de la vallée du Drâa et une balade à dos de chameau au coucher du soleil. Camp berbère sous les étoiles. À partir de 225 $.",
   },
   {
     id: "28",

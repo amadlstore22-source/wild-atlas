@@ -998,7 +998,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
     seoTitle: "Tour de 2 Días al Sáhara desde Agadir — Campamento en Erg Chegaga y Valle del Draa | Marrakech Eco Tours",
-    seoDescription: "Las remotas dunas de Erg Chegaga por la ruta sur del valle del Draa — paseo en camello, campamento bereber y amanecer sobre el Sáhara. Tour de 2 días desde Agadir. Desde 195 $.",
+    seoDescription: "Las remotas dunas de Erg Chegaga por la ruta sur del valle del Draa — paseo en camello, campamento bereber y amanecer sobre el Sáhara. Tour de 2 días desde Agadir. Desde 225 $.",
     featured: true,
   },
   {
@@ -1784,7 +1784,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Tour de Desierto de 2 Días de Agadir a Zagora — Valle del Draa, Taroudant y Campamento Bereber | Marrakech Eco Tours",
-    seoDescription: "De la costa de Agadir al desierto de Zagora en 2 días — vía Taroudant, los 200 km de palmeral del valle del Draa y un paseo en camello al atardecer. Campamento bereber bajo las estrellas. Desde 179 $.",
+    seoDescription: "De la costa de Agadir al desierto de Zagora en 2 días — vía Taroudant, los 200 km de palmeral del valle del Draa y un paseo en camello al atardecer. Campamento bereber bajo las estrellas. Desde 225 $.",
   },
   {
     id: "28",

@@ -5867,7 +5867,7 @@ any Moroccan operator keeps it with the people running the camp.
     seoDescription:
       "What a Sahara desert tour from Agadir costs in 2026: 2-day, 3-day and 4-day routes compared, why Agadir trips reach Erg Chegaga rather than Merzouga.",
     faq: [
-      { q: "How much does a Sahara tour from Agadir cost?", a: "Our [2-day Erg Chegaga trip](/en/tours/sahara-2day-agadir) is €243 per person for two (€519 solo), the [3-day private Chegaga route](/en/tours/erg-chegaga-3day-agadir) is €327 and the [4-day route to Erg Chebbi](/en/tours/desert-4day-agadir) is €519. The 2-day is cheapest per trip but involves roughly 16 hours of driving across two days, so the cost per hour actually in the dunes is the highest of the three." },
+      { q: "How much does a Sahara tour from Agadir cost?", a: "Our [2-day Erg Chegaga trip](/en/tours/sahara-2day-agadir) is €400 per person for two (€790 solo), the [3-day private Chegaga route](/en/tours/erg-chegaga-3day-agadir) is €327 and the [4-day route to Erg Chebbi](/en/tours/desert-4day-agadir) is €519. The 2-day is cheapest per trip but involves roughly 16 hours of driving across two days, so the cost per hour actually in the dunes is the highest of the three." },
       { q: "Why do Agadir desert tours go to Erg Chegaga instead of Merzouga?", a: "Geography. Erg Chegaga is roughly 450 km from Agadir via Tata and Foum Zguid; Merzouga is around 700 km. On a 2-day trip Chegaga is reachable and Merzouga is not, which is why the short Agadir itineraries head there. The 4-day route has the time to reach Erg Chebbi at Merzouga instead." },
       { q: "Is 2 days enough for a desert trip from Agadir?", a: "It is enough to sleep in the dunes, which is the thing most people came for. It is not a relaxed trip: roughly 8 hours of driving each way, a sunset camel trek in, a night at camp, a dawn camel trek and the drive back. If you want more desert and less vehicle, the 3-day gives you two camp nights for €150 more." },
       { q: "What is not included in an Agadir desert tour?", a: "On the 2-day: lunch on day one, personal items and tips. On the 4-day: lunches throughout at roughly €12–15 each, the optional Atlas Film Studios ticket (~€7), alcoholic drinks, travel insurance and tips. Accommodation, dinners, breakfasts, camel treks and all transport are included on every route." },
@@ -5884,7 +5884,7 @@ desert trip costs differently from the same trip out of Marrakech.
 
 | Route | Price pp | Nights | Reaches |
 |---|---|---|---|
-| [2-day Erg Chegaga](/en/tours/sahara-2day-agadir) | €243 | 1 (camp) | Erg Chegaga |
+| [2-day Erg Chegaga](/en/tours/sahara-2day-agadir) | €400 | 1 (camp) | Erg Chegaga |
 | [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €327 | 2 (hotel + camp) | Erg Chegaga |
 | [4-day Erg Chebbi](/en/tours/desert-4day-agadir) | €519 | 3 (hotel + camp + hotel) | Merzouga |
 
@@ -5951,7 +5951,7 @@ Platform commission runs **25–40%**. On a €482 trip that is up to €193 lea
 more than the camp and the camel handlers earn between them. Booking direct with any
 Moroccan operator keeps it with the people running the camp.
 
-👉 **[See the 2-day Erg Chegaga trip from Agadir](/en/tours/sahara-2day-agadir)** — €243 per person, luxury camp, all camel treks included.
+👉 **[See the 2-day Erg Chegaga trip from Agadir](/en/tours/sahara-2day-agadir)** — €400 per person, Berber desert camp, all camel treks included.
 `,
   },
   {

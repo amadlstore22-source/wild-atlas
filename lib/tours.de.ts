@@ -998,7 +998,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
     seoTitle: "2-tägige Sahara-Tour ab Agadir — Erg-Chegaga-Wüstencamp & Draa-Tal | Marrakech Eco Tours",
-    seoDescription: "Die abgelegenen Dünen von Erg Chegaga über die südliche Draa-Tal-Route — Kameltrekking, Berber-Wüstencamp und Sonnenaufgang über der Sahara. 2-tägige Tour ab Agadir. Ab $207.",
+    seoDescription: "Die abgelegenen Dünen von Erg Chegaga über die südliche Draa-Tal-Route — Kameltrekking, Berber-Wüstencamp und Sonnenaufgang über der Sahara. 2-tägige Tour ab Agadir. Ab $225.",
     featured: true,
   },
   {
@@ -1784,7 +1784,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Agadir nach Zagora 2-tägige Wüstentour — Draa-Tal, Taroudant & Berbercamp | Marrakech Eco Tours",
-    seoDescription: "Von Agadirs Küste in die Wüste von Zagora in 2 Tagen — über Taroudant, die 200 km lange Draa-Tal-Palmenoase und ein Kameltrekking bei Sonnenuntergang. Berbercamp unter den Sternen. Ab $190.",
+    seoDescription: "Von Agadirs Küste in die Wüste von Zagora in 2 Tagen — über Taroudant, die 200 km lange Draa-Tal-Palmenoase und ein Kameltrekking bei Sonnenuntergang. Berbercamp unter den Sternen. Ab $225.",
   },
   {
     id: "28",

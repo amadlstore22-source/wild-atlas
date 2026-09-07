@@ -998,7 +998,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 29.8671, lng: -7.9386, name: "Erg Chegaga, Western Sahara" },
     seoTitle: "Tour nel Sahara 2 Giorni da Agadir — Campo nel Deserto dell'Erg Chegaga e Valle del Draa | Marrakech Eco Tours",
-    seoDescription: "Le remote dune dell'Erg Chegaga via la rotta meridionale della Valle del Draa — trekking in cammello, campo berbero nel deserto e un'alba sul Sahara. Tour di 2 giorni da Agadir. Da $207.",
+    seoDescription: "Le remote dune dell'Erg Chegaga via la rotta meridionale della Valle del Draa — trekking in cammello, campo berbero nel deserto e un'alba sul Sahara. Tour di 2 giorni da Agadir. Da $225.",
     featured: true,
   },
   {
@@ -1784,7 +1784,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4202, lng: -9.5981, name: "Agadir City Centre" },
     featured: false,
     seoTitle: "Tour del Deserto 2 Giorni da Agadir a Zagora — Valle del Draa, Taroudant e Campo Berbero | Marrakech Eco Tours",
-    seoDescription: "Dalla costa di Agadir al deserto di Zagora in 2 giorni — via Taroudant, i 200 km di palmeria della Valle del Draa e un trekking in cammello al tramonto. Campo berbero sotto le stelle. Da $190.",
+    seoDescription: "Dalla costa di Agadir al deserto di Zagora in 2 giorni — via Taroudant, i 200 km di palmeria della Valle del Draa e un trekking in cammello al tramonto. Campo berbero sotto le stelle. Da $225.",
   },
   {
     id: "28",

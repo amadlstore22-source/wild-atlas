@@ -1268,19 +1268,19 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 47,
     rating: 4.9,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Operator-set, 2026-09-07, cost-driven rather than curve-derived: the camp
+    // charges more than the scaled ladder assumed. EUR targets 804/400/290/220/195
+    // at RATES.EUR; the USD below round to exactly those. Note there is no
+    // 6-person tier by design — six people pay the 5+ rate.
     groupPricing: [
-      { minPeople: 1, price: 556 },
-      { minPeople: 2, price: 280 },
-      { minPeople: 3, price: 204 },
-      { minPeople: 4, price: 171 },
-      { minPeople: 5, price: 148 },
-      { minPeople: 6, price: 129 },
+      { minPeople: 1, price: 911 },
+      { minPeople: 2, price: 461 },
+      { minPeople: 3, price: 335 },
+      { minPeople: 4, price: 254 },
+      { minPeople: 5, price: 225 },
     ],
-    price: 556,
-    depositAmount: 122,
+    price: 911,
+    depositAmount: 200,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1339,7 +1339,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "2-Day Sahara Tour from Agadir | Marrakech Eco Tours",
     seoDescription:
-      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $129 pp for 6+.",
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $225 pp for 5+.",
     featured: true,
   },
   {
@@ -2185,19 +2185,19 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 41,
     rating: 4.7,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Operator-set, 2026-09-07, cost-driven rather than curve-derived: the camp
+    // charges more than the scaled ladder assumed. EUR targets 804/400/290/220/195
+    // at RATES.EUR; the USD below round to exactly those. Note there is no
+    // 6-person tier by design — six people pay the 5+ rate.
     groupPricing: [
-      { minPeople: 1, price: 510 },
-      { minPeople: 2, price: 257 },
-      { minPeople: 3, price: 187 },
-      { minPeople: 4, price: 158 },
-      { minPeople: 5, price: 136 },
-      { minPeople: 6, price: 119 },
+      { minPeople: 1, price: 911 },
+      { minPeople: 2, price: 461 },
+      { minPeople: 3, price: 335 },
+      { minPeople: 4, price: 254 },
+      { minPeople: 5, price: 225 },
     ],
-    price: 510,
-    depositAmount: 112,
+    price: 911,
+    depositAmount: 200,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -2263,7 +2263,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Agadir to Zagora 2-Day Desert Tour | Marrakech Eco Tours",
     seoDescription:
-      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From $119 pp for 6+.",
+      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From $225 pp for 5+.",
   },
   {
     id: "28",

@@ -3576,7 +3576,7 @@ lleva el campamento.
       "Lo que cuesta un tour por el desierto desde Agadir en 2026: rutas de 2, 3 y 4 días comparadas, por qué los tours desde Agadir van al Erg Chegaga y no a Merzouga.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "¿Cuánto cuesta un tour al Sáhara desde Agadir?", a: "Nuestro [viaje de 2 días al Erg Chegaga](/es/tours/sahara-2day-agadir) cuesta 225 € por persona, la [ruta privada de 3 días](/es/tours/erg-chegaga-3day-agadir) 327 €, y la [de 4 días al Erg Chebbi](/es/tours/desert-4day-agadir) 482 €. El de 2 días es el más barato por viaje pero implica unas 16 horas de carretera en dos días, así que el coste por hora realmente entre dunas es el más alto de los tres." },
+      { q: "¿Cuánto cuesta un tour al Sáhara desde Agadir?", a: "Nuestro [viaje de 2 días al Erg Chegaga](/es/tours/sahara-2day-agadir) cuesta 400 € por persona, la [ruta privada de 3 días](/es/tours/erg-chegaga-3day-agadir) 327 €, y la [de 4 días al Erg Chebbi](/es/tours/desert-4day-agadir) 482 €. El de 2 días es el más barato por viaje pero implica unas 16 horas de carretera en dos días, así que el coste por hora realmente entre dunas es el más alto de los tres." },
       { q: "¿Por qué los tours desde Agadir van al Erg Chegaga en vez de a Merzouga?", a: "Geografía. El Erg Chegaga está a unos 450 km de Agadir vía Tata y Foum Zguid; Merzouga está a unos 700 km. En un viaje de 2 días Chegaga es alcanzable y Merzouga no, y por eso los itinerarios cortos van allí. La ruta de 4 días sí tiene tiempo de llegar al Erg Chebbi." },
       { q: "¿Bastan 2 días para un viaje al desierto desde Agadir?", a: "Basta para dormir entre dunas, que es lo que la mayoría busca. No es un viaje relajado: unas 8 horas de carretera en cada sentido, un paseo en camello al atardecer, una noche en el campamento, otro paseo al amanecer y la vuelta. Si quieres más desierto y menos vehículo, el de 3 días te da dos noches de campamento por 150 € más." },
       { q: "¿Qué no incluye un tour por el desierto desde Agadir?", a: "En el de 2 días: la comida del día uno, los artículos personales y las propinas. En el de 4 días: todas las comidas a unos 12–15 € cada una, la entrada opcional a los Estudios Atlas (~7 €), las bebidas alcohólicas, el seguro de viaje y las propinas. Alojamiento, cenas, desayunos, paseos en camello y todo el transporte están incluidos en todas las rutas." },
@@ -3593,7 +3593,7 @@ viaje al desierto desde la costa cuesta distinto que el mismo viaje desde Marrak
 
 | Ruta | Precio p.p. | Noches | Llega a |
 |---|---|---|---|
-| [2 días Erg Chegaga](/es/tours/sahara-2day-agadir) | 225 € | 1 (campamento) | Erg Chegaga |
+| [2 días Erg Chegaga](/es/tours/sahara-2day-agadir) | 400 € | 1 (campamento) | Erg Chegaga |
 | [3 días Erg Chegaga, privado](/es/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hotel + campamento) | Erg Chegaga |
 | [4 días Erg Chebbi](/es/tours/desert-4day-agadir) | 482 € | 3 (hotel + campamento + hotel) | Merzouga |
 
@@ -3661,7 +3661,7 @@ La comisión de las plataformas va del **25 al 40 %**. En un viaje de 482 € es
 193 € que salen de Marruecos, más de lo que ganan juntos el campamento y los camelleros.
 Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
 
-👉 **[Descubre el viaje de 2 días al Erg Chegaga desde Agadir](/es/tours/sahara-2day-agadir)** — 225 € por persona, campamento de lujo, todos los paseos en camello incluidos.
+👉 **[Descubre el viaje de 2 días al Erg Chegaga desde Agadir](/es/tours/sahara-2day-agadir)** — 400 € por persona, campamento bereber, todos los paseos en camello incluidos.
 `,
   },
   {

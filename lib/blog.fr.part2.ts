@@ -3589,7 +3589,7 @@ cette somme chez les gens qui font tourner le camp.
       "Ce que coûte un circuit dans le désert depuis Agadir en 2026 : itinéraires de 2, 3 et 4 jours comparés, pourquoi les circuits d'Agadir vont à l'Erg Chegaga plutôt qu'à Merzouga.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Combien coûte un circuit dans le Sahara depuis Agadir ?", a: "Notre [circuit de 2 jours à l'Erg Chegaga](/fr/tours/sahara-2day-agadir) est à 225 € par personne, le [circuit privé de 3 jours](/fr/tours/erg-chegaga-3day-agadir) à 327 €, et le [circuit de 4 jours vers l'Erg Chebbi](/fr/tours/desert-4day-agadir) à 482 €. Le 2 jours est le moins cher par voyage mais implique environ 16 heures de route sur deux jours, donc le coût par heure réellement passée dans les dunes est le plus élevé des trois." },
+      { q: "Combien coûte un circuit dans le Sahara depuis Agadir ?", a: "Notre [circuit de 2 jours à l'Erg Chegaga](/fr/tours/sahara-2day-agadir) est à 400 € par personne, le [circuit privé de 3 jours](/fr/tours/erg-chegaga-3day-agadir) à 327 €, et le [circuit de 4 jours vers l'Erg Chebbi](/fr/tours/desert-4day-agadir) à 482 €. Le 2 jours est le moins cher par voyage mais implique environ 16 heures de route sur deux jours, donc le coût par heure réellement passée dans les dunes est le plus élevé des trois." },
       { q: "Pourquoi les circuits depuis Agadir vont-ils à l'Erg Chegaga plutôt qu'à Merzouga ?", a: "La géographie. L'Erg Chegaga est à environ 450 km d'Agadir via Tata et Foum Zguid ; Merzouga est à environ 700 km. Sur un circuit de 2 jours, Chegaga est atteignable et Merzouga ne l'est pas, d'où le choix des itinéraires courts. Le circuit de 4 jours a le temps d'atteindre l'Erg Chebbi." },
       { q: "Deux jours suffisent-ils pour un séjour dans le désert depuis Agadir ?", a: "C'est suffisant pour dormir dans les dunes, ce que la plupart des gens viennent chercher. Ce n'est pas un séjour reposant : environ 8 heures de route à l'aller comme au retour, une méharée au coucher du soleil, une nuit au camp, une méharée à l'aube et le retour. Si vous voulez plus de désert et moins de véhicule, le 3 jours offre deux nuits au camp pour 150 € de plus." },
       { q: "Qu'est-ce qui n'est pas inclus dans un circuit désert depuis Agadir ?", a: "Sur le 2 jours : le déjeuner du jour un, les effets personnels et les pourboires. Sur le 4 jours : tous les déjeuners à environ 12–15 € chacun, le billet optionnel des studios Atlas (~7 €), les boissons alcoolisées, l'assurance voyage et les pourboires. Hébergement, dîners, petits-déjeuners, méharées et transport sont inclus sur tous les itinéraires." },
@@ -3608,7 +3608,7 @@ Marrakech.
 
 | Itinéraire | Prix / pers. | Nuits | Atteint |
 |---|---|---|---|
-| [2 jours Erg Chegaga](/fr/tours/sahara-2day-agadir) | 225 € | 1 (camp) | Erg Chegaga |
+| [2 jours Erg Chegaga](/fr/tours/sahara-2day-agadir) | 400 € | 1 (camp) | Erg Chegaga |
 | [3 jours Erg Chegaga, privé](/fr/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hôtel + camp) | Erg Chegaga |
 | [4 jours Erg Chebbi](/fr/tours/desert-4day-agadir) | 482 € | 3 (hôtel + camp + hôtel) | Merzouga |
 
@@ -3678,7 +3678,7 @@ La commission des plateformes va de **25 à 40 %**. Sur un circuit à 482 €, c
 jusqu'à 193 € qui quittent le Maroc — plus que ce que gagnent ensemble le camp et les
 chameliers. Réserver en direct garde cette somme chez les gens qui font tourner le camp.
 
-👉 **[Découvrez le circuit de 2 jours à l'Erg Chegaga depuis Agadir](/fr/tours/sahara-2day-agadir)** — 225 € par personne, camp de luxe, toutes les méharées incluses.
+👉 **[Découvrez le circuit de 2 jours à l'Erg Chegaga depuis Agadir](/fr/tours/sahara-2day-agadir)** — 400 € par personne, campement berbère, toutes les méharées incluses.
 `,
   },
   {

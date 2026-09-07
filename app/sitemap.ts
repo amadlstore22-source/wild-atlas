@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/events", freq: "weekly" as const, priority: 0.8 },
     { path: "/news", freq: "daily" as const, priority: 0.8 },
     { path: "/blog", freq: "weekly" as const, priority: 0.7 },
+    { path: "/gallery", freq: "monthly" as const, priority: 0.6 },
     { path: "/about", freq: "monthly" as const, priority: 0.7 },
     { path: "/contact", freq: "monthly" as const, priority: 0.7 },
     { path: "/how-we-operate", freq: "monthly" as const, priority: 0.7 },
@@ -41,11 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/cookies", freq: "yearly" as const, priority: 0.3 },
   ];
 
-  // The gallery lives on the homepage rather than a page of its own, so its
-  // frames are declared against `/{lang}` -- the URL that actually embeds them.
-  // Capped at the first 24: all 66 are within Google's 1,000-per-page limit,
-  // but a list that long buries the frames the grid opens with.
-  const galleryImages = GALLERY_PHOTOS.slice(0, 24).map((p) => `${BASE}${p.src}`);
+  // /gallery renders every frame, so it gets the full list and is the URL
+  // Google should associate each photograph with. The homepage embeds the same
+  // photos in its gallery section, but declaring all 66 on both would ask
+  // Google to pick between two pages for one image; the homepage carries the
+  // first 24 as a discovery hint and /gallery is where they belong.
+  const allGalleryImages = GALLERY_PHOTOS.map((p) => `${BASE}${p.src}`);
+  const homeGalleryImages = allGalleryImages.slice(0, 24);
 
   const staticUrls = LOCALES.flatMap((lang) =>
     staticRoutes.map(({ path, freq, priority }) => ({
@@ -56,9 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: CATALOGUE_LASTMOD,
       changeFrequency: freq,
       priority,
-      // Only the homepage carries the gallery; the other static routes have no
-      // images of their own worth declaring here.
-      ...(path === "" ? { images: galleryImages } : {}),
+      // The other static routes have no images of their own worth declaring.
+      ...(path === "/gallery"
+        ? { images: allGalleryImages }
+        : path === ""
+          ? { images: homeGalleryImages }
+          : {}),
     }))
   );
 

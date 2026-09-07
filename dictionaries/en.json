@@ -139,7 +139,21 @@
   "gallery": {
     "eyebrow": "Morocco's Landscapes",
     "title": "Morocco Through Our Lens",
-    "subtitle": "Morocco's most iconic landscapes, as seen on our tours."
+    "subtitle": "Morocco's most iconic landscapes, as seen on our tours.",
+    "pageTitle": "Morocco Through Our Lens",
+    "pageIntro": "Every photograph here was taken on a departure we ran, by us or by our guides. No stock, no library images — the camps are our camps, the trails are the ones we walk, and the people are our guests and our crew.",
+    "photoCount": "{count} photographs",
+    "slideshow": "Play slideshow",
+    "slideshowStop": "Stop slideshow",
+    "viewAllTours": "See the trips these were shot on",
+    "groupAtlas": "The High Atlas",
+    "groupAtlasBlurb": "Toubkal, the Imlil valley and the mule trails above it — where the company started and where most of our guiding still happens.",
+    "groupDesert": "The Sahara and the south",
+    "groupDesertBlurb": "Erg Chebbi and Erg Chegaga, the Draa palm groves, the Todra Gorge and the kasbah road that gets you there.",
+    "groupCities": "The imperial cities",
+    "groupCitiesBlurb": "Rabat's Hassan esplanade, the Roman city of Volubilis, and the working medina of Fes — the northern circuit.",
+    "groupCoast": "The Atlantic coast",
+    "groupCoastBlurb": "The argan country south of Essaouira, the empty beaches below the headlands, and the Souss-Massa plain."
   },
   "cta": {
     "eyebrow": "Ready to Explore?",
@@ -668,6 +682,10 @@
     "tours": {
       "title": "All Morocco Tours — Atlas & Sahara",
       "description": "Browse 30+ guided tours across Morocco — Atlas trekking, Sahara nights, cultural and day trips from Marrakech and Agadir. Licensed Berber guides."
+    },
+    "gallery": {
+      "title": "Photo Gallery — Morocco Tours in Our Own Photographs",
+      "description": "Photographs from our own departures across Morocco: the High Atlas and Toubkal, the Sahara at Erg Chebbi and Erg Chegaga, Rabat, Volubilis and Fes, and the Atlantic coast. No stock images."
     }
   },
   "review": {

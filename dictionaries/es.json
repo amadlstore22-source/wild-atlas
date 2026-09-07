@@ -139,7 +139,21 @@
   "gallery": {
     "eyebrow": "Los Paisajes de Marruecos",
     "title": "Marruecos a Través de Nuestro Objetivo",
-    "subtitle": "Los paisajes más icónicos de Marruecos, tal como se ven en nuestros tours."
+    "subtitle": "Los paisajes más icónicos de Marruecos, tal como se ven en nuestros tours.",
+    "pageTitle": "Marruecos a través de nuestro objetivo",
+    "pageIntro": "Cada fotografía de esta página se tomó en una salida que organizamos, por nosotros o por nuestros guías. Nada de bancos de imágenes — los campamentos son los nuestros, los senderos son los que recorremos y las personas son nuestros viajeros y nuestro equipo.",
+    "photoCount": "{count} fotografías",
+    "slideshow": "Reproducir pase de diapositivas",
+    "slideshowStop": "Detener el pase",
+    "viewAllTours": "Ver los circuitos donde se tomaron",
+    "groupAtlas": "El Alto Atlas",
+    "groupAtlasBlurb": "El Toubkal, el valle de Imlil y los senderos de mulas que lo dominan — donde empezó la agencia y donde sigue estando la mayor parte de nuestro trabajo.",
+    "groupDesert": "El Sahara y el sur",
+    "groupDesertBlurb": "Erg Chebbi y Erg Chegaga, los palmerales del Draa, las gargantas del Todra y la ruta de las kasbahs que lleva hasta allí.",
+    "groupCities": "Las ciudades imperiales",
+    "groupCitiesBlurb": "La explanada Hassan de Rabat, la ciudad romana de Volubilis y la medina viva de Fez — el circuito del norte.",
+    "groupCoast": "La costa atlántica",
+    "groupCoastBlurb": "El país del argan al sur de Essaouira, las playas vacías bajo los acantilados y la llanura de Souss-Massa."
   },
   "cta": {
     "eyebrow": "¿Listo para Explorar?",
@@ -668,6 +682,10 @@
     "tours": {
       "title": "Todos los tours por Marruecos",
       "description": "Más de 30 tours guiados por Marruecos — trekking en el Atlas, noches en el Sáhara y excursiones culturales desde Marrakech y Agadir. Guías bereberes."
+    },
+    "gallery": {
+      "title": "Galería de fotos — Marruecos en nuestras propias imágenes",
+      "description": "Fotografías tomadas en nuestras propias salidas por Marruecos: el Alto Atlas y el Toubkal, el Sahara en Erg Chebbi y Erg Chegaga, Rabat, Volubilis y Fez, y la costa atlántica. Sin imágenes de archivo."
     }
   },
   "review": {

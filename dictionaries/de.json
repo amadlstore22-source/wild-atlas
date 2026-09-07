@@ -139,7 +139,21 @@
   "gallery": {
     "eyebrow": "Marokkos Landschaften",
     "title": "Marokko durch unsere Linse",
-    "subtitle": "Marokkos ikonischste Landschaften, aufgenommen auf unseren Touren."
+    "subtitle": "Marokkos ikonischste Landschaften, aufgenommen auf unseren Touren.",
+    "pageTitle": "Marokko durch unsere Linse",
+    "pageIntro": "Jedes Foto hier entstand auf einer von uns durchgeführten Reise — aufgenommen von uns oder unseren Guides. Keine Stockfotos: Die Camps sind unsere Camps, die Pfade laufen wir selbst, und die Menschen sind unsere Gäste und unser Team.",
+    "photoCount": "{count} Fotografien",
+    "slideshow": "Diashow starten",
+    "slideshowStop": "Diashow stoppen",
+    "viewAllTours": "Die Touren sehen, auf denen sie entstanden",
+    "groupAtlas": "Der Hohe Atlas",
+    "groupAtlasBlurb": "Der Toubkal, das Imlil-Tal und die Maultierpfade darüber — wo das Unternehmen begann und wo bis heute der Großteil unserer Arbeit stattfindet.",
+    "groupDesert": "Die Sahara und der Süden",
+    "groupDesertBlurb": "Erg Chebbi und Erg Chegaga, die Palmenhaine des Draa, die Todra-Schlucht und die Kasbah-Straße dorthin.",
+    "groupCities": "Die Kaiserstädte",
+    "groupCitiesBlurb": "Die Hassan-Esplanade in Rabat, die römische Stadt Volubilis und die lebendige Medina von Fes — die Nordroute.",
+    "groupCoast": "Die Atlantikküste",
+    "groupCoastBlurb": "Das Arganland südlich von Essaouira, die leeren Strände unterhalb der Klippen und die Souss-Massa-Ebene."
   },
   "cta": {
     "eyebrow": "Bereit zum Entdecken?",
@@ -668,6 +682,10 @@
     "tours": {
       "title": "Alle Marokko-Touren im Überblick",
       "description": "Über 30 geführte Touren durch Marokko — Atlas-Trekking, Sahara-Nächte, Kultur- und Tagesausflüge ab Marrakesch und Agadir. Lizenzierte Berber-Guides."
+    },
+    "gallery": {
+      "title": "Fotogalerie — Marokko in unseren eigenen Aufnahmen",
+      "description": "Fotos von unseren eigenen Reisen durch Marokko: der Hohe Atlas und der Toubkal, die Sahara am Erg Chebbi und Erg Chegaga, Rabat, Volubilis und Fes sowie die Atlantikküste. Keine Stockfotos."
     }
   },
   "review": {

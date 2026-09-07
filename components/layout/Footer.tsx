@@ -70,7 +70,7 @@ export default function Footer({ lang, dict }: Props) {
     { label: dict.nav.about, href: `/${lang}/about` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
     { label: dict.nav.tours, href: `/${lang}/tours` },
-    { label: dict.nav.gallery, href: `/${lang}#gallery` },
+    { label: dict.nav.gallery, href: `/${lang}/gallery` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
     { label: "FAQ", href: `/${lang}/contact#faq` },
     { label: "Privacy Policy", href: `/${lang}/privacy` },

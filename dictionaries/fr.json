@@ -139,7 +139,21 @@
   "gallery": {
     "eyebrow": "Paysages du Maroc",
     "title": "Le Maroc à travers notre objectif",
-    "subtitle": "Les paysages les plus emblématiques du Maroc, vus sur nos circuits."
+    "subtitle": "Les paysages les plus emblématiques du Maroc, vus sur nos circuits.",
+    "pageTitle": "Le Maroc à travers notre objectif",
+    "pageIntro": "Chaque photographie ici a été prise lors d'un départ que nous avons organisé, par nous ou par nos guides. Aucune banque d'images — les campements sont les nôtres, les sentiers sont ceux que nous parcourons, et les personnes sont nos voyageurs et notre équipe.",
+    "photoCount": "{count} photographies",
+    "slideshow": "Lancer le diaporama",
+    "slideshowStop": "Arrêter le diaporama",
+    "viewAllTours": "Voir les circuits où elles ont été prises",
+    "groupAtlas": "Le Haut Atlas",
+    "groupAtlasBlurb": "Le Toubkal, la vallée d'Imlil et les sentiers muletiers au-dessus — là où l'agence a commencé et où se déroule encore l'essentiel de notre travail.",
+    "groupDesert": "Le Sahara et le sud",
+    "groupDesertBlurb": "Erg Chebbi et Erg Chegaga, les palmeraies du Draâ, les gorges du Todra et la route des kasbahs qui y mène.",
+    "groupCities": "Les villes impériales",
+    "groupCitiesBlurb": "L'esplanade Hassan à Rabat, la cité romaine de Volubilis et la médina vivante de Fès — le circuit du nord.",
+    "groupCoast": "La côte atlantique",
+    "groupCoastBlurb": "Le pays de l'arganier au sud d'Essaouira, les plages désertes en contrebas des falaises et la plaine du Souss-Massa."
   },
   "cta": {
     "eyebrow": "Prêt à explorer ?",
@@ -668,6 +682,10 @@
     "tours": {
       "title": "Tous nos circuits au Maroc",
       "description": "Plus de 30 circuits guidés au Maroc — treks de l’Atlas, nuits dans le Sahara, excursions culturelles depuis Marrakech et Agadir. Guides berbères agréés."
+    },
+    "gallery": {
+      "title": "Galerie photo — le Maroc dans nos propres images",
+      "description": "Photographies prises lors de nos propres départs au Maroc : le Haut Atlas et le Toubkal, le Sahara à Erg Chebbi et Erg Chegaga, Rabat, Volubilis et Fès, et la côte atlantique. Aucune image de banque."
     }
   },
   "review": {

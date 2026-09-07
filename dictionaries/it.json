@@ -139,7 +139,21 @@
   "gallery": {
     "eyebrow": "I Paesaggi del Marocco",
     "title": "Il Marocco Attraverso il Nostro Obiettivo",
-    "subtitle": "I paesaggi più iconici del Marocco, catturati durante i nostri tour."
+    "subtitle": "I paesaggi più iconici del Marocco, catturati durante i nostri tour.",
+    "pageTitle": "Il Marocco attraverso il nostro obiettivo",
+    "pageIntro": "Ogni fotografia di questa pagina è stata scattata durante una partenza che abbiamo organizzato, da noi o dalle nostre guide. Nessuna immagine d'archivio — i campi sono i nostri, i sentieri sono quelli che percorriamo e le persone sono i nostri ospiti e il nostro personale.",
+    "photoCount": "{count} fotografie",
+    "slideshow": "Avvia presentazione",
+    "slideshowStop": "Ferma presentazione",
+    "viewAllTours": "Vedi i viaggi in cui sono state scattate",
+    "groupAtlas": "L'Alto Atlante",
+    "groupAtlasBlurb": "Il Toubkal, la valle di Imlil e le mulattiere che la sovrastano — dove l'agenzia è nata e dove si svolge ancora gran parte del nostro lavoro.",
+    "groupDesert": "Il Sahara e il sud",
+    "groupDesertBlurb": "Erg Chebbi ed Erg Chegaga, i palmeti della Draa, le gole del Todra e la strada delle kasbah che vi conduce.",
+    "groupCities": "Le città imperiali",
+    "groupCitiesBlurb": "La spianata Hassan di Rabat, la città romana di Volubilis e la medina viva di Fes — il circuito del nord.",
+    "groupCoast": "La costa atlantica",
+    "groupCoastBlurb": "La terra dell'argan a sud di Essaouira, le spiagge deserte sotto i promontori e la piana del Souss-Massa."
   },
   "cta": {
     "eyebrow": "Pronto a Esplorare?",
@@ -668,6 +682,10 @@
     "tours": {
       "title": "Tutti i tour in Marocco",
       "description": "Oltre 30 tour guidati in Marocco — trekking sull’Atlante, notti nel Sahara, escursioni culturali da Marrakech e Agadir. Guide berbere autorizzate."
+    },
+    "gallery": {
+      "title": "Galleria fotografica — il Marocco nelle nostre immagini",
+      "description": "Fotografie scattate durante le nostre partenze in Marocco: l'Alto Atlante e il Toubkal, il Sahara a Erg Chebbi ed Erg Chegaga, Rabat, Volubilis e Fes, e la costa atlantica. Nessuna immagine d'archivio."
     }
   },
   "review": {

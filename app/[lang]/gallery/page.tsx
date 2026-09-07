@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import CTABanner from "@/components/sections/CTABanner";
 import GalleryPageContent from "@/components/sections/GalleryPageContent";
+import GalleryHeroSlideshow from "@/components/sections/GalleryHeroSlideshow";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
 import { STATS } from "@/lib/stats";
@@ -15,13 +15,41 @@ import { ogBase } from "@/lib/seo/open-graph";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-/** The frame that fronts the page and its OG card. Chosen rather than taken
- *  from GALLERY_PHOTOS[0]: the first entry is a portrait Toubkal shot, and a
- *  hero slot and an OG card are both wide. */
-const HERO = {
-  src: "/gallery/camel-caravan-sunset-riders.jpg",
-  alt: "Our guests riding the camel caravan into the sunset across the Erg Chebbi dunes, Merzouga Morocco",
-};
+/**
+ * The frames the hero cycles through, and the first of them is the OG card.
+ *
+ * Hand-picked rather than sliced off GALLERY_PHOTOS: a hero is a wide, dark
+ * slot with a headline across it, and most of the catalogue is portrait or
+ * pale — a light frame puts white text on white sky. These eight are all
+ * landscape, all carry their subject away from the lower-left where the title
+ * sits, and between them they cover the four regions the page is divided into,
+ * so the hero previews the whole page rather than one corner of it.
+ *
+ * Kept short on purpose. The hero mounts a window of these at full viewport
+ * width; a reel of all 66 would put a tick row off the edge of a phone screen
+ * and pull far more image data than an opening screen justifies.
+ */
+const HERO_REEL = [
+  "/gallery/camel-caravan-sunset-riders.jpg",
+  "/gallery/volubilis-arch-of-caracalla-across-ruins.jpg",
+  "/gallery/toubkal-national-park-peak-clouds.jpg",
+  "/gallery/fes-kairaouine-minaret-lit-dusk.jpg",
+  "/gallery/atlantic-coast-sea-arch-cliff.jpg",
+  "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg",
+  "/gallery/rabat-hassan-esplanade-columns-walker.jpg",
+  "/gallery/trek-camp-golden-hour-valley.jpg",
+] as const;
+
+/** Resolved against the real photo list so the alt text stays the one that was
+ *  written from the frame, and a renamed file fails the build here rather than
+ *  rendering a hero with a broken image. */
+const HERO_PHOTOS = HERO_REEL.map((src) => {
+  const photo = GALLERY_PHOTOS.find((p) => p.src === src);
+  if (!photo) throw new Error(`HERO_REEL references a photo that is not in GALLERY_PHOTOS: ${src}`);
+  return photo;
+});
+
+const HERO = HERO_PHOTOS[0];
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
@@ -97,17 +125,11 @@ export default async function GalleryPage({ params }: LangParams) {
     <>
       <JsonLd data={galleryJsonLd(lang, dict.seo.gallery.title, dict.seo.gallery.description)} />
 
-      {/* ── Hero ── */}
-      <div className="relative h-[55vh] min-h-[380px] flex items-end">
-        <Image
-          src={HERO.src}
-          alt={HERO.alt}
-          fill
-          className="object-cover"
-          priority
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/35 to-indigo-deep/15" />
+      {/* ── Hero: the photographs, already playing ──
+          The page opens on the work itself. A gallery that opens on a still
+          frame with a "play" button under it asks the visitor to do something
+          before the page does anything. */}
+      <GalleryHeroSlideshow photos={HERO_PHOTOS}>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
           <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-4">
             {dict.gallery.eyebrow}
@@ -128,9 +150,9 @@ export default async function GalleryPage({ params }: LangParams) {
           </p>
         </div>
         <ZelligeBand tone="light" height={22} className="absolute bottom-0 left-0 opacity-80" />
-      </div>
+      </GalleryHeroSlideshow>
 
-      {/* ── Grouped grids + slideshow ── */}
+      {/* ── Grouped grids ── */}
       <section className="bg-surface py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <GalleryPageContent dict={dict} />

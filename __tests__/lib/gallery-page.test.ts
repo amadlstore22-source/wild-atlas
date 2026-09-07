@@ -153,6 +153,28 @@ describe("gallery photo grouping", () => {
     ).toEqual([]);
   });
 
+  it("every photo the hero reel names exists in the gallery", () => {
+    // The hero cycles a hand-picked reel declared in app/[lang]/gallery/page.tsx
+    // and resolves each entry against GALLERY_PHOTOS to get its alt text. A
+    // renamed or removed file makes that lookup fail — the page's throw turns
+    // it into a build error rather than a silently broken hero, but only once
+    // someone builds. This names the offender at test time instead.
+    const page = readFileSync("app/[lang]/gallery/page.tsx", "utf8");
+    const block = page.match(/const HERO_REEL = \[([\s\S]*?)\] as const;/);
+    expect(block, "HERO_REEL not found — was it renamed?").toBeTruthy();
+
+    const reel = [...block![1].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+    expect(reel.length, "HERO_REEL is empty").toBeGreaterThan(0);
+
+    const known = new Set(GALLERY_PHOTOS.map((p) => p.src));
+    const missing = reel.filter((src) => !known.has(src));
+    expect(
+      missing,
+      `HERO_REEL names photos that are not in GALLERY_PHOTOS, so the gallery\n` +
+        `page throws on render:\n  ` + missing.join("\n  ")
+    ).toEqual([]);
+  });
+
   it("every photo has non-empty alt text", () => {
     const bare = GALLERY_PHOTOS.filter((p) => !p.alt || p.alt.trim().length < 20).map(
       (p) => `${p.src}: ${JSON.stringify(p.alt)}`

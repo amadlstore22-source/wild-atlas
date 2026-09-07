@@ -17,16 +17,27 @@ export interface GalleryPhoto {
  *  gallery into a flicker reel rather than something you watch. */
 const SLIDESHOW_MS = 5000;
 
+/** Localised labels for the slideshow control. Optional so the homepage
+ *  gallery, which does not thread a dictionary down, keeps working; the
+ *  English defaults match what was hardcoded here before. */
+export interface LightboxLabels {
+  play?: string;
+  pause?: string;
+}
+
 interface LightboxProps {
   photos: GalleryPhoto[];
   initialIndex: number;
   onClose: () => void;
-  /** Start advancing as soon as the lightbox opens. The gallery page's
-   *  "play slideshow" button opens it this way; a click on a photo does not. */
+  /** Start advancing as soon as the lightbox opens. Nothing does this today —
+   *  the gallery page's slideshow is its hero — but the play control below
+   *  works either way, so opening straight into a running slideshow stays a
+   *  one-prop change. */
   autoPlay?: boolean;
+  labels?: LightboxLabels;
 }
 
-function Lightbox({ photos, initialIndex, onClose, autoPlay = false }: LightboxProps) {
+function Lightbox({ photos, initialIndex, onClose, autoPlay = false, labels }: LightboxProps) {
   const [idx, setIdx] = useState(initialIndex);
   const [direction, setDirection] = useState(0);
   // Someone who asked the OS for less motion did not ask for a carousel that
@@ -106,7 +117,7 @@ function Lightbox({ photos, initialIndex, onClose, autoPlay = false }: LightboxP
       <button
         onClick={(e) => { e.stopPropagation(); setPlaying((p) => !p); }}
         className="absolute top-4 left-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
-        aria-label={playing ? "Pause slideshow" : "Play slideshow"}
+        aria-label={playing ? (labels?.pause ?? "Stop slideshow") : (labels?.play ?? "Play slideshow")}
       >
         {playing ? <Pause className="w-4 h-4" weight="fill" /> : <Play className="w-4 h-4" weight="fill" />}
       </button>
@@ -235,7 +246,13 @@ function Lightbox({ photos, initialIndex, onClose, autoPlay = false }: LightboxP
   );
 }
 
-export default function GalleryLightbox({ photos }: { photos: GalleryPhoto[] }) {
+export default function GalleryLightbox({
+  photos,
+  labels,
+}: {
+  photos: GalleryPhoto[];
+  labels?: LightboxLabels;
+}) {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
@@ -271,42 +288,15 @@ export default function GalleryLightbox({ photos }: { photos: GalleryPhoto[] }) 
 
       <AnimatePresence>
         {open !== null && (
-          <Lightbox photos={photos} initialIndex={open} onClose={() => setOpen(null)} />
+          <Lightbox
+            photos={photos}
+            initialIndex={open}
+            onClose={() => setOpen(null)}
+            labels={labels}
+          />
         )}
       </AnimatePresence>
     </>
   );
 }
 
-/**
- * The lightbox on its own, opened by something other than a photo tile.
- *
- * The gallery page's "play slideshow" button sits above the grid rather than
- * inside it, and the page renders its photos in region sections rather than one
- * flat list — so it cannot use GalleryLightbox, whose tiles ARE its trigger.
- * This exposes the viewer alone: the page owns the button, this owns the modal.
- */
-export function GallerySlideshow({
-  photos,
-  open,
-  onClose,
-  initialIndex = 0,
-}: {
-  photos: GalleryPhoto[];
-  open: boolean;
-  onClose: () => void;
-  initialIndex?: number;
-}) {
-  return (
-    <AnimatePresence>
-      {open && (
-        <Lightbox
-          photos={photos}
-          initialIndex={initialIndex}
-          onClose={onClose}
-          autoPlay
-        />
-      )}
-    </AnimatePresence>
-  );
-}

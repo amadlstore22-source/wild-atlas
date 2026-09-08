@@ -16,6 +16,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
 import JsonLd from "@/components/seo/JsonLd";
 import { ArabesqueDivider } from "@/components/ui/MoroccanMotifs";
+import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import { ogBase } from "@/lib/seo/open-graph";
 
 type LangParams = { params: Promise<{ lang: string }> };
@@ -128,14 +129,12 @@ export default async function HowWeOperatePage({ params }: LangParams) {
             <h2 className="font-display text-2xl font-bold text-ink">{h.ctaTitle}</h2>
             <p className="text-ink-soft mt-2">{h.ctaBody}</p>
             <div className="flex flex-wrap gap-3 justify-center mt-5">
-              <a
+              <WhatsAppLink
                 href={whatsappUrl(WHATSAPP_MESSAGES.general)}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg"
               >
                 {h.ctaButton}
-              </a>
+              </WhatsAppLink>
               <Link href={`/${lang}/contact`} className="btn-brass !px-5 !py-2.5 !text-sm">
                 {h.ctaSecondary}
               </Link>

@@ -1345,7 +1345,7 @@ Alcune kasbah restaurate operano ora come guesthouse, offrendoti una notte dentr
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["cos'è un riad", "significato riad", "alloggio a Marrakech", "riad vs hotel"],
-    seoTitle: "Cos'è un riad? Significato e com'è fatto dentro",
+    seoTitle: "Cos'è un riad?",
     seoDescription:
       "Un riad è una casa tradizionale costruita attorno a un giardino interno, non un termine di marketing. La differenza con un dar e cosa aspettarsi.",
     faq: [

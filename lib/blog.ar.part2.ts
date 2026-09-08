@@ -3155,7 +3155,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["سعر مراكش شفشاون", "جولة المدينة الزرقاء", "تكلفة رحلة برية بالمغرب", "فاس وليلي", "شفشاون سعر"],
-    seoTitle: "تكلفة جولة من مراكش إلى شفشاون 2026 — تفصيل كامل",
+    seoTitle: "تكلفة جولة مراكش إلى شفشاون 2026",
     seoDescription:
       "ما تكلفه رحلة من مراكش إلى شفشاون سنة 2026: النقل والرياضات والمرشدون ورحلة العودة، مقارنة بجولة خاصة من أربعة أيام بـ 313 يورو عبر فاس ووليلي.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],

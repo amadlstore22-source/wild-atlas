@@ -1295,7 +1295,7 @@ Das zu verstehen ist keine Trivialität – es verändert, wie sich ein Trek lie
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["was ist eine Kasbah", "Kasbah Bedeutung", "Marokko Architektur", "Ksar vs Kasbah"],
-    seoTitle: "Was ist eine Kasbah? Bedeutung und Unterschied zum Ksar",
+    seoTitle: "Was ist eine Kasbah?",
     seoDescription:
       "Eine Kasbah ist ein einzelnes befestigtes Gebäude, keine Stadt — das unterscheidet sie vom Ksar. Bedeutung, Wortherkunft und die besten Beispiele.",
     faq: [
@@ -1640,9 +1640,9 @@ Praktisch heißt das: Touren laufen im Ramadan normal weiter. Auf unseren [Wüst
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Alkohol in Marokko", "Marokko Alkoholgesetze", "kann man in Marokko trinken", "Marokko Bars"],
-    seoTitle: "Darf man in Marokko Alkohol trinken? Ja — ab 18",
+    seoTitle: "Alkohol in Marokko: erlaubt ab 18",
     seoDescription:
-      "Alkohol ist in Marokko für Besucher ab 18 Jahren legal. Wo Sie ihn kaufen (Carrefour, Marjane, lizenzierte Bars), was er kostet, wo Trinken verboten ist und was im Ramadan gilt.",
+      "Legal ab 18. Wo Sie Alkohol kaufen (Carrefour, Marjane, lizenzierte Bars), was er kostet, wo Trinken verboten ist und was im Ramadan gilt.",
     faq: [
       { q: "Ist Alkohol in Marokko legal?", a: "Ja. Marokko ist ein mehrheitlich muslimisches Land, und die meisten Marokkaner trinken nicht, aber Alkohol ist für alle über 18 legal, verkauft und ausgeschenkt in lizenzierten Betrieben: Hotelbars und -restaurants, manche eigenständige Bars und Strandclubs, größere Supermärkte wie Carrefour und Marjane, und spezialisierte Spirituosenläden in den Städten." },
       { q: "Darf ich in Marokko in der Öffentlichkeit trinken?", a: "Nein – öffentliches Trinken ist eine Straftat, und sichtbare öffentliche Trunkenheit kann zu einer Geldstrafe oder einem kurzen Aufenthalt in Gewahrsam führen. Trinken Sie innerhalb lizenzierter Betriebe, Hotelzimmer oder privater Umgebungen, und transportieren Sie Alkohol diskret statt sichtbar durch die Medina." },
@@ -6037,9 +6037,9 @@ Wenn Ihre Reise das Land durchquert, müssen Sie vielleicht gar nicht zum Ausgan
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["Sahara Wetter", "Merzouga Temperatur", "beste Reisezeit Wueste Marokko", "Packliste Wueste", "Klima Erg Chebbi"],
-    seoTitle: "Sahara-Wetter in Marokko \u2014 Temperaturen Monat f\u00fcr Monat",
+    seoTitle: "Sahara-Wetter in Marokko",
     seoDescription:
-      "Temperaturen in Merzouga und am Erg Chebbi Monat f\u00fcr Monat: 19 \u00b0C im Januar bis 43 \u00b0C im Juli, mit N\u00e4chten nahe dem Gefrierpunkt im Winter. Wann fahren und was einpacken.",
+      "Merzouga und Erg Chebbi: 19 \u00b0C im Januar bis 43 \u00b0C im Juli, N\u00e4chte nahe dem Gefrierpunkt im Winter. Wann fahren, was einpacken.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
     faq: [
       { q: "Wie kalt wird es nachts in der marokkanischen Sahara?", a: "Kalt genug, um wirklich unangenehm zu werden, wenn man nur f\u00fcr den Tag gepackt hat. Die Januarn\u00e4chte in Merzouga liegen im Mittel bei etwa 6 \u00b0C, und eine klare, windstille Nacht kann mehrere Grad tiefer gehen \u2014 nahe dem Gefrierpunkt. Die D\u00fcnen liegen auf 730 m, die Luft ist extrem trocken, die W\u00e4rme entweicht nach Sonnenuntergang also schnell." },

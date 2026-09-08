@@ -1351,7 +1351,7 @@ Eso es exactamente lo que hacen nuestros [tours al desierto desde Marrakech](/es
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qué es un riad", "significado de riad", "alojamiento en Marrakech", "riad vs hotel"],
-    seoTitle: "¿Qué es un riad? Significado y qué esperar dentro",
+    seoTitle: "¿Qué es un riad?",
     seoDescription:
       "Un riad es una casa tradicional construida en torno a un jardín interior, no un término de marketing. La diferencia con un dar y qué esperar.",
     faq: [
@@ -1827,9 +1827,9 @@ El argán y el Souss combinan a la perfección con los demás días del interior
     publishedAt: "2026-07-26",
     updatedAt: "2026-07-26",
     tags: ["UNESCO Morocco", "film locations", "Ait Ben Haddou", "Gladiator", "Game of Thrones", "Ouarzazate", "Essaouira"],
-    seoTitle: "Sitios UNESCO de Marruecos y localizaciones de cine — Gladiator, Juego de Tronos y más",
+    seoTitle: "Localizaciones de cine en Marruecos",
     seoDescription:
-      "Guía de los sitios Patrimonio de la Humanidad de la UNESCO en Marruecos usados como localizaciones de cine — Aït Ben Haddou (Gladiator, Juego de Tronos), los estudios Atlas de Uarzazate y Esauira (Astapor). Cómo visitarlos.",
+      "Los sitios UNESCO de Marruecos usados como localizaciones de cine: Aït Ben Haddou (Gladiator, Juego de Tronos), los estudios Atlas de Uarzazate y Esauira.",
     relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "agadir-to-essaouira-day-trip"],
     content: `
 ## Donde el patrimonio mundial se encuentra con la gran pantalla

@@ -1811,7 +1811,7 @@ gram, only carrying what you need between stages.
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-09",
     tags: ["Toubkal", "Toubkal guide", "Toubkal permit", "High Atlas", "trekking rules", "Imlil"],
-    seoTitle: "Do You Need a Guide to Climb Toubkal? (2026 Rules) | Marrakech Eco Tours",
+    seoTitle: "Do You Need a Toubkal Guide? | Marrakech Eco Tours",
     seoDescription:
       "Yes — a licensed guide is mandatory on Jbel Toubkal and gendarmerie checkpoints verify it.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
@@ -2516,7 +2516,7 @@ How far you get in the time you have depends heavily on how you move. [Getting a
     updatedAt: "2026-08-09",
     weatherRegion: "High Atlas",
     tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
-    seoTitle: "Toubkal Weather by Month: When to Climb Jbel Toubkal",
+    seoTitle: "Toubkal Weather by Month",
     seoDescription: "Toubkal is climbable year-round: June–September needs no winter kit, January–March means crampons. Month-by-month snow line, temperatures and what to pack.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
@@ -3728,7 +3728,7 @@ Numbers on a page don't really convey what a dune sea feels like at dawn. For th
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-08",
     tags: ["Morocco SIM card", "Morocco eSIM", "Maroc Telecom", "Orange Morocco", "Inwi", "Morocco data plan"],
-    seoTitle: "Best SIM Card in Morocco for Tourists 2026 — Which Network, and Why",
+    seoTitle: "Best SIM Card in Morocco 2026",
     seoDescription:
       "Which Moroccan mobile network to choose as a tourist, why coverage in the Atlas and Sahara matters more than in the cities, and how to buy a SIM on arrival.",
     faq: [
@@ -3913,7 +3913,7 @@ Practically: tours run as normal through Ramadan. On our [desert tours from Marr
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["alcohol in Morocco", "Morocco drinking laws", "can you drink in Morocco", "Morocco bars"],
-    seoTitle: "Is Alcohol Legal in Morocco? Yes — Drinking Age Is 18",
+    seoTitle: "Is Alcohol Legal in Morocco?",
     seoDescription:
       "Legal in Morocco for visitors 18+. Where to buy it (Carrefour, Marjane, licensed bars), what it costs, and where drinking is banned.",
     faq: [
@@ -4040,7 +4040,7 @@ If you are fit, short on time, and want the summit without a week in the mountai
     publishedAt: "2026-07-24",
     updatedAt: "2026-08-05",
     tags: ["Paradise Valley", "best time to visit Paradise Valley", "Paradise Valley Agadir", "Immouzer", "Morocco travel"],
-    seoTitle: "Best Time to Visit Paradise Valley, Morocco (Month Guide)",
+    seoTitle: "Best Time to Visit Paradise Valley",
     seoDescription:
       "When to visit Paradise Valley near Agadir: the best months for full pools and swimming, when it is busiest, and when the waterfalls run.",
     relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "sous-massa-national-park"],
@@ -4385,7 +4385,7 @@ Argan and the Souss pair beautifully with the region's other inland days. Add th
     publishedAt: "2026-07-26",
     updatedAt: "2026-08-07",
     tags: ["UNESCO Morocco", "film locations", "Ait Ben Haddou", "Gladiator", "Game of Thrones", "Ouarzazate", "Essaouira"],
-    seoTitle: "Morocco's UNESCO Film Locations — Gladiator, Game of Thrones & More",
+    seoTitle: "Morocco Film Locations",
     seoDescription:
       "A guide to Morocco's UNESCO World Heritage sites used as film locations — Aït Ben Haddou (Gladiator, Game of Thrones), Ouarzazate's Atlas Studios.",
     relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "agadir-to-essaouira-day-trip"],
@@ -4992,7 +4992,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-10",
     tags: ["Toubkal guide cost", "Toubkal price", "cost to climb Toubkal", "Morocco trekking cost", "Toubkal guide fee", "Imlil", "High Atlas"],
-    seoTitle: "How Much Does a Toubkal Guide Cost? 2026 Price Breakdown",
+    seoTitle: "Toubkal Guide Cost 2026",
     seoDescription:
       "What a licensed Toubkal mountain guide really costs in 2026: day rates, the full itemised trek bill (mule, refuge, meals, park fee, transfer).",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],

@@ -1632,9 +1632,9 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["alcool au Maroc", "lois marocaines sur l'alcool", "peut-on boire au Maroc", "bars au Maroc"],
-    seoTitle: "Peut-on boire de l'alcool au Maroc ? Oui — à partir de 18 ans",
+    seoTitle: "Alcool au Maroc : légal dès 18 ans",
     seoDescription:
-      "L'alcool est légal au Maroc pour les visiteurs de plus de 18 ans. Où en acheter (Carrefour, Marjane, bars agréés), les prix, où il est interdit de boire, et ce qui change pendant le Ramadan.",
+      "Légal dès 18 ans. Où en acheter (Carrefour, Marjane, bars agréés), les prix, où il est interdit de boire, et ce qui change pendant le Ramadan.",
     faq: [
       { q: "L'alcool est-il légal au Maroc ?", a: "Oui. Le Maroc est un pays à majorité musulmane et la plupart des Marocains ne boivent pas, mais l'alcool est légal pour toute personne de plus de 18 ans, vendu et servi dans des établissements agréés : bars et restaurants d'hôtels, quelques bars indépendants et clubs de plage, les grandes chaînes de supermarchés comme Carrefour et Marjane, et des boutiques de spiritueux dédiées dans les villes." },
       { q: "Peut-on boire en public au Maroc ?", a: "Non — boire en public est une infraction pénale, et l'ivresse publique visible peut entraîner une amende ou un bref séjour en cellule. Buvez à l'intérieur d'établissements agréés, de chambres d'hôtel ou dans un cadre privé, et transportez l'alcool discrètement plutôt que visiblement à travers la médina." },

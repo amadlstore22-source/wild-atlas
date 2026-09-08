@@ -47,8 +47,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى مراكش — أفضل الجولات والنصائح والمغامرات | Marrakech Eco Tours",
-    seoDescription: "دليل شامل لمراكش: جولات في المدينة القديمة، والأسواق، وساحة جامع الفنا، ورحلات يومية إلى جبال الأطلس والصحراء. احجز جولات المجموعات الصغيرة مع مرشدين أمازيغ محليين.",
+    seoTitle: "دليل السفر إلى مراكش | Marrakech Eco Tours",
+    seoDescription: "دليل شامل لمراكش: جولات في المدينة القديمة، والأسواق، وساحة جامع الفنا، ورحلات يومية إلى جبال الأطلس والصحراء.",
   },
   {
     slug: "high-atlas",
@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى جبال الأطلس الكبير — رحلة توبقال والقرى الأمازيغية | Marrakech Eco Tours",
-    seoDescription: "استكشف جبال الأطلس الكبير برفقة مرشدين محليين معتمدين: رحلة تسلق قمة توبقال (4167 مترًا)، وجولات في القرى الأمازيغية، وعبور الأطلس على مدى عدة أيام. مجموعات صغيرة تنطلق من مراكش.",
+    seoTitle: "دليل السفر إلى جبال الأطلس الكبير | Marrakech Eco Tours",
+    seoDescription: "استكشف جبال الأطلس الكبير برفقة مرشدين محليين معتمدين: رحلة تسلق قمة توبقال (4167 مترًا)، وجولات في القرى الأمازيغية، وعبور الأطلس على مدى عدة أيام.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "جولة في الصحراء الكبرى من مراكش — دليل عرق الشبي ومرزوكة | Marrakech Eco Tours",
-    seoDescription: "اكتشف الصحراء الكبرى برفقة مرشدين معتمدين: ركوب الجمال، وليالي المخيمات الأمازيغية، وشروق الشمس فوق كثبان عرق الشبي التي يبلغ ارتفاعها 150 مترًا. جولات صحراوية من يومين إلى 4 أيام تنطلق من مراكش.",
+    seoTitle: "جولة في الصحراء الكبرى من مراكش | Marrakech Eco Tours",
+    seoDescription: "اكتشف الصحراء الكبرى برفقة مرشدين معتمدين: ركوب الجمال، وليالي المخيمات الأمازيغية، وشروق الشمس فوق كثبان عرق الشبي التي يبلغ ارتفاعها 150 مترًا.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى فاس البالي — جولات المدينة القديمة والدباغات والمدينة الإمبراطورية | Marrakech Eco Tours",
-    seoDescription: "استكشف فاس البالي: أكثر المدن القروسطية اكتمالًا في العالم. جولات مرشَدة إلى دباغة الشوارة وجامعة القرويين والمدينة القديمة ذات 9400 زقاق. رحلات يومية وجولات متعددة الأيام من مراكش.",
+    seoTitle: "دليل السفر إلى فاس البالي | Marrakech Eco Tours",
+    seoDescription: "استكشف فاس البالي: أكثر المدن القروسطية اكتمالًا في العالم. جولات مرشَدة إلى دباغة الشوارة وجامعة القرويين والمدينة القديمة ذات 9400 زقاق.",
   },
   {
     slug: "chefchaouen",
@@ -237,7 +237,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى شفشاون — المدينة الزرقاء في المغرب | Marrakech Eco Tours",
+    seoTitle: "دليل السفر إلى شفشاون | Marrakech Eco Tours",
     seoDescription: "اكتشف شفشاون، المدينة الزرقاء الشهيرة في المغرب وسط جبال الريف. جولات مرشَدة، ومشي في حديقة تالاسمتان الوطنية، وإقامة ليلية في المدينة القديمة المطلية.",
   },
   {
@@ -284,8 +284,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "hiking"],
     relatedOrigins: ["agadir"],
-    seoTitle: "دليل السفر إلى أكادير — الشاطئ الأطلسي وركوب الأمواج والرحلات اليومية | Marrakech Eco Tours",
-    seoDescription: "دليل شامل لأكادير: ركوب الأمواج في تغازوت، وحديقة سوس ماسة الوطنية، ووادي الفردوس، ورحلات يومية من الساحل الأطلسي للمغرب. جولات المجموعات الصغيرة مع مرشدين محليين.",
+    seoTitle: "دليل السفر إلى أكادير | Marrakech Eco Tours",
+    seoDescription: "دليل شامل لأكادير: ركوب الأمواج في تغازوت، وحديقة سوس ماسة الوطنية، ووادي الفردوس، ورحلات يومية من الساحل الأطلسي للمغرب.",
   },
   {
     slug: "ouzoud",
@@ -331,7 +331,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["hiking", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "رحلة يومية إلى شلالات أوزود من مراكش — دليل وجولات | Marrakech Eco Tours",
+    seoTitle: "رحلة يومية إلى شلالات أوزود من مراكش | Marrakech Eco Tours",
     seoDescription: "زر شلالات أوزود (110 أمتار) من مراكش: مسيرات مرشَدة في الأخدود، وقرود المكاك البربري البرية، وبرك سباحة، وقوس قزح طبيعي. جولات يوم كامل مع مرشدين محليين.",
   },
   {
@@ -378,8 +378,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى الصويرة — ركوب الأمواج الشراعي وموسيقى ݣناوة والمدينة القديمة | Marrakech Eco Tours",
-    seoDescription: "اكتشف الصويرة: مدينتها القديمة الأطلسية المصنّفة لدى اليونسكو، وركوب الأمواج الشراعي عالمي المستوى، وموسيقى ݣناوة، والمأكولات البحرية. رحلات يومية وجولات ليلية من مراكش مع مرشدين محليين.",
+    seoTitle: "دليل السفر إلى الصويرة | Marrakech Eco Tours",
+    seoDescription: "اكتشف الصويرة: مدينتها القديمة الأطلسية المصنّفة لدى اليونسكو، وركوب الأمواج الشراعي عالمي المستوى، وموسيقى ݣناوة، والمأكولات البحرية.",
   },
 ];
 

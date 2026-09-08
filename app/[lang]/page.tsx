@@ -34,11 +34,17 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
       // Morocco" on every result. The description was already localised.
       absolute: dict.seo.home.title,
     },
-    description: dict.hero.subheadline,
+    // Not hero.subheadline: that is visible display copy and runs to 187
+    // characters in French and Spanish, so the homepage snippet was cut
+    // mid-sentence. seo.home.description is written for the SERP instead.
+    description: dict.seo.home.description,
     openGraph: {
       ...ogBase(lang),
       title: dict.seo.home.title,
-      description: dict.hero.subheadline,
+      // Not hero.subheadline: that is visible display copy and runs to 187
+    // characters in French and Spanish, so the homepage snippet was cut
+    // mid-sentence. seo.home.description is written for the SERP instead.
+    description: dict.seo.home.description,
       url: `https://marrakechecotours.com/${lang}`,
       // Branded share card on an authentic first-party photo (a real Toubkal
       // summit panorama). Regenerate with: node scripts/build_og_image.mjs

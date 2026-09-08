@@ -130,7 +130,7 @@ const COPY: Table = {
   },
   "gnaoua-world-music-festival-essaouira": {
     fr: {
-      name: "Festival Gnaoua et Musiques du Monde, Essaouira",
+      name: "Festival Gnaoua, Essaouira",
       shortName: "Festival Gnaoua",
       blurb:
         "Trois jours de transe gnaoua face à l'Atlantique, dans une cité fortifiée vidée de ses voitures et remplie de tambours.",
@@ -152,7 +152,7 @@ const COPY: Table = {
       ],
     },
     es: {
-      name: "Festival Gnaoua y Músicas del Mundo, Essaouira",
+      name: "Festival Gnaoua, Essaouira",
       shortName: "Festival Gnaoua",
       blurb:
         "Tres días de trance gnaoua frente al Atlántico, en una ciudad amurallada que se vacía de coches y se llena de tambores.",
@@ -196,7 +196,7 @@ const COPY: Table = {
       ],
     },
     it: {
-      name: "Festival Gnaoua e Musiche del Mondo, Essaouira",
+      name: "Festival Gnaoua, Essaouira",
       shortName: "Festival Gnaoua",
       blurb:
         "Tre giorni di trance gnaoua sull'Atlantico, in una città murata svuotata di auto e piena di tamburi.",
@@ -741,7 +741,7 @@ const COPY: Table = {
       ],
     },
     it: {
-      name: "Stagione dei mandorli in fiore, Anti-Atlante",
+      name: "Mandorli in fiore, Anti-Atlante",
       shortName: "Mandorli in fiore",
       blurb:
         "Le terrazze dell'Anti-Atlante diventano bianche e rosa per qualche settimana prima che arrivi il caldo.",

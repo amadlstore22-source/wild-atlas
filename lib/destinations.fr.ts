@@ -47,8 +47,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Marrakech — Meilleures excursions et conseils | Marrakech Eco Tours",
-    seoDescription: "Guide complet de Marrakech : balades dans la médina, souks, Jemaa el-Fna et excursions d'une journée vers l'Atlas et le Sahara. Réservez des circuits en petit groupe avec des guides berbères locaux.",
+    seoTitle: "Guide de voyage à Marrakech | Marrakech Eco Tours",
+    seoDescription: "Guide complet de Marrakech : balades dans la médina, souks, Jemaa el-Fna et excursions d'une journée vers l'Atlas et le Sahara.",
   },
   {
     slug: "high-atlas",
@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage du Haut Atlas — Trek du Toubkal et villages berbères | Marrakech Eco Tours",
-    seoDescription: "Explorez le Haut Atlas avec des guides locaux certifiés : trek au sommet du Toubkal (4 167 m), balades dans les villages berbères et traversées de plusieurs jours dans l'Atlas. Petits groupes au départ de Marrakech.",
+    seoTitle: "Guide de voyage du Haut Atlas | Marrakech Eco Tours",
+    seoDescription: "Le Haut Atlas avec des guides certifiés : sommet du Toubkal (4 167 m), villages berbères et traversées de plusieurs jours. Petits groupes.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Circuit dans le désert du Sahara depuis Marrakech — Guide de l'Erg Chebbi et Merzouga | Marrakech Eco Tours",
-    seoDescription: "Découvrez le désert du Sahara avec des guides certifiés : balades à dos de chameau, nuits en campement berbère et lever du soleil sur les dunes de 150 m de l'Erg Chebbi. Circuits désertiques de 2 à 4 jours au départ de Marrakech.",
+    seoTitle: "Circuit Sahara depuis Marrakech | Marrakech Eco Tours",
+    seoDescription: "Le Sahara avec des guides certifiés : chameaux, nuits en campement berbère et lever du soleil sur les dunes de l'Erg Chebbi. Circuits de 2 à 4 jours.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Fès el-Bali — Visites de la médina, tanneries et ville impériale | Marrakech Eco Tours",
-    seoDescription: "Explorez Fès el-Bali, la cité médiévale la plus intacte au monde. Visites guidées de la tannerie Chouara, de l'université Al Quaraouiyine et de la médina aux 9 400 ruelles. Excursions d'une journée et circuits de plusieurs jours au départ de Marrakech.",
+    seoTitle: "Guide de voyage à Fès el-Bali | Marrakech Eco Tours",
+    seoDescription: "Explorez Fès el-Bali, la cité médiévale la plus intacte au monde. Visites guidées de la tannerie Chouara.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Chefchaouen — La ville bleue du Maroc | Marrakech Eco Tours",
-    seoDescription: "Découvrez Chefchaouen, la célèbre ville bleue du Maroc nichée dans les montagnes du Rif. Visites guidées, randonnées dans le Parc National de Talassemtane, et séjours dans la médina peinte.",
+    seoTitle: "Guide de voyage à Chefchaouen | Marrakech Eco Tours",
+    seoDescription: "Découvrez Chefchaouen, la célèbre ville bleue du Maroc nichée dans les montagnes du Rif. Visites guidées, randonnées dans le Parc National de Talassemtane.",
   },
   {
     slug: "agadir",
@@ -284,8 +284,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "hiking"],
     relatedOrigins: ["agadir"],
-    seoTitle: "Guide de voyage à Agadir — Plage atlantique, surf et excursions | Marrakech Eco Tours",
-    seoDescription: "Guide complet d'Agadir : surf à Taghazout, Parc National de Souss-Massa, Vallée du Paradis et excursions depuis la côte atlantique du Maroc. Circuits en petit groupe avec des guides locaux.",
+    seoTitle: "Guide de voyage à Agadir — Plage atlantique | Marrakech Eco Tours",
+    seoDescription: "Guide complet d'Agadir : surf à Taghazout, Parc National de Souss-Massa, Vallée du Paradis et excursions depuis la côte atlantique du Maroc.",
   },
   {
     slug: "ouzoud",
@@ -331,8 +331,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["hiking", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Excursion d'une journée aux cascades d'Ouzoud depuis Marrakech — Guide et circuits | Marrakech Eco Tours",
-    seoDescription: "Visitez les cascades d'Ouzoud (110 m) depuis Marrakech : randonnées guidées en gorge, magots de Barbarie sauvages, bassins de baignade et arc-en-ciel naturel. Excursions d'une journée complète avec des guides locaux.",
+    seoTitle: "Excursion cascades d'Ouzoud de Marrakech | Marrakech Eco Tours",
+    seoDescription: "Visitez les cascades d'Ouzoud (110 m) depuis Marrakech : randonnées guidées en gorge, magots de Barbarie sauvages, bassins de baignade et arc-en-ciel naturel.",
   },
   {
     slug: "essaouira",
@@ -378,8 +378,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Essaouira — Kitesurf, musique gnaoua et médina | Marrakech Eco Tours",
-    seoDescription: "Découvrez Essaouira : sa médina atlantique classée UNESCO, son kitesurf de renommée mondiale, sa musique gnaoua et ses fruits de mer. Excursions d'une journée et circuits de plusieurs jours au départ de Marrakech avec des guides locaux.",
+    seoTitle: "Guide de voyage à Essaouira — Kitesurf | Marrakech Eco Tours",
+    seoDescription: "Découvrez Essaouira : sa médina atlantique classée UNESCO, son kitesurf de renommée mondiale, sa musique gnaoua et ses fruits de mer.",
   },
 ];
 

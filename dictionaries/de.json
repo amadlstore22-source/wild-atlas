@@ -679,7 +679,8 @@
     },
     "guideTitleSuffix": "lizenzierter Bergführer",
     "home": {
-      "title": "Marrakech Eco Tours — Atlas-Trekking, Sahara & Kulturreisen"
+      "title": "Marrakech Eco Tours — Atlas-Trekking, Sahara & Kulturreisen",
+      "description": "Abenteuer in kleinen Gruppen mit zertifizierten Berberguides: Trekking im Atlas, Nächte in der Sahara, Kaiserstädte und Atlantikküste."
     },
     "tours": {
       "title": "Alle Marokko-Touren im Überblick",
@@ -704,7 +705,7 @@
     "thanks": "Von Lahsen, Mohamed, Smail und dem ganzen Team — danke. Bslama!"
   },
   "events": {
-    "metaTitle": "Festival-Termine und kommende Veranstaltungen",
+    "metaTitle": "Festival-Termine in Marokko",
     "metaDesc": "Marokkanische Feste, für die sich eine Reise lohnt — das Gnaoua-Festival, die Rosenernte, das Moussem von Imilchil — und die Touren, mit denen wir hinfahren.",
     "eyebrow": "Nach dem Kalender planen",
     "heading": "Kommende Veranstaltungen und Festival-Termine",

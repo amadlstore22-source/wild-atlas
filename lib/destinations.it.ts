@@ -47,8 +47,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guida di viaggio a Marrakech — Migliori tour, consigli e avventure | Marrakech Eco Tours",
-    seoDescription: "Guida completa a Marrakech: passeggiate nella medina, souk, Jemaa el-Fna ed escursioni di un giorno verso l'Atlante e il Sahara. Prenota tour in piccoli gruppi con guide berbere locali.",
+    seoTitle: "Guida di viaggio a Marrakech | Marrakech Eco Tours",
+    seoDescription: "Guida completa a Marrakech: passeggiate nella medina, souk, Jemaa el-Fna ed escursioni di un giorno verso l'Atlante e il Sahara.",
   },
   {
     slug: "high-atlas",
@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guida di viaggio all'Alto Atlante — Trekking al Toubkal e villaggi berberi | Marrakech Eco Tours",
-    seoDescription: "Esplora l'Alto Atlante con guide locali certificate: trekking alla vetta del Toubkal (4.167 m), passeggiate nei villaggi berberi e traversate di più giorni sull'Atlante. Piccoli gruppi da Marrakech.",
+    seoTitle: "Guida di viaggio all'Alto Atlante | Marrakech Eco Tours",
+    seoDescription: "L'Alto Atlante con guide certificate: vetta del Toubkal (4.167 m), villaggi berberi e traversate di più giorni. Piccoli gruppi.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Tour nel deserto del Sahara da Marrakech — Guida a Erg Chebbi e Merzouga | Marrakech Eco Tours",
-    seoDescription: "Scopri il deserto del Sahara con guide certificate: trekking in cammello, notti in campo berbero e alba sulle dune di 150 m dell'Erg Chebbi. Tour nel deserto di 2-4 giorni da Marrakech.",
+    seoTitle: "Tour nel deserto del Sahara da Marrakech | Marrakech Eco Tours",
+    seoDescription: "Scopri il deserto del Sahara con guide certificate: trekking in cammello, notti in campo berbero e alba sulle dune di 150 m dell'Erg Chebbi.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guida di viaggio a Fès el-Bali — Tour della medina, concerie e città imperiale | Marrakech Eco Tours",
-    seoDescription: "Esplora Fès el-Bali, la città medievale più intatta al mondo. Tour guidati alla conceria Chouara, all'Università di al-Qarawiyyin e nella medina di 9.400 vicoli. Escursioni di un giorno e tour di più giorni da Marrakech.",
+    seoTitle: "Guida di viaggio a Fès el-Bali | Marrakech Eco Tours",
+    seoDescription: "Fès el-Bali, la città medievale più intatta al mondo: la conceria Chouara, al-Qarawiyyin e una medina di 9.400 vicoli.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guida di viaggio a Chefchaouen — La città blu del Marocco | Marrakech Eco Tours",
-    seoDescription: "Scopri Chefchaouen, la famosa città blu del Marocco tra le montagne del Rif. Tour guidati, escursioni nel Parco Nazionale di Talassemtane e pernottamenti nella medina dipinta.",
+    seoTitle: "Guida di viaggio a Chefchaouen | Marrakech Eco Tours",
+    seoDescription: "Chefchaouen, la città blu del Marocco nel Rif. Tour guidati, escursioni nel Parco di Talassemtane e notti nella medina dipinta.",
   },
   {
     slug: "agadir",
@@ -284,8 +284,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "hiking"],
     relatedOrigins: ["agadir"],
-    seoTitle: "Guida di viaggio ad Agadir — Spiaggia atlantica, surf ed escursioni | Marrakech Eco Tours",
-    seoDescription: "Guida completa ad Agadir: surf a Taghazout, Parco Nazionale di Souss-Massa, Paradise Valley ed escursioni dalla costa atlantica del Marocco. Tour in piccoli gruppi con guide locali.",
+    seoTitle: "Guida di viaggio ad Agadir | Marrakech Eco Tours",
+    seoDescription: "Guida completa ad Agadir: surf a Taghazout, Parco Nazionale di Souss-Massa, Paradise Valley ed escursioni dalla costa atlantica del Marocco.",
   },
   {
     slug: "ouzoud",
@@ -331,8 +331,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["hiking", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Gita di un giorno alle cascate di Ouzoud da Marrakech — Guida e tour | Marrakech Eco Tours",
-    seoDescription: "Visita le cascate di Ouzoud (110 m) da Marrakech: escursioni guidate nella gola, magot selvatici di Barberia, piscine per nuotare e arcobaleno naturale nella nebbia. Tour di un'intera giornata con guide locali.",
+    seoTitle: "Gita cascate di Ouzoud da Marrakech | Marrakech Eco Tours",
+    seoDescription: "Visita le cascate di Ouzoud (110 m) da Marrakech: escursioni guidate nella gola, magot selvatici di Barberia.",
   },
   {
     slug: "essaouira",
@@ -378,8 +378,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["day-tours", "cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guida di viaggio a Essaouira — Kitesurf, musica gnawa e medina | Marrakech Eco Tours",
-    seoDescription: "Scopri Essaouira: medina atlantica patrimonio UNESCO, kitesurf di livello mondiale, musica gnawa e pesce fresco. Gite di un giorno e tour di più giorni da Marrakech con guide locali.",
+    seoTitle: "Guida di viaggio a Essaouira — Kitesurf | Marrakech Eco Tours",
+    seoDescription: "Scopri Essaouira: medina atlantica patrimonio UNESCO, kitesurf di livello mondiale, musica gnawa e pesce fresco.",
   },
 ];
 

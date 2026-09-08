@@ -28,7 +28,11 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
   if (!cat) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
   return {
-    title: `${cat.label} Adventures in Morocco`,
+    // `cat.label` is already localised, so appending an English suffix put
+    // "Excursions d'une journée Adventures in Morocco" on the French page --
+    // half-translated, and 68 characters once the brand is applied. The label
+    // alone is what the page is about and what people search for.
+    title: cat.label,
     description: cat.description,
     openGraph: { ...ogBase(lang), title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
     alternates: {

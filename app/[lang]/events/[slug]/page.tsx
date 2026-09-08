@@ -30,10 +30,31 @@ export async function generateMetadata({ params }: EventParams): Promise<Metadat
   if (!event) return {};
   const dict = await getDictionary(lang);
   const dates = formatEventDates(event, lang);
-  const title = `${event.name} ${dates}`;
+  // The date range stays OUT of the <title>. Appending it pushed every event
+  // page past the ~60 characters Google renders -- the Spanish 8-day Highlights
+  // page reached 122 -- so the dates were clipped anyway AND took the end of
+  // the event name with them. Bing Webmaster Tools flagged the English ones as
+  // "Title too long" on 2026-09-08.
+  //
+  // The name alone is what people search for, and it fits for every event in
+  // the catalogue. The dates are still the first thing in the description
+  // below, where there is room for them, and they remain in the visible H1 and
+  // in the Event structured data, which is what a date-aware search feature
+  // actually reads.
+  //
+  // One event name is still long enough to overflow on its own (the 8-day
+  // Highlights departure, 80 characters rendered in English and 122 in
+  // Spanish). Trim the SERP title at its subtitle separator rather than
+  // shortening `event.name` itself: that field is also the visible H1 and the
+  // Event schema's name, and both want the full thing.
+  const BRAND_LEN = 22;
+  const title =
+    event.name.length + BRAND_LEN > 65
+      ? event.name.split(/\s*[:—–]\s*/)[0].trim()
+      : event.name;
   return {
     title,
-    description: event.blurb,
+    description: `${dates}. ${event.blurb}`,
     openGraph: {
       ...ogBase(lang),
       title,

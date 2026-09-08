@@ -679,7 +679,8 @@
     },
     "guideTitleSuffix": "guida alpina abilitata",
     "home": {
-      "title": "Marrakech Eco Tours — Trek dell'Atlante, Sahara e cultura"
+      "title": "Marrakech Eco Tours — Trek dell'Atlante, Sahara e cultura",
+      "description": "Avventure in piccoli gruppi con guide berbere certificate: trekking sull'Atlante, notti nel Sahara, città imperiali e costa atlantica."
     },
     "tours": {
       "title": "Tutti i tour in Marocco",
@@ -705,7 +706,7 @@
   },
   "events": {
     "metaTitle": "Partenze per i festival ed eventi in arrivo",
-    "metaDesc": "Feste marocchine per cui vale la pena organizzare un viaggio — il festival Gnaoua, la raccolta delle rose, il moussem di Imilchil — e i tour con cui ci arriviamo.",
+    "metaDesc": "Le feste marocchine per cui vale la pena viaggiare — Gnaoua, la raccolta delle rose, il moussem di Imilchil — e i tour per arrivarci.",
     "eyebrow": "Pianifica sul calendario",
     "heading": "Eventi in arrivo e partenze per i festival",
     "sub": "Alcuni dei giorni più belli in Marocco dipendono da un calendario che non decidiamo noi: un raccolto, l'avvistamento della luna, una fiera di montagna. Questi sono quelli per cui vale la pena costruire un viaggio, con le partenze che organizziamo per arrivarci.",

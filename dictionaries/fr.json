@@ -679,7 +679,8 @@
     },
     "guideTitleSuffix": "guide de montagne agréé",
     "home": {
-      "title": "Marrakech Eco Tours — Treks de l'Atlas, Sahara et culture"
+      "title": "Marrakech Eco Tours — Treks de l'Atlas, Sahara et culture",
+      "description": "Aventures en petit groupe menées par des guides berbères certifiés : trekking dans l'Atlas, nuits dans le Sahara, villes impériales et côte atlantique."
     },
     "tours": {
       "title": "Tous nos circuits au Maroc",
@@ -705,7 +706,7 @@
   },
   "events": {
     "metaTitle": "Départs festivals et événements à venir",
-    "metaDesc": "Les festivals marocains autour desquels organiser un voyage — le festival Gnaoua, la récolte des roses, le moussem d'Imilchil — et les circuits que nous proposons pour y assister.",
+    "metaDesc": "Les festivals marocains autour desquels organiser un voyage — Gnaoua, la récolte des roses, le moussem d'Imilchil — et nos circuits pour y assister.",
     "eyebrow": "Organisez selon le calendrier",
     "heading": "Événements à venir et départs festivals",
     "sub": "Certains des plus beaux jours au Maroc dépendent d'un calendrier que nous ne maîtrisons pas : une récolte, une observation de la lune, une foire de montagne. Voici ceux qui méritent qu'on construise un voyage autour, avec les départs que nous organisons pour s'y rendre.",

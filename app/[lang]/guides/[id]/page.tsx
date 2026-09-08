@@ -29,9 +29,29 @@ export async function generateMetadata({ params }: GuideParams): Promise<Metadat
   const guide = getGuideFor(lang, id) ?? GUIDES.find((g) => g.id === id);
   if (!guide) return {};
   const dict = await getDictionary(lang);
+
+  /**
+   * `shortBio` is the bio shown on the page, and it runs to 260-290 characters
+   * in the translated locales -- well past the ~160 Google renders, so the
+   * snippet was cut mid-sentence. Trim a copy for the meta tag at a sentence
+   * or clause boundary, leaving the bio itself untouched: the page wants the
+   * whole thing, the SERP wants the first idea.
+   */
+  const metaDescription = (() => {
+    const bio = guide.shortBio;
+    if (bio.length <= 160) return bio;
+    let best = "";
+    for (const m of bio.matchAll(/[.!?。]\s|\s[—–]\s|:\s|,\s/g)) {
+      const cut = bio.slice(0, m.index! + 1).replace(/[\s,;:—–]+$/, "");
+      if (cut.length <= 160 && cut.length >= 100) best = cut;
+    }
+    if (!best) return bio.slice(0, 157).replace(/\s+\S*$/, "") + "…";
+    return /[.!?。]$/.test(best) ? best : best + ".";
+  })();
+
   return {
     title: `${guide.name} — ${dict.seo.guideTitleSuffix}`,
-    description: guide.shortBio,
+    description: metaDescription,
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/guides/${id}`,
       languages: hreflangForPath(LOCALES, `/guides/${id}`),

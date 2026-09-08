@@ -82,7 +82,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2025-01-01",
     updatedAt: "2026-07-30",
     tags: ["Morocco", "adventure travel", "Morocco guide", "travel Morocco", "Morocco tourism"],
-    seoTitle: "Morocco Adventure Travel Guide 2026 — Complete Overview",
+    seoTitle: "Morocco Adventure Travel Guide 2026",
     seoDescription:
       "Your complete guide to adventure travel in Morocco — Atlas Mountains, Sahara desert, imperial cities, Atlantic coast, and southern regions.",
     relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
@@ -190,7 +190,7 @@ The deep-dive guides below cover each region in full detail.
     publishedAt: "2025-04-10",
     updatedAt: "2026-08-10",
     tags: ["Toubkal", "High Atlas", "trekking", "Morocco hiking"],
-    seoTitle: "How to Climb Jbel Toubkal 2026 — Complete Guide | Marrakech Eco Tours",
+    seoTitle: "How to Climb Jbel Toubkal 2026 | Marrakech Eco Tours",
     seoDescription:
       "Everything you need to climb Toubkal — best season, fitness level, gear list, and day-by-day itinerary from Marrakech.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "morocco-highlights-toubkal-sahara-8day"],
@@ -344,7 +344,7 @@ The full story of the crash, and why most accounts of it get the details wrong, 
     publishedAt: "2025-03-22",
     updatedAt: "2026-08-09",
     tags: ["Sahara", "Erg Chebbi", "Merzouga", "desert camping", "Morocco"],
-    seoTitle: "Morocco Sahara Desert: What to Expect — Honest Guide 2026",
+    seoTitle: "Morocco Sahara Desert: What to Expect",
     seoDescription:
       "An honest guide to the Moroccan Sahara — Erg Chebbi vs Erg Chegaga, real desert camp experience, best time to visit, and what not to believe in the brochures.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "desert-4day-marrakech"],
@@ -439,7 +439,7 @@ For the numbers behind that — highs, lows and the best months to come — see 
     publishedAt: "2025-02-14",
     updatedAt: "2026-08-07",
     tags: ["Morocco travel tips", "best time to visit", "weather", "seasons"],
-    seoTitle: "Best Time to Visit Morocco 2026 — Month by Month Guide",
+    seoTitle: "Best Time to Visit Morocco 2026",
     seoDescription:
       "When is the best time to visit Morocco? A practical month-by-month guide from local guides — for trekking, desert tours, beach holidays, and city breaks.",
     relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
@@ -527,7 +527,7 @@ If a particular festival is what you are travelling for, the timing question cha
     publishedAt: "2025-01-30",
     updatedAt: "2026-08-08",
     tags: ["Marrakech to Fes", "Morocco road trip", "Aït Ben Haddou", "Fes medina"],
-    seoTitle: "Marrakech to Fes Road Trip Guide 2026 — 3-Day Itinerary",
+    seoTitle: "Marrakech to Fes Road Trip Guide 2026",
     seoDescription:
       "The complete guide to the Marrakech–Fes overland route: Tizi n'Tichka pass, Aït Ben Haddou, Merzouga, Ifrane, and Fes el-Bali. Day-by-day itinerary included.",
     relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
@@ -692,7 +692,7 @@ Planning the budget? See [what a Paradise Valley trip from Agadir costs](/en/blo
     publishedAt: "2025-06-01",
     updatedAt: "2026-08-07",
     tags: ["Essaouira", "Agadir day trip", "Morocco coast", "medina", "seafood"],
-    seoTitle: "Essaouira Day Trip from Agadir — Complete Guide 2026",
+    seoTitle: "Essaouira Day Trip from Agadir",
     seoDescription:
       "How to do Essaouira as a day trip from Agadir — what to see, where to eat, what to buy, and how to handle the famous Essaouira wind.",
     relatedTours: ["agadir-to-essaouira-day-trip", "agadir-surf-lesson"],
@@ -770,7 +770,7 @@ Essaouira is nicknamed "the Windy City of Africa" for good reason. The *alizé* 
     publishedAt: "2025-07-15",
     updatedAt: "2026-08-07",
     tags: ["Chefchaouen", "blue city", "Rif Mountains", "Morocco medina", "northern Morocco"],
-    seoTitle: "Chefchaouen Travel Guide 2026 — The Blue City of Morocco",
+    seoTitle: "Chefchaouen Travel Guide 2026",
     seoDescription:
       "Your complete guide to Chefchaouen — why it's blue, what to see, where to stay, how to get there.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "agadir-to-chefchaouen-5day"],
@@ -856,7 +856,7 @@ Chefchaouen's riads are excellent value — you can stay in a beautiful blue-til
     publishedAt: "2025-08-20",
     updatedAt: "2026-08-07",
     tags: ["Morocco food", "Moroccan cuisine", "tagine", "couscous", "Marrakech restaurants"],
-    seoTitle: "Morocco Food Guide 2026 — 15 Dishes You Must Try",
+    seoTitle: "Morocco Food Guide 2026",
     seoDescription:
       "The essential Morocco food guide — from tagine and couscous to bastilla and harira. What to eat, where to find it.",
     relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
@@ -943,7 +943,7 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
     publishedAt: "2025-09-10",
     updatedAt: "2026-08-09",
     tags: ["Ourika Valley", "Marrakech day trip", "High Atlas", "Berber villages", "hiking"],
-    seoTitle: "Ourika Valley Day Trip from Marrakech 2026 — Complete Guide",
+    seoTitle: "Ourika Valley Day Trip from Marrakech 2026",
     seoDescription:
       "Everything about the Ourika Valley day trip from Marrakech — what to see, the waterfall hike, Berber villages, best time to visit, and practical tips.",
     relatedTours: ["ourika-valley-day-hike", "toubkal-summit-2day-marrakech"],
@@ -1019,7 +1019,7 @@ If you are comparing it with the bigger falls, see
     publishedAt: "2025-10-05",
     updatedAt: "2026-08-09",
     tags: ["Agafay Desert", "Marrakech day trip", "Morocco desert", "camel trek", "glamping"],
-    seoTitle: "Agafay Desert Guide 2026 — Marrakech's Rocky Wilderness",
+    seoTitle: "Agafay Desert Guide 2026",
     seoDescription:
       "Everything about the Agafay Desert near Marrakech — what it is, what to do there, the best camps, and how it differs from the Sahara.",
     relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech"],
@@ -1106,7 +1106,7 @@ For what an evening out there actually runs to, see
     publishedAt: "2025-11-10",
     updatedAt: "2026-08-07",
     tags: ["Marrakech", "medina", "Djemaa el-Fna", "souks", "Morocco city guide"],
-    seoTitle: "Marrakech Medina Guide 2026 — Everything You Need to Know",
+    seoTitle: "Marrakech Medina Guide 2026",
     seoDescription:
       "The complete insider guide to Marrakech's medina — souks, palaces, hammams, food, and how to navigate the world's greatest labyrinth without getting.",
     relatedTours: ["marrakech-medina-cultural-tour"],
@@ -1187,7 +1187,7 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
     publishedAt: "2025-11-25",
     updatedAt: "2026-08-07",
     tags: ["Taghazout", "Morocco surf", "Agadir", "surfing Morocco", "Atlantic coast"],
-    seoTitle: "Taghazout Surf Guide 2026 — Morocco's Premier Surf Destination",
+    seoTitle: "Taghazout Surf Guide 2026",
     seoDescription:
       "The complete guide to surfing Taghazout, Morocco — best breaks, surf schools, when to go, where to stay.",
     relatedTours: ["agadir-surf-lesson", "paradise-valley-agadir"],
@@ -1279,7 +1279,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     publishedAt: "2025-12-01",
     updatedAt: "2026-08-07",
     tags: ["Anti-Atlas", "Tafraoute", "Morocco trekking", "Agadir", "off the beaten path"],
-    seoTitle: "Anti-Atlas Trekking Guide 2026 — Morocco's Hidden Mountain Range",
+    seoTitle: "Anti-Atlas Trekking Guide 2026",
     seoDescription:
       "Your guide to trekking the Anti-Atlas mountains of Morocco — Tafraoute, the Ameln Valley, painted rocks, almond blossom.",
     relatedTours: ["anti-atlas-trekking-agadir", "mgoun-massif-trek"],
@@ -1354,7 +1354,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     publishedAt: "2025-12-15",
     updatedAt: "2026-08-07",
     tags: ["Fes", "Fez", "Morocco medina", "Chouara tannery", "imperial cities"],
-    seoTitle: "Fes Medina Travel Guide 2026 — Complete Guide to Fes el-Bali",
+    seoTitle: "Fes Medina Travel Guide 2026",
     seoDescription:
       "The complete travel guide to Fes el-Bali — the Chouara tanneries, Al-Qarawiyyin, Medersa Bou Inania.",
     relatedTours: ["marrakech-to-fes-3day", "agadir-to-fes-4day"],
@@ -1428,7 +1428,7 @@ Whichever way you arrive, give the medina two full days. One is enough to see it
     publishedAt: "2025-03-10",
     updatedAt: "2026-08-07",
     tags: ["Morocco safety", "Morocco scams", "is Morocco safe", "Morocco travel tips", "Morocco for tourists", "Marrakech safety"],
-    seoTitle: "Is Morocco Safe for Tourists? Honest 2026 Guide — What's Real, What's Not",
+    seoTitle: "Is Morocco Safe for Tourists?",
     seoDescription:
       "Morocco is safe for most tourists most of the time — but first-time visitors need to know which risks are real and which ones guidebooks exaggerate.",
     relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-2day-marrakech"],
@@ -1546,7 +1546,7 @@ Everything else is Morocco being Morocco — loud, chaotic, generous, beautiful,
     publishedAt: "2025-05-12",
     updatedAt: "2026-07-22",
     tags: ["Gite Panorama", "Imlil accommodation", "Toubkal base camp", "High Atlas gite", "where to stay Imlil", "Toubkal trek"],
-    seoTitle: "Gite Panorama Imlil — Toubkal Base Camp Guide",
+    seoTitle: "Gite Panorama Imlil",
     seoDescription:
       "Gite Panorama in Imlil — the Aitidar family's mountain gite and base camp for our Toubkal treks. Facilities, what to bring, and why the first night matters.",
     content: `
@@ -1621,7 +1621,7 @@ The gite is not a hotel. It is a working mountain operation that has been in one
     publishedAt: "2025-04-03",
     updatedAt: "2026-07-21",
     tags: ["Morocco domestic travel", "Moroccan tourism", "Atlas Mountains Morocco", "Sahara Morocco", "travel Morocco", "Toubkal Moroccans"],
-    seoTitle: "Morocco for Moroccan Travellers — Domestic Adventure Guide",
+    seoTitle: "Morocco for Moroccan Travellers",
     seoDescription:
       "More Moroccans are discovering their own country through guided adventure travel — the Atlas, the Sahara, the Atlantic gorges.",
     relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech"],
@@ -1698,7 +1698,7 @@ The High Atlas is, geologically speaking, still young and still rising — it wa
     publishedAt: "2025-02-18",
     updatedAt: "2026-07-21",
     tags: ["High Atlas packing list", "Toubkal gear list", "Morocco trekking gear", "what to pack Morocco", "Atlas Mountains equipment", "Toubkal packing"],
-    seoTitle: "High Atlas Trek Packing List — What to Bring for Toubkal & Atlas Treks",
+    seoTitle: "High Atlas Trek Packing List",
     seoDescription:
       "The definitive packing list for High Atlas and Toubkal trekking, compiled by Berber guides who have led thousands of trekkers.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
@@ -1918,7 +1918,7 @@ If you want to talk through which itinerary fits your fitness and your dates, [g
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-05",
     tags: ["Toubkal winter", "winter trekking", "crampons", "ice axe", "High Atlas", "Morocco winter"],
-    seoTitle: "Toubkal in Winter: Crampons, Skills & Difficulty (2026)",
+    seoTitle: "Toubkal in Winter",
     seoDescription:
       "What climbing Jbel Toubkal in winter really involves — when snow arrives, why crampons and an ice axe are required, whether beginners can do it.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
@@ -2030,7 +2030,7 @@ Not sure which side of that line you fall on? [Tell us what you have done before
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-07",
     tags: ["Merzouga", "Zagora", "Erg Chebbi", "Erg Chigaga", "Sahara", "desert tour", "Marrakech"],
-    seoTitle: "Merzouga vs Zagora: Which Morocco Desert Tour? (2026) | Marrakech Eco Tours",
+    seoTitle: "Merzouga vs Zagora | Marrakech Eco Tours",
     seoDescription:
       "Merzouga has 150 m dunes but is 9 hours from Marrakech. Zagora is 6 hours but has no real dunes.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
@@ -2142,7 +2142,7 @@ and what a [2-day Zagora tour costs](/en/blog/zagora-2-day-tour-cost).
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-10",
     tags: ["Morocco cost", "desert tour price", "Morocco budget", "tipping Morocco", "Sahara tour"],
-    seoTitle: "Morocco Desert Tour Cost 2026 — Real Prices & Tipping | Marrakech Eco Tours",
+    seoTitle: "Morocco Desert Tour Cost 2026 | Marrakech Eco Tours",
     seoDescription:
       "Real 2026 prices for Sahara desert tours from Marrakech: shared vs private vs luxury, what an €85 tour cuts to hit that number, how much to tip.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "desert-4day-marrakech"],
@@ -2268,7 +2268,7 @@ Our [3-day Sahara trip](/en/tours/sahara-3day-marrakech) and [4-day desert route
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-07",
     tags: ["solo female travel", "Morocco safety", "women travel Morocco", "what to wear Morocco", "Marrakech solo"],
-    seoTitle: "Solo Female Travel in Morocco: Honest 2026 Safety Guide",
+    seoTitle: "Solo Female Travel in Morocco",
     seoDescription:
       "Is Morocco safe for solo female travellers? An honest guide: what the harassment actually is, what to wear, hammams, taxis.",
     relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-trek-4day", "sahara-3day-marrakech"],
@@ -2387,7 +2387,7 @@ Questions about a specific itinerary or a specific worry? [Ask us directly](/en/
     publishedAt: "2026-07-15",
     updatedAt: "2026-08-07",
     tags: ["Morocco itinerary", "7 days Morocco", "Morocco trip planning", "first time Morocco", "how long in Morocco"],
-    seoTitle: "How Many Days Do You Need in Morocco? 5, 7 & 10-Day Routes",
+    seoTitle: "How Many Days Do You Need in Morocco? 5",
     seoDescription:
       "Is 7 days enough for Morocco? Honest itineraries for 5, 7, and 10 days — what fits, what does not.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
@@ -2625,7 +2625,7 @@ March is the month that catches most people out, and it has its own guide:
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-01",
     tags: ["Toubkal difficulty", "how hard is Toubkal", "Toubkal for beginners", "High Atlas", "Morocco trekking"],
-    seoTitle: "How Hard Is Toubkal? An Honest Difficulty Guide",
+    seoTitle: "How Hard Is Toubkal?",
     seoDescription: "Whether a beginner can climb Jbel Toubkal, what the summit day actually demands, how altitude affects it, and the training that genuinely helps.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-aguelzim-pass-3day"],
     faq: [
@@ -2718,7 +2718,7 @@ Give it the longer itinerary if your schedule allows, walk slower than feels nec
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-21",
     tags: ["Toubkal itinerary", "2 day Toubkal", "4 day Toubkal", "how many days Toubkal", "High Atlas"],
-    seoTitle: "Toubkal in 2 Days or 4: Which Trek Should You Book?",
+    seoTitle: "Toubkal in 2 Days or 4",
     seoDescription: "A straight comparison of the 2-day and 4-day Toubkal treks — acclimatisation, summit-day length, who each suits, and when the longer trip is worth it.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "morocco-highlights-toubkal-sahara-8day"],
     faq: [
@@ -2797,7 +2797,7 @@ For more on what the trek demands physically, see [How Hard Is Toubkal, Really?]
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-07",
     tags: ["Agafay", "Merzouga", "Zagora", "Morocco desert", "Sahara from Marrakech", "desert comparison"],
-    seoTitle: "Agafay vs Merzouga vs Zagora: Which Desert From Marrakech?",
+    seoTitle: "Agafay vs Merzouga vs Zagora",
     seoDescription: "An honest comparison of Morocco's three desert options from Marrakech — stone desert versus real dunes, how many days each needs, and which suits your trip.",
     relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech", "sahara-3day-marrakech"],
     faq: [
@@ -2884,7 +2884,7 @@ The mistake to avoid is booking Agafay expecting the Sahara. It is a fine trip o
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-09",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "Sahara dunes", "Morocco desert"],
-    seoTitle: "Erg Chebbi vs Erg Chegaga: Which Sahara Dunes?",
+    seoTitle: "Erg Chebbi vs Erg Chegaga",
     seoDescription: "The difference between Morocco's two great sand seas — dune height, access, crowds and cost — and how to choose between Merzouga and Erg Chegaga.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "erg-chegaga-3day-agadir"],
     faq: [
@@ -2955,7 +2955,7 @@ The price gap between the two is set by access rather than luxury — see
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-07",
     tags: ["Marrakech vs Agadir", "Morocco base", "where to stay Morocco", "Agadir", "Marrakech"],
-    seoTitle: "Marrakech or Agadir: Which Base for Your Morocco Trip?",
+    seoTitle: "Marrakech or Agadir",
     seoDescription:
       "Marrakech or Agadir as your base — what each puts within reach, how they differ in character and climate, and which suits mountains, desert.",
     relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "paradise-valley-agadir", "sahara-2day-agadir"],
@@ -3036,7 +3036,7 @@ If your trip is fixed to high summer, that alone may decide it. See [The Best Ti
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-09",
     tags: ["Morocco trekking", "multi-day trek", "M'Goun", "Ifni Lake", "Anti-Atlas", "High Atlas"],
-    seoTitle: "The Best Multi-Day Treks in Morocco (Beyond Toubkal)",
+    seoTitle: "The Best Multi-Day Treks in Morocco",
     seoDescription: "Four multi-day Moroccan treks past the standard Toubkal route — the Ifni Lake circuit, the M'Goun traverse, the Anti-Atlas and the three-peaks challenge.",
     relatedTours: ["toubkal-circuit-ifni-lake-6day", "mgoun-massif-trek", "anti-atlas-trekking-agadir", "toubkal-three-peaks-4000m-3day"],
     faq: [
@@ -3116,7 +3116,7 @@ For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/bl
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-07",
     tags: ["Sahara from Agadir", "Agadir desert tour", "Merzouga from Agadir", "Zagora", "Erg Chegaga"],
-    seoTitle: "Can You Visit the Sahara From Agadir? Yes, With Caveats",
+    seoTitle: "Can You Visit the Sahara From Agadir? Yes",
     seoDescription: "Desert trips from Agadir explained — why the Sahara is not a day trip, and how the two, three and four-day routes to Zagora, Merzouga and Erg Chegaga compare.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
@@ -3272,7 +3272,7 @@ For desert trips from Agadir, which need more than a day, see [Can You Visit the
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Todra Gorge", "Todra Canyon", "Morocco road trip", "Sahara route", "rock climbing Morocco"],
-    seoTitle: "Todra Gorge Guide — The Canyon Between Ouarzazate and Merzouga",
+    seoTitle: "Todra Gorge Guide",
     seoDescription:
       "What Todra Gorge actually is, why every Marrakech-to-Merzouga desert tour stops there, and what a 30-minute walk into the canyon shows you that the road.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
@@ -3329,7 +3329,7 @@ Todra Gorge is included as a stop on our [3-day Marrakech to the Sahara tour](/e
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Dades Valley", "Dades Gorge", "Road of a Thousand Kasbahs", "Morocco road trip", "Ouarzazate"],
-    seoTitle: "Dades Valley Guide — Kasbahs, Gorges, and the Road to Merzouga",
+    seoTitle: "Dades Valley Guide",
     seoDescription:
       "What Dades Valley is, why it's called the Road of a Thousand Kasbahs, and what you see on the drive between Ouarzazate and the Sahara.",
     relatedTours: ["erg-chegaga-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
@@ -3398,7 +3398,7 @@ Dades Valley is part of the route on our [3-day Erg Chegaga expedition](/en/tour
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-05",
     tags: ["Skoura", "Skoura Oasis", "kasbah", "Ouarzazate", "date palm oasis"],
-    seoTitle: "Skoura Oasis Guide — The Quiet Palm Grove East of Ouarzazate",
+    seoTitle: "Skoura Oasis Guide",
     seoDescription:
       "What Skoura Oasis is, why it's worth the short stop between Ouarzazate and Dades, and the kasbahs hidden inside its palm groves.",
     relatedTours: ["desert-4day-marrakech"],
@@ -3453,7 +3453,7 @@ Skoura is included on our [4-day Desert Grand Tour](/en/tours/desert-4day-marrak
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Ait Benhaddou", "Ait Ben Haddou", "UNESCO Morocco", "Ouarzazate", "kasbah", "film locations Morocco"],
-    seoTitle: "Ait Benhaddou Guide — The UNESCO Kasbah Near Ouarzazate",
+    seoTitle: "Ait Benhaddou Guide",
     seoDescription:
       "What Ait Benhaddou actually is, why it's been used in dozens of films, and what to know before visiting this UNESCO World Heritage ksar near Ouarzazate.",
     relatedTours: ["desert-4day-marrakech", "merzouga-3day-agadir"],
@@ -3506,7 +3506,7 @@ Ait Benhaddou sits on the Ouarzazate road used by our [4-day Desert Grand Tour](
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Berbers", "Amazigh", "Berber culture Morocco", "who are the Berbers", "Atlas Mountains people"],
-    seoTitle: "Who Are the Berbers? A Guide From an Amazigh-Guided Company",
+    seoTitle: "Who Are the Berbers?",
     seoDescription:
       "An introduction to Berber (Amazigh) identity, language and culture in Morocco, written by a family of Berber mountain guides — not a textbook summary.",
     relatedTours: ["toubkal-summit-2day-marrakech", "marrakech-medina-cultural-tour"],
@@ -3562,7 +3562,7 @@ Understanding this isn't trivia — it changes how a trek reads. When a guide po
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["what is a kasbah", "kasbah meaning", "Morocco architecture", "ksar vs kasbah"],
-    seoTitle: "What Is a Kasbah? Meaning and How It Differs From a Ksar",
+    seoTitle: "What Is a Kasbah?",
     seoDescription:
       "A kasbah is a fortified building, not a whole town. Here's the real definition, how it differs from a ksar, riad and medina.",
     faq: [
@@ -3618,7 +3618,7 @@ Some restored kasbahs now operate as guesthouses, giving you a night inside the 
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["what is a riad", "riad meaning", "Marrakech accommodation", "riad vs hotel"],
-    seoTitle: "What Is a Riad? Meaning, and What It's Like Inside",
+    seoTitle: "What Is a Riad? Meaning",
     seoDescription:
       "A riad is a traditional house built around an interior garden, not just a boutique-hotel marketing term.",
     faq: [
@@ -3675,7 +3675,7 @@ Because "riad" now signals boutique and traditional to international travellers,
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Sahara desert facts", "Sahara size", "Erg Chebbi", "Merzouga dunes", "Sahara Morocco"],
-    seoTitle: "Sahara Desert Facts — Size, Age, and What's Actually True",
+    seoTitle: "Sahara Desert Facts",
     seoDescription:
       "The real facts behind the Sahara desert you'll visit from Morocco — how big it actually is, how the dunes at Erg Chebbi compare.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
@@ -3784,7 +3784,7 @@ If your trip includes any multi-day trekking or a desert tour beyond a single da
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["desert packing list", "Sahara packing", "what to pack Morocco desert", "Merzouga gear", "desert camp night"],
-    seoTitle: "What to Pack for a Morocco Desert Tour — The Real List",
+    seoTitle: "What to Pack for a Morocco Desert Tour",
     seoDescription:
       "Everything to actually bring on a Marrakech or Agadir desert tour — day heat, night cold, sand.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
@@ -3853,7 +3853,7 @@ What you need depends enormously on the month. [Sahara weather month by month](/
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["Ramadan Morocco", "Morocco Ramadan 2026", "visiting Morocco during Ramadan", "Morocco travel etiquette"],
-    seoTitle: "Visiting Morocco During Ramadan 2026 — A Practical Guide",
+    seoTitle: "Visiting Morocco During Ramadan 2026",
     seoDescription:
       "What changes in Morocco during Ramadan (18 February – 19 March 2026): restaurant hours, daytime eating as a visitor.",
     faq: [
@@ -3973,7 +3973,7 @@ If you are still deciding where the trip goes, that geography matters more than 
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Toubkal 2 days", "climb Toubkal", "Toubkal summit", "2 day Toubkal trek", "High Atlas", "Imlil", "Toubkal from Marrakech"],
-    seoTitle: "How to Climb Toubkal in 2 Days from Marrakech | Marrakech Eco Tours",
+    seoTitle: "How to Climb Toubkal in 2 Days | Marrakech Eco Tours",
     seoDescription:
       "The 2-day Toubkal summit from Marrakech, explained: the exact schedule, who it suits, the altitude risk, kit, and when to choose the 4-day trek instead.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
@@ -4099,7 +4099,7 @@ Whatever the month, going with a local guide means you skip the parking and navi
     publishedAt: "2026-07-24",
     updatedAt: "2026-08-05",
     tags: ["Paradise Valley swimming", "Paradise Valley pools", "Paradise Valley Agadir", "Morocco swimming", "Immouzer"],
-    seoTitle: "Swimming in Paradise Valley: Pools, Safety & Tips",
+    seoTitle: "Swimming in Paradise Valley",
     seoDescription:
       "A practical guide to swimming in Paradise Valley near Agadir: which rock pools to choose, is it safe to jump, what to bring, and how to find the quiet water.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
@@ -4155,7 +4155,7 @@ Getting there means a drive inland from Agadir, parking, and a walk down into th
     publishedAt: "2026-07-24",
     updatedAt: "2026-08-05",
     tags: ["Paradise Valley from Agadir", "Agadir day trips", "Paradise Valley", "Immouzer", "how to get to Paradise Valley"],
-    seoTitle: "Paradise Valley from Agadir: How to Get There (2026)",
+    seoTitle: "Paradise Valley from Agadir",
     seoDescription:
       "How to get from Agadir to Paradise Valley: distance, driving, taxi vs organised tour, how long to spend, and what else to combine it with.",
     relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "agadir-to-essaouira-day-trip"],
@@ -4207,7 +4207,7 @@ If you have more days around Agadir, the valley slots neatly alongside other tri
     publishedAt: "2026-07-24",
     updatedAt: "2026-08-05",
     tags: ["Paradise Valley from Marrakech", "Paradise Valley", "Marrakech day trips", "Agadir", "Morocco itinerary"],
-    seoTitle: "Can You Visit Paradise Valley from Marrakech? (Honest Answer)",
+    seoTitle: "Paradise Valley from Marrakech",
     seoDescription:
       "Is Paradise Valley a realistic day trip from Marrakech? The honest distance and timing, why Agadir is the right base.",
     relatedTours: ["paradise-valley-agadir", "ourika-valley-day-hike", "ouzoud-waterfalls-day-trip"],
@@ -4258,7 +4258,7 @@ Want Paradise Valley specifically? Do it from Agadir. Based in Marrakech and jus
     publishedAt: "2026-07-26",
     updatedAt: "2026-08-07",
     tags: ["Souss-Massa", "Agadir", "birdwatching", "bald ibis", "wildlife Morocco", "flamingos"],
-    seoTitle: "Souss-Massa National Park — Birdwatching Day Trip from Agadir",
+    seoTitle: "Souss-Massa National Park",
     seoDescription:
       "A complete guide to Souss-Massa National Park near Agadir: the endangered northern bald ibis, flamingos on the Massa estuary, when to go.",
     relatedTours: ["sous-massa-national-park", "paradise-valley-agadir", "souss-valley-cultural-tour"],
@@ -4303,7 +4303,7 @@ Souss-Massa pairs naturally with the other day trips out of Agadir. Freshwater a
     publishedAt: "2026-07-26",
     updatedAt: "2026-08-07",
     tags: ["Taroudant", "Agadir", "Souss Valley", "ramparts", "Berber market", "culture Morocco"],
-    seoTitle: "Taroudant Day Trip from Agadir — Ramparts, Souks & the Souss",
+    seoTitle: "Taroudant Day Trip from Agadir",
     seoDescription:
       "Why Taroudant is worth a day from Agadir: complete 16th-century ramparts, two authentic Berber souks, tanneries, and the Tiout oasis.",
     relatedTours: ["taroudant-day-trip-agadir", "souss-valley-cultural-tour", "sous-massa-national-park"],
@@ -4346,7 +4346,7 @@ Taroudant sits right in the middle of the Souss, so it slots neatly beside the r
     publishedAt: "2026-07-26",
     updatedAt: "2026-08-07",
     tags: ["argan oil", "Souss Valley", "Agadir", "Berber cooperative", "Amazigh culture", "honey"],
-    seoTitle: "Argan Oil & the Souss Valley — Cultural Day Trip from Agadir",
+    seoTitle: "Argan Oil & the Souss Valley",
     seoDescription:
       "Where argan oil really comes from: a cultural day in the Souss Valley from Agadir — women's cooperatives, hand-pressing, honey villages.",
     relatedTours: ["souss-valley-cultural-tour", "taroudant-day-trip-agadir", "paradise-valley-agadir"],
@@ -4444,7 +4444,7 @@ What makes Morocco unique among film destinations is that the sets were never se
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["7 day morocco itinerary", "morocco itinerary", "one week in morocco", "morocco from marrakech", "morocco route", "morocco 7 days"],
-    seoTitle: "The Perfect 7-Day Morocco Itinerary from Marrakech (2026)",
+    seoTitle: "7-Day Morocco Itinerary from Marrakech",
     seoDescription:
       "A practical 7-day Morocco itinerary from Marrakech: the medina, the High Atlas, and a night in the Sahara.",
     relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour", "ourika-valley-day-hike"],
@@ -4522,7 +4522,7 @@ This is a template, not a rulebook. Families slow it down and swap the summit hi
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
-    seoTitle: "10-Day Morocco Itinerary: Cities, Desert & Mountains (2026)",
+    seoTitle: "10-Day Morocco Itinerary",
     seoDescription:
       "A complete 10-day Morocco itinerary linking Marrakech, the Sahara, Fes and the High Atlas — day by day, with realistic driving times, the best stops.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
@@ -4598,7 +4598,7 @@ This is the classic loop, but the best version is the one shaped around you — 
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["nila", "indigo Morocco", "blue men of the desert", "Tuareg blue", "Moroccan blue dye", "Sahara culture"],
-    seoTitle: "Nila: Morocco's Blue Dye Explained (and How Not to Stain Yourself)",
+    seoTitle: "Nila: Morocco's Blue Dye Explained",
     seoDescription:
       "What is nila, the indigo dye behind Morocco's 'blue men of the desert'? Why it rubs off on your skin, whether it washes out.",
     relatedTours: ["merzouga-stargazing-desert-tour", "sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
@@ -4663,7 +4663,7 @@ Nila makes the most sense out in the sand, wrapped against a desert wind at suns
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["Moroccan mint tea", "Berber whisky", "atay", "Moroccan tea ceremony", "Morocco culture", "Moroccan hospitality"],
-    seoTitle: "Moroccan Mint Tea: The Ceremony, the High Pour & Etiquette",
+    seoTitle: "Moroccan Mint Tea",
     seoDescription:
       "Why Moroccan mint tea is poured from a height, what 'the three glasses' means, and the etiquette of accepting (and surviving) it.",
     relatedTours: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike", "marrakech-food-market-tour"],
@@ -4724,7 +4724,7 @@ The tea is never really about the tea. It's the doorway into a conversation, a h
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["haggling Morocco", "Moroccan souks", "bargaining Marrakech", "how to haggle Morocco", "Marrakech shopping", "souk tips"],
-    seoTitle: "How to Haggle in the Moroccan Souks (Honest, Funny Guide)",
+    seoTitle: "How to Haggle in the Moroccan Souks",
     seoDescription:
       "How bargaining really works in Morocco's souks: the first-price rule, the tea trick, the walk-away, and how to get a fair deal without stress.",
     relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "marrakech-imperial-cities-5day"],
@@ -4799,7 +4799,7 @@ The souks are dazzling and, on day one, genuinely disorienting — which is exac
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["Merzouga", "Erg Chebbi", "Merzouga desert", "Sahara Morocco", "Merzouga travel guide", "desert camp Merzouga"],
-    seoTitle: "Merzouga Travel Guide: Erg Chebbi Dunes, Camps & How to Visit",
+    seoTitle: "Merzouga Travel Guide",
     seoDescription:
       "Everything you need for Merzouga and the Erg Chebbi dunes: how to get there from Marrakech or Fes, the best time to go, desert camps, camel treks.",
     relatedTours: ["merzouga-3day-agadir", "merzouga-stargazing-desert-tour", "sahara-3day-marrakech"],
@@ -4870,7 +4870,7 @@ Merzouga earns its long drive. A night in Erg Chebbi is, for a lot of travellers
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["Zagora", "Zagora desert", "2 day desert tour", "Sahara from Marrakech", "Draa Valley", "quick desert tour Morocco"],
-    seoTitle: "Zagora Desert Guide: The 2-Day Sahara Tour from Marrakech",
+    seoTitle: "Zagora Desert Guide",
     seoDescription:
       "Is the Zagora desert worth it? An honest guide to Morocco's quickest Sahara trip from Marrakech: the drive, the smaller dunes, a night in camp.",
     relatedTours: ["zagora-2day-marrakech", "zagora-2day-agadir", "sahara-2day-agadir"],
@@ -4938,7 +4938,7 @@ Two days, one unforgettable night in the sand, and you're back in Marrakech befo
     publishedAt: "2026-07-29",
     updatedAt: "2026-08-09",
     tags: ["Ouarzazate", "Ouallywood", "Atlas Studios", "Taourirt Kasbah", "Morocco film locations", "door of the desert"],
-    seoTitle: "Ouarzazate Guide: Ouallywood Film Studios, Kasbahs & What to See",
+    seoTitle: "Ouarzazate Guide",
     seoDescription:
       "A guide to Ouarzazate, Morocco's 'door of the desert': the Atlas film studios (Ouallywood), Taourirt Kasbah, nearby Aït Ben Haddou.",
     relatedTours: ["sahara-3day-marrakech", "marrakech-to-fes-3day", "merzouga-stargazing-desert-tour"],
@@ -5147,7 +5147,7 @@ know what is included before you leave Marrakech.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-09",
     tags: ["Toubkal 2 day cost", "Toubkal trek price", "cost to climb Toubkal", "Toubkal weekend", "Imlil", "High Atlas"],
-    seoTitle: "2-Day Toubkal Trek Cost in 2026 — Full Price Breakdown",
+    seoTitle: "2-Day Toubkal Trek Cost in 2026",
     seoDescription:
       "What a 2-day Toubkal summit really costs in 2026: guide, refuge, mule, park fee and transfer itemised in dirhams.",
     faq: [
@@ -5264,7 +5264,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-10",
     tags: ["Toubkal 4 day cost", "Toubkal trek price", "Toubkal acclimatisation", "High Atlas trekking cost", "Imlil"],
-    seoTitle: "4-Day Toubkal Trek Cost in 2026 — Itemised Price Guide",
+    seoTitle: "4-Day Toubkal Trek Cost in 2026",
     seoDescription:
       "What a 4-day Toubkal trek costs in 2026: guide, refuges, mule, park fees and transfer broken down in dirhams.",
     faq: [
@@ -5380,7 +5380,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-09",
     tags: ["Toubkal circuit cost", "Ifni Lake trek", "6 day Toubkal", "High Atlas trekking price", "Toubkal massif"],
-    seoTitle: "6-Day Toubkal Circuit Cost 2026 — Ifni Lake Trek Price Guide",
+    seoTitle: "6-Day Toubkal Circuit Cost 2026",
     seoDescription:
       "What the 6-day Toubkal circuit via Ifni Lake costs in 2026: guide, mules, refuges, gîtes, camping and park fees itemised.",
     faq: [
@@ -5485,7 +5485,7 @@ keeps that with the people carrying your gear over the pass.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-10",
     tags: ["Marrakech to Chefchaouen cost", "Chefchaouen tour price", "blue city Morocco", "Morocco road trip cost", "Fes Volubilis"],
-    seoTitle: "Marrakech to Chefchaouen Tour Cost 2026 — Full Price Breakdown",
+    seoTitle: "Marrakech to Chefchaouen Tour Cost 2026",
     seoDescription:
       "What a Marrakech to Chefchaouen trip costs in 2026: transport, riads, guides and the return journey compared against a €313 four-day private tour via Fes and.",
     faq: [
@@ -5602,7 +5602,7 @@ day-by-day.`,
     publishedAt: "2026-08-10",
     updatedAt: "2026-08-10",
     tags: ["camel trek Morocco", "Erg Chegaga camel trek", "Sahara caravan trek", "camel welfare Morocco", "M'hamid desert trek"],
-    seoTitle: "Camel Trekking Morocco 2026 — What a Real Sahara Caravan Is Like",
+    seoTitle: "Camel Trekking Morocco 2026",
     seoDescription:
       "The difference between a sunset camel ride and a multi-day Sahara caravan trek: distances, daily hours, what you actually walk.",
     faq: [
@@ -5761,7 +5761,7 @@ experience — it is a different one. Book the one you want.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-10",
     tags: ["Sahara tour cost", "Merzouga 3 day price", "Morocco desert tour price", "Erg Chebbi", "desert camp cost"],
-    seoTitle: "3-Day Sahara Tour Cost from Marrakech 2026 — Price Breakdown",
+    seoTitle: "3-Day Sahara Tour Cost from Marrakech 2026",
     seoDescription:
       "What a 3-day Marrakech to Merzouga Sahara tour costs in 2026, what separates budget and private trips, and the hidden costs in cheap desert tour quotes.",
     faq: [
@@ -5863,7 +5863,7 @@ any Moroccan operator keeps it with the people running the camp.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-09",
     tags: ["Sahara from Agadir cost", "Agadir desert tour price", "Erg Chegaga", "Foum Zguid", "desert tour from Agadir"],
-    seoTitle: "Sahara Tour from Agadir Cost 2026 — Honest Price Breakdown",
+    seoTitle: "Sahara Tour from Agadir Cost 2026",
     seoDescription:
       "What a Sahara desert tour from Agadir costs in 2026: 2-day, 3-day and 4-day routes compared, why Agadir trips reach Erg Chegaga rather than Merzouga.",
     faq: [
@@ -5968,7 +5968,7 @@ Moroccan operator keeps it with the people running the camp.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-09",
     tags: ["family desert tour cost", "Morocco with kids", "family Sahara trip", "Erg Chebbi family", "Morocco family holiday cost"],
-    seoTitle: "Family Desert Tour Morocco Cost 2026 — Full Price Guide",
+    seoTitle: "Family Desert Tour Morocco Cost 2026",
     seoDescription:
       "What a 4-day family desert tour in Morocco costs in 2026: transport, camps, camel rides and meals itemised.",
     faq: [
@@ -6065,7 +6065,7 @@ handlers or the guesthouses. Booking direct keeps it in the country.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-09",
     tags: ["Toubkal three peaks cost", "Ouanoukrim price", "Timesguida", "Ras Ouanoukrim", "4000m Morocco", "High Atlas"],
-    seoTitle: "Toubkal Three Peaks Trek Cost in 2026 — Full Price Breakdown",
+    seoTitle: "Toubkal Three Peaks Trek Cost in 2026",
     seoDescription:
       "What the three-summit Toubkal trek costs in 2026: guide premium, two refuge nights, mule and park fees itemised.",
     faq: [
@@ -6151,7 +6151,7 @@ factor in whether people actually reach a summit.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-09",
     tags: ["Mgoun trek cost", "Jbel Mgoun price", "M'Goun massif", "7 day trek Morocco", "Berber homestay", "High Atlas"],
-    seoTitle: "Mgoun Massif Trek Cost in 2026 — 7-Day Price Breakdown",
+    seoTitle: "Mgoun Massif Trek Cost in 2026",
     seoDescription:
       "What a 7-day Mgoun Massif traverse costs in 2026: expert guide, mule team, homestays and camping itemised.",
     faq: [
@@ -6243,7 +6243,7 @@ Toubkal into a single crossing.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-09",
     tags: ["High Atlas traverse cost", "Grand Traverse price", "M'Goun to Toubkal", "15 day trek Morocco", "Aït Bougmez", "Magdaz"],
-    seoTitle: "High Atlas Grand Traverse Cost in 2026 — 15-Day Price Breakdown",
+    seoTitle: "High Atlas Grand Traverse Cost in 2026",
     seoDescription:
       "What the 15-day M'Goun to Toubkal traverse costs in 2026: guide, cook, mule team, 14 nights and park fees itemised.",
     faq: [
@@ -6339,7 +6339,7 @@ the commitment.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-10",
     tags: ["Toubkal Sahara cost", "mountain to desert Morocco", "5 day Morocco tour price", "Toubkal summit", "Erg Chebbi", "combined tour"],
-    seoTitle: "Toubkal & Sahara 5-Day Tour Cost in 2026 — Price Breakdown",
+    seoTitle: "Toubkal & Sahara 5-Day Tour Cost in 2026",
     seoDescription:
       "What the combined 5-day Toubkal summit and Sahara desert tour costs in 2026, itemised — and why booking the trek and the desert trip separately comes to more.",
     faq: [
@@ -6439,7 +6439,7 @@ itinerary can.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-09",
     tags: ["High Atlas trek cost", "Atlas village trek price", "Imlil Azzaden", "Berber guesthouse", "3 day trek Marrakech", "no summit trek"],
-    seoTitle: "3-Day High Atlas Village Trek Cost in 2026 — Price Breakdown",
+    seoTitle: "3-Day High Atlas Village Trek Cost in 2026",
     seoDescription:
       "What a 3-day High Atlas village trek costs in 2026: guide, guesthouses, mule and transfers itemised, plus how self-organising compares with a €235 package.",
     faq: [
@@ -6531,7 +6531,7 @@ transfers — is in the €235.
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-10",
     tags: ["Morocco tour group discount", "private tour price per person", "Morocco tour cost per person", "group size pricing", "desert tour price 2 people", "Morocco travel budget"],
-    seoTitle: "Morocco Tour Prices by Group Size — Full 2026 Table",
+    seoTitle: "Morocco Tour Prices by Group Size",
     seoDescription:
       "Why a Morocco private tour costs €690 for one person and €380 each for two. The full per-person price table by group size.",
     faq: [
@@ -6696,7 +6696,7 @@ size is the number you pay.
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-10",
     tags: ["private vs shared desert tour", "Morocco shared desert tour", "private Sahara tour Morocco", "Merzouga tour comparison", "desert tour minibus", "Morocco desert tour worth it"],
-    seoTitle: "Private vs Shared Morocco Desert Tour — 2026 Price Comparison",
+    seoTitle: "Private vs Shared Morocco Desert Tour",
     seoDescription:
       "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €446 each for two and €236 at six.",
     faq: [
@@ -6850,7 +6850,7 @@ so the number you see at your group size is the number you pay.
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-10",
     tags: ["book Morocco tour direct", "Morocco tour commission", "GetYourGuide vs direct booking", "Morocco desert tour booking", "hotel desk tour markup", "Morocco travel booking tips"],
-    seoTitle: "Booking a Morocco Tour: Direct vs Platform — 2026 Price Guide",
+    seoTitle: "Booking a Morocco Tour: Direct vs Platform",
     seoDescription:
       "Resale platforms take 20–30% commission on Morocco tours and it is added to your price. How the markup works, what it costs.",
     faq: [
@@ -7015,7 +7015,7 @@ worth.**
       "High Atlas trekking",
       "Toubkal refuge",
     ],
-    seoTitle: "Altitude Sickness on Toubkal — Symptoms & Prevention (2026)",
+    seoTitle: "Altitude Sickness on Toubkal",
     seoDescription:
       "Toubkal reaches 4,167 m, high enough for acute mountain sickness. The symptoms, when to descend.",
     faq: [
@@ -7226,7 +7226,7 @@ mountain guide.
       "desert tour with children",
       "Atlas trek with kids",
     ],
-    seoTitle: "Morocco With Kids — Honest Family Travel Guide (2026)",
+    seoTitle: "Morocco With Kids",
     seoDescription:
       "What age travels well in Morocco, car seats, food, and how long children really last in a 4x4.",
     faq: [
@@ -7433,7 +7433,7 @@ right for the age you are bringing.
       "Erg Chebbi accommodation",
       "Sahara camp comparison",
     ],
-    seoTitle: "Luxury vs Standard Desert Camps Morocco — Honest Comparison",
+    seoTitle: "Luxury vs Standard Desert Camps Morocco",
     seoDescription:
       "What separates a luxury Sahara camp from a standard one, what the upgrade costs, and when the extra money is worth it. Written by an operator who books both.",
     faq: [
@@ -7611,7 +7611,7 @@ camp is included, because "desert camp" on its own does not tell you what you ar
       "Agadir to Sahara",
       "week in Morocco",
     ],
-    seoTitle: "7-Day Morocco Itinerary from Agadir, With Real Prices",
+    seoTitle: "7-Day Morocco Itinerary from Agadir",
     seoDescription:
       "A week in Morocco starting from Agadir: desert, imperial cities or coast, mapped to real tours with per-person prices and honest driving times.",
     relatedTours: [
@@ -7759,7 +7759,7 @@ Two things worth deciding early:
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["things to do in Morocco", "Morocco activities", "Morocco bucket list", "what to do in Morocco", "Morocco experiences"],
-    seoTitle: "15 Best Things to Do in Morocco \u2014 Ranked and Priced",
+    seoTitle: "15 Best Things to Do in Morocco",
     seoDescription:
       "The fifteen experiences worth planning a Morocco trip around: Sahara camel treks, Toubkal, Chefchaouen, hammams, cooking classes and surf.",
     relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
@@ -7903,7 +7903,7 @@ If cost is the deciding factor, the [shared departure guide](/en/blog/shared-gro
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["shared tours Morocco", "group tours Morocco", "budget Morocco tours", "cheap Morocco tours", "daily departures Marrakech"],
-    seoTitle: "Shared Group Tours Morocco \u2014 Real Prices from \u20ac30",
+    seoTitle: "Shared Group Tours Morocco",
     seoDescription:
       "What a shared Morocco tour actually costs and includes: Agafay evenings from \u20ac30, Essaouira \u20ac30, Ouzoud \u20ac40.",
     relatedTours: ["shared-merzouga-3day-marrakech", "shared-agafay-dinner-camel-ride", "shared-essaouira-day-trip", "shared-ouzoud-waterfalls-day-trip", "shared-zagora-2day-marrakech"],
@@ -8004,7 +8004,7 @@ Finally: book direct where you can. Platform commissions run 20\u201330%, and on
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["Moroccan cooking class", "Marrakech cooking class", "tagine class Marrakech", "Morocco food tour", "cooking class Morocco"],
-    seoTitle: "Marrakech Cooking Class \u2014 What You Learn and What It Costs",
+    seoTitle: "Marrakech Cooking Class",
     seoDescription:
       "What a Moroccan cooking class in Marrakech actually involves: the spice souk walk, cooking a tagine from scratch, the mint tea ceremony.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
@@ -8097,7 +8097,7 @@ For what to order once you are eating out on your own, the [Morocco food guide](
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["Morocco festivals", "Gnaoua festival", "Rose Festival Morocco", "Imilchil moussem", "Morocco events calendar"],
-    seoTitle: "Morocco Festivals by Month \u2014 Dates, and Which Ones Move",
+    seoTitle: "Morocco Festivals by Month",
     seoDescription:
       "A month-by-month guide to Moroccan festivals: Gnaoua in Essaouira, the Kelaat M'Gouna rose harvest, the Imilchil moussem, Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
@@ -8218,7 +8218,7 @@ plainly how confident the date is before you book anything.`,
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["Morocco transport", "Morocco trains", "ONCF", "Al Boraq", "getting around Morocco"],
-    seoTitle: "Getting Around Morocco \u2014 Trains, Buses and Real Journey Times",
+    seoTitle: "Getting Around Morocco",
     seoDescription:
       "Morocco transport explained: Al Boraq high-speed rail, ONCF journey times and fares, CTM buses, grands taxis \u2014 and the destinations no train reaches.",
     relatedTours: ["marrakech-to-fes-3day", "marrakech-to-chefchaouen-4day", "marrakech-imperial-cities-5day", "shared-essaouira-day-trip"],
@@ -8359,7 +8359,7 @@ covers when that is worth doing and when it is not.`,
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
-    seoTitle: "Sahara Desert Weather Morocco \u2014 Month by Month Temperatures",
+    seoTitle: "Sahara Desert Weather Morocco",
     seoDescription:
       "Merzouga and Erg Chebbi temperatures month by month: 19\u00b0C in January to 43\u00b0C in July, with nights near freezing in winter.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
@@ -8493,7 +8493,7 @@ dunes and the cost.`,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Sahara", "Erg Chebbi", "trekking", "Morocco"],
-    seoTitle: "8-Day Toubkal and Sahara Tour Cost — 2027 Departures",
+    seoTitle: "8-Day Toubkal and Sahara Tour Cost",
     seoDescription:
       "What the 8-day Toubkal summit and Sahara desert trip costs: €889 per person on set departures, versus €1,413 booking the same ground separately.",
     relatedTours: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "toubkal-summit-trek-4day"],
@@ -8593,7 +8593,7 @@ solo travellers and worth comparing carefully if you are a group of six.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Tibherine", "High Atlas", "history", "Morocco"],
-    seoTitle: "The Tibherine Plane Wreck Above Toubkal — What Happened",
+    seoTitle: "The Tibherine Plane Wreck Above Toubkal",
     seoDescription:
       "A Lockheed Constellation struck Tibherine East at 3,880 m in November 1969, carrying ammunition to Biafra. The wreck was not found for eight months.",
     relatedTours: ["toubkal-summit-trek-4day", "morocco-highlights-toubkal-sahara-8day", "toubkal-circuit-ifni-lake-6day"],
@@ -8691,7 +8691,7 @@ Park, so this is not a route to attempt alone in any case.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "winter trekking", "High Atlas", "Morocco", "seasons"],
-    seoTitle: "Climbing Toubkal in March — Snow, Kit and Honest Advice",
+    seoTitle: "Climbing Toubkal in March",
     seoDescription:
       "March on Toubkal is still winter above 3,000 m: snow, crampons and an ice axe. What to expect, what you need, and when to choose April instead.",
     relatedTours: ["toubkal-summit-trek-4day", "morocco-highlights-toubkal-sahara-8day", "toubkal-summit-2day-marrakech"],
@@ -8776,7 +8776,7 @@ than it is in July.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Aguelzim", "High Atlas", "trekking", "Morocco"],
-    seoTitle: "3-Day Toubkal Aguelzim Pass Trek — Cost and Route",
+    seoTitle: "3-Day Toubkal Aguelzim Pass Trek",
     seoDescription:
       "What the 3-day Aguelzim pass route up Toubkal costs, how it differs from the standard Mizane valley approach, and who the quieter line suits.",
     relatedTours: ["toubkal-aguelzim-pass-3day", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
@@ -8872,7 +8872,7 @@ solitude; take the valley if this is your first Atlas summit.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Paradise Valley cost", "Paradise Valley price", "Agadir day trip cost", "Paradise Valley Agadir", "Immouzer waterfalls"],
-    seoTitle: "Paradise Valley from Agadir: What It Costs in 2026",
+    seoTitle: "Paradise Valley Cost from Agadir",
     seoDescription:
       "What a Paradise Valley trip from Agadir costs: €38 per person for two, €22 at six. Full breakdown of transport, guide and the Immouzer detour.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
@@ -8962,7 +8962,7 @@ the walk itself is like.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Merzouga tour cost", "3 day desert tour price", "Erg Chebbi cost", "Merzouga price", "Sahara tour cost"],
-    seoTitle: "3-Day Merzouga Desert Tour Cost: Shared vs Private",
+    seoTitle: "3-Day Merzouga Desert Tour Cost",
     seoDescription:
       "What a 3-day Merzouga desert tour costs in 2026: €120 per person shared from Marrakech, €366 each private for two. What the difference buys.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-3day-agadir", "merzouga-stargazing-desert-tour"],
@@ -9049,7 +9049,7 @@ what it costs, and at six the difference is small.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Zagora tour cost", "2 day desert tour price", "Zagora price", "cheap Sahara tour", "Marrakech desert tour cost"],
-    seoTitle: "2-Day Zagora Desert Tour Cost from Marrakech (2026)",
+    seoTitle: "2-Day Zagora Desert Tour Cost 2026",
     seoDescription:
       "What a 2-day Zagora desert tour costs: €85 per person shared from Marrakech, €400 each private for two from Agadir. What is included.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
@@ -9120,7 +9120,7 @@ otherwise spend the trip mildly disappointed and it is an expensive way to be.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Erg Chegaga cost", "Chegaga tour price", "remote Sahara Morocco", "Erg Chegaga vs Erg Chebbi", "camel trek cost"],
-    seoTitle: "Erg Chegaga Tour Cost: Why the Remote Dunes Cost More",
+    seoTitle: "Erg Chegaga Tour Cost",
     seoDescription:
       "What an Erg Chegaga tour costs: €635 per person for two on a private 3-day trip, €281 at five. Why Morocco's remote sand sea costs more.",
     relatedTours: ["erg-chegaga-3day-marrakech", "chegaga-camel-trek-8day", "shared-zagora-2day-marrakech"],
@@ -9204,7 +9204,7 @@ this one.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Ouzoud cost", "Ouzoud waterfalls price", "Marrakech day trip cost", "Ouzoud day trip", "Morocco waterfalls"],
-    seoTitle: "Ouzoud Waterfalls Day Trip Cost from Marrakech (2026)",
+    seoTitle: "Ouzoud Waterfalls Day Trip Cost 2026",
     seoDescription:
       "What an Ouzoud waterfalls day trip costs: €40 per person shared from Marrakech, €38 each private for two. Entry, boat and lunch costs explained.",
     relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
@@ -9283,7 +9283,7 @@ than two and a half, and is a walk rather than a viewpoint.
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     tags: ["Agafay cost", "Agafay desert price", "Marrakech dinner desert", "Agafay camel ride", "Agafay vs Merzouga"],
-    seoTitle: "Agafay Desert Evening Cost from Marrakech (2026)",
+    seoTitle: "Agafay Desert Evening Cost from Marrakech",
     seoDescription:
       "What an Agafay desert evening costs: €30 per person shared with dinner and a camel ride, €94 each private for two. Why Agafay is stone, not sand.",
     relatedTours: ["shared-agafay-dinner-camel-ride", "agafay-desert-sunset", "shared-zagora-2day-marrakech"],
@@ -9353,7 +9353,7 @@ sun is down, even in summer, because there is nothing out there to hold the heat
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["desert camp", "Sahara camp", "Merzouga camp", "Erg Chebbi", "private tent", "desert accommodation"],
-    seoTitle: "What a Sahara Desert Camp Is Really Like — Morocco 2026",
+    seoTitle: "What a Sahara Desert Camp Is Really Like",
     seoDescription:
       "Private tents, shared bathrooms, food, and how cold it gets: an honest look at what a Moroccan desert camp is actually like, from the operator who runs them.",
     relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech"],
@@ -9466,7 +9466,7 @@ The things that go wrong are almost always expectation failures rather than camp
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["booking Morocco tour", "tour deposit", "Morocco travel payment", "tour contract", "booking process"],
-    seoTitle: "How to Book a Morocco Tour Safely — Deposits and Contracts",
+    seoTitle: "How to Book a Morocco Tour Safely",
     seoDescription:
       "What you pay, when you pay it, and what you get in writing first. An honest guide to booking a Morocco tour direct, from a licensed Marrakech operator.",
     relatedTours: ["sahara-3day-marrakech", "toubkal-summit-trek-4day", "desert-4day-marrakech"],
@@ -9584,7 +9584,7 @@ If an operator does all five, you are almost certainly fine. If they resist any 
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["Morocco winter", "Sahara winter", "desert in December", "Morocco in January", "Morocco in February", "winter desert tour"],
-    seoTitle: "Morocco's Sahara in Winter — December to February Guide 2026",
+    seoTitle: "Morocco's Sahara in Winter",
     seoDescription:
       "Winter is the best light and the smallest crowds in the Moroccan Sahara, and the coldest nights. Real temperatures, what to pack, and Atlas pass closures.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech"],
@@ -9714,7 +9714,7 @@ For most people, winter in the Moroccan Sahara is the version of it worth having
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["Morocco for seniors", "older travellers Morocco", "desert tour accessibility", "Morocco with parents", "camel ride alternative"],
-    seoTitle: "Morocco Desert Tours for Older Travellers — An Honest Guide",
+    seoTitle: "Morocco Desert Tours for Older Travellers",
     seoDescription:
       "Is a Sahara tour suitable after 60? Camel alternatives, the real driving distances, choosing between private and shared, and what to ask before booking.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech"],
@@ -10185,7 +10185,7 @@ For the wider picture on trains, buses and internal flights, see our [guide to g
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Rabat", "imperial cities", "Kasbah des Oudayas", "Chellah", "Hassan Tower", "Morocco capital"],
-    seoTitle: "Rabat Travel Guide 2026 — Morocco's Capital, What to See",
+    seoTitle: "Rabat Travel Guide 2026",
     seoDescription:
       "What to see in Rabat: the Kasbah des Oudayas, Hassan Tower, and the Chellah necropolis. Entry fees, hours, and how long the city really needs.",
     relatedTours: ["marrakech-imperial-cities-5day", "agadir-imperial-cities-6day", "casablanca-fes-sahara-marrakech-5day"],
@@ -10338,7 +10338,7 @@ compares trains, buses and private transfers by route.
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Casablanca", "Hassan II Mosque", "Morocco arrival", "Art Deco", "Morocco cities"],
-    seoTitle: "Casablanca Travel Guide 2026 — Is It Worth a Day?",
+    seoTitle: "Casablanca Travel Guide 2026",
     seoDescription:
       "What to see in Casablanca: the Hassan II Mosque, ticket prices and tour times, the Habous quarter, and whether the city is worth a day of your trip.",
     relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day"],
@@ -10487,7 +10487,7 @@ and for what the route costs by group size, our
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Essaouira", "Mogador", "Atlantic coast", "UNESCO Morocco", "kitesurfing Morocco", "Gnaoua festival"],
-    seoTitle: "Essaouira Travel Guide 2026 — What to See and When to Go",
+    seoTitle: "Essaouira Travel Guide 2026",
     seoDescription:
       "Essaouira's medina, ramparts and port, the wind that defines the town, when to visit, and whether a day trip is enough or you should stay.",
     relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],

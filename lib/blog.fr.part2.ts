@@ -17,9 +17,9 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["voyage en solo au féminin", "sécurité au Maroc", "voyage de femmes au Maroc", "que porter au Maroc", "Marrakech en solo"],
-    seoTitle: "Voyager seule au Maroc : guide honnête de sécurité 2026",
+    seoTitle: "Voyager seule au Maroc",
     seoDescription:
-      "Le Maroc est-il sûr pour les femmes voyageant seules ? Un guide honnête : la nature réelle du harcèlement, comment s'habiller, les hammams, les taxis, et les stratégies qui réduisent les tracas — par un opérateur marocain.",
+      "Le Maroc est-il sûr pour les femmes voyageant seules ? Un guide honnête : la nature réelle du harcèlement, comment s'habiller, les hammams, les taxis.",
     relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-trek-4day", "sahara-3day-marrakech"],
     faq: [
       {
@@ -136,9 +136,9 @@ Des questions sur un itinéraire précis ou une inquiétude particulière ? [Con
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["itinéraire au Maroc", "7 jours au Maroc", "préparer son voyage au Maroc", "premier voyage au Maroc", "combien de temps au Maroc"],
-    seoTitle: "Combien de jours faut-il pour le Maroc ? Itinéraires de 5, 7 et 10 jours",
+    seoTitle: "Combien de jours faut-il pour le Maroc ?",
     seoDescription:
-      "7 jours suffisent-ils pour le Maroc ? Des itinéraires honnêtes pour 5, 7 et 10 jours — ce qui rentre, ce qui ne rentre pas, et pourquoi la boucle Marrakech-Sahara-Fès l'emporte sur un itinéraire dispersé.",
+      "7 jours suffisent-ils pour le Maroc ? Des itinéraires honnêtes pour 5, 7 et 10 jours — ce qui rentre, ce qui ne rentre pas.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
     faq: [
       {
@@ -258,8 +258,8 @@ Si vous nous indiquez vos dates et ce qui compte réellement pour vous, nous esq
     updatedAt: "2026-07-18",
     weatherRegion: "High Atlas",
     tags: ["météo du Toubkal", "quand grimper le Toubkal", "Haut Atlas", "conditions au Toubkal", "trekking au Maroc", "meilleure période Toubkal"],
-    seoTitle: "La météo du Toubkal mois par mois : quand grimper le Jbel Toubkal",
-    seoDescription: "La météo mois par mois sur le mont Toubkal, du manteau neigeux du plein hiver à la fenêtre stable de l'automne, avec les conditions en direct dans la vallée et l'équipement à prévoir selon la saison.",
+    seoTitle: "La météo du Toubkal mois par mois",
+    seoDescription: "La météo mois par mois sur le mont Toubkal, du manteau neigeux du plein hiver à la fenêtre stable de l'automne.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "Quel temps fait-il sur le mont Toubkal ?", a: "Bien plus froid qu'à Marrakech. Le sommet culmine à 4 167 mètres, soit environ 3 700 mètres au-dessus de la ville, et la température chute d'environ 6 à 10 °C tous les 1 000 mètres d'ascension. Une journée de printemps douce dans la vallée peut se traduire par un froid proche de zéro au sommet, avant même de compter le refroidissement éolien." },
@@ -363,7 +363,7 @@ Une fois vos dates choisies : notre [trek du sommet du Toubkal en 4 jours](/fr/t
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["difficulté du Toubkal", "le Toubkal est-il difficile", "Toubkal pour débutants", "Haut Atlas", "trekking au Maroc"],
-    seoTitle: "Le Toubkal est-il difficile ? Un guide de difficulté honnête",
+    seoTitle: "Le Toubkal est-il difficile ?",
     seoDescription: "Un débutant peut-il grimper le Jbel Toubkal, ce qu'exige réellement la journée du sommet, comment l'altitude l'affecte, et l'entraînement qui aide vraiment.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-aguelzim-pass-3day"],
     faq: [
@@ -458,8 +458,8 @@ C'est précisément ce que fait notre [trek du sommet du Toubkal en 4 jours](/fr
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["itinéraire du Toubkal", "Toubkal en 2 jours", "Toubkal en 4 jours", "combien de jours pour le Toubkal", "Haut Atlas"],
-    seoTitle: "Le Toubkal en 2 jours ou en 4 : quel trek réserver ?",
-    seoDescription: "Une comparaison franche des treks de 2 et 4 jours vers le Toubkal — acclimatation, durée de la journée du sommet, à qui chacun convient, et quand le trip plus long en vaut la peine.",
+    seoTitle: "Le Toubkal en 2 jours ou en 4",
+    seoDescription: "Une comparaison franche des treks de 2 et 4 jours vers le Toubkal — acclimatation, durée de la journée du sommet, à qui chacun convient.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Combien de jours faut-il pour grimper le Toubkal ?", a: "Deux jours représentent le minimum pratique depuis Marrakech et cela fonctionne pour des randonneurs en forme. Quatre jours, c'est ce que nous recommandons pour la plupart des gens, car le temps supplémentaire sert à s'acclimater plutôt qu'à marcher davantage, et c'est le facteur qui influence le plus le fait d'atteindre le sommet en se sentant bien." },
@@ -537,8 +537,8 @@ Pour en savoir plus sur ce que le trek exige physiquement, voir [Le Toubkal est-
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["Agafay", "Merzouga", "Zagora", "désert marocain", "Sahara depuis Marrakech", "comparaison des déserts"],
-    seoTitle: "Agafay, Merzouga ou Zagora : quel désert depuis Marrakech ?",
-    seoDescription: "Une comparaison honnête des trois options désertiques du Maroc depuis Marrakech — désert de pierre contre vraies dunes, le nombre de jours nécessaires pour chacun, et lequel convient à votre voyage.",
+    seoTitle: "Agafay, Merzouga ou Zagora",
+    seoDescription: "Une comparaison honnête des trois options désertiques du Maroc depuis Marrakech — désert de pierre contre vraies dunes.",
     relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech", "sahara-3day-marrakech"],
     faq: [
       { q: "Agafay est-il un vrai désert ?", a: "C'est un vrai désert, mais de pierre plutôt que de sable. Agafay est un paysage rocailleux et lunaire à environ 40 minutes de Marrakech, sans dunes à proprement parler. C'est réellement magnifique au coucher du soleil, mais si vous imaginez de hautes dunes de sable, c'est Merzouga, et c'est bien plus loin." },
@@ -624,7 +624,7 @@ L'erreur à éviter est de réserver Agafay en s'attendant au Sahara. C'est un e
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "dunes du Sahara", "désert marocain"],
-    seoTitle: "Erg Chebbi ou Erg Chegaga : quelles dunes du Sahara ?",
+    seoTitle: "Erg Chebbi ou Erg Chegaga",
     seoDescription: "La différence entre les deux grandes mers de sable du Maroc — hauteur des dunes, accès, affluence et coût — et comment choisir entre Merzouga et l'Erg Chegaga.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "erg-chegaga-3day-agadir"],
     faq: [
@@ -692,8 +692,8 @@ Pour comparer ces options avec les alternatives plus courtes proches de Marrakec
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["Marrakech contre Agadir", "base au Maroc", "où loger au Maroc", "Agadir", "Marrakech"],
-    seoTitle: "Marrakech ou Agadir : quelle base pour votre voyage au Maroc ?",
-    seoDescription: "Marrakech ou Agadir comme base — ce que chacune met à votre portée, en quoi elles diffèrent en caractère et en climat, et laquelle convient le mieux aux montagnes, au désert, à la côte ou aux familles.",
+    seoTitle: "Marrakech ou Agadir",
+    seoDescription: "Marrakech ou Agadir comme base — ce que chacune met à votre portée, en quoi elles diffèrent en caractère et en climat.",
     relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "paradise-valley-agadir", "sahara-2day-agadir"],
     faq: [
       { q: "Marrakech ou Agadir est-elle meilleure pour un premier voyage au Maroc ?", a: "Marrakech, pour la plupart des gens. Elle met à portée les montagnes de l'Atlas, les itinéraires désertiques classiques et la médina historique, et c'est la base naturelle pour les voyages que les visiteurs viennent chercher au Maroc. Agadir est le meilleur choix si vous voulez spécifiquement la plage, le surf et un rythme plus calme." },
@@ -770,8 +770,8 @@ Si votre voyage est fixé en plein été, cela seul peut trancher la décision. 
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["trekking au Maroc", "trek de plusieurs jours", "M'Goun", "lac Ifni", "Anti-Atlas", "Haut Atlas"],
-    seoTitle: "Les meilleurs treks de plusieurs jours au Maroc (au-delà du Toubkal)",
-    seoDescription: "Quatre treks marocains de plusieurs jours au-delà de l'itinéraire standard du Toubkal — le circuit du lac Ifni, la traversée du M'Goun, l'Anti-Atlas et le défi des trois sommets.",
+    seoTitle: "Meilleurs treks au Maroc",
+    seoDescription: "Quatre treks marocains de plusieurs jours au-delà de l'itinéraire standard du Toubkal — le circuit du lac Ifni, la traversée du M'Goun.",
     relatedTours: ["toubkal-circuit-ifni-lake-6day", "mgoun-massif-trek", "anti-atlas-trekking-agadir", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "Quel est le meilleur trek de plusieurs jours au Maroc ?", a: "Pour la plupart des gens disposant d'une semaine, le circuit du Toubkal de six jours avec le lac Ifni — il inclut le sommet plus un terrain que les excursionnistes d'un jour ne voient jamais. Si vous voulez un lieu véritablement tranquille, la traversée du M'Goun de sept jours franchit le second massif du Maroc et voit une fraction du trafic." },
@@ -850,8 +850,8 @@ Pour comparer les itinéraires standards du Toubkal, voir [Le Toubkal en 2 jours
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["Sahara depuis Agadir", "circuit désert Agadir", "Merzouga depuis Agadir", "Zagora", "Erg Chegaga"],
-    seoTitle: "Peut-on visiter le Sahara depuis Agadir ? Oui, avec des réserves",
-    seoDescription: "Les circuits désertiques depuis Agadir expliqués — pourquoi le Sahara n'est pas une excursion d'une journée, et comment se comparent les itinéraires de deux, trois et quatre jours vers Zagora, Merzouga et l'Erg Chegaga.",
+    seoTitle: "Peut-on visiter le Sahara depuis Agadir ?",
+    seoDescription: "Les circuits désertiques depuis Agadir expliqués — pourquoi le Sahara n'est pas une excursion d'une journée, et comment se comparent les itinéraires de deux.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Peut-on faire une excursion d'une journée dans le Sahara depuis Agadir ?", a: "Non. Les vraies dunes sont trop loin d'Agadir pour qu'une excursion d'une journée ne soit pas presque entièrement composée de route, avec quelques minutes sur place. Quiconque vend un circuit d'un jour dans le Sahara depuis Agadir vous emmène soit ailleurs que dans le Sahara, soit s'attend à ce que cela ne vous dérange pas de passer la journée en véhicule." },
@@ -920,8 +920,8 @@ Pour voir en quoi les champs de dunes eux-mêmes diffèrent, voir [Erg Chebbi ou
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
     tags: ["excursions depuis Agadir", "que faire à Agadir", "Vallée du Paradis", "Taroudant", "Essaouira", "Souss-Massa"],
-    seoTitle: "Les meilleures excursions d'une journée depuis Agadir",
-    seoDescription: "Six excursions d'une journée depuis Agadir qui valent la peine — la Vallée du Paradis, Taroudant, Essaouira, le parc national de Souss-Massa et la côte du surf, avec ce qu'implique réellement chacune.",
+    seoTitle: "Excursions depuis Agadir",
+    seoDescription: "Six excursions d'une journée depuis Agadir qui valent la peine — la Vallée du Paradis, Taroudant, Essaouira, le parc national de Souss-Massa et la côte du surf.",
     relatedTours: ["paradise-valley-agadir", "taroudant-day-trip-agadir", "agadir-to-essaouira-day-trip", "sous-massa-national-park"],
     faq: [
       { q: "Quelle est la meilleure excursion d'une journée depuis Agadir ?", a: "La Vallée du Paradis pour la plupart des visiteurs — une gorge bordée de palmiers avec des vasques naturelles à environ quatre-vingt-dix minutes à l'intérieur des terres, et un véritable changement de décor par rapport à la côte. Taroudant est le meilleur choix si vous voulez une ville historique fortifiée plutôt qu'un paysage." },
@@ -1005,9 +1005,9 @@ Pour les circuits désertiques depuis Agadir, qui nécessitent plus d'une journ�
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["gorges du Todra", "canyon du Todra", "road trip au Maroc", "route du Sahara", "escalade au Maroc"],
-    seoTitle: "Guide des gorges du Todra — Le canyon entre Ouarzazate et Merzouga",
+    seoTitle: "Guide des gorges du Todra",
     seoDescription:
-      "Ce que sont réellement les gorges du Todra, pourquoi chaque circuit désertique de Marrakech à Merzouga s'y arrête, et ce qu'une marche de 30 minutes dans le canyon révèle que la route ne montre pas.",
+      "Ce que sont réellement les gorges du Todra, pourquoi chaque circuit désertique de Marrakech à Merzouga s'y arrête.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
     content: `
 ## Ce que sont réellement les gorges du Todra
@@ -1062,7 +1062,7 @@ Les gorges du Todra sont incluses comme arrêt sur notre [circuit de 3 jours de 
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["vallée du Dadès", "gorges du Dadès", "route des mille kasbahs", "road trip au Maroc", "Ouarzazate"],
-    seoTitle: "Guide de la vallée du Dadès — Kasbahs, gorges et la route du Sahara",
+    seoTitle: "Guide de la vallée du Dadès",
     seoDescription:
       "Ce qu'est la vallée du Dadès, pourquoi on l'appelle la route des mille kasbahs, et ce que l'on voit sur la route entre Ouarzazate et le Sahara.",
     relatedTours: ["erg-chegaga-3day-marrakech", "desert-4day-marrakech", "merzouga-3day-agadir"],
@@ -1131,7 +1131,7 @@ La vallée du Dadès fait partie de l'itinéraire de notre [expédition de 3 jou
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Skoura", "oasis de Skoura", "kasbah", "Ouarzazate", "oasis de palmiers dattiers"],
-    seoTitle: "Guide de l'oasis de Skoura — La palmeraie tranquille à l'est d'Ouarzazate",
+    seoTitle: "Guide de l'oasis de Skoura",
     seoDescription:
       "Ce qu'est l'oasis de Skoura, pourquoi elle vaut le court arrêt entre Ouarzazate et le Dadès, et les kasbahs cachées dans ses palmeraies.",
     relatedTours: ["desert-4day-marrakech"],
@@ -1186,9 +1186,9 @@ Skoura est inclus dans notre [Grand Tour du désert de 4 jours](/fr/tours/desert
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Aït Benhaddou", "Aït Ben Haddou", "UNESCO Maroc", "Ouarzazate", "kasbah", "lieux de tournage au Maroc"],
-    seoTitle: "Guide d'Aït Benhaddou — La kasbah UNESCO près d'Ouarzazate",
+    seoTitle: "Guide d'Aït Benhaddou",
     seoDescription:
-      "Ce qu'est réellement Aït Benhaddou, pourquoi il a servi de décor à des dizaines de films, et ce qu'il faut savoir avant de visiter ce ksar classé au patrimoine mondial de l'UNESCO près d'Ouarzazate.",
+      "Ce qu'est Aït Benhaddou et pourquoi il a servi de décor à des dizaines de films. Ce qu'il faut savoir avant de visiter ce ksar UNESCO.",
     relatedTours: ["desert-4day-marrakech", "merzouga-3day-agadir"],
     content: `
 ## Ce que c'est réellement
@@ -1239,9 +1239,9 @@ Aït Benhaddou se trouve sur la route d'Ouarzazate empruntée par notre [Grand T
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Berbères", "Amazigh", "culture berbère au Maroc", "qui sont les Berbères", "peuples de l'Atlas"],
-    seoTitle: "Qui sont les Berbères ? Un guide écrit par une entreprise guidée par des Amazighs",
+    seoTitle: "Qui sont les Berbères ?",
     seoDescription:
-      "Une introduction à l'identité, la langue et la culture berbères (amazighes) au Maroc, écrite par une famille de guides de montagne berbères — pas un résumé de manuel scolaire.",
+      "Une introduction à l'identité, la langue et la culture berbères (amazighes) au Maroc, écrite par une famille de guides de montagne berbères.",
     relatedTours: ["toubkal-summit-2day-marrakech", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "Dit-on « Berbère » ou « Amazigh » ?", a: "Les deux sont utilisés, et vous entendrez les deux au Maroc. Amazigh (pluriel Imazighen) est le nom que le peuple se donne lui-même, et c'est de plus en plus le terme privilégié dans les contextes formels et officiels — le tamazight est devenu langue officielle du Maroc dans la constitution de 2011. « Berbère » est le terme plus ancien, utilisé historiquement par les étrangers, dérivé de la même racine que « barbare ». Il n'est généralement pas considéré comme offensant dans l'usage touristique courant, et vous verrez les deux mots sur les panneaux routiers, les accréditations de guides et dans cet article, mais Amazigh est le terme le plus précis et le plus respectueux quand vous avez le choix." },
@@ -1295,9 +1295,9 @@ Comprendre cela n'est pas anecdotique — cela change la manière dont un trek s
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qu'est-ce qu'une kasbah", "signification de kasbah", "architecture marocaine", "ksar contre kasbah"],
-    seoTitle: "Qu'est-ce qu'une kasbah ? Sens et différence avec un ksar",
+    seoTitle: "Qu'est-ce qu'une kasbah ?",
     seoDescription:
-      "Une kasbah est un bâtiment fortifié, pas une ville entière. Voici la véritable définition, en quoi elle diffère d'un ksar, d'un riad et d'une médina, et où voir les meilleurs exemples.",
+      "Une kasbah est un bâtiment fortifié, pas une ville entière. Voici la véritable définition, en quoi elle diffère d'un ksar, d'un riad et d'une médina.",
     faq: [
       { q: "Quelle est la différence entre une kasbah et un ksar ?", a: "Une kasbah est un bâtiment fortifié unique — traditionnellement la résidence d'un chef ou d'un gouverneur, avec des murs défensifs et des tours d'angle. Un ksar (pluriel ksour) est un village fortifié entier, composé de nombreux bâtiments de ce type regroupés, généralement entouré d'un mur extérieur. Aït Benhaddou est techniquement un ksar, pas une kasbah unique, même s'il est souvent appelé « la kasbah » de manière informelle." },
       { q: "Une kasbah est-elle la même chose qu'un riad ?", a: "Non. Une kasbah est un bâtiment fortifié et défensif, historiquement présent dans le sud et les régions présahariennes. Un riad est une maison traditionnelle construite autour d'une cour-jardin intérieure, que l'on trouve à l'intérieur des médinas urbaines et bâtie pour la vie domestique, pas pour la défense. Ils répondent à des besoins différents et proviennent de régions différentes du pays, bien que les deux servent aujourd'hui couramment de maisons d'hôtes." },
@@ -1349,9 +1349,9 @@ Certaines kasbahs restaurées fonctionnent désormais comme maisons d'hôtes, of
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qu'est-ce qu'un riad", "signification de riad", "hébergement à Marrakech", "riad contre hôtel"],
-    seoTitle: "Qu'est-ce qu'un riad ? Signification et intérieur",
+    seoTitle: "Qu'est-ce qu'un riad ?",
     seoDescription:
-      "Un riad est une maison traditionnelle construite autour d'un jardin intérieur, pas seulement un terme marketing pour hôtel-boutique. Voici la véritable définition et à quoi s'attendre en y séjournant.",
+      "Un riad est une maison traditionnelle construite autour d'un jardin intérieur, pas seulement un terme marketing pour hôtel-boutique.",
     faq: [
       { q: "Chaque « riad » à Marrakech est-il un vrai riad ?", a: "Non. Le mot est devenu une étiquette marketing accolée à presque toute maison d'hôtes de charme dans une médina marocaine, qu'elle possède ou non la caractéristique définitoire : une cour centrale, traditionnellement avec un jardin ou une fontaine, autour de laquelle s'ouvre chaque pièce. Un vrai riad est entièrement organisé autour de cette cour tournée vers l'intérieur. Si une propriété se dit riad mais est en réalité un bâtiment reconverti donnant sur rue sans cour centrale, elle utilise le mot de façon abusive." },
       { q: "Pourquoi les riads sont-ils tournés vers l'intérieur, sans fenêtres sur rue ?", a: "L'intimité et le climat, dans des proportions à peu près égales. Les maisons marocaines traditionnelles gardaient la vie familiale à l'abri des regards de la rue, si bien que les riads présentent des murs extérieurs vierges ou peu décorés et réservent toute la beauté — carrelage, plâtre sculpté, le jardin — à l'intérieur, tournée vers la cour. La cour fermée modère aussi la température, restant ombragée et fraîche en été." },
@@ -1404,9 +1404,9 @@ Parce que « riad » évoque désormais boutique et traditionnel pour les voyage
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["faits sur le désert du Sahara", "taille du Sahara", "Erg Chebbi", "dunes de Merzouga", "Sahara Maroc"],
-    seoTitle: "Faits sur le désert du Sahara — Taille, âge, et ce qui est réellement vrai",
+    seoTitle: "Faits sur le désert du Sahara",
     seoDescription:
-      "Les vrais faits derrière le désert du Sahara que vous visiterez depuis le Maroc — sa taille réelle, comment les dunes de l'Erg Chebbi se comparent, et ce que les guides touristiques ont souvent tendance à mal présenter.",
+      "Les vrais faits derrière le désert du Sahara que vous visiterez depuis le Maroc — sa taille réelle, comment les dunes de l'Erg Chebbi se comparent.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
     faq: [
       { q: "Quelle est la taille réelle du Sahara ?", a: "Environ 9,2 millions de kilomètres carrés — à peu près la taille des États-Unis, ou légèrement plus grand que toute l'Europe. C'est le plus grand désert chaud du monde (l'Antarctique et l'Arctique, tous deux des déserts froids, sont plus vastes) et il couvre la majeure partie de l'Afrique du Nord, de la côte atlantique à la mer Rouge." },
@@ -1457,9 +1457,9 @@ Des chiffres sur une page ne transmettent pas vraiment ce que ressent une mer de
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["carte SIM au Maroc", "eSIM Maroc", "Maroc Telecom", "Orange Maroc", "Inwi", "forfait data Maroc"],
-    seoTitle: "Meilleure carte SIM au Maroc pour les touristes 2026 — Quel opérateur, et pourquoi",
+    seoTitle: "Meilleure carte SIM au Maroc 2026",
     seoDescription:
-      "Quel opérateur mobile marocain choisir en tant que touriste, pourquoi la couverture dans l'Atlas et le Sahara compte plus que dans les villes, et comment acheter une SIM à l'arrivée.",
+      "Quel opérateur mobile marocain choisir en tant que touriste, pourquoi la couverture dans l'Atlas et le Sahara compte plus que dans les villes.",
     faq: [
       { q: "Quel opérateur a la meilleure couverture en dehors des villes ?", a: "Maroc Telecom (marque IAM) a généralement la couverture rurale, montagnarde et désertique la plus solide, car il a hérité de l'ancienne infrastructure de télécommunication d'État et a le plus investi dans les stations de base éloignées. Si votre voyage inclut plusieurs jours de trekking dans le Haut Atlas ou un circuit désertique vers Merzouga ou Zagora, cet avantage de couverture compte plus que les comparaisons de vitesse en centre-ville." },
       { q: "Peut-on acheter une SIM à l'aéroport ?", a: "Oui. Maroc Telecom, Orange et Inwi tiennent tous des kiosques dans les principaux aéroports internationaux du Maroc (Marrakech, Casablanca, Agadir, Fès, Tanger), ouverts pour les vols à l'arrivée. Vous aurez besoin de votre passeport — l'enregistrement de la SIM est obligatoire et prend quelques minutes au comptoir." },
@@ -1511,9 +1511,9 @@ Si votre voyage inclut du trekking de plusieurs jours ou un circuit désertique 
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["liste de bagages désert", "bagages Sahara", "que mettre désert Maroc", "équipement Merzouga", "nuit en camp désertique"],
-    seoTitle: "Que mettre dans son sac pour un circuit désertique au Maroc — La vraie liste",
+    seoTitle: "Quoi emporter : circuit désertique au Maroc",
     seoDescription:
-      "Tout ce qu'il faut réellement emporter sur un circuit désertique depuis Marrakech ou Agadir — chaleur du jour, froid de la nuit, sable, et les petits objets que chaque guide souhaiterait voir dans les bagages de ses clients.",
+      "Tout ce qu'il faut réellement emporter sur un circuit désertique depuis Marrakech ou Agadir — chaleur du jour, froid de la nuit, sable.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
     content: `
 ## L'erreur numéro un que tout le monde commet
@@ -1577,9 +1577,9 @@ Certains de nos itinéraires — le [Grand Tour du désert de 4 jours](/fr/tours
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Ramadan au Maroc", "Maroc Ramadan 2026", "visiter le Maroc pendant le Ramadan", "étiquette de voyage au Maroc"],
-    seoTitle: "Visiter le Maroc pendant le Ramadan 2026 — Un guide pratique",
+    seoTitle: "Visiter le Maroc pendant le Ramadan 2026",
     seoDescription:
-      "Ce qui change au Maroc pendant le Ramadan (18 février – 19 mars 2026) : horaires des restaurants, manger le jour en tant que visiteur, et à quoi ressemblent réellement les circuits et treks.",
+      "Ce qui change au Maroc pendant le Ramadan (18 février – 19 mars 2026) : horaires des restaurants, manger le jour en tant que visiteur.",
     faq: [
       { q: "Les touristes peuvent-ils manger et boire en public pendant le Ramadan ?", a: "Il n'existe aucune loi contre cela, et les hôtels et restaurants touristiques servent généralement de la nourriture toute la journée. L'attente porte sur la discrétion, pas l'abstinence : manger ouvertement en terrasse de café dans une petite ville a plus de chances d'attirer l'attention que manger à l'intérieur d'un restaurant ou de son riad. Dans les zones touristiques de Marrakech, ce n'est presque jamais un problème." },
       { q: "Les restaurants sont-ils ouverts la journée pendant le Ramadan ?", a: "De nombreux restaurants locaux du quotidien ferment durant les heures de jour et rouvrent après le coucher du soleil. Les hôtels et restaurants internationaux destinés aux touristes restent généralement ouverts toute la journée, quoique dans une ambiance plus calme. Attendez-vous à un ralentissement du service juste autour du coucher du soleil (iftar), quand le personnel s'arrête pour rompre son propre jeûne." },
@@ -1689,9 +1689,9 @@ Si vous hésitez encore sur l'itinéraire, cette géographie compte davantage qu
     publishedAt: "2026-07-26",
     updatedAt: "2026-07-26",
     tags: ["Souss-Massa", "Agadir", "birdwatching", "bald ibis", "wildlife Morocco", "flamingos"],
-    seoTitle: "Parc national de Souss-Massa — Excursion ornithologique depuis Agadir",
+    seoTitle: "Parc national de Souss-Massa",
     seoDescription:
-      "Guide complet du parc national de Souss-Massa près d'Agadir : l'ibis chauve menacé, les flamants roses de l'estuaire de la Massa, quand y aller et comment le visiter en une journée.",
+      "Guide complet du parc national de Souss-Massa près d'Agadir : l'ibis chauve menacé, les flamants roses de l'estuaire de la Massa.",
     relatedTours: ["sous-massa-national-park", "paradise-valley-agadir", "souss-valley-cultural-tour"],
     content: `
 ## Une côte sauvage juste au sud des stations balnéaires
@@ -1734,9 +1734,9 @@ Souss-Massa s'associe naturellement aux autres excursions à la journée au dép
     publishedAt: "2026-07-26",
     updatedAt: "2026-07-26",
     tags: ["Taroudant", "Agadir", "Souss Valley", "ramparts", "Berber market", "culture Morocco"],
-    seoTitle: "Excursion à Taroudant depuis Agadir — Remparts, souks et le Souss",
+    seoTitle: "Excursion à Taroudant depuis Agadir",
     seoDescription:
-      "Pourquoi Taroudant vaut une journée depuis Agadir : des remparts du XVIe siècle intacts, deux souks berbères authentiques, des tanneries et l'oasis de Tiout. Que voir et comment organiser la visite.",
+      "Pourquoi Taroudant vaut une journée depuis Agadir : des remparts du XVIe siècle intacts, deux souks berbères authentiques, des tanneries et l'oasis de Tiout.",
     relatedTours: ["taroudant-day-trip-agadir", "souss-valley-cultural-tour", "sous-massa-national-park"],
     content: `
 ## La ville derrière les murs
@@ -1777,9 +1777,9 @@ Taroudant se trouve en plein cœur du Souss et s'associe donc naturellement aux 
     publishedAt: "2026-07-26",
     updatedAt: "2026-07-26",
     tags: ["argan oil", "Souss Valley", "Agadir", "Berber cooperative", "Amazigh culture", "honey"],
-    seoTitle: "Huile d'argan et vallée du Souss — Journée culturelle depuis Agadir",
+    seoTitle: "Huile d'argan et vallée du Souss",
     seoDescription:
-      "D'où vient vraiment l'huile d'argan : une journée culturelle dans la vallée du Souss depuis Agadir — coopératives de femmes, pressage à la main, villages du miel et déjeuner en famille berbère.",
+      "D'où vient vraiment l'huile d'argan : une journée culturelle dans la vallée du Souss depuis Agadir — coopératives de femmes, pressage à la main.",
     relatedTours: ["souss-valley-cultural-tour", "taroudant-day-trip-agadir", "paradise-valley-agadir"],
     content: `
 ## Un arbre qui ne pousse presque nulle part ailleurs
@@ -1816,9 +1816,9 @@ L'argan et le Souss se marient à merveille avec les autres journées de l'inté
     publishedAt: "2026-07-26",
     updatedAt: "2026-07-26",
     tags: ["UNESCO Morocco", "film locations", "Ait Ben Haddou", "Gladiator", "Game of Thrones", "Ouarzazate", "Essaouira"],
-    seoTitle: "Sites UNESCO du Maroc et lieux de tournage — Gladiator, Game of Thrones et plus",
+    seoTitle: "Sites UNESCO du Maroc et lieux de tournage",
     seoDescription:
-      "Guide des sites du patrimoine mondial de l'UNESCO au Maroc utilisés comme lieux de tournage — Aït Ben Haddou (Gladiator, Game of Thrones), les studios Atlas de Ouarzazate et Essaouira (Astapor). Comment les visiter.",
+      "Guide des sites du patrimoine mondial de l'UNESCO au Maroc utilisés comme lieux de tournage — Aït Ben Haddou (Gladiator, Game of Thrones).",
     relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "agadir-to-essaouira-day-trip"],
     content: `
 ## Là où le patrimoine mondial rencontre le grand écran
@@ -1879,9 +1879,9 @@ Deux des sites cités ci-dessus ont leur propre guide : [Volubilis](/fr/blog/vol
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Toubkal 2 days", "climb Toubkal", "Toubkal summit", "2 day Toubkal trek", "High Atlas", "Imlil", "Toubkal from Marrakech"],
-    seoTitle: "Comment gravir le Toubkal en 2 jours depuis Marrakech | Marrakech Eco Tours",
+    seoTitle: "Gravir le Toubkal en 2 jours | Marrakech Eco Tours",
     seoDescription:
-      "L'ascension du Toubkal en 2 jours depuis Marrakech, expliquée : le programme précis, à qui elle convient, le risque lié à l'altitude, l'équipement, et quand choisir plutôt le trek de 4 jours. Réservez l'itinéraire express.",
+      "L'ascension du Toubkal en 2 jours depuis Marrakech, expliquée : le programme précis, à qui elle convient, le risque lié à l'altitude, l'équipement.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Peut-on vraiment gravir le Toubkal en 2 jours ?", a: "Oui. L'itinéraire classique de 2 jours part en voiture de Marrakech vers Imlil, monte au refuge du Toubkal (3 207 m) le premier jour, puis atteint le sommet du Jbel Toubkal (4 167 m) avant l'aube le second jour, avant de redescendre jusqu'à Marrakech le soir même. C'est la manière la plus rapide et réaliste d'atteindre le sommet, et c'est précisément ce autour de quoi est construit notre [circuit ascension du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech). La contrepartie, c'est qu'il n'y a pas de journée d'acclimatation supplémentaire." },
@@ -1946,9 +1946,9 @@ Si vous êtes en forme, pressé, et que vous voulez le sommet sans une semaine e
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Paradise Valley", "best time to visit Paradise Valley", "Paradise Valley Agadir", "Immouzer", "Morocco travel"],
-    seoTitle: "Meilleure période pour visiter Paradise Valley, Maroc (guide mensuel)",
+    seoTitle: "Quand visiter Paradise Valley, Maroc",
     seoDescription:
-      "Quand visiter Paradise Valley près d'Agadir : les meilleurs mois pour des vasques pleines et la baignade, les périodes les plus fréquentées, et quand les cascades coulent. Guide honnête saison par saison.",
+      "Quand visiter Paradise Valley près d'Agadir : les meilleurs mois pour des vasques pleines et la baignade, les périodes les plus fréquentées.",
     relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "sous-massa-national-park"],
     faq: [
       { q: "Quel est le meilleur mois pour visiter Paradise Valley ?", a: "De mars à juin, c'est la période idéale : les pluies d'hiver ont rempli les vasques, l'eau est baignable, et ce n'est pas encore l'affluence de plein été. Notre [excursion d'une journée à Paradise Valley depuis Agadir](/fr/tours/paradise-valley-agadir) fonctionne toute l'année, mais le printemps est le moment où la vallée est la plus belle." },
@@ -2005,9 +2005,9 @@ Quel que soit le mois, y aller avec un guide local vous évite le stationnement 
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Paradise Valley swimming", "Paradise Valley pools", "Paradise Valley Agadir", "Morocco swimming", "Immouzer"],
-    seoTitle: "Se baigner à Paradise Valley : vasques, sécurité et conseils",
+    seoTitle: "Se baigner à Paradise Valley",
     seoDescription:
-      "Un guide pratique pour se baigner à Paradise Valley près d'Agadir : quelles vasques rocheuses choisir, est-il sûr de sauter, quoi apporter, et comment trouver l'eau tranquille.",
+      "Un guide pratique pour se baigner à Paradise Valley près d'Agadir : quelles vasques rocheuses choisir, est-il sûr de sauter, quoi apporter.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
     faq: [
       { q: "Peut-on se baigner à Paradise Valley ?", a: "Oui — les vasques rocheuses alimentées par des sources sont la principale raison de la visite, et elles gardent l'eau toute l'année. Les vasques les plus populaires se trouvent à une courte marche du point d'accès principal ; notre [excursion à Paradise Valley](/fr/tours/paradise-valley-agadir) vous emmène aux bons coins de baignade plutôt qu'à la première vasque bondée." },
@@ -2061,9 +2061,9 @@ S'y rendre implique un trajet vers l'intérieur des terres depuis Agadir, du sta
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Paradise Valley from Agadir", "Agadir day trips", "Paradise Valley", "Immouzer", "how to get to Paradise Valley"],
-    seoTitle: "Paradise Valley depuis Agadir : comment s'y rendre (2026)",
+    seoTitle: "Paradise Valley depuis Agadir",
     seoDescription:
-      "Comment aller d'Agadir à Paradise Valley : distance, conduite, taxi ou circuit organisé, combien de temps y passer, et quoi combiner avec. Guide pratique d'excursion.",
+      "Comment aller d'Agadir à Paradise Valley : distance, conduite, taxi ou circuit organisé, combien de temps y passer, et quoi combiner avec.",
     relatedTours: ["paradise-valley-agadir", "agadir-surf-lesson", "agadir-to-essaouira-day-trip"],
     faq: [
       { q: "À quelle distance se trouve Paradise Valley d'Agadir ?", a: "Paradise Valley est à environ 60 km au nord-est d'Agadir, près d'Immouzer des Ida Outanane — à peu près 1 h 30 par la route, car le dernier tronçon est une route de montagne sinueuse plutôt qu'une voie rapide. Notre [excursion à Paradise Valley depuis Agadir](/fr/tours/paradise-valley-agadir) couvre le trajet dans les deux sens." },
@@ -2113,9 +2113,9 @@ Si vous avez plus de jours autour d'Agadir, la vallée s'intègre bien à d'autr
     publishedAt: "2026-07-24",
     updatedAt: "2026-07-24",
     tags: ["Paradise Valley from Marrakech", "Paradise Valley", "Marrakech day trips", "Agadir", "Morocco itinerary"],
-    seoTitle: "Peut-on visiter Paradise Valley depuis Marrakech ? (réponse honnête)",
+    seoTitle: "Paradise Valley depuis Marrakech",
     seoDescription:
-      "Paradise Valley est-elle une excursion réaliste depuis Marrakech ? La distance et le timing honnêtes, pourquoi Agadir est la bonne base, et les meilleures alternatives près de Marrakech.",
+      "Paradise Valley est-elle une excursion réaliste depuis Marrakech ? La distance et le timing honnêtes, pourquoi Agadir est la bonne base.",
     relatedTours: ["paradise-valley-agadir", "ourika-valley-day-hike", "ouzoud-waterfalls-day-trip"],
     faq: [
       { q: "Peut-on faire Paradise Valley en excursion d'une journée depuis Marrakech ?", a: "Pas vraiment. Paradise Valley est près d'Agadir, à environ 3 h 30 de route de Marrakech dans chaque sens — donc un aller-retour dans la journée représenterait environ 7 heures de voiture pour quelques heures aux vasques. Cela n'a de sens que si vous allez déjà à Agadir ou y passez. Depuis Marrakech, la [vallée de l'Ourika](/fr/tours/ourika-valley-day-hike) ou les [cascades d'Ouzoud](/fr/tours/ouzoud-waterfalls-day-trip) en sont les équivalents naturels." },
@@ -2164,9 +2164,9 @@ Vous voulez précisément Paradise Valley ? Faites-la depuis Agadir. Basé à Ma
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["7 day morocco itinerary", "morocco itinerary", "one week in morocco", "morocco from marrakech", "morocco route", "morocco 7 days"],
-    seoTitle: "L'itinéraire parfait de 7 jours au Maroc depuis Marrakech (2026)",
+    seoTitle: "Itinéraire 7 jours au Maroc de Marrakech",
     seoDescription:
-      "Un itinéraire pratique de 7 jours au Maroc depuis Marrakech : la médina, le Haut Atlas et une nuit dans le Sahara — jour par jour, avec des horaires honnêtes et comment le réserver.",
+      "Un itinéraire pratique de 7 jours au Maroc depuis Marrakech : la médina, le Haut Atlas et une nuit dans le Sahara — jour par jour.",
     relatedTours: ["sahara-3day-marrakech", "marrakech-medina-cultural-tour", "ourika-valley-day-hike"],
     faq: [
       { q: "7 jours suffisent-ils pour le Maroc ?", a: "Sept jours suffisent pour faire une région correctement — et la boucle classique pour un premier voyage relie Marrakech, le Haut Atlas et le Sahara. Ce n'est pas assez pour ajouter aussi Fès et le nord sans passer la semaine sur la route. Cet itinéraire s'articule autour de Marrakech comme base unique pour les excursions, puis d'une escapade de deux nuits dans le désert, pour voir une vraie variété sans conduite épuisante. Avec plus de temps, notre [itinéraire de 10 jours au Maroc](/fr/blog/10-day-morocco-itinerary) ajoute Fès et les villes impériales." },
@@ -2242,9 +2242,9 @@ C'est un modèle, pas une règle. Les familles le ralentissent et remplacent les
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
-    seoTitle: "Itinéraire de 10 jours au Maroc : villes, désert et montagnes (2026)",
+    seoTitle: "Itinéraire de 10 jours au Maroc",
     seoDescription:
-      "Un itinéraire complet de 10 jours au Maroc reliant Marrakech, le Sahara, Fès et le Haut Atlas — jour par jour, avec des temps de route réalistes, les meilleurs arrêts et comment le réserver.",
+      "Un itinéraire complet de 10 jours au Maroc reliant Marrakech, le Sahara, Fès et le Haut Atlas — jour par jour, avec des temps de route réalistes.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
     faq: [
       { q: "Dix jours suffisent-ils pour voir le Maroc ?", a: "Dix jours, c'est la durée idéale pour un premier voyage complet : assez pour relier les deux grandes villes impériales (Marrakech et Fès) à une vraie nuit au Sahara et du temps dans le Haut Atlas, sans vivre dans la voiture. C'est la durée que nous recommandons le plus souvent. Avec seulement sept jours, vous laisseriez de côté Fès et le nord — voyez notre [itinéraire de 7 jours au Maroc](/fr/blog/7-day-morocco-itinerary) — et avec deux semaines, vous ajouteriez la côte atlantique et un vrai trek." },
@@ -2318,9 +2318,9 @@ C'est la boucle classique, mais la meilleure version est celle façonnée autour
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["nila", "indigo Morocco", "blue men of the desert", "Tuareg blue", "Moroccan blue dye", "Sahara culture"],
-    seoTitle: "Le nila : le bleu du Maroc expliqué (et comment ne pas se tacher)",
+    seoTitle: "Le nila : le bleu du Maroc expliqué",
     seoDescription:
-      "Qu'est-ce que le nila, l'indigo derrière les « hommes bleus du désert » du Maroc ? Pourquoi il déteint sur la peau, s'il part au lavage, et comment porter un tagelmust bleu sans se tacher.",
+      "Qu'est-ce que le nila, l'indigo derrière les « hommes bleus du désert » du Maroc ?",
     relatedTours: ["merzouga-stargazing-desert-tour", "sahara-3day-marrakech", "erg-chegaga-3day-marrakech"],
     faq: [
       { q: "Qu'est-ce que le nila au Maroc ?", a: "Le nila est l'indigo profond traditionnellement utilisé pour teindre les robes et les turbans (tagelmust) des Touaregs et d'autres peuples sahariens — d'où leur surnom d'« hommes bleus du désert ». Le vrai nila est un indigo naturel, historiquement si précieux qu'il se troquait comme une monnaie à travers le Sahara. On le vend en bloc dur et sombre ou en poudre dans les souks du sud et les villes du désert comme Merzouga et Rissani." },
@@ -2383,9 +2383,9 @@ Le nila prend tout son sens dehors dans le sable, enroulé contre un vent du dé
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["Moroccan mint tea", "Berber whisky", "atay", "Moroccan tea ceremony", "Morocco culture", "Moroccan hospitality"],
-    seoTitle: "Le thé à la menthe marocain : la cérémonie, le versement en hauteur et l'étiquette",
+    seoTitle: "Le thé à la menthe marocain",
     seoDescription:
-      "Pourquoi le thé à la menthe marocain se verse de haut, ce que signifient « les trois verres », et l'étiquette pour l'accepter (et y survivre). Un guide amusant du rituel national du Maroc.",
+      "Pourquoi le thé à la menthe marocain se verse de haut, ce que signifient « les trois verres », et l'étiquette pour l'accepter (et y survivre).",
     relatedTours: ["marrakech-medina-cultural-tour", "ourika-valley-day-hike", "marrakech-food-market-tour"],
     faq: [
       { q: "Pourquoi verse-t-on le thé à la menthe marocain de si haut ?", a: "Le versement en hauteur spectaculaire n'est pas que du spectacle — il aère le thé, forme une légère mousse (la « couronne ») au sommet de chaque verre, et le refroidit un peu au passage. Un bon serveur lève la théière de plus en plus haut sans renverser une goutte, et oui, c'est en partie du théâtre. Un peu de mousse sur votre verre est considéré comme la marque d'un thé bien versé." },
@@ -2444,9 +2444,9 @@ Le thé n'est jamais vraiment une question de thé. C'est la porte d'entrée ver
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["haggling Morocco", "Moroccan souks", "bargaining Marrakech", "how to haggle Morocco", "Marrakech shopping", "souk tips"],
-    seoTitle: "Comment marchander dans les souks marocains (guide honnête et drôle)",
+    seoTitle: "Comment marchander dans les souks marocains",
     seoDescription:
-      "Comment fonctionne vraiment le marchandage dans les souks du Maroc : la règle du premier prix, l'astuce du thé, le départ simulé, et comment obtenir un bon prix sans stress. Un guide pratique et léger.",
+      "Comment fonctionne vraiment le marchandage dans les souks du Maroc : la règle du premier prix, l'astuce du thé, le départ simulé.",
     relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "marrakech-imperial-cities-5day"],
     faq: [
       { q: "Faut-il marchander au Maroc ?", a: "Dans les souks (les marchés traditionnels), oui — le premier prix annoncé est un point de départ, pas le vrai prix, et le payer sans un mot n'est attendu que de quelqu'un qui ignore le jeu. Dans les boutiques à prix fixe, les supermarchés, les pharmacies et la plupart des cafés et restaurants, non — les prix y sont fixés. Règle générale : s'il n'y a pas d'étiquette et que c'est un objet artisanal, un textile ou un souvenir, c'est négociable." },
@@ -2519,9 +2519,9 @@ Les souks sont éblouissants et, le premier jour, vraiment déroutants — c'est
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["Merzouga", "Erg Chebbi", "Merzouga desert", "Sahara Morocco", "Merzouga travel guide", "desert camp Merzouga"],
-    seoTitle: "Guide de Merzouga : dunes de l'Erg Chebbi, campements et comment visiter",
+    seoTitle: "Guide de Merzouga",
     seoDescription:
-      "Tout ce qu'il faut pour Merzouga et les dunes de l'Erg Chebbi : comment s'y rendre depuis Marrakech ou Fès, le meilleur moment, les campements, les treks à dos de chameau et à quoi ressemble vraiment une nuit au Sahara.",
+      "Tout ce qu'il faut pour Merzouga et les dunes de l'Erg Chebbi : comment s'y rendre depuis Marrakech ou Fès, le meilleur moment, les campements.",
     relatedTours: ["merzouga-3day-agadir", "merzouga-stargazing-desert-tour", "sahara-3day-marrakech"],
     faq: [
       { q: "Où se trouve Merzouga et pourquoi y aller ?", a: "Merzouga est un village du sud-est du Maroc, juste au bord de l'Erg Chebbi — la plus spectaculaire mer de dunes hautes et sculptées par le vent du pays. C'est l'image du « Sahara » que la plupart des voyageurs ont en tête, et la raison pour laquelle on fait le long voyage vers le sud : treks à dos de chameau dans le sable, nuits en campement, et l'un des meilleurs ciels étoilés du Maroc. Notre [circuit désert de Merzouga](/fr/tours/merzouga-stargazing-desert-tour) est construit autour de cela." },
@@ -2590,9 +2590,9 @@ Merzouga mérite sa longue route. Une nuit dans l'Erg Chebbi est, pour beaucoup 
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["Zagora", "Zagora desert", "2 day desert tour", "Sahara from Marrakech", "Draa Valley", "quick desert tour Morocco"],
-    seoTitle: "Guide du désert de Zagora : le circuit Sahara de 2 jours depuis Marrakech",
+    seoTitle: "Guide du désert de Zagora",
     seoDescription:
-      "Le désert de Zagora en vaut-il la peine ? Un guide honnête du voyage Sahara le plus rapide du Maroc depuis Marrakech : la route, les dunes plus petites, une nuit en campement, et sa comparaison avec Merzouga.",
+      "Le désert de Zagora en vaut-il la peine ? Un guide honnête du voyage Sahara le plus rapide du Maroc depuis Marrakech : la route, les dunes plus petites.",
     relatedTours: ["zagora-2day-marrakech", "zagora-2day-agadir", "sahara-2day-agadir"],
     faq: [
       { q: "Le désert de Zagora en vaut-il la peine ?", a: "Si vous n'avez que deux jours, oui — Zagora vous offre une authentique nuit au Sahara (balade à dos de chameau, un campement sous les étoiles, les palmeraies de la vallée du Draa) sans le long trajet jusqu'à Merzouga. Soyez lucide sur le compromis : les dunes de Zagora sont plus petites et moins spectaculaires que les mers de sable de l'Erg Chebbi. Pour une première expérience du désert avec un emploi du temps serré, c'est un excellent choix ; pour les « dunes géantes » de carte postale, il vous faut Merzouga." },
@@ -2658,9 +2658,9 @@ Deux jours, une nuit inoubliable dans le sable, et vous êtes de retour à Marra
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["Ouarzazate", "Ouallywood", "Atlas Studios", "Taourirt Kasbah", "Morocco film locations", "door of the desert"],
-    seoTitle: "Guide de Ouarzazate : studios de cinéma Ouallywood, kasbahs et quoi voir",
+    seoTitle: "Guide de Ouarzazate",
     seoDescription:
-      "Un guide de Ouarzazate, la « porte du désert » du Maroc : les studios de cinéma de l'Atlas (Ouallywood), la kasbah de Taourirt, Aït Ben Haddou tout proche, et comment cela s'inscrit dans un circuit du Sahara depuis Marrakech.",
+      "Un guide de Ouarzazate, la « porte du désert » du Maroc : les studios de cinéma de l'Atlas (Ouallywood), la kasbah de Taourirt, Aït Ben Haddou tout proche.",
     relatedTours: ["sahara-3day-marrakech", "marrakech-to-fes-3day", "merzouga-stargazing-desert-tour"],
     faq: [
       { q: "Pourquoi Ouarzazate est-elle surnommée Ouallywood ?", a: "Ouarzazate est depuis des décennies l'un des lieux de tournage les plus actifs au monde — ses immenses Atlas Studios et les kasbahs et déserts alentour ont incarné l'Égypte antique, Rome, Jérusalem et au-delà dans des films comme Lawrence d'Arabie, Gladiator, Kingdom of Heaven, La Momie et la série Game of Thrones. Le surnom « Ouallywood » est un jeu de mots avec Hollywood. On peut visiter les studios et voir des décors debout de grandes productions." },
@@ -2713,9 +2713,9 @@ Ne bâtissez pas des vacances autour de Ouarzazate — bâtissez-les autour du d
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-01",
     tags: ["prix guide Toubkal", "coût ascension Toubkal", "tarif trek Maroc", "guide de montagne Maroc", "Imlil", "Haut Atlas"],
-    seoTitle: "Combien coûte un guide pour le Toubkal ? Tarifs détaillés 2026",
+    seoTitle: "Prix d'un guide pour le Toubkal 2026",
     seoDescription:
-      "Ce que coûte réellement un guide de montagne agréé au Toubkal en 2026 : tarifs journaliers, facture complète du trek (mule, refuge, repas, parc, transfert), supplément hiver et pourboires.",
+      "Ce que coûte réellement un guide de montagne agréé au Toubkal en 2026 : tarifs journaliers, facture complète du trek (mule, refuge, repas, parc, transfert).",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
     faq: [
       { q: "Combien coûte un guide du Toubkal par jour ?", a: "Un guide de montagne agréé coûte généralement 500 à 800 MAD par jour (environ 46–74 €) engagé directement à Imlil, et ce tarif se partage entre les membres du groupe plutôt que par personne. Les ascensions hivernales se situent en haut de la fourchette, le sommet devenant une course sur neige. Ce tarif ne couvre que le guide — la mule, le refuge en demi-pension, les frais de parc et le transfert sont facturés à part." },
@@ -2869,9 +2869,9 @@ assurez-vous de savoir ce qui est inclus avant de quitter Marrakech.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix Toubkal 2 jours", "coût trek Toubkal", "ascension Toubkal tarif", "week-end Toubkal", "Imlil", "Haut Atlas"],
-    seoTitle: "Prix d'un trek de 2 jours au Toubkal en 2026 — détail complet",
+    seoTitle: "Prix trek de 2 jours au Toubkal en 2026",
     seoDescription:
-      "Ce que coûte vraiment une ascension du Toubkal en 2 jours en 2026 : guide, refuge, mule, frais de parc et transfert détaillés en dirhams, et comparaison avec un forfait à partir de 195 €.",
+      "Ce que coûte vraiment une ascension du Toubkal en 2 jours en 2026 : guide, refuge, mule, frais de parc et transfert détaillés en dirhams.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
     faq: [
       { q: "Combien coûte un trek de 2 jours au Toubkal ?", a: "En vous organisant vous-même, deux personnes dépensent généralement 2 400 à 3 600 MAD au total (environ 225–335 € pour le duo) une fois additionnés le guide, la mule, le refuge en demi-pension, les frais de parc et le transfert depuis Marrakech. Notre [ascension du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € par personne, tout compris." },
@@ -2989,9 +2989,9 @@ Les deux sont légitimes. Choisissez selon le temps que vous voulez consacrer à
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix Toubkal 4 jours", "coût trek Toubkal", "acclimatation Toubkal", "prix trekking Haut Atlas", "Imlil"],
-    seoTitle: "Prix d'un trek de 4 jours au Toubkal en 2026 — guide détaillé",
+    seoTitle: "Prix trek de 4 jours au Toubkal en 2026",
     seoDescription:
-      "Ce que coûte un trek de 4 jours au Toubkal en 2026 : guide, refuges, mule, frais de parc et transfert détaillés en dirhams, et comparaison avec le 2 jours et un forfait à partir de 360 €.",
+      "Ce que coûte un trek de 4 jours au Toubkal en 2026 : guide, refuges, mule, frais de parc et transfert détaillés en dirhams.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Combien coûte un trek de 4 jours au Toubkal ?", a: "En autonomie, deux personnes dépensent généralement 4 200 à 6 000 MAD au total (environ 390–560 € pour le duo) sur quatre jours d'honoraires de guide, trois nuits en refuge en demi-pension, la mule, les frais de parc et le transfert depuis Marrakech. Notre [trek du Toubkal en 4 jours](/fr/tours/toubkal-summit-trek-4day) est à 360 € par personne, tout compris." },
@@ -3103,9 +3103,9 @@ coûte plus cher, mais parce que l'acclimatation est ce qui vous mène au sommet
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix circuit Toubkal", "trek lac d'Ifni", "Toubkal 6 jours", "prix trekking Haut Atlas", "massif du Toubkal"],
-    seoTitle: "Prix du circuit du Toubkal en 6 jours 2026 — lac d'Ifni",
+    seoTitle: "Prix du circuit du Toubkal en 6 jours 2026",
     seoDescription:
-      "Ce que coûte le circuit du Toubkal en 6 jours par le lac d'Ifni en 2026 : guide, mules, refuges, gîtes, bivouac et frais de parc détaillés, et comparaison avec un forfait à partir de 790 €.",
+      "Ce que coûte le circuit du Toubkal en 6 jours par le lac d'Ifni en 2026 : guide, mules, refuges, gîtes, bivouac et frais de parc détaillés.",
     relatedTours: ["toubkal-circuit-ifni-lake-6day", "toubkal-summit-trek-4day", "mgoun-massif-trek"],
     faq: [
       { q: "Combien coûte le circuit du Toubkal en 6 jours ?", a: "En autonomie, deux personnes dépensent généralement 6 000 à 9 000 MAD au total (environ 560–840 € pour le duo) sur six jours d'encadrement, cinq nuits d'hébergement varié, des mules pour le matériel de bivouac, les frais de parc et les transferts. Notre [circuit du Toubkal en 6 jours](/fr/tours/toubkal-circuit-ifni-lake-6day) est à 790 € par personne, tout compris." },
@@ -3211,9 +3211,9 @@ chez les gens qui portent votre matériel par-dessus le col.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix Marrakech Chefchaouen", "circuit ville bleue", "coût road trip Maroc", "Fès Volubilis", "Chefchaouen tarif"],
-    seoTitle: "Prix d'un circuit Marrakech – Chefchaouen 2026 — détail complet",
+    seoTitle: "Prix d'un circuit Marrakech",
     seoDescription:
-      "Ce que coûte un voyage de Marrakech à Chefchaouen en 2026 : transport, riads, guides et retour, comparés à un circuit privé de 4 jours à 313 € via Fès et Volubilis.",
+      "Ce que coûte un voyage de Marrakech à Chefchaouen en 2026 : transport, riads, guides et retour, comparés à un circuit privé.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],
     faq: [
       { q: "Combien coûte un circuit de Marrakech à Chefchaouen ?", a: "Notre [circuit privé de 4 jours](/fr/tours/marrakech-to-chefchaouen-4day) est à 313 € par personne et comprend le transport privé en 4x4, un guide, trois nuits en riad avec petit-déjeuner, et tous les transferts et péages via Fès, Volubilis et Meknès. Organiser le même itinéraire seul — bus ou voiture de location, hébergement et guidage à Fès — aboutit généralement à une fourchette comparable une fois le retour compté." },
@@ -3324,9 +3324,9 @@ Chefchaouen n'est pas le seul itinéraire vers le nord. L'alternative passe par 
     publishedAt: "2026-08-10",
     updatedAt: "2026-08-10",
     tags: ["trek dromadaire Maroc", "caravane Erg Chegaga", "trek Sahara à pied", "bien-être dromadaires Maroc", "désert M'hamid"],
-    seoTitle: "Trek à dromadaire au Maroc 2026 — à quoi ressemble une vraie caravane",
+    seoTitle: "Trek à dromadaire au Maroc 2026",
     seoDescription:
-      "La différence entre une balade à dromadaire au coucher du soleil et une caravane de plusieurs jours dans le Sahara : distances, heures de marche, et comment juger un opérateur sur le bien-être animal.",
+      "La différence entre une balade à dromadaire au coucher du soleil et une caravane de plusieurs jours dans le Sahara : distances, heures de marche.",
     faq: [
       { q: "Monte-t-on à dromadaire pendant tout le trek ?", a: "Non, et tout opérateur qui le promet décrit un autre voyage. Sur une caravane, les dromadaires portent le camp — tentes, eau, nourriture, matériel de cuisine — et le groupe marche à côté. Sur notre [trek de 8 jours à Chegaga](/fr/tours/chegaga-camel-trek-8day), vous marchez cinq à sept heures par jour pendant six jours consécutifs, soit environ 17 km quotidiens. De courtes montées restent possibles, mais la marche est le voyage. La balade d'une à deux heures que la plupart des gens imaginent est un produit différent, inclus dans notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech)." },
       { q: "Quelle distance parcourt-on réellement ?", a: "La nôtre représente environ 83 km à pied sur cinq jours de marche : la vallée du Draa, la hamada du Draa, le passage d'Abbes vers l'Erg Chegaga, puis Bougarne, Oued Naam et la sortie à M'hamid. Un peu moins de 17 km par jour. Cela paraît modeste jusqu'à ce qu'on le fasse dans le sable — terrain plat, aucune altitude, mais c'est la répétition qui fait la difficulté, pas une journée en particulier." },
@@ -3477,9 +3477,9 @@ pas inférieur — il est différent. Réservez celui que vous voulez vraiment.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix circuit Sahara", "Merzouga 3 jours tarif", "prix désert Maroc", "Erg Chebbi", "coût bivouac désert"],
-    seoTitle: "Prix d'un circuit Sahara 3 jours depuis Marrakech 2026",
+    seoTitle: "Prix circuit Sahara 3 jours 2026",
     seoDescription:
-      "Ce que coûte un circuit de 3 jours Marrakech–Merzouga en 2026, ce qui sépare les offres économiques des circuits privés, et les coûts cachés des devis bon marché.",
+      "Ce que coûte un circuit de 3 jours Marrakech–Merzouga en 2026, ce qui sépare les offres économiques des circuits privés.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
     faq: [
       { q: "Combien coûte un circuit de 3 jours dans le Sahara depuis Marrakech ?", a: "Les prix vont d'environ 95 € pour un minibus partagé avec bivouac basique à 380 € pour un 4x4 privé avec campement berbère. Notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) est à 380 € par personne et comprend le transport privé, la balade à dos de chameau au coucher du soleil, une nuit en camp avec dîner et petit-déjeuner, une nuit d'hôtel et un guide du désert." },
@@ -3581,9 +3581,9 @@ cette somme chez les gens qui font tourner le camp.
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix Sahara depuis Agadir", "circuit désert Agadir", "Erg Chegaga", "Foum Zguid", "excursion désert Agadir"],
-    seoTitle: "Prix d'un circuit dans le Sahara depuis Agadir 2026",
+    seoTitle: "Prix circuit Sahara depuis Agadir",
     seoDescription:
-      "Ce que coûte un circuit dans le désert depuis Agadir en 2026 : itinéraires de 2, 3 et 4 jours comparés, pourquoi les circuits d'Agadir vont à l'Erg Chegaga plutôt qu'à Merzouga.",
+      "Ce que coûte un circuit dans le désert depuis Agadir en 2026 : itinéraires de 2, 3 et 4 jours comparés.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Combien coûte un circuit dans le Sahara depuis Agadir ?", a: "Notre [circuit de 2 jours à l'Erg Chegaga](/fr/tours/sahara-2day-agadir) est à 400 € par personne, le [circuit privé de 3 jours](/fr/tours/erg-chegaga-3day-agadir) à 327 €, et le [circuit de 4 jours vers l'Erg Chebbi](/fr/tours/desert-4day-agadir) à 519 €. Le 2 jours est le moins cher par voyage mais implique environ 16 heures de route sur deux jours, donc le coût par heure réellement passée dans les dunes est le plus élevé des trois." },
@@ -3692,9 +3692,9 @@ chameliers. Réserver en direct garde cette somme chez les gens qui font tourner
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-01",
     tags: ["prix circuit désert famille", "Maroc en famille", "Sahara avec enfants", "Erg Chebbi famille", "budget vacances Maroc"],
-    seoTitle: "Prix d'un circuit désert en famille au Maroc 2026",
+    seoTitle: "Prix d'un circuit désert en famille",
     seoDescription:
-      "Ce que coûte un circuit familial de 4 jours dans le désert marocain en 2026 : transport, camps, méharées et repas détaillés, plus les extras que les parents doivent prévoir.",
+      "Ce que coûte un circuit familial de 4 jours dans le désert marocain en 2026 : transport, camps, méharées et repas détaillés.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
       { q: "Combien coûte un circuit dans le désert en famille au Maroc ?", a: "Notre [circuit désert familial de 4 jours depuis Marrakech](/fr/tours/family-desert-4day-marrakech) est à 398 € par personne et comprend le transport privé climatisé, un chauffeur-guide bilingue, trois nuits d'hébergement avec dîners et petits-déjeuners, et les méharées au coucher et au lever du soleil à l'Erg Chebbi. Prévoyez environ 40 à 60 € par personne en plus pour les déjeuners." },
@@ -3793,9 +3793,9 @@ en direct la garde dans le pays.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-03",
     tags: ["prix trois sommets Toubkal", "coût Ouanoukrim", "Timesguida", "Ras Ouanoukrim", "4000 m Maroc", "Haut Atlas"],
-    seoTitle: "Prix du trek des Trois Sommets du Toubkal en 2026 — Détail complet",
+    seoTitle: "Prix trek Trois Sommets Toubkal 2026",
     seoDescription:
-      "Ce que coûte le trek des trois sommets du Toubkal en 2026 : supplément guide, deux nuits en refuge, mule et frais de parc détaillés, comparé à un forfait à partir de 302 €.",
+      "Ce que coûte le trek des trois sommets du Toubkal en 2026 : supplément guide, deux nuits en refuge, mule et frais de parc détaillés.",
     faq: [
       { q: "Combien coûte le trek des Trois Sommets du Toubkal ?", a: "Notre [trek de 3 jours aux trois sommets](/fr/tours/toubkal-three-peaks-4000m-3day) est à 302 € par personne, guide haute altitude, les deux nuits en refuge, tous les repas, le porteur à mule, les frais de parc et le transfert depuis Marrakech inclus. Organiser le même itinéraire en autonomie revient à environ 3 200–4 600 MAD pour deux personnes une fois chaque ligne additionnée." },
       { q: "Pourquoi coûte-t-il plus cher qu'un trek classique du Toubkal ?", a: "Pas à cause du jour supplémentaire. La différence, c'est le guide : Timesguida et Ras Ouanoukrim sont classés expert et exigent un guide qualifié haute altitude, dont le tarif journalier se situe en haut de la fourchette 500–800 MAD plutôt qu'au milieu. La deuxième nuit en refuge et les repas supplémentaires font le reste." },
@@ -3880,9 +3880,9 @@ réussite d'un sommet.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-03",
     tags: ["prix trek Mgoun", "coût Jbel Mgoun", "massif M'Goun", "trek 7 jours Maroc", "hébergement chez l'habitant", "Haut Atlas"],
-    seoTitle: "Prix d'un trek dans le massif du Mgoun en 2026 — Détail sur 7 jours",
+    seoTitle: "Prix trek dans le massif du Mgoun en 2026",
     seoDescription:
-      "Ce que coûte une traversée du Mgoun en 7 jours en 2026 : guide expert, caravane de mules, hébergements chez l'habitant et bivouacs détaillés, comparé à un forfait à partir de 760 €.",
+      "Ce que coûte une traversée du Mgoun en 7 jours en 2026 : guide expert, caravane de mules, hébergements chez l'habitant et bivouacs détaillés.",
     faq: [
       { q: "Combien coûte un trek dans le massif du Mgoun ?", a: "Notre [traversée du Mgoun en 7 jours](/fr/tours/mgoun-massif-trek) est à 760 € par personne : guide de haute montagne expert, tous les repas, la caravane de mules, les nuits chez des familles berbères et sous tente, la communication satellite d'urgence et les frais de parc national. Organiser sept jours de la même logistique en autonomie descend difficilement sous ce prix, car la caravane et le cuisinier sont des coûts fixes quelle que soit la taille du groupe." },
       { q: "Pourquoi le Mgoun coûte-t-il plus cher par jour que le Toubkal ?", a: "Le Toubkal dispose d'un système de refuges et d'une route jusqu'à Imlil. Le Mgoun n'a ni l'un ni l'autre sur l'essentiel du parcours — vous transportez votre hébergement, votre nourriture et votre cuisinier, ce qui suppose une caravane complète sur sept jours plutôt qu'une seule mule jusqu'à un refuge. L'isolement est le produit, et aussi le coût." },
@@ -3973,9 +3973,9 @@ relie le Mgoun et le Toubkal en un seul itinéraire.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-03",
     tags: ["prix traversée Haut Atlas", "coût Grande Traversée", "M'Goun Toubkal", "trek 15 jours Maroc", "Aït Bougmez", "Magdaz"],
-    seoTitle: "Prix de la Grande Traversée du Haut Atlas en 2026 — 15 jours détaillés",
+    seoTitle: "Prix Grande Traversée du Haut Atlas en 2026",
     seoDescription:
-      "Ce que coûte la traversée M'Goun–Toubkal en 15 jours en 2026 : guide, cuisinier, caravane, 14 nuits et frais de parc détaillés — et pourquoi le prix à la journée est le plus bas.",
+      "Ce que coûte la traversée M'Goun–Toubkal en 15 jours en 2026 : guide, cuisinier, caravane, 14 nuits et frais de parc détaillés.",
     faq: [
       { q: "Combien coûte la Grande Traversée du Haut Atlas ?", a: "Notre [traversée de 15 jours](/fr/tours/high-atlas-grand-traverse-15day) est à 1 700 € par personne pour deux : guide haute altitude, cuisinier, caravane de mules complète, les 14 nuits d'hébergement, tous les repas, les frais des deux parcs nationaux et les transferts depuis Marrakech. C'est le prix le plus élevé de notre catalogue, et le seul séjour où une équipe complète reste avec vous deux semaines." },
       { q: "Pourquoi le coût journalier est-il plus bas qu'un trek court ?", a: "Il ne l'est pas, et autant le dire franchement. À 1 700 € pour deux, la traversée revient à environ 113 € par jour, contre à peu près 73 € pour le trek des villages en 3 jours. Les transferts et la mobilisation du guide se diluent bien sur quinze jours, mais ils ne sont pas le gros de la facture. Le gros, c'est l'équipe : un guide haute altitude, un cuisinier et une caravane de mules complète restent avec vous deux semaines, et rien de tout cela ne diminue avec la durée. Vous payez quatorze jours consécutifs d'expédition encadrée, pas une version allongée d'une randonnée de week-end." },
@@ -4071,9 +4071,9 @@ pour moitié moins d'engagement.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-03",
     tags: ["prix Toubkal Sahara", "montagne et désert Maroc", "circuit 5 jours Maroc prix", "sommet Toubkal", "Erg Chebbi", "circuit combiné"],
-    seoTitle: "Prix du circuit Toubkal & Sahara en 5 jours (2026) — Détail complet",
+    seoTitle: "Prix du circuit Toubkal & Sahara en 5 jours",
     seoDescription:
-      "Ce que coûte le circuit combiné Toubkal et Sahara en 5 jours en 2026, détaillé — et ce que l'on gagne vraiment à les enchaîner plutôt qu'à les réserver séparément.",
+      "Ce que coûte le circuit combiné Toubkal et Sahara en 5 jours en 2026 — et ce que l'on gagne à les enchaîner plutôt qu'à les réserver séparément.",
     faq: [
       { q: "Combien coûte le circuit Toubkal et Sahara en 5 jours ?", a: "Notre [circuit montagne-désert en 5 jours](/fr/tours/toubkal-summit-sahara-5day) est à 644 € par personne pour deux. Cela couvre le guide de montagne agréé pour le trek du Toubkal, un chauffeur-guide privé pour la partie désert, les quatre nuits, le porteur à mule, les méharées à l'Erg Chebbi, les frais de parc et tous les transferts depuis Marrakech." },
       { q: "Est-ce moins cher que de réserver le trek et le désert séparément ?", a: "Cela dépend du nombre de voyageurs. En solo c'est 1 300 € séparément contre 950 € combiné, et à quatre 435 € contre 392 € — moins cher les deux fois. À deux, l'inverse : 575 € séparément contre 644 € combiné, soit 69 € de plus, mais le trajet est continu. Le [sommet du Toubkal en 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est à 195 € et le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech) à 380 € par personne pour deux, soit 575 € séparément contre 644 € en combiné : 41 € de moins. Et cela vous évite cinq jours avec deux retours distincts à Marrakech et une journée de transfert perdue entre les deux. Le combiné suit un itinéraire continu qui ne revient jamais sur ses pas, avec un véhicule privé du début à la fin." },
@@ -4167,7 +4167,7 @@ moyen d'économiser sur l'un ou l'autre.
     publishedAt: "2026-08-03",
     updatedAt: "2026-08-03",
     tags: ["prix trek Haut Atlas", "coût trek villages Atlas", "Imlil Azzaden", "gîte berbère", "trek 3 jours Marrakech", "trek sans sommet"],
-    seoTitle: "Prix d'un trek de 3 jours dans les villages du Haut Atlas (2026)",
+    seoTitle: "Prix trek 3 jours Haut Atlas 2026",
     seoDescription:
       "Ce que coûte un trek de 3 jours dans les villages du Haut Atlas en 2026 : guide, gîtes, mule et transferts détaillés, comparé à un forfait à 235 €.",
     faq: [
@@ -4263,7 +4263,7 @@ Tout le reste — guide, deux nuits en gîte avec les repas, la mule et les deux
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-07",
     tags: ["remise groupe circuit Maroc", "prix circuit privé par personne", "coût circuit Maroc par personne", "tarif selon la taille du groupe", "prix circuit désert 2 personnes", "budget voyage Maroc"],
-    seoTitle: "Prix des circuits au Maroc selon la taille du groupe — 2026",
+    seoTitle: "Prix circuits Maroc par groupe 2026",
     seoDescription:
       "Pourquoi un circuit privé au Maroc coûte 690 € pour une personne et 380 € chacune pour deux. Le tableau complet des prix par personne selon la taille du groupe.",
     faq: [
@@ -4434,9 +4434,9 @@ le nombre affiché pour votre groupe est celui que vous payez.
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-07",
     tags: ["circuit désert privé ou partagé", "circuit désert partagé Maroc", "circuit Sahara privé Maroc", "comparaison circuits Merzouga", "minibus circuit désert", "circuit désert Maroc vaut-il le coup"],
-    seoTitle: "Circuit désert Maroc privé ou partagé — comparatif 2026",
+    seoTitle: "Circuit désert Maroc privé ou partagé",
     seoDescription:
-      "Les circuits désert partagés au Maroc coûtent 110–170 € la place et ne baissent jamais. Notre circuit privé de 4 jours est à 446 € par personne à deux et 236 € à six. Où se situe le point d'équilibre, et quand le partagé reste préférable.",
+      "Les circuits désert partagés au Maroc coûtent 110–170 € la place et ne baissent jamais.",
     faq: [
       { q: "Quelle est la vraie différence entre un circuit privé et un circuit partagé ?", a: "Un circuit partagé vous place dans un minibus avec six à dix autres voyageurs, sur un horaire fixe qui ne peut pas changer. Un circuit privé, c'est votre propre véhicule et votre chauffeur-guide : l'heure de départ, les arrêts photo et les lieux de déjeuner vous appartiennent. L'itinéraire est presque identique — ce qui change, c'est qui d'autre est dans le véhicule, qui décide du rythme, et la façon dont le prix évolue quand votre groupe grandit. Tous nos circuits sont privés, y compris le [Grand Tour de 4 jours](/fr/tours/desert-4day-marrakech)." },
       { q: "Un circuit désert privé vaut-il son surcoût ?", a: "Cela dépend presque entièrement de la taille de votre groupe. Seul, une place partagée est bien moins chère et la réponse honnête est généralement non — une personne ne peut pas répartir le coût d'un 4x4. À deux, notre [circuit privé de 4 jours](/fr/tours/desert-4day-marrakech) revient à 446 € chacun, soit à peu près le prix d'une place partagée sur le même itinéraire. À quatre c'est 274 € chacun et à six 236 €, donc à partir d'environ trois personnes le privé est à la fois moins cher et meilleur." },
@@ -4594,9 +4594,9 @@ le chiffre affiché pour votre taille de groupe est celui que vous payez.
     publishedAt: "2026-08-07",
     updatedAt: "2026-08-07",
     tags: ["réserver circuit Maroc en direct", "commission circuit Maroc", "GetYourGuide ou réservation directe", "réservation circuit désert Maroc", "marge conciergerie hôtel", "conseils réservation voyage Maroc"],
-    seoTitle: "Réserver un circuit au Maroc : direct ou plateforme — 2026",
+    seoTitle: "Réserver un circuit au Maroc",
     seoDescription:
-      "Les plateformes de revente prélèvent 20 à 30 % de commission sur les circuits au Maroc et elle s'ajoute à votre prix. Le mécanisme, son coût, et quand la plateforme reste utile.",
+      "Les plateformes de revente prélèvent 20 à 30 % de commission sur les circuits au Maroc et elle s'ajoute à votre prix.",
     faq: [
       { q: "Est-il moins cher de réserver un circuit au Maroc directement auprès de l'opérateur ?", a: "Le plus souvent oui, parce que vous supprimez une couche de commission et non un service. Les grandes plateformes de revente publient des taux de commission de l'ordre de 20 à 30 % du prix du billet, et les opérateurs calculent leurs annonces pour absorber ce prélèvement — autrement dit l'annonce porte la commission en plus du tarif direct. Réserver en direct signifie aussi que la personne qui répond à vos questions est celle qui organise le voyage." },
       { q: "Quelle commission prennent les plateformes de circuits au Maroc ?", a: "Les grandes plateformes de revente publient des taux se situant globalement entre 20 et 30 %, et les conciergeries d'hôtels à Marrakech prélèvent couramment une part comparable ou supérieure sur les circuits qu'elles organisent. Ce n'est ni caché ni malhonnête — c'est ainsi que ces canaux se financent — mais cette commission s'ajoute à votre prix au lieu d'être absorbée, car un opérateur travaillant sur une marge mince ne peut pas absorber un quart du billet." },
@@ -4764,9 +4764,9 @@ rentable.**
       "trek Haut Atlas",
       "refuge du Toubkal",
     ],
-    seoTitle: "Mal des montagnes au Toubkal — symptômes et prévention (2026)",
+    seoTitle: "Mal des montagnes au Toubkal",
     seoDescription:
-      "Le Toubkal culmine à 4 167 m, assez haut pour le mal aigu des montagnes. Les symptômes, quand descendre, et pourquoi l'itinéraire de 4 jours prévient mieux que tout médicament.",
+      "Le Toubkal culmine à 4 167 m, assez haut pour le mal aigu des montagnes.",
     faq: [
       {
         q: "Peut-on avoir le mal des montagnes au Toubkal ?",
@@ -4982,9 +4982,9 @@ local diplômé.
       "désert avec enfants",
       "trek Atlas en famille",
     ],
-    seoTitle: "Le Maroc en famille — guide honnête avec enfants (2026)",
+    seoTitle: "Le Maroc en famille",
     seoDescription:
-      "À quel âge voyager au Maroc, sièges auto, repas, et combien de temps les enfants tiennent en 4x4. Conseils pratiques de guides qui mènent des départs familles dans l'Atlas et au Sahara.",
+      "À quel âge voyager au Maroc, sièges auto, repas, et combien de temps les enfants tiennent en 4x4.",
     faq: [
       {
         q: "À quel âge emmener des enfants au Maroc ?",
@@ -5193,9 +5193,9 @@ ne convient pas à l'âge que vous emmenez.
       "hébergement Erg Chebbi",
       "comparatif campements Sahara",
     ],
-    seoTitle: "Campement désert luxe ou standard au Maroc : le comparatif",
+    seoTitle: "Campement désert luxe ou standard au Maroc",
     seoDescription:
-      "Ce qui sépare vraiment un campement saharien de luxe d'un campement standard, ce que coûte le surclassement, et quand il vaut la dépense. Par un opérateur qui réserve les deux.",
+      "Ce qui sépare vraiment un campement saharien de luxe d'un campement standard, ce que coûte le surclassement, et quand il vaut la dépense.",
     relatedTours: [
       "sahara-3day-marrakech",
       "erg-chegaga-3day-marrakech",
@@ -5334,9 +5334,9 @@ Si vous voulez le surclassement, dites-le nous à la réservation et nous le chi
       "Agadir Sahara",
       "une semaine au Maroc",
     ],
-    seoTitle: "Itinéraire 7 jours au Maroc depuis Agadir, prix réels",
+    seoTitle: "Itinéraire 7 jours au Maroc depuis Agadir",
     seoDescription:
-      "Une semaine au Maroc au départ d'Agadir : désert, villes impériales ou côte, avec des circuits réels, les prix par personne et des temps de route honnêtes. Par un opérateur marocain.",
+      "Une semaine au Maroc au départ d'Agadir : désert, villes impériales ou côte, avec des circuits réels, les prix par personne et des temps de route honnêtes.",
     relatedTours: [
       "desert-4day-agadir",
       "agadir-imperial-cities-6day",
@@ -5483,9 +5483,9 @@ Deux choses à trancher tôt :
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["que faire au Maroc", "activités Maroc", "incontournables Maroc", "visiter le Maroc", "expériences Maroc"],
-    seoTitle: "Que faire au Maroc : les 15 incontournables et leurs prix",
+    seoTitle: "Que faire au Maroc",
     seoDescription:
-      "Les quinze expériences autour desquelles bâtir un voyage au Maroc : méharée au Sahara, Toubkal, Chefchaouen, hammam, cours de cuisine et surf. Prix réels et avis honnêtes.",
+      "Les quinze expériences autour desquelles bâtir un voyage au Maroc : méharée au Sahara, Toubkal, Chefchaouen, hammam, cours de cuisine et surf.",
     relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "Quelle est l'activité la plus populaire au Maroc ?", a: "Un séjour dans le Sahara — plus précisément une méharée dans les dunes de l'Erg Chebbi près de Merzouga et une nuit en campement. C'est l'expérience autour de laquelle la plupart des voyageurs organisent le reste de leur itinéraire. Depuis Marrakech, il faut trois jours, car Merzouga est à une journée de route." },
@@ -5628,9 +5628,9 @@ Si le budget décide, le [guide des départs partagés](/fr/blog/shared-group-to
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["circuits partagés Maroc", "excursions groupées Maroc", "Maroc pas cher", "départs quotidiens Marrakech", "circuit économique Maroc"],
-    seoTitle: "Circuits partagés au Maroc — prix réels à partir de 30 €",
+    seoTitle: "Circuits partagés au Maroc",
     seoDescription:
-      "Ce que coûte et comprend vraiment un circuit partagé au Maroc : soirée Agafay 30 €, Essaouira 30 €, Ouzoud 40 €, trois jours au Sahara 120 €. Et quand le privé revient moins cher.",
+      "Ce que coûte et comprend vraiment un circuit partagé au Maroc : soirée Agafay 30 €, Essaouira 30 €, Ouzoud 40 €, trois jours au Sahara 120 €.",
     relatedTours: ["shared-merzouga-3day-marrakech", "shared-agafay-dinner-camel-ride", "shared-essaouira-day-trip", "shared-ouzoud-waterfalls-day-trip", "shared-zagora-2day-marrakech"],
     faq: [
       { q: "Combien coûte un circuit partagé au Maroc ?", a: "À partir de 30 € pour une demi-journée ou une journée au départ de Marrakech — une soirée dans l'Agafay ou une journée à Essaouira coûtent toutes deux 30 € par personne, les cascades d'Ouzoud 40 €. Sur plusieurs jours : Zagora en deux jours revient à 85 € et le circuit de trois jours vers Merzouga à 120 € par personne, hébergement et repas au campement compris." },
@@ -5730,9 +5730,9 @@ Enfin : réservez en direct quand vous le pouvez. Les commissions des plateforme
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["cours de cuisine marocaine", "cours de cuisine Marrakech", "atelier tajine", "gastronomie Maroc", "cuisine marocaine"],
-    seoTitle: "Cours de cuisine à Marrakech : contenu et prix réels",
+    seoTitle: "Cours de cuisine à Marrakech",
     seoDescription:
-      "Ce que contient vraiment un cours de cuisine marocaine à Marrakech : le souk aux épices, le tajine cuisiné de zéro, la cérémonie du thé. Prix réels à partir de 33 € par personne.",
+      "Ce que contient vraiment un cours de cuisine marocaine à Marrakech : le souk aux épices, le tajine cuisiné de zéro, la cérémonie du thé.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "Combien coûte un cours de cuisine à Marrakech ?", a: "Notre [visite des marchés et cours de cuisine](/fr/tours/marrakech-food-market-tour) coûte 109 € pour une personne et 33 € par personne à six — la remise de groupe la plus forte de notre catalogue, car le guide et la cuisine coûtent la même chose que l'on soit deux ou huit. En ville, comptez 25 à 60 € par personne pour une demi-journée." },
@@ -5824,9 +5824,9 @@ Pour savoir quoi commander ensuite au restaurant, le [guide de la cuisine maroca
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["festivals Maroc", "festival Gnaoua", "festival des roses Maroc", "moussem Imilchil", "calendrier evenements Maroc"],
-    seoTitle: "Festivals au Maroc mois par mois \u2014 dates et lesquelles bougent",
+    seoTitle: "Festivals au Maroc mois par mois",
     seoDescription:
-      "Guide mois par mois des festivals marocains : Gnaoua \u00e0 Essaouira, la r\u00e9colte des roses de Kelaat M'Gouna, le moussem d'Imilchil, le Ramadan. Dates confirm\u00e9es et fen\u00eatres.",
+      "Guide mois par mois des festivals marocains : Gnaoua \u00e0 Essaouira, la r\u00e9colte des roses de Kelaat M'Gouna, le moussem d'Imilchil, le Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "Quel est le plus grand festival du Maroc ?", a: "Par sa notori\u00e9t\u00e9 internationale, le Festival Gnaoua et Musiques du Monde d'Essaouira : trois jours de concerts gratuits en plein air fin juin, qui attirent des centaines de milliers de personnes. Par son importance locale, c'est sans doute le Ramadan et l'A\u00efd qui le cl\u00f4t, qui changent le rythme du pays entier pendant un mois." },
@@ -5942,9 +5942,9 @@ pouvez voir l'état actuel de tous sur notre
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["transports Maroc", "trains Maroc", "ONCF", "Al Boraq", "se deplacer au Maroc"],
-    seoTitle: "Se d\u00e9placer au Maroc \u2014 trains, bus et temps de trajet r\u00e9els",
+    seoTitle: "Se d\u00e9placer au Maroc",
     seoDescription:
-      "Les transports au Maroc expliqu\u00e9s : le TGV Al Boraq, les temps de trajet et tarifs ONCF, les bus CTM, les grands taxis \u2014 et les destinations qu'aucun train n'atteint.",
+      "Les transports au Maroc expliqu\u00e9s : le TGV Al Boraq, les temps de trajet et tarifs ONCF, les bus CTM, les grands taxis.",
     relatedTours: ["marrakech-to-fes-3day", "marrakech-to-chefchaouen-4day", "marrakech-imperial-cities-5day", "shared-essaouira-day-trip"],
     faq: [
       { q: "Le Maroc a-t-il de bons trains ?", a: "Entre les villes de la ligne nord, oui, vraiment. Al Boraq est le premier train \u00e0 grande vitesse d'Afrique, jusqu'\u00e0 320 km/h, et relie Tanger \u00e0 Casablanca en 2h10. Les trains classiques Al Atlas continuent vers Marrakech en environ 2h40 depuis Casablanca et vers F\u00e8s en 3h45. Confortables, ponctuels et bon march\u00e9." },
@@ -6074,9 +6074,9 @@ Si votre voyage traverse le pays, vous n'avez peut-être pas besoin de revenir a
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["meteo Sahara", "temperature Merzouga", "quand partir desert Maroc", "que emporter desert", "climat Erg Chebbi"],
-    seoTitle: "M\u00e9t\u00e9o du d\u00e9sert du Sahara au Maroc \u2014 mois par mois",
+    seoTitle: "M\u00e9t\u00e9o du d\u00e9sert du Sahara au Maroc",
     seoDescription:
-      "Temp\u00e9ratures \u00e0 Merzouga et \u00e0 l'Erg Chebbi mois par mois : de 19 \u00b0C en janvier \u00e0 43 \u00b0C en juillet, avec des nuits proches de z\u00e9ro en hiver. Quand partir et quoi emporter.",
+      "Temp\u00e9ratures \u00e0 Merzouga et \u00e0 l'Erg Chebbi mois par mois : de 19 \u00b0C en janvier \u00e0 43 \u00b0C en juillet, avec des nuits proches de z\u00e9ro en hiver.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
     faq: [
       { q: "Quelle temp\u00e9rature fait-il la nuit dans le Sahara marocain ?", a: "Assez froid pour \u00eatre vraiment inconfortable si vous n'avez pr\u00e9vu que pour la journ\u00e9e. Les nuits de janvier \u00e0 Merzouga tournent autour de 6 \u00b0C en moyenne, et une nuit claire et calme peut descendre plusieurs degr\u00e9s plus bas \u2014 proche de z\u00e9ro. Les dunes sont \u00e0 730 m d'altitude et l'air est extr\u00eamement sec : la chaleur s'\u00e9chappe vite d\u00e8s le coucher du soleil." },
@@ -6200,7 +6200,7 @@ routes, les dunes et le coût.`,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Sahara", "erg Chebbi", "trekking", "Maroc"],
-    seoTitle: "Circuit Toubkal et Sahara 8 jours — prix et départs 2027",
+    seoTitle: "Circuit Toubkal et Sahara 8 jours",
     seoDescription:
       "Ce que coûte le circuit de 8 jours Toubkal et Sahara : 889 € par personne sur des départs fixes, contre 1 413 € en réservant le même parcours séparément.",
     faq: [
@@ -6302,9 +6302,9 @@ si vous êtes six.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Tibherine", "Haut Atlas", "histoire", "Maroc"],
-    seoTitle: "L'épave d'avion du Tibherine au-dessus du Toubkal",
+    seoTitle: "L'épave d'avion du Tibherine",
     seoDescription:
-      "Un Lockheed Constellation a percuté le Tibherine Est à 3 880 m en novembre 1969, chargé de munitions pour le Biafra. L'épave n'a été retrouvée que huit mois plus tard.",
+      "Un Lockheed Constellation a percuté le Tibherine Est à 3 880 m en novembre 1969, chargé de munitions pour le Biafra.",
     faq: [
       { q: "Où se trouve exactement l'épave du Tibherine ?", a: "Sur le Tibherine Est, un sommet de 3 880 m du massif du Toubkal, au nord du Toubkal lui-même. Le Tibherine est un sommet jumeau — Est à 3 880 m et Ouest à 3 887 m, assez proches en hauteur et en forme pour être appelés localement « les jumeaux ». L'épave est sur le sommet oriental, avec des débris répandus sur la face ouest et un moteur encastré dans les rochers du sommet." },
       { q: "De quel avion s'agissait-il et que s'est-il passé ?", a: "Un Lockheed L-749A Constellation, qui volait de nuit de Faro au Portugal vers São Tomé, chargé de munitions destinées au Biafra pendant la guerre civile nigériane. Le 28 novembre 1969, l'équipage a signalé des problèmes moteur et demandé à se dérouter vers l'aéroport le plus proche, mais l'appareil a perdu de l'altitude et percuté la montagne. Les huit personnes à bord ont péri." },
@@ -6399,7 +6399,7 @@ ce n'est de toute façon pas un itinéraire à tenter seul.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "trekking hivernal", "Haut Atlas", "Maroc", "saisons"],
-    seoTitle: "Gravir le Toubkal en mars — neige, matériel et conseils",
+    seoTitle: "Gravir le Toubkal en mars",
     seoDescription:
       "En mars le Toubkal est encore hivernal au-dessus de 3 000 m : neige, crampons et piolet. Ce qui vous attend, ce qu'il faut, et quand choisir avril.",
     faq: [
@@ -6485,9 +6485,9 @@ dure et plus lente, cette journée vaut encore plus qu'en juillet.
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     tags: ["Toubkal", "Aguelzim", "Haut Atlas", "trekking", "Maroc"],
-    seoTitle: "Trek du col d'Aguelzim au Toubkal, 3 jours — prix et itinéraire",
+    seoTitle: "Trek du col d'Aguelzim au Toubkal, 3 jours",
     seoDescription:
-      "Ce que coûte la voie du col d'Aguelzim vers le Toubkal en 3 jours, en quoi elle diffère de l'approche classique par le Mizane, et à qui convient cette ligne plus tranquille.",
+      "Ce que coûte la voie du col d'Aguelzim vers le Toubkal en 3 jours, en quoi elle diffère de l'approche classique par le Mizane.",
     faq: [
       { q: "Qu'est-ce que la voie du col d'Aguelzim ?", a: "Une approche alternative du refuge du Toubkal qui franchit le Tizi n'Aguelzim vers 3 560 m au lieu de remonter la vallée du Mizane. Elle est plus longue et plus haute que la voie normale, et nettement plus calme : l'essentiel du trafic du Toubkal ne la voit jamais. La contrepartie est un vrai col dès le premier jour au lieu d'une montée progressive en fond de vallée." },
       { q: "Aguelzim est-il plus difficile que la voie normale ?", a: "Oui, sensiblement. L'approche classique gagne de la hauteur régulièrement le long d'une vallée ; Aguelzim place un col de 3 560 m sur votre route avant même que vous ayez dormi en altitude. Cette voie convient aux personnes ayant de l'expérience en randonnée qui veulent la ligne tranquille, pas à quelqu'un qui tente sa première montagne." },
@@ -6563,7 +6563,7 @@ l'Atlas.
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["campement désert", "campement Sahara", "campement Merzouga", "Erg Chebbi", "tente privative", "hébergement désert"],
-    seoTitle: "Campement dans le Sahara : la réalité — Maroc 2026",
+    seoTitle: "Campement dans le Sahara : la réalité",
     seoDescription:
       "Tentes privatives, sanitaires partagés, repas et froid nocturne : un regard honnête sur les campements du désert marocain, par l'opérateur qui les exploite.",
     relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech"],
@@ -6677,9 +6677,9 @@ Ce qui se passe mal relève presque toujours d'une attente déçue plutôt que d
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["réserver circuit Maroc", "acompte circuit", "paiement voyage Maroc", "contrat circuit", "processus de réservation"],
-    seoTitle: "Réserver un circuit au Maroc en toute sécurité — acomptes et contrats",
+    seoTitle: "Réserver un circuit en sécurité",
     seoDescription:
-      "Ce que vous payez, quand, et ce que vous obtenez par écrit avant. Un guide honnête pour réserver un circuit au Maroc en direct, par un opérateur agréé de Marrakech.",
+      "Ce que vous payez, quand, et ce que vous obtenez par écrit avant. Un guide honnête pour réserver un circuit au Maroc en direct.",
     relatedTours: ["sahara-3day-marrakech", "toubkal-summit-trek-4day", "desert-4day-marrakech"],
     faq: [
       {
@@ -6796,9 +6796,9 @@ Si un opérateur remplit les cinq, vous êtes presque certainement en règle. S'
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["Maroc en hiver", "Sahara en hiver", "désert en décembre", "Maroc en janvier", "Maroc en février", "circuit désert hiver"],
-    seoTitle: "Le Sahara marocain en hiver — guide décembre à février 2026",
+    seoTitle: "Le Sahara marocain en hiver",
     seoDescription:
-      "L'hiver offre la plus belle lumière et le moins de monde dans le Sahara marocain, et les nuits les plus froides. Températures réelles, quoi emporter, fermetures de cols.",
+      "L'hiver offre la plus belle lumière et le moins de monde dans le Sahara marocain, et les nuits les plus froides.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech"],
     weatherRegion: "Sahara",
     faq: [
@@ -6927,7 +6927,7 @@ Pour la plupart des gens, l'hiver dans le Sahara marocain en est la version qui 
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     tags: ["Maroc seniors", "voyageurs âgés Maroc", "accessibilité circuit désert", "Maroc avec ses parents", "alternative dromadaire"],
-    seoTitle: "Circuits désert au Maroc pour seniors — un guide honnête",
+    seoTitle: "Circuits désert au Maroc pour seniors",
     seoDescription:
       "Un circuit au Sahara après 60 ans ? Alternatives au dromadaire, distances réelles, privé ou partagé, et les questions à poser avant de réserver.",
     relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "zagora-2day-marrakech"],
@@ -7053,7 +7053,7 @@ Ce qui détermine réellement si le voyage est un plaisir ou une épreuve, c'est
     publishedAt: "2026-09-03",
     updatedAt: "2026-09-03",
     tags: ["Volubilis", "ruines romaines Maroc", "UNESCO Maroc", "Meknès", "villes impériales"],
-    seoTitle: "Volubilis : ruines romaines, tarifs et conseils",
+    seoTitle: "Volubilis : ruines romaines",
     seoDescription:
       "La cité romaine la mieux conservée du Maroc, avec ses mosaïques encore en place. Entrée 70 MAD, deux heures, et pourquoi il faut éviter le milieu de matinée.",
     faq: [
@@ -7312,7 +7312,7 @@ Si vous préférez ralentir et approfondir les villes, le [circuit des villes im
     tags: ["vol multi-destinations", "aéroport Casablanca", "aéroport Marrakech", "itinéraire Maroc", "conseils voyage Maroc"],
     seoTitle: "Arriver à Casablanca, repartir de Marrakech",
     seoDescription:
-      "Arriver dans un aéroport marocain et repartir d'un autre fait gagner une journée de retour en arrière. Quand cela fonctionne, ce que cela coûte, et comment relier les deux villes.",
+      "Arriver dans un aéroport marocain et repartir d'un autre fait gagner une journée de retour en arrière.",
     faq: [
       { q: "Peut-on arriver à Casablanca et repartir de Marrakech ?", a: "Oui. Réservez-le en multi-destinations plutôt qu'en deux allers simples : la plupart des compagnies et des sites le traitent comme un tarif unique, souvent proche du prix d'un aller-retour. Casablanca Mohammed V est le plus grand aéroport du Maroc, avec le réseau long-courrier le plus étendu, et Marrakech Ménara concentre le trafic court-courrier européen — la combinaison fonctionne donc particulièrement bien si vous venez de loin et repartez vers l'Europe." },
       { q: "Un billet multi-destinations coûte-t-il plus cher ?", a: "Parfois un peu, souvent pas du tout, et à l'occasion moins cher qu'un aller-retour sur un seul aéroport. Cela dépend entièrement de la route. Ce qu'il fait gagner à coup sûr, c'est une journée : avec un aller-retour sur une seule ville, un voyage qui traverse le pays doit revenir par où il est venu, et ce retour représente en général quatre à six heures de route qui ne vous apportent rien." },
@@ -7402,7 +7402,7 @@ Pour le panorama complet des trains, bus et vols intérieurs, voyez notre [guide
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Rabat", "villes impériales", "kasbah des Oudayas", "Chellah", "tour Hassan", "capitale du Maroc"],
-    seoTitle: "Guide de Rabat 2026 — la capitale du Maroc, que voir",
+    seoTitle: "Guide de Rabat 2026",
     seoDescription:
       "Que voir à Rabat : la kasbah des Oudayas, la tour Hassan et la nécropole du Chellah. Tarifs, horaires et le temps qu'il faut vraiment.",
     relatedTours: ["marrakech-imperial-cities-5day", "agadir-imperial-cities-6day", "casablanca-fes-sahara-marrakech-5day"],
@@ -7561,7 +7561,7 @@ compare trains, bus et transferts privés selon l'itinéraire.
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Casablanca", "mosquée Hassan II", "arrivée au Maroc", "Art déco", "villes du Maroc"],
-    seoTitle: "Guide de Casablanca 2026 — la ville vaut-elle une journée ?",
+    seoTitle: "Guide de Casablanca 2026",
     seoDescription:
       "Que voir à Casablanca : la mosquée Hassan II, tarifs et horaires des visites, le quartier des Habous, et si la ville mérite une journée.",
     relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day"],
@@ -7717,7 +7717,7 @@ et pour le coût de la route selon la taille du groupe, notre
     publishedAt: "2026-09-07",
     updatedAt: "2026-09-07",
     tags: ["Essaouira", "Mogador", "côte atlantique", "UNESCO Maroc", "kitesurf Maroc", "festival Gnaoua"],
-    seoTitle: "Guide d'Essaouira 2026 — que voir et quand y aller",
+    seoTitle: "Guide d'Essaouira 2026",
     seoDescription:
       "La médina, les remparts et le port d'Essaouira, le vent qui définit la ville, quand venir, et si une journée suffit ou s'il vaut mieux y dormir.",
     relatedTours: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],

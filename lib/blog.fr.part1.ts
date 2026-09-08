@@ -14,9 +14,9 @@ export const BLOG_POSTS_PART1: BlogPost[] = [
     publishedAt: "2025-01-01",
     updatedAt: "2026-07-15",
     tags: ["Maroc", "voyage d'aventure", "guide du Maroc", "voyager au Maroc", "tourisme au Maroc"],
-    seoTitle: "Guide du voyage d'aventure au Maroc 2026 — Vue d'ensemble complète",
+    seoTitle: "Guide du voyage d'aventure au Maroc 2026",
     seoDescription:
-      "Votre guide complet du voyage d'aventure au Maroc — Atlas, désert du Sahara, villes impériales, côte atlantique et régions du sud. Où aller, quand partir, et à quoi s'attendre.",
+      "Votre guide complet du voyage d'aventure au Maroc — Atlas, désert du Sahara, villes impériales, côte atlantique et régions du sud.",
     relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     content: `
 ## Pourquoi le Maroc ?
@@ -129,9 +129,9 @@ Les guides approfondis ci-dessous couvrent chaque région en détail.
     publishedAt: "2025-04-10",
     updatedAt: "2026-07-15",
     tags: ["Toubkal", "Haut Atlas", "trekking", "randonnée au Maroc"],
-    seoTitle: "Comment gravir le Jbel Toubkal en 2026 — Guide complet | Marrakech Eco Tours",
+    seoTitle: "Comment gravir le Jbel Toubkal en 2026 | Marrakech Eco Tours",
     seoDescription:
-      "Tout ce qu'il faut savoir pour gravir le Toubkal — meilleure saison, niveau de forme physique, liste d'équipement et itinéraire jour par jour depuis Marrakech. Conseils d'experts de guides certifiés de l'Atlas.",
+      "Tout ce qu'il faut savoir pour gravir le Toubkal — meilleure saison, niveau de forme physique, liste d'équipement et itinéraire jour par jour depuis Marrakech.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Faut-il un guide pour gravir le Toubkal ?", a: "Oui. Depuis 2018, les autorités exigent que tout randonneur étranger dans le massif du Toubkal soit accompagné d'un guide de montagne qualifié, et le poste de contrôle d'Imlil le vérifie effectivement. Au-delà de la règle, l'itinéraire du sommet n'est pas balisé au-dessus du refuge et se transforme en ascension sur neige une bonne partie de l'année, si bien qu'un guide accomplit un travail bien réel, pas seulement administratif." },
@@ -253,9 +253,9 @@ Oui. Le sommet du Toubkal se trouve à 4 167 m — assez haut pour provoquer un 
     publishedAt: "2025-03-22",
     updatedAt: "2026-07-15",
     tags: ["Sahara", "Erg Chebbi", "Merzouga", "camping dans le désert", "Maroc"],
-    seoTitle: "Désert du Sahara au Maroc : à quoi s'attendre — guide honnête 2026",
+    seoTitle: "Désert du Sahara au Maroc",
     seoDescription:
-      "Un guide honnête du Sahara marocain — Erg Chebbi contre Erg Chegaga, la véritable expérience d'un campement dans le désert, meilleure période pour visiter, et ce qu'il ne faut pas croire dans les brochures.",
+      "Un guide honnête du Sahara marocain — Erg Chebbi contre Erg Chegaga, la véritable expérience d'un campement dans le désert, meilleure période pour visiter.",
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "desert-4day-marrakech"],
     faq: [
       { q: "Combien de temps faut-il pour rejoindre le Sahara depuis Marrakech ?", a: "Merzouga et les dunes de l'Erg Chebbi se trouvent de l'autre côté de l'Atlas, c'est pourquoi nous organisons le voyage sur trois jours plutôt qu'un seul. La conduite est ponctuée par le col du Tizi n'Tichka, Aït Ben Haddou et les gorges, si bien que la route fait partie du voyage plutôt que d'être du temps perdu pour y arriver." },
@@ -345,9 +345,9 @@ Le retour en chameau au lever du soleil est plus court et généralement effectu
     publishedAt: "2025-02-14",
     updatedAt: "2026-07-15",
     tags: ["conseils voyage Maroc", "meilleure période pour visiter", "météo", "saisons"],
-    seoTitle: "Meilleure période pour visiter le Maroc en 2026 — Guide mois par mois",
+    seoTitle: "Quand visiter le Maroc en 2026",
     seoDescription:
-      "Quelle est la meilleure période pour visiter le Maroc ? Un guide pratique mois par mois établi par des guides locaux — pour la randonnée, les circuits désertiques, les vacances balnéaires et les séjours en ville.",
+      "Quelle est la meilleure période pour visiter le Maroc ? Un guide pratique mois par mois établi par des guides locaux — pour la randonnée.",
     relatedTours: ["toubkal-summit-trek-4day", "sahara-3day-marrakech", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "Quel est le meilleur mois pour visiter le Maroc ?", a: "Avril, mai, septembre et octobre sont les choix les plus sûrs à l'échelle du pays : chauds sans les extrêmes de l'été, et adaptés aux montagnes, au désert et aux villes au cours d'un même voyage. Si vous ne vous intéressez qu'à l'un de ces aspects, la réponse change, ce qui explique les sections ci-dessus." },
@@ -430,9 +430,9 @@ Si vous ne pouvez visiter qu'une seule fois : **avril, mai ou octobre**. Vous ob
     publishedAt: "2025-01-30",
     updatedAt: "2026-07-15",
     tags: ["Marrakech à Fès", "road trip au Maroc", "Aït Ben Haddou", "médina de Fès"],
-    seoTitle: "Guide du road trip Marrakech–Fès 2026 — Itinéraire en 3 jours",
+    seoTitle: "Guide du road trip Marrakech–Fès 2026",
     seoDescription:
-      "Le guide complet de l'itinéraire terrestre Marrakech–Fès : col du Tizi n'Tichka, Aït Ben Haddou, Merzouga, Ifrane et Fès el-Bali. Itinéraire jour par jour inclus.",
+      "Le guide complet de l'itinéraire terrestre Marrakech–Fès : col du Tizi n'Tichka, Aït Ben Haddou, Merzouga, Ifrane et Fès el-Bali.",
     relatedTours: ["marrakech-to-fes-3day", "desert-4day-marrakech"],
     content: `
 ## Pourquoi c'est l'un des grands voyages routiers du monde
@@ -504,9 +504,9 @@ Chambres en riad à Ouarzazate et Midelt : 45 à 90 €/nuit. Riads à Fès : 75
     publishedAt: "2025-05-08",
     updatedAt: "2026-07-15",
     tags: ["Vallée du Paradis", "Agadir", "randonnée au Maroc", "baignade", "excursion d'une journée"],
-    seoTitle: "Vallée du Paradis Agadir : guide complet 2026 | Marrakech Eco Tours",
+    seoTitle: "Vallée du Paradis Agadir | Marrakech Eco Tours",
     seoDescription:
-      "Tout sur la Vallée du Paradis près d'Agadir — comment y aller, les meilleurs spots de baignade, quoi emporter, et la meilleure période pour visiter cette gorge de palmiers cachée.",
+      "Tout sur la Vallée du Paradis près d'Agadir — comment y aller, les meilleurs spots de baignade, quoi emporter.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "agadir-surf-lesson"],
     faq: [
       { q: "La Vallée du Paradis vaut-elle le détour ?", a: "Oui, si vous partez avec les bonnes attentes. C'est une gorge fluviale bordée de palmiers avec des vasques naturelles, à environ une heure et demie d'Agadir, idéale comme sortie d'une demi-journée ou d'une journée entière plutôt que comme destination en soi. Partez tôt : en fin de matinée, en haute saison, les principales vasques sont fréquentées." },
@@ -590,9 +590,9 @@ En haut de la vallée, près du village d'Immouzer des Ida Outanane, une cascade
     publishedAt: "2025-06-01",
     updatedAt: "2026-07-15",
     tags: ["Essaouira", "excursion depuis Agadir", "côte marocaine", "médina", "fruits de mer"],
-    seoTitle: "Excursion à Essaouira depuis Agadir — Guide complet 2026",
+    seoTitle: "Excursion à Essaouira depuis Agadir",
     seoDescription:
-      "Comment organiser une excursion d'une journée à Essaouira depuis Agadir — que voir, où manger, quoi acheter, et comment composer avec le fameux vent d'Essaouira.",
+      "Comment organiser une excursion d'une journée à Essaouira depuis Agadir — que voir, où manger, quoi acheter.",
     relatedTours: ["agadir-to-essaouira-day-trip", "agadir-surf-lesson"],
     content: `
 ## Pourquoi Essaouira vaut le déplacement
@@ -668,9 +668,9 @@ Essaouira est surnommée « la ville venteuse d'Afrique », et pour de bonnes ra
     publishedAt: "2025-07-15",
     updatedAt: "2026-07-15",
     tags: ["Chefchaouen", "ville bleue", "Rif", "médina marocaine", "nord du Maroc"],
-    seoTitle: "Guide de voyage Chefchaouen 2026 — La ville bleue du Maroc",
+    seoTitle: "Guide de voyage Chefchaouen 2026",
     seoDescription:
-      "Votre guide complet de Chefchaouen — pourquoi elle est bleue, que voir, où loger, comment s'y rendre, et les meilleures périodes pour visiter la ville de montagne la plus emblématique du Maroc.",
+      "Votre guide complet de Chefchaouen — pourquoi elle est bleue, que voir, où loger, comment s'y rendre.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "agadir-to-chefchaouen-5day"],
     content: `
 ## Pourquoi Chefchaouen est-elle bleue ?
@@ -754,9 +754,9 @@ Les riads de Chefchaouen offrent un excellent rapport qualité-prix — vous pou
     publishedAt: "2025-08-20",
     updatedAt: "2026-07-15",
     tags: ["gastronomie marocaine", "cuisine marocaine", "tajine", "couscous", "restaurants à Marrakech"],
-    seoTitle: "Guide de la gastronomie marocaine 2026 — 15 plats à essayer",
+    seoTitle: "Guide de la gastronomie marocaine 2026",
     seoDescription:
-      "Le guide essentiel de la gastronomie marocaine — du tajine au couscous, en passant par la pastilla et la harira. Quoi manger, où le trouver, et ce qui rend la cuisine marocaine si extraordinaire.",
+      "Le guide essentiel de la gastronomie marocaine — du tajine au couscous, en passant par la pastilla et la harira.",
     relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     content: `
 ## Pourquoi la cuisine marocaine est extraordinaire
@@ -841,9 +841,9 @@ Un thé vert gunpowder infusé fort, versé de haut (pour créer de la mousse), 
     publishedAt: "2025-09-10",
     updatedAt: "2026-07-15",
     tags: ["vallée de l'Ourika", "excursion depuis Marrakech", "Haut Atlas", "villages berbères", "randonnée"],
-    seoTitle: "Excursion dans la vallée de l'Ourika depuis Marrakech 2026 — Guide complet",
+    seoTitle: "Vallée de l'Ourika depuis Marrakech",
     seoDescription:
-      "Tout sur l'excursion d'une journée dans la vallée de l'Ourika depuis Marrakech — que voir, la randonnée vers la cascade, les villages berbères, meilleure période pour visiter, et conseils pratiques.",
+      "Tout sur l'excursion d'une journée dans la vallée de l'Ourika depuis Marrakech — que voir, la randonnée vers la cascade, les villages berbères.",
     relatedTours: ["ourika-valley-day-hike", "toubkal-summit-2day-marrakech"],
     faq: [
       { q: "Que sont les cascades de Setti Fatma ?", a: "Sept cascades en tête de la vallée de l'Ourika, atteintes par un sentier depuis le village du même nom. La première demande une vingtaine de minutes de marche un peu sportive et c'est celle que voient la plupart des visiteurs ; les six suivantes deviennent progressivement plus raides et plus tranquilles. Notre [randonnée dans la vallée de l'Ourika](/fr/tours/ourika-valley-day-hike) fait des cascades le point fort de la journée." },
@@ -914,9 +914,9 @@ Au printemps (avril–juin), la rivière Ourika, gonflée par la fonte des neige
     publishedAt: "2025-10-05",
     updatedAt: "2026-07-15",
     tags: ["désert d'Agafay", "excursion depuis Marrakech", "désert marocain", "trek à dos de chameau", "glamping"],
-    seoTitle: "Guide du désert d'Agafay 2026 — La nature sauvage rocheuse de Marrakech",
+    seoTitle: "Guide du désert d'Agafay 2026",
     seoDescription:
-      "Tout sur le désert d'Agafay près de Marrakech — ce que c'est, quoi y faire, les meilleurs campements, et en quoi il diffère du Sahara. Excursions d'une journée et séjours d'une nuit expliqués.",
+      "Tout sur le désert d'Agafay près de Marrakech — ce que c'est, quoi y faire, les meilleurs campements, et en quoi il diffère du Sahara.",
     relatedTours: ["agafay-desert-sunset", "zagora-2day-marrakech"],
     faq: [
       { q: "Peut-on faire du dromadaire dans l'Agafay ?", a: "Oui : la version classique est une balade de 45 minutes sur le plateau, calée pour que les sommets de l'Atlas prennent la dernière lumière, et elle est incluse dans notre [circuit Agafay au coucher du soleil](/fr/tours/agafay-desert-sunset). L'Agafay étant une hammada pierreuse et non un erg de sable, la balade traverse un terrain rocheux ouvert avec vue sur les montagnes plutôt qu'entre des dunes. Une autre photo que Merzouga, à trente kilomètres de la ville au lieu de dix heures." },
@@ -998,9 +998,9 @@ Si Agafay vous donne envie d'aller plus loin, le Haut Atlas offre encore plus. O
     publishedAt: "2025-11-10",
     updatedAt: "2026-07-15",
     tags: ["Marrakech", "médina", "Djemaa el-Fna", "souks", "guide de la ville marocaine"],
-    seoTitle: "Guide de la médina de Marrakech 2026 — Tout ce qu'il faut savoir",
+    seoTitle: "Guide de la médina de Marrakech 2026",
     seoDescription:
-      "Le guide complet de l'initié pour la médina de Marrakech — souks, palais, hammams, gastronomie, et comment naviguer dans le plus grand labyrinthe du monde sans être submergé.",
+      "Le guide de la médina de Marrakech : souks, palais, hammams, gastronomie, et comment s'y retrouver sans être submergé.",
     relatedTours: ["marrakech-medina-cultural-tour"],
     content: `
 ## La médina en un coup d'œil
@@ -1079,9 +1079,9 @@ Une visite dans un hammam traditionnel (bain public) est l'une des expériences 
     publishedAt: "2025-11-25",
     updatedAt: "2026-07-15",
     tags: ["Taghazout", "surf au Maroc", "Agadir", "surfer au Maroc", "côte atlantique"],
-    seoTitle: "Guide du surf à Taghazout 2026 — La première destination de surf du Maroc",
+    seoTitle: "Guide du surf à Taghazout 2026",
     seoDescription:
-      "Le guide complet du surf à Taghazout, au Maroc — meilleurs spots, écoles de surf, quand y aller, où loger, et à quoi s'attendre du village de surf le plus célèbre du Maroc.",
+      "Le guide complet du surf à Taghazout, au Maroc — meilleurs spots, écoles de surf, quand y aller, où loger.",
     relatedTours: ["agadir-surf-lesson", "paradise-valley-agadir"],
     content: `
 ## Pourquoi Taghazout ?
@@ -1171,9 +1171,9 @@ Taghazout n'est pas réservée qu'aux surfeurs. Les partenaires et compagnons no
     publishedAt: "2025-12-01",
     updatedAt: "2026-07-15",
     tags: ["Anti-Atlas", "Tafraoute", "randonnée au Maroc", "Agadir", "hors des sentiers battus"],
-    seoTitle: "Guide de randonnée dans l'Anti-Atlas 2026 — Le massif caché du Maroc",
+    seoTitle: "Guide de randonnée dans l'Anti-Atlas 2026",
     seoDescription:
-      "Votre guide de la randonnée dans l'Anti-Atlas marocain — Tafraoute, la vallée des Ameln, les rochers peints, la floraison des amandiers, et des sentiers presque sans autres randonneurs.",
+      "Votre guide de la randonnée dans l'Anti-Atlas marocain — Tafraoute, la vallée des Ameln, les rochers peints, la floraison des amandiers.",
     relatedTours: ["anti-atlas-trekking-agadir", "mgoun-massif-trek"],
     faq: [
       { q: "L'Anti-Atlas est-il plus difficile que le Haut Atlas ?", a: "Il est plus bas et généralement plus doux. Nos randonnées dans l'Anti-Atlas sont classées modérées, contre exigeantes pour les itinéraires du Toubkal, car vous marchez à plus basse altitude sans journée de sommet à 4 167 mètres. La contrepartie est un terrain différent plutôt que plus facile : de longs tronçons secs et des villages isolés au lieu de cols élevés." },
@@ -1246,9 +1246,9 @@ L'Anti-Atlas possède une avifaune exceptionnelle. Le **rougequeue de Moussier**
     publishedAt: "2025-12-15",
     updatedAt: "2026-07-15",
     tags: ["Fès", "médina marocaine", "tannerie Chouara", "villes impériales"],
-    seoTitle: "Guide de voyage de la médina de Fès 2026 — Guide complet de Fès el-Bali",
+    seoTitle: "Guide de voyage de la médina de Fès 2026",
     seoDescription:
-      "Le guide de voyage complet de Fès el-Bali — les tanneries Chouara, Al-Qaraouiyine, la médersa Bou Inania, et comment naviguer dans la ville médiévale la plus complexe au monde.",
+      "Le guide de voyage complet de Fès el-Bali — les tanneries Chouara, Al-Qaraouiyine, la médersa Bou Inania.",
     relatedTours: ["marrakech-to-fes-3day", "agadir-to-fes-4day"],
     content: `
 ## Pourquoi Fès est différente de Marrakech
@@ -1321,9 +1321,9 @@ Quelle que soit votre arrivée, accordez deux journées pleines à la médina. U
     publishedAt: "2025-03-10",
     updatedAt: "2026-07-15",
     tags: ["sécurité au Maroc", "arnaques au Maroc", "le Maroc est-il sûr", "conseils voyage Maroc", "le Maroc pour les touristes", "sécurité à Marrakech"],
-    seoTitle: "Le Maroc est-il sûr pour les touristes ? Guide honnête 2026 — Ce qui est réel, ce qui ne l'est pas",
+    seoTitle: "Le Maroc est-il sûr pour les touristes ?",
     seoDescription:
-      "Le Maroc est sûr pour la plupart des touristes la plupart du temps — mais les visiteurs de première fois doivent savoir quels risques sont réels et lesquels les guides de voyage exagèrent. Des guides berbères agréés vous donnent le tableau honnête.",
+      "Le Maroc est sûr pour la plupart des visiteurs. Quels risques sont réels, lesquels les guides exagèrent, par des guides berbères agréés.",
     relatedTours: ["marrakech-medina-cultural-tour", "toubkal-summit-2day-marrakech"],
     content: `
 Le Maroc se classe systématiquement parmi les destinations les plus sûres d'Afrique pour les touristes étrangers. Le pays dispose d'une infrastructure touristique bien établie, d'un faible taux de criminalité violente selon les normes internationales, et d'une culture de l'hospitalité qui remonte à des siècles. La plupart des visiteurs repartent sans le moindre incident négatif.
@@ -1439,9 +1439,9 @@ Tout le reste, c'est le Maroc qui est simplement le Maroc — bruyant, chaotique
     publishedAt: "2025-05-12",
     updatedAt: "2026-07-15",
     tags: ["Gîte Panorama", "hébergement à Imlil", "camp de base du Toubkal", "gîte du Haut Atlas", "où loger à Imlil", "trek du Toubkal"],
-    seoTitle: "Gîte Panorama Imlil — Guide du camp de base du Toubkal",
+    seoTitle: "Gîte Panorama Imlil",
     seoDescription:
-      "Gîte Panorama à Imlil — le gîte de montagne et camp de base de la famille Aitidar pour nos treks vers le Toubkal. Équipements, quoi apporter, et pourquoi la première nuit compte.",
+      "Gîte Panorama à Imlil — le gîte de montagne et camp de base de la famille Aitidar pour nos treks vers le Toubkal.",
     content: `
 ## Là où commence chaque trek du Toubkal
 
@@ -1514,9 +1514,9 @@ Le gîte n'est pas un hôtel. C'est une exploitation de montagne en activité qu
     publishedAt: "2025-04-03",
     updatedAt: "2026-07-15",
     tags: ["voyage domestique au Maroc", "tourisme marocain", "Atlas Maroc", "Sahara Maroc", "voyager au Maroc", "Toubkal Marocains"],
-    seoTitle: "Le Maroc pour les voyageurs marocains — Guide de l'aventure domestique",
+    seoTitle: "Le Maroc pour les voyageurs marocains",
     seoDescription:
-      "De plus en plus de Marocains découvrent leur propre pays à travers le voyage d'aventure guidé — l'Atlas, le Sahara, les gorges atlantiques. Par où commencer, et pourquoi un guide local change tout.",
+      "De plus en plus de Marocains découvrent leur propre pays à travers le voyage d'aventure guidé — l'Atlas, le Sahara, les gorges atlantiques.",
     relatedTours: ["toubkal-summit-2day-marrakech", "sahara-3day-marrakech"],
     content: `
 ## Le pays que vous possédez déjà
@@ -1589,9 +1589,9 @@ Le Haut Atlas, géologiquement parlant, est encore jeune et continue de s'éleve
     publishedAt: "2025-02-18",
     updatedAt: "2026-07-15",
     tags: ["liste d'équipement Haut Atlas", "équipement Toubkal", "matériel de trekking au Maroc", "quoi emporter au Maroc", "équipement Atlas", "sac pour le Toubkal"],
-    seoTitle: "Liste d'équipement pour un trek dans le Haut Atlas — Quoi emporter pour le Toubkal et l'Atlas",
+    seoTitle: "Équipement trek Haut Atlas",
     seoDescription:
-      "La liste d'équipement définitive pour la randonnée dans le Haut Atlas et le Toubkal, compilée par des guides berbères ayant accompagné des milliers de randonneurs. Ce qui est essentiel, ce qui est facultatif, et ce qu'il faut laisser à la maison.",
+      "La liste d'équipement pour le Haut Atlas et le Toubkal, par des guides berbères : l'essentiel, le facultatif, et ce qu'il faut laisser chez soi.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
     content: `
 ## La version courte
@@ -1703,9 +1703,9 @@ entre les étapes.
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["Toubkal", "guide du Toubkal", "permis Toubkal", "Haut Atlas", "règles de trekking", "Imlil"],
-    seoTitle: "Faut-il un guide pour gravir le Toubkal ? (Règles 2026) | Marrakech Eco Tours",
+    seoTitle: "Faut-il un guide pour gravir le Toubkal ? | Marrakech Eco Tours",
     seoDescription:
-      "Oui — un guide agréé est obligatoire sur le Jbel Toubkal et la gendarmerie le vérifie aux postes de contrôle. Ce qu'exige la règle de 2018, où les contrôles ont lieu, les coûts, et comment engager un guide légalement.",
+      "Oui — un guide agréé est obligatoire sur le Jbel Toubkal et la gendarmerie le vérifie aux postes de contrôle.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
     faq: [
       {
@@ -1810,9 +1810,9 @@ Si vous voulez discuter de l'itinéraire adapté à votre forme physique et à v
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["Toubkal en hiver", "trekking hivernal", "crampons", "piolet", "Haut Atlas", "Maroc en hiver"],
-    seoTitle: "Toubkal en hiver : crampons, compétences et difficulté (2026)",
+    seoTitle: "Toubkal en hiver",
     seoDescription:
-      "Ce qu'implique réellement l'ascension du Jbel Toubkal en hiver — quand la neige arrive, pourquoi crampons et piolet sont requis, si les débutants peuvent le faire, et comment l'itinéraire change de novembre à avril.",
+      "Ce qu'implique réellement l'ascension du Jbel Toubkal en hiver — quand la neige arrive, pourquoi crampons et piolet sont requis.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech"],
     faq: [
       {
@@ -1922,9 +1922,9 @@ Vous ne savez pas de quel côté de cette ligne vous vous situez ? [Dites-nous c
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["Merzouga", "Zagora", "Erg Chebbi", "Erg Chigaga", "Sahara", "circuit désertique", "Marrakech"],
-    seoTitle: "Merzouga contre Zagora : quel circuit désertique au Maroc ? (2026) | Marrakech Eco Tours",
+    seoTitle: "Merzouga contre Zagora | Marrakech Eco Tours",
     seoDescription:
-      "Merzouga a des dunes de 150 m mais se trouve à 9 heures de Marrakech. Zagora est à 6 heures mais n'a pas de vraies dunes. Une comparaison honnête des temps de trajet, des paysages, du coût, et de ce qui convient pour 2 jours contre 3.",
+      "Merzouga a des dunes de 150 m mais se trouve à 9 heures de Marrakech. Zagora est à 6 heures mais n'a pas de vraies dunes.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "erg-chegaga-3day-marrakech"],
     faq: [
       {
@@ -2028,9 +2028,9 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
     publishedAt: "2026-07-15",
     updatedAt: "2026-07-15",
     tags: ["coût au Maroc", "prix circuit désertique", "budget Maroc", "pourboire au Maroc", "circuit saharien"],
-    seoTitle: "Coût d'un circuit désertique au Maroc en 2026 — Prix réels et pourboires | Marrakech Eco Tours",
+    seoTitle: "Prix circuit désertique Maroc 2026 | Marrakech Eco Tours",
     seoDescription:
-      "Prix réels 2026 pour les circuits désertiques au Sahara depuis Marrakech : partagé contre privé contre luxe, ce qu'un circuit à 90 $ sacrifie pour atteindre ce prix, combien donner en pourboire, et pourquoi réserver directement économise 30-50 %.",
+      "Prix réels 2026 pour les circuits désertiques au Sahara depuis Marrakech : partagé contre privé contre luxe.",
     relatedTours: ["sahara-3day-marrakech", "zagora-2day-marrakech", "desert-4day-marrakech"],
     faq: [
       {

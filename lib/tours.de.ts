@@ -3015,7 +3015,7 @@ export const TOURS: Tour[] = [
     origin: "marrakech",
     difficulty: "easy",
     duration: "4 days / 3 nights",
-    groupSize: "2–14 people",
+    groupSize: "3–14 Personen",
     reviewCount: 0,
     rating: 4,
     price: 639,

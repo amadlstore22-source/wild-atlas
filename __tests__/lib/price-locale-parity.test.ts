@@ -32,7 +32,14 @@ const LIB = join(process.cwd(), "lib");
 const EN = "tours.ts";
 const LOCALES = ["tours.fr.ts", "tours.es.ts", "tours.de.ts", "tours.it.ts", "tours.ar.ts"];
 
-type Entry = { price?: string; depositAmount?: string; minPeople?: string; tiers: Record<string, string> };
+type Entry = {
+  price?: string;
+  depositAmount?: string;
+  minPeople?: string;
+  priceMax?: string;
+  tiers: Record<string, string>;
+  groupSize?: string;
+};
 
 /** Line-based on purpose: a regex spanning a whole tour object drifts across
  *  entries on a 4,000-line catalogue and silently compares the wrong tour. */
@@ -47,13 +54,18 @@ function scan(file: string): Record<string, Entry> {
       continue;
     }
     if (!slug) continue;
-    const f = /^\s*(price|depositAmount|minPeople): (\d+),\s*$/.exec(line);
+    const f = /^\s*(price|depositAmount|minPeople|priceMax): (\d+),\s*$/.exec(line);
     if (f) {
-      out[slug][f[1] as "price" | "depositAmount" | "minPeople"] = f[2];
+      out[slug][f[1] as "price" | "depositAmount" | "minPeople" | "priceMax"] = f[2];
       continue;
     }
     const t = /^\s*\{ minPeople: (\d+), price: (\d+) \},\s*$/.exec(line);
-    if (t) out[slug].tiers[t[1]] = t[2];
+    if (t) {
+      out[slug].tiers[t[1]] = t[2];
+      continue;
+    }
+    const g = /^\s*groupSize: "([^"]*)",\s*$/.exec(line);
+    if (g) out[slug].groupSize = g[1];
   }
   return out;
 }
@@ -74,13 +86,27 @@ describe("tour prices are identical in every locale", () => {
         const base = en[slug];
         if (!base) continue; // locale-only tour: nothing to compare against
 
-        for (const field of ["price", "depositAmount", "minPeople"] as const) {
+        for (const field of ["price", "depositAmount", "minPeople", "priceMax"] as const) {
           const mine = entry[field];
           const theirs = base[field];
           // Omitted in the locale is correct -- tours-i18n falls back to EN.
           if (mine === undefined || theirs === undefined) continue;
           if (mine !== theirs) {
             drift.push(`${file} ${slug}.${field}: ${mine} (en: ${theirs})`);
+          }
+        }
+
+        // groupSize is translated prose ("2-12 people" / "2-12 personnes"), so
+        // the WORDS must differ -- but the DIGITS are a commitment about what
+        // party the tour accepts and must not. family-atlas-4day-trek has
+        // minPeople: 3 and advertised "2-14 people" in fr/es/de/it/ar: four
+        // language versions offered a party size that is refused at booking.
+        const digits = (s: string) => (s.match(/\d+/g) ?? []).join(",");
+        if (entry.groupSize && base.groupSize) {
+          if (digits(entry.groupSize) !== digits(base.groupSize)) {
+            drift.push(
+              `${file} ${slug}.groupSize: "${entry.groupSize}" (en: "${base.groupSize}")`,
+            );
           }
         }
 

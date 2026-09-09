@@ -3793,19 +3793,22 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 4-day Marrakech to Merzouga — same length, same route
     // (published table, verified Aug 2026).
-    price: 1395,
-    depositAmount: 307,
+    price: 607,
+    // Family tour, sold as a private vehicle: two travellers is the
+    // smallest bookable party. Without this the headline price would be a
+    // solo rate nobody can actually book -- see group-pricing.test.ts.
+    minPeople: 2,
+    depositAmount: 134,
     groupPricing: [
-      { minPeople: 1, price: 1395 },
-      { minPeople: 2, price: 698 },
-      { minPeople: 3, price: 529 },
-      { minPeople: 4, price: 459 },
-      { minPeople: 5, price: 416 },
-      { minPeople: 6, price: 357 },
-      { minPeople: 7, price: 335 },
-      { minPeople: 10, price: 325 },
-      { minPeople: 14, price: 303 },
-    ],
+        { minPeople: 2, price: 607 },
+        { minPeople: 3, price: 460 },
+        { minPeople: 4, price: 399 },
+        { minPeople: 5, price: 362 },
+        { minPeople: 6, price: 311 },
+        { minPeople: 7, price: 291 },
+        { minPeople: 10, price: 283 },
+        { minPeople: 14, price: 264 },
+      ],
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3884,7 +3887,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Family Desert Tour 4 Days | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set and a family desert camp. From $1395.",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set and a family desert camp. From $607.",
     faq: [
       { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
       { q: "What makes the desert camp family-friendly?", a: "The camp used on this trip has proper beds, private or shared bathroom tents, and dinner served together rather than a bare bivouac. The camel rides are short and led on foot, and there is space around the fire for children in the evening." },

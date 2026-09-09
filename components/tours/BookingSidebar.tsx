@@ -131,9 +131,20 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           </div>
           {cheapest.minPeople > 1 && (
             <div className="text-white/85 text-xs mt-1">
-              {(b.perPersonGroupNote ?? "per person for {count}+ travellers · {solo} solo").
-                replace("{count}", String(cheapest.minPeople)).
-                replace("{solo}", format(tour.price))}
+              {/* Two phrasings, because tour.price is only a SOLO rate when the
+                  tour can actually be booked by one person. On the three tours
+                  with a booking minimum (family-atlas-4day-trek,
+                  family-desert-4day-marrakech, high-atlas-grand-traverse-15day)
+                  it is the smallest-party rate, and the solo wording rendered
+                  "€554 solo" on a trek that will not sell a single place. */}
+              {(tour.minPeople ?? 1) > 1
+                ? (b.perPersonMinPartyNote ?? "per person for {count}+ travellers · {solo} for {min}").
+                    replace("{count}", String(cheapest.minPeople)).
+                    replace("{solo}", format(tour.price)).
+                    replace("{min}", (b.minPartyWord ?? "{n} travellers").replace("{n}", String(tour.minPeople)))
+                : (b.perPersonGroupNote ?? "per person for {count}+ travellers · {solo} solo").
+                    replace("{count}", String(cheapest.minPeople)).
+                    replace("{solo}", format(tour.price))}
             </div>
           )}
           <div className="text-white/55 text-xs mt-1">{b.exactPriceNote}</div>

@@ -3678,7 +3678,7 @@ Prenotare in diretta mantiene quella somma alle persone che mandano avanti il ca
       "Quanto costa un tour di 4 giorni nel deserto marocchino in famiglia nel 2026: trasporto, campi, giri in cammello e pasti dettagliati.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
-      { q: "Quanto costa un tour nel deserto in famiglia in Marocco?", a: "Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech) costa 398 € a persona e comprende trasporto privato con aria condizionata, un autista-guida bilingue, tre notti di alloggio con cene e colazioni, e i giri in cammello al tramonto e all'alba all'Erg Chebbi. Calcola circa 40-60 € a persona in più per i pranzi." },
+      { q: "Quanto costa un tour nel deserto in famiglia in Marocco?", a: "Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech) costa 346 € a persona e comprende trasporto privato con aria condizionata, un autista-guida bilingue, tre notti di alloggio con cene e colazioni, e i giri in cammello al tramonto e all'alba all'Erg Chebbi. Calcola circa 40-60 € a persona in più per i pranzi." },
       { q: "Un tour nel deserto è adatto ai bambini piccoli?", a: "I giri in cammello e le dune sono la parte facile: ai bambini piacciono quasi sempre entrambi. La parte impegnativa è la strada: Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e quattro hanno lunghi tratti in veicolo. L'itinerario di 4 giorni la spezza con tappe nella valle del Dades e a Ouarzazate invece di farla tutta d'un fiato, ed è questo che lo rende praticabile con i bambini." },
       { q: "I bambini pagano il prezzo pieno in un tour nel deserto?", a: "Chiedeteci: dipende dalle età e da come il vostro gruppo riempie il veicolo. Poiché trasporto, autista-guida e campo sono in gran parte costi per viaggio e non a persona, una famiglia di quattro spesso costa sensibilmente meno a testa di due adulti che viaggiano da soli. Scriveteci età e date e vi diamo la cifra reale." },
       { q: "Cosa devono prevedere le famiglie oltre al prezzo del tour?", a: "I pranzi a circa 12-15 € a persona a pasto, il biglietto facoltativo per gli Atlas Studios a circa 7 €, l'assicurazione di viaggio e le mance. Per una famiglia di quattro su quattro giorni sono realisticamente 150-250 € oltre al prezzo del tour." },
@@ -3756,7 +3756,7 @@ persona che escono dal Marocco. Su una famiglia di quattro è una somma consider
 raggiunge mai il campo, i cammellieri o le case di villaggio. Prenotare in diretta la
 mantiene nel Paese.
 
-👉 **[Scopri il tour di 4 giorni nel deserto per famiglie](/it/tours/family-desert-4day-marrakech)** — 398 € a persona, tre notti, giri in cammello all'Erg Chebbi, con un ritmo pensato per i bambini.
+👉 **[Scopri il tour di 4 giorni nel deserto per famiglie](/it/tours/family-desert-4day-marrakech)** — 346 € a persona, tre notti, giri in cammello all'Erg Chebbi, con un ritmo pensato per i bambini.
 `,
   },
   {
@@ -4407,7 +4407,7 @@ numero che vedi per il tuo gruppo è quello che paghi.
       { q: "Vale la pena spendere di più per un tour privato nel deserto?", a: "Dipende quasi interamente dalla dimensione del gruppo. Da soli, un posto condiviso costa molto meno e la risposta onesta è di solito no: una persona non può ripartire il costo di un 4x4. In due, il nostro [tour privato di 4 giorni](/it/tours/desert-4day-marrakech) costa 446 € a testa, più o meno quanto un posto condiviso sullo stesso itinerario. In quattro sono 274 € e in sei 236 €, quindi da circa tre persone in su il privato è insieme più economico e migliore." },
       { q: "Quante persone ci sono su un tour condiviso nel deserto marocchino?", a: "Di solito da sei a dieci, su un minibus che ne può ospitare sedici. Le nostre partenze condivise si fermano a dieci perché nessuno passi quattro giorni su un sedile centrale. Non conoscerai il gruppo in anticipo, e l'orario lo detta l'itinerario e non i passeggeri: è lo scambio che accetti in cambio del prezzo più basso." },
       { q: "Si può fermarsi per le foto su un tour condiviso?", a: "Sì, ma alle soste previste e non su richiesta. L'autista segue un orario che deve funzionare per tutto il veicolo, quindi i punti panoramici del Tizi n'Tichka, Aït Ben Haddou e le gole del Todra hanno tutti la loro sosta, mentre la curva senza nome con la luce giusta no. Su un tour privato quella sosta ti costa una frase all'autista." },
-      { q: "Cosa è meglio per una famiglia con bambini piccoli?", a: "Un tour privato, e non soprattutto per comodità. I bambini impongono i propri tempi per pasti, riposini e soste in bagno, e un minibus condiviso non può assorbirlo senza disturbare otto sconosciuti. Il [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) costa 398 € a persona in quattro — e una famiglia di quattro è esattamente la dimensione in cui il privato smette di costare un supplemento." },
+      { q: "Cosa è meglio per una famiglia con bambini piccoli?", a: "Un tour privato, e non soprattutto per comodità. I bambini impongono i propri tempi per pasti, riposini e soste in bagno, e un minibus condiviso non può assorbirlo senza disturbare otto sconosciuti. Il [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) costa 346 € a persona in quattro — e una famiglia di quattro è esattamente la dimensione in cui il privato smette di costare un supplemento." },
     ],
     content: `
 ## La risposta breve
@@ -4540,7 +4540,7 @@ che la gente ricorda.
 Tutti i nostri tour sono privati e ognuno pubblica la sua tabella sulla pagina: il
 numero che vedete per il vostro gruppo è quello che pagate.
 
-👉 **[Scopri il Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)** — 446 € a testa in due, 236 € in sei — oppure **[il tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 398 € a testa in quattro.
+👉 **[Scopri il Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)** — 446 € a testa in due, 236 € in sei — oppure **[il tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 346 € a testa in quattro.
 `,
   },
   {
@@ -4693,7 +4693,7 @@ In sintesi: **più il viaggio è lungo e costoso, più conviene prenotare dirett
   commissione è di un paio di euro. Prenota dove ti fa comodo.
 - Un [tour condiviso a Zagora](/it/tours/zagora-2day-marrakech) da 77 €: sono ancora
   pochi soldi, ma guadagni una persona vera a cui chiedere del punto di ritrovo.
-- Un [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) da 1.592 € in
+- Un [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) da 1.384 € in
   quattro: qui uno strato di commissione vale diverse centinaia di euro, e non ti dà
   nulla che l'operatore non stesse già fornendo.
 

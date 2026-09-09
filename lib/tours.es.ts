@@ -3115,8 +3115,12 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 930,
-    depositAmount: 205,
+    price: 607,
+    // Family tour, sold as a private vehicle: two travellers is the
+    // smallest bookable party. Without this the headline price would be a
+    // solo rate nobody can actually book -- see group-pricing.test.ts.
+    minPeople: 2,
+    depositAmount: 134,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3193,7 +3197,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "Tour familiar al desierto 4 días | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
+    seoDescription: "Circuito familiar de 4 días de Marrakech a las dunas de Erg Chebbi: paseos en camello, sandboard, kasbah de cine y campamento familiar. Desde 607 $.",
     faq: [
       { q: "¿Es apto este circuito del desierto para niños pequeños?", a: "Sí. No hay exigencia de caminar: todo se mueve en un vehículo con aire acondicionado, y las paradas (kasbah, garganta, dunas) son cortas y fáciles. La conducción es real, eso sí, así que conviene a niños que viajan razonablemente bien en coche; las etapas se fraccionan a propósito con paradas frecuentes para ayudar." },
       { q: "¿Qué hace que el campamento del desierto sea apto para familias?", a: "El campamento que se usa en este viaje tiene camas de verdad, tiendas de baño privadas o compartidas y cena servida en común más que un vivac desnudo. Los paseos en camello son cortos y guiados a pie, y hay espacio alrededor del fuego para los niños por la noche." },

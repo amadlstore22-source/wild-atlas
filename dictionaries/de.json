@@ -316,7 +316,9 @@
     "fixedDepartureSeats": "{count} Plätze pro Termin",
     "fixedDepartureWas": "statt {price}",
     "fixedDepartureSave": "{price} sparen",
-    "fixedDepartureNote": "Eine Gruppenreise mit festem Termin, verkauft pro Platz. Der Preis ist unabhängig von Ihrer Gruppengröße derselbe."
+    "fixedDepartureNote": "Eine Gruppenreise mit festem Termin, verkauft pro Platz. Der Preis ist unabhängig von Ihrer Gruppengröße derselbe.",
+    "perPersonMinPartyNote": "pro Person ab {count} Reisenden · {solo} für {min}",
+    "minPartyWord": "{n} Reisende"
   },
   "cookieBanner": {
     "body": "Wir verwenden Cookies für Ihre Einstellungen und, mit Ihrer Zustimmung, Google Analytics. Notwendige Cookies sind immer aktiv.",

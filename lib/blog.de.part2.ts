@@ -3684,7 +3684,7 @@ hält das bei den Menschen, die das Camp betreiben.
       "Was eine 4-tägige Familien-Wüstentour in Marokko 2026 kostet: Transport, Camps, Kamelritte und Mahlzeiten aufgeschlüsselt, plus die praktischen Extras.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
-      { q: "Was kostet eine Familien-Wüstentour in Marokko?", a: "Unsere [4-tägige Familien-Wüstentour ab Marrakesch](/de/tours/family-desert-4day-marrakech) kostet 398 € pro Person und umfasst klimatisierten Privattransport, einen zweisprachigen Fahrer-Guide, drei Nächte Unterkunft mit Abendessen und Frühstück sowie Kamelritte bei Sonnenuntergang und Sonnenaufgang am Erg Chebbi. Rechnen Sie mit etwa 40–60 € pro Person zusätzlich für Mittagessen." },
+      { q: "Was kostet eine Familien-Wüstentour in Marokko?", a: "Unsere [4-tägige Familien-Wüstentour ab Marrakesch](/de/tours/family-desert-4day-marrakech) kostet 346 € pro Person und umfasst klimatisierten Privattransport, einen zweisprachigen Fahrer-Guide, drei Nächte Unterkunft mit Abendessen und Frühstück sowie Kamelritte bei Sonnenuntergang und Sonnenaufgang am Erg Chebbi. Rechnen Sie mit etwa 40–60 € pro Person zusätzlich für Mittagessen." },
       { q: "Ist eine Wüstentour für kleine Kinder geeignet?", a: "Die Kamelritte und die Dünen sind der einfache Teil — Kinder lieben beides meist. Anspruchsvoll ist die Fahrt: Merzouga liegt rund 560 km von Marrakesch entfernt, also haben Tag eins und vier lange Fahrzeugetappen. Die 4-Tages-Route bricht sie mit Übernachtungen im Dades-Tal und in Ouarzazate, statt sie am Stück zu fahren — das macht sie mit Kindern machbar." },
       { q: "Zahlen Kinder auf einer Wüstentour den vollen Preis?", a: "Fragen Sie uns — das hängt vom Alter ab und davon, wie Ihre Gruppe das Fahrzeug füllt. Da Transport, Fahrer-Guide und Camp weitgehend Kosten pro Reise und nicht pro Person sind, kommt eine vierköpfige Familie pro Kopf oft deutlich günstiger weg als zwei allein reisende Erwachsene. Schreiben Sie uns Alter und Daten, und wir nennen die tatsächliche Zahl." },
       { q: "Was sollten Familien zusätzlich zum Tourpreis einplanen?", a: "Mittagessen zu etwa 12–15 € pro Person und Mahlzeit, das optionale Ticket für die Atlas-Filmstudios für rund 7 €, Reiseversicherung und Trinkgeld. Für eine vierköpfige Familie über vier Tage sind das realistisch 150–250 € zusätzlich zum Tourpreis." },
@@ -3762,7 +3762,7 @@ Person, die Marokko verlassen. Bei einer vierköpfigen Familie ist das eine erhe
 die weder das Camp noch die Kameltreiber noch die Gästehäuser erreicht. Direkt zu buchen
 hält sie im Land.
 
-👉 **[Die 4-tägige Familien-Wüstentour ansehen](/de/tours/family-desert-4day-marrakech)** — 398 € pro Person, drei Nächte, Kamelritte am Erg Chebbi, im Tempo für Kinder.
+👉 **[Die 4-tägige Familien-Wüstentour ansehen](/de/tours/family-desert-4day-marrakech)** — 346 € pro Person, drei Nächte, Kamelritte am Erg Chebbi, im Tempo für Kinder.
 `,
   },
   {
@@ -4419,7 +4419,7 @@ und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
       { q: "Lohnt sich der Aufpreis für eine private Wüstentour?", a: "Das hängt fast vollständig von der Gruppengröße ab. Allein ist ein geteilter Platz deutlich günstiger und die ehrliche Antwort lautet meist nein — eine Person kann die Kosten eines 4x4 nicht verteilen. Zu zweit kostet unsere [private 4-Tage-Tour](/de/tours/desert-4day-marrakech) 446 € pro Person, ungefähr so viel wie ein geteilter Platz auf derselben Route. Zu viert sind es 274 € und zu sechst 236 €, ab etwa drei Personen ist privat also zugleich günstiger und besser." },
       { q: "Wie viele Personen sind auf einer geteilten Wüstentour in Marokko?", a: "Üblicherweise sechs bis zehn, in einem Minibus mit bis zu sechzehn Plätzen. Geteilte Abfahrten sind meist auf zehn bis zwölf begrenzt, damit niemand vier Tage auf einem Mittelsitz verbringt. Sie kennen die Gruppe vorher nicht, und den Zeitplan bestimmt die Route, nicht die Mitreisenden — das ist der Handel, den Sie für den niedrigeren Preis eingehen." },
       { q: "Kann man auf einer geteilten Wüstentour für Fotos anhalten?", a: "Ja, aber an geplanten Stopps und nicht auf Zuruf. Der Fahrer hält einen Zeitplan ein, der für das ganze Fahrzeug funktionieren muss: Die Aussichtspunkte am Tizi n'Tichka, Aït Ben Haddou und die Todra-Schlucht bekommen alle ihren Stopp, die namenlose Kurve mit dem schönen Licht nicht. Auf einer Privattour kostet dieser Stopp einen Satz an den Fahrer." },
-      { q: "Was ist besser für eine Familie mit kleinen Kindern?", a: "Eine Privattour, und nicht in erster Linie wegen des Komforts. Kinder bestimmen ihren eigenen Rhythmus bei Mahlzeiten, Nickerchen und Toilettenpausen, und ein geteilter Minibus kann das nicht auffangen, ohne acht Fremde zu stören. Die [4-Tage-Familientour](/de/tours/family-desert-4day-marrakech) kostet 398 € pro Person zu viert — und eine vierköpfige Familie ist genau die Größe, ab der privat keinen Aufpreis mehr kostet." },
+      { q: "Was ist besser für eine Familie mit kleinen Kindern?", a: "Eine Privattour, und nicht in erster Linie wegen des Komforts. Kinder bestimmen ihren eigenen Rhythmus bei Mahlzeiten, Nickerchen und Toilettenpausen, und ein geteilter Minibus kann das nicht auffangen, ohne acht Fremde zu stören. Die [4-Tage-Familientour](/de/tours/family-desert-4day-marrakech) kostet 346 € pro Person zu viert — und eine vierköpfige Familie ist genau die Größe, ab der privat keinen Aufpreis mehr kostet." },
     ],
     content: `
 ## Die kurze Antwort
@@ -4550,7 +4550,7 @@ die Freiheit ist das, woran sich Leute erinnern.
 Alle unsere Touren sind privat, und jede veröffentlicht ihre Staffeltabelle auf der
 Seite: Die Zahl bei Ihrer Gruppengröße ist die Zahl, die Sie zahlen.
 
-👉 **[Zur 4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)** — 446 € pro Person zu zweit, 236 € zu sechst — oder **[zur 4-Tage-Familientour](/de/tours/family-desert-4day-marrakech)** für 398 € pro Person zu viert.
+👉 **[Zur 4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)** — 446 € pro Person zu zweit, 236 € zu sechst — oder **[zur 4-Tage-Familientour](/de/tours/family-desert-4day-marrakech)** für 346 € pro Person zu viert.
 `,
   },
   {

@@ -3077,8 +3077,12 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 930,
-    depositAmount: 205,
+    price: 607,
+    // Family tour, sold as a private vehicle: two travellers is the
+    // smallest bookable party. Without this the headline price would be a
+    // solo rate nobody can actually book -- see group-pricing.test.ts.
+    minPeople: 2,
+    depositAmount: 134,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3155,7 +3159,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "جولة صحراوية عائلية 4 أيام | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
+    seoDescription: "رحلة صحراوية عائلية 4 أيام من مراكش إلى كثبان عرق الشبي: ركوب الجمال، التزلج على الرمال، قصبة سينمائية ومخيم عائلي. من 607 $.",
     faq: [
       { q: "هل تناسب جولة الصحراء هذه الأطفال الصغار؟", a: "نعم. لا مطلب للمشي — كل شيء يتنقّل في مركبة مكيّفة، والتوقفات (القصبة، المضيق، الكثبان) قصيرة وسهلة. القيادة حقيقية مع ذلك، فتناسب الأطفال الذين يسافرون بالسيارة بشكل معقول؛ المراحل مجزّأة عمداً بتوقفات متكررة للمساعدة." },
       { q: "ما الذي يجعل المخيّم الصحراوي مناسباً للعائلات؟", a: "المخيّم المستخدم في هذه الرحلة يضم أسرّة حقيقية وخيام حمّام خاصة أو مشتركة وعشاءً يُقدَّم معاً لا مبيتاً عارياً. جولات الجمل قصيرة وتُقاد سيراً، وثمة مساحة حول النار للأطفال في المساء." },

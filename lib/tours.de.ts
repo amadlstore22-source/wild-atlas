@@ -3115,8 +3115,12 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 930,
-    depositAmount: 205,
+    price: 607,
+    // Family tour, sold as a private vehicle: two travellers is the
+    // smallest bookable party. Without this the headline price would be a
+    // solo rate nobody can actually book -- see group-pricing.test.ts.
+    minPeople: 2,
+    depositAmount: 134,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3193,7 +3197,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.0580, lng: -4.0127, name: "Merzouga, Erg Chebbi Sahara" },
     seoTitle: "Familien-Wüstentour 4 Tage | Marrakech Eco Tours",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set, hotel pools and a family desert camp. From $930.",
+    seoDescription: "4-Tage-Familienwüstentour von Marrakesch zu den Dünen des Erg Chebbi: Kamelritte, Sandboarden, Film-Kasbah und Familiencamp. Ab 607 $.",
     faq: [
       { q: "Ist dieser Wüstentrip für kleine Kinder geeignet?", a: "Ja. Es gibt keinen Gehanspruch — alles bewegt sich im klimatisierten Fahrzeug, und die Stopps (Kasbah, Schlucht, Dünen) sind kurz und leicht. Die Fahrt ist allerdings real, er passt also für Kinder, die einigermaßen gut im Auto reisen; die Etappen sind bewusst mit häufigen Stopps aufgeteilt, um zu helfen." },
       { q: "Was macht das Wüstencamp familienfreundlich?", a: "Das auf dieser Reise genutzte Camp hat richtige Betten, private oder geteilte Bad-Zelte und gemeinsam serviertes Abendessen statt eines nackten Biwaks. Die Kamelritte sind kurz und zu Fuß geführt, und es gibt abends Platz am Feuer für Kinder." },

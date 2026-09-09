@@ -3683,7 +3683,7 @@ Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
       "Lo que cuesta un tour familiar de 4 días por el desierto marroquí en 2026: transporte, campamentos, paseos en camello y comidas desglosados.",
     relatedTours: ["family-desert-4day-marrakech", "family-atlas-4day-trek", "desert-4day-marrakech"],
     faq: [
-      { q: "¿Cuánto cuesta un tour por el desierto en familia en Marruecos?", a: "Nuestro [tour familiar de 4 días por el desierto desde Marrakech](/es/tours/family-desert-4day-marrakech) cuesta 398 € por persona e incluye transporte privado con aire acondicionado, conductor-guía bilingüe, tres noches de alojamiento con cenas y desayunos, y paseos en camello al atardecer y al amanecer en el Erg Chebbi. Calcula unos 40–60 € más por persona para las comidas." },
+      { q: "¿Cuánto cuesta un tour por el desierto en familia en Marruecos?", a: "Nuestro [tour familiar de 4 días por el desierto desde Marrakech](/es/tours/family-desert-4day-marrakech) cuesta 346 € por persona e incluye transporte privado con aire acondicionado, conductor-guía bilingüe, tres noches de alojamiento con cenas y desayunos, y paseos en camello al atardecer y al amanecer en el Erg Chebbi. Calcula unos 40–60 € más por persona para las comidas." },
       { q: "¿Es adecuado un tour por el desierto para niños pequeños?", a: "Los paseos en camello y las dunas son la parte fácil: a los niños suelen encantarles ambos. La parte exigente es la carretera: Merzouga está a unos 560 km de Marrakech, así que los días uno y cuatro tienen tramos largos en vehículo. El itinerario de 4 días lo parte con noches en el valle del Dades y en Uarzazate en lugar de hacerlo del tirón, y eso es lo que lo hace viable con niños." },
       { q: "¿Los niños pagan precio completo en un tour por el desierto?", a: "Pregúntanos: depende de las edades y de cómo llene el vehículo vuestro grupo. Como el transporte, el conductor-guía y el campamento son en gran medida costes por viaje y no por persona, una familia de cuatro suele salir bastante más barata por cabeza que dos adultos solos. Escríbenos con las edades y las fechas y te damos la cifra real." },
       { q: "¿Qué deben presupuestar las familias además del precio del tour?", a: "Las comidas a unos 12–15 € por persona y comida, la entrada opcional a los Estudios Atlas a unos 7 €, el seguro de viaje y las propinas. Para una familia de cuatro en cuatro días eso son realmente 150–250 € además del precio del tour." },
@@ -3761,7 +3761,7 @@ persona que salen de Marruecos. En una familia de cuatro es una cantidad conside
 nunca llega al campamento, a los camelleros ni a las casas rurales. Reservar en directo lo
 mantiene en el país.
 
-👉 **[Descubre el tour familiar de 4 días por el desierto](/es/tours/family-desert-4day-marrakech)** — 398 € por persona, tres noches, paseos en camello en el Erg Chebbi, con un ritmo pensado para niños.
+👉 **[Descubre el tour familiar de 4 días por el desierto](/es/tours/family-desert-4day-marrakech)** — 346 € por persona, tres noches, paseos en camello en el Erg Chebbi, con un ritmo pensado para niños.
 `,
   },
   {
@@ -4413,7 +4413,7 @@ ves para tu grupo es el que pagas.
       { q: "¿Merece la pena pagar más por un circuito privado por el desierto?", a: "Depende casi por completo del tamaño del grupo. Solo, una plaza compartida es mucho más barata y la respuesta honesta suele ser no: una persona no puede repartir el coste de un 4x4. Siendo dos, nuestro [circuito privado de 4 días](/es/tours/desert-4day-marrakech) sale a 446 € cada uno, más o menos lo que cuesta una plaza compartida en la misma ruta. Con cuatro son 274 € y con seis 236 €, así que a partir de unas tres personas el privado es a la vez más barato y mejor." },
       { q: "¿Cuánta gente va en un circuito compartido por el desierto de Marruecos?", a: "Normalmente entre seis y diez, en un minibús con capacidad para dieciséis. Nuestras salidas compartidas se limitan a diez para que nadie pase cuatro días en un asiento central. No conocerás al grupo de antemano, y el horario lo marca el itinerario y no los pasajeros: ese es el intercambio que aceptas a cambio del precio más bajo." },
       { q: "¿Se puede parar a hacer fotos en un circuito compartido?", a: "Sí, pero en las paradas previstas y no a petición. El conductor sigue un horario que debe funcionar para todo el vehículo, así que los miradores del Tizi n'Tichka, Aït Ben Haddou y las gargantas del Todra tienen su parada, pero la curva sin nombre con la luz bonita no. En un circuito privado esa parada te cuesta una frase al conductor." },
-      { q: "¿Qué es mejor para una familia con niños pequeños?", a: "Un circuito privado, y no sobre todo por comodidad. Los niños marcan su propio horario de comidas, siestas y paradas al baño, y un minibús compartido no puede absorberlo sin incomodar a ocho desconocidos. El [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) sale a 398 € por persona siendo cuatro, y una familia de cuatro es justo el tamaño en el que el privado deja de costar un suplemento." },
+      { q: "¿Qué es mejor para una familia con niños pequeños?", a: "Un circuito privado, y no sobre todo por comodidad. Los niños marcan su propio horario de comidas, siestas y paradas al baño, y un minibús compartido no puede absorberlo sin incomodar a ocho desconocidos. El [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) sale a 346 € por persona siendo cuatro, y una familia de cuatro es justo el tamaño en el que el privado deja de costar un suplemento." },
     ],
     content: `
 ## La respuesta corta
@@ -4543,7 +4543,7 @@ es lo que la gente recuerda.
 Todos nuestros circuitos son privados y cada uno publica su tabla de tramos en su
 página: el número que ves para tu tamaño de grupo es el que pagas.
 
-👉 **[Descubre el Gran Circuito de 4 días](/es/tours/desert-4day-marrakech)** — 446 € cada uno siendo dos, 236 € siendo seis — o **[el circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech)** a 398 € cada uno siendo cuatro.
+👉 **[Descubre el Gran Circuito de 4 días](/es/tours/desert-4day-marrakech)** — 446 € cada uno siendo dos, 236 € siendo seis — o **[el circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech)** a 346 € cada uno siendo cuatro.
 `,
   },
   {
@@ -4696,7 +4696,7 @@ En resumen: **cuanto más largo y caro es el viaje, más compensa reservar direc
   comisión son un par de euros. Reserva donde te resulte cómodo.
 - Un [circuito compartido a Zagora](/es/tours/zagora-2day-marrakech) de 77 €: sigue
   siendo poco dinero, pero ganas una persona real a quien preguntar por la recogida.
-- Un [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) de 1.592 €
+- Un [circuito familiar de 4 días](/es/tours/family-desert-4day-marrakech) de 1.384 €
   para cuatro: aquí una capa de comisión son varios cientos de euros, y no te aporta
   nada que el operador no estuviera dando ya.
 

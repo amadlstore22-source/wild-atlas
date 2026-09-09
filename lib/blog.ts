@@ -5972,7 +5972,7 @@ Moroccan operator keeps it with the people running the camp.
     seoDescription:
       "What a 4-day family desert tour in Morocco costs in 2026: transport, camps, camel rides and meals itemised.",
     faq: [
-      { q: "How much does a family desert tour in Morocco cost?", a: "Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is €398 per person for a family of four — €1,592 for the four of you — and includes air-conditioned private transport, a bilingual driver-guide, three nights of accommodation with dinners and breakfasts, and sunset and sunrise camel rides at Erg Chebbi. A couple pays €558 each and a solo traveller €1,209, because the vehicle and driver cost the same however many seats are filled. Budget roughly €40–60 per person on top for lunches." },
+      { q: "How much does a family desert tour in Morocco cost?", a: "Our [4-day family desert tour from Marrakech](/en/tours/family-desert-4day-marrakech) is €346 per person for a family of four — €1,384 for the four of you — and includes air-conditioned private transport, a bilingual driver-guide, three nights of accommodation with dinners and breakfasts, and sunset and sunrise camel rides at Erg Chebbi. A couple pays €526 each, because the vehicle and driver cost the same however many seats are filled. Two travellers is the minimum. Budget roughly €40–60 per person on top for lunches." },
       { q: "Is a desert tour suitable for young children?", a: "The camel rides and the dunes themselves are the easy part — children generally love both. The demanding part is the driving: Merzouga is about 560 km from Marrakech, so days one and four involve long stretches in the vehicle. The 4-day itinerary breaks it with overnight stops in the Dades Valley and Ouarzazate rather than driving it in one push, which is what makes it workable with kids." },
       { q: "Do children pay full price on a desert tour?", a: "Ask us — it depends on ages and how your group fills the vehicle. Because the transport, the driver-guide and the camp are largely per-trip costs rather than per-person, a family of four often works out considerably cheaper per head than two adults travelling alone. Message us with your ages and dates and we will quote the actual number." },
       { q: "What should families budget on top of the tour price?", a: "Lunches at roughly €12–15 per person per meal, the optional Atlas Film Studios ticket at around €7, travel insurance, and tips. For a family of four over four days that is realistically €150–250 on top of the tour price." },
@@ -6048,7 +6048,7 @@ Platform commission of **25–40%** on a €1,388 family booking is up to €555
 On a family of four that is a substantial sum that never reaches the camp, the camel
 handlers or the guesthouses. Booking direct keeps it in the country.
 
-👉 **[See the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — €398 per person for a family of four, three nights, camel rides at Erg Chebbi, paced for children.
+👉 **[See the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** — €346 per person for a family of four, three nights, camel rides at Erg Chebbi, paced for children.
 `,
   },
   {
@@ -6704,7 +6704,7 @@ size is the number you pay.
       { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €446 each, which is roughly what a shared seat on the same route costs. At four it is €274 each and at six €236, so from about three people up the private tour is both cheaper and better." },
       { q: "How many people are on a shared Morocco desert tour?", a: "Typically six to ten, in a minibus that seats up to sixteen. Our shared departures cap at ten so nobody is in a middle seat for four days. You will not know the group in advance, and the schedule is set by the itinerary rather than by the passengers — that is the trade you are making for the lower price." },
       { q: "Can you stop for photos on a shared desert tour?", a: "Yes, but at scheduled stops rather than on request. The driver holds a timetable that has to work for everyone in the vehicle, so the Tizi n’Tichka viewpoints, Ait Ben Haddou and the Todra Gorge all get their stop, while the unmarked bend with the good light does not. On a private tour that stop costs you a sentence to the driver." },
-      { q: "Which is better for a family with young children?", a: "A private tour, and not primarily for comfort. Children set their own schedule for meals, naps and toilet stops, and a shared minibus cannot absorb that without inconveniencing eight strangers. The [4-day family desert tour](/en/tours/family-desert-4day-marrakech) is €398 per person for four — and a family of four is exactly the size at which private stops costing a premium." },
+      { q: "Which is better for a family with young children?", a: "A private tour, and not primarily for comfort. Children set their own schedule for meals, naps and toilet stops, and a shared minibus cannot absorb that without inconveniencing eight strangers. The [4-day family desert tour](/en/tours/family-desert-4day-marrakech) is €346 per person for four — and a family of four is exactly the size at which private stops costing a premium." },
     ],
     content: `
 ## The short answer
@@ -6833,7 +6833,7 @@ part people remember.
 Every tour we run is private, and every one publishes its tier table on the page,
 so the number you see at your group size is the number you pay.
 
-👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €446 each for two, €236 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €398 each for four.
+👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €446 each for two, €236 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €346 each for four.
 `,
   },
   {
@@ -6983,7 +6983,7 @@ worth.**
   a couple of euros. Book wherever is convenient.
 - A €360 [2-day Zagora trip](/en/tours/zagora-2day-marrakech) for one: the
   commission is now real money, and you gain a person to ask about pickup.
-- A €1,592 [4-day family desert tour](/en/tours/family-desert-4day-marrakech) for
+- A €1,384 [4-day family desert tour](/en/tours/family-desert-4day-marrakech) for
   four: a commission layer here is a few hundred euros, and it buys you nothing the
   operator was not already providing.
 

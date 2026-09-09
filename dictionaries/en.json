@@ -316,7 +316,9 @@
     "fixedDepartureSeats": "{count} seats per departure",
     "fixedDepartureWas": "was {price}",
     "fixedDepartureSave": "Save {price}",
-    "fixedDepartureNote": "A set-date group departure, sold by the seat. The price is the same whatever the size of your party."
+    "fixedDepartureNote": "A set-date group departure, sold by the seat. The price is the same whatever the size of your party.",
+    "perPersonMinPartyNote": "per person for {count}+ travellers · {solo} for {min}",
+    "minPartyWord": "{n} travellers"
   },
   "cookieBanner": {
     "body": "We use cookies for your preferences and, with your consent, Google Analytics. Necessary cookies are always on.",

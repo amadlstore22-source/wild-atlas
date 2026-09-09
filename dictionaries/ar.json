@@ -316,7 +316,9 @@
     "fixedDepartureSeats": "{count} مقعدًا لكل موعد",
     "fixedDepartureWas": "بدلًا من {price}",
     "fixedDepartureSave": "وفّر {price}",
-    "fixedDepartureNote": "رحلة جماعية بموعد ثابت، تُباع بالمقعد. السعر واحد مهما كان عدد أفراد مجموعتك."
+    "fixedDepartureNote": "رحلة جماعية بموعد ثابت، تُباع بالمقعد. السعر واحد مهما كان عدد أفراد مجموعتك.",
+    "perPersonMinPartyNote": "للفرد عند {count}+ مسافرين · {solo} لـ {min}",
+    "minPartyWord": "{n} مسافرين"
   },
   "cookieBanner": {
     "body": "نستخدم ملفات تعريف الارتباط لتفضيلاتك، وبموافقتك، Google Analytics. الملفات الضرورية تعمل دائمًا.",

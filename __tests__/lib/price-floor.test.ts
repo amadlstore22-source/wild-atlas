@@ -40,7 +40,16 @@ describe("competitor price floor", () => {
         competitorsFor(slug).flatMap((c) => Object.keys(c.prices).map(Number)),
       );
 
+      // Skip group sizes this tour cannot sell. A competitor listing a solo
+      // rate does not mean we quote one: family-desert-4day-marrakech takes a
+      // minimum of two, so perPersonPrice(tour, 1) falls back to the 2-person
+      // rate and comparing that with a rival's 1-person price reported a 41%
+      // "undercut" on a party no customer can book. Both directions need the
+      // guard -- an unbookable size is not a real comparison either way.
+      const minParty = tour.minPeople ?? 1;
+
       for (const people of [...sizes].sort((a, b) => a - b)) {
+        if (people < minParty) continue;
         const rival = cheapestCompetitor(slug, people);
         if (!rival) continue;
 
@@ -71,7 +80,16 @@ describe("competitor price floor", () => {
         competitorsFor(slug).flatMap((c) => Object.keys(c.prices).map(Number)),
       );
 
+      // Skip group sizes this tour cannot sell. A competitor listing a solo
+      // rate does not mean we quote one: family-desert-4day-marrakech takes a
+      // minimum of two, so perPersonPrice(tour, 1) falls back to the 2-person
+      // rate and comparing that with a rival's 1-person price reported a 41%
+      // "undercut" on a party no customer can book. Both directions need the
+      // guard -- an unbookable size is not a real comparison either way.
+      const minParty = tour.minPeople ?? 1;
+
       for (const people of [...sizes].sort((a, b) => a - b)) {
+        if (people < minParty) continue;
         const rival = cheapestCompetitor(slug, people);
         if (!rival) continue;
 

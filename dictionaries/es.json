@@ -316,7 +316,9 @@
     "fixedDepartureSeats": "{count} plazas por salida",
     "fixedDepartureWas": "antes {price}",
     "fixedDepartureSave": "Ahorra {price}",
-    "fixedDepartureNote": "Una salida de grupo en fecha fija, vendida por plaza. El precio es el mismo sea cual sea el tamaño de tu grupo."
+    "fixedDepartureNote": "Una salida de grupo en fecha fija, vendida por plaza. El precio es el mismo sea cual sea el tamaño de tu grupo.",
+    "perPersonMinPartyNote": "por persona para {count}+ viajeros · {solo} para {min}",
+    "minPartyWord": "{n} viajeros"
   },
   "cookieBanner": {
     "body": "Usamos cookies para tus preferencias y, con tu consentimiento, Google Analytics. Las cookies necesarias están siempre activas.",

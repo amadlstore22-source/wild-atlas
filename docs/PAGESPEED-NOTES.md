@@ -1,0 +1,68 @@
+# PageSpeed auditing — read before trusting a score
+
+## The tooling
+
+An API key lives in `.env.local` as `PAGESPEED_API_KEY`, restricted in Google
+Cloud to the PageSpeed Insights API only (read-only; it cannot touch the
+Indexing API credentials in `service-account.json`). Anonymous PSI calls get
+quota 0, which is why the key exists.
+
+```bash
+node scripts/seo/psi.mjs <url> [--strategy=mobile|desktop]
+node scripts/seo/psi-batch.mjs --file=urls.txt --out=psi.csv
+```
+
+## A single PSI score is not a measurement
+
+This is the important part, and it cost most of a session to learn twice.
+
+**Run-to-run variance on an unchanged page is routinely 20+ points.** Measured
+on `/en/tours/agadir-surf-lesson`, live, no deploys in between:
+
+| Run | perf | LCP |
+|-----|------|-----|
+| batch, concurrency 4 | 69 | 3451 ms |
+| batch, concurrency 1 | **65** | 6376 ms |
+| single | 87 | 3901 ms |
+| single | 87 | 3901 ms |
+| single | 89 | 3800 ms |
+
+`/fr/tours/agadir-fes-4-jours` reported **a11y 72, seo 82** in one run and
+**a11y 97, seo 100** on both re-runs. There was no accessibility defect and no
+SEO defect; the run was simply bad.
+
+Concurrency makes it worse — parallel audits contend for the same measurement
+resources and the slowdown is recorded as the page's score, so
+`scripts/seo/psi-batch.mjs` is pinned to `CONCURRENCY = 1`. But sequential is
+**not** sufficient: the 65 above came from a sequential run.
+
+### What follows from this
+
+- **Never act on a single low score.** Re-run it 2-3 times first. Most
+  "regressions" evaporate.
+- **A one-off outlier is noise until it reproduces.** Two consecutive runs
+  agreeing is the minimum bar.
+- **Ignore moves under ~5 points** entirely, in either direction.
+- **Do not commit a PSI CSV as a baseline.** Two were generated here and both
+  were deleted: every apparent problem in them — five "failing" pages, one
+  "accessibility failure" — was noise. A committed CSV becomes a to-do list of
+  bugs that do not exist.
+- **Prefer a measurement to a score.** Byte sizes, image dimensions and
+  rendered HTML are deterministic. The hero re-crop work was driven by measured
+  `_next/image` payloads, which is why it held up when the scores did not.
+
+### What the scores are good for
+
+Aggregates across many pages, where noise averages out, and only when the
+same comparison is re-run. A ranking of 100 pages is weak evidence; a single
+page's number is close to none.
+
+## Actual state as of 2026-09-09
+
+Every page re-tested individually landed at **perf 85-91, a11y 97-100, bp 100,
+seo 100** on mobile. There is no known performance or accessibility defect
+outstanding. LCP sits around 3.8 s and is dominated by main-thread JS
+execution under Lighthouse's 4x CPU throttle, not by images, fonts or CSS —
+those were each traced to source and found already optimal (see
+`.browserslistrc`, `components/map/TourLocationMap.tsx`, and the font comments
+in `app/[lang]/layout.tsx`, all of which document deliberate decisions).

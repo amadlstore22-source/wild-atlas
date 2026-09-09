@@ -77,3 +77,8 @@ data/client-archive.json
 data/*
 !data/.gitkeep
 !data/README.md
+
+# Pre-crop hero originals. These are real client photos kept as a local
+# undo for the 16:10 hero re-crop; they must NOT live under public/, which is
+# served, and they are too large to be worth committing.
+.originals/

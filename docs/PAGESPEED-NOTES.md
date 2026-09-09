@@ -57,6 +57,29 @@ Aggregates across many pages, where noise averages out, and only when the
 same comparison is re-run. A ranking of 100 pages is weak evidence; a single
 page's number is close to none.
 
+## The re-test threshold is not enough either
+
+`psi-sweep.mjs` re-tests anything suspicious twice more and reports only what
+survives the median of three. That still produced false positives:
+
+| Page | flagged | individual re-runs |
+|------|---------|--------------------|
+| `/de/tours/zagora-wueste-2-tage-geteilt` | 69 (3 samples) | 80, 88, 88, 88, 93 |
+| `/es/destinations/high-atlas` | 78 (3 samples) | 89, 89, 89 |
+| `/ar/about` | 78 | 90, 90 |
+| `/en/tours/agadir-surf-lesson` | 65 | 87, 87, 89 |
+| `/fr/tours/agadir-fes-4-jours` | a11y 72, seo 82 | 97/100, 97/100 |
+
+A page can fail **three consecutive runs inside the sweep** and score 88-93
+when called on its own. The sweep's own bar for "confirmed" is not sufficient
+evidence; only a direct single-URL run, repeated, is.
+
+Across 102 URLs, taking each page's BEST sample, exactly two sat below 85 --
+and both scored 88-93 when re-tested individually. **There is currently no
+slow page on this site that PSI can identify.**
+
+Use the sweep for the aggregate (median, spread) and never as a to-do list.
+
 ## Actual state as of 2026-09-09
 
 Every page re-tested individually landed at **perf 85-91, a11y 97-100, bp 100,

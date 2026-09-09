@@ -5574,7 +5574,7 @@ Si decide el presupuesto, la [guía de salidas compartidas](/es/blog/shared-grou
     title: "Circuitos compartidos en Marruecos: qué te dan por 30 €",
     excerpt:
       "Las salidas compartidas son la forma más barata de ver Marruecos — 30 € una velada en Agafay, 120 € tres días en el Sáhara. Qué pierdes, qué mantienes y a partir de cuántos viajeros gana el privado.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

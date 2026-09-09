@@ -5621,7 +5621,7 @@ Si le budget décide, le [guide des départs partagés](/fr/blog/shared-group-to
     title: "Circuits partagés au Maroc : ce que vous avez pour 30 €",
     excerpt:
       "Les départs partagés sont la façon la moins chère de voir le Maroc — 30 € pour une soirée dans l'Agafay, 120 € pour trois jours au Sahara. Ce que vous perdez, ce que vous gardez, et la taille de groupe où le privé l'emporte.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

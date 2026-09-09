@@ -340,12 +340,13 @@ export const TOURS: Tour[] = [
     rating: 4.6,
     price: 214,
     depositAmount: 47,
-    heroImage:
-      "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
-      "/gallery/tours-agafay-desert-sunset.jpg",
-      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
-      "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
+      "/gallery/agafay-camel-caravan-golden-hour.jpg",
+      "/gallery/agafay-fire-show-crowd.jpg",
+      "/gallery/agafay-camp-lanterns-evening.jpg",
+      "/gallery/agafay-camel-line-ridge.jpg",
+      "/gallery/agafay-dining-tent-tables.jpg",
     ],
     shortDescription:
       "Il Sahara in 30 minuti — quad al tramonto, cavalcate in cammello e una cena berbera tradizionale nel deserto roccioso di Agafay.",
@@ -3866,8 +3867,12 @@ export const TOURS: Tour[] = [
     groupPricing: [{ minPeople: 1, price: 35 }],
     price: 35,
     depositAmount: 8,
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
-    gallery: ["/gallery/tours-agafay-desert-sunset.jpg"],
+    heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
+    gallery: [
+      "/gallery/agafay-fire-breathing-audience.jpg",
+      "/gallery/agafay-camel-line-ridge.jpg",
+      "/gallery/agafay-dinner-sunset-long-tables.jpg",
+    ],
     shortDescription:
       "Una serata nel deserto di pietra a quaranta minuti da Marrakech: cammello al tramonto, cena sotto le stelle e spettacolo del fuoco.",
     description:

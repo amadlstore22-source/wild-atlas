@@ -7896,7 +7896,7 @@ If cost is the deciding factor, the [shared departure guide](/en/blog/shared-gro
     title: "Shared Group Tours in Morocco: What You Get for \u20ac30",
     excerpt:
       "Shared departures are the cheapest way to see Morocco \u2014 \u20ac30 for an Agafay evening, \u20ac120 for three days in the Sahara. What you give up, what you keep, and the group size where private wins.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

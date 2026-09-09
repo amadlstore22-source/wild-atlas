@@ -556,11 +556,13 @@ export const TOURS: Tour[] = [
     ],
     price: 214,
     depositAmount: 47,
-    heroImage:
-      "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
-      "/gallery/blog-what-to-pack-desert-tour-morocco.jpg",
-      "/gallery/blog-erg-chebbi-vs-erg-chegaga.jpg",
+      "/gallery/agafay-camel-caravan-golden-hour.jpg",
+      "/gallery/agafay-fire-show-crowd.jpg",
+      "/gallery/agafay-camp-lanterns-evening.jpg",
+      "/gallery/agafay-camel-line-ridge.jpg",
+      "/gallery/agafay-dining-tent-tables.jpg",
     ],
     shortDescription:
       "The Sahara in 30 minutes — sunset quad biking, camel rides, and a traditional Berber dinner in the Agafay stone desert.",
@@ -4544,8 +4546,12 @@ export const TOURS: Tour[] = [
     groupPricing: [{ minPeople: 1, price: 35 }],
     price: 35,
     depositAmount: 8,
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
-    gallery: ["/gallery/tours-agafay-desert-sunset.jpg"],
+    heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
+    gallery: [
+      "/gallery/agafay-fire-breathing-audience.jpg",
+      "/gallery/agafay-camel-line-ridge.jpg",
+      "/gallery/agafay-dinner-sunset-long-tables.jpg",
+    ],
     shortDescription:
       "An evening in the stone desert forty minutes from Marrakech — camel ride at sunset, dinner under the stars and a fire show.",
     description:

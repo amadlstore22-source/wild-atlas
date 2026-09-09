@@ -5577,7 +5577,7 @@ Se decide il budget, la [guida alle partenze condivise](/it/blog/shared-group-to
     title: "Tour condivisi in Marocco: cosa ottieni con 30 €",
     excerpt:
       "Le partenze condivise sono il modo più economico di vedere il Marocco — 30 € una serata nell'Agafay, 120 € tre giorni nel Sahara. Cosa perdi, cosa mantieni e da quanti viaggiatori vince il privato.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

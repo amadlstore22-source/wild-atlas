@@ -5588,7 +5588,7 @@ Wenn das Budget entscheidet, erklärt der [Guide zu geteilten Abfahrten](/de/blo
     title: "Geteilte Gruppentouren in Marokko: Was Sie für 30 € bekommen",
     excerpt:
       "Geteilte Abfahrten sind der günstigste Weg, Marokko zu sehen — 30 € für einen Agafay-Abend, 120 € für drei Tage Sahara. Was Sie aufgeben, was Sie behalten und ab wann privat gewinnt.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

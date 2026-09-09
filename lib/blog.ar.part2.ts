@@ -5358,7 +5358,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "الرحلات الجماعية المشتركة في المغرب: ماذا تحصل مقابل 30 يورو",
     excerpt:
       "الرحلات المشتركة أرخص طريقة لرؤية المغرب — 30 يورو لأمسية في أكافاي، و120 يورو لثلاثة أيام في الصحراء. ما الذي تتنازل عنه، وما الذي تحتفظ به، وعند أي عدد يتفوّق الخاص.",
-    heroImage: "/gallery/tours-agafay-desert-sunset.jpg",
+    heroImage: "/gallery/agafay-fire-show-crowd.jpg",
     category: "tips",
     region: "root",
     readTime: 11,

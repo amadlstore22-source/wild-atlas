@@ -16,8 +16,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 48,
     rating: 4.9,
-    price: 404,
-    depositAmount: 100,
+    price: 750,
+    depositAmount: 165,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-guide-thumbs-up.jpg",
@@ -117,8 +117,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 124,
     rating: 4.8,
-    price: 820,
-    depositAmount: 180,
+    price: 796,
+    depositAmount: 175,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -214,8 +214,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 people",
     reviewCount: 203,
     rating: 4.7,
-    price: 37,
-    depositAmount: 10,
+    price: 99,
+    depositAmount: 22,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -275,8 +275,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 people",
     reviewCount: 167,
     rating: 4.8,
-    price: 32,
-    depositAmount: 8,
+    price: 86,
+    depositAmount: 19,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -338,8 +338,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–20 people",
     reviewCount: 89,
     rating: 4.6,
-    price: 80,
-    depositAmount: 21,
+    price: 214,
+    depositAmount: 47,
     heroImage:
       "/gallery/tours-agafay-desert-sunset.jpg",
     gallery: [
@@ -401,8 +401,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 97,
     rating: 4.9,
-    price: 47,
-    depositAmount: 13,
+    price: 84,
+    depositAmount: 18,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -543,8 +543,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 31,
     rating: 5.0,
-    price: 870,
-    depositAmount: 212,
+    price: 1557,
+    depositAmount: 343,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -611,8 +611,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 people",
     reviewCount: 142,
     rating: 4.8,
-    price: 32,
-    depositAmount: 8,
+    price: 86,
+    depositAmount: 19,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
@@ -671,8 +671,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 58,
     rating: 4.7,
-    price: 74,
-    depositAmount: 20,
+    price: 198,
+    depositAmount: 44,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -735,8 +735,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 people",
     reviewCount: 84,
     rating: 4.6,
-    price: 43,
-    depositAmount: 10,
+    price: 77,
+    depositAmount: 17,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -796,8 +796,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 211,
     rating: 4.7,
-    price: 30,
-    depositAmount: 8,
+    price: 81,
+    depositAmount: 18,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -855,8 +855,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 29,
     rating: 4.8,
-    price: 298,
-    depositAmount: 74,
+    price: 527,
+    depositAmount: 116,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
@@ -940,8 +940,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 47,
     rating: 4.9,
-    price: 207,
-    depositAmount: 53,
+    price: 911,
+    depositAmount: 200,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1014,8 +1014,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 people",
     reviewCount: 73,
     rating: 4.7,
-    price: 40,
-    depositAmount: 10,
+    price: 72,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1076,8 +1076,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 people",
     reviewCount: 118,
     rating: 4.8,
-    price: 43,
-    depositAmount: 10,
+    price: 116,
+    depositAmount: 26,
     heroImage:
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
@@ -1136,8 +1136,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 43,
     rating: 4.9,
-    price: 361,
-    depositAmount: 90,
+    price: 646,
+    depositAmount: 142,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1228,8 +1228,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 27,
     rating: 4.8,
-    price: 510,
-    depositAmount: 127,
+    price: 913,
+    depositAmount: 201,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1337,8 +1337,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 143,
     rating: 4.8,
-    price: 71,
-    depositAmount: 16,
+    price: 415,
+    depositAmount: 90,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1420,8 +1420,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 64,
     rating: 4.9,
-    price: 976,
-    depositAmount: 214,
+    price: 1464,
+    depositAmount: 322,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
@@ -1516,8 +1516,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 98,
     rating: 4.9,
-    price: 382,
-    depositAmount: 96,
+    price: 1026,
+    depositAmount: 226,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -1627,8 +1627,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 52,
     rating: 4.8,
-    price: 313,
-    depositAmount: 80,
+    price: 840,
+    depositAmount: 185,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -1719,8 +1719,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 41,
     rating: 4.7,
-    price: 190,
-    depositAmount: 47,
+    price: 911,
+    depositAmount: 200,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -1798,8 +1798,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 28,
     rating: 4.9,
-    price: 930,
-    depositAmount: 205,
+    price: 1395,
+    depositAmount: 307,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -1889,8 +1889,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 39,
     rating: 4.8,
-    price: 445,
-    depositAmount: 112,
+    price: 1196,
+    depositAmount: 263,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2093,8 +2093,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 22,
     rating: 4.9,
-    price: 445,
-    depositAmount: 112,
+    price: 797,
+    depositAmount: 175,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2196,8 +2196,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 18,
     rating: 4.8,
-    price: 594,
-    depositAmount: 149,
+    price: 1063,
+    depositAmount: 234,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2316,8 +2316,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 21,
     rating: 4.9,
-    price: 658,
-    depositAmount: 165,
+    price: 1142,
+    depositAmount: 251,
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
       "/gallery/ifni-lake-from-the-pass.jpg",
@@ -2443,8 +2443,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 34,
     rating: 4.7,
-    price: 223,
-    depositAmount: 59,
+    price: 404,
+    depositAmount: 89,
     heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -2526,8 +2526,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 18,
     rating: 4.8,
-    price: 351,
-    depositAmount: 90,
+    price: 692,
+    depositAmount: 152,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -2618,8 +2618,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 12,
     rating: 4.9,
-    price: 382,
-    depositAmount: 96,
+    price: 692,
+    depositAmount: 152,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -2713,8 +2713,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 people",
     reviewCount: 34,
     rating: 4.9,
-    price: 47,
-    depositAmount: 10,
+    price: 126,
+    depositAmount: 28,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
@@ -2773,8 +2773,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 21,
     rating: 4.9,
-    price: 223,
-    depositAmount: 59,
+    price: 598,
+    depositAmount: 132,
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
@@ -2853,8 +2853,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 186,
-    depositAmount: 47,
+    price: 329,
+    depositAmount: 72,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2930,8 +2930,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 271,
-    depositAmount: 69,
+    price: 480,
+    depositAmount: 106,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3018,8 +3018,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 people",
     reviewCount: 0,
     rating: 4,
-    price: 361,
-    depositAmount: 90,
+    price: 639,
+    depositAmount: 141,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3222,8 +3222,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 0,
     rating: 4,
-    price: 1751,
-    depositAmount: 424,
+    price: 1961,
+    depositAmount: 431,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3556,16 +3556,16 @@ export const TOURS: Tour[] = [
     difficulty: "moderate",
     tourType: "private",
     groupPricing: [
-      { minPeople: 1, price: 2076 },
-      { minPeople: 2, price: 1200 },
-      { minPeople: 3, price: 1015 },
-      { minPeople: 4, price: 911 },
-      { minPeople: 5, price: 802 },
+      { minPeople: 1, price: 3114 },
+      { minPeople: 2, price: 1559 },
+      { minPeople: 3, price: 1218 },
+      { minPeople: 4, price: 1048 },
+      { minPeople: 5, price: 882 },
     ],
     reviewCount: 18,
     rating: 5.0,
-    price: 2076,
-    depositAmount: 531,
+    price: 3114,
+    depositAmount: 685,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",

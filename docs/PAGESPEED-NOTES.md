@@ -80,6 +80,50 @@ slow page on this site that PSI can identify.**
 
 Use the sweep for the aggregate (median, spread) and never as a to-do list.
 
+## Full-site sweep result, 2026-09-09
+
+186 URLs covering every template x locale group, audited sequentially, with
+anything suspicious re-tested. Best sample per URL:
+
+| Category | min | p10 | median | avg | max |
+|----------|-----|-----|--------|-----|-----|
+| performance | 69 | 87 | 91 | **91** | 97 |
+| accessibility | 93 | 97 | 97 | **98** | 100 |
+| best practices | 96 | 100 | 100 | **100** | 100 |
+| SEO | 92 | 100 | 100 | **100** | 100 |
+
+Average LCP 3.3 s. By page type the spread is 85 (guides) to 94 (guide
+detail) -- narrower than the noise band, so no category is weak.
+
+Six pages were flagged across the four batches. Every one was noise:
+
+    /en/tours/agadir-surf-lesson      65  ->  87, 87, 89
+    /de/tours/zagora-...-2-tage       69  ->  80, 88, 88, 88, 93
+    /es/destinations/high-atlas       78  ->  89, 89, 89
+    /ar/about                         78  ->  90, 90
+    /fr/news                          72  ->  96, 96, 96
+    /fr/tours/agadir-fes-4-jours  a11y 72 ->  97, 97
+
+Even the SEO scores, which look deterministic, are not: three pages reported
+92 in the sweep and 100 on re-test (/en/tours/zagora-2day-marrakech,
+/es/blog/zagora-desert-guide, /fr/privacy).
+
+**Nothing on this site currently needs a performance fix.** Do not open this
+file's numbers as a work list -- re-run the URL first, every time.
+
+## What a real improvement looks like
+
+The one performance change that shipped today was found by MEASURING, not by
+scoring: 19 tour heroes were portrait or near-square in a landscape band, so
+next/image delivered up to 9x the bytes needed. Fixed, 943 KB saved per
+mobile visit, verified against the live `_next/image` payloads.
+
+Its effect on PSI scores is not visible: re-cropped tour pages average 85 and
+untouched ones 88, with identical LCP. With n=5 and 20-point run-to-run
+variance, a 100 KB saving is undetectable. The saving is real, the score
+cannot see it, and that asymmetry is the whole argument for measuring bytes
+rather than chasing numbers.
+
 ## Actual state as of 2026-09-09
 
 Every page re-tested individually landed at **perf 85-91, a11y 97-100, bp 100,

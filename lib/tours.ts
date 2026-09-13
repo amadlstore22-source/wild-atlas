@@ -1270,16 +1270,23 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 47,
     rating: 4.9,
-    // Operator-set, 2026-09-07, cost-driven rather than curve-derived: the camp
-    // charges more than the scaled ladder assumed. EUR targets 804/400/290/220/195
-    // at RATES.EUR; the USD below round to exactly those. Note there is no
-    // 6-person tier by design — six people pay the 5+ rate.
+    // Operator-set, revised 2026-09-13: the group tiers were under cost. EUR
+    // targets are now 790/400/340/310/280 at RATES.EUR, and the USD below round
+    // to exactly those. Solo and the 2-person rate are unchanged; 3, 4 and 5+
+    // rise (290->340, 220->310, 195->280).
+    //
+    // The 2-person tier stayed at 400 deliberately. Taking it to 370, as first
+    // proposed, would have made a couple pay 740 against the solo 790 — a
+    // larger party paying LESS in total, which price-ladder.test.ts rejects and
+    // which lets a solo traveller book two seats to save 50.
+    //
+    // Note there is no 6-person tier by design — six people pay the 5+ rate.
     groupPricing: [
       { minPeople: 1, price: 911 },
       { minPeople: 2, price: 461 },
-      { minPeople: 3, price: 335 },
-      { minPeople: 4, price: 254 },
-      { minPeople: 5, price: 225 },
+      { minPeople: 3, price: 392 },
+      { minPeople: 4, price: 358 },
+      { minPeople: 5, price: 323 },
     ],
     price: 911,
     depositAmount: 200,
@@ -1341,7 +1348,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "Private 2-Day Sahara Tour, Agadir",
     seoDescription:
-      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $225 pp for 5+.",
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $323 pp for 5+.",
     featured: true,
   },
   {

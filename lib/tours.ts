@@ -4349,7 +4349,9 @@ export const TOURS: Tour[] = [
     includes: [
       "Transport in a shared air-conditioned minibus",
       "Two nights accommodation (hotel + desert camp)",
-      "Dinner and breakfast at the camp",
+      // "at the camp" until 2026-09-13. It read as camp-only and was quoted to
+      // a client that way, when dinner is in fact included on BOTH nights.
+      "Dinner and breakfast on both nights",
       "Camel trek at sunset",
       "English or French speaking driver",
     ],
@@ -4386,7 +4388,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "How is this different from the private 3-day tour?", a: "Route and overnight stops are the same. What differs is the vehicle and the pace: you share an air-conditioned minibus with up to sixteen others on a fixed schedule, so stops are set rather than yours to choose. The [private version](/en/tours/sahara-3day-marrakech) gives you your own 4x4 and driver-guide, and the freedom to stop where you like — at a higher price per person." },
       { q: "How many people are on a shared departure?", a: "Up to sixteen, and often fewer outside high season. You will be with travellers from several countries; the driver speaks English or French." },
-      { q: "What is not included?", a: "Lunches, drinks, tips and entry fees. Dinner and breakfast at the desert camp are included, as are both nights of accommodation and the sunset camel trek." },
+      { q: "What is not included?", a: "Lunches, drinks, tips and entry fees. Dinner and breakfast are included on both nights — at the hotel in the Dades and at the desert camp — as are both nights of accommodation and the sunset camel trek." },
       { q: "Do shared departures run every day?", a: "Yes, daily year-round. Very small groups in low season are occasionally merged with the following day's departure — you would be told before booking, not on the morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },

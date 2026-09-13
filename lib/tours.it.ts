@@ -3672,7 +3672,7 @@ export const TOURS: Tour[] = [
     includes: [
       "Trasporto in minibus condiviso con aria condizionata",
       "Due notti di pernottamento (hotel e campo nel deserto)",
-      "Cena e colazione al campo",
+      "Cena e colazione entrambe le notti",
       "Camel trek at sunset",
       "Autista di lingua inglese o francese",
     ],

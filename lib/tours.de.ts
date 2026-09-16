@@ -3709,7 +3709,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Worin unterscheidet sich das von der privaten 3-Tage-Tour?", a: "Route und Übernachtungsorte sind dieselben. Anders sind Fahrzeug und Tempo: Sie teilen sich einen klimatisierten Minibus mit bis zu sechzehn weiteren Reisenden nach festem Zeitplan, die Stopps sind also vorgegeben und nicht Ihre Wahl. Die [private Variante](/de/tours/wuestentour-3-tage-marrakesch) gibt Ihnen einen eigenen 4x4 mit Fahrer-Guide und die Freiheit anzuhalten, wo Sie möchten — zu einem höheren Preis pro Person." },
       { q: "Wie viele Personen sind bei einer Gruppenabfahrt dabei?", a: "Bis zu sechzehn, außerhalb der Hochsaison oft weniger. Sie reisen mit Gästen aus mehreren Ländern; der Fahrer spricht Englisch oder Französisch." },
-      { q: "Was ist nicht inbegriffen?", a: "Mittagessen, Getränke, Trinkgelder und Eintrittsgelder. Abendessen und Frühstück im Wüstencamp sind enthalten, ebenso beide Übernachtungen und der Kamelritt bei Sonnenuntergang." },
+      { q: "Was ist nicht inbegriffen?", a: "Mittagessen, Getränke, Trinkgelder und Eintrittsgelder. Abendessen und Frühstück sind an beiden Abenden enthalten — im Hotel im Dadestal und im Wüstencamp —, ebenso beide Übernachtungen und der Kamelritt bei Sonnenuntergang." },
       { q: "Fahren die Gruppentouren täglich?", a: "Ja, täglich das ganze Jahr über. Sehr kleine Gruppen in der Nebensaison werden gelegentlich mit der Abfahrt des Folgetages zusammengelegt — das würde man Ihnen vor der Buchung sagen, nicht am Morgen." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },

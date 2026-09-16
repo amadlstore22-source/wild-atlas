@@ -3718,7 +3718,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "En quoi est-ce différent du circuit privé de 3 jours ?", a: "L'itinéraire et les étapes de nuit sont identiques. Ce qui change, c'est le véhicule et le rythme : vous partagez un minibus climatisé avec jusqu'à seize autres voyageurs, selon un horaire fixe, si bien que les arrêts sont imposés plutôt que choisis. La [version privée](/fr/tours/circuit-desert-3-jours-marrakech) vous donne votre propre 4x4 et un chauffeur-guide, avec la liberté de vous arrêter où vous voulez — à un prix par personne plus élevé." },
       { q: "Combien de personnes sur un départ partagé ?", a: "Jusqu'à seize, et souvent moins hors haute saison. Vous serez avec des voyageurs de plusieurs pays ; le chauffeur parle anglais ou français." },
-      { q: "Qu'est-ce qui n'est pas inclus ?", a: "Les déjeuners, les boissons, les pourboires et les frais d'entrée. Le dîner et le petit-déjeuner au camp du désert sont inclus, tout comme les deux nuits d'hébergement et la balade à dos de chameau au coucher du soleil." },
+      { q: "Qu'est-ce qui n'est pas inclus ?", a: "Les déjeuners, les boissons, les pourboires et les frais d'entrée. Le dîner et le petit-déjeuner sont inclus les deux nuits — à l'hôtel dans le Dadès et au camp du désert —, tout comme les deux nuits d'hébergement et la balade à dos de chameau au coucher du soleil." },
       { q: "Les départs partagés ont-ils lieu tous les jours ?", a: "Oui, quotidiennement toute l'année. Les très petits groupes en basse saison sont parfois regroupés avec le départ du lendemain — vous en seriez informé avant de réserver, pas le matin même." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },

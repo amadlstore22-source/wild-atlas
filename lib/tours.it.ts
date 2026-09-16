@@ -3709,7 +3709,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "In cosa differisce dal tour privato di 3 giorni?", a: "Itinerario e tappe notturne sono gli stessi. Cambiano il veicolo e il ritmo: condividete un minibus con aria condizionata con altre sedici persone al massimo e un orario fisso, quindi le soste sono stabilite e non a vostra scelta. La [versione privata](/it/tours/tour-deserto-3-giorni-marrakech) vi dà un 4x4 tutto vostro con autista-guida e la libertà di fermarvi dove volete — a un prezzo a persona più alto." },
       { q: "Quante persone ci sono in una partenza condivisa?", a: "Fino a sedici, e spesso meno fuori dall'alta stagione. Sarete con viaggiatori di più paesi; l'autista parla inglese o francese." },
-      { q: "Che cosa non è incluso?", a: "I pranzi, le bevande, le mance e i biglietti d'ingresso. Cena e colazione al campo nel deserto sono inclusi, così come entrambe le notti di alloggio e il giro in cammello al tramonto." },
+      { q: "Che cosa non è incluso?", a: "I pranzi, le bevande, le mance e i biglietti d'ingresso. Cena e colazione sono incluse entrambe le notti — all'hotel nel Dades e al campo nel deserto —, così come entrambe le notti di alloggio e il giro in cammello al tramonto." },
       { q: "Le partenze condivise ci sono tutti i giorni?", a: "Sì, ogni giorno tutto l'anno. I gruppi molto piccoli in bassa stagione vengono talvolta accorpati alla partenza del giorno seguente — ve lo direbbero prima della prenotazione, non la mattina stessa." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },

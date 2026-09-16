@@ -148,7 +148,7 @@ export const TOURS: Tour[] = [
       "Experienced desert guide",
     ],
     excludes: [
-      "Lunches",
+      "Almuerzos",
       "Gastos personales y propinas",
     ],
     itinerary: [
@@ -239,7 +239,7 @@ export const TOURS: Tour[] = [
       "Traditional Berber lunch",
       "Mineral water throughout",
     ],
-    excludes: ["Personal hiking gear", "Tips"],
+    excludes: ["Equipo personal de senderismo", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -301,7 +301,7 @@ export const TOURS: Tour[] = [
       "Boat ride at the falls",
       "Mineral water",
     ],
-    excludes: ["Lunch", "Tips", "Personal purchases"],
+    excludes: ["Almuerzo", "Propinas", "Compras personales"],
     itinerary: [
       {
         day: 1,
@@ -366,7 +366,7 @@ export const TOURS: Tour[] = [
       "Cena bereber tradicional",
       "Mint tea ceremony",
     ],
-    excludes: ["Alcoholic drinks", "Tips"],
+    excludes: ["Bebidas alcohólicas", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -428,7 +428,7 @@ export const TOURS: Tour[] = [
       "Ceremonia tradicional del té de menta",
       "Visita guiada a pie de 4 horas",
     ],
-    excludes: ["Lunch", "Shopping and souvenirs", "Tips"],
+    excludes: ["Almuerzo", "Compras y recuerdos", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -488,7 +488,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "All transfers and tolls",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Transporte de vuelta desde Fez"],
+    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Fez"],
     itinerary: [
       {
         day: 1,
@@ -575,7 +575,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Seguro de viaje y médico (obligatorio)",
       "Equipo técnico de montañismo",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       { day: 1, title: "Marrakech → Aït M'hamed", description: "Traslado hasta el punto de partida. Encuentro con el equipo de mulas y el personal. Primera noche con una familia bereber.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "Casa rural (gîte)", driving: "5 h" },
@@ -637,7 +637,7 @@ export const TOURS: Tour[] = [
       "Traditional Berber lunch",
       "Mineral water",
     ],
-    excludes: ["Personal swimming gear", "Tips"],
+    excludes: ["Equipo personal de baño", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -699,7 +699,7 @@ export const TOURS: Tour[] = [
       "Binoculars provided",
       "Picnic lunch",
     ],
-    excludes: ["Equipo fotográfico personal", "Tips"],
+    excludes: ["Equipo fotográfico personal", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -762,7 +762,7 @@ export const TOURS: Tour[] = [
       "Rampart walk",
       "Mint tea in a riad",
     ],
-    excludes: ["Lunch", "Shopping", "Tips"],
+    excludes: ["Almuerzo", "Compras", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -823,7 +823,7 @@ export const TOURS: Tour[] = [
       "Certified ISA instructor",
       "Calentamiento y charla de seguridad",
     ],
-    excludes: ["Transporte hasta la playa (5 min a pie desde el centro)", "Tips"],
+    excludes: ["Transporte hasta la playa (5 min a pie desde el centro)", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -883,7 +883,7 @@ export const TOURS: Tour[] = [
       "Transporte de ida y vuelta desde Agadir",
       "Mule for equipment",
     ],
-    excludes: ["Seguro de viaje (recomendado)", "Personal hiking gear", "Tips"],
+    excludes: ["Seguro de viaje (recomendado)", "Equipo personal de senderismo", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -1042,7 +1042,7 @@ export const TOURS: Tour[] = [
       "Traditional Berber lunch",
       "Honey tasting",
     ],
-    excludes: ["Argan product purchases", "Tips"],
+    excludes: ["Compra de productos de argán", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -1102,7 +1102,7 @@ export const TOURS: Tour[] = [
       "English-speaking guide",
       "Paseo guiado de 2 horas por la medina",
     ],
-    excludes: ["Almuerzo y compras personales", "Tips"],
+    excludes: ["Almuerzo y compras personales", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -1164,7 +1164,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "All transfers and tolls",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Transporte de vuelta desde Chefchaouen"],
+    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1256,7 +1256,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "Todos los traslados, peajes y entradas",
     ],
-    excludes: ["Lunches and dinners", "Tips"],
+    excludes: ["Almuerzos y cenas", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -1369,7 +1369,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Lunches on both days",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -1454,7 +1454,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Almuerzos del día 1 y del día 3",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
       "Quad opcional cerca de M'Hamid (disponible in situ)",
     ],
     itinerary: [
@@ -1554,7 +1554,7 @@ export const TOURS: Tour[] = [
       "Entrada a los Atlas Film Studios (opcional, ~7 €)",
       "Alcoholic beverages",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -1661,7 +1661,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Almuerzos de los tres días",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -1751,7 +1751,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Lunches on both days",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -1831,7 +1831,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Lunches on days 1 and 3",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -1926,7 +1926,7 @@ export const TOURS: Tour[] = [
       "Entrada a los Atlas Film Studios (opcional, ~7 €)",
       "Alcoholic beverages",
       "Seguro de viaje personal",
-      "Tips",
+      "Propinas",
     ],
     itinerary: [
       {
@@ -2027,7 +2027,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "All transfers and tolls",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Transporte de vuelta desde Fez"],
+    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Fez"],
     itinerary: [
       {
         day: 1,
@@ -2121,7 +2121,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "All transfers and tolls",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Transporte de vuelta desde Chefchaouen"],
+    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -2224,7 +2224,7 @@ export const TOURS: Tour[] = [
       "Breakfast daily",
       "Todos los traslados, peajes y entradas",
     ],
-    excludes: ["Lunches and dinners", "Tips"],
+    excludes: ["Almuerzos y cenas", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -2796,7 +2796,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Transporte de ida y vuelta desde Marrakech",
-      "Camel trek at sunset",
+      "Paseo en camello al atardecer",
       "1 noche de alojamiento en campamento en el desierto",
       "Telescopio y sesión guiada de observación de estrellas",
       "Cena y desayuno en el campamento",
@@ -3673,10 +3673,10 @@ export const TOURS: Tour[] = [
       "Transporte en minibús compartido con aire acondicionado",
       "Dos noches de alojamiento (hotel y campamento en el desierto)",
       "Cena y desayuno las dos noches",
-      "Camel trek at sunset",
+      "Paseo en camello al atardecer",
       "Conductor de habla inglesa o francesa",
     ],
-    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    excludes: ["Almuerzos", "Bebidas", "Propinas", "Entradas"],
     itinerary: [
       {
         day: 1,
@@ -3709,7 +3709,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "¿En qué se diferencia del circuito privado de 3 días?", a: "La ruta y las paradas para dormir son las mismas. Lo que cambia es el vehículo y el ritmo: comparte un minibús con aire acondicionado con hasta otras dieciséis personas y un horario fijo, así que las paradas están establecidas y no las elige usted. La [versión privada](/es/tours/tour-desierto-3-dias-marrakech) le da su propio 4x4 y un conductor-guía, con libertad para parar donde quiera — a un precio por persona más alto." },
       { q: "¿Cuántas personas van en una salida compartida?", a: "Hasta dieciséis, y a menudo menos fuera de temporada alta. Irá con viajeros de varios países; el conductor habla inglés o francés." },
-      { q: "¿Qué no está incluido?", a: "Los almuerzos, las bebidas, las propinas y las entradas. La cena y el desayuno en el campamento del desierto sí están incluidos, igual que las dos noches de alojamiento y el paseo en camello al atardecer." },
+      { q: "¿Qué no está incluido?", a: "Los almuerzos, las bebidas, las propinas y las entradas. La cena y el desayuno están incluidos las dos noches — en el hotel del Dades y en el campamento del desierto —, igual que las dos noches de alojamiento y el paseo en camello al atardecer." },
       { q: "¿Hay salidas compartidas todos los días?", a: "Sí, a diario todo el año. Los grupos muy pequeños en temporada baja se combinan a veces con la salida del día siguiente — se le avisaría antes de reservar, no la misma mañana." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
@@ -3758,7 +3758,7 @@ export const TOURS: Tour[] = [
       "Camel ride",
       "Conductor de habla inglesa o francesa",
     ],
-    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    excludes: ["Almuerzos", "Bebidas", "Propinas", "Entradas"],
     itinerary: [
       {
         day: 1,
@@ -3825,7 +3825,7 @@ export const TOURS: Tour[] = [
       "Local guide at the falls",
       "Mineral water",
     ],
-    excludes: ["Lunch", "Boat ride ticket", "Tips"],
+    excludes: ["Almuerzo", "Billete del paseo en barca", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -3889,7 +3889,7 @@ export const TOURS: Tour[] = [
       "Three-course dinner",
       "Live music and fire show",
     ],
-    excludes: ["Bebidas distintas del agua y el té", "Tips", "Quad u otros extras"],
+    excludes: ["Bebidas distintas del agua y el té", "Propinas", "Quad u otros extras"],
     itinerary: [
       {
         day: 1,
@@ -3947,7 +3947,7 @@ export const TOURS: Tour[] = [
       "Parada en una cooperativa de aceite de argán",
       "Free time in the medina",
     ],
-    excludes: ["Lunch", "Guide inside the medina", "Tips"],
+    excludes: ["Almuerzo", "Guía dentro de la medina", "Propinas"],
     itinerary: [
       {
         day: 1,

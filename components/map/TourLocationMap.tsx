@@ -93,6 +93,15 @@ export default function TourLocationMap(props: TourLocationMapProps) {
       <link rel="dns-prefetch" href="https://server.arcgisonline.com" />
       <link rel="preconnect" href="https://tiles.openfreemap.org" crossOrigin="anonymous" />
       <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
+      {/* Third host, and ONLY on the tours that actually ask for relief — a
+          preconnect the page never uses is a wasted socket, which is the same
+          mistake the comment above records for the shared layout. */}
+      {props.terrain && (
+        <>
+          <link rel="preconnect" href="https://tiles.mapterhorn.com" crossOrigin="anonymous" />
+          <link rel="dns-prefetch" href="https://tiles.mapterhorn.com" />
+        </>
+      )}
       {visible ? <TourLocationMapInner {...props} /> : <MapSkeleton />}
     </div>
   );

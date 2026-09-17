@@ -19,6 +19,20 @@ export interface ItineraryDay {
    *  summit-and-return day) can omit it, and tours with no stops fall back to
    *  the single meetingPoint marker. Coordinates must be real, verified places. */
   stop?: { name: string; lat: number; lng: number };
+  /**
+   * Waypoints passed through on this day that are not where the day ends.
+   *
+   * WHY THIS EXISTS. `stop` is one-per-day, so the map could only ever show a
+   * day's ENDPOINT. On the Toubkal treks that meant the first pin sat at the
+   * refuge, 6.4 km up the valley, and Imlil — the trailhead every walker
+   * actually arrives at, leaves the vehicle at, and hires the mule from — was
+   * not on the map at all. The route line started in mid-mountain from
+   * nowhere.
+   *
+   * These plot and join into the route line in order, before the day's `stop`.
+   * Coordinates must be real, verified places, exactly as for `stop`.
+   */
+  extraStops?: { name: string; lat: number; lng: number }[];
   /** Real per-day logistics, rendered as chips under the day description. All
    *  optional so a day only shows what actually applies — the itinerary no
    *  longer prints a blanket "meals/transport/accommodation included" on every
@@ -251,7 +265,7 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         distance: "≈11 km",
         ascent: "+1,470 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Trek up the Mizane Valley past the Sidi Chamharouch shrine to the mountain refuge. Afternoon acclimatisation walk above camp. Early sleep before summit day.",
@@ -262,7 +276,7 @@ export const TOURS: Tour[] = [
         stay: "Mountain refuge",
         walking: "6–7 h",
         ascent: "+960 m / −960 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Day — Toubkal (4,167 m)",
         description:
           "Pre-dawn start at 5:00 am. Steep ascent via the South Cirque scree. Summit at sunrise. Descent back to refuge for celebratory dinner.",
@@ -383,7 +397,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈5 h",
         distance: "≈300 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades → Todra Gorge → Erfoud → Erg Chebbi",
         description:
           "Morning in the Todra Gorge, where the canyon walls narrow to 10 m and rise 300 m. Continue via Erfoud to Merzouga, arriving mid-afternoon. Camel trek into the Erg Chebbi dunes at sunset, then dinner and Gnawa drumming at camp.",
@@ -559,7 +573,7 @@ export const TOURS: Tour[] = [
     
       { q: "Is there a boat ride at Ouzoud Falls?", a: "Yes, and it is included in the price. Small wooden boats run across the pool at the foot of the cascades and take you close enough to feel the spray — it is short, it is the best view of the falls from below, and it is the moment most people photograph. You reach it on the gorge trail that descends from the top." },
     ],
-    meetingPoint: { lat: 32.0061, lng: -6.7200, name: "Ouzoud Falls, Middle Atlas" },
+    meetingPoint: { lat: 32.0152, lng: -6.7189, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Private Ouzoud Waterfalls Day Trip",
     seoDescription:
       "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. From $25 pp for 6+.",
@@ -791,7 +805,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel",
         driving: "≈4 h",
         distance: "≈220 km",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Midelt → Ifrane → Azrou Cedar Forest → Fes",
         description:
           "Drive through the Middle Atlas. Stop in Ifrane and the cedar forest at Azrou to spot wild Barbary macaques. Arrive Fes by afternoon. Check in to your riad.",
@@ -799,7 +813,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Fes Medina Full Day",
         description:
           "Guided exploration of Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the labyrinthine souks. Tour concludes in Fes.",
@@ -1372,7 +1386,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈8 h",
         distance: "≈450 km",
-        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
+        stop: { name: "Erg Chegaga", lat: 29.841402, lng: -6.29299 },
         title: "Agadir → Tata → Foum Zguid → Erg Chegaga",
         description:
           "Depart Agadir at 6:30 am. Drive south through the Anti-Atlas foothills via Tata. Cross the hammada to Foum Zguid. Camel trek into Erg Chegaga at sunset. Berber camp dinner.",
@@ -1604,7 +1618,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel",
         driving: "≈7 h",
         distance: "≈480 km",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Marrakech → Ifrane → Fes",
         description:
           "Depart Marrakech at 7:00 am. Cross the Middle Atlas. Stop in Ifrane and the Azrou cedar forest for Barbary macaques. Arrive Fes by evening. Check in to your riad.",
@@ -1613,7 +1627,7 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B",
         stay: "Hotel",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Fes Medina Full Day",
         description:
           "Full guided day in Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the ancient souks. Evening walk on the medina walls.",
@@ -1728,7 +1742,7 @@ export const TOURS: Tour[] = [
         day: 3,
         meals: "B",
         stay: "Hotel",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknes → Fes Full Day",
         description:
           "Full day in Fes el-Bali with an expert guide. Chouara Tanneries, Al-Qarawiyyin, Medersa Bou Inania, and the ancient jewellers' souk. Night in Fes.",
@@ -1959,7 +1973,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "3–4 h (4x4)",
         distance: "≈60 km",
-        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
+        stop: { name: "Erg Chegaga", lat: 29.841402, lng: -6.29299 },
         title: "M'Hamid → Erg Chegaga (4x4 Crossing)",
         description:
           "After breakfast, board the 4x4 — the paved road ends here. Two to three hours of off-road driving through open desert, past scattered nomad camps and fossil-strewn hamada plains. Reach the edge of Erg Chegaga by midday. Camel trek deep into the dune field. Camp is set up in the heart of the erg — no roads, no other camps, no light pollution. Sunset over the dunes. Traditional dinner and a sky blazing with stars.",
@@ -2089,7 +2103,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel",
         driving: "≈5 h",
         distance: "≈300 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Sahara Sunrise → Merzouga Village → Ouarzazate",
         description:
           "Rise at 5:30 am to climb the dune and watch the Sahara wake up. Return camel to camp, breakfast, and freshen up at the Merzouga guesthouse. Begin the return via the 'Road of a Thousand Kasbahs' — a different, more southern route through Tazarine and N'Kob, a string of ancient earthen kasbahs along an old caravan route. Arrive Ouarzazate in the evening. Overnight in hotel.",
@@ -2202,7 +2216,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈4 h",
         distance: "≈240 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades Valley → Todra Gorge → Erg Chebbi Camp",
         description:
           "Breakfast at hotel. Walk the floor of Todra Gorge — 400 m walls of pink limestone framing a narrow river corridor. Drive east across the desert plains to Merzouga. Board your camel at sunset and ride into the towering dunes of Erg Chebbi. Camp is reached as the sky darkens. Traditional tagine dinner, Berber music, and stargazing in the Saharan dark.",
@@ -2398,7 +2412,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "3–4 h (4x4)",
         distance: "≈70 km",
-        stop: { name: "Erg Chegaga", lat: 29.928, lng: -5.928 },
+        stop: { name: "Erg Chegaga", lat: 29.841402, lng: -6.29299 },
         title: "4x4 Crossing into Erg Chegaga",
         description:
           "After breakfast, the paved road ends. Board the 4x4 for the off-road crossing — two to three hours of desert driving through open hammada, fossil plains, and scattered acacia. Arrive at the edge of Erg Chegaga by midday. Camel trek into the dune field. Camp is set deep in the erg. Sunset over the dunes, dinner by firelight, a silence you will not forget.",
@@ -2506,7 +2520,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈4 h",
         distance: "≈240 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades Valley → Todra Gorge → Erg Chebbi Camp",
         description:
           "Breakfast at hotel. Walk the floor of Todra Gorge — 400 m limestone walls, a river underfoot, and almost no crowds in the early morning. Drive east through the pre-Saharan oasis landscape to Merzouga. Mount your camel at the dune edge and ride into Erg Chebbi as the sun sets. Reach camp as darkness falls. Traditional tagine, Gnawa music, stargazing in the Saharan sky.",
@@ -2632,7 +2646,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel",
         driving: "≈4 h",
         distance: "≈220 km",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Midelt → Ifrane → Azrou Cedar Forest → Fes",
         description:
           "Drive through the Middle Atlas. Stop in Ifrane and the cedar forest at Azrou to spot wild Barbary macaques. Arrive Fes by afternoon. Check in to your riad.",
@@ -2640,7 +2654,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Fes Medina Full Day",
         description:
           "Guided exploration of Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the labyrinthine souks. Tour concludes in Fes.",
@@ -2727,7 +2741,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel",
         driving: "≈7 h",
         distance: "≈480 km",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Marrakech → Ifrane → Fes",
         description:
           "Depart Marrakech early. Cross the Middle Atlas. Stop in Ifrane and the Azrou cedar forest for Barbary macaques. Arrive Fes by evening. Check in to your riad.",
@@ -2736,7 +2750,7 @@ export const TOURS: Tour[] = [
         day: 3,
         meals: "B",
         stay: "Hotel",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Fes Medina Full Day",
         description:
           "Full guided day in Fes el-Bali: Chouara Tanneries, Al-Qarawiyyin University, Medersa Bou Inania, and the ancient souks. Evening walk on the medina walls.",
@@ -2863,7 +2877,7 @@ export const TOURS: Tour[] = [
         day: 4,
         meals: "B",
         stay: "Hotel",
-        stop: { name: "Fes", lat: 34.0433, lng: -5.0033 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknes → Fes Full Day",
         description:
           "Full day in Fes el-Bali with an expert guide. Chouara Tanneries, Al-Qarawiyyin, Medersa Bou Inania, and the ancient jewellers' souk. Night in Fes.",
@@ -3028,7 +3042,7 @@ export const TOURS: Tour[] = [
         stay: "Mountain refuge",
         walking: "6–7 h",
         ascent: "+1,370 m / −460 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Lake Ifni → Tizi n'Ouanoums (3,664 m) → Toubkal Refuge (3,207 m)",
         description:
           "A steep, rocky ascent to the Ouanoums pass overlooking the lake, then a descent to the Toubkal Refuge. Early night before summit day. Around 6 hours.",
@@ -3039,7 +3053,7 @@ export const TOURS: Tour[] = [
         walking: "7–8 h",
         driving: "1.5 h",
         ascent: "+960 m / −2,430 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
         description:
           "Pre-dawn ascent via the South Cirque to the roof of North Africa at sunrise. Descend to Imlil and transfer back to Marrakech. A long, rewarding final day.",
@@ -3137,7 +3151,10 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         ascent: "+1,470 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        // Imlil is where the road ends and the walking starts — the pin the
+        // customer recognises. Coordinate from Wikipedia (31°07′35″N 7°55′04″W).
+        extraStops: [{ name: "Imlil", lat: 31.1369, lng: -7.9169 }],
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Early transfer from Marrakech to Imlil (1h30). Trek up the Aït Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge. 4–5 hours walking. Dinner and early night.",
@@ -3148,7 +3165,7 @@ export const TOURS: Tour[] = [
         walking: "7–8 h",
         driving: "1.5 h",
         ascent: "+960 m / −2,430 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
         description:
           "Pre-dawn start for the summit via the South Cirque (around 3 hours up). Sunrise from the roof of North Africa, then descend to the refuge for lunch and continue down to Imlil (4–5 hours total descent). Transfer back to Marrakech.",
@@ -3231,7 +3248,10 @@ export const TOURS: Tour[] = [
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+900 m",
-        stop: { name: "Azzaden Valley", lat: 31.09, lng: -7.95 },
+        // Was 31.09,-7.95, which the DEM reads at 3,210 m — a ridge, not the
+        // valley floor the day actually ends on. Refuge Azib Tamsoult (OSM)
+        // reads 2,203 m, which matches a refuge below the Tizi n'Mzik.
+        stop: { name: "Azib Tamsoult", lat: 31.097544, lng: -7.966532 },
         title: "Marrakech → Imlil → Azzaden Valley (Azib Tamsoult)",
         description:
           "Transfer from Marrakech to Imlil. Trek over the Tizi n'Mzik pass (2,450 m) into the Azzaden Valley, past the Ighouliden waterfalls to the refuge near Azib Tamsoult. Around 6 hours.",
@@ -3242,7 +3262,7 @@ export const TOURS: Tour[] = [
         stay: "Mountain refuge",
         walking: "6–7 h",
         ascent: "+1,100 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Azzaden → Aguelzim Pass (3,560 m) → Toubkal Refuge (3,207 m)",
         description:
           "A stiff climb out of the Azzaden Valley over the Aguelzim Pass, with big views of the western Atlas, then a descent to the Toubkal Refuge. Around 6–7 hours. Early night before the summit.",
@@ -3253,7 +3273,7 @@ export const TOURS: Tour[] = [
         walking: "7 h",
         driving: "1.5 h",
         ascent: "+960 m / −2,430 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
         description:
           "Pre-dawn ascent via the South Cirque to the summit at sunrise. Long descent all the way back to Imlil (via the refuge), then transfer to Marrakech. A demanding but unforgettable final day.",
@@ -3339,7 +3359,10 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         ascent: "+1,470 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        // Imlil is where the road ends and the walking starts — the pin the
+        // customer recognises. Coordinate from Wikipedia (31°07′35″N 7°55′04″W).
+        extraStops: [{ name: "Imlil", lat: 31.1369, lng: -7.9169 }],
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Transfer from Marrakech to Imlil. Trek up the Aït Mizane valley past Sidi Chamharouch to the Toubkal Refuge. 4–5 hours. Acclimatisation and rest before two big summit days.",
@@ -3362,7 +3385,7 @@ export const TOURS: Tour[] = [
         walking: "6 h",
         driving: "1.5 h",
         ascent: "+960 m / −2,430 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Toubkal (4,167 m) → Imlil → Marrakech",
         description:
           "Final summit push up Jbel Toubkal via the South Cirque at sunrise — the highest of the three. Long descent to Imlil and transfer back to Marrakech.",
@@ -3523,7 +3546,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈8 h",
         distance: "≈560 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakech → Erg Chebbi Desert Camp",
         description:
           "Depart Marrakech early, crossing the High Atlas and the Draa Valley to Merzouga. Sunset camel trek into the Erg Chebbi dunes. Dinner at camp, followed by the guided stargazing session once full darkness falls.",
@@ -3965,7 +3988,7 @@ export const TOURS: Tour[] = [
         stay: "Desert camp",
         driving: "≈4 h",
         distance: "≈240 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades Gorge → Todra Gorge → Erg Chebbi desert camp",
         description:
           "A gentle morning walk in the dramatic Todra Gorge (flat and easy), then on to Merzouga. Arrive at the dunes for a sunset camel ride into a family desert camp. Dinner around the fire and stargazing. Overnight at the camp.",
@@ -4081,8 +4104,8 @@ export const TOURS: Tour[] = [
       { day: 9, title: "Remote valleys traverse", description: "A full day through valleys and hamlets that see almost no trekkers, following mule paths between villages. Around 6–7 hours. Overnight in a village gîte.", meals: "B,L,D", stay: "Wild camp", walking: "6 h" },
       { day: 10, title: "Approach the Toubkal massif", description: "Climb toward the eastern edge of the Toubkal massif, the scenery turning higher and more alpine. Around 6 hours. Camp.", stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 }, meals: "B,L,D", stay: "Village gîte", walking: "6–7 h" },
       { day: 11, title: "Tacheddirt (2,300 m)", description: "Descend to Tacheddirt, the highest permanently inhabited village in the Toubkal region, and the gateway to the final summit approach. Around 5 hours. Overnight in a village gîte.", stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 }, meals: "B,L,D", stay: "Village gîte", walking: "5 h", ascent: "+560 m" },
-      { day: 12, title: "Tacheddirt → Toubkal Refuge (3,207 m)", description: "Cross the Tizi n'Tacheddirt and traverse into the Mizane valley to the Toubkal Refuge. Around 6 hours. Afternoon acclimatisation walk above the refuge. Early night.", stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 }, meals: "B,L,D", stay: "Mountain refuge", walking: "6 h", ascent: "+900 m" },
-      { day: 13, title: "Summit Toubkal (4,167 m) → Refuge", description: "Pre-dawn summit push up the South Cirque to the highest point in North Africa for sunrise, then descend back to the refuge. Around 7 hours round trip. Celebratory dinner.", stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 }, meals: "B,L,D", stay: "Mountain refuge", walking: "7 h", ascent: "+960 m / −960 m" },
+      { day: 12, title: "Tacheddirt → Toubkal Refuge (3,207 m)", description: "Cross the Tizi n'Tacheddirt and traverse into the Mizane valley to the Toubkal Refuge. Around 6 hours. Afternoon acclimatisation walk above the refuge. Early night.", stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 }, meals: "B,L,D", stay: "Mountain refuge", walking: "6 h", ascent: "+900 m" },
+      { day: 13, title: "Summit Toubkal (4,167 m) → Refuge", description: "Pre-dawn summit push up the South Cirque to the highest point in North Africa for sunrise, then descend back to the refuge. Around 7 hours round trip. Celebratory dinner.", stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 }, meals: "B,L,D", stay: "Mountain refuge", walking: "7 h", ascent: "+960 m / −960 m" },
       { day: 14, title: "Refuge → Imlil (1,740 m)", description: "Descend the Mizane valley past the Sidi Chamharouch shrine to Imlil. Around 4 hours. A final night in an Imlil guesthouse to mark the end of the traverse.", stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 }, meals: "B,L,D", stay: "Guesthouse", walking: "5 h" },
       { day: 15, title: "Imlil → Marrakech", description: "Transfer back to Marrakech, arriving late morning. Tour ends.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "1.5 h" },
     ],
@@ -4175,7 +4198,10 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         ascent: "+1,470 m",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        // Imlil is where the road ends and the walking starts — the pin the
+        // customer recognises. Coordinate from Wikipedia (31°07′35″N 7°55′04″W).
+        extraStops: [{ name: "Imlil", lat: 31.1369, lng: -7.9169 }],
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
         title: "Marrakech → Imlil → Toubkal Refuge (3,207 m)",
         description:
           "Morning transfer from Marrakech to Imlil (1,740 m), about 90 minutes, where you meet your mountain guide. Trek up the Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge (3,207 m) — roughly 5 hours with a mule carrying the bags. Afternoon acclimatisation walk above the refuge, early dinner, and an early night before summit day.",
@@ -4186,7 +4212,7 @@ export const TOURS: Tour[] = [
         stay: "Guesthouse",
         walking: "6–7 h",
         ascent: "+960 m / −2,430 m",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
         title: "Summit Toubkal (4,167 m) → Imlil",
         description:
           "Pre-dawn start by head torch for the steep push up the South Cirque to the summit for sunrise, with the whole High Atlas — and the edge of the Sahara — below. Descend to the refuge for a proper breakfast, then continue down to Imlil. Night in an Imlil guesthouse to rest tired legs before the desert leg.",
@@ -4209,7 +4235,7 @@ export const TOURS: Tour[] = [
         walking: "1–2 h",
         driving: "≈4 h",
         distance: "≈240 km",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades → Todra Gorge → Erg Chebbi Desert Camp",
         description:
           "Morning walk in the dramatic Todra Gorge (400 m walls), then east across the desert to Merzouga. Arrive at the Erg Chebbi dunes for a sunset camel trek into a Berber desert camp. Dinner around the fire and stargazing under one of the darkest skies in Morocco. Overnight at the camp.",
@@ -4333,7 +4359,7 @@ export const TOURS: Tour[] = [
         title: "Abbes pass → Erg Chegaga",
         description:
           "Over the Abbes pass and into sand. The dunes build through the morning until, by afternoon, you reach Erg Chegaga itself — the largest dune field in Morocco, 50 km long and 15 km wide. Arriving on foot after two days of walking is a different experience from stepping out of a 4x4.",
-        stop: { name: "Erg Chegaga", lat: 29.9167, lng: -6.0333 },
+        stop: { name: "Erg Chegaga", lat: 29.841402, lng: -6.29299 },
         meals: "B,L,D",
         stay: "Mobile camp in the dunes",
         walking: "6–7 h",
@@ -4478,7 +4504,7 @@ export const TOURS: Tour[] = [
         title: "Dades → Todra Gorge → Merzouga",
         description:
           "Morning in the Todra Gorge, then on via Erfoud to Merzouga. Camel trek into the dunes at sunset, dinner and drumming at camp.",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
       },
       {
         day: 3,
@@ -4560,7 +4586,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech → Aït Ben Haddou → Zagora",
         description:
           "Early departure over the Tizi n'Tichka. Stops at Aït Ben Haddou and Ouarzazate, then south through the Draa Valley. Camel ride into the dunes at sunset, dinner at camp.",
-        stop: { name: "Zagora, Draa Valley", lat: 30.3306, lng: -5.8381 },
+        stop: { name: "Zagora, Draa Valley", lat: 30.3323, lng: -5.8366 },
       },
       {
         day: 2,
@@ -4849,7 +4875,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech to Imlil, then up to the Toubkal Refuge (3,207 m)",
         description:
           "Drive to Imlil (1,740 m), the trailhead village, and meet the mules. Trek up the Mizane Valley past the Sidi Chamharouch shrine to the refuge. Early night before summit day.",
-        stop: { name: "Toubkal Refuge", lat: 31.0782, lng: -7.9192 },
+        stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
       },
       {
         day: 3,
@@ -4860,7 +4886,7 @@ export const TOURS: Tour[] = [
         title: "Toubkal summit (4,167 m), then down to Imlil",
         description:
           "A pre-dawn start for the summit, on the top for sunrise over the Atlas and the Sahara haze beyond. Descend all the way to Imlil and sleep at Gite Panorama -- a real bed and a hot shower after two days on the mountain.",
-        stop: { name: "Jbel Toubkal Summit", lat: 31.0606, lng: -7.9153 },
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
       },
       {
         day: 4,
@@ -4882,7 +4908,7 @@ export const TOURS: Tour[] = [
         title: "Dades to Todra Gorge, then camels into Erg Chebbi",
         description:
           "Walk into the Todra Gorge, where the walls close to a few metres apart and rise 300 m. Drive on to Merzouga and swap the vehicle for camels, riding into the dunes to reach camp before sunset.",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1667, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
       },
       {
         day: 6,
@@ -5020,7 +5046,7 @@ export const TOURS: Tour[] = [
         title: "Casablanca → Rabat → Volubilis → Meknes → Fes",
         description:
           "Collection from your Casablanca hotel or the airport. North along the coast to Rabat for the Hassan Tower and the Kasbah of the Udayas above the river mouth. Inland to Volubilis, the Roman city whose floor mosaics are still in place under the open sky, then Meknes for Bab Mansour and Moulay Ismail's imperial granaries. Arrive Fes in the evening; night in a riad inside the medina.",
-        stop: { name: "Fes", lat: 34.0181, lng: -5.0078 },
+        stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
       },
       {
         day: 2,
@@ -5042,7 +5068,7 @@ export const TOURS: Tour[] = [
         title: "Fes → Ifrane → Midelt → Erfoud → Erg Chebbi",
         description:
           "The long day, broken into stages. Up through the cedar forests of the Middle Atlas to Ifrane, an alpine-looking town of pitched roofs at 1,665 m, with Barbary macaques in the cedars beyond it. Down through Midelt and the Ziz valley — a canyon of date palms that runs for kilometres — to Errachidia and Erfoud. Camel trek into the Erg Chebbi dunes at sunset, dinner and Berber music at camp.",
-        stop: { name: "Erg Chebbi, Merzouga", lat: 31.1500, lng: -3.9833 },
+        stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
       },
       {
         day: 4,

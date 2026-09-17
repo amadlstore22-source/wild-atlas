@@ -34,13 +34,19 @@ const securityHeaders = [
       // Without blob: the map silently renders nothing but a background colour.
       "worker-src 'self' blob:",
       // Google Analytics sends hit beacons as GET images to these hosts.
-      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://tiles.openfreemap.org https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk",
+      // tiles.mapterhorn.com serves the terrarium DEM behind the trekking maps'
+      // 3D view. It needs BOTH img-src and connect-src: MapLibre fetches a
+      // raster-dem tile with fetch() to decode heights, not as an <img>, so
+      // img-src alone still fails with "AJAXError: Failed to fetch (0)" — a
+      // message that names no policy and reads like a dead URL. The tile is
+      // fine; the fetch never leaves the page.
+      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk",
       "font-src 'self'",
       // GA4/Ads use fetch/beacon to google-analytics.com & the analytics regional
       // endpoints; googletagmanager.com serves the container.
       isDev
-        ? "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://server.arcgisonline.com ws://localhost:* http://localhost:*"
-        : "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://server.arcgisonline.com",
+        ? "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com ws://localhost:* http://localhost:*"
+        : "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com",
       "frame-src https://www.paypal.com https://www.sandbox.paypal.com",
       "frame-ancestors 'none'",
       // These three do NOT inherit from default-src, so omitting them left real

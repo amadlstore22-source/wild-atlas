@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
@@ -23,9 +23,27 @@ import {
  * vector place labels on top, which stay crisp at every zoom and rotate with
  * the map rather than being baked into the raster.
  *
- * OpenFreeMap publishes no raster-dem source, so there is no 3D terrain here —
- * pitch and rotation are enabled, but the relief you see is the satellite
- * imagery, not a height model.
+ * 3D TERRAIN (`terrain` prop, opt-in — see the prop comment for who gets it).
+ *
+ * This file used to record that "OpenFreeMap publishes no raster-dem source,
+ * so there is no 3D terrain here". That was true when written and is no longer:
+ * Mapterhorn serves free terrarium-encoded DEM tiles with no API key, the same
+ * source MapLibre's own 3D-terrain example uses.
+ *
+ * Verified 2026-09-17 before wiring it up, over the tile covering Toubkal
+ * (12/1957/1675): min 1,690 m, max 4,154 m, mean 2,859 m. Toubkal's true
+ * summit is 4,167 m, so the DEM is within ~13 m — real data, not a stub.
+ *
+ * WHY IT IS NOT ON EVERYWHERE. A terrain tile is ~131 KB against ~17 KB for an
+ * Esri imagery tile, roughly 8x, and this repo has already fought the map
+ * bundle's weight on mobile once (see TourLocationMap.tsx). Relief also earns
+ * its keep only where the ground is the story: on a driving tour to Merzouga
+ * it tells the reader nothing a flat map did not. So it is opt-in, and the
+ * tour page switches it on for trekking only.
+ *
+ * COVERAGE STOPS AROUND z12. Requesting 13/3914/3351 returns a 17-byte empty
+ * tile, so `maxzoom: 12` is declared on the source and MapLibre overzooms from
+ * there rather than asking for tiles that do not exist.
  */
 export interface RouteStop {
   name: string;
@@ -56,12 +74,26 @@ export interface TourLocationMapProps {
    * copy onto all five locale tour pages — the exact defect
    * __tests__/lib/locale-english-leak.test.ts exists to prevent.
    */
-  mapKey?: { tour: string; transfer: string; offRoad: string };
+  mapKey?: { tour: string; transfer: string; offRoad: string; terrain3d?: string };
   /** Precomputed road-snapped route polyline ([lat,lng] pairs) for driving
    *  tours, built offline by scripts/build-tour-routes.mjs. When present the
    *  line follows real roads; when absent the stops are joined by straight
    *  segments (correct for off-road trekking, where there is no road to snap). */
   routeGeometry?: [number, number][];
+  /**
+   * Load the DEM and offer the 3D view. Set for trekking tours only.
+   *
+   * WHY THOSE. An audit of all 48 tours (2026-09-17) found 14 with multiple
+   * stops and no road-snapped geometry, and 13 of the 14 are trekking — which
+   * is correct, because an off-road route has no road to snap to. The result
+   * is that precisely the pages where the ground IS the product draw a bare
+   * straight line over imagery in which a 3,664 m pass looks identical to a
+   * valley floor. Relief is the only thing that makes that line legible.
+   *
+   * The 131 KB DEM tiles are the cost, so this stays off for the 20 driving
+   * tours where it would buy nothing.
+   */
+  terrain?: boolean;
 }
 
 /**
@@ -139,9 +171,11 @@ export default function TourLocationMapInner({
   routeGeometry,
   origin = "",
   mapKey,
+  terrain = false,
 }: TourLocationMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const [in3d, setIn3d] = useState(false);
 
   // The key is rendered from the same functions that draw the lines, so it can
   // never advertise a line style the map does not contain.
@@ -171,55 +205,98 @@ export default function TourLocationMapInner({
       attributionControl: false,
       // Wheel-zoom stays off so the page still scrolls past the map on a laptop.
       scrollZoom: false,
-      style: {
-        version: 8,
-        glyphs: "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
-        sources: {
-          satellite: {
-            type: "raster",
-            tiles: [
-              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-            ],
-            tileSize: 256,
-            maxzoom: 18,
-            attribution:
-              "Tiles &copy; <a href='https://www.esri.com'>Esri</a> &mdash; Source: Esri, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP",
-          },
-          openmaptiles: {
-            type: "vector",
-            url: "https://tiles.openfreemap.org/planet",
-            attribution:
-              "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
-          },
-        },
-        layers: [
-          { id: "bg", type: "background", paint: { "background-color": "#1a1a17" } },
-          { id: "satellite", type: "raster", source: "satellite" },
-          // Vector place labels over the imagery. Esri's own label layer is
-          // baked into raster tiles and blurs when zoomed between levels; these
-          // stay sharp and can be styled to sit legibly on dark terrain.
-          {
-            id: "place-labels",
-            type: "symbol",
-            source: "openmaptiles",
-            "source-layer": "place",
-            filter: ["in", ["get", "class"], ["literal", ["city", "town", "village"]]],
-            layout: {
-              "text-field": ["coalesce", ["get", "name:latin"], ["get", "name"]],
-              "text-font": ["Noto Sans Regular"],
-              "text-size": ["interpolate", ["linear"], ["zoom"], 6, 10, 12, 14],
-              "text-anchor": "top",
-              "text-offset": [0, 0.4],
-            },
-            paint: {
-              "text-color": "#ffffff",
-              "text-halo-color": "rgba(0,0,0,0.85)",
-              "text-halo-width": 1.4,
-            },
-          },
-        ],
-      },
+      // STYLE: OpenFreeMap "Liberty", with the satellite imagery slipped in
+      // underneath its labels.
+      //
+      // WHY NOT HAND-ROLLED LABELS. This file used to define its own single
+      // `place` symbol layer filtered to city/town/village. That is a city-map
+      // assumption and it failed exactly where this site needs a map to work:
+      // in the High Atlas nearly every settlement on a trekking route (Aroumd,
+      // Sidi Chamharouch, Tacheddirt, Tizi Oussem) is tagged `hamlet` in OSM,
+      // so a map zoomed into the Toubkal massif showed NO names at all — an
+      // aerial photo of nowhere. Peaks were unlabelled too, so Toubkal itself
+      // was anonymous on its own tour page.
+      //
+      // Chasing that by adding filters and a peak layer by hand meant
+      // re-deriving cartography that a maintained style already does properly:
+      // Liberty ships 111 layers including `label_other` (the hamlet catch-all,
+      // from z8), POI labels, path names, waterways and peak POIs, with
+      // collision, ranking and type scale already tuned. Use the map that has
+      // it rather than rebuilding a worse one.
+      //
+      // The style is fetched by URL, so its layer list is not enumerated here;
+      // the satellite raster is inserted below the first symbol layer on load
+      // (see `insertImagery`), which keeps every Liberty label on top of the
+      // photography.
+      style: "https://tiles.openfreemap.org/styles/liberty",
     });
+
+    /**
+     * Slide the Esri imagery in under Liberty's labels, and attach the DEM.
+     *
+     * ORDER IS THE WHOLE POINT. Appending the raster would bury all 111 style
+     * layers under the photograph. Inserting it before the FIRST symbol layer
+     * puts it above Liberty's landcover and roads but below every label, so
+     * the names, peaks and paths stay on top of the imagery — which is the
+     * arrangement that makes an aerial photo usable as a map.
+     *
+     * Runs on `styledata` as well as `load` for the reason drawRoute does: a
+     * cached style can resolve before the listener attaches. Both guards are
+     * on the source existing, so re-entry is harmless.
+     */
+    const insertImagery = () => {
+      if (map.getSource("satellite")) return;
+      try {
+        map.addSource("satellite", {
+          type: "raster",
+          tiles: [
+            "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          ],
+          tileSize: 256,
+          maxzoom: 18,
+          // Shortened from Esri's full per-agency credit: with three sources
+          // the compact bar overran the map and the attributions painted over
+          // one another. Esri is still credited and linked, which is what the
+          // imagery terms require.
+          attribution: "Imagery &copy; <a href='https://www.esri.com'>Esri</a>",
+        });
+
+        const firstSymbol = map.getStyle().layers?.find((l) => l.type === "symbol")?.id;
+        map.addLayer({ id: "satellite", type: "raster", source: "satellite" }, firstSymbol);
+
+        // Liberty paints its own land/water fills beneath the imagery. They
+        // are invisible under an opaque raster, but they are also what shows
+        // through wherever a tile is missing, so they are left alone.
+      } catch (err) {
+        console.error("[TourLocationMap] imagery failed to attach", err);
+      }
+    };
+
+    const addDem = () => {
+      if (!terrain || map.getSource("dem")) return;
+      try {
+        map.addSource("dem", {
+          type: "raster-dem",
+          tiles: ["https://tiles.mapterhorn.com/{z}/{x}/{y}.webp"],
+          // Terrarium, NOT mapbox — reading it as mapbox yields relief that
+          // looks plausible at a glance and is wrong everywhere.
+          encoding: "terrarium",
+          tileSize: 512,
+          // No data above z12; without this MapLibre requests z13+ and gets
+          // 17-byte empties, which render as flat ground exactly where the
+          // reader zoomed in to look.
+          maxzoom: 12,
+          attribution: "<a href='https://mapterhorn.com/attribution'>Mapterhorn</a>",
+        });
+      } catch (err) {
+        console.error("[TourLocationMap] DEM source failed", err);
+      }
+    };
+
+    map.on("load", insertImagery);
+    map.on("styledata", insertImagery);
+    map.on("load", addDem);
+    map.on("styledata", addDem);
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: true }), "top-left");
     map.addControl(
@@ -265,7 +342,27 @@ export default function TourLocationMapInner({
           for (const [la, ln] of routeGeometry) bounds.extend([ln, la]);
         }
       }
-      map.fitBounds(bounds, { padding: 42, maxZoom: 13, duration: 0 });
+      // maxZoom 13 is right for a 300 km desert loop and wrong for a summit
+      // day. The two Toubkal stops are 2.0 km apart, so capping at 13 framed
+      // ~25 km of the Atlas and drew the route as a stub hidden under its own
+      // two pins — the line that IS the tour was invisible.
+      //
+      // Short routes are allowed closer in. 15 keeps the refuge and the summit
+      // both on screen with the ridge between them legible, which is the whole
+      // point of the map on a trekking page.
+      const span = Math.max(
+        bounds.getEast() - bounds.getWest(),
+        bounds.getNorth() - bounds.getSouth(),
+      );
+      // ~0.05 deg is roughly 5 km at this latitude.
+      //
+      // Capped at 14, NOT 15. At 15 the Toubkal map framed the 2 km between
+      // the refuge and the summit so tightly that Imlil — the trailhead every
+      // customer actually arrives at, 6.4 km down the valley — fell outside
+      // the frame entirely, and the map became an aerial photo of an anonymous
+      // ridge. A trekking map has to show where the walk starts.
+      const maxZoom = span < 0.05 ? 14 : span < 0.15 ? 13.5 : 13;
+      map.fitBounds(bounds, { padding: 42, maxZoom, duration: 0 });
     }
 
     // Route line. Prefer the precomputed road-snapped geometry (driving tours)
@@ -414,6 +511,30 @@ export default function TourLocationMapInner({
     map.on("styledata", drawRoute);
     if (map.isStyleLoaded()) drawRoute();
 
+    // Terrain has to wait for the style AND survive re-entry, for the same
+    // three reasons drawRoute does. setTerrain before the source has parsed
+    // throws; calling it twice is harmless, so the guard is on the source
+    // existing rather than on a flag.
+    //
+    // NOTE the map starts FLAT even here. Declaring the source loads the DEM
+    // so the toggle is instant, but exaggeration stays 0 until the reader
+    // asks: a hero image still loading should not compete with terrain tiles,
+    // and a map that tilts itself is disorienting on a page you came to read.
+    const enableTerrain = () => {
+      if (!terrain) return;
+      if (!map.getSource("dem")) return;
+      try {
+        map.setTerrain({ source: "dem", exaggeration: 0 });
+      } catch (err) {
+        // Never take the map down over relief — it is an enhancement, and a
+        // flat map is the perfectly good state we shipped for a year.
+        console.error("[TourLocationMap] terrain failed to attach", err);
+      }
+    };
+    map.on("load", enableTerrain);
+    map.on("styledata", enableTerrain);
+    if (map.isStyleLoaded()) enableTerrain();
+
     // Markers can be added before load; MapLibre positions them on first render.
     points.forEach((p, i) => {
       const label = hasRoute ? stopLabel(p) || String(i + 1) : "";
@@ -443,12 +564,39 @@ export default function TourLocationMapInner({
       map.remove();
       mapRef.current = null;
     };
-  }, [lat, lng, name, color, stops, routeGeometry]);
+  }, [lat, lng, name, color, stops, routeGeometry, terrain]);
+
+  /**
+   * Tilt into the relief, or lie back flat.
+   *
+   * Exaggeration is 1.4 rather than 1: at true scale a 1,300 m pass viewed
+   * across 20 km of ground barely reads on a 340 px-tall map, which is the
+   * whole reason the flat version fails. 1.4 is enough to show which way the
+   * ground falls without turning the Atlas into the Himalaya — the shape stays
+   * honest, which matters on a page where the customer is judging how hard a
+   * walk looks.
+   */
+  const toggle3d = () => {
+    const map = mapRef.current;
+    if (!map) return;
+    const next = !in3d;
+    setIn3d(next);
+    try {
+      map.setTerrain({ source: "dem", exaggeration: next ? 1.4 : 0 });
+      map.easeTo({ pitch: next ? 62 : 0, duration: 800 });
+    } catch (err) {
+      console.error("[TourLocationMap] could not toggle terrain", err);
+    }
+  };
 
   return (
     <>
       <style>{`
-        .maplibregl-ctrl-attrib { font-size: 9px !important; background: rgba(0,0,0,0.55) !important; }
+        /* max-width + wrapping, because the bar does not clip its own text:
+           with three sources credited it ran past the map edge and the
+           attributions painted over each other. Capped at 60% so it can never
+           reach the zoom controls on the far corner. */
+        .maplibregl-ctrl-attrib { font-size: 9px !important; background: rgba(0,0,0,0.55) !important; max-width: 60% !important; white-space: normal !important; line-height: 1.35 !important; }
         .maplibregl-ctrl-attrib a { color: rgba(255,255,255,0.7) !important; }
         .maplibregl-ctrl-attrib.maplibregl-compact { background: rgba(0,0,0,0.55) !important; }
         .maplibregl-ctrl-group { border-radius: 8px !important; overflow: hidden; border: none !important; background: rgba(20,30,20,0.85) !important; }
@@ -466,12 +614,27 @@ export default function TourLocationMapInner({
           MapLibre z-index resolve INSIDE this wrapper, so the whole map sits
           below the header as one unit — one class, rather than re-numbering
           the library's layers. */}
-      <div className="isolate">
+      <div className="isolate relative">
         <div
           ref={containerRef}
           className="h-[340px] w-full rounded-[4px] overflow-hidden shadow-sm"
           aria-label={stops && stops.length >= 2 ? `Route map for ${name}` : `Map showing ${name}`}
         />
+
+        {/* Top-RIGHT: MapLibre's own zoom/compass group sits top-left, and two
+            control clusters on the same corner read as one broken widget.
+            `aria-pressed` rather than a label swap, so a screen reader gets the
+            state without the button's name changing under it. */}
+        {terrain && (
+          <button
+            type="button"
+            onClick={toggle3d}
+            aria-pressed={in3d}
+            className="absolute right-2 top-2 z-10 rounded-[6px] border border-white/15 bg-[rgba(20,30,20,0.85)] px-2.5 py-1.5 text-[11px] font-semibold text-white/90 shadow-sm transition hover:bg-[rgba(40,55,40,0.95)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
+          >
+            {mapKey?.terrain3d ?? "3D terrain"}
+          </button>
+        )}
 
         {(showTransferKey || showOffRoadKey) && (
           <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-[11px] text-ink-soft">

@@ -249,7 +249,8 @@
     "mapKeyTour": "Il tuo tour",
     "mapKeyTransfer": "Trasferimento su strada",
     "mapKeyOffRoad": "Fuoristrada in 4x4 o cammello",
-    "briefHeading": "Prima di prenotare"
+    "briefHeading": "Prima di prenotare",
+    "mapKeyTerrain3d": "Rilievo 3D"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

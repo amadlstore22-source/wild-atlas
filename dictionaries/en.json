@@ -249,7 +249,8 @@
     "mapKeyTour": "Your tour",
     "mapKeyTransfer": "Transfer by road",
     "mapKeyOffRoad": "Off-road by 4x4 or camel",
-    "briefHeading": "Before You Book"
+    "briefHeading": "Before You Book",
+    "mapKeyTerrain3d": "3D terrain"
   },
   "booking": {
     "pricePerPerson": "Price per person",

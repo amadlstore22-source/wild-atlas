@@ -319,15 +319,32 @@ export default async function TourDetailPage({ params }: TourParams) {
                 lat={tour.meetingPoint.lat}
                 lng={tour.meetingPoint.lng}
                 name={tour.meetingPoint.name}
+                /* Waypoints come before the day's endpoint, and the pins are
+                   numbered by POSITION ALONG THE ROUTE rather than by day.
+                   Numbering by `day` broke as soon as a day carried more than
+                   one pin — Imlil and the Toubkal Refuge are both day 1, so
+                   both rendered "1" and the walk read as starting twice. */
                 stops={tour.itinerary
-                  .filter((d) => d.stop)
-                  .map((d) => ({ name: d.stop!.name, lat: d.stop!.lat, lng: d.stop!.lng, day: d.day }))}
+                  .flatMap((d) => [
+                    ...(d.extraStops ?? []).map((s) => ({ name: s.name, lat: s.lat, lng: s.lng })),
+                    ...(d.stop ? [{ name: d.stop.name, lat: d.stop.lat, lng: d.stop.lng }] : []),
+                  ])
+                  .map((s, i) => ({ ...s, day: i + 1 }))}
                 routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
                 origin={tour.origin}
+                /* Relief is offered where the ground IS the product. An audit
+                   of all 48 tours found 14 multi-stop routes with no road to
+                   snap to, 13 of them trekking — so those pages draw a bare
+                   straight line over imagery where a 3,664 m pass looks like a
+                   valley floor. The DEM tiles are ~8x the weight of the
+                   imagery, so driving tours, which learn nothing from relief,
+                   do not load them. */
+                terrain={tour.category === "trekking"}
                 mapKey={{
                   tour: dict.tourDetail.mapKeyTour,
                   transfer: dict.tourDetail.mapKeyTransfer,
                   offRoad: dict.tourDetail.mapKeyOffRoad,
+                  terrain3d: dict.tourDetail.mapKeyTerrain3d,
                 }}
               />
             </section>

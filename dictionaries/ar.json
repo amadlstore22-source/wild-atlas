@@ -249,7 +249,8 @@
     "mapKeyTour": "جولتك",
     "mapKeyTransfer": "الانتقال بالطريق",
     "mapKeyOffRoad": "خارج الطريق بسيارة رباعية الدفع أو على الجمل",
-    "briefHeading": "قبل الحجز"
+    "briefHeading": "قبل الحجز",
+    "mapKeyTerrain3d": "تضاريس ثلاثية الأبعاد"
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",

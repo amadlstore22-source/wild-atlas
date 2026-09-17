@@ -248,7 +248,8 @@
     },
     "mapKeyTour": "Your tour",
     "mapKeyTransfer": "Transfer by road",
-    "mapKeyOffRoad": "Off-road by 4x4 or camel"
+    "mapKeyOffRoad": "Off-road by 4x4 or camel",
+    "briefHeading": "Before You Book"
   },
   "booking": {
     "pricePerPerson": "Price per person",

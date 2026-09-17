@@ -248,7 +248,8 @@
     },
     "mapKeyTour": "Ihre Tour",
     "mapKeyTransfer": "Transfer auf der Straße",
-    "mapKeyOffRoad": "Abseits der Straße mit 4x4 oder Kamel"
+    "mapKeyOffRoad": "Abseits der Straße mit 4x4 oder Kamel",
+    "briefHeading": "Vor der Buchung"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

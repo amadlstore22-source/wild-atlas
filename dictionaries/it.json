@@ -248,7 +248,8 @@
     },
     "mapKeyTour": "Il tuo tour",
     "mapKeyTransfer": "Trasferimento su strada",
-    "mapKeyOffRoad": "Fuoristrada in 4x4 o cammello"
+    "mapKeyOffRoad": "Fuoristrada in 4x4 o cammello",
+    "briefHeading": "Prima di prenotare"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

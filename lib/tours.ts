@@ -123,6 +123,41 @@ export interface Tour {
    *  automatically by region + category. Flows blog topical authority into the
    *  money page and answers pre-booking questions. */
   relatedPosts?: string[];
+  /**
+   * Long-form prose for the tour page — the "brief".
+   *
+   * WHY THIS EXISTS. Measured 2026-09-17 over 90 days of Search Console:
+   * blog posts averaged position 19.2 and carried 27,509 impressions, while
+   * tour pages averaged position 71.4 on 2,494. Tour pages actually convert
+   * BETTER once seen (2.97% CTR against the blog's 1.72%) — they are simply
+   * never seen. The structural difference is content volume: a tour entry
+   * averages 379 words of copy against 1,000–1,750 in a post, and the
+   * thinnest tour pages carry barely 200. `description` is one paragraph and
+   * `highlights`/`includes` are sentence fragments; nothing on the page
+   * carries indexable prose.
+   *
+   * WHAT IT IS FOR. Transactional intent — "3 day desert tour from marrakech
+   * price", "shared 3 days desert tour from marrakech" — where the searcher
+   * wants to book, not read. The blog keeps informational intent ("how much
+   * does a morocco desert tour cost"). Writing the same angle in both puts
+   * two of our own pages in one auction, so the brief must NOT restate the
+   * related post.
+   *
+   * RULES.
+   *   - Every fact must come from this tour's own record: the itinerary
+   *     stages, the ladder, what includes/excludes actually say. Never invent
+   *     a distance, a price or a camp detail to fill a paragraph. If a figure
+   *     is not in the data, leave the sentence out.
+   *   - Prices belong in prose as EUR at the rate in currency-core, matching
+   *     what the page renders. Quote the ladder, not a single number.
+   *   - Plain paragraphs, no headings — this renders inside the overview
+   *     column, not as its own article.
+   *
+   * Optional, and English-first: the locale merge in tours-i18n falls back to
+   * the EN value per field, so a tour without a translated brief shows the
+   * English one rather than an empty section.
+   */
+  brief?: string[];
 }
 
 export const TOURS: Tour[] = [
@@ -786,6 +821,13 @@ export const TOURS: Tour[] = [
     id: "8",
     slug: "mgoun-massif-trek",
     relatedPosts: ["mgoun-massif-trek-cost", "best-multi-day-treks-morocco", "what-to-pack-high-atlas-trek-morocco"],
+    brief: [
+      "Seven days across the Mgoun massif, which is the part of the High Atlas that trekking traffic never reaches. Day one drives 5 hours to Aït M'hamed and a night with a Berber family. Day two walks through the Aït Bouguemez — the 'Happy Valley' — to camp at Agouti, 2,600 m. Day three crosses the first high pass, Tizi n'Ait Imi at 3,650 m, with 1,050 m of ascent. Day four is a pre-dawn start for the 4,068 m summit of Jbel Mgoun, Morocco's second-highest peak, then down into the Tessaoute gorge.",
+      "Days five and six are the reason experienced trekkers pick this over a Toubkal route. Five traverses the red-walled Tessaoute gorge with wild swimming in the river; six exits to Bou Tharar and a night with a village family. Day seven returns to Marrakech through the rose valley, finishing by about 4 pm. Four nights are wild camps, two are with families.",
+      "It is graded expert, and the grade is about accumulation rather than technique. No single day requires climbing skill. But it is seven consecutive days at altitude in country with few exit points, and the mule team carries the camp because there is nowhere to restock. Anyone who has done Toubkal comfortably and wants the next thing will find this is genuinely the next thing.",
+      "Per person: €1,350 solo, €760 for two, €710 for three, €680 for four, €625 for five and €596 at six, in a group capped at eight. Included are an expert licensed high-mountain guide, every meal for seven days, the mule team, the camps and homestays, national park fees, and — worth noting on a trek this remote — emergency satellite communication.",
+      "Travel and medical insurance is mandatory here rather than recommended, and you should read that as written: on days three to six you are a long way from a road. Technical mountaineering equipment and tips are not included. If you are weighing this against Toubkal, the honest split is that Toubkal is a summit you can fit into a holiday, and Mgoun is an expedition that becomes the holiday.",
+    ],
     title: "Marrakech to Mgoun Massif — 7-Day Traverse",
     category: "trekking",
     origin: "marrakech",
@@ -1261,6 +1303,13 @@ export const TOURS: Tour[] = [
     id: "14",
     slug: "sahara-2day-agadir",
     relatedPosts: ["sahara-tour-from-agadir-cost", "sahara-desert-from-agadir", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
+    brief: [
+      "Almost every Sahara trip in Morocco leaves from Marrakech. This one leaves from Agadir and takes the southern route through Tata and Foum Zguid to Erg Chegaga, which is a genuinely different desert from the one on the postcards. Chegaga is the largest and most remote dune field in the country, reached by 4x4 across open ground rather than by coach to a roadside camp.",
+      "Be clear about the driving, because it is the defining feature: roughly 8 hours and 450 km each way, on both days. That is a lot of vehicle time for a two-day trip, and it is the price of reaching Chegaga from the coast at all. What you get for it is a dune field where you are not sharing the sunset with fifty other people. If long drives are the problem rather than the distance, the 4-day version from Marrakech is the better fit.",
+      "Day one runs Agadir–Tata–Foum Zguid and into the dunes, arriving for a sunset camel trek and dinner at camp. Day two is sunrise over the erg, then back through the Draa Valley palmery and its kasbahs. One night under canvas, and the camp is far enough from any town that the Milky Way is visible without trying.",
+      "Per person: €790 solo, €400 for two, €340 for three, €310 for four and €280 at five. That covers 4x4 transport throughout, an experienced desert guide, the camp night in a private sleeping tent with dinner and breakfast, and all camel rides. An en-suite tent is available if you would rather not use shared facilities — worth asking about when you book rather than on arrival.",
+      "Lunch on day one is not included, and neither are personal items or tips. Group size is 2–10 and the trip is private. It is graded easy: there is no walking to speak of, and the only real demand it makes is tolerance for a long day in a vehicle on a road most visitors to Morocco never see.",
+    ],
     title: "Agadir to the Sahara — 2-Day Desert Tour",
     category: "desert",
     origin: "agadir",
@@ -2860,6 +2909,13 @@ export const TOURS: Tour[] = [
     id: "30",
     slug: "toubkal-circuit-ifni-lake-6day",
     relatedPosts: ["toubkal-circuit-ifni-lake-cost", "best-multi-day-treks-morocco", "what-to-pack-high-atlas-trek-morocco", "toubkal-weather-by-month"],
+    brief: [
+      "This is the full ring around the Toubkal massif, and it is a different trip from the summit push that most people book. Six days, four high passes, and the summit saved for the last morning rather than treated as the whole point. You start at Tachedirt, cross Tizi Likemt at 3,555 m, drop to Azib Likemt, work south through Amsouzart, camp beside Lake Ifni at 2,295 m, then cross Tizi n'Ouanoums at 3,664 m to the Toubkal Refuge before summiting on day six.",
+      "The walking is substantial and consistent: 4 hours on day one, 6–7 on day two with 1,255 m of ascent and 1,305 m down, 6 on day three, 5 on day four, 6–7 on day five with another 1,370 m of climbing, and 7–8 on the final day including the 4,167 m summit and a 2,430 m descent to Imlil. That is six consecutive days of mountain walking at altitude. It is graded challenging and the grade is honest.",
+      "Lake Ifni is the reason to choose this over the standard route. It is the only real lake in the High Atlas, turquoise and set in a bowl of bare rock at 2,295 m, and almost nobody on a summit trek ever sees it. The nights vary too — refuges, village gîtes and camping rather than the same refuge twice — which means you pass through inhabited valleys and grazing land that the Imlil corridor never shows you.",
+      "Prices per person: €990 solo, €790 for two, €585 for three, €510 for four, €480 for five and €450 at six. That includes the licensed mountain guide, all five nights, every meal on the trek, the mules and muleteers carrying group gear and camp, national park fees and the return transfer from Marrakech. Travel insurance is mandatory and not included, and you bring your own trekking kit and sleeping bag. Tips for the guide, cook and muleteers are separate and customary.",
+      "You do not carry your own gear beyond a day pack — the mule team moves camp. What you should bring is genuine hill fitness and broken-in boots. Six days is long enough that small problems become large ones, and the most common reason someone struggles here is footwear rather than fitness. Private group of 2–12.",
+    ],
     title: "Toubkal Circuit & Ifni Lake from Marrakech — 6-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3005,6 +3061,13 @@ export const TOURS: Tour[] = [
     id: "31",
     slug: "toubkal-summit-2day-marrakech",
     relatedPosts: ["toubkal-2-day-trek-cost", "how-to-climb-toubkal-in-2-days", "toubkal-2-day-vs-4-day-which-trek", "how-hard-is-toubkal-difficulty-guide"],
+    brief: [
+      "Two days is the shortest honest way to stand on top of North Africa. Day one is a 1.5-hour drive from Marrakech to Imlil and then roughly five hours of walking to the Toubkal Refuge at 3,207 m, climbing about 1,470 m past the Sidi Chamharouch shrine. Day two starts before dawn: 960 m up to the 4,167 m summit, then the whole 2,430 m descent to Imlil and the drive back. Seven to eight hours of walking on the second day, most of it downhill on loose ground.",
+      "The thing worth understanding before booking is that there is no acclimatisation day. You sleep one night at 3,207 m and summit the next morning, which is a real ascent profile rather than a gentle one. Walkers who are comfortable with a long hill day at home generally manage it; walkers who have never been above 3,000 m sometimes feel the altitude on the final slope. If you have the time, the 4-day version builds in acclimatisation and is the better trek — this one exists for people who do not.",
+      "Price runs on a group ladder because the guide, the mule and the transfer cost the same whether one person walks or six. Solo is €350. Two people pay €195 each, three €185, four €175, five €165, and at six it falls to €153 per person. That figure covers the licensed mountain guide, the refuge night, all meals on the mountain, the mule for group gear, national park fees and return transport from Marrakech — so the number quoted is the number you pay, not a base rate with the mountain costs added later.",
+      "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide and muleteer, and crampons and an ice axe if you are going in winter. Those last are rentable in Imlil. Between roughly November and April the summit becomes a snow climb and the trek is a genuinely different proposition — still very doable with the right kit, but not the same walk as the one in the photographs.",
+      "The group is yours alone. This is a private trek for 2–12 people, so the pace is set by your party rather than by strangers, and the guide can turn a group around or slow it down without negotiating with anyone else's schedule. On a two-day summit with no spare day, that flexibility is worth more than it sounds.",
+    ],
     title: "Mount Toubkal Express — 2-Day Summit from Marrakech",
     category: "trekking",
     origin: "marrakech",
@@ -3393,6 +3456,13 @@ export const TOURS: Tour[] = [
     id: "35",
     slug: "merzouga-stargazing-desert-tour",
     relatedPosts: ["merzouga-travel-guide", "sahara-desert-facts", "luxury-vs-standard-desert-camp-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
+    brief: [
+      "Most desert tours mention the stars in the brochure and then leave you to look at them on your own. This one is built around the sky: after the sunset camel trek and dinner, an astronomy guide sets up a telescope at camp and works through the planets, constellations and deep-sky objects that are up that night, explained in ordinary language rather than jargon. You need no equipment and no prior knowledge.",
+      "The reason it works at Erg Chebbi specifically is distance from anything electric. There is no city glow in any direction, so the Milky Way is visible to the naked eye on a clear night — not as a faint smudge but as a structure across the sky. That is rarer than people expect; most of Europe has nowhere left that dark.",
+      "The trade is the drive. Erg Chebbi is roughly 560 km and about 8 hours from Marrakech, each way, and this is a two-day trip — so it is one long driving day, one night at camp, and one long driving day back. Day one arrives for the camel trek and dinner; day two is sunrise over the dunes and the return. Anyone who would rather break that up should look at a 3- or 4-day desert itinerary instead.",
+      "Per person: €518 solo, €260 for two, €191 for three, €160 for four, €139 for five and €121 at six. Included are return transport from Marrakech, the sunset camel trek, the camp night, dinner and breakfast, and the telescope session with the astronomy guide. Lunch en route is not included, though there are stops, and travel insurance and tips are separate.",
+      "Two practical points. Moon phase matters more than season — a full moon washes out faint objects, so if the deep sky is the reason you are coming, book around a new moon. And desert nights are cold from autumn through spring, colder than most visitors plan for; the stargazing happens outdoors, standing still, well after dark. Bring a warm layer you would consider excessive. Private group of 2–10.",
+    ],
     title: "Merzouga Stargazing from Marrakech — 2-Day Dark Sky Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -3486,6 +3556,13 @@ export const TOURS: Tour[] = [
     id: "36",
     slug: "azzaden-valley-2day-trek",
     relatedPosts: ["high-atlas-village-trek-cost", "gite-panorama-imlil-base-camp-toubkal", "what-to-pack-high-atlas-trek-morocco"],
+    brief: [
+      "The Azzaden is the valley immediately west of the Imlil–Toubkal corridor, and the difference in foot traffic is the whole point. Day one drives 1.5 hours from Marrakech to Imlil, then climbs about 700 m over the Tizi Mzik pass at 2,684 m — with the Toubkal massif opening up behind you — and drops through juniper forest to the village of Tizi Oussem at 1,850 m. Five to six hours walking. Day two crosses the Tizi Oudid and descends to Aguersioual, roughly 12 km and five hours, then the drive back.",
+      "It is graded moderate, and that grade does real work here. There is no summit, no scree, and nothing above 2,700 m, so the altitude never becomes the problem it is on Toubkal. What you need is the ability to walk five to six hours on mountain paths two days running. People who hike regularly at home find this comfortable; people who do not find it a genuine but manageable effort.",
+      "The night is in a family-run guesthouse in Tizi Oussem rather than a refuge or a tent. That matters more than it sounds — a refuge is a dormitory full of people doing the same summit, while a village guesthouse is somebody's home, with dinner cooked by the family and a valley that goes quiet after dark. It is the part of this trek people write to us about afterwards.",
+      "Per person: €285 solo, €161 for two, €142 for three, €133 for four, €124 for five and €116 at six. That covers the licensed mountain guide, the guesthouse night, all meals on the trek, a mule for the group's luggage and return transfer from Marrakech. You carry a day pack only. Travel insurance is recommended rather than mandatory on this one, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
+      "If you are choosing between this and a Toubkal trek, the question is what you want from the mountains. Toubkal is a summit and an altitude day. The Azzaden is villages, terraced fields and walnut groves, walked at a pace that leaves you able to look around. Private group of 2–12, so the pace is yours.",
+    ],
     title: "Azzaden Valley from Marrakech — 2-Day Atlas Mountains Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3578,6 +3655,13 @@ export const TOURS: Tour[] = [
     id: "37",
     slug: "atlas-mountains-3day-trek",
     relatedPosts: ["high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
+    brief: [
+      "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (4–5 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
+      "The absence of a summit is the design, not a compromise. Nothing on this route goes above about 2,700 m, which keeps altitude out of the equation entirely, and there is no scree and no pre-dawn push. What is left is steady moderate walking with the time and energy to notice where you are — the terraced fields, the grazing azibs, the shepherds, the change from one valley's character to the next.",
+      "That makes it a strong first multi-day trek. People who walk occasionally at home manage three consecutive days here without the trip becoming an endurance exercise, and because the guesthouses are in villages rather than on a trekking circuit, the evenings are quiet and local rather than shared with forty other walkers doing the same summit.",
+      "Per person: €416 solo, €235 for two, €206 for three, €192 for four, €181 for five and €169 at six. Included are the licensed mountain guide, both guesthouse nights, every meal on the trek, a mule carrying the group's luggage and return transfer from Marrakech. You walk with a day pack. Travel insurance is recommended, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
+      "Worth saying plainly: if standing on Toubkal is the goal, this is not that trek and will not substitute for it. If the goal is the High Atlas itself — the villages, the passes, three days of walking without a clock — this covers more ground and more variety than any summit route does. Private group of 2–12.",
+    ],
     title: "High Atlas Villages from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3679,6 +3763,13 @@ export const TOURS: Tour[] = [
     id: "38",
     slug: "family-atlas-4day-trek",
     relatedPosts: ["morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco"],
+    brief: [
+      "Trekking with children works when the days are short and there is something to look at, and this itinerary is built to that rule rather than adapted to it afterwards. Day one is a 1.5-hour drive to Imlil and a 2–3 hour walk to the first village. Day two is 4 hours around valley waterfalls. Day three crosses to the Ourika side in 4–5 hours. Day four is a 3-hour descent and the drive back. Half-days, not route marches.",
+      "The ground is deliberately easy — lower Imlil and Ourika, river crossings, walnut groves and waterfalls instead of high passes. Mules carry all the luggage, and they can carry a tired child too, which is the detail that turns a difficult afternoon into a non-event. Nobody is carrying a pack and nobody is being hurried.",
+      "Nights are village guesthouses with Berber families over three nights, with all meals included. Bread baking and mint tea are part of the evenings rather than a staged demonstration, and for most families that turns out to be what the children remember rather than the walking.",
+      "This trip has a three-person minimum, so the ladder opens there: €276 per person for three, €257 for four, €241 for five and €225 at six, up to a group of fourteen. Included are a licensed mountain guide experienced with families, all three guesthouse nights, every meal, the mules, and return transfer from Marrakech. Travel insurance is recommended, personal hiking gear is yours, and tips for the guide and muleteers are separate.",
+      "On ages: the constraint is walking a few hours on uneven ground, not distance or altitude, so school-age children generally do well and younger ones manage with the mules on hand. If you want a firm answer for your family, tell us the ages when you enquire and we will say plainly whether it works rather than sell you the trip.",
+    ],
     title: "Family High Atlas from Marrakech — 4-Day Gentle Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3791,6 +3882,13 @@ export const TOURS: Tour[] = [
     id: "39",
     slug: "family-desert-4day-marrakech",
     relatedPosts: ["family-desert-tour-morocco-cost", "sahara-desert-morocco-what-to-expect", "what-to-pack-desert-tour-morocco", "agafay-vs-merzouga-vs-zagora", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
+    brief: [
+      "This is the standard Marrakech–Erg Chebbi circuit with the driving restructured so it works with children. The route is the same one everyone runs: over the Atlas to Aït Ben Haddou and the Dades on day one, through the Dades and Todra gorges to the dunes on day two, back via Ouarzazate on days three and four. What changes is the shape of the days — roughly 5 hours driving on day one, then 4, 4 and 4, broken into shorter stages with proper stops rather than two long hauls.",
+      "The single most useful thing to know is that the desert is genuinely far from Marrakech. Erg Chebbi is around 560 km each way and no itinerary can shorten that. Four days is what makes it comfortable: three nights, three different beds, and a dune night that is not bracketed by two eight-hour drives. The 2-day versions of this trip do the same distance in half the time, which is exactly the thing that makes children miserable.",
+      "Nights are a hotel in the Dades with dinner and breakfast, the family desert camp at Erg Chebbi with dinner and breakfast, and a hotel in Ouarzazate with breakfast. The camp is set up for families rather than run as a spartan bivouac — camel rides at sunset and sunrise, sandboarding on the dunes, and space for children to be children. Aït Ben Haddou on the way out is the Game of Thrones and Gladiator kasbah, which tends to land well with older kids.",
+      "The ladder starts at two people because this trip is not sold solo: €526 each for two, €399 for three, €346 for four, €314 for five, €270 for six, €252 for seven, €245 at ten and €229 at fourteen. Included are the air-conditioned vehicle throughout, a bilingual English/French driver-guide, all three nights as described, both camel rides and all transfers and access fees.",
+      "Lunches are not included — budget roughly €12–15 a meal — and the Atlas Film Studios ticket is optional at about €7. Travel insurance and tips are separate. Group size is 2–12 and the trip is private, which on a family holiday mostly means you can stop when someone needs to stop.",
+    ],
     title: "Family Desert Adventure — 4-Day Marrakech to Sahara",
     category: "desert",
     origin: "marrakech",
@@ -4407,6 +4505,13 @@ export const TOURS: Tour[] = [
     id: "45",
     slug: "shared-zagora-2day-marrakech",
     relatedPosts: ["private-vs-shared-desert-tour-morocco", "zagora-desert-guide", "merzouga-vs-zagora-which-desert-tour", "what-to-pack-desert-tour-morocco", "zagora-2-day-tour-cost", "morocco-desert-camp-what-its-really-like"],
+    brief: [
+      "Zagora is the closest desert overnight to Marrakech, and that is the entire reason to choose it. The route runs over the Tizi n'Tichka pass, past Aït Ben Haddou and Ouarzazate, into the Draa Valley palm groves, then a camel ride into the dunes for dinner, drumming and a night at camp. Day two returns the same way. Roughly 360 km and about 8 hours each way.",
+      "Be honest with yourself about the dunes before booking. Zagora's are small — nothing like the 150-metre walls at Erg Chebbi — because Zagora is a desert town with sand rather than a great erg. That is the trade you are making for a trip that fits in two days instead of three or four. People who go expecting Lawrence of Arabia are disappointed; people who go knowing this is the short version enjoy it.",
+      "At €85 per person it is the cheapest desert night we run, and the price is flat rather than a group ladder because this is a shared departure sold by the seat. You travel in an air-conditioned minibus with up to sixteen others and an English- or French-speaking driver. The deposit is €19. Included: transport, the camp night, dinner and breakfast, and the camel ride.",
+      "Not included: lunches, drinks, tips and entry fees — Aït Ben Haddou in particular has a charge at the site. Budget for those separately so the day does not surprise you.",
+      "If you have three or four days, Merzouga and Erg Chebbi are the better desert. If you have two days, or you would rather spend the difference elsewhere in Morocco, this does the job honestly: a real night under canvas in the south, at a price that leaves the rest of your trip intact.",
+    ],
     title: "Zagora Desert from Marrakech — 2-Day Shared Tour",
     category: "desert",
     origin: "marrakech",

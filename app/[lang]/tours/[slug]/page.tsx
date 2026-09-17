@@ -11,6 +11,7 @@ import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import { TRIPADVISOR } from "@/lib/constants";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
+import TourBrief from "@/components/tours/TourBrief";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
@@ -290,6 +291,14 @@ export default async function TourDetailPage({ params }: TourParams) {
             <div id="tour-itinerary" className="scroll-mt-32">
               <TourItinerary itinerary={tour.itinerary} dict={dict} />
             </div>
+
+            {/* The brief sits with the route rather than after it: the reader
+                has the day-by-day in mind and is now asking which version of
+                this trip suits them. It is also the page's only block of real
+                indexable prose — see the measurement in TourBrief. */}
+            {tour.brief && tour.brief.length > 0 && (
+              <TourBrief brief={tour.brief} dict={dict} />
+            )}
 
             {/* Placed straight after the day-by-day: the reader has just
                 absorbed the route, so "who actually takes you on it" is the

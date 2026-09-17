@@ -248,7 +248,8 @@
     },
     "mapKeyTour": "Votre circuit",
     "mapKeyTransfer": "Transfert par la route",
-    "mapKeyOffRoad": "Hors-piste en 4x4 ou à dos de chameau"
+    "mapKeyOffRoad": "Hors-piste en 4x4 ou à dos de chameau",
+    "briefHeading": "Avant de réserver"
   },
   "booking": {
     "pricePerPerson": "Prix par personne",

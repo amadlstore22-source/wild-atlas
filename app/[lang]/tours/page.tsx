@@ -4,6 +4,7 @@ import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { toursFor, categoriesFor } from "@/lib/tours-i18n";
 import ToursClient from "./ToursClient";
+import { toListItem } from "@/lib/tours";
 
 type ToursPageProps = {
   params: Promise<{ lang: string }>;
@@ -47,7 +48,7 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
     <ToursClient
       lang={lang}
       dict={dict}
-      tours={toursFor(lang)}
+      tours={toursFor(lang).map(toListItem)}
       categories={categoriesFor(lang)}
       initialSearch={q}
       initialOrigin={origin}

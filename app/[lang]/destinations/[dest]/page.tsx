@@ -7,7 +7,7 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { toursFor } from "@/lib/tours-i18n";
-import { CATEGORIES } from "@/lib/tours";
+import { CATEGORIES, toCardData} from "@/lib/tours";
 import { blogPostsFor } from "@/lib/blog-i18n";
 import TourCard from "@/components/ui/TourCard";
 
@@ -393,7 +393,7 @@ export default async function DestinationPage({ params }: PageParams) {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedTours.map((tour, i) => (
-                  <TourCard key={tour.id} tour={tour} lang={locale} dict={dict} delay={i * 0.07} />
+                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={dict} delay={i * 0.07} />
                 ))}
               </div>
             </section>

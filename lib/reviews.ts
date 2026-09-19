@@ -11,6 +11,33 @@ export interface Review {
   country: string;
   rating: number;
   tour: string;
+  /**
+   * The slug of the tour this traveller ACTUALLY took.
+   *
+   * `tour` above is a display label and is matched by keyword, which is fine
+   * for choosing a pull-quote but far too loose to attribute authorship in
+   * structured data: "3-Day Sahara Desert Tour" keyword-matches eleven
+   * different desert tours, and naive string containment resolves it to
+   * `merzouga-3day-agadir` — a trip from a different city.
+   *
+   * Review schema names a real person and a real rating, so it may only be
+   * emitted on the one page describing the trip they went on. This field is
+   * that page, stated explicitly rather than inferred.
+   */
+  tourSlug: string;
+  /**
+   * The city this traveller departed from, cross-checked against the tour's
+   * own `origin`.
+   *
+   * Titles alone cannot separate the two Sahara trips: "3-Day Sahara Desert
+   * Tour" appears verbatim inside BOTH "Marrakech to Merzouga — 3-Day Desert
+   * Tour" and "Agadir to Merzouga — 3-Day Sahara Desert Tour", so every
+   * text-similarity check scores them equally and a misattribution between
+   * them is invisible. The departure city is the one field that distinguishes
+   * them, so it is stated rather than inferred and asserted in
+   * review-schema.test.ts.
+   */
+  origin: "marrakech" | "agadir";
   date: string;
   text: string;
   /** Pull-quote for the booking sidebar — keep under ~110 characters. */
@@ -24,6 +51,8 @@ export const REVIEWS: Review[] = [
     country: "United Kingdom",
     rating: 5,
     tour: "Toubkal Summit Trek",
+    tourSlug: "toubkal-summit-trek-4day",
+    origin: "marrakech",
     date: "March 2025",
     text: "From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
     short: "From the moment our guide met us in Imlil, it was clear we were in expert hands.",
@@ -34,6 +63,8 @@ export const REVIEWS: Review[] = [
     country: "Italy",
     rating: 5,
     tour: "3-Day Sahara Desert Tour",
+    tourSlug: "sahara-3day-marrakech",
+    origin: "marrakech",
     date: "November 2024",
     text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
     short: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all.",
@@ -44,6 +75,8 @@ export const REVIEWS: Review[] = [
     country: "United States",
     rating: 5,
     tour: "Marrakech Medina Cultural Tour",
+    tourSlug: "marrakech-medina-cultural-tour",
+    origin: "marrakech",
     date: "February 2025",
     text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
     short: "I had been to Marrakech twice before, always overwhelmed. This tour changed everything.",

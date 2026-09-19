@@ -11,6 +11,7 @@ import { whatsappUrl } from "@/lib/constants";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import { toCardData } from "@/lib/tours";
 
 type GuideParams = { params: Promise<{ lang: string; id: string }> };
 
@@ -197,7 +198,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 <h2 className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.toursLedBy.replace("{name}", guide.name.split(" ")[0])}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {guidedTours.map((tour) => (
-                    <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
+                    <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
                   ))}
                 </div>
               </div>

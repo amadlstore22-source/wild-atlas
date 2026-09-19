@@ -1,6 +1,7 @@
 import TourCard from "@/components/ui/TourCard";
 import { getTourFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { toCardData } from "@/lib/tours";
 
 interface Props {
   slugs: string[];
@@ -25,7 +26,7 @@ export default function RelatedTourCards({ slugs, lang, dict, title }: Props) {
       <p className="text-ink-soft mb-6">{dict.blog.relatedToursSubtitle}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {tours.map((tour) => (
-          <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
+          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
         ))}
       </div>
     </section>

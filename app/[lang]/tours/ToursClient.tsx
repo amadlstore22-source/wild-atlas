@@ -3,7 +3,7 @@ import { useState, useMemo, useCallback } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
-import { durationBucket, type Category, type Difficulty, type Origin, type DurationBucket, type Tour } from "@/lib/tours";
+import { type Category, type Difficulty, type Origin, type DurationBucket, type TourListItem } from "@/lib/tours";
 import { whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
 import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree } from "@phosphor-icons/react";
@@ -21,7 +21,7 @@ interface CategoryEntry {
 interface Props {
   lang: Locale;
   dict: Dictionary;
-  tours: Tour[];
+  tours: TourListItem[];
   categories: CategoryEntry[];
   initialSearch?: string;
   initialOrigin?: string;
@@ -117,7 +117,7 @@ export default function ToursClient({
         const matchCat = category === "all" || t.category === category;
         const matchDiff = difficulty === "all" || t.difficulty === difficulty;
         const matchOrigin = origin === "all" || t.origin === origin;
-        const matchDuration = duration === "all" || durationBucket(t) === duration;
+        const matchDuration = duration === "all" || t.durationBucket === duration;
         const band = PRICE_BANDS.find((b) => b.id === price)!;
         const matchPrice = price === "all" || (t.price >= band.minUsd && (band.maxUsd === null || t.price < band.maxUsd));
         return matchSearch && matchCat && matchDiff && matchOrigin && matchDuration && matchPrice;

@@ -184,3 +184,70 @@ export function buildAggregateOffer(opts: {
     ...(minPeople ? { eligibleQuantity: { "@type": "QuantitativeValue", minValue: minPeople, unitCode: "IE" } } : {}),
   };
 }
+
+/**
+ * Review nodes for a Product, from genuine named travellers.
+ *
+ * WHY THERE IS NO aggregateRating HERE, deliberately.
+ *
+ * `tour.rating` and `tour.reviewCount` exist in lib/tours.ts but are marked
+ * @deprecated placeholders: they sum to ~2,276 across the catalogue against
+ * 122 real TripAdvisor reviews. Emitting them as AggregateRating would be
+ * invented review markup — a Google structured-data spam violation, and a
+ * false claim to a customer deciding whether to pay us. The REAL business-wide
+ * rating is already emitted once, correctly, as LocalBusiness/aggregateRating
+ * on the homepage; repeating it per-product would assert that all 122 reviews
+ * were for each individual tour.
+ *
+ * What IS legitimate is the individual `Review`. Google accepts Review nodes
+ * on a Product without an aggregate, and the three reviews in lib/reviews.ts
+ * are real, named, dated and already RENDERED on the page by BookingSidebar —
+ * which is Google's hard requirement: markup must reflect visible content.
+ *
+ * Attribution is by `tourSlug`, never by keyword. reviewsForTour() matches
+ * loosely on purpose so a pull-quote can appear on a related trip, and that is
+ * fine for a visible quote clearly labelled with the tour its author took. It
+ * is NOT fine for schema, where a Review node asserts this person reviewed
+ * THIS product: keyword matching attaches Marco B. to eleven desert tours, and
+ * plain string containment resolves his "3-Day Sahara Desert Tour" to
+ * merzouga-3day-agadir — a trip from a different city that he never took.
+ *
+ * Returns undefined when nothing matches, so the caller spreads nothing rather
+ * than emitting an empty `review: []` that says the product has no reviews.
+ */
+export function buildReviewNodes(
+  reviews: { name: string; country: string; rating: number; tourSlug: string; date: string; text: string }[],
+  tourSlug: string,
+) {
+  const mine = reviews.filter((r) => r.tourSlug === tourSlug);
+  if (!mine.length) return undefined;
+  return mine.map((r) => ({
+    "@type": "Review",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(r.rating),
+      bestRating: "5",
+      worstRating: "1",
+    },
+    author: { "@type": "Person", name: r.name },
+    reviewBody: r.text,
+    // `date` is a human label like "March 2025"; datePublished expects ISO
+    // 8601, and a date Google cannot parse is dropped silently. Emitting the
+    // month as YYYY-MM is valid ISO 8601 and is honest about the precision we
+    // actually have — inventing a day would be a fabricated fact.
+    ...isoMonth(r.date),
+  }));
+}
+
+/** "March 2025" -> { datePublished: "2025-03" }. Omitted when unparseable. */
+function isoMonth(label: string): { datePublished?: string } {
+  const MONTHS = [
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+  ];
+  const m = label.trim().toLowerCase().match(/^([a-z]+)\s+(\d{4})$/);
+  if (!m) return {};
+  const idx = MONTHS.indexOf(m[1]);
+  if (idx < 0) return {};
+  return { datePublished: `${m[2]}-${String(idx + 1).padStart(2, "0")}` };
+}

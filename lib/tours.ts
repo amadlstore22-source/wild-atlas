@@ -5272,7 +5272,7 @@ export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
  * The multipliers are the one number to revisit once real booking data is in:
  * see docs/PRICING.md.
  */
-export function groupPriceTiers(tour: Tour): { minPeople: number; price: number }[] {
+export function groupPriceTiers(tour: PricedTour): { minPeople: number; price: number }[] {
   // A tour with a booking minimum must not advertise smaller groups. Applied
   // to every branch below, so explicit and derived ladders behave the same.
   const floor = (tiers: { minPeople: number; price: number }[]) => {
@@ -5292,7 +5292,15 @@ export function groupPriceTiers(tour: Tour): { minPeople: number; price: number 
   // Shared departures are sold per seat — no vehicle cost to divide.
   if (tour.tourType === "shared") return floor([{ minPeople: 1, price: tour.price }]);
 
-  const multiDay = durationDays(tour) >= 2;
+  // Day count comes from the itinerary when the caller has one (a full Tour),
+  // and from the precomputed field when it does not (a card, which
+  // deliberately does not carry the itinerary across the client boundary).
+  //
+  // The `?? 1` fallback alone was WRONG and group-pricing.test.ts caught it:
+  // its synthetic tours have no groupPricing, so they reach this branch, and
+  // defaulting to 1 handed a 3-day tour the day-tour discount curve. A card
+  // without itineraryDays would have been mispriced the same way.
+  const multiDay = (tour.itineraryDays ?? tour.itinerary?.length ?? 1) >= 2;
   const m = multiDay
     ? [1, 0.93, 0.88, 0.84, 0.81, 0.79]
     : [1, 0.96, 0.94, 0.92, 0.91, 0.9];
@@ -5316,7 +5324,7 @@ export function groupPriceTiers(tour: Tour): { minPeople: number; price: number 
  *
  *  `minPeople` is 1 when a tour has no group discount, so callers can tell
  *  whether a qualifier is needed at all. */
-export function lowestGroupPrice(tour: Tour): { price: number; minPeople: number } {
+export function lowestGroupPrice(tour: PricedTour): { price: number; minPeople: number } {
   const tiers = groupPriceTiers(tour);
   let best = tiers[0];
   for (const t of tiers) {
@@ -5343,3 +5351,120 @@ export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
   challenging: "bg-[#F1DDD4] text-[#9A3A22]",
   expert: "bg-[#EAD0C6] text-[#7E2E1A]",
 };
+
+/**
+ * THE SUBSET OF A TOUR THAT A CARD ACTUALLY RENDERS.
+ *
+ * TourCard is a client component ("use client"), so every prop it receives is
+ * serialised into the React Flight payload embedded in the HTML. It was being
+ * handed the WHOLE `Tour` object — itinerary, faq, includes, excludes, brief,
+ * gallery, full description, seoDescription, relatedPosts — to render a card
+ * that shows a title, an image, a price and three highlight bullets.
+ *
+ * Measured on the homepage (six featured tours): 26.0 KB serialised, of which
+ * 3.9 KB is used. 22.1 KB of dead weight per locale, 132.5 KB across all six,
+ * and TourCard also renders on the listing, category, destination, guide and
+ * related-tours pages.
+ *
+ * Nothing catches this: the extra fields are valid, they typecheck, the page
+ * renders identically, and the only symptom is a heavier document. It is
+ * invisible in every check except a byte count.
+ *
+ * `Tour` is assignable to this, so call sites pass tours unchanged — the type
+ * narrows what CROSSES the boundary, which is what costs bytes. Widen it only
+ * for a field the card genuinely displays, and prefer rendering on the server.
+ */
+export type TourCardData = Pick<
+  Tour,
+  | "id"
+  | "slug"
+  | "title"
+  | "category"
+  | "origin"
+  | "difficulty"
+  | "duration"
+  | "groupSize"
+  | "tourType"
+  | "heroImage"
+  | "highlights"
+  | "price"
+  | "priceMax"
+  | "shortDescription"
+  // Not displayed directly: groupPriceTiers() reads these to compute the
+  // "from EUR X / person for N+" line, so omitting them would quote the solo
+  // rate on every card — the exact bug lowestGroupPrice() exists to prevent.
+  | "groupPricing"
+  | "minPeople"
+>;
+
+/** Strips a full Tour down to what a card serialises. Server-side only. */
+export function toCardData(tour: Tour): TourCardData {
+  return {
+    id: tour.id,
+    slug: tour.slug,
+    title: tour.title,
+    category: tour.category,
+    origin: tour.origin,
+    difficulty: tour.difficulty,
+    duration: tour.duration,
+    groupSize: tour.groupSize,
+    tourType: tour.tourType,
+    heroImage: tour.heroImage,
+    highlights: tour.highlights,
+    price: tour.price,
+    priceMax: tour.priceMax,
+    shortDescription: tour.shortDescription,
+    groupPricing: tour.groupPricing,
+    minPeople: tour.minPeople,
+  };
+}
+
+/**
+ * The fields the price-ladder helpers actually read.
+ *
+ * groupPriceTiers() and lowestGroupPrice() took a full `Tour`, which forced
+ * every caller holding a card-sized object to carry the whole record just to
+ * compute a price. They only ever touch these three, so the narrower type lets
+ * TourCardData use them without widening it back out.
+ */
+export type PricedTour = Pick<Tour, "price" | "tourType"> &
+  Partial<Pick<Tour, "groupPricing" | "minPeople" | "priceMax" | "itinerary">> & {
+    /**
+     * Day count, for the DERIVED ladder only.
+     *
+     * groupPriceTiers() called durationDays(tour), which reads
+     * `tour.itinerary.length` — so typing this as the full Tour dragged every
+     * itinerary day back across the client boundary, defeating the point of
+     * TourCardData. The number is passed instead of the array it came from.
+     *
+     * Verified 2026-09-19: 0 of 48 tours currently reach the derived branch —
+     * every one has explicit groupPricing or is `shared`. It is still handled
+     * rather than assumed away, because the next tour added is the one nobody
+     * checks, and a missing value here would silently quote the solo rate.
+     */
+    itineraryDays?: number;
+  };
+
+/**
+ * A card plus the one derived value the listing filters on.
+ *
+ * ToursClient is a client component that filters 48 tours by duration bucket,
+ * and durationBucket() reads `tour.itinerary.length`. Passing full `Tour`
+ * objects so the browser could count itinerary days serialised every
+ * itinerary, FAQ and includes list on the site into /tours — to compute one of
+ * three string values per tour.
+ *
+ * The bucket is computed on the server and passed as a field instead.
+ */
+export type TourListItem = TourCardData & {
+  durationBucket: DurationBucket;
+  itineraryDays: number;
+};
+
+export function toListItem(tour: Tour): TourListItem {
+  return {
+    ...toCardData(tour),
+    durationBucket: durationBucket(tour),
+    itineraryDays: tour.itinerary.length || 1,
+  };
+}

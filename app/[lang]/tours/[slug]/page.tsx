@@ -23,7 +23,8 @@ import TourGuideBlock from "@/components/tours/TourGuideBlock";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
-import { faqPageDocument, priceValidUntil, buildAggregateOffer, absoluteUrl } from "@/lib/seo/schema";
+import { faqPageDocument, priceValidUntil, buildAggregateOffer, absoluteUrl, buildReviewNodes } from "@/lib/seo/schema";
+import { REVIEWS } from "@/lib/reviews";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
@@ -132,6 +133,9 @@ export default async function TourDetailPage({ params }: TourParams) {
       : undefined,
   });
 
+  // Only reviews whose author actually took THIS tour; undefined otherwise.
+  const reviewNodes = buildReviewNodes(REVIEWS, tour.slug);
+
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -146,6 +150,12 @@ export default async function TourDetailPage({ params }: TourParams) {
     // Our verifiable rating is business-wide (TripAdvisor, see Organization
     // schema on the homepage), so claiming per-product ratings here would be
     // unsubstantiated review markup. Reinstate only when real per-tour reviews exist.
+    //
+    // Individual `review` nodes ARE emitted where a genuine, named traveller
+    // reviewed THIS tour — Google accepts Review without an aggregate, and
+    // these are already visible on the page via BookingSidebar. Matched by
+    // tourSlug, never by keyword: see buildReviewNodes.
+    ...(reviewNodes ? { review: reviewNodes } : {}),
   };
 
   const jsonLd = {

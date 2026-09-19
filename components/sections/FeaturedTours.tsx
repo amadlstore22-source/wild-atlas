@@ -4,6 +4,7 @@ import TourCard from "@/components/ui/TourCard";
 import Section from "@/components/ui/Section";
 import SectionHeader from "@/components/ui/SectionHeader";
 import { getFeaturedToursFor } from "@/lib/tours-i18n";
+import { toCardData } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -54,7 +55,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {featured.map((tour, i) => (
-          <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} delay={i * 0.08} />
+          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} delay={i * 0.08} />
         ))}
       </div>
 

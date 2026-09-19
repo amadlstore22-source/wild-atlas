@@ -2,6 +2,7 @@ import TourCard from "@/components/ui/TourCard";
 import type { Category, Tour } from "@/lib/tours";
 import { toursFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { toCardData } from "@/lib/tours";
 
 /**
  * Picks up to 4 tours to cross-link from a tour page.
@@ -80,7 +81,7 @@ export default function RelatedTours({
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {related.map((tour) => (
-            <TourCard key={tour.id} tour={tour} lang={lang} dict={dict} />
+            <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
           ))}
         </div>
       </div>

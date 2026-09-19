@@ -4,7 +4,7 @@ import Image from "next/image";
 import * as m from "motion/react-m";
 import { useReducedMotion } from "motion/react";
 import { Clock, Users, Star, MapPin, CheckCircle, ArrowRight } from "@phosphor-icons/react";
-import type { Tour } from "@/lib/tours";
+import type { TourCardData } from "@/lib/tours";
 import { DIFFICULTY_COLORS, lowestGroupPrice } from "@/lib/tours";
 import { TRIPADVISOR } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
@@ -42,7 +42,13 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 interface Props {
-  tour: Tour;
+  /**
+   * Deliberately NOT the full `Tour`. This is a client component, so every
+   * field of this prop is serialised into the page's Flight payload — the
+   * whole object cost 26.0 KB on the homepage to render 3.9 KB of card.
+   * See TourCardData in lib/tours.ts.
+   */
+  tour: TourCardData;
   lang?: Locale;
   dict?: Dictionary;
   featured?: boolean;

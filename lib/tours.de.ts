@@ -142,13 +142,13 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Private 4x4-Fahrt auf der gesamten Strecke",
-      "Sunset camel ride",
+      "Kamelritt bei Sonnenuntergang",
       "1 Nacht im Wüstencamp (Abendessen und Frühstück)",
       "1 night hotel in Ouarzazate, Merzouga or Dades Gorges",
-      "Experienced desert guide",
+      "Erfahrener Wüstenführer",
     ],
     excludes: [
-      "Lunches",
+      "Mittagessen",
       "Persönliche Ausgaben und Trinkgelder",
     ],
     itinerary: [
@@ -234,12 +234,12 @@ export const TOURS: Tour[] = [
       "Traditionelles Berber-Mittagessen bei einer Familie",
     ],
     includes: [
-      "Certified hiking guide",
+      "Staatlich geprüfter Wanderführer",
       "Hin- und Rückfahrt ab Marrakesch",
-      "Traditional Berber lunch",
-      "Mineral water throughout",
+      "Traditionelles Berber-Mittagessen",
+      "Mineralwasser während der gesamten Tour",
     ],
-    excludes: ["Personal hiking gear", "Tips"],
+    excludes: ["Persönliche Wanderausrüstung", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -256,7 +256,7 @@ export const TOURS: Tour[] = [
       { q: "Ist diese Wanderung für Familien und Anfänger geeignet?", a: "Ja. Sie ist als leicht eingestuft und für Familien und Wandereinsteiger konzipiert – die Route folgt den Talwegen bis zu den Wasserfällen von Setti Fatma, ohne echten Anstieg. Kinder, die auf unebenem Gelände sicher gehen, kommen gut zurecht." },
       { q: "Was ist im Preis enthalten?", a: "Ein zertifizierter Wanderführer, Hin- und Rücktransport ab Marrakesch, ein traditionelles Berber-Mittagessen bei einer einheimischen Familie und Mineralwasser über den Tag. Persönliche Wanderausrüstung und Trinkgelder sind nicht enthalten." },
       { q: "Kann man im Tal baden?", a: "Ja – entlang der Strecke gibt es natürliche Bergpools, bringen Sie also bei warmem Wetter Badesachen mit. Die sieben Kaskaden von Setti Fatma am oberen Talende sind das Highlight." },
-      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 15 Personen. Es ist eine Tour in geteilter Gruppe, Sie wandern also möglicherweise mit anderen." },
+      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 15 Personen, und die Tour ist privat — die Gruppe ist Ihre eigene, Sie wandern also nur mit den Personen, mit denen Sie gebucht haben. Der Preis pro Person sinkt, je größer die Gruppe wird." },
     ],
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
     seoTitle: "Ourika-Tal Tageswanderung ab Marrakesch",
@@ -297,11 +297,11 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Marrakesch",
-      "Certified guide",
-      "Boat ride at the falls",
-      "Mineral water",
+      "Staatlich geprüfter Guide",
+      "Bootsfahrt an den Wasserfällen",
+      "Mineralwasser",
     ],
-    excludes: ["Lunch", "Tips", "Personal purchases"],
+    excludes: ["Mittagessen", "Trinkgelder", "Persönliche Einkäufe"],
     itinerary: [
       {
         day: 1,
@@ -317,7 +317,7 @@ export const TOURS: Tour[] = [
       { q: "Wie viel muss man in Ouzoud laufen?", a: "Nicht viel – es ist ein leichter Tag. Der Hauptaufwand ist der Abstieg in die Schlucht bis zum Fuß der 110 m hohen Fälle und zurück, den jeder in seinem eigenen Tempo bewältigt." },
       { q: "Ist das Mittagessen inbegriffen?", a: "Nein. Das Mittagessen ist nicht enthalten, es gibt aber Restaurants mit Blick auf die Fälle. Der Preis umfasst Hin- und Rücktransport ab Marrakesch, einen zertifizierten Führer, die Bootsfahrt an den Fällen und Mineralwasser." },
       { q: "Werden wir die wilden Affen sehen?", a: "In Ouzoud lebt eine Kolonie wilder Berberaffen rund um die oberen Fälle, und Sichtungen sind häufig – da es Wildtiere sind, jedoch nie garantiert." },
-      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 15 Personen auf einer Tour in geteilter Gruppe." },
+      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 15 Personen, und die Tour ist privat — die Gruppe ist Ihre eigene, Sie reisen also nur mit den Personen, mit denen Sie gebucht haben. Der Preis pro Person sinkt, je größer die Gruppe wird." },
     
       { q: "Gibt es an den Ouzoud-Fällen eine Bootsfahrt?", a: "Ja, und sie ist im Preis enthalten. Kleine Holzboote queren das Becken am Fuß der Kaskaden und bringen Sie nah genug heran, um die Gischt zu spüren — kurz, der beste Blick auf die Fälle von unten und der Moment, den die meisten fotografieren. Erreichbar über den Schluchtenpfad, der von oben hinabführt." },
     ],
@@ -361,12 +361,12 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Marrakesch",
-      "1-hour quad biking",
-      "Camel ride",
+      "1 Stunde Quadfahren",
+      "Kamelritt",
       "Traditionelles Berber-Abendessen",
-      "Mint tea ceremony",
+      "Minztee-Zeremonie",
     ],
-    excludes: ["Alcoholic drinks", "Tips"],
+    excludes: ["Alkoholische Getränke", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -428,7 +428,7 @@ export const TOURS: Tour[] = [
       "Traditionelle Minztee-Zeremonie",
       "Vierstündige geführte Wanderung",
     ],
-    excludes: ["Lunch", "Shopping and souvenirs", "Tips"],
+    excludes: ["Mittagessen", "Einkäufe und Souvenirs", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -485,10 +485,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-/französischsprachiger Guide",
       "2 Nächte in einem Riad",
-      "Breakfast daily",
-      "All transfers and tolls",
+      "Täglich Frühstück",
+      "Alle Transfers und Mautgebühren",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Rücktransport ab Fès"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder", "Rücktransport ab Fès"],
     itinerary: [
       {
         day: 1,
@@ -573,16 +573,16 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Erfahrener staatlich geprüfter Hochgebirgsführer",
-      "All meals throughout",
-      "Mule team for equipment",
+      "Alle Mahlzeiten während der Tour",
+      "Maultiere für den Gepäcktransport",
       "Übernachtung bei Berberfamilien und Zelten",
       "Satelliten-Notfallkommunikation",
-      "National park fees",
+      "Nationalpark-Gebühren",
     ],
     excludes: [
       "Reise- und Krankenversicherung (obligatorisch)",
       "Technische Bergsteigerausrüstung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       { day: 1, title: "Marrakesch → Aït M'hamed", description: "Fahrt zum Ausgangspunkt. Treffen mit dem Maultierteam und der Crew. Erste Nacht bei einer Berberfamilie.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "Dorf-Gîte", driving: "5 h" },
@@ -640,11 +640,11 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Agadir",
-      "Certified local guide",
-      "Traditional Berber lunch",
-      "Mineral water",
+      "Staatlich geprüfter lokaler Guide",
+      "Traditionelles Berber-Mittagessen",
+      "Mineralwasser",
     ],
-    excludes: ["Personal swimming gear", "Tips"],
+    excludes: ["Persönliche Badesachen", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -701,12 +701,12 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Agadir",
-      "Expert naturalist guide",
+      "Fachkundiger Naturführer",
       "Eintrittsgebühr für den Nationalpark",
-      "Binoculars provided",
-      "Picnic lunch",
+      "Ferngläser werden gestellt",
+      "Picknick-Mittagessen",
     ],
-    excludes: ["Persönliche Fotoausrüstung", "Tips"],
+    excludes: ["Persönliche Fotoausrüstung", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -723,7 +723,7 @@ export const TOURS: Tour[] = [
       { q: "Welche Tierwelt kann man sehen?", a: "Souss-Massa ist ein Vogelbeobachtungspark – eines der letzten Rückzugsgebiete des Waldrapps, und Flamingos und andere Wasservögel sind entlang des Ästuars häufig. Ein erfahrener Naturführer leitet den Tag, Ferngläser werden gestellt." },
       { q: "Ist das auch für Gelegenheitsbesucher geeignet, nicht nur für Vogelkundler?", a: "Ja. Es ist ein leichter Tag, der Ästuar, Küste und Parklandschaften verbindet; der Naturführer richtet ihn nach den Interessen der Gruppe aus, Sie müssen also kein Vogelfan sein." },
       { q: "Was ist inbegriffen?", a: "Hin- und Rücktransport ab Agadir, ein erfahrener Naturführer, der Parkeintritt, Ferngläser und ein Picknick. Persönliche Fotoausrüstung und Trinkgelder sind nicht enthalten." },
-      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 12 Personen – eine kleine geteilte Gruppe, damit der Naturführer allen weiterhin Vögel und Wildtiere zeigen kann." },
+      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 12 Personen, und die Tour ist privat – die Gruppe ist Ihre eigene. Die kleine Gruppengröße ist Absicht: Der Naturführer kann allen Vögel und Wildtiere zeigen." },
     ],
     meetingPoint: { lat: 30.0559, lng: -9.6320, name: "Souss-Massa National Park, Massa" },
     seoTitle: "Souss-Massa-Nationalpark Wildtiertour",
@@ -765,11 +765,11 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Agadir",
-      "Local expert guide",
-      "Rampart walk",
-      "Mint tea in a riad",
+      "Ortskundiger Guide",
+      "Spaziergang auf der Stadtmauer",
+      "Minztee in einem Riad",
     ],
-    excludes: ["Lunch", "Shopping", "Tips"],
+    excludes: ["Mittagessen", "Einkäufe", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -785,7 +785,7 @@ export const TOURS: Tour[] = [
       { q: "Wofür ist Taroudant bekannt?", a: "Für seine intakten Stadtmauern – Taroudant wird wegen seiner Lehmmauern und ruhigen Souks manchmal „Klein-Marrakesch“ genannt. Der Tag umfasst einen Spaziergang entlang der Mauern und Minztee in einem Riad." },
       { q: "Was umfasst der Ausflug?", a: "Hin- und Rücktransport ab Agadir, einen ortskundigen Guide, den Mauerrundgang und Minztee in einem Riad. Mittagessen, Einkäufe und Trinkgelder sind nicht enthalten." },
       { q: "Ist es anstrengend?", a: "Leicht. Es ist ein entspannter Kulturtag entlang der Mauern und der Altstadt, ohne Wandern." },
-      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 14 Personen auf einer Tour in geteilter Gruppe, Sie reisen also möglicherweise mit anderen statt in einer privaten Gruppe." },
+      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 14 Personen, und die Tour ist privat — die Gruppe ist Ihre eigene, Sie reisen also nur mit den Personen, mit denen Sie gebucht haben. Der Preis pro Person sinkt, je größer die Gruppe wird." },
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Taroudant Tagesausflug ab Agadir",
@@ -825,12 +825,12 @@ export const TOURS: Tour[] = [
       "Ganzjährig gute Surfbedingungen",
     ],
     includes: [
-      "2-hour surf lesson",
+      "2-stündige Surfstunde",
       "Leihgebühr für Surfbrett und Neoprenanzug",
-      "Certified ISA instructor",
+      "ISA-zertifizierter Surflehrer",
       "Aufwärmen und Sicherheitseinweisung",
     ],
-    excludes: ["Transport zum Strand (5 Gehminuten vom Zentrum)", "Tips"],
+    excludes: ["Transport zum Strand (5 Gehminuten vom Zentrum)", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -884,13 +884,13 @@ export const TOURS: Tour[] = [
       "Dramatische Talblicke bei Sonnenuntergang",
     ],
     includes: [
-      "Certified mountain guide",
+      "Staatlich geprüfter Bergführer",
       "2 Nächte in einem Berber-Gästehaus",
-      "All meals",
+      "Alle Mahlzeiten",
       "Hin- und Rückfahrt ab Agadir",
-      "Mule for equipment",
+      "Maultier für den Gepäcktransport",
     ],
-    excludes: ["Reiseversicherung (empfohlen)", "Personal hiking gear", "Tips"],
+    excludes: ["Reiseversicherung (empfohlen)", "Persönliche Wanderausrüstung", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -976,12 +976,12 @@ export const TOURS: Tour[] = [
       "Südroute über Tata und Foum Zguid",
     ],
     includes: [
-      "4x4 transport throughout",
-      "Experienced desert guide",
+      "4x4-Transport während der gesamten Tour",
+      "Erfahrener Wüstenführer",
       "1 Nacht im Wüstencamp, eigenes Schlafzelt (Abendessen und Frühstück)",
-      "All camel rides",
+      "Alle Kamelritte",
     ],
-    excludes: ["Lunch on day 1", "Personal items and tips"],
+    excludes: ["Mittagessen an Tag 1", "Persönliche Ausgaben und Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -1053,10 +1053,10 @@ export const TOURS: Tour[] = [
       "Hin- und Rückfahrt ab Agadir",
       "Zweisprachiger Guide (Englisch/Französisch)",
       "Eintritt und Verkostung in einer Arganöl-Kooperative",
-      "Traditional Berber lunch",
-      "Honey tasting",
+      "Traditionelles Berber-Mittagessen",
+      "Honigverkostung",
     ],
-    excludes: ["Argan product purchases", "Tips"],
+    excludes: ["Käufe von Arganprodukten", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -1113,10 +1113,10 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Agadir",
-      "English-speaking guide",
+      "Englischsprachiger Guide",
       "Zweistündiger geführter Rundgang durch die Medina",
     ],
-    excludes: ["Mittagessen und persönliche Einkäufe", "Tips"],
+    excludes: ["Mittagessen und persönliche Einkäufe", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -1132,7 +1132,7 @@ export const TOURS: Tour[] = [
       { q: "Wie viel Zeit haben wir in Essaouira?", a: "Der Tag umfasst einen 2-stündigen geführten Rundgang durch die Medina, mit Freizeit drum herum, um Stadtmauern, Hafen und Cafés in Ihrem eigenen Tempo zu erkunden." },
       { q: "Was ist inbegriffen?", a: "Hin- und Rücktransport ab Agadir, ein englischsprachiger Guide und der 2-stündige geführte Medina-Rundgang. Mittagessen, persönliche Einkäufe und Trinkgelder sind nicht enthalten." },
       { q: "Ist es viel Fahrerei?", a: "Es ist ein leichter Ganztagesausflug die Küste entlang; die Fahrt wird durch den geführten Rundgang und die Freizeit in der Mauerstadt unterbrochen." },
-      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 14 Personen auf einer Tour in geteilter Gruppe." },
+      { q: "Wie groß ist die Gruppe?", a: "Zwischen 2 und 14 Personen, und die Tour ist privat — die Gruppe ist Ihre eigene, Sie reisen also nur mit den Personen, mit denen Sie gebucht haben. Der Preis pro Person sinkt, je größer die Gruppe wird." },
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
     seoTitle: "Essaouira Tagesausflug ab Agadir",
@@ -1175,10 +1175,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-/französischsprachiger Guide",
       "3 Nächte in einem Riad",
-      "Breakfast daily",
-      "All transfers and tolls",
+      "Täglich Frühstück",
+      "Alle Transfers und Mautgebühren",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Rücktransport ab Chefchaouen"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder", "Rücktransport ab Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1267,10 +1267,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-, französisch- und spanischsprachiger Guide",
       "4 Nächte in einem Riad",
-      "Breakfast daily",
+      "Täglich Frühstück",
       "Alle Transfers, Mautgebühren und Eintrittsgelder",
     ],
-    excludes: ["Lunches and dinners", "Tips"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -1377,13 +1377,13 @@ export const TOURS: Tour[] = [
       "Klimatisierte Minibusfahrt auf der gesamten Strecke",
       "Englischsprachiger Fahrer und Guide",
       "1 Nacht im Berber-Wüstencamp (Abendessen und Frühstück)",
-      "Sunset camel trek",
-      "Mineral water and tea",
+      "Kameltrekking bei Sonnenuntergang",
+      "Mineralwasser und Tee",
     ],
     excludes: [
-      "Lunches on both days",
+      "Mittagessen an beiden Tagen",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -1462,13 +1462,13 @@ export const TOURS: Tour[] = [
       "Erfahrener Wüstenführer mit Offroad-Erfahrung",
       "1 Nacht im Hotel in M'Hamid oder im Dades-Tal",
       "1 Nacht im Berber-Wüstencamp (alle Mahlzeiten)",
-      "All camel treks",
+      "Alle Kameltrekkings",
       "Mineralwasser und Minztee",
     ],
     excludes: [
       "Mittagessen an Tag 1 und Tag 3",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
       "Optionale Quadtour bei M'Hamid (vor Ort buchbar)",
     ],
     itinerary: [
@@ -1566,9 +1566,9 @@ export const TOURS: Tour[] = [
     excludes: [
       "Mittagessen (empfohlenes Budget: 12–15 € pro Mahlzeit)",
       "Eintrittskarte für die Atlas Film Studios (optional, ~7 €)",
-      "Alcoholic beverages",
+      "Alkoholische Getränke",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -1675,7 +1675,7 @@ export const TOURS: Tour[] = [
     excludes: [
       "Mittagessen an allen drei Tagen",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -1759,13 +1759,13 @@ export const TOURS: Tour[] = [
       "Klimatisierte Fahrt auf der gesamten Strecke",
       "Englischsprachiger Fahrer und Guide",
       "1 Nacht im Berber-Wüstencamp (Abendessen und Frühstück)",
-      "Sunset camel trek",
+      "Kameltrekking bei Sonnenuntergang",
       "Mineralwasser und Minztee",
     ],
     excludes: [
-      "Lunches on both days",
+      "Mittagessen an beiden Tagen",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -1839,13 +1839,13 @@ export const TOURS: Tour[] = [
       "Erfahrener Wüstenführer mit Offroad-Erfahrung",
       "1 Übernachtung in Foum Zguid oder M'Hamid",
       "1 Nacht im Berber-Camp am Erg Chegaga (alle Mahlzeiten)",
-      "All camel treks",
+      "Alle Kameltrekkings",
       "Mineralwasser und Tee während der gesamten Reise",
     ],
     excludes: [
-      "Lunches on days 1 and 3",
+      "Mittagessen an Tag 1 und 3",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -1938,9 +1938,9 @@ export const TOURS: Tour[] = [
     excludes: [
       "Mittagessen während der gesamten Reise (Budget 12–15 € pro Mahlzeit)",
       "Eintritt in die Atlas Film Studios (optional, ~7 €)",
-      "Alcoholic beverages",
+      "Alkoholische Getränke",
       "Persönliche Reiseversicherung",
-      "Tips",
+      "Trinkgelder",
     ],
     itinerary: [
       {
@@ -2038,10 +2038,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-/französischsprachiger Guide",
       "3 Nächte in einem Riad",
-      "Breakfast daily",
-      "All transfers and tolls",
+      "Täglich Frühstück",
+      "Alle Transfers und Mautgebühren",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Rücktransport ab Fès"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder", "Rücktransport ab Fès"],
     itinerary: [
       {
         day: 1,
@@ -2132,10 +2132,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-/französischsprachiger Guide",
       "4 Nächte in einem Riad",
-      "Breakfast daily",
-      "All transfers and tolls",
+      "Täglich Frühstück",
+      "Alle Transfers und Mautgebühren",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Rücktransport ab Chefchaouen"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder", "Rücktransport ab Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -2235,10 +2235,10 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-, französisch- und spanischsprachiger Guide",
       "5 Nächte in einem Riad",
-      "Breakfast daily",
+      "Täglich Frühstück",
       "Alle Transfers, Mautgebühren und Eintrittsgelder",
     ],
-    excludes: ["Lunches and dinners", "Tips"],
+    excludes: ["Mittag- und Abendessen", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -2767,7 +2767,7 @@ export const TOURS: Tour[] = [
       "Alle Verkostungen entlang der Route",
       "Zutaten und Anleitung für den Kochkurs",
       "Vollständiges Tajine-Mittagessen, das Sie mit zubereiten",
-      "Mint tea ceremony",
+      "Minztee-Zeremonie",
     ],
     excludes: ["Abholung von Hotels außerhalb der Medina", "Trinkgeld für Guide und Gastfamilie"],
     itinerary: [
@@ -2831,13 +2831,13 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt ab Marrakesch",
-      "Camel trek at sunset",
+      "Kameltrekking bei Sonnenuntergang",
       "1 Übernachtung im Wüstencamp",
       "Teleskop und geführte Sternenbeobachtung",
       "Abendessen und Frühstück im Camp",
     ],
     excludes: [
-      "Travel insurance",
+      "Reiseversicherung",
       "Mittagessen unterwegs (Halte vorhanden)",
       "Trinkgeld für Guide und Camp-Team",
     ],
@@ -3662,7 +3662,7 @@ export const TOURS: Tour[] = [
       "Trinkwasser während der gesamten Tour",
     ],
     excludes: [
-      "International flights",
+      "Internationale Flüge",
       "Reiseversicherung — für diese Tour erforderlich",
       "Schlafsack (Verleih auf Anfrage möglich)",
       "Ein Kamel zum Reiten statt daneben zu gehen (20 € pro Kamel und Tag)",
@@ -3728,7 +3728,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Tizi-n'Tichka-Pass durch den Hohen Atlas",
       "UNESCO-Ksar von Aït Ben Haddou",
-      "Dades and Todra gorges",
+      "Dades- und Todra-Schlucht",
       "Kamelritt in die Dünen des Erg Chebbi bei Sonnenuntergang",
       "Nacht in einem Berber-Wüstencamp",
     ],
@@ -3736,10 +3736,10 @@ export const TOURS: Tour[] = [
       "Fahrt im klimatisierten Sammelminibus",
       "Zwei Übernachtungen (Hotel und Wüstencamp)",
       "Abendessen und Frühstück an beiden Abenden",
-      "Camel trek at sunset",
+      "Kameltrekking bei Sonnenuntergang",
       "Englisch- oder französischsprachiger Fahrer",
     ],
-    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    excludes: ["Mittagessen", "Getränke", "Trinkgelder", "Eintrittsgelder"],
     itinerary: [
       {
         day: 1,
@@ -3817,18 +3817,18 @@ export const TOURS: Tour[] = [
       "Zagora ist die Marrakesch am nächsten gelegene Wüstennacht, und genau das ist ihr Reiz: ein langer Fahrtag statt zwei. Über den Tizi n'Tichka, vorbei an Aït Ben Haddou und Ouarzazate, in die Palmenhaine des Draa-Tals, dann ein Kamelritt und ein Camp mit Abendessen und Musik. Die Dünen sind kleiner als am Erg Chebbi — das ist der Preis der kürzeren Reise.",
     highlights: [
       "Tizi-n'Tichka-Pass und Aït Ben Haddou",
-      "Draa Valley palm groves",
+      "Palmenhaine des Draa-Tals",
       "Kamelritt in die Dünen von Zagora",
       "Nacht in einem Berbercamp mit Abendessen und Musik",
     ],
     includes: [
       "Fahrt im klimatisierten Sammelminibus",
       "Eine Nacht in einem Wüstencamp",
-      "Dinner and breakfast",
-      "Camel ride",
+      "Abendessen und Frühstück",
+      "Kamelritt",
       "Englisch- oder französischsprachiger Fahrer",
     ],
-    excludes: ["Lunches", "Drinks", "Tips", "Entry fees"],
+    excludes: ["Mittagessen", "Getränke", "Trinkgelder", "Eintrittsgelder"],
     itinerary: [
       {
         day: 1,
@@ -3892,10 +3892,10 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Hin- und Rückfahrt im Sammelminibus",
-      "Local guide at the falls",
-      "Mineral water",
+      "Lokaler Guide an den Wasserfällen",
+      "Mineralwasser",
     ],
-    excludes: ["Lunch", "Boat ride ticket", "Tips"],
+    excludes: ["Mittagessen", "Ticket für die Bootsfahrt", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
@@ -3950,16 +3950,16 @@ export const TOURS: Tour[] = [
     highlights: [
       "Kamelritt durch die Steinwüste Agafay bei Sonnenuntergang",
       "Abendessen im Wüstencamp mit dem Hohen Atlas am Horizont",
-      "Live music and fire show",
+      "Live-Musik und Feuershow",
       "Am selben Abend zurück in Marrakesch",
     ],
     includes: [
       "Hin- und Rücktransfer von Ihrem Riad oder Hotel in Marrakesch",
-      "Camel ride",
-      "Three-course dinner",
-      "Live music and fire show",
+      "Kamelritt",
+      "Drei-Gänge-Abendessen",
+      "Live-Musik und Feuershow",
     ],
-    excludes: ["Getränke außer Wasser und Tee", "Tips", "Quadfahren oder andere Extras"],
+    excludes: ["Getränke außer Wasser und Tee", "Trinkgelder", "Quadfahren oder andere Extras"],
     itinerary: [
       {
         day: 1,
@@ -4015,9 +4015,9 @@ export const TOURS: Tour[] = [
     includes: [
       "Hin- und Rückfahrt im klimatisierten Sammelminibus",
       "Halt bei einer Arganöl-Kooperative",
-      "Free time in the medina",
+      "Freizeit in der Medina",
     ],
-    excludes: ["Lunch", "Guide inside the medina", "Tips"],
+    excludes: ["Mittagessen", "Guide in der Medina", "Trinkgelder"],
     itinerary: [
       {
         day: 1,

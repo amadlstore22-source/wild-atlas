@@ -2718,7 +2718,7 @@ Non costruire una vacanza attorno a Ouarzazate: costruiscila attorno al deserto 
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-01",
     tags: ["prezzo guida Toubkal", "costo salita Toubkal", "prezzo trekking Marocco", "guida alpina Marocco", "Imlil", "Alto Atlante"],
-    seoTitle: "Quanto costa una guida per il Toubkal?",
+    seoTitle: "Guida Toubkal: 500-800 MAD al giorno",
     seoDescription:
       "Quanto costa davvero una guida alpina abilitata sul Toubkal nel 2026: tariffe giornaliere, il conto completo del trek (mulo, rifugio, pasti, parco, transfer).",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
@@ -2729,7 +2729,7 @@ Non costruire una vacanza attorno a Ouarzazate: costruiscila attorno al deserto 
       { q: "Conviene ingaggiare una guida da soli invece di prenotare un pacchetto?", a: "Meno di quanto si pensi. La tariffa giornaliera della guida è solo una voce del conto: rifugio, pasti, mulo, ingresso al parco e transfer andata e ritorno da Marrakech costituiscono la maggior parte del resto. Organizzarsi da soli dà più flessibilità e un po' più di controllo sulla spesa, soprattutto in gruppi numerosi; un pacchetto scambia questo con la logistica già risolta." },
       { q: "Quanta mancia si lascia a una guida del Toubkal?", a: "Circa 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere, da parte del gruppo, in contanti e in dirham alla fine. È consuetudine e viene apprezzata, ma non è mai obbligatoria: date di più se le condizioni sono state dure o se la guida ha salvato una giornata difficile." },
     
-      { q: "Quanto costa un trek del Toubkal da Marrakech?", a: "Il nostro [trek di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) parte da 195 € a persona in due e 153 € in sei; quello [di 4 giorni](/it/tours/toubkal-summit-trek-4day) da 360 € in due e 295 € in sei. Entrambi comprendono il trasporto andata e ritorno da Marrakech, la guida abilitata, le notti in rifugio, tutti i pasti in montagna, il supporto dei muli e le tasse del parco nazionale — la cifra che vedi è quindi quella che paghi, non una tariffa base a cui aggiungere poi i costi della montagna." },
+      { q: "Quanto costa un trek del Toubkal da Marrakech?", a: "Il nostro [trek di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) parte da 195 € a persona in due e 153 € in sei; quello [di 4 giorni](/it/tours/toubkal-summit-trek-4day) da 360 € in due e 260 € in sei. Entrambi comprendono il trasporto andata e ritorno da Marrakech, la guida abilitata, le notti in rifugio, tutti i pasti in montagna, il supporto dei muli e le tasse del parco nazionale — la cifra che vedi è quindi quella che paghi, non una tariffa base a cui aggiungere poi i costi della montagna." },
     ],
     content: `
 ## Quanto costa davvero una guida del Toubkal

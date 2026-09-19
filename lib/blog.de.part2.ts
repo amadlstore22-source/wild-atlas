@@ -2721,7 +2721,7 @@ Bauen Sie keinen Urlaub um Ouarzazate – bauen Sie ihn um die Wüste und lassen
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-01",
     tags: ["Toubkal Bergführer Preis", "Toubkal Kosten", "Trekking Marokko Preis", "Bergführer Marokko", "Imlil", "Hoher Atlas"],
-    seoTitle: "Toubkal-Bergführer: Kosten 2026",
+    seoTitle: "Toubkal-Bergführer: 500-800 MAD/Tag",
     seoDescription:
       "Was ein lizenzierter Bergführer am Toubkal 2026 wirklich kostet: Tagessätze, die vollständige Trekkingrechnung (Maultier, Hütte, Verpflegung, Parkgebühr.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
@@ -2732,7 +2732,7 @@ Bauen Sie keinen Urlaub um Ouarzazate – bauen Sie ihn um die Wüste und lassen
       { q: "Ist es günstiger, selbst einen Führer zu engagieren, als ein Paket zu buchen?", a: "Weniger, als die meisten erwarten. Der Tagessatz des Führers ist nur eine Zeile der Rechnung — Hütte, Verpflegung, Maultier, Parkgebühr und der Hin- und Rücktransfer ab Marrakesch machen den Großteil des Rests aus. Selbst organisieren gibt mehr Flexibilität und etwas mehr Kostenkontrolle, besonders in größeren Gruppen; ein Paket tauscht das gegen erledigte Logistik." },
       { q: "Wie viel Trinkgeld gibt man einem Toubkal-Bergführer?", a: "Etwa 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, bar in Dirham am Ende. Es ist üblich und wird geschätzt, aber nie verpflichtend — geben Sie mehr, wenn die Bedingungen hart waren oder Ihr Führer einen schwierigen Tag gerettet hat." },
     
-      { q: "Was kostet ein Toubkal-Trek ab Marrakesch?", a: "Unser [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) kostet ab 195 € pro Person zu zweit und 153 € zu sechst; der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 360 € zu zweit und 295 € zu sechst. Beide enthalten den Transfer ab Marrakesch und zurück, den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, Maultierunterstützung und die Nationalparkgebühren — die angezeigte Zahl ist also die, die Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später addiert werden." },
+      { q: "Was kostet ein Toubkal-Trek ab Marrakesch?", a: "Unser [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) kostet ab 195 € pro Person zu zweit und 153 € zu sechst; der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 360 € zu zweit und 260 € zu sechst. Beide enthalten den Transfer ab Marrakesch und zurück, den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, Maultierunterstützung und die Nationalparkgebühren — die angezeigte Zahl ist also die, die Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später addiert werden." },
     ],
     content: `
 ## Was ein Toubkal-Bergführer tatsächlich kostet

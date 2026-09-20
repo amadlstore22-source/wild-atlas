@@ -1679,16 +1679,31 @@ export const TOURS: Tour[] = [
     // Ladder scaled from the confirmed price, read as the two-person rate.
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    //
+    // RAISED 30% ON 2026-09-20 at the owner's instruction, every tier plus the
+    // deposit. The shape of the curve is unchanged — each figure is the
+    // pre-uplift one x1.30 rounded to the dollar — so it no longer sits on the
+    // derived curve above. Do NOT "correct" it back: the uplift is deliberate.
+    //
+    // Computed from the ORIGINAL figures (913/510/418/367/332/301), not
+    // compounded on an earlier 28% pass from the same day. Any future raise is
+    // likewise a multiple of the price actually in force, never of the last
+    // increase.
+    //
+    // EUR at the rate in currency-core: 1029 / 575 / 471 / 414 / 375 / 339,
+    // up from 792 / 442 / 362 / 318 / 288 / 261. Totals still rise strictly
+    // with group size (no tier where a smaller party pays more overall), which
+    // is the invariant price-ladder.test.ts guards.
     groupPricing: [
-      { minPeople: 1, price: 913 },
-      { minPeople: 2, price: 510 },
-      { minPeople: 3, price: 418 },
-      { minPeople: 4, price: 367 },
-      { minPeople: 5, price: 332 },
-      { minPeople: 6, price: 301 },
+      { minPeople: 1, price: 1187 },
+      { minPeople: 2, price: 663 },
+      { minPeople: 3, price: 543 },
+      { minPeople: 4, price: 477 },
+      { minPeople: 5, price: 432 },
+      { minPeople: 6, price: 391 },
     ],
-    price: 913,
-    depositAmount: 201,
+    price: 1187,
+    depositAmount: 261,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1778,7 +1793,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "5-Day Morocco Imperial Cities Tour",
     seoDescription:
-      "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. From $301 pp for 6+.",
+      "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. From $391 pp for 6+.",
     featured: false,
   },
 

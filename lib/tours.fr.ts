@@ -1252,8 +1252,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 personnes",
     reviewCount: 27,
     rating: 4.8,
-    price: 913,
-    depositAmount: 201,
+    price: 1187,
+    depositAmount: 261,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [

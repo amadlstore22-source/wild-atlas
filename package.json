@@ -11,7 +11,8 @@
     "test": "vitest",
     "test:run": "vitest run",
     "invoice": "node scripts/make-invoice.mjs",
-    "contract": "node scripts/make-contract.mjs"
+    "contract": "node scripts/make-contract.mjs",
+    "manifest": "node scripts/make-manifest.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

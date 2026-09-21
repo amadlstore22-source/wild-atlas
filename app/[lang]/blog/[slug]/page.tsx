@@ -162,12 +162,50 @@ export default async function BlogPostPage({ params }: BlogParams) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  // Inline markdown: bold, then links. Escaping happens first, so the regexes
-  // only ever see already-safe text and the captured URL can't smuggle markup.
+  /**
+   * Inline markdown: bold, then links. Escaping happens first, so the regexes
+   * only ever see already-safe text and the captured URL cannot smuggle markup.
+   *
+   * TWO URL SHAPES, AND ONLY TWO.
+   *
+   * Internal: a leading slash. Rendered as a plain <a href="/...">.
+   *
+   * External: https:// ONLY. Rendered with rel="noopener noreferrer" and
+   * target="_blank", the same treatment the sister site gives its outbound
+   * links.
+   *
+   * WHY THE ALLOWLIST IS SHAPED THIS WAY. The original pattern matched a
+   * leading slash and nothing else, which is a real security control: it
+   * makes `javascript:`, `data:` and a hostile external host impossible to
+   * express from authored content. Widening it to "any URL" would throw that
+   * away. Widening it to `https://` keeps every one of those protocols
+   * unreachable — javascript: and data: still do not match, and plain http://
+   * is excluded too, so a link can never silently downgrade a reader to an
+   * unencrypted request.
+   *
+   * WHAT WENT WRONG WITHOUT IT. The cycling guide links to atlaspedals.com,
+   * the sister site. Those links matched neither branch, so they fell through
+   * the replace untouched and the page rendered the literal source text —
+   * "[Atlas Pedals](https://atlaspedals.com/en)" — in the middle of a
+   * sentence, in four languages, on a published page. Nothing failed: the
+   * build passed, the tests passed, and the markdown was valid. It is only
+   * visible by reading the rendered page, which is why
+   * __tests__/lib/blog-external-links.test.ts now does exactly that.
+   */
   function inline(s: string) {
     return escHtml(s)
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, '<a href="$2">$1</a>');
+      .replace(
+        /\[([^\]]+)\]\((https:\/\/[^)\s]+)\)/g,
+        '<a href="$2" rel="noopener noreferrer" target="_blank">$1</a>',
+      )
+      /* `\/(?!\/)` — one slash, NOT two. A protocol-relative URL such as
+         //evil.example.com begins with a slash and so matched the original
+         pattern, producing <a href="//evil.example.com"> : an off-site link
+         the allowlist was written to make impossible. Found by
+         blog-external-links.test.ts; it predates the https:// branch above
+         rather than being introduced by it. */
+      .replace(/\[([^\]]+)\]\((\/(?!\/)[^)\s]*)\)/g, '<a href="$2">$1</a>');
   }
 
   // ![alt](/path.jpg) with an optional "caption" after the path.

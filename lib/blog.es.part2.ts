@@ -7787,4 +7787,134 @@ competir con ella: un par de noches en la costa entre la
 vacaciones enteras.
 `,
   },
+  {
+    slug: "cycling-mountain-biking-high-atlas-morocco",
+    localizedSlug: "bicicleta-btt-alto-atlas-marruecos",
+    title: "El Alto Atlas en bicicleta: c\u00f3mo es en realidad",
+    excerpt:
+      "Llevamos a\u00f1os recorriendo el Alto Atlas a pie. Esos mismos caminos de mulas se ruedan muy bien, y una empresa hermana con la que trabajamos los ofrece en bici. Esto es lo que da el pilotaje, a qui\u00e9n le encaja y cu\u00e1ndo la bici gana a las botas.",
+    heroImage: "/gallery/imlil-valley-high-atlas-hero.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 9,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-21",
+    updatedAt: "2026-09-21",
+    tags: [
+      "ciclismo Marruecos",
+      "BTT Atlas",
+      "bici el\u00e9ctrica Marruecos",
+      "gravel Marruecos",
+      "Alto Atlas en bici",
+    ],
+    seoTitle: "El Alto Atlas en bici: BTT en Marruecos",
+    seoDescription:
+      "C\u00f3mo es de verdad rodar por el Alto Atlas: los senderos, las estaciones, BTT frente a bici el\u00e9ctrica y gravel, y c\u00f3mo se compara con caminar.",
+    faq: [
+      {
+        q: "\u00bfSe puede ir en bici por el Atlas?",
+        a: "S\u00ed, y es de lo mejor del norte de \u00c1frica. El Alto Atlas est\u00e1 recorrido por caminos de mulas que unen los pueblos desde hace siglos: sin asfaltar, sin se\u00f1alizar y apenas mantenidos, que es justo lo que los hace buenos en bici. Por encima de Imlil e Imenane son empinados y t\u00e9cnicos; la meseta del Kik y el Agafay ofrecen en cambio gravel largo y r\u00e1pido. Ojo: el Toubkal en s\u00ed es una cima de caminar, no de rodar \u2014 el \u00faltimo tramo hasta los 4.167 m es pedrera.",
+      },
+      {
+        q: "\u00bfHace falta ser un ciclista de monta\u00f1a experimentado?",
+        a: "Para casi todo, no. Las salidas de un d\u00eda desde Marrakech son de nivel f\u00e1cil a moderado y las hacen sobre todo ciclistas habituales m\u00e1s que bikers. Lo que s\u00ed exige experiencia es el terreno de enduro sobre Imlil: empinado, suelto y expuesto. Si dudas, una jornada en bici el\u00e9ctrica elimina por completo la cuesti\u00f3n de la forma f\u00edsica.",
+      },
+      {
+        q: "\u00bfMerece la pena la bici el\u00e9ctrica en el Atlas?",
+        a: "Para mucha gente, s\u00ed. La subida de Imlil (1.740 m) al puerto de Tizi n'Tamatert (2.300 m) es una hora de trabajo duro en bici normal y unos cuarenta minutos agradables en e-MTB. Es la diferencia entre pasar el d\u00eda mirando el sendero y pasarlo mirando las monta\u00f1as. Adem\u00e1s permite que grupos dispares rueden juntos, que suele ser la verdadera raz\u00f3n para elegirla.",
+      },
+      {
+        q: "\u00bfCu\u00e1l es la mejor \u00e9poca para ir en bici por Marruecos?",
+        a: "De marzo a mayo y de septiembre a noviembre para la monta\u00f1a, por la misma raz\u00f3n por la que son nuestros mejores meses de trekking: tiempo estable, temperaturas agradables y aire limpio. El pleno verano es realmente demasiado caluroso por encima de los 2.000 m a mediod\u00eda, y los puertos altos conservan nieve hasta la primavera. Las rutas m\u00e1s bajas \u2014 el Agafay, la meseta del Kik, los fondos de valle \u2014 se ruedan bien todo el invierno.",
+      },
+      {
+        q: "\u00bfTrekking o bici en el Alto Atlas?",
+        a: "Responden a preguntas distintas. Caminar te lleva donde no llega ninguna rueda \u2014 el refugio del Toubkal, el puerto de Aguelzim, el lago Ifni \u2014 y te da el ritmo para estar de verdad en un pueblo en lugar de atravesarlo. La bici cubre tres o cuatro veces m\u00e1s terreno en un d\u00eda, o sea varios valles en vez de uno. Si tienes una semana, la respuesta honesta es hacer ambas: no son versiones rivales del mismo viaje.",
+      },
+    ],
+    content: `Somos una empresa de trekking. Llevamos a\u00f1os acompa\u00f1ando clientes por el valle del Toubkal, por el Tizi n'Tamatert y por los pueblos del Imenane, y hay una pregunta que aparece m\u00e1s de lo que cabr\u00eda esperar: \u00bfesos mismos caminos se pueden rodar?
+
+S\u00ed. Y muy bien. No hacemos rutas en bici nosotros \u2014 es otra flota, otros mec\u00e1nicos y otro oficio de gu\u00eda \u2014 pero trabajamos junto a **[Atlas Pedals](https://atlaspedals.com/es)**, que s\u00ed las hacen, en los mismos valles que caminamos. Esta gu\u00eda re\u00fane lo que hemos aprendido del lado ciclista en los senderos que compartimos.
+
+## Por qu\u00e9 el Alto Atlas se rueda tan bien
+
+Los senderos de aqu\u00ed no se trazaron para bicis, y ah\u00ed est\u00e1 la gracia.
+
+El Alto Atlas est\u00e1 hilado de caminos de mulas: la infraestructura de trabajo que conecta los pueblos desde mucho antes de que hubiera carreteras. Est\u00e1n cortados para animales de carga, lo que significa pendientes sostenidas en lugar de escalones, y siguen la l\u00ednea natural del terreno. Nadie los mantiene para el ocio, nadie los se\u00f1aliza y nadie los ha alisado.
+
+El resultado es un terreno que los bike parks europeos gastan mucho dinero en imitar:
+
+- **Cientos de kil\u00f3metros de sendero sin asfaltar**, en su mayor parte nunca rodados por un turista
+- **Desnivel de verdad** \u2014 puedes empezar un d\u00eda a 1.740 m y cruzar un puerto a 2.300 m
+- **Pueblos cada pocos kil\u00f3metros**, as\u00ed que un d\u00eda largo nunca resulta remoto de forma inquietante
+- **Casi ning\u00fan otro ciclista**, que es lo primero que notan los pilotos que vienen de los Alpes
+
+Una salvedad honesta, porque importa al planificar: **el Toubkal en s\u00ed no es un objetivo ciclista.** Puedes rodar hasta la aproximaci\u00f3n al refugio y por todos los valles de alrededor, pero el tramo final hasta los 4.167 m es pedrera. Esa es una cima de caminar, y si es a lo que vienes, corresponde a un [trek al Toubkal](/es/tours?cat=trekking) y no a un itinerario en bici.
+
+[[WEATHER]]
+
+## Las tres formas de rodar
+
+Son experiencias realmente distintas, y esa elecci\u00f3n importa m\u00e1s que la marca de la bici.
+
+### BTT
+
+La versi\u00f3n cl\u00e1sica. Caminos de mulas, bajadas pedregosas y superficies sueltas, sobre todo entre Imlil, el valle de Imenane y Asni.
+
+Una salida de un d\u00eda desde Marrakech funciona con la misma log\u00edstica que nuestros treks de un d\u00eda: recogida en el hotel sobre las 9 h, una hora hacia el sur hasta el parque nacional de Toubkal, pedaleando a media ma\u00f1ana y de vuelta en la ciudad para cenar. Atlas Pedals tiene [una jornada de BTT desde Marrakech](https://atlaspedals.com/es/bike-tours/day-mountain-bike-tour-from-marrakech) desde 125 EUR, de nivel f\u00e1cil a moderado, con veh\u00edculo de apoyo para quien prefiera guardar las piernas para la bajada.
+
+Con una noche en la monta\u00f1a se convierte en otro viaje \u2014 [una ruta de BTT de 2 d\u00edas](https://atlaspedals.com/es/bike-tours/2-day-atlas-mountains-mtb-tour) desde 420 EUR cruza el puerto de Tachet y duerme en una casa rural de pueblo, que es el mismo tipo de velada que nuestros clientes de trekking dicen recordar m\u00e1s.
+
+Para quienes ya ruedan terreno t\u00e9cnico en casa, [la jornada de enduro de Imlil](https://atlaspedals.com/es/bike-tours/imlil-enduro-day-tour) desde 155 EUR usa las l\u00edneas m\u00e1s empinadas sobre el pueblo con lanzadera. Es de nivel avanzado de verdad y lo dicen, cosa que agradecemos.
+
+### Bicis el\u00e9ctricas
+
+La categor\u00eda que ha cambiado qui\u00e9n puede venir a la monta\u00f1a.
+
+La subida desde Imlil al Tizi n'Tamatert es el filtro real en una bici normal. En e-MTB se convierte en cuarenta minutos c\u00f3modos, y todo el d\u00eda se reorganiza en torno al paisaje y no al esfuerzo. [Su jornada en bici el\u00e9ctrica](https://atlaspedals.com/es/bike-tours/e-bike-day-tour-atlas-mountains) sale desde 145 EUR, y llevan con regularidad a ciclistas de sesenta y setenta a\u00f1os.
+
+Si mencionamos las e-bikes en concreto es por la misma raz\u00f3n por la que hacemos treks en familia: el problema pr\u00e1ctico de la mayor\u00eda de los grupos no es la dificultad, es la **diferencia** de forma f\u00edsica. Una e-bike permite que una pareja con motores muy distintos ruede la misma ruta al mismo ritmo. Para viajes m\u00e1s largos, [una ruta de 6 d\u00edas en bici el\u00e9ctrica](https://atlaspedals.com/es/bike-tours/6-day-e-bike-tour-atlas-mountains) cubre un terreno que una semana caminando sencillamente no alcanza.
+
+### Gravel
+
+La menos conocida y, para el perfil adecuado, la m\u00e1s sorprendente.
+
+Marruecos tiene miles de kil\u00f3metros de pista: carreteras sin asfaltar que conectan lugares a los que el asfalto nunca lleg\u00f3. La meseta del Kik despliega m\u00e1s de 20 km de pista alta continua con toda la cordillera a un lado. El Agafay, el desierto de piedra al sur de Marrakech, ofrece rectas largas y r\u00e1pidas con el muro del Atlas llenando la vista.
+
+[Su ruta de gravel de 2 d\u00edas](https://atlaspedals.com/es/bike-tours/2-day-high-atlas-gravel-bike-tour) desde 480 EUR enlaza ambas, unos 130 km en dos d\u00edas. Los ciclistas que vienen del gravel europeo, mucho m\u00e1s transitado, suelen quedarse callados ante lo vac\u00edo que est\u00e1 esto.
+
+## Rodar o caminar: la comparaci\u00f3n honesta
+
+Aqu\u00ed tenemos un inter\u00e9s evidente, as\u00ed que seamos directos.
+
+**La bici cubre tres o cuatro veces m\u00e1s terreno.** Un d\u00eda en bici desde Marrakech puede abarcar el Imenane y el valle de Asni; un d\u00eda a pie recorre un valle como es debido. Si tu prioridad es ver la cordillera en lugar de habitarla, ganan las ruedas.
+
+**Caminar llega donde no llegan las ruedas.** El refugio del Toubkal, el puerto de Aguelzim, el lago Ifni, el circuito de las tres cimas: eso es territorio de pie. No por hostilidad hacia la bici, sino porque el terreno deja de ser rodable.
+
+**Caminar cambia el ritmo de los encuentros.** Es la parte dif\u00edcil de cuantificar y f\u00e1cil de notar. A pie llegas a un pueblo y est\u00e1s ah\u00ed. En bici lo atraviesas maravillosamente. Ambas son reales; no son lo mismo.
+
+**Comparten temporada.** De marzo a mayo y de septiembre a noviembre, por razones id\u00e9nticas.
+
+Si tienes una semana, lo sensato es hacer las dos. Un par de d\u00edas en bici y un trek de dos o tres d\u00edas encajan con comodidad, y abordan los mismos valles desde dos \u00e1ngulos completamente distintos.
+
+## Notas pr\u00e1cticas
+
+**C\u00f3mo llegar.** Aeropuerto de Marrakech Menara y una hora hasta Imlil. El mismo trayecto sirve para un d\u00eda en bici y para un d\u00eda de trek.
+
+**Bicis.** Alquilar es lo normal y lo sensato \u2014 Atlas Pedals tiene su propio taller. Volar con la tuya es posible si ruedas algo concreto, pero para un viaje corto rara vez compensa el embalaje.
+
+**Altitud.** Puertos de 2.000 a 2.300 m se notan y est\u00e1n muy lejos de ser una preocupaci\u00f3n m\u00e9dica. Si adem\u00e1s planeas el Toubkal a pie, eso es otra conversaci\u00f3n \u2014 mira nuestra gu\u00eda sobre [la altitud en el Toubkal](/es/blog/mal-de-altura-toubkal).
+
+**Seguro.** Camines o ruedes, comprueba que tu p\u00f3liza cubre la actividad de monta\u00f1a. La mayor\u00eda de los seguros de viaje est\u00e1ndar no cubren la BTT en absoluto.
+
+## Por d\u00f3nde seguir
+
+Si lo que te atrae es rodar, **[Atlas Pedals](https://atlaspedals.com/es/bike-tours)** es el sitio \u2014 su cat\u00e1logo va de salidas de un d\u00eda desde Marrakech a una traves\u00eda de nueve d\u00edas de las monta\u00f1as al Atl\u00e1ntico, y tambi\u00e9n montan [rutas privadas a medida](https://atlaspedals.com/es/bike-tours/private-custom-bike-tours) en torno a tus fechas.
+
+Si lo que te trajo aqu\u00ed es caminar, eso somos nosotros.
+
+\ud83d\udc49 **[Mira nuestros treks por el Alto Atlas](/es/tours?cat=trekking)** \u2014 desde un d\u00eda en el valle de Ourika hasta la ascensi\u00f3n completa al Toubkal, guiados por gente de estos pueblos.
+
+Y si quieres las dos cosas en una semana, [cu\u00e9ntanos qu\u00e9 tienes en mente](/es/contact) y te ayudamos a darle forma en torno a la bici y no en contra de ella.`,
+  },
 ];

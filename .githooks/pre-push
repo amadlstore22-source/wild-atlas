@@ -37,7 +37,23 @@ set -e
 
 EXPECTED_HOST="github.com"
 EXPECTED_REPO="amadlstore22-source/wild-atlas"
-EXPECTED_EMAIL="1wahed.nab2012@gmail.com"
+# The allowed author address is NOT hardcoded here.
+#
+# __tests__/lib/no-client-data.test.ts scans every tracked file for real
+# email addresses, because this repo handles client correspondence and an
+# address committed once stays in the git history forever. That guard is
+# right even about the owner's own address: this file is published to
+# GitHub, and a literal here would be scraped from a public repo.
+#
+# So the expected address lives in LOCAL git config, which is per-clone
+# and never committed. Set it once:
+#
+#   git config --local hooks.expectedEmail "you@example.com"
+#
+# Unset, the author check is skipped and only the remote check runs. That
+# is the safe default: a missing local setting must not block a push, or
+# a fresh clone cannot push at all until someone finds this comment.
+EXPECTED_EMAIL="$(git config --local --get hooks.expectedEmail || true)"
 
 remote_url="$2"
 
@@ -76,6 +92,13 @@ fi
 # author is what Vercel rejects at deploy time, after the push has
 # already happened.
 email=$(git config user.email || true)
+
+if [ -z "$EXPECTED_EMAIL" ]; then
+  # No expected address configured for this clone. The remote check above
+  # has already run, which is the half that protects against pushing one
+  # project to another project's repository.
+  exit 0
+fi
 
 if [ -z "$email" ]; then
   echo ""

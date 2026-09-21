@@ -45,6 +45,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "how-booking-a-morocco-tour-works": "comment-fonctionne-la-reservation-maroc",
   "morocco-desert-in-winter-guide": "desert-maroc-en-hiver",
   "morocco-desert-tour-older-travellers": "circuit-desert-maroc-seniors",
+  "cycling-mountain-biking-high-atlas-morocco": "velo-vtt-haut-atlas-maroc",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -83,6 +84,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "how-booking-a-morocco-tour-works": "como-funciona-la-reserva-marruecos",
   "morocco-desert-in-winter-guide": "desierto-marruecos-en-invierno",
   "morocco-desert-tour-older-travellers": "circuito-desierto-marruecos-mayores",
+  "cycling-mountain-biking-high-atlas-morocco": "bicicleta-btt-alto-atlas-marruecos",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -121,6 +123,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "how-booking-a-morocco-tour-works": "wie-die-buchung-in-marokko-funktioniert",
   "morocco-desert-in-winter-guide": "marokko-wueste-im-winter",
   "morocco-desert-tour-older-travellers": "wuestentour-marokko-fuer-aeltere-reisende",
+  "cycling-mountain-biking-high-atlas-morocco": "radfahren-mountainbiken-hoher-atlas-marokko",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {

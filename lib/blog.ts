@@ -7807,7 +7807,7 @@ At 4,167 m, Toubkal is the highest peak in North Africa, and it is a walk rather
 
 The quieter alternative to a summit bid, and for many people the better trip. Walking valley to valley \u2014 Imlil, Azzaden, Ourika \u2014 you stay in village guesthouses, eat with families, and see an agricultural system worked the same way for centuries.
 
-**Verdict:** choose this over Toubkal if your interest is people and landscape rather than altitude. Start with [the best multi-day treks](/en/blog/best-multi-day-treks-morocco).
+**Verdict:** choose this over Toubkal if your interest is people and landscape rather than altitude. Start with [the best multi-day treks](/en/blog/best-multi-day-treks-morocco). The same valleys can also be ridden, and cover far more ground in a day — see [cycling the High Atlas](/en/blog/cycling-mountain-biking-high-atlas-morocco).
 
 ### 5. Surf at Taghazout or Imsouane
 
@@ -10615,6 +10615,141 @@ rather than competing with it — a couple of nights on the coast between the
 [medina](/en/blog/marrakech-medina-complete-guide) and the desert resets the
 whole holiday.
 `,
+  },
+  {
+    slug: "cycling-mountain-biking-high-atlas-morocco",
+    author: MET_TEAM,
+    title: "Cycling the High Atlas: What It Is Actually Like on Two Wheels",
+    excerpt:
+      "We walk the High Atlas for a living. The same mule paths ride extremely well, and a sister company we work alongside runs them on bikes. Here is what the riding is like, who it suits, and when a bike beats boots.",
+    heroImage: "/gallery/imlil-valley-high-atlas-hero.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 9,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-21",
+    updatedAt: "2026-09-21",
+    tags: [
+      "cycling Morocco",
+      "mountain biking Atlas Mountains",
+      "e-bike Morocco",
+      "gravel cycling Morocco",
+      "High Atlas by bike",
+    ],
+    seoTitle: "Cycling the High Atlas: Morocco by Bike",
+    seoDescription:
+      "What riding the High Atlas is really like: the trails, the seasons, mountain bike vs e-bike vs gravel, and how a riding day compares with trekking.",
+    relatedTours: [
+      "toubkal-summit-2day-marrakech",
+      "atlas-mountains-3day-trek",
+      "ourika-valley-day-hike",
+    ],
+    faq: [
+      {
+        q: "Can you cycle in the Atlas Mountains?",
+        a: "Yes, and it is some of the best riding in North Africa. The High Atlas is laced with mule paths that have linked villages for centuries \u2014 unsurfaced, unsignposted and largely unmaintained, which is exactly what makes them good on a bike. Above Imlil and Imenane they are steep and technical; the Kik Plateau and the Agafay offer long, fast gravel instead. Note that Toubkal itself is a walking summit, not a riding one: the last section to 4,167 m is scree and scramble.",
+      },
+      {
+        q: "Do you need to be an experienced mountain biker?",
+        a: "Not for most of it. Day rides from Marrakech are graded easy to moderate and are ridden mainly by people who cycle regularly at home rather than by mountain bikers. What genuinely needs experience is enduro terrain above Imlil, which is steep, loose and exposed. If you are unsure, an e-bike day removes the fitness question entirely and leaves you with only the descending to think about.",
+      },
+      {
+        q: "Is an e-bike worth it in the Atlas?",
+        a: "For many riders, yes. The climb from Imlil at 1,740 m to the Tizi n'Tamatert pass at 2,300 m is an hour of hard work on a normal bike and about forty minutes of pleasant riding on an e-MTB. That is the difference between spending your day looking at the trail and spending it looking at the mountains. It also lets mixed groups ride together, which is usually the real reason people choose one.",
+      },
+      {
+        q: "When is the best time to cycle in Morocco?",
+        a: "March to May and September to November for the mountains, for the same reason those are our best trekking months: stable weather, comfortable temperatures and clear air. High summer is genuinely too hot above 2,000 m in the middle of the day, and the high passes hold snow into spring. Lower routes \u2014 the Agafay, the Kik Plateau, the valley floors \u2014 ride well through the winter.",
+      },
+      {
+        q: "Should I trek or cycle the High Atlas?",
+        a: "They answer different questions. Trekking gets you to places no wheel reaches \u2014 the Toubkal refuge, the Aguelzim pass, Lac d'Ifni \u2014 and gives you the pace to actually be in a village rather than pass through it. Cycling covers three or four times the ground in a day, which means several valleys instead of one. If you have a week, doing both is the honest answer: they are not competing versions of the same trip.",
+      },
+    ],
+    content: `We are a trekking company. We have spent years walking clients up the Toubkal valley, over the Tizi n'Tamatert and through the villages of the Imenane, and the question that comes up more often than you would expect is whether the same paths can be ridden.
+
+They can. Very well, in fact. We do not run bike tours ourselves \u2014 it is a different fleet, different mechanics and a different set of guiding skills \u2014 but we work alongside **[Atlas Pedals](https://atlaspedals.com/en)**, who do, in the same valleys we walk. This guide is what we have learned about the riding side from the trails we share.
+
+## Why the High Atlas rides so well
+
+The trails here were not built for bikes, and that is the point.
+
+The High Atlas is threaded with mule paths: the working infrastructure that has connected villages since long before there were roads. They are cut for animals carrying loads, which means sustained gradients rather than staircases, and they follow the natural line of the land. Nobody maintains them for recreation, nobody signposts them, and nobody has smoothed them out.
+
+The result is terrain that European trail centres spend a lot of money trying to imitate:
+
+- **Hundreds of kilometres of unsurfaced singletrack**, most of it never ridden by a tourist
+- **Real elevation** \u2014 you can start a day at 1,740 m and cross a pass at 2,300 m
+- **Villages every few kilometres**, so a long day never feels remote in a frightening way
+- **Almost no other cyclists**, which is the part riders from the Alps notice first
+
+One honest caveat, because it matters for planning: **Toubkal itself is not a riding objective.** You can ride to the refuge approach and you can ride the valleys all around it, but the final stretch to 4,167 m is scree and scramble. That is a walking summit, and if it is what you came for, it belongs in a [Toubkal trek](/en/tours?cat=trekking) rather than a bike itinerary.
+
+[[WEATHER]]
+
+## The three kinds of riding
+
+They are genuinely different experiences, and the choice matters more than the bike brand.
+
+### Mountain biking
+
+The classic version. Mule paths, rocky descents and loose surfaces, mostly between Imlil, the Imenane valley and Asni.
+
+A day ride from Marrakech works on the same logistics as our day treks: hotel pickup around 9am, an hour south into Toubkal National Park, riding by mid-morning, back in the city for dinner. Atlas Pedals run [a day mountain bike tour from Marrakech](https://atlaspedals.com/en/bike-tours/day-mountain-bike-tour-from-marrakech) from 125 EUR, graded easy to moderate, with a support vehicle for anyone who would rather save their legs for the descent.
+
+With a night in the mountains it becomes a properly different trip \u2014 [a 2-day Atlas MTB tour](https://atlaspedals.com/en/bike-tours/2-day-atlas-mountains-mtb-tour) from 420 EUR crosses the Tachet pass and sleeps in a village g\u00eete, which is the same kind of evening our trekking clients tell us they remember most.
+
+For riders who already ride technical terrain at home, [the Imlil enduro day](https://atlaspedals.com/en/bike-tours/imlil-enduro-day-tour) from 155 EUR uses the steepest lines above the village with vehicle uplift. It is genuinely advanced and they say so, which we appreciate.
+
+### E-bikes
+
+The category that has changed who can come to the mountains at all.
+
+The climb out of Imlil to the Tizi n'Tamatert is the gatekeeper on a normal bike. On an e-MTB it becomes forty easy minutes, and the entire day reorganises itself around the view rather than the effort. [Their e-bike day tour](https://atlaspedals.com/en/bike-tours/e-bike-day-tour-atlas-mountains) runs from 145 EUR, and they regularly take riders in their sixties and seventies on it.
+
+The reason we mention e-bikes specifically is the same reason we run family treks: the practical problem for most groups is not difficulty, it is **difference** in fitness. An e-bike lets a couple with very different engines ride the same route at the same pace. For longer trips, [a 6-day e-bike tour](https://atlaspedals.com/en/bike-tours/6-day-e-bike-tour-atlas-mountains) covers ground a walking week simply cannot.
+
+### Gravel
+
+The least known and, for the right rider, the most surprising.
+
+Morocco has thousands of kilometres of piste \u2014 unpaved vehicle roads connecting places the tarmac never reached. The Kik Plateau runs over 20 km of continuous high track with the whole range on one side. The Agafay, the stone desert south of Marrakech, gives long fast straights with the Atlas wall filling the view ahead.
+
+[Their 2-day gravel tour](https://atlaspedals.com/en/bike-tours/2-day-high-atlas-gravel-bike-tour) from 480 EUR links both, at around 130 km over two days. Riders coming from crowded European gravel tend to be quietly astonished by how empty it is.
+
+## Riding versus walking: an honest comparison
+
+We have an obvious interest here, so let us be straightforward about it.
+
+**A bike covers three to four times the ground.** A riding day from Marrakech might take in the Imenane and the Asni valley; a walking day covers one valley properly. If your priority is seeing the range rather than inhabiting it, wheels win.
+
+**Walking goes where wheels cannot.** The Toubkal refuge, the Aguelzim pass, Lac d'Ifni, the three-peaks circuit \u2014 these are foot country. Not because a bike is unwelcome, but because the ground stops being rideable.
+
+**Walking changes the pace of encounters.** This is the part that is hard to quantify and easy to notice. At walking speed you arrive in a village and you are there. At riding speed you pass through beautifully. Both are real; they are not the same.
+
+**They share a season.** March to May and September to November are the right months for either, for identical reasons.
+
+If you have a week, the sensible answer is to do both. A couple of riding days and a two- or three-day trek fit together comfortably, and they use the same valleys from two completely different angles.
+
+## Practical notes
+
+**Getting there.** Marrakech Menara airport, then an hour to Imlil. The same drive serves both a bike day and a trek day.
+
+**Bikes.** Rental is normal and sensible \u2014 Atlas Pedals maintain their own workshop. Flying with your own bike is possible if you ride something specific, but for a short trip it is rarely worth the boxing.
+
+**Altitude.** Passes at 2,000 to 2,300 m are high enough to notice and nowhere near high enough to be a medical concern. If you are also planning Toubkal on foot, that is a different conversation \u2014 see our guide to [altitude on Toubkal](/en/blog/altitude-sickness-toubkal-guide).
+
+**Insurance.** Whether you are walking or riding, check that your policy covers mountain activity. Most standard travel insurance does not cover mountain biking at all.
+
+## Where to go from here
+
+If the riding is what appeals, **[Atlas Pedals](https://atlaspedals.com/en/bike-tours)** is where to look \u2014 their full range runs from day tours out of Marrakech to a nine-day crossing from the mountains to the Atlantic, and they also build [custom private routes](https://atlaspedals.com/en/bike-tours/private-custom-bike-tours) around your dates.
+
+If the walking is what you came for, that is us.
+
+\ud83d\udc49 **[See our High Atlas treks](/en/tours?cat=trekking)** \u2014 from a day in the Ourika valley to the full Toubkal summit, guided by people from these villages.
+
+And if you want both in one week, [tell us what you have in mind](/en/contact) and we will help you shape it around the riding rather than against it.`,
   },
 ];
 

@@ -7806,4 +7806,134 @@ konkurrieren — zwei Nächte an der Küste zwischen
 Urlaub neu auf.
 `,
   },
+  {
+    slug: "cycling-mountain-biking-high-atlas-morocco",
+    localizedSlug: "radfahren-mountainbiken-hoher-atlas-marokko",
+    title: "Der Hohe Atlas mit dem Rad: wie es wirklich ist",
+    excerpt:
+      "Wir sind seit Jahren im Hohen Atlas zu Fu\u00df unterwegs. Dieselben Maultierpfade lassen sich hervorragend fahren, und ein Schwesterunternehmen, mit dem wir zusammenarbeiten, bietet sie auf dem Rad an. Hier steht, wie das Fahren ist, f\u00fcr wen es passt und wann das Rad die besseren Karten hat.",
+    heroImage: "/gallery/imlil-valley-high-atlas-hero.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 9,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-21",
+    updatedAt: "2026-09-21",
+    tags: [
+      "Radfahren Marokko",
+      "Mountainbiken Atlas",
+      "E-Bike Marokko",
+      "Gravel Marokko",
+      "Hoher Atlas mit dem Rad",
+    ],
+    seoTitle: "Hoher Atlas mit dem Rad: MTB in Marokko",
+    seoDescription:
+      "Wie sich der Hohe Atlas wirklich f\u00e4hrt: die Trails, die Jahreszeiten, Mountainbike gegen E-Bike und Gravel, und wie ein Radtag sich zum Wandern verh\u00e4lt.",
+    faq: [
+      {
+        q: "Kann man im Atlasgebirge Rad fahren?",
+        a: "Ja, und es geh\u00f6rt zum Besten in Nordafrika. Der Hohe Atlas ist von Maultierpfaden durchzogen, die die D\u00f6rfer seit Jahrhunderten verbinden \u2014 unbefestigt, unbeschildert und kaum gepflegt, was sie auf dem Rad gerade gut macht. \u00dcber Imlil und Imenane sind sie steil und technisch; das Kik-Plateau und die Agafay bieten stattdessen langen, schnellen Gravel. Wichtig: Der Toubkal selbst ist ein Wander- und kein Radgipfel \u2014 das letzte St\u00fcck auf 4.167 m ist Ger\u00f6ll.",
+      },
+      {
+        q: "Muss man erfahrener Mountainbiker sein?",
+        a: "F\u00fcr das meiste nicht. Tagestouren ab Marrakesch sind als leicht bis mittel eingestuft und werden vor allem von normalen Radfahrern gefahren, nicht von Mountainbikern. Wirklich Erfahrung verlangt das Enduro-Gel\u00e4nde \u00fcber Imlil: steil, lose und ausgesetzt. Im Zweifel nimmt ein E-Bike-Tag die Fitnessfrage vollst\u00e4ndig heraus.",
+      },
+      {
+        q: "Lohnt sich ein E-Bike im Atlas?",
+        a: "F\u00fcr viele ja. Der Anstieg von Imlil (1.740 m) zum Pass Tizi n'Tamatert (2.300 m) ist auf einem normalen Rad eine Stunde harte Arbeit und auf dem E-MTB etwa vierzig angenehme Minuten. Das ist der Unterschied zwischen einem Tag, an dem man auf den Trail schaut, und einem, an dem man die Berge sieht. Au\u00dferdem k\u00f6nnen gemischte Gruppen zusammen fahren \u2014 meist der eigentliche Grund f\u00fcr die Wahl.",
+      },
+      {
+        q: "Wann ist die beste Zeit zum Radfahren in Marokko?",
+        a: "M\u00e4rz bis Mai und September bis November f\u00fcr die Berge, aus denselben Gr\u00fcnden, aus denen das unsere besten Trekkingmonate sind: stabiles Wetter, angenehme Temperaturen und klare Luft. Der Hochsommer ist \u00fcber 2.000 m mittags wirklich zu hei\u00df, und die hohen P\u00e4sse halten den Schnee bis ins Fr\u00fchjahr. Tiefere Routen \u2014 die Agafay, das Kik-Plateau, die Talb\u00f6den \u2014 fahren sich den ganzen Winter gut.",
+      },
+      {
+        q: "Wandern oder radfahren im Hohen Atlas?",
+        a: "Beides beantwortet verschiedene Fragen. Wandern bringt Sie dorthin, wo kein Rad hinkommt \u2014 zur Toubkal-H\u00fctte, zum Aguelzim-Pass, zum Ifni-See \u2014 und gibt Ihnen das Tempo, in einem Dorf wirklich zu sein statt hindurchzufahren. Das Rad deckt an einem Tag das Drei- bis Vierfache an Strecke ab, also mehrere T\u00e4ler statt eines. Wenn Sie eine Woche haben, ist beides die ehrliche Antwort: Es sind keine konkurrierenden Versionen derselben Reise.",
+      },
+    ],
+    content: `Wir sind ein Trekkingunternehmen. Wir begleiten seit Jahren G\u00e4ste durch das Toubkal-Tal, \u00fcber den Tizi n'Tamatert und durch die D\u00f6rfer des Imenane, und eine Frage kommt h\u00e4ufiger als man denkt: Lassen sich dieselben Wege auch fahren?
+
+Ja. Und zwar sehr gut. Wir bieten selbst keine Radreisen an \u2014 das ist eine andere Flotte, andere Mechaniker und ein anderes F\u00fchrungshandwerk \u2014 aber wir arbeiten mit **[Atlas Pedals](https://atlaspedals.com/de)** zusammen, die das tun, in denselben T\u00e4lern, die wir erwandern. Dieser Leitfaden fasst zusammen, was wir vom Radfahren auf den Wegen gelernt haben, die wir teilen.
+
+## Warum sich der Hohe Atlas so gut f\u00e4hrt
+
+Die Wege hier wurden nicht f\u00fcr R\u00e4der angelegt, und genau das ist der Punkt.
+
+Der Hohe Atlas ist von Maultierpfaden durchzogen: der Arbeitsinfrastruktur, die die D\u00f6rfer verband, lange bevor es Stra\u00dfen gab. Sie sind f\u00fcr Lasttiere angelegt, also mit gleichm\u00e4\u00dfigen Steigungen statt Stufen, und folgen der nat\u00fcrlichen Linie des Gel\u00e4ndes. Niemand pflegt sie f\u00fcr die Freizeit, niemand beschildert sie und niemand hat sie gegl\u00e4ttet.
+
+Das Ergebnis ist Gel\u00e4nde, das europ\u00e4ische Bikeparks mit viel Geld nachzubauen versuchen:
+
+- **Hunderte Kilometer unbefestigter Singletrail**, gr\u00f6\u00dftenteils nie von einem Touristen gefahren
+- **Echte H\u00f6henmeter** \u2014 ein Tag kann auf 1.740 m beginnen und \u00fcber einen Pass auf 2.300 m f\u00fchren
+- **D\u00f6rfer alle paar Kilometer**, sodass ein langer Tag nie auf beunruhigende Weise abgelegen wirkt
+- **Fast keine anderen Radfahrer**, was Fahrern aus den Alpen als Erstes auff\u00e4llt
+
+Eine ehrliche Einschr\u00e4nkung, weil sie f\u00fcr die Planung z\u00e4hlt: **Der Toubkal selbst ist kein Radziel.** Man kann bis zum H\u00fcttenzustieg und durch alle umliegenden T\u00e4ler fahren, aber das letzte St\u00fcck auf 4.167 m ist Ger\u00f6ll. Das ist ein Wandergipfel, und wenn Sie deswegen kommen, geh\u00f6rt er in ein [Toubkal-Trekking](/de/tours?cat=trekking) und nicht in eine Radreise.
+
+[[WEATHER]]
+
+## Die drei Arten zu fahren
+
+Es sind wirklich verschiedene Erlebnisse, und diese Wahl z\u00e4hlt mehr als die Radmarke.
+
+### Mountainbike
+
+Die klassische Variante. Maultierpfade, steinige Abfahrten und loser Untergrund, vor allem zwischen Imlil, dem Imenane-Tal und Asni.
+
+Eine Tagestour ab Marrakesch l\u00e4uft logistisch wie unsere Tageswanderungen: Abholung am Hotel gegen 9 Uhr, eine Stunde nach S\u00fcden in den Toubkal-Nationalpark, am Vormittag auf dem Rad, abends zur\u00fcck in der Stadt. Atlas Pedals f\u00e4hrt [eine Mountainbike-Tagestour ab Marrakesch](https://atlaspedals.com/de/bike-tours/day-mountain-bike-tour-from-marrakech) ab 125 EUR, leicht bis mittel, mit Begleitfahrzeug f\u00fcr alle, die die Beine lieber f\u00fcr die Abfahrt sparen.
+
+Mit einer Nacht in den Bergen wird daraus eine ganz andere Reise \u2014 [eine 2-t\u00e4gige Atlas-MTB-Tour](https://atlaspedals.com/de/bike-tours/2-day-atlas-mountains-mtb-tour) ab 420 EUR quert den Tachet-Pass und \u00fcbernachtet in einer Dorfunterkunft, genau die Art Abend, an die sich unsere Trekkingg\u00e4ste am meisten erinnern.
+
+F\u00fcr Fahrer, die zu Hause schon technisches Gel\u00e4nde fahren, nutzt [der Imlil-Enduro-Tag](https://atlaspedals.com/de/bike-tours/imlil-enduro-day-tour) ab 155 EUR die steilsten Lines \u00fcber dem Dorf mit Shuttle. Er ist wirklich etwas f\u00fcr K\u00f6nner, und sie sagen das auch \u2014 was wir sch\u00e4tzen.
+
+### E-Bikes
+
+Die Kategorie, die ver\u00e4ndert hat, wer \u00fcberhaupt in die Berge kommen kann.
+
+Der Anstieg aus Imlil zum Tizi n'Tamatert ist auf einem normalen Rad die eigentliche H\u00fcrde. Auf dem E-MTB werden daraus vierzig leichte Minuten, und der ganze Tag ordnet sich um die Aussicht statt um die Anstrengung. [Ihre E-Bike-Tagestour](https://atlaspedals.com/de/bike-tours/e-bike-day-tour-atlas-mountains) startet bei 145 EUR, und sie nehmen regelm\u00e4\u00dfig G\u00e4ste in den Sechzigern und Siebzigern mit.
+
+Wir erw\u00e4hnen E-Bikes aus demselben Grund, aus dem wir Familientrekkings anbieten: Das praktische Problem der meisten Gruppen ist nicht die Schwierigkeit, sondern der **Unterschied** in der Fitness. Ein E-Bike l\u00e4sst ein Paar mit sehr verschiedenen Motoren dieselbe Route im selben Tempo fahren. F\u00fcr l\u00e4ngere Reisen deckt [eine 6-t\u00e4gige E-Bike-Tour](https://atlaspedals.com/de/bike-tours/6-day-e-bike-tour-atlas-mountains) Strecken ab, die eine Wanderwoche schlicht nicht schafft.
+
+### Gravel
+
+Die unbekannteste und, f\u00fcr den richtigen Fahrer, die \u00fcberraschendste.
+
+Marokko hat Tausende Kilometer Piste \u2014 unbefestigte Fahrwege zu Orten, die der Asphalt nie erreicht hat. Das Kik-Plateau bietet \u00fcber 20 km durchgehende H\u00f6henpiste mit der ganzen Kette auf einer Seite. Die Agafay, die Steinw\u00fcste s\u00fcdlich von Marrakesch, liefert lange schnelle Geraden mit der Atlas-Wand im Blick.
+
+[Ihre 2-t\u00e4gige Gravel-Tour](https://atlaspedals.com/de/bike-tours/2-day-high-atlas-gravel-bike-tour) ab 480 EUR verbindet beides, rund 130 km an zwei Tagen. Wer vom deutlich volleren europ\u00e4ischen Gravel kommt, ist meist still erstaunt, wie leer es hier ist.
+
+## Fahren oder wandern: der ehrliche Vergleich
+
+Wir haben hier ein offensichtliches Interesse, also sagen wir es direkt.
+
+**Das Rad deckt das Drei- bis Vierfache an Strecke ab.** Ein Radtag ab Marrakesch kann das Imenane und das Asni-Tal umfassen; ein Wandertag erschlie\u00dft ein Tal richtig. Wenn es Ihnen darum geht, die Kette zu sehen statt sie zu bewohnen, gewinnen die R\u00e4der.
+
+**Wandern kommt dorthin, wo R\u00e4der nicht hinkommen.** Die Toubkal-H\u00fctte, der Aguelzim-Pass, der Ifni-See, die Drei-Gipfel-Runde \u2014 das ist Fu\u00dfland. Nicht weil das Rad unerw\u00fcnscht w\u00e4re, sondern weil der Boden aufh\u00f6rt, fahrbar zu sein.
+
+**Wandern ver\u00e4ndert das Tempo der Begegnungen.** Das ist der Teil, der schwer zu messen und leicht zu bemerken ist. Zu Fu\u00df kommen Sie in ein Dorf und sind dort. Auf dem Rad durchqueren Sie es wunderbar. Beides ist echt; dasselbe ist es nicht.
+
+**Beide teilen die Saison.** M\u00e4rz bis Mai und September bis November, aus identischen Gr\u00fcnden.
+
+Wenn Sie eine Woche haben, ist beides die vern\u00fcnftige Antwort. Ein paar Radtage und ein zwei- oder dreit\u00e4giges Trekking passen bequem zusammen und erschlie\u00dfen dieselben T\u00e4ler aus zwei v\u00f6llig verschiedenen Blickwinkeln.
+
+## Praktisches
+
+**Anreise.** Flughafen Marrakesch Menara, dann eine Stunde nach Imlil. Dieselbe Fahrt bedient einen Radtag wie einen Wandertag.
+
+**R\u00e4der.** Mieten ist normal und sinnvoll \u2014 Atlas Pedals unterh\u00e4lt eine eigene Werkstatt. Mit dem eigenen Rad zu fliegen ist m\u00f6glich, wenn Sie etwas Bestimmtes fahren, lohnt bei einer kurzen Reise aber selten den Verpackungsaufwand.
+
+**H\u00f6he.** P\u00e4sse von 2.000 bis 2.300 m merkt man, und sie sind weit von einem medizinischen Thema entfernt. Wenn Sie zus\u00e4tzlich den Toubkal zu Fu\u00df planen, ist das ein anderes Gespr\u00e4ch \u2014 siehe unseren Leitfaden zur [H\u00f6he am Toubkal](/de/blog/hoehenkrankheit-toubkal).
+
+**Versicherung.** Ob wandernd oder fahrend: Pr\u00fcfen Sie, ob Ihre Police Bergaktivit\u00e4ten abdeckt. Die meisten Standard-Reiseversicherungen decken Mountainbiken \u00fcberhaupt nicht ab.
+
+## Wie es weitergeht
+
+Wenn Sie das Fahren reizt, ist **[Atlas Pedals](https://atlaspedals.com/de/bike-tours)** die Adresse \u2014 ihr Programm reicht von Tagestouren ab Marrakesch bis zu einer neunt\u00e4gigen Durchquerung von den Bergen an den Atlantik, und sie bauen auch [private Routen nach Ma\u00df](https://atlaspedals.com/de/bike-tours/private-custom-bike-tours) um Ihre Termine.
+
+Wenn Sie das Wandern hergef\u00fchrt hat, das sind wir.
+
+\ud83d\udc49 **[Sehen Sie unsere Trekkings im Hohen Atlas](/de/tours?cat=trekking)** \u2014 von einem Tag im Ourika-Tal bis zur kompletten Toubkal-Besteigung, gef\u00fchrt von Menschen aus diesen D\u00f6rfern.
+
+Und wenn Sie beides in einer Woche m\u00f6chten, [sagen Sie uns, was Ihnen vorschwebt](/de/contact) \u2014 wir helfen Ihnen, es um das Radfahren herum zu planen statt dagegen.`,
+  },
 ];

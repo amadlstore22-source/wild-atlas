@@ -7854,4 +7854,134 @@ plutôt qu'elle ne lui fait concurrence : deux nuits sur la côte entre la
 le voyage d'aplomb.
 `,
   },
+  {
+    slug: "cycling-mountain-biking-high-atlas-morocco",
+    localizedSlug: "velo-vtt-haut-atlas-maroc",
+    title: "Le Haut Atlas \u00e0 v\u00e9lo : ce que c'est vraiment",
+    excerpt:
+      "Nous parcourons le Haut Atlas \u00e0 pied depuis des ann\u00e9es. Les m\u00eames sentiers muletiers se roulent tr\u00e8s bien, et une soci\u00e9t\u00e9 s\u0153ur avec qui nous travaillons les propose \u00e0 v\u00e9lo. Voici ce que donne le pilotage, \u00e0 qui il convient et quand le v\u00e9lo l'emporte sur les chaussures.",
+    heroImage: "/gallery/imlil-valley-high-atlas-hero.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 9,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-21",
+    updatedAt: "2026-09-21",
+    tags: [
+      "v\u00e9lo Maroc",
+      "VTT Atlas",
+      "VAE Maroc",
+      "gravel Maroc",
+      "Haut Atlas \u00e0 v\u00e9lo",
+    ],
+    seoTitle: "Le Haut Atlas \u00e0 v\u00e9lo : VTT au Maroc",
+    seoDescription:
+      "Ce que donne vraiment le Haut Atlas \u00e0 v\u00e9lo : les sentiers, les saisons, VTT contre VAE contre gravel, et comment une journ\u00e9e de v\u00e9lo se compare \u00e0 la marche.",
+    faq: [
+      {
+        q: "Peut-on faire du v\u00e9lo dans l'Atlas ?",
+        a: "Oui, et c'est l'un des meilleurs terrains d'Afrique du Nord. Le Haut Atlas est parcouru de sentiers muletiers qui relient les villages depuis des si\u00e8cles \u2014 non rev\u00eatus, non balis\u00e9s et peu entretenus, ce qui est pr\u00e9cis\u00e9ment ce qui les rend bons \u00e0 v\u00e9lo. Au-dessus d'Imlil et de l'Imenane ils sont raides et techniques ; le plateau du Kik et l'Agafay offrent au contraire du gravel long et rapide. \u00c0 noter : le Toubkal lui-m\u00eame est un sommet de marche, pas de v\u00e9lo \u2014 la derni\u00e8re portion jusqu'\u00e0 4 167 m est une pente d'\u00e9boulis.",
+      },
+      {
+        q: "Faut-il \u00eatre un vtt\u00e9iste exp\u00e9riment\u00e9 ?",
+        a: "Pas pour l'essentiel. Les sorties \u00e0 la journ\u00e9e au d\u00e9part de Marrakech sont cot\u00e9es facile \u00e0 mod\u00e9r\u00e9 et sont surtout faites par des cyclistes r\u00e9guliers plut\u00f4t que par des vtt\u00e9istes. Ce qui demande vraiment de l'exp\u00e9rience, c'est le terrain d'enduro au-dessus d'Imlil : raide, meuble et expos\u00e9. En cas de doute, une journ\u00e9e en VAE supprime enti\u00e8rement la question de la condition physique.",
+      },
+      {
+        q: "Le VAE en vaut-il la peine dans l'Atlas ?",
+        a: "Pour beaucoup, oui. La mont\u00e9e d'Imlil (1 740 m) au col de Tizi n'Tamatert (2 300 m) repr\u00e9sente une heure d'effort soutenu sur un v\u00e9lo classique et une quarantaine de minutes agr\u00e9ables en VTTAE. C'est la diff\u00e9rence entre passer sa journ\u00e9e \u00e0 regarder le sentier et la passer \u00e0 regarder les montagnes. Cela permet aussi aux groupes h\u00e9t\u00e9rog\u00e8nes de rouler ensemble, ce qui est souvent la vraie raison du choix.",
+      },
+      {
+        q: "Quelle est la meilleure p\u00e9riode pour le v\u00e9lo au Maroc ?",
+        a: "De mars \u00e0 mai et de septembre \u00e0 novembre pour la montagne, pour les m\u00eames raisons que ce sont nos meilleurs mois de trek : m\u00e9t\u00e9o stable, temp\u00e9ratures agr\u00e9ables et air limpide. Le plein \u00e9t\u00e9 est vraiment trop chaud au-dessus de 2 000 m en milieu de journ\u00e9e, et les hauts cols gardent la neige jusqu'au printemps. Les itin\u00e9raires plus bas \u2014 l'Agafay, le plateau du Kik, les fonds de vall\u00e9e \u2014 se roulent bien tout l'hiver.",
+      },
+      {
+        q: "Faut-il marcher ou rouler dans le Haut Atlas ?",
+        a: "Les deux r\u00e9pondent \u00e0 des questions diff\u00e9rentes. La marche m\u00e8ne l\u00e0 o\u00f9 aucune roue ne passe \u2014 le refuge du Toubkal, le col d'Aguelzim, le lac d'Ifni \u2014 et donne le rythme n\u00e9cessaire pour \u00eatre vraiment dans un village plut\u00f4t que le traverser. Le v\u00e9lo couvre trois \u00e0 quatre fois plus de terrain dans la journ\u00e9e, donc plusieurs vall\u00e9es au lieu d'une. Si vous avez une semaine, faire les deux est la r\u00e9ponse honn\u00eate : ce ne sont pas deux versions concurrentes du m\u00eame voyage.",
+      },
+    ],
+    content: `Nous sommes une agence de trek. Nous accompagnons depuis des ann\u00e9es des clients dans la vall\u00e9e du Toubkal, au Tizi n'Tamatert et dans les villages de l'Imenane, et une question revient plus souvent qu'on ne l'imagine : ces m\u00eames sentiers peuvent-ils se rouler ?
+
+Oui. Et tr\u00e8s bien. Nous ne proposons pas de s\u00e9jours v\u00e9lo nous-m\u00eames \u2014 c'est une autre flotte, d'autres m\u00e9caniciens et un autre m\u00e9tier d'encadrement \u2014 mais nous travaillons aux c\u00f4t\u00e9s d'**[Atlas Pedals](https://atlaspedals.com/fr)**, qui le font, dans les vall\u00e9es que nous parcourons \u00e0 pied. Ce guide r\u00e9unit ce que nous avons appris du v\u00e9lo sur les sentiers que nous partageons.
+
+## Pourquoi le Haut Atlas se roule si bien
+
+Les sentiers d'ici n'ont pas \u00e9t\u00e9 trac\u00e9s pour le v\u00e9lo, et c'est justement l'int\u00e9r\u00eat.
+
+Le Haut Atlas est tiss\u00e9 de sentiers muletiers : l'infrastructure de travail qui relie les villages bien avant qu'il y ait des routes. Ils sont taill\u00e9s pour des b\u00eates charg\u00e9es, donc en pentes r\u00e9guli\u00e8res plut\u00f4t qu'en marches, et ils \u00e9pousent la ligne naturelle du terrain. Personne ne les entretient pour les loisirs, personne ne les balise et personne ne les a liss\u00e9s.
+
+Le r\u00e9sultat est un terrain que les bike parks europ\u00e9ens d\u00e9pensent beaucoup d'argent \u00e0 imiter :
+
+- **Des centaines de kilom\u00e8tres de singletrack non rev\u00eatu**, dont l'essentiel n'a jamais \u00e9t\u00e9 roul\u00e9 par un touriste
+- **Du vrai d\u00e9nivel\u00e9** \u2014 on peut d\u00e9marrer une journ\u00e9e \u00e0 1 740 m et franchir un col \u00e0 2 300 m
+- **Des villages tous les quelques kilom\u00e8tres**, si bien qu'une longue journ\u00e9e n'est jamais isol\u00e9e de fa\u00e7on inqui\u00e9tante
+- **Quasiment aucun autre cycliste**, ce que les pilotes venus des Alpes remarquent en premier
+
+Une r\u00e9serve honn\u00eate, parce qu'elle compte pour l'organisation : **le Toubkal lui-m\u00eame n'est pas un objectif \u00e0 v\u00e9lo.** On peut rouler jusqu'aux abords du refuge et dans toutes les vall\u00e9es alentour, mais la derni\u00e8re portion jusqu'\u00e0 4 167 m est une pente d'\u00e9boulis. C'est un sommet de marche, et s'il est votre but, il rel\u00e8ve d'un [trek au Toubkal](/fr/tours?cat=trekking) plut\u00f4t que d'un programme v\u00e9lo.
+
+[[WEATHER]]
+
+## Les trois fa\u00e7ons de rouler
+
+Ce sont des exp\u00e9riences vraiment diff\u00e9rentes, et ce choix compte plus que la marque du v\u00e9lo.
+
+### Le VTT
+
+La version classique. Sentiers muletiers, descentes caillouteuses et surfaces meubles, surtout entre Imlil, la vall\u00e9e de l'Imenane et Asni.
+
+Une sortie \u00e0 la journ\u00e9e depuis Marrakech suit la m\u00eame logistique que nos treks \u00e0 la journ\u00e9e : prise en charge \u00e0 l'h\u00f4tel vers 9 h, une heure de route vers le sud dans le parc national du Toubkal, sur le v\u00e9lo en milieu de matin\u00e9e, de retour en ville pour le d\u00eener. Atlas Pedals propose [une journ\u00e9e VTT au d\u00e9part de Marrakech](https://atlaspedals.com/fr/bike-tours/day-mountain-bike-tour-from-marrakech) \u00e0 partir de 125 EUR, cot\u00e9e facile \u00e0 mod\u00e9r\u00e9, avec v\u00e9hicule d'assistance pour qui pr\u00e9f\u00e8re garder les jambes pour la descente.
+
+Avec une nuit en montagne, cela devient un tout autre voyage \u2014 [un s\u00e9jour VTT de 2 jours](https://atlaspedals.com/fr/bike-tours/2-day-atlas-mountains-mtb-tour) \u00e0 partir de 420 EUR franchit le col de Tachet et dort en g\u00eete de village, exactement le genre de soir\u00e9e dont nos clients de trek nous disent qu'ils se souviennent le plus.
+
+Pour les pilotes qui roulent d\u00e9j\u00e0 du technique chez eux, [la journ\u00e9e enduro d'Imlil](https://atlaspedals.com/fr/bike-tours/imlil-enduro-day-tour) \u00e0 partir de 155 EUR emprunte les lignes les plus raides au-dessus du village avec navette. Elle est vraiment r\u00e9serv\u00e9e aux confirm\u00e9s et ils le disent, ce que nous appr\u00e9cions.
+
+### Le VAE
+
+La cat\u00e9gorie qui a chang\u00e9 qui peut venir en montagne.
+
+La mont\u00e9e d'Imlil vers le Tizi n'Tamatert est le v\u00e9ritable filtre sur un v\u00e9lo classique. En VTTAE, elle devient quarante minutes faciles, et toute la journ\u00e9e se r\u00e9organise autour du paysage plut\u00f4t que de l'effort. [Leur journ\u00e9e en VAE](https://atlaspedals.com/fr/bike-tours/e-bike-day-tour-atlas-mountains) d\u00e9marre \u00e0 145 EUR, et ils emm\u00e8nent r\u00e9guli\u00e8rement des cyclistes de soixante et soixante-dix ans.
+
+Si nous mentionnons sp\u00e9cifiquement le VAE, c'est pour la m\u00eame raison que nous proposons des treks en famille : le vrai probl\u00e8me pratique de la plupart des groupes n'est pas la difficult\u00e9, c'est l'**\u00e9cart** de condition physique. Le VAE permet \u00e0 un couple aux moteurs tr\u00e8s diff\u00e9rents de rouler le m\u00eame itin\u00e9raire au m\u00eame rythme. Pour des s\u00e9jours plus longs, [un s\u00e9jour VAE de 6 jours](https://atlaspedals.com/fr/bike-tours/6-day-e-bike-tour-atlas-mountains) couvre un terrain qu'une semaine de marche ne peut tout simplement pas atteindre.
+
+### Le gravel
+
+Le moins connu et, pour le bon profil, le plus surprenant.
+
+Le Maroc compte des milliers de kilom\u00e8tres de piste \u2014 des routes non rev\u00eatues reliant des lieux que le goudron n'a jamais atteints. Le plateau du Kik d\u00e9roule plus de 20 km de piste d'altitude continue avec toute la cha\u00eene d'un c\u00f4t\u00e9. L'Agafay, le d\u00e9sert de pierre au sud de Marrakech, offre de longues lignes droites rapides avec le mur de l'Atlas devant soi.
+
+[Leur s\u00e9jour gravel de 2 jours](https://atlaspedals.com/fr/bike-tours/2-day-high-atlas-gravel-bike-tour) \u00e0 partir de 480 EUR relie les deux, soit environ 130 km sur deux jours. Les cyclistes venus du gravel europ\u00e9en, plus fr\u00e9quent\u00e9, sont g\u00e9n\u00e9ralement stup\u00e9faits par le vide.
+
+## Rouler ou marcher : la comparaison honn\u00eate
+
+Nous avons un int\u00e9r\u00eat \u00e9vident ici, alors soyons directs.
+
+**Le v\u00e9lo couvre trois \u00e0 quatre fois plus de terrain.** Une journ\u00e9e de v\u00e9lo depuis Marrakech peut englober l'Imenane et la vall\u00e9e d'Asni ; une journ\u00e9e de marche parcourt une vall\u00e9e correctement. Si votre priorit\u00e9 est de voir la cha\u00eene plut\u00f4t que de l'habiter, les roues gagnent.
+
+**La marche va l\u00e0 o\u00f9 les roues ne vont pas.** Le refuge du Toubkal, le col d'Aguelzim, le lac d'Ifni, le circuit des trois sommets \u2014 c'est un pays de pied. Non par hostilit\u00e9 au v\u00e9lo, mais parce que le terrain cesse d'\u00eatre roulant.
+
+**La marche change le rythme des rencontres.** C'est la part difficile \u00e0 quantifier et facile \u00e0 remarquer. \u00c0 pied, on arrive dans un village et on y est. \u00c0 v\u00e9lo, on le traverse magnifiquement. Les deux sont r\u00e9els ; ce n'est pas la m\u00eame chose.
+
+**Les deux partagent la m\u00eame saison.** De mars \u00e0 mai et de septembre \u00e0 novembre, pour des raisons identiques.
+
+Si vous avez une semaine, la r\u00e9ponse raisonnable est de faire les deux. Deux ou trois journ\u00e9es de v\u00e9lo et un trek de deux ou trois jours s'assemblent confortablement, et ils abordent les m\u00eames vall\u00e9es sous deux angles compl\u00e8tement diff\u00e9rents.
+
+## En pratique
+
+**Pour venir.** A\u00e9roport de Marrakech M\u00e9nara, puis une heure jusqu'\u00e0 Imlil. Le m\u00eame trajet dessert une journ\u00e9e de v\u00e9lo comme une journ\u00e9e de marche.
+
+**Les v\u00e9los.** La location est normale et sens\u00e9e \u2014 Atlas Pedals dispose de son propre atelier. Venir avec son v\u00e9lo reste possible si vous roulez quelque chose de particulier, mais pour un court s\u00e9jour cela vaut rarement l'emballage.
+
+**L'altitude.** Des cols entre 2 000 et 2 300 m se sentent, mais restent tr\u00e8s loin d'un enjeu m\u00e9dical. Si vous pr\u00e9voyez aussi le Toubkal \u00e0 pied, c'est une autre conversation \u2014 voir notre guide sur [l'altitude au Toubkal](/fr/blog/mal-aigu-des-montagnes-toubkal).
+
+**L'assurance.** \u00c0 pied comme \u00e0 v\u00e9lo, v\u00e9rifiez que votre contrat couvre l'activit\u00e9 en montagne. La plupart des assurances voyage standard ne couvrent pas du tout le VTT.
+
+## Et ensuite
+
+Si c'est le v\u00e9lo qui vous attire, **[Atlas Pedals](https://atlaspedals.com/fr/bike-tours)** est l'adresse \u2014 leur gamme va de la journ\u00e9e au d\u00e9part de Marrakech \u00e0 une travers\u00e9e de neuf jours des montagnes \u00e0 l'Atlantique, et ils construisent aussi des [itin\u00e9raires priv\u00e9s sur mesure](https://atlaspedals.com/fr/bike-tours/private-custom-bike-tours) autour de vos dates.
+
+Si c'est la marche qui vous a amen\u00e9 ici, c'est nous.
+
+\ud83d\udc49 **[D\u00e9couvrez nos treks dans le Haut Atlas](/fr/tours?cat=trekking)** \u2014 d'une journ\u00e9e dans la vall\u00e9e de l'Ourika \u00e0 l'ascension compl\u00e8te du Toubkal, encadr\u00e9s par des gens de ces villages.
+
+Et si vous voulez les deux dans la m\u00eame semaine, [dites-nous ce que vous avez en t\u00eate](/fr/contact) et nous vous aiderons \u00e0 l'organiser autour du v\u00e9lo plut\u00f4t que contre lui.`,
+  },
 ];

@@ -61,6 +61,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "comment-fonctionne-la-reservation-maroc": "how-booking-a-morocco-tour-works",
     "desert-maroc-en-hiver": "morocco-desert-in-winter-guide",
     "circuit-desert-maroc-seniors": "morocco-desert-tour-older-travellers",
+    "velo-vtt-haut-atlas-maroc": "cycling-mountain-biking-high-atlas-morocco",
   },
   es: {
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -98,6 +99,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "como-funciona-la-reserva-marruecos": "how-booking-a-morocco-tour-works",
     "desierto-marruecos-en-invierno": "morocco-desert-in-winter-guide",
     "circuito-desierto-marruecos-mayores": "morocco-desert-tour-older-travellers",
+    "bicicleta-btt-alto-atlas-marruecos": "cycling-mountain-biking-high-atlas-morocco",
   },
   de: {
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -135,6 +137,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "wie-die-buchung-in-marokko-funktioniert": "how-booking-a-morocco-tour-works",
     "marokko-wueste-im-winter": "morocco-desert-in-winter-guide",
     "wuestentour-marokko-fuer-aeltere-reisende": "morocco-desert-tour-older-travellers",
+    "radfahren-mountainbiken-hoher-atlas-marokko": "cycling-mountain-biking-high-atlas-morocco",
   },
   it: {
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",

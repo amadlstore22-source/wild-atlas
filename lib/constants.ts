@@ -70,12 +70,31 @@ export const SOCIAL = {
   youtube: "https://youtube.com/@marrakechecotours",
 } as const;
 
-// Sister brand, same team — bike touring & ski touring in the Atlas. Linked in
-// the footer as a related service and declared in `sameAs` structured data.
+/**
+ * Sister brand — same team, different sport. Shown in the footer as a
+ * related service.
+ *
+ * UPDATED 2026-09-21 from "Morocco Bike & Ski Tours"
+ * (moroccobike-skitours.com) to Atlas Pedals. The bike side was rebuilt
+ * and rebranded; the old domain still resolves, which is precisely why
+ * this needed changing rather than leaving alone — a link that returns
+ * 200 looks correct forever while quietly sending visitors to a site the
+ * business no longer runs.
+ *
+ * NOT IN `sameAs`. The old entry was, and that was defensible when both
+ * brands were one operation under one trading name. schema.org `sameAs`
+ * asserts "this is another official page of THIS organisation", and
+ * Atlas Pedals is a separate brand with its own domain, its own Search
+ * Console property and its own structured data declaring its own
+ * identity. Claiming it here would tell Google two different
+ * organisations are one, which risks the entity resolution of both.
+ * A footer link is the honest signal and carries the referral just as
+ * well.
+ */
 export const SISTER_SITE = {
-  name: "Morocco Bike & Ski Tours",
-  url: "https://moroccobike-skitours.com",
-  blurb: "Road cycling, mountain biking & ski touring in the Atlas",
+  name: "Atlas Pedals",
+  url: "https://atlaspedals.com",
+  blurb: "Guided mountain bike, e-bike and gravel tours in the High Atlas",
 } as const;
 
 // TripAdvisor listing. Renamed by the owner in Aug 2026 from "Morocco Tours

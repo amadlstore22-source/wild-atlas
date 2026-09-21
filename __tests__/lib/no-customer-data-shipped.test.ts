@@ -93,10 +93,23 @@ describe.skipIf(!inRepo)("customer data cannot be committed", () => {
 
     const offenders: string[] = [];
     for (const f of files) {
-      // The site's own configured inbox is a real gmail address and is meant to
-      // be in the source. Skip the file that legitimately declares it, and this
-      // test, which contains the pattern itself.
-      if (f === "lib/constants.ts" || f.includes("no-customer-data-shipped")) continue;
+      /* The site's own configured inbox is a real gmail address and is meant
+         to be in the source. Skip the file that legitimately declares it, and
+         this test, which contains the pattern itself.
+
+         .githooks/pre-push is the third: it pins the git identity this repo
+         must commit under, so the address is CONFIGURATION, not customer
+         data. The guard exists to stop this repo being pushed to another
+         client's GitHub account, and the email is half of what it checks —
+         the other half being the remote URL. Removing it would disable the
+         check this exclusion exists alongside. */
+      if (
+        f === "lib/constants.ts" ||
+        f === ".githooks/pre-push" ||
+        f.includes("no-customer-data-shipped")
+      ) {
+        continue;
+      }
       let text = "";
       try {
         text = fs.readFileSync(path.join(ROOT, f), "utf8");

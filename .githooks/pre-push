@@ -1,0 +1,109 @@
+#!/bin/sh
+#
+# CROSS-PROJECT PUSH GUARD — Wild Atlas (marrakechecotours.com)
+#
+# THE RISK THIS EXISTS FOR. This machine holds several unrelated sites
+# under C:\Users\cash, each with its own GitHub account:
+#
+#   wild-atlas          ->  amadlstore22-source/wild-atlas
+#   morocco-bike-tours  ->  atlaspedals/atlas-pedals
+#
+# They must never cross. A push to the wrong remote publishes one
+# client's work into another's repository, and on a private repo that is
+# not something you can quietly undo — the commit, its diff and its
+# history are in the wrong account's audit log.
+#
+# WHY A HOOK AND NOT CARE. `git remote set-url`, a stray `git push
+# <url>`, a copied .git directory, or cloning one repo inside another
+# all repoint a push with no visible sign. The commit looks normal, the
+# branch looks normal, and the only difference is a URL nobody re-reads
+# before pressing enter.
+#
+# THERE IS ALSO NO GLOBAL IDENTITY ON THIS MACHINE. `git config --global
+# user.email` is unset, so every repo depends on its own local override.
+# That is deliberate — it stops a default identity leaking into the
+# wrong project — but it means a missing local config is silent until a
+# commit is already authored under the wrong name. Vercel blocks deploys
+# when the commit author is not a project member, which is how this was
+# discovered the first time, AFTER the push.
+#
+# Install (per clone — hooks are not carried by git):
+#   git config core.hooksPath .githooks
+#
+# Bypass, when you genuinely mean it:
+#   git push --no-verify
+
+set -e
+
+EXPECTED_HOST="github.com"
+EXPECTED_REPO="amadlstore22-source/wild-atlas"
+EXPECTED_EMAIL="1wahed.nab2012@gmail.com"
+
+remote_url="$2"
+
+# Normalise: strip scheme, credentials, trailing .git and slash, so that
+# https://, ssh:// and git@ forms of the same repo all compare equal.
+normalise() {
+  printf '%s' "$1" \
+    | sed -e 's#^[a-z+]*://##' \
+          -e 's#^[^@/]*@##' \
+          -e 's#^\([^:/]*\):#\1/#' \
+          -e 's#\.git$##' \
+          -e 's#/$##'
+}
+
+actual=$(normalise "$remote_url")
+expected="$EXPECTED_HOST/$EXPECTED_REPO"
+
+if [ "$actual" != "$expected" ]; then
+  echo ""
+  echo "  PUSH BLOCKED — wrong remote."
+  echo ""
+  echo "    this repo is:  $expected"
+  echo "    pushing to:    $actual"
+  echo ""
+  echo "  This is the Wild Atlas repository (marrakechecotours.com)."
+  echo "  It must NEVER be pushed to lifetimestravel-coder, nor to the"
+  echo "  Atlas Pedals account. That is a standing instruction here."
+  echo ""
+  echo "  If the remote is genuinely wrong, fix it:"
+  echo "    git remote set-url origin https://$expected.git"
+  echo ""
+  exit 1
+fi
+
+# The author identity has to match too. A correct remote with the wrong
+# author is what Vercel rejects at deploy time, after the push has
+# already happened.
+email=$(git config user.email || true)
+
+if [ -z "$email" ]; then
+  echo ""
+  echo "  PUSH BLOCKED — no git user.email is set."
+  echo ""
+  echo "  There is no global identity on this machine, by design, so this"
+  echo "  repo needs its own:"
+  echo "    git config --local user.email \"$EXPECTED_EMAIL\""
+  echo ""
+  exit 1
+fi
+
+if [ "$email" != "$EXPECTED_EMAIL" ]; then
+  echo ""
+  echo "  PUSH BLOCKED — wrong author identity."
+  echo ""
+  echo "    expected:  $EXPECTED_EMAIL"
+  echo "    configured: $email"
+  echo ""
+  echo "  Commits authored under another project's email are rejected by"
+  echo "  Vercel at deploy time, because the author is not a member of"
+  echo "  this project. Fix it before pushing:"
+  echo "    git config --local user.email \"$EXPECTED_EMAIL\""
+  echo ""
+  echo "  Already committed under the wrong email? Re-author the commit:"
+  echo "    git commit --amend --reset-author --no-edit"
+  echo ""
+  exit 1
+fi
+
+exit 0

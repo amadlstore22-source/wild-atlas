@@ -170,7 +170,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Gorges du Dadès", lat: 31.5203, lng: -5.9906 },
         title: "Marrakech → Aït Ben Haddou → Gorges du Dadès",
         description:
-          "Départ de Marrakech à 7h00 et franchissement du col du Tizi n'Tichka (2 260 m) à travers le Haut Atlas. Visite du ksar d'Aït Ben Haddou, classé à l'UNESCO, puis route au-delà de Ouarzazate le long de la Vallée des Mille Kasbahs. Nuit dans les gorges du Dadès.",
+          "Départ de Marrakech à 7h00 et franchissement du col du Tizi n'Tichka (2 260 m) à travers le Haut Atlas. Visite du ksar d'Aït Ben Haddou, classé à l'UNESCO — la kasbah de Game of Thrones et Gladiator, le lieu de tournage le plus filmé d'Afrique — puis route au-delà de Ouarzazate, capitale marocaine du cinéma, le long de la Vallée des Mille Kasbahs. Nuit dans les gorges du Dadès.",
       },
       {
         day: 2,
@@ -508,7 +508,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Départ à 7h30. Ascension de l'Atlas par le Tizi n'Tichka. Visite d'Aït Ben Haddou. Poursuite par la vallée du Ziz jusqu'à Midelt pour la nuit.",
+          "Départ à 7h30. Ascension de l'Atlas par le Tizi n'Tichka. Visite d'Aït Ben Haddou, la kasbah de Game of Thrones et Gladiator. Poursuite par la vallée du Ziz jusqu'à Midelt pour la nuit.",
       },
       {
         day: 2,
@@ -1404,7 +1404,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakech → Aït Ben Haddou → Vallée du Drâa → Camp de Zagora",
         description:
-          "Prise en charge à votre hébergement de Marrakech à 7h00. Franchissement du col du Tizi n'Tichka et arrêt au ksar d'Aït Ben Haddou classé UNESCO. Déjeuner à Ouarzazate. Route vers le sud à travers toute la longueur de l'oasis de la vallée du Drâa — palmeraies, villages en pisé et anciennes kasbahs-greniers bordant la route. Arrêt à Tamegroute pour découvrir la bibliothèque du XIVe siècle et les célèbres ateliers de poterie verte. Arrivée au camp du désert près de Zagora en fin d'après-midi. En selle sur un chameau pour la balade au coucher du soleil à travers les dunes. Dîner berbère traditionnel et musique autour du feu de camp.",
+          "Prise en charge à votre hébergement de Marrakech à 7h00. Franchissement du col du Tizi n'Tichka et arrêt au ksar d'Aït Ben Haddou classé UNESCO — la kasbah de Game of Thrones et Gladiator. Déjeuner à Ouarzazate, capitale marocaine du cinéma. Route vers le sud à travers toute la longueur de l'oasis de la vallée du Drâa — palmeraies, villages en pisé et anciennes kasbahs-greniers bordant la route. Arrêt à Tamegroute pour découvrir la bibliothèque du XIVe siècle et les célèbres ateliers de poterie verte. Arrivée au camp du désert près de Zagora en fin d'après-midi. En selle sur un chameau pour la balade au coucher du soleil à travers les dunes. Dîner berbère traditionnel et musique autour du feu de camp.",
       },
       {
         day: 2,
@@ -1414,7 +1414,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Lever de soleil sur les dunes → Vallée du Drâa → Marrakech",
         description:
-          "Marche matinale ou balade à dos de chameau facultative pour le lever de soleil sur le désert. Petit-déjeuner au camp. Départ à 8h30 à travers l'oasis de la vallée du Drâa dans la lumière du matin — une atmosphère très différente de l'après-midi. Halte déjeuner à Ouarzazate ou en chemin. Retour par le Haut Atlas. Arrivée à Marrakech vers 18h30.",
+          "Marche matinale ou balade à dos de chameau facultative pour le lever de soleil sur le désert. Petit-déjeuner au camp. Départ à 8h30 à travers l'oasis de la vallée du Drâa dans la lumière du matin — une atmosphère très différente de l'après-midi. Halte déjeuner à Ouarzazate, capitale marocaine du cinéma et siège des studios de l'Atlas, ou en chemin. Retour par le Haut Atlas. Arrivée à Marrakech vers 18h30.",
       },
     ],
     faq: [
@@ -1490,7 +1490,7 @@ export const TOURS: Tour[] = [
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
-          "Prise en charge à 7h00. Franchissement du col du Tizi n'Tichka et visite d'Aït Ben Haddou. Poursuite vers le sud via Ouarzazate et la vallée du safran près de Taliouine — capitale marocaine du safran — pour une courte halte. Poursuite vers M'Hamid, dernière ville avant le Sahara à ciel ouvert. Dîner et nuit à M'Hamid.",
+          "Prise en charge à 7h00. Franchissement du col du Tizi n'Tichka et visite d'Aït Ben Haddou. Poursuite vers le sud via Ouarzazate — capitale marocaine du cinéma, siège des studios de l'Atlas — et la vallée du safran près de Taliouine — capitale marocaine du safran — pour une courte halte. Poursuite vers M'Hamid, dernière ville avant le Sahara à ciel ouvert. Dîner et nuit à M'Hamid.",
       },
       {
         day: 2,
@@ -1796,7 +1796,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Lever de soleil → Tamegroute → Vallée du Drâa → Agadir",
         description:
-          "Balade matinale facultative à dos de chameau pour le lever du soleil. Petit-déjeuner au camp. Arrêt à Tamegroute — un village doté d'une bibliothèque coranique du XIVe siècle abritant des manuscrits enluminés et une célèbre coopérative de poterie vernissée verte. Route vers le nord à travers toute la longueur de la vallée du Drâa dans la lumière matinale. Retour via Ouarzazate jusqu'à Agadir. Arrivée vers 18h30.",
+          "Balade matinale facultative à dos de chameau pour le lever du soleil. Petit-déjeuner au camp. Arrêt à Tamegroute — un village doté d'une bibliothèque coranique du XIVe siècle abritant des manuscrits enluminés et une célèbre coopérative de poterie vernissée verte. Route vers le nord à travers toute la longueur de la vallée du Drâa dans la lumière matinale. Retour via Ouarzazate, capitale marocaine du cinéma, jusqu'à Agadir. Arrivée vers 18h30.",
       },
     ],
     faq: [
@@ -2072,7 +2072,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Ascension de l'Atlas par le Tizi n'Tichka. Visite d'Aït Ben Haddou. Poursuite par la vallée du Ziz jusqu'à Midelt pour la nuit.",
+          "Ascension de l'Atlas par le Tizi n'Tichka. Visite d'Aït Ben Haddou, la kasbah de Game of Thrones et Gladiator. Poursuite par la vallée du Ziz jusqu'à Midelt pour la nuit.",
       },
       {
         day: 3,

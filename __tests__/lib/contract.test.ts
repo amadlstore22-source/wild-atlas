@@ -145,11 +145,28 @@ describe("terms", () => {
     expect(text(en)).toMatch(/50% fee/);
   });
 
-  it("names which language governs, in both editions", () => {
-    // Two signed documents in two languages need one to prevail, or a
-    // translation slip becomes a second set of obligations.
-    expect(text(es)).toMatch(/prevalece la versión española/);
-    expect(text(en)).toMatch(/Spanish version prevails/);
+  it("does not claim to be a translation of another language's original", () => {
+    /**
+     * REVERSED DELIBERATELY. This used to assert the opposite — that every
+     * edition carried a clause naming Spanish as the governing version. The
+     * reasoning was sound while every sale was Spanish: two signed documents
+     * in two languages need one to prevail.
+     *
+     * It stopped being true. A contract sold entirely in French printed
+     * "This contract is signed in Spanish … the Spanish version prevails"
+     * on a booking for which no Spanish edition was ever generated, so the
+     * client was pointed at a governing original that did not exist.
+     *
+     * The clause was removed rather than made per-language, because a term
+     * describing the document's own provenance has to be re-verified on
+     * every sale and buys the client nothing. Each edition is now simply
+     * written in the language the sale happened in.
+     *
+     * __tests__/lib/contract-language-claims.test.ts asserts this across
+     * every supported language.
+     */
+    expect(text(es)).not.toMatch(/prevalece la versión española/);
+    expect(text(en)).not.toMatch(/Spanish version prevails/);
   });
 
   it("says bank details are sent separately when none are supplied", () => {

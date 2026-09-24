@@ -389,7 +389,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
         title: "Marrakech → Aït Ben Haddou → Dades Gorges",
         description:
-          "Depart Marrakech at 7:00 am and cross the Tizi n'Tichka pass (2,260 m) through the High Atlas. Visit the UNESCO Ksar of Aït Ben Haddou, then continue past Ouarzazate and along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
+          "Depart Marrakech at 7:00 am and cross the Tizi n'Tichka pass (2,260 m) through the High Atlas. Visit the UNESCO Ksar of Aït Ben Haddou — the Game of Thrones and Gladiator kasbah, and the most-filmed location in Africa — then continue past Ouarzazate, Morocco's film capital, and along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
       },
       {
         day: 2,
@@ -1740,7 +1740,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
-          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou. Continue to Midelt for the night in the high plains between the two Atlas ranges.",
+          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou, the Game of Thrones and Gladiator kasbah and the most-filmed location in Africa. Continue past Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — to Midelt for the night in the high plains between the two Atlas ranges.",
       },
       {
         day: 2,
@@ -1884,7 +1884,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Sunrise over the Dunes → Draa Valley → Marrakech",
         description:
-          "Early morning walk or optional camel ride for the desert sunrise. Breakfast at camp. Depart 8:30 am through the Draa Valley oasis in the morning light — a very different atmosphere from the afternoon. Lunch stop in Ouarzazate or en route. Cross back over the High Atlas. Arrive Marrakech by 6:30 pm.",
+          "Early morning walk or optional camel ride for the desert sunrise. Breakfast at camp. Depart 8:30 am through the Draa Valley oasis in the morning light — a very different atmosphere from the afternoon. Lunch stop in Ouarzazate, Morocco's film capital and home to the Atlas Film Studios, or en route. Cross back over the High Atlas. Arrive Marrakech by 6:30 pm.",
       },
     ],
     faq: [
@@ -1980,7 +1980,7 @@ export const TOURS: Tour[] = [
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
-          "Pick-up at 7:00 am. Cross the Tizi n'Tichka pass and visit Aït Ben Haddou. Continue south through Ouarzazate and into the Saffron Valley near Taliouine — Morocco's saffron capital — for a short stop. Continue to M'Hamid, the last town before the open Sahara. Dinner and overnight in M'Hamid.",
+          "Pick-up at 7:00 am. Cross the Tizi n'Tichka pass and visit Aït Ben Haddou. Continue south through Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — and into the Saffron Valley near Taliouine — Morocco's saffron capital — for a short stop. Continue to M'Hamid, the last town before the open Sahara. Dinner and overnight in M'Hamid.",
       },
       {
         day: 2,
@@ -2189,7 +2189,7 @@ export const TOURS: Tour[] = [
       "/gallery/camels-resting-dune-golden-hour.jpg",
     ],
     shortDescription:
-      "From Agadir's Atlantic coast to the Sahara's most iconic dune field — through Taroudant, Taliouine, Aït Ben Haddou, and Todra Gorge to a sunset camel trek on Erg Chebbi.",
+      "From Agadir's Atlantic coast to the Sahara's most iconic dune field — through Taroudant, Taliouine, Aït Ben Haddou — the Game of Thrones and Gladiator kasbah — and Todra Gorge to a sunset camel trek on Erg Chebbi.",
     description:
       "Most Sahara tours leave from Marrakech. This one starts from Agadir — and the southern route adds two places most tourists miss: Taroudant, Morocco's best-preserved medieval rampart city, and Taliouine, the saffron capital of the world. From there the itinerary follows the classic route east through Ouarzazate, Aït Ben Haddou, and Todra Gorge before delivering you to Erg Chebbi — the Sahara's most dramatic dune field — in time for the sunset camel trek. Three days that cover the full width of southern Morocco.",
     highlights: [
@@ -2337,7 +2337,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Sunrise → Tamegroute → Draa Valley → Agadir",
         description:
-          "Optional early morning camel ride for the sunrise. Breakfast at camp. Stop at Tamegroute — a village with a 14th-century Koranic library housing hand-illuminated manuscripts and a famous green-glazed pottery cooperative. Drive north through the full length of the Draa Valley in the morning light. Return through Ouarzazate and back to Agadir. Arrive by 6:30 pm.",
+          "Optional early morning camel ride for the sunrise. Breakfast at camp. Stop at Tamegroute — a village with a 14th-century Koranic library housing hand-illuminated manuscripts and a famous green-glazed pottery cooperative. Drive north through the full length of the Draa Valley in the morning light. Return through Ouarzazate, Morocco's film capital, and back to Agadir. Arrive by 6:30 pm.",
       },
     ],
     faq: [
@@ -2440,7 +2440,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Sunrise → M'Hamid → Draa Valley → Agadir",
         description:
-          "Rise before dawn for the full sunrise over the dunes. Breakfast at camp. The 4x4 returns across the desert to M'Hamid. Drive north through the Draa Valley — one of the most beautiful drives in Morocco — and back to Agadir via Zagora and Ouarzazate. Arrive Agadir by 8:00 pm.",
+          "Rise before dawn for the full sunrise over the dunes. Breakfast at camp. The 4x4 returns across the desert to M'Hamid. Drive north through the Draa Valley — one of the most beautiful drives in Morocco — and back to Agadir via Zagora and Ouarzazate, Morocco's film capital. Arrive Agadir by 8:00 pm.",
       },
     ],
     faq: [
@@ -2875,7 +2875,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
         description:
-          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou. Continue to Midelt for the night in the high plains between the two Atlas ranges.",
+          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou, the Game of Thrones and Gladiator kasbah and the most-filmed location in Africa. Continue past Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — to Midelt for the night in the high plains between the two Atlas ranges.",
       },
       {
         day: 3,
@@ -4352,7 +4352,7 @@ export const TOURS: Tour[] = [
         day: 2,
         title: "Marrakech → Draa Valley — meeting the caravan",
         description:
-          "The long drive south over the Tizi n’Tichka pass, through Ouarzazate and down the Draa Valley past Agdz and Zagora. In the late afternoon you leave the road at Faija to meet the camels, the handlers and the cook. First night under canvas, with the caravan loaded and ready.",
+          "The long drive south over the Tizi n’Tichka pass, through Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — and down the Draa Valley past Agdz and Zagora. In the late afternoon you leave the road at Faija to meet the camels, the handlers and the cook. First night under canvas, with the caravan loaded and ready.",
         stop: { name: "Draa Valley (Faija)", lat: 30.3167, lng: -5.8375 },
         meals: "B,L,D",
         stay: "Mobile desert camp",
@@ -4509,7 +4509,7 @@ export const TOURS: Tour[] = [
         distance: "≈420 km",
         title: "Marrakech → Aït Ben Haddou → Dades Gorges",
         description:
-          "Depart Marrakech around 7:00 am and cross the Tizi n'Tichka pass. Stop at Aït Ben Haddou and Ouarzazate, then continue along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
+          "Depart Marrakech around 7:00 am and cross the Tizi n'Tichka pass. Stop at Aït Ben Haddou — the Game of Thrones and Gladiator kasbah — and at Ouarzazate, Morocco's film capital, then continue along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
         stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
       },
       {
@@ -4600,7 +4600,7 @@ export const TOURS: Tour[] = [
         distance: "≈360 km",
         title: "Marrakech → Aït Ben Haddou → Zagora",
         description:
-          "Early departure over the Tizi n'Tichka. Stops at Aït Ben Haddou and Ouarzazate, then south through the Draa Valley. Camel ride into the dunes at sunset, dinner at camp.",
+          "Early departure over the Tizi n'Tichka. Stops at Aït Ben Haddou — the Game of Thrones and Gladiator kasbah — and at Ouarzazate, Morocco's film capital, then south through the Draa Valley. Camel ride into the dunes at sunset, dinner at camp.",
         stop: { name: "Zagora, Draa Valley", lat: 30.3323, lng: -5.8366 },
       },
       {
@@ -4911,7 +4911,7 @@ export const TOURS: Tour[] = [
         distance: "~330 km",
         title: "Imlil to Ait Ben Haddou and the Dades Gorges",
         description:
-          "Leave the mountains over the Tizi n'Tichka pass and stop at Ait Ben Haddou, the UNESCO-listed kasbah on the old Saharan caravan route. Continue through Ouarzazate to the Dades Gorges for the night.",
+          "Leave the mountains over the Tizi n'Tichka pass and stop at Ait Ben Haddou, the UNESCO-listed kasbah on the old Saharan caravan route. Continue through Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — to the Dades Gorges for the night.",
         stop: { name: "Ait Ben Haddou", lat: 31.0472, lng: -7.1319 },
       },
       {

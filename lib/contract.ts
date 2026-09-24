@@ -28,7 +28,7 @@ export interface ContractDay {
   body: string;
 }
 
-export type ContractLang = "es" | "en";
+export type ContractLang = "es" | "en" | "fr";
 
 export interface ContractInput {
   /** Document language. The Spanish original is the one the client signs. */
@@ -59,10 +59,16 @@ export interface ContractInput {
 /**
  * Document strings, per language.
  *
- * The Spanish text is the original — it is the language the sale was negotiated
- * in and the version the client signs. The English is a faithful translation
- * for the operator's own file and for travellers who read English. Where the
- * two could ever diverge, Spanish governs, and clause 9 says so in both.
+ * Each edition is written in the language the sale was negotiated in, and that
+ * is the edition the client signs. A second edition is a faithful translation
+ * for the operator's own file.
+ *
+ * NO GOVERNING-LANGUAGE CLAUSE. Every edition used to end with one asserting
+ * that the contract "is signed in Spanish" and that Spanish prevails. On a
+ * trip sold in French — with no Spanish edition in existence — that clause was
+ * simply untrue, and it printed on the client's PDF. A term stating a fact
+ * about the document that the document itself contradicts is worse than no
+ * term at all, so it was removed rather than reworded per language.
  *
  * The cancellation wording is copied verbatim from the site's own FAQ
  * (dictionaries/es.json and en.json, contact.faq4A) so the contract can never
@@ -104,16 +110,15 @@ const T = {
     clientRole: "Cliente · Fecha",
     footer:
       "Precios en euros. Este documento recoge las condiciones acordadas por correo electrónico y sustituye a cualquier acuerdo previo sobre el mismo viaje. La conformidad del cliente puede expresarse por correo electrónico o mediante firma.",
-    terms: (dep: string, bal: string, lang: string) => [
+    terms: (dep: string, bal: string, lang: string, days: number) => [
       `<strong>Confirmación.</strong> La reserva queda confirmada en el momento en que se recibe el depósito de ${dep}. El resto, ${bal}, se abona a la llegada, en efectivo o con tarjeta.`,
       `<strong>Cancelación gratuita hasta 14 días antes de la salida.</strong> Las cancelaciones dentro de los 14 días previos están sujetas a una tarifa del 50 %. La no presentación se cobra íntegramente. <em>Estas son las mismas condiciones publicadas en marrakechecotours.com.</em>`,
-      `<strong>Idioma.</strong> El conductor-guía habla ${lang} y acompaña al grupo durante los tres días completos. No se trata de una persona distinta en cada tramo.`,
+      `<strong>Idioma.</strong> El conductor-guía habla ${lang} y acompaña al grupo durante los ${days} días completos. No se trata de una persona distinta en cada tramo.`,
       `<strong>Alojamiento.</strong> Los establecimientos indicados arriba están garantizados. Si por causa de fuerza mayor alguno no estuviera disponible, se sustituirá por otro de categoría igual o superior, previa comunicación al cliente.`,
       `<strong>Vehículo privado.</strong> El grupo viaja solo, sin otros viajeros, durante todo el recorrido.`,
       `<strong>Modificaciones del itinerario.</strong> El itinerario podrá ajustarse únicamente por motivos de seguridad, meteorología o cierre de carreteras. Cualquier cambio se comunicará al cliente y no supondrá reducción de los servicios contratados.`,
       `<strong>Seguro de viaje.</strong> No está incluido y se recomienda encarecidamente. Sugerimos una póliza que cubra cancelación, gastos médicos y evacuación de emergencia.`,
       `<strong>Responsabilidad.</strong> El organizador responde de los servicios descritos en este documento. No responde de gastos derivados de retrasos de vuelos, pérdida de equipaje por terceros ni de circunstancias ajenas a su control.`,
-      `<strong>Idioma del contrato.</strong> Este contrato se firma en español. La traducción al inglés se facilita únicamente a título informativo; en caso de discrepancia, prevalece la versión española.`,
     ],
   },
   en: {
@@ -150,16 +155,71 @@ const T = {
     clientRole: "Client · Date",
     footer:
       "Prices in euro. This document records the terms agreed by email and supersedes any previous agreement covering the same trip. The client may confirm acceptance by email or by signature.",
-    terms: (dep: string, bal: string, lang: string) => [
+    terms: (dep: string, bal: string, lang: string, days: number) => [
       `<strong>Confirmation.</strong> The booking is confirmed once the deposit of ${dep} is received. The balance of ${bal} is paid on arrival, in cash or by card.`,
       `<strong>Free cancellation up to 14 days before departure.</strong> Cancellations within 14 days are subject to a 50% fee. No-shows are charged in full. <em>These are the same terms published on marrakechecotours.com.</em>`,
-      `<strong>Language.</strong> The driver-guide speaks ${lang} and accompanies the group for all three full days. This is not a different person on each leg.`,
+      `<strong>Language.</strong> The driver-guide speaks ${lang} and accompanies the group for all ${days} full days. This is not a different person on each leg.`,
       `<strong>Accommodation.</strong> The properties named above are guaranteed. Should one become unavailable through force majeure, it will be replaced by one of equal or higher standard, and the client informed beforehand.`,
       `<strong>Private vehicle.</strong> The group travels alone, with no other travellers, for the whole route.`,
       `<strong>Itinerary changes.</strong> The itinerary may be adjusted only for reasons of safety, weather or road closure. Any change will be communicated to the client and will not reduce the services contracted.`,
       `<strong>Travel insurance.</strong> Not included, and strongly recommended. We suggest a policy covering cancellation, medical expenses and emergency evacuation.`,
       `<strong>Liability.</strong> The operator is responsible for the services described in this document. It is not liable for costs arising from flight delays, baggage lost by third parties, or circumstances beyond its control.`,
-      `<strong>Contract language.</strong> This contract is signed in Spanish. The English translation is provided for information only; in the event of any discrepancy, the Spanish version prevails.`,
+    ],
+  },
+  /**
+   * French edition.
+   *
+   * ADDED FOR A SALE NEGOTIATED ENTIRELY IN FRENCH. Where the whole
+   * quotation, the itinerary and the price were argued in French, the French
+   * text IS the agreement — not a courtesy translation of something else.
+   *
+   * The rule is: the contract is written in the language the sale happened
+   * in. A client cannot be bound by a version they never read.
+   */
+  fr: {
+    htmlLang: "fr",
+    locale: "fr-FR",
+    docTitle: "Contrat de réservation",
+    subtitle: "Agence de voyage agréée",
+    issued: (d: string) => `Émis le ${d}`,
+    parties: "Parties contractantes",
+    organiser: "Organisateur",
+    client: "Client",
+    travellersLine: (n: number) => `${n} voyageurs`,
+    object: "Objet du contrat",
+    tour: "Circuit",
+    departure: "Départ",
+    ret: "Retour",
+    travellersK: "Voyageurs",
+    mode: "Formule",
+    modePrivate: "Privé",
+    guideLang: "Langue du guide",
+    itinerary: "Itinéraire",
+    accommodation: "Hébergement",
+    services: "Prestations",
+    included: "Compris",
+    notIncluded: "Non compris",
+    priceHeading: "Prix et modalités de paiement",
+    totalFor: (n: number) => `Prix total (${n} personnes)`,
+    depositRow: "Acompte à la confirmation",
+    balanceRow: "Solde le premier jour",
+    bankLabel: "Coordonnées pour le virement",
+    bankSeparate:
+      "Les coordonnées bancaires sont envoyées par courriel séparé, par sécurité.",
+    conditions: "Conditions",
+    organiserRole: "Organisateur",
+    clientRole: "Client · Date",
+    footer:
+      "Prix en euros. Ce document reprend les conditions convenues par courriel et remplace tout accord antérieur portant sur le même voyage. Le client peut donner son accord par courriel ou par signature.",
+    terms: (dep: string, bal: string, lang: string, days: number) => [
+      `<strong>Confirmation.</strong> La réservation est confirmée dès réception de l'acompte de ${dep}. Le solde, ${bal}, se règle le premier jour, en espèces ou par virement préalable.`,
+      `<strong>Annulation gratuite jusqu'à 14 jours avant le départ.</strong> Les annulations dans les 14 jours précédant le départ sont soumises à des frais de 50 %. En cas de non-présentation, la totalité est due. <em>Ce sont les conditions publiées sur marrakechecotours.com.</em>`,
+      `<strong>Langue.</strong> Le chauffeur-guide parle ${lang} et accompagne le groupe pendant les ${days} journées complètes. Il ne s'agit pas d'une personne différente sur chaque étape.`,
+      `<strong>Hébergement.</strong> Les établissements indiqués ci-dessus sont garantis. Si l'un d'eux devenait indisponible pour cause de force majeure, il serait remplacé par un établissement de catégorie égale ou supérieure, le client en étant informé au préalable.`,
+      `<strong>Véhicule privé.</strong> Le groupe voyage seul, sans autres voyageurs, pendant tout le circuit.`,
+      `<strong>Modifications de l'itinéraire.</strong> L'itinéraire ne peut être ajusté que pour des raisons de sécurité, de météo ou de fermeture de route. Tout changement est communiqué au client et n'entraîne aucune réduction des prestations contractées.`,
+      `<strong>Assurance voyage.</strong> Non comprise, et vivement recommandée. Nous suggérons une police couvrant l'annulation, les frais médicaux et l'évacuation d'urgence.`,
+      `<strong>Responsabilité.</strong> L'organisateur répond des prestations décrites dans ce document. Il ne répond pas des frais résultant de retards de vols, de la perte de bagages par des tiers, ni de circonstances indépendantes de sa volonté.`,
     ],
   },
 } as const;
@@ -175,9 +235,10 @@ function esc(s: string): string {
 function eur(cents: number, lang: ContractLang): string {
   const whole = Math.floor(cents / 100).toLocaleString(T[lang].locale);
   const frac = String(cents % 100).padStart(2, "0");
-  // Spanish writes "850,00 €"; English "€850.00". Getting this wrong makes the
-  // document read as machine-translated on the one page where money matters.
-  return lang === "es" ? `${whole},${frac} €` : `€${whole}.${frac}`;
+  // Spanish and French write "850,00 €" with the symbol trailing; English
+  // writes "€850.00". Getting this wrong makes the document read as
+  // machine-translated on the one page where money matters.
+  return lang === "en" ? `€${whole}.${frac}` : `${whole},${frac} €`;
 }
 
 function fmt(iso: string, lang: ContractLang): string {
@@ -404,7 +465,7 @@ export function renderContractHtml(c: ContractInput): string {
 
   <h2>${t.conditions}</h2>
   <ol class="terms">
-    ${t.terms(money(c.deposit), money(balance), esc(lang === "es" ? c.guideLanguage.toLowerCase() : c.guideLanguage)).map((x) => `<li>${x}</li>`).join("")}
+    ${t.terms(money(c.deposit), money(balance), esc(lang === "es" ? c.guideLanguage.toLowerCase() : c.guideLanguage), c.days.length).map((x) => `<li>${x}</li>`).join("")}
   </ol>
 
   <div class="sign">

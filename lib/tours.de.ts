@@ -161,7 +161,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Dades-Schlucht", lat: 31.5203, lng: -5.9906 },
         title: "Marrakesch → Aït Ben Haddou → Dades-Schlucht",
         description:
-          "Abfahrt in Marrakesch um 7:00 Uhr und Überquerung des Tizi-n'Tichka-Passes (2.260 m) durch den Hohen Atlas. Besuch des UNESCO-Weltkulturerbes Ksar Aït Ben Haddou, dann weiter an Ouarzazate vorbei entlang des Tals der tausend Kasbahs. Übernachtung in der Dades-Schlucht.",
+          "Abfahrt in Marrakesch um 7:00 Uhr und Überquerung des Tizi-n'Tichka-Passes (2.260 m) durch den Hohen Atlas. Besuch des UNESCO-Weltkulturerbes Ksar Aït Ben Haddou — die Kasbah aus Game of Thrones und Gladiator und der meistgefilmte Ort Afrikas — dann weiter an Ouarzazate vorbei, Marokkos Filmhauptstadt, entlang des Tals der tausend Kasbahs. Übernachtung in der Dades-Schlucht.",
       },
       {
         day: 2,
@@ -499,7 +499,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakesch → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Abfahrt um 7:30 Uhr. Aufstieg über den Atlas via Tizi n'Tichka. Besuch von Aït Ben Haddou. Weiterfahrt durch das Ziz-Tal nach Midelt zur Übernachtung.",
+          "Abfahrt um 7:30 Uhr. Aufstieg über den Atlas via Tizi n'Tichka. Besuch von Aït Ben Haddou, der Kasbah aus Game of Thrones und Gladiator. Weiterfahrt durch das Ziz-Tal nach Midelt zur Übernachtung.",
       },
       {
         day: 2,
@@ -1395,7 +1395,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakesch → Aït Ben Haddou → Draa-Tal → Zagora-Camp",
         description:
-          "Abholung von Ihrer Unterkunft in Marrakesch um 7:00 Uhr. Überquerung des Tizi-n'-Tichka-Passes mit Stopp an der UNESCO-Ksar Aït Ben Haddou. Mittagessen in Ouarzazate. Fahrt nach Süden durch die gesamte Länge der Draa-Tal-Oase — Palmenhaine, Lehmziegeldörfer und alte Speicher-Kasbahs säumen die Straße. Stopp in Tamegroute für die Bibliothek aus dem 14. Jahrhundert und die berühmten Töpferwerkstätten mit grüner Glasur. Ankunft im Wüstencamp bei Zagora am späten Nachmittag. Kamelritt bei Sonnenuntergang über die Dünen. Traditionelles Berber-Abendessen mit Musik am Lagerfeuer.",
+          "Abholung von Ihrer Unterkunft in Marrakesch um 7:00 Uhr. Überquerung des Tizi-n'-Tichka-Passes mit Stopp an der UNESCO-Ksar Aït Ben Haddou — die Kasbah aus Game of Thrones und Gladiator. Mittagessen in Ouarzazate, Marokkos Filmhauptstadt. Fahrt nach Süden durch die gesamte Länge der Draa-Tal-Oase — Palmenhaine, Lehmziegeldörfer und alte Speicher-Kasbahs säumen die Straße. Stopp in Tamegroute für die Bibliothek aus dem 14. Jahrhundert und die berühmten Töpferwerkstätten mit grüner Glasur. Ankunft im Wüstencamp bei Zagora am späten Nachmittag. Kamelritt bei Sonnenuntergang über die Dünen. Traditionelles Berber-Abendessen mit Musik am Lagerfeuer.",
       },
       {
         day: 2,
@@ -1481,7 +1481,7 @@ export const TOURS: Tour[] = [
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakesch → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
-          "Abholung um 7:00 Uhr. Überquerung des Tizi-n'-Tichka-Passes und Besuch von Aït Ben Haddou. Weiterfahrt südlich durch Ouarzazate und ins Safrantal bei Taliouine — Marokkos Safranhauptstadt — für einen kurzen Stopp. Weiterfahrt nach M'Hamid, dem letzten Ort vor der offenen Sahara. Abendessen und Übernachtung in M'Hamid.",
+          "Abholung um 7:00 Uhr. Überquerung des Tizi-n'-Tichka-Passes und Besuch von Aït Ben Haddou. Weiterfahrt südlich durch Ouarzazate — Marokkos Filmhauptstadt — und ins Safrantal bei Taliouine — Marokkos Safranhauptstadt — für einen kurzen Stopp. Weiterfahrt nach M'Hamid, dem letzten Ort vor der offenen Sahara. Abendessen und Übernachtung in M'Hamid.",
       },
       {
         day: 2,
@@ -2063,7 +2063,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakesch → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Aufstieg über den Atlas via Tizi n'Tichka. Besuch von Aït Ben Haddou. Weiterfahrt durch das Ziz-Tal nach Midelt zur Übernachtung.",
+          "Aufstieg über den Atlas via Tizi n'Tichka. Besuch von Aït Ben Haddou, der Kasbah aus Game of Thrones und Gladiator. Weiterfahrt durch das Ziz-Tal nach Midelt zur Übernachtung.",
       },
       {
         day: 3,

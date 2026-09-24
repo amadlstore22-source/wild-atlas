@@ -161,7 +161,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Gole del Dades", lat: 31.5203, lng: -5.9906 },
         title: "Marrakech → Aït Ben Haddou → Gole del Dades",
         description:
-          "Partenza da Marrakech alle 7:00 e attraversamento del passo Tizi n'Tichka (2.260 m) sull'Alto Atlante. Visita allo Ksar di Aït Ben Haddou, patrimonio UNESCO, poi proseguimento oltre Ouarzazate lungo la Valle delle Mille Kasbah. Notte nelle gole del Dades.",
+          "Partenza da Marrakech alle 7:00 e attraversamento del passo Tizi n'Tichka (2.260 m) sull'Alto Atlante. Visita allo Ksar di Aït Ben Haddou, patrimonio UNESCO — la kasbah di Game of Thrones e Gladiator, il luogo più filmato d'Africa — poi proseguimento oltre Ouarzazate, capitale del cinema marocchino, lungo la Valle delle Mille Kasbah. Notte nelle gole del Dades.",
       },
       {
         day: 2,
@@ -499,7 +499,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Partenza alle 7:30. Salita sull'Atlante via Tizi n'Tichka. Visita di Aït Ben Haddou. Proseguimento attraverso la Valle dello Ziz fino a Midelt per la notte.",
+          "Partenza alle 7:30. Salita sull'Atlante via Tizi n'Tichka. Visita di Aït Ben Haddou, la kasbah di Game of Thrones e Gladiator. Proseguimento attraverso la Valle dello Ziz fino a Midelt per la notte.",
       },
       {
         day: 2,
@@ -1395,7 +1395,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakech → Aït Ben Haddou → Valle del Draa → Campo di Zagora",
         description:
-          "Ritiro presso il tuo alloggio a Marrakech alle 7:00. Attraversamento del passo Tizi n'Tichka e sosta al Ksar patrimonio UNESCO di Aït Ben Haddou. Pranzo a Ouarzazate. Discesa verso sud lungo tutta l'oasi della Valle del Draa — palmeti, villaggi in mattoni di fango e antiche kasbah-granaio lungo la strada. Sosta a Tamegroute per vedere la biblioteca del XIV secolo e i celebri laboratori di ceramica verde. Arrivo al campo nel deserto vicino a Zagora nel tardo pomeriggio. Salita in sella al cammello per la cavalcata al tramonto tra le dune. Cena berbera tradizionale e musica attorno al fuoco.",
+          "Ritiro presso il tuo alloggio a Marrakech alle 7:00. Attraversamento del passo Tizi n'Tichka e sosta al Ksar patrimonio UNESCO di Aït Ben Haddou — la kasbah di Game of Thrones e Gladiator. Pranzo a Ouarzazate, capitale del cinema marocchino. Discesa verso sud lungo tutta l'oasi della Valle del Draa — palmeti, villaggi in mattoni di fango e antiche kasbah-granaio lungo la strada. Sosta a Tamegroute per vedere la biblioteca del XIV secolo e i celebri laboratori di ceramica verde. Arrivo al campo nel deserto vicino a Zagora nel tardo pomeriggio. Salita in sella al cammello per la cavalcata al tramonto tra le dune. Cena berbera tradizionale e musica attorno al fuoco.",
       },
       {
         day: 2,
@@ -1481,7 +1481,7 @@ export const TOURS: Tour[] = [
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
         title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
         description:
-          "Ritiro alle 7:00. Attraversamento del passo Tizi n'Tichka e visita ad Aït Ben Haddou. Proseguimento verso sud attraverso Ouarzazate e nella Valle dello Zafferano vicino a Taliouine — la capitale marocchina dello zafferano — per una breve sosta. Proseguimento fino a M'Hamid, l'ultima cittadina prima del Sahara aperto. Cena e pernottamento a M'Hamid.",
+          "Ritiro alle 7:00. Attraversamento del passo Tizi n'Tichka e visita ad Aït Ben Haddou. Proseguimento verso sud attraverso Ouarzazate — capitale del cinema marocchino — e nella Valle dello Zafferano vicino a Taliouine — la capitale marocchina dello zafferano — per una breve sosta. Proseguimento fino a M'Hamid, l'ultima cittadina prima del Sahara aperto. Cena e pernottamento a M'Hamid.",
       },
       {
         day: 2,
@@ -2063,7 +2063,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Salita sull'Atlante via Tizi n'Tichka. Visita di Aït Ben Haddou. Proseguimento attraverso la Valle dello Ziz fino a Midelt per la notte.",
+          "Salita sull'Atlante via Tizi n'Tichka. Visita di Aït Ben Haddou, la kasbah di Game of Thrones e Gladiator. Proseguimento attraverso la Valle dello Ziz fino a Midelt per la notte.",
       },
       {
         day: 3,

@@ -54,7 +54,7 @@
     "Seguro de viaje (recomendado)"
   ],
   "en": {
-    "_comment": "English edition. Only the prose differs — reference, dates and money come from the shared fields above, so the two documents cannot disagree on anything a customer would dispute. Clause 9 in both states the Spanish governs.",
+    "_comment": "English edition. Only the prose differs — reference, dates and money come from the shared fields above, so the two documents cannot disagree on anything a customer would dispute.",
     "tourTitle": "Marrakech to Merzouga — 3-day desert tour (private)",
     "guideLanguage": "Spanish",
     "days": [

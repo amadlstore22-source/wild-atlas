@@ -161,7 +161,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Gargantas del Dades", lat: 31.5203, lng: -5.9906 },
         title: "Marrakech → Aït Ben Haddou → Gargantas del Dades",
         description:
-          "Salida de Marrakech a las 7:00 y cruce del puerto de Tizi n'Tichka (2.260 m) por el Alto Atlas. Visita al Ksar de Aït Ben Haddou, Patrimonio de la Humanidad, y continuación más allá de Uarzazate por el Valle de las Mil Kasbahs. Noche en las gargantas del Dades.",
+          "Salida de Marrakech a las 7:00 y cruce del puerto de Tizi n'Tichka (2.260 m) por el Alto Atlas. Visita al Ksar de Aït Ben Haddou, Patrimonio de la Humanidad — la kasbah de Juego de Tronos y Gladiator, el lugar más filmado de África — y continuación más allá de Uarzazate, la capital del cine de Marruecos, por el Valle de las Mil Kasbahs. Noche en las gargantas del Dades.",
       },
       {
         day: 2,
@@ -499,7 +499,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Salida a las 7:30. Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
+          "Salida a las 7:30. Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou, la kasbah de Juego de Tronos y Gladiator. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
       },
       {
         day: 2,
@@ -1395,7 +1395,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Zagora", lat: 30.332, lng: -5.838 },
         title: "Marrakech → Aït Ben Haddou → Valle del Draa → Campamento de Zagora",
         description:
-          "Recogida en tu alojamiento de Marrakech a las 7:00. Cruce del puerto de Tizi n'Tichka y parada en el Ksar de Aït Ben Haddou, Patrimonio de la UNESCO. Almuerzo en Ouarzazate. Trayecto hacia el sur por toda la extensión del oasis del valle del Draa — palmerales, pueblos de adobe y antiguas kasbahs graneras bordeando la carretera. Parada en Tamegroute para ver la biblioteca del siglo XIV y los famosos talleres de cerámica verde. Llegada al campamento del desierto cerca de Zagora a última hora de la tarde. Paseo en camello al atardecer por las dunas. Cena bereber tradicional y música alrededor de la hoguera.",
+          "Recogida en tu alojamiento de Marrakech a las 7:00. Cruce del puerto de Tizi n'Tichka y parada en el Ksar de Aït Ben Haddou, Patrimonio de la UNESCO — la kasbah de Juego de Tronos y Gladiator. Almuerzo en Ouarzazate, la capital del cine de Marruecos. Trayecto hacia el sur por toda la extensión del oasis del valle del Draa — palmerales, pueblos de adobe y antiguas kasbahs graneras bordeando la carretera. Parada en Tamegroute para ver la biblioteca del siglo XIV y los famosos talleres de cerámica verde. Llegada al campamento del desierto cerca de Zagora a última hora de la tarde. Paseo en camello al atardecer por las dunas. Cena bereber tradicional y música alrededor de la hoguera.",
       },
       {
         day: 2,
@@ -2063,7 +2063,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
-          "Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
+          "Ascenso del Atlas por Tizi n'Tichka. Visita a Aït Ben Haddou, la kasbah de Juego de Tronos y Gladiator. Continuación por el valle del Ziz hasta Midelt para pasar la noche.",
       },
       {
         day: 3,

@@ -133,6 +133,9 @@ Optional:
   --email     alejandro@example.com   omitted from the invoice if not given
   --phone     "+34 692 86 92 45"       client phone/WhatsApp, same treatment
   --deposit   175           default 0
+  --deposit-paid            the deposit has ARRIVED; marks it Paid, not "To confirm"
+  --deposit-method "PayPal" how it arrived, shown on the deposit row
+  --deposit-date 2026-09-22 when it arrived
   --standard  320           undiscounted price PER PERSON, to show a discount
   --departure 2026-09-20
   --return    2026-09-22
@@ -148,7 +151,12 @@ Optional:
                                     "Label:euros"     flat for the booking
                                     "Label:euros:pp"  per person
   --notes     "..."
+  --usd                     the sale was quoted in US DOLLARS; renders $ not EUR
+                            (amounts are still given as plain numbers)
   --number    MET-2026-007  override the automatic number
+  --reissue                 re-render an existing number for the SAME client
+                            (e.g. after the deposit arrives). Refuses if the
+                            name does not match the ledger.
   --out       <dir>         default: your Downloads folder
   --no-sheet                write the PDF but do not touch the sheet
   --no-pdf                  record in the sheet only
@@ -182,11 +190,39 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
   // does not know about.
   if (isTaken(ledger, number)) {
     const held = ledger.documents.find((d) => d.number === number);
-    throw new Error(
-      `${number} has already been issued to ${held.clientName} ` +
-        `(${held.kind}, ${held.issued}). Drop --number to auto-allocate the ` +
-        `next free one.`,
-    );
+
+    /**
+     * --reissue re-renders an EXISTING number for the SAME client.
+     *
+     * The normal rule stands: numbers are never reused, because two
+     * different bookings sharing one number is the failure a customer
+     * notices. But re-sending one booking's invoice after its deposit
+     * lands is not reuse — it is the same document in a later state, and
+     * allocating a fresh number there would read to the client as a
+     * second charge for a trip they have already part-paid.
+     *
+     * The client name must match. That is what keeps this from becoming
+     * a general override: it can only ever overwrite the document it is
+     * already about.
+     */
+    const sameClient =
+      held.clientName.trim().toLowerCase() === String(args.name).trim().toLowerCase();
+
+    if (!args.reissue) {
+      throw new Error(
+        `${number} has already been issued to ${held.clientName} ` +
+          `(${held.kind}, ${held.issued}). Drop --number to auto-allocate the ` +
+          `next free one, or pass --reissue to re-render this same invoice ` +
+          `for the same client.`,
+      );
+    }
+    if (!sameClient) {
+      throw new Error(
+        `--reissue refuses: ${number} belongs to ${held.clientName}, not ` +
+          `${args.name}. Reissuing is for re-rendering one client's own ` +
+          `invoice, never for moving a number to somebody else.`,
+      );
+    }
   }
 
   const inv = {
@@ -204,6 +240,9 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     standardPerPerson: args.standard ? eurosToCents(args.standard) : undefined,
     total: eurosToCents(args.total),
     deposit: args.deposit ? eurosToCents(args.deposit) : 0,
+    depositPaid: Boolean(args["deposit-paid"]),
+    depositMethod: args["deposit-method"],
+    depositDate: args["deposit-date"],
     extras: args.extra.length ? args.extra.map(parseExtra) : undefined,
     language: args.language,
     includes: args.includes ? String(args.includes).split("|").filter(Boolean) : undefined,
@@ -212,6 +251,9 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     ice: args.ice,
     rc: args.rc,
     notes: args.notes,
+    /* The currency the sale was agreed in. --usd repeats the dollar figure
+       the client accepted instead of printing a euro sign against it. */
+    currency: args.usd ? "USD" : "EUR",
   };
 
   const totals = computeTotals(inv); // throws on bad money before anything is written
@@ -277,7 +319,13 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
       total: totals.total,
       deposit: totals.deposit,
       balance: totals.balance,
-      status: totals.deposit > 0 ? "Deposit due" : "Unpaid",
+      /* A paid deposit is a different state from an owed one, and the
+         ledger is what the owner reads to know who still owes money. */
+      status: args["deposit-paid"]
+        ? "Deposit paid"
+        : totals.deposit > 0
+          ? "Deposit due"
+          : "Unpaid",
       pdfPath: args["no-pdf"] ? "" : pdfPath,
       notes: inv.notes,
     });
@@ -305,7 +353,8 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     extras: totals.extras,
     pdfPath: args["no-pdf"] ? null : pdfPath,
     sheet: sheetNote === "row appended",
-  });
+    status: args["deposit-paid"] ? "Deposit paid" : undefined,
+  }, { replace: Boolean(args.reissue) });
   writeLedger(ROOT, ledger);
 
   console.log(`Ledger  data/documents.json (${ledger.documents.length} documents)`);

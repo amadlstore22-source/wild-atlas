@@ -1869,7 +1869,10 @@ Ciò che rende il Marocco unico tra le mete del cinema è che i set non sono mai
 
 ## Per approfondire
 
-Due dei siti citati sopra hanno una guida dedicata: [Volubilis](/it/blog/volubilis-rovine-romane), la città romana i cui mosaici sono rimasti nel terreno, e [Meknes e Moulay Idriss](/it/blog/meknes-moulay-idriss-guida), la capitale imperiale e la città santa che la sovrasta.`,
+Due dei siti citati sopra hanno una guida dedicata: [Volubilis](/it/blog/volubilis-rovine-romane), la città romana i cui mosaici sono rimasti nel terreno, e [Meknes e Moulay Idriss](/it/blog/meknes-moulay-idriss-guida), la capitale imperiale e la città santa che la sovrasta.
+
+Per ogni location nell'ordine del percorso, compresi L'Odissea (2026) e Il gladiatore II, leggete la nostra [guida alle location dei film in Marocco](/it/blog/location-film-marocco).
+`,
   },
   {
     slug: "how-to-climb-toubkal-in-2-days",
@@ -2247,7 +2250,7 @@ Alcune cose che le versioni patinate non ti diranno:
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
-    seoTitle: "Itinerario di 10 giorni in Marocco",
+    seoTitle: "Marocco in 10 giorni: itinerario",
     seoDescription:
       "Un itinerario completo di 10 giorni in Marocco che collega Marrakech, il Sahara, Fès e l'Alto Atlante — giorno per giorno, con tempi di guida realistici.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
@@ -2682,7 +2685,7 @@ Attraversa l'Alto Atlante verso sud da Marrakech e il verde cade verso l'ocra e 
 
 Ouarzazate è la controfigura di Hollywood per il mondo antico da oltre mezzo secolo. Gli enormi **Atlas Studios** al suo bordo, più le kasbah e il deserto intorno, hanno interpretato l'antico Egitto, Roma, Gerusalemme, il Tibet e altro. I titoli di coda sono un vero albo d'oro: *Lawrence d'Arabia*, *L'uomo che volle farsi re*, *L'ultima tentazione di Cristo*, *Il Gladiatore*, *Le crociate*, *La Mummia*, *Babel* e *Game of Thrones*: Daenerys ha percorso la Baia degli Schiavisti qui.
 
-Da cui '**Ouallywood**'. Puoi visitare gli studi e passeggiare tra set in piedi: strade romane, templi egizi, statue faraoniche che cuociono al sole. È allegramente, evidentemente finto da vicino, e tanto più divertente per questo. Per la storia più ampia del Marocco al cinema, vedi la nostra guida alle [location cinematografiche UNESCO del Marocco](/it/blog/morocco-unesco-sites-film-locations).
+Da cui '**Ouallywood**'. Puoi visitare gli studi e passeggiare tra set in piedi: strade romane, templi egizi, statue faraoniche che cuociono al sole. È allegramente, evidentemente finto da vicino, e tanto più divertente per questo. Per la storia più ampia del Marocco al cinema, vedi la nostra guida alle [location cinematografiche UNESCO del Marocco](/it/blog/morocco-unesco-sites-film-locations). Per un percorso scena per scena, dalla Troia dell'Odissea al cratere di Spectre, vedi [le location dei film in Marocco](/it/blog/location-film-marocco).
 
 ## Cosa vedere davvero
 
@@ -3687,7 +3690,7 @@ Prenotare in diretta mantiene quella somma alle persone che mandano avanti il ca
 ## La cifra esposta
 
 Il nostro [tour di 4 giorni nel deserto per famiglie da Marrakech](/it/tours/family-desert-4day-marrakech)
-costa **398 € a persona**, ed è costruito diversamente dall'itinerario standard per adulti:
+costa **346 € a persona**, ed è costruito diversamente dall'itinerario standard per adulti:
 non in ciò che visita, ma nel ritmo delle giornate.
 
 ## Cosa è incluso
@@ -5076,12 +5079,12 @@ passa il tempo sulla seconda.
 
 **[Tour deserto famiglia 4 giorni](/it/tours/tour-deserto-famiglia-4-giorni)** — il Sahara
 a un ritmo sostenibile. Classificato facile, pensato per 2–12 persone, con la strada
-distribuita perché nessuna giornata sia punitiva. Circa 398 € a persona per una famiglia
+distribuita perché nessuna giornata sia punitiva. Circa 346 € a persona per una famiglia
 di quattro.
 
 **[Trek Atlante famiglia 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni)** — di
 villaggio in villaggio, con i muli a portare i bagagli. Giornate brevi, veri villaggi
-berberi, nulla di tecnico. Circa 257 € a persona in quattro.
+berberi, nulla di tecnico. Circa 257 € a persona in quattro. La nostra guida al [trekking sull'Atlante con i bambini](/it/blog/trekking-atlante-con-bambini) spiega nel dettaglio età, quota e muli.
 
 **[Escursione nella valle dell'Ourika](/it/tours/escursione-valle-ourika)** — a un'ora da
 Marrakech, acqua in cui sguazzare e rientro per cena. Circa 31 € a persona per una
@@ -5428,7 +5431,7 @@ Due cose da decidere presto:
     slug: "best-things-to-do-in-morocco",
     localizedSlug: "cosa-fare-in-marocco",
     author: MET_TEAM,
-    title: "Le 15 cose migliori da fare in Marocco (2026)",
+    title: "Cosa vedere e fare in Marocco: le 15 esperienze migliori (2026)",
     excerpt:
       "Trekking in cammello, vicoli azzurri, concerie, hammam, surf e il Sahara. Le quindici esperienze attorno a cui costruire un viaggio in Marocco — con un giudizio onesto su quali valgano la spesa.",
     heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -5438,7 +5441,7 @@ Due cose da decidere presto:
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["cosa fare in Marocco", "attività Marocco", "Marocco cosa vedere", "esperienze Marocco", "viaggio in Marocco"],
-    seoTitle: "Cosa fare in Marocco",
+    seoTitle: "Cosa vedere e fare in Marocco: 15 idee",
     seoDescription:
       "Le quindici esperienze attorno a cui costruire un viaggio in Marocco: cammello nel Sahara, Toubkal, Chefchaouen, hammam, corsi di cucina e surf.",
     relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
@@ -5804,7 +5807,7 @@ con quale si ha a che fare.
 | Mandorli in fiore, Anti-Atlante | Febbraio–marzo | Una stagione, non una data |
 | Ramadan ed Eid al-Fitr | ~11 giorni prima ogni anno | Avvistamento della luna |
 | Festival delle Rose, Kelaat M'Gouna | Prima metà di maggio | Segue la raccolta |
-| Gnaoua, Essaouira | Fine giugno | Annunciato pochi mesi prima |
+| Gnaoua, Essaouira | Fine giugno | **Confermato**: 24–26 giugno 2027 |
 | Moussem di Imilchil | Settembre | Fissato localmente, spesso a poche settimane |
 
 ## Gennaio — la maratona e l'aria più limpida dell'anno
@@ -7778,6 +7781,172 @@ Se state costruendo un viaggio più ampio, Essaouira completa Marrakech invece d
 farle concorrenza: un paio di notti sulla costa fra la
 [medina](/it/blog/marrakech-medina-complete-guide) e il deserto rimettono a
 posto l'intera vacanza.
+`,
+  },
+  {
+    slug: "morocco-film-locations-tour",
+    localizedSlug: "location-film-marocco",
+    title: "Location dei film in Marocco: dove sono stati girati L'Odissea, Il gladiatore e Il Trono di Spade",
+    excerpt: "Troia nell'Odissea, Yunkai nel Trono di Spade, l'arena del Gladiatore: quasi tutte le grandi location del Marocco sono su un'unica strada a sud di Marrakech. Ecco dove è stata girata ogni scena e come arrivarci.",
+    heroImage: "/gallery/blog-morocco-film-locations-tour.jpg",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    tags: ["location film Marocco", "Trono di Spade Marocco", "location L'Odissea", "location Il gladiatore", "Atlas Studios", "Aït Ben Haddou", "Ouarzazate"],
+    seoTitle: "Location dei film in Marocco: la guida",
+    seoDescription: "Dove sono stati girati in Marocco L'Odissea, Il gladiatore, Il Trono di Spade, La mummia e Spectre, scena per scena, e come visitare ogni location.",
+    relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "shared-essaouira-day-trip"],
+    faq: [
+      { q: "Si possono visitare le location del Trono di Spade in Marocco?", a: "Sì. Due sono facili da raggiungere: Aït Ben Haddou, che ha interpretato Yunkai, e la Skala di Essaouira, la muraglia sul mare, che ha interpretato Astapor. Entrambe compaiono nella stagione 3. Aït Ben Haddou è su ogni tour del deserto da Marrakech, ed Essaouira è una gita in giornata da Marrakech o Agadir. Anche gli Atlas Studios di Ouarzazate elencano la serie tra le loro produzioni." },
+      { q: "Dove è stata girata L'Odissea in Marocco?", a: "Christopher Nolan ha usato lo ksar di Aït Ben Haddou come città di Troia, la spiaggia di Essaouira per la scena in cui i Troiani trovano il cavallo di legno e il paese di Tahanaout, a sud di Marrakech, per alcune parti di Troia. Il film è uscito il 17 luglio 2026 ed è stato girato anche in Grecia, Italia, Islanda e Scozia." },
+      { q: "Si possono visitare gli Atlas Studios a Ouarzazate?", a: "Sì. Gli Atlas Studios organizzano visite guidate tra i loro set, con un ingresso di circa 7 €. Si trovano alle porte di Ouarzazate, sulla strada che segue ogni tour del deserto da Marrakech, quindi rientrano nella sosta pranzo del primo giorno." },
+      { q: "Si possono vedere le location in una gita di un giorno da Marrakech?", a: "Aït Ben Haddou è a circa tre ore e mezza di strada da Marrakech per tratta: la gita in giornata è possibile ma lunga, e non lascia tempo per Ouarzazate. Meglio il primo giorno di un tour del deserto: vedete Aït Ben Haddou e Ouarzazate e poi proseguite verso le dune invece di tornare indietro." },
+    ],
+    content: `
+## In breve
+
+Quasi tutti i film di cui ci chiedono sono stati girati lungo un'unica strada: a sud di Marrakech, oltre l'Alto Atlante fino ad Aït Ben Haddou e Ouarzazate, poi verso est fino alle dune di Merzouga. Essaouira, sull'Atlantico, è la grande eccezione. Con un tour del deserto da Marrakech e una giornata sulla costa potete stare in quasi tutti i luoghi di questa lista.
+
+| Luogo | Cosa vi è stato girato | Come arrivarci |
+| --- | --- | --- |
+| Aït Ben Haddou | Troia nell'*Odissea*, *Il gladiatore*, Yunkai nel *Trono di Spade* | Ogni tour del deserto da Marrakech |
+| Ouarzazate e Atlas Studios | *Il gladiatore II*, *Le crociate*, *La mummia*, *Babel* | Ogni tour del deserto da Marrakech |
+| Gara Medouar, vicino a Erfoud | Hamunaptra nella *Mummia*, la base nel cratere di *Spectre* | Una deviazione in un tour privato a Merzouga |
+| Essaouira | Astapor nel *Trono di Spade*, la spiaggia del cavallo di Troia nell'*Odissea* | Gita in giornata da Marrakech o Agadir |
+
+## Aït Ben Haddou: Troia, Yunkai e l'arena del Gladiatore
+
+Lo ksar di terra cruda di Aït Ben Haddou, Patrimonio dell'Umanità UNESCO dal 1987, è spesso definito il luogo più filmato d'Africa, e l'elenco dei set lo conferma: **Lawrence d'Arabia** (1962), **L'uomo che volle farsi re** (1975), **Il gioiello del Nilo** (1985), **Zona pericolosa** (1987), **Kundun** (1997), **La mummia** (1999), **Le crociate** (2005), **Babel** (2006) e **Prince of Persia** (2010).
+
+Tre sono il motivo per cui viene la maggior parte dei visitatori:
+
+- **Il gladiatore (2000).** Qui Massimo viene venduto come schiavo e combatte i primi incontri nell'arena di provincia, che la produzione aggiunse al villaggio esistente.
+- **Il Trono di Spade.** Nella stagione 3 lo ksar è diventato **Yunkai**, la Città Gialla della Baia degli Schiavisti.
+- **L'Odissea (2026).** Christopher Nolan ha usato lo ksar come vero profilo di **Troia**, aggiungendo una sessantina di strutture temporanee su circa un ettaro per girare la caduta della città.
+
+Attraversate il fiume e salite fino al granaio in cima: guarderete gli stessi tetti inquadrati dalle macchine da presa. La nostra [guida ad Aït Ben Haddou](/it/blog/ait-benhaddou-guide) descrive la visita.
+
+## Ouarzazate: gli Atlas Studios e il set di Gerusalemme
+
+Mezz'ora più avanti, Ouarzazate è dove dormono le troupe e si costruiscono i set. Gli **Atlas Studios**, fondati nel 1983 da Mohamed Belghmi, sono descritti come il più grande studio cinematografico al mondo per superficie. Le visite guidate attraversano set ancora in piedi, tra cui quelli di *Il gladiatore*, *Le crociate*, *La mummia*, *Asterix & Obelix: Missione Cleopatra*, *Babel* e *Prison Break*. L'ingresso costa circa 7 €. I **CLA Studios**, aperti nel 2004, sono il secondo studio della città.
+
+Sulla strada N9, appena a nord degli Atlas Studios, sorge la **Gerusalemme** costruita da Ridley Scott per *Le crociate*. Scott è tornato per **Il gladiatore II** (2024): le scene iniziali, ambientate in «Africa Nova», sono state girate nei dintorni di Ouarzazate, e la città costiera di Numidia attaccata dalla flotta romana riutilizza lo stesso set di Gerusalemme.
+
+Per questo la città è soprannominata «Ouallywood». Trovate di più nella nostra [guida a Ouarzazate](/it/blog/ouarzazate-guide-ouallywood).
+
+## Gara Medouar: La mummia e Spectre
+
+Vicino a Erfoud, sulla strada per le dune di Merzouga, si alza una formazione rocciosa a ferro di cavallo chiamata **Gara Medouar**. La produzione della **Mummia** vi costruì l'intero set di **Hamunaptra**, la Città dei Morti. Sedici anni dopo è diventata la base del cattivo nel cratere del film di Bond **Spectre**, girato nel giugno 2015, e la sua esplosione ha ottenuto il Guinness dei primati per la più grande esplosione mai realizzata per un film.
+
+Gara Medouar è fuori dalla strada principale, a circa 20 km da Erfoud. In un tour privato è una deviazione che potete chiedere sulla strada per le dune.
+
+## Essaouira: Astapor e il cavallo di Troia
+
+Sull'Atlantico, il porto fortificato di **Essaouira** (UNESCO, 2001) ha interpretato **Astapor** nella stagione 3 del *Trono di Spade*, la città dove Daenerys compra gli Immacolati. Le scene sono state girate sulla Skala, la muraglia armata di cannoni sul mare, che si percorre gratis.
+
+Anche Nolan è venuto qui. Nell'*Odissea*, la spiaggia dove i Troiani trovano il cavallo di legno e lo portano in città è a Essaouira. E molto prima, **Orson Welles** vi girò gran parte del suo **Otello** (1952).
+
+La nostra [gita condivisa a Essaouira](/it/tours/escursione-condivisa-essaouira) da Marrakech costa 30 € a persona. Dalla costa sud, la [gita da Agadir a Essaouira](/it/tours/gita-essaouira-agadir) arriva agli stessi bastioni.
+
+## Marrakech e Tahanaout
+
+Il tour del cinema inizia prima ancora di lasciare la città. *La mummia* iniziò le riprese a Marrakech nel maggio 1998, con la città nei panni del Cairo degli anni Venti, e **L'uomo che sapeva troppo** (1956) di Alfred Hitchcock si svolge in parte nella piazza Jemaa el-Fna. Circa 30 km a sud, sulla strada per Imlil e l'Alto Atlante, il paese di **Tahanaout** ha fatto da parti di Troia nell'*Odissea*.
+
+## Come vedere tutto in un solo viaggio
+
+- **Per gli appassionati di cinema, il [tour del deserto di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech)** è quello giusto. Il primo giorno prevede una visita completa di Aït Ben Haddou e il pranzo a Ouarzazate con l'opzione degli Atlas Studios, e il ritorno ripassa da entrambi l'ultimo giorno. Da 446 € a persona in due, 236 € a testa in sei.
+- **Il [tour privato di 3 giorni nel Sahara](/it/tours/tour-deserto-3-giorni-marrakech)** si ferma ad Aït Ben Haddou il primo giorno, passa per Erfoud il secondo e rientra da Ouarzazate. Da 380 € a persona in due, 230 € a testa in sei. Chiedete la deviazione a Gara Medouar al momento della prenotazione.
+- **Con un budget ridotto, il [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso)** si ferma ad Aït Ben Haddou e Ouarzazate per 120 € a persona. Per la visita agli studi e la deviazione a Gara Medouar, scegliete una delle versioni private.
+
+Per la storia più ampia dei siti patrimonio del Marocco sullo schermo, leggete [i siti UNESCO del Marocco dove sono stati girati i film](/it/blog/morocco-unesco-sites-film-locations).
+
+👉 **[Scopri il tour del deserto di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech)**: Aït Ben Haddou, gli Atlas Studios e il Sahara, con un autista-guida che sa quale scena è stata girata dove.
+`,
+  },
+  {
+    slug: "atlas-mountains-trek-with-kids",
+    localizedSlug: "trekking-atlante-con-bambini",
+    title: "Trekking sull'Atlante con i bambini: età, quota e cosa funziona davvero",
+    excerpt: "I bambini possono fare trekking nell'Alto Atlante, e quasi tutti lo adorano, se il viaggio è pensato per loro fin dall'inizio. Che età va bene, perché la quota non è il problema nelle valli, a cosa servono i muli e quale percorso scegliere.",
+    heroImage: "/gallery/blog-atlas-trek-with-kids.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    tags: ["trekking Atlante con bambini", "trekking Marocco famiglia", "Alto Atlante con bambini", "Imlil in famiglia", "Marocco in famiglia", "Toubkal con bambini"],
+    seoTitle: "Trekking sull'Atlante con i bambini",
+    seoDescription: "Trekking nell'Alto Atlante con i bambini? Età, quota, ore di cammino, muli e i percorsi per famiglie che funzionano, da un giorno a Ourika a quattro giorni.",
+    relatedTours: ["family-atlas-4day-trek", "ourika-valley-day-hike", "atlas-mountains-3day-trek"],
+    faq: [
+      { q: "Da che età i bambini possono fare trekking sull'Atlante?", a: "Dai quattro anni circa i bambini gestiscono bene brevi camminate nelle valli, soprattutto con i muli a disposizione per i tratti di stanchezza. Verso i sette anni quasi tutti reggono una giornata intera di trekking e un percorso di villaggio in villaggio. Sotto i quattro anni funziona meglio una base fissa in valle con brevi passeggiate che un trekking itinerante. Diteci le età quando ci scrivete e vi diremo con franchezza se il viaggio è adatto alla vostra famiglia." },
+      { q: "I bambini possono salire sul Toubkal?", a: "Non porteremmo sul Toubkal un bambino sotto i dodici anni circa. Il motivo è la quota, non la forma fisica: la vetta è a 4.167 m e il percorso di 2 giorni sale da Imlil, a 1.740 m, in circa trenta ore. I bambini non sono più soggetti al mal di montagna degli adulti, ma lo segnalano peggio. Gli adolescenti più grandi che vogliono la vetta dovrebbero scegliere l'itinerario di 4 giorni, che si acclimata gradualmente." },
+      { q: "Un bambino può salire sul mulo durante il trekking?", a: "Sì. Nel nostro trekking per famiglie i muli portano tutti i bagagli e possono portare anche un bambino piccolo stanco, guidati dal mulattiere. Nessuno deve portare in braccio nessuno né affrettarsi, e per molti bambini i muli sono la parte più bella del viaggio." },
+      { q: "Qual è il periodo migliore per un trekking in famiglia sull'Atlante?", a: "Primavera e autunno sono i più facili: giornate miti, notti fresche e valli verdissime in primavera. Anche l'estate funziona, perché le valli sono molto più fresche di Marrakech. L'inverno porta notti fredde e la neve può arrivare ai villaggi, quindi è più adatto a famiglie che hanno già esperienza di trekking." },
+    ],
+    content: `
+## In breve
+
+Sì, i bambini possono fare trekking nell'Alto Atlante, ed è una delle cose più belle che una famiglia possa fare in Marocco, purché il percorso sia pensato per loro e non adattato dopo. A decidere la giornata sono le ore su terreno irregolare, non la distanza o la quota. Le valli intorno a Imlil si prestano benissimo: villaggi vicini, acqua ovunque e muli per portare i bagagli e, quando serve, un bambino stanco.
+
+| Età | Cosa funziona |
+| --- | --- |
+| Sotto i 4 anni | Una base in valle con brevi passeggiate, o una giornata nella valle dell'Ourika |
+| Da 4 a 7 anni | Escursioni in giornata e un trekking di più giorni con i muli |
+| Dai 7 anni | Giornate intere di trekking, di villaggio in villaggio |
+| Dai 12 anni circa | I percorsi per la vetta del Toubkal diventano un'opzione reale |
+
+## Cosa chiede la montagna a un bambino
+
+Imlil, dove finisce la strada e iniziano quasi tutti i trekking, si trova a 1.740 m, a circa 90 minuti d'auto da Marrakech. I percorsi per famiglie restano nelle valli e nei villaggi, sotto i passi alti. Il terreno dove la quota diventa un tema serio, il rifugio del Toubkal a 3.207 m e la vetta a 4.167 m, non ne fa parte.
+
+Quello che i bambini sentono davvero è il tempo in piedi su sentieri sassosi, e il sole. Un bambino che a casa cammina due ore qui spesso ne cammina tre, perché c'è un fiume da attraversare, un villaggio da raggiungere e un mulo da seguire.
+
+## I muli cambiano tutto
+
+Nel nostro trekking per famiglie un mulattiere e i suoi muli portano tutti i bagagli, così nessuno cammina con più di un piccolo zaino da giorno. Possono portare anche un bambino piccolo stanco, e il calo del pomeriggio diventa una cavalcata invece di una trattativa. Nessuno porta in braccio nessuno e nessuno ha fretta.
+
+## Quattro modi per farlo, dal più facile
+
+1. **Una giornata nella valle dell'Ourika.** A un'ora da Marrakech, con acqua per sguazzare e ritorno per cena. L'[escursione di un giorno nella valle dell'Ourika](/it/tours/escursione-valle-ourika) costa 31 € a persona per una famiglia di quattro.
+2. **Qualche notte a Imlil, con passeggiate dalla porta di casa.** La nostra famiglia gestisce il [Gîte Panorama](/it/blog/gite-panorama-imlil-base-camp-toubkal) a Imlil. Una base in valle permette di decidere ogni mattina fin dove arrivare, ed è ideale per i più piccoli e per fratelli di età diverse.
+3. **Il [trekking per famiglie di 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni).** Pensato per i bambini fin dall'inizio: giornate di cammino di circa 2–3 ore, 4 ore, 4–5 ore e 3 ore, tra noceti, guadi e cascate. Sono incluse tre notti in case di accoglienza presso famiglie berbere, tutti i pasti, i muli e il transfer da Marrakech. Parte da tre persone: 276 € a persona in tre, 257 € in quattro, 225 € in sei.
+4. **Per gli adolescenti, il [trekking dei villaggi di 3 giorni](/it/tours/trek-villaggi-alto-atlante-3-giorni).** Giornate più lunghe, da 4 a 6 ore, e più terreno, difficoltà moderata. 192 € a persona in quattro.
+
+## Il Toubkal con i bambini
+
+Non porteremmo sul Toubkal un bambino sotto i dodici anni circa. È una scelta legata alla quota, non alla forma fisica: la salita di 2 giorni passa dai 1.740 m di Imlil ai 4.167 m in circa trenta ore. I bambini non sono più soggetti al mal di montagna degli adulti, ma lo segnalano peggio, e un bambino di otto anni stanco somiglia molto a uno che sta leggermente male.
+
+Per gli adolescenti che vogliono la vetta, leggete prima la nostra [guida al mal di montagna](/it/blog/mal-di-montagna-toubkal) e scegliete il [trekking di 4 giorni al Toubkal](/it/tours/trek-cima-toubkal-4-giorni), che sale gradualmente con una notte di acclimatamento.
+
+## Quando andare
+
+Primavera e autunno sono le stagioni più facili per le famiglie: giornate miti, notti fresche e, in primavera, valli al loro massimo verde. Anche l'estate funziona bene, perché in montagna fa molto più fresco che a Marrakech. L'inverno porta notti fredde e la neve può arrivare ai villaggi.
+
+[[WEATHER]]
+
+Mese per mese, la nostra [guida al meteo del Toubkal](/it/blog/toubkal-weather-by-month) spiega cosa aspettarsi.
+
+## Cosa mettere nello zaino di un bambino
+
+- **Scarpe con una buona presa, già usate.** Scarpe da ginnastica con una buona suola vanno bene sui sentieri di valle; scarponi nuovi di zecca no.
+- **Strati.** Le mattine sono fresche nelle valli, anche d'estate.
+- **Cappello, crema solare ad alta protezione e una borraccia** per ogni bambino.
+- **Snack che già gli piacciono**, per il tratto tra colazione e pranzo.
+- **Pannolini e latte in polvere comprati a Marrakech.** I negozi dei villaggi non sempre li hanno.
+
+La lista completa per gli adulti è in [cosa mettere nello zaino per un trekking nell'Alto Atlante](/it/blog/what-to-pack-high-atlas-trek-morocco).
+
+## Le notti nei villaggi
+
+Le notti si passano presso famiglie berbere: cena cucinata in casa, pane del forno di famiglia e tè alla menta versato dall'alto. Per la maggior parte dei bambini è questo, più della camminata, a restare. Le case hanno spesso tetti a terrazza e scale aperte, quindi date un'occhiata all'arrivo se viaggiate con un bambino piccolo.
+
+Per il resto del viaggio, dai seggiolini auto ai bambini schizzinosi a tavola, leggete la nostra guida al [Marocco con i bambini](/it/blog/marocco-con-bambini-guida-famiglie).
+
+👉 **[Scopri il trekking per famiglie di 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni)**: giornate brevi, notti nei villaggi e muli per i bagagli, con una guida di queste valli.
 `,
   },
 ];

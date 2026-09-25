@@ -1875,7 +1875,10 @@ Lo que hace único a Marruecos entre los destinos de cine es que los decorados n
 
 ## Para seguir leyendo
 
-Dos de los lugares citados arriba tienen su propia guía: [Volubilis](/es/blog/volubilis-ruinas-romanas), la ciudad romana cuyos mosaicos siguen en el suelo, y [Mequinez y Mulay Idriss](/es/blog/meknes-moulay-idriss-guia), la capital imperial y la ciudad santa que la domina.`,
+Dos de los lugares citados arriba tienen su propia guía: [Volubilis](/es/blog/volubilis-ruinas-romanas), la ciudad romana cuyos mosaicos siguen en el suelo, y [Mequinez y Mulay Idriss](/es/blog/meknes-moulay-idriss-guia), la capital imperial y la ciudad santa que la domina.
+
+Para cada lugar en el orden de la ruta, incluidas La Odisea (2026) y Gladiator II, consulta nuestra [guía de lugares de rodaje en Marruecos](/es/blog/lugares-de-rodaje-marruecos).
+`,
   },
   {
     slug: "how-to-climb-toubkal-in-2-days",
@@ -2253,7 +2256,7 @@ Es una plantilla, no una regla. Las familias lo ralentizan y cambian las rutas d
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     tags: ["10 day morocco itinerary", "morocco itinerary", "marrakech to fes", "morocco 10 days", "morocco desert and cities", "morocco route"],
-    seoTitle: "Itinerario de 10 días por Marruecos",
+    seoTitle: "Marruecos en 10 días: itinerario día a día",
     seoDescription:
       "Un itinerario completo de 10 días por Marruecos que enlaza Marrakech, el Sáhara, Fez y el Alto Atlas, día a día, con tiempos de conducción realistas.",
     relatedTours: ["marrakech-to-fes-3day", "sahara-3day-marrakech", "marrakech-imperial-cities-5day"],
@@ -2688,7 +2691,7 @@ Cruza el Alto Atlas al sur desde Marrakech y el verde cae hacia el ocre y la pie
 
 Ouarzazate ha sido la doble de Hollywood para el mundo antiguo durante más de medio siglo. Los enormes **Atlas Studios** en su borde, más las kasbahs y el desierto de alrededor, han hecho de Egipto antiguo, Roma, Jerusalén, el Tíbet y más. Los créditos son un auténtico palmarés: *Lawrence de Arabia*, *El hombre que pudo reinar*, *La última tentación de Cristo*, *Gladiator*, *El reino de los cielos*, *La momia*, *Babel* y *Juego de Tronos* —Daenerys recorrió la Bahía de los Esclavos aquí—.
 
-De ahí "**Ouallywood**". Puedes visitar los estudios y pasear entre decorados en pie: calles romanas, templos egipcios, estatuas faraónicas cociéndose al sol. Es alegre y evidentemente falso de cerca, y más divertido por ello. Para la historia más amplia de Marruecos en el cine, mira nuestra guía de [localizaciones de cine Patrimonio de la Humanidad de Marruecos](/es/blog/morocco-unesco-sites-film-locations).
+De ahí "**Ouallywood**". Puedes visitar los estudios y pasear entre decorados en pie: calles romanas, templos egipcios, estatuas faraónicas cociéndose al sol. Es alegre y evidentemente falso de cerca, y más divertido por ello. Para la historia más amplia de Marruecos en el cine, mira nuestra guía de [localizaciones de cine Patrimonio de la Humanidad de Marruecos](/es/blog/morocco-unesco-sites-film-locations). Para una ruta escena por escena, de la Troya de La Odisea al cráter de Spectre, mira [los lugares de rodaje en Marruecos](/es/blog/lugares-de-rodaje-marruecos).
 
 ## Qué ver de verdad
 
@@ -3692,7 +3695,7 @@ Reservar en directo mantiene esa cantidad con la gente que lleva el campamento.
 ## La cifra anunciada
 
 Nuestro [tour familiar de 4 días por el desierto desde Marrakech](/es/tours/family-desert-4day-marrakech)
-cuesta **398 € por persona**, y está construido de forma distinta al itinerario estándar
+cuesta **346 € por persona**, y está construido de forma distinta al itinerario estándar
 para adultos: no en lo que visita, sino en el ritmo de los días.
 
 ## Qué está incluido
@@ -5073,12 +5076,12 @@ adultos se pasa el tiempo en la segunda.
 
 **[Tour desierto en familia 4 días](/es/tours/tour-desierto-familia-4-dias)** — el Sáhara
 a un ritmo llevadero. Clasificado como fácil, pensado para 2–12 personas, con la
-carretera repartida para que ningún día sea castigo. Unos 398 € por persona en una
+carretera repartida para que ningún día sea castigo. Unos 346 € por persona en una
 familia de cuatro.
 
 **[Trek Atlas en familia 4 días](/es/tours/trek-atlas-familia-4-dias)** — de pueblo en
 pueblo con mulas cargando el equipaje. Jornadas cortas, pueblos bereberes de verdad, nada
-técnico. Unos 257 € por persona a cuatro.
+técnico. Unos 257 € por persona a cuatro. Nuestra guía de [trekking por el Atlas con niños](/es/blog/trekking-atlas-con-ninos) explica en detalle las edades, la altitud y las mulas.
 
 **[Senderismo en el valle del Ourika](/es/tours/senderismo-valle-ourika)** — a una hora
 de Marrakech, agua donde chapotear y de vuelta para cenar. Unos 31 € por persona en una
@@ -5425,7 +5428,7 @@ Dos cosas que conviene decidir pronto:
     slug: "best-things-to-do-in-morocco",
     localizedSlug: "que-hacer-en-marruecos",
     author: MET_TEAM,
-    title: "Las 15 mejores cosas que hacer en Marruecos (2026)",
+    title: "Qué ver y hacer en Marruecos: las 15 mejores experiencias (2026)",
     excerpt:
       "Rutas en camello, calles azules, curtidurías, hammams, surf y el Sáhara. Las quince experiencias que merecen vertebrar un viaje a Marruecos — y una valoración honesta de cuáles compensan.",
     heroImage: "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -5435,9 +5438,9 @@ Dos cosas que conviene decidir pronto:
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     tags: ["qué hacer en Marruecos", "actividades Marruecos", "imprescindibles Marruecos", "viajar a Marruecos", "experiencias Marruecos"],
-    seoTitle: "Qué hacer en Marruecos",
+    seoTitle: "Qué ver en Marruecos: 15 experiencias",
     seoDescription:
-      "Las quince experiencias sobre las que construir un viaje a Marruecos: ruta en camello por el Sáhara, Toubkal, Chefchaouen, hammam, clases de cocina y surf.",
+      "Qué ver y qué visitar en Marruecos: el Sáhara en camello, el Toubkal, Chefchaouen, el hammam, clases de cocina y surf. Quince experiencias con precios reales.",
     relatedTours: ["shared-merzouga-3day-marrakech", "toubkal-summit-2day-marrakech", "marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
       { q: "¿Cuál es la actividad más popular en Marruecos?", a: "Un viaje al Sáhara — en concreto, una ruta en camello por las dunas de Erg Chebbi cerca de Merzouga y una noche en un campamento. Es la experiencia en torno a la cual la mayoría organiza el resto del itinerario. Desde Marrakech requiere tres días, porque Merzouga está a una jornada de carretera." },
@@ -5801,7 +5804,7 @@ cuál estás tratando.
 | Almendros en flor, Anti-Atlas | Febrero–marzo | Una temporada, no una fecha |
 | Ramadán y Eid al-Fitr | ~11 días antes cada año | Avistamiento de la luna |
 | Festival de las Rosas, Kelaat M'Gouna | Primera quincena de mayo | Sigue la cosecha |
-| Gnaoua, Essaouira | Finales de junio | Se anuncia unos meses antes |
+| Gnaoua, Essaouira | Finales de junio | **Confirmado**: 24–26 de junio de 2027 |
 | Moussem de Imilchil | Septiembre | Fijado localmente, a veces con semanas |
 
 ## Enero — el maratón y el aire más limpio del año
@@ -7915,5 +7918,171 @@ Si lo que te trajo aqu\u00ed es caminar, eso somos nosotros.
 \ud83d\udc49 **[Mira nuestros treks por el Alto Atlas](/es/tours?cat=trekking)** \u2014 desde un d\u00eda en el valle de Ourika hasta la ascensi\u00f3n completa al Toubkal, guiados por gente de estos pueblos.
 
 Y si quieres las dos cosas en una semana, [cu\u00e9ntanos qu\u00e9 tienes en mente](/es/contact) y te ayudamos a darle forma en torno a la bici y no en contra de ella.`,
+  },
+  {
+    slug: "morocco-film-locations-tour",
+    localizedSlug: "lugares-de-rodaje-marruecos",
+    title: "Lugares de rodaje en Marruecos: dónde se filmaron La Odisea, Gladiator y Juego de Tronos",
+    excerpt: "Troya en La Odisea, Yunkai en Juego de Tronos, la arena de Gladiator: casi todos los grandes lugares de rodaje de Marruecos están en una sola carretera al sur de Marrakech. Aquí está dónde se filmó cada escena y cómo llegar.",
+    heroImage: "/gallery/blog-morocco-film-locations-tour.jpg",
+    category: "culture",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    tags: ["lugares de rodaje Marruecos", "Juego de Tronos Marruecos", "rodaje La Odisea", "rodaje Gladiator", "Atlas Studios", "Aït Ben Haddou", "Ouarzazate"],
+    seoTitle: "Lugares de rodaje en Marruecos, uno a uno",
+    seoDescription: "Dónde se rodaron en Marruecos La Odisea, Gladiator, Juego de Tronos, La Momia y Spectre, escena por escena, y cómo visitar cada lugar.",
+    relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "shared-essaouira-day-trip"],
+    faq: [
+      { q: "¿Se pueden visitar los lugares de rodaje de Juego de Tronos en Marruecos?", a: "Sí. Dos son fáciles de visitar: Aït Ben Haddou, que fue Yunkai, y la Skala de Essaouira, la muralla frente al mar, que fue Astapor. Ambos aparecen en la temporada 3. Aït Ben Haddou está en todos los tours al desierto desde Marrakech, y Essaouira es una excursión de un día desde Marrakech o Agadir. Los Atlas Studios de Ouarzazate también incluyen la serie entre sus producciones." },
+      { q: "¿Dónde se rodó La Odisea en Marruecos?", a: "Christopher Nolan convirtió el ksar de Aït Ben Haddou en la ciudad de Troya, rodó en la playa de Essaouira la escena en que los troyanos encuentran el caballo de madera y usó el pueblo de Tahanaout, al sur de Marrakech, para partes de Troya. La película se estrenó el 17 de julio de 2026 y también se rodó en Grecia, Italia, Islandia y Escocia." },
+      { q: "¿Se pueden visitar los Atlas Studios de Ouarzazate?", a: "Sí. Los Atlas Studios ofrecen visitas guiadas por sus decorados, y la entrada cuesta unos 7 €. Están a la entrada de Ouarzazate, en la carretera que siguen todos los tours al desierto desde Marrakech, así que caben en la parada para comer del primer día." },
+      { q: "¿Se pueden ver los lugares de rodaje en una excursión de un día desde Marrakech?", a: "Aït Ben Haddou está a unas tres horas y media de Marrakech por carretera en cada sentido, así que la excursión de un día es posible pero larga, y no deja tiempo para Ouarzazate. Lo mejor es el primer día de un tour al desierto: ves Aït Ben Haddou y Ouarzazate y sigues hacia las dunas en lugar de volver." },
+    ],
+    content: `
+## En resumen
+
+Casi todas las películas por las que nos preguntan se rodaron a lo largo de una sola carretera: al sur de Marrakech, cruzando el Alto Atlas hasta Aït Ben Haddou y Ouarzazate, y después hacia el este, a las dunas de Merzouga. Essaouira, en el Atlántico, es la gran excepción. Con un tour al desierto desde Marrakech y un día en la costa, puedes pisar casi todos los lugares de esta lista.
+
+| Lugar | Qué se rodó allí | Cómo llegar |
+| --- | --- | --- |
+| Aït Ben Haddou | Troya en *La Odisea*, *Gladiator*, Yunkai en *Juego de Tronos* | Todos los tours al desierto desde Marrakech |
+| Ouarzazate y Atlas Studios | *Gladiator II*, *El reino de los cielos*, *La Momia*, *Babel* | Todos los tours al desierto desde Marrakech |
+| Gara Medouar, cerca de Erfoud | Hamunaptra en *La Momia*, la base del cráter en *Spectre* | Un desvío en un tour privado a Merzouga |
+| Essaouira | Astapor en *Juego de Tronos*, la playa del caballo de Troya en *La Odisea* | Excursión de un día desde Marrakech o Agadir |
+
+## Aït Ben Haddou: Troya, Yunkai y la arena de Gladiator
+
+El ksar de adobe de Aït Ben Haddou, Patrimonio de la Humanidad de la UNESCO desde 1987, tiene fama de ser el lugar más filmado de África, y la lista de rodajes lo confirma: **Lawrence de Arabia** (1962), **El hombre que pudo reinar** (1975), **La joya del Nilo** (1985), **Alta tensión** (1987), **Kundun** (1997), **La Momia** (1999), **El reino de los cielos** (2005), **Babel** (2006) y **Prince of Persia** (2010).
+
+Tres de ellas son el motivo por el que viene la mayoría:
+
+- **Gladiator (2000).** Aquí venden a Máximo como esclavo y aquí libra sus primeros combates, en la arena de provincias que la producción añadió al pueblo.
+- **Juego de Tronos.** En la temporada 3 el ksar se convirtió en **Yunkai**, la Ciudad Amarilla de la bahía de los Esclavos.
+- **La Odisea (2026).** Christopher Nolan usó el ksar como el perfil real de **Troya** y añadió unas sesenta estructuras temporales en cerca de una hectárea para rodar la caída de la ciudad.
+
+Cruza el río y sube hasta el granero de lo alto: verás los mismos tejados que encuadraron las cámaras. Nuestra [guía de Aït Ben Haddou](/es/blog/ait-benhaddou-guide) explica la visita.
+
+## Ouarzazate: Atlas Studios y el decorado de Jerusalén
+
+Media hora más allá, Ouarzazate es donde duermen los equipos y se construyen los decorados. Los **Atlas Studios**, fundados en 1983 por Mohamed Belghmi, se describen como el estudio de cine más grande del mundo por superficie. Sus visitas guiadas recorren decorados que siguen en pie, entre ellos de *Gladiator*, *El reino de los cielos*, *La Momia*, *Astérix y Obélix: Misión Cleopatra*, *Babel* y *Prison Break*. La entrada cuesta unos 7 €. Los **CLA Studios**, abiertos en 2004, son el segundo estudio de la ciudad.
+
+En la carretera N9, justo al norte de Atlas Studios, sigue en pie la **Jerusalén** que Ridley Scott construyó para *El reino de los cielos*. Scott volvió para **Gladiator II** (2024): las escenas iniciales, situadas en «África Nova», se rodaron en los alrededores de Ouarzazate, y la ciudad costera de Numidia que ataca la flota romana reutiliza ese mismo decorado de Jerusalén.
+
+Por eso a la ciudad la llaman «Ouallywood». Tienes más en nuestra [guía de Ouarzazate](/es/blog/ouarzazate-guide-ouallywood).
+
+## Gara Medouar: La Momia y Spectre
+
+Cerca de Erfoud, en la carretera a las dunas de Merzouga, se alza una formación rocosa en forma de herradura llamada **Gara Medouar**. La producción de **La Momia** construyó allí todo el decorado de **Hamunaptra**, la Ciudad de los Muertos. Dieciséis años después se convirtió en la base del villano dentro del cráter en la película de Bond **Spectre**, rodada en junio de 2015, y su voladura ganó el récord Guinness a la mayor explosión de especialistas en una película.
+
+Gara Medouar queda fuera de la carretera principal, a unos 20 km de Erfoud. En un tour privado es un desvío que puedes pedir camino de las dunas.
+
+## Essaouira: Astapor y el caballo de Troya
+
+En el Atlántico, el puerto amurallado de **Essaouira** (UNESCO, 2001) fue **Astapor** en la temporada 3 de *Juego de Tronos*, la ciudad donde Daenerys compra a los Inmaculados. Las escenas se rodaron en la Skala, la muralla con cañones frente al mar, que se recorre gratis.
+
+Nolan también vino aquí. En *La Odisea*, la playa donde los troyanos encuentran el caballo de madera y se lo llevan a la ciudad está en Essaouira. Y mucho antes, **Orson Welles** rodó aquí gran parte de su **Otelo** (1952).
+
+Nuestra [excursión compartida a Essaouira](/es/tours/excursion-compartida-essaouira) desde Marrakech cuesta 30 € por persona. Desde la costa sur, la [excursión de Agadir a Essaouira](/es/tours/excursion-essaouira-agadir) llega a las mismas murallas.
+
+## Marrakech y Tahanaout
+
+La ruta de cine empieza antes de salir de la ciudad. *La Momia* empezó a rodarse en Marrakech en mayo de 1998, con la ciudad haciendo de El Cairo de los años veinte, y **El hombre que sabía demasiado** (1956) de Alfred Hitchcock transcurre en parte en la plaza Jemaa el-Fna. Unos 30 km al sur, en la carretera de Imlil y el Alto Atlas, el pueblo de **Tahanaout** hizo de partes de Troya en *La Odisea*.
+
+## Cómo verlo todo en un solo viaje
+
+- **Para cinéfilos, el [tour de 4 días al desierto](/es/tours/tour-desierto-4-dias-marrakech)** es el indicado. El primer día incluye una visita completa de Aït Ben Haddou y la comida en Ouarzazate con la opción de Atlas Studios, y la vuelta pasa por ambos el último día. Desde 446 € por persona para dos, 236 € cada uno para seis.
+- **El [tour privado de 3 días al Sáhara](/es/tours/tour-desierto-3-dias-marrakech)** para en Aït Ben Haddou el primer día, pasa por Erfoud el segundo y vuelve por Ouarzazate. Desde 380 € por persona para dos, 230 € cada uno para seis. Pide el desvío a Gara Medouar al reservar.
+- **Con poco presupuesto, el [tour compartido de 3 días a Merzouga](/es/tours/desierto-merzouga-3-dias-compartido)** para en Aït Ben Haddou y Ouarzazate por 120 € por persona. Para la visita a los estudios y el desvío a Gara Medouar, elige una de las versiones privadas.
+
+Para la historia completa de los sitios patrimonio de Marruecos en el cine, lee [los sitios UNESCO de Marruecos donde se rodaron las películas](/es/blog/morocco-unesco-sites-film-locations).
+
+👉 **[Ver el tour de 4 días al desierto](/es/tours/tour-desierto-4-dias-marrakech)**: Aït Ben Haddou, Atlas Studios y el Sáhara, con un chófer-guía que sabe qué escena se rodó en cada sitio.
+`,
+  },
+  {
+    slug: "atlas-mountains-trek-with-kids",
+    localizedSlug: "trekking-atlas-con-ninos",
+    title: "Trekking por el Atlas con niños: edades, altitud y lo que de verdad funciona",
+    excerpt: "Los niños pueden hacer trekking en el Alto Atlas, y a casi todos les encanta, si el viaje se diseña para ellos desde el principio. Qué edad funciona, por qué la altitud no es el problema en los valles, para qué sirven las mulas y qué ruta elegir.",
+    heroImage: "/gallery/blog-atlas-trek-with-kids.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    weatherRegion: "High Atlas",
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    tags: ["trekking Atlas con niños", "senderismo Marruecos niños", "Alto Atlas con niños", "Imlil en familia", "Marruecos en familia", "Toubkal con niños"],
+    seoTitle: "Trekking por el Atlas con niños",
+    seoDescription: "¿Se puede hacer trekking en el Alto Atlas con niños? Edades, altitud, horas de marcha, mulas y las rutas en familia que funcionan, de un día a cuatro días.",
+    relatedTours: ["family-atlas-4day-trek", "ourika-valley-day-hike", "atlas-mountains-3day-trek"],
+    faq: [
+      { q: "¿A qué edad pueden los niños hacer trekking en el Atlas?", a: "Desde los cuatro años, más o menos, los niños llevan bien los paseos cortos por los valles, sobre todo con mulas para los tramos de cansancio. Hacia los siete, la mayoría aguanta un día completo de trekking y una ruta de pueblo en pueblo. Por debajo de los cuatro, funciona mejor una base fija en el valle con paseos cortos que un trekking itinerante. Dinos las edades al escribirnos y te diremos con claridad si el viaje encaja con tu familia." },
+      { q: "¿Pueden los niños subir al Toubkal?", a: "No llevaríamos al Toubkal a un niño de menos de unos doce años. El motivo es la altitud, no la forma física: la cumbre está a 4.167 m y la ruta de 2 días sube desde Imlil, a 1.740 m, en unas treinta horas. Los niños no son más propensos al mal de altura que los adultos, pero lo comunican peor. Los adolescentes mayores que quieran la cumbre deberían hacer la ruta de 4 días, que aclimata de forma gradual." },
+      { q: "¿Puede un niño montar en la mula durante el trekking?", a: "Sí. En nuestro trekking familiar las mulas llevan todo el equipaje y también pueden llevar a un niño pequeño cansado, guiadas por el arriero. Nadie tiene que cargar con nadie ni ir con prisas, y para muchos niños las mulas son lo mejor del viaje." },
+      { q: "¿Cuál es la mejor época para un trekking en familia por el Atlas?", a: "La primavera y el otoño son las más fáciles: días templados, noches frescas y valles muy verdes en primavera. El verano también funciona, porque los valles son mucho más frescos que Marrakech. El invierno trae noches frías y la nieve puede llegar a los pueblos, así que encaja mejor con familias que ya han hecho trekking." },
+    ],
+    content: `
+## En resumen
+
+Sí, los niños pueden hacer trekking en el Alto Atlas, y es de lo mejor que puede hacer una familia en Marruecos, siempre que la ruta esté pensada para ellos y no adaptada después. Lo que decide el día son las horas sobre terreno irregular, no la distancia ni la altitud. Los valles alrededor de Imlil se prestan muy bien: pueblos cercanos, agua por todas partes y mulas para llevar las bolsas y, si hace falta, a un niño cansado.
+
+| Edad | Qué funciona |
+| --- | --- |
+| Menos de 4 | Una base en el valle con paseos cortos, o un día en el valle de Ourika |
+| De 4 a 7 | Excursiones de un día y un trekking de varios días con mulas |
+| 7 o más | Días completos de trekking, de pueblo en pueblo |
+| Unos 12 o más | Las rutas a la cumbre del Toubkal pasan a ser una opción real |
+
+## Lo que la montaña le pide a un niño
+
+Imlil, donde termina la carretera y empiezan casi todas las rutas, está a 1.740 m, a unos 90 minutos en coche de Marrakech. Las rutas en familia se quedan en los valles y los pueblos, por debajo de los collados altos. El terreno donde la altitud se vuelve un tema serio, el refugio del Toubkal a 3.207 m y la cumbre a 4.167 m, no forma parte de ellas.
+
+Lo que de verdad notan los niños es el tiempo de pie sobre caminos pedregosos, y el sol. Un niño que camina dos horas en casa muchas veces camina tres aquí, porque hay un río que cruzar, un pueblo al que llegar y una mula a la que seguir.
+
+## Las mulas lo cambian todo
+
+En nuestro trekking familiar, un arriero y sus mulas llevan todo el equipaje, así que nadie camina con más que una mochila pequeña. También pueden llevar a un niño pequeño cansado, y el bajón de la tarde se convierte en un paseo en mula en vez de una negociación. Nadie carga con nadie y nadie va con prisa.
+
+## Cuatro formas de hacerlo, de la más fácil a la más exigente
+
+1. **Un día en el valle de Ourika.** A una hora de Marrakech, con agua para chapotear y de vuelta para la cena. La [excursión de senderismo al valle de Ourika](/es/tours/senderismo-valle-ourika) cuesta 31 € por persona para una familia de cuatro.
+2. **Unas noches en Imlil, con paseos desde la puerta.** Nuestra familia lleva el [Gîte Panorama](/es/blog/gite-panorama-imlil-base-camp-toubkal) en Imlil. Una base en el valle permite decidir cada mañana hasta dónde llegar, algo ideal para niños pequeños y hermanos de edades distintas.
+3. **El [trekking familiar de 4 días](/es/tours/trek-atlas-familia-4-dias).** Pensado para niños desde el principio: jornadas de unas 2–3 horas, 4 horas, 4–5 horas y 3 horas de marcha, entre nogales, vados y cascadas. Incluye tres noches en casas de huéspedes con familias bereberes, todas las comidas, las mulas y el traslado desde Marrakech. Sale a partir de tres personas: 276 € por persona para tres, 257 € para cuatro, 225 € para seis.
+4. **Para adolescentes, el [trekking de 3 días por los pueblos](/es/tours/trek-pueblos-alto-atlas-3-dias).** Jornadas más largas, de 4 a 6 horas, y más terreno, con dificultad moderada. 192 € por persona para cuatro.
+
+## El Toubkal con niños
+
+No llevaríamos al Toubkal a un niño de menos de unos doce años. Es una decisión de altitud, no de forma física: la subida de 2 días va de 1.740 m en Imlil a 4.167 m en unas treinta horas. Los niños no son más propensos al mal de altura que los adultos, pero lo comunican peor, y un niño de ocho años cansado se parece mucho a uno que se encuentra un poco mal.
+
+Para adolescentes que quieran la cumbre, lee primero nuestra [guía del mal de altura](/es/blog/mal-de-altura-toubkal) y elige el [trekking de 4 días al Toubkal](/es/tours/trek-cumbre-toubkal-4-dias), que sube de forma gradual con una noche para aclimatarse.
+
+## Cuándo ir
+
+La primavera y el otoño son las épocas más fáciles para las familias: días templados, noches frescas y, en primavera, los valles en su momento más verde. El verano también funciona, porque la montaña es mucho más fresca que Marrakech. El invierno trae noches frías y la nieve puede llegar a los pueblos.
+
+[[WEATHER]]
+
+Mes a mes, nuestra [guía del tiempo en el Toubkal](/es/blog/toubkal-weather-by-month) explica qué esperar.
+
+## Qué llevar para un niño
+
+- **Calzado con buen agarre y ya usado.** Unas zapatillas con buena suela bastan en los caminos del valle; unas botas recién estrenadas, no.
+- **Capas.** Las mañanas son frescas en los valles, incluso en verano.
+- **Gorra, crema solar de protección alta y una botella rellenable** para cada niño.
+- **Tentempiés que ya les gusten**, para el rato entre el desayuno y la comida.
+- **Pañales y leche de fórmula comprados en Marrakech.** Las tiendas de los pueblos no siempre los tienen.
+
+La lista completa para adultos está en [qué llevar para un trekking por el Alto Atlas](/es/blog/what-to-pack-high-atlas-trek-morocco).
+
+## Las noches en los pueblos
+
+Las noches se pasan con familias bereberes: cena hecha en casa, pan del horno familiar y té con menta servido desde lo alto. Para la mayoría de los niños eso, más que la caminata, es lo que recuerdan. Las casas suelen tener azoteas y escaleras abiertas, así que echa un vistazo al llegar si viajas con un niño pequeño.
+
+Para el resto del viaje, de las sillas de coche a los niños que comen poco, lee nuestra guía de [Marruecos con niños](/es/blog/marruecos-con-ninos-guia-familiar).
+
+👉 **[Ver el trekking familiar de 4 días](/es/tours/trek-atlas-familia-4-dias)**: jornadas cortas, noches en los pueblos y mulas para el equipaje, con un guía de estos valles.
+`,
   },
 ];

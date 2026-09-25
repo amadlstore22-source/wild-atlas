@@ -173,17 +173,18 @@ export const EVENTS: TourEvent[] = [
     name: "Gnaoua and World Music Festival, Essaouira",
     shortName: "Gnaoua Festival",
     region: "coast-atlantic",
-    // The 27th edition (25-27 June 2026) has now passed and the organisers
-    // have not yet announced 2027, so this drops to `estimated` on the June
-    // window it has held for years. Promote back to `confirmed` — with the
-    // exact dates and this same sourceUrl — the moment festival-gnaoua.net
-    // publishes the 28th edition.
-    startDate: "2027-06-01",
-    endDate: "2027-06-30",
-    confidence: "estimated",
+    // 28th edition, confirmed on festival-gnaoua.net on 2026-09-25: "See you
+    // from June 24 to 26, 2027". It had sat at `estimated` (the whole of June)
+    // since the 27th edition ended, while Search Console showed ~400
+    // impressions a quarter for "festival gnaoua 2027" at position 5 and
+    // almost no clicks: the searcher wanted the dates, and the snippet said
+    // they were not out yet.
+    startDate: "2027-06-24",
+    endDate: "2027-06-26",
+    confidence: "confirmed",
     sourceUrl: "https://www.festival-gnaoua.net/en/home/",
     dateNote:
-      "The organisers announce each edition a few months ahead and have not yet published 2027 dates. The festival has been held in late June for years — the 27th edition ran 25–27 June 2026.",
+      "Confirmed by the organisers: the 28th edition runs 24–26 June 2027. The 27th ran 25–27 June 2026.",
     year: 2027,
     blurb:
       "Three days of Gnaoua trance music on the Atlantic, in a walled town that empties of cars and fills with drums.",
@@ -202,7 +203,7 @@ export const EVENTS: TourEvent[] = [
     considerations: [
       "Essaouira accommodation sells out months ahead — a day trip from Marrakech is often the only realistic way in.",
       "Crowds are heavy and the medina is loud all night; light sleepers should not stay inside the walls.",
-      "The 2027 dates are not published yet. We hold the late-June window the festival has used for years and confirm as soon as the organisers announce.",
+      "Day trips from Marrakech on the festival dates fill early. Tell us which of the three days you want as soon as you know.",
     ],
   },
   {

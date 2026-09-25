@@ -46,6 +46,8 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "morocco-desert-in-winter-guide": "desert-maroc-en-hiver",
   "morocco-desert-tour-older-travellers": "circuit-desert-maroc-seniors",
   "cycling-mountain-biking-high-atlas-morocco": "velo-vtt-haut-atlas-maroc",
+  "morocco-film-locations-tour": "lieux-de-tournage-maroc",
+  "atlas-mountains-trek-with-kids": "trek-atlas-en-famille",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -85,6 +87,8 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "morocco-desert-in-winter-guide": "desierto-marruecos-en-invierno",
   "morocco-desert-tour-older-travellers": "circuito-desierto-marruecos-mayores",
   "cycling-mountain-biking-high-atlas-morocco": "bicicleta-btt-alto-atlas-marruecos",
+  "morocco-film-locations-tour": "lugares-de-rodaje-marruecos",
+  "atlas-mountains-trek-with-kids": "trekking-atlas-con-ninos",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -124,6 +128,8 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "morocco-desert-in-winter-guide": "marokko-wueste-im-winter",
   "morocco-desert-tour-older-travellers": "wuestentour-marokko-fuer-aeltere-reisende",
   "cycling-mountain-biking-high-atlas-morocco": "radfahren-mountainbiken-hoher-atlas-marokko",
+  "morocco-film-locations-tour": "drehorte-marokko",
+  "atlas-mountains-trek-with-kids": "atlas-trekking-mit-kindern",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -162,6 +168,8 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "how-booking-a-morocco-tour-works": "come-funziona-la-prenotazione-marocco",
   "morocco-desert-in-winter-guide": "deserto-marocco-in-inverno",
   "morocco-desert-tour-older-travellers": "tour-deserto-marocco-anziani",
+  "morocco-film-locations-tour": "location-film-marocco",
+  "atlas-mountains-trek-with-kids": "trekking-atlante-con-bambini",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

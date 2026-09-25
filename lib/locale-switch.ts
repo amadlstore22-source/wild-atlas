@@ -62,6 +62,8 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "desert-maroc-en-hiver": "morocco-desert-in-winter-guide",
     "circuit-desert-maroc-seniors": "morocco-desert-tour-older-travellers",
     "velo-vtt-haut-atlas-maroc": "cycling-mountain-biking-high-atlas-morocco",
+    "lieux-de-tournage-maroc": "morocco-film-locations-tour",
+    "trek-atlas-en-famille": "atlas-mountains-trek-with-kids",
   },
   es: {
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -100,6 +102,8 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "desierto-marruecos-en-invierno": "morocco-desert-in-winter-guide",
     "circuito-desierto-marruecos-mayores": "morocco-desert-tour-older-travellers",
     "bicicleta-btt-alto-atlas-marruecos": "cycling-mountain-biking-high-atlas-morocco",
+    "lugares-de-rodaje-marruecos": "morocco-film-locations-tour",
+    "trekking-atlas-con-ninos": "atlas-mountains-trek-with-kids",
   },
   de: {
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -138,6 +142,8 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "marokko-wueste-im-winter": "morocco-desert-in-winter-guide",
     "wuestentour-marokko-fuer-aeltere-reisende": "morocco-desert-tour-older-travellers",
     "radfahren-mountainbiken-hoher-atlas-marokko": "cycling-mountain-biking-high-atlas-morocco",
+    "drehorte-marokko": "morocco-film-locations-tour",
+    "atlas-trekking-mit-kindern": "atlas-mountains-trek-with-kids",
   },
   it: {
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
@@ -175,6 +181,8 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "come-funziona-la-prenotazione-marocco": "how-booking-a-morocco-tour-works",
     "deserto-marocco-in-inverno": "morocco-desert-in-winter-guide",
     "tour-deserto-marocco-anziani": "morocco-desert-tour-older-travellers",
+    "location-film-marocco": "morocco-film-locations-tour",
+    "trekking-atlante-con-bambini": "atlas-mountains-trek-with-kids",
   },
 };
 

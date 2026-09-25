@@ -137,7 +137,7 @@ const COPY: Table = {
       description:
         "Les maâlems se réunissent — maîtres musiciens gnaoua — sur des scènes ouvertes à travers Essaouira, aux côtés d'invités jazz et musiques du monde qui improvisent avec eux. C'est gratuit, en plein air, et la médina veille jusqu'à l'aube. Les hébergements à Essaouira se remplissent des mois à l'avance : une excursion à la journée depuis Marrakech est souvent la façon la plus réaliste d'y assister.",
       dateNote:
-        "Les organisateurs annoncent chaque édition quelques mois à l'avance et n'ont pas encore publié les dates 2027. Le festival se tient fin juin depuis des années — la 27e édition a eu lieu du 25 au 27 juin 2026.",
+        "Confirmé par les organisateurs : la 28e édition a lieu du 24 au 26 juin 2027. La 27e s'est tenue du 25 au 27 juin 2026.",
       highlights: [
         "Des maâlems — maîtres musiciens gnaoua — sur des scènes ouvertes dans toute la médina",
         "Gratuit et en plein air : pas de billet, pas de salle, toute la ville est le festival",
@@ -148,7 +148,7 @@ const COPY: Table = {
       considerations: [
         "Les hébergements d'Essaouira sont complets des mois à l'avance — une excursion à la journée depuis Marrakech est souvent la seule option réaliste.",
         "L'affluence est forte et la médina reste bruyante toute la nuit ; mieux vaut ne pas dormir à l'intérieur des remparts si vous avez le sommeil léger.",
-        "Les dates 2027 ne sont pas publiées. Nous retenons la fenêtre de fin juin utilisée depuis des années et confirmons dès l'annonce des organisateurs.",
+        "Les excursions depuis Marrakech aux dates du festival se remplissent tôt. Dites-nous lequel des trois jours vous intéresse dès que vous le savez.",
       ],
     },
     es: {
@@ -159,7 +159,7 @@ const COPY: Table = {
       description:
         "Los maalems se reúnen — maestros músicos gnaoua — en escenarios abiertos por toda Essaouira, junto a invitados de jazz y músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la medina no duerme hasta el amanecer. El alojamiento en Essaouira se agota con meses de antelación, así que una excursión de un día desde Marrakech suele ser la forma más realista de verlo.",
       dateNote:
-        "Los organizadores anuncian cada edición unos meses antes y aún no han publicado las fechas de 2027. El festival se celebra a finales de junio desde hace años: la 27ª edición fue del 25 al 27 de junio de 2026.",
+        "Confirmado por los organizadores: la 28ª edición se celebra del 24 al 26 de junio de 2027. La 27ª fue del 25 al 27 de junio de 2026.",
       highlights: [
         "Maalems — maestros músicos gnaoua — en escenarios abiertos por toda la medina",
         "Gratuito y al aire libre: sin entrada, sin recinto, toda la ciudad es el festival",
@@ -170,7 +170,7 @@ const COPY: Table = {
       considerations: [
         "El alojamiento en Essaouira se agota con meses de antelación: una excursión de un día desde Marrakech suele ser la única opción realista.",
         "Hay mucha gente y la medina es ruidosa toda la noche; quien tenga el sueño ligero no debería dormir dentro de las murallas.",
-        "Las fechas de 2027 aún no se han publicado. Mantenemos la ventana de finales de junio de años anteriores y confirmamos en cuanto los organizadores la anuncien.",
+        "Las excursiones desde Marrakech en las fechas del festival se llenan pronto. Dinos cuál de los tres días quieres en cuanto lo sepas.",
       ],
     },
     de: {
@@ -181,7 +181,7 @@ const COPY: Table = {
       description:
         "Maalems kommen — Gnaoua-Meistermusiker — auf offene Bühnen in ganz Essaouira, zusammen mit Jazz- und Weltmusikgästen, die mit ihnen improvisieren. Der Eintritt ist frei, alles findet draußen statt, und die Medina bleibt bis zum Morgengrauen wach. Unterkünfte in Essaouira sind Monate im Voraus ausgebucht, daher ist ein Tagesausflug ab Marrakesch oft der realistischere Weg.",
       dateNote:
-        "Die Veranstalter geben jede Ausgabe einige Monate im Voraus bekannt und haben die Termine für 2027 noch nicht veröffentlicht. Das Festival findet seit Jahren Ende Juni statt — die 27. Ausgabe lief vom 25. bis 27. Juni 2026.",
+        "Von den Veranstaltern bestätigt: Die 28. Ausgabe findet vom 24. bis 26. Juni 2027 statt. Die 27. lief vom 25. bis 27. Juni 2026.",
       highlights: [
         "Maalems — Gnaoua-Meistermusiker — auf offenen Bühnen in der ganzen Medina",
         "Kostenlos und unter freiem Himmel: kein Ticket, kein Veranstaltungsort, die ganze Stadt ist das Festival",
@@ -192,7 +192,7 @@ const COPY: Table = {
       considerations: [
         "Unterkünfte in Essaouira sind Monate im Voraus ausgebucht — ein Tagesausflug ab Marrakesch ist oft der einzig realistische Weg.",
         "Es ist sehr voll und die Medina bleibt die ganze Nacht laut; wer leicht aufwacht, sollte nicht innerhalb der Mauern übernachten.",
-        "Die Termine für 2027 stehen noch nicht fest. Wir halten das seit Jahren übliche Ende-Juni-Fenster und bestätigen, sobald die Veranstalter es bekannt geben.",
+        "Tagesausflüge ab Marrakesch an den Festivaltagen sind früh ausgebucht. Sagen Sie uns, welchen der drei Tage Sie möchten, sobald Sie es wissen.",
       ],
     },
     it: {
@@ -203,7 +203,7 @@ const COPY: Table = {
       description:
         "I maalem si riuniscono — maestri musicisti gnaoua — su palchi aperti in tutta Essaouira, insieme a ospiti jazz e world music che improvvisano con loro. È gratuito, all'aperto, e la medina resta sveglia fino all'alba. Gli alloggi a Essaouira si esauriscono con mesi di anticipo, quindi una gita in giornata da Marrakech è spesso il modo più realistico per viverlo.",
       dateNote:
-        "Gli organizzatori annunciano ogni edizione qualche mese prima e non hanno ancora pubblicato le date del 2027. Il festival si tiene a fine giugno da anni: la 27ª edizione si è svolta dal 25 al 27 giugno 2026.",
+        "Confermato dagli organizzatori: la 28ª edizione si tiene dal 24 al 26 giugno 2027. La 27ª si è svolta dal 25 al 27 giugno 2026.",
       highlights: [
         "Maalem — maestri musicisti gnaoua — su palchi aperti in tutta la medina",
         "Gratuito e all'aperto: nessun biglietto, nessuna sala, tutta la città è il festival",
@@ -214,7 +214,7 @@ const COPY: Table = {
       considerations: [
         "Gli alloggi a Essaouira si esauriscono con mesi di anticipo: una gita in giornata da Marrakech è spesso l'unica opzione realistica.",
         "C'è molta folla e la medina resta rumorosa tutta la notte; chi ha il sonno leggero non dovrebbe dormire dentro le mura.",
-        "Le date del 2027 non sono ancora pubblicate. Manteniamo la finestra di fine giugno usata da anni e confermiamo appena gli organizzatori annunciano.",
+        "Le gite da Marrakech nei giorni del festival si riempiono presto. Diteci quale dei tre giorni vi interessa appena lo sapete.",
       ],
     },
     ar: {
@@ -225,7 +225,7 @@ const COPY: Table = {
       description:
         "يجتمع المعلمون — أساتذة موسيقى كناوة — على منصات مفتوحة في أنحاء الصويرة، إلى جانب ضيوف من الجاز وموسيقى العالم يرتجلون معهم. الدخول مجاني، والعروض في الهواء الطلق، والمدينة العتيقة تسهر حتى الفجر. أماكن الإقامة في الصويرة تُحجز قبل أشهر، لذا فإن رحلة يومية من مراكش غالبًا ما تكون الطريقة الأكثر واقعية للحضور.",
       dateNote:
-        "يعلن المنظمون عن كل دورة قبل أشهر قليلة، ولم ينشروا بعد مواعيد 2027. يُقام المهرجان في أواخر يونيو منذ سنوات — أُقيمت الدورة السابعة والعشرون من 25 إلى 27 يونيو 2026.",
+        "أكّد المنظمون: تُقام الدورة الثامنة والعشرون من 24 إلى 26 يونيو 2027. وأُقيمت الدورة السابعة والعشرون من 25 إلى 27 يونيو 2026.",
       highlights: [
         "المعلمون — كبار موسيقيي كناوة — على مسارح مفتوحة في أنحاء المدينة القديمة",
         "مجاني وفي الهواء الطلق: بلا تذكرة وبلا قاعة، المدينة كلها هي المهرجان",
@@ -236,7 +236,7 @@ const COPY: Table = {
       considerations: [
         "أماكن الإقامة في الصويرة تُحجز بالكامل قبل أشهر — رحلة يوم واحد من مراكش غالبًا هي الخيار الواقعي الوحيد.",
         "الزحام شديد والمدينة القديمة صاخبة طوال الليل؛ من ينام بسهولة خفيفة يُفضّل ألا يبيت داخل الأسوار.",
-        "تواريخ 2027 لم تُنشر بعد. نعتمد نافذة أواخر يونيو المعتادة منذ سنوات ونؤكّدها فور إعلان المنظمين.",
+        "الرحلات اليومية من مراكش في أيام المهرجان تمتلئ مبكرًا. أخبرونا بأي الأيام الثلاثة تريدون فور معرفتكم.",
       ],
     },
   },

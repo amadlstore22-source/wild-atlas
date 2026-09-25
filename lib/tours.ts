@@ -306,7 +306,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
-    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers"],
+    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
     title: "Marrakech to Merzouga — 3-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -2022,7 +2022,7 @@ export const TOURS: Tour[] = [
   {
     id: "25",
     slug: "desert-4day-marrakech",
-    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers"],
+    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
     title: "Marrakech Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "marrakech",
@@ -3800,7 +3800,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    relatedPosts: ["morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco"],
+    relatedPosts: ["morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco", "atlas-mountains-trek-with-kids"],
     brief: [
       "Trekking with children works when the days are short and there is something to look at, and this itinerary is built to that rule rather than adapted to it afterwards. Day one is a 1.5-hour drive to Imlil and a 2–3 hour walk to the first village. Day two is 4 hours around valley waterfalls. Day three crosses to the Ourika side in 4–5 hours. Day four is a 3-hour descent and the drive back. Half-days, not route marches.",
       "The ground is deliberately easy — lower Imlil and Ourika, river crossings, walnut groves and waterfalls instead of high passes. Mules carry all the luggage, and they can carry a tired child too, which is the detail that turns a difficult afternoon into a non-event. Nobody is carrying a pack and nobody is being hurried.",

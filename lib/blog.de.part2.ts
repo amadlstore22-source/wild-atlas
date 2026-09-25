@@ -5172,7 +5172,7 @@ für das mitgebrachte Alter nicht passt.
     faq: [
       {
         q: "Was ist der wirkliche Unterschied zwischen Luxus- und Standardcamp?",
-        a: "Vor allem das Bad. Ein Luxuszelt hat ein eigenes Bad mit Spültoilette und heißer Dusche; ein Standardcamp hat Gemeinschaftssanitäranlagen in einem separaten Block. Alles andere — größere Betten, Teppiche, Strom, manchmal Heizung oder Klimaanlage — folgt aus derselben Investition. Die Dünen draußen sind identisch.",
+        a: "Vor allem das Bad. Ein Luxuszelt hat ein eigenes Bad mit Spültoilette und heißer Dusche; ein Standardcamp hat Gemeinschaftssanitäranlagen in einem separaten Block. Alles andere — größere Betten, Teppiche, manchmal Heizung oder Klimaanlage — folgt aus derselben Investition. Die Dünen draußen sind identisch.",
       },
       {
         q: "Wie viel mehr kostet ein Luxuscamp?",
@@ -5180,11 +5180,11 @@ für das mitgebrachte Alter nicht passt.
       },
       {
         q: "Ist ein Standardcamp unbequem?",
-        a: "Nein, aber einfach. Ein richtiges Bett mit Matratze, Bettwäsche und Decken in einem Segeltuch- oder Wollzelt, geteilte Toiletten und Duschen in der Nähe, vor Ort gekochtes Abendessen und Trommeln am Feuer. Was Sie nicht bekommen: Privatsphäre im Bad und verlässlich heißes Wasser zu der Stunde, die Ihnen passt.",
+        a: "Nein, aber einfach. Ein richtiges Bett mit Matratze, Bettwäsche und Decken in einem Segeltuch- oder Wollzelt, geteilte Toiletten und Duschen in der Nähe, vor Ort gekochtes Abendessen und Trommeln am Feuer. Es gibt Strom für Licht und Laden, heißes Wasser und WLAN. Was Sie nicht bekommen: Privatsphäre im Bad.",
       },
       {
         q: "Haben Luxuscamps Strom und Heizung?",
-        a: "Meist ja — Solar- oder Generatorstrom für Licht und Laden, Heizgeräte für Winternächte und manchmal Klimaanlage im Sommer. Standardcamps haben in der Regel ein paar Abendstunden Licht und keine Temperaturregelung, was im Januar deutlich mehr wiegt als im April.",
+        a: "Meist ja — Solar- oder Generatorstrom für Licht und Laden, Heizgeräte für Winternächte und manchmal Klimaanlage im Sommer. Auch die Standardcamps, die wir nutzen, haben Strom für Licht und Laden sowie WLAN — was ihnen fehlt, ist die Temperaturregelung, und die wiegt im Januar deutlich mehr als im April.",
       },
       {
         q: "Welches Camp sollten Familien wählen?",
@@ -5200,29 +5200,28 @@ für das mitgebrachte Alter nicht passt.
 
 Fast der gesamte Unterschied ist das Bad.
 
-Ein **Standardcamp** gibt Ihnen ein richtiges Bett in einem Segeltuch- oder schwarzen Wollzelt, mit geteilten Toiletten und Duschen in einem Block wenige Schritte entfernt. Ein **Luxuscamp** gibt Ihnen dieselben Dünen, dasselbe Abendessen, denselben Himmel — und Ihr eigenes Bad im Zelt, mit Spültoilette und heißer Dusche, die funktioniert, wenn Sie sie brauchen.
+Ein **Standardcamp** gibt Ihnen ein richtiges Bett in einem Segeltuch- oder schwarzen Wollzelt, mit geteilten Toiletten und Duschen in einem Block wenige Schritte entfernt. Ein **Luxuscamp** gibt Ihnen dieselben Dünen, dasselbe Abendessen, denselben Himmel — und Ihr eigenes Bad im Zelt, mit Spültoilette und heißer Dusche.
 
-Alles andere, was auf der Luxusseite aufgelistet wird — größere Betten, Teppiche, Möbel, Steckdosen, Heizung — folgt aus derselben Investition. Nimmt man das Marketing weg, entscheiden Sie vor allem, ob Sie um zwei Uhr nachts durch Sand laufen wollen.
+Alles andere, was auf der Luxusseite aufgelistet wird — größere Betten, Teppiche, Möbel, Heizung — folgt aus derselben Investition. Nimmt man das Marketing weg, entscheiden Sie vor allem, ob Sie um zwei Uhr nachts durch Sand laufen wollen.
 
 ## Wie ein Standardcamp wirklich ist
 
 Das ist es, was die meisten unserer Wüstentouren beinhalten, und es ist kein Überlebenscamping:
 
 - Ein Bettgestell mit Matratze, Bettwäsche und Decken, in einem Segeltuchzelt oder einem traditionellen schwarzen Berberzelt aus Wolle
-- Spültoiletten und Duschen zur gemeinsamen Nutzung im nahen Block. Heißes Wasser meistens, nicht immer
+- Spültoiletten und heiße Duschen zur gemeinsamen Nutzung im nahen Block
 - Vor Ort gekochtes Abendessen — üblicherweise Tajine, Salate, Brot, Obst — und Frühstück
-- Licht in den Abendstunden, danach gehen die Generatoren aus
+- Strom für Licht und Laden, dazu WLAN
 - Trommeln und Feuer unter einem extrem dunklen Himmel
 
-Was es nicht bietet: Privatsphäre im Bad, garantiert heißes Wasser zur Wunschzeit, Strom zum Laden über Nacht oder Heizung im Winter.
+Was es nicht bietet: Privatsphäre im Bad oder Heizung im Winter.
 
-Die meisten, die eine Nacht dort verbringen, beschreiben sie hinterher als die beste der Reise. Das Fehlen von Strom hat daran großen Anteil.
+Die meisten, die eine Nacht dort verbringen, beschreiben sie hinterher als die beste der Reise. Die Stille und der dunkle Himmel haben daran großen Anteil.
 
 ## Was das Luxus-Upgrade tatsächlich bringt
 
 - **Ein eigenes Bad im Zelt** — Spültoilette, Waschbecken, heiße Dusche mit echtem Druck. Das ist das Upgrade; der Rest ist Beiwerk.
 - **Ein größeres Zelt** mit richtigem Bett, Teppichen, Sitzecke, manchmal einer kleinen Terrasse
-- **Verlässlicher Strom** für Licht und Laden, aus Solar oder Generator
 - **Heizung im Winter, Klimaanlage im Sommer** in den besseren Camps
 - **Besseres Essen**, mehr Gänge und meist eine ruhigere, sorgfältiger gestaltete Atmosphäre
 
@@ -5235,7 +5234,7 @@ Was sich nicht ändert: die Dünen, der Sonnenuntergang, die Sterne, der Kamelri
 | Marktpreis pro Nacht | 40–100 EUR | 150–500 EUR |
 | Typisches Upgrade auf gebuchter Tour | — | etwa 70 EUR pro Person und Nacht |
 | Bad | Gemeinschaftsblock | eigenes Bad im Zelt |
-| Strom | nur abends | durchgehend, Solar oder Generator |
+| Strom und WLAN | ja | ja |
 | Temperaturregelung | keine | Heizung, oft Klimaanlage |
 
 Zwei Dinge lohnen in dieser Tabelle den zweiten Blick.
@@ -6538,7 +6537,7 @@ Einsamkeit wollen; nehmen Sie das Tal, wenn es Ihr erster Atlas-Gipfel ist.
       },
       {
         q: "Gibt es Strom und WLAN im Wüstencamp?",
-        a: "Die meisten Camps laufen mit Solarstrom und einem Generator als Reserve: Licht in den Zelten und meist ein bis zwei Steckdosen im Gemeinschaftsbereich zum Laden eines Handys. Rechnen Sie nicht damit, mehrere Geräte gleichzeitig zu laden. Der Mobilfunkempfang am Erg Chebbi reicht meist für Nachrichten; WLAN ist selten und langsam, wo es existiert. Betrachten Sie eine Nacht offline als Teil der Erfahrung.",
+        a: "Ja, in den Camps, die wir am Erg Chebbi nutzen: Strom für Licht und Laden sowie WLAN. Das WLAN ist mitten in den Dünen langsam — ausreichend für Nachrichten und Fotos, nicht für Videoanrufe —, und der Mobilfunkempfang am Erg Chebbi reicht meist ebenfalls für Nachrichten.",
       },
       {
         q: "Was gibt es in einem Wüstencamp zu essen?",
@@ -6590,9 +6589,9 @@ Camps stellen schwere Decken, und die Zelte halten die Wärme gut. Aber zwischen
 
 ## Strom, Empfang, Wasser
 
-Solar mit Generator als Reserve ist die Norm. Erwarten Sie Licht im Zelt und ein bis zwei Steckdosen im Gemeinschaftsbereich. Planen Sie nicht, vier Geräte zu laden.
+Die Camps, die wir am Erg Chebbi nutzen, haben Strom für Licht und Laden sowie WLAN.
 
-Der Mobilfunkempfang am Erg Chebbi reicht meist für Nachrichten. WLAN ist selten und dort, wo es existiert, langsam. Ein Abend ohne ist keine Härte.
+Das WLAN ist mitten in den Dünen langsam, und der Mobilfunkempfang reicht meist für Nachrichten — genug, um Fotos nach Hause zu schicken, nicht für Videoanrufe.
 
 Flaschenwasser wird gestellt. Duschen, wo vorhanden, laufen über Tankwasser — halten Sie sie kurz, aus dem naheliegenden Grund.
 

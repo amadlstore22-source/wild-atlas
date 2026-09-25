@@ -5158,7 +5158,7 @@ viaje no encaja con la edad que traes.
     faq: [
       {
         q: "¿Cuál es la diferencia real entre un campamento de lujo y uno estándar?",
-        a: "Sobre todo el baño. Una jaima de lujo tiene baño propio dentro, con inodoro con cisterna y ducha caliente; un campamento estándar tiene servicios compartidos en un bloque aparte. Todo lo demás — camas más grandes, alfombras, electricidad, a veces calefacción o aire acondicionado — se deriva de la misma inversión. Las dunas de fuera son idénticas.",
+        a: "Sobre todo el baño. Una jaima de lujo tiene baño propio dentro, con inodoro con cisterna y ducha caliente; un campamento estándar tiene servicios compartidos en un bloque aparte. Todo lo demás — camas más grandes, alfombras, a veces calefacción o aire acondicionado — se deriva de la misma inversión. Las dunas de fuera son idénticas.",
       },
       {
         q: "¿Cuánto cuesta más un campamento de lujo?",
@@ -5166,11 +5166,11 @@ viaje no encaja con la edad que traes.
       },
       {
         q: "¿Es incómodo un campamento estándar?",
-        a: "No, pero es básico. Una cama de verdad con colchón, sábanas y mantas dentro de una jaima de lona o de lana, aseos y duchas compartidos cerca, cena cocinada en el sitio y tambores alrededor del fuego. Lo que no tienes es intimidad en el baño ni agua caliente fiable a la hora que quieras.",
+        a: "No, pero es básico. Una cama de verdad con colchón, sábanas y mantas dentro de una jaima de lona o de lana, aseos y duchas compartidos cerca, cena cocinada en el sitio y tambores alrededor del fuego. Hay electricidad para luz y recarga, agua caliente y wifi. Lo que no tienes es intimidad en el baño.",
       },
       {
         q: "¿Tienen electricidad y calefacción los campamentos de lujo?",
-        a: "Normalmente sí — energía solar o generador para luz y recarga, calefactores para las noches de invierno y a veces aire acondicionado en verano. Los campamentos estándar suelen tener luz unas pocas horas por la tarde y ningún control de temperatura, lo que pesa mucho más en enero que en abril.",
+        a: "Normalmente sí — energía solar o generador para luz y recarga, calefactores para las noches de invierno y a veces aire acondicionado en verano. Los campamentos estándar que usamos también tienen electricidad para luz y recarga, y wifi; lo que les falta es control de temperatura, que pesa mucho más en enero que en abril.",
       },
       {
         q: "¿Qué campamento deberían elegir las familias?",
@@ -5186,29 +5186,28 @@ viaje no encaja con la edad que traes.
 
 Casi toda la diferencia es el baño.
 
-Un **campamento estándar** te da una cama de verdad dentro de una jaima de lona o de lana negra, con aseos y duchas compartidos en un bloque a pocos pasos. Un **campamento de lujo** te da las mismas dunas, la misma cena, el mismo cielo — y tu propio baño dentro de la jaima, con inodoro con cisterna y ducha caliente que funciona cuando quieres.
+Un **campamento estándar** te da una cama de verdad dentro de una jaima de lona o de lana negra, con aseos y duchas compartidos en un bloque a pocos pasos. Un **campamento de lujo** te da las mismas dunas, la misma cena, el mismo cielo — y tu propio baño dentro de la jaima, con inodoro con cisterna y ducha caliente.
 
-Todo lo demás que aparece en la lista del lujo — camas más grandes, alfombras, muebles, enchufes, calefacción — sale de la misma inversión. Pero si le quitas el envoltorio comercial, sobre todo estás decidiendo si te importa cruzar arena a oscuras a las dos de la madrugada.
+Todo lo demás que aparece en la lista del lujo — camas más grandes, alfombras, muebles, calefacción — sale de la misma inversión. Pero si le quitas el envoltorio comercial, sobre todo estás decidiendo si te importa cruzar arena a oscuras a las dos de la madrugada.
 
 ## Cómo es realmente un campamento estándar
 
 Es lo que incluyen la mayoría de nuestros circuitos por el desierto, y no es acampada dura:
 
 - Una cama con somier, colchón, sábanas y mantas, dentro de una jaima de lona o una jaima bereber tradicional de lana negra
-- Aseos con cisterna y duchas compartidos en un bloque cercano. Agua caliente casi siempre, no siempre
+- Aseos con cisterna y duchas con agua caliente compartidos en un bloque cercano
 - Cena cocinada en el sitio — normalmente tajine, ensaladas, pan, fruta — y desayuno
-- Luz durante las horas de la tarde, luego se apagan los generadores
+- Electricidad para luz y recarga, y wifi
 - Tambores y hoguera bajo un cielo extremadamente oscuro
 
-Lo que no te da: intimidad en el baño, agua caliente garantizada a la hora que quieras, corriente para cargar aparatos por la noche, ni calefacción en invierno.
+Lo que no te da: intimidad en el baño ni calefacción en invierno.
 
-La mayoría de quienes pasan una noche así la describen después como la mejor del viaje. La ausencia de electricidad tiene mucho que ver.
+La mayoría de quienes pasan una noche así la describen después como la mejor del viaje. El silencio y el cielo oscuro tienen mucho que ver.
 
 ## Qué compra realmente la mejora a lujo
 
 - **Un baño propio dentro de tu jaima** — inodoro con cisterna, lavabo, ducha caliente con presión de verdad. Esa es la mejora; el resto es adorno.
 - **Una jaima más grande** con cama en condiciones, alfombras, asientos, a veces una pequeña terraza
-- **Electricidad fiable** para luz y recarga, solar o de generador
 - **Calefacción en invierno, aire acondicionado en verano** en los mejores campamentos
 - **Mejor comida**, más platos, y normalmente un ambiente más tranquilo y cuidado
 
@@ -5221,7 +5220,7 @@ Lo que no cambia: las dunas, la puesta de sol, las estrellas, el paseo en dromed
 | Precio de mercado por noche | 40–100 EUR | 150–500 EUR |
 | Mejora típica sobre un circuito reservado | — | unos 70 EUR por persona y noche |
 | Baño | bloque compartido | propio, dentro de la jaima |
-| Electricidad | solo por la tarde | completa, solar o generador |
+| Electricidad y wifi | sí | sí |
 | Control de temperatura | ninguno | calefacción, a menudo A/A |
 
 Dos cosas merecen atención en esa tabla.
@@ -6525,7 +6524,7 @@ quieres la soledad; toma el valle si es tu primera cumbre del Atlas.
       },
       {
         q: "¿Hay electricidad y wifi en un campamento del desierto?",
-        a: "La mayoría funciona con energía solar y un generador de apoyo, lo que significa luz en las jaimas y normalmente uno o dos enchufes en la zona común para cargar el móvil. No cuente con cargar varios dispositivos a la vez. La cobertura móvil en Erg Chebbi suele bastar para mensajes; el wifi es raro y lento donde existe. Tome una noche sin conexión como parte de la experiencia.",
+        a: "Sí, en los campamentos que usamos en Erg Chebbi: electricidad para luz y recarga, y wifi. El wifi es lento en mitad de las dunas — suficiente para mensajes y fotos, no para videollamadas — y la cobertura móvil en Erg Chebbi también suele bastar para mensajes.",
       },
       {
         q: "¿Qué se come en un campamento del desierto?",
@@ -6577,9 +6576,9 @@ Los campamentos dan mantas gruesas y las jaimas conservan bien el calor. Pero en
 
 ## Electricidad, cobertura, agua
 
-Solar con generador de apoyo es la norma. Espere luz en la jaima y uno o dos enchufes en la zona común. No planee cargar cuatro aparatos.
+Los campamentos que usamos en Erg Chebbi tienen electricidad para luz y recarga, y wifi.
 
-La cobertura móvil en Erg Chebbi suele bastar para mensajes. El wifi es raro y donde lo hay va lento. Una noche sin él no es un sufrimiento.
+El wifi es lento en mitad de las dunas y la cobertura móvil suele bastar para mensajes: lo justo para enviar fotos a casa, no para videollamadas.
 
 Se proporciona agua embotellada. Las duchas, donde las hay, funcionan con depósito: que sea corta, por la razón evidente.
 

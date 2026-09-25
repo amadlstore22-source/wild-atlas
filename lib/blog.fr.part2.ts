@@ -5205,7 +5205,7 @@ ne convient pas à l'âge que vous emmenez.
     faq: [
       {
         q: "Quelle est la vraie différence entre un campement de luxe et un campement standard ?",
-        a: "Essentiellement la salle de bain. Une tente de luxe dispose de sa propre salle d'eau privative, avec toilettes à chasse et douche chaude ; un campement standard propose des sanitaires partagés dans un bloc séparé. Tout le reste — lits plus grands, tapis, électricité, parfois chauffage ou climatisation — découle du même investissement. Les dunes, dehors, sont identiques.",
+        a: "Essentiellement la salle de bain. Une tente de luxe dispose de sa propre salle d'eau privative, avec toilettes à chasse et douche chaude ; un campement standard propose des sanitaires partagés dans un bloc séparé. Tout le reste — lits plus grands, tapis, parfois chauffage ou climatisation — découle du même investissement. Les dunes, dehors, sont identiques.",
       },
       {
         q: "Combien coûte un campement de luxe en plus ?",
@@ -5213,11 +5213,11 @@ ne convient pas à l'âge que vous emmenez.
       },
       {
         q: "Un campement standard est-il inconfortable ?",
-        a: "Non, mais il est sobre. Un vrai lit avec matelas, draps et couvertures sous une tente de toile ou de laine, des toilettes et douches partagées à proximité, un dîner préparé sur place et des percussions autour du feu. Ce que vous n'avez pas : l'intimité pour la salle de bain, ni l'eau chaude garantie à l'heure qui vous arrange.",
+        a: "Non, mais il est sobre. Un vrai lit avec matelas, draps et couvertures sous une tente de toile ou de laine, des toilettes et douches partagées à proximité, un dîner préparé sur place et des percussions autour du feu. Il y a l'électricité pour l'éclairage et la recharge, l'eau chaude et le Wi-Fi. Ce que vous n'avez pas : l'intimité pour la salle de bain.",
       },
       {
         q: "Les campements de luxe ont-ils l'électricité et le chauffage ?",
-        a: "Généralement oui — énergie solaire ou groupe électrogène pour l'éclairage et la recharge, chauffage pour les nuits d'hiver et parfois climatisation en été. Les campements standard n'ont le plus souvent que quelques heures d'éclairage en soirée et aucune régulation thermique, ce qui pèse davantage en janvier qu'en avril.",
+        a: "Généralement oui — énergie solaire ou groupe électrogène pour l'éclairage et la recharge, chauffage pour les nuits d'hiver et parfois climatisation en été. Les campements standard que nous utilisons ont eux aussi l'électricité pour l'éclairage et la recharge, et le Wi-Fi — ce qui leur manque, c'est la régulation thermique, qui pèse davantage en janvier qu'en avril.",
       },
       {
         q: "Quel campement choisir en famille ?",
@@ -5233,29 +5233,28 @@ ne convient pas à l'âge que vous emmenez.
 
 L'essentiel de la différence, c'est la salle de bain.
 
-Un **campement standard** vous offre un vrai lit sous une tente de toile ou de laine noire, avec toilettes et douches partagées dans un bloc à quelques pas. Un **campement de luxe** vous offre les mêmes dunes, le même dîner, le même ciel — et votre propre salle d'eau dans la tente, avec toilettes à chasse et douche chaude qui fonctionne quand vous le voulez.
+Un **campement standard** vous offre un vrai lit sous une tente de toile ou de laine noire, avec toilettes et douches partagées dans un bloc à quelques pas. Un **campement de luxe** vous offre les mêmes dunes, le même dîner, le même ciel — et votre propre salle d'eau dans la tente, avec toilettes à chasse et douche chaude.
 
-Tout le reste de ce qu'on inscrit du côté luxe — lits plus grands, tapis, mobilier, prises électriques, chauffage — découle du même investissement. Mais si l'on retire l'emballage marketing, vous décidez surtout si vous acceptez de traverser du sable dans le noir à deux heures du matin.
+Tout le reste de ce qu'on inscrit du côté luxe — lits plus grands, tapis, mobilier, chauffage — découle du même investissement. Mais si l'on retire l'emballage marketing, vous décidez surtout si vous acceptez de traverser du sable dans le noir à deux heures du matin.
 
 ## À quoi ressemble vraiment un campement standard
 
 C'est ce qu'incluent la plupart de nos circuits dans le désert, et ce n'est pas du camping sauvage :
 
 - Un lit à cadre avec matelas, draps et couvertures, sous une tente de toile ou une tente berbère traditionnelle en laine noire
-- Toilettes à chasse et douches partagées dans un bloc voisin. Eau chaude le plus souvent, pas toujours
+- Toilettes à chasse et douches chaudes partagées dans un bloc voisin
 - Dîner préparé sur place — en général tajine, salades, pain, fruits — et petit-déjeuner
-- Éclairage en soirée, puis extinction des groupes électrogènes
+- L'électricité pour l'éclairage et la recharge, et le Wi-Fi
 - Percussions et feu de camp sous un ciel extrêmement noir
 
-Ce qu'il ne vous donne pas : l'intimité pour la salle de bain, l'eau chaude garantie à l'heure voulue, de quoi recharger vos appareils la nuit, ni le chauffage en hiver.
+Ce qu'il ne vous donne pas : l'intimité pour la salle de bain, ni le chauffage en hiver.
 
-La plupart des gens qui y passent une nuit la décrivent ensuite comme la meilleure du voyage. L'absence d'électricité y est pour beaucoup.
+La plupart des gens qui y passent une nuit la décrivent ensuite comme la meilleure du voyage. Le silence et le ciel noir y sont pour beaucoup.
 
 ## Ce que le surclassement achète réellement
 
 - **Une salle d'eau privative dans votre tente** — toilettes à chasse, lavabo, douche chaude avec une vraie pression. C'est cela, le surclassement ; le reste est de la garniture.
 - **Une tente plus grande** avec un vrai lit, des tapis, un coin salon, parfois une petite terrasse
-- **Une électricité fiable** pour l'éclairage et la recharge, en solaire ou groupe électrogène
 - **Chauffage en hiver, climatisation en été** dans les meilleurs campements
 - **Une meilleure table**, davantage de plats, et généralement une atmosphère plus calme et plus soignée
 
@@ -5268,7 +5267,7 @@ Ce que cela ne change pas : les dunes, le coucher de soleil, les étoiles, la ba
 | Tarif marché par nuit | 40–100 EUR | 150–500 EUR |
 | Surclassement type sur un circuit réservé | — | environ 70 EUR par personne et par nuit |
 | Salle de bain | bloc partagé | privative dans la tente |
-| Électricité | soirée uniquement | complète, solaire ou groupe |
+| Électricité et Wi-Fi | oui | oui |
 | Régulation thermique | aucune | chauffage, souvent clim |
 
 Deux choses méritent d'être relevées dans ce tableau.
@@ -6578,7 +6577,7 @@ l'Atlas.
       },
       {
         q: "Y a-t-il de l'électricité et du wifi dans un campement du désert ?",
-        a: "La plupart des campements fonctionnent à l'énergie solaire avec un groupe électrogène de secours : éclairage dans les tentes et généralement une ou deux prises dans l'espace commun pour recharger un téléphone. Ne comptez pas recharger plusieurs appareils à la fois. Le réseau mobile à l'Erg Chebbi passe généralement pour les messages ; le wifi est rare et lent là où il existe. Considérez une nuit déconnectée comme faisant partie de l'expérience.",
+        a: "Oui, dans les campements que nous utilisons à l'Erg Chebbi : l'électricité pour l'éclairage et la recharge, et le Wi-Fi. Le Wi-Fi est lent au milieu des dunes — suffisant pour les messages et les photos, pas pour les appels vidéo — et le réseau mobile à l'Erg Chebbi passe généralement pour les messages.",
       },
       {
         q: "Que mange-t-on dans un campement du désert ?",
@@ -6630,9 +6629,9 @@ Les campements fournissent des couvertures épaisses et les tentes gardent bien 
 
 ## Électricité, réseau, eau
 
-Le solaire avec groupe électrogène de secours est la norme. Attendez-vous à de la lumière dans la tente et une ou deux prises dans l'espace commun. Ne prévoyez pas de recharger quatre appareils.
+Les campements que nous utilisons à l'Erg Chebbi ont l'électricité pour l'éclairage et la recharge, et le Wi-Fi.
 
-Le réseau mobile à l'Erg Chebbi suffit généralement pour les messages. Le wifi est rare et lent là où il existe. Une soirée sans n'est pas une épreuve.
+Le Wi-Fi est lent au milieu des dunes et le réseau mobile suffit généralement pour les messages — assez pour envoyer des photos, pas pour les appels vidéo.
 
 L'eau en bouteille est fournie. Les douches, quand il y en a, fonctionnent sur réservoir — prenez-la courte, pour la raison évidente.
 

@@ -5161,7 +5161,7 @@ quando un viaggio non è adatto all'età che portate.
     faq: [
       {
         q: "Qual è la vera differenza tra un campo di lusso e uno standard?",
-        a: "Soprattutto il bagno. Una tenda di lusso ha il suo bagno privato con water con scarico e doccia calda; un campo standard ha servizi condivisi in un blocco separato. Tutto il resto — letti più grandi, tappeti, corrente, a volte riscaldamento o aria condizionata — deriva dallo stesso investimento. Le dune fuori sono identiche.",
+        a: "Soprattutto il bagno. Una tenda di lusso ha il suo bagno privato con water con scarico e doccia calda; un campo standard ha servizi condivisi in un blocco separato. Tutto il resto — letti più grandi, tappeti, a volte riscaldamento o aria condizionata — deriva dallo stesso investimento. Le dune fuori sono identiche.",
       },
       {
         q: "Quanto costa in più un campo di lusso?",
@@ -5169,11 +5169,11 @@ quando un viaggio non è adatto all'età che portate.
       },
       {
         q: "Un campo standard è scomodo?",
-        a: "No, ma è essenziale. Un letto vero con materasso, lenzuola e coperte dentro una tenda in tela o in lana, bagni e docce condivisi lì vicino, cena cucinata sul posto e tamburi attorno al fuoco. Quello che non hai è la privacy in bagno e l'acqua calda garantita all'ora che preferisci.",
+        a: "No, ma è essenziale. Un letto vero con materasso, lenzuola e coperte dentro una tenda in tela o in lana, bagni e docce condivisi lì vicino, cena cucinata sul posto e tamburi attorno al fuoco. C'è corrente per luce e ricarica, acqua calda e wifi. Quello che non hai è la privacy in bagno.",
       },
       {
         q: "I campi di lusso hanno corrente e riscaldamento?",
-        a: "Di solito sì — corrente solare o da generatore per luce e ricarica, stufe per le notti invernali e a volte aria condizionata d'estate. I campi standard hanno tipicamente luce per qualche ora la sera e nessun controllo della temperatura, cosa che pesa molto più a gennaio che ad aprile.",
+        a: "Di solito sì — corrente solare o da generatore per luce e ricarica, stufe per le notti invernali e a volte aria condizionata d'estate. Anche i campi standard che usiamo hanno corrente per luce e ricarica, e il wifi; quello che manca è il controllo della temperatura, che pesa molto più a gennaio che ad aprile.",
       },
       {
         q: "Quale campo dovrebbero scegliere le famiglie?",
@@ -5189,29 +5189,28 @@ quando un viaggio non è adatto all'età che portate.
 
 Quasi tutta la differenza è il bagno.
 
-Un **campo standard** ti dà un letto vero dentro una tenda in tela o in lana nera, con bagni e docce condivisi in un blocco a pochi passi. Un **campo di lusso** ti dà le stesse dune, la stessa cena, lo stesso cielo — e il tuo bagno dentro la tenda, con water con scarico e doccia calda che funziona quando vuoi tu.
+Un **campo standard** ti dà un letto vero dentro una tenda in tela o in lana nera, con bagni e docce condivisi in un blocco a pochi passi. Un **campo di lusso** ti dà le stesse dune, la stessa cena, lo stesso cielo — e il tuo bagno dentro la tenda, con water con scarico e doccia calda.
 
-Tutto il resto che compare nell'elenco del lusso — letti più grandi, tappeti, mobili, prese, riscaldamento — deriva dallo stesso investimento. Ma se togli l'involucro pubblicitario, stai soprattutto decidendo se ti va di attraversare la sabbia al buio alle due di notte.
+Tutto il resto che compare nell'elenco del lusso — letti più grandi, tappeti, mobili, riscaldamento — deriva dallo stesso investimento. Ma se togli l'involucro pubblicitario, stai soprattutto decidendo se ti va di attraversare la sabbia al buio alle due di notte.
 
 ## Com'è davvero un campo standard
 
 È quello che includono la maggior parte dei nostri tour nel deserto, e non è campeggio spartano:
 
 - Un letto con rete, materasso, lenzuola e coperte, dentro una tenda in tela o una tenda berbera tradizionale in lana nera
-- Bagni con scarico e docce condivisi in un blocco vicino. Acqua calda quasi sempre, non sempre
+- Bagni con scarico e docce calde condivisi in un blocco vicino
 - Cena cucinata sul posto — di solito tajine, insalate, pane, frutta — e colazione
-- Luce nelle ore serali, poi i generatori si spengono
+- Corrente per luce e ricarica, e wifi
 - Tamburi e fuoco sotto un cielo estremamente buio
 
-Quello che non ti dà: privacy in bagno, acqua calda garantita all'ora che vuoi, corrente per ricaricare di notte, o riscaldamento d'inverno.
+Quello che non ti dà: privacy in bagno o riscaldamento d'inverno.
 
-La maggior parte di chi ci passa una notte la descrive poi come la migliore del viaggio. L'assenza di elettricità c'entra parecchio.
+La maggior parte di chi ci passa una notte la descrive poi come la migliore del viaggio. Il silenzio e il cielo buio c'entrano parecchio.
 
 ## Cosa compra davvero l'upgrade al lusso
 
 - **Un bagno privato nella tua tenda** — water con scarico, lavandino, doccia calda con pressione vera. Questo è l'upgrade; il resto è contorno.
 - **Una tenda più grande** con letto vero, tappeti, divanetti, a volte una piccola terrazza
-- **Corrente affidabile** per luce e ricarica, da solare o generatore
 - **Riscaldamento d'inverno, aria condizionata d'estate** nei campi migliori
 - **Cibo migliore**, più portate, e di solito un'atmosfera più tranquilla e curata
 
@@ -5224,7 +5223,7 @@ Cosa non cambia: le dune, il tramonto, le stelle, il giro in dromedario, il sile
 | Prezzo di mercato a notte | 40–100 EUR | 150–500 EUR |
 | Upgrade tipico su un tour prenotato | — | circa 70 EUR a persona, a notte |
 | Bagno | blocco condiviso | privato, in tenda |
-| Corrente | solo la sera | continua, solare o generatore |
+| Corrente e wifi | sì | sì |
 | Controllo temperatura | assente | riscaldamento, spesso A/C |
 
 Due cose meritano attenzione in quella tabella.
@@ -6522,7 +6521,7 @@ valle se è la tua prima cima dell'Atlante.
       },
       {
         q: "C'è elettricità e wifi in un campo nel deserto?",
-        a: "La maggior parte dei campi funziona a energia solare con un generatore di riserva: luce nelle tende e di solito una o due prese nell'area comune per caricare il telefono. Non conti di caricare più dispositivi insieme. Il segnale mobile all'Erg Chebbi di solito basta per i messaggi; il wifi è raro e lento dove esiste. Consideri una notte senza connessione parte dell'esperienza.",
+        a: "Sì, nei campi che usiamo all'Erg Chebbi: corrente per luce e ricarica, e wifi. Il wifi è lento in mezzo alle dune — sufficiente per messaggi e foto, non per le videochiamate — e anche il segnale mobile all'Erg Chebbi di solito basta per i messaggi.",
       },
       {
         q: "Cosa si mangia in un campo nel deserto?",
@@ -6574,9 +6573,9 @@ I campi forniscono coperte pesanti e le tende trattengono bene il calore. Ma tra
 
 ## Elettricità, segnale, acqua
 
-Solare con generatore di riserva è la norma. Si aspetti luce in tenda e una o due prese nell'area comune. Non conti di caricare quattro dispositivi.
+I campi che usiamo all'Erg Chebbi hanno corrente per luce e ricarica, e wifi.
 
-Il segnale mobile all'Erg Chebbi di solito basta per i messaggi. Il wifi è raro e dove c'è è lento. Una serata senza non è una sofferenza.
+Il wifi è lento in mezzo alle dune e il segnale mobile di solito basta per i messaggi: abbastanza per mandare foto a casa, non per le videochiamate.
 
 L'acqua in bottiglia è fornita. Le docce, dove ci sono, funzionano a serbatoio: la faccia breve, per l'ovvia ragione.
 

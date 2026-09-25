@@ -350,12 +350,12 @@ The full story of the crash, and why most accounts of it get the details wrong, 
     relatedTours: ["sahara-3day-marrakech", "erg-chegaga-3day-marrakech", "desert-4day-marrakech"],
     faq: [
       { q: "How long does it take to reach the Sahara from Marrakech?", a: "Merzouga and the Erg Chebbi dunes sit on the far side of the Atlas, which is why we run the trip over three days rather than one. The driving is broken up by the Tizi n'Tichka pass, Ait Ben Haddou and the gorges, so the road is part of the trip rather than time lost getting there." },
-      { q: "What is a night in a desert camp actually like?", a: "Beds with blankets in a tent, a shared dinner, and complete quiet once the generators go off. The dunes are genuinely dark, which is the point: the night sky is the reason most people remember the camp rather than the camel ride. Nights get cold outside summer, so bring a warm layer even when the day has been hot." },
-      { q: "Is there phone signal or wifi in the desert?", a: "Signal is patchy at best out on the dunes and often absent altogether. You will have connectivity in the towns and guesthouses along the route, so plan to send messages before you head out to the camp rather than from it. Which network you are on changes how much of the route is covered — see [the best SIM card in Morocco](/en/blog/best-sim-card-morocco-tourists)." },
+      { q: "What is a night in a desert camp actually like?", a: "Beds with blankets in a tent, a shared dinner, and complete quiet once the camp settles for the night. The dunes are genuinely dark, which is the point: the night sky is the reason most people remember the camp rather than the camel ride. Nights get cold outside summer, so bring a warm layer even when the day has been hot." },
+      { q: "Is there phone signal or wifi in the desert?", a: "Phone signal is patchy out on the dunes, but the camps we use at Erg Chebbi have Wi-Fi — slow, fine for messages and photos, not for video calls. You will also have connectivity in the towns and guesthouses along the route. Which network you are on changes how much of the route is covered — see [the best SIM card in Morocco](/en/blog/best-sim-card-morocco-tourists)." },
       { q: "Do you need to be fit for a desert tour?", a: "No. Our Sahara trips are rated easy: the distance is covered by vehicle, and the camel ride into the camp is short and optional. If you would rather walk the last stretch into the dunes than ride, that is entirely normal and the guides expect it." },
     
       { q: "What should I wear in the Sahara?", a: "Layers, and more of them than the word 'desert' suggests. Daytime is hot enough for light long sleeves — long rather than short, because loose cotton over your arms is cooler in direct sun than bare skin and spares you the burn. Evenings drop sharply once the sun is down, so a fleece or jacket is not optional even in summer, and between November and February you will want a hat and something warm for the night. Closed shoes beat sandals for the camel and the dunes, since sand at midday is hotter than the air." },
-      { q: "Can you shower at a desert camp?", a: "At the permanent camps we use, yes — they have bathroom tents with running water, either private or shared depending on the camp and the tour. It is a real shower rather than a bucket, though water pressure in the middle of the Erg is modest and hot water is not guaranteed at every hour. A bivouac deeper in the dunes is a different proposition and would be described as such before you booked." },
+      { q: "Can you shower at a desert camp?", a: "At the permanent camps we use, yes — they have bathroom tents with running water, either private or shared depending on the camp and the tour. It is a real hot shower rather than a bucket, though water pressure in the middle of the Erg is modest. A bivouac deeper in the dunes is a different proposition and would be described as such before you booked." },
       { q: "Is the Sahara safe for tourists?", a: "The tourist areas around Merzouga and Erg Chegaga are among the calmer parts of Morocco, and the practical risks are environmental rather than criminal: dehydration, sunburn, and getting disoriented if you wander from camp after dark. Those are all handled by staying with your guide and drinking more water than you feel like. The genuine rule is not to walk off into the dunes alone at night — dunes look identical in the dark, and people have needed finding." },
       { q: "Are there scorpions or snakes in the Sahara?", a: "Both exist in the wider desert, and both are far less common around the camps than visitors expect. In years of running these trips the practical encounter rate is close to zero, because the camps sit on open sand that offers nothing to hide under. The standard precaution costs nothing: shake out your shoes in the morning before putting them on, and do not go turning over rocks with your hands." },
       { q: "Is a desert tour suitable for children?", a: "Yes, with the right itinerary. The obstacle is never the desert — it is the driving, which is long enough to test an adult. Our [4-day family desert tour](/en/tours/family-desert-4day-marrakech) exists for exactly this: the same route broken into shorter stages, hotel nights with pools between the long days, and a camp with proper beds rather than a bare bivouac. Camel rides are kept short and led on foot, and there is sandboarding on the dunes, which children reliably enjoy more than adults expect." },
@@ -7443,7 +7443,7 @@ right for the age you are bringing.
     faq: [
       {
         q: "What is the real difference between a luxury and standard desert camp?",
-        a: "Mostly the bathroom. A luxury tent has its own en-suite with a flush toilet and a hot shower; a standard camp has shared facilities in a separate block. Everything else — bigger beds, rugs, power, sometimes heating or air conditioning — follows from the same investment. The dunes outside are identical.",
+        a: "Mostly the bathroom. A luxury tent has its own en-suite with a flush toilet and a hot shower; a standard camp has shared facilities in a separate block. Everything else — bigger beds, rugs, sometimes heating or air conditioning — follows from the same investment. The dunes outside are identical.",
       },
       {
         q: "How much more does a luxury camp cost?",
@@ -7451,11 +7451,11 @@ right for the age you are bringing.
       },
       {
         q: "Is a standard desert camp uncomfortable?",
-        a: "No, but it is basic. A proper bed with a mattress, sheets and blankets inside a canvas or wool tent, shared toilets and showers nearby, dinner cooked on site and drumming round the fire. What you do not get is privacy in the bathroom or reliable hot water at the hour you want it.",
+        a: "No, but it is basic. A proper bed with a mattress, sheets and blankets inside a canvas or wool tent, shared toilets and showers nearby, dinner cooked on site and drumming round the fire. There is electricity for lighting and charging, hot water and Wi-Fi. What you do not get is privacy in the bathroom.",
       },
       {
         q: "Do luxury camps have electricity and heating?",
-        a: "Usually yes — solar or generator power for lighting and charging, with heaters for winter nights and sometimes air conditioning in summer. Standard camps typically have lighting for a few evening hours and no climate control, which matters more in January than in April.",
+        a: "Usually yes — solar or generator power for lighting and charging, with heaters for winter nights and sometimes air conditioning in summer. The standard camps we use also have electricity for lighting and charging, and Wi-Fi — what they lack is climate control, which matters more in January than in April.",
       },
       {
         q: "Which camp should families choose?",
@@ -7476,10 +7476,10 @@ Nearly all of the difference is the bathroom.
 A **standard camp** gives you a proper bed inside a canvas or black wool tent, with
 shared toilets and showers in a block a short walk away. A **luxury camp** gives you the
 same dunes, the same dinner, the same sky — and your own bathroom inside your tent, with
-a flush toilet and a hot shower that works when you want it.
+a flush toilet and a hot shower.
 
 Everything else that gets listed on the luxury side — bigger beds, rugs, furniture,
-power sockets, heating — follows from the same investment. But if you strip the marketing
+heating — follows from the same investment. But if you strip the marketing
 away, you are mostly deciding whether you want to walk across sand in the dark at 2am.
 
 ## What a standard camp is really like
@@ -7488,23 +7488,21 @@ This is what most of our desert tours include, and it is not roughing it:
 
 - A frame bed with a mattress, sheets and blankets, inside a canvas or traditional black
   wool tent
-- Shared flush toilets and showers in a nearby block. Hot water usually, not always
+- Shared flush toilets and hot showers in a nearby block
 - Dinner cooked on site — normally tagine, salads, bread, fruit — and breakfast
-- Lighting for the evening hours, then generators off
+- Electricity for lighting and charging, and Wi-Fi
 - Drumming and a fire under an extremely dark sky
 
-What it does not give you: privacy in the bathroom, guaranteed hot water at the hour you
-want it, power to charge things overnight, or heating in winter.
+What it does not give you: privacy in the bathroom, or heating in winter.
 
 Most people who stay in one describe it afterwards as the best night of the trip. The
-absence of electricity is a large part of why.
+quiet and the dark sky are a large part of why.
 
 ## What the luxury upgrade actually buys
 
 - **An en-suite bathroom in your tent** — flush toilet, sink, hot shower with real
   pressure. This is the upgrade; the rest is trimming.
 - **A larger tent** with a proper bed, rugs, seating, sometimes a small terrace
-- **Reliable power** for lighting and charging, from solar or a generator
 - **Heating in winter, air conditioning in summer** at the better camps
 - **Better food**, more courses, and usually a quieter, more curated atmosphere
 
@@ -7518,7 +7516,7 @@ Those are free and identical at both.
 | Market rate per night | €40–€100 | €150–€500 |
 | Typical upgrade on a booked tour | — | about €70 per person, per night |
 | Bathroom | shared block | en-suite in tent |
-| Power | evening only | full, solar or generator |
+| Power and Wi-Fi | yes | yes |
 | Climate control | none | heating, often A/C |
 
 Two things worth noticing in that table.
@@ -9372,7 +9370,7 @@ sun is down, even in summer, because there is nothing out there to hold the heat
       },
       {
         q: "Is there electricity and wifi at a desert camp?",
-        a: "Most camps run on solar power with a generator as backup, which means lighting in the tents and usually a socket or two in the communal area for charging a phone. Do not count on charging several devices at once. Mobile signal at Erg Chebbi is generally usable for messages; wifi is rare and slow where it exists. Treat one night off the grid as part of the experience rather than a problem to solve.",
+        a: "Yes, at the camps we use at Erg Chebbi: electricity for lighting and charging, and Wi-Fi. The Wi-Fi is slow out in the dunes — fine for messages and photos, not for video calls — and mobile signal at Erg Chebbi is generally usable for messages too.",
       },
       {
         q: "What food is served at a desert camp?",
@@ -9424,9 +9422,9 @@ Camps supply heavy blankets and the tents hold warmth well. But between dinner a
 
 ## Power, signal, water
 
-Solar with a generator backup is the norm. Expect lights in the tent and a socket or two in the communal area. Do not plan on charging four devices.
+The camps we use at Erg Chebbi have electricity for lighting and charging, and Wi-Fi.
 
-Phone signal at Erg Chebbi is usually good enough for messages. Wifi is rare, and where it exists it is slow. One evening without it is not a hardship.
+The Wi-Fi is slow out in the dunes and phone signal is usually good enough for messages — fine for sending photos home, not for video calls.
 
 Bottled water is provided. Showers, where present, run on tanked water — take a short one, for the obvious reason.
 

@@ -1195,6 +1195,8 @@ El Anti-Atlas es geológicamente antiquísimo: su evento orogénico definitorio,
 
 ## Rutas clave
 
+Guiamos estas rutas nosotros mismos — mira nuestro [trekking por el Anti-Atlas desde Agadir](/es/tours/anti-atlas-trekking-agadir).
+
 ### Circuito del valle de Ameln (2 días, moderado)
 La mejor introducción al Anti-Atlas. Comienza en Tafraoute, avanza hacia el norte hasta el valle de Ameln, pasa la noche en el pueblo de Oumesnat con una familia bereber, continúa por el valle alto hasta la meseta del Jbel Lkest (2.359 m) y desciende de vuelta a Tafraoute. Distancia total: aproximadamente 35 km.
 

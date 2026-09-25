@@ -410,7 +410,7 @@ Entrambi gli itinerari raggiungono la stessa vetta. La differenza è quanto spaz
 
 Il viaggio di due giorni è efficiente: su fino al rifugio, vetta all'alba, ritorno a Marrakech. Funziona, e camminatori in forma lo fanno regolarmente. Ma passi dall'altitudine della città a 4.167 metri in circa trenta ore, il che è tanto da chiedere.
 
-La versione di quattro giorni sale più gradualmente e include tempo per acclimatarsi prima della spinta alla vetta. Per la maggior parte delle persone questa è la differenza tra macinare una vetta e goderla. Li confrontiamo bene in [Toubkal in 2 Giorni o 4](/it/blog/toubkal-2-day-vs-4-day-which-trek).
+La versione di quattro giorni sale più gradualmente e include tempo per acclimatarsi prima della spinta alla vetta. Per la maggior parte delle persone questa è la differenza tra macinare una vetta e goderla. Li confrontiamo bene in [Toubkal in 2 Giorni o 4](/it/blog/toubkal-2-day-vs-4-day-which-trek), e organizziamo entrambi: il [trekking di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) e quello di [4 giorni](/it/tours/toubkal-summit-trek-4day).
 
 ## L'inverno è una montagna diversa
 

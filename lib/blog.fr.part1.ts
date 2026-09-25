@@ -1195,6 +1195,8 @@ L'Anti-Atlas est géologiquement ancien — son événement orogénique fondateu
 
 ## Randonnées clés
 
+Nous encadrons nous-mêmes ces itinéraires — voir notre [trek dans l'Anti-Atlas au départ d'Agadir](/fr/tours/trek-anti-atlas-agadir).
+
 ### Circuit de la vallée des Ameln (2 jours, modéré)
 La meilleure introduction à l'Anti-Atlas. Départ de Tafraoute, montée vers le nord dans la vallée des Ameln, nuitée dans le village d'Oumesnat chez une famille berbère, poursuite à travers la vallée supérieure jusqu'au plateau du Jbel Lkest (2 359 m), puis descente vers Tafraoute. Distance totale : environ 35 km.
 

@@ -1303,6 +1303,8 @@ The Anti-Atlas is geologically ancient — its defining mountain-building event,
 
 ## Key Treks
 
+We guide these routes ourselves — see our [Anti-Atlas trekking tour from Agadir](/en/tours/anti-atlas-trekking-agadir).
+
 ### Ameln Valley Circuit (2 days, moderate)
 The finest introduction to the Anti-Atlas. Start in Tafraoute, trek north into the Ameln Valley, overnight in Oumesnat village with a Berber family, continue through the upper valley to the Jbel Lkest plateau (2,359 m), and descend back to Tafraoute. Total distance: approximately 35 km.
 
@@ -2550,6 +2552,8 @@ Work it through on a mild spring day: a pleasant 20°C in Imlil is plausibly aro
 The live panel above reads at valley level. Treat it as a starting point, subtract as you climb, and subtract again for wind.
 
 ## Toubkal month by month
+
+We run the summit year-round and pick the route to the season — the [2-day summit](/en/tours/toubkal-summit-2day-marrakech) in settled weather, the [4-day trek](/en/tours/toubkal-summit-trek-4day) when acclimatisation matters more.
 
 | Period | On the mountain | What it means for you |
 |---|---|---|

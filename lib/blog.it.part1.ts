@@ -1188,6 +1188,8 @@ L'Anti-Atlante è geologicamente antichissimo — il suo evento orogenetico dete
 
 ## I trekking principali
 
+Guidiamo noi stessi questi itinerari — guarda il nostro [trekking nell'Anti-Atlante da Agadir](/it/tours/anti-atlas-trekking-agadir).
+
 ### Circuito della Valle di Ameln (2 giorni, moderato)
 La migliore introduzione all'Anti-Atlante. Si parte da Tafraoute, si fa trekking verso nord nella Valle di Ameln, si pernotta nel villaggio di Oumesnat presso una famiglia berbera, si prosegue attraverso l'alta valle fino all'altopiano di Jbel Lkest (2.359 m) e si scende di nuovo a Tafraoute. Distanza totale: circa 35 km.
 

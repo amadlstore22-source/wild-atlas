@@ -1188,6 +1188,8 @@ Der Anti-Atlas ist geologisch uralt – sein prägendes gebirgsbildendes Ereigni
 
 ## Wichtige Treks
 
+Wir führen diese Routen selbst — siehe unsere [Anti-Atlas-Trekkingtour ab Agadir](/de/tours/anti-atlas-trekking-agadir).
+
 ### Ameln-Tal-Rundweg (2 Tage, moderat)
 Die beste Einführung in den Anti-Atlas. Start in Tafraoute, Trek nordwärts ins Ameln-Tal, Übernachtung im Dorf Oumesnat bei einer Berberfamilie, weiter durch das obere Tal zum Plateau des Jbel Lkest (2.359 m), Abstieg zurück nach Tafraoute. Gesamtdistanz: etwa 35 km.
 

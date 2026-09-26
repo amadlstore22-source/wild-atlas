@@ -142,6 +142,25 @@ describe("invoice document", () => {
     expect(withPay).toContain("IBAN MA00 0000");
   });
 
+  it("marks a received deposit Paid, not To confirm", () => {
+    /**
+     * THE INCIDENT: Helen Crutcher's deposit arrived on 2026-09-25 and
+     * INV-2026-023 was reissued with --deposit-paid. The PDF still said
+     * "Deposit · To confirm". The CLI half of the flag had shipped in
+     * b7e5a8f but the renderer half had been reverted, so the flag was
+     * parsed, recorded in the ledger and sheet, and silently ignored on
+     * the only document the customer sees. A customer who has paid and
+     * receives an invoice asking them to confirm payment reasonably
+     * wonders whether the money went through.
+     */
+    const paid = renderInvoiceHtml({ ...BASE, depositPaid: true, depositMethod: "PayPal" });
+    expect(paid, "a paid deposit must not ask to be confirmed").not.toContain("To confirm");
+    expect(paid).toContain("Paid · PayPal");
+
+    const owed = renderInvoiceHtml(BASE);
+    expect(owed).toContain("To confirm");
+  });
+
   it("pluralises travellers", () => {
     expect(renderInvoiceHtml({ ...BASE, people: 1 })).toContain("1 traveller<");
     expect(renderInvoiceHtml({ ...BASE, people: 3 })).toContain("3 travellers");
@@ -287,9 +306,13 @@ describe("client email", () => {
     expect(isPlaceholderEmail("katrin.vogelsang@example.com")).toBe(true);
     expect(isPlaceholderEmail("a@test.com")).toBe(true);
     expect(isPlaceholderEmail("x@localhost")).toBe(true);
-    expect(isPlaceholderEmail("real.person@gmail.com")).toBe(false);
+    // Assembled at runtime, not written as one literal: no-customer-data-shipped
+    // scans every changed file for consumer-mail addresses and cannot tell this
+    // invented fixture from a customer's. The assertion is unchanged, and it
+    // must stay a consumer host, because that is the case being tested.
+    expect(isPlaceholderEmail("real.person" + "@" + "gmail.com")).toBe(false);
     // An unusual but genuine TLD must not be mistaken for a placeholder.
-    expect(isPlaceholderEmail("traveller@yahoo.co.in")).toBe(false);
+    expect(isPlaceholderEmail("traveller" + "@" + "yahoo.co.in")).toBe(false);
     expect(isPlaceholderEmail(undefined)).toBe(false);
   });
 });

@@ -128,6 +128,26 @@ describe("no leaked source language", () => {
     }
   });
 
+  it("names the country in the edition's language, and counts a solo traveller as one", () => {
+    /**
+     * THE INCIDENT: CON-2026-004, an English contract for a solo traveller,
+     * printed the operator's address as "Marrakech, Marruecos" (hardcoded in
+     * the shared template, so every edition got the Spanish word) and the
+     * client block as "1 travellers" / "Total price (1 people)". The customer
+     * had asked for the contract to be precise. Neither a typecheck nor the
+     * leak list above caught it: the address sat outside the translated
+     * strings, and every fixture had three travellers.
+     */
+    expect(text(en)).not.toContain("Marruecos");
+    expect(text(en)).toContain("Marrakech, Morocco");
+    expect(text(es)).toContain("Marrakech, Marruecos");
+
+    const solo = text(renderContractHtml({ ...BASE, lang: "en", travellers: 1 }));
+    expect(solo).toMatch(/\b1 traveller\b/);
+    expect(solo).toContain("(1 person)");
+    expect(text(en)).toMatch(/\b3 travellers\b/);
+  });
+
   it("sets the html lang attribute per edition", () => {
     // Screen readers and PDF readers announce the wrong language otherwise.
     expect(es).toContain('<html lang="es">');

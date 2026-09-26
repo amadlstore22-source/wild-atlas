@@ -84,7 +84,8 @@ const T = {
     parties: "Partes contratantes",
     organiser: "Organizador",
     client: "Cliente",
-    travellersLine: (n: number) => `${n} viajeros`,
+    travellersLine: (n: number) => `${n} ${n === 1 ? "viajero" : "viajeros"}`,
+    country: "Marruecos",
     object: "Objeto del contrato",
     tour: "Circuito",
     departure: "Salida",
@@ -99,7 +100,7 @@ const T = {
     included: "Incluido",
     notIncluded: "No incluido",
     priceHeading: "Precio y forma de pago",
-    totalFor: (n: number) => `Precio total (${n} personas)`,
+    totalFor: (n: number) => `Precio total (${n} ${n === 1 ? "persona" : "personas"})`,
     depositRow: "Depósito a la confirmación",
     balanceRow: "Resto a la llegada",
     bankLabel: "Datos para la transferencia",
@@ -130,7 +131,8 @@ const T = {
     parties: "Parties",
     organiser: "Operator",
     client: "Client",
-    travellersLine: (n: number) => `${n} travellers`,
+    travellersLine: (n: number) => `${n} ${n === 1 ? "traveller" : "travellers"}`,
+    country: "Morocco",
     object: "Subject of the contract",
     tour: "Tour",
     departure: "Departure",
@@ -145,7 +147,7 @@ const T = {
     included: "Included",
     notIncluded: "Not included",
     priceHeading: "Price and payment",
-    totalFor: (n: number) => `Total price (${n} people)`,
+    totalFor: (n: number) => `Total price (${n} ${n === 1 ? "person" : "people"})`,
     depositRow: "Deposit on confirmation",
     balanceRow: "Balance on arrival",
     bankLabel: "Bank transfer details",
@@ -185,7 +187,8 @@ const T = {
     parties: "Parties contractantes",
     organiser: "Organisateur",
     client: "Client",
-    travellersLine: (n: number) => `${n} voyageurs`,
+    travellersLine: (n: number) => `${n} ${n === 1 ? "voyageur" : "voyageurs"}`,
+    country: "Maroc",
     object: "Objet du contrat",
     tour: "Circuit",
     departure: "Départ",
@@ -200,7 +203,7 @@ const T = {
     included: "Compris",
     notIncluded: "Non compris",
     priceHeading: "Prix et modalités de paiement",
-    totalFor: (n: number) => `Prix total (${n} personnes)`,
+    totalFor: (n: number) => `Prix total (${n} ${n === 1 ? "personne" : "personnes"})`,
     depositRow: "Acompte à la confirmation",
     balanceRow: "Solde le premier jour",
     bankLabel: "Coordonnées pour le virement",
@@ -395,7 +398,7 @@ export function renderContractHtml(c: ContractInput): string {
     <div class="party">
       <div class="label">${t.organiser}</div>
       <strong>Marrakech Eco Tours</strong>
-      <div>Marrakech, Marruecos</div>
+      <div>Marrakech, ${t.country}</div>
       <div>info@marrakechecotours.com</div>
       <div>+212 653 936 003</div>
       <div>marrakechecotours.com</div>
@@ -486,7 +489,7 @@ export function renderContractHtml(c: ContractInput): string {
   </div>
 
   <footer>
-    Marrakech Eco Tours · Marrakech, Marruecos ·
+    Marrakech Eco Tours · Marrakech, ${t.country} ·
     <a href="https://marrakechecotours.com">marrakechecotours.com</a><br>
     ${t.footer}
   </footer>

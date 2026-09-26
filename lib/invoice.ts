@@ -48,6 +48,15 @@ export interface InvoiceInput {
   /** Deposit in EUR cents. 0 means none. */
   deposit: number;
   /**
+   * The deposit has ARRIVED. Set when an invoice is reissued after payment,
+   * so the deposit row reads "Paid" instead of "To confirm". A customer who
+   * has paid and gets back a document asking them to confirm the payment
+   * reasonably wonders whether it went through.
+   */
+  depositPaid?: boolean;
+  /** How the deposit arrived, e.g. "PayPal". Shown on the row when paid. */
+  depositMethod?: string;
+  /**
    * Priced add-ons shown as their own rows: a quad upgrade, a private
    * transfer, an extra night. Each carries its own amount in EUR cents.
    *
@@ -436,7 +445,12 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
     ${row("Total", eur(t.total), "total")}
     ${
       t.deposit > 0
-        ? row(`Deposit <span class="pill ok">To confirm</span>`, eur(t.deposit))
+        ? row(
+            inv.depositPaid
+              ? `Deposit <span class="pill ok">Paid${inv.depositMethod ? ` · ${esc(inv.depositMethod)}` : ""}</span>`
+              : `Deposit <span class="pill ok">To confirm</span>`,
+            eur(t.deposit),
+          )
         : ""
     }
     ${row(`Balance on arrival <span class="pill warn">Cash or card</span>`, eur(t.balance), "balance")}

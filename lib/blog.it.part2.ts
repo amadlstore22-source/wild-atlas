@@ -7911,7 +7911,7 @@ Nel nostro trekking per famiglie un mulattiere e i suoi muli portano tutti i bag
 
 ## Quattro modi per farlo, dal più facile
 
-1. **Una giornata nella valle dell'Ourika.** A un'ora da Marrakech, con acqua per sguazzare e ritorno per cena. L'[escursione di un giorno nella valle dell'Ourika](/it/tours/escursione-valle-ourika) costa 31 € a persona per una famiglia di quattro.
+1. **Una giornata nella valle dell'Ourika.** A un'ora da Marrakech, con acqua per sguazzare e ritorno per cena. L'[escursione di un giorno nella valle dell'Ourika](/it/tours/escursione-valle-ourika) costa 69 € a persona per una famiglia di quattro.
 2. **Qualche notte a Imlil, con passeggiate dalla porta di casa.** La nostra famiglia gestisce il [Gîte Panorama](/it/blog/gite-panorama-imlil-base-camp-toubkal) a Imlil. Una base in valle permette di decidere ogni mattina fin dove arrivare, ed è ideale per i più piccoli e per fratelli di età diverse.
 3. **Il [trekking per famiglie di 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni).** Pensato per i bambini fin dall'inizio: giornate di cammino di circa 2–3 ore, 4 ore, 4–5 ore e 3 ore, tra noceti, guadi e cascate. Sono incluse tre notti in case di accoglienza presso famiglie berbere, tutti i pasti, i muli e il transfer da Marrakech. Parte da tre persone: 276 € a persona in tre, 257 € in quattro, 225 € in sei.
 4. **Per gli adolescenti, il [trekking dei villaggi di 3 giorni](/it/tours/trek-villaggi-alto-atlante-3-giorni).** Giornate più lunghe, da 4 a 6 ore, e più terreno, difficoltà moderata. 192 € a persona in quattro.

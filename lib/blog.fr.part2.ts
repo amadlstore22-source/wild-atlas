@@ -8114,7 +8114,7 @@ Sur notre trek famille, un muletier et ses mules portent tous les bagages : pers
 
 ## Quatre façons de le faire, de la plus facile à la plus sportive
 
-1. **Une journée dans la vallée de l'Ourika.** À une heure de Marrakech, avec de l'eau pour patauger, et retour pour le dîner. La [randonnée d'une journée dans l'Ourika](/fr/tours/randonnee-vallee-ourika-journee) coûte 31 € par personne pour une famille de quatre.
+1. **Une journée dans la vallée de l'Ourika.** À une heure de Marrakech, avec de l'eau pour patauger, et retour pour le dîner. La [randonnée d'une journée dans l'Ourika](/fr/tours/randonnee-vallee-ourika-journee) coûte 69 € par personne pour une famille de quatre.
 2. **Quelques nuits à Imlil, avec des balades depuis la porte.** Notre famille tient le [Gîte Panorama](/fr/blog/gite-panorama-imlil-base-camp-toubkal) à Imlil. Une base dans la vallée permet de décider chaque matin jusqu'où aller, ce qui convient aux tout-petits et aux fratries d'âges différents.
 3. **Le [trek famille de 4 jours](/fr/tours/trek-atlas-famille-4-jours).** Conçu pour les enfants dès le départ : des journées de marche d'environ 2 à 3 heures, 4 heures, 4 à 5 heures et 3 heures, entre noyeraies, gués et cascades. Trois nuits chez l'habitant dans des gîtes berbères, tous les repas, les mules et le transfert depuis Marrakech sont inclus. Il part à partir de trois personnes : 276 € par personne à trois, 257 € à quatre, 225 € à six.
 4. **Pour les adolescents, le [trek des villages en 3 jours](/fr/tours/trek-villages-haut-atlas-3-jours).** Des journées plus longues, de 4 à 6 heures, et plus de terrain, niveau modéré. 192 € par personne à quatre.

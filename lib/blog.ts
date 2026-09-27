@@ -10883,7 +10883,7 @@ On our family trek a muleteer and his mules carry all the luggage, so nobody wal
 
 ## Four ways to do it, easiest first
 
-1. **A day in the Ourika valley.** An hour from Marrakech, with water to paddle in and back for dinner. The [Ourika Valley day hike](/en/tours/ourika-valley-day-hike) costs €31 per person for a family of four.
+1. **A day in the Ourika valley.** An hour from Marrakech, with water to paddle in and back for dinner. The [Ourika Valley day hike](/en/tours/ourika-valley-day-hike) costs €69 per person for a family of four.
 2. **A few nights in Imlil, with walks from the door.** Our family runs [Gite Panorama](/en/blog/gite-panorama-imlil-base-camp-toubkal) in Imlil. A base in the valley lets you decide each morning how far to go, which suits toddlers and mixed ages.
 3. **The [4-day family trek](/en/tours/family-atlas-4day-trek).** Built for children from the start: walking days of about 2–3 hours, 4 hours, 4–5 hours and 3 hours, through walnut groves, river crossings and waterfalls. Three nights in village guesthouses with Berber families, every meal, the mules and the transfer from Marrakech are included. It runs from three people: €276 per person for three, €257 for four, €225 for six.
 4. **For teenagers, the [3-day village trek](/en/tours/atlas-mountains-3day-trek).** Longer days of 4–6 hours and more ground covered, rated moderate. €192 per person for four.

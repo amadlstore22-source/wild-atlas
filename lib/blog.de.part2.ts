@@ -8066,7 +8066,7 @@ Auf unserem Familientrek tragen ein Maultiertreiber und seine Tiere das gesamte 
 
 ## Vier Möglichkeiten, vom Einfachsten an
 
-1. **Ein Tag im Ourika-Tal.** Eine Stunde von Marrakesch, mit Wasser zum Planschen und zum Abendessen zurück. Die [Tageswanderung im Ourika-Tal](/de/tours/wanderung-ourika-tal) kostet 31 € pro Person für eine vierköpfige Familie.
+1. **Ein Tag im Ourika-Tal.** Eine Stunde von Marrakesch, mit Wasser zum Planschen und zum Abendessen zurück. Die [Tageswanderung im Ourika-Tal](/de/tours/wanderung-ourika-tal) kostet 69 € pro Person für eine vierköpfige Familie.
 2. **Ein paar Nächte in Imlil, mit Wanderungen ab der Haustür.** Unsere Familie betreibt das [Gîte Panorama](/de/blog/gite-panorama-imlil-base-camp-toubkal) in Imlil. Mit einem festen Standort im Tal entscheiden Sie jeden Morgen neu, wie weit es geht, was Kleinkindern und Geschwistern unterschiedlichen Alters entgegenkommt.
 3. **Der [4-tägige Familientrek](/de/tours/familien-atlas-trek-4-tage).** Von Anfang an für Kinder gebaut: Gehzeiten von etwa 2–3 Stunden, 4 Stunden, 4–5 Stunden und 3 Stunden, durch Walnusshaine, über Bachfurten und zu Wasserfällen. Drei Nächte in Dorfgästehäusern bei Berberfamilien, alle Mahlzeiten, die Maultiere und der Transfer ab Marrakesch sind inklusive. Er startet ab drei Personen: 276 € pro Person zu dritt, 257 € zu viert, 225 € zu sechst.
 4. **Für Jugendliche: der [3-tägige Dorftrek](/de/tours/hoher-atlas-dorftrek-3-tage).** Längere Tage mit 4–6 Stunden und mehr Strecke, mittlerer Schwierigkeitsgrad. 192 € pro Person zu viert.

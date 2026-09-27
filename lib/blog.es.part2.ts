@@ -8047,7 +8047,7 @@ En nuestro trekking familiar, un arriero y sus mulas llevan todo el equipaje, as
 
 ## Cuatro formas de hacerlo, de la más fácil a la más exigente
 
-1. **Un día en el valle de Ourika.** A una hora de Marrakech, con agua para chapotear y de vuelta para la cena. La [excursión de senderismo al valle de Ourika](/es/tours/senderismo-valle-ourika) cuesta 31 € por persona para una familia de cuatro.
+1. **Un día en el valle de Ourika.** A una hora de Marrakech, con agua para chapotear y de vuelta para la cena. La [excursión de senderismo al valle de Ourika](/es/tours/senderismo-valle-ourika) cuesta 69 € por persona para una familia de cuatro.
 2. **Unas noches en Imlil, con paseos desde la puerta.** Nuestra familia lleva el [Gîte Panorama](/es/blog/gite-panorama-imlil-base-camp-toubkal) en Imlil. Una base en el valle permite decidir cada mañana hasta dónde llegar, algo ideal para niños pequeños y hermanos de edades distintas.
 3. **El [trekking familiar de 4 días](/es/tours/trek-atlas-familia-4-dias).** Pensado para niños desde el principio: jornadas de unas 2–3 horas, 4 horas, 4–5 horas y 3 horas de marcha, entre nogales, vados y cascadas. Incluye tres noches en casas de huéspedes con familias bereberes, todas las comidas, las mulas y el traslado desde Marrakech. Sale a partir de tres personas: 276 € por persona para tres, 257 € para cuatro, 225 € para seis.
 4. **Para adolescentes, el [trekking de 3 días por los pueblos](/es/tours/trek-pueblos-alto-atlas-3-dias).** Jornadas más largas, de 4 a 6 horas, y más terreno, con dificultad moderada. 192 € por persona para cuatro.

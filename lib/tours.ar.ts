@@ -211,8 +211,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 أشخاص",
     reviewCount: 203,
     rating: 4.7,
-    price: 99,
-    depositAmount: 22,
+    price: 121,
+    depositAmount: 27,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -257,7 +257,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
     seoTitle: "رحلة مشي ليوم في وادي أوريكا من مراكش",
-    seoDescription: "امشِ إلى شلالات سطي فاطمة عبر القرى الأمازيغية والجداول الجبلية، على بُعد 45 دقيقة فقط من مراكش. رحلة يوم مُرشَدة تشمل غداءً أمازيغياً. تبدأ من 35 دولاراً.",
+    seoDescription: "امشِ إلى شلالات سطي فاطمة عبر القرى الأمازيغية والجداول الجبلية، على بُعد 45 دقيقة فقط من مراكش. رحلة يوم مُرشَدة تشمل غداءً أمازيغياً. تبدأ من 58 يورو للشخص لمجموعة من 6 أشخاص فأكثر.",
     featured: true,
   },
   {

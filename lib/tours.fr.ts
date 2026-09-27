@@ -223,8 +223,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 personnes",
     reviewCount: 203,
     rating: 4.7,
-    price: 99,
-    depositAmount: 22,
+    price: 121,
+    depositAmount: 27,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [

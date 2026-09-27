@@ -443,19 +443,22 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 203,
     rating: 4.7,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Stored in USD (see lib/currency-core.ts) but SET FROM AN EUR LADDER:
+    // the owner quoted 105 / 86 / 76 / 69 / 65 / 58 EUR per person on
+    // 2026-09-27, flat from six up. Each value is EUR / 0.86693 rounded to
+    // the dollar, and every tier round-trips back to its exact euro figure at
+    // the current rate. If RATES.EUR is revised these need recomputing.
     groupPricing: [
-      { minPeople: 1, price: 99 },
-      { minPeople: 2, price: 51 },
-      { minPeople: 3, price: 40 },
-      { minPeople: 4, price: 36 },
-      { minPeople: 5, price: 33 },
-      { minPeople: 6, price: 30 },
+      { minPeople: 1, price: 121 },
+      { minPeople: 2, price: 99 },
+      { minPeople: 3, price: 88 },
+      { minPeople: 4, price: 80 },
+      { minPeople: 5, price: 75 },
+      { minPeople: 6, price: 67 },
     ],
-    price: 99,
-    depositAmount: 22,
+    price: 121,
+    // 22% of the solo price, the rate the booking guide states: €23.
+    depositAmount: 27,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -502,7 +505,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.3489, lng: -7.7411, name: "Ourika Valley, High Atlas" },
     seoTitle: "Private Ourika Valley Day Trip",
     seoDescription:
-      "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. From $30 pp for 6+.",
+      "Hike to the Setti Fatma waterfalls through Berber villages and mountain streams, just 45 minutes from Marrakech. From €58 pp for 6+.",
     featured: true,
   },
   {

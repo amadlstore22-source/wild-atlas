@@ -42,6 +42,24 @@ function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents);
 
+    // Anonymous trip-box click counts (app/api/click). They carry the secret
+    // as clickSecret so an older copy of this script rejects them instead of
+    // writing blank enquiry rows.
+    if (data.kind === 'click') {
+      if (data.clickSecret !== SECRET) {
+        return ContentService
+          .createTextOutput(JSON.stringify({ ok: false, error: 'bad secret' }))
+          .setMimeType(ContentService.MimeType.JSON);
+      }
+      const ss = SpreadsheetApp.getActiveSpreadsheet();
+      const tab = ss.getSheetByName('Trip box clicks') ||
+        ss.insertSheet('Trip box clicks').appendRow(['Clicked', 'Language', 'Article', 'Tour']);
+      tab.appendRow([new Date(data.at || Date.now()), data.lang || '', data.post || '', data.tour || '']);
+      return ContentService
+        .createTextOutput(JSON.stringify({ ok: true }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
     // Reject anything not from our site.
     if (data.secret !== SECRET) {
       return ContentService
@@ -113,6 +131,15 @@ In Vercel: **Project → Settings → Environment Variables**. Add two, for
 | `SHEET_WEBHOOK_SECRET` | the exact string from step 2 |
 
 Then **redeploy** — Vercel only picks up new variables on a fresh deployment.
+
+---
+
+## Updating the script (e.g. to add trip-box click counts)
+
+Paste the new script over the old one, keep your own secret on line 3, save,
+then **Deploy → Manage deployments → pencil icon → Version: New version →
+Deploy**. The `/exec` URL stays the same, so nothing changes in Vercel. Click
+counts then appear in a **Trip box clicks** tab, created on the first click.
 
 ---
 

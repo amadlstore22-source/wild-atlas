@@ -423,6 +423,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                           minPeople={mainPrice.minPeople}
                           postSlug={post.slug}
                           tourSlug={mainTour.slug}
+                          lang={lang}
                           labels={{
                             eyebrow: dict.blog.tripBoxLabel,
                             trust: dict.blog.relatedToursSubtitle,

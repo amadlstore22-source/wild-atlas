@@ -17,6 +17,7 @@ interface Props {
   labels: { eyebrow: string; trust: string; from: string; perPerson: string; perPersonGroup: string; view: string };
   postSlug: string;
   tourSlug: string;
+  lang: string;
 }
 
 /**
@@ -30,10 +31,21 @@ interface Props {
  * Server-computed price and localised href are passed in, so this client
  * component carries no tour data beyond what it displays.
  */
-export default function BlogTripBox({ href, title, duration, image, priceUsd, minPeople, labels, postSlug, tourSlug }: Props) {
+export default function BlogTripBox({ href, title, duration, image, priceUsd, minPeople, labels, postSlug, tourSlug, lang }: Props) {
   const { format } = useCurrency();
   const per = minPeople > 1 ? labels.perPersonGroup.replace("{count}", String(minPeople)) : labels.perPerson;
-  const onClick = () => track("blog_trip_box_click", { post: postSlug, tour: tourSlug });
+  const onClick = () => {
+    // GA4 only counts visitors who chose "Accept all".
+    track("blog_trip_box_click", { post: postSlug, tour: tourSlug });
+    // Anonymous count of every click, consent or not (see app/api/click).
+    // sendBeacon survives the navigation this click starts; fetch may not.
+    try {
+      const data = new Blob([JSON.stringify({ lang, post: postSlug, tour: tourSlug })], { type: "application/json" });
+      navigator.sendBeacon?.("/api/click", data);
+    } catch {
+      // Counting must never get in the way of the click.
+    }
+  };
 
   return (
     <aside className="my-8 rounded-[4px] ring-1 ring-rule bg-parchment/50 p-4 sm:p-5 flex gap-4 items-center">

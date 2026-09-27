@@ -8,7 +8,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "28 July 2026";
+const UPDATED = "27 September 2026";
 
 /**
  * Per-locale metadata. This was a static `metadata` export, which cannot see
@@ -109,6 +109,12 @@ export default async function CookiesPage({ params }: LangParams) {
       id: "measurement",
       title: "Cookieless Measurement",
       body: (
+        <>
+        <p>
+          We also count clicks on the trip suggestions inside our articles. For each click we record only the
+          date, the language, the article and the tour clicked &mdash; <strong>no cookie</strong>, no IP address
+          and nothing that could identify you &mdash; so it runs whatever you choose on the banner.
+        </p>
         <p>
           Separately from the analytics cookies above, we use <strong>Vercel Analytics</strong> and{" "}
           <strong>Vercel Speed Insights</strong> to measure site performance. These are privacy-friendly and{" "}
@@ -116,6 +122,7 @@ export default async function CookiesPage({ params }: LangParams) {
           metrics (page views, visitor counts, Core Web Vitals), always run, and cannot identify you. See{" "}
           <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel&rsquo;s Privacy Policy</a>.
         </p>
+        </>
       ),
     },
     {

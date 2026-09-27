@@ -354,7 +354,8 @@
     "guestPost": "مقال ضيف بقلم",
     "guestContributor": "كاتب ضيف",
     "relatedToursTitle": "رحلات إلى هذه الوجهة",
-    "relatedToursSubtitle": "بقيادة الفريق الذي كتب هذا الدليل."
+    "relatedToursSubtitle": "بقيادة الفريق الذي كتب هذا الدليل.",
+    "tripBoxLabel": "انطلق معنا"
   },
   "about": {
     "pageTitle": "قصتنا",

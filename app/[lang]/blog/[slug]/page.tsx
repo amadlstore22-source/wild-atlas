@@ -12,6 +12,10 @@ import { buildFaqSchema } from "@/lib/seo/schema";
 import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
+import BlogTripBox from "@/components/blog/BlogTripBox";
+import { getTourFor } from "@/lib/tours-i18n";
+import { lowestGroupPrice } from "@/lib/tours";
+import { splitBeforeFirstH2 } from "@/lib/blog-trip-box";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { ogBase } from "@/lib/seo/open-graph";
@@ -312,7 +316,8 @@ export default async function BlogPostPage({ params }: BlogParams) {
    */
   type Block =
     | { kind: "html"; html: string }
-    | { kind: "img"; alt: string; src: string; caption?: string };
+    | { kind: "img"; alt: string; src: string; caption?: string }
+    | { kind: "trip" };
 
   function toBlocks(markdown: string): Block[] {
     const out: Block[] = [];
@@ -336,6 +341,26 @@ export default async function BlogPostPage({ params }: BlogParams) {
   }
 
   const blocks = post.content.split(/^\[\[WEATHER\]\]\r?$/m).map(toBlocks);
+
+  // The article's main trip, placed where the intro ends (before the first
+  // <h2>) instead of only after the FAQ, 12-15 phone screens down. See
+  // components/blog/BlogTripBox.tsx for the measurements behind this.
+  const mainTour = post.relatedTours?.[0] ? getTourFor(lang, post.relatedTours[0]) : undefined;
+  const mainPrice = mainTour ? lowestGroupPrice(mainTour) : undefined;
+  if (mainTour && blocks[0]) blocks[0] = withTripBox(blocks[0]);
+
+  function withTripBox(segment: Block[]): Block[] {
+    const j = segment.findIndex((b) => b.kind === "html" && b.html.includes("<h2>"));
+    if (j === -1) return [...segment.slice(0, 1), { kind: "trip" }, ...segment.slice(1)];
+    const target = segment[j] as { kind: "html"; html: string };
+    const [before, after] = splitBeforeFirstH2(target.html);
+    const parts: Block[] = [
+      ...(before ? [{ kind: "html" as const, html: before }] : []),
+      { kind: "trip" },
+      { kind: "html", html: after },
+    ];
+    return [...segment.slice(0, j), ...parts, ...segment.slice(j + 1)];
+  }
 
   return (
     <>
@@ -386,7 +411,29 @@ export default async function BlogPostPage({ params }: BlogParams) {
               {blocks.map((segment, i) => (
                 <div key={i}>
                   {segment.map((block, j) =>
-                    block.kind === "html" ? (
+                    block.kind === "trip" ? (
+                      mainTour && mainPrice ? (
+                        <BlogTripBox
+                          key={j}
+                          href={`/${lang}/tours/${mainTour.localizedSlug ?? mainTour.slug}`}
+                          title={mainTour.title}
+                          duration={mainTour.duration}
+                          image={mainTour.heroImage}
+                          priceUsd={mainPrice.price}
+                          minPeople={mainPrice.minPeople}
+                          postSlug={post.slug}
+                          tourSlug={mainTour.slug}
+                          labels={{
+                            eyebrow: dict.blog.tripBoxLabel,
+                            trust: dict.blog.relatedToursSubtitle,
+                            from: dict.common.from,
+                            perPerson: dict.common.perPerson,
+                            perPersonGroup: dict.common.perPersonGroup,
+                            view: dict.featuredTours.viewTour,
+                          }}
+                        />
+                      ) : null
+                    ) : block.kind === "html" ? (
                       <div
                         key={j}
                         className="blog-prose max-w-none"

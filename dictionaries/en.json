@@ -354,7 +354,8 @@
     "guestPost": "Guest post by",
     "guestContributor": "Guest Contributor",
     "relatedToursTitle": "Trips that go here",
-    "relatedToursSubtitle": "Guided by the team who wrote this guide."
+    "relatedToursSubtitle": "Guided by the team who wrote this guide.",
+    "tripBoxLabel": "Go with us"
   },
   "about": {
     "pageTitle": "Our Story",

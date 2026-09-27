@@ -354,7 +354,8 @@
     "guestPost": "Artículo invitado de",
     "guestContributor": "Colaborador Invitado",
     "relatedToursTitle": "Viajes que pasan por aquí",
-    "relatedToursSubtitle": "Guiados por el equipo que escribió esta guía."
+    "relatedToursSubtitle": "Guiados por el equipo que escribió esta guía.",
+    "tripBoxLabel": "Viaja con nosotros"
   },
   "about": {
     "pageTitle": "Nuestra Historia",

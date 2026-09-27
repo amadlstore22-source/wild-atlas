@@ -354,7 +354,8 @@
     "guestPost": "Articolo ospite di",
     "guestContributor": "Autore Ospite",
     "relatedToursTitle": "Viaggi che toccano questi luoghi",
-    "relatedToursSubtitle": "Guidati dal team che ha scritto questa guida."
+    "relatedToursSubtitle": "Guidati dal team che ha scritto questa guida.",
+    "tripBoxLabel": "Parti con noi"
   },
   "about": {
     "pageTitle": "La Nostra Storia",

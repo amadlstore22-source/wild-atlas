@@ -136,7 +136,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
                 <span className="text-sm font-body font-normal text-cream/70"> {perPersonLabel}</span>
               </p>
             </div>
-            <Link href={`/${lang}/tours/${tour.slug}`} className="btn-brass !px-5 !py-2.5 !text-sm shrink-0">
+            <Link href={`/${lang}/tours/${tour.localizedSlug ?? tour.slug}`} className="btn-brass !px-5 !py-2.5 !text-sm shrink-0">
               {viewTourLabel}
               <ArrowRight className="w-4 h-4" weight="bold" />
             </Link>
@@ -218,7 +218,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             </p>
           </div>
           <Link
-            href={`/${lang}/tours/${tour.slug}`}
+            href={`/${lang}/tours/${tour.localizedSlug ?? tour.slug}`}
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep active:scale-[0.98] transition-all"
           >
             {viewTourLabel}

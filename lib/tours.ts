@@ -5413,6 +5413,9 @@ export type TourCardData = Pick<
   // rate on every card — the exact bug lowestGroupPrice() exists to prevent.
   | "groupPricing"
   | "minPeople"
+  // The URL segment in the card's locale. Linking the English slug from a
+  // /de/ page cost every click a 308 hop to the localised address.
+  | "localizedSlug"
 >;
 
 /** Strips a full Tour down to what a card serialises. Server-side only. */
@@ -5434,6 +5437,7 @@ export function toCardData(tour: Tour): TourCardData {
     shortDescription: tour.shortDescription,
     groupPricing: tour.groupPricing,
     minPeople: tour.minPeople,
+    localizedSlug: tour.localizedSlug,
   };
 }
 

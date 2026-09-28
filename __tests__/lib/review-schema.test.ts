@@ -19,8 +19,8 @@ import { buildReviewNodes } from "@/lib/seo/schema";
  * they sum to ~2,276 across the catalogue against 122 real TripAdvisor
  * reviews. Emitting them is invented review markup — a Google structured-data
  * spam violation that risks manual action, and a false claim to a customer
- * deciding whether to pay us. The genuine business-wide rating is already
- * emitted once as LocalBusiness/aggregateRating on the homepage.
+ * deciding whether to pay us. (The business-wide TripAdvisor rating is not
+ * marked up anywhere since 2026-09-28: third-party ratings are not allowed.)
  *
  * What IS legitimate is the individual Review node, from the three real named
  * travellers in lib/reviews.ts.
@@ -160,7 +160,9 @@ describe("no fabricated aggregate rating", () => {
       `app/[lang]/tours/[slug]/page.tsx emits aggregateRating. Our per-tour\n` +
         `rating and reviewCount are @deprecated placeholders (~2,276 total vs\n` +
         `122 real TripAdvisor reviews) — emitting them is fabricated review\n` +
-        `markup. The real rating belongs on LocalBusiness on the homepage.`,
+        `markup. The TripAdvisor rating is not ours to mark up either; see
+` +
+        `tripadvisor-identity.test.ts.`,
     ).toBe(false);
   });
 

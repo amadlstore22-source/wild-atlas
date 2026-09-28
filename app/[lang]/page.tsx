@@ -69,14 +69,11 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      // LocalBusiness, not TravelAgency: Google's rich-results validator only
-      // allows aggregateRating on a specific LocalBusiness-subtype allow-list,
-      // and TravelAgency isn't reliably on it — reported as "Invalid object
-      // type for field <parent_node>" in Search Console's Review snippets
-      // report. LocalBusiness is schema-valid for a Marrakech-based operator
-      // and is accepted, so it keeps the real TripAdvisor rating eligible for
-      // review-snippet rich results.
-      "@type": "LocalBusiness",
+      // TravelAgency: Google asks for the most specific LocalBusiness subtype
+      // (developers.google.com/search/docs/appearance/structured-data/local-business).
+      // This was plain LocalBusiness only so it could carry an aggregateRating;
+      // see the note where that property used to be.
+      "@type": "TravelAgency",
       "@id": "https://marrakechecotours.com/#organization",
       name: "Marrakech Eco Tours",
       url: "https://marrakechecotours.com",
@@ -118,13 +115,14 @@ const websiteJsonLd = {
            two organisations are one. The footer link carries the
            referral without the false claim. */
       ],
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: TRIPADVISOR.rating.toFixed(1),
-        reviewCount: String(TRIPADVISOR.reviewCount),
-        bestRating: "5",
-        worstRating: "1",
-      },
+      /* NO aggregateRating, deliberately (removed 2026-09-28). It used to
+         quote the TripAdvisor listing's 5.0 / 122 reviews. Google's review
+         snippet guidelines rule that out twice: "Don't aggregate reviews or
+         ratings from other websites", and a LocalBusiness/Organization that
+         controls reviews about itself is "ineligible for star review
+         feature". So it could never show stars, and it carried manual-action
+         risk. The rating stays VISIBLE on the page (TripAdvisor badge), which
+         is where it earns trust; it just is not structured data. */
     },
     {
       "@type": "WebSite",

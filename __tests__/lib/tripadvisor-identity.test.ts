@@ -109,22 +109,24 @@ describe("TripAdvisor identity", () => {
     ).toBe(rendered);
   });
 
-  it("matches the name the homepage schema attaches the rating to", () => {
-    // The homepage emits LocalBusiness { name, aggregateRating } using this
-    // listing's numbers. Google's review-snippet policy expects the reviewed
-    // entity to be the one named — the same reasoning that keeps
-    // aggregateRating off tour pages, which have no review corpus of their own.
-    const home = readFileSync(join(ROOT, "app", "[lang]", "page.tsx"), "utf-8");
-    if (!home.includes("aggregateRating")) return;
-
-    expect(
-      TRIPADVISOR.listingName.trim().toLowerCase(),
-      "The homepage attaches an aggregateRating to a LocalBusiness named\n" +
-        `"${SITE.name}", but the reviews come from a listing trading as\n` +
-        `"${TRIPADVISOR.listingName}". That is the entity mismatch Google's\n` +
-        "review-snippet policy targets. Either rename the listing, or make the\n" +
-        "difference explicit on the page — do not let it be silent.",
-    ).toBe(SITE.name.trim().toLowerCase());
+  it("is never re-published as structured data on the business pages", () => {
+    // Until 2026-09-28 the homepage emitted LocalBusiness { aggregateRating }
+    // with this listing's 5.0 / 122. Google's review-snippet guidelines forbid
+    // it: "Don't aggregate reviews or ratings from other websites", and an
+    // Organization/LocalBusiness that controls reviews about itself is
+    // "ineligible for star review feature" -- no stars possible, manual-action
+    // risk. The rating is shown on the page (badge); it is not markup.
+    for (const file of [["app", "[lang]", "page.tsx"], ["app", "[lang]", "about", "page.tsx"]]) {
+      const code = readFileSync(join(ROOT, ...file), "utf-8")
+        .replace(/\/\*[\s\S]*?\*\//g, " ")
+        .replace(/(^|[^:])\/\/.*$/gm, "$1");
+      expect(
+        /(^|[\s{,])aggregateRating\s*:/.test(code),
+        `${file.join("/")} emits aggregateRating. That is TripAdvisor's rating
+` +
+          "marked up as ours, which Google's review-snippet guidelines forbid.",
+      ).toBe(false);
+    }
   });
 
   it("still states a real, sourced rating rather than a rounded boast", () => {

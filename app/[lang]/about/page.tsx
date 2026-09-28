@@ -81,7 +81,7 @@ function aboutJsonLd(lang: string) {
         },
       },
       {
-        "@type": "LocalBusiness",
+        "@type": "TravelAgency",
         "@id": "https://marrakechecotours.com/#organization",
         name: "Marrakech Eco Tours",
         url: "https://marrakechecotours.com",

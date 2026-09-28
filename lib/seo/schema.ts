@@ -195,9 +195,9 @@ export function buildAggregateOffer(opts: {
  * 122 real TripAdvisor reviews. Emitting them as AggregateRating would be
  * invented review markup — a Google structured-data spam violation, and a
  * false claim to a customer deciding whether to pay us. The REAL business-wide
- * rating is already emitted once, correctly, as LocalBusiness/aggregateRating
- * on the homepage; repeating it per-product would assert that all 122 reviews
- * were for each individual tour.
+ * rating is TripAdvisor's, and Google forbids marking up ratings from other
+ * websites, so since 2026-09-28 it is not structured data anywhere; repeating
+ * it per-product would also assert that all 122 reviews were for each tour.
  *
  * What IS legitimate is the individual `Review`. Google accepts Review nodes
  * on a Product without an aggregate, and the three reviews in lib/reviews.ts

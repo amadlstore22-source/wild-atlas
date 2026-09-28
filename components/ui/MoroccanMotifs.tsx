@@ -210,7 +210,11 @@ export function ArabesqueDivider({
     <div className={`flex items-center justify-center gap-3 ${className}`} aria-hidden="true">
       <span className="h-px w-16 bg-gradient-to-r from-transparent to-brass/60 sm:w-28" />
       <ZelligeStar size={12} className="text-brass shrink-0" />
-      <ZelligeBand tone={tone} height={22} fade={false} className="w-32 sm:w-48 shrink-0" />
+      {/* "!": ZelligeBand prepends w-full, which beat w-32 below the sm
+          breakpoint, so on phones the band filled the column and pushed both
+          stars 8px past the screen edge (horizontal scroll on every page with
+          this divider). Desktop already rendered the intended 192px band. */}
+      <ZelligeBand tone={tone} height={22} fade={false} className="!w-32 sm:!w-48 shrink-0" />
       <ZelligeStar size={12} className="text-brass shrink-0" />
       <span className="h-px w-16 bg-gradient-to-l from-transparent to-brass/60 sm:w-28" />
     </div>

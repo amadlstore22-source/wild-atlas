@@ -1,3 +1,4 @@
+import { formatDate } from "@/lib/format-date";
 import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, type NewsArticle, FALLBACK_MOROCCO, FALLBACK_TRAVEL } from "@/lib/news";
@@ -8,14 +9,6 @@ interface Props {
   lang: Locale;
   dict: Dictionary;
   showViewAll?: boolean;
-}
-
-function formatDate(iso: string): string {
-  try {
-    return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-  } catch {
-    return "";
-  }
 }
 
 function articleImage(article: NewsArticle): string {
@@ -82,7 +75,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
                   />
                 </div>
                 <div className="p-5">
-                  <p className="text-xs text-ink-muted mb-2">{formatDate(post.publishedAt)}</p>
+                  <p className="text-xs text-ink-muted mb-2">{formatDate(post.publishedAt, lang, "short")}</p>
                   <h3 className="font-display text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2">
                     {post.title}
                   </h3>
@@ -120,7 +113,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
                 <div className="p-5">
                   <p className="text-xs text-ink-muted mb-2">
                     {dict.news.source} <span className="font-semibold">{article.source}</span>
-                    {" · "}{formatDate(article.publishedAt)}
+                    {" · "}{formatDate(article.publishedAt, lang, "short")}
                   </p>
                   <h3 className="font-display text-charcoal font-bold text-base leading-snug line-clamp-2 mb-2 group-hover:text-forest transition-colors">
                     {article.title}

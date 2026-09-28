@@ -1,3 +1,4 @@
+import { formatDate } from "@/lib/format-date";
 import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, FALLBACK_MOROCCO, FALLBACK_TRAVEL, type NewsArticle } from "@/lib/news";
@@ -12,14 +13,6 @@ interface Props {
 
 function articleImage(article: NewsArticle): string {
   return article.imageUrl ?? (article.category === "morocco" ? FALLBACK_MOROCCO : FALLBACK_TRAVEL);
-}
-
-function formatDate(iso: string): string {
-  try {
-    return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-  } catch {
-    return "";
-  }
 }
 
 export default async function NewsTeaserSection({ lang, dict }: Props) {
@@ -83,7 +76,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                     {featured.excerpt}
                   </p>
                   <p className="text-white/50 text-xs">
-                    {dict.news.source} {featured.source} · {formatDate(featured.publishedAt)}
+                    {dict.news.source} {featured.source} · {formatDate(featured.publishedAt, lang, "short")}
                   </p>
                 </div>
               </a>
@@ -104,7 +97,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   <h3 className="font-display text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {fallbackPost.title}
                   </h3>
-                  <p className="text-white/60 text-xs">{formatDate(fallbackPost.publishedAt)}</p>
+                  <p className="text-white/60 text-xs">{formatDate(fallbackPost.publishedAt, lang, "short")}</p>
                 </div>
               </Link>
             ) : null}
@@ -125,7 +118,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                       <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2 group-hover:text-emerald transition-colors">
                         {post.title}
                       </h4>
-                      <p className="text-ink-muted text-xs mt-1">{formatDate(post.publishedAt)}</p>
+                      <p className="text-ink-muted text-xs mt-1">{formatDate(post.publishedAt, lang, "short")}</p>
                     </div>
                   </Link>
                 ))
@@ -147,7 +140,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                       <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2">
                         {article.title}
                       </h4>
-                      <p className="text-ink-muted text-xs mt-1">{article.source} · {formatDate(article.publishedAt)}</p>
+                      <p className="text-ink-muted text-xs mt-1">{article.source} · {formatDate(article.publishedAt, lang, "short")}</p>
                     </div>
                   </a>
                 ))

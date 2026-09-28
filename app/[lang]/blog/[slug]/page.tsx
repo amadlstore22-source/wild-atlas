@@ -1,3 +1,4 @@
+import { formatDate, intlLocale } from "@/lib/format-date";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,6 +20,8 @@ import { splitBeforeFirstH2 } from "@/lib/blog-trip-box";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { ogBase } from "@/lib/seo/open-graph";
+import { BLOG_BYLINE, bylineName } from "@/lib/team";
+import { getGuideFor } from "@/lib/guides-i18n";
 type BlogParams = { params: Promise<{ lang: string; slug: string }> };
 
 export async function generateStaticParams() {
@@ -87,8 +90,26 @@ const CATEGORY_COLORS: Record<string, string> = {
   wildlife: "bg-[#5A6B8C]/12 text-[#43506B]",
 };
 
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+/** "Yassine, Aziz, Hassan, Mohamed and Smail" in the page's language, with the
+ *  names that have a guide profile linked to it. See lib/team.ts. */
+function TeamByline({ lang }: { lang: string }) {
+  let i = 0;
+  const parts = new Intl.ListFormat(intlLocale(lang), { style: "long", type: "conjunction" }).formatToParts(BLOG_BYLINE.map((m) => bylineName(m, lang)));
+  return (
+    <>
+      {parts.map((part, k) => {
+        if (part.type !== "element") return <span key={k}>{part.value}</span>;
+        const m = BLOG_BYLINE[i++];
+        return m.guideId ? (
+          <Link key={k} href={`/${lang}/guides/${m.guideId}`} className="underline decoration-white/40 underline-offset-2 hover:text-white">
+            {bylineName(m, lang)}
+          </Link>
+        ) : (
+          <span key={k}>{bylineName(m, lang)}</span>
+        );
+      })}
+    </>
+  );
 }
 
 export default async function BlogPostPage({ params }: BlogParams) {
@@ -140,9 +161,20 @@ export default async function BlogPostPage({ params }: BlogParams) {
       wordCount: post.content.trim().split(/\s+/).length,
       timeRequired: `PT${post.readTime}M`,
       articleSection: post.category,
-      author: post.author
-        ? { "@type": "Organization", name: post.author.name, url: "https://marrakechecotours.com" }
-        : publisher,
+      // The guides who write and check MET's articles, as Persons: Google's
+      // author guidance wants real people, linked to a page about them where
+      // one exists. A guest post keeps its own named author.
+      author:
+        post.author && !post.author.isGuest
+          ? BLOG_BYLINE.map((m) => ({
+              "@type": "Person",
+              name: (m.guideId && getGuideFor(lang, m.guideId)?.name) || bylineName(m, lang),
+              ...(m.guideId && { url: `https://marrakechecotours.com/${lang}/guides/${m.guideId}` }),
+              worksFor: { "@id": "https://marrakechecotours.com/#organization" },
+            }))
+          : post.author
+            ? { "@type": "Organization", name: post.author.name, url: "https://marrakechecotours.com" }
+            : publisher,
       publisher,
     },
     {
@@ -394,11 +426,18 @@ export default async function BlogPostPage({ params }: BlogParams) {
             <div className="flex items-center gap-5 text-white/60 text-sm flex-wrap">
               {post.author && (
                 <span className="flex items-center gap-1.5 text-white/80 font-medium">
-                  {post.author.isGuest ? dict.blog.guestPost : dict.blog.by} {post.author.name}
+                  {post.author.isGuest ? (
+                    <>{dict.blog.guestPost} {post.author.name}</>
+                  ) : (
+                    <span>{dict.blog.by} <TeamByline lang={lang} /></span>
+                  )}
                   {post.author.isGuest && <span className="text-white/40 font-normal">· {dict.blog.guestContributor}</span>}
                 </span>
               )}
-              <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(post.publishedAt)}</span>
+              <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(post.publishedAt, lang)}</span>
+              {post.updatedAt && post.updatedAt.slice(0, 10) !== post.publishedAt.slice(0, 10) && (
+                <span>{dict.blog.updated} {formatDate(post.updatedAt, lang)}</span>
+              )}
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{post.readTime} {dict.blog.minRead}</span>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import { formatDate } from "@/lib/format-date";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -47,10 +48,6 @@ const CATEGORY_COLORS: Record<string, string> = {
   wildlife: "bg-[#5A6B8C] text-cream",
 };
 
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
-}
-
 export default async function BlogPage({
   params,
   searchParams,
@@ -95,7 +92,7 @@ export default async function BlogPage({
               {postRegion && postRegion.id !== "root" ? (
                 <span className="text-ink-soft">{postRegion.icon} {postRegion.label}</span>
               ) : (
-                <><CalendarBlank className="w-3.5 h-3.5" />{formatDate(post.publishedAt)}</>
+                <><CalendarBlank className="w-3.5 h-3.5" />{formatDate(post.publishedAt, lang)}</>
               )}
             </span>
             <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime} {dict.blog.minRead}</span>
@@ -228,7 +225,7 @@ export default async function BlogPage({
                 <p className="text-ink-soft leading-relaxed mb-6">{featured.excerpt}</p>
                 <div className="flex items-center gap-4 text-sm text-ink-muted">
                   {featured.author && <span className="text-ink-soft font-medium">{featured.author.name}</span>}
-                  <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(featured.publishedAt)}</span>
+                  <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(featured.publishedAt, lang)}</span>
                   <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{featured.readTime} {dict.blog.minRead}</span>
                 </div>
               </div>

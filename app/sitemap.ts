@@ -8,6 +8,7 @@ import { GUIDES } from "@/lib/guides";
 import { EVENTS } from "@/lib/events";
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
 import { galleryPreview } from "@/lib/gallery-preview";
+import { MARKETS, MARKETS_CHECKED, marketPath } from "@/lib/markets";
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
@@ -149,8 +150,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // should list only final canonical URLs. Submitting a redirecting URL is
   // what Search Console reports as "Page with redirect". /en is in staticUrls
   // and carries priority 1.0 already.
+  // One page per source market, each in its own locale only (lib/markets.ts).
+  // Dated by when the facts on it were last checked, not by the build.
+  const marketUrls = MARKETS.map((m) => ({
+    url: `${BASE}${marketPath(m)}`,
+    lastModified: new Date(MARKETS_CHECKED),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
   return [
     ...staticUrls,
+    ...marketUrls,
     ...tourUrls,
     ...categoryUrls,
     ...destinationUrls,

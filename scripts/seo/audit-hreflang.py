@@ -37,6 +37,14 @@ for p in pages:
     if not canon:
         problems["no canonical"].append(rel); continue
     if not alts:
+        # Single-locale pages (lib/markets.ts: one "Morocco from <country>"
+        # page per locale) have no other language versions, and Google's
+        # hreflang docs apply only to "multiple versions of a page". Correct
+        # as long as the page still canonicalises to itself.
+        if "/travel-from/" in rel and canon.group(1).rstrip("/").endswith(rel):
+            stats["single-locale"] += 1
+            stats["complete"] += 1
+            continue
         problems["no hreflang"].append(rel); continue
 
     missing = [l for l in LOCALES if l not in alts]
@@ -54,6 +62,7 @@ for p in pages:
 
 print("pages checked : %d" % stats["pages"])
 print("fully correct : %d" % stats["complete"])
+print("  of which single-locale (no hreflang by design): %d" % stats["single-locale"])
 print()
 for k in sorted(problems, key=lambda x: -len(problems[x])):
     v = problems[k]

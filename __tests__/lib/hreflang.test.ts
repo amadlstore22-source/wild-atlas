@@ -97,6 +97,8 @@ describe("every indexable localised route emits hreflang", () => {
   // The sibling test above only checks that routes which ALREADY have a
   // languages block spell out x-default. It cannot catch a route that omits
   // hreflang entirely, which is precisely how those three slipped through.
+  const SINGLE_LOCALE_ROUTES = ["travel-from/[market]/page.tsx"];
+
   it("has no /[lang] route with a canonical but no languages block", () => {
     const langDir = join(__dirname, "..", "..", "app", "[lang]");
     const offenders: string[] = [];
@@ -105,6 +107,13 @@ describe("every indexable localised route emits hreflang", () => {
       const src = readFileSync(file, "utf-8");
       // Only routes that declare a canonical are making an indexing claim.
       if (!/alternates:\s*\{|canonical:/.test(src)) continue;
+      // Single-locale routes: each "Morocco from <country>" page exists in ONE
+      // locale (lib/markets.ts, dynamicParams = false), so there are no locale
+      // versions for Google to mistake for duplicates. A self-only hreflang
+      // would force an x-default (sibling test) naming, say, the German page
+      // as the fallback for Spanish speakers, which is wrong.
+      const rel = file.replace(/\\/g, "/").split("[lang]/")[1] ?? "";
+      if (SINGLE_LOCALE_ROUTES.includes(rel)) continue;
       const hasLanguages =
         /languages:/.test(src) || /hreflang(Languages|ForPath)\s*\(/.test(src);
       if (!hasLanguages) {

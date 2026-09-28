@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Envelope, Phone, MapPin, PersonSimpleBike, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import { SITE, SOCIAL, TRIPADVISOR, SISTER_SITE } from "@/lib/constants";
+import { marketsIn, marketPath } from "@/lib/markets";
 import { STATS } from "@/lib/stats";
 import NewsletterForm from "@/components/ui/NewsletterForm";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
@@ -72,6 +73,8 @@ export default function Footer({ lang, dict }: Props) {
     { label: dict.nav.tours, href: `/${lang}/tours` },
     { label: dict.nav.gallery, href: `/${lang}/gallery` },
     { label: dict.nav.contact, href: `/${lang}/contact` },
+    // This locale's "Morocco from <country>" page, if it has one (not /ar).
+    ...marketsIn(lang).map((m) => ({ label: m.footerLabel, href: marketPath(m) })),
     { label: "FAQ", href: `/${lang}/contact#faq` },
     { label: "Privacy Policy", href: `/${lang}/privacy` },
     { label: "Terms & Conditions", href: `/${lang}/terms` },

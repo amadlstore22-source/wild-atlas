@@ -1,4 +1,5 @@
 import type { Locale } from "@/app/[lang]/dictionaries";
+import { MARKET_SLUG_BY_LANG } from "./market-slugs";
 
 /**
  * Translating a URL when the visitor changes language.
@@ -423,6 +424,13 @@ export function translatePath(pathname: string, from: Locale, to: Locale): strin
   segments[1] = to;
 
   const kind = segments[2];
+  // A "Morocco from <country>" page is not translated; each locale has its
+  // own market (lib/market-slugs.ts). Swapping only the prefix would 404, so
+  // go to the target locale's own market page, or its home when it has none.
+  if (kind === "travel-from") {
+    const slug = MARKET_SLUG_BY_LANG[to];
+    return slug ? `/${to}/travel-from/${slug}` : `/${to}`;
+  }
   if ((kind !== "blog" && kind !== "tours") || segments.length < 4 || !segments[3]) {
     return segments.join("/") || `/${to}`;
   }

@@ -32,9 +32,9 @@ export default async function BlogWeather({ region, dict }: { region: string; di
           {dict.weather.high} <strong className="text-ink">{w.highC}°</strong> · {dict.weather.low} <strong className="text-ink">{w.lowC}°</strong>
         </div>
       </div>
-      <p className="text-ink-faint text-[0.7rem] mt-4">
+      <p className="text-ink-muted text-[0.7rem] mt-4">
         {dict.weather.validReading}{" "}
-        <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink-muted">
+        <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink">
           Open-Meteo
         </a>
         . {dict.weather.summitColder}

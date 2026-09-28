@@ -187,7 +187,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           <span className="eyebrow !text-[0.62rem] !tracking-[0.16em]">{CATEGORY_LABEL[tour.category] ?? tour.category}</span>
           <div className="flex items-center gap-1.5" title={`${TRIPADVISOR.rating.toFixed(1)} from ${TRIPADVISOR.reviewCount} TripAdvisor reviews across all our tours`}>
             <StarRating rating={TRIPADVISOR.rating} />
-            <span className="text-xs font-semibold text-saffron">{TRIPADVISOR.rating.toFixed(1)}</span>
+            <span className="text-xs font-semibold text-saffron-deep">{TRIPADVISOR.rating.toFixed(1)}</span>
           </div>
         </div>
 

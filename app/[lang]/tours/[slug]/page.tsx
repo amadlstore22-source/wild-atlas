@@ -409,7 +409,7 @@ export default async function TourDetailPage({ params }: TourParams) {
                 <TourWeather tour={tour} dict={dict} />
               </Suspense>
               <div className="mt-4 bg-indigo rounded-[4px] p-5 text-white">
-                <h3 className="font-display text-base font-bold mb-2">{dict.tourDetail.planYourTrip}</h3>
+                <h3 className="font-display text-base font-bold text-white mb-2">{dict.tourDetail.planYourTrip}</h3>
                 <p className="text-white/75 text-xs mb-3 leading-relaxed">{dict.tourDetail.sidebarDesc}</p>
                 <Link href={`/${lang}/contact`} className="block text-center px-4 py-2.5 rounded-[3px] bg-white/10 border border-white/20 text-white font-semibold text-sm hover:bg-white/20 transition-colors">
                   {dict.tourDetail.planCustomTrip}

@@ -149,7 +149,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           )}
           <div className="text-white/55 text-xs mt-1">{b.exactPriceNote}</div>
           {showTiers && (
-            <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow bg-white/10 px-2.5 py-1 rounded-full">
+            <div className="mt-2 inline-flex items-center gap-1.5 text-[0.72rem] font-semibold text-brass-glow border border-brass-glow/40 px-2.5 py-1 rounded-full">
               {(b.groupRateFrom ?? "Groups from {price}/person").replace("{price}", format(tiers[tiers.length - 1].price))}
             </div>
           )}
@@ -613,7 +613,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 track("whatsapp_click", { location: "booking_sidebar", tour: tour.title });
                 trackConversion("whatsapp");
               }}
-              className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-[#25D366]/10 text-[#128C7E] font-semibold text-xs hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
+              className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-[#25D366]/10 text-[#075E54] font-semibold text-xs hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
             >
               <WhatsappLogo className="w-4 h-4" />
               {b.whatsapp}

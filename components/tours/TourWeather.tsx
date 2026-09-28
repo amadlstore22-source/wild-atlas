@@ -27,9 +27,9 @@ export default async function TourWeather({ tour, dict }: { tour: Tour; dict: Di
       <div className="text-ink-muted text-xs mt-2">
         {dict.weather.high} {w.highC}° · {dict.weather.low} {w.lowC}°
       </div>
-      <div className="text-ink-faint text-[0.65rem] mt-3">
+      <div className="text-ink-muted text-[0.65rem] mt-3">
         {dict.weather.liveVia}{" "}
-        <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink-muted">
+        <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink">
           Open-Meteo
         </a>
       </div>

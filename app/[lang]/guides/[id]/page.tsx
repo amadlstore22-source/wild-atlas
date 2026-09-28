@@ -207,13 +207,13 @@ export default async function GuideProfilePage({ params }: GuideParams) {
             {/* If legacy guide, link to about page */}
             {guide.isLegacy && (
               <div className="tex-emerald rounded-[4px] p-8 text-white">
-                <h3 className="font-display text-xl font-bold mb-3">{g.storyBehindTitle}</h3>
+                <h3 className="font-display text-xl font-bold text-white mb-3">{g.storyBehindTitle}</h3>
                 <p className="text-white/65 text-sm leading-relaxed mb-5">
                   {g.storyBehindBody}
                 </p>
                 <Link
                   href={`/${lang}/about`}
-                  className="inline-flex items-center gap-2 text-sunset font-semibold text-sm hover:gap-3 transition-all"
+                  className="inline-flex items-center gap-2 text-brass-glow font-semibold text-sm hover:gap-3 transition-all"
                 >
                   {g.readOurStory}
                 </Link>

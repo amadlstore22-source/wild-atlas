@@ -353,7 +353,7 @@ export default async function EventDetailPage({ params }: EventParams) {
         ) : null}
 
         <p className="mt-10 font-body text-sm">
-          <Link href={`/${lang}/events`} className="text-[var(--color-terracotta)] underline">
+          <Link href={`/${lang}/events`} className="text-[var(--color-ink)] underline decoration-[var(--color-terracotta)]">
             &larr; {t.allEvents}
           </Link>
         </p>

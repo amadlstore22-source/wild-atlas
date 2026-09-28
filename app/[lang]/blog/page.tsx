@@ -43,7 +43,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   trekking: "bg-indigo text-cream",
   desert: "bg-terracotta text-cream",
   culture: "bg-indigo-deep text-cream",
-  tips: "bg-saffron text-cream",
+  tips: "bg-saffron-deep text-cream", // bg-saffron with cream is 3.12:1; deep is 6.06:1
   wildlife: "bg-[#5A6B8C] text-cream",
 };
 
@@ -243,7 +243,7 @@ export default async function BlogPage({
         )}
 
         <div className="mt-20 bg-forest rounded-[4px] p-10 text-center text-white">
-          <h2 className="font-display text-3xl font-bold mb-3">{dict.blog.readyTitle}</h2>
+          <h2 className="font-display text-3xl font-bold text-white mb-3">{dict.blog.readyTitle}</h2>
           <p className="text-white/70 mb-6 max-w-xl mx-auto">{dict.blog.readyDesc}</p>
           <Link href={`/${lang}/tours`} className="btn-brass">
             {dict.blog.browseAll} <ArrowRight className="w-4 h-4" />

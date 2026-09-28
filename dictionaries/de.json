@@ -87,7 +87,7 @@
     },
     "responsive": {
       "title": "Schneller, persönlicher Support",
-      "desc": "WhatsApp-Antworten innerhalb von 24 Stunden, meist deutlich schneller. Bei E-Mails kann es etwas länger dauern. Echte Menschen, immer erreichbar."
+      "desc": "Wir beantworten jede Anfrage in weniger als einer Stunde, 8–20 Uhr marokkanischer Zeit, per WhatsApp oder E-Mail. Echte Menschen, immer erreichbar."
     }
   },
   "whyBook": {
@@ -101,7 +101,7 @@
     "noPrepay": "Keine Vorauszahlung",
     "noPrepaySub": "Kleine Anzahlung, kostenlose Stornierung bis {days} Tage vorher",
     "fastReply": "Schnelle persönliche Antwort",
-    "fastReplySub": "Meist innerhalb von {hours} Std., von einem echten Guide",
+    "fastReplySub": "Innerhalb einer Stunde, von einem echten Guide",
     "browseTours": "Alle Touren ansehen",
     "askQuestion": "Stellen Sie uns eine Frage"
   },
@@ -163,7 +163,7 @@
     "whatsapp": "WhatsApp schreiben",
     "customTrip": "Individuelle Reise",
     "trust1": "Kostenlose Stornierung bis 14 Tage vorher",
-    "trust2": "WhatsApp-Antworten innerhalb von 24 Stunden",
+    "trust2": "Antwort innerhalb einer Stunde",
     "trust3": "5 Sterne von über 1.000 Reisenden",
     "ratingBadge": "{rating} auf TripAdvisor",
     "travellerReviews": "Reisebewertungen"
@@ -236,7 +236,7 @@
       "noPrepay": "Keine Vorauszahlung",
       "noPrepaySub": "Kleine Anzahlung, Rest bei Ankunft",
       "fastReply": "Schnelle persönliche Antwort",
-      "fastReplySub": "Meist innerhalb {hours} Std., von einem echten Guide"
+      "fastReplySub": "Innerhalb einer Stunde, von einem echten Guide"
     },
     "mealBreakfast": "Frühstück",
     "mealLunch": "Mittagessen",
@@ -260,9 +260,9 @@
     "chooseDatesTitle": "Sie bestimmen den Termin",
     "chooseDatesBody": "Private Abfahrten — kein fester Zeitplan, in den Sie sich einfügen müssen. Sagen Sie uns, wann Sie reisen möchten, und wir gestalten die Reise um Sie herum.",
     "freeCancellationDays": "Kostenlose Stornierung bis {days} Tage vorher",
-    "replyWithinHours": "Antwort innerhalb von {hours} Stunden",
+    "replyWithinHours": "Antwort innerhalb einer Stunde (8–20 Uhr)",
     "enquirySent": "Anfrage gesendet!",
-    "enquirySentBody": "Wir melden uns innerhalb von {hours} Stunden bei {email}.",
+    "enquirySentBody": "Wir melden uns innerhalb einer Stunde bei {email} (8–20 Uhr marokkanischer Zeit).",
     "checkAvailability": "Verfügbarkeit prüfen",
     "nameLabel": "Name *",
     "namePlaceholder": "Ihr vollständiger Name",
@@ -423,7 +423,7 @@
     "phone": "WhatsApp / Telefon",
     "basedIn": "Standort",
     "responseTime": "Antwortzeit",
-    "responseValue": "WhatsApp: innerhalb von 24 Std. · E-Mail: kann länger dauern",
+    "responseValue": "Unter einer Stunde, 8–20 Uhr marokkanischer Zeit",
     "faqTitle": "Häufig gestellte Fragen",
     "formName": "Vollständiger Name",
     "formEmail": "E-Mail-Adresse",
@@ -442,11 +442,11 @@
     "formConsentPrefix": "Ich stimme zu, dass meine Angaben zur Beantwortung meiner Anfrage verwendet werden, gemäß der",
     "formSending": "Wird gesendet...",
     "messageSentTitle": "Nachricht gesendet!",
-    "messageSentBody": "Vielen Dank, {name}. Wir melden uns bei {email} — WhatsApp-Antworten kommen innerhalb von 24 Stunden, E-Mails können etwas länger dauern.",
+    "messageSentBody": "Vielen Dank, {name}. Wir melden uns innerhalb einer Stunde bei {email} (8–20 Uhr marokkanischer Zeit).",
     "getInTouchEyebrow": "Kontaktieren Sie uns",
     "fastestReply": "Schnellste Antwort",
     "chatOnWhatsapp": "Auf WhatsApp chatten",
-    "typicallyReplies": "Antwortet normalerweise innerhalb von {hours} Std.",
+    "typicallyReplies": "Antwortet normalerweise innerhalb einer Stunde",
     "customTripNudgeTitle": "Planen Sie etwas Individuelles?",
     "customTripNudgeBody": "Teilen Sie uns Ihre Termine, Gruppengröße und Prioritäten mit — wir erstellen eine Route ganz nach Ihren Wünschen.",
     "faq1Q": "Bieten Sie private Touren an?",
@@ -510,7 +510,7 @@
     "process1Title": "Auswählen",
     "process1Desc": "Entdecken Sie {tourCount} Abenteuer oder lassen Sie uns eine individuelle Route erstellen.",
     "process2Title": "Anfragen",
-    "process2Desc": "Füllen Sie das Anfrageformular aus oder schreiben Sie uns auf WhatsApp. Antwort innerhalb von {hours} Stunden.",
+    "process2Desc": "Füllen Sie das Anfrageformular aus oder schreiben Sie uns auf WhatsApp. Antwort innerhalb einer Stunde.",
     "process3Title": "Anzahlung",
     "process3Desc": "Sichern Sie sich Ihren Platz mit einer PayPal-Anzahlung. {days} Tage kostenlose Stornierung.",
     "process4Title": "Losfahren",
@@ -662,7 +662,7 @@
     "moneyBody": "Sie zahlen eine Anzahlung, um die Termine zu sichern, und den Rest zu Reisebeginn. Bei Stornierung mehr als 14 Tage vor Abreise wird die Anzahlung vollständig erstattet. Innerhalb von 14 Tagen fallen 50 % an, Nichterscheinen wird voll berechnet. Diese Bedingungen gelten für alle gleich und werden nachträglich nicht geändert.",
     "moneyLink": "Vollständige Bedingungen",
     "bookingTitle": "Direkt buchen",
-    "bookingBody": "Zwischen Ihnen und uns steht keine Plattform. Anfragen erreichen die Familie direkt und werden meist innerhalb von 24 Stunden beantwortet, per WhatsApp oder E-Mail, von jemandem, der selbst führt. Auch deshalb sind unsere Preise, wie sie sind: Es wird keine Provision abgezogen, bevor die Bergführer bezahlt werden.",
+    "bookingBody": "Zwischen Ihnen und uns steht keine Plattform. Anfragen erreichen die Familie direkt und werden innerhalb einer Stunde beantwortet (8–20 Uhr marokkanischer Zeit), per WhatsApp oder E-Mail, von jemandem, der selbst führt. Auch deshalb sind unsere Preise, wie sie sind: Es wird keine Provision abgezogen, bevor die Bergführer bezahlt werden.",
     "insuranceTitle": "Versicherung",
     "insuranceBody": "Eine Reiseversicherung ist für die Buchung nicht erforderlich, im Gebirge aber dringend zu empfehlen. Achten Sie auf Rücktritt, Krankheitskosten und Notfall-Evakuierung — Standardtarife schließen Trekking oberhalb einer bestimmten Höhe oft aus, und der Toubkal misst 4.167 m.",
     "ctaTitle": "Noch eine Frage?",

@@ -52,7 +52,7 @@ export default function WhyBookWithUs({
     {
       icon: ChatCircleDots,
       label: t.fastReply,
-      sub: t.fastReplySub.replace("{hours}", String(SITE.responseHours)),
+      sub: t.fastReplySub,
     },
   ];
 

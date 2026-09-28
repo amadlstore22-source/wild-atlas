@@ -17,7 +17,7 @@ export default function TourTrustBar({ dict }: { dict: Dictionary }) {
     { icon: Star, label: `${TRIPADVISOR.rating.toFixed(1)}/5`, sub: t.ratingSub.replace("{count}", String(TRIPADVISOR.reviewCount)) },
     { icon: Mountains, label: `${SITE.guidingHeritageYears}+ ${t.yearsLabel}`, sub: t.yearsSub },
     { icon: CalendarCheck, label: t.noPrepay, sub: t.noPrepaySub },
-    { icon: ChatCircleDots, label: t.fastReply, sub: t.fastReplySub.replace("{hours}", String(SITE.responseHours)) },
+    { icon: ChatCircleDots, label: t.fastReply, sub: t.fastReplySub },
   ];
 
   return (

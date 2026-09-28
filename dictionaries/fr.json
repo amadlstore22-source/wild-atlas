@@ -87,7 +87,7 @@
     },
     "responsive": {
       "title": "Un accompagnement humain et réactif",
-      "desc": "Réponse WhatsApp sous 24 heures, souvent bien plus vite. L'e-mail peut prendre un peu plus de temps. De vraies personnes, toujours joignables."
+      "desc": "Nous répondons à chaque demande en moins d'une heure, de 8 h à 20 h (heure du Maroc), sur WhatsApp ou par e-mail. De vraies personnes, toujours joignables."
     }
   },
   "whyBook": {
@@ -101,7 +101,7 @@
     "noPrepay": "Sans prépaiement",
     "noPrepaySub": "Petit acompte, annulation gratuite jusqu'à {days} jours avant",
     "fastReply": "Réponse humaine rapide",
-    "fastReplySub": "En général sous {hours} h, par un vrai guide",
+    "fastReplySub": "En moins d'une heure, par un vrai guide",
     "browseTours": "Voir tous les circuits",
     "askQuestion": "Posez-nous une question"
   },
@@ -163,7 +163,7 @@
     "whatsapp": "Contactez-nous sur WhatsApp",
     "customTrip": "Voyage sur mesure",
     "trust1": "Annulation gratuite jusqu'à 14 jours avant",
-    "trust2": "Réponse WhatsApp sous 24 heures",
+    "trust2": "Réponse en moins d'une heure",
     "trust3": "Noté 5 étoiles par plus de 1 000 voyageurs",
     "ratingBadge": "{rating} sur TripAdvisor",
     "travellerReviews": "avis de voyageurs"
@@ -236,7 +236,7 @@
       "noPrepay": "Sans prépaiement",
       "noPrepaySub": "Petit acompte, le reste à l'arrivée",
       "fastReply": "Réponse humaine rapide",
-      "fastReplySub": "En général sous {hours}h, par un vrai guide"
+      "fastReplySub": "En moins d'une heure, par un vrai guide"
     },
     "mealBreakfast": "Petit-déjeuner",
     "mealLunch": "Déjeuner",
@@ -260,9 +260,9 @@
     "chooseDatesTitle": "Vous choisissez les dates",
     "chooseDatesBody": "Départs privés — pas de calendrier fixe à respecter. Dites-nous quand vous souhaitez partir et nous construisons le voyage autour de vous.",
     "freeCancellationDays": "Annulation gratuite {days} jours avant",
-    "replyWithinHours": "Réponse sous {hours} heures",
+    "replyWithinHours": "Réponse en moins d'une heure (8 h–20 h)",
     "enquirySent": "Demande envoyée !",
-    "enquirySentBody": "Nous répondrons à {email} sous {hours} heures.",
+    "enquirySentBody": "Nous répondrons à {email} en moins d'une heure (de 8 h à 20 h, heure du Maroc).",
     "checkAvailability": "Vérifier les disponibilités",
     "nameLabel": "Nom *",
     "namePlaceholder": "Votre nom complet",
@@ -423,7 +423,7 @@
     "phone": "WhatsApp / Téléphone",
     "basedIn": "Basés à",
     "responseTime": "Délai de réponse",
-    "responseValue": "WhatsApp : sous 24 h · E-mail : peut prendre plus de temps",
+    "responseValue": "Moins d'une heure, de 8 h à 20 h (heure du Maroc)",
     "faqTitle": "Questions fréquentes",
     "formName": "Nom complet",
     "formEmail": "Adresse e-mail",
@@ -442,11 +442,11 @@
     "formConsentPrefix": "J'accepte que mes informations soient utilisées pour répondre à ma demande, conformément à la",
     "formSending": "Envoi en cours...",
     "messageSentTitle": "Message envoyé !",
-    "messageSentBody": "Merci, {name}. Nous répondrons à {email} — les réponses WhatsApp arrivent sous 24 heures, l'e-mail peut prendre un peu plus de temps.",
+    "messageSentBody": "Merci, {name}. Nous répondrons à {email} en moins d'une heure, de 8 h à 20 h (heure du Maroc).",
     "getInTouchEyebrow": "Contactez-nous",
     "fastestReply": "Réponse la plus rapide",
     "chatOnWhatsapp": "Discuter sur WhatsApp",
-    "typicallyReplies": "Répond généralement sous {hours} h",
+    "typicallyReplies": "Répond généralement en moins d'une heure",
     "customTripNudgeTitle": "Vous préparez un voyage sur mesure ?",
     "customTripNudgeBody": "Indiquez-nous vos dates, la taille de votre groupe et ce qui compte le plus pour vous — nous construirons un itinéraire autour de vous.",
     "faq1Q": "Proposez-vous des circuits privés ?",
@@ -510,7 +510,7 @@
     "process1Title": "Choisir",
     "process1Desc": "Parcourez {tourCount} aventures ou demandez-nous de créer un itinéraire sur mesure.",
     "process2Title": "Se renseigner",
-    "process2Desc": "Remplissez le formulaire de demande ou contactez-nous sur WhatsApp. Réponse sous {hours} heures.",
+    "process2Desc": "Remplissez le formulaire de demande ou contactez-nous sur WhatsApp. Réponse en moins d'une heure.",
     "process3Title": "Verser l'acompte",
     "process3Desc": "Sécurisez votre place avec un acompte PayPal. {days} jours d'annulation gratuite.",
     "process4Title": "Partir",
@@ -662,7 +662,7 @@
     "moneyBody": "Vous versez un acompte pour bloquer les dates et réglez le solde au départ. Une annulation à plus de 14 jours du départ donne lieu au remboursement intégral de l'acompte. À moins de 14 jours, des frais de 50 % s'appliquent, et les absences sont facturées en totalité. Ces conditions sont les mêmes pour tous et ne changent jamais après coup.",
     "moneyLink": "Conditions complètes",
     "bookingTitle": "Réserver en direct",
-    "bookingBody": "Aucune plateforme entre vous et nous. Les demandes arrivent directement à la famille et reçoivent généralement une réponse sous 24 heures, par WhatsApp ou e-mail, par quelqu'un qui guide. C'est aussi pourquoi nos prix sont ce qu'ils sont : aucune commission n'en est prélevée avant que les guides soient payés.",
+    "bookingBody": "Aucune plateforme entre vous et nous. Les demandes arrivent directement à la famille et reçoivent une réponse en moins d'une heure (de 8 h à 20 h, heure du Maroc), par WhatsApp ou e-mail, par quelqu'un qui guide. C'est aussi pourquoi nos prix sont ce qu'ils sont : aucune commission n'en est prélevée avant que les guides soient payés.",
     "insuranceTitle": "Assurance",
     "insuranceBody": "L'assurance voyage n'est pas obligatoire pour réserver, mais elle est vivement conseillée en montagne. Cherchez une couverture incluant annulation, frais médicaux et évacuation d'urgence — les contrats standard excluent souvent la randonnée au-delà d'une certaine altitude, et le Toubkal culmine à 4 167 m.",
     "ctaTitle": "Une question ?",

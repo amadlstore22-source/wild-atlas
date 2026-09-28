@@ -60,7 +60,13 @@ export const SITE = {
   countryCount: "40+",
   foundedYear: 2010,
   depositDays: 14,
-  responseHours: 24,
+  /** Owner, 2026-09-28: new enquiries are answered "in less than an hour".
+   *  The wording lives in the dictionaries ("within the hour, 8:00–20:00
+   *  Morocco time", matching openingHoursSpecification) because "{hours}
+   *  hours" cannot say one hour in six languages. Kept as data for any code
+   *  that needs the number; __tests__/lib/reply-promise.test.ts keeps the two
+   *  in step. */
+  responseHours: 1,
   // Optional full-screen hero video (mp4/webm). Leave empty to use the
   // Ken Burns still image instead — the hero falls back automatically.
   heroVideo: "",

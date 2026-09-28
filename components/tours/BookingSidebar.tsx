@@ -335,7 +335,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           <div className="grid grid-cols-2 gap-2">
             {[
               { icon: ShieldCheck, text: b.freeCancellationDays.replace("{days}", String(SITE.depositDays)) },
-              { icon: CheckCircle, text: b.replyWithinHours.replace("{hours}", String(SITE.responseHours)) },
+              { icon: CheckCircle, text: b.replyWithinHours },
             ].map((badge) => (
               <div key={badge.text} className="flex items-start gap-2 p-3 bg-surface-sunk/40 rounded-[3px]">
                 <badge.icon className="w-4 h-4 text-indigo shrink-0 mt-0.5" />
@@ -351,7 +351,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               </div>
               <h3 className="font-display font-bold text-ink mb-1">{b.enquirySent}</h3>
               <p className="text-ink-soft text-sm leading-relaxed">
-                {b.enquirySentBody.replace("{email}", email).replace("{hours}", String(SITE.responseHours))}
+                {b.enquirySentBody.replace("{email}", email)}
               </p>
             </div>
           ) : (

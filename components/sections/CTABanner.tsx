@@ -19,7 +19,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export default function CTABanner({ dict, lang = "en", tourCount }: Props) {
   const TRUST = [
     { icon: ShieldCheck, text: dict.cta.trust1 },
-    { icon: Clock, text: dict.cta.trust2.replace("{hours}", String(SITE.responseHours)) },
+    { icon: Clock, text: dict.cta.trust2 },
     { icon: Star, text: dict.cta.trust3 },
   ];
 

@@ -57,7 +57,8 @@ describe("whyBook dictionary", () => {
       ratingSub: "{count}",
       localSub: "{years}",
       noPrepaySub: "{days}",
-      fastReplySub: "{hours}",
+      // fastReplySub no longer takes {hours}: "within the hour" cannot be built
+      // from "{hours}h" in six languages. See reply-promise.test.ts.
     };
     for (const lc of LOCALES) {
       const wb = dict(lc).whyBook;

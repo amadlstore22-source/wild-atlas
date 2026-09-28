@@ -14,12 +14,12 @@ export default function WhyUs({ dict, tourCount }: Props) {
     { icon: MapTrifold, title: dict.whyUs.certified.title, body: dict.whyUs.certified.desc },
     { icon: UsersThree, title: dict.whyUs.smallGroups.title, body: dict.whyUs.smallGroups.desc },
     { icon: Leaf, title: dict.whyUs.eco.title, body: dict.whyUs.eco.desc },
-    { icon: ChatCircle, title: dict.whyUs.responsive.title, body: dict.whyUs.responsive.desc.replace("{hours}", String(SITE.responseHours)) },
+    { icon: ChatCircle, title: dict.whyUs.responsive.title, body: dict.whyUs.responsive.desc },
   ];
 
   const STEPS = [
     { num: "01", title: dict.howItWorks.process1Title, body: dict.howItWorks.process1Desc.replace("{tourCount}", String(tourCount)) },
-    { num: "02", title: dict.howItWorks.process2Title, body: dict.howItWorks.process2Desc.replace("{hours}", String(SITE.responseHours)) },
+    { num: "02", title: dict.howItWorks.process2Title, body: dict.howItWorks.process2Desc },
     { num: "03", title: dict.howItWorks.process3Title, body: dict.howItWorks.process3Desc.replace("{days}", String(SITE.depositDays)) },
     { num: "04", title: dict.howItWorks.process4Title, body: dict.howItWorks.process4Desc },
   ];

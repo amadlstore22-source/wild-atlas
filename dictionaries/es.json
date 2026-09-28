@@ -87,7 +87,7 @@
     },
     "responsive": {
       "title": "Atención Rápida y Humana",
-      "desc": "Respuestas por WhatsApp en 24 horas, normalmente mucho antes. El correo electrónico puede tardar un poco más. Personas reales, siempre disponibles."
+      "desc": "Respondemos a cada consulta en menos de una hora, de 8:00 a 20:00 (hora de Marruecos), por WhatsApp o correo. Personas reales, siempre disponibles."
     }
   },
   "whyBook": {
@@ -101,7 +101,7 @@
     "noPrepay": "Sin pago por adelantado",
     "noPrepaySub": "Pequeño depósito, cancelación gratuita hasta {days} días antes",
     "fastReply": "Respuesta humana rápida",
-    "fastReplySub": "Normalmente en {hours} h, por un guía real",
+    "fastReplySub": "En menos de una hora, por un guía real",
     "browseTours": "Ver todos los tours",
     "askQuestion": "Haznos una pregunta"
   },
@@ -163,7 +163,7 @@
     "whatsapp": "Escríbenos por WhatsApp",
     "customTrip": "Viaje a Medida",
     "trust1": "Cancelación gratuita hasta 14 días antes",
-    "trust2": "Respuestas por WhatsApp en 24 horas",
+    "trust2": "Respuesta en menos de una hora",
     "trust3": "Valorados con 5 estrellas por más de 1.000 viajeros",
     "ratingBadge": "{rating} en TripAdvisor",
     "travellerReviews": "reseñas de viajeros"
@@ -236,7 +236,7 @@
       "noPrepay": "Sin pago por adelantado",
       "noPrepaySub": "Pequeña señal, el resto a la llegada",
       "fastReply": "Respuesta humana rápida",
-      "fastReplySub": "Normalmente en {hours}h, por un guía real"
+      "fastReplySub": "En menos de una hora, por un guía real"
     },
     "mealBreakfast": "Desayuno",
     "mealLunch": "Almuerzo",
@@ -260,9 +260,9 @@
     "chooseDatesTitle": "Tú eliges las fechas",
     "chooseDatesBody": "Salidas privadas — sin horarios fijos a los que ajustarse. Dinos cuándo quieres ir y construimos el viaje a tu medida.",
     "freeCancellationDays": "Cancelación gratuita {days} días antes",
-    "replyWithinHours": "Respuesta en {hours} horas",
+    "replyWithinHours": "Respuesta en menos de una hora (8:00–20:00)",
     "enquirySent": "¡Consulta Enviada!",
-    "enquirySentBody": "Te responderemos a {email} en un plazo de {hours} horas.",
+    "enquirySentBody": "Te responderemos a {email} en menos de una hora (de 8:00 a 20:00, hora de Marruecos).",
     "checkAvailability": "Consultar Disponibilidad",
     "nameLabel": "Nombre *",
     "namePlaceholder": "Tu nombre completo",
@@ -423,7 +423,7 @@
     "phone": "WhatsApp / Teléfono",
     "basedIn": "Ubicados en",
     "responseTime": "Tiempo de respuesta",
-    "responseValue": "WhatsApp: en 24 horas · Correo electrónico: puede tardar más",
+    "responseValue": "Menos de una hora, de 8:00 a 20:00 (hora de Marruecos)",
     "faqTitle": "Preguntas Frecuentes",
     "formName": "Nombre Completo",
     "formEmail": "Correo Electrónico",
@@ -442,11 +442,11 @@
     "formConsentPrefix": "Acepto que mis datos se utilicen para responder a mi consulta, conforme a la",
     "formSending": "Enviando...",
     "messageSentTitle": "¡Mensaje Enviado!",
-    "messageSentBody": "Gracias, {name}. Te responderemos a {email} — las respuestas por WhatsApp llegan en 24 horas, el correo electrónico puede tardar un poco más.",
+    "messageSentBody": "Gracias, {name}. Te responderemos a {email} en menos de una hora, de 8:00 a 20:00 (hora de Marruecos).",
     "getInTouchEyebrow": "Ponte en Contacto",
     "fastestReply": "Respuesta Más Rápida",
     "chatOnWhatsapp": "Chatea por WhatsApp",
-    "typicallyReplies": "Normalmente responde en {hours}h",
+    "typicallyReplies": "Normalmente responde en menos de una hora",
     "customTripNudgeTitle": "¿Planeando algo a medida?",
     "customTripNudgeBody": "Cuéntanos tus fechas, el tamaño del grupo y lo que más te importa — construiremos un itinerario a tu medida.",
     "faq1Q": "¿Ofrecen tours privados?",
@@ -510,7 +510,7 @@
     "process1Title": "Elige",
     "process1Desc": "Explora {tourCount} aventuras o pídenos que creemos una ruta a medida.",
     "process2Title": "Consulta",
-    "process2Desc": "Rellena el formulario de consulta o escríbenos por WhatsApp. Respuesta en {hours} horas.",
+    "process2Desc": "Rellena el formulario de consulta o escríbenos por WhatsApp. Respuesta en menos de una hora.",
     "process3Title": "Depósito",
     "process3Desc": "Asegura tu plaza con un depósito por PayPal. {days} días de cancelación gratuita.",
     "process4Title": "Vive la Aventura",
@@ -662,7 +662,7 @@
     "moneyBody": "Pagas un depósito para reservar las fechas y el resto al inicio del viaje. Si cancelas con más de 14 días de antelación, el depósito se devuelve íntegro. Dentro de los 14 días se aplica un 50 % y las ausencias se cobran completas. Estas condiciones son iguales para todos y no las cambiamos después.",
     "moneyLink": "Condiciones completas",
     "bookingTitle": "Reserva directa",
-    "bookingBody": "No hay plataforma entre tú y nosotros. Las consultas llegan directamente a la familia y suelen responderse en 24 horas, por WhatsApp o correo, por alguien que guía. Por eso nuestros precios son los que son: no se descuenta ninguna comisión antes de pagar a los guías.",
+    "bookingBody": "No hay plataforma entre tú y nosotros. Las consultas llegan directamente a la familia y se responden en menos de una hora (de 8:00 a 20:00, hora de Marruecos), por WhatsApp o correo, por alguien que guía. Por eso nuestros precios son los que son: no se descuenta ninguna comisión antes de pagar a los guías.",
     "insuranceTitle": "Seguro",
     "insuranceBody": "El seguro de viaje no es obligatorio para reservar, pero se recomienda mucho en montaña. Busca una póliza que cubra cancelación, gastos médicos y evacuación de emergencia: las coberturas estándar suelen excluir el trekking por encima de cierta altitud, y el Toubkal tiene 4.167 m.",
     "ctaTitle": "¿Te queda alguna duda?",

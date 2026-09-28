@@ -87,7 +87,7 @@
     },
     "responsive": {
       "title": "Fast, Human Support",
-      "desc": "WhatsApp replies within 24 hours, usually much faster. Email may take a little longer. Real people, always reachable."
+      "desc": "We answer every enquiry in under an hour, 8:00–20:00 Morocco time, on WhatsApp or by email. Real people, always reachable."
     }
   },
   "whyBook": {
@@ -101,7 +101,7 @@
     "noPrepay": "No prepayment",
     "noPrepaySub": "Small deposit, free cancellation up to {days} days before",
     "fastReply": "Fast human reply",
-    "fastReplySub": "Usually within {hours}h, by a real guide",
+    "fastReplySub": "Within the hour, by a real guide",
     "browseTours": "Browse all tours",
     "askQuestion": "Ask us a question"
   },
@@ -163,7 +163,7 @@
     "whatsapp": "WhatsApp Us",
     "customTrip": "Custom Trip",
     "trust1": "Free cancellation 14 days prior",
-    "trust2": "WhatsApp replies within 24 hours",
+    "trust2": "Replies within the hour",
     "trust3": "5-star rated by 1,000+ travellers",
     "ratingBadge": "{rating} on TripAdvisor",
     "travellerReviews": "traveller reviews"
@@ -236,7 +236,7 @@
       "noPrepay": "No prepayment",
       "noPrepaySub": "Small deposit, pay the rest on arrival",
       "fastReply": "Fast human reply",
-      "fastReplySub": "Usually within {hours}h, by a real guide"
+      "fastReplySub": "Within the hour, by a real guide"
     },
     "mealBreakfast": "Breakfast",
     "mealLunch": "Lunch",
@@ -260,9 +260,9 @@
     "chooseDatesTitle": "You choose the dates",
     "chooseDatesBody": "Private departures — no fixed schedule to fit into. Tell us when you want to go and we build the trip around you.",
     "freeCancellationDays": "Free cancellation {days} days before",
-    "replyWithinHours": "Reply within {hours} hours",
+    "replyWithinHours": "Reply within the hour (8:00–20:00)",
     "enquirySent": "Enquiry Sent!",
-    "enquirySentBody": "We'll reply to {email} within {hours} hours.",
+    "enquirySentBody": "We'll reply to {email} within the hour (8:00–20:00 Morocco time).",
     "checkAvailability": "Check Availability",
     "nameLabel": "Name *",
     "namePlaceholder": "Your full name",
@@ -423,7 +423,7 @@
     "phone": "WhatsApp / Phone",
     "basedIn": "Based in",
     "responseTime": "Response time",
-    "responseValue": "WhatsApp: within 24 hrs · Email: may take longer",
+    "responseValue": "Under an hour, 8:00–20:00 Morocco time",
     "faqTitle": "Frequently Asked Questions",
     "formName": "Full Name",
     "formEmail": "Email Address",
@@ -442,11 +442,11 @@
     "formConsentPrefix": "I agree that my details will be used to respond to my enquiry, in line with the",
     "formSending": "Sending...",
     "messageSentTitle": "Message Sent!",
-    "messageSentBody": "Thank you, {name}. We'll reply to {email} — WhatsApp replies come within 24 hours, email may take a little longer.",
+    "messageSentBody": "Thank you, {name}. We'll reply to {email} within the hour, 8:00–20:00 Morocco time.",
     "getInTouchEyebrow": "Get in Touch",
     "fastestReply": "Fastest Reply",
     "chatOnWhatsapp": "Chat on WhatsApp",
-    "typicallyReplies": "Typically replies within {hours}h",
+    "typicallyReplies": "Typically replies within the hour",
     "customTripNudgeTitle": "Planning something custom?",
     "customTripNudgeBody": "Tell us your dates, group size, and what matters most — we'll build an itinerary around you.",
     "faq1Q": "Do you provide private tours?",
@@ -510,7 +510,7 @@
     "process1Title": "Choose",
     "process1Desc": "Browse {tourCount} adventures or ask us to build a custom route.",
     "process2Title": "Inquire",
-    "process2Desc": "Fill the enquiry form or WhatsApp us. Reply within {hours} hours.",
+    "process2Desc": "Fill the enquiry form or WhatsApp us. We reply within the hour.",
     "process3Title": "Deposit",
     "process3Desc": "Secure your spot with a PayPal deposit. {days} days free cancellation.",
     "process4Title": "Go",
@@ -662,7 +662,7 @@
     "moneyBody": "You pay a deposit to hold the dates and the balance at the start of the trip. Cancel more than 14 days before departure and the deposit is refunded in full. Inside 14 days a 50% fee applies, and no-shows are charged in full. Those terms are the same for everyone and we do not change them after the fact.",
     "moneyLink": "Full terms",
     "bookingTitle": "Booking direct",
-    "bookingBody": "There is no platform between you and us. Enquiries reach the family directly and are usually answered within 24 hours, by WhatsApp or email, by someone who guides. That is also why our prices are what they are — no commission is taken out of them before the guides are paid.",
+    "bookingBody": "There is no platform between you and us. Enquiries reach the family directly and are answered within the hour (8:00–20:00 Morocco time), by WhatsApp or email, by someone who guides. That is also why our prices are what they are — no commission is taken out of them before the guides are paid.",
     "insuranceTitle": "Insurance",
     "insuranceBody": "Travel insurance is not required to book, but it is strongly recommended for anything in the mountains. Look for a policy covering trip cancellation, medical costs and emergency evacuation — standard cover often excludes trekking above a certain altitude, and Toubkal is 4,167 m.",
     "ctaTitle": "Still have a question?",

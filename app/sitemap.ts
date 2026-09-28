@@ -7,6 +7,7 @@ import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
 import { EVENTS } from "@/lib/events";
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
+import { galleryPreview } from "@/lib/gallery-preview";
 
 const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
 
@@ -45,10 +46,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // /gallery renders every frame, so it gets the full list and is the URL
   // Google should associate each photograph with. The homepage embeds the same
   // photos in its gallery section, but declaring all 66 on both would ask
-  // Google to pick between two pages for one image; the homepage carries the
-  // first 24 as a discovery hint and /gallery is where they belong.
+  // Google to pick between two pages for one image. The homepage declares
+  // exactly the sample it renders (lib/gallery-preview.ts), no more.
   const allGalleryImages = GALLERY_PHOTOS.map((p) => `${BASE}${p.src}`);
-  const homeGalleryImages = allGalleryImages.slice(0, 24);
+  const homeGalleryImages = galleryPreview(GALLERY_PHOTOS).map((p) => `${BASE}${p.src}`);
 
   const staticUrls = LOCALES.flatMap((lang) =>
     staticRoutes.map(({ path, freq, priority }) => ({

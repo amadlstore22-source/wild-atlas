@@ -7,6 +7,7 @@ import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 // The photo list lives in lib/ so app/sitemap.ts can read it as plain data.
 // Alt text is per-locale; src/group/span are not. See lib/gallery-i18n.ts.
 import { galleryPhotosFor } from "@/lib/gallery-i18n";
+import { galleryPreview } from "@/lib/gallery-preview";
 
 interface Props {
   dict: Dictionary;
@@ -14,6 +15,7 @@ interface Props {
 }
 
 export default function Gallery({ dict, lang = "en" }: Props) {
+  const photos = galleryPhotosFor(lang);
   return (
     <section id="gallery" className="bg-surface py-24 md:py-32 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,13 +39,24 @@ export default function Gallery({ dict, lang = "en" }: Props) {
         </AnimateInView>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 auto-rows-[220px]">
+          {/* A sample, not the whole set: see lib/gallery-preview.ts. */}
           <GalleryLightbox
-            photos={galleryPhotosFor(lang)}
+            photos={galleryPreview(photos)}
             labels={lightboxLabels(dict.common, {
               play: dict.gallery.slideshow,
               pause: dict.gallery.slideshowStop,
             })}
           />
+        </div>
+
+        <div className="mt-8 flex justify-center">
+          <Link
+            href={`/${lang}/gallery`}
+            className="flex items-center gap-2 text-indigo font-semibold hover:gap-3 transition-all group"
+          >
+            {dict.gallery.photoCount.replace("{count}", String(photos.length))}
+            <ArrowRight className="w-5 h-5 rtl:-scale-x-100 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </div>
     </section>

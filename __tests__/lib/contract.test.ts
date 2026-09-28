@@ -139,8 +139,10 @@ describe("no leaked source language", () => {
      * strings, and every fixture had three travellers.
      */
     expect(text(en)).not.toContain("Marruecos");
-    expect(text(en)).toContain("Marrakech, Morocco");
-    expect(text(es)).toContain("Marrakech, Marruecos");
+    // Address moved to Imlil on 2026-09-28 (owner); the country word must
+    // still follow the edition's language.
+    expect(text(en)).toContain("Imlil 42152, Al Haouz, Morocco");
+    expect(text(es)).toContain("Imlil 42152, Al Haouz, Marruecos");
 
     const solo = text(renderContractHtml({ ...BASE, lang: "en", travellers: 1 }));
     expect(solo).toMatch(/\b1 traveller\b/);

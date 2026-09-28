@@ -398,7 +398,7 @@ export function renderContractHtml(c: ContractInput): string {
     <div class="party">
       <div class="label">${t.organiser}</div>
       <strong>Marrakech Eco Tours</strong>
-      <div>Marrakech, ${t.country}</div>
+      <div>Imlil 42152, Al Haouz, ${t.country}</div>
       <div>info@marrakechecotours.com</div>
       <div>+212 653 936 003</div>
       <div>marrakechecotours.com</div>
@@ -489,7 +489,7 @@ export function renderContractHtml(c: ContractInput): string {
   </div>
 
   <footer>
-    Marrakech Eco Tours · Marrakech, ${t.country} ·
+    Marrakech Eco Tours · Imlil, High Atlas, ${t.country} ·
     <a href="https://marrakechecotours.com">marrakechecotours.com</a><br>
     ${t.footer}
   </footer>

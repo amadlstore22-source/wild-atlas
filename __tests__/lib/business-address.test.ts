@@ -45,6 +45,28 @@ describe("business address", () => {
     }
   });
 
+  it("is the same on invoices, contracts and trip manifests", () => {
+    // These render outside Next (scripts/make-*.mjs load them with plain Node,
+    // which cannot resolve "@/lib/constants"), so the address is written into
+    // each document by hand. This is what keeps those copies equal to SITE:
+    // the owner moved the business to Imlil on 2026-09-28 and the documents a
+    // client signs or pays against must not name a different town.
+    const docs = [
+      ["lib", "invoice.ts"],
+      ["lib", "contract.ts"],
+      ["scripts", "make-manifest.mjs"],
+    ];
+    const [street, rest] = [SITE.address.split(",")[0], SITE.address.split(",").slice(1, 2).join(",").trim()];
+    for (const f of docs) {
+      const src = read(...f);
+      expect(src, f.join("/")).not.toMatch(/Marrakech, (Morocco|\$\{t\.country\})/);
+      expect(src, f.join("/")).toContain(SITE.addressShort.replace(", Morocco", ""));
+    }
+    for (const f of [["lib", "invoice.ts"], ["lib", "contract.ts"]]) {
+      expect(read(...f), f.join("/")).toContain(`${street}, ${rest}`);
+    }
+  });
+
   it("derives priceRange from the catalogue rather than typing it", () => {
     expect(read("app", "[lang]", "page.tsx")).toMatch(/priceRange: PRICE_RANGE/);
   });

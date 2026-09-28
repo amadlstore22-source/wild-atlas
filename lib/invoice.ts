@@ -359,7 +359,7 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
     <div class="party">
       <div class="label">From</div>
       <strong>Marrakech Eco Tours</strong>
-      <div>Marrakech, Morocco</div>
+      <div>Imlil 42152, Al Haouz, Morocco</div>
       <div>info@marrakechecotours.com</div>
       <div>+212 653 936 003</div>
       <div>marrakechecotours.com</div>
@@ -477,7 +477,7 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
   ${inv.notes ? `<div class="pay"><div class="label">Notes</div>${esc(inv.notes)}</div>` : ""}
 
   <footer>
-    Marrakech Eco Tours · Marrakech, Morocco · <a href="https://marrakechecotours.com">marrakechecotours.com</a><br>
+    Marrakech Eco Tours · Imlil, High Atlas, Morocco · <a href="https://marrakechecotours.com">marrakechecotours.com</a><br>
     Prices in euro. This invoice confirms the agreed rate for the trip described above.
   </footer>
 </div>

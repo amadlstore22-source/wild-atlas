@@ -161,7 +161,7 @@ const HEAD = (title) => `<!doctype html>
 
 const FOOT = (ref) => `
   <footer>
-    <span>Marrakech Eco Tours · Licensed Tour Operator · Marrakech, Morocco</span>
+    <span>Marrakech Eco Tours · Licensed Tour Operator · Imlil, High Atlas, Morocco</span>
     <span>+212 653 936 003 · ${esc(ref)}</span>
   </footer>
 </div></body></html>`;

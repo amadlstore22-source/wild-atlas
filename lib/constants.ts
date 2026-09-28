@@ -30,7 +30,23 @@ export const SITE = {
    *  link" prompt (see BookingSidebar). Set the real handle and the button
    *  returns automatically — no other change needed. */
   paypal: "",
-  address: "Marrakech, Morocco",
+  /** Where the business is. The owner placed it by a Maps pin (2026-09-28) on
+   *  the RP2030 road in Taourirt n'Ait Mizane, Imlil — the village the family
+   *  guiding tradition comes from (see lib/guides.ts) — and said the office is
+   *  "close to" it. Reverse-geocoded with OpenStreetMap Nominatim. There is no
+   *  house number, so none is claimed. Tours still DEPART from Marrakech and
+   *  Agadir; this is where the company is, not where trips start. */
+  address: "Imlil 42152, Al Haouz, Morocco",
+  addressShort: "Imlil, High Atlas, Morocco",
+  postalAddress: {
+    streetAddress: "RP2030",
+    addressLocality: "Imlil",
+    addressRegion: "Al Haouz, Marrakech-Safi",
+    postalCode: "42152",
+    addressCountry: "MA",
+  },
+  /** The owner's pin, 5 decimals as Google's LocalBusiness docs ask. */
+  geo: { latitude: 31.13583, longitude: -7.91962 },
   country: "MA",
   /** Marketing-safe catalogue size. Kept deliberately vague ("30+") so it does
    *  not drift every time a tour is added; the exact figure is STATS.tourCount,

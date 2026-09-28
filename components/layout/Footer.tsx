@@ -98,7 +98,7 @@ export default function Footer({ lang, dict }: Props) {
               <span className="hidden sm:block text-cream/25">·</span>
               <span>Certified Berber guides</span>
             </div>
-            <span className="text-cream/45 hidden md:block">Marrakech, Morocco</span>
+            <span className="text-cream/45 hidden md:block">{SITE.addressShort}</span>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function Footer({ lang, dict }: Props) {
             </div>
             <div className="flex items-start gap-2 text-xs text-cream/60">
               <MapPin className="w-3.5 h-3.5 text-brass-glow shrink-0 mt-0.5" />
-              <span>Marrakech, Morocco<br />Open daily, 08:00 to 20:00</span>
+              <span>{SITE.addressShort}<br />Open daily, 08:00 to 20:00</span>
             </div>
             <TripAdvisorBadge variant="dark" className="mt-5" />
           </div>

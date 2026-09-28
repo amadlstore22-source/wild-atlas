@@ -21,6 +21,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { categoriesFor } from "@/lib/tours-i18n";
 import { ogBase } from "@/lib/seo/open-graph";
+import { TOURS, lowestGroupPrice } from "@/lib/tours";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
@@ -65,6 +66,15 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   };
 }
 
+// Cheapest per-person group rate to the dearest solo rate, in the catalogue's
+// stored currency (USD). Derived, not typed, so a price change cannot leave
+// the schema quoting a range the site no longer offers.
+const PRICE_RANGE = (() => {
+  const lo = Math.min(...TOURS.map((t) => lowestGroupPrice(t).price));
+  const hi = Math.max(...TOURS.map((t) => t.price));
+  return `US$${lo}–US$${hi.toLocaleString("en-US")} per person`;
+})();
+
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -88,16 +98,11 @@ const websiteJsonLd = {
       foundingDate: "2010",
       telephone: "+212653936003",
       email: SITE.email,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Marrakech",
-        addressCountry: "MA",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 31.6295,
-        longitude: -7.9811,
-      },
+      address: { "@type": "PostalAddress", ...SITE.postalAddress },
+      geo: { "@type": "GeoCoordinates", ...SITE.geo },
+      // Computed from the catalogue so it cannot drift from the real prices.
+      priceRange: PRICE_RANGE,
+      areaServed: { "@type": "Country", name: "Morocco" },
       openingHoursSpecification: {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

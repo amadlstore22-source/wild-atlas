@@ -89,11 +89,7 @@ function aboutJsonLd(lang: string) {
         foundingDate: String(SITE.foundedYear),
         telephone: "+212653936003",
         email: SITE.email,
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Marrakech",
-          addressCountry: "MA",
-        },
+        address: { "@type": "PostalAddress", ...SITE.postalAddress },
         sameAs: [
           "https://instagram.com/met_morocco",
           "https://facebook.com/marrakechecotours",

@@ -46,7 +46,7 @@ export default async function TermsPage({ params }: LangParams) {
         <>
           <p>
             These Terms &amp; Conditions govern all bookings made with Marrakech Eco Tours (&ldquo;we&rdquo;,
-            &ldquo;us&rdquo;, &ldquo;our&rdquo;), a tour operator based in Marrakech, Morocco, operating under
+            &ldquo;us&rdquo;, &ldquo;our&rdquo;), a tour operator based in {SITE.address}, operating under
             Moroccan law. By submitting a booking request, paying a deposit, or making full payment through{" "}
             <a href="https://marrakechecotours.com">marrakechecotours.com</a>, you agree to these terms on behalf
             of yourself and all members of your group.

@@ -43,7 +43,7 @@ export default async function ContactPage({ params }: LangParams) {
   const CONTACT_INFO = [
     { icon: Envelope, label: c.email, value: SITE.emailDisplay, href: `mailto:${SITE.email}` },
     { icon: Phone, label: c.phone, value: SITE.phone, href: `tel:${SITE.phoneDial}` },
-    { icon: MapPin, label: c.basedIn, value: "Marrakech, Morocco", href: null },
+    { icon: MapPin, label: c.basedIn, value: SITE.addressShort, href: null },
     { icon: Clock, label: c.responseTime, value: c.responseValue, href: null },
   ];
 

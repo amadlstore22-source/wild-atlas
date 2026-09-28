@@ -8,7 +8,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "27 September 2026";
+const UPDATED = "28 September 2026";
 
 /**
  * Per-locale metadata. This was a static `metadata` export, which cannot see
@@ -58,8 +58,8 @@ export default async function CookiesPage({ params }: LangParams) {
         <>
           <p>
             We keep cookies to a minimum and we never sell data collected through cookies. We use{" "}
-            <strong>Google Analytics</strong> to understand how visitors find and use the site, and{" "}
-            <strong>only</strong> if you accept it &mdash; it is switched off until you choose{" "}
+            <strong>Google Analytics</strong> and <strong>Microsoft Clarity</strong> to understand how visitors find
+            and use the site, and <strong>only</strong> if you accept them &mdash; both are switched off until you choose{" "}
             <strong>Accept all</strong>. We do not use social media pixels or cross-site advertising trackers.
           </p>
           <p>
@@ -102,6 +102,19 @@ export default async function CookiesPage({ params }: LangParams) {
             <dt>_gid</dt>
             <dd>Distinguishes visitors over a short window. Set by Google Analytics. Persists up to 24 hours.</dd>
           </dl>
+          <p>
+            Also only after <strong>Accept all</strong>, <strong>Microsoft Clarity</strong> shows us, in aggregate
+            and as anonymised replays, where visitors click and scroll, so we can fix pages that confuse people.
+            Clarity masks what you type into forms. Its cookies:
+          </p>
+          <dl className="tier">
+            <dt>_clck</dt>
+            <dd>Keeps the Clarity user ID and preferences for this site. Set by Microsoft Clarity.</dd>
+            <dt>_clsk</dt>
+            <dd>Connects the pages of one visit into a single session. Set by Microsoft Clarity.</dd>
+            <dt>CLID, MUID, ANONCHK, MR, SM</dt>
+            <dd>Third-party cookies on Microsoft domains that Clarity uses to recognise a browser; Clarity does not use them for advertising (ANONCHK is always 0). See Microsoft&rsquo;s list of Clarity cookies.</dd>
+          </dl>
         </>
       ),
     },
@@ -139,6 +152,13 @@ export default async function CookiesPage({ params }: LangParams) {
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a>.
           </p>
           <p>
+            When you accept all cookies, <strong>Microsoft</strong> (Clarity) sets the cookies listed above. This is
+            governed by the{" "}
+            <a href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-cookies" target="_blank" rel="noopener noreferrer">Clarity cookie list</a>{" "}
+            and the{" "}
+            <a href="https://www.microsoft.com/en-us/privacy/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft Privacy Statement</a>.
+          </p>
+          <p>
             Some pages also embed or link to other third-party services that may set their own cookies when you
             interact with them &mdash; for example <strong>PayPal</strong> when you follow a payment link we send
             you, or <strong>WhatsApp / Meta</strong> if you start a chat. These are governed by those
@@ -154,7 +174,7 @@ export default async function CookiesPage({ params }: LangParams) {
         <>
           <p>You are always in control:</p>
           <ul>
-            <li>Choose <strong>Necessary only</strong> on the consent banner to avoid the functional and analytics cookies &mdash; Google Analytics will not load.</li>
+            <li>Choose <strong>Necessary only</strong> on the consent banner to avoid the functional and analytics cookies &mdash; Google Analytics and Microsoft Clarity will not load.</li>
             <li>To withdraw consent after accepting, clear this site&rsquo;s cookies in your browser; the banner reappears and you can choose again. Clearing also resets your currency choice.</li>
             <li>Set your browser to block or warn about cookies. The site will still work, though it may not remember your currency.</li>
           </ul>

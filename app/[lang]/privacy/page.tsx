@@ -8,7 +8,7 @@ import LegalPage, { type LegalSection } from "@/components/legal/LegalPage";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "28 July 2026";
+const UPDATED = "28 September 2026";
 
 /**
  * Per-locale metadata. This was a static `metadata` export, which cannot see
@@ -128,6 +128,7 @@ export default async function PrivacyPage({ params }: LangParams) {
             <li><strong>Consent (met-cookie-consent)</strong> &mdash; remembers your cookie choice so we do not ask again. Strictly necessary.</li>
             <li><strong>Currency (met_currency)</strong> &mdash; remembers the display currency you select (EUR, USD, GBP, or MAD). Functional preference; set only when you change currency.</li>
             <li><strong>Google Analytics (_ga, _gid and related)</strong> &mdash; help us understand, in aggregate, how visitors use the site and whether our advertising reaches the right people. <strong>Set only if you choose &ldquo;Accept all&rdquo;</strong>; if you choose &ldquo;Necessary only&rdquo; they are never set and Google Analytics does not load.</li>
+            <li><strong>Microsoft Clarity (_clck, _clsk and related)</strong> &mdash; show us, in aggregate and as masked session replays, where visitors click and scroll. <strong>Set only if you choose &ldquo;Accept all&rdquo;</strong>; otherwise Clarity does not load.</li>
           </ul>
           <p>
             We also use privacy-friendly, cookieless performance measurement (see{" "}
@@ -163,6 +164,13 @@ export default async function PrivacyPage({ params }: LangParams) {
               of our advertising. Google may process this data (including your IP address, from which we enable
               IP anonymisation) outside Morocco. It does not load if you choose &ldquo;Necessary only&rdquo;. See{" "}
               <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>.
+            </li>
+            <li>
+              <strong>Microsoft (Clarity)</strong> &mdash; <strong>only if you accept all cookies</strong>, we use
+              Microsoft Clarity to see how visitors use our pages (clicks, scrolling, masked session replays), so we
+              can fix what confuses people. Text you type into forms is masked. It does not load if you choose
+              &ldquo;Necessary only&rdquo;. See the{" "}
+              <a href="https://www.microsoft.com/en-us/privacy/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft Privacy Statement</a>.
             </li>
             <li>
               <strong>PayPal</strong> &mdash; secure payment processing for deposits and full payments. PayPal
@@ -244,7 +252,7 @@ export default async function PrivacyPage({ params }: LangParams) {
       body: (
         <p>
           Our primary operations and data are based in Morocco. Our hosting (Vercel), email delivery (Resend),
-          and &mdash; where you have accepted analytics cookies &mdash; Google Analytics/Ads infrastructure may
+          and &mdash; where you have accepted analytics cookies &mdash; Google Analytics/Ads and Microsoft Clarity infrastructure may
           process data in the United States or European Union. Where personal data is transferred outside Morocco,
           we take steps to ensure appropriate protections consistent with Moroccan Law 09-08 and CNDP guidance.
         </p>

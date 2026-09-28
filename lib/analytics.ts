@@ -16,6 +16,10 @@ export const CONSENT_EVENT = "met-consent-change";
 
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
 
+/** Microsoft Clarity project ID. Public by design: it appears in every page's
+ *  script tag. Loaded only after consent (components/ui/MicrosoftClarity.tsx). */
+export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? "ypgh4zsj3o";
+
 /**
  * Google Ads conversion ID ("AW-1234567890"), without any /LABEL suffix.
  *

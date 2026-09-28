@@ -26,9 +26,11 @@ const securityHeaders = [
       // React dev mode (Turbopack HMR) requires eval() — allow only in development.
       // Google Tag Manager / gtag.js (GA4 + Google Ads conversion tracking) loads
       // from googletagmanager.com; it only runs after cookie consent.
+      // Microsoft Clarity: *.clarity.ms + c.bing.com, per learn.microsoft.com/clarity
+      // (clarity-csp). Also loaded only after "Accept all".
       isDev
-        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com"
-        : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com",
+        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com https://*.clarity.ms"
+        : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com https://*.clarity.ms",
       "style-src 'self' 'unsafe-inline'",
       // MapLibre GL parses vector tiles in Web Workers created from a blob URL.
       // Without blob: the map silently renders nothing but a background colour.
@@ -40,13 +42,13 @@ const securityHeaders = [
       // img-src alone still fails with "AJAXError: Failed to fetch (0)" — a
       // message that names no policy and reads like a dead URL. The tile is
       // fine; the fetch never leaves the page.
-      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk",
+      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://*.clarity.ms https://c.bing.com",
       "font-src 'self'",
       // GA4/Ads use fetch/beacon to google-analytics.com & the analytics regional
       // endpoints; googletagmanager.com serves the container.
       isDev
-        ? "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com ws://localhost:* http://localhost:*"
-        : "connect-src 'self' https://api.resend.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com",
+        ? "connect-src 'self' https://api.resend.com https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com ws://localhost:* http://localhost:*"
+        : "connect-src 'self' https://api.resend.com https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com",
       "frame-src https://www.paypal.com https://www.sandbox.paypal.com",
       "frame-ancestors 'none'",
       // These three do NOT inherit from default-src, so omitting them left real

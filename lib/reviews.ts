@@ -1,10 +1,23 @@
 /**
- * Real traveller reviews, kept in one place so the homepage testimonials block
- * and the tour booking sidebar quote the same source of truth rather than
- * drifting apart.
+ * Traveller reviews shown on the site (homepage testimonials, booking-sidebar
+ * quotes) and emitted as Review structured data on the tour they describe.
  *
- * These are genuine reviews — do not invent entries. `short` is a hand-trimmed
- * pull-quote for tight spaces (the booking sidebar); `text` is the full review.
+ * EMPTY ON PURPOSE since 2026-09-29. The three entries that lived here
+ * ("Katherine L.", "Marco B.", "Emily C.") were never real: they came from the
+ * five placeholder testimonials in the site template (initial commit 724169c,
+ * each with an Unsplash stock portrait), and a later commit edited two "from
+ * 5→4 stars with realistic minor criticism". They were published for three
+ * months as genuine, including as named Review schema to Google. Fake reviews
+ * break Google's Terms ("creating fake ... content, including fake reviews"),
+ * the UK DMCC Act 2024 and the EU Omnibus Directive. The owner had them removed.
+ *
+ * Rules for adding one (fake-reviews.test.ts enforces the checkable parts):
+ *  - It must be a real guest's own words, and `source` must say where it came
+ *    from and how permission was given ("email from guest, 2026-10-04").
+ *  - NOT copied from Tripadvisor: its terms forbid reproducing reviews "by any
+ *    automated means or any manual process" without written permission. Show
+ *    those through Tripadvisor's own widget instead.
+ *  - No stock photos, no edited ratings, no composites.
  */
 export interface Review {
   name: string;
@@ -43,46 +56,11 @@ export interface Review {
   /** Pull-quote for the booking sidebar — keep under ~110 characters. */
   short: string;
   color: string;
+  /** Where this review came from and how the guest agreed to its use. */
+  source: string;
 }
 
-export const REVIEWS: Review[] = [
-  {
-    name: "Katherine L.",
-    country: "United Kingdom",
-    rating: 5,
-    tour: "Toubkal Summit Trek",
-    tourSlug: "toubkal-summit-trek-4day",
-    origin: "marrakech",
-    date: "March 2025",
-    text: "From the moment our guide met us in Imlil, it was clear we were in expert hands. He knew every stone of that mountain and shared the history of each Berber village with such warmth and pride. Standing on the roof of North Africa at sunrise was the single most powerful moment of my life.",
-    short: "From the moment our guide met us in Imlil, it was clear we were in expert hands.",
-    color: "#2B3A67",
-  },
-  {
-    name: "Marco B.",
-    country: "Italy",
-    rating: 5,
-    tour: "3-Day Sahara Desert Tour",
-    tourSlug: "sahara-3day-marrakech",
-    origin: "marrakech",
-    date: "November 2024",
-    text: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all. The silence out there is unlike anything you have ever experienced. We rode camels into Erg Chebbi as the sun turned the dunes to liquid gold. Perfectly organised from start to finish.",
-    short: "I have travelled to more than 40 countries and the Sahara night was the most extraordinary of all.",
-    color: "#C97B2B",
-  },
-  {
-    name: "Emily C.",
-    country: "United States",
-    rating: 5,
-    tour: "Marrakech Medina Cultural Tour",
-    tourSlug: "marrakech-medina-cultural-tour",
-    origin: "marrakech",
-    date: "February 2025",
-    text: "I had been to Marrakech twice before, always overwhelmed in the medina. This tour changed everything. Tea with a spice merchant whose family has had the same stall for 200 years, the tanneries from a private rooftop, lunch in a hidden riad courtyard. Extraordinary.",
-    short: "I had been to Marrakech twice before, always overwhelmed. This tour changed everything.",
-    color: "#1B2645",
-  },
-];
+export const REVIEWS: Review[] = [];
 
 /**
  * Picks the reviews genuinely relevant to a tour: ones whose `tour` shares a

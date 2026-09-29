@@ -13,6 +13,10 @@ import type { Dictionary } from "@/app/[lang]/dictionaries";
 interface Props { dict: Dictionary }
 
 export default function Testimonials({ dict }: Props) {
+  // No section without real reviews: a "Real Stories" heading over nothing
+  // reads worse than no section. See lib/reviews.ts for why the list is empty.
+  // The Tripadvisor rating still shows in the hero, CTA banner and sidebar.
+  if (REVIEWS.length === 0) return null;
   return (
     <section className="bg-surface tadelakt overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

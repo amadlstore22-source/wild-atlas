@@ -39,7 +39,10 @@ describe("review quotes are about the tour they appear on", () => {
   });
 
   it("still surfaces quotes where a genuine match exists", () => {
-    // Guards against over-correcting into showing nothing anywhere.
+    // Guards against over-correcting into showing nothing anywhere -- once
+    // there are reviews to show. The list is empty since 2026-09-29 (the
+    // template reviews were fake; see lib/reviews.ts), and empty is correct.
+    if (REVIEWS.length === 0) return;
     const matched = TOURS.filter((t) => reviewsForTour(t.title).length > 0);
     expect(matched.length).toBeGreaterThan(0);
   });

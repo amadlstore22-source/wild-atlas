@@ -549,11 +549,21 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               <span className="text-[0.7rem] font-semibold uppercase tracking-wider text-ink-muted">
                 {b.reviewQuotesTitle}
               </span>
-              <span className="flex items-center gap-1 text-xs font-bold text-ink">
+              {/* Named and linked: with no quotes beneath it (lib/reviews.ts
+                  is empty since the template reviews were removed), a bare
+                  "5.0 (122)" did not say whose rating it was. */}
+              <a
+                href={TRIPADVISOR.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 text-xs font-bold text-ink hover:text-indigo transition-colors"
+              >
                 <Star className="w-3.5 h-3.5 text-saffron" weight="fill" aria-hidden="true" />
                 {TRIPADVISOR.rating.toFixed(1)}
-                <span className="font-normal text-ink-muted">({TRIPADVISOR.reviewCount})</span>
-              </span>
+                <span className="font-normal text-ink-muted">
+                  ({TRIPADVISOR.reviewCount}) · Tripadvisor
+                </span>
+              </a>
             </div>
             {/* May be empty: reviewsForTour returns only genuine keyword
                 matches, so a tour with no review of its own shows the verified

@@ -26,7 +26,7 @@ export function useFormSubmit(options?: Options) {
       if (res.ok) {
         setSent(true);
         options?.onSuccess?.();
-        toast.success("Message sent!", { description: "We'll get back to you within 24 hours." });
+        toast.success("Message sent!", { description: "We'll reply within the hour (8:00–20:00 Morocco time)." });
       } else {
         // Surface the API's own message rather than a blanket "went wrong":
         // a rate-limited visitor was being told the site is broken, when the

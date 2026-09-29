@@ -135,11 +135,10 @@ export async function POST(req: NextRequest) {
       // "Confirm availability" implied the date might not be free. We run private
       // departures, so the date is the customer's to choose — the reply is about
       // finalising details, not checking a schedule.
-      const hrs = SITE.responseHours;
       const confirmationBody =
         type === "booking"
-          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within ${hrs} hours to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
-          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within ${hrs} hours. For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
+          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within the hour (8:00–20:00 Morocco time) to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
+          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within the hour (8:00–20:00 Morocco time). For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",

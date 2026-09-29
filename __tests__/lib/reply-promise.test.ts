@@ -40,4 +40,29 @@ describe("reply-time promise", () => {
     }
     expect(bad, "reword these to 'within the hour, 8:00–20:00 Morocco time'").toEqual([]);
   });
+
+  /**
+   * The dictionary check above missed three English strings written straight
+   * into code, found 2026-09-29 while testing the enquiry form: the guest's
+   * confirmation email said "within 1 hours" (a template built for 24), the
+   * success toast still said "within 24 hours", and the Terms page said "We
+   * reply within 1 hours". The confirmation email is the first thing a new
+   * lead reads from us.
+   */
+  it("no code-level string promises 24 hours or builds 'N hours' from responseHours", () => {
+    const FILES = [
+      "app/api/contact/route.ts",
+      "hooks/useFormSubmit.ts",
+      "app/[lang]/terms/page.tsx",
+      "app/[lang]/contact/page.tsx",
+      "components/tours/BookingSidebar.tsx",
+    ];
+    const bad: string[] = [];
+    for (const f of FILES) {
+      const src = readFileSync(join(ROOT, f), "utf8");
+      if (/responseHours\}?\s*hours|\$\{hrs\}\s*hours/.test(src)) bad.push(`${f}: "{responseHours} hours"`);
+      if (/(repl|respon|get back)[^"`\n]{0,40}\b24 hours/i.test(src)) bad.push(`${f}: "24 hours"`);
+    }
+    expect(bad, "say 'within the hour (8:00–20:00 Morocco time)' instead").toEqual([]);
+  });
 });

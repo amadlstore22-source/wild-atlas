@@ -297,7 +297,7 @@ export default async function TermsPage({ params }: LangParams) {
           </p>
           <p>
             Questions about these terms, or about a booking you have already made, can be sent to either of the
-            above. We reply within {SITE.responseHours} hours.
+            above. We reply within the hour (8:00–20:00 Morocco time).
           </p>
         </>
       ),

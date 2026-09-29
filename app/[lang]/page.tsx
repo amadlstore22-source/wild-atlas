@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { formatPrice } from "@/lib/currency-core";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import Hero from "@/components/sections/Hero";
@@ -66,13 +67,14 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
   };
 }
 
-// Cheapest per-person group rate to the dearest solo rate, in the catalogue's
-// stored currency (USD). Derived, not typed, so a price change cannot leave
-// the schema quoting a range the site no longer offers.
+// Cheapest per-person group rate to the dearest solo rate, in euros, the
+// currency the catalogue is priced in (lib/currency-core.ts). Derived, not
+// typed, so a price change cannot leave the schema quoting a range the site
+// no longer offers.
 const PRICE_RANGE = (() => {
   const lo = Math.min(...TOURS.map((t) => lowestGroupPrice(t).price));
   const hi = Math.max(...TOURS.map((t) => t.price));
-  return `US$${lo}–US$${hi.toLocaleString("en-US")} per person`;
+  return `${formatPrice(lo, "EUR")}–${formatPrice(hi, "EUR")} per person`;
 })();
 
 const websiteJsonLd = {

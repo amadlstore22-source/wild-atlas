@@ -37,6 +37,7 @@ type Entry = {
   depositAmount?: string;
   minPeople?: string;
   priceMax?: string;
+  listPrice?: string;
   tiers: Record<string, string>;
   groupSize?: string;
 };
@@ -54,9 +55,9 @@ function scan(file: string): Record<string, Entry> {
       continue;
     }
     if (!slug) continue;
-    const f = /^\s*(price|depositAmount|minPeople|priceMax): (\d+),\s*$/.exec(line);
+    const f = /^\s*(price|depositAmount|minPeople|priceMax|listPrice): (\d+),\s*$/.exec(line);
     if (f) {
-      out[slug][f[1] as "price" | "depositAmount" | "minPeople" | "priceMax"] = f[2];
+      out[slug][f[1] as "price" | "depositAmount" | "minPeople" | "priceMax" | "listPrice"] = f[2];
       continue;
     }
     const t = /^\s*\{ minPeople: (\d+), price: (\d+) \},\s*$/.exec(line);
@@ -86,11 +87,21 @@ describe("tour prices are identical in every locale", () => {
         const base = en[slug];
         if (!base) continue; // locale-only tour: nothing to compare against
 
-        for (const field of ["price", "depositAmount", "minPeople", "priceMax"] as const) {
+        for (const field of ["price", "depositAmount", "minPeople", "priceMax", "listPrice"] as const) {
           const mine = entry[field];
           const theirs = base[field];
           // Omitted in the locale is correct -- tours-i18n falls back to EN.
-          if (mine === undefined || theirs === undefined) continue;
+          if (mine === undefined) continue;
+          // Set in the locale but NOT in English is drift too, and the merge
+          // hides it the same way. English removed toubkal-summit-sahara-5day's
+          // priceMax when its group ladder landed; all five locales kept
+          // `priceMax: 839`, so fr/de/es/it/ar showed "€310 – €727" on a trip
+          // whose solo rate is €950 until 2026-09-29. This check skipped it
+          // because English had no value to compare against.
+          if (theirs === undefined) {
+            drift.push(`${file} ${slug}.${field}: ${mine} (en: not set)`);
+            continue;
+          }
           if (mine !== theirs) {
             drift.push(`${file} ${slug}.${field}: ${mine} (en: ${theirs})`);
           }

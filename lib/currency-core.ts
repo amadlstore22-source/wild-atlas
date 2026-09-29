@@ -7,35 +7,40 @@
  * rendered "undefinedNaN" before this split). Anything that both the server and
  * the browser need — rates, symbols, formatting — lives here.
  *
- * Tour prices are stored as USD numbers in lib/tours.ts; these helpers convert
- * and format them for display. Default is EUR because the audience is primarily
- * European (FR/ES/DE/IT locales).
+ * EUROS ARE THE BASE. Tour prices in lib/tours*.ts are the owner's euro prices,
+ * exactly as quoted; every other currency is converted from them and rounded to
+ * a whole unit (nearest, .5 up — the owner's choice, 2026-09-29).
  *
- * Rates are hardcoded relative to USD (the base the tour data is stored in).
- * There is no live FX call — REVIEW THESE RATES QUARTERLY.
+ * Until 2026-09-29 the data was stored in USD and converted to EUR at 0.86693,
+ * with each USD figure reverse-engineered so it would land on the owner's euro
+ * number. That made the euro price a by-product of a dollar one: any rate
+ * update moved every euro price, and a total converted in one go could miss
+ * per-person × travellers by a euro. The stored numbers were converted once to
+ * the euro figure the site was already displaying, so no euro price moved.
  *
- * Caveat: only the numeric price/priceMax/depositAmount fields convert. Dollar
- * amounts baked into tour prose / SEO strings stay in USD.
+ * Rates are fixed, not fetched: the owner updates them on request.
  */
 
 export type Currency = "EUR" | "USD" | "GBP" | "MAD";
 
-// 1 USD = X units of currency. Review quarterly.
+// 1 EUR = X units of currency.
 //
-// Verified 2026-08-08 against the ECB reference rates (api.frankfurter.dev,
-// dated 2026-08-07): USD->EUR 0.86693, USD->GBP 0.74352. MAD is not an ECB
-// currency; 9.33 is the August 2026 mid-market rate.
+// Sources, both dated 2026-09-28 (the latest published on 2026-09-29):
+//   USD, GBP: European Central Bank euro reference rates, via
+//             https://api.frankfurter.dev/v1/latest?base=EUR
+//             -> USD 1.1378, GBP 0.85785
+//   MAD:      Bank Al-Maghrib "cours de référence",
+//             https://www.bkam.ma/Marches/Principaux-indicateurs/Marche-des-changes/Cours-de-change/Cours-de-reference
+//             -> 10.9587 MAD per EUR (its 9.6339 per USD gives EUR/USD
+//             1.1375, agreeing with the ECB to 0.03%)
 //
-// The previous values (EUR 0.92, GBP 0.79) were roughly 6% high, so every
-// price rendered ~6% dearer than the stored USD figure actually meant. The
-// stored USD prices in lib/tours.ts were rebased by the same factor in the
-// same commit, so the EUR shelf prices customers see did not move — this
-// corrects the conversion, not the pricing.
+// To update: replace the three numbers and the date above, then run
+// `npx vitest run __tests__/lib/currency.test.ts`.
 export const RATES: Record<Currency, number> = {
-  USD: 1,
-  EUR: 0.86693,
-  GBP: 0.74352,
-  MAD: 9.33,
+  EUR: 1,
+  USD: 1.1378,
+  GBP: 0.85785,
+  MAD: 10.9587,
 };
 
 export const CURRENCY_SYMBOL: Record<Currency, string> = {
@@ -53,10 +58,10 @@ export function isCurrency(v: string | undefined | null): v is Currency {
   return v === "EUR" || v === "USD" || v === "GBP" || v === "MAD";
 }
 
-/** Convert a USD amount to the target currency and format it (rounded to a
- *  clean unit — travel prices don't need cents). */
-export function formatPrice(usd: number, currency: Currency): string {
-  return formatAmount(Math.round(usd * RATES[currency]), currency);
+/** Convert a EUR amount to the target currency and format it as a whole
+ *  number — travel prices don't need cents. */
+export function formatPrice(eur: number, currency: Currency): string {
+  return formatAmount(priceIn(eur, currency), currency);
 }
 
 /** Format an amount ALREADY in `currency` (no conversion). */
@@ -66,16 +71,17 @@ export function formatAmount(amount: number, currency: Currency): string {
 
 /**
  * A group total that agrees with the per-person price on screen: convert and
- * round the per-person rate FIRST, then multiply. Converting the USD total
- * instead rounds once over the whole sum, so a page reading "£280 per person"
+ * round the per-person rate FIRST, then multiply. Converting the whole total
+ * instead rounds once over the sum, so a page reading "£280 per person"
  * totalled 3 people at £839, not £840 — a sum any visitor can check.
  */
-export function formatGroupTotal(usdPerPerson: number, people: number, currency: Currency): string {
-  return formatAmount(priceIn(usdPerPerson, currency) * people, currency);
+export function formatGroupTotal(eurPerPerson: number, people: number, currency: Currency): string {
+  return formatAmount(priceIn(eurPerPerson, currency) * people, currency);
 }
 
-/** Bare converted number (no symbol), for structured data. Must round exactly
- *  like formatPrice so schema and page never disagree. */
-export function priceIn(usd: number, currency: Currency): number {
-  return Math.round(usd * RATES[currency]);
+/** Bare converted whole number (no symbol), for structured data and payment
+ *  links. Must round exactly like formatPrice so schema and page never
+ *  disagree. */
+export function priceIn(eur: number, currency: Currency): number {
+  return Math.round(eur * RATES[currency]);
 }

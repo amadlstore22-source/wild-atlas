@@ -87,6 +87,8 @@ export interface Tour {
   reviewCount: number;
   /** @deprecated See reviewCount. Display uses TRIPADVISOR.rating instead. */
   rating: number;
+  /** Per-person price in EUR, whole euros — the owner's own figure. Other
+   *  currencies are converted from it (lib/currency-core.ts). */
   price: number;
   priceMax?: number;
   /**
@@ -111,7 +113,7 @@ export interface Tour {
     dates: string[];
     /** Seats per departure. Emitted as schema.org inventoryLevel. */
     seatsTotal: number;
-    /** Undiscounted per-person rate in USD. Omit when not discounted. */
+    /** Undiscounted per-person rate in EUR. Omit when not discounted. */
     listPrice?: number;
   };
   depositAmount: number;
@@ -196,15 +198,15 @@ export const TOURS: Tour[] = [
     // than the shallow premium groupPriceTiers() would assume.
     // EUR 650 / 360 / 320 / 290 / 270 / 260 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 750 },
-      { minPeople: 2, price: 415 },
-      { minPeople: 3, price: 369 },
-      { minPeople: 4, price: 335 },
-      { minPeople: 5, price: 311 },
-      { minPeople: 6, price: 300 },
+      { minPeople: 1, price: 650 },
+      { minPeople: 2, price: 360 },
+      { minPeople: 3, price: 320 },
+      { minPeople: 4, price: 290 },
+      { minPeople: 5, price: 270 },
+      { minPeople: 6, price: 260 },
     ],
-    price: 750,
-    depositAmount: 165,
+    price: 650,
+    depositAmount: 143,
     // Real photographs from our own Toubkal departures (in public/gallery),
     // ordered to follow the trek: summit celebration, the Imlil valley start,
     // the ascent, and the summit ridge.
@@ -316,14 +318,10 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 124,
     rating: 4.8,
-    // Stored in USD (see lib/currency-core.ts) but SET FROM AN EUR LADDER:
-    // the owner quotes 690 / 380 / 320 / 295 / 260 / 230 EUR per person, flat
-    // from six up. Each value is EUR / 0.86693 rounded to the dollar, and
-    // every tier round-trips back to its exact euro figure at the current
-    // rate. If RATES.EUR is revised these need recomputing, or the displayed
-    // ladder drifts off the quoted one.
-    price: 796,
-    depositAmount: 175,
+    // The owner's EUR ladder: 690 / 380 / 320 / 295 / 260 / 230 per person,
+    // flat from six up. Stored as those euro figures (lib/currency-core.ts).
+    price: 690,
+    depositAmount: 152,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -338,12 +336,12 @@ export const TOURS: Tour[] = [
     // per-size ladder exists to avoid. Filling the gaps keeps the total
     // strictly rising across 1–17.
     groupPricing: [
-      { minPeople: 1, price: 796 },
-      { minPeople: 2, price: 438 },
-      { minPeople: 3, price: 369 },
-      { minPeople: 4, price: 340 },
-      { minPeople: 5, price: 300 },
-      { minPeople: 6, price: 265 },
+      { minPeople: 1, price: 690 },
+      { minPeople: 2, price: 380 },
+      { minPeople: 3, price: 320 },
+      { minPeople: 4, price: 295 },
+      { minPeople: 5, price: 260 },
+      { minPeople: 6, price: 230 },
     ],
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
@@ -443,22 +441,19 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 203,
     rating: 4.7,
-    // Stored in USD (see lib/currency-core.ts) but SET FROM AN EUR LADDER:
-    // the owner quoted 105 / 86 / 76 / 69 / 65 / 58 EUR per person on
-    // 2026-09-27, flat from six up. Each value is EUR / 0.86693 rounded to
-    // the dollar, and every tier round-trips back to its exact euro figure at
-    // the current rate. If RATES.EUR is revised these need recomputing.
+    // The owner's EUR ladder, quoted 2026-09-27: 105 / 86 / 76 / 69 / 65 / 58
+    // per person, flat from six up. Stored as those euro figures.
     groupPricing: [
-      { minPeople: 1, price: 121 },
-      { minPeople: 2, price: 99 },
-      { minPeople: 3, price: 88 },
-      { minPeople: 4, price: 80 },
-      { minPeople: 5, price: 75 },
-      { minPeople: 6, price: 67 },
+      { minPeople: 1, price: 105 },
+      { minPeople: 2, price: 86 },
+      { minPeople: 3, price: 76 },
+      { minPeople: 4, price: 69 },
+      { minPeople: 5, price: 65 },
+      { minPeople: 6, price: 58 },
     ],
-    price: 121,
+    price: 105,
     // 22% of the solo price, the rate the booking guide states: €23.
-    depositAmount: 27,
+    depositAmount: 23,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -525,15 +520,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 86 },
-      { minPeople: 2, price: 44 },
-      { minPeople: 3, price: 35 },
-      { minPeople: 4, price: 31 },
-      { minPeople: 5, price: 29 },
-      { minPeople: 6, price: 25 },
+      { minPeople: 1, price: 75 },
+      { minPeople: 2, price: 38 },
+      { minPeople: 3, price: 30 },
+      { minPeople: 4, price: 27 },
+      { minPeople: 5, price: 25 },
+      { minPeople: 6, price: 22 },
     ],
-    price: 86,
-    depositAmount: 19,
+    price: 75,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -579,7 +574,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 32.0152, lng: -6.7189, name: "Ouzoud Falls, Middle Atlas" },
     seoTitle: "Private Ouzoud Waterfalls Day Trip",
     seoDescription:
-      "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. From $25 pp for 6+.",
+      "Visit Morocco's highest waterfall — 110 metres of cascading water, wild Barbary macaques, and a gorge boat ride. From €22 pp for 6+.",
     featured: false,
   },
   {
@@ -599,15 +594,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 214 },
-      { minPeople: 2, price: 109 },
-      { minPeople: 3, price: 86 },
-      { minPeople: 4, price: 77 },
-      { minPeople: 5, price: 70 },
-      { minPeople: 6, price: 65 },
+      { minPeople: 1, price: 186 },
+      { minPeople: 2, price: 94 },
+      { minPeople: 3, price: 75 },
+      { minPeople: 4, price: 67 },
+      { minPeople: 5, price: 61 },
+      { minPeople: 6, price: 56 },
     ],
-    price: 214,
-    depositAmount: 47,
+    price: 186,
+    depositAmount: 41,
     heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
       "/gallery/agafay-camel-caravan-golden-hour.jpg",
@@ -654,7 +649,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.4969, lng: -8.1073, name: "Agafay Desert, Marrakech Region" },
     seoTitle: "Private Agafay Desert Sunset Tour",
-    seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From $214.",
+    seoDescription: "Experience the Sahara in 30 minutes — quad biking, camel ride at sunset, and a traditional Berber dinner in the Agafay stone desert near Marrakech. From €186.",
     featured: false,
   },
   {
@@ -675,15 +670,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 84 },
-      { minPeople: 2, price: 47 },
-      { minPeople: 3, price: 42 },
-      { minPeople: 4, price: 39 },
-      { minPeople: 5, price: 38 },
-      { minPeople: 6, price: 36 },
+      { minPeople: 1, price: 73 },
+      { minPeople: 2, price: 41 },
+      { minPeople: 3, price: 36 },
+      { minPeople: 4, price: 34 },
+      { minPeople: 5, price: 33 },
+      { minPeople: 6, price: 31 },
     ],
-    price: 84,
-    depositAmount: 18,
+    price: 73,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -727,7 +722,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
     seoTitle: "Marrakech Medina Guided Walking Tour",
     seoDescription:
-      "Explore the UNESCO Marrakech medina with a local guide — leather tanneries, Ben Youssef Madrasa, Djemaa El-Fna, and hidden riad gardens. From $36 pp for 6+.",
+      "Explore the UNESCO Marrakech medina with a local guide — leather tanneries, Ben Youssef Madrasa, Djemaa El-Fna, and hidden riad gardens. From €31 pp for 6+.",
     featured: false,
   },
   {
@@ -743,11 +738,11 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 61,
     rating: 4.7,
-    // Stored in USD (see lib/currency-core.ts). Benchmarked against
+    // In EUR (see lib/currency-core.ts). Benchmarked against
     // marrakech-desert-trips.com's published 3-day Marrakech to Fes table
     // (verified Aug 2026) and set 10% under it at every bracket.
-    price: 1179,
-    depositAmount: 258,
+    price: 1022,
+    depositAmount: 224,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -755,15 +750,15 @@ export const TOURS: Tour[] = [
     // The 1→2 drop is steep because the vehicle and driver-guide cost the
     // same either way; only camp, meals and fees scale per head.
     groupPricing: [
-      { minPeople: 1, price: 1179 }, // €1022
-      { minPeople: 2, price: 660 }, // €572
-      { minPeople: 3, price: 565 }, // €490
-      { minPeople: 4, price: 515 }, // €446
-      { minPeople: 5, price: 482 }, // €418
-      { minPeople: 6, price: 431 }, // €374
-      { minPeople: 7, price: 411 }, // €356
-      { minPeople: 10, price: 370 }, // €321  (raised from €310: the source table inverts here)
-      { minPeople: 14, price: 345 }, // €299  (raised from €284: the source table inverts here)
+      { minPeople: 1, price: 1022 }, // €1022
+      { minPeople: 2, price: 572 }, // €572
+      { minPeople: 3, price: 490 }, // €490
+      { minPeople: 4, price: 446 }, // €446
+      { minPeople: 5, price: 418 }, // €418
+      { minPeople: 6, price: 374 }, // €374
+      { minPeople: 7, price: 356 }, // €356
+      { minPeople: 10, price: 321 }, // €321  (raised from €310: the source table inverts here)
+      { minPeople: 14, price: 299 }, // €299  (raised from €284: the source table inverts here)
     ],
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
@@ -831,7 +826,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Private 3-Day Marrakech to Fes Desert Tour",
     seoDescription:
-      "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. From $345 pp for 14+.",
+      "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. From €299 pp for 14+.",
     featured: false,
   },
   {
@@ -859,15 +854,15 @@ export const TOURS: Tour[] = [
     // the two-person rate rather than the shallow premium the curve assumes.
     // EUR 1350 / 760 / 710 / 680 / 625 / 596 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 1557 },
-      { minPeople: 2, price: 877 },
-      { minPeople: 3, price: 819 },
-      { minPeople: 4, price: 784 },
-      { minPeople: 5, price: 721 },
-      { minPeople: 6, price: 687 },
+      { minPeople: 1, price: 1350 },
+      { minPeople: 2, price: 760 },
+      { minPeople: 3, price: 710 },
+      { minPeople: 4, price: 680 },
+      { minPeople: 5, price: 625 },
+      { minPeople: 6, price: 596 },
     ],
-    price: 1557,
-    depositAmount: 343,
+    price: 1350,
+    depositAmount: 297,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -917,7 +912,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït M'hamed, Mgoun Massif" },
     seoTitle: "7-Day Mgoun Massif Trek from Marrakech",
     seoDescription:
-      "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m) and sleep in Berber family homes. From $687 pp for 6+.",
+      "7-day expert trek across the remote Mgoun Massif — summit Jbel Mgoun (4,068 m) and sleep in Berber family homes. From €596 pp for 6+.",
     featured: false,
   },
 
@@ -941,15 +936,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 86 },
-      { minPeople: 2, price: 44 },
-      { minPeople: 3, price: 35 },
-      { minPeople: 4, price: 31 },
-      { minPeople: 5, price: 29 },
-      { minPeople: 6, price: 25 },
+      { minPeople: 1, price: 75 },
+      { minPeople: 2, price: 38 },
+      { minPeople: 3, price: 30 },
+      { minPeople: 4, price: 27 },
+      { minPeople: 5, price: 25 },
+      { minPeople: 6, price: 22 },
     ],
-    price: 86,
-    depositAmount: 19,
+    price: 75,
+    depositAmount: 16,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
@@ -993,7 +988,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Private Paradise Valley Day Trip",
-    seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From $86.",
+    seoDescription: "Hidden palm gorge with natural swimming pools 35 km from Agadir. Guided hike through canyon scenery, Immouzer waterfall, and Berber lunch included. From €75.",
     featured: true,
   },
   {
@@ -1013,15 +1008,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 198 },
-      { minPeople: 2, price: 101 },
-      { minPeople: 3, price: 80 },
-      { minPeople: 4, price: 71 },
-      { minPeople: 5, price: 65 },
-      { minPeople: 6, price: 59 },
+      { minPeople: 1, price: 172 },
+      { minPeople: 2, price: 88 },
+      { minPeople: 3, price: 69 },
+      { minPeople: 4, price: 62 },
+      { minPeople: 5, price: 56 },
+      { minPeople: 6, price: 51 },
     ],
-    price: 198,
-    depositAmount: 44,
+    price: 172,
+    depositAmount: 38,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -1071,7 +1066,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.0559, lng: -9.6320, name: "Souss-Massa National Park, Massa" },
     seoTitle: "Souss-Massa National Park Wildlife Day Trip",
     seoDescription:
-      "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. From $59 pp for 6+.",
+      "Spot the critically endangered Northern Bald Ibis and flamingos in Morocco's most important wildlife reserve. From €51 pp for 6+.",
     featured: true,
   },
   {
@@ -1092,15 +1087,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 77 },
-      { minPeople: 2, price: 43 },
-      { minPeople: 3, price: 39 },
-      { minPeople: 4, price: 36 },
-      { minPeople: 5, price: 34 },
-      { minPeople: 6, price: 33 },
+      { minPeople: 1, price: 67 },
+      { minPeople: 2, price: 37 },
+      { minPeople: 3, price: 34 },
+      { minPeople: 4, price: 31 },
+      { minPeople: 5, price: 29 },
+      { minPeople: 6, price: 29 },
     ],
-    price: 77,
-    depositAmount: 17,
+    price: 67,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -1143,7 +1138,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Private Taroudant Day Trip from Agadir",
-    seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and authentic Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From $77.",
+    seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and authentic Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From €67.",
     featured: false,
   },
   {
@@ -1163,15 +1158,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 81 },
-      { minPeople: 2, price: 42 },
-      { minPeople: 3, price: 32 },
-      { minPeople: 4, price: 29 },
-      { minPeople: 5, price: 26 },
-      { minPeople: 6, price: 24 },
+      { minPeople: 1, price: 70 },
+      { minPeople: 2, price: 36 },
+      { minPeople: 3, price: 28 },
+      { minPeople: 4, price: 25 },
+      { minPeople: 5, price: 23 },
+      { minPeople: 6, price: 21 },
     ],
-    price: 81,
-    depositAmount: 18,
+    price: 70,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -1214,7 +1209,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4206, lng: -9.5981, name: "Agadir Beach, Agadir Bay" },
     seoTitle: "Surf Lessons in Agadir, Atlantic Coast",
     seoDescription:
-      "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. From $24 pp for 6+.",
+      "Learn to surf on Agadir Bay's warm Atlantic waves with a certified ISA instructor. Board, wetsuit, and safety briefing included. From €21 pp for 6+.",
     featured: false,
   },
   {
@@ -1234,15 +1229,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 527 },
-      { minPeople: 2, price: 298 },
-      { minPeople: 3, price: 262 },
-      { minPeople: 4, price: 244 },
-      { minPeople: 5, price: 229 },
-      { minPeople: 6, price: 215 },
+      { minPeople: 1, price: 457 },
+      { minPeople: 2, price: 258 },
+      { minPeople: 3, price: 227 },
+      { minPeople: 4, price: 212 },
+      { minPeople: 5, price: 199 },
+      { minPeople: 6, price: 186 },
     ],
-    price: 527,
-    depositAmount: 116,
+    price: 457,
+    depositAmount: 101,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
@@ -1313,7 +1308,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.7231, lng: -8.9762, name: "Tafraoute, Anti-Atlas Mountains" },
     seoTitle: "3-Day Anti-Atlas Mountains Trek from Agadir",
     seoDescription:
-      "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. From $215 pp for 6+.",
+      "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. From €186 pp for 6+.",
     featured: true,
   },
   {
@@ -1337,8 +1332,8 @@ export const TOURS: Tour[] = [
     reviewCount: 47,
     rating: 4.9,
     // Operator-set, revised 2026-09-13: the group tiers were under cost. EUR
-    // targets are now 790/400/340/310/280 at RATES.EUR, and the USD below round
-    // to exactly those. Solo and the 2-person rate are unchanged; 3, 4 and 5+
+    // prices are now 790/400/340/310/280, stored as written below. Solo and
+    // the 2-person rate are unchanged; 3, 4 and 5+
     // rise (290->340, 220->310, 195->280).
     //
     // The 2-person tier stayed at 400 deliberately. Taking it to 370, as first
@@ -1348,14 +1343,14 @@ export const TOURS: Tour[] = [
     //
     // Note there is no 6-person tier by design — six people pay the 5+ rate.
     groupPricing: [
-      { minPeople: 1, price: 911 },
-      { minPeople: 2, price: 461 },
-      { minPeople: 3, price: 392 },
-      { minPeople: 4, price: 358 },
-      { minPeople: 5, price: 323 },
+      { minPeople: 1, price: 790 },
+      { minPeople: 2, price: 400 },
+      { minPeople: 3, price: 340 },
+      { minPeople: 4, price: 310 },
+      { minPeople: 5, price: 280 },
     ],
-    price: 911,
-    depositAmount: 200,
+    price: 790,
+    depositAmount: 173,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1414,7 +1409,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "Private 2-Day Sahara Tour, Agadir",
     seoDescription:
-      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From $323 pp for 5+.",
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From €280 pp for 5+.",
     featured: true,
   },
   {
@@ -1435,15 +1430,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 72 },
-      { minPeople: 2, price: 40 },
-      { minPeople: 3, price: 36 },
-      { minPeople: 4, price: 34 },
-      { minPeople: 5, price: 32 },
-      { minPeople: 6, price: 30 },
+      { minPeople: 1, price: 62 },
+      { minPeople: 2, price: 35 },
+      { minPeople: 3, price: 31 },
+      { minPeople: 4, price: 29 },
+      { minPeople: 5, price: 28 },
+      { minPeople: 6, price: 26 },
     ],
-    price: 72,
-    depositAmount: 16,
+    price: 62,
+    depositAmount: 14,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1487,7 +1482,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.0667, lng: -8.6500, name: "Souss Valley, Aït Baha Region" },
     seoTitle: "Souss Valley Argan Day Trip, Agadir",
-    seoDescription: "Visit a women-run argan oil cooperative, a honey village beekeeper, and share a Berber family lunch in the Souss Valley — Morocco's argan heartland. From $72.",
+    seoDescription: "Visit a women-run argan oil cooperative, a honey village beekeeper, and share a Berber family lunch in the Souss Valley — Morocco's argan heartland. From €62.",
     featured: false,
   },
   {
@@ -1507,15 +1502,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 116 },
-      { minPeople: 2, price: 59 },
-      { minPeople: 3, price: 47 },
-      { minPeople: 4, price: 41 },
-      { minPeople: 5, price: 37 },
-      { minPeople: 6, price: 35 },
+      { minPeople: 1, price: 101 },
+      { minPeople: 2, price: 51 },
+      { minPeople: 3, price: 41 },
+      { minPeople: 4, price: 36 },
+      { minPeople: 5, price: 32 },
+      { minPeople: 6, price: 30 },
     ],
-    price: 116,
-    depositAmount: 26,
+    price: 101,
+    depositAmount: 23,
     heroImage:
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
@@ -1559,7 +1554,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
     seoTitle: "Private Essaouira Day Trip from Agadir",
-    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From $116.",
+    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From €101.",
     featured: false,
   },
   {
@@ -1579,15 +1574,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 646 },
-      { minPeople: 2, price: 361 },
-      { minPeople: 3, price: 296 },
-      { minPeople: 4, price: 260 },
-      { minPeople: 5, price: 235 },
-      { minPeople: 6, price: 213 },
+      { minPeople: 1, price: 560 },
+      { minPeople: 2, price: 313 },
+      { minPeople: 3, price: 257 },
+      { minPeople: 4, price: 225 },
+      { minPeople: 5, price: 204 },
+      { minPeople: 6, price: 185 },
     ],
-    price: 646,
-    depositAmount: 142,
+    price: 560,
+    depositAmount: 123,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1663,7 +1658,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Private 4-Day Chefchaouen Blue City Tour",
-    seoDescription: "4-day tour from Marrakech to the blue-washed streets of Chefchaouen via Fes, Volubilis Roman ruins, and Meknes. Private 4x4 with riad accommodation. From $646.",
+    seoDescription: "4-day tour from Marrakech to the blue-washed streets of Chefchaouen via Fes, Volubilis Roman ruins, and Meknes. Private 4x4 with riad accommodation. From €560.",
     featured: false,
   },
   {
@@ -1685,7 +1680,7 @@ export const TOURS: Tour[] = [
     //
     // RAISED 30% ON 2026-09-20 at the owner's instruction, every tier plus the
     // deposit. The shape of the curve is unchanged — each figure is the
-    // pre-uplift one x1.30 rounded to the dollar — so it no longer sits on the
+    // pre-uplift one x1.30, rounded — so it no longer sits on the
     // derived curve above. Do NOT "correct" it back: the uplift is deliberate.
     //
     // Computed from the ORIGINAL figures (913/510/418/367/332/301), not
@@ -1698,15 +1693,15 @@ export const TOURS: Tour[] = [
     // with group size (no tier where a smaller party pays more overall), which
     // is the invariant price-ladder.test.ts guards.
     groupPricing: [
-      { minPeople: 1, price: 1187 },
-      { minPeople: 2, price: 663 },
-      { minPeople: 3, price: 543 },
-      { minPeople: 4, price: 477 },
-      { minPeople: 5, price: 432 },
-      { minPeople: 6, price: 391 },
+      { minPeople: 1, price: 1029 },
+      { minPeople: 2, price: 575 },
+      { minPeople: 3, price: 471 },
+      { minPeople: 4, price: 414 },
+      { minPeople: 5, price: 375 },
+      { minPeople: 6, price: 339 },
     ],
-    price: 1187,
-    depositAmount: 261,
+    price: 1029,
+    depositAmount: 226,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1796,7 +1791,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "5-Day Morocco Imperial Cities Tour",
     seoDescription:
-      "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. From $391 pp for 6+.",
+      "Grand circuit through Morocco's four imperial capitals in 5 days. Volubilis Roman ruins, Chouara Tanneries, Bab Mansour, and Hassan Tower. From €339 pp for 6+.",
     featured: false,
   },
 
@@ -1823,18 +1818,18 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 415 },
-      { minPeople: 2, price: 225 },
-      { minPeople: 3, price: 213 },
-      { minPeople: 4, price: 196 },
-      { minPeople: 5, price: 167 },
-      { minPeople: 6, price: 150 },
-      { minPeople: 7, price: 133 },
-      { minPeople: 10, price: 121 },
-      { minPeople: 14, price: 113 },
+      { minPeople: 1, price: 360 },
+      { minPeople: 2, price: 195 },
+      { minPeople: 3, price: 185 },
+      { minPeople: 4, price: 170 },
+      { minPeople: 5, price: 145 },
+      { minPeople: 6, price: 130 },
+      { minPeople: 7, price: 115 },
+      { minPeople: 10, price: 105 },
+      { minPeople: 14, price: 98 },
     ],
-    price: 415,
-    depositAmount: 90,
+    price: 360,
+    depositAmount: 78,
     heroImage:
       "/gallery/children-camels-palm-oasis-draa.jpg",
     gallery: [
@@ -1904,7 +1899,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 2-Day Zagora Desert Tour",
     seoDescription:
-      "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. From $113 pp for 14+.",
+      "The fastest route to the Sahara — Aït Ben Haddou, the 200 km Draa Valley palmery, and a camel trek into the dunes. From €98 pp for 14+.",
   },
   {
     id: "24",
@@ -1919,11 +1914,11 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 64,
     rating: 4.9,
-    // Stored in USD (see lib/currency-core.ts). Benchmarked against
+    // In EUR (see lib/currency-core.ts). Benchmarked against
     // marrakech-desert-trips.com's published 3-day Erg Chigaga table
     // (verified Aug 2026) and set 10% under it at every bracket.
-    price: 1464,
-    depositAmount: 322,
+    price: 1269,
+    depositAmount: 279,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -1931,11 +1926,11 @@ export const TOURS: Tour[] = [
     // The 1→2 drop is steep because the vehicle and driver-guide cost the
     // same either way; only camp, meals and fees scale per head.
     groupPricing: [
-      { minPeople: 1, price: 1464 },
-      { minPeople: 2, price: 733 },
-      { minPeople: 3, price: 490 },
-      { minPeople: 4, price: 388 },
-      { minPeople: 5, price: 324 },
+      { minPeople: 1, price: 1269 },
+      { minPeople: 2, price: 635 },
+      { minPeople: 3, price: 425 },
+      { minPeople: 4, price: 336 },
+      { minPeople: 5, price: 281 },
     ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -2020,7 +2015,7 @@ export const TOURS: Tour[] = [
     featured: true,
     seoTitle: "Private 3-Day Erg Chegaga Desert Tour",
     seoDescription:
-      "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga by 4x4, a night in a private Berber camp. From $324 pp for 5+.",
+      "Morocco's most remote desert experience — 3 days from Marrakech to Erg Chegaga by 4x4, a night in a private Berber camp. From €281 pp for 5+.",
   },
   {
     id: "25",
@@ -2042,18 +2037,18 @@ export const TOURS: Tour[] = [
     // The 5 and 6+ tiers were raised by hand on 2026-09-06 (273 -> 283,
     // 238 -> 272) because the measured curve discounted large groups further
     // than the operator wanted to go. They no longer sit on that curve, so do
-    // not "correct" them back to it. USD chosen to land on the intended EUR
-    // shelf prices at RATES.EUR: 283 -> EUR 245, 272 -> EUR 236.
+    // not "correct" them back to it. Intended EUR shelf prices: 245 (5) and
+    // 236 (6+).
     groupPricing: [
-      { minPeople: 1, price: 1026 },
-      { minPeople: 2, price: 514 },
-      { minPeople: 3, price: 376 },
-      { minPeople: 4, price: 316 },
-      { minPeople: 5, price: 283 },
-      { minPeople: 6, price: 272 },
+      { minPeople: 1, price: 889 },
+      { minPeople: 2, price: 446 },
+      { minPeople: 3, price: 326 },
+      { minPeople: 4, price: 274 },
+      { minPeople: 5, price: 245 },
+      { minPeople: 6, price: 236 },
     ],
-    price: 1026,
-    depositAmount: 226,
+    price: 889,
+    depositAmount: 196,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -2150,7 +2145,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
     seoTitle: "Private 4-Day Marrakech Desert Tour",
-    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From $1026.",
+    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From €889.",
   },
 
   // ─────────────────────────────────────────────
@@ -2173,15 +2168,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 840 },
-      { minPeople: 2, price: 422 },
-      { minPeople: 3, price: 308 },
-      { minPeople: 4, price: 259 },
-      { minPeople: 5, price: 223 },
-      { minPeople: 6, price: 196 },
+      { minPeople: 1, price: 728 },
+      { minPeople: 2, price: 366 },
+      { minPeople: 3, price: 267 },
+      { minPeople: 4, price: 225 },
+      { minPeople: 5, price: 193 },
+      { minPeople: 6, price: 170 },
     ],
-    price: 840,
-    depositAmount: 185,
+    price: 728,
+    depositAmount: 160,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -2260,7 +2255,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 3-Day Agadir Desert Tour",
     seoDescription:
-      "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. From $196 pp for 6+.",
+      "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. From €170 pp for 6+.",
   },
   {
     id: "27",
@@ -2277,17 +2272,18 @@ export const TOURS: Tour[] = [
     rating: 4.7,
     // Operator-set, 2026-09-07, cost-driven rather than curve-derived: the camp
     // charges more than the scaled ladder assumed. EUR targets 804/400/290/220/195
-    // at RATES.EUR; the USD below round to exactly those. Note there is no
+    // were set when prices were stored in USD; the solo rate has shown as
+    // EUR 790 since, and is stored as that. Note there is no
     // 6-person tier by design — six people pay the 5+ rate.
     groupPricing: [
-      { minPeople: 1, price: 911 },
-      { minPeople: 2, price: 461 },
-      { minPeople: 3, price: 335 },
-      { minPeople: 4, price: 254 },
-      { minPeople: 5, price: 225 },
+      { minPeople: 1, price: 790 },
+      { minPeople: 2, price: 400 },
+      { minPeople: 3, price: 290 },
+      { minPeople: 4, price: 220 },
+      { minPeople: 5, price: 195 },
     ],
-    price: 911,
-    depositAmount: 200,
+    price: 790,
+    depositAmount: 173,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -2353,7 +2349,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 2-Day Zagora Tour, Agadir",
     seoDescription:
-      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From $225 pp for 5+.",
+      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From €195 pp for 5+.",
   },
   {
     id: "28",
@@ -2370,14 +2366,14 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 3-day Agadir to Erg Chigaga — same trip
     // (published table, verified Aug 2026).
-    price: 1395,
-    depositAmount: 307,
+    price: 1209,
+    depositAmount: 266,
     groupPricing: [
-      { minPeople: 1, price: 1395 },
-      { minPeople: 2, price: 698 },
-      { minPeople: 3, price: 493 },
-      { minPeople: 4, price: 377 },
-      { minPeople: 5, price: 324 },
+      { minPeople: 1, price: 1209 },
+      { minPeople: 2, price: 605 },
+      { minPeople: 3, price: 427 },
+      { minPeople: 4, price: 327 },
+      { minPeople: 5, price: 281 },
     ],
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
@@ -2456,7 +2452,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 3-Day Chegaga Tour, Agadir",
     seoDescription:
-      "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, a night in a private Berber camp. From $324 pp for 5+.",
+      "Morocco's most remote desert from Agadir — 3 days through the Anti-Atlas to Erg Chegaga via 4x4, a night in a private Berber camp. From €281 pp for 5+.",
   },
   {
     id: "29",
@@ -2475,15 +2471,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 1196 },
-      { minPeople: 2, price: 599 },
-      { minPeople: 3, price: 438 },
-      { minPeople: 4, price: 368 },
-      { minPeople: 5, price: 318 },
-      { minPeople: 6, price: 279 },
+      { minPeople: 1, price: 1037 },
+      { minPeople: 2, price: 519 },
+      { minPeople: 3, price: 380 },
+      { minPeople: 4, price: 319 },
+      { minPeople: 5, price: 276 },
+      { minPeople: 6, price: 242 },
     ],
-    price: 1196,
-    depositAmount: 263,
+    price: 1037,
+    depositAmount: 228,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2575,7 +2571,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 4-Day Agadir Desert Tour",
     seoDescription:
-      "The complete Agadir desert grand tour — 4 days via Taroudant, Aït Ben Haddou, Todra Gorge and an Erg Chebbi camp. From $279 pp for 6+.",
+      "The complete Agadir desert grand tour — 4 days via Taroudant, Aït Ben Haddou, Todra Gorge and an Erg Chebbi camp. From €242 pp for 6+.",
   },
 
   // ─────────────────────────────────────────────
@@ -2596,18 +2592,18 @@ export const TOURS: Tour[] = [
     rating: 4.7,
     // Benchmarked 10% under their 4-day Agadir to Merzouga — same length, same start point
     // (published table, verified Aug 2026).
-    price: 1188,
-    depositAmount: 261,
+    price: 1030,
+    depositAmount: 226,
     groupPricing: [
-      { minPeople: 1, price: 1188 }, // €1030
-      { minPeople: 2, price: 654 }, // €567
-      { minPeople: 3, price: 544 }, // €472
-      { minPeople: 4, price: 482 }, // €418
-      { minPeople: 5, price: 411 }, // €356
-      { minPeople: 6, price: 374 }, // €324
-      { minPeople: 7, price: 353 }, // €306
-      { minPeople: 10, price: 337 }, // €292
-      { minPeople: 14, price: 314 }, // €272  (raised from €266 — the source table inverts here)
+      { minPeople: 1, price: 1030 }, // €1030
+      { minPeople: 2, price: 567 }, // €567
+      { minPeople: 3, price: 472 }, // €472
+      { minPeople: 4, price: 418 }, // €418
+      { minPeople: 5, price: 356 }, // €356
+      { minPeople: 6, price: 324 }, // €324
+      { minPeople: 7, price: 306 }, // €306
+      { minPeople: 10, price: 292 }, // €292
+      { minPeople: 14, price: 272 }, // €272  (raised from €266 — the source table inverts here)
     ],
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
@@ -2686,7 +2682,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "Private 4-Day Agadir to Fes Tour",
-    seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From $1188.",
+    seoDescription: "Drive from Agadir to Fes via Marrakech, Tizi n'Tichka, and the cedar forests of the Middle Atlas. 4-day private 4x4 tour with riad accommodation. From €1,030.",
     featured: false,
   },
   {
@@ -2706,15 +2702,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 797 },
-      { minPeople: 2, price: 445 },
-      { minPeople: 3, price: 365 },
-      { minPeople: 4, price: 320 },
-      { minPeople: 5, price: 289 },
-      { minPeople: 6, price: 263 },
+      { minPeople: 1, price: 691 },
+      { minPeople: 2, price: 386 },
+      { minPeople: 3, price: 316 },
+      { minPeople: 4, price: 277 },
+      { minPeople: 5, price: 251 },
+      { minPeople: 6, price: 228 },
     ],
-    price: 797,
-    depositAmount: 175,
+    price: 691,
+    depositAmount: 152,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2802,7 +2798,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "Private 5-Day Agadir to Chefchaouen Tour",
     seoDescription:
-      "5-day tour from Agadir to Morocco's Blue City via Marrakech, Fes, the Roman ruins of Volubilis, and the imperial gates of Meknes. From $263 pp for 6+.",
+      "5-day tour from Agadir to Morocco's Blue City via Marrakech, Fes, the Roman ruins of Volubilis, and the imperial gates of Meknes. From €228 pp for 6+.",
     featured: false,
   },
   {
@@ -2822,15 +2818,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 1063 },
-      { minPeople: 2, price: 594 },
-      { minPeople: 3, price: 487 },
-      { minPeople: 4, price: 428 },
-      { minPeople: 5, price: 386 },
-      { minPeople: 6, price: 350 },
+      { minPeople: 1, price: 922 },
+      { minPeople: 2, price: 515 },
+      { minPeople: 3, price: 422 },
+      { minPeople: 4, price: 371 },
+      { minPeople: 5, price: 335 },
+      { minPeople: 6, price: 303 },
     ],
-    price: 1063,
-    depositAmount: 234,
+    price: 922,
+    depositAmount: 203,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2930,7 +2926,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "6-Day Imperial Cities Tour, Agadir",
-    seoDescription: "Grand 6-day circuit from Agadir through all four Moroccan imperial cities — Marrakech, Meknes, Fes, and Rabat. Private 4x4 with riad accommodation. From $1063.",
+    seoDescription: "Grand 6-day circuit from Agadir through all four Moroccan imperial cities — Marrakech, Meknes, Fes, and Rabat. Private 4x4 with riad accommodation. From €922.",
     featured: false,
   },
 
@@ -2962,15 +2958,15 @@ export const TOURS: Tour[] = [
     // groupPriceTiers() would assume.
     // EUR 990 / 790 / 585 / 510 / 480 / 450 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 1142 },
-      { minPeople: 2, price: 911 },
-      { minPeople: 3, price: 675 },
-      { minPeople: 4, price: 588 },
-      { minPeople: 5, price: 554 },
-      { minPeople: 6, price: 519 },
+      { minPeople: 1, price: 990 },
+      { minPeople: 2, price: 790 },
+      { minPeople: 3, price: 585 },
+      { minPeople: 4, price: 510 },
+      { minPeople: 5, price: 480 },
+      { minPeople: 6, price: 450 },
     ],
-    price: 1142,
-    depositAmount: 251,
+    price: 990,
+    depositAmount: 218,
     // Our own photographs, ordered to follow the itinerary: the high approach
     // and azib pastures of days 1-4, the lake the tour is named after, then the
     // Toubkal summit day that closes it. The summit frames are snow and the
@@ -3086,7 +3082,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni",
     seoDescription:
-      "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). From $519 pp for 6+.",
+      "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). From €450 pp for 6+.",
     featured: false,
   },
   {
@@ -3114,15 +3110,15 @@ export const TOURS: Tour[] = [
     // than the shallow premium groupPriceTiers() would assume.
     // EUR 350 / 195 / 185 / 175 / 165 / 153 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 404 },
-      { minPeople: 2, price: 225 },
-      { minPeople: 3, price: 213 },
-      { minPeople: 4, price: 202 },
-      { minPeople: 5, price: 190 },
-      { minPeople: 6, price: 176 },
+      { minPeople: 1, price: 350 },
+      { minPeople: 2, price: 195 },
+      { minPeople: 3, price: 185 },
+      { minPeople: 4, price: 175 },
+      { minPeople: 5, price: 165 },
+      { minPeople: 6, price: 153 },
     ],
-    price: 404,
-    depositAmount: 89,
+    price: 350,
+    depositAmount: 77,
     // Real photos from our Toubkal departures. A different selection from the
     // 4-day tour so the two pages don't look identical — this focuses on the
     // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
@@ -3218,15 +3214,15 @@ export const TOURS: Tour[] = [
     // groupPriceTiers() would assume.
     // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 692 },
-      { minPeople: 2, price: 348 },
-      { minPeople: 3, price: 311 },
-      { minPeople: 4, price: 300 },
-      { minPeople: 5, price: 288 },
-      { minPeople: 6, price: 265 },
+      { minPeople: 1, price: 600 },
+      { minPeople: 2, price: 302 },
+      { minPeople: 3, price: 270 },
+      { minPeople: 4, price: 260 },
+      { minPeople: 5, price: 250 },
+      { minPeople: 6, price: 230 },
     ],
-    price: 692,
-    depositAmount: 152,
+    price: 600,
+    depositAmount: 132,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -3306,7 +3302,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Toubkal Trek, Aguelzim Pass",
     seoDescription:
-      "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). From $265 pp for 6+.",
+      "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). From €230 pp for 6+.",
     featured: false,
   },
   {
@@ -3327,15 +3323,15 @@ export const TOURS: Tour[] = [
     // groupPriceTiers() would assume.
     // EUR 600 / 280 / 270 / 260 / 250 / 230 at the rate in lib/currency-core.ts.
     groupPricing: [
-      { minPeople: 1, price: 692 },
-      { minPeople: 2, price: 348 },
-      { minPeople: 3, price: 311 },
-      { minPeople: 4, price: 300 },
-      { minPeople: 5, price: 288 },
-      { minPeople: 6, price: 265 },
+      { minPeople: 1, price: 600 },
+      { minPeople: 2, price: 302 },
+      { minPeople: 3, price: 270 },
+      { minPeople: 4, price: 260 },
+      { minPeople: 5, price: 250 },
+      { minPeople: 6, price: 230 },
     ],
-    price: 692,
-    depositAmount: 152,
+    price: 600,
+    depositAmount: 132,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -3418,7 +3414,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Toubkal Three Peaks 4,000 m Trek",
     seoDescription:
-      "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). From $265 pp for 6+.",
+      "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). From €230 pp for 6+.",
     featured: false,
   },
   {
@@ -3439,15 +3435,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 126 },
-      { minPeople: 2, price: 64 },
-      { minPeople: 3, price: 50 },
-      { minPeople: 4, price: 45 },
-      { minPeople: 5, price: 42 },
-      { minPeople: 6, price: 38 },
+      { minPeople: 1, price: 109 },
+      { minPeople: 2, price: 55 },
+      { minPeople: 3, price: 43 },
+      { minPeople: 4, price: 39 },
+      { minPeople: 5, price: 36 },
+      { minPeople: 6, price: 33 },
     ],
-    price: 126,
-    depositAmount: 28,
+    price: 109,
+    depositAmount: 24,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
@@ -3485,7 +3481,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6316, lng: -7.9868, name: "Rahba Kedima Spice Square, Marrakech Medina" },
     seoTitle: "Marrakech Food and Market Guided Tour",
-    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From $126.",
+    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From €109.",
     faq: [
       { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
       { q: "Do we need to arrive hungry?", a: "Come with an appetite but not empty-handed — the walk includes a dozen small tastings before you even reach the cooking class, so pace yourself, and skip a big breakfast." },
@@ -3517,15 +3513,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 598 },
-      { minPeople: 2, price: 300 },
-      { minPeople: 3, price: 220 },
-      { minPeople: 4, price: 185 },
-      { minPeople: 5, price: 160 },
-      { minPeople: 6, price: 140 },
+      { minPeople: 1, price: 518 },
+      { minPeople: 2, price: 260 },
+      { minPeople: 3, price: 191 },
+      { minPeople: 4, price: 160 },
+      { minPeople: 5, price: 139 },
+      { minPeople: 6, price: 121 },
     ],
-    price: 598,
-    depositAmount: 132,
+    price: 518,
+    depositAmount: 114,
     heroImage:
       "/gallery/camel-riders-sunset-silhouette.jpg",
     gallery: [
@@ -3582,7 +3578,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Merzouga Stargazing Desert Tour",
-    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From $598.",
+    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From €518.",
     faq: [
       { q: "Do I need my own astronomy knowledge or equipment?", a: "No. The guide provides the telescope and explains everything from scratch — this is designed for complete beginners as much as anyone with an interest in astronomy." },
       { q: "What's the best time of year for this tour?", a: "October through May. The sky is clearest and the desert night is cool enough to sit outside comfortably; summer nights are still starry but far hotter." },
@@ -3617,15 +3613,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 329 },
-      { minPeople: 2, price: 186 },
-      { minPeople: 3, price: 164 },
-      { minPeople: 4, price: 153 },
-      { minPeople: 5, price: 143 },
-      { minPeople: 6, price: 134 },
+      { minPeople: 1, price: 285 },
+      { minPeople: 2, price: 161 },
+      { minPeople: 3, price: 142 },
+      { minPeople: 4, price: 133 },
+      { minPeople: 5, price: 124 },
+      { minPeople: 6, price: 116 },
     ],
-    price: 329,
-    depositAmount: 72,
+    price: 285,
+    depositAmount: 62,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/trek-camp-golden-hour-valley.jpg",
@@ -3683,7 +3679,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Azzaden Valley Trek from Marrakech",
-    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $329.",
+    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From €285.",
     faq: [
       { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,684 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
       { q: "How is this different from the Toubkal treks?", a: "The Azzaden is the valley beside the main Imlil–Toubkal route, so it sees far fewer trekkers. You get the same Berber villages, passes and mountain scenery, but no summit push and no high-altitude refuge night — a gentler, quieter alternative." },
@@ -3716,15 +3712,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 480 },
-      { minPeople: 2, price: 271 },
-      { minPeople: 3, price: 238 },
-      { minPeople: 4, price: 222 },
-      { minPeople: 5, price: 209 },
-      { minPeople: 6, price: 195 },
+      { minPeople: 1, price: 416 },
+      { minPeople: 2, price: 235 },
+      { minPeople: 3, price: 206 },
+      { minPeople: 4, price: 192 },
+      { minPeople: 5, price: 181 },
+      { minPeople: 6, price: 169 },
     ],
-    price: 480,
-    depositAmount: 106,
+    price: 416,
+    depositAmount: 92,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3791,7 +3787,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Atlas Mountains Trek from Marrakech",
-    seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $480.",
+    seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From €416.",
     faq: [
       { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 2,700 m. If you walk regularly you will be fine." },
       { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — shared bathrooms, mattresses on floor platforms or basic beds — rather than hotels, which is the point of the trek." },
@@ -3826,15 +3822,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 639 },
-      { minPeople: 2, price: 361 },
-      { minPeople: 3, price: 318 },
-      { minPeople: 4, price: 296 },
-      { minPeople: 5, price: 278 },
-      { minPeople: 6, price: 260 },
+      { minPeople: 1, price: 554 },
+      { minPeople: 2, price: 313 },
+      { minPeople: 3, price: 276 },
+      { minPeople: 4, price: 257 },
+      { minPeople: 5, price: 241 },
+      { minPeople: 6, price: 225 },
     ],
-    price: 639,
-    depositAmount: 141,
+    price: 554,
+    depositAmount: 122,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3910,7 +3906,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Family 4-Day Atlas Mountains Trek",
-    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $639.",
+    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From €554.",
     faq: [
       { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–4 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
       { q: "What if a child gets tired mid-walk?", a: "The mules that carry the luggage can also carry a tired younger child, and the guide sets the pace around the group rather than a schedule. Short days and frequent stops are built in precisely so that no one is pushed." },
@@ -3941,21 +3937,21 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 4-day Marrakech to Merzouga — same length, same route
     // (published table, verified Aug 2026).
-    price: 607,
+    price: 526,
     // Family tour, sold as a private vehicle: two travellers is the
     // smallest bookable party. Without this the headline price would be a
     // solo rate nobody can actually book -- see group-pricing.test.ts.
     minPeople: 2,
-    depositAmount: 134,
+    depositAmount: 116,
     groupPricing: [
-        { minPeople: 2, price: 607 },
-        { minPeople: 3, price: 460 },
-        { minPeople: 4, price: 399 },
-        { minPeople: 5, price: 362 },
-        { minPeople: 6, price: 311 },
-        { minPeople: 7, price: 291 },
-        { minPeople: 10, price: 283 },
-        { minPeople: 14, price: 264 },
+        { minPeople: 2, price: 526 },
+        { minPeople: 3, price: 399 },
+        { minPeople: 4, price: 346 },
+        { minPeople: 5, price: 314 },
+        { minPeople: 6, price: 270 },
+        { minPeople: 7, price: 252 },
+        { minPeople: 10, price: 245 },
+        { minPeople: 14, price: 229 },
       ],
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
@@ -4035,7 +4031,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Family 4-Day Morocco Desert Tour",
-    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set and a family desert camp. From $607.",
+    seoDescription: "4-day family desert tour from Marrakech to the Erg Chebbi dunes: camel rides, sandboarding, a kasbah film set and a family desert camp. From €526.",
     faq: [
       { q: "Is this desert tour suitable for young children?", a: "Yes. There is no walking demand — everything moves in an air-conditioned vehicle, and the stops (kasbah, gorge, dunes) are short and easy. The driving is real, though, so it suits children who travel reasonably well in a car; the stages are deliberately broken up with frequent stops to help." },
       { q: "What makes the desert camp family-friendly?", a: "The camp used on this trip has proper beds, private or shared bathroom tents, and dinner served together rather than a bare bivouac. The camel rides are short and led on foot, and there is space around the fire for children in the evening." },
@@ -4069,14 +4065,14 @@ export const TOURS: Tour[] = [
     // Real ladder, not the derived curve.
     // EUR 1700 / 1400 / 1290 / 1230 / 1100 for 2/3/4/5/6+.
     groupPricing: [
-      { minPeople: 2, price: 1961 },
-      { minPeople: 3, price: 1615 },
-      { minPeople: 4, price: 1488 },
-      { minPeople: 5, price: 1419 },
-      { minPeople: 6, price: 1269 },
+      { minPeople: 2, price: 1700 },
+      { minPeople: 3, price: 1400 },
+      { minPeople: 4, price: 1290 },
+      { minPeople: 5, price: 1230 },
+      { minPeople: 6, price: 1100 },
     ],
-    price: 1961,
-    depositAmount: 431,
+    price: 1700,
+    depositAmount: 374,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -4130,7 +4126,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "15-Day High Atlas Grand Traverse Trek",
     seoDescription:
-      "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. From $1269 pp for 6+.",
+      "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. From €1,100 pp for 6+.",
     faq: [
       { q: "How fit and experienced do I need to be for the Grand Traverse?", a: "This is graded expert — the most demanding trip we run. It is fifteen consecutive days of walking, several of them long (8–9 hours), with two 4,000 m summits and high passes. You should already have multi-day trekking experience, be comfortable at altitude, and be prepared for consecutive hard days in remote country. It is not a first big trek." },
       { q: "Which peaks does the traverse summit?", a: "Both of North Africa's highest: M'Goun (4,068 m) early in the route from the Aït Bougmez side, and Jbel Toubkal (4,167 m) near the end. Weather permitting, both summits are part of the standard itinerary rather than optional extras." },
@@ -4155,21 +4151,21 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 5-day Toubkal Trek & Sahara — same trip, same length
     // (published table, verified Aug 2026).
-    price: 1096,
+    price: 950,
     // No priceMax: the group tiers below express the real spread. The old
     // 690-790 band was a seasonal range on a single per-person price and
     // would now sit BELOW the solo rate, inverting the displayed range.
-    depositAmount: 241,
+    depositAmount: 209,
     groupPricing: [
-      { minPeople: 1, price: 1096 }, // €950
-      { minPeople: 2, price: 743 }, // €644
-      { minPeople: 3, price: 524 }, // €454
-      { minPeople: 4, price: 452 }, // €392
-      { minPeople: 5, price: 431 }, // €374
-      { minPeople: 6, price: 420 }, // €364
-      { minPeople: 7, price: 411 }, // €356
-      { minPeople: 10, price: 378 }, // €328
-      { minPeople: 14, price: 358 }, // €310
+      { minPeople: 1, price: 950 }, // €950
+      { minPeople: 2, price: 644 }, // €644
+      { minPeople: 3, price: 454 }, // €454
+      { minPeople: 4, price: 392 }, // €392
+      { minPeople: 5, price: 374 }, // €374
+      { minPeople: 6, price: 364 }, // €364
+      { minPeople: 7, price: 356 }, // €356
+      { minPeople: 10, price: 328 }, // €328
+      { minPeople: 14, price: 310 }, // €310
     ],
     heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
@@ -4272,7 +4268,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "5-Day Toubkal Summit and Sahara Desert Tour",
     seoDescription:
-      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. From $358 pp for 14+.",
+      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. From €310 pp for 14+.",
     faq: [
       { q: "How fit do I need to be for the Toubkal and Sahara combo?", a: "The trek half is graded challenging: two mountain days with a pre-dawn summit push at 4,167 m, so you need to be a fit, regular walker comfortable at altitude. The desert half is easy and vehicle-based, so it acts as a rest after the summit. If you can manage a hard two-day mountain trek, the rest of the trip is comfortable." },
       { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },
@@ -4294,16 +4290,16 @@ export const TOURS: Tour[] = [
     groupSize: "2–16 people",
     tourType: "private",
     groupPricing: [
-      { minPeople: 1, price: 3114 },
-      { minPeople: 2, price: 1559 },
-      { minPeople: 3, price: 1218 },
-      { minPeople: 4, price: 1048 },
-      { minPeople: 5, price: 882 },
+      { minPeople: 1, price: 2700 },
+      { minPeople: 2, price: 1352 },
+      { minPeople: 3, price: 1056 },
+      { minPeople: 4, price: 909 },
+      { minPeople: 5, price: 765 },
     ],
     reviewCount: 18,
     rating: 5.0,
-    price: 3114,
-    depositAmount: 685,
+    price: 2700,
+    depositAmount: 594,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -4426,7 +4422,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "8-Day Erg Chegaga Camel Trek from Marrakech",
     seoDescription:
-      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. From $882 pp for 5+.",
+      "Walk the Sahara with a camel caravan: six days on foot from the Draa Valley to the Erg Chegaga dunes and M'hamid. From €765 pp for 5+.",
     faq: [
       {
         q: "Do I ride the camel or walk?",
@@ -4473,9 +4469,9 @@ export const TOURS: Tour[] = [
     // Shared seat, flat per person. A single tier, deliberately: the minibus
     // runs whether you book or not, so there is no vehicle cost to spread and
     // six travellers pay six times one. Only private tours discount by size.
-    groupPricing: [{ minPeople: 1, price: 138 }],
-    price: 138,
-    depositAmount: 30,
+    groupPricing: [{ minPeople: 1, price: 120 }],
+    price: 120,
+    depositAmount: 26,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -4568,9 +4564,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 98 }],
-    price: 98,
-    depositAmount: 22,
+    groupPricing: [{ minPeople: 1, price: 85 }],
+    price: 85,
+    depositAmount: 19,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -4642,9 +4638,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 46 }],
-    price: 46,
-    depositAmount: 10,
+    groupPricing: [{ minPeople: 1, price: 40 }],
+    price: 40,
+    depositAmount: 9,
     heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
     shortDescription:
@@ -4701,9 +4697,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 35 }],
-    price: 35,
-    depositAmount: 8,
+    groupPricing: [{ minPeople: 1, price: 30 }],
+    price: 30,
+    depositAmount: 7,
     heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
     gallery: [
       "/gallery/agafay-fire-breathing-audience.jpg",
@@ -4764,9 +4760,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 35 }],
-    price: 35,
-    depositAmount: 8,
+    groupPricing: [{ minPeople: 1, price: 30 }],
+    price: 30,
+    depositAmount: 7,
     heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
     shortDescription:
@@ -4823,10 +4819,10 @@ export const TOURS: Tour[] = [
     // invariant test requires rather than a fabricated score.
     reviewCount: 0,
     rating: 5,
-    // EUR 889 at the rate in lib/currency-core.ts (1025 * 0.86693 = 888.6).
+    // EUR 889 per seat (was stored as USD 1025, which displayed as EUR 889).
     // No groupPricing: the seat price is flat by design -- see fixedDeparture
     // on the Tour interface for why the ladder does not apply here.
-    price: 1025,
+    price: 889,
     fixedDeparture: {
       dates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
       seatsTotal: 14,
@@ -4834,9 +4830,9 @@ export const TOURS: Tour[] = [
       // promotion. A real price, not an invented anchor: if the discount ever
       // becomes the permanent rate, delete this field rather than keep showing
       // a figure nobody pays.
-      listPrice: 1062,
+      listPrice: 921,
     },
-    depositAmount: 225,
+    depositAmount: 195,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -4990,25 +4986,23 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    // Stored in USD (see lib/currency-core.ts) but SET FROM THE OWNER'S EUR
-    // PARTY TOTALS: 1380 / 1650 / 1960 / 2369 / 2675 / 2819 EUR for parties of
-    // one to six. groupPricing is PER PERSON, so each total is divided by the
-    // party size before conversion; every tier round-trips back to its exact
-    // euro figure at the current rate. If RATES.EUR is revised these need
-    // recomputing, or the displayed ladder drifts off the quoted one.
+    // SET FROM THE OWNER'S EUR PARTY TOTALS: 1380 / 1650 / 1960 / 2369 /
+    // 2675 / 2819 EUR for parties of one to six. groupPricing is PER PERSON,
+    // so each total is divided by the party size and rounded to the euro
+    // (a party total can land a euro off the quoted one, e.g. 3 x 653).
     //
     // The party totals rise strictly across 1-6, so no group is ever better off
     // booking a phantom extra traveller -- the inversion trap documented on
     // sahara-3day-marrakech.
-    price: 1592,
-    depositAmount: 351,
+    price: 1380,
+    depositAmount: 304,
     groupPricing: [
-      { minPeople: 1, price: 1592 },
-      { minPeople: 2, price: 952 },
-      { minPeople: 3, price: 753 },
-      { minPeople: 4, price: 683 },
-      { minPeople: 5, price: 617 },
-      { minPeople: 6, price: 542 },
+      { minPeople: 1, price: 1380 },
+      { minPeople: 2, price: 825 },
+      { minPeople: 3, price: 653 },
+      { minPeople: 4, price: 592 },
+      { minPeople: 5, price: 535 },
+      { minPeople: 6, price: 470 },
     ],
     // Hero and gallery follow the itinerary north to south. The Rabat and
     // Volubilis photographs are the operator's own; before this the tour's
@@ -5140,7 +5134,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 33.5731, lng: -7.5898, name: "Casablanca — your hotel or Mohammed V airport" },
     seoTitle: "Casablanca to Marrakech — 5-Day Tour",
     seoDescription:
-      "Private 5-day tour from Casablanca: Rabat, Volubilis, Meknes, two nights in Fes, the Erg Chebbi dunes and the gorges to Marrakech. From $542 pp for 6+.",
+      "Private 5-day tour from Casablanca: Rabat, Volubilis, Meknes, two nights in Fes, the Erg Chebbi dunes and the gorges to Marrakech. From €470 pp for 6+.",
     featured: false,
   },
 ];
@@ -5283,9 +5277,9 @@ export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
  * same whether one or six people book it, so there is no fixed cost to spread
  * and a group discount would just be lost margin.
  *
- * NOT rounded to $5. Rounding the stored USD fights the EUR target — the site
- * sells in EUR, and $5 steps land 2-person totals up to EUR 8 away from the
- * intended figure. Rounding happens once, at display, in formatPrice().
+ * NOT rounded to a 5-euro step: the multiplied figure is rounded to the whole
+ * euro here, and other currencies are converted and rounded at display, in
+ * formatPrice().
  *
  * The multipliers are the one number to revisit once real booking data is in:
  * see docs/PRICING.md.

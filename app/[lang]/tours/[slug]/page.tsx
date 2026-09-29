@@ -30,32 +30,18 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // Import from currency-core, not currency: the latter is "use client" and its
 // constants read as undefined during server render.
-import { DEFAULT_CURRENCY, CURRENCY_SYMBOL, priceIn } from "@/lib/currency-core";
+import { DEFAULT_CURRENCY, priceIn } from "@/lib/currency-core";
 import { hreflangLanguages } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 type TourParams = { params: Promise<{ lang: string; slug: string }> };
 
-/**
- * Tour seoDescription strings end with a hardcoded "From $380." written in the
- * storage currency (USD). That sentence is what Google prints as the meta
- * description, so it advertised a price the page never charges once the site
- * defaulted to EUR. Rewrite it from the same source as every other price rather
- * than hand-editing 32 strings that would drift on the next rate change.
+/*
+ * Tour seoDescription strings quote their price in euros, the currency the
+ * prices are set in (lib/currency-core.ts), so they are used as written. They
+ * were once written in USD and rewritten here at render time; since
+ * 2026-09-29 the stored figure IS the euro one, and currency.test.ts checks
+ * every description's price against its tour in all six locales.
  */
-function localisePrice(text: string | undefined, _usd: number): string | undefined {
-  if (!text) return text;
-  // Convert EACH figure found, rather than replacing every match with one
-  // price. The original substituted `usd` (the SOLO rate) into every "$N" in
-  // the string, which was harmless while descriptions quoted exactly one price
-  // -- but descriptions now lead with the cheapest tier ("From $30 pp for 6+")
-  // and that rewrote it to the solo "EUR86 pp for 6+": wrong number AND a
-  // group claim attached to a solo price.
-  return text.replace(/\$([\d,]+)/g, (_m, digits: string) => {
-    const value = Number(digits.replace(/,/g, ""));
-    if (!Number.isFinite(value)) return _m;
-    return `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${priceIn(value, DEFAULT_CURRENCY).toLocaleString("en-US")}`;
-  });
-}
 
 export async function generateStaticParams() {
   // Each locale is prerendered at its OWN URL segment. Emitting t.slug for every
@@ -80,7 +66,7 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
     // template appends the brand exactly once (was producing a double suffix:
     // "... | Marrakech Eco Tours | Marrakech Eco Tours").
     title: (tour.seoTitle ?? tour.title).replace(/\s*\|\s*Marrakech Eco Tours\s*$/, ""),
-    description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
+    description: tour.seoDescription ?? tour.shortDescription,
     openGraph: {
       ...ogBase(lang),
       title: tour.title,
@@ -140,7 +126,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: tour.title,
-    description: localisePrice(tour.seoDescription, tour.price) ?? tour.shortDescription,
+    description: tour.seoDescription ?? tour.shortDescription,
     url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`,
     // Absolute: JSON-LD resolves a relative path against schema.org, not us.
     image: absoluteUrl(tour.heroImage),

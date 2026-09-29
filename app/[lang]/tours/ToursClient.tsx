@@ -31,13 +31,15 @@ interface Props {
   initialPrice?: string;
 }
 
-// Price bands operate on the stored USD price so URLs stay stable across currencies.
+// Price bands operate on the stored EUR price (the base currency) so URLs stay
+// stable across currencies. Until 2026-09-29 the same 100/250 thresholds were
+// in USD, which labelled the bands "under €87" and "€87–€217".
 type PriceBand = "all" | "low" | "mid" | "high";
-const PRICE_BANDS: { id: PriceBand; maxUsd: number | null; minUsd: number }[] = [
-  { id: "all", minUsd: 0, maxUsd: null },
-  { id: "low", minUsd: 0, maxUsd: 100 },
-  { id: "mid", minUsd: 100, maxUsd: 250 },
-  { id: "high", minUsd: 250, maxUsd: null },
+const PRICE_BANDS: { id: PriceBand; maxEur: number | null; minEur: number }[] = [
+  { id: "all", minEur: 0, maxEur: null },
+  { id: "low", minEur: 0, maxEur: 100 },
+  { id: "mid", minEur: 100, maxEur: 250 },
+  { id: "high", minEur: 250, maxEur: null },
 ];
 
 export default function ToursClient({
@@ -119,7 +121,7 @@ export default function ToursClient({
         const matchOrigin = origin === "all" || t.origin === origin;
         const matchDuration = duration === "all" || t.durationBucket === duration;
         const band = PRICE_BANDS.find((b) => b.id === price)!;
-        const matchPrice = price === "all" || (t.price >= band.minUsd && (band.maxUsd === null || t.price < band.maxUsd));
+        const matchPrice = price === "all" || (t.price >= band.minEur && (band.maxEur === null || t.price < band.maxEur));
         return matchSearch && matchCat && matchDiff && matchOrigin && matchDuration && matchPrice;
       }),
     [tours, search, category, difficulty, origin, duration, price]

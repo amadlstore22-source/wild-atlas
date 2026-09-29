@@ -8860,8 +8860,9 @@ solitude; take the valley if this is your first Atlas summit.
   // paradise valley 1019 impr, merzouga 359, zagora 310, chegaga 153,
   // ourika 95, agafay 84, ouzoud 38.
   //
-  // PRICES ARE STORED IN USD AND RENDERED IN EUR (currency-core, 0.86693).
-  // Every figure below is converted; blog-prices.test.ts asserts it.
+  // Figures below are the tours' EUR prices. (Written when prices were stored
+  // in USD and converted at 0.86693; since 2026-09-29 the stored figure is the
+  // euro one.) blog-prices.test.ts asserts them.
   // -----------------------------------------------------------------
   {
     slug: "paradise-valley-agadir-cost",

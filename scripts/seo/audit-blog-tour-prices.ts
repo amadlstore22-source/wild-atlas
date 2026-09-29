@@ -7,8 +7,9 @@
  * silently rot: the tour page says one thing and six locales of blog say another,
  * and nothing fails. This finds them.
  *
- * Prices are stored in USD and displayed in EUR (see lib/currency-core.ts), so
- * every stored tier is converted before comparison.
+ * Prices are stored in EUR (see lib/currency-core.ts), so RATES.EUR is 1 and
+ * the conversion below is a no-op. It stays so the script keeps working if
+ * the base currency ever changes again.
  *
  * Run:  npx tsx scripts/seo/audit-blog-tour-prices.ts
  */

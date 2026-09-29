@@ -458,7 +458,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                           title={mainTour.title}
                           duration={mainTour.duration}
                           image={mainTour.heroImage}
-                          priceUsd={mainPrice.price}
+                          priceEur={mainPrice.price}
                           minPeople={mainPrice.minPeople}
                           postSlug={post.slug}
                           tourSlug={mainTour.slug}

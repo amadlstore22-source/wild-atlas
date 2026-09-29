@@ -16,8 +16,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 48,
     rating: 4.9,
-    price: 750,
-    depositAmount: 165,
+    price: 650,
+    depositAmount: 143,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-guide-thumbs-up.jpg",
@@ -117,8 +117,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 124,
     rating: 4.8,
-    price: 796,
-    depositAmount: 175,
+    price: 690,
+    depositAmount: 152,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -214,8 +214,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 persone",
     reviewCount: 203,
     rating: 4.7,
-    price: 121,
-    depositAmount: 27,
+    price: 105,
+    depositAmount: 23,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -275,8 +275,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 persone",
     reviewCount: 167,
     rating: 4.8,
-    price: 86,
-    depositAmount: 19,
+    price: 75,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -338,8 +338,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–20 persone",
     reviewCount: 89,
     rating: 4.6,
-    price: 214,
-    depositAmount: 47,
+    price: 186,
+    depositAmount: 41,
     heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
       "/gallery/agafay-camel-caravan-golden-hour.jpg",
@@ -386,7 +386,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.4969, lng: -8.1073, name: "Agafay Desert, Marrakech Region" },
     seoTitle: "Tour al Tramonto nel Deserto di Agafay",
-    seoDescription: "Vivi il Sahara in 30 minuti — quad, cavalcata in cammello al tramonto e una cena berbera tradizionale nel deserto roccioso di Agafay vicino a Marrakech. Da $80.",
+    seoDescription: "Vivi il Sahara in 30 minuti — quad, cavalcata in cammello al tramonto e una cena berbera nel deserto roccioso di Agafay vicino a Marrakech. Da €186.",
     featured: false,
   },
   {
@@ -402,8 +402,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 97,
     rating: 4.9,
-    price: 84,
-    depositAmount: 18,
+    price: 73,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -461,8 +461,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 61,
     rating: 4.7,
-    price: 1179,
-    depositAmount: 258,
+    price: 1022,
+    depositAmount: 224,
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
@@ -551,8 +551,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 31,
     rating: 5.0,
-    price: 1557,
-    depositAmount: 343,
+    price: 1350,
+    depositAmount: 297,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -619,8 +619,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–15 persone",
     reviewCount: 142,
     rating: 4.8,
-    price: 86,
-    depositAmount: 19,
+    price: 75,
+    depositAmount: 16,
     heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
     gallery: [
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
@@ -664,7 +664,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Gita alla Paradise Valley da Agadir",
-    seoDescription: "Gola di palme nascosta con piscine naturali a 35 km da Agadir. Escursione guidata tra scenari da canyon, cascata di Immouzer e pranzo berbero incluso. Da $32.",
+    seoDescription: "Gola di palme nascosta con piscine naturali a 35 km da Agadir. Escursione guidata tra scenari da canyon, cascata di Immouzer e pranzo berbero incluso. Da €75.",
     featured: true,
   },
   {
@@ -679,8 +679,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 58,
     rating: 4.7,
-    price: 198,
-    depositAmount: 44,
+    price: 172,
+    depositAmount: 38,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -743,8 +743,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 persone",
     reviewCount: 84,
     rating: 4.6,
-    price: 77,
-    depositAmount: 17,
+    price: 67,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -789,7 +789,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Gita a Taroudant da Agadir",
-    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir, senza le folle turistiche. Da $43.",
+    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir, senza le folle turistiche. Da €67.",
     featured: false,
   },
   {
@@ -804,8 +804,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 211,
     rating: 4.7,
-    price: 81,
-    depositAmount: 18,
+    price: 70,
+    depositAmount: 16,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -863,8 +863,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 29,
     rating: 4.8,
-    price: 527,
-    depositAmount: 116,
+    price: 457,
+    depositAmount: 101,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
@@ -955,8 +955,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 47,
     rating: 4.9,
-    price: 911,
-    depositAmount: 200,
+    price: 790,
+    depositAmount: 173,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1029,8 +1029,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 persone",
     reviewCount: 73,
     rating: 4.7,
-    price: 72,
-    depositAmount: 16,
+    price: 62,
+    depositAmount: 14,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1091,8 +1091,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 persone",
     reviewCount: 118,
     rating: 4.8,
-    price: 116,
-    depositAmount: 26,
+    price: 101,
+    depositAmount: 23,
     heroImage:
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
@@ -1151,8 +1151,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 43,
     rating: 4.9,
-    price: 646,
-    depositAmount: 142,
+    price: 560,
+    depositAmount: 123,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1228,7 +1228,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     seoTitle: "Tour di 4 Giorni da Marrakech a Chefchaouen",
-    seoDescription: "Tour di 4 giorni da Marrakech alle vie blu di Chefchaouen via Fes, le rovine romane di Volubilis e Meknes. 4x4 privato con alloggio in riad. Da $361.",
+    seoDescription: "Tour di 4 giorni da Marrakech alle vie blu di Chefchaouen via Fes, le rovine romane di Volubilis e Meknes. 4x4 privato con alloggio in riad. Da €560.",
     featured: false,
   },
   {
@@ -1243,8 +1243,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 27,
     rating: 4.8,
-    price: 1187,
-    depositAmount: 261,
+    price: 1029,
+    depositAmount: 226,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1352,8 +1352,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 143,
     rating: 4.8,
-    price: 415,
-    depositAmount: 90,
+    price: 360,
+    depositAmount: 78,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1435,8 +1435,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 64,
     rating: 4.9,
-    price: 1464,
-    depositAmount: 322,
+    price: 1269,
+    depositAmount: 279,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
@@ -1531,8 +1531,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 98,
     rating: 4.9,
-    price: 1026,
-    depositAmount: 226,
+    price: 889,
+    depositAmount: 196,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -1642,8 +1642,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 52,
     rating: 4.8,
-    price: 840,
-    depositAmount: 185,
+    price: 728,
+    depositAmount: 160,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -1734,8 +1734,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 41,
     rating: 4.7,
-    price: 911,
-    depositAmount: 200,
+    price: 790,
+    depositAmount: 173,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -1813,8 +1813,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 28,
     rating: 4.9,
-    price: 1395,
-    depositAmount: 307,
+    price: 1209,
+    depositAmount: 266,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -1904,8 +1904,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 39,
     rating: 4.8,
-    price: 1196,
-    depositAmount: 263,
+    price: 1037,
+    depositAmount: 228,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2014,8 +2014,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 34,
     rating: 4.7,
-    price: 1188,
-    depositAmount: 261,
+    price: 1030,
+    depositAmount: 226,
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
@@ -2093,7 +2093,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — il tuo hotel o riad" },
     seoTitle: "Tour di 4 Giorni da Agadir a Fes",
-    seoDescription: "Viaggia da Agadir a Fes via Marrakech, Tizi n'Tichka e le foreste di cedri del Medio Atlante. Tour privato 4x4 di 4 giorni con alloggio in riad. Da $1188.",
+    seoDescription: "Viaggia da Agadir a Fes via Marrakech, Tizi n'Tichka e le foreste di cedri del Medio Atlante. Tour privato 4x4 di 4 giorni con alloggio in riad. Da €1,030.",
     featured: false,
   },
   {
@@ -2108,8 +2108,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 22,
     rating: 4.9,
-    price: 797,
-    depositAmount: 175,
+    price: 691,
+    depositAmount: 152,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2211,8 +2211,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 18,
     rating: 4.8,
-    price: 1063,
-    depositAmount: 234,
+    price: 922,
+    depositAmount: 203,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2338,8 +2338,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 21,
     rating: 4.9,
-    price: 1142,
-    depositAmount: 251,
+    price: 990,
+    depositAmount: 218,
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
       "/gallery/ifni-lake-from-the-pass.jpg",
@@ -2472,8 +2472,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 34,
     rating: 4.7,
-    price: 404,
-    depositAmount: 89,
+    price: 350,
+    depositAmount: 77,
     heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -2555,8 +2555,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 18,
     rating: 4.8,
-    price: 692,
-    depositAmount: 152,
+    price: 600,
+    depositAmount: 132,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -2647,8 +2647,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 12,
     rating: 4.9,
-    price: 692,
-    depositAmount: 152,
+    price: 600,
+    depositAmount: 132,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -2742,8 +2742,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 34,
     rating: 4.9,
-    price: 126,
-    depositAmount: 28,
+    price: 109,
+    depositAmount: 24,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
@@ -2809,8 +2809,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 21,
     rating: 4.9,
-    price: 598,
-    depositAmount: 132,
+    price: 518,
+    depositAmount: 114,
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
@@ -2896,8 +2896,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 0,
     rating: 4,
-    price: 329,
-    depositAmount: 72,
+    price: 285,
+    depositAmount: 62,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2952,7 +2952,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking di 2 giorni nella valle di Azzaden",
-    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From $186.",
+    seoDescription: "Trekking di 2 giorni nella valle di Azzaden da Marrakech: passo Tizi Mzik, notte in una casa berbera e il lato tranquillo dell'Alto Atlante. Da €285.",
     faq: [
       { q: "Quanta forma fisica serve per il trekking di Azzaden?", a: "È classificato moderato: due giorni con circa 5-6 ore di cammino ciascuno, valicando passi fino a 2.684 m. Non c'è arrampicata tecnica, ma devi essere a tuo agio su sentieri in salita e discesa per diverse ore. È adatto a camminatori ragionevolmente attivi più che a principianti assoluti." },
       { q: "In cosa si differenzia dai trekking del Toubkal?", a: "L'Azzaden è la valle accanto alla via principale Imlil–Toubkal, quindi vede molti meno escursionisti. Trovi gli stessi villaggi berberi, passi e paesaggi di montagna, ma senza salita alla cima né notte in rifugio d'alta quota: un'alternativa più dolce e tranquilla." },
@@ -2980,8 +2980,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 0,
     rating: 4,
-    price: 480,
-    depositAmount: 106,
+    price: 416,
+    depositAmount: 92,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3047,7 +3047,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking di 3 giorni nell'Atlante",
-    seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From $271.",
+    seoDescription: "Trekking di 3 giorni tra i villaggi dell'Alto Atlante da Marrakech, per le valli di Imlil, Azzaden e Ourika. Case berbere, passi, nessuna vetta. Da €416.",
     faq: [
       { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 4-6 ore per passi fino a circa 2.700 m. Se cammini con regolarità, te la caverai bene." },
       { q: "Com'è l'alloggio?", a: "Due notti in case di villaggio, ciascuna gestita da una famiglia locale, con tutti i pasti inclusi. Sono case semplici — bagni condivisi, materassi su pedane o letti basilari — più che alberghi, che è il senso del trekking." },
@@ -3075,8 +3075,8 @@ export const TOURS: Tour[] = [
     groupSize: "3–14 persone",
     reviewCount: 0,
     rating: 4,
-    price: 639,
-    depositAmount: 141,
+    price: 554,
+    depositAmount: 122,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3151,7 +3151,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking in famiglia nell'Atlante 4 giorni",
-    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From $361.",
+    seoDescription: "Trekking per famiglie di 4 giorni nell'Alto Atlante da Marrakech: tappe brevi, cascate, case berbere, muli per i bambini. Pensato per le famiglie. Da €554.",
     faq: [
       { q: "Per quale età dei bambini è adatto questo trekking?", a: "Funziona bene per bambini in età scolare da circa 6 anni in su, abituati a camminare e giocare all'aperto. Le giornate sono brevi (2-4 ore) e di livello facile, e ci sono muli a disposizione per portare i più piccoli che si stancano. Per i bimbi molto piccoli non è l'ideale: il cammino, per quanto dolce, resta su sentieri di montagna." },
       { q: "Cosa succede se un bambino si stanca a metà cammino?", a: "I muli che portano i bagagli possono portare anche un bambino piccolo stanco, e la guida imposta il ritmo sul gruppo più che su un orario. Giornate brevi e soste frequenti sono previste proprio perché nessuno venga forzato." },
@@ -3179,12 +3179,12 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 0,
     rating: 4,
-    price: 607,
+    price: 526,
     // Family tour, sold as a private vehicle: two travellers is the
     // smallest bookable party. Without this the headline price would be a
     // solo rate nobody can actually book -- see group-pricing.test.ts.
     minPeople: 2,
-    depositAmount: 134,
+    depositAmount: 116,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3286,8 +3286,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 persone",
     reviewCount: 0,
     rating: 4,
-    price: 1961,
-    depositAmount: 431,
+    price: 1700,
+    depositAmount: 374,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3501,9 +3501,8 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 1096,
-    priceMax: 839,
-    depositAmount: 241,
+    price: 950,
+    depositAmount: 209,
     heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3620,16 +3619,16 @@ export const TOURS: Tour[] = [
     difficulty: "moderate",
     tourType: "private",
     groupPricing: [
-      { minPeople: 1, price: 3114 },
-      { minPeople: 2, price: 1559 },
-      { minPeople: 3, price: 1218 },
-      { minPeople: 4, price: 1048 },
-      { minPeople: 5, price: 882 },
+      { minPeople: 1, price: 2700 },
+      { minPeople: 2, price: 1352 },
+      { minPeople: 3, price: 1056 },
+      { minPeople: 4, price: 909 },
+      { minPeople: 5, price: 765 },
     ],
     reviewCount: 18,
     rating: 5.0,
-    price: 3114,
-    depositAmount: 685,
+    price: 2700,
+    depositAmount: 594,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3712,9 +3711,9 @@ export const TOURS: Tour[] = [
     // Shared seat, flat per person. A single tier, deliberately: the minibus
     // runs whether you book or not, so there is no vehicle cost to spread and
     // six travellers pay six times one. Only private tours discount by size.
-    groupPricing: [{ minPeople: 1, price: 138 }],
-    price: 138,
-    depositAmount: 30,
+    groupPricing: [{ minPeople: 1, price: 120 }],
+    price: 120,
+    depositAmount: 26,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -3803,9 +3802,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 98 }],
-    price: 98,
-    depositAmount: 22,
+    groupPricing: [{ minPeople: 1, price: 85 }],
+    price: 85,
+    depositAmount: 19,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3875,9 +3874,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 46 }],
-    price: 46,
-    depositAmount: 10,
+    groupPricing: [{ minPeople: 1, price: 40 }],
+    price: 40,
+    depositAmount: 9,
     heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
     shortDescription:
@@ -3934,9 +3933,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 35 }],
-    price: 35,
-    depositAmount: 8,
+    groupPricing: [{ minPeople: 1, price: 30 }],
+    price: 30,
+    depositAmount: 7,
     heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
     gallery: [
       "/gallery/agafay-fire-breathing-audience.jpg",
@@ -3997,9 +3996,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 35 }],
-    price: 35,
-    depositAmount: 8,
+    groupPricing: [{ minPeople: 1, price: 30 }],
+    price: 30,
+    depositAmount: 7,
     heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
     shortDescription:
@@ -4067,13 +4066,13 @@ export const TOURS: Tour[] = [
     tourType: "shared",
     reviewCount: 0,
     rating: 5,
-    price: 1025,
+    price: 889,
     fixedDeparture: {
       dates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
       seatsTotal: 14,
-      listPrice: 1062,
+      listPrice: 921,
     },
-    depositAmount: 225,
+    depositAmount: 195,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -4216,15 +4215,15 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 0,
     rating: 5.0,
-    price: 1592,
-    depositAmount: 351,
+    price: 1380,
+    depositAmount: 304,
     groupPricing: [
-      { minPeople: 1, price: 1592 },
-      { minPeople: 2, price: 952 },
-      { minPeople: 3, price: 753 },
-      { minPeople: 4, price: 683 },
-      { minPeople: 5, price: 617 },
-      { minPeople: 6, price: 542 },
+      { minPeople: 1, price: 1380 },
+      { minPeople: 2, price: 825 },
+      { minPeople: 3, price: 653 },
+      { minPeople: 4, price: 592 },
+      { minPeople: 5, price: 535 },
+      { minPeople: 6, price: 470 },
     ],
     tourType: "private",
     heroImage: "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",

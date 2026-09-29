@@ -5,9 +5,11 @@ import { TOURS } from "@/lib/tours";
 import { RATES } from "@/lib/currency-core";
 
 /**
- * Tour prices are stored in USD and rendered in EUR (currency-core). Blog prose
- * that quotes the stored number with a euro sign therefore overstates the price
- * by ~9% — the article says €245 while the booking page beside it says €225.
+ * Until 2026-09-29 tour prices were stored in USD and rendered in EUR
+ * (currency-core). Blog prose that quoted the stored number with a euro sign
+ * overstated the price by ~9% — the article said €245 while the booking page
+ * beside it said €225. Prices are stored in euros now, so RATE below is 1 and
+ * the stored figure is the one to quote.
  *
  * That shipped across all eight cost posts in six languages before this test
  * existed. Nothing else catches it: the number is valid TypeScript, the page
@@ -45,46 +47,12 @@ function segments(src: string): Array<{ slug: string; body: string }> {
 }
 
 describe("blog euro prices match tour data", () => {
-  it("never quotes a linked tour's USD price as euros", () => {
-    const offenders: string[] = [];
-
-    for (const file of FILES) {
-      for (const { slug, body } of segments(readLib(file))) {
-        const linked = new Set([...body.matchAll(/\/tours\/([a-z0-9-]+)/g)].map((m) => m[1]));
-        const linkedUsd = new Set(
-          [...linked].map((t) => usdPrices.get(t)).filter((p): p is number => p !== undefined)
-        );
-        if (linkedUsd.size === 0) continue;
-
-        // Both orders: "€245" (en) and "245 €" / "245 يورو" (fr/es/de/it/ar).
-        // A figure written as part of a RANGE describes the market, not our
-        // price — "private tours €190 to €330" is what other operators charge.
-        // Those collide with stored USD values by coincidence, so they are
-        // stripped before the check. A bare figure, which is how a real
-        // conversion bug shows up, is still caught.
-        const ranged = body.replace(
-          /€\s?\d[\d,]*\s?(?:–|—|-|to)\s?€?\s?\d[\d,]*/g,
-          " ",
-        );
-
-        const figures = [
-          ...ranged.matchAll(/€\s?(\d[\d,]*)/g),
-          ...ranged.matchAll(/(\d[\d,]*)\s?(?:€|يورو)/g),
-        ].map((m) => Number(m[1].replace(/,/g, "")));
-
-        for (const n of figures) {
-          if (linkedUsd.has(n)) {
-            offenders.push(`${file} :: ${slug} :: €${n} should be €${Math.round(n * RATE)}`);
-          }
-        }
-      }
-    }
-
-    expect(
-      [...new Set(offenders)],
-      `Blog prose quotes a stored USD price as euros:\n  ${[...new Set(offenders)].join("\n  ")}`
-    ).toEqual([]);
-  });
+  // RETIRED 2026-09-29: "never quotes a linked tour's USD price as euros".
+  // It flagged any euro figure equal to a linked tour's stored price, which
+  // was always the bug while prices were stored in USD. Prices are stored in
+  // euros now (lib/currency-core.ts), so the stored number IS the right euro
+  // figure and that check would flag every correct quote. The test below --
+  // each cost post quotes its own tour's real price -- still holds.
 
   it("quotes the correct converted price for each linked tour", () => {
     // Spot-check the headline claim of every cost post: the post's own tour

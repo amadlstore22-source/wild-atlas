@@ -44,10 +44,11 @@ blank. *Fixed: invoice and contract are light-only. Test:
 `--warn-fg: #E5B madeleine;` in the hand-written HTML. Invalid CSS is dropped
 without error. *Fixed by generating the document instead of hand-editing it.*
 
-**3. Prices stored in USD, displayed in EUR.**
-Quoting the stored number with a euro sign overstates by ~9%. `tours.ts` holds
-USD; `RATES.EUR = 0.86693`. *Always compute with `perPersonPrice()` and
-convert — never read `tour.price` and prepend €.*
+**3. Prices stored in USD, displayed in EUR.** *(Resolved 2026-09-29.)*
+Quoting the stored number with a euro sign overstated by ~9%. Since
+2026-09-29 `tours.ts` holds EUR, the owner's own figures, so `tour.price` is
+the euro price. *Still compute per-person rates with `perPersonPrice()` — a
+group's rate is not `tour.price` (the solo rate).*
 
 **4. The tour line showed the grand total.**
 Once extras existed, the tour's own row read "€170.00 pp / €340.00" on a €240

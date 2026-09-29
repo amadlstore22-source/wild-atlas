@@ -11,7 +11,7 @@ interface Props {
   duration: string;
   image: string;
   /** Cheapest per-person rate in USD, from lowestGroupPrice() on the server. */
-  priceUsd: number;
+  priceEur: number;
   /** Group size that rate needs; 1 means it is the solo rate. */
   minPeople: number;
   labels: { eyebrow: string; trust: string; from: string; perPerson: string; perPersonGroup: string; view: string };
@@ -31,7 +31,7 @@ interface Props {
  * Server-computed price and localised href are passed in, so this client
  * component carries no tour data beyond what it displays.
  */
-export default function BlogTripBox({ href, title, duration, image, priceUsd, minPeople, labels, postSlug, tourSlug, lang }: Props) {
+export default function BlogTripBox({ href, title, duration, image, priceEur, minPeople, labels, postSlug, tourSlug, lang }: Props) {
   const { format } = useCurrency();
   const per = minPeople > 1 ? labels.perPersonGroup.replace("{count}", String(minPeople)) : labels.perPerson;
   const onClick = () => {
@@ -60,7 +60,7 @@ export default function BlogTripBox({ href, title, duration, image, priceUsd, mi
         <p className="text-sm text-ink-soft mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5">
           <span className="inline-flex items-center gap-1"><Clock className="w-3.5 h-3.5" aria-hidden="true" />{duration}</span>
           <span>
-            {labels.from} <strong className="text-indigo">{format(priceUsd)}</strong> {per}
+            {labels.from} <strong className="text-indigo">{format(priceEur)}</strong> {per}
           </span>
         </p>
         <p className="text-xs text-ink-muted mt-1 hidden sm:block">{labels.trust}</p>

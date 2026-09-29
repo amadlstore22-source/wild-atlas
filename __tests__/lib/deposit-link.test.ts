@@ -8,8 +8,8 @@ import { SITE } from "@/lib/constants";
  * the page displayed. Before this was fixed, the link passed the raw USD number
  * with no currency, so a page showing "€87" opened PayPal for "95".
  */
-function depositUrl(depositUsd: number, currency: Currency): string {
-  return `https://www.paypal.com/paypalme/${SITE.paypal}/${priceIn(depositUsd, currency)}${currency}`;
+function depositUrl(depositEur: number, currency: Currency): string {
+  return `https://www.paypal.com/paypalme/${SITE.paypal}/${priceIn(depositEur, currency)}${currency}`;
 }
 
 describe("PayPal deposit link", () => {
@@ -30,11 +30,14 @@ describe("PayPal deposit link", () => {
     }
   });
 
-  it("never sends the unconverted USD figure when displaying EUR", () => {
-    const usd = 95;
-    const url = depositUrl(usd, "EUR");
-    expect(url).toContain("82EUR");
-    expect(url).not.toContain("95EUR");
+  it("sends the euro deposit as-is in EUR and converts it for other currencies", () => {
+    // Deposits are stored in euros since 2026-09-29 (lib/currency-core.ts).
+    // The original bug ran the other way: a USD-stored 95 went to PayPal as
+    // "95" while the page said "€82". Either way, the link must carry the
+    // converted figure, never the stored one, in a non-base currency.
+    expect(depositUrl(143, "EUR")).toMatch(/\/143EUR$/);
+    expect(depositUrl(143, "USD")).toMatch(/\/163USD$/); // 143 x 1.1378 = 162.7
+    expect(depositUrl(143, "USD")).not.toMatch(/\/143USD$/);
   });
 
   it("covers every tour without producing a zero or fractional amount", () => {

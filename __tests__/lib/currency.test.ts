@@ -1,15 +1,17 @@
 import { describe, it, expect } from "vitest";
 import { formatPrice, DEFAULT_CURRENCY, RATES, CURRENCY_SYMBOL } from "@/lib/currency";
 import { TOURS, lowestGroupPrice, groupPriceTiers } from "@/lib/tours";
+import { toursFor } from "@/lib/tours-i18n";
 
 /** Mirror of schemaPrice() in app/[lang]/tours/[slug]/page.tsx. */
-const schemaPrice = (usd: number) => String(Math.round(usd * RATES[DEFAULT_CURRENCY]));
+const schemaPrice = (eur: number) => String(Math.round(eur * RATES[DEFAULT_CURRENCY]));
 
 describe("structured-data price matches the visible price", () => {
   // Google compares the price in structured data against the price on the page.
-  // Tour prices are stored in USD while the site displays EUR by default, so a
-  // schema that quoted the raw stored number said "$380" on a page showing
-  // "€350" — a real mismatch flagged as a rich-results issue.
+  // When tour prices were stored in USD, a schema that quoted the raw stored
+  // number said "$380" on a page showing "€350" — a real mismatch flagged as a
+  // rich-results issue. Prices are euros now, but schema and page must still
+  // round through the same function.
   it("schema price equals the rendered price for every tour", () => {
     TOURS.forEach((t) => {
       const rendered = formatPrice(t.price, DEFAULT_CURRENCY);
@@ -26,66 +28,104 @@ describe("structured-data price matches the visible price", () => {
     });
   });
 
-  it("formatPrice converts from USD, not to it", () => {
-    // Guards the conversion direction: 380 USD -> 329 EUR, never 438.
-    // (329 = 380 * 0.86693, the ECB rate verified 2026-08-07.)
-    expect(formatPrice(380, "EUR")).toBe("€329");
-    expect(formatPrice(380, "USD")).toBe("$380");
+  it("euros are the base and other currencies convert from them", () => {
+    // Owner, 2026-09-29: "the base currency should be euros ... if a tour says
+    // 120 euros and the client changes to a different currency it would show
+    // 136 in today's rate ... without the .number". Rounding is to the NEAREST
+    // whole unit (owner chose that over cutting the decimals): 120 x 1.1378 =
+    // 136.54 -> $137.
+    expect(RATES.EUR).toBe(1);
+    expect(formatPrice(120, "EUR")).toBe("€120");
+    expect(formatPrice(120, "USD")).toBe("$137");
+    expect(formatPrice(120, "GBP")).toBe("£103"); // 102.94
+    expect(formatPrice(120, "MAD")).toBe("MAD 1,315"); // 1315.04
+  });
+
+  it("never shows decimals in any currency", () => {
+    for (const t of TOURS) {
+      for (const c of ["EUR", "USD", "GBP", "MAD"] as const) {
+        for (const v of [t.price, t.depositAmount, ...groupPriceTiers(t).map((x) => x.price)]) {
+          expect(formatPrice(v, c), `${t.slug} ${c}`).toMatch(/^(€|\$|£|MAD )\d{1,3}(,\d{3})*$/);
+        }
+      }
+    }
+  });
+
+  it("stores whole euros, so the euro price is exactly the quoted one", () => {
+    // A fractional stored price would display rounded in EUR too, and the
+    // euro figure would no longer be the one the owner quoted.
+    for (const t of TOURS) {
+      for (const v of [t.price, t.depositAmount, ...(t.groupPricing ?? []).map((x) => x.price)]) {
+        expect(Number.isInteger(v), `${t.slug}: ${v} is not a whole euro amount`).toBe(true);
+      }
+    }
   });
 });
 
 describe("tour seoDescription price prose", () => {
-  // Mirror of localisePrice() in app/[lang]/tours/[slug]/page.tsx. It converts
-  // EACH figure it finds; it used to substitute the solo rate into every "$N"
-  // in the string, which silently rewrote "From $30 pp for 6+" into the solo
-  // "€86 pp for 6+" once descriptions started leading with the group tier.
-  const localisePrice = (text: string | undefined, _usd: number) => {
-    if (!text) return text;
-    return text.replace(/\$([\d,]+)/g, (m, digits: string) => {
-      const value = Number(digits.replace(/,/g, ""));
-      if (!Number.isFinite(value)) return m;
-      return `${CURRENCY_SYMBOL[DEFAULT_CURRENCY]}${Math.round(value * RATES[DEFAULT_CURRENCY]).toLocaleString("en-US")}`;
-    });
-  };
+  /**
+   * seoDescription is what Google prints under the result, and it is used
+   * exactly as written. Until 2026-09-29 these strings quoted USD ("From $380")
+   * and the page rewrote each figure into euros at render time. With euros as
+   * the stored currency that rewrite would have printed the dollar number with
+   * a euro sign, ~15% high, so every figure was converted once in the source
+   * and the rewrite removed.
+   *
+   * Checking all six locales turned up 21 translated descriptions quoting a
+   * price the tour no longer had — "Da €69" on the Italian Agafay page (real
+   * price €186), "From €313" on the family trek in five languages (€554),
+   * "€1,697" on the Arabic camel trek. The August price uplift had updated the
+   * English strings only, and this test only read English. Same failure as
+   * price-locale-parity.test.ts, in the one field that test did not cover.
+   */
+  const LOCALES = ["en", "fr", "de", "es", "it", "ar"] as const;
+  // "€245", "245 €", "1.030 €", "58 يورو", "1,030 euros".
+  const euroFigures = (text = "") =>
+    [...text.matchAll(/€\s?([\d.,\u00a0\u202f ]*\d)|(\d[\d.,\u00a0\u202f ]*)\s?(?:€|EUR\b|euros?\b|يورو)/gi)].map((m) =>
+      Number((m[1] ?? m[2]).replace(/[.,\u00a0\u202f ]/g, "")),
+    );
 
-  it("every tour's stored prose price matches a real price tier", () => {
-    // The prose is hand-written; if it drifts from the ladder, localising it
-    // would quietly publish a wrong number rather than a wrong currency.
-    // Originally this demanded t.price exactly. That blocked the cheapest-tier
-    // phrasing ("From $30 pp for 6+"), which is the more clickable and equally
-    // true figure, so the rule is now "matches SOME tier" -- a number matching
-    // no tier at all is still caught.
-    TOURS.forEach((t) => {
-      const m = t.seoDescription?.match(/\$(\d[\d,]*)/);
-      if (!m) return;
-      const quoted = Number(m[1].replace(/,/g, ""));
-      const tiers = groupPriceTiers(t).map((x) => x.price);
-      expect(
-        [t.price, ...tiers].includes(quoted),
-        `${t.slug}: prose quotes $${quoted}, which is neither the solo rate ` +
-          `($${t.price}) nor any group tier ($${tiers.join(", $")}).`,
-      ).toBe(true);
-    });
+  it("never quotes a dollar price", () => {
+    const offenders = LOCALES.flatMap((l) =>
+      toursFor(l)
+        .filter((t) => /\$\s?\d/.test(t.seoDescription ?? ""))
+        .map((t) => `${l}/${t.slug}: ${t.seoDescription}`),
+    );
+    expect(
+      offenders,
+      `Descriptions are shown as written and prices are in euros. Write the\n` +
+        `euro figure (the tour's price in lib/tours*.ts) instead:\n  ` + offenders.join("\n  "),
+    ).toEqual([]);
   });
 
-  it("localised description advertises the same price the page charges", () => {
-    TOURS.forEach((t) => {
-      const out = localisePrice(t.seoDescription, t.price);
-      if (!out) return;
-      expect(out, `${t.slug}: still quotes USD`).not.toMatch(/\$\d/);
-      // A description may quote EITHER the solo rate (t.price) or the cheapest
-      // group tier, but a group rate MUST carry its qualifier -- see the
-      // "for N+" test below. Originally this demanded t.price unconditionally,
-      // which blocked the more clickable "From EUR260 pp for 6+" phrasing.
-      const solo = formatPrice(t.price, DEFAULT_CURRENCY);
-      const group = formatPrice(lowestGroupPrice(t).price, DEFAULT_CURRENCY);
-      expect(
-        out.includes(solo) || out.includes(group),
-        `${t.slug}: quotes a price that is neither the solo rate (${solo}) ` +
-          `nor the cheapest group tier (${group}). A number in the meta that ` +
-          `matches no tier will contradict the page and the AggregateOffer.`,
-      ).toBe(true);
-    });
+  it("every quoted euro figure is a real price of that tour, in every locale", () => {
+    const offenders: string[] = [];
+    for (const l of LOCALES) {
+      for (const t of toursFor(l)) {
+        const valid = new Set([t.price, ...groupPriceTiers(t).map((x) => x.price)]);
+        if (t.fixedDeparture?.listPrice) valid.add(t.fixedDeparture.listPrice); // "was €921"
+        for (const n of euroFigures(t.seoDescription)) {
+          if (!valid.has(n)) offenders.push(`${l}/${t.slug}: quotes €${n}; prices are €${[...valid].join(", €")}`);
+        }
+      }
+    }
+    expect(offenders, `Descriptions quoting a price the tour does not have:\n  ${offenders.join("\n  ")}`).toEqual([]);
+  });
+
+  it("a translated description quotes the same figures as the English one", () => {
+    // A locale may leave the price out, but if it names one it must be the
+    // English figure: a quote that is merely "some tier" still lets one
+    // language advertise the 2-person rate while another quotes solo.
+    const offenders: string[] = [];
+    for (const l of LOCALES.filter((x) => x !== "en")) {
+      for (const t of toursFor(l)) {
+        const mine = euroFigures(t.seoDescription);
+        if (!mine.length) continue;
+        const en = euroFigures(TOURS.find((x) => x.slug === t.slug)?.seoDescription);
+        if (JSON.stringify(mine) !== JSON.stringify(en)) offenders.push(`${l}/${t.slug}: €${mine.join(", €")} vs en €${en.join(", €")}`);
+      }
+    }
+    expect(offenders, `Translated descriptions disagree with English on price:\n  ${offenders.join("\n  ")}`).toEqual([]);
   });
 
   /**
@@ -96,19 +136,25 @@ describe("tour seoDescription price prose", () => {
    * contradicts AggregateOffer.lowPrice, whose eligibleQuantity says the price
    * needs a group. The qualifier is the whole reason the low number is honest,
    * so it is asserted rather than left to whoever edits the string next.
+   * Checked in every locale: "for 6+", "6+", "+6", "6 أشخاص فأكثر", "ab 6".
    */
   it("a group-tier price in the meta always carries its group-size qualifier", () => {
-    const unqualified = TOURS.filter((t) => {
-      const out = localisePrice(t.seoDescription, t.price);
-      if (!out) return false;
-      const cheapest = lowestGroupPrice(t);
-      if (cheapest.minPeople <= 1) return false; // no qualifier needed
-      const group = formatPrice(cheapest.price, DEFAULT_CURRENCY);
-      if (!out.includes(group)) return false;    // not quoting the group rate
-      // Accept "for 6+", "for 6 or more", "6+ people", "pp for 6+".
-      return !new RegExp(`${cheapest.minPeople}\\s*\\+|for\\s+${cheapest.minPeople}\\b`).test(out);
-    }).map((t) => t.slug);
-
+    const unqualified: string[] = [];
+    for (const l of LOCALES) {
+      for (const t of toursFor(l)) {
+        const cheapest = lowestGroupPrice(t);
+        if (cheapest.minPeople <= 1) continue; // no qualifier needed
+        if (cheapest.price === t.price) continue; // the solo rate needs none
+        if (!euroFigures(t.seoDescription).includes(cheapest.price)) continue;
+        const n = cheapest.minPeople;
+        const qualifier = new RegExp(
+          String.raw`${n}\s*\+|\+\s*${n}\b|\b${n}\s+أشخاص|for\s+${n}\b|\b${n}\s+(or more|oder mehr|ou plus|o más|o più)`,
+        );
+        if (!qualifier.test(t.seoDescription ?? "")) {
+          unqualified.push(`${l}/${t.slug}`);
+        }
+      }
+    }
     expect(
       unqualified,
       `These seoDescriptions quote the cheapest group price with no group-size\n` +

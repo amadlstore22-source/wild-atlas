@@ -15,7 +15,7 @@ import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
-import { SITE, TRIPADVISOR } from "@/lib/constants";
+import { SITE, TRIPADVISOR, TRUSTPILOT } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
@@ -115,6 +115,7 @@ const websiteJsonLd = {
         "https://instagram.com/met_morocco",
         "https://facebook.com/marrakechecotours",
         TRIPADVISOR.url,
+        TRUSTPILOT.url,
         /* Atlas Pedals is deliberately NOT here. `sameAs` asserts
            "another official page of THIS organisation"; it is a separate
            brand with its own domain and its own structured data

@@ -147,6 +147,15 @@ export const TRIPADVISOR = {
   rankingOutOf: 3979,
 } as const;
 
+// Trustpilot profile, claimed by the owner 2026-09-29. Plain links only: the
+// free plan's one TrustBox is a "review us" button, which a link does without
+// loading Trustpilot's script. Trustpilot's guidelines (v7.2): invite EVERY
+// guest the same way at the same point, no incentives, no staff or family.
+export const TRUSTPILOT = {
+  url: "https://www.trustpilot.com/review/marrakechecotours.com",
+  writeReviewUrl: "https://www.trustpilot.com/evaluate/marrakechecotours.com",
+} as const;
+
 // Google Business Profile review link. To activate the Google button on the
 // /review page, replace PLACE_ID with the real Place ID (find it via Google's
 // Place ID Finder) — the URL below opens the "write a review" dialog directly.

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Star, GoogleLogo, WhatsappLogo, Heart } from "@phosphor-icons/react/dist/ssr";
 import { getDictionary, hasLocale } from "../dictionaries";
-import { SITE, TRIPADVISOR, GOOGLE_REVIEW_URL, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
+import { SITE, TRIPADVISOR, TRUSTPILOT, GOOGLE_REVIEW_URL, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 
 type LangParams = { params: Promise<{ lang: string }> };
@@ -34,7 +34,7 @@ type ReviewCopy = {
   metaTitle: string; metaDesc: string;
   eyebrow: string; heading: string; sub: string;
   matterTitle: string; matterBody: string;
-  tripadvisor: string; google: string; whatsapp: string;
+  tripadvisor: string; trustpilot: string; google: string; whatsapp: string;
   thanks: string;
 };
 function fallback(dict: unknown): ReviewCopy {
@@ -51,6 +51,7 @@ function fallback(dict: unknown): ReviewCopy {
     matterTitle: d.matterTitle ?? "Why it matters",
     matterBody: d.matterBody ?? "We're a family of licensed Berber guides, not a booking platform. We don't spend on advertising — travellers find us through the stories of travellers who came before. Your review is how the next family, couple, or solo adventurer decides to trust us.",
     tripadvisor: d.tripadvisor ?? "Review us on Tripadvisor",
+    trustpilot: d.trustpilot ?? "Review us on Trustpilot",
     google: d.google ?? "Review us on Google",
     whatsapp: d.whatsapp ?? "Send us a private message instead",
     thanks: d.thanks ?? "From Lahsen, Mohamed, Smail and the whole team — thank you. Bslama!",
@@ -89,6 +90,20 @@ export default async function ReviewPage({ params }: LangParams) {
             >
               <Star weight="fill" className="w-5 h-5" />
               {t.tripadvisor}
+            </Link>
+
+            {/* Trustpilot — claimed 2026-09-29. A plain link, not the TrustBox
+                script: the free plan's widget is only this button anyway. This
+                page is the one link sent to EVERY guest after a trip, which is
+                what Trustpilot's "invite everyone the same way" rule needs. */}
+            <Link
+              href={TRUSTPILOT.writeReviewUrl}
+              target="_blank"
+              rel="noopener"
+              className="flex items-center justify-center gap-3 w-full px-6 py-4 rounded-full bg-white border border-sand-dark text-charcoal font-bold text-sm hover:bg-sand-light transition"
+            >
+              <Star weight="fill" className="w-5 h-5 text-[#00b67a]" />
+              {t.trustpilot}
             </Link>
 
             {/* Google — only shown once a real review URL is configured */}

@@ -56,10 +56,22 @@ export function isCurrency(v: string | undefined | null): v is Currency {
 /** Convert a USD amount to the target currency and format it (rounded to a
  *  clean unit — travel prices don't need cents). */
 export function formatPrice(usd: number, currency: Currency): string {
-  const converted = usd * RATES[currency];
-  const rounded = Math.round(converted);
-  const grouped = rounded.toLocaleString("en-US");
-  return `${CURRENCY_SYMBOL[currency]}${grouped}`;
+  return formatAmount(Math.round(usd * RATES[currency]), currency);
+}
+
+/** Format an amount ALREADY in `currency` (no conversion). */
+export function formatAmount(amount: number, currency: Currency): string {
+  return `${CURRENCY_SYMBOL[currency]}${Math.round(amount).toLocaleString("en-US")}`;
+}
+
+/**
+ * A group total that agrees with the per-person price on screen: convert and
+ * round the per-person rate FIRST, then multiply. Converting the USD total
+ * instead rounds once over the whole sum, so a page reading "£280 per person"
+ * totalled 3 people at £839, not £840 — a sum any visitor can check.
+ */
+export function formatGroupTotal(usdPerPerson: number, people: number, currency: Currency): string {
+  return formatAmount(priceIn(usdPerPerson, currency) * people, currency);
 }
 
 /** Bare converted number (no symbol), for structured data. Must round exactly

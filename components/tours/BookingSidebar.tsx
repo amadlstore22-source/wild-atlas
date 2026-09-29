@@ -8,7 +8,7 @@ import { SITE, TRIPADVISOR, WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constan
 import { reviewsForTour } from "@/lib/reviews";
 import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
-import { priceIn } from "@/lib/currency-core";
+import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -23,7 +23,17 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // The smallest bookable group, from the tour's own tiers — some tours (the
   // family trek) cannot be booked solo, so 1 is not always the floor.
   const minPeople = groupPriceTiers(tour)[0]?.minPeople ?? 1;
-  const [people, setPeople] = useState(Math.max(2, minPeople));
+  const [people, setPeopleState] = useState(Math.max(2, minPeople));
+  // Whether the visitor has picked a group size themselves (stepper, a tier
+  // row, or the travellers field). Until they do, the mobile bar keeps the
+  // cheapest "from" rate; once they do, it quotes THEIR size. It used to quote
+  // "from" regardless, so a visitor who tapped "3 people" saw €260 pinned under
+  // their thumb while the row they picked said €320.
+  const [chosen, setChosen] = useState(false);
+  const setPeople: typeof setPeopleState = (v) => {
+    setChosen(true);
+    setPeopleState(v);
+  };
   // The travellers field is a controlled number input, but clamping on every
   // keystroke made it impossible to clear: Math.max(1, Number("")) is 1, so the
   // digit reappeared before a second one could be typed. Keep the raw string
@@ -111,8 +121,15 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   const fdSaving = fd?.listPrice ? fd.listPrice - tour.price : 0;
   const showTiers = tiers.length > 1 && tiers[tiers.length - 1].price < tiers[0].price;
   const savedPerPerson = basePer - effPer;
-  const totalMin = effPer * people;
-  const totalMax = priceMax ? Math.round((priceMax / tour.price) * effPer) * people : null;
+  const perMax = priceMax ? Math.round((priceMax / tour.price) * effPer) : null;
+  // Totals are built from the ROUNDED per-person figure on screen, so the bar
+  // and the estimate always read as exactly "per person × travellers".
+  const totalText =
+    formatGroupTotal(effPer, people, currency) +
+    (perMax ? `–${formatGroupTotal(perMax, people, currency)}` : "");
+  const peopleLabel = `${people} ${
+    people === 1 ? (b.groupPricingPerson ?? "person") : (b.groupPricingPeopleWord ?? "people")
+  }`;
 
   return (
     <>
@@ -474,7 +491,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                   <div className="flex items-center justify-between">
                     <span className="text-xs text-ink-soft">{format(effPer)} <span className="text-ink-muted">/ {b.perPersonShort ?? "person"}</span></span>
                     <span className="font-bold text-indigo text-sm">
-                      {format(totalMin)}{totalMax ? ` – ${format(totalMax)}` : ""}
+                      {totalText}
                     </span>
                   </div>
                   {savedPerPerson > 0 && (
@@ -671,44 +688,71 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
           to stand down — this bar has its own, and the float would cover it. */}
       <div
         data-sticky-cta
-        className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 flex items-center gap-3 shadow-2xl"
+        className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t border-rule px-4 py-3 shadow-2xl"
       >
-        <div className="flex-1 min-w-0">
-          {/* Same rule as the sidebar and the cards: lead with the cheapest
-              per-person rate, not tour.price (the solo rate). This bar is the
-              last thing a mobile visitor sees before tapping Book, so quoting
-              the dearest figure here undid the fix everywhere else. */}
-          <div className="text-xs text-ink-muted">
-            {cheapest.minPeople > 1 ? (b.fromPerPerson ?? "From, per person") : b.perPersonMobile}
-          </div>
-          <div className="font-bold text-indigo text-xl leading-tight">
-            {format(cheapest.price)}{priceMax ? `–${format(priceMax)}` : ""}{" "}
-            <span className="text-xs font-normal text-ink-muted">
-              {cheapest.minPeople > 1
-                ? (b.perPersonGroupSuffix ?? "/ person, {count}+").replace("{count}", String(cheapest.minPeople))
-                : b.perPersonSuffix}
+        {chosen && (
+          // The visitor picked a size: quote that size, its per-person rate and
+          // the total — the same figures as the estimate in the form. On its own
+          // line, because beside the two buttons a 360px phone had room for
+          // "3 Personen · …" and nothing else, and a dirham total wrapped.
+          <div
+            className="flex items-baseline justify-between gap-x-3 mb-2"
+            data-testid="mobile-bar-quote"
+          >
+            <span className="text-xs text-ink-muted min-w-0">
+              {peopleLabel} ·{" "}
+              <span className="whitespace-nowrap">
+                {format(effPer)}{perMax ? `–${format(perMax)}` : ""} {b.perPersonSuffix}
+              </span>
+            </span>
+            <span className="text-xs text-ink-muted whitespace-nowrap">
+              {b.groupPricingTotal ?? "Total"}{" "}
+              <span className="font-bold text-indigo text-lg tabular-nums">{totalText}</span>
             </span>
           </div>
+        )}
+        <div className="flex items-center gap-3">
+          {!chosen && (
+            <div className="flex-1 min-w-0" data-testid="mobile-bar-quote">
+              {/* Same rule as the sidebar and the cards: lead with the cheapest
+                  per-person rate, not tour.price (the solo rate). This bar is the
+                  last thing a mobile visitor sees before tapping Book, so quoting
+                  the dearest figure here undid the fix everywhere else. */}
+              <div className="text-xs text-ink-muted">
+                {cheapest.minPeople > 1 ? (b.fromPerPerson ?? "From, per person") : b.perPersonMobile}
+              </div>
+              <div className="font-bold text-indigo text-xl leading-tight">
+                {format(cheapest.price)}{priceMax ? `–${format(priceMax)}` : ""}{" "}
+                <span className="text-xs font-normal text-ink-muted">
+                  {cheapest.minPeople > 1
+                    ? (b.perPersonGroupSuffix ?? "/ person, {count}+").replace("{count}", String(cheapest.minPeople))
+                    : b.perPersonSuffix}
+                </span>
+              </div>
+            </div>
+          )}
+          <a
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => {
+              track("whatsapp_click", { location: "mobile_bar", tour: tour.title });
+              trackConversion("whatsapp");
+            }}
+            className={`flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg${
+              chosen ? " flex-1" : ""
+            }`}
+          >
+            <WhatsappLogo className="w-4 h-4" />
+            {b.whatsapp}
+          </a>
+          <button
+            onClick={() => document.querySelector("form")?.scrollIntoView({ behavior: "smooth" })}
+            className={`btn-brass !px-4 !py-2.5 !text-sm${chosen ? " flex-1" : ""}`}
+          >
+            {b.bookMobile}
+          </button>
         </div>
-        <a
-          href={waUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={() => {
-            track("whatsapp_click", { location: "mobile_bar", tour: tour.title });
-            trackConversion("whatsapp");
-          }}
-          className="flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg"
-        >
-          <WhatsappLogo className="w-4 h-4" />
-          {b.whatsapp}
-        </a>
-        <button
-          onClick={() => document.querySelector("form")?.scrollIntoView({ behavior: "smooth" })}
-          className="btn-brass !px-4 !py-2.5 !text-sm"
-        >
-          {b.bookMobile}
-        </button>
       </div>
     </>
   );

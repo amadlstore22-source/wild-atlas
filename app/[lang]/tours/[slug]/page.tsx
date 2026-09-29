@@ -423,9 +423,11 @@ export default async function TourDetailPage({ params }: TourParams) {
       {/* The sticky booking bar is fixed over the bottom of the viewport on
           mobile, and these trailing sections live outside the main column's
           pb-28 — so without their own bottom padding they scroll underneath
-          it. Matches the bar's height plus breathing room; lg:pb-0 because the
-          bar is lg:hidden. */}
-      <div className="pb-24 lg:pb-0">
+          it. lg:pb-0 because the bar is lg:hidden. Measured 2026-09-29 at
+          360px: the bar is 67–132px tall depending on locale and currency (a
+          French dirham quote wraps to three lines), so pb-36 (144px) clears
+          the tallest; pb-24 left the last cards under it. */}
+      <div className="pb-36 lg:pb-0">
         <RelatedGuides tour={tour} lang={lang} dict={dict} />
 
         <RelatedTours currentSlug={tour.slug} category={tour.category} lang={lang} dict={dict} />

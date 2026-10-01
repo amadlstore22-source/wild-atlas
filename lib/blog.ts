@@ -941,7 +941,7 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-01",
     tags: ["Ourika Valley", "Marrakech day trip", "High Atlas", "Berber villages", "hiking"],
     seoTitle: "Ourika Valley Day Trip from Marrakech 2026",
     seoDescription:
@@ -1020,7 +1020,7 @@ If you are comparing it with the bigger falls, see
     category: "desert",
     readTime: 5,
     publishedAt: "2025-10-05",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-01",
     tags: ["Agafay Desert", "Marrakech day trip", "Morocco desert", "camel trek", "glamping"],
     seoTitle: "Agafay Desert Guide 2026",
     seoDescription:
@@ -3123,7 +3123,7 @@ For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/bl
     region: "agadir-region",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-01",
     tags: ["Sahara from Agadir", "Agadir desert tour", "Merzouga from Agadir", "Erg Chegaga"],
     seoTitle: "Can You Visit the Sahara From Agadir? Yes",
     seoDescription: "Desert trips from Agadir explained — why the Sahara is not a day trip, and how the 2, 3 and 4-day routes to Erg Chegaga and Merzouga compare.",
@@ -5003,7 +5003,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-30",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-10-01",
     tags: ["Toubkal guide cost", "Toubkal price", "cost to climb Toubkal", "Morocco trekking cost", "Toubkal guide fee", "Imlil", "High Atlas"],
     seoTitle: "Toubkal Guide Cost: 500-800 MAD a Day",
     seoDescription:
@@ -5773,7 +5773,7 @@ experience — it is a different one. Book the one you want.
     region: "sahara-south",
     readTime: 7,
     publishedAt: "2026-08-01",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-10-01",
     tags: ["Sahara tour cost", "Merzouga 3 day price", "Morocco desert tour price", "Erg Chebbi", "desert camp cost"],
     seoTitle: "3-Day Sahara Tour Cost from Marrakech 2026",
     seoDescription:
@@ -9132,7 +9132,7 @@ otherwise spend the trip mildly disappointed and it is an expensive way to be.
     region: "sahara-south",
     readTime: 8,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
+    updatedAt: "2026-10-01",
     tags: ["Erg Chegaga cost", "Chegaga tour price", "remote Sahara Morocco", "Erg Chegaga vs Erg Chebbi", "camel trek cost"],
     seoTitle: "Erg Chegaga Tour Cost",
     seoDescription:
@@ -9217,7 +9217,7 @@ this one.
     region: "atlas-mountains",
     readTime: 6,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
+    updatedAt: "2026-10-01",
     tags: ["Ouzoud cost", "Ouzoud waterfalls price", "Marrakech day trip cost", "Ouzoud day trip", "Morocco waterfalls"],
     seoTitle: "Ouzoud Waterfalls Day Trip Cost 2026",
     seoDescription:
@@ -9297,7 +9297,7 @@ than two and a half, and is a walk rather than a viewpoint.
     region: "root",
     readTime: 6,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
+    updatedAt: "2026-10-01",
     tags: ["Agafay cost", "Agafay desert price", "Marrakech dinner desert", "Agafay camel ride", "Agafay vs Merzouga"],
     seoTitle: "Agafay Desert Evening Cost from Marrakech",
     seoDescription:
@@ -10502,7 +10502,7 @@ and for what the route costs by group size, our
     category: "culture",
     readTime: 8,
     publishedAt: "2026-09-07",
-    updatedAt: "2026-09-07",
+    updatedAt: "2026-10-01",
     tags: ["Essaouira", "Mogador", "Atlantic coast", "UNESCO Morocco", "kitesurfing Morocco", "Gnaoua festival"],
     seoTitle: "Essaouira Travel Guide 2026",
     seoDescription:

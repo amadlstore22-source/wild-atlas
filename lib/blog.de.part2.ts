@@ -848,7 +848,7 @@ Wie sich die Standard-Toubkal-Routen vergleichen, sehen Sie in [Toubkal in 2 ode
     region: "agadir-region",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-01",
     tags: ["Sahara ab Agadir", "Agadir Wüstentour", "Merzouga ab Agadir", "Erg Chegaga"],
     seoTitle: "Sahara von Agadir aus besuchen?",
     seoDescription: "Wüste ab Agadir: warum die Sahara kein Tagesausflug ist und wie sich die Routen mit 2, 3 und 4 Tagen zum Erg Chegaga und nach Merzouga unterscheiden.",

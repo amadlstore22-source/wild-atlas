@@ -848,7 +848,7 @@ Para cómo se comparan las rutas estándar del Toubkal, ver [Toubkal en 2 días 
     region: "agadir-region",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-01",
     tags: ["Sahara desde Agadir", "tour al desierto desde Agadir", "Merzouga desde Agadir", "Erg Chegaga"],
     seoTitle: "¿Se puede visitar el Sahara desde Agadir?",
     seoDescription: "El desierto desde Agadir: por qué el Sahara no es una excursión de un día y cómo se comparan las rutas de 2, 3 y 4 días a Erg Chegaga y Merzouga.",

@@ -3119,15 +3119,17 @@ For how the standard Toubkal routes compare, see [Toubkal in 2 Days or 4](/en/bl
     readTime: 7,
     publishedAt: "2026-07-18",
     updatedAt: "2026-08-07",
-    tags: ["Sahara from Agadir", "Agadir desert tour", "Merzouga from Agadir", "Zagora", "Erg Chegaga"],
+    tags: ["Sahara from Agadir", "Agadir desert tour", "Merzouga from Agadir", "Erg Chegaga"],
     seoTitle: "Can You Visit the Sahara From Agadir? Yes",
-    seoDescription: "Desert trips from Agadir explained — why the Sahara is not a day trip, and how the two, three and four-day routes to Zagora, Merzouga and Erg Chegaga compare.",
+    seoDescription: "Desert trips from Agadir explained — why the Sahara is not a day trip, and how the 2, 3 and 4-day routes to Erg Chegaga and Merzouga compare.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Can you do a Sahara day trip from Agadir?", a: "No. The real dunes are far enough from Agadir that a day trip would be almost entirely driving, with minutes at the destination. Anyone selling a one-day Sahara trip from Agadir is either taking you somewhere that is not the Sahara or expecting you not to mind spending the day in a vehicle." },
-      { q: "How many days do you need for the desert from Agadir?", a: "Two at an absolute minimum, for Zagora. Three days is the realistic figure for Merzouga or Erg Chegaga, and four gives you a more relaxed pace with more stops along the way rather than a longer stay in the dunes." },
+      { q: "How many days do you need for the desert from Agadir?", a: "Two at an absolute minimum: our shortest trip reaches Erg Chegaga by the southern road through Tata and Foum Zguid. Three days is the realistic figure for Merzouga or for the 4x4 crossing into Erg Chegaga, and four gives you a more relaxed pace with more stops along the way rather than a longer stay in the dunes." },
       { q: "Is it better to do the desert from Marrakech or Agadir?", a: "Marrakech has shorter drives to every desert destination, so if you are choosing purely on travel time it wins. But if you are already based in Agadir, the trips from there are real and well established — it is not worth relocating to Marrakech solely for the desert." },
       { q: "What do you see on the drive from Agadir to the desert?", a: "The Agadir routes run inland through Taroudant and the Souss valley before turning toward the desert, which is different country from the Marrakech approach over the Tizi n'Tichka pass. Neither is dead time, but they show you different parts of Morocco." },
+      { q: "Is Agadir in the Sahara Desert?", a: "No. Agadir is on Morocco's Atlantic coast, and the Sahara's dunes lie on the far side of the Anti-Atlas mountains, a full day's drive inland. You can still reach them from Agadir: our [2-day trip to Erg Chegaga](/en/tours/sahara-2day-agadir) is the shortest, from €400 per person for two travellers, and the [3-day trip to Merzouga](/en/tours/merzouga-3day-agadir) reaches the tall Erg Chebbi dunes, from €366 per person for two." },
+      { q: "How far is the Sahara desert from Agadir?", a: "About 350 km by road to Foum Zguid, then the last stretch into the Erg Chegaga dunes: our [2-day trip](/en/tours/sahara-2day-agadir) allows roughly 8 hours and 450 km each way. Merzouga and the Erg Chebbi dunes are about 650 km by road, which is why that [trip takes three days](/en/tours/merzouga-3day-agadir), with a night in the Dades Valley on the way." },
     ],
     content: `
 Search for Sahara trips from Agadir and you will find day tours advertised. Skip them. The distance simply does not allow it, and the trips that claim otherwise are either going somewhere that is not the Sahara or counting on you to accept a day of driving.
@@ -3142,7 +3144,7 @@ That is why every desert trip we run from Agadir is at least two days. It is not
 
 ## The options
 
-**[Two days to Zagora](/en/tours/sahara-2day-agadir)** — the shortest genuine desert trip from Agadir. One night in the desert, smaller dunes than Erg Chebbi, and the least driving of any real option. Rated easy.
+**[Two days to Erg Chegaga](/en/tours/sahara-2day-agadir)** — the shortest genuine desert trip from Agadir, by the southern road through Tata and Foum Zguid. One night in the dunes, for roughly 8 hours of driving each way. Rated easy.
 
 **[Three days to Merzouga](/en/tours/merzouga-3day-agadir)** — reaches Erg Chebbi, the tall dunes most people picture. The extra day is what buys you the better dune field. Rated easy despite the distance, since the driving is broken up.
 
@@ -3162,11 +3164,11 @@ Both are worth seeing. If you have already done the Marrakech run on a previous 
 
 ## Comparison
 
-| | Zagora, 2 days | Merzouga, 3 days | Erg Chegaga, 3 days | 4-day |
+| | Erg Chegaga, 2 days | Merzouga, 3 days | Erg Chegaga by 4x4, 3 days | 4-day |
 |---|---|---|---|---|
-| Dunes | Smaller | Tall Erg Chebbi | Wide, remote field | Varies by route |
+| Dunes | Wide, remote field | Tall Erg Chebbi | Wide, remote field | Varies by route |
 | Rating | Easy | Easy | Moderate | Easy |
-| Other camps nearby | Some | Several | Few | Varies |
+| Other camps nearby | Few | Several | Few | Varies |
 | Best for | Shortest real option | The classic dunes | Solitude | Unhurried pace |
 
 ## Should you relocate to Marrakech instead?
@@ -5009,7 +5011,8 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
       { q: "Is it cheaper to hire a guide yourself than book a package?", a: "Usually less than people expect. The guide's day rate is only one line of the bill — the refuge, meals, mule, park fee and the return transfer from Marrakech make up most of the rest. Self-organising gives you more flexibility and slightly more control over cost, especially in a larger group; a package trades that for having the logistics handled." },
       { q: "How much should I tip a Toubkal guide?", a: "Around 150–200 MAD a day for the guide and 70–100 MAD a day for the muleteer, from the group as a whole rather than from each walker, paid in cash in dirhams at the end. It is customary and appreciated but never compulsory — give more if conditions were hard or your guide made a difficult day work." },
     
-      { q: "What does a Toubkal trek cost from Marrakech?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €360 for two and €260 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain, mule support and national park fees — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
+      { q: "How much does it cost to climb Mount Toubkal?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €195 per person for two and €153 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €360 for two and €260 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain, mule support and national park fees — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
+      { q: "Who runs guided Toubkal climbs?", a: "Licensed mountain guides, certified by Morocco's Ministry of Tourism. A guide is compulsory on Toubkal and the checkpoint at Imlil enforces it, so you either hire one directly in Imlil or book a licensed operator who arranges the guide, mule, refuge and transport together. We run private guided climbs from Marrakech: the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech), from €195 per person for two, and the [4-day trek](/en/tours/toubkal-summit-trek-4day), from €360 per person for two." },
     ],
     content: `
 ## What a Toubkal guide actually costs

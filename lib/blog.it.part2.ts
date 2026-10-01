@@ -845,13 +845,13 @@ Per come si confrontano i percorsi standard del Toubkal, vedi [Toubkal in 2 Gior
     readTime: 7,
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
-    tags: ["Sahara da Agadir", "tour deserto Agadir", "Merzouga da Agadir", "Zagora", "Erg Chegaga"],
+    tags: ["Sahara da Agadir", "tour deserto Agadir", "Merzouga da Agadir", "Erg Chegaga"],
     seoTitle: "Si Può Visitare il Sahara da Agadir? Sì",
-    seoDescription: "I viaggi nel deserto da Agadir spiegati: perché il Sahara non è una gita di un giorno, e come si confrontano i percorsi di due.",
+    seoDescription: "Il deserto da Agadir: perché il Sahara non è una gita di un giorno e come si confrontano i percorsi di 2, 3 e 4 giorni verso l'Erg Chegaga e Merzouga.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Si può fare una gita di un giorno nel Sahara da Agadir?", a: "No. Le vere dune sono abbastanza lontane da Agadir che una gita di un giorno sarebbe quasi interamente guida, con pochi minuti a destinazione. Chiunque venda un viaggio di un giorno nel Sahara da Agadir ti sta portando in un posto che non è il Sahara, oppure si aspetta che non ti dispiaccia passare la giornata in un veicolo." },
-      { q: "Quanti giorni servono per il deserto da Agadir?", a: "Due come minimo assoluto, per Zagora. Tre giorni è la cifra realistica per Merzouga o l'Erg Chegaga, e quattro ti danno un ritmo più rilassato con più soste lungo il percorso piuttosto che un soggiorno più lungo tra le dune." },
+      { q: "Quanti giorni servono per il deserto da Agadir?", a: "Due come minimo assoluto: il nostro viaggio più breve raggiunge l'Erg Chegaga per la strada del sud, via Tata e Foum Zguid. Tre giorni è la cifra realistica per Merzouga o per la traversata in 4x4 verso l'Erg Chegaga, e quattro ti danno un ritmo più rilassato con più soste lungo il percorso piuttosto che un soggiorno più lungo tra le dune." },
       { q: "È meglio fare il deserto da Marrakech o da Agadir?", a: "Marrakech ha guide più brevi verso ogni destinazione desertica, quindi se scegli puramente in base al tempo di viaggio vince lei. Ma se sei già basato ad Agadir, i viaggi da lì sono reali e ben consolidati: non vale la pena trasferirsi a Marrakech solo per il deserto." },
       { q: "Cosa si vede durante il tragitto da Agadir al deserto?", a: "I percorsi da Agadir attraversano l'entroterra passando per Taroudant e la valle del Souss prima di girare verso il deserto, il che è un territorio diverso rispetto all'approccio da Marrakech sul valico di Tizi n'Tichka. Nessuno dei due è tempo morto, ma mostrano parti diverse del Marocco." },
     ],
@@ -868,7 +868,7 @@ Ecco perché ogni viaggio nel deserto che organizziamo da Agadir dura almeno due
 
 ## Le opzioni
 
-**[Due giorni a Zagora](/it/tours/sahara-2day-agadir)**: il viaggio nel deserto genuino più breve da Agadir. Una notte nel deserto, dune più piccole dell'Erg Chebbi, e la minor guida di qualsiasi opzione reale. Classificato facile.
+**[Due giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir)**: il viaggio nel deserto genuino più breve da Agadir, per la strada del sud via Tata e Foum Zguid. Una notte tra le dune, al prezzo di circa 8 ore di guida per tratta. Classificato facile.
 
 **[Tre giorni a Merzouga](/it/tours/merzouga-3day-agadir)**: raggiunge l'Erg Chebbi, le alte dune che la maggior parte delle persone si immagina. Il giorno extra è ciò che ti compra il campo dunario migliore. Classificato facile nonostante la distanza, poiché la guida è suddivisa.
 
@@ -888,11 +888,11 @@ Entrambi meritano di essere visti. Se hai già fatto il percorso da Marrakech in
 
 ## Confronto
 
-| | Zagora, 2 giorni | Merzouga, 3 giorni | Erg Chegaga, 3 giorni | 4 giorni |
+| | Erg Chegaga, 2 giorni | Merzouga, 3 giorni | Erg Chegaga in 4x4, 3 giorni | 4 giorni |
 |---|---|---|---|---|
-| Dune | Più piccole | Alto Erg Chebbi | Campo ampio e remoto | Varia in base al percorso |
+| Dune | Campo ampio e remoto | Alto Erg Chebbi | Campo ampio e remoto | Varia in base al percorso |
 | Classificazione | Facile | Facile | Moderato | Facile |
-| Altri campi vicini | Alcuni | Diversi | Pochi | Varia |
+| Altri campi vicini | Pochi | Diversi | Pochi | Varia |
 | Ideale per | L'opzione reale più breve | Le dune classiche | Solitudine | Ritmo senza fretta |
 
 ## Dovresti trasferirti a Marrakech invece?

@@ -849,13 +849,13 @@ Wie sich die Standard-Toubkal-Routen vergleichen, sehen Sie in [Toubkal in 2 ode
     readTime: 7,
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
-    tags: ["Sahara ab Agadir", "Agadir Wüstentour", "Merzouga ab Agadir", "Zagora", "Erg Chegaga"],
+    tags: ["Sahara ab Agadir", "Agadir Wüstentour", "Merzouga ab Agadir", "Erg Chegaga"],
     seoTitle: "Sahara von Agadir aus besuchen?",
-    seoDescription: "Wüstenreisen ab Agadir erklärt – warum die Sahara kein Tagesausflug ist, und wie sich die Zwei-, Drei- und Viertagesrouten nach Zagora.",
+    seoDescription: "Wüste ab Agadir: warum die Sahara kein Tagesausflug ist und wie sich die Routen mit 2, 3 und 4 Tagen zum Erg Chegaga und nach Merzouga unterscheiden.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Kann man einen Sahara-Tagesausflug ab Agadir machen?", a: "Nein. Die echten Dünen sind so weit von Agadir entfernt, dass ein Tagesausflug fast ausschließlich aus Fahrerei bestünde, mit wenigen Minuten am Ziel. Wer einen Ein-Tages-Sahara-Ausflug ab Agadir verkauft, bringt Sie entweder irgendwohin, das nicht die Sahara ist, oder erwartet, dass es Ihnen nichts ausmacht, den Tag im Fahrzeug zu verbringen." },
-      { q: "Wie viele Tage braucht man für die Wüste ab Agadir?", a: "Mindestens zwei, für Zagora. Drei Tage sind die realistische Zahl für Merzouga oder Erg Chegaga, und vier geben Ihnen ein entspannteres Tempo mit mehr Stopps unterwegs statt eines längeren Aufenthalts in den Dünen." },
+      { q: "Wie viele Tage braucht man für die Wüste ab Agadir?", a: "Mindestens zwei: Unsere kürzeste Tour erreicht den Erg Chegaga über die Südroute via Tata und Foum Zguid. Drei Tage sind die realistische Zahl für Merzouga oder die 4x4-Durchquerung zum Erg Chegaga, und vier geben Ihnen ein entspannteres Tempo mit mehr Stopps unterwegs statt eines längeren Aufenthalts in den Dünen." },
       { q: "Ist es besser, die Wüste ab Marrakech oder ab Agadir zu machen?", a: "Marrakech hat kürzere Fahrten zu jedem Wüstenziel, sodass es rein nach Fahrzeit gewinnt. Aber wenn Sie bereits in Agadir stationiert sind, sind die Reisen von dort echt und etabliert – es lohnt sich nicht, allein wegen der Wüste nach Marrakech umzuziehen." },
       { q: "Was sieht man auf der Fahrt von Agadir zur Wüste?", a: "Die Agadir-Routen führen landeinwärts durch Taroudant und das Souss-Tal, bevor sie zur Wüste abbiegen – anderes Land als die Marrakech-Route über den Tizi-n'-Tichka-Pass. Keine der beiden ist tote Zeit, aber sie zeigen unterschiedliche Teile Marokkos." },
     ],
@@ -872,7 +872,7 @@ Deshalb ist jede Wüstenreise, die wir ab Agadir anbieten, mindestens zwei Tage 
 
 ## Die Optionen
 
-**[Zwei Tage nach Zagora](/de/tours/sahara-2day-agadir)** — die kürzeste echte Wüstenreise ab Agadir. Eine Nacht in der Wüste, kleinere Dünen als Erg Chebbi, und die geringste Fahrerei jeder echten Option. Als einfach eingestuft.
+**[Zwei Tage zum Erg Chegaga](/de/tours/sahara-2day-agadir)** — die kürzeste echte Wüstenreise ab Agadir, über die Südroute via Tata und Foum Zguid. Eine Nacht in den Dünen, dafür rund 8 Stunden Fahrt pro Strecke. Als einfach eingestuft.
 
 **[Drei Tage nach Merzouga](/de/tours/merzouga-3day-agadir)** — erreicht Erg Chebbi, die hohen Dünen, die sich die meisten Menschen vorstellen. Der zusätzliche Tag kauft Ihnen das bessere Dünenfeld. Trotz der Distanz als einfach eingestuft, da die Fahrt aufgeteilt ist.
 
@@ -892,11 +892,11 @@ Beide lohnen sich zu sehen. Wenn Sie die Marrakech-Route bereits auf einer früh
 
 ## Vergleich
 
-| | Zagora, 2 Tage | Merzouga, 3 Tage | Erg Chegaga, 3 Tage | 4 Tage |
+| | Erg Chegaga, 2 Tage | Merzouga, 3 Tage | Erg Chegaga per 4x4, 3 Tage | 4 Tage |
 |---|---|---|---|---|
-| Dünen | Kleiner | Hohe Erg-Chebbi | Weites, abgelegenes Feld | Variiert je nach Route |
+| Dünen | Weites, abgelegenes Feld | Hohe Erg-Chebbi | Weites, abgelegenes Feld | Variiert je nach Route |
 | Einstufung | Einfach | Einfach | Moderat | Einfach |
-| Andere Camps in der Nähe | Einige | Mehrere | Wenige | Variiert |
+| Andere Camps in der Nähe | Wenige | Mehrere | Wenige | Variiert |
 | Am besten für | Kürzeste echte Option | Die klassischen Dünen | Einsamkeit | Entspanntes Tempo |
 
 ## Sollten Sie stattdessen nach Marrakech umziehen?

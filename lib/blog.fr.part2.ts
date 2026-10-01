@@ -849,13 +849,13 @@ Pour comparer les itinéraires standards du Toubkal, voir [Le Toubkal en 2 jours
     readTime: 7,
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-18",
-    tags: ["Sahara depuis Agadir", "circuit désert Agadir", "Merzouga depuis Agadir", "Zagora", "Erg Chegaga"],
+    tags: ["Sahara depuis Agadir", "circuit désert Agadir", "Merzouga depuis Agadir", "Erg Chegaga"],
     seoTitle: "Peut-on visiter le Sahara depuis Agadir ?",
-    seoDescription: "Les circuits désertiques depuis Agadir expliqués — pourquoi le Sahara n'est pas une excursion d'une journée, et comment se comparent les itinéraires de deux.",
+    seoDescription: "Le désert depuis Agadir : pourquoi le Sahara n'est pas une excursion d'un jour, et les circuits de 2, 3 et 4 jours vers l'Erg Chegaga et Merzouga.",
     relatedTours: ["sahara-2day-agadir", "merzouga-3day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
       { q: "Peut-on faire une excursion d'une journée dans le Sahara depuis Agadir ?", a: "Non. Les vraies dunes sont trop loin d'Agadir pour qu'une excursion d'une journée ne soit pas presque entièrement composée de route, avec quelques minutes sur place. Quiconque vend un circuit d'un jour dans le Sahara depuis Agadir vous emmène soit ailleurs que dans le Sahara, soit s'attend à ce que cela ne vous dérange pas de passer la journée en véhicule." },
-      { q: "Combien de jours faut-il pour le désert depuis Agadir ?", a: "Deux jours au strict minimum, pour Zagora. Trois jours est le chiffre réaliste pour Merzouga ou l'Erg Chegaga, et quatre jours offrent un rythme plus détendu avec davantage d'arrêts en chemin plutôt qu'un plus long séjour dans les dunes." },
+      { q: "Combien de jours faut-il pour le désert depuis Agadir ?", a: "Deux jours au strict minimum : notre circuit le plus court atteint l'Erg Chegaga par la route du sud, via Tata et Foum Zguid. Trois jours est le chiffre réaliste pour Merzouga ou pour la traversée en 4x4 vers l'Erg Chegaga, et quatre jours offrent un rythme plus détendu avec davantage d'arrêts en chemin plutôt qu'un plus long séjour dans les dunes." },
       { q: "Vaut-il mieux faire le désert depuis Marrakech ou Agadir ?", a: "Marrakech offre des trajets plus courts vers chaque destination désertique, donc si vous choisissez purement sur le temps de trajet, elle l'emporte. Mais si vous êtes déjà basé à Agadir, les circuits qui en partent sont authentiques et bien établis — cela ne vaut pas la peine de se relocaliser à Marrakech uniquement pour le désert." },
       { q: "Que voit-on sur la route entre Agadir et le désert ?", a: "Les itinéraires depuis Agadir traversent l'intérieur des terres par Taroudant et la vallée du Souss avant de bifurquer vers le désert, ce qui constitue un paysage différent de l'approche par Marrakech via le col du Tizi n'Tichka. Ni l'un ni l'autre n'est du temps mort, mais ils montrent des parties différentes du Maroc." },
     ],
@@ -872,7 +872,7 @@ C'est pourquoi chaque circuit désertique que nous organisons depuis Agadir dure
 
 ## Les options
 
-**[Deux jours vers Zagora](/fr/tours/sahara-2day-agadir)** — le circuit désertique authentique le plus court depuis Agadir. Une nuit dans le désert, des dunes plus petites que l'Erg Chebbi, et le moins de route parmi toutes les options réelles. Classé facile.
+**[Deux jours vers l'Erg Chegaga](/fr/tours/sahara-2day-agadir)** — le circuit désertique authentique le plus court depuis Agadir, par la route du sud via Tata et Foum Zguid. Une nuit dans les dunes, pour environ 8 heures de route dans chaque sens. Classé facile.
 
 **[Trois jours vers Merzouga](/fr/tours/merzouga-3day-agadir)** — atteint l'Erg Chebbi, les hautes dunes que la plupart des gens imaginent. Le jour supplémentaire est ce qui achète le meilleur champ de dunes. Classé facile malgré la distance, car la route est fractionnée.
 
@@ -892,11 +892,11 @@ Les deux valent la peine d'être vus. Si vous avez déjà fait le trajet depuis 
 
 ## Comparaison
 
-| | Zagora, 2 jours | Merzouga, 3 jours | Erg Chegaga, 3 jours | 4 jours |
+| | Erg Chegaga, 2 jours | Merzouga, 3 jours | Erg Chegaga en 4x4, 3 jours | 4 jours |
 |---|---|---|---|---|
-| Dunes | Plus petites | Hautes dunes de l'Erg Chebbi | Champ large, reculé | Variable selon l'itinéraire |
+| Dunes | Champ large, reculé | Hautes dunes de l'Erg Chebbi | Champ large, reculé | Variable selon l'itinéraire |
 | Classement | Facile | Facile | Modéré | Facile |
-| Autres camps à proximité | Quelques-uns | Plusieurs | Peu | Variable |
+| Autres camps à proximité | Peu | Plusieurs | Peu | Variable |
 | Idéal pour | L'option authentique la plus courte | Les dunes classiques | La solitude | Un rythme détendu |
 
 ## Faut-il se relocaliser à Marrakech à la place ?

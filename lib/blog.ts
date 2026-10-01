@@ -342,7 +342,7 @@ The full story of the crash, and why most accounts of it get the details wrong, 
     category: "desert",
     readTime: 7,
     publishedAt: "2025-03-22",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-01",
     tags: ["Sahara", "Erg Chebbi", "Merzouga", "desert camping", "Morocco"],
     seoTitle: "Morocco Sahara Desert: What to Expect",
     seoDescription:

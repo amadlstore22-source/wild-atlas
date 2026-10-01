@@ -320,7 +320,7 @@ El regreso en camello al amanecer es más corto y suele hacerse a paso tranquilo
 | Altura de las dunas | Hasta 150 m | Alrededor de 50 m, pero un campo de dunas mucho más extenso en conjunto |
 | Afluencia | Moderada | Baja |
 | Trayecto desde Marrakech | 9–10 horas | 8–9 horas |
-| Trayecto desde Agadir | 7–8 horas | 5–6 horas |
+| Trayecto desde Agadir | Unas 11 horas | Unas 8 horas, el final fuera de pista |
 | Ideal para | Quienes visitan por primera vez | Quienes buscan soledad |
 
 ## Consejos prácticos
@@ -860,7 +860,7 @@ Es la introducción más accesible al Alto Atlas desde la ciudad, lo que lo conv
 
 ## Cómo llegar
 
-**En un tour guiado (recomendado):** nuestra [excursión de un día al valle de Ourika](/es/tours/ourika-valley-day-hike) incluyen recogida en Marrakech a las 9:00, un guía local experto, comida con una familia bereber y regreso a las 17:00. El contexto del guía transforma la visita: cada terraza, hierba y edificio tiene una historia.
+**En un tour guiado (recomendado):** nuestra [excursión de un día al valle de Ourika](/es/tours/ourika-valley-day-hike) incluyen recogida en Marrakech a las 8:30, un guía local experto, comida con una familia bereber y regreso a las 17:00. El contexto del guía transforma la visita: cada terraza, hierba y edificio tiene una historia.
 
 **En taxi privado:** un grand taxi desde Marrakech hasta Setti Fatma (el final de la carretera del valle) cuesta aproximadamente 150-200 MAD por persona, ida y vuelta. Acuerda el precio antes de salir.
 

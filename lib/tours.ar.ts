@@ -302,11 +302,11 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2 h each way",
+        driving: "≈2.5 h each way",
         distance: "≈150 km each way",
         title: "يوم كامل — شلالات أوزود",
         description:
-          "الانطلاق من مراكش عند السابعة والنصف صباحاً. الوصول إلى أوزود بحلول التاسعة والنصف. مسير مُرشَد إلى الشلالات، مسار المضيق، رحلة قارب، ومشاهدة القرود. وقت حر للغداء. العودة إلى مراكش بحلول السادسة مساءً.",
+          "الانطلاق من مراكش عند السابعة والنصف صباحاً. الوصول إلى أوزود بحلول العاشرة صباحاً. مسير مُرشَد إلى الشلالات، مسار المضيق، رحلة قارب، ومشاهدة القرود. وقت حر للغداء. العودة إلى مراكش بحلول السادسة مساءً.",
       },
     ],
     faq: [
@@ -487,8 +487,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "فندق",
-        driving: "≈6 h",
-        distance: "≈340 km",
+        driving: "≈11 h",
+        distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "مراكش ← تيزي نتيشكا ← آيت بن حدو ← ميدلت",
         description:
@@ -1660,8 +1660,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "بيت ضيافة",
-        driving: "≈7 h",
-        distance: "≈420 km",
+        driving: "≈8.5 h",
+        distance: "≈480 km",
         stop: { name: "Dades Valley", lat: 31.3739, lng: -5.9956 },
         title: "أݣادير ← تارودانت ← تالوين ← آيت بن حدو ← وادي دادس",
         description:
@@ -1671,8 +1671,8 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "مخيّم صحراوي",
-        driving: "≈4 h",
-        distance: "≈240 km",
+        driving: "≈5 h",
+        distance: "≈270 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "وادي دادس ← مضيق تودرا ← مخيم أرق الشبي",
         description:
@@ -1681,12 +1681,12 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        driving: "≈9 h",
-        distance: "≈560 km",
+        driving: "≈12.5 h",
+        distance: "≈680 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "شروق الصحراء ← مرزوكة ← أݣادير",
         description:
-          "الاستيقاظ عند 5:30 صباحاً لمشاهدة الشروق فوق الكثبان. رحلة جِمال عودة، فطور في المخيم، تجديد النشاط في مرزوكة. بدء رحلة العودة الطويلة غرباً وجنوباً — عبر الريصاني وتازارين والسهول الصحراوية، وعودة فوق ممر تيزي نتيشكا ونزولاً إلى أݣادير. الوصول بين الثامنة والتاسعة مساءً.",
+          "الاستيقاظ عند 5:30 صباحاً لمشاهدة الشروق فوق الكثبان. رحلة جِمال عودة، فطور في المخيم، تجديد النشاط في مرزوكة. بدء رحلة العودة الطويلة غرباً — عبر الريصاني وتازارين والنقوب إلى أكدز، ثم عبر تازناخت وتالوين وتارودانت إلى أݣادير. هذا أطول أيام الرحلة؛ الوصول في وقت متأخر من المساء.",
       },
     ],
     faq: [
@@ -1922,8 +1922,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "بيت ضيافة",
-        driving: "≈7 h",
-        distance: "≈420 km",
+        driving: "≈8.5 h",
+        distance: "≈480 km",
         stop: { name: "Dades Valley", lat: 31.3739, lng: -5.9956 },
         title: "أݣادير ← تارودانت ← تالوين ← آيت بن حدو ← وادي دادس",
         description:
@@ -1933,8 +1933,8 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "مخيّم صحراوي",
-        driving: "≈4 h",
-        distance: "≈240 km",
+        driving: "≈5 h",
+        distance: "≈270 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "وادي دادس ← مضيق تودرا ← مخيم أرق الشبي",
         description:
@@ -1944,8 +1944,8 @@ export const TOURS: Tour[] = [
         day: 3,
         meals: "B,D",
         stay: "فندق",
-        driving: "≈5 h",
-        distance: "≈300 km",
+        driving: "≈9 h",
+        distance: "≈440 km",
         stop: { name: "Ouarzazate", lat: 30.917, lng: -6.917 },
         title: "شروق الصحراء ← طريق الألف قصبة ← ورززات",
         description:
@@ -1954,12 +1954,12 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈6.5 h",
+        distance: "≈370 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
-        title: "ورززات ← آيت بن حدو ← تيزي نتيشكا ← أݣادير",
+        title: "ورززات ← آيت بن حدو ← تالوين ← أݣادير",
         description:
-          "زيارة صباحية اختيارية لاستوديوهات أطلس للأفلام أو قصبة تاوريرت في ورززات. توقف قصير عند آيت بن حدو في ضوء الصباح. العبور عودة عبر مراكش وفوق الأطلس الصغير إلى أݣادير. الوصول بحلول الثامنة مساءً.",
+          "زيارة صباحية اختيارية لاستوديوهات أطلس للأفلام أو قصبة تاوريرت في ورززات. توقف قصير عند آيت بن حدو في ضوء الصباح. ثم غرباً عبر تازناخت وتالوين وتارودانت إلى أݣادير. الوصول بحلول الثامنة مساءً.",
       },
     ],
     faq: [
@@ -2021,19 +2021,19 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "فندق",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "أݣادير ← مراكش",
         description:
-          "الانطلاق من أݣادير صباحاً. القيادة شمالاً على طول السهل الأطلسي إلى مراكش (3 ساعات). بعد ظهر حر أو مسير اختياري في المدينة القديمة. ليلة في رياض بمراكش.",
+          "الانطلاق من أݣادير صباحاً. القيادة شمالاً عبر الطريق السيار الذي يعبر غرب الأطلس الكبير إلى مراكش (3 ساعات). بعد ظهر حر أو مسير اختياري في المدينة القديمة. ليلة في رياض بمراكش.",
       },
       {
         day: 2,
         meals: "B,D",
         stay: "فندق",
-        driving: "≈6 h",
-        distance: "≈340 km",
+        driving: "≈11 h",
+        distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "مراكش ← تيزي نتيشكا ← آيت بن حدو ← ميدلت",
         description:
@@ -2114,7 +2114,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "فندق",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "أݣادير ← مراكش",
@@ -2125,7 +2125,7 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "فندق",
-        driving: "≈7 h",
+        driving: "≈8 h",
         distance: "≈480 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "مراكش ← إفران ← فاس",
@@ -3855,7 +3855,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2 h each way",
+        driving: "≈2.5 h each way",
         distance: "≈150 km each way",
         title: "يوم كامل — شلالات أوزود",
         description:

@@ -320,7 +320,7 @@ Le retour en chameau au lever du soleil est plus court et généralement effectu
 | Hauteur des dunes | Jusqu'à 150 m | Environ 50 m, mais un champ de dunes bien plus vaste dans l'ensemble |
 | Affluence | Modérée | Faible |
 | Trajet depuis Marrakech | 9–10 heures | 8–9 heures |
-| Trajet depuis Agadir | 7–8 heures | 5–6 heures |
+| Trajet depuis Agadir | Environ 11 heures | Environ 8 heures, la fin hors piste |
 | Idéal pour | Les visiteurs de première fois | Ceux qui recherchent la solitude |
 
 ## Conseils pratiques
@@ -860,7 +860,7 @@ C'est l'introduction la plus accessible au Haut Atlas depuis la ville, ce qui en
 
 ## Comment y aller
 
-**En circuit guidé (recommandé) :** notre [randonnée d'une journée dans la vallée de l'Ourika](/fr/tours/ourika-valley-day-hike) incluent la prise en charge à Marrakech à 9h00, un guide local compétent, le déjeuner avec une famille berbère, et le retour à 17h00. Le contexte apporté par le guide transforme la visite — chaque terrasse, chaque plante, chaque bâtiment a une histoire.
+**En circuit guidé (recommandé) :** notre [randonnée d'une journée dans la vallée de l'Ourika](/fr/tours/ourika-valley-day-hike) incluent la prise en charge à Marrakech à 8h30, un guide local compétent, le déjeuner avec une famille berbère, et le retour à 17h00. Le contexte apporté par le guide transforme la visite — chaque terrasse, chaque plante, chaque bâtiment a une histoire.
 
 **En taxi privé :** un grand taxi de Marrakech à Setti Fatma (le bout de la route de la vallée) coûte environ 150 à 200 MAD par personne aller-retour. Convenez du prix avant le départ.
 

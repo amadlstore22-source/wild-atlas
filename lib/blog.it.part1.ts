@@ -313,7 +313,7 @@ Il ritorno all'alba in cammello è più breve e di solito avviene a passo tranqu
 | Altezza delle dune | Fino a 150 m | Circa 50 m, ma un campo dunale complessivamente molto più esteso |
 | Affluenza | Moderata | Bassa |
 | Tragitto da Marrakech | 9-10 ore | 8-9 ore |
-| Tragitto da Agadir | 7-8 ore | 5-6 ore |
+| Tragitto da Agadir | Circa 11 ore | Circa 8 ore, l'ultimo tratto fuoristrada |
 | Ideale per | Chi visita per la prima volta | Chi cerca solitudine |
 
 ## Consigli pratici
@@ -853,7 +853,7 @@ La Valle dell'Ourika (Vallée de l'Ourika) è una lussureggiante valle fluviale 
 
 ## Come arrivare
 
-**Con un tour guidato (consigliato):** la nostra [escursione giornaliera nella Valle dell'Ourika da Marrakech](/it/tours/ourika-valley-day-hike) includono il ritiro da Marrakech alle 9:00, una guida locale esperta, il pranzo con una famiglia berbera e il ritorno entro le 17:00. Il contesto fornito dalla guida trasforma la visita — ogni terrazza, erba e edificio ha una storia.
+**Con un tour guidato (consigliato):** la nostra [escursione giornaliera nella Valle dell'Ourika da Marrakech](/it/tours/ourika-valley-day-hike) includono il ritiro da Marrakech alle 8:30, una guida locale esperta, il pranzo con una famiglia berbera e il ritorno entro le 17:00. Il contesto fornito dalla guida trasforma la visita — ogni terrazza, erba e edificio ha una storia.
 
 **In taxi privato:** un grand taxi da Marrakech a Setti Fatma (la fine della strada della valle) costa circa 150-200 MAD a persona andata e ritorno. Concordate il prezzo prima della partenza.
 

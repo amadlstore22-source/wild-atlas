@@ -313,7 +313,7 @@ Der Rückritt bei Sonnenaufgang ist kürzer und wird meist im gemächlichen Schr
 | Dünenhöhe | Bis zu 150 m | Rund 50 m, aber insgesamt ein weit größeres Dünenfeld |
 | Besucherzahlen | Mäßig | Gering |
 | Fahrt ab Marrakesch | 9–10 Stunden | 8–9 Stunden |
-| Fahrt ab Agadir | 7–8 Stunden | 5–6 Stunden |
+| Fahrt ab Agadir | Etwa 11 Stunden | Etwa 8 Stunden, das letzte Stück offroad |
 | Ideal für | Erstbesucher | Reisende, die Einsamkeit suchen |
 
 ## Praktische Tipps
@@ -853,7 +853,7 @@ Es ist der am leichtesten zugängliche Einstieg in den Hohen Atlas von der Stadt
 
 ## Anreise
 
-**Mit einer geführten Tour (empfohlen):** Unsere [Tageswanderung ins Ourika-Tal ab Marrakesch](/de/tours/ourika-valley-day-hike) beinhalten die Abholung in Marrakesch um 9:00 Uhr, einen sachkundigen lokalen Führer, Mittagessen bei einer Berberfamilie und Rückkehr bis 17:00 Uhr. Der Kontext des Führers verwandelt den Besuch – jede Terrasse, jedes Kraut und jedes Gebäude hat eine Geschichte.
+**Mit einer geführten Tour (empfohlen):** Unsere [Tageswanderung ins Ourika-Tal ab Marrakesch](/de/tours/ourika-valley-day-hike) beinhalten die Abholung in Marrakesch um 8:30 Uhr, einen sachkundigen lokalen Führer, Mittagessen bei einer Berberfamilie und Rückkehr bis 17:00 Uhr. Der Kontext des Führers verwandelt den Besuch – jede Terrasse, jedes Kraut und jedes Gebäude hat eine Geschichte.
 
 **Mit dem privaten Taxi:** Ein Grand Taxi von Marrakesch nach Setti Fatma (dem Ende der Talstraße) kostet etwa 150–200 MAD pro Person für die Rückfahrt. Vereinbaren Sie den Preis vor der Abfahrt.
 

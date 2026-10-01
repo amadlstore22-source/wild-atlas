@@ -306,11 +306,11 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2 h each way",
+        driving: "≈2.5 h each way",
         distance: "≈150 km each way",
         title: "Giornata intera — Cascate di Ouzoud",
         description:
-          "Partenza da Marrakech alle 7:30. Arrivo a Ouzoud entro le 9:30. Passeggiata guidata fino alle cascate, sentiero nella gola, giro in barca, avvistamento dei macachi. Tempo libero per il pranzo. Rientro a Marrakech per le 18:00.",
+          "Partenza da Marrakech alle 7:30. Arrivo a Ouzoud entro le 10:00. Passeggiata guidata fino alle cascate, sentiero nella gola, giro in barca, avvistamento dei macachi. Tempo libero per il pranzo. Rientro a Marrakech per le 18:00.",
       },
     ],
     faq: [
@@ -494,8 +494,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈340 km",
+        driving: "≈11 h",
+        distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
@@ -1682,8 +1682,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Casa per ospiti",
-        driving: "≈7 h",
-        distance: "≈420 km",
+        driving: "≈8.5 h",
+        distance: "≈480 km",
         stop: { name: "Dades Valley", lat: 31.3739, lng: -5.9956 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
@@ -1693,8 +1693,8 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "Campo nel deserto",
-        driving: "≈4 h",
-        distance: "≈240 km",
+        driving: "≈5 h",
+        distance: "≈270 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Valle del Dades → Gola del Todra → Campo dell'Erg Chebbi",
         description:
@@ -1703,12 +1703,12 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        driving: "≈9 h",
-        distance: "≈560 km",
+        driving: "≈12.5 h",
+        distance: "≈680 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
         title: "Alba nel Sahara → Merzouga → Agadir",
         description:
-          "Sveglia alle 5:30 per l'alba sulle dune. Rientro in cammello, colazione al campo, momento di relax a Merzouga. Inizio del lungo viaggio di ritorno verso ovest e sud — attraverso Rissani, Tazarine e le pianure desertiche, di nuovo sul passo Tizi n'Tichka e giù verso Agadir. Arrivo tra le 20:00 e le 21:00.",
+          "Sveglia alle 5:30 per l'alba sulle dune. Rientro in cammello, colazione al campo, momento di relax a Merzouga. Inizio del lungo viaggio di ritorno verso ovest — attraverso Rissani, Tazarine e N'Kob fino ad Agdz, poi per Tazenakht, Taliouine e Taroudant fino ad Agadir. È il giorno più lungo del viaggio; arrivo in tarda serata.",
       },
     ],
     faq: [
@@ -1947,8 +1947,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Casa per ospiti",
-        driving: "≈7 h",
-        distance: "≈420 km",
+        driving: "≈8.5 h",
+        distance: "≈480 km",
         stop: { name: "Dades Valley", lat: 31.3739, lng: -5.9956 },
         title: "Agadir → Taroudant → Taliouine → Aït Ben Haddou → Valle del Dades",
         description:
@@ -1958,8 +1958,8 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "Campo nel deserto",
-        driving: "≈4 h",
-        distance: "≈240 km",
+        driving: "≈5 h",
+        distance: "≈270 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Valle del Dades → Gola del Todra → Campo dell'Erg Chebbi",
         description:
@@ -1969,8 +1969,8 @@ export const TOURS: Tour[] = [
         day: 3,
         meals: "B,D",
         stay: "Hotel",
-        driving: "≈5 h",
-        distance: "≈300 km",
+        driving: "≈9 h",
+        distance: "≈440 km",
         stop: { name: "Ouarzazate", lat: 30.917, lng: -6.917 },
         title: "Alba nel Sahara → Strada delle Mille Kasbah → Ouarzazate",
         description:
@@ -1979,12 +1979,12 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈6.5 h",
+        distance: "≈370 km",
         stop: { name: "Agadir", lat: 30.428, lng: -9.598 },
-        title: "Ouarzazate → Aït Ben Haddou → Tizi n'Tichka → Agadir",
+        title: "Ouarzazate → Aït Ben Haddou → Taliouine → Agadir",
         description:
-          "Visita mattutina facoltativa agli Atlas Film Studios o alla Kasbah Taourirt a Ouarzazate. Breve sosta ad Aït Ben Haddou nella luce del mattino. Attraversamento di Marrakech e dell'Anti-Atlante fino ad Agadir. Arrivo per le 20:00.",
+          "Visita mattutina facoltativa agli Atlas Film Studios o alla Kasbah Taourirt a Ouarzazate. Breve sosta ad Aït Ben Haddou nella luce del mattino. Poi verso ovest per Tazenakht, Taliouine e Taroudant fino ad Agadir. Arrivo per le 20:00.",
       },
     ],
     faq: [
@@ -2047,19 +2047,19 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
-          "Partenza da Agadir al mattino. Percorso verso nord lungo la pianura atlantica fino a Marrakech (3h). Pomeriggio libero o passeggiata facoltativa nella medina. Notte in un riad a Marrakech.",
+          "Partenza da Agadir al mattino. Percorso verso nord in autostrada attraverso l'Alto Atlante occidentale fino a Marrakech (3h). Pomeriggio libero o passeggiata facoltativa nella medina. Notte in un riad a Marrakech.",
       },
       {
         day: 2,
         meals: "B,D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈340 km",
+        driving: "≈11 h",
+        distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
         title: "Marrakech → Tizi n'Tichka → Aït Ben Haddou → Midelt",
         description:
@@ -2141,7 +2141,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
@@ -2152,7 +2152,7 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "Hotel",
-        driving: "≈7 h",
+        driving: "≈8 h",
         distance: "≈480 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Marrakech → Ifrane → Fes",
@@ -3899,7 +3899,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2 h each way",
+        driving: "≈2.5 h each way",
         distance: "≈150 km each way",
         title: "Giornata intera — Cascate di Ouzoud",
         description:

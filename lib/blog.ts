@@ -411,7 +411,7 @@ The sunrise camel return is shorter and usually done at a gentle walk. The light
 | Dune height | Up to 150 m | Around 50 m, but a far larger dune field overall |
 | Crowds | Moderate | Low |
 | Drive from Marrakech | 9–10 hours | 8–9 hours |
-| Drive from Agadir | 7–8 hours | 5–6 hours |
+| Drive from Agadir | About 11 hours | About 8 hours, the last stretch off-road |
 | Best for | First-time visitors | Those wanting solitude |
 
 ## Practical Tips
@@ -965,7 +965,7 @@ It is the most accessible introduction to the High Atlas from the city, making i
 
 ## Getting There
 
-**On a guided tour (recommended):** Our [Ourika Valley day hike from Marrakech](/en/tours/ourika-valley-day-hike) includes pick-up from Marrakech at 9:00 am, a knowledgeable local guide, lunch with a Berber family, and return by 5:00 pm. The guide context transforms the visit — every terrace, herb, and building has a story.
+**On a guided tour (recommended):** Our [Ourika Valley day hike from Marrakech](/en/tours/ourika-valley-day-hike) includes pick-up from Marrakech at 8:30 am, a knowledgeable local guide, lunch with a Berber family, and return by 5:00 pm. The guide context transforms the visit — every terrace, herb, and building has a story.
 
 **By private taxi:** A grand taxi from Marrakech to Setti Fatma (the end of the valley road) costs approximately 150–200 MAD per person return. Agree the price before departure.
 

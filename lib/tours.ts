@@ -3910,7 +3910,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–4 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
       { q: "What if a child gets tired mid-walk?", a: "The mules that carry the luggage can also carry a tired younger child, and the guide sets the pace around the group rather than a schedule. Short days and frequent stops are built in precisely so that no one is pushed." },
-      { q: "Where do we stay?", a: "Three nights in Berber village guesthouses hosted by local families, with all meals included. Families often eat together with the hosts, and there is usually bread baking or animals around that children enjoy. Bathrooms are simple and shared." },
+      { q: "Where do we stay?", a: "Three nights in Berber village guesthouses hosted by local families, with all meals included. Families often eat together with the hosts, and there is usually bread baking or animals around that children enjoy. Each room has its own private bathroom." },
       { q: "Is it safe for families?", a: "Yes. The routes stay on easy valley trails with no exposure or high passes, the guide is experienced with families, and there is no altitude concern below about 2,200 m. Standard sensible precautions — sun, water, sturdy shoes — are all that is needed." },
     ],
     featured: false,

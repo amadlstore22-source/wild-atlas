@@ -3155,7 +3155,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Für welches Kindesalter ist dieser Trek geeignet?", a: "Er funktioniert gut für schulpflichtige Kinder ab etwa 6 Jahren, die ans Gehen und Draußensein gewöhnt sind. Die Tage sind kurz (2–4 Stunden) und leicht, und Maultiere sind zur Hand, um müde jüngere Kinder zu tragen. Für Kleinkinder ist er nicht ideal — das Gehen, so sanft es ist, führt weiterhin über Bergpfade." },
       { q: "Was passiert, wenn ein Kind unterwegs müde wird?", a: "Die Maultiere, die das Gepäck tragen, können auch ein müdes jüngeres Kind tragen, und der Führer richtet das Tempo nach der Gruppe statt nach einem Zeitplan. Kurze Tage und häufige Pausen sind genau dafür eingeplant, dass niemand gedrängt wird." },
-      { q: "Wo übernachtet man?", a: "Drei Nächte in Berber-Dorf-Gästehäusern, von einheimischen Familien geführt, mit allen Mahlzeiten. Familien essen oft mit den Gastgebern, und meist gibt es Brotbacken oder Tiere ringsum, die Kindern gefallen. Die Bäder sind einfach und geteilt." },
+      { q: "Wo übernachtet man?", a: "Drei Nächte in Berber-Dorf-Gästehäusern, von einheimischen Familien geführt, mit allen Mahlzeiten. Familien essen oft mit den Gastgebern, und meist gibt es Brotbacken oder Tiere ringsum, die Kindern gefallen. Jedes Zimmer hat ein eigenes Bad." },
       { q: "Ist er sicher für Familien?", a: "Ja. Die Routen bleiben auf leichten Talpfaden ohne Ausgesetztheit und ohne hohe Pässe, der Führer hat Familienerfahrung, und unter etwa 2.200 m gibt es keine Höhenbedenken. Übliche vernünftige Vorkehrungen — Sonne, Wasser, feste Schuhe — genügen." },
     ],
     featured: false,

@@ -3155,7 +3155,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Per quale età dei bambini è adatto questo trekking?", a: "Funziona bene per bambini in età scolare da circa 6 anni in su, abituati a camminare e giocare all'aperto. Le giornate sono brevi (2-4 ore) e di livello facile, e ci sono muli a disposizione per portare i più piccoli che si stancano. Per i bimbi molto piccoli non è l'ideale: il cammino, per quanto dolce, resta su sentieri di montagna." },
       { q: "Cosa succede se un bambino si stanca a metà cammino?", a: "I muli che portano i bagagli possono portare anche un bambino piccolo stanco, e la guida imposta il ritmo sul gruppo più che su un orario. Giornate brevi e soste frequenti sono previste proprio perché nessuno venga forzato." },
-      { q: "Dove si dorme?", a: "Tre notti in case di villaggio berbere gestite da famiglie locali, con tutti i pasti inclusi. Le famiglie mangiano spesso insieme agli ospiti, e di solito c'è del pane in cottura o animali intorno che i bambini apprezzano. I bagni sono semplici e condivisi." },
+      { q: "Dove si dorme?", a: "Tre notti in case di villaggio berbere gestite da famiglie locali, con tutti i pasti inclusi. Le famiglie mangiano spesso insieme agli ospiti, e di solito c'è del pane in cottura o animali intorno che i bambini apprezzano. Ogni camera ha il proprio bagno privato." },
       { q: "È sicuro per le famiglie?", a: "Sì. I percorsi restano su facili sentieri di valle senza esposizione né passi elevati, la guida ha esperienza con le famiglie, e non c'è preoccupazione di quota sotto i 2.200 m circa. Bastano le consuete precauzioni di buon senso: sole, acqua, scarpe robuste." },
     ],
     featured: false,

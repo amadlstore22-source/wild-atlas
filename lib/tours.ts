@@ -3683,7 +3683,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,684 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
       { q: "How is this different from the Toubkal treks?", a: "The Azzaden is the valley beside the main Imlil–Toubkal route, so it sees far fewer trekkers. You get the same Berber villages, passes and mountain scenery, but no summit push and no high-altitude refuge night — a gentler, quieter alternative." },
-      { q: "Where do we sleep?", a: "One night in a family-run Berber guesthouse in Tizi Oussem village — a real home rather than a hotel, with dinner and breakfast included. Rooms are simple and shared bathrooms are the norm." },
+      { q: "Where do we sleep?", a: "One night in a family-run Berber guesthouse in Tizi Oussem village — a real home rather than a hotel, with dinner and breakfast included. Rooms are simple, each with its own private bathroom." },
       { q: "Do I carry my own luggage?", a: "No. A mule carries the group's main luggage between Imlil and the village, so you walk with just a daypack for water, layers and a camera." },
     ],
     featured: false,
@@ -3790,7 +3790,7 @@ export const TOURS: Tour[] = [
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From €416.",
     faq: [
       { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 2,700 m. If you walk regularly you will be fine." },
-      { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — shared bathrooms, mattresses on floor platforms or basic beds — rather than hotels, which is the point of the trek." },
+      { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — mattresses on floor platforms or basic beds, each room with its own private bathroom — rather than hotels, which is the point of the trek." },
       { q: "Why is there no summit on this trek?", a: "It is built around the valleys and villages rather than a peak. That keeps the altitude moderate and the days steady, so it works for walkers who want real High Atlas trekking without the demands of a Toubkal summit attempt." },
       { q: "Do mules carry the luggage?", a: "Yes. A mule carries the group's main luggage between guesthouses, so you walk with a daypack. Personal trekking gear is your own to bring." },
     ],

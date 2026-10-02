@@ -2956,7 +2956,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Quanta forma fisica serve per il trekking di Azzaden?", a: "È classificato moderato: due giorni con circa 5-6 ore di cammino ciascuno, valicando passi fino a 2.684 m. Non c'è arrampicata tecnica, ma devi essere a tuo agio su sentieri in salita e discesa per diverse ore. È adatto a camminatori ragionevolmente attivi più che a principianti assoluti." },
       { q: "In cosa si differenzia dai trekking del Toubkal?", a: "L'Azzaden è la valle accanto alla via principale Imlil–Toubkal, quindi vede molti meno escursionisti. Trovi gli stessi villaggi berberi, passi e paesaggi di montagna, ma senza salita alla cima né notte in rifugio d'alta quota: un'alternativa più dolce e tranquilla." },
-      { q: "Dove si dorme?", a: "Una notte in una casa berbera a gestione familiare nel villaggio di Tizi Oussem: una vera casa più che un albergo, con cena e colazione incluse. Le camere sono semplici e i bagni condivisi sono la norma." },
+      { q: "Dove si dorme?", a: "Una notte in una casa berbera a gestione familiare nel villaggio di Tizi Oussem: una vera casa più che un albergo, con cena e colazione incluse. Le camere sono semplici, ciascuna con il proprio bagno privato." },
       { q: "Devo portare i miei bagagli?", a: "No. Un mulo porta i bagagli principali del gruppo tra Imlil e il villaggio, quindi cammini solo con uno zaino da giornata per acqua, strati e una macchina fotografica." },
     ],
     featured: false,
@@ -3050,7 +3050,7 @@ export const TOURS: Tour[] = [
     seoDescription: "Trekking di 3 giorni tra i villaggi dell'Alto Atlante da Marrakech, per le valli di Imlil, Azzaden e Ourika. Case berbere, passi, nessuna vetta. Da €416.",
     faq: [
       { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 4-6 ore per passi fino a circa 2.700 m. Se cammini con regolarità, te la caverai bene." },
-      { q: "Com'è l'alloggio?", a: "Due notti in case di villaggio, ciascuna gestita da una famiglia locale, con tutti i pasti inclusi. Sono case semplici — bagni condivisi, materassi su pedane o letti basilari — più che alberghi, che è il senso del trekking." },
+      { q: "Com'è l'alloggio?", a: "Due notti in case di villaggio, ciascuna gestita da una famiglia locale, con tutti i pasti inclusi. Sono case semplici — materassi su pedane o letti basilari, e bagno privato in ogni camera — più che alberghi, che è il senso del trekking." },
       { q: "Perché non c'è una cima in questo trekking?", a: "È costruito attorno alle valli e ai villaggi più che a una vetta. Questo mantiene la quota moderata e le giornate costanti, quindi funziona per chi vuole un vero trekking dell'Alto Atlante senza le esigenze di un tentativo di cima al Toubkal." },
       { q: "I muli portano i bagagli?", a: "Sì. Un mulo porta i bagagli principali del gruppo tra le case, quindi cammini con uno zaino da giornata. L'attrezzatura da trekking personale la porti tu." },
     ],

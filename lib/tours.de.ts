@@ -2956,7 +2956,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Wie fit muss ich für den Azzaden-Trek sein?", a: "Er ist als mittel eingestuft: zwei Tage mit jeweils etwa 5–6 Stunden Gehzeit, mit Pässen bis 2.684 m. Es gibt kein technisches Klettern, aber Sie sollten mehrere Stunden auf Anstiegs- und Abstiegspfaden sicher sein. Er eignet sich für einigermaßen aktive Wanderer, nicht für komplette Anfänger." },
       { q: "Wie unterscheidet er sich von den Toubkal-Treks?", a: "Das Azzaden ist das Tal neben der Hauptroute Imlil–Toubkal und sieht daher weit weniger Trekker. Sie erleben dieselben Berberdörfer, Pässe und Berglandschaften, aber ohne Gipfelanstieg und ohne Höhen-Hüttennacht — eine sanftere, ruhigere Alternative." },
-      { q: "Wo übernachtet man?", a: "Eine Nacht in einem familiengeführten Berber-Gästehaus im Dorf Tizi Oussem — ein echtes Zuhause statt eines Hotels, mit Abendessen und Frühstück. Die Zimmer sind einfach und geteilte Bäder die Norm." },
+      { q: "Wo übernachtet man?", a: "Eine Nacht in einem familiengeführten Berber-Gästehaus im Dorf Tizi Oussem — ein echtes Zuhause statt eines Hotels, mit Abendessen und Frühstück. Die Zimmer sind einfach, jedes mit eigenem Bad." },
       { q: "Muss ich mein eigenes Gepäck tragen?", a: "Nein. Ein Maultier trägt das Hauptgepäck der Gruppe zwischen Imlil und dem Dorf, Sie gehen also nur mit einem Tagesrucksack für Wasser, Schichten und eine Kamera." },
     ],
     featured: false,
@@ -3050,7 +3050,7 @@ export const TOURS: Tour[] = [
     seoDescription: "3-Tage-Dörfertrek im Hohen Atlas ab Marrakesch durch die Täler von Imlil, Azzaden und Ourika. Berber-Gästehäuser, Pässe, kein Gipfelsturm. Ab €416.",
     faq: [
       { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 4–6 Stunden über Pässe bis etwa 2.700 m. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
-      { q: "Wie ist die Unterkunft?", a: "Zwei Nächte in Dorf-Gästehäusern, jeweils von einer einheimischen Familie geführt, mit allen Mahlzeiten. Es sind einfache Häuser — geteilte Bäder, Matratzen auf Plattformen oder einfache Betten — statt Hotels, was den Sinn des Treks ausmacht." },
+      { q: "Wie ist die Unterkunft?", a: "Zwei Nächte in Dorf-Gästehäusern, jeweils von einer einheimischen Familie geführt, mit allen Mahlzeiten. Es sind einfache Häuser — Matratzen auf Plattformen oder einfache Betten, jedes Zimmer mit eigenem Bad — statt Hotels, was den Sinn des Treks ausmacht." },
       { q: "Warum gibt es auf diesem Trek keinen Gipfel?", a: "Er ist um die Täler und Dörfer herum gebaut statt um einen Gipfel. Das hält die Höhe moderat und die Tage stetig, er passt also für Wanderer, die echtes Trekking im Hohen Atlas ohne die Anforderungen eines Toubkal-Gipfelversuchs wollen." },
       { q: "Tragen Maultiere das Gepäck?", a: "Ja. Ein Maultier trägt das Hauptgepäck der Gruppe zwischen den Gästehäusern, Sie gehen also mit einem Tagesrucksack. Persönliche Trekkingausrüstung bringen Sie selbst mit." },
     ],

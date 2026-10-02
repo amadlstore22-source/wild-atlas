@@ -2965,7 +2965,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Quelle condition physique faut-il pour le trek d'Azzaden ?", a: "Il est classé modéré : deux jours avec environ 5 à 6 heures de marche chacun, franchissant des cols jusqu'à 2 684 m. Il n'y a pas d'escalade technique, mais vous devez être à l'aise sur des sentiers en montée et en descente durant plusieurs heures. Il convient aux marcheurs raisonnablement actifs plutôt qu'aux débutants complets." },
       { q: "En quoi diffère-t-il des treks du Toubkal ?", a: "L'Azzaden est la vallée à côté de l'itinéraire principal Imlil–Toubkal, elle voit donc bien moins de trekkeurs. Vous retrouvez les mêmes villages berbères, cols et paysages de montagne, mais sans ascension de sommet ni nuit en refuge d'altitude — une alternative plus douce et plus calme." },
-      { q: "Où dort-on ?", a: "Une nuit dans une maison d'hôtes berbère familiale au village de Tizi Oussem — une vraie maison plutôt qu'un hôtel, avec dîner et petit-déjeuner inclus. Les chambres sont simples et les salles de bain partagées sont la norme." },
+      { q: "Où dort-on ?", a: "Une nuit dans une maison d'hôtes berbère familiale au village de Tizi Oussem — une vraie maison plutôt qu'un hôtel, avec dîner et petit-déjeuner inclus. Les chambres sont simples, chacune avec sa salle de bain privée." },
       { q: "Dois-je porter mes propres bagages ?", a: "Non. Un mulet porte les bagages principaux du groupe entre Imlil et le village, vous marchez donc avec un simple sac à dos pour l'eau, les couches et un appareil photo." },
     ],
     featured: false,
@@ -3059,7 +3059,7 @@ export const TOURS: Tour[] = [
     seoDescription: "Trek de 3 jours de village en village dans le Haut Atlas depuis Marrakech : vallées d'Imlil, d'Azzaden et de l'Ourika, gîtes berbères, sans sommet. Dès 416 €.",
     faq: [
       { q: "Ce trek convient-il comme première randonnée de plusieurs jours ?", a: "Oui — il est classé modéré et conçu comme une solide introduction au trek au Maroc. Il n'y a ni sommet ni terrain technique ; les journées font 4 à 6 heures par des cols jusqu'à environ 2 700 m. Si vous marchez régulièrement, vous vous en sortirez très bien." },
-      { q: "Comment est l'hébergement ?", a: "Deux nuits en maisons d'hôtes de village, chacune tenue par une famille locale, tous les repas inclus. Ce sont des maisons simples — salles de bain partagées, matelas sur des estrades ou lits basiques — plutôt que des hôtels, ce qui fait tout le sens du trek." },
+      { q: "Comment est l'hébergement ?", a: "Deux nuits en maisons d'hôtes de village, chacune tenue par une famille locale, tous les repas inclus. Ce sont des maisons simples — matelas sur des estrades ou lits basiques, salle de bain privée pour chaque chambre — plutôt que des hôtels, ce qui fait tout le sens du trek." },
       { q: "Pourquoi n'y a-t-il pas de sommet sur ce trek ?", a: "Il est construit autour des vallées et des villages plutôt que d'un pic. Cela maintient l'altitude modérée et les journées régulières, il convient donc aux marcheurs qui veulent un vrai trek du Haut Atlas sans les exigences d'une tentative de sommet au Toubkal." },
       { q: "Les mulets portent-ils les bagages ?", a: "Oui. Un mulet porte les bagages principaux du groupe entre les maisons d'hôtes, vous marchez donc avec un sac à dos. L'équipement de trek personnel est à apporter par vos soins." },
     ],

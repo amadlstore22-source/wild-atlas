@@ -2956,7 +2956,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "¿Qué forma física hace falta para el trekking de Azzaden?", a: "Está clasificado como moderado: dos días con unas 5-6 horas de caminata cada uno, cruzando puertos de hasta 2.684 m. No hay escalada técnica, pero debes estar cómodo en senderos de subida y bajada durante varias horas. Es apto para caminantes razonablemente activos más que para principiantes absolutos." },
       { q: "¿En qué se diferencia de los trekkings del Toubkal?", a: "El Azzaden es el valle junto a la ruta principal Imlil–Toubkal, así que ve muchos menos senderistas. Encuentras los mismos pueblos bereberes, puertos y paisajes de montaña, pero sin ascensión a cumbre ni noche en refugio de altura: una alternativa más suave y tranquila." },
-      { q: "¿Dónde se duerme?", a: "Una noche en una casa de huéspedes bereber familiar en el pueblo de Tizi Oussem: una casa de verdad más que un hotel, con cena y desayuno incluidos. Las habitaciones son sencillas y los baños compartidos son lo habitual." },
+      { q: "¿Dónde se duerme?", a: "Una noche en una casa de huéspedes bereber familiar en el pueblo de Tizi Oussem: una casa de verdad más que un hotel, con cena y desayuno incluidos. Las habitaciones son sencillas, cada una con su baño privado." },
       { q: "¿Tengo que llevar mi propio equipaje?", a: "No. Una mula lleva el equipaje principal del grupo entre Imlil y el pueblo, así que caminas solo con una mochila de día para agua, capas y una cámara." },
     ],
     featured: false,
@@ -3050,7 +3050,7 @@ export const TOURS: Tour[] = [
     seoDescription: "Trekking de 3 días por los pueblos del Alto Atlas desde Marrakech, entre los valles de Imlil, Azzaden y Ourika. Casas bereberes, sin cumbre. Desde 416 €.",
     faq: [
       { q: "¿Es apto este trekking como primera ruta de varios días?", a: "Sí: está clasificado como moderado y diseñado como una sólida introducción al trekking en Marruecos. No hay cumbre ni terreno técnico; las jornadas son de 4-6 horas por puertos de hasta unos 2.700 m. Si caminas con regularidad, irás bien." },
-      { q: "¿Cómo es el alojamiento?", a: "Dos noches en casas de huéspedes de pueblo, cada una atendida por una familia local, con todas las comidas incluidas. Son casas sencillas —baños compartidos, colchones sobre plataformas o camas básicas— más que hoteles, que es de lo que trata el trekking." },
+      { q: "¿Cómo es el alojamiento?", a: "Dos noches en casas de huéspedes de pueblo, cada una atendida por una familia local, con todas las comidas incluidas. Son casas sencillas —colchones sobre plataformas o camas básicas, y baño privado en cada habitación— más que hoteles, que es de lo que trata el trekking." },
       { q: "¿Por qué no hay cumbre en este trekking?", a: "Está construido en torno a los valles y los pueblos más que a un pico. Eso mantiene la altitud moderada y las jornadas constantes, así que funciona para caminantes que quieren un trekking real del Alto Atlas sin las exigencias de un intento de cumbre al Toubkal." },
       { q: "¿Las mulas llevan el equipaje?", a: "Sí. Una mula lleva el equipaje principal del grupo entre casas de huéspedes, así que caminas con una mochila de día. El equipo de trekking personal debes traerlo tú." },
     ],

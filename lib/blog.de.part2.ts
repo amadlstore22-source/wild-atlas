@@ -5295,7 +5295,7 @@ Wenn Sie das Upgrade wollen, sagen Sie es bei der Buchung, und wir kalkulieren e
     region: "agadir-region",
     readTime: 11,
     publishedAt: "2026-08-12",
-    updatedAt: "2026-08-12",
+    updatedAt: "2026-10-03",
     tags: [
       "Agadir Route",
       "7 Tage Marokko",
@@ -5372,10 +5372,10 @@ Vier Tage sind es, weil es nicht anders geht. Dieselbe Wüste ab Marrakesch ist 
 Sie kommen müde zurück und nutzen die restlichen Tage in der Nähe:
 
 - [Paradise Valley und Immouzer](/de/tours/paradise-valley-agadir-tagestour), 38 EUR pro Person zu zweit — Palmenschluchten und natürliche Badebecken, 35 km entfernt
-- [Taroudant](/de/tours/ausflug-taroudant-agadir), 37 EUR pro Person zu zweit — die ummauerte Marktstadt, weit ruhiger als Marrakesch
+- [Taroudant](/de/tours/ausflug-taroudant-agadir), 125 EUR pro Person zu zweit — die ummauerte Marktstadt, weit ruhiger als Marrakesch
 - Ein Tag, an dem Sie am Strand gar nichts tun, was nach vier Tagen Wüstenfahrt kein verlorener Tag ist
 
-**Wochensumme, zwei Reisende: rund 594 EUR pro Person** für die Touren, plus Ihre Unterkunft in Agadir an den freien Tagen.
+**Wochensumme, zwei Reisende: rund 682 EUR pro Person** für die Touren, plus Ihre Unterkunft in Agadir an den freien Tagen.
 
 ## Variante 2: die Königsstädte-Woche
 
@@ -5396,7 +5396,7 @@ Wenn Ihnen Chefchaouen mehr bedeutet als alle vier Hauptstädte, kostet unsere [
 Die entspannte Variante, und die, die wir Familien mit kleinen Kindern und allen, die lange Fahrten nicht mögen, leise empfehlen.
 
 - **Tag 1** — [Paradise Valley und Immouzer](/de/tours/paradise-valley-agadir-tagestour), 38 EUR pro Person
-- **Tag 2** — [Taroudant](/de/tours/ausflug-taroudant-agadir), 37 EUR pro Person
+- **Tag 2** — [Taroudant](/de/tours/ausflug-taroudant-agadir), 125 EUR pro Person
 - **Tag 3** — Strand und Souk von Agadir
 - **Tage 4 und 5** — [Trekking im Antiatlas](/de/tours/anti-atlas-trekking-agadir), 258 EUR pro Person zu zweit, im Granit von Tafraoute und in den Mandeltälern
 - **Tag 6** — [Essaouira](/de/tours/ausflug-essaouira-agadir), 51 EUR pro Person, die windige Atlantikstadt mit den blauen Booten

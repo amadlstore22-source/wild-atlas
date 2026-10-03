@@ -5328,7 +5328,7 @@ Si vous voulez le surclassement, dites-le nous à la réservation et nous le chi
     region: "agadir-region",
     readTime: 11,
     publishedAt: "2026-08-12",
-    updatedAt: "2026-08-12",
+    updatedAt: "2026-10-03",
     tags: [
       "itinéraire Agadir",
       "7 jours au Maroc",
@@ -5405,10 +5405,10 @@ Ce circuit dure quatre jours parce qu'il ne peut pas faire autrement. Le même d
 Rentrez fatigués et utilisez les jours restants près de la base :
 
 - [Paradise Valley et Immouzer](/fr/tours/paradise-valley-agadir-journee), 38 EUR par personne pour deux — gorges de palmiers et vasques naturelles, à 35 km
-- [Taroudant](/fr/tours/excursion-taroudant-agadir), 37 EUR par personne pour deux — la ville close et son marché, bien plus calme que Marrakech
+- [Taroudant](/fr/tours/excursion-taroudant-agadir), 125 EUR par personne pour deux — la ville close et son marché, bien plus calme que Marrakech
 - Une journée à ne rien faire sur la plage, ce qui, après quatre jours de route dans le désert, n'est pas une journée perdue
 
-**Total de la semaine, deux voyageurs : environ 594 EUR par personne** pour les circuits, plus votre hébergement à Agadir les jours libres.
+**Total de la semaine, deux voyageurs : environ 682 EUR par personne** pour les circuits, plus votre hébergement à Agadir les jours libres.
 
 ## Formule 2 : la semaine impériale
 
@@ -5429,7 +5429,7 @@ Si Chefchaouen compte plus pour vous que les quatre capitales, notre [circuit de
 L'option sans précipitation, celle que nous recommandons discrètement aux familles avec de jeunes enfants et à tous ceux qui n'aiment pas les longs trajets.
 
 - **Jour 1** — [Paradise Valley et Immouzer](/fr/tours/paradise-valley-agadir-journee), 38 EUR chacun
-- **Jour 2** — [Taroudant](/fr/tours/excursion-taroudant-agadir), 37 EUR chacun
+- **Jour 2** — [Taroudant](/fr/tours/excursion-taroudant-agadir), 125 EUR chacun
 - **Jour 3** — plage et souk d'Agadir
 - **Jours 4 et 5** — [trek dans l'Anti-Atlas](/fr/tours/trek-anti-atlas-agadir), 258 EUR par personne pour deux, dans le granit de Tafraoute et les vallées d'amandiers
 - **Jour 6** — [Essaouira](/fr/tours/excursion-essaouira-agadir), 51 EUR chacun, la ville atlantique et venteuse aux barques bleues

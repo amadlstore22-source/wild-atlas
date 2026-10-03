@@ -280,7 +280,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                     : `${tier.minPeople}\u2013${next.minPeople - 1}`;
                 const active = people >= tier.minPeople && (isLast || people < next.minPeople);
                 // The cheapest bracket is the one worth calling out -- once.
-                // When two sizes share the lowest price (Taroudant: €29 at 5
+                // When two sizes share the lowest price (e.g. the same price at 5
                 // and at 6+) the badge goes on the first, the same row the
                 // "from" price quotes (lowestGroupPrice returns the first).
                 const best = tier.minPeople === cheapest.minPeople;

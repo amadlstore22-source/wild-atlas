@@ -732,8 +732,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 أشخاص",
     reviewCount: 84,
     rating: 4.6,
-    price: 67,
-    depositAmount: 15,
+    price: 169,
+    depositAmount: 37,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -778,7 +778,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "رحلة ليوم إلى تارودانت من أݣادير",
-    seoDescription: "اكتشف أفضل أسوار محفوظة من القرن السادس عشر في المغرب وأسواقاً أمازيغية أصيلة في تارودانت — على بُعد 80 كم من أݣادير، دون حشود السياح. تبدأ من 40 دولاراً.",
+    seoDescription: "اكتشف أفضل أسوار محفوظة من القرن السادس عشر في المغرب وأسواقاً أمازيغية أصيلة في تارودانت — على بُعد 80 كم من أݣادير، دون حشود السياح. تبدأ من 66 يورو للشخص لمجموعة من 6 أشخاص فأكثر.",
     featured: false,
   },
   {

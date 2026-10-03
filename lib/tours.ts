@@ -1083,19 +1083,17 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 84,
     rating: 4.6,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Operator-set ladder, 2026-10-03.
     groupPricing: [
-      { minPeople: 1, price: 67 },
-      { minPeople: 2, price: 37 },
-      { minPeople: 3, price: 34 },
-      { minPeople: 4, price: 31 },
-      { minPeople: 5, price: 29 },
-      { minPeople: 6, price: 29 },
+      { minPeople: 1, price: 169 },
+      { minPeople: 2, price: 125 },
+      { minPeople: 3, price: 102 },
+      { minPeople: 4, price: 89 },
+      { minPeople: 5, price: 79 },
+      { minPeople: 6, price: 66 },
     ],
-    price: 67,
-    depositAmount: 15,
+    price: 169,
+    depositAmount: 37,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -1138,7 +1136,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Private Taroudant Day Trip from Agadir",
-    seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and authentic Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From €67.",
+    seoDescription: "Discover Morocco's best-preserved 16th-century ramparts and Berber markets in Taroudant — 80 km from Agadir, without the tourist crowds. From €66 pp for 6+.",
     featured: false,
   },
   {

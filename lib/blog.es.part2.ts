@@ -5281,7 +5281,7 @@ Si quieres la mejora, dínoslo al reservar y te la presupuestamos con honestidad
     region: "agadir-region",
     readTime: 11,
     publishedAt: "2026-08-12",
-    updatedAt: "2026-08-12",
+    updatedAt: "2026-10-03",
     tags: [
       "itinerario Agadir",
       "7 días en Marruecos",
@@ -5358,10 +5358,10 @@ Son cuatro días porque no pueden ser menos. El mismo desierto desde Marrakech e
 Vuelves cansado y aprovechas los días que quedan cerca de la base:
 
 - [Paradise Valley e Immouzer](/es/tours/paradise-valley-agadir-dia), 38 EUR por persona para dos: gargantas de palmeras y pozas naturales, a 35 km
-- [Taroudant](/es/tours/excursion-taroudant-agadir), 37 EUR por persona para dos: la ciudad amurallada y su mercado, mucho más tranquila que Marrakech
+- [Taroudant](/es/tours/excursion-taroudant-agadir), 125 EUR por persona para dos: la ciudad amurallada y su mercado, mucho más tranquila que Marrakech
 - Un día sin hacer absolutamente nada en la playa, que después de cuatro días de carretera por el desierto no es un día perdido
 
-**Total de la semana, dos viajeros: unos 594 EUR por persona** en tours, más tu alojamiento en Agadir los días libres.
+**Total de la semana, dos viajeros: unos 682 EUR por persona** en tours, más tu alojamiento en Agadir los días libres.
 
 ## Opción 2: la semana imperial
 
@@ -5382,7 +5382,7 @@ Si Chefchaouen te importa más que ver las cuatro capitales, nuestro [tour de 5 
 La opción sin prisas, y la que recomendamos discretamente a quien viaja con niños pequeños o a quien sencillamente no disfruta de los trayectos largos.
 
 - **Día 1** — [Paradise Valley e Immouzer](/es/tours/paradise-valley-agadir-dia), 38 EUR cada uno
-- **Día 2** — [Taroudant](/es/tours/excursion-taroudant-agadir), 37 EUR cada uno
+- **Día 2** — [Taroudant](/es/tours/excursion-taroudant-agadir), 125 EUR cada uno
 - **Día 3** — playa y zoco de Agadir
 - **Días 4 y 5** — [trekking por el Anti-Atlas](/es/tours/trek-anti-atlas-agadir), 258 EUR por persona para dos, entre el granito de Tafraoute y los valles de almendros
 - **Día 6** — [Essaouira](/es/tours/excursion-essaouira-agadir), 51 EUR cada uno, la ciudad atlántica y ventosa de las barcas azules

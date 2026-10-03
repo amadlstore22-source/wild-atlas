@@ -5284,7 +5284,7 @@ Se vuoi l'upgrade, dillo quando prenoti e lo quotiamo onestamente per le tue dat
     region: "agadir-region",
     readTime: 11,
     publishedAt: "2026-08-12",
-    updatedAt: "2026-08-12",
+    updatedAt: "2026-10-03",
     tags: [
       "itinerario Agadir",
       "7 giorni in Marocco",
@@ -5361,10 +5361,10 @@ Sono quattro giorni perché non possono essere meno. Lo stesso deserto da Marrak
 Torni stanco e usi i giorni rimasti vicino alla base:
 
 - [Paradise Valley e Immouzer](/it/tours/paradise-valley-agadir-giornata), 38 EUR a persona per due: gole di palme e piscine naturali, a 35 km
-- [Taroudant](/it/tours/gita-taroudant-agadir), 37 EUR a persona per due: la città murata e il suo mercato, molto più tranquilla di Marrakech
+- [Taroudant](/it/tours/gita-taroudant-agadir), 125 EUR a persona per due: la città murata e il suo mercato, molto più tranquilla di Marrakech
 - Una giornata a non fare assolutamente nulla in spiaggia, che dopo quattro giorni di strada nel deserto non è una giornata sprecata
 
-**Totale settimana, due viaggiatori: circa 594 EUR a persona** per i tour, più il tuo alloggio ad Agadir nei giorni liberi.
+**Totale settimana, due viaggiatori: circa 682 EUR a persona** per i tour, più il tuo alloggio ad Agadir nei giorni liberi.
 
 ## Opzione 2: la settimana imperiale
 
@@ -5385,7 +5385,7 @@ Se Chefchaouen ti interessa più di vedere tutte e quattro le capitali, il nostr
 L'opzione senza fretta, e quella che consigliamo sottovoce a chi viaggia con bambini piccoli o semplicemente non ama i lunghi trasferimenti.
 
 - **Giorno 1** — [Paradise Valley e Immouzer](/it/tours/paradise-valley-agadir-giornata), 38 EUR a testa
-- **Giorno 2** — [Taroudant](/it/tours/gita-taroudant-agadir), 37 EUR a testa
+- **Giorno 2** — [Taroudant](/it/tours/gita-taroudant-agadir), 125 EUR a testa
 - **Giorno 3** — spiaggia e souk di Agadir
 - **Giorni 4 e 5** — [trekking nell'Anti-Atlante](/it/tours/trek-anti-atlante-agadir), 258 EUR a persona per due, tra il granito di Tafraoute e le valli dei mandorli
 - **Giorno 6** — [Essaouira](/it/tours/gita-essaouira-agadir), 51 EUR a testa, la ventosa città atlantica dalle barche azzurre

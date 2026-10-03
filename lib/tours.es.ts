@@ -743,8 +743,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 personas",
     reviewCount: 84,
     rating: 4.6,
-    price: 67,
-    depositAmount: 15,
+    price: 169,
+    depositAmount: 37,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [

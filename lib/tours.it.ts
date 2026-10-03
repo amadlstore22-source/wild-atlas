@@ -743,8 +743,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–14 persone",
     reviewCount: 84,
     rating: 4.6,
-    price: 67,
-    depositAmount: 15,
+    price: 169,
+    depositAmount: 37,
     heroImage:
       "/gallery/tours-taroudant-day-trip-agadir.jpg",
     gallery: [
@@ -789,7 +789,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Gita a Taroudant da Agadir",
-    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir, senza le folle turistiche. Da €67.",
+    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir, senza le folle turistiche. Da €66 a persona, 6 o più.",
     featured: false,
   },
   {

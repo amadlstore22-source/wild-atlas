@@ -5391,7 +5391,7 @@ L'opzione senza fretta, e quella che consigliamo sottovoce a chi viaggia con bam
 - **Giorno 6** — [Essaouira](/it/tours/gita-essaouira-agadir), 51 EUR a testa, la ventosa città atlantica dalle barche azzurre
 - **Giorno 7** — riposo, oppure il [parco nazionale di Souss-Massa](/it/tours/parco-nazionale-souss-massa) a 88 EUR a testa, per l'ibis eremita e la foce del fiume
 
-**Totale settimana, due viaggiatori: circa 472 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
+**Totale settimana, due viaggiatori: circa 560 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
 
 ## I trasferimenti, onestamente
 

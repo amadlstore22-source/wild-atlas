@@ -5435,7 +5435,7 @@ L'option sans précipitation, celle que nous recommandons discrètement aux fami
 - **Jour 6** — [Essaouira](/fr/tours/excursion-essaouira-agadir), 51 EUR chacun, la ville atlantique et venteuse aux barques bleues
 - **Jour 7** — repos, ou le [parc national de Souss-Massa](/fr/tours/parc-national-souss-massa) à 88 EUR chacun pour l'ibis chauve et l'embouchure du fleuve
 
-**Total de la semaine, deux voyageurs : environ 472 EUR par personne**, et aucune journée ne demande plus de deux heures de route environ.
+**Total de la semaine, deux voyageurs : environ 560 EUR par personne**, et aucune journée ne demande plus de deux heures de route environ.
 
 ## Les trajets, honnêtement
 

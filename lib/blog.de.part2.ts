@@ -5402,7 +5402,7 @@ Die entspannte Variante, und die, die wir Familien mit kleinen Kindern und allen
 - **Tag 6** — [Essaouira](/de/tours/ausflug-essaouira-agadir), 51 EUR pro Person, die windige Atlantikstadt mit den blauen Booten
 - **Tag 7** — Ruhe, oder der [Nationalpark Souss-Massa](/de/tours/nationalpark-souss-massa) für 88 EUR pro Person, wegen der Waldrappe und der Flussmündung
 
-**Wochensumme, zwei Reisende: rund 472 EUR pro Person**, und kein Tag verlangt mehr als etwa zwei Stunden Fahrt.
+**Wochensumme, zwei Reisende: rund 560 EUR pro Person**, und kein Tag verlangt mehr als etwa zwei Stunden Fahrt.
 
 ## Die Fahrten, ehrlich
 

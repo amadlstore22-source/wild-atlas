@@ -49,5 +49,17 @@ export function ogBase(
     // Tell crawlers the same page exists in the other languages. Paired with
     // the hreflang alternates each page already sets in `alternates`.
     alternateLocale: Object.values(OG_LOCALE).filter((l) => l !== locale),
+    // The layout's share image, for the same replace-not-merge reason: the
+    // destinations and events indexes and the travel-from pages declared an
+    // openGraph without images, so 17 pages shared with no picture at all.
+    // Pages with their own image set `images` after the spread and win.
+    images: [DEFAULT_OG_IMAGE],
   };
 }
+
+export const DEFAULT_OG_IMAGE = {
+  url: "/og-image.jpg",
+  width: 1200,
+  height: 630,
+  alt: "Marrakech Eco Tours — trekking the High Atlas with certified Berber guides",
+};

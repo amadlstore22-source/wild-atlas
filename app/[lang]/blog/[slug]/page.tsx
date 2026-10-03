@@ -14,7 +14,7 @@ import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import BlogTripBox from "@/components/blog/BlogTripBox";
-import { getTourFor } from "@/lib/tours-i18n";
+import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { lowestGroupPrice } from "@/lib/tours";
 import { splitBeforeFirstH2 } from "@/lib/blog-trip-box";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
@@ -241,7 +241,18 @@ export default async function BlogPostPage({ params }: BlogParams) {
          the allowlist was written to make impossible. Found by
          blog-external-links.test.ts; it predates the https:// branch above
          rather than being introduced by it. */
-      .replace(/\[([^\]]+)\]\((\/(?!\/)[^)\s]*)\)/g, '<a href="$2">$1</a>');
+      .replace(/\[([^\]]+)\]\((\/(?!\/)[^)\s]*)\)/g, (_m, text: string, href: string) => `<a href="${localizeHref(href)}">${text}</a>`);
+  }
+
+  // Translated posts link tours and posts by their English slug, which only
+  // reaches the page through a redirect. Point those links at the localised
+  // slug directly; anything already localised or unknown passes through as is.
+  function localizeHref(href: string): string {
+    const m = href.match(/^\/([a-z]{2})\/(tours|blog)\/([^/?#]+)(.*)$/);
+    if (!m || !hasLocale(m[1])) return href;
+    const [, loc, kind, seg, rest] = m;
+    const slug = kind === "tours" ? tourSlugFor(loc, seg) : blogSlugFor(loc, seg);
+    return `/${loc}/${kind}/${slug}${rest}`;
   }
 
   // ![alt](/path.jpg) with an optional "caption" after the path.
@@ -556,7 +567,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                   <h3 className="font-display text-lg font-bold text-charcoal mb-4">{dict.tourDetail.relatedArticles}</h3>
                   <div className="space-y-4">
                     {relatedPosts.map((related) => (
-                      <Link key={related.slug} href={`/${lang}/blog/${related.slug}`} className="flex gap-3 group">
+                      <Link key={related.slug} href={`/${lang}/blog/${blogSlugFor(lang, related.slug)}`} className="flex gap-3 group">
                         <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0">
                           <Image src={related.heroImage} alt={related.title} fill sizes="64px" className="object-cover" />
                         </div>
@@ -575,7 +586,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
           {(prev || next) && (
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
               {prev && (
-                <Link href={`/${lang}/blog/${prev.slug}`} className="flex items-center gap-4 bg-card rounded-[4px] p-5 shadow-sm hover:shadow-md transition-shadow group">
+                <Link href={`/${lang}/blog/${blogSlugFor(lang, prev.slug)}`} className="flex items-center gap-4 bg-card rounded-[4px] p-5 shadow-sm hover:shadow-md transition-shadow group">
                   <ArrowLeft className="w-5 h-5 text-ink-muted group-hover:text-forest transition-colors shrink-0" />
                   <div>
                     <p className="text-xs text-ink-muted uppercase tracking-wide mb-1">{dict.tourDetail.previous}</p>
@@ -584,7 +595,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
                 </Link>
               )}
               {next && (
-                <Link href={`/${lang}/blog/${next.slug}`} className="flex items-center gap-4 bg-card rounded-[4px] p-5 shadow-sm hover:shadow-md transition-shadow group sm:ml-auto sm:text-right">
+                <Link href={`/${lang}/blog/${blogSlugFor(lang, next.slug)}`} className="flex items-center gap-4 bg-card rounded-[4px] p-5 shadow-sm hover:shadow-md transition-shadow group sm:ml-auto sm:text-right">
                   <div>
                     <p className="text-xs text-ink-muted uppercase tracking-wide mb-1">{dict.tourDetail.next}</p>
                     <p className="text-charcoal font-semibold text-sm group-hover:text-forest transition-colors leading-snug">{next.title}</p>

@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
-import { toursFor, categoriesFor } from "@/lib/tours-i18n";
+import { toursFor, categoriesFor, tourSlugFor } from "@/lib/tours-i18n";
 import ToursClient from "./ToursClient";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 import { toListItem } from "@/lib/tours";
 
 type ToursPageProps = {
@@ -44,11 +46,22 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
   const dict = await getDictionary(lang);
   const { q = "", origin = "", cat = "", diff = "", dur = "", price = "" } = await searchParams;
 
+  const tours = toursFor(lang);
+  const schema = collectionPageDocument({
+    lang,
+    path: `/${lang}/tours`,
+    name: dict.seo.tours.title,
+    description: dict.seo.tours.description,
+    items: tours.map((t) => ({ name: t.title, path: `/${lang}/tours/${tourSlugFor(lang, t.slug)}` })),
+  });
+
   return (
+    <>
+    <JsonLd data={schema} />
     <ToursClient
       lang={lang}
       dict={dict}
-      tours={toursFor(lang).map(toListItem)}
+      tours={tours.map(toListItem)}
       categories={categoriesFor(lang)}
       initialSearch={q}
       initialOrigin={origin}
@@ -57,5 +70,6 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
       initialDuration={dur}
       initialPrice={price}
     />
+    </>
   );
 }

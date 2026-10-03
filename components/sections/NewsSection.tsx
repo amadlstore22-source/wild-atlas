@@ -2,7 +2,7 @@ import { formatDate } from "@/lib/format-date";
 import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, type NewsArticle, FALLBACK_MOROCCO, FALLBACK_TRAVEL } from "@/lib/news";
-import { blogPostsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, blogSlugFor } from "@/lib/blog-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -62,7 +62,7 @@ export default async function NewsSection({ lang, dict, showViewAll = true }: Pr
             {fallbackPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/${lang}/blog/${post.slug}`}
+                href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
                 className="group bg-card rounded-[4px] overflow-hidden shadow-sm border border-sand-dark hover:shadow-md transition-shadow"
               >
                 <div className="relative h-48 overflow-hidden">

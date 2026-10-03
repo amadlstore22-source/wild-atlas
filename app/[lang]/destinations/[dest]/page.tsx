@@ -8,7 +8,7 @@ import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { toursFor } from "@/lib/tours-i18n";
 import { CATEGORIES, toCardData} from "@/lib/tours";
-import { blogPostsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, blogSlugFor } from "@/lib/blog-i18n";
 import TourCard from "@/components/ui/TourCard";
 
 // Maps each destination to the blog regions whose guides are relevant to it,
@@ -409,7 +409,7 @@ export default async function DestinationPage({ params }: PageParams) {
                 {relatedPosts.map((post) => (
                   <Link
                     key={post.slug}
-                    href={`/${locale}/blog/${post.slug}`}
+                    href={`/${locale}/blog/${blogSlugFor(locale, post.slug)}`}
                     className="group flex flex-col rounded-[4px] border border-sand-dark bg-white/60 p-5 transition-colors hover:border-forest/40 hover:bg-white"
                   >
                     <span className="text-brass-deep text-[11px] font-bold uppercase tracking-[0.16em] mb-2">

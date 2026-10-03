@@ -5,10 +5,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowRight, MapPin } from "@phosphor-icons/react/dist/ssr";
 import type { BlogPost, BlogRegion } from "@/lib/blog";
-import { blogPostsFor, blogCategoriesFor, blogRegionsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, blogCategoriesFor, blogRegionsFor, blogSlugFor } from "@/lib/blog-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 type LangParams = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({
@@ -54,6 +56,7 @@ export default async function BlogPage({
 }: LangParams & { searchParams: Promise<{ category?: string; region?: string }> }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
+  const locale = lang;
   const dict = await getDictionary(lang);
   const { category, region } = await searchParams;
 
@@ -79,7 +82,7 @@ export default async function BlogPage({
   function PostCard({ post }: { post: BlogPost }) {
     const postRegion = post.region ? regions.find((r) => r.id === post.region) : null;
     return (
-      <Link href={`/${lang}/blog/${post.slug}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+      <Link href={`/${lang}/blog/${blogSlugFor(locale, post.slug)}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
         <div className="relative h-52 overflow-hidden">
           <Image src={post.heroImage} alt={post.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
           <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wide ${CATEGORY_COLORS[post.category]}`}>{post.category}</span>
@@ -102,8 +105,16 @@ export default async function BlogPage({
     );
   }
 
+  const schema = collectionPageDocument({
+    lang: locale,
+    path: `/${locale}/blog`,
+    name: dict.blog.pageTitle,
+    items: blogPostsFor(locale).map((p) => ({ name: p.title, path: `/${locale}/blog/${blogSlugFor(locale, p.slug)}` })),
+  });
+
   return (
     <div>
+      <JsonLd data={schema} />
       <div className="relative h-[55vh] min-h-[380px] flex items-end">
         <Image
           src="/gallery/destination-hero-toubkal-snow.jpg"
@@ -131,7 +142,7 @@ export default async function BlogPage({
               <MapPin className="w-4 h-4 text-sunset" />
               <span className="text-sm font-semibold text-ink-soft uppercase tracking-widest">{dict.blog.startHere}</span>
             </div>
-            <Link href={`/${lang}/blog/${pillarPost.slug}`} className="group block">
+            <Link href={`/${lang}/blog/${blogSlugFor(lang, pillarPost.slug)}`} className="group block">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden tex-emerald shadow-xl hover:shadow-2xl transition-shadow">
                 <div className="relative h-64 lg:h-auto min-h-[340px]">
                   <Image src={pillarPost.heroImage} alt={pillarPost.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
@@ -214,7 +225,7 @@ export default async function BlogPage({
         )}
 
         {featured && (
-          <Link href={`/${lang}/blog/${featured.slug}`} className="group block mb-12">
+          <Link href={`/${lang}/blog/${blogSlugFor(lang, featured.slug)}`} className="group block mb-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden bg-card shadow-md hover:shadow-xl transition-shadow">
               <div className="relative h-64 lg:h-auto min-h-[320px]">
                 <Image src={featured.heroImage} alt={featured.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover group-hover:scale-105 transition-transform duration-500" />

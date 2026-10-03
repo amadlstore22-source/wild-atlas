@@ -8,6 +8,8 @@ import CTABanner from "@/components/sections/CTABanner";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import { STATS } from "@/lib/stats";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -34,9 +36,17 @@ export default async function GuidesPage({ params }: LangParams) {
 
   const founders = guides.filter((guide) => guide.isFounder);
   const legacy = guides.filter((guide) => guide.isLegacy);
+  const schema = collectionPageDocument({
+    lang,
+    path: `/${lang}/guides`,
+    name: dict.seo.guides.title,
+    description: dict.seo.guides.description,
+    items: guides.map((x) => ({ name: x.name, path: `/${lang}/guides/${x.id}` })),
+  });
 
   return (
     <>
+      <JsonLd data={schema} />
       {/* ── Hero ── */}
       <div className="relative tex-emerald overflow-hidden">
         <div

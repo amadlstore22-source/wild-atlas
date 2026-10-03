@@ -331,7 +331,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["hiking", "day-tours"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Excursion cascades d'Ouzoud de Marrakech | Marrakech Eco Tours",
+    seoTitle: "Guide de voyage aux cascades d'Ouzoud | Marrakech Eco Tours",
     seoDescription: "Visitez les cascades d'Ouzoud (110 m) depuis Marrakech : randonnées guidées en gorge, magots de Barbarie sauvages, bassins de baignade et arc-en-ciel naturel.",
   },
   {

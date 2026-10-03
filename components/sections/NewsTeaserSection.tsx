@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { fetchNewsArticles, FALLBACK_MOROCCO, FALLBACK_TRAVEL, type NewsArticle } from "@/lib/news";
 import { ZelligeField } from "@/components/ui/MoroccanMotifs";
-import { blogPostsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, blogSlugFor } from "@/lib/blog-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
@@ -82,7 +82,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
               </a>
             ) : fallbackPost ? (
               <Link
-                href={`/${lang}/blog/${fallbackPost.slug}`}
+                href={`/${lang}/blog/${blogSlugFor(lang, fallbackPost.slug)}`}
                 className="group relative block rounded-[4px] overflow-hidden h-72 sm:h-96"
               >
                 <Image
@@ -108,7 +108,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
               ? fallbackSide.map((post) => (
                   <Link
                     key={post.slug}
-                    href={`/${lang}/blog/${post.slug}`}
+                    href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
                     className="group flex gap-4 bg-card rounded-[4px] p-4 ring-1 ring-sand-deep hover:ring-brass/40 transition-colors"
                   >
                     <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden">

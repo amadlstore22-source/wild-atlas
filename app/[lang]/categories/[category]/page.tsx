@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CATEGORIES, type Category, toCardData} from "@/lib/tours";
-import { getCategoryFor, getToursByCategoryFor } from "@/lib/tours-i18n";
+import { getCategoryFor, getToursByCategoryFor, tourSlugFor } from "@/lib/tours-i18n";
 import TourCard from "@/components/ui/TourCard";
 import CTABanner from "@/components/sections/CTABanner";
 import { STATS } from "@/lib/stats";
@@ -59,7 +59,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
     itemListElement: tours.map((t, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `https://marrakechecotours.com/${lang}/tours/${t.slug}`,
+      url: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, t.slug)}`,
       name: t.title,
     })),
   };

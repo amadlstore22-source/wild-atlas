@@ -7,6 +7,8 @@ import CTABanner from "@/components/sections/CTABanner";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { STATS } from "@/lib/stats";
 import { hreflangForPath } from "@/lib/seo/hreflang";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -32,9 +34,11 @@ export default async function NewsPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const schema = collectionPageDocument({ lang, path: `/${lang}/news`, name: dict.news.title });
 
   return (
     <>
+      <JsonLd data={schema} />
       {/* Hero */}
       <div className="bg-forest py-20 px-4">
         <div className="max-w-7xl mx-auto">

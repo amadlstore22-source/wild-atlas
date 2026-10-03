@@ -83,6 +83,54 @@ export function breadcrumbDocument(crumbs: Crumb[]) {
 }
 
 /**
+ * CollectionPage + BreadcrumbList for a listing page (tours, blog,
+ * destinations, guides, events, news). Those 36 pages shipped with no
+ * structured data at all while every detail page under them had some, so
+ * nothing told search engines what the index pages list. Item paths must be
+ * the localised URLs the page links to, never English slugs that redirect.
+ */
+export function collectionPageDocument(opts: {
+  lang: string;
+  path: string;
+  name: string;
+  description?: string;
+  items?: Crumb[];
+}) {
+  const url = `${SITE}${opts.path}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${url}#page`,
+        url,
+        name: opts.name,
+        ...(opts.description ? { description: opts.description } : {}),
+        inLanguage: opts.lang,
+        ...(opts.items?.length
+          ? {
+              mainEntity: {
+                "@type": "ItemList",
+                numberOfItems: opts.items.length,
+                itemListElement: opts.items.map((it, i) => ({
+                  "@type": "ListItem",
+                  position: i + 1,
+                  url: `${SITE}${it.path}`,
+                  name: it.name,
+                })),
+              },
+            }
+          : {}),
+      },
+      buildBreadcrumbSchema([
+        { name: "Marrakech Eco Tours", path: `/${opts.lang}` },
+        { name: opts.name, path: opts.path },
+      ]),
+    ],
+  };
+}
+
+/**
  * AggregateOffer spanning a tour's whole per-person price ladder.
  *
  * A plain `Offer` carrying `tour.price` quotes the SOLO rate — the most

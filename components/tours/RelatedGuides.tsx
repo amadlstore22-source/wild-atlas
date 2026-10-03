@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Clock } from "@phosphor-icons/react/dist/ssr";
-import { blogPostsFor } from "@/lib/blog-i18n";
+import { blogPostsFor, blogSlugFor } from "@/lib/blog-i18n";
 import type { BlogPost } from "@/lib/blog";
 import type { Tour } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -121,7 +121,7 @@ export default function RelatedGuides({
           {guides.map((post) => (
             <Link
               key={post.slug}
-              href={`/${lang}/blog/${post.slug}`}
+              href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
               className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="relative aspect-[16/10] overflow-hidden">

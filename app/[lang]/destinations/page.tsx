@@ -7,6 +7,8 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { destinationsFor } from "@/lib/destinations-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { ogBase } from "@/lib/seo/open-graph";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -64,9 +66,17 @@ export default async function DestinationsPage({ params }: LangParams) {
   const dict = await getDictionary(lang);
   const d = dict.destinationsPage;
   const DESTINATIONS = destinationsFor(lang);
+  const schema = collectionPageDocument({
+    lang,
+    path: `/${lang}/destinations`,
+    name: dict.seo.destinations.title,
+    description: dict.seo.destinations.description,
+    items: DESTINATIONS.map((x) => ({ name: x.name, path: `/${lang}/destinations/${x.slug}` })),
+  });
 
   return (
     <div>
+      <JsonLd data={schema} />
       {/* Hero */}
       <div className="relative py-32 tex-emerald overflow-hidden">
         <div className="absolute inset-0">

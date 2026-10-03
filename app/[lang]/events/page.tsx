@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
+import JsonLd from "@/components/seo/JsonLd";
+import { collectionPageDocument } from "@/lib/seo/schema";
 import type { TourEvent } from "@/lib/events";
 import { upcomingEventsFor } from "@/lib/events.i18n";
 import BookingStatus from "@/components/events/BookingStatus";
@@ -40,9 +42,16 @@ export default async function EventsPage({ params }: LangParams) {
   const dict = await getDictionary(lang);
   const t = dict.events;
   const events = upcomingEventsFor(lang);
+  const schema = collectionPageDocument({
+    lang,
+    path: `/${lang}/events`,
+    name: t.metaTitle,
+    items: events.map((x) => ({ name: x.name, path: `/${lang}/events/${x.slug}` })),
+  });
 
   return (
     <div className="bg-[var(--color-sand)]">
+      <JsonLd data={schema} />
       <section className="relative overflow-hidden bg-[var(--color-ink)] py-16 sm:py-24">
         <ZelligeBand className="absolute inset-x-0 bottom-0 opacity-20" />
         <div className="relative mx-auto max-w-4xl px-4 text-center">

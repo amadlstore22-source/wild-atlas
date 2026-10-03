@@ -5431,11 +5431,11 @@ L'option sans précipitation, celle que nous recommandons discrètement aux fami
 - **Jour 1** — [Paradise Valley et Immouzer](/fr/tours/paradise-valley-agadir-journee), 38 EUR chacun
 - **Jour 2** — [Taroudant](/fr/tours/excursion-taroudant-agadir), 125 EUR chacun
 - **Jour 3** — plage et souk d'Agadir
-- **Jours 4 et 5** — [trek dans l'Anti-Atlas](/fr/tours/trek-anti-atlas-agadir), 258 EUR par personne pour deux, dans le granit de Tafraoute et les vallées d'amandiers
+- **Jours 4 et 5** — [trek dans l'Anti-Atlas](/fr/tours/trek-anti-atlas-agadir), 525 EUR par personne pour deux, dans le granit de Tafraoute et les vallées d'amandiers
 - **Jour 6** — [Essaouira](/fr/tours/excursion-essaouira-agadir), 51 EUR chacun, la ville atlantique et venteuse aux barques bleues
 - **Jour 7** — repos, ou le [parc national de Souss-Massa](/fr/tours/parc-national-souss-massa) à 88 EUR chacun pour l'ibis chauve et l'embouchure du fleuve
 
-**Total de la semaine, deux voyageurs : environ 560 EUR par personne**, et aucune journée ne demande plus de deux heures de route environ.
+**Total de la semaine, deux voyageurs : environ 827 EUR par personne**, et aucune journée ne demande plus de deux heures de route environ.
 
 ## Les trajets, honnêtement
 

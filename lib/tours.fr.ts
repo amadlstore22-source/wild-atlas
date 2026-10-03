@@ -872,8 +872,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 personnes",
     reviewCount: 29,
     rating: 4.8,
-    price: 457,
-    depositAmount: 101,
+    price: 1050,
+    depositAmount: 210,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [

@@ -1223,19 +1223,17 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 29,
     rating: 4.8,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Operator-set ladder, 2026-10-03.
     groupPricing: [
-      { minPeople: 1, price: 457 },
-      { minPeople: 2, price: 258 },
-      { minPeople: 3, price: 227 },
-      { minPeople: 4, price: 212 },
-      { minPeople: 5, price: 199 },
-      { minPeople: 6, price: 186 },
+      { minPeople: 1, price: 1050 },
+      { minPeople: 2, price: 525 },
+      { minPeople: 3, price: 410 },
+      { minPeople: 4, price: 350 },
+      { minPeople: 5, price: 330 },
+      { minPeople: 6, price: 310 },
     ],
-    price: 457,
-    depositAmount: 101,
+    price: 1050,
+    depositAmount: 210,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [
@@ -1306,7 +1304,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 29.7231, lng: -8.9762, name: "Tafraoute, Anti-Atlas Mountains" },
     seoTitle: "3-Day Anti-Atlas Mountains Trek from Agadir",
     seoDescription:
-      "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. From €186 pp for 6+.",
+      "3-day trek through Morocco's most underrated mountain range — pink granite peaks, almond blossom gorges, and remote Berber villages. From €310 pp for 6+.",
     featured: true,
   },
   {

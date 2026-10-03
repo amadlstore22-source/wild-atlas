@@ -7719,11 +7719,11 @@ The unhurried option, and the one we quietly recommend to people travelling with
 - **Day 1** — [Paradise Valley and Immouzer](/en/tours/paradise-valley-agadir), 38 EUR each
 - **Day 2** — [Taroudant](/en/tours/taroudant-day-trip-agadir), 125 EUR each
 - **Day 3** — beach and the Agadir souk
-- **Days 4–5** — [Anti-Atlas trekking](/en/tours/anti-atlas-trekking-agadir), 258 EUR per person for two, in the Tafraoute granite and the almond valleys
+- **Days 4–5** — [Anti-Atlas trekking](/en/tours/anti-atlas-trekking-agadir), 525 EUR per person for two, in the Tafraoute granite and the almond valleys
 - **Day 6** — [Essaouira](/en/tours/agadir-to-essaouira-day-trip), 51 EUR each, the windy Atlantic town with the blue boats
 - **Day 7** — rest, or [Souss-Massa National Park](/en/tours/sous-massa-national-park) at 88 EUR each for the bald ibis and the river mouth
 
-**Week total, two travellers: roughly 560 EUR per person**, and no day requires more than about two hours of driving.
+**Week total, two travellers: roughly 827 EUR per person**, and no day requires more than about two hours of driving.
 
 ## The drives, honestly
 

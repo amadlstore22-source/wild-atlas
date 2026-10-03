@@ -789,7 +789,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4702, lng: -8.8773, name: "Taroudant, Souss Valley" },
     seoTitle: "Gita a Taroudant da Agadir",
-    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir, senza le folle turistiche. Da €66 a persona, 6 o più.",
+    seoDescription: "Scopri le mura del XVI secolo meglio conservate del Marocco e gli autentici mercati berberi di Taroudant — a 80 km da Agadir. Da €66 a persona, 6 o più.",
     featured: false,
   },
   {
@@ -863,8 +863,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 persone",
     reviewCount: 29,
     rating: 4.8,
-    price: 457,
-    depositAmount: 101,
+    price: 1050,
+    depositAmount: 210,
     heroImage:
       "/gallery/tours-anti-atlas-trekking-agadir.jpg",
     gallery: [

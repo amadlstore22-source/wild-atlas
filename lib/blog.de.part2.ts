@@ -6193,7 +6193,7 @@ kalkuliert wird, unsere eingeschlossen.
 
 Bei einer privaten Tour sind Guide, Fahrzeug und Fahrer ein fixer Kostenblock, der auf die
 Buchenden verteilt wird. Eine Person zahlt alles; sechs teilen durch sechs. Deshalb reicht
-unser [4-tägiger Toubkal-Trek](/en/tours/toubkal-summit-trek-4day) von 650 € allein bis zu
+unser [4-tägiger Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) von 650 € allein bis zu
 260 € pro Person zu sechst.
 
 Ein fester Termin kehrt das um. Die Reise startet an ihrem veröffentlichten Datum, ob vier
@@ -6207,7 +6207,7 @@ Aus unserem eigenen Programm, zum Einzelpreis:
 
 | Baustein | Vergleichbare Tour | Einzelpreis |
 |---|---|---|
-| Toubkal-Gipfel | [4-tägiger Toubkal-Trek](/en/tours/toubkal-summit-trek-4day) zu 650 € allein | 650 € |
+| Toubkal-Gipfel | [4-tägiger Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) zu 650 € allein | 650 € |
 | Sahara / Erg Chebbi | 3-tägige private Sahara-Tour | 690 € |
 | Medina Marrakesch | Geführte Kulturtour | 73 € |
 | **Summe** | | **1.413 €** |
@@ -6242,7 +6242,7 @@ dazwischen.
 
 Fünf Daten, März und April 2027, je 14 Plätze. Die März-Termine bedeuten winterliche
 Verhältnisse am Gipfel — lesen Sie
-[Toubkal im März besteigen](/en/blog/climbing-toubkal-in-march), bevor Sie wählen, denn der
+[Toubkal im März besteigen](/de/blog/climbing-toubkal-in-march), bevor Sie wählen, denn der
 Berg Anfang März und derselbe Berg Mitte April sind spürbar verschiedene Unternehmungen.
 
 ## Kurz gefasst
@@ -6337,7 +6337,7 @@ halbieren macht daraus eine Kuriosität.
 Nicht auf der Normalroute des Toubkal, und wir sagen das lieber klar, als das Gegenteil
 anklingen zu lassen.
 
-Unsere [Toubkal-Treks](/en/tours/toubkal-summit-trek-4day) führen auf den Toubkal-Gipfel
+Unsere [Toubkal-Treks](/de/tours/toubkal-summit-trek-4day) führen auf den Toubkal-Gipfel
 auf 4.167 m und zurück zur Hütte. Tibherine ist ein eigenes Ziel auf einer anderen, weit
 weniger begangenen Linie. Der Zustieg ist unmarkiert, locker und steiler als alles auf dem
 Touristenpfad.
@@ -6423,14 +6423,14 @@ Einstieg, mit deutlich höherer Erfolgsquote.
 Schnee sicher fühlen. Es ist ruhiger, und die Gipfelsicht in kalter, klarer Luft ist die
 beste des Jahres.
 
-Unsere [8-tägigen Toubkal- und Sahara-Termine](/en/tours/morocco-highlights-toubkal-sahara-8day)
+Unsere [8-tägigen Toubkal- und Sahara-Termine](/de/tours/morocco-highlights-toubkal-sahara-8day)
 liegen bewusst auf beiden Seiten dieser Grenze — drei Termine im März, zwei im April. Wenn
 Sie zwischen ihnen schwanken, ist der Absatz oben die Entscheidung.
 
 ## Gönnen Sie sich den zusätzlichen Tag
 
 In jedem Monat entscheidet die Höhe über mehr Gipfel als die Fitness. Das
-[4-Tage-Programm](/en/tours/toubkal-summit-trek-4day) steigt allmählich an, mit einer Nacht
+[4-Tage-Programm](/de/tours/toubkal-summit-trek-4day) steigt allmählich an, mit einer Nacht
 zur Akklimatisation; die 2-Tage-Variante geht in rund dreißig Stunden von 1.740 m auf
 4.167 m. Im März, wenn der Gipfelgang ohnehin härter und langsamer ist, ist dieser Tag mehr
 wert als im Juli.
@@ -6474,7 +6474,7 @@ nie tut.
 
 ## Was es kostet
 
-Unser [3-tägiger Aguelzim-Trek](/en/tours/toubkal-aguelzim-pass-3day) kostet 600 € für eine
+Unser [3-tägiger Aguelzim-Trek](/de/tours/toubkal-aguelzim-pass-3day) kostet 600 € für eine
 Person, 302 € pro Person zu zweit und 230 € pro Person zu sechst. Wie alle unsere privaten
 Termine ist er nach einer fallenden Skala kalkuliert, weil Guide und Transport ein fixer
 Kostenblock sind, der auf die Teilnehmer verteilt wird: der Preis pro Person sinkt also mit
@@ -6493,7 +6493,7 @@ darin, wie wahrscheinlich Sie den Gipfel in gutem Zustand erreichen.
 
 Sie passt zu erfahrenen Bergwanderern, die schon mehrtägige Touren gemacht haben und den
 Berg lieber für sich hätten, als die einfachste Linie zu nehmen. Wenn dies Ihr erster
-großer Gipfel ist, ist die [4-tägige Normalroute](/en/tours/toubkal-summit-trek-4day) die
+großer Gipfel ist, ist die [4-tägige Normalroute](/de/tours/toubkal-summit-trek-4day) die
 bessere Wahl, und wir sagen Ihnen das auch, wenn Sie fragen.
 
 ## Was enthalten ist
@@ -8102,6 +8102,504 @@ Die Nächte verbringen Sie bei Berberfamilien: Abendessen aus der Hausküche, Br
 Für den Rest der Reise, von Kindersitzen bis zu wählerischen Essern, lesen Sie unseren Ratgeber [Marokko mit Kindern](/de/blog/marokko-mit-kindern-familienreise).
 
 👉 **[Zum 4-tägigen Familientrek](/de/tours/familien-atlas-trek-4-tage)**: kurze Tage, Nächte im Dorf und Maultiere für das Gepäck, mit einem Guide aus diesen Tälern.
+`,
+  },
+  {
+    slug: "paradise-valley-agadir-cost",
+    localizedSlug: "paradise-valley-agadir-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet ein Ausflug ins Paradise Valley ab Agadir?",
+    excerpt:
+      "Ein privater Tagesausflug ins Paradise Valley ab Agadir kostet 38 € pro Person zu zweit und 22 € zu sechst. Hier sind die vollen Kosten – Transport, Guide und was der Tag wirklich beinhaltet.",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Paradise Valley Kosten", "Paradise Valley Preis", "Agadir Ausflug Kosten", "Paradise Valley Agadir", "Imouzzer Wasserfälle"],
+    seoTitle: "Paradise Valley ab Agadir: Kosten",
+    seoDescription:
+      "Was ein Ausflug ins Paradise Valley ab Agadir kostet: 38 € pro Person zu zweit, 22 € zu sechst. Transport, Guide und Abstecher nach Imouzzer im Detail.",
+    relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
+    faq: [
+      { q: "Was kostet ein Ausflug ins Paradise Valley ab Agadir?", a: "Unser privater Tagesausflug kostet 38 € pro Person, wenn Sie zu zweit reisen, 27 € zu viert und 22 € zu sechst. Allein kostet er 75 €, weil eine Person die gesamten Kosten für Fahrzeug und Fahrer-Guide trägt, statt sie zu teilen. Im Preis enthalten sind die Hin- und Rückfahrt ab Ihrem Hotel in Agadir oder Taghazout, ein Fahrer-Guide und die Fahrt hinauf Richtung Imouzzer, wenn der Wasserstand es lohnt." },
+      { q: "Ist der Eintritt ins Paradise Valley kostenlos?", a: "Ja. Das Paradise Valley ist eine natürliche Flussschlucht und keine Attraktion mit Ticket, daher gibt es weder Eintritt noch Parkgebühr. Bei einem Ausflug bezahlen Sie den 35 km langen Transfer ab Agadir, den Fahrer-Guide und das Wissen, welche Becken an diesem Tag wirklich Wasser führen – vom Spätsommer bis in den Herbst sinkt der Wasserstand und die guten Becken wechseln." },
+      { q: "Kann man auch mit dem Taxi ins Paradise Valley fahren?", a: "Ja. Ein Grand Taxi ab Agadir lässt sich auf etwa 400–700 MAD hin und zurück für das Fahrzeug verhandeln, je nach Verhandlungsgeschick und Wartezeit. Für eine Gruppe ab vier Personen ist das oft günstiger als ein Ausflug und eine völlig legitime Option. Was Ihnen fehlt, ist ein Guide, der die Becken kennt – und der wartende Fahrer wird zu Ihrer Uhr." },
+      { q: "Wann ist die beste Reisezeit für das Paradise Valley?", a: "Februar bis Juni, wenn Schneeschmelze und Frühlingsregen die Becken füllen und man schwimmen kann. Ende August kann das Wasser in den unteren Becken flach, warm und grün sein. Im Winter kann man gut durch die Schlucht wandern, aber zum Schwimmen ist es kalt, und nach starkem Regen wird das Tal gelegentlich überflutet und gesperrt." },
+      { q: "Wie lange dauert der Ausflug?", a: "Einen ganzen Tag, in der Regel acht bis neun Stunden von Tür zu Tür ab Agadir. Die Fahrt dauert etwa eine Stunde pro Strecke, sodass der größte Teil des Tages im Tal selbst bleibt – genug Zeit, um zwischen mehreren Becken zu wandern, zu schwimmen und auf einer der Terrassen über dem Fluss zu Mittag zu essen, ohne nach Fahrplan herumgeführt zu werden." },
+    ],
+    content: `
+## Was das Paradise Valley wirklich kostet
+
+Zuerst die Zahl: Unser privater [Tagesausflug ins Paradise Valley](/de/tours/paradise-valley-agadir-tagestour)
+kostet **38 € pro Person, wenn Sie zu zweit reisen**, 27 € zu viert und **22 € zu sechst**.
+Allein sind es 75 €, weil eine Person die gesamten Kosten für Fahrzeug und Fahrer-Guide
+trägt, statt sie mit jemandem zu teilen.
+
+Das ist der ganze Preis. Es gibt keine Parkgebühr, keinen Eintritt und keinen
+Pflicht-Guide obendrauf, denn das Paradise Valley ist eine Flussschlucht und keine
+verwaltete Sehenswürdigkeit.
+
+## Warum der Preis pro Person so stark sinkt
+
+Fast alles, wofür Sie bezahlen, ist fix: ein Fahrzeug, ein Fahrer-Guide und der Treibstoff
+für 70 km hin und zurück. Das kostet gleich viel, ob eine oder sechs Personen im Auto sitzen.
+Der Preis pro Person ist also eigentlich dieser Fixbetrag geteilt durch die Zahl der Reisenden.
+
+| Gruppengröße | Pro Person | Was Sie wirklich bezahlen |
+|---|---|---|
+| 1 | 75 € | Das ganze Fahrzeug und den Guide, allein |
+| 2 | 38 € | Je die Hälfte |
+| 4 | 27 € | Je ein Viertel |
+| 6 | 22 € | Je ein Sechstel |
+
+Das sollten Sie wissen, bevor Sie Angebote vergleichen. Ein Anbieter, der mit „ab 22 €“
+wirbt, nennt den Preis für sechs Personen, und einer, der 75 € nennt, meint vielleicht den
+Einzelpreis für genau denselben Ausflug. Ehrlich vergleichen lässt sich nur bei Ihrer
+tatsächlichen Gruppengröße.
+
+## Auf eigene Faust
+
+Sie brauchen keinen Ausflug, um das Paradise Valley zu sehen, und das sagen wir lieber
+offen, als etwas anderes zu behaupten.
+
+- **Grand Taxi**: etwa **400–700 MAD** hin und zurück für das Fahrzeug, am Taxistand
+  verhandelt, mit wartendem Fahrer. Ab vier Personen ist das meist günstiger als ein Ausflug.
+- **Mietwagen**: Die Straße ist bis zum Hauptparkplatz asphaltiert und unproblematisch. Das
+  Parken ist informell, und jemand bittet um ein paar Dirham, um auf das Auto aufzupassen.
+- **Linienbus**: Es gibt keine sinnvolle direkte Verbindung. Planen Sie nicht damit.
+
+Was Ihnen ein Ausflug bringt, ist das Wissen, wo das Wasser ist. Die Becken verändern sich im
+Lauf der Saison – das bekannte Becken am Parkplatz kann im September überfüllt und flach
+sein, während zwanzig Minuten flussaufwärts viel besseres Wasser liegt. Ein Fahrer, der
+letzte Woche dort war, weiß das; eine Karte nicht.
+
+## Was der Tag beinhaltet
+
+Unser Preis umfasst die Hin- und Rückfahrt ab Ihrem Hotel in Agadir oder Taghazout, den
+Fahrer-Guide und die Fahrt Richtung Imouzzer, wenn sich die Wasserfälle lohnen. Das
+Mittagessen ist nicht inbegriffen – Sie essen auf einer der Terrassen am Fluss, meist 60–100
+MAD für eine Tajine und ein Getränk, und bezahlen selbst, statt es mit Aufschlag in einem
+Paket zu bezahlen.
+
+Schwimmen ist kostenlos und die Becken sind öffentlich. Nehmen Sie Schuhe mit, in denen Sie
+auf nassem Fels laufen können; der polierte Kalkstein am Beckenrand ist wirklich rutschig.
+
+## Lohnt es sich, dafür zu bezahlen?
+
+Wenn Sie zu viert oder mehr sind und sich zutrauen, ein Taxi zu verhandeln, tun Sie das und
+sparen Sie die Differenz. Zu zweit ist der Ausflug preislich so nah dran, dass der Guide
+praktisch gratis ist. Wenn Sie am selben Tag auch die Wasserfälle von Imouzzer sehen wollen,
+nehmen Sie den Ausflug – diese Strecke sind weitere 40 km Bergstraße, und Taxifahrer
+berechnen sie entsprechend.
+
+**[Den Tagesausflug ins Paradise Valley ansehen](/de/tours/paradise-valley-agadir-tagestour)** oder in
+unserem [kompletten Paradise-Valley-Guide](/de/blog/paradise-valley-agadir-complete-guide)
+nachlesen, wie die Wanderung selbst ist.
+`,
+  },
+  {
+    slug: "merzouga-3-day-tour-cost",
+    localizedSlug: "merzouga-3-tage-tour-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet eine 3-tägige Wüstentour nach Merzouga?",
+    excerpt:
+      "Eine geteilte 3-Tage-Tour nach Merzouga ab Marrakesch kostet 120 € pro Person. Eine private ab Agadir kostet 366 € pro Person zu zweit. Das kauft der Unterschied wirklich.",
+    heroImage: "/gallery/camel-caravan-sunset-riders.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Merzouga Tour Kosten", "3 Tage Wüstentour Preis", "Erg Chebbi Kosten", "Merzouga Preis", "Sahara Tour Kosten"],
+    seoTitle: "3-Tage-Tour Merzouga: Kosten",
+    seoDescription:
+      "Was eine 3-tägige Merzouga-Tour 2026 kostet: 120 € pro Person geteilt ab Marrakesch, 366 € pro Person privat zu zweit. Was der Unterschied bringt.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-3day-agadir", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "Was kostet eine 3-tägige Tour nach Merzouga?", a: "Unsere geteilte 3-Tage-Tour ab Marrakesch kostet 120 € pro Person – der realistische Marktpreis für einen Platz im Minibus mit festem Programm. Eine private 3-Tage-Tour ab Agadir kostet 366 € pro Person zu zweit, 225 € zu viert und 170 € zu sechst – der Unterschied ist weniger ein Komfort-Upgrade als der Preis dafür, das Fahrzeug nicht mit Fremden zu teilen." },
+      { q: "Warum ist eine private Merzouga-Tour so viel teurer?", a: "Weil eine geteilte Tour ein Fahrzeug und einen Fahrer auf zwölf bis sechzehn zahlende Plätze verteilt, eine private Tour dieselben Fixkosten aber nur auf Ihre Gruppe. Zu sechst kostet eine private Tour 170 € pro Person, also viel näher am geteilten Preis, als der Einzelpreis vermuten lässt. Der Unterschied pro Person schrumpft deutlich, je größer Ihre Gruppe ist." },
+      { q: "Lohnt sich eine 3-Tage-Tour nach Merzouga mehr als 2 Tage Zagora?", a: "Wenn Sie die hohen Dünen wollen, ja. Der Erg Chebbi bei Merzouga ist ein echtes Sandmeer mit Dünen bis 150 m und liegt pro Strecke eine volle Tagesfahrt von Marrakesch entfernt – der dritte Tag existiert wegen dieser Entfernung. Zagora ist näher und günstiger, aber seine Dünen sind im Vergleich niedrig und mit Gestrüpp bewachsen. Siehe unseren Vergleich [Merzouga oder Zagora](/de/blog/merzouga-vs-zagora-which-desert-tour)." },
+      { q: "Was ist im Tourpreis nicht enthalten?", a: "Mittagessen unterwegs sind in der ganzen Branche meist ausgeschlossen, bei uns auch – rechnen Sie mit 70–120 MAD pro Mahlzeit. Getränke, Trinkgeld für Fahrer und Camp-Team sowie ein Upgrade auf ein privates Zelt mit eigenem Bad kosten ebenfalls extra. Abendessen und Frühstück im Camp, der Kamelritt und das Bett im Camp sind inbegriffen." },
+      { q: "Wie viel Trinkgeld gibt man auf einer Wüstentour?", a: "Etwa 100–150 MAD pro Tag für den Fahrer von der ganzen Gruppe und 50–100 MAD für das Camp-Team in der Wüstennacht. Geben Sie es am Ende bar in Dirham. Es ist üblich, aber nicht Pflicht, und niemand wird unfreundlich, wenn Sie darauf verzichten." },
+    ],
+    content: `
+## Die zwei Preise und warum sie so weit auseinanderliegen
+
+Eine dreitägige Merzouga-Tour hat zwei ehrliche Preise, je nachdem, wie Sie reisen:
+
+- **Geteilt, ab Marrakesch: 120 € pro Person.** Ein Platz im Minibus, feste Abfahrtstage,
+  festes Programm, zwölf bis sechzehn Personen. Das ist unsere
+  [geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt).
+- **Privat, ab Agadir: 366 € pro Person zu zweit**, 225 € zu viert, 170 € zu sechst.
+  Ihr eigenes Fahrzeug und Ihr eigener Fahrer, Ihre eigenen Zeiten. Das ist unsere
+  [3-Tage-Tour nach Merzouga ab Agadir](/de/tours/merzouga-3-tage-agadir).
+
+Beide führen durch dieselbe Landschaft. Der Unterschied ist kein Luxus – er ist Rechnen.
+
+## Warum der Abstand mit der Gruppengröße schrumpft
+
+Eine geteilte Tour verteilt ein Fahrzeug, einen Fahrer und eine Tankrechnung auf alle
+verkauften Plätze. Eine private Tour verteilt dieselben Fixkosten nur auf Ihre Gruppe. Also:
+
+| Gruppengröße | Privat, pro Person | Im Vergleich zu 120 € geteilt |
+|---|---|---|
+| 1 | 728 € | 6-mal der geteilte Preis |
+| 2 | 366 € | 3-mal |
+| 4 | 225 € | Knapp 2-mal |
+| 6 | 170 € | 1,4-mal |
+
+Zu sechst kostet eine private Tour 50 € pro Kopf mehr als ein Minibus-Platz, und Sie haben
+Ihr eigenes Fahrzeug, Ihre eigene Abfahrtszeit und kein Warten bei vier Hotelabholungen. Das
+ist eine ganz andere Entscheidung als die, die der Einzelpreis nahelegt.
+
+## Was der Preis wirklich abdeckt
+
+Bei beiden Varianten: Transport für die ganze Rundreise, eine Nacht in der Gegend von Dadès
+oder Todra, eine Nacht in einem Wüstencamp im Erg Chebbi, der Kamelritt zum Camp, Abendessen
+und Frühstück im Camp sowie die Rückfahrt.
+
+Nicht enthalten, und das sagen wir offen: **Mittagessen unterwegs** (je 70–120 MAD),
+Getränke, Trinkgeld und ein Upgrade auf ein Zelt mit eigenem Bad. Fast jeder Anbieter in
+Marokko schließt das Mittagessen unterwegs aus; seien Sie skeptisch bei einem, der zu einem
+ähnlichen Preis das Gegenteil behauptet, denn meist steckt es dann irgendwo anders drin.
+
+## Die Strecke ist der eigentliche Kostenfaktor
+
+Von Marrakesch nach Merzouga sind es pro Strecke rund 560 km über den Tizi-n'Tichka-Pass.
+Deshalb ist das eine Drei-Tage-Reise und keine zweitägige, und deshalb kann der Preis kaum
+weiter sinken, ohne an etwas Echtem zu sparen – meist an der Wüstennacht, ersetzt durch ein
+Hotel in Erfoud, oder am Camp selbst, herabgestuft zu einer Herberge an der Straße.
+
+Wenn Sie nur zwei Tage haben, quetschen Sie diese Route nicht zusammen. Nehmen Sie stattdessen
+[Zagora](/de/tours/zagora-wueste-2-tage-geteilt), das wirklich in zwei Tagen erreichbar ist,
+oder die [Sternennacht-Tour in Merzouga](/de/tours/sternenhimmel-merzouga), wenn
+es Ihnen eigentlich um den Nachthimmel geht.
+
+## Was buchen?
+
+Zwei Personen mit knappem Budget: Nehmen Sie die geteilte Tour und akzeptieren Sie den festen
+Ablauf. Ab vier Personen, mit Kindern oder bei knapper Flugzeit: Die private Tour ist ihr
+Geld wert, und zu sechst ist der Unterschied gering.
+
+**[Geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt)** ·
+**[Privat ab Agadir](/de/tours/merzouga-3-tage-agadir)**
+`,
+  },
+  {
+    slug: "zagora-2-day-tour-cost",
+    localizedSlug: "zagora-2-tage-tour-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet eine 2-tägige Wüstentour nach Zagora?",
+    excerpt:
+      "Eine geteilte 2-Tage-Tour nach Zagora ab Marrakesch kostet 85 € pro Person – die günstigste echte Wüstennacht in Marokko. Das ist enthalten, und das nicht.",
+    heroImage: "/gallery/caravan-dune-ridge-long-shadows.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Zagora Tour Kosten", "2 Tage Wüstentour Preis", "Zagora Preis", "günstige Sahara Tour", "Marrakesch Wüstentour Kosten"],
+    seoTitle: "2-Tage-Tour Zagora: Kosten 2026",
+    seoDescription:
+      "Was eine 2-tägige Zagora-Tour kostet: 85 € pro Person geteilt ab Marrakesch, 400 € pro Person privat zu zweit ab Agadir. Was inbegriffen ist.",
+    relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
+    faq: [
+      { q: "Was kostet eine 2-tägige Tour nach Zagora?", a: "Unsere geteilte 2-Tage-Tour ab Marrakesch kostet 85 € pro Person – ungefähr so günstig, wie eine echte Wüstennacht in Marokko sein kann. Eine private Variante ab Agadir kostet 400 € pro Person zu zweit, 220 € zu viert und 195 € ab fünf Personen. Der geteilte Preis ist niedrig, weil das Fahrzeug voll und das Programm fest ist." },
+      { q: "Ist Zagora besser als Merzouga?", a: "Näher und günstiger, nicht besser. Zagora liegt rund 360 km von Marrakesch entfernt, Merzouga 560 km – deshalb passt es in zwei Tage. Seine Dünen sind aber niedrig und mit Gestrüpp bewachsen, während der Erg Chebbi bei Merzouga ein echtes Sandmeer mit Dünen bis 150 m ist. Wenn Sie sich die hohen Dünen vorstellen, zahlen Sie für den dritten Tag." },
+      { q: "Warum ist eine 2-Tage-Tour nach Zagora so günstig?", a: "Weil die Strecke kurz genug für einen Tag pro Richtung ist, das Camp nah an der Straße liegt und geteilte Abfahrten einen Minibus mit zwölf bis sechzehn zahlenden Plätzen füllen. Nichts davon erfordert Abstriche – die Reise ist wirklich günstiger durchzuführen als Merzouga, und der Preis spiegelt die Entfernung wider, nicht die Qualität." },
+      { q: "Was ist im Preis der Zagora-Tour enthalten?", a: "Hin- und Rückfahrt ab Marrakesch, die Fahrt über den Tizi-n'Tichka-Pass mit Halt in Aït Ben Haddou, ein Kamelritt in die Dünen bei Sonnenuntergang, Abendessen und Frühstück im Wüstencamp sowie eine Nacht im Berberzelt. Mittagessen unterwegs, Getränke und Trinkgeld sind nicht enthalten – rechnen Sie mit 70–120 MAD für ein Mittagessen an der Strecke." },
+      { q: "Reicht eine Nacht in der Wüste?", a: "Für einen ersten Eindruck ja. Sie bekommen den Kamelritt, den Sonnenuntergang, das Abendessen unter Sternen und die Stille – das meiste dessen, wofür die Leute kommen. Was fehlt, ist Tiefe: Die zweite Wüstennacht einer Drei-Tage-Reise ist der Moment, in dem die Landschaft aufhört, ein Foto zu sein, und zu einem Ort wird." },
+    ],
+    content: `
+## Was eine Zagora-Tour kostet
+
+**85 € pro Person, geteilt, ab Marrakesch.** Das ist unsere
+[2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt), und das ist ungefähr der
+Mindestpreis für eine echte Wüstennacht in Marokko – ein Kamelritt, ein Camp, Abendessen und
+Frühstück sowie die Hin- und Rückfahrt.
+
+Privat, ab Agadir, kosten dieselben zwei Tage **400 € pro Person zu zweit**, 220 € zu viert
+und 195 € ab fünf Personen ([Agadir nach Zagora](/de/tours/zagora-tour-2-tage-agadir)).
+
+## Warum es die günstigste Wüstenreise des Landes ist
+
+Die Entfernung. Zagora liegt rund 360 km von Marrakesch entfernt, Merzouga 560 km. Dieser
+Unterschied ist der ganze Grund, warum die eine Reise in zwei Tage passt und die andere drei
+braucht, und er erklärt den Großteil des Preises.
+
+Ein niedriger Preis ist hier also kein Warnsignal. Es ist eine kürzere Fahrt, ein näheres
+Camp und ein voller Minibus. Skeptisch sein sollten Sie bei einer **Merzouga**-Reise zum
+Zagora-Preis – das bedeutet meist, dass aus der Wüstennacht still und leise ein Hotel in
+Erfoud geworden ist.
+
+## Was Sie bekommen und was nicht
+
+Enthalten: Hin- und Rückfahrt, der Tizi-n'Tichka-Pass, ein Halt in
+[Aït Ben Haddou](/de/blog/ait-benhaddou-guide), der Kamelritt in die Dünen bei
+Sonnenuntergang, Abendessen und Frühstück sowie eine Nacht im Berberzelt.
+
+Nicht enthalten: Mittagessen unterwegs (70–120 MAD), Getränke, Trinkgeld.
+
+Der ehrliche Vorbehalt sind die Dünen selbst. Die von Zagora sind niedrig, dunkel und mit
+Gestrüpp durchsetzt. Es ist echte Wüste und die Stille in der Nacht ist echt, aber es sind
+nicht die hoch aufragenden aprikosenfarbenen Dünen aus den Fotos – das ist der Erg Chebbi bei
+[Merzouga](/de/blog/merzouga-vs-zagora-which-desert-tour), und der kostet einen dritten Tag.
+
+## Für wen Zagora das Richtige ist
+
+- **Wenig Zeit.** Zwei Tage sind zwei Tage. Merzouga lässt sich nicht zusammenquetschen.
+- **Knappes Budget.** 85 € für eine Nacht in der Sahara sind wirklich schwer zu schlagen.
+- **Mit kleinen Kindern.** Die halbe Fahrzeit zählt mehr, als man denkt.
+
+Für wen nicht: alle, deren Bild von der Sahara die großen Dünen sind. Zahlen Sie die
+Differenz und fahren Sie nach [Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) – sonst
+verbringen Sie die Reise leicht enttäuscht, und das ist eine teure Art, enttäuscht zu sein.
+
+**[2-Tage-Tour nach Zagora ab Marrakesch](/de/tours/zagora-wueste-2-tage-geteilt)**
+`,
+  },
+  {
+    slug: "erg-chegaga-tour-cost",
+    localizedSlug: "erg-chegaga-tour-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet eine Tour in den Erg Chegaga?",
+    excerpt:
+      "Der Erg Chegaga ist Marokkos abgelegenes Sandmeer – keine Reisebusse, keine Quads. Eine private 3-Tage-Reise kostet 635 € pro Person zu zweit und 281 € zu fünft. Hier ist der Grund.",
+    heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Erg Chegaga Kosten", "Chegaga Tour Preis", "abgelegene Sahara Marokko", "Erg Chegaga oder Erg Chebbi", "Kameltrekking Kosten"],
+    seoTitle: "Erg-Chegaga-Tour: Kosten",
+    seoDescription:
+      "Was eine Erg-Chegaga-Tour kostet: 635 € pro Person zu zweit auf einer privaten 3-Tage-Reise, 281 € zu fünft. Warum Marokkos abgelegenes Sandmeer mehr kostet.",
+    relatedTours: ["erg-chegaga-3day-marrakech", "chegaga-camel-trek-8day", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "Was kostet eine Tour in den Erg Chegaga?", a: "Unsere private 3-Tage-Reise ab Marrakesch kostet 635 € pro Person zu zweit, 425 € zu dritt, 336 € zu viert und 281 € zu fünft. Das ist deutlich mehr als eine gleich lange Merzouga-Tour, und der Grund ist der Zugang: Die letzten 60 km bis Chegaga sind Offroad, wofür man einen 4x4 und einen Fahrer braucht, der die Route kennt – keinen Minibus auf Asphalt." },
+      { q: "Warum ist der Erg Chegaga teurer als Merzouga?", a: "Weil man nicht mit einem Minibus hinkommt. Der Erg Chebbi bei Merzouga hat eine asphaltierte Straße bis zum Dünenrand und eine große touristische Infrastruktur, die die Kosten auf viele Besucher verteilt. Chegaga erreicht man über 60 km Piste, die einen 4x4, mehr Treibstoff, mehr Zeit und einen Fahrer erfordert, der sich dort zurechtfindet. Sie bezahlen für die Abgeschiedenheit." },
+      { q: "Ist der Erg Chegaga besser als der Erg Chebbi?", a: "Er ist leerer. Chegaga ist ein weiteres, wilderes Sandmeer ohne Quads, ohne Reisebusse und oft ohne ein anderes Camp in Sicht, während der Erg Chebbi Hotels entlang des Dünenrands und belebte Aussichtspunkte bei Sonnenuntergang hat. Die Dünen des Chebbi sind etwas höher und viel leichter zu erreichen. Wählen Sie Chegaga für die Einsamkeit, Chebbi für die Bequemlichkeit – siehe [Erg Chebbi oder Erg Chegaga](/de/blog/erg-chebbi-vs-erg-chegaga)." },
+      { q: "Wie viel Zeit braucht man für den Erg Chegaga?", a: "Ab Marrakesch mindestens drei Tage, denn die Strecke beträgt rund 550 km plus den Offroad-Abschnitt. Zwei Tage sind nicht realistisch, und jeder Anbieter, der das verkauft, kürzt die Wüstennacht auf wenige Stunden. Für ein echtes Eintauchen wandert man beim 8-tägigen Kameltrekking durch das Draa-Tal hinein, statt zu fahren." },
+      { q: "Was kostet ein 8-tägiges Kameltrekking nach Chegaga?", a: "Unser 8-tägiges Trekking das Draa-Tal hinunter nach M'hamid kostet 1.352 € pro Person zu zweit, 1.056 € zu dritt und 909 € zu viert. Das umfasst acht Tage Wandern mit Kamelen, die das Gepäck tragen, alle Camps, alle Mahlzeiten, den Guide und die Kameltreiber – eine echte Expedition und keine Fahrt mit einem Camp am Ende." },
+      { q: "Wie weit ist der Erg Chegaga von Marrakesch entfernt?", a: "Etwa 450 km auf der Straße bis M'hamid, wo der Asphalt endet – eine volle Tagesfahrt von rund 8 Stunden über den Hohen Atlas. Von dort sind es noch etwa 60 km offroad mit dem 4x4 bis zu den Dünen. Deshalb dauert unsere [Erg-Chegaga-Reise ab Marrakesch](/de/tours/erg-chegaga-3-tage-marrakesch) drei Tage, ab 635 € pro Person zu zweit." },
+    ],
+    content: `
+## Was Chegaga kostet und warum
+
+Unsere private [3-Tage-Reise in den Erg Chegaga ab Marrakesch](/de/tours/erg-chegaga-3-tage-marrakesch)
+kostet **635 € pro Person zu zweit**, 425 € zu dritt, 336 € zu viert und **281 € zu
+fünft**. Allein sind es 1.269 €, weil ein Alleinreisender den ganzen 4x4 und den Fahrer
+trägt, statt sie zu teilen – deshalb ist Chegaga die einzige Reise, bei der wir Ihnen raten,
+sich eine Begleitung zu suchen.
+
+Das ist mehr als eine gleich lange Merzouga-Tour, und der Grund ist einfach: **Die letzten
+60 km haben keine Straße**.
+
+## Wofür Sie wirklich bezahlen
+
+| | Merzouga (Erg Chebbi) | Chegaga |
+|---|---|---|
+| Zugang | Asphalt bis zum Dünenrand | ~60 km Piste |
+| Fahrzeug | Minibus | 4x4, einer pro kleiner Gruppe |
+| Camps in der Nähe | Dutzende | Eine Handvoll |
+| Andere Besucher | Reisebusse, Quads | Oft niemand |
+
+Ein Minibus kommt nicht nach Chegaga. Ein 4x4 fasst weniger Personen, verbraucht mehr
+Treibstoff und braucht einen Fahrer, der die Piste gut genug kennt, um sie sicher zu
+durchqueren – Sandrouten verschieben sich, und es gibt keine Schilder. Jeder dieser Punkte ist
+ein echter Kostenfaktor, und zusammen ergeben sie den Preisunterschied.
+
+## Der Tausch, den Sie eingehen
+
+Der Erg Chebbi ist einfacher und günstiger, und seine Dünen sind etwas höher. Ruhig ist er
+allerdings nicht. Entlang des Dünenrands stehen Hotels, nachmittags fahren Quads, und auf dem
+beliebten Sonnenuntergangskamm drängen sich die Menschen.
+
+Chegaga ist der umgekehrte Tausch. Schwerer zu erreichen, teurer und oft menschenleer – kein
+Motorenlärm, kein anderes Camp in Sicht und ein Horizont aus Sand in fast jeder Richtung. Wenn
+Sie die Sahara schon kennen und sie voller fanden als erhofft, ist das die Antwort darauf.
+
+Unseren ausführlichen Vergleich finden Sie unter
+[Erg Chebbi oder Erg Chegaga](/de/blog/erg-chebbi-vs-erg-chegaga).
+
+## Zu Fuß hinein
+
+Der 4x4 ist der schnelle Weg. Der andere ist zu wandern, wie beim
+[8-tägigen Kameltrekking durch das Draa-Tal](/de/tours/kameltrekking-chegaga-8-tage) – das
+Palmental hinunter nach M'hamid und hinaus in den Sand, während Kamele das Gepäck tragen. Das
+kostet **1.352 € pro Person zu zweit**, 1.056 € zu dritt und 909 € zu viert, inklusive aller
+Camps, aller Mahlzeiten, des Guides und der Kameltreiber.
+
+Pro Tag liegt das nicht weit von einer Fahrtour entfernt. Der Unterschied ist, dass Sie an den
+Dünen ankommen, nachdem Sie das Land durchquert haben, statt dort abgesetzt zu werden.
+
+## Nicht zusammenquetschen
+
+Chegaga passt nicht in zwei Tage ab Marrakesch. Allein die Fahrt beträgt pro Strecke rund
+550 km plus Piste. Wer eine zweitägige Chegaga-Reise verkauft, kürzt entweder die Wüstennacht
+auf ein paar Stunden oder fährt Sie stillschweigend nach Zagora – eine völlig gute Reise, zu
+[einem Drittel des Preises](/de/tours/zagora-wueste-2-tage-geteilt), aber eben nicht diese.
+
+**[Die 3-tägige Erg-Chegaga-Expedition ansehen](/de/tours/erg-chegaga-3-tage-marrakesch)**
+`,
+  },
+  {
+    slug: "ouzoud-waterfalls-day-trip-cost",
+    localizedSlug: "ouzoud-wasserfaelle-ausflug-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet ein Tagesausflug zu den Ouzoud-Wasserfällen?",
+    excerpt:
+      "Ein geteilter Tagesausflug nach Ouzoud ab Marrakesch kostet 40 € pro Person, privat 38 € pro Person zu zweit. Hier sind die vollen Kosten, auch für Boot und Mittagessen.",
+    heroImage: "/gallery/berber-guide-waterfall-portrait.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 6,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Ouzoud Kosten", "Ouzoud Wasserfälle Preis", "Marrakesch Tagesausflug Kosten", "Ouzoud Tagesausflug", "Wasserfälle Marokko"],
+    seoTitle: "Ouzoud-Wasserfälle Ausflug: Kosten 2026",
+    seoDescription:
+      "Was ein Ausflug zu den Ouzoud-Wasserfällen kostet: 40 € pro Person geteilt ab Marrakesch, 38 € pro Person privat zu zweit. Eintritt, Boot und Mittagessen.",
+    relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
+    faq: [
+      { q: "Was kostet ein Tagesausflug nach Ouzoud?", a: "Unser geteilter Tagesausflug ab Marrakesch kostet 40 € pro Person mit fester Abfahrt. Die private Variante kostet 38 € pro Person zu zweit, 27 € zu viert und 22 € zu sechst – ab zwei Personen kostet der private Ausflug also gleich viel oder weniger als der geteilte Platz, weil sich die Fahrzeugkosten auf Ihre Gruppe verteilen." },
+      { q: "Kostet Ouzoud Eintritt?", a: "Nein. Die Wasserfälle sind frei und kostenlos zugänglich. Vor Ort kosten das kleine Boot, das Sie nah an den Fuß der Kaskade bringt, etwa 20–30 MAD pro Person, und das Parken, wenn Sie selbst fahren. Oben bieten Guides an, Sie gegen einen verhandelbaren Betrag hinunterzubegleiten, meist 100–150 MAD pro Gruppe." },
+      { q: "Wie weit ist Ouzoud von Marrakesch entfernt?", a: "Etwa 150 km oder zweieinhalb Stunden pro Strecke auf ordentlicher Straße. Das macht es zu einem ganzen Tag – die meisten Ausflüge starten gegen 8 Uhr in Marrakesch und sind gegen 18 oder 19 Uhr zurück, mit rund vier Stunden an den Fällen, genug, um hinunterzugehen, das Boot zu nehmen und über der Kaskade zu Mittag zu essen." },
+      { q: "Kann man in Ouzoud schwimmen?", a: "Ja, im Becken am Fuß des Hauptfalls, und die Leute tun es. Das Wasser ist das ganze Jahr über kalt, und die Gischt macht die Felsen glatt, also tragen Sie etwas mit gutem Halt. Das Becken ist stellenweise tief, und es gibt keine Rettungsschwimmer – es ist ein natürlicher Fluss und wird so behandelt." },
+      { q: "Sehe ich die Affen?", a: "Meistens. Berberaffen leben in den Wäldern entlang des Abstiegswegs und sind an Menschen gewöhnt – genau deshalb sollten Sie sie nicht füttern, denn gefütterte Makaken werden aggressiv, und das ist dort ein echtes Problem. Halten Sie Taschen geschlossen; die Tiere sind schnell und völlig unverfroren." },
+      { q: "Wie lang ist der Weg an den Ouzoud-Wasserfällen?", a: "Kurz: etwa zwanzig Minuten von oben hinunter, vorbei an den Makaken, bis zum Fuß der Fälle. Unser [Tagesausflug](/de/tours/ausflug-ouzoud-wasserfaelle) kostet ab 38 € pro Person zu zweit und ergänzt den Schluchtpfad und eine Bootsfahrt bis zur Gischt, mit einem zertifizierten Guide." },
+    ],
+    content: `
+## Was es kostet
+
+**40 € pro Person** auf unserem
+[geteilten Ouzoud-Tagesausflug](/de/tours/ouzoud-wasserfaelle-gruppentour) ab Marrakesch.
+
+Die [private Variante](/de/tours/ausflug-ouzoud-wasserfaelle) kostet **38 € pro Person zu
+zweit**, 27 € zu viert und 22 € zu sechst.
+
+Lesen Sie das ruhig zweimal, denn es ist ungewöhnlich: Ab zwei Personen kostet der private
+Ausflug gleich viel oder weniger als der geteilte Platz. Die geteilte Tour lohnt sich nur,
+wenn Sie allein reisen – dann sind es 40 € gegenüber 75 € für ein privates Auto nur für Sie.
+
+## Die Kosten vor Ort
+
+In Ouzoud ist nichts teuer, aber der Ausflugspreis deckt nicht alles ab:
+
+| Posten | Übliche Kosten | Inklusive? |
+|---|---|---|
+| Zugang zu den Fällen | Kostenlos | - |
+| Boot zum Fuß der Kaskade | 20–30 MAD | Nein, vor Ort zahlen |
+| Mittagessen über den Fällen | 70–120 MAD | Nein |
+| Lokaler Guide für den Abstieg | 100–150 MAD pro Gruppe | Optional |
+| Parken (bei eigener Anfahrt) | ~20 MAD | - |
+
+Rechnen Sie also mit etwa **100–150 MAD pro Person** in bar zusätzlich zum Ausflugspreis für
+Boot und Mittagessen. Das ist kein versteckter Aufpreis – so funktioniert der Ort einfach,
+und wir sagen es Ihnen lieber vorher, als dass Sie es oben am Weg herausfinden.
+
+## Auf eigene Faust
+
+Ouzoud ist wirklich leicht auf eigene Faust zu erreichen. Es sind 150 km gute Straße ab
+Marrakesch, oben gibt es einen Parkplatz, und der Weg hinunter ist offensichtlich. Ein
+Mietwagen für den Tag plus Treibstoff kostet etwa 400–600 MAD, was zu viert jeden Ausflug
+schlägt.
+
+Was Sie mit einem Ausflug kaufen, ist das Fahren – fünf Stunden davon, an einem Tag, an dem
+Sie außerdem bei Hitze einen steilen Pfad gehen wollen.
+
+## Wie der Tag aussieht
+
+Abfahrt in Marrakesch gegen 8 Uhr, Ankunft gegen 10:30 Uhr. Der Abstieg dauert zwanzig
+Minuten vorbei an den Makaken, das Boot fährt hinüber zur Gischt am Fuß, und zu Mittag isst
+man auf einer der Terrassen mit direktem Blick auf die Kaskade. Zurück in Marrakesch am
+frühen Abend.
+
+Mit 110 m über drei Stufen ist Ouzoud der höchste Wasserfall Nordafrikas, und das Wasser
+fließt das ganze Jahr, am stärksten von März bis Juni nach dem Winterregen.
+
+Wenn Sie etwas Ruhigeres und Näheres suchen: Die
+[Tageswanderung im Ourika-Tal](/de/tours/wanderung-ourika-tal) liegt eine Stunde von
+Marrakesch entfernt statt zweieinhalb und ist eine Wanderung statt eines Aussichtspunkts.
+
+**[Geteilter Ouzoud-Ausflug](/de/tours/ouzoud-wasserfaelle-gruppentour)** ·
+**[Privater Ouzoud-Ausflug](/de/tours/ausflug-ouzoud-wasserfaelle)**
+`,
+  },
+  {
+    slug: "agafay-desert-evening-cost",
+    localizedSlug: "agafay-wuestenabend-kosten",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Was kostet ein Abend in der Agafay-Wüste?",
+    excerpt:
+      "Ein geteiltes Abendessen mit Kamelritt in Agafay kostet 30 € pro Person, ein privater Sonnenuntergangsabend 94 € pro Person zu zweit. Was die Steinwüste bei Marrakesch wirklich kostet.",
+    heroImage: "/gallery/desert-campfire-night-guests.jpg",
+    category: "desert",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["Agafay Kosten", "Agafay Wüste Preis", "Wüstendinner Marrakesch", "Kamelritt Agafay", "Agafay oder Merzouga"],
+    seoTitle: "Abend in der Agafay-Wüste: Kosten",
+    seoDescription:
+      "Was ein Abend in Agafay kostet: 30 € pro Person geteilt mit Abendessen und Kamelritt, 94 € pro Person privat zu zweit. Warum Agafay Stein ist, nicht Sand.",
+    relatedTours: ["shared-agafay-dinner-camel-ride", "agafay-desert-sunset", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "Was kostet ein Abend in der Agafay-Wüste?", a: "Unser geteilter Abend mit Abendessen, Kamelritt und Feuershow kostet 30 € pro Person – das günstigste Wüstenerlebnis, das wir anbieten. Der private Ausflug mit Sonnenuntergang und Abendessen kostet 94 € pro Person zu zweit, 67 € zu viert und 56 € zu sechst – Sie bezahlen Ihr eigenes Fahrzeug und Ihren eigenen Zeitplan statt einer Busabfahrt." },
+      { q: "Ist Agafay eine echte Wüste?", a: "Eine echte Wüste, aber keine Sandwüste. Agafay ist eine steinige Hammada – harter, heller Boden, niedrige Hügel und fast keine Vegetation, etwa 30 km von Marrakesch entfernt. Zur goldenen Stunde sieht sie auf Fotos aus wie die Sahara und ist wirklich menschenleer, aber wenn Sie hohe Sanddünen erwarten, werden Sie enttäuscht. Die liegen in Merzouga, eine Tagesfahrt entfernt." },
+      { q: "Lohnt sich Agafay, wenn ich auch in die Sahara fahre?", a: "Eher nicht, außer Sie wollen einen entspannten Abend. Der Reiz von Agafay ist, dass es eine Stunde von Marrakesch entfernt liegt und zwischen Abendessen und Schlafengehen machbar ist. Wenn Sie bereits eine Merzouga- oder Zagora-Reise gebucht haben, sehen Sie alles, was Agafay bietet, und noch viel mehr, und der Abend wird zu einer netten, aber überflüssigen Ausgabe." },
+      { q: "Was ist in einem Abend in Agafay enthalten?", a: "Beim geteilten Ausflug: Hin- und Rückfahrt ab Marrakesch, ein kurzer Kamelritt bei Sonnenuntergang, Abendessen in einem Wüstencamp und eine Feuer- oder Gnaoua-Musikshow. Getränke über die zum Essen gehörenden hinaus kosten extra, und Trinkgeld für das Camp-Team ist mit 30–50 MAD üblich. Beim privaten Ausflug bekommen Sie dasselbe, aber nach Ihrem eigenen Zeitplan." },
+      { q: "Wie weit ist Agafay von Marrakesch entfernt?", a: "Etwa 30 km oder 45 Minuten bis eine Stunde auf der Straße, je nach Verkehr beim Verlassen der Stadt. Genau diese Nähe ist der Punkt – es ist der einzige Wüstenabend in Marokko, den Sie als Halbtagesausflug machen und trotzdem in derselben Nacht in Ihrem Riad schlafen können." },
+      { q: "Was kostet ein Kamelritt in Marrakesch?", a: "Bei unseren Touren gehört der Kamelritt zu einem Abend in der Agafay-Wüste, etwa 30 km von der Stadt entfernt: 30 € pro Person beim [geteilten Abend](/de/tours/agafay-abendessen-kamelritt-feuershow) mit Abendessen, Livemusik und Feuershow, oder ab 94 € pro Person zu zweit bei der [privaten Sonnenuntergangstour](/de/tours/sonnenuntergang-agafay-wueste), die eine Stunde Quadfahren ergänzt und nach Ihrem eigenen Zeitplan läuft." },
+    ],
+    content: `
+## Was ein Abend in Agafay kostet
+
+**30 € pro Person** für unser
+[geteiltes Abendessen mit Kamelritt und Feuershow in Agafay](/de/tours/agafay-abendessen-kamelritt-feuershow).
+Das ist das günstigste Wüstenerlebnis, das wir anbieten, und es findet zwischen
+Spätnachmittag und Schlafenszeit statt.
+
+Der [private Ausflug mit Sonnenuntergang und Abendessen](/de/tours/sonnenuntergang-agafay-wueste) kostet
+**94 € pro Person zu zweit**, 67 € zu viert und 56 € zu sechst.
+
+## Seien Sie sich im Klaren, was Agafay ist
+
+Agafay ist eine **Steinwüste, keine Sandwüste**. Es ist Hammada – harter, heller Boden,
+sanfte Hügel, fast keine Pflanzen –, etwa 30 km von Marrakesch entfernt, mit dem Atlas am
+Horizont dahinter. Zur goldenen Stunde ist sie wirklich schön und wirkt auf Fotos viel
+abgelegener, als sie ist.
+
+Was sie nicht hat, sind Dünen. Keine kleinen, gar keine. Jede hohe aprikosenfarbene Düne, die
+Sie auf einem Marokko-Foto gesehen haben, ist der Erg Chebbi bei
+[Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) oder der Erg Chegaga, beide eine lange
+Tagesfahrt weiter südlich.
+
+Wir sagen das so deutlich, weil es die häufigste Enttäuschung bei Tagesausflügen ab
+Marrakesch ist – und sie lässt sich ganz vermeiden, wenn man es vorher weiß.
+
+## Für wen Agafay das Richtige ist
+
+- **Eine Nacht in Marrakesch und keine Zeit für die Sahara.** Das ist der ehrliche Ersatz.
+- **Mit kleinen Kindern.** Eine Stunde pro Strecke statt zehn.
+- **Sie möchten unter Sternen essen, ohne sich auf zwei Tage festzulegen.**
+
+Für wen nicht: alle, die schon eine Reise nach
+[Zagora](/de/tours/zagora-wueste-2-tage-geteilt) oder Merzouga gebucht haben. Sie sehen all das
+und noch viel mehr, und der Abend wird zur Doppelung.
+
+## Die Extras
+
+Abendessen und Kamelritt sind im Preis enthalten. Zusätzliche Getränke nicht, und das
+Trinkgeld für das Camp-Team liegt bei 30–50 MAD für die Gruppe. Nehmen Sie eine warme
+Schicht mit – sobald die Sonne weg ist, fällt die Temperatur stark, selbst im Sommer, weil es
+dort draußen nichts gibt, das die Wärme hält.
+
+**[Geteilter Abend in Agafay](/de/tours/agafay-abendessen-kamelritt-feuershow)** ·
+**[Privater Sonnenuntergang in Agafay](/de/tours/sonnenuntergang-agafay-wueste)**
 `,
   },
 ];

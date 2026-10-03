@@ -400,7 +400,7 @@ https://marrakechecotours.com/de/blog
 https://marrakechecotours.com/de/blog/10-day-morocco-itinerary
 https://marrakechecotours.com/de/blog/7-day-morocco-itinerary
 https://marrakechecotours.com/de/blog/7-tage-marokko-route-ab-agadir
-https://marrakechecotours.com/de/blog/agafay-desert-evening-cost
+https://marrakechecotours.com/de/blog/agafay-wuestenabend-kosten
 https://marrakechecotours.com/de/blog/agafay-desert-marrakech-guide
 https://marrakechecotours.com/de/blog/agafay-vs-merzouga-vs-zagora
 https://marrakechecotours.com/de/blog/ait-benhaddou-guide
@@ -421,7 +421,7 @@ https://marrakechecotours.com/de/blog/dades-valley-gorges-guide
 https://marrakechecotours.com/de/blog/do-you-need-a-guide-to-climb-toubkal
 https://marrakechecotours.com/de/blog/drehorte-marokko
 https://marrakechecotours.com/de/blog/erg-chebbi-vs-erg-chegaga
-https://marrakechecotours.com/de/blog/erg-chegaga-tour-cost
+https://marrakechecotours.com/de/blog/erg-chegaga-tour-kosten
 https://marrakechecotours.com/de/blog/essaouira-complete-travel-guide
 https://marrakechecotours.com/de/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/de/blog/familien-wuestentour-marokko-kosten
@@ -452,7 +452,7 @@ https://marrakechecotours.com/de/blog/marrakech-to-fes-road-trip-guide
 https://marrakechecotours.com/de/blog/marrakech-vs-agadir-which-base
 https://marrakechecotours.com/de/blog/marrakesch-chefchaouen-tour-kosten
 https://marrakechecotours.com/de/blog/meknes-moulay-idriss-reisefuehrer
-https://marrakechecotours.com/de/blog/merzouga-3-day-tour-cost
+https://marrakechecotours.com/de/blog/merzouga-3-tage-tour-kosten
 https://marrakechecotours.com/de/blog/merzouga-travel-guide
 https://marrakechecotours.com/de/blog/merzouga-vs-zagora-which-desert-tour
 https://marrakechecotours.com/de/blog/mgoun-massiv-trek-kosten
@@ -464,9 +464,9 @@ https://marrakechecotours.com/de/blog/morocco-unesco-sites-film-locations
 https://marrakechecotours.com/de/blog/nila-blue-dye-morocco-guide
 https://marrakechecotours.com/de/blog/ouarzazate-guide-ouallywood
 https://marrakechecotours.com/de/blog/ourika-valley-day-trip-marrakech
-https://marrakechecotours.com/de/blog/ouzoud-waterfalls-day-trip-cost
+https://marrakechecotours.com/de/blog/ouzoud-wasserfaelle-ausflug-kosten
 https://marrakechecotours.com/de/blog/paradise-valley-agadir-complete-guide
-https://marrakechecotours.com/de/blog/paradise-valley-agadir-cost
+https://marrakechecotours.com/de/blog/paradise-valley-agadir-kosten
 https://marrakechecotours.com/de/blog/paradise-valley-from-agadir
 https://marrakechecotours.com/de/blog/paradise-valley-from-marrakech
 https://marrakechecotours.com/de/blog/paradise-valley-swimming-guide
@@ -509,7 +509,7 @@ https://marrakechecotours.com/de/blog/wuestencamp-luxus-oder-standard
 https://marrakechecotours.com/de/blog/wuestencamp-marokko-wie-es-wirklich-ist
 https://marrakechecotours.com/de/blog/wuestentour-marokko-fuer-aeltere-reisende
 https://marrakechecotours.com/de/blog/wuestentour-privat-oder-geteilt
-https://marrakechecotours.com/de/blog/zagora-2-day-tour-cost
+https://marrakechecotours.com/de/blog/zagora-2-tage-tour-kosten
 https://marrakechecotours.com/de/blog/zagora-desert-guide
 https://marrakechecotours.com/de/categories/cultural
 https://marrakechecotours.com/de/categories/day-tours
@@ -597,7 +597,7 @@ https://marrakechecotours.com/es/about
 https://marrakechecotours.com/es/blog
 https://marrakechecotours.com/es/blog/10-day-morocco-itinerary
 https://marrakechecotours.com/es/blog/7-day-morocco-itinerary
-https://marrakechecotours.com/es/blog/agafay-desert-evening-cost
+https://marrakechecotours.com/es/blog/precio-noche-desierto-agafay
 https://marrakechecotours.com/es/blog/agafay-desert-marrakech-guide
 https://marrakechecotours.com/es/blog/agafay-vs-merzouga-vs-zagora
 https://marrakechecotours.com/es/blog/ait-benhaddou-guide
@@ -627,7 +627,7 @@ https://marrakechecotours.com/es/blog/dades-valley-gorges-guide
 https://marrakechecotours.com/es/blog/desierto-marruecos-en-invierno
 https://marrakechecotours.com/es/blog/do-you-need-a-guide-to-climb-toubkal
 https://marrakechecotours.com/es/blog/erg-chebbi-vs-erg-chegaga
-https://marrakechecotours.com/es/blog/erg-chegaga-tour-cost
+https://marrakechecotours.com/es/blog/precio-tour-erg-chegaga
 https://marrakechecotours.com/es/blog/essaouira-complete-travel-guide
 https://marrakechecotours.com/es/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/es/blog/fes-medina-travel-guide
@@ -648,7 +648,7 @@ https://marrakechecotours.com/es/blog/marrakech-to-fes-road-trip-guide
 https://marrakechecotours.com/es/blog/marrakech-vs-agadir-which-base
 https://marrakechecotours.com/es/blog/marruecos-con-ninos-guia-familiar
 https://marrakechecotours.com/es/blog/meknes-moulay-idriss-guia
-https://marrakechecotours.com/es/blog/merzouga-3-day-tour-cost
+https://marrakechecotours.com/es/blog/precio-tour-merzouga-3-dias
 https://marrakechecotours.com/es/blog/merzouga-travel-guide
 https://marrakechecotours.com/es/blog/merzouga-vs-zagora-which-desert-tour
 https://marrakechecotours.com/es/blog/moroccan-mint-tea-ceremony-guide
@@ -659,9 +659,9 @@ https://marrakechecotours.com/es/blog/morocco-unesco-sites-film-locations
 https://marrakechecotours.com/es/blog/nila-blue-dye-morocco-guide
 https://marrakechecotours.com/es/blog/ouarzazate-guide-ouallywood
 https://marrakechecotours.com/es/blog/ourika-valley-day-trip-marrakech
-https://marrakechecotours.com/es/blog/ouzoud-waterfalls-day-trip-cost
+https://marrakechecotours.com/es/blog/precio-excursion-cascadas-ouzoud
 https://marrakechecotours.com/es/blog/paradise-valley-agadir-complete-guide
-https://marrakechecotours.com/es/blog/paradise-valley-agadir-cost
+https://marrakechecotours.com/es/blog/precio-paradise-valley-agadir
 https://marrakechecotours.com/es/blog/paradise-valley-from-agadir
 https://marrakechecotours.com/es/blog/paradise-valley-from-marrakech
 https://marrakechecotours.com/es/blog/paradise-valley-swimming-guide
@@ -707,7 +707,7 @@ https://marrakechecotours.com/es/blog/what-is-a-riad
 https://marrakechecotours.com/es/blog/what-to-pack-desert-tour-morocco
 https://marrakechecotours.com/es/blog/what-to-pack-high-atlas-trek-morocco
 https://marrakechecotours.com/es/blog/who-are-the-berbers
-https://marrakechecotours.com/es/blog/zagora-2-day-tour-cost
+https://marrakechecotours.com/es/blog/precio-tour-zagora-2-dias
 https://marrakechecotours.com/es/blog/zagora-desert-guide
 https://marrakechecotours.com/es/categories/cultural
 https://marrakechecotours.com/es/categories/day-tours
@@ -795,7 +795,7 @@ https://marrakechecotours.com/fr/about
 https://marrakechecotours.com/fr/blog
 https://marrakechecotours.com/fr/blog/10-day-morocco-itinerary
 https://marrakechecotours.com/fr/blog/7-day-morocco-itinerary
-https://marrakechecotours.com/fr/blog/agafay-desert-evening-cost
+https://marrakechecotours.com/fr/blog/prix-soiree-desert-agafay
 https://marrakechecotours.com/fr/blog/agafay-desert-marrakech-guide
 https://marrakechecotours.com/fr/blog/agafay-vs-merzouga-vs-zagora
 https://marrakechecotours.com/fr/blog/ait-benhaddou-guide
@@ -823,7 +823,7 @@ https://marrakechecotours.com/fr/blog/dades-valley-gorges-guide
 https://marrakechecotours.com/fr/blog/desert-maroc-en-hiver
 https://marrakechecotours.com/fr/blog/do-you-need-a-guide-to-climb-toubkal
 https://marrakechecotours.com/fr/blog/erg-chebbi-vs-erg-chegaga
-https://marrakechecotours.com/fr/blog/erg-chegaga-tour-cost
+https://marrakechecotours.com/fr/blog/prix-circuit-erg-chegaga
 https://marrakechecotours.com/fr/blog/essaouira-complete-travel-guide
 https://marrakechecotours.com/fr/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/fr/blog/fes-medina-travel-guide
@@ -843,7 +843,7 @@ https://marrakechecotours.com/fr/blog/marrakech-medina-complete-guide
 https://marrakechecotours.com/fr/blog/marrakech-to-fes-road-trip-guide
 https://marrakechecotours.com/fr/blog/marrakech-vs-agadir-which-base
 https://marrakechecotours.com/fr/blog/meknes-moulay-idriss-guide
-https://marrakechecotours.com/fr/blog/merzouga-3-day-tour-cost
+https://marrakechecotours.com/fr/blog/prix-circuit-merzouga-3-jours
 https://marrakechecotours.com/fr/blog/merzouga-travel-guide
 https://marrakechecotours.com/fr/blog/merzouga-vs-zagora-which-desert-tour
 https://marrakechecotours.com/fr/blog/meteo-desert-sahara-maroc
@@ -855,9 +855,9 @@ https://marrakechecotours.com/fr/blog/morocco-unesco-sites-film-locations
 https://marrakechecotours.com/fr/blog/nila-blue-dye-morocco-guide
 https://marrakechecotours.com/fr/blog/ouarzazate-guide-ouallywood
 https://marrakechecotours.com/fr/blog/ourika-valley-day-trip-marrakech
-https://marrakechecotours.com/fr/blog/ouzoud-waterfalls-day-trip-cost
+https://marrakechecotours.com/fr/blog/prix-excursion-cascades-ouzoud
 https://marrakechecotours.com/fr/blog/paradise-valley-agadir-complete-guide
-https://marrakechecotours.com/fr/blog/paradise-valley-agadir-cost
+https://marrakechecotours.com/fr/blog/prix-paradise-valley-agadir
 https://marrakechecotours.com/fr/blog/paradise-valley-from-agadir
 https://marrakechecotours.com/fr/blog/paradise-valley-from-marrakech
 https://marrakechecotours.com/fr/blog/paradise-valley-swimming-guide
@@ -905,7 +905,7 @@ https://marrakechecotours.com/fr/blog/what-is-a-riad
 https://marrakechecotours.com/fr/blog/what-to-pack-desert-tour-morocco
 https://marrakechecotours.com/fr/blog/what-to-pack-high-atlas-trek-morocco
 https://marrakechecotours.com/fr/blog/who-are-the-berbers
-https://marrakechecotours.com/fr/blog/zagora-2-day-tour-cost
+https://marrakechecotours.com/fr/blog/prix-circuit-zagora-2-jours
 https://marrakechecotours.com/fr/blog/zagora-desert-guide
 https://marrakechecotours.com/fr/categories/cultural
 https://marrakechecotours.com/fr/categories/day-tours
@@ -993,7 +993,7 @@ https://marrakechecotours.com/it/about
 https://marrakechecotours.com/it/blog
 https://marrakechecotours.com/it/blog/10-day-morocco-itinerary
 https://marrakechecotours.com/it/blog/7-day-morocco-itinerary
-https://marrakechecotours.com/it/blog/agafay-desert-evening-cost
+https://marrakechecotours.com/it/blog/prezzo-serata-deserto-agafay
 https://marrakechecotours.com/it/blog/agafay-desert-marrakech-guide
 https://marrakechecotours.com/it/blog/agafay-vs-merzouga-vs-zagora
 https://marrakechecotours.com/it/blog/ait-benhaddou-guide
@@ -1021,7 +1021,7 @@ https://marrakechecotours.com/it/blog/dades-valley-gorges-guide
 https://marrakechecotours.com/it/blog/deserto-marocco-in-inverno
 https://marrakechecotours.com/it/blog/do-you-need-a-guide-to-climb-toubkal
 https://marrakechecotours.com/it/blog/erg-chebbi-vs-erg-chegaga
-https://marrakechecotours.com/it/blog/erg-chegaga-tour-cost
+https://marrakechecotours.com/it/blog/prezzo-tour-erg-chegaga
 https://marrakechecotours.com/it/blog/essaouira-complete-travel-guide
 https://marrakechecotours.com/it/blog/essaouira-day-trip-from-agadir
 https://marrakechecotours.com/it/blog/fes-medina-travel-guide
@@ -1041,7 +1041,7 @@ https://marrakechecotours.com/it/blog/marrakech-medina-complete-guide
 https://marrakechecotours.com/it/blog/marrakech-to-fes-road-trip-guide
 https://marrakechecotours.com/it/blog/marrakech-vs-agadir-which-base
 https://marrakechecotours.com/it/blog/meknes-moulay-idriss-guida
-https://marrakechecotours.com/it/blog/merzouga-3-day-tour-cost
+https://marrakechecotours.com/it/blog/prezzo-tour-merzouga-3-giorni
 https://marrakechecotours.com/it/blog/merzouga-travel-guide
 https://marrakechecotours.com/it/blog/merzouga-vs-zagora-which-desert-tour
 https://marrakechecotours.com/it/blog/moroccan-mint-tea-ceremony-guide
@@ -1052,9 +1052,9 @@ https://marrakechecotours.com/it/blog/morocco-unesco-sites-film-locations
 https://marrakechecotours.com/it/blog/nila-blue-dye-morocco-guide
 https://marrakechecotours.com/it/blog/ouarzazate-guide-ouallywood
 https://marrakechecotours.com/it/blog/ourika-valley-day-trip-marrakech
-https://marrakechecotours.com/it/blog/ouzoud-waterfalls-day-trip-cost
+https://marrakechecotours.com/it/blog/prezzo-escursione-cascate-ouzoud
 https://marrakechecotours.com/it/blog/paradise-valley-agadir-complete-guide
-https://marrakechecotours.com/it/blog/paradise-valley-agadir-cost
+https://marrakechecotours.com/it/blog/prezzo-paradise-valley-agadir
 https://marrakechecotours.com/it/blog/paradise-valley-from-agadir
 https://marrakechecotours.com/it/blog/paradise-valley-from-marrakech
 https://marrakechecotours.com/it/blog/paradise-valley-swimming-guide
@@ -1103,7 +1103,7 @@ https://marrakechecotours.com/it/blog/what-is-a-riad
 https://marrakechecotours.com/it/blog/what-to-pack-desert-tour-morocco
 https://marrakechecotours.com/it/blog/what-to-pack-high-atlas-trek-morocco
 https://marrakechecotours.com/it/blog/who-are-the-berbers
-https://marrakechecotours.com/it/blog/zagora-2-day-tour-cost
+https://marrakechecotours.com/it/blog/prezzo-tour-zagora-2-giorni
 https://marrakechecotours.com/it/blog/zagora-desert-guide
 https://marrakechecotours.com/it/categories/cultural
 https://marrakechecotours.com/it/categories/day-tours

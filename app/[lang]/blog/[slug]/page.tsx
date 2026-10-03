@@ -16,6 +16,7 @@ import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import BlogTripBox from "@/components/blog/BlogTripBox";
 import { getTourFor } from "@/lib/tours-i18n";
 import { localizeHref } from "@/lib/localize-href";
+import { foldWrappedLines } from "@/lib/blog-markdown";
 import { lowestGroupPrice } from "@/lib/tours";
 import { splitBeforeFirstH2 } from "@/lib/blog-trip-box";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
@@ -275,7 +276,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
    * new data at it.
    */
   function renderMarkdown(source: string): string {
-  const lines = source.trim().split("\n");
+  const lines = foldWrappedLines(source);
   const htmlParts: string[] = [];
   let inList = false;
   const closeList = () => {

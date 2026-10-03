@@ -48,6 +48,12 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "cycling-mountain-biking-high-atlas-morocco": "velo-vtt-haut-atlas-maroc",
   "morocco-film-locations-tour": "lieux-de-tournage-maroc",
   "atlas-mountains-trek-with-kids": "trek-atlas-en-famille",
+  "paradise-valley-agadir-cost": "prix-paradise-valley-agadir",
+  "merzouga-3-day-tour-cost": "prix-circuit-merzouga-3-jours",
+  "zagora-2-day-tour-cost": "prix-circuit-zagora-2-jours",
+  "erg-chegaga-tour-cost": "prix-circuit-erg-chegaga",
+  "ouzoud-waterfalls-day-trip-cost": "prix-excursion-cascades-ouzoud",
+  "agafay-desert-evening-cost": "prix-soiree-desert-agafay",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -89,6 +95,12 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "cycling-mountain-biking-high-atlas-morocco": "bicicleta-btt-alto-atlas-marruecos",
   "morocco-film-locations-tour": "lugares-de-rodaje-marruecos",
   "atlas-mountains-trek-with-kids": "trekking-atlas-con-ninos",
+  "paradise-valley-agadir-cost": "precio-paradise-valley-agadir",
+  "merzouga-3-day-tour-cost": "precio-tour-merzouga-3-dias",
+  "zagora-2-day-tour-cost": "precio-tour-zagora-2-dias",
+  "erg-chegaga-tour-cost": "precio-tour-erg-chegaga",
+  "ouzoud-waterfalls-day-trip-cost": "precio-excursion-cascadas-ouzoud",
+  "agafay-desert-evening-cost": "precio-noche-desierto-agafay",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -130,6 +142,12 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "cycling-mountain-biking-high-atlas-morocco": "radfahren-mountainbiken-hoher-atlas-marokko",
   "morocco-film-locations-tour": "drehorte-marokko",
   "atlas-mountains-trek-with-kids": "atlas-trekking-mit-kindern",
+  "paradise-valley-agadir-cost": "paradise-valley-agadir-kosten",
+  "merzouga-3-day-tour-cost": "merzouga-3-tage-tour-kosten",
+  "zagora-2-day-tour-cost": "zagora-2-tage-tour-kosten",
+  "erg-chegaga-tour-cost": "erg-chegaga-tour-kosten",
+  "ouzoud-waterfalls-day-trip-cost": "ouzoud-wasserfaelle-ausflug-kosten",
+  "agafay-desert-evening-cost": "agafay-wuestenabend-kosten",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -170,6 +188,12 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "morocco-desert-tour-older-travellers": "tour-deserto-marocco-anziani",
   "morocco-film-locations-tour": "location-film-marocco",
   "atlas-mountains-trek-with-kids": "trekking-atlante-con-bambini",
+  "paradise-valley-agadir-cost": "prezzo-paradise-valley-agadir",
+  "merzouga-3-day-tour-cost": "prezzo-tour-merzouga-3-giorni",
+  "zagora-2-day-tour-cost": "prezzo-tour-zagora-2-giorni",
+  "erg-chegaga-tour-cost": "prezzo-tour-erg-chegaga",
+  "ouzoud-waterfalls-day-trip-cost": "prezzo-escursione-cascate-ouzoud",
+  "agafay-desert-evening-cost": "prezzo-serata-deserto-agafay",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

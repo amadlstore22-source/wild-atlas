@@ -6230,7 +6230,7 @@ nôtres.
 
 Sur un circuit privé, le guide, le véhicule et le chauffeur sont un coût fixe réparti
 entre les participants. Une personne paie tout ; six personnes divisent par six. C'est
-pourquoi notre [trek Toubkal de 4 jours](/en/tours/toubkal-summit-trek-4day) va de 650 €
+pourquoi notre [trek Toubkal de 4 jours](/fr/tours/toubkal-summit-trek-4day) va de 650 €
 en solo à 260 € chacun à six.
 
 Un départ fixe inverse cette logique. Le voyage part à sa date publiée que quatre ou
@@ -6244,7 +6244,7 @@ D'après notre propre catalogue, au tarif solo :
 
 | Élément | Circuit comparable | Prix solo |
 |---|---|---|
-| Sommet du Toubkal | [Trek Toubkal 4 jours](/en/tours/toubkal-summit-trek-4day) à 650 € en solo | 650 € |
+| Sommet du Toubkal | [Trek Toubkal 4 jours](/fr/tours/toubkal-summit-trek-4day) à 650 € en solo | 650 € |
 | Sahara / erg Chebbi | Circuit Sahara privé 3 jours | 690 € |
 | Médina de Marrakech | Visite culturelle guidée | 73 € |
 | **Total** | | **1 413 €** |
@@ -6278,7 +6278,7 @@ jours de véhicule à vide entre les deux.
 
 Cinq dates, mars et avril 2027, 14 places chacune. Les départs de mars se font en
 conditions hivernales au sommet — lisez
-[gravir le Toubkal en mars](/en/blog/climbing-toubkal-in-march) avant de choisir, car la
+[gravir le Toubkal en mars](/fr/blog/climbing-toubkal-in-march) avant de choisir, car la
 montagne début mars et la même montagne à la mi-avril sont deux propositions bien
 différentes.
 
@@ -6374,7 +6374,7 @@ Diviser le bilan par deux transforme cela en curiosité.
 Pas sur l'itinéraire normal du Toubkal, et nous préférons le dire clairement plutôt que de
 laisser entendre le contraire.
 
-Nos [treks du Toubkal](/en/tours/toubkal-summit-trek-4day) montent au sommet du Toubkal à
+Nos [treks du Toubkal](/fr/tours/toubkal-summit-trek-4day) montent au sommet du Toubkal à
 4 167 m et redescendent au refuge. Le Tibherine est un objectif distinct sur une ligne
 différente, bien moins parcourue. L'approche n'est pas balisée, le terrain est instable et
 plus raide que tout ce qu'on trouve sur le sentier touristique.
@@ -6461,14 +6461,14 @@ clémente, avec un taux de réussite nettement supérieur.
 êtes à l'aise sur la neige. C'est plus calme, et les vues du sommet dans l'air froid et
 clair sont les plus belles de l'année.
 
-Nos [départs Toubkal et Sahara de 8 jours](/en/tours/morocco-highlights-toubkal-sahara-8day)
+Nos [départs Toubkal et Sahara de 8 jours](/fr/tours/morocco-highlights-toubkal-sahara-8day)
 partent des deux côtés de cette limite — trois dates en mars, deux en avril — et c'est
 délibéré. Si vous hésitez entre elles, le paragraphe ci-dessus est la décision.
 
 ## Accordez-vous la journée supplémentaire
 
 Quel que soit le mois, c'est l'altitude qui décide de plus de sommets que la forme
-physique. Le [programme de 4 jours](/en/tours/toubkal-summit-trek-4day) monte
+physique. Le [programme de 4 jours](/fr/tours/toubkal-summit-trek-4day) monte
 progressivement avec une nuit d'acclimatation ; la version de 2 jours passe de 1 740 m à
 4 167 m en une trentaine d'heures. En mars, quand la montée finale est de toute façon plus
 dure et plus lente, cette journée vaut encore plus qu'en juillet.
@@ -6512,7 +6512,7 @@ par la vallée ne fait jamais.
 
 ## Ce que cela coûte
 
-Notre [trek Aguelzim de 3 jours](/en/tours/toubkal-aguelzim-pass-3day) est à 600 € pour
+Notre [trek Aguelzim de 3 jours](/fr/tours/toubkal-aguelzim-pass-3day) est à 600 € pour
 une personne, 302 € chacun à deux, et 230 € chacun à six. Comme tous nos départs privés,
 il est tarifé sur une échelle dégressive, parce que le guide et le transport sont un coût
 fixe réparti entre les participants : le tarif par personne baisse donc quand le groupe
@@ -6532,7 +6532,7 @@ chances d'arriver au sommet en forme.
 Elle convient aux randonneurs expérimentés qui ont déjà fait des trekkings de plusieurs
 jours et préfèrent avoir la montagne pour eux plutôt que prendre la ligne la plus facile.
 Si c'est votre premier grand sommet, la
-[voie normale de 4 jours](/en/tours/toubkal-summit-trek-4day) est le meilleur choix et
+[voie normale de 4 jours](/fr/tours/toubkal-summit-trek-4day) est le meilleur choix et
 nous vous le dirons si vous demandez.
 
 ## Ce qui est inclus
@@ -7821,8 +7821,8 @@ voulez y être, réservez des mois à l'avance. Sinon, évitez cette semaine.
 Marrakech laissent cinq à six heures sur place, de quoi voir les remparts, la
 médina, déjeuner au port et passer sur la plage. Notre
 [excursion partagée depuis Marrakech](/fr/tours/excursion-partagee-essaouira)
-fait exactement cela, et depuis la côte l'
-[excursion depuis Agadir](/fr/tours/excursion-essaouira-agadir) est une route
+fait exactement cela, et depuis la côte
+l'[excursion depuis Agadir](/fr/tours/excursion-essaouira-agadir) est une route
 plus courte.
 
 **Mais deux nuits valent mieux**, si l'itinéraire le permet. La ville change
@@ -8150,6 +8150,513 @@ Les nuits se passent chez des familles berbères : dîner cuisiné par la maison
 Pour le reste du voyage, des sièges auto aux enfants difficiles à table, lisez notre guide du [Maroc en famille avec des enfants](/fr/blog/maroc-en-famille-avec-enfants).
 
 👉 **[Voir le trek famille de 4 jours](/fr/tours/trek-atlas-famille-4-jours)** : des journées courtes, des nuits au village et des mules pour les bagages, avec un guide de ces vallées.
+`,
+  },
+  {
+    slug: "paradise-valley-agadir-cost",
+    localizedSlug: "prix-paradise-valley-agadir",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte une excursion à Paradise Valley depuis Agadir ?",
+    excerpt:
+      "Une excursion privée à Paradise Valley depuis Agadir coûte 38 € par personne à deux et 22 € à six. Voici le coût complet : transport, guide et ce que comprend vraiment la journée.",
+    heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
+    category: "tips",
+    region: "agadir-region",
+    readTime: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix Paradise Valley", "tarif Paradise Valley", "prix excursion Agadir", "Paradise Valley Agadir", "cascades d'Imouzzer"],
+    seoTitle: "Paradise Valley depuis Agadir : prix",
+    seoDescription:
+      "Le prix d'une excursion à Paradise Valley depuis Agadir : 38 € par personne à deux, 22 € à six. Transport, guide et détour par Imouzzer détaillés.",
+    relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
+    faq: [
+      { q: "Combien coûte une excursion à Paradise Valley depuis Agadir ?", a: "Notre excursion privée coûte 38 € par personne à deux, puis 27 € à quatre et 22 € à six. Seul, elle coûte 75 €, car une personne supporte tout le coût du véhicule et du chauffeur-guide au lieu de le partager. Ce prix comprend le transport aller-retour depuis votre hôtel d'Agadir ou de Taghazout, un chauffeur-guide et la montée côté Imouzzer quand le niveau de l'eau en vaut la peine." },
+      { q: "L'entrée à Paradise Valley est-elle gratuite ?", a: "Oui. Paradise Valley est une gorge naturelle, pas un site payant : il n'y a ni billet d'entrée ni droit de parc. Ce que vous payez sur une excursion, c'est le trajet de 35 km depuis Agadir, le chauffeur-guide et le fait de savoir quelles vasques ont vraiment de l'eau ce jour-là — la vallée baisse de la fin de l'été à l'automne et les bonnes vasques changent." },
+      { q: "Peut-on aller à Paradise Valley en taxi ?", a: "Oui. Un grand taxi depuis Agadir se négocie autour de 400 à 700 MAD aller-retour pour le véhicule, selon votre marchandage et le temps d'attente. C'est souvent moins cher qu'une excursion pour un groupe de quatre ou plus, et c'est une façon tout à fait correcte d'y aller. Ce que vous perdez, c'est un guide qui connaît les vasques — et le chauffeur qui attend devient votre horloge." },
+      { q: "Quelle est la meilleure période pour Paradise Valley ?", a: "De février à juin, quand la fonte des neiges et les pluies de printemps remplissent les vasques et permettent la baignade. Fin août, l'eau des vasques basses peut être peu profonde, tiède et verte. L'hiver convient pour marcher dans la gorge mais il fait froid pour se baigner, et après de fortes pluies la vallée est parfois inondée et fermée." },
+      { q: "Combien de temps dure l'excursion ?", a: "Une journée complète, en général huit à neuf heures de porte à porte depuis Agadir. La route prend environ une heure dans chaque sens, ce qui laisse l'essentiel de la journée dans la vallée — assez pour marcher entre plusieurs vasques, se baigner et déjeuner sur l'une des terrasses au-dessus de la rivière, sans être pressé par un horaire." },
+    ],
+    content: `
+## Ce que coûte réellement Paradise Valley
+
+Le chiffre d'abord : notre [excursion privée à Paradise Valley](/fr/tours/paradise-valley-agadir-journee)
+coûte **38 € par personne à deux**, 27 € à quatre et **22 € à six**.
+Seul, c'est 75 €, car une personne supporte tout le coût du véhicule et du chauffeur-guide
+au lieu de le partager.
+
+C'est le prix total. Il n'y a ni droit de parc, ni billet d'entrée, ni guide obligatoire
+en supplément, car Paradise Valley est une gorge naturelle et non un site aménagé.
+
+## Pourquoi le prix par personne baisse autant
+
+Presque tout ce que vous payez est fixe : un véhicule, un chauffeur-guide et le carburant
+pour 70 km aller-retour. Cela coûte la même chose qu'il y ait une ou six personnes dans la
+voiture. Le prix par personne, c'est donc ce coût fixe divisé par le nombre de voyageurs.
+
+| Taille du groupe | Par personne | Ce que vous payez vraiment |
+|---|---|---|
+| 1 | 75 € | Le véhicule et le guide, seul |
+| 2 | 38 € | La moitié chacun |
+| 4 | 27 € | Un quart chacun |
+| 6 | 22 € | Un sixième chacun |
+
+C'est utile à comprendre avant de comparer des devis. Un opérateur qui affiche « à partir
+de 22 € » cite le tarif à six, et un autre qui affiche 75 € cite peut-être le tarif solo
+pour exactement la même excursion. La comparaison honnête se fait à la taille réelle de
+votre groupe.
+
+## Y aller par vous-même
+
+Vous n'avez pas besoin d'une excursion pour voir Paradise Valley, et nous préférons le dire
+plutôt que de prétendre le contraire.
+
+- **Grand taxi** : environ **400 à 700 MAD** aller-retour pour le véhicule, négocié à la
+  station, avec le chauffeur qui attend. À partir de quatre personnes, c'est généralement
+  moins cher qu'une excursion.
+- **Voiture de location** : la route est goudronnée et sans difficulté jusqu'au parking
+  principal. Le stationnement est informel et quelqu'un vous demandera quelques dirhams pour
+  surveiller la voiture.
+- **Bus local** : il n'existe pas de liaison directe utile. N'en faites pas votre plan.
+
+Ce qu'une excursion vous apporte, c'est de savoir où se trouve l'eau. Les vasques changent
+au fil de la saison — la plus connue, près du parking, peut être bondée et basse en
+septembre alors qu'une eau bien meilleure se trouve vingt minutes plus haut. Un chauffeur qui
+y était la semaine dernière le sait ; une carte, non.
+
+## Ce que comprend la journée
+
+Notre prix couvre le transport aller-retour depuis votre hôtel à Agadir ou Taghazout, le
+chauffeur-guide et la montée vers Imouzzer quand les cascades valent le détour. Le déjeuner
+n'est pas inclus — vous mangez sur l'une des terrasses au bord de la rivière, en général 60
+à 100 MAD pour un tajine et une boisson, et vous le payez vous-même plutôt que de le voir
+intégré à un forfait avec une marge.
+
+La baignade est gratuite et les vasques sont publiques. Prenez des chaussures qui
+supportent la roche mouillée : le calcaire poli au bord des vasques est vraiment glissant.
+
+## Est-ce que ça vaut la peine de payer ?
+
+Si vous êtes quatre ou plus et à l'aise pour négocier un taxi, faites-le et gardez la
+différence. Si vous êtes deux, l'excursion est si proche en prix que le guide est
+pratiquement offert. Si vous voulez aussi les cascades d'Imouzzer dans la même journée,
+prenez l'excursion — ce tronçon ajoute 40 km de route de montagne et les taxis le facturent
+en conséquence.
+
+**[Voir l'excursion complète à Paradise Valley](/fr/tours/paradise-valley-agadir-journee)**, ou lisez
+notre [guide complet de Paradise Valley](/fr/blog/paradise-valley-agadir-complete-guide) pour
+savoir à quoi ressemble la balade elle-même.
+`,
+  },
+  {
+    slug: "merzouga-3-day-tour-cost",
+    localizedSlug: "prix-circuit-merzouga-3-jours",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte un circuit de 3 jours à Merzouga ?",
+    excerpt:
+      "Un circuit partagé de 3 jours à Merzouga depuis Marrakech coûte 120 € par personne. Un circuit privé depuis Agadir coûte 366 € chacun à deux. Voici ce que la différence vous apporte vraiment.",
+    heroImage: "/gallery/camel-caravan-sunset-riders.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix circuit Merzouga", "prix circuit désert 3 jours", "prix Erg Chebbi", "tarif Merzouga", "prix circuit Sahara"],
+    seoTitle: "Circuit Merzouga 3 jours : prix",
+    seoDescription:
+      "Le prix d'un circuit de 3 jours à Merzouga en 2026 : 120 € par personne en partagé depuis Marrakech, 366 € chacun en privé à deux. Ce que l'écart apporte.",
+    relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-3day-agadir", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "Combien coûte un circuit de 3 jours à Merzouga ?", a: "Notre circuit partagé de 3 jours depuis Marrakech coûte 120 € par personne, ce qui correspond au prix réaliste du marché pour une place en minibus avec un itinéraire fixe. Un circuit privé de 3 jours depuis Agadir coûte 366 € par personne à deux, 225 € à quatre et 170 € à six — l'écart n'est pas tant une montée en gamme que le prix de ne pas partager un véhicule avec des inconnus." },
+      { q: "Pourquoi un circuit privé à Merzouga coûte-t-il tellement plus cher ?", a: "Parce qu'un circuit partagé répartit un véhicule et un chauffeur sur douze à seize places payantes, alors qu'un circuit privé répartit ce même coût fixe sur votre seul groupe. À six personnes, un circuit privé revient à 170 € chacun, bien plus proche du prix partagé que ne le laisse penser le tarif solo affiché. L'écart par personne se réduit fortement à mesure que votre groupe grandit." },
+      { q: "Un circuit de 3 jours à Merzouga vaut-il mieux qu'un 2 jours à Zagora ?", a: "Si vous voulez les grandes dunes, oui. L'Erg Chebbi à Merzouga est une véritable mer de sable avec des dunes jusqu'à 150 m, et il se trouve à une journée de route de Marrakech dans chaque sens — le troisième jour existe à cause de cette distance. Zagora est plus proche et moins cher, mais ses dunes sont basses et clairsemées en comparaison. Voir notre comparatif [Merzouga ou Zagora](/fr/blog/merzouga-vs-zagora-which-desert-tour)." },
+      { q: "Qu'est-ce qui n'est pas compris dans le prix du circuit ?", a: "Les déjeuners en route sont généralement exclus dans tout le secteur, chez nous aussi — prévoyez 70 à 120 MAD par repas. Les boissons, les pourboires du chauffeur et de l'équipe du camp, et tout surclassement vers une tente privée avec salle de bain sont aussi en supplément. Le dîner et le petit-déjeuner au camp, la balade à dos de dromadaire et le lit au camp sont inclus." },
+      { q: "Combien donner de pourboire sur un circuit dans le désert ?", a: "Environ 100 à 150 MAD par jour pour le chauffeur, de la part de l'ensemble du groupe, et 50 à 100 MAD pour l'équipe du camp la nuit dans le désert. Donnez-le en espèces, en dirhams, à la fin. C'est l'usage mais ce n'est pas obligatoire, et personne ne sera désagréable si vous ne le faites pas." },
+    ],
+    content: `
+## Les deux prix, et pourquoi ils sont si éloignés
+
+Un circuit de trois jours à Merzouga a deux prix honnêtes selon votre façon de voyager :
+
+- **Partagé, depuis Marrakech : 120 € par personne.** Une place en minibus, des jours de
+  départ fixes, un itinéraire fixe, douze à seize personnes. C'est notre
+  [circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage).
+- **Privé, depuis Agadir : 366 € par personne à deux**, 225 € à quatre, 170 € à six.
+  Votre propre véhicule et votre chauffeur, vos propres horaires. C'est notre
+  [circuit de 3 jours à Merzouga depuis Agadir](/fr/tours/merzouga-3-jours-agadir).
+
+Les deux couvrent les mêmes paysages. L'écart n'est pas une question de luxe — c'est de
+l'arithmétique.
+
+## Pourquoi l'écart se réduit quand le groupe grandit
+
+Un circuit partagé divise un véhicule, un chauffeur et une facture de carburant entre toutes
+les places vendues. Un circuit privé divise les mêmes coûts fixes entre les seuls membres de
+votre groupe. Donc :
+
+| Taille du groupe | Privé, par personne | Face aux 120 € en partagé |
+|---|---|---|
+| 1 | 728 € | 6 fois le prix partagé |
+| 2 | 366 € | 3 fois |
+| 4 | 225 € | Un peu moins de 2 fois |
+| 6 | 170 € | 1,4 fois |
+
+À six, un circuit privé coûte 50 € de plus par personne qu'une place en minibus, et vous
+avez votre propre véhicule, votre propre heure de départ et aucune attente devant quatre
+hôtels. C'est une tout autre décision que celle que suggère le tarif solo affiché.
+
+## Ce que le prix couvre vraiment
+
+Dans les deux formules : le transport pour toute la boucle, une nuit dans la région du
+Dadès ou du Todra, une nuit dans un camp du désert à l'Erg Chebbi, la balade à dos de
+dromadaire jusqu'au camp, le dîner et le petit-déjeuner au camp, et le trajet retour.
+
+Non compris, et nous le disons clairement : **les déjeuners en route** (70 à 120 MAD
+chacun), les boissons, les pourboires et tout surclassement vers une tente avec salle de
+bain. Presque tous les opérateurs au Maroc excluent les déjeuners en route ; méfiez-vous de
+celui qui prétend le contraire à un prix similaire, car le coût est généralement caché
+quelque part.
+
+## La route est le vrai coût
+
+De Marrakech à Merzouga, il y a environ 560 km dans chaque sens par le col du Tizi
+n'Tichka. C'est pour cela qu'il s'agit d'un circuit de trois jours et non de deux, et que le
+prix ne peut guère baisser sans sacrifier quelque chose de réel — en général la nuit dans le
+désert, remplacée par un hôtel à Erfoud, ou le camp lui-même, déclassé en auberge au bord de
+la route.
+
+Si vous n'avez que deux jours, ne comprimez pas cet itinéraire. Choisissez plutôt
+[Zagora](/fr/tours/desert-zagora-2-jours-partage), qui est réellement à deux jours de
+distance, ou le [circuit nuit étoilée à Merzouga](/fr/tours/nuit-etoilee-merzouga)
+si c'est le ciel nocturne que vous recherchez vraiment.
+
+## Lequel réserver
+
+Deux personnes avec un petit budget : prenez le circuit partagé et acceptez l'horaire fixe.
+Quatre ou plus, ou toute personne voyageant avec des enfants ou avec un horaire de vol
+serré : le circuit privé vaut ce qu'il coûte, et à six la différence est faible.
+
+**[Circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage)** ·
+**[Privé depuis Agadir](/fr/tours/merzouga-3-jours-agadir)**
+`,
+  },
+  {
+    slug: "zagora-2-day-tour-cost",
+    localizedSlug: "prix-circuit-zagora-2-jours",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte un circuit de 2 jours à Zagora ?",
+    excerpt:
+      "Un circuit partagé de 2 jours à Zagora depuis Marrakech coûte 85 € par personne — la nuit dans le désert la moins chère du Maroc. Voici ce que ce prix comprend, et ce qu'il ne comprend pas.",
+    heroImage: "/gallery/caravan-dune-ridge-long-shadows.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix circuit Zagora", "prix circuit désert 2 jours", "tarif Zagora", "circuit Sahara pas cher", "prix circuit désert Marrakech"],
+    seoTitle: "Circuit Zagora 2 jours : prix 2026",
+    seoDescription:
+      "Le prix d'un circuit de 2 jours à Zagora : 85 € par personne en partagé depuis Marrakech, 400 € chacun en privé à deux depuis Agadir. Ce qui est inclus.",
+    relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
+    faq: [
+      { q: "Combien coûte un circuit de 2 jours à Zagora ?", a: "Notre circuit partagé de 2 jours depuis Marrakech coûte 85 € par personne, ce qui est à peu près le prix le plus bas pour une vraie nuit dans le désert au Maroc. Une version privée depuis Agadir coûte 400 € par personne à deux, 220 € à quatre et 195 € à partir de cinq. Le prix partagé est bas parce que le véhicule est plein et l'itinéraire fixe." },
+      { q: "Zagora est-il mieux que Merzouga ?", a: "Plus proche et moins cher, pas mieux. Zagora est à environ 360 km de Marrakech contre 560 km pour Merzouga, ce qui explique qu'il tienne en deux jours. Mais ses dunes sont basses et clairsemées, alors que l'Erg Chebbi à Merzouga est une véritable mer de sable avec des dunes jusqu'à 150 m. Si ce sont les grandes dunes que vous imaginez, payez le troisième jour." },
+      { q: "Pourquoi un circuit de 2 jours à Zagora est-il si bon marché ?", a: "Parce que la route est assez courte pour se faire en une journée dans chaque sens, que le camp est proche de la route et que les départs partagés remplissent un minibus de douze à seize places payantes. Rien de tout cela n'exige de rogner sur la qualité — c'est réellement un circuit moins coûteux à organiser que Merzouga, et le prix reflète la distance plutôt que la qualité." },
+      { q: "Qu'est-ce qui est compris dans le prix du circuit Zagora ?", a: "Le transport aller-retour depuis Marrakech, la traversée du col du Tizi n'Tichka avec un arrêt à Aït Ben Haddou, une balade à dos de dromadaire dans les dunes au coucher du soleil, le dîner et le petit-déjeuner au camp, et une nuit sous une tente berbère. Les déjeuners en route, les boissons et les pourboires ne sont pas compris — prévoyez 70 à 120 MAD pour un déjeuner sur la route." },
+      { q: "Une nuit dans le désert suffit-elle ?", a: "Pour une première découverte, oui. Vous avez la balade à dos de dromadaire, le coucher du soleil, le dîner sous les étoiles et le silence, soit l'essentiel de ce que les gens viennent chercher. Ce que vous n'avez pas, c'est la profondeur — la deuxième nuit dans le désert d'un circuit de trois jours, c'est le moment où le paysage cesse d'être une photo pour devenir un lieu." },
+    ],
+    content: `
+## Ce que coûte un circuit à Zagora
+
+**85 € par personne, en partagé, depuis Marrakech.** C'est notre
+[circuit de 2 jours à Zagora](/fr/tours/desert-zagora-2-jours-partage), et c'est à peu près le
+prix plancher pour une vraie nuit dans le désert au Maroc — une balade à dos de dromadaire,
+un camp, le dîner et le petit-déjeuner, et le trajet aller-retour.
+
+En privé, depuis Agadir, les mêmes deux jours coûtent **400 € par personne à deux**,
+220 € à quatre et 195 € à partir de cinq ([d'Agadir à Zagora](/fr/tours/circuit-zagora-2-jours-agadir)).
+
+## Pourquoi c'est le circuit désert le moins cher du pays
+
+La distance. Zagora est à environ 360 km de Marrakech ; Merzouga à 560 km. Cette différence
+explique à elle seule qu'un circuit tienne en deux jours et que l'autre en demande trois, et
+elle explique l'essentiel du prix.
+
+Ici, un prix bas n'est donc pas un signal d'alarme. C'est une route plus courte, un camp
+plus proche et un minibus plein. Ce dont il faut se méfier, c'est d'un circuit **Merzouga**
+au prix de Zagora — cela signifie généralement que la nuit dans le désert est discrètement
+devenue un hôtel à Erfoud.
+
+## Ce que vous avez, et ce que vous n'avez pas
+
+Inclus : le transport aller-retour, le col du Tizi n'Tichka, un arrêt à
+[Aït Ben Haddou](/fr/blog/ait-benhaddou-guide), la balade à dos de dromadaire dans les dunes
+au coucher du soleil, le dîner et le petit-déjeuner, et une nuit sous une tente berbère.
+
+Non inclus : les déjeuners en route (70 à 120 MAD), les boissons, les pourboires.
+
+La réserve honnête concerne les dunes elles-mêmes. Celles de Zagora sont basses, sombres et
+parsemées de broussailles. C'est un vrai désert et le silence de la nuit est réel, mais ce
+ne sont pas les immenses dunes couleur abricot des photos — celles-là, c'est l'Erg Chebbi à
+[Merzouga](/fr/blog/merzouga-vs-zagora-which-desert-tour), et elles coûtent un troisième jour.
+
+## Pour qui réserver Zagora
+
+- **Si vous manquez de temps.** Deux jours, c'est deux jours. Merzouga ne se comprime pas.
+- **Avec un petit budget.** 85 € pour une nuit dans le Sahara, c'est vraiment difficile à battre.
+- **Avec de jeunes enfants.** Deux fois moins de route compte plus qu'on ne le pense.
+
+Pour qui ce n'est pas fait : tous ceux qui imaginent le Sahara avec les grandes dunes. Payez
+la différence et allez à [Merzouga](/fr/tours/desert-merzouga-3-jours-partage) — sinon vous
+passerez le voyage légèrement déçu, et c'est une façon coûteuse de l'être.
+
+**[Circuit de 2 jours à Zagora depuis Marrakech](/fr/tours/desert-zagora-2-jours-partage)**
+`,
+  },
+  {
+    slug: "erg-chegaga-tour-cost",
+    localizedSlug: "prix-circuit-erg-chegaga",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte un circuit à l'Erg Chegaga ?",
+    excerpt:
+      "L'Erg Chegaga est la mer de sable isolée du Maroc — pas de cars de touristes, pas de quads. Un circuit privé de 3 jours coûte 635 € par personne à deux et 281 € à cinq. Voici pourquoi.",
+    heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 8,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix Erg Chegaga", "prix circuit Chegaga", "Sahara isolé Maroc", "Erg Chegaga ou Erg Chebbi", "prix trek chamelier"],
+    seoTitle: "Circuit Erg Chegaga : prix",
+    seoDescription:
+      "Le prix d'un circuit à l'Erg Chegaga : 635 € par personne à deux en privé sur 3 jours, 281 € à cinq. Pourquoi la mer de sable isolée du Maroc coûte plus cher.",
+    relatedTours: ["erg-chegaga-3day-marrakech", "chegaga-camel-trek-8day", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "Combien coûte un circuit à l'Erg Chegaga ?", a: "Notre circuit privé de 3 jours depuis Marrakech coûte 635 € par personne à deux, 425 € à trois, 336 € à quatre et 281 € à cinq. C'est nettement plus qu'un circuit à Merzouga de même durée, et la raison est l'accès : les 60 derniers kilomètres jusqu'à Chegaga se font hors piste, ce qui exige un 4x4 et un chauffeur qui connaît le chemin, et non un minibus sur le goudron." },
+      { q: "Pourquoi l'Erg Chegaga est-il plus cher que Merzouga ?", a: "Parce qu'on ne peut pas y aller en minibus. L'Erg Chebbi à Merzouga a une route goudronnée jusqu'au pied des dunes et une grande infrastructure touristique qui répartit les coûts sur de gros volumes. Chegaga s'atteint par 60 km de piste, ce qui exige un 4x4, plus de carburant, plus de temps et un chauffeur capable de s'y orienter. Vous payez l'isolement." },
+      { q: "L'Erg Chegaga est-il mieux que l'Erg Chebbi ?", a: "Il est plus vide. Chegaga est une mer de sable plus vaste et plus sauvage, sans quads, sans cars de touristes et souvent sans aucun autre camp en vue, alors que l'Erg Chebbi a des hôtels le long des dunes et des points de vue très fréquentés au coucher du soleil. Les dunes de Chebbi sont légèrement plus hautes et bien plus faciles d'accès. Choisissez Chegaga pour la solitude, Chebbi pour la commodité — voir [Erg Chebbi ou Erg Chegaga](/fr/blog/erg-chebbi-vs-erg-chegaga)." },
+      { q: "Combien de temps faut-il pour l'Erg Chegaga ?", a: "Trois jours minimum depuis Marrakech, car la route fait environ 550 km plus la section hors piste. Deux jours n'est pas réaliste, et tout opérateur qui le propose réduit la nuit dans le désert à quelques heures. Pour une vraie immersion, le trek chamelier de 8 jours dans la vallée du Drâa s'y rend à pied plutôt qu'en voiture." },
+      { q: "Combien coûte un trek chamelier de 8 jours vers Chegaga ?", a: "Notre trek de 8 jours en descendant la vallée du Drâa jusqu'à M'hamid coûte 1 352 € par personne à deux, 1 056 € à trois et 909 € à quatre. Cela couvre huit jours de marche avec des dromadaires qui portent le matériel, tous les camps, tous les repas, le guide et les chameliers — c'est une véritable expédition et non un trajet en voiture avec un camp au bout." },
+      { q: "À quelle distance l'Erg Chegaga est-il de Marrakech ?", a: "Environ 450 km de route jusqu'à M'hamid, où s'arrête le goudron, soit une journée entière d'environ 8 heures à travers le Haut Atlas. De là, il reste environ 60 km hors piste en 4x4 jusqu'aux dunes. C'est pourquoi notre [circuit Erg Chegaga depuis Marrakech](/fr/tours/erg-chegaga-3-jours-marrakech) dure trois jours, à partir de 635 € par personne à deux." },
+    ],
+    content: `
+## Ce que coûte Chegaga, et pourquoi
+
+Notre [circuit privé de 3 jours à l'Erg Chegaga depuis Marrakech](/fr/tours/erg-chegaga-3-jours-marrakech)
+coûte **635 € par personne à deux**, 425 € à trois, 336 € à quatre et **281 € à
+cinq**. Seul, c'est 1 269 €, car un voyageur solo supporte tout le 4x4 et le chauffeur au
+lieu de les partager — c'est pourquoi Chegaga est le seul circuit pour lequel nous vous
+suggérerons de trouver un compagnon de route.
+
+C'est plus qu'un circuit à Merzouga de même durée, et la raison est simple : **les 60
+derniers kilomètres n'ont pas de route**.
+
+## Ce que vous payez vraiment
+
+| | Merzouga (Erg Chebbi) | Chegaga |
+|---|---|---|
+| Accès | Route goudronnée jusqu'aux dunes | ~60 km de piste |
+| Véhicule | Minibus | 4x4, un par petit groupe |
+| Camps à proximité | Des dizaines | Une poignée |
+| Autres visiteurs | Cars de touristes, quads | Souvent personne |
+
+Un minibus ne peut pas atteindre Chegaga. Un 4x4 transporte moins de monde, consomme plus et
+exige un chauffeur qui connaît assez bien la piste pour la traverser en sécurité — les
+itinéraires dans le sable bougent et il n'y a aucun panneau. Chacun de ces éléments est un
+coût réel, et ensemble ils font l'écart de prix.
+
+## Le choix que vous faites
+
+L'Erg Chebbi est plus facile et moins cher, et ses dunes sont légèrement plus hautes. Ce
+qu'il n'est pas, c'est calme. Il y a des hôtels le long des dunes, des quads l'après-midi et
+de la foule sur la crête la plus prisée au coucher du soleil.
+
+Chegaga est le choix inverse. Plus difficile d'accès, plus cher, et souvent désert — pas de
+bruit de moteur, aucun autre camp en vue, et un horizon de sable dans presque toutes les
+directions. Si vous avez déjà vu le Sahara et l'avez trouvé plus fréquenté que vous ne
+l'espériez, c'est la réponse.
+
+Notre comparatif complet se trouve dans
+[Erg Chebbi ou Erg Chegaga](/fr/blog/erg-chebbi-vs-erg-chegaga).
+
+## Y aller à pied
+
+Le 4x4, c'est la voie rapide. L'autre façon, c'est de marcher, comme le fait le
+[trek chamelier de 8 jours dans la vallée du Drâa](/fr/tours/trek-chameau-chegaga-8-jours) — en
+descendant la vallée des palmiers jusqu'à M'hamid puis dans le sable, avec des dromadaires
+qui portent le matériel. Il coûte **1 352 € par personne à deux**, 1 056 € à trois et
+909 € à quatre, et couvre tous les camps, tous les repas, le guide et les chameliers.
+
+Ramené à la journée, ce n'est pas loin d'un circuit en voiture. La différence, c'est que
+vous arrivez aux dunes après avoir traversé le terrain plutôt que d'y avoir été déposé.
+
+## Ne le comprimez pas
+
+Chegaga ne tient pas en deux jours depuis Marrakech. La route seule fait environ 550 km
+dans chaque sens, plus la piste. Quiconque vend un circuit Chegaga de deux jours réduit soit
+la nuit dans le désert à quelques heures, soit vous emmène discrètement à Zagora — un très
+bon circuit, à [un tiers du prix](/fr/tours/desert-zagora-2-jours-partage), mais ce n'est pas
+celui-ci.
+
+**[Voir l'expédition de 3 jours à l'Erg Chegaga](/fr/tours/erg-chegaga-3-jours-marrakech)**
+`,
+  },
+  {
+    slug: "ouzoud-waterfalls-day-trip-cost",
+    localizedSlug: "prix-excursion-cascades-ouzoud",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte une excursion aux cascades d'Ouzoud ?",
+    excerpt:
+      "Une excursion partagée à Ouzoud depuis Marrakech coûte 40 € par personne ; en privé, 38 € chacun à deux. Voici le coût complet, y compris ce que coûtent vraiment la barque et le déjeuner.",
+    heroImage: "/gallery/berber-guide-waterfall-portrait.jpg",
+    category: "tips",
+    region: "atlas-mountains",
+    readTime: 6,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix Ouzoud", "prix cascades d'Ouzoud", "prix excursion Marrakech", "excursion Ouzoud", "cascades Maroc"],
+    seoTitle: "Excursion cascades d'Ouzoud : prix 2026",
+    seoDescription:
+      "Le prix d'une excursion aux cascades d'Ouzoud : 40 € par personne en partagé depuis Marrakech, 38 € chacun en privé à deux. Entrée, barque et déjeuner.",
+    relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
+    faq: [
+      { q: "Combien coûte une excursion à Ouzoud ?", a: "Notre excursion partagée depuis Marrakech coûte 40 € par personne sur un départ fixe. La version privée coûte 38 € par personne à deux, 27 € à quatre et 22 € à six — donc à partir de deux personnes, l'excursion privée coûte autant ou moins que la place en partagé, car le coût du véhicule se répartit entre les membres de votre groupe." },
+      { q: "Y a-t-il un droit d'entrée à Ouzoud ?", a: "Non. Les cascades sont en accès libre et gratuites. Ce qui se paie sur place, c'est la petite barque qui vous emmène près du pied de la cascade, environ 20 à 30 MAD par personne, et le parking si vous venez en voiture. En haut, des guides proposeront de vous accompagner jusqu'en bas pour un prix à négocier, en général 100 à 150 MAD pour un groupe." },
+      { q: "À quelle distance Ouzoud est-il de Marrakech ?", a: "Environ 150 km, soit deux heures et demie dans chaque sens sur une route correcte. C'est donc une journée complète — la plupart des excursions quittent Marrakech vers 8 h et rentrent vers 18 h ou 19 h, avec environ quatre heures aux cascades, assez pour descendre, prendre la barque et déjeuner au-dessus de la cascade." },
+      { q: "Peut-on se baigner à Ouzoud ?", a: "Oui, dans le bassin au pied de la chute principale, et les gens le font. L'eau est froide toute l'année et les embruns rendent les rochers glissants, alors portez des chaussures qui accrochent. Le bassin est profond par endroits et il n'y a pas de maître-nageur — c'est une rivière naturelle, à traiter comme telle." },
+      { q: "Verra-t-on les singes ?", a: "En général, oui. Des magots (macaques de Barbarie) vivent dans les bois le long du sentier de descente et sont habitués aux visiteurs, et c'est justement pour cela qu'il ne faut pas les nourrir — les macaques nourris deviennent agressifs, et c'est un vrai problème sur le site. Gardez vos sacs fermés ; ils sont rapides et tout à fait décidés." },
+      { q: "Combien de temps dure la marche aux cascades d'Ouzoud ?", a: "Peu : une vingtaine de minutes de descente depuis le haut, en passant devant les macaques, jusqu'au pied des cascades. Notre [excursion](/fr/tours/excursion-cascades-ouzoud) est à partir de 38 € par personne à deux et ajoute le sentier des gorges et une sortie en barque jusqu'aux embruns, avec un guide certifié." },
+    ],
+    content: `
+## Ce que ça coûte
+
+**40 € par personne** sur notre
+[excursion partagée à Ouzoud](/fr/tours/excursion-partagee-cascades-ouzoud) depuis Marrakech.
+
+La [version privée](/fr/tours/excursion-cascades-ouzoud) coûte **38 € par personne à
+deux**, 27 € à quatre et 22 € à six.
+
+Relisez bien, car c'est inhabituel : à partir de deux personnes, l'excursion privée coûte
+autant ou moins que la place en partagé. Le circuit partagé n'a de sens que si vous voyagez
+seul, où il coûte 40 € contre 75 € pour une voiture privée rien que pour vous.
+
+## Les coûts sur place
+
+Rien n'est cher à Ouzoud, mais le prix de l'excursion ne couvre pas tout :
+
+| Poste | Coût habituel | Inclus ? |
+|---|---|---|
+| Accès aux cascades | Gratuit | - |
+| Barque jusqu'au pied de la cascade | 20 à 30 MAD | Non, à payer sur place |
+| Déjeuner au-dessus des cascades | 70 à 120 MAD | Non |
+| Guide local pour la descente | 100 à 150 MAD par groupe | Facultatif |
+| Parking (si vous conduisez) | ~20 MAD | - |
+
+Prévoyez donc environ **100 à 150 MAD chacun** en espèces en plus du prix de l'excursion
+pour la barque et le déjeuner. Ce n'est pas un supplément caché — c'est simplement le
+fonctionnement du site, et nous préférons que vous le sachiez plutôt que de le découvrir en
+haut du sentier.
+
+## Y aller par vous-même
+
+Ouzoud est vraiment facile d'accès en autonomie. C'est à 150 km de bonne route depuis
+Marrakech, il y a un parking en haut et le sentier de descente est évident. Une voiture de
+location pour la journée plus le carburant revient à environ 400 à 600 MAD, ce qui, à
+quatre, bat n'importe quelle excursion.
+
+Ce que vous achetez avec une excursion, c'est la conduite — cinq heures de route, un jour
+où vous voulez aussi descendre un sentier raide sous la chaleur.
+
+## À quoi ressemble la journée
+
+Départ de Marrakech vers 8 h, arrivée vers 10 h 30. La descente prend vingt minutes en
+passant devant les macaques, la barque traverse jusqu'aux embruns au pied de la cascade, et
+le déjeuner se prend sur l'une des terrasses face à la chute. Retour à Marrakech en début de
+soirée.
+
+Avec 110 m sur trois paliers, Ouzoud est la plus haute cascade d'Afrique du Nord, et l'eau
+coule toute l'année, avec un débit maximal de mars à juin après les pluies d'hiver.
+
+Si vous voulez quelque chose de plus calme et de plus proche, la
+[randonnée d'une journée dans la vallée de l'Ourika](/fr/tours/randonnee-vallee-ourika-journee) est à
+une heure de Marrakech au lieu de deux heures et demie, et c'est une marche plutôt qu'un
+point de vue.
+
+**[Excursion partagée à Ouzoud](/fr/tours/excursion-partagee-cascades-ouzoud)** ·
+**[Excursion privée à Ouzoud](/fr/tours/excursion-cascades-ouzoud)**
+`,
+  },
+  {
+    slug: "agafay-desert-evening-cost",
+    localizedSlug: "prix-soiree-desert-agafay",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Combien coûte une soirée dans le désert d'Agafay ?",
+    excerpt:
+      "Un dîner partagé avec balade à dos de dromadaire à Agafay coûte 30 € par personne ; une soirée privée au coucher du soleil, 94 € chacun à deux. Ce que coûte vraiment le désert de pierre près de Marrakech.",
+    heroImage: "/gallery/desert-campfire-night-guests.jpg",
+    category: "desert",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-10-03",
+    tags: ["prix Agafay", "prix désert d'Agafay", "dîner désert Marrakech", "dromadaire Agafay", "Agafay ou Merzouga"],
+    seoTitle: "Soirée désert d'Agafay : prix",
+    seoDescription:
+      "Prix d'une soirée à Agafay : 30 € par personne en partagé avec dîner et dromadaire, 94 € chacun en privé à deux. Pourquoi Agafay est de pierre, pas de sable.",
+    relatedTours: ["shared-agafay-dinner-camel-ride", "agafay-desert-sunset", "shared-zagora-2day-marrakech"],
+    faq: [
+      { q: "Combien coûte une soirée dans le désert d'Agafay ?", a: "Notre soirée partagée avec dîner, balade à dos de dromadaire et spectacle de feu coûte 30 € par personne, c'est l'expérience désert la moins chère que nous proposons. La sortie privée coucher de soleil et dîner coûte 94 € par personne à deux, 67 € à quatre et 56 € à six — vous payez votre propre véhicule et votre propre horaire plutôt qu'un départ en car." },
+      { q: "Agafay est-il un vrai désert ?", a: "C'est un vrai désert, mais pas un désert de sable. Agafay est une hamada caillouteuse — un sol dur et clair, des collines basses et presque aucune végétation, à environ 30 km de Marrakech. À l'heure dorée, on dirait le Sahara sur les photos et c'est vraiment désert, mais si vous attendez de grandes dunes de sable, vous serez déçu. Celles-là sont à Merzouga, à une journée de route." },
+      { q: "Agafay vaut-il le coup si je vais aussi dans le Sahara ?", a: "Probablement pas, sauf si vous voulez une soirée facile. L'intérêt d'Agafay est d'être à une heure de Marrakech et de pouvoir se faire entre le dîner et le coucher. Si vous avez déjà réservé un circuit à Merzouga ou à Zagora, vous verrez tout ce qu'offre Agafay et bien plus, et la soirée devient une dépense agréable mais redondante." },
+      { q: "Qu'est-ce qui est compris dans une soirée à Agafay ?", a: "Sur la soirée partagée : le transport aller-retour depuis Marrakech, une courte balade à dos de dromadaire au coucher du soleil, le dîner dans un camp du désert et un spectacle de feu ou de musique gnaoua. Les boissons en plus de celles servies avec le dîner sont en supplément, et le pourboire à l'équipe du camp est d'usage, autour de 30 à 50 MAD. En privé, vous avez la même chose, mais à votre propre horaire." },
+      { q: "À quelle distance Agafay est-il de Marrakech ?", a: "Environ 30 km, soit 45 minutes à une heure de route selon la circulation pour sortir de la ville. Cette proximité est tout l'intérêt — c'est la seule soirée dans le désert au Maroc qu'on puisse faire en une demi-journée tout en dormant le soir même dans son riad." },
+      { q: "Combien coûte une balade à dos de dromadaire à Marrakech ?", a: "Sur nos circuits, la balade à dos de dromadaire fait partie d'une soirée dans le désert d'Agafay, à environ 30 km de la ville : 30 € par personne sur la [soirée partagée](/fr/tours/agafay-diner-dromadaire-spectacle-feu), avec dîner, musique live et spectacle de feu, ou à partir de 94 € par personne à deux sur la [sortie privée au coucher du soleil](/fr/tours/coucher-soleil-desert-agafay), qui ajoute une heure de quad et se déroule à votre propre horaire." },
+    ],
+    content: `
+## Ce que coûte une soirée à Agafay
+
+**30 € par personne** pour notre
+[dîner partagé avec balade à dos de dromadaire et spectacle de feu à Agafay](/fr/tours/agafay-diner-dromadaire-spectacle-feu).
+C'est l'expérience désert la moins chère que nous proposons, et elle se déroule entre la
+fin d'après-midi et l'heure du coucher.
+
+La [sortie privée coucher de soleil et dîner](/fr/tours/coucher-soleil-desert-agafay) coûte **94 €
+par personne à deux**, 67 € à quatre et 56 € à six.
+
+## Sachez bien ce qu'est Agafay
+
+Agafay est un **désert de pierre, pas de sable**. C'est une hamada — un sol dur et clair,
+des collines ondulées, presque aucune plante — à environ 30 km de Marrakech, avec l'Atlas à
+l'horizon derrière. À l'heure dorée, c'est vraiment beau, et sur les photos on le croirait
+bien plus reculé qu'il ne l'est.
+
+Ce qu'il n'a pas, ce sont des dunes. Ni petites, ni aucune. Toutes les grandes dunes couleur
+abricot que vous avez vues sur une photo du Maroc sont à l'Erg Chebbi, à
+[Merzouga](/fr/tours/desert-merzouga-3-jours-partage), ou à l'Erg Chegaga, tous deux à une longue
+journée de route vers le sud.
+
+Nous le disons franchement parce que c'est la déception la plus fréquente des excursions
+depuis Marrakech, et qu'il suffit de le savoir à l'avance pour l'éviter.
+
+## Pour qui Agafay est un bon choix
+
+- **Une nuit à Marrakech et pas le temps pour le Sahara.** C'est le substitut honnête.
+- **Avec de jeunes enfants.** Une heure de route dans chaque sens au lieu de dix.
+- **Vous voulez dîner sous les étoiles sans vous engager sur deux jours.**
+
+Pour qui ce n'est pas le bon choix : quiconque a déjà réservé un circuit à
+[Zagora](/fr/tours/desert-zagora-2-jours-partage) ou à Merzouga. Vous verrez tout cela et bien
+plus, et la soirée devient un doublon.
+
+## Les extras
+
+Le dîner et la balade à dos de dromadaire sont compris dans le prix. Les boissons
+supplémentaires ne le sont pas, et le pourboire à l'équipe du camp tourne autour de 30 à 50
+MAD pour le groupe. Prenez une couche chaude — la température chute fortement après le
+coucher du soleil, même en été, car rien là-bas ne retient la chaleur.
+
+**[Soirée partagée à Agafay](/fr/tours/agafay-diner-dromadaire-spectacle-feu)** ·
+**[Coucher de soleil privé à Agafay](/fr/tours/coucher-soleil-desert-agafay)**
 `,
   },
 ];

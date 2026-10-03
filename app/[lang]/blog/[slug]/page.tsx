@@ -14,7 +14,8 @@ import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import BlogTripBox from "@/components/blog/BlogTripBox";
-import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
+import { getTourFor } from "@/lib/tours-i18n";
+import { localizeHref } from "@/lib/localize-href";
 import { lowestGroupPrice } from "@/lib/tours";
 import { splitBeforeFirstH2 } from "@/lib/blog-trip-box";
 import WhyBookWithUs from "@/components/ui/WhyBookWithUs";
@@ -244,16 +245,6 @@ export default async function BlogPostPage({ params }: BlogParams) {
       .replace(/\[([^\]]+)\]\((\/(?!\/)[^)\s]*)\)/g, (_m, text: string, href: string) => `<a href="${localizeHref(href)}">${text}</a>`);
   }
 
-  // Translated posts link tours and posts by their English slug, which only
-  // reaches the page through a redirect. Point those links at the localised
-  // slug directly; anything already localised or unknown passes through as is.
-  function localizeHref(href: string): string {
-    const m = href.match(/^\/([a-z]{2})\/(tours|blog)\/([^/?#]+)(.*)$/);
-    if (!m || !hasLocale(m[1])) return href;
-    const [, loc, kind, seg, rest] = m;
-    const slug = kind === "tours" ? tourSlugFor(loc, seg) : blogSlugFor(loc, seg);
-    return `/${loc}/${kind}/${slug}${rest}`;
-  }
 
   // ![alt](/path.jpg) with an optional "caption" after the path.
   // The path is restricted to a leading slash for the same reason links are:

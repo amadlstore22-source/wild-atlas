@@ -1,4 +1,5 @@
 import type { Faq } from "./types";
+import { stripMarkdownLinks } from "@/lib/localize-href";
 
 const SITE = "https://marrakechecotours.com";
 
@@ -33,7 +34,9 @@ export function buildFaqSchema(faq: Faq[], id?: string) {
     mainEntity: faq.map((f) => ({
       "@type": "Question",
       name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
+      // Visible answers render markdown links as links; the schema carries the
+      // same words without the [label](/url) syntax so the two still match.
+      acceptedAnswer: { "@type": "Answer", text: stripMarkdownLinks(f.a) },
     })),
   };
 }

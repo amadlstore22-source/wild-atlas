@@ -3478,7 +3478,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "Große Hoher-Atlas-Durchquerung 15 Tage",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support.",
+    seoDescription: "Die große 15-tägige Hoher-Atlas-Durchquerung vom Aït-Bougmez-Tal über den M'Goun (4.068 m) bis auf den Toubkal (4.167 m). Abgelegene Dörfer, Maultiere.",
     faq: [
       { q: "Wie fit und erfahren muss ich für die Große Durchquerung sein?", a: "Sie ist als Experte eingestuft — die anspruchsvollste Reise, die wir anbieten. Es sind fünfzehn aufeinanderfolgende Wandertage, mehrere davon lang (8–9 Stunden), mit zwei 4.000-m-Gipfeln und hohen Pässen. Sie sollten bereits Mehrtages-Trekkingerfahrung haben, in der Höhe sicher sein und auf aufeinanderfolgende harte Tage in abgelegenem Gelände vorbereitet sein. Es ist kein erster großer Trek." },
       { q: "Welche Gipfel besteigt die Durchquerung?", a: "Die zwei höchsten Nordafrikas: den M'Goun (4.068 m) früh auf der Route von der Aït-Bougmez-Seite und den Jbel Toubkal (4.167 m) gegen Ende. Wetterabhängig sind beide Gipfel Teil des Standard-Itinerars statt optionaler Extras." },

@@ -3478,7 +3478,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "Grande Traversata Alto Atlante, 15 gg",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support.",
+    seoDescription: "La grande traversata di 15 giorni dell'Alto Atlante, dalla valle di Aït Bougmez al M'Goun (4.068 m) fino alla vetta del Toubkal (4.167 m). Muli inclusi.",
     faq: [
       { q: "Quanta forma fisica ed esperienza servono per la Grande Traversata?", a: "È classificata esperta: il viaggio più impegnativo che offriamo. Sono quindici giorni consecutivi di cammino, diversi lunghi (8-9 ore), con due cime da 4.000 m e passi elevati. Devi già avere esperienza di trekking di più giorni, essere a tuo agio in quota ed essere pronto a giornate dure consecutive in terreno remoto. Non è un primo grande trekking." },
       { q: "Quali cime raggiunge la traversata?", a: "Le due più alte del Nord Africa: il M'Goun (4.068 m) all'inizio del percorso dal versante di Ait Bougmez, e il Jbel Toubkal (4.167 m) verso la fine. Tempo permettendo, entrambe le cime fanno parte dell'itinerario standard più che di extra facoltativi." },

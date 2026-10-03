@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Faq } from "@/lib/seo/types";
+import { splitMarkdownLinks } from "@/lib/localize-href";
 
 interface Props {
   faq: Faq[];
@@ -32,7 +34,21 @@ export default function FaqSection({ faq, title = "Frequently asked questions", 
                 +
               </span>
             </summary>
-            <div className="px-5 pb-5 text-ink-soft leading-relaxed">{item.a}</div>
+            <div className="px-5 pb-5 text-ink-soft leading-relaxed">
+              {splitMarkdownLinks(item.a).map((seg, i) =>
+                !seg.href ? (
+                  seg.text
+                ) : seg.href.startsWith("/") ? (
+                  <Link key={i} href={seg.href} className="text-indigo underline underline-offset-2 hover:text-indigo-deep">
+                    {seg.text}
+                  </Link>
+                ) : (
+                  <a key={i} href={seg.href} target="_blank" rel="noopener noreferrer" className="text-indigo underline underline-offset-2">
+                    {seg.text}
+                  </a>
+                )
+              )}
+            </div>
           </details>
         ))}
       </div>

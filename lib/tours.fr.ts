@@ -3487,7 +3487,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "Grande Traversée du Haut Atlas 15 jours",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support.",
+    seoDescription: "La grande traversée du Haut Atlas en 15 jours, de la vallée des Aït Bouguemez au M'Goun (4 068 m) puis au sommet du Toubkal (4 167 m). Mules incluses.",
     faq: [
       { q: "Quelle condition physique et expérience faut-il pour la Grande Traversée ?", a: "Elle est classée expert — le voyage le plus exigeant que nous proposons. Ce sont quinze jours de marche consécutifs, plusieurs longs (8 à 9 heures), avec deux sommets à 4 000 m et de hauts cols. Vous devez déjà avoir une expérience du trek sur plusieurs jours, être à l'aise en altitude, et être prêt pour des journées difficiles consécutives en pays reculé. Ce n'est pas un premier grand trek." },
       { q: "Quels sommets la traversée gravit-elle ?", a: "Les deux plus hauts d'Afrique du Nord : le M'Goun (4 068 m) au début de l'itinéraire depuis le versant d'Aït Bougmez, et le Jbel Toubkal (4 167 m) vers la fin. Selon la météo, les deux sommets font partie de l'itinéraire standard plutôt que d'options supplémentaires." },

@@ -3478,7 +3478,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "Gran Travesía del Alto Atlas 15 días",
-    seoDescription: "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. Remote villages, full mule support.",
+    seoDescription: "La gran travesía del Alto Atlas en 15 días, del valle de Aït Bougmez al M'Goun (4.068 m) y a la cumbre del Toubkal (4.167 m). Pueblos remotos y mulas.",
     faq: [
       { q: "¿Qué forma física y experiencia hacen falta para la Gran Travesía?", a: "Está clasificada como experta: el viaje más exigente que ofrecemos. Son quince días consecutivos de caminata, varios largos (8-9 horas), con dos cumbres de 4.000 m y puertos altos. Debes tener ya experiencia de trekking de varios días, estar cómodo en altitud y estar preparado para días duros consecutivos en terreno remoto. No es un primer gran trekking." },
       { q: "¿Qué picos corona la travesía?", a: "Los dos más altos del norte de África: el M'Goun (4.068 m) al principio de la ruta desde el lado de Ait Bougmez, y el Jbel Toubkal (4.167 m) cerca del final. Si el tiempo lo permite, ambas cumbres forman parte del itinerario estándar más que de extras opcionales." },

@@ -8022,7 +8022,7 @@ Finally: book direct where you can. Platform commissions run 20\u201330%, and on
       "What a Moroccan cooking class in Marrakech actually involves: the spice souk walk, cooking a tagine from scratch, the mint tea ceremony.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "How much does a cooking class in Marrakech cost?", a: "Our [food and market tour](/en/tours/marrakech-food-market-tour) is \u20ac100 per person. Around town, expect \u20ac25\u2013\u20ac60 per person for a half day." },
+      { q: "How much does a cooking class in Marrakech cost?", a: "Our [food and market tour](/en/tours/marrakech-food-market-tour) is \u20ac100 per person. That covers a local guide, a walk through the medina, shopping at the market for what you cook, and the meal itself." },
       { q: "How long does a Moroccan cooking class take?", a: "Half a day, about four hours. Ours starts at 9:30 am at the Rahba Kedima spice square, runs 90 minutes of guided market tastings, then moves to a family kitchen for the class and the meal you cooked." },
       { q: "Do you eat what you cook?", a: "Yes \u2014 a full tagine lunch is the point of the class, not a tasting portion. Come hungry and do not book a heavy breakfast beforehand." },
       { q: "Are cooking classes suitable for vegetarians?", a: "Yes. Vegetable tagine is a staple of the Moroccan kitchen rather than an accommodation, so it is cooked the same way as any other. Tell us when booking and the market walk is adjusted too." },
@@ -8069,7 +8069,7 @@ Our [Marrakech food and market tour](/en/tours/marrakech-food-market-tour) is a 
 
 The price is \u20ac100 per person, whatever the size of your group.
 
-Around Marrakech generally, expect \u20ac25\u2013\u20ac60 per person for a half-day class. Below that, something is missing \u2014 usually the market walk, sometimes the eating.
+That price covers the whole half day, not just a cooking lesson: a local guide walks you through the medina, then takes you to the market to buy what you will cook, and the day ends at the table with the meal you made. Cheaper classes in town are usually the cooking alone.
 
 ## How to spot a bad class
 

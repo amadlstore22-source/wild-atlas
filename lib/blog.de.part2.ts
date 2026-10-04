@@ -5704,7 +5704,7 @@ Und: buchen Sie direkt, wo es geht. Plattformprovisionen liegen bei 20–30 %, u
       "Was ein marokkanischer Kochkurs in Marrakesch wirklich enthält: der Gewürzsouk, das Tajine von Grund auf, die Teezeremonie. Echte Preise ab 33 € pro Person.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "Was kostet ein Kochkurs in Marrakesch?", a: "Unsere [Markt- und Kochtour](/de/tours/marrakech-food-market-tour) kostet 100 € pro Person. In der Stadt sind 25–60 € pro Person für einen halben Tag üblich." },
+      { q: "Was kostet ein Kochkurs in Marrakesch?", a: "Unsere [Markt- und Kochtour](/de/tours/marrakech-food-market-tour) kostet 100 € pro Person. Darin enthalten sind ein lokaler Guide, der Rundgang durch die Medina, der Einkauf auf dem Markt für das, was Sie kochen, und das Essen selbst." },
       { q: "Wie lange dauert ein marokkanischer Kochkurs?", a: "Einen halben Tag, etwa vier Stunden. Unserer beginnt um 9:30 Uhr am Gewürzplatz Rahba Kedima, führt 90 Minuten mit Verkostungen über den Markt und geht dann in eine Familienküche für Kurs und das Essen, das Sie zubereitet haben." },
       { q: "Isst man, was man kocht?", a: "Ja — ein vollständiges Tajine-Mittagessen ist der Sinn des Kurses, keine Kostprobe. Kommen Sie hungrig und frühstücken Sie nicht schwer." },
       { q: "Sind Kochkurse für Vegetarier geeignet?", a: "Ja. Gemüse-Tajine ist ein Grundpfeiler der marokkanischen Küche und kein Zugeständnis, wird also genauso gekocht wie jedes andere. Sagen Sie bei der Buchung Bescheid, dann wird auch der Marktgang angepasst." },
@@ -5751,7 +5751,7 @@ Unsere [Markt- und Kochtour Marrakesch](/de/tours/marrakech-food-market-tour) da
 
 Der Preis beträgt 100 € pro Person, unabhängig von der Gruppengröße.
 
-In Marrakesch allgemein sind 25–60 € pro Person für einen halben Tag üblich. Darunter fehlt etwas — meist der Marktgang, manchmal das Essen.
+Dieser Preis umfasst den ganzen halben Tag, nicht nur den Kochkurs: Ein lokaler Guide führt Sie durch die Medina, dann auf den Markt, um einzukaufen, was Sie kochen werden, und der Tag endet am Tisch mit dem Essen, das Sie selbst zubereitet haben. Günstigere Kurse in der Stadt sind meist nur das Kochen.
 
 ## Wie man einen schlechten Kurs erkennt
 

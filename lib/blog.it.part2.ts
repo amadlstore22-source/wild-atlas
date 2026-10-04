@@ -5693,7 +5693,7 @@ Infine: prenotate diretto quando potete. Le commissioni delle piattaforme vanno 
       "Cosa comprende davvero un corso di cucina marocchina a Marrakech: il souk delle spezie, il tajine da zero, la cerimonia del tè. Prezzi reali da 33 € a persona.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "Quanto costa un corso di cucina a Marrakech?", a: "Il nostro [tour dei mercati con corso di cucina](/it/tours/marrakech-food-market-tour) costa 100 € a persona. In città, calcolate 25-60 € a persona per mezza giornata." },
+      { q: "Quanto costa un corso di cucina a Marrakech?", a: "Il nostro [tour dei mercati con corso di cucina](/it/tours/marrakech-food-market-tour) costa 100 € a persona. Comprende una guida locale, la visita della medina, la spesa al mercato per ciò che cucinate e il pasto stesso." },
       { q: "Quanto dura un corso di cucina marocchina?", a: "Mezza giornata, circa quattro ore. Il nostro inizia alle 9:30 alla piazza delle spezie di Rahba Kedima, prosegue con 90 minuti di degustazioni guidate al mercato e si sposta poi in una cucina di famiglia per il corso e il pasto che avete preparato." },
       { q: "Si mangia quello che si cucina?", a: "Sì — un pranzo completo a base di tajine è lo scopo del corso, non un assaggio. Venite affamati e non fate una colazione pesante." },
       { q: "I corsi sono adatti ai vegetariani?", a: "Sì. Il tajine di verdure è un pilastro della cucina marocchina, non un adattamento, quindi si cucina come tutti gli altri. Segnalatelo alla prenotazione e verrà adattata anche la passeggiata al mercato." },
@@ -5740,7 +5740,7 @@ Il nostro [tour dei mercati e cucina di Marrakech](/it/tours/marrakech-food-mark
 
 Il prezzo è di 100 € a persona, qualunque sia la dimensione del gruppo.
 
-A Marrakech in generale, calcolate 25-60 € a persona per mezza giornata. Sotto, manca qualcosa — di solito il mercato, a volte il pasto.
+Questo prezzo copre l'intera mezza giornata, non solo il corso: una guida locale vi accompagna nella medina, poi al mercato a comprare ciò che cucinerete, e la giornata finisce a tavola con il pasto che avete preparato. I corsi più economici in città di solito sono solo la cucina.
 
 ## Come riconoscere un corso scadente
 

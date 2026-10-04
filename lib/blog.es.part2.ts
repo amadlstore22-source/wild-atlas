@@ -5690,7 +5690,7 @@ Por último: reserva directo cuando puedas. Las comisiones de las plataformas va
       "Qué incluye de verdad una clase de cocina marroquí en Marrakech: el zoco de las especias, el tajín desde cero, la ceremonia del té.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "¿Cuánto cuesta una clase de cocina en Marrakech?", a: "Nuestra [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 100 € por persona. En la ciudad, calcula entre 25 y 60 € por persona por media jornada." },
+      { q: "¿Cuánto cuesta una clase de cocina en Marrakech?", a: "Nuestra [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 100 € por persona. Incluye un guía local, el paseo por la medina, la compra en el mercado de lo que cocinas y la propia comida." },
       { q: "¿Cuánto dura una clase de cocina marroquí?", a: "Media jornada, unas cuatro horas. La nuestra empieza a las 9:30 en la plaza de las especias de Rahba Kedima, hace 90 minutos de degustaciones guiadas por el mercado y sigue en una cocina familiar para la clase y la comida que has preparado." },
       { q: "¿Se come lo que se cocina?", a: "Sí — una comida completa de tajín es el objetivo de la clase, no una ración de degustación. Ven con hambre y no desayunes fuerte." },
       { q: "¿Son aptas para vegetarianos?", a: "Sí. El tajín de verduras es un básico de la cocina marroquí, no una adaptación, así que se cocina igual que cualquier otro. Avísanos al reservar y el paseo por el mercado también se ajusta." },
@@ -5737,7 +5737,7 @@ Nuestra [ruta de mercados y cocina de Marrakech](/es/tours/marrakech-food-market
 
 El precio es de 100 € por persona, sea cual sea el tamaño del grupo.
 
-En Marrakech en general, calcula entre 25 y 60 € por persona por media jornada. Por debajo falta algo — normalmente el mercado, a veces la comida.
+Ese precio cubre toda la media jornada, no solo la clase: un guía local te lleva por la medina, luego al mercado a comprar lo que vas a cocinar, y el día termina en la mesa con la comida que has preparado. Las clases más baratas de la ciudad suelen ser solo la cocina.
 
 ## Cómo detectar una mala clase
 

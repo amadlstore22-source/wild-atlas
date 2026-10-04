@@ -2742,8 +2742,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–8 Personen",
     reviewCount: 34,
     rating: 4.9,
-    price: 109,
-    depositAmount: 24,
+    price: 100,
+    depositAmount: 25,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [

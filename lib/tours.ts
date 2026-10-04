@@ -3427,19 +3427,10 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 34,
     rating: 4.9,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
-    groupPricing: [
-      { minPeople: 1, price: 109 },
-      { minPeople: 2, price: 55 },
-      { minPeople: 3, price: 43 },
-      { minPeople: 4, price: 39 },
-      { minPeople: 5, price: 36 },
-      { minPeople: 6, price: 33 },
-    ],
-    price: 109,
-    depositAmount: 24,
+    // Flat €100 per person whatever the group size (owner, 2026-10-04).
+    groupPricing: [{ minPeople: 1, price: 100 }],
+    price: 100,
+    depositAmount: 25,
     heroImage:
       "/gallery/tours-marrakech-food-market-tour.jpg",
     gallery: [
@@ -3477,7 +3468,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6316, lng: -7.9868, name: "Rahba Kedima Spice Square, Marrakech Medina" },
     seoTitle: "Marrakech Food and Market Guided Tour",
-    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. From €109.",
+    seoDescription: "Half-day Marrakech food tour: taste your way through the spice souks, then cook a real tagine with a local family. Small group, local guide. €100 per person.",
     faq: [
       { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
       { q: "Do we need to arrive hungry?", a: "Come with an appetite but not empty-handed — the walk includes a dozen small tastings before you even reach the cooking class, so pace yourself, and skip a big breakfast." },

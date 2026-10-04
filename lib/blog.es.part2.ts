@@ -5538,7 +5538,7 @@ Un cañón calizo de 300 m que se estrecha hasta un pasillo de apenas diez metro
 
 La media jornada más fiable de Marruecos. Recorres el zoco de las especias aprendiendo a distinguir el azafrán real del cártamo teñido, luego cocinas un tajín desde cero con una familia local y te comes lo que has hecho.
 
-**Precio:** la [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 109 € en solitario y 33 € por persona siendo seis — el mayor descuento por grupo de todo nuestro catálogo.
+**Precio:** la [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 100 € por persona.
 
 **Veredicto:** la mejor experiencia cultural en relación calidad-precio de esta lista. Combínala con la [guía gastronómica](/es/blog/morocco-food-guide-what-to-eat).
 
@@ -5690,7 +5690,7 @@ Por último: reserva directo cuando puedas. Las comisiones de las plataformas va
       "Qué incluye de verdad una clase de cocina marroquí en Marrakech: el zoco de las especias, el tajín desde cero, la ceremonia del té.",
     relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "¿Cuánto cuesta una clase de cocina en Marrakech?", a: "Nuestra [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 109 € para una persona y 33 € por persona siendo seis — el mayor descuento por grupo de nuestro catálogo, porque el guía y la cocina cuestan lo mismo cocinen dos personas u ocho. En la ciudad, calcula entre 25 y 60 € por persona por media jornada." },
+      { q: "¿Cuánto cuesta una clase de cocina en Marrakech?", a: "Nuestra [ruta de mercados y clase de cocina](/es/tours/marrakech-food-market-tour) cuesta 100 € por persona. En la ciudad, calcula entre 25 y 60 € por persona por media jornada." },
       { q: "¿Cuánto dura una clase de cocina marroquí?", a: "Media jornada, unas cuatro horas. La nuestra empieza a las 9:30 en la plaza de las especias de Rahba Kedima, hace 90 minutos de degustaciones guiadas por el mercado y sigue en una cocina familiar para la clase y la comida que has preparado." },
       { q: "¿Se come lo que se cocina?", a: "Sí — una comida completa de tajín es el objetivo de la clase, no una ración de degustación. Ven con hambre y no desayunes fuerte." },
       { q: "¿Son aptas para vegetarianos?", a: "Sí. El tajín de verduras es un básico de la cocina marroquí, no una adaptación, así que se cocina igual que cualquier otro. Avísanos al reservar y el paseo por el mercado también se ajusta." },
@@ -5735,14 +5735,7 @@ Tres vasos es lo tradicional, y el dicho magrebí que suele citarse dice que el 
 
 Nuestra [ruta de mercados y cocina de Marrakech](/es/tours/marrakech-food-market-tour) es media jornada, cuatro horas, e incluye el guía, todas las degustaciones, la instrucción y los ingredientes, la comida completa de tajín que has ayudado a preparar y la ceremonia del té.
 
-| Viajeros | Precio por persona |
-|---|---|
-| 1 | 109 € |
-| 2 | 55 € |
-| 4 | 39 € |
-| 6+ | 33 € |
-
-Es el mayor descuento por grupo de nuestro catálogo, por una razón simple: el guía, la cocina y la familia que cocina contigo cuestan lo mismo se presenten dos personas u ocho. Casi todo el precio en solitario es el coste fijo del día.
+El precio es de 100 € por persona, sea cual sea el tamaño del grupo.
 
 En Marrakech en general, calcula entre 25 y 60 € por persona por media jornada. Por debajo falta algo — normalmente el mercado, a veces la comida.
 

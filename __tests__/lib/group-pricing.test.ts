@@ -46,7 +46,8 @@ describe("groupPriceTiers", () => {
   it("gives a couple a real saving on private tours", () => {
     // The booking sidebar defaults to 2 travellers, so this is the number most
     // visitors see first. If it equals the solo price the discount is invisible.
-    for (const tour of privateTours) {
+    // Flat-priced tours (one explicit tier) are exempt by design.
+    for (const tour of privateTours.filter((t) => t.groupPricing?.length !== 1)) {
       // Compare against the smallest bookable group, not a hard-coded 1: on a
       // tour with a minimum of three, "2" is not a bookable size and both
       // lookups would return the same tier.
@@ -68,7 +69,10 @@ describe("groupPriceTiers", () => {
   });
 
   it("keeps the deepest discount within a sane band", () => {
-    for (const tour of privateTours) {
+    // A single explicit tier is a flat per-person price the owner set on
+    // purpose (the food tour: €100 whatever the group, 2026-10-04), so there
+    // is no discount to bound.
+    for (const tour of privateTours.filter((t) => t.groupPricing?.length !== 1)) {
       const solo = perPersonPrice(tour, 1);
       const big = perPersonPrice(tour, 8);
       const off = 1 - big / solo;

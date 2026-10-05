@@ -265,6 +265,8 @@
     "response": "Antwortzeit",
     "chooseDatesTitle": "Sie bestimmen den Termin",
     "chooseDatesBody": "Private Abfahrten — kein fester Zeitplan, in den Sie sich einfügen müssen. Sagen Sie uns, wann Sie reisen möchten, und wir gestalten die Reise um Sie herum.",
+    "sharedDatesTitle": "Abfahrten in geteilter Gruppe",
+    "sharedDatesBody": "Sie reisen mit anderen Reisenden in einer geteilten Gruppe. Nennen Sie uns Ihr Wunschdatum, und wir bestätigen Ihren Platz.",
     "freeCancellationDays": "Kostenlose Stornierung bis {days} Tage vorher",
     "replyWithinHours": "Antwort innerhalb einer Stunde (8–20 Uhr)",
     "enquirySent": "Anfrage gesendet!",

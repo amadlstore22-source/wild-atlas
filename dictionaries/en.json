@@ -265,6 +265,8 @@
     "response": "Response",
     "chooseDatesTitle": "You choose the dates",
     "chooseDatesBody": "Private departures — no fixed schedule to fit into. Tell us when you want to go and we build the trip around you.",
+    "sharedDatesTitle": "Shared group departures",
+    "sharedDatesBody": "You travel with other travellers in a shared group. Tell us your preferred date and we confirm your seat.",
     "freeCancellationDays": "Free cancellation {days} days before",
     "replyWithinHours": "Reply within the hour (8:00–20:00)",
     "enquirySent": "Enquiry Sent!",

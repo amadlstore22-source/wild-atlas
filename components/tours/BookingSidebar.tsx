@@ -339,17 +339,24 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
               my dates?". We run private departures, so there is no fixed schedule
               to fit into — saying so converts better than a calendar of open
               dates, and unlike a calendar it stays true without maintenance. */}
+          {/* Shared tours are sold by the seat in a group, so "private
+              departures, no fixed schedule" was false on them. Fixed departures
+              list their own dates above, so the block is omitted there. */}
+          {!fd && (
           <div className="rounded-[3px] border border-indigo/15 bg-indigo-wash/60 p-4">
             <div className="flex items-start gap-2.5">
               <CalendarCheck className="w-5 h-5 text-indigo shrink-0 mt-0.5" weight="duotone" />
               <div>
-                <p className="text-sm font-semibold text-indigo leading-snug">{b.chooseDatesTitle}</p>
+                <p className="text-sm font-semibold text-indigo leading-snug">
+                  {tour.tourType === "shared" ? b.sharedDatesTitle : b.chooseDatesTitle}
+                </p>
                 <p className="text-xs text-ink-soft leading-relaxed mt-1">
-                  {b.chooseDatesBody}
+                  {tour.tourType === "shared" ? b.sharedDatesBody : b.chooseDatesBody}
                 </p>
               </div>
             </div>
           </div>
+          )}
 
           {/* Guarantee badges */}
           <div className="grid grid-cols-2 gap-2">

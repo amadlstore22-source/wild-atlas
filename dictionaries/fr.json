@@ -265,6 +265,8 @@
     "response": "Réponse",
     "chooseDatesTitle": "Vous choisissez les dates",
     "chooseDatesBody": "Départs privés — pas de calendrier fixe à respecter. Dites-nous quand vous souhaitez partir et nous construisons le voyage autour de vous.",
+    "sharedDatesTitle": "Départs en groupe partagé",
+    "sharedDatesBody": "Vous voyagez avec d'autres voyageurs dans un groupe partagé. Indiquez-nous votre date et nous confirmons votre place.",
     "freeCancellationDays": "Annulation gratuite {days} jours avant",
     "replyWithinHours": "Réponse en moins d'une heure (8 h–20 h)",
     "enquirySent": "Demande envoyée !",

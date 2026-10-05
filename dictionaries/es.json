@@ -265,6 +265,8 @@
     "response": "Respuesta",
     "chooseDatesTitle": "Tú eliges las fechas",
     "chooseDatesBody": "Salidas privadas — sin horarios fijos a los que ajustarse. Dinos cuándo quieres ir y construimos el viaje a tu medida.",
+    "sharedDatesTitle": "Salidas en grupo compartido",
+    "sharedDatesBody": "Viajas con otros viajeros en un grupo compartido. Dinos tu fecha preferida y te confirmamos tu plaza.",
     "freeCancellationDays": "Cancelación gratuita {days} días antes",
     "replyWithinHours": "Respuesta en menos de una hora (8:00–20:00)",
     "enquirySent": "¡Consulta Enviada!",

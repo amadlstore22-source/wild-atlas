@@ -26,7 +26,13 @@
     "fromCasablanca": "Desde Casablanca",
     "searchBtn": "Buscar",
     "browseAll": "Ver Aventuras",
-    "planCustom": "Planificar Viaje a Medida"
+    "planCustom": "Planificar Viaje a Medida",
+    "popular": "Tours populares",
+    "picks": {
+      "sahara-3day-marrakech": "Sáhara en 3 días",
+      "toubkal-summit-2day-marrakech": "Toubkal en 2 días",
+      "agafay-desert-sunset": "Agafay: atardecer y cena"
+    }
   },
   "trustBar": {
     "certified": "De Tradición Guía",

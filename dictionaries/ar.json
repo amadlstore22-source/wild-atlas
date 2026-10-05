@@ -26,7 +26,13 @@
     "fromCasablanca": "انطلاقًا من الدار البيضاء",
     "searchBtn": "بحث",
     "browseAll": "تصفح المغامرات",
-    "planCustom": "خطط لرحلة مخصصة"
+    "planCustom": "خطط لرحلة مخصصة",
+    "popular": "الجولات الأكثر طلبًا",
+    "picks": {
+      "sahara-3day-marrakech": "الصحراء في 3 أيام",
+      "toubkal-summit-2day-marrakech": "توبقال في يومين",
+      "agafay-desert-sunset": "أكافاي: الغروب والعشاء"
+    }
   },
   "trustBar": {
     "certified": "من إرث الإرشاد الجبلي",

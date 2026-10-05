@@ -20,7 +20,7 @@ import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
-import { categoriesFor } from "@/lib/tours-i18n";
+import { categoriesFor, tourSlugFor } from "@/lib/tours-i18n";
 import { ogBase } from "@/lib/seo/open-graph";
 import { TOURS, lowestGroupPrice } from "@/lib/tours";
 type LangParams = { params: Promise<{ lang: string }> };
@@ -152,10 +152,20 @@ export default async function HomePage({ params }: LangParams) {
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
 
+  // Three tours with prices on the first screen. Clarity (Oct 2026) showed
+  // homepage visitors scrolling ~14% of the page on mobile, so anything below
+  // the hero was effectively unseen. Prices come from the catalogue, never typed.
+  const picks = (Object.keys(dict.hero.picks) as (keyof typeof dict.hero.picks)[]).flatMap((slug) => {
+    const tour = TOURS.find((t) => t.slug === slug);
+    if (!tour) return [];
+    const lo = lowestGroupPrice(tour);
+    return [{ href: `/${lang}/tours/${tourSlugFor(lang, slug)}`, label: dict.hero.picks[slug], priceEur: lo.price, minPeople: lo.minPeople }];
+  });
+
   return (
     <>
       <JsonLd data={websiteJsonLd} />
-      <Hero lang={lang} dict={dict} />
+      <Hero lang={lang} dict={dict} picks={picks} />
       <TrustBar dict={dict} />
       <OurStory dict={dict} lang={lang} />
       <FeaturedTours lang={lang} dict={dict} />

@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { EVENTS, upcomingEvents, toursForEvent } from "@/lib/events";
-import { formatEventDates } from "@/lib/events-format";
+import { formatEventDates, eventSerpTitle, EVENT_TITLE_BUDGET } from "@/lib/events-format";
 import { eventFor, EVENT_COPY } from "@/lib/events.i18n";
 import { TOURS } from "@/lib/tours";
 
@@ -380,5 +380,27 @@ describe("event prose is translated in every locale", () => {
         "to English drops it for exactly the readers least able to spot it:\n  " +
         problems.join("\n  ")
     ).toEqual([]);
+  });
+});
+
+/**
+ * The Gnaoua page ranked ~5th for "festival gnaoua essaouira 2027" with a 1.8%
+ * click rate (Search Console, September 2026). Its description already led
+ * with the confirmed dates; the <title> carried no year, so the result looked
+ * like last year's page next to competitors saying "2027". Every event title
+ * must name its year and still fit the ~65 characters Google renders.
+ */
+describe("event SERP titles", () => {
+  it("carry the event year and fit the title budget in every locale", () => {
+    const problems: string[] = [];
+    for (const e of EVENTS) {
+      for (const lang of LOCALES) {
+        const ev = eventFor(lang, e.slug)!;
+        const t = eventSerpTitle(ev);
+        if (!t.includes(String(ev.year))) problems.push(`${lang}/${e.slug}: no year in "${t}"`);
+        if (t.length > EVENT_TITLE_BUDGET) problems.push(`${lang}/${e.slug}: ${t.length} chars > ${EVENT_TITLE_BUDGET}: "${t}"`);
+      }
+    }
+    expect(problems, `Shorten the event's shortName so name/shortName + year fits:\n  ${problems.join("\n  ")}`).toEqual([]);
   });
 });

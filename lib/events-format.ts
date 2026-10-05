@@ -120,3 +120,22 @@ export function confidenceLabel(
       ? t.estimated
       : t.lunar;
 }
+
+/**
+ * The <title> for an event page (the layout appends " | Marrakech Eco Tours",
+ * 22 characters; Google renders about 65 in all).
+ *
+ * The year goes in whenever it fits, because people search with it ("festival
+ * gnaoua essaouira 2027"). Order: full name + year, short name + year, then
+ * the full name, trimmed at its subtitle separator if even that overflows.
+ * The date range itself stays out (see the page's generateMetadata).
+ */
+export const EVENT_TITLE_BUDGET = 65 - 22;
+export function eventSerpTitle(event: Pick<TourEvent, "name" | "shortName" | "year">): string {
+  const year = String(event.year);
+  const withYear = (s: string) => (s.includes(year) ? s : `${s} ${year}`);
+  for (const candidate of [withYear(event.name), withYear(event.shortName)]) {
+    if (candidate.length <= EVENT_TITLE_BUDGET) return candidate;
+  }
+  return event.name.length <= EVENT_TITLE_BUDGET ? event.name : event.name.split(/\s*[:—–]\s*/)[0].trim();
+}

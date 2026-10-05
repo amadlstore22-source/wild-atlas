@@ -7,7 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import { EVENTS, toursForEvent } from "@/lib/events";
 import { eventFor } from "@/lib/events.i18n";
-import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
+import { formatEventDates, confidenceLabel, localeTag, eventSerpTitle } from "@/lib/events-format";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 import BookingStatus from "@/components/events/BookingStatus";
@@ -47,11 +47,12 @@ export async function generateMetadata({ params }: EventParams): Promise<Metadat
   // Spanish). Trim the SERP title at its subtitle separator rather than
   // shortening `event.name` itself: that field is also the visible H1 and the
   // Event schema's name, and both want the full thing.
-  const BRAND_LEN = 22;
-  const title =
-    event.name.length + BRAND_LEN > 65
-      ? event.name.split(/\s*[:—–]\s*/)[0].trim()
-      : event.name;
+  //
+  // The YEAR does go in when it fits. People search "festival gnaoua
+  // essaouira 2027", and the Gnaoua page sat at position ~5 with a 1.8% CTR
+  // for those queries (GSC, Sep 2026) while its title carried no year. Full
+  // name + year first, then the short name + year, then the old rule.
+  const title = eventSerpTitle(event);
   return {
     title,
     description: `${dates}. ${event.blurb}`,

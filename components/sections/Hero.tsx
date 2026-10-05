@@ -40,7 +40,11 @@ export default function Hero({ lang, dict, picks = [] }: Props) {
   const parallax = isDesktop && !reduce;
 
   return (
-    <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-indigo-deep">
+    // paddingBlock: 0 — globals.css gives every <section> an unlayered
+    // padding-block (up to 128px each side), which beats Tailwind's py-0 and
+    // made this full-screen hero 256px taller than the screen, pushing the
+    // buttons and the tour list below the fold on laptops.
+    <section ref={sectionRef} className="relative min-h-[100dvh] overflow-hidden bg-indigo-deep" style={{ paddingBlock: 0 }}>
       {/* Cinematic full-bleed media — video if provided, else slow Ken-Burns photo */}
       <m.div className="absolute inset-0 overflow-hidden" style={parallax ? { y: mediaY } : undefined}>
         {SITE.heroVideo ? (

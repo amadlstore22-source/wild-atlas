@@ -1558,7 +1558,7 @@ export const TOURS: Tour[] = [
       "Chófer-guía bilingüe profesional (inglés/francés)",
       "1 noche de hotel en el valle del Dades (cena y desayuno)",
       "1 noche en campamento bereber tradicional (cena y desayuno)",
-      "1 noche de hotel en Uarzazate (desayuno)",
+      "1 noche de hotel en Uarzazate (cena y desayuno)",
       "Paseos en camello en Erg Chebbi al atardecer y al amanecer",
       "Todos los traslados y tasas de acceso",
       "Agua mineral y té durante todo el recorrido",

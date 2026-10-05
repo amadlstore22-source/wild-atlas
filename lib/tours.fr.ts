@@ -1567,7 +1567,7 @@ export const TOURS: Tour[] = [
       "Chauffeur-guide bilingue professionnel (anglais/français)",
       "1 nuit à l'hôtel dans la vallée du Dadès (dîner et petit-déjeuner)",
       "1 nuit en campement berbère traditionnel (dîner et petit-déjeuner)",
-      "1 nuit à l'hôtel à Ouarzazate (petit-déjeuner)",
+      "1 nuit à l'hôtel à Ouarzazate (dîner et petit-déjeuner)",
       "Randonnées à dos de dromadaire à l'Erg Chebbi, au coucher et au lever du soleil",
       "Tous les transferts et droits d'accès",
       "Eau minérale et thé tout au long du circuit",

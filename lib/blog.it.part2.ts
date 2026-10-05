@@ -347,6 +347,8 @@ Se vuoi la montagna silenziosa e drammatica, e sei disposto a imparare a usare p
 Se puoi viaggiare solo a luglio o agosto, vai comunque — parti presto, bevi più di quanto sembri necessario, e tratta il caldo della valle, non il freddo della vetta, come la cosa da gestire.
 
 L'unico approccio che non funziona è trattare il Toubkal come una camminata in paese caldo perché Marrakech era a 35°C quando sei atterrato. La montagna è un clima diverso, e le persone che faticano sono quasi sempre quelle che hanno fatto lo zaino per la città.
+
+Se volete l'Alto Atlante senza la vetta, il [trekking di 2 giorni nella valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) attraversa il passo di Tizi Mzik fino a una casa berbera a Tizi Oussem (1.850 m), lontano dalla folla del Toubkal, da 161 € a persona in due.
 `,
   },
   {
@@ -986,6 +988,8 @@ Vedi [Trekking nell'Anti-Atlante](/it/blog/anti-atlas-trekking-guide).
 Parti presto. Ognuna di queste è a una-tre ore di distanza, e la differenza tra partire alle sette e partire alle nove è la differenza tra arrivare prima della folla o dopo.
 
 Per i viaggi nel deserto da Agadir, che richiedono più di un giorno, vedi [Si Può Visitare il Sahara da Agadir?](/it/blog/sahara-desert-from-agadir)
+
+Se avete più di un giorno, due tour partono da Agadir verso nord: il [tour di 4 giorni fino a Fès](/it/tours/agadir-fes-4-giorni) attraverso l'Alto Atlante e le foreste di cedri, da 567 € a persona in due, e il [tour di 5 giorni fino a Chefchaouen](/it/tours/agadir-chefchaouen-5-giorni) passando per Fès e Volubilis, da 386 € a persona in due.
 `,
   },
   {
@@ -6127,7 +6131,10 @@ mese che stai valutando è pessimo.
 
 Non sai quale deserto scegliere?
 [Merzouga o Zagora](/it/blog/merzouga-vs-zagora-which-desert-tour) confronta i
-tragitti, le dune e il costo.`,
+tragitti, le dune e il costo.
+
+Per il Sahara più remoto, la [spedizione di 3 giorni all'Erg Chegaga da Marrakech](/it/tours/erg-chegaga-3-giorni-marrakech) lascia l'ultima strada asfaltata a M'Hamid e attraversa in 4x4 fino a dune alte 120 m, da 635 € a persona in due.
+`,
   },
   {
     slug: "toubkal-sahara-8-day-tour-cost",
@@ -7628,6 +7635,8 @@ sud. Per i pro e contro del volo a tratte diverse, vedete
 [arrivare a Casablanca e ripartire da Marrakech](/it/blog/arrivo-casablanca-partenza-marrakech),
 e per quanto costa la rotta secondo la dimensione del gruppo la nostra
 [guida ai prezzi Casablanca-Marrakech](/it/blog/prezzo-tour-casablanca-marrakech).
+
+Partite invece da Marrakech? Il [tour di 5 giorni delle città imperiali](/it/tours/citta-imperiali-marrakech-5-giorni) tocca Meknès, Fès e Rabat e rientra passando per Casablanca, da 575 € a persona in due.
 `,
   },
   {

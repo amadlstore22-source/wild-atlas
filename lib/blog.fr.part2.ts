@@ -349,6 +349,8 @@ Si vous ne pouvez voyager qu'en juillet ou en août, partez quand même — comm
 La seule approche qui ne fonctionne pas est de considérer le Toubkal comme une randonnée en pays chaud parce que Marrakech affichait 35 °C à votre atterrissage. La montagne relève d'un climat différent, et les personnes qui peinent sont presque toujours celles qui ont fait leurs bagages pour la ville.
 
 Une fois vos dates choisies : notre [trek du sommet du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) garde une journée de réserve pour exactement les conditions décrites ci-dessus — si la fenêtre se referme, on retente le lendemain au lieu de renoncer.
+
+Si vous voulez le Haut Atlas sans le sommet, le [trek de 2 jours dans la vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) franchit le col de Tizi Mzik jusqu'à une maison d'hôtes berbère à Tizi Oussem (1 850 m), loin de la foule du Toubkal, à partir de 161 € par personne pour deux.
 `,
   },
   {
@@ -990,6 +992,8 @@ Voir [Trekking dans l'Anti-Atlas](/fr/blog/anti-atlas-trekking-guide).
 Partez tôt. Chacune de ces destinations est à une à trois heures, et la différence entre partir à sept heures et à neuf heures, c'est la différence entre arriver avant la foule et arriver après.
 
 Pour les circuits désertiques depuis Agadir, qui nécessitent plus d'une journée, voir [Peut-on visiter le Sahara depuis Agadir ?](/fr/blog/sahara-desert-from-agadir)
+
+Si vous avez plus d'une journée, deux circuits partent d'Agadir vers le nord : le [circuit de 4 jours jusqu'à Fès](/fr/tours/agadir-fes-4-jours) par le Haut Atlas et les forêts de cèdres, à partir de 567 € par personne pour deux, et le [circuit de 5 jours jusqu'à Chefchaouen](/fr/tours/agadir-chefchaouen-5-jours) via Fès et Volubilis, à partir de 386 € par personne pour deux.
 `,
   },
   {
@@ -6180,7 +6184,10 @@ honnêtement si le mois que vous envisagez est mauvais.
 
 Vous hésitez sur le désert ?
 [Merzouga ou Zagora](/fr/blog/merzouga-vs-zagora-which-desert-tour) compare les
-routes, les dunes et le coût.`,
+routes, les dunes et le coût.
+
+Pour le Sahara le plus isolé, l'[expédition de 3 jours à l'Erg Chegaga depuis Marrakech](/fr/tours/erg-chegaga-3-jours-marrakech) quitte la dernière route goudronnée à M'Hamid et rejoint en 4x4 des dunes de 120 m, à partir de 635 € par personne pour deux.
+`,
   },
   {
     slug: "toubkal-sahara-8-day-tour-cost",
@@ -7696,6 +7703,8 @@ le sud. Pour les arbitrages du vol en aller simple sur deux villes, voyez
 [atterrir à Casablanca et repartir de Marrakech](/fr/blog/arriver-casablanca-repartir-marrakech),
 et pour le coût de la route selon la taille du groupe, notre
 [guide des prix Casablanca-Marrakech](/fr/blog/prix-circuit-casablanca-marrakech).
+
+Vous partez plutôt de Marrakech ? Le [circuit de 5 jours des villes impériales](/fr/tours/villes-imperiales-marrakech-5-jours) passe par Meknès, Fès et Rabat et revient par Casablanca, à partir de 575 € par personne pour deux.
 `,
   },
   {

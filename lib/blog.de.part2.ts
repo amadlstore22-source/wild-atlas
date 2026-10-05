@@ -349,6 +349,8 @@ Wenn Sie nur im Juli oder August reisen können, fahren Sie trotzdem – starten
 Der einzige Ansatz, der nicht funktioniert, ist, den Toubkal wie ein warmes Wanderland zu behandeln, nur weil es bei der Landung in Marrakech 35 °C waren. Der Berg ist ein anderes Klima, und wer damit Probleme hat, hat fast immer für die Stadt gepackt.
 
 Wenn Sie wissen, wann Sie kommen: Unsere [4-tägige Toubkal-Gipfelbesteigung](/de/tours/toubkal-gipfel-trek-4-tage) plant einen Reservetag für genau das Wetter ein, das oben beschrieben ist — bei einem schlechten Fenster versuchen Sie es am nächsten Morgen erneut, statt umzukehren. Wer nur ein Wochenende hat, findet in der [2-tägigen Variante](/de/tours/toubkal-besteigung-2-tage) die kürzere Option, die dafür keinen Puffer lässt.
+
+Wer den Hohen Atlas ohne Gipfel erleben möchte: Der [2-tägige Trek ins Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) führt über den Tizi-Mzik-Pass zu einem Berber-Gästehaus in Tizi Oussem (1.850 m), abseits des Toubkal-Trubels, ab 161 € pro Person bei zwei Reisenden.
 `,
   },
   {
@@ -990,6 +992,8 @@ Siehe [Trekking im Anti-Atlas](/de/blog/anti-atlas-trekking-guide).
 Starten Sie früh. Jeder dieser Ausflüge liegt ein bis drei Stunden entfernt, und der Unterschied zwischen Abfahrt um sieben und um neun ist der Unterschied zwischen Ankunft vor oder hinter der Menschenmenge.
 
 Für Wüstenreisen ab Agadir, die mehr als einen Tag brauchen, siehe [Kann man die Sahara von Agadir aus besuchen?](/de/blog/sahara-desert-from-agadir)
+
+Wenn Sie mehr als einen Tag haben, starten zwei Touren in Agadir Richtung Norden: die [4-tägige Tour nach Fès](/de/tours/agadir-fes-4-tage) über den Hohen Atlas und durch die Zedernwälder, ab 567 € pro Person bei zwei Reisenden, und die [5-tägige Tour nach Chefchaouen](/de/tours/agadir-chefchaouen-5-tage) über Fès und Volubilis, ab 386 € pro Person bei zwei Reisenden.
 `,
   },
   {
@@ -6142,7 +6146,10 @@ Monat, den Sie erwägen, ein schlechter ist.
 
 Unsicher, welche Wüste?
 [Merzouga oder Zagora](/de/blog/merzouga-vs-zagora-which-desert-tour) vergleicht
-Anfahrten, Dünen und Kosten.`,
+Anfahrten, Dünen und Kosten.
+
+Für die abgelegene Seite der Sahara: Die [3-tägige Erg-Chegaga-Expedition ab Marrakesch](/de/tours/erg-chegaga-3-tage-marrakesch) verlässt in M'Hamid die letzte asphaltierte Straße und fährt im 4x4 zu bis zu 120 m hohen Dünen, ab 635 € pro Person bei zwei Reisenden.
+`,
   },
   {
     slug: "toubkal-sahara-8-day-tour-cost",
@@ -7653,6 +7660,8 @@ Süden abbiegt. Zu den Abwägungen beim Gabelflug siehe
 [nach Casablanca hin, ab Marrakesch zurück](/de/blog/ankunft-casablanca-abflug-marrakesch),
 und zu den Kosten der Strecke nach Gruppengröße unseren
 [Preisleitfaden Casablanca-Marrakesch](/de/blog/kosten-rundreise-casablanca-marrakesch).
+
+Sie starten in Marrakesch? Die [5-tägige Königsstädte-Tour](/de/tours/koenigsstaedte-marrakesch-5-tage) führt über Meknès, Fès und Rabat und zurück über Casablanca, ab 575 € pro Person bei zwei Reisenden.
 `,
   },
   {

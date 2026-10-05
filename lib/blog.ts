@@ -2520,7 +2520,7 @@ How far you get in the time you have depends heavily on how you move. [Getting a
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-05",
     weatherRegion: "High Atlas",
     tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
     seoTitle: "Toubkal Weather by Month",
@@ -2620,6 +2620,8 @@ The one approach that does not work is treating Toubkal as a warm-country walk b
 
 March is the month that catches most people out, and it has its own guide:
 [climbing Toubkal in March](/en/blog/climbing-toubkal-in-march).
+
+If you want the High Atlas without the summit, the [2-day Azzaden Valley trek](/en/tours/azzaden-valley-2day-trek) crosses the Tizi Mzik pass to a Berber village guesthouse at Tizi Oussem (1,850 m), away from the Toubkal crowds, from €161 per person for two.
 `,
   },
   {
@@ -3195,7 +3197,7 @@ For how the dune fields themselves differ, see [Erg Chebbi vs Erg Chegaga](/en/b
     region: "agadir-region",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-05",
     tags: ["Agadir day trips", "things to do Agadir", "Paradise Valley", "Taroudant", "Essaouira", "Souss-Massa"],
     seoTitle: "The Best Day Trips From Agadir",
     seoDescription:
@@ -3268,6 +3270,8 @@ See [Trekking the Anti-Atlas](/en/blog/anti-atlas-trekking-guide).
 Start early. Every one of these is one to three hours out, and the difference between leaving at seven and leaving at nine is the difference between arriving ahead of the crowd and behind it.
 
 For desert trips from Agadir, which need more than a day, see [Can You Visit the Sahara From Agadir?](/en/blog/sahara-desert-from-agadir)
+
+If you have more than a day, two tours start in Agadir and head north: the [4-day tour to Fes](/en/tours/agadir-to-fes-4day) through the High Atlas and the cedar forests, from €567 per person for two, and the [5-day tour to Chefchaouen](/en/tours/agadir-to-chefchaouen-5day) via Fes and Volubilis, from €386 per person for two.
 `,
   },
   {
@@ -8363,7 +8367,7 @@ covers when that is worth doing and when it is not.`,
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-10-05",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
     seoTitle: "Sahara Desert Weather Morocco",
     seoDescription:
@@ -8484,7 +8488,10 @@ considering is a bad one.
 
 Not sure which desert to choose? [Merzouga versus
 Zagora](/en/blog/merzouga-vs-zagora-which-desert-tour) compares the drives, the
-dunes and the cost.`,
+dunes and the cost.
+
+For the remote side of the Sahara, the [3-day Erg Chegaga expedition from Marrakech](/en/tours/erg-chegaga-3day-marrakech) leaves the last paved road at M'Hamid and crosses by 4x4 to dunes rising 120 m, from €635 per person for two.
+`,
   },
   {
     slug: "toubkal-sahara-8-day-tour-cost",
@@ -10346,7 +10353,7 @@ compares trains, buses and private transfers by route.
     category: "culture",
     readTime: 8,
     publishedAt: "2026-09-07",
-    updatedAt: "2026-09-07",
+    updatedAt: "2026-10-05",
     tags: ["Casablanca", "Hassan II Mosque", "Morocco arrival", "Art Deco", "Morocco cities"],
     seoTitle: "Casablanca Travel Guide 2026",
     seoDescription:
@@ -10481,6 +10488,8 @@ For the trade-offs of flying into one city and out of another, see
 [flying into Casablanca and out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech),
 and for what the route costs by group size, our
 [Casablanca to Marrakech pricing guide](/en/blog/casablanca-to-marrakech-tour-cost).
+
+Starting from Marrakech instead? The [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day) takes in Meknes, Fes and Rabat and comes back through Casablanca, from €575 per person for two.
 `,
   },
   {

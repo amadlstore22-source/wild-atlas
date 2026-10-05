@@ -349,6 +349,8 @@ Si solo puedes viajar en julio o agosto, ve de todos modos: sal temprano, bebe m
 El único enfoque que no funciona es tratar el Toubkal como una caminata de país cálido porque en Marrakech hacía 35 °C al aterrizar. La montaña es un clima distinto, y quienes lo pasan mal casi siempre son los que hicieron la maleta para la ciudad.
 
 Cuando tengas las fechas: nuestro [trek a la cumbre del Toubkal en 4 días](/es/tours/trek-cumbre-toubkal-4-dias) reserva un día de margen para exactamente el tiempo que describimos arriba — si la ventana se cierra, se reintenta al día siguiente en lugar de dar media vuelta.
+
+Si quieres el Alto Atlas sin la cumbre, el [trekking de 2 días por el valle de Azzaden](/es/tours/trek-valle-azzaden-2-dias) cruza el paso de Tizi Mzik hasta una casa de huéspedes bereber en Tizi Oussem (1.850 m), lejos de las multitudes del Toubkal, desde 161 € por persona para dos.
 `,
   },
   {
@@ -990,6 +992,8 @@ Ver [Trekking por el Anti-Atlas](/es/blog/anti-atlas-trekking-guide).
 Sal temprano. Cada una de estas excursiones está a entre una y tres horas, y la diferencia entre salir a las siete y salir a las nueve es la diferencia entre llegar antes que la multitud o después.
 
 Para viajes al desierto desde Agadir, que necesitan más de un día, ver [¿Se puede visitar el Sahara desde Agadir?](/es/blog/sahara-desert-from-agadir)
+
+Si tienes más de un día, dos tours salen de Agadir hacia el norte: el [tour de 4 días hasta Fez](/es/tours/agadir-fez-4-dias) por el Alto Atlas y los bosques de cedros, desde 567 € por persona para dos, y el [tour de 5 días hasta Chefchaouen](/es/tours/agadir-chefchaouen-5-dias) pasando por Fez y Volubilis, desde 386 € por persona para dos.
 `,
   },
   {
@@ -6129,7 +6133,10 @@ mes que estás mirando es malo.
 
 ¿No sabes qué desierto elegir?
 [Merzouga o Zagora](/es/blog/merzouga-vs-zagora-which-desert-tour) compara los
-trayectos, las dunas y el coste.`,
+trayectos, las dunas y el coste.
+
+Para el Sáhara más remoto, la [expedición de 3 días al Erg Chegaga desde Marrakech](/es/tours/erg-chegaga-3-dias-marrakech) deja la última carretera asfaltada en M'Hamid y cruza en 4x4 hasta dunas de 120 m, desde 635 € por persona para dos.
+`,
   },
   {
     slug: "toubkal-sahara-8-day-tour-cost",
@@ -7634,6 +7641,8 @@ Para las ventajas de volar a una ciudad y salir por otra, mira
 [volar a Casablanca y salir por Marrakech](/es/blog/llegar-casablanca-salir-marrakech),
 y para lo que cuesta la ruta por tamaño de grupo, nuestra
 [guía de precios Casablanca-Marrakech](/es/blog/precio-tour-casablanca-marrakech).
+
+¿Sales desde Marrakech? El [tour de 5 días por las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) recorre Mequinez, Fez y Rabat y vuelve por Casablanca, desde 575 € por persona para dos.
 `,
   },
   {

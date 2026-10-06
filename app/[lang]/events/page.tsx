@@ -7,7 +7,9 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import JsonLd from "@/components/seo/JsonLd";
 import { collectionPageDocument } from "@/lib/seo/schema";
-import type { TourEvent } from "@/lib/events";
+import { toursForEvent, type TourEvent } from "@/lib/events";
+import { lowestGroupPrice } from "@/lib/tours";
+import EventPrice from "@/components/events/EventPrice";
 import { upcomingEventsFor } from "@/lib/events.i18n";
 import BookingStatus from "@/components/events/BookingStatus";
 import { formatEventDates, confidenceLabel, localeTag } from "@/lib/events-format";
@@ -70,7 +72,13 @@ export default async function EventsPage({ params }: LangParams) {
       <section className="mx-auto max-w-5xl px-4 py-12 sm:py-16">
         <ul className="grid gap-8">
           {events.map((event) => (
-            <EventCard key={event.slug} event={event} lang={lang} t={t} />
+            <EventCard
+              key={event.slug}
+              event={event}
+              lang={lang}
+              t={t}
+              priceLabels={{ from: t.factTripsFrom, perPerson: dict.common.perPerson, perPersonGroup: dict.common.perPersonGroup }}
+            />
           ))}
         </ul>
 
@@ -86,9 +94,11 @@ function EventCard({
   event,
   lang,
   t,
+  priceLabels,
 }: {
   event: TourEvent;
   lang: string;
+  priceLabels: { from: string; perPerson: string; perPersonGroup: string };
   t: {
     confirmed: string;
     estimated: string;
@@ -116,6 +126,11 @@ function EventCard({
           timeZone: "UTC",
         })
       : formatEventDates(event, lang);
+  // Cheapest trip we run on these dates, from the same helper as the tour
+  // cards and the event page, so the three can never disagree.
+  const cheapest = toursForEvent(event)
+    .map((tour) => lowestGroupPrice(tour))
+    .reduce<{ price: number; minPeople: number } | null>((a, b) => (!a || b.price < a.price ? b : a), null);
   return (
     <li className="overflow-hidden rounded-xl border border-[var(--color-sand-dark)] bg-white shadow-sm">
       <Link href={`/${lang}/events/${event.slug}`} className="group grid sm:grid-cols-[240px_1fr]">
@@ -164,9 +179,20 @@ function EventCard({
               String(event.bookAheadWeeks),
             )}
           </p>
-          <span className="mt-4 inline-block font-body text-sm text-[var(--color-terracotta)]">
-            {t.seeDepartures} &rarr;
-          </span>
+          <div className="mt-4 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+            {cheapest ? (
+              <p className="font-body text-sm text-[var(--color-ink-soft)]">
+                {priceLabels.from}{" "}
+                <strong className="text-base text-[var(--color-ink)]"><EventPrice eur={cheapest.price} /></strong>{" "}
+                {cheapest.minPeople > 1
+                  ? priceLabels.perPersonGroup.replace("{count}", String(cheapest.minPeople))
+                  : priceLabels.perPerson}
+              </p>
+            ) : null}
+            <span className="font-body text-sm font-semibold text-[var(--color-terracotta)]">
+              {t.seeDepartures} &rarr;
+            </span>
+          </div>
         </div>
       </Link>
     </li>

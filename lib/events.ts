@@ -140,7 +140,8 @@ export const EVENTS: TourEvent[] = [
     description:
       "Most people choose between the mountains and the desert. This trip does both in eight days: three days on Toubkal, at 4,167 m the highest point in North Africa, then south over the Tizi n'Tichka to a night in the Erg Chebbi dunes at Merzouga. It runs on set dates rather than on demand, which is what makes it a shared trip at a private trip's standard -- fourteen seats, one licensed mountain guide, and a fixed price per seat however few people book.",
     tourSlugs: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "shared-merzouga-3day-marrakech"],
-    heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
+    // View from the Toubkal summit. The previous photo was a cropped torso and legs in the snow.
+    heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     // 16 weeks, not the 12 this launched with, and not a festival's 40.
     //
     // The other entries here are FESTIVALS, where bookAheadWeeks answers "how
@@ -197,7 +198,8 @@ export const EVENTS: TourEvent[] = [
     description:
       "Maalems — Gnaoua master musicians — play open stages across Essaouira, alongside jazz and world-music guests who improvise with them. It is free, it is outdoors, and the medina stays awake until dawn. Accommodation in Essaouira sells out months ahead, so a day trip from Marrakech is often the more realistic way to see it.",
     tourSlugs: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
-    heroImage: "/gallery/jemaa-el-fna-dusk-rooftop.jpg",
+    // Essaouira harbour. Until 2026-10-06 this was a Jemaa el-Fna (Marrakech) photo.
+    heroImage: "/gallery/destinations-essaouira.jpg",
     bookAheadWeeks: 40,
     highlights: [
       "Maalems — Gnaoua master musicians — on open stages across the medina",

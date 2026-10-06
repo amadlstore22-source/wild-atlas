@@ -439,3 +439,39 @@ describe("event structured data", () => {
     expect(src, "the event page must not build its own Event JSON-LD").not.toMatch(/"@type": "Event"/);
   });
 });
+
+/**
+ * Until 2026-10-06 an event page ended in a list of tour names with no price,
+ * no length and no way to enquire: the owner runs these trips during the
+ * events, but the page gave a visitor nothing to act on. The page now carries
+ * a planner (trip cards with prices + an enquiry form) and a WhatsApp link.
+ * Valid TypeScript and a clean build both survive losing any of that, and a
+ * missing locale string renders as an empty button, so this guards both.
+ */
+describe("event page enquiry path", () => {
+  const KEYS = [
+    "planTrip", "askWhatsapp", "whatsappMessage", "tripsHeading", "tripsIntro", "askAboutDates",
+    "planHeading", "planIntro", "step1", "step2", "step3", "formPeople", "formTrip",
+    "formTripUnsure", "formDetails", "formSubmit", "factTripsFrom", "moreEvents",
+  ];
+  it("every locale has the enquiry copy", () => {
+    const missing: string[] = [];
+    for (const l of LOCALES) {
+      const d = JSON.parse(readFileSync(join(ROOT, "dictionaries", `${l}.json`), "utf8"));
+      for (const k of KEYS) if (!d.events?.[k]) missing.push(`${l}: events.${k}`);
+      if (d.events?.whatsappMessage && !d.events.whatsappMessage.includes("{event}"))
+        missing.push(`${l}: events.whatsappMessage has no {event} placeholder`);
+    }
+    expect(missing, `Add these to dictionaries/<locale>.json:\n  ${missing.join("\n  ")}`).toEqual([]);
+  });
+
+  it("the event page renders the planner, the #plan anchor and WhatsApp", () => {
+    const page = readFileSync(join(ROOT, "app", "[lang]", "events", "[slug]", "page.tsx"), "utf8");
+    const planner = readFileSync(join(ROOT, "components", "events", "EventPlanner.tsx"), "utf8");
+    expect(page, "event page must render <EventPlanner>").toMatch(/<EventPlanner/);
+    expect(page, "event page must price trips with lowestGroupPrice").toMatch(/lowestGroupPrice\(tour\)/);
+    expect(page, "event page must offer WhatsApp").toMatch(/whatsappUrl\(/);
+    expect(planner, 'EventPlanner must keep id="plan" (hero and sidebar buttons link to #plan)').toMatch(/id="plan"/);
+    expect(planner, "EventPlanner must send through /api/contact with the event in the subject").toMatch(/subject: `Event enquiry: \$\{eventName\}/);
+  });
+});

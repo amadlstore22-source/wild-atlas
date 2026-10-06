@@ -436,6 +436,18 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
   },
+  "toubkal-summit-1day": {
+    includes: [
+      "Guida di montagna professionista abilitata",
+      "Transfer andata e ritorno da Marrakech (se partite da Marrakech)",
+    ],
+    excludes: [
+      "Assicurazione di viaggio (obbligatoria)",
+      "Attrezzatura personale da trekking",
+      "Mance per la guida",
+      "Ramponi e piccozza in inverno (noleggio disponibile)",
+    ],
+  },
   "toubkal-aguelzim-pass-3day": {
     includes: [
       "Guida di montagna professionista abilitata",

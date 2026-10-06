@@ -4005,6 +4005,8 @@ If your time in Morocco is short, you do not need a week to stand on top of it. 
 
 The fastest version is our [2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech): transfer, refuge night, pre-dawn summit, and back to the city the same evening. Everything below explains what that itinerary involves.
 
+**For 2026 dates:** the Toubkal Refuge is fully booked for the rest of the year, so the 2-day trek can only be booked for 2027. If you are a strong walker and want the summit this year, the [one-day Toubkal climb from Imlil](/en/tours/toubkal-summit-1day) does it without a refuge night.
+
 ## The 2-Day Schedule, Hour by Hour
 
 **Day 1 — Marrakech to the Toubkal Refuge (3,207 m).** A morning transfer of about ninety minutes takes you from Marrakech to Imlil (1,740 m), the trailhead village. From there you trek up the Mizane valley, past the Sidi Chamharouch shrine, to the Toubkal Refuge at 3,207 m. It is roughly five hours of steady uphill walking with a mule carrying the group's main bags. You reach the refuge in the afternoon, eat early, and sleep — because summit day starts in the dark.

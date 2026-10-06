@@ -12,6 +12,7 @@ import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
+import { REFUGE_FIRST_OPEN_DATE, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
@@ -87,7 +88,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // beyond two years is not a real enquiry. Computed per render rather than at
   // module load so a long-lived tab does not go stale overnight.
   const today = new Date();
-  const minDate = today.toISOString().slice(0, 10);
+  // A trek that sleeps at the Toubkal Refuge cannot run while the refuge is
+  // full, so its first bookable date is when it reopens (lib/refuge.ts).
+  const refugeLocked = sleepsAtRefuge(tour.slug) && refugeFull(today);
+  const minDate = refugeLocked ? REFUGE_FIRST_OPEN_DATE : today.toISOString().slice(0, 10);
   const maxDate = new Date(today.getFullYear() + 2, today.getMonth(), today.getDate())
     .toISOString()
     .slice(0, 10);
@@ -439,6 +443,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                     onChange={(e) => setDate(e.target.value)}
                     className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
                   />
+                  {refugeLocked && <p className="text-[0.7rem] text-ink-muted mt-1 leading-snug">{dict.tourDetail.refugeDateNote}</p>}
                 </div>
                 <div>
                   <label htmlFor="booking-travellers" className="text-xs text-ink-muted mb-1 block">

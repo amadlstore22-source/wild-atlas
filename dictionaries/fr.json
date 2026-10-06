@@ -276,7 +276,11 @@
     "durationDay": "Jour {n}",
     "durationPerPersonForTwo": "par personne, pour 2 voyageurs",
     "durationThisTrip": "Ce circuit",
-    "durationSeeTrip": "Voir ce circuit"
+    "durationSeeTrip": "Voir ce circuit",
+    "refugeFullTitle": "Le refuge du Toubkal est complet pour le reste de 2026",
+    "refugeFullBody": "Ce trek passe une nuit au refuge : nous prenons donc les réservations pour des dates en 2027. Bon marcheur et envie du sommet cette année ? Vous pouvez gravir le Toubkal en une journée depuis Imlil, sans nuit en refuge.",
+    "refugeFullLink": "Voir le Toubkal en une journée",
+    "refugeDateNote": "Dates 2027 : le refuge est complet pour 2026."
   },
   "booking": {
     "pricePerPerson": "Prix par personne",

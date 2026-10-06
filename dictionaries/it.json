@@ -276,7 +276,11 @@
     "durationDay": "Giorno {n}",
     "durationPerPersonForTwo": "a persona, per 2 viaggiatori",
     "durationThisTrip": "Questo tour",
-    "durationSeeTrip": "Vedi questo tour"
+    "durationSeeTrip": "Vedi questo tour",
+    "refugeFullTitle": "Il rifugio del Toubkal è al completo per il resto del 2026",
+    "refugeFullBody": "Questo trek passa una notte in rifugio, quindi accettiamo prenotazioni per date nel 2027. Camminatore allenato e volete la vetta quest'anno? Potete salire il Toubkal in un giorno da Imlil, senza notte in rifugio.",
+    "refugeFullLink": "Vedi il Toubkal in un giorno",
+    "refugeDateNote": "Date 2027: il rifugio è al completo nel 2026."
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

@@ -276,7 +276,11 @@
     "durationDay": "Tag {n}",
     "durationPerPersonForTwo": "pro Person, bei 2 Reisenden",
     "durationThisTrip": "Diese Tour",
-    "durationSeeTrip": "Zur Tour"
+    "durationSeeTrip": "Zur Tour",
+    "refugeFullTitle": "Die Toubkal-Hütte ist für den Rest von 2026 ausgebucht",
+    "refugeFullBody": "Diese Tour übernachtet in der Hütte, daher nehmen wir Buchungen für Termine in 2027 an. Starker Geher und den Gipfel noch dieses Jahr? Sie können den Toubkal an einem Tag ab Imlil besteigen, ohne Hüttennacht.",
+    "refugeFullLink": "Toubkal an einem Tag ansehen",
+    "refugeDateNote": "Termine ab 2027: Die Hütte ist 2026 ausgebucht."
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

@@ -3193,6 +3193,98 @@ export const TOURS: Tour[] = [
     featured: true,
   },
   {
+    id: "51",
+    slug: "toubkal-summit-1day",
+    relatedPosts: ["how-hard-is-toubkal-difficulty-guide", "altitude-sickness-toubkal-guide", "toubkal-2-day-vs-4-day-which-trek", "how-to-climb-toubkal-in-2-days"],
+    // Added 2026-10-06 because the Toubkal Refuge is fully booked for the rest
+    // of 2026 (owner), so every refuge trek can only be sold for 2027 dates
+    // (see lib/refuge.ts). Every figure below is taken from the 2-day trek's
+    // own record: Imlil +1,470 m to the refuge (3,207 m), +960 m to the
+    // summit, 2,430 m back down; 5 h + 7–8 h of walking joined into one day.
+    brief: [
+      "This is Toubkal without the refuge: from Imlil (about 1,740 m) to the 4,167 m summit and back down in a single day. That is roughly 2,430 m of climbing and the same again in descent, the two days of our 2-day trek joined into one: about five hours up the Aït Mizane valley past the Sidi Chamharouch shrine to the refuge, around three more to the top, then four to five hours all the way down to Imlil. Expect twelve to thirteen hours of walking, starting in the dark.",
+      "Why it matters this year: the Toubkal Refuge is fully booked for the rest of 2026. Every multi-day Toubkal trek sleeps there, so for 2026 dates the choice is this one-day climb, or one of the longer treks booked for 2027.",
+      "Be honest with yourself about the fitness it takes. There is no acclimatisation at all: you go from 1,740 m to 4,167 m in one push, and then the longest descent of the day comes on tired legs. Strong walkers who are used to long, steep days at home do it. If you have never been above 3,000 m, or a day like that sounds like a stretch, the 4-day trek booked for 2027 is the better choice. The group is yours alone, so the guide can slow the pace or turn back without negotiating with anyone else's schedule.",
+      "Start from Marrakech and we drive you to Imlil in the night, about an hour and a half, and back in the evening. Already staying in Imlil? Your guide meets you in the village. The price runs on the same group ladder as our 2-day trek: €350 solo, €195 each for two, €185 for three, €175 for four, €165 for five and €153 each at six.",
+      "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide, and crampons and an ice axe in winter. Between roughly November and April the upper mountain is under snow and the summit becomes a snow climb; the kit is rentable in Imlil.",
+    ],
+    title: "Toubkal in One Day — Summit from Imlil or Marrakech",
+    category: "trekking",
+    origin: "marrakech",
+    difficulty: "expert",
+    duration: "1 day",
+    groupSize: "2–12 people",
+    tourType: "private",
+    reviewCount: 0,
+    rating: 4.7,
+    // The 2-day trek's ladder (owner, 2026-10-06: "same as 2-day trek").
+    groupPricing: [
+      { minPeople: 1, price: 350 },
+      { minPeople: 2, price: 195 },
+      { minPeople: 3, price: 185 },
+      { minPeople: 4, price: 175 },
+      { minPeople: 5, price: 165 },
+      { minPeople: 6, price: 153 },
+    ],
+    price: 350,
+    depositAmount: 70,
+    heroImage: "/gallery/toubkal-predawn-summit-start-crampons.jpg",
+    gallery: [
+      "/gallery/toubkal-summit-group-pyramid.jpg",
+      "/gallery/toubkal-trekkers-below-summit.jpg",
+      "/gallery/toubkal-cirque-refuge-approach.jpg",
+      "/gallery/imlil-mule-trail-toubkal-behind.jpg",
+      "/gallery/toubkal-snow-col-sunrise.jpg",
+      "/gallery/toubkal-valley-trail-trekkers.jpg",
+    ],
+    shortDescription:
+      "Summit Jbel Toubkal (4,167 m) and get back down to Imlil in a single day — the way to the top while the refuge is full for 2026. For strong, fit walkers.",
+    description:
+      "The Toubkal Refuge is fully booked for the rest of 2026, and every multi-day Toubkal trek needs a night there. If you are fit and want the summit this year, you can climb it in one day: up from Imlil in the dark, past the Sidi Chamharouch shrine and the refuge, to the 4,167 m summit, then all the way back down. Around 2,430 m up and the same down, twelve to thirteen hours of walking. Start from Marrakech with our transfer, or meet your guide in Imlil.",
+    highlights: [
+      "Summit Jbel Toubkal (4,167 m) and back to Imlil in one day",
+      "No refuge night, so it runs on 2026 dates while the refuge is full",
+      "Start from Marrakech with transfer, or meet your guide in Imlil",
+      "Private licensed mountain guide who sets the pace for your group",
+    ],
+    includes: [
+      "Professional licensed mountain guide",
+      "Round-trip transfer from Marrakech (when you start in Marrakech)",
+    ],
+    excludes: [
+      "Travel insurance (mandatory)",
+      "Personal trekking equipment",
+      "Tips for the guide",
+      "Crampons and ice axe in winter (rental available)",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        walking: "12–13 h",
+        driving: "1.5 h each way",
+        ascent: "+2,430 m / −2,430 m",
+        extraStops: [
+          { name: "Imlil", lat: 31.1369, lng: -7.9169 },
+          { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 },
+        ],
+        stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 },
+        title: "Imlil → Toubkal Summit (4,167 m) → Imlil",
+        description:
+          "Night pickup in Marrakech and the drive to Imlil (1h30), or meet your guide in Imlil. Start walking in the dark up the Aït Mizane valley, past the Sidi Chamharouch shrine to the Toubkal Refuge (3,207 m), then up the South Cirque to the summit (around 3 hours from the refuge). Descend all the way to Imlil (4–5 hours) and, if you started there, the drive back to Marrakech.",
+      },
+    ],
+    faq: [
+      { q: "Can you really climb Toubkal in one day?", a: "Yes, if you are fit. It is about 2,430 metres up and the same down, twelve to thirteen hours of walking with no acclimatisation. Strong walkers used to long mountain days do it; for most people the 2-day or 4-day trek is the better experience, but both need a night at the refuge." },
+      { q: "Why not book the 2-day trek instead?", a: "The 2-day trek sleeps at the Toubkal Refuge, and the refuge is fully booked for the rest of 2026. You can book the 2-day or 4-day trek for 2027 dates now; for a 2026 summit, this one-day climb is the option." },
+      { q: "Do I start in Marrakech or in Imlil?", a: "Either. From Marrakech we pick you up in the night and drive you to Imlil, about an hour and a half, and bring you back in the evening. If you are already staying in Imlil, your guide meets you in the village." },
+      { q: "What about altitude sickness on a one-day climb?", a: "It is the main risk: you go from about 1,740 metres to 4,167 metres in a few hours with no time to adjust. Your guide watches the group and will turn back if anyone is struggling with the altitude, and that call is not negotiable. If you have never been above 3,000 metres, choose the 4-day trek for 2027." },
+    ],
+    meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
+    seoTitle: "Toubkal in One Day from Marrakech or Imlil",
+    seoDescription: "Climb Jbel Toubkal (4,167 m) in a single day from Imlil, with or without a Marrakech transfer. The way to the summit while the refuge is full in 2026.",
+    featured: false,
+  },
+  {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
     relatedPosts: ["how-hard-is-toubkal-difficulty-guide", "toubkal-guide-cost", "altitude-sickness-toubkal-guide"],
@@ -5210,7 +5302,7 @@ export const CATEGORIES: {
  *  `tourCountsMatchCatalogue` in __tests__/lib/tours.test.ts fails if these
  *  drift from the real catalogue, so they cannot silently go stale. */
 export const TOUR_COUNT_BY_CATEGORY: Partial<Record<Category, number>> = {
-  trekking: 13,
+  trekking: 14,
   desert: 14,
   cultural: 10,
   "day-tours": 11,

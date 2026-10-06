@@ -139,3 +139,48 @@ export function eventSerpTitle(event: Pick<TourEvent, "name" | "shortName" | "ye
   }
   return event.name.length <= EVENT_TITLE_BUDGET ? event.name : event.name.split(/\s*[:—–]\s*/)[0].trim();
 }
+
+/**
+ * schema.org/Event for an event page, or null when the page must not carry one.
+ *
+ * Until 2026-10-06 every event page emitted Event markup naming Marrakech Eco
+ * Tours as `organizer`, including the Gnaoua festival and the Marathon, which
+ * other organisations host. Google defines organizer as "the person or
+ * organization that is hosting the event", so that was a false claim on the
+ * pages Search Console was reading. Checked against Google's Event guidelines
+ * the same day, three kinds of page should carry no Event markup at all:
+ *
+ *   - our own set departures: "Don't promote non-event products or services
+ *     such as 'Trip package: San Diego/LA, 7 nights' as events" is almost
+ *     word for word our 8-day / 7-night trip. The tour page's Product markup
+ *     already describes it.
+ *   - dates that are not confirmed: startDate is required and Google shows it
+ *     as a day, so an estimated window (Imilchil "1 Sep") or a lunar date would
+ *     become the precise day the page itself refuses to state.
+ *   - things nobody hosts (Ramadan, a blossom season), which only reach this
+ *     point as estimated or lunar and so fall under the rule above.
+ *
+ * `performer` and `offers` stay out: the 2027 line-ups and prices are not
+ * published, and Google lists both as recommended, not required.
+ */
+export function eventSchemaFor(event: TourEvent) {
+  if (event.departureDates?.length || event.confidence !== "confirmed" || !event.city) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    name: event.name,
+    description: event.blurb,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    image: [`https://marrakechecotours.com${event.heroImage}`],
+    location: {
+      "@type": "Place",
+      name: event.city,
+      address: { "@type": "PostalAddress", addressLocality: event.city, addressCountry: "MA" },
+    },
+    // The organiser's own site, which is where the date was confirmed.
+    ...(event.sourceUrl ? { sameAs: event.sourceUrl } : {}),
+  };
+}

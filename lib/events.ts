@@ -110,6 +110,11 @@ export interface TourEvent {
    * block so the events page and the booking page cannot disagree.
    */
   departureDates?: string[];
+  /**
+   * Town the event takes place in, for the Event structured data's `location`.
+   * Only needed on events that emit that markup (see eventSchemaFor).
+   */
+  city?: string;
 }
 
 export const EVENTS: TourEvent[] = [
@@ -172,6 +177,7 @@ export const EVENTS: TourEvent[] = [
     slug: "gnaoua-world-music-festival-essaouira",
     name: "Gnaoua and World Music Festival, Essaouira",
     shortName: "Gnaoua Festival",
+    city: "Essaouira",
     region: "coast-atlantic",
     // 28th edition, confirmed on festival-gnaoua.net on 2026-09-25: "See you
     // from June 24 to 26, 2027". It had sat at `estimated` (the whole of June)
@@ -210,6 +216,7 @@ export const EVENTS: TourEvent[] = [
     slug: "marrakech-international-marathon",
     name: "Marrakech International Marathon",
     shortName: "Marrakech Marathon",
+    city: "Marrakech",
     region: "marrakech",
     // 37th edition, confirmed on marrakechmarathon.com: "Sunday 31 Jan 2027".
     // A single-day range is correct here precisely BECAUSE it is confirmed —

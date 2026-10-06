@@ -7,7 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import { EVENTS, toursForEvent } from "@/lib/events";
 import { eventFor } from "@/lib/events.i18n";
-import { formatEventDates, confidenceLabel, localeTag, eventSerpTitle } from "@/lib/events-format";
+import { formatEventDates, confidenceLabel, localeTag, eventSerpTitle, eventSchemaFor } from "@/lib/events-format";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 import BookingStatus from "@/components/events/BookingStatus";
@@ -84,61 +84,8 @@ export default async function EventDetailPage({ params }: EventParams) {
   const dates = formatEventDates(event, lang);
   const tours = toursForEvent(event);
 
-  /**
-   * schema.org/Event. `eventStatus` and a precise `startDate` are only honest
-   * when the organiser has published the date, so unconfirmed events emit the
-   * window they actually have and nothing more.
-   */
-  const eventSchema = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: event.name,
-    description: event.blurb,
-    startDate: event.startDate,
-    endDate: event.endDate,
-    eventStatus: "https://schema.org/EventScheduled",
-    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    image: [`https://marrakechecotours.com${event.heroImage}`],
-    location: {
-      "@type": "Place",
-      name: event.name,
-      address: { "@type": "PostalAddress", addressCountry: "MA" },
-    },
-    organizer: {
-      "@type": "Organization",
-      name: "Marrakech Eco Tours",
-      url: "https://marrakechecotours.com",
-    },
-    ...(event.sourceUrl ? { sameAs: event.sourceUrl } : {}),
-    // A set-departure trip is a SERIES, not one long event. Emitting only the
-    // season's startDate..endDate told Google there was a single seven-week
-    // event running 5 March - 22 April, which is the same misreading the page
-    // body is built to avoid — and the one a rich result would repeat in the
-    // SERP, where there is no page copy to correct it. Each departure is
-    // therefore its own subEvent with a real start and end.
-    ...(event.departureDates && event.departureDates.length > 0
-      ? {
-          subEvent: event.departureDates.map((d) => {
-            // The trip is 8 days / 7 nights, so it ends 7 days after it leaves.
-            const end = new Date(`${d}T00:00:00Z`);
-            end.setUTCDate(end.getUTCDate() + 7);
-            return {
-              "@type": "Event",
-              name: event.name,
-              startDate: d,
-              endDate: end.toISOString().slice(0, 10),
-              eventStatus: "https://schema.org/EventScheduled",
-              eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-              location: {
-                "@type": "Place",
-                name: event.name,
-                address: { "@type": "PostalAddress", addressCountry: "MA" },
-              },
-            };
-          }),
-        }
-      : {}),
-  };
+  // Null for our own departures and unconfirmed dates: see eventSchemaFor.
+  const eventSchema = eventSchemaFor(event);
 
   // Crumb takes a `path`; buildBreadcrumbSchema prepends the site origin.
   const crumbs = {
@@ -152,10 +99,12 @@ export default async function EventDetailPage({ params }: EventParams) {
 
   return (
     <div className="bg-[var(--color-sand)]">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }}
-      />
+      {eventSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}

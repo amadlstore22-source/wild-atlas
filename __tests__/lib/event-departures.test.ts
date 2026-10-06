@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { EVENTS } from "@/lib/events";
 import { eventsFor } from "@/lib/events.i18n";
+import { eventSchemaFor } from "@/lib/events-format";
 import { TOURS } from "@/lib/tours";
 import enDict from "@/dictionaries/en.json";
 import frDict from "@/dictionaries/fr.json";
@@ -190,22 +191,21 @@ describe("set-departure events", () => {
     ).toBe(true);
   });
 
-  it("emits each departure as a subEvent, not one long season", () => {
-    // The schema is where this matters most. Emitting only the season's
-    // startDate..endDate told Google there was a SINGLE seven-week event
-    // running 5 March - 22 April 2027 — the exact misreading the page body is
-    // built to prevent, repeated in the SERP where no page copy can correct it.
-    // schema.org/subEvent is the series-and-occurrences shape.
-    const src = readFileSync(
-      join(__dirname, "..", "..", "app", "[lang]", "events", "[slug]", "page.tsx"),
-      "utf-8",
-    );
+  it("emits no Event markup for our own departures, so never one long season", () => {
+    // Emitting only the season's startDate..endDate told Google there was a
+    // SINGLE seven-week event running 5 March - 22 April 2027. That was first
+    // fixed with one subEvent per departure; on 2026-10-06 the markup was
+    // removed outright, because Google's Event guidelines exclude exactly this
+    // ("Don't promote ... 'Trip package: San Diego/LA, 7 nights' as events").
+    // The tour page's Product markup describes the trip instead.
+    const departures = EVENTS.filter((e) => e.departureDates?.length);
+    const marked = departures.filter((e) => eventSchemaFor(e) !== null).map((e) => e.slug);
     expect(
-      src.includes("subEvent"),
-      "The Event schema no longer emits `subEvent`. A set-departure trip is a\n" +
-        "series of separate trips; without subEvent the markup claims one\n" +
-        "continuous event spanning the whole season.",
-    ).toBe(true);
+      marked,
+      "These set-departure trips emit Event markup again. Google treats a trip\n" +
+        "package as a non-event; see eventSchemaFor in lib/events-format.ts:\n  " +
+        marked.join("\n  "),
+    ).toEqual([]);
   });
 
   it("formats dates through localeTag, not a bare locale", () => {

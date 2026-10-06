@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { EVENTS, upcomingEvents, toursForEvent } from "@/lib/events";
-import { formatEventDates, eventSerpTitle, EVENT_TITLE_BUDGET } from "@/lib/events-format";
+import { formatEventDates, eventSerpTitle, EVENT_TITLE_BUDGET, eventSchemaFor } from "@/lib/events-format";
 import { eventFor, EVENT_COPY } from "@/lib/events.i18n";
 import { TOURS } from "@/lib/tours";
 
@@ -402,5 +402,40 @@ describe("event SERP titles", () => {
       }
     }
     expect(problems, `Shorten the event's shortName so name/shortName + year fits:\n  ${problems.join("\n  ")}`).toEqual([]);
+  });
+});
+
+/**
+ * Until 2026-10-06 every event page told Google that Marrakech Eco Tours
+ * organised the event: the Gnaoua festival, the Marathon, even Ramadan. It also
+ * marked up our own 8-day departures as an Event, which Google's guidelines
+ * name almost word for word ("Trip package ... 7 nights"), and turned estimated
+ * windows into a precise startDate. Search Console read all of it as valid, so
+ * nothing flagged it. See eventSchemaFor for the rules this guards.
+ */
+describe("event structured data", () => {
+  it("never claims we organise an event, and only marks up confirmed third-party dates", () => {
+    const problems: string[] = [];
+    for (const e of EVENTS) {
+      const s = eventSchemaFor(e) as Record<string, unknown> | null;
+      if (!s) continue;
+      if ("organizer" in s) problems.push(`${e.slug}: emits organizer`);
+      if (e.departureDates?.length) problems.push(`${e.slug}: our own departures marked up as an Event`);
+      if (e.confidence !== "confirmed") problems.push(`${e.slug}: ${e.confidence} date marked up as an Event`);
+    }
+    expect(problems, `Fix eventSchemaFor in lib/events-format.ts:\n  ${problems.join("\n  ")}`).toEqual([]);
+  });
+
+  it("gives every confirmed festival a real place, not the event's own name", () => {
+    const missing = EVENTS.filter((e) => e.confidence === "confirmed" && !e.departureDates?.length && !e.city)
+      .map((e) => e.slug);
+    expect(missing, `Add city: "<town>" in lib/events.ts so the Event markup has a location:\n  ${missing.join("\n  ")}`)
+      .toEqual([]);
+  });
+
+  it("the event page renders the helper's output, not its own copy", () => {
+    const src = readFileSync(join(ROOT, "app", "[lang]", "events", "[slug]", "page.tsx"), "utf8");
+    expect(src).toMatch(/eventSchemaFor\(event\)/);
+    expect(src, "the event page must not build its own Event JSON-LD").not.toMatch(/"@type": "Event"/);
   });
 });

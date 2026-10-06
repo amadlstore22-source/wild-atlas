@@ -12,10 +12,21 @@ import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
-import { REFUGE_FIRST_OPEN_DATE, offersOneDay, oneDayPricing, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
+import { REFUGE_FIRST_OPEN_DATE, offersOneDay, oneDayPricing, refugeFull, sleepsAtRefuge, type OneDayPrices } from "@/lib/refuge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
-export default function BookingSidebar({ tour: pageTour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
+export default function BookingSidebar({
+  tour: pageTour,
+  lang = "en",
+  dict,
+  oneDayPrices,
+}: {
+  tour: Tour;
+  lang?: Locale;
+  dict: Dictionary;
+  /** The one-day Toubkal summit's prices, from the server page (see lib/refuge.ts). */
+  oneDayPrices?: OneDayPrices;
+}) {
   const b = dict.booking;
   // Only reviews genuinely about this tour — often none, see lib/reviews.ts.
   const quotes = reviewsForTour(pageTour.title);
@@ -29,7 +40,7 @@ export default function BookingSidebar({ tour: pageTour, lang = "en", dict }: { 
   const [oneDay, setOneDay] = useState(false);
   // Ticked, every price in the sidebar is the one-day summit's (the 2-day
   // trek's ladder), so the 4-day page does not quote 4-day prices for it.
-  const tour = oneDay ? oneDayPricing(pageTour) : pageTour;
+  const tour = oneDay ? oneDayPricing(pageTour, oneDayPrices) : pageTour;
   const [date, setDate] = useState("");
   // The smallest bookable group, from the tour's own tiers — some tours (the
   // family trek) cannot be booked solo, so 1 is not always the floor.

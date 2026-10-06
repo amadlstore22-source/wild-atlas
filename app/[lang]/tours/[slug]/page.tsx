@@ -13,6 +13,7 @@ import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourBrief from "@/components/tours/TourBrief";
 import RefugeNotice from "@/components/tours/RefugeNotice";
+import { ONE_DAY_PRICE_FROM, offersOneDay, oneDayPricesFrom } from "@/lib/refuge";
 import DurationChooser from "@/components/tours/DurationChooser";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
@@ -464,7 +465,12 @@ export default async function TourDetailPage({ params }: TourParams) {
 
           <div id="tour-book" className="lg:col-span-1 scroll-mt-32">
             <div className="sticky top-24">
-              <BookingSidebar tour={tour} lang={lang} dict={dict} />
+              <BookingSidebar
+                tour={tour}
+                lang={lang}
+                dict={dict}
+                oneDayPrices={offersOneDay(tour.slug) ? oneDayPricesFrom(TOURS.find((t) => t.slug === ONE_DAY_PRICE_FROM)!) : undefined}
+              />
 
               {/* Real, verifiable social proof. Business-wide TripAdvisor rating,
                   attributed and linked out so a visitor can check it themselves. */}

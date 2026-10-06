@@ -12,21 +12,24 @@ import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
-import { REFUGE_FIRST_OPEN_DATE, offersOneDay, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
+import { REFUGE_FIRST_OPEN_DATE, offersOneDay, oneDayPricing, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
-export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
+export default function BookingSidebar({ tour: pageTour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
   const b = dict.booking;
   // Only reviews genuinely about this tour — often none, see lib/reviews.ts.
-  const quotes = reviewsForTour(tour.title);
+  const quotes = reviewsForTour(pageTour.title);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [heard, setHeard] = useState("");
   // Toubkal Refuge full (lib/refuge.ts): refuge treks book 2027 dates only,
   // unless this trek offers the one-day summit and the visitor ticks it.
-  const refugeLocked = sleepsAtRefuge(tour.slug) && refugeFull();
-  const oneDayOption = refugeLocked && offersOneDay(tour.slug);
+  const refugeLocked = sleepsAtRefuge(pageTour.slug) && refugeFull();
+  const oneDayOption = refugeLocked && offersOneDay(pageTour.slug);
   const [oneDay, setOneDay] = useState(false);
+  // Ticked, every price in the sidebar is the one-day summit's (the 2-day
+  // trek's ladder), so the 4-day page does not quote 4-day prices for it.
+  const tour = oneDay ? oneDayPricing(pageTour) : pageTour;
   const [date, setDate] = useState("");
   // The smallest bookable group, from the tour's own tiers — some tours (the
   // family trek) cannot be booked solo, so 1 is not always the floor.

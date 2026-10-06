@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { TOURS } from "@/lib/tours";
-import { ONE_DAY_OPTION_TREKS, REFUGE_FIRST_OPEN_DATE, REFUGE_FULL_UNTIL, offersOneDay, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
+import { ONE_DAY_OPTION_TREKS, ONE_DAY_PRICE_FROM, oneDayPricing, REFUGE_FIRST_OPEN_DATE, REFUGE_FULL_UNTIL, offersOneDay, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
 
 /**
  * 2026-10-06: the Toubkal Refuge is fully booked for the rest of 2026 (owner).
@@ -33,6 +33,13 @@ describe("Toubkal Refuge full", () => {
 
   it("offers the one-day summit only as an option on refuge treks, never as a tour", () => {
     for (const s of ONE_DAY_OPTION_TREKS) expect(offersOneDay(s), `${s} does not sleep at the refuge, or no longer exists`).toBe(true);
+    // Priced as the 2-day trek from every page that offers it: the 4-day page
+    // must not quote its own 4-day ladder for a one-day climb.
+    const src = TOURS.find((t) => t.slug === ONE_DAY_PRICE_FROM)!;
+    for (const s of ONE_DAY_OPTION_TREKS) {
+      const p = oneDayPricing(TOURS.find((t) => t.slug === s)!);
+      expect([p.price, p.depositAmount, p.groupPricing], `${s}: one-day price`).toEqual([src.price, src.depositAmount, src.groupPricing]);
+    }
     const oneDayTours = TOURS.filter((t) => /toubkal/i.test(t.slug) && t.itinerary.length === 1).map((t) => t.slug);
     expect(oneDayTours, "The owner wants the one-day summit as a booking option on the 2-day trek, not a tour page").toEqual([]);
   });

@@ -436,20 +436,6 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
   },
-  "toubkal-summit-1day": {
-    includes: [
-      "Professioneller lizenzierter Bergführer",
-      "Alle Mahlzeiten während der Trekkingtour",
-      "Eintrittsgebühren für den Toubkal-Nationalpark",
-      "Hin- und Rücktransfer ab Marrakesch (wenn Sie in Marrakesch starten)",
-    ],
-    excludes: [
-      "Reiseversicherung (Pflicht)",
-      "Persönliche Trekkingausrüstung",
-      "Trinkgeld für den Guide",
-      "Steigeisen und Eispickel im Winter (Verleih möglich)",
-    ],
-  },
   "toubkal-aguelzim-pass-3day": {
     includes: [
       "Professioneller lizenzierter Bergführer",

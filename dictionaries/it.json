@@ -278,9 +278,9 @@
     "durationThisTrip": "Questo tour",
     "durationSeeTrip": "Vedi questo tour",
     "refugeFullTitle": "Il rifugio del Toubkal è al completo per il resto del 2026",
-    "refugeFullBody": "Questo trek passa una notte in rifugio, quindi accettiamo prenotazioni per date nel 2027. Camminatore allenato e volete la vetta quest'anno? Potete salire il Toubkal in un giorno da Imlil, senza notte in rifugio.",
-    "refugeFullLink": "Vedi il Toubkal in un giorno",
-    "refugeDateNote": "Date 2027: il rifugio è al completo nel 2026."
+    "refugeFullBody": "Questo trek passa una notte in rifugio, quindi accettiamo prenotazioni per date nel 2027.",
+    "refugeFullBodyOneDay": "Accettiamo prenotazioni per date nel 2027. Per la vetta quest'anno, l'unica opzione è salirla in un giorno da Imlil: circa 2.430 m di salita e altrettanti di discesa, e 12–13 ore di cammino, molto impegnativo fisicamente.",
+    "refugeOneDayLabel": "Voglio salire il Toubkal in un giorno nel 2026 (molto impegnativo)"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

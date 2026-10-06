@@ -12,8 +12,8 @@ import { TRIPADVISOR } from "@/lib/constants";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourBrief from "@/components/tours/TourBrief";
-import DurationChooser from "@/components/tours/DurationChooser";
 import RefugeNotice from "@/components/tours/RefugeNotice";
+import DurationChooser from "@/components/tours/DurationChooser";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
@@ -320,7 +320,7 @@ export default async function TourDetailPage({ params }: TourParams) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 space-y-12">
             {/* Refuge treks only, while the Toubkal Refuge is full (lib/refuge.ts). */}
-            <RefugeNotice slug={tour.slug} lang={lang} dict={dict} />
+            <RefugeNotice slug={tour.slug} dict={dict} />
 
             <TourGallery images={tour.gallery} title={tour.title} category={tour.category} origin={tour.origin} />
 

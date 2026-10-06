@@ -278,9 +278,9 @@
     "durationThisTrip": "Diese Tour",
     "durationSeeTrip": "Zur Tour",
     "refugeFullTitle": "Die Toubkal-Hütte ist für den Rest von 2026 ausgebucht",
-    "refugeFullBody": "Diese Tour übernachtet in der Hütte, daher nehmen wir Buchungen für Termine in 2027 an. Starker Geher und den Gipfel noch dieses Jahr? Sie können den Toubkal an einem Tag ab Imlil besteigen, ohne Hüttennacht.",
-    "refugeFullLink": "Toubkal an einem Tag ansehen",
-    "refugeDateNote": "Termine ab 2027: Die Hütte ist 2026 ausgebucht."
+    "refugeFullBody": "Diese Tour übernachtet in der Hütte, daher nehmen wir Buchungen für Termine in 2027 an.",
+    "refugeFullBodyOneDay": "Wir nehmen Buchungen für Termine in 2027 an. Für den Gipfel noch in diesem Jahr bleibt nur die Besteigung an einem Tag ab Imlil: rund 2.430 m hinauf und hinunter und 12–13 Stunden Gehzeit, körperlich sehr anspruchsvoll.",
+    "refugeOneDayLabel": "Ich möchte den Toubkal 2026 an einem Tag besteigen (sehr anspruchsvoll)"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

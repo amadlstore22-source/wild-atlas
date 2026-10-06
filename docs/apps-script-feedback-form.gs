@@ -46,7 +46,6 @@ var TOURS = [
   { slug: "family-desert-4day-marrakech", title: "Family Desert Adventure — 4-Day Marrakech to Sahara", cat: "desert", origin: "marrakech", days: 4, type: "private" },
   { slug: "desert-4day-marrakech", title: "Marrakech Desert Grand Tour — 4 Days", cat: "desert", origin: "marrakech", days: 4, type: "private" },
   { slug: "chegaga-camel-trek-8day", title: "Draa Valley to M'hamid — 8-Day Chegaga Camel Trek", cat: "desert", origin: "marrakech", days: 8, type: "private" },
-  { slug: "toubkal-summit-1day", title: "Toubkal in One Day — Summit from Imlil or Marrakech", cat: "trekking", origin: "marrakech", days: 1, type: "private" },
   { slug: "azzaden-valley-2day-trek", title: "Azzaden Valley from Marrakech — 2-Day Atlas Mountains Trek", cat: "trekking", origin: "marrakech", days: 2, type: "private" },
   { slug: "toubkal-summit-2day-marrakech", title: "Mount Toubkal Express — 2-Day Summit from Marrakech", cat: "trekking", origin: "marrakech", days: 2, type: "private" },
   { slug: "atlas-mountains-3day-trek", title: "High Atlas Villages from Marrakech — 3-Day Trek", cat: "trekking", origin: "marrakech", days: 3, type: "private" },

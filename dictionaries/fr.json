@@ -278,9 +278,9 @@
     "durationThisTrip": "Ce circuit",
     "durationSeeTrip": "Voir ce circuit",
     "refugeFullTitle": "Le refuge du Toubkal est complet pour le reste de 2026",
-    "refugeFullBody": "Ce trek passe une nuit au refuge : nous prenons donc les réservations pour des dates en 2027. Bon marcheur et envie du sommet cette année ? Vous pouvez gravir le Toubkal en une journée depuis Imlil, sans nuit en refuge.",
-    "refugeFullLink": "Voir le Toubkal en une journée",
-    "refugeDateNote": "Dates 2027 : le refuge est complet pour 2026."
+    "refugeFullBody": "Ce trek passe une nuit au refuge : nous prenons donc les réservations pour des dates en 2027.",
+    "refugeFullBodyOneDay": "Nous prenons les réservations pour des dates en 2027. Pour le sommet cette année, la seule option est de le gravir en une journée depuis Imlil : environ 2 430 m de montée et autant de descente, et 12 à 13 heures de marche, ce qui est très exigeant physiquement.",
+    "refugeOneDayLabel": "Je veux gravir le Toubkal en une journée en 2026 (très exigeant)"
   },
   "booking": {
     "pricePerPerson": "Prix par personne",

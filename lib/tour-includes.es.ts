@@ -436,20 +436,6 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Crampones y piolet en invierno (alquiler disponible)",
     ],
   },
-  "toubkal-summit-1day": {
-    includes: [
-      "Guía de montaña profesional titulado",
-      "Todas las comidas durante el trekking",
-      "Tasas de entrada al Parque Nacional de Toubkal",
-      "Traslado de ida y vuelta desde Marrakech (si sales de Marrakech)",
-    ],
-    excludes: [
-      "Seguro de viaje (obligatorio)",
-      "Equipo personal de trekking",
-      "Propinas para el guía",
-      "Crampones y piolet en invierno (alquiler disponible)",
-    ],
-  },
   "toubkal-aguelzim-pass-3day": {
     includes: [
       "Guía de montaña profesional titulado",

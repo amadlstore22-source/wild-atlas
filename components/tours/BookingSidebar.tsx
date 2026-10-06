@@ -12,7 +12,7 @@ import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
-import { REFUGE_FIRST_OPEN_DATE, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
+import { REFUGE_FIRST_OPEN_DATE, offersOneDay, refugeFull, sleepsAtRefuge } from "@/lib/refuge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
@@ -22,6 +22,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [heard, setHeard] = useState("");
+  // Toubkal Refuge full (lib/refuge.ts): refuge treks book 2027 dates only,
+  // unless this trek offers the one-day summit and the visitor ticks it.
+  const refugeLocked = sleepsAtRefuge(tour.slug) && refugeFull();
+  const oneDayOption = refugeLocked && offersOneDay(tour.slug);
+  const [oneDay, setOneDay] = useState(false);
   const [date, setDate] = useState("");
   // The smallest bookable group, from the tour's own tiers — some tours (the
   // family trek) cannot be booked solo, so 1 is not always the floor.
@@ -64,7 +69,10 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   function handleInquiry(e: React.FormEvent) {
     e.preventDefault();
     if (!agreed || peopleInvalid) return;
-    doSubmit({ type: "booking", tour: tour.title, name, email, date, people, heard });
+    // The choice rides in the tour name so it reaches the inbox, the sheet and
+    // the confirmation email with no change to the API.
+    const tourName = oneDay ? `${tour.title} (ONE-DAY SUMMIT: refuge full)` : tour.title;
+    doSubmit({ type: "booking", tour: tourName, name, email, date, people, heard });
   }
 
   // Count an enquiry conversion only once the submit actually succeeds — firing
@@ -88,10 +96,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // beyond two years is not a real enquiry. Computed per render rather than at
   // module load so a long-lived tab does not go stale overnight.
   const today = new Date();
-  // A trek that sleeps at the Toubkal Refuge cannot run while the refuge is
-  // full, so its first bookable date is when it reopens (lib/refuge.ts).
-  const refugeLocked = sleepsAtRefuge(tour.slug) && refugeFull(today);
-  const minDate = refugeLocked ? REFUGE_FIRST_OPEN_DATE : today.toISOString().slice(0, 10);
+  const minDate = refugeLocked && !oneDay ? REFUGE_FIRST_OPEN_DATE : today.toISOString().slice(0, 10);
   const maxDate = new Date(today.getFullYear() + 2, today.getMonth(), today.getDate())
     .toISOString()
     .slice(0, 10);
@@ -424,6 +429,30 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                 />
               </div>
 
+              {refugeLocked && (
+                <div role="note" className="rounded-[3px] bg-terracotta/8 ring-1 ring-terracotta/30 p-3 space-y-2">
+                  <p className="text-xs font-semibold text-ink leading-snug">{dict.tourDetail.refugeFullTitle}</p>
+                  <p className="text-xs text-ink-soft leading-snug">
+                    {oneDayOption ? dict.tourDetail.refugeFullBodyOneDay : dict.tourDetail.refugeFullBody}
+                  </p>
+                  {oneDayOption && (
+                    <label className="flex items-start gap-2 cursor-pointer select-none">
+                      <input
+                        type="checkbox"
+                        checked={oneDay}
+                        onChange={(e) => {
+                          setOneDay(e.target.checked);
+                          // Back to the 2-day trek: a 2026 date is no longer bookable.
+                          if (!e.target.checked && date && date < REFUGE_FIRST_OPEN_DATE) setDate("");
+                        }}
+                        className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#2B3A67] focus:outline-none focus:ring-2 focus:ring-indigo/30"
+                      />
+                      <span className="text-xs font-semibold text-ink leading-snug">{dict.tourDetail.refugeOneDayLabel}</span>
+                    </label>
+                  )}
+                </div>
+              )}
+
               <div className="grid grid-cols-2 gap-3">
                 {/* htmlFor/id pairs are required, not cosmetic: without them a
                     screen reader announces these as unlabelled inputs even
@@ -443,7 +472,6 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                     onChange={(e) => setDate(e.target.value)}
                     className="w-full px-3 py-2.5 rounded-[3px] border border-rule text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
                   />
-                  {refugeLocked && <p className="text-[0.7rem] text-ink-muted mt-1 leading-snug">{dict.tourDetail.refugeDateNote}</p>}
                 </div>
                 <div>
                   <label htmlFor="booking-travellers" className="text-xs text-ink-muted mb-1 block">

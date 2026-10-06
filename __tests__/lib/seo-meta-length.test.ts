@@ -1,4 +1,6 @@
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { TOURS, lowestGroupPrice, groupPriceTiers } from "@/lib/tours";
 import { buildAggregateOffer } from "@/lib/seo/schema";
 import en from "@/dictionaries/en.json";
@@ -259,5 +261,23 @@ describe("AggregateOffer spans the real price ladder", () => {
     expect(spread.eligibleQuantity).toEqual({
       "@type": "QuantitativeValue", minValue: 6, unitCode: "IE",
     });
+  });
+
+  /**
+   * Search Console mailed "Missing field offerCount (in offers)" for Product
+   * snippets on 2026-10-06. Each group-size tier is a separate per-person price
+   * the booking box shows, so the tier count is the honest offerCount. The
+   * other two fields in that mail (aggregateRating, review) stay absent on
+   * purpose: see buildReviewNodes and review-schema.test.ts.
+   */
+  it("states how many prices the ladder has, and the tour page passes it", () => {
+    const spread = buildAggregateOffer({
+      low: 260, high: 650, currency: "EUR",
+      url: "https://x/t", validUntil: "2027-01-01", minPeople: 6, offerCount: 4,
+    }) as Record<string, unknown>;
+    expect(spread.offerCount).toBe(4);
+    const page = readFileSync(join(__dirname, "..", "..", "app", "[lang]", "tours", "[slug]", "page.tsx"), "utf8");
+    expect(page, "tours/[slug]/page.tsx must pass offerCount: groupPriceTiers(tour).length to buildAggregateOffer")
+      .toMatch(/offerCount:\s*groupPriceTiers\(tour\)\.length/);
   });
 });

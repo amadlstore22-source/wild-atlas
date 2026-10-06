@@ -179,8 +179,15 @@ export function buildAggregateOffer(opts: {
    * policy treats an invented anchor as misleading markup.
    */
   listPrice?: number;
+  /**
+   * How many per-person rates the ladder has (groupPriceTiers().length): each
+   * group-size tier is a separate price the booking box shows. Google lists
+   * offerCount as recommended for AggregateOffer and flagged its absence in
+   * Search Console (Product snippets, 2026-10-06).
+   */
+  offerCount?: number;
 }) {
-  const { low, high, currency, url, validUntil, minPeople, seatsTotal, listPrice } = opts;
+  const { low, high, currency, url, validUntil, minPeople, seatsTotal, listPrice, offerCount } = opts;
 
   // Shared by both branches so a seat-capped tour cannot advertise InStock in
   // one shape and LimitedAvailability in the other.
@@ -223,6 +230,7 @@ export function buildAggregateOffer(opts: {
     "@type": "AggregateOffer",
     lowPrice: String(low),
     highPrice: String(high),
+    ...(offerCount && offerCount > 1 ? { offerCount } : {}),
     priceCurrency: currency,
     priceValidUntil: validUntil,
     availability,

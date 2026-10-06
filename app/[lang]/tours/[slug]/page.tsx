@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { TOURS, DIFFICULTY_COLORS, lowestGroupPrice } from "@/lib/tours";
+import { TOURS, DIFFICULTY_COLORS, lowestGroupPrice, groupPriceTiers } from "@/lib/tours";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
@@ -110,6 +110,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     url: tourUrl,
     validUntil,
     minPeople: cheapest.minPeople > 1 ? cheapest.minPeople : undefined,
+    offerCount: groupPriceTiers(tour).length,
     // Fixed departures only: a real seat cap becomes LimitedAvailability, and
     // a real pre-discount rate becomes a strike-through reference price. Both
     // are undefined for every private tour, so their schema is unchanged.

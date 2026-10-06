@@ -2501,7 +2501,7 @@ export const TOURS: Tour[] = [
       "Professional bilingual driver-guide (English/French)",
       "1 night hotel in Dades Valley (dinner + breakfast)",
       "1 night Berber desert camp at Erg Chebbi (dinner + breakfast)",
-      "1 night hotel in Ouarzazate (breakfast)",
+      "1 night hotel in Ouarzazate (dinner + breakfast)",
       "Sunset and sunrise camel treks",
       "Mineral water and mint tea throughout",
     ],

@@ -1931,7 +1931,7 @@ export const TOURS: Tour[] = [
       "Professioneller zweisprachiger Fahrer und Guide (Englisch/Französisch)",
       "1 Nacht im Hotel im Dades-Tal (Abendessen und Frühstück)",
       "1 Nacht im Berber-Camp am Erg Chebbi (Abendessen und Frühstück)",
-      "1 Nacht im Hotel in Ouarzazate (Frühstück)",
+      "1 Nacht im Hotel in Ouarzazate (Abendessen und Frühstück)",
       "Kamelritte bei Sonnenuntergang und Sonnenaufgang",
       "Mineralwasser und Minztee während der gesamten Reise",
     ],

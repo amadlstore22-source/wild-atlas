@@ -2560,7 +2560,7 @@ export const TOURS: Tour[] = [
       "Le Toubkal sans le refuge : d'Imlil (environ 1 740 m) au sommet à 4 167 m et retour en une seule journée. Cela représente environ 2 430 m de montée et autant de descente, les deux journées de notre trek de 2 jours réunies en une : environ cinq heures dans la vallée d'Aït Mizane, en passant par le sanctuaire de Sidi Chamharouch, jusqu'au refuge, environ trois de plus jusqu'au sommet, puis quatre à cinq heures de descente jusqu'à Imlil. Comptez douze à treize heures de marche, avec un départ de nuit.",
       "Pourquoi c'est important cette année : le refuge du Toubkal est complet pour le reste de 2026. Tous les treks de plusieurs jours au Toubkal y passent la nuit ; pour des dates en 2026, le choix est donc cette ascension en une journée, ou l'un des treks plus longs réservé pour 2027.",
       "Soyez honnête avec vous-même sur la condition physique nécessaire. Il n'y a aucune acclimatation : vous passez de 1 740 m à 4 167 m d'une traite, et la plus longue descente de la journée se fait sur des jambes fatiguées. Les bons marcheurs habitués aux longues journées raides le font. Si vous n'avez jamais dépassé 3 000 m, ou si une telle journée vous semble ambitieuse, le trek de 4 jours réservé pour 2027 est le meilleur choix. Le groupe n'est composé que de vous : le guide peut ralentir ou faire demi-tour sans négocier avec l'emploi du temps de quiconque.",
-      "Au départ de Marrakech, nous vous conduisons à Imlil dans la nuit, environ une heure et demie de route, et vous ramenons le soir. Vous logez déjà à Imlil ? Votre guide vous retrouve au village. Le tarif suit la même grille de groupe que notre trek de 2 jours : 350 € seul, 195 € par personne à deux, 185 € à trois, 175 € à quatre, 165 € à cinq et 153 € par personne à six.",
+      "Au départ de Marrakech, nous vous conduisons à Imlil dans la nuit, environ une heure et demie de route, et vous ramenons le soir. Vous logez déjà à Imlil ? Votre guide vous retrouve au village. Le tarif suit la même grille de groupe que notre trek de 2 jours : 350 € seul, 195 € par personne à deux, 185 € à trois, 175 € à quatre, 165 € à cinq et 153 € par personne à six. Le prix comprend le guide de montagne diplômé, les repas pendant le trek et les droits du parc national, et il est le même que vous partiez de Marrakech ou d'Imlil.",
       "Non inclus : l'assurance voyage, qui est obligatoire, vos chaussures et vos couches personnelles, les pourboires du guide, ainsi que les crampons et le piolet en hiver. De novembre à avril environ, le haut de la montagne est enneigé et le sommet devient une ascension sur neige ; le matériel se loue à Imlil.",
     ],
     title: "Le Toubkal en une journée — Sommet depuis Imlil ou Marrakech",
@@ -2594,6 +2594,8 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guide de montagne professionnel diplômé",
+      "Tous les repas pendant le trek",
+      "Frais d'entrée au parc national du Toubkal",
       "Transfert aller-retour depuis Marrakech (si vous partez de Marrakech)",
     ],
     excludes: [

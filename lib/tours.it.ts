@@ -2551,7 +2551,7 @@ export const TOURS: Tour[] = [
       "È il Toubkal senza rifugio: da Imlil (circa 1.740 m) alla vetta a 4.167 m e ritorno in un solo giorno. Sono circa 2.430 m di salita e altrettanti di discesa, i due giorni del nostro trek di 2 giorni riuniti in uno: circa cinque ore nella valle di Aït Mizane, passando per il santuario di Sidi Chamharouch, fino al rifugio, circa tre in più fino alla cima, poi quattro-cinque ore di discesa fino a Imlil. Contate dodici-tredici ore di cammino, con partenza al buio.",
       "Perché conta quest'anno: il rifugio del Toubkal è al completo per il resto del 2026. Tutti i trek di più giorni sul Toubkal dormono lì, quindi per date nel 2026 la scelta è questa salita in un giorno, oppure uno dei trek più lunghi prenotato per il 2027.",
       "Siate onesti con voi stessi sulla forma fisica che serve. Non c'è alcuna acclimatazione: si passa da 1.740 m a 4.167 m in un'unica tirata, e la discesa più lunga della giornata arriva con le gambe stanche. I camminatori forti, abituati a giornate lunghe e ripide, ce la fanno. Se non siete mai stati sopra i 3.000 m, o una giornata così vi sembra troppo, il trek di 4 giorni prenotato per il 2027 è la scelta migliore. Il gruppo è solo vostro, quindi la guida può rallentare o tornare indietro senza dover negoziare con gli orari di nessuno.",
-      "Da Marrakech vi portiamo a Imlil di notte, circa un'ora e mezza, e vi riportiamo la sera. Alloggiate già a Imlil? La vostra guida vi incontra in paese. Il prezzo segue la stessa scala per gruppo del nostro trek di 2 giorni: 350 € da soli, 195 € a testa in due, 185 € in tre, 175 € in quattro, 165 € in cinque e 153 € a testa da sei.",
+      "Da Marrakech vi portiamo a Imlil di notte, circa un'ora e mezza, e vi riportiamo la sera. Alloggiate già a Imlil? La vostra guida vi incontra in paese. Il prezzo segue la stessa scala per gruppo del nostro trek di 2 giorni: 350 € da soli, 195 € a testa in due, 185 € in tre, 175 € in quattro, 165 € in cinque e 153 € a testa da sei. Il prezzo comprende la guida di montagna abilitata, i pasti durante il trek e l'ingresso al parco nazionale, ed è lo stesso sia che partiate da Marrakech sia da Imlil.",
       "Non incluso: l'assicurazione di viaggio, che è obbligatoria, scarponi e abbigliamento personali, le mance per la guida, e ramponi e piccozza in inverno. Indicativamente da novembre ad aprile la parte alta della montagna è innevata e la vetta diventa una salita su neve; l'attrezzatura si noleggia a Imlil.",
     ],
     title: "Il Toubkal in un giorno — Vetta da Imlil o Marrakech",
@@ -2585,6 +2585,8 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guida di montagna professionista abilitata",
+      "Tutti i pasti durante il trekking",
+      "Tasse d'ingresso al Parco Nazionale di Toubkal",
       "Transfer andata e ritorno da Marrakech (se partite da Marrakech)",
     ],
     excludes: [

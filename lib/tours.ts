@@ -3205,7 +3205,7 @@ export const TOURS: Tour[] = [
       "This is Toubkal without the refuge: from Imlil (about 1,740 m) to the 4,167 m summit and back down in a single day. That is roughly 2,430 m of climbing and the same again in descent, the two days of our 2-day trek joined into one: about five hours up the Aït Mizane valley past the Sidi Chamharouch shrine to the refuge, around three more to the top, then four to five hours all the way down to Imlil. Expect twelve to thirteen hours of walking, starting in the dark.",
       "Why it matters this year: the Toubkal Refuge is fully booked for the rest of 2026. Every multi-day Toubkal trek sleeps there, so for 2026 dates the choice is this one-day climb, or one of the longer treks booked for 2027.",
       "Be honest with yourself about the fitness it takes. There is no acclimatisation at all: you go from 1,740 m to 4,167 m in one push, and then the longest descent of the day comes on tired legs. Strong walkers who are used to long, steep days at home do it. If you have never been above 3,000 m, or a day like that sounds like a stretch, the 4-day trek booked for 2027 is the better choice. The group is yours alone, so the guide can slow the pace or turn back without negotiating with anyone else's schedule.",
-      "Start from Marrakech and we drive you to Imlil in the night, about an hour and a half, and back in the evening. Already staying in Imlil? Your guide meets you in the village. The price runs on the same group ladder as our 2-day trek: €350 solo, €195 each for two, €185 for three, €175 for four, €165 for five and €153 each at six.",
+      "Start from Marrakech and we drive you to Imlil in the night, about an hour and a half, and back in the evening. Already staying in Imlil? Your guide meets you in the village. The price runs on the same group ladder as our 2-day trek: €350 solo, €195 each for two, €185 for three, €175 for four, €165 for five and €153 each at six. The price covers the licensed mountain guide, meals during the trek and the national park fee, and it is the same whether you start in Marrakech or in Imlil.",
       "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide, and crampons and an ice axe in winter. Between roughly November and April the upper mountain is under snow and the summit becomes a snow climb; the kit is rentable in Imlil.",
     ],
     title: "Toubkal in One Day — Summit from Imlil or Marrakech",
@@ -3249,6 +3249,8 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professional licensed mountain guide",
+      "All meals during the trek",
+      "Toubkal National Park entrance fees",
       "Round-trip transfer from Marrakech (when you start in Marrakech)",
     ],
     excludes: [

@@ -2551,7 +2551,7 @@ export const TOURS: Tour[] = [
       "Das ist der Toubkal ohne Hütte: von Imlil (etwa 1.740 m) auf den 4.167 m hohen Gipfel und zurück an einem einzigen Tag. Das sind rund 2.430 m Aufstieg und ebenso viel Abstieg, die beiden Tage unserer 2-Tages-Tour zu einem zusammengelegt: etwa fünf Stunden durch das Aït-Mizane-Tal am Heiligtum Sidi Chamharouch vorbei bis zur Hütte, rund drei weitere bis zum Gipfel, dann vier bis fünf Stunden Abstieg bis Imlil. Rechnen Sie mit zwölf bis dreizehn Stunden Gehzeit, Start in der Dunkelheit.",
       "Warum das dieses Jahr wichtig ist: Die Toubkal-Hütte ist für den Rest von 2026 ausgebucht. Alle mehrtägigen Toubkal-Touren übernachten dort, also bleibt für Termine in 2026 nur diese Eintagesbesteigung, oder eine der längeren Touren für 2027.",
       "Seien Sie ehrlich zu sich selbst, was die Fitness angeht. Es gibt keinerlei Akklimatisierung: Sie gehen in einem Zug von 1.740 m auf 4.167 m, und der längste Abstieg des Tages kommt mit müden Beinen. Starke Geher, die lange, steile Tage gewohnt sind, schaffen das. Wenn Sie noch nie über 3.000 m waren oder ein solcher Tag Ihnen viel erscheint, ist die 4-Tages-Tour für 2027 die bessere Wahl. Die Gruppe gehört nur Ihnen, also kann der Guide das Tempo drosseln oder umkehren, ohne sich nach anderen richten zu müssen.",
-      "Ab Marrakesch fahren wir Sie nachts nach Imlil, etwa anderthalb Stunden, und abends zurück. Sie übernachten schon in Imlil? Ihr Guide trifft Sie im Dorf. Der Preis folgt derselben Gruppenstaffel wie unsere 2-Tages-Tour: 350 € allein, 195 € pro Person zu zweit, 185 € zu dritt, 175 € zu viert, 165 € zu fünft und 153 € pro Person ab sechs.",
+      "Ab Marrakesch fahren wir Sie nachts nach Imlil, etwa anderthalb Stunden, und abends zurück. Sie übernachten schon in Imlil? Ihr Guide trifft Sie im Dorf. Der Preis folgt derselben Gruppenstaffel wie unsere 2-Tages-Tour: 350 € allein, 195 € pro Person zu zweit, 185 € zu dritt, 175 € zu viert, 165 € zu fünft und 153 € pro Person ab sechs. Der Preis umfasst den lizenzierten Bergführer, die Mahlzeiten während der Tour und den Nationalparkeintritt und ist derselbe, ob Sie in Marrakesch oder in Imlil starten.",
       "Nicht inbegriffen: die Reiseversicherung, die Pflicht ist, eigene Schuhe und Kleidung, Trinkgeld für den Guide sowie Steigeisen und Eispickel im Winter. Etwa von November bis April liegt am oberen Berg Schnee und der Gipfel wird zur Schneebesteigung; die Ausrüstung kann man in Imlil leihen.",
     ],
     title: "Toubkal an einem Tag — Gipfel ab Imlil oder Marrakesch",
@@ -2585,6 +2585,8 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professioneller lizenzierter Bergführer",
+      "Alle Mahlzeiten während der Trekkingtour",
+      "Eintrittsgebühren für den Toubkal-Nationalpark",
       "Hin- und Rücktransfer ab Marrakesch (wenn Sie in Marrakesch starten)",
     ],
     excludes: [

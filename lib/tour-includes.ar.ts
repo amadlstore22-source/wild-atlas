@@ -439,6 +439,8 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
   "toubkal-summit-1day": {
     includes: [
       "مرشد جبلي محترف ومرخّص",
+      "جميع الوجبات خلال الرحلة",
+      "رسوم دخول حديقة توبقال الوطنية",
       "النقل ذهابًا وإيابًا من مراكش (إذا انطلقت من مراكش)",
     ],
     excludes: [

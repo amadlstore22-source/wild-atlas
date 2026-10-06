@@ -439,6 +439,8 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
   "toubkal-summit-1day": {
     includes: [
       "Guía de montaña profesional titulado",
+      "Todas las comidas durante el trekking",
+      "Tasas de entrada al Parque Nacional de Toubkal",
       "Traslado de ida y vuelta desde Marrakech (si sales de Marrakech)",
     ],
     excludes: [

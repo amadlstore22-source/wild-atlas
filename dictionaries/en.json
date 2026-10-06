@@ -269,7 +269,14 @@
       "middleAtlas": "Middle Atlas",
       "antiAtlas": "Anti-Atlas",
       "sahara": "Sahara"
-    }
+    },
+    "durationHeading": "How many days?",
+    "durationIntro": "Every option below spends one night at the desert camp in {place}. Extra days don't add nights in the dunes; they spread the driving over more days.",
+    "durationDriving": "Driving each day",
+    "durationDay": "Day {n}",
+    "durationPerPersonForTwo": "per person, for 2 travellers",
+    "durationThisTrip": "This trip",
+    "durationSeeTrip": "See this trip"
   },
   "booking": {
     "pricePerPerson": "Price per person",
@@ -785,5 +792,16 @@
     "formDetailsPlaceholder": "Arrival and departure dates, where you are staying, anything we should know",
     "formSubmit": "Send my enquiry",
     "moreEvents": "Other dates worth planning around"
+  },
+  "enquirySource": {
+    "label": "How did you hear about us?",
+    "placeholder": "Choose one (optional)",
+    "google": "Google search",
+    "ai": "ChatGPT or another AI assistant",
+    "tripadvisor": "TripAdvisor",
+    "social": "Instagram or Facebook",
+    "friend": "A friend or family member",
+    "returning": "I've travelled with you before",
+    "other": "Other"
   }
 }

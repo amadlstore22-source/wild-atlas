@@ -23,6 +23,8 @@ export interface EnquiryRecord {
   people?: number;
   subject?: string;
   message?: string;
+  /** "How did you hear about us?" as its English label, or "". */
+  heard?: string;
 }
 
 /** Apps Script can be slow to wake. Past this we give up rather than hold the

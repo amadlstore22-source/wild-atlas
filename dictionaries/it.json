@@ -269,7 +269,14 @@
       "middleAtlas": "Medio Atlante",
       "antiAtlas": "Anti-Atlante",
       "sahara": "Sahara"
-    }
+    },
+    "durationHeading": "Quanti giorni?",
+    "durationIntro": "Ogni opzione prevede una notte al campo nel deserto a {place}. I giorni in più non aggiungono notti tra le dune: distribuiscono la guida su più giorni.",
+    "durationDriving": "Guida ogni giorno",
+    "durationDay": "Giorno {n}",
+    "durationPerPersonForTwo": "a persona, per 2 viaggiatori",
+    "durationThisTrip": "Questo tour",
+    "durationSeeTrip": "Vedi questo tour"
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",
@@ -785,5 +792,16 @@
     "formDetailsPlaceholder": "Date di arrivo e partenza, dove alloggi, tutto ciò che dovremmo sapere",
     "formSubmit": "Invia la richiesta",
     "moreEvents": "Altre date per cui vale il viaggio"
+  },
+  "enquirySource": {
+    "label": "Come ci hai conosciuto?",
+    "placeholder": "Scegli (facoltativo)",
+    "google": "Ricerca Google",
+    "ai": "ChatGPT o un altro assistente IA",
+    "tripadvisor": "TripAdvisor",
+    "social": "Instagram o Facebook",
+    "friend": "Un amico o un familiare",
+    "returning": "Ho già viaggiato con voi",
+    "other": "Altro"
   }
 }

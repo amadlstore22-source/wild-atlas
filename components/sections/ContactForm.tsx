@@ -3,16 +3,17 @@ import { useState } from "react";
 import Link from "next/link";
 import { PaperPlaneTilt } from "@phosphor-icons/react";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
+import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
 import { track, trackConversion } from "@/lib/analytics";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict: Dictionary }) {
   const c = dict.contact;
-  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "", heard: "" });
   const [agreed, setAgreed] = useState(false);
   const { sending, sent, error, submit: doSubmit } = useFormSubmit({
     onSuccess: () => {
-      track("contact_submit", { subject: form.subject });
+      track("contact_submit", { subject: form.subject, heard: form.heard || "unanswered" });
       trackConversion("enquiry");
     },
   });
@@ -109,6 +110,15 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
           className={`${inputCls} resize-none`}
         />
       </div>
+
+      <HeardAboutSelect
+        id="contact-heard"
+        value={form.heard}
+        onChange={(v) => update("heard", v)}
+        labels={dict.enquirySource}
+        labelClassName="text-xs font-semibold text-ink-soft uppercase tracking-widest block mb-1.5"
+        selectClassName={`${inputCls} bg-white`}
+      />
 
       {/* Privacy consent — required before the message can be sent. */}
       <label className="flex items-start gap-2.5 cursor-pointer select-none">

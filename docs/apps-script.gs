@@ -26,6 +26,8 @@ const SECRET = 'PUT-YOUR-SECRET-HERE';
 const ENQUIRY_HEADERS = [
   'Received', 'Type', 'Name', 'Email', 'Tour',
   'Departure', 'People', 'Subject', 'Message', 'Status', 'Notes',
+  // Added 2026-10-06, last so existing rows keep their columns.
+  'Found us via',
 ];
 
 const INVOICE_HEADERS = [
@@ -146,6 +148,7 @@ function addEnquiry_(data) {
     data.message || '',
     'New',
     '',
+    data.heard || '',
   ]);
   return json_({ ok: true });
 }

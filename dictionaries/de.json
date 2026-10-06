@@ -269,7 +269,14 @@
       "middleAtlas": "Mittlerer Atlas",
       "antiAtlas": "Antiatlas",
       "sahara": "Sahara"
-    }
+    },
+    "durationHeading": "Wie viele Tage?",
+    "durationIntro": "Jede Option verbringt eine Nacht im Wüstencamp in {place}. Zusätzliche Tage bringen keine weiteren Nächte in den Dünen, sondern verteilen die Fahrt auf mehr Tage.",
+    "durationDriving": "Fahrzeit pro Tag",
+    "durationDay": "Tag {n}",
+    "durationPerPersonForTwo": "pro Person, bei 2 Reisenden",
+    "durationThisTrip": "Diese Tour",
+    "durationSeeTrip": "Zur Tour"
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",
@@ -785,5 +792,16 @@
     "formDetailsPlaceholder": "An- und Abreisedatum, Unterkunft, alles, was wir wissen sollten",
     "formSubmit": "Anfrage senden",
     "moreEvents": "Weitere Termine, für die sich eine Reise lohnt"
+  },
+  "enquirySource": {
+    "label": "Wie haben Sie von uns erfahren?",
+    "placeholder": "Bitte wählen (optional)",
+    "google": "Google-Suche",
+    "ai": "ChatGPT oder ein anderer KI-Assistent",
+    "tripadvisor": "TripAdvisor",
+    "social": "Instagram oder Facebook",
+    "friend": "Freunde oder Familie",
+    "returning": "Ich bin schon mit Ihnen gereist",
+    "other": "Sonstiges"
   }
 }

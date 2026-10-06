@@ -376,6 +376,7 @@ export default async function EventDetailPage({ params }: EventParams) {
           from: dict.common.from,
           perPerson: dict.common.perPerson,
           perPersonGroup: dict.common.perPersonGroup,
+          heard: dict.enquirySource,
         }}
       />
 

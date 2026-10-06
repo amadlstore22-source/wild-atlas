@@ -3,6 +3,7 @@ import { SITE } from "@/lib/constants";
 import { logEnquiry } from "@/lib/enquiry-log";
 import { limitByIp } from "@/lib/rate-limit";
 import { isCrossOrigin } from "@/lib/request-origin";
+import { enquirySourceLabel } from "@/lib/enquiry-source";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -63,6 +64,9 @@ export async function POST(req: NextRequest) {
     // and treat the request as undated rather than rejecting the whole message.
     const date = validDate(sanitize(body.date, 20));
     const people = Math.max(1, Math.min(100, Number(body.people) || 1));
+    // Optional "How did you hear about us?": a key mapped to a fixed English
+    // label; anything else becomes "" (lib/enquiry-source.ts).
+    const heard = enquirySourceLabel(body.heard);
 
     if (!name || !email || !EMAIL_RE.test(email)) {
       return NextResponse.json({ error: "Missing or invalid fields" }, { status: 400 });
@@ -80,7 +84,7 @@ export async function POST(req: NextRequest) {
     // the sheet; a lost one is not. logEnquiry swallows all its own failures
     // and is bounded by a 4 s timeout, so it can neither block nor break
     // delivery. __tests__/lib/contact-route-logging-order.test.ts pins this.
-    await logEnquiry({ type, name, email, tour, date, people, subject, message });
+    await logEnquiry({ type, name, email, tour, date, people, subject, message, heard });
 
     const resendKey = process.env.RESEND_API_KEY;
     if (!resendKey) {
@@ -97,8 +101,8 @@ export async function POST(req: NextRequest) {
     {
       const emailBody =
         type === "booking"
-          ? `New booking inquiry for ${tour}:\n\nName: ${name}\nEmail: ${email}\nDate: ${date || "flexible"}\nPeople: ${people}`
-          : `New contact message:\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || "General"}\n\nMessage:\n${message}`;
+          ? `New booking inquiry for ${tour}:\n\nName: ${name}\nEmail: ${email}\nDate: ${date || "flexible"}\nPeople: ${people}${heard ? `\nFound us via: ${heard}` : ""}`
+          : `New contact message:\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || "General"}${heard ? `\nFound us via: ${heard}` : ""}\n\nMessage:\n${message}`;
 
       const adminRes = await fetch("https://api.resend.com/emails", {
         method: "POST",

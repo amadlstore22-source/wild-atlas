@@ -7,6 +7,7 @@ import { useFormSubmit } from "@/hooks/useFormSubmit";
 import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
+import HeardAboutSelect, { type HeardAboutLabels } from "@/components/ui/HeardAboutSelect";
 
 /**
  * The selling half of an event page: the trips we run on the event dates, and
@@ -62,6 +63,7 @@ export interface EventPlannerLabels {
   from: string;
   perPerson: string;
   perPersonGroup: string;
+  heard: HeardAboutLabels;
 }
 
 interface Props {
@@ -76,12 +78,12 @@ interface Props {
 
 export default function EventPlanner({ lang, eventSlug, eventName, dates, trips, whatsappHref, labels: l }: Props) {
   const { format } = useCurrency();
-  const [form, setForm] = useState({ name: "", email: "", people: "2", trip: "", details: "" });
+  const [form, setForm] = useState({ name: "", email: "", people: "2", trip: "", details: "", heard: "" });
   const [agreed, setAgreed] = useState(false);
   const nameRef = useRef<HTMLInputElement>(null);
   const { sending, sent, error, submit } = useFormSubmit({
     onSuccess: () => {
-      track("event_enquiry_submit", { event: eventSlug, trip: form.trip || "unsure" });
+      track("event_enquiry_submit", { event: eventSlug, trip: form.trip || "unsure", heard: form.heard || "unanswered" });
       trackConversion("enquiry");
     },
   });
@@ -109,6 +111,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
       email: form.email,
       people: form.people,
       tour: trip?.title ?? "",
+      heard: form.heard,
       subject: `Event enquiry: ${eventName} (${dates})`,
       message:
         `Event: ${eventName} (${dates})\nTrip: ${tripLine}\nPeople: ${form.people}\nPage language: ${lang}\n\n` +
@@ -255,6 +258,8 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
                   value={form.details} onChange={(e) => update("details", e.target.value)}
                   placeholder={l.formDetailsPlaceholder} className={`${inputCls} resize-y`} />
               </div>
+              <HeardAboutSelect id="ev-heard" value={form.heard} onChange={(v) => update("heard", v)}
+                labels={l.heard} labelClassName={labelCls} selectClassName={inputCls} />
 
               <label className="flex cursor-pointer select-none items-start gap-2.5">
                 <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} required

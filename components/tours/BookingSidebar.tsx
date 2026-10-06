@@ -11,6 +11,7 @@ import { useCurrency } from "@/lib/currency";
 import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
+import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour; lang?: Locale; dict: Dictionary }) {
@@ -19,6 +20,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   const quotes = reviewsForTour(tour.title);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [heard, setHeard] = useState("");
   const [date, setDate] = useState("");
   // The smallest bookable group, from the tour's own tiers — some tours (the
   // family trek) cannot be booked solo, so 1 is not always the floor.
@@ -61,7 +63,7 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   function handleInquiry(e: React.FormEvent) {
     e.preventDefault();
     if (!agreed || peopleInvalid) return;
-    doSubmit({ type: "booking", tour: tour.title, name, email, date, people });
+    doSubmit({ type: "booking", tour: tour.title, name, email, date, people, heard });
   }
 
   // Count an enquiry conversion only once the submit actually succeeds — firing
@@ -69,10 +71,11 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
   // a successful send. Value = the deposit, a reasonable proxy for lead worth.
   useEffect(() => {
     if (sent) {
-      track("enquiry_submit", { tour: tour.title });
+      track("enquiry_submit", { tour: tour.title, heard: heard || "unanswered" });
       trackConversion("enquiry", { value: tour.depositAmount, currency: "EUR" });
     }
-  }, [sent, tour.title, tour.depositAmount]);
+    // `heard` cannot change once sent: the form is replaced by the thank-you.
+  }, [sent, tour.title, tour.depositAmount, heard]);
 
   const waUrl = whatsappUrl(WHATSAPP_MESSAGES.tour(tour.title));
   // depositAmount is stored in USD but the page displays the active currency.
@@ -511,6 +514,15 @@ export default function BookingSidebar({ tour, lang = "en", dict }: { tour: Tour
                   )}
                 </div>
               )}
+
+              <HeardAboutSelect
+                id="booking-heard"
+                value={heard}
+                onChange={setHeard}
+                labels={dict.enquirySource}
+                labelClassName="text-xs text-ink-muted mb-1 block"
+                selectClassName="w-full px-3 py-2.5 rounded-[3px] border border-rule bg-white text-ink text-sm focus:outline-none focus:border-indigo focus:ring-1 focus:ring-indigo/20 transition-colors"
+              />
 
               {/* Terms agreement — required before an enquiry can be sent. */}
               <label className="flex items-start gap-2.5 cursor-pointer select-none">

@@ -269,7 +269,14 @@
       "middleAtlas": "الأطلس المتوسط",
       "antiAtlas": "الأطلس الصغير",
       "sahara": "الصحراء"
-    }
+    },
+    "durationHeading": "كم يومًا تحتاج؟",
+    "durationIntro": "كل خيار أدناه يتضمن ليلة واحدة في المخيم الصحراوي في {place}. الأيام الإضافية لا تضيف ليالي في الكثبان، بل توزّع القيادة على أيام أكثر.",
+    "durationDriving": "القيادة كل يوم",
+    "durationDay": "اليوم {n}",
+    "durationPerPersonForTwo": "للشخص، لمسافرَين اثنين",
+    "durationThisTrip": "هذه الرحلة",
+    "durationSeeTrip": "عرض هذه الرحلة"
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",
@@ -785,5 +792,16 @@
     "formDetailsPlaceholder": "تاريخ الوصول والمغادرة، مكان الإقامة، وكل ما ينبغي أن نعرفه",
     "formSubmit": "أرسل طلبي",
     "moreEvents": "تواريخ أخرى تستحق الرحلة"
+  },
+  "enquirySource": {
+    "label": "كيف عرفت عنا؟",
+    "placeholder": "اختر (اختياري)",
+    "google": "بحث جوجل",
+    "ai": "ChatGPT أو مساعد ذكاء اصطناعي آخر",
+    "tripadvisor": "TripAdvisor",
+    "social": "إنستغرام أو فيسبوك",
+    "friend": "صديق أو أحد أفراد العائلة",
+    "returning": "سافرت معكم من قبل",
+    "other": "غير ذلك"
   }
 }

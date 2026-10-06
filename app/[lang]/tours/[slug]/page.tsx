@@ -12,6 +12,7 @@ import { TRIPADVISOR } from "@/lib/constants";
 import TourGallery from "@/components/tours/TourGallery";
 import TourItinerary from "@/components/tours/TourItinerary";
 import TourBrief from "@/components/tours/TourBrief";
+import DurationChooser from "@/components/tours/DurationChooser";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
@@ -343,6 +344,10 @@ export default async function TourDetailPage({ params }: TourParams) {
             {tour.brief && tour.brief.length > 0 && (
               <TourBrief brief={tour.brief} dict={dict} />
             )}
+
+            {/* Desert trips only: the same dunes at 2, 3 or 4 days. Renders
+                nothing for a tour outside lib/duration-ladders.ts. */}
+            <DurationChooser slug={tour.slug} lang={lang} dict={dict} />
 
             {/* Placed straight after the day-by-day: the reader has just
                 absorbed the route, so "who actually takes you on it" is the

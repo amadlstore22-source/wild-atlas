@@ -256,7 +256,20 @@
     "mapKeyTransfer": "Transfer by road",
     "mapKeyOffRoad": "Off-road by 4x4 or camel",
     "briefHeading": "Before You Book",
-    "mapKeyTerrain3d": "3D terrain"
+    "mapKeyTerrain3d": "3D terrain",
+    "routeMapKm": "About {km} km by road",
+    "routeMapCredit": "Roads © OpenStreetMap contributors. Coastline: Natural Earth.",
+    "routeMapAria": "Route map: {tour}",
+    "routeMapFoot": "On foot, camp to camp",
+    "routeMapGoogle": "Open the meeting point in Google Maps",
+    "mapRegions": {
+      "atlantic": "Atlantic Ocean",
+      "mediterranean": "Mediterranean",
+      "highAtlas": "High Atlas",
+      "middleAtlas": "Middle Atlas",
+      "antiAtlas": "Anti-Atlas",
+      "sahara": "Sahara"
+    }
   },
   "booking": {
     "pricePerPerson": "Price per person",

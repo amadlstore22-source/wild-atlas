@@ -256,7 +256,20 @@
     "mapKeyTransfer": "الانتقال بالطريق",
     "mapKeyOffRoad": "خارج الطريق بسيارة رباعية الدفع أو على الجمل",
     "briefHeading": "قبل الحجز",
-    "mapKeyTerrain3d": "تضاريس ثلاثية الأبعاد"
+    "mapKeyTerrain3d": "تضاريس ثلاثية الأبعاد",
+    "routeMapKm": "قرابة {km} كم على الطريق",
+    "routeMapCredit": "الطرق © مساهمو OpenStreetMap. الساحل: Natural Earth.",
+    "routeMapAria": "خريطة المسار: {tour}",
+    "routeMapFoot": "سيرًا على الأقدام، من محطة إلى أخرى",
+    "routeMapGoogle": "افتح نقطة اللقاء في خرائط Google",
+    "mapRegions": {
+      "atlantic": "المحيط الأطلسي",
+      "mediterranean": "البحر المتوسط",
+      "highAtlas": "الأطلس الكبير",
+      "middleAtlas": "الأطلس المتوسط",
+      "antiAtlas": "الأطلس الصغير",
+      "sahara": "الصحراء"
+    }
   },
   "booking": {
     "pricePerPerson": "السعر للشخص الواحد",

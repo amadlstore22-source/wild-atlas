@@ -591,3 +591,43 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
 /* Prevent text overflow on narrow viewports */
 p, h1, h2, h3, h4, li { overflow-wrap: break-word; }
 input, select, textarea { font-family: var(--font-body), system-ui, sans-serif; }
+
+/* Static route map on tour pages, treks excepted (components/map/RouteMap.tsx). Dark panel, gold
+   route, by the owner's choice (2026-10-06). Text sizes are viewBox units: the
+   SVG is 900 wide, so desktop (~800px) shows them near 1:1 and phones (~350px)
+   need roughly double; the label layout is computed at the phone size. */
+.road-map { background: #0C1224; }
+.road-map .land { fill: #1E2950; stroke: rgba(251, 248, 243, .3); stroke-width: 1; stroke-linejoin: round; }
+.road-map .land--near { fill: #1A2140; stroke: rgba(251, 248, 243, .12); }
+.road-map .region { font-family: var(--font-display), Georgia, serif; font-style: italic; font-size: 19px; fill: rgba(251, 248, 243, .34); letter-spacing: .02em; }
+.road-map .region--sea { fill: rgba(196, 205, 226, .34); }
+.road-map .route-glow { fill: none; stroke: rgba(224, 168, 94, .16); stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+.road-map .route { fill: none; stroke: #E0A85E; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.road-map .route--offroad { stroke-dasharray: 7 8; stroke-width: 2.6; }
+.road-map .route--foot { stroke: #FBF8F3; stroke-dasharray: 0.5 9; stroke-width: 4; }
+.road-map .stop circle { fill: #0C1224; stroke: #E0A85E; stroke-width: 2.6; }
+.road-map .stop--origin circle { fill: #E0A85E; }
+.road-map .stop text {
+  font-family: var(--font-body), system-ui, sans-serif; font-size: 15px; font-weight: 600;
+  letter-spacing: .12em; text-transform: uppercase; fill: #FBF8F3;
+  paint-order: stroke; stroke: #0C1224; stroke-width: 5px; stroke-linejoin: round;
+}
+@media (max-width: 640px) {
+  .road-map .stop text { font-size: 24px; letter-spacing: .08em; stroke-width: 7px; }
+  .road-map .region { font-size: 27px; }
+  .road-map .route { stroke-width: 5; }
+  .road-map .route-glow { stroke-width: 16; }
+  .road-map .stop circle { stroke-width: 4; r: 9px; }
+  .road-map .stop--origin circle { r: 11px; }
+  .road-map .route--foot { stroke-width: 7; stroke-dasharray: 0.5 15; }
+}
+.road-map [data-draw="pending"] .route:not(.route--offroad):not(.route--foot) { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.road-map [data-draw="pending"] .route--foot { opacity: 0; }
+.road-map [data-draw="drawn"] .route--foot { opacity: 1; transition: opacity 900ms ease 400ms; }
+.road-map [data-draw="pending"] .route--offroad,
+.road-map [data-draw="pending"] .route-glow { opacity: 0; }
+.road-map [data-draw="drawn"] .route:not(.route--offroad):not(.route--foot) {
+  stroke-dasharray: 1; stroke-dashoffset: 0; transition: stroke-dashoffset 2400ms cubic-bezier(.77, 0, .175, 1);
+}
+.road-map [data-draw="drawn"] .route--offroad,
+.road-map [data-draw="drawn"] .route-glow { opacity: 1; transition: opacity 600ms ease 2000ms; }

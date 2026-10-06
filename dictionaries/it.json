@@ -256,7 +256,20 @@
     "mapKeyTransfer": "Trasferimento su strada",
     "mapKeyOffRoad": "Fuoristrada in 4x4 o cammello",
     "briefHeading": "Prima di prenotare",
-    "mapKeyTerrain3d": "Rilievo 3D"
+    "mapKeyTerrain3d": "Rilievo 3D",
+    "routeMapKm": "Circa {km} km su strada",
+    "routeMapCredit": "Strade © contributori di OpenStreetMap. Costa: Natural Earth.",
+    "routeMapAria": "Mappa del percorso: {tour}",
+    "routeMapFoot": "A piedi, di tappa in tappa",
+    "routeMapGoogle": "Apri il punto d'incontro in Google Maps",
+    "mapRegions": {
+      "atlantic": "Oceano Atlantico",
+      "mediterranean": "Mediterraneo",
+      "highAtlas": "Alto Atlante",
+      "middleAtlas": "Medio Atlante",
+      "antiAtlas": "Anti-Atlante",
+      "sahara": "Sahara"
+    }
   },
   "booking": {
     "pricePerPerson": "Prezzo a persona",

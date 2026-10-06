@@ -256,7 +256,20 @@
     "mapKeyTransfer": "Transfer auf der Straße",
     "mapKeyOffRoad": "Abseits der Straße mit 4x4 oder Kamel",
     "briefHeading": "Vor der Buchung",
-    "mapKeyTerrain3d": "3D-Relief"
+    "mapKeyTerrain3d": "3D-Relief",
+    "routeMapKm": "Rund {km} km auf der Straße",
+    "routeMapCredit": "Straßen © OpenStreetMap-Mitwirkende. Küstenlinie: Natural Earth.",
+    "routeMapAria": "Routenkarte: {tour}",
+    "routeMapFoot": "Zu Fuß, von Etappe zu Etappe",
+    "routeMapGoogle": "Treffpunkt in Google Maps öffnen",
+    "mapRegions": {
+      "atlantic": "Atlantik",
+      "mediterranean": "Mittelmeer",
+      "highAtlas": "Hoher Atlas",
+      "middleAtlas": "Mittlerer Atlas",
+      "antiAtlas": "Antiatlas",
+      "sahara": "Sahara"
+    }
   },
   "booking": {
     "pricePerPerson": "Preis pro Person",

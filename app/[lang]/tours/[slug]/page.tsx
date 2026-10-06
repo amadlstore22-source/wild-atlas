@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { TOURS, DIFFICULTY_COLORS, lowestGroupPrice, groupPriceTiers } from "@/lib/tours";
+import { TOURS, DIFFICULTY_COLORS, lowestGroupPrice, groupPriceTiers, type Tour } from "@/lib/tours";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
 import { Clock, UsersThree, CheckCircle, XCircle, MapPin, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
@@ -15,8 +15,10 @@ import TourBrief from "@/components/tours/TourBrief";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
+import RouteMap, { hasRouteMap } from "@/components/map/RouteMap";
 import TourLocationMap from "@/components/map/TourLocationMap";
 import tourRoutes from "@/lib/tour-routes.json";
+import { localeTag } from "@/lib/events-format";
 import TourNavBar from "@/components/tours/TourNavBar";
 import TourTrustBar from "@/components/tours/TourTrustBar";
 import TourGuideBlock from "@/components/tours/TourGuideBlock";
@@ -88,6 +90,51 @@ export async function generateMetadata({ params }: TourParams): Promise<Metadata
       ),
     },
   };
+}
+
+/** Departure cities, for the route map's first dot. Coordinates match
+ *  scripts/build-route-maps.mjs, which routes day trips from here. */
+const ORIGINS: Record<string, { lat: number; lng: number; name: Record<string, string> }> = {
+  marrakech: { lat: 31.6295, lng: -7.9811, name: { en: "Marrakech", fr: "Marrakech", es: "Marrakech", de: "Marrakesch", it: "Marrakech", ar: "مراكش" } },
+  agadir: { lat: 30.4278, lng: -9.5981, name: { en: "Agadir", fr: "Agadir", es: "Agadir", de: "Agadir", it: "Agadir", ar: "أكادير" } },
+  casablanca: { lat: 33.5945, lng: -7.62, name: { en: "Casablanca", fr: "Casablanca", es: "Casablanca", de: "Casablanca", it: "Casablanca", ar: "الدار البيضاء" } },
+};
+
+/**
+ * Start and stops for the route map, in the order the build script routed them:
+ * a tour with stops starts at its meeting point; a day trip with none starts
+ * in its city and goes to the meeting place; a tour in town is one dot. The
+ * meeting point is named after its city when it is in it ("Marrakech", not
+ * "Marrakech — your hotel or riad"), otherwise by its first part ("Imlil Village").
+ */
+function routeMapPlaces(tour: Tour, lang: string) {
+  const origin = ORIGINS[tour.origin];
+  // Coordinates from the English tour too; only the label is translated.
+  const near = (a: { lat: number; lng: number }, b: { lat: number; lng: number }) =>
+    Math.hypot(a.lat - b.lat, (a.lng - b.lng) * Math.cos((a.lat * Math.PI) / 180)) * 111 < 5;
+  const mp = { ...(TOURS.find((t) => t.slug === tour.slug) ?? tour).meetingPoint, name: tour.meetingPoint.name };
+  const meeting = {
+    name: origin && near(mp, origin) ? origin.name[lang] ?? origin.name.en : mp.name.split(/,| — | -- /)[0].trim(),
+    lat: mp.lat,
+    lng: mp.lng,
+  };
+  // Positions and order come from the English tour, which the build script
+  // routed: five tours per translation carry fewer stops (or none) in their
+  // translated itinerary, and the map fell back to a day-trip layout for them.
+  // Translated stop NAMES are used where the two lists line up.
+  const stopsOf = (t: Tour) => t.itinerary.flatMap((d) => [...(d.extraStops ?? []), ...(d.stop ? [d.stop] : [])]);
+  const base = TOURS.find((t) => t.slug === tour.slug) ?? tour;
+  const local = stopsOf(tour);
+  const baseStops = stopsOf(base);
+  const stops = baseStops.map((s, i) => (local.length === baseStops.length ? { ...s, name: local[i].name } : s));
+  // Meeting point that IS the first stop under another label: start at the
+  // stop (same rule as scripts/build-route-maps.mjs, decided on the English data).
+  const baseFirst = baseStops[0];
+  if (stops.length && baseFirst && base.meetingPoint.name.split(/,| — | -- /)[0].trim() === baseFirst.name)
+    return { start: stops[0], stops: stops.slice(1) };
+  if (stops.length) return { start: meeting, stops };
+  if (origin && !near(mp, origin)) return { start: { name: origin.name[lang] ?? origin.name.en, lat: origin.lat, lng: origin.lng }, stops: [meeting] };
+  return { start: meeting, stops: [] };
 }
 
 export default async function TourDetailPage({ params }: TourParams) {
@@ -312,38 +359,65 @@ export default async function TourDetailPage({ params }: TourParams) {
             <section id="tour-location" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>
               <p className="flex items-center gap-1.5 text-ink-soft mb-4"><MapPin className="w-4 h-4 text-indigo" />{tour.meetingPoint.name}</p>
-              <TourLocationMap
-                lat={tour.meetingPoint.lat}
-                lng={tour.meetingPoint.lng}
-                name={tour.meetingPoint.name}
-                /* Waypoints come before the day's endpoint, and the pins are
-                   numbered by POSITION ALONG THE ROUTE rather than by day.
-                   Numbering by `day` broke as soon as a day carried more than
-                   one pin — Imlil and the Toubkal Refuge are both day 1, so
-                   both rendered "1" and the walk read as starting twice. */
-                stops={tour.itinerary
-                  .flatMap((d) => [
-                    ...(d.extraStops ?? []).map((s) => ({ name: s.name, lat: s.lat, lng: s.lng })),
-                    ...(d.stop ? [{ name: d.stop.name, lat: d.stop.lat, lng: d.stop.lng }] : []),
-                  ])
-                  .map((s, i) => ({ ...s, day: i + 1 }))}
-                routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
-                origin={tour.origin}
-                /* Relief is offered where the ground IS the product. An audit
-                   of all 48 tours found 14 multi-stop routes with no road to
-                   snap to, 13 of them trekking — so those pages draw a bare
-                   straight line over imagery where a 3,664 m pass looks like a
-                   valley floor. The DEM tiles are ~8x the weight of the
-                   imagery, so driving tours, which learn nothing from relief,
-                   do not load them. */
-                terrain={tour.category === "trekking"}
-                mapKey={{
-                  tour: dict.tourDetail.mapKeyTour,
-                  transfer: dict.tourDetail.mapKeyTransfer,
-                  offRoad: dict.tourDetail.mapKeyOffRoad,
-                  terrain3d: dict.tourDetail.mapKeyTerrain3d,
-                }}
-              />
+              {/* Treks keep the satellite map with 3D terrain (owner's choice,
+                  2026-10-06, after seeing a contour-line version); every other
+                  tour gets the static route map. See RouteMap's docblock. */}
+              {tour.category !== "trekking" && hasRouteMap(tour.slug) ? (
+                <RouteMap
+                  slug={tour.slug}
+                  {...routeMapPlaces(tour, lang)}
+                  ariaLabel={dict.tourDetail.routeMapAria.replace("{tour}", tour.title)}
+                  kmLabel={dict.tourDetail.routeMapKm}
+                  footLabel={dict.tourDetail.routeMapFoot}
+                  offRoadLabel={dict.tourDetail.mapKeyOffRoad}
+                  credit={dict.tourDetail.routeMapCredit}
+                  regions={dict.tourDetail.mapRegions}
+                  numberLocale={localeTag(lang)}
+                />
+              ) : (
+                <TourLocationMap
+                  lat={tour.meetingPoint.lat}
+                  lng={tour.meetingPoint.lng}
+                  name={tour.meetingPoint.name}
+                  /* Waypoints come before the day's endpoint, and the pins are
+                     numbered by POSITION ALONG THE ROUTE rather than by day.
+                     Numbering by `day` broke as soon as a day carried more than
+                     one pin — Imlil and the Toubkal Refuge are both day 1, so
+                     both rendered "1" and the walk read as starting twice. */
+                  stops={tour.itinerary
+                    .flatMap((d) => [
+                      ...(d.extraStops ?? []).map((s) => ({ name: s.name, lat: s.lat, lng: s.lng })),
+                      ...(d.stop ? [{ name: d.stop.name, lat: d.stop.lat, lng: d.stop.lng }] : []),
+                    ])
+                    .map((s, i) => ({ ...s, day: i + 1 }))}
+                  routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
+                  origin={tour.origin}
+                  /* Relief is offered where the ground IS the product. An audit
+                     of all 48 tours found 14 multi-stop routes with no road to
+                     snap to, 13 of them trekking — so those pages draw a bare
+                     straight line over imagery where a 3,664 m pass looks like a
+                     valley floor. The DEM tiles are ~8x the weight of the
+                     imagery, so driving tours, which learn nothing from relief,
+                     do not load them. */
+                  terrain={tour.category === "trekking"}
+                  mapKey={{
+                    tour: dict.tourDetail.mapKeyTour,
+                    transfer: dict.tourDetail.mapKeyTransfer,
+                    offRoad: dict.tourDetail.mapKeyOffRoad,
+                    terrain3d: dict.tourDetail.mapKeyTerrain3d,
+                  }}
+                />
+              )}
+              <p className="mt-3 text-sm">
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${tour.meetingPoint.lat},${tour.meetingPoint.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-indigo underline-offset-4 hover:underline"
+                >
+                  {dict.tourDetail.routeMapGoogle} &rarr;
+                </a>
+              </p>
             </section>
 
             <section id="tour-included" className="scroll-mt-32">

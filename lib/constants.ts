@@ -11,9 +11,10 @@ export const SITE = {
    *  live, so until then forms deliver to a verified Gmail that works today.
    *  Point this at info@marrakechecotours.com once routing is confirmed. */
   emailInbox: "marrakechecotours@gmail.com",
-  /** Obfuscated for display so the address is not trivially scraped off the
-   *  page. The real address lives in `email` and is used for mailto/schema. */
-  emailDisplay: "info@···.com",
+  /** Shown in full since 2026-10-07 (owner's request). It used to read
+   *  "info@···.com" to deter scrapers, but the full address was already in
+   *  every mailto link and in the schema, so the mask hid it from people only. */
+  emailDisplay: "info@marrakechecotours.com",
   phone: "+212 653 936 003",
   phoneDial: "+212653936003",
   whatsapp: "212653936003",

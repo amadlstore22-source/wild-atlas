@@ -124,7 +124,8 @@ export default async function ContactPage({ params }: LangParams) {
                 <div className="w-10 h-10 rounded-full bg-forest/10 flex items-center justify-center shrink-0">
                   <item.icon className="w-5 h-5 text-forest" />
                 </div>
-                <div>
+                {/* min-w-0 + anywhere: the full email must wrap, not overflow, on a 320px phone. */}
+                <div className="min-w-0 [overflow-wrap:anywhere]">
                   <div className="text-xs font-semibold text-ink-soft uppercase tracking-widest mb-0.5">
                     {item.label}
                   </div>

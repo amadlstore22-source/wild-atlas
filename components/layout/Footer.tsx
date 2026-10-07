@@ -204,7 +204,13 @@ export default function Footer({ lang, dict }: Props) {
                   className="flex items-start gap-2.5 hover:text-brass-glow transition-colors"
                 >
                   <Envelope className="w-4 h-4 text-brass-glow shrink-0 mt-0.5" />
-                  <span className="break-all">{SITE.emailDisplay}</span>
+                  {/* Wraps after the @ first. On a phone the two-column footer is
+                      narrower than "marrakechecotours.com", so the domain may
+                      also wrap rather than run off the screen. */}
+                  <span className="min-w-0 [overflow-wrap:anywhere]">
+                    {SITE.emailDisplay.split("@")[0]}@<wbr />
+                    {SITE.emailDisplay.split("@")[1]}
+                  </span>
                 </a>
               </li>
               <li>

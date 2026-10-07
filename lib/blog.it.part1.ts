@@ -598,7 +598,7 @@ A differenza della medina di Marrakech, la città vecchia di Essaouira è rilass
 
 ## Come arrivare da Agadir
 
-**Con un tour guidato di un giorno:** ritiro da Agadir alle 8:00. Arrivo a Essaouira entro le 10:00. Partenza alle 16:30, ritorno ad Agadir entro le 18:30. Il nostro tour include una guida per la medina, la passeggiata sui bastioni e 2 ore di tempo libero per pranzo e shopping.
+**Con un'escursione condivisa:** ritiro da Agadir alle 8:00, con sosta in una cooperativa di argan sulla strada costiera. Arrivo a Essaouira in tarda mattinata. Partenza alle 16:30, ritorno ad Agadir entro le 18:30. La nostra escursione condivisa costa 39 € a persona e vi lascia tempo libero per la medina, i bastioni, il porto e il pranzo.
 
 **In autobus (CTM o Supratours):** gli autobus partono 3-4 volte al giorno da Agadir a Essaouira. Durata del viaggio: 2,5-3 ore. Disponibili anche autobus di ritorno. Costo: circa 80-100 MAD a tratta.
 

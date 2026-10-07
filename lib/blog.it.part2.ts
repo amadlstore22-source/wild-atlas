@@ -5392,10 +5392,10 @@ L'opzione senza fretta, e quella che consigliamo sottovoce a chi viaggia con bam
 - **Giorno 2** — [Taroudant](/it/tours/gita-taroudant-agadir), 125 EUR a testa
 - **Giorno 3** — spiaggia e souk di Agadir
 - **Giorni 4 e 5** — [trekking nell'Anti-Atlante](/it/tours/trek-anti-atlante-agadir), 525 EUR a persona per due, tra il granito di Tafraoute e le valli dei mandorli
-- **Giorno 6** — [Essaouira](/it/tours/gita-essaouira-agadir), 51 EUR a testa, la ventosa città atlantica dalle barche azzurre
+- **Giorno 6** — [Essaouira](/it/tours/gita-essaouira-agadir), 39 EUR a testa, la ventosa città atlantica dalle barche azzurre
 - **Giorno 7** — riposo, oppure il [parco nazionale di Souss-Massa](/it/tours/parco-nazionale-souss-massa) a 88 EUR a testa, per l'ibis eremita e la foce del fiume
 
-**Totale settimana, due viaggiatori: circa 827 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
+**Totale settimana, due viaggiatori: circa 815 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
 
 ## I trasferimenti, onestamente
 

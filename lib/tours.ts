@@ -1490,23 +1490,15 @@ export const TOURS: Tour[] = [
     origin: "agadir",
     difficulty: "easy",
     duration: "1 day",
-    groupSize: "2–14 people",
-    tourType: "private",
+    groupSize: "Up to 14 people",
+    tourType: "shared",
     reviewCount: 118,
     rating: 4.8,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
-    groupPricing: [
-      { minPeople: 1, price: 101 },
-      { minPeople: 2, price: 51 },
-      { minPeople: 3, price: 41 },
-      { minPeople: 4, price: 36 },
-      { minPeople: 5, price: 32 },
-      { minPeople: 6, price: 30 },
-    ],
-    price: 101,
-    depositAmount: 23,
+    // Shared seat at a flat EUR 39 (owner, 2026-10-07), like the shared
+    // Marrakech-Essaouira trip. Was a private ladder from EUR 101 solo.
+    groupPricing: [{ minPeople: 1, price: 39 }],
+    price: 39,
+    depositAmount: 8,
     heroImage:
       "/gallery/tours-agadir-to-essaouira-day-trip.jpg",
     gallery: [
@@ -1526,31 +1518,30 @@ export const TOURS: Tour[] = [
       "Famous Essaouira Atlantic wind",
     ],
     includes: [
-      "Round-trip transport from Agadir",
-      "English-speaking guide",
-      "2-hour guided medina walk",
+      "Round-trip transport from Agadir in a shared air-conditioned minibus",
+      "Stop at an argan cooperative",
+      "Free time in the medina, on the ramparts and at the harbour",
     ],
-    excludes: ["Lunch and personal purchases", "Tips"],
+    excludes: ["Lunch and personal purchases", "Guide inside the medina", "Tips"],
     itinerary: [
       {
         day: 1,
-        walking: "2–3 h",
         driving: "≈2 h each way",
         distance: "≈175 km each way",
         title: "Agadir → Essaouira → Agadir",
         description:
-          "Depart Agadir at 8:00 am. Arrive Essaouira by 10:00 am. Guided medina, ramparts, and harbour walk. Free time for lunch and exploration. Depart 4:30 pm. Back in Agadir by 6:30 pm.",
+          "Depart Agadir at 8:00 am and drive up the coast road, stopping at an argan cooperative. Arrive in Essaouira late morning with free time for the medina, the ramparts, the harbour and lunch. Depart at 4:30 pm, back in Agadir by 6:30 pm.",
       },
     ],
     faq: [
-      { q: "How much time do we get in Essaouira?", a: "The day includes a 2-hour guided walk of the medina, with free time around it to explore the ramparts, port, and cafés at your own pace." },
-      { q: "What is included?", a: "Round-trip transport from Agadir, an English-speaking guide, and the 2-hour guided medina walk. Lunch, personal purchases, and tips are not included." },
-      { q: "Is it a lot of driving?", a: "It is an easy full-day trip up the coast; the drive is broken by the guided walk and free time in the walled town." },
-      { q: "How big is the group?", a: "Between 2 and 14 people, and the trip is private — the group is your own party, so you travel only with the people you booked with. The price per person falls as the group grows." },
+      { q: "How much time do we get in Essaouira?", a: "Most of the day: you arrive late morning and leave at 4:30 pm, with free time for the medina, the ramparts, the harbour and a long lunch." },
+      { q: "What is included?", a: "Round-trip transport from Agadir in a shared air-conditioned minibus and a stop at an argan cooperative. Lunch, a guide inside the medina, personal purchases and tips are not included." },
+      { q: "Is it a lot of driving?", a: "About two hours each way on the coast road, broken by the argan stop. The rest of the day is yours in Essaouira." },
+      { q: "Is it a shared trip?", a: "Yes. You travel in a shared minibus with other travellers, at €39 per person whatever the size of your party. If you would rather have a vehicle to yourselves, ask us for a private quote." },
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
-    seoTitle: "Private Essaouira Day Trip from Agadir",
-    seoDescription: "Day trip from Agadir to Essaouira's blue-and-white UNESCO medina — 18th-century Portuguese ramparts, fresh harbour seafood, and artisan workshops. From €101.",
+    seoTitle: "Shared Essaouira Day Trip from Agadir — €39",
+    seoDescription: "Shared day trip from Agadir to Essaouira: UNESCO medina, 18th-century ramparts, the blue fishing harbour and an argan cooperative on the way. €39 per person.",
     featured: false,
   },
   {

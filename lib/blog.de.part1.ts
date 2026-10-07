@@ -598,7 +598,7 @@ Anders als die Medina von Marrakesch ist die Altstadt Essaouiras entspannt. Aufd
 
 ## Anreise ab Agadir
 
-**Mit geführter Tagestour:** Abholung in Agadir um 8:00 Uhr. Ankunft in Essaouira um 10:00 Uhr. Abfahrt um 16:30 Uhr, zurück in Agadir um 18:30 Uhr. Unsere Tour beinhaltet einen Führer für die Medina, den Spaziergang auf den Wehrmauern und 2 Stunden freie Zeit für Mittagessen und Einkäufe.
+**Mit der Gruppentagestour:** Abholung in Agadir um 8:00 Uhr, mit Halt an einer Argan-Kooperative an der Küstenstraße. Ankunft in Essaouira am späten Vormittag. Abfahrt um 16:30 Uhr, zurück in Agadir um 18:30 Uhr. Unsere Gruppentour kostet 39 € pro Person und lässt Ihnen freie Zeit für die Medina, die Wehrmauern, den Hafen und das Mittagessen.
 
 **Mit dem Bus (CTM oder Supratours):** Busse verkehren 3–4 Mal täglich zwischen Agadir und Essaouira. Fahrzeit: 2,5–3 Stunden. Rückfahrten ebenfalls verfügbar. Kosten: etwa 80–100 MAD pro Strecke.
 

@@ -605,7 +605,7 @@ A diferencia de la medina de Marrakech, el casco antiguo de Esauira es relajado.
 
 ## Cómo llegar desde Agadir
 
-**En tour guiado de un día:** recogida en Agadir a las 8:00. Llegada a Esauira a las 10:00. Salida a las 16:30, de vuelta en Agadir a las 18:30. Nuestro tour incluye un guía para la medina, el paseo por las murallas y 2 horas libres para comer y comprar.
+**En excursión compartida:** recogida en Agadir a las 8:00, con parada en una cooperativa de argán en la carretera de la costa. Llegada a Esauira a media mañana. Salida a las 16:30, de vuelta en Agadir a las 18:30. Nuestra excursión compartida cuesta 39 € por persona y te deja tiempo libre para la medina, las murallas, el puerto y el almuerzo.
 
 **En autobús (CTM o Supratours):** los autobuses circulan de 3 a 4 veces al día entre Agadir y Esauira. Duración del trayecto: 2,5-3 horas. También hay autobuses de vuelta. Coste: aproximadamente 80-100 MAD por trayecto.
 

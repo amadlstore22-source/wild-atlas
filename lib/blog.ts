@@ -707,7 +707,7 @@ Unlike Marrakech's medina, Essaouira's old town is relaxed. Touts are rare. The 
 
 ## Getting There from Agadir
 
-**By guided day tour:** Pick-up from Agadir at 8:00 am. Arrive Essaouira by 10:00 am. Depart 4:30 pm, back in Agadir by 6:30 pm. Our tour includes a guide for the medina, rampart walk, and 2 hours of free time for lunch and shopping.
+**By shared day tour:** Pick-up from Agadir at 8:00 am, with a stop at an argan cooperative on the coast road. Arrive in Essaouira late morning. Depart 4:30 pm, back in Agadir by 6:30 pm. Our shared tour costs €39 per person and leaves you free time for the medina, the ramparts, the harbour and lunch.
 
 **By bus (CTM or Supratours):** Buses run 3–4 times daily from Agadir to Essaouira. Journey time: 2.5–3 hours. Return buses also available. Cost: approximately 80–100 MAD each way.
 
@@ -7724,10 +7724,10 @@ The unhurried option, and the one we quietly recommend to people travelling with
 - **Day 2** — [Taroudant](/en/tours/taroudant-day-trip-agadir), 125 EUR each
 - **Day 3** — beach and the Agadir souk
 - **Days 4–5** — [Anti-Atlas trekking](/en/tours/anti-atlas-trekking-agadir), 525 EUR per person for two, in the Tafraoute granite and the almond valleys
-- **Day 6** — [Essaouira](/en/tours/agadir-to-essaouira-day-trip), 51 EUR each, the windy Atlantic town with the blue boats
+- **Day 6** — [Essaouira](/en/tours/agadir-to-essaouira-day-trip), 39 EUR each, the windy Atlantic town with the blue boats
 - **Day 7** — rest, or [Souss-Massa National Park](/en/tours/sous-massa-national-park) at 88 EUR each for the bald ibis and the river mouth
 
-**Week total, two travellers: roughly 827 EUR per person**, and no day requires more than about two hours of driving.
+**Week total, two travellers: roughly 815 EUR per person**, and no day requires more than about two hours of driving.
 
 ## The drives, honestly
 

@@ -5403,10 +5403,10 @@ Die entspannte Variante, und die, die wir Familien mit kleinen Kindern und allen
 - **Tag 2** — [Taroudant](/de/tours/ausflug-taroudant-agadir), 125 EUR pro Person
 - **Tag 3** — Strand und Souk von Agadir
 - **Tage 4 und 5** — [Trekking im Antiatlas](/de/tours/anti-atlas-trekking-agadir), 525 EUR pro Person zu zweit, im Granit von Tafraoute und in den Mandeltälern
-- **Tag 6** — [Essaouira](/de/tours/ausflug-essaouira-agadir), 51 EUR pro Person, die windige Atlantikstadt mit den blauen Booten
+- **Tag 6** — [Essaouira](/de/tours/ausflug-essaouira-agadir), 39 EUR pro Person, die windige Atlantikstadt mit den blauen Booten
 - **Tag 7** — Ruhe, oder der [Nationalpark Souss-Massa](/de/tours/nationalpark-souss-massa) für 88 EUR pro Person, wegen der Waldrappe und der Flussmündung
 
-**Wochensumme, zwei Reisende: rund 827 EUR pro Person**, und kein Tag verlangt mehr als etwa zwei Stunden Fahrt.
+**Wochensumme, zwei Reisende: rund 815 EUR pro Person**, und kein Tag verlangt mehr als etwa zwei Stunden Fahrt.
 
 ## Die Fahrten, ehrlich
 

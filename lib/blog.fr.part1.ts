@@ -605,7 +605,7 @@ Contrairement à la médina de Marrakech, la vieille ville d'Essaouira est déte
 
 ## Comment y aller depuis Agadir
 
-**En excursion guidée :** prise en charge à Agadir à 8h00. Arrivée à Essaouira vers 10h00. Départ à 16h30, retour à Agadir vers 18h30. Notre circuit inclut un guide pour la médina, la promenade sur les remparts, et 2 heures de temps libre pour le déjeuner et les achats.
+**En excursion partagée :** prise en charge à Agadir à 8h00, avec un arrêt dans une coopérative d'argan sur la route côtière. Arrivée à Essaouira en fin de matinée. Départ à 16h30, retour à Agadir vers 18h30. Notre excursion partagée coûte 39 € par personne et vous laisse du temps libre pour la médina, les remparts, le port et le déjeuner.
 
 **En bus (CTM ou Supratours) :** des bus circulent 3 à 4 fois par jour entre Agadir et Essaouira. Durée du trajet : 2h30 à 3 heures. Bus retour également disponibles. Coût : environ 80 à 100 MAD l'aller.
 

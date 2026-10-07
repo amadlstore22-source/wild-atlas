@@ -210,8 +210,13 @@ describe("live booking status badge", () => {
       ["events/page.tsx", INDEX],
     ] as const) {
       const src = readFileSync(file, "utf-8");
+      // The events index card (redesigned 2026-10-07) gives no reason at all,
+      // only "Book ahead: About N weeks before" (bookAheadValue), so it cannot
+      // give the wrong one. Any page that shows the accommodation sentence
+      // must still pick the seat sentence for set departures.
+      const reasonFree = !/\bt\.bookAhead\b/.test(src) && src.includes("bookAheadValue");
       expect(
-        src.includes("bookAheadSeats"),
+        reasonFree || src.includes("bookAheadSeats"),
         `${name} no longer chooses bookAheadSeats for set departures, so a\n` +
           `seat-capped trip tells readers to book early because ACCOMMODATION\n` +
           `fills up — which is not why it fills up.`,

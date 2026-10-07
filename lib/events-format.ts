@@ -110,6 +110,44 @@ export function formatEventDates(event: TourEvent, lang: string): string {
   return formatMonthWindow(event.startDate, event.endDate, lang);
 }
 
+/**
+ * The tear-off calendar leaf on an event card: a small band over a large body.
+ *
+ * It follows the same rule as formatEventDates: a day is only printed when
+ * the date is confirmed (or is one of our own departures). Estimated and
+ * moon-sighting dates get the year in the band and the month(s) in the body,
+ * so the stamp can never look more precise than the text beside it.
+ */
+export function eventStamp(event: TourEvent, lang: string): { band: string; body: string; dayKnown: boolean } {
+  const l = tag(lang);
+  const d = (iso: string) => new Date(iso + "T00:00:00Z");
+  const day = new Intl.DateTimeFormat(l, { day: "numeric", timeZone: "UTC" });
+  const mon = new Intl.DateTimeFormat(l, { month: "short", timeZone: "UTC" });
+  const first = event.departureDates?.[0];
+
+  if (first) return { band: mon.format(d(first)), body: day.format(d(first)), dayKnown: true };
+
+  const start = d(event.startDate);
+  const end = d(event.endDate);
+  const sameMonth = start.getUTCFullYear() === end.getUTCFullYear() && start.getUTCMonth() === end.getUTCMonth();
+
+  if (event.confidence === "confirmed") {
+    if (event.startDate === event.endDate) return { band: mon.format(start), body: day.format(start), dayKnown: true };
+    if (sameMonth) return { band: mon.format(start), body: `${day.format(start)}–${day.format(end)}`, dayKnown: true };
+    return { band: `${mon.format(start)}–${mon.format(end)}`, body: `${day.format(start)}–${day.format(end)}`, dayKnown: true };
+  }
+  return {
+    band: String(start.getUTCFullYear()),
+    body: sameMonth ? mon.format(start) : `${mon.format(start)}–${mon.format(end)}`,
+    dayKnown: false,
+  };
+}
+
+/** "2027-03" for the month an event starts in (its first departure for ours). */
+export function eventMonthKey(event: TourEvent): string {
+  return (event.departureDates?.[0] ?? event.startDate).slice(0, 7);
+}
+
 export function confidenceLabel(
   confidence: DateConfidence,
   t: { confirmed: string; estimated: string; lunar: string }

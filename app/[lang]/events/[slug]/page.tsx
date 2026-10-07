@@ -394,7 +394,7 @@ export default async function EventDetailPage({ params }: EventParams) {
                 <li key={o.slug}>
                   <Link href={`/${lang}/events/${o.slug}`} className="group block overflow-hidden rounded-[4px] bg-card ring-1 ring-rule">
                     <div className="relative aspect-[16/10] overflow-hidden">
-                      <Image src={o.heroImage} alt="" fill sizes="(max-width: 640px) 100vw, 360px"
+                      <Image src={o.heroImage} alt={o.name} fill sizes="(max-width: 640px) 100vw, 360px"
                         className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]" />
                     </div>
                     <div className="p-4">

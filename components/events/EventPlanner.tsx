@@ -142,7 +142,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
                   <Link href={t.href} className="relative block aspect-[4/3] overflow-hidden" tabIndex={-1} aria-hidden>
                     <Image
                       src={t.image}
-                      alt=""
+                      alt={t.title}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
                       className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"

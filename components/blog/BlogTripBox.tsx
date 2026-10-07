@@ -50,7 +50,10 @@ export default function BlogTripBox({ href, title, duration, image, priceEur, mi
   return (
     <aside className="my-8 rounded-[4px] ring-1 ring-rule bg-parchment/50 p-4 sm:p-5 flex gap-4 items-center">
       <Link href={href} onClick={onClick} tabIndex={-1} aria-hidden="true" className="relative w-20 h-20 sm:w-24 sm:h-24 shrink-0 overflow-hidden rounded-[3px]">
-        <Image src={image} alt="" fill sizes="96px" className="object-cover" />
+        {/* alt is the tour title, not "": SEO scanners report an empty alt as
+            missing, and the link is aria-hidden, so screen readers never hear
+            it twice. */}
+        <Image src={image} alt={title} fill sizes="96px" className="object-cover" />
       </Link>
       <div className="min-w-0 flex-1">
         <p className="text-[0.7rem] font-semibold uppercase tracking-widest text-ink-soft mb-1">{labels.eyebrow}</p>

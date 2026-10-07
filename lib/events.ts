@@ -395,3 +395,20 @@ export function toursForEvent(event: TourEvent) {
     .map((slug) => TOURS.find((t) => t.slug === slug))
     .filter((t): t is NonNullable<typeof t> => Boolean(t));
 }
+
+/**
+ * The tours whose price heads an event ("Trips from …").
+ *
+ * For a festival that is every linked trip, so the cheapest way to see it
+ * wins. For one of OUR set departures it is the departure trip alone: the
+ * other linked tours are alternatives for people the dates do not suit. The
+ * 8-day Highlights page showed "Trips from €120" — the shared 3-day desert
+ * tour listed underneath — while the trip itself sells at €889 a seat.
+ */
+export function priceToursForEvent(event: TourEvent) {
+  const tours = toursForEvent(event);
+  const dates = event.departureDates;
+  if (!dates?.length) return tours;
+  const own = tours.filter((t) => t.fixedDeparture?.dates.some((d) => dates.includes(d)));
+  return own.length ? own : tours;
+}

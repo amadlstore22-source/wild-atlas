@@ -7,7 +7,7 @@ import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import JsonLd from "@/components/seo/JsonLd";
 import { collectionPageDocument } from "@/lib/seo/schema";
-import { toursForEvent, type TourEvent } from "@/lib/events";
+import { priceToursForEvent, type TourEvent } from "@/lib/events";
 import { lowestGroupPrice } from "@/lib/tours";
 import EventPrice from "@/components/events/EventPrice";
 import { upcomingEventsFor } from "@/lib/events.i18n";
@@ -127,8 +127,9 @@ function EventCard({
         })
       : formatEventDates(event, lang);
   // Cheapest trip we run on these dates, from the same helper as the tour
-  // cards and the event page, so the three can never disagree.
-  const cheapest = toursForEvent(event)
+  // cards and the event page, so the three can never disagree. For our own
+  // departures that is the departure trip only (see priceToursForEvent).
+  const cheapest = priceToursForEvent(event)
     .map((tour) => lowestGroupPrice(tour))
     .reduce<{ price: number; minPeople: number } | null>((a, b) => (!a || b.price < a.price ? b : a), null);
   return (

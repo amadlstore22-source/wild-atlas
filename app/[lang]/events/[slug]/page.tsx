@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
-import { EVENTS, toursForEvent } from "@/lib/events";
+import { EVENTS, priceToursForEvent, toursForEvent } from "@/lib/events";
 import { eventFor, upcomingEventsFor } from "@/lib/events.i18n";
 import { formatEventDates, confidenceLabel, localeTag, eventSerpTitle, eventSchemaFor } from "@/lib/events-format";
 import { getTourFor, tourSlugFor } from "@/lib/tours-i18n";
@@ -108,8 +108,12 @@ export default async function EventDetailPage({ params }: EventParams) {
       minPeople: cheapest.minPeople,
     };
   });
-  const fromTrip = trips.length
-    ? trips.reduce((a, b) => (b.priceEur < a.priceEur ? b : a))
+  // The headline price: for our own departures, the departure trip itself,
+  // not the cheaper alternatives listed below it (see priceToursForEvent).
+  const priced = new Set(priceToursForEvent(event).map((tour) => tour.slug));
+  const pricedTrips = trips.filter((trip) => priced.has(trip.slug));
+  const fromTrip = pricedTrips.length
+    ? pricedTrips.reduce((a, b) => (b.priceEur < a.priceEur ? b : a))
     : null;
   const perPersonFor = (minPeople: number) =>
     minPeople > 1 ? dict.common.perPersonGroup.replace("{count}", String(minPeople)) : dict.common.perPerson;

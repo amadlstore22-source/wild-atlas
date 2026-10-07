@@ -32,7 +32,9 @@ const JS_TWIN = path.join(ROOT, "docs", "apps-script-feedback-form.js");
 
 /** Parse the catalogue without importing TypeScript. */
 export function readTours() {
-  const src = fs.readFileSync(path.join(ROOT, "lib", "tours.ts"), "utf8");
+  // Normalise line endings: a Windows checkout has CRLF, which made the split
+  // below find no records and write an EMPTY tour list (2026-10-07).
+  const src = fs.readFileSync(path.join(ROOT, "lib", "tours.ts"), "utf8").replace(/\r\n/g, "\n");
   const records = src.split(/\n  \{\n/).slice(1);
   const tours = [];
   for (const r of records) {
@@ -90,7 +92,7 @@ if (process.argv[1] && process.argv[1].endsWith("build-feedback-form.mjs")) {
     process.exit(1);
   }
 
-  const gs = fs.readFileSync(GS, "utf8");
+  const gs = fs.readFileSync(GS, "utf8").replace(/\r\n/g, "\n");
   const start = gs.indexOf("var TOURS = [");
   const end = gs.indexOf("];", start);
   if (start < 0 || end < 0) {
@@ -106,6 +108,10 @@ if (process.argv[1] && process.argv[1].endsWith("build-feedback-form.mjs")) {
   const priorLine = before.slice(lastLineBreak + 1).trim();
   if (priorLine.startsWith("/**") && priorLine.endsWith("*/")) from = lastLineBreak + 1;
 
+  if (tours.length === 0) {
+    console.error("Read 0 tours from lib/tours.ts — refusing to empty the form's tour list.");
+    process.exit(1);
+  }
   const next = gs.slice(0, from) + renderLiteral(tours) + gs.slice(end + 3);
   fs.writeFileSync(GS, next);
   fs.writeFileSync(JS_TWIN, next);

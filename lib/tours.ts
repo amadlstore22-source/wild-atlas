@@ -1485,7 +1485,7 @@ export const TOURS: Tour[] = [
     id: "16",
     slug: "agadir-to-essaouira-day-trip",
     relatedPosts: ["essaouira-day-trip-from-agadir", "best-day-trips-from-agadir"],
-    title: "Agadir to Essaouira — Day Trip",
+    title: "Agadir to Essaouira — Shared Day Trip",
     category: "day-tours",
     origin: "agadir",
     difficulty: "easy",

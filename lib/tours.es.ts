@@ -1083,7 +1083,7 @@ export const TOURS: Tour[] = [
     id: "16",
     slug: "agadir-to-essaouira-day-trip",
     localizedSlug: "excursion-essaouira-agadir",
-    title: "Agadir a Essaouira — Excursión de un Día",
+    title: "Agadir a Essaouira — Excursión compartida",
     category: "day-tours",
     origin: "agadir",
     difficulty: "easy",

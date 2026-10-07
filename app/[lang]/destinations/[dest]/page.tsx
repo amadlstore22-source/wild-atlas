@@ -29,6 +29,7 @@ import type { Locale } from "@/app/[lang]/dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import { ogBase } from "@/lib/seo/open-graph";
+import { toursForDestination } from "@/lib/destination-tours";
 
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
 
@@ -88,11 +89,9 @@ export default async function DestinationPage({ params }: PageParams) {
   const d = dict.destinationsPage;
   const localizedDestinations = destinationsFor(lang);
 
-  const relatedTours = toursFor(lang).filter(
-    (t) =>
-      destination.relatedCategories.includes(t.category) ||
-      destination.relatedOrigins.includes(t.origin)
-  ).slice(0, 6);
+  // Tours that actually go here first, then ones from a related origin, then
+  // category matches. See toursForDestination for why.
+  const relatedTours = toursForDestination(toursFor(lang), destination);
 
   const guideRegions = DEST_BLOG_REGIONS[dest] ?? [];
   const relatedPosts = blogPostsFor(lang)

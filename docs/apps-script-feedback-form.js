@@ -81,7 +81,7 @@ var TOURS = [
   { slug: "agadir-to-chefchaouen-5day", title: "Agadir to Chefchaouen — 5-Day Blue City Tour", cat: "cultural", origin: "agadir", days: 5, type: "private" },
   { slug: "agadir-imperial-cities-6day", title: "Agadir — All 4 Imperial Cities — 6-Day Grand Tour", cat: "cultural", origin: "agadir", days: 6, type: "private" },
   { slug: "agadir-surf-lesson", title: "Agadir Beach Surf Lesson", cat: "day-tours", origin: "agadir", days: 1, type: "private" },
-  { slug: "agadir-to-essaouira-day-trip", title: "Agadir to Essaouira — Day Trip", cat: "day-tours", origin: "agadir", days: 1, type: "private" },
+  { slug: "agadir-to-essaouira-day-trip", title: "Agadir to Essaouira — Shared Day Trip", cat: "day-tours", origin: "agadir", days: 1, type: "shared" },
   { slug: "paradise-valley-agadir", title: "Agadir to Paradise Valley & Immouzer Waterfalls", cat: "day-tours", origin: "agadir", days: 1, type: "private" },
   { slug: "sous-massa-national-park", title: "Agadir to Souss-Massa National Park — Wildlife Tour", cat: "day-tours", origin: "agadir", days: 1, type: "private" },
   { slug: "casablanca-fes-sahara-marrakech-5day", title: "Casablanca to Marrakech — 5-Day Imperial Cities & Sahara", cat: "cultural", origin: "casablanca", days: 5, type: "private" },

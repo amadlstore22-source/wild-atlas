@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { EVENTS, priceToursForEvent, toursForEvent } from "@/lib/events";
 import { eventsFor } from "@/lib/events.i18n";
-import { lowestGroupPrice } from "@/lib/tours";
+import { lowestGroupPrice, TOURS } from "@/lib/tours";
 
 /**
  * The 8-Day Morocco Highlights departures page said "Trips from €120 /
@@ -33,12 +33,16 @@ describe("event headline price", () => {
     ).toEqual([]);
   });
 
+  // Compared against the tour's own seat price rather than a literal: the
+  // owner reprices this trip (889 -> 1067 on 2026-10-09), and a hard-coded
+  // figure made this test fail on a correct change.
   it("the 8-day Highlights page quotes the same price as its tour page", () => {
+    const seat = TOURS.find((t) => t.slug === "morocco-highlights-toubkal-sahara-8day")!.price;
     for (const lang of ["en", "fr", "es", "de", "it", "ar"] as const) {
       const event = eventsFor(lang).find((e) => e.slug === "morocco-highlights-8day-departures");
       expect(event, `${lang}: event missing`).toBeDefined();
       const prices = priceToursForEvent(event!).map((t) => lowestGroupPrice(t).price);
-      expect(prices, `${lang}: headline price`).toEqual([889]);
+      expect(prices, `${lang}: headline price`).toEqual([seat]);
     }
   });
 

@@ -25,8 +25,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 personnes",
     reviewCount: 48,
     rating: 4.9,
-    price: 650,
-    depositAmount: 143,
+    price: 845,
+    depositAmount: 169,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-guide-thumbs-up.jpg",
@@ -2335,7 +2335,7 @@ export const TOURS: Tour[] = [
       "C'est le tour complet du massif du Toubkal, et c'est un voyage différent de l'ascension que la plupart des gens réservent. Six jours, quatre cols élevés, et le sommet gardé pour le dernier matin plutôt que traité comme l'unique objectif. Vous partez de Tachedirt, franchissez le Tizi Likemt à 3 555 m, descendez vers l'Azib Likemt, progressez vers le sud par Amsouzart, campez au bord du lac Ifni à 2 295 m, puis franchissez le Tizi n'Ouanoums à 3 664 m jusqu'au refuge du Toubkal avant le sommet le sixième jour.",
       "La marche est soutenue et régulière : 4 heures le premier jour, 6 à 7 le deuxième avec 1 255 m de montée et 1 305 m de descente, 6 le troisième, 5 le quatrième, 6 à 7 le cinquième avec encore 1 370 m d'ascension, et 7 à 8 le dernier jour, sommet à 4 167 m et descente de 2 430 m jusqu'à Imlil compris. Cela fait six jours consécutifs de marche en altitude. Le niveau est qualifié d'exigeant, et il l'est réellement.",
       "Le lac Ifni est la raison de choisir ce circuit plutôt que l'itinéraire classique. C'est le seul véritable lac du Haut Atlas, turquoise, niché dans une cuvette de roche nue à 2 295 m, et presque personne en trek vers le sommet ne le voit jamais. Les nuits varient également — refuges, gîtes de village et bivouac plutôt que deux fois le même refuge — ce qui vous fait traverser des vallées habitées et des terres de pâturage que le couloir d'Imlil ne montre jamais.",
-      "Tarifs par personne : 990 € seul, 790 € à deux, 585 € à trois, 510 € à quatre, 480 € à cinq et 450 € à six. Sont inclus le guide de montagne diplômé, les cinq nuits, tous les repas du trek, les mulets et muletiers qui transportent le matériel collectif et le camp, les frais du parc national et le transfert aller-retour depuis Marrakech. L'assurance voyage est obligatoire et non incluse, et vous apportez votre propre équipement de trek et votre sac de couchage. Les pourboires du guide, du cuisinier et des muletiers sont à part et d'usage.",
+      "Tarifs par personne : 1 188 € seul, 948 € à deux, 702 € à trois, 612 € à quatre, 576 € à cinq et 540 € à six. Sont inclus le guide de montagne diplômé, les cinq nuits, tous les repas du trek, les mulets et muletiers qui transportent le matériel collectif et le camp, les frais du parc national et le transfert aller-retour depuis Marrakech. L'assurance voyage est obligatoire et non incluse, et vous apportez votre propre équipement de trek et votre sac de couchage. Les pourboires du guide, du cuisinier et des muletiers sont à part et d'usage.",
       "Vous ne portez pas votre matériel au-delà d'un sac à dos de journée — l'équipe de mulets déplace le camp. Ce qu'il faut apporter, c'est une vraie condition physique de montagne et des chaussures faites à votre pied. Six jours, c'est assez long pour que les petits problèmes en deviennent de grands, et la cause la plus fréquente de difficulté ici, ce sont les chaussures et non la forme physique. Groupe privé de 2 à 12 personnes.",
     ],
     title: "Circuit du Toubkal et lac d'Ifni au départ de Marrakech — Trek de 6 jours",
@@ -2346,8 +2346,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 personnes",
     reviewCount: 21,
     rating: 4.9,
-    price: 990,
-    depositAmount: 218,
+    price: 1188,
+    depositAmount: 238,
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
       "/gallery/ifni-lake-from-the-pass.jpg",
@@ -2468,7 +2468,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Deux jours, c'est le moyen le plus court et le plus honnête de se tenir au sommet de l'Afrique du Nord. Le premier jour, 1h30 de route de Marrakech à Imlil, puis environ cinq heures de marche jusqu'au refuge du Toubkal à 3 207 m, soit près de 1 470 m de dénivelé, en passant par le sanctuaire de Sidi Chamharouch. Le deuxième jour commence avant l'aube : 960 m jusqu'au sommet à 4 167 m, puis les 2 430 m de descente jusqu'à Imlil et le retour en voiture. Sept à huit heures de marche le deuxième jour, en grande partie en descente sur terrain meuble.",
       "Ce qu'il faut comprendre avant de réserver, c'est qu'il n'y a pas de journée d'acclimatation. Vous dormez une nuit à 3 207 m et atteignez le sommet le lendemain matin : c'est un profil d'ascension exigeant, pas une progression douce. Les marcheurs habitués à une longue journée de dénivelé chez eux s'en sortent généralement bien ; ceux qui n'ont jamais dépassé 3 000 m ressentent parfois l'altitude dans la dernière pente. Si vous avez le temps, la version en 4 jours intègre une acclimatation et reste le meilleur trek — celui-ci existe pour ceux qui ne l'ont pas.",
-      "Le tarif suit une grille de groupe, car le guide, le mulet et le transfert coûtent la même chose qu'il y ait un marcheur ou six. Seul : 350 €. À deux : 195 € par personne, à trois 185 €, à quatre 175 €, à cinq 165 €, et à six le prix tombe à 153 € par personne. Ce montant comprend le guide de montagne diplômé, la nuit en refuge, tous les repas en montagne, le mulet pour le matériel collectif, les frais du parc national et le transport aller-retour depuis Marrakech — le prix annoncé est donc celui que vous payez, et non un tarif de base auquel s'ajouteraient ensuite les frais de montagne.",
+      "Le tarif suit une grille de groupe, car le guide, le mulet et le transfert coûtent la même chose qu'il y ait un marcheur ou six. Seul : 455 €. À deux : 254 € par personne, à trois 241 €, à quatre 228 €, à cinq 215 €, et à six le prix tombe à 199 € par personne. Ce montant comprend le guide de montagne diplômé, la nuit en refuge, tous les repas en montagne, le mulet pour le matériel collectif, les frais du parc national et le transport aller-retour depuis Marrakech — le prix annoncé est donc celui que vous payez, et non un tarif de base auquel s'ajouteraient ensuite les frais de montagne.",
       "Non inclus : l'assurance voyage, qui est obligatoire, vos chaussures et vos couches personnelles, les pourboires du guide et du muletier, ainsi que les crampons et le piolet si vous partez en hiver. Ces derniers se louent à Imlil. De novembre à avril environ, le sommet devient une ascension sur neige et le trek change réellement de nature — tout à fait réalisable avec le bon équipement, mais ce n'est plus la même marche que sur les photos.",
       "Le groupe n'est composé que de vous. C'est un trek privé pour 2 à 12 personnes : le rythme est donné par votre groupe et non par des inconnus, et le guide peut ralentir ou faire demi-tour sans avoir à négocier avec l'emploi du temps d'autrui. Sur une ascension de deux jours sans journée de réserve, cette souplesse vaut plus qu'il n'y paraît.",
     ],
@@ -2480,8 +2480,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 personnes",
     reviewCount: 34,
     rating: 4.7,
-    price: 350,
-    depositAmount: 77,
+    price: 455,
+    depositAmount: 91,
     heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -2563,8 +2563,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 personnes",
     reviewCount: 18,
     rating: 4.8,
-    price: 600,
-    depositAmount: 132,
+    price: 780,
+    depositAmount: 156,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -2655,8 +2655,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 personnes",
     reviewCount: 12,
     rating: 4.9,
-    price: 600,
-    depositAmount: 132,
+    price: 780,
+    depositAmount: 156,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -3294,8 +3294,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 personnes",
     reviewCount: 0,
     rating: 4,
-    price: 1700,
-    depositAmount: 374,
+    price: 2040,
+    depositAmount: 408,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3509,8 +3509,8 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 950,
-    depositAmount: 209,
+    price: 1140,
+    depositAmount: 228,
     heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -4060,7 +4060,7 @@ export const TOURS: Tour[] = [
       "C'est le voyage qui réunit les deux extrêmes du Maroc en une semaine : le Jbel Toubkal à 4 167 m et la mer de sable de l'erg Chebbi. Vous partez et revenez d'un riad de Marrakech, montez au refuge du Toubkal et atteignez le sommet au lever du soleil, puis quittez la montagne vers le sud par Aït Ben Haddou, les gorges du Dadès et du Todra jusqu'au désert, à dos de dromadaire pour une nuit sous tente. C'est un seul itinéraire continu avec un seul guide, et c'est pourquoi il fonctionne en huit jours plutôt qu'en deux circuits juxtaposés. Contrairement à nos départs privés, celui-ci part à dates fixes avec un nombre de places limité.",
     seoTitle: "Toubkal et Sahara — Circuit de 8 jours",
     seoDescription:
-      "Le Toubkal (4 167 m) et les dunes de l'erg Chebbi en 8 jours depuis Marrakech. Cinq départs fixes dès mars 2027, 14 places, €889 pp — au lieu de €921.",
+      "Le Toubkal (4 167 m) et les dunes de l'erg Chebbi en 8 jours depuis Marrakech. Cinq départs fixes dès mars 2027, 14 places, €1 067 pp — au lieu de €1 105.",
     faq: [
       { q: "Quelle condition physique faut-il pour la partie Toubkal ?", a: "Assez pour deux longues journées consécutives, la seconde durant environ neuf heures avec un départ avant l'aube. Il n'y a ni escalade technique, ni corde, ni passage d'escalade : c'est une longue marche en altitude. Si vous pouvez marcher six heures en moyenne montagne sans redouter le lendemain, vous êtes prêt." },
       { q: "Est-ce un circuit privé ?", a: "Non. C'est un départ à date fixe de 14 places : vous voyagez avec d'autres personnes ayant réservé la même date. C'est ce qui rend le prix par personne fixe plutôt que dépendant de la taille de votre groupe. Si vous préférez avoir l'itinéraire pour vous seuls, demandez-nous un devis en privé." },
@@ -4074,13 +4074,13 @@ export const TOURS: Tour[] = [
     tourType: "shared",
     reviewCount: 0,
     rating: 5,
-    price: 889,
+    price: 1067,
     fixedDeparture: {
       dates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
       seatsTotal: 14,
-      listPrice: 921,
+      listPrice: 1105,
     },
-    depositAmount: 195,
+    depositAmount: 214,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",

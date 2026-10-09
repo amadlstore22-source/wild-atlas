@@ -3226,7 +3226,7 @@ Pass tragen.
       "Was eine Reise von Marrakesch nach Chefchaouen 2026 kostet: Transport, Riads, Führer und die Rückreise im Vergleich.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],
     faq: [
-      { q: "Was kostet eine Tour von Marrakesch nach Chefchaouen?", a: "Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet 313 € pro Person und umfasst privaten 4x4-Transport, einen Führer, drei Nächte im Riad mit Frühstück sowie alle Transfers und Mautgebühren über Fès, Volubilis und Meknès. Dieselbe Route eigenständig zu organisieren landet meist in einer ähnlichen Spanne, sobald die Rückreise mitgerechnet wird." },
+      { q: "Was kostet eine Tour von Marrakesch nach Chefchaouen?", a: "Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet 570 € pro Person und umfasst privaten 4x4-Transport, einen Führer, drei Nächte im Riad mit Frühstück sowie alle Transfers und Mautgebühren über Fès, Volubilis und Meknès. Dieselbe Route eigenständig zu organisieren landet meist in einer ähnlichen Spanne, sobald die Rückreise mitgerechnet wird." },
       { q: "Ist der Rücktransport ab Chefchaouen enthalten?", a: "Nein, und das ist der Kostenpunkt, den die meisten übersehen. Unsere Tour endet in Chefchaouen, 580 km von Marrakesch entfernt. Sie müssen die Weiterreise einplanen: Bus nach Tanger oder Fès, ein Inlandsflug oder ein Privattransfer. Planen Sie das vor der Buchung, statt es am Ende zu entdecken." },
       { q: "Wie weit ist Chefchaouen von Marrakesch entfernt?", a: "Etwa 580 km auf der Straße, also rund 8–9 Stunden Fahrt ohne Pausen. Deshalb ist ein Tagesausflug nicht realistisch und deshalb brechen sinnvolle Routen die Fahrt in Fès — das ohnehin auf dem Weg liegt und einen ganzen Tag verdient." },
       { q: "Kann man Marrakesch–Chefchaouen mit dem Bus fahren?", a: "Ja. CTM und Supratours bedienen die Strecke, meist mit Umstieg in Fès oder Casablanca, und das ist deutlich günstiger als ein Privatfahrzeug. Der Kompromiss sind Zeit und Unflexibilität: Sie verlieren Volubilis, Meknès und den Zedernwald von Azrou — genau die Stopps, die die Überlandroute überhaupt lohnend machen." },
@@ -3239,7 +3239,7 @@ irgendwo anhalten. Diese eine Tatsache bestimmt jede andere Zahl auf dieser Seit
 deshalb hat die Frage „Was kostet ein Tagesausflug von Marrakesch nach Chefchaouen?" keine
 gute Antwort. So etwas gibt es nicht.
 
-Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet **313 € pro
+Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet **570 € pro
 Person** und deckt die Route über Fès, Volubilis und Meknès ab.
 
 ## Was das Paket enthält
@@ -3299,7 +3299,7 @@ sind das Minimum für die Route; zwei machen sie zum Fahrmarathon.
 
 ## Wohin das Geld fließt
 
-Eine Plattformprovision von **25–40 %** auf eine Tour für 313 € sind bis zu 136 € — Geld,
+Eine Plattformprovision von **25–40 %** auf eine Tour für 570 € sind bis zu 228 € — Geld,
 das weder den Fahrer noch den Führer in Fès noch die Riads erreicht. Direkt bei einem
 marokkanischen Veranstalter zu buchen hält es im Land.
 
@@ -3312,7 +3312,7 @@ Landes.
 Wenn Sie nur die Blaue Stadt wollen, fliegen Sie. Wenn Sie Fès, Volubilis, Meknès und den
 Zedernwald unterwegs wollen, verdient die Überlandroute ihren Preis.
 
-👉 **[Die 4-Tages-Tour Marrakesch – Chefchaouen ansehen](/de/tours/marrakech-to-chefchaouen-4day)** — 313 € pro Person, privater Transport, drei Riad-Nächte, über Fès und Volubilis.
+👉 **[Die 4-Tages-Tour Marrakesch – Chefchaouen ansehen](/de/tours/marrakech-to-chefchaouen-4day)** — 570 € pro Person, privater Transport, drei Riad-Nächte, über Fès und Volubilis.
 
 
 ## Die andere Nordroute

@@ -5505,9 +5505,9 @@ keeps that with the people carrying your gear over the pass.
     tags: ["Marrakech to Chefchaouen cost", "Chefchaouen tour price", "blue city Morocco", "Morocco road trip cost", "Fes Volubilis"],
     seoTitle: "Marrakech to Chefchaouen Tour Cost 2026",
     seoDescription:
-      "What a Marrakech to Chefchaouen trip costs in 2026: transport, riads, guides and the return journey compared against a €313 four-day private tour via Fes and.",
+      "What a Marrakech to Chefchaouen trip costs in 2026: transport, riads, guides and the return journey compared against a €570 four-day private tour via Fes and.",
     faq: [
-      { q: "How much does a Marrakech to Chefchaouen tour cost?", a: "Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is €313 per person for two (€560 solo, less again in a larger group) and includes private 4x4 transport, a guide, three nights in riads with breakfast, and all transfers and tolls via Fes, Volubilis and Meknes. Arranging the same route independently — buses or a hired car, accommodation and guiding in Fes — typically lands in a similar range once the return journey is counted." },
+      { q: "How much does a Marrakech to Chefchaouen tour cost?", a: "Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is €570 per person for two (€890 solo, less again in a larger group) and includes private 4x4 transport, a guide, three nights in riads with breakfast, and all transfers and tolls via Fes, Volubilis and Meknes. Arranging the same route independently — buses or a hired car, accommodation and guiding in Fes — typically lands in a similar range once the return journey is counted." },
       { q: "Is the return transport from Chefchaouen included?", a: "No, and this is the cost most people miss. Our tour concludes in Chefchaouen, which is 580 km from Marrakech. You will need to budget for onward travel: bus to Tangier or Fes, a domestic flight, or a private transfer. It is worth planning this before you book rather than discovering it at the end." },
       { q: "How far is Chefchaouen from Marrakech?", a: "About 580 km by road, or roughly 8–9 hours of driving without stops. That is why a day trip is not realistic and why the sensible itineraries break the journey at Fes — which is on the way and worth a full day in its own right." },
       { q: "Can you do Marrakech to Chefchaouen by bus?", a: "Yes. CTM and Supratours run the route, usually with a change at Fes or Casablanca, and it is considerably cheaper than a private vehicle. The trade-off is time and rigidity: you lose Volubilis, Meknes and the Azrou cedar forest, which are the stops that make the overland route worth doing at all rather than flying." },
@@ -5520,7 +5520,7 @@ anywhere. That single fact drives every other number on this page, and it is why
 question "how much is a day trip to Chefchaouen from Marrakech?" has no good answer.
 There is no such thing.
 
-Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is **€313 per person**
+Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is **€570 per person**
 and covers the route via Fes, Volubilis and Meknes.
 
 ## What the package includes
@@ -5580,7 +5580,7 @@ the minimum for the route; two makes it a driving marathon.
 
 ## Where the money goes
 
-Platform commission of **25–40%** on a €313 tour is up to €136 — money that does not reach
+Platform commission of **25–40%** on a €570 tour is up to €228 — money that does not reach
 the driver, the guide in Fes, or the riads. Booking direct with any Moroccan operator
 keeps it in the country.
 
@@ -5592,7 +5592,7 @@ budget has two parts: the tour itself, and getting home from the far end of the 
 If you want the Blue City and nothing else, fly. If you want Fes, Volubilis, Meknes and
 the cedar forest along the way, the overland route earns its cost.
 
-👉 **[See the 4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day)** — €313 per person, private transport, three riad nights, via Fes and Volubilis.
+👉 **[See the 4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day)** — €570 per person, private transport, three riad nights, via Fes and Volubilis.
 
 
 ## The other northern route

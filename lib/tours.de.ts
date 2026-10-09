@@ -1150,8 +1150,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 Personen",
     reviewCount: 43,
     rating: 4.9,
-    price: 560,
-    depositAmount: 123,
+    price: 890,
+    depositAmount: 178,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [

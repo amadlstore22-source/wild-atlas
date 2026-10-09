@@ -1557,19 +1557,18 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 43,
     rating: 4.9,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // The owner's EUR ladder, set 2026-10-09: 890 / 570 / 450 / 410 / 390 / 350
+    // per person, flat from six up. Totals rise with every extra traveller.
     groupPricing: [
-      { minPeople: 1, price: 560 },
-      { minPeople: 2, price: 313 },
-      { minPeople: 3, price: 257 },
-      { minPeople: 4, price: 225 },
-      { minPeople: 5, price: 204 },
-      { minPeople: 6, price: 185 },
+      { minPeople: 1, price: 890 },
+      { minPeople: 2, price: 570 },
+      { minPeople: 3, price: 450 },
+      { minPeople: 4, price: 410 },
+      { minPeople: 5, price: 390 },
+      { minPeople: 6, price: 350 },
     ],
-    price: 560,
-    depositAmount: 123,
+    price: 890,
+    depositAmount: 178,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1645,7 +1644,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Private 4-Day Chefchaouen Blue City Tour",
-    seoDescription: "4-day tour from Marrakech to the blue-washed streets of Chefchaouen via Fes, Volubilis Roman ruins, and Meknes. Private 4x4 with riad accommodation. From €560.",
+    seoDescription: "4 days from Marrakech to blue-washed Chefchaouen via Fes, the Roman ruins of Volubilis and Meknes. Private 4x4, riad nights. From €350 pp for 6+.",
     featured: false,
   },
   {

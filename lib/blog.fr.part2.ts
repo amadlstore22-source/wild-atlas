@@ -3223,7 +3223,7 @@ chez les gens qui portent votre matériel par-dessus le col.
       "Ce que coûte un voyage de Marrakech à Chefchaouen en 2026 : transport, riads, guides et retour, comparés à un circuit privé.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],
     faq: [
-      { q: "Combien coûte un circuit de Marrakech à Chefchaouen ?", a: "Notre [circuit privé de 4 jours](/fr/tours/marrakech-to-chefchaouen-4day) est à 313 € par personne et comprend le transport privé en 4x4, un guide, trois nuits en riad avec petit-déjeuner, et tous les transferts et péages via Fès, Volubilis et Meknès. Organiser le même itinéraire seul — bus ou voiture de location, hébergement et guidage à Fès — aboutit généralement à une fourchette comparable une fois le retour compté." },
+      { q: "Combien coûte un circuit de Marrakech à Chefchaouen ?", a: "Notre [circuit privé de 4 jours](/fr/tours/marrakech-to-chefchaouen-4day) est à 570 € par personne et comprend le transport privé en 4x4, un guide, trois nuits en riad avec petit-déjeuner, et tous les transferts et péages via Fès, Volubilis et Meknès. Organiser le même itinéraire seul — bus ou voiture de location, hébergement et guidage à Fès — aboutit généralement à une fourchette comparable une fois le retour compté." },
       { q: "Le transport de retour depuis Chefchaouen est-il inclus ?", a: "Non, et c'est le coût que la plupart des gens oublient. Notre circuit se termine à Chefchaouen, à 580 km de Marrakech. Il faut prévoir la suite : bus vers Tanger ou Fès, vol intérieur, ou transfert privé. Mieux vaut le planifier avant de réserver que de le découvrir à la fin." },
       { q: "À quelle distance est Chefchaouen de Marrakech ?", a: "Environ 580 km par la route, soit à peu près 8 à 9 heures de conduite sans arrêt. C'est pourquoi l'excursion à la journée n'est pas réaliste et pourquoi les itinéraires sensés coupent le trajet à Fès — qui est sur le chemin et mérite une journée entière à elle seule." },
       { q: "Peut-on faire Marrakech – Chefchaouen en bus ?", a: "Oui. CTM et Supratours desservent l'itinéraire, généralement avec un changement à Fès ou Casablanca, et c'est nettement moins cher qu'un véhicule privé. Le compromis, c'est le temps et la rigidité : vous perdez Volubilis, Meknès et la cédraie d'Azrou, qui sont précisément les étapes qui rendent la route intéressante plutôt que l'avion." },
@@ -3236,7 +3236,7 @@ moindre arrêt. Ce seul fait détermine tous les autres chiffres de cette page, 
 pourquoi la question « combien coûte une excursion à la journée à Chefchaouen depuis
 Marrakech ? » n'a pas de bonne réponse. Cela n'existe pas.
 
-Notre [circuit privé de 4 jours](/fr/tours/marrakech-to-chefchaouen-4day) est à **313 € par
+Notre [circuit privé de 4 jours](/fr/tours/marrakech-to-chefchaouen-4day) est à **570 € par
 personne** et couvre l'itinéraire via Fès, Volubilis et Meknès.
 
 ## Ce que le forfait comprend
@@ -3296,8 +3296,8 @@ sont le minimum pour cet itinéraire ; deux en font un marathon routier.
 
 ## Où va l'argent
 
-Une commission de plateforme de **25 à 40 %** sur un circuit à 313 € représente jusqu'à
-136 € — de l'argent qui n'atteint ni le chauffeur, ni le guide de Fès, ni les riads.
+Une commission de plateforme de **25 à 40 %** sur un circuit à 570 € représente jusqu'à
+228 € — de l'argent qui n'atteint ni le chauffeur, ni le guide de Fès, ni les riads.
 Réserver en direct auprès de n'importe quel opérateur marocain le garde dans le pays.
 
 ## En résumé
@@ -3309,7 +3309,7 @@ depuis l'autre bout du pays.
 Si vous ne voulez que la ville bleue, prenez l'avion. Si vous voulez Fès, Volubilis, Meknès
 et la cédraie en chemin, la route mérite son prix.
 
-👉 **[Découvrez le circuit Marrakech – Chefchaouen en 4 jours](/fr/tours/marrakech-to-chefchaouen-4day)** — 313 € par personne, transport privé, trois nuits en riad, via Fès et Volubilis.
+👉 **[Découvrez le circuit Marrakech – Chefchaouen en 4 jours](/fr/tours/marrakech-to-chefchaouen-4day)** — 570 € par personne, transport privé, trois nuits en riad, via Fès et Volubilis.
 
 
 ## L'autre route du nord

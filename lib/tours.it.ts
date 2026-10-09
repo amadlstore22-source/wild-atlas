@@ -1150,8 +1150,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 persone",
     reviewCount: 43,
     rating: 4.9,
-    price: 560,
-    depositAmount: 123,
+    price: 890,
+    depositAmount: 178,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1227,7 +1227,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     seoTitle: "Tour di 4 Giorni da Marrakech a Chefchaouen",
-    seoDescription: "Tour di 4 giorni da Marrakech alle vie blu di Chefchaouen via Fes, le rovine romane di Volubilis e Meknes. 4x4 privato con alloggio in riad. Da €560.",
+    seoDescription: "Tour di 4 giorni da Marrakech alle vie blu di Chefchaouen via Fes, le rovine romane di Volubilis e Meknes. 4x4 privato con alloggio in riad. Da €350 a persona per 6+.",
     featured: false,
   },
   {

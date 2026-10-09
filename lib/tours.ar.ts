@@ -1133,8 +1133,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–12 أشخاص",
     reviewCount: 43,
     rating: 4.9,
-    price: 560,
-    depositAmount: 123,
+    price: 890,
+    depositAmount: 178,
     heroImage:
       "/gallery/blog-hero-desert-camp-night.jpg",
     gallery: [
@@ -1210,7 +1210,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "مراكش — فندقك أو الرياض الذي تقيم فيه" },
     seoTitle: "جولة 4 أيام من مراكش إلى شفشاون",
-    seoDescription: "جولة 4 أيام من مراكش إلى شوارع شفشاون الزرقاء عبر فاس وأطلال وليلي الرومانية ومكناس. سيارة 4x4 خاصة مع إقامة في رياضات. تبدأ من 340 دولاراً.",
+    seoDescription: "جولة 4 أيام من مراكش إلى شوارع شفشاون الزرقاء عبر فاس وأطلال وليلي الرومانية ومكناس. سيارة 4x4 خاصة مع إقامة في رياضات. تبدأ من 350 يورو للفرد لمجموعات من 6 أشخاص فأكثر.",
     featured: false,
   },
   {

@@ -8369,9 +8369,9 @@ covers when that is worth doing and when it is not.`,
     publishedAt: "2026-08-26",
     updatedAt: "2026-10-05",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
-    seoTitle: "Sahara Desert Weather Morocco",
+    seoTitle: "How Cold Is the Sahara at Night? By Month",
     seoDescription:
-      "Merzouga and Erg Chebbi temperatures month by month: 19\u00b0C in January to 43\u00b0C in July, with nights near freezing in winter.",
+      "Moroccan Sahara nights average about 6\u00b0C in January and can drop below zero; July nights stay near 29\u00b0C. Merzouga month by month, and what to pack.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
     faq: [
       { q: "How cold does the Sahara get at night in Morocco?", a: "Cold enough to be genuinely uncomfortable if you have packed only for the daytime. Merzouga's January nights sit around 6\u00b0C on the averages, and clear still nights can run several degrees lower again \u2014 close to freezing. The dunes are at 730 m altitude and the air is extremely dry, so the heat escapes fast once the sun goes down." },

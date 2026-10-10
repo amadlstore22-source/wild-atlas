@@ -6036,9 +6036,9 @@ Wenn Ihre Reise das Land durchquert, müssen Sie vielleicht gar nicht zum Ausgan
     publishedAt: "2026-08-26",
     updatedAt: "2026-08-26",
     tags: ["Sahara Wetter", "Merzouga Temperatur", "beste Reisezeit Wueste Marokko", "Packliste Wueste", "Klima Erg Chebbi"],
-    seoTitle: "Sahara-Wetter in Marokko",
+    seoTitle: "Wie kalt ist die Sahara nachts? Nach Monat",
     seoDescription:
-      "Merzouga und Erg Chebbi: 19 \u00b0C im Januar bis 43 \u00b0C im Juli, N\u00e4chte nahe dem Gefrierpunkt im Winter. Wann fahren, was einpacken.",
+      "Sahara-N\u00e4chte in Marokko: im Januar im Mittel etwa 6 \u00b0C, in klaren Wintern\u00e4chten unter null, im Juli um 29 \u00b0C. Merzouga Monat f\u00fcr Monat.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
     faq: [
       { q: "Wie kalt wird es nachts in der marokkanischen Sahara?", a: "Kalt genug, um wirklich unangenehm zu werden, wenn man nur f\u00fcr den Tag gepackt hat. Die Januarn\u00e4chte in Merzouga liegen im Mittel bei etwa 6 \u00b0C, und eine klare, windstille Nacht kann mehrere Grad tiefer gehen \u2014 nahe dem Gefrierpunkt. Die D\u00fcnen liegen auf 730 m, die Luft ist extrem trocken, die W\u00e4rme entweicht nach Sonnenuntergang also schnell." },

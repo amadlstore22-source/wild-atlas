@@ -231,11 +231,11 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa/francesa",
       "3 noches en riad",
-      "Desayuno diario",
+      "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
     excludes: [
-      "Almuerzos y cenas",
+      "Almuerzos",
       "Propinas",
       "Transporte de regreso desde Chefchaouen",
     ],

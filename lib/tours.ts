@@ -1592,10 +1592,10 @@ export const TOURS: Tour[] = [
       "Private 4x4 transport throughout",
       "English/French-speaking guide",
       "3 nights riad accommodation",
-      "Breakfast daily",
+      "Breakfast and dinner daily",
       "All transfers and tolls",
     ],
-    excludes: ["Lunches and dinners", "Tips", "Return transport from Chefchaouen"],
+    excludes: ["Lunches", "Tips", "Return transport from Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1610,7 +1610,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
-        meals: "B",
+        meals: "B,D",
         stay: "Hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Fes Medina Full Day",
@@ -1639,9 +1639,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Does this tour finish in Chefchaouen?", a: "Yes. It is a one-way journey from Marrakech to Chefchaouen over four days, so return transport from Chefchaouen is not included — plan your onward travel." },
-      { q: "What is included?", a: "Private 4x4 transport throughout, an English/French-speaking guide, three nights of riad accommodation, daily breakfast, and all transfers and tolls. Lunches, dinners, and tips are not included." },
+      { q: "What is included?", a: "Private 4x4 transport throughout, an English/French-speaking guide, three nights of riad accommodation, breakfast and dinner every day, and all transfers and tolls. Lunches and tips are not included." },
       { q: "How demanding is the trip?", a: "Easy. It is a road journey by private 4x4 with sightseeing stops, not a trek." },
-      { q: "Where do we stay?", a: "Three nights in riads with breakfast each morning." },
+      { q: "Where do we stay?", a: "Three nights in riads, with dinner every evening and breakfast every morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Private 4-Day Chefchaouen Blue City Tour",

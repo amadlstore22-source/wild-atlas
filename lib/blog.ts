@@ -5507,7 +5507,7 @@ keeps that with the people carrying your gear over the pass.
     seoDescription:
       "What a Marrakech to Chefchaouen trip costs in 2026: transport, riads, guides and the return journey compared against a €570 four-day private tour via Fes and.",
     faq: [
-      { q: "How much does a Marrakech to Chefchaouen tour cost?", a: "Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is €570 per person for two (€890 solo, less again in a larger group) and includes private 4x4 transport, a guide, three nights in riads with breakfast, and all transfers and tolls via Fes, Volubilis and Meknes. Arranging the same route independently — buses or a hired car, accommodation and guiding in Fes — typically lands in a similar range once the return journey is counted." },
+      { q: "How much does a Marrakech to Chefchaouen tour cost?", a: "Our [4-day private tour](/en/tours/marrakech-to-chefchaouen-4day) is €570 per person for two (€890 solo, less again in a larger group) and includes private 4x4 transport, a guide, three nights in riads with breakfast and dinner, and all transfers and tolls via Fes, Volubilis and Meknes. Arranging the same route independently — buses or a hired car, accommodation and guiding in Fes — typically lands in a similar range once the return journey is counted." },
       { q: "Is the return transport from Chefchaouen included?", a: "No, and this is the cost most people miss. Our tour concludes in Chefchaouen, which is 580 km from Marrakech. You will need to budget for onward travel: bus to Tangier or Fes, a domestic flight, or a private transfer. It is worth planning this before you book rather than discovering it at the end." },
       { q: "How far is Chefchaouen from Marrakech?", a: "About 580 km by road, or roughly 8–9 hours of driving without stops. That is why a day trip is not realistic and why the sensible itineraries break the journey at Fes — which is on the way and worth a full day in its own right." },
       { q: "Can you do Marrakech to Chefchaouen by bus?", a: "Yes. CTM and Supratours run the route, usually with a change at Fes or Casablanca, and it is considerably cheaper than a private vehicle. The trade-off is time and rigidity: you lose Volubilis, Meknes and the Azrou cedar forest, which are the stops that make the overland route worth doing at all rather than flying." },
@@ -5527,10 +5527,10 @@ and covers the route via Fes, Volubilis and Meknes.
 
 | Included | Not included |
 |---|---|
-| Private 4x4 transport throughout | Lunches and dinners |
+| Private 4x4 transport throughout | Lunches |
 | English/French-speaking guide | Tips |
 | 3 nights riad accommodation | **Return transport from Chefchaouen** |
-| Breakfast daily | |
+| Breakfast and dinner daily | |
 | All transfers and tolls | |
 
 That third exclusion deserves its own section, because it is the one that catches people

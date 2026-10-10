@@ -1183,10 +1183,10 @@ export const TOURS: Tour[] = [
       "Transport privé en 4x4 sur tout le circuit",
       "Guide anglophone/francophone",
       "3 nuits en riad",
-      "Petit-déjeuner chaque jour",
+      "Petit-déjeuner et dîner chaque jour",
       "Tous les transferts et péages",
     ],
-    excludes: ["Déjeuners et dîners", "Pourboires", "Transport retour depuis Chefchaouen"],
+    excludes: ["Déjeuners", "Pourboires", "Transport retour depuis Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1201,7 +1201,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
-        meals: "B",
+        meals: "B,D",
         stay: "Hôtel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Journée complète dans la médina de Fès",
@@ -1230,9 +1230,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Ce circuit se termine-t-il à Chefchaouen ?", a: "Oui. C'est un trajet aller simple de Marrakech à Chefchaouen sur quatre jours, le transport retour depuis Chefchaouen n'est donc pas inclus — prévoyez votre suite de voyage." },
-      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé tout au long, un guide anglophone/francophone, trois nuits en riad, le petit-déjeuner quotidien, et tous les transferts et péages. Les déjeuners, dîners et pourboires ne sont pas inclus." },
+      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé tout au long, un guide anglophone/francophone, trois nuits en riad, le petit-déjeuner et le dîner chaque jour, et tous les transferts et péages. Les déjeuners et les pourboires ne sont pas inclus." },
       { q: "Le circuit est-il exigeant ?", a: "Facile. C'est un voyage sur route en 4x4 privé avec des arrêts touristiques, pas un trek." },
-      { q: "Où dort-on ?", a: "Trois nuits en riad avec le petit-déjeuner chaque matin." },
+      { q: "Où dort-on ?", a: "Trois nuits en riad, avec le dîner chaque soir et le petit-déjeuner chaque matin." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — votre hôtel ou riad" },
     seoTitle: "Chefchaouen, la ville bleue : 4 jours",

@@ -1174,10 +1174,10 @@ export const TOURS: Tour[] = [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa y francesa",
       "3 noches de alojamiento en riad",
-      "Desayuno diario",
+      "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
-    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Chefchaouen"],
+    excludes: ["Almuerzos", "Propinas", "Transporte de vuelta desde Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1192,7 +1192,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
-        meals: "B",
+        meals: "B,D",
         stay: "Hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Día Completo en la Medina de Fez",
@@ -1221,9 +1221,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Termina este tour en Chefchauen?", a: "Sí. Es un trayecto de ida de Marrakech a Chefchauen en cuatro días, por lo que el transporte de vuelta desde Chefchauen no está incluido: organiza tu viaje posterior." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches de alojamiento en riad, desayuno diario y todos los traslados y peajes. Los almuerzos, las cenas y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches de alojamiento en riad, desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Es exigente el viaje?", a: "Fácil. Es un viaje por carretera en 4x4 privado con paradas turísticas, no un trek." },
-      { q: "¿Dónde se duerme?", a: "Tres noches en riads con desayuno cada mañana." },
+      { q: "¿Dónde se duerme?", a: "Tres noches en riads, con cena cada noche y desayuno cada mañana." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Tour de 4 Días de Marrakech a Chefchaouen",

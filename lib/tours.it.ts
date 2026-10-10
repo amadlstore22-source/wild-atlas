@@ -1174,10 +1174,10 @@ export const TOURS: Tour[] = [
       "Trasporto privato in 4x4 per tutto il percorso",
       "Guida di lingua inglese e francese",
       "3 notti in riad",
-      "Colazione ogni giorno",
+      "Colazione e cena ogni giorno",
       "Tutti i trasferimenti e i pedaggi",
     ],
-    excludes: ["Pranzi e cene", "Mance", "Trasporto di ritorno da Chefchaouen"],
+    excludes: ["Pranzi", "Mance", "Trasporto di ritorno da Chefchaouen"],
     itinerary: [
       {
         day: 1,
@@ -1192,7 +1192,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 2,
-        meals: "B",
+        meals: "B,D",
         stay: "Hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Giornata intera nella Medina di Fes",
@@ -1221,9 +1221,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Questo tour termina a Chefchaouen?", a: "Sì. È un tragitto di sola andata da Marrakech a Chefchaouen in quattro giorni, quindi il trasporto di ritorno da Chefchaouen non è incluso: organizza il tuo proseguimento." },
-      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato per tutto il viaggio, una guida di lingua inglese/francese, tre notti in riad, colazione giornaliera e tutti i trasferimenti e pedaggi. Pranzi, cene e mance non sono inclusi." },
+      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato per tutto il viaggio, una guida di lingua inglese/francese, tre notti in riad, colazione e cena ogni giorno e tutti i trasferimenti e pedaggi. Pranzi e mance non sono inclusi." },
       { q: "Il viaggio è impegnativo?", a: "Facile. È un viaggio su strada in 4x4 privato con soste turistiche, non un trek." },
-      { q: "Dove si dorme?", a: "Tre notti in riad con colazione ogni mattina." },
+      { q: "Dove si dorme?", a: "Tre notti in riad, con cena ogni sera e colazione ogni mattina." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     seoTitle: "Tour di 4 Giorni da Marrakech a Chefchaouen",

@@ -3226,7 +3226,7 @@ Pass tragen.
       "Was eine Reise von Marrakesch nach Chefchaouen 2026 kostet: Transport, Riads, Führer und die Rückreise im Vergleich.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],
     faq: [
-      { q: "Was kostet eine Tour von Marrakesch nach Chefchaouen?", a: "Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet 570 € pro Person und umfasst privaten 4x4-Transport, einen Führer, drei Nächte im Riad mit Frühstück sowie alle Transfers und Mautgebühren über Fès, Volubilis und Meknès. Dieselbe Route eigenständig zu organisieren landet meist in einer ähnlichen Spanne, sobald die Rückreise mitgerechnet wird." },
+      { q: "Was kostet eine Tour von Marrakesch nach Chefchaouen?", a: "Unsere [4-tägige Privattour](/de/tours/marrakech-to-chefchaouen-4day) kostet 570 € pro Person und umfasst privaten 4x4-Transport, einen Führer, drei Nächte im Riad mit Frühstück und Abendessen sowie alle Transfers und Mautgebühren über Fès, Volubilis und Meknès. Dieselbe Route eigenständig zu organisieren landet meist in einer ähnlichen Spanne, sobald die Rückreise mitgerechnet wird." },
       { q: "Ist der Rücktransport ab Chefchaouen enthalten?", a: "Nein, und das ist der Kostenpunkt, den die meisten übersehen. Unsere Tour endet in Chefchaouen, 580 km von Marrakesch entfernt. Sie müssen die Weiterreise einplanen: Bus nach Tanger oder Fès, ein Inlandsflug oder ein Privattransfer. Planen Sie das vor der Buchung, statt es am Ende zu entdecken." },
       { q: "Wie weit ist Chefchaouen von Marrakesch entfernt?", a: "Etwa 580 km auf der Straße, also rund 8–9 Stunden Fahrt ohne Pausen. Deshalb ist ein Tagesausflug nicht realistisch und deshalb brechen sinnvolle Routen die Fahrt in Fès — das ohnehin auf dem Weg liegt und einen ganzen Tag verdient." },
       { q: "Kann man Marrakesch–Chefchaouen mit dem Bus fahren?", a: "Ja. CTM und Supratours bedienen die Strecke, meist mit Umstieg in Fès oder Casablanca, und das ist deutlich günstiger als ein Privatfahrzeug. Der Kompromiss sind Zeit und Unflexibilität: Sie verlieren Volubilis, Meknès und den Zedernwald von Azrou — genau die Stopps, die die Überlandroute überhaupt lohnend machen." },
@@ -3246,10 +3246,10 @@ Person** und deckt die Route über Fès, Volubilis und Meknès ab.
 
 | Enthalten | Nicht enthalten |
 |---|---|
-| Privater 4x4-Transport durchgehend | Mittag- und Abendessen |
+| Privater 4x4-Transport durchgehend | Mittagessen |
 | Englisch-/französischsprachiger Führer | Trinkgeld |
 | 3 Nächte Riad-Unterkunft | **Rücktransport ab Chefchaouen** |
-| Tägliches Frühstück | |
+| Täglich Frühstück und Abendessen | |
 | Alle Transfers und Mautgebühren | |
 
 Dieser dritte Ausschluss verdient einen eigenen Abschnitt, weil er die Leute überrascht.

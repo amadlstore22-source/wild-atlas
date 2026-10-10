@@ -3229,7 +3229,7 @@ sube tu material por el puerto.
       "Lo que cuesta un viaje de Marrakech a Chefchaouen en 2026: transporte, riads, guías y la vuelta, frente a un tour privado.",
     relatedTours: ["marrakech-to-chefchaouen-4day", "marrakech-to-fes-3day", "agadir-to-chefchaouen-5day"],
     faq: [
-      { q: "¿Cuánto cuesta un tour de Marrakech a Chefchaouen?", a: "Nuestro [tour privado de 4 días](/es/tours/marrakech-to-chefchaouen-4day) cuesta 570 € por persona e incluye transporte privado en 4x4, guía, tres noches en riad con desayuno, y todos los traslados y peajes vía Fez, Volubilis y Mequinez. Organizar la misma ruta por libre —autobuses o coche de alquiler, alojamiento y guía en Fez— suele acabar en una horquilla parecida una vez contada la vuelta." },
+      { q: "¿Cuánto cuesta un tour de Marrakech a Chefchaouen?", a: "Nuestro [tour privado de 4 días](/es/tours/marrakech-to-chefchaouen-4day) cuesta 570 € por persona e incluye transporte privado en 4x4, guía, tres noches en riad con desayuno y cena, y todos los traslados y peajes vía Fez, Volubilis y Mequinez. Organizar la misma ruta por libre —autobuses o coche de alquiler, alojamiento y guía en Fez— suele acabar en una horquilla parecida una vez contada la vuelta." },
       { q: "¿Está incluido el transporte de vuelta desde Chefchaouen?", a: "No, y este es el coste que más gente pasa por alto. Nuestro tour termina en Chefchaouen, a 580 km de Marrakech. Hay que presupuestar el viaje de vuelta: autobús a Tánger o Fez, un vuelo nacional, o un traslado privado. Conviene planificarlo antes de reservar, no descubrirlo al final." },
       { q: "¿A qué distancia está Chefchaouen de Marrakech?", a: "Unos 580 km por carretera, o aproximadamente 8–9 horas de conducción sin paradas. Por eso una excursión de un día no es realista y por eso los itinerarios sensatos parten el trayecto en Fez, que está de camino y merece un día entero por sí sola." },
       { q: "¿Se puede ir de Marrakech a Chefchaouen en autobús?", a: "Sí. CTM y Supratours cubren la ruta, normalmente con cambio en Fez o Casablanca, y es bastante más barato que un vehículo privado. El intercambio son tiempo y rigidez: pierdes Volubilis, Mequinez y el bosque de cedros de Azrou, que son justo las paradas que hacen que merezca la pena ir por carretera en vez de volar." },
@@ -3249,10 +3249,10 @@ persona** y cubre la ruta vía Fez, Volubilis y Mequinez.
 
 | Incluido | No incluido |
 |---|---|
-| Transporte privado en 4x4 todo el trayecto | Comidas y cenas |
+| Transporte privado en 4x4 todo el trayecto | Almuerzos |
 | Guía en inglés/francés | Propinas |
 | 3 noches de riad | **Transporte de vuelta desde Chefchaouen** |
-| Desayuno diario | |
+| Desayuno y cena diarios | |
 | Todos los traslados y peajes | |
 
 Esa tercera exclusión merece su propio apartado, porque es la que pilla a la gente.

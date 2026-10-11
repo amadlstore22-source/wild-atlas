@@ -3515,7 +3515,7 @@ tre sono davvero giornate di strada: non è un difetto dell'itinerario, è geogr
 Ciò che varia è come la guida viene spezzata. Il percorso passa da Ait Benhaddou, Ouarzazate,
 le gole del Dades e del Todra e i palmeti del Draa. Un viaggio di corsa li fotografa dal
 finestrino; uno più lento si ferma. Se preferisci più tempo tra le dune e meno strada, il
-[tour di 4 giorni](/it/tours/desert-4day-marrakech) a 446 € aggiunge una notte e un ritmo più
+[tour di 4 giorni](/it/tours/desert-4day-marrakech) a 526 € aggiunge una notte e un ritmo più
 morbido.
 
 ## Le domande da fare prima di prenotare
@@ -4397,7 +4397,7 @@ numero che vedi per il tuo gruppo è quello che paghi.
     author: MET_TEAM,
     title: "Tour del deserto privato o condiviso in Marocco: quale conviene davvero (2026)",
     excerpt:
-      "Un posto su un minibus condiviso costa uguale a chiunque lo prenoti. Un tour privato divide un veicolo fra voi: 446 € a persona in due sul nostro itinerario di 4 giorni, 236 € in sei. Ecco dove i due prezzi si incrociano, e quando il posto condiviso resta la scelta giusta.",
+      "Un posto su un minibus condiviso costa uguale a chiunque lo prenoti. Un tour privato divide un veicolo fra voi: 526 € a persona in due sul nostro itinerario di 4 giorni, 270 € in sei. Ecco dove i due prezzi si incrociano, e quando il posto condiviso resta la scelta giusta.",
     heroImage: "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
@@ -4410,7 +4410,7 @@ numero che vedi per il tuo gruppo è quello che paghi.
       "I tour condivisi nel deserto marocchino costano 110–170 € a posto e non scendono mai.",
     faq: [
       { q: "Qual è la vera differenza tra un tour privato e uno condiviso?", a: "Un tour condiviso ti mette su un minibus con altri sei-dieci viaggiatori, con un orario fisso che non può cambiare. Un tour privato è il tuo veicolo con autista-guida: orario di partenza, soste fotografiche e luoghi del pranzo li decidi tu. L'itinerario è di solito quasi identico: cambia chi altro c'è nel veicolo, chi detta il ritmo e come si comporta il prezzo quando il gruppo cresce. Tutti i nostri tour sono privati, compreso il [Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)." },
-      { q: "Vale la pena spendere di più per un tour privato nel deserto?", a: "Dipende quasi interamente dalla dimensione del gruppo. Da soli, un posto condiviso costa molto meno e la risposta onesta è di solito no: una persona non può ripartire il costo di un 4x4. In due, il nostro [tour privato di 4 giorni](/it/tours/desert-4day-marrakech) costa 446 € a testa, più o meno quanto un posto condiviso sullo stesso itinerario. In quattro sono 274 € e in sei 236 €, quindi da circa tre persone in su il privato è insieme più economico e migliore." },
+      { q: "Vale la pena spendere di più per un tour privato nel deserto?", a: "Dipende quasi interamente dalla dimensione del gruppo. Da soli, un posto condiviso costa molto meno e la risposta onesta è di solito no: una persona non può ripartire il costo di un 4x4. In due, il nostro [tour privato di 4 giorni](/it/tours/desert-4day-marrakech) costa 526 € a testa, circa 200 € più di un posto condiviso sullo stesso itinerario. In quattro sono 346 €, vicino al prezzo condiviso, e in sei 270 €, quindi da circa cinque persone in su il privato è insieme più economico e migliore." },
       { q: "Quante persone ci sono su un tour condiviso nel deserto marocchino?", a: "Di solito da sei a dieci, su un minibus che ne può ospitare sedici. Le nostre partenze condivise si fermano a dieci perché nessuno passi quattro giorni su un sedile centrale. Non conoscerai il gruppo in anticipo, e l'orario lo detta l'itinerario e non i passeggeri: è lo scambio che accetti in cambio del prezzo più basso." },
       { q: "Si può fermarsi per le foto su un tour condiviso?", a: "Sì, ma alle soste previste e non su richiesta. L'autista segue un orario che deve funzionare per tutto il veicolo, quindi i punti panoramici del Tizi n'Tichka, Aït Ben Haddou e le gole del Todra hanno tutti la loro sosta, mentre la curva senza nome con la luce giusta no. Su un tour privato quella sosta ti costa una frase all'autista." },
       { q: "Cosa è meglio per una famiglia con bambini piccoli?", a: "Un tour privato, e non soprattutto per comodità. I bambini impongono i propri tempi per pasti, riposini e soste in bagno, e un minibus condiviso non può assorbirlo senza disturbare otto sconosciuti. Il [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) costa 346 € a persona in quattro — e una famiglia di quattro è esattamente la dimensione in cui il privato smette di costare un supplemento." },
@@ -4428,13 +4428,13 @@ Per un tour di 4 giorni da Marrakech a Erg Chebbi:
 | Il vostro gruppo | Posto condiviso, mercato | Il nostro privato di 4 giorni |
 |---|---|---|
 | 1 persona | ~330 € | 889 € |
-| 2 persone | ~330 € a testa | 446 € a testa |
-| 4 persone | ~330 € a testa | 274 € a testa |
-| 6 persone | ~330 € a testa | 236 € a testa |
+| 2 persone | ~330 € a testa | 526 € a testa |
+| 4 persone | ~330 € a testa | 346 € a testa |
+| 6 persone | ~330 € a testa | 270 € a testa |
 
-Guardate la seconda riga. In due il tour privato è già al livello di un posto
-condiviso, e da lì scende soltanto — perché il prezzo condiviso non si muove mai e il
-nostro si divide fra chi è nel veicolo.
+Guardate l'ultima colonna. In due il tour privato costa più di un posto condiviso,
+in quattro è più o meno allo stesso livello, e da cinque costa meno — perché il
+prezzo condiviso non si muove mai e il nostro si divide fra chi è nel veicolo.
 
 Tutta la decisione sta qui. Il resto spiega perché.
 
@@ -4468,7 +4468,7 @@ costo di un 4x4 privato, e il tour condiviso esiste proprio perché non debba fa
 
 ## Cosa compra un tour privato
 
-Da due persone in su il prezzo è paragonabile, da tre è più basso. In cambio:
+In quattro il prezzo è più o meno quello del condiviso, da cinque è più basso. In cambio:
 
 - **Il vostro veicolo e il vostro autista-guida.** Partire alle 7 o alle 9. Fermarsi
   quando qualcuno vuole una foto.
@@ -4479,17 +4479,17 @@ Da due persone in su il prezzo è paragonabile, da tre è più basso. In cambio:
 - **Mangiare quando avete fame**, che conta più di quanto sembri in una giornata da
   300 km.
 
-## Il punto di pareggio è fra due e tre persone
+## Il punto di pareggio è intorno a quattro persone
 
 Gli stessi dati, come decisione:
 
 | Il vostro gruppo | Cosa consiglieremmo onestamente |
 |---|---|
 | Da soli | **Un posto condiviso**, se il budget conta. 330 € contro 889 € è un divario reale, e una persona non può dividere un veicolo. |
-| In coppia | **Entrambi validi.** Il nostro privato di 4 giorni costa 446 € a testa, più o meno quanto un posto condiviso: avete il vostro veicolo alla stessa cifra. |
-| In tre | **Privato.** 326 € a testa, e ormai più economico del condiviso. |
-| In quattro | **Privato.** 274 € a testa. |
-| Cinque o più | **Privato**, senza discussione. 236 € a testa in sei. |
+| In coppia | **Dipende dal budget.** Il nostro privato di 4 giorni costa 526 € a testa, circa 200 € più di un posto condiviso: pagate il vostro veicolo e il vostro ritmo. |
+| In tre | **Privato, se il ritmo conta.** 399 € a testa, ancora un po' sopra un posto condiviso. |
+| In quattro | **Privato.** 346 € a testa, più o meno come il condiviso, con il vostro veicolo. |
+| Cinque o più | **Privato**, senza discussione. 314 € a testa in cinque, 270 € in sei. |
 
 Il motivo è quello che governa tutti i prezzi turistici marocchini: il condiviso si
 vende a posto, il privato a veicolo. Vedi
@@ -4505,9 +4505,9 @@ il supplemento per chi viaggia da solo pesa di più:
   soli, **380 €** a testa in due, **295 €** in quattro, **230 €** in sei
 - Un posto condiviso di 3 giorni sta intorno ai **110–170 €** e lì resta
 
-Lo schema tiene: il numero condiviso non si muove, quello privato scende finché lo
-incrocia. Semplicemente lo incrocia un po' più tardi su due o tre giorni che su
-quattro.
+Lo schema tiene, con una differenza: su tre giorni il privato non raggiunge mai il
+condiviso con un gruppo normale (230 € in sei contro 110–170 € a posto), quindi su
+tre giorni il posto condiviso resta la scelta economica.
 
 ## Cosa è uguale in entrambi i casi
 
@@ -4539,14 +4539,15 @@ ora spendendo meno. All'alba non interessa quanto avete pagato.
 Se **viaggiate da soli** e il budget è stretto, prendete un posto condiviso e
 spendete la differenza in una notte in riad.
 
-Se siete **due o più**, prenotate privato. In due il prezzo è al livello del
-condiviso; oltre, pagate meno per avere il vostro veicolo, e la libertà è la parte
-che la gente ricorda.
+Se siete **quattro o più**, prenotate privato. In quattro il prezzo è al livello del
+condiviso; oltre, pagate meno per avere il vostro veicolo. In **due o tre** il
+privato costa di più a persona: pagate la libertà, che è la parte che la gente
+ricorda.
 
 Tutti i nostri tour sono privati e ognuno pubblica la sua tabella sulla pagina: il
 numero che vedete per il vostro gruppo è quello che pagate.
 
-👉 **[Scopri il Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)** — 446 € a testa in due, 236 € in sei — oppure **[il tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 346 € a testa in quattro.
+👉 **[Scopri il Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)** — 526 € a testa in due, 270 € in sei — oppure **[il tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 346 € a testa in quattro.
 `,
   },
   {
@@ -7857,7 +7858,7 @@ Il tour del cinema inizia prima ancora di lasciare la città. *La mummia* inizi�
 
 ## Come vedere tutto in un solo viaggio
 
-- **Per gli appassionati di cinema, il [tour del deserto di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech)** è quello giusto. Il primo giorno prevede una visita completa di Aït Ben Haddou e il pranzo a Ouarzazate con l'opzione degli Atlas Studios, e il ritorno ripassa da entrambi l'ultimo giorno. Da 446 € a persona in due, 236 € a testa in sei.
+- **Per gli appassionati di cinema, il [tour del deserto di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech)** è quello giusto. Il primo giorno prevede una visita completa di Aït Ben Haddou e il pranzo a Ouarzazate con l'opzione degli Atlas Studios, e il ritorno ripassa da entrambi l'ultimo giorno. Da 526 € a persona in due, 270 € a testa in sei.
 - **Il [tour privato di 3 giorni nel Sahara](/it/tours/tour-deserto-3-giorni-marrakech)** si ferma ad Aït Ben Haddou il primo giorno, passa per Erfoud il secondo e rientra da Ouarzazate. Da 380 € a persona in due, 230 € a testa in sei. Chiedete la deviazione a Gara Medouar al momento della prenotazione.
 - **Con un budget ridotto, il [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso)** si ferma ad Aït Ben Haddou e Ouarzazate per 120 € a persona. Per la visita agli studi e la deviazione a Gara Medouar, scegliete una delle versioni private.
 

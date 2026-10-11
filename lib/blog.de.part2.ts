@@ -3523,7 +3523,7 @@ Was variiert, ist die Aufteilung der Fahrt. Die Strecke führt an Ait Benhaddou,
 den Dades- und Todra-Schluchten und den Draa-Palmenhainen vorbei. Eine hastige Tour
 fotografiert sie durch die Scheibe; eine langsamere hält an. Wenn Sie lieber mehr Dünenzeit
 und weniger Straße hätten, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) für
-446 € eine Nacht und ein sanfteres Tempo hinzu.
+526 € eine Nacht und ein sanfteres Tempo hinzu.
 
 ## Die Fragen, die Sie vor der Buchung stellen sollten
 
@@ -4410,7 +4410,7 @@ und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
     author: MET_TEAM,
     title: "Wüstentour in Marokko privat oder geteilt: Was wirklich günstiger ist (2026)",
     excerpt:
-      "Ein geteilter Minibusplatz kostet gleich viel, egal wie viele buchen. Eine Privattour teilt ein Fahrzeug unter Ihnen auf: 446 € pro Person zu zweit auf unserer 4-Tage-Route, 236 € zu sechst. Hier kreuzen sich die beiden Preise — und hier steht, wann der geteilte Platz trotzdem die bessere Wahl ist.",
+      "Ein geteilter Minibusplatz kostet gleich viel, egal wie viele buchen. Eine Privattour teilt ein Fahrzeug unter Ihnen auf: 526 € pro Person zu zweit auf unserer 4-Tage-Route, 270 € zu sechst. Hier kreuzen sich die beiden Preise — und hier steht, wann der geteilte Platz trotzdem die bessere Wahl ist.",
     heroImage: "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
@@ -4423,7 +4423,7 @@ und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
       "Geteilte Wüstentouren in Marokko kosten 110–170 € pro Platz und werden nie günstiger.",
     faq: [
       { q: "Was ist der echte Unterschied zwischen privater und geteilter Wüstentour?", a: "Eine geteilte Tour setzt Sie mit sechs bis zehn weiteren Reisenden in einen Minibus, mit einem festen Zeitplan, der sich nicht ändern lässt. Eine Privattour ist Ihr eigenes Fahrzeug samt Fahrer-Guide: Abfahrtszeit, Fotostopps und Mittagspausen entscheiden Sie. Die Route ist meist fast identisch — anders ist, wer sonst im Fahrzeug sitzt, wer das Tempo bestimmt und wie sich der Preis verhält, wenn Ihre Gruppe wächst. Alle unsere Touren sind privat, auch die [4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)." },
-      { q: "Lohnt sich der Aufpreis für eine private Wüstentour?", a: "Das hängt fast vollständig von der Gruppengröße ab. Allein ist ein geteilter Platz deutlich günstiger und die ehrliche Antwort lautet meist nein — eine Person kann die Kosten eines 4x4 nicht verteilen. Zu zweit kostet unsere [private 4-Tage-Tour](/de/tours/desert-4day-marrakech) 446 € pro Person, ungefähr so viel wie ein geteilter Platz auf derselben Route. Zu viert sind es 274 € und zu sechst 236 €, ab etwa drei Personen ist privat also zugleich günstiger und besser." },
+      { q: "Lohnt sich der Aufpreis für eine private Wüstentour?", a: "Das hängt fast vollständig von der Gruppengröße ab. Allein ist ein geteilter Platz deutlich günstiger und die ehrliche Antwort lautet meist nein — eine Person kann die Kosten eines 4x4 nicht verteilen. Zu zweit kostet unsere [private 4-Tage-Tour](/de/tours/desert-4day-marrakech) 526 € pro Person, etwa 200 € mehr als ein geteilter Platz auf derselben Route. Zu viert sind es 346 €, nah am geteilten Preis, und zu sechst 270 €, ab etwa fünf Personen ist privat also zugleich günstiger und besser." },
       { q: "Wie viele Personen sind auf einer geteilten Wüstentour in Marokko?", a: "Üblicherweise sechs bis zehn, in einem Minibus mit bis zu sechzehn Plätzen. Geteilte Abfahrten sind meist auf zehn bis zwölf begrenzt, damit niemand vier Tage auf einem Mittelsitz verbringt. Sie kennen die Gruppe vorher nicht, und den Zeitplan bestimmt die Route, nicht die Mitreisenden — das ist der Handel, den Sie für den niedrigeren Preis eingehen." },
       { q: "Kann man auf einer geteilten Wüstentour für Fotos anhalten?", a: "Ja, aber an geplanten Stopps und nicht auf Zuruf. Der Fahrer hält einen Zeitplan ein, der für das ganze Fahrzeug funktionieren muss: Die Aussichtspunkte am Tizi n'Tichka, Aït Ben Haddou und die Todra-Schlucht bekommen alle ihren Stopp, die namenlose Kurve mit dem schönen Licht nicht. Auf einer Privattour kostet dieser Stopp einen Satz an den Fahrer." },
       { q: "Was ist besser für eine Familie mit kleinen Kindern?", a: "Eine Privattour, und nicht in erster Linie wegen des Komforts. Kinder bestimmen ihren eigenen Rhythmus bei Mahlzeiten, Nickerchen und Toilettenpausen, und ein geteilter Minibus kann das nicht auffangen, ohne acht Fremde zu stören. Die [4-Tage-Familientour](/de/tours/family-desert-4day-marrakech) kostet 346 € pro Person zu viert — und eine vierköpfige Familie ist genau die Größe, ab der privat keinen Aufpreis mehr kostet." },
@@ -4441,13 +4441,13 @@ Für eine 4-Tage-Tour von Marrakesch nach Erg Chebbi:
 | Ihre Gruppe | Geteilter Platz, Marktpreis | Unsere private 4-Tage-Tour |
 |---|---|---|
 | 1 Person | ~330 € | 889 € |
-| 2 Personen | ~330 € pro Person | 446 € pro Person |
-| 4 Personen | ~330 € pro Person | 274 € pro Person |
-| 6 Personen | ~330 € pro Person | 236 € pro Person |
+| 2 Personen | ~330 € pro Person | 526 € pro Person |
+| 4 Personen | ~330 € pro Person | 346 € pro Person |
+| 6 Personen | ~330 € pro Person | 270 € pro Person |
 
-Sehen Sie sich die zweite Zeile an. Zu zweit liegt die Privattour bereits auf dem
-Niveau eines geteilten Platzes, und von dort fällt sie nur noch — weil der geteilte
-Preis nie sinkt und unserer sich auf die Insassen verteilt.
+Sehen Sie sich die letzte Spalte an. Zu zweit kostet die Privattour mehr als ein
+geteilter Platz, zu viert etwa gleich viel, und ab fünf ist sie günstiger — weil der
+geteilte Preis nie sinkt und unserer sich auf die Insassen verteilt.
 
 Darin steckt die ganze Entscheidung. Der Rest erklärt, warum.
 
@@ -4480,7 +4480,7 @@ eines privaten 4x4 nicht verteilen, und genau dafür gibt es die geteilte Tour.
 
 ## Was eine Privattour bringt
 
-Ab zwei Personen ist der Preis vergleichbar, ab drei niedriger. Dafür bekommen Sie:
+Zu viert ist der Preis etwa gleich wie geteilt, ab fünf niedriger. Dafür bekommen Sie:
 
 - **Ihr eigenes Fahrzeug und Ihren Fahrer-Guide.** Um 7 oder um 9 Uhr losfahren.
   Anhalten, wenn jemand ein Foto möchte.
@@ -4491,17 +4491,17 @@ Ab zwei Personen ist der Preis vergleichbar, ab drei niedriger. Dafür bekommen 
 - **Essen, wenn Sie Hunger haben**, was auf einer 300-km-Etappe mehr zählt, als es
   klingt.
 
-## Der Break-even liegt zwischen zwei und drei Personen
+## Der Break-even liegt bei etwa vier Personen
 
 Dieselben Zahlen als Entscheidung:
 
 | Ihre Gruppe | Was wir ehrlicherweise empfehlen |
 |---|---|
 | Allein | **Ein geteilter Platz**, wenn das Budget zählt. 330 € gegen 889 € ist ein echter Abstand, und eine Person kann kein Fahrzeug teilen. |
-| Zu zweit | **Beides möglich.** Unsere private 4-Tage-Tour kostet 446 € pro Person, etwa so viel wie ein geteilter Platz: Sie bekommen Ihr eigenes Fahrzeug zum selben Preis. |
-| Zu dritt | **Privat.** 326 € pro Person und damit günstiger als geteilt. |
-| Zu viert | **Privat.** 274 € pro Person. |
-| Fünf und mehr | **Privat**, ohne Frage. 236 € pro Person zu sechst. |
+| Zu zweit | **Eine Frage des Budgets.** Unsere private 4-Tage-Tour kostet 526 € pro Person, etwa 200 € mehr als ein geteilter Platz: Dafür bekommen Sie Ihr eigenes Fahrzeug und Ihren eigenen Rhythmus. |
+| Zu dritt | **Privat, wenn der Rhythmus zählt.** 399 € pro Person, noch etwas über einem geteilten Platz. |
+| Zu viert | **Privat.** 346 € pro Person, etwa gleich viel wie geteilt, mit eigenem Fahrzeug. |
+| Fünf und mehr | **Privat**, ohne Frage. 314 € pro Person zu fünft, 270 € zu sechst. |
 
 Der Grund ist derselbe, der die gesamte marokkanische Tourpreisbildung bestimmt:
 geteilt wird pro Platz verkauft, privat pro Fahrzeug. Siehe
@@ -4517,8 +4517,9 @@ wiegt der Alleinreisenden-Aufschlag also schwerer:
   **380 €** pro Person zu zweit, **295 €** zu viert, **230 €** zu sechst
 - Ein geteilter 3-Tage-Platz liegt bei etwa **110–170 €** und bleibt dort
 
-Das Muster hält: Die geteilte Zahl bewegt sich nicht, die private fällt, bis sie sie
-kreuzt. Auf zwei oder drei Tagen kreuzt sie nur etwas später als auf vier.
+Das Muster hält, mit einem Unterschied: Auf drei Tagen erreicht der private Preis
+den geteilten bei normaler Gruppengröße nie (230 € zu sechst gegen 110–170 € pro
+Platz), auf drei Tagen bleibt der geteilte Platz also die günstige Wahl.
 
 ## Was in beiden Fällen gleich ist
 
@@ -4550,14 +4551,15 @@ selben Stunde für weniger Geld. Dem Sonnenaufgang ist egal, was Sie bezahlt hab
 Wenn Sie **allein reisen** und das Budget knapp ist, nehmen Sie einen geteilten Platz
 und stecken Sie die Differenz in eine Nacht im Riad.
 
-Wenn Sie **zu zweit oder mehr** sind, buchen Sie privat. Zu zweit liegt der Preis auf
-dem Niveau des geteilten; darüber zahlen Sie weniger für Ihr eigenes Fahrzeug, und
-die Freiheit ist das, woran sich Leute erinnern.
+Wenn Sie **zu viert oder mehr** sind, buchen Sie privat. Zu viert liegt der Preis auf
+dem Niveau des geteilten; darüber zahlen Sie weniger für Ihr eigenes Fahrzeug. **Zu
+zweit oder zu dritt** kostet privat mehr pro Person: Sie zahlen für die Freiheit,
+und das ist das, woran sich Leute erinnern.
 
 Alle unsere Touren sind privat, und jede veröffentlicht ihre Staffeltabelle auf der
 Seite: Die Zahl bei Ihrer Gruppengröße ist die Zahl, die Sie zahlen.
 
-👉 **[Zur 4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)** — 446 € pro Person zu zweit, 236 € zu sechst — oder **[zur 4-Tage-Familientour](/de/tours/family-desert-4day-marrakech)** für 346 € pro Person zu viert.
+👉 **[Zur 4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)** — 526 € pro Person zu zweit, 270 € zu sechst — oder **[zur 4-Tage-Familientour](/de/tours/family-desert-4day-marrakech)** für 346 € pro Person zu viert.
 `,
   },
   {
@@ -8013,7 +8015,7 @@ Die Filmtour beginnt schon in der Stadt. *Die Mumie* startete ihre Dreharbeiten 
 
 ## So sehen Sie alles auf einer Reise
 
-- **Für Filmfans ist die [4-tägige Wüstentour](/de/tours/wuestentour-4-tage-marrakesch)** die richtige Wahl. Am ersten Tag gibt es eine ausführliche Besichtigung von Aït Ben Haddou und Mittagessen in Ouarzazate mit der Option Atlas Studios, und die Rückfahrt führt am letzten Tag erneut durch beide Orte. Ab 446 € pro Person zu zweit, 236 € pro Person zu sechst.
+- **Für Filmfans ist die [4-tägige Wüstentour](/de/tours/wuestentour-4-tage-marrakesch)** die richtige Wahl. Am ersten Tag gibt es eine ausführliche Besichtigung von Aït Ben Haddou und Mittagessen in Ouarzazate mit der Option Atlas Studios, und die Rückfahrt führt am letzten Tag erneut durch beide Orte. Ab 526 € pro Person zu zweit, 270 € pro Person zu sechst.
 - **Die [private 3-tägige Sahara-Tour](/de/tours/wuestentour-3-tage-marrakesch)** hält am ersten Tag in Aït Ben Haddou, fährt am zweiten durch Erfoud und kehrt über Ouarzazate zurück. Ab 380 € pro Person zu zweit, 230 € pro Person zu sechst. Fragen Sie bei der Buchung nach dem Abstecher zur Gara Medouar.
 - **Mit kleinem Budget hält die [geteilte 3-tägige Merzouga-Tour](/de/tours/merzouga-wueste-3-tage-geteilt)** für 120 € pro Person in Aït Ben Haddou und Ouarzazate. Für die Studioführung und den Abstecher zur Gara Medouar wählen Sie eine der privaten Varianten.
 

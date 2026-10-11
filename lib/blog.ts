@@ -5826,7 +5826,7 @@ three are genuinely driving days — that is not a flaw in the itinerary, it is 
 What varies is how the driving is broken up. The route passes Ait Benhaddou, Ouarzazate,
 the Dades and Todra gorges and the Draa palm groves. A rushed trip photographs them
 through a window; a slower one stops. If you would rather have more dune time and less
-road, the [4-day route](/en/tours/desert-4day-marrakech) at €446 adds a night and a
+road, the [4-day route](/en/tours/desert-4day-marrakech) at €526 adds a night and a
 gentler pace.
 
 ## The questions worth asking before you book
@@ -6707,7 +6707,7 @@ size is the number you pay.
     author: MET_TEAM,
     title: "Private vs Shared Desert Tour in Morocco: Which Is Actually Cheaper (2026)",
     excerpt:
-      "A shared minibus seat costs the same whoever books it. A private tour splits one vehicle between you — €446 each for two on our 4-day route, €236 at six. Here is where the two prices cross, and when a shared seat is still the better call.",
+      "A shared minibus seat costs the same whoever books it. A private tour splits one vehicle between you — €526 each for two on our 4-day route, €270 at six. Here is where the two prices cross, and when a shared seat is still the better call.",
     heroImage: "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
     category: "desert",
     region: "sahara-south",
@@ -6717,10 +6717,10 @@ size is the number you pay.
     tags: ["private vs shared desert tour", "Morocco shared desert tour", "private Sahara tour Morocco", "Merzouga tour comparison", "desert tour minibus", "Morocco desert tour worth it"],
     seoTitle: "Private vs Shared Morocco Desert Tour",
     seoDescription:
-      "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €446 each for two and €236 at six.",
+      "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €526 each for two and €270 at six.",
     faq: [
       { q: "What is the real difference between a private and a shared desert tour?", a: "A shared tour puts you in a minibus with six to ten other travellers on a fixed schedule that cannot change. A private tour is your own vehicle and driver-guide, so departure time, photo stops and lunch spots are yours to decide. The route is usually near-identical — what changes is who else is in the vehicle, who sets the pace, and how the price behaves as your group grows. Every tour we run is private, including the [4-day Grand Tour](/en/tours/desert-4day-marrakech)." },
-      { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €446 each, which is roughly what a shared seat on the same route costs. At four it is €274 each and at six €236, so from about three people up the private tour is both cheaper and better." },
+      { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €526 each, about €200 more than a shared seat on the same route. At four it is €346 each, close to the shared price, and at six €270, so from about five people up the private tour is both cheaper and better." },
       { q: "How many people are on a shared Morocco desert tour?", a: "Typically six to ten, in a minibus that seats up to sixteen. Our shared departures cap at ten so nobody is in a middle seat for four days. You will not know the group in advance, and the schedule is set by the itinerary rather than by the passengers — that is the trade you are making for the lower price." },
       { q: "Can you stop for photos on a shared desert tour?", a: "Yes, but at scheduled stops rather than on request. The driver holds a timetable that has to work for everyone in the vehicle, so the Tizi n’Tichka viewpoints, Ait Ben Haddou and the Todra Gorge all get their stop, while the unmarked bend with the good light does not. On a private tour that stop costs you a sentence to the driver." },
       { q: "Which is better for a family with young children?", a: "A private tour, and not primarily for comfort. Children set their own schedule for meals, naps and toilet stops, and a shared minibus cannot absorb that without inconveniencing eight strangers. The [4-day family desert tour](/en/tours/family-desert-4day-marrakech) is €346 per person for four — and a family of four is exactly the size at which private stops costing a premium." },
@@ -6737,13 +6737,13 @@ For a 4-day Marrakech to Erg Chebbi trip:
 | Your group | Shared seat, typical market | Our private 4-day |
 |---|---|---|
 | 1 person | ~€330 | €889 |
-| 2 people | ~€330 each | €446 each |
-| 4 people | ~€330 each | €274 each |
-| 6 people | ~€330 each | €236 each |
+| 2 people | ~€330 each | €526 each |
+| 4 people | ~€330 each | €346 each |
+| 6 people | ~€330 each | €270 each |
 
-Read the second row. At two people the private tour already matches a shared
-seat, and from there it only falls — because the shared price never moves and
-ours divides across the vehicle.
+Read down the last column. At two people the private tour costs more than a
+shared seat, at four it is about level, and from five it is cheaper — because the
+shared price never moves and ours divides across the vehicle.
 
 That is the whole decision. Everything below is why.
 
@@ -6777,7 +6777,7 @@ have to.
 
 ## What a private tour buys
 
-From two people up the price is comparable, and from three it is lower. For that:
+At four people the price is about level with sharing, and from five it is lower. For that:
 
 - **Your own vehicle and driver-guide.** Leave at 7am or 9am. Stop when someone
   wants a photograph.
@@ -6787,17 +6787,17 @@ From two people up the price is comparable, and from three it is lower. For that
   choose.
 - **Meals when you are hungry**, which matters more than it sounds on a 300 km day.
 
-## The break-even is between two and three people
+## The break-even is at about four people
 
 Here is the same data as a decision:
 
 | Your group | What we would actually recommend |
 |---|---|
 | Solo | **A shared seat**, if budget matters. €330 against €889 is a real gap, and one person cannot divide a vehicle. |
-| Couple | **Either.** Our private 4-day is €446 each — about what a shared seat costs. You are getting your own vehicle for the same money. |
-| Three | **Private.** €326 each, and now cheaper than sharing. |
-| Four | **Private.** €274 each. |
-| Five or more | **Private**, comfortably. €236 each at six. |
+| Couple | **Depends on budget.** Our private 4-day is €526 each, about €200 more than a shared seat. That buys your own vehicle and your own schedule. |
+| Three | **Private, if the schedule matters.** €399 each, still a little above a shared seat. |
+| Four | **Private.** €346 each, about the same as sharing, with your own vehicle. |
+| Five or more | **Private**, comfortably. €314 each at five, €270 at six. |
 
 The reason is the one that governs all Moroccan tour pricing: shared is sold per
 seat, private per vehicle. See
@@ -6810,12 +6810,12 @@ The fixed vehicle cost is spread over fewer days, so on a short trip the solo
 premium bites harder:
 
 - [3-day Sahara tour](/en/tours/sahara-3day-marrakech): **€690** solo, **€380**
-  each for two, **€320** each for four, **€238** at six
+  each for two, **€295** each for four, **€230** at six
 - A shared 3-day seat sits around **€110–170** and stays there
 
-The pattern holds: the shared number does not move, the private one falls until
-it crosses. It just crosses a little later on a two- or three-day trip than on a
-four-day one.
+The pattern holds, with one difference: on a three-day trip the private price
+never reaches the shared one at a normal group size — €230 at six against a
+€110–170 seat — so over three days a shared seat stays the budget choice.
 
 ## Things that are the same either way
 
@@ -6845,14 +6845,15 @@ same dunes at the same hour for less. The sunrise does not know what you paid.
 If you are **travelling alone** and the budget is tight, take a shared seat and
 spend the difference on a night in a riad.
 
-If you are **two or more**, book private. At two the price is level with sharing;
-past that you are paying less for your own vehicle, and the flexibility is the
-part people remember.
+If you are **four or more**, book private. At four the price is level with sharing;
+past that you are paying less for your own vehicle. At **two or three**, private
+costs more per person, and what you pay for is the freedom, which is the part
+people remember.
 
 Every tour we run is private, and every one publishes its tier table on the page,
 so the number you see at your group size is the number you pay.
 
-👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €446 each for two, €236 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €346 each for four.
+👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €526 each for two, €270 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €346 each for four.
 `,
   },
   {
@@ -10846,7 +10847,7 @@ The film tour starts before you leave the city. *The Mummy* began shooting in Ma
 
 ## How to see them on one trip
 
-- **For film lovers, the [4-day desert tour](/en/tours/desert-4day-marrakech)** is the one to pick. Day one stops for a full visit of Aït Ben Haddou, then lunch in Ouarzazate with the option of Atlas Studios, and the route comes back through both on the last day. From €446 per person for two, €236 each for six.
+- **For film lovers, the [4-day desert tour](/en/tours/desert-4day-marrakech)** is the one to pick. Day one stops for a full visit of Aït Ben Haddou, then lunch in Ouarzazate with the option of Atlas Studios, and the route comes back through both on the last day. From €526 per person for two, €270 each for six.
 - **The [private 3-day Sahara tour](/en/tours/sahara-3day-marrakech)** stops at Aït Ben Haddou on day one, passes Erfoud on day two and returns through Ouarzazate. From €380 per person for two, €230 each for six. Ask for the Gara Medouar detour when you book.
 - **On a budget, the [shared 3-day Merzouga tour](/en/tours/shared-merzouga-3day-marrakech)** stops at Aït Ben Haddou and Ouarzazate for €120 per person. For the studio tour and the Gara Medouar detour, choose one of the private versions.
 

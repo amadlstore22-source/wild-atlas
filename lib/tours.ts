@@ -2017,6 +2017,11 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 98,
     rating: 4.9,
+    // Owner, 2026-10-11: same per-person prices as family-desert-4day-marrakech
+    // from two people up (it was cheaper than the 3-day sahara-3day-marrakech
+    // at four and five people, because the old tiers came from a fitted curve,
+    // not the owner's price list). Solo stays 889. The notes below describe the
+    // old ladder and no longer apply.
     // Ladder scaled from the confirmed price, read as the two-person rate.
     // Curve measured from the tours with operator-confirmed ladders:
     // vehicle-based. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
@@ -2028,11 +2033,13 @@ export const TOURS: Tour[] = [
     // 236 (6+).
     groupPricing: [
       { minPeople: 1, price: 889 },
-      { minPeople: 2, price: 446 },
-      { minPeople: 3, price: 326 },
-      { minPeople: 4, price: 274 },
-      { minPeople: 5, price: 245 },
-      { minPeople: 6, price: 236 },
+      { minPeople: 2, price: 526 },
+      { minPeople: 3, price: 399 },
+      { minPeople: 4, price: 346 },
+      { minPeople: 5, price: 314 },
+      { minPeople: 6, price: 270 },
+      { minPeople: 7, price: 252 },
+      { minPeople: 10, price: 245 },
     ],
     price: 889,
     depositAmount: 196,

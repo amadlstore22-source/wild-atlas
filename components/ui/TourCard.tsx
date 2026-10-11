@@ -63,6 +63,14 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
   const { format } = useCurrency();
   const fromLabel = dict?.common.from ?? "From";
   const viewTourLabel = dict?.featuredTours.viewTour ?? "View Tour";
+  const href = `/${lang}/tours/${tour.localizedSlug ?? tour.slug}`;
+  // The whole card opens the tour. Before, only "View Tour" was a link, and
+  // Clarity logged dead clicks from visitors tapping the photo, title or
+  // highlights. The overlay is hidden from assistive tech and the tab order;
+  // "View Tour" stays the one focusable, labelled link.
+  const cardLink = (z: string) => (
+    <Link href={href} aria-hidden="true" tabIndex={-1} className={`absolute inset-0 ${z}`} />
+  );
 
   // Lead with the cheapest per-person rate, not tour.price — that field is the
   // SOLO rate, the dearest figure a tour has, and quoting it on a card scares
@@ -95,6 +103,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.7, ease, delay }}
       >
+        {cardLink("z-10")}
         <div className="absolute inset-0 overflow-hidden">
           <Image
             src={tour.heroImage}
@@ -107,16 +116,16 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/95 via-indigo-deep/35 to-transparent" />
 
-        <div className="absolute top-5 right-5 z-20">
+        <div className="absolute top-5 right-5 z-20 pointer-events-none">
           <Badge className={`capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>{tour.difficulty}</Badge>
         </div>
-        <div className="absolute top-5 left-5 z-20">
+        <div className="absolute top-5 left-5 z-20 pointer-events-none">
           <Badge className={`border-0 shadow-sm ${tour.tourType === "private" ? "bg-brass text-charcoal" : "bg-white/85 text-charcoal"}`}>
             {tour.tourType === "private" ? (dict?.tours.private ?? "Private") : (dict?.tours.shared ?? "Shared")}
           </Badge>
         </div>
 
-        <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7 z-20">
+        <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7 z-20 pointer-events-none">
           {/* Business-wide TripAdvisor rating, labelled as such. We have no
               per-tour review corpus, so a per-tour score would be invented. */}
           <div className="flex items-center gap-2 mb-2.5">
@@ -136,7 +145,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
                 <span className="text-sm font-body font-normal text-cream/70"> {perPersonLabel}</span>
               </p>
             </div>
-            <Link href={`/${lang}/tours/${tour.localizedSlug ?? tour.slug}`} className="btn-brass !px-5 !py-2.5 !text-sm shrink-0">
+            <Link href={href} className="btn-brass !px-5 !py-2.5 !text-sm shrink-0 pointer-events-auto">
               {viewTourLabel}
               <ArrowRight className="w-4 h-4" weight="bold" />
             </Link>
@@ -154,6 +163,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
       viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.6, ease, delay }}
     >
+      {cardLink("z-30")}
       <div className="relative h-56 overflow-hidden shrink-0">
         <Image
           src={tour.heroImage}
@@ -218,8 +228,8 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             </p>
           </div>
           <Link
-            href={`/${lang}/tours/${tour.localizedSlug ?? tour.slug}`}
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep active:scale-[0.98] transition-all"
+            href={href}
+            className="relative z-40 inline-flex items-center gap-1.5 px-4 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep active:scale-[0.98] transition-all"
           >
             {viewTourLabel}
           </Link>

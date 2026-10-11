@@ -296,8 +296,13 @@ export default async function TourDetailPage({ params }: TourParams) {
             <span className="text-white capitalize">{tour.category}</span>
           </nav>
           <div className="flex flex-wrap gap-3 mb-4">
-            <Badge className="rounded-[3px] bg-white/20 backdrop-blur-sm text-white border-0 text-sm font-medium capitalize hover:bg-white/25">
-              {tour.category}
+            {/* Clarity logged dead clicks on these labels: visitors tap the
+                category expecting the matching tour list, so it is a link. */}
+            <Badge
+              render={<Link href={`/${lang}/categories/${tour.category}`} />}
+              className="rounded-[3px] bg-white/20 backdrop-blur-sm text-white border-0 text-sm font-medium capitalize hover:bg-white/30"
+            >
+              {(dict.categories as unknown as Record<string, string>)[tour.category === "day-tours" ? "dayTours" : tour.category] ?? tour.category}
             </Badge>
             <Badge className={`rounded-[3px] capitalize border-0 shadow-sm ${DIFFICULTY_COLORS[tour.difficulty]}`}>
               {tour.difficulty}

@@ -41,7 +41,9 @@
     "support": "Assistenza 24/7",
     "flexible": "Cancellazione Gratuita",
     "rated": "Valutazione {rating} / 5",
-    "maxGroupSize": "Max 10 persone"
+    "maxGroupSize": "Max 10 persone",
+    "years": "anni",
+    "days": "giorni"
   },
   "categories": {
     "title": "Esplora per Categoria",

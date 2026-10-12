@@ -41,7 +41,9 @@
     "support": "Assistance 24/7",
     "flexible": "Annulation gratuite",
     "rated": "Noté {rating} / 5",
-    "maxGroupSize": "10 personnes max"
+    "maxGroupSize": "10 personnes max",
+    "years": "ans",
+    "days": "jours"
   },
   "categories": {
     "title": "Explorer par catégorie",

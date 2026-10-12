@@ -41,7 +41,9 @@
     "support": "Soporte 24/7",
     "flexible": "Cancelación Gratuita",
     "rated": "Valorado con {rating} / 5",
-    "maxGroupSize": "Máx. 10"
+    "maxGroupSize": "Máx. 10",
+    "years": "años",
+    "days": "días"
   },
   "categories": {
     "title": "Explora por Categoría",

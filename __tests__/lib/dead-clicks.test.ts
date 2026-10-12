@@ -31,6 +31,21 @@ describe("no dead clicks on tour pages and cards", () => {
     expect(src, "Linked items must open in a new tab with rel=noopener").toMatch(/target="_blank"\s+rel="noopener noreferrer"/);
   });
 
+  /**
+   * The homepage has its own trust strip (components/sections/TrustBar.tsx),
+   * separate from the one under tour heroes, and the first fix missed it. A
+   * Clarity recording on 2026-10-12 showed a visitor from Instagram on the
+   * Spanish homepage tapping "Valorado con 5.0 / 5" twice (two dead clicks)
+   * before leaving. The same strip also printed "14 days" and "30+ yrs" in
+   * English on all six locales.
+   */
+  it("the homepage trust strip's rating links to the listing, in the visitor's language", () => {
+    const src = read("components/sections/TrustBar.tsx");
+    expect(src, "The rating signal must carry href: TRIPADVISOR.url").toMatch(/href:\s*TRIPADVISOR\.url/);
+    expect(src, "Linked signals must open in a new tab with rel=noopener").toMatch(/target="_blank"\s+rel="noopener noreferrer"/);
+    expect(src, 'Units must come from the dictionary, not hard-coded "days"/"yrs"').not.toMatch(/`[^`]*\}\s*(days|yrs)`/);
+  });
+
   it("every TourCard variant is clickable as a whole, not just its button", () => {
     const src = read("components/ui/TourCard.tsx");
     const variants = (src.match(/<m\.article/g) ?? []).length;

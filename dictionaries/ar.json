@@ -41,7 +41,9 @@
     "support": "دعم على مدار الساعة",
     "flexible": "إلغاء مجاني",
     "rated": "تقييم {rating} / 5",
-    "maxGroupSize": "بحد أقصى 10 أشخاص"
+    "maxGroupSize": "بحد أقصى 10 أشخاص",
+    "years": "عامًا",
+    "days": "يومًا"
   },
   "categories": {
     "title": "استكشف حسب الفئة",

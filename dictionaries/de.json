@@ -41,7 +41,9 @@
     "support": "24/7 Support",
     "flexible": "Kostenlose Stornierung",
     "rated": "Bewertet mit {rating} / 5",
-    "maxGroupSize": "Max. 10 Personen"
+    "maxGroupSize": "Max. 10 Personen",
+    "years": "Jahre",
+    "days": "Tage"
   },
   "categories": {
     "title": "Nach Kategorie entdecken",

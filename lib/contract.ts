@@ -158,7 +158,7 @@ const T = {
     footer:
       "Prices in euro. This document records the terms agreed by email and supersedes any previous agreement covering the same trip. The client may confirm acceptance by email or by signature.",
     terms: (dep: string, bal: string, lang: string, days: number) => [
-      `<strong>Confirmation.</strong> The booking is confirmed once the deposit of ${dep} is received. The balance of ${bal} is paid on arrival, in cash or by card.`,
+      `<strong>Confirmation.</strong> The booking is confirmed once the deposit of ${dep} is received. The balance of ${bal} is paid on arrival, in cash (euros or dirhams) or by bank transfer.`,
       `<strong>Free cancellation up to 14 days before departure.</strong> Cancellations within 14 days are subject to a 50% fee. No-shows are charged in full. <em>These are the same terms published on marrakechecotours.com.</em>`,
       `<strong>Language.</strong> The driver-guide speaks ${lang} and accompanies the group for all ${days} full days. This is not a different person on each leg.`,
       `<strong>Accommodation.</strong> The properties named above are guaranteed. Should one become unavailable through force majeure, it will be replaced by one of equal or higher standard, and the client informed beforehand.`,

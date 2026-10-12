@@ -453,7 +453,7 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
           )
         : ""
     }
-    ${row(`Balance on arrival <span class="pill warn">Cash or card</span>`, eur(t.balance), "balance")}
+    ${row(`Balance on arrival <span class="pill warn">Cash or bank transfer</span>`, eur(t.balance), "balance")}
   </div>
 
   ${

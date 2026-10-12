@@ -56,7 +56,16 @@ export function blogPostsFor(locale: Locale): BlogPost[] {
   const localized = BLOG_POSTS_BY_LOCALE[locale] ?? BLOG_POSTS_EN;
   if (locale === "en") return localized;
   const bySlug = new Map(localized.map((p) => [p.slug, p]));
-  return BLOG_POSTS_EN.map((enPost) => bySlug.get(enPost.slug) ?? enPost);
+  return BLOG_POSTS_EN.map((enPost) => {
+    const post = bySlug.get(enPost.slug);
+    if (!post) return enPost;
+    // Which tours a post sells is not a translation question. 68 translated
+    // posts (2026-10-12) had been written without relatedTours, so they showed
+    // no trip box and no tour cards at all, the Arabic Tibherine post (30
+    // clicks in 90 days) and every locale's M'Goun / Grand Traverse cost post
+    // among them. A translation inherits the English list unless it sets its own.
+    return post.relatedTours?.length ? post : { ...post, relatedTours: enPost.relatedTours };
+  });
 }
 
 /**

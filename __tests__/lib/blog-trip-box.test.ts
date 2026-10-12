@@ -42,6 +42,22 @@ describe("blog trip box", () => {
         `in that locale. Fix the slug or reorder relatedTours:\n  ` + missing.join("\n  "),
     ).toEqual([]);
   });
+
+  /**
+   * Translated posts were written without relatedTours and the locale table
+   * did not fall back to the English list, so 68 of them (the Arabic
+   * Tibherine post, every locale's trek cost posts) sold no tour at all.
+   */
+  it("every translation sells a tour wherever the English post does", () => {
+    const en = new Map(blogPostsFor("en").map((p) => [p.slug, p]));
+    const bare: string[] = [];
+    for (const lang of LOCALES) {
+      for (const post of blogPostsFor(lang)) {
+        if (en.get(post.slug)?.relatedTours?.length && !post.relatedTours?.length) bare.push(`${lang}/${post.slug}`);
+      }
+    }
+    expect(bare, `No trip box or tour cards on:\n  ${bare.join("\n  ")}`).toEqual([]);
+  });
 });
 
 /**

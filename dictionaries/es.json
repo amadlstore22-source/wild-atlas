@@ -260,6 +260,8 @@
     "briefHeading": "Antes de reservar",
     "mapKeyTerrain3d": "Relieve 3D",
     "routeMapKm": "Unos {km} km por carretera",
+    "routeMapKmFoot": "Unos {km} km a pie",
+    "routeMapTrekCredit": "Senderos © colaboradores de OpenStreetMap. Relieve: Mapterhorn.",
     "routeMapCredit": "Carreteras © colaboradores de OpenStreetMap. Costa: Natural Earth.",
     "routeMapAria": "Mapa de la ruta: {tour}",
     "routeMapFoot": "A pie, de etapa en etapa",

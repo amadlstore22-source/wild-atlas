@@ -19,7 +19,11 @@
 // ~4 km into the dunes, is a few pixels at this scale). `km` is road distance.
 //
 // Sources: OSRM public demo server (OpenStreetMap, ODbL; credited under the
-// map) and Natural Earth 1:50m (public domain). Raw downloads and the OSRM
+// map) and Natural Earth 1:10m, Morocco's point-of-view edition (public
+// domain). The map opens on the whole of Morocco before zooming to the route
+// (RouteDraw), so the outline must be the country as Morocco draws it: the
+// southern provinces included, with no line across them. The default Natural
+// Earth file splits them off as a separate "Western Sahara". Raw downloads and the OSRM
 // cache live in C:/Users/cash/wild-atlas-research/geo/, outside the repo.
 //
 //   node scripts/build-route-maps.mjs        (re-run when a tour's stops change)
@@ -31,10 +35,11 @@ const { TOURS } = await jiti.import("../lib/tours.ts");
 const { frameFor } = await jiti.import("../lib/route-map-frame.ts");
 
 const RAW = "C:/Users/cash/wild-atlas-research/geo";
-const NE_URL = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson";
+const NE_URL = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_mar.geojson";
 const OSRM = "https://router.project-osrm.org/route/v1/driving/";
-const BOX = { lon0: -11.5, lon1: 0.5, lat0: 28.2, lat1: 36.6 };
-const COUNTRIES = ["Morocco", "Algeria", "Spain", "Portugal"];
+// Wide enough for the opening whole-Morocco view (OVERVIEW in route-map-frame.ts).
+const BOX = { lon0: -24, lon1: 5.5, lat0: 18.5, lat1: 38.5 };
+const COUNTRIES = ["Morocco", "Algeria", "Mauritania", "Spain", "Portugal"];
 const CITY = { marrakech: [-7.9811, 31.6295], agadir: [-9.5981, 30.4278] };
 mkdirSync(RAW, { recursive: true });
 
@@ -81,7 +86,7 @@ function clipRing(ring) {
   }
   return out;
 }
-const nePath = `${RAW}/ne_50m_admin_0_countries.geojson`;
+const nePath = `${RAW}/ne_10m_admin_0_countries_mar.geojson`;
 if (!existsSync(nePath)) writeFileSync(nePath, await (await fetch(NE_URL)).text());
 const world = JSON.parse(readFileSync(nePath, "utf8"));
 const land = {};
@@ -119,8 +124,12 @@ async function osrm(pts) {
 
 // --- tours -----------------------------------------------------------------------
 const out = {};
+// Trekking tours that are mostly road trips get this map rather than a trek
+// map (scripts/build-trek-maps.mjs): their walk is the Toubkal ascent, a day or
+// two inside a week of driving, drawn on foot like the camel trek.
+const ROAD_SCALE_TREKS = ["toubkal-summit-sahara-5day", "morocco-highlights-toubkal-sahara-8day"];
 for (const t of TOURS) {
-  if (t.category === "trekking") continue;
+  if (t.category === "trekking" && !ROAD_SCALE_TREKS.includes(t.slug)) continue;
   const meeting = [t.meetingPoint.lng, t.meetingPoint.lat];
   const stopList = t.itinerary.flatMap((d) => [...(d.extraStops ?? []), ...(d.stop ? [d.stop] : [])]);
   const stops = stopList.map((s) => [s.lng, s.lat]);
@@ -138,7 +147,7 @@ for (const t of TOURS) {
   if (t.category === "day-tours" && wps.length > 1 && kmBetween(wps[wps.length - 1], wps[0]) > 5) wps.push(wps[0]);
   wps = wps.filter((p, i, a) => i === 0 || kmBetween(p, a[i - 1]) > 1);
 
-  const onFoot = t.slug.includes("camel-trek");
+  const onFoot = t.slug.includes("camel-trek") || ROAD_SCALE_TREKS.includes(t.slug);
   const legs = [], offRoad = [];
   let km = 0, run = [];
   const flush = async () => {

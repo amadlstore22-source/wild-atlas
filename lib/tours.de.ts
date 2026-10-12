@@ -587,10 +587,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       { day: 1, title: "Marrakesch → Aït M'hamed", description: "Fahrt zum Ausgangspunkt. Treffen mit dem Maultierteam und der Crew. Erste Nacht bei einer Berberfamilie.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "Dorf-Gîte", driving: "5 h" },
       { day: 2, title: "Aït M'hamed → Agouti (2.600 m)", description: "Wanderung durch das 'glückliche Tal' Aït Bouguemez. Camp in Agouti.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 }, meals: "B,L,D", stay: "Biwak", walking: "5 h", ascent: "+800 m" },
-      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Erster Hochpass. Atemberaubende Panoramen. Wildcamp in Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "Biwak", walking: "6–7 h", ascent: "+1,050 m" },
-      { day: 4, title: "Mgoun-Gipfel (4.068 m)", description: "Start vor Sonnenaufgang. Besteigung des Jbel Mgoun. Abstieg zum Camp in der Tessaoute-Schlucht.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "Biwak", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
+      { day: 3, title: "Agouti → Tizi n'Ait Imi (3.650 m) → Tarkeddit", description: "Erster Hochpass. Atemberaubende Panoramen. Wildcamp in Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 }, meals: "B,L,D", stay: "Biwak", walking: "6–7 h", ascent: "+1,050 m" },
+      { day: 4, title: "Mgoun-Gipfel (4.068 m)", description: "Start vor Sonnenaufgang. Besteigung des Jbel Mgoun. Abstieg zum Camp in der Tessaoute-Schlucht.", stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 }, meals: "B,L,D", stay: "Biwak", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
       { day: 5, title: "Durchquerung der Tessaoute-Schlucht", description: "Wanderung durch die dramatische rotwandige Schlucht. Wildes Baden im Fluss.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "Biwak", walking: "5–6 h" },
-      { day: 6, title: "Ausgang der Schlucht → Bou Tharar", description: "Ausgang aus der Schlucht. Übernachtung im Dorf Bou Tharar bei einer lokalen Familie.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 }, meals: "B,L,D", stay: "Gästehaus", walking: "5 h" },
+      { day: 6, title: "Ausgang der Schlucht → Bou Tharar", description: "Ausgang aus der Schlucht. Übernachtung im Dorf Bou Tharar bei einer lokalen Familie.", stop: { name: "Bou Tharar", lat: 31.38948, lng: -6.12217 }, meals: "B,L,D", stay: "Gästehaus", walking: "5 h" },
       { day: 7, title: "Bou Tharar → Marrakesch", description: "Transfer zurück nach Marrakesch durch das Rosental. Ende der Tour bis 16:00 Uhr.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "4 h" },
     ],
     faq: [
@@ -2380,7 +2380,7 @@ export const TOURS: Tour[] = [
         walking: "4 h",
         driving: "1.5 h",
         ascent: "+560 m",
-        stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tachedirt", lat: 31.15589, lng: -7.84377 },
         title: "Marrakesch → Imlil → Tachedirt (2.300 m)",
         description:
           "Transfer von Marrakesch nach Imlil (1,5 Std.). Wanderung durch das Imenane-Tal vorbei an Terrassenfeldern und Berberdörfern nach Tachedirt. Etwa 5 Stunden Gehzeit.",
@@ -2391,7 +2391,7 @@ export const TOURS: Tour[] = [
         stay: "Biwak",
         walking: "6–7 h",
         ascent: "+1,255 m / −1,305 m",
-        stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
+        stop: { name: "Azib Likemt", lat: 31.11187, lng: -7.8126 },
         title: "Tachedirt → Tizi Likemt (3.555 m) → Azib Likemt (2.250 m)",
         description:
           "Aufstieg über den Tizi-Likemt-Pass mit weiten Blicken über den Hohen Atlas, dann Abstieg in die hochgelegenen Sommerweiden von Azib Likemt. 6–7 Stunden.",
@@ -2402,7 +2402,7 @@ export const TOURS: Tour[] = [
         stay: "Dorf-Gîte",
         walking: "6 h",
         distance: "≈14 km",
-        stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
+        stop: { name: "Amsouzart", lat: 31.01563, lng: -7.83254 },
         title: "Azib Likemt → Tizi n'Ourai → Amsouzart (1.740 m)",
         description:
           "Entlang des Ourai-Flusses, Überquerung eines malerischen Passes und Abstieg zum gastfreundlichen Dorf Amsouzart zur Übernachtung in einer Familienpension. Etwa 6 Stunden.",
@@ -2413,7 +2413,7 @@ export const TOURS: Tour[] = [
         stay: "Biwak",
         walking: "5 h",
         ascent: "+555 m",
-        stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
+        stop: { name: "Lake Ifni", lat: 31.03143, lng: -7.88349 },
         title: "Amsouzart → Ifni-See (2.295 m)",
         description:
           "Ein allmählicher Anstieg führt zum türkisfarbenen Ifni-See, dramatisch umgeben von steilen Gipfeln. Freier Nachmittag am Wasser. 4–5 Stunden.",
@@ -2700,7 +2700,7 @@ export const TOURS: Tour[] = [
         walking: "7–8 h",
         distance: "≈9 km",
         ascent: "+880 m",
-        stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
+        stop: { name: "Ouanoukrim", lat: 31.04154, lng: -7.9458 },
         title: "Ouanoukrim — Timesguida (4.089 m) & Ras (4.083 m)",
         description:
           "Aufstieg zum Gebiet des Tizi n'Ouanoums und Besteigung der Zwillingsgipfel von Ouanoukrim, Timesguida und Ras, beide über 4.000 m. Rückkehr zum Toubkal-Refugium zur Übernachtung. Ein fordernder ganzer Tag.",
@@ -2932,7 +2932,7 @@ export const TOURS: Tour[] = [
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+700 m",
-        stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
+        stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "Marrakesch → Imlil → Tizi Mzik → Tizi Oussem (1.850 m)",
         description:
           "Morgentransfer von Marrakesch nach Imlil (1,5 Std.). Aufstieg zum Tizi-Mzik-Pass (2.684 m) zum Mittagessen mit Blick zurück über das Imlil-Tal und die Toubkal-Gipfel, dann Abstieg durch Wacholderwald ins Azzaden-Tal zum Dorf Tizi Oussem. Etwa 6 Stunden Gehzeit. Abendessen und Übernachtung im Berber-Gästehaus.",
@@ -2943,7 +2943,7 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         distance: "≈12 km",
-        stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
+        stop: { name: "Aguersioual", lat: 31.16052, lng: -7.92475 },
         title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakesch",
         description:
           "Abstieg nach Id Issa, dann Aufstieg zum Tizi-Oudid-Pass und Traverse durch eine Reihe von Berber-Weilern und Terrassenland nach Aguersioual. Etwa 5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
@@ -3028,7 +3028,7 @@ export const TOURS: Tour[] = [
         stay: "Dorf-Gîte",
         walking: "6 h",
         ascent: "+800 m",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Azzaden → Hochweiden → Tacheddirt (2.300 m)",
         description:
           "Ein voller Traversentag, Aufstieg über einen Weidepass und Abstieg in die oberen Täler von Imlil und Tacheddirt — das höchstgelegene ganzjährig bewohnte Dorf der Region. Etwa 6 Stunden Gehzeit. Abendessen und Übernachtung im Dorf-Gästehaus.",
@@ -3038,7 +3038,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "5 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika-Tal → Marrakesch",
         description:
           "Abstieg durchs Ourika-Einzugsgebiet über Walnusshaine und Terrassenfelder zur Straße. Etwa 4–5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
@@ -3132,7 +3132,7 @@ export const TOURS: Tour[] = [
         meals: "B,L,D",
         stay: "Dorf-Gîte",
         walking: "4–5 h",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Übergang zur Ourika-Seite",
         description:
           "Eine leichte Überquerung über einen niedrigen Weidepass ins grünere Ourika-Tal, mit Maultieren zur Hand für alle, die ermüden. Etwa 3–4 Stunden. Übernachtung im Dorf-Gästehaus.",
@@ -3142,7 +3142,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "3 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Ourika-Tal → Marrakesch",
         description:
           "Ein kurzer finaler Abstieg durchs Ourika-Tal zur Straße, mit einer letzten Rast am Fluss. Etwa 2 Stunden. Rücktransfer nach Marrakesch, Ankunft am frühen Nachmittag.",
@@ -3336,7 +3336,7 @@ export const TOURS: Tour[] = [
         stay: "Biwak",
         walking: "6 h",
         ascent: "+1,100 m",
-        stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 },
+        stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 },
         title: "Aït Bougmez → Tarkeddit-Plateau (2.900 m)",
         description:
           "Stetiger Aufstieg aus dem Tal auf die Zugänge des M'Goun-Massivs, Zeltlager auf dem Tarkeddit-Plateau unter dem Gipfelgrat. Etwa 6 Stunden Gehzeit.",
@@ -3347,7 +3347,7 @@ export const TOURS: Tour[] = [
         stay: "Biwak",
         walking: "8–9 h",
         ascent: "+1,168 m / −1,150 m",
-        stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 },
+        stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 },
         title: "Gipfel M'Goun (4.068 m) → Oulilimt-Tal",
         description:
           "Start vor Sonnenaufgang für den langen Grat zum M'Goun-Gipfel, dem zweithöchsten Nordafrikas, dann ein langer Abstieg ins Oulilimt-Tal zum Zelten. Ein großer Tag, etwa 8–9 Stunden.",
@@ -3428,7 +3428,7 @@ export const TOURS: Tour[] = [
         stay: "Dorf-Gîte",
         walking: "5 h",
         ascent: "+560 m",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Tacheddirt (2.300 m)",
         description:
           "Abstieg nach Tacheddirt, dem höchstgelegenen ganzjährig bewohnten Dorf der Toubkal-Region und dem Tor zum finalen Gipfelanstieg. Etwa 5 Stunden. Übernachtung im Dorf-Gîte.",

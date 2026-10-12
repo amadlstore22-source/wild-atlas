@@ -899,10 +899,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       { day: 1, title: "Marrakech → Aït M'hamed", description: "Drive to the trailhead. Meet mule team and crew. First night with a Berber family.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "Village gîte", driving: "5 h" },
       { day: 2, title: "Aït M'hamed → Agouti (2,600 m)", description: "Trek through the Aït Bouguemez 'Happy Valley'. Camp at Agouti.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 }, meals: "B,L,D", stay: "Wild camp", walking: "5 h", ascent: "+800 m" },
-      { day: 3, title: "Agouti → Tizi n'Ait Imi (3,650 m) → Tarkeddit", description: "First high pass. Breathtaking panoramas. Wild camp at Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "Wild camp", walking: "6–7 h", ascent: "+1,050 m" },
-      { day: 4, title: "Mgoun Summit (4,068 m)", description: "Pre-dawn start. Summit Jbel Mgoun. Descent to the Tessaoute gorge camp.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "Wild camp", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
+      { day: 3, title: "Agouti → Tizi n'Ait Imi (3,650 m) → Tarkeddit", description: "First high pass. Breathtaking panoramas. Wild camp at Tarkeddit.", stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 }, meals: "B,L,D", stay: "Wild camp", walking: "6–7 h", ascent: "+1,050 m" },
+      { day: 4, title: "Mgoun Summit (4,068 m)", description: "Pre-dawn start. Summit Jbel Mgoun. Descent to the Tessaoute gorge camp.", stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 }, meals: "B,L,D", stay: "Wild camp", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
       { day: 5, title: "Tessaoute Gorge Traverse", description: "Walk through the dramatic red-walled gorge. Wild swimming in the river.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "Wild camp", walking: "5–6 h" },
-      { day: 6, title: "Gorge Exit → Bou Tharar", description: "Exit the gorge. Night in Bou Tharar village with a local family.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 }, meals: "B,L,D", stay: "Guesthouse", walking: "5 h" },
+      { day: 6, title: "Gorge Exit → Bou Tharar", description: "Exit the gorge. Night in Bou Tharar village with a local family.", stop: { name: "Bou Tharar", lat: 31.38948, lng: -6.12217 }, meals: "B,L,D", stay: "Guesthouse", walking: "5 h" },
       { day: 7, title: "Bou Tharar → Marrakech", description: "Transfer back to Marrakech via the rose valley. Tour concludes by 4:00 pm.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "4 h" },
     ],
     faq: [
@@ -3007,7 +3007,7 @@ export const TOURS: Tour[] = [
         walking: "4 h",
         driving: "1.5 h",
         ascent: "+560 m",
-        stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tachedirt", lat: 31.15589, lng: -7.84377 },
         title: "Marrakech → Imlil → Tachedirt (2,300 m)",
         description:
           "Transfer from Marrakech to Imlil (1h30). Trek through the Imenane Valley past terraced fields and Berber villages to Tachedirt. Around 5 hours walking.",
@@ -3018,7 +3018,7 @@ export const TOURS: Tour[] = [
         stay: "Wild camp",
         walking: "6–7 h",
         ascent: "+1,255 m / −1,305 m",
-        stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
+        stop: { name: "Azib Likemt", lat: 31.11187, lng: -7.8126 },
         title: "Tachedirt → Tizi Likemt (3,555 m) → Azib Likemt (2,250 m)",
         description:
           "Climb the Tizi Likemt pass with sweeping High Atlas views, then descend into the high summer grazing pastures of Azib Likemt. 6–7 hours.",
@@ -3029,7 +3029,7 @@ export const TOURS: Tour[] = [
         stay: "Village gîte",
         walking: "6 h",
         distance: "≈14 km",
-        stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
+        stop: { name: "Amsouzart", lat: 31.01563, lng: -7.83254 },
         title: "Azib Likemt → Tizi n'Ourai → Amsouzart (1,740 m)",
         description:
           "Follow the Ourai river, cross a scenic pass, and descend to the welcoming village of Amsouzart for an overnight in a family gîte. Around 6 hours.",
@@ -3040,7 +3040,7 @@ export const TOURS: Tour[] = [
         stay: "Wild camp",
         walking: "5 h",
         ascent: "+555 m",
-        stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
+        stop: { name: "Lake Ifni", lat: 31.03143, lng: -7.88349 },
         title: "Amsouzart → Lake Ifni (2,295 m)",
         description:
           "A gradual climb brings you to the turquoise Lake Ifni, set dramatically among steep peaks. Afternoon at leisure by the water. 4–5 hours.",
@@ -3386,7 +3386,7 @@ export const TOURS: Tour[] = [
         walking: "7–8 h",
         distance: "≈9 km",
         ascent: "+880 m",
-        stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
+        stop: { name: "Ouanoukrim", lat: 31.04154, lng: -7.9458 },
         title: "Ouanoukrim — Timesguida (4,089 m) & Ras (4,083 m)",
         description:
           "Ascend to the Tizi n'Ouanoums area and climb the twin Ouanoukrim summits, Timesguida and Ras, both over 4,000 m. Return to the Toubkal Refuge for the night. A demanding full day.",
@@ -3649,7 +3649,7 @@ export const TOURS: Tour[] = [
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+700 m",
-        stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
+        stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1,850 m)",
         description:
           "Morning transfer from Marrakech to Imlil (1h30). Trek up to the Tizi Mzik pass (2,684 m) for lunch with views back over the Imlil valley and the Toubkal peaks, then descend through juniper forest into the Azzaden Valley to the village of Tizi Oussem. Around 6 hours walking. Dinner and overnight in a Berber guesthouse.",
@@ -3660,7 +3660,7 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         distance: "≈12 km",
-        stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
+        stop: { name: "Aguersioual", lat: 31.16052, lng: -7.92475 },
         title: "Tizi Oussem → Tizi Oudid → Aguersioual → Marrakech",
         description:
           "Descend to Id Issa, then climb to the Tizi Oudid pass and traverse through a string of Berber hamlets and terraced farmland down to Aguersioual. Around 5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
@@ -3758,7 +3758,7 @@ export const TOURS: Tour[] = [
         stay: "Village gîte",
         walking: "6 h",
         ascent: "+800 m",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Azzaden → high pastures → Tacheddirt (2,300 m)",
         description:
           "A full traverse day, climbing over a grazing pass and dropping into the upper Imlil and Tacheddirt valleys — the highest permanently inhabited village in the region. Around 6 hours walking. Dinner and overnight in a village guesthouse.",
@@ -3768,7 +3768,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "5 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika Valley → Marrakech",
         description:
           "Descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 4–5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
@@ -3877,7 +3877,7 @@ export const TOURS: Tour[] = [
         meals: "B,L,D",
         stay: "Village gîte",
         walking: "4–5 h",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Cross to the Ourika side",
         description:
           "An easy crossing over a low grazing pass into the greener Ourika valley, with mules on hand for anyone who tires. Around 3–4 hours. Overnight in a village guesthouse.",
@@ -3887,7 +3887,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "3 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Ourika Valley → Marrakech",
         description:
           "A short final descent through the Ourika valley to the roadhead, with a last riverside stop. Around 2 hours. Transfer back to Marrakech, arriving early afternoon.",
@@ -4098,8 +4098,8 @@ export const TOURS: Tour[] = [
     ],
     itinerary: [
       { day: 1, title: "Marrakech → Aït Bougmez (1,800 m)", description: "Drive over the High Atlas via Aït M'hamed into the Aït Bougmez 'Happy Valley'. Settle in, meet the crew, and take a short acclimatisation walk among the terraced fields. Overnight in a village gîte.", stop: { name: "Aït Bougmez", lat: 31.644, lng: -6.447 }, meals: "L,D", stay: "Village gîte", walking: "1–2 h", driving: "5–6 h" },
-      { day: 2, title: "Aït Bougmez → Tarkeddit plateau (2,900 m)", description: "Climb steadily out of the valley onto the approaches of the M'Goun massif, camping on the Tarkeddit plateau beneath the summit ridge. Around 6 hours walking.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "Wild camp", walking: "6 h", ascent: "+1,100 m" },
-      { day: 3, title: "Summit M'Goun (4,068 m) → Oulilimt valley", description: "Pre-dawn start for the long ridge to the M'Goun summit, the second-highest in North Africa, then a long descent into the Oulilimt valley to camp. A big day, around 8–9 hours.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "Wild camp", walking: "8–9 h", ascent: "+1,168 m / −1,150 m" },
+      { day: 2, title: "Aït Bougmez → Tarkeddit plateau (2,900 m)", description: "Climb steadily out of the valley onto the approaches of the M'Goun massif, camping on the Tarkeddit plateau beneath the summit ridge. Around 6 hours walking.", stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 }, meals: "B,L,D", stay: "Wild camp", walking: "6 h", ascent: "+1,100 m" },
+      { day: 3, title: "Summit M'Goun (4,068 m) → Oulilimt valley", description: "Pre-dawn start for the long ridge to the M'Goun summit, the second-highest in North Africa, then a long descent into the Oulilimt valley to camp. A big day, around 8–9 hours.", stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 }, meals: "B,L,D", stay: "Wild camp", walking: "8–9 h", ascent: "+1,168 m / −1,150 m" },
       { day: 4, title: "Oulilimt → Tessaout gorges", description: "Follow the young Tessaout river down through a spectacular gorge system, with river crossings and dramatic rock walls. Around 6 hours. Camp by the river.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "Wild camp", walking: "6 h" },
       { day: 5, title: "Tessaout → Magdaz village (1,900 m)", description: "Continue down the Tessaout valley to Magdaz, the cluster of tall earthen houses UNESCO has called Morocco's most beautiful village. Around 5 hours. Overnight in a village gîte.", stop: { name: "Magdaz", lat: 31.47, lng: -6.26 }, meals: "B,L,D", stay: "Village gîte", walking: "5 h" },
       { day: 6, title: "Magdaz → Amezri → high pastures", description: "Leave the Tessaout, climbing westward over grazing country toward the next watershed. Around 6 hours. Camp in the high pastures among the shepherds' azibs.", stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 }, meals: "B,L,D", stay: "Wild camp", walking: "6 h", ascent: "+900 m" },
@@ -4107,7 +4107,7 @@ export const TOURS: Tour[] = [
       { day: 8, title: "Over the western passes", description: "A sustained day crossing a high pass (around 3,500 m) into a new valley system, moving steadily west across the range. Around 7 hours. Camp.", stop: { name: "Oulilimt", lat: 31.5, lng: -6.36 }, meals: "B,L,D", stay: "Wild camp", walking: "6–7 h", ascent: "+850 m" },
       { day: 9, title: "Remote valleys traverse", description: "A full day through valleys and hamlets that see almost no trekkers, following mule paths between villages. Around 6–7 hours. Overnight in a village gîte.", meals: "B,L,D", stay: "Wild camp", walking: "6 h" },
       { day: 10, title: "Approach the Toubkal massif", description: "Climb toward the eastern edge of the Toubkal massif, the scenery turning higher and more alpine. Around 6 hours. Camp.", stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 }, meals: "B,L,D", stay: "Village gîte", walking: "6–7 h" },
-      { day: 11, title: "Tacheddirt (2,300 m)", description: "Descend to Tacheddirt, the highest permanently inhabited village in the Toubkal region, and the gateway to the final summit approach. Around 5 hours. Overnight in a village gîte.", stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 }, meals: "B,L,D", stay: "Village gîte", walking: "5 h", ascent: "+560 m" },
+      { day: 11, title: "Tacheddirt (2,300 m)", description: "Descend to Tacheddirt, the highest permanently inhabited village in the Toubkal region, and the gateway to the final summit approach. Around 5 hours. Overnight in a village gîte.", stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 }, meals: "B,L,D", stay: "Village gîte", walking: "5 h", ascent: "+560 m" },
       { day: 12, title: "Tacheddirt → Toubkal Refuge (3,207 m)", description: "Cross the Tizi n'Tacheddirt and traverse into the Mizane valley to the Toubkal Refuge. Around 6 hours. Afternoon acclimatisation walk above the refuge. Early night.", stop: { name: "Toubkal Refuge", lat: 31.063483, lng: -7.937584 }, meals: "B,L,D", stay: "Mountain refuge", walking: "6 h", ascent: "+900 m" },
       { day: 13, title: "Summit Toubkal (4,167 m) → Refuge", description: "Pre-dawn summit push up the South Cirque to the highest point in North Africa for sunrise, then descend back to the refuge. Around 7 hours round trip. Celebratory dinner.", stop: { name: "Jbel Toubkal Summit", lat: 31.060297, lng: -7.915258 }, meals: "B,L,D", stay: "Mountain refuge", walking: "7 h", ascent: "+960 m / −960 m" },
       { day: 14, title: "Refuge → Imlil (1,740 m)", description: "Descend the Mizane valley past the Sidi Chamharouch shrine to Imlil. Around 4 hours. A final night in an Imlil guesthouse to mark the end of the traverse.", stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 }, meals: "B,L,D", stay: "Guesthouse", walking: "5 h" },

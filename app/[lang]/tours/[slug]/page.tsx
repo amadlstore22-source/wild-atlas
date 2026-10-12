@@ -18,7 +18,7 @@ import DurationChooser from "@/components/tours/DurationChooser";
 import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
-import RouteMap, { hasRouteMap } from "@/components/map/RouteMap";
+import RouteMap, { hasRouteMap, isTrekMap } from "@/components/map/RouteMap";
 import TourLocationMap from "@/components/map/TourLocationMap";
 import tourRoutes from "@/lib/tour-routes.json";
 import { localeTag } from "@/lib/events-format";
@@ -374,20 +374,23 @@ export default async function TourDetailPage({ params }: TourParams) {
             <section id="tour-location" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>
               <p className="flex items-center gap-1.5 text-ink-soft mb-4"><MapPin className="w-4 h-4 text-indigo" />{tour.meetingPoint.name}</p>
-              {/* Treks keep the satellite map with 3D terrain (owner's choice,
-                  2026-10-06, after seeing a contour-line version); every other
-                  tour gets the static route map. See RouteMap's docblock. */}
-              {tour.category !== "trekking" && hasRouteMap(tour.slug) ? (
+              {/* Every tour with route data gets the static route map; treks
+                  get its trek version (relief, real trails, peaks and passes;
+                  owner, 2026-10-12). A tour with no data yet keeps the
+                  satellite map. See RouteMap's docblock. */}
+              {hasRouteMap(tour.slug) ? (
                 <RouteMap
                   slug={tour.slug}
                   {...routeMapPlaces(tour, lang)}
                   ariaLabel={dict.tourDetail.routeMapAria.replace("{tour}", tour.title)}
-                  kmLabel={dict.tourDetail.routeMapKm}
+                  kmLabel={isTrekMap(tour.slug) ? dict.tourDetail.routeMapKmFoot : dict.tourDetail.routeMapKm}
                   footLabel={dict.tourDetail.routeMapFoot}
                   offRoadLabel={dict.tourDetail.mapKeyOffRoad}
-                  credit={dict.tourDetail.routeMapCredit}
+                  credit={isTrekMap(tour.slug) ? dict.tourDetail.routeMapTrekCredit : dict.tourDetail.routeMapCredit}
                   regions={dict.tourDetail.mapRegions}
                   numberLocale={localeTag(lang)}
+                  arabic={lang === "ar"}
+                  lang={lang}
                 />
               ) : (
                 <TourLocationMap

@@ -579,10 +579,10 @@ export const TOURS: Tour[] = [
     itinerary: [
       { day: 1, title: "مراكش ← آيت امحمد", description: "القيادة إلى نقطة انطلاق المسار. لقاء فريق البغال والطاقم. الليلة الأولى مع عائلة أمازيغية.", stop: { name: "Aït M'hamed", lat: 31.747, lng: -6.437 }, meals: "L,D", stay: "دار ضيافة قروية", driving: "5 h" },
       { day: 2, title: "آيت امحمد ← أݣوتي (2,600 م)", description: "مسير عبر وادي آيت بوݣمز 'الوادي السعيد'. مبيت في أݣوتي.", stop: { name: "Agouti", lat: 31.6372, lng: -6.4889 }, meals: "B,L,D", stay: "مخيّم", walking: "5 h", ascent: "+800 m" },
-      { day: 3, title: "أݣوتي ← تيزي نايت إيمي (3,650 م) ← تركديت", description: "أول ممر مرتفع. مناظر بانورامية خلّابة. مخيم بري في تركديت.", stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 }, meals: "B,L,D", stay: "مخيّم", walking: "6–7 h", ascent: "+1,050 m" },
-      { day: 4, title: "قمة مݣون (4,068 م)", description: "انطلاق قبل الفجر. تسلق جبل مݣون. نزول إلى مخيم مضيق تساوت.", stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 }, meals: "B,L,D", stay: "مخيّم", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
+      { day: 3, title: "أݣوتي ← تيزي نايت إيمي (3,650 م) ← تركديت", description: "أول ممر مرتفع. مناظر بانورامية خلّابة. مخيم بري في تركديت.", stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 }, meals: "B,L,D", stay: "مخيّم", walking: "6–7 h", ascent: "+1,050 m" },
+      { day: 4, title: "قمة مݣون (4,068 م)", description: "انطلاق قبل الفجر. تسلق جبل مݣون. نزول إلى مخيم مضيق تساوت.", stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 }, meals: "B,L,D", stay: "مخيّم", walking: "7–8 h", ascent: "+420 m / −1,150 m" },
       { day: 5, title: "عبور مضيق تساوت", description: "مسير عبر المضيق ذي الجدران الحمراء المهيبة. سباحة برية في النهر.", stop: { name: "Tessaout Gorge", lat: 31.47, lng: -6.32 }, meals: "B,L,D", stay: "مخيّم", walking: "5–6 h" },
-      { day: 6, title: "الخروج من المضيق ← بوتهرار", description: "الخروج من المضيق. ليلة في قرية بوتهرار مع عائلة محلية.", stop: { name: "Bou Tharar", lat: 31.49, lng: -6.15 }, meals: "B,L,D", stay: "بيت ضيافة", walking: "5 h" },
+      { day: 6, title: "الخروج من المضيق ← بوتهرار", description: "الخروج من المضيق. ليلة في قرية بوتهرار مع عائلة محلية.", stop: { name: "Bou Tharar", lat: 31.38948, lng: -6.12217 }, meals: "B,L,D", stay: "بيت ضيافة", walking: "5 h" },
       { day: 7, title: "بوتهرار ← مراكش", description: "انتقال عودة إلى مراكش عبر وادي الورود. تنتهي الرحلة بحلول الرابعة مساءً.", stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 }, meals: "B", driving: "4 h" },
     ],
     faq: [
@@ -2351,7 +2351,7 @@ export const TOURS: Tour[] = [
         walking: "4 h",
         driving: "1.5 h",
         ascent: "+560 m",
-        stop: { name: "Tachedirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tachedirt", lat: 31.15589, lng: -7.84377 },
         title: "مراكش ← إمليل ← تاشديرت (2,300 م)",
         description:
           "الانتقال من مراكش إلى إمليل (ساعة ونصف). مسير عبر وادي إيمنان مروراً بحقول مُدرَّجة وقرى أمازيغية وصولاً إلى تاشديرت. نحو 5 ساعات مشي.",
@@ -2362,7 +2362,7 @@ export const TOURS: Tour[] = [
         stay: "مخيّم",
         walking: "6–7 h",
         ascent: "+1,255 m / −1,305 m",
-        stop: { name: "Azib Likemt", lat: 31.11, lng: -7.83 },
+        stop: { name: "Azib Likemt", lat: 31.11187, lng: -7.8126 },
         title: "تاشديرت ← تيزي ليكمت (3,555 م) ← أزيب ليكمت (2,250 م)",
         description:
           "تسلق ممر تيزي ليكمت بإطلالات شاملة على الأطلس الكبير، ثم نزول إلى مراعي الصيف المرتفعة في أزيب ليكمت. 6–7 ساعات.",
@@ -2373,7 +2373,7 @@ export const TOURS: Tour[] = [
         stay: "دار ضيافة قروية",
         walking: "6 h",
         distance: "≈14 km",
-        stop: { name: "Amsouzart", lat: 31.045, lng: -7.78 },
+        stop: { name: "Amsouzart", lat: 31.01563, lng: -7.83254 },
         title: "أزيب ليكمت ← تيزي نوراي ← أمسوزارت (1,740 م)",
         description:
           "اتباع نهر أوراي، عبور ممر خلّاب، ونزول إلى قرية أمسوزارت المضيافة للمبيت في نُزُل عائلي. نحو 6 ساعات.",
@@ -2384,7 +2384,7 @@ export const TOURS: Tour[] = [
         stay: "مخيّم",
         walking: "5 h",
         ascent: "+555 m",
-        stop: { name: "Lake Ifni", lat: 31.03, lng: -7.86 },
+        stop: { name: "Lake Ifni", lat: 31.03143, lng: -7.88349 },
         title: "أمسوزارت ← بحيرة إفني (2,295 م)",
         description:
           "صعود تدريجي يوصلك إلى بحيرة إفني الفيروزية، الواقعة بشكل مهيب بين قمم شديدة الانحدار. بعد ظهر حر عند الماء. 4–5 ساعات.",
@@ -2668,7 +2668,7 @@ export const TOURS: Tour[] = [
         walking: "7–8 h",
         distance: "≈9 km",
         ascent: "+880 m",
-        stop: { name: "Ouanoukrim", lat: 31.052, lng: -7.928 },
+        stop: { name: "Ouanoukrim", lat: 31.04154, lng: -7.9458 },
         title: "وانوكريم — تيمسݣيدة (4,089 م) ورأس (4,083 م)",
         description:
           "صعود إلى منطقة تيزي نوانومس وتسلق قمتي وانوكريم التوأمتين، تيمسݣيدة ورأس، كلتاهما فوق 4,000 م. العودة إلى ملجأ توبقال للمبيت. يوم كامل وشاق.",
@@ -2897,7 +2897,7 @@ export const TOURS: Tour[] = [
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+700 m",
-        stop: { name: "Tizi Oussem", lat: 31.15, lng: -7.98 },
+        stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "مراكش ← إمليل ← تيزي مزيك ← تيزي وسّم (1,850 متراً)",
         description:
           "نقل صباحي من مراكش إلى إمليل (ساعة ونصف). صعود إلى ممر تيزي مزيك (2,684 متراً) للغداء مع إطلالة على وادي إمليل وقمم توبقال، ثم نزول عبر غابة العرعر إلى وادي أزادن حتى قرية تيزي وسّم. نحو 6 ساعات مشي. عشاء ومبيت في دار ضيافة أمازيغية.",
@@ -2908,7 +2908,7 @@ export const TOURS: Tour[] = [
         walking: "5 h",
         driving: "1.5 h",
         distance: "≈12 km",
-        stop: { name: "Aguersioual", lat: 31.17, lng: -7.93 },
+        stop: { name: "Aguersioual", lat: 31.16052, lng: -7.92475 },
         title: "تيزي وسّم ← تيزي أوديد ← أكرسيوال ← مراكش",
         description:
           "نزول إلى إد عيسى، ثم صعود إلى ممر تيزي أوديد وعبور سلسلة من القرى الأمازيغية والأراضي المدرّجة نزولاً إلى أكرسيوال. نحو 5 ساعات مشي. نقل عائد إلى مراكش، وصول بعد الظهر.",
@@ -2992,7 +2992,7 @@ export const TOURS: Tour[] = [
         stay: "دار ضيافة قروية",
         walking: "6 h",
         ascent: "+800 m",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "أزادن ← المراعي العالية ← تاشدّيرت (2,300 متراً)",
         description:
           "يوم عبور كامل، صعوداً عبر ممر رعوي ونزولاً إلى وديان إمليل وتاشدّيرت العليا — أعلى قرية مأهولة بشكل دائم في المنطقة. نحو 6 ساعات مشي. عشاء ومبيت في دار ضيافة قروية.",
@@ -3002,7 +3002,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "5 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "تاشدّيرت ← وادي أوريكا ← مراكش",
         description:
           "نزول عبر حوض أوريكا بين بساتين الجوز والحقول المدرّجة حتى الطريق. نحو 4 إلى 5 ساعات مشي. نقل عائد إلى مراكش، وصول بعد الظهر.",
@@ -3095,7 +3095,7 @@ export const TOURS: Tour[] = [
         meals: "B,L,D",
         stay: "دار ضيافة قروية",
         walking: "4–5 h",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "العبور إلى جانب أوريكا",
         description:
           "عبور سهل لممر رعوي منخفض إلى وادي أوريكا الأكثر خضرة، مع بغال جاهزة لمن يتعب. نحو 3 إلى 4 ساعات. مبيت في دار ضيافة قروية.",
@@ -3105,7 +3105,7 @@ export const TOURS: Tour[] = [
         meals: "B,L",
         walking: "3 h",
         driving: "1 h",
-        stop: { name: "Ourika Valley", lat: 31.317, lng: -7.75 },
+        stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "وادي أوريكا ← مراكش",
         description:
           "نزول أخير قصير عبر وادي أوريكا حتى الطريق، مع توقف أخير على ضفة النهر. نحو ساعتين. نقل عائد إلى مراكش، وصول مطلع بعد الظهر.",
@@ -3297,7 +3297,7 @@ export const TOURS: Tour[] = [
         stay: "مخيّم",
         walking: "6 h",
         ascent: "+1,100 m",
-        stop: { name: "Tarkeddit", lat: 31.548, lng: -6.447 },
+        stop: { name: "Tarkeddit", lat: 31.53153, lng: -6.51576 },
         title: "آيت بوݣمّاز ← هضبة تاركديت (2,900 متر)",
         description:
           "صعود منتظم خارج الوادي نحو مقاربات كتلة مݣون، وتخييم على هضبة تاركديت تحت خط القمة. نحو 6 ساعات مشي.",
@@ -3308,7 +3308,7 @@ export const TOURS: Tour[] = [
         stay: "مخيّم",
         walking: "8–9 h",
         ascent: "+1,168 m / −1,150 m",
-        stop: { name: "Jbel Mgoun Summit", lat: 31.517, lng: -6.42 },
+        stop: { name: "Jbel Mgoun Summit", lat: 31.50909, lng: -6.44415 },
         title: "قمة مݣون (4,068 متراً) ← وادي أوليليمت",
         description:
           "انطلاق قبل الفجر للخط الطويل حتى قمة مݣون، الثانية الأعلى في شمال إفريقيا، ثم نزول طويل إلى وادي أوليليمت للتخييم. يوم كبير، نحو 8 إلى 9 ساعات.",
@@ -3389,7 +3389,7 @@ export const TOURS: Tour[] = [
         stay: "دار ضيافة قروية",
         walking: "5 h",
         ascent: "+560 m",
-        stop: { name: "Tacheddirt", lat: 31.149, lng: -7.83 },
+        stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "تاشدّيرت (2,300 متراً)",
         description:
           "نزول إلى تاشدّيرت، أعلى قرية مأهولة بشكل دائم في منطقة توبقال، وبوابة المقاربة النهائية للقمة. نحو 5 ساعات. مبيت في نُزُل قروي.",

@@ -260,6 +260,8 @@
     "briefHeading": "Avant de réserver",
     "mapKeyTerrain3d": "Relief 3D",
     "routeMapKm": "Environ {km} km de route",
+    "routeMapKmFoot": "Environ {km} km à pied",
+    "routeMapTrekCredit": "Sentiers © contributeurs OpenStreetMap. Relief : Mapterhorn.",
     "routeMapCredit": "Routes © contributeurs OpenStreetMap. Côtes : Natural Earth.",
     "routeMapAria": "Carte de l'itinéraire : {tour}",
     "routeMapFoot": "À pied, d'étape en étape",

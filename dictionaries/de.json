@@ -260,6 +260,8 @@
     "briefHeading": "Vor der Buchung",
     "mapKeyTerrain3d": "3D-Relief",
     "routeMapKm": "Rund {km} km auf der Straße",
+    "routeMapKmFoot": "Rund {km} km zu Fuß",
+    "routeMapTrekCredit": "Wege © OpenStreetMap-Mitwirkende. Gelände: Mapterhorn.",
     "routeMapCredit": "Straßen © OpenStreetMap-Mitwirkende. Küstenlinie: Natural Earth.",
     "routeMapAria": "Routenkarte: {tour}",
     "routeMapFoot": "Zu Fuß, von Etappe zu Etappe",

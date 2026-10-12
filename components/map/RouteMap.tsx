@@ -1,6 +1,8 @@
 import MAPS from "@/lib/route-maps.json";
+import TREKS from "@/lib/trek-maps.json";
 import LAND from "@/lib/route-map-land.json";
-import { MAP_H, MAP_W, projector, type Frame, type LonLat } from "@/lib/route-map-frame";
+import { MAP_H, MAP_W, overviewRect, projector, type Frame, type LonLat } from "@/lib/route-map-frame";
+import { MAP_CITIES, type CityName } from "@/lib/route-map-cities";
 import RouteDraw from "./RouteDraw";
 
 /**
@@ -11,21 +13,35 @@ import RouteDraw from "./RouteDraw";
  * where the trip went. Plain SVG rendered on the server: no map library, tiles
  * or WebGL.
  *
- * Treks keep the satellite map with 3D terrain. A contour-line close-up was
- * built for them and rejected by the owner the same day ("not as I pictured
- * it"): at a trek's scale the lines read as noise.
+ * Treks get the same map at trek scale (owner, 2026-10-12, replacing their
+ * satellite map): shaded relief, every mapped footpath and road faint behind
+ * the route, the route itself walked along the real trails, and the peaks and
+ * passes named with their heights. Data from scripts/build-trek-maps.mjs. (A
+ * contour-line close-up was tried on 2026-10-06 and rejected: at this scale the
+ * lines read as noise. Relief shading carries the terrain instead.)
+ *
+ * Below the fold it plays in (RouteDraw): the whole of Morocco with the route
+ * on it, a zoom down to the route, then the names. The land and route sit in
+ * the [data-zoom] group the zoom transforms; names and dots stay outside it at
+ * their final size and fade in once the zoom lands.
  *
  * Data from scripts/build-route-maps.mjs. Day trips show the drive there and
  * back; tours that happen in town show one dot, and the page adds an "Open in
  * Google Maps" link for the exact meeting point.
  */
 
-type Leg = { mode: "road" | "foot"; coords: LonLat[] };
-type MapData = { frame: Frame; km: number; legs: Leg[]; offRoad: { from: LonLat; to: LonLat }[] };
-const maps = MAPS as unknown as Record<string, MapData>;
+type Leg = { mode: "road" | "foot" | "trail"; coords: LonLat[] };
+type Poi = { kind: "peak" | "pass"; name: string; ar?: string; ele?: number; p: LonLat };
+type MapData = {
+  frame: Frame; km: number; legs: Leg[]; offRoad: { from: LonLat; to: LonLat }[];
+  // Trek maps only.
+  trek?: boolean; trails?: LonLat[][]; roads?: LonLat[][]; water?: LonLat[][]; pois?: Poi[]; relief?: string;
+};
+const maps = { ...(MAPS as unknown as Record<string, MapData>), ...(TREKS as unknown as Record<string, MapData>) };
 const land = LAND as unknown as Record<string, LonLat[][]>;
 
 export const hasRouteMap = (slug: string) => Boolean(maps[slug]);
+export const isTrekMap = (slug: string) => Boolean(maps[slug]?.trek);
 
 const W = MAP_W, H = MAP_H;
 // Label sizes are viewBox units. Phones show the 900-wide SVG at ~350px, so
@@ -65,6 +81,10 @@ interface Props {
   credit: string;
   regions: RegionNames;
   numberLocale: string;
+  /** Arabic pages show OSM's Arabic peak names where there is one. */
+  arabic?: boolean;
+  /** Page locale, for the city names on the opening whole-Morocco view. */
+  lang?: string;
 }
 
 const kmBetween = (a: LonLat, b: LonLat) => {
@@ -74,7 +94,7 @@ const kmBetween = (a: LonLat, b: LonLat) => {
 };
 
 export default function RouteMap(props: Props) {
-  const { slug, start, stops, ariaLabel, kmLabel, footLabel, offRoadLabel, credit, regions, numberLocale } = props;
+  const { slug, start, stops, ariaLabel, kmLabel, footLabel, offRoadLabel, credit, regions, numberLocale, arabic, lang = "en" } = props;
   const data = maps[slug];
   if (!data) return null;
   const { frame } = data;
@@ -92,6 +112,16 @@ export default function RouteMap(props: Props) {
     places.push({ name: s.name, p, origin: i === 0 });
   }
   const inFrame = (p: LonLat) => p[0] >= frame.lon0 && p[0] <= frame.lon1 && p[1] >= frame.lat0 && p[1] <= frame.lat1;
+  const num = new Intl.NumberFormat(numberLocale);
+  // A stop that IS a named peak or pass (the summit, Tizi n'Mzik) takes its
+  // height; the feature is then not labelled a second time.
+  const pois = (data.pois ?? []).filter((q) => inFrame(q.p));
+  const eleOf = new Map<string, number>();
+  for (const pl of places) {
+    const q = pois.find((q) => kmBetween(q.p, pl.p) < 0.35);
+    if (q?.ele) eleOf.set(pl.name, q.ele);
+  }
+  const extraPois = pois.filter((q) => !places.some((pl) => kmBetween(q.p, pl.p) < 0.35));
 
   // --- labels: greedy placement --------------------------------------------------
   type Box = { x0: number; y0: number; x1: number; y1: number };
@@ -104,7 +134,8 @@ export default function RouteMap(props: Props) {
 
   const labels = places.filter((pl) => inFrame(pl.p)).sort((a, b) => Number(b.origin) - Number(a.origin)).map((pl) => {
     const [x, y] = px(pl.p);
-    const w = pl.name.length * fs * CHAR_W;
+    const text = eleOf.has(pl.name) ? `${pl.name} · ${num.format(eleOf.get(pl.name)!)} m` : pl.name;
+    const w = text.length * fs * CHAR_W;
     // Beside the dot first, then above/below, then the four diagonals.
     const side = (dir: 1 | -1, dy: number) => ({
       tx: x + dir * 14, ty: y + dy + fs * 0.35, anchor: dir === 1 ? "start" : "end",
@@ -124,12 +155,34 @@ export default function RouteMap(props: Props) {
       ? options.filter((o) => !outside(o.box)).sort((a, b) => overlap(a.box) - overlap(b.box))[0] ?? options[0]
       : undefined);
     if (pick) taken.push(pick.box);
-    return { ...pl, x, y, tx: pick?.tx, ty: pick?.ty, anchor: pick?.anchor };
+    return { ...pl, text, x, y, tx: pick?.tx, ty: pick?.ty, anchor: pick?.anchor };
   });
+
+  // Peaks and passes: after the stops, smaller, only where they fit. Passes on
+  // the route first (they are the day's goal), then peaks highest first.
+  const POI_FS = 19;
+  const poiLabels = data.trek ? [...extraPois].sort((a, b) => Number(b.kind === "pass") - Number(a.kind === "pass") || (b.ele ?? 0) - (a.ele ?? 0)).flatMap((q) => {
+    const [x, y] = px(q.p);
+    const name = (arabic && q.ar) || q.name;
+    const text = q.ele ? `${name} ${num.format(q.ele)} m` : name;
+    const w = text.length * POI_FS * 0.56;
+    const opts = [
+      { tx: x + 10, ty: y + POI_FS * 0.35, anchor: "start", box: { x0: x + 8, y0: y - POI_FS * 0.6, x1: x + 10 + w, y1: y + POI_FS * 0.5 } },
+      { tx: x - 10, ty: y + POI_FS * 0.35, anchor: "end", box: { x0: x - 10 - w, y0: y - POI_FS * 0.6, x1: x - 8, y1: y + POI_FS * 0.5 } },
+      { tx: x, ty: y - 11, anchor: "middle", box: { x0: x - w / 2, y0: y - 11 - POI_FS * 0.85, x1: x + w / 2, y1: y - 8 } },
+      { tx: x, ty: y + 10 + POI_FS * 0.75, anchor: "middle", box: { x0: x - w / 2, y0: y + 8, x1: x + w / 2, y1: y + 12 + POI_FS * 0.8 } },
+    ];
+    const mark = { x0: x - 6, y0: y - 6, x1: x + 6, y1: y + 6 };
+    if (hit(mark)) return [];
+    const pick = opts.find((o) => !hit(o.box));
+    if (!pick) return [];
+    taken.push(mark, pick.box);
+    return [{ ...q, text, x, y, tx: pick.tx, ty: pick.ty, anchor: pick.anchor }];
+  }) : [];
 
   // Region names are context, not content: only where they fit clear of the labels.
   const regionLabels = REGIONS.flatMap((r) => {
-    if (!inFrame([r.lon, r.lat])) return [];
+    if (data.trek || !inFrame([r.lon, r.lat])) return [];
     const [x, y] = px([r.lon, r.lat]);
     const text = regions[r.key];
     const w = text.length * 26 * 0.5;
@@ -144,43 +197,78 @@ export default function RouteMap(props: Props) {
 
   return (
     <figure className="road-map overflow-hidden rounded-[4px]">
-      <RouteDraw>
+      <RouteDraw from={overviewRect(frame)}>
         <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={ariaLabel} direction="ltr" className="block h-auto w-full">
           <defs>
             <clipPath id={clip}><rect width={W} height={H} /></clipPath>
           </defs>
           <g clipPath={`url(#${clip})`}>
+           <g data-zoom="">
             {Object.entries(land).map(([country, rings]) => (
               <path key={country} className={country === "Morocco" ? "land" : "land land--near"} d={rings.map((r) => path(r, true)).join("")} />
             ))}
-            {regionLabels.map((r) => (
-              <text key={r.text} className={r.sea ? "region region--sea" : "region"} x={f(r.x)} y={f(r.y)} textAnchor="middle">{r.text}</text>
-            ))}
-            {data.legs.filter((l) => l.mode === "road").map((l, i) => <path key={`g${i}`} className="route-glow" d={path(l.coords)} />)}
+            {data.relief && (
+              <image href={data.relief} x={0} y={0} width={W} height={H} preserveAspectRatio="none" className="relief" />
+            )}
+            {data.water?.map((r, i) => <path key={`w${i}`} className="water" d={path(r, true)} />)}
+            {data.roads && <path className="net net--road" d={data.roads.map((l) => path(l)).join("")} />}
+            {data.trails && <path className="net net--trail" d={data.trails.map((l) => path(l)).join("")} />}
+            {data.legs.filter((l) => l.mode !== "foot").map((l, i) => <path key={`g${i}`} className="route-glow" d={path(l.coords)} />)}
             {data.legs.map((l, i) => (
-              <path key={i} className={l.mode === "foot" ? "route route--foot" : "route"} d={path(l.coords)} pathLength={l.mode === "road" ? 1 : undefined} />
+              <path key={i} className={l.mode === "foot" ? "route route--foot" : "route"} d={path(l.coords)} pathLength={l.mode === "foot" ? undefined : 1} />
             ))}
             {data.offRoad.map((o, i) => (
               // On the camel trek the stretch past the road end is walked, not driven.
               <path key={`o${i}`} className={hasFoot ? "route route--foot" : "route route--offroad"} d={path([o.from, o.to])} />
             ))}
+            {/* The opening view's major cities. Inside the zoom group so they sit
+                on the country; scaled by 1/--rm-z so they stay one size on
+                screen; shown only before the zoom (CSS, [data-draw]). */}
+            <g className="cities" aria-hidden>
+              {MAP_CITIES.map((c) => {
+                const [x, y] = px([c.lon, c.lat]);
+                const right = c.side === "right", top = c.side === "top";
+                return (
+                  <g key={c.name.en} transform={`translate(${f(x)} ${f(y)})`}>
+                    <g className="city">
+                      <circle r={3.2} />
+                      <text x={top ? 0 : right ? 7 : -7} y={top ? -8 : 4.5} textAnchor={top ? "middle" : right ? "start" : "end"}>{c.name[lang as keyof CityName] ?? c.name.en}</text>
+                    </g>
+                  </g>
+                );
+              })}
+            </g>
+           </g>
           </g>
+          <g className="rm-labels">
+          {regionLabels.map((r) => (
+            <text key={r.text} className={r.sea ? "region region--sea" : "region"} x={f(r.x)} y={f(r.y)} textAnchor="middle">{r.text}</text>
+          ))}
+          {poiLabels.map((q) => (
+            <g key={`${q.kind}${q.name}`} className={`poi poi--${q.kind}`}>
+              {q.kind === "peak"
+                ? <path d={`M${f(q.x)} ${f(q.y - 6)}L${f(q.x + 6)} ${f(q.y + 4.5)}L${f(q.x - 6)} ${f(q.y + 4.5)}Z`} />
+                : <path d={`M${f(q.x)} ${f(q.y - 5)}L${f(q.x + 5)} ${f(q.y)}L${f(q.x)} ${f(q.y + 5)}L${f(q.x - 5)} ${f(q.y)}Z`} />}
+              <text x={f(q.tx)} y={f(q.ty)} textAnchor={q.anchor as "start" | "end" | "middle"}>{q.text}</text>
+            </g>
+          ))}
           {labels.map((l) => (
             <g key={l.name} className={l.origin ? "stop stop--origin" : "stop"}>
               <circle cx={f(l.x)} cy={f(l.y)} r={l.origin ? 7 : 5.5} />
               {l.tx !== undefined && l.ty !== undefined ? (
-                <text x={f(l.tx)} y={f(l.ty)} textAnchor={l.anchor as "start" | "end" | "middle"}>{l.name}</text>
+                <text x={f(l.tx)} y={f(l.ty)} textAnchor={l.anchor as "start" | "end" | "middle"}>{l.text}</text>
               ) : (
-                <title>{l.name}</title>
+                <title>{l.text}</title>
               )}
             </g>
           ))}
+          </g>
         </svg>
       </RouteDraw>
       <figcaption className="flex flex-wrap items-center justify-between gap-x-6 gap-y-1 px-5 py-3 text-xs">
         <span className="flex flex-wrap items-center gap-x-5 gap-y-1">
           {data.km > 0 && (
-            <span className="font-semibold text-cream">{kmLabel.replace("{km}", new Intl.NumberFormat(numberLocale).format(data.km))}</span>
+            <span className="font-semibold text-cream">{kmLabel.replace("{km}", num.format(data.km))}</span>
           )}
           {hasFoot && (
             <span className="inline-flex items-center gap-2 text-cream/75">

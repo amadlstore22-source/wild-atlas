@@ -597,14 +597,33 @@ input, select, textarea { font-family: var(--font-body), system-ui, sans-serif; 
    SVG is 900 wide, so desktop (~800px) shows them near 1:1 and phones (~350px)
    need roughly double; the label layout is computed at the phone size. */
 .road-map { background: #0C1224; }
-.road-map .land { fill: #1E2950; stroke: rgba(251, 248, 243, .3); stroke-width: 1; stroke-linejoin: round; }
+/* --rm-z is the zoom's current scale (RouteDraw sets it on [data-zoom] while
+   the map zooms in from the whole of Morocco). Dividing the strokes by it keeps
+   them the same width on screen at every scale; it is 1 at rest. */
+.road-map .land { fill: #1E2950; stroke: rgba(251, 248, 243, .3); stroke-width: calc(1px / var(--rm-z, 1)); stroke-linejoin: round; }
 .road-map .land--near { fill: #1A2140; stroke: rgba(251, 248, 243, .12); }
 .road-map .region { font-family: var(--font-display), Georgia, serif; font-style: italic; font-size: 19px; fill: rgba(251, 248, 243, .34); letter-spacing: .02em; }
 .road-map .region--sea { fill: rgba(196, 205, 226, .34); }
-.road-map .route-glow { fill: none; stroke: rgba(224, 168, 94, .16); stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
-.road-map .route { fill: none; stroke: #E0A85E; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-.road-map .route--offroad { stroke-dasharray: 7 8; stroke-width: 2.6; }
-.road-map .route--foot { stroke: #FBF8F3; stroke-dasharray: 0.5 9; stroke-width: 4; }
+.road-map .route-glow { fill: none; stroke: rgba(224, 168, 94, .16); stroke-width: calc(10px / var(--rm-z, 1)); stroke-linecap: round; stroke-linejoin: round; }
+.road-map .route { fill: none; stroke: #E0A85E; stroke-width: calc(3px / var(--rm-z, 1)); stroke-linecap: round; stroke-linejoin: round; }
+.road-map .route--offroad { stroke-dasharray: 7 8; stroke-width: calc(2.6px / var(--rm-z, 1)); }
+.road-map .route--foot { stroke: #FBF8F3; stroke-dasharray: 0.5 9; stroke-width: calc(4px / var(--rm-z, 1)); }
+/* Trek maps: relief image under a faint network of every mapped trail and
+   road, lakes, then the route; peaks (triangles) and passes (diamonds) are
+   named smaller than the stops. */
+/* The relief fades in over the last part of the zoom (--rm-z nears 1), so it
+   never shows as a hard-edged tile on the country map. */
+.road-map .relief, .road-map .net, .road-map .water { opacity: calc(var(--rm-z, 1) * 2.2 - 1.2); }
+.road-map .water { fill: #6F8CC4; fill-opacity: .55; stroke: none; }
+.road-map .net { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.road-map .net--road { stroke: rgba(251, 248, 243, .34); stroke-width: calc(1.5px / var(--rm-z, 1)); }
+.road-map .net--trail { stroke: rgba(251, 248, 243, .3); stroke-width: calc(1.1px / var(--rm-z, 1)); stroke-dasharray: 3 3; }
+.road-map .poi path { fill: #FBF8F3; fill-opacity: .9; stroke: #0C1224; stroke-width: 1.2; }
+.road-map .poi--pass path { fill: #E0A85E; }
+.road-map .poi text {
+  font-family: var(--font-body), system-ui, sans-serif; font-size: 12.5px; font-weight: 500; fill: rgba(251, 248, 243, .92);
+  paint-order: stroke; stroke: #0C1224; stroke-width: 4px; stroke-linejoin: round;
+}
 .road-map .stop circle { fill: #0C1224; stroke: #E0A85E; stroke-width: 2.6; }
 .road-map .stop--origin circle { fill: #E0A85E; }
 .road-map .stop text {
@@ -615,19 +634,46 @@ input, select, textarea { font-family: var(--font-body), system-ui, sans-serif; 
 @media (max-width: 640px) {
   .road-map .stop text { font-size: 24px; letter-spacing: .08em; stroke-width: 7px; }
   .road-map .region { font-size: 27px; }
-  .road-map .route { stroke-width: 5; }
-  .road-map .route-glow { stroke-width: 16; }
+  .road-map .route { stroke-width: calc(5px / var(--rm-z, 1)); }
+  .road-map .route-glow { stroke-width: calc(16px / var(--rm-z, 1)); }
   .road-map .stop circle { stroke-width: 4; r: 9px; }
   .road-map .stop--origin circle { r: 11px; }
-  .road-map .route--foot { stroke-width: 7; stroke-dasharray: 0.5 15; }
+  .road-map .route--foot { stroke-width: calc(7px / var(--rm-z, 1)); stroke-dasharray: 0.5 15; }
+  .road-map .poi text { font-size: 19px; stroke-width: 6px; }
+  .road-map .net--trail { stroke-width: calc(1.8px / var(--rm-z, 1)); stroke-dasharray: 5 5; }
+  .road-map .net--road { stroke-width: calc(2.4px / var(--rm-z, 1)); }
+}
+/* Play-in (RouteDraw): pending = the whole of Morocco, nothing drawn yet;
+   overview = the route draws in, the major cities named; zooming = the cities
+   fade as the map zooms to the route; drawn = the place names fade in. The
+   server HTML carries data-draw="idle", the finished map. Scrolling the map
+   off screen returns it to pending, so it plays again. */
+.road-map .cities { opacity: 0; transition: opacity 450ms ease; pointer-events: none; }
+.road-map [data-draw="pending"] .cities,
+.road-map [data-draw="overview"] .cities { opacity: 1; }
+.road-map .city { transform: scale(calc(1 / var(--rm-z, 1))); }
+.road-map .city circle { fill: #FBF8F3; fill-opacity: .85; }
+.road-map .city text {
+  font-family: var(--font-body), system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: .04em; fill: rgba(251, 248, 243, .9);
+  paint-order: stroke; stroke: #0C1224; stroke-width: 4px; stroke-linejoin: round;
+}
+@media (max-width: 640px) {
+  .road-map .city text { font-size: 25px; stroke-width: 6px; }
+  .road-map .city circle { r: 5px; }
 }
 .road-map [data-draw="pending"] .route:not(.route--offroad):not(.route--foot) { stroke-dasharray: 1; stroke-dashoffset: 1; }
-.road-map [data-draw="pending"] .route--foot { opacity: 0; }
-.road-map [data-draw="drawn"] .route--foot { opacity: 1; transition: opacity 900ms ease 400ms; }
+.road-map [data-draw="pending"] .route--foot,
 .road-map [data-draw="pending"] .route--offroad,
 .road-map [data-draw="pending"] .route-glow { opacity: 0; }
+.road-map [data-draw="overview"] .route:not(.route--offroad):not(.route--foot),
+.road-map [data-draw="zooming"] .route:not(.route--offroad):not(.route--foot),
 .road-map [data-draw="drawn"] .route:not(.route--offroad):not(.route--foot) {
-  stroke-dasharray: 1; stroke-dashoffset: 0; transition: stroke-dashoffset 2400ms cubic-bezier(.77, 0, .175, 1);
+  stroke-dasharray: 1; stroke-dashoffset: 0; transition: stroke-dashoffset 1100ms cubic-bezier(.77, 0, .175, 1);
 }
-.road-map [data-draw="drawn"] .route--offroad,
-.road-map [data-draw="drawn"] .route-glow { opacity: 1; transition: opacity 600ms ease 2000ms; }
+.road-map [data-draw="overview"] .route--foot,
+.road-map [data-draw="overview"] .route--offroad,
+.road-map [data-draw="overview"] .route-glow { opacity: 1; transition: opacity 500ms ease 600ms; }
+.road-map [data-draw="pending"] .rm-labels,
+.road-map [data-draw="overview"] .rm-labels,
+.road-map [data-draw="zooming"] .rm-labels { opacity: 0; }
+.road-map [data-draw="drawn"] .rm-labels { opacity: 1; transition: opacity 600ms ease; }

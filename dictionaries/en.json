@@ -260,6 +260,8 @@
     "briefHeading": "Before You Book",
     "mapKeyTerrain3d": "3D terrain",
     "routeMapKm": "About {km} km by road",
+    "routeMapKmFoot": "About {km} km on foot",
+    "routeMapTrekCredit": "Trails © OpenStreetMap contributors. Terrain: Mapterhorn.",
     "routeMapCredit": "Roads © OpenStreetMap contributors. Coastline: Natural Earth.",
     "routeMapAria": "Route map: {tour}",
     "routeMapFoot": "On foot, camp to camp",

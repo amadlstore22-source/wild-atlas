@@ -260,6 +260,8 @@
     "briefHeading": "Prima di prenotare",
     "mapKeyTerrain3d": "Rilievo 3D",
     "routeMapKm": "Circa {km} km su strada",
+    "routeMapKmFoot": "Circa {km} km a piedi",
+    "routeMapTrekCredit": "Sentieri © contributori di OpenStreetMap. Rilievo: Mapterhorn.",
     "routeMapCredit": "Strade © contributori di OpenStreetMap. Costa: Natural Earth.",
     "routeMapAria": "Mappa del percorso: {tour}",
     "routeMapFoot": "A piedi, di tappa in tappa",

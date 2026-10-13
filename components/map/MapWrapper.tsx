@@ -2,6 +2,8 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import type { MapTour } from "@/lib/map-tours";
+import type { CategoryText, PlaceText } from "@/lib/map-places-i18n";
 
 const ToursMap = dynamic(() => import("./ToursMap"), {
   ssr: false,
@@ -55,7 +57,15 @@ function MapSkeleton() {
  * reader scrolls within 400 px of it. Renders the same skeleton until then, so
  * layout is reserved and CLS stays at 0.
  */
-export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Dictionary }) {
+interface Props {
+  lang: Locale;
+  dict: Dictionary;
+  tours: Record<string, MapTour[]>;
+  placeText?: Record<string, PlaceText>;
+  categoryText: Record<string, CategoryText>;
+}
+
+export default function MapWrapper(props: Props) {
   const ref = useRef<HTMLDivElement>(null);
   // A browser with no IntersectionObserver can never be told the map scrolled
   // into view, so it starts visible. Decided in the lazy initialiser rather
@@ -101,5 +111,5 @@ export default function MapWrapper({ lang, dict }: { lang: Locale; dict: Diction
     return () => io.disconnect();
   }, []);
 
-  return <div ref={ref}>{visible ? <ToursMap lang={lang} dict={dict} /> : <MapSkeleton />}</div>;
+  return <div ref={ref}>{visible ? <ToursMap {...props} /> : <MapSkeleton />}</div>;
 }

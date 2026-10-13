@@ -22,6 +22,8 @@ import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { categoriesFor, tourSlugFor } from "@/lib/tours-i18n";
 import { ogBase } from "@/lib/seo/open-graph";
+import { mapToursFor } from "@/lib/map-tours";
+import { MAP_CATEGORY_TEXT, MAP_PLACE_TEXT } from "@/lib/map-places-i18n";
 import { TOURS, lowestGroupPrice } from "@/lib/tours";
 type LangParams = { params: Promise<{ lang: string }> };
 
@@ -174,7 +176,7 @@ export default async function HomePage({ params }: LangParams) {
       <WhyUs dict={dict} tourCount={STATS.tourCount} />
       <Testimonials dict={dict} />
       <ZelligeDivider />
-      <MapWrapper lang={lang} dict={dict} />
+      <MapWrapper lang={lang} dict={dict} tours={mapToursFor(lang)} placeText={MAP_PLACE_TEXT[lang]} categoryText={MAP_CATEGORY_TEXT[lang]} />
       <FeaturedGuides dict={dict} lang={lang} />
       <Gallery dict={dict} lang={lang} />
       <Suspense fallback={<NewsSectionSkeleton />}>

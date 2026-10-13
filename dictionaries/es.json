@@ -132,6 +132,7 @@
     "sectionTitle": "Dónde Suceden las Aventuras",
     "sectionSubtitle": "Elige un destino para descubrir lo que ofrece.",
     "knownFor": "Conocido por",
+    "toursHere": "Nuestros tours aquí",
     "browseCategoryTours": "Ver tours de {category} →",
     "allDestinations": "← Todos los destinos",
     "destinationsCount": "{count} Destinos",

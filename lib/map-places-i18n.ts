@@ -15,55 +15,78 @@ export interface PlaceText {
   known: string[];
 }
 
-/** Map category pill and the panel's button to the destination page. */
+/** The category pill on a map panel. */
 export interface CategoryText {
   pill: string;
-  cta: string;
 }
 
 export const MAP_CATEGORY_TEXT: Record<Locale, Record<string, CategoryText>> = {
   en: {
-    cultural: { pill: "Cultural", cta: "Browse Cultural tours →" },
-    trekking: { pill: "Trekking", cta: "Browse Trekking tours →" },
-    desert: { pill: "Desert", cta: "Browse Desert tours →" },
-    "day-tours": { pill: "Day Tours", cta: "Browse Day Tours →" },
-    hiking: { pill: "Hiking", cta: "Browse Hiking tours →" },
+    cultural: { pill: "Cultural" },
+    trekking: { pill: "Trekking" },
+    desert: { pill: "Desert" },
+    "day-tours": { pill: "Day Tours" },
+    hiking: { pill: "Hiking" },
   },
   fr: {
-    cultural: { pill: "Culturel", cta: "Voir les circuits culturels →" },
-    trekking: { pill: "Trekking", cta: "Voir les treks →" },
-    desert: { pill: "Désert", cta: "Voir les circuits dans le désert →" },
-    "day-tours": { pill: "Excursion", cta: "Voir les excursions →" },
-    hiking: { pill: "Randonnée", cta: "Voir les randonnées →" },
+    cultural: { pill: "Culturel" },
+    trekking: { pill: "Trekking" },
+    desert: { pill: "Désert" },
+    "day-tours": { pill: "Excursion" },
+    hiking: { pill: "Randonnée" },
   },
   es: {
-    cultural: { pill: "Cultural", cta: "Ver tours culturales →" },
-    trekking: { pill: "Trekking", cta: "Ver trekkings →" },
-    desert: { pill: "Desierto", cta: "Ver tours por el desierto →" },
-    "day-tours": { pill: "Excursión", cta: "Ver excursiones →" },
-    hiking: { pill: "Senderismo", cta: "Ver rutas de senderismo →" },
+    cultural: { pill: "Cultural" },
+    trekking: { pill: "Trekking" },
+    desert: { pill: "Desierto" },
+    "day-tours": { pill: "Excursión" },
+    hiking: { pill: "Senderismo" },
   },
   de: {
-    cultural: { pill: "Kultur", cta: "Kulturtouren ansehen →" },
-    trekking: { pill: "Trekking", cta: "Trekkingtouren ansehen →" },
-    desert: { pill: "Wüste", cta: "Wüstentouren ansehen →" },
-    "day-tours": { pill: "Tagesausflug", cta: "Tagesausflüge ansehen →" },
-    hiking: { pill: "Wandern", cta: "Wandertouren ansehen →" },
+    cultural: { pill: "Kultur" },
+    trekking: { pill: "Trekking" },
+    desert: { pill: "Wüste" },
+    "day-tours": { pill: "Tagesausflug" },
+    hiking: { pill: "Wandern" },
   },
   it: {
-    cultural: { pill: "Cultura", cta: "Scopri i tour culturali →" },
-    trekking: { pill: "Trekking", cta: "Scopri i trekking →" },
-    desert: { pill: "Deserto", cta: "Scopri i tour nel deserto →" },
-    "day-tours": { pill: "Gita", cta: "Scopri le gite giornaliere →" },
-    hiking: { pill: "Escursionismo", cta: "Scopri le escursioni →" },
+    cultural: { pill: "Cultura" },
+    trekking: { pill: "Trekking" },
+    desert: { pill: "Deserto" },
+    "day-tours": { pill: "Gita" },
+    hiking: { pill: "Escursionismo" },
   },
   ar: {
-    cultural: { pill: "ثقافة", cta: "تصفح الجولات الثقافية ←" },
-    trekking: { pill: "تسلق", cta: "تصفح رحلات التسلق ←" },
-    desert: { pill: "صحراء", cta: "تصفح الجولات الصحراوية ←" },
-    "day-tours": { pill: "رحلة يوم", cta: "تصفح جولات اليوم الواحد ←" },
-    hiking: { pill: "مشي", cta: "تصفح رحلات المشي ←" },
+    cultural: { pill: "ثقافة" },
+    trekking: { pill: "تسلق" },
+    desert: { pill: "صحراء" },
+    "day-tours": { pill: "رحلة يوم" },
+    hiking: { pill: "مشي" },
   },
+};
+
+/** English place names, for the tours page filter chip (?place=). Same as ToursMap. */
+export const MAP_PLACE_NAME_EN: Record<string, string> = {
+  "marrakech": "Marrakech",
+  "toubkal": "Jbel Toubkal",
+  "sahara": "Erg Chebbi",
+  "fes": "Fes el-Bali",
+  "chefchaouen": "Chefchaouen",
+  "agadir": "Agadir & Taghazout",
+  "ouzoud": "Ouzoud Falls",
+  "essaouira": "Essaouira",
+  "ait-ben-haddou": "Aït Ben Haddou",
+  "dades": "Dades Gorges",
+  "todra": "Todra Gorge",
+  "zagora": "Zagora",
+  "chegaga": "Erg Chegaga",
+  "agafay": "Agafay Desert",
+  "ourika": "Ourika Valley",
+  "mgoun": "M'Goun Massif",
+  "tafraoute": "Tafraoute",
+  "souss-massa": "Souss-Massa",
+  "rabat": "Rabat",
+  "volubilis": "Volubilis",
 };
 
 export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> = {

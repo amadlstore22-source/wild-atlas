@@ -509,31 +509,10 @@ function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest:
       </h3>
       <p style={{ fontSize: 12, color: ink.sub, margin: "0 0 8px" }}>{dest.subtitle}</p>
       <p style={{ fontSize: 12.5, color: ink.body, lineHeight: 1.58, margin: "0 0 12px" }}>{dest.description}</p>
-      <p
-        style={{
-          fontSize: 10,
-          fontWeight: 700,
-          textTransform: "uppercase",
-          letterSpacing: "0.12em",
-          color: ink.label,
-          margin: "0 0 6px",
-        }}
-      >
-        {dict.map.knownFor}
-      </p>
-      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 5 }}>
-        {dest.known.map((item, i) => (
-          <li
-            key={i}
-            style={{ display: "flex", alignItems: "flex-start", gap: 7, fontSize: 12, color: ink.item, lineHeight: 1.45 }}
-          >
-            <span style={{ color: dest.color, flexShrink: 0, fontSize: 9, marginTop: 2 }}>&#9658;</span>
-            {item}
-          </li>
-        ))}
-      </ul>
       {/* The tours that go here, with their price, so a visitor exploring the
-          map reaches a bookable trip from the panel (lib/map-tours.ts). */}
+          map reaches a bookable trip from the panel (lib/map-tours.ts). They
+          come straight after the description: below "Known for" they sat
+          under the fold of the desktop panel (owner, 2026-10-13). */}
       {tours.length > 0 && (
         <>
           <p
@@ -543,7 +522,7 @@ function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest:
               textTransform: "uppercase",
               letterSpacing: "0.12em",
               color: ink.label,
-              margin: "14px 0 6px",
+              margin: "0 0 6px",
             }}
           >
             {dict.map.toursHere}
@@ -577,7 +556,7 @@ function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest:
         </>
       )}
       <a
-        href={`/${lang}/destinations/${dest.destSlug}`}
+        href={`/${lang}/tours?place=${dest.id}`}
         style={{
           display: "block",
           marginTop: 14,
@@ -592,9 +571,42 @@ function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest:
           letterSpacing: "0.02em",
         }}
       >
-        {/* The arrow is in the dictionary string, pointing the right way for RTL. */}
-        {category.cta}
+        {/* Every tour that goes here, on the tours page (?place=). It linked to
+            the destination page, which the owner found was not what a visitor
+            pressing "Browse" wants. The arrow is in the dictionary string,
+            pointing the right way for RTL. */}
+        {dict.map.allToursHere}
       </a>
+      <p
+        style={{
+          fontSize: 10,
+          fontWeight: 700,
+          textTransform: "uppercase",
+          letterSpacing: "0.12em",
+          color: ink.label,
+          margin: "16px 0 6px",
+        }}
+      >
+        {dict.map.knownFor}
+      </p>
+      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 5 }}>
+        {dest.known.map((item, i) => (
+          <li
+            key={i}
+            style={{ display: "flex", alignItems: "flex-start", gap: 7, fontSize: 12, color: ink.item, lineHeight: 1.45 }}
+          >
+            <span style={{ color: dest.color, flexShrink: 0, fontSize: 9, marginTop: 2 }}>&#9658;</span>
+            {item}
+          </li>
+        ))}
+      </ul>
+      {/* A fade at the foot of the dark sidebar, so it reads as scrollable. */}
+      {dark && (
+        <div
+          aria-hidden
+          style={{ position: "sticky", bottom: -20, height: 32, marginTop: -12, background: "linear-gradient(rgba(20,29,51,0), #141d33)", pointerEvents: "none" }}
+        />
+      )}
     </div>
   );
 }
@@ -788,8 +800,8 @@ export default function ToursMap({ lang, dict, tours, placeText, categoryText }:
                 <div style={{ position: "relative", height: 140, overflow: "hidden", flexShrink: 0 }}>
                   <Image src={selected.image} alt={selected.name} fill sizes="360px" style={{ objectFit: "cover" }} />
                 </div>
-                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
-                  <DetailBody dest={selected} lang={lang} dict={dict} tours={tours[selected.id] ?? []} category={categoryText[selected.slug] ?? { pill: selected.category, cta: dict.map.browseCategoryTours.replace("{category}", selected.category) }} dark />
+                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "thin", scrollbarColor: "rgba(255,255,255,0.28) transparent" }}>
+                  <DetailBody dest={selected} lang={lang} dict={dict} tours={tours[selected.id] ?? []} category={categoryText[selected.slug] ?? { pill: selected.category }} dark />
                 </div>
               </div>
             ) : (
@@ -811,7 +823,7 @@ export default function ToursMap({ lang, dict, tours, placeText, categoryText }:
                 >
                   {dict.map.destinationsCount.replace("{count}", String(places.length))}
                 </div>
-                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "none" }}>
+                <div className="dest-scroll overflow-y-auto flex-1" style={{ scrollbarWidth: "thin", scrollbarColor: "rgba(255,255,255,0.28) transparent" }}>
                   {places.map((dest) => (
                     <button key={dest.id} className="dest-row" onClick={() => pick(dest)}>
                       <span
@@ -936,7 +948,7 @@ export default function ToursMap({ lang, dict, tours, placeText, categoryText }:
                 &times;
               </button>
             </div>
-            <DetailBody dest={selected} lang={lang} dict={dict} tours={tours[selected.id] ?? []} category={categoryText[selected.slug] ?? { pill: selected.category, cta: dict.map.browseCategoryTours.replace("{category}", selected.category) }} />
+            <DetailBody dest={selected} lang={lang} dict={dict} tours={tours[selected.id] ?? []} category={categoryText[selected.slug] ?? { pill: selected.category }} />
           </div>
         )}
       </div>

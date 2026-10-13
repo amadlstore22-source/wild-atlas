@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { MAP_PLACE_MATCH, goesToPlace, mapToursFor } from "@/lib/map-tours";
 import { toursFor } from "@/lib/tours-i18n";
-import { MAP_CATEGORY_TEXT, MAP_PLACE_TEXT } from "@/lib/map-places-i18n";
+import { MAP_CATEGORY_TEXT, MAP_PLACE_NAME_EN, MAP_PLACE_TEXT } from "@/lib/map-places-i18n";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
 const LOCALES: Locale[] = ["en", "fr", "es", "de", "it", "ar"];
@@ -79,5 +79,19 @@ describe("homepage map panels", () => {
     const slugs = new Set([...MAP.matchAll(/^\s+slug: "([^"]+)",$/gm)].map((m) => m[1]));
     for (const lang of LOCALES) for (const slug of slugs) if (!MAP_CATEGORY_TEXT[lang]?.[slug]) missing.push(`${lang}: no category text for ${slug}`);
     expect(missing, `Add them to lib/map-places-i18n.ts:\n  ${missing.join("\n  ")}`).toEqual([]);
+  });
+
+  /**
+   * "Browse … tours" on a map panel went to the destination page; the owner
+   * wanted the tours (2026-10-13). It now opens /tours?place=<id>, which the
+   * tours page filters with the same goesToPlace() as the panel.
+   */
+  it("the panel button opens the tours page filtered to that place", () => {
+    expect(MAP).toContain("href={`/${lang}/tours?place=${dest.id}`}");
+    expect(MAP).not.toMatch(/href=\{`\/\$\{lang\}\/destinations\/\$\{dest\.destSlug\}`\}/);
+    const page = readFileSync(join(ROOT, "app/[lang]/tours/page.tsx"), "utf8");
+    expect(page).toMatch(/goesToPlace\(t, place\)/);
+    const names = Object.fromEntries([...MAP.matchAll(/id: "([^"]+)",\s*name: "([^"]+)",/g)].map((m) => [m[1], m[2]]));
+    expect(MAP_PLACE_NAME_EN, "lib/map-places-i18n.ts MAP_PLACE_NAME_EN must match the map's English names").toEqual(names);
   });
 });

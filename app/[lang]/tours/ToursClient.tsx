@@ -29,6 +29,8 @@ interface Props {
   initialDifficulty?: string;
   initialDuration?: string;
   initialPrice?: string;
+  /** From ?place= (the homepage map): only the tours that go to this place. */
+  placeFilter?: { id: string; name: string; slugs: string[] };
 }
 
 // Price bands operate on the stored EUR price (the base currency) so URLs stay
@@ -45,7 +47,7 @@ const PRICE_BANDS: { id: PriceBand; maxEur: number | null; minEur: number }[] = 
 export default function ToursClient({
   lang, dict, tours, categories,
   initialSearch = "", initialOrigin = "", initialCategory = "", initialDifficulty = "",
-  initialDuration = "", initialPrice = "",
+  initialDuration = "", initialPrice = "", placeFilter,
 }: Props) {
   const router = useRouter();
   const pathname = usePathname();
@@ -57,10 +59,12 @@ export default function ToursClient({
   const [origin, setOriginState] = useState<Origin | "all">((initialOrigin as Origin) || "all");
   const [duration, setDurationState] = useState<DurationBucket | "all">((initialDuration as DurationBucket) || "all");
   const [price, setPriceState] = useState<PriceBand>((initialPrice as PriceBand) || "all");
+  const [place, setPlace] = useState(placeFilter?.id ?? "");
 
   const pushURL = useCallback(
-    (q: string, cat: string, diff: string, orig: string, dur: string, pr: string) => {
+    (q: string, cat: string, diff: string, orig: string, dur: string, pr: string, pl: string = place) => {
       const params = new URLSearchParams();
+      if (pl) params.set("place", pl);
       if (q) params.set("q", q);
       if (cat !== "all") params.set("cat", cat);
       if (diff !== "all") params.set("diff", diff);
@@ -70,7 +74,7 @@ export default function ToursClient({
       const qs = params.toString();
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
     },
-    [router, pathname]
+    [router, pathname, place]
   );
 
   function setSearch(v: string) { setSearchState(v); pushURL(v, category, difficulty, origin, duration, price); }
@@ -122,18 +126,21 @@ export default function ToursClient({
         const matchDuration = duration === "all" || t.durationBucket === duration;
         const band = PRICE_BANDS.find((b) => b.id === price)!;
         const matchPrice = price === "all" || (t.price >= band.minEur && (band.maxEur === null || t.price < band.maxEur));
-        return matchSearch && matchCat && matchDiff && matchOrigin && matchDuration && matchPrice;
+        const matchPlace = !place || !placeFilter || placeFilter.slugs.includes(t.slug);
+        return matchSearch && matchCat && matchDiff && matchOrigin && matchDuration && matchPrice && matchPlace;
       }),
-    [tours, search, category, difficulty, origin, duration, price]
+    [tours, search, category, difficulty, origin, duration, price, place, placeFilter]
   );
 
-  const hasFilters = search !== "" || category !== "all" || difficulty !== "all" || origin !== "all" || duration !== "all" || price !== "all";
+  const hasFilters = search !== "" || category !== "all" || difficulty !== "all" || origin !== "all" || duration !== "all" || price !== "all" || place !== "";
 
   function clearAll() {
     setSearchState(""); setCategoryState("all"); setDifficultyState("all");
-    setOriginState("all"); setDurationState("all"); setPriceState("all");
+    setOriginState("all"); setDurationState("all"); setPriceState("all"); setPlace("");
     router.replace(pathname, { scroll: false });
   }
+
+  function clearPlace() { setPlace(""); pushURL(search, category, difficulty, origin, duration, price, ""); }
 
   const toursFoundText = filtered.length === 1
     ? dict.tours.toursFound.replace("{count}", String(filtered.length))
@@ -150,7 +157,7 @@ export default function ToursClient({
   );
   const isFiltering =
     search !== "" || category !== "all" || difficulty !== "all" ||
-    origin !== "all" || duration !== "all" || price !== "all";
+    origin !== "all" || duration !== "all" || price !== "all" || place !== "";
 
   const chip = (activeState: boolean) =>
     `px-3 py-1.5 rounded-[3px] text-xs font-semibold transition-colors border ${
@@ -292,6 +299,12 @@ export default function ToursClient({
             {/* h2, not p: the hero is h1 and the cards are h3, so without a
                 level-2 here the heading order skips (Lighthouse a11y). The
                 results count is the honest label for this region. */}
+            {place && placeFilter && (
+              <button onClick={clearPlace} className={`${chip(true)} mb-4 inline-flex items-center gap-2`} aria-label={dict.tours.clearFilters}>
+                {dict.tours.placeChip.replace("{place}", placeFilter.name)}
+                <span aria-hidden>&times;</span>
+              </button>
+            )}
             <h2 className="text-ink-muted text-sm font-normal mb-6">{toursFoundText}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* No `priority` on these cards. They sit below the fold, but

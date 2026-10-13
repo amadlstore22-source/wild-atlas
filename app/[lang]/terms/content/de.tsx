@@ -52,14 +52,10 @@ export default function termsDe({ mail }: LegalCtx): LegalDoc {
         body: (
           <ul>
             <li>Eine Buchung ist bestätigt, sobald Ihre Anzahlung bei uns eingegangen ist und wir Ihnen eine schriftliche Bestätigung per E-Mail gesendet haben.</li>
-            <li>
-              Zur Sicherung Ihrer Buchung ist eine Anzahlung erforderlich. Der genaue Betrag steht auf der jeweiligen
-              Tourseite und beträgt in der Regel etwa ein Viertel des Tourpreises. Maßgeblich ist der zum Zeitpunkt
-              der Buchung auf der Tourseite angezeigte Betrag.
-            </li>
-            <li>Der Restbetrag wird <strong>bei Ankunft</strong> zu Beginn Ihrer Tour bar oder mit Karte bezahlt. Vor Ihrer Reise wird nichts weiter berechnet.</li>
+            <li>Zur Sicherung Ihrer Buchung ist eine Anzahlung erforderlich, in der Regel <strong>20 % des Tourpreises</strong>. Der genaue Betrag steht auf der Tourseite oder auf Ihrer Rechnung; dieser Betrag ist maßgeblich.</li>
+            <li>Der Restbetrag wird <strong>bei Ankunft</strong> zu Beginn Ihrer Tour bar (Euro oder Dirham) oder vor dem Termin per Banküberweisung bezahlt. <strong>Kartenzahlungen nehmen wir nicht an.</strong></li>
             <li>Kurzfristige Buchungen werden zu denselben Bedingungen angenommen, sofern verfügbar – die Anzahlung sichert die Termine, der Restbetrag wird bei Ankunft bezahlt.</li>
-            <li>Anzahlungen und Zahlungen erfolgen über <strong>PayPal</strong>. Ist auf der Tourseite kein automatischer Zahlungslink verfügbar, senden wir Ihnen nach Bestätigung Ihrer Buchungsdaten eine PayPal-Zahlungsanforderung per WhatsApp oder E-Mail; Ihre Anzahlung ist gesichert, sobald diese Zahlung abgeschlossen ist. Wir speichern Ihre Karten- oder Bankdaten nicht und haben keinen Zugriff darauf. Es gelten die Bedingungen und Gebühren von PayPal.</li>
+            <li>Die Anzahlung erfolgt per <strong>PayPal</strong> oder <strong>Banküberweisung</strong>. Nach Bestätigung Ihrer Buchung senden wir Ihnen die Zahlungsdaten per WhatsApp oder E-Mail; bitte schicken Sie uns nach der Zahlung einen Screenshot. Gebühren von PayPal oder der Bank für das Senden einer Zahlung tragen Sie. Werden von einer Zahlung Gebühren abgezogen, sodass bei uns weniger als der fällige Betrag eingeht, wird die Differenz zum Restbetrag hinzugerechnet, der zu Reisebeginn fällig ist. Ihre Kartendaten erhalten oder speichern wir nie.</li>
             <li>Preise werden zur Bequemlichkeit in der von Ihnen gewählten Währung (EUR, USD, GBP oder MAD) angezeigt; der vertragliche Preis wird bei der Bestätigung schriftlich vereinbart. Wechselkursschwankungen gehen zu Ihren Lasten.</li>
             <li>Für Gruppenbuchungen ab 6 Personen kann ein individuelles Angebot gelten – kontaktieren Sie uns vor der Buchung.</li>
           </ul>
@@ -73,25 +69,17 @@ export default function termsDe({ mail }: LegalCtx): LegalDoc {
             <h3>Stornierung durch Sie</h3>
             <dl className="tier">
               <dt>14 Tage oder mehr vor Reisebeginn</dt>
-              <dd>Volle Rückerstattung aller geleisteten Zahlungen, einschließlich der Anzahlung.</dd>
-              <dt>8–13 Tage vor Reisebeginn</dt>
-              <dd>50 % des Gesamtpreises der Tour werden berechnet; der Rest wird erstattet.</dd>
-              <dt>7 Tage oder weniger vor Reisebeginn</dt>
-              <dd>Keine Rückerstattung. Der volle Tourpreis verfällt.</dd>
+              <dd>Volle Rückerstattung aller geleisteten Zahlungen einschließlich der Anzahlung, abzüglich der Überweisungsgebühren.</dd>
+              <dt>Weniger als 14 Tage vor Reisebeginn</dt>
+              <dd>Es fällt eine Stornogebühr von 50 % des Gesamtpreises der Tour an. Was Sie darüber hinaus bezahlt haben, wird abzüglich der Überweisungsgebühren erstattet.</dd>
               <dt>Nichterscheinen</dt>
-              <dd>Keine Rückerstattung. Der volle Tourpreis verfällt.</dd>
+              <dd>Keine Rückerstattung. Der volle Tourpreis wird berechnet.</dd>
             </dl>
-            <p>
-              Alle Stornierungen müssen schriftlich an {mail} gerichtet werden. Maßgeblich für die anwendbare Stufe
-              ist das Datum, an dem Ihre schriftliche Stornierung bei uns eingeht.
-            </p>
+            <p>Alle Stornierungen müssen schriftlich an {mail} gerichtet werden. Maßgeblich für die anwendbare Stufe ist das Datum, an dem Ihre schriftliche Stornierung bei uns eingeht.</p>
+            <h3>Rückerstattungen und Überweisungsgebühren</h3>
+            <p>Rückerstattungen unterliegen Überweisungsgebühren: Gebühren von PayPal oder der Bank für das Senden einer Rückerstattung werden vom erstatteten Betrag abgezogen. Das gilt für jede Rückerstattung, unabhängig davon, wer storniert.</p>
             <h3>Stornierung durch uns</h3>
-            <p>
-              Wir behalten uns vor, eine Tour wegen zu weniger Buchungen, extremer Wetterbedingungen,
-              Sicherheitsbedenken, politischer Instabilität, Naturkatastrophen oder höherer Gewalt abzusagen. In diesem
-              Fall erhalten Sie alle an uns geleisteten Zahlungen vollständig zurück. Für zusätzliche Kosten, die Ihnen
-              entstehen (internationale Flüge, Unterkunft, Visa, Reiseversicherung usw.), haften wir nicht.
-            </p>
+            <p>Wir behalten uns vor, eine Tour wegen zu weniger Buchungen, extremer Wetterbedingungen, Sicherheitsbedenken, politischer Instabilität, Naturkatastrophen oder höherer Gewalt abzusagen. In diesem Fall erhalten Sie alle an uns geleisteten Zahlungen vollständig zurück, abzüglich der Überweisungsgebühren. Für zusätzliche Kosten, die Ihnen entstehen (internationale Flüge, Unterkunft, Visa, Reiseversicherung usw.), haften wir nicht.</p>
           </>
         ),
       },

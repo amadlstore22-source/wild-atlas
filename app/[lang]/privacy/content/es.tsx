@@ -51,8 +51,10 @@ export default function privacyEs({ lang, mail }: LegalCtx): LegalDoc {
               <li>Envías una consulta o solicitud de reserva a través de nuestro formulario de contacto (nombre, correo electrónico, teléfono, ruta de interés, fechas de viaje, tamaño del grupo y mensaje)</li>
               <li>Nos contactas directamente por WhatsApp, correo electrónico o teléfono</li>
               <li>Te suscribes a nuestro boletín (solo la dirección de correo electrónico)</li>
-              <li>Completas una reserva y el pago de un depósito (el pago lo procesa PayPal; no recibimos, almacenamos ni tenemos acceso a los datos de tu tarjeta o cuenta bancaria)</li>
+              <li>Completas una reserva y el pago de un depósito (un pago por PayPal lo procesa PayPal, así que nunca recibimos, almacenamos ni vemos los datos de tu tarjeta; la transferencia bancaria se explica más abajo)</li>
               <li>Apareces en fotografías tomadas durante una ruta, cuando te hemos pedido y has dado tu permiso para publicarlas</li>
+              <li>Respondes a la pregunta opcional «¿Cómo nos conociste?» de nuestros formularios</li>
+              <li>Pagas un depósito o el saldo por transferencia bancaria, o nos envías una captura de pantalla de un pago (vemos el nombre de quien paga y los datos de la operación que aparecen)</li>
             </ul>
             <p>
               También tratamos automáticamente una pequeña cantidad de datos técnicos y de preferencias; consulta{" "}
@@ -169,6 +171,8 @@ export default function privacyEs({ lang, mail }: LegalCtx): LegalDoc {
                 en el servidor a partir de fuentes RSS públicas (The Guardian, BBC, NYT Travel y otras). No se envía a
                 estos editores ninguna información que te identifique.
               </li>
+              <li><strong>Google (Gmail y Google Sheets)</strong>: las consultas llegan a la bandeja de entrada de nuestro equipo en Gmail, y cada consulta y reserva (nombre, correo, ruta, fechas, tamaño del grupo, mensaje y cómo nos conociste) se registra en una hoja de cálculo privada de Google Sheets a la que solo accede nuestro equipo. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad de Google</a>.</li>
+              <li><strong>Bancos</strong>: si pagas por transferencia, tu banco y el nuestro procesan el pago, incluidos tu nombre y tus datos bancarios.</li>
             </ul>
           </>
         ),
@@ -213,7 +217,7 @@ export default function privacyEs({ lang, mail }: LegalCtx): LegalDoc {
           <p>
             Adoptamos medidas técnicas y organizativas razonables para proteger tus datos contra el acceso, la
             pérdida o la divulgación no autorizados. Nuestro sitio se sirve exclusivamente por HTTPS con una
-            política de seguridad de contenidos (CSP) estricta. Todos los pagos los gestiona PayPal: nunca
+            política de seguridad de contenidos (CSP) estricta. Los pagos se hacen por PayPal o transferencia bancaria, y el saldo en efectivo: nunca
             recibimos, transmitimos ni almacenamos datos de tarjetas. Los envíos del formulario de contacto se
             entregan a través de Resend mediante conexiones cifradas.
           </p>

@@ -51,14 +51,10 @@ export default function termsEn({ mail }: LegalCtx): LegalDoc {
         body: (
           <ul>
             <li>A booking is confirmed once we have received your deposit and sent you a written confirmation by email.</li>
-            <li>
-              A deposit is required to secure your booking. The exact amount is shown on each tour page and is
-              typically around a quarter of the tour price. The figure displayed on the tour page at the time of
-              booking is the one that applies.
-            </li>
-            <li>The remaining balance is paid <strong>on arrival</strong>, at the start of your tour, in cash or by card. Nothing further is charged before you travel.</li>
+            <li>A deposit is required to secure your booking, normally <strong>20% of the tour price</strong>. The exact amount is shown on the tour page or on your invoice, and that figure is the one that applies.</li>
+            <li>The remaining balance is paid <strong>on arrival</strong>, at the start of your tour, in cash (euros or Moroccan dirhams), or by bank transfer before the date. <strong>We do not accept card payments.</strong></li>
             <li>Last-minute bookings are accepted on the same terms, subject to availability &mdash; the deposit secures the dates and the balance is paid on arrival.</li>
-            <li>Deposits and payments are arranged via <strong>PayPal</strong>. Where an automatic checkout link is not available on the tour page, we send a PayPal payment request by WhatsApp or email once you confirm your booking details, and your deposit is secured once that payment is completed. We do not store or access your card or bank details. PayPal&rsquo;s own terms and fees apply.</li>
+            <li>The deposit is paid by <strong>PayPal</strong> or by <strong>bank transfer</strong>. We send you the payment details by WhatsApp or email once you confirm your booking; please send us a screenshot of the payment once it is made. Any PayPal or bank fees for sending a payment are paid by you. If fees are taken from a payment so that we receive less than the amount due, the difference is added to the balance paid at the start of the trip. We never receive or store your card details.</li>
             <li>Prices are displayed in your chosen currency (EUR, USD, GBP, or MAD) for convenience; the contractual price is agreed in writing on confirmation. Exchange-rate fluctuations are your responsibility.</li>
             <li>Group bookings of 6 or more persons may be subject to a custom quote &mdash; contact us before booking.</li>
           </ul>
@@ -72,25 +68,17 @@ export default function termsEn({ mail }: LegalCtx): LegalDoc {
             <h3>Cancellation by you</h3>
             <dl className="tier">
               <dt>14 days or more before departure</dt>
-              <dd>Full refund of all payments made, including your deposit.</dd>
-              <dt>8&ndash;13 days before departure</dt>
-              <dd>50% of the total tour price is charged; the remainder is refunded.</dd>
-              <dt>7 days or less before departure</dt>
-              <dd>No refund. The full tour price is forfeited.</dd>
+              <dd>Full refund of all payments made, including your deposit, less transfer fees.</dd>
+              <dt>Less than 14 days before departure</dt>
+              <dd>A cancellation fee of 50% of the total tour price applies. Anything you have paid above that is refunded, less transfer fees.</dd>
               <dt>No-show</dt>
-              <dd>No refund. The full tour price is forfeited.</dd>
+              <dd>No refund. The full tour price is charged.</dd>
             </dl>
-            <p>
-              All cancellation requests must be made in writing to {mail}. The date we receive your written
-              cancellation determines which tier applies.
-            </p>
+            <p>All cancellation requests must be made in writing to {mail}. The date we receive your written cancellation determines which tier applies.</p>
+            <h3>Refunds and transfer fees</h3>
+            <p>Refunds are subject to transfer fees: any PayPal or bank fees charged for sending a refund are deducted from the amount we refund. This applies to every refund, whoever cancels.</p>
             <h3>Cancellation by us</h3>
-            <p>
-              We reserve the right to cancel a tour due to insufficient bookings, severe weather, safety concerns,
-              political instability, natural disaster, or force majeure. In such cases you receive a full refund of
-              all payments made to us. We are not liable for additional costs you incur (international flights,
-              accommodation, visas, travel insurance, etc.).
-            </p>
+            <p>We reserve the right to cancel a tour due to insufficient bookings, severe weather, safety concerns, political instability, natural disaster, or force majeure. In such cases you receive a full refund of all payments made to us, less transfer fees. We are not liable for additional costs you incur (international flights, accommodation, visas, travel insurance, etc.).</p>
           </>
         ),
       },

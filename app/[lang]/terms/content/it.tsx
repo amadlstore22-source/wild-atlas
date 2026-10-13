@@ -52,16 +52,12 @@ export default function termsIt({ mail }: LegalCtx): LegalDoc {
         body: (
           <ul>
             <li>Una prenotazione è confermata quando abbiamo ricevuto il tuo acconto e ti abbiamo inviato una conferma scritta via e-mail.</li>
-            <li>
-              Per garantire la prenotazione è richiesto un acconto. L’importo esatto è indicato nella pagina di ciascun
-              tour ed è in genere pari a circa un quarto del prezzo del tour. Si applica la cifra mostrata nella pagina
-              del tour al momento della prenotazione.
-            </li>
-            <li>Il saldo si paga <strong>all’arrivo</strong>, all’inizio del tour, in contanti o con carta. Nient’altro viene addebitato prima della partenza.</li>
+            <li>Per garantire la prenotazione è richiesto un acconto, di norma il <strong>20% del prezzo del tour</strong>. L’importo esatto è indicato nella pagina del tour o nella tua fattura, ed è quello che si applica.</li>
+            <li>Il saldo si paga <strong>all’arrivo</strong>, all’inizio del tour, in contanti (euro o dirham), oppure con bonifico bancario prima della data. <strong>Non accettiamo pagamenti con carta.</strong></li>
             <li>Le prenotazioni dell’ultimo minuto sono accettate alle stesse condizioni, salvo disponibilità: l’acconto blocca le date e il saldo si paga all’arrivo.</li>
-            <li>Acconti e pagamenti avvengono tramite <strong>PayPal</strong>. Se nella pagina del tour non è disponibile un link di pagamento automatico, ti inviamo una richiesta di pagamento PayPal via WhatsApp o e-mail dopo la conferma dei dettagli della prenotazione, e il tuo acconto è garantito non appena il pagamento è completato. Non conserviamo né abbiamo accesso ai dati della tua carta o del tuo conto. Si applicano i termini e le commissioni di PayPal.</li>
-            <li>I prezzi sono mostrati nella valuta che scegli (EUR, USD, GBP o MAD) per comodità; il prezzo contrattuale viene concordato per iscritto alla conferma. Le oscillazioni del cambio sono a tuo carico.</li>
-            <li>Le prenotazioni di gruppi di 6 o più persone possono essere soggette a un preventivo personalizzato: contattaci prima di prenotare.</li>
+            <li>L’acconto si paga tramite <strong>PayPal</strong> o con <strong>bonifico bancario</strong>. Ti inviamo i dati per il pagamento via WhatsApp o e-mail una volta confermata la prenotazione; inviaci uno screenshot del pagamento quando l’hai effettuato. Le commissioni PayPal o bancarie per l’invio di un pagamento sono a tuo carico. Se da un pagamento vengono trattenute commissioni e riceviamo meno dell’importo dovuto, la differenza si aggiunge al saldo da pagare all’inizio del viaggio. Non riceviamo né conserviamo mai i dati della tua carta.</li>
+            <li>I prezzi sono mostrati nella valuta scelta (EUR, USD, GBP o MAD) per comodità; il prezzo contrattuale è concordato per iscritto alla conferma. Le fluttuazioni del cambio sono a tuo carico.</li>
+            <li>Le prenotazioni di gruppo da 6 persone in su possono essere soggette a un preventivo personalizzato: contattaci prima di prenotare.</li>
           </ul>
         ),
       },
@@ -73,25 +69,17 @@ export default function termsIt({ mail }: LegalCtx): LegalDoc {
             <h3>Cancellazione da parte tua</h3>
             <dl className="tier">
               <dt>14 giorni o più prima della partenza</dt>
-              <dd>Rimborso completo di tutti i pagamenti effettuati, acconto incluso.</dd>
-              <dt>Da 8 a 13 giorni prima della partenza</dt>
-              <dd>Viene trattenuto il 50% del prezzo totale del tour; il resto viene rimborsato.</dd>
-              <dt>7 giorni o meno prima della partenza</dt>
-              <dd>Nessun rimborso. Il prezzo totale del tour non viene restituito.</dd>
+              <dd>Rimborso completo di tutti i pagamenti effettuati, acconto compreso, al netto delle commissioni di trasferimento.</dd>
+              <dt>Meno di 14 giorni prima della partenza</dt>
+              <dd>Si applica una penale del 50% del prezzo totale del tour. Quanto hai pagato oltre tale importo ti viene rimborsato, al netto delle commissioni di trasferimento.</dd>
               <dt>Mancata presentazione</dt>
-              <dd>Nessun rimborso. Il prezzo totale del tour non viene restituito.</dd>
+              <dd>Nessun rimborso. Viene addebitato l’intero prezzo del tour.</dd>
             </dl>
-            <p>
-              Tutte le richieste di cancellazione devono essere inviate per iscritto a {mail}. La data in cui
-              riceviamo la tua cancellazione scritta determina quale fascia si applica.
-            </p>
+            <p>Tutte le richieste di cancellazione devono essere inviate per iscritto a {mail}. La data in cui riceviamo la tua cancellazione scritta determina la fascia applicabile.</p>
+            <h3>Rimborsi e commissioni di trasferimento</h3>
+            <p>I rimborsi sono soggetti a commissioni di trasferimento: le commissioni PayPal o bancarie addebitate per l’invio di un rimborso vengono detratte dall’importo rimborsato. Vale per ogni rimborso, chiunque annulli.</p>
             <h3>Cancellazione da parte nostra</h3>
-            <p>
-              Ci riserviamo il diritto di annullare un tour per prenotazioni insufficienti, condizioni meteorologiche
-              avverse, problemi di sicurezza, instabilità politica, calamità naturali o forza maggiore. In tal caso
-              ricevi il rimborso completo di tutti i pagamenti effettuati. Non siamo responsabili dei costi aggiuntivi
-              da te sostenuti (voli internazionali, alloggio, visti, assicurazione di viaggio, ecc.).
-            </p>
+            <p>Ci riserviamo il diritto di annullare un tour per insufficienza di prenotazioni, condizioni meteorologiche estreme, motivi di sicurezza, instabilità politica, calamità naturali o forza maggiore. In tal caso ricevi il rimborso completo di tutti i pagamenti effettuati, al netto delle commissioni di trasferimento. Non siamo responsabili dei costi aggiuntivi da te sostenuti (voli internazionali, alloggio, visti, assicurazione di viaggio, ecc.).</p>
           </>
         ),
       },

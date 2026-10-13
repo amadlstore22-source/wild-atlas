@@ -51,14 +51,10 @@ export default function termsEs({ mail }: LegalCtx): LegalDoc {
         body: (
           <ul>
             <li>Una reserva queda confirmada cuando hemos recibido tu depósito y te hemos enviado una confirmación por escrito por correo electrónico.</li>
-            <li>
-              Se requiere un depósito para garantizar tu reserva. El importe exacto figura en la página de cada ruta y
-              suele ser aproximadamente una cuarta parte del precio. Se aplica la cifra que aparece en la página de la
-              ruta en el momento de la reserva.
-            </li>
-            <li>El saldo restante se paga <strong>a la llegada</strong>, al comienzo de la ruta, en efectivo o con tarjeta. No se cobra nada más antes de tu viaje.</li>
+            <li>Se requiere un depósito para garantizar tu reserva, normalmente el <strong>20 % del precio de la ruta</strong>. El importe exacto figura en la página de la ruta o en tu factura, y es el que se aplica.</li>
+            <li>El saldo restante se paga <strong>a la llegada</strong>, al comienzo de la ruta, en efectivo (euros o dírhams), o por transferencia bancaria antes de la fecha. <strong>No aceptamos pagos con tarjeta.</strong></li>
             <li>Las reservas de última hora se aceptan en las mismas condiciones, según disponibilidad: el depósito asegura las fechas y el saldo se paga a la llegada.</li>
-            <li>Los depósitos y pagos se gestionan a través de <strong>PayPal</strong>. Cuando la página de la ruta no tiene un enlace de pago automático, te enviamos una solicitud de pago de PayPal por WhatsApp o correo electrónico una vez confirmados los datos de tu reserva, y tu depósito queda asegurado en cuanto se completa ese pago. No almacenamos ni tenemos acceso a los datos de tu tarjeta o cuenta bancaria. Se aplican las condiciones y comisiones propias de PayPal.</li>
+            <li>El depósito se paga por <strong>PayPal</strong> o por <strong>transferencia bancaria</strong>. Te enviamos los datos de pago por WhatsApp o correo electrónico una vez confirmada tu reserva; envíanos una captura de pantalla del pago cuando lo hayas hecho. Las comisiones de PayPal o del banco por enviar un pago corren de tu cuenta. Si se descuentan comisiones de un pago y recibimos menos del importe debido, la diferencia se suma al saldo que se paga al inicio del viaje. Nunca recibimos ni guardamos los datos de tu tarjeta.</li>
             <li>Los precios se muestran en la moneda que elijas (EUR, USD, GBP o MAD) por comodidad; el precio contractual se acuerda por escrito en la confirmación. Las fluctuaciones del tipo de cambio corren de tu cuenta.</li>
             <li>Las reservas de grupos de 6 o más personas pueden estar sujetas a un presupuesto personalizado: contáctanos antes de reservar.</li>
           </ul>
@@ -72,25 +68,17 @@ export default function termsEs({ mail }: LegalCtx): LegalDoc {
             <h3>Cancelación por tu parte</h3>
             <dl className="tier">
               <dt>14 días o más antes de la salida</dt>
-              <dd>Reembolso íntegro de todos los pagos realizados, incluido el depósito.</dd>
-              <dt>Entre 8 y 13 días antes de la salida</dt>
-              <dd>Se cobra el 50 % del precio total de la ruta; el resto se reembolsa.</dd>
-              <dt>7 días o menos antes de la salida</dt>
-              <dd>Sin reembolso. Se pierde el precio total de la ruta.</dd>
+              <dd>Reembolso íntegro de todos los pagos realizados, incluido el depósito, menos las comisiones de transferencia.</dd>
+              <dt>Menos de 14 días antes de la salida</dt>
+              <dd>Se aplica una penalización del 50 % del precio total de la ruta. Lo que hayas pagado por encima de esa cantidad se reembolsa, menos las comisiones de transferencia.</dd>
               <dt>No presentación</dt>
-              <dd>Sin reembolso. Se pierde el precio total de la ruta.</dd>
+              <dd>Sin reembolso. Se cobra el precio total de la ruta.</dd>
             </dl>
-            <p>
-              Todas las solicitudes de cancelación deben hacerse por escrito a {mail}. La fecha en que recibimos tu
-              cancelación por escrito determina qué tramo se aplica.
-            </p>
+            <p>Todas las solicitudes de cancelación deben hacerse por escrito a {mail}. La fecha en que recibimos tu cancelación por escrito determina qué tramo se aplica.</p>
+            <h3>Reembolsos y comisiones de transferencia</h3>
+            <p>Los reembolsos están sujetos a comisiones de transferencia: las comisiones de PayPal o del banco por enviar un reembolso se descuentan del importe que reembolsamos. Esto se aplica a todo reembolso, cancele quien cancele.</p>
             <h3>Cancelación por nuestra parte</h3>
-            <p>
-              Nos reservamos el derecho de cancelar una ruta por falta de reservas, condiciones meteorológicas
-              adversas, problemas de seguridad, inestabilidad política, catástrofes naturales o fuerza mayor. En ese
-              caso recibirás el reembolso íntegro de todos los pagos realizados. No somos responsables de los gastos
-              adicionales en que incurras (vuelos internacionales, alojamiento, visados, seguro de viaje, etc.).
-            </p>
+            <p>Nos reservamos el derecho de cancelar una ruta por falta de reservas, condiciones meteorológicas adversas, problemas de seguridad, inestabilidad política, catástrofes naturales o fuerza mayor. En ese caso recibirás el reembolso íntegro de todos los pagos realizados, menos las comisiones de transferencia. No somos responsables de los gastos adicionales en que incurras (vuelos internacionales, alojamiento, visados, seguro de viaje, etc.).</p>
           </>
         ),
       },

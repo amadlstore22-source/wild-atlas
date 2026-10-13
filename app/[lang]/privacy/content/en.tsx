@@ -51,8 +51,10 @@ export default function privacyEn({ lang, mail }: LegalCtx): LegalDoc {
               <li>Submit an enquiry or booking request through our contact form (name, email address, phone number, tour interest, travel dates, group size, and message)</li>
               <li>Contact us via WhatsApp, email, or phone directly</li>
               <li>Subscribe to our newsletter (email address only)</li>
-              <li>Complete a booking and deposit payment (payment is processed by PayPal &mdash; we do not receive, store, or have access to your card or bank details)</li>
+              <li>Complete a booking and deposit payment (a PayPal payment is processed by PayPal, so we never receive, store, or have access to your card details; a bank transfer is covered below)</li>
               <li>Appear in photographs taken on tour, where we have asked for and received your permission to publish them</li>
+              <li>Answer the optional &ldquo;How did you hear about us?&rdquo; question on our forms</li>
+              <li>Pay a deposit or balance by bank transfer, or send us a screenshot of a payment (we see the payer&rsquo;s name and the transaction details it shows)</li>
             </ul>
             <p>
               We also process a small amount of technical and preference data automatically &mdash; see{" "}
@@ -165,6 +167,8 @@ export default function privacyEn({ lang, mail }: LegalCtx): LegalDoc {
                 server-side from public RSS feeds (The Guardian, BBC, NYT Travel, and others). No user-identifying
                 information is sent to these publishers.
               </li>
+              <li><strong>Google (Gmail &amp; Google Sheets)</strong> &mdash; enquiries reach our team inbox on Gmail, and each enquiry and booking (name, email, tour, dates, group size, message, and how you heard about us) is recorded in a private Google Sheet that only our team can open. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>.</li>
+              <li><strong>Banks</strong> &mdash; if you pay by bank transfer, your bank and ours process the payment, including your name and account details.</li>
             </ul>
           </>
         ),
@@ -208,7 +212,7 @@ export default function privacyEn({ lang, mail }: LegalCtx): LegalDoc {
           <p>
             We take reasonable technical and organisational measures to protect your data against unauthorised
             access, loss, or disclosure. Our website is served exclusively over HTTPS with a strict Content Security
-            Policy. All payment processing is handled by PayPal &mdash; we never receive, transmit, or store card
+            Policy. Payments are made by PayPal or bank transfer, and balances in cash &mdash; we never receive, transmit, or store card
             data. Contact form submissions are delivered via Resend over encrypted connections.
           </p>
         ),

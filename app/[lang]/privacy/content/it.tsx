@@ -51,8 +51,10 @@ export default function privacyIt({ lang, mail }: LegalCtx): LegalDoc {
               <li>Invii una richiesta di informazioni o di prenotazione tramite il nostro modulo di contatto (nome, indirizzo e-mail, numero di telefono, tour di interesse, date di viaggio, dimensione del gruppo e messaggio)</li>
               <li>Ci contatti direttamente via WhatsApp, e-mail o telefono</li>
               <li>Ti iscrivi alla nostra newsletter (solo indirizzo e-mail)</li>
-              <li>Completi una prenotazione e il pagamento di un acconto (il pagamento è gestito da PayPal: non riceviamo, conserviamo né abbiamo accesso ai dati della tua carta o del tuo conto)</li>
+              <li>Completi una prenotazione e il pagamento di un acconto (un pagamento PayPal è gestito da PayPal: non riceviamo, conserviamo né vediamo mai i dati della tua carta; per il bonifico vedi più sotto)</li>
               <li>Compari in fotografie scattate durante un tour, quando ti abbiamo chiesto e abbiamo ottenuto il permesso di pubblicarle</li>
+              <li>Rispondi alla domanda facoltativa «Come ci hai conosciuto?» nei nostri moduli</li>
+              <li>Paghi un acconto o il saldo con bonifico bancario, o ci invii uno screenshot di un pagamento (vediamo il nome di chi paga e i dati della transazione che vi compaiono)</li>
             </ul>
             <p>
               Trattiamo inoltre automaticamente una piccola quantità di dati tecnici e di preferenza — vedi{" "}
@@ -170,6 +172,8 @@ export default function privacyIt({ lang, mail }: LegalCtx): LegalDoc {
                 recuperati lato server da feed RSS pubblici (The Guardian, BBC, NYT Travel e altri). A questi editori
                 non viene inviata alcuna informazione che possa identificarti.
               </li>
+              <li><strong>Google (Gmail e Google Sheets)</strong>: le richieste arrivano nella casella del nostro team su Gmail, e ogni richiesta e prenotazione (nome, e-mail, tour, date, numero di persone, messaggio e come ci hai conosciuto) viene registrata in un foglio Google Sheets privato, accessibile solo al nostro team. Vedi l’<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">informativa sulla privacy di Google</a>.</li>
+              <li><strong>Banche</strong>: se paghi con bonifico, la tua banca e la nostra elaborano il pagamento, compresi il tuo nome e le tue coordinate bancarie.</li>
             </ul>
           </>
         ),
@@ -215,7 +219,7 @@ export default function privacyIt({ lang, mail }: LegalCtx): LegalDoc {
           <p>
             Adottiamo misure tecniche e organizzative ragionevoli per proteggere i tuoi dati da accessi, perdite o
             divulgazioni non autorizzati. Il nostro sito è servito esclusivamente tramite HTTPS con una rigorosa
-            Content Security Policy. Tutti i pagamenti sono gestiti da PayPal: non riceviamo, trasmettiamo né
+            Content Security Policy. I pagamenti avvengono tramite PayPal o bonifico bancario, e il saldo in contanti: non riceviamo, trasmettiamo né
             conserviamo mai dati delle carte. I messaggi del modulo di contatto vengono recapitati tramite Resend su
             connessioni cifrate.
           </p>

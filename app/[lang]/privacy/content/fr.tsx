@@ -52,8 +52,10 @@ export default function privacyFr({ lang, mail }: LegalCtx): LegalDoc {
               <li>Envoyez une demande d’information ou de réservation via notre formulaire de contact (nom, adresse e-mail, numéro de téléphone, circuit souhaité, dates de voyage, taille du groupe et message)</li>
               <li>Nous contactez directement par WhatsApp, e-mail ou téléphone</li>
               <li>Vous abonnez à notre newsletter (adresse e-mail uniquement)</li>
-              <li>Effectuez une réservation et le paiement d’un acompte (le paiement est traité par PayPal — nous ne recevons, ne conservons et n’avons accès à aucune de vos coordonnées bancaires ou de carte)</li>
+              <li>Effectuez une réservation et le paiement d’un acompte (un paiement PayPal est traité par PayPal : nous ne recevons, ne conservons et ne voyons jamais vos coordonnées de carte ; le virement bancaire est traité ci-dessous)</li>
               <li>Apparaissez sur des photos prises pendant un circuit, lorsque nous vous avons demandé et avons obtenu votre accord pour les publier</li>
+              <li>Répondez à la question facultative « Comment nous avez-vous connus ? » de nos formulaires</li>
+              <li>Réglez un acompte ou le solde par virement bancaire, ou nous envoyez une capture d’écran d’un paiement (nous voyons le nom du payeur et les détails de la transaction qui y figurent)</li>
             </ul>
             <p>
               Nous traitons aussi automatiquement une petite quantité de données techniques et de préférences — voir{" "}
@@ -172,6 +174,8 @@ export default function privacyFr({ lang, mail }: LegalCtx): LegalDoc {
                 côté serveur depuis des flux RSS publics (The Guardian, BBC, NYT Travel et d’autres). Aucune
                 information permettant de vous identifier n’est transmise à ces éditeurs.
               </li>
+              <li><strong>Google (Gmail et Google Sheets)</strong> — les demandes arrivent dans la boîte de réception de notre équipe sur Gmail, et chaque demande et réservation (nom, e-mail, circuit, dates, taille du groupe, message et comment vous nous avez connus) est enregistrée dans un tableur Google Sheets privé, accessible à notre seule équipe. Voir la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">politique de confidentialité de Google</a>.</li>
+              <li><strong>Banques</strong> — si vous payez par virement, votre banque et la nôtre traitent le paiement, y compris votre nom et vos coordonnées bancaires.</li>
             </ul>
           </>
         ),
@@ -217,7 +221,7 @@ export default function privacyFr({ lang, mail }: LegalCtx): LegalDoc {
           <p>
             Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données contre
             tout accès, perte ou divulgation non autorisés. Notre site est servi exclusivement en HTTPS avec une
-            politique de sécurité du contenu (CSP) stricte. Tous les paiements sont traités par PayPal — nous ne
+            politique de sécurité du contenu (CSP) stricte. Les paiements se font par PayPal ou virement bancaire, et le solde en espèces — nous ne
             recevons, ne transmettons ni ne conservons jamais de données de carte. Les messages du formulaire de
             contact sont acheminés par Resend via des connexions chiffrées.
           </p>

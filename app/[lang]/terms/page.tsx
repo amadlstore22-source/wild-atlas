@@ -13,7 +13,7 @@ import ar from "./content/ar";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "2026-07-21";
+const UPDATED = "2026-10-13";
 
 /**
  * One content file per language. Until 2026-10-03 this page existed only in

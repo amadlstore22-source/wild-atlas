@@ -53,14 +53,10 @@ export default function termsFr({ mail }: LegalCtx): LegalDoc {
         body: (
           <ul>
             <li>Une réservation est confirmée dès que nous avons reçu votre acompte et vous avons envoyé une confirmation écrite par e-mail.</li>
-            <li>
-              Un acompte est exigé pour garantir votre réservation. Son montant exact est indiqué sur la page de
-              chaque circuit et représente généralement environ un quart du prix du circuit. Le montant affiché sur
-              la page du circuit au moment de la réservation est celui qui s’applique.
-            </li>
-            <li>Le solde est réglé <strong>à l’arrivée</strong>, au début de votre circuit, en espèces ou par carte. Rien d’autre n’est prélevé avant votre voyage.</li>
+            <li>Un acompte est exigé pour garantir votre réservation, normalement <strong>20 % du prix du circuit</strong>. Le montant exact figure sur la page du circuit ou sur votre facture, et c’est ce montant qui s’applique.</li>
+            <li>Le solde est réglé <strong>à l’arrivée</strong>, au début de votre circuit, en espèces (euros ou dirhams), ou par virement bancaire avant la date. <strong>Nous n’acceptons pas le paiement par carte.</strong></li>
             <li>Les réservations de dernière minute sont acceptées aux mêmes conditions, sous réserve de disponibilité — l’acompte garantit les dates et le solde est réglé à l’arrivée.</li>
-            <li>Les acomptes et paiements sont effectués via <strong>PayPal</strong>. Lorsqu’aucun lien de paiement automatique n’est disponible sur la page du circuit, nous vous envoyons une demande de paiement PayPal par WhatsApp ou par e-mail une fois les détails de votre réservation confirmés, et votre acompte est garanti dès que ce paiement est effectué. Nous ne conservons pas vos coordonnées bancaires ou de carte et n’y avons pas accès. Les conditions et frais propres à PayPal s’appliquent.</li>
+            <li>L’acompte se règle par <strong>PayPal</strong> ou par <strong>virement bancaire</strong>. Nous vous envoyons les coordonnées de paiement par WhatsApp ou par e-mail une fois votre réservation confirmée ; merci de nous envoyer une capture d’écran du paiement une fois effectué. Les éventuels frais PayPal ou bancaires liés à l’envoi d’un paiement sont à votre charge. Si des frais sont prélevés sur un paiement et que nous recevons moins que le montant dû, la différence est ajoutée au solde réglé au début du voyage. Nous ne recevons ni ne conservons jamais vos coordonnées de carte.</li>
             <li>Les prix sont affichés dans la devise de votre choix (EUR, USD, GBP ou MAD) pour votre commodité ; le prix contractuel est convenu par écrit lors de la confirmation. Les fluctuations de change sont à votre charge.</li>
             <li>Les réservations de groupe de 6 personnes ou plus peuvent faire l’objet d’un devis sur mesure — contactez-nous avant de réserver.</li>
           </ul>
@@ -74,26 +70,17 @@ export default function termsFr({ mail }: LegalCtx): LegalDoc {
             <h3>Annulation de votre part</h3>
             <dl className="tier">
               <dt>14 jours ou plus avant le départ</dt>
-              <dd>Remboursement intégral de tous les paiements effectués, acompte compris.</dd>
-              <dt>8 à 13 jours avant le départ</dt>
-              <dd>50 % du prix total du circuit est retenu ; le reste est remboursé.</dd>
-              <dt>7 jours ou moins avant le départ</dt>
-              <dd>Aucun remboursement. La totalité du prix du circuit est due.</dd>
+              <dd>Remboursement intégral de tous les paiements effectués, acompte compris, déduction faite des frais de transfert.</dd>
+              <dt>Moins de 14 jours avant le départ</dt>
+              <dd>Des frais d’annulation de 50 % du prix total du circuit s’appliquent. Ce que vous avez payé au-delà vous est remboursé, déduction faite des frais de transfert.</dd>
               <dt>Non-présentation</dt>
               <dd>Aucun remboursement. La totalité du prix du circuit est due.</dd>
             </dl>
-            <p>
-              Toute demande d’annulation doit être faite par écrit à {mail}. La date de réception de votre annulation
-              écrite détermine le palier applicable.
-            </p>
+            <p>Toute demande d’annulation doit être faite par écrit à {mail}. La date de réception de votre annulation écrite détermine le palier applicable.</p>
+            <h3>Remboursements et frais de transfert</h3>
+            <p>Les remboursements sont soumis aux frais de transfert : les frais PayPal ou bancaires facturés pour l’envoi d’un remboursement sont déduits du montant remboursé. Cela s’applique à tout remboursement, quelle que soit la partie qui annule.</p>
             <h3>Annulation de notre part</h3>
-            <p>
-              Nous nous réservons le droit d’annuler un circuit en raison d’un nombre insuffisant de réservations, de
-              conditions météorologiques extrêmes, de problèmes de sécurité, d’instabilité politique, de catastrophe
-              naturelle ou de force majeure. Dans ce cas, vous êtes intégralement remboursé de tous les paiements
-              effectués. Nous ne sommes pas responsables des frais supplémentaires que vous auriez engagés (vols
-              internationaux, hébergement, visas, assurance voyage, etc.).
-            </p>
+            <p>Nous nous réservons le droit d’annuler un circuit en raison d’un nombre insuffisant de réservations, de conditions météorologiques extrêmes, de problèmes de sécurité, d’instabilité politique, de catastrophe naturelle ou de force majeure. Dans ce cas, vous êtes intégralement remboursé de tous les paiements effectués, déduction faite des frais de transfert. Nous ne sommes pas responsables des frais supplémentaires que vous auriez engagés (vols internationaux, hébergement, visas, assurance voyage, etc.).</p>
           </>
         ),
       },

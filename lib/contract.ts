@@ -112,8 +112,8 @@ const T = {
     footer:
       "Precios en euros. Este documento recoge las condiciones acordadas por correo electrónico y sustituye a cualquier acuerdo previo sobre el mismo viaje. La conformidad del cliente puede expresarse por correo electrónico o mediante firma.",
     terms: (dep: string, bal: string, lang: string, days: number) => [
-      `<strong>Confirmación.</strong> La reserva queda confirmada en el momento en que se recibe el depósito de ${dep}. El resto, ${bal}, se abona a la llegada, en efectivo o con tarjeta.`,
-      `<strong>Cancelación gratuita hasta 14 días antes de la salida.</strong> Las cancelaciones dentro de los 14 días previos están sujetas a una tarifa del 50 %. La no presentación se cobra íntegramente. <em>Estas son las mismas condiciones publicadas en marrakechecotours.com.</em>`,
+      `<strong>Confirmación.</strong> La reserva queda confirmada en el momento en que se recibe el depósito de ${dep}. El resto, ${bal}, se abona a la llegada, en efectivo (euros o dírhams) o por transferencia bancaria. Las comisiones de pago (PayPal o banco) corren a cargo del cliente; si reducen un pago que recibimos, la diferencia se suma al saldo.`,
+      `<strong>Cancelación gratuita hasta 14 días antes de la salida.</strong> Las cancelaciones dentro de los 14 días previos están sujetas a una tarifa del 50 %. La no presentación se cobra íntegramente. Los reembolsos se hacen menos las comisiones de transferencia (comisiones de PayPal o del banco por enviar el reembolso). <em>Estas son las mismas condiciones publicadas en marrakechecotours.com.</em>`,
       `<strong>Idioma.</strong> El conductor-guía habla ${lang} y acompaña al grupo durante los ${days} días completos. No se trata de una persona distinta en cada tramo.`,
       `<strong>Alojamiento.</strong> Los establecimientos indicados arriba están garantizados. Si por causa de fuerza mayor alguno no estuviera disponible, se sustituirá por otro de categoría igual o superior, previa comunicación al cliente.`,
       `<strong>Vehículo privado.</strong> El grupo viaja solo, sin otros viajeros, durante todo el recorrido.`,
@@ -158,8 +158,8 @@ const T = {
     footer:
       "Prices in euro. This document records the terms agreed by email and supersedes any previous agreement covering the same trip. The client may confirm acceptance by email or by signature.",
     terms: (dep: string, bal: string, lang: string, days: number) => [
-      `<strong>Confirmation.</strong> The booking is confirmed once the deposit of ${dep} is received. The balance of ${bal} is paid on arrival, in cash (euros or dirhams) or by bank transfer.`,
-      `<strong>Free cancellation up to 14 days before departure.</strong> Cancellations within 14 days are subject to a 50% fee. No-shows are charged in full. <em>These are the same terms published on marrakechecotours.com.</em>`,
+      `<strong>Confirmation.</strong> The booking is confirmed once the deposit of ${dep} is received. The balance of ${bal} is paid on arrival, in cash (euros or dirhams) or by bank transfer. Payment fees (PayPal or bank) are paid by the client; if fees reduce a payment we receive, the difference is added to the balance.`,
+      `<strong>Free cancellation up to 14 days before departure.</strong> Cancellations within 14 days are subject to a 50% fee. No-shows are charged in full. Refunds are made less transfer fees (PayPal or bank fees for sending the refund). <em>These are the same terms published on marrakechecotours.com.</em>`,
       `<strong>Language.</strong> The driver-guide speaks ${lang} and accompanies the group for all ${days} full days. This is not a different person on each leg.`,
       `<strong>Accommodation.</strong> The properties named above are guaranteed. Should one become unavailable through force majeure, it will be replaced by one of equal or higher standard, and the client informed beforehand.`,
       `<strong>Private vehicle.</strong> The group travels alone, with no other travellers, for the whole route.`,
@@ -215,8 +215,8 @@ const T = {
     footer:
       "Prix en euros. Ce document reprend les conditions convenues par courriel et remplace tout accord antérieur portant sur le même voyage. Le client peut donner son accord par courriel ou par signature.",
     terms: (dep: string, bal: string, lang: string, days: number) => [
-      `<strong>Confirmation.</strong> La réservation est confirmée dès réception de l'acompte de ${dep}. Le solde, ${bal}, se règle le premier jour, en espèces ou par virement préalable.`,
-      `<strong>Annulation gratuite jusqu'à 14 jours avant le départ.</strong> Les annulations dans les 14 jours précédant le départ sont soumises à des frais de 50 %. En cas de non-présentation, la totalité est due. <em>Ce sont les conditions publiées sur marrakechecotours.com.</em>`,
+      `<strong>Confirmation.</strong> La réservation est confirmée dès réception de l'acompte de ${dep}. Le solde, ${bal}, se règle le premier jour, en espèces ou par virement préalable. Les frais de paiement (PayPal ou banque) sont à la charge du client ; s'ils réduisent un paiement reçu, la différence est ajoutée au solde.`,
+      `<strong>Annulation gratuite jusqu'à 14 jours avant le départ.</strong> Les annulations dans les 14 jours précédant le départ sont soumises à des frais de 50 %. En cas de non-présentation, la totalité est due. Les remboursements sont effectués déduction faite des frais de transfert (frais PayPal ou bancaires liés à l'envoi du remboursement). <em>Ce sont les conditions publiées sur marrakechecotours.com.</em>`,
       `<strong>Langue.</strong> Le chauffeur-guide parle ${lang} et accompagne le groupe pendant les ${days} journées complètes. Il ne s'agit pas d'une personne différente sur chaque étape.`,
       `<strong>Hébergement.</strong> Les établissements indiqués ci-dessus sont garantis. Si l'un d'eux devenait indisponible pour cause de force majeure, il serait remplacé par un établissement de catégorie égale ou supérieure, le client en étant informé au préalable.`,
       `<strong>Véhicule privé.</strong> Le groupe voyage seul, sans autres voyageurs, pendant tout le circuit.`,

@@ -51,8 +51,10 @@ export default function privacyDe({ lang, mail }: LegalCtx): LegalDoc {
               <li>über unser Kontaktformular eine Anfrage oder Buchungsanfrage senden (Name, E-Mail-Adresse, Telefonnummer, gewünschte Tour, Reisedaten, Gruppengröße und Nachricht)</li>
               <li>uns direkt per WhatsApp, E-Mail oder Telefon kontaktieren</li>
               <li>unseren Newsletter abonnieren (nur E-Mail-Adresse)</li>
-              <li>eine Buchung und eine Anzahlung tätigen (die Zahlung wird von PayPal abgewickelt – wir erhalten, speichern oder sehen Ihre Karten- oder Bankdaten nicht)</li>
+              <li>eine Buchung und eine Anzahlung tätigen (eine PayPal-Zahlung wickelt PayPal ab – Ihre Kartendaten erhalten, speichern oder sehen wir nie; zur Banküberweisung siehe unten)</li>
               <li>auf Fotos erscheinen, die während einer Tour aufgenommen wurden, sofern wir Sie um Erlaubnis zur Veröffentlichung gebeten und diese erhalten haben</li>
+              <li>die optionale Frage „Wie haben Sie von uns erfahren?“ in unseren Formularen beantworten</li>
+              <li>eine Anzahlung oder den Restbetrag per Banküberweisung bezahlen oder uns einen Screenshot einer Zahlung schicken (wir sehen den Namen des Zahlenden und die darauf sichtbaren Transaktionsdaten)</li>
             </ul>
             <p>
               Außerdem verarbeiten wir automatisch eine kleine Menge technischer und Präferenzdaten – siehe{" "}
@@ -169,6 +171,8 @@ export default function privacyDe({ lang, mail }: LegalCtx): LegalDoc {
                 öffentlichen RSS-Feeds abgerufen (The Guardian, BBC, NYT Travel und andere). Dabei werden keine
                 Informationen an diese Anbieter übermittelt, die Sie identifizieren könnten.
               </li>
+              <li><strong>Google (Gmail und Google Sheets)</strong> – Anfragen gehen in das Gmail-Postfach unseres Teams, und jede Anfrage und Buchung (Name, E-Mail, Tour, Daten, Gruppengröße, Nachricht und wie Sie von uns erfahren haben) wird in einer privaten Google-Sheets-Tabelle erfasst, auf die nur unser Team zugreifen kann. Siehe die <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Google</a>.</li>
+              <li><strong>Banken</strong> – wenn Sie per Überweisung bezahlen, verarbeiten Ihre und unsere Bank die Zahlung einschließlich Ihres Namens und Ihrer Kontodaten.</li>
             </ul>
           </>
         ),
@@ -214,7 +218,7 @@ export default function privacyDe({ lang, mail }: LegalCtx): LegalDoc {
           <p>
             Wir treffen angemessene technische und organisatorische Maßnahmen, um Ihre Daten vor unbefugtem Zugriff,
             Verlust oder unbefugter Offenlegung zu schützen. Unsere Website wird ausschließlich über HTTPS mit einer
-            strengen Content Security Policy ausgeliefert. Alle Zahlungen wickelt PayPal ab – wir erhalten,
+            strengen Content Security Policy ausgeliefert. Zahlungen erfolgen per PayPal oder Banküberweisung, der Restbetrag bar – wir erhalten,
             übertragen oder speichern niemals Kartendaten. Nachrichten aus dem Kontaktformular werden über Resend
             mittels verschlüsselter Verbindungen zugestellt.
           </p>

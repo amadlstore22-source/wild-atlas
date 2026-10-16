@@ -18,6 +18,6 @@ export const STATS = {
   guidingHeritageYears: 30,
   travellers: "1,000+",
   rating: TRIPADVISOR.rating,       // 5.0 — keep TripAdvisor as the rating source
-  reviewCount: TRIPADVISOR.reviewCount, // 122
+  reviewCount: TRIPADVISOR.reviewCount,
   tourCount: TOURS.length,          // 33, computed — never hand-maintained
 } as const;

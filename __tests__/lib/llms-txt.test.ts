@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { TOURS } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
+import { TRIPADVISOR } from "@/lib/constants";
 
 /**
  * public/llms.txt claimed "the full catalogue of 41 tours". There are 46.
@@ -71,7 +72,10 @@ describe("public/llms.txt", () => {
     // These are asserted rather than generated because they are prose, but a
     // change to the underlying constant must not leave llms.txt behind.
     expect(LLMS, "llms.txt no longer names the 2010 founding").toContain("2010");
-    expect(LLMS, "llms.txt no longer carries the TripAdvisor rating").toMatch(/5\.0\/5[^\n]*122 reviews/);
+    // Read from TRIPADVISOR rather than a literal: the count was "122" here and
+    // in llms.txt while the live listing had moved on to 127 (2026-10-14).
+    const rating = `${TRIPADVISOR.rating.toFixed(1)}/5 on TripAdvisor (${TRIPADVISOR.reviewCount} reviews)`;
+    expect(LLMS, `llms.txt must say "${rating}", matching TRIPADVISOR in lib/constants.ts`).toContain(rating);
   });
 
   it("uses absolute https URLs on the canonical host", () => {

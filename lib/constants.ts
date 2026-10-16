@@ -143,9 +143,9 @@ export const TRIPADVISOR = {
     "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Marrakech_Eco_Tours-Marrakech_Marrakech_Safi.html",
   listingName: "Marrakech Eco Tours",
   rating: 5.0,
-  reviewCount: 122,
-  ranking: 310,
-  rankingOutOf: 3979,
+  reviewCount: 127,
+  ranking: 206,
+  rankingOutOf: 4109,
 } as const;
 
 // Trustpilot profile, claimed by the owner 2026-09-29. Plain links only: the
@@ -157,11 +157,14 @@ export const TRUSTPILOT = {
   writeReviewUrl: "https://www.trustpilot.com/evaluate/marrakechecotours.com",
 } as const;
 
-// Google Business Profile review link. To activate the Google button on the
-// /review page, replace PLACE_ID with the real Place ID (find it via Google's
-// Place ID Finder) — the URL below opens the "write a review" dialog directly.
-// Leave empty ("") to hide the Google button until you have it.
-export const GOOGLE_REVIEW_URL = "";
+// Google Business Profile, created by the owner 2026-10-14 as a service-area
+// business (address hidden). The review link is the profile's own "Ask for
+// reviews" short link; it opens the "write a review" dialog and powers the
+// Google button on /review (hidden while empty). The profile URL is the
+// listing's CID (0xe1ec4d668fa78dbf in the Maps data), checked to open
+// "Marrakech Eco Tours" on Google Maps; it goes in Organization `sameAs`.
+export const GOOGLE_REVIEW_URL = "https://g.page/r/Cb-Np49mTezhEBM/review";
+export const GOOGLE_PROFILE_URL = "https://www.google.com/maps?cid=16279471855929626047";
 
 export const WHATSAPP_MESSAGES = {
   general: "Hello! I'm interested in booking a tour with Marrakech Eco Tours.",

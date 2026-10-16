@@ -76,7 +76,10 @@ export default async function ReviewPage({ params }: LangParams) {
                 <Star key={i} weight="fill" className="w-7 h-7 text-sunset" />
               ))}
             </div>
-            <h1 className="font-display text-3xl sm:text-4xl font-bold leading-tight">{t.heading}</h1>
+            {/* text-white is explicit: headings take --color-ink from globals.css
+                rather than inheriting the card's white, so without it the
+                heading rendered dark on this dark band. */}
+            <h1 className="font-display text-3xl sm:text-4xl font-bold leading-tight text-white">{t.heading}</h1>
             <p className="text-white/80 text-sm leading-relaxed mt-4 max-w-md mx-auto">{t.sub}</p>
           </div>
 

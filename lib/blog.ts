@@ -5886,9 +5886,9 @@ any Moroccan operator keeps it with the people running the camp.
     seoDescription:
       "What a Sahara desert tour from Agadir costs in 2026: 2-day, 3-day and 4-day routes compared, why Agadir trips reach Erg Chegaga rather than Merzouga.",
     faq: [
-      { q: "How much does a Sahara tour from Agadir cost?", a: "Our [2-day Erg Chegaga trip](/en/tours/sahara-2day-agadir) is €400 per person for two (€790 solo), the [3-day private Chegaga route](/en/tours/erg-chegaga-3day-agadir) is €327 and the [4-day route to Erg Chebbi](/en/tours/desert-4day-agadir) is €519. The 2-day is cheapest per trip but involves roughly 16 hours of driving across two days, so the cost per hour actually in the dunes is the highest of the three." },
+      { q: "How much does a Sahara tour from Agadir cost?", a: "Our [2-day Erg Chegaga trip](/en/tours/sahara-2day-agadir) is €400 per person for two (€790 solo), the [3-day private Chegaga route](/en/tours/erg-chegaga-3day-agadir) is €605 and the [4-day route to Erg Chebbi](/en/tours/desert-4day-agadir) is €519, also per person for two. The 2-day is cheapest per trip but involves roughly 16 hours of driving across two days, so the cost per hour actually in the dunes is the highest of the three." },
       { q: "Why do Agadir desert tours go to Erg Chegaga instead of Merzouga?", a: "Geography. Erg Chegaga is roughly 450 km from Agadir via Tata and Foum Zguid; Merzouga is around 700 km. On a 2-day trip Chegaga is reachable and Merzouga is not, which is why the short Agadir itineraries head there. The 4-day route has the time to reach Erg Chebbi at Merzouga instead." },
-      { q: "Is 2 days enough for a desert trip from Agadir?", a: "It is enough to sleep in the dunes, which is the thing most people came for. It is not a relaxed trip: roughly 8 hours of driving each way, a sunset camel trek in, a night at camp, a dawn camel trek and the drive back. If you want more desert and less vehicle, the 3-day gives you two camp nights for €150 more." },
+      { q: "Is 2 days enough for a desert trip from Agadir?", a: "It is enough to sleep in the dunes, which is the thing most people came for. It is not a relaxed trip: roughly 8 hours of driving each way, a sunset camel trek in, a night at camp, a dawn camel trek and the drive back. If you want more desert and less vehicle, the 3-day splits the drive with a hotel night on the way, for €205 more per person (for two)." },
       { q: "What is not included in an Agadir desert tour?", a: "On the 2-day: lunch on day one, personal items and tips. On the 4-day: lunches throughout at roughly €12–15 each, the optional Atlas Film Studios ticket (~€7), alcoholic drinks, travel insurance and tips. Accommodation, dinners, breakfasts, camel treks and all transport are included on every route." },
     ],
     content: `
@@ -5901,10 +5901,10 @@ photographs — is around 700 km away.
 That single fact shapes every desert itinerary from Agadir, and it is why a coastal
 desert trip costs differently from the same trip out of Marrakech.
 
-| Route | Price pp | Nights | Reaches |
+| Route | Price pp, for two | Nights | Reaches |
 |---|---|---|---|
 | [2-day Erg Chegaga](/en/tours/sahara-2day-agadir) | €400 | 1 (camp) | Erg Chegaga |
-| [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €327 | 2 (hotel + camp) | Erg Chegaga |
+| [3-day Erg Chegaga, private](/en/tours/erg-chegaga-3day-agadir) | €605 | 2 (hotel + camp) | Erg Chegaga |
 | [4-day Erg Chebbi](/en/tours/desert-4day-agadir) | €519 | 3 (hotel + camp + hotel) | Merzouga |
 
 ## The 2-day trip, honestly
@@ -5922,13 +5922,13 @@ That is a genuine desert night. It is not a leisurely trip, and anyone selling i
 is not being straight with you. If the driving sounds like too much, the honest advice is
 to take the 3-day rather than to expect the 2-day to feel different.
 
-## Why the 3-day costs €150 more
+## Why the 3-day costs €205 more
 
-The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €327 against €400 which looks
+The [3-day route](/en/tours/erg-chegaga-3day-agadir) is €605 per person for two against €400, which looks
 steep for one extra day. Three things change:
 
 - **The drive is split over two days** with a hotel night in Foum Zguid, rather than 8 hours out and 8 hours back on consecutive days
-- **Private 4x4** with an off-road guide, rather than shared transport
+- **An off-road guide** for the 4x4 crossing into the dunes
 - **Smaller group** — 2–8 rather than 2–10
 
 Per hour actually spent in the dunes, the 3-day is considerably better value. The 2-day is
@@ -5936,12 +5936,12 @@ better value only if your constraint is time rather than money.
 
 ## The 4-day to Merzouga
 
-From €482 solo, €319 each at four, and the only Agadir route that reaches **Erg Chebbi**. Three nights: a hotel in the
+From €1,037 solo, €319 each at four, and the only Agadir route that reaches **Erg Chebbi**. Three nights: a hotel in the
 Dades Valley, a Berber camp at Erg Chebbi, and a hotel in Ouarzazate. Sunset and sunrise
 camel treks, mineral water and mint tea throughout, and a bilingual driver-guide.
 
 Erg Chebbi's dunes are higher and the erg is larger than Chegaga's. Whether that justifies
-the 3-day over the 2-day depends on how much a specific dune sea matters to you — both are real
+the 4-day over the 2-day depends on how much a specific dune sea matters to you — both are real
 Sahara, and Chegaga is markedly quieter.
 
 ## What is excluded, by route
@@ -6574,7 +6574,7 @@ Here is what that looks like on our [3-day Sahara tour](/en/tours/sahara-3day-ma
 | 1 | €690 | €690 |
 | 2 | €380 | €760 |
 | 3 | €320 | €960 |
-| 4 | €295 | €1,300 |
+| 4 | €295 | €1,180 |
 | 5 | €260 | €1,300 |
 | 6 | €230 | €1,380 |
 
@@ -7386,7 +7386,7 @@ walking with mules carrying the bags. Short days, real Berber villages, and noth
 technical. About €257 per person at four. Our guide to [trekking the Atlas with kids](/en/blog/atlas-mountains-trek-with-kids) covers ages, altitude and the mules in detail.
 
 **[Ourika Valley day hike](/en/tours/ourika-valley-day-hike)** — an hour from Marrakech,
-water to paddle in, and back for dinner. Roughly €31 each for a family of four.
+water to paddle in, and back for dinner. Roughly €69 each for a family of four.
 
 **[Ouzoud waterfalls](/en/tours/ouzoud-waterfalls-day-trip)** — wild macaques and a big
 waterfall. Universally popular with children; about €27 each at four.
@@ -8509,13 +8509,13 @@ For the remote side of the Sahara, the [3-day Erg Chegaga expedition from Marrak
     tags: ["Toubkal", "Sahara", "Erg Chebbi", "trekking", "Morocco"],
     seoTitle: "8-Day Toubkal and Sahara Tour Cost",
     seoDescription:
-      "What the 8-day Toubkal summit and Sahara desert trip costs: €889 per person on set departures, versus €1,413 booking the same ground separately.",
+      "What the 8-day Toubkal summit and Sahara desert trip costs: €1,067 per person on set departures, versus €1,608 booking the same ground separately.",
     relatedTours: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "toubkal-summit-trek-4day"],
     faq: [
-      { q: "How much is the 8-day Toubkal and Sahara tour?", a: "€889 per person on the 2027 set departures, discounted from a list price of €921. That covers all airport transfers, half-board accommodation throughout, every meal on the trek, the licensed mountain guide, mules on the mountain and the camel ride at Erg Chebbi. Dinner in Marrakech, travel insurance and tips are not included, which is a deliberate choice rather than an oversight -- see the breakdown below." },
+      { q: "How much is the 8-day Toubkal and Sahara tour?", a: "€1,067 per person on the 2027 set departures, discounted from a list price of €1,105. That covers all airport transfers, half-board accommodation throughout, every meal on the trek, the licensed mountain guide, mules on the mountain and the camel ride at Erg Chebbi. Dinner in Marrakech, travel insurance and tips are not included, which is a deliberate choice rather than an oversight -- see the breakdown below." },
       { q: "Why does the price not change with group size?", a: "Because this is a set-date departure sold by the seat, not a private trip. On our private tours the guide and vehicle are a fixed cost divided among your party, so six people each pay much less than one person does. Here the trip runs on its published date regardless, and what varies is how many of the 14 seats are left. Two friends pay the same per person as a solo traveller, which is unusual in Morocco and is the main reason this itinerary suits people travelling alone." },
       { q: "What does 14 seats actually mean?", a: "The departure closes when 14 seats are sold. We cap it there for two practical reasons rather than as a sales tactic: the Toubkal refuge and the desert camp both have finite space on a given night, and a guide can only look after so many people on a summit morning in the dark. If a date shows as sold, the next one is genuinely the next one." },
-      { q: "Is it cheaper to book the parts separately?", a: "No, and it is not close. Booking comparable trips from our own catalogue -- the 4-day Toubkal summit trek, a 3-day private Sahara tour and a guided medina day -- comes to roughly €1,413 at the solo rate. The combined itinerary is €889 because it is one continuous route with one guide and one vehicle, rather than three separate trips each carrying its own transfers and its own guiding day." },
+      { q: "Is it cheaper to book the parts separately?", a: "No, and it is not close. Booking comparable trips from our own catalogue -- the 4-day Toubkal summit trek, a 3-day private Sahara tour and a guided medina day -- comes to roughly €1,608 at the solo rate. The combined itinerary is €1,067 because it is one continuous route with one guide and one vehicle, rather than three separate trips each carrying its own transfers and its own guiding day." },
       { q: "What is not included, and what will it cost me?", a: "Dinner in Marrakech on the two riad nights, because the medina is full of places worth choosing yourself and a fixed hotel dinner is the worst way to eat in that city -- budget 100-250 MAD a head. Travel insurance is mandatory and yours to arrange, since cover for trekking above 4,000 m varies by policy. Tips are customary: 150-200 MAD a day for the guide and 70-100 MAD for the muleteers, from the group, in cash at the end." },
       { q: "Do I need to be an experienced trekker?", a: "No, but you need to be fit for two long consecutive days. Summit day is roughly nine hours with a start before dawn, and there is no technical climbing on the standard route -- no rope, no scrambling beyond the odd rocky step. What it asks for is hillwalking stamina at altitude. If you can walk six hours in hill country without dreading the next morning, you have the engine for it." },
     ],
@@ -8526,7 +8526,7 @@ where the money goes.
 
 ## The headline number
 
-**€889 per person**, on the 2027 set departures, down from a list price of €921.
+**€1,067 per person**, on the 2027 set departures, down from a list price of €1,105.
 
 That is a flat seat price. It does not fall if you bring friends and it does not rise if
 you come alone, which is the opposite of how almost every other trip in Morocco is
@@ -8553,9 +8553,9 @@ Taken from our own catalogue, at the solo rate:
 | Toubkal summit | [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) at €845 solo | €845 |
 | Sahara / Erg Chebbi | 3-day private Sahara tour | €690 |
 | Marrakech medina | Guided cultural tour | €73 |
-| **Total** | | **€1,413** |
+| **Total** | | **€1,608** |
 
-The combined trip is €889 for the same ground. The saving is not a discount -- it is
+The combined trip is €1,067 for the same ground. The saving is not a discount -- it is
 what disappears when three separate trips become one route: two sets of return transfers
 from Marrakech, two extra guiding days, and the empty vehicle days between them.
 
@@ -8588,8 +8588,8 @@ are meaningfully different propositions.
 
 ## The short version
 
-€889 buys eight days, two of Morocco's landmark objectives, one guide and one
-continuous route. Booking the same ground as separate trips costs around €1,413. The
+€1,067 buys eight days, two of Morocco's landmark objectives, one guide and one
+continuous route. Booking the same ground as separate trips costs around €1,608. The
 seat price does not change with group size, which makes it unusually good value for
 solo travellers and worth comparing carefully if you are a group of six.
 `,
@@ -10050,10 +10050,10 @@ Our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrake
 |---|---|---|
 | 1 | €1,380 | €1,380 |
 | 2 | €825 | €1,650 |
-| 3 | €653 | €1,960 |
-| 4 | €592 | €2,369 |
+| 3 | €653 | €1,959 |
+| 4 | €592 | €2,368 |
 | 5 | €535 | €2,675 |
-| 6 | €470 | €2,819 |
+| 6 | €470 | €2,820 |
 
 That covers private transport for the whole route, your driver, accommodation with breakfast and dinner, the local guide for the day in Fes, and the desert camp with the camel trek at Erg Chebbi.
 

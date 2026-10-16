@@ -3577,9 +3577,9 @@ avanti il campo.
       "Quanto costa un tour nel deserto da Agadir nel 2026: itinerari di 2, 3 e 4 giorni a confronto, e perché vanno all'Erg Chegaga invece che a Merzouga.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 400 € a persona, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 327 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 519 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
+      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 400 € a persona in due, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 605 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 519 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
       { q: "Perché i tour da Agadir vanno all'Erg Chegaga invece che a Merzouga?", a: "Geografia. L'Erg Chegaga dista circa 450 km da Agadir via Tata e Foum Zguid; Merzouga circa 700 km. In un viaggio di 2 giorni Chegaga è raggiungibile e Merzouga no, ed è per questo che gli itinerari brevi vanno lì. Quello di 4 giorni ha il tempo di raggiungere l'Erg Chebbi." },
-      { q: "Bastano 2 giorni per un viaggio nel deserto da Agadir?", a: "Bastano per dormire tra le dune, che è ciò per cui la maggior parte parte. Non è un viaggio rilassante: circa 8 ore di strada per senso, un giro in cammello al tramonto, una notte al campo, un giro all'alba e il ritorno. Se vuoi più deserto e meno veicolo, quello di 3 giorni offre due notti al campo per 150 € in più." },
+      { q: "Bastano 2 giorni per un viaggio nel deserto da Agadir?", a: "Bastano per dormire tra le dune, che è ciò per cui la maggior parte parte. Non è un viaggio rilassante: circa 8 ore di strada per senso, un giro in cammello al tramonto, una notte al campo, un giro all'alba e il ritorno. Se vuoi più deserto e meno veicolo, quello di 3 giorni spezza il viaggio con una notte in hotel, per 205 € in più a persona (in due)." },
       { q: "Cosa non è incluso in un tour nel deserto da Agadir?", a: "In quello di 2 giorni: il pranzo del giorno uno, gli effetti personali e le mance. In quello di 4 giorni: tutti i pranzi a circa 12-15 € ciascuno, il biglietto facoltativo per gli Atlas Studios (~7 €), le bevande alcoliche, l'assicurazione di viaggio e le mance. Alloggio, cene, colazioni, giri in cammello e tutto il trasporto sono inclusi in ogni itinerario." },
     ],
     content: `
@@ -3592,10 +3592,10 @@ maggior parte delle fotografie del Marocco — dista circa 700 km.
 Questo solo dato definisce ogni itinerario nel deserto in partenza da Agadir, e spiega perché
 un viaggio nel deserto dalla costa costi diversamente dallo stesso viaggio da Marrakech.
 
-| Itinerario | Prezzo p.p. | Notti | Raggiunge |
+| Itinerario | Prezzo p.p., in due | Notti | Raggiunge |
 |---|---|---|---|
 | [2 giorni Erg Chegaga](/it/tours/sahara-2day-agadir) | 400 € | 1 (campo) | Erg Chegaga |
-| [3 giorni Erg Chegaga, privato](/it/tours/erg-chegaga-3day-agadir) | 327 € | 2 (hotel + campo) | Erg Chegaga |
+| [3 giorni Erg Chegaga, privato](/it/tours/erg-chegaga-3day-agadir) | 605 € | 2 (hotel + campo) | Erg Chegaga |
 | [4 giorni Erg Chebbi](/it/tours/desert-4day-agadir) | 519 € | 3 (hotel + campo + hotel) | Merzouga |
 
 ## Il viaggio di 2 giorni, onestamente
@@ -3613,13 +3613,13 @@ del Draa.
 sincero con te. Se la strada ti sembra troppa, il consiglio onesto è prendere quello di 3
 giorni, non sperare che quello di 2 sia diverso.
 
-## Perché quello di 3 giorni costa 150 € in più
+## Perché quello di 3 giorni costa 205 € in più
 
-L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 327 € contro 400 €, che
+L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 605 € a persona in due contro 400 €, che
 sembra molto per un giorno in più. Cambiano tre cose:
 
 - **La strada è distribuita su due giorni**, con una notte in hotel a Foum Zguid, invece di 8 ore all'andata e 8 al ritorno in giorni consecutivi
-- **4x4 privato** con guida esperta di fuoristrada, invece del trasporto condiviso
+- **Una guida esperta di fuoristrada** per la traversata in 4x4 fino alle dune
 - **Gruppo più piccolo** — 2-8 invece di 2-10
 
 Per ora effettivamente passata tra le dune, quello di 3 giorni offre un rapporto
@@ -3628,13 +3628,13 @@ il tempo e non il denaro.
 
 ## Quello di 4 giorni a Merzouga
 
-Da 482 € da soli e 319 € ciascuno in quattro, e l'unico itinerario da Agadir che raggiunge l'**Erg Chebbi**. Tre notti: un hotel
+Da 1.037 € da soli e 319 € ciascuno in quattro, e l'unico itinerario da Agadir che raggiunge l'**Erg Chebbi**. Tre notti: un hotel
 nella valle del Dades, un campo berbero all'Erg Chebbi e un hotel a Ouarzazate. Giri in
 cammello al tramonto e all'alba, acqua minerale e tè alla menta per tutto il viaggio, e un
 autista-guida bilingue.
 
 Le dune dell'Erg Chebbi sono più alte e l'erg è più vasto di quello di Chegaga. Che questo
-giustifichi quello di 3 giorni rispetto a quello di 2 giorni dipende da quanto ti importi di un
+giustifichi quello di 4 giorni rispetto a quello di 2 giorni dipende da quanto ti importi di un
 mare di dune specifico: entrambi sono Sahara vero, e Chegaga è nettamente più tranquillo.
 
 ## Cosa è escluso, per itinerario
@@ -3659,8 +3659,8 @@ risparmiano un transfer di 3 ore per senso. Confrontiamo le due basi in
 
 ## Dove finiscono i soldi
 
-La commissione delle piattaforme va dal **25 al 40 %**. Su un viaggio da 482 € sono fino a
-193 € che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri.
+La commissione delle piattaforme va dal **25 al 40 %**. Su un viaggio da 519 € sono fino a
+208 € che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri.
 Prenotare in diretta mantiene quella somma alle persone che mandano avanti il campo.
 
 👉 **[Scopri il viaggio di 2 giorni all'Erg Chegaga da Agadir](/it/tours/sahara-2day-agadir)** — 400 € a persona, campo berbero nel deserto, tutti i giri in cammello inclusi.
@@ -4267,7 +4267,7 @@ Ecco come si presenta sul nostro [tour del Sahara di 3 giorni](/it/tours/sahara-
 | 1 | 690 € | 690 € |
 | 2 | 380 € | 760 € |
 | 3 | 320 € | 960 € |
-| 4 | 295 € | 1.300 € |
+| 4 | 295 € | 1.180 € |
 | 5 | 260 € | 1.300 € |
 | 6 | 230 € | 1.380 € |
 
@@ -5091,7 +5091,7 @@ villaggio in villaggio, con i muli a portare i bagagli. Giornate brevi, veri vil
 berberi, nulla di tecnico. Circa 257 € a persona in quattro. La nostra guida al [trekking sull'Atlante con i bambini](/it/blog/trekking-atlante-con-bambini) spiega nel dettaglio età, quota e muli.
 
 **[Escursione nella valle dell'Ourika](/it/tours/escursione-valle-ourika)** — a un'ora da
-Marrakech, acqua in cui sguazzare e rientro per cena. Circa 31 € a persona per una
+Marrakech, acqua in cui sguazzare e rientro per cena. Circa 69 € a persona per una
 famiglia di quattro.
 
 **[Cascate di Ouzoud](/it/tours/gita-cascate-ouzoud)** — macachi in libertà e una grande
@@ -6151,12 +6151,12 @@ Per il Sahara più remoto, la [spedizione di 3 giorni all'Erg Chegaga da Marrake
     tags: ["Toubkal", "Sahara", "Erg Chebbi", "trekking", "Marocco"],
     seoTitle: "Tour Toubkal e Sahara 8 giorni",
     seoDescription:
-      "Quanto costa il tour di 8 giorni Toubkal e Sahara: 889 € a persona su partenze fisse, contro 1.413 € prenotando lo stesso percorso separatamente.",
+      "Quanto costa il tour di 8 giorni Toubkal e Sahara: 1.067 € a persona su partenze fisse, contro 1.608 € prenotando lo stesso percorso separatamente.",
     faq: [
-      { q: "Quanto costa il tour Toubkal e Sahara di 8 giorni?", a: "889 € a persona sulle partenze fisse del 2027, scontato da un prezzo di listino di 921 €. Comprende tutti i transfer aeroportuali, la sistemazione in mezza pensione, tutti i pasti durante il trek, la guida alpina abilitata, i muli in montagna e il giro in cammello a Erg Chebbi. La cena a Marrakech, l'assicurazione di viaggio e le mance non sono incluse: una scelta deliberata, spiegata più sotto." },
+      { q: "Quanto costa il tour Toubkal e Sahara di 8 giorni?", a: "1.067 € a persona sulle partenze fisse del 2027, scontato da un prezzo di listino di 1.105 €. Comprende tutti i transfer aeroportuali, la sistemazione in mezza pensione, tutti i pasti durante il trek, la guida alpina abilitata, i muli in montagna e il giro in cammello a Erg Chebbi. La cena a Marrakech, l'assicurazione di viaggio e le mance non sono incluse: una scelta deliberata, spiegata più sotto." },
       { q: "Perché il prezzo non cambia con la dimensione del gruppo?", a: "Perché è una partenza a data fissa venduta a posto, non un tour privato. Nei nostri tour privati la guida e il veicolo sono un costo fisso diviso fra i partecipanti, quindi sei persone pagano molto meno ciascuna di una sola. Qui il viaggio parte alla data pubblicata comunque, e ciò che varia è quanti dei 14 posti restano. Due amici pagano a persona quanto un viaggiatore solo: è insolito in Marocco ed è la ragione principale per cui questo itinerario funziona bene per chi viaggia da solo." },
       { q: "Cosa significa concretamente il limite di 14 posti?", a: "La partenza chiude quando i 14 posti sono venduti. Mettiamo quel tetto per due ragioni pratiche e non come tattica di vendita: il rifugio del Toubkal e il campo nel deserto hanno spazio limitato in una data notte, e una guida può seguire solo un certo numero di persone la mattina della vetta, al buio. Se una data risulta esaurita, la successiva è davvero la successiva." },
-      { q: "Conviene prenotare le parti separatamente?", a: "No, e non è una differenza sottile. Prendendo viaggi comparabili dal nostro catalogo — il trek di 4 giorni al Toubkal, un tour privato di 3 giorni nel Sahara e una giornata guidata nella medina — si arriva a circa 1.413 € a tariffa singola. L'itinerario combinato costa 889 € perché è un solo percorso continuo con una guida e un veicolo, invece di tre viaggi distinti, ciascuno con i propri transfer e la propria giornata di guida." },
+      { q: "Conviene prenotare le parti separatamente?", a: "No, e non è una differenza sottile. Prendendo viaggi comparabili dal nostro catalogo — il trek di 4 giorni al Toubkal, un tour privato di 3 giorni nel Sahara e una giornata guidata nella medina — si arriva a circa 1.608 € a tariffa singola. L'itinerario combinato costa 1.067 € perché è un solo percorso continuo con una guida e un veicolo, invece di tre viaggi distinti, ciascuno con i propri transfer e la propria giornata di guida." },
       { q: "Cosa non è incluso e quanto mi costerà?", a: "La cena a Marrakech nelle due notti in riad, perché la medina è piena di posti che vale la pena scegliere da sé e una cena d'albergo imposta è il modo peggiore di mangiare in quella città: calcola 100-250 MAD a testa. L'assicurazione di viaggio è obbligatoria e la organizzi tu, dato che la copertura per il trekking oltre i 4.000 m varia molto da polizza a polizza. Le mance sono consuetudine: 150-200 MAD al giorno per la guida e 70-100 MAD per i mulattieri, da parte del gruppo, in contanti alla fine." },
       { q: "Serve essere trekker esperti?", a: "No, ma serve essere in forma per due giornate lunghe consecutive. Il giorno della vetta dura circa nove ore con partenza prima dell'alba, e sulla via normale non c'è arrampicata tecnica: niente corda, nessun passaggio da scalare oltre a qualche gradino roccioso. Quello che serve è resistenza da escursionismo in quota. Se cammini sei ore in montagna senza temere il giorno dopo, hai il motore giusto." },
     ],
@@ -6167,8 +6167,8 @@ percorso di otto giorni, e dove vanno i soldi.
 
 ## Il numero principale
 
-**889 € a persona**, sulle partenze fisse del 2027, scontato da un prezzo di listino di
-921 €.
+**1.067 € a persona**, sulle partenze fisse del 2027, scontato da un prezzo di listino di
+1.105 €.
 
 È un prezzo a posto, piatto. Non scende se porti amici e non sale se vieni da solo: il
 contrario di come è calcolato quasi ogni viaggio in Marocco, compresi i nostri.
@@ -6194,9 +6194,9 @@ Dal nostro catalogo, a tariffa singola:
 | Vetta del Toubkal | [Trek Toubkal 4 giorni](/it/tours/toubkal-summit-trek-4day) a 845 € da soli | 845 € |
 | Sahara / Erg Chebbi | Tour privato 3 giorni nel Sahara | 690 € |
 | Medina di Marrakech | Visita culturale guidata | 73 € |
-| **Totale** | | **1.413 €** |
+| **Totale** | | **1.608 €** |
 
-Il tour combinato costa 889 € per lo stesso terreno. La differenza non è uno sconto: è ciò
+Il tour combinato costa 1.067 € per lo stesso terreno. La differenza non è uno sconto: è ciò
 che sparisce quando tre viaggi separati diventano un percorso — due serie di transfer
 andata e ritorno da Marrakech, due giornate di guida in più e i giorni di veicolo vuoto in
 mezzo.
@@ -6231,8 +6231,8 @@ diverse.
 
 ## In breve
 
-889 € comprano otto giorni, due degli obiettivi simbolo del Marocco, una guida e un
-percorso continuo. Prenotare lo stesso terreno come viaggi separati costa circa 1.413 €. Il
+1.067 € comprano otto giorni, due degli obiettivi simbolo del Marocco, una guida e un
+percorso continuo. Prenotare lo stesso terreno come viaggi separati costa circa 1.608 €. Il
 prezzo del posto non cambia con la dimensione del gruppo, il che lo rende insolitamente
 conveniente per chi viaggia da solo e degno di un confronto attento se siete in sei.
 `,
@@ -7194,10 +7194,10 @@ Il nostro [tour di 5 giorni Casablanca-Marrakech](/it/tours/casablanca-fes-sahar
 |---|---|---|
 | 1 | €1,380 | €1,380 |
 | 2 | €825 | €1,650 |
-| 3 | €653 | €1,960 |
-| 4 | €592 | €2,369 |
+| 3 | €653 | €1,959 |
+| 4 | €592 | €2,368 |
 | 5 | €535 | €2,675 |
-| 6 | €470 | €2,819 |
+| 6 | €470 | €2,820 |
 
 Comprende trasporto privato sull'intero itinerario, il vostro autista, alloggio con colazione e cena, la guida locale per la giornata a Fès, e il campo nel deserto con il giro in dromedario all'Erg Chebbi.
 

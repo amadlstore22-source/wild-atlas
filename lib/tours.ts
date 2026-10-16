@@ -4430,7 +4430,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "Is there a minimum number of people?",
-        a: "Yes — two. Trips longer than seven days need a minimum of two travellers to run, because a full camel crew, guide and cook go out regardless of headcount. The per-person price falls sharply as the group grows: €1,040 each for two, €790 each for four and €695 each from five upwards.",
+        a: "Yes — two. Trips longer than seven days need a minimum of two travellers to run, because a full camel crew, guide and cook go out regardless of headcount. The per-person price falls sharply as the group grows: €1,352 each for two, €909 each for four and €765 each from five upwards.",
       },
       {
         q: "When is the best time to go?",

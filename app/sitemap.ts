@@ -24,7 +24,9 @@ const img = (p?: string): string[] | undefined =>
 // changed on every deploy — Google learns the dates are noise and discounts
 // them for crawl scheduling. Bump this only when tour content is meaningfully
 // revised, so the signal stays honest.
-const CATALOGUE_LASTMOD = new Date("2026-08-26");
+// 2026-10-16: Toubkal prices +20-30% (2026-10-09), every tour's route map
+// redrawn along its itinerary, owner's own Agadir/Paradise Valley photos.
+const CATALOGUE_LASTMOD = new Date("2026-10-16");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

@@ -48,6 +48,8 @@ export default function cookiesAr({ lang, mail }: LegalCtx): LegalDoc {
             <dl className="tier">
               <dt>met-cookie-consent</dt>
               <dd>يحفظ اختيارك بشأن ملفات الارتباط حتى لا يظهر الشريط مجدداً. لا يتطلب موافقة (مُعفى). مدة الحفظ: حتى سنة واحدة.</dd>
+              <dt>met-legal-version</dt>
+              <dd>يحفظ نسخة شروطنا وسياساتنا التي وافقت عليها، حتى نطلب موافقتك من جديد عند تغييرها. لا يتطلّب موافقة (معفى). يبقى حتى سنة واحدة.</dd>
             </dl>
             <h3>وظيفية (تفضيلات)</h3>
             <dl className="tier">

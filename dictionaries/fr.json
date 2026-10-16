@@ -365,7 +365,10 @@
     "body": "Nous utilisons des cookies pour vos préférences et, avec votre accord, Google Analytics. Les cookies nécessaires sont toujours actifs.",
     "policyLink": "Politique relative aux cookies",
     "necessaryOnly": "Nécessaires uniquement",
-    "acceptAll": "Tout accepter"
+    "acceptAll": "Tout accepter",
+    "updated": "Nous avons mis à jour nos conditions et nos politiques.",
+    "termsLink": "Conditions générales",
+    "privacyLink": "Confidentialité"
   },
   "whatsappFloat": {
     "tooltip": "Besoin d'aide ? Discutons"

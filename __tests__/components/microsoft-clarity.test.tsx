@@ -2,6 +2,7 @@ import { describe, it, expect, afterEach, vi } from "vitest";
 import { render, cleanup, act } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { CONSENT_EVENT, CONSENT_KEY } from "@/lib/analytics";
+import { LEGAL_VERSION, LEGAL_VERSION_KEY } from "@/lib/legal-version";
 
 // next/script injects into <head> only in a real Next runtime; render it as a
 // plain element so the test can see whether the tag would be emitted at all.
@@ -38,6 +39,8 @@ describe("Microsoft Clarity consent gate", () => {
     const { container } = render(<MicrosoftClarity />);
     act(() => {
       localStorage.setItem(CONSENT_KEY, "all");
+      // The banner records the version of the legal pages with the choice.
+      localStorage.setItem(LEGAL_VERSION_KEY, LEGAL_VERSION);
       window.dispatchEvent(new Event(CONSENT_EVENT));
     });
     const tag = container.querySelector('script[data-testid="ms-clarity"]');

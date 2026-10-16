@@ -51,6 +51,8 @@ export default function cookiesIt({ lang, mail }: LegalCtx): LegalDoc {
             <dl className="tier">
               <dt>met-cookie-consent</dt>
               <dd>Memorizza la tua scelta sui cookie perché il banner non ricompaia. Nessun consenso richiesto (esente). Durata: fino a 1 anno.</dd>
+              <dt>met-legal-version</dt>
+              <dd>Registra quale versione dei nostri termini e delle nostre informative hai accettato, per chiedertelo di nuovo quando cambiano. Nessun consenso richiesto (esente). Durata: fino a 1 anno.</dd>
             </dl>
             <h3>Funzionali (preferenze)</h3>
             <dl className="tier">

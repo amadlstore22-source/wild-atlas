@@ -4,9 +4,10 @@ import * as m from "motion/react-m";
 import { AnimatePresence } from "motion/react";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
-import { CONSENT_EVENT } from "@/lib/analytics";
+import { CONSENT_EVENT, CONSENT_KEY } from "@/lib/analytics";
+import { currentConsent, LEGAL_VERSION, LEGAL_VERSION_KEY } from "@/lib/legal-version";
 
-const STORAGE_KEY = "met-cookie-consent";
+const STORAGE_KEY = CONSENT_KEY;
 
 /**
  * Whether consent has already been stored. Read through useSyncExternalStore
@@ -23,9 +24,11 @@ function subscribe(onChange: () => void) {
   return () => window.removeEventListener("storage", onChange);
 }
 
+// A choice only counts if it was made under the current version of the legal
+// pages; after an update everyone is asked again (lib/legal-version.ts).
 function hasConsent() {
   try {
-    return localStorage.getItem(STORAGE_KEY) !== null;
+    return currentConsent(localStorage, STORAGE_KEY) !== null;
   } catch {
     // localStorage unavailable (private mode, blocked cookies) — treat as
     // consented so we never trap someone behind a banner they cannot dismiss.
@@ -33,8 +36,18 @@ function hasConsent() {
   }
 }
 
+/** A choice exists but predates the current legal pages: say they changed. */
+function chosenBefore() {
+  try {
+    return localStorage.getItem(STORAGE_KEY) !== null;
+  } catch {
+    return false;
+  }
+}
+
 export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const stored = useSyncExternalStore(subscribe, hasConsent, () => true);
+  const returning = useSyncExternalStore(subscribe, chosenBefore, () => false);
   // Set the moment the visitor chooses, so the banner leaves without waiting
   // for a storage event (which does not fire in the tab that wrote the value).
   const [dismissed, setDismissed] = useState(false);
@@ -82,6 +95,7 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
   const choose = useCallback((value: "all" | "necessary") => {
     try {
       localStorage.setItem(STORAGE_KEY, value);
+      localStorage.setItem(LEGAL_VERSION_KEY, LEGAL_VERSION);
     } catch {
       // Blocked storage: the banner still dismisses for this session.
     }
@@ -108,6 +122,19 @@ export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dicti
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <p className="text-white/75 text-sm leading-relaxed flex-1">
+              {returning && (
+                <>
+                  <strong className="text-white font-semibold">{dict.cookieBanner.updated}</strong>{" "}
+                  <Link href={`/${lang}/terms`} className="underline text-white/55 hover:text-white transition-colors">
+                    {dict.cookieBanner.termsLink}
+                  </Link>
+                  {" · "}
+                  <Link href={`/${lang}/privacy`} className="underline text-white/55 hover:text-white transition-colors">
+                    {dict.cookieBanner.privacyLink}
+                  </Link>
+                  <br />
+                </>
+              )}
               {dict.cookieBanner.body}{" "}
               <Link href={`/${lang}/cookies`} className="underline text-white/55 hover:text-white transition-colors">
                 {dict.cookieBanner.policyLink}

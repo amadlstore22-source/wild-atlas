@@ -51,6 +51,8 @@ export default function cookiesDe({ lang, mail }: LegalCtx): LegalDoc {
             <dl className="tier">
               <dt>met-cookie-consent</dt>
               <dd>Speichert Ihre Cookie-Auswahl, damit das Banner nicht erneut erscheint. Keine Einwilligung erforderlich (ausgenommen). Speicherdauer: bis zu 1 Jahr.</dd>
+              <dt>met-legal-version</dt>
+              <dd>Speichert, welche Version unserer Bedingungen und Richtlinien Sie akzeptiert haben, damit wir Sie bei Änderungen erneut fragen können. Keine Einwilligung erforderlich (ausgenommen). Speicherdauer: bis zu 1 Jahr.</dd>
             </dl>
             <h3>Funktional (Präferenzen)</h3>
             <dl className="tier">

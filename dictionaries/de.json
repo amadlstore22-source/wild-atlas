@@ -365,7 +365,10 @@
     "body": "Wir verwenden Cookies für Ihre Einstellungen und, mit Ihrer Zustimmung, Google Analytics. Notwendige Cookies sind immer aktiv.",
     "policyLink": "Cookie-Richtlinie",
     "necessaryOnly": "Nur notwendige",
-    "acceptAll": "Alle akzeptieren"
+    "acceptAll": "Alle akzeptieren",
+    "updated": "Wir haben unsere Bedingungen und Richtlinien aktualisiert.",
+    "termsLink": "AGB",
+    "privacyLink": "Datenschutz"
   },
   "whatsappFloat": {
     "tooltip": "Brauchen Sie Hilfe? Jetzt chatten"

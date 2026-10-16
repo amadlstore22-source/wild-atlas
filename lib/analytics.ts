@@ -9,6 +9,8 @@
 // no tracking cookies before consent. The <GoogleAnalytics> component reads the
 // same STORAGE_KEY the CookieBanner writes, and boots the moment consent flips.
 
+import { currentConsent } from "./legal-version";
+
 export const CONSENT_KEY = "met-cookie-consent";
 // Broadcast on the window when consent changes, so analytics can boot without a
 // page reload the instant someone clicks "Accept all".
@@ -34,7 +36,9 @@ export const ADS_ID = process.env.NEXT_PUBLIC_ADS_CONVERSION_ID ?? "";
 export function hasAnalyticsConsent(): boolean {
   if (typeof window === "undefined") return false;
   try {
-    return localStorage.getItem(CONSENT_KEY) === "all";
+    // A choice made under an earlier version of the legal pages no longer
+    // counts: analytics waits until the visitor accepts again (lib/legal-version.ts).
+    return currentConsent(localStorage, CONSENT_KEY) === "all";
   } catch {
     return false;
   }

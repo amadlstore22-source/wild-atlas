@@ -51,6 +51,8 @@ export default function cookiesFr({ lang, mail }: LegalCtx): LegalDoc {
             <dl className="tier">
               <dt>met-cookie-consent</dt>
               <dd>Enregistre votre choix concernant les cookies pour que le bandeau ne réapparaisse pas. Aucun consentement requis (exempté). Durée : jusqu’à 1 an.</dd>
+              <dt>met-legal-version</dt>
+              <dd>Enregistre la version de nos conditions et politiques que vous avez acceptée, afin de vous demander à nouveau votre accord lorsqu’elles changent. Aucun consentement requis (exempté). Durée : jusqu’à 1 an.</dd>
             </dl>
             <h3>Fonctionnels (préférences)</h3>
             <dl className="tier">

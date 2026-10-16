@@ -365,7 +365,10 @@
     "body": "We use cookies for your preferences and, with your consent, Google Analytics. Necessary cookies are always on.",
     "policyLink": "Cookie policy",
     "necessaryOnly": "Necessary only",
-    "acceptAll": "Accept all"
+    "acceptAll": "Accept all",
+    "updated": "We've updated our terms and policies.",
+    "termsLink": "Terms",
+    "privacyLink": "Privacy policy"
   },
   "whatsappFloat": {
     "tooltip": "Need help? Chat now"

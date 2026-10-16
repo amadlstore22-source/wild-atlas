@@ -49,6 +49,8 @@ export default function cookiesEn({ lang, mail }: LegalCtx): LegalDoc {
             <dl className="tier">
               <dt>met-cookie-consent</dt>
               <dd>Stores your cookie choice so the banner does not reappear. No consent required (exempt). Persists up to 1 year.</dd>
+              <dt>met-legal-version</dt>
+              <dd>Records which version of our terms and policies you accepted, so we can ask again when they change. No consent required (exempt). Persists up to 1 year.</dd>
             </dl>
             <h3>Functional (preference)</h3>
             <dl className="tier">

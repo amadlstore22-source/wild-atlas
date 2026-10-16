@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LEGAL_UPDATED } from "@/lib/legal-version";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { notFound } from "next/navigation";
 import { hasLocale, type Locale } from "../dictionaries";
@@ -13,7 +14,7 @@ import ar from "./content/ar";
 
 type LangParams = { params: Promise<{ lang: string }> };
 
-const UPDATED = "2026-09-28";
+const UPDATED = LEGAL_UPDATED.cookies;
 
 /**
  * One content file per language. Until 2026-10-03 this page existed only in

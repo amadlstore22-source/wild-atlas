@@ -139,4 +139,14 @@ export const GALLERY_ALT_AR: Record<string, string> = {
     "نهر تودغة يجري ضحلًا فوق الحصى بمحاذاة طريق المضايق تحت جروف ناتئة، المغرب",
   "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg":
     "كامل سلسلة كثبان عرق الشبي ترتفع عن الحمادة المسطّحة خارج مرزوقة، المغرب",
+  "/gallery/agadir-beach-kasbah-hill-oufella.jpg":
+    "شاطئ أكادير في الساعة الذهبية أسفل تلّ قصبة أوفلا والكتابة المنقوشة على سفحه، المغرب",
+  "/gallery/agadir-beach-sunset-swimmers.jpg":
+    "سبّاحون تظهر ظلالهم في المحيط الأطلسي مع غروب الشمس فوق خليج أكادير، المغرب",
+  "/gallery/paradise-valley-rock-pool-swimmers.jpg":
+    "زوّار على الألواح الصخرية الوردية حول بركة طبيعية في وادي الجنة قرب أكادير، المغرب",
+  "/gallery/paradise-valley-palm-grove-gorge.jpg":
+    "نخيل التمر يملأ قاع وادي الجنة أسفل المضيق، في التلال المطلة على أكادير، المغرب",
+  "/gallery/paradise-valley-canyon-narrows.jpg":
+    "جدران صخرية متطبّقة تضيق فوق مجرى الساقية في ممرات وادي الجنة الضيقة قرب أكادير، المغرب",
 };

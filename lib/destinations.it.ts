@@ -247,7 +247,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "/gallery/destinations-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     about:
       "Agadir è la principale città balneare del Marocco: un moderno porto atlantico ricostruito interamente dopo un catastrofico terremoto nel 1960. Situata ai piedi delle montagne dell'Anti-Atlante, con una mezzaluna di spiaggia di sabbia bianca lunga nove chilometri, Agadir funge da porta d'accesso meridionale al Marocco sia per i turisti in pacchetto che per gli avventurieri. Trenta minuti a nord si trova Taghazout, un villaggio diventato una delle destinazioni surf più famose al mondo. La regione di Souss-Massa che circonda Agadir ospita parchi nazionali, foreste di argan, zone umide popolate da fenicotteri e comunità berbere che mantengono uno stile di vita secolare.",
     knownFor: [

@@ -136,4 +136,14 @@ export const GALLERY_ALT_IT: Record<string, string> = {
     "Il fiume Todra scorre basso sui ciottoli accanto alla strada delle gole, sotto falesie strapiombanti, Marocco",
   "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg":
     "L'intera cresta delle dune dell'Erg Chebbi che si alza dalla hammada piatta alle porte di Merzouga, Marocco",
+  "/gallery/agadir-beach-kasbah-hill-oufella.jpg":
+    "La spiaggia di Agadir all'ora dorata, sotto la collina della kasbah di Oufella e la sua scritta, Marocco",
+  "/gallery/agadir-beach-sunset-swimmers.jpg":
+    "Bagnanti in controluce nell'Atlantico mentre il sole tramonta sulla baia di Agadir, Marocco",
+  "/gallery/paradise-valley-rock-pool-swimmers.jpg":
+    "Visitatori sulle lastre di roccia rosa attorno a una pozza naturale a Paradise Valley, vicino ad Agadir, Marocco",
+  "/gallery/paradise-valley-palm-grove-gorge.jpg":
+    "Palme da dattero che riempiono il fondo di Paradise Valley sotto la gola, sulle colline sopra Agadir, Marocco",
+  "/gallery/paradise-valley-canyon-narrows.jpg":
+    "Pareti di roccia stratificata che si stringono sul letto del torrente nelle strettoie di Paradise Valley, vicino ad Agadir, Marocco",
 };

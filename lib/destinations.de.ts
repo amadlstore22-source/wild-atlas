@@ -247,7 +247,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "/gallery/destinations-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     about:
       "Agadir ist Marokkos wichtigste Badestadt – ein moderner Atlantikhafen, der nach einem verheerenden Erdbeben im Jahr 1960 vollständig wiederaufgebaut wurde. Am Fuß des Anti-Atlas-Gebirges gelegen, mit einem neun Kilometer langen, geschwungenen Weißsandstrand, dient Agadir sowohl Pauschaltouristen als auch Abenteurern als südliches Tor zu Marokko. Dreißig Minuten nördlich liegt Taghazout, ein Dorf, das sich zu einem der berühmtesten Surfziele der Welt entwickelt hat. Die Region Souss-Massa rund um Agadir beherbergt Nationalparks, Arganölwälder, von Flamingos bevölkerte Feuchtgebiete und Berbergemeinschaften, die eine jahrhundertealte Lebensweise bewahren.",
     knownFor: [

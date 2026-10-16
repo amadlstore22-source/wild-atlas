@@ -136,4 +136,14 @@ export const GALLERY_ALT_DE: Record<string, string> = {
     "Der Todra-Fluss fließt flach über Steine neben der Schluchtstraße unter überhängenden Felsen, Marokko",
   "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg":
     "Der gesamte Dünenkamm des Erg Chebbi erhebt sich aus der flachen Hamada vor Merzouga, Marokko",
+  "/gallery/agadir-beach-kasbah-hill-oufella.jpg":
+    "Der Strand von Agadir im goldenen Abendlicht unter dem Kasbah-Hügel Oufella mit seiner Inschrift, Marokko",
+  "/gallery/agadir-beach-sunset-swimmers.jpg":
+    "Badende als Silhouetten im Atlantik, während die Sonne über der Bucht von Agadir untergeht, Marokko",
+  "/gallery/paradise-valley-rock-pool-swimmers.jpg":
+    "Besucher auf den rosafarbenen Felsplatten rund um ein natürliches Becken im Paradise Valley bei Agadir, Marokko",
+  "/gallery/paradise-valley-palm-grove-gorge.jpg":
+    "Dattelpalmen füllen den Talboden des Paradise Valley unterhalb der Schlucht, in den Ausläufern oberhalb von Agadir, Marokko",
+  "/gallery/paradise-valley-canyon-narrows.jpg":
+    "Geschichtete Felswände rücken in der Enge des Paradise Valley bei Agadir über dem Bachbett zusammen, Marokko",
 };

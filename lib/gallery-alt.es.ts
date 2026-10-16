@@ -136,4 +136,14 @@ export const GALLERY_ALT_ES: Record<string, string> = {
     "El río Todra corriendo somero sobre los cantos junto a la carretera de las gargantas, bajo cortados en voladizo, Marruecos",
   "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg":
     "Toda la cresta de las dunas del Erg Chebbi alzándose sobre la hamada llana a las afueras de Merzouga, Marruecos",
+  "/gallery/agadir-beach-kasbah-hill-oufella.jpg":
+    "La playa de Agadir a la hora dorada, bajo la colina de la kasba de Oufella y su inscripción, Marruecos",
+  "/gallery/agadir-beach-sunset-swimmers.jpg":
+    "Bañistas a contraluz en el Atlántico mientras el sol se pone sobre la bahía de Agadir, Marruecos",
+  "/gallery/paradise-valley-rock-pool-swimmers.jpg":
+    "Visitantes sobre las losas de roca rosada alrededor de una poza natural en Paradise Valley, cerca de Agadir, Marruecos",
+  "/gallery/paradise-valley-palm-grove-gorge.jpg":
+    "Palmeras datileras cubriendo el fondo de Paradise Valley bajo el desfiladero, en las estribaciones sobre Agadir, Marruecos",
+  "/gallery/paradise-valley-canyon-narrows.jpg":
+    "Paredes de roca estratificada cerrándose sobre el cauce del arroyo en los estrechos de Paradise Valley, cerca de Agadir, Marruecos",
 };

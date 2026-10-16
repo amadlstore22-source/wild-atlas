@@ -247,7 +247,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "/gallery/destinations-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     about:
       "Agadir est la principale ville balnéaire du Maroc — un port atlantique moderne entièrement reconstruit après un séisme catastrophique en 1960. Située au pied des montagnes de l'Anti-Atlas, avec un croissant de plage de sable blanc long de neuf kilomètres, Agadir sert de porte d'entrée méridionale du Maroc, aussi bien pour les voyageurs en séjour organisé que pour les aventuriers. Trente minutes plus au nord se trouve Taghazout, un village devenu l'une des destinations de surf les plus célèbres au monde. La région du Souss-Massa qui entoure Agadir abrite des parcs nationaux, des forêts d'arganiers, des zones humides peuplées de flamants roses, et des communautés berbères perpétuant un mode de vie séculaire.",
     knownFor: [

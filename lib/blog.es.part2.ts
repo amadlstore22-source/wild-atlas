@@ -687,7 +687,7 @@ Para ver cómo se comparan con las opciones más cortas cerca de Marrakech, ver 
     author: MET_TEAM,
     title: "Marrakech o Agadir: ¿qué base para tu viaje a Marruecos?",
     excerpt: "Dos puntos de partida muy distintos, y la elección determina todo lo que puedes alcanzar. Una guía de un operador que organiza viajes desde ambas ciudades.",
-    heroImage: "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -915,7 +915,7 @@ Para ver cómo difieren entre sí los campos de dunas, ver [Erg Chebbi vs Erg Ch
     author: MET_TEAM,
     title: "Las mejores excursiones de un día desde Agadir",
     excerpt: "Los atractivos propios de Agadir son modestos, pero lo que hay a un par de horas no lo es. Seis excursiones de un día que valen la madrugada, y qué ofrece realmente cada una.",
-    heroImage: "/gallery/blog-best-day-trips-from-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-sunset-walkers.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -1957,7 +1957,7 @@ Si estás en forma, con poco tiempo y quieres la cima sin una semana en la monta
     title: "La mejor época para visitar Paradise Valley, Marruecos",
     excerpt:
       "Paradise Valley es un plan de todo el año, pero las pozas, la afluencia y el nivel del agua cambian mucho según la temporada. Aquí tienes la guía honesta, mes a mes, de cuándo ir cerca de Agadir.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-palm-grove-gorge.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2016,7 +2016,7 @@ Sea cual sea el mes, ir con un guía local te ahorra el aparcamiento y la orient
     title: "Bañarse en Paradise Valley: pozas, seguridad y consejos",
     excerpt:
       "Las pozas de roca son todo el sentido de Paradise Valley. Aquí tienes en cuáles bañarte, si es seguro, qué llevar y cómo encontrar el agua más tranquila lejos de la gente.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2072,7 +2072,7 @@ Llegar implica un trayecto tierra adentro desde Agadir, aparcar y bajar caminand
     title: "Paradise Valley desde Agadir: cómo llegar",
     excerpt:
       "Paradise Valley es la escapada natural más fácil desde Agadir. Aquí tienes a qué distancia está, cómo llegar en coche, taxi o tour, y cómo hacer una jornada completa.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-trail-into-gorge.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2124,7 +2124,7 @@ Si tienes más días por Agadir, el valle encaja bien junto a otras salidas: una
     title: "¿Se puede visitar Paradise Valley desde Marrakech?",
     excerpt:
       "Paradise Valley está cerca de Agadir, no de Marrakech, así que ¿es realista una excursión desde Marrakech? Aquí tienes la respuesta honesta sobre distancia, tiempos y la forma más inteligente de hacerlo.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-canyon-narrows.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 5,

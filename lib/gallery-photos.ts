@@ -82,6 +82,14 @@ export const GALLERY_PHOTOS: GalleryPhotoData[] = [
   { src: "/gallery/camels-resting-acacia-tree.jpg", group: "desert", alt: "Baggage camels resting in the shade of a lone acacia on a desert crossing, Morocco" },
   { src: "/gallery/ait-ben-haddou-kasbah-wide.jpg", group: "desert", alt: "The earthen kasbah of Aït Ben Haddou rising above the palm groves, Ouarzazate Morocco" },
   { src: "/gallery/wild-ostrich-souss-massa.jpg", group: "coast", alt: "A wild ostrich on the coastal plain of Souss-Massa National Park, Morocco" },
+  // Agadir and Paradise Valley, sent by the owner on 2026-10-15. The beach frame
+  // is unmistakably Agadir (the Oufella hill and its inscription behind the
+  // bay); the other four were named from what is in them, not assumed.
+  { src: "/gallery/agadir-beach-kasbah-hill-oufella.jpg", group: "coast", alt: "Agadir beach at golden hour below the Oufella kasbah hill and its hillside inscription, Morocco" },
+  { src: "/gallery/agadir-beach-sunset-swimmers.jpg", group: "coast", alt: "Swimmers silhouetted in the Atlantic as the sun sets over Agadir bay, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/paradise-valley-rock-pool-swimmers.jpg", group: "coast", alt: "Visitors on the pink rock slabs around a natural pool in Paradise Valley, near Agadir, Morocco", span: "col-span-1 row-span-2" },
+  { src: "/gallery/paradise-valley-palm-grove-gorge.jpg", group: "coast", alt: "Date palms filling the floor of Paradise Valley below the gorge, in the foothills above Agadir, Morocco" },
+  { src: "/gallery/paradise-valley-canyon-narrows.jpg", group: "coast", alt: "Layered rock walls closing in over the stream bed in the narrows of Paradise Valley, near Agadir, Morocco" },
   // The imperial north: Rabat and Volubilis. The gallery was entirely southern
   // -- Atlas, Sahara, Atlantic -- while the catalogue now sells a five-day tour
   // that opens with these two sites. Photographs are our own, taken on the

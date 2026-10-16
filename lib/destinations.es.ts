@@ -247,7 +247,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "/gallery/destinations-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     about:
       "Agadir es la principal ciudad de playa de Marruecos: un puerto atlántico moderno reconstruido por completo tras un terremoto catastrófico en 1960. Situada al pie de las montañas del Antiatlas, con una media luna de playa de arena blanca de nueve kilómetros, Agadir sirve de puerta de entrada meridional a Marruecos tanto para turistas de paquete como para aventureros. Treinta minutos al norte se encuentra Taghazout, un pueblo que se ha convertido en uno de los destinos de surf más famosos del mundo. La región de Souss-Massa que rodea Agadir alberga parques nacionales, bosques de argán, humedales llenos de flamencos y comunidades bereberes que mantienen un modo de vida centenario.",
     knownFor: [

@@ -277,7 +277,7 @@ export const DESTINATIONS: Destination[] = [
     region: "Souss-Massa",
     lat: 30.4278,
     lng: -9.5981,
-    heroImage: "/gallery/destinations-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     about:
       "Agadir is Morocco's principal beach resort city — a modern Atlantic port rebuilt entirely after a catastrophic earthquake in 1960. Set at the foot of the Anti-Atlas Mountains with a nine-kilometre crescent of white sand beach, Agadir serves as the southern gateway to Morocco for both package tourists and adventurers. Thirty minutes north lies Taghazout, a village that has grown into one of the world's most famous surf destinations. The Souss-Massa region surrounding Agadir is home to national parks, argan oil forests, flamingo-filled wetlands, and Berber communities maintaining a way of life centuries old.",
     knownFor: [

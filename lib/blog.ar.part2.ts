@@ -683,7 +683,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "مراكش أم أكادير: أي قاعدة لرحلتك في المغرب؟",
     excerpt: "نقطتا انطلاق مختلفتان تمامًا، والاختيار يشكّل كل ما يمكنك الوصول إليه. دليل من مشغّل يدير رحلات من كلتيهما.",
-    heroImage: "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+    heroImage: "/gallery/agadir-beach-kasbah-hill-oufella.jpg",
     category: "tips",
     region: "root",
     readTime: 8,
@@ -911,7 +911,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     author: MET_TEAM,
     title: "أفضل الرحلات النهارية من أكادير",
     excerpt: "معالم أكادير نفسها متواضعة، لكن ما يقع على بُعد ساعتين ليس كذلك. ست رحلات نهارية تستحق الانطلاقة المبكرة، وما يقدمه كل منها فعليًا.",
-    heroImage: "/gallery/blog-best-day-trips-from-agadir.jpg",
+    heroImage: "/gallery/agadir-beach-sunset-walkers.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 8,
@@ -1941,7 +1941,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "أفضل وقت لزيارة وادي الجنة (Paradise Valley)، المغرب",
     excerpt:
       "وادي الجنة وجهة على مدار السنة، لكن البرك والزحام ومنسوب الماء تتغير كثيراً بحسب الموسم. إليك الدليل الصادق شهراً بشهر لأفضل وقت للذهاب قرب أكادير.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-palm-grove-gorge.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2000,7 +2000,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "السباحة في وادي الجنة: البرك والسلامة والنصائح",
     excerpt:
       "البرك الصخرية هي كل مغزى وادي الجنة. إليك في أيها تسبح، وهل هو آمن، وماذا تحضر، وكيف تجد الماء الأهدأ بعيداً عن الزحام.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2056,7 +2056,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "وادي الجنة من أكادير: كيف تصل إليه",
     excerpt:
       "وادي الجنة هو أسهل ملاذ طبيعي من أكادير. إليك كم يبعد، وكيف تصل إليه بالسيارة أو الأجرة أو رحلة منظّمة، وكيف تجعله يوماً كاملاً.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-trail-into-gorge.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 6,
@@ -2108,7 +2108,7 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
     title: "هل يمكن زيارة وادي الجنة من مراكش؟",
     excerpt:
       "وادي الجنة قرب أكادير لا مراكش — فهل رحلة يوم من مراكش واقعية؟ إليك الجواب الصادق حول المسافة والتوقيت والطريقة الأذكى.",
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-canyon-narrows.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 5,

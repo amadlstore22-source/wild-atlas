@@ -3,13 +3,16 @@ import { useEffect, useRef, useState } from "react";
 import { MAP_H, MAP_W } from "@/lib/route-map-frame";
 
 type Rect = { x: number; y: number; w: number; h: number };
-type Stage = "idle" | "pending" | "overview" | "zooming" | "drawn";
+type Stage = "idle" | "pending" | "overview" | "zooming" | "drawing" | "drawn";
 
 /**
  * Plays the route map in when it scrolls into view: the whole of Morocco with
- * its major cities and the route drawn on it, then a smooth zoom down to the
- * route, then the place names (owner's requests, 2026-10-12). Scrolling the
- * map fully out of view resets it, so it plays again on the way back.
+ * its major cities, a smooth zoom down to the tour's area, then the route
+ * drawing itself in on the close-up with the place names following it
+ * (owner's requests, 2026-10-12, and 2026-10-15: "zoom first then draw the
+ * route" -- until then the route drew on the whole-country view, where a day
+ * trip is a few pixels long, and the zoom came after). Scrolling the map fully
+ * out of view resets it, so it plays again on the way back.
  *
  * The server HTML is the finished map, so with no JavaScript or with reduced
  * motion nothing is hidden or moved. A map already on screen at load shows
@@ -23,7 +26,10 @@ type Stage = "idle" | "pending" | "overview" | "zooming" | "drawn";
  * and the city markers keep their size on screen throughout.
  */
 const ZOOM_MS = 2000;
-const OVERVIEW_MS = 1500;
+/** The whole-Morocco view with its cities, before the zoom starts. */
+const OVERVIEW_MS = 1100;
+/** Matches the stroke-dashoffset transition on [data-draw="drawing"] .route. */
+const DRAW_MS = 1500;
 const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
 function place(g: SVGGElement, r: Rect) {
@@ -55,8 +61,12 @@ export default function RouteDraw({ from, children }: { from?: Rect; children: R
       if (from && g) place(g, from);
       go("pending");
     };
+    const draw = () => {
+      go("drawing");
+      timer = window.setTimeout(() => go("drawn"), DRAW_MS);
+    };
     const zoom = () => {
-      if (!from || !g) { go("drawn"); return; }
+      if (!from || !g) { draw(); return; }
       go("zooming");
       const to: Rect = { x: 0, y: 0, w: MAP_W, h: MAP_H };
       const c0 = [from.x + from.w / 2, from.y + from.h / 2], c1 = [to.x + to.w / 2, to.y + to.h / 2];
@@ -70,7 +80,7 @@ export default function RouteDraw({ from, children }: { from?: Rect; children: R
         const h = (w * MAP_H) / MAP_W;
         place(g, { x: cx - w / 2, y: cy - h / 2, w, h });
         if (e < 1) raf = requestAnimationFrame(step);
-        else { rest(g); go("drawn"); }
+        else { rest(g); draw(); }
       };
       raf = requestAnimationFrame(step);
     };

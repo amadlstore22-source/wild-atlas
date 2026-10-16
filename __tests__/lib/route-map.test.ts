@@ -5,6 +5,7 @@ import { TOURS } from "@/lib/tours";
 import { existsSync } from "node:fs";
 import MAPS from "@/lib/route-maps.json";
 import TREKS from "@/lib/trek-maps.json";
+import { VIA_PLACES, viaInTitle } from "@/lib/route-map-via";
 
 /**
  * On 2026-10-06 every tour page except treks switched from the satellite map
@@ -28,13 +29,26 @@ import TREKS from "@/lib/trek-maps.json";
  */
 const ROOT = join(__dirname, "..", "..");
 type LonLat = [number, number];
-const maps = MAPS as unknown as Record<string, { km: number; legs: { mode: string; coords: LonLat[] }[] }>;
+const maps = MAPS as unknown as Record<string, { km: number; legs: { mode: string; coords: LonLat[] }[]; offRoad?: { from: LonLat; to: LonLat }[] }>;
 type Frame = { lon0: number; lon1: number; lat0: number; lat1: number };
 const treks = TREKS as unknown as Record<string, { frame: Frame; km: number; legs: { mode: string; coords: LonLat[] }[]; relief: string }>;
 const kmBetween = ([lon1, lat1]: LonLat, [lon2, lat2]: LonLat) => {
   const t = Math.PI / 180;
   const h = Math.sin(((lat2 - lat1) * t) / 2) ** 2 + Math.cos(lat1 * t) * Math.cos(lat2 * t) * Math.sin(((lon2 - lon1) * t) / 2) ** 2;
   return 2 * 6371 * Math.asin(Math.sqrt(h));
+};
+/** Shortest distance in km from a point to any segment of the lines (flat-earth, fine at this scale). */
+const lineKm = (p: LonLat, lines: LonLat[][]) => {
+  const kx = 111.32 * Math.cos((p[1] * Math.PI) / 180), ky = 110.57;
+  let best = Infinity;
+  for (const l of lines) for (let i = 1; i < l.length; i++) {
+    const [ax, ay, bx, by] = [l[i - 1][0] * kx, l[i - 1][1] * ky, l[i][0] * kx, l[i][1] * ky];
+    const [px, py] = [p[0] * kx, p[1] * ky];
+    const L = (bx - ax) ** 2 + (by - ay) ** 2;
+    const u = L ? Math.max(0, Math.min(1, ((px - ax) * (bx - ax) + (py - ay) * (by - ay)) / L)) : 0;
+    best = Math.min(best, Math.hypot(px - ax - u * (bx - ax), py - ay - u * (by - ay)));
+  }
+  return best;
 };
 const FIX = "Re-run node scripts/build-route-maps.mjs";
 const page = () => readFileSync(join(ROOT, "app", "[lang]", "tours", "[slug]", "page.tsx"), "utf8");
@@ -77,7 +91,8 @@ describe("route map", () => {
     for (const t of TOURS) {
       const m = maps[t.slug];
       if (!m || !m.legs.length) continue;
-      const pts = m.legs.flatMap((l) => l.coords);
+      // The dashed 4x4 runs are part of the drawn route (the Erg Chegaga camp is reached by one).
+      const pts = [...m.legs.flatMap((l) => l.coords), ...(m.offRoad ?? []).flatMap((o) => [o.from, o.to])];
       const stops = t.itinerary.flatMap((d) => [...(d.extraStops ?? []), ...(d.stop ? [d.stop] : [])]);
       if (stops.length && kmBetween(pts[0], [t.meetingPoint.lng, t.meetingPoint.lat]) > 15)
         problems.push(`${t.slug}: route starts ${Math.round(kmBetween(pts[0], [t.meetingPoint.lng, t.meetingPoint.lat]))} km from the meeting point`);
@@ -85,6 +100,64 @@ describe("route map", () => {
         const near = Math.min(...pts.map((c) => kmBetween(c, [s.lng, s.lat])));
         // 30 km: the Erg Chegaga camp is ~22 km of open desert from the last road.
         if (near > 30) problems.push(`${t.slug}: route passes ${Math.round(near)} km from ${s.name}`);
+      }
+    }
+    expect(problems, `${FIX}:\n  ${problems.join("\n  ")}`).toEqual([]);
+  });
+
+  /**
+   * Until 2026-10-15 only each day's stops were routed, and OSRM took its own
+   * shortest road between them. "Marrakech → Tizi n'Tichka → Aït Ben Haddou →
+   * Midelt" was drawn through Beni Mellal (620 km against the itinerary's
+   * 860), the 3-day Sahara loop came home the way it went out instead of by
+   * Alnif and Tazarine, and the route ran past the mouth of the Dades Gorges
+   * instead of up to the hotel. Every page built and looked like a map; only
+   * someone reading the day titles against the line would notice. The rule:
+   * a place a day title names (lib/route-map-via.ts) is on the drawn route.
+   */
+  it("goes through the places each day's title names", () => {
+    const problems: string[] = [];
+    for (const t of TOURS) {
+      const m = maps[t.slug];
+      if (!m || !m.legs.length) continue;
+      const lines = [...m.legs.map((l) => l.coords), ...(m.offRoad ?? []).map((o) => [o.from, o.to])];
+      for (const [i, d] of t.itinerary.entries()) {
+        const dayStops = [...(d.extraStops ?? []), ...(d.stop ? [d.stop] : [])];
+        const { before, after } = viaInTitle(d.title, dayStops.map((s) => s.name));
+        // "Dades Valley → Todra" the morning after the "Dades Valley" stop starts there.
+        const startStop = t.itinerary.slice(0, i).reverse().find((x) => x.stop)?.stop;
+        const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+        for (const id of [...before, ...after]) {
+          const v = VIA_PLACES[id];
+          if (startStop && v.match.test(norm(startStop.name))) continue;
+          const off = lineKm([v.lon, v.lat], lines);
+          if (off > 5) problems.push(`${t.slug} day ${d.day} ("${d.title}"): route passes ${Math.round(off)} km from ${v.name.en}`);
+        }
+      }
+    }
+    expect(problems, `${FIX}, or fix the place in lib/route-map-via.ts:\n  ${problems.join("\n  ")}`).toEqual([]);
+  });
+
+  /**
+   * On the tours that walk part of the way, a drive starting from a summit or
+   * a dune camp was snapped by OSRM to the nearest road: the Toubkal tours
+   * drove off from a road 6 km away in the next valley, and the Chegaga trek
+   * left 5-7 km holes between its camel days. A road leg must meet the leg
+   * before it, or be joined to it by a dashed off-road connector.
+   */
+  it("draws one unbroken line", () => {
+    const problems: string[] = [];
+    for (const [slug, m] of Object.entries(maps)) {
+      for (let i = 1; i < m.legs.length; i++) {
+        const a = m.legs[i - 1].coords.at(-1)!, b = m.legs[i].coords[0];
+        if (kmBetween(a, b) <= 1.5) continue;
+        // Joined through dashed 4x4 runs, possibly several (Foum Zguid -> the
+        // Erg Chegaga camp -> M'Hamid).
+        const edges = (m.offRoad ?? []).flatMap((o) => [[o.from, o.to], [o.to, o.from]] as [LonLat, LonLat][]);
+        let reach: LonLat[] = [a];
+        for (let hop = 0; hop < 4; hop++) reach = [...reach, ...edges.filter(([f]) => reach.some((r) => kmBetween(r, f) < 0.5)).map(([, to]) => to)];
+        const bridged = reach.some((r) => kmBetween(r, b) < 0.5);
+        if (!bridged) problems.push(`${slug}: ${kmBetween(a, b).toFixed(1)} km gap before leg ${i} (${m.legs[i].mode})`);
       }
     }
     expect(problems, `${FIX}:\n  ${problems.join("\n  ")}`).toEqual([]);

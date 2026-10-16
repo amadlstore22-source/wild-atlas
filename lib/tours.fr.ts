@@ -167,7 +167,7 @@ export const TOURS: Tour[] = [
         stay: "Hôtel / Kasbah",
         driving: "≈7 h",
         distance: "≈420 km",
-        stop: { name: "Gorges du Dadès", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Gorges du Dadès", lat: 31.51, lng: -5.9424 },
         title: "Marrakech → Aït Ben Haddou → Gorges du Dadès",
         description:
           "Départ de Marrakech à 7h00 et franchissement du col du Tizi n'Tichka (2 260 m) à travers le Haut Atlas. Visite du ksar d'Aït Ben Haddou, classé à l'UNESCO — la kasbah de Game of Thrones et Gladiator, le lieu de tournage le plus filmé d'Afrique — puis route au-delà de Ouarzazate, capitale marocaine du cinéma, le long de la Vallée des Mille Kasbahs. Nuit dans les gorges du Dadès.",
@@ -630,10 +630,12 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -820,7 +822,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "Apprenez à surfer sur les vagues atlantiques et chaudes d'Agadir — cours professionnel, planche et combinaison inclus.",
@@ -3755,7 +3757,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech → Aït Ben Haddou → Gorges du Dadès",
         description:
           "Départ de Marrakech vers 7h00 et franchissement du col du Tizi n'Tichka. Arrêt à Aït Ben Haddou et Ouarzazate, puis route le long de la Vallée des Mille Kasbahs. Nuit dans les gorges du Dadès.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -4277,7 +4279,7 @@ export const TOURS: Tour[] = [
       { day: 4, driving: "≈4 h 30", distance: "≈280 km", stay: "Hôtel dans la vallée du Dadès", meals: "Petit-déjeuner, dîner",
         title: "Erg Chebbi → Merzouga → Gorges du Todra → Dadès",
         description: "Lever du soleil sur les dunes et retour à dos de dromadaire pour le petit-déjeuner. Vers l'ouest par l'ancienne route caravanière et Tinghir jusqu'aux gorges du Todra, où les parois se resserrent à dix mètres et s'élèvent à trois cents. Puis la vallée du Dadès pour la nuit, sous les formations rocheuses que l'on appelle ici les doigts de singe.",
-        stop: { name: "Gorges du Dadès", lat: 31.5203, lng: -5.9906 } },
+        stop: { name: "Gorges du Dadès", lat: 31.51, lng: -5.9424 } },
       { day: 5, driving: "≈5 h 30", distance: "≈330 km", stay: "—", meals: "Petit-déjeuner",
         title: "Dadès → Kalaat M'Gouna → Ouarzazate → Aït Ben Haddou → Marrakech",
         description: "Par Kalaat M'Gouna, la ville des roses où l'on distille les roses de Damas de la vallée, jusqu'à Ouarzazate et les studios Atlas. Déjeuner à Aït Ben Haddou, le ksar classé à l'UNESCO qui a servi de décor à la moitié du monde antique au cinéma, puis franchissement du Tizi n'Tichka (2 260 m) et arrivée à Marrakech en fin d'après-midi.",

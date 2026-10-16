@@ -3,6 +3,7 @@ import TREKS from "@/lib/trek-maps.json";
 import LAND from "@/lib/route-map-land.json";
 import { MAP_H, MAP_W, overviewRect, projector, type Frame, type LonLat } from "@/lib/route-map-frame";
 import { MAP_CITIES, type CityName } from "@/lib/route-map-cities";
+import { VIA_PLACES } from "@/lib/route-map-via";
 import RouteDraw from "./RouteDraw";
 
 /**
@@ -34,6 +35,9 @@ type Leg = { mode: "road" | "foot" | "trail"; coords: LonLat[] };
 type Poi = { kind: "peak" | "pass"; name: string; ar?: string; ele?: number; p: LonLat };
 type MapData = {
   frame: Frame; km: number; legs: Leg[]; offRoad: { from: LonLat; to: LonLat }[];
+  // Places the day titles name between overnight stops (Aït Ben Haddou, Todra
+  // Gorge...): the route is routed through them; ids into VIA_PLACES.
+  via?: string[];
   // Trek maps only.
   trek?: boolean; trails?: LonLat[][]; roads?: LonLat[][]; water?: LonLat[][]; pois?: Poi[]; relief?: string;
 };
@@ -130,6 +134,21 @@ export default function RouteMap(props: Props) {
   const overlap = (b: Box) =>
     taken.reduce((sum, t) => sum + Math.max(0, Math.min(b.x1, t.x1) - Math.max(b.x0, t.x0)) * Math.max(0, Math.min(b.y1, t.y1) - Math.max(b.y0, t.y0)), 0);
   const hit = (b: Box) => outside(b) || overlap(b) > 0;
+  // A name may not sit on the line it labels: on the Agadir Erg Chegaga tour
+  // "ERG CHEGAGA" was printed over the dashed 4x4 run on to M'Hamid and hid it.
+  // The route is sampled every ~6 px; a slot that covers it is used only when
+  // nothing else is free.
+  const routePts: [number, number][] = [];
+  for (const line of [...data.legs.map((l) => l.coords), ...data.offRoad.map((o) => [o.from, o.to])]) {
+    const xy = line.map(px);
+    for (let i = 1; i < xy.length; i++) {
+      const [[ax, ay], [bx, by]] = [xy[i - 1], xy[i]];
+      const n = Math.max(1, Math.ceil(Math.hypot(bx - ax, by - ay) / 6));
+      for (let k = 0; k <= n; k++) routePts.push([ax + ((bx - ax) * k) / n, ay + ((by - ay) * k) / n]);
+    }
+  }
+  const onRoute = (b: Box) => routePts.some(([x, y]) => x > b.x0 && x < b.x1 && y > b.y0 && y < b.y1);
+  const firstFree = <T extends { box: Box }>(opts: T[]) => opts.find((o) => !hit(o.box) && !onRoute(o.box)) ?? opts.find((o) => !hit(o.box));
   const fs = LABEL_MOBILE;
 
   const labels = places.filter((pl) => inFrame(pl.p)).sort((a, b) => Number(b.origin) - Number(a.origin)).map((pl) => {
@@ -143,14 +162,18 @@ export default function RouteMap(props: Props) {
         ? { x0: x + 12, y0: y + dy - fs * 0.6, x1: x + 14 + w, y1: y + dy + fs * 0.5 }
         : { x0: x - 14 - w, y0: y + dy - fs * 0.6, x1: x - 12, y1: y + dy + fs * 0.5 },
     });
+    // Above/below slide inward at the frame's edge instead of running off it:
+    // the Erg Chebbi camp at the east edge of the Toubkal-and-Sahara map had
+    // every side slot taken by the long names out west and lost its label.
+    const cx = Math.min(Math.max(x, 4 + w / 2), W - 4 - w / 2);
     const centred = (up: boolean) => up
-      ? { tx: x, ty: y - 16, anchor: "middle", box: { x0: x - w / 2, y0: y - 16 - fs * 0.85, x1: x + w / 2, y1: y - 12 } }
-      : { tx: x, ty: y + 16 + fs * 0.75, anchor: "middle", box: { x0: x - w / 2, y0: y + 12, x1: x + w / 2, y1: y + 18 + fs * 0.8 } };
+      ? { tx: cx, ty: y - 16, anchor: "middle", box: { x0: cx - w / 2, y0: y - 16 - fs * 0.85, x1: cx + w / 2, y1: y - 12 } }
+      : { tx: cx, ty: y + 16 + fs * 0.75, anchor: "middle", box: { x0: cx - w / 2, y0: y + 12, x1: cx + w / 2, y1: y + 18 + fs * 0.8 } };
     const options = [side(1, 0), side(-1, 0), centred(true), centred(false), side(-1, -fs), side(-1, fs), side(1, -fs), side(1, fs)];
     // Nothing free: a cluster of camps a few km apart (seen on the 15-day
     // traverse) printed names on top of each other. Keep the dot and drop the
     // name, except for the start, which takes the least-overlapping slot.
-    const free = options.find((o) => !hit(o.box));
+    const free = firstFree(options);
     const pick = free ?? (pl.origin
       ? options.filter((o) => !outside(o.box)).sort((a, b) => overlap(a.box) - overlap(b.box))[0] ?? options[0]
       : undefined);
@@ -174,11 +197,37 @@ export default function RouteMap(props: Props) {
     ];
     const mark = { x0: x - 6, y0: y - 6, x1: x + 6, y1: y + 6 };
     if (hit(mark)) return [];
-    const pick = opts.find((o) => !hit(o.box));
+    const pick = firstFree(opts);
     if (!pick) return [];
     taken.push(mark, pick.box);
     return [{ ...q, text, x, y, tx: pick.tx, ty: pick.ty, anchor: pick.anchor }];
   }) : [];
+
+  // Places the route passes through on the way (the day titles name them), after
+  // the stops and smaller: a hollow dot and a name, only where they fit, and not
+  // where a stop already stands.
+  const VIA_FS = 19;
+  const viaLabels = (data.via ?? []).flatMap((id) => {
+    const v = VIA_PLACES[id];
+    if (!v) return [];
+    const p: LonLat = [v.lon, v.lat];
+    if (!inFrame(p) || places.some((pl) => kmBetween(pl.p, p) < 4)) return [];
+    const [x, y] = px(p);
+    const text = v.name[lang as keyof CityName] ?? v.name.en;
+    const w = text.length * VIA_FS * 0.56;
+    const opts = [
+      { tx: x + 9, ty: y + VIA_FS * 0.35, anchor: "start", box: { x0: x + 7, y0: y - VIA_FS * 0.6, x1: x + 9 + w, y1: y + VIA_FS * 0.5 } },
+      { tx: x - 9, ty: y + VIA_FS * 0.35, anchor: "end", box: { x0: x - 9 - w, y0: y - VIA_FS * 0.6, x1: x - 7, y1: y + VIA_FS * 0.5 } },
+      { tx: x, ty: y - 10, anchor: "middle", box: { x0: x - w / 2, y0: y - 10 - VIA_FS * 0.85, x1: x + w / 2, y1: y - 7 } },
+      { tx: x, ty: y + 9 + VIA_FS * 0.75, anchor: "middle", box: { x0: x - w / 2, y0: y + 7, x1: x + w / 2, y1: y + 11 + VIA_FS * 0.8 } },
+    ];
+    const mark = { x0: x - 5, y0: y - 5, x1: x + 5, y1: y + 5 };
+    if (hit(mark)) return [];
+    const pick = firstFree(opts);
+    if (!pick) return [];
+    taken.push(mark, pick.box);
+    return [{ id, text, x, y, tx: pick.tx, ty: pick.ty, anchor: pick.anchor }];
+  });
 
   // Region names are context, not content: only where they fit clear of the labels.
   const regionLabels = REGIONS.flatMap((r) => {
@@ -250,6 +299,12 @@ export default function RouteMap(props: Props) {
                 ? <path d={`M${f(q.x)} ${f(q.y - 6)}L${f(q.x + 6)} ${f(q.y + 4.5)}L${f(q.x - 6)} ${f(q.y + 4.5)}Z`} />
                 : <path d={`M${f(q.x)} ${f(q.y - 5)}L${f(q.x + 5)} ${f(q.y)}L${f(q.x)} ${f(q.y + 5)}L${f(q.x - 5)} ${f(q.y)}Z`} />}
               <text x={f(q.tx)} y={f(q.ty)} textAnchor={q.anchor as "start" | "end" | "middle"}>{q.text}</text>
+            </g>
+          ))}
+          {viaLabels.map((v) => (
+            <g key={`via${v.id}`} className="via">
+              <circle cx={f(v.x)} cy={f(v.y)} r={3.6} />
+              <text x={f(v.tx)} y={f(v.ty)} textAnchor={v.anchor as "start" | "end" | "middle"}>{v.text}</text>
             </g>
           ))}
           {labels.map((l) => (

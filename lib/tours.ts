@@ -385,7 +385,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel / Kasbah",
         driving: "≈7 h",
         distance: "≈420 km",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
         title: "Marrakech → Aït Ben Haddou → Dades Gorges",
         description:
           "Depart Marrakech at 7:00 am and cross the Tizi n'Tichka pass (2,260 m) through the High Atlas. Visit the UNESCO Ksar of Aït Ben Haddou — the Game of Thrones and Gladiator kasbah, and the most-filmed location in Africa — then continue past Ouarzazate, Morocco's film capital, and along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
@@ -946,10 +946,12 @@ export const TOURS: Tour[] = [
     ],
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -1170,7 +1172,7 @@ export const TOURS: Tour[] = [
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "Learn to surf on Agadir's warm Atlantic waves — professional instruction, board and wetsuit included.",
@@ -4499,7 +4501,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech → Aït Ben Haddou → Dades Gorges",
         description:
           "Depart Marrakech around 7:00 am and cross the Tizi n'Tichka pass. Stop at Aït Ben Haddou — the Game of Thrones and Gladiator kasbah — and at Ouarzazate, Morocco's film capital, then continue along the Valley of a Thousand Kasbahs. Night in the Dades Gorges.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -5081,7 +5083,7 @@ export const TOURS: Tour[] = [
         title: "Erg Chebbi → Merzouga → Todra Gorge → Dades",
         description:
           "Sunrise over the dunes and the camel ride back for breakfast. West along the old caravan road through Tinghir to the Todra Gorge, where the walls close to ten metres and rise three hundred. On to the Dades valley for the night, beneath the rock formations locals call the monkey fingers.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 5,

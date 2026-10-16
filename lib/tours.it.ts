@@ -158,7 +158,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel / Kasbah",
         driving: "≈7 h",
         distance: "≈420 km",
-        stop: { name: "Gole del Dades", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Gole del Dades", lat: 31.51, lng: -5.9424 },
         title: "Marrakech → Aït Ben Haddou → Gole del Dades",
         description:
           "Partenza da Marrakech alle 7:00 e attraversamento del passo Tizi n'Tichka (2.260 m) sull'Alto Atlante. Visita allo Ksar di Aït Ben Haddou, patrimonio UNESCO — la kasbah di Game of Thrones e Gladiator, il luogo più filmato d'Africa — poi proseguimento oltre Ouarzazate, capitale del cinema marocchino, lungo la Valle delle Mille Kasbah. Notte nelle gole del Dades.",
@@ -621,10 +621,12 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -811,7 +813,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "Impara a surfare sulle calde onde atlantiche di Agadir — istruzione professionale, tavola e muta incluse.",
@@ -3746,7 +3748,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech → Aït Ben Haddou → Gole del Dades",
         description:
           "Partenza da Marrakech verso le 7:00 e attraversamento del passo Tizi n'Tichka. Sosta ad Aït Ben Haddou e Ouarzazate, poi lungo la Valle delle Mille Kasbah. Notte nelle gole del Dades.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -4268,7 +4270,7 @@ export const TOURS: Tour[] = [
       { day: 4, driving: "≈4 h 30", distance: "≈280 km", stay: "Hotel nella valle del Dades", meals: "Colazione, cena",
         title: "Erg Chebbi → Merzouga → Gola del Todra → Dades",
         description: "Alba sulle dune e ritorno in cammello per la colazione. Verso ovest sulla vecchia strada carovaniera passando per Tinghir fino alla gola del Todra, dove le pareti si stringono a dieci metri e si alzano per trecento. Poi la valle del Dades per la notte, sotto le formazioni rocciose che qui chiamano dita di scimmia.",
-        stop: { name: "Gole del Dades", lat: 31.5203, lng: -5.9906 } },
+        stop: { name: "Gole del Dades", lat: 31.51, lng: -5.9424 } },
       { day: 5, driving: "≈5 h 30", distance: "≈330 km", stay: "—", meals: "Colazione",
         title: "Dades → Kalaat M'Gouna → Ouarzazate → Aït Ben Haddou → Marrakech",
         description: "Attraverso Kalaat M'Gouna, la cittadina delle rose dove si distillano le rose damascene della valle, fino a Ouarzazate e agli Atlas Film Studios. Pranzo ad Aït Ben Haddou, lo ksar UNESCO che sullo schermo ha fatto da mezzo mondo antico, poi il passo Tizi n'Tichka (2.260 m) e arrivo a Marrakech nel tardo pomeriggio.",

@@ -158,7 +158,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel / Kasbah",
         driving: "≈7 h",
         distance: "≈420 km",
-        stop: { name: "Gargantas del Dades", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Gargantas del Dades", lat: 31.51, lng: -5.9424 },
         title: "Marrakech → Aït Ben Haddou → Gargantas del Dades",
         description:
           "Salida de Marrakech a las 7:00 y cruce del puerto de Tizi n'Tichka (2.260 m) por el Alto Atlas. Visita al Ksar de Aït Ben Haddou, Patrimonio de la Humanidad — la kasbah de Juego de Tronos y Gladiator, el lugar más filmado de África — y continuación más allá de Uarzazate, la capital del cine de Marruecos, por el Valle de las Mil Kasbahs. Noche en las gargantas del Dades.",
@@ -621,10 +621,12 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -811,7 +813,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "Aprende a surfear en las cálidas olas atlánticas de Agadir — clases profesionales, tabla y traje de neopreno incluidos.",
@@ -3746,7 +3748,7 @@ export const TOURS: Tour[] = [
         title: "Marrakech → Aït Ben Haddou → Gargantas del Dades",
         description:
           "Salida de Marrakech sobre las 7:00 y paso del puerto de Tizi n'Tichka. Parada en Aït Ben Haddou y Uarzazate, y continuación por el Valle de las Mil Kasbahs. Noche en las gargantas del Dades.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -4268,7 +4270,7 @@ export const TOURS: Tour[] = [
       { day: 4, driving: "≈4 h 30", distance: "≈280 km", stay: "Hotel en el valle del Dades", meals: "Desayuno, cena",
         title: "Erg Chebbi → Merzouga → Garganta del Todra → Dades",
         description: "Amanecer sobre las dunas y regreso en camello para desayunar. Hacia el oeste por la antigua ruta de caravanas y Tinghir hasta la garganta del Todra, donde las paredes se estrechan a diez metros y se elevan trescientos. Luego el valle del Dades para pasar la noche, bajo las formaciones rocosas que aquí llaman dedos de mono.",
-        stop: { name: "Gargantas del Dades", lat: 31.5203, lng: -5.9906 } },
+        stop: { name: "Gargantas del Dades", lat: 31.51, lng: -5.9424 } },
       { day: 5, driving: "≈5 h 30", distance: "≈330 km", stay: "—", meals: "Desayuno",
         title: "Dades → Kalaat M'Gouna → Uarzazate → Aït Ben Haddou → Marrakech",
         description: "Por Kalaat M'Gouna, el pueblo rosero donde se destilan las rosas de Damasco del valle, hasta Uarzazate y los Atlas Film Studios. Almuerzo en Aït Ben Haddou, el ksar declarado por la UNESCO que ha hecho de medio mundo antiguo en el cine, y después el puerto de Tizi n'Tichka (2.260 m) hasta Marrakech a última hora de la tarde.",

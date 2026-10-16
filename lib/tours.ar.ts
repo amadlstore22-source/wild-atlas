@@ -156,7 +156,7 @@ export const TOURS: Tour[] = [
         stay: "فندق / قصبة",
         driving: "≈7 ساعات",
         distance: "≈420 كم",
-        stop: { name: "مضائق دادس", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "مضائق دادس", lat: 31.51, lng: -5.9424 },
         title: "مراكش ← آيت بن حدو ← مضائق دادس",
         description:
           "الانطلاق من مراكش في السابعة صباحاً وعبور ممر تيزي ن'تيشكا (2260 م) عبر الأطلس الكبير. زيارة قصر آيت بن حدو المدرج في التراث العالمي لليونسكو، ثم المتابعة بعد ورزازات على طول وادي الألف قصبة. المبيت في مضائق دادس.",
@@ -612,10 +612,12 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -799,7 +801,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "تعلّم ركوب الأمواج على مياه أݣادير الأطلسية الدافئة — تدريب احترافي، لوح وبدلة غطس مشمولان.",
@@ -3704,7 +3706,7 @@ export const TOURS: Tour[] = [
         title: "مراكش → آيت بن حدو → مضائق دادس",
         description:
           "الانطلاق من مراكش نحو السابعة صباحاً وعبور ممر تيزي ن تيشكا. توقّف في آيت بن حدو وورزازات، ثم المسير على طول وادي الألف قصبة. المبيت في مضائق دادس.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -4220,7 +4222,7 @@ export const TOURS: Tour[] = [
       { day: 4, driving: "≈4:30 س", distance: "≈280 كم", stay: "فندق في وادي دادس", meals: "فطور، عشاء",
         title: "عرق الشبي ← مرزوكة ← مضيق تودرا ← دادس",
         description: "شروق الشمس فوق الكثبان والعودة على ظهر الجمل لتناول الفطور. غربًا على طريق القوافل القديم عبر تنغير إلى مضيق تودرا، حيث تتقارب الجدران إلى عشرة أمتار وترتفع ثلاثمئة. ثم وادي دادس للمبيت، تحت التشكيلات الصخرية التي يسمّيها الأهالي أصابع القرد.",
-        stop: { name: "مضائق دادس", lat: 31.5203, lng: -5.9906 } },
+        stop: { name: "مضائق دادس", lat: 31.51, lng: -5.9424 } },
       { day: 5, driving: "≈5:30 س", distance: "≈330 كم", stay: "—", meals: "فطور",
         title: "دادس ← قلعة مݣونة ← ورزازات ← آيت بن حدو ← مراكش",
         description: "عبر قلعة مݣونة، مدينة الورود حيث يُقطَّر ورد دمشق في الوادي، إلى ورزازات واستوديوهات أطلس. الغداء في آيت بن حدو، القصر المصنّف عالميًا الذي أدّى على الشاشة دور نصف العالم القديم، ثم عبور تيزي نتيشكا (2260 مترًا) والوصول إلى مراكش بعد الظهر.",

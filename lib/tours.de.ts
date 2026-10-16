@@ -158,7 +158,7 @@ export const TOURS: Tour[] = [
         stay: "Hotel / Kasbah",
         driving: "≈7 Std.",
         distance: "≈420 km",
-        stop: { name: "Dades-Schlucht", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades-Schlucht", lat: 31.51, lng: -5.9424 },
         title: "Marrakesch → Aït Ben Haddou → Dades-Schlucht",
         description:
           "Abfahrt in Marrakesch um 7:00 Uhr und Überquerung des Tizi-n'Tichka-Passes (2.260 m) durch den Hohen Atlas. Besuch des UNESCO-Weltkulturerbes Ksar Aït Ben Haddou — die Kasbah aus Game of Thrones und Gladiator und der meistgefilmte Ort Afrikas — dann weiter an Ouarzazate vorbei, Marokkos Filmhauptstadt, entlang des Tals der tausend Kasbahs. Übernachtung in der Dades-Schlucht.",
@@ -621,10 +621,12 @@ export const TOURS: Tour[] = [
     rating: 4.8,
     price: 75,
     depositAmount: 16,
-    heroImage: "/gallery/blog-hero-atlas-valley-panorama.jpg",
+    heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
-      "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
-      "/gallery/blog-marrakech-vs-agadir-which-base.jpg",
+      "/gallery/paradise-valley-palm-grove-gorge.jpg",
+      "/gallery/paradise-valley-riverside-cafe.jpg",
+      "/gallery/paradise-valley-canyon-narrows.jpg",
+      "/gallery/paradise-valley-trail-into-gorge.jpg",
       "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     ],
     shortDescription:
@@ -811,7 +813,7 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-agadir-surf-lesson.jpg",
       "https://images.unsplash.com/photo-1553458287-b25ff2a8a778?w=1200&q=85",
-      "/gallery/blog-best-day-trips-from-agadir.jpg",
+      "/gallery/agadir-beach-sunset-swimmers.jpg",
     ],
     shortDescription:
       "Lernen Sie auf Agadirs warmen Atlantikwellen surfen — professioneller Unterricht, Board und Neoprenanzug inklusive.",
@@ -3746,7 +3748,7 @@ export const TOURS: Tour[] = [
         title: "Marrakesch → Aït Ben Haddou → Dades-Schlucht",
         description:
           "Abfahrt in Marrakesch gegen 7:00 Uhr und Überquerung des Tizi-n'Tichka-Passes. Halt in Aït Ben Haddou und Ouarzazate, dann weiter entlang des Tals der tausend Kasbahs. Übernachtung in der Dades-Schlucht.",
-        stop: { name: "Dades Gorges", lat: 31.5203, lng: -5.9906 },
+        stop: { name: "Dades Gorges", lat: 31.51, lng: -5.9424 },
       },
       {
         day: 2,
@@ -4268,7 +4270,7 @@ export const TOURS: Tour[] = [
       { day: 4, driving: "≈4,5 Std.", distance: "≈280 km", stay: "Hotel im Dades-Tal", meals: "Frühstück, Abendessen",
         title: "Erg Chebbi → Merzouga → Todra-Schlucht → Dades",
         description: "Sonnenaufgang über den Dünen und der Kamelritt zurück zum Frühstück. Westwärts auf der alten Karawanenstraße über Tinghir zur Todra-Schlucht, wo die Wände auf zehn Meter zusammenrücken und dreihundert Meter aufragen. Weiter ins Dades-Tal zur Übernachtung, unter den Felsformationen, die man hier Affenfinger nennt.",
-        stop: { name: "Dades-Schluchten", lat: 31.5203, lng: -5.9906 } },
+        stop: { name: "Dades-Schluchten", lat: 31.51, lng: -5.9424 } },
       { day: 5, driving: "≈5,5 Std.", distance: "≈330 km", stay: "—", meals: "Frühstück",
         title: "Dades → Kalaat M'Gouna → Ouarzazate → Aït Ben Haddou → Marrakesch",
         description: "Durch Kalaat M'Gouna, die Rosenstadt, in der die Damaszener Rosen des Tals destilliert werden, nach Ouarzazate und zu den Atlas Film Studios. Mittagessen in Aït Ben Haddou, dem UNESCO-Ksar, der auf der Leinwand für die halbe Antike eingestanden hat, dann über den Tizi n'Tichka (2.260 m) und am späten Nachmittag nach Marrakesch.",

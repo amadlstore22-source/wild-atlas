@@ -322,7 +322,7 @@ export const TOURS: Tour[] = [
     // The owner's EUR ladder: 690 / 380 / 320 / 295 / 260 / 230 per person,
     // flat from six up. Stored as those euro figures (lib/currency-core.ts).
     price: 690,
-    depositAmount: 152,
+    depositAmount: 138,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -454,7 +454,7 @@ export const TOURS: Tour[] = [
     ],
     price: 105,
     // 22% of the solo price, the rate the booking guide states: €23.
-    depositAmount: 23,
+    depositAmount: 21,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -529,7 +529,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 22 },
     ],
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -603,7 +603,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 56 },
     ],
     price: 186,
-    depositAmount: 41,
+    depositAmount: 37,
     heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
       "/gallery/agafay-camel-caravan-golden-hour.jpg",
@@ -679,7 +679,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 31 },
     ],
     price: 73,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -743,7 +743,7 @@ export const TOURS: Tour[] = [
     // marrakech-desert-trips.com's published 3-day Marrakech to Fes table
     // (verified Aug 2026) and set 10% under it at every bracket.
     price: 1022,
-    depositAmount: 224,
+    depositAmount: 204,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -863,7 +863,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 596 },
     ],
     price: 1350,
-    depositAmount: 297,
+    depositAmount: 270,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -945,7 +945,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 22 },
     ],
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
       "/gallery/paradise-valley-palm-grove-gorge.jpg",
@@ -1019,7 +1019,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 51 },
     ],
     price: 172,
-    depositAmount: 38,
+    depositAmount: 34,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -1167,7 +1167,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 21 },
     ],
     price: 70,
-    depositAmount: 16,
+    depositAmount: 14,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -1349,7 +1349,7 @@ export const TOURS: Tour[] = [
       { minPeople: 5, price: 280 },
     ],
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1437,7 +1437,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 26 },
     ],
     price: 62,
-    depositAmount: 14,
+    depositAmount: 12,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1690,7 +1690,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 339 },
     ],
     price: 1029,
-    depositAmount: 226,
+    depositAmount: 206,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1722,12 +1722,12 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
+        title: "Marrakech → Beni Mellal → Midelt",
         description:
-          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou, the Game of Thrones and Gladiator kasbah and the most-filmed location in Africa. Continue past Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — to Midelt for the night in the high plains between the two Atlas ranges.",
+          "Drive north-east from Marrakech along the foot of the Atlas, past Beni Mellal, then up through the Middle Atlas to Midelt for the night, on the high plains between the two Atlas ranges.",
       },
       {
         day: 2,
@@ -1818,7 +1818,7 @@ export const TOURS: Tour[] = [
       { minPeople: 14, price: 98 },
     ],
     price: 360,
-    depositAmount: 78,
+    depositAmount: 72,
     heroImage:
       "/gallery/children-camels-palm-oasis-draa.jpg",
     gallery: [
@@ -1907,7 +1907,7 @@ export const TOURS: Tour[] = [
     // marrakech-desert-trips.com's published 3-day Erg Chigaga table
     // (verified Aug 2026) and set 10% under it at every bracket.
     price: 1269,
-    depositAmount: 279,
+    depositAmount: 254,
     // Priced per exact group size, mirroring how these trips are quoted.
     // NOT flat brackets: flattening 2–3 and 4–5 to one rate made four
     // people total less than three (€1,172 vs €1,176), so a trio was
@@ -1934,12 +1934,12 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Morocco's most remote desert — Erg Chegaga requires a 4x4 off-road journey past the last paved road to reach dunes rising 120 m above a vast and unpopulated sea of sand.",
     description:
-      "Erg Chegaga is the Sahara that most tourists never find. Unlike Erg Chebbi near Merzouga — where camel trains file past each other in view of hotels — Chegaga requires an off-road 4x4 journey beyond the end of the tarmac at M'Hamid, the last village before the true Sahara. The dune field stretches for kilometres with barely another soul in sight. Three days from Marrakech through Aït Ben Haddou, the Saffron Valley of Taliouine, and the edge of the known world — then a night deep in the desert where silence is the only sound.",
+      "Erg Chegaga is the Sahara that most tourists never find. Unlike Erg Chebbi near Merzouga — where camel trains file past each other in view of hotels — Chegaga requires an off-road 4x4 journey beyond the end of the tarmac at M'Hamid, the last village before the true Sahara. The dune field stretches for kilometres with barely another soul in sight. Three days from Marrakech through Aït Ben Haddou, the palm groves of the Draa Valley, and the edge of the known world — then a night deep in the desert where silence is the only sound.",
     highlights: [
       "Erg Chegaga — fewer tourists, 120 m dunes, profound silence",
       "4x4 off-road desert crossing from M'Hamid into the dune field",
       "A night in a desert camp with no other camps in sight",
-      "Saffron Valley of Taliouine — Morocco's spice capital",
+      "The Draa Valley — palm groves and kasbahs from Agdz to Zagora",
       "UNESCO Ksar of Aït Ben Haddou",
       "Sunrise and sunset camel treks in a private corner of the Sahara",
     ],
@@ -1965,9 +1965,9 @@ export const TOURS: Tour[] = [
         driving: "≈8 h",
         distance: "≈460 km",
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
-        title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
+        title: "Marrakech → Aït Ben Haddou → Zagora → M'Hamid",
         description:
-          "Pick-up at 7:00 am. Cross the Tizi n'Tichka pass and visit Aït Ben Haddou. Continue south through Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — and into the Saffron Valley near Taliouine — Morocco's saffron capital — for a short stop. Continue to M'Hamid, the last town before the open Sahara. Dinner and overnight in M'Hamid.",
+          "Pick-up at 7:00 am. Cross the Tizi n'Tichka pass and visit Aït Ben Haddou. Continue south through Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — and down the Draa Valley, past the palm groves of Agdz and Zagora. Continue to M'Hamid, the last town before the open Sahara. Dinner and overnight in M'Hamid.",
       },
       {
         day: 2,
@@ -2044,7 +2044,7 @@ export const TOURS: Tour[] = [
       { minPeople: 10, price: 245 },
     ],
     price: 889,
-    depositAmount: 196,
+    depositAmount: 178,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -2172,7 +2172,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 170 },
     ],
     price: 728,
-    depositAmount: 160,
+    depositAmount: 146,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -2279,7 +2279,7 @@ export const TOURS: Tour[] = [
       { minPeople: 5, price: 195 },
     ],
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -2363,7 +2363,7 @@ export const TOURS: Tour[] = [
     // Benchmarked 10% under their 3-day Agadir to Erg Chigaga — same trip
     // (published table, verified Aug 2026).
     price: 1209,
-    depositAmount: 266,
+    depositAmount: 242,
     groupPricing: [
       { minPeople: 1, price: 1209 },
       { minPeople: 2, price: 605 },
@@ -2475,7 +2475,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 242 },
     ],
     price: 1037,
-    depositAmount: 228,
+    depositAmount: 207,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2589,7 +2589,7 @@ export const TOURS: Tour[] = [
     // Benchmarked 10% under their 4-day Agadir to Merzouga — same length, same start point
     // (published table, verified Aug 2026).
     price: 1030,
-    depositAmount: 226,
+    depositAmount: 206,
     groupPricing: [
       { minPeople: 1, price: 1030 }, // €1030
       { minPeople: 2, price: 567 }, // €567
@@ -2706,7 +2706,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 228 },
     ],
     price: 691,
-    depositAmount: 152,
+    depositAmount: 138,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2822,7 +2822,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 303 },
     ],
     price: 922,
-    depositAmount: 203,
+    depositAmount: 184,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2865,12 +2865,12 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
+        title: "Marrakech → Beni Mellal → Midelt",
         description:
-          "Drive north from Marrakech via the Atlas. Stop at Aït Ben Haddou, the Game of Thrones and Gladiator kasbah and the most-filmed location in Africa. Continue past Ouarzazate — Morocco's film capital, home to the Atlas Film Studios — to Midelt for the night in the high plains between the two Atlas ranges.",
+          "Drive north-east from Marrakech along the foot of the Atlas, past Beni Mellal, then up through the Middle Atlas to Midelt for the night, on the high plains between the two Atlas ranges.",
       },
       {
         day: 3,
@@ -3512,7 +3512,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 121 },
     ],
     price: 518,
-    depositAmount: 114,
+    depositAmount: 104,
     heroImage:
       "/gallery/camel-riders-sunset-silhouette.jpg",
     gallery: [
@@ -3612,7 +3612,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 116 },
     ],
     price: 285,
-    depositAmount: 62,
+    depositAmount: 57,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/trek-camp-golden-hour-valley.jpg",
@@ -3711,7 +3711,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 169 },
     ],
     price: 416,
-    depositAmount: 92,
+    depositAmount: 83,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3821,7 +3821,7 @@ export const TOURS: Tour[] = [
       { minPeople: 6, price: 225 },
     ],
     price: 554,
-    depositAmount: 122,
+    depositAmount: 111,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3933,7 +3933,7 @@ export const TOURS: Tour[] = [
     // smallest bookable party. Without this the headline price would be a
     // solo rate nobody can actually book -- see group-pricing.test.ts.
     minPeople: 2,
-    depositAmount: 116,
+    depositAmount: 105,
     groupPricing: [
         { minPeople: 2, price: 526 },
         { minPeople: 3, price: 399 },
@@ -4291,7 +4291,7 @@ export const TOURS: Tour[] = [
     reviewCount: 18,
     rating: 5.0,
     price: 2700,
-    depositAmount: 594,
+    depositAmount: 540,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -4463,7 +4463,7 @@ export const TOURS: Tour[] = [
     // six travellers pay six times one. Only private tours discount by size.
     groupPricing: [{ minPeople: 1, price: 120 }],
     price: 120,
-    depositAmount: 26,
+    depositAmount: 24,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -4540,7 +4540,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zagora is the closest desert overnight to Marrakech, and that is the entire reason to choose it. The route runs over the Tizi n'Tichka pass, past Aït Ben Haddou and Ouarzazate, into the Draa Valley palm groves, then a camel ride into the dunes for dinner, drumming and a night at camp. Day two returns the same way. Roughly 360 km and about 8 hours each way.",
       "Be honest with yourself about the dunes before booking. Zagora's are small — nothing like the 150-metre walls at Erg Chebbi — because Zagora is a desert town with sand rather than a great erg. That is the trade you are making for a trip that fits in two days instead of three or four. People who go expecting Lawrence of Arabia are disappointed; people who go knowing this is the short version enjoy it.",
-      "At €85 per person it is the cheapest desert night we run, and the price is flat rather than a group ladder because this is a shared departure sold by the seat. You travel in an air-conditioned minibus with up to sixteen others and an English- or French-speaking driver. The deposit is €19. Included: transport, the camp night, dinner and breakfast, and the camel ride.",
+      "At €85 per person it is the cheapest desert night we run, and the price is flat rather than a group ladder because this is a shared departure sold by the seat. You travel in an air-conditioned minibus with up to sixteen others and an English- or French-speaking driver. The deposit is €17. Included: transport, the camp night, dinner and breakfast, and the camel ride.",
       "Not included: lunches, drinks, tips and entry fees — Aït Ben Haddou in particular has a charge at the site. Budget for those separately so the day does not surprise you.",
       "If you have three or four days, Merzouga and Erg Chebbi are the better desert. If you have two days, or you would rather spend the difference elsewhere in Morocco, this does the job honestly: a real night under canvas in the south, at a price that leaves the rest of your trip intact.",
     ],
@@ -4558,7 +4558,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 85 }],
     price: 85,
-    depositAmount: 19,
+    depositAmount: 17,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -4632,7 +4632,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 40 }],
     price: 40,
-    depositAmount: 9,
+    depositAmount: 8,
     heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
     shortDescription:
@@ -4691,7 +4691,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
     gallery: [
       "/gallery/agafay-fire-breathing-audience.jpg",
@@ -4754,7 +4754,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
     shortDescription:
@@ -4824,7 +4824,7 @@ export const TOURS: Tour[] = [
       // a figure nobody pays.
       listPrice: 1105,
     },
-    depositAmount: 214,
+    depositAmount: 213,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -4987,7 +4987,7 @@ export const TOURS: Tour[] = [
     // booking a phantom extra traveller -- the inversion trap documented on
     // sahara-3day-marrakech.
     price: 1380,
-    depositAmount: 304,
+    depositAmount: 276,
     groupPricing: [
       { minPeople: 1, price: 1380 },
       { minPeople: 2, price: 825 },

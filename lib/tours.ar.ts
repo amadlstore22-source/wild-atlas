@@ -116,7 +116,7 @@ export const TOURS: Tour[] = [
     reviewCount: 124,
     rating: 4.8,
     price: 690,
-    depositAmount: 152,
+    depositAmount: 138,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -212,7 +212,7 @@ export const TOURS: Tour[] = [
     reviewCount: 203,
     rating: 4.7,
     price: 105,
-    depositAmount: 23,
+    depositAmount: 21,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -272,7 +272,7 @@ export const TOURS: Tour[] = [
     reviewCount: 167,
     rating: 4.8,
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -334,7 +334,7 @@ export const TOURS: Tour[] = [
     reviewCount: 89,
     rating: 4.6,
     price: 186,
-    depositAmount: 41,
+    depositAmount: 37,
     heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
       "/gallery/agafay-camel-caravan-golden-hour.jpg",
@@ -397,7 +397,7 @@ export const TOURS: Tour[] = [
     reviewCount: 97,
     rating: 4.9,
     price: 73,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -455,7 +455,7 @@ export const TOURS: Tour[] = [
     reviewCount: 61,
     rating: 4.7,
     price: 1022,
-    depositAmount: 224,
+    depositAmount: 204,
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
@@ -544,7 +544,7 @@ export const TOURS: Tour[] = [
     reviewCount: 31,
     rating: 5.0,
     price: 1350,
-    depositAmount: 297,
+    depositAmount: 270,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -611,7 +611,7 @@ export const TOURS: Tour[] = [
     reviewCount: 142,
     rating: 4.8,
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
       "/gallery/paradise-valley-palm-grove-gorge.jpg",
@@ -672,7 +672,7 @@ export const TOURS: Tour[] = [
     reviewCount: 58,
     rating: 4.7,
     price: 172,
-    depositAmount: 38,
+    depositAmount: 34,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -795,7 +795,7 @@ export const TOURS: Tour[] = [
     reviewCount: 211,
     rating: 4.7,
     price: 70,
-    depositAmount: 16,
+    depositAmount: 14,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -944,7 +944,7 @@ export const TOURS: Tour[] = [
     reviewCount: 47,
     rating: 4.9,
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1017,7 +1017,7 @@ export const TOURS: Tour[] = [
     reviewCount: 73,
     rating: 4.7,
     price: 62,
-    depositAmount: 14,
+    depositAmount: 12,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1227,7 +1227,7 @@ export const TOURS: Tour[] = [
     reviewCount: 27,
     rating: 4.8,
     price: 1029,
-    depositAmount: 226,
+    depositAmount: 206,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1259,12 +1259,12 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "فندق",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "مراكش ← آيت بن حدو ← ورززات ← ميدلت",
+        title: "مراكش ← بني ملال ← ميدلت",
         description:
-          "القيادة شمالاً من مراكش عبر الأطلس. توقف عند آيت بن حدو. المتابعة إلى ميدلت للمبيت في الهضاب المرتفعة بين سلسلتي الأطلس.",
+          "القيادة نحو الشمال الشرقي من مراكش عند سفح الأطلس، مروراً ببني ملال، ثم الصعود عبر الأطلس المتوسط إلى ميدلت للمبيت في الهضاب المرتفعة بين سلسلتي الأطلس.",
       },
       {
         day: 2,
@@ -1335,7 +1335,7 @@ export const TOURS: Tour[] = [
     reviewCount: 143,
     rating: 4.8,
     price: 360,
-    depositAmount: 78,
+    depositAmount: 72,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1417,7 +1417,7 @@ export const TOURS: Tour[] = [
     reviewCount: 64,
     rating: 4.9,
     price: 1269,
-    depositAmount: 279,
+    depositAmount: 254,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
@@ -1429,12 +1429,12 @@ export const TOURS: Tour[] = [
     shortDescription:
       "أكثر صحاري المغرب نأياً — يتطلب أرق الشيݣاݣة رحلة بسيارة 4x4 على طرق وعرة تتجاوز آخر طريق معبّد للوصول إلى كثبان ترتفع 120 متراً فوق بحر رملي شاسع خالٍ من السكان.",
     description:
-      "أرق الشيݣاݣة هو الصحراء التي لا يجدها معظم السياح أبداً. على عكس أرق الشبي قرب مرزوكة — حيث تتوالى قوافل الجِمال أمام الفنادق — يتطلب الوصول إلى الشيݣاݣة رحلة بسيارة 4x4 على طرق وعرة تتجاوز نهاية الإسفلت عند مهاميد، آخر قرية قبل الصحراء الحقيقية. يمتد حقل الكثبان لكيلومترات دون أي أثر لروح أخرى تقريباً. ثلاثة أيام من مراكش عبر آيت بن حدو، ووادي الزعفران في تالوين، وحافة العالم المعروف — ثم ليلة في عمق الصحراء حيث الصمت هو الصوت الوحيد.",
+      "أرق الشيݣاݣة هو الصحراء التي لا يجدها معظم السياح أبداً. على عكس أرق الشبي قرب مرزوكة — حيث تتوالى قوافل الجِمال أمام الفنادق — يتطلب الوصول إلى الشيݣاݣة رحلة بسيارة 4x4 على طرق وعرة تتجاوز نهاية الإسفلت عند مهاميد، آخر قرية قبل الصحراء الحقيقية. يمتد حقل الكثبان لكيلومترات دون أي أثر لروح أخرى تقريباً. ثلاثة أيام من مراكش عبر آيت بن حدو، وواحات النخيل في وادي درعة، وحافة العالم المعروف — ثم ليلة في عمق الصحراء حيث الصمت هو الصوت الوحيد.",
     highlights: [
       "أرق الشيݣاݣة — سياح أقل، كثبان بارتفاع 120 متراً، صمت عميق",
       "عبور صحراوي بسيارة 4x4 على طرق وعرة من مهاميد إلى حقل الكثبان",
       "ليلة في مخيم صحراوي دون أي مخيم آخر في الأفق",
-      "وادي الزعفران في تالوين — عاصمة التوابل المغربية",
+      "وادي درعة — واحات النخيل والقصبات من أكدز إلى زاكورة",
       "قصر آيت بن حدو المصنّف تراثاً عالمياً لليونسكو",
       "رحلات جِمال عند الشروق والغروب في ركن خاص من الصحراء",
     ],
@@ -1460,9 +1460,9 @@ export const TOURS: Tour[] = [
         driving: "≈8 h",
         distance: "≈460 km",
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
-        title: "مراكش ← آيت بن حدو ← تالوين ← مهاميد",
+        title: "مراكش ← آيت بن حدو ← زاكورة ← مهاميد",
         description:
-          "الالتقاط عند السابعة صباحاً. عبور ممر تيزي نتيشكا وزيارة آيت بن حدو. المتابعة جنوباً عبر ورززات ووادي الزعفران قرب تالوين — عاصمة الزعفران في المغرب — لتوقف قصير. المتابعة إلى مهاميد، آخر بلدة قبل الصحراء المفتوحة. عشاء ومبيت في مهاميد.",
+          "الالتقاط عند السابعة صباحاً. عبور ممر تيزي نتيشكا وزيارة آيت بن حدو. المتابعة جنوباً عبر ورززات ثم وادي درعة وواحات النخيل في أكدز وزاكورة. المتابعة إلى مهاميد، آخر بلدة قبل الصحراء المفتوحة. عشاء ومبيت في مهاميد.",
       },
       {
         day: 2,
@@ -1512,7 +1512,7 @@ export const TOURS: Tour[] = [
     reviewCount: 98,
     rating: 4.9,
     price: 889,
-    depositAmount: 196,
+    depositAmount: 178,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -1622,7 +1622,7 @@ export const TOURS: Tour[] = [
     reviewCount: 52,
     rating: 4.8,
     price: 728,
-    depositAmount: 160,
+    depositAmount: 146,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -1713,7 +1713,7 @@ export const TOURS: Tour[] = [
     reviewCount: 41,
     rating: 4.7,
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -1791,7 +1791,7 @@ export const TOURS: Tour[] = [
     reviewCount: 28,
     rating: 4.9,
     price: 1209,
-    depositAmount: 266,
+    depositAmount: 242,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -1881,7 +1881,7 @@ export const TOURS: Tour[] = [
     reviewCount: 39,
     rating: 4.8,
     price: 1037,
-    depositAmount: 228,
+    depositAmount: 207,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -1990,7 +1990,7 @@ export const TOURS: Tour[] = [
     reviewCount: 34,
     rating: 4.7,
     price: 1030,
-    depositAmount: 226,
+    depositAmount: 206,
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
@@ -2083,7 +2083,7 @@ export const TOURS: Tour[] = [
     reviewCount: 22,
     rating: 4.9,
     price: 691,
-    depositAmount: 152,
+    depositAmount: 138,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2185,7 +2185,7 @@ export const TOURS: Tour[] = [
     reviewCount: 18,
     rating: 4.8,
     price: 922,
-    depositAmount: 203,
+    depositAmount: 184,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2228,12 +2228,12 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "فندق",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "مراكش ← آيت بن حدو ← ورززات ← ميدلت",
+        title: "مراكش ← بني ملال ← ميدلت",
         description:
-          "القيادة شمالاً من مراكش عبر الأطلس. توقف عند آيت بن حدو. المتابعة إلى ميدلت للمبيت في الهضاب المرتفعة بين سلسلتي الأطلس.",
+          "القيادة نحو الشمال الشرقي من مراكش عند سفح الأطلس، مروراً ببني ملال، ثم الصعود عبر الأطلس المتوسط إلى ميدلت للمبيت في الهضاب المرتفعة بين سلسلتي الأطلس.",
       },
       {
         day: 3,
@@ -2777,7 +2777,7 @@ export const TOURS: Tour[] = [
     reviewCount: 21,
     rating: 4.9,
     price: 518,
-    depositAmount: 114,
+    depositAmount: 104,
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
@@ -2863,7 +2863,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 285,
-    depositAmount: 62,
+    depositAmount: 57,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2946,7 +2946,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 416,
-    depositAmount: 92,
+    depositAmount: 83,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3040,7 +3040,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 554,
-    depositAmount: 122,
+    depositAmount: 111,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3147,7 +3147,7 @@ export const TOURS: Tour[] = [
     // smallest bookable party. Without this the headline price would be a
     // solo rate nobody can actually book -- see group-pricing.test.ts.
     minPeople: 2,
-    depositAmount: 116,
+    depositAmount: 105,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3589,7 +3589,7 @@ export const TOURS: Tour[] = [
     reviewCount: 18,
     rating: 5.0,
     price: 2700,
-    depositAmount: 594,
+    depositAmount: 540,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3672,7 +3672,7 @@ export const TOURS: Tour[] = [
     // six travellers pay six times one. Only private tours discount by size.
     groupPricing: [{ minPeople: 1, price: 120 }],
     price: 120,
-    depositAmount: 26,
+    depositAmount: 24,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -3744,7 +3744,7 @@ export const TOURS: Tour[] = [
     brief: [
       "زاݣورة أقرب مبيت صحراوي إلى مراكش، وهذا وحده سبب اختيارها. يعبر المسار ممرّ تيزي نتيشكا، ويمرّ بآيت بن حدّو وورزازات، ويدخل واحات نخيل وادي درعة، ثم تأخذك جولة جمال إلى الكثبان للعشاء والإيقاع والمبيت في مخيم. واليوم الثاني يعود من الطريق نفسه. نحو 360 كم وقرابة 8 ساعات في كل اتجاه.",
       "كن صادقاً مع نفسك بشأن الكثبان قبل الحجز. فكثبان زاݣورة صغيرة — لا تُقارَن بجدران عرق الشبي التي تبلغ 150 متراً — لأن زاݣورة مدينة صحراوية فيها رمل لا عرق كبير. وهذا هو ما تقايض به رحلةً تتّسع ليومين بدل ثلاثة أو أربعة. من يذهب متوقّعاً «لورنس العرب» يُصاب بخيبة؛ ومن يذهب عالماً أنها النسخة القصيرة يستمتع بها.",
-      "وبسعر 85 يورو للفرد هي أرخص ليلة صحراوية نشغّلها، والسعر ثابت لا متدرّج لأنها انطلاقة مشتركة تُباع بالمقعد. تسافر في حافلة صغيرة مكيّفة مع ما يصل إلى ستة عشر شخصاً آخرين وسائق يتحدّث الإنجليزية أو الفرنسية. والعربون 19 يورو. والمشمول: النقل وليلة المخيم والعشاء والفطور وجولة الجمال.",
+      "وبسعر 85 يورو للفرد هي أرخص ليلة صحراوية نشغّلها، والسعر ثابت لا متدرّج لأنها انطلاقة مشتركة تُباع بالمقعد. تسافر في حافلة صغيرة مكيّفة مع ما يصل إلى ستة عشر شخصاً آخرين وسائق يتحدّث الإنجليزية أو الفرنسية. والعربون 17 يورو. والمشمول: النقل وليلة المخيم والعشاء والفطور وجولة الجمال.",
       "غير مشمول: وجبات الغداء والمشروبات والإكراميات ورسوم الدخول — وآيت بن حدّو تحديداً لها رسم عند الموقع. فاحسب هذه البنود على حدة كي لا يفاجئك اليوم.",
       "إن كان لديك ثلاثة أيام أو أربعة، فمرزوقة وعرق الشبي صحراء أفضل. وإن كان لديك يومان، أو فضّلت إنفاق الفارق في مكان آخر من المغرب، فهذه الرحلة تؤدّي عملها بصدق: ليلة حقيقية تحت الخيمة في الجنوب، بسعر يُبقي بقية رحلتك على حالها.",
     ],
@@ -3762,7 +3762,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 85 }],
     price: 85,
-    depositAmount: 19,
+    depositAmount: 17,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3833,7 +3833,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 40 }],
     price: 40,
-    depositAmount: 9,
+    depositAmount: 8,
     heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
     shortDescription:
@@ -3891,7 +3891,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
     gallery: [
       "/gallery/agafay-fire-breathing-audience.jpg",
@@ -3953,7 +3953,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
     shortDescription:
@@ -4026,7 +4026,7 @@ export const TOURS: Tour[] = [
       seatsTotal: 14,
       listPrice: 1105,
     },
-    depositAmount: 214,
+    depositAmount: 213,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -4170,7 +4170,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 5.0,
     price: 1380,
-    depositAmount: 304,
+    depositAmount: 276,
     groupPricing: [
       { minPeople: 1, price: 1380 },
       { minPeople: 2, price: 825 },

@@ -46,6 +46,7 @@ export const VIA_PLACES: Record<string, ViaPlace> = {
   taznakht: { lat: 30.5773, lon: -7.2048, name: same("Taznakht", "تازناخت"), match: /tazn?akht|tazenakht/ },
   taliouine: { lat: 30.5315, lon: -7.9215, name: same("Taliouine", "تالوين"), match: /taliouine/ },
   taroudant: { lat: 30.4707, lon: -8.8779, name: same("Taroudant", "تارودانت"), match: /taroudant/ },
+  "beni-mellal": { lat: 32.3342, lon: -6.3533, name: { en: "Beni Mellal", fr: "Béni Mellal", es: "Beni Mellal", de: "Beni Mellal", it: "Beni Mellal", ar: "بني ملال" }, match: /beni mellal/ },
   midelt: { lat: 32.6803, lon: -4.7399, name: same("Midelt", "ميدلت"), match: /midelt/ },
   azrou: { lat: 33.4417, lon: -5.2231, name: same("Azrou", "أزرو"), match: /azrou/ },
   ifrane: { lat: 33.5276, lon: -5.1074, name: same("Ifrane", "إفران"), match: /ifrane/ },

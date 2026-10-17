@@ -49,14 +49,17 @@ describe("PayPal deposit link", () => {
   });
 
   // The Terms used to promise "a deposit of 30% of the total tour price" while
-  // every tour charged 24-29%. Terms now say "typically around a quarter", so
-  // this guards the band that sentence claims.
-  it("every deposit stays within the range the Terms describe", () => {
-    for (const tour of TOURS) {
-      const pct = (tour.depositAmount / tour.price) * 100;
-      expect(pct, `${tour.slug} deposit is ${pct.toFixed(1)}% — outside the stated band`).toBeGreaterThanOrEqual(20);
-      expect(pct, `${tour.slug} deposit is ${pct.toFixed(1)}% — outside the stated band`).toBeLessThanOrEqual(32);
-    }
+  // every tour charged 24-29%. They now say "normally 20% of the tour price",
+  // and on 2026-10-16 the owner set every deposit to that ("keep them all at
+  // 20 percent"): 20% of the solo price, to the nearest euro (Agafay: 20% of
+  // 186 is 37.2, so 37). A deposit the owner fixed by hand is listed below.
+  const OWNER_SET: Record<string, string> = {
+    "marrakech-food-market-tour": "flat €25, set by the owner 2026-10-04",
+  };
+  it("every deposit is the 20% the Terms describe", () => {
+    const off = TOURS.filter((t) => !OWNER_SET[t.slug] && Math.abs(t.depositAmount - t.price * 0.2) > 0.5)
+      .map((t) => `${t.slug}: deposit ${t.depositAmount}, 20% of ${t.price} is ${Math.round(t.price * 0.2)}`);
+    expect(off, `Set depositAmount to 20% of the solo price in every lib/tours*.ts:\n  ${off.join("\n  ")}`).toEqual([]);
   });
 
   // Guard against shipping a handle that sends money to the wrong account.

@@ -118,7 +118,7 @@ export const TOURS: Tour[] = [
     reviewCount: 124,
     rating: 4.8,
     price: 690,
-    depositAmount: 152,
+    depositAmount: 138,
     heroImage:
       "/gallery/blog-hero-sahara-dunes-golden.jpg",
     gallery: [
@@ -215,7 +215,7 @@ export const TOURS: Tour[] = [
     reviewCount: 203,
     rating: 4.7,
     price: 105,
-    depositAmount: 23,
+    depositAmount: 21,
     heroImage:
       "/gallery/tours-ourika-valley-day-hike.jpg",
     gallery: [
@@ -276,7 +276,7 @@ export const TOURS: Tour[] = [
     reviewCount: 167,
     rating: 4.8,
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: [
@@ -339,7 +339,7 @@ export const TOURS: Tour[] = [
     reviewCount: 89,
     rating: 4.6,
     price: 186,
-    depositAmount: 41,
+    depositAmount: 37,
     heroImage: "/gallery/agafay-dinner-sunset-long-tables.jpg",
     gallery: [
       "/gallery/agafay-camel-caravan-golden-hour.jpg",
@@ -403,7 +403,7 @@ export const TOURS: Tour[] = [
     reviewCount: 97,
     rating: 4.9,
     price: 73,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage:
       "/gallery/tours-marrakech-medina-cultural-tour.jpg",
     gallery: [
@@ -462,7 +462,7 @@ export const TOURS: Tour[] = [
     reviewCount: 61,
     rating: 4.7,
     price: 1022,
-    depositAmount: 224,
+    depositAmount: 204,
     heroImage:
       "/gallery/tours-marrakech-to-fes-3day.jpg",
     gallery: [
@@ -552,7 +552,7 @@ export const TOURS: Tour[] = [
     reviewCount: 31,
     rating: 5.0,
     price: 1350,
-    depositAmount: 297,
+    depositAmount: 270,
     heroImage:
       "/gallery/category-hero-mgoun-massif.jpg",
     gallery: [
@@ -620,7 +620,7 @@ export const TOURS: Tour[] = [
     reviewCount: 142,
     rating: 4.8,
     price: 75,
-    depositAmount: 16,
+    depositAmount: 15,
     heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
       "/gallery/paradise-valley-palm-grove-gorge.jpg",
@@ -682,7 +682,7 @@ export const TOURS: Tour[] = [
     reviewCount: 58,
     rating: 4.7,
     price: 172,
-    depositAmount: 38,
+    depositAmount: 34,
     heroImage:
       "/gallery/tours-sous-massa-national-park.jpg",
     gallery: [
@@ -807,7 +807,7 @@ export const TOURS: Tour[] = [
     reviewCount: 211,
     rating: 4.7,
     price: 70,
-    depositAmount: 16,
+    depositAmount: 14,
     heroImage:
       "/gallery/tours-agadir-surf-lesson.jpg",
     gallery: [
@@ -958,7 +958,7 @@ export const TOURS: Tour[] = [
     reviewCount: 47,
     rating: 4.9,
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1032,7 +1032,7 @@ export const TOURS: Tour[] = [
     reviewCount: 73,
     rating: 4.7,
     price: 62,
-    depositAmount: 14,
+    depositAmount: 12,
     heroImage:
       "/gallery/tours-souss-valley-cultural-tour.jpg",
     gallery: [
@@ -1245,7 +1245,7 @@ export const TOURS: Tour[] = [
     reviewCount: 27,
     rating: 4.8,
     price: 1029,
-    depositAmount: 226,
+    depositAmount: 206,
     heroImage:
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
@@ -1277,12 +1277,12 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
+        title: "Marrakech → Beni Mellal → Midelt",
         description:
-          "Percorso verso nord da Marrakech attraverso l'Atlante. Sosta ad Aït Ben Haddou. Proseguimento fino a Midelt per la notte, sugli altipiani tra le due catene dell'Atlante.",
+          "Percorso verso nord-est da Marrakech ai piedi dell'Atlante, passando per Beni Mellal, poi su attraverso il Medio Atlante fino a Midelt per la notte, sugli altipiani tra le due catene dell'Atlante.",
       },
       {
         day: 2,
@@ -1354,7 +1354,7 @@ export const TOURS: Tour[] = [
     reviewCount: 143,
     rating: 4.8,
     price: 360,
-    depositAmount: 78,
+    depositAmount: 72,
     heroImage:
       "/gallery/tours-zagora-2day-marrakech.jpg",
     gallery: [
@@ -1437,7 +1437,7 @@ export const TOURS: Tour[] = [
     reviewCount: 64,
     rating: 4.9,
     price: 1269,
-    depositAmount: 279,
+    depositAmount: 254,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
@@ -1449,12 +1449,12 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Il deserto più remoto del Marocco — l'Erg Chegaga richiede un viaggio fuoristrada in 4x4 oltre l'ultima strada asfaltata per raggiungere dune alte 120 m che si innalzano su un vasto mare di sabbia disabitato.",
     description:
-      "L'Erg Chegaga è il Sahara che la maggior parte dei turisti non trova mai. A differenza dell'Erg Chebbi vicino a Merzouga — dove le carovane di cammelli si incrociano a vista d'hotel — Chegaga richiede un viaggio fuoristrada in 4x4 oltre la fine dell'asfalto a M'Hamid, l'ultimo villaggio prima del vero Sahara. Il campo di dune si estende per chilometri con a malapena un'altra anima in vista. Tre giorni da Marrakech attraverso Aït Ben Haddou, la Valle dello Zafferano di Taliouine e il limite del mondo conosciuto — poi una notte nel profondo del deserto dove l'unico suono è il silenzio.",
+      "L'Erg Chegaga è il Sahara che la maggior parte dei turisti non trova mai. A differenza dell'Erg Chebbi vicino a Merzouga — dove le carovane di cammelli si incrociano a vista d'hotel — Chegaga richiede un viaggio fuoristrada in 4x4 oltre la fine dell'asfalto a M'Hamid, l'ultimo villaggio prima del vero Sahara. Il campo di dune si estende per chilometri con a malapena un'altra anima in vista. Tre giorni da Marrakech attraverso Aït Ben Haddou, i palmeti della valle del Draa e il limite del mondo conosciuto — poi una notte nel profondo del deserto dove l'unico suono è il silenzio.",
     highlights: [
       "Erg Chegaga — meno turisti, dune alte 120 m, silenzio profondo",
       "Attraversamento fuoristrada in 4x4 da M'Hamid nel campo di dune",
       "Una notte in un campo nel deserto senza altri campi in vista",
-      "Valle dello Zafferano di Taliouine — la capitale marocchina delle spezie",
+      "La valle del Draa — palmeti e kasbah da Agdz a Zagora",
       "Ksar di Aït Ben Haddou, patrimonio UNESCO",
       "Trekking in cammello all'alba e al tramonto in un angolo privato del Sahara",
     ],
@@ -1480,9 +1480,9 @@ export const TOURS: Tour[] = [
         driving: "≈8 h",
         distance: "≈460 km",
         stop: { name: "M'Hamid", lat: 29.828, lng: -5.718 },
-        title: "Marrakech → Aït Ben Haddou → Taliouine → M'Hamid",
+        title: "Marrakech → Aït Ben Haddou → Zagora → M'Hamid",
         description:
-          "Ritiro alle 7:00. Attraversamento del passo Tizi n'Tichka e visita ad Aït Ben Haddou. Proseguimento verso sud attraverso Ouarzazate — capitale del cinema marocchino — e nella Valle dello Zafferano vicino a Taliouine — la capitale marocchina dello zafferano — per una breve sosta. Proseguimento fino a M'Hamid, l'ultima cittadina prima del Sahara aperto. Cena e pernottamento a M'Hamid.",
+          "Ritiro alle 7:00. Attraversamento del passo Tizi n'Tichka e visita ad Aït Ben Haddou. Proseguimento verso sud attraverso Ouarzazate — capitale del cinema marocchino — e lungo la valle del Draa, tra i palmeti di Agdz e Zagora. Proseguimento fino a M'Hamid, l'ultima cittadina prima del Sahara aperto. Cena e pernottamento a M'Hamid.",
       },
       {
         day: 2,
@@ -1533,7 +1533,7 @@ export const TOURS: Tour[] = [
     reviewCount: 98,
     rating: 4.9,
     price: 889,
-    depositAmount: 196,
+    depositAmount: 178,
     heroImage:
       "/gallery/tours-desert-4day-marrakech.jpg",
     gallery: [
@@ -1644,7 +1644,7 @@ export const TOURS: Tour[] = [
     reviewCount: 52,
     rating: 4.8,
     price: 728,
-    depositAmount: 160,
+    depositAmount: 146,
     heroImage:
       "/gallery/tours-merzouga-3day-agadir.jpg",
     gallery: [
@@ -1736,7 +1736,7 @@ export const TOURS: Tour[] = [
     reviewCount: 41,
     rating: 4.7,
     price: 790,
-    depositAmount: 173,
+    depositAmount: 158,
     heroImage:
       "/gallery/tours-zagora-2day-agadir.jpg",
     gallery: [
@@ -1815,7 +1815,7 @@ export const TOURS: Tour[] = [
     reviewCount: 28,
     rating: 4.9,
     price: 1209,
-    depositAmount: 266,
+    depositAmount: 242,
     heroImage:
       "/gallery/tours-erg-chegaga-3day-agadir.jpg",
     gallery: [
@@ -1906,7 +1906,7 @@ export const TOURS: Tour[] = [
     reviewCount: 39,
     rating: 4.8,
     price: 1037,
-    depositAmount: 228,
+    depositAmount: 207,
     heroImage:
       "/gallery/tours-desert-4day-agadir.jpg",
     gallery: [
@@ -2016,7 +2016,7 @@ export const TOURS: Tour[] = [
     reviewCount: 34,
     rating: 4.7,
     price: 1030,
-    depositAmount: 226,
+    depositAmount: 206,
     heroImage:
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
@@ -2110,7 +2110,7 @@ export const TOURS: Tour[] = [
     reviewCount: 22,
     rating: 4.9,
     price: 691,
-    depositAmount: 152,
+    depositAmount: 138,
     heroImage:
       "/gallery/tours-agadir-to-chefchaouen-5day.jpg",
     gallery: [
@@ -2213,7 +2213,7 @@ export const TOURS: Tour[] = [
     reviewCount: 18,
     rating: 4.8,
     price: 922,
-    depositAmount: 203,
+    depositAmount: 184,
     heroImage:
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
@@ -2256,12 +2256,12 @@ export const TOURS: Tour[] = [
         day: 2,
         meals: "B,D",
         stay: "Hotel",
-        driving: "≈6 h",
-        distance: "≈360 km",
+        driving: "≈7 h",
+        distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
-        title: "Marrakech → Aït Ben Haddou → Ouarzazate → Midelt",
+        title: "Marrakech → Beni Mellal → Midelt",
         description:
-          "Percorso verso nord da Marrakech attraverso l'Atlante. Sosta ad Aït Ben Haddou. Proseguimento fino a Midelt per la notte, sugli altipiani tra le due catene dell'Atlante.",
+          "Percorso verso nord-est da Marrakech ai piedi dell'Atlante, passando per Beni Mellal, poi su attraverso il Medio Atlante fino a Midelt per la notte, sugli altipiani tra le due catene dell'Atlante.",
       },
       {
         day: 3,
@@ -2811,7 +2811,7 @@ export const TOURS: Tour[] = [
     reviewCount: 21,
     rating: 4.9,
     price: 518,
-    depositAmount: 114,
+    depositAmount: 104,
     heroImage:
       "/gallery/tours-merzouga-stargazing-desert-tour.jpg",
     gallery: [
@@ -2898,7 +2898,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 285,
-    depositAmount: 62,
+    depositAmount: 57,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2982,7 +2982,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 416,
-    depositAmount: 92,
+    depositAmount: 83,
     heroImage: "/gallery/ancient-juniper-trek-rest-stop.jpg",
     gallery: [
       "/gallery/ifni-mule-approach-toubkal-behind.jpg",
@@ -3077,7 +3077,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 4,
     price: 554,
-    depositAmount: 122,
+    depositAmount: 111,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -3185,7 +3185,7 @@ export const TOURS: Tour[] = [
     // smallest bookable party. Without this the headline price would be a
     // solo rate nobody can actually book -- see group-pricing.test.ts.
     minPeople: 2,
-    depositAmount: 116,
+    depositAmount: 105,
     heroImage: "/gallery/sahara-camel-caravan-family-dunes.jpg",
     gallery: [
       "/gallery/blog-merzouga-vs-zagora-which-desert-tour.jpg",
@@ -3629,7 +3629,7 @@ export const TOURS: Tour[] = [
     reviewCount: 18,
     rating: 5.0,
     price: 2700,
-    depositAmount: 594,
+    depositAmount: 540,
     heroImage: "/gallery/desert-group-rest-acacia-hamada.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3714,7 +3714,7 @@ export const TOURS: Tour[] = [
     // six travellers pay six times one. Only private tours discount by size.
     groupPricing: [{ minPeople: 1, price: 120 }],
     price: 120,
-    depositAmount: 26,
+    depositAmount: 24,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -3787,7 +3787,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zagora è la notte nel deserto più vicina a Marrakech, ed è esattamente questo il suo richiamo. Il percorso valica il Tizi n'Tichka, passa da Aït Ben Haddou e Ouarzazate, entra nei palmeti della valle del Draa, poi un giro in cammello porta tra le dune per la cena, i tamburi e una notte al campo. Il secondo giorno rifà la stessa strada. Circa 360 km e all'incirca 8 ore per tratta.",
       "Siate onesti con voi stessi sulle dune prima di prenotare. Quelle di Zagora sono piccole — nulla a che vedere con le pareti di 150 metri dell'Erg Chebbi — perché Zagora è una città del deserto con della sabbia e non un grande erg. È il compromesso che accettate per un viaggio che sta in due giorni anziché in tre o quattro. Chi ci va aspettandosi Lawrence d'Arabia resta deluso; chi ci va sapendo che questa è la versione breve se lo gode.",
-      "A 85 € a persona è la notte nel deserto più economica che proponiamo, e il prezzo è fisso anziché a scaglioni perché si tratta di una partenza condivisa venduta a posto. Si viaggia in minibus climatizzato con fino ad altre sedici persone e un autista che parla inglese o francese. L'acconto è di 19 €. Inclusi: trasporto, la notte al campo, cena e colazione e il giro in cammello.",
+      "A 85 € a persona è la notte nel deserto più economica che proponiamo, e il prezzo è fisso anziché a scaglioni perché si tratta di una partenza condivisa venduta a posto. Si viaggia in minibus climatizzato con fino ad altre sedici persone e un autista che parla inglese o francese. L'acconto è di 17 €. Inclusi: trasporto, la notte al campo, cena e colazione e il giro in cammello.",
       "Non inclusi: pranzi, bevande, mance e biglietti d'ingresso — Aït Ben Haddou in particolare ha un costo d'accesso in loco. Mettete a budget queste voci separatamente perché la giornata non vi riservi sorprese.",
       "Se avete tre o quattro giorni, Merzouga e l'Erg Chebbi sono un deserto migliore. Se avete due giorni, o preferite spendere la differenza altrove in Marocco, questo itinerario fa onestamente il suo lavoro: una vera notte sotto la tela nel sud, a un prezzo che lascia intatto il resto del viaggio.",
     ],
@@ -3805,7 +3805,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 85 }],
     price: 85,
-    depositAmount: 19,
+    depositAmount: 17,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3877,7 +3877,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 40 }],
     price: 40,
-    depositAmount: 9,
+    depositAmount: 8,
     heroImage: "/gallery/tours-ouzoud-waterfalls-day-trip.jpg",
     gallery: ["/gallery/tours-ouzoud-waterfalls-day-trip.jpg"],
     shortDescription:
@@ -3936,7 +3936,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/agafay-camp-lanterns-evening.jpg",
     gallery: [
       "/gallery/agafay-fire-breathing-audience.jpg",
@@ -3999,7 +3999,7 @@ export const TOURS: Tour[] = [
     rating: 5.0,
     groupPricing: [{ minPeople: 1, price: 30 }],
     price: 30,
-    depositAmount: 7,
+    depositAmount: 6,
     heroImage: "/gallery/blog-essaouira-day-trip-from-agadir.jpg",
     gallery: ["/gallery/blog-essaouira-day-trip-from-agadir.jpg"],
     shortDescription:
@@ -4073,7 +4073,7 @@ export const TOURS: Tour[] = [
       seatsTotal: 14,
       listPrice: 1105,
     },
-    depositAmount: 214,
+    depositAmount: 213,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -4217,7 +4217,7 @@ export const TOURS: Tour[] = [
     reviewCount: 0,
     rating: 5.0,
     price: 1380,
-    depositAmount: 304,
+    depositAmount: 276,
     groupPricing: [
       { minPeople: 1, price: 1380 },
       { minPeople: 2, price: 825 },

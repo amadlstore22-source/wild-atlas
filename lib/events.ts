@@ -115,6 +115,11 @@ export interface TourEvent {
    * Only needed on events that emit that markup (see eventSchemaFor).
    */
   city?: string;
+  /**
+   * Who actually hosts the event, for the Event structured data's `organizer`.
+   * Never us on a third-party event, and only a name with a source next to it.
+   */
+  organizer?: { name: string; url?: string };
 }
 
 export const EVENTS: TourEvent[] = [
@@ -190,6 +195,10 @@ export const EVENTS: TourEvent[] = [
     endDate: "2027-06-26",
     confidence: "confirmed",
     sourceUrl: "https://www.festival-gnaoua.net/en/home/",
+    // festival-gnaoua.net, checked 2026-10-17: "PRODUCED AND ORGANIZED BY"
+    // A3 Communication (logo linking to a3communication.net); Yerma Gnaoua is
+    // listed under "IN PARTNERSHIP WITH", not as organiser.
+    organizer: { name: "A3 Communication", url: "https://a3communication.net" },
     dateNote:
       "Confirmed by the organisers: the 28th edition runs 24–26 June 2027. The 27th ran 25–27 June 2026.",
     year: 2027,
@@ -227,6 +236,12 @@ export const EVENTS: TourEvent[] = [
     endDate: "2027-01-31",
     confidence: "confirmed",
     sourceUrl: "https://marrakechmarathon.com/",
+    // The race is run by the Association Le Grand Atlas (AGA), led by its
+    // director Mohamed Knidiri: Aujourd'hui le Maroc and Hespress, checked
+    // 2026-10-17. marrakechmarathon.com is NOT the organiser: its footer says
+    // it "is a trading name of Travel Gateway, the official Marathon partner".
+    // No URL: no site of the association's own could be confirmed.
+    organizer: { name: "Association Le Grand Atlas" },
     year: 2027,
     blurb:
       "The 37th edition runs the ramparts and palm groves in the cool of a Marrakech January.",

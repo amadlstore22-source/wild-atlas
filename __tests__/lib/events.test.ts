@@ -419,11 +419,24 @@ describe("event structured data", () => {
     for (const e of EVENTS) {
       const s = eventSchemaFor(e) as Record<string, unknown> | null;
       if (!s) continue;
-      if ("organizer" in s) problems.push(`${e.slug}: emits organizer`);
+      // organizer is allowed only as the real host recorded on the event
+      // (Search Console asked for it on 2026-10-17), never as us.
+      const org = s.organizer as { name?: string } | undefined;
+      if (org && org.name !== e.organizer?.name) problems.push(`${e.slug}: organizer not taken from the event's own record`);
+      if (org && /marrakech eco tours|\bMET\b|morocco team/i.test(org.name ?? "")) problems.push(`${e.slug}: names us as organizer`);
       if (e.departureDates?.length) problems.push(`${e.slug}: our own departures marked up as an Event`);
       if (e.confidence !== "confirmed") problems.push(`${e.slug}: ${e.confidence} date marked up as an Event`);
     }
     expect(problems, `Fix eventSchemaFor in lib/events-format.ts:\n  ${problems.join("\n  ")}`).toEqual([]);
+  });
+
+  // Search Console, 2026-10-17: "Missing field organizer" on every marked-up
+  // event, because 02a70c0 removed the false "organised by us" and put nothing
+  // back. A new confirmed festival must arrive with its real, sourced host.
+  it("names the real organiser on every event it marks up", () => {
+    const missing = EVENTS.filter((e) => eventSchemaFor(e) && !e.organizer?.name).map((e) => e.slug);
+    expect(missing, `Add organizer: { name, url? } in lib/events.ts, from the organiser's own site:\n  ${missing.join("\n  ")}`)
+      .toEqual([]);
   });
 
   it("gives every confirmed festival a real place, not the event's own name", () => {

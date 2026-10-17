@@ -200,6 +200,11 @@ export function eventSerpTitle(event: Pick<TourEvent, "name" | "shortName" | "ye
  *
  * `performer` and `offers` stay out: the 2027 line-ups and prices are not
  * published, and Google lists both as recommended, not required.
+ *
+ * `organizer` came back on 2026-10-17, when Search Console mailed "Missing
+ * field organizer" for these pages: it now names the real host, sourced in
+ * lib/events.ts (A3 Communication for Gnaoua, Association Le Grand Atlas for
+ * the Marathon), and is left off any event without one.
  */
 export function eventSchemaFor(event: TourEvent) {
   if (event.departureDates?.length || event.confidence !== "confirmed" || !event.city) return null;
@@ -218,7 +223,16 @@ export function eventSchemaFor(event: TourEvent) {
       name: event.city,
       address: { "@type": "PostalAddress", addressLocality: event.city, addressCountry: "MA" },
     },
-    // The organiser's own site, which is where the date was confirmed.
+    ...(event.organizer
+      ? {
+          organizer: {
+            "@type": "Organization",
+            name: event.organizer.name,
+            ...(event.organizer.url ? { url: event.organizer.url } : {}),
+          },
+        }
+      : {}),
+    // The page where the date was confirmed.
     ...(event.sourceUrl ? { sameAs: event.sourceUrl } : {}),
   };
 }

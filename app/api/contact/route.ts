@@ -1,11 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
 import { logEnquiry } from "@/lib/enquiry-log";
-import { limitByIp } from "@/lib/rate-limit";
+import { limitByIp, rateLimit } from "@/lib/rate-limit";
 import { isCrossOrigin } from "@/lib/request-origin";
 import { enquirySourceLabel } from "@/lib/enquiry-source";
+import { safeGreetingName, isRealTourTitle } from "@/lib/enquiry-safety";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// The confirmation goes to whatever address was typed into the form, so it is
+// the one email here a stranger can aim at someone else. Three per address per
+// hour covers a real visitor enquiring about several tours; past that the
+// enquiry still reaches us, only the confirmation is skipped.
+const CONFIRM_LIMIT = 3;
 
 // Sized for the real worst case: a family or group comparing several tours will
 // legitimately send multiple enquiries in one sitting, and shared connections
@@ -53,6 +60,12 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
+    // Honeypot (components/ui/Honeypot.tsx): only a bot fills the hidden
+    // field. Answer exactly like a success so it learns nothing, and send,
+    // log and record nothing.
+    if (sanitize(body.website, 200)) {
+      return NextResponse.json({ ok: true });
+    }
     const type = sanitize(body.type, 20);
     const name = sanitize(body.name, 100);
     const email = sanitize(body.email, 200);
@@ -136,13 +149,27 @@ export async function POST(req: NextRequest) {
         );
       }
 
+      // Security audit 2026-10-19: this email goes to the address typed into
+      // the form and used to repeat the typed name and tour verbatim, so
+      // anyone could make our domain mail a stranger "Hi <scam link>". The
+      // greeting drops any name that looks like a link or address, the tour is
+      // only quoted when it is one of our real tour titles, and one address
+      // gets at most CONFIRM_LIMIT confirmations an hour. The admin email above
+      // still carries everything as typed: that one only ever reaches us.
+      if (!rateLimit(`confirm:${email.toLowerCase()}`, CONFIRM_LIMIT, WINDOW_MS).ok) {
+        return NextResponse.json({ ok: true });
+      }
+      const greet = safeGreetingName(name);
+      const hi = greet ? `Hi ${greet}` : "Hello";
+      const realTour = isRealTourTitle(tour) ? tour : "";
+
       // "Confirm availability" implied the date might not be free. We run private
       // departures, so the date is the customer's to choose — the reply is about
       // finalising details, not checking a schedule.
       const confirmationBody =
         type === "booking"
-          ? `Hi ${name},\n\nThank you for your booking inquiry for "${tour}".\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within the hour (8:00–20:00 Morocco time) to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
-          : `Hi ${name},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within the hour (8:00–20:00 Morocco time). For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
+          ? `${hi},\n\nThank you for your booking inquiry${realTour ? ` for "${realTour}"` : ""}.\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within the hour (8:00–20:00 Morocco time) to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
+          : `${hi},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within the hour (8:00–20:00 Morocco time). For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",
@@ -155,7 +182,7 @@ export async function POST(req: NextRequest) {
           to: [email],
           subject:
             type === "booking"
-              ? `We received your booking inquiry — ${tour}`
+              ? `We received your booking inquiry${realTour ? ` — ${realTour}` : ""}`
               : "We received your message — Marrakech Eco Tours",
           text: confirmationBody,
           reply_to: SITE.email,

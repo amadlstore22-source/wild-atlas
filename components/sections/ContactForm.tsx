@@ -4,6 +4,7 @@ import Link from "next/link";
 import { PaperPlaneTilt } from "@phosphor-icons/react";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
+import Honeypot, { honeypotValue } from "@/components/ui/Honeypot";
 import { track, trackConversion } from "@/lib/analytics";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -25,7 +26,7 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
   function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!agreed) return;
-    doSubmit({ type: "general", ...form });
+    doSubmit({ type: "general", ...form, website: honeypotValue(e) });
   }
 
   if (sent) {
@@ -51,6 +52,7 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
 
   return (
     <form onSubmit={submit} className="bg-card rounded-[4px] p-8 shadow-sm ring-1 ring-rule space-y-5">
+      <Honeypot />
       <h2 className="font-display text-ink text-2xl font-bold">{c.formHeading}</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

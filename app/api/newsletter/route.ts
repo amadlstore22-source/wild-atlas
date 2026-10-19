@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE } from "@/lib/constants";
-import { limitByIp } from "@/lib/rate-limit";
+import { limitByIp, rateLimit } from "@/lib/rate-limit";
 import { isCrossOrigin } from "@/lib/request-origin";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -28,10 +28,22 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
+    // Honeypot (components/ui/Honeypot.tsx): only a bot fills it. Same answer
+    // as a success, nothing sent.
+    if (typeof body.website === "string" && body.website.trim()) {
+      return NextResponse.json({ ok: true });
+    }
     const email = typeof body.email === "string" ? body.email.trim().slice(0, 200) : "";
 
     if (!email || !EMAIL_RE.test(email)) {
       return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
+    }
+
+    // The welcome email goes to the typed address, so without this one address
+    // could be sent our mail over and over from rotating IPs (security audit,
+    // 2026-10-19). Nobody subscribes more than twice a day.
+    if (!rateLimit(`welcome:${email.toLowerCase()}`, 2, 24 * WINDOW_MS).ok) {
+      return NextResponse.json({ ok: true });
     }
 
     const resendKey = process.env.RESEND_API_KEY;

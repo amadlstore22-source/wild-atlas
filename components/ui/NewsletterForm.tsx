@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ArrowRight } from "@phosphor-icons/react";
+import Honeypot, { honeypotValue } from "@/components/ui/Honeypot";
 
 interface Props {
   placeholder: string;
@@ -23,7 +24,7 @@ export default function NewsletterForm({ placeholder, label, buttonLabel, succes
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, website: honeypotValue(e) }),
       });
       setState(res.ok ? "success" : "error");
     } catch {
@@ -40,7 +41,8 @@ export default function NewsletterForm({ placeholder, label, buttonLabel, succes
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-2 mt-3">
+    <form onSubmit={handleSubmit} className="relative flex gap-2 mt-3">
+      <Honeypot />
       <input
         type="email"
         required

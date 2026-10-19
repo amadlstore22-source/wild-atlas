@@ -12,6 +12,7 @@ import { priceIn, formatGroupTotal } from "@/lib/currency-core";
 import { localeTag } from "@/lib/events-format";
 import { useFormSubmit } from "@/hooks/useFormSubmit";
 import HeardAboutSelect from "@/components/ui/HeardAboutSelect";
+import Honeypot, { honeypotValue } from "@/components/ui/Honeypot";
 import { REFUGE_FIRST_OPEN_DATE, offersOneDay, oneDayPricing, refugeFull, sleepsAtRefuge, type OneDayPrices } from "@/lib/refuge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -86,7 +87,7 @@ export default function BookingSidebar({
     // The choice rides in the tour name so it reaches the inbox, the sheet and
     // the confirmation email with no change to the API.
     const tourName = oneDay ? `${tour.title} (ONE-DAY SUMMIT: refuge full)` : tour.title;
-    doSubmit({ type: "booking", tour: tourName, name, email, date, people, heard });
+    doSubmit({ type: "booking", tour: tourName, name, email, date, people, heard, website: honeypotValue(e) });
   }
 
   // Count an enquiry conversion only once the submit actually succeeds — firing
@@ -416,6 +417,7 @@ export default function BookingSidebar({
             </div>
           ) : (
             <form onSubmit={handleInquiry} className="space-y-3">
+              <Honeypot />
               <h3 className="font-semibold text-ink text-sm">{b.checkAvailability}</h3>
 
               <div>

@@ -8,6 +8,7 @@ import { track, trackConversion } from "@/lib/analytics";
 import { useCurrency } from "@/lib/currency";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import HeardAboutSelect, { type HeardAboutLabels } from "@/components/ui/HeardAboutSelect";
+import Honeypot, { honeypotValue } from "@/components/ui/Honeypot";
 
 /**
  * The selling half of an event page: the trips we run on the event dates, and
@@ -107,6 +108,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
     const tripLine = trip ? trip.title : l.formTripUnsure;
     submit({
       type: "general",
+      website: honeypotValue(e),
       name: form.name,
       email: form.email,
       people: form.people,
@@ -221,6 +223,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
             </div>
           ) : (
             <form onSubmit={onSubmit} className="space-y-5 rounded-[4px] bg-card p-6 shadow-sm ring-1 ring-rule sm:p-8">
+              <Honeypot />
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="ev-name" className={labelCls}>{l.formName} *</label>

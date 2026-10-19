@@ -337,6 +337,7 @@
     "reviewQuotesTitle": "Was Reisende sagen",
     "groupPricingTitle": "Preis pro Person nach Gruppengröße",
     "groupPricingNote": "Fahrzeug und Guide kosten gleich viel, egal wie viele mitfahren — der Preis pro Person sinkt daher mit der Gruppengröße.",
+    "groupPricingNoteShared": "Alleinreisende teilen ihre Unterkunft nicht, deshalb kostet ein Einzelplatz mehr. Ab zwei Personen, die zusammen reisen, zahlen alle den geteilten Preis.",
     "groupPricingPeople": "Reisende",
     "groupPricingRate": "pro Pers.",
     "groupPricingTotal": "Gesamt",

@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { TOURS, lowestGroupPrice, groupPriceTiers } from "@/lib/tours";
+import { toursFor } from "@/lib/tours-i18n";
 import { buildAggregateOffer } from "@/lib/seo/schema";
 import en from "@/dictionaries/en.json";
 import fr from "@/dictionaries/fr.json";
@@ -63,6 +64,29 @@ describe("SERP title and description length", () => {
         `SERP listing. Shorten the seoTitle field (budget ~39 chars before the\n` +
         `brand) -- do not change the template, it is brand-critical:\n  ` +
         tooLong.map((t) => `${t.slug} (${t.len})`).join("\n  "),
+    ).toEqual([]);
+  });
+
+  /**
+   * The check above reads TOURS, which is English only. On 2026-10-19 a crawl
+   * of all 1,193 live URLs found the only three over-length titles on the
+   * whole site were translations of one tour (shared Essaouira from Agadir:
+   * es 71, fr 70, it 68), invisible to a suite that had never looked past
+   * English. Same rule, every locale.
+   */
+  it("no translated tour title or description is truncated either", () => {
+    const tooLong: string[] = [];
+    for (const lang of ["fr", "es", "de", "it", "ar"] as const) {
+      for (const t of toursFor(lang)) {
+        if (t.seoTitle && renderedTitle(t.seoTitle).length > TITLE_MAX)
+          tooLong.push(`${lang} ${t.slug} title (${renderedTitle(t.seoTitle).length}): ${t.seoTitle}`);
+        if (t.seoDescription && t.seoDescription.length > DESC_MAX)
+          tooLong.push(`${lang} ${t.slug} description (${t.seoDescription.length})`);
+      }
+    }
+    expect(
+      tooLong,
+      `Shorten these in lib/tours.<lang>.ts (title budget ~43 chars before the brand):\n  ` + tooLong.join("\n  "),
     ).toEqual([]);
   });
 

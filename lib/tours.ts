@@ -4458,12 +4458,13 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    // Shared seat, flat per person. A single tier, deliberately: the minibus
-    // runs whether you book or not, so there is no vehicle cost to spread and
-    // six travellers pay six times one. Only private tours discount by size.
-    groupPricing: [{ minPeople: 1, price: 120 }],
-    price: 120,
-    depositAmount: 24,
+    // Shared seat. From two people travelling together everyone pays the same
+    // €120 and shares a room and a tent; someone travelling alone has the room and the tent
+    // to themselves, which costs more, so a solo seat is €160 (owner, 2026-10-19).
+    // Beyond two the price stays flat: the minibus runs whether you book or not.
+    groupPricing: [{ minPeople: 1, price: 160 }, { minPeople: 2, price: 120 }],
+    price: 160,
+    depositAmount: 32,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -4527,10 +4528,11 @@ export const TOURS: Tour[] = [
       { q: "How many people are on a shared departure?", a: "Up to sixteen, and often fewer outside high season. You will be with travellers from several countries; the driver speaks English or French." },
       { q: "What is not included?", a: "Lunches, drinks, tips and entry fees. Dinner and breakfast are included on both nights — at the hotel in the Dades and at the desert camp — as are both nights of accommodation and the sunset camel trek." },
       { q: "Do shared departures run every day?", a: "Yes, daily year-round. Very small groups in low season are occasionally merged with the following day's departure — you would be told before booking, not on the morning." },
+      { q: "Is it more expensive if I travel alone?", a: "A little. From two people travelling together, everyone pays €120 each and shares a room at the Dades hotel and a tent at the desert camp. Travelling alone costs €160, because you have the hotel room and the tent to yourself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Shared 3-Day Merzouga Desert Tour — €120",
-    seoDescription: "Shared daily departure from Marrakech to the Erg Chebbi dunes: Aït Ben Haddou, Dades and Todra gorges, camel trek and a night at a desert camp. €120 per person.",
+    seoDescription: "Shared daily departure from Marrakech to Erg Chebbi: Aït Ben Haddou, the Dades and Todra gorges, camel trek and desert camp. €120 pp for 2+, €160 solo.",
     featured: false,
   },
   {
@@ -4540,7 +4542,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zagora is the closest desert overnight to Marrakech, and that is the entire reason to choose it. The route runs over the Tizi n'Tichka pass, past Aït Ben Haddou and Ouarzazate, into the Draa Valley palm groves, then a camel ride into the dunes for dinner, drumming and a night at camp. Day two returns the same way. Roughly 360 km and about 8 hours each way.",
       "Be honest with yourself about the dunes before booking. Zagora's are small — nothing like the 150-metre walls at Erg Chebbi — because Zagora is a desert town with sand rather than a great erg. That is the trade you are making for a trip that fits in two days instead of three or four. People who go expecting Lawrence of Arabia are disappointed; people who go knowing this is the short version enjoy it.",
-      "At €85 per person it is the cheapest desert night we run, and the price is flat rather than a group ladder because this is a shared departure sold by the seat. You travel in an air-conditioned minibus with up to sixteen others and an English- or French-speaking driver. The deposit is €17. Included: transport, the camp night, dinner and breakfast, and the camel ride.",
+      "At €85 per person for two or more it is the cheapest desert night we run. Travelling alone costs €105, because you have a camp tent to yourself. You travel in an air-conditioned minibus with up to sixteen others and an English- or French-speaking driver. The deposit is €17 per person, or €21 travelling alone. Included: transport, the camp night, dinner and breakfast, and the camel ride.",
       "Not included: lunches, drinks, tips and entry fees — Aït Ben Haddou in particular has a charge at the site. Budget for those separately so the day does not surprise you.",
       "If you have three or four days, Merzouga and Erg Chebbi are the better desert. If you have two days, or you would rather spend the difference elsewhere in Morocco, this does the job honestly: a real night under canvas in the south, at a price that leaves the rest of your trip intact.",
     ],
@@ -4556,9 +4558,11 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 85 }],
-    price: 85,
-    depositAmount: 17,
+    // Shared seat: €85 each from two people travelling together, who share a
+    // camp tent; €105 alone, with the tent to themselves (owner, 2026-10-19).
+    groupPricing: [{ minPeople: 1, price: 105 }, { minPeople: 2, price: 85 }],
+    price: 105,
+    depositAmount: 21,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -4608,10 +4612,11 @@ export const TOURS: Tour[] = [
       { q: "Zagora or Merzouga?", a: "Zagora is closer — one driving day rather than two — but its dunes are low and scrubby. Erg Chebbi at Merzouga is the tall golden sand sea most people picture, and it needs the [3-day trip](/en/tours/shared-merzouga-3day-marrakech). If your time is tight, Zagora; if you want the dunes from the photographs, Merzouga." },
       { q: "How long is the driving?", a: "About eight hours each way. It is a long day in the vehicle for one desert night, which is the honest trade-off of the two-day format." },
       { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
+      { q: "Is it more expensive if I travel alone?", a: "A little. From two people travelling together, everyone pays €85 each and shares a tent at the camp. Travelling alone costs €105, because you have the tent to yourself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Shared 2-Day Zagora Desert Tour — €85",
-    seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a night in a Berber camp. €85 per person.",
+    seoDescription: "Shared daily departure to the Zagora dunes: Tizi n'Tichka, Aït Ben Haddou, the Draa Valley, a camel ride and a Berber camp. €85 pp for 2+, €105 solo.",
     featured: false,
   },
   {

@@ -63,8 +63,11 @@ describe("groupPriceTiers", () => {
   it("does not discount shared departures", () => {
     // A seat on a shared tour costs the same however many people book it —
     // there is no vehicle cost to spread, so a discount is just lost margin.
+    // The one step allowed is 1 -> 2 on the overnight shared tours (owner,
+    // 2026-10-19): alone you have the room and tent to yourself. From two
+    // people up, the price must not fall any further.
     for (const tour of TOURS.filter((t) => t.tourType === "shared")) {
-      expect(perPersonPrice(tour, 8), tour.slug).toBe(tour.price);
+      expect(perPersonPrice(tour, 8), tour.slug).toBe(perPersonPrice(tour, 2));
     }
   });
 

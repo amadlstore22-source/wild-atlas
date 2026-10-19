@@ -144,7 +144,7 @@ export const TOURS: Tour[] = [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Kamelritt bei Sonnenuntergang",
       "1 Nacht im Wüstencamp (Abendessen und Frühstück)",
-      "1 night hotel in Ouarzazate, Merzouga or Dades Gorges",
+      "1 Nacht im Hotel oder in einer Kasbah in der Dades-Schlucht (Abendessen und Frühstück)",
       "Erfahrener Wüstenführer",
     ],
     excludes: [
@@ -245,8 +245,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "3–4 h",
-        driving: "≈1 h each way",
-        distance: "≈65 km each way",
+        driving: "≈1 h pro Strecke",
+        distance: "≈65 km pro Strecke",
         title: "Ganztägig — Ourika-Tal",
         description:
           "Abfahrt aus Marrakesch um 8:30 Uhr. Wanderbeginn um 9:30 Uhr durch Dörfer und Terrassenfelder. Baden an den Wasserfällen. Traditionelles Berber-Mittagessen. Rückkehr nach Marrakesch bis 17:00 Uhr.",
@@ -306,8 +306,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2.5 h each way",
-        distance: "≈150 km each way",
+        driving: "≈2.5 h pro Strecke",
+        distance: "≈150 km pro Strecke",
         title: "Ganztägig — Ouzoud-Wasserfälle",
         description:
           "Abfahrt aus Marrakesch um 7:30 Uhr. Ankunft in Ouzoud um 10:00 Uhr. Geführte Wanderung zu den Fällen, Schluchtenpfad, Bootsfahrt, Affenbeobachtung. Freizeit zum Mittagessen. Rückkehr nach Marrakesch bis 18:00 Uhr.",
@@ -371,8 +371,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "D",
-        driving: "30 min each way",
-        distance: "≈40 km each way",
+        driving: "30 min pro Strecke",
+        distance: "≈40 km pro Strecke",
         title: "Nachmittag in der Agafay-Wüste",
         description:
           "Abholung in Marrakesch um 15:00 Uhr. Ankunft in der Agafay um 15:30 Uhr. Quad-Biking-Session, Kamelritt bei Sonnenuntergang (17:30–18:30 Uhr). Traditionelles Berber-Dinner unter den Sternen. Rückkehr nach Marrakesch bis 22:00 Uhr.",
@@ -652,8 +652,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "2–3 h",
-        driving: "≈1.5 h each way",
-        distance: "≈70 km each way",
+        driving: "≈1.5 h pro Strecke",
+        distance: "≈70 km pro Strecke",
         title: "Ganztägig — Paradise Valley",
         description:
           "Abfahrt aus Agadir um 9:00 Uhr. Ankunft im Paradise Valley um 10:00 Uhr. Geführte Schluchtenwanderung, Schwimmen in natürlichen Becken, Berber-Mittagessen unter den Palmen. Rückkehr nach Agadir bis 17:00 Uhr.",
@@ -714,8 +714,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "2–3 h",
-        driving: "≈1 h each way",
-        distance: "≈60 km each way",
+        driving: "≈1 h pro Strecke",
+        distance: "≈60 km pro Strecke",
         title: "Ganztägig — Souss-Massa",
         description:
           "Abfahrt aus Agadir um 8:00 Uhr. Vormittägliche Beobachtung an der Massa-Mündung nach Waldrapp und Flamingos. Küstenpfad und Wanderung durch die Atlantikdünen nach dem Mittagessen. Rückkehr nach Agadir bis 17:00 Uhr.",
@@ -776,8 +776,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈1 h each way",
-        distance: "≈80 km each way",
+        driving: "≈1 h pro Strecke",
+        distance: "≈80 km pro Strecke",
         title: "Ganztägig — Taroudant",
         description:
           "Abfahrt aus Agadir um 8:30 Uhr. Ankunft in Taroudant um 9:30 Uhr. Geführter Medina-Spaziergang, Stadtmauern, Souks und Gerbereien. Optionaler Stopp an der Oase von Tiout. Rückkehr nach Agadir bis 17:00 Uhr.",
@@ -1122,8 +1122,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈2 h each way",
-        distance: "≈175 km each way",
+        driving: "≈2 h pro Strecke",
+        distance: "≈175 km pro Strecke",
         title: "Agadir → Essaouira → Agadir",
         description:
           "Abfahrt in Agadir um 8:00 Uhr über die Küstenstraße, mit Halt an einer Arganöl-Kooperative. Ankunft in Essaouira am späten Vormittag, mit freier Zeit für die Medina, die Stadtmauern, den Hafen und das Mittagessen. Abfahrt um 16:30 Uhr, zurück in Agadir gegen 18:30 Uhr.",
@@ -1137,7 +1137,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
     seoTitle: "Essaouira Gruppentagestour ab Agadir — €39",
-    seoDescription: "Gruppentagestour von Agadir nach Essaouira: UNESCO-Medina, Stadtmauern aus dem 18. Jahrhundert, blauer Fischerhafen und unterwegs eine Arganöl-Kooperative. €39 pro Person.",
+    seoDescription: "Gruppentagestour von Agadir nach Essaouira: UNESCO-Medina, Stadtmauern aus dem 18. Jh., blauer Hafen und eine Arganöl-Kooperative. €39 pro Person.",
     featured: false,
   },
   {
@@ -3709,12 +3709,13 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    // Shared seat, flat per person. A single tier, deliberately: the minibus
-    // runs whether you book or not, so there is no vehicle cost to spread and
-    // six travellers pay six times one. Only private tours discount by size.
-    groupPricing: [{ minPeople: 1, price: 120 }],
-    price: 120,
-    depositAmount: 24,
+    // Shared seat. From two people travelling together everyone pays the same
+    // €120 and shares a room and a tent; someone travelling alone has the room and the tent
+    // to themselves, which costs more, so a solo seat is €160 (owner, 2026-10-19).
+    // Beyond two the price stays flat: the minibus runs whether you book or not.
+    groupPricing: [{ minPeople: 1, price: 160 }, { minPeople: 2, price: 120 }],
+    price: 160,
+    depositAmount: 32,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -3774,6 +3775,7 @@ export const TOURS: Tour[] = [
       { q: "Wie viele Personen sind bei einer Gruppenabfahrt dabei?", a: "Bis zu sechzehn, außerhalb der Hochsaison oft weniger. Sie reisen mit Gästen aus mehreren Ländern; der Fahrer spricht Englisch oder Französisch." },
       { q: "Was ist nicht inbegriffen?", a: "Mittagessen, Getränke, Trinkgelder und Eintrittsgelder. Abendessen und Frühstück sind an beiden Abenden enthalten — im Hotel im Dadestal und im Wüstencamp —, ebenso beide Übernachtungen und der Kamelritt bei Sonnenuntergang." },
       { q: "Fahren die Gruppentouren täglich?", a: "Ja, täglich das ganze Jahr über. Sehr kleine Gruppen in der Nebensaison werden gelegentlich mit der Abfahrt des Folgetages zusammengelegt — das würde man Ihnen vor der Buchung sagen, nicht am Morgen." },
+      { q: "Ist es für Alleinreisende teurer?", a: "Etwas. Ab zwei Personen, die zusammen reisen, zahlt jede 120 € und Sie teilen sich ein Zimmer im Hotel in der Dades-Schlucht und ein Zelt im Wüstencamp. Alleinreisende zahlen 160 €, weil sie Zimmer und Zelt für sich haben." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },
     seoTitle: "Merzouga-Wüste 3-Tage-Gruppentour — €120",
@@ -3787,7 +3789,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zagora ist die nächstgelegene Wüstenübernachtung ab Marrakesch, und genau darin liegt ihr Reiz. Die Route führt über den Tizi-n'Tichka-Pass, vorbei an Aït Ben Haddou und Ouarzazate, in die Palmenhaine des Draa-Tals, dann per Kamelritt zu einem Camp mit Abendessen und Trommelmusik. Tag zwei geht denselben Weg zurück. Rund 360 km und etwa 8 Stunden in jede Richtung.",
       "Seien Sie vor der Buchung ehrlich zu sich selbst, was die Dünen angeht. Die von Zagora sind klein — nichts im Vergleich zu den 150 Meter hohen Wänden des Erg Chebbi —, denn Zagora ist eine Wüstenstadt mit Sand und kein großer Erg. Das ist der Tausch für eine Reise, die in zwei statt in drei oder vier Tage passt. Wer Lawrence von Arabien erwartet, wird enttäuscht; wer weiß, dass dies die Kurzfassung ist, genießt sie.",
-      "Mit 85 € pro Person ist es die günstigste Wüstennacht, die wir anbieten, und der Preis ist fest statt gestaffelt, weil es sich um eine geteilte Abfahrt handelt, die pro Platz verkauft wird. Sie reisen in einem klimatisierten Minibus mit bis zu sechzehn weiteren Gästen und einem englisch- oder französischsprachigen Fahrer. Die Anzahlung beträgt 17 €. Enthalten: Transport, die Camp-Nacht, Abendessen und Frühstück sowie der Kamelritt.",
+      "Mit 85 € pro Person ab zwei Reisenden ist es die günstigste Wüstennacht, die wir anbieten. Alleinreisende zahlen 105 €, weil sie im Camp ein Zelt für sich haben. Sie reisen in einem klimatisierten Minibus mit bis zu sechzehn weiteren Gästen und einem englisch- oder französischsprachigen Fahrer. Die Anzahlung beträgt 17 € pro Person, für Alleinreisende 21 €. Enthalten: Transport, die Camp-Nacht, Abendessen und Frühstück sowie der Kamelritt.",
       "Nicht enthalten: Mittagessen, Getränke, Trinkgelder und Eintrittsgebühren — insbesondere in Aït Ben Haddou wird vor Ort Eintritt verlangt. Planen Sie diese Posten separat ein, damit der Tag keine Überraschungen bereithält.",
       "Wenn Sie drei oder vier Tage haben, sind Merzouga und der Erg Chebbi die bessere Wüste. Wenn Sie zwei Tage haben oder die Differenz lieber anderswo in Marokko ausgeben möchten, erfüllt diese Tour ihren Zweck ehrlich: eine echte Nacht unter Zeltplane im Süden, zu einem Preis, der den Rest Ihrer Reise unangetastet lässt.",
     ],
@@ -3803,9 +3805,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 85 }],
-    price: 85,
-    depositAmount: 17,
+    groupPricing: [{ minPeople: 1, price: 105 }, { minPeople: 2, price: 85 }],
+    price: 105,
+    depositAmount: 21,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3853,10 +3855,11 @@ export const TOURS: Tour[] = [
       { q: "Zagora oder Merzouga?", a: "Zagora liegt näher — ein Fahrtag statt zwei — aber die Dünen dort sind niedrig und mit Buschwerk bestanden. Der Erg Chebbi bei Merzouga ist das hohe goldene Sandmeer, das die meisten vor Augen haben, und dafür braucht es die [3-Tage-Tour](/de/tours/merzouga-wueste-3-tage-geteilt). Wenn die Zeit knapp ist: Zagora. Wenn Sie die Dünen von den Fotos wollen: Merzouga." },
       { q: "Wie lange dauert die Fahrt?", a: "Etwa acht Stunden pro Richtung. Das ist ein langer Tag im Fahrzeug für eine einzige Wüstennacht — der ehrliche Kompromiss des Zwei-Tage-Formats." },
       { q: "Wie ist das Camp?", a: "Traditionelle Berberzelte mit Gemeinschaftsanlagen, Abendessen und Frühstück und meist Trommeln nach dem Essen. Einfach, nicht luxuriös." },
+      { q: "Ist es für Alleinreisende teurer?", a: "Etwas. Ab zwei Personen, die zusammen reisen, zahlt jede 85 € und Sie teilen sich ein Zelt im Camp. Alleinreisende zahlen 105 €, weil sie das Zelt für sich haben." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },
     seoTitle: "Zagora-Wüste 2-Tage-Gruppentour — €85",
-    seoDescription: "Tägliche Gruppenabfahrt zu den Dünen von Zagora: Tizi n'Tichka, Aït Ben Haddou, Draa-Tal, Kamelritt und Übernachtung im Berbercamp. €85 pro Person.",
+    seoDescription: "Tägliche Gruppenabfahrt nach Zagora: Tizi n'Tichka, Aït Ben Haddou, Draa-Tal, Kamelritt und Nacht im Berbercamp. €85 p. P. für 2+, allein €105.",
     featured: false,
   },
   {
@@ -3900,8 +3903,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2.5 h each way",
-        distance: "≈150 km each way",
+        driving: "≈2.5 h pro Strecke",
+        distance: "≈150 km pro Strecke",
         title: "Ganzer Tag — Ouzoud-Wasserfälle",
         description:
           "Abfahrt in Marrakesch gegen 8:00 Uhr, Ankunft in Ouzoud am späten Vormittag. Geführter Abstieg durch die Schlucht bis zum Fuß der Fälle, Bootsfahrt, Berberaffen beobachten und freie Zeit für das Mittagessen mit Blick auf die Kaskaden. Rückkehr nach Marrakesch am frühen Abend.",
@@ -3963,8 +3966,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈40 min each way",
-        distance: "≈30 km each way",
+        driving: "≈40 min pro Strecke",
+        distance: "≈30 km pro Strecke",
         title: "Abend — Agafay-Wüste",
         description:
           "Abholung an Ihrem Riad am späten Nachmittag. Kamelritt durch die Steinwüste, während das Licht schwindet, danach Abendessen im Camp mit Musik und Feuershow. Rückkehr nach Marrakesch gegen 22:30 Uhr.",
@@ -4021,8 +4024,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈3 h each way",
-        distance: "≈190 km each way",
+        driving: "≈3 h pro Strecke",
+        distance: "≈190 km pro Strecke",
         title: "Ganzer Tag — Essaouira",
         description:
           "Abfahrt in Marrakesch gegen 8:00 Uhr, unterwegs Halt bei einer Arganöl-Kooperative. Ankunft in Essaouira am späten Vormittag, freie Zeit für Medina, Stadtmauern, Hafen und Mittagessen. Rückfahrt am frühen Nachmittag, Ankunft in Marrakesch am frühen Abend.",

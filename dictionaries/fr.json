@@ -337,6 +337,7 @@
     "reviewQuotesTitle": "Ce que disent les voyageurs",
     "groupPricingTitle": "Prix par personne selon la taille du groupe",
     "groupPricingNote": "Le véhicule et le guide coûtent le même prix quel que soit le nombre de participants : le prix par personne baisse donc à mesure que le groupe s'agrandit.",
+    "groupPricingNoteShared": "Une personne seule ne partage pas son hébergement, la place individuelle coûte donc plus cher. À partir de deux personnes voyageant ensemble, chacun paie le tarif partagé.",
     "groupPricingPeople": "Voyageurs",
     "groupPricingRate": "Par pers.",
     "groupPricingTotal": "Total",

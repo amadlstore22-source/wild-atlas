@@ -354,8 +354,15 @@ export default function BookingSidebar({
               })}
             </ul>
             <p className="text-[0.7rem] text-ink-muted mt-2 leading-snug">
-              {b.groupPricingNote ??
-                "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows."}
+              {/* A shared seat's price drops only from one to two people, and
+                  for a different reason: two share a room and a tent. The
+                  private-tour line ("the vehicle costs the same...") would be
+                  false here (owner, 2026-10-19). */}
+              {tour.tourType === "shared"
+                ? (b.groupPricingNoteShared ??
+                  "Travelling alone, you have your accommodation to yourself, so a solo seat costs more. From two people travelling together, everyone pays the shared rate.")
+                : (b.groupPricingNote ??
+                  "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows.")}
             </p>
           </div>
         )}

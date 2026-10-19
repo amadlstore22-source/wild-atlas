@@ -8982,7 +8982,7 @@ the walk itself is like.
       "What a 3-day Merzouga desert tour costs in 2026: €120 per person shared from Marrakech, €366 each private for two. What the difference buys.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-3day-agadir", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "How much is a 3-day Merzouga desert tour?", a: "Our shared 3-day tour from Marrakech is €120 per person, which is the realistic market rate for a seat in a minibus with a fixed itinerary. A private 3-day tour from Agadir is €366 per person for two, €225 at four and €170 at six - the gap is not a quality upgrade so much as the cost of not sharing a vehicle with strangers." },
+      { q: "How much is a 3-day Merzouga desert tour?", a: "Our shared 3-day tour from Marrakech is €120 per person for two or more (€160 travelling alone, with a room and tent to yourself), which is the realistic market rate for a seat in a minibus with a fixed itinerary. A private 3-day tour from Agadir is €366 per person for two, €225 at four and €170 at six - the gap is not a quality upgrade so much as the cost of not sharing a vehicle with strangers." },
       { q: "Why is a private Merzouga tour so much more expensive?", a: "Because a shared tour splits one vehicle and one driver across twelve to sixteen paying seats, and a private tour splits the same fixed cost across your group alone. At six people a private tour is €170 each, which is much closer to the shared price than the headline solo figure suggests. The per-person gap closes sharply as your group grows." },
       { q: "Is a 3-day Merzouga tour worth it over a 2-day Zagora trip?", a: "If you want the tall dunes, yes. Erg Chebbi at Merzouga is a genuine sand sea with dunes up to 150 m, and it is a full day's drive from Marrakech each way - the third day exists because of that distance. Zagora is closer and cheaper but its dunes are low and scrubby by comparison. See our comparison of [Merzouga vs Zagora](/en/blog/merzouga-vs-zagora-which-desert-tour)." },
       { q: "What is not included in the tour price?", a: "Lunches on the road are usually excluded across the industry, ours included - budget 70-120 MAD a meal. Drinks, tips for the driver and camp crew, and any upgrade to a private tent with an en-suite bathroom are also extra. Dinner and breakfast at the desert camp, the camel ride and the camp bed itself are included." },
@@ -8993,7 +8993,7 @@ the walk itself is like.
 
 A three-day Merzouga tour has two honest prices depending on how you travel:
 
-- **Shared, from Marrakech: €120 per person.** A seat in a minibus, fixed departure
+- **Shared, from Marrakech: €120 per person for two or more, €160 travelling alone.** A seat in a minibus, fixed departure
   days, fixed itinerary, twelve to sixteen people. This is our
   [shared 3-day Merzouga tour](/en/tours/shared-merzouga-3day-marrakech).
 - **Private, from Agadir: €366 per person for two**, €225 at four, €170 at six.
@@ -9069,7 +9069,7 @@ what it costs, and at six the difference is small.
       "What a 2-day Zagora desert tour costs: €85 per person shared from Marrakech, €400 each private for two from Agadir. What is included.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
     faq: [
-      { q: "How much does a 2-day Zagora tour cost?", a: "Our shared 2-day tour from Marrakech is €85 per person, which is about as cheap as a real desert night in Morocco gets. A private version from Agadir is €400 per person for two, €220 at four and €195 at five or more. The shared price is low because the vehicle is full and the itinerary is fixed." },
+      { q: "How much does a 2-day Zagora tour cost?", a: "Our shared 2-day tour from Marrakech is €85 per person for two or more (€105 travelling alone, with a tent to yourself), which is about as cheap as a real desert night in Morocco gets. A private version from Agadir is €400 per person for two, €220 at four and €195 at five or more. The shared price is low because the vehicle is full and the itinerary is fixed." },
       { q: "Is Zagora better than Merzouga?", a: "It is closer and cheaper, not better. Zagora is around 360 km from Marrakech against Merzouga's 560 km, which is why it fits into two days. But its dunes are low and scrubby, while Erg Chebbi at Merzouga is a genuine sand sea with dunes up to 150 m. If the tall dunes are what you are picturing, pay for the third day." },
       { q: "Why is a 2-day Zagora tour so cheap?", a: "Because the drive is short enough to do in one day each way, the camp is close to the road, and shared departures fill a minibus with twelve to sixteen paying seats. None of that requires cutting corners - it is genuinely a cheaper trip to run than Merzouga, and the price reflects distance rather than quality." },
       { q: "What is included in the Zagora tour price?", a: "Return transport from Marrakech, the drive over the Tizi n'Tichka pass with a stop at Ait Ben Haddou, a camel ride into the dunes at sunset, dinner and breakfast at the desert camp, and a night in a Berber tent. Lunches on the road, drinks and tips are not included - budget 70-120 MAD for a roadside lunch." },
@@ -9078,7 +9078,7 @@ what it costs, and at six the difference is small.
     content: `
 ## What a Zagora tour costs
 
-**€85 per person, shared, from Marrakech.** That is our
+**€85 per person, shared, from Marrakech, for two or more; €105 travelling alone.** That is our
 [2-day Zagora tour](/en/tours/shared-zagora-2day-marrakech), and it is roughly the floor
 for a genuine desert night in Morocco - a camel ride, a camp, dinner and breakfast, and
 the drive there and back.

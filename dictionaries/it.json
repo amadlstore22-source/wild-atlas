@@ -337,6 +337,7 @@
     "reviewQuotesTitle": "Cosa dicono i viaggiatori",
     "groupPricingTitle": "Prezzo a persona in base al numero di partecipanti",
     "groupPricingNote": "Il veicolo e la guida costano lo stesso a prescindere da quanti viaggiano, quindi il prezzo a persona scende al crescere del gruppo.",
+    "groupPricingNoteShared": "Una persona sola non condivide l'alloggio, quindi il posto singolo costa di più. Da due persone che viaggiano insieme, tutti pagano la tariffa condivisa.",
     "groupPricingPeople": "Viaggiatori",
     "groupPricingRate": "A pers.",
     "groupPricingTotal": "Totale",

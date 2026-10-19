@@ -11,15 +11,21 @@ import { priceIn } from "@/lib/currency-core";
  * person because the vehicle runs whether you book or not, where a private tour
  * discounts as the group grows and spreads a fixed vehicle cost.
  *
+ * One exception, set by the owner on 2026-10-19: on the two overnight shared
+ * tours a solo traveller pays more (Merzouga €160, Zagora €105), because two
+ * people share a room and a tent and one person has them alone. That is a
+ * single-occupancy step from 1 to 2, not a group ladder: from two people the
+ * price is flat again. `eur` is the price from two; `solo` the one-person price.
+ *
  * The locale check exists because of a real past failure: `tourType` was set on
  * every English tour but missing from all five locale files, so 24 private
  * tours were badged "Shared" in fr/es/de/it/ar. mergeWithEn() now backfills it,
  * and this asserts the backfill actually reaches the rendered catalogue.
  */
 
-const SHARED = [
-  { slug: "shared-merzouga-3day-marrakech", eur: 120 },
-  { slug: "shared-zagora-2day-marrakech", eur: 85 },
+const SHARED: { slug: string; eur: number; solo?: number }[] = [
+  { slug: "shared-merzouga-3day-marrakech", eur: 120, solo: 160 },
+  { slug: "shared-zagora-2day-marrakech", eur: 85, solo: 105 },
   { slug: "shared-ouzoud-waterfalls-day-trip", eur: 40 },
   { slug: "shared-agafay-dinner-camel-ride", eur: 30 },
   { slug: "shared-essaouira-day-trip", eur: 30 },
@@ -37,21 +43,22 @@ describe("shared daily departures", () => {
   });
 
   it("renders the operator's exact euro price", () => {
-    // Stored in USD; the tier must round-trip back to the quoted EUR figure.
-    for (const { slug, eur } of SHARED) {
+    // `price` is the one-person price, as on every tour.
+    for (const { slug, eur, solo } of SHARED) {
       const tour = TOURS.find((t) => t.slug === slug)!;
-      expect(priceIn(tour.price, "EUR"), `${slug}`).toBe(eur);
+      expect(priceIn(tour.price, "EUR"), `${slug}`).toBe(solo ?? eur);
     }
   });
 
-  it("prices flat per person, with no group-size ladder", () => {
+  it("prices flat per person from two, with at most a solo step", () => {
     // A shared seat has no vehicle cost to divide, so six travellers pay six
     // times one. A descending ladder here would invent a discount that the
-    // product does not offer.
-    for (const { slug } of SHARED) {
+    // product does not offer. The only allowed step is 1 -> 2 (a room and tent
+    // to yourself), on the tours the owner priced that way.
+    for (const { slug, eur, solo } of SHARED) {
       const tour = TOURS.find((t) => t.slug === slug)!;
-      expect(tour.groupPricing, `${slug} should have exactly one tier`).toHaveLength(1);
-      expect(tour.groupPricing![0].minPeople).toBe(1);
+      const expected = solo ? [{ minPeople: 1, price: solo }, { minPeople: 2, price: eur }] : [{ minPeople: 1, price: eur }];
+      expect(tour.groupPricing, `${slug} tiers`).toEqual(expected);
     }
   });
 
@@ -69,9 +76,10 @@ describe("shared daily departures", () => {
   it("keeps the same price in every locale", () => {
     for (const lang of LOCALES) {
       const catalogue = toursFor(lang);
-      for (const { slug, eur } of SHARED) {
+      for (const { slug, eur, solo } of SHARED) {
         const tour = catalogue.find((t) => t.slug === slug)!;
-        expect(priceIn(tour.price, "EUR"), `${slug} in ${lang}`).toBe(eur);
+        expect(priceIn(tour.price, "EUR"), `${slug} in ${lang}`).toBe(solo ?? eur);
+        expect(tour.groupPricing, `${slug} tiers in ${lang}`).toEqual(TOURS.find((t) => t.slug === slug)!.groupPricing);
       }
     }
   });

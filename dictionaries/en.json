@@ -337,6 +337,7 @@
     "reviewQuotesTitle": "What travellers say",
     "groupPricingTitle": "Price per person by group size",
     "groupPricingNote": "The vehicle and guide cost the same however many travel, so the price per person falls as the group grows.",
+    "groupPricingNoteShared": "Travelling alone, you have your accommodation to yourself, so a solo seat costs more. From two people travelling together, everyone pays the shared rate.",
     "groupPricingPeople": "Travellers",
     "groupPricingRate": "Each",
     "groupPricingTotal": "Total",

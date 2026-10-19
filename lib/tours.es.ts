@@ -144,7 +144,7 @@ export const TOURS: Tour[] = [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Paseo en camello al atardecer",
       "1 noche en campamento en el desierto (cena y desayuno)",
-      "1 night hotel in Ouarzazate, Merzouga or Dades Gorges",
+      "1 noche en hotel o kasbah en las gargantas del Dadès (cena y desayuno)",
       "Guía del desierto con experiencia",
     ],
     excludes: [
@@ -245,8 +245,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "3–4 h",
-        driving: "≈1 h each way",
-        distance: "≈65 km each way",
+        driving: "≈1 h por trayecto",
+        distance: "≈65 km por trayecto",
         title: "Día Completo — Valle de Ourika",
         description:
           "Salida de Marrakech a las 8:30. Inicio de la caminata a las 9:30 por pueblos y campos en terrazas. Baño en las cascadas. Almuerzo bereber tradicional. Regreso a Marrakech antes de las 17:00.",
@@ -306,8 +306,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2.5 h each way",
-        distance: "≈150 km each way",
+        driving: "≈2.5 h por trayecto",
+        distance: "≈150 km por trayecto",
         title: "Día Completo — Cascadas de Ouzoud",
         description:
           "Salida de Marrakech a las 7:30. Llegada a Ouzoud a las 10:00. Paseo guiado hasta las cascadas, ruta por la garganta, paseo en barca y avistamiento de monos. Tiempo libre para almorzar. Regreso a Marrakech antes de las 18:00.",
@@ -371,8 +371,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "D",
-        driving: "30 min each way",
-        distance: "≈40 km each way",
+        driving: "30 min por trayecto",
+        distance: "≈40 km por trayecto",
         title: "Tarde en el Desierto de Agafay",
         description:
           "Recogida en Marrakech a las 15:00. Llegada a Agafay a las 15:30. Sesión de quad, paseo en camello al atardecer (17:30–18:30). Cena bereber tradicional bajo las estrellas. Regreso a Marrakech antes de las 22:00.",
@@ -652,8 +652,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "2–3 h",
-        driving: "≈1.5 h each way",
-        distance: "≈70 km each way",
+        driving: "≈1.5 h por trayecto",
+        distance: "≈70 km por trayecto",
         title: "Día Completo — Valle del Paraíso",
         description:
           "Salida de Agadir a las 9:00. Llegada al Valle del Paraíso a las 10:00. Caminata guiada por el cañón, baño en piscinas naturales, almuerzo bereber bajo las palmeras. Regreso a Agadir antes de las 17:00.",
@@ -714,8 +714,8 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L",
         walking: "2–3 h",
-        driving: "≈1 h each way",
-        distance: "≈60 km each way",
+        driving: "≈1 h por trayecto",
+        distance: "≈60 km por trayecto",
         title: "Día Completo — Souss-Massa",
         description:
           "Salida de Agadir a las 8:00. Sesión matinal en el estuario del Massa para ver ibis y flamencos. Sendero costero y paseo por las dunas atlánticas después del almuerzo. Regreso a Agadir antes de las 17:00.",
@@ -776,8 +776,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈1 h each way",
-        distance: "≈80 km each way",
+        driving: "≈1 h por trayecto",
+        distance: "≈80 km por trayecto",
         title: "Día Completo — Taroudant",
         description:
           "Salida de Agadir a las 8:30. Llegada a Taroudant a las 9:30. Paseo guiado por la medina, las murallas, los zocos y las curtidurías. Parada opcional en el oasis de Tiout. Regreso a Agadir antes de las 17:00.",
@@ -1122,8 +1122,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈2 h each way",
-        distance: "≈175 km each way",
+        driving: "≈2 h por trayecto",
+        distance: "≈175 km por trayecto",
         title: "Agadir → Essaouira → Agadir",
         description:
           "Salida de Agadir a las 8:00 por la carretera de la costa, con parada en una cooperativa de aceite de argán. Llegada a Essaouira a media mañana, con tiempo libre para la medina, las murallas, el puerto y el almuerzo. Salida a las 16:30 y regreso a Agadir hacia las 18:30.",
@@ -1136,8 +1136,8 @@ export const TOURS: Tour[] = [
       { q: "¿Es una excursión compartida?", a: "Sí. Viajáis en un minibús compartido con otros viajeros, a €39 por persona sea cual sea el tamaño de vuestro grupo. Si preferís un vehículo solo para vosotros, pedidnos un presupuesto privado." },
     ],
     meetingPoint: { lat: 31.5085, lng: -9.7595, name: "Essaouira Medina, Atlantic Coast" },
-    seoTitle: "Essaouira excursión compartida desde Agadir — €39",
-    seoDescription: "Excursión compartida de Agadir a Essaouira: medina Patrimonio de la Humanidad, murallas del siglo XVIII, puerto pesquero azul y cooperativa de argán en el camino. €39 por persona.",
+    seoTitle: "Essaouira desde Agadir en grupo — €39",
+    seoDescription: "Excursión compartida de Agadir a Essaouira: medina UNESCO, murallas del siglo XVIII, puerto azul y cooperativa de argán. €39 por persona.",
     featured: false,
   },
   {
@@ -3709,12 +3709,13 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    // Shared seat, flat per person. A single tier, deliberately: the minibus
-    // runs whether you book or not, so there is no vehicle cost to spread and
-    // six travellers pay six times one. Only private tours discount by size.
-    groupPricing: [{ minPeople: 1, price: 120 }],
-    price: 120,
-    depositAmount: 24,
+    // Shared seat. From two people travelling together everyone pays the same
+    // €120 and shares a room and a tent; someone travelling alone has the room and the tent
+    // to themselves, which costs more, so a solo seat is €160 (owner, 2026-10-19).
+    // Beyond two the price stays flat: the minibus runs whether you book or not.
+    groupPricing: [{ minPeople: 1, price: 160 }, { minPeople: 2, price: 120 }],
+    price: 160,
+    depositAmount: 32,
     heroImage: "/gallery/camel-caravan-sunflare-dunes.jpg",
     gallery: [
       "/gallery/tours-desert-4day-marrakech.jpg",
@@ -3774,6 +3775,7 @@ export const TOURS: Tour[] = [
       { q: "¿Cuántas personas van en una salida compartida?", a: "Hasta dieciséis, y a menudo menos fuera de temporada alta. Irá con viajeros de varios países; el conductor habla inglés o francés." },
       { q: "¿Qué no está incluido?", a: "Los almuerzos, las bebidas, las propinas y las entradas. La cena y el desayuno están incluidos las dos noches — en el hotel del Dades y en el campamento del desierto —, igual que las dos noches de alojamiento y el paseo en camello al atardecer." },
       { q: "¿Hay salidas compartidas todos los días?", a: "Sí, a diario todo el año. Los grupos muy pequeños en temporada baja se combinan a veces con la salida del día siguiente — se le avisaría antes de reservar, no la misma mañana." },
+      { q: "¿Es más caro para una sola persona?", a: "Un poco. A partir de dos personas que viajan juntas, cada una paga 120 € y comparten habitación en el hotel del Dades y tienda en el campamento. Para una sola persona el precio es de 160 €, porque dispone de la habitación y la tienda en exclusiva." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Merzouga 3 días tour compartido — €120",
@@ -3787,7 +3789,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zagora es la noche en el desierto más cercana a Marrakech, y en eso consiste todo su atractivo. La ruta cruza el puerto de Tizi n'Tichka, pasa por Aït Ben Haddou y Ouarzazate, entra en los palmerales del valle del Draa y después un paseo en camello lleva hasta las dunas para la cena, los tambores y una noche en el campamento. El segundo día se vuelve por el mismo camino. Unos 360 km y alrededor de 8 horas en cada sentido.",
       "Sea honesto consigo mismo sobre las dunas antes de reservar. Las de Zagora son pequeñas —nada que ver con los muros de 150 metros del Erg Chebbi— porque Zagora es una ciudad del desierto con arena y no un gran erg. Ese es el intercambio que se acepta a cambio de un viaje que cabe en dos días en lugar de tres o cuatro. Quien va esperando Lawrence de Arabia se decepciona; quien va sabiendo que esta es la versión corta lo disfruta.",
-      "A 85 € por persona es la noche en el desierto más barata que operamos, y el precio es fijo en lugar de una escala de grupo porque se trata de una salida compartida vendida por plaza. Se viaja en minibús con aire acondicionado junto a hasta otras dieciséis personas y un chófer que habla inglés o francés. El depósito es de 17 €. Incluye: transporte, la noche en el campamento, cena y desayuno, y el paseo en camello.",
+      "A 85 € por persona a partir de dos viajeros es la noche en el desierto más barata que operamos. Para una sola persona cuesta 105 €, porque dispone de una tienda propia en el campamento. Se viaja en minibús con aire acondicionado junto a hasta otras dieciséis personas y un chófer que habla inglés o francés. El depósito es de 17 € por persona, o 21 € para una sola persona. Incluye: transporte, la noche en el campamento, cena y desayuno, y el paseo en camello.",
       "No incluye: comidas del mediodía, bebidas, propinas ni entradas: Aït Ben Haddou en concreto cobra entrada en el propio sitio. Presupueste esos gastos aparte para que la jornada no le dé sorpresas.",
       "Si dispone de tres o cuatro días, Merzouga y el Erg Chebbi son mejor desierto. Si tiene dos días, o prefiere gastar la diferencia en otro punto de Marruecos, este circuito cumple con honestidad: una noche real bajo lona en el sur, a un precio que deja intacto el resto del viaje.",
     ],
@@ -3803,9 +3805,9 @@ export const TOURS: Tour[] = [
     // business rating so the 1-5 invariant holds; reviewCount stays 0, which is
     // the truthful number for a product with no reviews of its own yet.
     rating: 5.0,
-    groupPricing: [{ minPeople: 1, price: 85 }],
-    price: 85,
-    depositAmount: 17,
+    groupPricing: [{ minPeople: 1, price: 105 }, { minPeople: 2, price: 85 }],
+    price: 105,
+    depositAmount: 21,
     heroImage: "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
     gallery: [
       "/gallery/tours-erg-chegaga-3day-marrakech.jpg",
@@ -3853,10 +3855,11 @@ export const TOURS: Tour[] = [
       { q: "¿Zagora o Merzouga?", a: "Zagora está más cerca — una jornada de carretera en vez de dos — pero sus dunas son bajas y con matorral. Erg Chebbi, en Merzouga, es el alto mar de arena dorada que la mayoría imagina, y para eso hace falta el [circuito de 3 días](/es/tours/desierto-merzouga-3-dias-compartido). Si va justo de tiempo, Zagora; si quiere las dunas de las fotografías, Merzouga." },
       { q: "¿Cuánto se conduce?", a: "Unas ocho horas en cada sentido. Es una jornada larga en el vehículo para una sola noche en el desierto, y ese es el compromiso honesto del formato de dos días." },
       { q: "¿Cómo es el campamento?", a: "Jaimas bereberes tradicionales con instalaciones compartidas, cena y desayuno, y normalmente percusión después de la comida. Es sencillo más que lujoso." },
+      { q: "¿Es más caro para una sola persona?", a: "Un poco. A partir de dos personas que viajan juntas, cada una paga 85 € y comparten tienda en el campamento. Para una sola persona el precio es de 105 €, porque dispone de la tienda en exclusiva." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Desierto de Zagora tour compartido — €85",
-    seoDescription: "Salida diaria compartida a las dunas de Zagora: Tizi n'Tichka, Aït Ben Haddou, valle del Draa, paseo en camello y noche en campamento bereber. €85 por persona.",
+    seoDescription: "Salida diaria compartida a Zagora: Tizi n'Tichka, Aït Ben Haddou, valle del Draa, camello y campamento bereber. €85 p. p. para 2+, €105 para una persona.",
     featured: false,
   },
   {
@@ -3900,8 +3903,8 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         walking: "2–3 h",
-        driving: "≈2.5 h each way",
-        distance: "≈150 km each way",
+        driving: "≈2.5 h por trayecto",
+        distance: "≈150 km por trayecto",
         title: "Día completo — Cascadas de Ouzoud",
         description:
           "Salida de Marrakech sobre las 8:00 y llegada a Ouzoud a media mañana. Bajada guiada por el cañón hasta la base de las cascadas, paseo en barca, avistamiento de macacos y tiempo libre para comer frente a los saltos de agua. Regreso a Marrakech a primera hora de la tarde-noche.",
@@ -3963,8 +3966,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈40 min each way",
-        distance: "≈30 km each way",
+        driving: "≈40 min por trayecto",
+        distance: "≈30 km por trayecto",
         title: "Tarde-noche — Desierto de Agafay",
         description:
           "Recogida en tu riad a última hora de la tarde. Paseo en camello por el desierto de piedra mientras cae la luz y después cena en el campamento con música y espectáculo de fuego. Regreso a Marrakech sobre las 22:30.",
@@ -4021,8 +4024,8 @@ export const TOURS: Tour[] = [
     itinerary: [
       {
         day: 1,
-        driving: "≈3 h each way",
-        distance: "≈190 km each way",
+        driving: "≈3 h por trayecto",
+        distance: "≈190 km por trayecto",
         title: "Día completo — Essaouira",
         description:
           "Salida de Marrakech sobre las 8:00, con parada en una cooperativa de aceite de argán por el camino. Llegada a Essaouira a última hora de la mañana, con tiempo libre para la medina, las murallas, el puerto y la comida. Salida a media tarde y regreso a Marrakech a primera hora de la tarde-noche.",

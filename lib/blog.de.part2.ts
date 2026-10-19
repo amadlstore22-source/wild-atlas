@@ -8222,7 +8222,7 @@ nachlesen, wie die Wanderung selbst ist.
       "Was eine 3-tägige Merzouga-Tour 2026 kostet: 120 € pro Person geteilt ab Marrakesch, 366 € pro Person privat zu zweit. Was der Unterschied bringt.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-3day-agadir", "merzouga-stargazing-desert-tour"],
     faq: [
-      { q: "Was kostet eine 3-tägige Tour nach Merzouga?", a: "Unsere geteilte 3-Tage-Tour ab Marrakesch kostet 120 € pro Person – der realistische Marktpreis für einen Platz im Minibus mit festem Programm. Eine private 3-Tage-Tour ab Agadir kostet 366 € pro Person zu zweit, 225 € zu viert und 170 € zu sechst – der Unterschied ist weniger ein Komfort-Upgrade als der Preis dafür, das Fahrzeug nicht mit Fremden zu teilen." },
+      { q: "Was kostet eine 3-tägige Tour nach Merzouga?", a: "Unsere geteilte 3-Tage-Tour ab Marrakesch kostet 120 € pro Person ab zwei Reisenden (160 € für Alleinreisende, mit Zimmer und Zelt für sich) – der realistische Marktpreis für einen Platz im Minibus mit festem Programm. Eine private 3-Tage-Tour ab Agadir kostet 366 € pro Person zu zweit, 225 € zu viert und 170 € zu sechst – der Unterschied ist weniger ein Komfort-Upgrade als der Preis dafür, das Fahrzeug nicht mit Fremden zu teilen." },
       { q: "Warum ist eine private Merzouga-Tour so viel teurer?", a: "Weil eine geteilte Tour ein Fahrzeug und einen Fahrer auf zwölf bis sechzehn zahlende Plätze verteilt, eine private Tour dieselben Fixkosten aber nur auf Ihre Gruppe. Zu sechst kostet eine private Tour 170 € pro Person, also viel näher am geteilten Preis, als der Einzelpreis vermuten lässt. Der Unterschied pro Person schrumpft deutlich, je größer Ihre Gruppe ist." },
       { q: "Lohnt sich eine 3-Tage-Tour nach Merzouga mehr als 2 Tage Zagora?", a: "Wenn Sie die hohen Dünen wollen, ja. Der Erg Chebbi bei Merzouga ist ein echtes Sandmeer mit Dünen bis 150 m und liegt pro Strecke eine volle Tagesfahrt von Marrakesch entfernt – der dritte Tag existiert wegen dieser Entfernung. Zagora ist näher und günstiger, aber seine Dünen sind im Vergleich niedrig und mit Gestrüpp bewachsen. Siehe unseren Vergleich [Merzouga oder Zagora](/de/blog/merzouga-vs-zagora-which-desert-tour)." },
       { q: "Was ist im Tourpreis nicht enthalten?", a: "Mittagessen unterwegs sind in der ganzen Branche meist ausgeschlossen, bei uns auch – rechnen Sie mit 70–120 MAD pro Mahlzeit. Getränke, Trinkgeld für Fahrer und Camp-Team sowie ein Upgrade auf ein privates Zelt mit eigenem Bad kosten ebenfalls extra. Abendessen und Frühstück im Camp, der Kamelritt und das Bett im Camp sind inbegriffen." },
@@ -8233,7 +8233,7 @@ nachlesen, wie die Wanderung selbst ist.
 
 Eine dreitägige Merzouga-Tour hat zwei ehrliche Preise, je nachdem, wie Sie reisen:
 
-- **Geteilt, ab Marrakesch: 120 € pro Person.** Ein Platz im Minibus, feste Abfahrtstage,
+- **Geteilt, ab Marrakesch: 120 € pro Person ab zwei Reisenden, 160 € für Alleinreisende.** Ein Platz im Minibus, feste Abfahrtstage,
   festes Programm, zwölf bis sechzehn Personen. Das ist unsere
   [geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt).
 - **Privat, ab Agadir: 366 € pro Person zu zweit**, 225 € zu viert, 170 € zu sechst.
@@ -8310,7 +8310,7 @@ Geld wert, und zu sechst ist der Unterschied gering.
       "Was eine 2-tägige Zagora-Tour kostet: 85 € pro Person geteilt ab Marrakesch, 400 € pro Person privat zu zweit ab Agadir. Was inbegriffen ist.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
     faq: [
-      { q: "Was kostet eine 2-tägige Tour nach Zagora?", a: "Unsere geteilte 2-Tage-Tour ab Marrakesch kostet 85 € pro Person – ungefähr so günstig, wie eine echte Wüstennacht in Marokko sein kann. Eine private Variante ab Agadir kostet 400 € pro Person zu zweit, 220 € zu viert und 195 € ab fünf Personen. Der geteilte Preis ist niedrig, weil das Fahrzeug voll und das Programm fest ist." },
+      { q: "Was kostet eine 2-tägige Tour nach Zagora?", a: "Unsere geteilte 2-Tage-Tour ab Marrakesch kostet 85 € pro Person ab zwei Reisenden (105 € für Alleinreisende, mit eigenem Zelt) – ungefähr so günstig, wie eine echte Wüstennacht in Marokko sein kann. Eine private Variante ab Agadir kostet 400 € pro Person zu zweit, 220 € zu viert und 195 € ab fünf Personen. Der geteilte Preis ist niedrig, weil das Fahrzeug voll und das Programm fest ist." },
       { q: "Ist Zagora besser als Merzouga?", a: "Näher und günstiger, nicht besser. Zagora liegt rund 360 km von Marrakesch entfernt, Merzouga 560 km – deshalb passt es in zwei Tage. Seine Dünen sind aber niedrig und mit Gestrüpp bewachsen, während der Erg Chebbi bei Merzouga ein echtes Sandmeer mit Dünen bis 150 m ist. Wenn Sie sich die hohen Dünen vorstellen, zahlen Sie für den dritten Tag." },
       { q: "Warum ist eine 2-Tage-Tour nach Zagora so günstig?", a: "Weil die Strecke kurz genug für einen Tag pro Richtung ist, das Camp nah an der Straße liegt und geteilte Abfahrten einen Minibus mit zwölf bis sechzehn zahlenden Plätzen füllen. Nichts davon erfordert Abstriche – die Reise ist wirklich günstiger durchzuführen als Merzouga, und der Preis spiegelt die Entfernung wider, nicht die Qualität." },
       { q: "Was ist im Preis der Zagora-Tour enthalten?", a: "Hin- und Rückfahrt ab Marrakesch, die Fahrt über den Tizi-n'Tichka-Pass mit Halt in Aït Ben Haddou, ein Kamelritt in die Dünen bei Sonnenuntergang, Abendessen und Frühstück im Wüstencamp sowie eine Nacht im Berberzelt. Mittagessen unterwegs, Getränke und Trinkgeld sind nicht enthalten – rechnen Sie mit 70–120 MAD für ein Mittagessen an der Strecke." },
@@ -8319,7 +8319,7 @@ Geld wert, und zu sechst ist der Unterschied gering.
     content: `
 ## Was eine Zagora-Tour kostet
 
-**85 € pro Person, geteilt, ab Marrakesch.** Das ist unsere
+**85 € pro Person ab zwei Reisenden, geteilt, ab Marrakesch; 105 € für Alleinreisende.** Das ist unsere
 [2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt), und das ist ungefähr der
 Mindestpreis für eine echte Wüstennacht in Marokko – ein Kamelritt, ein Camp, Abendessen und
 Frühstück sowie die Hin- und Rückfahrt.

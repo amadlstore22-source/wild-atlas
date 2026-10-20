@@ -85,7 +85,7 @@ export default function LegalPage({
           {/* Sticky table of contents */}
           <nav aria-label={t.toc} className="hidden lg:block">
             <div className="sticky top-28">
-              <p className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-ink-muted mb-4">{t.toc}</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-ink-muted mb-4">{t.toc}</p>
               <ol className="space-y-2 text-sm">
                 {sections.map((s, i) => (
                   <li key={s.id}>
@@ -107,7 +107,7 @@ export default function LegalPage({
             {sections.map((s, i) => (
               <section key={s.id} id={s.id} className="scroll-mt-28 mb-10">
                 <h2 className="font-display text-ink text-2xl font-bold mb-3 flex items-baseline gap-3">
-                  <span className="text-saffron text-base tabular-nums font-body font-semibold">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="text-saffron-deep text-base tabular-nums font-body font-semibold">{String(i + 1).padStart(2, "0")}</span>
                   {s.title}
                 </h2>
                 <div className="text-ink-soft leading-relaxed space-y-3">{s.body}</div>

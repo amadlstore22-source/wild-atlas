@@ -61,11 +61,11 @@ export default function CTABanner({ dict, lang = "en", tourCount }: Props) {
                 >
                   <Link href={`/${lang}/tours`} className="btn-brass !text-sm">
                     {dict.cta.browseAll}
-                    <ArrowRight className="w-4 h-4" weight="bold" />
+                    <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
                   </Link>
                   <WhatsAppLink
                     href={whatsappUrl(WHATSAPP_MESSAGES.custom)}
-                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[2px] bg-[#25D366] text-white font-semibold text-sm hover:bg-[#20ba5a] active:scale-[0.98] transition-all"
+                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[2px] bg-[#15803D] text-white font-semibold text-sm hover:bg-[#166534] active:scale-[0.97] transition"
                   >
                     <WhatsappLogo className="w-4 h-4" weight="fill" />
                     {dict.cta.whatsapp}

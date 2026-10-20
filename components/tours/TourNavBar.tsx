@@ -120,7 +120,7 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
                         {/* Saffron tick marks the active section. */}
                         <span
                           aria-hidden
-                          className={`h-0.5 rounded-full transition-all ${
+                          className={`h-0.5 rounded-full transition-[width,background-color] duration-200 ${
                             isActive ? "w-4 bg-saffron" : "w-2 bg-rule group-hover:w-3 group-hover:bg-ink-faint"
                           }`}
                         />

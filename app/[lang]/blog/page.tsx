@@ -157,8 +157,8 @@ export default async function BlogPage({
                     <span>·</span>
                     <span>{pillarPost.author?.name}</span>
                   </div>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sunset font-semibold text-sm group-hover:gap-3 transition-all">
-                    {dict.blog.readGuide} <ArrowRight className="w-4 h-4" />
+                  <span className="mt-6 inline-flex items-center gap-2 text-sunset font-semibold text-sm">
+                    {dict.blog.readGuide} <ArrowRight className="w-4 h-4 arrow-go" />
                   </span>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export default async function BlogPage({
                 const count = nonPillarPosts.filter((p) => p.region === r.id).length;
                 return (
                   <Link key={r.id} href={`/${lang}/blog?region=${r.id}`}
-                    className="group flex flex-col items-center text-center p-5 bg-card rounded-[4px] shadow-sm hover:shadow-md hover:border-forest border border-transparent transition-all">
+                    className="group flex flex-col items-center text-center p-5 bg-card rounded-[4px] shadow-sm hover:shadow-md hover:border-forest border border-transparent transition">
                     <span className="text-3xl mb-2">{r.icon}</span>
                     <span className="font-semibold text-charcoal text-sm group-hover:text-forest transition-colors leading-snug">{r.label}</span>
                     <span className="text-ink-muted text-xs mt-1">{count} {count !== 1 ? dict.blog.articles : dict.blog.article}</span>
@@ -254,7 +254,7 @@ export default async function BlogPage({
           <h2 className="font-display text-3xl font-bold text-white mb-3">{dict.blog.readyTitle}</h2>
           <p className="text-white/70 mb-6 max-w-xl mx-auto">{dict.blog.readyDesc}</p>
           <Link href={`/${lang}/tours`} className="btn-brass">
-            {dict.blog.browseAll} <ArrowRight className="w-4 h-4" />
+            {dict.blog.browseAll} <ArrowRight className="w-4 h-4 arrow-go" />
           </Link>
         </div>
       </div>

@@ -46,7 +46,6 @@ export default function FeaturedGuides({ dict, lang }: Props) {
   return (
     <Section tone="cream">
       <SectionHeader
-        eyebrow={dict.featuredGuides.eyebrow}
         title={dict.featuredGuides.title}
         subtitle={dict.featuredGuides.subtitle}
         align="left"
@@ -54,10 +53,10 @@ export default function FeaturedGuides({ dict, lang }: Props) {
         action={
           <Link
             href={`/${lang}/blog`}
-            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold group shrink-0"
           >
             {dict.featuredGuides.viewAll}
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
+            <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
           </Link>
         }
       />
@@ -67,7 +66,7 @@ export default function FeaturedGuides({ dict, lang }: Props) {
           <Link
             key={post.slug}
             href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
-            className="group flex flex-col overflow-hidden rounded-2xl bg-white border border-sand-deep/40 hover:border-indigo/30 hover:shadow-lg transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo"
+            className="group flex flex-col overflow-hidden rounded-2xl bg-white border border-sand-deep/40 hover:border-indigo/30 hover:shadow-lg transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo"
           >
             <div className="relative aspect-[16/10] overflow-hidden">
               <Image

@@ -254,7 +254,7 @@ export default async function DestinationPage({ params }: PageParams) {
                   {destination.travelTips.map((tip, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-ink-soft leading-relaxed">
                       <span className="w-5 h-5 rounded-full bg-forest/12 border border-forest/20 flex items-center justify-center shrink-0 mt-0.5">
-                        <span className="text-forest text-[10px] font-bold">{i + 1}</span>
+                        <span className="text-forest micro-text font-bold">{i + 1}</span>
                       </span>
                       {tip}
                     </li>
@@ -314,7 +314,7 @@ export default async function DestinationPage({ params }: PageParams) {
                           <Link
                             key={cat}
                             href={`/${locale}/categories/${cat}`}
-                            className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-forest/8 text-forest border border-forest/15 rounded-full hover:bg-forest/16 transition-colors capitalize"
+                            className="micro-text font-bold uppercase tracking-wider px-2 py-0.5 bg-forest/8 text-forest border border-forest/15 rounded-full hover:bg-forest/16 transition-colors capitalize"
                           >
                             {cat.replaceAll("-", " ")}
                           </Link>

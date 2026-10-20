@@ -399,7 +399,7 @@ function makeDivIcon(dest: Destination, active = false): L.DivIcon {
   const d = active ? 20 : 14;
   return L.divIcon({
     html: `<div class="map-pin" style="box-sizing:border-box;width:${d}px;height:${d}px;border-radius:50%;background:${dest.color};border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.6);cursor:pointer;position:relative;">
-      <span class="map-pin-label" style="position:absolute;white-space:nowrap;font-size:10.5px;font-weight:700;color:#fff;background:rgba(0,0,0,0.74);border-radius:3px;padding:1px 6px;pointer-events:none;letter-spacing:0.01em;">${dest.name}</span>
+      <span class="map-pin-label" style="position:absolute;white-space:nowrap;font-size:11.5px;font-weight:700;color:#fff;background:rgba(0,0,0,0.74);border-radius:3px;padding:1px 6px;pointer-events:none;letter-spacing:0.01em;">${dest.name}</span>
     </div>`,
     className: "",
     iconSize: [d, d],
@@ -737,8 +737,8 @@ export default function ToursMap({ lang, dict, tours, placeText, categoryText }:
       style={{ background: "linear-gradient(180deg,#1B2645 0%,#141d33 100%)" }}
     >
       <style>{`
-        .leaflet-control-attribution { font-size: 9px !important; background: rgba(0,0,0,0.55) !important; color: rgba(255,255,255,0.6) !important; }
-        .leaflet-control-attribution a { color: rgba(255,255,255,0.7) !important; }
+        .leaflet-control-attribution { font-size: 11px !important; background: rgba(0,0,0,0.6) !important; color: rgba(255,255,255,0.85) !important; }
+        .leaflet-control-attribution a { color: rgba(255,255,255,0.9) !important; }
         .leaflet-control-zoom { border-radius: 8px !important; overflow: hidden; border: none !important; }
         .leaflet-control-zoom a { background: rgba(20,30,20,0.85) !important; color: #fff !important; border-color: rgba(255,255,255,0.12) !important; }
         .leaflet-control-zoom a:hover { background: rgba(40,55,40,0.95) !important; }

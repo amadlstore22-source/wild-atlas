@@ -107,7 +107,7 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
       whileHover={suppressed ? undefined : { x: 0, opacity: 1, scale: 1.05 }}
     >
       {/* Slide-out tooltip — only visible when active + hovered */}
-      <span className={`mr-3 px-4 py-2 rounded-full bg-charcoal text-white text-sm font-semibold whitespace-nowrap pointer-events-none shadow-lg transition-all duration-200 ${
+      <span className={`mr-3 px-4 py-2 rounded-full bg-charcoal text-white text-sm font-semibold whitespace-nowrap pointer-events-none shadow-lg transition duration-200 ${
         scrolling
           ? "opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0"
           : "opacity-0"

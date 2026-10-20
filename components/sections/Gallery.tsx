@@ -21,8 +21,7 @@ export default function Gallery({ dict, lang = "en" }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
-            <span className="eyebrow">{dict.gallery.eyebrow}</span>
-            <h2 className="font-bold text-ink mt-3" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
+            <h2 className="font-bold text-ink" style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}>
               {dict.gallery.title}
             </h2>
             <p className="text-ink-muted mt-4 max-w-lg leading-relaxed">
@@ -31,10 +30,10 @@ export default function Gallery({ dict, lang = "en" }: Props) {
           </div>
           <Link
             href={`/${lang}/tours`}
-            className="flex items-center gap-2 text-indigo font-semibold hover:gap-3 transition-all group shrink-0 pb-1"
+            className="flex items-center gap-2 text-indigo font-semibold group shrink-0 pb-1"
           >
             {dict.featuredTours.viewAll}
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5 arrow-go" />
           </Link>
         </AnimateInView>
 
@@ -52,10 +51,10 @@ export default function Gallery({ dict, lang = "en" }: Props) {
         <div className="mt-8 flex justify-center">
           <Link
             href={`/${lang}/gallery`}
-            className="flex items-center gap-2 text-indigo font-semibold hover:gap-3 transition-all group"
+            className="flex items-center gap-2 text-indigo font-semibold group"
           >
             {dict.gallery.photoCount.replace("{count}", String(photos.length))}
-            <ArrowRight className="w-5 h-5 rtl:-scale-x-100 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5 arrow-go" />
           </Link>
         </div>
       </div>

@@ -31,10 +31,10 @@ export default function GuideProfiles({ lang, dict }: Props) {
           </div>
           <Link
             href={`/${lang}/guides`}
-            className="inline-flex items-center gap-2 text-forest font-bold text-sm hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-forest font-bold text-sm group shrink-0"
           >
             {g.meetFullTeam}
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-4 h-4 arrow-go" />
           </Link>
         </div>
 
@@ -44,13 +44,13 @@ export default function GuideProfiles({ lang, dict }: Props) {
               .split(" ")
               .map((n) => n[0])
               .join("");
-            const accentColor = i === 0 ? "#2B3A67" : "#C97B2B";
+            const accentColor = i === 0 ? "#24408E" : "#C97B2B";
 
             return (
               <Link
                 key={guide.id}
                 href={`/${lang}/guides/${guide.id}`}
-                className="group bg-card rounded-[4px] border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col sm:flex-row"
+                className="group bg-card rounded-[4px] border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row"
               >
                 {/* Avatar column */}
                 <div
@@ -65,7 +65,7 @@ export default function GuideProfiles({ lang, dict }: Props) {
                     {initials}
                   </div>
                   {guide.isFounder && (
-                    <div className="absolute bottom-3 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-4 sm:left-3 bg-white/90 backdrop-blur-sm rounded-lg px-2.5 py-1 text-[10px] font-bold text-forest shadow whitespace-nowrap">
+                    <div className="absolute bottom-3 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-4 sm:left-3 bg-white/90 backdrop-blur-sm rounded-lg px-2.5 py-1 micro-text font-bold text-forest shadow whitespace-nowrap">
                       {g.coFounder}
                     </div>
                   )}
@@ -92,7 +92,7 @@ export default function GuideProfiles({ lang, dict }: Props) {
                     </div>
                   </div>
 
-                  <div className="mt-5 inline-flex items-center gap-1.5 text-forest font-bold text-xs group-hover:gap-3 transition-all">
+                  <div className="mt-5 inline-flex items-center gap-1.5 text-forest font-bold text-xs">
                     {g.viewProfile}
                   </div>
                 </div>

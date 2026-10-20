@@ -14,6 +14,8 @@ export interface GalleryPhotoData {
   group: GalleryGroup;
   alt: string;
   span?: string;
+  /** false keeps a photo out of the homepage's 12-tile preview (see gallery-preview.ts). */
+  homePreview?: boolean;
 }
 
 /** Section order on the gallery page. Atlas first because it is the
@@ -48,7 +50,7 @@ export const GALLERY_PHOTOS: GalleryPhotoData[] = [
   // (destinations-sahara.jpg is Monument Valley, in Arizona).
   { src: "/gallery/blog-hero-sahara-dunes-golden.jpg", group: "desert", alt: "Desert camp among the Erg Chebbi dunes at golden hour, Merzouga Sahara, Morocco", span: "col-span-1 row-span-2" },
   { src: "/gallery/tours-erg-chegaga-3day-marrakech.jpg", group: "desert", alt: "Berber tents pitched below the dunes of Erg Chegaga, Draa Valley, Morocco" },
-  { src: "/gallery/tours-merzouga-stargazing-desert-tour.jpg", group: "desert", alt: "The night sky over a dune at Erg Chebbi, Merzouga — no artificial light for 50 km, Morocco" },
+  { src: "/gallery/tours-merzouga-stargazing-desert-tour.jpg", group: "desert", homePreview: false, alt: "The night sky over a dune at Erg Chebbi, Merzouga — no artificial light for 50 km, Morocco" },
   // Atlantic coast trek, September 2018 — a multi-day walk the gallery had no
   // frames of at all. Same rule as the Sahara block above: every one of these
   // was opened and looked at before it was listed, and the filenames were

@@ -131,7 +131,7 @@ export default async function HowWeOperatePage({ params }: LangParams) {
             <div className="flex flex-wrap gap-3 justify-center mt-5">
               <WhatsAppLink
                 href={whatsappUrl(WHATSAPP_MESSAGES.general)}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#15803D] text-white font-bold text-sm shadow-lg"
               >
                 {h.ctaButton}
               </WhatsAppLink>

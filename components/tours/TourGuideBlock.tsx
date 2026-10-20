@@ -49,7 +49,7 @@ export default function TourGuideBlock({
             className="inline-flex items-center gap-1.5 mt-3 text-sm font-semibold text-indigo underline underline-offset-4 hover:text-terracotta"
           >
             {g.familyLink}
-            <ArrowRight className="w-3.5 h-3.5" weight="bold" aria-hidden />
+            <ArrowRight className="w-3.5 h-3.5 arrow-go" weight="bold" aria-hidden />
           </Link>
         </div>
       </div>

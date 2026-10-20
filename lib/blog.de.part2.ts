@@ -5652,7 +5652,7 @@ Dieselbe dreitägige Merzouga-Route in beiden Varianten:
 
 Auf dieser Route bleibt geteilt bei jeder Gruppengröße günstiger — aber sehen Sie, was der Abstand kauft. Bei sechs Reisenden zahlen Sie rund 660 € mehr für einen eigenen 4x4 mit Fahrer-Guide, die Freiheit anzuhalten, wo Sie wollen, und keinen festen Zeitplan. Auf sechs verteilt sind das 110 € pro Person für eine grundlegend andere Reise.
 
-Bei Tagesausflügen kippt die Rechnung schneller. Ein [privater Ouzoud-Tag](/de/tours/ouzoud-waterfalls-day-trip) kostet bei sechs 22 € pro Person gegenüber 40 € geteilt — die private Tour ist schlicht günstiger *und* besser. Der [Guide zur Gruppengröße](/de/blog/morocco-tour-price-group-size) hat die vollständige Tabelle.
+Bei Tagesausflügen kippt die Rechnung schneller. Ein [privater Ouzoud-Tag](/de/tours/ouzoud-waterfalls-day-trip) kostet bei sechs 35 € pro Person gegenüber 40 € geteilt — die private Tour ist schlicht günstiger *und* besser. Der [Guide zur Gruppengröße](/de/blog/morocco-tour-price-group-size) hat die vollständige Tabelle.
 
 **Die kurze Regel:** allein oder zu zweit geteilt buchen. Zu viert oder mehr bei Tagesausflügen den Privatpreis anfragen — er gewinnt oft klar. Zu viert oder mehr mehrtägig: entscheiden, ob die Flexibilität rund 100 € pro Kopf wert ist.
 
@@ -8456,25 +8456,25 @@ auf ein paar Stunden oder fährt Sie stillschweigend nach Zagora – eine völli
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet ein Tagesausflug zu den Ouzoud-Wasserfällen?",
     excerpt:
-      "Ein geteilter Tagesausflug nach Ouzoud ab Marrakesch kostet 40 € pro Person, privat 38 € pro Person zu zweit. Hier sind die vollen Kosten, auch für Boot und Mittagessen.",
+      "Ein geteilter Tagesausflug nach Ouzoud ab Marrakesch kostet 40 € pro Person, privat 62 € pro Person zu zweit. Hier sind die vollen Kosten, auch für Boot und Mittagessen.",
     heroImage: "/gallery/berber-guide-waterfall-portrait.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 6,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-10-03",
+    updatedAt: "2026-10-20",
     tags: ["Ouzoud Kosten", "Ouzoud Wasserfälle Preis", "Marrakesch Tagesausflug Kosten", "Ouzoud Tagesausflug", "Wasserfälle Marokko"],
     seoTitle: "Ouzoud-Wasserfälle Ausflug: Kosten 2026",
     seoDescription:
-      "Was ein Ausflug zu den Ouzoud-Wasserfällen kostet: 40 € pro Person geteilt ab Marrakesch, 38 € pro Person privat zu zweit. Eintritt, Boot und Mittagessen.",
+      "Was ein Ausflug zu den Ouzoud-Wasserfällen kostet: 40 € pro Person geteilt ab Marrakesch, 62 € pro Person privat zu zweit. Eintritt, Boot und Mittagessen.",
     relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
     faq: [
-      { q: "Was kostet ein Tagesausflug nach Ouzoud?", a: "Unser geteilter Tagesausflug ab Marrakesch kostet 40 € pro Person mit fester Abfahrt. Die private Variante kostet 38 € pro Person zu zweit, 27 € zu viert und 22 € zu sechst – ab zwei Personen kostet der private Ausflug also gleich viel oder weniger als der geteilte Platz, weil sich die Fahrzeugkosten auf Ihre Gruppe verteilen." },
+      { q: "Was kostet ein Tagesausflug nach Ouzoud?", a: "Unser geteilter Tagesausflug ab Marrakesch kostet 40 € pro Person mit fester Abfahrt. Die private Variante kostet 62 € pro Person zu zweit, 46 € zu viert und 35 € zu sechst – bis vier Personen ist der geteilte Platz also günstiger, ab fünf Personen kostet der private Ausflug pro Person weniger, weil sich die Fahrzeugkosten auf Ihre Gruppe verteilen." },
       { q: "Kostet Ouzoud Eintritt?", a: "Nein. Die Wasserfälle sind frei und kostenlos zugänglich. Vor Ort kosten das kleine Boot, das Sie nah an den Fuß der Kaskade bringt, etwa 20–30 MAD pro Person, und das Parken, wenn Sie selbst fahren. Oben bieten Guides an, Sie gegen einen verhandelbaren Betrag hinunterzubegleiten, meist 100–150 MAD pro Gruppe." },
       { q: "Wie weit ist Ouzoud von Marrakesch entfernt?", a: "Etwa 150 km oder zweieinhalb Stunden pro Strecke auf ordentlicher Straße. Das macht es zu einem ganzen Tag – die meisten Ausflüge starten gegen 8 Uhr in Marrakesch und sind gegen 18 oder 19 Uhr zurück, mit rund vier Stunden an den Fällen, genug, um hinunterzugehen, das Boot zu nehmen und über der Kaskade zu Mittag zu essen." },
       { q: "Kann man in Ouzoud schwimmen?", a: "Ja, im Becken am Fuß des Hauptfalls, und die Leute tun es. Das Wasser ist das ganze Jahr über kalt, und die Gischt macht die Felsen glatt, also tragen Sie etwas mit gutem Halt. Das Becken ist stellenweise tief, und es gibt keine Rettungsschwimmer – es ist ein natürlicher Fluss und wird so behandelt." },
       { q: "Sehe ich die Affen?", a: "Meistens. Berberaffen leben in den Wäldern entlang des Abstiegswegs und sind an Menschen gewöhnt – genau deshalb sollten Sie sie nicht füttern, denn gefütterte Makaken werden aggressiv, und das ist dort ein echtes Problem. Halten Sie Taschen geschlossen; die Tiere sind schnell und völlig unverfroren." },
-      { q: "Wie lang ist der Weg an den Ouzoud-Wasserfällen?", a: "Kurz: etwa zwanzig Minuten von oben hinunter, vorbei an den Makaken, bis zum Fuß der Fälle. Unser [Tagesausflug](/de/tours/ausflug-ouzoud-wasserfaelle) kostet ab 38 € pro Person zu zweit und ergänzt den Schluchtpfad und eine Bootsfahrt bis zur Gischt, mit einem zertifizierten Guide." },
+      { q: "Wie lang ist der Weg an den Ouzoud-Wasserfällen?", a: "Kurz: etwa zwanzig Minuten von oben hinunter, vorbei an den Makaken, bis zum Fuß der Fälle. Unser [Tagesausflug](/de/tours/ausflug-ouzoud-wasserfaelle) kostet ab 62 € pro Person zu zweit und ergänzt den Schluchtpfad und eine Bootsfahrt bis zur Gischt, mit einem zertifizierten Guide." },
     ],
     content: `
 ## Was es kostet
@@ -8482,12 +8482,13 @@ auf ein paar Stunden oder fährt Sie stillschweigend nach Zagora – eine völli
 **40 € pro Person** auf unserem
 [geteilten Ouzoud-Tagesausflug](/de/tours/ouzoud-wasserfaelle-gruppentour) ab Marrakesch.
 
-Die [private Variante](/de/tours/ausflug-ouzoud-wasserfaelle) kostet **38 € pro Person zu
-zweit**, 27 € zu viert und 22 € zu sechst.
+Die [private Variante](/de/tours/ausflug-ouzoud-wasserfaelle) kostet **62 € pro Person zu
+zweit**, 46 € zu viert und 35 € zu sechst.
 
-Lesen Sie das ruhig zweimal, denn es ist ungewöhnlich: Ab zwei Personen kostet der private
-Ausflug gleich viel oder weniger als der geteilte Platz. Die geteilte Tour lohnt sich nur,
-wenn Sie allein reisen – dann sind es 40 € gegenüber 75 € für ein privates Auto nur für Sie.
+Was günstiger ist, hängt von der Gruppengröße ab. Allein kostet der geteilte Platz 40 €
+gegenüber 79 € für ein privates Auto nur für Sie, und bis vier Personen bleibt er die
+günstigere Wahl. Ab fünf Personen kostet der private Ausflug pro Person weniger (39 € zu
+fünft, 35 € zu sechst), und Auto, Guide und Zeitplan gehören Ihnen allein.
 
 ## Die Kosten vor Ort
 

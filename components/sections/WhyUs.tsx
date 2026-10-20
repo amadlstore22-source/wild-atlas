@@ -34,7 +34,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
           {/* Left: headline */}
           <div>
             <AnimateInView variant="fade-up">
-              <p className="eyebrow mb-4">
+              <p className="eyebrow text-brass-glow mb-4">
                 {dict.whyUs.eyebrow}
               </p>
               <h2 className="font-bold text-cream leading-[1.08] tracking-[-0.015em] mb-6"
@@ -52,7 +52,7 @@ export default function WhyUs({ dict, tourCount }: Props) {
             {WHY.map((item, i) => (
               <m.div
                 key={item.title}
-                className="p-6 rounded-[3px] border border-saffron/20 transition-all duration-300 group"
+                className="p-6 rounded-[3px] border border-saffron/20 group"
                 style={{ background: "rgba(255,255,255,0.06)" }}
                 initial={{ opacity: 0, y: 24, scale: 0.96 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}

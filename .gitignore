@@ -82,3 +82,6 @@ data/*
 # undo for the 16:10 hero re-crop; they must NOT live under public/, which is
 # served, and they are too large to be worth committing.
 .originals/
+
+# Impeccable critique snapshots: local design notes, never shipped
+.impeccable/

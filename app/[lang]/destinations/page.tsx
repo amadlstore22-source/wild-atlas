@@ -137,7 +137,7 @@ export default async function DestinationsPage({ params }: LangParams) {
 
                 <div className="relative mt-auto p-6 z-10">
                   <span
-                    className="inline-block text-[10px] font-bold uppercase tracking-[0.12em] px-2.5 py-0.5 rounded-full mb-3 border backdrop-blur-sm"
+                    className="inline-block micro-text font-bold uppercase tracking-[0.12em] px-2.5 py-0.5 rounded-full mb-3 border backdrop-blur-sm"
                     style={{
                       color: pillText,
                       borderColor: pillText + "66",
@@ -154,7 +154,7 @@ export default async function DestinationsPage({ params }: LangParams) {
                     {dest.knownFor.slice(0, 2).map((k, i) => (
                       <span
                         key={i}
-                        className="text-[10px] text-white/80 bg-black/35 border border-white/20 rounded-full px-2 py-0.5 leading-tight"
+                        className="micro-text text-white/80 bg-black/35 border border-white/20 rounded-full px-2 py-0.5 leading-tight"
                       >
                         {k.split("—")[0].trim()}
                       </span>

@@ -106,7 +106,7 @@ export default async function ContactPage({ params }: LangParams) {
             {/* WhatsApp CTA — primary action */}
             <WhatsAppLink
               href={`https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`}
-              className="flex items-center gap-4 p-5 bg-[#25D366] rounded-[4px] text-white hover:bg-[#1ebe5a] transition-colors shadow-lg shadow-[#25D366]/20"
+              className="flex items-center gap-4 p-5 bg-[#15803D] rounded-[4px] text-white hover:bg-[#166534] transition-colors shadow-lg shadow-[#25D366]/20"
             >
               <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                 <WhatsappLogo className="w-5 h-5 text-white" weight="fill" />

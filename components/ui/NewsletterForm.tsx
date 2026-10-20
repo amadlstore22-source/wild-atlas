@@ -63,7 +63,7 @@ export default function NewsletterForm({ placeholder, label, buttonLabel, succes
         // Lets the browser and password managers offer the saved address.
         autoComplete="email"
         name="email"
-        className="flex-1 min-w-0 bg-white/8 border border-white/15 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-white/35 transition-colors"
+        className="flex-1 min-w-0 bg-white/8 border border-white/15 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white/35 transition-colors"
       />
       <button
         type="submit"
@@ -75,7 +75,7 @@ export default function NewsletterForm({ placeholder, label, buttonLabel, succes
         ) : (
           <>
             {buttonLabel}
-            <ArrowRight className="w-3.5 h-3.5" weight="bold" />
+            <ArrowRight className="w-3.5 h-3.5 arrow-go" weight="bold" />
           </>
         )}
       </button>

@@ -111,10 +111,10 @@ export default function RelatedGuides({
           </h2>
           <Link
             href={`/${lang}/blog`}
-            className="hidden sm:flex items-center gap-2 text-forest font-semibold hover:gap-3 transition-all shrink-0"
+            className="hidden sm:flex items-center gap-2 text-forest font-semibold shrink-0"
           >
             {dict.tourDetail.readMoreGuides}
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-5 h-5 arrow-go" />
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

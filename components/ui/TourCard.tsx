@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import TitleText from "@/components/ui/TitleText";
 import Image from "next/image";
 import * as m from "motion/react-m";
 import { useReducedMotion } from "motion/react";
@@ -34,7 +35,7 @@ function StarRating({ rating }: { rating: number }) {
           key={s}
           aria-hidden="true"
           weight={s <= full || (s === full + 1 && half) ? "fill" : "regular"}
-          className={`w-3.5 h-3.5 ${s <= full ? "text-saffron" : s === full + 1 && half ? "text-saffron opacity-50" : "text-ink/20"}`}
+          className={`w-3.5 h-3.5 ${s <= full ? "text-saffron-vivid" : s === full + 1 && half ? "text-saffron-vivid opacity-50" : "text-ink/20"}`}
         />
       ))}
     </div>
@@ -135,7 +136,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
               ({TRIPADVISOR.reviewCount} reviews on TripAdvisor)
             </span>
           </div>
-          <h3 className="font-display text-cream font-semibold text-2xl sm:text-3xl leading-[1.1] mb-2">{tour.title}</h3>
+          <h3 className="font-display text-cream font-semibold text-2xl sm:text-3xl leading-[1.1] mb-2"><TitleText text={tour.title} /></h3>
           <p className="text-cream/75 text-sm leading-relaxed line-clamp-2 mb-5 max-w-md">{tour.shortDescription}</p>
           <div className="flex items-end justify-between gap-4">
             <div>
@@ -147,7 +148,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
             </div>
             <Link href={href} className="btn-brass !px-5 !py-2.5 !text-sm shrink-0 pointer-events-auto">
               {viewTourLabel}
-              <ArrowRight className="w-4 h-4" weight="bold" />
+              <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
             </Link>
           </div>
         </div>
@@ -194,7 +195,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
 
       <div className="p-5 sm:p-6 flex flex-col flex-1">
         <div className="flex items-center justify-between gap-2 mb-2.5">
-          <span className="eyebrow !text-[0.62rem] !tracking-[0.16em]">{CATEGORY_LABEL[tour.category] ?? tour.category}</span>
+          <span className="eyebrow micro-text">{CATEGORY_LABEL[tour.category] ?? tour.category}</span>
           <div className="flex items-center gap-1.5" title={`${TRIPADVISOR.rating.toFixed(1)} from ${TRIPADVISOR.reviewCount} TripAdvisor reviews across all our tours`}>
             <StarRating rating={TRIPADVISOR.rating} />
             <span className="text-xs font-semibold text-saffron-deep">{TRIPADVISOR.rating.toFixed(1)}</span>
@@ -202,14 +203,14 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
         </div>
 
         <h3 className="font-display font-semibold text-ink text-xl leading-[1.15] mb-3 group-hover:text-indigo transition-colors">
-          {tour.title}
+          <TitleText text={tour.title} />
         </h3>
 
         <ul className="space-y-1.5 mb-5">
           {tour.highlights.slice(0, 3).map((h) => (
             <li key={h} className="flex items-start gap-2 text-[0.82rem] text-ink-soft leading-snug">
               <CheckCircle className="w-4 h-4 text-indigo/70 shrink-0 mt-0.5" weight="fill" />
-              <span className="line-clamp-1">{h}</span>
+              <span className="line-clamp-2">{h}</span>
             </li>
           ))}
         </ul>
@@ -229,7 +230,7 @@ export default function TourCard({ tour, lang = "en", dict, featured = false, de
           </div>
           <Link
             href={href}
-            className="relative z-40 inline-flex items-center gap-1.5 px-4 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep active:scale-[0.98] transition-all"
+            className="relative z-40 inline-flex shrink-0 whitespace-nowrap items-center gap-1.5 px-4 py-2 rounded-[3px] bg-indigo text-cream text-sm font-semibold hover:bg-indigo-deep active:scale-[0.97] transition"
           >
             {viewTourLabel}
           </Link>

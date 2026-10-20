@@ -129,7 +129,7 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
                 >
                   {/* Year bubble */}
                   <div className="shrink-0 w-14 h-14 rounded-full bg-forest flex items-center justify-center shadow-lg shadow-forest/20 z-10">
-                    <span className="font-mono text-white text-[10px] font-bold text-center leading-tight px-1">{milestone.year}</span>
+                    <span className="font-mono text-white text-xs font-bold text-center leading-tight px-1">{milestone.year}</span>
                   </div>
 
                   {/* Content */}

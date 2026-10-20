@@ -191,7 +191,7 @@ export default function ToursClient({
         <div className="flex flex-wrap gap-2 mb-6 border-b border-rule pb-4">
           {ORIGIN_TABS.map((tab) => (
             <button key={tab.id} onClick={() => setOrigin(tab.id)}
-              className={`px-5 py-2 rounded-[3px] text-sm font-semibold transition-all ${origin === tab.id ? "bg-indigo text-cream shadow-sm" : "bg-card text-ink border border-rule hover:border-indigo/40 hover:text-indigo"}`}>
+              className={`px-5 py-2 rounded-[3px] text-sm font-semibold transition ${origin === tab.id ? "bg-indigo text-cream shadow-sm" : "bg-card text-ink border border-rule hover:border-indigo/40 hover:text-indigo"}`}>
               {tab.label}
             </button>
           ))}
@@ -223,7 +223,7 @@ export default function ToursClient({
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-3">
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.category}</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.category}</div>
               <div className="flex flex-wrap gap-1.5">
                 <button onClick={() => setCategory("all")} className={chip(category === "all")}>{dict.tours.all}</button>
                 {categories.map((cat) => (
@@ -232,7 +232,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.difficulty}</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.difficulty}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DIFFICULTIES.map((d) => (
                   <button key={d.id} onClick={() => setDifficulty(d.id)} className={chip(difficulty === d.id)}>{d.label}</button>
@@ -240,7 +240,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.duration}</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.duration}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DURATIONS.map((d) => (
                   <button key={d.id} onClick={() => setDuration(d.id)} className={chip(duration === d.id)}>{d.label}</button>
@@ -248,7 +248,7 @@ export default function ToursClient({
               </div>
             </div>
             <div>
-              <div className="text-[0.68rem] font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.price}</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.price}</div>
               <div className="flex flex-wrap gap-1.5">
                 {PRICE_BANDS.map((b) => (
                   <button key={b.id} onClick={() => setPrice(b.id)} className={chip(price === b.id)}>{priceLabels[b.id]}</button>

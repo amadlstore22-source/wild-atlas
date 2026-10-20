@@ -121,7 +121,7 @@ export default function GalleryHeroSlideshow({
           {photos.map((p, i) => (
             <span
               key={p.src}
-              className="block rounded-full transition-all duration-500"
+              className="block rounded-full transition-[width,background-color] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
               style={{
                 width: i === idx ? 18 : 5,
                 height: 5,

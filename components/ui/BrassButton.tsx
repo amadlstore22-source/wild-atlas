@@ -17,7 +17,7 @@ const VARIANT_CLASS: Record<Variant, string> = {
   brass: "btn-brass",
   ghost: "btn-ghost",
   emerald:
-    "inline-flex items-center justify-center gap-2 rounded-[2px] px-8 py-3.5 font-semibold text-cream bg-indigo hover:bg-indigo-deep transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.985] shadow-[0_6px_20px_rgba(43,58,103,0.22)]",
+    "inline-flex items-center justify-center gap-2 rounded-[2px] px-8 py-3.5 font-semibold text-cream bg-indigo hover:bg-indigo-deep transition duration-200 hover:-translate-y-0.5 active:scale-[0.985] shadow-[0_6px_20px_rgba(36,64,142,0.22)]",
 };
 
 interface Props {

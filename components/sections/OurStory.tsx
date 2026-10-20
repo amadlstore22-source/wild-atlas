@@ -66,10 +66,10 @@ export default function OurStory({ dict, lang = "en" }: Props) {
 
             <Link
               href={`/${lang}/about`}
-              className="inline-flex items-center gap-2 text-indigo font-bold text-sm hover:gap-4 transition-all duration-300 group border-b-2 border-indigo/20 hover:border-indigo pb-0.5"
+              className="inline-flex items-center gap-2 text-indigo font-bold text-sm transition-colors duration-300 group border-b-2 border-indigo/20 hover:border-indigo pb-0.5"
             >
               {dict.ourStory.meetTeam}
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" weight="bold" />
+              <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
             </Link>
           </m.div>
         </div>

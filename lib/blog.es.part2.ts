@@ -5639,7 +5639,7 @@ Comparemos la misma ruta de tres días a Merzouga en ambos formatos:
 
 En esta ruta el compartido sigue siendo más barato con cualquier grupo — pero fíjate en qué compra la diferencia. Siendo seis pagas unos 660 € más por vuestro propio 4x4 y conductor-guía, la libertad de parar donde queráis y ningún horario impuesto. Dividido entre seis son 110 € cada uno por un viaje fundamentalmente distinto.
 
-En las excursiones de un día la cuenta cambia antes. Un [día privado en Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) sale a 22 € por persona siendo seis frente a 40 € compartido — el privado es sencillamente más barato *y* mejor. La [guía por tamaño de grupo](/es/blog/morocco-tour-price-group-size) tiene la tabla completa.
+En las excursiones de un día la cuenta cambia antes. Un [día privado en Ouzoud](/es/tours/ouzoud-waterfalls-day-trip) sale a 35 € por persona siendo seis frente a 40 € compartido — el privado es sencillamente más barato *y* mejor. La [guía por tamaño de grupo](/es/blog/morocco-tour-price-group-size) tiene la tabla completa.
 
 **La regla corta:** solo o en pareja, reserva compartido. Cuatro o más en una excursión de un día, pide precio del privado — suele ganar. Cuatro o más en varios días, decide si la flexibilidad vale unos 100 € por cabeza.
 
@@ -8435,25 +8435,25 @@ bueno, a [un tercio del precio](/es/tours/desierto-zagora-2-dias-compartido), pe
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "¿Cuánto cuesta una excursión a las cascadas de Ouzoud?",
     excerpt:
-      "Una excursión compartida a Ouzoud desde Marrakech cuesta 40 € por persona; en privado, 38 € cada uno para dos. Este es el coste completo, incluido lo que cuestan de verdad la barca y la comida.",
+      "Una excursión compartida a Ouzoud desde Marrakech cuesta 40 € por persona; en privado, 62 € cada uno para dos. Este es el coste completo, incluido lo que cuestan de verdad la barca y la comida.",
     heroImage: "/gallery/berber-guide-waterfall-portrait.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 6,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-10-03",
+    updatedAt: "2026-10-20",
     tags: ["precio Ouzoud", "precio cascadas de Ouzoud", "precio excursión Marrakech", "excursión Ouzoud", "cascadas Marruecos"],
     seoTitle: "Excursión a Ouzoud: precio 2026",
     seoDescription:
-      "Lo que cuesta una excursión a las cascadas de Ouzoud: 40 € por persona compartida desde Marrakech, 38 € cada uno en privado para dos. Entrada, barca y comida.",
+      "Lo que cuesta una excursión a las cascadas de Ouzoud: 40 € por persona compartida desde Marrakech, 62 € cada uno en privado para dos. Entrada, barca y comida.",
     relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
     faq: [
-      { q: "¿Cuánto cuesta una excursión a Ouzoud?", a: "Nuestra excursión compartida desde Marrakech cuesta 40 € por persona en una salida fija. La versión privada cuesta 38 € por persona para dos, 27 € para cuatro y 22 € para seis, así que a partir de dos personas la excursión privada cuesta lo mismo o menos que la plaza compartida, porque el coste del vehículo se reparte entre tu grupo." },
+      { q: "¿Cuánto cuesta una excursión a Ouzoud?", a: "Nuestra excursión compartida desde Marrakech cuesta 40 € por persona en una salida fija. La versión privada cuesta 62 € por persona para dos, 46 € para cuatro y 35 € para seis, así que la plaza compartida sale más barata hasta cuatro personas y, a partir de cinco, la excursión privada cuesta menos por persona, porque el coste del vehículo se reparte entre tu grupo." },
       { q: "¿Hay que pagar entrada en Ouzoud?", a: "No. Las cascadas son de acceso libre y gratuito. Lo que se paga allí es la pequeña barca que te acerca a la base de la cascada, unos 20-30 MAD por persona, y el aparcamiento si vas en coche. Arriba, algunos guías se ofrecerán a acompañarte en la bajada por un precio a negociar, normalmente 100-150 MAD por grupo." },
       { q: "¿A qué distancia está Ouzoud de Marrakech?", a: "A unos 150 km, o dos horas y media en cada sentido por una carretera decente. Es un día completo: la mayoría de las excursiones salen de Marrakech hacia las 8:00 y vuelven a las 18:00 o 19:00, con unas cuatro horas en las cascadas, suficiente para bajar, subir a la barca y comer sobre la cascada." },
       { q: "¿Se puede nadar en Ouzoud?", a: "Sí, en la poza de la base de la cascada principal, y la gente lo hace. El agua está fría todo el año y la espuma hace que las rocas resbalen, así que lleva calzado con agarre. La poza es profunda en algunos puntos y no hay socorristas: es un río natural y hay que tratarlo como tal." },
       { q: "¿Veré a los monos?", a: "Normalmente sí. Los macacos de Berbería viven en el bosque junto al sendero de bajada y están acostumbrados a la gente, y precisamente por eso no hay que darles de comer: los macacos alimentados se vuelven agresivos y es un problema real en el lugar. Mantén las bolsas cerradas; son rápidos y no se cortan nada." },
-      { q: "¿Cuánto se camina en las cascadas de Ouzoud?", a: "Poco: unos veinte minutos de bajada desde arriba, pasando junto a los macacos, hasta la base de las cascadas. Nuestra [excursión](/es/tours/excursion-cascadas-ouzoud) cuesta desde 38 € por persona para dos y añade el sendero del cañón y un paseo en barca hasta la espuma, con un guía titulado." },
+      { q: "¿Cuánto se camina en las cascadas de Ouzoud?", a: "Poco: unos veinte minutos de bajada desde arriba, pasando junto a los macacos, hasta la base de las cascadas. Nuestra [excursión](/es/tours/excursion-cascadas-ouzoud) cuesta desde 62 € por persona para dos y añade el sendero del cañón y un paseo en barca hasta la espuma, con un guía titulado." },
     ],
     content: `
 ## Lo que cuesta
@@ -8461,12 +8461,13 @@ bueno, a [un tercio del precio](/es/tours/desierto-zagora-2-dias-compartido), pe
 **40 € por persona** en nuestra
 [excursión compartida a Ouzoud](/es/tours/excursion-compartida-cascadas-ouzoud) desde Marrakech.
 
-La [versión privada](/es/tours/excursion-cascadas-ouzoud) cuesta **38 € por persona para
-dos**, 27 € para cuatro y 22 € para seis.
+La [versión privada](/es/tours/excursion-cascadas-ouzoud) cuesta **62 € por persona para
+dos**, 46 € para cuatro y 35 € para seis.
 
-Léelo dos veces, porque es poco habitual: a partir de dos personas, la excursión privada
-cuesta lo mismo o menos que la plaza compartida. El tour compartido solo tiene sentido si
-viajas solo, donde son 40 € frente a 75 € por un coche privado para ti.
+Qué opción sale más barata depende del tamaño del grupo. Si viajas solo, la plaza compartida
+cuesta 40 € frente a 79 € por un coche privado para ti, y sigue siendo la más barata hasta
+cuatro personas. A partir de cinco, la excursión privada cuesta menos por persona (39 € para
+cinco, 35 € para seis), y el coche, el guía y el horario son solo vuestros.
 
 ## Los gastos allí
 

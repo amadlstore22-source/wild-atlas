@@ -129,7 +129,7 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
           checked={agreed}
           onChange={(e) => setAgreed(e.target.checked)}
           required
-          className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#2B3A67] focus:outline-none focus:ring-2 focus:ring-indigo/30"
+          className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#24408E] focus:outline-none focus:ring-2 focus:ring-indigo/30"
         />
         <span className="text-xs text-ink-soft leading-snug">
           {c.formConsentPrefix}{" "}
@@ -141,7 +141,7 @@ export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict
 
       <button
         type="submit"
-        disabled={sending || !agreed}
+        disabled={sending}
         className="w-full py-3.5 rounded-[3px] bg-indigo text-white font-bold text-base hover:bg-indigo-deep transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2"
       >
         <PaperPlaneTilt className="w-4 h-4" />

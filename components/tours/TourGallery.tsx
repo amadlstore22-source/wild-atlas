@@ -32,7 +32,7 @@ export default function TourGallery({
   return (
     <>
       <div className="grid grid-cols-3 gap-2 rounded-[4px] overflow-hidden">
-        {images.slice(0, 4).map((src, i) => (
+        {images.slice(0, 3).map((src, i) => (
           <div
             key={i}
             onClick={() => setLightbox(i)}
@@ -47,9 +47,9 @@ export default function TourGallery({
               className="object-cover"
               sizes="(max-width: 768px) 50vw, 33vw"
             />
-            {i === 3 && images.length > 4 && (
+            {i === 2 && images.length > 3 && (
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">+{images.length - 4}</span>
+                <span className="text-white font-bold text-xl">+{images.length - 3}</span>
               </div>
             )}
           </div>

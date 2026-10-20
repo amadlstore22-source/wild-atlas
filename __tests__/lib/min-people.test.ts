@@ -50,6 +50,17 @@ describe("booking minimums", () => {
     }
   });
 
+  it("a private tour with no minimum says it starts at one person", () => {
+    // Owner, 2026-10-20: "no minimum number on private tours". The cards said
+    // "2-15 people" while the price ladder sold a 1-person rate, so a solo
+    // traveller read the card as "not for me". price-locale-parity holds the
+    // translations to the same digits.
+    const bad = TOURS.filter((t) => t.tourType === "private" && (t.minPeople ?? 1) === 1)
+      .filter((t) => /^\d/.test(t.groupSize) && !/^1\D/.test(t.groupSize))
+      .map((t) => `${t.slug}: "${t.groupSize}"`);
+    expect(bad, `Private tours have no minimum; start groupSize at 1 (or set minPeople if this tour really has one):\n  ${bad.join("\n  ")}`).toEqual([]);
+  });
+
   it("keeps the stated group size consistent with the minimum", () => {
     for (const tour of withMin) {
       const first = Number(tour.groupSize.match(/^(\d+)/)?.[1]);

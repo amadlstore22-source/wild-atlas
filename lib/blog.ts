@@ -7970,7 +7970,7 @@ Compare the same three-day Merzouga route both ways:
 
 On this route shared stays cheaper at every group size \u2014 but look at what the gap buys. At six travellers you are paying roughly \u20ac660 more for your own 4x4 and driver-guide, the freedom to stop where you like, and no fixed schedule. Split six ways that is \u20ac110 each for a fundamentally different trip.
 
-On day trips the maths tips faster. A private [Ouzoud day trip](/en/tours/ouzoud-waterfalls-day-trip) is \u20ac22 per person at six against \u20ac40 shared \u2014 the private tour is simply cheaper *and* better. The [group size guide](/en/blog/morocco-tour-price-group-size) has the full table, and [private vs shared](/en/blog/private-vs-shared-desert-tour-morocco) works through the desert comparison in detail.
+On day trips the maths tips faster. A private [Ouzoud day trip](/en/tours/ouzoud-waterfalls-day-trip) is \u20ac35 per person at six against \u20ac40 shared \u2014 the private tour is simply cheaper *and* better. The [group size guide](/en/blog/morocco-tour-price-group-size) has the full table, and [private vs shared](/en/blog/private-vs-shared-desert-tour-morocco) works through the desert comparison in detail.
 
 **The short rule:** travelling alone or as a couple, book shared. Four or more on a day trip, price the private version \u2014 it often wins outright. Four or more on a multi-day trip, decide whether the flexibility is worth roughly \u20ac100 each.
 
@@ -9212,25 +9212,25 @@ this one.
     author: MET_TEAM,
     title: "How Much Does an Ouzoud Waterfalls Day Trip Cost?",
     excerpt:
-      "A shared Ouzoud day trip from Marrakech is €40 per person; private is €38 each for two. Here is the full cost, including what the boat and lunch really run to.",
+      "A shared Ouzoud day trip from Marrakech is €40 per person; private is €62 each for two. Here is the full cost, including what the boat and lunch really run to.",
     heroImage: "/gallery/berber-guide-waterfall-portrait.jpg",
     category: "tips",
     region: "atlas-mountains",
     readTime: 6,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-10-01",
+    updatedAt: "2026-10-20",
     tags: ["Ouzoud cost", "Ouzoud waterfalls price", "Marrakech day trip cost", "Ouzoud day trip", "Morocco waterfalls"],
     seoTitle: "Ouzoud Waterfalls Day Trip Cost 2026",
     seoDescription:
-      "What an Ouzoud waterfalls day trip costs: €40 per person shared from Marrakech, €38 each private for two. Entry, boat and lunch costs explained.",
+      "What an Ouzoud waterfalls day trip costs: €40 per person shared from Marrakech, €62 each private for two. Entry, boat and lunch costs explained.",
     relatedTours: ["shared-ouzoud-waterfalls-day-trip", "ouzoud-waterfalls-day-trip", "ourika-valley-day-hike"],
     faq: [
-      { q: "How much does an Ouzoud day trip cost?", a: "Our shared day trip from Marrakech is €40 per person on a fixed departure. The private version is €38 per person for two, €27 at four and €22 at six - so for two people or more the private trip actually costs the same or less than the shared seat, because the vehicle cost splits across your group." },
+      { q: "How much does an Ouzoud day trip cost?", a: "Our shared day trip from Marrakech is €40 per person on a fixed departure. The private version is €62 per person for two, €46 at four and €35 at six - so the shared seat is the cheaper choice for up to four people, and from five the private trip costs less per person, because the vehicle cost splits across your group." },
       { q: "Is there an entry fee at Ouzoud?", a: "No. The falls are open and free to walk to. What costs money on site is the small boat that takes you close to the base of the cascade, at roughly 20-30 MAD per person, and parking if you drive yourself. Guides at the top will offer to walk you down for a negotiated fee, typically 100-150 MAD for a group." },
       { q: "How far is Ouzoud from Marrakech?", a: "About 150 km, or two and a half hours each way on decent road. That makes it a full day out - most trips leave Marrakech around 8am and are back by 6 or 7pm, with roughly four hours at the falls, which is enough to walk down, take the boat and have lunch above the cascade." },
       { q: "Can you swim at Ouzoud?", a: "Yes, in the pool at the base of the main fall, and people do. The water is cold year round and the spray keeps the rocks slick, so wear something you can grip in. The pool is deep in places and there are no lifeguards - it is a natural river, treated as such." },
       { q: "Will I see the monkeys?", a: "Usually. Barbary macaques live in the woods along the descent path and are used to people, which is exactly why you should not feed them - fed macaques get aggressive and it is a real problem at the site. Keep bags closed; they are quick and entirely willing." },
-      { q: "How long is the walk at the Ouzoud waterfalls?", a: "Short: about twenty minutes down from the top, past the macaques, to the base of the falls. Our [day trip](/en/tours/ouzoud-waterfalls-day-trip) is from €38 per person for two and adds the gorge trail and a boat ride to the spray, with a certified guide." },
+      { q: "How long is the walk at the Ouzoud waterfalls?", a: "Short: about twenty minutes down from the top, past the macaques, to the base of the falls. Our [day trip](/en/tours/ouzoud-waterfalls-day-trip) is from €62 per person for two and adds the gorge trail and a boat ride to the spray, with a certified guide." },
     ],
     content: `
 ## What it costs
@@ -9238,12 +9238,13 @@ this one.
 **€40 per person** on our
 [shared Ouzoud day trip](/en/tours/shared-ouzoud-waterfalls-day-trip) from Marrakech.
 
-The [private version](/en/tours/ouzoud-waterfalls-day-trip) is **€38 per person for
-two**, €27 at four and €22 at six.
+The [private version](/en/tours/ouzoud-waterfalls-day-trip) is **€62 per person for
+two**, €46 at four and €35 at six.
 
-Read that twice, because it is unusual: for two or more people the private trip is the
-same price or cheaper than the shared seat. The shared tour only makes sense if you are
-travelling alone, where it is €40 against €75 for a private car to yourself.
+Which one is cheaper depends on how many of you there are. Alone, the shared seat is €40
+against €79 for a private car to yourself, and it stays the cheaper choice up to four
+people. From five, the private trip costs less per person (€39 at five, €35 at six), and
+the car, the guide and the timing are yours alone.
 
 ## The costs on the ground
 

@@ -15,7 +15,7 @@
 
 @theme {
   /* ---- Surface — tadelakt lime plaster (never pure #FFF) ---- */
-  --color-surface: #F2EDE4;         /* base ground */
+  --color-surface: #F6F2EA;         /* base ground */
   --color-surface-raised: #FBF8F3;  /* cards */
   --color-surface-sunk: #E6DFD2;    /* wells, input fills */
 
@@ -26,7 +26,9 @@
   --color-ink-faint: #9A9088;       /* hairline labels only, non-essential */
 
   /* ---- Accent 1 — Fes / Majorelle indigo (PRIMARY) ---- */
-  --color-indigo: #2B3A67;
+  --color-indigo: #24408E;
+  --color-logo-indigo: #2B3A67;   /* MET mark + favicon. Brand colour, do not retune */
+  --color-saffron-vivid: #D2781A; /* rating stars: saffron's contrast, more colour */
   --color-indigo-deep: #1B2645;     /* darker — dark bands / footer */
   --color-indigo-wash: #E8EBF2;     /* faint tint fills */
 
@@ -47,11 +49,11 @@
      so any stray old class reads indigo/saffron, not the retired
      emerald/brass warmth.
      ============================================================ */
-  --color-emerald: #2B3A67;         /* → indigo */
+  --color-emerald: #24408E;         /* → indigo */
   --color-emerald-deep: #1B2645;    /* → indigo-deep */
-  --color-emerald-soft: #35477D;    /* → indigo, lighter (hover) */
-  --color-zellij: #2B3A67;          /* → indigo */
-  --color-zellij-soft: #35477D;
+  --color-emerald-soft: #2F4FA3;    /* → indigo, lighter (hover) */
+  --color-zellij: #24408E;          /* → indigo */
+  --color-zellij-soft: #2F4FA3;
   --color-brass: #C97B2B;           /* → saffron */
   --color-brass-deep: #8A5116;      /* → saffron-deep TEXT on light (AA) */
   --color-brass-hover: #B06A24;     /* → saffron hover */
@@ -59,13 +61,13 @@
   --color-terracotta-soft: #C86A50;
   --color-olive: #6B7A45;           /* rare success cue only */
 
-  --color-forest: #2B3A67;          /* → indigo (primary CTA) */
+  --color-forest: #24408E;          /* → indigo (primary CTA) */
   --color-moss: #1B2645;            /* → indigo-deep */
-  --color-sky: #2B3A67;             /* → indigo */
+  --color-sky: #24408E;             /* → indigo */
   --color-sunset: #B4472C;          /* → terracotta (state) */
   --color-atlas-clay: #B4472C;      /* → terracotta */
   --color-saffron-alias: #C97B2B;
-  --color-mint-tea: #35477D;
+  --color-mint-tea: #2F4FA3;
   --color-ink-alias: #1F1A16;
   --color-charcoal: #1F1A16;        /* → ink */
   --color-sand-dark: #C9BDA9;       /* → rule */
@@ -74,7 +76,7 @@
   --color-offwhite: #FBF8F3;        /* → surface-raised */
   --color-cream: #FBF8F3;           /* → surface-raised */
   --color-sand: #E6DFD2;            /* → surface-sunk */
-  --color-plaster: #F2EDE4;         /* → surface */
+  --color-plaster: #F6F2EA;         /* → surface */
 
   /* ---- Typography ---- */
   --font-display: var(--font-display);  /* Cormorant Garamond */
@@ -95,13 +97,13 @@
   --animate-fade-in: fade-in 0.5s ease both;
 
   /* ---- shadcn semantic tokens → cold palette ---- */
-  --color-background: #F2EDE4;
+  --color-background: #F6F2EA;
   --color-foreground: #1F1A16;
   --color-card: #FBF8F3;
   --color-card-foreground: #1F1A16;
   --color-popover: #FBF8F3;
   --color-popover-foreground: #1F1A16;
-  --color-primary: #2B3A67;
+  --color-primary: #24408E;
   --color-primary-foreground: #FBF8F3;
   --color-secondary: #E6DFD2;
   --color-secondary-foreground: #1F1A16;
@@ -113,11 +115,11 @@
   --color-destructive-foreground: #FBF8F3;
   --color-border: #C9BDA9;
   --color-input: #C9BDA9;
-  --color-ring: #2B3A67;
+  --color-ring: #24408E;
 }
 
 :root {
-  --background: #F2EDE4;
+  --background: #F6F2EA;
   --foreground: #1F1A16;
   --radius: 2px;
 
@@ -125,7 +127,7 @@
   --shadow-riad-sm: 0 1px 2px rgba(31,26,22,0.05), 0 2px 8px rgba(31,26,22,0.05);
   --shadow-riad: 0 4px 12px rgba(31,26,22,0.06), 0 12px 32px rgba(31,26,22,0.08);
   --shadow-riad-lg: 0 8px 24px rgba(31,26,22,0.08), 0 24px 64px rgba(31,26,22,0.12);
-  --shadow-brass: 0 6px 20px rgba(43,58,103,0.18);
+  --shadow-brass: 0 6px 20px rgba(36,64,142,0.18);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -186,6 +188,9 @@ h1, h2, h3 {
   }
 }
 h1 { font-size: var(--text-hero); line-height: 1.04; }
+/* 31 headings ended on a lone word or a sliver of a line (critique 2026-10-20). */
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
 h2 { font-size: var(--text-h2); }
 h3 { font-size: var(--text-h3); }
 
@@ -214,17 +219,42 @@ h3 { font-size: var(--text-h3); }
 /* Structural section rhythm — generous, riad-courtyard breathing room.
    Components may override per-instance, but this is the calm default. */
 section { padding-block: clamp(4rem, 9vw, 8rem); }
+/* A live region is not a layout section. Sonner's toaster renders an empty
+   <section aria-live> after the footer, and the rule above gave it 128px of
+   padding top and bottom: a blank 256px band under the footer on every page
+   (critique 2026-10-20). */
+section[aria-live] { padding-block: 0; }
 
 /* Utility: an eyebrow label in Inter — deep saffron (AA on light), tracked. On
-   dark grounds pass an explicit lighter class (e.g. text-brass-glow). */
-.eyebrow {
-  font-family: var(--font-body), system-ui, sans-serif;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--color-saffron-deep);
+   dark grounds pass an explicit lighter class (e.g. text-brass-glow).
+   In the components layer for the same reason as the heading default above:
+   unlayered, it beat every text-* utility, so "eyebrow text-brass-glow" on the
+   navy Why Us band and "eyebrow text-cream/60" on the hero photo both rendered
+   deep saffron (2.3:1 on navy). Layered, the utility wins as written. */
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body), system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--color-saffron-deep);
+  }
 }
+
+/* The smallest text the site uses: 11px. Below that, labels were set at
+   9.3-9.9px (card category, badges, "Sister brand"). */
+@utility micro-text {
+  font-size: 0.6875rem;
+  line-height: 1.35;
+}
+
+/* Arabic. Letter-spacing pulls joined Arabic letters apart, so every tracked
+   label broke its words into separate glyphs on /ar; and Arabic at 10-11px is
+   far harder to read than Latin at the same size. Unlayered on purpose so it
+   wins over the tracking-* and size utilities on the same element. */
+[dir="rtl"] :is(.eyebrow, [class*="tracking-"]) { letter-spacing: 0 !important; }
+[dir="rtl"] :is(.eyebrow, .micro-text) { font-size: 0.8125rem; }
 
 /* Custom scrollbar — indigo on plaster */
 ::-webkit-scrollbar { width: 6px; }
@@ -241,7 +271,7 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
 .tex-plaster {
   background-color: var(--color-surface);
   background-image:
-    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(43,58,103,0.04), transparent 60%),
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(36,64,142,0.04), transparent 60%),
     radial-gradient(ellipse 70% 50% at 85% 90%, rgba(201,123,43,0.03), transparent 60%);
 }
 
@@ -249,7 +279,7 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
 .tex-sand {
   background-color: var(--color-surface-sunk);
   background-image:
-    radial-gradient(ellipse 75% 55% at 80% 10%, rgba(43,58,103,0.04), transparent 60%),
+    radial-gradient(ellipse 75% 55% at 80% 10%, rgba(36,64,142,0.04), transparent 60%),
     radial-gradient(ellipse 65% 45% at 10% 90%, rgba(201,123,43,0.03), transparent 60%);
 }
 
@@ -258,14 +288,14 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
   background-color: var(--color-indigo-deep);
   background-image:
     radial-gradient(ellipse 80% 60% at 20% 0%, rgba(201,123,43,0.08), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(43,58,103,0.55), transparent 60%);
+    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(36,64,142,0.55), transparent 60%);
 }
 /* Semantic alias for the indigo dark band (preferred name going forward). */
 .tex-indigo {
   background-color: var(--color-indigo-deep);
   background-image:
     radial-gradient(ellipse 80% 60% at 20% 0%, rgba(201,123,43,0.08), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(43,58,103,0.55), transparent 60%);
+    radial-gradient(ellipse 70% 50% at 90% 100%, rgba(36,64,142,0.55), transparent 60%);
 }
 
 /* Tadelakt grain overlay — hand-polished plaster tooth. Apply to solid-fill
@@ -307,12 +337,17 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
   transition: transform 0.2s cubic-bezier(0.16,1,0.3,1), background 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
-.btn-brass:hover {
-  transform: translateY(-1px);
-  background: var(--color-indigo-deep);
-  box-shadow: 0 10px 28px rgba(43,58,103,0.28);
+/* Hover only where a pointer can hover. On a phone :hover sticks after the tap,
+   so the button stayed lifted and dark until the next tap somewhere else.
+   Tailwind v4's hover: utilities already do this; hand-written CSS must too. */
+@media (hover: hover) and (pointer: fine) {
+  .btn-brass:hover {
+    transform: translateY(-1px);
+    background: var(--color-indigo-deep);
+    box-shadow: 0 10px 28px rgba(36,64,142,0.28);
+  }
 }
-.btn-brass:active { transform: translateY(0) scale(0.985); }
+.btn-brass:active { transform: translateY(0) scale(0.97); }
 
 /* Ghost / outline button — indigo hairline on plaster. */
 .btn-ghost {
@@ -330,8 +365,28 @@ section { padding-block: clamp(4rem, 9vw, 8rem); }
   border: 1px solid var(--color-indigo);
   transition: transform 0.2s cubic-bezier(0.16,1,0.3,1), background 0.2s ease, color 0.2s ease;
 }
-.btn-ghost:hover { transform: translateY(-1px); background: var(--color-indigo); color: #FBF8F3; }
-.btn-ghost:active { transform: translateY(0) scale(0.985); }
+@media (hover: hover) and (pointer: fine) {
+  .btn-ghost:hover { transform: translateY(-1px); background: var(--color-indigo); color: #FBF8F3; }
+}
+.btn-ghost:active { transform: translateY(0) scale(0.97); }
+
+/* Link arrows. Hover nudges the arrow with `translate` (no layout work; the
+   links used to animate `gap`, which re-flows the line every frame), and on
+   dir="rtl" pages the arrow points the way Arabic reads instead of back into
+   the text. Individual `translate` and `scale` compose, so the flip and the
+   nudge never overwrite each other. arrow-back is the same for "← back" links;
+   dir-flip only mirrors (breadcrumb chevrons). */
+.arrow-go, .arrow-back { transition: translate 200ms cubic-bezier(0.16,1,0.3,1); }
+[dir="rtl"] :is(.arrow-go, .arrow-back, .dir-flip) { scale: -1 1; }
+@media (hover: hover) and (pointer: fine) {
+  :is(a, button, .group):hover .arrow-go { translate: 3px 0; }
+  [dir="rtl"] :is(a, button, .group):hover .arrow-go { translate: -3px 0; }
+  :is(a, button, .group):hover .arrow-back { translate: -3px 0; }
+  [dir="rtl"] :is(a, button, .group):hover .arrow-back { translate: 3px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arrow-go, .arrow-back { transition: none; }
+}
 
 /* Glass panel — floating nav / cards over imagery. */
 .glass {

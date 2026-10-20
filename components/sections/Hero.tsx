@@ -102,11 +102,11 @@ export default function Hero({ lang, dict, picks = [] }: Props) {
             <div className="flex flex-wrap gap-3.5 items-center hero-rise hero-rise-cta">
               <BrassButton href={`/${lang}/tours`} variant="brass">
                 {dict.hero.browseAll}
-                <ArrowRight className="w-4 h-4" weight="bold" />
+                <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
               </BrassButton>
               <a
                 href={`/${lang}/contact`}
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-[2px] border border-cream/40 text-cream font-semibold hover:bg-cream/10 hover:border-cream/70 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-[2px] border border-cream/40 text-cream font-semibold hover:bg-cream/10 hover:border-cream/70 active:scale-[0.97] transition duration-200"
               >
                 {dict.hero.planCustom}
               </a>

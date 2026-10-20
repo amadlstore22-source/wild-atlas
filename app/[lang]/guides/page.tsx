@@ -116,14 +116,14 @@ export default async function GuidesPage({ params }: LangParams) {
             <Link
               key={guide.id}
               href={`/${lang}/guides/${guide.id}`}
-              className="group bg-card rounded-[4px] border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group bg-card rounded-[4px] border border-sand-dark overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300"
             >
               {/* Avatar area */}
               <div className="relative h-64 bg-gradient-to-br from-indigo/10 to-forest/20 flex items-center justify-center">
                 {/* TODO: replace with <Image> once real photo is at /public/images/guides/{guide.id}.jpg */}
                 <div
                   className="w-36 h-36 rounded-full flex items-center justify-center text-white font-bold text-5xl shadow-2xl"
-                  style={{ background: "linear-gradient(135deg, #2B3A67 0%, #1B2645 100%)" }}
+                  style={{ background: "linear-gradient(135deg, #24408E 0%, #1B2645 100%)" }}
                 >
                   {guide.name
                     .split(" ")
@@ -156,7 +156,7 @@ export default async function GuidesPage({ params }: LangParams) {
                   </div>
                 </div>
 
-                <div className="mt-6 inline-flex items-center gap-1.5 text-forest font-bold text-xs group-hover:gap-3 transition-all">
+                <div className="mt-6 inline-flex items-center gap-1.5 text-forest font-bold text-xs">
                   {g.viewFullProfile}
                 </div>
               </div>

@@ -37,7 +37,6 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
   return (
     <Section tone="plaster" motif>
       <SectionHeader
-        eyebrow={dict.featuredTours.eyebrow}
         title={dict.featuredTours.title}
         subtitle={dict.featuredTours.subtitle}
         align="left"
@@ -45,10 +44,10 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
         action={
           <Link
             href={`/${lang}/tours`}
-            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold group shrink-0"
           >
             {dict.featuredTours.viewAll}
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
+            <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
           </Link>
         }
       />

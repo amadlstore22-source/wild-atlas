@@ -14,17 +14,23 @@ import type { GalleryPhotoData } from "./gallery-photos";
  * desert, coast, cities) rather than the first dozen Atlas shots, which is
  * what a plain slice of the canonical order would give.
  *
+ * Photos marked homePreview: false are skipped. The Merzouga night sky is a
+ * fine full-size image, but as a small tile it is nearly black (mean
+ * brightness 15/255) and read as a broken image in the grid (critique
+ * 2026-10-20). It stays in /gallery and on its tour.
+ *
  * Spans are dropped: row-span-2 tiles in a short grid leave holes, and 12
  * uniform tiles fill 2 columns (mobile) and 3 columns (desktop) exactly.
  */
 export const HOME_GALLERY_TILES = 12;
 
-export function galleryPreview<T extends Pick<GalleryPhotoData, "group" | "span">>(
+export function galleryPreview<T extends Pick<GalleryPhotoData, "group" | "span" | "homePreview">>(
   photos: T[],
   count = HOME_GALLERY_TILES,
 ): T[] {
   const byGroup = new Map<string, T[]>();
   for (const p of photos) {
+    if (p.homePreview === false) continue;
     const list = byGroup.get(p.group) ?? [];
     list.push(p);
     byGroup.set(p.group, list);

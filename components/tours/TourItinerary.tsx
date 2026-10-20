@@ -39,7 +39,7 @@ export default function TourItinerary({ itinerary, dict }: { itinerary: Itinerar
           return (
             <div
               key={day.day}
-              className={`rounded-[4px] border transition-all duration-200 overflow-hidden reveal-up stagger-child ${
+              className={`rounded-[4px] border transition-[border-color,box-shadow] duration-200 overflow-hidden reveal-up stagger-child ${
                 isOpen ? "border-indigo/30 shadow-sm" : "border-rule"
               }`}
               style={{ animationDelay: `${(day.day - 1) * 70}ms` }}
@@ -48,7 +48,7 @@ export default function TourItinerary({ itinerary, dict }: { itinerary: Itinerar
                 onClick={() => setOpenDay(isOpen ? -1 : day.day)}
                 className="w-full flex items-center gap-4 p-5 text-left hover:bg-surface-sunk/30 transition-colors"
               >
-                <span className={`w-10 h-10 rounded-[3px] flex items-center justify-center font-bold text-sm shrink-0 transition-all duration-300 ${
+                <span className={`w-10 h-10 rounded-[3px] flex items-center justify-center font-bold text-sm shrink-0 transition-colors duration-200 ${
                   isOpen ? "bg-indigo text-white shadow-sm" : "bg-surface-sunk text-ink-soft"
                 }`}>
                   {day.day}

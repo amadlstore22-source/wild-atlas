@@ -266,7 +266,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
 
               <label className="flex cursor-pointer select-none items-start gap-2.5">
                 <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} required
-                  className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#2B3A67]" />
+                  className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#24408E]" />
                 <span className="text-xs leading-snug text-ink-soft">
                   {l.formConsentPrefix}{" "}
                   <Link href={`/${lang}/privacy`} target="_blank" className="text-indigo underline underline-offset-2">
@@ -277,7 +277,7 @@ export default function EventPlanner({ lang, eventSlug, eventName, dates, trips,
 
               {error && <p className="text-sm text-terracotta">{error}</p>}
 
-              <button type="submit" disabled={sending || !agreed}
+              <button type="submit" disabled={sending}
                 className="flex w-full items-center justify-center gap-2 rounded-[3px] bg-indigo py-3.5 text-base font-bold text-white transition-colors hover:bg-indigo-deep disabled:cursor-not-allowed disabled:opacity-60">
                 <PaperPlaneTilt className="h-4 w-4" />
                 {sending ? l.formSending : l.formSubmit}

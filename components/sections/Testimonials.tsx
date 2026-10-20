@@ -54,7 +54,7 @@ export default function Testimonials({ dict }: Props) {
                 {/* role="img": aria-label is prohibited on a bare <div>. */}
                 <div className="flex" role="img" aria-label={`${r.rating} out of 5 stars`}>
                   {Array.from({ length: r.rating }).map((_, s) => (
-                    <Star key={s} aria-hidden="true" className="w-4 h-4 text-saffron" weight="fill" />
+                    <Star key={s} aria-hidden="true" className="w-4 h-4 text-saffron-vivid" weight="fill" />
                   ))}
                 </div>
                 <span className="text-ink-muted text-xs">{r.date}</span>

@@ -229,7 +229,7 @@ function Lightbox({ photos, initialIndex, onClose, autoPlay = false, labels }: L
                     .replace("{n}", String(i + 1))
                     .replace("{total}", String(photos.length))
                 }
-                className="transition-all duration-300"
+                className="transition-[width,background-color] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
                 style={{
                   width: i === idx ? 20 : 6,
                   height: 6,
@@ -275,7 +275,7 @@ export default function GalleryLightbox({
           </span>
           <span className="block absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
           <span className="block absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
-          <span className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm opacity-0 scale-75 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100">
+          <span className="absolute top-3 right-3 w-7 h-7 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm opacity-0 scale-90 transition-[opacity,scale] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-100 group-hover:scale-100">
             <Camera className="w-3.5 h-3.5 text-white" />
           </span>
           <span className="block absolute bottom-0 left-0 right-0 p-4 translate-y-full transition-transform duration-[350ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-y-0">

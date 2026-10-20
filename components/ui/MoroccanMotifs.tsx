@@ -110,7 +110,7 @@ export function ZelligeBand({
 }) {
   const strokes: Record<string, [string, number]> = {
     clay: ["#B4472C", 0.55],
-    forest: ["#2B3A67", 0.5],
+    forest: ["#24408E", 0.5],
     sand: ["#9A9088", 0.55],
     brass: ["#C97B2B", 0.7],
     light: ["#FBF8F3", 0.7],
@@ -159,7 +159,7 @@ export function ZelligeField({
 }) {
   const colors: Record<string, string> = {
     clay: "#B4472C",
-    forest: "#2B3A67",
+    forest: "#24408E",
     sand: "#9A9088",
     brass: "#C97B2B",
     light: "#FBF8F3", // for use on dark grounds

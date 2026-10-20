@@ -415,7 +415,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
           <div className="absolute inset-0 flex flex-col justify-end max-w-4xl mx-auto px-4 sm:px-6 pb-12 w-full left-0 right-0">
             <nav className="flex items-center gap-2 text-white/60 text-sm mb-5 flex-wrap">
               <Link href={`/${lang}/blog`} className="hover:text-white transition-colors flex items-center gap-1">
-                <ArrowLeft className="w-3.5 h-3.5" /> {dict.blog.pageTitle}
+                <ArrowLeft className="w-3.5 h-3.5 arrow-back" /> {dict.blog.pageTitle}
               </Link>
               {post.region && post.region !== "root" && (() => {
                 const region = regions.find((r) => r.id === post.region);
@@ -449,7 +449,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
             <article className="bg-card rounded-[4px] p-8 sm:p-12 shadow-sm">
-              <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-l-4 border-sunset pl-5">{post.excerpt}</p>
+              <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-s-2 border-sunset ps-5">{post.excerpt}</p>
               {blocks.map((segment, i) => (
                 <div key={i}>
                   {segment.map((block, j) =>

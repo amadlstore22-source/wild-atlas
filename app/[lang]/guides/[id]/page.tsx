@@ -91,7 +91,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
           href={`/${lang}/guides`}
           className="inline-flex items-center gap-2 text-ink-soft hover:text-forest text-sm font-medium transition-colors"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-4 h-4 arrow-back" />
           {g.allGuides}
         </Link>
       </div>
@@ -108,7 +108,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 {/* TODO: replace with <Image src={`/images/guides/${guide.id}.jpg`} ...> once real photo is available */}
                 <div
                   className="w-40 h-40 rounded-full flex items-center justify-center text-white font-bold text-6xl shadow-2xl"
-                  style={{ background: "linear-gradient(135deg, #2B3A67 0%, #1B2645 100%)" }}
+                  style={{ background: "linear-gradient(135deg, #24408E 0%, #1B2645 100%)" }}
                 >
                   {guide.name
                     .split(" ")
@@ -151,7 +151,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 {!guide.isLegacy && (
                   <WhatsAppLink
                     href={whatsappUrl(`Hello! I'd like to request ${guide.name} as my guide. Could you let me know their availability?`)}
-                    className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] text-white font-semibold text-sm hover:bg-green-500 transition-colors"
+                    className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#15803D] text-white font-semibold text-sm hover:bg-[#166534] transition-colors"
                   >
                     <WhatsappLogo className="w-4 h-4" weight="fill" />
                     {g.requestThisGuide}
@@ -213,7 +213,7 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 </p>
                 <Link
                   href={`/${lang}/about`}
-                  className="inline-flex items-center gap-2 text-brass-glow font-semibold text-sm hover:gap-3 transition-all"
+                  className="inline-flex items-center gap-2 text-brass-glow font-semibold text-sm transition-colors"
                 >
                   {g.readOurStory}
                 </Link>

@@ -100,7 +100,7 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
             <span className="font-semibold text-white/70 group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
           </div>
           {showListingName ? (
-            <div className="mt-0.5 text-[10px] text-white/30">as {TRIPADVISOR.listingName}</div>
+            <div className="mt-0.5 micro-text text-white/60">as {TRIPADVISOR.listingName}</div>
           ) : null}
         </div>
       </a>
@@ -126,7 +126,7 @@ export default function TripAdvisorBadge({ variant = "full", className = "" }: P
           <span className="font-semibold text-ink-soft group-hover:text-[#00aa6c] transition-colors">TripAdvisor</span>
         </div>
         {showListingName ? (
-            <div className="mt-0.5 text-[10px] text-ink-muted">as {TRIPADVISOR.listingName}</div>
+            <div className="mt-0.5 micro-text text-ink-muted">as {TRIPADVISOR.listingName}</div>
           ) : null}
       </div>
     </a>

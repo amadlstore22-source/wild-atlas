@@ -31,7 +31,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
       <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-14">
           <div>
-            <p className="eyebrow mb-4">{dict.news.eyebrow}</p>
             <h2 className="font-display font-semibold text-charcoal leading-[1.05]" style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}>
               {dict.news.title}
             </h2>
@@ -97,7 +96,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                   <h3 className="font-display text-white font-bold text-xl sm:text-2xl leading-snug mb-2 line-clamp-2">
                     {fallbackPost.title}
                   </h3>
-                  <p className="text-white/60 text-xs">{formatDate(fallbackPost.publishedAt, lang, "short")}</p>
                 </div>
               </Link>
             ) : null}
@@ -118,7 +116,6 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                       <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2 group-hover:text-emerald transition-colors">
                         {post.title}
                       </h4>
-                      <p className="text-ink-muted text-xs mt-1">{formatDate(post.publishedAt, lang, "short")}</p>
                     </div>
                   </Link>
                 ))
@@ -134,7 +131,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
                       <Image src={articleImage(article)} alt={article.title} fill className="object-cover" sizes="80px" />
                     </div>
                     <div className="min-w-0">
-                      <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-1 ${article.category === "morocco" ? "text-emerald" : "text-brass-deep"}`}>
+                      <span className={`inline-block micro-text font-bold uppercase tracking-wider mb-1 ${article.category === "morocco" ? "text-emerald" : "text-brass-deep"}`}>
                         {article.category === "morocco" ? dict.news.morocco : dict.news.travel}
                       </span>
                       <h4 className="font-display text-charcoal text-base font-semibold leading-snug line-clamp-2">
@@ -148,7 +145,7 @@ export default async function NewsTeaserSection({ lang, dict }: Props) {
 
             <Link
               href={`/${lang}/news`}
-              className="mt-auto text-center py-3 rounded-xl border border-emerald/25 text-emerald text-sm font-semibold hover:bg-emerald hover:text-cream transition-all"
+              className="mt-auto text-center py-3 rounded-xl border border-emerald/25 text-emerald text-sm font-semibold hover:bg-emerald hover:text-cream transition"
             >
               {dict.news.viewAll} →
             </Link>

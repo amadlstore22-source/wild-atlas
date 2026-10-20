@@ -318,7 +318,7 @@ export default function BookingSidebar({
                 return (
                   <li key={tier.minPeople} className={best ? "relative pt-2" : "relative"}>
                     {best && (
-                      <span className="absolute top-0 left-1/2 -translate-x-1/2 z-10 bg-terracotta text-white text-[0.58rem] font-bold uppercase tracking-widest px-2 py-0.5 rounded-[2px] whitespace-nowrap">
+                      <span className="absolute top-0 left-1/2 -translate-x-1/2 z-10 bg-terracotta text-white micro-text font-bold uppercase tracking-widest px-2 py-0.5 rounded-[2px] whitespace-nowrap">
                         {b.groupPricingBestValue ?? "Best value"}
                       </span>
                     )}
@@ -345,7 +345,7 @@ export default function BookingSidebar({
                         >
                           {format(tier.price)}
                         </span>
-                        <span className="text-[0.58rem] uppercase tracking-wider text-ink-muted whitespace-nowrap">
+                        <span className="micro-text uppercase tracking-wider text-ink-muted whitespace-nowrap">
                           {b.groupPricingEachSuffix ?? "per person"}
                         </span>
                       </span>
@@ -468,7 +468,7 @@ export default function BookingSidebar({
                           // Back to the 2-day trek: a 2026 date is no longer bookable.
                           if (!e.target.checked && date && date < REFUGE_FIRST_OPEN_DATE) setDate("");
                         }}
-                        className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#2B3A67] focus:outline-none focus:ring-2 focus:ring-indigo/30"
+                        className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule accent-[#24408E] focus:outline-none focus:ring-2 focus:ring-indigo/30"
                       />
                       <span className="text-xs font-semibold text-ink leading-snug">{dict.tourDetail.refugeOneDayLabel}</span>
                     </label>
@@ -587,7 +587,7 @@ export default function BookingSidebar({
                   checked={agreed}
                   onChange={(e) => setAgreed(e.target.checked)}
                   required
-                  className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule text-indigo accent-[#2B3A67] focus:outline-none focus:ring-2 focus:ring-indigo/30"
+                  className="mt-0.5 h-4 w-4 shrink-0 rounded-[2px] border border-rule text-indigo accent-[#24408E] focus:outline-none focus:ring-2 focus:ring-indigo/30"
                 />
                 <span className="text-xs text-ink-soft leading-snug">
                   {b.agreeToTermsPrefix}{" "}
@@ -601,7 +601,7 @@ export default function BookingSidebar({
 
               <button
                 type="submit"
-                disabled={sending || !agreed || peopleInvalid}
+                disabled={sending || peopleInvalid}
                 className="btn-brass w-full !py-3 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 <Envelope className="w-4 h-4" />
@@ -610,13 +610,41 @@ export default function BookingSidebar({
             </form>
           )}
 
+          {/* Contact alternatives */}
+          <div className="grid grid-cols-2 gap-2">
+            <a
+              href={waUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => {
+                track("whatsapp_click", { location: "booking_sidebar", tour: tour.title });
+                trackConversion("whatsapp");
+              }}
+              className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-[#25D366]/10 text-[#075E54] font-semibold text-xs hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
+            >
+              <WhatsappLogo className="w-4 h-4" />
+              {b.whatsapp}
+            </a>
+            <a
+              href={`tel:${SITE.phoneDial}`}
+              onClick={() => {
+                track("phone_click", { location: "booking_sidebar", tour: tour.title });
+                trackConversion("phone");
+              }}
+              className="flex items-center justify-center gap-1.5 py-2.5 rounded-[3px] bg-indigo/5 text-indigo font-semibold text-xs hover:bg-indigo/10 transition-colors border border-indigo/10"
+            >
+              <Phone className="w-4 h-4" />
+              {b.callUs}
+            </a>
+          </div>
+
           {/* Social proof at the decision point. Research on travel conversion
               is consistent that third-party review evidence belongs NEXT TO the
               booking CTA, not in a distant testimonials section — and that a
               quoted sentence outperforms a bare score. Reviews are real and
               shared with the homepage block (lib/reviews.ts). */}
           <div
-            className={`rounded-[3px] border border-rule bg-surface-sunk/30 p-4${
+            className={`border-t border-rule pt-4${
               quotes.length ? " space-y-3" : ""
             }`}
           >
@@ -633,7 +661,7 @@ export default function BookingSidebar({
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-xs font-bold text-ink hover:text-indigo transition-colors"
               >
-                <Star className="w-3.5 h-3.5 text-saffron" weight="fill" aria-hidden="true" />
+                <Star className="w-3.5 h-3.5 text-saffron-vivid" weight="fill" aria-hidden="true" />
                 {TRIPADVISOR.rating.toFixed(1)}
                 <span className="font-normal text-ink-muted">
                   ({TRIPADVISOR.reviewCount}) · Tripadvisor
@@ -649,11 +677,25 @@ export default function BookingSidebar({
                 <blockquote className="text-xs text-ink-soft leading-relaxed italic">
                   “{r.short}”
                 </blockquote>
-                <figcaption className="text-[0.68rem] text-ink-muted mt-1">
+                <figcaption className="text-xs text-ink-muted mt-1">
                   {r.name} · {r.country} · {r.date}
                 </figcaption>
               </figure>
             ))}
+          </div>
+
+          {/* Why book direct. Booking platforms take 25–40% from operators;
+              competitors make this a price argument, but for a family-run
+              outfit it is really a values argument — the money reaches the
+              guides rather than a middleman. Stated plainly, no hard sell. */}
+          <div>
+            <div className="flex items-start gap-2.5">
+              <HandHeart className="w-5 h-5 text-indigo shrink-0 mt-0.5" weight="duotone" aria-hidden="true" />
+              <div>
+                <p className="text-sm font-semibold text-indigo leading-snug">{b.bookDirectTitle}</p>
+                <p className="text-xs text-ink-soft leading-relaxed mt-1">{b.bookDirectBody}</p>
+              </div>
+            </div>
           </div>
 
           <div className="relative flex items-center gap-3">
@@ -708,50 +750,8 @@ export default function BookingSidebar({
             </div>
           )}
 
-          {/* Contact alternatives */}
-          <div className="grid grid-cols-2 gap-2">
-            <a
-              href={waUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => {
-                track("whatsapp_click", { location: "booking_sidebar", tour: tour.title });
-                trackConversion("whatsapp");
-              }}
-              className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-[#25D366]/10 text-[#075E54] font-semibold text-xs hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
-            >
-              <WhatsappLogo className="w-4 h-4" />
-              {b.whatsapp}
-            </a>
-            <a
-              href={`tel:${SITE.phoneDial}`}
-              onClick={() => {
-                track("phone_click", { location: "booking_sidebar", tour: tour.title });
-                trackConversion("phone");
-              }}
-              className="flex items-center justify-center gap-1.5 py-2.5 rounded-[3px] bg-indigo/5 text-indigo font-semibold text-xs hover:bg-indigo/10 transition-colors border border-indigo/10"
-            >
-              <Phone className="w-4 h-4" />
-              {b.callUs}
-            </a>
-          </div>
-
-          {/* Why book direct. Booking platforms take 25–40% from operators;
-              competitors make this a price argument, but for a family-run
-              outfit it is really a values argument — the money reaches the
-              guides rather than a middleman. Stated plainly, no hard sell. */}
-          <div className="rounded-[3px] border border-indigo/15 bg-indigo-wash/50 p-4">
-            <div className="flex items-start gap-2.5">
-              <HandHeart className="w-5 h-5 text-indigo shrink-0 mt-0.5" weight="duotone" aria-hidden="true" />
-              <div>
-                <p className="text-sm font-semibold text-indigo leading-snug">{b.bookDirectTitle}</p>
-                <p className="text-xs text-ink-soft leading-relaxed mt-1">{b.bookDirectBody}</p>
-              </div>
-            </div>
-          </div>
-
           {/* Large group + custom plan */}
-          <div className="rounded-[3px] bg-surface-sunk/40 border border-rule p-4 space-y-2.5">
+          <div className="border-t border-rule pt-4 space-y-2.5">
             <p className="text-xs font-semibold text-ink-soft leading-snug">
               {b.largerGroupPrompt}
             </p>
@@ -827,7 +827,7 @@ export default function BookingSidebar({
               track("whatsapp_click", { location: "mobile_bar", tour: tour.title });
               trackConversion("whatsapp");
             }}
-            className={`flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[#25D366] text-white font-bold text-sm shadow-lg${
+            className={`flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[#15803D] text-white font-bold text-sm shadow-lg${
               chosen ? " flex-1" : ""
             }`}
           >

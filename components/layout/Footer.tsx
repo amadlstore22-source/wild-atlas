@@ -101,7 +101,7 @@ export default function Footer({ lang, dict }: Props) {
               <span className="hidden sm:block text-cream/25">·</span>
               <span>Certified Berber guides</span>
             </div>
-            <span className="text-cream/45 hidden md:block">{SITE.addressShort}</span>
+            <span className="text-cream/65 hidden md:block">{SITE.addressShort}</span>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ export default function Footer({ lang, dict }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-9 h-9 rounded-[3px] bg-saffron/12 flex items-center justify-center text-cream/65 hover:text-brass-glow hover:bg-saffron/20 transition-all"
+                  className="w-9 h-9 rounded-[3px] bg-saffron/12 flex items-center justify-center text-cream/65 hover:text-brass-glow hover:bg-saffron/20 transition"
                 >
                   {s.svg}
                 </a>
@@ -243,13 +243,13 @@ export default function Footer({ lang, dict }: Props) {
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-1.5">
               <span className="text-cream text-sm sm:text-base font-semibold leading-tight">{SISTER_SITE.name}</span>
-              <span className="text-cream/40 text-[0.6rem] uppercase tracking-wider border border-cream/20 rounded-[2px] px-1.5 py-0.5 hidden sm:inline">Sister brand</span>
+              <span className="text-cream/60 micro-text uppercase tracking-wider border border-cream/20 rounded-[2px] px-1.5 py-0.5 hidden sm:inline">Sister brand</span>
             </div>
             <p className="text-cream/60 text-xs sm:text-sm leading-snug mt-0.5">{SISTER_SITE.blurb}</p>
           </div>
-          <span className="flex items-center gap-1.5 text-brass-glow text-xs font-semibold shrink-0 group-hover:gap-2.5 transition-all">
+          <span className="flex items-center gap-1.5 text-brass-glow text-xs font-semibold shrink-0">
             <span className="hidden sm:inline">Visit site</span>
-            <ArrowUpRight className="w-4 h-4" weight="bold" />
+            <ArrowUpRight className="w-4 h-4 arrow-go" weight="bold" />
           </span>
         </a>
 

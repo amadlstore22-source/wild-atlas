@@ -175,10 +175,10 @@ export default async function GalleryPage({ params }: LangParams) {
           <div className="mt-16 pt-10 border-t border-sand-dark flex justify-center">
             <Link
               href={`/${lang}/tours`}
-              className="flex items-center gap-2 text-indigo font-semibold hover:gap-3 transition-all group"
+              className="flex items-center gap-2 text-indigo font-semibold group"
             >
               {dict.gallery.viewAllTours}
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 arrow-go" />
             </Link>
           </div>
         </div>

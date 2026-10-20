@@ -4,7 +4,6 @@ import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
 import * as m from "motion/react-m";
 import AnimateInView from "@/components/ui/AnimateInView";
-import CategoryAnimation from "@/components/sections/CategoryAnimation";
 import { TOUR_COUNT_BY_CATEGORY, type Category } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
@@ -37,17 +36,17 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
 
         <AnimateInView variant="fade-up" className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-14">
           <div>
-            <span className="eyebrow mb-4 block">{dict.categories.subtitle.split(" — ")[0]}</span>
             <h2 className="font-display font-bold text-ink leading-[1.05]" style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.75rem)" }}>
               {dict.categories.title}
             </h2>
+            <p className="mt-4 text-ink-soft max-w-xl">{dict.categories.subtitle.split(" — ")[0]}</p>
           </div>
           <Link
             href={`/${lang}/tours`}
-            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold hover:gap-3 transition-all group shrink-0"
+            className="inline-flex items-center gap-2 text-indigo text-sm font-semibold group shrink-0"
           >
             {dict.featuredTours.viewAll}
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" weight="bold" />
+            <ArrowRight className="w-4 h-4 arrow-go" weight="bold" />
           </Link>
         </AnimateInView>
 
@@ -75,9 +74,6 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/20 to-transparent" />
               <div className="absolute inset-0 bg-gradient-to-r from-indigo/25 to-transparent" />
-              <div className="absolute top-0 right-0 w-36 h-36 pointer-events-none opacity-80">
-                <CategoryAnimation id={hero.id} />
-              </div>
               <div className="absolute inset-0 p-7 flex flex-col justify-end">
                 <div className="text-cream/65 text-xs font-semibold uppercase tracking-widest mb-2">
                   {countByCategory[hero.id] ?? 0} {dict.nav.tours.toLowerCase()}
@@ -89,8 +85,8 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                 <p className="text-cream/70 text-sm leading-relaxed max-w-xs mb-4">
                   {hero.description}
                 </p>
-                <span className="inline-flex items-center gap-1.5 text-brass-glow text-sm font-semibold group-hover:gap-2.5 transition-all duration-300">
-                  {dict.common.learnMore} <ArrowRight className="w-3.5 h-3.5" weight="bold" />
+                <span className="inline-flex items-center gap-1.5 text-brass-glow text-sm font-semibold">
+                  {dict.common.learnMore} <ArrowRight className="w-3.5 h-3.5 arrow-go" weight="bold" />
                 </span>
               </div>
             </Link>
@@ -117,9 +113,6 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/25 to-transparent" />
-                <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none opacity-80">
-                  <CategoryAnimation id={tall.id} />
-                </div>
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
                   <div className="text-cream/65 text-xs font-semibold uppercase tracking-widest mb-1.5">
                     {countByCategory[tall.id] ?? 0} {dict.nav.tours.toLowerCase()}
@@ -130,8 +123,8 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   <p className="text-cream/65 text-xs leading-relaxed mb-3 line-clamp-2">
                     {tall.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold group-hover:gap-2 transition-all duration-300">
-                    {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
+                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold">
+                    {dict.common.learnMore} <ArrowRight className="w-3 h-3 arrow-go" weight="bold" />
                   </span>
                 </div>
               </Link>
@@ -159,9 +152,6 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/10 to-transparent" />
-                <div className="absolute top-0 right-0 w-24 h-24 pointer-events-none opacity-80">
-                  <CategoryAnimation id={cat.id} />
-                </div>
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
                   <div className="text-cream/70 text-xs font-semibold uppercase tracking-widest mb-1">
                     {countByCategory[cat.id] ?? 0} {dict.nav.tours.toLowerCase()}
@@ -169,8 +159,8 @@ export default function CategoryGrid({ dict, lang = "en", categories }: Props) {
                   <h3 className="font-display text-cream font-semibold text-lg leading-tight mb-2">
                     {cat.label}
                   </h3>
-                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold opacity-0 group-hover:opacity-100 group-hover:gap-2 transition-all duration-300">
-                    {dict.common.learnMore} <ArrowRight className="w-3 h-3" weight="bold" />
+                  <span className="inline-flex items-center gap-1 text-brass-glow text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {dict.common.learnMore} <ArrowRight className="w-3 h-3 arrow-go" weight="bold" />
                   </span>
                 </div>
               </Link>

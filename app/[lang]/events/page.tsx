@@ -195,7 +195,7 @@ function EventCard({
             aria-hidden="true"
             className="absolute start-4 top-4 min-w-[4.25rem] overflow-hidden rounded-[4px] bg-[var(--color-cream)] text-center shadow-[0_8px_20px_-8px_rgba(0,0,0,0.55)]"
           >
-            <div className="bg-[var(--color-atlas-clay)] px-2 py-1 font-body text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--color-cream)]">
+            <div className="bg-[var(--color-atlas-clay)] px-2 py-1 font-body micro-text font-semibold uppercase tracking-[0.16em] text-[var(--color-cream)]">
               {stamp.band}
             </div>
             <div

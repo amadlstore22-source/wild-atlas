@@ -30,11 +30,13 @@ export default function Header({ lang, dict }: Props) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [curOpen, setCurOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
   const langRef = useRef<HTMLDivElement>(null);
   const curRef = useRef<HTMLDivElement>(null);
   const { currency, setCurrency } = useCurrency();
@@ -56,15 +58,20 @@ export default function Header({ lang, dict }: Props) {
     { label: dict.categories.sharedTours, href: `/${lang}/tours#shared`, Icon: UsersThree },
   ];
 
+  // Desktop bar. Ten links, two switchers and the button did not fit: at
+  // 1440px "How we operate" wrapped onto three lines and the button onto two
+  // (critique 2026-10-20). The company pages now sit under About. The mobile
+  // drawer keeps its own full list below.
   const NAV = [
     { label: dict.nav.tours, href: `/${lang}/tours` },
     { label: dict.nav.destinations, href: `/${lang}/destinations` },
-    { label: dict.nav.gallery, href: `/${lang}/gallery` },
     { label: dict.nav.blog, href: `/${lang}/blog` },
-    { label: dict.nav.events, href: `/${lang}/events` },
-    { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
+  ];
+  const NAV_ABOUT = [
     { label: dict.nav.about, href: `/${lang}/about` },
-    { label: dict.nav.contact, href: `/${lang}/contact` },
+    { label: dict.nav.howWeOperate, href: `/${lang}/how-we-operate` },
+    { label: dict.nav.events, href: `/${lang}/events` },
+    { label: dict.nav.gallery, href: `/${lang}/gallery` },
   ];
 
   // Close every menu when the route changes. Done during render rather than in
@@ -76,6 +83,7 @@ export default function Header({ lang, dict }: Props) {
     setLastPath(pathname);
     setOpen(false);
     setDropdown(false);
+    setAboutOpen(false);
     setLangOpen(false);
     setCurOpen(false);
   }
@@ -83,6 +91,7 @@ export default function Header({ lang, dict }: Props) {
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) setDropdown(false);
+      if (aboutRef.current && !aboutRef.current.contains(e.target as Node)) setAboutOpen(false);
       if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
       if (curRef.current && !curRef.current.contains(e.target as Node)) setCurOpen(false);
     }
@@ -115,18 +124,18 @@ export default function Header({ lang, dict }: Props) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 pointer-events-none">
       <div
-        className={`pointer-events-auto mx-auto max-w-7xl transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+        className={`pointer-events-auto mx-auto max-w-7xl transition-[margin,padding] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
           scrolled ? "mt-2 px-3 sm:px-4" : "mt-3 sm:mt-5 px-3 sm:px-6"
         }`}
       >
         <div
-          className={`glass flex items-center justify-between rounded-[4px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`glass flex items-center justify-between rounded-[4px] transition-[height,padding,box-shadow] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
             scrolled ? "h-14 px-3 sm:px-4 shadow-[0_8px_30px_rgba(31,26,22,0.12)]" : "h-16 lg:h-[4.5rem] px-4 sm:px-6"
           }`}
         >
           {/* Wordmark — MET monogram mark (matches the favicon) */}
           <Link href={`/${lang}`} className="flex items-center gap-2.5 shrink-0 group" aria-label="Marrakech Eco Tours — home">
-            <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-indigo ring-[1.5px] ring-inset ring-saffron shadow-[0_2px_8px_rgba(43,58,103,0.28)]">
+            <span className="grid place-items-center w-9 h-9 rounded-[3px] bg-logo-indigo ring-[1.5px] ring-inset ring-saffron shadow-[0_2px_8px_rgba(36,64,142,0.28)]">
               <span className="text-[0.72rem] font-extrabold tracking-[0.06em] leading-none text-surface" aria-hidden>MET</span>
             </span>
             <span className="font-display text-[1.35rem] leading-none font-semibold text-indigo hidden sm:block">
@@ -160,8 +169,8 @@ export default function Header({ lang, dict }: Props) {
                 <CaretDown className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdown ? "rotate-180" : ""}`} weight="bold" />
               </Link>
               <div
-                className={`absolute top-full left-0 pt-3 transition-all duration-200 ${
-                  dropdown ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
+                className={`absolute top-full left-0 pt-3 origin-top-left transition-[opacity,translate,scale,visibility] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                  dropdown ? "opacity-100 translate-y-0 scale-100 pointer-events-auto visible" : "opacity-0 -translate-y-1 scale-[0.97] pointer-events-none invisible"
                 }`}
               >
                 <div className="bg-card rounded-[4px] shadow-[0_12px_40px_rgba(31,26,22,0.16)] border border-rule p-2 min-w-[220px]">
@@ -186,7 +195,7 @@ export default function Header({ lang, dict }: Props) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative px-3.5 py-2 text-sm font-medium rounded-[3px] transition-colors text-ink hover:text-indigo ${
+                className={`relative px-3.5 py-2 text-sm font-medium rounded-[3px] whitespace-nowrap transition-colors text-ink hover:text-indigo ${
                   isActive(item.href) ? "text-indigo" : ""
                 }`}
               >
@@ -194,6 +203,61 @@ export default function Header({ lang, dict }: Props) {
                 {isActive(item.href) && <span className="absolute -bottom-0.5 left-3.5 right-3.5 h-[2px] rounded-full bg-saffron" />}
               </Link>
             ))}
+
+            {/* About: the company pages. Opens on hover and on keyboard focus,
+                and closes when focus leaves it, so its links are never
+                tabbable while invisible. */}
+            <div
+              className="relative"
+              ref={aboutRef}
+              onMouseEnter={() => setAboutOpen(true)}
+              onMouseLeave={() => setAboutOpen(false)}
+              onFocus={() => setAboutOpen(true)}
+              onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setAboutOpen(false); }}
+            >
+              <Link
+                href={`/${lang}/about`}
+                aria-expanded={aboutOpen}
+                aria-haspopup="true"
+                onClick={() => setAboutOpen(false)}
+                className={`flex items-center gap-1 px-3.5 py-2 text-sm font-medium rounded-[3px] whitespace-nowrap transition-colors hover:text-indigo ${
+                  NAV_ABOUT.some((c) => isActive(c.href)) ? "text-indigo" : "text-ink"
+                }`}
+              >
+                {dict.nav.about}
+                <CaretDown className={`w-3.5 h-3.5 transition-transform duration-200 ${aboutOpen ? "rotate-180" : ""}`} weight="bold" />
+              </Link>
+              <div
+                className={`absolute top-full left-0 pt-3 origin-top-left transition-[opacity,translate,scale,visibility] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                  aboutOpen ? "opacity-100 translate-y-0 scale-100 pointer-events-auto visible" : "opacity-0 -translate-y-1 scale-[0.97] pointer-events-none invisible"
+                }`}
+              >
+                <div className="bg-card rounded-[4px] shadow-[0_12px_40px_rgba(31,26,22,0.16)] border border-rule p-2 min-w-[200px]">
+                  {NAV_ABOUT.map((child) => (
+                    <Link
+                      key={child.href}
+                      href={child.href}
+                      onClick={() => setAboutOpen(false)}
+                      className={`block px-4 py-2.5 rounded-[3px] text-sm font-medium whitespace-nowrap transition-colors ${
+                        isActive(child.href) ? "bg-indigo/8 text-indigo" : "text-ink hover:bg-surface-sunk/70 hover:text-indigo"
+                      }`}
+                    >
+                      {child.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <Link
+              href={`/${lang}/contact`}
+              className={`relative px-3.5 py-2 text-sm font-medium rounded-[3px] whitespace-nowrap transition-colors text-ink hover:text-indigo ${
+                isActive(`/${lang}/contact`) ? "text-indigo" : ""
+              }`}
+            >
+              {dict.nav.contact}
+              {isActive(`/${lang}/contact`) && <span className="absolute -bottom-0.5 left-3.5 right-3.5 h-[2px] rounded-full bg-saffron" />}
+            </Link>
 
             {/* Currency switcher */}
             <div className="relative ml-1" ref={curRef}>
@@ -208,8 +272,8 @@ export default function Header({ lang, dict }: Props) {
                 <CaretDown className={`w-3 h-3 transition-transform ${curOpen ? "rotate-180" : ""}`} weight="bold" />
               </button>
               <div
-                className={`absolute top-full right-0 pt-3 transition-all duration-200 ${
-                  curOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
+                className={`absolute top-full right-0 pt-3 origin-top-right transition-[opacity,translate,scale,visibility] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                  curOpen ? "opacity-100 translate-y-0 scale-100 pointer-events-auto visible" : "opacity-0 -translate-y-1 scale-[0.97] pointer-events-none invisible"
                 }`}
               >
                 <div className="bg-card rounded-[4px] shadow-[0_12px_40px_rgba(31,26,22,0.16)] border border-rule p-2 min-w-[150px]">
@@ -242,8 +306,8 @@ export default function Header({ lang, dict }: Props) {
                 <CaretDown className={`w-3 h-3 transition-transform ${langOpen ? "rotate-180" : ""}`} weight="bold" />
               </button>
               <div
-                className={`absolute top-full right-0 pt-3 transition-all duration-200 ${
-                  langOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
+                className={`absolute top-full right-0 pt-3 origin-top-right transition-[opacity,translate,scale,visibility] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                  langOpen ? "opacity-100 translate-y-0 scale-100 pointer-events-auto visible" : "opacity-0 -translate-y-1 scale-[0.97] pointer-events-none invisible"
                 }`}
               >
                 <div className="bg-card rounded-[4px] shadow-[0_12px_40px_rgba(31,26,22,0.16)] border border-rule p-2 min-w-[170px]">
@@ -263,7 +327,7 @@ export default function Header({ lang, dict }: Props) {
               </div>
             </div>
 
-            <Link href={`/${lang}/contact`} className="btn-brass ml-2 !px-5 !py-2.5 !text-sm">
+            <Link href={`/${lang}/contact`} className="btn-brass ml-2 !px-5 !py-2.5 !text-sm whitespace-nowrap">
               {dict.nav.bookNow}
             </Link>
           </nav>
@@ -282,7 +346,7 @@ export default function Header({ lang, dict }: Props) {
 
       {/* Mobile drawer */}
       <div
-        className={`lg:hidden fixed inset-0 z-40 transition-all duration-300 ${
+        className={`lg:hidden fixed inset-0 z-40 transition-opacity duration-200 ${
           open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
@@ -295,7 +359,7 @@ export default function Header({ lang, dict }: Props) {
         >
           <div className="flex items-center justify-between px-5 py-4 border-b border-rule">
             <span className="font-display text-xl font-semibold text-indigo flex items-center gap-2.5">
-              <span className="grid place-items-center w-8 h-8 rounded-[3px] bg-indigo ring-[1.5px] ring-inset ring-saffron">
+              <span className="grid place-items-center w-8 h-8 rounded-[3px] bg-logo-indigo ring-[1.5px] ring-inset ring-saffron">
                 <span className="text-[0.62rem] font-extrabold tracking-[0.06em] leading-none text-surface" aria-hidden>MET</span>
               </span>
               Marrakech <span className="text-saffron">Eco Tours</span>

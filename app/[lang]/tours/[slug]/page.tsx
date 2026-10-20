@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import TitleText from "@/components/ui/TitleText";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -290,9 +291,9 @@ export default async function TourDetailPage({ params }: TourParams) {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 w-full">
           <nav className="flex items-center gap-2 text-white/65 text-sm mb-4">
             <Link href={`/${lang}`} className="hover:text-white transition-colors">{dict.common.home}</Link>
-            <CaretRight className="w-4 h-4" />
+            <CaretRight className="w-4 h-4 dir-flip" aria-hidden />
             <Link href={`/${lang}/tours`} className="hover:text-white transition-colors">{dict.nav.tours}</Link>
-            <CaretRight className="w-4 h-4" />
+            <CaretRight className="w-4 h-4 dir-flip" aria-hidden />
             <span className="text-white capitalize">{tour.category}</span>
           </nav>
           <div className="flex flex-wrap gap-3 mb-4">
@@ -311,7 +312,7 @@ export default async function TourDetailPage({ params }: TourParams) {
               {tour.tourType === "private" ? dict.tours.private : dict.tours.shared}
             </Badge>
           </div>
-          <h1 className="hero-title font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">{tour.title}</h1>
+          <h1 className="hero-title font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl"><TitleText text={tour.title} /></h1>
           <div className="flex flex-wrap gap-6 mt-4 text-white/75 text-sm">
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{tour.duration}</span>
             <span className="flex items-center gap-1.5"><UsersThree className="w-4 h-4" />{tour.groupSize}</span>
@@ -332,7 +333,7 @@ export default async function TourDetailPage({ params }: TourParams) {
 
             <section id="tour-overview" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.overview}</h2>
-              <p className="text-ink-soft text-lg leading-relaxed mb-6">{tour.description}</p>
+              <p className="text-ink-soft text-lg leading-relaxed mb-6 max-w-[68ch]">{tour.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {tour.highlights.map((h) => (
                   <div key={h} className="flex items-start gap-2 p-3 rounded-[3px] bg-surface-sunk/50">

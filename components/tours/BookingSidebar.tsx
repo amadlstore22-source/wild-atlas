@@ -613,6 +613,7 @@ export default function BookingSidebar({
           {/* Contact alternatives */}
           <div className="grid grid-cols-2 gap-2">
             <a
+              data-wa="booking-form"
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -736,6 +737,7 @@ export default function BookingSidebar({
                 {b.depositConfirmBody}
               </p>
               <a
+                data-wa="deposit"
                 href={depositRequestUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -756,6 +758,7 @@ export default function BookingSidebar({
               {b.largerGroupPrompt}
             </p>
             <a
+              data-wa="large-group"
               href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hello! I'd like to plan a private trip for a larger group on the "${tour.title}" tour. Can you help?`)}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -820,6 +823,7 @@ export default function BookingSidebar({
             </div>
           )}
           <a
+            data-wa="mobile-bar"
             href={waUrl}
             target="_blank"
             rel="noopener noreferrer"

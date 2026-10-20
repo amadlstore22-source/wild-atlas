@@ -102,6 +102,10 @@ export default function cookiesEs({ lang, mail }: LegalCtx): LegalDoc {
               ninguna dirección IP y nada que pueda identificarte, así que funciona elijas lo que elijas en el banner.
             </p>
             <p>
+              Del mismo modo contamos las pulsaciones en nuestros botones de WhatsApp: solo la fecha, el idioma, la
+              página y el botón. Nunca tu número ni lo que escribes en WhatsApp.
+            </p>
+            <p>
               Aparte de las cookies de analítica anteriores, utilizamos <strong>Vercel Analytics</strong> y{" "}
               <strong>Vercel Speed Insights</strong> para medir el rendimiento del sitio. Son herramientas respetuosas
               con la privacidad que <strong>no utilizan cookies</strong> ni huellas digitales: solo recopilan métricas

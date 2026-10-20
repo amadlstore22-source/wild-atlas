@@ -99,6 +99,10 @@ export default function cookiesEn({ lang, mail }: LegalCtx): LegalDoc {
             and nothing that could identify you &mdash; so it runs whatever you choose on the banner.
           </p>
           <p>
+            In the same way we count taps on our WhatsApp buttons: only the date, the language, the page and which
+            button. Never your number or anything you write in WhatsApp.
+          </p>
+          <p>
             Separately from the analytics cookies above, we use <strong>Vercel Analytics</strong> and{" "}
             <strong>Vercel Speed Insights</strong> to measure site performance. These are privacy-friendly and{" "}
             <strong>do not use cookies</strong> or fingerprinting &mdash; they collect only anonymised, aggregated

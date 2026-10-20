@@ -102,6 +102,10 @@ export default function cookiesDe({ lang, mail }: LegalCtx): LegalDoc {
               was Sie identifizieren könnte. Diese Zählung läuft daher unabhängig von Ihrer Wahl im Banner.
             </p>
             <p>
+              Ebenso zählen wir Klicks auf unsere WhatsApp-Schaltflächen: nur Datum, Sprache, Seite und Schaltfläche.
+              Nie Ihre Nummer und nichts, was Sie in WhatsApp schreiben.
+            </p>
+            <p>
               Unabhängig von den oben genannten Analyse-Cookies nutzen wir <strong>Vercel Analytics</strong> und{" "}
               <strong>Vercel Speed Insights</strong>, um die Leistung der Website zu messen. Diese Werkzeuge sind
               datenschutzfreundlich und <strong>verwenden keine Cookies</strong> und kein Fingerprinting – sie erfassen

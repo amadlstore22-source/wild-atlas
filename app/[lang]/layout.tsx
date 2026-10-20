@@ -16,6 +16,7 @@ import ScrollProgress from "@/components/ui/ScrollProgress";
 import CurrencyProvider from "@/components/ui/CurrencyProvider";
 import MotionProvider from "@/components/ui/MotionProvider";
 import VercelAnalytics from "@/components/ui/VercelAnalytics";
+import WhatsAppTapCounter from "@/components/analytics/WhatsAppTapCounter";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
 import { ogBase } from "@/lib/seo/open-graph";
@@ -179,6 +180,7 @@ export default async function LocaleLayout({
           <MicrosoftClarity />
           <Toaster richColors />
           <VercelAnalytics />
+          <WhatsAppTapCounter />
           </MotionProvider>
         </CurrencyProvider>
       </body>

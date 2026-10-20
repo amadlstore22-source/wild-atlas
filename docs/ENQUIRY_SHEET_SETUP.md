@@ -60,6 +60,22 @@ function doPost(e) {
         .setMimeType(ContentService.MimeType.JSON);
     }
 
+    // Anonymous WhatsApp tap counts (app/api/wa-tap). Same secret rule.
+    if (data.kind === 'whatsapp') {
+      if (data.clickSecret !== SECRET) {
+        return ContentService
+          .createTextOutput(JSON.stringify({ ok: false, error: 'bad secret' }))
+          .setMimeType(ContentService.MimeType.JSON);
+      }
+      const ss = SpreadsheetApp.getActiveSpreadsheet();
+      const tab = ss.getSheetByName('WhatsApp taps') ||
+        ss.insertSheet('WhatsApp taps').appendRow(['Tapped', 'Language', 'Page', 'Button']);
+      tab.appendRow([new Date(data.at || Date.now()), data.lang || '', data.path || '', data.button || '']);
+      return ContentService
+        .createTextOutput(JSON.stringify({ ok: true }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
     // Reject anything not from our site.
     if (data.secret !== SECRET) {
       return ContentService
@@ -134,12 +150,13 @@ Then **redeploy** — Vercel only picks up new variables on a fresh deployment.
 
 ---
 
-## Updating the script (e.g. to add trip-box click counts)
+## Updating the script (e.g. to add trip-box or WhatsApp counts)
 
 Paste the new script over the old one, keep your own secret on line 3, save,
 then **Deploy → Manage deployments → pencil icon → Version: New version →
 Deploy**. The `/exec` URL stays the same, so nothing changes in Vercel. Click
-counts then appear in a **Trip box clicks** tab, created on the first click.
+counts then appear in a **Trip box clicks** tab, and WhatsApp taps in a
+**WhatsApp taps** tab, each created on its first row.
 
 ---
 

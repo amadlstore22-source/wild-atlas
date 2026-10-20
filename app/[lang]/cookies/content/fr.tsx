@@ -104,6 +104,10 @@ export default function cookiesFr({ lang, mail }: LegalCtx): LegalDoc {
               fonctionne donc quel que soit votre choix sur le bandeau.
             </p>
             <p>
+              De la même façon, nous comptons les appuis sur nos boutons WhatsApp : uniquement la date, la langue,
+              la page et le bouton. Jamais votre numéro ni ce que vous écrivez sur WhatsApp.
+            </p>
+            <p>
               Indépendamment des cookies d’analyse ci-dessus, nous utilisons <strong>Vercel Analytics</strong> et{" "}
               <strong>Vercel Speed Insights</strong> pour mesurer les performances du site. Ces outils respectent la
               vie privée et <strong>n’utilisent ni cookies</strong> ni empreinte numérique — ils collectent

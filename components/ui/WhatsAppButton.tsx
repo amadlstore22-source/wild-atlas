@@ -90,6 +90,7 @@ export default function WhatsAppButton({ dict }: { dict: Dictionary }) {
 
   return (
     <m.a
+      data-wa="floating"
       href={whatsappUrl(WHATSAPP_MESSAGES.general)}
       target="_blank"
       rel="noopener noreferrer"

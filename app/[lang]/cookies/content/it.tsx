@@ -102,6 +102,10 @@ export default function cookiesIt({ lang, mail }: LegalCtx): LegalDoc {
               IP e nulla che possa identificarti, quindi funziona qualunque sia la tua scelta nel banner.
             </p>
             <p>
+              Allo stesso modo contiamo i tocchi sui nostri pulsanti WhatsApp: solo la data, la lingua, la pagina e il
+              pulsante. Mai il tuo numero né ciò che scrivi su WhatsApp.
+            </p>
+            <p>
               Oltre ai cookie analitici indicati sopra, utilizziamo <strong>Vercel Analytics</strong> e{" "}
               <strong>Vercel Speed Insights</strong> per misurare le prestazioni del sito. Sono strumenti rispettosi
               della privacy che <strong>non usano cookie</strong> né fingerprinting: raccolgono solo metriche

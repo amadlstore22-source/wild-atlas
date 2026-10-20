@@ -16,18 +16,18 @@ export default function TourTrustBar({ dict, tourTitle }: { dict: Dictionary; to
   // visitors tapping "122 TripAdvisor reviews" to read them. "Fast human
   // reply" opens WhatsApp: on 2026-10-20 a visitor tapped it (dead click) just
   // after sending the booking form, then went looking for WhatsApp.
-  const items: { icon: typeof Star; label: string; sub: string; href?: string }[] = [
+  const items: { icon: typeof Star; label: string; sub: string; href?: string; wa?: boolean }[] = [
     { icon: ShieldCheck, label: t.licensed, sub: t.licensedSub },
     { icon: Star, label: `${TRIPADVISOR.rating.toFixed(1)}/5`, sub: t.ratingSub.replace("{count}", String(TRIPADVISOR.reviewCount)), href: TRIPADVISOR.url },
     { icon: Mountains, label: `${SITE.guidingHeritageYears}+ ${t.yearsLabel}`, sub: t.yearsSub },
     { icon: CalendarCheck, label: t.noPrepay, sub: t.noPrepaySub },
-    { icon: ChatCircleDots, label: t.fastReply, sub: t.fastReplySub, href: whatsappUrl(WHATSAPP_MESSAGES.tour(tourTitle)) },
+    { icon: ChatCircleDots, label: t.fastReply, sub: t.fastReplySub, href: whatsappUrl(WHATSAPP_MESSAGES.tour(tourTitle)), wa: true },
   ];
 
   return (
     <div className="border-b border-rule bg-card/60">
       <ul className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-5 gap-y-1">
-        {items.map(({ icon: Icon, label, sub, href }) => {
+        {items.map(({ icon: Icon, label, sub, href, wa }) => {
           const body = (
             <>
               <Icon className="w-6 h-6 text-indigo shrink-0" weight="duotone" aria-hidden />
@@ -40,7 +40,7 @@ export default function TourTrustBar({ dict, tourTitle }: { dict: Dictionary; to
           return (
             <li key={label} className="py-4">
               {href ? (
-                <a href={href} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3">
+                <a href={href} target="_blank" rel="noopener noreferrer" data-wa={wa ? "trust-strip" : undefined} className="group flex items-center gap-3">
                   {body}
                 </a>
               ) : (

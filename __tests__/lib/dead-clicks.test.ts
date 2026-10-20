@@ -32,6 +32,17 @@ describe("no dead clicks on tour pages and cards", () => {
   });
 
   /**
+   * Clarity, 2026-10-20: a visitor from Italy (via ChatGPT) sent the booking
+   * form on the Agafay dinner, came back three minutes later, tapped "Risposta
+   * umana rapida" in this strip (a dead click) and then found WhatsApp further
+   * down. A promise of a fast reply should be the way to get one.
+   */
+  it("the trust strip's 'Fast human reply' opens WhatsApp about this tour", () => {
+    const src = read("components/tours/TourTrustBar.tsx");
+    expect(src).toMatch(/label:\s*t\.fastReply,.*href:\s*whatsappUrl\(WHATSAPP_MESSAGES\.tour\(tourTitle\)\)/);
+  });
+
+  /**
    * The homepage has its own trust strip (components/sections/TrustBar.tsx),
    * separate from the one under tour heroes, and the first fix missed it. A
    * Clarity recording on 2026-10-12 showed a visitor from Instagram on the

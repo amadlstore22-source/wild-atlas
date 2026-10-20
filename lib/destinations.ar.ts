@@ -143,7 +143,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "جولة في الصحراء الكبرى من مراكش | Marrakech Eco Tours",
+    seoTitle: "دليل الصحراء الكبرى: مرزوكة وعرق الشبي | Marrakech Eco Tours",
     seoDescription: "اكتشف الصحراء الكبرى برفقة مرشدين معتمدين: ركوب الجمال، وليالي المخيمات الأمازيغية، وشروق الشمس فوق كثبان عرق الشبي التي يبلغ ارتفاعها 150 مترًا.",
   },
   {

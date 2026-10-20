@@ -13,6 +13,7 @@ import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
 import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
+import { categorySeoFor } from "@/lib/category-seo";
 type CategoryParams = { params: Promise<{ lang: string; category: string }> };
 
 export async function generateStaticParams() {
@@ -27,14 +28,16 @@ export async function generateMetadata({ params }: CategoryParams): Promise<Meta
   const cat = getCategoryFor(lang, category as Category);
   if (!cat) return {};
   const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
+  // Search title and description written for the phrase people type (see
+  // lib/category-seo.ts), not the bare label: "Desert Tours" alone never
+  // surfaced for "sahara desert tours from marrakech".
+  const seo = categorySeoFor(lang, cat.id as Category, getToursByCategoryFor(lang, cat.id as Category));
+  const title = seo?.title ?? cat.label;
+  const description = seo?.description ?? cat.description;
   return {
-    // `cat.label` is already localised, so appending an English suffix put
-    // "Excursions d'une journée Adventures in Morocco" on the French page --
-    // half-translated, and 68 characters once the brand is applied. The label
-    // alone is what the page is about and what people search for.
-    title: cat.label,
-    description: cat.description,
-    openGraph: { ...ogBase(lang), title: `${cat.label} — Marrakech Eco Tours`, description: cat.description, images: [{ url: cat.heroImage }] },
+    title,
+    description,
+    openGraph: { ...ogBase(lang), title: `${title} — Marrakech Eco Tours`, description, images: [{ url: cat.heroImage }] },
     alternates: {
       canonical: `https://marrakechecotours.com/${lang}/categories/${category}`,
       languages: hreflangForPath(LOCALES, `/categories/${category}`),
@@ -50,11 +53,14 @@ export default async function CategoryPage({ params }: CategoryParams) {
   const dict = await getDictionary(lang);
 
   const tours = getToursByCategoryFor(lang, cat.id as Category);
+  const heading = categorySeoFor(lang, cat.id as Category, tours)?.heading ?? cat.label;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${cat.label} Tours Morocco — Marrakech Eco Tours`,
+    // Was `${cat.label} Tours Morocco`, which read "Desert Tours Tours
+    // Morocco" in English and mixed English into every other locale.
+    name: heading,
     description: cat.description,
     itemListElement: tours.map((t, i) => ({
       "@type": "ListItem",
@@ -96,7 +102,10 @@ export default async function CategoryPage({ params }: CategoryParams) {
         <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/85 via-indigo-deep/30 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <span className="text-5xl block mb-3">{cat.icon}</span>
-          <h1 className="hero-title font-display text-6xl lg:text-7xl font-bold leading-tight">{cat.label}</h1>
+          {/* The search heading is a full phrase ("Sahara Desert Tours from
+              Marrakech & Agadir"), so it is set smaller than the old one-word
+              label to stay on two lines on a phone. */}
+          <h1 className="hero-title font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight max-w-4xl text-balance">{heading}</h1>
           <p className="text-white/70 mt-3 text-xl max-w-2xl">{cat.description}</p>
         </div>
       </div>

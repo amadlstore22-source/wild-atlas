@@ -143,7 +143,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Sahara-Wüstentour ab Marrakesch | Marrakech Eco Tours",
+    seoTitle: "Sahara-Reiseführer: Merzouga & Erg Chebbi | Marrakech Eco Tours",
     seoDescription: "Entdecken Sie die Sahara mit zertifizierten Guides: Kamelritte, Nächte im Berbercamp und Sonnenaufgang über den 150 m hohen Dünen von Erg Chebbi.",
   },
   {

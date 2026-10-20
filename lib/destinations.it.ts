@@ -143,7 +143,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Tour nel deserto del Sahara da Marrakech | Marrakech Eco Tours",
+    seoTitle: "Guida al Sahara: Merzouga ed Erg Chebbi | Marrakech Eco Tours",
     seoDescription: "Scopri il deserto del Sahara con guide certificate: trekking in cammello, notti in campo berbero e alba sulle dune di 150 m dell'Erg Chebbi.",
   },
   {

@@ -143,7 +143,7 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Circuit Sahara depuis Marrakech | Marrakech Eco Tours",
+    seoTitle: "Guide du Sahara : Merzouga et l'Erg Chebbi | Marrakech Eco Tours",
     seoDescription: "Le Sahara avec des guides certifiés : chameaux, nuits en campement berbère et lever du soleil sur les dunes de l'Erg Chebbi. Circuits de 2 à 4 jours.",
   },
   {

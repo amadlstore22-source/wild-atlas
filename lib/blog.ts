@@ -8113,7 +8113,7 @@ For what to order once you are eating out on your own, the [Morocco food guide](
       "A month-by-month guide to Moroccan festivals: Gnaoua in Essaouira, the Kelaat M'Gouna rose harvest, the Imilchil moussem, Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "What is the biggest festival in Morocco?", a: "By international profile, the Gnaoua and World Music Festival in Essaouira \u2014 three days of free open-air concerts in late June that draw hundreds of thousands of people. By local significance it is arguably Ramadan and the Eid that closes it, which changes the rhythm of the entire country for a month." },
+      { q: "What is the biggest festival in Morocco?", a: "By international profile, the Gnaoua and World Music Festival in Essaouira \u2014 three days of open-air concerts in late June that draw hundreds of thousands of people. By local significance it is arguably Ramadan and the Eid that closes it, which changes the rhythm of the entire country for a month." },
       { q: "Do Moroccan festival dates change every year?", a: "Most of them, yes, and for three different reasons. Religious dates follow the Hijri calendar and are fixed in Morocco by moon sighting through the Ministry of Endowments and Islamic Affairs, so they move about eleven days earlier each Gregorian year. Harvest festivals like the Rose Festival follow the crop. Village moussems are set locally, sometimes only weeks ahead. Only a handful \u2014 the Marrakech Marathon, for instance \u2014 are announced far in advance on a fixed date." },
       { q: "When is the Rose Festival in Morocco?", a: "Kelaat M'Gouna holds it at the peak of the damask rose harvest, which has fallen in the first two weeks of May every recent year \u2014 the 2026 edition ran 7\u201310 May. The organisers confirm the exact days only a few weeks ahead, so treat May as the window rather than booking flights to a specific date." },
       { q: "Can you travel in Morocco during Ramadan?", a: "Yes, and it is one of the more memorable times to come, but the day runs differently. Many restaurants stay closed until sunset, museums and offices keep shorter hours, and the medina properly wakes after the iftar cannon. Trekking is unaffected \u2014 guides plan food and water around it. Non-Muslim visitors are not expected to fast, and tourist restaurants in Marrakech and Agadir serve through the day." },
@@ -8184,8 +8184,7 @@ state of the dates.
 Three days of Gnaoua trance music on the Atlantic, in a walled town that
 empties of cars and fills with drums. Maalems — Gnaoua master musicians —
 play open stages across the city alongside jazz and world-music guests who
-improvise with them. It is free, it is outdoors, and the medina stays awake
-until dawn.
+improvise with them. The concerts are outdoors and the medina stays awake until dawn. The stages were ticketed in 2026 (the main stage cost 400–600 MAD a night), so check prices on the official site before you go.
 
 The practical problem is beds. Accommodation in Essaouira is reported to sell
 out **nine to twelve months** ahead for the festival, and prices trip. This is
@@ -10598,7 +10597,7 @@ fills the town for four days every June — **25 to 27 June in 2026**, its 27th
 edition — with Gnaoua maâlems playing alongside jazz, funk and world musicians
 on open stages.
 
-It is free, it is very good, and the town is completely full. If you want to be
+It is very good, and the town is completely full. The stages were ticketed in 2026 (the main stage cost 400–600 MAD a night). If you want to be
 there, book months ahead. If you do not, avoid that week entirely.
 
 ## Day Trip or Stay?

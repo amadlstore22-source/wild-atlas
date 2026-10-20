@@ -135,12 +135,12 @@ const COPY: Table = {
       blurb:
         "Trois jours de transe gnaoua face à l'Atlantique, dans une cité fortifiée vidée de ses voitures et remplie de tambours.",
       description:
-        "Les maâlems se réunissent — maîtres musiciens gnaoua — sur des scènes ouvertes à travers Essaouira, aux côtés d'invités jazz et musiques du monde qui improvisent avec eux. C'est gratuit, en plein air, et la médina veille jusqu'à l'aube. Les hébergements à Essaouira se remplissent des mois à l'avance : une excursion à la journée depuis Marrakech est souvent la façon la plus réaliste d'y assister.",
+        "Les maâlems se réunissent — maîtres musiciens gnaoua — sur des scènes ouvertes à travers Essaouira, aux côtés d'invités jazz et musiques du monde qui improvisent avec eux. Les concerts ont lieu en plein air et la médina veille jusqu'à l'aube. En 2026, les scènes étaient payantes (400 à 600 MAD la soirée pour la grande scène) : vérifiez les tarifs sur le site officiel avant de partir. Les hébergements à Essaouira se remplissent des mois à l'avance : une excursion à la journée depuis Marrakech est souvent la façon la plus réaliste d'y assister.",
       dateNote:
         "Confirmé par les organisateurs : la 28e édition a lieu du 24 au 26 juin 2027. La 27e s'est tenue du 25 au 27 juin 2026.",
       highlights: [
         "Des maâlems — maîtres musiciens gnaoua — sur des scènes ouvertes dans toute la médina",
-        "Gratuit et en plein air : pas de billet, pas de salle, toute la ville est le festival",
+        "Des scènes en plein air dans toute la ville, de la place Moulay Hassan à la plage",
         "Des invités jazz et musiques du monde qui improvisent avec les groupes gnaoua",
         "Essaouira fermée aux voitures : la ville fortifiée se traverse à pied",
         "La médina veille jusqu'à l'aube",
@@ -157,12 +157,12 @@ const COPY: Table = {
       blurb:
         "Tres días de trance gnaoua frente al Atlántico, en una ciudad amurallada que se vacía de coches y se llena de tambores.",
       description:
-        "Los maalems se reúnen — maestros músicos gnaoua — en escenarios abiertos por toda Essaouira, junto a invitados de jazz y músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la medina no duerme hasta el amanecer. El alojamiento en Essaouira se agota con meses de antelación, así que una excursión de un día desde Marrakech suele ser la forma más realista de verlo.",
+        "Los maalems se reúnen — maestros músicos gnaoua — en escenarios abiertos por toda Essaouira, junto a invitados de jazz y músicas del mundo que improvisan con ellos. Los conciertos son al aire libre y la medina no duerme hasta el amanecer. En 2026 los escenarios fueron de pago (el escenario principal costaba 400–600 MAD por noche), así que consulta los precios en la web oficial antes de ir. El alojamiento en Essaouira se agota con meses de antelación, así que una excursión de un día desde Marrakech suele ser la forma más realista de verlo.",
       dateNote:
         "Confirmado por los organizadores: la 28ª edición se celebra del 24 al 26 de junio de 2027. La 27ª fue del 25 al 27 de junio de 2026.",
       highlights: [
         "Maalems — maestros músicos gnaoua — en escenarios abiertos por toda la medina",
-        "Gratuito y al aire libre: sin entrada, sin recinto, toda la ciudad es el festival",
+        "Escenarios al aire libre por toda la ciudad, de la plaza Moulay Hassan a la playa",
         "Invitados de jazz y músicas del mundo improvisando con los grupos gnaoua",
         "Essaouira cerrada al tráfico: la ciudad amurallada se recorre a pie",
         "La medina no duerme hasta el amanecer",
@@ -179,12 +179,12 @@ const COPY: Table = {
       blurb:
         "Drei Tage Gnaoua-Trance am Atlantik, in einer Stadtmauer ohne Autos und voller Trommeln.",
       description:
-        "Maalems kommen — Gnaoua-Meistermusiker — auf offene Bühnen in ganz Essaouira, zusammen mit Jazz- und Weltmusikgästen, die mit ihnen improvisieren. Der Eintritt ist frei, alles findet draußen statt, und die Medina bleibt bis zum Morgengrauen wach. Unterkünfte in Essaouira sind Monate im Voraus ausgebucht, daher ist ein Tagesausflug ab Marrakesch oft der realistischere Weg.",
+        "Maalems kommen — Gnaoua-Meistermusiker — auf offene Bühnen in ganz Essaouira, zusammen mit Jazz- und Weltmusikgästen, die mit ihnen improvisieren. Die Konzerte finden draußen statt, und die Medina bleibt bis zum Morgengrauen wach. 2026 waren die Bühnen kostenpflichtig (die Hauptbühne kostete 400–600 MAD pro Abend), prüfen Sie die Preise daher vor der Reise auf der offiziellen Website. Unterkünfte in Essaouira sind Monate im Voraus ausgebucht, daher ist ein Tagesausflug ab Marrakesch oft der realistischere Weg.",
       dateNote:
         "Von den Veranstaltern bestätigt: Die 28. Ausgabe findet vom 24. bis 26. Juni 2027 statt. Die 27. lief vom 25. bis 27. Juni 2026.",
       highlights: [
         "Maalems — Gnaoua-Meistermusiker — auf offenen Bühnen in der ganzen Medina",
-        "Kostenlos und unter freiem Himmel: kein Ticket, kein Veranstaltungsort, die ganze Stadt ist das Festival",
+        "Bühnen unter freiem Himmel in der ganzen Stadt, vom Platz Moulay Hassan bis zum Strand",
         "Jazz- und Weltmusikgäste, die mit den Gnaoua-Gruppen improvisieren",
         "Essaouira ist autofrei, die ummauerte Stadt lässt sich komplett zu Fuß erkunden",
         "Die Medina bleibt bis zum Morgengrauen wach",
@@ -201,12 +201,12 @@ const COPY: Table = {
       blurb:
         "Tre giorni di trance gnaoua sull'Atlantico, in una città murata svuotata di auto e piena di tamburi.",
       description:
-        "I maalem si riuniscono — maestri musicisti gnaoua — su palchi aperti in tutta Essaouira, insieme a ospiti jazz e world music che improvvisano con loro. È gratuito, all'aperto, e la medina resta sveglia fino all'alba. Gli alloggi a Essaouira si esauriscono con mesi di anticipo, quindi una gita in giornata da Marrakech è spesso il modo più realistico per viverlo.",
+        "I maalem si riuniscono — maestri musicisti gnaoua — su palchi aperti in tutta Essaouira, insieme a ospiti jazz e world music che improvvisano con loro. I concerti sono all'aperto e la medina resta sveglia fino all'alba. Nel 2026 i palchi erano a pagamento (il palco principale costava 400–600 MAD a sera), quindi verificate i prezzi sul sito ufficiale prima di partire. Gli alloggi a Essaouira si esauriscono con mesi di anticipo, quindi una gita in giornata da Marrakech è spesso il modo più realistico per viverlo.",
       dateNote:
         "Confermato dagli organizzatori: la 28ª edizione si tiene dal 24 al 26 giugno 2027. La 27ª si è svolta dal 25 al 27 giugno 2026.",
       highlights: [
         "Maalem — maestri musicisti gnaoua — su palchi aperti in tutta la medina",
-        "Gratuito e all'aperto: nessun biglietto, nessuna sala, tutta la città è il festival",
+        "Palchi all'aperto in tutta la città, da piazza Moulay Hassan alla spiaggia",
         "Ospiti jazz e world music che improvvisano con i gruppi gnaoua",
         "Essaouira chiusa alle auto: la città murata si attraversa a piedi",
         "La medina resta sveglia fino all'alba",
@@ -223,12 +223,12 @@ const COPY: Table = {
       blurb:
         "ثلاثة أيام من إيقاع كناوة على المحيط الأطلسي، في مدينة مسوَّرة تخلو من السيارات وتمتلئ بالطبول.",
       description:
-        "يجتمع المعلمون — أساتذة موسيقى كناوة — على منصات مفتوحة في أنحاء الصويرة، إلى جانب ضيوف من الجاز وموسيقى العالم يرتجلون معهم. الدخول مجاني، والعروض في الهواء الطلق، والمدينة العتيقة تسهر حتى الفجر. أماكن الإقامة في الصويرة تُحجز قبل أشهر، لذا فإن رحلة يومية من مراكش غالبًا ما تكون الطريقة الأكثر واقعية للحضور.",
+        "يجتمع المعلمون — أساتذة موسيقى كناوة — على منصات مفتوحة في أنحاء الصويرة، إلى جانب ضيوف من الجاز وموسيقى العالم يرتجلون معهم. العروض في الهواء الطلق، والمدينة العتيقة تسهر حتى الفجر. وفي دورة 2026 كان الدخول إلى المنصات بتذاكر (المنصة الرئيسية بين 400 و600 درهم للسهرة)، لذا تحقّق من الأسعار على الموقع الرسمي قبل السفر. أماكن الإقامة في الصويرة تُحجز قبل أشهر، لذا فإن رحلة يومية من مراكش غالبًا ما تكون الطريقة الأكثر واقعية للحضور.",
       dateNote:
         "أكّد المنظمون: تُقام الدورة الثامنة والعشرون من 24 إلى 26 يونيو 2027. وأُقيمت الدورة السابعة والعشرون من 25 إلى 27 يونيو 2026.",
       highlights: [
         "المعلمون — كبار موسيقيي كناوة — على مسارح مفتوحة في أنحاء المدينة القديمة",
-        "مجاني وفي الهواء الطلق: بلا تذكرة وبلا قاعة، المدينة كلها هي المهرجان",
+        "منصات في الهواء الطلق في أنحاء المدينة، من ساحة مولاي الحسن إلى الشاطئ",
         "ضيوف من الجاز وموسيقى العالم يرتجلون مع فرق كناوة",
         "الصويرة مغلقة أمام السيارات، فالمدينة المسوّرة تُقطع سيرًا على الأقدام",
         "المدينة القديمة تسهر حتى الفجر",

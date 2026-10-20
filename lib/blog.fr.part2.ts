@@ -1636,9 +1636,9 @@ Cela dépend véritablement de ce que vous recherchez. Les principaux sites et t
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["alcool au Maroc", "lois marocaines sur l'alcool", "peut-on boire au Maroc", "bars au Maroc"],
-    seoTitle: "Alcool au Maroc : légal dès 18 ans",
+    seoTitle: "Alcool au Maroc : lois, prix et Ramadan",
     seoDescription:
-      "Légal dès 18 ans. Où en acheter (Carrefour, Marjane, bars agréés), les prix, où il est interdit de boire, et ce qui change pendant le Ramadan.",
+      "Légal dès 18 ans, mais de nombreuses boutiques cessent la vente au Ramadan. Où acheter (Carrefour, Marjane, bars agréés), les prix, où boire est interdit.",
     faq: [
       { q: "L'alcool est-il légal au Maroc ?", a: "Oui. Le Maroc est un pays à majorité musulmane et la plupart des Marocains ne boivent pas, mais l'alcool est légal pour toute personne de plus de 18 ans, vendu et servi dans des établissements agréés : bars et restaurants d'hôtels, quelques bars indépendants et clubs de plage, les grandes chaînes de supermarchés comme Carrefour et Marjane, et des boutiques de spiritueux dédiées dans les villes." },
       { q: "Peut-on boire en public au Maroc ?", a: "Non — boire en public est une infraction pénale, et l'ivresse publique visible peut entraîner une amende ou un bref séjour en cellule. Buvez à l'intérieur d'établissements agréés, de chambres d'hôtel ou dans un cadre privé, et transportez l'alcool discrètement plutôt que visiblement à travers la médina." },
@@ -5829,7 +5829,7 @@ Pour savoir quoi commander ensuite au restaurant, le [guide de la cuisine maroca
       "Guide mois par mois des festivals marocains : Gnaoua \u00e0 Essaouira, la r\u00e9colte des roses de Kelaat M'Gouna, le moussem d'Imilchil, le Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "Quel est le plus grand festival du Maroc ?", a: "Par sa notori\u00e9t\u00e9 internationale, le Festival Gnaoua et Musiques du Monde d'Essaouira : trois jours de concerts gratuits en plein air fin juin, qui attirent des centaines de milliers de personnes. Par son importance locale, c'est sans doute le Ramadan et l'A\u00efd qui le cl\u00f4t, qui changent le rythme du pays entier pendant un mois." },
+      { q: "Quel est le plus grand festival du Maroc ?", a: "Par sa notori\u00e9t\u00e9 internationale, le Festival Gnaoua et Musiques du Monde d'Essaouira : trois jours de concerts en plein air fin juin, qui attirent des centaines de milliers de personnes. Par son importance locale, c'est sans doute le Ramadan et l'A\u00efd qui le cl\u00f4t, qui changent le rythme du pays entier pendant un mois." },
       { q: "Les dates des festivals marocains changent-elles chaque ann\u00e9e ?", a: "La plupart, oui, et pour trois raisons diff\u00e9rentes. Les dates religieuses suivent le calendrier h\u00e9girien et sont fix\u00e9es au Maroc par l'observation de la lune via le minist\u00e8re des Habous et des Affaires islamiques : elles avancent d'environ onze jours chaque ann\u00e9e gr\u00e9gorienne. Les f\u00eates de r\u00e9colte comme le Festival des Roses suivent la culture. Les moussems de village sont fix\u00e9s localement, parfois quelques semaines seulement \u00e0 l'avance." },
       { q: "Quand a lieu le Festival des Roses au Maroc ?", a: "Kelaat M'Gouna l'organise au pic de la r\u00e9colte de la rose de Damas, qui tombe dans les deux premi\u00e8res semaines de mai chaque ann\u00e9e r\u00e9cente \u2014 l'\u00e9dition 2026 s'est tenue du 7 au 10 mai. Les organisateurs ne confirment les jours exacts que quelques semaines \u00e0 l'avance : consid\u00e9rez mai comme la fen\u00eatre plut\u00f4t que de r\u00e9server des vols sur une date pr\u00e9cise." },
       { q: "Peut-on voyager au Maroc pendant le Ramadan ?", a: "Oui, et c'est l'une des p\u00e9riodes les plus marquantes pour venir, mais la journ\u00e9e se d\u00e9roule autrement. Beaucoup de restaurants restent ferm\u00e9s jusqu'au coucher du soleil, mus\u00e9es et administrations r\u00e9duisent leurs horaires, et la m\u00e9dina s'\u00e9veille vraiment apr\u00e8s le canon de l'iftar. Le trek n'est pas affect\u00e9 : les guides organisent repas et eau en cons\u00e9quence." },
@@ -5899,8 +5899,7 @@ actuel des dates.
 Trois jours de transe gnaoua face à l'Atlantique, dans une cité fortifiée vidée
 de ses voitures et remplie de tambours. Les maâlems — maîtres musiciens gnaoua
 — jouent sur des scènes ouvertes à travers la ville, aux côtés d'invités jazz
-et musiques du monde qui improvisent avec eux. C'est gratuit, en plein air, et
-la médina veille jusqu'à l'aube.
+et musiques du monde qui improvisent avec eux. Les concerts ont lieu en plein air et la médina veille jusqu'à l'aube. En 2026, les scènes étaient payantes (400 à 600 MAD la soirée pour la grande scène) : vérifiez les tarifs sur le site officiel avant de partir.
 
 Le problème pratique, ce sont les lits. Les hébergements à Essaouira se
 rempliraient **neuf à douze mois** à l'avance pour le festival. D'où l'intérêt
@@ -7815,7 +7814,7 @@ monde** remplit la ville quatre jours chaque juin — **du 25 au 27 juin 2026**,
 pour sa 27e édition — avec les maâlems gnaoua jouant aux côtés de musiciens de
 jazz, de funk et du monde entier sur des scènes en plein air.
 
-C'est gratuit, c'est excellent, et la ville est absolument comble. Si vous
+C'est excellent, et la ville est absolument comble. En 2026, les scènes étaient payantes (400 à 600 MAD la soirée pour la grande scène). Si vous
 voulez y être, réservez des mois à l'avance. Sinon, évitez cette semaine.
 
 ## Excursion d'une journée ou séjour ?

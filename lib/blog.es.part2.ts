@@ -5784,7 +5784,7 @@ Para saber qué pedir luego por tu cuenta, la [guía gastronómica de Marruecos]
       "Gu\u00eda mes a mes de los festivales marroqu\u00edes: Gnaoua en Essaouira, la cosecha de rosas de Kelaat M'Gouna, el moussem de Imilchil, el Ramad\u00e1n.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "\u00bfCu\u00e1l es el festival m\u00e1s grande de Marruecos?", a: "Por proyecci\u00f3n internacional, el Festival Gnaoua y M\u00fasicas del Mundo de Essaouira: tres d\u00edas de conciertos gratuitos al aire libre a finales de junio que atraen a cientos de miles de personas. Por significado local, probablemente el Ramad\u00e1n y el Eid que lo cierra, que cambian el ritmo del pa\u00eds entero durante un mes." },
+      { q: "\u00bfCu\u00e1l es el festival m\u00e1s grande de Marruecos?", a: "Por proyecci\u00f3n internacional, el Festival Gnaoua y M\u00fasicas del Mundo de Essaouira: tres d\u00edas de conciertos al aire libre a finales de junio que atraen a cientos de miles de personas. Por significado local, probablemente el Ramad\u00e1n y el Eid que lo cierra, que cambian el ritmo del pa\u00eds entero durante un mes." },
       { q: "\u00bfCambian cada a\u00f1o las fechas de los festivales marroqu\u00edes?", a: "La mayor\u00eda s\u00ed, y por tres razones distintas. Las fechas religiosas siguen el calendario h\u00e9gira y en Marruecos las fija el avistamiento de la luna a trav\u00e9s del Ministerio de Habices y Asuntos Isl\u00e1micos, as\u00ed que se adelantan unos once d\u00edas cada a\u00f1o gregoriano. Las fiestas de cosecha como el Festival de las Rosas siguen al cultivo. Los moussems de pueblo se fijan localmente, a veces con solo unas semanas de antelaci\u00f3n." },
       { q: "\u00bfCu\u00e1ndo es el Festival de las Rosas en Marruecos?", a: "Kelaat M'Gouna lo celebra en el pico de la cosecha de la rosa de Damasco, que ha ca\u00eddo en las dos primeras semanas de mayo todos los a\u00f1os recientes: la edici\u00f3n de 2026 fue del 7 al 10 de mayo. Los organizadores confirman los d\u00edas exactos solo unas semanas antes, as\u00ed que trata mayo como la ventana en lugar de reservar vuelos para una fecha concreta." },
       { q: "\u00bfSe puede viajar a Marruecos durante el Ramad\u00e1n?", a: "S\u00ed, y es una de las \u00e9pocas m\u00e1s memorables para venir, pero el d\u00eda transcurre de otra manera. Muchos restaurantes cierran hasta la puesta de sol, museos y oficinas reducen horarios, y la medina despierta de verdad tras el ca\u00f1onazo del iftar. El trekking no se ve afectado: los gu\u00edas planifican comida y agua en consecuencia." },
@@ -5854,8 +5854,7 @@ antes, porque deciden las flores. Véase la
 Tres días de trance gnaoua frente al Atlántico, en una ciudad amurallada que se
 vacía de coches y se llena de tambores. Los maalems — maestros músicos gnaoua —
 tocan en escenarios abiertos por toda la ciudad, junto a invitados de jazz y
-músicas del mundo que improvisan con ellos. Es gratuito, al aire libre, y la
-medina no duerme hasta el amanecer.
+músicas del mundo que improvisan con ellos. Los conciertos son al aire libre y la medina no duerme hasta el amanecer. En 2026 los escenarios fueron de pago (el escenario principal costaba 400–600 MAD por noche), así que consulta los precios en la web oficial antes de ir.
 
 El problema práctico son las camas. El alojamiento en Essaouira se agotaría con
 **nueve a doce meses** de antelación. De ahí que una
@@ -7750,7 +7749,7 @@ Mundo** llena la ciudad cuatro días cada junio —**del 25 al 27 de junio de
 2026**, en su 27ª edición— con maâlems gnaoua tocando junto a músicos de jazz,
 funk y música del mundo en escenarios al aire libre.
 
-Es gratuito, es muy bueno y la ciudad se llena por completo. Si quieres estar,
+Es muy bueno y la ciudad se llena por completo. En 2026 los escenarios fueron de pago (el principal costaba 400–600 MAD por noche). Si quieres estar,
 reserva con meses de antelación. Si no, evita esa semana.
 
 ## ¿Excursión de un día o quedarse?

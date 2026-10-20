@@ -5784,7 +5784,7 @@ Per sapere cosa ordinare poi da soli, la [guida alla cucina marocchina](/it/blog
       "Guida mese per mese alle feste marocchine: Gnaoua a Essaouira, la raccolta delle rose di Kelaat M'Gouna, il moussem di Imilchil, il Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "Qual \u00e8 la festa pi\u00f9 grande del Marocco?", a: "Per risonanza internazionale, il Festival Gnaoua e Musiche del Mondo di Essaouira: tre giorni di concerti gratuiti all'aperto a fine giugno, che attirano centinaia di migliaia di persone. Per significato locale, probabilmente il Ramadan e l'Eid che lo chiude, che cambiano il ritmo dell'intero paese per un mese." },
+      { q: "Qual \u00e8 la festa pi\u00f9 grande del Marocco?", a: "Per risonanza internazionale, il Festival Gnaoua e Musiche del Mondo di Essaouira: tre giorni di concerti all'aperto a fine giugno, che attirano centinaia di migliaia di persone. Per significato locale, probabilmente il Ramadan e l'Eid che lo chiude, che cambiano il ritmo dell'intero paese per un mese." },
       { q: "Le date delle feste marocchine cambiano ogni anno?", a: "La maggior parte s\u00ec, per tre motivi diversi. Le date religiose seguono il calendario dell'Egira e in Marocco sono fissate dall'avvistamento della luna tramite il Ministero degli Habous e degli Affari islamici, quindi anticipano di circa undici giorni ogni anno gregoriano. Le feste del raccolto come il Festival delle Rose seguono la coltura. I moussem di villaggio si fissano localmente, a volte con poche settimane di anticipo." },
       { q: "Quando si tiene il Festival delle Rose in Marocco?", a: "Kelaat M'Gouna lo organizza al culmine della raccolta della rosa damascena, che \u00e8 caduta nelle prime due settimane di maggio in tutti gli anni recenti: l'edizione 2026 si \u00e8 tenuta dal 7 al 10 maggio. Gli organizzatori confermano i giorni esatti solo poche settimane prima, quindi consideri maggio come la finestra invece di prenotare voli su una data precisa." },
       { q: "Si pu\u00f2 viaggiare in Marocco durante il Ramadan?", a: "S\u00ec, ed \u00e8 uno dei periodi pi\u00f9 memorabili per venire, ma la giornata scorre diversamente. Molti ristoranti restano chiusi fino al tramonto, musei e uffici riducono gli orari, e la medina si sveglia davvero dopo il colpo di cannone dell'iftar. Il trekking non ne risente: le guide organizzano cibo e acqua di conseguenza." },
@@ -5853,8 +5853,7 @@ perché decidono i fiori. Vedi la
 Tre giorni di trance gnaoua sull'Atlantico, in una città murata che si svuota di
 auto e si riempie di tamburi. I maalem — maestri musicisti gnaoua — suonano su
 palchi aperti in tutta la città, insieme a ospiti jazz e world music che
-improvvisano con loro. È gratuito, all'aperto, e la medina resta sveglia fino
-all'alba.
+improvvisano con loro. I concerti sono all'aperto e la medina resta sveglia fino all'alba. Nel 2026 i palchi erano a pagamento (il palco principale costava 400–600 MAD a sera), quindi verificate i prezzi sul sito ufficiale prima di partire.
 
 Il problema pratico sono i letti. Gli alloggi a Essaouira si esaurirebbero
 **nove-dodici mesi** prima. Ecco perché una
@@ -7743,7 +7742,7 @@ riempie la città per quattro giorni ogni giugno — **dal 25 al 27 giugno 2026*
 alla 27ª edizione — con i maâlem gnaoua che suonano accanto a musicisti jazz,
 funk e world su palchi all'aperto.
 
-È gratuito, è ottimo, e la città è piena in ogni angolo. Se volete esserci,
+È ottimo, e la città è piena in ogni angolo. Nel 2026 i palchi erano a pagamento (il palco principale costava 400–600 MAD a sera). Se volete esserci,
 prenotate con mesi di anticipo. Altrimenti, evitate quella settimana.
 
 ## Gita in giornata o soggiorno?

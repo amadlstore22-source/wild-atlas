@@ -1644,7 +1644,7 @@ Praktisch heißt das: Touren laufen im Ramadan normal weiter. Auf unseren [Wüst
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["Alkohol in Marokko", "Marokko Alkoholgesetze", "kann man in Marokko trinken", "Marokko Bars"],
-    seoTitle: "Alkohol in Marokko: erlaubt ab 18",
+    seoTitle: "Alkohol in Marokko: Regeln und Preise",
     seoDescription:
       "Legal ab 18. Wo Sie Alkohol kaufen (Carrefour, Marjane, lizenzierte Bars), was er kostet, wo Trinken verboten ist und was im Ramadan gilt.",
     faq: [
@@ -5797,7 +5797,7 @@ Was Sie danach auf eigene Faust bestellen sollten, steht im [Marokko-Küchenguid
       "Monatsweiser \u00dcberblick der marokkanischen Feste: Gnaoua in Essaouira, die Rosenernte in Kelaat M'Gouna, das Moussem von Imilchil, Ramadan.",
     relatedTours: ["shared-essaouira-day-trip", "shared-merzouga-3day-marrakech", "atlas-mountains-3day-trek", "marrakech-medina-cultural-tour"],
     faq: [
-      { q: "Was ist das gr\u00f6\u00dfte Fest in Marokko?", a: "International betrachtet das Gnaoua- und Weltmusikfestival in Essaouira: drei Tage kostenlose Open-Air-Konzerte Ende Juni, die Hunderttausende anziehen. Von lokaler Bedeutung her wohl der Ramadan und das ihn abschlie\u00dfende Eid, die einen Monat lang den Rhythmus des ganzen Landes ver\u00e4ndern." },
+      { q: "Was ist das gr\u00f6\u00dfte Fest in Marokko?", a: "International betrachtet das Gnaoua- und Weltmusikfestival in Essaouira: drei Tage Open-Air-Konzerte Ende Juni, die Hunderttausende anziehen. Von lokaler Bedeutung her wohl der Ramadan und das ihn abschlie\u00dfende Eid, die einen Monat lang den Rhythmus des ganzen Landes ver\u00e4ndern." },
       { q: "\u00c4ndern sich marokkanische Festtermine jedes Jahr?", a: "Die meisten ja, aus drei verschiedenen Gr\u00fcnden. Religi\u00f6se Termine folgen dem Hidschri-Kalender und werden in Marokko durch Mondsichtung \u00fcber das Ministerium f\u00fcr Stiftungen und islamische Angelegenheiten festgelegt, sie wandern also jedes gregorianische Jahr rund elf Tage nach vorn. Erntefeste wie das Rosenfest richten sich nach der Ernte. Dorf-Moussems werden vor Ort festgelegt, manchmal erst wenige Wochen vorher." },
       { q: "Wann ist das Rosenfest in Marokko?", a: "Kelaat M'Gouna feiert es auf dem H\u00f6hepunkt der Damaszener-Rosenernte, die in allen j\u00fcngeren Jahren in die ersten beiden Maiwochen fiel \u2014 die Ausgabe 2026 lief vom 7. bis 10. Mai. Die Veranstalter best\u00e4tigen die genauen Tage erst wenige Wochen vorher: Behandeln Sie Mai als Zeitfenster, statt Fl\u00fcge auf ein festes Datum zu buchen." },
       { q: "Kann man w\u00e4hrend des Ramadan in Marokko reisen?", a: "Ja, und es ist eine der eindr\u00fccklichsten Zeiten f\u00fcr einen Besuch, nur l\u00e4uft der Tag anders. Viele Restaurants bleiben bis Sonnenuntergang geschlossen, Museen und \u00c4mter haben k\u00fcrzere Zeiten, und die Medina erwacht erst nach dem Iftar-Kanonenschuss richtig. Trekking ist davon unber\u00fchrt: Die Guides planen Verpflegung und Wasser entsprechend." },
@@ -5865,8 +5865,7 @@ weil die Blüten entscheiden. Siehe die
 Drei Tage Gnaoua-Trance am Atlantik, in einer Stadtmauer, die sich von Autos
 leert und mit Trommeln füllt. Maalems — Gnaoua-Meistermusiker — spielen auf
 offenen Bühnen in der ganzen Stadt, zusammen mit Jazz- und Weltmusikgästen, die
-mit ihnen improvisieren. Der Eintritt ist frei, alles findet draußen statt, und
-die Medina bleibt bis zum Morgengrauen wach.
+mit ihnen improvisieren. Die Konzerte finden draußen statt, und die Medina bleibt bis zum Morgengrauen wach. 2026 waren die Bühnen kostenpflichtig (die Hauptbühne kostete 400–600 MAD pro Abend), prüfen Sie die Preise daher vor der Reise auf der offiziellen Website.
 
 Das praktische Problem sind Betten. Unterkünfte in Essaouira sollen **neun bis
 zwölf Monate** im Voraus ausgebucht sein. Deshalb ist ein
@@ -7769,7 +7768,7 @@ Festival** füllt die Stadt jeden Juni vier Tage lang — **25. bis 27. Juni
 2026**, die 27. Ausgabe — mit Gnaoua-Maâlems neben Jazz-, Funk- und
 Weltmusikern auf offenen Bühnen.
 
-Es ist kostenlos, es ist sehr gut, und die Stadt ist restlos voll. Wer dabei
+Es ist sehr gut, und die Stadt ist restlos voll. 2026 waren die Bühnen kostenpflichtig (die Hauptbühne kostete 400–600 MAD pro Abend). Wer dabei
 sein will, bucht Monate im Voraus. Wer nicht, meidet diese Woche.
 
 ## Tagesausflug oder bleiben?

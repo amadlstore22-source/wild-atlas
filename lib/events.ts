@@ -205,14 +205,14 @@ export const EVENTS: TourEvent[] = [
     blurb:
       "Three days of Gnaoua trance music on the Atlantic, in a walled town that empties of cars and fills with drums.",
     description:
-      "Maalems — Gnaoua master musicians — play open stages across Essaouira, alongside jazz and world-music guests who improvise with them. It is free, it is outdoors, and the medina stays awake until dawn. Accommodation in Essaouira sells out months ahead, so a day trip from Marrakech is often the more realistic way to see it.",
+      "Maalems — Gnaoua master musicians — play open stages across Essaouira, alongside jazz and world-music guests who improvise with them. The concerts are outdoors and the medina stays awake until dawn. The stages were ticketed in 2026 (the main stage cost 400–600 MAD a night), so check prices on the official site before you go. Accommodation in Essaouira sells out months ahead, so a day trip from Marrakech is often the more realistic way to see it.",
     tourSlugs: ["shared-essaouira-day-trip", "agadir-to-essaouira-day-trip"],
     // Essaouira harbour. Until 2026-10-06 this was a Jemaa el-Fna (Marrakech) photo.
     heroImage: "/gallery/destinations-essaouira.jpg",
     bookAheadWeeks: 40,
     highlights: [
       "Maalems — Gnaoua master musicians — on open stages across the medina",
-      "Free and outdoors: no ticket, no venue, the whole town is the festival",
+      "Outdoor stages across town, from Moulay Hassan square to the beach",
       "Jazz and world-music guests improvising with Gnaoua groups on the same stage",
       "Essaouira closed to cars, so the walled town is walkable end to end",
       "The medina stays awake until dawn",

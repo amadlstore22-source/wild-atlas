@@ -21,7 +21,9 @@ export function useFormSubmit(options?: Options) {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
+        // The page language (/fr/..., /es/...), so the confirmation email the
+        // visitor receives is in it. The route accepts only our six locales.
+        body: JSON.stringify({ lang: window.location.pathname.split("/")[1], ...body }),
       });
       if (res.ok) {
         setSent(true);

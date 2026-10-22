@@ -5,6 +5,7 @@ import { limitByIp, rateLimit } from "@/lib/rate-limit";
 import { isCrossOrigin } from "@/lib/request-origin";
 import { enquirySourceLabel } from "@/lib/enquiry-source";
 import { safeGreetingName, isRealTourTitle } from "@/lib/enquiry-safety";
+import { confirmationEmail, confirmationLang } from "@/lib/enquiry-confirmation";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -80,6 +81,9 @@ export async function POST(req: NextRequest) {
     // Optional "How did you hear about us?": a key mapped to a fixed English
     // label; anything else becomes "" (lib/enquiry-source.ts).
     const heard = enquirySourceLabel(body.heard);
+    // The page language (hooks/useFormSubmit.ts), so the visitor's confirmation
+    // is written in it. Anything unexpected falls back to English.
+    const lang = confirmationLang(body.lang);
 
     if (!name || !email || !EMAIL_RE.test(email)) {
       return NextResponse.json({ error: "Missing or invalid fields" }, { status: 400 });
@@ -160,16 +164,11 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ ok: true });
       }
       const greet = safeGreetingName(name);
-      const hi = greet ? `Hi ${greet}` : "Hello";
       const realTour = isRealTourTitle(tour) ? tour : "";
-
-      // "Confirm availability" implied the date might not be free. We run private
-      // departures, so the date is the customer's to choose — the reply is about
-      // finalising details, not checking a schedule.
-      const confirmationBody =
-        type === "booking"
-          ? `${hi},\n\nThank you for your booking inquiry${realTour ? ` for "${realTour}"` : ""}.\n\nWe've received your request${date ? ` for ${date}` : ""} and one of our guides will get back to you within the hour (8:00–20:00 Morocco time) to confirm your dates and go through the details.\n\nWe run private departures, so we build the trip around the dates you want.\n\nFor faster responses, you can also reach us on WhatsApp.\n\nBest regards,\nThe Marrakech Eco Tours Team`
-          : `${hi},\n\nThank you for getting in touch with Marrakech Eco Tours.\n\nWe've received your message and will reply to ${email} within the hour (8:00–20:00 Morocco time). For urgent inquiries, WhatsApp is the fastest way to reach us.\n\nBest regards,\nThe Marrakech Eco Tours Team`;
+      // Private departures, so the date is the customer's to choose: the reply
+      // is about finalising details, not checking a schedule. The wording, in
+      // six languages, is in lib/enquiry-confirmation.ts.
+      const confirmation = confirmationEmail({ lang, type, greet, tour: realTour, date, email });
 
       const confirmRes = await fetch("https://api.resend.com/emails", {
         method: "POST",
@@ -180,11 +179,8 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           from: "Marrakech Eco Tours <noreply@marrakechecotours.com>",
           to: [email],
-          subject:
-            type === "booking"
-              ? `We received your booking inquiry${realTour ? ` — ${realTour}` : ""}`
-              : "We received your message — Marrakech Eco Tours",
-          text: confirmationBody,
+          subject: confirmation.subject,
+          text: confirmation.text,
           reply_to: SITE.email,
         }),
       });

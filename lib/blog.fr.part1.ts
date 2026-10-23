@@ -691,7 +691,7 @@ Ce qui est moins connu, c'est à quel point la ville est restée délibérément
 
 **Depuis Tanger (2h30) :** si vous arrivez par ferry depuis l'Espagne, Chefchaouen est une première étape naturelle.
 
-**Depuis Marrakech (6 à 7 heures) :** long mais faisable en trajet de nuit en bus, ou en combinant avion et location de voiture via le hub de Fès. Le trajet étant la partie difficile, la plupart des voyageurs l'intègrent à un séjour plus long : notre [circuit de 4 jours de Marrakech à Chefchaouen](/fr/tours/marrakech-to-chefchaouen-4day) coupe la route par une nuit à Fès.
+**Depuis Marrakech (8 à 9 heures) :** long mais faisable en trajet de nuit en bus, ou en combinant avion et location de voiture via le hub de Fès. Le trajet étant la partie difficile, la plupart des voyageurs l'intègrent à un séjour plus long : notre [circuit de 4 jours de Marrakech à Chefchaouen](/fr/tours/marrakech-to-chefchaouen-4day) coupe la route par une nuit à Fès.
 
 Il n'y a pas de train pour Chefchaouen. La gare la plus proche est à Fès.
 

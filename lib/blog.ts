@@ -793,7 +793,7 @@ What is less widely known is how deliberately closed the town stayed afterward. 
 
 **From Tangier (2.5 hours):** If you're arriving by ferry from Spain, Chefchaouen is a natural first stop.
 
-**From Marrakech (6–7 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub. Because the drive is the hard part, most travellers coming from the south fold it into a longer trip: our [4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) breaks the journey with a night in Fes rather than doing it in one sitting, and there is a [5-day version from Agadir](/en/tours/agadir-to-chefchaouen-5day) if you are starting further down the coast. What each option actually costs, including the bus and self-drive routes, is broken down in [Marrakech to Chefchaouen tour cost](/en/blog/marrakech-to-chefchaouen-tour-cost).
+**From Marrakech (8–9 hours):** Long but doable as an overnight bus journey or a fly-drive using the Fes hub. Because the drive is the hard part, most travellers coming from the south fold it into a longer trip: our [4-day Marrakech to Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) breaks the journey with a night in Fes rather than doing it in one sitting, and there is a [5-day version from Agadir](/en/tours/agadir-to-chefchaouen-5day) if you are starting further down the coast. What each option actually costs, including the bus and self-drive routes, is broken down in [Marrakech to Chefchaouen tour cost](/en/blog/marrakech-to-chefchaouen-tour-cost).
 
 There is no train to Chefchaouen. The nearest train station is Fes.
 
@@ -3928,9 +3928,9 @@ Practically: tours run as normal through Ramadan. On our [desert tours from Marr
     publishedAt: "2026-07-20",
     updatedAt: "2026-08-07",
     tags: ["alcohol in Morocco", "Morocco drinking laws", "can you drink in Morocco", "Morocco bars"],
-    seoTitle: "Is Alcohol Legal in Morocco?",
+    seoTitle: "Is Alcohol Legal in Morocco? Drinking Age",
     seoDescription:
-      "Legal in Morocco for visitors 18+. Where to buy it (Carrefour, Marjane, licensed bars), what it costs, and where drinking is banned.",
+      "The legal drinking age in Morocco is 18. Where to buy alcohol (Carrefour, Marjane, licensed bars), what it costs, and where drinking is banned.",
     faq: [
       { q: "Is alcohol legal in Morocco?", a: "Yes. Morocco is a Muslim-majority country and most Moroccans don't drink, but alcohol is legal for anyone over 18, sold and served in licensed venues: hotel bars and restaurants, some standalone bars and beach clubs, larger supermarkets like Carrefour and Marjane, and dedicated liquor shops in cities." },
       { q: "Can I drink in public in Morocco?", a: "No — public drinking is a criminal offence, and visible public intoxication can lead to a fine or a short spell in a holding cell. Drink inside licensed venues, hotel rooms or private settings, and carry alcohol discreetly rather than visibly through the medina." },
@@ -5011,7 +5011,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     tags: ["Toubkal guide cost", "Toubkal price", "cost to climb Toubkal", "Morocco trekking cost", "Toubkal guide fee", "Imlil", "High Atlas"],
     seoTitle: "Toubkal Guide Cost: 500-800 MAD a Day",
     seoDescription:
-      "What a licensed Toubkal mountain guide really costs in 2026: day rates, the full itemised trek bill (mule, refuge, meals, park fee, transfer).",
+      "How much it costs to climb Mount Toubkal in 2026: guide day rates (500-800 MAD) and the full trek bill: mule, refuge, meals, park fee, transfer.",
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
     faq: [
       { q: "How much does a Toubkal guide cost per day?", a: "A licensed mountain guide typically costs 500–800 MAD per day (roughly £40–63 / €46–74) hired directly at Imlil, and the fee is split across your group rather than charged per person. Winter ascents sit at the upper end because the summit becomes a snow climb. That fee covers the guide only — the mule, refuge bed and half board, park fee and transfer are separate." },

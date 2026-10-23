@@ -691,7 +691,7 @@ Lo menos conocido es cuán deliberadamente cerrada se mantuvo la localidad despu
 
 **Desde Tánger (2,5 horas):** si llegas en ferri desde España, Chefchaouen es una parada inicial natural.
 
-**Desde Marrakech (6-7 horas):** largo pero factible como trayecto en autobús nocturno o con un vuelo más coche usando Fez como punto de enlace. Como el trayecto es lo complicado, la mayoría lo integra en un viaje más largo: nuestro [tour de 4 días de Marrakech a Chefchaouen](/es/tours/marrakech-to-chefchaouen-4day) parte el camino con una noche en Fez.
+**Desde Marrakech (8-9 horas):** largo pero factible como trayecto en autobús nocturno o con un vuelo más coche usando Fez como punto de enlace. Como el trayecto es lo complicado, la mayoría lo integra en un viaje más largo: nuestro [tour de 4 días de Marrakech a Chefchaouen](/es/tours/marrakech-to-chefchaouen-4day) parte el camino con una noche en Fez.
 
 No hay tren a Chefchaouen. La estación de tren más cercana es Fez.
 

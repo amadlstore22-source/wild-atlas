@@ -258,8 +258,8 @@ Wenn Sie uns Ihre Daten nennen und was Ihnen wirklich wichtig ist, skizzieren wi
     updatedAt: "2026-07-18",
     weatherRegion: "High Atlas",
     tags: ["Toubkal Wetter", "wann Toubkal besteigen", "Hoher Atlas", "Toubkal Bedingungen", "Marokko Trekking", "beste Zeit Toubkal"],
-    seoTitle: "Toubkal-Wetter nach Monat",
-    seoDescription: "Das Wetter am Mount Toubkal Monat für Monat, von tiefem Winterschnee bis zum stabilen Herbstfenster, mit Live-Talwerten und Packlisten für jede Jahreszeit.",
+    seoTitle: "Toubkal-Wetter am Gipfel, Monat für Monat",
+    seoDescription: "Das Wetter am Jbel Toubkal (4.167 m) Monat für Monat: Gipfel- und Talwerte, Winterschnee, das stabile Herbstfenster und die Packliste je Jahreszeit.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "Wie ist das Wetter am Mount Toubkal?", a: "Deutlich kälter als in Marrakech. Der Gipfel liegt auf 4.167 Metern, rund 3.700 Meter über der Stadt, und die Temperatur sinkt pro 1.000 Höhenmeter um etwa 6 bis 10 °C. Ein milder Frühlingstag im Tal kann auf dem Gipfel nahe dem Gefrierpunkt liegen, noch bevor der Windchill mitgerechnet wird." },
@@ -6039,7 +6039,7 @@ Wenn Ihre Reise das Land durchquert, müssen Sie vielleicht gar nicht zum Ausgan
     tags: ["Sahara Wetter", "Merzouga Temperatur", "beste Reisezeit Wueste Marokko", "Packliste Wueste", "Klima Erg Chebbi"],
     seoTitle: "Wie kalt ist die Sahara nachts? Nach Monat",
     seoDescription:
-      "Sahara-N\u00e4chte in Marokko: im Januar im Mittel etwa 6 \u00b0C, in klaren Wintern\u00e4chten unter null, im Juli um 29 \u00b0C. Merzouga Monat f\u00fcr Monat.",
+      "Sahara-Nächte in Marokko: im Januar im Mittel etwa 6 °C, in klaren Winternächten unter null, im Juli um 29 °C. Erg Chebbi (Merzouga) Monat für Monat.",
     relatedTours: ["shared-merzouga-3day-marrakech", "merzouga-stargazing-desert-tour", "erg-chegaga-3day-marrakech", "family-desert-4day-marrakech"],
     faq: [
       { q: "Wie kalt wird es nachts in der marokkanischen Sahara?", a: "Kalt genug, um wirklich unangenehm zu werden, wenn man nur f\u00fcr den Tag gepackt hat. Die Januarn\u00e4chte in Merzouga liegen im Mittel bei etwa 6 \u00b0C, und eine klare, windstille Nacht kann mehrere Grad tiefer gehen \u2014 nahe dem Gefrierpunkt. Die D\u00fcnen liegen auf 730 m, die Luft ist extrem trocken, die W\u00e4rme entweicht nach Sonnenuntergang also schnell." },
@@ -6053,7 +6053,7 @@ zu packen. Man nimmt kurze Hosen und einen Sonnenhut mit und liegt dann nachts
 wach und friert. Der Erg Chebbi liegt auf **730 Metern** in extrem trockener
 Luft, und sobald die Sonne weg ist, hält nichts die Wärme.
 
-## Merzouga, Monat für Monat
+## Erg Chebbi (Merzouga): Wetter Monat für Monat
 
 Mittlere Tageshöchstwerte:
 

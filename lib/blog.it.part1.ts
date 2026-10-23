@@ -684,7 +684,7 @@ Ciò che è meno noto è quanto la città sia rimasta deliberatamente chiusa in 
 
 **Da Tangeri (2,5 ore):** se arrivate in traghetto dalla Spagna, Chefchaouen è una tappa naturale iniziale.
 
-**Da Marrakech (6-7 ore):** lungo ma fattibile come viaggio notturno in autobus o con un volo più noleggio auto passando per lo snodo di Fes. Poiché il viaggio è la parte difficile, la maggior parte lo inserisce in un itinerario più lungo: il nostro [tour di 4 giorni da Marrakech a Chefchaouen](/it/tours/marrakech-to-chefchaouen-4day) spezza il tragitto con una notte a Fes.
+**Da Marrakech (8-9 ore):** lungo ma fattibile come viaggio notturno in autobus o con un volo più noleggio auto passando per lo snodo di Fes. Poiché il viaggio è la parte difficile, la maggior parte lo inserisce in un itinerario più lungo: il nostro [tour di 4 giorni da Marrakech a Chefchaouen](/it/tours/marrakech-to-chefchaouen-4day) spezza il tragitto con una notte a Fes.
 
 Non esiste un treno per Chefchaouen. La stazione ferroviaria più vicina è Fes.
 

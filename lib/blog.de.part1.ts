@@ -684,7 +684,7 @@ Weniger bekannt ist, wie bewusst abgeschottet die Stadt danach blieb. Etwa 450 J
 
 **Ab Tanger (2,5 Stunden):** Wenn Sie mit der Fähre aus Spanien ankommen, ist Chefchaouen ein natürlicher erster Halt.
 
-**Ab Marrakesch (6–7 Stunden):** Lang, aber machbar als Nachtbusreise oder als Fly-and-Drive über das Drehkreuz Fès. Da die Fahrt der schwierige Teil ist, verbinden die meisten sie mit einer längeren Reise: unsere [4-tägige Tour von Marrakesch nach Chefchaouen](/de/tours/marrakech-to-chefchaouen-4day) teilt die Strecke mit einer Nacht in Fès.
+**Ab Marrakesch (8–9 Stunden):** Lang, aber machbar als Nachtbusreise oder als Fly-and-Drive über das Drehkreuz Fès. Da die Fahrt der schwierige Teil ist, verbinden die meisten sie mit einer längeren Reise: unsere [4-tägige Tour von Marrakesch nach Chefchaouen](/de/tours/marrakech-to-chefchaouen-4day) teilt die Strecke mit einer Nacht in Fès.
 
 Es gibt keinen Zug nach Chefchaouen. Der nächstgelegene Bahnhof ist Fès.
 

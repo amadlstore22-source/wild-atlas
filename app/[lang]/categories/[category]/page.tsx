@@ -124,7 +124,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
         )}
 
         {faq.length > 0 && (
-          <FaqSection faq={faq} title={`${cat.label} — frequently asked questions`} />
+          <FaqSection faq={faq} title={`${cat.label} — ${dict.contact.faqTitle}`} />
         )}
       </div>
 

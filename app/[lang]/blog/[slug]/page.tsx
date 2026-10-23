@@ -519,7 +519,7 @@ export default async function BlogPostPage({ params }: BlogParams) {
               {post.faq && post.faq.length > 0 && (
                 <>
                   <ZelligeDivider className="!my-8" />
-                  <FaqSection faq={post.faq} />
+                  <FaqSection faq={post.faq} title={dict.contact.faqTitle} />
                 </>
               )}
 

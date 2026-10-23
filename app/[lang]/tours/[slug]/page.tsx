@@ -467,7 +467,7 @@ export default async function TourDetailPage({ params }: TourParams) {
 
             {tour.faq && tour.faq.length > 0 && (
               <div id="tour-faq" className="scroll-mt-32">
-                <FaqSection faq={tour.faq} />
+                <FaqSection faq={tour.faq} title={dict.contact.faqTitle} />
               </div>
             )}
           </div>

@@ -258,8 +258,8 @@ Si nos cuentas tus fechas y qué te importa realmente, te esbozamos una ruta, in
     updatedAt: "2026-07-18",
     weatherRegion: "High Atlas",
     tags: ["tiempo en el Toubkal", "cuándo subir al Toubkal", "Alto Atlas", "condiciones del Toubkal", "trekking en Marruecos", "mejor época para el Toubkal"],
-    seoTitle: "El tiempo en el Toubkal mes a mes",
-    seoDescription: "El clima mes a mes en el monte Toubkal, desde la nieve profunda de invierno hasta la ventana estable del otoño.",
+    seoTitle: "Toubkal: tiempo y temperatura mes a mes",
+    seoDescription: "Tiempo y temperatura en el monte Toubkal (Tubqal, 4.167 m) mes a mes, desde la nieve profunda del invierno hasta la ventana estable del otoño.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "¿Cómo es el clima en el monte Toubkal?", a: "Mucho más frío que en Marrakech. La cima se sitúa a 4.167 metros, unos 3.700 metros por encima de la ciudad, y la temperatura baja entre 6 y 10 °C por cada 1.000 metros que se asciende. Un día templado de primavera en el valle puede rondar el punto de congelación en la cima, sin contar la sensación térmica del viento." },
@@ -1355,9 +1355,9 @@ Eso es exactamente lo que hacen nuestros [tours al desierto desde Marrakech](/es
     publishedAt: "2026-07-20",
     updatedAt: "2026-07-20",
     tags: ["qué es un riad", "significado de riad", "alojamiento en Marrakech", "riad vs hotel"],
-    seoTitle: "¿Qué es un riad?",
+    seoTitle: "¿Qué es un riad? Significado y qué esperar",
     seoDescription:
-      "Un riad es una casa tradicional construida en torno a un jardín interior, no un término de marketing. La diferencia con un dar y qué esperar.",
+      "Riad significa «jardín»: una casa tradicional construida en torno a un patio interior. Qué es un riad, la diferencia con un dar y qué esperar.",
     faq: [
       { q: "¿Es cada 'riad' de Marrakech un riad de verdad?", a: "No. La palabra se ha convertido en una etiqueta de marketing que se aplica a casi cualquier casa de huéspedes boutique en una medina marroquí, tenga o no la característica que lo define: un patio central, tradicionalmente con jardín o fuente, alrededor del cual se abren todas las habitaciones. Un riad auténtico se organiza enteramente en torno a ese patio orientado hacia el interior. Si una propiedad se llama riad pero en realidad es un edificio de fachada a la calle sin patio central, está usando la palabra de forma laxa." },
       { q: "¿Por qué los riads dan la espalda a la calle, sin ventanas?", a: "Privacidad y clima, a partes casi iguales. Las casas marroquíes tradicionales mantenían la vida familiar apartada de la calle, así que los riads presentan muros exteriores lisos o mínimamente decorados y guardan toda la belleza —los azulejos, el yeso tallado, el jardín— dentro, mirando al patio. El patio cerrado también modera la temperatura, manteniéndose sombreado y fresco en verano." },
@@ -1833,7 +1833,7 @@ El argán y el Souss combinan a la perfección con los demás días del interior
     tags: ["UNESCO Morocco", "film locations", "Ait Ben Haddou", "Gladiator", "Game of Thrones", "Ouarzazate", "Essaouira"],
     seoTitle: "Localizaciones de cine en Marruecos",
     seoDescription:
-      "Los sitios UNESCO de Marruecos usados como localizaciones de cine: Aït Ben Haddou (Gladiator, Juego de Tronos), los estudios Atlas de Uarzazate y Esauira.",
+      "Dónde se rodaron Gladiator, Juego de Tronos y La joya del Nilo: Aït Ben Haddou, los estudios Atlas de Uarzazate y Esauira, sitios UNESCO de Marruecos.",
     relatedTours: ["desert-4day-marrakech", "sahara-3day-marrakech", "agadir-to-essaouira-day-trip"],
     content: `
 ## Donde el patrimonio mundial se encuentra con la gran pantalla

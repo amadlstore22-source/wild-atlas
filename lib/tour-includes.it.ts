@@ -485,7 +485,6 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Trasporto andata e ritorno da Marrakech",
       "Trekking in cammello al tramonto",
       "1 notte di alloggio in campo tendato nel deserto",
-      "Telescopio e sessione guidata di osservazione delle stelle",
       "Cena e colazione al campo",
     ],
     excludes: [

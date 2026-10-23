@@ -2796,11 +2796,11 @@ export const TOURS: Tour[] = [
     slug: "merzouga-stargazing-desert-tour",
     localizedSlug: "sternenhimmel-merzouga",
     brief: [
-      "Die meisten Wüstentouren erwähnen die Sterne im Prospekt und überlassen Ihnen dann das Hinschauen. Diese hier ist um den Himmel herum gebaut: Nach dem Kamelritt bei Sonnenuntergang und dem Abendessen baut ein Astronomie-Guide im Camp ein Teleskop auf und geht die Planeten, Sternbilder und Deep-Sky-Objekte durch, die in dieser Nacht zu sehen sind — erklärt in normaler Sprache statt in Fachjargon. Sie brauchen weder Ausrüstung noch Vorkenntnisse.",
+      "Das ist der kürzeste Weg von Marrakesch zu einem wirklich dunklen Wüstenhimmel. Nach dem Kamelritt bei Sonnenuntergang und dem Abendessen gehört der Abend im Camp Ihnen, unter einem der dunkelsten Himmel Nordafrikas. Es gibt weder Teleskop noch geführte Beobachtung; in einer klaren Nacht braucht man beides nicht, denn die Milchstraße, die hellsten Planeten und die Sternbilder sind mit bloßem Auge zu sehen.",
       "Dass es gerade am Erg Chebbi funktioniert, liegt an der Entfernung zu allem Elektrischen. In keiner Richtung gibt es Stadtlicht, sodass die Milchstraße in einer klaren Nacht mit bloßem Auge sichtbar ist — nicht als schwacher Schleier, sondern als Struktur quer über den Himmel. Das ist seltener, als man denkt; in Europa gibt es kaum noch einen so dunklen Ort.",
       "Der Preis dafür ist die Fahrt. Der Erg Chebbi liegt rund 560 km und etwa 8 Stunden von Marrakesch entfernt, in jede Richtung, und dies ist eine Zweitagesreise — also ein langer Fahrtag, eine Nacht im Camp und ein langer Fahrtag zurück. Tag eins kommt rechtzeitig zum Kamelritt und Abendessen an; Tag zwei bringt den Sonnenaufgang über den Dünen und die Rückfahrt. Wer das lieber aufteilen möchte, sollte sich eine 3- oder 4-tägige Wüstenroute ansehen.",
-      "Pro Person: 518 € allein, 260 € zu zweit, 191 € zu dritt, 160 € zu viert, 139 € zu fünft und 121 € ab sechs. Enthalten sind der Hin- und Rücktransport ab Marrakesch, der Kamelritt bei Sonnenuntergang, die Camp-Nacht, Abendessen und Frühstück sowie die Teleskopsitzung mit dem Astronomie-Guide. Das Mittagessen unterwegs ist nicht enthalten, Stopps gibt es aber; Reiseversicherung und Trinkgelder sind separat.",
-      "Zwei praktische Hinweise. Die Mondphase zählt mehr als die Jahreszeit — Vollmond überstrahlt lichtschwache Objekte. Wenn also der tiefe Himmel Ihr Grund für die Reise ist, buchen Sie rund um Neumond. Und Wüstennächte sind vom Herbst bis zum Frühjahr kalt, kälter als die meisten Gäste einplanen; beobachtet wird draußen, im Stehen, lange nach Einbruch der Dunkelheit. Nehmen Sie eine warme Schicht mit, die Ihnen übertrieben vorkommt. Private Gruppe von 2 bis 10 Personen.",
+      "Pro Person: 518 € allein, 260 € zu zweit, 191 € zu dritt, 160 € zu viert, 139 € zu fünft und 121 € ab sechs. Enthalten sind der Hin- und Rücktransport ab Marrakesch, der Kamelritt bei Sonnenuntergang, die Camp-Nacht sowie Abendessen und Frühstück. Das Mittagessen unterwegs ist nicht enthalten, Stopps gibt es aber; Reiseversicherung und Trinkgelder sind separat.",
+      "Zwei praktische Hinweise. Die Mondphase zählt mehr als die Jahreszeit — Vollmond überstrahlt die schwächeren Sterne. Wenn also die Milchstraße Ihr Grund für die Reise ist, buchen Sie rund um Neumond. Und Wüstennächte sind vom Herbst bis zum Frühjahr kalt, kälter als die meisten Gäste einplanen; den Himmel genießt man draußen, ohne sich viel zu bewegen, lange nach Einbruch der Dunkelheit. Nehmen Sie eine warme Schicht mit, die Ihnen übertrieben vorkommt. Private Gruppe von 2 bis 10 Personen.",
     ],
     title: "Merzouga Sahara-Sternenbeobachtung ab Marrakesch — 2-tägige Dark-Sky-Wüstentour",
     category: "desert",
@@ -2821,11 +2821,11 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
-      "Kameltrekking in den Erg Chebbi bei Sonnenuntergang, gefolgt von einer geführten Sternenbeobachtung mit bloßem Auge und Teleskop unter einem der dunkelsten Himmel Nordafrikas.",
+      "Kameltrekking in den Erg Chebbi bei Sonnenuntergang, dann eine Nacht im Camp unter einem der dunkelsten Himmel Nordafrikas, in klaren Nächten mit der Milchstraße mit bloßem Auge.",
     description:
-      "Der Erg Chebbi liegt weit genug von jeder Stadt entfernt, dass die Milchstraße in einer klaren Nacht mit bloßem Auge sichtbar ist — dieser Ausflug baut genau darauf auf, statt es als bloße Zugabe zu behandeln. Nach dem Kameltrekking bei Sonnenuntergang und dem Abendessen im Camp baut ein lokaler Astronomie-Guide ein Teleskop auf und führt die Gruppe durch die sichtbaren Planeten, Sternbilder und Deep-Sky-Objekte — in einfachen Worten statt Fachjargon erklärt. Am besten von Oktober bis Mai, wenn der Wüstenhimmel nachts am klarsten ist und die Hitze so weit gesunken ist, dass man stundenlang bequem draußen sitzen kann.",
+      "Der Erg Chebbi liegt weit genug von jeder Stadt entfernt, dass die Milchstraße in einer klaren Nacht mit bloßem Auge sichtbar ist — dieser Ausflug baut genau darauf auf, statt es als bloße Zugabe zu behandeln. Nach dem Kameltrekking bei Sonnenuntergang und dem Abendessen im Camp gehört Ihnen der Nachthimmel: In einer klaren, mondlosen Nacht sind die Milchstraße, die hellsten Planeten und die Sternbilder mit bloßem Auge zu sehen, ganz ohne Teleskop. Am besten von Oktober bis Mai, wenn der Wüstenhimmel nachts am klarsten ist und die Hitze so weit gesunken ist, dass man stundenlang bequem draußen sitzen kann.",
     highlights: [
-      "Geführte Sternenbeobachtung mit bloßem Auge und Teleskop mit einem Astronomie-Guide",
+      "Sternenhimmel mit bloßem Auge vom Camp aus — die Milchstraße in klaren, mondlosen Nächten",
       "Kameltrekking bei Sonnenuntergang in die Dünen von Erg Chebbi",
       "Eine Nacht in einem traditionellen Berber-Wüstencamp, fernab jeder Lichtverschmutzung",
       "Der beste Wüstennachthimmel Marokkos — keine Stadtaufhellung in irgendeiner Richtung",
@@ -2834,7 +2834,6 @@ export const TOURS: Tour[] = [
       "Hin- und Rückfahrt ab Marrakesch",
       "Kameltrekking bei Sonnenuntergang",
       "1 Übernachtung im Wüstencamp",
-      "Teleskop und geführte Sternenbeobachtung",
       "Abendessen und Frühstück im Camp",
     ],
     excludes: [
@@ -2852,7 +2851,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakesch → Erg-Chebbi-Wüstencamp",
         description:
-          "Frühe Abfahrt aus Marrakesch, über den Hohen Atlas und das Draa-Tal nach Merzouga. Kameltrekking bei Sonnenuntergang in die Dünen von Erg Chebbi. Abendessen im Camp, gefolgt von der geführten Sternenbeobachtung, sobald es vollständig dunkel ist.",
+          "Frühe Abfahrt aus Marrakesch, über den Hohen Atlas und das Draa-Tal nach Merzouga. Kameltrekking bei Sonnenuntergang in die Dünen von Erg Chebbi. Abendessen im Camp, danach der Sternenhimmel, sobald es vollständig dunkel ist.",
       },
       {
         day: 2,
@@ -2867,13 +2866,13 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },
     seoTitle: "Merzouga Sternenbeobachtungstour",
-    seoDescription: "Zwei Tage von Marrakesch nach Merzouga: Kameltrekking bei Sonnenuntergang, Teleskop-Session und eine Nacht im Erg-Chebbi-Camp.",
+    seoDescription: "Zwei Tage von Marrakesch nach Merzouga: Kameltrekking bei Sonnenuntergang und eine Nacht unter dunklem Himmel im Erg-Chebbi-Camp.",
     faq: [
-      { q: "Brauche ich eigene Astronomiekenntnisse oder Ausrüstung?", a: "Nein. Der Guide stellt das Teleskop und erklärt alles von Grund auf — dieser Ausflug ist ebenso für völlige Anfänger konzipiert wie für alle mit Interesse an Astronomie." },
+      { q: "Brauche ich eigene Astronomiekenntnisse oder Ausrüstung?", a: "Nein. Diese Tour hat weder Teleskop noch geführte Beobachtung; der Himmel am Camp ist dunkel genug, um ihn mit bloßem Auge zu genießen. Eine Sternen-App auf dem Handy hilft, das Gesehene zu benennen." },
       { q: "Was ist die beste Jahreszeit für diese Tour?", a: "Oktober bis Mai. Der Himmel ist am klarsten, und die Wüstennacht ist kühl genug, um bequem draußen zu sitzen; auch im Sommer ist der Sternenhimmel schön, aber die Nächte sind deutlich heißer." },
-      { q: "Was passiert, wenn es bewölkt ist?", a: "Klarer Himmel ist im Erg Chebbi außerhalb seltener winterlicher Sturmsysteme die Norm, aber sollte Bewölkung die Sternenbeobachtung verhindern, finden das Camp-Erlebnis, das Kameltrekking und das Abendessen trotzdem wie geplant statt." },
+      { q: "Was passiert, wenn es bewölkt ist?", a: "Klarer Himmel ist im Erg Chebbi außerhalb seltener winterlicher Sturmsysteme die Norm, aber sollten Wolken den Himmel verdecken, finden das Camp-Erlebnis, das Kameltrekking und das Abendessen trotzdem wie geplant statt." },
       { q: "Was ist tatsächlich zu sehen?", a: "Ohne Lichtverschmutzung auf zig Kilometern ist die Milchstraße etwa von März bis Oktober mit bloßem Auge sichtbar, dazu die großen Planeten und in guten Jahren Meteorströme. Die Mondphase zählt mehr als die Jahreszeit — Vollmond überstrahlt die feineren Details, prüfen Sie also den Kalender, wenn der Nachthimmel der Buchungsgrund ist." },
-      { q: "Gibt es ein Teleskop, oder schaut man mit bloßem Auge?", a: "Die Dünen sind dunkel genug, dass das meiste, was den Abend ausmacht, mit bloßem Auge zu sehen ist. Bringen Sie ein Fernglas mit, falls vorhanden — es zeigt mehr von der Struktur der Milchstraße, als man erwartet." },
+      { q: "Gibt es ein Teleskop, oder schaut man mit bloßem Auge?", a: "Mit bloßem Auge: Es gibt weder Teleskop noch geführte Beobachtung. Die Dünen sind dunkel genug, dass das meiste, was den Abend ausmacht, mit bloßem Auge zu sehen ist. Bringen Sie ein Fernglas mit, falls vorhanden — es zeigt mehr von der Struktur der Milchstraße, als man erwartet." },
       { q: "Stören die Lichter des Camps?", a: "Der Generator wird für die Nacht abgeschaltet, und das ist Absicht. Danach ist das Camp wirklich dunkel — genau deshalb übernachtet man dort statt im Ort Merzouga." },
     ],
     featured: false,

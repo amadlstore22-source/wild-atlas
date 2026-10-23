@@ -2796,11 +2796,11 @@ export const TOURS: Tour[] = [
     slug: "merzouga-stargazing-desert-tour",
     localizedSlug: "notte-stellata-merzouga",
     brief: [
-      "Quasi tutti i tour nel deserto citano le stelle nella brochure e poi vi lasciano guardarle da soli. Questo è costruito attorno al cielo: dopo il giro in cammello al tramonto e la cena, una guida astronoma monta un telescopio al campo e passa in rassegna i pianeti, le costellazioni e gli oggetti del cielo profondo visibili quella notte, spiegati in linguaggio normale anziché in gergo. Non servono attrezzatura né conoscenze pregresse.",
+      "È il modo più breve per passare da Marrakech a un cielo del deserto davvero buio. Dopo il giro in cammello al tramonto e la cena, la serata al campo è vostra, sotto uno dei cieli più bui del Nord Africa. Non ci sono telescopio né sessione guidata; in una notte serena non servono, perché la Via Lattea, i pianeti più luminosi e le costellazioni si vedono a occhio nudo.",
       "Il motivo per cui funziona proprio all'Erg Chebbi è la distanza da qualsiasi luce elettrica. Non c'è alcun bagliore urbano in nessuna direzione, quindi la Via Lattea è visibile a occhio nudo in una notte serena — non come una macchia tenue, ma come una struttura che attraversa il cielo. È più raro di quanto si pensi; in Europa non è rimasto quasi nulla di così buio.",
       "Il compromesso è il viaggio. L'Erg Chebbi dista circa 560 km e all'incirca 8 ore da Marrakech, per tratta, e questo è un viaggio di due giorni: una lunga giornata di strada, una notte al campo e un'altra lunga giornata di ritorno. Il primo giorno si arriva per il giro in cammello e la cena; il secondo è l'alba sulle dune e il rientro. Chi preferisse spezzare quel trasferimento dovrebbe valutare un itinerario nel deserto di 3 o 4 giorni.",
-      "A persona: 518 € da soli, 260 € in due, 191 € in tre, 160 € in quattro, 139 € in cinque e 121 € in sei. Sono inclusi il trasporto andata e ritorno da Marrakech, il giro in cammello al tramonto, la notte al campo, la cena e la colazione e la sessione al telescopio con la guida astronoma. Il pranzo lungo il percorso non è incluso, anche se sono previste soste, e assicurazione di viaggio e mance sono a parte.",
-      "Due note pratiche. La fase lunare conta più della stagione: la luna piena cancella gli oggetti deboli, quindi se venite per il cielo profondo prenotate attorno alla luna nuova. E le notti del deserto sono fredde dall'autunno alla primavera, più di quanto la maggior parte dei visitatori preveda; l'osservazione avviene all'aperto, fermi, ben dopo il calar del buio. Portate uno strato caldo che vi sembri eccessivo. Gruppo privato di 2-10 persone.",
+      "A persona: 518 € da soli, 260 € in due, 191 € in tre, 160 € in quattro, 139 € in cinque e 121 € in sei. Sono inclusi il trasporto andata e ritorno da Marrakech, il giro in cammello al tramonto, la notte al campo, la cena e la colazione. Il pranzo lungo il percorso non è incluso, anche se sono previste soste, e assicurazione di viaggio e mance sono a parte.",
+      "Due note pratiche. La fase lunare conta più della stagione: la luna piena cancella le stelle più deboli, quindi se venite per la Via Lattea prenotate attorno alla luna nuova. E le notti del deserto sono fredde dall'autunno alla primavera, più di quanto la maggior parte dei visitatori preveda; il cielo si guarda all'aperto, fermi, ben dopo il calar del buio. Portate uno strato caldo che vi sembri eccessivo. Gruppo privato di 2-10 persone.",
     ],
     title: "Osservazione delle Stelle nel Sahara di Merzouga da Marrakech — Tour del Deserto Dark Sky di 2 Giorni",
     category: "desert",
@@ -2821,11 +2821,11 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
-      "Trekking in cammello nell'Erg Chebbi al tramonto, seguito da una sessione guidata di osservazione delle stelle a occhio nudo e con telescopio sotto uno dei cieli più bui del Nord Africa.",
+      "Trekking in cammello nell'Erg Chebbi al tramonto, poi una notte al campo sotto uno dei cieli più bui del Nord Africa, con la Via Lattea visibile a occhio nudo nelle notti serene.",
     description:
-      "L'Erg Chebbi si trova abbastanza lontano da qualsiasi città che la Via Lattea è visibile a occhio nudo in una notte serena — questo viaggio è costruito su questo fatto, non trattato come un semplice bonus. Dopo il trekking in cammello al tramonto e la cena al campo, una guida astronomica locale allestisce un telescopio e conduce il gruppo attraverso i pianeti visibili, le costellazioni e gli oggetti del cielo profondo, spiegati in un linguaggio semplice anziché tecnico. Periodo migliore: da ottobre a maggio, quando il cielo notturno del deserto è più limpido e il caldo è sceso abbastanza da poter stare seduti all'aperto comodamente per ore.",
+      "L'Erg Chebbi si trova abbastanza lontano da qualsiasi città che la Via Lattea è visibile a occhio nudo in una notte serena — questo viaggio è costruito su questo fatto, non trattato come un semplice bonus. Dopo il trekking in cammello al tramonto e la cena al campo, il cielo notturno è vostro: in una notte serena e senza luna, la Via Lattea, i pianeti più luminosi e le costellazioni si vedono a occhio nudo, senza telescopio. Periodo migliore: da ottobre a maggio, quando il cielo notturno del deserto è più limpido e il caldo è sceso abbastanza da poter stare seduti all'aperto comodamente per ore.",
     highlights: [
-      "Sessione guidata di osservazione delle stelle a occhio nudo e con telescopio con una guida astronomica",
+      "Stelle a occhio nudo dal campo — la Via Lattea nelle notti serene e senza luna",
       "Trekking in cammello al tramonto tra le dune dell'Erg Chebbi",
       "Una notte in un tradizionale campo berbero nel deserto, lontano da ogni inquinamento luminoso",
       "Il miglior cielo notturno del deserto in Marocco — nessun bagliore di città in nessuna direzione",
@@ -2834,7 +2834,6 @@ export const TOURS: Tour[] = [
       "Trasporto andata e ritorno da Marrakech",
       "Escursione in cammello al tramonto",
       "1 notte di pernottamento in campo nel deserto",
-      "Telescopio e sessione guidata di osservazione delle stelle",
       "Cena e colazione al campo",
     ],
     excludes: [
@@ -2852,7 +2851,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakech → Campo nel Deserto dell'Erg Chebbi",
         description:
-          "Partenza da Marrakech al mattino presto, attraversando l'Alto Atlante e la Valle del Draa fino a Merzouga. Trekking in cammello al tramonto tra le dune dell'Erg Chebbi. Cena al campo, seguita dalla sessione guidata di osservazione delle stelle una volta calata l'oscurità completa.",
+          "Partenza da Marrakech al mattino presto, attraversando l'Alto Atlante e la Valle del Draa fino a Merzouga. Trekking in cammello al tramonto tra le dune dell'Erg Chebbi. Cena al campo, poi il cielo stellato una volta calata l'oscurità completa.",
       },
       {
         day: 2,
@@ -2867,13 +2866,13 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     seoTitle: "Notte stellata a Merzouga, 2 giorni",
-    seoDescription: "Due giorni da Marrakech a Merzouga per osservare le stelle: cammelli al tramonto, telescopio guidato e una notte nell'Erg Chebbi.",
+    seoDescription: "Due giorni da Marrakech a Merzouga per osservare le stelle: cammelli al tramonto e una notte sotto cieli bui nell'Erg Chebbi.",
     faq: [
-      { q: "Ho bisogno di conoscenze o attrezzatura astronomica personale?", a: "No. La guida fornisce il telescopio e spiega tutto da zero — pensato tanto per principianti assoluti quanto per chi ha già interesse per l'astronomia." },
+      { q: "Ho bisogno di conoscenze o attrezzatura astronomica personale?", a: "No. Questo tour non include telescopio né sessione guidata; il cielo al campo è abbastanza buio da godersi a occhio nudo. Un'app di astronomia sul telefono aiuta a dare un nome a ciò che vedete." },
       { q: "Qual è il periodo migliore dell'anno per questo tour?", a: "Da ottobre a maggio. Il cielo è più limpido e la notte nel deserto è abbastanza fresca da poter stare seduti all'aperto comodamente; le notti estive sono comunque stellate ma molto più calde." },
-      { q: "Cosa succede se è nuvoloso?", a: "Il cielo sereno all'Erg Chebbi è la norma, a parte rari sistemi di tempesta invernali, ma se la copertura nuvolosa impedisce la sessione di osservazione delle stelle, l'esperienza del campo, il trekking in cammello e la cena proseguono comunque come previsto." },
+      { q: "Cosa succede se è nuvoloso?", a: "Il cielo sereno all'Erg Chebbi è la norma, a parte rari sistemi di tempesta invernali, ma se le nuvole coprono il cielo, l'esperienza del campo, il trekking in cammello e la cena proseguono comunque come previsto." },
       { q: "Che cosa si vede davvero?", a: "Senza inquinamento luminoso per decine di chilometri, la Via Lattea è visibile a occhio nudo all'incirca da marzo a ottobre, insieme ai pianeti principali e, in un buon anno, alle piogge di meteore. La fase lunare conta più della stagione — la luna piena cancella i dettagli più deboli, quindi controllate il calendario se è il cielo notturno la ragione della prenotazione." },
-      { q: "C'è un telescopio o si osserva a occhio nudo?", a: "Le dune sono abbastanza buie perché quasi tutto ciò che rende memorabile la notte si veda a occhio nudo. Portate un binocolo se lo avete: mostra più struttura della Via Lattea di quanto ci si aspetti." },
+      { q: "C'è un telescopio o si osserva a occhio nudo?", a: "A occhio nudo: non ci sono telescopio né sessione guidata. Le dune sono abbastanza buie perché quasi tutto ciò che rende memorabile la notte si veda a occhio nudo. Portate un binocolo se lo avete: mostra più struttura della Via Lattea di quanto ci si aspetti." },
       { q: "Le luci del campo rovinano l'osservazione?", a: "Il generatore viene spento per la notte, ed è voluto. Una volta spento il campo è davvero buio — ed è tutta la ragione per dormire lì invece che nel paese di Merzouga." },
     ],
     featured: false,

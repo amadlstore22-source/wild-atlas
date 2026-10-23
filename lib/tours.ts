@@ -3485,11 +3485,11 @@ export const TOURS: Tour[] = [
     slug: "merzouga-stargazing-desert-tour",
     relatedPosts: ["merzouga-travel-guide", "sahara-desert-facts", "luxury-vs-standard-desert-camp-morocco", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide"],
     brief: [
-      "Most desert tours mention the stars in the brochure and then leave you to look at them on your own. This one is built around the sky: after the sunset camel trek and dinner, an astronomy guide sets up a telescope at camp and works through the planets, constellations and deep-sky objects that are up that night, explained in ordinary language rather than jargon. You need no equipment and no prior knowledge.",
+      "This is the shortest way from Marrakech to a properly dark desert sky. After the sunset camel trek and dinner, the evening is yours at camp under one of the darkest skies in North Africa. There is no telescope and no guided session; on a clear night you do not need either, because the Milky Way, the brighter planets and the constellations are all there to the naked eye.",
       "The reason it works at Erg Chebbi specifically is distance from anything electric. There is no city glow in any direction, so the Milky Way is visible to the naked eye on a clear night — not as a faint smudge but as a structure across the sky. That is rarer than people expect; most of Europe has nowhere left that dark.",
       "The trade is the drive. Erg Chebbi is roughly 560 km and about 8 hours from Marrakech, each way, and this is a two-day trip — so it is one long driving day, one night at camp, and one long driving day back. Day one arrives for the camel trek and dinner; day two is sunrise over the dunes and the return. Anyone who would rather break that up should look at a 3- or 4-day desert itinerary instead.",
-      "Per person: €518 solo, €260 for two, €191 for three, €160 for four, €139 for five and €121 at six. Included are return transport from Marrakech, the sunset camel trek, the camp night, dinner and breakfast, and the telescope session with the astronomy guide. Lunch en route is not included, though there are stops, and travel insurance and tips are separate.",
-      "Two practical points. Moon phase matters more than season — a full moon washes out faint objects, so if the deep sky is the reason you are coming, book around a new moon. And desert nights are cold from autumn through spring, colder than most visitors plan for; the stargazing happens outdoors, standing still, well after dark. Bring a warm layer you would consider excessive. Private group of 2–10.",
+      "Per person: €518 solo, €260 for two, €191 for three, €160 for four, €139 for five and €121 at six. Included are return transport from Marrakech, the sunset camel trek, the camp night, and dinner and breakfast. Lunch en route is not included, though there are stops, and travel insurance and tips are separate.",
+      "Two practical points. Moon phase matters more than season — a full moon washes out the fainter stars, so if the Milky Way is the reason you are coming, book around a new moon. And desert nights are cold from autumn through spring, colder than most visitors plan for; the sky is best from outside, sitting still, well after dark. Bring a warm layer you would consider excessive. Private group of 2–10.",
     ],
     title: "Merzouga Stargazing from Marrakech — 2-Day Dark Sky Desert Tour",
     category: "desert",
@@ -3523,11 +3523,11 @@ export const TOURS: Tour[] = [
       "/gallery/camels-couched-camp-dawn.jpg",
     ],
     shortDescription:
-      "Camel trek into Erg Chebbi at sunset, then a guided naked-eye and telescope stargazing session under one of the darkest skies in North Africa.",
+      "Camel trek into Erg Chebbi at sunset, then a night at camp under one of the darkest skies in North Africa, with the Milky Way visible to the naked eye on clear nights.",
     description:
-      "Erg Chebbi sits far enough from any city that the Milky Way is visible to the naked eye on a clear night — this trip is built around that fact rather than treating it as a bonus. After the sunset camel trek and dinner at camp, a local astronomy guide sets up a telescope and walks the group through the visible planets, constellations, and deep-sky objects, explained in plain language rather than jargon. Best October through May, when the desert night sky is at its clearest and the heat has dropped enough to sit outside comfortably for hours.",
+      "Erg Chebbi sits far enough from any city that the Milky Way is visible to the naked eye on a clear night — this trip is built around that fact rather than treating it as a bonus. After the sunset camel trek and dinner at camp, the night sky is yours: on a clear, moonless night the Milky Way, the brighter planets and the constellations are all visible to the naked eye, with no telescope needed. Best October through May, when the desert night sky is at its clearest and the heat has dropped enough to sit outside comfortably for hours.",
     highlights: [
-      "Guided naked-eye and telescope stargazing session with an astronomy guide",
+      "Naked-eye stargazing from camp — the Milky Way on clear, moonless nights",
       "Sunset camel trek into the Erg Chebbi dunes",
       "One night in a traditional Berber desert camp, far from any light pollution",
       "Best desert night sky in Morocco — no city glow in any direction",
@@ -3536,7 +3536,6 @@ export const TOURS: Tour[] = [
       "Round-trip transport from Marrakech",
       "Camel trek at sunset",
       "1 night desert camp accommodation",
-      "Telescope and guided stargazing session",
       "Dinner and breakfast at camp",
     ],
     excludes: [
@@ -3554,7 +3553,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakech → Erg Chebbi Desert Camp",
         description:
-          "Depart Marrakech early, crossing the High Atlas and the Draa Valley to Merzouga. Sunset camel trek into the Erg Chebbi dunes. Dinner at camp, followed by the guided stargazing session once full darkness falls.",
+          "Depart Marrakech early, crossing the High Atlas and the Draa Valley to Merzouga. Sunset camel trek into the Erg Chebbi dunes. Dinner at camp, then the night sky once full darkness falls.",
       },
       {
         day: 2,
@@ -3569,13 +3568,13 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Merzouga Stargazing Desert Tour",
-    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek, telescope-guided night sky session, and a night in an Erg Chebbi desert camp. From €518.",
+    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek and a night under dark skies in an Erg Chebbi desert camp. From €518.",
     faq: [
-      { q: "Do I need my own astronomy knowledge or equipment?", a: "No. The guide provides the telescope and explains everything from scratch — this is designed for complete beginners as much as anyone with an interest in astronomy." },
+      { q: "Do I need my own astronomy knowledge or equipment?", a: "No. There is no telescope and no guided session on this tour; the sky at camp is dark enough to enjoy with the naked eye. A stargazing app on your phone helps you put names to what you see." },
       { q: "What's the best time of year for this tour?", a: "October through May. The sky is clearest and the desert night is cool enough to sit outside comfortably; summer nights are still starry but far hotter." },
-      { q: "What happens if it's cloudy?", a: "Clear skies in Erg Chebbi are the norm outside of rare winter storm systems, but if cloud cover blocks the stargazing session, the camp experience, camel trek, and dinner still go ahead as planned." },
+      { q: "What happens if it's cloudy?", a: "Clear skies in Erg Chebbi are the norm outside of rare winter storm systems, but if cloud cover hides the sky, the camp experience, camel trek, and dinner still go ahead as planned." },
       { q: "What will I actually be able to see?", a: "With no light pollution for tens of kilometres, the Milky Way is visible to the naked eye from roughly March to October, along with the major planets and, in a good year, meteor showers. Moon phase matters more than season — a full moon washes out the fainter detail, so check the calendar if the night sky is the reason you are booking." },
-      { q: "Is there a telescope, or is this naked-eye?", a: "The dunes are dark enough that most of what makes the night memorable is naked-eye. Bring binoculars if you have them; they show more of the Milky Way's structure than people expect." },
+      { q: "Is there a telescope, or is this naked-eye?", a: "It is naked-eye: there is no telescope and no guided session. The dunes are dark enough that most of what makes the night memorable needs neither. Bring binoculars if you have them; they show more of the Milky Way's structure than people expect." },
       { q: "Will the camp lights spoil it?", a: "The generator goes off at night, which is deliberate. Once it does, the camp is genuinely dark — that is the whole reason to sleep out there rather than in Merzouga town." },
     ],
     featured: false,

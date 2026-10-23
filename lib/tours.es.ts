@@ -2796,11 +2796,11 @@ export const TOURS: Tour[] = [
     slug: "merzouga-stargazing-desert-tour",
     localizedSlug: "noche-estrellas-merzouga",
     brief: [
-      "La mayoría de los circuitos por el desierto mencionan las estrellas en el folleto y luego le dejan mirarlas por su cuenta. Este está construido alrededor del cielo: después del paseo en camello al atardecer y la cena, un guía astrónomo monta un telescopio en el campamento y repasa los planetas, las constelaciones y los objetos de cielo profundo visibles esa noche, explicados en lenguaje corriente y no en jerga. No hace falta equipo ni conocimientos previos.",
+      "Es la forma más corta de pasar de Marrakech a un cielo de desierto realmente oscuro. Después del paseo en camello al atardecer y la cena, la noche es suya en el campamento, bajo uno de los cielos más oscuros del norte de África. No hay telescopio ni sesión guiada; en una noche despejada no hacen falta, porque la Vía Láctea, los planetas más brillantes y las constelaciones se ven a simple vista.",
       "La razón por la que funciona precisamente en el Erg Chebbi es la distancia a cualquier luz eléctrica. No hay resplandor urbano en ninguna dirección, así que la Vía Láctea se ve a simple vista en una noche despejada, no como una mancha tenue sino como una estructura que cruza el cielo. Eso es más raro de lo que la gente imagina; en Europa casi no queda ningún lugar tan oscuro.",
       "La contrapartida es el trayecto. El Erg Chebbi está a unos 560 km y cerca de 8 horas de Marrakech, en cada sentido, y este es un circuito de dos días: una jornada larga de carretera, una noche en el campamento y otra jornada larga de vuelta. El primer día se llega para el paseo en camello y la cena; el segundo es el amanecer sobre las dunas y el regreso. Quien prefiera repartir ese trayecto debería plantearse un itinerario por el desierto de 3 o 4 días.",
-      "Por persona: 518 € en solitario, 260 € para dos, 191 € para tres, 160 € para cuatro, 139 € para cinco y 121 € para seis. Incluye el transporte de ida y vuelta desde Marrakech, el paseo en camello al atardecer, la noche en el campamento, la cena y el desayuno, y la sesión con telescopio junto al guía astrónomo. La comida del mediodía en ruta no está incluida, aunque hay paradas, y el seguro de viaje y las propinas van aparte.",
-      "Dos apuntes prácticos. La fase lunar importa más que la estación: la luna llena borra los objetos débiles, así que si viene por el cielo profundo, reserve en torno a la luna nueva. Y las noches del desierto son frías del otoño a la primavera, más de lo que la mayoría prevé; la observación se hace al aire libre, quieto y bien entrada la noche. Traiga una capa de abrigo que le parezca excesiva. Grupo privado de 2 a 10 personas.",
+      "Por persona: 518 € en solitario, 260 € para dos, 191 € para tres, 160 € para cuatro, 139 € para cinco y 121 € para seis. Incluye el transporte de ida y vuelta desde Marrakech, el paseo en camello al atardecer, la noche en el campamento, y la cena y el desayuno. La comida del mediodía en ruta no está incluida, aunque hay paradas, y el seguro de viaje y las propinas van aparte.",
+      "Dos apuntes prácticos. La fase lunar importa más que la estación: la luna llena borra las estrellas más débiles, así que si viene por la Vía Láctea, reserve en torno a la luna nueva. Y las noches del desierto son frías del otoño a la primavera, más de lo que la mayoría prevé; el cielo se mira al aire libre, sin moverse y bien entrada la noche. Traiga una capa de abrigo que le parezca excesiva. Grupo privado de 2 a 10 personas.",
     ],
     title: "Observación de Estrellas en el Sáhara de Merzouga desde Marrakech — Tour de 2 Días por el Desierto de Cielos Oscuros",
     category: "desert",
@@ -2821,11 +2821,11 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
-      "Paseo en camello por Erg Chebbi al atardecer, seguido de una sesión guiada de observación de estrellas a simple vista y con telescopio bajo uno de los cielos más oscuros del norte de África.",
+      "Paseo en camello por Erg Chebbi al atardecer y una noche en el campamento bajo uno de los cielos más oscuros del norte de África, con la Vía Láctea a simple vista en noches despejadas.",
     description:
-      "Erg Chebbi está lo bastante lejos de cualquier ciudad como para que la Vía Láctea se vea a simple vista en una noche despejada — este viaje está construido en torno a ese hecho, no lo trata como un simple extra. Después del paseo en camello al atardecer y la cena en el campamento, un guía de astronomía local monta un telescopio y lleva al grupo por los planetas visibles, las constelaciones y los objetos de cielo profundo, explicado en lenguaje sencillo, sin tecnicismos. Mejor entre octubre y mayo, cuando el cielo nocturno del desierto está en su punto más despejado y el calor ha bajado lo suficiente como para sentarse fuera cómodamente durante horas.",
+      "Erg Chebbi está lo bastante lejos de cualquier ciudad como para que la Vía Láctea se vea a simple vista en una noche despejada — este viaje está construido en torno a ese hecho, no lo trata como un simple extra. Después del paseo en camello al atardecer y la cena en el campamento, el cielo nocturno es suyo: en una noche despejada y sin luna, la Vía Láctea, los planetas más brillantes y las constelaciones se ven a simple vista, sin telescopio. Mejor entre octubre y mayo, cuando el cielo nocturno del desierto está en su punto más despejado y el calor ha bajado lo suficiente como para sentarse fuera cómodamente durante horas.",
     highlights: [
-      "Sesión guiada de observación de estrellas a simple vista y con telescopio, con un guía de astronomía",
+      "Observación de estrellas a simple vista desde el campamento — la Vía Láctea en noches despejadas y sin luna",
       "Paseo en camello al atardecer por las dunas de Erg Chebbi",
       "Una noche en un campamento bereber tradicional del desierto, lejos de toda contaminación lumínica",
       "El mejor cielo nocturno del desierto en Marruecos — sin resplandor urbano en ninguna dirección",
@@ -2834,7 +2834,6 @@ export const TOURS: Tour[] = [
       "Transporte de ida y vuelta desde Marrakech",
       "Paseo en camello al atardecer",
       "1 noche de alojamiento en campamento en el desierto",
-      "Telescopio y sesión guiada de observación de estrellas",
       "Cena y desayuno en el campamento",
     ],
     excludes: [
@@ -2852,7 +2851,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakech → Campamento del Desierto en Erg Chebbi",
         description:
-          "Salida temprana de Marrakech, cruzando el Alto Atlas y el valle del Draa hasta Merzouga. Paseo en camello al atardecer por las dunas de Erg Chebbi. Cena en el campamento, seguida de la sesión guiada de observación de estrellas una vez cae la noche cerrada.",
+          "Salida temprana de Marrakech, cruzando el Alto Atlas y el valle del Draa hasta Merzouga. Paseo en camello al atardecer por las dunas de Erg Chebbi. Cena en el campamento y, cuando cae la noche cerrada, el cielo estrellado.",
       },
       {
         day: 2,
@@ -2867,13 +2866,13 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Observación de Estrellas Merzouga",
-    seoDescription: "Dos días de Marrakech a Merzouga para ver las estrellas: camellos al atardecer, telescopio guiado y una noche en Erg Chebbi.",
+    seoDescription: "Dos días de Marrakech a Merzouga para ver las estrellas: camellos al atardecer y una noche bajo cielos oscuros en Erg Chebbi.",
     faq: [
-      { q: "¿Necesito conocimientos previos de astronomía o mi propio equipo?", a: "No. El guía aporta el telescopio y lo explica todo desde cero: está pensado tanto para principiantes absolutos como para quienes ya tienen interés en la astronomía." },
+      { q: "¿Necesito conocimientos previos de astronomía o mi propio equipo?", a: "No. Este tour no incluye telescopio ni sesión guiada; el cielo del campamento es lo bastante oscuro para disfrutarlo a simple vista. Una aplicación de astronomía en el móvil ayuda a poner nombre a lo que ve." },
       { q: "¿Cuál es la mejor época del año para este tour?", a: "De octubre a mayo. El cielo está más despejado y la noche del desierto es lo bastante fresca como para estar sentado fuera cómodamente; las noches de verano también son estrelladas, pero mucho más calurosas." },
-      { q: "¿Qué pasa si está nublado?", a: "Los cielos despejados en Erg Chebbi son lo habitual, salvo en raras tormentas invernales, pero si las nubes impiden la sesión de observación de estrellas, la experiencia del campamento, el paseo en camello y la cena se mantienen igualmente." },
+      { q: "¿Qué pasa si está nublado?", a: "Los cielos despejados en Erg Chebbi son lo habitual, salvo en raras tormentas invernales, pero si las nubes tapan el cielo, la experiencia del campamento, el paseo en camello y la cena se mantienen igualmente." },
       { q: "¿Qué se ve realmente?", a: "Sin contaminación lumínica en decenas de kilómetros, la Vía Láctea se ve a simple vista aproximadamente de marzo a octubre, junto con los planetas principales y, en un buen año, lluvias de meteoros. La fase lunar importa más que la estación — la luna llena difumina el detalle más tenue, así que consulte el calendario si el cielo nocturno es el motivo de su reserva." },
-      { q: "¿Hay telescopio o se observa a simple vista?", a: "Las dunas son lo bastante oscuras como para que casi todo lo memorable de la noche se vea a simple vista. Lleve prismáticos si tiene: muestran más estructura de la Vía Láctea de lo que la gente espera." },
+      { q: "¿Hay telescopio o se observa a simple vista?", a: "A simple vista: no hay telescopio ni sesión guiada. Las dunas son lo bastante oscuras como para que casi todo lo memorable de la noche se vea a simple vista. Lleve prismáticos si tiene: muestran más estructura de la Vía Láctea de lo que la gente espera." },
       { q: "¿Las luces del campamento estropean la observación?", a: "El generador se apaga por la noche, y es intencionado. Una vez apagado, el campamento queda realmente a oscuras — esa es toda la razón de dormir allí en vez de en el pueblo de Merzouga." },
     ],
     featured: false,

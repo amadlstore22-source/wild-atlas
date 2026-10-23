@@ -2805,11 +2805,11 @@ export const TOURS: Tour[] = [
     slug: "merzouga-stargazing-desert-tour",
     localizedSlug: "nuit-etoilee-merzouga",
     brief: [
-      "La plupart des circuits dans le désert mentionnent les étoiles dans la brochure, puis vous laissent les regarder seul. Celui-ci est construit autour du ciel : après la balade à dromadaire au coucher du soleil et le dîner, un guide astronome installe un télescope au campement et passe en revue les planètes, les constellations et les objets du ciel profond visibles cette nuit-là, expliqués en langage ordinaire plutôt qu'en jargon. Vous n'avez besoin d'aucun matériel ni d'aucune connaissance préalable.",
+      "C'est le moyen le plus court de passer de Marrakech à un vrai ciel noir de désert. Après la balade à dromadaire au coucher du soleil et le dîner, la soirée vous appartient au campement, sous l'un des ciels les plus sombres d'Afrique du Nord. Il n'y a ni télescope ni séance guidée ; par nuit claire, vous n'en avez pas besoin, car la Voie lactée, les planètes les plus brillantes et les constellations se voient à l'œil nu.",
       "Si cela fonctionne précisément à l'Erg Chebbi, c'est grâce à l'éloignement de toute lumière électrique. Aucune lueur urbaine dans quelque direction que ce soit : la Voie lactée est donc visible à l'œil nu par nuit claire — non pas comme une traînée floue, mais comme une structure à travers le ciel. C'est plus rare qu'on ne le croit ; il ne reste presque nulle part en Europe d'aussi sombre.",
       "La contrepartie, c'est la route. L'Erg Chebbi se trouve à environ 560 km et quelque 8 heures de Marrakech, dans chaque sens, et il s'agit d'un circuit de deux jours — donc une longue journée de route, une nuit au campement, et une longue journée de route au retour. Le premier jour arrive pour la balade à dromadaire et le dîner ; le deuxième, c'est le lever du soleil sur les dunes et le retour. Ceux qui préfèrent fractionner ce trajet devraient plutôt envisager un itinéraire désertique de 3 ou 4 jours.",
-      "Par personne : 518 € seul, 260 € à deux, 191 € à trois, 160 € à quatre, 139 € à cinq et 121 € à six. Sont inclus le transport aller-retour depuis Marrakech, la balade à dromadaire au coucher du soleil, la nuit au campement, le dîner et le petit-déjeuner, ainsi que la séance au télescope avec le guide astronome. Le déjeuner en route n'est pas inclus, même si des arrêts sont prévus, et l'assurance voyage comme les pourboires sont à part.",
-      "Deux points pratiques. La phase de la lune compte davantage que la saison — une pleine lune efface les objets faibles, donc si le ciel profond est la raison de votre venue, réservez autour de la nouvelle lune. Et les nuits du désert sont froides de l'automne au printemps, plus froides que la plupart des visiteurs ne l'anticipent ; l'observation se fait dehors, immobile, bien après la tombée de la nuit. Emportez une couche chaude que vous jugeriez excessive. Groupe privé de 2 à 10 personnes.",
+      "Par personne : 518 € seul, 260 € à deux, 191 € à trois, 160 € à quatre, 139 € à cinq et 121 € à six. Sont inclus le transport aller-retour depuis Marrakech, la balade à dromadaire au coucher du soleil, la nuit au campement, ainsi que le dîner et le petit-déjeuner. Le déjeuner en route n'est pas inclus, même si des arrêts sont prévus, et l'assurance voyage comme les pourboires sont à part.",
+      "Deux points pratiques. La phase de la lune compte davantage que la saison — une pleine lune efface les étoiles les plus faibles, donc si la Voie lactée est la raison de votre venue, réservez autour de la nouvelle lune. Et les nuits du désert sont froides de l'automne au printemps, plus froides que la plupart des visiteurs ne l'anticipent ; le ciel se regarde dehors, sans bouger, bien après la tombée de la nuit. Emportez une couche chaude que vous jugeriez excessive. Groupe privé de 2 à 10 personnes.",
     ],
     title: "Observation des étoiles dans le Sahara à Merzouga au départ de Marrakech — Circuit désert ciel étoilé de 2 jours",
     category: "desert",
@@ -2830,11 +2830,11 @@ export const TOURS: Tour[] = [
       "/gallery/category-hero-atlas-ridge.jpg",
     ],
     shortDescription:
-      "Balade à dos de chameau dans l'Erg Chebbi au coucher du soleil, suivie d'une session guidée d'observation des étoiles à l'œil nu et au télescope sous l'un des ciels les plus sombres d'Afrique du Nord.",
+      "Balade à dos de chameau dans l'Erg Chebbi au coucher du soleil, puis une nuit au camp sous l'un des ciels les plus sombres d'Afrique du Nord, avec la Voie lactée visible à l'œil nu par nuit claire.",
     description:
-      "L'Erg Chebbi se trouve assez loin de toute ville pour que la Voie lactée y soit visible à l'œil nu par nuit claire — ce circuit est construit autour de ce fait plutôt que de le traiter comme un bonus. Après la balade à dos de chameau au coucher du soleil et le dîner au camp, un guide astronome local installe un télescope et présente au groupe les planètes visibles, les constellations et les objets du ciel profond, expliqués en termes simples plutôt qu'en jargon. Idéal d'octobre à mai, quand le ciel nocturne du désert est le plus clair et que la chaleur est suffisamment retombée pour rester assis dehors confortablement pendant des heures.",
+      "L'Erg Chebbi se trouve assez loin de toute ville pour que la Voie lactée y soit visible à l'œil nu par nuit claire — ce circuit est construit autour de ce fait plutôt que de le traiter comme un bonus. Après la balade à dos de chameau au coucher du soleil et le dîner au camp, le ciel nocturne est à vous : par nuit claire et sans lune, la Voie lactée, les planètes les plus brillantes et les constellations se voient à l'œil nu, sans télescope. Idéal d'octobre à mai, quand le ciel nocturne du désert est le plus clair et que la chaleur est suffisamment retombée pour rester assis dehors confortablement pendant des heures.",
     highlights: [
-      "Session guidée d'observation des étoiles à l'œil nu et au télescope avec un guide astronome",
+      "Observation des étoiles à l'œil nu depuis le camp — la Voie lactée par nuit claire et sans lune",
       "Balade à dos de chameau au coucher du soleil dans les dunes de l'Erg Chebbi",
       "Une nuit dans un camp désertique berbère traditionnel, loin de toute pollution lumineuse",
       "Le meilleur ciel nocturne du désert au Maroc — aucune lueur urbaine dans aucune direction",
@@ -2843,7 +2843,6 @@ export const TOURS: Tour[] = [
       "Transport aller-retour depuis Marrakech",
       "Randonnée à dos de chameau au coucher du soleil",
       "1 nuit en campement dans le désert",
-      "Télescope et séance d'observation des étoiles avec guide",
       "Dîner et petit-déjeuner au campement",
     ],
     excludes: [
@@ -2861,7 +2860,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Marrakech → Camp désertique de l'Erg Chebbi",
         description:
-          "Départ matinal de Marrakech, traversant le Haut Atlas et la vallée du Drâa jusqu'à Merzouga. Balade à dos de chameau au coucher du soleil dans les dunes de l'Erg Chebbi. Dîner au camp, suivi de la session guidée d'observation des étoiles une fois la nuit complètement tombée.",
+          "Départ matinal de Marrakech, traversant le Haut Atlas et la vallée du Drâa jusqu'à Merzouga. Balade à dos de chameau au coucher du soleil dans les dunes de l'Erg Chebbi. Dîner au camp, puis le ciel étoilé une fois la nuit complètement tombée.",
       },
       {
         day: 2,
@@ -2878,11 +2877,11 @@ export const TOURS: Tour[] = [
     seoTitle: "Nuit étoilée à Merzouga, 2 jours",
     seoDescription: "Circuit de 2 jours Marrakech-Merzouga pour observer les étoiles — balade à dos de chameau au coucher du soleil.",
     faq: [
-      { q: "Ai-je besoin de connaissances ou de matériel d'astronomie personnels ?", a: "Non. Le guide fournit le télescope et explique tout depuis le début — ce circuit est conçu aussi bien pour les débutants complets que pour les passionnés d'astronomie." },
+      { q: "Ai-je besoin de connaissances ou de matériel d'astronomie personnels ?", a: "Non. Ce circuit ne comprend ni télescope ni séance guidée ; le ciel du camp est assez sombre pour se contempler à l'œil nu. Une application d'astronomie sur votre téléphone aide à nommer ce que vous voyez." },
       { q: "Quelle est la meilleure période de l'année pour ce circuit ?", a: "D'octobre à mai. Le ciel est le plus clair et la nuit désertique est assez fraîche pour rester dehors confortablement ; les nuits d'été restent étoilées mais bien plus chaudes." },
-      { q: "Que se passe-t-il s'il y a des nuages ?", a: "Un ciel clair est la norme dans l'Erg Chebbi, en dehors des rares épisodes de tempête hivernale, mais si la couverture nuageuse empêche la session d'observation des étoiles, l'expérience du camp, la balade à dos de chameau et le dîner ont tout de même lieu comme prévu." },
+      { q: "Que se passe-t-il s'il y a des nuages ?", a: "Un ciel clair est la norme dans l'Erg Chebbi, en dehors des rares épisodes de tempête hivernale, mais si les nuages cachent le ciel, l'expérience du camp, la balade à dos de chameau et le dîner ont tout de même lieu comme prévu." },
       { q: "Que verra-t-on réellement ?", a: "Sans pollution lumineuse sur des dizaines de kilomètres, la Voie lactée est visible à l'œil nu de mars à octobre environ, ainsi que les principales planètes et, les bonnes années, des pluies d'étoiles filantes. La phase de la Lune compte davantage que la saison — une pleine lune efface les détails les plus fins, alors vérifiez le calendrier si c'est le ciel nocturne qui motive votre réservation." },
-      { q: "Y a-t-il un télescope, ou observe-t-on à l'œil nu ?", a: "Les dunes sont assez sombres pour que l'essentiel de la soirée se vive à l'œil nu. Apportez des jumelles si vous en avez : elles révèlent bien plus de la structure de la Voie lactée qu'on ne l'imagine." },
+      { q: "Y a-t-il un télescope, ou observe-t-on à l'œil nu ?", a: "À l'œil nu : il n'y a ni télescope ni séance guidée. Les dunes sont assez sombres pour que l'essentiel de la soirée se vive à l'œil nu. Apportez des jumelles si vous en avez : elles révèlent bien plus de la structure de la Voie lactée qu'on ne l'imagine." },
       { q: "Les lumières du camp gâchent-elles l'observation ?", a: "Le groupe électrogène est coupé pour la nuit, et c'est volontaire. Une fois éteint, le camp est vraiment plongé dans le noir — c'est toute la raison de dormir là plutôt qu'en ville à Merzouga." },
     ],
     featured: false,

@@ -485,7 +485,6 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
       "Hin- und Rücktransport ab Marrakesch",
       "Kameltrekking bei Sonnenuntergang",
       "1 Nacht Unterkunft im Wüstencamp",
-      "Teleskop und geführte Sternbeobachtung",
       "Abendessen und Frühstück im Camp",
     ],
     excludes: [

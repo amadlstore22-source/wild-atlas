@@ -5128,7 +5128,8 @@ passe son temps sur la seconde.
 **[Circuit désert famille 4 jours](/fr/tours/circuit-desert-famille-4-jours)** — le
 Sahara à un rythme tenable. Classé facile, prévu pour 2 à 12 personnes, avec une route
 répartie pour qu'aucune journée ne soit punitive. Environ 346 € par personne pour une
-famille de quatre.
+famille de quatre. Ce que coûte [un voyage dans le désert marocain en famille](/fr/blog/prix-circuit-desert-famille-maroc),
+poste par poste, est détaillé dans notre guide des prix.
 
 **[Trek Atlas famille 4 jours](/fr/tours/trek-atlas-famille-4-jours)** — de village en
 village, les mules portant les sacs. Journées courtes, vrais villages berbères, rien de
@@ -5286,7 +5287,7 @@ Ensuite, le surclassement se facture **par personne et par nuit**, il grimpe don
 
 ## Quand nous vous dirions de payer
 
-**Avec de jeunes enfants.** Le cas le plus solide. Un bloc sanitaire à rejoindre en traversant du sable, dans le noir, avec un enfant de cinq ans, c'est ce qui transforme une nuit magique en nuit difficile. Notre [circuit désert en famille de 4 jours](/fr/tours/circuit-desert-famille-4-jours) est construit autour d'un campement familial précisément pour cette raison.
+**Avec de jeunes enfants.** Le cas le plus solide. Un bloc sanitaire à rejoindre en traversant du sable, dans le noir, avec un enfant de cinq ans, c'est ce qui transforme une nuit magique en nuit difficile. Notre [circuit désert en famille de 4 jours](/fr/tours/circuit-desert-famille-4-jours) est construit autour d'un campement familial précisément pour cette raison. Ce que coûte [un circuit dans le désert marocain en famille](/fr/blog/prix-circuit-desert-famille-maroc) est détaillé poste par poste.
 
 **De décembre à février.** Les nuits sahariennes descendent réellement près de zéro. Une tente chauffée en janvier n'est pas un achat de confort, c'est la différence entre dormir et ne pas dormir.
 

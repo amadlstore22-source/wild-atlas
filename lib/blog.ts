@@ -237,7 +237,7 @@ Toubkal is graded **challenging**. You should be able to:
 - Climb 1,000 m+ of vertical gain in a single day comfortably
 - Handle exposed scree trails and rocky ridgelines
 
-Prior hiking experience is expected. Those who have never hiked a mountain before should consider the Ourika Valley day hike first to gauge their baseline.
+Prior hiking experience is expected. Those who have never hiked a mountain before should consider an [Ourika Valley day trip](/en/blog/ourika-valley-day-trip-marrakech) first to gauge their baseline.
 
 ## The Standard 4-Day Itinerary
 
@@ -2989,7 +2989,7 @@ Marrakech sits at the foot of the High Atlas, and that geography does most of th
 
 - **The High Atlas and Toubkal.** Imlil, the Toubkal trailhead, is about an hour and a half away. That proximity is why the [four-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is possible as a self-contained trip.
 - **The classic desert routes.** Merzouga, Zagora and Erg Chegaga all run from here, with the [three-day Sahara trip](/en/tours/sahara-3day-marrakech) being the standard.
-- **Day trips.** Ourika Valley, Ouzoud waterfalls, Agafay, and Essaouira on the coast.
+- **Day trips.** [Ourika Valley](/en/blog/ourika-valley-day-trip-marrakech), Ouzoud waterfalls, Agafay, and Essaouira on the coast.
 - **The medina itself.** Jemaa el-Fnaa, the souks, the historic quarters — an experience in its own right rather than just a place to sleep.
 
 The trade-off is intensity. Marrakech is loud, busy and relentless in the best and worst senses. Some people love it immediately; others find it exhausting after three days.
@@ -3546,7 +3546,7 @@ Tamazight is not a form of Arabic. It belongs to an entirely separate language f
 
 ## Life in the High Atlas
 
-In the mountain villages where most of our treks run — Imlil, the Ourika valley, the Toubkal massif — the population is overwhelmingly Amazigh, and daily life still runs on patterns shaped by centuries in this terrain: terraced farming on impossibly steep slopes, transhumance (seasonal herding between valley and high pasture), and mud-brick and stone architecture built for a mountain climate. Mountain guiding itself grew directly out of this: the people who knew these passes because they had walked them their whole lives became the people who led the first foreign trekkers up them, a role our own father held in the 1980s.
+In the mountain villages where most of our treks run — Imlil, the [Ourika valley](/en/blog/ourika-valley-day-trip-marrakech), the Toubkal massif — the population is overwhelmingly Amazigh, and daily life still runs on patterns shaped by centuries in this terrain: terraced farming on impossibly steep slopes, transhumance (seasonal herding between valley and high pasture), and mud-brick and stone architecture built for a mountain climate. Mountain guiding itself grew directly out of this: the people who knew these passes because they had walked them their whole lives became the people who led the first foreign trekkers up them, a role our own father held in the 1980s.
 
 ## The Flag You'll See on Shop Doors and Car Stickers
 
@@ -4493,7 +4493,7 @@ Give the city a full, guided day. The medina is genuinely disorienting on your o
 
 ## Day 3 — High Atlas Day Trip (Ourika or Imlil)
 
-Trade the city for the mountains. Ninety minutes from Marrakech, the [Ourika Valley](/en/tours/ourika-valley-day-hike) climbs into green terraces, Berber villages and the Setti Fatma waterfalls — an easy, beautiful day hike and a complete change of air. If you'd rather walk toward real peaks, the Imlil side sits below Mount Toubkal and is the trailhead for the serious treks. Either way you're back in Marrakech by evening, having seen the landscape most day-trippers miss.
+Trade the city for the mountains. Ninety minutes from Marrakech, the [Ourika Valley](/en/tours/ourika-valley-day-hike) climbs into green terraces, Berber villages and the Setti Fatma waterfalls — an easy, beautiful day hike and a complete change of air. Our [Ourika Valley day trip guide](/en/blog/ourika-valley-day-trip-marrakech) covers the waterfall hike, the villages and the best time to go. If you'd rather walk toward real peaks, the Imlil side sits below Mount Toubkal and is the trailhead for the serious treks. Either way you're back in Marrakech by evening, having seen the landscape most day-trippers miss.
 
 ## Day 4 — Marrakech Over the Atlas to the Dades Valley
 

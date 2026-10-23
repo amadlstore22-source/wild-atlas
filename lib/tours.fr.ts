@@ -3271,7 +3271,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — votre hôtel ou riad" },
     seoTitle: "Circuit désert en famille 4 jours",
-    seoDescription: "Circuit désert en famille, 4 jours de Marrakech aux dunes de l'Erg Chebbi : dromadaires, sandboard, kasbah de cinéma et campement familial. Dès 607 $.",
+    seoDescription: "Circuit désert en famille, 4 jours de Marrakech aux dunes de l'Erg Chebbi : dromadaires, sandboard, kasbah de cinéma et campement familial. Dès 526 €.",
     faq: [
       { q: "Ce circuit désert convient-il aux jeunes enfants ?", a: "Oui. Il n'y a aucune exigence de marche — tout se déplace en véhicule climatisé, et les arrêts (kasbah, gorges, dunes) sont courts et faciles. La conduite est réelle, cela dit, il convient donc aux enfants qui voyagent raisonnablement bien en voiture ; les étapes sont volontairement fractionnées avec des arrêts fréquents pour aider." },
       { q: "Qu'est-ce qui rend le camp désertique adapté aux familles ?", a: "Le camp utilisé lors de ce voyage dispose de vrais lits, de tentes salle de bain privées ou partagées, et d'un dîner servi ensemble plutôt qu'un simple bivouac. Les balades à dos de chameau sont courtes et menées à pied, et il y a de la place autour du feu pour les enfants le soir." },

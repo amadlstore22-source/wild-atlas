@@ -167,7 +167,7 @@ Las mujeres a las que guiamos y que mejor lo pasan son las que llegaron esperand
 
 **Siete días.** Ese es el número para un primer viaje a Marruecos.
 
-Cinco son viables pero obligan a un sacrificio real. Diez son claramente mejores y permiten añadir la costa o Chefchaouen. Pero siete es el punto en el que puedes ver los tres paisajes por los que Marruecos es famoso —una medina, el Atlas, el Sahara— sin pasar las vacaciones dentro de una furgoneta.
+Cinco son viables pero obligan a un sacrificio real. Diez son claramente mejores y permiten añadir la costa o Chefchaouen. Pero siete es el punto en el que puedes ver los tres paisajes por los que Marruecos es famoso —una medina, el Atlas, el Sahara— sin pasar las vacaciones dentro de una furgoneta. Para decidir qué incluir, mira [qué ver y hacer en Marruecos](/es/blog/que-hacer-en-marruecos).
 
 ## El error que comete casi todo el mundo
 
@@ -2198,7 +2198,7 @@ Ambas te dan el día de agua y naturaleza que la gente imagina al buscar Paradis
     content: `
 ## Una semana, el Marruecos de verdad
 
-Siete días es el punto justo para un primer viaje a Marruecos. Es tiempo suficiente para sentir tres mundos completamente distintos —la sobrecarga sensorial de una ciudad imperial, la quietud verde del Alto Atlas y una noche silenciosa al borde del Sáhara— sin convertir las vacaciones en un maratón de conducción. El truco no es intentar verlo todo. Es elegir un buen circuito y hacerlo bien.
+Siete días es el punto justo para un primer viaje a Marruecos. Es tiempo suficiente para sentir tres mundos completamente distintos —la sobrecarga sensorial de una ciudad imperial, la quietud verde del Alto Atlas y una noche silenciosa al borde del Sáhara— sin convertir las vacaciones en un maratón de conducción. El truco no es intentar verlo todo. Es elegir un buen circuito y hacerlo bien. Si todavía estás decidiendo [qué ver en Marruecos](/es/blog/que-hacer-en-marruecos), empieza por nuestra lista de las 15 mejores experiencias.
 
 Este es el itinerario que de verdad le daríamos a un amigo que aterriza en Marrakech para una semana. Usa Marrakech como base en el primer tramo y luego sale por la ruta clásica del desierto de dos noches y regresa. Con más tiempo, la extensión natural es nuestro [itinerario de 10 días por Marruecos](/es/blog/10-day-morocco-itinerary), que añade Fez y las ciudades imperiales del norte.
 
@@ -2273,7 +2273,7 @@ Es una plantilla, no una regla. Las familias lo ralentizan y cambian las rutas d
     content: `
 ## Diez días, el país entero
 
-Diez días es la duración que más recomendamos para un primer viaje a Marruecos. Es el punto en que el país deja de ser una escapada urbana y se convierte en un viaje de verdad: dos ciudades imperiales con mil años de historia entre ellas, una noche en el Sáhara, los grandes puertos del Alto Atlas y los oasis de palmeras y gargantas del sur, todo enlazado en un circuito que casi nunca vuelve sobre sus pasos.
+Diez días es la duración que más recomendamos para un primer viaje a Marruecos. Es el punto en que el país deja de ser una escapada urbana y se convierte en un viaje de verdad: dos ciudades imperiales con mil años de historia entre ellas, una noche en el Sáhara, los grandes puertos del Alto Atlas y los oasis de palmeras y gargantas del sur, todo enlazado en un circuito que casi nunca vuelve sobre sus pasos. Para elegir qué añadir o quitar, consulta [qué visitar en Marruecos](/es/blog/que-hacer-en-marruecos).
 
 Si tienes menos tiempo, nuestro [itinerario de 7 días](/es/blog/7-day-morocco-itinerary) conserva Marrakech y el Sáhara y deja el norte. Si aún lo estás decidiendo, empieza por [cuántos días necesitas en Marruecos](/es/blog/how-many-days-do-you-need-in-morocco). Este plan asume que quieres verlo todo y hacerlo como circuito por tierra: la forma en que el país está pensado para recorrerse.
 

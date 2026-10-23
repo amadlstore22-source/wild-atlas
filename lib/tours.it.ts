@@ -3262,7 +3262,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     seoTitle: "Tour del deserto in famiglia 4 giorni",
-    seoDescription: "Tour del deserto in famiglia, 4 giorni da Marrakech alle dune dell'Erg Chebbi: cammelli, sandboard, kasbah del cinema e campo familiare. Da 607 $.",
+    seoDescription: "Tour del deserto in famiglia, 4 giorni da Marrakech alle dune dell'Erg Chebbi: cammelli, sandboard, kasbah del cinema e campo familiare. Da 526 €.",
     faq: [
       { q: "Questo circuito nel deserto è adatto ai bambini piccoli?", a: "Sì. Non c'è alcuna richiesta di cammino: tutto si muove in un veicolo con aria condizionata, e le soste (kasbah, gola, dune) sono brevi e facili. La guida è reale, però, quindi è adatto ai bambini che viaggiano ragionevolmente bene in auto; le tappe sono volutamente frazionate con soste frequenti per aiutare." },
       { q: "Cosa rende il campo nel deserto adatto alle famiglie?", a: "Il campo usato in questo viaggio ha letti veri, tende bagno private o condivise e cena servita insieme più che un bivacco spoglio. I giri in cammello sono brevi e condotti a piedi, e c'è spazio attorno al fuoco per i bambini la sera." },

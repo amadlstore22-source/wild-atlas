@@ -3262,7 +3262,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },
     seoTitle: "Familien-Wüstentour 4 Tage",
-    seoDescription: "4-Tage-Familienwüstentour von Marrakesch zu den Dünen des Erg Chebbi: Kamelritte, Sandboarden, Film-Kasbah und Familiencamp. Ab 607 $.",
+    seoDescription: "4-Tage-Familienwüstentour von Marrakesch zu den Dünen des Erg Chebbi: Kamelritte, Sandboarden, Film-Kasbah und Familiencamp. Ab 526 €.",
     faq: [
       { q: "Ist dieser Wüstentrip für kleine Kinder geeignet?", a: "Ja. Es gibt keinen Gehanspruch — alles bewegt sich im klimatisierten Fahrzeug, und die Stopps (Kasbah, Schlucht, Dünen) sind kurz und leicht. Die Fahrt ist allerdings real, er passt also für Kinder, die einigermaßen gut im Auto reisen; die Etappen sind bewusst mit häufigen Stopps aufgeteilt, um zu helfen." },
       { q: "Was macht das Wüstencamp familienfreundlich?", a: "Das auf dieser Reise genutzte Camp hat richtige Betten, private oder geteilte Bad-Zelte und gemeinsam serviertes Abendessen statt eines nackten Biwaks. Die Kamelritte sind kurz und zu Fuß geführt, und es gibt abends Platz am Feuer für Kinder." },

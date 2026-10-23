@@ -666,7 +666,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Excursión de un Día al Valle del Paraíso",
-    seoDescription: "Cañón de palmeras escondido con piscinas naturales a 35 km de Agadir. Caminata guiada por el cañón, cascada de Immouzer y almuerzo bereber incluido. Desde 30 $.",
+    seoDescription: "Cañón de palmeras escondido con piscinas naturales a 35 km de Agadir. Caminata guiada por el cañón, cascada de Immouzer y almuerzo bereber incluido. Desde 75 €.",
     featured: true,
   },
   {
@@ -3262,7 +3262,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Tour familiar al desierto 4 días",
-    seoDescription: "Circuito familiar de 4 días de Marrakech a las dunas de Erg Chebbi: paseos en camello, sandboard, kasbah de cine y campamento familiar. Desde 607 $.",
+    seoDescription: "Circuito familiar de 4 días de Marrakech a las dunas de Erg Chebbi: paseos en camello, sandboard, kasbah de cine y campamento familiar. Desde 526 €.",
     faq: [
       { q: "¿Es apto este circuito del desierto para niños pequeños?", a: "Sí. No hay exigencia de caminar: todo se mueve en un vehículo con aire acondicionado, y las paradas (kasbah, garganta, dunas) son cortas y fáciles. La conducción es real, eso sí, así que conviene a niños que viajan razonablemente bien en coche; las etapas se fraccionan a propósito con paradas frecuentes para ayudar." },
       { q: "¿Qué hace que el campamento del desierto sea apto para familias?", a: "El campamento que se usa en este viaje tiene camas de verdad, tiendas de baño privadas o compartidas y cena servida en común más que un vivac desnudo. Los paseos en camello son cortos y guiados a pie, y hay espacio alrededor del fuego para los niños por la noche." },

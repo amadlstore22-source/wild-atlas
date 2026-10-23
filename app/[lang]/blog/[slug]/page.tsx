@@ -14,6 +14,7 @@ import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import BlogTripBox from "@/components/blog/BlogTripBox";
+import PreferredSource from "@/components/blog/PreferredSource";
 import { getTourFor } from "@/lib/tours-i18n";
 import { localizeHref } from "@/lib/localize-href";
 import { foldWrappedLines } from "@/lib/blog-markdown";
@@ -533,6 +534,10 @@ export default async function BlogPostPage({ params }: BlogParams) {
                   is "why these people". Answering it earlier, with nothing
                   concrete on screen yet, is a claim about no one in particular. */}
               <WhyBookWithUs dict={dict} lang={lang} />
+
+              <PreferredSource
+                labels={{ title: dict.blog.preferredSourceTitle, body: dict.blog.preferredSourceBody, cta: dict.blog.preferredSourceCta }}
+              />
 
               <div className="mt-10 pt-8 border-t border-sand-dark flex flex-wrap gap-2">
                 <Tag className="w-4 h-4 text-ink-muted mt-0.5" />

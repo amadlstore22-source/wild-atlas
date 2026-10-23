@@ -7,6 +7,7 @@ import NewsletterForm from "@/components/ui/NewsletterForm";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { WhatsAppLink, PhoneLink } from "@/components/ui/ContactLinks";
+import { PREFERRED_SOURCE_URL } from "@/lib/preferred-source";
 
 const SOCIAL_ICONS = [
   {
@@ -278,6 +279,7 @@ export default function Footer({ lang, dict }: Props) {
             <Link href={`/${lang}/terms`} className="hover:text-brass-glow transition-colors">{dict.footer.terms}</Link>
             <Link href={`/${lang}/cookies`} className="hover:text-brass-glow transition-colors">Cookies</Link>
             <a href={`mailto:${SITE.email}`} className="hover:text-brass-glow transition-colors">{dict.footer.contact}</a>
+            <a href={PREFERRED_SOURCE_URL} target="_blank" rel="noopener" className="hover:text-brass-glow transition-colors">{dict.footer.preferredSource}</a>
           </div>
         </div>
       </div>

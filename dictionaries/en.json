@@ -375,6 +375,9 @@
     "tooltip": "Need help? Chat now"
   },
   "blog": {
+    "preferredSourceTitle": "Get local answers in your searches",
+    "preferredSourceBody": "While you plan, choose Marrakech Eco Tours as a preferred source on Google. Our guides' advice on routes, prices and seasons will then show up more often in your Morocco searches.",
+    "preferredSourceCta": "Add to my Google sources",
     "pageTitle": "Morocco Travel Blog",
     "pageSubtitle": "Guides, itineraries & insider tips from certified local experts",
     "startHere": "Start Here",
@@ -518,6 +521,7 @@
     "faq12A": "Safety is always our first priority. If severe weather makes a planned route dangerous, our guides will adapt the itinerary to a safe alternative. In the rare case a tour must be cancelled entirely due to weather, you will receive a full refund, less transfer fees, or the option to reschedule."
   },
   "footer": {
+    "preferredSource": "Our Morocco tips in your Google searches",
     "tagline": "Licensed Moroccan tour operator. Expert local guides, small groups, eco-conscious adventures since 2010.",
     "quickLinks": "Company",
     "explore": "Adventures",

@@ -375,6 +375,9 @@
     "tooltip": "Hai bisogno di aiuto? Scrivici ora"
   },
   "blog": {
+    "preferredSourceTitle": "Risposte locali nelle tue ricerche",
+    "preferredSourceBody": "Mentre organizzi il viaggio, scegli Marrakech Eco Tours come fonte preferita su Google: i consigli delle nostre guide su itinerari, prezzi e stagioni compariranno più spesso nelle tue ricerche sul Marocco.",
+    "preferredSourceCta": "Aggiungi alle mie fonti Google",
     "pageTitle": "Blog di Viaggio sul Marocco",
     "pageSubtitle": "Guide, itinerari e consigli degli esperti locali certificati",
     "startHere": "Inizia da Qui",
@@ -518,6 +521,7 @@
     "faq12A": "La sicurezza è sempre la nostra priorità assoluta. Se condizioni meteorologiche avverse rendono pericoloso un itinerario previsto, le nostre guide adatteranno il percorso a un'alternativa sicura. Nel raro caso in cui un tour debba essere annullato completamente a causa del meteo, riceverai un rimborso totale, al netto delle commissioni di trasferimento, oppure la possibilità di riprogrammare."
   },
   "footer": {
+    "preferredSource": "I nostri consigli sul Marocco nelle tue ricerche Google",
     "tagline": "Tour operator marocchino autorizzato. Guide locali esperte, piccoli gruppi, avventure eco-consapevoli dal 2010.",
     "quickLinks": "Azienda",
     "explore": "Avventure",

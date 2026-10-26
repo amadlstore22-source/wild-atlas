@@ -93,6 +93,30 @@ script editor, run `setup` once (it adds the three headers and keeps every
 row), then **Deploy → Manage deployments → edit → New version**. Until you do,
 invoices still save, but the sheet keeps only the old twelve columns.
 
+## Straight into bookings26 (the team's sheet)
+
+Each invoice is also placed in **bookings26**, in the month tab of the
+departure, one value per column: TOUR BOOKED, DATE, EMAILS (name, email,
+phone), CLIENTE (people), DEPOSIT, AMOUNT LEFT, PICK UP - DROP OFF, and the
+camp / hotel / restaurant in **accomodation**. Two columns are added at the far
+right: INVOICE and TRIP DETAILS. PAYMENT and DRIVER are left for the team.
+Re-sending an invoice updates its row; it never adds a second one, and it only
+ever writes into a completely empty row.
+
+**Setup, once** (full steps at the top of `docs/apps-script-bookings.gs`):
+
+1. bookings26 → Extensions → Apps Script → **+** → Script, name it
+   `invoices`, paste `docs/apps-script-bookings.gs`. The deposit script is not
+   touched.
+2. On the `INVOICE_SECRET` line, paste the same value as `SHEET_WEBHOOK_SECRET`
+   in `.env.local`.
+3. Deploy → New deployment → Web app → Execute as **Me**, access **Anyone** →
+   Deploy → allow access → copy the URL.
+4. Add `BOOKINGS_WEBHOOK_URL=<that URL>` to `.env.local`.
+
+The invoice command then prints `Bookings bookings26 → November26, row 14`.
+If it prints `NOT PLACED`, add the booking by hand and forward the brief.
+
 ## Two things every invoice still needs from you
 
 **1. Payment instructions.** Without `--payment` the invoice prints

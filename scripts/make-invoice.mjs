@@ -347,10 +347,10 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
   if (!args["no-sheet"]) {
     // .env.local is not loaded automatically outside Next, so read it here.
     loadEnvLocal(path.join(ROOT, ".env.local"));
-    const { logInvoice } = await import(
+    const { logInvoice, logBooking } = await import(
       pathToFileURL(path.join(ROOT, "lib", "invoice-log.ts")).href
     );
-    const res = await logInvoice({
+    const sheetRecord = {
       number,
       issued,
       clientName: inv.clientName,
@@ -373,10 +373,22 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
       pickup: cols.pickup,
       suppliers: cols.suppliers,
       details: cols.details,
-    });
+      clientPhone: inv.clientPhone ?? "",
+    };
+    const res = await logInvoice(sheetRecord);
     sheetNote = res.ok
       ? "row appended"
       : `NOT RECORDED — ${res.reason}: ${res.detail}`;
+
+    // The logistics team's own sheet (bookings26): month tab of the departure,
+    // one value per column. Reported loudly when it fails, because this is the
+    // copy the team actually plans from.
+    const b = await logBooking(sheetRecord);
+    console.log(
+      b.ok
+        ? `Bookings bookings26 → ${b.tab}, row ${b.row}${b.updated ? " (updated)" : ""}`
+        : `Bookings NOT PLACED in bookings26 — ${b.reason}: ${b.detail}\n         Add it by hand and forward the brief to the team.`,
+    );
   }
   console.log(`Sheet   ${sheetNote}`);
 

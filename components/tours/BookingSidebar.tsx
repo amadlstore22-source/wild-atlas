@@ -322,30 +322,45 @@ export default function BookingSidebar({
                         {b.groupPricingBestValue ?? "Best value"}
                       </span>
                     )}
+                    {/* The selected row must be unmistakable. It used to get a
+                        40% tint of indigo-wash, which visitors could not see, and
+                        when the selected row was also "Best value" the best-value
+                        border replaced the selection entirely, so nothing showed
+                        (owner, 2026-10-26). Selected now wins over best value:
+                        solid indigo fill, white text, a check mark. */}
                     <button
                       type="button"
                       onClick={() => setPeople(tier.minPeople)}
                       aria-pressed={active}
-                      className={`w-full text-start flex items-center justify-between gap-2 rounded-[3px] border bg-card px-3.5 transition-colors hover:border-indigo/50 ${
-                        best
-                          ? "py-3 border-terracotta"
-                          : active
-                            ? "py-2.5 border-indigo/40 bg-indigo-wash/40"
-                            : "py-2.5 border-rule"
+                      className={`w-full text-start flex items-center justify-between gap-2 rounded-[3px] border px-3.5 transition-colors ${best ? "py-3" : "py-2.5"} ${
+                        active
+                          ? "border-indigo bg-indigo text-white shadow-sm"
+                          : best
+                            ? "bg-card border-terracotta hover:border-indigo/50"
+                            : "bg-card border-rule hover:border-indigo/50"
                       }`}
                     >
-                      <span className="text-[0.72rem] font-bold uppercase tracking-wider text-indigo shrink-0">
+                      <span
+                        className={`flex items-center gap-1.5 text-[0.72rem] font-bold uppercase tracking-wider shrink-0 ${
+                          active ? "text-white" : "text-indigo"
+                        }`}
+                      >
+                        {active && <CheckCircle weight="fill" aria-hidden="true" className="w-4 h-4 shrink-0" />}
                         {label} {peopleWord}
                       </span>
                       <span className="flex items-baseline gap-1.5 min-w-0">
                         <span
                           className={`font-display text-xl leading-none tabular-nums ${
-                            best ? "text-terracotta" : "text-indigo"
+                            active ? "text-white" : best ? "text-terracotta" : "text-indigo"
                           }`}
                         >
                           {format(tier.price)}
                         </span>
-                        <span className="micro-text uppercase tracking-wider text-ink-muted whitespace-nowrap">
+                        <span
+                          className={`micro-text uppercase tracking-wider whitespace-nowrap ${
+                            active ? "text-white/80" : "text-ink-muted"
+                          }`}
+                        >
                           {b.groupPricingEachSuffix ?? "per person"}
                         </span>
                       </span>

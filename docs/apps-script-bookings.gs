@@ -5,18 +5,22 @@
  * is written into bookings26 by itself:
  *   - in the month tab of the DEPARTURE date (November26, DECEMBRE26, ...);
  *   - each piece in its own column, found by its header in row 2:
- *       TOUR BOOKED, DATE, EMAILS (name, email, phone), CLIENTE (people),
+ *       TOUR BOOKED, DATE, EMAILS (email — phone), CLIENTE (number of people),
  *       DEPOSIT, AMOUNT LEFT, PICK UP - DROP OFF, accomodation (camp / hotel /
  *       restaurant booked);
  *   - plus two columns it adds at the far right if missing: INVOICE (the
- *     invoice number) and TRIP DETAILS (everything promised to the client).
- * PAYMENT and DRIVER are never touched: those are the team's to fill. Writing
- * by script does not fire the deposit script; only your own PAYMENT edits do.
+ *     invoice number) and TRIP DETAILS (client name + everything promised).
  *
- * Re-sending the same invoice (a new pick-up, a changed deposit) UPDATES its
- * row, found by the INVOICE column. It never adds a second row.
- * It only writes into a row that is completely empty (no value, no formula),
- * so it can never overwrite a booking or a total.
+ * YOUR DATA AND THE DEPOSIT AUTOMATION ARE SAFE:
+ *   - A new booking goes only into a completely empty row (no value, no
+ *     formula). It never writes over a booking, a total or a note.
+ *   - New columns are added only to the right of everything you use.
+ *   - PAYMENT, DRIVER and DEPOSIT DATE are never written. The deposit script
+ *     runs only when YOU change PAYMENT, so nothing here can set it off.
+ *   - Re-sending an invoice updates its own row (found by INVOICE), never a
+ *     second row, and changes a cell only if it is empty or still holds what
+ *     this script wrote. Anything the team typed is kept.
+ *   - Once PAYMENT has any value, DEPOSIT and AMOUNT LEFT are never changed.
  *
  * WHY: on INV-2026-033 (26 Oct 2026) the camp promised to the client
  * was only on the PDF. The team never saw it and took the family to the wrong
@@ -78,22 +82,45 @@ function invPlace_(ss, data) {
   }
   invEnsureCols_(tab, cols);
 
-  const who = [data.clientName, data.clientEmail, data.clientPhone].filter(String).join(' — ');
-  const set = function (col, value) { if (col) tab.getRange(row, col).setValue(value); };
-  set(cols['TOUR BOOKED'], data.tour || '');
-  set(cols.DATE, when);
-  set(cols.EMAILS, who);
-  set(invAny_(cols, ['CLIENTE', 'GUESTS', 'PAX']), Number(data.people) || '');
-  set(cols.DEPOSIT, Number(data.depositEur || 0));
-  set(invAny_(cols, ['AMOUNT LEFT', 'BALANCE']), Number(data.balanceEur || 0));
-  set(invAny_(cols, ['PICK UP - DROP OFF', 'PICK UP', 'PICKUP']), data.pickup || '');
-  set(invAny_(cols, ['ACCOMODATION', 'ACCOMMODATION', 'CAMP / ACCOMMODATION']), data.suppliers || '');
-  set(cols.INVOICE, data.number);
-  set(cols['TRIP DETAILS'], data.details || '');
+  // What this script last wrote in this row, kept as a note on the INVOICE
+  // cell. On a re-send a cell is changed ONLY if it is empty or still holds
+  // that value: anything the team typed over it is theirs and is kept.
+  const invoiceCell = tab.getRange(row, cols.INVOICE);
+  let mine = {};
+  try { mine = JSON.parse(invoiceCell.getNote() || '{}'); } catch (err) { mine = {}; }
+  const kept = [];
+  const key = function (v) { return Object.prototype.toString.call(v) === '[object Date]' ? 'd:' + v.toDateString() : String(v); };
+  const set = function (name, col, value) {
+    if (!col) return;
+    const cell = tab.getRange(row, col);
+    const now = cell.getValue();
+    if (updated && now !== '' && key(now) !== mine[name]) { kept.push(name); return; }
+    cell.setValue(value);
+    mine[name] = key(value);
+  };
+
+  // Once PAYMENT has any value the money is the team's: DEPOSIT and AMOUNT
+  // LEFT are never changed again, so the deposit automation only ever reads
+  // amounts the team has confirmed. PAYMENT, DRIVER and DEPOSIT DATE are
+  // never written at all.
+  const paymentSet = cols.PAYMENT && String(tab.getRange(row, cols.PAYMENT).getValue()).trim() !== '';
+
+  set('tour', cols['TOUR BOOKED'], data.tour || '');
+  set('date', cols.DATE, when);
+  set('emails', cols.EMAILS, [data.clientEmail, data.clientPhone].filter(String).join(' — '));
+  set('people', invAny_(cols, ['CLIENTE', 'GUESTS', 'PAX']), Number(data.people) || '');
+  if (!paymentSet) {
+    set('deposit', cols.DEPOSIT, Number(data.depositEur || 0));
+    set('left', invAny_(cols, ['AMOUNT LEFT', 'BALANCE']), Number(data.balanceEur || 0));
+  }
+  set('pickup', invAny_(cols, ['PICK UP - DROP OFF', 'PICK UP', 'PICKUP']), data.pickup || '');
+  set('accom', invAny_(cols, ['ACCOMODATION', 'ACCOMMODATION', 'CAMP / ACCOMMODATION']), data.suppliers || '');
+  set('details', cols['TRIP DETAILS'], ['Client: ' + (data.clientName || ''), data.details || ''].filter(String).join(' | '));
+  invoiceCell.setValue(data.number).setNote(JSON.stringify(mine));
   if (cols.DATE && !updated && tab.getRange(row, cols.DATE).getNumberFormat() === 'General') {
     tab.getRange(row, cols.DATE).setNumberFormat('dd/mm/yyyy');
   }
-  return { ok: true, tab: tab.getName(), row: row, updated: updated };
+  return { ok: true, tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet) };
 }
 
 /** Column numbers by UPPERCASE header in row 2. */

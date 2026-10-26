@@ -49,7 +49,7 @@ export interface InvoiceRecord {
  * tab, which is why the camp promised on INV-2026-033 never reached them.
  * Same secret as the Invoices log; the URL is BOOKINGS_WEBHOOK_URL.
  */
-export async function logBooking(record: InvoiceRecord): Promise<LogResult & { tab?: string; row?: number; updated?: boolean }> {
+export async function logBooking(record: InvoiceRecord): Promise<LogResult & { tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean }> {
   const url = process.env.BOOKINGS_WEBHOOK_URL;
   const secret = process.env.SHEET_WEBHOOK_SECRET;
   if (!url || !secret) {
@@ -76,10 +76,10 @@ export async function logBooking(record: InvoiceRecord): Promise<LogResult & { t
     });
     if (!res.ok) return { ok: false, reason: "http", detail: `bookings26 returned ${res.status}` };
     const text = await res.text();
-    let j: { ok?: boolean; error?: string; tab?: string; row?: number; updated?: boolean } = {};
+    let j: { ok?: boolean; error?: string; tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean } = {};
     try { j = JSON.parse(text); } catch { return { ok: false, reason: "rejected", detail: text.slice(0, 200) }; }
     if (!j.ok) return { ok: false, reason: "rejected", detail: j.error ?? text.slice(0, 200) };
-    return { ok: true, tab: j.tab, row: j.row, updated: j.updated };
+    return { ok: true, tab: j.tab, row: j.row, updated: j.updated, kept: j.kept, moneyLocked: j.moneyLocked };
   } catch (err) {
     return { ok: false, reason: "network", detail: err instanceof Error ? err.message : String(err) };
   }

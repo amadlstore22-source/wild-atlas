@@ -117,19 +117,28 @@ function slug(s) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
 
-  const required = ["name", "tour", "people", "total"];
-  const missing = required.filter((k) => !args[k]);
+  // --suppliers is required because the camp, hotel and restaurant promised to
+  // a client must reach the team that books them. On INV-2026-033 they were
+  // only on the PDF, and the family was taken to the wrong camp (see
+  // lib/logistics-brief.ts). "standard" is accepted for the tour's usual partners.
+  const required = ["name", "tour", "people", "total", "suppliers"];
+  const missing = required.filter((k) => !args[k] || args[k] === true);
   if (missing.length || args.help) {
     console.log(`
-Create an invoice PDF and record it in the Google Sheet.
+Create an invoice PDF, a logistics brief, and record it in the Google Sheet.
 
 Required:
   --name      "Andrés Gutiérrez Peña"
   --tour      "3-Day Private Sahara Desert Tour"
   --people    3
   --total     850           total the customer pays, in euros
+  --suppliers "Camp: Trigados Camp, family table|Lunch: Dar Tifrouine"
+                            every supplier promised to the client, pipe-separated,
+                            or "standard" for the tour's usual partners. Goes to
+                            the sheet and the logistics brief, NOT the client PDF.
 
 Optional:
+  --pickup    "Riad X, Derb Y, Medina, 7:00"   pick-up place and time for the team
   --email     alejandro@example.com   omitted from the invoice if not given
   --phone     "+34 692 86 92 45"       client phone/WhatsApp, same treatment
   --deposit   175           default 0
@@ -170,6 +179,13 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
   const { renderInvoiceHtml, computeTotals, eur, isPlaceholderEmail } = await import(
     pathToFileURL(path.join(ROOT, "lib", "invoice.ts")).href
   );
+  const { buildBrief, parseSuppliers, sheetColumns } = await import(
+    pathToFileURL(path.join(ROOT, "lib", "logistics-brief.ts")).href
+  );
+  const suppliers = parseSuppliers(args.suppliers);
+  if (!suppliers.length) {
+    throw new Error('--suppliers is empty. Name each camp, hotel and restaurant, or pass "standard".');
+  }
 
   // A fabricated address on a customer document looks authoritative and is
   // wrong. Refuse rather than print it — omitting the line is always better.
@@ -258,6 +274,23 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
 
   const totals = computeTotals(inv); // throws on bad money before anything is written
 
+  const briefInput = {
+    number,
+    clientName: inv.clientName,
+    clientPhone: inv.clientPhone,
+    tourTitle: inv.tourTitle,
+    departure: inv.departure,
+    ret: inv.ret,
+    people: inv.people,
+    language: inv.language,
+    pickup: args.pickup && args.pickup !== true ? String(args.pickup) : undefined,
+    suppliers,
+    includes: inv.includes,
+    description: inv.description,
+    notes: inv.notes,
+  };
+  const cols = sheetColumns(briefInput);
+
   // ---- PDF -----------------------------------------------------------------
   const outDir = args.out || path.join(os.homedir(), "Downloads");
   const pdfPath = path.join(
@@ -300,6 +333,15 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     console.log(`PDF     ${pdfPath}`);
   }
 
+  // ---- Logistics brief -------------------------------------------------------
+  // Plain text next to the PDF, ready to forward to the driver / logistics team
+  // on WhatsApp. Written on every run, reissues included, so it always matches
+  // the latest invoice.
+  fs.mkdirSync(outDir, { recursive: true });
+  const briefPath = path.join(outDir, `Brief_${number}_${slug(inv.clientName)}.txt`);
+  fs.writeFileSync(briefPath, buildBrief(briefInput), "utf8");
+  console.log(`Brief   ${briefPath}`);
+
   // ---- Sheet ---------------------------------------------------------------
   let sheetNote = "skipped (--no-sheet)";
   if (!args["no-sheet"]) {
@@ -328,6 +370,9 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
           : "Unpaid",
       pdfPath: args["no-pdf"] ? "" : pdfPath,
       notes: inv.notes,
+      pickup: cols.pickup,
+      suppliers: cols.suppliers,
+      details: cols.details,
     });
     sheetNote = res.ok
       ? "row appended"
@@ -352,6 +397,12 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     balanceCents: totals.balance,
     extras: totals.extras,
     pdfPath: args["no-pdf"] ? null : pdfPath,
+    briefPath,
+    pickup: cols.pickup,
+    suppliers,
+    includes: inv.includes,
+    description: inv.description,
+    notes: inv.notes,
     sheet: sheetNote === "row appended",
     status: args["deposit-paid"] ? "Deposit paid" : undefined,
   }, { replace: Boolean(args.reissue) });

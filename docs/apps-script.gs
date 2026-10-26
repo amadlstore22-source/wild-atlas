@@ -33,7 +33,13 @@ const ENQUIRY_HEADERS = [
 const INVOICE_HEADERS = [
   'Issued', 'Invoice', 'Name', 'Email', 'Tour', 'Departure',
   'People', 'Total EUR', 'Deposit EUR', 'Balance EUR', 'Status', 'PDF',
+  // Added 2026-10-26, last so existing rows keep their columns. What the
+  // logistics team must book: on INV-2026-033 the camp promised to the client
+  // was only on the PDF and the family was taken to the wrong camp.
+  'Pickup', 'Suppliers booked', 'Trip details',
 ];
+// Column numbers (1-based) of the three logistics columns above.
+const LOGISTICS_COL = INVOICE_HEADERS.indexOf('Pickup') + 1;
 
 // ═════════════════════════════════════════════════════════════════════════════
 // STEP A — run ONCE from the editor: pick "setup" in the dropdown, click Run.
@@ -90,9 +96,16 @@ function setupInvoices_(ss) {
     .setFontColor('#ffffff');
 
   sheet.setFrozenRows(1);
+  // A filter made before the logistics columns existed stops at column L; widen
+  // it. Removing a filter only clears its view settings, never any row.
+  const f = sheet.getFilter();
+  if (f && f.getRange().getNumColumns() < INVOICE_HEADERS.length) f.remove();
   if (!sheet.getFilter()) {
     sheet.getRange(1, 1, sheet.getMaxRows(), INVOICE_HEADERS.length).createFilter();
   }
+
+  // The logistics columns hold sentences; wrap them so nothing is hidden.
+  sheet.getRange(1, LOGISTICS_COL, sheet.getMaxRows(), 3).setWrap(true);
 
   // Money as money, so SUM works and nothing renders as text.
   sheet.getRange('H:J').setNumberFormat('#,##0.00');
@@ -113,7 +126,10 @@ function setupInvoices_(ss) {
     .build();
 
   sheet.setConditionalFormatRules([unpaid, paid]);
-  sheet.autoResizeColumns(1, INVOICE_HEADERS.length);
+  // Auto-fit the short columns only; auto-fitting the logistics sentences
+  // would make them hundreds of pixels wide.
+  sheet.autoResizeColumns(1, LOGISTICS_COL - 1);
+  sheet.setColumnWidths(LOGISTICS_COL, 3, 280);
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -168,7 +184,14 @@ function addInvoice_(data) {
     const existing = sheet.getRange('B:B').getValues();
     for (var i = 0; i < existing.length; i++) {
       if (existing[i][0] === data.number) {
-        return json_({ ok: true, note: 'already recorded' });
+        // A re-sent invoice (new pick-up address, deposit arrived...) updates
+        // ONLY the logistics columns, so the team always sees the latest
+        // suppliers. Status and amounts are left alone: they may have been
+        // edited by hand in the sheet.
+        sheet.getRange(i + 1, LOGISTICS_COL, 1, 3).setValues([[
+          data.pickup || '', data.suppliers || '', data.details || '',
+        ]]);
+        return json_({ ok: true, note: 'already recorded, logistics updated' });
       }
     }
   }
@@ -186,6 +209,9 @@ function addInvoice_(data) {
     Number(data.balanceEur || 0),
     data.status || 'Unpaid',
     data.pdfPath || '',
+    data.pickup || '',
+    data.suppliers || '',
+    data.details || '',
   ]);
   return json_({ ok: true });
 }

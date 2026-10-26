@@ -32,6 +32,11 @@ export interface InvoiceRecord {
   status?: string;
   pdfPath?: string;
   notes?: string;
+  /** For the logistics team (see lib/logistics-brief.ts). The Apps Script
+   *  writes these to the Pickup / Suppliers booked / Trip details columns. */
+  pickup?: string;
+  suppliers?: string;
+  details?: string;
 }
 
 const TIMEOUT_MS = 10_000;

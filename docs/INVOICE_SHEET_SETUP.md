@@ -39,6 +39,8 @@ what you are reading off the customer's email.
 | `--tour` | tour title (required) |
 | `--people` | number of travellers (required) |
 | `--total` | what they actually pay, in euros (required) |
+| `--suppliers` | **required.** Every camp, hotel, restaurant and special arrangement promised to the client, pipe-separated: `"Dinner: Trigados Camp, family table\|Lunch: Dar Tifrouine"`. Write `standard` for a tour's usual partners. Goes to the sheet and the logistics brief, not the client's PDF. |
+| `--pickup` | pick-up place and time for the team: `"Riad X, Derb Y, 7:00"` |
 | `--deposit` | deposit in euros, default 0 |
 | `--standard` | undiscounted price **per person** — shows the discount |
 | `--departure` `--return` | `2026-09-20` |
@@ -70,6 +72,26 @@ renders "Standard rate (3 × €320.00) €960.00", "Discount applied −€110.
 > discount, which would present a surcharge as a saving.
 
 ---
+
+## The logistics brief (added 2026-10-26)
+
+Every invoice now also writes `Brief_INV-…_Name.txt` next to the PDF: the
+dates, pick-up, client phone, guide language, every supplier you named with
+`--suppliers`, and everything the invoice promised. **Forward it to the driver
+or logistics team on WhatsApp** as soon as the booking is confirmed.
+
+The same suppliers go to three new columns at the end of the Invoices tab:
+**Pickup, Suppliers booked, Trip details**. When you re-send an invoice
+(`--reissue`), those three columns are updated; status and amounts are not.
+
+Why: on INV-2026-033 the camp promised to the client (Trigados, family table,
+music and fire show) was only on the PDF. The sheet had no column for it, the
+driver took the family to another camp, and they missed the dinner and shows.
+
+**One-time step:** paste the updated `docs/apps-script.gs` into the sheet's
+script editor, run `setup` once (it adds the three headers and keeps every
+row), then **Deploy → Manage deployments → edit → New version**. Until you do,
+invoices still save, but the sheet keeps only the old twelve columns.
 
 ## Two things every invoice still needs from you
 

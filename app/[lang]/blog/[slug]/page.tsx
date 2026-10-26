@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarBlank, Clock, ArrowLeft, ArrowRight, Tag } from "@phosphor-icons/react/dist/ssr";
 import { BLOG_POSTS } from "@/lib/blog";
-import { blogPostsFor, getBlogPostFor, blogRegionsFor, blogSlugFor } from "@/lib/blog-i18n";
+import { blogPostsFor, getBlogPostFor, blogRegionsFor, blogSlugFor, blogPostSeo } from "@/lib/blog-i18n";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
   if (!hasLocale(lang)) return {};
   const post = getBlogPostFor(lang, slug);
   if (!post) return {};
-  const LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
+  const seo = blogPostSeo(lang, post.slug);
   return {
     // Some seoTitles already carry "| Marrakech Eco Tours"; strip it so the
     // layout template appends the brand exactly once (no double suffix).
@@ -75,13 +75,16 @@ export async function generateMetadata({ params }: BlogParams): Promise<Metadata
     // incoming segment would point every alternate at whichever spelling the
     // visitor happened to arrive on, breaking hreflang reciprocity — Google
     // discards clusters that do not point back at each other.
+    //
+    // A locale still waiting for its translation serves the English text (see
+    // blogPostsFor). That page is not an Italian or Arabic page, so it points
+    // its canonical at /en, stays out of every hreflang cluster and is
+    // noindexed until the translation exists (see blogPostSeo).
     alternates: {
-      canonical: `https://marrakechecotours.com/${lang}/blog/${blogSlugFor(lang, post.slug)}`,
-      languages: hreflangLanguages(
-        LOCALES,
-        (l) => `https://marrakechecotours.com/${l}/blog/${blogSlugFor(l, post.slug)}`
-      ),
+      canonical: seo.canonical,
+      languages: hreflangLanguages(seo.locales, seo.urlFor),
     },
+    ...(seo.robots && { robots: seo.robots }),
   };
 }
 

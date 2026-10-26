@@ -56,7 +56,9 @@ export default function DurationChooser({ slug, lang, dict }: Props) {
             <li
               key={o.slug}
               className={`grid grid-cols-1 sm:grid-cols-[minmax(0,11rem)_1fr_auto] gap-4 sm:gap-6 items-center rounded-[4px] p-4 sm:p-5 ${
-                isCurrent ? "bg-indigo/5 ring-2 ring-indigo/40" : "bg-card ring-1 ring-rule"
+                // Solid ring, not indigo/40: the faint version read as grey and
+                // the current trip was hard to pick out (2026-10-26).
+                isCurrent ? "bg-indigo/5 ring-2 ring-indigo" : "bg-card ring-1 ring-rule"
               }`}
             >
               <div className="min-w-0">

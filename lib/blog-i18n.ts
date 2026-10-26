@@ -69,6 +69,43 @@ export function blogPostsFor(locale: Locale): BlogPost[] {
 }
 
 /**
+ * Whether this locale has its OWN translation of the post, rather than the
+ * English fallback blogPostsFor() serves while a translation is missing.
+ *
+ * A fallback page is English text under /it/ or /ar/, with lang="it". Offering
+ * it to Google as the Italian page (self-canonical, in hreflang, in the
+ * sitemap) is a duplicate of /en in the wrong language. The cycling post was
+ * live that way in Italian and Arabic (found 2026-10-26). Callers use this to
+ * keep fallbacks out of the sitemap and hreflang and to canonicalise them to
+ * the English original.
+ */
+export function isTranslated(locale: Locale, slug: string): boolean {
+  if (locale === "en") return true;
+  return (BLOG_POSTS_BY_LOCALE[locale] ?? []).some((p) => p.slug === slug);
+}
+
+const SITE = "https://marrakechecotours.com";
+const ALL_LOCALES = ["en", "fr", "es", "de", "it", "ar"] as const;
+
+/**
+ * Canonical, hreflang cluster and robots for one post in one locale.
+ *
+ * Translated pages self-canonicalise with every translated locale as an
+ * alternate. A fallback page (English text, see isTranslated) points its
+ * canonical at /en, is left out of the cluster and is noindexed.
+ */
+export function blogPostSeo(locale: Locale, slug: string) {
+  const translated = isTranslated(locale, slug);
+  const urlFor = (l: Locale) => `${SITE}/${l}/blog/${blogSlugFor(l, slug)}`;
+  return {
+    canonical: translated ? urlFor(locale) : `${SITE}/en/blog/${slug}`,
+    locales: ALL_LOCALES.filter((l) => isTranslated(l, slug)),
+    urlFor,
+    robots: translated ? undefined : { index: false, follow: true },
+  };
+}
+
+/**
  * Resolve a post by either its localised URL segment or its English slug.
  *
  * Accepting both matters: the English slug is what every already-indexed URL,

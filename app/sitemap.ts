@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
-import { blogSlugFor } from "@/lib/blog-i18n";
+import { blogSlugFor, isTranslated } from "@/lib/blog-i18n";
 import { tourSlugFor } from "@/lib/tours-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
@@ -107,8 +107,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // localised slug is submitted under that URL rather than the English one.
   // Submitting the English spelling for a locale that 301s it away would ask
   // Google to crawl a redirect on every deploy.
+  // A locale still serving the English fallback is left out: that page is
+  // noindexed and canonicalises to /en (see isTranslated).
   const blogUrls = LOCALES.flatMap((lang) =>
-    BLOG_POSTS.map((p) => ({
+    BLOG_POSTS.filter((p) => isTranslated(lang, p.slug)).map((p) => ({
       url: `${BASE}/${lang}/blog/${blogSlugFor(lang, p.slug)}`,
       lastModified: new Date(p.updatedAt ?? p.publishedAt),
       changeFrequency: "monthly" as const,

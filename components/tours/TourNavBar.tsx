@@ -94,7 +94,15 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
                 rounding makes it read as anchored to the edge, not floating. */}
             <m.nav
               aria-label="Tour sections"
-              className={`hidden xl:block fixed left-0 top-1/2 z-30 -translate-y-1/2 ${scrolling ? "" : "pointer-events-none"}`}
+              // NOT xl (1280px). The assumption above held only on very wide
+              // screens: the rail is ~176px wide and the max-w-7xl column
+              // leaves a left margin of just 32px at 1280, 75px at 1366 and
+              // 112px at 1440, so on ordinary laptops the rail sat on top of
+              // the page text while scrolling (found 2026-10-26, "2 days /
+              // 1 night" covered by "Itinerary"). 1680px is the first width
+              // where the margin (~200px) clears the rail; below it the
+              // sticky top bar does the same job.
+              className={`hidden min-[1680px]:block fixed left-0 top-1/2 z-30 -translate-y-1/2 ${scrolling ? "" : "pointer-events-none"}`}
               initial={{ opacity: 0, x: -100 }}
               // Slide off the left edge + fade when the user stops scrolling,
               // then hover brings it fully back for interaction.
@@ -132,11 +140,11 @@ export default function TourNavBar({ dict }: { dict: Dictionary }) {
               </ul>
             </m.nav>
 
-            {/* Below xl there is no room for a left rail, so fall back to a slim
-                horizontal bar tucked under the header. */}
+            {/* Below 1680px there is no room for a left rail, so fall back to a
+                slim horizontal bar tucked under the header. */}
             <m.nav
               aria-label="Tour sections"
-              className="xl:hidden fixed top-16 lg:top-20 left-0 right-0 z-30 bg-surface/85 backdrop-blur-md border-b border-rule/70"
+              className="min-[1680px]:hidden fixed top-16 lg:top-20 left-0 right-0 z-30 bg-surface/85 backdrop-blur-md border-b border-rule/70"
               initial={{ y: -48, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -48, opacity: 0 }}

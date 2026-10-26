@@ -1,12 +1,12 @@
 "use client";
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
 import { type Category, type Difficulty, type Origin, type DurationBucket, type TourListItem } from "@/lib/tours";
 import { whatsappUrl } from "@/lib/constants";
 import { useCurrency } from "@/lib/currency";
-import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree } from "@phosphor-icons/react";
+import { MagnifyingGlass, Sliders, X, WhatsappLogo, UsersThree, ArrowDown } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "../dictionaries";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 
@@ -159,6 +159,30 @@ export default function ToursClient({
     search !== "" || category !== "all" || difficulty !== "all" ||
     origin !== "all" || duration !== "all" || price !== "all" || place !== "";
 
+  // On a phone the results start ~1,500px below the filter chips, so tapping
+  // "Desert Tours" changed nothing the visitor could see and the filters read
+  // as broken (Clarity recording, 2026-10-20; measured again 2026-10-26: first
+  // result 1,485px down on a 844px screen). While a filter is active and the
+  // results are still below the screen, a button at the bottom says how many
+  // tours matched and jumps to them. It hides itself once the results are on
+  // screen or have been scrolled past, and never shows on md+ where the grid
+  // sits right under the filters.
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const [resultsBelow, setResultsBelow] = useState(false);
+  useEffect(() => {
+    const el = resultsRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([e]) => {
+      setResultsBelow(!e.isIntersecting && e.boundingClientRect.top > 0);
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  function jumpToResults() {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    resultsRef.current?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+  }
+
   const chip = (activeState: boolean) =>
     `px-3 py-1.5 rounded-[3px] text-xs font-semibold transition-colors border ${
       activeState
@@ -190,7 +214,7 @@ export default function ToursClient({
         {/* Origin tabs */}
         <div className="flex flex-wrap gap-2 mb-6 border-b border-rule pb-4">
           {ORIGIN_TABS.map((tab) => (
-            <button key={tab.id} onClick={() => setOrigin(tab.id)}
+            <button key={tab.id} onClick={() => setOrigin(tab.id)} aria-pressed={origin === tab.id}
               className={`px-5 py-2 rounded-[3px] text-sm font-semibold transition ${origin === tab.id ? "bg-indigo text-cream shadow-sm" : "bg-card text-ink border border-rule hover:border-indigo/40 hover:text-indigo"}`}>
               {tab.label}
             </button>
@@ -225,9 +249,9 @@ export default function ToursClient({
             <div>
               <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.category}</div>
               <div className="flex flex-wrap gap-1.5">
-                <button onClick={() => setCategory("all")} className={chip(category === "all")}>{dict.tours.all}</button>
+                <button onClick={() => setCategory("all")} aria-pressed={category === "all"} className={chip(category === "all")}>{dict.tours.all}</button>
                 {categories.map((cat) => (
-                  <button key={cat.id} onClick={() => setCategory(cat.id)} className={chip(category === cat.id)}>{cat.label}</button>
+                  <button key={cat.id} onClick={() => setCategory(cat.id)} aria-pressed={category === cat.id} className={chip(category === cat.id)}>{cat.label}</button>
                 ))}
               </div>
             </div>
@@ -235,7 +259,7 @@ export default function ToursClient({
               <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.difficulty}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DIFFICULTIES.map((d) => (
-                  <button key={d.id} onClick={() => setDifficulty(d.id)} className={chip(difficulty === d.id)}>{d.label}</button>
+                  <button key={d.id} onClick={() => setDifficulty(d.id)} aria-pressed={difficulty === d.id} className={chip(difficulty === d.id)}>{d.label}</button>
                 ))}
               </div>
             </div>
@@ -243,7 +267,7 @@ export default function ToursClient({
               <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.duration}</div>
               <div className="flex flex-wrap gap-1.5">
                 {DURATIONS.map((d) => (
-                  <button key={d.id} onClick={() => setDuration(d.id)} className={chip(duration === d.id)}>{d.label}</button>
+                  <button key={d.id} onClick={() => setDuration(d.id)} aria-pressed={duration === d.id} className={chip(duration === d.id)}>{d.label}</button>
                 ))}
               </div>
             </div>
@@ -251,7 +275,7 @@ export default function ToursClient({
               <div className="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-1.5">{dict.tours.price}</div>
               <div className="flex flex-wrap gap-1.5">
                 {PRICE_BANDS.map((b) => (
-                  <button key={b.id} onClick={() => setPrice(b.id)} className={chip(price === b.id)}>{priceLabels[b.id]}</button>
+                  <button key={b.id} onClick={() => setPrice(b.id)} aria-pressed={price === b.id} className={chip(price === b.id)}>{priceLabels[b.id]}</button>
                 ))}
               </div>
             </div>
@@ -270,6 +294,21 @@ export default function ToursClient({
             <WhatsappLogo className="w-4 h-4" /> {dict.tours.planCustomTrip}
           </WhatsAppLink>
         </div>
+
+        {/* Anchor for the phone "N tours found" jump button below. */}
+        <div ref={resultsRef} className="scroll-mt-28" aria-hidden="true" />
+
+        {isFiltering && resultsBelow && (
+          <button
+            type="button"
+            onClick={jumpToResults}
+            className="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 inline-flex items-center gap-2 px-5 py-3 rounded-full bg-indigo text-white text-sm font-semibold shadow-lg active:scale-[0.97] transition-transform whitespace-nowrap"
+            style={{ marginBottom: "env(safe-area-inset-bottom, 0px)" }}
+          >
+            {filtered.length === 0 ? dict.tours.noToursFound : toursFoundText}
+            <ArrowDown weight="bold" className="w-4 h-4" aria-hidden="true" />
+          </button>
+        )}
 
         {filtered.length === 0 ? (
           <div className="text-center py-24">

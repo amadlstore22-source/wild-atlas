@@ -19,10 +19,21 @@ ROOT = ".next/server/app"
 
 canon_re = re.compile(r'rel="canonical"\s+href="([^"]+)"', re.I)
 alt_re = re.compile(r'rel="alternate"\s+hreflang="([^"]+)"\s+href="([^"]+)"', re.I)
+noindex_re = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
 
 pages = sorted(glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True))
 stats = collections.Counter()
 problems = collections.defaultdict(list)
+
+# A blog post whose translation does not exist yet serves the English text in
+# that locale, noindexed and canonicalised to /en (lib/blog-i18n.ts
+# blogPostSeo). Such a page is deliberately left out of every hreflang cluster,
+# so a cluster missing exactly that locale is correct, not a gap.
+noindexed = set()
+for p in pages:
+    r = p[len(ROOT) + 1:-5].replace("\\", "/")
+    if r.split("/")[0] in LOCALES and noindex_re.search(io.open(p, encoding="utf-8", errors="replace").read()):
+        noindexed.add(r)
 
 for p in pages:
     rel = p[len(ROOT) + 1:-5].replace("\\", "/")
@@ -33,6 +44,11 @@ for p in pages:
     canon = canon_re.search(html)
     alts = dict((k.lower(), v) for k, v in alt_re.findall(html))
     stats["pages"] += 1
+
+    if rel in noindexed and "/blog/" in rel and canon and canon.group(1).startswith(SITE + "/en/"):
+        stats["fallback"] += 1
+        stats["complete"] += 1
+        continue
 
     if not canon:
         problems["no canonical"].append(rel); continue
@@ -47,7 +63,8 @@ for p in pages:
             continue
         problems["no hreflang"].append(rel); continue
 
-    missing = [l for l in LOCALES if l not in alts]
+    en_path = alts.get("en", "")[len(SITE) + 4:]  # path after /en/
+    missing = [l for l in LOCALES if l not in alts and "%s/%s" % (l, en_path) not in noindexed]
     if missing:
         problems["missing locales: " + ",".join(missing)].append(rel)
     if "x-default" not in alts:
@@ -63,6 +80,7 @@ for p in pages:
 print("pages checked : %d" % stats["pages"])
 print("fully correct : %d" % stats["complete"])
 print("  of which single-locale (no hreflang by design): %d" % stats["single-locale"])
+print("  of which untranslated blog fallbacks (noindex, canonical /en): %d" % stats["fallback"])
 print()
 for k in sorted(problems, key=lambda x: -len(problems[x])):
     v = problems[k]

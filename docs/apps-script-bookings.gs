@@ -3,7 +3,9 @@
  *
  * Every time an invoice is made on the computer (npm run invoice), the booking
  * is written into bookings26 by itself:
- *   - in the month tab of the DEPARTURE date (November26, DECEMBRE26, ...);
+ *   - in the month tab of the DEPARTURE date (November26, DECEMBRE26, ...),
+ *     in the spreadsheet for that year (2027 departures go to "booking 27",
+ *     see invYearSheets_);
  *   - each piece in its own column, found by its header in row 2:
  *       TOUR BOOKED, DATE, EMAILS (email — phone), CLIENTE (number of people),
  *       DEPOSIT, AMOUNT LEFT, PICK UP - DROP OFF, accomodation (camp / hotel /
@@ -73,14 +75,18 @@ function invPlace_(ss, data) {
   if (!data.departure) return { ok: false, error: 'no departure date, so no month tab to put it in' };
   const when = new Date(data.departure + 'T12:00:00');
 
-  let tab, row, cols, updated = false;
-  const found = invFindInvoice_(ss, data.number);
+  // A re-sent invoice is found wherever it is (this file or a year's own
+  // spreadsheet); a new one goes to the spreadsheet for its departure year.
+  let book, tab, row, cols, updated = false;
+  const found = invFindInvoice_(invAllBooks_(ss), data.number);
   if (found) {
-    tab = found.tab; row = found.row; cols = found.cols; updated = true;
+    book = found.book; tab = found.tab; row = found.row; cols = found.cols; updated = true;
   } else {
-    tab = invMonthTab_(ss, when) || invMakeMonthTab_(ss, when);
-    if (!tab) return { ok: false, error: 'no month tab for ' + data.departure + ' and none to copy' };
+    book = invBookFor_(ss, when.getFullYear());
+    tab = invMonthTab_(book, when) || invMakeMonthTab_(book, when);
+    if (!tab) return { ok: false, error: 'no month tab for ' + data.departure + ' in ' + book.getName() + ' and none to copy' };
     cols = invColumns_(tab);
+    if (!cols) return { ok: false, error: tab.getName() + ' in ' + book.getName() + ' has no TOUR BOOKED header in row ' + INV_HEADER_ROW };
     row = invFreeRow_(tab);
   }
   invEnsureCols_(tab, cols);
@@ -130,15 +136,40 @@ function invPlace_(ss, data) {
   let sorted = '';
   if (typeof tidyTab_ === 'function') {
     try {
-      const t = tidyTab_(ss, tab);
+      const t = tidyTab_(book, tab);
       sorted = !t ? '' : t.skip ? 'not sorted: ' + t.skip : t.moved ? 'sorted' : '';
-      const now = invFindInvoice_(ss, data.number);
+      const now = invFindInvoice_([book], data.number);
       if (now) row = now.row;
     } catch (err) {
       sorted = 'SORT CHECK FAILED: ' + err.message;
     }
   }
-  return { ok: true, tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet), sorted: sorted };
+  return { ok: true, file: book.getName(), tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet), sorted: sorted };
+}
+
+/**
+ * Years whose bookings live in their own spreadsheet (owner, 2026-10-28:
+ * 2027 departures go to "booking 27", not bookings26). The links live in a
+ * private file of the live project that defines
+ *   const YEAR_SHEETS = { 2027: 'https://docs.google.com/spreadsheets/d/…' };
+ * never in this repo. Without it, everything stays in this spreadsheet.
+ */
+function invYearSheets_() {
+  const map = typeof YEAR_SHEETS === 'object' && YEAR_SHEETS ? YEAR_SHEETS : {};
+  return Object.keys(map)
+    .filter(function (y) { return String(map[y]).indexOf('https://') === 0; })
+    .map(function (y) { return { year: Number(y), url: map[y] }; });
+}
+
+/** The spreadsheet a departure year's bookings go to: its own, or this one. */
+function invBookFor_(ss, year) {
+  const own = invYearSheets_().filter(function (s) { return s.year === year; })[0];
+  return own ? SpreadsheetApp.openByUrl(own.url) : ss;
+}
+
+/** This spreadsheet and every year's own spreadsheet. */
+function invAllBooks_(ss) {
+  return [ss].concat(invYearSheets_().map(function (s) { return SpreadsheetApp.openByUrl(s.url); }));
 }
 
 /** Column numbers by UPPERCASE header in row 2. */
@@ -170,17 +201,19 @@ function invEnsureCols_(tab, cols) {
   if (!cols['TRIP DETAILS']) add('TRIP DETAILS');
 }
 
-/** The row already holding this invoice number, in any month tab. */
-function invFindInvoice_(ss, number) {
-  const tabs = ss.getSheets();
-  for (let t = 0; t < tabs.length; t++) {
-    const cols = invColumns_(tabs[t]);
-    if (!cols || !cols.INVOICE) continue;
-    const n = tabs[t].getLastRow() - INV_HEADER_ROW;
-    if (n < 1) continue;
-    const vals = tabs[t].getRange(INV_HEADER_ROW + 1, cols.INVOICE, n, 1).getValues();
-    for (let i = 0; i < vals.length; i++) {
-      if (String(vals[i][0]).trim() === number) return { tab: tabs[t], row: INV_HEADER_ROW + 1 + i, cols: cols };
+/** The row already holding this invoice number, in any month tab of these spreadsheets. */
+function invFindInvoice_(books, number) {
+  for (let b = 0; b < books.length; b++) {
+    const tabs = books[b].getSheets();
+    for (let t = 0; t < tabs.length; t++) {
+      const cols = invColumns_(tabs[t]);
+      if (!cols || !cols.INVOICE) continue;
+      const n = tabs[t].getLastRow() - INV_HEADER_ROW;
+      if (n < 1) continue;
+      const vals = tabs[t].getRange(INV_HEADER_ROW + 1, cols.INVOICE, n, 1).getValues();
+      for (let i = 0; i < vals.length; i++) {
+        if (String(vals[i][0]).trim() === number) return { book: books[b], tab: tabs[t], row: INV_HEADER_ROW + 1 + i, cols: cols };
+      }
     }
   }
   return null;

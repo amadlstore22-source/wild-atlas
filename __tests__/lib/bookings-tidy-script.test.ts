@@ -95,6 +95,9 @@ class Sheet {
 class Spreadsheet {
   sheets: Sheet[] = [];
   sortLeavesNotes = false;
+  constructor(public name = "bookings26") {}
+  getName() { return this.name; }
+  getId() { return this.name; }
   getSheets() { return this.sheets; }
   deleteSheet(s: Sheet) { this.sheets = this.sheets.filter((x) => x !== s); }
   toast() {}
@@ -368,5 +371,65 @@ describe("fix2027Tabs", () => {
       secret: "s", kind: "invoice", number: "INV-2027-001", clientEmail: "x@example.com", clientPhone: "", tour: "Day trip", departure: "2027-04-02", people: 2, depositEur: "10.00", balanceEur: "40.00" }) } });
     expect(r).toMatchObject({ ok: true, tab: "april27", row: 3, sorted: "sorted" });
     expect(tab("april27").cell(4, 1).v, "2 Apr goes before the 14 Apr booking").toBe("Agadir Chegaga");
+  });
+});
+
+/**
+ * 2026-10-28, owner: 2027 bookings go to their own spreadsheet ("booking
+ * 27"), not bookings26. Its link lives in a private file of the live project
+ * (YEAR_SHEETS), never in this repo. bookings26's old 2027 tabs stay as they
+ * are and stop receiving new rows.
+ */
+describe("year spreadsheets (booking 27)", () => {
+  let y27: Spreadsheet;
+  let post: (d: Record<string, unknown>) => { ok: boolean; file?: string; tab?: string; row?: number; updated?: boolean; sorted?: string; error?: string };
+  const Y27 = "https://docs.google.com/spreadsheets/d/y27/edit";
+  beforeEach(() => {
+    y27 = new Spreadsheet("booking 27");
+    const apr = new Sheet(y27, "April27");
+    HEAD.forEach((h, i) => { apr.cell(1, i + 1).v = h; });           // headers in ROW 1, as the owner made it
+    ["Agadir Chegaga", "14-04-2027", "Test Client +00 0 00", 4, "MADE A DEPOSIT", 248, 992].forEach((v, j) => { apr.cell(14, j + 1).v = v; });
+    y27.sheets.push(apr);
+    const invoices = readFileSync(path.join(process.cwd(), "docs/apps-script-bookings.gs"), "utf8").replace("PASTE-THE-SECRET-HERE", "s");
+    Object.assign(ctx, {
+      SpreadsheetApp: { getActive: () => ss, getActiveSpreadsheet: () => ss, openByUrl: (u: string) => { if (u !== Y27) throw new Error("no access"); return y27; }, flush() {} },
+      ContentService: { createTextOutput: (t: string) => ({ setMimeType: () => JSON.parse(t) }), MimeType: { JSON: "json" } },
+    });
+    vm.runInContext(invoices, ctx);
+    vm.runInContext(`const YEAR_SHEETS = { 2027: '${Y27}' };`, ctx);
+    post = (d) => (ctx.doPost as (e: unknown) => ReturnType<typeof post>)({ postData: { contents: JSON.stringify({ secret: "s", kind: "invoice", ...d }) } });
+  });
+  const inv = { number: "INV-2027-001", clientEmail: "x@example.com", clientPhone: "", tour: "Day trip", departure: "2027-04-02", people: 2, depositEur: "10.00", balanceEur: "40.00" };
+
+  it("fix2027Tabs and tidyRun also cover booking 27", () => {
+    run("fix2027Tabs");
+    expect(y27.sheets[0].cell(2, 1).v, "headers moved to row 2 in booking 27").toBe("TOUR BOOKED");
+    expect(logs.join("\n")).toContain("booking 27 › April27: headers are now in row 2");
+    logs = [];
+    run("tidyRun");
+    expect(y27.sheets[0].cell(3, 1).v, "the booking sorted up to row 3").toBe("Agadir Chegaga");
+    expect(logs.join("\n")).toContain("booking 27 › April27");
+  });
+
+  it("a 2027 departure goes to booking 27 in date order; bookings26's old 2027 tab is untouched", () => {
+    run("fix2027Tabs");
+    const old = JSON.stringify(tab("april27").grid);
+    const r = post(inv);
+    expect(r).toMatchObject({ ok: true, file: "booking 27", tab: "April27", row: 3, sorted: "sorted" });
+    expect(y27.sheets[0].cell(3, 3).v).toBe("x@example.com");
+    expect(y27.sheets[0].cell(4, 1).v, "2 Apr goes before the 14 Apr booking").toBe("Agadir Chegaga");
+    expect(JSON.stringify(tab("april27").grid), "bookings26's old 2027 tab gets no new rows").toBe(old);
+    // re-sending finds it in booking 27, never a second row
+    expect(post({ ...inv, people: 3 })).toMatchObject({ ok: true, file: "booking 27", updated: true, row: 3 });
+    // a 2026 departure still goes to bookings26
+    expect(post({ ...inv, number: "INV-2026-300", departure: "2026-11-04" })).toMatchObject({ ok: true, file: "bookings26", tab: "November26" });
+  });
+
+  it("refuses clearly, writing nothing, while booking 27 still has its headers in row 1", () => {
+    const before = JSON.stringify(y27.sheets[0].grid);
+    const r = post(inv);
+    expect(r.ok).toBe(false);
+    expect(r.error).toContain("has no TOUR BOOKED header in row 2");
+    expect(JSON.stringify(y27.sheets[0].grid)).toBe(before);
   });
 });

@@ -386,7 +386,7 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     const b = await logBooking(sheetRecord);
     console.log(
       b.ok
-        ? `Bookings bookings26 → ${b.tab}, row ${b.row}${b.updated ? " (updated)" : ""}` +
+        ? `Bookings ${b.file || "bookings26"} → ${b.tab}, row ${b.row}${b.updated ? " (updated)" : ""}` +
           (b.kept?.length ? `\n         kept the team's own edits in: ${b.kept.join(", ")}` : "") +
           (b.moneyLocked ? `\n         PAYMENT is set, so DEPOSIT / AMOUNT LEFT were left as they are` : "") +
           (b.sorted === "sorted" ? " (moved into date order)" : "") +

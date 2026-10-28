@@ -54,7 +54,7 @@ class Sheet {
     return range;
   }
 }
-class Spreadsheet { sheets: Sheet[] = []; getSheets() { return this.sheets; } }
+class Spreadsheet { sheets: Sheet[] = []; getSheets() { return this.sheets; } getName() { return "bookings26"; } getId() { return "b26"; } }
 
 const HEAD = ["TOUR BOOKED", "DATE", "EMAILS", "CLIENTE", "PAYMENT", "DEPOSIT", "AMOUNT LEFT", "PICK UP - DROP OFF", "DRIVER", "accomodation"];
 function monthTab(name: string, bookings: string[][]) {

@@ -28,7 +28,9 @@
  *      (replace what is there if it is empty / only "myFunction").
  *   2. "+" next to Files → HTML → name it exactly  Index  → paste
  *      apps-script-team-app.html into it.
- *   3. Put the bookings26 link between the quotes on the BOOKINGS_SHEET_URL line.
+ *   3. Put the bookings26 link between the quotes on the BOOKINGS_SHEET_URL line,
+ *      and the link of each year that has its own bookings spreadsheet in
+ *      YEAR_BOOKINGS_SHEETS (2027 → "booking 27").
  *   4. Deploy → New deployment → type "Web app" →
  *        Execute as: User accessing the web app
  *        Who has access: Anyone with Google account
@@ -39,6 +41,12 @@
  */
 
 const BOOKINGS_SHEET_URL = 'PASTE-THE-BOOKINGS26-LINK-HERE';   // ← the bookings26 link
+// Years whose bookings live in their own spreadsheet (owner, 2026-10-28), e.g.
+//   { 2027: 'https://docs.google.com/spreadsheets/d/…' }
+// For those years bookings26's own month tabs are skipped: they still hold
+// copies of the same bookings, and two copies would block the EMAILS + date
+// match below.
+const YEAR_BOOKINGS_SHEETS = {};
 const TEAM_TZ = 'Africa/Casablanca';
 const TEAM_HEADER_ROW = 2;
 const TEAM_DONE_MIN_COL = 10;   // a new Done column never lands before J (G/H are the deposit script's)
@@ -176,10 +184,14 @@ const TEAM_KNOWN = {
 /** Every booking row in bookings26, plus a map from the deposit script's Ref to its row. */
 function teamBookingsIndex_() {
   if (BOOKINGS_SHEET_URL.indexOf('https://') !== 0) throw new Error('UNSET');
-  const ss = SpreadsheetApp.openByUrl(BOOKINGS_SHEET_URL);
+  const years = Object.keys(YEAR_BOOKINGS_SHEETS)
+    .filter(function (y) { return String(YEAR_BOOKINGS_SHEETS[y]).indexOf('https://') === 0; });
+  const books = [{ ss: SpreadsheetApp.openByUrl(BOOKINGS_SHEET_URL), skipYears: years.map(Number) }]
+    .concat(years.map(function (y) { return { ss: SpreadsheetApp.openByUrl(YEAR_BOOKINGS_SHEETS[y]), skipYears: [] }; }));
   const byRef = {};
   const rows = [];
-  ss.getSheets().forEach(function (tab) {
+  books.forEach(function (book) { book.ss.getSheets().forEach(function (tab) {
+    if (book.skipYears.indexOf(teamTabYear_(tab.getName())) >= 0) return;
     const w = tab.getLastColumn();
     const last = tab.getLastRow();
     if (w < 1 || last <= TEAM_HEADER_ROW) return;
@@ -214,8 +226,14 @@ function teamBookingsIndex_() {
         if (ref) byRef[ref] = rec;
       }
     });
-  });
+  }); });
   return { byRef: byRef, rows: rows };
+}
+
+/** "November26" → 2026, "january 27" → 2027, "DECEMBRE26" → 2026; 0 if the name has no year. */
+function teamTabYear_(name) {
+  const m = String(name).replace(/\s+/g, '').match(/(\d{2})$/);
+  return m ? 2000 + Number(m[1]) : 0;
 }
 
 // ── small helpers ───────────────────────────────────────────────────────────

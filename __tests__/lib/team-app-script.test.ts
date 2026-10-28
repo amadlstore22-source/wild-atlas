@@ -73,13 +73,20 @@ const DEP_HEAD = ["Deposit", "Tour/trek", "Name guest", "Date trip", "Guests", "
 let deposit: Book, bookings: Book, run: (fn: string, ...a: unknown[]) => any, user: string;
 const URL = "https://docs.google.com/spreadsheets/d/test/edit";
 
-function load(bookingsUrl = URL) {
+function load(bookingsUrl = URL, years: Record<number, [string, Book]> = {}) {
+  const yearUrls = Object.fromEntries(Object.entries(years).map(([y, [u]]) => [y, u]));
   const src = readFileSync(path.join(process.cwd(), "docs/apps-script-team-app.gs"), "utf8")
-    .replace("PASTE-THE-BOOKINGS26-LINK-HERE", bookingsUrl);
+    .replace("PASTE-THE-BOOKINGS26-LINK-HERE", bookingsUrl)
+    .replace("const YEAR_BOOKINGS_SHEETS = {};", `const YEAR_BOOKINGS_SHEETS = ${JSON.stringify(yearUrls)};`);
   const ctx: Record<string, unknown> = {
     SpreadsheetApp: {
       getActiveSpreadsheet: () => deposit,
-      openByUrl: (u: string) => { if (u !== URL) throw new Error("no access"); return bookings; },
+      openByUrl: (u: string) => {
+        if (u === URL) return bookings;
+        const hit = Object.values(years).find(([url]) => url === u);
+        if (hit) return hit[1];
+        throw new Error("no access");
+      },
     },
     Session: { getActiveUser: () => ({ getEmail: () => user }) },
     LockService: { getDocumentLock: () => ({ waitLock() {}, releaseLock() {} }) },
@@ -229,5 +236,31 @@ describe("team app script", () => {
     expect(unset.trips).toHaveLength(3);
     load("https://docs.google.com/spreadsheets/d/other/edit");
     expect(run("teamTrips").bookings).toBe("no-access");
+  });
+});
+
+/**
+ * 2026-10-28, owner: 2027 bookings live in their own spreadsheet ("booking
+ * 27"), while bookings26 still holds copies of the same 2027 rows in its old
+ * 2027 tabs. If the app read both, a deposit typed by hand would match two
+ * bookings (same EMAILS + date) and show none: the join only accepts a single
+ * match. So for a year with its own spreadsheet, bookings26's tabs of that
+ * year are skipped.
+ */
+describe("a year with its own bookings spreadsheet", () => {
+  it("joins 2027 trips to booking 27 and ignores bookings26's copies", () => {
+    const row = ["Family desert 4 days", day("2027-01-05"), "el@example.com", 5, "MADE A DEPOSIT", 280, 1120, "Riad Konouz", "", "Camp X"];
+    bookings.sheets.push(new Sheet("january 27", [[""], BOOK_HEAD, row]));               // the old copy
+    const y27 = new Book([new Sheet("January 27", [[""], BOOK_HEAD, [...row.slice(0, 9), "Camp from booking 27"]])]);
+    deposit.sheets[0].grid[6][0].v = 280;
+    ["Family desert 4 days", "el@example.com", day("2027-01-05"), 5].forEach((v, i) => { deposit.sheets[0].grid[6][[1, 2, 3, 4][i]].v = v; });
+    load(URL, { 2027: ["https://docs.google.com/spreadsheets/d/y27/edit", y27] });
+    const trip = run("teamTrips").trips.find((t: { guest: string }) => t.guest === "el@example.com");
+    expect(trip.b, "two copies of the booking would block the EMAILS + date match").not.toBeNull();
+    expect(trip.b.tab).toBe("January 27");
+    expect(JSON.stringify(trip.b)).toContain("Camp from booking 27");
+    // 2026 trips still come from bookings26
+    const ana = run("teamTrips").trips.find((t: { guest: string }) => t.guest.startsWith("ana@"));
+    expect(ana.b.tab).toBe("November26");
   });
 });

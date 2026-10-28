@@ -36,9 +36,11 @@ const TIDY_CHECK_TAB = '~tidy check (deleted automatically)';
 function tidyPreview() {
   const ss = SpreadsheetApp.getActive();
   const out = ['PREVIEW: nothing was changed.', ''];
-  ss.getSheets().forEach(function (tab) {
-    const plan = tidyPlan_(tab);
-    if (plan) out.push(tidyDescribe_(plan, false));
+  tidyBooks_(ss).forEach(function (book) {
+    book.getSheets().forEach(function (tab) {
+      const plan = tidyPlan_(tab);
+      if (plan) out.push(tidyIn_(book, ss) + tidyDescribe_(plan, false));
+    });
   });
   Logger.log(out.join('\n'));
   ss.toast('Nothing was changed. The plan is in the log under the code.', 'Tidy preview', 10);
@@ -50,20 +52,36 @@ function tidyRun() {
   const lock = LockService.getDocumentLock();
   lock.waitLock(30000);
   try {
-    ss.getSheets().slice().forEach(function (tab) {
-      if (tab.getName() === TIDY_CHECK_TAB) return;
-      try {
-        const done = tidyTab_(ss, tab);
-        if (done) out.push(done.line);
-      } catch (err) {
-        throw new Error(err.message + ' Tabs done before this one: ' + (out.join(' / ') || 'none'));
-      }
+    tidyBooks_(ss).forEach(function (book) {
+      book.getSheets().slice().forEach(function (tab) {
+        if (tab.getName() === TIDY_CHECK_TAB) return;
+        try {
+          const done = tidyTab_(book, tab);
+          if (done) out.push(tidyIn_(book, ss) + done.line);
+        } catch (err) {
+          throw new Error(tidyIn_(book, ss) + err.message + ' Tabs done before this one: ' + (out.join(' / ') || 'none'));
+        }
+      });
     });
   } finally {
     lock.releaseLock();
   }
   Logger.log(out.join('\n\n'));
   ss.toast('Done. What changed is in the log under the code.', 'Tidy', 10);
+}
+
+/**
+ * This spreadsheet, then each year that has its own (see invYearSheets_ in
+ * the invoices file: 2027 bookings live in "booking 27").
+ */
+function tidyBooks_(ss) {
+  const years = typeof invYearSheets_ === 'function' ? invYearSheets_() : [];
+  return [ss].concat(years.map(function (y) { return SpreadsheetApp.openByUrl(y.url); }));
+}
+
+/** "booking 27 › " in front of a log line when it is not this spreadsheet. */
+function tidyIn_(book, ss) {
+  return book.getId && ss.getId && book.getId() !== ss.getId() ? book.getName() + ' › ' : '';
 }
 
 /**
@@ -316,7 +334,8 @@ function tidyMake_(y, m, d) {
 // deposit link, the invoices file and the team app read headers from ROW 2.
 // So DEPOSIT ARRIVED did nothing there and an invoice for a 2027 departure
 // failed. This adds ONE empty row above the headers of any month tab whose
-// headers are in row 1: the same layout as the 2026 tabs. Every row moves one
+// headers are in row 1 (here and in each year's own spreadsheet, such as
+// "booking 27"): the same layout as the 2026 tabs. Every row moves one
 // down; no cell is changed or deleted. Running it twice does nothing more.
 // One-off date corrections the owner confirmed (client names stay out of this
 // repo) live in a private file in the live project that defines
@@ -328,7 +347,7 @@ function fix2027Tabs() {
   const lock = LockService.getDocumentLock();
   lock.waitLock(30000);
   try {
-    ss.getSheets().forEach(function (tab) {
+    tidyBooks_(ss).forEach(function (book) { book.getSheets().forEach(function (tab) {
       if (tab.getName() === TIDY_CHECK_TAB) return;
       const plan = tidyPlan_(tab);
       if (!plan || plan.header !== 1) return;
@@ -336,14 +355,14 @@ function fix2027Tabs() {
       tab.insertRowBefore(1);
       tab.getRange(1, 1, 1, tab.getMaxColumns()).clearFormat();   // the new row only: no header colours
       if (frozen === 1) tab.setFrozenRows(2);
-      let line = tab.getName() + ': headers are now in row 2 (one empty row added on top).';
+      let line = tidyIn_(book, ss) + tab.getName() + ': headers are now in row 2 (one empty row added on top).';
       if (typeof bookingColumns_ === 'function' && typeof missingArrived_ === 'function') {
         const cols = bookingColumns_(tab, true);                    // read only
         const gap = cols ? missingArrived_(tab, cols.PAYMENT) : 'no PAYMENT column';
         if (gap) line += '\n  CHECK: its PAYMENT dropdown has no "DEPOSIT ARRIVED" (' + gap + '). Add it by hand like in the other tabs.';
       }
       out.push(line);
-    });
+    }); });
     if (!out.length) out.push('No month tab had its headers in row 1. Nothing moved.');
 
     if (typeof fix2027Extra_ === 'function') fix2027Extra_(ss, out);

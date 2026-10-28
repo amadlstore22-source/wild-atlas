@@ -21,6 +21,9 @@
  *     second row, and changes a cell only if it is empty or still holds what
  *     this script wrote. Anything the team typed is kept.
  *   - Once PAYMENT has any value, DEPOSIT and AMOUNT LEFT are never changed.
+ *   - Then the month tab is put back in date order by the "tidy" file (whole
+ *     rows, checked cell by cell), so the booking sits by its date. If the
+ *     tab cannot be sorted safely, the booking stays where it was written.
  *
  * WHY: on INV-2026-033 (26 Oct 2026) the camp promised to the client
  * was only on the PDF. The team never saw it and took the family to the wrong
@@ -120,7 +123,22 @@ function invPlace_(ss, data) {
   if (cols.DATE && !updated && tab.getRange(row, cols.DATE).getNumberFormat() === 'General') {
     tab.getRange(row, cols.DATE).setNumberFormat('dd/mm/yyyy');
   }
-  return { ok: true, tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet) };
+
+  // Put the tab back in date order (the "tidy" file), so the booking sits
+  // among the others by its date rather than at the bottom. The booking is
+  // already written: if the tab cannot be sorted safely it simply stays here.
+  let sorted = '';
+  if (typeof tidyTab_ === 'function') {
+    try {
+      const t = tidyTab_(ss, tab);
+      sorted = !t ? '' : t.skip ? 'not sorted: ' + t.skip : t.moved ? 'sorted' : '';
+      const now = invFindInvoice_(ss, data.number);
+      if (now) row = now.row;
+    } catch (err) {
+      sorted = 'SORT CHECK FAILED: ' + err.message;
+    }
+  }
+  return { ok: true, tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet), sorted: sorted };
 }
 
 /** Column numbers by UPPERCASE header in row 2. */

@@ -49,7 +49,7 @@ export interface InvoiceRecord {
  * tab, which is why the camp promised on INV-2026-033 never reached them.
  * Same secret as the Invoices log; the URL is BOOKINGS_WEBHOOK_URL.
  */
-export async function logBooking(record: InvoiceRecord): Promise<LogResult & { tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean }> {
+export async function logBooking(record: InvoiceRecord): Promise<LogResult & { tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean; sorted?: string }> {
   const url = process.env.BOOKINGS_WEBHOOK_URL;
   const secret = process.env.SHEET_WEBHOOK_SECRET;
   if (!url || !secret) {
@@ -71,15 +71,19 @@ export async function logBooking(record: InvoiceRecord): Promise<LogResult & { t
         balanceEur: (record.balance / 100).toFixed(2),
         totalEur: (record.total / 100).toFixed(2),
       }),
-      signal: AbortSignal.timeout(30_000),
+      // The sheet waits up to 30 s for the lock, then writes and sorts the
+      // month tab (a rehearsal copy plus the real sort). Giving up earlier
+      // would report "not placed" for a booking that did land, and invite a
+      // second copy typed by hand.
+      signal: AbortSignal.timeout(90_000),
       redirect: "follow",
     });
     if (!res.ok) return { ok: false, reason: "http", detail: `bookings26 returned ${res.status}` };
     const text = await res.text();
-    let j: { ok?: boolean; error?: string; tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean } = {};
+    let j: { ok?: boolean; error?: string; tab?: string; row?: number; updated?: boolean; kept?: string[]; moneyLocked?: boolean; sorted?: string } = {};
     try { j = JSON.parse(text); } catch { return { ok: false, reason: "rejected", detail: text.slice(0, 200) }; }
     if (!j.ok) return { ok: false, reason: "rejected", detail: j.error ?? text.slice(0, 200) };
-    return { ok: true, tab: j.tab, row: j.row, updated: j.updated, kept: j.kept, moneyLocked: j.moneyLocked };
+    return { ok: true, tab: j.tab, row: j.row, updated: j.updated, kept: j.kept, moneyLocked: j.moneyLocked, sorted: j.sorted };
   } catch (err) {
     return { ok: false, reason: "network", detail: err instanceof Error ? err.message : String(err) };
   }

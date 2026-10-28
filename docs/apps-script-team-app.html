@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base target="_top">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MET Trips</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  /* MET invoice palette (lib/invoice.ts). Light only, like the invoices.
+     Radius scale: 6px controls and chips, 10px cards, 16px sheet top. */
+  :root {
+    --ink: #1B2645;
+    --ink-soft: #3A4560;
+    --muted: #6B6558;
+    --sand: #F5F1E8;
+    --paper: #FFFFFF;
+    --rule: #DDD5C4;
+    --accent: #C97B2B;
+    --accent-on-ink: #E3B07A;
+    --ok-bg: #EDF5EE;
+    --ok-fg: #2C5F3A;
+    --warn-bg: #FBF0E2;
+    --warn-fg: #8A5316;
+    --late-bg: #F7E6E0;
+    --late-fg: #8E3B24;
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--sand); color: var(--ink); }
+  body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 15px; line-height: 1.5; -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ── header ─────────────────────────────────────────────────────────── */
+  .head { position: sticky; top: 0; z-index: 5; }
+  .bar {
+    background: var(--ink); color: #fff; display: flex; align-items: center;
+    justify-content: space-between; gap: 12px;
+    padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px;
+  }
+  .wordmark { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 22px; line-height: 1.1; }
+  .sub {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent-on-ink); margin-top: 3px;
+  }
+  .iconbtn {
+    width: 44px; height: 44px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.22);
+    background: transparent; color: #fff; display: grid; place-items: center; cursor: pointer;
+    transition: transform 160ms var(--ease-out);
+  }
+  .iconbtn:active { transform: scale(0.95); }
+  .iconbtn svg { width: 20px; height: 20px; }
+  .iconbtn.spin svg { animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .controls { background: var(--sand); padding: 12px 16px 10px; border-bottom: 1px solid var(--rule); }
+  .seg { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .seg button {
+    min-height: 44px; border-radius: 6px; border: 1px solid var(--rule); background: var(--paper);
+    font-size: 13px; font-weight: 600; color: var(--ink-soft); cursor: pointer; padding: 4px 6px;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    transition: transform 160ms var(--ease-out);
+  }
+  .seg button:active { transform: scale(0.97); }
+  .seg button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .count {
+    font-size: 11px; font-weight: 700; min-width: 20px; padding: 1px 6px; border-radius: 6px;
+    background: var(--sand); color: var(--ink); font-variant-numeric: tabular-nums;
+  }
+  .seg button[aria-selected="true"] .count { background: rgba(255,255,255,0.18); color: #fff; }
+  .count.late { background: var(--late-bg); color: var(--late-fg); }
+  .search { margin-top: 10px; position: relative; }
+  .search input {
+    width: 100%; min-height: 44px; border-radius: 6px; border: 1px solid var(--rule); background: var(--paper);
+    padding: 0 12px 0 38px; font: inherit; font-size: 15px; color: var(--ink);
+  }
+  .search svg { position: absolute; left: 12px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); color: var(--muted); }
+
+  .banner {
+    margin: 12px 16px 0; padding: 10px 12px; border-radius: 6px; font-size: 13px;
+    background: var(--warn-bg); color: var(--warn-fg);
+  }
+
+  /* ── list ───────────────────────────────────────────────────────────── */
+  main { padding-bottom: 40px; }
+  /* minmax(0, 1fr): a long one-line chip must truncate, not widen the page (phones then zoom out) */
+  .day { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 12px; padding: 16px 16px 0; }
+  .stub {
+    text-align: center; align-self: start; padding: 8px 0 7px; border-radius: 10px;
+    background: var(--paper); border: 1px solid var(--rule);
+  }
+  .stub .dow, .stub .mon { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  .stub .dnum { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 32px; line-height: 1; margin: 2px 0; }
+  .stub.today { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .stub.today .dow, .stub.today .mon { color: var(--accent-on-ink); }
+  .stub.nodate .dnum { font-size: 20px; padding: 6px 0; }
+  .month {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0; padding: 22px 16px 0;
+    font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 24px; line-height: 1.1;
+  }
+  .month span { font-family: Inter, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  .month + .day { padding-top: 10px; }
+  .rel { font-size: 11px; font-weight: 600; color: var(--accent); margin: 0 0 8px; letter-spacing: 0.02em; }
+  .rel.late { color: var(--late-fg); }
+
+  .card {
+    display: block; width: 100%; text-align: left; background: var(--paper); border: 1px solid var(--rule);
+    border-radius: 10px; padding: 12px 14px; margin: 0 0 10px; cursor: pointer;
+    transition: transform 160ms var(--ease-out);
+  }
+  .card:active { transform: scale(0.98); }
+  .card .top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .card .name { font-weight: 700; font-size: 16px; line-height: 1.3; overflow-wrap: anywhere; }
+  .card .email { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card .tour { font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
+  .pax {
+    flex: none; text-align: center; min-width: 44px; padding: 4px 6px; border-radius: 6px;
+    background: var(--sand); font-variant-numeric: tabular-nums;
+  }
+  .pax b { display: block; font-size: 17px; line-height: 1.1; }
+  .pax span { font-size: 9.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip {
+    font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 6px; background: var(--sand); color: var(--ink-soft);
+    max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .chip.warn { background: var(--warn-bg); color: var(--warn-fg); }
+  .chip.ok { background: var(--ok-bg); color: var(--ok-fg); }
+  .chip.late { background: var(--late-bg); color: var(--late-fg); }
+
+  /* Done: the trip stays in its list; its navy turns green. */
+  .card.done { background: var(--ok-bg); border-color: #BFD9C4; }
+  .card.done .name { color: var(--ok-fg); }
+  .card.done .pax, .card.done .chip { background: #DCEBDE; color: var(--ok-fg); }
+  .stub.done { background: var(--ok-fg); border-color: var(--ok-fg); color: #fff; }
+  .stub.done .dow, .stub.done .mon { color: #CFE3D2; }
+  .rel.done { color: var(--ok-fg); }
+  .sheet.is-done .sheetbar { background: var(--ok-fg); }
+  .sheet.is-done .sheetbar .ref, .sheet.is-done .block.camp .k { color: #CFE3D2; }
+  .sheet.is-done .block.camp { background: var(--ok-fg); border-color: var(--ok-fg); }
+  .sheet.is-done .eyebrow { color: var(--ok-fg); }
+
+  .tabsread { margin: 24px 16px 0; font-size: 12px; color: var(--muted); text-align: center; text-wrap: balance; }
+
+  .empty { text-align: center; padding: 56px 24px; color: var(--muted); }
+  .empty .big { font-family: "Cormorant Garamond", Georgia, serif; font-size: 26px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+  .empty button { margin-top: 16px; }
+
+  .skel { height: 92px; border-radius: 10px; background: var(--paper); border: 1px solid var(--rule); margin: 0 0 10px; animation: pulse 1.2s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: 0.55; } }
+
+  /* ── detail sheet ───────────────────────────────────────────────────── */
+  .sheet {
+    position: fixed; inset: 0; z-index: 20; background: var(--sand); overflow-y: auto;
+    transform: translateY(100%); visibility: hidden;
+    transition: transform 300ms var(--ease-drawer), visibility 0s linear 300ms;
+    overscroll-behavior: contain;
+  }
+  .sheet.open { transform: translateY(0); visibility: visible; transition: transform 300ms var(--ease-drawer), visibility 0s; }
+  .sheetbar {
+    position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 8px;
+    background: var(--ink); color: #fff; padding: calc(8px + env(safe-area-inset-top, 0px)) 8px 8px;
+  }
+  .back {
+    min-height: 44px; padding: 0 12px 0 6px; border: 0; background: transparent; color: #fff; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 4px; font-weight: 600; font-size: 15px;
+  }
+  .back svg { width: 22px; height: 22px; }
+  .sheetbar .ref { margin-left: auto; padding-right: 8px; font-size: 12px; color: var(--accent-on-ink); font-variant-numeric: tabular-nums; }
+
+  .hero { padding: 20px 16px 16px; }
+  .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .eyebrow.late { color: var(--late-fg); }
+  .hero h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 32px; line-height: 1.1; margin: 4px 0 8px; text-wrap: balance; }
+  .hero .tour { font-size: 17px; font-weight: 600; color: var(--ink-soft); }
+  .hero .who { font-size: 15px; color: var(--muted); margin-top: 2px; }
+
+  .block { background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; margin: 0 16px 12px; padding: 14px; }
+  .k { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .v { font-size: 16px; font-weight: 600; margin-top: 3px; overflow-wrap: anywhere; white-space: pre-line; }
+  .v.missing { color: var(--warn-fg); font-weight: 500; font-size: 14px; }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; padding: 0; overflow: hidden; }
+  .facts > div { padding: 12px 14px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+  .facts > div:nth-child(2n) { border-right: 0; }
+  .facts > div:nth-last-child(-n+2) { border-bottom: 0; }
+  .facts .v { font-variant-numeric: tabular-nums; }
+  .facts .collect .v { color: var(--warn-fg); }
+  .facts .collect.paid .v { color: var(--ok-fg); }
+
+  .block.camp { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .block.camp .k { color: var(--accent-on-ink); }
+  .block.camp .v { font-size: 18px; }
+  .block.warnbox { background: var(--warn-bg); border-color: #EBD3B3; }
+  .block.warnbox .k, .block.warnbox .v { color: var(--warn-fg); }
+  .block.warnbox .v { font-size: 15px; font-weight: 500; }
+
+  .contact { display: flex; flex-direction: column; gap: 12px; }
+  .crow { display: flex; align-items: center; gap: 10px; justify-content: space-between; }
+  .crow .val { font-size: 15px; font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+  .crow .acts { display: flex; gap: 6px; flex: none; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 14px;
+    border-radius: 6px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink);
+    font-weight: 600; font-size: 14px; text-decoration: none; cursor: pointer; white-space: nowrap;
+    transition: transform 160ms var(--ease-out);
+  }
+  .btn:active { transform: scale(0.97); }
+  .btn.wa { background: var(--ok-bg); border-color: #CFE3D2; color: var(--ok-fg); }
+
+  ul.details { margin: 6px 0 0; padding-left: 18px; }
+  ul.details li { margin: 4px 0; overflow-wrap: anywhere; }
+  .meta { margin: 4px 16px 16px; font-size: 12.5px; color: var(--muted); display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
+
+  .actionbar {
+    position: sticky; bottom: 0; z-index: 2; background: rgba(245, 241, 232, 0.97); border-top: 1px solid var(--rule);
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+  }
+  .primary {
+    width: 100%; min-height: 52px; border: 0; border-radius: 8px; background: var(--ink); color: #fff;
+    font-weight: 700; font-size: 16px; cursor: pointer; transition: transform 160ms var(--ease-out), background-color 160ms ease;
+  }
+  .primary:active { transform: scale(0.98); }
+  .primary.confirm { background: var(--ok-fg); }
+  .primary[disabled] { opacity: 0.6; }
+  .donebox {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: var(--ok-bg); color: var(--ok-fg); border-radius: 8px; padding: 8px 8px 8px 14px; font-weight: 700;
+  }
+  .donebox .btn { background: transparent; border-color: #CFE3D2; color: var(--ok-fg); }
+
+  .toast {
+    position: fixed; left: 16px; right: 16px; bottom: calc(84px + env(safe-area-inset-bottom, 0px)); z-index: 30;
+    margin: 0 auto; max-width: 420px; background: var(--ink); color: #fff; border-radius: 8px; padding: 12px 14px;
+    font-size: 14px; font-weight: 500; opacity: 0; transform: translateY(8px); pointer-events: none;
+    transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+  .toast.err { background: var(--late-fg); }
+  .toast.ok { background: var(--ok-fg); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition-duration: 0s !important; }
+  }
+  @media (min-width: 720px) {
+    main, .controls > *, .sheet > :not(.sheetbar):not(.actionbar), .actionbar > * { max-width: 680px; margin-left: auto; margin-right: auto; }
+    .controls > .search { margin-top: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="head">
+  <div class="bar">
+    <div>
+      <div class="wordmark">Marrakech Eco Tours</div>
+      <div class="sub">Team · Trips with deposit</div>
+    </div>
+    <button class="iconbtn" id="refresh" type="button" aria-label="Refresh the list">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 4v5h-5"/></svg>
+    </button>
+  </div>
+  <div class="controls">
+    <div class="seg" role="tablist" aria-label="Which trips">
+      <button type="button" role="tab" data-tab="upcoming" aria-selected="true">Upcoming <span class="count" id="c-upcoming">–</span></button>
+      <button type="button" role="tab" data-tab="past" aria-selected="false">Past <span class="count" id="c-past" title="Past trips not marked done">–</span></button>
+    </div>
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search client, email or tour" autocomplete="off" aria-label="Search client, email or tour">
+    </div>
+  </div>
+</div>
+<div id="banner" class="banner" hidden></div>
+<main id="list" aria-live="polite"></main>
+
+<section id="sheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" aria-hidden="true">
+  <div class="sheetbar">
+    <button class="back" type="button" id="back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>Trips
+    </button>
+    <span class="ref" id="sheet-ref"></span>
+  </div>
+  <div id="sheet-body"></div>
+  <div class="actionbar" id="sheet-action"></div>
+</section>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  var DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var DOW_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var MON_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  var state = { data: null, tab: 'upcoming', q: '', openId: null, loadedAt: 0, loading: false };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function fold(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+
+  // ── dates (ISO yyyy-mm-dd from the server, Morocco time) ───────────────
+  function parts(iso) { var p = iso.split('-'); return new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2])); }
+  function dayDiff(iso, today) {
+    var a = iso.split('-'), b = today.split('-');
+    return Math.round((Date.UTC(a[0], a[1] - 1, a[2]) - Date.UTC(b[0], b[1] - 1, b[2])) / 86400000);
+  }
+  function relText(iso) {
+    var n = dayDiff(iso, state.data.today);
+    if (n === 0) return 'Today';
+    if (n === 1) return 'Tomorrow';
+    if (n === -1) return 'Yesterday';
+    return n > 0 ? 'In ' + n + ' days' : n * -1 + ' days ago';
+  }
+  function longDate(iso) { var d = parts(iso); return d.getDate() + ' ' + MON_LONG[d.getMonth()] + ' ' + d.getFullYear(); }
+  function shortDate(iso) { var d = parts(iso); return d.getDate() + ' ' + MON[d.getMonth()]; }
+
+  // ── who the client is, from what the sheets hold ───────────────────────
+  function contactOf(t) {
+    var src = [t.b && t.b.emails, t.guest].filter(Boolean).join(' — ');
+    var emails = uniq(src.match(/[^\s@—,;<>()]+@[^\s@—,;<>()]+\.[a-z]{2,}/gi) || []);
+    var phones = uniq((src.match(/\+?\d[\d\s().-]{6,}\d/g) || []).map(function (p) { return p.trim(); }));
+    var name = '';
+    var details = t.b && t.b.details ? t.b.details.split(' | ') : [];
+    details.forEach(function (d) { if (!name && /^client:/i.test(d)) name = d.replace(/^client:\s*/i, '').trim(); });
+    if (!name) {
+      var rest = t.guest;
+      emails.concat(phones).forEach(function (x) { rest = rest.split(x).join(' '); });
+      rest = rest.replace(/[—,;|/]+/g, ' ').replace(/\s+/g, ' ').trim();
+      if (/[a-z]{2,}/i.test(rest)) name = rest;
+    }
+    return { name: name, emails: emails, phones: phones, title: name || emails[0] || phones[0] || 'Client' };
+  }
+  function uniq(a) { return a.filter(function (x, i) { return a.indexOf(x) === i; }); }
+  function detailLines(t) {
+    if (!t.b || !t.b.details) return [];
+    return t.b.details.split(' | ').filter(function (d) { return d && !/^client:/i.test(d); });
+  }
+  function moneyLeft(t) {
+    var v = t.b && t.b.left ? t.b.left : '';
+    var n = parseFloat(String(v).replace(/[^\d.,-]/g, '').replace(',', '.'));
+    return { text: v, zero: v !== '' && n === 0 };
+  }
+
+  // ── which list a trip belongs to ───────────────────────────────────────
+  // By date only. Marking a trip done keeps it where it is and turns it green
+  // (owner: "leave the marked as done visible, do not send them to the done page").
+  function bucket(t) { return t.dateIso && t.dateIso < state.data.today ? 'past' : 'upcoming'; }
+  function id(t) { return t.tab + '!' + t.row; }
+  function find(tid) { return state.data.trips.filter(function (t) { return id(t) === tid; })[0]; }
+  function matches(t) {
+    if (!state.q) return true;
+    var c = contactOf(t);
+    return fold([t.tour, t.guest, c.name, c.emails.join(' '), c.phones.join(' '), t.b && t.b.invoice].join(' ')).indexOf(state.q) >= 0;
+  }
+
+  // ── list ───────────────────────────────────────────────────────────────
+  function render() {
+    var d = state.data;
+    if (!d) return;
+    // Upcoming: how many trips. Past: how many still NOT marked done (red when any).
+    var upcoming = 0, unmarked = 0;
+    d.trips.forEach(function (t) {
+      if (bucket(t) === 'upcoming') upcoming++;
+      else if (!t.doneIso) unmarked++;
+    });
+    $('c-upcoming').textContent = upcoming;
+    $('c-past').textContent = unmarked;
+    $('c-past').className = 'count' + (unmarked ? ' late' : '');
+
+    var banner = '';
+    if (d.bookings === 'unset') banner = 'The bookings26 link is not set in the script yet, so pick-up, camp and driver are missing below.';
+    if (d.bookings === 'no-access') banner = 'This Google account cannot open bookings26, so pick-up, camp and driver are missing. Ask for view access.';
+    $('banner').hidden = !banner;
+    $('banner').textContent = banner;
+
+    var trips = d.trips.filter(function (t) { return bucket(t) === state.tab && matches(t); });
+    var asc = state.tab === 'upcoming';
+    trips.sort(function (a, b) {
+      if (!a.dateIso !== !b.dateIso) return a.dateIso ? -1 : 1;     // undated last
+      if (a.dateIso !== b.dateIso) return (a.dateIso < b.dateIso ? -1 : 1) * (asc ? 1 : -1);
+      return a.tour < b.tour ? -1 : 1;
+    });
+    if (!trips.length) { $('list').innerHTML = emptyHtml() + tabsHtml(); return; }
+
+    // Every month is listed, not only this one: a heading marks where each month starts.
+    var html = '', i = 0, month = null;
+    while (i < trips.length) {
+      var iso = trips[i].dateIso, group = [];
+      while (i < trips.length && trips[i].dateIso === iso) group.push(trips[i++]);
+      var m = iso ? iso.slice(0, 7) : 'none';
+      if (m !== month) {
+        month = m;
+        var n = trips.filter(function (t) { return (t.dateIso ? t.dateIso.slice(0, 7) : 'none') === m; }).length;
+        html += '<h2 class="month">' + (iso ? MON_LONG[Number(iso.slice(5, 7)) - 1] + ' ' + iso.slice(0, 4) : 'No date') +
+          '<span>' + n + (n === 1 ? ' trip' : ' trips') + '</span></h2>';
+      }
+      html += dayHtml(iso, group);
+    }
+    $('list').innerHTML = html + tabsHtml();
+  }
+
+  // Which Deposit sheet tabs were read, so a skipped month is visible at once.
+  function tabsHtml() {
+    var tabs = state.data.tabs || [];
+    if (!tabs.length) return '<p class="tabsread">No deposit tab found in the Deposit sheet.</p>';
+    return '<p class="tabsread">Read from ' + tabs.length + ' deposit tab' + (tabs.length === 1 ? '' : 's') + ': ' +
+      tabs.map(function (t) { return esc(t.name) + ' (' + t.trips + ')'; }).join(', ') + '</p>';
+  }
+
+  function emptyHtml() {
+    if (state.q) return '<div class="empty"><div class="big">No match</div>Nothing found for “' + esc($('q').value) + '”.</div>';
+    var msg = {
+      upcoming: ['No upcoming trips', 'A trip appears here as soon as its deposit is marked DEPOSIT ARRIVED in bookings26.'],
+      past: ['No past trips yet', 'Trips move here the day after their date. Open one and tap “Mark as done” once it has run.'],
+    }[state.tab];
+    return '<div class="empty"><div class="big">' + msg[0] + '</div>' + msg[1] + '</div>';
+  }
+
+  function dayHtml(iso, group) {
+    var stub, rel = '';
+    if (iso) {
+      var d = parts(iso), n = dayDiff(iso, state.data.today);
+      var allDone = group.every(function (t) { return t.doneIso; });
+      stub = '<div class="stub' + (allDone ? ' done' : n === 0 ? ' today' : '') + '"><div class="dow">' + DOW[d.getDay()] + '</div><div class="dnum">' +
+        d.getDate() + '</div><div class="mon">' + MON[d.getMonth()] + '</div></div>';
+      rel = '<div class="rel' + (allDone ? ' done' : n < 0 ? ' late' : '') + '">' + relText(iso) + '</div>';
+    } else {
+      stub = '<div class="stub nodate"><div class="dnum">?</div><div class="mon">No date</div></div>';
+      rel = '<div class="rel late">Date missing in the Deposit sheet</div>';
+    }
+    return '<section class="day">' + stub + '<div>' + rel + group.map(cardHtml).join('') + '</div></section>';
+  }
+
+  function cardHtml(t) {
+    var c = contactOf(t), chips = [];
+    var b = t.b;
+    if (!b) chips.push('<span class="chip warn">Not found in bookings26</span>');
+    else {
+      chips.push(b.accom ? '<span class="chip">' + esc(oneLine(b.accom)) + '</span>' : '<span class="chip warn">No camp / hotel</span>');
+      if (!b.pickup) chips.push('<span class="chip warn">No pick-up</span>');
+      chips.push(b.driver ? '<span class="chip">Driver: ' + esc(b.driver) + '</span>' : '<span class="chip warn">No driver</span>');
+      var left = moneyLeft(t);
+      if (left.text && !left.zero) chips.push('<span class="chip">Collect ' + esc(left.text) + '</span>');
+    }
+    if (t.doneIso) chips.unshift('<span class="chip ok">Done</span>');
+    else if (bucket(t) === 'past') chips.unshift('<span class="chip late">Not marked done</span>');
+    var pax = t.guests || (b && b.pax) || '';
+    var sub = c.name ? (c.emails[0] || c.phones[0] || '') : (c.emails[0] && c.phones[0] ? c.phones[0] : '');
+    return '<button type="button" class="card' + (t.doneIso ? ' done' : '') + '" data-id="' + esc(id(t)) + '">' +
+      '<div class="top"><div style="min-width:0"><div class="name">' + esc(c.title) + '</div>' +
+      (sub ? '<div class="email">' + esc(sub) + '</div>' : '') + '</div>' +
+      (pax ? '<div class="pax"><b>' + esc(pax) + '</b><span>pax</span></div>' : '') + '</div>' +
+      '<div class="tour">' + esc(t.tour) + '</div>' +
+      '<div class="chips">' + chips.join('') + '</div></button>';
+  }
+  // Every night, not just the first: a 3-day trip's chip must name the camp too.
+  function oneLine(s) { return String(s).split(/\s*[|\n]\s*/).filter(Boolean).join(' · '); }
+
+  // ── detail sheet ───────────────────────────────────────────────────────
+  function openTrip(tid, push) {
+    var t = find(tid);
+    if (!t) return;
+    state.openId = tid;
+    $('sheet-body').innerHTML = detailHtml(t);
+    $('sheet-ref').textContent = (t.b && t.b.invoice) || '';
+    renderAction(t);
+    $('sheet').scrollTop = 0;
+    $('sheet').classList.add('open');
+    $('sheet').setAttribute('aria-hidden', 'false');
+    $('back').focus({ preventScroll: true });
+    if (push && window.google && google.script && google.script.history) google.script.history.push({ trip: tid }, {}, 'trip');
+  }
+  function closeTrip(fromHistory) {
+    if (!state.openId) return;
+    var tid = state.openId;
+    state.openId = null;
+    $('sheet').classList.remove('open');
+    $('sheet').setAttribute('aria-hidden', 'true');
+    var card = document.querySelector('.card[data-id="' + cssEsc(tid) + '"]');
+    if (card) card.focus({ preventScroll: true });
+    if (!fromHistory && window.google && google.script && google.script.history) google.script.history.push(null, {}, '');
+  }
+  function cssEsc(s) { return String(s).replace(/["\\]/g, '\\$&'); }
+
+  function field(label, value, missingText) {
+    return '<div><div class="k">' + label + '</div>' +
+      (value ? '<div class="v">' + esc(value) + '</div>' : '<div class="v missing">' + esc(missingText || 'Not in the sheet') + '</div>') + '</div>';
+  }
+
+  function detailHtml(t) {
+    var c = contactOf(t), b = t.b, h = '';
+    var eyebrow = '', late = false;
+    if (t.dateIso) {
+      var d = parts(t.dateIso);
+      late = !t.doneIso && t.dateIso < state.data.today;
+      eyebrow = DOW_LONG[d.getDay()] + ' · ' + relText(t.dateIso);
+    } else eyebrow = 'No departure date in the Deposit sheet';
+
+    h += '<div class="hero"><div class="eyebrow' + (late ? ' late' : '') + '">' + esc(eyebrow) + '</div>' +
+      '<h1 id="sheet-title">' + esc(t.dateIso ? longDate(t.dateIso) : (t.dateText || 'Date to confirm')) + '</h1>' +
+      '<div class="tour">' + esc(t.tour) + '</div><div class="who">' + esc(c.title) + '</div></div>';
+
+    if (!b) {
+      h += '<div class="block warnbox"><div class="k">Details</div><div class="v">This deposit was not found in bookings26, so pick-up, camp and driver are not shown. Check bookings26 or ask the office.</div></div>';
+    }
+
+    // Camp / accommodation first: the detail the INV-2026-033 trip went wrong on.
+    if (b) {
+      h += b.accom
+        ? '<div class="block camp"><div class="k">Camp / hotel / restaurant booked</div><div class="v">' + esc(b.accom) + '</div></div>'
+        : '<div class="block warnbox"><div class="k">Camp / accommodation</div><div class="v">Not written in bookings26. Check with the office before the trip.</div></div>';
+    }
+
+    // Without the bookings26 row these are unknown, not empty: never say "Not assigned".
+    var unknown = 'See bookings26';
+    var left = moneyLeft(t);
+    h += '<div class="block facts">' +
+      field('Guests', t.guests || (b && b.pax) || '') +
+      field('Driver', b && b.driver, b ? 'Not assigned' : unknown) +
+      field('Deposit received', t.deposit) +
+      '<div class="collect' + (left.zero ? ' paid' : '') + '">' + (left.text ? '<div class="k">To collect</div><div class="v">' + esc(left.zero ? 'Nothing, fully paid' : left.text) + '</div>'
+        : '<div class="k">To collect</div><div class="v missing">' + (b ? 'Not in the sheet' : unknown) + '</div>') + '</div>' +
+      '</div>';
+
+    h += '<div class="block">' + field('Pick-up / drop-off', b && b.pickup, b ? 'Not in the sheet' : unknown) + '</div>';
+
+    if (c.emails.length || c.phones.length) {
+      h += '<div class="block contact"><div class="k">Client</div>';
+      if (c.name) h += '<div class="crow"><div class="val">' + esc(c.name) + '</div></div>';
+      c.phones.forEach(function (p) {
+        var digits = p.replace(/[^\d+]/g, '');
+        var intl = /^\+/.test(digits) ? digits.slice(1) : (/^00/.test(digits) ? digits.slice(2) : '');
+        h += '<div class="crow"><div class="val">' + esc(p) + '</div><div class="acts">' +
+          '<a class="btn" href="tel:' + esc(digits) + '">Call</a>' +
+          (intl ? '<a class="btn wa" href="https://wa.me/' + esc(intl) + '" target="_blank" rel="noopener">WhatsApp</a>' : '') +
+          '</div></div>';
+      });
+      c.emails.forEach(function (e) {
+        h += '<div class="crow"><div class="val">' + esc(e) + '</div><div class="acts"><a class="btn" href="mailto:' + esc(e) + '">Email</a></div></div>';
+      });
+      h += '</div>';
+    } else if (t.guest) {
+      h += '<div class="block">' + field('Client', t.guest) + '</div>';
+    }
+
+    var lines = detailLines(t);
+    if (lines.length) {
+      h += '<div class="block"><div class="k">Trip details</div><ul class="details">' +
+        lines.map(function (l) { return '<li>' + esc(l) + '</li>'; }).join('') + '</ul></div>';
+    }
+    if (b && b.notes && b.notes.length) {
+      h += '<div class="block"><div class="k">Notes</div><div class="v" style="font-weight:500">' + esc(b.notes.join('\n')) + '</div></div>';
+    }
+    if (b && b.extra && b.extra.length) {
+      h += '<div class="block facts">' + b.extra.map(function (x) { return field(esc(x[0]), x[1]); }).join('') +
+        (b.extra.length % 2 ? '<div></div>' : '') + '</div>';
+    }
+
+    var meta = [];
+    if (b && b.invoice) meta.push('Invoice ' + b.invoice);
+    if (b && b.payment) meta.push('Payment: ' + b.payment);
+    if (t.arrivedIso) meta.push('Deposit arrived ' + longDate(t.arrivedIso));
+    meta.push('Deposit sheet: ' + t.tab + ', row ' + t.row);
+    if (b) meta.push('bookings26: ' + b.tab + ', row ' + b.row);
+    h += '<div class="meta">' + meta.map(function (m) { return '<div>' + esc(m) + '</div>'; }).join('') + '</div>';
+    return h;
+  }
+
+  // ── mark as done ───────────────────────────────────────────────────────
+  var confirmTimer = null;
+  function renderAction(t) {
+    clearTimeout(confirmTimer);
+    $('sheet').classList.toggle('is-done', !!t.doneIso);
+    if (t.doneIso) {
+      var when = /^\d{4}-/.test(t.doneIso) ? ' on ' + shortDate(t.doneIso) : '';
+      $('sheet-action').innerHTML = '<div class="donebox"><span>Done' + esc(when) + '</span><button type="button" class="btn" id="undo">Undo</button></div>';
+    } else {
+      $('sheet-action').innerHTML = '<button type="button" class="primary" id="mark">Mark as done</button>';
+    }
+  }
+  function save(t, done, btn) {
+    btn.disabled = true;
+    btn.textContent = 'Saving…';
+    google.script.run
+      .withSuccessHandler(function (r) {
+        if (!r || !r.ok) { toast((r && r.error) || 'Could not save. Try again.', true); renderAction(t); return; }
+        t.doneIso = r.doneIso;
+        renderAction(t);
+        render();
+        toast(done ? 'Marked as done' : 'Moved back, not done', false, done);
+      })
+      .withFailureHandler(function (e) { toast(errText(e), true); renderAction(t); })
+      .teamMarkDone(t.tab, t.row, t.key, done);
+  }
+  document.addEventListener('click', function (ev) {
+    var t = state.openId && find(state.openId);
+    var mark = ev.target.closest('#mark');
+    if (mark && t) {
+      if (!mark.classList.contains('confirm')) {
+        mark.classList.add('confirm');
+        mark.textContent = 'Tap again to confirm';
+        confirmTimer = setTimeout(function () { if (mark.isConnected) { mark.classList.remove('confirm'); mark.textContent = 'Mark as done'; } }, 3500);
+      } else { clearTimeout(confirmTimer); save(t, true, mark); }
+      return;
+    }
+    var undo = ev.target.closest('#undo');
+    if (undo && t) { save(t, false, undo); return; }
+    var card = ev.target.closest('.card');
+    if (card) { openTrip(card.getAttribute('data-id'), true); return; }
+    var seg = ev.target.closest('.seg button');
+    if (seg) {
+      state.tab = seg.getAttribute('data-tab');
+      document.querySelectorAll('.seg button').forEach(function (b) { b.setAttribute('aria-selected', String(b === seg)); });
+      render();
+      window.scrollTo(0, 0);
+    }
+  });
+  $('back').addEventListener('click', function () { closeTrip(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeTrip(false); });
+  $('q').addEventListener('input', function () { state.q = fold(this.value.trim()); render(); });
+  $('refresh').addEventListener('click', function () { load(); });
+  if (window.google && google.script && google.script.history) {
+    google.script.history.setChangeHandler(function (e) {
+      if (e.state && e.state.trip) openTrip(e.state.trip, false); else closeTrip(true);
+    });
+  }
+  // Coming back to the app after a while: fetch fresh data.
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible' && Date.now() - state.loadedAt > 120000 && !state.openId) load();
+  });
+
+  // ── loading ────────────────────────────────────────────────────────────
+  var toastTimer = null;
+  function toast(msg, err, ok) {
+    var el = $('toast');
+    var kind = err ? ' err' : ok ? ' ok' : '';
+    el.textContent = msg;
+    el.className = 'toast show' + kind;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.className = 'toast' + kind; }, err ? 5000 : 2400);
+  }
+  function errText(e) {
+    var m = String((e && e.message) || e || '');
+    if (/permission|access|authoriz/i.test(m)) return 'This Google account has no access to the Deposit sheet. Ask the office to share it with you.';
+    return m || 'Something went wrong. Try again.';
+  }
+  function load() {
+    if (state.loading) return;
+    state.loading = true;
+    $('refresh').classList.add('spin');
+    if (!state.data) {
+      $('list').innerHTML = '<section class="day"><div class="stub"><div class="dow">&nbsp;</div><div class="dnum">&nbsp;</div><div class="mon">&nbsp;</div></div><div>' +
+        '<div class="skel"></div><div class="skel"></div></div></section>' +
+        '<section class="day"><div class="stub"><div class="dow">&nbsp;</div><div class="dnum">&nbsp;</div><div class="mon">&nbsp;</div></div><div><div class="skel"></div></div></section>';
+    }
+    google.script.run
+      .withSuccessHandler(function (d) {
+        state.loading = false;
+        $('refresh').classList.remove('spin');
+        state.data = d;
+        state.loadedAt = Date.now();
+        render();
+        if (state.openId) { var t = find(state.openId); if (t) openTrip(state.openId, false); else closeTrip(false); }
+      })
+      .withFailureHandler(function (e) {
+        state.loading = false;
+        $('refresh').classList.remove('spin');
+        if (state.data) { toast(errText(e), true); return; }
+        $('list').innerHTML = '<div class="empty"><div class="big">Could not load the trips</div>' + esc(errText(e)) +
+          '<br><button type="button" class="btn" id="retry">Try again</button></div>';
+        $('retry').addEventListener('click', load);
+      })
+      .teamTrips();
+  }
+  load();
+})();
+</script>
+</body>
+</html>

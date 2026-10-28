@@ -388,7 +388,9 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
       b.ok
         ? `Bookings bookings26 → ${b.tab}, row ${b.row}${b.updated ? " (updated)" : ""}` +
           (b.kept?.length ? `\n         kept the team's own edits in: ${b.kept.join(", ")}` : "") +
-          (b.moneyLocked ? `\n         PAYMENT is set, so DEPOSIT / AMOUNT LEFT were left as they are` : "")
+          (b.moneyLocked ? `\n         PAYMENT is set, so DEPOSIT / AMOUNT LEFT were left as they are` : "") +
+          (b.sorted === "sorted" ? " (moved into date order)" : "") +
+          (b.sorted && b.sorted !== "sorted" ? `\n         ${b.sorted}. The booking is in the sheet, just not in date order.` : "")
         : `Bookings NOT PLACED in bookings26 — ${b.reason}: ${b.detail}\n         Add it by hand and forward the brief to the team.`,
     );
   }

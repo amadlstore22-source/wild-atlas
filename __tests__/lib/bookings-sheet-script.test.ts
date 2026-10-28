@@ -181,4 +181,24 @@ describe("bookings26 script", () => {
     expect(r.ok).toBe(false);
     expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
   });
+
+  // INV-2026-049 (2026-10-28) landed with its date shown as "12/15/2026": the
+  // empty row it took already carried a US date format, and only a "General"
+  // cell was restyled. The team's own rows read "Tue, 15 Dec 2026".
+  it("styles the date it writes like the team's rows, whatever format the empty row had", () => {
+    const s = tab("November26");
+    s.cell(4, 2).fmt = "M/d/yyyy";
+    const r = post(inv);
+    expect(r.row).toBe(4);
+    expect(s.cell(4, 2).fmt).toBe("ddd, d mmm yyyy");
+  });
+
+  it("leaves the format of a date the team typed over alone on a re-send", () => {
+    const r = post(inv);
+    const s = tab("November26");
+    s.cell(r.row!, 2).v = "27/11/2026 (moved)";
+    s.cell(r.row!, 2).fmt = "@";
+    post(inv);
+    expect(s.cell(r.row!, 2).fmt).toBe("@");
+  });
 });

@@ -46,6 +46,7 @@
 
 const INVOICE_SECRET = 'PASTE-THE-SECRET-HERE';   // ← same value as SHEET_WEBHOOK_SECRET in .env.local
 const INV_HEADER_ROW = 2;
+const INV_DATE_FORMAT = 'ddd, d mmm yyyy';   // "Tue, 15 Dec 2026", as in the team's own rows
 const INV_MONTHS_EN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const INV_MONTHS_FR = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'decembre'];
 
@@ -100,12 +101,13 @@ function invPlace_(ss, data) {
   const kept = [];
   const key = function (v) { return Object.prototype.toString.call(v) === '[object Date]' ? 'd:' + v.toDateString() : String(v); };
   const set = function (name, col, value) {
-    if (!col) return;
+    if (!col) return false;
     const cell = tab.getRange(row, col);
     const now = cell.getValue();
-    if (updated && now !== '' && key(now) !== mine[name]) { kept.push(name); return; }
+    if (updated && now !== '' && key(now) !== mine[name]) { kept.push(name); return false; }
     cell.setValue(value);
     mine[name] = key(value);
+    return true;
   };
 
   // Once PAYMENT has any value the money is the team's: DEPOSIT and AMOUNT
@@ -115,7 +117,7 @@ function invPlace_(ss, data) {
   const paymentSet = cols.PAYMENT && String(tab.getRange(row, cols.PAYMENT).getValue()).trim() !== '';
 
   set('tour', cols['TOUR BOOKED'], data.tour || '');
-  set('date', cols.DATE, when);
+  const wroteDate = set('date', cols.DATE, when);
   set('emails', cols.EMAILS, [data.clientEmail, data.clientPhone].filter(String).join(' — '));
   set('people', invAny_(cols, ['CLIENTE', 'GUESTS', 'PAX']), Number(data.people) || '');
   if (!paymentSet) {
@@ -126,8 +128,12 @@ function invPlace_(ss, data) {
   set('accom', invAny_(cols, ['ACCOMODATION', 'ACCOMMODATION', 'CAMP / ACCOMMODATION']), data.suppliers || '');
   set('details', cols['TRIP DETAILS'], ['Client: ' + (data.clientName || ''), data.details || ''].filter(String).join(' | '));
   invoiceCell.setValue(data.number).setNote(JSON.stringify(mine));
-  if (cols.DATE && !updated && tab.getRange(row, cols.DATE).getNumberFormat() === 'General') {
-    tab.getRange(row, cols.DATE).setNumberFormat('dd/mm/yyyy');
+  // The date this script wrote gets the style the team types ("Tue, 15 Dec
+  // 2026"). INV-2026-049 (2026-10-28) landed as "12/15/2026" because the row
+  // already had another date format and only a General cell was restyled.
+  // A date the team typed over is theirs: its format is left alone.
+  if (wroteDate) {
+    tab.getRange(row, cols.DATE).setNumberFormat(INV_DATE_FORMAT);
   }
 
   // Put the tab back in date order (the "tidy" file), so the booking sits

@@ -32,6 +32,7 @@ const TIDY_MONTHS = [['juin', 5], ['juil', 6], ['jan', 0], ['feb', 1], ['fev', 1
   ['may', 4], ['mai', 4], ['jun', 5], ['jul', 6], ['aug', 7], ['aou', 7], ['sep', 8], ['oct', 9], ['nov', 10], ['dec', 11]];
 const TIDY_MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const TIDY_CHECK_TAB = '~tidy check (deleted automatically)';
+const TIDY_DATE_FORMAT = 'ddd, d mmm yyyy';   // the team's own style, as INV_DATE_FORMAT in the invoices file
 
 function tidyPreview() {
   const ss = SpreadsheetApp.getActive();
@@ -423,4 +424,87 @@ function tidyFixOneDate_(places, who, from, to) {
     cell.setValue(to);
   }
   return h.tab.getName() + ' row ' + h.row + ' is now ' + cell.getDisplayValue() + '.';
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ONE-OFF (2026-10-28): repairDates
+// After the first invoice-written booking (INV-2026-049) three date problems
+// showed up. This repairs what already went wrong; the scripts no longer do it.
+// It changes FORMATS only, except in step 3, which fills an EMPTY cell:
+//   1. DEPOSIT DATE cells that hold a date but show it as a raw number
+//      (46316.46967) get dd/mm/yyyy back.
+//   2. DATE cells written by the invoices file (the row has an INVOICE number)
+//      that hold a real date get the team's style, "Tue, 15 Dec 2026".
+//   3. Deposit-sheet rows made by the deposit link (they have a Ref) whose
+//      Date trip is EMPTY get the date from their booking, found by that Ref.
+// Running it twice changes nothing more.
+// ═════════════════════════════════════════════════════════════════════════════
+function repairDates() {
+  const ss = SpreadsheetApp.getActive();
+  const out = [];
+  const lock = LockService.getDocumentLock();
+  lock.waitLock(30000);
+  try {
+    const byRef = {};
+    tidyBooks_(ss).forEach(function (book) {
+      book.getSheets().forEach(function (tab) {
+        const plan = tidyPlan_(tab);
+        if (!plan || plan.n < 1) return;
+        const head = tab.getRange(plan.header, 1, 1, plan.width).getValues()[0].map(function (h) { return String(h).trim().toUpperCase(); });
+        const stamp = head.indexOf('DEPOSIT DATE') + 1, date = head.indexOf('DATE') + 1, inv = head.indexOf('INVOICE') + 1;
+        const where = tidyIn_(book, ss) + tab.getName() + ' row ';
+        if (stamp) {
+          const rg = tab.getRange(plan.start, stamp, plan.n, 1);
+          const vals = rg.getValues(), notes = rg.getNotes();
+          vals.forEach(function (v, i) {
+            if (typeof v[0] === 'number' && v[0] > 40000 && v[0] < 60000 &&
+                tab.getRange(plan.start + i, stamp).getNumberFormat() !== 'dd/mm/yyyy') {
+              tab.getRange(plan.start + i, stamp).setNumberFormat('dd/mm/yyyy');
+              out.push(where + (plan.start + i) + ': DEPOSIT DATE shown as a date again (' + tab.getRange(plan.start + i, stamp).getDisplayValue() + ').');
+            }
+            const ref = String(notes[i][0]).split('|')[0].trim();
+            if (ref && date) byRef[ref] = tab.getRange(plan.start + i, date);
+          });
+        }
+        if (date && inv) {
+          const invs = tab.getRange(plan.start, inv, plan.n, 1).getValues();
+          const dates = tab.getRange(plan.start, date, plan.n, 1);
+          const dv = dates.getValues();
+          invs.forEach(function (x, i) {
+            if (String(x[0]).trim() === '' || Object.prototype.toString.call(dv[i][0]) !== '[object Date]') return;
+            const cell = tab.getRange(plan.start + i, date);
+            if (cell.getNumberFormat() === TIDY_DATE_FORMAT) return;
+            cell.setNumberFormat(TIDY_DATE_FORMAT);
+            out.push(where + (plan.start + i) + ': DATE now shows ' + cell.getDisplayValue() + '.');
+          });
+        }
+      });
+    });
+
+    if (typeof depositUrl_ === 'function' && typeof depositTripDate_ === 'function') {
+      const dep = SpreadsheetApp.openByUrl(depositUrl_());
+      dep.getSheets().forEach(function (tab) {
+        if (String(tab.getRange(2, 1).getValue()).trim().toLowerCase() !== 'deposit') return;
+        const n = tab.getLastRow() - 2;
+        if (n < 1) return;
+        const head = tab.getRange(2, 1, 1, tab.getLastColumn()).getValues()[0].map(function (h) { return String(h).trim().toUpperCase(); });
+        const refCol = head.indexOf('REF') + 1;
+        if (!refCol) return;
+        const refs = tab.getRange(3, refCol, n, 1).getValues();
+        const shown = tab.getRange(3, 4, n, 1).getDisplayValues();
+        refs.forEach(function (r, i) {
+          const ref = String(r[0]).trim();
+          if (!ref || String(shown[i][0]).trim() !== '' || !byRef[ref]) return;
+          const cell = tab.getRange(3 + i, 4);
+          depositTripDate_(cell, byRef[ref]);
+          out.push('Deposit sheet, ' + tab.getName() + ' row ' + (3 + i) + ': Date trip filled in (' + cell.getDisplayValue() + ').');
+        });
+      });
+    }
+  } finally {
+    lock.releaseLock();
+  }
+  if (!out.length) out.push('Nothing needed repairing.');
+  Logger.log(out.join('\n'));
+  ss.toast('Done. What changed is in the log under the code.', 'Repair dates', 10);
 }

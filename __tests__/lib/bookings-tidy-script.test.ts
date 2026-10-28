@@ -21,7 +21,7 @@ import vm from "node:vm";
  * sort that leaves notes behind, to prove the rehearsal catches it before the
  * real tab is touched.
  */
-type Cell = { v: unknown; f: string; note: string; bg: string };
+type Cell = { v: unknown; f: string; note: string; bg: string; fmt?: string };
 const blank = (): Cell => ({ v: "", f: "", note: "", bg: "#ffffff" });
 
 class Sheet {
@@ -66,8 +66,8 @@ class Sheet {
       setValue: (v: unknown) => { one().v = v; return range; },
       getNote: () => one().note,
       setNote: (n: string) => { one().note = n; return range; },
-      getNumberFormat: () => "General",
-      setNumberFormat: () => range,
+      getNumberFormat: () => one().fmt ?? "General",
+      setNumberFormat: (f: string) => { one().fmt = f; return range; },
       setFontWeight: () => range,
       getFormulas: () => rows().map((row) => row.map((x) => x.f)),
       getValues: () => rows().map((row) => row.map((x) => x.v)),
@@ -431,5 +431,55 @@ describe("year spreadsheets (booking 27)", () => {
     expect(r.ok).toBe(false);
     expect(r.error).toContain("has no TOUR BOOKED header in row 2");
     expect(JSON.stringify(y27.sheets[0].grid)).toBe(before);
+  });
+});
+
+/**
+ * 2026-10-28: the first invoice-written booking (INV-2026-049) showed its date
+ * as "12/15/2026", its deposit row came out with an EMPTY Date trip, and a
+ * DEPOSIT DATE in the same tab showed as a raw number (46316.46967).
+ * repairDates fixes what already went wrong: formats only, plus filling an
+ * EMPTY Date trip from the booking its Ref points to. Never a typed value.
+ */
+describe("repairDates", () => {
+  let dep: Spreadsheet;
+  beforeEach(() => {
+    const nov = tab("November26");
+    nov.cell(2, 13).v = "INVOICE";
+    nov.cell(9, 13).v = "INV-2026-900";
+    nov.cell(9, 2).v = new Date(2026, 10, 14, 12); nov.cell(9, 2).fmt = "M/d/yyyy";   // written by the invoices file
+    nov.cell(6, 12).v = 46316.46967;                                                    // a deposit date that lost its format
+    dep = new Spreadsheet("Deposit");
+    const oct = new Sheet(dep, "October deposit");
+    ["Deposit", "Tour/trek", "Name guest", "Date trip", "Guests", "", "Arrived", "Ref"].forEach((h, i) => { oct.cell(2, i + 1).v = h; });
+    [40, "Shared Merzouga", "b@example.com", "", 1, "", "28/10/2026", "November26-3fc0e7d9"].forEach((v, i) => { oct.cell(3, i + 1).v = v; });
+    [75, "Typed by hand", "z@example.com", "", 5].forEach((v, i) => { oct.cell(4, i + 1).v = v; });  // no Ref: never touched
+    dep.sheets.push(oct);
+    Object.assign(ctx, {
+      SpreadsheetApp: { getActive: () => ss, getActiveSpreadsheet: () => ss, openByUrl: () => dep, flush() {} },
+      depositUrl_: () => "https://example.com/deposit",
+    });
+    // stands in for the deposit file's depositTripDate_ (live project only)
+    vm.runInContext("function depositTripDate_(t, s) { t.setValue(s.getValue()); }", ctx);
+  });
+
+  it("repairs formats and fills only an empty Date trip that has a Ref", () => {
+    const values = JSON.stringify(tab("November26").grid.map((r) => r.map((c) => c.v)));
+    run("repairDates");
+    const nov = tab("November26");
+    expect(nov.cell(6, 12).fmt, "the raw-number deposit date is a date again").toBe("dd/mm/yyyy");
+    expect(nov.cell(9, 2).fmt, "the invoice-written date gets the team's style").toBe("ddd, d mmm yyyy");
+    expect(nov.cell(5, 2).fmt, "a typed date is left alone").toBeUndefined();
+    expect(JSON.stringify(nov.grid.map((r) => r.map((c) => c.v))), "no value in bookings26 changes").toBe(values);
+    expect(dep.sheets[0].cell(3, 4).v, "Date trip filled from the booking its Ref points to").toBe("Thu, 5 Nov 2026");
+    expect(dep.sheets[0].cell(4, 4).v, "a row without a Ref is never touched").toBe("");
+    expect(logs.join("\n")).toContain("October deposit row 3: Date trip filled in");
+  });
+
+  it("a second run changes nothing", () => {
+    run("repairDates");
+    logs = [];
+    run("repairDates");
+    expect(logs.join("\n")).toContain("Nothing needed repairing.");
   });
 });

@@ -451,7 +451,7 @@ export const TOURS: Tour[] = [
       { q: "Est-ce une visite privée ?", a: "Oui. C'est une visite guidée privée d'une demi-journée (4 heures) avec votre propre guide, disponible en anglais, français, espagnol ou arabe, afin que le rythme et le contenu suivent vos centres d'intérêt." },
       { q: "Que couvre et comprend la visite ?", a: "Une visite guidée à pied de 4 heures dans la médina, avec les entrées des monuments visités et une cérémonie du thé à la menthe incluses. Le déjeuner, les achats et les pourboires ne sont pas inclus." },
       { q: "Combien de marche faut-il prévoir ?", a: "La visite est classée facile, mais c'est une visite à pied à travers les souks et les monuments, prévoyez donc de bonnes chaussures. L'itinéraire peut être adapté à votre rythme." },
-      { q: "Quelle est la taille du groupe ?", a: "Réduite — entre 2 et 8 personnes, et privée à votre groupe." },
+      { q: "Quelle est la taille du groupe ?", a: "Elle est privée à votre groupe, de 1 à 8 personnes, et le prix par personne baisse avec la taille du groupe : 73 € seul, 41 € chacun à deux, 36 € à trois, 34 € à quatre, 33 € à cinq et 31 € à partir de six." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
     seoTitle: "Circuit culturel de la médina de Marrakech",
@@ -2254,7 +2254,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hôtel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
@@ -2765,7 +2765,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Parcourez les souks aux épices et les étals de marché de la médina avec un guide local, en dégustant en chemin, puis cuisinez un tajine à partir de zéro.",
     description:
-      "Marrakech est la capitale culinaire du Maroc, et cette balade d'une demi-journée est bâtie autour de ce fait. Commencez à Rahba Kedima, la place aux épices, en apprenant à distinguer le vrai safran des imitations teintées et la douzaine d'épices qui composent le ras el hanout. Traversez les souks alimentaires en goûtant olives, dattes, msemen et jus d'orange fraîchement pressé aux étals de Jemaa el-Fnaa. Terminez dans une cuisine familiale locale pour un cours pratique de tajine et de thé à la menthe marocain — vous mangez ce que vous cuisinez.",
+      "Marrakech est la capitale culinaire du Maroc, et cette balade d'une demi-journée est bâtie autour de ce fait. Commencez à Rahba Kedima, la place aux épices, en apprenant à distinguer le vrai safran des imitations teintées et la douzaine d'épices qui composent le ras el hanout. Traversez les souks alimentaires en goûtant olives, dattes, msemen et jus d'orange fraîchement pressé. Terminez dans une cuisine familiale locale pour un cours pratique de tajine et de thé à la menthe marocain — vous mangez ce que vous cuisinez.",
     highlights: [
       "Place aux épices de Rahba Kedima — vrai safran contre imitations teintées",
       "Dégustations guidées à travers les souks alimentaires actifs de la médina",
@@ -2796,7 +2796,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Ce circuit convient-il aux végétariens ?", a: "Oui. Le cours de cuisine et les dégustations peuvent être entièrement végétariens sur demande — indiquez-le lors de la réservation. La plupart des dégustations au souk (olives, dattes, épices, jus frais) sont végétariennes par défaut." },
       { q: "Devons-nous arriver affamés ?", a: "Venez avec de l'appétit, mais pas les mains vides — la balade comprend une douzaine de petites dégustations avant même d'atteindre le cours de cuisine, alors dosez-vous et évitez un gros petit-déjeuner." },
-      { q: "En quoi ce circuit diffère-t-il d'une visite classique de la médina ?", a: "Une visite classique de la médina couvre monuments et histoire. Celle-ci est entièrement construite autour de la nourriture — là où les habitants font réellement leurs courses et mangent, pas les étals destinés aux touristes près de Jemaa el-Fnaa — et se termine par la cuisine, pas seulement l'observation." },
+      { q: "En quoi ce circuit diffère-t-il d'une visite classique de la médina ?", a: "Une visite classique de la médina couvre monuments et histoire. Celle-ci est entièrement construite autour de la nourriture — là où les habitants font réellement leurs courses et mangent, pas les étals destinés aux touristes près de Jemaa el-Fnaa — et se termine par la cuisine, pas seulement l'observation. Cela dit, nous restons flexibles : s'il y a quelque chose que vous aimeriez goûter ou voir, dites-le-nous à la réservation." },
     ],
     featured: false,
   },

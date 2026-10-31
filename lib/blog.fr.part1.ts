@@ -1077,7 +1077,7 @@ Les souks (marchés) occupent la moitié nord de la médina, à peu près entre 
 
 ## La mosquée et la médersa Ben Youssef
 
-La médersa Ben Youssef (collège islamique, XIVe siècle, reconstruit au XVIe siècle) est le plus bel exemple d'architecture hispano-mauresque à Marrakech. La cour centrale, avec son stuc sculpté, ses boiseries de cèdre et son zellige s'élevant sur trois étages, est l'un des intérieurs les plus beaux d'Afrique du Nord. Entrée 70 MAD. Les non-musulmans ne peuvent pas entrer dans la mosquée mais la médersa est ouverte à tous.
+La médersa Ben Youssef (collège islamique, XIVe siècle, reconstruit au XVIe siècle) est le plus bel exemple d'architecture hispano-mauresque à Marrakech. La cour centrale, avec son stuc sculpté, ses boiseries de cèdre et son zellige s'élevant sur trois étages, est l'un des intérieurs les plus beaux d'Afrique du Nord. Entrée environ 70 MAD. Les non-musulmans ne peuvent pas entrer dans la mosquée mais la médersa est ouverte à tous.
 
 ## Les hammams
 
@@ -1316,7 +1316,7 @@ Le quartier immédiatement autour de la mosquée est la partie la plus ancienne 
 
 ## La médersa Bou Inania
 
-La plus belle médersa (collège islamique) subsistant à Fès, construite entre 1350 et 1357 sous le sultan mérinide Bou Inan. Elle est ouverte aux non-musulmans et l'entrée coûte 70 MAD. La cour intérieure est un chef-d'œuvre : trois niveaux de cèdre sculpté, zellige s'élevant jusqu'à hauteur d'yeux, et stuc sculpté au-dessus. Les cellules d'étudiants autour des galeries supérieures abritent des expositions temporaires.
+La plus belle médersa (collège islamique) subsistant à Fès, construite entre 1350 et 1357 sous le sultan mérinide Bou Inan. Elle est ouverte aux non-musulmans et l'entrée coûte environ 70 MAD. La cour intérieure est un chef-d'œuvre : trois niveaux de cèdre sculpté, zellige s'élevant jusqu'à hauteur d'yeux, et stuc sculpté au-dessus. Les cellules d'étudiants autour des galeries supérieures abritent des expositions temporaires.
 
 Visitez le matin, quand la lumière entre dans la cour depuis l'est. L'écran de cèdre sculpté au-dessus de l'entrée est l'un des plus beaux exemples de l'artisanat mérinide qui existe.
 

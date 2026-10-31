@@ -7087,7 +7087,7 @@ Was tatsächlich entscheidet, ob die Reise ein Vergnügen oder eine Ausdauerprü
       { q: "Wie viel Zeit braucht man in Volubilis?", a: "Zwei Stunden für einen gründlichen Besuch, einschließlich des Wegs hinaus zum Caracalla-Bogen und zurück. Neunzig Minuten reichen bei zügigem Gehen. Unter einer Stunde sehen Sie Basilika und Bogen und verpassen die meisten Mosaike, die über die Häuser am Decumanus verteilt liegen statt an einer Stelle versammelt zu sein." },
       { q: "Lohnt sich Volubilis, wenn ich schon römische Ruinen in Europa gesehen habe?", a: "Für die meisten ja, und zwar aus einem bestimmten Grund: die Mosaike liegen noch im Boden. An den meisten Mittelmeerstätten wurden die guten Böden längst gehoben und stehen heute hinter Glas, oft in einer anderen Stadt. In Volubilis gehen Sie dieselbe Straße entlang, an der sie verlegt wurden, und blicken in situ auf sie hinab, unter freiem Himmel. Die Anlage ist kleiner als Ostia oder Ephesos und behauptet nichts anderes: Was sie bietet, ist Nähe, nicht Größe." },
       { q: "Kann man Volubilis und Meknes am selben Tag besuchen?", a: "Ohne Weiteres. Sie liegen etwa vierzig Minuten auseinander, und Moulay Idriss liegt dazwischen, sodass die drei üblicherweise als eine Runde gefahren werden. Von Fès aus ist das ein langer Tag — die meisten Tagesausflüge, die alle drei abdecken, dauern 10 bis 11 Stunden. Deutlich einfacher ist es auf einer Route, die ohnehin nach Süden führt, so wie es unsere [5-Tage-Rundreise von Casablanca nach Marrakesch](/de/tours/casablanca-fes-sahara-marrakesch-5-tage) am ersten Tag macht." },
-      { q: "Welche Tageszeit ist die beste?", a: "Früh. Die Anlage öffnet um 8 Uhr, die Reisebusse aus Fès treffen gegen 10 Uhr ein, und Schatten gibt es auf dem Gelände praktisch nirgends — im Juli und August wird der Boden zwischen den Häusern mittags zur Qual. Wer zur Öffnung kommt, hat eine Stunde flaches Licht auf den Säulen, und genau dann fotografiert sich die Anlage am besten. Die Stunde vor Schließung ist die zweitbeste Wahl." },
+      { q: "Welche Tageszeit ist die beste?", a: "Früh. Die Anlage öffnet um 9 Uhr, die Reisebusse aus Fès treffen gegen 10 Uhr ein, und Schatten gibt es auf dem Gelände praktisch nirgends — im Juli und August wird der Boden zwischen den Häusern mittags zur Qual. Wer zur Öffnung kommt, hat eine Stunde flaches Licht auf den Säulen, und genau dann fotografiert sich die Anlage am besten. Die Stunde vor Schließung ist die zweitbeste Wahl." },
     ],
     content: `
 ## Was Volubilis wirklich ist
@@ -7122,6 +7122,7 @@ Das ist der Grund herzukommen, und man sollte es vorher wissen, denn es verände
 |---|---|
 | Eintritt | 100 Dh für ausländische Erwachsene, 50 Dh für Kinder von 7 bis 13 Jahren, 30 Dh für Marokkaner und Einwohner |
 | Tickets | Online auf der [Ticketseite des Kulturministeriums](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis) oder am Schalter am Eingang (Bargeld mitbringen) |
+| Öffnungszeiten | 9 bis 17 Uhr (Kulturministerium) |
 | Zeit vor Ort | Zwei Stunden; neunzig Minuten in zügigem Tempo |
 | Beste Zeit | Zur Öffnung, bevor die Busse aus Fès gegen 10 Uhr eintreffen |
 | Schatten und Hitze | Fast kein Schatten; im Juli und August oft um die 40 °C |
@@ -7134,7 +7135,7 @@ Das ist der Grund herzukommen, und man sollte es vorher wissen, denn es verände
 
 **Eintritt:** 100 Dirham für ausländische Erwachsene, 50 für Kinder von 7 bis 13 Jahren. Am Schalter in der Praxis nur bar; das Ticket gibt es auch online beim Kulturministerium.
 
-**Öffnungszeiten:** 8 bis 18 Uhr, im Winter Schließung um 17 Uhr.
+**Öffnungszeiten:** 9 bis 17 Uhr, laut Kulturministerium.
 
 **Zeitbedarf:** zwei Stunden für einen ordentlichen Besuch.
 
@@ -7144,7 +7145,7 @@ Das ist der Grund herzukommen, und man sollte es vorher wissen, denn es verände
 
 ## Wann man kommen sollte
 
-**Früh am Morgen, zu jeder Jahreszeit.** Die Tore öffnen um 8, die Busse aus Fès kommen gegen 10, und der Unterschied zwischen diesen beiden Stunden ist der zwischen einem menschenleeren Decumanus und einer Schlange vor dem Bogen.
+**Früh am Morgen, zu jeder Jahreszeit.** Die Tore öffnen um 9, die Busse aus Fès kommen gegen 10, und der Unterschied zwischen diesen beiden Stunden ist der zwischen einem menschenleeren Decumanus und einer Schlange vor dem Bogen.
 
 **Der Frühling ist die beste Zeit.** Die Zerhoun-Ebene ist grün, Wildblumen stehen rund um die Anlage, und die Temperatur erlaubt zwei Stunden Gehen im Offenen. Der Herbst folgt dicht dahinter.
 

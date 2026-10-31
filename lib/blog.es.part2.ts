@@ -7077,7 +7077,7 @@ Lo que de verdad determina si el viaje es un placer o una prueba de resistencia 
       { q: "¿Cuánto tiempo hace falta en Volubilis?", a: "Dos horas para una visita completa, incluido el paseo de ida y vuelta hasta el arco de Caracalla. Noventa minutos bastan si camina con paso vivo. En menos de una hora verá la basílica y el arco y se perderá casi todos los mosaicos, repartidos por las casas del Decumanus en lugar de reunidos en un punto." },
       { q: "¿Merece la pena Volubilis si ya he visto ruinas romanas en Europa?", a: "Para la mayoría sí, y por un motivo concreto: los mosaicos siguen en el suelo. En casi todos los yacimientos mediterráneos los buenos pavimentos se levantaron hace tiempo y hoy están tras un cristal, a menudo en otra ciudad. En Volubilis usted camina por la misma calle junto a la que se colocaron y los mira in situ, a cielo abierto. Es un yacimiento más pequeño que Ostia o Éfeso y no pretende lo contrario: lo que ofrece es cercanía, no escala." },
       { q: "¿Se pueden visitar Volubilis y Mequinez el mismo día?", a: "Sin problema. Están a unos cuarenta minutos, y Mulay Idriss queda entre ambos, así que los tres se recorren habitualmente en un mismo circuito. Desde Fez es un día largo: la mayoría de las excursiones que cubren los tres duran de 10 a 11 horas. Resulta mucho más cómodo en una ruta que ya baja hacia el sur, que es como lo hace nuestro [circuito de 5 días de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) en su primera jornada." },
-      { q: "¿Cuál es la mejor hora del día para visitarlo?", a: "Temprano. Abre a las 8:00, los autocares de Fez llegan hacia las 10:00 y no hay prácticamente sombra en todo el recinto: en julio y agosto el suelo entre las casas resulta castigador a mediodía. Llegar a la apertura le da una hora de luz rasante sobre las columnas, que es además cuando mejor fotografía el yacimiento. La hora previa al cierre es la segunda mejor opción." },
+      { q: "¿Cuál es la mejor hora del día para visitarlo?", a: "Temprano. Abre a las 9:00, los autocares de Fez llegan hacia las 10:00 y no hay prácticamente sombra en todo el recinto: en julio y agosto el suelo entre las casas resulta castigador a mediodía. Llegar a la apertura le da una hora de luz rasante sobre las columnas, que es además cuando mejor fotografía el yacimiento. La hora previa al cierre es la segunda mejor opción." },
     ],
     content: `
 ## Qué es realmente Volubilis
@@ -7112,6 +7112,7 @@ Esta es la razón para venir, y conviene saberlo antes de llegar porque cambia l
 |---|---|
 | Entrada | 100 Dh por adulto extranjero, 50 Dh por niño de 7 a 13 años, 30 Dh para marroquíes y residentes |
 | Entradas | En línea en la [web de entradas del Ministerio de Cultura](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), o en la taquilla de la puerta (lleve efectivo) |
+| Horario | De 9:00 a 17:00 (Ministerio de Cultura) |
 | Tiempo en el yacimiento | Dos horas; noventa minutos a buen paso |
 | Mejor momento | A la apertura, antes de que lleguen los autocares de Fez hacia las 10:00 |
 | Sombra y calor | Casi ninguna sombra; a menudo cerca de 40 °C en julio y agosto |
@@ -7124,7 +7125,7 @@ Esta es la razón para venir, y conviene saberlo antes de llegar porque cambia l
 
 **Entrada:** 100 dirhams por adulto extranjero, 50 por niño de 7 a 13 años. En la taquilla, en la práctica, solo efectivo; la entrada también se compra en línea al Ministerio de Cultura.
 
-**Horario:** de 8:00 a 18:00; cierra a las 17:00 en invierno.
+**Horario:** de 9:00 a 17:00, según el Ministerio de Cultura.
 
 **Tiempo necesario:** dos horas para verlo bien.
 
@@ -7134,7 +7135,7 @@ Esta es la razón para venir, y conviene saberlo antes de llegar porque cambia l
 
 ## Cuándo ir
 
-**Temprano por la mañana, en cualquier estación.** Las puertas abren a las 8:00, los autocares de Fez llegan hacia las 10:00, y la diferencia entre esas dos horas es la que hay entre tener el Decumanus para usted y hacer cola para fotografiar el arco.
+**Temprano por la mañana, en cualquier estación.** Las puertas abren a las 9:00, los autocares de Fez llegan hacia las 10:00, y la diferencia entre esas dos horas es la que hay entre tener el Decumanus para usted y hacer cola para fotografiar el arco.
 
 **La primavera es la mejor estación.** La llanura del Zerhoun está verde, las flores silvestres rodean el yacimiento y la temperatura permite caminar dos horas a campo abierto. El otoño va justo detrás.
 

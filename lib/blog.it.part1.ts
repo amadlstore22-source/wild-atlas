@@ -1070,7 +1070,7 @@ I souk (mercati) occupano la metà settentrionale della medina, all'incirca tra 
 
 ## Moschea e medersa di Ben Youssef
 
-La Medersa Ben Youssef (collegio islamico, XIV secolo, ricostruito nel XVI secolo) è il miglior esempio di architettura ispano-moresca di Marrakech. Il cortile centrale, con i suoi stucchi intagliati, le lavorazioni in legno di cedro e i mosaici di zellij che si innalzano per tre piani, è uno degli interni più belli del Nord Africa. Ingresso 70 MAD. I non musulmani non possono entrare nella moschea, ma la medersa è aperta a tutti.
+La Medersa Ben Youssef (collegio islamico, XIV secolo, ricostruito nel XVI secolo) è il miglior esempio di architettura ispano-moresca di Marrakech. Il cortile centrale, con i suoi stucchi intagliati, le lavorazioni in legno di cedro e i mosaici di zellij che si innalzano per tre piani, è uno degli interni più belli del Nord Africa. Ingresso circa 70 MAD. I non musulmani non possono entrare nella moschea, ma la medersa è aperta a tutti.
 
 ## Gli hammam
 
@@ -1309,7 +1309,7 @@ L'area immediatamente circostante la moschea è la parte più antica di Fes — 
 
 ## Medersa Bou Inania
 
-La medersa (collegio islamico) meglio conservata di Fes, costruita tra il 1350 e il 1357 sotto il sultano merinide Bou Inan. È aperta ai non musulmani e l'ingresso costa 70 MAD. Il cortile interno è un capolavoro: tre livelli di legno di cedro intagliato, mosaici di zellij che salgono fino all'altezza degli occhi e stucco intagliato al di sopra. Le celle degli studenti intorno alle gallerie superiori ospitano mostre temporanee.
+La medersa (collegio islamico) meglio conservata di Fes, costruita tra il 1350 e il 1357 sotto il sultano merinide Bou Inan. È aperta ai non musulmani e l'ingresso costa circa 70 MAD. Il cortile interno è un capolavoro: tre livelli di legno di cedro intagliato, mosaici di zellij che salgono fino all'altezza degli occhi e stucco intagliato al di sopra. Le celle degli studenti intorno alle gallerie superiori ospitano mostre temporanee.
 
 Visitatela al mattino, quando la luce cade nel cortile da est. Lo schermo in cedro intagliato sopra l'ingresso è uno dei migliori esempi di artigianato merinide esistenti.
 

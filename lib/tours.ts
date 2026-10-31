@@ -718,7 +718,7 @@ export const TOURS: Tour[] = [
       { q: "Is this a private tour?", a: "Yes. It is a private, half-day (4-hour) guided walk with your own guide, available in English, French, Spanish, or Arabic, so the pace and focus can follow your interests." },
       { q: "What does the tour cover and include?", a: "A 4-hour guided walk through the medina with entrance fees to the monuments visited and a traditional mint tea ceremony included. Lunch, shopping, and tips are not included." },
       { q: "How much walking should I expect?", a: "It is graded easy, but it is a walking tour through the souks and monuments, so wear comfortable shoes. The route can be adjusted to your pace." },
-      { q: "How large is the group?", a: "Small — between 2 and 8 people, and private to your party." },
+      { q: "How large is the group?", a: "It is private to your party, from 1 to 8 people, and the price per person falls as the group grows: €73 alone, €41 each for two, €36 for three, €34 for four, €33 for five and €31 from six." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
     seoTitle: "Marrakech Medina Guided Walking Tour",
@@ -2854,7 +2854,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
@@ -3445,7 +3445,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Walk the spice souks and market stalls of the medina with a local guide, tasting as you go, then cook a tagine from scratch.",
     description:
-      "Marrakech is the culinary capital of Morocco, and this half-day walk is built around that fact. Start in Rahba Kedima, the spice square, learning to tell real saffron from dyed imitations and the dozen-plus spices that go into ras el hanout. Move through the food souks tasting olives, dates, msemen, and fresh-pressed orange juice from the Jemaa el-Fnaa stalls. Finish at a local family kitchen for a hands-on tagine and Moroccan mint tea lesson — you eat what you cook.",
+      "Marrakech is the culinary capital of Morocco, and this half-day walk is built around that fact. Start in Rahba Kedima, the spice square, learning to tell real saffron from dyed imitations and the dozen-plus spices that go into ras el hanout. Move through the food souks tasting olives, dates, msemen, and fresh-pressed orange juice. Finish at a local family kitchen for a hands-on tagine and Moroccan mint tea lesson — you eat what you cook.",
     highlights: [
       "Rahba Kedima spice square — real saffron vs. dyed imitations",
       "Guided tastings through the medina's working food souks",
@@ -3476,7 +3476,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Is this tour suitable for vegetarians?", a: "Yes. The cooking class and tastings can be fully vegetarian on request — let us know when booking. Most of the souk tastings (olives, dates, spices, fresh juice) are vegetarian by default." },
       { q: "Do we need to arrive hungry?", a: "Come with an appetite but not empty-handed — the walk includes a dozen small tastings before you even reach the cooking class, so pace yourself, and skip a big breakfast." },
-      { q: "How is this different from a regular medina tour?", a: "A general medina tour covers monuments and history. This one is built entirely around food — where locals actually shop and eat, not the tourist-facing stalls near Jemaa el-Fnaa — and ends with you cooking, not just watching." },
+      { q: "How is this different from a regular medina tour?", a: "A general medina tour covers monuments and history. This one is built entirely around food — where locals actually shop and eat, not the tourist-facing stalls near Jemaa el-Fnaa — and ends with you cooking, not just watching. That said, we are flexible: if there is something you would like to taste or see, tell us when you book." },
     ],
     featured: false,
   },

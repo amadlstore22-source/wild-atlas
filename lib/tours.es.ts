@@ -442,7 +442,7 @@ export const TOURS: Tour[] = [
       { q: "¿Es un tour privado?", a: "Sí. Es una visita guiada privada de media jornada (4 horas) con tu propio guía, disponible en inglés, francés, español o árabe, para que el ritmo y el contenido se ajusten a tus intereses." },
       { q: "¿Qué cubre e incluye el tour?", a: "Una visita guiada a pie de 4 horas por la medina, con las entradas a los monumentos visitados y una ceremonia del té a la menta incluidas. El almuerzo, las compras y las propinas no están incluidos." },
       { q: "¿Cuánto hay que caminar?", a: "Está clasificado como fácil, pero es una visita a pie por los zocos y monumentos, así que lleva calzado cómodo. La ruta puede adaptarse a tu ritmo." },
-      { q: "¿De qué tamaño es el grupo?", a: "Reducido: entre 2 y 8 personas, y privado para tu grupo." },
+      { q: "¿De qué tamaño es el grupo?", a: "Es privado para tu grupo, de 1 a 8 personas, y el precio por persona baja a medida que el grupo crece: 73 € si vas solo, 41 € por persona siendo dos, 36 € siendo tres, 34 € siendo cuatro, 33 € siendo cinco y 31 € a partir de seis." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
     seoTitle: "Tour Cultural por la Medina de Marrakech",
@@ -2245,7 +2245,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
@@ -2756,7 +2756,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Recorre los zocos de especias y los puestos de mercado de la medina con un guía local, probando platos por el camino, y termina cocinando un tajín desde cero.",
     description:
-      "Marrakech es la capital gastronómica de Marruecos, y esta ruta de medio día está construida precisamente en torno a esa idea. Empieza en Rahba Kedima, la plaza de las especias, aprendiendo a distinguir el azafrán auténtico de las imitaciones teñidas y a reconocer la docena larga de especias que componen el ras el hanout. Continúa por los zocos de alimentación probando aceitunas, dátiles, msemen y zumo de naranja recién exprimido en los puestos de la Jemaa el-Fna. Termina en la cocina de una familia local con una clase práctica de tajín y té de menta marroquí: te comes lo que cocinas.",
+      "Marrakech es la capital gastronómica de Marruecos, y esta ruta de medio día está construida precisamente en torno a esa idea. Empieza en Rahba Kedima, la plaza de las especias, aprendiendo a distinguir el azafrán auténtico de las imitaciones teñidas y a reconocer la docena larga de especias que componen el ras el hanout. Continúa por los zocos de alimentación probando aceitunas, dátiles, msemen y zumo de naranja recién exprimido. Termina en la cocina de una familia local con una clase práctica de tajín y té de menta marroquí: te comes lo que cocinas.",
     highlights: [
       "Plaza de especias de Rahba Kedima — azafrán auténtico frente a imitaciones teñidas",
       "Degustaciones guiadas por los zocos de alimentación en funcionamiento de la medina",
@@ -2787,7 +2787,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "¿Es adecuado este tour para vegetarianos?", a: "Sí. La clase de cocina y las degustaciones pueden ser totalmente vegetarianas si lo solicitas — avísanos al reservar. La mayoría de las degustaciones del zoco (aceitunas, dátiles, especias, zumo fresco) son vegetarianas por defecto." },
       { q: "¿Necesitamos llegar con hambre?", a: "Ven con apetito, pero no del todo en ayunas: el paseo incluye una docena de pequeñas degustaciones antes incluso de llegar a la clase de cocina, así que dosifícate y evita un desayuno copioso." },
-      { q: "¿En qué se diferencia de un tour normal por la medina?", a: "Un tour genérico de la medina cubre monumentos e historia. Este está construido enteramente en torno a la comida —donde compran y comen realmente los locales, no los puestos orientados al turista cerca de Jemaa el-Fna— y termina con tu propia cocina, no solo mirando." },
+      { q: "¿En qué se diferencia de un tour normal por la medina?", a: "Un tour genérico de la medina cubre monumentos e historia. Este está construido enteramente en torno a la comida —donde compran y comen realmente los locales, no los puestos orientados al turista cerca de Jemaa el-Fna— y termina con tu propia cocina, no solo mirando. Dicho esto, somos flexibles: si hay algo que te gustaría probar o ver, dínoslo al reservar." },
     ],
     featured: false,
   },

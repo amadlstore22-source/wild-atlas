@@ -7071,7 +7071,7 @@ Ciò che determina davvero se il viaggio sia un piacere o una prova di resistenz
       { q: "Quanto tempo serve a Volubilis?", a: "Due ore per una visita completa, compresa l'andata e il ritorno fino all'arco di Caracalla. Novanta minuti bastano camminando di buon passo. In meno di un'ora vedrete la basilica e l'arco e perderete quasi tutti i mosaici, sparsi nelle case lungo il Decumano invece che raccolti in un punto solo." },
       { q: "Vale la pena Volubilis se ho già visto rovine romane in Europa?", a: "Per la maggior parte dei visitatori sì, e per un motivo preciso: i mosaici sono ancora nel terreno. Nella maggior parte dei siti mediterranei i pavimenti migliori sono stati staccati da tempo e oggi stanno dietro un vetro, spesso in un'altra città. A Volubilis camminate lungo la stessa strada accanto a cui furono posati e li guardate in situ, a cielo aperto. È un sito più piccolo di Ostia o Efeso e non finge il contrario: quello che offre è la vicinanza, non la scala." },
       { q: "Si possono visitare Volubilis e Meknes nello stesso giorno?", a: "Tranquillamente. Distano circa quaranta minuti, e Moulay Idriss sta in mezzo, quindi i tre si fanno di solito in un unico giro. Da Fès è una giornata lunga: la maggior parte delle escursioni che coprono tutti e tre dura dalle 10 alle 11 ore. È molto più comodo su un percorso che scende già verso sud, come fa il nostro [tour di 5 giorni da Casablanca a Marrakech](/it/tours/casablanca-fes-sahara-marrakech-5-giorni) nella prima giornata." },
-      { q: "Qual è il momento migliore della giornata?", a: "Presto. Il sito apre alle 8, i pullman da Fès arrivano verso le 10, e ombra non ce n'è praticamente da nessuna parte: a luglio e agosto il terreno tra le case diventa punitivo a mezzogiorno. Arrivare all'apertura vi regala un'ora di luce radente sulle colonne, che è anche il momento in cui il sito fotografa meglio. L'ora prima della chiusura è la seconda scelta migliore." },
+      { q: "Qual è il momento migliore della giornata?", a: "Presto. Il sito apre alle 9, i pullman da Fès arrivano verso le 10, e ombra non ce n'è praticamente da nessuna parte: a luglio e agosto il terreno tra le case diventa punitivo a mezzogiorno. Arrivare all'apertura vi regala un'ora di luce radente sulle colonne, che è anche il momento in cui il sito fotografa meglio. L'ora prima della chiusura è la seconda scelta migliore." },
     ],
     content: `
 ## Cos'è davvero Volubilis
@@ -7106,6 +7106,7 @@ Alla maggior parte dei siti romani del Mediterraneo sono stati tolti i pavimenti
 |---|---|
 | Ingresso | 100 Dh per adulto straniero, 50 Dh per i bambini dai 7 ai 13 anni, 30 Dh per marocchini e residenti |
 | Biglietti | Online sul [sito dei biglietti del Ministero della Cultura](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), oppure alla biglietteria dell'ingresso (portate contanti) |
+| Orari | Dalle 9 alle 17 (Ministero della Cultura) |
 | Tempo sul sito | Due ore; novanta minuti a passo svelto |
 | Momento migliore | All'apertura, prima dei pullman da Fès che arrivano verso le 10 |
 | Ombra e caldo | Quasi nessuna ombra; spesso vicino ai 40 °C a luglio e agosto |
@@ -7118,7 +7119,7 @@ Alla maggior parte dei siti romani del Mediterraneo sono stati tolti i pavimenti
 
 **Ingresso:** 100 dirham per adulto straniero, 50 per i bambini dai 7 ai 13 anni. Alla biglietteria, in pratica, solo contanti; il biglietto si compra anche online presso il Ministero della Cultura.
 
-**Orari:** dalle 8 alle 18; in inverno chiusura alle 17.
+**Orari:** dalle 9 alle 17, secondo il Ministero della Cultura.
 
 **Tempo necessario:** due ore per una visita seria.
 
@@ -7128,7 +7129,7 @@ Alla maggior parte dei siti romani del Mediterraneo sono stati tolti i pavimenti
 
 ## Quando andare
 
-**Presto la mattina, in ogni stagione.** I cancelli aprono alle 8, i pullman da Fès arrivano verso le 10, e la differenza tra quelle due ore è quella tra avere il Decumano tutto per sé e fare la fila per fotografare l'arco.
+**Presto la mattina, in ogni stagione.** I cancelli aprono alle 9, i pullman da Fès arrivano verso le 10, e la differenza tra quelle due ore è quella tra avere il Decumano tutto per sé e fare la fila per fotografare l'arco.
 
 **La primavera è la stagione migliore.** La piana dello Zerhoun è verde, i fiori selvatici circondano il sito e la temperatura permette due ore di cammino allo scoperto. L'autunno segue a poca distanza.
 

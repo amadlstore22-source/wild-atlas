@@ -442,7 +442,7 @@ export const TOURS: Tour[] = [
       { q: "Ist das eine private Tour?", a: "Ja. Es ist eine private, halbtägige (4-stündige) geführte Tour mit Ihrem eigenen Guide, verfügbar auf Englisch, Französisch, Spanisch oder Arabisch, sodass Tempo und Inhalt Ihren Interessen folgen." },
       { q: "Was deckt die Tour ab und was ist enthalten?", a: "Ein 4-stündiger geführter Rundgang durch die Medina, mit Eintrittsgeldern für die besuchten Sehenswürdigkeiten und einer traditionellen Minztee-Zeremonie. Mittagessen, Einkäufe und Trinkgelder sind nicht enthalten." },
       { q: "Wie viel muss ich laufen?", a: "Sie ist als leicht eingestuft, aber es ist ein Rundgang durch die Souks und Sehenswürdigkeiten, tragen Sie also bequeme Schuhe. Die Route lässt sich Ihrem Tempo anpassen." },
-      { q: "Wie groß ist die Gruppe?", a: "Klein – zwischen 2 und 8 Personen und privat für Ihre Gruppe." },
+      { q: "Wie groß ist die Gruppe?", a: "Sie ist privat für Ihre Gruppe, von 1 bis 8 Personen, und der Preis pro Person sinkt mit der Gruppengröße: 73 € allein, 41 € pro Person zu zweit, 36 € zu dritt, 34 € zu viert, 33 € zu fünft und 31 € ab sechs Personen." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Koutoubia Mosque, Marrakech" },
     seoTitle: "Kulturelle Stadtführung Medina Marrakesch",
@@ -2245,7 +2245,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈4 h",
+        driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakesch",
@@ -2756,7 +2756,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Erkunden Sie die Gewürzsouks und Marktstände der Medina mit einem lokalen Guide, probieren Sie sich durch und kochen Sie anschließend einen Tajine von Grund auf.",
     description:
-      "Marrakesch ist die kulinarische Hauptstadt Marokkos, und dieser halbtägige Spaziergang baut genau darauf auf. Beginnen Sie auf der Rahba Kedima, dem Gewürzplatz, und lernen Sie, echten Safran von gefärbten Imitaten sowie die über ein Dutzend Gewürze, die in Ras el-Hanout gehören, zu unterscheiden. Ziehen Sie weiter durch die Lebensmittelsouks und probieren Sie Oliven, Datteln, Msemen und frisch gepressten Orangensaft von den Ständen am Jemaa el-Fnaa. Zum Abschluss geht es in eine lokale Familienküche für eine praktische Tajine- und Minztee-Lektion — Sie essen, was Sie kochen.",
+      "Marrakesch ist die kulinarische Hauptstadt Marokkos, und dieser halbtägige Spaziergang baut genau darauf auf. Beginnen Sie auf der Rahba Kedima, dem Gewürzplatz, und lernen Sie, echten Safran von gefärbten Imitaten sowie die über ein Dutzend Gewürze, die in Ras el-Hanout gehören, zu unterscheiden. Ziehen Sie weiter durch die Lebensmittelsouks und probieren Sie Oliven, Datteln, Msemen und frisch gepressten Orangensaft. Zum Abschluss geht es in eine lokale Familienküche für eine praktische Tajine- und Minztee-Lektion — Sie essen, was Sie kochen.",
     highlights: [
       "Gewürzplatz Rahba Kedima — echter Safran vs. gefärbte Imitate",
       "Geführte Verkostungen durch die aktiven Lebensmittelsouks der Medina",
@@ -2787,7 +2787,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Ist diese Tour für Vegetarier geeignet?", a: "Ja. Der Kochkurs und die Verkostungen können auf Wunsch vollständig vegetarisch gestaltet werden — teilen Sie uns dies bei der Buchung mit. Die meisten Souk-Verkostungen (Oliven, Datteln, Gewürze, frischer Saft) sind ohnehin standardmäßig vegetarisch." },
       { q: "Sollten wir hungrig kommen?", a: "Kommen Sie mit Appetit, aber nicht mit leerem Magen — der Spaziergang umfasst bereits ein Dutzend kleine Verkostungen, bevor Sie überhaupt beim Kochkurs ankommen, also teilen Sie sich Ihre Kräfte gut ein und lassen Sie ein großes Frühstück aus." },
-      { q: "Wie unterscheidet sich das von einer normalen Medina-Tour?", a: "Eine allgemeine Medina-Tour behandelt Monumente und Geschichte. Diese hier dreht sich vollständig um Essen — dort, wo Einheimische wirklich einkaufen und essen, nicht an den touristenorientierten Ständen nahe dem Jemaa el-Fnaa — und endet damit, dass Sie selbst kochen, statt nur zuzuschauen." },
+      { q: "Wie unterscheidet sich das von einer normalen Medina-Tour?", a: "Eine allgemeine Medina-Tour behandelt Monumente und Geschichte. Diese hier dreht sich vollständig um Essen — dort, wo Einheimische wirklich einkaufen und essen, nicht an den touristenorientierten Ständen nahe dem Jemaa el-Fnaa — und endet damit, dass Sie selbst kochen, statt nur zuzuschauen. Wir sind dabei flexibel: Wenn Sie etwas Bestimmtes probieren oder sehen möchten, sagen Sie es uns bei der Buchung." },
     ],
     featured: false,
   },

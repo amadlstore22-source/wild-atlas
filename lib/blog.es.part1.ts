@@ -1077,7 +1077,7 @@ Los zocos (mercados) ocupan la mitad norte de la medina, aproximadamente entre D
 
 ## Mezquita y medersa Ben Youssef
 
-La Medersa Ben Youssef (colegio islámico, siglo XIV, reconstruido en el XVI) es el mejor ejemplo de arquitectura hispano-morisca en Marrakech. El patio central, con su estuco tallado, su carpintería de cedro y su azulejería zellij que se eleva tres plantas, es uno de los interiores más bellos del norte de África. Entrada 70 MAD. Los no musulmanes no pueden entrar en la mezquita, pero la medersa está abierta a todos.
+La Medersa Ben Youssef (colegio islámico, siglo XIV, reconstruido en el XVI) es el mejor ejemplo de arquitectura hispano-morisca en Marrakech. El patio central, con su estuco tallado, su carpintería de cedro y su azulejería zellij que se eleva tres plantas, es uno de los interiores más bellos del norte de África. Entrada unos 70 MAD. Los no musulmanes no pueden entrar en la mezquita, pero la medersa está abierta a todos.
 
 ## Hammams
 
@@ -1316,7 +1316,7 @@ La zona que rodea inmediatamente la mezquita es la parte más antigua de Fez: ca
 
 ## Medersa Bou Inania
 
-La medersa (colegio islámico) mejor conservada de Fez, construida entre 1350 y 1357 bajo el sultán merínida Bou Inan. Está abierta a los no musulmanes y la entrada cuesta 70 MAD. El patio interior es una obra maestra: tres niveles de cedro tallado, azulejería zellij que llega hasta la altura de los ojos, y estuco tallado por encima. Las celdas de los estudiantes en las galerías superiores albergan exposiciones temporales.
+La medersa (colegio islámico) mejor conservada de Fez, construida entre 1350 y 1357 bajo el sultán merínida Bou Inan. Está abierta a los no musulmanes y la entrada cuesta unos 70 MAD. El patio interior es una obra maestra: tres niveles de cedro tallado, azulejería zellij que llega hasta la altura de los ojos, y estuco tallado por encima. Las celdas de los estudiantes en las galerías superiores albergan exposiciones temporales.
 
 Visítala por la mañana, cuando la luz entra en el patio desde el este. La pantalla de cedro tallado sobre la entrada es uno de los mejores ejemplos de artesanía merínida que existen.
 

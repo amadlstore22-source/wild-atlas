@@ -1190,7 +1190,7 @@ The souks (markets) occupy the northern half of the medina, roughly between Djem
 
 ## Ben Youssef Mosque and Medersa
 
-The Ben Youssef Medersa (Islamic college, 14th century, rebuilt 16th century) is the finest example of Moroccan-Andalusian architecture in Marrakech. The central courtyard, with its carved stucco, cedar woodwork, and zellij tilework rising three storeys, is one of the most beautiful interiors in North Africa. Entry 70 MAD. Non-Muslims may not enter the mosque but the medersa is open to all.
+The Ben Youssef Medersa (Islamic college, 14th century, rebuilt 16th century) is the finest example of Moroccan-Andalusian architecture in Marrakech. The central courtyard, with its carved stucco, cedar woodwork, and zellij tilework rising three storeys, is one of the most beautiful interiors in North Africa. Entry around 70 MAD. Non-Muslims may not enter the mosque but the medersa is open to all.
 
 ## Hammams
 
@@ -1429,7 +1429,7 @@ The area immediately surrounding the mosque is the most ancient part of Fes — 
 
 ## Medersa Bou Inania
 
-The finest surviving medersa (Islamic college) in Fes, built between 1350 and 1357 under the Merinid sultan Bou Inan. It is open to non-Muslims and entry is 70 MAD. The interior courtyard is a masterwork: three tiers of carved cedarwood, zellij tilework rising to eye level, and carved stucco above that. The student cells around the upper galleries house temporary exhibitions.
+The finest surviving medersa (Islamic college) in Fes, built between 1350 and 1357 under the Merinid sultan Bou Inan. It is open to non-Muslims and entry is around 70 MAD. The interior courtyard is a masterwork: three tiers of carved cedarwood, zellij tilework rising to eye level, and carved stucco above that. The student cells around the upper galleries house temporary exhibitions.
 
 Visit in the morning when light falls into the courtyard from the east. The carved cedar screen above the entrance is one of the finest examples of Merinid craftsmanship in existence.
 
@@ -9986,7 +9986,7 @@ The thing that actually determines whether the trip is a pleasure or an enduranc
       { q: "How long do you need at Volubilis?", a: "Two hours is right for a thorough visit, including the walk out to the Arch of Caracalla and back. Ninety minutes is enough if you are moving briskly. Under an hour and you will see the basilica and the arch and miss most of the mosaics, which are spread through the houses along the Decumanus rather than gathered in one place." },
       { q: "Is Volubilis worth visiting if I have already seen Roman ruins in Europe?", a: "For most people, yes, and for one specific reason: the mosaics are still in the ground. At most Mediterranean sites the good floors were lifted long ago and are now behind glass in a museum, often in another city. At Volubilis you walk the same street the mosaics were laid beside and look down at them in situ, open to the sky. It is a smaller site than Ostia or Ephesus and does not pretend otherwise — what it offers is proximity, not scale." },
       { q: "Can you visit Volubilis and Meknes in the same day?", a: "Comfortably. They are about forty minutes apart, and Moulay Idriss sits between them, so the three are routinely done as one loop. Coming from Fes it is a long day — most Fes day trips covering all three run 10 to 11 hours. It is far easier as part of a route heading south, which is how our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes it in on the first day." },
-      { q: "What is the best time of day to visit?", a: "Early. The site opens at 8am, tour buses from Fes arrive around 10, and there is almost no shade anywhere on the site — in July and August the ground between the houses is punishing by midday. Arriving at opening gives you an hour of low light on the columns, which is also when the site photographs best. The hour before closing is the second-best option." },
+      { q: "What is the best time of day to visit?", a: "Early. The site opens at 9am, tour buses from Fes arrive around 10, and there is almost no shade anywhere on the site — in July and August the ground between the houses is punishing by midday. Arriving at opening gives you an hour of low light on the columns, which is also when the site photographs best. The hour before closing is the second-best option." },
     ],
     content: `
 ## What Volubilis actually is
@@ -10021,6 +10021,7 @@ This is the single reason to come, and it is worth understanding before you arri
 |---|---|
 | Entry | 100 Dh for a foreign adult, 50 Dh for a child aged 7 to 13, 30 Dh for Moroccans and residents |
 | Tickets | Online on the Ministry of Culture's [ticket page](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), or at the kiosk by the gate (bring cash) |
+| Hours | 9am to 5pm (Ministry of Culture) |
 | Time on site | Two hours; ninety minutes at a brisk pace |
 | Best time | At opening, before the coaches from Fes arrive around 10 |
 | Shade and heat | Almost no shade; the high 30s °C in July and August |
@@ -10033,7 +10034,7 @@ This is the single reason to come, and it is worth understanding before you arri
 
 **Entry** is 100 dirhams for a foreign adult and 50 for a child aged 7 to 13. At the gate it is cash only in practice; you can also buy the ticket online from the Ministry of Culture.
 
-**Opening hours** are 8am to 6pm, closing at 5pm in winter.
+**Opening hours** are 9am to 5pm, according to the Ministry of Culture.
 
 **Time needed:** two hours for a proper look.
 
@@ -10043,11 +10044,11 @@ This is the single reason to come, and it is worth understanding before you arri
 
 ## When to go
 
-**Early morning, in any season.** The gates open at 8, the coaches from Fes arrive around 10, and the difference between those two hours is the difference between having the Decumanus to yourself and queuing to photograph the arch.
+**Early morning, in any season.** The gates open at 9, the coaches from Fes arrive around 10, and the difference between those two hours is the difference between having the Decumanus to yourself and queuing to photograph the arch.
 
 **Spring is the best season overall.** The Zerhoun plain is green, the wildflowers are out around the site, and the temperature is comfortable enough to spend two hours walking on open ground. Autumn is a close second.
 
-**Winter** is quiet and cold and perfectly pleasant for walking, with a 5pm close. **Summer** is hard work in the middle of the day and fine at either end of it.
+**Winter** is quiet and cold and perfectly pleasant for walking, with the same 5pm close. **Summer** is hard work in the middle of the day and fine at either end of it.
 
 ## How Volubilis fits a route
 

@@ -7128,7 +7128,7 @@ Ce qui détermine réellement si le voyage est un plaisir ou une épreuve, c'est
       { q: "Combien de temps faut-il prévoir à Volubilis ?", a: "Deux heures pour une visite complète, en comptant l'aller-retour jusqu'à l'arc de Caracalla. Quatre-vingt-dix minutes suffisent si vous marchez d'un bon pas. En moins d'une heure, vous verrez la basilique et l'arc et manquerez la plupart des mosaïques, réparties dans les maisons le long du Decumanus plutôt que regroupées en un seul endroit." },
       { q: "Volubilis vaut-il le détour si j'ai déjà vu des ruines romaines en Europe ?", a: "Pour la plupart des visiteurs oui, et pour une raison précise : les mosaïques sont encore dans le sol. Sur la majorité des sites méditerranéens, les beaux pavements ont été déposés il y a longtemps et se trouvent aujourd'hui derrière une vitre, souvent dans une autre ville. À Volubilis, vous marchez dans la rue même où elles ont été posées et vous les regardez in situ, à ciel ouvert. Le site est plus petit qu'Ostie ou Éphèse et ne prétend pas le contraire : ce qu'il offre, c'est la proximité, pas l'échelle." },
       { q: "Peut-on visiter Volubilis et Meknès dans la même journée ?", a: "Sans difficulté. Les deux sites sont à environ quarante minutes l'un de l'autre, et Moulay Idriss se trouve entre les deux : on les enchaîne couramment en une boucle. Depuis Fès, c'est une longue journée — la plupart des excursions couvrant les trois durent 10 à 11 heures. C'est bien plus simple sur une route qui descend déjà vers le sud, comme le fait notre [circuit de 5 jours de Casablanca à Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) dès le premier jour." },
-      { q: "Quel est le meilleur moment de la journée ?", a: "Tôt. Le site ouvre à 8h, les autocars de Fès arrivent vers 10h, et il n'y a pratiquement aucune ombre — en juillet et août, le sol entre les maisons devient éprouvant à la mi-journée. Arriver à l'ouverture vous offre une heure de lumière rasante sur les colonnes, qui est aussi le moment où le site est le plus photogénique. L'heure précédant la fermeture est la deuxième meilleure option." },
+      { q: "Quel est le meilleur moment de la journée ?", a: "Tôt. Le site ouvre à 9h, les autocars de Fès arrivent vers 10h, et il n'y a pratiquement aucune ombre — en juillet et août, le sol entre les maisons devient éprouvant à la mi-journée. Arriver à l'ouverture vous offre une heure de lumière rasante sur les colonnes, qui est aussi le moment où le site est le plus photogénique. L'heure précédant la fermeture est la deuxième meilleure option." },
     ],
     content: `
 ## Ce qu'est réellement Volubilis
@@ -7163,6 +7163,7 @@ C'est la raison de venir, et il vaut la peine de le savoir avant d'arriver, car 
 |---|---|
 | Entrée | 100 Dh pour un adulte étranger, 50 Dh pour un enfant de 7 à 13 ans, 30 Dh pour les Marocains et les résidents |
 | Billets | En ligne sur la [billetterie du ministère de la Culture](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), ou au guichet de l'entrée (prévoyez des espèces) |
+| Horaires | 9h à 17h (ministère de la Culture) |
 | Temps sur place | Deux heures ; quatre-vingt-dix minutes à bon rythme |
 | Meilleur moment | À l'ouverture, avant les autocars de Fès qui arrivent vers 10h |
 | Ombre et chaleur | Presque aucune ombre ; souvent près de 40 °C en juillet et août |
@@ -7175,7 +7176,7 @@ C'est la raison de venir, et il vaut la peine de le savoir avant d'arriver, car 
 
 **Entrée** : 100 dirhams pour un adulte étranger, 50 pour un enfant de 7 à 13 ans. Au guichet, espèces uniquement en pratique ; le billet s'achète aussi en ligne auprès du ministère de la Culture.
 
-**Horaires** : 8h à 18h, fermeture à 17h en hiver.
+**Horaires** : 9h à 17h, selon le ministère de la Culture.
 
 **Durée** : deux heures pour une visite sérieuse.
 
@@ -7185,7 +7186,7 @@ C'est la raison de venir, et il vaut la peine de le savoir avant d'arriver, car 
 
 ## Quand y aller
 
-**Tôt le matin, en toute saison.** Les portes ouvrent à 8h, les autocars de Fès arrivent vers 10h, et l'écart entre ces deux heures est celui qui sépare un Decumanus désert d'une file d'attente pour photographier l'arc.
+**Tôt le matin, en toute saison.** Les portes ouvrent à 9h, les autocars de Fès arrivent vers 10h, et l'écart entre ces deux heures est celui qui sépare un Decumanus désert d'une file d'attente pour photographier l'arc.
 
 **Le printemps est la meilleure saison.** La plaine du Zerhoun est verte, les fleurs sauvages entourent le site et la température permet de marcher deux heures en terrain découvert. L'automne suit de près.
 

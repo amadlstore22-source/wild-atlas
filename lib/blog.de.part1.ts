@@ -1070,7 +1070,7 @@ Die Souks (Märkte) belegen die nördliche Hälfte der Medina, etwa zwischen Dje
 
 ## Die Ben-Youssef-Moschee und -Medersa
 
-Die Ben-Youssef-Medersa (islamische Hochschule, 14. Jahrhundert, im 16. Jahrhundert wiederaufgebaut) ist das feinste Beispiel maurisch-andalusischer Architektur in Marrakesch. Der zentrale Innenhof mit seinem geschnitzten Stuck, seiner Zedernholzarbeit und den drei Stockwerke hoch aufragenden Zellij-Fliesen gehört zu den schönsten Innenräumen Nordafrikas. Eintritt 70 MAD. Nicht-Muslime dürfen die Moschee nicht betreten, doch die Medersa ist für alle zugänglich.
+Die Ben-Youssef-Medersa (islamische Hochschule, 14. Jahrhundert, im 16. Jahrhundert wiederaufgebaut) ist das feinste Beispiel maurisch-andalusischer Architektur in Marrakesch. Der zentrale Innenhof mit seinem geschnitzten Stuck, seiner Zedernholzarbeit und den drei Stockwerke hoch aufragenden Zellij-Fliesen gehört zu den schönsten Innenräumen Nordafrikas. Eintritt rund 70 MAD. Nicht-Muslime dürfen die Moschee nicht betreten, doch die Medersa ist für alle zugänglich.
 
 ## Hammams
 
@@ -1309,7 +1309,7 @@ Das unmittelbar an die Moschee angrenzende Gebiet ist der älteste Teil von Fès
 
 ## Die Medersa Bou Inania
 
-Die schönste erhaltene Medersa (islamische Hochschule) in Fès, erbaut zwischen 1350 und 1357 unter dem Meriniden-Sultan Bou Inan. Sie ist für Nicht-Muslime zugänglich, der Eintritt beträgt 70 MAD. Der Innenhof ist ein Meisterwerk: drei Ebenen geschnitzten Zedernholzes, Zellij-Fliesen bis auf Augenhöhe und darüber geschnitzter Stuck. Die Schülerzellen um die oberen Galerien beherbergen temporäre Ausstellungen.
+Die schönste erhaltene Medersa (islamische Hochschule) in Fès, erbaut zwischen 1350 und 1357 unter dem Meriniden-Sultan Bou Inan. Sie ist für Nicht-Muslime zugänglich, der Eintritt beträgt rund 70 MAD. Der Innenhof ist ein Meisterwerk: drei Ebenen geschnitzten Zedernholzes, Zellij-Fliesen bis auf Augenhöhe und darüber geschnitzter Stuck. Die Schülerzellen um die oberen Galerien beherbergen temporäre Ausstellungen.
 
 Besuchen Sie sie morgens, wenn das Licht von Osten in den Innenhof fällt. Der geschnitzte Zedernholz-Bildschirm über dem Eingang gehört zu den feinsten erhaltenen Beispielen meridinischer Handwerkskunst.
 

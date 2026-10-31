@@ -1691,13 +1691,13 @@ das dabeihaben, was Sie zwischen den Etappen brauchen.
     author: MET_TEAM,
     title: "Braucht man einen Führer, um den Toubkal zu besteigen? Die Regel, erklärt",
     excerpt:
-      "Seit 2018 ist ein lizenzierter Führer am Jbel Toubkal Pflicht, und es gibt Kontrollposten, die dies durchsetzen. Hier erfahren Sie, was die Regel tatsächlich besagt, wer kontrolliert und was passiert, wenn Sie ohne Führer auftauchen.",
+      "Seit dem Winter 2018/19 ist ein lizenzierter Führer am Jbel Toubkal Pflicht, und es gibt Kontrollposten, die dies durchsetzen. Hier erfahren Sie, was die Regel tatsächlich besagt, wer kontrolliert und was passiert, wenn Sie ohne Führer auftauchen.",
     heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal", "Toubkal Führer", "Toubkal Genehmigung", "Hoher Atlas", "Trekkingregeln", "Imlil"],
     seoTitle: "Braucht man einen Führer für den Toubkal? | Marrakech Eco Tours",
     seoDescription:
@@ -1706,7 +1706,7 @@ das dabeihaben, was Sie zwischen den Etappen brauchen.
     faq: [
       {
         q: "Ist ein Führer Pflicht, um den Mount Toubkal zu besteigen?",
-        a: "Ja. Seit 2018 verlangen die marokkanischen Behörden, dass jeder Trekker am Jbel Toubkal von einem lizenzierten Bergführer begleitet wird. Die Regel wird an Kontrollposten zwischen Imlil und der Hütte durchgesetzt, wo die Gendarmerie Royale Ihren Reisepass und die Lizenz Ihres Führers prüft. Es ist keine Formalität, um die man sich herumreden kann.",
+        a: "Ja. Seit dem Winter 2018/19 verlangen die marokkanischen Behörden, dass jeder Trekker am Jbel Toubkal von einem lizenzierten Bergführer begleitet wird. Die Regel wird an Kontrollposten zwischen Imlil und der Hütte durchgesetzt, wo die Gendarmerie Royale Ihren Reisepass und die Lizenz Ihres Führers prüft. Es ist keine Formalität, um die man sich herumreden kann.",
       },
       {
         q: "Was passiert, wenn man versucht, den Toubkal ohne Führer zu besteigen?",
@@ -1732,7 +1732,7 @@ das dabeihaben, was Sie zwischen den Etappen brauchen.
     content: `
 ## Die kurze Antwort
 
-Ja. Ein lizenzierter Bergführer ist am Jbel Toubkal Pflicht, und das ist er seit 2018. Das ist keine Empfehlung, kein lokaler Brauch und kein von Reiseveranstaltern erfundener Zusatzverkauf. Es wird von der Gendarmerie Royale an Kontrollposten auf dem Weg durchgesetzt, und sie prüfen Ihren Reisepass zusammen mit der Lizenz Ihres Führers.
+Ja. Ein lizenzierter Bergführer ist am Jbel Toubkal Pflicht, und das ist er seit dem Winter 2018/19. Das ist keine Empfehlung, kein lokaler Brauch und kein von Reiseveranstaltern erfundener Zusatzverkauf. Es wird von der Gendarmerie Royale an Kontrollposten auf dem Weg durchgesetzt, und sie prüfen Ihren Reisepass zusammen mit der Lizenz Ihres Führers.
 
 Falls Sie einen älteren Blogbeitrag gelesen haben, der behauptet, man könne den Toubkal solo besteigen, stammt dieser Beitrag entweder von vor der Regel, oder sein Autor wurde nicht kontrolliert. Der Weg hat sich geändert.
 

@@ -238,7 +238,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professional licensed mountain guide",
-      "3 nights mountain refuge accommodation",
+      "1 night in an Imlil guesthouse and 2 nights in the mountain refuge",
       "All meals during the trek",
       "Mule porter for group gear",
       "National park entrance fees",
@@ -1258,7 +1258,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Certified mountain guide",
-      "2 nights Berber guesthouse accommodation",
+      "2 nights in a Berber guesthouse or camping, depending on the weather and your preference",
       "All meals",
       "Round-trip transport from Agadir",
       "Mule for equipment",
@@ -2088,7 +2088,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
+        driving: "≈5 h",
         distance: "≈360 km",
         stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Dades Valley",
@@ -2133,7 +2133,7 @@ export const TOURS: Tour[] = [
       { q: "Where do we sleep each night?", a: "One night in a Dades Valley hotel, one night in a Berber camp at Erg Chebbi, and one night in an Ouarzazate hotel. Dinner and breakfast are included except the final Ouarzazate morning (breakfast only). Our [desert camp guide](/en/blog/morocco-desert-camp-what-its-really-like) covers what the tents and bathrooms are actually like." },
       { q: "What is not included?", a: "Lunches (budget roughly €12–15 per meal), the optional Atlas Film Studios ticket (~€7), alcoholic drinks, personal travel insurance, and tips." },
       { q: "Do we reach the real Sahara?", a: "Yes — you reach Erg Chebbi with a full night at a desert camp plus sunset and sunrise camel treks. The four-day length is what crossing the Atlas properly requires." },
-      { q: "What does the fourth day buy me over the 3-day tour?", a: "Time rather than extra distance. The three-day tour drives about 560 km (around 9 hours) from the dunes back to Marrakech in a single day; the four-day tour splits that return with a night in Ouarzazate, so no day is longer than about 6 hours, and you see Aït Ben Haddou again in the morning light on the way home. If the driving is what worries you about a three-day trip, this is the version to book." },
+      { q: "What does the fourth day buy me over the 3-day tour?", a: "Time rather than extra distance. The three-day tour drives about 560 km (around 9 hours) from the dunes back to Marrakech in a single day; the four-day tour splits that return with a night in Ouarzazate, so no day is longer than about 5 hours, and you see Aït Ben Haddou again in the morning light on the way home. If the driving is what worries you about a three-day trip, this is the version to book." },
       { q: "What are the sleeping arrangements?", a: "One night in a Dades Valley hotel, one night at a desert camp at Erg Chebbi and one night in an Ouarzazate hotel. At the camp your tent has proper beds and its own private bathroom with shower and WC; the hotels are private rooms." },
       { q: "How cold does the desert get at night?", a: "In spring and autumn, around 12–18 °C after dark. In midwinter it can approach freezing in the dunes. Blankets are provided at the camp, but a warm layer for the evening is worth packing whatever the season — the drop after sunset is sharp. Our [winter desert guide](/en/blog/morocco-desert-in-winter-guide) has month-by-month temperatures if you are travelling between December and February." },
       { q: "Can dietary requirements be catered for?", a: "Yes. Vegetarian is straightforward everywhere on this route, and vegan, halal and common allergies can be handled if you tell us when booking so the camp and the kasbahs know in advance." },
@@ -3242,7 +3242,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professional licensed mountain guide",
-      "2 nights accommodation (mountain refuges)",
+      "2 nights in the mountain refuge or camping, depending on the weather and your preference",
       "All meals during the trek",
       "Mule porter for group gear",
       "Toubkal National Park entrance fees",
@@ -4610,7 +4610,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Zagora or Merzouga?", a: "Zagora is closer — one driving day rather than two — but its dunes are low and scrubby. Erg Chebbi at Merzouga is the tall golden sand sea most people picture, and it needs the [3-day trip](/en/tours/shared-merzouga-3day-marrakech). If your time is tight, Zagora; if you want the dunes from the photographs, Merzouga." },
       { q: "How long is the driving?", a: "About eight hours each way. It is a long day in the vehicle for one desert night, which is the honest trade-off of the two-day format." },
-      { q: "What is the camp like?", a: "Traditional Berber tents with shared facilities, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
+      { q: "What is the camp like?", a: "Traditional Berber tents, each with its own bathroom with hot water and a heater, dinner and breakfast, and usually drumming after the meal. It is simple rather than luxurious. See [what a Sahara desert camp is actually like](/en/blog/morocco-desert-camp-what-its-really-like) for the tents, bathrooms and food." },
       { q: "Is it more expensive if I travel alone?", a: "A little. From two people travelling together, everyone pays €85 each and shares a tent at the camp. Travelling alone costs €105, because you have the tent to yourself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },

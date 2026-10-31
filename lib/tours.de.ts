@@ -41,7 +41,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professioneller staatlich geprüfter Bergführer",
-      "3 Nächte in Berghütten",
+      "1 Nacht im Gästehaus in Imlil und 2 Nächte in der Berghütte",
       "Alle Mahlzeiten während der Tour",
       "Maultiertreiber für die Gruppenausrüstung",
       "Eintrittsgebühren für den Nationalpark",
@@ -887,7 +887,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Staatlich geprüfter Bergführer",
-      "2 Nächte in einem Berber-Gästehaus",
+      "2 Nächte im Berber-Gästehaus oder im Biwak, je nach Wetter und Ihrem Wunsch",
       "Alle Mahlzeiten",
       "Hin- und Rückfahrt ab Agadir",
       "Maultier für den Gepäcktransport",
@@ -1576,7 +1576,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
+        driving: "≈5 h",
         distance: "≈360 km",
         title: "Marrakesch → Aït Ben Haddou → Ouarzazate → Dades-Tal",
         description:
@@ -1617,7 +1617,7 @@ export const TOURS: Tour[] = [
       { q: "Wo übernachtet man jede Nacht?", a: "Eine Nacht in einem Hotel im Dades-Tal, eine Nacht in einem Berbercamp am Erg Chebbi und eine Nacht in einem Hotel in Ouarzazate. Abendessen und Frühstück sind inklusive, außer am letzten Morgen in Ouarzazate (nur Frühstück)." },
       { q: "Was ist nicht enthalten?", a: "Die Mittagessen (Budget etwa 12–15 € pro Mahlzeit), das optionale Ticket für die Atlas-Filmstudios (~7 €), alkoholische Getränke, die persönliche Reiseversicherung und Trinkgelder." },
       { q: "Erreicht man die echte Sahara?", a: "Ja – Sie erreichen das Erg Chebbi mit einer ganzen Nacht im Wüstencamp sowie Kamelritten bei Sonnenuntergang und Sonnenaufgang. Die vier Tage sind, was die richtige Überquerung des Atlas erfordert." },
-      { q: "Was bringt der vierte Tag gegenüber der Drei-Tage-Tour?", a: "Zeit, nicht mehr Strecke. Die Drei-Tage-Tour fährt an einem einzigen Tag rund 560 km (etwa 9 Stunden) von den Dünen zurück nach Marrakesch; die Vier-Tage-Tour teilt diese Rückfahrt mit einer Nacht in Ouarzazate, sodass kein Tag mehr als etwa 6 Stunden Fahrt hat, und Sie sehen Aït Ben Haddou noch einmal im Morgenlicht. Wenn Ihnen an einer Drei-Tage-Tour die Fahrerei Sorge macht, ist das die Version, die Sie buchen sollten." },
+      { q: "Was bringt der vierte Tag gegenüber der Drei-Tage-Tour?", a: "Zeit, nicht mehr Strecke. Die Drei-Tage-Tour fährt an einem einzigen Tag rund 560 km (etwa 9 Stunden) von den Dünen zurück nach Marrakesch; die Vier-Tage-Tour teilt diese Rückfahrt mit einer Nacht in Ouarzazate, sodass kein Tag mehr als etwa 5 Stunden Fahrt hat, und Sie sehen Aït Ben Haddou noch einmal im Morgenlicht. Wenn Ihnen an einer Drei-Tage-Tour die Fahrerei Sorge macht, ist das die Version, die Sie buchen sollten." },
       { q: "Wie wird übernachtet?", a: "Eine Nacht in einem Hotel im Dades-Tal, eine Nacht in einem Wüstencamp am Erg Chebbi und eine Nacht in einem Hotel in Ouarzazate. Im Camp hat Ihr Zelt richtige Betten und ein eigenes Bad mit Dusche und WC; in den Hotels haben Sie private Zimmer." },
       { q: "Wie kalt wird es nachts in der Wüste?", a: "Im Frühjahr und Herbst nach Einbruch der Dunkelheit etwa 12–18 °C. Im Hochwinter kann es in den Dünen an den Gefrierpunkt gehen. Im Camp gibt es Decken, aber eine warme Schicht für den Abend lohnt sich in jeder Jahreszeit — der Abfall nach Sonnenuntergang ist deutlich." },
       { q: "Können Ernährungswünsche berücksichtigt werden?", a: "Ja. Vegetarisch ist auf dieser Route unproblematisch; vegan, halal und gängige Allergien lassen sich berücksichtigen, wenn Sie es bei der Buchung angeben, damit Camp und Kasbahs vorab Bescheid wissen." },
@@ -2578,7 +2578,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professioneller staatlich geprüfter Bergführer",
-      "2 Übernachtungen (Berghütten)",
+      "2 Nächte in der Berghütte oder im Biwak, je nach Wetter und Ihrem Wunsch",
       "Alle Mahlzeiten während der Tour",
       "Maultiertreiber für die Gruppenausrüstung",
       "Eintrittsgebühren für den Toubkal-Nationalpark",
@@ -3853,7 +3853,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Zagora oder Merzouga?", a: "Zagora liegt näher — ein Fahrtag statt zwei — aber die Dünen dort sind niedrig und mit Buschwerk bestanden. Der Erg Chebbi bei Merzouga ist das hohe goldene Sandmeer, das die meisten vor Augen haben, und dafür braucht es die [3-Tage-Tour](/de/tours/merzouga-wueste-3-tage-geteilt). Wenn die Zeit knapp ist: Zagora. Wenn Sie die Dünen von den Fotos wollen: Merzouga." },
       { q: "Wie lange dauert die Fahrt?", a: "Etwa acht Stunden pro Richtung. Das ist ein langer Tag im Fahrzeug für eine einzige Wüstennacht — der ehrliche Kompromiss des Zwei-Tage-Formats." },
-      { q: "Wie ist das Camp?", a: "Traditionelle Berberzelte mit Gemeinschaftsanlagen, Abendessen und Frühstück und meist Trommeln nach dem Essen. Einfach, nicht luxuriös." },
+      { q: "Wie ist das Camp?", a: "Traditionelle Berberzelte, jedes mit eigenem Bad mit Warmwasser und einer Heizung, Abendessen und Frühstück und meist Trommeln nach dem Essen. Einfach, nicht luxuriös." },
       { q: "Ist es für Alleinreisende teurer?", a: "Etwas. Ab zwei Personen, die zusammen reisen, zahlt jede 85 € und Sie teilen sich ein Zelt im Camp. Alleinreisende zahlen 105 €, weil sie das Zelt für sich haben." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },

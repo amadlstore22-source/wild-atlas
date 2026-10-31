@@ -50,7 +50,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guide de montagne professionnel diplômé",
-      "3 nuits en refuge de montagne",
+      "1 nuit en maison d'hôtes à Imlil et 2 nuits en refuge de montagne",
       "Tous les repas pendant le trek",
       "Muletier pour le matériel du groupe",
       "Droits d'entrée du parc national",
@@ -896,7 +896,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guide de montagne diplômé",
-      "2 nuits en maison d'hôtes berbère",
+      "2 nuits en maison d'hôtes berbère ou en bivouac, selon la météo et votre préférence",
       "Tous les repas",
       "Transport aller-retour depuis Agadir",
       "Mule pour le portage du matériel",
@@ -1585,7 +1585,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hôtel",
-        driving: "≈6 h",
+        driving: "≈5 h",
         distance: "≈360 km",
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Vallée du Dadès",
         description:
@@ -1626,7 +1626,7 @@ export const TOURS: Tour[] = [
       { q: "Où dort-on chaque nuit ?", a: "Une nuit dans un hôtel de la vallée du Dadès, une nuit dans un camp berbère à l'Erg Chebbi, et une nuit dans un hôtel à Ouarzazate. Le dîner et le petit-déjeuner sont inclus, sauf le dernier matin à Ouarzazate (petit-déjeuner seulement)." },
       { q: "Qu'est-ce qui n'est pas inclus ?", a: "Les déjeuners (budget d'environ 12–15 € par repas), le billet facultatif des studios de cinéma de l'Atlas (~7 €), les boissons alcoolisées, l'assurance voyage personnelle et les pourboires." },
       { q: "Atteint-on le vrai Sahara ?", a: "Oui — vous atteignez l'Erg Chebbi avec une nuit complète au camp du désert et des balades à dos de chameau au coucher et au lever du soleil. La durée de quatre jours est ce qu'exige la traversée correcte de l'Atlas." },
-      { q: "Qu'apporte le quatrième jour par rapport au circuit de trois jours ?", a: "Du temps, pas de la distance supplémentaire. Le circuit de trois jours parcourt environ 560 km (près de 9 heures) des dunes jusqu'à Marrakech en une seule journée ; le circuit de quatre jours coupe ce retour par une nuit à Ouarzazate, si bien qu'aucune journée ne dépasse environ 6 heures de route, et vous revoyez Aït Ben Haddou dans la lumière du matin. Si c'est la route qui vous inquiète dans un circuit de trois jours, c'est la version à réserver." },
+      { q: "Qu'apporte le quatrième jour par rapport au circuit de trois jours ?", a: "Du temps, pas de la distance supplémentaire. Le circuit de trois jours parcourt environ 560 km (près de 9 heures) des dunes jusqu'à Marrakech en une seule journée ; le circuit de quatre jours coupe ce retour par une nuit à Ouarzazate, si bien qu'aucune journée ne dépasse environ 5 heures de route, et vous revoyez Aït Ben Haddou dans la lumière du matin. Si c'est la route qui vous inquiète dans un circuit de trois jours, c'est la version à réserver." },
       { q: "Comment est-on logé ?", a: "Une nuit dans un hôtel de la vallée du Dadès, une nuit dans un camp du désert à l'Erg Chebbi et une nuit dans un hôtel à Ouarzazate. Au camp, votre tente a de vrais lits et sa propre salle de bain privée avec douche et WC ; les hôtels offrent des chambres privatives." },
       { q: "Quelles températures la nuit dans le désert ?", a: "Au printemps et en automne, environ 12 à 18 °C après la tombée du jour. En plein hiver, on peut approcher de zéro dans les dunes. Des couvertures sont fournies au camp, mais une couche chaude pour la soirée vaut la peine d'être emportée en toute saison — la chute après le coucher du soleil est brutale." },
       { q: "Les régimes alimentaires particuliers sont-ils pris en compte ?", a: "Oui. Le végétarien ne pose aucune difficulté sur cet itinéraire, et le végétalien, le halal et les allergies courantes peuvent être gérés si vous nous le signalez à la réservation, afin que le camp et les kasbahs soient prévenus à l'avance." },
@@ -2587,7 +2587,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guide de montagne professionnel diplômé",
-      "2 nuits d'hébergement (refuges de montagne)",
+      "2 nuits en refuge de montagne ou en bivouac, selon la météo et votre préférence",
       "Tous les repas pendant le trek",
       "Muletier pour le matériel du groupe",
       "Droits d'entrée du parc national du Toubkal",
@@ -3862,7 +3862,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Zagora ou Merzouga ?", a: "Zagora est plus proche — une journée de route au lieu de deux — mais ses dunes sont basses et broussailleuses. L'Erg Chebbi, à Merzouga, est la haute mer de sable doré que la plupart des gens imaginent, et il faut pour cela le [circuit de 3 jours](/fr/tours/desert-merzouga-3-jours-partage). Si votre temps est compté, Zagora ; si vous voulez les dunes des photographies, Merzouga." },
       { q: "Combien de temps de route ?", a: "Environ huit heures dans chaque sens. C'est une longue journée en véhicule pour une seule nuit dans le désert, et c'est le compromis honnête du format en deux jours." },
-      { q: "Comment est le camp ?", a: "Des tentes berbères traditionnelles avec installations partagées, dîner et petit-déjeuner, et généralement des percussions après le repas. C'est simple plutôt que luxueux." },
+      { q: "Comment est le camp ?", a: "Des tentes berbères traditionnelles, chacune avec sa propre salle de bain avec eau chaude et un chauffage, dîner et petit-déjeuner, et généralement des percussions après le repas. C'est simple plutôt que luxueux." },
       { q: "Est-ce plus cher pour une personne seule ?", a: "Un peu. À partir de deux personnes voyageant ensemble, chacun paie 85 € et vous partagez une tente au campement. Pour une personne seule, le prix est de 105 €, car la tente est pour elle seule." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — votre hôtel ou riad" },

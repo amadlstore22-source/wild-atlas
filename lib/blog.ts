@@ -1810,13 +1810,13 @@ gram, only carrying what you need between stages.
     author: MET_TEAM,
     title: "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
     excerpt:
-      "Since 2018 a licensed guide has been mandatory on Jbel Toubkal, and there are checkpoints that enforce it. Here is what the rule actually says, who checks, and what happens if you turn up without one.",
+      "Since the winter of 2018–19 a licensed guide has been mandatory on Jbel Toubkal, and there are checkpoints that enforce it. Here is what the rule actually says, who checks, and what happens if you turn up without one.",
     heroImage: "/gallery/trekkers-rocky-ridge-sunflare.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal", "Toubkal guide", "Toubkal permit", "High Atlas", "trekking rules", "Imlil"],
     seoTitle: "Do You Need a Toubkal Guide? | Marrakech Eco Tours",
     seoDescription:
@@ -1825,7 +1825,7 @@ gram, only carrying what you need between stages.
     faq: [
       {
         q: "Is a guide mandatory to climb Mount Toubkal?",
-        a: "Yes. Since 2018, Moroccan authorities require every trekker on Jbel Toubkal to be accompanied by a licensed mountain guide. The rule is enforced at checkpoints between Imlil and the refuge, where the Gendarmerie Royale check your passport and your guide's licence. It is not a formality you can talk your way past.",
+        a: "Yes. Since the winter of 2018–19, Moroccan authorities require every trekker on Jbel Toubkal to be accompanied by a licensed mountain guide. The rule is enforced at checkpoints between Imlil and the refuge, where the Gendarmerie Royale check your passport and your guide's licence. It is not a formality you can talk your way past.",
       },
       {
         q: "What happens if you try to climb Toubkal without a guide?",
@@ -1851,7 +1851,7 @@ gram, only carrying what you need between stages.
     content: `
 ## The short answer
 
-Yes. A licensed mountain guide is mandatory on Jbel Toubkal, and has been since 2018. This is not a recommendation, a local custom, or an upsell invented by tour operators. It is enforced by the Gendarmerie Royale at checkpoints on the trail, and they check your passport alongside your guide's licence.
+Yes. A licensed mountain guide is mandatory on Jbel Toubkal, and has been since the winter of 2018–19. This is not a recommendation, a local custom, or an upsell invented by tour operators. It is enforced by the Gendarmerie Royale at checkpoints on the trail, and they check your passport alongside your guide's licence.
 
 If you have read an older blog post saying you can walk up Toubkal solo, that post predates the rule or its author did not get checked. The trail has changed.
 
@@ -2727,7 +2727,7 @@ Give it the longer itinerary if your schedule allows, walk slower than feels nec
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-21",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal itinerary", "2 day Toubkal", "4 day Toubkal", "how many days Toubkal", "High Atlas"],
     seoTitle: "Toubkal in 2 Days or 4",
     seoDescription: "A straight comparison of the 2-day and 4-day Toubkal treks — acclimatisation, summit-day length, who each suits, and when the longer trip is worth it.",
@@ -2772,6 +2772,9 @@ None of this means the two-day trip is unsafe for a fit, experienced hillwalker 
 | Daily walking load | Concentrated into two big days | Spread out |
 | Best for | Experienced hillwalkers, tight schedules | First-timers at altitude, most people |
 | Odds of feeling rough on summit day | Higher | Lower |
+| Where you sleep | Toubkal refuge | Imlil guesthouse, then two nights at the refuge |
+| Walking per day | 5 h, then 7–8 h | 1–2 h, 5 h, 6–7 h, 5–6 h |
+| Price each, for two | [€254](/en/tours/toubkal-summit-2day-marrakech) | [€468](/en/tours/toubkal-summit-trek-4day) |
 
 ## How to choose
 
@@ -2806,7 +2809,7 @@ For more on what the trek demands physically, see [How Hard Is Toubkal, Really?]
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["Agafay", "Merzouga", "Zagora", "Morocco desert", "Sahara from Marrakech", "desert comparison"],
     seoTitle: "Agafay vs Merzouga vs Zagora",
     seoDescription: "An honest comparison of Morocco's three desert options from Marrakech — stone desert versus real dunes, how many days each needs, and which suits your trip.",
@@ -2867,6 +2870,8 @@ The catch is distance. Merzouga is on the far side of the Atlas, which is why ou
 | Landscape | Stone desert, no dunes | Modest dunes, Draa Valley | Tall Erg Chebbi dunes |
 | Time needed | Afternoon and evening | 2 days, 1 night | 3 days, 2 nights |
 | Distance from Marrakech | About 40 minutes | Long day's drive | Far side of the Atlas |
+| Driving | Under an hour each way | ≈7–8 h each way, ≈360 km | ≈7 h, then ≈5 h out; ≈9 h back |
+| Our price, each for two | [€94](/en/tours/agafay-desert-sunset) | [€195 private](/en/tours/zagora-2day-marrakech), [€85 shared](/en/tours/shared-zagora-2day-marrakech) | [€380 private](/en/tours/sahara-3day-marrakech), [€120 shared](/en/tours/shared-merzouga-3day-marrakech) |
 | Night in the desert | Camp dinner, close to city | Yes | Yes |
 | Best for | Short trips, no travel days | Two-day windows | Seeing the actual Sahara |
 
@@ -2893,7 +2898,7 @@ The mistake to avoid is booking Agafay expecting the Sahara. It is a fine trip o
     region: "sahara-south",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-31",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "Sahara dunes", "Morocco desert"],
     seoTitle: "Erg Chebbi vs Erg Chegaga",
     seoDescription: "The difference between Morocco's two great sand seas — dune height, access, crowds and cost — and how to choose between Merzouga and Erg Chegaga.",
@@ -2938,6 +2943,9 @@ The defining feature is remoteness. The final approach is 4x4 across open desert
 | Area | ~170 km² | ~35 x 15 km (Morocco's largest erg) |
 | Dune character | Tall, sharply sculpted, up to ~150 m | Wider field, rolling |
 | Access | Surfaced road, short camel leg | 4x4 across open desert |
+| Getting there from Marrakech | ≈7 h to the Dades, then ≈5 h to the dunes | ≈8 h to M'Hamid, then 3–4 h by 4x4 |
+| The drive back | ≈9 h, in one day | ≈8 h, in one day |
+| Our private 3-day price, each for two | [€380](/en/tours/sahara-3day-marrakech) | [€635](/en/tours/erg-chegaga-3day-marrakech) |
 | Other camps in sight | Several | Few to none |
 | Trip rating | Easy | Moderate |
 | Best for | The classic dune landscape | Genuine remoteness |
@@ -3045,7 +3053,7 @@ If your trip is fixed to high summer, that alone may decide it. See [The Best Ti
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-10-31",
     tags: ["Morocco trekking", "multi-day trek", "M'Goun", "Ifni Lake", "Anti-Atlas", "High Atlas"],
     seoTitle: "The Best Multi-Day Treks in Morocco",
     seoDescription: "Four multi-day Moroccan treks past the standard Toubkal route — the Ifni Lake circuit, the M'Goun traverse, the Anti-Atlas and the three-peaks challenge.",
@@ -3100,6 +3108,27 @@ Rated moderate — the most approachable route here. Its season is inverted rela
 | 3 | Toubkal Three Peaks | Expert |
 | 6 | Toubkal Circuit and Ifni Lake | Challenging |
 | 7 | M'Goun Massif traverse | Expert |
+
+## All our Atlas treks side by side
+
+| Days | Trek | Difficulty | Where you sleep | Walking per day | Each, for two | Best for |
+|---|---|---|---|---|---|---|
+| 2 | [Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | Challenging | Toubkal refuge | 5 h, then 7–8 h | €254 | Fit walkers short on time |
+| 2 | [Azzaden Valley](/en/tours/azzaden-valley-2day-trek) | Moderate | Village guesthouse | 5–6 h | €161 | A first taste, no summit |
+| 3 | [High Atlas villages](/en/tours/atlas-mountains-3day-trek) | Moderate | Two village guesthouses | 4–6 h | €235 | Village life, no summit |
+| 3 | [Toubkal via the Aguelzim pass](/en/tours/toubkal-aguelzim-pass-3day) | Challenging | Refuge or camp, by weather and preference | 5–7 h | €393 | A quieter way to the summit |
+| 3 | [Toubkal's three 4,000 m peaks](/en/tours/toubkal-three-peaks-4000m-3day) | Expert | Toubkal refuge, two nights | 5–8 h | €393 | Walkers already at home at altitude |
+| 4 | [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | Challenging | Imlil guesthouse, then the refuge | 1–7 h | €468 | A first time at altitude |
+| 4 | [Family High Atlas](/en/tours/family-atlas-4day-trek) | Easy | Village guesthouses | 2–5 h | €313 | Families with children |
+| 6 | [Toubkal circuit and Lake Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) | Challenging | Village gîtes, camps, the refuge | 4–8 h | €948 | Remote valleys and the summit |
+| 7 | [M'Goun traverse](/en/tours/mgoun-massif-trek) | Expert | Village gîte, camps, a guesthouse | 5–8 h | €760 | A real expedition |
+| 15 | [High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) | Expert | Village gîtes, camps, refuges | 1–9 h | €2,040 | M'Goun to Toubkal, end to end |
+
+Every trek is private, for your group alone, with a licensed mountain guide, all meals on the trek, mules for the luggage and the return transfer from Marrakech. The Toubkal and M'Goun treks also include the national park fees. On any route that reaches Toubkal's summit, the top holds snow and ice from roughly November to April, and crampons and an ice axe are needed.
+
+## Who walks with you, and where you sleep
+
+Your guide is a licensed mountain guide, and mules carry the luggage, so you walk with a day pack. Away from the summit routes, the nights are in village guesthouses run by Berber families: dinner is what the family cooks, and every room has its own bathroom. The Toubkal refuge is different, a shared mountain hut with dormitories at 3,207 m, above the last village. On the longer treks some nights are in camps, carried and set up by the mule team.
 
 ## What these treks have in common
 
@@ -6548,7 +6577,7 @@ transfers — is in the €235.
     region: "root",
     readTime: 8,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-10-31",
     tags: ["Morocco tour group discount", "private tour price per person", "Morocco tour cost per person", "group size pricing", "desert tour price 2 people", "Morocco travel budget"],
     seoTitle: "Morocco Tour Prices by Group Size",
     seoDescription:
@@ -6556,7 +6585,7 @@ transfers — is in the €235.
     faq: [
       { q: "Why is a Morocco private tour so much cheaper for two people than for one?", a: "Because a private tour is priced per vehicle, not per seat. The 4x4, the driver, the fuel and the nights of accommodation cost almost the same whether one person travels or two. On our [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the solo rate is €690 and the rate for two is €380 each — a 50% drop, because the second traveller adds only their own meals and bed, not a second vehicle." },
       { q: "How much do I save by travelling with four people instead of two?", a: "On the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) the per-person price falls from €380 at two people to €295 at four — about 25% each. The saving is real but much smaller than the one-to-two drop, because by four people the fixed vehicle cost has already been spread thin and you are mostly adding per-head costs: meals, tent beds and camel hire." },
-      { q: "Do group discounts apply to shared desert tours as well?", a: "Not with other operators, and it is worth understanding why. A shared seat is one place in a minibus that runs whether you book or not, so there is no vehicle cost to divide and six seats cost six times one. Group pricing only exists where a vehicle and guide are being shared out. Every tour we run is private, so all of ours carry a tier table — including the [2-day Zagora trip](/en/tours/zagora-2day-marrakech)." },
+      { q: "Do group discounts apply to shared desert tours as well?", a: "No, and it is worth understanding why. A shared seat is one place in a minibus that runs whether you book or not, so there is no vehicle cost to divide and six seats cost six times one. Group pricing only exists where a vehicle and guide are being shared out. Our private tours carry a tier table — the [2-day Zagora trip](/en/tours/zagora-2day-marrakech) falls from €195 each for two to €130 at six — while our [shared Zagora seat](/en/tours/shared-zagora-2day-marrakech) is a flat €85 each from two." },
       { q: "Is there a group size where the price stops falling?", a: "Yes. Past six people the per-person price flattens, and past eight it barely moves at all. At that point a second vehicle or a larger minibus is needed, so the fixed cost you were spreading starts to duplicate. Our published tiers run to fourteen people, but the meaningful savings are all in the first six." },
       { q: "Do day tours discount as steeply as multi-day tours?", a: "They discount steeply from one to two, then flatten fast. A [Marrakech medina tour](/en/tours/marrakech-medina-cultural-tour) is €73 solo and €41 each for two, but only €31 at six — so almost the whole saving arrives with the second person. A guide’s day is the cost being divided, and two people already split it. Multi-day tours keep falling further because a vehicle, fuel and accommodation are being spread as well." },
     ],
@@ -6666,13 +6695,14 @@ head and never moves: six people pay six times one seat, because the vehicle
 departs whether you book one place or six. There is no tier, no bracket and
 nothing to negotiate.
 
-Every tour we run is private, so each of ours carries a published tier table
-instead — including the
-[2-day Zagora desert trip](/en/tours/zagora-2day-marrakech). Our price per
-person falls as the group grows, which a shared seat cannot do. That is the
-trade: a seat on someone else's minibus is cheaper for one or two, and a
-private vehicle on your own schedule closes the gap fast from three or four
-people up.
+Our private tours carry a published tier table instead. The
+[2-day Zagora desert trip](/en/tours/zagora-2day-marrakech) is **€195** each for two,
+**€170** at four and **€130** at six. Our own
+[shared 2-day Zagora seat](/en/tours/shared-zagora-2day-marrakech) works like everyone
+else's: **€85** each from two people (€105 alone), whatever the group size. That is
+the trade: a seat on a shared minibus is cheaper, by a wide margin for one or two
+people, and a private vehicle buys your own schedule at a price that falls as the
+group grows.
 
 ## Where the savings stop
 
@@ -6713,15 +6743,15 @@ size is the number you pay.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-10-31",
     tags: ["private vs shared desert tour", "Morocco shared desert tour", "private Sahara tour Morocco", "Merzouga tour comparison", "desert tour minibus", "Morocco desert tour worth it"],
     seoTitle: "Private vs Shared Morocco Desert Tour",
     seoDescription:
       "Shared Morocco desert tours cost €110–170 per seat and never drop. Our private 4-day tour is €526 each for two and €270 at six.",
     faq: [
-      { q: "What is the real difference between a private and a shared desert tour?", a: "A shared tour puts you in a minibus with six to ten other travellers on a fixed schedule that cannot change. A private tour is your own vehicle and driver-guide, so departure time, photo stops and lunch spots are yours to decide. The route is usually near-identical — what changes is who else is in the vehicle, who sets the pace, and how the price behaves as your group grows. Every tour we run is private, including the [4-day Grand Tour](/en/tours/desert-4day-marrakech)." },
+      { q: "What is the real difference between a private and a shared desert tour?", a: "A shared tour puts you in a minibus with six to ten other travellers on a fixed schedule that cannot change. A private tour is your own vehicle and driver-guide, so departure time, photo stops and lunch spots are yours to decide. The route is usually near-identical — what changes is who else is in the vehicle, who sets the pace, and how the price behaves as your group grows. We run both: private tours such as the [4-day Grand Tour](/en/tours/desert-4day-marrakech), and shared departures to [Merzouga](/en/tours/shared-merzouga-3day-marrakech) and [Zagora](/en/tours/shared-zagora-2day-marrakech)." },
       { q: "Is a private desert tour worth the extra cost?", a: "It depends almost entirely on your group size. Alone, a shared seat is far cheaper and the honest answer is usually no — one person cannot spread the cost of a 4x4. At two, our [4-day private tour](/en/tours/desert-4day-marrakech) is €526 each, about €200 more than a shared seat on the same route. At four it is €346 each, close to the shared price, and at six €270, so from about five people up the private tour is both cheaper and better." },
-      { q: "How many people are on a shared Morocco desert tour?", a: "Typically six to ten, in a minibus that seats up to sixteen. Our shared departures cap at ten so nobody is in a middle seat for four days. You will not know the group in advance, and the schedule is set by the itinerary rather than by the passengers — that is the trade you are making for the lower price." },
+      { q: "How many people are on a shared Morocco desert tour?", a: "Our shared departures travel in an air-conditioned minibus that takes up to sixteen people. You will not know the group in advance, and the schedule is set by the itinerary rather than by the passengers — that is the trade you are making for the lower price." },
       { q: "Can you stop for photos on a shared desert tour?", a: "Yes, but at scheduled stops rather than on request. The driver holds a timetable that has to work for everyone in the vehicle, so the Tizi n’Tichka viewpoints, Ait Ben Haddou and the Todra Gorge all get their stop, while the unmarked bend with the good light does not. On a private tour that stop costs you a sentence to the driver." },
       { q: "Which is better for a family with young children?", a: "A private tour, and not primarily for comfort. Children set their own schedule for meals, naps and toilet stops, and a shared minibus cannot absorb that without inconveniencing eight strangers. The [4-day family desert tour](/en/tours/family-desert-4day-marrakech) is €346 per person for four — and a family of four is exactly the size at which private stops costing a premium." },
     ],
@@ -6763,7 +6793,9 @@ seat cannot.
 Roughly €110–170 per person for a 3-day trip, or about €330 for four days, and
 for a solo traveller that is genuinely hard to beat — one person cannot spread
 the cost of a private 4x4, and the shared tour exists precisely so they do not
-have to.
+have to. Our own [shared 3-day Merzouga trip](/en/tours/shared-merzouga-3day-marrakech)
+is €120 each from two people and €160 alone, and the
+[shared 2-day Zagora trip](/en/tours/shared-zagora-2day-marrakech) €85 and €105.
 
 **What you give up:**
 
@@ -6817,11 +6849,42 @@ The pattern holds, with one difference: on a three-day trip the private price
 never reaches the shared one at a normal group size — €230 at six against a
 €110–170 seat — so over three days a shared seat stays the budget choice.
 
+## The same 3-day route, side by side
+
+Our shared and private 3-day Merzouga trips drive the same road over the same distances,
+so the comparison is clean:
+
+| | Shared 3-day Merzouga | Private 3-day Sahara |
+|---|---|---|
+| Vehicle | Air-conditioned minibus, up to 16 people | Private 4x4, your group only |
+| Who drives | An English- or French-speaking driver | A driver-guide for your group alone |
+| Day 1: Marrakech → Aït Ben Haddou → Dades | ≈7 h, ≈420 km | ≈7 h, ≈420 km |
+| Day 2: Dades → Todra Gorge → Erg Chebbi | ≈5 h, ≈300 km | ≈5 h, ≈300 km |
+| Day 3: back to Marrakech | ≈9 h, ≈560 km | ≈9 h, ≈560 km |
+| Stops | Fixed, on the timetable | Wherever you ask |
+| Price per person | €160 alone, €120 each from two | €690 alone, €380 each for two, €230 at six |
+
+The driving is the same either way: about 21 hours over three days. What changes is who
+decides when to stop, and who else is in the vehicle for those hours. If the long last day
+worries you, the [4-day Grand Tour](/en/tours/desert-4day-marrakech) spreads the same
+journey over days of about 4–5 hours.
+
+## Which one suits you
+
+| You are | Our suggestion | Why |
+|---|---|---|
+| Travelling alone | Shared | One person cannot divide a 4x4, and the group is company |
+| A couple | Either | Private costs about €260 more each over three days and buys your own schedule |
+| A family with young children | Private | Meals, naps and toilet stops run on the children's timetable, not eight strangers' |
+| A photographer | Private | The light does not keep to a timetable |
+| Four or more | Private | At four, the 4-day private tour costs about the same as a shared seat |
+
 ## Things that are the same either way
 
 Worth saying plainly, because operators sometimes imply otherwise:
 
-- **The camp.** Same site, same tents, same dinner.
+- **The dunes and the night sky.** The tents can differ, though: see
+  [luxury vs standard desert camps](/en/blog/luxury-vs-standard-desert-camp-morocco).
 - **The camel ride.** Same dunes, same hour before sunset.
 - **The road.** There is one road to Merzouga and everyone drives it.
 - **The exclusions.** Lunches and tips sit outside both prices.
@@ -6850,8 +6913,8 @@ past that you are paying less for your own vehicle. At **two or three**, private
 costs more per person, and what you pay for is the freedom, which is the part
 people remember.
 
-Every tour we run is private, and every one publishes its tier table on the page,
-so the number you see at your group size is the number you pay.
+Our private tours publish their tier table on the page, so the number you see at
+your group size is the number you pay. Our shared seats are one flat price from two people.
 
 👉 **[See the 4-day Grand Tour](/en/tours/desert-4day-marrakech)** — €526 each for two, €270 at six — or **[the 4-day family desert tour](/en/tours/family-desert-4day-marrakech)** at €346 each for four.
 `,
@@ -7445,7 +7508,7 @@ right for the age you are bringing.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-11",
-    updatedAt: "2026-08-11",
+    updatedAt: "2026-10-31",
     tags: [
       "luxury desert camp Morocco",
       "standard desert camp",
@@ -7463,7 +7526,7 @@ right for the age you are bringing.
       },
       {
         q: "How much more does a luxury camp cost?",
-        a: "In the wider market, standard camps run roughly €40–€100 a night and luxury camps €150–€500, with ultra-luxury going higher still. As an upgrade on a booked tour, expect somewhere around €70 per person per night — that is the going rate operators here charge to move you across.",
+        a: "In the wider market, standard camps run roughly €40–€100 a night and luxury camps €150–€500, with ultra-luxury going higher still. On our private tours, the upgrade to a luxury tent or room at the same camps and hotels is €40 per person per night.",
       },
       {
         q: "Is a standard desert camp uncomfortable?",
@@ -7471,7 +7534,7 @@ right for the age you are bringing.
       },
       {
         q: "Do luxury camps have electricity and heating?",
-        a: "Usually yes — solar or generator power for lighting and charging, with heaters for winter nights and sometimes air conditioning in summer. The standard camps we use also have electricity for lighting and charging, and Wi-Fi — what they lack is climate control, which matters more in January than in April.",
+        a: "Usually yes — solar or generator power for lighting and charging, with heaters for winter nights and sometimes air conditioning in summer. On our tours it depends on the trip: the camp on our private Merzouga tours is air-conditioned, while the standard tents on our shared Merzouga trip have blankets but no heater. The private-bathroom tent there does have one, which matters more in January than in April.",
       },
       {
         q: "Which camp should families choose?",
@@ -7500,7 +7563,7 @@ away, you are mostly deciding whether you want to walk across sand in the dark a
 
 ## What a standard camp is really like
 
-This is what most of our desert tours include, and it is not roughing it:
+This is the kind of camp on our shared Merzouga trip, and it is not roughing it:
 
 - A frame bed with a mattress, sheets and blankets, inside a canvas or traditional black
   wool tent
@@ -7530,7 +7593,7 @@ Those are free and identical at both.
 | | Standard | Luxury |
 | --- | --- | --- |
 | Market rate per night | €40–€100 | €150–€500 |
-| Typical upgrade on a booked tour | — | about €70 per person, per night |
+| Upgrade on our private tours | — | €40 per person, per night |
 | Bathroom | shared block | en-suite in tent |
 | Power and Wi-Fi | yes | yes |
 | Climate control | none | heating, often A/C |
@@ -7542,10 +7605,9 @@ experiences, and a camp advertised as "luxury" at the bottom of that range may b
 standard camp with a better bed. Ask specifically whether the bathroom is inside the
 tent, because that is the question that actually separates them.
 
-Second, the upgrade is charged **per person per night**, so it scales fast. For a couple
-on a two-night desert trip, it is around €280 — which on our
-[3-day Sahara tour](/en/tours/sahara-3day-marrakech) at €380 per person for two is a substantial
-addition to the trip price.
+Second, the upgrade is charged **per person per night**, so it scales with the trip. On our
+[3-day Sahara tour](/en/tours/sahara-3day-marrakech), at €380 per person for two, upgrading
+both nights adds €80 each, or €160 for the couple.
 
 ## When we would say pay for it
 
@@ -7575,10 +7637,11 @@ people have slept out here for a very long time. A canvas suite with a rain show
 hotel room that happens to be in a dune field. Both are pleasant; only one of them is the
 Sahara.
 
-**On a shared departure.** Our [shared 3-day
-Merzouga trip](/en/tours/shared-merzouga-3day-marrakech) is €120 per person. Adding €70 a
-night for a private bathroom changes what kind of trip you have booked, and at that point
-a private tour with a standard camp is often better value.
+**On a shared departure, outside winter.** Our [shared 3-day
+Merzouga trip](/en/tours/shared-merzouga-3day-marrakech) is €120 per person, with a shared
+bathroom block. A tent with its own bathroom is €30 per person more. From December to
+February it is worth it, because it is also the tent with a heater; in spring and autumn
+it is easy to skip.
 
 **If it means dropping a day.** More time in the desert beats a nicer bathroom, almost
 every time. Two nights at Erg Chegaga in a standard camp is a better trip than one night
@@ -7596,18 +7659,26 @@ term. Before you pay for an upgrade, ask one specific question:
 That single answer tells you more than any photograph on a listing page. Everything else
 — the rugs, the lanterns, the brass tray — appears in the photos of both.
 
-## What we book
+## What our tours actually include
 
-We use standard Berber camps on most desert departures and say so plainly in each tour's
-inclusions rather than leaving it vague. Where a tour includes a luxury or family camp,
-that is stated too.
+"Desert camp" on its own does not tell you what you are buying, so here is what each of
+our desert trips includes:
 
-If you want the upgrade, tell us when you book and we will price it for your dates
-honestly — including telling you when we think it is not worth it, which for a couple in
-April on a single desert night is usually our answer.
+| Tour | Camp | Bathroom | Heating and cooling |
+|---|---|---|---|
+| Private Merzouga tours ([3-day](/en/tours/sahara-3day-marrakech), [4-day](/en/tours/desert-4day-marrakech), [family 4-day](/en/tours/family-desert-4day-marrakech)) | Sahara Garden, Erg Chebbi | Private, with shower and WC | Air-conditioned |
+| [Private Erg Chegaga 3-day](/en/tours/erg-chegaga-3day-marrakech) | Camp Naji, Erg Chegaga | Private, with toilet and shower | Ask us for your dates |
+| [Shared Merzouga 3-day](/en/tours/shared-merzouga-3day-marrakech) | Standard shared camp, Erg Chebbi | Shared block, or your own for €30 per person more | Blankets only; the private-bathroom tent has a heater |
+| [Shared Zagora 2-day](/en/tours/shared-zagora-2day-marrakech) | Shared camp, Zagora | Private, with hot water | Heater |
 
-👉 **[See our desert tours](/en/tours?cat=desert)** — every one lists exactly what
-camp is included, because "desert camp" on its own does not tell you what you are buying.
+So on our private tours, the feature that separates luxury from standard elsewhere, your
+own bathroom, is already included. The upgrade on those tours is €40 per person per night
+and moves you to a luxury tent or room at the same camps and hotels. Tell us when you book
+and we will price it for your dates honestly, including telling you when we think it is
+not worth it, which for a couple in April on a single desert night is usually our answer.
+
+👉 **[See our desert tours](/en/tours?cat=desert)**: every one lists exactly what
+camp is included.
 `,
   },
   {
@@ -8367,7 +8438,7 @@ covers when that is worth doing and when it is not.`,
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-10-05",
+    updatedAt: "2026-10-31",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
     seoTitle: "How Cold Is the Sahara at Night? By Month",
     seoDescription:
@@ -8470,7 +8541,9 @@ hat, high-factor sunscreen, sunglasses, and more water than you think.
 - Warm socks; camp floors are cold sand
 - Closed shoes for the evening
 
-Camps provide thick blankets and most have heaters in winter, but you will be
+Camps provide thick blankets. Heating depends on the camp: on our tours, the camp on the private
+Merzouga tours is air-conditioned and the shared Zagora tents have a heater, but the standard
+shared Merzouga tents do not. Either way, you will be
 outside for dinner, for the stars, and for sunrise. That is when the cold
 finds you.
 

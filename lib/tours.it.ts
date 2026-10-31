@@ -41,7 +41,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guida alpina professionista abilitata",
-      "3 notti in rifugio di montagna",
+      "1 notte in una casa a Imlil e 2 notti in rifugio di montagna",
       "Tutti i pasti durante il trek",
       "Mulattiere per l'attrezzatura del gruppo",
       "Ingressi al parco nazionale",
@@ -887,7 +887,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guida alpina qualificata",
-      "2 notti in una guesthouse berbera",
+      "2 notti in una guesthouse berbera o in bivacco, a seconda del meteo e delle tue preferenze",
       "Tutti i pasti",
       "Trasporto andata e ritorno da Agadir",
       "Mulo per il trasporto dell'attrezzatura",
@@ -1576,7 +1576,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "D",
         stay: "Hotel",
-        driving: "≈6 h",
+        driving: "≈5 h",
         distance: "≈360 km",
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Valle del Dades",
         description:
@@ -1617,7 +1617,7 @@ export const TOURS: Tour[] = [
       { q: "Dove si dorme ogni notte?", a: "Una notte in un hotel nella valle del Dades, una notte in un campo berbero all'Erg Chebbi e una notte in un hotel a Ouarzazate. Cena e colazione sono incluse tranne l'ultima mattina a Ouarzazate (solo colazione)." },
       { q: "Cosa non è incluso?", a: "I pranzi (budget di circa 12-15 € a pasto), il biglietto facoltativo per gli studi cinematografici dell'Atlante (~7 €), le bevande alcoliche, l'assicurazione di viaggio personale e le mance." },
       { q: "Si raggiunge il vero Sahara?", a: "Sì: raggiungi l'Erg Chebbi con una notte intera al campo nel deserto e giri in cammello al tramonto e all'alba. La durata di quattro giorni è ciò che richiede attraversare bene l'Atlante." },
-      { q: "Cosa aggiunge il quarto giorno rispetto al tour di tre?", a: "Tempo, non chilometri in più. Il tour di tre giorni percorre circa 560 km (quasi 9 ore) dalle dune a Marrakech in un'unica giornata; quello di quattro giorni divide il rientro con una notte a Ouarzazate, così nessuna giornata supera le 6 ore circa di strada, e rivedete Aït Ben Haddou nella luce del mattino. Se di un tour di tre giorni vi preoccupa la strada, è questa la versione da prenotare." },
+      { q: "Cosa aggiunge il quarto giorno rispetto al tour di tre?", a: "Tempo, non chilometri in più. Il tour di tre giorni percorre circa 560 km (quasi 9 ore) dalle dune a Marrakech in un'unica giornata; quello di quattro giorni divide il rientro con una notte a Ouarzazate, così nessuna giornata supera le 5 ore circa di strada, e rivedete Aït Ben Haddou nella luce del mattino. Se di un tour di tre giorni vi preoccupa la strada, è questa la versione da prenotare." },
       { q: "Come si dorme?", a: "Una notte in un hotel nella valle del Dades, una notte in un campo nel deserto all'Erg Chebbi e una notte in un hotel a Ouarzazate. Al campo la vostra tenda ha veri letti e un proprio bagno privato con doccia e WC; gli hotel offrono camere private." },
       { q: "Quanto fa freddo di notte nel deserto?", a: "In primavera e autunno, intorno ai 12–18 °C dopo il tramonto. In pieno inverno tra le dune si può sfiorare lo zero. Al campo ci sono coperte, ma una felpa per la sera vale la pena in qualunque stagione — il calo dopo il tramonto è netto." },
       { q: "Si possono gestire esigenze alimentari particolari?", a: "Sì. Il vegetariano non pone problemi su questo itinerario, e vegano, halal e le allergie più comuni si gestiscono se ce lo segnalate alla prenotazione, così che campo e kasbah lo sappiano in anticipo." },
@@ -2578,7 +2578,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guida alpina professionista abilitata",
-      "2 notti di pernottamento (rifugi di montagna)",
+      "2 notti in rifugio di montagna o in bivacco, a seconda del meteo e delle tue preferenze",
       "Tutti i pasti durante il trek",
       "Mulattiere per l'attrezzatura del gruppo",
       "Ingressi al Parco Nazionale del Toubkal",
@@ -3853,7 +3853,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Zagora o Merzouga?", a: "Zagora è più vicina — una giornata di strada invece di due — ma le sue dune sono basse e cespugliose. L'Erg Chebbi, a Merzouga, è l'alto mare di sabbia dorata che quasi tutti immaginano, e per quello serve il [tour di 3 giorni](/it/tours/deserto-merzouga-3-giorni-condiviso). Se avete poco tempo, Zagora; se volete le dune delle fotografie, Merzouga." },
       { q: "Quanto si guida?", a: "Circa otto ore per ogni tratta. È una lunga giornata in veicolo per una sola notte nel deserto, ed è il compromesso onesto del formato di due giorni." },
-      { q: "Com'è il campo?", a: "Tende berbere tradizionali con servizi condivisi, cena e colazione, e di solito tamburi dopo il pasto. È semplice più che lussuoso." },
+      { q: "Com'è il campo?", a: "Tende berbere tradizionali, ognuna con il proprio bagno con acqua calda e una stufa, cena e colazione, e di solito tamburi dopo il pasto. È semplice più che lussuoso." },
       { q: "Costa di più per una persona sola?", a: "Un po'. Da due persone che viaggiano insieme, ognuna paga 85 € e condividete una tenda al campo. Per una persona sola il prezzo è di 105 €, perché la tenda è tutta per lei." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },

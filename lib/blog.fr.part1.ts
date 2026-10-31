@@ -1697,13 +1697,13 @@ entre les étapes.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Faut-il un guide pour gravir le Toubkal ? La règle expliquée",
     excerpt:
-      "Depuis 2018, un guide agréé est obligatoire sur le Jbel Toubkal, et des postes de contrôle le font respecter. Voici ce que dit réellement la règle, qui vérifie, et ce qui se passe si vous vous présentez sans guide.",
+      "Depuis l'hiver 2018-2019, un guide agréé est obligatoire sur le Jbel Toubkal, et des postes de contrôle le font respecter. Voici ce que dit réellement la règle, qui vérifie, et ce qui se passe si vous vous présentez sans guide.",
     heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal", "guide du Toubkal", "permis Toubkal", "Haut Atlas", "règles de trekking", "Imlil"],
     seoTitle: "Faut-il un guide pour gravir le Toubkal ? | Marrakech Eco Tours",
     seoDescription:
@@ -1712,7 +1712,7 @@ entre les étapes.
     faq: [
       {
         q: "Un guide est-il obligatoire pour gravir le mont Toubkal ?",
-        a: "Oui. Depuis 2018, les autorités marocaines exigent que tout randonneur sur le Jbel Toubkal soit accompagné d'un guide de montagne agréé. La règle est appliquée à des postes de contrôle entre Imlil et le refuge, où la Gendarmerie Royale vérifie votre passeport ainsi que la licence de votre guide. Ce n'est pas une formalité que l'on peut contourner en discutant.",
+        a: "Oui. Depuis l'hiver 2018-2019, les autorités marocaines exigent que tout randonneur sur le Jbel Toubkal soit accompagné d'un guide de montagne agréé. La règle est appliquée à des postes de contrôle entre Imlil et le refuge, où la Gendarmerie Royale vérifie votre passeport ainsi que la licence de votre guide. Ce n'est pas une formalité que l'on peut contourner en discutant.",
       },
       {
         q: "Que se passe-t-il si l'on tente de gravir le Toubkal sans guide ?",
@@ -1738,7 +1738,7 @@ entre les étapes.
     content: `
 ## La réponse courte
 
-Oui. Un guide de montagne agréé est obligatoire sur le Jbel Toubkal, et l'est depuis 2018. Ce n'est pas une recommandation, une coutume locale, ni une vente additionnelle inventée par les tour-opérateurs. C'est appliqué par la Gendarmerie Royale aux postes de contrôle sur le sentier, qui vérifie votre passeport ainsi que la licence de votre guide.
+Oui. Un guide de montagne agréé est obligatoire sur le Jbel Toubkal, et l'est depuis l'hiver 2018-2019. Ce n'est pas une recommandation, une coutume locale, ni une vente additionnelle inventée par les tour-opérateurs. C'est appliqué par la Gendarmerie Royale aux postes de contrôle sur le sentier, qui vérifie votre passeport ainsi que la licence de votre guide.
 
 Si vous avez lu un ancien article de blog affirmant que l'on peut gravir le Toubkal en solo, cet article précède la règle, ou son auteur n'a pas été contrôlé. Le sentier a changé.
 

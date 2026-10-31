@@ -458,7 +458,7 @@ C'est précisément ce que fait notre [trek du sommet du Toubkal en 4 jours](/fr
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["itinéraire du Toubkal", "Toubkal en 2 jours", "Toubkal en 4 jours", "combien de jours pour le Toubkal", "Haut Atlas"],
     seoTitle: "Le Toubkal en 2 jours ou en 4",
     seoDescription: "Une comparaison franche des treks de 2 et 4 jours vers le Toubkal — acclimatation, durée de la journée du sommet, à qui chacun convient.",
@@ -503,6 +503,9 @@ Rien de tout cela ne signifie que le trip de deux jours est dangereux pour un ra
 | Charge de marche quotidienne | Concentrée sur deux grosses journées | Répartie |
 | Convient le mieux à | Randonneurs expérimentés, emplois du temps serrés | Débutants en altitude, la plupart des gens |
 | Probabilité de se sentir mal le jour du sommet | Plus élevée | Plus faible |
+| Où vous dormez | Refuge du Toubkal | Maison d'hôtes à Imlil, puis deux nuits au refuge |
+| Marche par jour | 5 h, puis 7–8 h | 1–2 h, 5 h, 6–7 h, 5–6 h |
+| Prix par personne, à deux | [254 €](/fr/tours/ascension-toubkal-2-jours) | [468 €](/fr/tours/trek-sommet-toubkal-4-jours) |
 
 ## Comment choisir
 
@@ -537,7 +540,7 @@ Pour en savoir plus sur ce que le trek exige physiquement, voir [Le Toubkal est-
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Agafay", "Merzouga", "Zagora", "désert marocain", "Sahara depuis Marrakech", "comparaison des déserts"],
     seoTitle: "Agafay, Merzouga ou Zagora",
     seoDescription: "Une comparaison honnête des trois options désertiques du Maroc depuis Marrakech — désert de pierre contre vraies dunes.",
@@ -598,6 +601,8 @@ Le hic, c'est la distance. Merzouga se trouve de l'autre côté de l'Atlas, ce q
 | Paysage | Désert de pierre, pas de dunes | Dunes modestes, vallée du Drâa | Hautes dunes de l'Erg Chebbi |
 | Temps nécessaire | Après-midi et soirée | 2 jours, 1 nuit | 3 jours, 2 nuits |
 | Distance depuis Marrakech | Environ 40 minutes | Longue journée de route | De l'autre côté de l'Atlas |
+| Route | Moins d'une heure par trajet | ≈7 à 8 h par trajet, ≈360 km | ≈7 h puis ≈5 h à l'aller ; ≈9 h au retour |
+| Notre prix, chacun à deux | [94 €](/fr/tours/coucher-soleil-desert-agafay) | [195 € en privé](/fr/tours/circuit-zagora-2-jours-marrakech), [85 € en partagé](/fr/tours/desert-zagora-2-jours-partage) | [380 € en privé](/fr/tours/circuit-desert-3-jours-marrakech), [120 € en partagé](/fr/tours/desert-merzouga-3-jours-partage) |
 | Nuit dans le désert | Dîner au camp, proche de la ville | Oui | Oui |
 | Idéal pour | Voyages courts, aucun jour de route | Fenêtres de deux jours | Voir le vrai Sahara |
 
@@ -624,7 +629,7 @@ L'erreur à éviter est de réserver Agafay en s'attendant au Sahara. C'est un e
     region: "sahara-south",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "dunes du Sahara", "désert marocain"],
     seoTitle: "Erg Chebbi ou Erg Chegaga",
     seoDescription: "La différence entre les deux grandes mers de sable du Maroc — hauteur des dunes, accès, affluence et coût — et comment choisir entre Merzouga et l'Erg Chegaga.",
@@ -669,6 +674,9 @@ La caractéristique déterminante est l'éloignement. L'approche finale se fait 
 | Superficie | ~170 km² | ~35 x 15 km (le plus grand erg du Maroc) |
 | Caractère des dunes | Hautes, finement sculptées, jusqu'à ~150 m | Champ plus large, ondulant |
 | Accès | Route goudronnée, courte étape à dos de dromadaire | 4x4 à travers le désert ouvert |
+| Depuis Marrakech | ≈7 h jusqu'au Dadès, puis ≈5 h jusqu'aux dunes | ≈8 h jusqu'à M'Hamid, puis 3 à 4 h en 4x4 |
+| Le retour | ≈9 h, en une journée | ≈8 h, en une journée |
+| Notre prix privé sur 3 jours, chacun à deux | [380 €](/fr/tours/circuit-desert-3-jours-marrakech) | [635 €](/fr/tours/erg-chegaga-3-jours-marrakech) |
 | Autres camps en vue | Plusieurs | Peu ou aucun |
 | Classement du circuit | Facile | Modéré |
 | Idéal pour | Le paysage de dunes classique | L'éloignement véritable |
@@ -770,7 +778,7 @@ Si votre voyage est fixé en plein été, cela seul peut trancher la décision. 
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["trekking au Maroc", "trek de plusieurs jours", "M'Goun", "lac Ifni", "Anti-Atlas", "Haut Atlas"],
     seoTitle: "Meilleurs treks au Maroc",
     seoDescription: "Quatre treks marocains de plusieurs jours au-delà de l'itinéraire standard du Toubkal — le circuit du lac Ifni, la traversée du M'Goun.",
@@ -825,6 +833,27 @@ Classé modéré — l'itinéraire le plus accessible présenté ici. Sa saison 
 | 3 | Les trois sommets du Toubkal | Expert |
 | 6 | Circuit du Toubkal et lac Ifni | Difficile |
 | 7 | Traversée du massif du M'Goun | Expert |
+
+## Tous nos treks dans l'Atlas, côte à côte
+
+| Jours | Trek | Difficulté | Où vous dormez | Marche par jour | Chacun, à deux | Idéal pour |
+|---|---|---|---|---|---|---|
+| 2 | [Sommet du Toubkal](/fr/tours/ascension-toubkal-2-jours) | Exigeant | Refuge du Toubkal | 5 h, puis 7–8 h | 254 € | Marcheurs en forme et pressés |
+| 2 | [Vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) | Modéré | Maison d'hôtes de village | 5–6 h | 161 € | Une première approche, sans sommet |
+| 3 | [Villages du Haut Atlas](/fr/tours/trek-villages-haut-atlas-3-jours) | Modéré | Deux maisons d'hôtes de village | 4–6 h | 235 € | La vie des villages, sans sommet |
+| 3 | [Toubkal par le col d'Aguelzim](/fr/tours/toubkal-col-aguelzim-3-jours) | Exigeant | Refuge ou bivouac, selon la météo et vos envies | 5–7 h | 393 € | Un chemin plus calme vers le sommet |
+| 3 | [Les trois sommets à 4 000 m du Toubkal](/fr/tours/toubkal-trois-sommets-4000m-3-jours) | Expert | Refuge du Toubkal, deux nuits | 5–8 h | 393 € | Marcheurs déjà à l'aise en altitude |
+| 4 | [Sommet du Toubkal, 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) | Exigeant | Maison d'hôtes à Imlil, puis le refuge | 1–7 h | 468 € | Une première fois en altitude |
+| 4 | [Haut Atlas en famille](/fr/tours/trek-atlas-famille-4-jours) | Facile | Maisons d'hôtes de village | 2–5 h | 313 € | Familles avec enfants |
+| 6 | [Circuit du Toubkal et lac d'Ifni](/fr/tours/circuit-toubkal-lac-ifni-6-jours) | Exigeant | Gîtes de village, camps, le refuge | 4–8 h | 948 € | Vallées reculées et sommet |
+| 7 | [Traversée du M'Goun](/fr/tours/trek-massif-mgoun-7-jours) | Expert | Gîte de village, camps, une maison d'hôtes | 5–8 h | 760 € | Une vraie expédition |
+| 15 | [Grande traversée du Haut Atlas](/fr/tours/grande-traversee-haut-atlas-15-jours) | Expert | Gîtes de village, camps, refuges | 1–9 h | 2 040 € | Du M'Goun au Toubkal, d'un bout à l'autre |
+
+Chaque trek est privé, pour votre seul groupe, avec un guide de montagne agréé, tous les repas du trek, des mulets pour les bagages et le transfert aller-retour depuis Marrakech. Les treks du Toubkal et du M'Goun comprennent aussi les droits du parc national. Sur tout itinéraire qui atteint le sommet du Toubkal, le haut est enneigé et verglacé à peu près de novembre à avril, et il faut crampons et piolet.
+
+## Qui marche avec vous, et où vous dormez
+
+Votre guide est un guide de montagne agréé, et des mulets portent les bagages : vous marchez avec un sac à dos léger. Hors des itinéraires du sommet, les nuits se passent dans des maisons d'hôtes de village tenues par des familles berbères : le dîner est cuisiné par la famille, et chaque chambre a sa propre salle de bain. Le refuge du Toubkal est différent : un refuge de montagne partagé, avec dortoirs, à 3 207 m, au-dessus du dernier village. Sur les treks plus longs, certaines nuits se passent en camp, transporté et monté par l'équipe des mulets.
 
 ## Ce que ces treks ont en commun
 
@@ -4268,7 +4297,7 @@ Tout le reste — guide, deux nuits en gîte avec les repas, la mule et les deux
     region: "root",
     readTime: 8,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["remise groupe circuit Maroc", "prix circuit privé par personne", "coût circuit Maroc par personne", "tarif selon la taille du groupe", "prix circuit désert 2 personnes", "budget voyage Maroc"],
     seoTitle: "Prix circuits Maroc par groupe 2026",
     seoDescription:
@@ -4276,7 +4305,7 @@ Tout le reste — guide, deux nuits en gîte avec les repas, la mule et les deux
     faq: [
       { q: "Pourquoi un circuit privé au Maroc est-il bien moins cher à deux qu'à une personne ?", a: "Parce qu'un circuit privé se facture au véhicule, pas au siège. Le 4x4, le chauffeur, le carburant et les nuits d'hébergement coûtent presque la même chose qu'une personne voyage ou deux. Sur notre [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le tarif solo est de 690 € et celui à deux de 380 € chacun — une baisse de 54 %, parce que le second voyageur n'ajoute que ses repas et son lit, pas un second véhicule." },
       { q: "Combien j'économise en voyageant à quatre plutôt qu'à deux ?", a: "Sur le [circuit Sahara de 3 jours](/fr/tours/sahara-3day-marrakech), le prix par personne passe de 380 € à deux à 295 € à quatre — environ 31 % chacun. L'économie est réelle mais bien moindre que celle de un à deux, car à quatre le coût fixe du véhicule est déjà largement réparti et vous n'ajoutez plus que des coûts par tête : repas, lits sous tente et location de dromadaire." },
-      { q: "Les remises de groupe s'appliquent-elles aussi aux circuits partagés ?", a: "Pas chez les autres opérateurs, et il vaut la peine de comprendre pourquoi. Un siège partagé est une place dans un minibus qui part que vous réserviez ou non : il n'y a aucun coût de véhicule à diviser, donc six sièges coûtent six fois un siège. La tarification de groupe n'existe que là où un véhicule et un guide se répartissent. Tous nos circuits sont privés, donc chacun affiche son tableau de paliers — y compris le [circuit Zagora de 2 jours](/fr/tours/zagora-2day-marrakech), à 77 € chacun à deux et 39 € à six." },
+      { q: "Les remises de groupe s'appliquent-elles aussi aux circuits partagés ?", a: "Non, et il vaut la peine de comprendre pourquoi. Un siège partagé est une place dans un minibus qui part que vous réserviez ou non : il n'y a aucun coût de véhicule à diviser, donc six sièges coûtent six fois un siège. La tarification de groupe n'existe que là où un véhicule et un guide se répartissent. Nos circuits privés affichent un tableau de paliers — le [circuit Zagora de 2 jours](/fr/tours/circuit-zagora-2-jours-marrakech) passe de 195 € chacun à deux à 130 € à six —, tandis que notre [place partagée pour Zagora](/fr/tours/desert-zagora-2-jours-partage) coûte 85 € chacun dès deux." },
       { q: "Y a-t-il une taille de groupe où le prix cesse de baisser ?", a: "Oui. Au-delà de six personnes, le prix par personne s'aplatit, et au-delà de huit il ne bouge presque plus. À ce stade il faut un second véhicule ou un minibus plus grand, donc le coût fixe que vous répartissiez commence à se dupliquer. Nos paliers publiés vont jusqu'à quatorze personnes, mais les économies importantes se jouent toutes dans les six premières." },
       { q: "Les excursions à la journée offrent-elles des remises aussi fortes ?", a: "Elles baissent fortement de un à deux, puis se stabilisent vite. Une [visite de la médina de Marrakech](/fr/tours/marrakech-medina-cultural-tour) coûte 73 € en solo, 41 € chacun à deux, mais seulement 31 € à six — l'essentiel de l'économie arrive donc avec la deuxième personne. Ce qui se divise, c'est la journée d'un guide agréé : un seul coût, partagé une fois. Les circuits de plusieurs jours continuent de baisser parce qu'un véhicule, du carburant et l'hébergement se répartissent en plus." },
     ],
@@ -4389,13 +4418,14 @@ facture par tête et ne bouge jamais : six personnes paient six fois un siège, 
 que le véhicule part que vous réserviez une place ou six. Ni palier, ni tranche, ni
 négociation.
 
-Tous nos circuits sont privés, et chacun affiche donc son tableau de paliers — y
-compris le [circuit désert de 2 jours à Zagora](/fr/tours/zagora-2day-marrakech) :
-**77 €** chacun à deux, **51 €** à quatre, **39 €** à six. Notre prix par personne
-baisse quand le groupe grandit, ce qu'un siège partagé ne peut pas faire. C'est
-l'arbitrage : une place dans le minibus d'un autre est moins chère à une ou deux
-personnes, et un véhicule privé à votre rythme comble l'écart très vite à partir de
-trois ou quatre.
+Nos circuits privés affichent au contraire un tableau de paliers : le
+[circuit privé de 2 jours à Zagora](/fr/tours/circuit-zagora-2-jours-marrakech) passe de
+**195 €** chacun à deux à **170 €** à quatre et **130 €** à six. Notre propre
+[place partagée pour Zagora](/fr/tours/desert-zagora-2-jours-partage) fonctionne comme celle
+des autres : **85 €** chacun à partir de deux (105 € seul), quelle que soit la taille du
+groupe. C'est l'arbitrage : une place dans un minibus partagé est moins chère, de loin à
+une ou deux personnes, et un véhicule privé vous offre votre propre horaire à un prix
+qui baisse à mesure que le groupe grandit.
 
 ## Où s'arrêtent les économies
 
@@ -4439,15 +4469,15 @@ le nombre affiché pour votre groupe est celui que vous payez.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["circuit désert privé ou partagé", "circuit désert partagé Maroc", "circuit Sahara privé Maroc", "comparaison circuits Merzouga", "minibus circuit désert", "circuit désert Maroc vaut-il le coup"],
     seoTitle: "Circuit désert Maroc privé ou partagé",
     seoDescription:
       "Les circuits désert partagés au Maroc coûtent 110–170 € la place et ne baissent jamais.",
     faq: [
-      { q: "Quelle est la vraie différence entre un circuit privé et un circuit partagé ?", a: "Un circuit partagé vous place dans un minibus avec six à dix autres voyageurs, sur un horaire fixe qui ne peut pas changer. Un circuit privé, c'est votre propre véhicule et votre chauffeur-guide : l'heure de départ, les arrêts photo et les lieux de déjeuner vous appartiennent. L'itinéraire est presque identique — ce qui change, c'est qui d'autre est dans le véhicule, qui décide du rythme, et la façon dont le prix évolue quand votre groupe grandit. Tous nos circuits sont privés, y compris le [Grand Tour de 4 jours](/fr/tours/desert-4day-marrakech)." },
+      { q: "Quelle est la vraie différence entre un circuit privé et un circuit partagé ?", a: "Un circuit partagé vous place dans un minibus avec six à dix autres voyageurs, sur un horaire fixe qui ne peut pas changer. Un circuit privé, c'est votre propre véhicule et votre chauffeur-guide : l'heure de départ, les arrêts photo et les lieux de déjeuner vous appartiennent. L'itinéraire est presque identique — ce qui change, c'est qui d'autre est dans le véhicule, qui décide du rythme, et la façon dont le prix évolue quand votre groupe grandit. Nous proposons les deux : des circuits privés comme le [Grand Tour de 4 jours](/fr/tours/circuit-desert-4-jours-marrakech), et des départs partagés vers [Merzouga](/fr/tours/desert-merzouga-3-jours-partage) et [Zagora](/fr/tours/desert-zagora-2-jours-partage)." },
       { q: "Un circuit désert privé vaut-il son surcoût ?", a: "Cela dépend presque entièrement de la taille de votre groupe. Seul, une place partagée est bien moins chère et la réponse honnête est généralement non — une personne ne peut pas répartir le coût d'un 4x4. À deux, notre [circuit privé de 4 jours](/fr/tours/desert-4day-marrakech) revient à 526 € chacun, environ 200 € de plus qu'une place partagée sur le même itinéraire. À quatre c'est 346 € chacun, proche du prix partagé, et à six 270 €, donc à partir d'environ cinq personnes le privé est à la fois moins cher et meilleur." },
-      { q: "Combien de personnes y a-t-il sur un circuit désert partagé au Maroc ?", a: "Généralement six à dix, dans un minibus qui peut en accueillir seize. Les départs partagés sont généralement plafonnés à dix ou douze afin que personne ne passe quatre jours sur un siège du milieu. Vous ne connaîtrez pas le groupe à l'avance, et l'horaire est fixé par l'itinéraire plutôt que par les passagers — c'est le compromis que vous acceptez en échange du prix plus bas." },
+      { q: "Combien de personnes y a-t-il sur un circuit désert partagé au Maroc ?", a: "Nos départs partagés voyagent dans un minibus climatisé qui accueille jusqu'à seize personnes. Vous ne connaîtrez pas le groupe à l'avance, et l'horaire est fixé par l'itinéraire plutôt que par les passagers — c'est le compromis que vous acceptez en échange du prix plus bas." },
       { q: "Peut-on s'arrêter pour photographier lors d'un circuit partagé ?", a: "Oui, mais aux arrêts prévus et non à la demande. Le chauffeur tient un horaire qui doit convenir à tout le véhicule : les points de vue du Tizi n'Tichka, Aït Ben Haddou et les gorges du Todra ont tous leur arrêt, mais pas le virage anonyme où la lumière est belle. Sur un circuit privé, cet arrêt ne coûte qu'une phrase au chauffeur." },
       { q: "Quelle formule est la meilleure pour une famille avec de jeunes enfants ?", a: "Un circuit privé, et pas d'abord pour le confort. Les enfants imposent leur propre rythme pour les repas, les siestes et les arrêts toilettes, et un minibus partagé ne peut pas l'absorber sans gêner huit inconnus. Le [circuit famille de 4 jours](/fr/tours/family-desert-4day-marrakech) revient à 346 € par personne à quatre — et une famille de quatre est exactement la taille à partir de laquelle le privé cesse de coûter un supplément." },
     ],
@@ -4492,7 +4522,7 @@ faire.
 Environ 110 à 170 € par personne pour trois jours, ou près de 330 € pour quatre, et
 pour un voyageur seul c'est franchement difficile à battre : une personne seule ne
 peut pas répartir le coût d'un 4x4 privé, et le circuit partagé existe précisément
-pour qu'elle n'ait pas à le faire.
+pour qu'elle n'ait pas à le faire. Notre propre [circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage) coûte 120 € par personne à partir de deux, 160 € seul, et le [circuit partagé de 2 jours à Zagora](/fr/tours/desert-zagora-2-jours-partage) 85 € et 105 €.
 
 **Ce à quoi vous renoncez :**
 
@@ -4547,11 +4577,37 @@ Le schéma tient, à une différence près : sur trois jours, le privé ne rejoi
 jamais le partagé pour une taille de groupe normale — 230 € à six contre 110–170 €
 la place —, donc sur trois jours la place partagée reste le choix économique.
 
+## Le même circuit de 3 jours, côte à côte
+
+Nos circuits de 3 jours à Merzouga, partagé et privé, empruntent la même route sur les mêmes distances : la comparaison est nette.
+
+| | Partagé, 3 jours Merzouga | Privé, 3 jours Sahara |
+|---|---|---|
+| Véhicule | Minibus climatisé, jusqu'à 16 personnes | 4x4 privé, votre groupe seulement |
+| Au volant | Un chauffeur anglophone ou francophone | Un chauffeur-guide pour votre seul groupe |
+| Jour 1 : Marrakech → Aït Ben Haddou → Dadès | ≈7 h, ≈420 km | ≈7 h, ≈420 km |
+| Jour 2 : Dadès → gorges du Todra → Erg Chebbi | ≈5 h, ≈300 km | ≈5 h, ≈300 km |
+| Jour 3 : retour à Marrakech | ≈9 h, ≈560 km | ≈9 h, ≈560 km |
+| Arrêts | Fixes, selon l'horaire | Là où vous le demandez |
+| Prix par personne | 160 € seul, 120 € chacun dès deux | 690 € seul, 380 € chacun à deux, 230 € à six |
+
+La route est la même dans les deux cas : environ 21 heures sur trois jours. Ce qui change, c'est qui décide des arrêts, et qui d'autre partage le véhicule pendant ces heures. Si la longue dernière journée vous inquiète, le [Grand Tour de 4 jours](/fr/tours/circuit-desert-4-jours-marrakech) répartit le même trajet sur des journées d'environ 4 à 5 heures.
+
+## Quelle formule vous convient
+
+| Vous voyagez | Notre conseil | Pourquoi |
+|---|---|---|
+| Seul | Partagé | Une personne ne peut pas répartir le coût d'un 4x4, et le groupe tient compagnie |
+| En couple | Les deux se valent | Le privé coûte environ 260 € de plus chacun sur trois jours, et vous offre votre propre horaire |
+| En famille avec de jeunes enfants | Privé | Repas, siestes et arrêts toilettes suivent le rythme des enfants, pas celui de huit inconnus |
+| Pour photographier | Privé | La lumière ne suit pas un horaire |
+| À quatre ou plus | Privé | À quatre, le circuit privé de 4 jours coûte à peu près le prix d'une place partagée |
+
 ## Ce qui ne change pas, dans un cas comme dans l'autre
 
 Autant le dire clairement, car certains opérateurs laissent entendre le contraire :
 
-- **Le campement.** Même site, mêmes tentes, même dîner.
+- **Les dunes et le ciel nocturne.** Les tentes, elles, peuvent différer : voir [campement de luxe ou standard](/fr/blog/campement-desert-luxe-ou-standard).
 - **La méharée.** Mêmes dunes, même heure avant le coucher du soleil.
 - **La route.** Il n'y a qu'une route vers Merzouga et tout le monde l'emprunte.
 - **Les exclusions.** Les déjeuners et les pourboires restent hors prix des deux côtés.
@@ -4581,8 +4637,7 @@ du partagé ; au-delà vous payez moins pour votre propre véhicule. À **deux o
 trois**, le privé coûte plus cher par personne : vous payez la liberté, et c'est ce
 que les gens retiennent.
 
-Tous nos circuits sont privés, et chacun publie sa grille tarifaire sur sa page :
-le chiffre affiché pour votre taille de groupe est celui que vous payez.
+Nos circuits privés publient leur grille tarifaire sur leur page : le chiffre affiché pour votre taille de groupe est celui que vous payez. Nos places partagées ont un prix unique à partir de deux personnes.
 
 👉 **[Découvrez le Grand Tour de 4 jours](/fr/tours/desert-4day-marrakech)** — 526 € chacun à deux, 270 € à six — ou **[le circuit famille de 4 jours](/fr/tours/family-desert-4day-marrakech)** à 346 € chacun à quatre.
 `,
@@ -4737,8 +4792,8 @@ rentable.**
 
 - Une [visite de la médina](/fr/tours/marrakech-medina-cultural-tour) à 73 € : la
   commission représente quelques euros. Réservez où cela vous arrange.
-- Un [circuit partagé à Zagora](/fr/tours/zagora-2day-marrakech) à 77 € : toujours
-  peu d'argent, mais vous gagnez un interlocuteur réel pour la prise en charge.
+- Un [circuit de 2 jours à Zagora](/fr/tours/circuit-zagora-2-jours-marrakech) à 360 € pour une personne : la
+  commission devient une vraie somme, et vous gagnez un interlocuteur réel pour la prise en charge.
 - Un [circuit famille de 4 jours](/fr/tours/family-desert-4day-marrakech) à 1 384 €
   pour quatre : une couche de commission représente ici plusieurs centaines d'euros,
   et ne vous apporte rien que l'opérateur ne fournissait déjà.
@@ -5194,7 +5249,7 @@ ne convient pas à l'âge que vous emmenez.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-11",
-    updatedAt: "2026-08-11",
+    updatedAt: "2026-10-31",
     tags: [
       "campement de luxe Maroc",
       "bivouac standard désert",
@@ -5218,7 +5273,7 @@ ne convient pas à l'âge que vous emmenez.
       },
       {
         q: "Combien coûte un campement de luxe en plus ?",
-        a: "Sur le marché au sens large, les campements standard se situent entre 40 et 100 EUR la nuit, et les campements de luxe entre 150 et 500 EUR, l'ultra-luxe montant encore au-dessus. En surclassement sur un circuit déjà réservé, comptez environ 70 EUR par personne et par nuit : c'est le tarif courant pratiqué ici pour vous faire changer de campement.",
+        a: "Sur le marché au sens large, les campements standard se situent entre 40 et 100 EUR la nuit, et les campements de luxe entre 150 et 500 EUR, l'ultra-luxe montant encore au-dessus. Sur nos circuits privés, le surclassement vers une tente ou une chambre de luxe, dans les mêmes campements et hôtels, coûte 40 EUR par personne et par nuit.",
       },
       {
         q: "Un campement standard est-il inconfortable ?",
@@ -5226,7 +5281,7 @@ ne convient pas à l'âge que vous emmenez.
       },
       {
         q: "Les campements de luxe ont-ils l'électricité et le chauffage ?",
-        a: "Généralement oui — énergie solaire ou groupe électrogène pour l'éclairage et la recharge, chauffage pour les nuits d'hiver et parfois climatisation en été. Les campements standard que nous utilisons ont eux aussi l'électricité pour l'éclairage et la recharge, et le Wi-Fi — ce qui leur manque, c'est la régulation thermique, qui pèse davantage en janvier qu'en avril.",
+        a: "Généralement oui — énergie solaire ou groupe électrogène pour l'éclairage et la recharge, chauffage pour les nuits d'hiver et parfois climatisation en été. Sur nos circuits, cela dépend du voyage : le campement de nos circuits privés à Merzouga est climatisé, tandis que les tentes standard de notre circuit partagé à Merzouga ont des couvertures mais pas de chauffage. La tente avec salle de bain privative, elle, en a un, ce qui pèse davantage en janvier qu'en avril.",
       },
       {
         q: "Quel campement choisir en famille ?",
@@ -5248,7 +5303,7 @@ Tout le reste de ce qu'on inscrit du côté luxe — lits plus grands, tapis, mo
 
 ## À quoi ressemble vraiment un campement standard
 
-C'est ce qu'incluent la plupart de nos circuits dans le désert, et ce n'est pas du camping sauvage :
+C'est le type de campement de notre circuit partagé à Merzouga, et ce n'est pas du camping sauvage :
 
 - Un lit à cadre avec matelas, draps et couvertures, sous une tente de toile ou une tente berbère traditionnelle en laine noire
 - Toilettes à chasse et douches chaudes partagées dans un bloc voisin
@@ -5274,7 +5329,7 @@ Ce que cela ne change pas : les dunes, le coucher de soleil, les étoiles, la ba
 | | Standard | Luxe |
 | --- | --- | --- |
 | Tarif marché par nuit | 40–100 EUR | 150–500 EUR |
-| Surclassement type sur un circuit réservé | — | environ 70 EUR par personne et par nuit |
+| Surclassement sur nos circuits privés | — | 40 EUR par personne et par nuit |
 | Salle de bain | bloc partagé | privative dans la tente |
 | Électricité et Wi-Fi | oui | oui |
 | Régulation thermique | aucune | chauffage, souvent clim |
@@ -5283,7 +5338,7 @@ Deux choses méritent d'être relevées dans ce tableau.
 
 D'abord, la fourchette du luxe est énorme. 150 EUR et 500 EUR n'achètent pas du tout la même expérience, et un campement annoncé « de luxe » au bas de cette fourchette peut n'être qu'un campement standard avec un meilleur lit. Demandez explicitement si la salle de bain est dans la tente, car c'est la question qui les sépare vraiment.
 
-Ensuite, le surclassement se facture **par personne et par nuit**, il grimpe donc vite. Pour un couple sur deux nuits dans le désert, cela représente environ 280 EUR — ce qui, sur notre [circuit de 3 jours dans le Sahara](/fr/tours/circuit-desert-3-jours-marrakech) à 380 EUR par personne pour deux voyageurs, alourdit sérieusement le prix du voyage.
+Ensuite, le surclassement se facture **par personne et par nuit**, il augmente donc avec la durée. Sur notre [circuit de 3 jours dans le Sahara](/fr/tours/circuit-desert-3-jours-marrakech), à 380 EUR par personne pour deux voyageurs, surclasser les deux nuits ajoute 80 EUR chacun, soit 160 EUR pour le couple.
 
 ## Quand nous vous dirions de payer
 
@@ -5301,7 +5356,7 @@ Ensuite, le surclassement se facture **par personne et par nuit**, il grimpe don
 
 **Si vous voulez le désert tel qu'il est.** La tente traditionnelle en laine noire, c'est ainsi qu'on dort ici depuis très longtemps. Une suite en toile avec douche à l'italienne est une chambre d'hôtel posée dans un champ de dunes. Les deux sont agréables ; une seule est le Sahara.
 
-**Sur un départ partagé.** Notre [circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage) est à 120 EUR par personne. Ajouter 70 EUR par nuit pour une salle de bain privative change la nature du voyage réservé, et à ce niveau de prix un circuit privé avec campement standard offre souvent un meilleur rapport qualité-prix.
+**Sur un départ partagé, hors hiver.** Notre [circuit partagé de 3 jours à Merzouga](/fr/tours/desert-merzouga-3-jours-partage) est à 120 EUR par personne, avec un bloc sanitaire partagé. Une tente avec sa propre salle de bain coûte 30 EUR de plus par personne. De décembre à février, cela vaut la peine, car c'est aussi la tente chauffée ; au printemps et en automne, on peut s'en passer.
 
 **Si cela vous coûte une journée.** Plus de temps dans le désert vaut mieux qu'une plus belle salle de bain, presque à chaque fois. Deux nuits à l'Erg Chegaga en campement standard font un meilleur voyage qu'une nuit à l'Erg Chebbi en campement de luxe — voir notre [comparatif Erg Chebbi / Erg Chegaga](/fr/blog/erg-chebbi-vs-erg-chegaga) pour comprendre pourquoi les dunes les plus reculées valent la route supplémentaire.
 
@@ -5313,13 +5368,20 @@ Les campements sont décrits avec les mots que choisit l'opérateur, et « luxe 
 
 Cette seule réponse vous en dit plus que n'importe quelle photo sur une page de réservation. Tout le reste — les tapis, les lanternes, le plateau en laiton — figure sur les photos des deux formules.
 
-## Ce que nous réservons
+## Ce que nos circuits incluent vraiment
 
-Nous utilisons des campements berbères standard sur la plupart de nos départs dans le désert, et nous le disons clairement dans les inclusions de chaque circuit plutôt que de rester vagues. Lorsqu'un circuit inclut un campement de luxe ou familial, c'est indiqué aussi.
+« Campement dans le désert » ne dit pas, à soi seul, ce que vous achetez. Voici donc ce que comprend chacun de nos circuits dans le désert :
 
-Si vous voulez le surclassement, dites-le nous à la réservation et nous le chiffrerons honnêtement pour vos dates — y compris en vous disant quand nous ne le jugeons pas justifié, ce qui, pour un couple en avril sur une seule nuit dans le désert, est généralement notre réponse.
+| Circuit | Campement | Salle de bain | Chauffage et climatisation |
+|---|---|---|---|
+| Circuits privés à Merzouga ([3 jours](/fr/tours/circuit-desert-3-jours-marrakech), [4 jours](/fr/tours/circuit-desert-4-jours-marrakech), [famille 4 jours](/fr/tours/circuit-desert-famille-4-jours)) | Sahara Garden, Erg Chebbi | Privative, avec douche et WC | Climatisé |
+| [Erg Chegaga privé, 3 jours](/fr/tours/erg-chegaga-3-jours-marrakech) | Camp Naji, Erg Chegaga | Privative, avec toilettes et douche | Demandez-nous pour vos dates |
+| [Merzouga partagé, 3 jours](/fr/tours/desert-merzouga-3-jours-partage) | Campement partagé standard, Erg Chebbi | Bloc partagé, ou privative pour 30 EUR de plus par personne | Couvertures seulement ; la tente avec salle de bain privative est chauffée |
+| [Zagora partagé, 2 jours](/fr/tours/desert-zagora-2-jours-partage) | Campement partagé, Zagora | Privative, avec eau chaude | Chauffage |
 
-👉 **[Voir nos circuits dans le désert](/fr/tours?cat=desert)** — chacun précise exactement quel campement est inclus, parce que « campement dans le désert » ne dit pas, à soi seul, ce que vous achetez.
+Sur nos circuits privés, ce qui distingue ailleurs le luxe du standard, votre propre salle de bain, est donc déjà inclus. Le surclassement sur ces circuits coûte 40 EUR par personne et par nuit et vous installe dans une tente ou une chambre de luxe, dans les mêmes campements et hôtels. Dites-le nous à la réservation et nous le chiffrerons honnêtement pour vos dates — y compris en vous disant quand nous ne le jugeons pas justifié, ce qui, pour un couple en avril sur une seule nuit dans le désert, est généralement notre réponse.
+
+👉 **[Voir nos circuits dans le désert](/fr/tours?cat=desert)** : chacun précise exactement quel campement est inclus.
 `,
   },
   {
@@ -6072,7 +6134,7 @@ Si votre voyage traverse le pays, vous n'avez peut-être pas besoin de revenir a
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-10-31",
     tags: ["meteo Sahara", "temperature Merzouga", "quand partir desert Maroc", "que emporter desert", "climat Erg Chebbi"],
     seoTitle: "M\u00e9t\u00e9o du d\u00e9sert du Sahara au Maroc",
     seoDescription:
@@ -6168,8 +6230,10 @@ haute protection, lunettes, et plus d'eau que prévu.
 - Chaussettes chaudes ; le sol des tentes est du sable froid
 - Chaussures fermées pour le soir
 
-Les campements fournissent des couvertures épaisses et la plupart ont des
-chauffages en hiver, mais vous serez dehors pour le dîner, les étoiles et le
+Les campements fournissent des couvertures épaisses. Le chauffage dépend du campement : sur nos
+circuits, le campement des circuits privés à Merzouga est climatisé et les tentes du circuit partagé
+à Zagora ont un chauffage, mais les tentes standard du circuit partagé à Merzouga n'en ont pas.
+Dans tous les cas, vous serez dehors pour le dîner, les étoiles et le
 lever du soleil. C'est là que le froid vous trouve.
 
 Pour la liste complète, voir

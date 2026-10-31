@@ -1688,13 +1688,13 @@ una tappa e l'altra.
     author: MET_TEAM,
     title: "Serve una guida per scalare il Toubkal? La regola, spiegata",
     excerpt:
-      "Dal 2018 una guida autorizzata è obbligatoria sul Jbel Toubkal, e ci sono checkpoint che la fanno rispettare. Ecco cosa dice davvero la regola, chi controlla e cosa succede se vi presentate senza.",
+      "Dall'inverno 2018-2019 una guida autorizzata è obbligatoria sul Jbel Toubkal, e ci sono checkpoint che la fanno rispettare. Ecco cosa dice davvero la regola, chi controlla e cosa succede se vi presentate senza.",
     heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal", "guida Toubkal", "permesso Toubkal", "Alto Atlante", "regole di trekking", "Imlil"],
     seoTitle: "Serve una guida per scalare il Toubkal? | Marrakech Eco Tours",
     seoDescription:
@@ -1703,7 +1703,7 @@ una tappa e l'altra.
     faq: [
       {
         q: "Una guida è obbligatoria per scalare il Monte Toubkal?",
-        a: "Sì. Dal 2018, le autorità marocchine richiedono che ogni escursionista sul Jbel Toubkal sia accompagnato da una guida di montagna autorizzata. La regola è applicata ai checkpoint tra Imlil e il rifugio, dove la Gendarmerie Royale controlla il vostro passaporto e la licenza della vostra guida. Non è una formalità che si possa aggirare a parole.",
+        a: "Sì. Dall'inverno 2018-2019, le autorità marocchine richiedono che ogni escursionista sul Jbel Toubkal sia accompagnato da una guida di montagna autorizzata. La regola è applicata ai checkpoint tra Imlil e il rifugio, dove la Gendarmerie Royale controlla il vostro passaporto e la licenza della vostra guida. Non è una formalità che si possa aggirare a parole.",
       },
       {
         q: "Cosa succede se si prova a scalare il Toubkal senza guida?",
@@ -1729,7 +1729,7 @@ una tappa e l'altra.
     content: `
 ## La risposta breve
 
-Sì. Una guida di montagna autorizzata è obbligatoria sul Jbel Toubkal, e lo è dal 2018. Non è una raccomandazione, un'usanza locale o una vendita aggiuntiva inventata dagli operatori turistici. È applicata dalla Gendarmerie Royale ai checkpoint sul sentiero, che controllano il vostro passaporto insieme alla licenza della vostra guida.
+Sì. Una guida di montagna autorizzata è obbligatoria sul Jbel Toubkal, e lo è dall'inverno 2018-2019. Non è una raccomandazione, un'usanza locale o una vendita aggiuntiva inventata dagli operatori turistici. È applicata dalla Gendarmerie Royale ai checkpoint sul sentiero, che controllano il vostro passaporto insieme alla licenza della vostra guida.
 
 Se avete letto un vecchio articolo di blog che dice che si può salire al Toubkal da soli, quell'articolo precede la regola oppure il suo autore non è stato controllato. Il sentiero è cambiato.
 

@@ -458,7 +458,7 @@ Genau dafür ist unser [4-tägiger Toubkal-Gipfeltrek](/de/tours/toubkal-gipfel-
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal Route", "2 Tage Toubkal", "4 Tage Toubkal", "wie viele Tage Toubkal", "Hoher Atlas"],
     seoTitle: "Toubkal in 2 oder 4 Tagen",
     seoDescription: "Ein direkter Vergleich der 2-Tages- und 4-Tages-Toubkal-Treks – Akklimatisierung, Länge des Gipfeltags, für wen sich welche Route eignet.",
@@ -503,6 +503,9 @@ Das bedeutet nicht, dass die Zwei-Tages-Reise für einen fitten, erfahrenen Berg
 | Tägliche Gehbelastung | Konzentriert auf zwei große Tage | Verteilt |
 | Am besten für | Erfahrene Bergwanderer, knappe Zeitpläne | Höhen-Erstlinge, die meisten Menschen |
 | Wahrscheinlichkeit, sich am Gipfeltag schlecht zu fühlen | Höher | Niedriger |
+| Wo Sie schlafen | Toubkal-Hütte | Gästehaus in Imlil, dann zwei Nächte auf der Hütte |
+| Gehzeit pro Tag | 5 Std., dann 7–8 Std. | 1–2 Std., 5 Std., 6–7 Std., 5–6 Std. |
+| Preis pro Person zu zweit | [254 €](/de/tours/toubkal-besteigung-2-tage) | [468 €](/de/tours/toubkal-gipfel-trek-4-tage) |
 
 ## Wie man wählt
 
@@ -537,7 +540,7 @@ Was der Trek körperlich verlangt, lesen Sie in [Wie schwer ist der Toubkal wirk
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Agafay", "Merzouga", "Zagora", "Marokko Wüste", "Sahara ab Marrakech", "Wüstenvergleich"],
     seoTitle: "Agafay vs. Merzouga vs. Zagora",
     seoDescription: "Ein ehrlicher Vergleich der drei Wüstenoptionen ab Marrakech – Steinwüste versus echte Dünen, wie viele Tage jede braucht, und welche zu Ihrer Reise passt.",
@@ -598,6 +601,8 @@ Der Haken ist die Distanz. Merzouga liegt auf der anderen Seite des Atlas, wesha
 | Landschaft | Steinwüste, keine Dünen | Bescheidene Dünen, Draa-Tal | Hohe Erg-Chebbi-Dünen |
 | Benötigte Zeit | Nachmittag und Abend | 2 Tage, 1 Nacht | 3 Tage, 2 Nächte |
 | Entfernung ab Marrakech | Rund 40 Minuten | Lange Tagesfahrt | Andere Seite des Atlas |
+| Fahrzeit | Unter einer Stunde pro Strecke | ≈7–8 Std. pro Strecke, ≈360 km | Hin ≈7 Std., dann ≈5 Std.; zurück ≈9 Std. |
+| Unser Preis, pro Person zu zweit | [94 €](/de/tours/sonnenuntergang-agafay-wueste) | [195 € privat](/de/tours/zagora-tour-2-tage-marrakesch), [85 € geteilt](/de/tours/zagora-wueste-2-tage-geteilt) | [380 € privat](/de/tours/wuestentour-3-tage-marrakesch), [120 € geteilt](/de/tours/merzouga-wueste-3-tage-geteilt) |
 | Nacht in der Wüste | Camp-Abendessen, stadtnah | Ja | Ja |
 | Am besten für | Kurze Reisen, keine Fahrtage | Zwei-Tages-Fenster | Die echte Sahara sehen |
 
@@ -624,7 +629,7 @@ Der zu vermeidende Fehler ist, Agafay zu buchen und die Sahara zu erwarten. Es i
     region: "sahara-south",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "Sahara Dünen", "Marokko Wüste"],
     seoTitle: "Erg Chebbi vs. Erg Chegaga",
     seoDescription: "Der Unterschied zwischen Marokkos beiden großen Sandmeeren – Dünenhöhe, Zugang, Andrang und Kosten – und wie man zwischen Merzouga und Erg Chegaga wählt.",
@@ -669,6 +674,9 @@ Das prägende Merkmal ist Abgeschiedenheit. Der letzte Zugang erfolgt per 4x4 du
 | Fläche | ~170 km² | ~35 x 15 km (Marokkos größtes Erg) |
 | Dünencharakter | Hoch, scharf geformt, bis ~150 m | Breiteres Feld, sanft |
 | Zugang | Asphaltierte Straße, kurzer Kamelabschnitt | 4x4 durch offene Wüste |
+| Anreise ab Marrakesch | ≈7 Std. bis ins Dadès, dann ≈5 Std. zu den Dünen | ≈8 Std. bis M'Hamid, dann 3–4 Std. im 4x4 |
+| Rückfahrt | ≈9 Std., an einem Tag | ≈8 Std., an einem Tag |
+| Unser privater 3-Tage-Preis, pro Person zu zweit | [380 €](/de/tours/wuestentour-3-tage-marrakesch) | [635 €](/de/tours/erg-chegaga-3-tage-marrakesch) |
 | Andere Camps in Sicht | Mehrere | Wenige bis keine |
 | Reise-Einstufung | Einfach | Moderat |
 | Am besten für | Die klassische Dünenlandschaft | Echte Abgeschiedenheit |
@@ -770,7 +778,7 @@ Wenn Ihre Reise auf den Hochsommer festgelegt ist, kann allein das die Entscheid
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Marokko Trekking", "Mehrtagestrek", "M'Goun", "Ifni-See", "Anti-Atlas", "Hoher Atlas"],
     seoTitle: "Die besten mehrtägigen Treks in Marokko",
     seoDescription: "Vier mehrtägige marokkanische Treks jenseits der Standard-Toubkal-Route – der Ifni-See-Rundweg, die M'Goun-Durchquerung.",
@@ -825,6 +833,27 @@ Als moderat eingestuft — die zugänglichste Route hier. Die Saison ist gegenü
 | 3 | Toubkal Drei Gipfel | Experten-Route |
 | 6 | Toubkal-Rundweg und Ifni-See | Anspruchsvoll |
 | 7 | M'Goun-Massiv-Durchquerung | Experten-Route |
+
+## Alle unsere Atlas-Treks im Vergleich
+
+| Tage | Trek | Schwierigkeit | Wo Sie schlafen | Gehzeit pro Tag | Pro Person zu zweit | Ideal für |
+|---|---|---|---|---|---|---|
+| 2 | [Toubkal-Gipfel](/de/tours/toubkal-besteigung-2-tage) | Anspruchsvoll | Toubkal-Hütte | 5 Std., dann 7–8 Std. | 254 € | Fitte Wanderer mit wenig Zeit |
+| 2 | [Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) | Mittel | Dorfgästehaus | 5–6 Std. | 161 € | Ein erster Eindruck, ohne Gipfel |
+| 3 | [Dörfer im Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage) | Mittel | Zwei Dorfgästehäuser | 4–6 Std. | 235 € | Dorfleben, ohne Gipfel |
+| 3 | [Toubkal über den Aguelzim-Pass](/de/tours/toubkal-aguelzim-pass-3-tage) | Anspruchsvoll | Hütte oder Biwak, je nach Wetter und Wunsch | 5–7 Std. | 393 € | Ein ruhigerer Weg zum Gipfel |
+| 3 | [Die drei 4.000er am Toubkal](/de/tours/toubkal-drei-gipfel-4000m-3-tage) | Experte | Toubkal-Hütte, zwei Nächte | 5–8 Std. | 393 € | Wanderer, die Höhe schon kennen |
+| 4 | [Toubkal-Gipfel, 4 Tage](/de/tours/toubkal-gipfel-trek-4-tage) | Anspruchsvoll | Gästehaus in Imlil, dann die Hütte | 1–7 Std. | 468 € | Das erste Mal in der Höhe |
+| 4 | [Hoher Atlas für Familien](/de/tours/familien-atlas-trek-4-tage) | Leicht | Dorfgästehäuser | 2–5 Std. | 313 € | Familien mit Kindern |
+| 6 | [Toubkal-Runde und Ifni-See](/de/tours/toubkal-runde-ifni-see-6-tage) | Anspruchsvoll | Dorfgîtes, Camps, die Hütte | 4–8 Std. | 948 € | Abgelegene Täler und der Gipfel |
+| 7 | [M'Goun-Durchquerung](/de/tours/mgoun-massiv-trek-7-tage) | Experte | Dorfgîte, Camps, ein Gästehaus | 5–8 Std. | 760 € | Eine echte Expedition |
+| 15 | [Große Durchquerung des Hohen Atlas](/de/tours/hoher-atlas-durchquerung-15-tage) | Experte | Dorfgîtes, Camps, Hütten | 1–9 Std. | 2.040 € | Vom M'Goun bis zum Toubkal |
+
+Jeder Trek ist privat, nur für Ihre Gruppe, mit einem lizenzierten Bergführer, allen Mahlzeiten unterwegs, Maultieren für das Gepäck und dem Transfer ab und bis Marrakesch. Die Toubkal- und M'Goun-Treks enthalten zudem die Nationalparkgebühren. Auf jeder Route, die den Gipfel des Toubkal erreicht, liegen oben etwa von November bis April Schnee und Eis, und Steigeisen und Pickel sind nötig.
+
+## Wer mit Ihnen geht, und wo Sie schlafen
+
+Ihr Guide ist ein lizenzierter Bergführer, und Maultiere tragen das Gepäck, sodass Sie nur mit Tagesrucksack gehen. Abseits der Gipfelrouten übernachten Sie in Dorfgästehäusern, die von Berberfamilien geführt werden: Das Abendessen kocht die Familie, und jedes Zimmer hat ein eigenes Bad. Die Toubkal-Hütte ist anders, eine geteilte Berghütte mit Schlafsälen auf 3.207 m, oberhalb des letzten Dorfes. Auf den längeren Treks übernachten Sie teils in Camps, die das Maultierteam trägt und aufbaut.
 
 ## Was diese Treks gemeinsam haben
 
@@ -4249,7 +4278,7 @@ Transfers — steckt in den 235 €.
     region: "root",
     readTime: 8,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["Marokko Tour Gruppenrabatt", "Privattour Preis pro Person", "Marokko Tour Kosten pro Person", "Preis nach Gruppengröße", "Wüstentour Preis 2 Personen", "Marokko Reisebudget"],
     seoTitle: "Marokko-Tourpreise nach Gruppengröße",
     seoDescription:
@@ -4257,7 +4286,7 @@ Transfers — steckt in den 235 €.
     faq: [
       { q: "Warum ist eine Marokko-Privattour für zwei Personen so viel günstiger als für eine?", a: "Weil eine Privattour pro Fahrzeug berechnet wird, nicht pro Sitzplatz. Der 4x4, der Fahrer, der Kraftstoff und die Übernachtungen kosten fast dasselbe, ob eine Person reist oder zwei. Bei unserer [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) liegt der Einzelpreis bei 690 € und der Preis zu zweit bei je 380 € — ein Rückgang von 54 %, weil der zweite Reisende nur seine eigenen Mahlzeiten und sein Bett hinzufügt, nicht ein zweites Fahrzeug." },
       { q: "Wie viel spare ich, wenn wir zu viert statt zu zweit reisen?", a: "Bei der [3-tägigen Sahara-Tour](/de/tours/sahara-3day-marrakech) sinkt der Preis pro Person von 380 € zu zweit auf 295 € zu viert — rund 31 % pro Person. Die Ersparnis ist real, aber deutlich kleiner als der Sprung von eins auf zwei, denn bei vier Personen sind die fixen Fahrzeugkosten bereits weit verteilt und Sie addieren nur noch Kosten pro Kopf: Mahlzeiten, Betten im Zelt und den Kamelritt." },
-      { q: "Gelten Gruppenrabatte auch für geteilte Wüstentouren?", a: "Nein, und es lohnt sich zu verstehen, warum. Eine geteilte Tour wie der [2-tägige Zagora-Trip](/de/tours/zagora-2day-marrakech) wird pro Sitzplatz zu 77 € verkauft — Sie kaufen einen Platz in einem Minibus, der ohnehin fährt. Es gibt keine Fahrzeugkosten zu teilen, also kosten sechs Plätze das Sechsfache eines Platzes. Gruppenpreise gibt es nur bei Privattouren." },
+      { q: "Gelten Gruppenrabatte auch für geteilte Wüstentouren?", a: "Nein, und es lohnt sich zu verstehen, warum. Eine geteilte Tour wie unsere [2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt) wird pro Sitzplatz verkauft, ab zwei Personen zu 85 € — Sie kaufen einen Platz in einem Minibus, der ohnehin fährt. Es gibt keine Fahrzeugkosten zu teilen, also kosten sechs Plätze das Sechsfache eines Platzes. Gruppenpreise gibt es nur bei Privattouren." },
       { q: "Gibt es eine Gruppengröße, ab der der Preis nicht mehr sinkt?", a: "Ja. Ab sechs Personen flacht der Preis pro Person ab, und ab acht bewegt er sich kaum noch. An diesem Punkt braucht es ein zweites Fahrzeug oder einen größeren Minibus, sodass sich die Fixkosten, die Sie gerade verteilt haben, zu verdoppeln beginnen. Unsere veröffentlichten Staffeln reichen bis vierzehn Personen, aber die relevanten Ersparnisse liegen alle in den ersten sechs." },
       { q: "Sind die Rabatte bei Tagestouren genauso hoch wie bei Mehrtagestouren?", a: "Sie fallen von eins auf zwei stark und flachen dann schnell ab. Eine [Medina-Tour in Marrakesch](/de/tours/marrakech-medina-cultural-tour) kostet allein 73 €, zu zweit je 41 € und zu sechst nur 31 € — fast die gesamte Ersparnis kommt also mit der zweiten Person. Geteilt wird der Tag eines lizenzierten Guides: eine einzige Kostenstelle, einmal aufgeteilt. Mehrtagestouren fallen weiter, weil zusätzlich Fahrzeug, Kraftstoff und Unterkunft verteilt werden." },
     ],
@@ -4363,11 +4392,12 @@ rabattiert etwas anderes.
 
 ## Geteilte Touren haben gar keine Gruppenpreise
 
-Das überrascht viele, deshalb sei es klar gesagt. Der
-[2-tägige Wüstentrip nach Zagora](/de/tours/zagora-2day-marrakech) kostet
-zu zweit je **77 €**, zu viert **51 €** und zu sechst **39 €**. Es gibt keine Staffel, keine
-Spanne und keine Verhandlung, denn der Minibus fährt, ob Sie einen Platz buchen
-oder sechs.
+Das überrascht viele, deshalb sei es klar gesagt. Unsere
+[geteilte 2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt) kostet ab zwei
+Personen **85 €** pro Platz (allein 105 €), egal wie viele Sie sind: Es gibt keine Staffel,
+keine Spanne und keine Verhandlung, denn der Minibus fährt, ob Sie einen Platz buchen
+oder sechs. Die [private 2-Tage-Tour nach Zagora](/de/tours/zagora-tour-2-tage-marrakesch)
+dagegen sinkt von **195 €** pro Person zu zweit auf **170 €** zu viert und **130 €** zu sechst.
 
 Wenn Sie zu zweit mit knappem Budget reisen, ist die geteilte Tour drastisch
 günstiger als die private. Ab vier Personen wird der Abstand klein genug, dass die
@@ -4416,15 +4446,15 @@ und die Zahl, die Sie bei Ihrer Gruppengröße sehen, ist die, die Sie zahlen.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["Wüstentour privat oder geteilt", "geteilte Wüstentour Marokko", "private Sahara-Tour Marokko", "Merzouga Tour Vergleich", "Wüstentour Minibus", "lohnt sich Wüstentour Marokko"],
     seoTitle: "Marokko-Wüstentour: privat oder geteilt",
     seoDescription:
       "Geteilte Wüstentouren in Marokko kosten 110–170 € pro Platz und werden nie günstiger.",
     faq: [
-      { q: "Was ist der echte Unterschied zwischen privater und geteilter Wüstentour?", a: "Eine geteilte Tour setzt Sie mit sechs bis zehn weiteren Reisenden in einen Minibus, mit einem festen Zeitplan, der sich nicht ändern lässt. Eine Privattour ist Ihr eigenes Fahrzeug samt Fahrer-Guide: Abfahrtszeit, Fotostopps und Mittagspausen entscheiden Sie. Die Route ist meist fast identisch — anders ist, wer sonst im Fahrzeug sitzt, wer das Tempo bestimmt und wie sich der Preis verhält, wenn Ihre Gruppe wächst. Alle unsere Touren sind privat, auch die [4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)." },
+      { q: "Was ist der echte Unterschied zwischen privater und geteilter Wüstentour?", a: "Eine geteilte Tour setzt Sie mit sechs bis zehn weiteren Reisenden in einen Minibus, mit einem festen Zeitplan, der sich nicht ändern lässt. Eine Privattour ist Ihr eigenes Fahrzeug samt Fahrer-Guide: Abfahrtszeit, Fotostopps und Mittagspausen entscheiden Sie. Die Route ist meist fast identisch — anders ist, wer sonst im Fahrzeug sitzt, wer das Tempo bestimmt und wie sich der Preis verhält, wenn Ihre Gruppe wächst. Wir bieten beides an: Privattouren wie die [4-Tage-Grand-Tour](/de/tours/wuestentour-4-tage-marrakesch) und geteilte Abfahrten nach [Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) und [Zagora](/de/tours/zagora-wueste-2-tage-geteilt)." },
       { q: "Lohnt sich der Aufpreis für eine private Wüstentour?", a: "Das hängt fast vollständig von der Gruppengröße ab. Allein ist ein geteilter Platz deutlich günstiger und die ehrliche Antwort lautet meist nein — eine Person kann die Kosten eines 4x4 nicht verteilen. Zu zweit kostet unsere [private 4-Tage-Tour](/de/tours/desert-4day-marrakech) 526 € pro Person, etwa 200 € mehr als ein geteilter Platz auf derselben Route. Zu viert sind es 346 €, nah am geteilten Preis, und zu sechst 270 €, ab etwa fünf Personen ist privat also zugleich günstiger und besser." },
-      { q: "Wie viele Personen sind auf einer geteilten Wüstentour in Marokko?", a: "Üblicherweise sechs bis zehn, in einem Minibus mit bis zu sechzehn Plätzen. Geteilte Abfahrten sind meist auf zehn bis zwölf begrenzt, damit niemand vier Tage auf einem Mittelsitz verbringt. Sie kennen die Gruppe vorher nicht, und den Zeitplan bestimmt die Route, nicht die Mitreisenden — das ist der Handel, den Sie für den niedrigeren Preis eingehen." },
+      { q: "Wie viele Personen sind auf einer geteilten Wüstentour in Marokko?", a: "Unsere geteilten Abfahrten fahren in einem klimatisierten Minibus mit bis zu sechzehn Plätzen. Sie kennen die Gruppe vorher nicht, und den Zeitplan bestimmt die Route, nicht die Mitreisenden — das ist der Handel, den Sie für den niedrigeren Preis eingehen." },
       { q: "Kann man auf einer geteilten Wüstentour für Fotos anhalten?", a: "Ja, aber an geplanten Stopps und nicht auf Zuruf. Der Fahrer hält einen Zeitplan ein, der für das ganze Fahrzeug funktionieren muss: Die Aussichtspunkte am Tizi n'Tichka, Aït Ben Haddou und die Todra-Schlucht bekommen alle ihren Stopp, die namenlose Kurve mit dem schönen Licht nicht. Auf einer Privattour kostet dieser Stopp einen Satz an den Fahrer." },
       { q: "Was ist besser für eine Familie mit kleinen Kindern?", a: "Eine Privattour, und nicht in erster Linie wegen des Komforts. Kinder bestimmen ihren eigenen Rhythmus bei Mahlzeiten, Nickerchen und Toilettenpausen, und ein geteilter Minibus kann das nicht auffangen, ohne acht Fremde zu stören. Die [4-Tage-Familientour](/de/tours/family-desert-4day-marrakech) kostet 346 € pro Person zu viert — und eine vierköpfige Familie ist genau die Größe, ab der privat keinen Aufpreis mehr kostet." },
     ],
@@ -4466,7 +4496,7 @@ Seite — ein geteilter Platz kann das nicht.
 
 Rund 110–170 € pro Person für drei Tage oder etwa 330 € für vier, und für
 Alleinreisende ist das ehrlich gesagt kaum zu schlagen: Eine Person kann die Kosten
-eines privaten 4x4 nicht verteilen, und genau dafür gibt es die geteilte Tour.
+eines privaten 4x4 nicht verteilen, und genau dafür gibt es die geteilte Tour. Unsere eigene [geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) kostet ab zwei Personen 120 € pro Person und allein 160 €, die [geteilte 2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt) 85 € bzw. 105 €.
 
 **Worauf Sie verzichten:**
 
@@ -4521,11 +4551,37 @@ Das Muster hält, mit einem Unterschied: Auf drei Tagen erreicht der private Pre
 den geteilten bei normaler Gruppengröße nie (230 € zu sechst gegen 110–170 € pro
 Platz), auf drei Tagen bleibt der geteilte Platz also die günstige Wahl.
 
+## Dieselbe 3-Tage-Route im direkten Vergleich
+
+Unsere geteilte und unsere private 3-Tage-Tour nach Merzouga fahren dieselbe Straße über dieselben Strecken, der Vergleich ist also sauber:
+
+| | Geteilt, 3 Tage Merzouga | Privat, 3 Tage Sahara |
+|---|---|---|
+| Fahrzeug | Klimatisierter Minibus, bis zu 16 Personen | Privater 4x4, nur Ihre Gruppe |
+| Am Steuer | Ein englisch- oder französischsprachiger Fahrer | Ein Fahrer-Guide nur für Ihre Gruppe |
+| Tag 1: Marrakesch → Aït Ben Haddou → Dadès | ≈7 Std., ≈420 km | ≈7 Std., ≈420 km |
+| Tag 2: Dadès → Todra-Schlucht → Erg Chebbi | ≈5 Std., ≈300 km | ≈5 Std., ≈300 km |
+| Tag 3: zurück nach Marrakesch | ≈9 Std., ≈560 km | ≈9 Std., ≈560 km |
+| Stopps | Fest, nach Fahrplan | Wo immer Sie möchten |
+| Preis pro Person | 160 € allein, 120 € ab zwei Personen | 690 € allein, 380 € zu zweit, 230 € zu sechst |
+
+Die Fahrzeit ist in beiden Fällen gleich: rund 21 Stunden in drei Tagen. Was sich ändert, ist, wer über die Stopps entscheidet und wer sonst in diesen Stunden im Fahrzeug sitzt. Wenn Ihnen der lange letzte Tag Sorgen macht, verteilt die [4-Tage-Grand-Tour](/de/tours/wuestentour-4-tage-marrakesch) dieselbe Strecke auf Tage von etwa 4–5 Stunden.
+
+## Was zu Ihnen passt
+
+| Sie reisen | Unser Rat | Warum |
+|---|---|---|
+| Allein | Geteilt | Eine Person kann keinen 4x4 teilen, und die Gruppe ist Gesellschaft |
+| Zu zweit | Beides | Privat kostet über drei Tage rund 260 € mehr pro Person und bringt Ihren eigenen Zeitplan |
+| Als Familie mit kleinen Kindern | Privat | Essen, Mittagsschlaf und Toilettenpausen richten sich nach den Kindern, nicht nach acht Fremden |
+| Zum Fotografieren | Privat | Das Licht hält sich an keinen Fahrplan |
+| Zu viert oder mehr | Privat | Zu viert kostet die private 4-Tage-Tour etwa so viel wie ein geteilter Platz |
+
 ## Was in beiden Fällen gleich ist
 
 Das sei klar gesagt, weil manche Anbieter anderes andeuten:
 
-- **Das Camp.** Gleicher Platz, gleiche Zelte, gleiches Abendessen.
+- **Die Dünen und der Nachthimmel.** Die Zelte können sich allerdings unterscheiden: siehe [Wüstencamp: Luxus oder Standard](/de/blog/wuestencamp-luxus-oder-standard).
 - **Der Kamelritt.** Gleiche Dünen, gleiche Stunde vor Sonnenuntergang.
 - **Die Straße.** Es gibt eine Straße nach Merzouga, und alle fahren sie.
 - **Die Ausschlüsse.** Mittagessen und Trinkgelder liegen in beiden Fällen außerhalb
@@ -4556,8 +4612,7 @@ dem Niveau des geteilten; darüber zahlen Sie weniger für Ihr eigenes Fahrzeug.
 zweit oder zu dritt** kostet privat mehr pro Person: Sie zahlen für die Freiheit,
 und das ist das, woran sich Leute erinnern.
 
-Alle unsere Touren sind privat, und jede veröffentlicht ihre Staffeltabelle auf der
-Seite: Die Zahl bei Ihrer Gruppengröße ist die Zahl, die Sie zahlen.
+Unsere Privattouren veröffentlichen ihre Preisstaffel auf der Seite, und die Zahl für Ihre Gruppengröße ist die, die Sie zahlen. Unsere geteilten Plätze haben ab zwei Personen einen festen Preis.
 
 👉 **[Zur 4-Tage-Grand-Tour](/de/tours/desert-4day-marrakech)** — 526 € pro Person zu zweit, 270 € zu sechst — oder **[zur 4-Tage-Familientour](/de/tours/family-desert-4day-marrakech)** für 346 € pro Person zu viert.
 `,
@@ -4710,8 +4765,8 @@ Grob: **Je länger und teurer die Reise, desto mehr lohnt sich die Direktbuchung
 
 - Ein [Medina-Rundgang](/de/tours/marrakech-medina-cultural-tour) für 73 €: Die
   Provision sind ein paar Euro. Buchen Sie, wo es bequem ist.
-- Eine [geteilte Zagora-Tour](/de/tours/zagora-2day-marrakech) für 77 €: immer noch
-  kleines Geld, aber Sie gewinnen einen echten Ansprechpartner für die Abholung.
+- Eine [2-Tage-Tour nach Zagora](/de/tours/zagora-tour-2-tage-marrakesch) für 360 € allein: Die
+  Provision ist jetzt echtes Geld, und Sie gewinnen einen echten Ansprechpartner für die Abholung.
 - Eine [4-tägige Familien-Wüstentour](/de/tours/family-desert-4day-marrakech) für
   1.592 € zu viert: Eine Provisionsschicht sind hier mehrere hundert Euro, und sie
   bringt Ihnen nichts, was der Veranstalter nicht ohnehin geleistet hätte.
@@ -5161,7 +5216,7 @@ für das mitgebrachte Alter nicht passt.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-11",
-    updatedAt: "2026-08-11",
+    updatedAt: "2026-10-31",
     tags: [
       "Luxuscamp Marokko",
       "Standardcamp Wüste",
@@ -5185,7 +5240,7 @@ für das mitgebrachte Alter nicht passt.
       },
       {
         q: "Wie viel mehr kostet ein Luxuscamp?",
-        a: "Im breiteren Markt liegen Standardcamps bei etwa 40–100 EUR pro Nacht und Luxuscamps bei 150–500 EUR, Ultra-Luxus noch darüber. Als Upgrade auf eine bereits gebuchte Tour rechnen Sie mit rund 70 EUR pro Person und Nacht — das ist der übliche Satz, den Veranstalter hier für den Wechsel verlangen.",
+        a: "Im breiteren Markt liegen Standardcamps bei etwa 40–100 EUR pro Nacht und Luxuscamps bei 150–500 EUR, Ultra-Luxus noch darüber. Auf unseren Privattouren kostet das Upgrade auf ein Luxuszelt oder -zimmer in denselben Camps und Hotels 40 EUR pro Person und Nacht.",
       },
       {
         q: "Ist ein Standardcamp unbequem?",
@@ -5193,7 +5248,7 @@ für das mitgebrachte Alter nicht passt.
       },
       {
         q: "Haben Luxuscamps Strom und Heizung?",
-        a: "Meist ja — Solar- oder Generatorstrom für Licht und Laden, Heizgeräte für Winternächte und manchmal Klimaanlage im Sommer. Auch die Standardcamps, die wir nutzen, haben Strom für Licht und Laden sowie WLAN — was ihnen fehlt, ist die Temperaturregelung, und die wiegt im Januar deutlich mehr als im April.",
+        a: "Meist ja — Solar- oder Generatorstrom für Licht und Laden, Heizgeräte für Winternächte und manchmal Klimaanlage im Sommer. Auf unseren Touren hängt das von der Reise ab: Das Camp unserer privaten Merzouga-Touren ist klimatisiert, während die Standardzelte unserer geteilten Merzouga-Tour Decken, aber keine Heizung haben. Das Zelt mit eigenem Bad dort hat eine, und das wiegt im Januar deutlich mehr als im April.",
       },
       {
         q: "Welches Camp sollten Familien wählen?",
@@ -5215,7 +5270,7 @@ Alles andere, was auf der Luxusseite aufgelistet wird — größere Betten, Tepp
 
 ## Wie ein Standardcamp wirklich ist
 
-Das ist es, was die meisten unserer Wüstentouren beinhalten, und es ist kein Überlebenscamping:
+So ist das Camp auf unserer geteilten Merzouga-Tour, und es ist kein Überlebenscamping:
 
 - Ein Bettgestell mit Matratze, Bettwäsche und Decken, in einem Segeltuchzelt oder einem traditionellen schwarzen Berberzelt aus Wolle
 - Spültoiletten und heiße Duschen zur gemeinsamen Nutzung im nahen Block
@@ -5241,7 +5296,7 @@ Was sich nicht ändert: die Dünen, der Sonnenuntergang, die Sterne, der Kamelri
 | | Standard | Luxus |
 | --- | --- | --- |
 | Marktpreis pro Nacht | 40–100 EUR | 150–500 EUR |
-| Typisches Upgrade auf gebuchter Tour | — | etwa 70 EUR pro Person und Nacht |
+| Upgrade auf unseren Privattouren | — | 40 EUR pro Person und Nacht |
 | Bad | Gemeinschaftsblock | eigenes Bad im Zelt |
 | Strom und WLAN | ja | ja |
 | Temperaturregelung | keine | Heizung, oft Klimaanlage |
@@ -5250,7 +5305,7 @@ Zwei Dinge lohnen in dieser Tabelle den zweiten Blick.
 
 Erstens ist die Spanne beim Luxus enorm. 150 EUR und 500 EUR kaufen wirklich verschiedene Erlebnisse, und ein Camp, das am unteren Ende dieser Spanne als „Luxus" beworben wird, kann ein Standardcamp mit besserem Bett sein. Fragen Sie ausdrücklich, ob das Bad im Zelt ist, denn das ist die Frage, die sie tatsächlich trennt.
 
-Zweitens wird das Upgrade **pro Person und Nacht** berechnet, es skaliert also schnell. Für ein Paar auf einer zweitägigen Wüstenreise sind das rund 280 EUR — was auf unserer [3-tägigen Sahara-Tour](/de/tours/wuestentour-3-tage-marrakesch) zu 380 EUR pro Person bei zwei Reisenden den Reisepreis erheblich erhöht.
+Zweitens wird das Upgrade **pro Person und Nacht** berechnet, es wächst also mit der Reise. Auf unserer [3-tägigen Sahara-Tour](/de/tours/wuestentour-3-tage-marrakesch) zu 380 EUR pro Person zu zweit kostet das Upgrade für beide Nächte 80 EUR pro Person, also 160 EUR für das Paar.
 
 ## Wann wir sagen würden: zahlen Sie dafür
 
@@ -5268,7 +5323,7 @@ Zweitens wird das Upgrade **pro Person und Nacht** berechnet, es skaliert also s
 
 **Wenn Sie die Wüste so wollen, wie sie ist.** Im traditionellen schwarzen Wollzelt schläft man hier seit sehr langer Zeit. Eine Segeltuch-Suite mit Regendusche ist ein Hotelzimmer, das zufällig in einem Dünenfeld steht. Beides ist angenehm; nur eines davon ist die Sahara.
 
-**Bei einer Gruppenabfahrt.** Unsere [geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) kostet 120 EUR pro Person. 70 EUR pro Nacht für ein eigenes Bad daraufzulegen ändert die Art der gebuchten Reise, und an diesem Punkt ist eine Privattour mit Standardcamp oft das bessere Geschäft.
+**Bei einer Gruppenabfahrt außerhalb des Winters.** Unsere [geteilte 3-Tage-Tour nach Merzouga](/de/tours/merzouga-wueste-3-tage-geteilt) kostet 120 EUR pro Person, mit einem gemeinsamen Sanitärblock. Ein Zelt mit eigenem Bad kostet 30 EUR pro Person mehr. Von Dezember bis Februar lohnt es sich, weil es auch das Zelt mit Heizung ist; im Frühling und Herbst kann man gut darauf verzichten.
 
 **Wenn es einen Tag kostet.** Mehr Zeit in der Wüste schlägt ein schöneres Bad, fast immer. Zwei Nächte am Erg Chegaga im Standardcamp sind die bessere Reise als eine Nacht am Erg Chebbi im Luxuscamp — warum die entlegeneren Dünen die zusätzliche Fahrt wert sind, steht in unserem [Vergleich Erg Chebbi und Erg Chegaga](/de/blog/erg-chebbi-vs-erg-chegaga).
 
@@ -5280,13 +5335,20 @@ Camps werden mit den Worten beschrieben, die der Veranstalter wählt, und „Lux
 
 Diese eine Antwort sagt Ihnen mehr als jedes Foto auf einer Buchungsseite. Alles andere — die Teppiche, die Laternen, das Messingtablett — taucht auf den Fotos von beiden auf.
 
-## Was wir buchen
+## Was unsere Touren wirklich enthalten
 
-Wir nutzen auf den meisten Wüstenabfahrten Standard-Berbercamps und schreiben das in den Leistungen jeder Tour deutlich hin, statt es vage zu lassen. Wo eine Tour ein Luxus- oder Familiencamp enthält, steht das ebenfalls dort.
+„Wüstencamp“ allein sagt nicht, was Sie kaufen. Deshalb hier, was jede unserer Wüstentouren enthält:
 
-Wenn Sie das Upgrade wollen, sagen Sie es bei der Buchung, und wir kalkulieren es ehrlich für Ihre Daten — einschließlich der Auskunft, wann wir es nicht für sinnvoll halten, was für ein Paar im April mit einer einzigen Wüstennacht meist unsere Antwort ist.
+| Tour | Camp | Bad | Heizung und Kühlung |
+|---|---|---|---|
+| Private Merzouga-Touren ([3 Tage](/de/tours/wuestentour-3-tage-marrakesch), [4 Tage](/de/tours/wuestentour-4-tage-marrakesch), [Familie 4 Tage](/de/tours/familien-wuestentour-4-tage)) | Sahara Garden, Erg Chebbi | Eigenes Bad mit Dusche und WC | Klimatisiert |
+| [Private Erg-Chegaga-Tour, 3 Tage](/de/tours/erg-chegaga-3-tage-marrakesch) | Camp Naji, Erg Chegaga | Eigenes Bad mit Toilette und Dusche | Fragen Sie uns für Ihre Reisedaten |
+| [Geteilte Merzouga-Tour, 3 Tage](/de/tours/merzouga-wueste-3-tage-geteilt) | Geteiltes Standardcamp, Erg Chebbi | Gemeinsamer Sanitärblock oder eigenes Bad für 30 EUR mehr pro Person | Nur Decken; das Zelt mit eigenem Bad hat eine Heizung |
+| [Geteilte Zagora-Tour, 2 Tage](/de/tours/zagora-wueste-2-tage-geteilt) | Geteiltes Camp, Zagora | Eigenes Bad mit Warmwasser | Heizung |
 
-👉 **[Unsere Wüstentouren ansehen](/de/tours?cat=desert)** — bei jeder steht genau, welches Camp enthalten ist, denn „Wüstencamp" allein sagt nicht, was Sie kaufen.
+Auf unseren Privattouren ist das, was anderswo Luxus von Standard trennt, nämlich das eigene Bad, also bereits inbegriffen. Das Upgrade auf diesen Touren kostet 40 EUR pro Person und Nacht und bringt Sie in ein Luxuszelt oder -zimmer in denselben Camps und Hotels. Sagen Sie es uns bei der Buchung, und wir berechnen es ehrlich für Ihre Daten — auch mit dem Hinweis, wenn wir es nicht für lohnend halten, was für ein Paar im April bei einer einzigen Wüstennacht meist unsere Antwort ist.
+
+👉 **[Unsere Wüstentouren ansehen](/de/tours?cat=desert)**: Jede nennt genau, welches Camp inbegriffen ist.
 `,
   },
   {
@@ -6035,7 +6097,7 @@ Wenn Ihre Reise das Land durchquert, müssen Sie vielleicht gar nicht zum Ausgan
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-10-31",
     tags: ["Sahara Wetter", "Merzouga Temperatur", "beste Reisezeit Wueste Marokko", "Packliste Wueste", "Klima Erg Chebbi"],
     seoTitle: "Wie kalt ist die Sahara nachts? Nach Monat",
     seoDescription:
@@ -6130,8 +6192,9 @@ mehr Wasser als gedacht.
 - Warme Socken; der Boden im Camp ist kalter Sand
 - Geschlossene Schuhe für den Abend
 
-Die Camps stellen dicke Decken, die meisten haben im Winter Heizungen, aber Sie
-sind draußen — zum Essen, für die Sterne und für den Sonnenaufgang. Dann findet
+Die Camps stellen dicke Decken. Die Heizung hängt vom Camp ab: Auf unseren Touren ist das Camp der
+privaten Merzouga-Touren klimatisiert und die Zelte der geteilten Zagora-Tour haben eine Heizung,
+die Standardzelte der geteilten Merzouga-Tour aber nicht. So oder so sind Sie draußen — zum Essen, für die Sterne und für den Sonnenaufgang. Dann findet
 Sie die Kälte.
 
 Die vollständige Liste steht in

@@ -454,7 +454,7 @@ Concediti l'itinerario più lungo se il tuo programma lo permette, cammina più 
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["itinerario Toubkal", "Toubkal 2 giorni", "Toubkal 4 giorni", "quanti giorni Toubkal", "Alto Atlante"],
     seoTitle: "Toubkal in 2 Giorni o 4",
     seoDescription: "Un confronto diretto tra il trekking di 2 giorni e quello di 4 giorni sul Toubkal — acclimatazione, durata del giorno della vetta, a chi si adatta ciascuno.",
@@ -499,6 +499,9 @@ Nulla di tutto questo significa che il viaggio di due giorni sia pericoloso per 
 | Carico di cammino giornaliero | Concentrato in due grandi giornate | Distribuito |
 | Adatto a | Escursionisti esperti, programmi serrati | Chi è alla prima volta in quota, la maggior parte delle persone |
 | Probabilità di sentirsi male il giorno della vetta | Più alte | Più basse |
+| Dove dormi | Rifugio del Toubkal | Casa a Imlil, poi due notti al rifugio |
+| Cammino al giorno | 5 h, poi 7–8 h | 1–2 h, 5 h, 6–7 h, 5–6 h |
+| Prezzo a testa, in due | [254 €](/it/tours/salita-toubkal-2-giorni) | [468 €](/it/tours/trek-cima-toubkal-4-giorni) |
 
 ## Come scegliere
 
@@ -533,7 +536,7 @@ Per saperne di più su cosa richiede fisicamente il trekking, vedi [Quanto è Di
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Agafay", "Merzouga", "Zagora", "deserto Marocco", "Sahara da Marrakech", "confronto deserti"],
     seoTitle: "Agafay vs Merzouga vs Zagora",
     seoDescription: "Un confronto onesto delle tre opzioni desertiche del Marocco da Marrakech — deserto di pietra contro vere dune, quanti giorni serve ciascuno.",
@@ -594,6 +597,8 @@ Il problema è la distanza. Merzouga è dall'altro lato dell'Atlante, ecco perch
 | Paesaggio | Deserto di pietra, no dune | Dune modeste, Valle del Draa | Alte dune dell'Erg Chebbi |
 | Tempo necessario | Pomeriggio e sera | 2 giorni, 1 notte | 3 giorni, 2 notti |
 | Distanza da Marrakech | Circa 40 minuti | Lungo giorno di guida | Dall'altro lato dell'Atlante |
+| Tempo di guida | Meno di un'ora per tratta | ≈7–8 h per tratta, ≈360 km | Andata ≈7 h poi ≈5 h; ritorno ≈9 h |
+| Il nostro prezzo, a testa in due | [94 €](/it/tours/tramonto-deserto-agafay) | [195 € privato](/it/tours/tour-zagora-2-giorni-marrakech), [85 € condiviso](/it/tours/deserto-zagora-2-giorni-condiviso) | [380 € privato](/it/tours/tour-deserto-3-giorni-marrakech), [120 € condiviso](/it/tours/deserto-merzouga-3-giorni-condiviso) |
 | Notte nel deserto | Cena in campo, vicino alla città | Sì | Sì |
 | Ideale per | Viaggi brevi, senza giorni di viaggio | Finestre di due giorni | Vedere il vero Sahara |
 
@@ -620,7 +625,7 @@ L'errore da evitare è prenotare Agafay aspettandosi il Sahara. È un ottimo via
     region: "sahara-south",
     readTime: 7,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["Erg Chebbi", "Erg Chegaga", "Merzouga", "dune del Sahara", "deserto Marocco"],
     seoTitle: "Erg Chebbi vs Erg Chegaga",
     seoDescription: "La differenza tra i due grandi mari di sabbia del Marocco — altezza delle dune, accesso, folla e costo — e come scegliere tra Merzouga ed Erg Chegaga.",
@@ -665,6 +670,9 @@ La caratteristica distintiva è la remotezza. L'avvicinamento finale è in 4x4 a
 | Area | ~170 km² | ~35 x 15 km (il più grande erg del Marocco) |
 | Carattere delle dune | Alte, nettamente scolpite, fino a ~150 m | Campo più ampio, ondulato |
 | Accesso | Strada asfaltata, breve tratto in cammello | 4x4 attraverso il deserto aperto |
+| Come arrivarci da Marrakech | ≈7 h fino al Dadès, poi ≈5 h fino alle dune | ≈8 h fino a M'Hamid, poi 3–4 h in 4x4 |
+| Il ritorno | ≈9 h, in un giorno | ≈8 h, in un giorno |
+| Il nostro prezzo privato di 3 giorni, a testa in due | [380 €](/it/tours/tour-deserto-3-giorni-marrakech) | [635 €](/it/tours/erg-chegaga-3-giorni-marrakech) |
 | Altri campi in vista | Diversi | Pochi o nessuno |
 | Classificazione viaggio | Facile | Moderato |
 | Ideale per | Il classico paesaggio dunario | Vera remotezza |
@@ -766,7 +774,7 @@ Se il tuo viaggio è fissato in piena estate, questo da solo potrebbe deciderlo.
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-10-31",
     tags: ["trekking Marocco", "trekking di più giorni", "M'Goun", "Lago Ifni", "Anti-Atlante", "Alto Atlante"],
     seoTitle: "Migliori trekking in Marocco",
     seoDescription: "Quattro trekking marocchini di più giorni oltre il classico percorso del Toubkal: il circuito del Lago Ifni, la traversata dell'M'Goun.",
@@ -821,6 +829,27 @@ Classificato moderato: il percorso più accessibile qui. La sua stagione è inve
 | 3 | Tre Vette del Toubkal | Esperto |
 | 6 | Circuito Toubkal e Lago Ifni | Impegnativo |
 | 7 | Traversata del Massiccio M'Goun | Esperto |
+
+## Tutti i nostri trek nell'Atlante, fianco a fianco
+
+| Giorni | Trek | Difficoltà | Dove dormi | Cammino al giorno | A testa, in due | Ideale per |
+|---|---|---|---|---|---|---|
+| 2 | [Vetta del Toubkal](/it/tours/salita-toubkal-2-giorni) | Impegnativo | Rifugio del Toubkal | 5 h, poi 7–8 h | 254 € | Escursionisti allenati con poco tempo |
+| 2 | [Valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) | Moderato | Casa di villaggio | 5–6 h | 161 € | Un primo assaggio, senza vetta |
+| 3 | [Villaggi dell'Alto Atlante](/it/tours/trek-villaggi-alto-atlante-3-giorni) | Moderato | Due case di villaggio | 4–6 h | 235 € | La vita dei villaggi, senza vetta |
+| 3 | [Toubkal dal passo Aguelzim](/it/tours/toubkal-passo-aguelzim-3-giorni) | Impegnativo | Rifugio o bivacco, secondo meteo e preferenze | 5–7 h | 393 € | Una via più tranquilla alla vetta |
+| 3 | [Le tre vette di 4.000 m del Toubkal](/it/tours/toubkal-tre-cime-4000m-3-giorni) | Esperto | Rifugio del Toubkal, due notti | 5–8 h | 393 € | Chi è già a suo agio in quota |
+| 4 | [Vetta del Toubkal, 4 giorni](/it/tours/trek-cima-toubkal-4-giorni) | Impegnativo | Casa a Imlil, poi il rifugio | 1–7 h | 468 € | Una prima volta in quota |
+| 4 | [Alto Atlante in famiglia](/it/tours/trek-atlante-famiglia-4-giorni) | Facile | Case di villaggio | 2–5 h | 313 € | Famiglie con bambini |
+| 6 | [Circuito del Toubkal e lago Ifni](/it/tours/circuito-toubkal-lago-ifni-6-giorni) | Impegnativo | Gîte di villaggio, campi, il rifugio | 4–8 h | 948 € | Valli remote e la vetta |
+| 7 | [Traversata del M'Goun](/it/tours/trek-massiccio-mgoun-7-giorni) | Esperto | Gîte di villaggio, campi, una casa | 5–8 h | 760 € | Una vera spedizione |
+| 15 | [Grande traversata dell'Alto Atlante](/it/tours/grande-traversata-alto-atlante-15-giorni) | Esperto | Gîte di villaggio, campi, rifugi | 1–9 h | 2.040 € | Dal M'Goun al Toubkal, da capo a fondo |
+
+Ogni trek è privato, solo per il tuo gruppo, con una guida di montagna autorizzata, tutti i pasti del trek, i muli per i bagagli e il trasferimento di andata e ritorno da Marrakech. I trek del Toubkal e del M'Goun includono anche i diritti del parco nazionale. Su ogni percorso che raggiunge la vetta del Toubkal, la parte alta ha neve e ghiaccio più o meno da novembre ad aprile, e servono ramponi e piccozza.
+
+## Chi cammina con te, e dove dormi
+
+La tua guida è una guida di montagna autorizzata, e i muli portano i bagagli, quindi cammini con uno zaino da giornata. Lontano dalle vie di vetta, le notti sono in case di villaggio gestite da famiglie berbere: la cena la cucina la famiglia, e ogni camera ha il proprio bagno. Il rifugio del Toubkal è diverso, un rifugio di montagna condiviso con dormitori a 3.207 m, sopra l'ultimo villaggio. Sui trek più lunghi alcune notti sono in campi trasportati e montati dalla squadra dei muli.
 
 ## Cosa hanno in comune questi trekking
 
@@ -4240,7 +4269,7 @@ transfer — è nei 235 €.
     region: "root",
     readTime: 8,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["sconto gruppo tour Marocco", "prezzo tour privato a persona", "costo tour Marocco a persona", "prezzo per dimensione del gruppo", "prezzo tour deserto 2 persone", "budget viaggio Marocco"],
     seoTitle: "Prezzi tour per gruppo 2026",
     seoDescription:
@@ -4248,7 +4277,7 @@ transfer — è nei 235 €.
     faq: [
       { q: "Perché un tour privato in Marocco costa molto meno per due persone che per una?", a: "Perché un tour privato si paga a veicolo, non a posto. Il 4x4, l'autista, il carburante e le notti di alloggio costano quasi lo stesso che viaggi una persona o due. Sul nostro [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) la tariffa singola è di 690 € e quella per due di 380 € ciascuno — un calo del 45 %, perché il secondo viaggiatore aggiunge solo i propri pasti e il proprio letto, non un secondo veicolo." },
       { q: "Quanto risparmio viaggiando in quattro invece che in due?", a: "Sul [tour del Sahara di 3 giorni](/it/tours/sahara-3day-marrakech) il prezzo a persona scende da 380 € in due a 295 € in quattro — circa il 31 % a testa. Il risparmio è reale ma molto più contenuto di quello da uno a due, perché con quattro persone il costo fisso del veicolo è già ampiamente distribuito e si aggiungono solo costi pro capite: pasti, letti nella tenda e il dromedario." },
-      { q: "Gli sconti di gruppo valgono anche per i tour condivisi?", a: "No, e vale la pena capire perché. Un tour condiviso come il [viaggio di 2 giorni a Zagora](/it/tours/zagora-2day-marrakech) si vende a posto, a 77 € — stai comprando un sedile su un minibus che parte comunque. Non c'è alcun costo di veicolo da dividere, quindi sei posti costano sei volte un posto. I prezzi di gruppo esistono solo sui tour privati." },
+      { q: "Gli sconti di gruppo valgono anche per i tour condivisi?", a: "No, e vale la pena capire perché. Un tour condiviso come il nostro [viaggio di 2 giorni a Zagora](/it/tours/deserto-zagora-2-giorni-condiviso) si vende a posto, a 85 € da due persone in su — stai comprando un sedile su un minibus che parte comunque. Non c'è alcun costo di veicolo da dividere, quindi sei posti costano sei volte un posto. I prezzi di gruppo esistono solo sui tour privati." },
       { q: "Esiste una dimensione di gruppo oltre la quale il prezzo smette di scendere?", a: "Sì. Oltre le sei persone il prezzo a persona si appiattisce, e oltre le otto si muove appena. A quel punto serve un secondo veicolo o un minibus più grande, quindi il costo fisso che stavi distribuendo comincia a duplicarsi. Le nostre fasce pubblicate arrivano a quattordici persone, ma tutto il risparmio significativo si concentra nelle prime sei." },
       { q: "Le escursioni giornaliere scontano quanto i tour di più giorni?", a: "Calano molto da uno a due, poi si appiattiscono in fretta. Una [visita alla medina di Marrakech](/it/tours/marrakech-medina-cultural-tour) costa 73 € da soli, 41 € ciascuno in due e solo 31 € in sei, quindi quasi tutto il risparmio arriva con la seconda persona. Ciò che si divide è la giornata di una guida autorizzata: un solo costo, ripartito una volta. I tour di più giorni continuano a scendere perché si ripartiscono anche un veicolo, il carburante e l'alloggio." },
     ],
@@ -4352,10 +4381,12 @@ promette un grosso sconto di gruppo su una visita a piedi sta scontando qualcos'
 
 ## I tour condivisi non hanno prezzi di gruppo
 
-Questo sorprende, quindi vale la pena dirlo chiaramente. Il
-[viaggio di 2 giorni nel deserto di Zagora](/it/tours/zagora-2day-marrakech) costa
-**77 €** ciascuno in due, **51 €** in quattro e **39 €** in sei. Non c'è fascia, né forbice, né
-trattativa, perché il minibus parte che tu prenoti un posto o sei.
+Questo sorprende, quindi vale la pena dirlo chiaramente. Il nostro
+[tour condiviso di 2 giorni a Zagora](/it/tours/deserto-zagora-2-giorni-condiviso) costa
+**85 €** a posto da due persone in su (105 € da soli), qualunque sia il gruppo: non c'è
+fascia, né forbice, né trattativa, perché il minibus parte che tu prenoti un posto o sei.
+Il [tour privato di 2 giorni a Zagora](/it/tours/tour-zagora-2-giorni-marrakech), invece,
+scende da **195 €** a persona in due a **170 €** in quattro e **130 €** in sei.
 
 Se siete in due con un budget contenuto, il tour condiviso è enormemente più
 economico di quello privato. Da quattro in su il divario si stringe abbastanza
@@ -4403,15 +4434,15 @@ numero che vedi per il tuo gruppo è quello che paghi.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-07",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-10-31",
     tags: ["tour deserto privato o condiviso", "tour deserto condiviso Marocco", "tour Sahara privato Marocco", "confronto tour Merzouga", "minibus tour deserto", "vale la pena tour deserto Marocco"],
     seoTitle: "Tour del deserto in Marocco",
     seoDescription:
       "I tour condivisi nel deserto marocchino costano 110–170 € a posto e non scendono mai.",
     faq: [
-      { q: "Qual è la vera differenza tra un tour privato e uno condiviso?", a: "Un tour condiviso ti mette su un minibus con altri sei-dieci viaggiatori, con un orario fisso che non può cambiare. Un tour privato è il tuo veicolo con autista-guida: orario di partenza, soste fotografiche e luoghi del pranzo li decidi tu. L'itinerario è di solito quasi identico: cambia chi altro c'è nel veicolo, chi detta il ritmo e come si comporta il prezzo quando il gruppo cresce. Tutti i nostri tour sono privati, compreso il [Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)." },
+      { q: "Qual è la vera differenza tra un tour privato e uno condiviso?", a: "Un tour condiviso ti mette su un minibus con altri sei-dieci viaggiatori, con un orario fisso che non può cambiare. Un tour privato è il tuo veicolo con autista-guida: orario di partenza, soste fotografiche e luoghi del pranzo li decidi tu. L'itinerario è di solito quasi identico: cambia chi altro c'è nel veicolo, chi detta il ritmo e come si comporta il prezzo quando il gruppo cresce. Offriamo entrambi: tour privati come il [Grand Tour di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech) e partenze condivise per [Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso) e [Zagora](/it/tours/deserto-zagora-2-giorni-condiviso)." },
       { q: "Vale la pena spendere di più per un tour privato nel deserto?", a: "Dipende quasi interamente dalla dimensione del gruppo. Da soli, un posto condiviso costa molto meno e la risposta onesta è di solito no: una persona non può ripartire il costo di un 4x4. In due, il nostro [tour privato di 4 giorni](/it/tours/desert-4day-marrakech) costa 526 € a testa, circa 200 € più di un posto condiviso sullo stesso itinerario. In quattro sono 346 €, vicino al prezzo condiviso, e in sei 270 €, quindi da circa cinque persone in su il privato è insieme più economico e migliore." },
-      { q: "Quante persone ci sono su un tour condiviso nel deserto marocchino?", a: "Di solito da sei a dieci, su un minibus che ne può ospitare sedici. Le nostre partenze condivise si fermano a dieci perché nessuno passi quattro giorni su un sedile centrale. Non conoscerai il gruppo in anticipo, e l'orario lo detta l'itinerario e non i passeggeri: è lo scambio che accetti in cambio del prezzo più basso." },
+      { q: "Quante persone ci sono su un tour condiviso nel deserto marocchino?", a: "Le nostre partenze condivise viaggiano su un minibus climatizzato fino a sedici posti. Non conoscerai il gruppo in anticipo, e l'orario lo detta l'itinerario e non i passeggeri: è lo scambio che accetti in cambio del prezzo più basso." },
       { q: "Si può fermarsi per le foto su un tour condiviso?", a: "Sì, ma alle soste previste e non su richiesta. L'autista segue un orario che deve funzionare per tutto il veicolo, quindi i punti panoramici del Tizi n'Tichka, Aït Ben Haddou e le gole del Todra hanno tutti la loro sosta, mentre la curva senza nome con la luce giusta no. Su un tour privato quella sosta ti costa una frase all'autista." },
       { q: "Cosa è meglio per una famiglia con bambini piccoli?", a: "Un tour privato, e non soprattutto per comodità. I bambini impongono i propri tempi per pasti, riposini e soste in bagno, e un minibus condiviso non può assorbirlo senza disturbare otto sconosciuti. Il [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) costa 346 € a persona in quattro — e una famiglia di quattro è esattamente la dimensione in cui il privato smette di costare un supplemento." },
     ],
@@ -4454,7 +4485,7 @@ pagina, cosa che un posto condiviso non può fare.
 
 Circa 110–170 € a persona per tre giorni, o intorno ai 330 € per quattro, e per chi
 viaggia da solo è onestamente difficile da battere: una persona non può ripartire il
-costo di un 4x4 privato, e il tour condiviso esiste proprio perché non debba farlo.
+costo di un 4x4 privato, e il tour condiviso esiste proprio perché non debba farlo. Il nostro [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso) costa 120 € a persona da due in su e 160 € da soli, il [tour condiviso di 2 giorni a Zagora](/it/tours/deserto-zagora-2-giorni-condiviso) 85 € e 105 €.
 
 **A cosa rinunciate:**
 
@@ -4509,12 +4540,38 @@ Lo schema tiene, con una differenza: su tre giorni il privato non raggiunge mai 
 condiviso con un gruppo normale (230 € in sei contro 110–170 € a posto), quindi su
 tre giorni il posto condiviso resta la scelta economica.
 
+## Lo stesso percorso di 3 giorni, fianco a fianco
+
+I nostri tour di 3 giorni a Merzouga, condiviso e privato, percorrono la stessa strada e le stesse distanze, quindi il confronto è pulito:
+
+| | Condiviso, 3 giorni Merzouga | Privato, 3 giorni Sahara |
+|---|---|---|
+| Veicolo | Minibus climatizzato, fino a 16 persone | 4x4 privato, solo il tuo gruppo |
+| Alla guida | Un autista che parla inglese o francese | Un autista-guida solo per il tuo gruppo |
+| Giorno 1: Marrakech → Aït Ben Haddou → Dadès | ≈7 h, ≈420 km | ≈7 h, ≈420 km |
+| Giorno 2: Dadès → gole del Todra → Erg Chebbi | ≈5 h, ≈300 km | ≈5 h, ≈300 km |
+| Giorno 3: ritorno a Marrakech | ≈9 h, ≈560 km | ≈9 h, ≈560 km |
+| Soste | Fisse, secondo l'orario | Dove chiedi tu |
+| Prezzo a persona | 160 € da soli, 120 € a testa da due | 690 € da soli, 380 € a testa in due, 230 € in sei |
+
+La strada è la stessa in entrambi i casi: circa 21 ore in tre giorni. Cambia chi decide le soste e chi altro siede nel veicolo per quelle ore. Se l'ultimo lungo giorno ti preoccupa, il [Grand Tour di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech) distribuisce lo stesso viaggio su giornate di circa 4–5 ore.
+
+## Quale fa per te
+
+| Viaggi | Il nostro consiglio | Perché |
+|---|---|---|
+| Da solo | Condiviso | Una persona non può dividere un 4x4, e il gruppo fa compagnia |
+| In coppia | Entrambi | Il privato costa circa 260 € in più a testa in tre giorni e ti dà il tuo orario |
+| In famiglia con bambini piccoli | Privato | Pasti, riposini e soste per il bagno seguono i bambini, non otto sconosciuti |
+| Per fotografare | Privato | La luce non segue un orario |
+| In quattro o più | Privato | In quattro, il tour privato di 4 giorni costa più o meno come un posto condiviso |
+
 ## Cosa è uguale in entrambi i casi
 
 Vale la pena dirlo chiaramente, perché certi operatori lasciano intendere il
 contrario:
 
-- **Il campo.** Stesso sito, stesse tende, stessa cena.
+- **Le dune e il cielo notturno.** Le tende però possono essere diverse: vedi [campo nel deserto di lusso o standard](/it/blog/campo-deserto-lusso-o-standard).
 - **Il giro in cammello.** Stesse dune, stessa ora prima del tramonto.
 - **La strada.** C'è una sola strada per Merzouga e la percorrono tutti.
 - **Le esclusioni.** Pranzi e mance restano fuori prezzo in entrambi i casi.
@@ -4544,8 +4601,7 @@ condiviso; oltre, pagate meno per avere il vostro veicolo. In **due o tre** il
 privato costa di più a persona: pagate la libertà, che è la parte che la gente
 ricorda.
 
-Tutti i nostri tour sono privati e ognuno pubblica la sua tabella sulla pagina: il
-numero che vedete per il vostro gruppo è quello che pagate.
+I nostri tour privati pubblicano la tabella delle fasce sulla pagina, quindi il numero che vedi per la tua dimensione di gruppo è quello che paghi. I nostri posti condivisi hanno un prezzo unico da due persone in su.
 
 👉 **[Scopri il Grand Tour di 4 giorni](/it/tours/desert-4day-marrakech)** — 526 € a testa in due, 270 € in sei — oppure **[il tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech)** a 346 € a testa in quattro.
 `,
@@ -4698,8 +4754,8 @@ In sintesi: **più il viaggio è lungo e costoso, più conviene prenotare dirett
 
 - Una [passeggiata nella medina](/it/tours/marrakech-medina-cultural-tour) da 73 €: la
   commissione è di un paio di euro. Prenota dove ti fa comodo.
-- Un [tour condiviso a Zagora](/it/tours/zagora-2day-marrakech) da 77 €: sono ancora
-  pochi soldi, ma guadagni una persona vera a cui chiedere del punto di ritrovo.
+- Un [viaggio di 2 giorni a Zagora](/it/tours/tour-zagora-2-giorni-marrakech) da 360 € per una persona: la
+  commissione ora è denaro vero, e guadagni una persona vera a cui chiedere del punto di ritrovo.
 - Un [tour famiglia di 4 giorni](/it/tours/family-desert-4day-marrakech) da 1.384 € in
   quattro: qui uno strato di commissione vale diverse centinaia di euro, e non ti dà
   nulla che l'operatore non stesse già fornendo.
@@ -5148,7 +5204,7 @@ quando un viaggio non è adatto all'età che portate.
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-08-11",
-    updatedAt: "2026-08-11",
+    updatedAt: "2026-10-31",
     tags: [
       "campo di lusso Marocco",
       "campo standard deserto",
@@ -5172,7 +5228,7 @@ quando un viaggio non è adatto all'età che portate.
       },
       {
         q: "Quanto costa in più un campo di lusso?",
-        a: "Sul mercato in generale i campi standard vanno dai 40 ai 100 EUR a notte e quelli di lusso dai 150 ai 500 EUR, con l'ultra-lusso ancora più su. Come upgrade su un tour già prenotato, calcola circa 70 EUR a persona per notte: è la tariffa corrente che gli operatori qui applicano per farti cambiare campo.",
+        a: "Sul mercato in generale i campi standard vanno dai 40 ai 100 EUR a notte e quelli di lusso dai 150 ai 500 EUR, con l'ultra-lusso ancora più su. Sui nostri tour privati, l'upgrade a una tenda o camera di lusso negli stessi campi e hotel costa 40 EUR a persona per notte.",
       },
       {
         q: "Un campo standard è scomodo?",
@@ -5180,7 +5236,7 @@ quando un viaggio non è adatto all'età che portate.
       },
       {
         q: "I campi di lusso hanno corrente e riscaldamento?",
-        a: "Di solito sì — corrente solare o da generatore per luce e ricarica, stufe per le notti invernali e a volte aria condizionata d'estate. Anche i campi standard che usiamo hanno corrente per luce e ricarica, e il wifi; quello che manca è il controllo della temperatura, che pesa molto più a gennaio che ad aprile.",
+        a: "Di solito sì — corrente solare o da generatore per luce e ricarica, stufe per le notti invernali e a volte aria condizionata d'estate. Sui nostri tour dipende dal viaggio: il campo dei nostri tour privati a Merzouga è climatizzato, mentre le tende standard del nostro tour condiviso a Merzouga hanno coperte ma nessuna stufa. La tenda con bagno privato lì ce l'ha, e pesa molto più a gennaio che ad aprile.",
       },
       {
         q: "Quale campo dovrebbero scegliere le famiglie?",
@@ -5202,7 +5258,7 @@ Tutto il resto che compare nell'elenco del lusso — letti più grandi, tappeti,
 
 ## Com'è davvero un campo standard
 
-È quello che includono la maggior parte dei nostri tour nel deserto, e non è campeggio spartano:
+È il tipo di campo del nostro tour condiviso a Merzouga, e non è campeggio spartano:
 
 - Un letto con rete, materasso, lenzuola e coperte, dentro una tenda in tela o una tenda berbera tradizionale in lana nera
 - Bagni con scarico e docce calde condivisi in un blocco vicino
@@ -5228,7 +5284,7 @@ Cosa non cambia: le dune, il tramonto, le stelle, il giro in dromedario, il sile
 | | Standard | Lusso |
 | --- | --- | --- |
 | Prezzo di mercato a notte | 40–100 EUR | 150–500 EUR |
-| Upgrade tipico su un tour prenotato | — | circa 70 EUR a persona, a notte |
+| Upgrade sui nostri tour privati | — | 40 EUR a persona, a notte |
 | Bagno | blocco condiviso | privato, in tenda |
 | Corrente e wifi | sì | sì |
 | Controllo temperatura | assente | riscaldamento, spesso A/C |
@@ -5237,7 +5293,7 @@ Due cose meritano attenzione in quella tabella.
 
 Primo, la forbice del lusso è enorme. 150 EUR e 500 EUR comprano esperienze davvero diverse, e un campo pubblicizzato come «di lusso» nella parte bassa di quella forbice può essere un campo standard con un letto migliore. Chiedi esplicitamente se il bagno è dentro la tenda, perché è la domanda che li separa per davvero.
 
-Secondo, l'upgrade si paga **a persona e a notte**, quindi cresce in fretta. Per una coppia su due notti nel deserto sono circa 280 EUR — che sul nostro [tour di 3 giorni nel Sahara](/it/tours/tour-deserto-3-giorni-marrakech) a 380 EUR a persona per due viaggiatori è un'aggiunta notevole al prezzo del viaggio.
+Secondo, l'upgrade si paga **a persona e a notte**, quindi cresce con il viaggio. Sul nostro [tour di 3 giorni nel Sahara](/it/tours/tour-deserto-3-giorni-marrakech), a 380 EUR a persona in due, l'upgrade per entrambe le notti aggiunge 80 EUR a testa, 160 EUR per la coppia.
 
 ## Quando diremmo di pagarlo
 
@@ -5255,7 +5311,7 @@ Secondo, l'upgrade si paga **a persona e a notte**, quindi cresce in fretta. Per
 
 **Se vuoi il deserto com'è davvero.** Nella tenda tradizionale in lana nera qui si dorme da moltissimo tempo. Una suite di tela con doccia a pioggia è una camera d'albergo che si trova in un campo di dune. Sono piacevoli entrambe; solo una delle due è il Sahara.
 
-**Su una partenza condivisa.** Il nostro [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso) costa 120 EUR a persona. Aggiungere 70 EUR a notte per un bagno privato cambia il tipo di viaggio che hai prenotato, e a quel punto un tour privato con campo standard conviene spesso di più.
+**Su una partenza condivisa, fuori dall'inverno.** Il nostro [tour condiviso di 3 giorni a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso) costa 120 EUR a persona, con bagni in comune. Una tenda con bagno privato costa 30 EUR in più a persona. Da dicembre a febbraio ne vale la pena, perché è anche la tenda con la stufa; in primavera e autunno se ne può fare a meno.
 
 **Se significa togliere un giorno.** Più tempo nel deserto batte un bagno più bello, quasi sempre. Due notti all'Erg Chegaga in campo standard sono un viaggio migliore di una notte all'Erg Chebbi in campo di lusso — vedi il nostro [confronto tra Erg Chebbi ed Erg Chegaga](/it/blog/erg-chebbi-vs-erg-chegaga) per capire perché le dune più remote valgono la strada in più.
 
@@ -5267,13 +5323,20 @@ I campi si descrivono con le parole che sceglie l'operatore, e «lusso» non è 
 
 Quella singola risposta ti dice più di qualsiasi fotografia su una pagina di prenotazione. Tutto il resto — i tappeti, le lanterne, il vassoio di ottone — compare nelle foto di entrambi.
 
-## Cosa prenotiamo noi
+## Cosa includono davvero i nostri tour
 
-Usiamo campi berberi standard sulla maggior parte delle nostre partenze nel deserto, e lo scriviamo chiaramente nelle inclusioni di ogni tour invece di lasciarlo vago. Dove un tour include un campo di lusso o per famiglie, è indicato anche quello.
+«Campo nel deserto» da solo non dice cosa stai comprando, quindi ecco cosa include ciascuno dei nostri tour nel deserto:
 
-Se vuoi l'upgrade, dillo quando prenoti e lo quotiamo onestamente per le tue date — compreso dirti quando riteniamo che non ne valga la pena, che per una coppia ad aprile su una singola notte nel deserto è di solito la nostra risposta.
+| Tour | Campo | Bagno | Riscaldamento e climatizzazione |
+|---|---|---|---|
+| Tour privati a Merzouga ([3 giorni](/it/tours/tour-deserto-3-giorni-marrakech), [4 giorni](/it/tours/tour-deserto-4-giorni-marrakech), [famiglia 4 giorni](/it/tours/tour-deserto-famiglia-4-giorni)) | Sahara Garden, Erg Chebbi | Privato, con doccia e WC | Climatizzato |
+| [Erg Chegaga privato, 3 giorni](/it/tours/erg-chegaga-3-giorni-marrakech) | Camp Naji, Erg Chegaga | Privato, con WC e doccia | Chiedici per le tue date |
+| [Merzouga condiviso, 3 giorni](/it/tours/deserto-merzouga-3-giorni-condiviso) | Campo condiviso standard, Erg Chebbi | In comune, o privato per 30 EUR in più a persona | Solo coperte; la tenda con bagno privato ha la stufa |
+| [Zagora condiviso, 2 giorni](/it/tours/deserto-zagora-2-giorni-condiviso) | Campo condiviso, Zagora | Privato, con acqua calda | Stufa |
 
-👉 **[Guarda i nostri tour nel deserto](/it/tours?cat=desert)** — ognuno indica esattamente quale campo è incluso, perché «campo nel deserto», da solo, non dice cosa stai comprando.
+Sui nostri tour privati, quello che altrove separa il lusso dallo standard, il tuo bagno, è quindi già incluso. L'upgrade su questi tour costa 40 EUR a persona per notte e ti porta in una tenda o camera di lusso negli stessi campi e hotel. Diccelo alla prenotazione e te lo quoteremo onestamente per le tue date, anche dicendoti quando secondo noi non vale la pena, che per una coppia ad aprile con una sola notte nel deserto è di solito la nostra risposta.
+
+👉 **[Vedi i nostri tour nel deserto](/it/tours?cat=desert)**: ognuno indica esattamente quale campo è incluso.
 `,
   },
   {
@@ -6020,7 +6083,7 @@ Se il vostro viaggio attraversa il paese, forse non serve tornare al punto di pa
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-10-31",
     tags: ["clima Sahara", "temperatura Merzouga", "quando andare deserto Marocco", "cosa portare deserto", "clima Erg Chebbi"],
     seoTitle: "Clima del deserto del Sahara in Marocco",
     seoDescription:
@@ -6114,7 +6177,9 @@ sole, e più acqua di quanto pensi.
 - Calze pesanti; il pavimento delle tende è sabbia fredda
 - Scarpe chiuse per la sera
 
-I campi forniscono coperte spesse e quasi tutti hanno stufe d'inverno, ma sarai
+I campi forniscono coperte spesse. Il riscaldamento dipende dal campo: sui nostri tour, il campo dei
+tour privati a Merzouga è climatizzato e le tende del tour condiviso a Zagora hanno la stufa, mentre
+le tende standard del tour condiviso a Merzouga no. In ogni caso sarai
 fuori per la cena, per le stelle e per l'alba. È lì che il freddo ti trova.
 
 Per l'elenco completo vedi

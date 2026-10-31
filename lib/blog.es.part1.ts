@@ -1696,13 +1696,13 @@ cada gramo, solo llevar lo que necesitas entre etapas.
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "¿Necesitas un guía para escalar el Toubkal? La norma, explicada",
     excerpt:
-      "Desde 2018 un guía con licencia es obligatorio en el Jbel Toubkal, y hay controles que lo hacen cumplir. Aquí tienes lo que dice realmente la norma, quién comprueba y qué pasa si te presentas sin uno.",
+      "Desde el invierno de 2018-2019 un guía con licencia es obligatorio en el Jbel Toubkal, y hay controles que lo hacen cumplir. Aquí tienes lo que dice realmente la norma, quién comprueba y qué pasa si te presentas sin uno.",
     heroImage: "/gallery/toubkal-berber-guide-snow-trail.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-31",
     tags: ["Toubkal", "guía del Toubkal", "permiso del Toubkal", "Alto Atlas", "normas de trekking", "Imlil"],
     seoTitle: "¿Necesitas un guía para escalar el Toubkal? | Marrakech Eco Tours",
     seoDescription:
@@ -1711,7 +1711,7 @@ cada gramo, solo llevar lo que necesitas entre etapas.
     faq: [
       {
         q: "¿Es obligatorio un guía para escalar el monte Toubkal?",
-        a: "Sí. Desde 2018, las autoridades marroquíes exigen que todo excursionista en el Jbel Toubkal vaya acompañado de un guía de montaña con licencia. La norma se aplica en controles entre Imlil y el refugio, donde la Gendarmería Real comprueba tu pasaporte y la licencia de tu guía. No es una formalidad que se pueda esquivar hablando.",
+        a: "Sí. Desde el invierno de 2018-2019, las autoridades marroquíes exigen que todo excursionista en el Jbel Toubkal vaya acompañado de un guía de montaña con licencia. La norma se aplica en controles entre Imlil y el refugio, donde la Gendarmería Real comprueba tu pasaporte y la licencia de tu guía. No es una formalidad que se pueda esquivar hablando.",
       },
       {
         q: "¿Qué ocurre si intentas escalar el Toubkal sin guía?",
@@ -1737,7 +1737,7 @@ cada gramo, solo llevar lo que necesitas entre etapas.
     content: `
 ## La respuesta corta
 
-Sí. Un guía de montaña con licencia es obligatorio en el Jbel Toubkal, y lo es desde 2018. No es una recomendación, una costumbre local ni un upsell inventado por los operadores turísticos. Lo hace cumplir la Gendarmería Real en controles a lo largo del sendero, y comprueban tu pasaporte junto con la licencia de tu guía.
+Sí. Un guía de montaña con licencia es obligatorio en el Jbel Toubkal, y lo es desde el invierno de 2018-2019. No es una recomendación, una costumbre local ni un upsell inventado por los operadores turísticos. Lo hace cumplir la Gendarmería Real en controles a lo largo del sendero, y comprueban tu pasaporte junto con la licencia de tu guía.
 
 Si has leído alguna entrada de blog antigua que dice que puedes subir el Toubkal en solitario, esa entrada es anterior a la norma o su autor no fue controlado. El sendero ha cambiado.
 

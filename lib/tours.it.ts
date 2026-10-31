@@ -2882,7 +2882,7 @@ export const TOURS: Tour[] = [
     slug: "azzaden-valley-2day-trek",
     localizedSlug: "trek-valle-azzaden-2-giorni",
     brief: [
-      "L'Azzaden è la valle immediatamente a ovest del corridoio Imlil–Toubkal, e la differenza di affluenza è proprio il punto. Il primo giorno prevede 1,5 ore di strada da Marrakech a Imlil, poi circa 700 m di salita per il valico di Tizi Mzik a 2.684 m — con il massiccio del Toubkal che si apre alle vostre spalle — e la discesa tra i ginepri fino al villaggio di Tizi Oussem a 1.850 m. Cinque-sei ore di cammino. Il secondo giorno attraversa il Tizi Oudid e scende ad Aguersioual, circa 12 km e cinque ore, poi il rientro in auto.",
+      "L'Azzaden è la valle immediatamente a ovest del corridoio Imlil–Toubkal, e la differenza di affluenza è proprio il punto. Il primo giorno prevede 1,5 ore di strada da Marrakech a Imlil, poi circa 700 m di salita per il valico di Tizi Mzik a 2.489 m — con il massiccio del Toubkal che si apre alle vostre spalle — e la discesa tra i ginepri fino al villaggio di Tizi Oussem a 1.850 m. Cinque-sei ore di cammino. Il secondo giorno attraversa il Tizi Oudid e scende ad Aguersioual, circa 12 km e cinque ore, poi il rientro in auto.",
       "È classificato moderato, e qui la classificazione significa davvero qualcosa. Nessuna vetta, nessun ghiaione e niente sopra i 2.700 m circa, quindi la quota non diventa mai il problema che rappresenta sul Toubkal. Serve la capacità di camminare cinque-sei ore su sentieri di montagna per due giorni di fila. Chi cammina regolarmente lo trova confortevole; chi non lo fa lo vive come uno sforzo reale ma gestibile.",
       "La notte si passa in una casa per ospiti a conduzione familiare a Tizi Oussem, non in un rifugio o in tenda. Conta più di quanto sembri: un rifugio è una camerata piena di persone che fanno la stessa salita, mentre una casa di villaggio è la casa di qualcuno, con la cena preparata dalla famiglia e una valle che si azzittisce al calare del buio. È la parte di cui i viaggiatori ci scrivono dopo.",
       "A persona: 285 € da soli, 161 € in due, 142 € in tre, 133 € in quattro, 124 € in cinque e 116 € in sei. Comprende la guida alpina abilitata, la notte nella casa per ospiti, tutti i pasti del trek, un mulo per i bagagli del gruppo e il transfer andata e ritorno da Marrakech. Portate solo uno zaino da giornata. Qui l'assicurazione di viaggio è consigliata anziché obbligatoria, l'attrezzatura personale è a vostro carico e le mance per guida e mulattiere sono a parte.",
@@ -2906,9 +2906,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
     ],
     shortDescription: "Una traversata di due giorni verso la tranquilla valle di Azzaden attraverso il passo di Tizi Mzik, con una notte in una casa berbera lontano dalla folla del Toubkal.",
-    description: "L'Azzaden è la valle accanto al trafficato corridoio Imlil–Toubkal, e proprio per questo resta molto più tranquilla. In due giorni valichi il passo di Tizi Mzik (2.684 m) con tutto il massiccio del Toubkal che si apre alle tue spalle, scendi attraverso una foresta di ginepri fino ai villaggi disseminati lungo il fiume Azzaden e trascorri una notte in una casa a gestione familiare a Tizi Oussem. Il secondo giorno attraversa il passo di Tizi Oudid e scende tra frazioni terrazzate fino ad Aguersioual. Nessun terreno tecnico, nessun estremo di quota: solo un vero assaggio della vita berbera di montagna, in due giorni da Marrakech.",
+    description: "L'Azzaden è la valle accanto al trafficato corridoio Imlil–Toubkal, e proprio per questo resta molto più tranquilla. In due giorni valichi il passo di Tizi Mzik (2.489 m) con tutto il massiccio del Toubkal che si apre alle tue spalle, scendi attraverso una foresta di ginepri fino ai villaggi disseminati lungo il fiume Azzaden e trascorri una notte in una casa a gestione familiare a Tizi Oussem. Il secondo giorno attraversa il passo di Tizi Oudid e scende tra frazioni terrazzate fino ad Aguersioual. Nessun terreno tecnico, nessun estremo di quota: solo un vero assaggio della vita berbera di montagna, in due giorni da Marrakech.",
     highlights: [
-      "Valicare il passo di Tizi Mzik (2.684 m) con viste panoramiche sull'Alto Atlante",
+      "Valicare il passo di Tizi Mzik (2.489 m) con viste panoramiche sull'Alto Atlante",
       "Notte in una casa berbera a gestione familiare nel villaggio di Tizi Oussem",
       "Camminare nella tranquilla valle di Azzaden: foresta di ginepri, campi terrazzati, noceti",
       "Una vera traversata di villaggio in villaggio, ben lontano dalla folla del Toubkal",
@@ -2936,7 +2936,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1.850 m)",
         description:
-          "Trasferimento mattutino da Marrakech a Imlil (1h30). Salita al passo di Tizi Mzik (2.684 m) per il pranzo con vista sulla valle di Imlil e sulle cime del Toubkal, poi discesa attraverso la foresta di ginepri nella valle di Azzaden fino al villaggio di Tizi Oussem. Circa 6 ore di cammino. Cena e pernottamento in casa berbera.",
+          "Trasferimento mattutino da Marrakech a Imlil (1h30). Salita al passo di Tizi Mzik (2.489 m) per il pranzo con vista sulla valle di Imlil e sulle cime del Toubkal, poi discesa attraverso la foresta di ginepri nella valle di Azzaden fino al villaggio di Tizi Oussem. Circa 6 ore di cammino. Cena e pernottamento in casa berbera.",
       },
       {
         day: 2,
@@ -2954,7 +2954,7 @@ export const TOURS: Tour[] = [
     seoTitle: "Trekking di 2 giorni nella valle di Azzaden",
     seoDescription: "Trekking di 2 giorni nella valle di Azzaden da Marrakech: passo Tizi Mzik, notte in una casa berbera e il lato tranquillo dell'Alto Atlante. Da €285.",
     faq: [
-      { q: "Quanta forma fisica serve per il trekking di Azzaden?", a: "È classificato moderato: due giorni con circa 5-6 ore di cammino ciascuno, valicando passi fino a 2.684 m. Non c'è arrampicata tecnica, ma devi essere a tuo agio su sentieri in salita e discesa per diverse ore. È adatto a camminatori ragionevolmente attivi più che a principianti assoluti." },
+      { q: "Quanta forma fisica serve per il trekking di Azzaden?", a: "È classificato moderato: due giorni con circa 5-6 ore di cammino ciascuno, valicando passi fino a 2.489 m. Non c'è arrampicata tecnica, ma devi essere a tuo agio su sentieri in salita e discesa per diverse ore. È adatto a camminatori ragionevolmente attivi più che a principianti assoluti." },
       { q: "In cosa si differenzia dai trekking del Toubkal?", a: "L'Azzaden è la valle accanto alla via principale Imlil–Toubkal, quindi vede molti meno escursionisti. Trovi gli stessi villaggi berberi, passi e paesaggi di montagna, ma senza salita alla cima né notte in rifugio d'alta quota: un'alternativa più dolce e tranquilla." },
       { q: "Dove si dorme?", a: "Una notte in una casa berbera a gestione familiare nel villaggio di Tizi Oussem: una vera casa più che un albergo, con cena e colazione incluse. Le camere sono semplici, ciascuna con il proprio bagno privato." },
       { q: "Devo portare i miei bagagli?", a: "No. Un mulo porta i bagagli principali del gruppo tra Imlil e il villaggio, quindi cammini solo con uno zaino da giornata per acqua, strati e una macchina fotografica." },
@@ -2966,8 +2966,8 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "trek-villaggi-alto-atlante-3-giorni",
     brief: [
-      "Tre giorni di cammino di valle in valle, senza alcuna vetta in programma. Da Imlil si passa nell'Azzaden il primo giorno (4-5 ore), si salgono circa 800 m per i pascoli alti fino a Tacheddirt a 2.300 m il secondo giorno (6 ore), poi si scende lungo il bacino dell'Ourika fino alla strada il terzo giorno (5 ore) e si rientra a Marrakech. Ogni notte in una casa per ospiti di villaggio diversa: attraversate quindi un territorio abitato invece di tornare a un campo base.",
-      "L'assenza di una vetta è il progetto, non un compromesso. Nulla su questo percorso supera i 2.700 m circa, il che toglie del tutto la quota dall'equazione, e non ci sono ghiaioni né partenze prima dell'alba. Resta un cammino moderato e costante, con il tempo e l'energia per accorgersi di dove siete: i terrazzamenti, gli azib da pascolo, i pastori, il cambio di carattere da una valle all'altra.",
+      "Tre giorni di cammino di valle in valle, senza alcuna vetta in programma. Da Imlil si passa nell'Azzaden il primo giorno (4-5 ore), si salgono circa 800 m per i pascoli alti fino a Tacheddirt a 2.300 m il secondo giorno (6 ore), poi il terzo giorno si valica il Tizi n'Tacheddirt (circa 3.170 m) e si scende lungo il bacino dell'Ourika fino alla strada (5 ore) e si rientra a Marrakech. Ogni notte in una casa per ospiti di villaggio diversa: attraversate quindi un territorio abitato invece di tornare a un campo base.",
+      "L'assenza di una vetta è il progetto, non un compromesso. Il punto più alto è il passo del Tizi n'Tacheddirt, a circa 3.170 m, valicato il terzo giorno in direzione dell'Ourika; tutte le notti si dorme in villaggi molto più in basso, e non ci sono ghiaioni né partenze prima dell'alba. Resta un cammino moderato e costante, con il tempo e l'energia per accorgersi di dove siete: i terrazzamenti, gli azib da pascolo, i pastori, il cambio di carattere da una valle all'altra.",
       "Questo ne fa un ottimo primo trek di più giorni. Chi cammina occasionalmente riesce qui a mettere in fila tre giorni senza che il viaggio diventi una prova di resistenza, e poiché le case per ospiti sono nei villaggi e non su un circuito di trekking, le serate sono tranquille e locali anziché condivise con altri quaranta camminatori diretti alla stessa vetta.",
       "A persona: 416 € da soli, 235 € in due, 206 € in tre, 192 € in quattro, 181 € in cinque e 169 € in sei. Sono inclusi la guida alpina abilitata, entrambe le notti in casa per ospiti, tutti i pasti del trek, un mulo che trasporta i bagagli del gruppo e il transfer andata e ritorno da Marrakech. Si cammina con uno zaino da giornata. L'assicurazione di viaggio è consigliata, l'attrezzatura personale è a vostro carico e le mance per guida e mulattiere sono a parte.",
       "Vale la pena dirlo chiaramente: se l'obiettivo è salire sul Toubkal, questo non è quel trek e non lo sostituisce. Se l'obiettivo è l'Alto Atlante in sé — i villaggi, i valichi, tre giorni di cammino senza orologio — questo itinerario copre più terreno e più varietà di qualsiasi via di vetta. Gruppo privato di 2-12 persone.",
@@ -2992,7 +2992,7 @@ export const TOURS: Tour[] = [
       "/gallery/imlil-village-green-valley.jpg",
 ],
     shortDescription: "Tre giorni che collegano le valli di Imlil, Azzaden e Ourika attraverso passi berberi, con notti in case di villaggio: il classico circuito dei villaggi dell'Alto Atlante.",
-    description: "Questo è l'Alto Atlante senza la fissazione per la cima: tre giorni di cammino di valle in valle nel cuore del paese berbero. Da Imlil passi nell'Azzaden, poi attraversi verso est per passi di pascolo in direzione del bacino dell'Ourika, dormendo ogni notte in una diversa casa di villaggio. Il cammino è costante più che severo — passi elevati ma senza ghiaioni né quote oltre i 2.700 m circa — e il fulcro sono i villaggi, i campi terrazzati, gli azib dei pastori e le valli che cambiano più che un unico punto alto. Una solida introduzione di tre giorni al trekking in Marocco.",
+    description: "Questo è l'Alto Atlante senza la fissazione per la cima: tre giorni di cammino di valle in valle nel cuore del paese berbero. Da Imlil passi nell'Azzaden, poi attraversi verso est per passi di pascolo in direzione del bacino dell'Ourika, dormendo ogni notte in una diversa casa di villaggio. Il cammino è costante più che severo — passi elevati, fino al Tizi n'Tacheddirt (circa 3.170 m) il terzo giorno, ma senza ghiaioni né notti in quota — e il fulcro sono i villaggi, i campi terrazzati, gli azib dei pastori e le valli che cambiano più che un unico punto alto. Una solida introduzione di tre giorni al trekking in Marocco.",
     highlights: [
       "Collegare tre valli dell'Atlante: Imlil, Azzaden e il bacino dell'Ourika",
       "Valicare diversi passi berberi con panorami sull'Alto Atlante",
@@ -3021,7 +3021,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Valle di Azzaden",
         description:
-          "Trasferimento da Marrakech a Imlil (1h30). Trekking per il passo di Tizi Mzik (2.684 m) nella valle di Azzaden, scendendo attraverso la foresta di ginepri fino a una casa di villaggio. Circa 5-6 ore di cammino. Cena e pernottamento nel villaggio.",
+          "Trasferimento da Marrakech a Imlil (1h30). Trekking per il passo di Tizi Mzik (2.489 m) nella valle di Azzaden, scendendo attraverso la foresta di ginepri fino a una casa di villaggio. Circa 5-6 ore di cammino. Cena e pernottamento nel villaggio.",
       },
       {
         day: 2,
@@ -3042,14 +3042,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Valle dell'Ourika → Marrakech",
         description:
-          "Discesa nel bacino dell'Ourika tra noceti e campi terrazzati fino alla strada. Circa 4-5 ore di cammino. Trasferimento di ritorno a Marrakech, arrivo nel tardo pomeriggio.",
+          "Salita al passo del Tizi n'Tacheddirt (circa 3.170 m), poi discesa nel bacino dell'Ourika tra noceti e campi terrazzati fino alla strada. Circa 4-5 ore di cammino. Trasferimento di ritorno a Marrakech, arrivo nel tardo pomeriggio.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking di 3 giorni nell'Atlante",
     seoDescription: "Trekking di 3 giorni tra i villaggi dell'Alto Atlante da Marrakech, per le valli di Imlil, Azzaden e Ourika. Case berbere, passi, nessuna vetta. Da €416.",
     faq: [
-      { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 4-6 ore per passi fino a circa 2.700 m. Se cammini con regolarità, te la caverai bene." },
+      { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 4-6 ore per passi fino a circa 3.170 m (il Tizi n'Tacheddirt, il terzo giorno). In inverno il passo può essere innevato: la guida controlla le condizioni prima di valicarlo. Se cammini con regolarità, te la caverai bene." },
       { q: "Com'è l'alloggio?", a: "Due notti in case di villaggio, ciascuna gestita da una famiglia locale, con tutti i pasti inclusi. Sono case semplici — materassi su pedane o letti basilari, e bagno privato in ogni camera — più che alberghi, che è il senso del trekking." },
       { q: "Perché non c'è una cima in questo trekking?", a: "È costruito attorno alle valli e ai villaggi più che a una vetta. Questo mantiene la quota moderata e le giornate costanti, quindi funziona per chi vuole un vero trekking dell'Alto Atlante senza le esigenze di un tentativo di cima al Toubkal." },
       { q: "I muli portano i bagagli?", a: "Sì. Un mulo porta i bagagli principali del gruppo tra le case, quindi cammini con uno zaino da giornata. L'attrezzatura da trekking personale la porti tu." },

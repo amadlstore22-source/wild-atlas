@@ -372,7 +372,7 @@ export const DESTINATIONS: Destination[] = [
       "Camina por las murallas al atardecer para disfrutar de la mejor luz sobre el Atlántico y la flota pesquera.",
     ],
     faqs: [
-      { q: "¿Cómo llego de Marrakech a Essaouira?", a: "Los autobuses Supratours salen dos veces al día desde Marrakech (Bab Doukkala) y tardan entre 2,5 y 3 horas. Los taxis compartidos son más rápidos pero más apretados. Los coches privados y traslados turísticos tardan 2,5 horas por la autopista A7. No hay conexión de tren." },
+      { q: "¿Cómo llego de Marrakech a Essaouira?", a: "Los autobuses Supratours salen dos veces al día desde Marrakech (Bab Doukkala) y tardan entre 2,5 y 3 horas. Los taxis compartidos son más rápidos pero más apretados. Los coches privados y traslados turísticos tardan unas 2,5 a 3 horas por carretera. No hay conexión de tren." },
       { q: "¿Es Essaouira buena para quienes no practican surf?", a: "Sin duda; Essaouira es uno de los destinos más completos de Marruecos para quienes no hacen surf. La medina, las murallas, la música gnawa, el marisco, los talleres de artesanos y los paseos por la playa ofrecen un itinerario completo sin ningún deporte acuático." },
       { q: "¿Por qué visitó Jimi Hendrix Essaouira?", a: "Hendrix visitó Essaouira en 1969 durante su larga estancia en Marruecos, atraído por la comunidad artística de la ciudad y las tradiciones musicales gnawa. Se quedó varios días y la visita se ha convertido desde entonces en una celebrada parte de la mitología cultural de la ciudad. Una casa en la que supuestamente se alojó cerca de la medina es hoy un pequeño museo, aunque su exactitud histórica es objeto de debate." },
     ],

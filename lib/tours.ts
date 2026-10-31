@@ -3584,7 +3584,7 @@ export const TOURS: Tour[] = [
     slug: "azzaden-valley-2day-trek",
     relatedPosts: ["high-atlas-village-trek-cost", "gite-panorama-imlil-base-camp-toubkal", "what-to-pack-high-atlas-trek-morocco"],
     brief: [
-      "The Azzaden is the valley immediately west of the Imlil–Toubkal corridor, and the difference in foot traffic is the whole point. Day one drives 1.5 hours from Marrakech to Imlil, then climbs about 700 m over the Tizi Mzik pass at 2,684 m — with the Toubkal massif opening up behind you — and drops through juniper forest to the village of Tizi Oussem at 1,850 m. Five to six hours walking. Day two crosses the Tizi Oudid and descends to Aguersioual, roughly 12 km and five hours, then the drive back.",
+      "The Azzaden is the valley immediately west of the Imlil–Toubkal corridor, and the difference in foot traffic is the whole point. Day one drives 1.5 hours from Marrakech to Imlil, then climbs about 700 m over the Tizi Mzik pass at 2,489 m — with the Toubkal massif opening up behind you — and drops through juniper forest to the village of Tizi Oussem at 1,850 m. Five to six hours walking. Day two crosses the Tizi Oudid and descends to Aguersioual, roughly 12 km and five hours, then the drive back.",
       "It is graded moderate, and that grade does real work here. There is no summit, no scree, and nothing above 2,700 m, so the altitude never becomes the problem it is on Toubkal. What you need is the ability to walk five to six hours on mountain paths two days running. People who hike regularly at home find this comfortable; people who do not find it a genuine but manageable effort.",
       "The night is in a family-run guesthouse in Tizi Oussem rather than a refuge or a tent. That matters more than it sounds — a refuge is a dormitory full of people doing the same summit, while a village guesthouse is somebody's home, with dinner cooked by the family and a valley that goes quiet after dark. It is the part of this trek people write to us about afterwards.",
       "Per person: €285 solo, €161 for two, €142 for three, €133 for four, €124 for five and €116 at six. That covers the licensed mountain guide, the guesthouse night, all meals on the trek, a mule for the group's luggage and return transfer from Marrakech. You carry a day pack only. Travel insurance is recommended rather than mandatory on this one, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
@@ -3623,9 +3623,9 @@ export const TOURS: Tour[] = [
     shortDescription:
       "A two-day crossing into the quiet Azzaden Valley over the Tizi Mzik pass, sleeping in a Berber village guesthouse away from the Toubkal crowds.",
     description:
-      "The Azzaden is the valley next door to the busy Imlil–Toubkal corridor, and it stays far quieter for it. Over two days you cross the Tizi Mzik pass (2,684 m) with the whole Toubkal massif opening up behind you, drop through juniper forest into the string of villages along the Azzaden river, and spend a night in a family-run guesthouse in Tizi Oussem. The second day traverses the Tizi Oudid pass and descends through terraced hamlets to Aguersioual. No technical ground, no altitude extremes — just a proper taste of Berber mountain life in two days from Marrakech.",
+      "The Azzaden is the valley next door to the busy Imlil–Toubkal corridor, and it stays far quieter for it. Over two days you cross the Tizi Mzik pass (2,489 m) with the whole Toubkal massif opening up behind you, drop through juniper forest into the string of villages along the Azzaden river, and spend a night in a family-run guesthouse in Tizi Oussem. The second day traverses the Tizi Oudid pass and descends through terraced hamlets to Aguersioual. No technical ground, no altitude extremes — just a proper taste of Berber mountain life in two days from Marrakech.",
     highlights: [
-      "Cross the Tizi Mzik pass (2,684 m) with panoramic High Atlas views",
+      "Cross the Tizi Mzik pass (2,489 m) with panoramic High Atlas views",
       "Overnight in a family-run Berber guesthouse in Tizi Oussem village",
       "Walk the quiet Azzaden Valley — juniper forest, terraced fields, walnut groves",
       "A genuine village-to-village traverse, well away from the Toubkal crowds",
@@ -3653,7 +3653,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "Marrakech → Imlil → Tizi Mzik → Tizi Oussem (1,850 m)",
         description:
-          "Morning transfer from Marrakech to Imlil (1h30). Trek up to the Tizi Mzik pass (2,684 m) for lunch with views back over the Imlil valley and the Toubkal peaks, then descend through juniper forest into the Azzaden Valley to the village of Tizi Oussem. Around 6 hours walking. Dinner and overnight in a Berber guesthouse.",
+          "Morning transfer from Marrakech to Imlil (1h30). Trek up to the Tizi Mzik pass (2,489 m) for lunch with views back over the Imlil valley and the Toubkal peaks, then descend through juniper forest into the Azzaden Valley to the village of Tizi Oussem. Around 6 hours walking. Dinner and overnight in a Berber guesthouse.",
       },
       {
         day: 2,
@@ -3671,7 +3671,7 @@ export const TOURS: Tour[] = [
     seoTitle: "2-Day Azzaden Valley Trek from Marrakech",
     seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, and walk the quiet side of the High Atlas. From €285.",
     faq: [
-      { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,684 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
+      { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,489 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
       { q: "How is this different from the Toubkal treks?", a: "The Azzaden is the valley beside the main Imlil–Toubkal route, so it sees far fewer trekkers. You get the same Berber villages, passes and mountain scenery, but no summit push and no high-altitude refuge night — a gentler, quieter alternative." },
       { q: "Where do we sleep?", a: "One night in a family-run Berber guesthouse in Tizi Oussem village — a real home rather than a hotel, with dinner and breakfast included. Rooms are simple, each with its own private bathroom." },
       { q: "Do I carry my own luggage?", a: "No. A mule carries the group's main luggage between Imlil and the village, so you walk with just a daypack for water, layers and a camera." },
@@ -3683,8 +3683,8 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     relatedPosts: ["high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
     brief: [
-      "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (4–5 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
-      "The absence of a summit is the design, not a compromise. Nothing on this route goes above about 2,700 m, which keeps altitude out of the equation entirely, and there is no scree and no pre-dawn push. What is left is steady moderate walking with the time and energy to notice where you are — the terraced fields, the grazing azibs, the shepherds, the change from one valley's character to the next.",
+      "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (4–5 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then cross the Tizi n'Tacheddirt (about 3,170 m) and descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
+      "The absence of a summit is the design, not a compromise. The high point is the Tizi n'Tacheddirt pass, about 3,170 m, crossed on day three on the way to the Ourika, but every night is spent in a village well below it, and there is no scree and no pre-dawn push. What is left is steady moderate walking with the time and energy to notice where you are — the terraced fields, the grazing azibs, the shepherds, the change from one valley's character to the next.",
       "That makes it a strong first multi-day trek. People who walk occasionally at home manage three consecutive days here without the trip becoming an endurance exercise, and because the guesthouses are in villages rather than on a trekking circuit, the evenings are quiet and local rather than shared with forty other walkers doing the same summit.",
       "Per person: €416 solo, €235 for two, €206 for three, €192 for four, €181 for five and €169 at six. Included are the licensed mountain guide, both guesthouse nights, every meal on the trek, a mule carrying the group's luggage and return transfer from Marrakech. You walk with a day pack. Travel insurance is recommended, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
       "Worth saying plainly: if standing on Toubkal is the goal, this is not that trek and will not substitute for it. If the goal is the High Atlas itself — the villages, the passes, three days of walking without a clock — this covers more ground and more variety than any summit route does. Private group of 2–12.",
@@ -3722,7 +3722,7 @@ export const TOURS: Tour[] = [
     shortDescription:
       "Three days linking the Imlil, Azzaden and Ourika valleys over Berber passes, sleeping in village guesthouses — the classic High Atlas village circuit.",
     description:
-      "This is the High Atlas without the summit fixation: three days walking valley to valley through the heart of Berber country. From Imlil you cross into the Azzaden, then traverse eastward over grazing passes toward the Ourika watershed, sleeping each night in a different village guesthouse. The walking is steady rather than severe — high passes but no scree slogs or altitude beyond about 2,700 m — and the point is the villages, the terraced fields, the shepherds' azibs and the changing valleys rather than a single high point. A strong three-day introduction to trekking in Morocco.",
+      "This is the High Atlas without the summit fixation: three days walking valley to valley through the heart of Berber country. From Imlil you cross into the Azzaden, then traverse eastward over grazing passes toward the Ourika watershed, sleeping each night in a different village guesthouse. The walking is steady rather than severe — high passes, up to the Tizi n'Tacheddirt (about 3,170 m) on day three, but no scree slogs and no high-altitude nights — and the point is the villages, the terraced fields, the shepherds' azibs and the changing valleys rather than a single high point. A strong three-day introduction to trekking in Morocco.",
     highlights: [
       "Link three Atlas valleys — Imlil, Azzaden and the Ourika watershed",
       "Cross several Berber passes with High Atlas panoramas",
@@ -3751,7 +3751,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Azzaden Valley",
         description:
-          "Transfer from Marrakech to Imlil (1h30). Trek over the Tizi Mzik pass (2,684 m) into the Azzaden Valley, descending through juniper forest to a village guesthouse. Around 5–6 hours walking. Dinner and overnight in the village.",
+          "Transfer from Marrakech to Imlil (1h30). Trek over the Tizi Mzik pass (2,489 m) into the Azzaden Valley, descending through juniper forest to a village guesthouse. Around 5–6 hours walking. Dinner and overnight in the village.",
       },
       {
         day: 2,
@@ -3772,14 +3772,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika Valley → Marrakech",
         description:
-          "Descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 4–5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
+          "Climb to the Tizi n'Tacheddirt pass (about 3,170 m), then descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 4–5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Atlas Mountains Trek from Marrakech",
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From €416.",
     faq: [
-      { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 2,700 m. If you walk regularly you will be fine." },
+      { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 3,170 m (the Tizi n'Tacheddirt, on day three). In winter that pass can hold snow, so your guide checks conditions before crossing it. If you walk regularly you will be fine." },
       { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — mattresses on floor platforms or basic beds, each room with its own private bathroom — rather than hotels, which is the point of the trek." },
       { q: "Why is there no summit on this trek?", a: "It is built around the valleys and villages rather than a peak. That keeps the altitude moderate and the days steady, so it works for walkers who want real High Atlas trekking without the demands of a Toubkal summit attempt." },
       { q: "Do mules carry the luggage?", a: "Yes. A mule carries the group's main luggage between guesthouses, so you walk with a daypack. Personal trekking gear is your own to bring." },

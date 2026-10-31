@@ -402,7 +402,7 @@ export const DESTINATIONS: Destination[] = [
       "Walk the ramparts at sunset for the best light over the Atlantic and fishing fleet.",
     ],
     faqs: [
-      { q: "How do I get from Marrakech to Essaouira?", a: "Supratours buses run twice daily from Marrakech (Bab Doukkala) and take 2.5–3 hours. Shared taxis are faster but more crowded. Private cars and tour transfers take 2.5 hours on the A7 motorway. There is no train connection." },
+      { q: "How do I get from Marrakech to Essaouira?", a: "Supratours buses run twice daily from Marrakech (Bab Doukkala) and take 2.5–3 hours. Shared taxis are faster but more crowded. Private cars and tour transfers take about 2.5 to 3 hours by road. There is no train connection." },
       { q: "Is Essaouira good for non-surfers?", a: "Absolutely — Essaouira is one of Morocco's most complete destinations for non-surfers. The medina, ramparts, Gnawa music, seafood, artisan workshops, and beach walks offer a full itinerary without any water sports." },
       { q: "Why did Jimi Hendrix visit Essaouira?", a: "Hendrix visited Essaouira in 1969 during his extended stay in Morocco, drawn by the city's artistic community and the Gnawa music traditions. He stayed for several days and the visit has since become a celebrated part of the city's cultural mythology. A house he supposedly stayed in near the medina is now a small museum, though its historical accuracy is contested." },
     ],

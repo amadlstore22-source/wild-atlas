@@ -2882,7 +2882,7 @@ export const TOURS: Tour[] = [
     slug: "azzaden-valley-2day-trek",
     localizedSlug: "azzaden-tal-trek-2-tage",
     brief: [
-      "Das Azzaden ist das Tal unmittelbar westlich des Korridors Imlil–Toubkal, und der Unterschied im Andrang macht genau den Reiz aus. Tag eins: 1,5 Stunden Fahrt von Marrakesch nach Imlil, dann rund 700 Höhenmeter hinauf über den Tizi-Mzik-Pass auf 2.684 m — mit dem Toubkal-Massiv, das sich hinter Ihnen auftut — und hinab durch Wacholderwald ins Dorf Tizi Oussem auf 1.850 m. Fünf bis sechs Stunden Gehzeit. Tag zwei überquert den Tizi Oudid und steigt nach Aguersioual ab, etwa 12 km und fünf Stunden, danach die Rückfahrt.",
+      "Das Azzaden ist das Tal unmittelbar westlich des Korridors Imlil–Toubkal, und der Unterschied im Andrang macht genau den Reiz aus. Tag eins: 1,5 Stunden Fahrt von Marrakesch nach Imlil, dann rund 700 Höhenmeter hinauf über den Tizi-Mzik-Pass auf 2.489 m — mit dem Toubkal-Massiv, das sich hinter Ihnen auftut — und hinab durch Wacholderwald ins Dorf Tizi Oussem auf 1.850 m. Fünf bis sechs Stunden Gehzeit. Tag zwei überquert den Tizi Oudid und steigt nach Aguersioual ab, etwa 12 km und fünf Stunden, danach die Rückfahrt.",
       "Die Einstufung lautet mittel, und diese Einstufung bedeutet hier tatsächlich etwas. Kein Gipfel, kein Geröll und nichts über etwa 2.700 m, sodass die Höhe nie zu dem Problem wird, das sie am Toubkal darstellt. Nötig ist die Fähigkeit, an zwei aufeinanderfolgenden Tagen fünf bis sechs Stunden auf Bergpfaden zu gehen. Wer zu Hause regelmäßig wandert, empfindet das als angenehm; wer das nicht tut, als echte, aber machbare Anstrengung.",
       "Die Nacht verbringen Sie in einem familiengeführten Gästehaus in Tizi Oussem, nicht in einer Hütte oder im Zelt. Das zählt mehr, als es klingt: Eine Hütte ist ein Schlafsaal voller Menschen mit demselben Gipfelziel, ein Dorfgästehaus dagegen ist jemandes Zuhause, mit einem von der Familie gekochten Abendessen und einem Tal, das nach Einbruch der Dunkelheit still wird. Es ist der Teil, von dem uns Gäste hinterher schreiben.",
       "Pro Person: 285 € allein, 161 € zu zweit, 142 € zu dritt, 133 € zu viert, 124 € zu fünft und 116 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, die Gästehausnacht, alle Mahlzeiten während des Treks, ein Maultier für das Gruppengepäck und der Hin- und Rücktransfer ab Marrakesch. Sie tragen nur einen Tagesrucksack. Die Reiseversicherung ist hier empfohlen statt verpflichtend, persönliche Trekkingausrüstung ist Ihre Sache, und Trinkgelder für Bergführer und Maultierführer sind separat.",
@@ -2906,9 +2906,9 @@ export const TOURS: Tour[] = [
       "/gallery/toubkal-berber-guide-snow-trail.jpg",
     ],
     shortDescription: "Eine zweitägige Überquerung ins ruhige Azzaden-Tal über den Tizi-Mzik-Pass, mit einer Nacht in einem Berber-Gästehaus abseits der Toubkal-Menge.",
-    description: "Das Azzaden ist das Nachbartal des belebten Imlil–Toubkal-Korridors und bleibt gerade deshalb weit ruhiger. In zwei Tagen überqueren Sie den Tizi-Mzik-Pass (2.684 m), während sich das ganze Toubkal-Massiv hinter Ihnen öffnet, steigen durch Wacholderwald zu den entlang des Azzaden-Flusses verstreuten Dörfern ab und verbringen eine Nacht in einem familiengeführten Gästehaus in Tizi Oussem. Der zweite Tag überquert den Tizi-Oudid-Pass und steigt durch terrassierte Weiler nach Aguersioual ab. Kein technisches Gelände, keine Höhenextreme — nur ein echter Vorgeschmack auf das Berber-Bergleben, in zwei Tagen ab Marrakesch.",
+    description: "Das Azzaden ist das Nachbartal des belebten Imlil–Toubkal-Korridors und bleibt gerade deshalb weit ruhiger. In zwei Tagen überqueren Sie den Tizi-Mzik-Pass (2.489 m), während sich das ganze Toubkal-Massiv hinter Ihnen öffnet, steigen durch Wacholderwald zu den entlang des Azzaden-Flusses verstreuten Dörfern ab und verbringen eine Nacht in einem familiengeführten Gästehaus in Tizi Oussem. Der zweite Tag überquert den Tizi-Oudid-Pass und steigt durch terrassierte Weiler nach Aguersioual ab. Kein technisches Gelände, keine Höhenextreme — nur ein echter Vorgeschmack auf das Berber-Bergleben, in zwei Tagen ab Marrakesch.",
     highlights: [
-      "Den Tizi-Mzik-Pass (2.684 m) mit Panoramablick auf den Hohen Atlas überqueren",
+      "Den Tizi-Mzik-Pass (2.489 m) mit Panoramablick auf den Hohen Atlas überqueren",
       "Übernachtung in einem familiengeführten Berber-Gästehaus im Dorf Tizi Oussem",
       "Durch das ruhige Azzaden-Tal wandern — Wacholderwald, Terrassenfelder, Walnusshaine",
       "Eine echte Dorf-zu-Dorf-Überquerung, weit abseits der Toubkal-Menge",
@@ -2936,7 +2936,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tizi Oussem", lat: 31.11855, lng: -7.9736 },
         title: "Marrakesch → Imlil → Tizi Mzik → Tizi Oussem (1.850 m)",
         description:
-          "Morgentransfer von Marrakesch nach Imlil (1,5 Std.). Aufstieg zum Tizi-Mzik-Pass (2.684 m) zum Mittagessen mit Blick zurück über das Imlil-Tal und die Toubkal-Gipfel, dann Abstieg durch Wacholderwald ins Azzaden-Tal zum Dorf Tizi Oussem. Etwa 6 Stunden Gehzeit. Abendessen und Übernachtung im Berber-Gästehaus.",
+          "Morgentransfer von Marrakesch nach Imlil (1,5 Std.). Aufstieg zum Tizi-Mzik-Pass (2.489 m) zum Mittagessen mit Blick zurück über das Imlil-Tal und die Toubkal-Gipfel, dann Abstieg durch Wacholderwald ins Azzaden-Tal zum Dorf Tizi Oussem. Etwa 6 Stunden Gehzeit. Abendessen und Übernachtung im Berber-Gästehaus.",
       },
       {
         day: 2,
@@ -2954,7 +2954,7 @@ export const TOURS: Tour[] = [
     seoTitle: "2-Tage-Trek im Azzaden-Tal",
     seoDescription: "2-Tage-Trek im Azzaden-Tal ab Marrakesch: über den Tizi-Mzik-Pass, Nacht im Berber-Gästehaus, die ruhige Seite des Hohen Atlas. Ab €285.",
     faq: [
-      { q: "Wie fit muss ich für den Azzaden-Trek sein?", a: "Er ist als mittel eingestuft: zwei Tage mit jeweils etwa 5–6 Stunden Gehzeit, mit Pässen bis 2.684 m. Es gibt kein technisches Klettern, aber Sie sollten mehrere Stunden auf Anstiegs- und Abstiegspfaden sicher sein. Er eignet sich für einigermaßen aktive Wanderer, nicht für komplette Anfänger." },
+      { q: "Wie fit muss ich für den Azzaden-Trek sein?", a: "Er ist als mittel eingestuft: zwei Tage mit jeweils etwa 5–6 Stunden Gehzeit, mit Pässen bis 2.489 m. Es gibt kein technisches Klettern, aber Sie sollten mehrere Stunden auf Anstiegs- und Abstiegspfaden sicher sein. Er eignet sich für einigermaßen aktive Wanderer, nicht für komplette Anfänger." },
       { q: "Wie unterscheidet er sich von den Toubkal-Treks?", a: "Das Azzaden ist das Tal neben der Hauptroute Imlil–Toubkal und sieht daher weit weniger Trekker. Sie erleben dieselben Berberdörfer, Pässe und Berglandschaften, aber ohne Gipfelanstieg und ohne Höhen-Hüttennacht — eine sanftere, ruhigere Alternative." },
       { q: "Wo übernachtet man?", a: "Eine Nacht in einem familiengeführten Berber-Gästehaus im Dorf Tizi Oussem — ein echtes Zuhause statt eines Hotels, mit Abendessen und Frühstück. Die Zimmer sind einfach, jedes mit eigenem Bad." },
       { q: "Muss ich mein eigenes Gepäck tragen?", a: "Nein. Ein Maultier trägt das Hauptgepäck der Gruppe zwischen Imlil und dem Dorf, Sie gehen also nur mit einem Tagesrucksack für Wasser, Schichten und eine Kamera." },
@@ -2966,8 +2966,8 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "hoher-atlas-dorftrek-3-tage",
     brief: [
-      "Drei Tage Wandern von Tal zu Tal, ohne jeden Gipfel im Programm. Von Imlil wechseln Sie am ersten Tag ins Azzaden (4–5 Stunden), steigen am zweiten Tag rund 800 Höhenmeter über Hochweiden nach Tacheddirt auf 2.300 m (6 Stunden) und am dritten Tag durch das Ourika-Einzugsgebiet zur Straße ab (5 Stunden), bevor es zurück nach Marrakesch geht. Jede Nacht in einem anderen Dorfgästehaus — Sie bewegen sich also durch bewohntes Land, statt zu einem Basislager zurückzukehren.",
-      "Das Fehlen eines Gipfels ist Absicht, kein Kompromiss. Nichts auf dieser Route liegt über etwa 2.700 m, was die Höhe völlig aus der Gleichung nimmt, und es gibt weder Geröll noch Aufbrüche vor Sonnenaufgang. Übrig bleibt gleichmäßiges, mittelschweres Gehen mit der Zeit und Kraft, wahrzunehmen, wo man ist — die Terrassenfelder, die Weide-Azibs, die Hirten, der Wechsel im Charakter von einem Tal zum nächsten.",
+      "Drei Tage Wandern von Tal zu Tal, ohne jeden Gipfel im Programm. Von Imlil wechseln Sie am ersten Tag ins Azzaden (4–5 Stunden), steigen am zweiten Tag rund 800 Höhenmeter über Hochweiden nach Tacheddirt auf 2.300 m (6 Stunden) und am dritten Tag über den Tizi n'Tacheddirt (etwa 3.170 m) und durch das Ourika-Einzugsgebiet zur Straße ab (5 Stunden), bevor es zurück nach Marrakesch geht. Jede Nacht in einem anderen Dorfgästehaus — Sie bewegen sich also durch bewohntes Land, statt zu einem Basislager zurückzukehren.",
+      "Das Fehlen eines Gipfels ist Absicht, kein Kompromiss. Der höchste Punkt ist der Pass Tizi n'Tacheddirt auf etwa 3.170 m, den Sie am dritten Tag auf dem Weg ins Ourika-Tal überqueren; alle Nächte verbringen Sie in Dörfern weit darunter, und es gibt weder Geröll noch Aufbrüche vor Sonnenaufgang. Übrig bleibt gleichmäßiges, mittelschweres Gehen mit der Zeit und Kraft, wahrzunehmen, wo man ist — die Terrassenfelder, die Weide-Azibs, die Hirten, der Wechsel im Charakter von einem Tal zum nächsten.",
       "Das macht es zu einem starken ersten Mehrtagestrek. Wer zu Hause gelegentlich wandert, schafft hier drei aufeinanderfolgende Tage, ohne dass die Reise zur Ausdauerprüfung wird, und weil die Gästehäuser in Dörfern liegen und nicht an einer Trekkingroute, sind die Abende ruhig und lokal statt mit vierzig weiteren Wanderern auf demselben Gipfelweg geteilt.",
       "Pro Person: 416 € allein, 235 € zu zweit, 206 € zu dritt, 192 € zu viert, 181 € zu fünft und 169 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, beide Gästehausnächte, alle Mahlzeiten während des Treks, ein Maultier für das Gruppengepäck und der Hin- und Rücktransfer ab Marrakesch. Sie gehen mit einem Tagesrucksack. Die Reiseversicherung ist empfohlen, persönliche Trekkingausrüstung ist Ihre Sache, und Trinkgelder für Bergführer und Maultierführer sind separat.",
       "Klar gesagt: Wenn das Ziel darin besteht, auf dem Toubkal zu stehen, ist dies nicht dieser Trek und ersetzt ihn auch nicht. Wenn das Ziel der Hohe Atlas selbst ist — die Dörfer, die Pässe, drei Tage Gehen ohne Uhr —, deckt diese Tour mehr Gelände und mehr Abwechslung ab als jede Gipfelroute. Private Gruppe von 2 bis 12 Personen.",
@@ -2992,7 +2992,7 @@ export const TOURS: Tour[] = [
       "/gallery/imlil-village-green-valley.jpg",
 ],
     shortDescription: "Drei Tage, die die Täler von Imlil, Azzaden und Ourika über Berber-Pässe verbinden, mit Nächten in Dorf-Gästehäusern — der klassische Dörfer-Rundweg im Hohen Atlas.",
-    description: "Das ist der Hohe Atlas ohne die Gipfelfixierung: drei Tage Wandern von Tal zu Tal durchs Herz des Berberlandes. Von Imlil aus wechseln Sie ins Azzaden und queren dann ostwärts über Weidepässe Richtung Ourika-Einzugsgebiet, wobei Sie jede Nacht in einem anderen Dorf-Gästehaus schlafen. Das Gehen ist stetig statt hart — hohe Pässe, aber keine Geröllfelder und keine Höhe über etwa 2.700 m — und es geht um die Dörfer, die Terrassenfelder, die Hirten-Azibs und die wechselnden Täler statt um einen einzelnen Höhepunkt. Eine starke dreitägige Einführung ins Trekking in Marokko.",
+    description: "Das ist der Hohe Atlas ohne die Gipfelfixierung: drei Tage Wandern von Tal zu Tal durchs Herz des Berberlandes. Von Imlil aus wechseln Sie ins Azzaden und queren dann ostwärts über Weidepässe Richtung Ourika-Einzugsgebiet, wobei Sie jede Nacht in einem anderen Dorf-Gästehaus schlafen. Das Gehen ist stetig statt hart — hohe Pässe bis zum Tizi n'Tacheddirt (etwa 3.170 m) am dritten Tag, aber keine Geröllfelder und keine Nächte in der Höhe — und es geht um die Dörfer, die Terrassenfelder, die Hirten-Azibs und die wechselnden Täler statt um einen einzelnen Höhepunkt. Eine starke dreitägige Einführung ins Trekking in Marokko.",
     highlights: [
       "Drei Atlas-Täler verbinden — Imlil, Azzaden und das Ourika-Einzugsgebiet",
       "Mehrere Berber-Pässe mit Panoramen auf den Hohen Atlas überqueren",
@@ -3021,7 +3021,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakesch → Imlil → Azzaden-Tal",
         description:
-          "Transfer von Marrakesch nach Imlil (1,5 Std.). Trek über den Tizi-Mzik-Pass (2.684 m) ins Azzaden-Tal, Abstieg durch Wacholderwald zu einem Dorf-Gästehaus. Etwa 5–6 Stunden Gehzeit. Abendessen und Übernachtung im Dorf.",
+          "Transfer von Marrakesch nach Imlil (1,5 Std.). Trek über den Tizi-Mzik-Pass (2.489 m) ins Azzaden-Tal, Abstieg durch Wacholderwald zu einem Dorf-Gästehaus. Etwa 5–6 Stunden Gehzeit. Abendessen und Übernachtung im Dorf.",
       },
       {
         day: 2,
@@ -3042,14 +3042,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika-Tal → Marrakesch",
         description:
-          "Abstieg durchs Ourika-Einzugsgebiet über Walnusshaine und Terrassenfelder zur Straße. Etwa 4–5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
+          "Aufstieg zum Pass Tizi n'Tacheddirt (etwa 3.170 m), dann Abstieg durchs Ourika-Einzugsgebiet über Walnusshaine und Terrassenfelder zur Straße. Etwa 4–5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Tage-Trek im Atlasgebirge",
     seoDescription: "3-Tage-Dörfertrek im Hohen Atlas ab Marrakesch durch die Täler von Imlil, Azzaden und Ourika. Berber-Gästehäuser, Pässe, kein Gipfelsturm. Ab €416.",
     faq: [
-      { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 4–6 Stunden über Pässe bis etwa 2.700 m. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
+      { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 4–6 Stunden über Pässe bis etwa 3.170 m (den Tizi n'Tacheddirt am dritten Tag). Im Winter kann dieser Pass verschneit sein; Ihr Guide prüft die Bedingungen, bevor Sie ihn überqueren. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
       { q: "Wie ist die Unterkunft?", a: "Zwei Nächte in Dorf-Gästehäusern, jeweils von einer einheimischen Familie geführt, mit allen Mahlzeiten. Es sind einfache Häuser — Matratzen auf Plattformen oder einfache Betten, jedes Zimmer mit eigenem Bad — statt Hotels, was den Sinn des Treks ausmacht." },
       { q: "Warum gibt es auf diesem Trek keinen Gipfel?", a: "Er ist um die Täler und Dörfer herum gebaut statt um einen Gipfel. Das hält die Höhe moderat und die Tage stetig, er passt also für Wanderer, die echtes Trekking im Hohen Atlas ohne die Anforderungen eines Toubkal-Gipfelversuchs wollen." },
       { q: "Tragen Maultiere das Gepäck?", a: "Ja. Ein Maultier trägt das Hauptgepäck der Gruppe zwischen den Gästehäusern, Sie gehen also mit einem Tagesrucksack. Persönliche Trekkingausrüstung bringen Sie selbst mit." },

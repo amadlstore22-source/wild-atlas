@@ -525,7 +525,7 @@ If a particular festival is what you are travelling for, the timing question cha
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
-    updatedAt: "2026-08-08",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech to Fes", "Morocco road trip", "Aït Ben Haddou", "Fes medina"],
     seoTitle: "Marrakech to Fes Road Trip Guide 2026",
     seoDescription:
@@ -572,6 +572,31 @@ A few kilometres from Ifrane, the ancient cedar forest of Azrou is the best plac
 Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is the world's largest car-free urban zone and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin, the Medersa Bou Inania, and the thousand-year-old souks.
 
 Al-Qarawiyyin deserves more than a passing mention. Founded in 859 as a mosque and centre of learning by Fatima al-Fihri — a Tunisian-born woman using her own inheritance to fund an 18-year construction project — it holds the Guinness World Record and UNESCO recognition as the oldest continually operating institution of higher learning anywhere on Earth, predating Europe's oldest universities by centuries. Over the following thousand years its library and lecture halls drew scholars whose names now belong to the wider history of ideas, including the philosopher Averroes and the physician-philosopher Maimonides; one account even credits Gerbert of Aurillac, a scholar who studied here before eventually becoming Pope Sylvester II, with helping carry Arabic numerals into medieval Europe. Much of the complex remains a working mosque and library rather than a museum, so access for non-Muslim visitors is limited — but simply standing outside it, in a city that has been continuously producing scholarship since the 9th century, is a different thing than reading about it.
+
+## How many days for the imperial cities
+
+The route above is one way north. If the imperial cities are the point of the trip, the useful questions are how long each one needs, which ones deserve a night, and how far apart they are. These are the times our own drivers plan on.
+
+| City | Give it | Night or stop | Drive from the stop before |
+|---|---|---|---|
+| Fes | A full guided day, two nights if you can | Night | ≈7 h / 480 km from Marrakech via Ifrane |
+| Meknes | An afternoon: Bab Mansour, the royal granaries, the medina | Either | ≈5 h / 300 km from Midelt, Volubilis included |
+| Volubilis | Two hours | Stop | About 40 minutes from Meknes |
+| Chefchaouen | A full day | Night | ≈4 h / 200 km from Fes, with Volubilis and Meknes |
+| Rabat | An afternoon: the Hassan Tower, the Mohammed V Mausoleum, the Kasbah of the Udayas | Night | ≈3 h / 200 km from Fes |
+| Casablanca | The Hassan II Mosque, from outside | Stop | On the way from Rabat to Marrakech, ≈4 h / 240 km in all |
+
+And what that adds up to:
+
+| Days | What fits | Our tour | Each, for two |
+|---|---|---|---|
+| 3 | Marrakech to Fes over the High Atlas, ending in Fes | [Marrakech to Fes](/en/tours/marrakech-to-fes-3day) | €572 |
+| 4 | Fes, Volubilis, Meknes and Chefchaouen, ending in Chefchaouen | [Marrakech to Chefchaouen](/en/tours/marrakech-to-chefchaouen-4day) | €570 |
+| 5 | All four imperial cities, back to Marrakech | [Imperial cities from Marrakech](/en/tours/marrakech-imperial-cities-5day) | €575 |
+| 5 | Casablanca to Marrakech: Rabat, Volubilis, Meknes, two nights in Fes and one in the Sahara | [Casablanca to Marrakech](/en/tours/casablanca-fes-sahara-marrakech-5day) | €825 |
+| 6 | All four imperial cities, starting from Agadir | [Imperial cities from Agadir](/en/tours/agadir-imperial-cities-6day) | €515 |
+
+The 5-day loop from Marrakech is the gentlest of these: no day has more than about 7 hours on the road, and Fes gets a full day on foot.
 
 ## Practical Notes
 
@@ -854,12 +879,12 @@ Chefchaouen's riads are excellent value — you can stay in a beautiful blue-til
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-11-01",
     tags: ["Morocco food", "Moroccan cuisine", "tagine", "couscous", "Marrakech restaurants"],
     seoTitle: "Morocco Food Guide 2026",
     seoDescription:
       "The essential Morocco food guide — from tagine and couscous to bastilla and harira. What to eat, where to find it.",
-    relatedTours: ["marrakech-medina-cultural-tour", "agafay-desert-sunset"],
+    relatedTours: ["marrakech-food-market-tour", "marrakech-medina-cultural-tour", "agafay-desert-sunset"],
     content: `
 ## Why Moroccan Food Is Extraordinary
 
@@ -927,6 +952,12 @@ Gunpowder green tea brewed strong, poured from a height (to create foam), and se
 - **Lunch is the main meal.** Moroccans eat their largest meal at midday. The best-value and most authentic food is available at lunch.
 - **Vegetarians are well-served** — Moroccan vegetable tagines, salads, soups, and breads are excellent. Communicate clearly: "ana nabati" (I am vegetarian).
 - **Avoid tap water** in all cities. Bottled water or filtered water only.
+
+## Tasting it with a guide
+
+A list of dishes only goes so far; eating them with someone who knows where each one is made well goes further. Our [Marrakech food and market tour](/en/tours/marrakech-food-market-tour) is a private half-day walk with an English-speaking food guide, from 9:30 am to about 1:30 pm. It starts in Rahba Kedima, the spice square, where you learn to tell real saffron from dyed imitations, then spends about ninety minutes tasting through the medina's food souks: olives, dates, msemen and fresh orange juice. You buy the ingredients for your class at the stalls with your guide, cook a tagine with a local family, and sit down to it for lunch, with mint tea to finish.
+
+All the tastings, the class and the lunch are included, and the whole morning can be vegetarian on request. It costs €100 per person. If you would rather spend a morning on monuments and history, the [medina cultural tour](/en/tours/marrakech-medina-cultural-tour) is the other half-day.
     `,
   },
   {
@@ -1109,7 +1140,7 @@ For what an evening out there actually runs to, see
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech", "medina", "Djemaa el-Fna", "souks", "Morocco city guide"],
     seoTitle: "Marrakech Medina Guide 2026",
     seoDescription:
@@ -1153,9 +1184,9 @@ The souks (markets) occupy the northern half of the medina, roughly between Djem
 
 **Bahia Palace** (free, open daily): A 19th-century vizier's palace of 150 rooms, built to be the most beautiful in all of Morocco. The craftsmanship — carved cedar ceilings, zellij tilework, painted stucco — is extraordinary. Allow 45 minutes.
 
-**El Badi Palace** (ruins, 70 MAD entry): The 16th-century Saadian palace, commissioned by Sultan Ahmad al-Mansur from 1578 onward and built with marble, gold and materials imported from as far as Italy and Mali, was once described as the most magnificent in the Islamic world. Its downfall came a century later at the hands of the Alaouite Sultan Moulay Ismail, who had it systematically stripped for building materials — marble, tilework, cedar, entire decorative panels — to construct his own new capital at Meknes. Historical accounts differ on exactly when this happened, with some sources dating the order to 1696 and others to as late as 1707, but they agree the dismantling itself was a slow, thorough job that reportedly took roughly a decade to complete. Saadian material salvaged from these walls is thought to have ended up not only in Meknes but even as far as Fes, in the decoration of the Zawiya of Moulay Idris II. What remains in Marrakech today is atmospheric ruins — vast empty courtyards, sunken gardens, and stork nests on every wall. Better than Bahia for atmosphere.
+**El Badi Palace** (ruins, 100 MAD entry): The 16th-century Saadian palace, commissioned by Sultan Ahmad al-Mansur from 1578 onward and built with marble, gold and materials imported from as far as Italy and Mali, was once described as the most magnificent in the Islamic world. Its downfall came a century later at the hands of the Alaouite Sultan Moulay Ismail, who had it systematically stripped for building materials — marble, tilework, cedar, entire decorative panels — to construct his own new capital at Meknes. Historical accounts differ on exactly when this happened, with some sources dating the order to 1696 and others to as late as 1707, but they agree the dismantling itself was a slow, thorough job that reportedly took roughly a decade to complete. Saadian material salvaged from these walls is thought to have ended up not only in Meknes but even as far as Fes, in the decoration of the Zawiya of Moulay Idris II. What remains in Marrakech today is atmospheric ruins — vast empty courtyards, sunken gardens, and stork nests on every wall. Better than Bahia for atmosphere.
 
-**Saadian Tombs** (70 MAD): The royal mausoleum of the Saadian dynasty, sealed for 200 years and only rediscovered in 1917. A small, exquisite space of exceptional craftsmanship. Queue early — it is small and gets crowded.
+**Saadian Tombs** (100 MAD): The royal mausoleum of the Saadian dynasty, sealed for 200 years and only rediscovered in 1917. A small, exquisite space of exceptional craftsmanship. Queue early — it is small and gets crowded.
 
 ## Ben Youssef Mosque and Medersa
 
@@ -1168,6 +1199,14 @@ A visit to a traditional hammam (bathhouse) is one of the defining Marrakech exp
 **Hammam beldi** (local public hammam): Cheap (10–20 MAD), no-frills, authentic. You bring your own black soap (savon beldi) and kessa glove (exfoliating mitt), both available in any souk pharmacy. No English, no menus — watch what others do. Separate hours or spaces for men and women.
 
 **Tourist hammam:** Cleaned up, English-speaking staff, full treatment packages (scrub, massage, tea). 150–400 MAD depending on the package. Recommended for first-timers. Les Bains de Marrakech and Hammam de la Rose are reliably good.
+
+## With a guide or on your own
+
+You can walk the medina on your own, and on a second visit you should. The first time, a guide changes what you see: the souks are laid out by trade, many of the doors are workshops you can step into, and most of the buildings that matter look like blank walls from the lane. A guide also gets you back out. Book a licensed guide through your riad or a tour operator, never an approach in the street.
+
+Our [Marrakech medina cultural tour](/en/tours/marrakech-medina-cultural-tour) is a private four-hour walk with your own guide, in English, French, Spanish or Arabic. It starts at 9:00 am at the Koutoubia Mosque, before the lanes fill, and goes through the Mellah, the Ben Youssef Madrasa, the craft souks and the tanneries, seen from a private rooftop, to Djemaa el-Fna, with mint tea in a hidden riad. Entrance fees to the monuments on the route are included. It costs €73 for one person, €41 each for two and €31 each from six, and it ends at 1:00 pm, which leaves the afternoon for going back alone to whatever you want more time with.
+
+If food is the reason you came, our [food and market tour](/en/tours/marrakech-food-market-tour) spends the morning in the spice square and the food souks instead, and ends with a tagine you cook yourself.
 
 ## Practical Tips
 
@@ -1359,7 +1398,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-11-01",
     tags: ["Fes", "Fez", "Morocco medina", "Chouara tannery", "imperial cities"],
     seoTitle: "Fes Medina Travel Guide 2026",
     seoDescription:
@@ -1409,6 +1448,14 @@ Fes has one of the oldest Jewish quarters in North Africa, established in 1438. 
 - **Start at Bab Bou Jeloud.** The main gate into the medina. From here, the two main arteries — Talaa Kebira and Talaa Seghira — lead into the heart of the old city.
 - **The best time is dawn.** The medina wakes early — bakers, butchers, and spice merchants begin before 6:00 am. An early morning walk, when the light is low and the city is doing its own business rather than performing for tourists, is extraordinary.
 - **Stay inside the medina.** A riad within the medina walls — even a simple one — gives you access to the city at its best hours. Riads on the outer edge of Fes (Ville Nouvelle) miss the point.
+
+## A guided day in Fes
+
+Fes el-Bali has around nine thousand lanes and no cars, and it is the medina where a guide matters most. Every one of our tours that reaches Fes gives it a full guided day on foot: the Chouara tanneries, the Al-Qarawiyyin, the Medersa Bou Inania and the souks, which are still laid out by trade. Which tour depends on where you start:
+
+- **From Marrakech:** the [3-day tour](/en/tours/marrakech-to-fes-3day) ends with the Fes day, the [4-day Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day) has it on day 2, and the [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day) on day 3.
+- **From Casablanca:** the [5-day tour to Marrakech](/en/tours/casablanca-fes-sahara-marrakech-5day) gives Fes two nights in the same riad with the full day between them, and adds the Al-Attarine madrasa and the potters' quarter.
+- **From Agadir:** the [4-day tour](/en/tours/agadir-to-fes-4day) ends with the Fes day.
 
 ## Getting to Fes
 
@@ -9928,13 +9975,14 @@ The thing that actually determines whether the trip is a pleasure or an enduranc
     category: "culture",
     readTime: 9,
     publishedAt: "2026-09-03",
+    updatedAt: "2026-11-01",
     tags: ["Volubilis", "Roman ruins Morocco", "UNESCO Morocco", "Meknes", "imperial cities"],
     seoTitle: "Volubilis Roman Ruins Guide: Cost & Tips",
     seoDescription:
-      "Morocco's best-preserved Roman city, with mosaics still in the ground. Entry 70 MAD, two hours, and why mid-morning is the worst time to arrive.",
+      "Morocco's best-preserved Roman city, with mosaics still in the ground. Entry 100 MAD, two hours, and why mid-morning is the worst time to arrive.",
     relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-fes-3day"],
     faq: [
-      { q: "How much does it cost to enter Volubilis?", a: "70 dirhams per adult, paid at the kiosk by the main gate. Bring cash — the card machine at the booth is unreliable and there is no ATM at the site. An official guide at the entrance costs roughly 150-200 dirhams for a group, not per person, and is worth it here more than at most sites: without one you are looking at attractive stonework with no idea which house you are standing in." },
+      { q: "How much does it cost to enter Volubilis?", a: "100 dirhams for a foreign adult (50 for a child aged 7 to 13), paid at the kiosk by the main gate or online on the Ministry of Culture's ticket page. Bring cash — the card machine at the booth is unreliable and there is no ATM at the site. An official guide at the entrance costs roughly 150-200 dirhams for a group, not per person, and is worth it here more than at most sites: without one you are looking at attractive stonework with no idea which house you are standing in." },
       { q: "How long do you need at Volubilis?", a: "Two hours is right for a thorough visit, including the walk out to the Arch of Caracalla and back. Ninety minutes is enough if you are moving briskly. Under an hour and you will see the basilica and the arch and miss most of the mosaics, which are spread through the houses along the Decumanus rather than gathered in one place." },
       { q: "Is Volubilis worth visiting if I have already seen Roman ruins in Europe?", a: "For most people, yes, and for one specific reason: the mosaics are still in the ground. At most Mediterranean sites the good floors were lifted long ago and are now behind glass in a museum, often in another city. At Volubilis you walk the same street the mosaics were laid beside and look down at them in situ, open to the sky. It is a smaller site than Ostia or Ephesus and does not pretend otherwise — what it offers is proximity, not scale." },
       { q: "Can you visit Volubilis and Meknes in the same day?", a: "Comfortably. They are about forty minutes apart, and Moulay Idriss sits between them, so the three are routinely done as one loop. Coming from Fes it is a long day — most Fes day trips covering all three run 10 to 11 hours. It is far easier as part of a route heading south, which is how our [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day) takes it in on the first day." },
@@ -9967,9 +10015,23 @@ This is the single reason to come, and it is worth understanding before you arri
 
 **The olive presses.** Easy to walk past, and they explain the whole city. Volubilis was rich because this plain grew olives, and the presses are scattered right through the residential quarters. The wealth that paid for the mosaics came out of the ground here.
 
+## Volubilis at a glance
+
+| Practical point | Detail |
+|---|---|
+| Entry | 100 Dh for a foreign adult, 50 Dh for a child aged 7 to 13, 30 Dh for Moroccans and residents |
+| Tickets | Online on the Ministry of Culture's [ticket page](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), or at the kiosk by the gate (bring cash) |
+| Time on site | Two hours; ninety minutes at a brisk pace |
+| Best time | At opening, before the coaches from Fes arrive around 10 |
+| Shade and heat | Almost no shade; the high 30s °C in July and August |
+| Guide | Official guides at the entrance, about 150–200 Dh per group |
+| From Meknes | About 40 minutes, with Moulay Idriss between the two |
+| From Fes | A long day trip: Volubilis, Moulay Idriss and Meknes together take 10 to 11 hours |
+| On our tours | Day 2 of the [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day), between Midelt and Meknes (≈5 h on the road that day); day 3 of the [4-day Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day), between Fes and Chefchaouen (≈4 h); day 1 of the [5-day Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day), between Rabat and Fes (≈6 h) |
+
 ## Practicalities
 
-**Entry** is 70 dirhams. Cash only in practice.
+**Entry** is 100 dirhams for a foreign adult and 50 for a child aged 7 to 13. At the gate it is cash only in practice; you can also buy the ticket online from the Ministry of Culture.
 
 **Opening hours** are 8am to 6pm, closing at 5pm in winter.
 
@@ -10088,6 +10150,7 @@ If that is your situation, spend the ninety minutes on **Bab Mansour and the gra
     category: "culture",
     readTime: 8,
     publishedAt: "2026-09-03",
+    updatedAt: "2026-11-01",
     tags: ["Casablanca to Marrakech", "Morocco tour cost", "5 day Morocco", "private tour price", "Morocco itinerary"],
     seoTitle: "Casablanca to Marrakech Tour Cost (5 Days)",
     seoDescription:
@@ -10097,7 +10160,7 @@ If that is your situation, spend the ninety minutes on **Bab Mansour and the gra
       { q: "How much does a 5-day Casablanca to Marrakech tour cost?", a: "Advertised prices for this route run from roughly 500 to 1,850 euros per person, which tells you the number alone is close to meaningless. The spread is mostly group size and accommodation: the same vehicle and driver cost the same whether one person or six is in it, so the per-person figure falls sharply as the party grows. Our own private tour works out at 1,380 euros for one traveller and 470 per person for six, all-in for transport, guiding, accommodation and the desert camp." },
       { q: "Why is a solo traveller charged so much more per person?", a: "Because a private tour prices a vehicle, a driver and five days of their time, and then divides. One person carries the whole cost; six people split it. Nothing about the trip gets cheaper with more people — the fuel, the tolls, the driver and the guide in Fes cost the same — so the per-person number is arithmetic, not a surcharge on solo travellers. If you are travelling alone and the private price is beyond your budget, a shared departure is the honest alternative." },
       { q: "Is the transfer back to Casablanca included?", a: "No, and you should check this against any quote you compare. The tour finishes in Marrakech, which is the point of the route — you fly out from there. If you need to return to Casablanca afterwards we can arrange the transfer, but it is priced separately because most travellers do not need it. Some operators quote a Casablanca-to-Casablanca loop, which is a longer trip with a day of backtracking in it." },
-      { q: "What is not included in the price?", a: "Lunches, entry tickets to monuments, the local guide's tip, and anything you buy along the way. Entry fees are small individually — Volubilis is 70 dirhams, the Meknes granaries about 10 — but they add up across five days, so budget roughly 300 to 500 dirhams per person for the whole trip. Dinner and breakfast are included, as is the desert camp." },
+      { q: "What is not included in the price?", a: "Lunches, entry tickets to monuments, the local guide's tip, and anything you buy along the way. Entry fees are small individually — Volubilis is 100 dirhams, the Meknes granaries about 10 — but they add up across five days, so budget roughly 300 to 500 dirhams per person for the whole trip. Dinner and breakfast are included, as is the desert camp." },
       { q: "Does the price change by season?", a: "Yes, mainly through accommodation. Riads in Fes and camps in the Erg Chebbi charge more over Christmas, New Year and Easter, and in the spring and autumn peaks. July and August are cheapest in the desert for the obvious reason that it is 45 degrees. We quote the real price for your dates rather than a headline low-season figure with conditions attached." },
     ],
     content: `
@@ -10144,7 +10207,7 @@ This is worth saying plainly because a solo quote can look like a penalty. It is
 
 **Lunches.** Dinner and breakfast are in; lunch is not, because it stops where the day's driving puts you and it is better that you choose.
 
-**Entry fees.** Volubilis is 70 dirhams. The granaries at Meknes are about 10. The Fes monuments vary. Across five days, budget roughly 300-500 dirhams per person.
+**Entry fees.** Volubilis is 100 dirhams. The granaries at Meknes are about 10. The Fes monuments vary. Across five days, budget roughly 300-500 dirhams per person.
 
 **The transfer back to Casablanca.** The tour ends in Marrakech deliberately — you fly home from there. If you need to get back to Casablanca we will arrange it, priced separately. Check this against other quotes: a Casablanca-to-Casablanca loop is a different, longer trip with backtracking built in.
 

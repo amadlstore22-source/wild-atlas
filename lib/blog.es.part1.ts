@@ -428,7 +428,7 @@ Si solo puedes visitarlo una vez: **abril, mayo u octubre**. Obtienes cada tipo 
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech a Fez", "viaje por carretera en Marruecos", "Aït Ben Haddou", "medina de Fez"],
     seoTitle: "Road trip Marrakech a Fez 2026",
     seoDescription:
@@ -475,6 +475,31 @@ A pocos kilómetros de Ifrane, el antiguo bosque de cedros de Azrou es el mejor 
 Llega a Fez a última hora de la tarde. Regístrate en un riad dentro o cerca de las murallas de la medina. Fez el-Bali es la mayor zona urbana sin coches del mundo y la ciudad medieval más completa que se conserva en pie. Dedícale un día entero: las curtidurías de Chouara, la Al-Qarawiyyin, la Medersa Bou Inania y los zocos milenarios.
 
 Al-Qarawiyyin merece algo más que una mención de pasada. Fundada en el año 859 como mezquita y centro de estudios por Fátima al-Fihri —una mujer nacida en Túnez que financió con su propia herencia un proyecto de construcción de 18 años—, ostenta el récord Guinness y el reconocimiento de la UNESCO como la institución de enseñanza superior más antigua en funcionamiento continuo del mundo, anterior en siglos a las universidades más antiguas de Europa. A lo largo de los siguientes mil años, su biblioteca y sus salas de conferencias atrajeron a eruditos cuyos nombres pertenecen hoy a la historia general del pensamiento, entre ellos el filósofo Averroes y el médico y filósofo Maimónides; un relato incluso atribuye a Gerbert de Aurillac, un erudito que estudió aquí antes de convertirse en el papa Silvestre II, haber ayudado a introducir los números arábigos en la Europa medieval. Buena parte del complejo sigue siendo una mezquita y biblioteca en funcionamiento, no un museo, por lo que el acceso para visitantes no musulmanes es limitado, pero simplemente quedarse fuera, en una ciudad que produce estudios académicos de forma continuada desde el siglo IX, es algo distinto a leer sobre ello.
+
+## Cuántos días para las ciudades imperiales
+
+La ruta de arriba es una forma de subir al norte. Si las ciudades imperiales son el motivo del viaje, las preguntas útiles son cuánto tiempo pide cada una, cuáles merecen una noche y qué distancia hay entre ellas. Estos son los tiempos con los que planifican nuestros propios conductores.
+
+| Ciudad | Tiempo que darle | Noche o parada | Carretera desde la parada anterior |
+|---|---|---|---|
+| Fez | Un día completo con guía, dos noches si puede | Noche | ≈7 h / 480 km desde Marrakech por Ifrane |
+| Mequinez | Una tarde: Bab Mansour, los graneros reales, la medina | Cualquiera de las dos | ≈5 h / 300 km desde Midelt, Volubilis incluido |
+| Volubilis | Dos horas | Parada | Unos 40 minutos desde Mequinez |
+| Chefchaouen | Un día completo | Noche | ≈4 h / 200 km desde Fez, con Volubilis y Mequinez |
+| Rabat | Una tarde: la torre Hassan, el mausoleo de Mohammed V, la kasba de los Udayas | Noche | ≈3 h / 200 km desde Fez |
+| Casablanca | La mezquita Hassan II, por fuera | Parada | De camino de Rabat a Marrakech, ≈4 h / 240 km en total |
+
+Y lo que suma todo eso:
+
+| Días | Qué cabe | Nuestro circuito | Por persona, siendo dos |
+|---|---|---|---|
+| 3 | De Marrakech a Fez por el Alto Atlas, final en Fez | [Marrakech–Fez](/es/tours/marrakech-fez-3-dias) | 572 € |
+| 4 | Fez, Volubilis, Mequinez y Chefchaouen, final en Chefchaouen | [Marrakech–Chefchaouen](/es/tours/marrakech-chefchaouen-4-dias) | 570 € |
+| 5 | Las cuatro ciudades imperiales, regreso a Marrakech | [Ciudades imperiales desde Marrakech](/es/tours/ciudades-imperiales-marrakech-5-dias) | 575 € |
+| 5 | De Casablanca a Marrakech: Rabat, Volubilis, Mequinez, dos noches en Fez y una en el Sáhara | [Casablanca–Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) | 825 € |
+| 6 | Las cuatro ciudades imperiales, desde Agadir | [Ciudades imperiales desde Agadir](/es/tours/ciudades-imperiales-agadir-6-dias) | 515 € |
+
+El circuito de 5 días desde Marrakech es el más tranquilo: ningún día pasa de unas 7 horas de carretera, y Fez tiene un día entero a pie.
 
 ## Notas prácticas
 
@@ -752,7 +777,7 @@ Los riads de Chefchaouen tienen una excelente relación calidad-precio: puedes a
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["gastronomía marroquí", "cocina marroquí", "tayín", "cuscús", "restaurantes en Marrakech"],
     seoTitle: "Guía gastronómica de Marruecos 2026",
     seoDescription:
@@ -825,6 +850,12 @@ Té verde gunpowder preparado fuerte, servido desde una altura considerable (par
 - **La comida es la comida principal.** Los marroquíes hacen su comida más copiosa al mediodía. La mejor relación calidad-precio y la comida más auténtica está disponible al mediodía.
 - **Los vegetarianos están bien atendidos**: los tayines de verduras, ensaladas, sopas y panes marroquíes son excelentes. Comunica con claridad: «ana nabati» (soy vegetariano/a).
 - **Evita el agua del grifo** en todas las ciudades. Solo agua embotellada o filtrada.
+
+## Probarlo todo con un guía
+
+Una lista de platos solo llega hasta cierto punto; comerlos con alguien que sabe dónde se prepara bien cada uno llega más lejos. Nuestro [tour gastronómico por Marrakech](/es/tours/tour-gastronomico-marrakech) es un paseo privado de media jornada con un guía gastronómico de habla inglesa, de 9:30 a 13:30 aproximadamente. Empieza en Rahba Kedima, la plaza de las especias, donde aprenderá a distinguir el azafrán auténtico de las imitaciones teñidas, y dedica luego unos noventa minutos a degustar en los zocos de alimentación de la medina: aceitunas, dátiles, msemen y zumo de naranja recién exprimido. Con su guía compra en los puestos los ingredientes de su clase, cocina un tajín con una familia local y se sienta a comerlo, con té a la menta para terminar.
+
+Todas las degustaciones, la clase y el almuerzo están incluidos, y toda la mañana puede ser vegetariana si lo pide. Cuesta 100 € por persona. Si prefiere dedicar una mañana a los monumentos y a la historia, el [tour cultural por la medina](/es/tours/tour-cultural-medina-marrakech) es la otra media jornada.
     `,
   },
   {
@@ -996,7 +1027,7 @@ Si Agafay te deja con ganas de más, el Alto Atlas va todavía más lejos. Oukai
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech", "medina", "Djemaa el-Fna", "zocos", "guía urbana de Marruecos"],
     seoTitle: "Guía de la medina de Marrakech 2026",
     seoDescription:
@@ -1040,9 +1071,9 @@ Los zocos (mercados) ocupan la mitad norte de la medina, aproximadamente entre D
 
 **Palacio de la Bahía** (gratis, abierto a diario): un palacio de visir del siglo XIX de 150 habitaciones, construido para ser el más hermoso de todo Marruecos. La artesanía —techos de cedro tallado, azulejería zellij, estuco pintado— es extraordinaria. Reserva 45 minutos.
 
-**Palacio El Badi** (ruinas, 70 MAD la entrada): el palacio saadí del siglo XVI, encargado por el sultán Ahmad al-Mansur desde 1578 y construido con mármol, oro y materiales importados desde lugares tan lejanos como Italia y Malí, fue descrito en su día como el más magnífico del mundo islámico. Su caída llegó un siglo después a manos del sultán alauí Moulay Ismail, que lo hizo despojar sistemáticamente de sus materiales de construcción —mármol, azulejería, cedro, paneles decorativos enteros— para construir su propia nueva capital en Mequinez. Los relatos históricos difieren sobre el momento exacto en que ocurrió esto, con algunas fuentes que datan la orden en 1696 y otras hasta 1707, pero coinciden en que el desmantelamiento en sí fue un trabajo lento y minucioso que, según se cuenta, tardó cerca de una década en completarse. Se cree que el material saadí recuperado de estas paredes acabó no solo en Mequinez sino incluso tan lejos como Fez, en la decoración de la Zaouia de Moulay Idriss II. Lo que queda hoy en Marrakech son ruinas llenas de atmósfera: enormes patios vacíos, jardines hundidos y nidos de cigüeña en cada muro. Mejor que la Bahía en cuanto a ambiente.
+**Palacio El Badi** (ruinas, 100 MAD la entrada): el palacio saadí del siglo XVI, encargado por el sultán Ahmad al-Mansur desde 1578 y construido con mármol, oro y materiales importados desde lugares tan lejanos como Italia y Malí, fue descrito en su día como el más magnífico del mundo islámico. Su caída llegó un siglo después a manos del sultán alauí Moulay Ismail, que lo hizo despojar sistemáticamente de sus materiales de construcción —mármol, azulejería, cedro, paneles decorativos enteros— para construir su propia nueva capital en Mequinez. Los relatos históricos difieren sobre el momento exacto en que ocurrió esto, con algunas fuentes que datan la orden en 1696 y otras hasta 1707, pero coinciden en que el desmantelamiento en sí fue un trabajo lento y minucioso que, según se cuenta, tardó cerca de una década en completarse. Se cree que el material saadí recuperado de estas paredes acabó no solo en Mequinez sino incluso tan lejos como Fez, en la decoración de la Zaouia de Moulay Idriss II. Lo que queda hoy en Marrakech son ruinas llenas de atmósfera: enormes patios vacíos, jardines hundidos y nidos de cigüeña en cada muro. Mejor que la Bahía en cuanto a ambiente.
 
-**Tumbas Saadíes** (70 MAD): el mausoleo real de la dinastía saadí, sellado durante 200 años y redescubierto solo en 1917. Un espacio pequeño y exquisito de una artesanía excepcional. Haz cola temprano: es pequeño y se llena de gente.
+**Tumbas Saadíes** (100 MAD): el mausoleo real de la dinastía saadí, sellado durante 200 años y redescubierto solo en 1917. Un espacio pequeño y exquisito de una artesanía excepcional. Haz cola temprano: es pequeño y se llena de gente.
 
 ## Mezquita y medersa Ben Youssef
 
@@ -1055,6 +1086,14 @@ Una visita a un hammam tradicional (baño público) es una de las experiencias d
 **Hammam beldi** (hammam público local): barato (10-20 MAD), sin lujos, auténtico. Traes tu propio jabón negro (savon beldi) y tu guante exfoliante (kessa), ambos disponibles en cualquier droguería del zoco. Sin inglés, sin cartas: observa lo que hacen los demás. Horarios o espacios separados para hombres y mujeres.
 
 **Hammam turístico:** más cuidado, personal de habla inglesa, paquetes de tratamiento completos (exfoliación, masaje, té). 150-400 MAD según el paquete. Recomendado para quienes lo prueban por primera vez. Les Bains de Marrakech y Hammam de la Rose son fiablemente buenos.
+
+## Con guía o por su cuenta
+
+Puede recorrer la medina por su cuenta, y en una segunda visita debería hacerlo. La primera vez, un guía cambia lo que ve: los zocos están organizados por oficios, muchas puertas son talleres en los que se puede entrar, y la mayoría de los edificios importantes, desde el callejón, parecen muros ciegos. Un guía también le saca de nuevo. Reserve un guía oficial a través de su riad o de una agencia, nunca a alguien que le aborde en la calle.
+
+Nuestro [tour cultural por la medina de Marrakech](/es/tours/tour-cultural-medina-marrakech) es un paseo privado de cuatro horas con su propio guía, en inglés, francés, español o árabe. Empieza a las 9:00 en la mezquita Kutubía, antes de que se llenen las calles, y pasa por la Mellah, la madrasa Ben Youssef, los zocos de artesanos y las curtidurías, vistas desde una azotea privada, hasta Yamaa el Fna, con té a la menta en un riad escondido. Las entradas de los monumentos del recorrido están incluidas. Cuesta 73 € para una persona, 41 € por persona siendo dos y 31 € por persona a partir de seis, y termina a las 13:00, lo que deja la tarde libre para volver por su cuenta a lo que quiera ver con más calma.
+
+Si viene por la comida, nuestro [tour gastronómico](/es/tours/tour-gastronomico-marrakech) pasa la mañana en la plaza de las especias y en los zocos de alimentación, y termina con un tajín que cocina usted mismo.
 
 ## Consejos prácticos
 
@@ -1246,7 +1285,7 @@ El Anti-Atlas tiene una avifauna excepcional. El **colirrojo de Moussier** es en
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Fez", "medina de Marruecos", "curtiduría Chouara", "ciudades imperiales"],
     seoTitle: "Guía de viaje a la medina de Fez 2026",
     seoDescription:
@@ -1297,6 +1336,14 @@ Fez tiene uno de los barrios judíos más antiguos del norte de África, estable
 - **La mejor hora es el amanecer.** La medina despierta temprano: panaderos, carniceros y comerciantes de especias empiezan antes de las 6:00. Un paseo de madrugada, cuando la luz es baja y la ciudad se ocupa de sus propios asuntos en lugar de actuar para los turistas, es extraordinario.
 - **Alójate dentro de la medina.** Un riad dentro de las murallas de la medina —incluso uno sencillo— te da acceso a la ciudad en sus mejores horas. Los riads en el extremo exterior de Fez (Ville Nouvelle) se pierden lo esencial.
 
+
+## Un día con guía en Fez
+
+Fez el-Bali tiene unos nueve mil callejones y ningún coche, y es la medina donde un guía más importa. Cada uno de nuestros circuitos que llega a Fez le dedica un día completo con guía a pie: las curtidurías Chouara, la Qarawiyyin, la madrasa Bou Inania y los zocos, que siguen organizados por oficios. El circuito depende de dónde empiece:
+
+- **Desde Marrakech:** el [circuito de 3 días](/es/tours/marrakech-fez-3-dias) termina con el día en Fez, el [circuito de 4 días a Chefchaouen](/es/tours/marrakech-chefchaouen-4-dias) lo tiene el día 2 y el [circuito de 5 días por las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) el día 3.
+- **Desde Casablanca:** el [circuito de 5 días hasta Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) da a Fez dos noches en el mismo riad, con el día completo entre ellas, y añade la madrasa Al-Attarine y el barrio de los alfareros.
+- **Desde Agadir:** el [circuito de 4 días](/es/tours/agadir-fez-4-dias) termina con el día en Fez.
 
 ## Cómo llegar a Fez
 

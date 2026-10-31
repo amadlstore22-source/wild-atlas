@@ -7061,13 +7061,13 @@ Ciò che determina davvero se il viaggio sia un piacere o una prova di resistenz
     region: "imperial-cities",
     readTime: 9,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-11-01",
     tags: ["Volubilis", "rovine romane Marocco", "UNESCO Marocco", "Meknes", "città imperiali"],
     seoTitle: "Volubilis: rovine romane, prezzi e consigli",
     seoDescription:
-      "La città romana meglio conservata del Marocco, con i mosaici ancora nel terreno. Ingresso 70 MAD, due ore, e perché conviene evitare la tarda mattinata.",
+      "La città romana meglio conservata del Marocco, con i mosaici ancora nel terreno. Ingresso 100 MAD, due ore, e perché conviene evitare la tarda mattinata.",
     faq: [
-      { q: "Quanto costa l'ingresso a Volubilis?", a: "70 dirham per adulto, da pagare alla biglietteria vicino all'ingresso principale. Portate contanti: il POS della cassa è inaffidabile e sul sito non ci sono bancomat. Una guida ufficiale all'ingresso costa circa 150-200 dirham a gruppo, non a persona, e qui serve più che nella maggior parte dei siti: senza, state guardando bella pietra senza sapere in quale casa vi trovate." },
+      { q: "Quanto costa l'ingresso a Volubilis?", a: "100 dirham per adulto straniero (50 per i bambini dai 7 ai 13 anni), da pagare alla biglietteria vicino all'ingresso principale oppure online sul sito dei biglietti del Ministero della Cultura. Portate contanti: il POS della cassa è inaffidabile e sul sito non ci sono bancomat. Una guida ufficiale all'ingresso costa circa 150-200 dirham a gruppo, non a persona, e qui serve più che nella maggior parte dei siti: senza, state guardando bella pietra senza sapere in quale casa vi trovate." },
       { q: "Quanto tempo serve a Volubilis?", a: "Due ore per una visita completa, compresa l'andata e il ritorno fino all'arco di Caracalla. Novanta minuti bastano camminando di buon passo. In meno di un'ora vedrete la basilica e l'arco e perderete quasi tutti i mosaici, sparsi nelle case lungo il Decumano invece che raccolti in un punto solo." },
       { q: "Vale la pena Volubilis se ho già visto rovine romane in Europa?", a: "Per la maggior parte dei visitatori sì, e per un motivo preciso: i mosaici sono ancora nel terreno. Nella maggior parte dei siti mediterranei i pavimenti migliori sono stati staccati da tempo e oggi stanno dietro un vetro, spesso in un'altra città. A Volubilis camminate lungo la stessa strada accanto a cui furono posati e li guardate in situ, a cielo aperto. È un sito più piccolo di Ostia o Efeso e non finge il contrario: quello che offre è la vicinanza, non la scala." },
       { q: "Si possono visitare Volubilis e Meknes nello stesso giorno?", a: "Tranquillamente. Distano circa quaranta minuti, e Moulay Idriss sta in mezzo, quindi i tre si fanno di solito in un unico giro. Da Fès è una giornata lunga: la maggior parte delle escursioni che coprono tutti e tre dura dalle 10 alle 11 ore. È molto più comodo su un percorso che scende già verso sud, come fa il nostro [tour di 5 giorni da Casablanca a Marrakech](/it/tours/casablanca-fes-sahara-marrakech-5-giorni) nella prima giornata." },
@@ -7100,9 +7100,23 @@ Alla maggior parte dei siti romani del Mediterraneo sono stati tolti i pavimenti
 
 **I frantoi.** Facili da superare senza notarli, eppure spiegano l'intera città. Volubilis era ricca perché questa piana produceva olive, e i torchi sono sparsi in tutto il quartiere residenziale. La ricchezza che pagò i mosaici usciva dal terreno, proprio qui.
 
+## Volubilis in breve
+
+| Informazione pratica | Dettaglio |
+|---|---|
+| Ingresso | 100 Dh per adulto straniero, 50 Dh per i bambini dai 7 ai 13 anni, 30 Dh per marocchini e residenti |
+| Biglietti | Online sul [sito dei biglietti del Ministero della Cultura](https://e-services.minculture.gov.ma/en/tickets/site-archeologique-de-volubilis), oppure alla biglietteria dell'ingresso (portate contanti) |
+| Tempo sul sito | Due ore; novanta minuti a passo svelto |
+| Momento migliore | All'apertura, prima dei pullman da Fès che arrivano verso le 10 |
+| Ombra e caldo | Quasi nessuna ombra; spesso vicino ai 40 °C a luglio e agosto |
+| Guida | Guide ufficiali all'ingresso, circa 150–200 Dh a gruppo |
+| Da Meknès | Circa 40 minuti, con Moulay Idriss tra i due |
+| Da Fès | Una gita lunga: Volubilis, Moulay Idriss e Meknès insieme richiedono da 10 a 11 ore |
+| Nei nostri tour | Giorno 2 del [tour di 5 giorni delle città imperiali](/it/tours/citta-imperiali-marrakech-5-giorni), tra Midelt e Meknès (≈5 h di strada quel giorno); giorno 3 del [tour di 4 giorni a Chefchaouen](/it/tours/marrakech-chefchaouen-4-giorni), tra Fès e Chefchaouen (≈4 h); giorno 1 del [tour di 5 giorni da Casablanca a Marrakech](/it/tours/casablanca-fes-sahara-marrakech-5-giorni), tra Rabat e Fès (≈6 h) |
+
 ## Informazioni pratiche
 
-**Ingresso:** 70 dirham. In pratica solo contanti.
+**Ingresso:** 100 dirham per adulto straniero, 50 per i bambini dai 7 ai 13 anni. Alla biglietteria, in pratica, solo contanti; il biglietto si compra anche online presso il Ministero della Cultura.
 
 **Orari:** dalle 8 alle 18; in inverno chiusura alle 17.
 
@@ -7223,7 +7237,7 @@ Se è il vostro caso, spendeteli su **Bab Mansour e i granai** e saltate la medi
     region: "imperial-cities",
     readTime: 8,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-11-01",
     tags: ["Casablanca Marrakech", "prezzo tour Marocco", "Marocco 5 giorni", "prezzo tour privato", "itinerario Marocco"],
     seoTitle: "Prezzo tour Casablanca-Marrakech (5 giorni)",
     seoDescription:
@@ -7232,7 +7246,7 @@ Se è il vostro caso, spendeteli su **Bab Mansour e i granai** e saltate la medi
       { q: "Quanto costa un tour di 5 giorni da Casablanca a Marrakech?", a: "I prezzi pubblicizzati per questo itinerario vanno da circa 500 a 1.850 euro a persona, il che dimostra che la cifra da sola dice poco. La differenza sta soprattutto nella dimensione del gruppo e nell'alloggio: veicolo e autista costano lo stesso che a bordo ci sia una persona o sei, quindi il prezzo a persona cala nettamente al crescere del gruppo. Il nostro tour privato risulta 1.380 euro per chi viaggia solo e 470 euro a persona in sei, tutto compreso per trasporto, guide, alloggio e campo nel deserto." },
       { q: "Perché chi viaggia solo paga molto di più a persona?", a: "Perché un tour privato conteggia un veicolo, un autista e cinque giorni del loro tempo, e poi divide. Una persona porta l'intero costo; sei lo dividono. Nulla diventa più economico con più persone — carburante, pedaggi, autista e guida a Fès costano lo stesso — quindi il prezzo a persona è aritmetica, non un sovrapprezzo per chi viaggia solo. Se viaggiate da soli e il prezzo privato supera il vostro budget, una partenza condivisa è l'alternativa onesta." },
       { q: "Il transfer di ritorno a Casablanca è incluso?", a: "No, ed è un punto da verificare in ogni preventivo che confrontate. Il tour termina a Marrakech, che è il senso dell'itinerario: da lì ripartite in aereo. Se dopo dovete tornare a Casablanca organizziamo il transfer, ma è quotato a parte perché la maggior parte dei viaggiatori non ne ha bisogno. Alcuni operatori propongono un anello Casablanca-Casablanca, che è un viaggio più lungo con dentro una giornata di ritorno sui propri passi." },
-      { q: "Cosa non è compreso nel prezzo?", a: "I pranzi, i biglietti d'ingresso ai monumenti, la mancia per la guida locale e quello che comprate lungo la strada. Gli ingressi sono modesti presi singolarmente — 70 dirham a Volubilis, una decina ai granai di Meknes — ma si sommano su cinque giorni: calcolate circa 300-500 dirham a persona per l'intero viaggio. Cena e colazione sono incluse, così come il campo nel deserto." },
+      { q: "Cosa non è compreso nel prezzo?", a: "I pranzi, i biglietti d'ingresso ai monumenti, la mancia per la guida locale e quello che comprate lungo la strada. Gli ingressi sono modesti presi singolarmente — 100 dirham a Volubilis, una decina ai granai di Meknes — ma si sommano su cinque giorni: calcolate circa 300-500 dirham a persona per l'intero viaggio. Cena e colazione sono incluse, così come il campo nel deserto." },
       { q: "Il prezzo cambia con la stagione?", a: "Sì, soprattutto tramite l'alloggio. I riad di Fès e i campi dell'Erg Chebbi aumentano a Natale, Capodanno e Pasqua, e nei picchi di primavera e autunno. Luglio e agosto sono i più economici nel deserto per l'ovvia ragione che ci sono 45 gradi. Diamo il prezzo reale per le vostre date invece di una cifra civetta con condizioni." },
     ],
     content: `
@@ -7279,7 +7293,7 @@ Vale la pena dirlo chiaramente, perché un preventivo per una persona può sembr
 
 **I pranzi.** Cena e colazione sono dentro; il pranzo no, perché capita dove vi porta la strada ed è meglio che scegliate voi.
 
-**Gli ingressi.** Volubilis 70 dirham. I granai di Meknes una decina. I monumenti di Fès variano. Su cinque giorni, calcolate 300-500 dirham a persona.
+**Gli ingressi.** Volubilis 100 dirham. I granai di Meknes una decina. I monumenti di Fès variano. Su cinque giorni, calcolate 300-500 dirham a persona.
 
 **Il transfer di ritorno a Casablanca.** Il tour finisce a Marrakech di proposito: da lì tornate a casa. Se dovete rientrare a Casablanca lo organizziamo, quotato a parte. Verificatelo negli altri preventivi: un anello Casablanca-Casablanca è un viaggio diverso e più lungo, con il ritorno sui propri passi incorporato.
 

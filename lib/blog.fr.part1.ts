@@ -428,7 +428,7 @@ Si vous ne pouvez visiter qu'une seule fois : **avril, mai ou octobre**. Vous ob
     category: "culture",
     readTime: 8,
     publishedAt: "2025-01-30",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech à Fès", "road trip au Maroc", "Aït Ben Haddou", "médina de Fès"],
     seoTitle: "Guide du road trip Marrakech–Fès 2026",
     seoDescription:
@@ -475,6 +475,31 @@ Une inattendue ville de montagne d'époque coloniale, construite dans les année
 Arrivée à Fès en fin d'après-midi. Installation dans un riad à l'intérieur ou près des remparts de la médina. Fès el-Bali est la plus grande zone urbaine sans voiture au monde et la ville médiévale la plus complète encore existante. Prévoyez une journée entière ici : les tanneries Chouara, Al-Qaraouiyine, la médersa Bou Inania, et les souks millénaires.
 
 Al-Qaraouiyine mérite plus qu'une simple mention. Fondée en 859 comme mosquée et centre d'enseignement par Fatima al-Fihri — une femme née en Tunisie qui a financé de sa propre fortune un projet de construction de 18 ans — elle détient le record du Guinness et la reconnaissance de l'UNESCO en tant que plus ancienne institution d'enseignement supérieur en activité continue au monde, précédant de plusieurs siècles les plus anciennes universités d'Europe. Au cours du millénaire suivant, sa bibliothèque et ses salles de cours ont attiré des érudits dont les noms appartiennent désormais à l'histoire mondiale des idées, notamment le philosophe Averroès et le médecin-philosophe Maïmonide ; un récit crédite même Gerbert d'Aurillac, un érudit qui y aurait étudié avant de devenir le pape Sylvestre II, d'avoir contribué à faire connaître les chiffres arabes en Europe médiévale. Une grande partie du complexe reste une mosquée et une bibliothèque en activité plutôt qu'un musée, si bien que l'accès des visiteurs non musulmans est limité — mais se tenir simplement devant, dans une ville qui produit de l'érudition sans interruption depuis le IXe siècle, procure une sensation différente de celle d'en lire le récit.
+
+## Combien de jours pour les villes impériales
+
+L'itinéraire ci-dessus est une façon de monter vers le nord. Si les villes impériales sont le but du voyage, les vraies questions sont le temps que demande chacune, celles qui méritent une nuit, et la distance entre elles. Voici les temps sur lesquels nos propres chauffeurs comptent.
+
+| Ville | Temps à prévoir | Nuit ou étape | Route depuis l'étape précédente |
+|---|---|---|---|
+| Fès | Une journée guidée complète, deux nuits si possible | Nuit | ≈7 h / 480 km depuis Marrakech par Ifrane |
+| Meknès | Un après-midi : Bab Mansour, les greniers royaux, la médina | Les deux | ≈5 h / 300 km depuis Midelt, Volubilis compris |
+| Volubilis | Deux heures | Étape | Environ 40 minutes depuis Meknès |
+| Chefchaouen | Une journée complète | Nuit | ≈4 h / 200 km depuis Fès, avec Volubilis et Meknès |
+| Rabat | Un après-midi : la tour Hassan, le mausolée Mohammed V, la kasbah des Oudayas | Nuit | ≈3 h / 200 km depuis Fès |
+| Casablanca | La mosquée Hassan II, vue de l'extérieur | Étape | Sur la route de Rabat à Marrakech, ≈4 h / 240 km au total |
+
+Et ce que cela donne :
+
+| Jours | Ce qui tient | Notre circuit | Par personne, à deux |
+|---|---|---|---|
+| 3 | De Marrakech à Fès par le Haut Atlas, arrivée à Fès | [Marrakech–Fès](/fr/tours/marrakech-fes-3-jours) | 572 € |
+| 4 | Fès, Volubilis, Meknès et Chefchaouen, arrivée à Chefchaouen | [Marrakech–Chefchaouen](/fr/tours/marrakech-chefchaouen-4-jours) | 570 € |
+| 5 | Les quatre villes impériales, retour à Marrakech | [Villes impériales depuis Marrakech](/fr/tours/villes-imperiales-marrakech-5-jours) | 575 € |
+| 5 | De Casablanca à Marrakech : Rabat, Volubilis, Meknès, deux nuits à Fès et une au Sahara | [Casablanca–Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) | 825 € |
+| 6 | Les quatre villes impériales, au départ d'Agadir | [Villes impériales depuis Agadir](/fr/tours/villes-imperiales-agadir-6-jours) | 515 € |
+
+La boucle de 5 jours depuis Marrakech est la plus douce : aucune journée ne dépasse environ 7 heures de route, et Fès a droit à une journée entière à pied.
 
 ## Notes pratiques
 
@@ -752,7 +777,7 @@ Les riads de Chefchaouen offrent un excellent rapport qualité-prix — vous pou
     category: "culture",
     readTime: 8,
     publishedAt: "2025-08-20",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["gastronomie marocaine", "cuisine marocaine", "tajine", "couscous", "restaurants à Marrakech"],
     seoTitle: "Guide de la gastronomie marocaine 2026",
     seoDescription:
@@ -825,6 +850,12 @@ Un thé vert gunpowder infusé fort, versé de haut (pour créer de la mousse), 
 - **Le déjeuner est le repas principal.** Les Marocains prennent leur repas le plus copieux à midi. C'est à ce moment que la nourriture la plus authentique et la meilleure valeur sont disponibles.
 - **Les végétariens sont bien servis** — les tajines de légumes, salades, soupes et pains marocains sont excellents. Communiquez clairement : « ana nabati » (je suis végétarien).
 - **Évitez l'eau du robinet** dans toutes les villes. Uniquement de l'eau en bouteille ou filtrée.
+
+## Goûter tout cela avec un guide
+
+Une liste de plats ne mène pas loin ; les manger avec quelqu'un qui sait où chacun est bien préparé mène plus loin. Notre [visite gastronomique de Marrakech](/fr/tours/visite-gastronomique-marrakech) est une balade privée d'une demi-journée avec un guide culinaire anglophone, de 9h30 à environ 13h30. Elle commence à Rahba Kedima, la place des épices, où l'on apprend à distinguer le vrai safran des imitations teintes, puis consacre environ quatre-vingt-dix minutes aux dégustations dans les souks alimentaires de la médina : olives, dattes, msemen et jus d'orange pressé. Vous achetez avec votre guide les ingrédients de votre cours aux étals, cuisinez un tajine avec une famille locale, puis le mangez au déjeuner, avec un thé à la menthe pour finir.
+
+Toutes les dégustations, le cours et le déjeuner sont inclus, et toute la matinée peut être végétarienne sur demande. Elle coûte 100 € par personne. Si vous préférez consacrer une matinée aux monuments et à l'histoire, la [visite culturelle de la médina](/fr/tours/visite-culturelle-medina-marrakech) est l'autre demi-journée.
     `,
   },
   {
@@ -996,7 +1027,7 @@ Si Agafay vous donne envie d'aller plus loin, le Haut Atlas offre encore plus. O
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Marrakech", "médina", "Djemaa el-Fna", "souks", "guide de la ville marocaine"],
     seoTitle: "Guide de la médina de Marrakech 2026",
     seoDescription:
@@ -1040,9 +1071,9 @@ Les souks (marchés) occupent la moitié nord de la médina, à peu près entre 
 
 **Palais Bahia** (gratuit, ouvert tous les jours) : un palais de vizir du XIXe siècle comptant 150 pièces, construit pour être le plus beau de tout le Maroc. Le savoir-faire — plafonds en cèdre sculpté, zellige, stuc peint — est extraordinaire. Prévoyez 45 minutes.
 
-**Palais El Badi** (ruines, 70 MAD d'entrée) : le palais saadien du XVIe siècle, commandité par le sultan Ahmed al-Mansour à partir de 1578 et construit avec du marbre, de l'or et des matériaux importés d'aussi loin que l'Italie et le Mali, fut autrefois décrit comme le plus magnifique du monde islamique. Sa chute survint un siècle plus tard, sous l'action du sultan alaouite Moulay Ismaïl, qui le fit systématiquement dépouiller de ses matériaux de construction — marbre, carrelage, cèdre, panneaux décoratifs entiers — pour bâtir sa propre nouvelle capitale à Meknès. Les récits historiques divergent sur la date exacte de cet événement, certaines sources situant l'ordre en 1696 et d'autres aussi tard qu'en 1707, mais tous s'accordent à dire que le démantèlement lui-même fut un travail lent et méthodique, ayant pris environ une décennie. On pense que les matériaux saadiens récupérés sur ces murs ont fini non seulement à Meknès, mais même jusqu'à Fès, dans la décoration de la Zaouïa de Moulay Idriss II. Ce qu'il reste aujourd'hui à Marrakech, ce sont des ruines chargées d'atmosphère — de vastes cours vides, des jardins en contrebas, et des nids de cigognes sur chaque mur. Meilleur que Bahia pour l'ambiance.
+**Palais El Badi** (ruines, 100 MAD d'entrée) : le palais saadien du XVIe siècle, commandité par le sultan Ahmed al-Mansour à partir de 1578 et construit avec du marbre, de l'or et des matériaux importés d'aussi loin que l'Italie et le Mali, fut autrefois décrit comme le plus magnifique du monde islamique. Sa chute survint un siècle plus tard, sous l'action du sultan alaouite Moulay Ismaïl, qui le fit systématiquement dépouiller de ses matériaux de construction — marbre, carrelage, cèdre, panneaux décoratifs entiers — pour bâtir sa propre nouvelle capitale à Meknès. Les récits historiques divergent sur la date exacte de cet événement, certaines sources situant l'ordre en 1696 et d'autres aussi tard qu'en 1707, mais tous s'accordent à dire que le démantèlement lui-même fut un travail lent et méthodique, ayant pris environ une décennie. On pense que les matériaux saadiens récupérés sur ces murs ont fini non seulement à Meknès, mais même jusqu'à Fès, dans la décoration de la Zaouïa de Moulay Idriss II. Ce qu'il reste aujourd'hui à Marrakech, ce sont des ruines chargées d'atmosphère — de vastes cours vides, des jardins en contrebas, et des nids de cigognes sur chaque mur. Meilleur que Bahia pour l'ambiance.
 
-**Tombeaux saadiens** (70 MAD) : le mausolée royal de la dynastie saadienne, scellé pendant 200 ans et redécouvert seulement en 1917. Un petit espace exquis d'un savoir-faire exceptionnel. Faites la queue tôt — c'est petit et cela se remplit vite.
+**Tombeaux saadiens** (100 MAD) : le mausolée royal de la dynastie saadienne, scellé pendant 200 ans et redécouvert seulement en 1917. Un petit espace exquis d'un savoir-faire exceptionnel. Faites la queue tôt — c'est petit et cela se remplit vite.
 
 ## La mosquée et la médersa Ben Youssef
 
@@ -1055,6 +1086,14 @@ Une visite dans un hammam traditionnel (bain public) est l'une des expériences 
 **Hammam beldi** (hammam public local) : bon marché (10–20 MAD), sans chichis, authentique. Vous apportez votre propre savon noir (savon beldi) et gant de gommage (kessa), tous deux disponibles dans n'importe quelle pharmacie de souk. Pas d'anglais, pas de menus — observez ce que font les autres. Horaires ou espaces séparés pour hommes et femmes.
 
 **Hammam touristique :** épuré, personnel anglophone, forfaits de soins complets (gommage, massage, thé). 150 à 400 MAD selon le forfait. Recommandé pour les débutants. Les Bains de Marrakech et Hammam de la Rose sont d'une qualité constante.
+
+## Avec un guide ou seul
+
+On peut parcourir la médina seul, et lors d'une deuxième visite il faut le faire. La première fois, un guide change ce que vous voyez : les souks sont organisés par métier, beaucoup de portes sont des ateliers où l'on peut entrer, et la plupart des bâtiments importants ne sont, depuis la ruelle, que des murs nus. Un guide vous ramène aussi à la sortie. Réservez un guide agréé par votre riad ou par une agence, jamais auprès de quelqu'un qui vous aborde dans la rue.
+
+Notre [visite culturelle de la médina de Marrakech](/fr/tours/visite-culturelle-medina-marrakech) est une balade privée de quatre heures avec votre propre guide, en anglais, français, espagnol ou arabe. Elle part à 9h de la mosquée Koutoubia, avant que les ruelles ne se remplissent, et passe par le Mellah, la médersa Ben Youssef, les souks des artisans et les tanneries, vues depuis une terrasse privée, jusqu'à Jemaa el-Fna, avec un thé à la menthe dans un riad caché. Les entrées des monuments du parcours sont incluses. Elle coûte 73 € pour une personne, 41 € chacun à deux et 31 € chacun à partir de six, et se termine à 13h, ce qui laisse l'après-midi pour revenir seul là où vous voulez rester plus longtemps.
+
+Si vous venez pour la cuisine, notre [visite gastronomique](/fr/tours/visite-gastronomique-marrakech) passe plutôt la matinée sur la place des épices et dans les souks alimentaires, et se termine par un tajine que vous cuisinez vous-même.
 
 ## Conseils pratiques
 
@@ -1246,7 +1285,7 @@ L'Anti-Atlas possède une avifaune exceptionnelle. Le **rougequeue de Moussier**
     category: "culture",
     readTime: 9,
     publishedAt: "2025-12-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-01",
     tags: ["Fès", "médina marocaine", "tannerie Chouara", "villes impériales"],
     seoTitle: "Guide de voyage de la médina de Fès 2026",
     seoDescription:
@@ -1297,6 +1336,14 @@ Fès possède l'un des plus anciens quartiers juifs d'Afrique du Nord, établi e
 - **La meilleure heure est l'aube.** La médina s'éveille tôt — boulangers, bouchers et marchands d'épices commencent avant 6h00. Une promenade matinale, quand la lumière est basse et que la ville vaque à ses propres affaires plutôt que de se donner en spectacle pour les touristes, est extraordinaire.
 - **Logez à l'intérieur de la médina.** Un riad à l'intérieur des remparts de la médina — même modeste — vous donne accès à la ville à ses meilleures heures. Les riads en périphérie de Fès (Ville Nouvelle) passent à côté de l'essentiel.
 
+
+## Une journée guidée à Fès
+
+Fès el-Bali compte quelque neuf mille ruelles et aucune voiture, et c'est la médina où un guide compte le plus. Chacun de nos circuits qui passe par Fès lui consacre une journée guidée complète à pied : les tanneries Chouara, la Quaraouiyine, la médersa Bou Inania et les souks, toujours organisés par métier. Le circuit dépend de votre point de départ :
+
+- **Depuis Marrakech :** le [circuit de 3 jours](/fr/tours/marrakech-fes-3-jours) se termine par la journée à Fès, le [circuit de 4 jours à Chefchaouen](/fr/tours/marrakech-chefchaouen-4-jours) la place au jour 2, et le [circuit de 5 jours des villes impériales](/fr/tours/villes-imperiales-marrakech-5-jours) au jour 3.
+- **Depuis Casablanca :** le [circuit de 5 jours vers Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) offre à Fès deux nuits dans le même riad, avec la journée complète entre les deux, et ajoute la médersa Al-Attarine et le quartier des potiers.
+- **Depuis Agadir :** le [circuit de 4 jours](/fr/tours/agadir-fes-4-jours) se termine par la journée à Fès.
 
 ## Comment se rendre à Fès
 

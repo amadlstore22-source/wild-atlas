@@ -188,6 +188,20 @@ describe("team app script", () => {
     expect(t.b.notes, "column K (no header) is shown as notes").toEqual(["vegetarian x2"]);
   });
 
+  // A trip cancelled in MET Desk (2026-11-02): the invoices file writes a
+  // CANCELLED column in bookings26. The logistics team plans from this app, so
+  // a cancelled trip that looked like any other could send a driver for nobody.
+  it("carries the CANCELLED text from bookings26, so the app can show the trip as cancelled", () => {
+    const nov = bookings.sheets[0];
+    nov.cell(2, 13).v = "CANCELLED";
+    nov.cell(3, 13).v = "CANCELLED 2026-11-05 by CN-2026-001: client cancelled";
+    load();
+    const [ana, bo] = run("teamTrips").trips;
+    expect(ana.b.cancelled).toBe("CANCELLED 2026-11-05 by CN-2026-001: client cancelled");
+    expect(ana.b.extra, "a known field, not an extra one").toEqual([]);
+    expect(bo.b.cancelled ?? "", "the other trips are not cancelled").toBe("");
+  });
+
   it("matches a hand-typed deposit only by the same EMAILS and date, never by a guess", () => {
     const [, bo, dd] = run("teamTrips").trips;
     expect(bo.b).toMatchObject({ row: 4, pickup: "Riad A" });

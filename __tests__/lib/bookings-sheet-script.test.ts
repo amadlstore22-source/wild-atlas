@@ -14,7 +14,7 @@ import vm from "node:vm";
  * not do. Born from INV-2026-033, where the camp promised to the client never
  * reached this sheet (see lib/logistics-brief.ts).
  */
-type Cell = { v: unknown; f: string; fmt: string; note: string };
+type Cell = { v: unknown; f: string; fmt: string; note: string; line?: string; color?: string };
 class Sheet {
   grid: Cell[][] = [];
   constructor(public name: string, public maxRows = 30, public maxCols = 11) {
@@ -46,6 +46,8 @@ class Sheet {
       getNumberFormat: () => this.cell(r, c).fmt,
       setNumberFormat: (f: string) => { this.cell(r, c).fmt = f; return range; },
       setFontWeight: () => range,
+      setFontColor: (col: string) => { cells().flat().forEach((x) => { x.color = col; }); return range; },
+      setFontLine: (l: string) => { cells().flat().forEach((x) => { x.line = l; }); return range; },
       getNote: () => this.cell(r, c).note,
       setNote: (n: string) => { this.cell(r, c).note = n; return range; },
       clearContent: () => { cells().flat().forEach((x) => { x.v = ""; x.f = ""; }); return range; },
@@ -67,6 +69,7 @@ function monthTab(name: string, bookings: string[][]) {
 
 const SECRET = "test-secret";
 let ss: Spreadsheet;
+let depSS: Spreadsheet;
 let post: (data: Record<string, unknown>) => { ok: boolean; tab?: string; row?: number; updated?: boolean; error?: string; kept?: string[]; moneyLocked?: boolean };
 
 beforeEach(() => {
@@ -80,8 +83,21 @@ beforeEach(() => {
   nov.cell(5, 6).f = "=SUM(F3:F4)";
   ss.sheets.push(monthTab("October26", []), nov, monthTab("DECEMBRE26", []));
   const src = readFileSync(path.join(process.cwd(), "docs/apps-script-bookings.gs"), "utf8").replace("PASTE-THE-SECRET-HERE", SECRET);
+  // The Deposit sheet (the logistics view), as the deposit file of the same
+  // project leaves it: headers in row 2, the hidden Ref column at H.
+  depSS = new Spreadsheet();
+  const depTab = new Sheet("October deposit");
+  depTab.cell(1, 1).v = 40;
+  ["Deposit", "Tour/trek", "Name guest", "Date trip", "Guests", "", "Arrived", "Ref"].forEach((h, i) => { depTab.cell(2, i + 1).v = h; });
+  [40, "Zagora 2 days", "ana@example.com", "05/11/2026", 2, "", "20/10/2026", "November26-ab12cd34"].forEach((v, i) => { depTab.cell(3, i + 1).v = v; });
+  depSS.sheets.push(depTab);
   const ctx: Record<string, unknown> = {
-    SpreadsheetApp: { getActiveSpreadsheet: () => ss },
+    SpreadsheetApp: { getActiveSpreadsheet: () => ss, openByUrl: (u: string) => { if (u !== "dep-url") throw new Error("unknown sheet " + u); return depSS; } },
+    // the deposit file's helpers (deposits.js in the live project)
+    depositUrl_: () => "dep-url",
+    isDepositTab_: (t: Sheet) => /dep/i.test(t.getName()),
+    depositCols_: (t: Sheet) => ({ REF: t.grid[1].findIndex((c) => String(c.v).toUpperCase() === "REF") + 1 }),
+    GUESTS: 5,
     LockService: { getDocumentLock: () => ({ waitLock() {}, releaseLock() {} }) },
     ContentService: { createTextOutput: (t: string) => ({ t, setMimeType() { return JSON.parse(t); } }), MimeType: { JSON: "json" } },
   };
@@ -200,5 +216,103 @@ describe("bookings26 script", () => {
     s.cell(r.row!, 2).fmt = "@";
     post(inv);
     expect(s.cell(r.row!, 2).fmt).toBe("@");
+  });
+});
+
+/**
+ * A trip cancelled in MET Desk (owner, 2026-11-02: "do the cancelled"). Before
+ * this, a cancelled trip's bookings26 row looked like any other trip, and the
+ * Deposit sheet (the logistics guy's list of upcoming tours) still listed it:
+ * the team only knew if someone remembered to tell them, and a driver could
+ * go to a pick-up for nobody. The row must be marked, never deleted: it holds
+ * what the team typed, and the deposit that arrived must stay in the totals.
+ */
+describe("bookings26 script: a cancelled trip", () => {
+  const cancel = (d: Record<string, unknown> = {}) =>
+    post({ kind: "cancel", number: "INV-2026-100", creditNote: "CN-2026-001", cancelledOn: "2026-11-05", reason: "client cancelled", ...d }) as unknown as
+      { ok: boolean; found?: boolean; tab?: string; row?: number; deposit?: string; error?: string };
+  const heads = (s: Sheet) => s.grid[1].map((c) => c.v);
+
+  it("keeps the row and every value, strikes it through and says why in a CANCELLED column", () => {
+    const placed = post(inv);
+    const s = tab("November26");
+    s.cell(placed.row!, 9).v = "Hassan"; // the team assigned a driver
+    s.cell(placed.row!, 11).note = "team note";
+    const before = s.grid[placed.row! - 1].map((c) => ({ v: c.v, f: c.f, note: c.note, fmt: c.fmt }));
+    const r = cancel();
+    expect(r).toMatchObject({ ok: true, found: true, tab: "November26", row: placed.row });
+    const col = heads(s).indexOf("CANCELLED") + 1;
+    expect(col, "CANCELLED is added at the far right").toBe(s.getLastColumn());
+    expect(s.cell(placed.row!, col).v).toBe("CANCELLED 2026-11-05 by CN-2026-001: client cancelled");
+    expect(s.cell(placed.row!, col).line, "the reason itself stays readable").toBe("none");
+    const after = s.grid[placed.row! - 1];
+    expect(after.slice(0, before.length).map((c) => ({ v: c.v, f: c.f, note: c.note, fmt: c.fmt })), "no value, formula, note or format changes").toEqual(before);
+    expect(after.slice(0, col - 1).every((c) => c.line === "line-through"), "the whole booking is struck through").toBe(true);
+    expect(s.grid[2].every((c) => !c.line), "the other booking is untouched").toBe(true);
+  });
+
+  it("strikes the deposit row in the Deposit sheet too, keeping its amount in the total", () => {
+    const placed = post({ ...inv, departure: "2026-11-05" });
+    const s = tab("November26");
+    // the deposit file stamped this booking when the team picked DEPOSIT ARRIVED
+    const stamp = heads(s).indexOf("DEPOSIT DATE") + 1;
+    s.cell(3, stamp).note = "";
+    s.cell(placed.row!, stamp).note = "November26-ab12cd34|auto";
+    const dep = depSS.sheets[0];
+    const values = dep.grid.map((row) => row.map((c) => c.v));
+    expect(cancel().deposit).toBe("struck");
+    expect(dep.grid[2].slice(0, 5).every((c) => c.line === "line-through")).toBe(true);
+    expect(dep.cell(3, 2).note).toMatch(/CANCELLED 2026-11-05 \(INV-2026-100 cancelled by CN-2026-001\)/);
+    expect(dep.grid.map((row) => row.map((c) => c.v)), "no amount, name or total changes").toEqual(values);
+  });
+
+  it("without a deposit row there is nothing else to mark", () => {
+    post(inv);
+    expect(cancel().deposit).toBe("none");
+    expect(depSS.sheets[0].grid.flat().some((c) => c.line)).toBe(false);
+  });
+
+  it("sending the same cancellation again changes nothing", () => {
+    post(inv);
+    cancel();
+    const once = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(cancel().ok).toBe(true);
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(once);
+  });
+
+  it("an invoice that never reached bookings26 changes nothing and is not an error", () => {
+    const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(cancel({ number: "INV-2026-999" })).toMatchObject({ ok: true, found: false });
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
+  });
+
+  it("keeps what the team typed in CANCELLED", () => {
+    const placed = post(inv);
+    cancel();
+    const s = tab("November26");
+    const col = heads(s).indexOf("CANCELLED") + 1;
+    s.cell(placed.row!, col).v = "client moved to March, see Hassan";
+    cancel({ creditNote: "CN-2026-002" });
+    expect(s.cell(placed.row!, col).v).toBe("client moved to March, see Hassan");
+  });
+
+  it("leaves the DAY column of a tab laid out by day alone", () => {
+    const s = new Sheet("December26");
+    ["DAY", ...HEAD].forEach((h, i) => { s.cell(2, i + 1).v = h; });
+    for (let d = 1; d <= 31; d++) s.cell(2 + d, 1).v = d;
+    ss.sheets.splice(ss.sheets.indexOf(tab("DECEMBRE26")), 1, s);
+    const placed = post({ ...inv, departure: "2026-12-13" });
+    expect(placed.row).toBe(15);
+    cancel();
+    expect(s.cell(15, 1).line, "the day number belongs to the layout").toBeUndefined();
+    expect(s.cell(15, 2).line).toBe("line-through");
+  });
+
+  it("refuses a cancellation without its credit note, and a wrong secret, changing nothing", () => {
+    post(inv);
+    const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(cancel({ creditNote: "" }).ok).toBe(false);
+    expect(cancel({ secret: "wrong" }).ok).toBe(false);
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
   });
 });

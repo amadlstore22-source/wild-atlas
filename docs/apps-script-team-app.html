@@ -136,6 +136,14 @@
   .chip.warn { background: var(--warn-bg); color: var(--warn-fg); }
   .chip.ok { background: var(--ok-bg); color: var(--ok-fg); }
   .chip.late { background: var(--late-bg); color: var(--late-fg); }
+  .chip.cancel { background: var(--late-fg); color: #fff; }
+
+  /* Cancelled in MET Desk: still listed, so nobody wonders where it went, but
+     struck through and never confused with a trip to run. */
+  .card.cancelled { background: var(--late-bg); border-color: #E8C7BC; }
+  .card.cancelled .name, .card.cancelled .tour { text-decoration: line-through; color: var(--late-fg); }
+  .block.cancelbox { background: var(--late-fg); border-color: var(--late-fg); color: #fff; }
+  .block.cancelbox .k { color: #F7E6E0; }
 
   /* Done: the trip stays in its list; its navy turns green. */
   .card.done { background: var(--ok-bg); border-color: #BFD9C4; }
@@ -369,9 +377,11 @@
   function render() {
     var d = state.data;
     if (!d) return;
-    // Upcoming: how many trips. Past: how many still NOT marked done (red when any).
+    // Upcoming: how many trips to run. Past: how many still NOT marked done
+    // (red when any). A cancelled trip is listed but counts in neither.
     var upcoming = 0, unmarked = 0;
     d.trips.forEach(function (t) {
+      if (t.b && t.b.cancelled) return;
       if (bucket(t) === 'upcoming') upcoming++;
       else if (!t.doneIso) unmarked++;
     });
@@ -454,11 +464,13 @@
       var left = moneyLeft(t);
       if (left.text && !left.zero) chips.push('<span class="chip">Collect ' + esc(left.text) + '</span>');
     }
-    if (t.doneIso) chips.unshift('<span class="chip ok">Done</span>');
+    var cancelled = !!(b && b.cancelled);
+    if (cancelled) chips = ['<span class="chip cancel">Cancelled · do not run</span>'];
+    else if (t.doneIso) chips.unshift('<span class="chip ok">Done</span>');
     else if (bucket(t) === 'past') chips.unshift('<span class="chip late">Not marked done</span>');
     var pax = t.guests || (b && b.pax) || '';
     var sub = c.name ? (c.emails[0] || c.phones[0] || '') : (c.emails[0] && c.phones[0] ? c.phones[0] : '');
-    return '<button type="button" class="card' + (t.doneIso ? ' done' : '') + '" data-id="' + esc(id(t)) + '">' +
+    return '<button type="button" class="card' + (cancelled ? ' cancelled' : t.doneIso ? ' done' : '') + '" data-id="' + esc(id(t)) + '">' +
       '<div class="top"><div style="min-width:0"><div class="name">' + esc(c.title) + '</div>' +
       (sub ? '<div class="email">' + esc(sub) + '</div>' : '') + '</div>' +
       (pax ? '<div class="pax"><b>' + esc(pax) + '</b><span>pax</span></div>' : '') + '</div>' +
@@ -512,6 +524,9 @@
       '<h1 id="sheet-title">' + esc(t.dateIso ? longDate(t.dateIso) : (t.dateText || 'Date to confirm')) + '</h1>' +
       '<div class="tour">' + esc(t.tour) + '</div><div class="who">' + esc(c.title) + '</div></div>';
 
+    if (b && b.cancelled) {
+      h += '<div class="block cancelbox"><div class="k">Cancelled · do not run this trip</div><div class="v">' + esc(b.cancelled) + '</div></div>';
+    }
     if (!b) {
       h += '<div class="block warnbox"><div class="k">Details</div><div class="v">This deposit was not found in bookings26, so pick-up, camp and driver are not shown. Check bookings26 or ask the office.</div></div>';
     }

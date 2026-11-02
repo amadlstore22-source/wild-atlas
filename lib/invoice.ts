@@ -32,6 +32,20 @@ export interface InvoiceInput {
    * for same-day pick-ups. Omitted when absent, like clientEmail.
    */
   clientPhone?: string;
+  /**
+   * The legal entity the invoice is issued to, when that is not the person who
+   * booked: the name first, then each line as it should print (registered
+   * address, registration number, signatory).
+   *
+   * INV-2026-040 (30 Oct 2026): a group's organiser asked for the invoice in
+   * the name of the firm paying for it, with its address and registration
+   * number. "Billed to" could only
+   * print a person's name, and --reissue refuses a different name, so the only
+   * routes were a second number for one booking or a company squeezed into
+   * `notes`. With billTo the entity is billed and the person who booked stays
+   * on the document as the contact, under the same number.
+   */
+  billTo?: string[];
   /** Free text, e.g. "3-Day Private Sahara Desert Tour". */
   tourTitle: string;
   /** e.g. "Marrakech → Merzouga". */
@@ -283,6 +297,7 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
   }
   .party strong { display: block; margin-bottom: 3px; }
   .party div { color: var(--ink-soft); font-size: 13.5px; }
+  .party .contact { margin-top: 6px; }
   .grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--rule); }
   .cell { padding: 10px 12px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
   .cell:nth-child(4n) { border-right: none; }
@@ -368,7 +383,13 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
     </div>
     <div class="party">
       <div class="label">Billed to</div>
-      <strong>${esc(inv.clientName)}</strong>
+      ${
+        inv.billTo?.length
+          ? `<strong>${esc(inv.billTo[0])}</strong>
+      ${inv.billTo.slice(1).map((line) => `<div>${esc(line)}</div>`).join("")}
+      <div class="contact">Contact: ${esc(inv.clientName)}</div>`
+          : `<strong>${esc(inv.clientName)}</strong>`
+      }
       ${inv.clientEmail ? `<div>${esc(inv.clientEmail)}</div>` : ""}
       ${inv.clientPhone ? `<div>${esc(inv.clientPhone)}</div>` : ""}
       <div>${inv.people} traveller${inv.people === 1 ? "" : "s"}</div>

@@ -21,7 +21,8 @@ import vm from "node:vm";
  * sort that leaves notes behind, to prove the rehearsal catches it before the
  * real tab is touched.
  */
-type Cell = { v: unknown; f: string; note: string; bg: string; fmt?: string };
+type Rule = { getCriteriaType: () => string; getCriteriaValues: () => unknown[] };
+type Cell = { v: unknown; f: string; note: string; bg: string; fmt?: string; dv?: Rule | null };
 const blank = (): Cell => ({ v: "", f: "", note: "", bg: "#ffffff" });
 
 class Sheet {
@@ -42,6 +43,9 @@ class Sheet {
   getFilter() { return null; }
   isRowHiddenByUser(r: number) { return this.hidden.has(r); }
   insertColumnAfter(c: number) { this.grid.forEach((row) => row.splice(c, 0, blank())); }
+  insertColumnBefore(c: number) { this.grid.forEach((row) => row.splice(c - 1, 0, blank())); }
+  insertRowsAfter(_r: number, k: number) { for (let i = 0; i < k; i++) this.insertRowAfter(); }
+  setColumnWidth() {}
   deleteColumn(c: number) { this.grid.forEach((row) => row.splice(c - 1, 1)); }
   copyTo(ss: Spreadsheet) {
     const s = new Sheet(ss, "Copy of " + this.name, 1, 1);
@@ -63,6 +67,14 @@ class Sheet {
       getValue: () => one().v,
       getDisplayValue: () => show(one().v),
       clearFormat: () => { rows().flat().forEach((x) => { x.bg = "#ffffff"; }); return range; },
+      clearDataValidations: () => { rows().flat().forEach((x) => { x.dv = null; }); return range; },
+      getDataValidations: () => rows().map((row) => row.map((x) => x.dv ?? null)),
+      setDataValidations: (vs: (Rule | null)[][]) => { vs.forEach((row, i) => row.forEach((v, j) => { this.grid[r - 1 + i][c - 1 + j].dv = v; })); return range; },
+      setBackgrounds: (vs: (string | null)[][]) => { vs.forEach((row, i) => row.forEach((v, j) => { this.grid[r - 1 + i][c - 1 + j].bg = v ?? "#ffffff"; })); return range; },
+      setNotes: (vs: string[][]) => { vs.forEach((row, i) => row.forEach((v, j) => { this.grid[r - 1 + i][c - 1 + j].note = v; })); return range; },
+      setHorizontalAlignment: () => range,
+      copyTo: (dest: { _one: () => Cell }) => { dest._one().bg = one().bg; },
+      _one: one,
       setValue: (v: unknown) => { one().v = v; return range; },
       getNote: () => one().note,
       setNote: (n: string) => { one().note = n; return range; },
@@ -76,7 +88,7 @@ class Sheet {
       getNotes: () => rows().map((row) => row.map((x) => x.note)),
       getBackgrounds: () => rows().map((row) => row.map((x) => x.bg)),
       getMergedRanges: () => this.merges.filter((m) => m.r >= r && m.r < r + nr).map((m) => ({ getNumRows: () => m.nr })),
-      setValues: (vs: unknown[][]) => { vs.forEach((row, i) => row.forEach((v, j) => { this.grid[r - 1 + i][c - 1 + j].v = v; })); },
+      setValues: (vs: unknown[][]) => { vs.forEach((row, i) => row.forEach((v, j) => { this.grid[r - 1 + i][c - 1 + j].v = v; })); return range; },
       clearContent: () => { rows().flat().forEach((x) => { x.v = ""; x.f = ""; }); },
       sort: ({ column }: { column: number }) => {
         const block = this.grid.slice(r - 1, r - 1 + nr).map((row) => row.slice(c - 1, c - 1 + nc));
@@ -139,7 +151,7 @@ beforeEach(() => {
 
   const src = readFileSync(path.join(process.cwd(), "docs/apps-script-bookings-tidy.gs"), "utf8");
   ctx = {
-    SpreadsheetApp: { getActive: () => ss, flush() {} },
+    SpreadsheetApp: { getActive: () => ss, flush() {}, CopyPasteType: { PASTE_FORMAT: "format" } },
     LockService: { getDocumentLock: () => ({ waitLock() {}, releaseLock() {} }) },
     Logger: { log: (s: string) => logs.push(s) },
   };
@@ -481,5 +493,200 @@ describe("repairDates", () => {
     logs = [];
     run("repairDates");
     expect(logs.join("\n")).toContain("Nothing needed repairing.");
+  });
+});
+
+/**
+ * 2026-10-28, owner: "i want each booking to be in the cell that is as the
+ * date like is a booking is in 13th the info should be in the 13th cell".
+ * Rows 1 (totals) and 2 (headers) are taken, so the owner chose a DAY column
+ * at the far left showing 1..31, and for a second booking on the same day an
+ * extra row under the last day, highlighted.
+ *
+ * What can go wrong on the live sheet, and is checked here:
+ *   - the new column shifts every other column one to the right: the deposit
+ *     link, the invoices file and the team app find columns by header name,
+ *     so they must still work (the invoice test below writes through it);
+ *   - a booking moved below the totals' range (=SUM(F3:F100)) would silently
+ *     drop out of the total, so such a tab must be refused, untouched;
+ *   - the PAYMENT dropdowns stop at row 30 in some tabs, so days 29-31 would
+ *     have none: they are copied into EMPTY cells only;
+ *   - a second booking on a day goes right under the first (owner: "they
+ *     should be close to each other") and must never push it off its row.
+ */
+describe("day layout (DAY column)", () => {
+  const PAY = ["MADE A DEPOSIT", "DEPOSIT ARRIVED", "nothing yet"];
+  const rule = (list: string[]): Rule => ({ getCriteriaType: () => "VALUE_IN_LIST", getCriteriaValues: () => [list, true] });
+  const nov = () => tab("November26");
+  // a row's own cells, without the DAY column
+  const body = (s: Sheet, r: number) => JSON.stringify(s.grid[r - 1].slice(1).map((c) => [c.v, c.f, c.note, c.bg]));
+  const before = (s: Sheet, r: number) => JSON.stringify(s.grid[r - 1].map((c) => [c.v, c.f, c.note, c.bg]));
+  let post: (d: Record<string, unknown>) => { ok: boolean; tab?: string; row?: number; sorted?: string; error?: string };
+
+  beforeEach(() => {
+    const r = rule(PAY);
+    for (let i = 3; i <= 28; i++) nov().cell(i, 5).dv = r;                // like the live tabs: dropdowns stop early
+    const invoices = readFileSync(path.join(process.cwd(), "docs/apps-script-bookings.gs"), "utf8").replace("PASTE-THE-SECRET-HERE", "s");
+    Object.assign(ctx, {
+      SpreadsheetApp: { getActive: () => ss, getActiveSpreadsheet: () => ss, flush() {}, CopyPasteType: { PASTE_FORMAT: "format" } },
+      ContentService: { createTextOutput: (t: string) => ({ setMimeType: () => JSON.parse(t) }), MimeType: { JSON: "json" } },
+    });
+    vm.runInContext(invoices, ctx);
+    post = (d) => (ctx.doPost as (e: unknown) => ReturnType<typeof post>)({ postData: { contents: JSON.stringify({ secret: "s", kind: "invoice", ...d }) } });
+  });
+
+  it("daysPreview changes nothing and says where each booking would go", () => {
+    const was = snapshot();
+    run("daysPreview");
+    expect(snapshot()).toBe(was);
+    const log = logs.join("\n");
+    expect(log).toContain("[a DAY column would be added at the far left] November26: 4 booking(s), each on its day's row (row 3 = day 1; a day with two bookings has two rows)");
+    expect(log).toContain("row 5, day 3: 3 November 2026");
+    expect(log).toContain("row 16, day 14: Sat, 14 Nov 2026");
+  });
+
+  it("puts each booking on its day's row, whole, with the DAY column showing 1 to 30", () => {
+    const s = nov();
+    const was = { d3: before(s, 5), d5: before(s, 4), d6: before(s, 6), d14: before(s, 9) };
+    run("daysRun");
+    expect(s.cell(2, 1).v).toBe("DAY");
+    expect(s.cell(2, 2).v, "every other column moved one to the right").toBe("TOUR BOOKED");
+    expect(s.grid.slice(2, 32).map((r) => r[0].v), "row 3 = day 1 … row 32 = day 30").toEqual(Array.from({ length: 30 }, (_, i) => i + 1));
+    expect(body(s, 5)).toBe(was.d3);
+    expect(body(s, 7)).toBe(was.d5);
+    expect(body(s, 8)).toBe(was.d6);
+    expect(body(s, 16)).toBe(was.d14);
+    expect(s.cell(7, 13).note, "the deposit link's Ref stays on its own booking").toBe("November26-3fc0e7d9|auto");
+    expect(s.cell(16, 9).f, "a same-row formula travels with its row").toBe("=R[0]C[-2]+R[0]C[-1]");
+    expect(s.cell(1, 7).f, "the total moved with its column, nothing else").toBe("=SUM(R[2]C:R[29]C)");
+    const bookingsAt = s.grid.map((r, i) => (r[1].v !== "" && i > 1 ? i + 1 : 0)).filter(Boolean);
+    expect(bookingsAt, "no booking anywhere else").toEqual([5, 7, 8, 16]);
+    expect(ss.sheets.some((x) => x.name.startsWith("~tidy")), "rehearsal copy deleted").toBe(false);
+    expect(tab("Notes").cell(3, 1).v).toBe("free text");
+  });
+
+  it("copies the PAYMENT dropdown into empty rows that had none, never over a value", () => {
+    const s = nov();
+    s.cell(10, 1).v = "Private trip"; s.cell(10, 2).v = "30 Nov 2026"; s.cell(10, 3).v = "z@example.com"; s.cell(10, 5).v = "PAID CASH";
+    s.cell(10, 5).dv = null;                                       // a booking with a typed value and no dropdown
+    run("daysRun");
+    expect(s.cell(32, 2).v, "30 Nov on row 32").toBe("Private trip");
+    expect(s.cell(32, 6).dv, "a cell holding a value keeps no dropdown").toBeNull();
+    expect(s.cell(31, 6).dv, "day 29, beyond the old dropdown range, now has one").not.toBeFalsy();
+    expect(logs.join("\n")).toMatch(/The PAYMENT dropdown was added to \d+ empty row\(s\) that had none/);
+  });
+
+  /**
+   * First version (2026-10-28) put a second booking on the same day in an
+   * extra row under day 31. The owner saw December's two 22 Dec bookings
+   * twelve rows apart and said "they should be close to each other".
+   */
+  it("a second booking on the same day goes right under the first; later days move down one row", () => {
+    const s = nov();
+    ["Second Merzouga", "Thu, 5 Nov 2026", "e@example.com", 2, "MADE A DEPOSIT", 50, 150].forEach((v, j) => { s.cell(12, j + 1).v = v; });
+    run("daysRun");
+    expect(s.cell(7, 4).v, "the first 5 Nov booking (row 4 before) is on the first day-5 row").toBe("b@example.com");
+    expect(s.cell(8, 4).v, "the second 5 Nov booking is right under it").toBe("e@example.com");
+    expect([s.cell(7, 1).v, s.cell(8, 1).v], "the DAY column shows 5 twice").toEqual([5, 5]);
+    expect(s.cell(9, 1).v).toBe(6);
+    expect(s.cell(9, 4).v, "6 Nov one row lower").toBe("c@example.com");
+    expect(s.cell(17, 1).v).toBe(14);
+    expect(s.cell(17, 4).v).toBe("a@example.com");
+    expect(s.cell(33, 1).v, "day 30 is one row lower too").toBe(30);
+    expect(s.grid.slice(2, 33).every((r) => r[0].note === "" && r[0].bg === "#efefef"), "rows 3-33: no notes or yellow needed").toBe(true);
+    expect(s.cell(34, 1).v, "nothing below the last day").toBe("");
+    // a later run must not swap them
+    run("daysRun");
+    expect(s.cell(7, 4).v).toBe("b@example.com");
+    expect(s.cell(8, 4).v).toBe("e@example.com");
+  });
+
+  it("a booking with no date I can read goes after the last day, with ? in DAY", () => {
+    const s = nov();
+    ["Undated trip", "soon", "u@example.com", 2].forEach((v, j) => { s.cell(12, j + 1).v = v; });
+    run("daysRun");
+    expect(s.cell(33, 4).v).toBe("u@example.com");
+    expect(s.cell(33, 1).v).toBe("?");
+    expect(s.cell(33, 1).bg).toBe("#ffe599");
+    expect(s.cell(33, 1).note).toContain("Check the DATE");
+    expect(logs.join("\n")).toContain('no date I can read, so it goes after the last day, with "?" in DAY');
+  });
+
+  it("a tab already laid out the old way (second booking under day 31) is pulled together, and old notes cleared", () => {
+    run("daysRun");
+    const s = nov();
+    // what the first version did on the live sheet: a second 5 Nov booking in row 33, with notes
+    ["Second Merzouga", "Thu, 5 Nov 2026", "e@example.com", 2].forEach((v, j) => { s.cell(33, j + 2).v = v; });
+    s.cell(33, 1).v = 5; s.cell(33, 1).bg = "#ffe599"; s.cell(33, 1).note = "Second booking on day 5 (the first is in row 7).";
+    s.cell(7, 1).note = "Another booking on this day is in row 33.";
+    run("daysRun");
+    expect(s.cell(8, 4).v).toBe("e@example.com");
+    expect(s.cell(7, 1).note).toBe("");
+    expect(s.grid.slice(2).every((r) => r[0].bg !== "#ffe599"), "no yellow left").toBe(true);
+  });
+
+  it("a second run changes nothing", () => {
+    run("daysRun");
+    const once = snapshot();
+    logs = [];
+    run("daysRun");
+    expect(snapshot()).toBe(once);
+    expect(logs.join("\n")).toContain("Nothing was moved");
+  });
+
+  it("a new invoice goes straight onto its day's row, a second one on that day right under it", () => {
+    run("daysRun");
+    const s = nov();
+    const r1 = post({ number: "INV-2026-500", clientName: "T", clientEmail: "n1@example.com", clientPhone: "", tour: "Ourika day", departure: "2026-11-04", people: 2, depositEur: "20.00", balanceEur: "80.00" });
+    expect(r1).toMatchObject({ ok: true, tab: "November26", row: 6 });
+    expect(s.cell(6, 1).v).toBe(4);
+    expect(s.cell(6, 4).v).toBe("n1@example.com");
+    const r2 = post({ number: "INV-2026-501", clientName: "U", clientEmail: "n2@example.com", clientPhone: "", tour: "Agafay", departure: "2026-11-04", people: 3, depositEur: "30.00", balanceEur: "90.00" });
+    expect(r2).toMatchObject({ ok: true, row: 7, sorted: "sorted" });
+    expect([s.cell(6, 1).v, s.cell(7, 1).v]).toEqual([4, 4]);
+    expect(s.cell(6, 4).v, "the first invoice for that day keeps its row").toBe("n1@example.com");
+    expect(s.cell(7, 4).v).toBe("n2@example.com");
+    expect(s.cell(8, 4).v, "the 5 Nov booking one row lower, whole").toBe("b@example.com");
+    expect(s.cell(8, 13).note, "its deposit Ref went with it").toBe("November26-3fc0e7d9|auto");
+    expect(post({ number: "INV-2026-501", clientName: "U", clientEmail: "n2@example.com", clientPhone: "", tour: "Agafay", departure: "2026-11-04", people: 4, depositEur: "30.00", balanceEur: "90.00" }),
+      "a re-send updates its own row").toMatchObject({ ok: true, row: 7, updated: true });
+  });
+
+  it("refuses a tab whose totals would miss a booking, and leaves it exactly as it was", () => {
+    const s = nov();
+    s.cell(1, 6).f = "=SUM(F3:F20)";
+    ["Late trip", "30 Nov 2026", "y@example.com", 2, "MADE A DEPOSIT", 10, 40].forEach((v, j) => { s.cell(11, j + 1).v = v; });
+    const was = JSON.stringify(s.grid);
+    run("daysRun");
+    expect(JSON.stringify(s.grid)).toBe(was);
+    expect(logs.join("\n")).toContain("November26: NOT CHANGED, because the totals above the headers only add up to row 20, and a booking would go to row 32");
+  });
+
+  it("if the rehearsal loses a note, the tab is not reordered and the DAY column is taken out again", () => {
+    ss.sortLeavesNotes = true;
+    const s = nov();
+    s.cell(9, 12).note = "November26-ab9549ca|auto";                  // on a booking that moves
+    const was = s.grid.map((r) => JSON.stringify(r.map((c) => [c.v, c.f, c.note])));
+    run("daysRun");
+    expect(s.cell(2, 1).v, "no DAY column").toBe("TOUR BOOKED");
+    expect(s.grid.slice(0, was.length).map((r) => JSON.stringify(r.map((c) => [c.v, c.f, c.note]))), "every original row as it was").toEqual(was);
+    expect(s.grid.slice(was.length).every((r) => r.every((c) => c.v === "" && c.note === "")), "only empty rows added").toBe(true);
+    expect(logs.join("\n")).toMatch(/November26: NOT CHANGED\. The test sort failed .*The DAY column was taken out again\./);
+  });
+
+  it("leaves bookings26's old 2027 tabs alone when 2027 has its own spreadsheet", () => {
+    const y27 = new Spreadsheet("booking 27");
+    const apr = new Sheet(y27, "April27");
+    HEAD.forEach((h, i) => { apr.cell(2, i + 1).v = h; });
+    ["Agadir Chegaga", "14-04-2027", "t@example.com", 4, "MADE A DEPOSIT", 248, 992].forEach((v, j) => { apr.cell(15, j + 1).v = v; });
+    y27.sheets.push(apr);
+    Object.assign(ctx, { SpreadsheetApp: { getActive: () => ss, getActiveSpreadsheet: () => ss, openByUrl: () => y27, flush() {}, CopyPasteType: { PASTE_FORMAT: "format" } } });
+    vm.runInContext("const YEAR_SHEETS = { 2027: 'https://docs.google.com/spreadsheets/d/y27/edit' };", ctx);
+    const old = JSON.stringify(tab("april27").grid);
+    run("daysRun");
+    expect(JSON.stringify(tab("april27").grid), "bookings26's april27 untouched").toBe(old);
+    expect(apr.cell(2, 1).v).toBe("DAY");
+    expect(apr.cell(16, 4).v, "14 April on row 16 in booking 27").toBe("t@example.com");
+    expect(logs.join("\n")).toContain("booking 27 › April27: 1 booking(s)");
   });
 });

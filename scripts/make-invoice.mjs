@@ -26,12 +26,15 @@ import path from "node:path";
 import os from "node:os";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import {
+  billToFor,
+  bookingsDecision,
   isTaken,
   nextNumber,
   readLedger,
   record,
   writeLedger,
 } from "../lib/doc-ledger.mjs";
+import { assertMetDeskNotIssuing } from "./met-desk-guard.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -141,6 +144,11 @@ Optional:
   --pickup    "Riad X, Derb Y, Medina, 7:00"   pick-up place and time for the team
   --email     alejandro@example.com   omitted from the invoice if not given
   --phone     "+34 692 86 92 45"       client phone/WhatsApp, same treatment
+  --bill-to   "Company Ltd|Street, City, Country|Reg. no. 123|Represented by X"
+                            bill a company instead of the person: its name, then
+                            each line as it should print. The person stays on the
+                            invoice as the contact. A --reissue keeps the billed
+                            company from the ledger; "none" removes it.
   --deposit   175           default 0
   --deposit-paid            the deposit has ARRIVED; marks it Paid, not "To confirm"
   --deposit-method "PayPal" how it arrived, shown on the deposit row
@@ -168,6 +176,9 @@ Optional:
                             name does not match the ledger.
   --out       <dir>         default: your Downloads folder
   --no-sheet                write the PDF but do not touch the sheet
+  --bookings                on a --reissue, update the booking's row in bookings26
+                            even though this script did not place it there (only
+                            once that row shows the invoice number in INVOICE)
   --no-pdf                  record in the sheet only
 ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : ""}`);
     process.exit(missing.length ? 1 : 0);
@@ -196,10 +207,15 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     );
   }
 
+  // MET Desk issues the numbered documents now; see scripts/met-desk-guard.mjs.
+  await assertMetDeskNotIssuing("invoices");
+
   const issued = args.issued || new Date().toISOString().slice(0, 10);
   const year = issued.slice(0, 4);
   const ledger = readLedger(ROOT);
   const number = args.number || nextNumber(ledger, "invoice", year);
+  // The ledger's own record of this number, when it is being re-sent.
+  const held = args.reissue ? ledger.documents.find((d) => d.number === number) : undefined;
 
   // Numbers are never reused, across either series. The check runs BEFORE the
   // PDF is written so a duplicate cannot leave a file on disk that the ledger
@@ -247,6 +263,7 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     clientName: args.name,
     clientEmail: args.email,
     clientPhone: args.phone,
+    billTo: billToFor(held, args["bill-to"]),
     tourTitle: args.tour,
     route: args.route,
     description: args.desc,
@@ -344,6 +361,7 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
 
   // ---- Sheet ---------------------------------------------------------------
   let sheetNote = "skipped (--no-sheet)";
+  let bookingsPlaced = false;
   if (!args["no-sheet"]) {
     // .env.local is not loaded automatically outside Next, so read it here.
     loadEnvLocal(path.join(ROOT, ".env.local"));
@@ -382,10 +400,22 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
 
     // The logistics team's own sheet (bookings26): month tab of the departure,
     // one value per column. Reported loudly when it fails, because this is the
-    // copy the team actually plans from.
-    const b = await logBooking(sheetRecord);
+    // copy the team actually plans from. A reissue goes there only when this
+    // script placed the booking (see bookingsDecision): otherwise it would add
+    // a second row next to the one the team typed.
+    const decision = bookingsDecision({
+      reissue: Boolean(args.reissue),
+      held,
+      force: Boolean(args.bookings),
+    });
+    const b = decision.send
+      ? await logBooking(sheetRecord)
+      : { ok: false, skipped: true, reason: "skipped", detail: decision.why };
+    if (b.ok) bookingsPlaced = true;
     console.log(
-      b.ok
+      b.skipped
+        ? `Bookings not sent to bookings26: ${b.detail}`
+        : b.ok
         ? `Bookings ${b.file || "bookings26"} → ${b.tab}, row ${b.row}${b.updated ? " (updated)" : ""}` +
           (b.kept?.length ? `\n         kept the team's own edits in: ${b.kept.join(", ")}` : "") +
           (b.moneyLocked ? `\n         PAYMENT is set, so DEPOSIT / AMOUNT LEFT were left as they are` : "") +
@@ -421,10 +451,15 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     notes: inv.notes,
     sheet: sheetNote === "row appended",
     status: args["deposit-paid"] ? "Deposit paid" : undefined,
+    billTo: inv.billTo,
+    /* Only ever set, never cleared: a reissue that skips bookings26 must not
+       erase the record that an earlier run placed the booking there. */
+    ...(bookingsPlaced ? { bookingsPlaced: true } : {}),
   }, { replace: Boolean(args.reissue) });
   writeLedger(ROOT, ledger);
 
   console.log(`Ledger  data/documents.json (${ledger.documents.length} documents)`);
+  if (inv.billTo) console.log(`Billed  ${inv.billTo.join(", ")} (contact ${inv.clientName})`);
   console.log(
     `\n${number}  ${inv.clientName}${inv.clientEmail ? ` <${inv.clientEmail}>` : ""}\n` +
       `  total ${eur(totals.total)}   deposit ${eur(totals.deposit)}   balance ${eur(totals.balance)}`,

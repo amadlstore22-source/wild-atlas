@@ -26,6 +26,14 @@
  *   - Then the month tab is put back in date order by the "tidy" file (whole
  *     rows, checked cell by cell), so the booking sits by its date. If the
  *     tab cannot be sorted safely, the booking stays where it was written.
+ *   - In a tab laid out by day (DAY column, see daysRun in the tidy file) the
+ *     booking goes straight onto its day's row: the 13th on the row marked 13.
+ *     If that day already has a booking, it goes in the row right under it
+ *     (the days after it move down one row; the DAY column shows each day).
+ *   - A trip cancelled in MET Desk is MARKED, never deleted: its row is struck
+ *     through and a CANCELLED column says when, by which credit note and why;
+ *     its Deposit sheet row is struck through too. No value changes (see
+ *     invCancel_).
  *
  * WHY: on INV-2026-033 (26 Oct 2026) the camp promised to the client
  * was only on the PDF. The team never saw it and took the family to the wrong
@@ -55,11 +63,12 @@ function doPost(e) {
   try { data = JSON.parse(e.postData.contents); } catch (err) { return invOut_({ ok: false, error: 'not JSON' }); }
   if (INVOICE_SECRET.indexOf('PASTE') === 0) return invOut_({ ok: false, error: 'INVOICE_SECRET is not set in the script' });
   if (data.secret !== INVOICE_SECRET) return invOut_({ ok: false, error: 'wrong secret' });
-  if (data.kind !== 'invoice') return invOut_({ ok: false, error: 'not an invoice' });
+  if (data.kind !== 'invoice' && data.kind !== 'cancel') return invOut_({ ok: false, error: 'not an invoice' });
   const lock = LockService.getDocumentLock();
   lock.waitLock(30000);
   try {
-    return invOut_(invPlace_(SpreadsheetApp.getActiveSpreadsheet(), data));
+    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    return invOut_(data.kind === 'cancel' ? invCancel_(ss, data) : invPlace_(ss, data));
   } catch (err) {
     return invOut_({ ok: false, error: String(err) });
   } finally {
@@ -88,7 +97,7 @@ function invPlace_(ss, data) {
     if (!tab) return { ok: false, error: 'no month tab for ' + data.departure + ' in ' + book.getName() + ' and none to copy' };
     cols = invColumns_(tab);
     if (!cols) return { ok: false, error: tab.getName() + ' in ' + book.getName() + ' has no TOUR BOOKED header in row ' + INV_HEADER_ROW };
-    row = invFreeRow_(tab);
+    row = invDayRow_(tab, when) || invFreeRow_(tab);
   }
   invEnsureCols_(tab, cols);
 
@@ -151,6 +160,74 @@ function invPlace_(ss, data) {
     }
   }
   return { ok: true, file: book.getName(), tab: tab.getName(), row: row, updated: updated, kept: kept, moneyLocked: Boolean(updated && paymentSet), sorted: sorted };
+}
+
+/**
+ * A trip cancelled in MET Desk (owner, 2026-11-02: "do the cancelled"). Until
+ * then a cancelled trip kept its row looking like any other, and the team
+ * only knew if someone told them. Now its row is KEPT, with everything the
+ * team typed, and marked so nobody runs it:
+ *   - a CANCELLED column (added at the far right if missing) says when, by
+ *     which credit note, and why;
+ *   - the row's text is struck through. Values, colours, dropdowns and notes
+ *     are not touched, and the amounts stay as they are: clear AMOUNT LEFT
+ *     by hand if nothing more will be collected;
+ *   - if its deposit is in the Deposit sheet (the logistics view), that row
+ *     is struck through too, with a note. Its amount stays: the money did
+ *     arrive, and the month total must keep adding up to what was received.
+ * Nothing is deleted. Sending the same cancellation again changes nothing.
+ * An invoice that never reached bookings26 has no row to mark: found false.
+ */
+function invCancel_(ss, data) {
+  if (!data.number) return { ok: false, error: 'no invoice number' };
+  if (!data.creditNote) return { ok: false, error: 'no credit note number' };
+  const found = invFindInvoice_(invAllBooks_(ss), data.number);
+  if (!found) return { ok: true, found: false };
+  const tab = found.tab, row = found.row, cols = found.cols;
+  if (!cols.CANCELLED) {
+    const c = tab.getLastColumn() + 1;
+    tab.getRange(INV_HEADER_ROW, c).setValue('CANCELLED').setFontWeight('bold');
+    cols.CANCELLED = c;
+  }
+
+  // The DAY column of a tab laid out by day holds the day numbers, not this
+  // booking: it is left as it is.
+  const first = String(tab.getRange(INV_HEADER_ROW, 1).getValue()).trim().toUpperCase() === 'DAY' ? 2 : 1;
+  tab.getRange(row, first, 1, tab.getLastColumn() - first + 1).setFontLine('line-through');
+  const text = 'CANCELLED ' + (data.cancelledOn || '') + ' by ' + data.creditNote + (data.reason ? ': ' + data.reason : '');
+  const cell = tab.getRange(row, cols.CANCELLED);
+  const typed = String(cell.getValue()).trim();
+  if (typed === '' || typed.indexOf('CANCELLED ') === 0) cell.setValue(text);   // what the team typed there stays
+  cell.setFontLine('none').setFontWeight('bold').setFontColor('#cc0000');
+
+  const deposit = invCancelDeposit_(tab, row, cols, data);
+  return { ok: true, found: true, file: found.book.getName(), tab: tab.getName(), row: row, deposit: deposit };
+}
+
+/**
+ * The Deposit sheet row of a cancelled trip, found by the Ref the deposit
+ * file keeps in the DEPOSIT DATE note: struck through, with a note. 'none'
+ * when no deposit was ever added for this booking.
+ */
+function invCancelDeposit_(tab, row, cols, data) {
+  if (!cols['DEPOSIT DATE'] || typeof depositUrl_ !== 'function') return 'none';
+  const ref = String(tab.getRange(row, cols['DEPOSIT DATE']).getNote()).split('|')[0].trim();
+  if (!ref) return 'none';
+  const dep = SpreadsheetApp.openByUrl(depositUrl_());
+  const tabs = dep.getSheets().filter(isDepositTab_);
+  for (let t = 0; t < tabs.length; t++) {
+    const col = depositCols_(tabs[t], false).REF;
+    const n = tabs[t].getLastRow() - 2;
+    if (!col || n < 1) continue;
+    const refs = tabs[t].getRange(3, col, n, 1).getValues();
+    for (let i = 0; i < refs.length; i++) {
+      if (refs[i][0] !== ref) continue;
+      tabs[t].getRange(3 + i, 1, 1, GUESTS).setFontLine('line-through');
+      tabs[t].getRange(3 + i, 2).setNote('Trip CANCELLED ' + (data.cancelledOn || '') + ' (' + data.number + ' cancelled by ' + data.creditNote + '). The deposit did arrive, so it stays in the total.');
+      return 'struck';
+    }
+  }
+  return 'not found';
 }
 
 /**
@@ -242,6 +319,36 @@ function invFreeRow_(tab) {
       rg.getFormulas()[0].every(function (f) { return f === ''; });
     if (empty) return r;
   }
+  tab.insertRowAfter(tab.getMaxRows());
+  return tab.getMaxRows();
+}
+
+/**
+ * A tab laid out by day (a DAY column at the far left, see daysRun in the
+ * tidy file): the row marked with the departure day if it is empty, else the
+ * first empty row below the days (the tidy file then moves it up, under that
+ * day's other booking). 0 for any other tab. The DAY column itself is not
+ * part of a row: it holds the day numbers.
+ */
+function invDayRow_(tab, when) {
+  if (String(tab.getRange(INV_HEADER_ROW, 1).getValue()).trim().toUpperCase() !== 'DAY') return 0;
+  const width = tab.getMaxColumns();
+  const n = tab.getMaxRows() - INV_HEADER_ROW;
+  if (n < 1) { tab.insertRowAfter(tab.getMaxRows()); return tab.getMaxRows(); }
+  const days = tab.getRange(INV_HEADER_ROW + 1, 1, n, 1).getValues();
+  const body = tab.getRange(INV_HEADER_ROW + 1, 2, n, width - 1);
+  const values = body.getValues(), formulas = body.getFormulas();
+  const free = function (i) {
+    return values[i].every(function (v) { return v === ''; }) && formulas[i].every(function (f) { return f === ''; });
+  };
+  let below = -1, lastLabel = -1;
+  for (let i = 0; i < n; i++) {
+    const d = days[i][0];
+    if (d !== '') lastLabel = i;
+    if (Number(d) === when.getDate() && free(i)) return INV_HEADER_ROW + 1 + i;
+  }
+  for (let i = lastLabel + 1; i < n && below < 0; i++) if (free(i)) below = i;
+  if (below >= 0) return INV_HEADER_ROW + 1 + below;
   tab.insertRowAfter(tab.getMaxRows());
   return tab.getMaxRows();
 }

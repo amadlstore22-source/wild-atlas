@@ -27,6 +27,7 @@ import {
   record,
   writeLedger,
 } from "../lib/doc-ledger.mjs";
+import { assertMetDeskNotIssuing } from "./met-desk-guard.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -104,6 +105,8 @@ for (const field of ["clientName", "travellers", "tourTitle", "total"]) {
 
 const issued = booking.issued || new Date().toISOString().slice(0, 10);
 const ledger = readLedger(ROOT);
+// MET Desk issues the numbered documents now; see scripts/met-desk-guard.mjs.
+await assertMetDeskNotIssuing("contracts");
 const number = args.number || nextNumber(ledger, "contract", issued.slice(0, 4));
 
 if (isTaken(ledger, number)) {

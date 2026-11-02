@@ -179,6 +179,8 @@ const TEAM_KNOWN = {
   'DRIVER': 'driver',
   'ACCOMODATION': 'accom', 'ACCOMMODATION': 'accom', 'CAMP / ACCOMMODATION': 'accom',
   'INVOICE': 'invoice', 'TRIP DETAILS': 'details', 'DEPOSIT DATE': 'depositDate',
+  // Written by the invoices file when a trip is cancelled in MET Desk (2026-11-02).
+  'CANCELLED': 'cancelled',
 };
 
 /** Every booking row in bookings26, plus a map from the deposit script's Ref to its row. */

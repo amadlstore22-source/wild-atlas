@@ -7,6 +7,9 @@
  *   tidyPreview  shows what it WOULD do (in the log at the bottom). Changes nothing.
  *   tidyRun      does it.
  *
+ * A tab with a DAY column at the far left (daysRun, further down) is kept in
+ * the DAY LAYOUT instead: each booking on the row of its day of the month.
+ *
  * The invoices file calls tidyTab_ on the month tab it just wrote to, so every
  * new invoice lands in date order too (2026-10-28, owner: "it should also be in
  * the correct order not at the bottom").
@@ -71,6 +74,99 @@ function tidyRun() {
   ss.toast('Done. What changed is in the log under the code.', 'Tidy', 10);
 }
 
+// ═════════════════════════════════════════════════════════════════════════════
+// DAY LAYOUT (owner, 2026-10-28): "if a booking is in 13th the info should be
+// in the 13th cell". Adds a DAY column at the far left of every month tab:
+// the rows under the headers are day 1, 2, 3 … of the month, each booking on
+// its own day's row. A second booking on the same day goes in the row right
+// under it (owner: "they should be close to each other"), so the DAY column
+// shows that day twice and the days after it sit one row lower. A booking
+// with no date (or a date outside the month) goes after the last day with
+// "?" in DAY. Row 1 (totals) and row 2 (headers) stay where they are.
+//
+//   daysPreview  shows what it WOULD do (in the log). Changes nothing.
+//   daysRun      does it. Once a tab has its DAY column, tidyRun and every
+//                new invoice keep it in this layout.
+//
+// The same safety as tidyRun: whole rows are sorted (never dragged), it
+// rehearses on a copy first and checks every cell after. Nothing is deleted.
+// If a tab cannot be changed safely its DAY column is taken out again and the
+// log says why (empty rows added at the bottom, or a dropdown copied into an
+// empty PAYMENT cell, may stay: they hold nothing). bookings26's old 2027 tabs are left as they are (2027 lives in
+// "booking 27"). Before daysRun: File → Version history → Name current
+// version "Before days", in bookings26 AND in booking 27.
+// ═════════════════════════════════════════════════════════════════════════════
+function daysPreview() {
+  const ss = SpreadsheetApp.getActive();
+  const out = ['PREVIEW: nothing was changed.', ''];
+  tidyBooks_(ss).forEach(function (book) {
+    book.getSheets().forEach(function (tab) {
+      if (tab.getName() === TIDY_CHECK_TAB) return;
+      const now = tidyPlan_(tab);
+      if (!now) return;
+      if (!now.day && tidyOldYearTab_(book, ss, tab)) return;
+      const plan = now.day ? now : tidyPlan_(tab, { asDays: true });
+      out.push(tidyIn_(book, ss) + (now.day ? '' : '[a DAY column would be added at the far left] ') + tidyDescribe_(plan, false));
+    });
+  });
+  Logger.log(out.join('\n\n'));
+  ss.toast('Nothing was changed. The plan is in the log under the code.', 'Days preview', 10);
+}
+
+function daysRun() {
+  const ss = SpreadsheetApp.getActive();
+  const out = [];
+  const lock = LockService.getDocumentLock();
+  lock.waitLock(30000);
+  try {
+    tidyBooks_(ss).forEach(function (book) {
+      book.getSheets().slice().forEach(function (tab) {
+        if (tab.getName() === TIDY_CHECK_TAB) return;
+        const now = tidyPlan_(tab);
+        if (!now) return;
+        if (!now.day && tidyOldYearTab_(book, ss, tab)) return;
+        try {
+          if (!now.day) {
+            const test = tidyPlan_(tab, { asDays: true });
+            if (test.skip) { out.push(tidyIn_(book, ss) + tidyDescribe_(test, true)); return; }
+            tidyAddDayColumn_(tab, now.header);
+          }
+          const done = tidyTab_(book, tab);
+          if (done.skip && !now.day) {
+            tab.deleteColumn(1);                                    // back as it was
+            out.push(tidyIn_(book, ss) + done.line + ' The DAY column was taken out again.');
+            return;
+          }
+          out.push(tidyIn_(book, ss) + done.line);
+        } catch (err) {
+          throw new Error(tidyIn_(book, ss) + err.message + ' Tabs done before this one: ' + (out.join(' / ') || 'none'));
+        }
+      });
+    });
+  } finally {
+    lock.releaseLock();
+  }
+  Logger.log(out.join('\n\n'));
+  ss.toast('Done. What changed is in the log under the code.', 'Days', 10);
+}
+
+/** A new empty column A headed DAY, styled like the other headers. Every other column moves one to the right. */
+function tidyAddDayColumn_(tab, header) {
+  tab.insertColumnBefore(1);
+  tab.getRange(1, 1, tab.getMaxRows(), 1).clearFormat().clearDataValidations();
+  tab.getRange(header, 2).copyTo(tab.getRange(header, 1), SpreadsheetApp.CopyPasteType.PASTE_FORMAT, false);
+  tab.getRange(header, 1).setValue('DAY');
+  tab.setColumnWidth(1, 48);
+}
+
+/** bookings26's own tabs for a year that has its own spreadsheet (its 2027 tabs): left as they are. */
+function tidyOldYearTab_(book, ss, tab) {
+  if (tidyIn_(book, ss)) return false;
+  const m = tidyTabMonth_(tab.getName());
+  const years = typeof invYearSheets_ === 'function' ? invYearSheets_() : [];
+  return Boolean(m) && years.some(function (y) { return y.year === m.y; });
+}
+
 /**
  * This spreadsheet, then each year that has its own (see invYearSheets_ in
  * the invoices file: 2027 bookings live in "booking 27").
@@ -92,11 +188,24 @@ function tidyIn_(book, ss) {
  * order. Returns null for a tab that is not a month tab, else
  * { line, moved, skip }: skip says why the tab was left as it is. Throws only
  * if the check AFTER the real sort fails.
+ *
+ * A tab laid out by day (DAY column, see daysRun) first gets what the layout
+ * needs and changes nothing already there: empty rows added at the bottom
+ * when the tab runs short of rows, and the PAYMENT dropdown copied into an
+ * empty PAYMENT cell that has none. Its DAY column is rewritten afterwards.
  */
 function tidyTab_(ss, tab) {
   const plan = tidyPlan_(tab);
   if (!plan) return null;
-  if (plan.skip || !plan.moves) return { line: tidyDescribe_(plan, true), moved: 0, skip: plan.skip };
+  if (plan.skip) return { line: tidyDescribe_(plan, true), moved: 0, skip: plan.skip };
+  if (plan.day) {
+    if (plan.addRows) tab.insertRowsAfter(tab.getMaxRows(), plan.addRows);
+    plan.dropdowns = tidyFillDropdowns_(tab, plan, true);
+  }
+  if (!plan.moves) {
+    if (plan.day) tidyDayLabels_(tab, plan);
+    return { line: tidyDescribe_(plan, true), moved: 0, skip: '' };
+  }
 
   // 1. Rehearse on a copy. Its header row is blanked at once, so no other
   //    script mistakes it for a month tab.
@@ -104,8 +213,8 @@ function tidyTab_(ss, tab) {
   let rehearsal = '';
   try {
     copy.getRange(plan.header, 1, 1, copy.getMaxColumns()).clearContent();
-    const before = tidyRows_(copy, plan.start, plan.n, plan.width);
-    if (JSON.stringify(before) !== JSON.stringify(tidyRows_(tab, plan.start, plan.n, plan.width))) {
+    const before = tidyRows_(copy, plan);
+    if (JSON.stringify(before) !== JSON.stringify(tidyRows_(tab, plan))) {
       rehearsal = 'the test copy did not match the tab, so it could not be tested';
     } else {
       tidySort_(copy, plan);
@@ -123,13 +232,14 @@ function tidyTab_(ss, tab) {
   const aboveRange = plan.header > 1 ? tab.getRange(1, 1, plan.header - 1, plan.width) : null;
   const above = aboveRange ? JSON.stringify(aboveRange.getValues()) : '';
   const aboveShown = aboveRange ? aboveRange.getDisplayValues() : [];
-  const before = tidyRows_(tab, plan.start, plan.n, plan.width);
+  const before = tidyRows_(tab, plan);
   tidySort_(tab, plan);
   const problem = tidyCheck_(tab, plan, before);
   if (problem) {
     throw new Error(plan.name + ': the check after sorting failed (' + problem + '). Restore the last named version ' +
       '(File → Version history).');
   }
+  if (plan.day) tidyDayLabels_(tab, plan);
   let line = tidyDescribe_(plan, true);
   // Compare the numbers, not the text: a total can gain a € sign when the
   // first row it adds up changes, with the same value.
@@ -145,7 +255,7 @@ function tidyTab_(ss, tab) {
  * where its bookings are, their dates, and the order they should be in.
  * Returns null for any other tab.
  */
-function tidyPlan_(tab) {
+function tidyPlan_(tab, opts) {
   const width = tab.getMaxColumns();
   const lastRow = tab.getLastRow();
   if (width < 1 || lastRow < 1) return null;
@@ -160,61 +270,229 @@ function tidyPlan_(tab) {
   }
   if (!header) return null;
 
-  const plan = { tab: tab, name: tab.getName(), header: header, start: header + 1, n: lastRow - header, width: width,
-    rows: [], order: [], moves: 0, skip: '', warnings: [] };
-  if (plan.n < 1) { plan.n = 0; return plan; }
+  // Laid out by day: a DAY column at the far left (daysRun adds it), or
+  // daysPreview/daysRun asking what that layout WOULD be (opts.asDays). The
+  // DAY column belongs to this file: it never moves and is rewritten each time.
+  const hasDayCol = cols.DAY === 1;
+  const plan = { tab: tab, name: tab.getName(), header: header, start: header + 1, n: Math.max(lastRow - header, 0), width: width,
+    from: hasDayCol ? 2 : 1, day: hasDayCol || Boolean(opts && opts.asDays), days: 0, addRows: 0, dropdowns: 0,
+    pay: cols.PAYMENT || 0, rows: [], order: [], moves: 0, skip: '', warnings: [] };
+  const tabMonth = tidyTabMonth_(plan.name);
+  if (plan.day) {
+    if (!tabMonth) { plan.skip = 'its name does not say which month and year it is, so its days are unknown'; return plan; }
+    plan.days = new Date(Date.UTC(tabMonth.y, tabMonth.m + 1, 0)).getUTCDate();
+  }
+  if (!plan.day && plan.n < 1) return plan;
 
-  const range = tab.getRange(plan.start, 1, plan.n, width);
+  if (tab.getFrozenRows() > header) plan.skip = 'rows below the headers are frozen';
+  else if (tab.getFilter && tab.getFilter()) plan.skip = 'the tab has a filter';
+  if (!plan.skip) tidyReadRows_(tab, plan, cols, tabMonth, 0, plan.n);
+  if (plan.skip) return plan;
+
+  if (!plan.day) {
+    // Dated bookings by date (same date: the order they were in), then undated
+    // ones as they were, then the empty rows.
+    const idx = plan.rows.map(function (_, i) { return i; });
+    const rank = function (i) { const x = plan.rows[i]; return x.empty ? 2 : x.ms === null ? 1 : 0; };
+    idx.sort(function (a, b) {
+      const ra = rank(a), rb = rank(b);
+      if (ra !== rb) return ra - rb;
+      if (ra === 0 && plan.rows[a].ms !== plan.rows[b].ms) return plan.rows[a].ms - plan.rows[b].ms;
+      return a - b;
+    });
+    plan.order = idx;
+  } else {
+    const slots = tidyDaySlots_(plan, tabMonth);
+    // Room for every day, every second booking on a day, and a few empty rows at the bottom.
+    const need = slots.length + TIDY_SPARE_ROWS;
+    if (need > plan.n) {
+      const exist = Math.min(need, tab.getMaxRows() - header);
+      if (exist > plan.n) tidyReadRows_(tab, plan, cols, tabMonth, plan.n, exist - plan.n);
+      if (plan.skip) return plan;
+      for (let r = plan.start + exist; r < plan.start + need; r++) plan.rows.push({ r: r, empty: true });
+      plan.addRows = need - exist;
+      plan.n = need;
+    }
+    tidyDayOrder_(plan, slots);
+    const short = tidyTotalsShort_(tab, plan);
+    if (short) { plan.skip = short; return plan; }
+    plan.dropdowns = tidyFillDropdowns_(tab, plan, false);
+  }
+  plan.moves = plan.order.filter(function (from, to) { return from !== to && !plan.rows[from].empty; }).length;
+  return plan;
+}
+
+/** Empty rows kept at the bottom, so a new booking always has somewhere to be written before it is sorted into place. */
+const TIDY_SPARE_ROWS = 3;
+const TIDY_DAY_BG = '#efefef';     // the DAY column
+const TIDY_SPARE_BG = '#ffe599';   // a booking whose date is missing or not in the month: "?" in DAY
+
+/**
+ * Reads `count` rows from index `first` (0 = the row under the headers) into
+ * plan.rows. Sets plan.skip, and stops, on a row it cannot move safely. The
+ * DAY column is never read as part of a row.
+ */
+function tidyReadRows_(tab, plan, cols, tabMonth, first, count) {
+  if (count < 1) return;
+  const off = plan.from - 1;
+  const w = plan.width - off;
+  const rc = {};
+  Object.keys(cols).forEach(function (k) { if (cols[k] > off) rc[k] = cols[k] - off; });
+  const range = tab.getRange(plan.start + first, plan.from, count, w);
   const values = range.getValues();
   const shown = range.getDisplayValues();
   const formulas = range.getFormulasR1C1();
   const notes = range.getNotes();
-  const key = [cols['TOUR BOOKED'], cols.DATE, cols.EMAILS].filter(Boolean).map(function (c) { return c - 1; });
-  const tabMonth = tidyTabMonth_(plan.name);
+  const key = [rc['TOUR BOOKED'], rc.DATE, rc.EMAILS].filter(Boolean).map(function (c) { return c - 1; });
+  if (range.getMergedRanges().some(function (m) { return m.getNumRows() > 1; })) { plan.skip = 'some cells are merged across rows'; return; }
 
-  if (tab.getFrozenRows() > header) plan.skip = 'rows below the headers are frozen';
-  else if (tab.getFilter && tab.getFilter()) plan.skip = 'the tab has a filter';
-  else if (range.getMergedRanges().some(function (m) { return m.getNumRows() > 1; })) plan.skip = 'some cells are merged across rows';
-
-  for (let i = 0; i < plan.n && !plan.skip; i++) {
-    const r = plan.start + i;
+  for (let i = 0; i < count; i++) {
+    const r = plan.start + first + i;
     const filled = function (j) { return values[i][j] !== '' || formulas[i][j] !== ''; };
     const any = values[i].some(function (v, j) { return filled(j) || notes[i][j] !== ''; });
     if (!any) { plan.rows.push({ r: r, empty: true }); continue; }
-    const label = tidyLabel_(shown[i], cols);
-    if (!key.some(filled)) { plan.skip = 'row ' + r + ' holds something that is not a booking ("' + label + '")'; break; }
-    if (tab.isRowHiddenByUser(r)) { plan.skip = 'row ' + r + ' is hidden'; break; }
+    const label = tidyLabel_(shown[i], rc);
+    if (!key.some(filled)) { plan.skip = 'row ' + r + ' holds something that is not a booking ("' + label + '")'; return; }
+    if (tab.isRowHiddenByUser(r)) { plan.skip = 'row ' + r + ' is hidden'; return; }
     // A formula that looks at another row (R[1], R[-2], R5) would point at the
     // wrong booking after sorting. Same-row formulas (R[0], RC) are fine.
     const far = formulas[i].filter(function (f) { return /R\[-?[1-9]\d*\]|R\d/.test(f); })[0];
-    if (far) { plan.skip = 'row ' + r + ' has a formula that uses another row (' + far + ')'; break; }
+    if (far) { plan.skip = 'row ' + r + ' has a formula that uses another row (' + far + ')'; return; }
 
-    const ms = cols.DATE ? tidyDateMs_(values[i][cols.DATE - 1]) : null;
-    if (ms === null) plan.warnings.push('row ' + r + ' (' + label + '): no date I can read, so it goes after the dated bookings');
+    const ms = rc.DATE ? tidyDateMs_(values[i][rc.DATE - 1]) : null;
+    if (ms === null) plan.warnings.push('row ' + r + ' (' + label + '): no date I can read, so it goes ' + (plan.day ? 'after the last day, with "?" in DAY' : 'after the dated bookings'));
     else if (tabMonth) {
       const d = new Date(ms);
       if (d.getUTCFullYear() !== tabMonth.y || d.getUTCMonth() !== tabMonth.m) {
-        plan.warnings.push('row ' + r + ' (' + label + '): its date "' + shown[i][cols.DATE - 1] + '" is not in ' +
+        plan.warnings.push('row ' + r + ' (' + label + '): its date "' + shown[i][rc.DATE - 1] + '" is not in ' +
           TIDY_MONTH_NAMES[tabMonth.m] + ' ' + tabMonth.y + '. Left as typed; check it.');
       }
     }
-    plan.rows.push({ r: r, empty: false, ms: ms, label: label, date: ms === null ? '' : shown[i][cols.DATE - 1] });
+    plan.rows.push({ r: r, empty: false, ms: ms, label: label, date: ms === null ? '' : shown[i][rc.DATE - 1] });
   }
-  if (plan.skip) return plan;
+}
 
-  // Dated bookings by date (same date: the order they were in), then undated
-  // ones as they were, then the empty rows.
-  const idx = plan.rows.map(function (_, i) { return i; });
-  const rank = function (i) { const x = plan.rows[i]; return x.empty ? 2 : x.ms === null ? 1 : 0; };
-  idx.sort(function (a, b) {
-    const ra = rank(a), rb = rank(b);
-    if (ra !== rb) return ra - rb;
-    if (ra === 0 && plan.rows[a].ms !== plan.rows[b].ms) return plan.rows[a].ms - plan.rows[b].ms;
-    return a - b;
+/**
+ * Day layout (owner, 2026-10-28: "if a booking is in 13th the info should be
+ * in the 13th cell"): the rows under the headers go day 1, day 2 ... to the
+ * last day of the month, and the DAY column shows each row's day. A day with
+ * two bookings has two rows, one under the other (owner: "they should be
+ * close to each other"), so the days after it sit one row lower; the DAY
+ * column still says which day each row is. A day with no booking keeps one
+ * empty row. Bookings with no date, or a date outside this month, come after
+ * the last day with "?" in DAY.
+ *
+ * Returns the rows in their new order: { day, from } per row, from = the
+ * booking's index in plan.rows, or -1 for a day's empty row. Bookings on the
+ * same day keep the order they were in, so a later one never jumps above.
+ */
+function tidyDaySlots_(plan, tabMonth) {
+  const byDay = {};
+  const odd = [];
+  plan.rows.forEach(function (x, i) {
+    if (x.empty) return;
+    const d = x.ms === null ? null : new Date(x.ms);
+    x.day = d && d.getUTCFullYear() === tabMonth.y && d.getUTCMonth() === tabMonth.m ? d.getUTCDate() : 0;
+    if (x.day) (byDay[x.day] = byDay[x.day] || []).push(i); else odd.push(i);
   });
-  plan.order = idx;
-  plan.moves = idx.filter(function (from, to) { return from !== to && !plan.rows[from].empty; }).length;
-  return plan;
+  const slots = [];
+  for (let d = 1; d <= plan.days; d++) {
+    if (!byDay[d]) slots.push({ day: d, from: -1 });
+    else byDay[d].forEach(function (i, k) { slots.push({ day: d, from: i, nth: k + 1 }); });
+  }
+  odd.sort(function (a, b) {
+    const ma = plan.rows[a].ms, mb = plan.rows[b].ms;
+    if ((ma === null) !== (mb === null)) return ma === null ? 1 : -1;
+    return ma !== mb && ma !== null ? ma - mb : a - b;
+  });
+  odd.forEach(function (i) { slots.push({ day: 0, from: i }); });
+  return slots;
+}
+
+/** Fills plan.order and plan.labels for the day layout. Empty rows fill the empty days and the bottom, in their old order. */
+function tidyDayOrder_(plan, slots) {
+  plan.order = new Array(plan.n);
+  plan.labels = new Array(plan.n);
+  const empties = [];
+  plan.rows.forEach(function (x, i) { if (x.empty) empties.push(i); });
+  for (let to = 0; to < plan.n; to++) {
+    const s = slots[to];
+    plan.order[to] = s && s.from >= 0 ? s.from : empties.shift();
+    plan.labels[to] = s || null;
+  }
+}
+
+/**
+ * The totals above the headers (=SUM(F3:F100)) only count rows inside their
+ * range. A booking moved below a range's last row would silently drop out of
+ * the total, so the tab is left alone instead and the log says why.
+ */
+function tidyTotalsShort_(tab, plan) {
+  if (plan.header < 2) return '';
+  const fx = [].concat.apply([], tab.getRange(1, 1, plan.header - 1, plan.width).getFormulas());
+  let end = Infinity;
+  fx.forEach(function (f) {
+    const re = /\$?[A-Z]{1,3}\$?(\d+):\$?[A-Z]{1,3}\$?(\d+)/g;
+    let m;
+    while ((m = re.exec(f))) if (Number(m[1]) <= plan.start) end = Math.min(end, Number(m[2]));
+  });
+  const last = plan.order.reduce(function (max, from, to) { return plan.rows[from].empty ? max : Math.max(max, plan.start + to); }, 0);
+  return last > end ? 'the totals above the headers only add up to row ' + end + ', and a booking would go to row ' + last +
+    '. Make the totals reach further down first' : '';
+}
+
+/**
+ * Empty PAYMENT cells with no dropdown in the rows the layout uses (the
+ * dropdowns were set on rows 3-30 only in some tabs, so days 29-31 had
+ * none). With write, copies the tab's own PAYMENT dropdown into them; a cell
+ * that already has one, or holds a value, is never touched. Returns how many.
+ */
+function tidyFillDropdowns_(tab, plan, write) {
+  if (!plan.pay || plan.n < 1) return 0;
+  const n = Math.min(plan.n, tab.getMaxRows() - plan.header);
+  if (n < 1) return 0;
+  const range = tab.getRange(plan.start, plan.pay, n, 1);
+  const rules = range.getDataValidations();
+  const values = range.getValues();
+  const count = {};
+  let best = null, bestN = 0;
+  rules.forEach(function (row) {
+    const k = tidyRuleKey_(row[0]);
+    if (!k) return;
+    count[k] = (count[k] || 0) + 1;
+    if (count[k] > bestN) { bestN = count[k]; best = row[0]; }
+  });
+  if (!best) return 0;
+  let filled = 0;
+  const next = rules.map(function (row, i) {
+    if (row[0] || values[i][0] !== '') return [row[0]];
+    filled++;
+    return [best];
+  });
+  if (write && filled) range.setDataValidations(next);
+  return filled;
+}
+
+function tidyRuleKey_(rule) {
+  return rule ? JSON.stringify([String(rule.getCriteriaType()), rule.getCriteriaValues()]) : '';
+}
+
+/**
+ * Writes the DAY column for the rows the layout uses: each row's day (a day
+ * with two bookings shows it twice, one under the other), "?" highlighted for
+ * a booking without a date in this month, nothing on the empty rows below.
+ * Clears the notes an earlier version put on DAY cells.
+ */
+function tidyDayLabels_(tab, plan) {
+  const vals = [], bgs = [], notes = [];
+  plan.labels.forEach(function (s) {
+    if (s && s.day) { vals.push([s.day]); bgs.push([TIDY_DAY_BG]); notes.push(['']); }
+    else if (s) { vals.push(['?']); bgs.push([TIDY_SPARE_BG]); notes.push(['Its date is missing or not in this month. Check the DATE, then run tidyRun.']); }
+    else { vals.push(['']); bgs.push([null]); notes.push(['']); }
+  });
+  tab.getRange(plan.start, 1, plan.n, 1).setValues(vals).setBackgrounds(bgs).setNotes(notes)
+    .setHorizontalAlignment('center').setFontWeight('bold');
+  SpreadsheetApp.flush();
 }
 
 /** Sorts the tab's rows into plan.order with a temporary key column at the far right, then removes it. */
@@ -225,7 +503,8 @@ function tidySort_(tab, plan) {
     const keys = new Array(plan.n);
     plan.order.forEach(function (from, to) { keys[from] = [to]; });
     tab.getRange(plan.start, keyCol, plan.n, 1).setValues(keys);
-    tab.getRange(plan.start, 1, plan.n, keyCol).sort({ column: keyCol, ascending: true });
+    // The DAY column (day layout) is left out: it stays put, the rows move past it.
+    tab.getRange(plan.start, plan.from, plan.n, keyCol - plan.from + 1).sort({ column: keyCol, ascending: true });
   } finally {
     tab.deleteColumn(keyCol);
   }
@@ -235,7 +514,7 @@ function tidySort_(tab, plan) {
 /** '' if every booking row came out whole and in plan order, else what is wrong. */
 function tidyCheck_(tab, plan, before) {
   if (tab.getMaxColumns() !== plan.width) return 'the number of columns changed';
-  const after = tidyRows_(tab, plan.start, plan.n, plan.width);
+  const after = tidyRows_(tab, plan);
   for (let to = 0; to < plan.n; to++) {
     const from = plan.order[to];
     if (JSON.stringify(after[to]) !== JSON.stringify(before[from])) {
@@ -245,14 +524,23 @@ function tidyCheck_(tab, plan, before) {
   return '';
 }
 
-/** Everything a row holds, for comparing: value or formula, note and colour of every cell. */
-function tidyRows_(tab, start, n, width) {
-  if (n < 1) return [];
-  const range = tab.getRange(start, 1, n, width);
+/**
+ * Everything a row holds, for comparing: value or formula, note and colour of
+ * every cell (not the DAY column). In the day layout also each cell's
+ * dropdown, so a PAYMENT dropdown that stayed behind stops the change.
+ */
+function tidyRows_(tab, plan) {
+  if (plan.n < 1) return [];
+  const range = tab.getRange(plan.start, plan.from, plan.n, plan.width - plan.from + 1);
   const shown = range.getDisplayValues(), formulas = range.getFormulasR1C1();
   const notes = range.getNotes(), colours = range.getBackgrounds();
+  const rules = plan.day ? range.getDataValidations() : null;
   return shown.map(function (row, i) {
-    return row.map(function (v, j) { return [formulas[i][j] || v, notes[i][j], colours[i][j]]; });
+    return row.map(function (v, j) {
+      const cell = [formulas[i][j] || v, notes[i][j], colours[i][j]];
+      if (rules) cell.push(tidyRuleKey_(rules[i][j]));
+      return cell;
+    });
   });
 }
 
@@ -260,6 +548,7 @@ function tidyDescribe_(plan, done) {
   const lines = [];
   const bookings = plan.order.filter(function (i) { return !plan.rows[i].empty; });
   if (plan.skip) lines.push(plan.name + ': NOT CHANGED, because ' + plan.skip + '.');
+  else if (plan.day) return tidyDescribeDays_(plan, done, bookings);
   else if (!bookings.length) lines.push(plan.name + ': no bookings.');
   else if (!plan.moves) lines.push(plan.name + ': ' + bookings.length + ' booking(s), already in order with no gaps. Nothing ' + (done ? 'was' : 'would be') + ' moved.');
   else {
@@ -270,6 +559,28 @@ function tidyDescribe_(plan, done) {
       lines.push('  row ' + (plan.start + k) + ': ' + (x.date || '(no date)') + ' | ' + x.label + (x.r !== plan.start + k ? '   (was row ' + x.r + ')' : ''));
     });
   }
+  plan.warnings.forEach(function (w) { lines.push('  CHECK: ' + w); });
+  return lines.join('\n');
+}
+
+function tidyDescribeDays_(plan, done, bookings) {
+  const lines = [];
+  const is = done ? 'is' : 'would be';
+  if (!bookings.length) lines.push(plan.name + ': no bookings. The DAY column ' + is + ' 1 to ' + plan.days + ' (row ' + plan.start + ' = day 1).');
+  else {
+    lines.push(plan.name + ': ' + bookings.length + ' booking(s), each on its day\'s row (row ' + plan.start + ' = day 1; a day with two bookings has two rows). ' +
+      (plan.moves ? plan.moves + (done ? ' moved' : ' would move') : 'Nothing ' + (done ? 'was' : 'would be') + ' moved') + ':');
+    plan.order.forEach(function (from, to) {
+      const x = plan.rows[from];
+      if (x.empty) return;
+      const s = plan.labels[to];
+      const where = s && s.day ? 'day ' + s.day + (s.nth > 1 ? ' (booking ' + s.nth + ' that day)' : '') : '"?" (date missing or not in this month)';
+      lines.push('  row ' + (plan.start + to) + ', ' + where + ': ' + (x.date || '(no date)') + ' | ' + x.label +
+        (x.r !== plan.start + to ? '   (was row ' + x.r + ')' : ''));
+    });
+  }
+  if (plan.addRows) lines.push('  ' + plan.addRows + ' empty row(s) ' + (done ? 'added' : 'would be added') + ' at the bottom.');
+  if (plan.dropdowns) lines.push('  The PAYMENT dropdown ' + (done ? 'was' : 'would be') + ' added to ' + plan.dropdowns + ' empty row(s) that had none.');
   plan.warnings.forEach(function (w) { lines.push('  CHECK: ' + w); });
   return lines.join('\n');
 }

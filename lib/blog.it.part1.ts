@@ -141,7 +141,7 @@ Le guide di approfondimento qui sotto trattano ogni regione nel dettaglio.
     
       { q: "A che altitudine si trova il rifugio del Toubkal?", a: "Il rifugio del CAF è a 3.207 m, 960 m sotto la vetta e circa 1.470 m sopra Imlil. Quella quota spiega tutto l'itinerario classico: spezza la salita in due metà gestibili e concede al corpo una notte in quota prima del tentativo di vetta. È un rifugio gestito con camerate, coperte, docce calde e pasti cucinati — essenziale ma davvero funzionale, e riscaldato senza essere caldo, quindi un buon sacco a pelo conta ancora." },
       { q: "Il trek del Toubkal parte da Imlil?", a: "Sì. Imlil, a 1.740 m, è il punto di partenza di ogni via al Toubkal: lì finisce la strada e comincia la montagna, a circa 90 minuti da Marrakech. Lì si trova anche il posto di controllo delle guide, quindi è il punto in cui la norma viene davvero applicata e non una formalità più in alto." },
-      { q: "I muli portano gli zaini durante il trek?", a: "Sì. I muli portano l'attrezzatura collettiva e il cibo fino al rifugio, per questo cammini con uno zaino da giornata invece che con un carico completo, e questo supporto è incluso nei nostri trek al Toubkal. Sopra il rifugio i muli si fermano — il cono sommitale è troppo ripido e instabile — ma a quel punto porti solo acqua, strati e una macchina fotografica." },
+      { q: "I muli portano gli zaini durante il trek?", a: "Nei nostri trek di più giorni al Toubkal, sì. I muli portano l'attrezzatura collettiva e il cibo fino al rifugio, per questo cammini con uno zaino da giornata invece che con un carico completo, e questo supporto è incluso. Il trek di vetta in 2 giorni si fa senza mulo: porti tu lo zaino per la notte fino al rifugio, quindi viaggia leggero. Sopra il rifugio i muli si fermano — il cono sommitale è troppo ripido e instabile — ma a quel punto porti solo acqua, strati e una macchina fotografica." },
       { q: "Servono scarponi da trekking per l'Atlante?", a: "Scarponi con sostegno alla caviglia sono la raccomandazione onesta, non scarpe da trail. Il terreno sopra Imlil è ghiaione e roccia più che sentiero preparato, ed è in discesa che le caviglie girano. Falli ammorbidire prima di partire: un paio nuovo comprato per il viaggio è la causa più comune di vesciche che vediamo. D'inverno lo scarpone deve anche essere abbastanza rigido da reggere un rampone, cosa che una scarpa morbida non consente." },
       { q: "Servono i ramponi per il Toubkal?", a: "D'inverno sì: ramponi e piccozza, e la capacità di usarli. La neve copre di solito il cono sommitale da novembre ad aprile, e gli ultimi pendii passano da camminata a salita su neve davvero pericolosa senza quel materiale. Da giugno a ottobre circa la via normale è roccia nuda e non serve alcun materiale tecnico. Nel mezzo dipende dall'annata, quindi chiedi invece di dare per scontato: un inverno mite può lasciare la vetta pulita a gennaio, una primavera fredda tenere la neve fino a maggio." },
     ],
@@ -1724,10 +1724,11 @@ facoltativi, e la mattina della vetta comincia prima dell'alba, intorno allo
 zero. La [salita in 2 giorni](/it/tours/salita-toubkal-2-giorni) pone le stesse
 richieste in meno tempo.
 
-In entrambi i casi un mulo porta il materiale del gruppo e voi camminate con
+Nel 4 giorni un mulo porta il materiale del gruppo e voi camminate con
 uno zaino da giornata. Questo cambia la lista più di qualsiasi singolo
 oggetto: non dovete pesare ogni grammo, ma solo portare ciò che vi serve fra
-una tappa e l'altra.
+una tappa e l'altra. Il 2 giorni si fa senza mulo: tutto il necessario per la
+notte in rifugio sta in un solo zaino, sulle vostre spalle, quindi tenetelo leggero.
     `,
   },
   {

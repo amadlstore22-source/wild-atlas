@@ -2461,8 +2461,8 @@ export const TOURS: Tour[] = [
     brief: [
       "Due giorni sono il modo più breve e onesto per trovarsi sul punto più alto del Nord Africa. Il primo giorno prevede 1,5 ore di strada da Marrakech a Imlil e poi circa cinque ore di cammino fino al rifugio del Toubkal a 3.207 m, con un dislivello di circa 1.470 m, passando dal santuario di Sidi Chamharouch. Il secondo giorno comincia prima dell'alba: 960 m fino alla vetta di 4.167 m, poi tutti i 2.430 m di discesa fino a Imlil e il rientro in auto. Sette-otto ore di cammino il secondo giorno, in gran parte in discesa su terreno mobile.",
       "La cosa da capire prima di prenotare è che non c'è una giornata di acclimatamento. Si dorme una notte a 3.207 m e si arriva in vetta la mattina dopo: è un profilo di salita impegnativo, non una progressione graduale. Chi è abituato a una lunga giornata di dislivello a casa propria se la cava bene; chi non è mai stato sopra i 3.000 m a volte sente la quota nell'ultimo tratto. Se avete tempo, la versione di 4 giorni include l'acclimatamento ed è il trek migliore: questo esiste per chi quel tempo non ce l'ha.",
-      "Il prezzo segue una scala di gruppo perché la guida, il mulo e il transfer costano lo stesso che cammini una persona o sei. Da soli: 455 €. In due si pagano 254 € a testa, in tre 241 €, in quattro 228 €, in cinque 215 €, e a sei scende a 199 € a persona. La cifra comprende la guida alpina abilitata, la notte in rifugio, tutti i pasti in montagna, il mulo per l'attrezzatura del gruppo, le tasse del parco nazionale e il trasporto andata e ritorno da Marrakech: il numero indicato è quindi quello che pagate, non una tariffa base a cui aggiungere in seguito i costi della montagna.",
-      "Non incluso: l'assicurazione di viaggio, che è obbligatoria, i vostri scarponi e i vostri strati di abbigliamento, le mance per guida e mulattiere, oltre a ramponi e piccozza se partite d'inverno. Questi ultimi si noleggiano a Imlil. Tra novembre e aprile circa la vetta diventa una salita su neve e il trek si trasforma in qualcosa di realmente diverso: del tutto fattibile con l'attrezzatura giusta, ma non è più la stessa camminata delle fotografie.",
+      "Il prezzo segue una scala di gruppo perché la guida e il transfer costano lo stesso che cammini una persona o sei. Da soli: 455 €. In due si pagano 254 € a testa, in tre 241 €, in quattro 228 €, in cinque 215 €, e a sei scende a 199 € a persona. La cifra comprende la guida alpina abilitata, la notte in rifugio, tutti i pasti in montagna, le tasse del parco nazionale e il trasporto andata e ritorno da Marrakech: il numero indicato è quindi quello che pagate, non una tariffa base a cui aggiungere in seguito i costi della montagna.",
+      "Non incluso: l'assicurazione di viaggio, che è obbligatoria, i vostri scarponi e i vostri strati di abbigliamento, le mance per la guida, oltre a ramponi e piccozza se partite d'inverno. Questi ultimi si noleggiano a Imlil. Tra novembre e aprile circa la vetta diventa una salita su neve e il trek si trasforma in qualcosa di realmente diverso: del tutto fattibile con l'attrezzatura giusta, ma non è più la stessa camminata delle fotografie.",
       "Il gruppo è solo vostro. È un trek privato per 2-12 persone, quindi il ritmo lo detta il vostro gruppo e non degli sconosciuti, e la guida può far rientrare o rallentare il gruppo senza negoziare con i tempi di nessun altro. In una salita di due giorni senza giornata di riserva, questa flessibilità vale più di quanto sembri.",
     ],
     title: "Toubkal Express — Vetta in 2 Giorni da Marrakech",
@@ -2498,14 +2498,13 @@ export const TOURS: Tour[] = [
       "Guida alpina professionista abilitata",
       "1 notte al rifugio del Toubkal",
       "Tutti i pasti durante il trek",
-      "Mulattiere per l'attrezzatura del gruppo",
       "Ingressi al Parco Nazionale del Toubkal",
       "Transfer andata e ritorno da Marrakech",
     ],
     excludes: [
       "Assicurazione di viaggio (obbligatoria)",
       "Attrezzatura da trekking personale",
-      "Mance per la guida e il portatore",
+      "Mance per la guida",
       "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
     itinerary: [

@@ -148,7 +148,7 @@ Les guides approfondis ci-dessous couvrent chaque région en détail.
     
       { q: "À quelle altitude se trouve le refuge du Toubkal ?", a: "Le refuge du CAF est à 3 207 m, soit 960 m sous le sommet et environ 1 470 m au-dessus d'Imlil. Cette altitude explique tout l'itinéraire classique : elle coupe l'ascension en deux moitiés gérables et offre une nuit en altitude avant la tentative de sommet. C'est un refuge gardé avec dortoirs, couvertures, douches chaudes et repas cuisinés — sommaire mais réellement fonctionnel, et chauffé sans être chaud, si bien qu'un bon sac de couchage reste utile." },
       { q: "Le trek du Toubkal part-il d'Imlil ?", a: "Oui. Imlil, à 1 740 m, est le point de départ de tous les itinéraires du Toubkal : c'est là que la route s'arrête et que la montagne commence, à environ 90 minutes de Marrakech. C'est aussi là que se trouve le poste de contrôle des guides, donc le point où la règle d'encadrement est réellement appliquée." },
-      { q: "Les mules portent-elles les sacs pendant le trek ?", a: "Oui. Les mules montent le matériel collectif et la nourriture jusqu'au refuge, ce qui vous permet de marcher avec un sac à dos léger plutôt qu'une charge complète, et ce soutien est inclus dans nos treks du Toubkal. Au-dessus du refuge les mules s'arrêtent — le cône sommital est trop raide et instable — mais vous ne portez plus alors que de l'eau, des couches et un appareil photo." },
+      { q: "Les mules portent-elles les sacs pendant le trek ?", a: "Sur nos treks du Toubkal de plusieurs jours, oui. Les mules montent le matériel collectif et la nourriture jusqu'au refuge, ce qui vous permet de marcher avec un sac à dos léger plutôt qu'une charge complète, et ce soutien est inclus. Le trek du sommet en 2 jours se fait sans mule : vous portez vous-même votre sac pour la nuit jusqu'au refuge, alors voyagez léger. Au-dessus du refuge les mules s'arrêtent — le cône sommital est trop raide et instable — mais vous ne portez plus alors que de l'eau, des couches et un appareil photo." },
       { q: "Faut-il des chaussures de randonnée montantes pour l'Atlas ?", a: "Des chaussures montantes tenant la cheville sont la recommandation honnête, pas des chaussures de trail. Le terrain au-dessus d'Imlil est fait d'éboulis et de rocaille plutôt que de sentier aménagé, et c'est à la descente que les chevilles se tordent. Rodez-les avant d'arriver : une paire neuve achetée pour le voyage est la première cause d'ampoules que nous voyons. En hiver, la chaussure doit aussi être assez rigide pour recevoir un crampon, ce qu'une chaussure souple ne permet pas." },
       { q: "Faut-il des crampons pour le Toubkal ?", a: "En hiver, oui : crampons et piolet, et la maîtrise des deux. La neige tient généralement sur le cône sommital de novembre à avril, et les pentes finales passent de la marche à une course sur neige réellement dangereuse sans ce matériel. De juin à octobre environ, la voie normale est en rocher sec et aucun matériel technique n'est nécessaire. Entre ces périodes cela dépend de l'année : demandez plutôt que de supposer, un hiver doux pouvant laisser le sommet déneigé en janvier et un printemps froid garder la neige jusqu'en mai." },
     ],
@@ -1733,10 +1733,11 @@ cessent d'être facultatives, et le matin du sommet commence avant l'aube,
 autour de zéro degré. L'[ascension en 2 jours](/fr/tours/ascension-toubkal-2-jours)
 impose les mêmes exigences en moins de temps.
 
-Sur les deux, un mulet porte le matériel collectif et vous marchez avec un sac
+Sur le 4 jours, un mulet porte le matériel collectif et vous marchez avec un sac
 à dos léger. Cela change la liste plus que n'importe quel article : vous ne
 pesez pas chaque gramme, vous emportez seulement ce dont vous avez besoin
-entre les étapes.
+entre les étapes. Le 2 jours se fait sans mule : tout ce qu'il faut pour la nuit
+au refuge tient dans un seul sac, sur votre dos — gardez-le léger.
     `,
   },
   {

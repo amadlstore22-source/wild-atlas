@@ -2461,8 +2461,8 @@ export const TOURS: Tour[] = [
     brief: [
       "Dos días es la forma más corta y honesta de pisar el punto más alto del norte de África. El primer día son 1,5 horas de carretera desde Marrakech hasta Imlil y luego unas cinco horas de marcha hasta el refugio del Toubkal, a 3.207 m, subiendo cerca de 1.470 m y pasando por el santuario de Sidi Chamharouch. El segundo día empieza antes del amanecer: 960 m hasta la cima de 4.167 m y después los 2.430 m de descenso hasta Imlil y el regreso en coche. Siete u ocho horas de marcha el segundo día, la mayor parte cuesta abajo sobre terreno suelto.",
       "Lo que conviene entender antes de reservar es que no hay día de aclimatación. Se duerme una noche a 3.207 m y se sube a la cima a la mañana siguiente, lo que supone un perfil de ascenso real y no una progresión suave. Quienes están acostumbrados a una jornada larga de desnivel en su país suelen desenvolverse bien; quienes nunca han pasado de los 3.000 m a veces notan la altitud en la última pendiente. Si dispone de tiempo, la versión de 4 días incluye aclimatación y es el mejor trek: este existe para quienes no lo tienen.",
-      "El precio funciona con una escala de grupo porque el guía, la mula y el traslado cuestan lo mismo tanto si camina una persona como seis. En solitario son 455 €. Dos personas pagan 254 € cada una, tres 241 €, cuatro 228 €, cinco 215 €, y a partir de seis baja a 199 € por persona. Esa cifra cubre el guía de montaña titulado, la noche en el refugio, todas las comidas en la montaña, la mula para el material del grupo, las tasas del parque nacional y el transporte de ida y vuelta desde Marrakech, de modo que el importe indicado es el que se paga y no una tarifa base a la que después se suman los costes de la montaña.",
-      "No incluye: el seguro de viaje, que es obligatorio, sus propias botas y capas de ropa, las propinas del guía y del muletero, ni los crampones y el piolet si viaja en invierno. Estos últimos se alquilan en Imlil. Entre noviembre y abril aproximadamente, la cima se convierte en una ascensión sobre nieve y el trek pasa a ser algo realmente distinto: perfectamente factible con el equipo adecuado, pero ya no es la misma caminata de las fotografías.",
+      "El precio funciona con una escala de grupo porque el guía y el traslado cuestan lo mismo tanto si camina una persona como seis. En solitario son 455 €. Dos personas pagan 254 € cada una, tres 241 €, cuatro 228 €, cinco 215 €, y a partir de seis baja a 199 € por persona. Esa cifra cubre el guía de montaña titulado, la noche en el refugio, todas las comidas en la montaña, las tasas del parque nacional y el transporte de ida y vuelta desde Marrakech, de modo que el importe indicado es el que se paga y no una tarifa base a la que después se suman los costes de la montaña.",
+      "No incluye: el seguro de viaje, que es obligatorio, sus propias botas y capas de ropa, las propinas del guía, ni los crampones y el piolet si viaja en invierno. Estos últimos se alquilan en Imlil. Entre noviembre y abril aproximadamente, la cima se convierte en una ascensión sobre nieve y el trek pasa a ser algo realmente distinto: perfectamente factible con el equipo adecuado, pero ya no es la misma caminata de las fotografías.",
       "El grupo es solo suyo. Es un trek privado para entre 2 y 12 personas, así que el ritmo lo marca su grupo y no unos desconocidos, y el guía puede dar la vuelta o aflojar el paso sin negociar con el horario de nadie más. En una ascensión de dos días sin jornada de reserva, esa flexibilidad vale más de lo que parece.",
     ],
     title: "Toubkal Exprés — Cima en 2 Días desde Marrakech",
@@ -2498,14 +2498,13 @@ export const TOURS: Tour[] = [
       "Guía de montaña profesional titulado",
       "1 noche en el refugio del Toubkal",
       "Todas las comidas durante el trek",
-      "Mulero para el equipaje del grupo",
       "Entradas al Parque Nacional del Toubkal",
       "Traslado de ida y vuelta desde Marrakech",
     ],
     excludes: [
       "Seguro de viaje (obligatorio)",
       "Equipo personal de trekking",
-      "Propinas para el guía y el porteador",
+      "Propinas para el guía",
       "Crampones y piolet en invierno (alquiler disponible)",
     ],
     itinerary: [

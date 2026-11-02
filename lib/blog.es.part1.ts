@@ -148,7 +148,7 @@ Las guías detalladas de abajo cubren cada región con todo detalle.
     
       { q: "¿A qué altitud está el refugio del Toubkal?", a: "El refugio del CAF está a 3.207 m, 960 m por debajo de la cumbre y unos 1.470 m por encima de Imlil. Esa altura explica todo el itinerario clásico: parte el ascenso en dos mitades manejables y da al cuerpo una noche en altura antes del intento de cumbre. Es un refugio guardado con literas, mantas, duchas calientes y comida cocinada — básico pero realmente funcional, y climatizado sin llegar a ser cálido, así que un buen saco de dormir sigue importando." },
       { q: "¿El trek del Toubkal empieza en Imlil?", a: "Sí. Imlil, a 1.740 m, es el punto de partida de todas las rutas del Toubkal: allí acaba la carretera y empieza la montaña, a unos 90 minutos de Marrakech. Es también donde está el control de guías, así que es el punto en el que la norma se aplica de verdad y no como un trámite más arriba." },
-      { q: "¿Las mulas llevan las mochilas en el trek?", a: "Sí. Las mulas suben el material del grupo y la comida hasta el refugio, lo que te permite caminar con una mochila de día en lugar de una carga completa, y ese apoyo va incluido en nuestros treks al Toubkal. Por encima del refugio las mulas se detienen —el cono de cumbre es demasiado empinado y suelto—, pero para entonces solo llevas agua, capas y una cámara." },
+      { q: "¿Las mulas llevan las mochilas en el trek?", a: "En nuestros treks de varios días al Toubkal, sí. Las mulas suben el material del grupo y la comida hasta el refugio, lo que te permite caminar con una mochila de día en lugar de una carga completa, y ese apoyo va incluido. El trek de cumbre en 2 días se hace sin mula: llevas tú mismo tu mochila para la noche hasta el refugio, así que viaja ligero. Por encima del refugio las mulas se detienen —el cono de cumbre es demasiado empinado y suelto—, pero para entonces solo llevas agua, capas y una cámara." },
       { q: "¿Hacen falta botas de montaña para el Atlas?", a: "Botas con sujeción de tobillo es la recomendación honesta, no zapatillas de trail. El terreno por encima de Imlil es pedrera y roca suelta más que sendero acondicionado, y es en la bajada donde se tuercen los tobillos. Domalas antes de venir: un par nuevo comprado para el viaje es la causa más común de ampollas que vemos. En invierno la bota además debe ser lo bastante rígida para admitir un crampón, cosa que una zapatilla blanda no permite." },
       { q: "¿Se necesitan crampones para el Toubkal?", a: "En invierno sí: crampones y piolet, y saber usarlos. La nieve suele cubrir el cono de cumbre de noviembre a abril, y las pendientes finales pasan de ser una caminata a una ascensión sobre nieve genuinamente peligrosa sin ese material. De junio a octubre aproximadamente la ruta normal es roca desnuda y no hace falta material técnico. Entre medias depende del año, así que pregunta en vez de suponer: un invierno cálido puede dejar la cumbre limpia en enero y una primavera fría retener nieve hasta mayo." },
     ],
@@ -1733,9 +1733,10 @@ dejan de ser opcionales, y la mañana de cumbre empieza antes del amanecer, en
 torno a cero grados. La [ascensión en 2 días](/es/tours/ascension-toubkal-2-dias)
 exige lo mismo en menos tiempo.
 
-En ambos, una mula lleva el material del grupo y tú caminas con una mochila de
+En el de 4 días, una mula lleva el material del grupo y tú caminas con una mochila de
 día. Eso cambia la lista más que cualquier objeto concreto: no tienes que pesar
-cada gramo, solo llevar lo que necesitas entre etapas.
+cada gramo, solo llevar lo que necesitas entre etapas. El de 2 días va sin mula: todo lo
+necesario para la noche en el refugio va en una sola mochila, a tu espalda, así que llévala ligera.
     `,
   },
   {

@@ -141,7 +141,7 @@ Die ausführlichen Leitfäden unten behandeln jede Region im vollen Detail.
     
       { q: "Auf welcher Höhe liegt die Toubkal-Hütte?", a: "Die CAF-Hütte liegt auf 3.207 m — 960 m unter dem Gipfel und rund 1.470 m über Imlil. Diese Höhe erklärt die klassische Route: Sie teilt den Aufstieg in zwei machbare Hälften und gibt dem Körper eine Nacht in Höhe vor dem Gipfelversuch. Es ist eine bewirtschaftete Hütte mit Matratzenlager, Decken, warmen Duschen und gekochten Mahlzeiten — einfach, aber wirklich funktional, und beheizt statt warm, weshalb ein guter Schlafsack weiterhin zählt." },
       { q: "Beginnt der Toubkal-Trek in Imlil?", a: "Ja. Imlil auf 1.740 m ist der Ausgangspunkt jeder Toubkal-Route: Dort endet die Straße und beginnt der Berg, rund 90 Minuten von Marrakesch. Dort sitzt auch die Guide-Kontrolle, es ist also der Punkt, an dem die Vorschrift tatsächlich durchgesetzt wird und nicht bloß Formsache weiter oben ist." },
-      { q: "Tragen Maultiere das Gepäck auf dem Trek?", a: "Ja. Maultiere bringen Gruppenausrüstung und Verpflegung bis zur Hütte, weshalb Sie mit einem Tagesrucksack statt einer vollen Last gehen — und diese Unterstützung ist bei unseren Toubkal-Treks enthalten. Oberhalb der Hütte enden die Maultiere, der Gipfelkegel ist zu steil und zu brüchig; dann tragen Sie ohnehin nur noch Wasser, Schichten und eine Kamera." },
+      { q: "Tragen Maultiere das Gepäck auf dem Trek?", a: "Auf unseren mehrtägigen Toubkal-Treks ja. Maultiere bringen Gruppenausrüstung und Verpflegung bis zur Hütte, weshalb Sie mit einem Tagesrucksack statt einer vollen Last gehen — und diese Unterstützung ist enthalten. Der 2-Tages-Gipfeltrek kommt ohne Maultier aus: Ihr Gepäck für die Nacht tragen Sie selbst zur Hütte, packen Sie also leicht. Oberhalb der Hütte enden die Maultiere, der Gipfelkegel ist zu steil und zu brüchig; dann tragen Sie ohnehin nur noch Wasser, Schichten und eine Kamera." },
       { q: "Brauche ich Wanderstiefel für den Atlas?", a: "Stiefel mit Knöchelhalt sind die ehrliche Empfehlung, keine Trailrunner. Der Boden oberhalb von Imlil ist loses Geröll und Fels statt präparierter Weg, und umgeknickt wird im Abstieg. Laufen Sie sie vorher ein: ein neues Paar, eigens für die Reise gekauft, ist die häufigste Blasenursache, die wir sehen. Im Winter muss der Stiefel zudem steif genug für Steigeisen sein, was ein weicher Schuh nicht leistet." },
       { q: "Braucht man Steigeisen für den Toubkal?", a: "Im Winter ja: Steigeisen und Eispickel, und die Fähigkeit, beides zu benutzen. Von November bis April liegt am Gipfelkegel in der Regel Schnee, und die letzten Hänge werden aus einer Wanderung eine Schneetour, die ohne diese Ausrüstung wirklich gefährlich ist. Von etwa Juni bis Oktober ist die Normalroute blanker Fels und keinerlei technische Ausrüstung nötig. Dazwischen hängt es vom Jahr ab — fragen Sie lieber nach: Ein milder Winter kann den Gipfel im Januar aper lassen, ein kalter Frühling den Schnee bis Mai halten." },
     ],
@@ -1727,10 +1727,12 @@ und der Gipfelmorgen beginnt vor Sonnenaufgang bei etwa null Grad. Die
 [2-tägige Besteigung](/de/tours/toubkal-besteigung-2-tage) stellt dieselben
 Ansprüche in kürzerer Zeit.
 
-Bei beiden trägt ein Maultier das Gruppengepäck, Sie tragen also nur den
+Beim 4-Tages-Trek trägt ein Maultier das Gruppengepäck, Sie tragen also nur den
 Tagesrucksack. Das ändert die Packliste mehr als jeder einzelne
 Ausrüstungsgegenstand: Sie müssen nicht jedes Gramm abwägen, sondern nur
-das dabeihaben, was Sie zwischen den Etappen brauchen.
+das dabeihaben, was Sie zwischen den Etappen brauchen. Der 2-Tages-Trek kommt
+ohne Maultier aus: Alles für die Hüttennacht passt in einen Rucksack auf Ihrem
+Rücken — halten Sie ihn leicht.
     `,
   },
   {

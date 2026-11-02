@@ -3089,8 +3089,8 @@ export const TOURS: Tour[] = [
     brief: [
       "Two days is the shortest honest way to stand on top of North Africa. Day one is a 1.5-hour drive from Marrakech to Imlil and then roughly five hours of walking to the Toubkal Refuge at 3,207 m, climbing about 1,470 m past the Sidi Chamharouch shrine. Day two starts before dawn: 960 m up to the 4,167 m summit, then the whole 2,430 m descent to Imlil and the drive back. Seven to eight hours of walking on the second day, most of it downhill on loose ground.",
       "The thing worth understanding before booking is that there is no acclimatisation day. You sleep one night at 3,207 m and summit the next morning, which is a real ascent profile rather than a gentle one. Walkers who are comfortable with a long hill day at home generally manage it; walkers who have never been above 3,000 m sometimes feel the altitude on the final slope. If you have the time, the 4-day version builds in acclimatisation and is the better trek — this one exists for people who do not.",
-      "Price runs on a group ladder because the guide, the mule and the transfer cost the same whether one person walks or six. Solo is €455. Two people pay €254 each, three €241, four €228, five €215, and at six it falls to €199 per person. That figure covers the licensed mountain guide, the refuge night, all meals on the mountain, the mule for group gear, national park fees and return transport from Marrakech — so the number quoted is the number you pay, not a base rate with the mountain costs added later.",
-      "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide and muleteer, and crampons and an ice axe if you are going in winter. Those last are rentable in Imlil. Between roughly November and April the summit becomes a snow climb and the trek is a genuinely different proposition — still very doable with the right kit, but not the same walk as the one in the photographs.",
+      "Price runs on a group ladder because the guide and the transfer cost the same whether one person walks or six. Solo is €455. Two people pay €254 each, three €241, four €228, five €215, and at six it falls to €199 per person. That figure covers the licensed mountain guide, the refuge night, all meals on the mountain, national park fees and return transport from Marrakech — so the number quoted is the number you pay, not a base rate with the mountain costs added later.",
+      "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide, and crampons and an ice axe if you are going in winter. Those last are rentable in Imlil. Between roughly November and April the summit becomes a snow climb and the trek is a genuinely different proposition — still very doable with the right kit, but not the same walk as the one in the photographs.",
       "The group is yours alone. This is a private trek for 2–12 people, so the pace is set by your party rather than by strangers, and the guide can turn a group around or slow it down without negotiating with anyone else's schedule. On a two-day summit with no spare day, that flexibility is worth more than it sounds.",
     ],
     title: "Mount Toubkal Express — 2-Day Summit from Marrakech",
@@ -3145,14 +3145,13 @@ export const TOURS: Tour[] = [
       "Professional licensed mountain guide",
       "1 night in the Toubkal Refuge",
       "All meals during the trek",
-      "Mule porter for group gear",
       "Toubkal National Park entrance fees",
       "Round-trip transfer from Marrakech",
     ],
     excludes: [
       "Travel insurance (mandatory)",
       "Personal trekking equipment",
-      "Tips for guide and porter",
+      "Tips for the guide",
       "Crampons and ice axe in winter (rental available)",
     ],
     itinerary: [

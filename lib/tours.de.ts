@@ -2461,8 +2461,8 @@ export const TOURS: Tour[] = [
     brief: [
       "Zwei Tage sind der kürzeste ehrliche Weg, um auf dem höchsten Punkt Nordafrikas zu stehen. Tag eins bedeutet 1,5 Stunden Fahrt von Marrakesch nach Imlil und danach rund fünf Stunden Gehzeit hinauf zur Toubkal-Hütte auf 3.207 m, etwa 1.470 Höhenmeter, vorbei am Heiligtum von Sidi Chamharouch. Tag zwei beginnt vor Sonnenaufgang: 960 Höhenmeter hinauf zum Gipfel auf 4.167 m, danach die gesamten 2.430 Höhenmeter Abstieg nach Imlil und die Rückfahrt. Sieben bis acht Stunden Gehzeit am zweiten Tag, größtenteils bergab auf losem Untergrund.",
       "Was man vor der Buchung verstehen sollte: Es gibt keinen Akklimatisationstag. Sie schlafen eine Nacht auf 3.207 m und stehen am nächsten Morgen auf dem Gipfel — das ist ein anspruchsvolles Aufstiegsprofil und keine sanfte Steigerung. Wer zu Hause mit einem langen Bergtag zurechtkommt, schafft das in der Regel gut; wer noch nie über 3.000 m war, spürt die Höhe manchmal im letzten Hang. Wenn Sie die Zeit haben, baut die 4-Tage-Variante eine Akklimatisation ein und ist der bessere Trek — diese Tour gibt es für alle, die diese Zeit nicht haben.",
-      "Der Preis folgt einer Gruppenstaffel, weil Bergführer, Maultier und Transfer dasselbe kosten, ob eine Person geht oder sechs. Allein: 455 €. Zu zweit zahlt jeder 254 €, zu dritt 241 €, zu viert 228 €, zu fünft 215 €, und ab sechs Personen sinkt es auf 199 € pro Person. Darin enthalten sind der staatlich geprüfte Bergführer, die Hüttennacht, alle Mahlzeiten am Berg, das Maultier für das Gruppengepäck, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch — der genannte Betrag ist also der, den Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später hinzukommen.",
-      "Nicht enthalten: die Reiseversicherung, die verpflichtend ist, Ihre eigenen Schuhe und Kleidungsschichten, Trinkgelder für Bergführer und Maultierführer sowie Steigeisen und Eispickel im Winter. Letztere lassen sich in Imlil mieten. Etwa zwischen November und April wird der Gipfel zu einer Schneetour und der Trek zu einer wirklich anderen Unternehmung — mit der richtigen Ausrüstung gut machbar, aber nicht mehr dieselbe Wanderung wie auf den Fotos.",
+      "Der Preis folgt einer Gruppenstaffel, weil Bergführer und Transfer dasselbe kosten, ob eine Person geht oder sechs. Allein: 455 €. Zu zweit zahlt jeder 254 €, zu dritt 241 €, zu viert 228 €, zu fünft 215 €, und ab sechs Personen sinkt es auf 199 € pro Person. Darin enthalten sind der staatlich geprüfte Bergführer, die Hüttennacht, alle Mahlzeiten am Berg, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch — der genannte Betrag ist also der, den Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später hinzukommen.",
+      "Nicht enthalten: die Reiseversicherung, die verpflichtend ist, Ihre eigenen Schuhe und Kleidungsschichten, Trinkgelder für den Bergführer sowie Steigeisen und Eispickel im Winter. Letztere lassen sich in Imlil mieten. Etwa zwischen November und April wird der Gipfel zu einer Schneetour und der Trek zu einer wirklich anderen Unternehmung — mit der richtigen Ausrüstung gut machbar, aber nicht mehr dieselbe Wanderung wie auf den Fotos.",
       "Die Gruppe besteht nur aus Ihnen. Das ist ein privater Trek für 2 bis 12 Personen: Das Tempo bestimmt Ihre Gruppe und nicht Fremde, und der Bergführer kann umkehren oder langsamer gehen, ohne sich mit dem Zeitplan anderer abstimmen zu müssen. Bei einer Zweitagestour ohne Reservetag ist diese Flexibilität mehr wert, als es klingt.",
     ],
     title: "Mount Toubkal Express — 2-tägiger Gipfelanstieg ab Marrakesch",
@@ -2498,14 +2498,13 @@ export const TOURS: Tour[] = [
       "Professioneller staatlich geprüfter Bergführer",
       "1 Nacht in der Toubkal-Hütte",
       "Alle Mahlzeiten während der Tour",
-      "Maultiertreiber für die Gruppenausrüstung",
       "Eintrittsgebühren für den Toubkal-Nationalpark",
       "Hin- und Rücktransfer ab Marrakesch",
     ],
     excludes: [
       "Reiseversicherung (obligatorisch)",
       "Persönliche Trekkingausrüstung",
-      "Trinkgeld für Guide und Träger",
+      "Trinkgeld für den Guide",
       "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
     itinerary: [

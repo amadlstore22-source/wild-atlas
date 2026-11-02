@@ -2470,8 +2470,8 @@ export const TOURS: Tour[] = [
     brief: [
       "Deux jours, c'est le moyen le plus court et le plus honnête de se tenir au sommet de l'Afrique du Nord. Le premier jour, 1h30 de route de Marrakech à Imlil, puis environ cinq heures de marche jusqu'au refuge du Toubkal à 3 207 m, soit près de 1 470 m de dénivelé, en passant par le sanctuaire de Sidi Chamharouch. Le deuxième jour commence avant l'aube : 960 m jusqu'au sommet à 4 167 m, puis les 2 430 m de descente jusqu'à Imlil et le retour en voiture. Sept à huit heures de marche le deuxième jour, en grande partie en descente sur terrain meuble.",
       "Ce qu'il faut comprendre avant de réserver, c'est qu'il n'y a pas de journée d'acclimatation. Vous dormez une nuit à 3 207 m et atteignez le sommet le lendemain matin : c'est un profil d'ascension exigeant, pas une progression douce. Les marcheurs habitués à une longue journée de dénivelé chez eux s'en sortent généralement bien ; ceux qui n'ont jamais dépassé 3 000 m ressentent parfois l'altitude dans la dernière pente. Si vous avez le temps, la version en 4 jours intègre une acclimatation et reste le meilleur trek — celui-ci existe pour ceux qui ne l'ont pas.",
-      "Le tarif suit une grille de groupe, car le guide, le mulet et le transfert coûtent la même chose qu'il y ait un marcheur ou six. Seul : 455 €. À deux : 254 € par personne, à trois 241 €, à quatre 228 €, à cinq 215 €, et à six le prix tombe à 199 € par personne. Ce montant comprend le guide de montagne diplômé, la nuit en refuge, tous les repas en montagne, le mulet pour le matériel collectif, les frais du parc national et le transport aller-retour depuis Marrakech — le prix annoncé est donc celui que vous payez, et non un tarif de base auquel s'ajouteraient ensuite les frais de montagne.",
-      "Non inclus : l'assurance voyage, qui est obligatoire, vos chaussures et vos couches personnelles, les pourboires du guide et du muletier, ainsi que les crampons et le piolet si vous partez en hiver. Ces derniers se louent à Imlil. De novembre à avril environ, le sommet devient une ascension sur neige et le trek change réellement de nature — tout à fait réalisable avec le bon équipement, mais ce n'est plus la même marche que sur les photos.",
+      "Le tarif suit une grille de groupe, car le guide et le transfert coûtent la même chose qu'il y ait un marcheur ou six. Seul : 455 €. À deux : 254 € par personne, à trois 241 €, à quatre 228 €, à cinq 215 €, et à six le prix tombe à 199 € par personne. Ce montant comprend le guide de montagne diplômé, la nuit en refuge, tous les repas en montagne, les frais du parc national et le transport aller-retour depuis Marrakech — le prix annoncé est donc celui que vous payez, et non un tarif de base auquel s'ajouteraient ensuite les frais de montagne.",
+      "Non inclus : l'assurance voyage, qui est obligatoire, vos chaussures et vos couches personnelles, les pourboires du guide, ainsi que les crampons et le piolet si vous partez en hiver. Ces derniers se louent à Imlil. De novembre à avril environ, le sommet devient une ascension sur neige et le trek change réellement de nature — tout à fait réalisable avec le bon équipement, mais ce n'est plus la même marche que sur les photos.",
       "Le groupe n'est composé que de vous. C'est un trek privé pour 2 à 12 personnes : le rythme est donné par votre groupe et non par des inconnus, et le guide peut ralentir ou faire demi-tour sans avoir à négocier avec l'emploi du temps d'autrui. Sur une ascension de deux jours sans journée de réserve, cette souplesse vaut plus qu'il n'y paraît.",
     ],
     title: "Toubkal Express — Sommet en 2 jours au départ de Marrakech",
@@ -2507,14 +2507,13 @@ export const TOURS: Tour[] = [
       "Guide de montagne professionnel diplômé",
       "1 nuit au refuge du Toubkal",
       "Tous les repas pendant le trek",
-      "Muletier pour le matériel du groupe",
       "Droits d'entrée du parc national du Toubkal",
       "Transfert aller-retour depuis Marrakech",
     ],
     excludes: [
       "Assurance voyage (obligatoire)",
       "Équipement de trek personnel",
-      "Pourboires pour le guide et le porteur",
+      "Pourboires pour le guide",
       "Crampons et piolet en hiver (location possible)",
     ],
     itinerary: [

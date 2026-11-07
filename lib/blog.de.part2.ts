@@ -3513,7 +3513,7 @@ sie ist nicht schlechter — sie ist anders. Buchen Sie die, die Sie wollen.
     faq: [
       { q: "Was kostet eine 3-Tages-Saharatour ab Marrakesch?", a: "Die Preise reichen von etwa 95 € für einen Sammelminibus mit einfachem Camp bis 380 € für einen privaten 4x4 mit Berber-Wüstencamp. Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet 380 € pro Person und umfasst privaten Transport, den Kamelritt bei Sonnenuntergang, eine Nacht im Wüstencamp mit Abendessen und Frühstück, eine Hotelnacht und einen Wüstenführer." },
       { q: "Warum sind manche Wüstentouren in Marokko so günstig?", a: "Die Ersparnis kommt aus vier Bereichen: ein Sammelminibus mit 16 Plätzen statt eines Privatfahrzeugs; ein einfaches Camp mit Gemeinschaftsbädern statt privater; an beiden Fahrtagen ausgeschlossene Mittagessen; und eine größere Gruppe, also mehr Stopps und weniger Flexibilität. Nichts davon ist unehrlich, wenn es offengelegt wird — fragen Sie vor der Zahlung nach, was zutrifft." },
-      { q: "Reichen drei Tage für die Sahara?", a: "Es ist die kürzeste Route, die den Erg Chebbi wirklich erreicht. Merzouga liegt etwa 560 km von Marrakesch entfernt, also sind Tag eins und drei weitgehend Fahrtage, mit der Wüstennacht dazwischen. Wenn Sie mehr Zeit in den Dünen und weniger im Auto wollen, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) eine Nacht und ein ruhigeres Tempo hinzu." },
+      { q: "Reichen drei Tage für die Sahara?", a: "Es ist die kürzeste Route, die den Erg Chebbi wirklich erreicht. Merzouga liegt etwa 560 km von Marrakesch entfernt, also sind Tag eins und drei weitgehend Fahrtage, mit der Wüstennacht dazwischen. Wenn Sie lieber weniger Zeit im Auto verbringen, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) eine Nacht in Ouarzazate hinzu, sodass kein Tag länger als etwa fünf Stunden dauert. Wir vergleichen beide in [Sahara-Tour ab Marrakesch: 3 oder 4 Tage?](/de/blog/sahara-tour-3-oder-4-tage-marrakesch)" },
       { q: "Was ist bei einer 3-Tages-Wüstentour nicht enthalten?", a: "Bei unserer Tour: die Mittagessen an Tag 1 und 3, persönliche Ausgaben und Trinkgeld. Mittagessen unterwegs kosten in den Raststätten der Route typischerweise 60–120 MAD. Trinkgeld für Fahrer-Guide und Campteam ist mit etwa 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber üblich." },
     ],
     content: `
@@ -3548,9 +3548,11 @@ eins und drei sind wirklich Fahrtage — das ist kein Mangel der Route, das ist 
 
 Was variiert, ist die Aufteilung der Fahrt. Die Strecke führt an Ait Benhaddou, Ouarzazate,
 den Dades- und Todra-Schluchten und den Draa-Palmenhainen vorbei. Eine hastige Tour
-fotografiert sie durch die Scheibe; eine langsamere hält an. Wenn Sie lieber mehr Dünenzeit
-und weniger Straße hätten, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) für
-526 € eine Nacht und ein sanfteres Tempo hinzu.
+fotografiert sie durch die Scheibe; eine langsamere hält an. Wenn Sie lieber weniger Straße
+pro Tag hätten, fügt die [4-Tages-Route](/de/tours/desert-4day-marrakech) für
+526 € eine Nacht in Ouarzazate und ein sanfteres Tempo hinzu; in den Dünen bleibt es wie bei
+der 3-Tage-Tour bei einer Nacht.
+Wir vergleichen beide Tag für Tag in [Sahara-Tour ab Marrakesch: 3 oder 4 Tage?](/de/blog/sahara-tour-3-oder-4-tage-marrakesch)
 
 ## Die Fragen, die Sie vor der Buchung stellen sollten
 
@@ -8680,6 +8682,141 @@ dort draußen nichts gibt, das die Wärme hält.
 
 **[Geteilter Abend in Agafay](/de/tours/agafay-abendessen-kamelritt-feuershow)** ·
 **[Privater Sonnenuntergang in Agafay](/de/tours/sonnenuntergang-agafay-wueste)**
+`,
+  },
+  {
+    slug: "3-day-vs-4-day-sahara-tour-marrakech",
+    localizedSlug: "sahara-tour-3-oder-4-tage-marrakesch",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Sahara-Tour ab Marrakesch: 3 oder 4 Tage?",
+    excerpt:
+      "Beide erreichen die Dünen des Erg Chebbi, beide verbringen eine Nacht im selben Wüstencamp. Der Unterschied ist die Rückfahrt: ein Tag mit etwa neun Stunden oder zwei kürzere Tage mit einer Nacht in Ouarzazate.",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["Sahara-Tour 3 Tage", "Sahara-Tour 4 Tage", "Marrakesch nach Merzouga", "Erg Chebbi", "Marokko Wüstentour Route"],
+    seoTitle: "Sahara ab Marrakesch: 3 oder 4 Tage?",
+    seoDescription:
+      "Gleiche Dünen, gleiche Nacht im Camp. Die 4-Tage-Tour teilt die 9 Stunden Rückfahrt mit einer Nacht in Ouarzazate. Routen, Fahrzeiten und Preise.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech", "family-desert-4day-marrakech"],
+    faq: [
+      { q: "Ist eine Sahara-Tour ab Marrakesch mit 3 oder mit 4 Tagen besser?", a: "Beide führen an denselben Ort. Beide überqueren den Tizi-n'Tichka-Pass, halten in Aït Ben Haddou, übernachten im Dadès, gehen in die Todra-Schlucht und verbringen eine Nacht im selben Camp am Erg Chebbi. Die 3-Tage-Tour fährt an einem Tag von etwa neun Stunden zurück nach Marrakesch; die 4-Tage-Tour teilt diese Fahrt mit einer Nacht in Ouarzazate, sodass kein Tag länger als etwa fünf Stunden dauert. Nehmen Sie 3 Tage, wenn Ihre Zeit knapp ist und ein langer Tag im Auto Sie nicht stört, sonst 4 Tage." },
+      { q: "Verbringt man bei der 4-Tage-Tour mehr Zeit in der Wüste?", a: "Nein. Beide Touren verbringen eine Nacht im Camp, mit dem Kamelritt hinein bei Sonnenuntergang und dem Sonnenaufgang über den Dünen am nächsten Morgen. Der zusätzliche Tag liegt auf dem Rückweg, mit einer Nacht in Ouarzazate und einem zweiten Halt am Morgen in Aït Ben Haddou." },
+      { q: "Wie lange dauert die Rückfahrt von Merzouga nach Marrakesch?", a: "Etwa 560 km. Auf unserer [3-Tage-Tour](/de/tours/wuestentour-3-tage-marrakesch) wird sie an einem Tag von rund neun Stunden gefahren, westwärts über Alnif und Tazarine, Ouarzazate und wieder über den Tizi n'Tichka. Die [4-Tage-Tour](/de/tours/wuestentour-4-tage-marrakesch) teilt sie in etwa fünf Stunden bis Ouarzazate und etwa vier am nächsten Tag." },
+      { q: "Wie viel mehr kostet die 4-Tage-Tour?", a: "Zu zweit 526 € pro Person statt 380 €: 292 € mehr für das Paar. Der Abstand wird mit der Gruppengröße kleiner, bis 51 € pro Person bei vier und 40 € bei sechs. Der Aufpreis deckt die Hotelnacht in Ouarzazate mit Abendessen und Frühstück und den zusätzlichen Tag mit Fahrzeug und Fahrer-Guide." },
+      { q: "Kann man die Sahara ab Marrakesch in zwei Tagen machen?", a: "Merzouga nicht: Es liegt etwa 560 km entfernt, in jede Richtung, und deshalb dauert die kürzeste Reise dorthin drei Tage. In zwei Tagen ist Zagora die realistische Wüste, mit unserer [geteilten 2-Tage-Tour nach Zagora](/de/tours/zagora-wueste-2-tage-geteilt). Die Dünen dort sind kleiner; wir vergleichen beide in [Merzouga oder Zagora](/de/blog/merzouga-vs-zagora-which-desert-tour)." },
+      { q: "Was ist mit Kindern oder älteren Reisenden besser?", a: "Die vier Tage. Was ermüdet, ist der längste Tag, nicht die Wüste. Für Familien fahren wir eine [4-tägige Familien-Wüstentour](/de/tours/familien-wuestentour-4-tage) auf derselben Straße, mit etwa fünf Stunden Fahrt am ersten Tag und etwa vier an jedem der drei anderen. Für ältere Reisende siehe [die Wüste für ältere Reisende](/de/blog/wuestentour-marokko-fuer-aeltere-reisende)." },
+    ],
+    content: `
+Beide Touren fahren zu denselben Dünen. Unsere [3-Tage-Tour](/de/tours/wuestentour-3-tage-marrakesch) und
+unsere [4-Tage-Tour](/de/tours/wuestentour-4-tage-marrakesch) verlassen Marrakesch auf derselben Straße,
+übernachten in der ersten Nacht im Dadès und verbringen die zweite im selben Camp in den Dünen des
+Erg Chebbi bei Merzouga. Der vierte Tag bringt keine zusätzliche Zeit in der Wüste. Er teilt die Rückfahrt.
+
+Das ist die ganze Entscheidung: **ein Tag mit etwa neun Stunden zurück nach Marrakesch oder zwei
+kürzere Tage mit einer Nacht in Ouarzazate.**
+
+## Auf einen Blick
+
+| | 3-Tage-Tour | 4-Tage-Tour |
+|---|---|---|
+| Nächte | 2: Hotel oder Kasbah im Dadès, Wüstencamp | 3: Hotel im Dadès, Wüstencamp, Hotel in Ouarzazate |
+| Nächte in der Wüste | 1 | 1 |
+| Wüstencamp | Sahara Garden, Erg Chebbi | Sahara Garden, Erg Chebbi |
+| Kamelritt | Hinein bei Sonnenuntergang, zurück bei Sonnenaufgang | Hinein bei Sonnenuntergang, zurück bei Sonnenaufgang |
+| Längster Fahrtag | Die Rückfahrt: etwa 9 Stunden | Etwa 5 Stunden |
+| Rückweg | Alnif, Tazarine, Ouarzazate, Marrakesch an einem Tag | Tazarine und N'Kob bis Ouarzazate, Marrakesch am nächsten Tag |
+| Pro Person, zu zweit | 380 € | 526 € |
+| Pro Person, allein | 690 € | 889 € |
+| Gruppengröße | 1 bis 12 | 1 bis 10 |
+| Mittagessen | Nicht inbegriffen | Nicht inbegriffen |
+
+Beide sind privat: Ihr eigenes Fahrzeug und Ihr eigener Fahrer-Guide, ab Ihrem Riad oder Hotel in
+Marrakesch. Im Camp haben bei beiden die Zelte ein eigenes Bad mit Dusche und WC sowie eine Klimaanlage.
+
+## Tag für Tag
+
+| Tag | 3-Tage-Tour | 4-Tage-Tour |
+|---|---|---|
+| 1 | Marrakesch, Tizi-n'Tichka-Pass, Aït Ben Haddou, Ouarzazate, Nacht in der Dadès-Schlucht | Dieselbe Straße, mit Zeit zum Mittagessen für die Atlas-Filmstudios in Ouarzazate; Nacht im Dadès-Tal |
+| 2 | Todra-Schlucht, Erfoud, Merzouga; Kamelritt in den Erg Chebbi bei Sonnenuntergang; Nacht im Camp | Todra-Schlucht, Merzouga; Kamelritt in den Erg Chebbi bei Sonnenuntergang; Nacht im Camp |
+| 3 | Sonnenaufgang über den Dünen, dann die lange Rückfahrt über Alnif, Tazarine und Ouarzazate; Marrakesch am Abend | Sonnenaufgang über den Dünen, dann über Tazarine und N'Kob nach Ouarzazate; Nacht in Ouarzazate |
+| 4 | | Kasbah Taourirt nach Wunsch, Aït Ben Haddou noch einmal im Morgenlicht, Tizi n'Tichka; Marrakesch gegen 17 Uhr |
+
+Die ersten beiden Tage sind dieselbe Reise. Der erste Tag überquert den Hohen Atlas über den
+Tizi-n'Tichka-Pass auf 2.260 m und hält am [UNESCO-Ksar Aït Ben Haddou](/de/blog/ait-benhaddou-guide).
+Am zweiten Tag gehen Sie in die [Todra-Schlucht](/de/blog/todra-gorge-guide) und erreichen Merzouga
+am Nachmittag, rechtzeitig, um bei Sonnenuntergang zum Camp hinauszureiten.
+
+Beide Touren kehren außerdem auf einer anderen Straße zurück als der Hinweg, über Tazarine, sodass
+Sie keine Strecke zweimal fahren.
+
+## Was der vierte Tag bringt
+
+- **Eine kürzere Rückfahrt.** Von Merzouga nach Marrakesch sind es etwa 560 km. Die 3-Tage-Tour
+  fährt sie an einem Tag von rund neun Stunden. Die 4-Tage-Tour hält nach etwa fünf Stunden in
+  Ouarzazate und fährt das letzte Stück, etwa vier Stunden, am nächsten Morgen.
+- **Eine Nacht in Ouarzazate**, im Hotel, mit Abendessen und Frühstück.
+- **Zweimal Aït Ben Haddou.** Sie sehen den Ksar am ersten Tag und noch einmal am letzten Morgen,
+  wenn das Licht auf ihn fällt.
+- **Zeit für Ouarzazate selbst**: die Atlas-Filmstudios am ersten Tag (etwa 7 €, nicht inbegriffen)
+  und die Kasbah Taourirt am letzten Morgen, beides freiwillig.
+
+Was er nicht bringt, ist eine zweite Nacht in den Dünen: Beide Touren verbringen eine einzige Nacht im Camp.
+
+## Was der zusätzliche Tag kostet
+
+Der Preis pro Person hängt davon ab, wie viele Sie sind, denn Fahrzeug und Fahrer-Guide kosten
+gleich viel, ob sie eine Person oder sechs fahren.
+
+| Reisende | 3 Tage, pro Person | 4 Tage, pro Person | Unterschied pro Person |
+|---|---|---|---|
+| 1 | 690 € | 889 € | 199 € |
+| 2 | 380 € | 526 € | 146 € |
+| 3 | 320 € | 399 € | 79 € |
+| 4 | 295 € | 346 € | 51 € |
+| 5 | 260 € | 314 € | 54 € |
+| 6 | 230 € | 270 € | 40 € |
+
+Für ein Paar sind das 760 € gegenüber 1.052 €: 292 € mehr für eine zusätzliche Nacht mit Abendessen
+und Frühstück, einen weiteren Tag mit Fahrzeug und Fahrer-Guide und eine Rückfahrt in zwei Etappen.
+Ab sieben Personen sinkt der Preis der 4-Tage-Tour auf 252 € pro Person und ab zehn, ihrer maximalen
+Gruppengröße, auf 245 €. Die 3-Tage-Tour bleibt von sechs bis zwölf Personen bei 230 € pro Person.
+Die vollständige Kostenaufstellung finden Sie unter [was eine 3-Tage-Sahara-Tour ab Marrakesch kostet](/de/blog/sahara-tour-3-tage-marrakesch-kosten).
+
+## Welche Sie wählen sollten
+
+**Nehmen Sie die 3-Tage-Tour, wenn:**
+
+- Sie drei Tage haben und trotzdem in die Sahara wollen. Es ist die kürzeste Reise, die den Erg Chebbi wirklich erreicht.
+- Ein langer Tag im Auto Sie nicht stört.
+- Sie auf das Budget achten: Zu zweit kostet sie 146 € weniger pro Person.
+
+**Nehmen Sie die 4-Tage-Tour, wenn:**
+
+- Die neun Stunden Rückfahrt das sind, was Sie von der Wüste abhält.
+- Sie mit Kindern, älteren Angehörigen oder jemandem reisen, der lange Autofahrten schlecht verträgt.
+- Sie Zeit in Ouarzazate haben und Aït Ben Haddou ein zweites Mal sehen möchten.
+- Sie am Tag nach der Rückkehr fliegen und nicht spät und müde ankommen möchten.
+
+## Andere Möglichkeiten
+
+- **Geteilt, 3 Tage:** Unsere [geteilte Merzouga-Tour](/de/tours/merzouga-wueste-3-tage-geteilt) folgt
+  derselben Route wie die private 3-Tage-Tour, im Minibus mit bis zu sechzehn anderen Reisenden und
+  festem Abfahrtstermin. Sie kostet 120 € pro Person ab zwei Personen oder 160 € allein. Wir vergleichen
+  beide Formate in [private oder geteilte Wüstentour](/de/blog/wuestentour-privat-oder-geteilt).
+- **Mit Kindern, 4 Tage:** Die [Familien-Wüstentour](/de/tours/familien-wuestentour-4-tage) fährt
+  dieselbe Straße mit etwa fünf Stunden Fahrt am ersten Tag und etwa vier an jedem der drei anderen,
+  ab zwei Reisenden zum selben Preis pro Person wie die 4-Tage-Tour.
+- **Nur zwei Tage:** Fahren Sie stattdessen nach Zagora. Es ist die Wüstennacht, die Marrakesch am
+  nächsten liegt, aber die Dünen sind kleiner; siehe [Merzouga oder Zagora](/de/blog/merzouga-vs-zagora-which-desert-tour).
+- **Weiter und leerer:** Die Dünen des Erg Chegaga sind eine ganz andere Wüste. Siehe
+  [Erg Chebbi oder Erg Chegaga](/de/blog/erg-chebbi-vs-erg-chegaga).
+
+👉 **[Zur 3-Tage-Tour](/de/tours/wuestentour-3-tage-marrakesch)** oder **[zur 4-Tage-Tour](/de/tours/wuestentour-4-tage-marrakesch)**, und schicken Sie uns Ihre Daten: Wir antworten mit dem Preis für Ihre Gruppe.
 `,
   },
 ];

@@ -71,6 +71,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prix-circuit-erg-chegaga": "erg-chegaga-tour-cost",
     "prix-excursion-cascades-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "prix-soiree-desert-agafay": "agafay-desert-evening-cost",
+    "circuit-sahara-3-ou-4-jours-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
   },
   es: {
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -117,6 +118,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "precio-tour-erg-chegaga": "erg-chegaga-tour-cost",
     "precio-excursion-cascadas-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "precio-noche-desierto-agafay": "agafay-desert-evening-cost",
+    "tour-sahara-3-o-4-dias-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
   },
   de: {
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -163,6 +165,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "erg-chegaga-tour-kosten": "erg-chegaga-tour-cost",
     "ouzoud-wasserfaelle-ausflug-kosten": "ouzoud-waterfalls-day-trip-cost",
     "agafay-wuestenabend-kosten": "agafay-desert-evening-cost",
+    "sahara-tour-3-oder-4-tage-marrakesch": "3-day-vs-4-day-sahara-tour-marrakech",
   },
   it: {
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
@@ -208,6 +211,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prezzo-tour-erg-chegaga": "erg-chegaga-tour-cost",
     "prezzo-escursione-cascate-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "prezzo-serata-deserto-agafay": "agafay-desert-evening-cost",
+    "tour-sahara-3-o-4-giorni-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
   },
 };
 

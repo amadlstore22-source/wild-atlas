@@ -309,7 +309,7 @@ export const TOURS: Tour[] = [
   {
     id: "2",
     slug: "sahara-3day-marrakech",
-    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
+    relatedPosts: ["3-day-sahara-tour-cost-marrakech", "3-day-vs-4-day-sahara-tour-marrakech", "agafay-vs-merzouga-vs-zagora", "what-to-pack-desert-tour-morocco", "sahara-desert-morocco-what-to-expect", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
     title: "Marrakech to Merzouga — 3-Day Desert Tour",
     category: "desert",
     origin: "marrakech",
@@ -2009,7 +2009,7 @@ export const TOURS: Tour[] = [
   {
     id: "25",
     slug: "desert-4day-marrakech",
-    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
+    relatedPosts: ["how-much-does-a-morocco-desert-tour-cost", "3-day-vs-4-day-sahara-tour-marrakech", "ait-benhaddou-guide", "todra-gorge-guide", "dades-valley-gorges-guide", "morocco-desert-camp-what-its-really-like", "morocco-desert-in-winter-guide", "morocco-desert-tour-older-travellers", "morocco-film-locations-tour"],
     title: "Marrakech Desert Grand Tour — 4 Days",
     category: "desert",
     origin: "marrakech",

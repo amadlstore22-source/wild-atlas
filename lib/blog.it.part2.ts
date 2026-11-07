@@ -3507,7 +3507,7 @@ Prenota quello che vuoi davvero.
     faq: [
       { q: "Quanto costa un tour di 3 giorni nel Sahara da Marrakech?", a: "I prezzi vanno da circa 95 € per un minibus condiviso con campo essenziale a 380 € per un 4x4 privato con campo berbero. Il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa 380 € a persona e comprende trasporto privato, il giro in cammello al tramonto, una notte in campo con cena e colazione, una notte in hotel e una guida del deserto." },
       { q: "Perché alcuni tour nel deserto marocchino costano così poco?", a: "Il risparmio viene da quattro fronti: un minibus condiviso da 16 posti invece di un veicolo privato; un campo essenziale con bagni in comune invece che privati; i pranzi esclusi in entrambi i giorni di strada; e un gruppo più numeroso, quindi più soste e meno flessibilità. Nulla di disonesto se dichiarato: chiedi cosa si applica prima di pagare." },
-      { q: "Tre giorni bastano per il Sahara?", a: "È l'itinerario più breve che raggiunge davvero l'Erg Chebbi. Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e tre sono in gran parte giornate di strada, con la notte nel deserto in mezzo. Se vuoi più dune e meno auto, il [tour di 4 giorni](/it/tours/desert-4day-marrakech) aggiunge una notte e un ritmo più disteso." },
+      { q: "Tre giorni bastano per il Sahara?", a: "È l'itinerario più breve che raggiunge davvero l'Erg Chebbi. Merzouga dista circa 560 km da Marrakech, quindi i giorni uno e tre sono in gran parte giornate di strada, con la notte nel deserto in mezzo. Se preferisci passare meno tempo in auto, il [tour di 4 giorni](/it/tours/desert-4day-marrakech) aggiunge una notte a Ouarzazate, così nessun giorno supera le cinque ore circa. Confrontiamo i due in [tour del Sahara: 3 o 4 giorni](/it/blog/tour-sahara-3-o-4-giorni-marrakech)." },
       { q: "Cosa non è incluso in un tour di 3 giorni nel deserto?", a: "Nel nostro viaggio: i pranzi dei giorni 1 e 3, le spese personali e le mance. I pranzi lungo la strada costano in genere 60-120 MAD ciascuno nei ristoranti di sosta. Le mance per l'autista-guida e il personale del campo sono consuetudine, intorno al 150–200 MAD / giorno guida, 70–100 MAD / giorno mulattiere." },
     ],
     content: `
@@ -3541,9 +3541,10 @@ tre sono davvero giornate di strada: non è un difetto dell'itinerario, è geogr
 
 Ciò che varia è come la guida viene spezzata. Il percorso passa da Ait Benhaddou, Ouarzazate,
 le gole del Dades e del Todra e i palmeti del Draa. Un viaggio di corsa li fotografa dal
-finestrino; uno più lento si ferma. Se preferisci più tempo tra le dune e meno strada, il
-[tour di 4 giorni](/it/tours/desert-4day-marrakech) a 526 € aggiunge una notte e un ritmo più
-morbido.
+finestrino; uno più lento si ferma. Se preferisci meno strada al giorno, il
+[tour di 4 giorni](/it/tours/desert-4day-marrakech) a 526 € aggiunge una notte a Ouarzazate e un ritmo più
+morbido; tra le dune resta una sola notte, come nel tour di 3 giorni.
+Li confrontiamo giorno per giorno in [tour del Sahara: 3 o 4 giorni](/it/blog/tour-sahara-3-o-4-giorni-marrakech).
 
 ## Le domande da fare prima di prenotare
 
@@ -8521,6 +8522,141 @@ che trattenga il calore.
 
 **[Serata condivisa ad Agafay](/it/tours/agafay-cena-cammello-spettacolo-fuoco)** ·
 **[Tramonto privato ad Agafay](/it/tours/tramonto-deserto-agafay)**
+`,
+  },
+  {
+    slug: "3-day-vs-4-day-sahara-tour-marrakech",
+    localizedSlug: "tour-sahara-3-o-4-giorni-marrakech",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Tour del Sahara da Marrakech: 3 o 4 giorni?",
+    excerpt:
+      "Entrambi arrivano alle dune dell'Erg Chebbi, entrambi passano una notte nello stesso campo tendato. La differenza è il ritorno: un giorno di circa nove ore, o due giorni più brevi con una notte a Ouarzazate.",
+    heroImage: "/gallery/tours-desert-4day-marrakech.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["tour Sahara 3 giorni", "tour Sahara 4 giorni", "Marrakech Merzouga", "Erg Chebbi", "itinerario deserto Marocco"],
+    seoTitle: "Sahara da Marrakech: 3 o 4 giorni?",
+    seoDescription:
+      "Stesse dune, stessa notte al campo. Il tour di 4 giorni divide le 9 ore di ritorno con una notte a Ouarzazate. Itinerari, ore di guida e prezzi a confronto.",
+    relatedTours: ["sahara-3day-marrakech", "desert-4day-marrakech", "shared-merzouga-3day-marrakech", "family-desert-4day-marrakech"],
+    faq: [
+      { q: "È meglio un tour del Sahara da Marrakech di 3 o di 4 giorni?", a: "Vanno nello stesso posto. Entrambi attraversano il passo del Tizi n'Tichka, si fermano ad Aït Ben Haddou, dormono nel Dades, entrano nelle gole del Todra e passano una notte nello stesso campo dell'Erg Chebbi. Il tour di 3 giorni rientra a Marrakech in un giorno di circa nove ore; quello di 4 giorni divide il viaggio con una notte a Ouarzazate, così nessun giorno supera le cinque ore circa. Scegli 3 giorni se hai poco tempo e una lunga giornata in auto non ti pesa, 4 giorni se ti pesa." },
+      { q: "Con il tour di 4 giorni si passa più tempo nel deserto?", a: "No. Entrambi i tour passano una notte al campo, con l'arrivo in dromedario al tramonto e l'alba sulle dune la mattina dopo. Il giorno in più si passa sulla strada del ritorno, con una notte a Ouarzazate e una seconda sosta, al mattino, ad Aït Ben Haddou." },
+      { q: "Quanto dura il viaggio di ritorno da Merzouga a Marrakech?", a: "Circa 560 km. Nel nostro [tour di 3 giorni](/it/tours/tour-deserto-3-giorni-marrakech) si fa in un giorno di circa nove ore, verso ovest per Alnif e Tazarine, Ouarzazate e di nuovo il Tizi n'Tichka. Il [tour di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech) lo divide in circa cinque ore fino a Ouarzazate e circa quattro il giorno dopo." },
+      { q: "Quanto costa in più il tour di 4 giorni?", a: "In due, 526 € a testa invece di 380 €: 292 € in più per la coppia. La differenza si riduce con il crescere del gruppo, fino a 51 € a persona in quattro e 40 € in sei. Il supplemento copre la notte in hotel a Ouarzazate con cena e colazione e il giorno in più di veicolo e autista-guida." },
+      { q: "Si può fare il Sahara da Marrakech in due giorni?", a: "Merzouga no: è a circa 560 km per ogni tratta, ed è per questo che il viaggio più breve fin lì dura tre giorni. In due giorni il deserto realistico è Zagora, con il nostro [tour condiviso di 2 giorni a Zagora](/it/tours/deserto-zagora-2-giorni-condiviso). Le sue dune sono più piccole; confrontiamo i due in [Merzouga o Zagora](/it/blog/merzouga-vs-zagora-which-desert-tour)." },
+      { q: "Quale è meglio con bambini o viaggiatori anziani?", a: "Quello di quattro giorni. A stancare è il giorno più lungo, non il deserto. Per le famiglie organizziamo un [tour del deserto per famiglie di 4 giorni](/it/tours/tour-deserto-famiglia-4-giorni) sulla stessa strada, con circa cinque ore di guida il primo giorno e circa quattro in ciascuno degli altri tre. Per i viaggiatori più anziani, vedi [il deserto per viaggiatori più anziani](/it/blog/tour-deserto-marocco-anziani)." },
+    ],
+    content: `
+Entrambi i tour vanno alle stesse dune. Il nostro [tour di 3 giorni](/it/tours/tour-deserto-3-giorni-marrakech)
+e il nostro [tour di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech) lasciano Marrakech sulla stessa strada,
+dormono nel Dades la prima notte e passano la seconda nello stesso campo, tra le dune dell'Erg Chebbi
+a Merzouga. Il quarto giorno non aggiunge tempo nel deserto. Divide in due il ritorno.
+
+Tutta la scelta è qui: **un giorno di circa nove ore per tornare a Marrakech, o due giorni più brevi
+con una notte a Ouarzazate.**
+
+## In breve
+
+| | Tour di 3 giorni | Tour di 4 giorni |
+|---|---|---|
+| Notti | 2: hotel o kasbah nel Dades, campo tendato | 3: hotel nel Dades, campo tendato, hotel a Ouarzazate |
+| Notti nel deserto | 1 | 1 |
+| Campo tendato | Sahara Garden, Erg Chebbi | Sahara Garden, Erg Chebbi |
+| Dromedario | Andata al tramonto, ritorno all'alba | Andata al tramonto, ritorno all'alba |
+| Giorno di guida più lungo | Il ritorno: circa 9 ore | Circa 5 ore |
+| Ritorno | Alnif, Tazarine, Ouarzazate, Marrakech in un giorno | Tazarine e N'Kob fino a Ouarzazate, poi Marrakech il giorno dopo |
+| A persona, in due | 380 € | 526 € |
+| A persona, da soli | 690 € | 889 € |
+| Dimensione del gruppo | Da 1 a 12 | Da 1 a 10 |
+| Pranzi | Non inclusi | Non inclusi |
+
+Entrambi sono privati: il vostro veicolo e il vostro autista-guida, dal vostro riad o hotel a
+Marrakech. Al campo, entrambi usano tende con bagno privato, doccia e WC, e aria condizionata.
+
+## Giorno per giorno
+
+| Giorno | Tour di 3 giorni | Tour di 4 giorni |
+|---|---|---|
+| 1 | Marrakech, passo del Tizi n'Tichka, Aït Ben Haddou, Ouarzazate, notte nelle gole del Dades | La stessa strada, con tempo a pranzo per gli Atlas Studios di Ouarzazate; notte nella valle del Dades |
+| 2 | Gole del Todra, Erfoud, Merzouga; dromedario nell'Erg Chebbi al tramonto; notte al campo | Gole del Todra, Merzouga; dromedario nell'Erg Chebbi al tramonto; notte al campo |
+| 3 | Alba sulle dune, poi la lunga strada del ritorno per Alnif, Tazarine e Ouarzazate; Marrakech in serata | Alba sulle dune, poi Tazarine e N'Kob fino a Ouarzazate; notte a Ouarzazate |
+| 4 | | Kasbah di Taourirt se volete, di nuovo Aït Ben Haddou nella luce del mattino, Tizi n'Tichka; Marrakech verso le 17 |
+
+I primi due giorni sono lo stesso viaggio. Il primo attraversa l'Alto Atlante dal passo del
+Tizi n'Tichka, a 2.260 m, e si ferma allo [ksar di Aït Ben Haddou, patrimonio UNESCO](/it/blog/ait-benhaddou-guide).
+Il secondo entra a piedi nelle [gole del Todra](/it/blog/todra-gorge-guide) e arriva a Merzouga nel
+pomeriggio, in tempo per raggiungere il campo al tramonto.
+
+Entrambi i tour rientrano inoltre da una strada diversa da quella dell'andata, per Tazarine, così
+non rifate due volte lo stesso tratto.
+
+## Cosa dà il quarto giorno
+
+- **Un ritorno più breve.** Da Merzouga a Marrakech ci sono circa 560 km. Il tour di 3 giorni li fa
+  in un giorno di circa nove ore. Quello di 4 giorni si ferma a Ouarzazate dopo circa cinque, e fa
+  l'ultimo tratto, circa quattro ore, la mattina dopo.
+- **Una notte a Ouarzazate**, in hotel, con cena e colazione incluse.
+- **Aït Ben Haddou due volte.** Lo vedete il primo giorno e di nuovo l'ultima mattina, quando la
+  luce è sullo ksar.
+- **Tempo per Ouarzazate**: gli Atlas Studios il primo giorno (circa 7 €, non inclusi) e la kasbah
+  di Taourirt l'ultima mattina, entrambi facoltativi.
+
+Quello che non dà è una seconda notte tra le dune: entrambi i tour passano una sola notte al campo.
+
+## Quanto costa il giorno in più
+
+Il prezzo a persona dipende da quanti siete, perché il veicolo e l'autista-guida costano lo stesso
+che portino una persona o sei.
+
+| Viaggiatori | 3 giorni, a persona | 4 giorni, a persona | Differenza a persona |
+|---|---|---|---|
+| 1 | 690 € | 889 € | 199 € |
+| 2 | 380 € | 526 € | 146 € |
+| 3 | 320 € | 399 € | 79 € |
+| 4 | 295 € | 346 € | 51 € |
+| 5 | 260 € | 314 € | 54 € |
+| 6 | 230 € | 270 € | 40 € |
+
+Per una coppia sono 760 € contro 1.052 €: 292 € in più per una notte in più con cena e colazione,
+un giorno in più con il veicolo e l'autista-guida, e un ritorno diviso in due. Da sette persone il
+tour di 4 giorni scende a 252 € a testa, e a 245 € da dieci, il suo gruppo massimo. Il tour di 3
+giorni resta a 230 € a testa da sei a dodici.
+Il dettaglio completo dei costi è in [quanto costa un tour di 3 giorni nel Sahara da Marrakech](/it/blog/prezzo-tour-sahara-3-giorni-marrakech).
+
+## Quale scegliere
+
+**Scegli il tour di 3 giorni se:**
+
+- Hai tre giorni e vuoi comunque il Sahara. È il viaggio più breve che arriva davvero all'Erg Chebbi.
+- Una lunga giornata in auto non ti pesa.
+- Guardi il budget: in due costa 146 € in meno a persona.
+
+**Scegli il tour di 4 giorni se:**
+
+- Sono le nove ore di ritorno a farti esitare.
+- Viaggi con bambini, parenti anziani o qualcuno che sopporta male la strada.
+- Vuoi tempo a Ouarzazate e rivedere Aït Ben Haddou.
+- Hai il volo il giorno dopo il rientro e preferisci non arrivare tardi e stanco.
+
+## Altri modi per farlo
+
+- **Condiviso, 3 giorni:** il nostro [tour condiviso a Merzouga](/it/tours/deserto-merzouga-3-giorni-condiviso)
+  segue lo stesso itinerario del privato di 3 giorni, in minibus con fino a sedici altri viaggiatori
+  e partenza fissa. Costa 120 € a persona da due persone, o 160 € da soli. Confrontiamo i due formati
+  in [tour del deserto privato o condiviso](/it/blog/tour-deserto-privato-o-condiviso).
+- **Con bambini, 4 giorni:** il [tour del deserto per famiglie](/it/tours/tour-deserto-famiglia-4-giorni)
+  fa la stessa strada con circa cinque ore di guida il primo giorno e circa quattro in ciascuno degli
+  altri tre, allo stesso prezzo a persona del tour di 4 giorni a partire da due viaggiatori.
+- **Solo due giorni:** va' piuttosto a Zagora. È la notte nel deserto più vicina a Marrakech, ma le
+  dune sono più piccole; vedi [Merzouga o Zagora](/it/blog/merzouga-vs-zagora-which-desert-tour).
+- **Più lontano e più vuoto:** le dune dell'Erg Chegaga sono tutto un altro deserto. Vedi
+  [Erg Chebbi o Erg Chegaga](/it/blog/erg-chebbi-vs-erg-chegaga).
+
+👉 **[Vedi il tour di 3 giorni](/it/tours/tour-deserto-3-giorni-marrakech)** o **[il tour di 4 giorni](/it/tours/tour-deserto-4-giorni-marrakech)**, e mandaci le tue date: ti rispondiamo con il prezzo per il tuo gruppo.
 `,
   },
 ];

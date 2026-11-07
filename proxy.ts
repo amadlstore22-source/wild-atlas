@@ -54,6 +54,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "erg-chegaga-tour-cost": "prix-circuit-erg-chegaga",
   "ouzoud-waterfalls-day-trip-cost": "prix-excursion-cascades-ouzoud",
   "agafay-desert-evening-cost": "prix-soiree-desert-agafay",
+  "3-day-vs-4-day-sahara-tour-marrakech": "circuit-sahara-3-ou-4-jours-marrakech",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -101,6 +102,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "erg-chegaga-tour-cost": "precio-tour-erg-chegaga",
   "ouzoud-waterfalls-day-trip-cost": "precio-excursion-cascadas-ouzoud",
   "agafay-desert-evening-cost": "precio-noche-desierto-agafay",
+  "3-day-vs-4-day-sahara-tour-marrakech": "tour-sahara-3-o-4-dias-marrakech",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -148,6 +150,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "erg-chegaga-tour-cost": "erg-chegaga-tour-kosten",
   "ouzoud-waterfalls-day-trip-cost": "ouzoud-wasserfaelle-ausflug-kosten",
   "agafay-desert-evening-cost": "agafay-wuestenabend-kosten",
+  "3-day-vs-4-day-sahara-tour-marrakech": "sahara-tour-3-oder-4-tage-marrakesch",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -194,6 +197,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "erg-chegaga-tour-cost": "prezzo-tour-erg-chegaga",
   "ouzoud-waterfalls-day-trip-cost": "prezzo-escursione-cascate-ouzoud",
   "agafay-desert-evening-cost": "prezzo-serata-deserto-agafay",
+  "3-day-vs-4-day-sahara-tour-marrakech": "tour-sahara-3-o-4-giorni-marrakech",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

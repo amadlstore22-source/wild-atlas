@@ -248,6 +248,7 @@ export const TOURS: Tour[] = [
       "Travel insurance (mandatory)",
       "Personal trekking equipment",
       "Tips for guide and porter",
+      "Crampons and ice axe in winter (rental available)",
     ],
     itinerary: [
       {
@@ -3000,6 +3001,7 @@ export const TOURS: Tour[] = [
       "Travel insurance (mandatory)",
       "Personal trekking equipment and sleeping bag",
       "Tips for guide, cook, and muleteers",
+      "Crampons and ice axe in winter (rental available)",
     ],
     itinerary: [
       {
@@ -3186,7 +3188,7 @@ export const TOURS: Tour[] = [
       { q: "Is two days really enough to climb Toubkal?", a: "It is enough to summit, and fit walkers do it regularly. What it does not give you is time to acclimatise — you go from Marrakech to 4,167 metres in around thirty hours. If you have hillwalking experience and a tight schedule it works; for a first time at altitude the 4-day is the safer choice." },
       { q: "What does day one involve?", a: "An early transfer from Marrakech to Imlil, about an hour and a half, then four to five hours walking up the Aït Mizane valley past the Sidi Chamharouch shrine to the Toubkal Refuge at 3,207 metres. Dinner at the refuge and an early night before the summit start." },
       { q: "How hard is the descent?", a: "Longer than people expect. After the summit you come back down to the refuge and continue to Imlil — four to five hours of descent in total, on loose ground, on tired legs. This is where knees complain, and it is worth training for specifically." },
-      { q: "Can I do this trek in winter?", a: "Only with winter equipment and a guide qualified for those conditions. From roughly November to March the upper route is snow-covered and requires crampons, an ice axe and the skills to use them. It becomes a mountaineering trip rather than a walk." },
+      { q: "Can I do this trek in winter?", a: "Only with winter equipment and a guide qualified for those conditions. From roughly November to April the upper route is snow-covered and requires crampons, an ice axe and the skills to use them. It becomes a mountaineering trip rather than a walk." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Toubkal Trek from Marrakech",
@@ -3196,7 +3198,7 @@ export const TOURS: Tour[] = [
   {
     id: "32",
     slug: "toubkal-aguelzim-pass-3day",
-    relatedPosts: ["how-hard-is-toubkal-difficulty-guide", "toubkal-guide-cost", "altitude-sickness-toubkal-guide"],
+    relatedPosts: ["toubkal-2-day-vs-4-day-which-trek", "how-hard-is-toubkal-difficulty-guide", "toubkal-guide-cost", "altitude-sickness-toubkal-guide"],
     title: "Toubkal via Aguelzim Pass from Marrakech — 3-Day Trek",
     category: "trekking",
     origin: "marrakech",
@@ -3251,6 +3253,7 @@ export const TOURS: Tour[] = [
       "Travel insurance (mandatory)",
       "Personal trekking equipment",
       "Tips for guide and porter",
+      "Crampons and ice axe in winter (rental available)",
     ],
     itinerary: [
       {
@@ -3306,7 +3309,7 @@ export const TOURS: Tour[] = [
   {
     id: "33",
     slug: "toubkal-three-peaks-4000m-3day",
-    relatedPosts: ["toubkal-three-peaks-trek-cost", "altitude-sickness-toubkal-guide", "how-hard-is-toubkal-difficulty-guide"],
+    relatedPosts: ["toubkal-2-day-vs-4-day-which-trek", "toubkal-three-peaks-trek-cost", "altitude-sickness-toubkal-guide", "how-hard-is-toubkal-difficulty-guide"],
     title: "Toubkal Three 4,000 m Peaks from Marrakech — 3-Day Challenge",
     category: "trekking",
     origin: "marrakech",
@@ -3581,7 +3584,7 @@ export const TOURS: Tour[] = [
   {
     id: "36",
     slug: "azzaden-valley-2day-trek",
-    relatedPosts: ["high-atlas-village-trek-cost", "gite-panorama-imlil-base-camp-toubkal", "what-to-pack-high-atlas-trek-morocco"],
+    relatedPosts: ["berber-village-guesthouse-atlas-trek", "high-atlas-village-trek-cost", "gite-panorama-imlil-base-camp-toubkal", "what-to-pack-high-atlas-trek-morocco"],
     brief: [
       "The Azzaden is the valley immediately west of the Imlil–Toubkal corridor, and the difference in foot traffic is the whole point. Day one drives 1.5 hours from Marrakech to Imlil, then climbs about 700 m over the Tizi Mzik pass at 2,489 m — with the Toubkal massif opening up behind you — and drops through juniper forest to the village of Tizi Oussem at 1,850 m. Five to six hours walking. Day two crosses the Tizi Oudid and descends to Aguersioual, roughly 12 km and five hours, then the drive back.",
       "It is graded moderate, and that grade does real work here. There is no summit, no scree, and nothing above 2,700 m, so the altitude never becomes the problem it is on Toubkal. What you need is the ability to walk five to six hours on mountain paths two days running. People who hike regularly at home find this comfortable; people who do not find it a genuine but manageable effort.",
@@ -3680,7 +3683,7 @@ export const TOURS: Tour[] = [
   {
     id: "37",
     slug: "atlas-mountains-3day-trek",
-    relatedPosts: ["high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
+    relatedPosts: ["berber-village-guesthouse-atlas-trek", "high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
     brief: [
       "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (4–5 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then cross the Tizi n'Tacheddirt (about 3,170 m) and descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
       "The absence of a summit is the design, not a compromise. The high point is the Tizi n'Tacheddirt pass, about 3,170 m, crossed on day three on the way to the Ourika, but every night is spent in a village well below it, and there is no scree and no pre-dawn push. What is left is steady moderate walking with the time and energy to notice where you are — the terraced fields, the grazing azibs, the shepherds, the change from one valley's character to the next.",
@@ -3788,7 +3791,7 @@ export const TOURS: Tour[] = [
   {
     id: "38",
     slug: "family-atlas-4day-trek",
-    relatedPosts: ["morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco", "atlas-mountains-trek-with-kids"],
+    relatedPosts: ["berber-village-guesthouse-atlas-trek", "morocco-with-kids-family-guide", "what-to-pack-high-atlas-trek-morocco", "atlas-mountains-trek-with-kids"],
     brief: [
       "Trekking with children works when the days are short and there is something to look at, and this itinerary is built to that rule rather than adapted to it afterwards. Day one is a 1.5-hour drive to Imlil and a 2–3 hour walk to the first village. Day two is 4 hours around valley waterfalls. Day three crosses to the Ourika side in 4–5 hours. Day four is a 3-hour descent and the drive back. Half-days, not route marches.",
       "The ground is deliberately easy — lower Imlil and Ourika, river crossings, walnut groves and waterfalls instead of high passes. Mules carry all the luggage, and they can carry a tired child too, which is the detail that turns a difficult afternoon into a non-event. Nobody is carrying a pack and nobody is being hurried.",
@@ -4264,7 +4267,7 @@ export const TOURS: Tour[] = [
       { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },
       { q: "Where do we sleep across the five days?", a: "One night in the Toubkal Refuge (a shared mountain hut at 3,207 m), one night in an Imlil village guesthouse, one night in a Dades Valley hotel, and one night in a Berber desert camp on the Erg Chebbi dunes. A sleeping bag liner is worth bringing for the refuge and camp." },
       { q: "Is this a private tour?", a: "Yes. It runs privately for your party of 2–10, with a licensed mountain guide for the trek and a dedicated driver-guide and vehicle for the desert leg. You are not joined to other groups." },
-      { q: "Can the 5-day combo run in winter?", a: "Yes, but the Toubkal summit becomes a snow climb from roughly November to March, needing crampons and an ice axe (rental available) and a bit more mountain experience. The desert leg runs year-round; winter desert nights are cold, so pack warm layers." },
+      { q: "Can the 5-day combo run in winter?", a: "Yes, but the Toubkal summit becomes a snow climb from roughly November to April, needing crampons and an ice axe (rental available) and a bit more mountain experience. The desert leg runs year-round; winter desert nights are cold, so pack warm layers." },
     ],
     featured: true,
   },
@@ -4864,6 +4867,7 @@ export const TOURS: Tour[] = [
       "Dinner in Marrakech",
       "Travel insurance",
       "Tips for guide, muleteers and camp staff",
+      "Crampons and ice axe in winter (rental available)",
     ],
     itinerary: [
       {
@@ -4950,7 +4954,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "How fit do I need to be for the Toubkal section?", a: "Fit enough for two long consecutive days, the second of which is roughly nine hours with a pre-dawn start. There is no technical climbing, no rope and no scrambling -- it is a long walk at altitude. If you can walk six hours in hill country without dreading the next day, you are ready." },
       { q: "Is this a private trip?", a: "No. This is a set-date departure with 14 seats, so you travel with other people who booked the same date. That is what makes the per-person price flat rather than dependent on your group size. If you would rather have the route to yourselves, ask us and we will quote it privately." },
-      { q: "What is the weather like on these dates?", a: "The departures span March to mid-April, and the mountain changes across that window. March is still winter on Toubkal -- snow on the upper slopes and sub-zero at the summit at dawn, with crampons and an ice axe supplied where conditions require them. By the April dates the snowline has usually retreated and the walking is easier, though the summit can still be below freezing before sunrise. The desert leg is the opposite on every date: warm days and cold, clear nights." },
+      { q: "What is the weather like on these dates?", a: "The departures span March to mid-April, and the mountain changes across that window. March is still winter on Toubkal -- snow on the upper slopes and sub-zero at the summit at dawn, and crampons and an ice axe are needed where conditions require them: they are not included, and you rent them in Imlil. April is still inside the snow season, which runs from November to April, and the summit can be below freezing before sunrise. The desert leg is the opposite on every date: warm days and cold, clear nights." },
       { q: "Why is day 6 such a long drive?", a: "Because Erg Chebbi is the real sand sea, roughly 560 km from Marrakech. Operators who promise a short desert transfer are usually going to the much smaller dunes at Zagora. We think the extra hours buy something worth having." },
       { q: "What does the 14-seat limit actually mean?", a: "The departure closes when 14 seats are sold. We cap it there because the Toubkal refuge and the desert camp both have finite space, and because a guide can only look after so many people on a summit morning." },
     ],

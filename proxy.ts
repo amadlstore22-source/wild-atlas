@@ -55,6 +55,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "ouzoud-waterfalls-day-trip-cost": "prix-excursion-cascades-ouzoud",
   "agafay-desert-evening-cost": "prix-soiree-desert-agafay",
   "3-day-vs-4-day-sahara-tour-marrakech": "circuit-sahara-3-ou-4-jours-marrakech",
+  "berber-village-guesthouse-atlas-trek": "gite-berbere-village-trek-atlas",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -103,6 +104,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "ouzoud-waterfalls-day-trip-cost": "precio-excursion-cascadas-ouzoud",
   "agafay-desert-evening-cost": "precio-noche-desierto-agafay",
   "3-day-vs-4-day-sahara-tour-marrakech": "tour-sahara-3-o-4-dias-marrakech",
+  "berber-village-guesthouse-atlas-trek": "casa-bereber-pueblo-trekking-atlas",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -151,6 +153,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "ouzoud-waterfalls-day-trip-cost": "ouzoud-wasserfaelle-ausflug-kosten",
   "agafay-desert-evening-cost": "agafay-wuestenabend-kosten",
   "3-day-vs-4-day-sahara-tour-marrakech": "sahara-tour-3-oder-4-tage-marrakesch",
+  "berber-village-guesthouse-atlas-trek": "berber-gaestehaus-dorf-atlas-trekking",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -198,6 +201,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "ouzoud-waterfalls-day-trip-cost": "prezzo-escursione-cascate-ouzoud",
   "agafay-desert-evening-cost": "prezzo-serata-deserto-agafay",
   "3-day-vs-4-day-sahara-tour-marrakech": "tour-sahara-3-o-4-giorni-marrakech",
+  "berber-village-guesthouse-atlas-trek": "casa-berbera-villaggio-trekking-atlante",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

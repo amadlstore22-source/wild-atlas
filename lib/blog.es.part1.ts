@@ -138,7 +138,7 @@ Las guías detalladas de abajo cubren cada región con todo detalle.
       { q: "¿Qué forma física hace falta para escalar el Toubkal?", a: "La suficiente para caminar cuesta arriba durante cinco o seis horas en días consecutivos. El Toubkal es una caminata larga y empinada más que una escalada técnica, así que la resistencia para caminar por montaña importa mucho más que la habilidad de escalada. Si puedes aguantar un día entero por terreno ondulado con una mochila pequeña y seguir funcionando a la mañana siguiente, ya tienes la base que necesitas." },
       { q: "¿Cuántos días hacen falta para escalar el Toubkal?", a: "Dos días es el mínimo y te permite subir y bajar desde Marrakech, pero apenas le da a tu cuerpo tiempo para adaptarse a los 4.167 metros. Cuatro días es la versión que recomendamos a la mayoría: la misma cumbre con un día extra de aclimatación, que es el factor individual más importante para llegar arriba sintiéndote realmente bien." },
       { q: "¿Cómo es el refugio del Toubkal?", a: "Es un refugio de montaña en funcionamiento a unos 3.200 metros, no un hotel. Espera habitaciones compartidas tipo dormitorio, literas con colchones y mantas, comidas comunitarias y noches frías. Lleva un saco sábana, una linterna frontal y tapones para los oídos, y considera que acostarte pronto forma parte del plan, ya que las salidas hacia la cumbre son bastante antes del amanecer." },
-      { q: "¿Cuál es la mejor época del año para escalar el Toubkal?", a: "De abril a octubre es la temporada sencilla, con el tiempo más estable de mayo a septiembre. De noviembre a marzo es un auténtico viaje de montañismo invernal: nieve en la parte alta de la ruta, se necesitan crampones y piolet, y las condiciones cambian rápido. Ambas son posibles con un guía, pero son experiencias distintas." },
+      { q: "¿Cuál es la mejor época del año para escalar el Toubkal?", a: "De abril a octubre es la temporada sencilla, con el tiempo más estable de mayo a septiembre. De noviembre a abril es un auténtico viaje de montañismo invernal: nieve en la parte alta de la ruta, se necesitan crampones y piolet, y las condiciones cambian rápido. Ambas son posibles con un guía, pero son experiencias distintas." },
     
       { q: "¿Cuánto cuesta subir al Toubkal?", a: "Con nosotros el [trek de 2 días](/es/tours/toubkal-summit-2day-marrakech) sale desde 254 € por persona siendo dos y 199 € con seis, y el [trek de 4 días](/es/tours/toubkal-summit-trek-4day) desde 468 € siendo dos y 338 € con seis. Ambos incluyen el guía titulado, las noches de refugio, todas las comidas en la montaña, las tasas del parque nacional y el transporte de ida y vuelta desde Marrakech. Organizarlo por tu cuenta sale más barato sobre el papel, pero la diferencia se estrecha rápido cuando pagas por separado guía, refugio, mula y transporte." },
       { q: "¿Puede un principiante subir al Toubkal?", a: "Sí, y la mayoría de quienes hacen cumbre no son alpinistas. En verano la ruta normal no tiene escalada técnica: ni cuerda, ni pasos que exijan las manos más allá de algún resalte rocoso. Lo que sí exige es poder subir de cinco a seis horas al día en jornadas consecutivas y en altura. Si aguantas una caminata larga y con desnivel en casa sin temer al día siguiente, tienes el motor necesario. El invierno es otra montaña y sí requiere crampones, piolet y saber usarlos." },
@@ -1636,7 +1636,7 @@ El Alto Atlas es, geológicamente hablando, todavía joven y sigue elevándose: 
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2025-02-18",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["lista de equipo Alto Atlas", "equipo para el Toubkal", "equipo de trekking en Marruecos", "qué llevar a Marruecos", "equipamiento del Atlas", "equipo para el Toubkal"],
     seoTitle: "Equipo trekking Alto Atlas",
     seoDescription:
@@ -1707,10 +1707,10 @@ El principio clave en el Alto Atlas es que las temperaturas cambian drásticamen
 
 ## Para trekkings de invierno y primavera (noviembre-abril)
 
-Si haces trekking al Toubkal en invierno, el cálculo cambia significativamente. La nieve y el hielo son habituales por encima de los 2.500 m de diciembre a marzo. Necesitarás:
+Si haces trekking al Toubkal en invierno, el cálculo cambia significativamente. La nieve y el hielo son habituales por encima de los 2.500 m de noviembre a abril. Necesitarás:
 
-- **Microcrampones o crampones:** esenciales en el cono cumbrero del Toubkal en invierno. Los proporcionamos en todos los paquetes de invierno.
-- **Piolet:** necesario para la ascensión técnica completa de invierno. Llevamos y gestionamos los piolets para los grupos.
+- **Crampones:** esenciales en el cono cumbrero del Toubkal en invierno. No están incluidos en nuestros treks: alquílalos en Imlil.
+- **Piolet:** necesario en la cumbre en invierno, junto con los crampones. Tampoco está incluido: alquílalo en Imlil con ellos.
 - **Equipo de dormir más cálido:** el refugio tiene calefacción pero hace frío. Un saco sábana ayuda.
 - **Capas base e intermedias más cálidas:** la cumbre en enero puede estar a -20 °C con sensación térmica.
 
@@ -1857,7 +1857,7 @@ Si quieres hablar sobre qué itinerario se ajusta a tu forma física y tus fecha
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal en invierno", "trekking de invierno", "crampones", "piolet", "Alto Atlas", "invierno en Marruecos"],
     seoTitle: "El Toubkal en invierno",
     seoDescription: "Lo que realmente implica escalar el Jbel Toubkal en invierno: cuándo llega la nieve, por qué se necesitan crampones y piolet.",
@@ -1869,7 +1869,7 @@ Si quieres hablar sobre qué itinerario se ajusta a tu forma física y tus fecha
       },
       {
         q: "¿Hacen falta crampones y piolet en el Toubkal en invierno?",
-        a: "Sí. Aproximadamente de noviembre a abril, el cono de la cumbre retiene nieve firme y hielo, y la ruta estándar cruza laderas donde un resbalón sin piolet sería grave. Los crampones y el piolet son obligatorios, no opcionales, y ambos se pueden alquilar en Imlil o vienen incluidos en un paquete guiado.",
+        a: "Sí. Aproximadamente de noviembre a abril, el cono de la cumbre retiene nieve firme y hielo, y la ruta estándar cruza laderas donde un resbalón sin piolet sería grave. Los crampones y el piolet son obligatorios, no opcionales, y no están incluidos en nuestros treks: ambos se alquilan en Imlil.",
       },
       {
         q: "¿Cuándo está el Toubkal cubierto de nieve?",
@@ -1891,6 +1891,19 @@ En mayo, el Jbel Toubkal es una caminata larga por un sendero accidentado. En fe
 
 Esa distinción es todo el sentido de este artículo. Mucha gente reserva el Toubkal invernal tras leer un relato de un viaje de verano, y llega con expectativas de verano. La montaña no da margen.
 
+## Verano e invierno, lado a lado
+
+| | De mayo a octubre | De noviembre a abril |
+|---|---|---|
+| En el cono de la cumbre | Normalmente sin nieve en la ruta principal | Nieve dura y hielo |
+| Crampones y piolet | No hacen falta | Obligatorios. No incluidos en nuestros treks: se alquilan en Imlil |
+| Habilidades | Caminar por terreno irregular y suelto | Caminar con crampones y frenar un resbalón con el piolet (autodetención) |
+| Calzado | Botas de montaña ya domadas | Botas rígidas que admitan crampones |
+| Día de cumbre | De 6 a 8 horas | De 8 a 12 horas: la nieve es lenta |
+| En la cumbre al amanecer | Frío, a menudo en torno a cero | Unos −10 a −15 °C antes de la sensación térmica |
+| Noche en el refugio | Fría | Con calefacción pero frío, el agua se congela: lleva un saco de cuatro estaciones |
+| Para quién | Caminantes en forma, también la primera vez en altura | Montañeros en forma dispuestos a aprender técnicas de invierno |
+
 ## Cuándo llega la nieve
 
 La nieve generalmente cubre el cono de la cumbre de **noviembre a abril**, con las condiciones más fiables en **enero y febrero**. Pero varía más de lo que la gente espera:
@@ -1909,7 +1922,7 @@ Esta es la parte que importa. Por encima del refugio, la ruta asciende una ampli
 Ese único hecho es la razón por la que el piolet no es opcional. El piolet es lo que detiene el deslizamiento.
 
 ### Crampones y piolet
-Ambos son obligatorios en invierno, y ambos se pueden alquilar en Imlil o vienen con un paquete guiado. Si nunca los has usado, eso está bien y es esperado. Lo que no está bien es llegar sin haber aceptado que tendrás que aprender.
+Ambos son obligatorios en invierno. No están incluidos en nuestros treks: se alquilan en Imlil. Si nunca los has usado, eso está bien y es esperado. Lo que no está bien es llegar sin haber aceptado que tendrás que aprender.
 
 Los buenos operadores incorporan una sesión de formación el día antes del intento de cumbre: cómo caminar con crampones sin engancharlos en tus propias polainas, cómo sujetar el piolet en una travesía y cómo autodetenerte. Se necesita una tarde para volverse funcional.
 
@@ -1945,7 +1958,7 @@ La mitigación principal es el ritmo, que es un argumento más a favor de un gu�
 - **Guantes aislantes, más de repuesto.** Los guantes mojados a -15 dejan de ser guantes.
 - **Un termo.** El agua fría resulta poco atractiva y la gente deja de beber; la deshidratación entonces hace el trabajo del que se culpa a la altitud.
 
-Nuestro [trekking de 4 días al Toubkal](/es/tours/toubkal-summit-trek-4day) funciona en invierno con crampones, piolets y la sesión de formación incluida, y la [versión de 2 días](/es/tours/toubkal-summit-2day-marrakech) la comprime para excursionistas de montaña experimentados que no necesitan el día de aclimatación.
+Nuestro [trekking de 4 días al Toubkal](/es/tours/toubkal-summit-trek-4day) funciona también en invierno, y la [versión de 2 días](/es/tours/toubkal-summit-2day-marrakech) la comprime para excursionistas de montaña experimentados que no necesitan el día de aclimatación. En los dos, los crampones y el piolet no están incluidos: se alquilan en Imlil.
 
 ## ¿Merece la pena?
 

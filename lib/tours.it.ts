@@ -51,6 +51,7 @@ export const TOURS: Tour[] = [
       "Assicurazione di viaggio (obbligatoria)",
       "Attrezzatura da trekking personale",
       "Mance per la guida e il portatore",
+      "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
     itinerary: [
       {
@@ -2373,6 +2374,7 @@ export const TOURS: Tour[] = [
       "Assicurazione di viaggio (obbligatoria)",
       "Attrezzatura da trekking personale e sacco a pelo",
       "Mance per la guida, il cuoco e i mulattieri",
+      "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
     itinerary: [
       {
@@ -2536,7 +2538,7 @@ export const TOURS: Tour[] = [
       { q: "Due giorni bastano davvero per scalare il Toubkal?", a: "Bastano per raggiungere la vetta, e i camminatori allenati lo fanno regolarmente. Ciò che non ti dà è il tempo di acclimatarti — passi da Marrakech a 4.167 metri in circa trenta ore. Se hai esperienza di camminate in montagna e poco tempo a disposizione funziona; per una prima volta in quota il 4 giorni è la scelta più sicura." },
       { q: "Cosa comporta il primo giorno?", a: "Un trasferimento mattutino da Marrakech a Imlil, circa un'ora e mezza, poi quattro o cinque ore di cammino lungo la valle dell'Aït Mizane oltre il santuario di Sidi Chamharouch fino al Rifugio Toubkal a 3.207 metri. Cena al rifugio e notte anticipata prima della partenza per la vetta." },
       { q: "Quanto è dura la discesa?", a: "Più lunga di quanto ci si aspetti. Dopo la vetta si torna al rifugio e si prosegue fino a Imlil — quattro o cinque ore di discesa totale, su terreno instabile, con le gambe stanche. È qui che le ginocchia si fanno sentire, e vale la pena allenarsi specificamente per questo." },
-      { q: "Posso fare questo trekking in inverno?", a: "Solo con attrezzatura invernale e una guida qualificata per quelle condizioni. Da circa novembre a marzo il tratto superiore è innevato e richiede ramponi, piccozza e la capacità di usarli. Diventa un'escursione alpinistica più che una camminata." },
+      { q: "Posso fare questo trekking in inverno?", a: "Solo con attrezzatura invernale e una guida qualificata per quelle condizioni. Da circa novembre ad aprile il tratto superiore è innevato e richiede ramponi, piccozza e la capacità di usarli. Diventa un'escursione alpinistica più che una camminata." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking Toubkal 2 Giorni da Marrakech",
@@ -2587,6 +2589,7 @@ export const TOURS: Tour[] = [
       "Assicurazione di viaggio (obbligatoria)",
       "Attrezzatura da trekking personale",
       "Mance per la guida e il portatore",
+      "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
     itinerary: [
       {
@@ -3606,7 +3609,7 @@ export const TOURS: Tour[] = [
       { q: "Perché prima il Toubkal e poi il deserto?", a: "La vetta è la parte fisicamente impegnativa, quindi viene per prima quando sei fresco, e i giorni nel deserto — soprattutto strada con brevi camminate e giri in cammello — diventano un naturale defaticamento successivo. Inoltre permette di risolvere presto la variabile meteo più delicata (la vetta)." },
       { q: "Dove si dorme nei cinque giorni?", a: "Una notte al rifugio del Toubkal (un rifugio di montagna condiviso a 3.207 m), una notte in casa per ospiti nel villaggio di Imlil, una notte in un hotel della valle del Dades e una notte in un campo berbero sulle dune dell'Erg Chebbi. Un sacco lenzuolo è utile per il rifugio e il campo." },
       { q: "È un tour privato?", a: "Sì. Si svolge in privato per il tuo gruppo da 2 a 10 persone, con una guida di montagna abilitata per il trekking e un autista-guida dedicato con veicolo per la parte nel deserto. Non vieni accorpato ad altri gruppi." },
-      { q: "La combinazione di 5 giorni si può fare in inverno?", a: "Sì, ma la salita al Toubkal diventa un'ascensione sulla neve da circa novembre a marzo, che richiede ramponi e piccozza (noleggio disponibile) e un po' più di esperienza in montagna. La parte nel deserto è fattibile tutto l'anno; le notti invernali nel deserto sono fredde, quindi porta strati caldi." },
+      { q: "La combinazione di 5 giorni si può fare in inverno?", a: "Sì, ma la salita al Toubkal diventa un'ascensione sulla neve da circa novembre ad aprile, che richiede ramponi e piccozza (noleggio disponibile) e un po' più di esperienza in montagna. La parte nel deserto è fattibile tutto l'anno; le notti invernali nel deserto sono fredde, quindi porta strati caldi." },
     ],
     featured: true,
   },
@@ -4058,7 +4061,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Che forma fisica serve per la parte del Toubkal?", a: "Quella che basta per due giornate lunghe consecutive, la seconda di circa nove ore con partenza prima dell'alba. Non c'è arrampicata tecnica, non c'è corda e non ci sono passaggi da scalare: è una lunga camminata in quota. Se riesci a camminare sei ore in media montagna senza temere il giorno dopo, sei pronto." },
       { q: "È un tour privato?", a: "No. È una partenza a data fissa con 14 posti, quindi viaggi con altre persone che hanno prenotato la stessa data. È questo che rende il prezzo a persona fisso invece che legato alla dimensione del tuo gruppo. Se preferisci avere l'itinerario tutto per voi, chiedici un preventivo privato." },
-      { q: "Che tempo fa in queste date?", a: "Le partenze vanno da marzo a metà aprile, e la montagna cambia parecchio in questo arco. A marzo il Toubkal è ancora una montagna invernale: neve sui pendii alti e temperature sotto zero in vetta all'alba, con ramponi e piccozza forniti quando le condizioni lo richiedono. Nelle date di aprile il limite delle nevi si è di solito ritirato e il cammino è più facile, anche se la vetta può restare sotto zero prima del sorgere del sole. Il deserto è l'opposto in tutte le date: giornate calde e notti fredde e limpide." },
+      { q: "Che tempo fa in queste date?", a: "Le partenze vanno da marzo a metà aprile, e la montagna cambia parecchio in questo arco. A marzo il Toubkal è ancora una montagna invernale: neve sui pendii alti e temperature sotto zero in vetta all'alba, e servono ramponi e piccozza quando le condizioni lo richiedono: non sono inclusi e si noleggiano a Imlil. Anche aprile rientra nella stagione della neve, che va da novembre ad aprile, e la vetta può restare sotto zero prima del sorgere del sole. Il deserto è l'opposto in tutte le date: giornate calde e notti fredde e limpide." },
       { q: "Perché il giorno 6 è un trasferimento così lungo?", a: "Perché l'Erg Chebbi è il vero mare di sabbia, a circa 560 km da Marrakech. Gli operatori che promettono un trasferimento breve verso il deserto di solito vanno alle dune molto più piccole di Zagora. Riteniamo che quelle ore in più comprino qualcosa che vale la pena avere." },
       { q: "Che cosa significa concretamente il limite di 14 posti?", a: "La partenza chiude quando i 14 posti sono venduti. Mettiamo quel tetto perché il rifugio del Toubkal e il campo nel deserto hanno entrambi spazio limitato, e perché una guida può seguire solo un certo numero di persone la mattina della vetta." },
     ],
@@ -4106,6 +4109,7 @@ export const TOURS: Tour[] = [
       "Cena a Marrakech",
       "Assicurazione di viaggio",
       "Mance per guida, mulattieri e personale del campo",
+      "Ramponi e piccozza in inverno (noleggio disponibile)",
     ],
     itinerary: [
       {

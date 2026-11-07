@@ -266,7 +266,7 @@ Wenn Sie uns Ihre Daten nennen und was Ihnen wirklich wichtig ist, skizzieren wi
       { q: "Was ist der beste Monat, um den Toubkal zu besteigen?", a: "Mai, Juni, September und Anfang Oktober bieten die stabilsten Bedingungen ohne Winterausrüstung. Der Herbst hat bei der Sicht die Nase vorn, da sich der sommerliche Dunst gelegt hat und man vom Gipfel aus weit über den Hohen Atlas blicken kann." },
       { q: "Liegt im Sommer Schnee auf dem Toubkal?", a: "Auf der Hauptroute im Hochsommer selten, wenngleich Reste in Rinnen und Schattenlagen bis in den Frühsommer liegen bleiben können. Von etwa November bis April sollte man Schnee auf dem oberen Berg eher voraussetzen als hoffen, dass er ausbleibt." },
       { q: "Wie kalt wird es nachts am Toubkal?", a: "Die Hütte liegt bei rund 3.200 Metern und ist nach Einbruch der Dunkelheit das ganze Jahr über kalt, auch im Sommer. Im tiefen Winter fallen die Gipfeltemperaturen deutlich unter den Gefrierpunkt, und der Windchill auf dem exponierten Grat senkt sie noch weiter. Der Gipfelaufstieg beginnt vor Sonnenaufgang, der kältesten Tageszeit." },
-      { q: "Kann man den Toubkal im Winter ohne Spezialausrüstung besteigen?", a: "Nein. Von etwa November bis März ist die obere Route eine Schneetour, die Steigeisen, einen Eispickel, für Steigeisen taugliche Stiefel und das Wissen zu deren Einsatz erfordert. Fitte Anfänger schaffen es, aber nur an der Seite eines für Winterbedingungen qualifizierten Guides." },
+      { q: "Kann man den Toubkal im Winter ohne Spezialausrüstung besteigen?", a: "Nein. Von etwa November bis April ist die obere Route eine Schneetour, die Steigeisen, einen Eispickel, für Steigeisen taugliche Stiefel und das Wissen zu deren Einsatz erfordert. Fitte Anfänger schaffen es, aber nur an der Seite eines für Winterbedingungen qualifizierten Guides." },
     
       { q: "Sind April, Mai, September oder Oktober gute Toubkal-Monate?", a: "Das sind die vier besten Monate des Jahres. April und Mai erwischen den zurückweichenden Schnee und die Täler im satten Grün, wobei der Gipfelkegel im April und gelegentlich im Mai noch Schnee halten kann — fragen Sie also lieber nach, statt Steigeisen für überflüssig zu halten. September und Oktober liefern das verlässlichste Wetter überhaupt: stabile Verhältnisse, angenehme Gehtemperaturen und ein Gipfel, der meist blanker Fels ist. Auf diese Monate entfallen die meisten unserer Toubkal-Abfahrten." },
     ],
@@ -312,7 +312,7 @@ Der Hochsommer funktioniert auch, aber das Problem verschiebt sich: Der Gipfel i
 
 ## Winter: nicht tabu, nur anders
 
-Von etwa November bis März wird der Toubkal zu einem Winterberg. Schnee bedeckt die obere Route, der Boden unter den Füßen wird hart, und die Konsequenzen eines Ausrutschers ändern sich vollständig.
+Von etwa November bis April wird der Toubkal zu einem Winterberg. Schnee bedeckt die obere Route, der Boden unter den Füßen wird hart, und die Konsequenzen eines Ausrutschers ändern sich vollständig.
 
 Das schließt ihn nicht aus. Es bedeutet aber Steigeisen, einen Eispickel und jemanden an Ihrer Seite, der Lawinen- und Schneebedingungen lesen kann. Die Einzelheiten behandeln wir in [Den Toubkal im Winter besteigen](/de/blog/toubkal-in-winter-what-to-expect) – kurz gesagt: Fitte Anfänger erreichen den Gipfel auch im Winter, aber nur mit der richtigen Ausrüstung und einem für diese Bedingungen qualifizierten Guide.
 
@@ -418,7 +418,7 @@ Die vierteilige Variante geht schrittweiser hinein und beinhaltet Zeit zur Akkli
 
 ## Der Winter ist ein anderer Berg
 
-Alles oben Beschriebene bezieht sich auf den Sommer. Von etwa November bis März bedeckt Schnee die obere Route, und der Toubkal hört auf, eine Wanderung zu sein. Steigeisen, ein Eispickel und das Wissen zu deren Einsatz werden verpflichtend, und die Konsequenzen eines Ausrutschers ändern sich vollständig.
+Alles oben Beschriebene bezieht sich auf den Sommer. Von etwa November bis April bedeckt Schnee die obere Route, und der Toubkal hört auf, eine Wanderung zu sein. Steigeisen, ein Eispickel und das Wissen zu deren Einsatz werden verpflichtend, und die Konsequenzen eines Ausrutschers ändern sich vollständig.
 
 Fitte Anfänger erreichen den Gipfel auch im Winter, aber nur mit einem für Winterbedingungen qualifizierten Guide. Siehe [Den Toubkal im Winter besteigen](/de/blog/toubkal-in-winter-what-to-expect).
 
@@ -451,23 +451,24 @@ Genau dafür ist unser [4-tägiger Toubkal-Gipfeltrek](/de/tours/toubkal-gipfel-
   {
     slug: "toubkal-2-day-vs-4-day-which-trek",
     author: MET_TEAM,
-    title: "Toubkal in 2 oder 4 Tagen: Welchen Trek sollten Sie buchen?",
+    title: "Toubkal in 2, 3 oder 4 Tagen: Welchen Trek sollten Sie buchen?",
     excerpt: "Beide Routen erreichen denselben 4.167-Meter-Gipfel. Der Unterschied ist, wie viel Zeit Ihr Körper zur Anpassung bekommt – und das verändert Ihre Chancen mehr als die Fitness.",
     heroImage: "/gallery/toubkal-trekkers-below-summit.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-10-31",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal Route", "2 Tage Toubkal", "4 Tage Toubkal", "wie viele Tage Toubkal", "Hoher Atlas"],
-    seoTitle: "Toubkal in 2 oder 4 Tagen",
-    seoDescription: "Ein direkter Vergleich der 2-Tages- und 4-Tages-Toubkal-Treks – Akklimatisierung, Länge des Gipfeltags, für wen sich welche Route eignet.",
-    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-circuit-ifni-lake-6day"],
+    seoTitle: "Toubkal in 2, 3 oder 4 Tagen",
+    seoDescription: "Die Toubkal-Treks mit 2, 3 und 4 Tagen im Vergleich: Nächte vor dem Gipfel, Abstieg am Gipfeltag, für wen sie passen und der Preis zu zweit.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-aguelzim-pass-3day", "toubkal-circuit-ifni-lake-6day"],
     faq: [
       { q: "Wie viele Tage braucht man, um den Toubkal zu besteigen?", a: "Zwei Tage sind das praktische Minimum ab Marrakech und funktionieren durchaus für fitte Wanderer. Vier Tage empfehlen wir den meisten Menschen, weil die zusätzliche Zeit für Akklimatisierung statt für mehr Strecke genutzt wird, und genau das beeinflusst am stärksten, ob man den Gipfel gut erreicht." },
       { q: "Reicht der 2-Tages-Toubkal-Trek?", a: "Er reicht, um den Gipfel zu erreichen, und viele Leute machen das. Was er nicht bietet, ist Zeit zur Höhenanpassung – man geht von Stadthöhe auf 4.167 m in rund dreißig Stunden. Mit Bergwandererfahrung und knappem Zeitplan ist es eine vernünftige Wahl; bei der ersten Höhenerfahrung ist die längere Reise die sicherere Option." },
       { q: "Was macht man mit den zusätzlichen Tagen beim 4-Tages-Trek tatsächlich?", a: "Man geht in gemächlicherem Tempo hinein und verbringt Zeit auf mittlerer Höhe vor dem Gipfelaufstieg, statt mehr Strecke zurückzulegen. Das ist der ganze Sinn: Die zusätzlichen Tage sind Akklimatisierung und Erholung, wodurch aus einem erkämpften Gipfeltag ein genossener wird." },
       { q: "Welche Toubkal-Route eignet sich am besten für Anfänger?", a: "Die vierteilige. Anfänger profitieren am meisten von der zusätzlichen Akklimatisierung, und der langsamere Aufbau lässt den Gipfeltag wie eine Herausforderung statt eine Tortur wirken. Die zweitägige eignet sich für Menschen, die bereits wissen, wie ihr Körper auf Höhe und mehrstündige Aufstiege reagiert." },
+      { q: "Reichen drei Tage für den Toubkal?", a: "Ja. Unsere beiden Drei-Tages-Routen erreichen den Gipfel am dritten Tag, nach zwei Nächten in den Bergen: Die [Route über den Aguelzim-Pass](/de/tours/toubkal-aguelzim-pass-3-tage) verbringt die erste Nacht im Azzaden-Tal und die zweite in der Hütte, die [Drei-Gipfel-Tour](/de/tours/toubkal-drei-gipfel-4000m-3-tage), Schwierigkeitsgrad Experte, beide in der Hütte. Wie beim 2-Tages-Trek steigen beide am Gipfeltag bis Imlil ab, rund 2.430 m Abstieg. Nur der 4-Tages-Trek kehrt nach dem Gipfel zur Hütte zurück und steigt am nächsten Morgen ab." },
     ],
     content: `
 Beide Reisen enden auf demselben Gipfel. Beide nutzen dieselbe Route durch das Aït-Mizane-Tal zur Hütte und denselben Aufstieg durch den Südkessel bei Morgengrauen. Die Frage ist nicht, welche besser ist – sondern welche besser *für Sie* ist.
@@ -514,6 +515,28 @@ Das bedeutet nicht, dass die Zwei-Tages-Reise für einen fitten, erfahrenen Berg
 **Nehmen Sie die vierteilige, wenn:** dies Ihre erste Erfahrung nahe 4.000 Metern ist, Sie den Gipfel lieber genießen als durchstehen möchten, oder Sie einfach die Tage haben. Für die meisten, die diese Frage stellen, ist das die Antwort.
 
 Ehrlich formuliert: Die zweitägige ist eine gute Reise, die mehr von Ihnen verlangt. Die vierteilige ist dieselbe Reise mit reduziertem Hauptrisikofaktor.
+
+## Und in drei Tagen?
+
+Wir führen zwei Drei-Tages-Routen zum Gipfel, und jede liegt auf andere Weise zwischen dem 2- und dem 4-Tages-Trek.
+
+- **[Über den Aguelzim-Pass](/de/tours/toubkal-aguelzim-pass-3-tage).** Am ersten Tag geht es ins Azzaden-Tal bis Azib Tamsoult. Am zweiten über den Aguelzim-Pass auf 3.560 m zur Hütte. Der dritte ist der Gipfeltag. Sie haben vor dem Gipfel zwei Nächte in den Bergen statt einer, auf einem ruhigeren Zustieg als durch das Haupttal. Übernachtet wird in der Hütte oder im Zelt, je nach Wetter und Ihren Wünschen.
+- **[Die Drei-Gipfel-Tour](/de/tours/toubkal-drei-gipfel-4000m-3-tage).** Am zweiten Tag besteigen Sie die beiden Gipfel des Ouanoukrim, Timesguida (4.089 m) und Ras (4.083 m), und kehren zur Hütte zurück. Am dritten Tag folgt der Toubkal. Sie ist als Experte eingestuft: eine Reise für Menschen, die schon wissen, wie sie Höhe vertragen, kein sanfterer Weg nach oben für Neulinge.
+
+| | 2 Tage | 3 Tage, Aguelzim-Pass | 3 Tage, drei Gipfel | 4 Tage |
+|---|---|---|---|---|
+| Nächte vor dem Gipfel | 1: Hütte (3.207 m) | 2: Azzaden-Tal, dann Hütte | 2: Hütte | 2: Imlil (1.740 m), dann Hütte |
+| Gipfeltag | Tag 2 | Tag 3 | Tag 3 | Tag 3 |
+| Gehzeit am Gipfeltag | 7–8 Std. | 7 Std. | 6 Std. | 6–7 Std. |
+| Auf- und Abstieg am Gipfeltag | +960 m / −2.430 m | +960 m / −2.430 m | +960 m / −2.430 m | +960 m / −960 m |
+| Nach dem Gipfel | Am selben Tag hinunter nach Imlil und Marrakesch | Ebenso | Ebenso | Zurück zur Hütte; Abstieg an Tag 4 |
+| Maultier für das Gruppengepäck | Nein | Ja | Ja | Ja |
+| Schwierigkeit | Anspruchsvoll | Anspruchsvoll | Experte | Anspruchsvoll |
+| Preis pro Person, zu zweit | 254 € | 393 € | 393 € | 468 € |
+
+Was den 4-Tages-Trek von allen anderen unterscheidet, ist der Abstieg. Beim 2-Tages-Trek und bei beiden 3-Tages-Routen starten Sie vor der Morgendämmerung, stehen auf dem Gipfel und steigen dann am selben Tag rund 2.430 m nach Imlil ab. Beim 4-Tages-Trek steigen Sie 960 m zur Hütte ab, übernachten dort und gehen den Rest am nächsten Morgen.
+
+Wenn Sie vor dem Gipfel mehr Zeit in der Höhe möchten, aber keine vier Tage haben, ist die Route über den Aguelzim-Pass die richtige Drei-Tages-Wahl.
 
 ## Wenn Sie noch mehr Zeit haben
 
@@ -854,6 +877,8 @@ Jeder Trek ist privat, nur für Ihre Gruppe, mit einem lizenzierten Bergführer,
 ## Wer mit Ihnen geht, und wo Sie schlafen
 
 Ihr Guide ist ein lizenzierter Bergführer, und Maultiere tragen das Gepäck, sodass Sie nur mit Tagesrucksack gehen. Abseits der Gipfelrouten übernachten Sie in Dorfgästehäusern, die von Berberfamilien geführt werden: Das Abendessen kocht die Familie, und jedes Zimmer hat ein eigenes Bad. Die Toubkal-Hütte ist anders, eine geteilte Berghütte mit Schlafsälen auf 3.207 m, oberhalb des letzten Dorfes. Auf den längeren Treks übernachten Sie teils in Camps, die das Maultierteam trägt und aufbaut.
+
+Wie diese Dorfnächte sind und welche unserer Treks sie haben, steht in [Übernachten in Berber-Gästehäusern im Dorf](/de/blog/berber-gaestehaus-dorf-atlas-trekking).
 
 ## Was diese Treks gemeinsam haben
 
@@ -1931,7 +1956,7 @@ Alle Drehorte in der Reihenfolge der Route, einschließlich The Odyssey (2026) u
       { q: "Kann man den Toubkal wirklich in 2 Tagen besteigen?", a: "Ja. Die klassische 2-Tage-Route fährt von Marrakesch nach Imlil, wandert am ersten Tag zur Toubkal-Hütte (3.207 m) hinauf und erreicht am zweiten Tag vor der Morgendämmerung den Gipfel des Jbel Toubkal (4.167 m), bevor es am selben Abend zurück nach Marrakesch geht. Es ist der schnellste realistische Weg zum Gipfel und genau darauf ist unsere [2-Tage-Toubkal-Besteigung](/de/tours/toubkal-summit-2day-marrakech) ausgelegt. Der Kompromiss: Es gibt keinen zusätzlichen Akklimatisierungstag." },
       { q: "Reichen 2 Tage zur Akklimatisierung am Toubkal?", a: "Für die meisten fitten Wanderer vom Meeresspiegel ja, aber es ist knapper als die 4-Tage-Variante. Die eine Nacht auf der Hütte (3.207 m) leistet den Großteil der Akklimatisierung. Wenn Sie noch nie in der Nähe von 4.000 m waren oder wissen, dass Sie schlecht auf Höhe reagieren, plant der [4-Tage-Trek](/de/tours/toubkal-summit-trek-4day) mehr Zeit ein und ist die sicherere Wahl." },
       { q: "Wie schwer ist die 2-Tage-Toubkal-Besteigung?", a: "Sie gilt als anspruchsvoll, nicht als technisch. Im Sommer ist keine Kletterausrüstung nötig, aber der Gipfeltag ist ein langer Aufstieg vor Sonnenaufgang über steiles Geröll (oder Schnee im Winter) in der Höhe, und der komprimierte Zeitplan reiht zwei große Tage aneinander. Sie sollten ein fitter, regelmäßiger Wanderer sein – das ist nicht der erste Berg eines Anfängers." },
-      { q: "Wann ist die beste Zeit für den Gipfel in 2 Tagen?", a: "April bis Oktober für die nicht-technische Sommerroute. Von etwa November bis März wird der Gipfel zu einer Schneetour mit Steigeisen und Eispickel, was die Schwierigkeit erheblich verändert – machbar, aber ein Winterunternehmen und kein schneller Sommerausflug. Siehe unseren Leitfaden [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect)." },
+      { q: "Wann ist die beste Zeit für den Gipfel in 2 Tagen?", a: "April bis Oktober für die nicht-technische Sommerroute. Von etwa November bis April wird der Gipfel zu einer Schneetour mit Steigeisen und Eispickel, was die Schwierigkeit erheblich verändert – machbar, aber ein Winterunternehmen und kein schneller Sommerausflug. Siehe unseren Leitfaden [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect)." },
     ],
     content: `
 ## Zwei Tage auf das Dach Nordafrikas
@@ -2844,7 +2869,7 @@ dasselbe.
 
 ## Saison und Gruppengröße
 
-**Der Winter kostet mehr.** Etwa von November bis März wird der Gipfel zur Schneetour mit
+**Der Winter kostet mehr.** Etwa von November bis April wird der Gipfel zur Schneetour mit
 Steigeisen und Eispickel, und Führer berechnen für Winterbedingungen mehr, weil die
 Verantwortung größer ist. Leihgebühren kommen obendrauf. Siehe
 [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect).
@@ -2916,7 +2941,7 @@ Marrakesch verlassen.
     faq: [
       { q: "Was kostet ein 2-Tages-Trek zum Toubkal?", a: "In Eigenregie geben zwei Personen typischerweise 2.200–3.300 MAD insgesamt aus (etwa 205–310 € für beide), wenn Führer, zwei Hüttenbetten mit Halbpension, Parkgebühr und Transfer ab Marrakesch zusammengerechnet werden. Unsere [2-Tages-Toubkal-Besteigung](/de/tours/toubkal-summit-2day-marrakech) kostet 254 € pro Person mit allem inklusive." },
       { q: "Ist der 2-Tages-Trek günstiger als der 4-Tages-Trek?", a: "Ja, aber weniger, als die Tagesanzahl vermuten lässt. Der 2-Tages-Trek kostet ab 254 € pro Person, der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) 468 € — nicht das Doppelte, weil Führerhonorar und Transfer ab Marrakesch pro Tour und nicht pro Tag berechnet werden. Die zwei zusätzlichen Tage kaufen vor allem Akklimatisierung, den entscheidenden Faktor für den Gipfelerfolg." },
-      { q: "Was ist in einem 2-Tages-Toubkal-Paket nicht enthalten?", a: "Reiseversicherung (obligatorisch und an einem 4.167-m-Berg dringend zu empfehlen), persönliche Trekkingausrüstung, Trinkgeld für den Führer sowie Steigeisen und Eispickel zwischen November und März. Rechnen Sie mit etwa 100–150 MAD pro Tag für Winterausrüstung in Imlil und rund 300–400 MAD Trinkgeld von der Gruppe." },
+      { q: "Was ist in einem 2-Tages-Toubkal-Paket nicht enthalten?", a: "Reiseversicherung (obligatorisch und an einem 4.167-m-Berg dringend zu empfehlen), persönliche Trekkingausrüstung, Trinkgeld für den Führer sowie Steigeisen und Eispickel zwischen November und April. Rechnen Sie mit etwa 100–150 MAD pro Tag für Winterausrüstung in Imlil und rund 300–400 MAD Trinkgeld von der Gruppe." },
       { q: "Kann man den Toubkal in 2 Tagen ohne Führer besteigen?", a: "Nein. Ein lizenzierter Bergführer ist am Toubkal vorgeschrieben, und eine Kontrollstelle in Imlil setzt das durch. Siehe [Braucht man einen Führer für den Toubkal?](/de/blog/do-you-need-a-guide-to-climb-toubkal) für Regel und Begründung." },
     ],
     content: `
@@ -2990,7 +3015,7 @@ Separat einzuplanen:
 
 - **Reiseversicherung** — bei unseren Touren obligatorisch und an jedem 4.167-m-Berg sinnvoll. Prüfen Sie, ob Trekking in Höhe abgedeckt ist.
 - **Persönliche Ausrüstung** — Schuhe, Schichten, warme Jacke. Siehe [Packliste für einen Trek im Hohen Atlas](/de/blog/what-to-pack-high-atlas-trek-morocco).
-- **Winterausrüstung** — Steigeisen und Eispickel von November bis März, 100–150 MAD/Tag in Imlil.
+- **Winterausrüstung** — Steigeisen und Eispickel von November bis April, 100–150 MAD/Tag in Imlil.
 - **Trinkgeld** — 150–200 MAD pro Tag für den Bergführer, von der Gruppe, bar in Dirham.
 
 ## Wohin das Geld fließt
@@ -3037,7 +3062,7 @@ verbringen wollen.
       { q: "Was kostet ein 4-Tages-Trek zum Toubkal?", a: "In Eigenregie geben zwei Personen typischerweise 4.200–6.000 MAD insgesamt aus (etwa 390–560 € für beide) für vier Tage Führerhonorar, drei Hüttennächte mit Halbpension, das Maultier, Parkgebühren und den Transfer ab Marrakesch. Unser [4-Tages-Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) kostet 468 € pro Person mit allem inklusive." },
       { q: "Warum kostet der 4-Tages-Trek nicht das Doppelte des 2-Tages-Treks?", a: "Weil die größten Kosten pro Tour und nicht pro Tag berechnet werden. Der Transfer ab Marrakesch und ein Teil der Führerbindung sind gleich, ob Sie zwei oder vier Tage gehen. Nur der Tagessatz des Führers, die Hüttennächte, die Mahlzeiten und das Maultier des 4-Tages-Treks skalieren mit der Dauer — deshalb werden aus 254 € 468 € und nicht 508 €." },
       { q: "Lohnt sich der Aufpreis für den 4-Tages-Trek?", a: "Für die meisten ja. Die Höhe ist der häufigste Grund für einen gescheiterten Toubkal-Versuch, und die 4-Tages-Route steigt allmählich an und lässt Zeit zur Akklimatisierung vor dem Gipfelgang. Die 2-Tages-Route geht in rund dreißig Stunden von 450 m auf 4.167 m. Die zusätzlichen 214 € kaufen eine deutlich höhere Gipfelchance." },
-      { q: "Welche Zusatzkosten sollte man für einen 4-Tages-Trek einplanen?", a: "Eine Reiseversicherung, die Trekking in Höhe abdeckt, persönliche Ausrüstung und 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber Trinkgeld, aufgeteilt zwischen Führer und Maultiertreiber. Von November bis März kommen Steigeisen und Eispickel für etwa 100–150 MAD pro Tag dazu. Alles andere — Hütten, alle Mahlzeiten, Maultier, Parkgebühren und Transfers — ist in unserem Paket enthalten." },
+      { q: "Welche Zusatzkosten sollte man für einen 4-Tages-Trek einplanen?", a: "Eine Reiseversicherung, die Trekking in Höhe abdeckt, persönliche Ausrüstung und 150–200 MAD / Tag Bergführer, 70–100 MAD / Tag Maultiertreiber Trinkgeld, aufgeteilt zwischen Führer und Maultiertreiber. Von November bis April kommen Steigeisen und Eispickel für etwa 100–150 MAD pro Tag dazu. Alles andere — Hütten, alle Mahlzeiten, Maultier, Parkgebühren und Transfers — ist in unserem Paket enthalten." },
     ],
     content: `
 ## Die kurze Antwort
@@ -3104,7 +3129,7 @@ weit mehr.
 
 - **Reiseversicherung** — bei unseren Touren obligatorisch. Prüfen Sie, ob Trekking über 4.000 m abgedeckt ist.
 - **Persönliche Ausrüstung** — siehe [Packliste für einen Trek im Hohen Atlas](/de/blog/what-to-pack-high-atlas-trek-morocco).
-- **Winterausrüstung** — Steigeisen und Eispickel, 100–150 MAD/Tag in Imlil, November bis März. Siehe [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect).
+- **Winterausrüstung** — Steigeisen und Eispickel, 100–150 MAD/Tag in Imlil, November bis April. Siehe [Toubkal im Winter](/de/blog/toubkal-in-winter-what-to-expect).
 - **Trinkgeld** — 150–200 MAD pro Tag für den Bergführer und 70–100 MAD für den Maultiertreiber, von der Gruppe, zwischen Führer und Maultiertreiber, in Dirham.
 
 ## Weiter als bis zum Gipfel
@@ -3821,7 +3846,7 @@ hält sie im Land.
     faq: [
       { q: "Was kostet der Toubkal-Drei-Gipfel-Trek?", a: "Unser [3-Tages-Trek zu den drei Gipfeln](/de/tours/toubkal-three-peaks-4000m-3day) kostet 393 € pro Person, inklusive Höhenbergführer, beider Hüttennächte, aller Mahlzeiten, des Maultierträgers, der Parkgebühren und des Transfers ab Marrakesch. Dieselbe Route eigenständig zu organisieren kommt auf rund 3.200–4.600 MAD für zwei Personen, wenn man jeden Posten addiert." },
       { q: "Warum kostet er mehr als ein normaler Toubkal-Trek?", a: "Nicht wegen des zusätzlichen Tages. Der Unterschied ist der Bergführer: Timesguida und Ras Ouanoukrim sind als Experten-Route eingestuft und erfordern einen höhenqualifizierten Führer, dessen Tagessatz am oberen Ende der Spanne von 500–800 MAD liegt statt in der Mitte. Die zweite Hüttennacht und die zusätzlichen Mahlzeiten machen den Rest aus." },
-      { q: "Brauche ich alpintechnische Kenntnisse?", a: "Im Sommer nicht — es ist anspruchsvolles Gehen über Geröll und Fels, kein Klettern. Von November bis März brauchen alle drei Gipfel Steigeisen und Pickel sowie die Fähigkeit, damit umzugehen. Das ist der größte Unterschied zur normalen Toubkal-Route." },
+      { q: "Brauche ich alpintechnische Kenntnisse?", a: "Im Sommer nicht — es ist anspruchsvolles Gehen über Geröll und Fels, kein Klettern. Von November bis April brauchen alle drei Gipfel Steigeisen und Pickel sowie die Fähigkeit, damit umzugehen. Das ist der größte Unterschied zur normalen Toubkal-Route." },
       { q: "Sind drei Gipfel in drei Tagen realistisch?", a: "Es ist wirklich fordernd. Sie schlafen zwei Nächte auf 3.207 m und gehen an beiden vollen Tagen auf einen Gipfel, ohne Akklimatisationspuffer. Wer nicht kürzlich über 3.000 m war, sollte zuerst den [4-Tages-Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) erwägen, dessen zusätzlicher Tag genau der Akklimatisation dient." },
     ],
     content: `
@@ -3861,7 +3886,7 @@ zusätzlichen Hüttennacht.
 
 ## Der Winter verändert die Zahl
 
-Von November bis März liegen auf allen drei Gipfeln Schnee, und Steigeisen und Pickel
+Von November bis April liegen auf allen drei Gipfeln Schnee, und Steigeisen und Pickel
 sind nicht mehr optional. Der Verleih in Imlil kostet **100–150 MAD pro Person und
 Tag**, eine dreitägige Wintertour also rund 300–450 MAD zusätzlich pro Person. Planen
 Sie das ein, statt es am Ausgangspunkt zu entdecken.
@@ -4097,7 +4122,7 @@ halben Aufwand ab.
       { q: "Was kostet die 5-Tages-Tour Toubkal und Sahara?", a: "Unsere [5-tägige Berg-und-Wüste-Tour](/de/tours/toubkal-summit-sahara-5day) kostet 773 € pro Person bei zwei Reisenden. Darin enthalten sind der lizenzierte Bergführer für den Toubkal-Trek, ein privater Fahrer-Guide für die Wüstenetappe, alle vier Nächte, der Maultierträger, die Kamelritte am Erg Chebbi, die Parkgebühren und sämtliche Transfers ab Marrakesch." },
       { q: "Ist es günstiger, Trek und Wüstentour getrennt zu buchen?", a: "Das hängt von der Gruppengröße ab. Allein sind es 1.145 € getrennt gegenüber 1.140 € kombiniert, zu viert 435 € gegenüber 470 € — beide Male günstiger. Zu zweit ist es umgekehrt: 634 € getrennt gegenüber 773 € kombiniert, also 139 € mehr, dafür eine durchgehende Route. Der [2-Tages-Toubkal-Gipfel](/de/tours/toubkal-summit-2day-marrakech) kostet 254 € und die [3-Tages-Sahara-Tour](/de/tours/sahara-3day-marrakech) 380 € pro Person bei zwei Reisenden — zusammen 634 € gegenüber 773 € kombiniert, also 41 € weniger. Dazu sparen Sie sich fünf Tage mit zwei getrennten Rückfahrten nach Marrakesch und einem verlorenen Transfertag dazwischen. Die Kombination folgt einer durchgehenden Route ohne Umwege, mit privatem Fahrzeug von Anfang bis Ende." },
       { q: "Brauche ich Trekkingerfahrung für die Toubkal-Etappe?", a: "Sie ist als anspruchsvoll eingestuft, nicht als Experten-Route. Sie schlafen in der Hütte auf 3.207 m und gehen am folgenden Morgen auf den Gipfel — im Sommer ohne technische Anforderungen, aber es ist ein langer Anstieg in der Höhe. Vernünftige Grundkondition genügt; Winterbesteigungen brauchen Steigeisen und Pickel." },
-      { q: "Was ist nicht enthalten?", a: "Reiseversicherung (für den Trek verpflichtend), persönliche Trekkingausrüstung und Schlafsack, die Mittagessen an den Wüstentagen (kalkulieren Sie 12–15 € pro Mahlzeit), Steigeisen und Pickel bei einer Besteigung zwischen November und März, sowie Trinkgelder für Führer, Fahrer, Koch und Maultiertreiber." },
+      { q: "Was ist nicht enthalten?", a: "Reiseversicherung (für den Trek verpflichtend), persönliche Trekkingausrüstung und Schlafsack, die Mittagessen an den Wüstentagen (kalkulieren Sie 12–15 € pro Mahlzeit), Steigeisen und Pickel bei einer Besteigung zwischen November und April, sowie Trinkgelder für Führer, Fahrer, Koch und Maultiertreiber." },
     ],
     content: `
 ## Die kurze Antwort
@@ -8817,6 +8842,109 @@ Die vollständige Kostenaufstellung finden Sie unter [was eine 3-Tage-Sahara-Tou
   [Erg Chebbi oder Erg Chegaga](/de/blog/erg-chebbi-vs-erg-chegaga).
 
 👉 **[Zur 3-Tage-Tour](/de/tours/wuestentour-3-tage-marrakesch)** oder **[zur 4-Tage-Tour](/de/tours/wuestentour-4-tage-marrakesch)**, und schicken Sie uns Ihre Daten: Wir antworten mit dem Preis für Ihre Gruppe.
+`,
+  },
+  {
+    slug: "berber-village-guesthouse-atlas-trek",
+    localizedSlug: "berber-gaestehaus-dorf-atlas-trekking",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Übernachten in Berber-Gästehäusern im Dorf auf einem Atlas-Trek",
+    excerpt:
+      "Auf der Gipfelroute zum Toubkal schlafen Sie in einer geteilten Berghütte. Auf unseren Dorf-Treks schlafen Sie bei einer Familie: Abendessen aus der Küche des Hauses, Minztee und ein Tal, das nach Einbruch der Dunkelheit still wird.",
+    heroImage: "/gallery/berber-home-interior-mint-tea.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["Berber-Gästehaus", "Dorf-Trek Atlas", "Übernachtung bei Familien Hoher Atlas", "Imlil", "Azzaden-Tal"],
+    seoTitle: "Berber-Gästehäuser auf Atlas-Treks",
+    seoDescription:
+      "Wie eine Nacht in einem Berber-Gästehaus im Dorf auf einem Atlas-Trek ist, was sie von der Toubkal-Hütte unterscheidet und welche unserer Treks sie haben.",
+    relatedTours: ["azzaden-valley-2day-trek", "atlas-mountains-3day-trek", "family-atlas-4day-trek", "toubkal-summit-trek-4day"],
+    faq: [
+      { q: "Wie ist ein Berber-Gästehaus im Dorf?", a: "Es ist das Zuhause einer Familie in einem Bergdorf, kein Hotel. Die Familie kocht Abendessen und Frühstück, die Zimmer sind einfach, mit Matratzen auf Podesten oder einfachen Betten, und jedes Zimmer hat ein eigenes Bad. Die Abende gehören dem Minztee und oft dem Brotbacken, und nach Einbruch der Dunkelheit wird das Tal still." },
+      { q: "Haben die Zimmer ein eigenes Bad?", a: "Ja. Auf unseren Dorf-Treks hat jedes Gästehauszimmer ein eigenes Bad. Die Toubkal-Hütte ist anders: eine geteilte Berghütte mit Schlafsälen." },
+      { q: "Bei welchen Ihrer Treks übernachtet man in Dorf-Gästehäusern?", a: "Alle Nächte des [2-tägigen Azzaden-Tal-Treks](/de/tours/azzaden-tal-trek-2-tage), des [3-tägigen Treks durch die Dörfer des Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage) und des [4-tägigen Familien-Treks](/de/tours/familien-atlas-trek-4-tage). Der [4-tägige Toubkal-Trek](/de/tours/toubkal-gipfel-trek-4-tage) beginnt mit einer Nacht in einem Gästehaus in Imlil, und die längeren Treks mischen Dorfnächte mit Zeltlagern und der Hütte." },
+      { q: "Trage ich mein Gepäck von Dorf zu Dorf?", a: "Nein. Ein Maultier trägt das Gepäck der Gruppe von einem Dorf zum nächsten, und Sie gehen mit einem Tagesrucksack für Wasser, Kleidungsschichten und Kamera." },
+      { q: "Wer führt die Dorf-Treks?", a: "Ein lizenzierter Bergführer aus unserem Familienteam. Unser Vater, Lahsen Aitidar, war einer der ersten lizenzierten Berber-Bergführer im Hohen Atlas; Smail und Mohamed sind auf diesen Pfaden aufgewachsen, und jeder Guide im Team ist auf den Routen aufgewachsen, die er heute führt." },
+      { q: "Ist ein Gästehaus besser als die Toubkal-Hütte?", a: "Sie erfüllen verschiedene Zwecke. Die Hütte auf 3.207 m ist der Ort, an dem Sie vor dem Gipfel schlafen, zusammen mit anderen, die denselben Aufstieg machen. Ein Dorf-Gästehaus ist das Zuhause einer Familie auf einer Wanderroute zwischen Dörfern. Ist der Gipfel das Ziel, brauchen Sie die Hütte; sind es die Dörfer, ist das Gästehaus der Sinn der Reise." },
+    ],
+    content: `
+Auf der Gipfelroute zum Toubkal schlafen Sie in der Hütte auf 3.207 m: eine geteilte Berghütte mit
+Schlafsälen, voller Menschen, die am nächsten Morgen denselben Berg besteigen. Auf unseren Dorf-Treks
+schlafen Sie ganz woanders: bei einer Familie, in einem Dorf, mit einem Abendessen aus der Küche des Hauses.
+
+Für viele, die mit uns wandern, ist es diese Nacht, von der sie uns nach der Reise schreiben.
+
+## Wie eine Nacht im Gästehaus ist
+
+- **Es ist ein Zuhause, kein Hotel.** Eine Berberfamilie lebt dort und empfängt Sie. Zum Abendessen gibt es,
+  was die Familie kocht, morgens Frühstück, und alle Mahlzeiten des Treks sind inbegriffen.
+- **Die Zimmer sind einfach.** Matratzen auf Podesten oder einfache Betten, und jedes Zimmer hat ein eigenes Bad.
+- **Die Abende gehören der Familie.** Minztee und oft das Brotbacken gehören zum Abend, keine für Besucher
+  inszenierte Vorführung. Sobald es dunkel ist, wird das Tal still.
+- **Ihre Tasche ist schon da.** Ein Maultier trägt das Gepäck der Gruppe von Dorf zu Dorf, Sie kommen also mit
+  dem Tagesrucksack an und müssen nichts in Eile auspacken.
+
+Mit kleinen Kindern sollten Sie sich bei der Ankunft umsehen: Viele Dorfhäuser haben Flachdächer und offene Treppen.
+
+## Gästehaus oder Hütte
+
+| | Dorf-Gästehaus | Toubkal-Hütte |
+|---|---|---|
+| Wo | In einem Dorf an der Route, etwa Tizi Oussem (1.850 m) oder Tacheddirt (2.300 m) | Auf 3.207 m, oberhalb des letzten Dorfes |
+| Zimmer | Einfache Zimmer, jedes mit eigenem Bad | Geteilte Schlafsäle |
+| Wer noch da ist | Die Familie, die dort lebt | Andere Wanderer auf dem Weg zum Gipfel |
+| Am nächsten Morgen | Sie wandern weiter zum nächsten Dorf | Aufbruch vor der Morgendämmerung zum Gipfel |
+| Welche Treks | Die Dorf-Treks und einige Nächte der längeren Treks | Alle Toubkal-Gipfeltreks |
+
+## Unsere Treks mit Dorfnächten
+
+| Trek | Dorfnächte | Andere Nächte | Schwierigkeit | Preis pro Person, zu zweit |
+|---|---|---|---|---|
+| [Azzaden-Tal, 2 Tage](/de/tours/azzaden-tal-trek-2-tage) | 1, in Tizi Oussem | Keine | Mittel | 161 € |
+| [Dörfer des Hohen Atlas, 3 Tage](/de/tours/hoher-atlas-dorftrek-3-tage) | 2, im Azzaden-Tal und in Tacheddirt | Keine | Mittel | 235 € |
+| [Familien-Trek, 4 Tage](/de/tours/familien-atlas-trek-4-tage) | 3 | Keine | Leicht | 276 € pro Person ab drei Personen |
+| [Toubkal-Gipfel, 4 Tage](/de/tours/toubkal-gipfel-trek-4-tage) | 1, in Imlil | 2 in der Hütte | Anspruchsvoll | 468 € |
+| [Toubkal-Runde und Ifni-See, 6 Tage](/de/tours/toubkal-runde-ifni-see-6-tage) | 2, in Tacheddirt und Amsouzart | 2 Zeltlager, 1 Hütte | Anspruchsvoll | 948 € |
+| [M'Goun-Massiv, 7 Tage](/de/tours/mgoun-massiv-trek-7-tage) | 2 | 4 Zeltlager | Experte | 760 € |
+| [Große Hoher-Atlas-Durchquerung, 15 Tage](/de/tours/hoher-atlas-durchquerung-15-tage) | 5 | 7 Zeltlager, 2 in der Hütte | Experte | 2.040 € |
+
+Die ersten drei sind um die Dörfer herum gebaut: kein Gipfel, keine Hütte, keine Nacht in der Höhe.
+Der Azzaden-Trek überquert den Tizi-Mzik-Pass auf 2.489 m bis Tizi Oussem; der Drei-Tages-Trek
+verbindet die Täler von Imlil, Azzaden und Ourika mit jeder Nacht einem anderen Dorf; der Familien-Trek
+hält die Tage kurz und das Gelände leicht, mit Maultieren, die ein müdes Kind ebenso tragen können wie das Gepäck.
+Was jeder Posten kostet, steht in [was ein 3-tägiger Dorf-Trek im Hohen Atlas kostet](/de/blog/hoher-atlas-dorftrek-kosten).
+
+## Wer mit Ihnen geht
+
+Ihr Guide ist ein lizenzierter Bergführer aus unserem Familienteam, kein Freiberufler, der in der
+Woche Ihrer Ankunft zugeteilt wird. Unser Vater, Lahsen Aitidar, war einer der ersten lizenzierten
+Berber-Bergführer im Hohen Atlas. Smail und Mohamed sind auf diesen Pfaden aufgewachsen und haben
+das Unternehmen 2010 auf seinem Fundament aufgebaut, und jeder Guide im Team ist auf den Routen
+aufgewachsen, die er heute führt.
+
+In Imlil ist die Basis der Familie das [Gîte Panorama](/de/blog/gite-panorama-imlil-base-camp-toubkal),
+das Lahsen gebaut hat und das seit mehr als 30 Jahren in Familienbesitz ist.
+
+Ein Maultiertreiber und sein Maultier tragen das Gepäck. Trinkgelder für Guide und Maultiertreiber
+sind nicht inbegriffen; sie sind üblich, aber nie Pflicht.
+
+## Was bei den Dorf-Treks inbegriffen ist
+
+- Ein lizenzierter Bergführer
+- Die Nächte im Gästehaus
+- Alle Mahlzeiten des Treks
+- Ein Maultier für das Gepäck der Gruppe
+- Transfer ab Marrakesch und zurück
+
+Nicht inbegriffen: Reiseversicherung (empfohlen), Ihre eigene Trekkingausrüstung und Trinkgelder.
+
+Mehr über die Familien, bei denen Sie wohnen, ihre Sprache und ihr Neujahr lesen Sie in
+[Wer sind die Berber?](/de/blog/who-are-the-berbers)
+
+👉 **[Zum 3-tägigen Trek durch die Dörfer des Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage)**: drei Täler, zwei Dorfnächte, kein Gipfel.
 `,
   },
 ];

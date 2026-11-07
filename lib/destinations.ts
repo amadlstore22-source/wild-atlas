@@ -108,7 +108,7 @@ export const DESTINATIONS: Destination[] = [
       { name: "Spring", emoji: "🌸", rating: 5, note: "April–June: wildflowers, snow retreating from high passes, ideal trekking weather." },
       { name: "Summer", emoji: "☀️", rating: 4, note: "July–August: summit trails clear, hot in valleys but cool at altitude. Peak season." },
       { name: "Autumn", emoji: "🍂", rating: 5, note: "September–October: arguably the best conditions — stable skies, vivid colours, fewer trekkers." },
-      { name: "Winter", emoji: "❄️", rating: 3, note: "November–March: Toubkal summit requires crampons and ice axe. Beautiful but challenging." },
+      { name: "Winter", emoji: "❄️", rating: 3, note: "November–April: Toubkal summit requires crampons and ice axe. Beautiful but challenging." },
     ],
     travelTips: [
       "Acclimatise in Marrakech (at 460m) for at least one day before heading up to Imlil (1,740m).",

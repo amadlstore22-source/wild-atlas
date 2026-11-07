@@ -131,7 +131,7 @@ Le guide di approfondimento qui sotto trattano ogni regione nel dettaglio.
       { q: "Quanto bisogna essere in forma per scalare il Toubkal?", a: "Abbastanza in forma da camminare in salita per cinque o sei ore in giorni consecutivi. Il Toubkal è una lunga e ripida camminata più che una scalata tecnica, quindi la resistenza da escursionismo conta molto più delle capacità alpinistiche. Se riuscite a gestire una giornata intera su terreno collinare con uno zaino leggero e funzionare ancora bene la mattina successiva, avete la base necessaria." },
       { q: "Quanti giorni servono per scalare il Toubkal?", a: "Due giorni sono il minimo e permettono di salire e scendere da Marrakech, ma lasciano al corpo pochissimo tempo per adattarsi ai 4.167 metri. Quattro giorni è la versione che consigliamo per la maggior parte delle persone: la stessa vetta con un giorno extra di acclimatamento, che è il singolo fattore più determinante per raggiungere davvero la cima sentendosi bene." },
       { q: "Com'è il rifugio del Toubkal?", a: "È un rifugio di montagna funzionante a circa 3.200 metri, non un hotel. Aspettatevi camerate condivise, letti a castello con materassi e coperte, pasti in comune e notti fredde. Portate un sacco lenzuolo, una torcia frontale e tappi per le orecchie, e considerate la sera presto parte del piano, dato che le partenze per la vetta avvengono ben prima dell'alba." },
-      { q: "Qual è il periodo migliore dell'anno per scalare il Toubkal?", a: "Da aprile a ottobre è la stagione più semplice, con il tempo più stabile da maggio a settembre. Da novembre a marzo è un vero viaggio di alpinismo invernale: neve sul tratto alto, necessità di ramponi e piccozza, e condizioni che possono cambiare rapidamente. Entrambe le opzioni sono possibili con una guida, ma sono imprese diverse." },
+      { q: "Qual è il periodo migliore dell'anno per scalare il Toubkal?", a: "Da aprile a ottobre è la stagione più semplice, con il tempo più stabile da maggio a settembre. Da novembre ad aprile è un vero viaggio di alpinismo invernale: neve sul tratto alto, necessità di ramponi e piccozza, e condizioni che possono cambiare rapidamente. Entrambe le opzioni sono possibili con una guida, ma sono imprese diverse." },
     
       { q: "Quanto costa salire sul Toubkal?", a: "Con noi il [trek di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) parte da 254 € a persona in due e 199 € in sei, e il [trek di 4 giorni](/it/tours/toubkal-summit-trek-4day) da 468 € in due e 338 € in sei. Entrambi comprendono la guida abilitata, le notti in rifugio, tutti i pasti in montagna, le tasse del parco nazionale e il trasporto andata e ritorno da Marrakech. Organizzarlo da soli costa meno sulla carta, ma il divario si riduce in fretta una volta pagati separatamente guida, rifugio, mulo e trasporto." },
       { q: "Un principiante può salire sul Toubkal?", a: "Sì, e la maggior parte di chi arriva in vetta non è alpinista. D'estate la via normale non presenta arrampicata tecnica: niente corda, nessun passaggio che richieda le mani oltre a qualche gradino di roccia. Quello che serve è saper salire cinque o sei ore al giorno, in giornate consecutive e in quota. Se a casa reggi una lunga camminata mossa senza temere il giorno dopo, hai il motore adatto. L'inverno è un'altra montagna e richiede ramponi, piccozza e la capacità di usarli." },
@@ -1627,7 +1627,7 @@ L'Alto Atlante, geologicamente parlando, è ancora giovane e in fase di sollevam
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2025-02-18",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["lista attrezzatura Alto Atlante", "lista attrezzatura Toubkal", "attrezzatura trekking Marocco", "cosa portare in Marocco", "equipaggiamento Alto Atlante", "bagaglio Toubkal"],
     seoTitle: "Attrezzatura trekking Alto Atlante",
     seoDescription:
@@ -1698,10 +1698,10 @@ Il principio chiave nell'Alto Atlante è che le temperature cambiano drasticamen
 
 ## Per i trekking invernali e primaverili (novembre-aprile)
 
-Se fate trekking al Toubkal in inverno, il calcolo cambia significativamente. Neve e ghiaccio sono standard sopra i 2.500 m da dicembre a marzo. Vi serviranno:
+Se fate trekking al Toubkal in inverno, il calcolo cambia significativamente. Neve e ghiaccio sono standard sopra i 2.500 m da novembre ad aprile. Vi serviranno:
 
-- **Ramponcini o ramponi:** essenziali sul cono di vetta del Toubkal in inverno. Li forniamo per tutti i pacchetti invernali.
-- **Piccozza:** richiesta per l'ascesa tecnica invernale completa. Gestiamo e trasportiamo le piccozze per i gruppi.
+- **Ramponi:** essenziali sul cono di vetta del Toubkal in inverno. Non sono inclusi nei nostri trekking: noleggiateli a Imlil.
+- **Piccozza:** richiesta in vetta in inverno, insieme ai ramponi. Anche lei non è inclusa: noleggiatela a Imlil con i ramponi.
 - **Attrezzatura da notte più calda:** il rifugio è riscaldato ma freddo. Un liner per sacco a pelo aiuta.
 - **Strati base e intermedi più caldi:** la vetta a gennaio può raggiungere -20°C con il vento.
 
@@ -1849,7 +1849,7 @@ Se volete discutere quale itinerario si adatta alla vostra forma fisica e alle v
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal in inverno", "trekking invernale", "ramponi", "piccozza", "Alto Atlante", "Marocco in inverno"],
     seoTitle: "Toubkal in inverno",
     seoDescription:
@@ -1862,7 +1862,7 @@ Se volete discutere quale itinerario si adatta alla vostra forma fisica e alle v
       },
       {
         q: "Servono ramponi e piccozza sul Toubkal in inverno?",
-        a: "Sì. Da circa novembre ad aprile il cono di vetta trattiene neve compatta e ghiaccio, e il percorso standard attraversa pendii dove uno scivolone senza piccozza sarebbe serio. Ramponi e piccozza sono richiesti anziché facoltativi, ed entrambi possono essere noleggiati a Imlil o forniti come parte di un pacchetto guidato.",
+        a: "Sì. Da circa novembre ad aprile il cono di vetta trattiene neve compatta e ghiaccio, e il percorso standard attraversa pendii dove uno scivolone senza piccozza sarebbe serio. Ramponi e piccozza sono richiesti anziché facoltativi, e non sono inclusi nei nostri trekking: entrambi si noleggiano a Imlil.",
       },
       {
         q: "Quando il Toubkal è coperto di neve?",
@@ -1884,6 +1884,19 @@ A maggio, il Jbel Toubkal è una lunga camminata su un sentiero accidentato. A f
 
 Questa distinzione è il punto centrale di questo articolo. Molte persone prenotano il Toubkal invernale dopo aver letto un resoconto di viaggio estivo, e arrivano con aspettative estive. La montagna non fa sconti.
 
+## Estate e inverno a confronto
+
+| | Da maggio a ottobre | Da novembre ad aprile |
+|---|---|---|
+| Sul cono di vetta | Di solito niente neve sul percorso principale | Neve compatta e ghiaccio |
+| Ramponi e piccozza | Non servono | Obbligatori. Non inclusi nei nostri trekking: si noleggiano a Imlil |
+| Capacità | Camminare su terreno accidentato e instabile | Camminare con i ramponi e fermare una scivolata con la piccozza (autoarresto) |
+| Scarponi | Scarponi da trekking già rodati | Scarponi rigidi che accettano i ramponi |
+| Giorno della vetta | Da 6 a 8 ore | Da 8 a 12 ore: la neve rallenta |
+| In vetta all'alba | Freddo, spesso intorno allo zero | Circa da −10 a −15 °C prima del vento |
+| Notte al rifugio | Fredda | Riscaldato ma freddo, l'acqua gela: portate un sacco a pelo quattro stagioni |
+| Per chi | Camminatori allenati, anche alla prima volta in quota | Escursionisti allenati pronti a imparare le tecniche invernali |
+
 ## Quando arriva la neve
 
 La neve generalmente giace sul cono di vetta da **novembre ad aprile**, con le condizioni più affidabili a **gennaio e febbraio**. Ma varia più di quanto ci si aspetti:
@@ -1902,7 +1915,7 @@ Questa è la parte che conta. Sopra il rifugio, il percorso sale un ampio pendio
 Questo singolo fatto è il motivo per cui una piccozza non è facoltativa. La piccozza è ciò che ferma la scivolata.
 
 ### Ramponi e piccozza
-Entrambi sono richiesti in inverno, ed entrambi possono essere noleggiati a Imlil o inclusi in un pacchetto guidato. Se non li avete mai usati, va bene ed è previsto. Ciò che non va bene è arrivare senza aver accettato che dovrete impararlo.
+Entrambi sono richiesti in inverno. Non sono inclusi nei nostri trekking: si noleggiano a Imlil. Se non li avete mai usati, va bene ed è previsto. Ciò che non va bene è arrivare senza aver accettato che dovrete impararlo.
 
 I buoni operatori inseriscono una sessione di formazione il giorno prima del tentativo di vetta: come camminare con i ramponi senza agganciare una punta alla propria ghetta, come tenere la piccozza in una traversata, e come autoarrestarsi. Ci vuole un pomeriggio per diventare operativi.
 
@@ -1938,7 +1951,7 @@ La mitigazione principale è il ritmo, il che è un altro argomento a favore di 
 - **Guanti isolati, più ricambio.** Guanti bagnati a -15°C smettono di essere guanti.
 - **Un thermos.** L'acqua fredda non è invitante e le persone smettono di berla; la disidratazione fa poi il lavoro di cui viene incolpata l'altitudine.
 
-Il nostro [trekking di 4 giorni al Toubkal](/it/tours/toubkal-summit-trek-4day) funziona durante tutto l'inverno con ramponi, piccozze e la sessione di formazione inclusi, e la [versione di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) la comprime per escursionisti esperti che non necessitano del giorno di acclimatamento.
+Il nostro [trekking di 4 giorni al Toubkal](/it/tours/toubkal-summit-trek-4day) funziona anche in inverno, e la [versione di 2 giorni](/it/tours/toubkal-summit-2day-marrakech) la comprime per escursionisti esperti che non necessitano del giorno di acclimatamento. In entrambi, ramponi e piccozza non sono inclusi: si noleggiano a Imlil.
 
 ## Ne vale la pena?
 

@@ -131,7 +131,7 @@ Die ausführlichen Leitfäden unten behandeln jede Region im vollen Detail.
       { q: "Wie fit muss man sein, um den Toubkal zu besteigen?", a: "Fit genug, um an aufeinanderfolgenden Tagen fünf bis sechs Stunden bergauf zu gehen. Der Toubkal ist eher eine lange, steile Wanderung als eine technische Kletterei, weshalb Wanderausdauer weit wichtiger ist als Klettertechnik. Wer einen vollen Tag auf hügeligem Gelände mit Tagesrucksack bewältigt und am nächsten Morgen noch fit ist, hat die nötige Grundlage." },
       { q: "Wie viele Tage braucht man für die Besteigung des Toubkal?", a: "Zwei Tage sind das Minimum und ermöglichen Auf- und Abstieg ab Marrakesch, geben Ihrem Körper aber kaum Zeit, sich an 4.167 Meter zu gewöhnen. Vier Tage sind die Variante, die wir den meisten Menschen empfehlen: derselbe Gipfel, aber mit einem zusätzlichen Akklimatisierungstag – der wichtigste einzelne Faktor dafür, ob Sie den Gipfel tatsächlich wohlbehalten erreichen." },
       { q: "Wie ist die Toubkal-Hütte?", a: "Es handelt sich um eine funktionierende Berghütte auf etwa 3.200 Metern, kein Hotel. Erwarten Sie Gemeinschaftsschlafräume, Etagenbetten mit Matratzen und Decken, gemeinsame Mahlzeiten und kalte Nächte. Bringen Sie einen Schlafsack-Inlett, eine Stirnlampe und Ohrstöpsel mit, und planen Sie die frühe Nachtruhe fest ein, da der Gipfelaufstieg weit vor Sonnenaufgang beginnt." },
-      { q: "Was ist die beste Jahreszeit für die Besteigung des Toubkal?", a: "April bis Oktober ist die unkomplizierte Saison, mit dem beständigsten Wetter von Mai bis September. November bis März ist eine echte winterliche Bergtour: Schnee auf der oberen Route, Steigeisen und Eispickel erforderlich, und Bedingungen, die sich rasch ändern können. Beides ist mit einem Führer möglich, aber es sind grundlegend verschiedene Unternehmungen." },
+      { q: "Was ist die beste Jahreszeit für die Besteigung des Toubkal?", a: "April bis Oktober ist die unkomplizierte Saison, mit dem beständigsten Wetter von Mai bis September. November bis April ist eine echte winterliche Bergtour: Schnee auf der oberen Route, Steigeisen und Eispickel erforderlich, und Bedingungen, die sich rasch ändern können. Beides ist mit einem Führer möglich, aber es sind grundlegend verschiedene Unternehmungen." },
     
       { q: "Was kostet die Toubkal-Besteigung?", a: "Bei uns kostet der [2-Tages-Trek](/de/tours/toubkal-summit-2day-marrakech) ab 254 € pro Person zu zweit und 199 € zu sechst, der [4-Tages-Trek](/de/tours/toubkal-summit-trek-4day) ab 468 € zu zweit und 338 € zu sechst. Beide enthalten den lizenzierten Bergführer, die Hüttennächte, alle Mahlzeiten am Berg, die Nationalparkgebühren und den Transfer ab Marrakesch und zurück. Selbst organisieren ist auf dem Papier günstiger, doch der Abstand schrumpft schnell, sobald Sie Führer, Hütte, Maultier und Transport einzeln bezahlen." },
       { q: "Kann ein Anfänger den Toubkal besteigen?", a: "Ja, und die meisten, die oben ankommen, sind keine Alpinisten. Auf der Normalroute gibt es im Sommer keine technische Kletterei — kein Seil, keine Passagen, die über den einen oder anderen Felstritt hinaus die Hände verlangen. Verlangt wird, fünf bis sechs Stunden am Tag bergauf gehen zu können, an aufeinanderfolgenden Tagen und in Höhe. Wenn Sie zu Hause eine lange hügelige Tageswanderung schaffen, ohne den Folgetag zu fürchten, haben Sie den nötigen Motor. Der Winter ist ein anderer Berg und verlangt Steigeisen, Pickel und deren Beherrschung." },
@@ -1629,7 +1629,7 @@ Der Hohe Atlas ist, geologisch betrachtet, noch jung und wächst noch immer – 
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2025-02-18",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["Packliste Hoher Atlas", "Toubkal Ausrüstungsliste", "Marokko Trekking-Ausrüstung", "was mitnehmen Marokko", "Ausrüstung Atlasgebirge", "Toubkal Packen"],
     seoTitle: "Packliste für den Hohen-Atlas-Trek",
     seoDescription:
@@ -1700,10 +1700,10 @@ Das Schlüsselprinzip im Hohen Atlas ist, dass sich die Temperaturen zwischen Ta
 
 ## Für Winter- und Frühlingstreks (November–April)
 
-Wenn Sie den Toubkal im Winter trekken, ändert sich die Rechnung erheblich. Schnee und Eis sind von Dezember bis März oberhalb von 2.500 m Standard. Sie benötigen:
+Wenn Sie den Toubkal im Winter trekken, ändert sich die Rechnung erheblich. Schnee und Eis sind von November bis April oberhalb von 2.500 m Standard. Sie benötigen:
 
-- **Grödel oder Steigeisen:** Am Gipfelkegel des Toubkal im Winter unverzichtbar. Wir stellen diese für alle Winterpakete zur Verfügung.
-- **Eispickel:** Für den vollständigen technischen Winteraufstieg erforderlich. Wir führen und verwalten Eispickel für Gruppen.
+- **Steigeisen:** Am Gipfelkegel des Toubkal im Winter unverzichtbar. Bei unseren Treks nicht inbegriffen: Sie mieten sie in Imlil.
+- **Eispickel:** Im Winter am Gipfel zusammen mit den Steigeisen erforderlich. Ebenfalls nicht inbegriffen: Sie mieten ihn mit ihnen in Imlil.
 - **Wärmere Schlafausrüstung:** Die Hütte ist beheizt, aber kalt. Ein Schlafsack-Inlett hilft.
 - **Wärmere Basis- und Zwischenschichten:** Der Gipfel kann im Januar bei Windchill -20 °C erreichen.
 
@@ -1853,7 +1853,7 @@ Wenn Sie besprechen möchten, welches Itinerar zu Ihrer Fitness und Ihren Termin
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal Winter", "Wintertrekking", "Steigeisen", "Eispickel", "Hoher Atlas", "Marokko Winter"],
     seoTitle: "Toubkal im Winter",
     seoDescription:
@@ -1866,7 +1866,7 @@ Wenn Sie besprechen möchten, welches Itinerar zu Ihrer Fitness und Ihren Termin
       },
       {
         q: "Braucht man Steigeisen und einen Eispickel am Toubkal im Winter?",
-        a: "Ja. Von etwa November bis April hält der Gipfelkegel festen Schnee und Eis, und die Standardroute quert Hänge, an denen ein Ausrutscher ohne Pickel ernst wäre. Steigeisen und ein Eispickel sind erforderlich statt optional, und beides kann in Imlil gemietet oder als Teil eines geführten Pakets bereitgestellt werden.",
+        a: "Ja. Von etwa November bis April hält der Gipfelkegel festen Schnee und Eis, und die Standardroute quert Hänge, an denen ein Ausrutscher ohne Pickel ernst wäre. Steigeisen und ein Eispickel sind erforderlich statt optional, und beides ist bei unseren Treks nicht inbegriffen: Sie mieten es in Imlil.",
       },
       {
         q: "Wann liegt Schnee auf dem Toubkal?",
@@ -1888,6 +1888,19 @@ Im Mai ist der Jbel Toubkal eine lange Wanderung auf einem groben Pfad. Im Febru
 
 Diese Unterscheidung ist der ganze Sinn dieses Artikels. Viele Menschen buchen den Winter-Toubkal, nachdem sie einen Sommer-Erfahrungsbericht gelesen haben, und kommen mit Sommererwartungen an. Der Berg bewertet nicht auf einer Kurve.
 
+## Sommer und Winter im Vergleich
+
+| | Mai bis Oktober | November bis April |
+|---|---|---|
+| Am Gipfelkegel | Auf der Hauptroute meist kein Schnee | Fester Schnee und Eis |
+| Steigeisen und Eispickel | Nicht nötig | Erforderlich. Bei unseren Treks nicht inbegriffen: Sie mieten sie in Imlil |
+| Können | Gehen auf rauem, losem Gelände | Gehen mit Steigeisen und einen Rutsch mit dem Pickel stoppen (Selbstsicherung) |
+| Schuhe | Eingelaufene Wanderschuhe | Steife, steigeisenfeste Schuhe |
+| Gipfeltag | 6 bis 8 Stunden | 8 bis 12 Stunden: Schnee macht langsam |
+| Am Gipfel bei Tagesanbruch | Kalt, oft um den Gefrierpunkt | Etwa −10 bis −15 °C vor Windchill |
+| Nacht in der Hütte | Kalt | Beheizt, aber kalt, Wasser gefriert: ein Vier-Jahreszeiten-Schlafsack gehört dazu |
+| Für wen | Fitte Wanderer, auch zum ersten Mal in der Höhe | Fitte Bergwanderer, die Wintertechnik lernen wollen |
+
 ## Wann der Schnee eintrifft
 
 Schnee liegt im Allgemeinen von **November bis April** auf dem Gipfelkegel, mit den zuverlässigsten Bedingungen im **Januar und Februar**. Doch es variiert mehr, als Menschen erwarten:
@@ -1906,7 +1919,7 @@ Das ist der Teil, der zählt. Oberhalb der Hütte steigt die Route über einen b
 Diese einzelne Tatsache ist der Grund, warum ein Eispickel nicht optional ist. Der Pickel ist es, der den Sturz stoppt.
 
 ### Steigeisen und ein Pickel
-Beide sind im Winter erforderlich, und beide können in Imlil gemietet werden oder mit einem geführten Paket kommen. Wenn Sie sie nie verwendet haben, ist das in Ordnung und erwartet. Was nicht in Ordnung ist, ist anzukommen, ohne akzeptiert zu haben, dass Sie es lernen müssen.
+Beide sind im Winter erforderlich. Bei unseren Treks sind sie nicht inbegriffen: Sie mieten sie in Imlil. Wenn Sie sie nie verwendet haben, ist das in Ordnung und erwartet. Was nicht in Ordnung ist, ist anzukommen, ohne akzeptiert zu haben, dass Sie es lernen müssen.
 
 Gute Anbieter bauen eine Trainingseinheit am Tag vor dem Gipfelversuch ein: wie man in Steigeisen geht, ohne mit einer Zacke die eigene Gamasche zu erwischen, wie man den Pickel bei einer Querung hält, und wie man sich selbst arretiert. Es dauert einen Nachmittag, um funktionsfähig zu werden.
 
@@ -1942,7 +1955,7 @@ Das Haupt-Gegenmittel ist Tempo, was ein weiteres Argument für einen Führer is
 - **Isolierte Handschuhe, plus Ersatz.** Nasse Handschuhe bei -15 °C hören auf, Handschuhe zu sein.
 - **Eine Thermosflasche.** Kaltes Wasser ist unattraktiv, und Menschen hören auf zu trinken; Dehydrierung übernimmt dann die Arbeit, für die die Höhe verantwortlich gemacht wird.
 
-Unser [4-tägiger Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) läuft mit Steigeisen, Pickeln und der enthaltenen Trainingseinheit durch den Winter, und die [2-tägige Version](/de/tours/toubkal-summit-2day-marrakech) komprimiert dies für erfahrene Bergwanderer, die den Akklimatisierungstag nicht benötigen.
+Unser [4-tägiger Toubkal-Trek](/de/tours/toubkal-summit-trek-4day) läuft auch im Winter, und die [2-tägige Version](/de/tours/toubkal-summit-2day-marrakech) komprimiert dies für erfahrene Bergwanderer, die den Akklimatisierungstag nicht benötigen. Bei beiden sind Steigeisen und Eispickel nicht inbegriffen: Sie mieten sie in Imlil.
 
 ## Lohnt es sich?
 

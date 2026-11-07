@@ -78,7 +78,7 @@ export const DESTINATIONS: Destination[] = [
       { name: "Printemps", emoji: "🌸", rating: 5, note: "D'avril à juin : fleurs sauvages, neige en recul sur les hauts cols, conditions de trek idéales." },
       { name: "Été", emoji: "☀️", rating: 4, note: "De juillet à août : sentiers du sommet dégagés, chaleur dans les vallées mais fraîcheur en altitude. Haute saison." },
       { name: "Automne", emoji: "🍂", rating: 5, note: "De septembre à octobre : sans doute les meilleures conditions — ciel stable, couleurs éclatantes, moins de trekkeurs." },
-      { name: "Hiver", emoji: "❄️", rating: 3, note: "De novembre à mars : le sommet du Toubkal exige crampons et piolet. Magnifique mais exigeant." },
+      { name: "Hiver", emoji: "❄️", rating: 3, note: "De novembre à avril : le sommet du Toubkal exige crampons et piolet. Magnifique mais exigeant." },
     ],
     travelTips: [
       "Acclimatez-vous à Marrakech (460 m) pendant au moins une journée avant de monter à Imlil (1 740 m).",

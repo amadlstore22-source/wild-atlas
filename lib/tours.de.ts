@@ -51,6 +51,7 @@ export const TOURS: Tour[] = [
       "Reiseversicherung (obligatorisch)",
       "Persönliche Trekkingausrüstung",
       "Trinkgeld für Guide und Träger",
+      "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
     itinerary: [
       {
@@ -2373,6 +2374,7 @@ export const TOURS: Tour[] = [
       "Reiseversicherung (obligatorisch)",
       "Persönliche Trekkingausrüstung und Schlafsack",
       "Trinkgeld für Guide, Koch und Maultiertreiber",
+      "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
     itinerary: [
       {
@@ -2536,7 +2538,7 @@ export const TOURS: Tour[] = [
       { q: "Reichen zwei Tage wirklich aus, um den Toubkal zu besteigen?", a: "Es reicht für den Gipfel, und fitte Wanderer schaffen es regelmäßig. Was es Ihnen nicht gibt, ist Zeit zur Akklimatisierung — Sie gehen innerhalb von etwa dreißig Stunden von Marrakesch auf 4.167 Meter. Mit Bergwandererfahrung und knappem Zeitplan funktioniert es; für den ersten Kontakt mit großer Höhe ist der 4-Tage-Trek die sicherere Wahl." },
       { q: "Was beinhaltet der erste Tag?", a: "Einen frühen Transfer von Marrakesch nach Imlil, etwa anderthalb Stunden, dann vier bis fünf Stunden Aufstieg durch das Aït-Mizane-Tal vorbei am Schrein von Sidi Chamharouch zum Toubkal-Refugium auf 3.207 Metern. Abendessen im Refugium und früh schlafen vor dem Gipfelstart." },
       { q: "Wie anstrengend ist der Abstieg?", a: "Länger als die meisten erwarten. Nach dem Gipfel geht es zurück zum Refugium und weiter nach Imlil — insgesamt vier bis fünf Stunden Abstieg auf losem Untergrund und müden Beinen. Hier machen sich die Knie bemerkbar, und es lohnt sich, gezielt dafür zu trainieren." },
-      { q: "Kann ich diesen Trek im Winter machen?", a: "Nur mit Winterausrüstung und einem für diese Bedingungen qualifizierten Guide. Von etwa November bis März ist die obere Route schneebedeckt und erfordert Steigeisen, einen Eispickel und die Fähigkeit, diese einzusetzen. Aus einer Wanderung wird dann eine Bergtour." },
+      { q: "Kann ich diesen Trek im Winter machen?", a: "Nur mit Winterausrüstung und einem für diese Bedingungen qualifizierten Guide. Von etwa November bis April ist die obere Route schneebedeckt und erfordert Steigeisen, einen Eispickel und die Fähigkeit, diese einzusetzen. Aus einer Wanderung wird dann eine Bergtour." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-tägiger Mount-Toubkal-Trek ab Marrakesch",
@@ -2587,6 +2589,7 @@ export const TOURS: Tour[] = [
       "Reiseversicherung (obligatorisch)",
       "Persönliche Trekkingausrüstung",
       "Trinkgeld für Guide und Träger",
+      "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
     itinerary: [
       {
@@ -3606,7 +3609,7 @@ export const TOURS: Tour[] = [
       { q: "Warum zuerst der Toubkal und dann die Wüste?", a: "Der Gipfel ist der körperlich fordernde Teil, deshalb kommt er zuerst, solange Sie frisch sind, und die Wüstentage — überwiegend Fahrt mit kurzen Wanderungen und Kamelritten — werden danach zum natürlichen Ausklang. So wird auch die heikelste Wettervariable (der Gipfel) früh in der Reise abgehakt." },
       { q: "Wo übernachten wir in den fünf Tagen?", a: "Eine Nacht in der Toubkal-Hütte (eine gemeinsam genutzte Berghütte auf 3.207 m), eine Nacht im Gästehaus im Dorf Imlil, eine Nacht in einem Hotel im Dades-Tal und eine Nacht in einem Berber-Wüstencamp auf den Dünen des Erg Chebbi. Ein Hüttenschlafsack lohnt sich für Hütte und Camp." },
       { q: "Ist das eine private Tour?", a: "Ja. Sie läuft privat für Ihre Gruppe von 2 bis 10 Personen, mit einem lizenzierten Bergführer für das Trekking und einem eigenen Fahrer-Guide samt Fahrzeug für den Wüstenteil. Sie werden nicht mit anderen Gruppen zusammengelegt." },
-      { q: "Kann die 5-Tage-Kombination im Winter stattfinden?", a: "Ja, aber die Toubkal-Besteigung wird von etwa November bis März zu einer Schneetour, die Steigeisen und Eispickel (Verleih möglich) sowie etwas mehr Bergerfahrung erfordert. Der Wüstenteil ist ganzjährig möglich; Wüstennächte im Winter sind kalt, packen Sie also warme Schichten ein." },
+      { q: "Kann die 5-Tage-Kombination im Winter stattfinden?", a: "Ja, aber die Toubkal-Besteigung wird von etwa November bis April zu einer Schneetour, die Steigeisen und Eispickel (Verleih möglich) sowie etwas mehr Bergerfahrung erfordert. Der Wüstenteil ist ganzjährig möglich; Wüstennächte im Winter sind kalt, packen Sie also warme Schichten ein." },
     ],
     featured: true,
   },
@@ -4058,7 +4061,7 @@ export const TOURS: Tour[] = [
     faq: [
       { q: "Wie fit muss ich für den Toubkal-Teil sein?", a: "Fit genug für zwei lange aufeinanderfolgende Tage, der zweite davon rund neun Stunden mit Aufbruch vor Sonnenaufgang. Es gibt keine technische Kletterei, kein Seil und keine Kraxelei — es ist eine lange Wanderung in Höhe. Wer sechs Stunden im Bergland gehen kann, ohne den nächsten Tag zu fürchten, ist bereit." },
       { q: "Ist das eine private Tour?", a: "Nein. Das ist ein Termin mit festem Datum und 14 Plätzen, Sie reisen also mit anderen, die dasselbe Datum gebucht haben. Genau deshalb ist der Preis pro Person fest und nicht von Ihrer Gruppengröße abhängig. Wenn Sie die Route lieber für sich allein hätten, fragen Sie uns nach einem privaten Angebot." },
-      { q: "Wie ist das Wetter an diesen Terminen?", a: "Die Termine reichen von März bis Mitte April, und der Berg verändert sich in diesem Zeitraum deutlich. Im März ist der Toubkal noch ein Winterberg: Schnee an den oberen Hängen und Minusgrade am Gipfel im Morgengrauen, Steigeisen und Eispickel werden gestellt, wenn die Bedingungen es verlangen. An den April-Terminen ist die Schneegrenze meist zurückgewichen und das Gehen leichter, auch wenn der Gipfel vor Sonnenaufgang noch unter null liegen kann. In der Wüste ist es an allen Terminen umgekehrt: warme Tage, kalte und klare Nächte." },
+      { q: "Wie ist das Wetter an diesen Terminen?", a: "Die Termine reichen von März bis Mitte April, und der Berg verändert sich in diesem Zeitraum deutlich. Im März ist der Toubkal noch ein Winterberg: Schnee an den oberen Hängen und Minusgrade am Gipfel im Morgengrauen, Steigeisen und Eispickel sind nötig, wenn die Bedingungen es verlangen: Sie sind nicht inbegriffen und werden in Imlil gemietet. Auch der April gehört noch zur Schneesaison, die von November bis April dauert, und der Gipfel kann vor Sonnenaufgang unter null liegen. In der Wüste ist es an allen Terminen umgekehrt: warme Tage, kalte und klare Nächte." },
       { q: "Warum ist Tag 6 eine so lange Fahrt?", a: "Weil der Erg Chebbi das echte Sandmeer ist, rund 560 km von Marrakesch entfernt. Anbieter, die einen kurzen Wüstentransfer versprechen, fahren meist zu den viel kleineren Dünen bei Zagora. Wir finden, die zusätzlichen Stunden kaufen etwas, das sich lohnt." },
       { q: "Was bedeutet das Limit von 14 Plätzen konkret?", a: "Der Termin schließt, sobald 14 Plätze verkauft sind. Wir deckeln dort, weil sowohl die Toubkal-Hütte als auch das Wüstencamp begrenzten Platz haben und weil ein Guide an einem Gipfelmorgen nur eine begrenzte Zahl von Menschen betreuen kann." },
     ],
@@ -4106,6 +4109,7 @@ export const TOURS: Tour[] = [
       "Abendessen in Marrakesch",
       "Reiseversicherung",
       "Trinkgelder für Guide, Maultiertreiber und Camp-Personal",
+      "Steigeisen und Eispickel im Winter (Verleih möglich)",
     ],
     itinerary: [
       {

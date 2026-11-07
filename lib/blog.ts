@@ -199,7 +199,7 @@ The deep-dive guides below cover each region in full detail.
       { q: "How fit do you need to be to climb Toubkal?", a: "Fit enough to walk uphill for five to six hours on consecutive days. Toubkal is a long, steep walk rather than a technical climb, so hillwalking stamina matters far more than climbing skill. If you can manage a full day on hilly ground with a daypack and still function the next morning, you have the base you need." },
       { q: "How many days do you need to climb Toubkal?", a: "Two days is the minimum and gets you up and down from Marrakech, but it gives your body almost no time to adjust to 4,167 metres. Four days is the version we recommend for most people: the same summit with an extra acclimatisation day, which is the single biggest factor in whether you actually reach the top feeling well." },
       { q: "What is the Toubkal Refuge like?", a: "It is a working mountain hut at around 3,200 metres, not a hotel. Expect shared dormitory rooms, bunk beds with mattresses and blankets, communal meals, and cold nights. Bring a sleeping bag liner, a head torch and earplugs, and treat the early night as part of the plan since summit starts are well before dawn." },
-      { q: "What is the best time of year to climb Toubkal?", a: "April to October is the straightforward season, with the most settled weather from May to September. November to March is a genuine winter mountaineering trip: snow on the upper route, crampons and an ice axe required, and conditions that turn quickly. Both are possible with a guide, but they are different undertakings." },
+      { q: "What is the best time of year to climb Toubkal?", a: "April to October is the straightforward season, with the most settled weather from May to September. November to April is a genuine winter mountaineering trip: snow on the upper route, crampons and an ice axe required, and conditions that turn quickly. Both are possible with a guide, but they are different undertakings." },
     
       { q: "How much does it cost to climb Toubkal?", a: "With us the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €254 per person for two and €199 at six, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) from €468 for two and €338 at six. Both include the licensed guide, refuge nights, all meals on the mountain, national park fees and return transport from Marrakech. Arranging it yourself is cheaper on paper but the gap narrows fast once you have paid guide, refuge, mule and transport separately." },
       { q: "Can a beginner climb Toubkal?", a: "Yes, and most people who summit it are not mountaineers. There is no technical climbing on the standard route in summer — no rope, no scrambling that needs hands for balance beyond the odd rocky step. What it does demand is the ability to walk uphill for five to six hours on consecutive days at altitude. If you can manage a long hilly day walk at home without dreading the next one, you have the engine for it. Winter is a different mountain and does need crampons, an ice axe and the skills to use them." },
@@ -1750,7 +1750,7 @@ The High Atlas is, geologically speaking, still young and still rising — it wa
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2025-02-18",
-    updatedAt: "2026-07-21",
+    updatedAt: "2026-11-07",
     tags: ["High Atlas packing list", "Toubkal gear list", "Morocco trekking gear", "what to pack Morocco", "Atlas Mountains equipment", "Toubkal packing"],
     seoTitle: "High Atlas Trek Packing List",
     seoDescription:
@@ -1821,10 +1821,10 @@ The key principle in the High Atlas is that temperatures change dramatically bet
 
 ## For Winter and Spring Treks (November–April)
 
-If you're trekking Toubkal in winter, the calculus changes significantly. Snow and ice are standard above 2,500 m from December to March. You will need:
+If you're trekking Toubkal in winter, the calculus changes significantly. Snow and ice are standard above 2,500 m from November to April. You will need:
 
-- **Microspikes or crampons:** Essential on the Toubkal summit cone in winter. We provide these for all winter packages.
-- **Ice axe:** Required for the full technical winter ascent. We carry and manage ice axes for groups.
+- **Crampons:** Essential on the Toubkal summit cone in winter. They are not included in our treks: rent them in Imlil.
+- **Ice axe:** Required on the summit in winter, with the crampons. Also not included: rent it in Imlil with them.
 - **Warmer sleeping kit:** The refuge is heated but cold. A sleeping bag liner helps.
 - **Warmer base layers and mid layers:** The summit in January can be -20°C with wind chill.
 
@@ -1971,7 +1971,7 @@ If you want to talk through which itinerary fits your fitness and your dates, [g
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-08-05",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal winter", "winter trekking", "crampons", "ice axe", "High Atlas", "Morocco winter"],
     seoTitle: "Toubkal in Winter",
     seoDescription:
@@ -1984,7 +1984,7 @@ If you want to talk through which itinerary fits your fitness and your dates, [g
       },
       {
         q: "Do you need crampons and an ice axe on Toubkal in winter?",
-        a: "Yes. From roughly November to April the summit cone holds firm snow and ice, and the standard route crosses slopes where a slip without an axe would be serious. Crampons and an ice axe are required rather than optional, and both can be hired in Imlil or supplied as part of a guided package.",
+        a: "Yes. From roughly November to April the summit cone holds firm snow and ice, and the standard route crosses slopes where a slip without an axe would be serious. Crampons and an ice axe are required rather than optional, and neither is included in our treks: both are rented in Imlil.",
       },
       {
         q: "When is Toubkal covered in snow?",
@@ -2006,6 +2006,19 @@ In May, Jbel Toubkal is a long walk on a rough path. In February, it is a winter
 
 That distinction is the whole point of this article. Plenty of people book winter Toubkal having read a summer trip report, and arrive with summer expectations. The mountain does not grade on a curve.
 
+## Summer and winter side by side
+
+| | May to October | November to April |
+|---|---|---|
+| On the summit cone | Usually no snow on the main route | Firm snow and ice |
+| Crampons and ice axe | Not needed | Required. Not included in our treks: rent them in Imlil |
+| Skills | Walking on rough, loose ground | Walking in crampons, and stopping a slide with the ice axe (self-arrest) |
+| Boots | Broken-in walking boots | Stiff boots that take a crampon |
+| Summit day | 6 to 8 hours | 8 to 12 hours: snow is slow |
+| Summit at dawn | Cold, often around freezing | About −10 to −15 °C before wind chill |
+| Refuge night | Cold | Heated but cold, water freezes: bring a four-season sleeping bag |
+| Suits | Fit walkers, including first-timers at altitude | Fit hillwalkers ready to learn winter skills |
+
 ## When the snow arrives
 
 Snow generally lies on the summit cone from **November to April**, with the most reliable conditions in **January and February**. But it varies more than people expect:
@@ -2024,7 +2037,7 @@ This is the part that matters. Above the refuge, the route climbs a broad slope 
 That single fact is why an ice axe is not optional. The axe is what stops the slide.
 
 ### Crampons and an axe
-Both are required in winter, and both can be hired in Imlil or come with a guided package. If you have never used them, that is fine and expected. What is not fine is arriving without having accepted that you will need to learn.
+Both are required in winter. Neither is included in our treks: you rent them in Imlil. If you have never used them, that is fine and expected. What is not fine is arriving without having accepted that you will need to learn.
 
 Good operators build in a training session on the day before the summit bid: how to walk in crampons without catching a point on your own gaiter, how to hold the axe on a traverse, and how to self-arrest. It takes an afternoon to get functional.
 
@@ -2060,7 +2073,7 @@ The main mitigation is pace, which is one more argument for a guide: a good one 
 - **Insulated gloves, plus spares.** Wet gloves at minus 15 stop being gloves.
 - **A vacuum flask.** Cold water is unappealing and people stop drinking; dehydration then does the work altitude gets blamed for.
 
-Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) runs through winter with crampons, axes, and the training session included, and the [2-day version](/en/tours/toubkal-summit-2day-marrakech) compresses it for experienced hill walkers who do not need the acclimatisation day.
+Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) runs through winter, and the [2-day version](/en/tours/toubkal-summit-2day-marrakech) compresses it for experienced hill walkers who do not need the acclimatisation day. On both, crampons and an ice axe are not included: you rent them in Imlil.
 
 ## Is it worth it?
 
@@ -2579,7 +2592,7 @@ How far you get in the time you have depends heavily on how you move. [Getting a
       { q: "What is the best month to climb Toubkal?", a: "May, June, September and early October give the most settled conditions without winter equipment. Autumn has the edge on visibility, since the summer haze has cleared and you can see a long way across the High Atlas from the top." },
       { q: "Is there snow on Toubkal in summer?", a: "Rarely on the main route by mid-summer, though patches can linger in gullies and shaded ground into early summer. From roughly November to April, snow on the upper mountain should be assumed rather than hoped against." },
       { q: "How cold does Toubkal get at night?", a: "The refuge sits near 3,200 metres and is cold year-round after dark, including in summer. In deep winter, summit temperatures fall well below freezing and wind chill on the exposed ridge takes it lower still. Summit starts happen before dawn, which is the coldest part of the day." },
-      { q: "Can you climb Toubkal in winter without special equipment?", a: "No. From around November to March the upper route is a snow climb requiring crampons, an ice axe, boots stiff enough to take crampons, and the knowledge to use them. It is achievable for fit beginners, but only alongside a guide qualified for winter conditions." },
+      { q: "Can you climb Toubkal in winter without special equipment?", a: "No. From around November to April the upper route is a snow climb requiring crampons, an ice axe, boots stiff enough to take crampons, and the knowledge to use them. It is achievable for fit beginners, but only alongside a guide qualified for winter conditions." },
     
       { q: "Is April, May, September or October a good month for Toubkal?", a: "Those four are the best months of the year for it. April and May catch the snow retreating and the valleys at their greenest, though the summit cone can still hold snow into April and occasionally May, so ask before assuming crampons are unnecessary. September and October give the most reliable weather of all: settled skies, comfortable walking temperatures and a summit that is usually bare rock. Between them these months carry most of our Toubkal departures." },
     ],
@@ -2629,7 +2642,7 @@ Those two windows are also when the refuge fills first. If you are planning arou
 
 ## Winter: not off-limits, just different
 
-From roughly November to March, Toubkal becomes a winter mountain. Snow covers the upper route, the ground underfoot turns hard, and the consequences of a slip change entirely.
+From roughly November to April, Toubkal becomes a winter mountain. Snow covers the upper route, the ground underfoot turns hard, and the consequences of a slip change entirely.
 
 This does not put it out of reach. It does mean crampons, an ice axe, and someone with you who knows how to read avalanche and snow conditions. We cover the specifics in [Climbing Toubkal in Winter](/en/blog/toubkal-in-winter-what-to-expect) — the short version is that fit beginners do summit in winter, but only with the right equipment and a guide who is qualified for those conditions.
 
@@ -2737,7 +2750,7 @@ The four-day version walks in more gradually and includes time to acclimatise be
 
 ## Winter is a different mountain
 
-Everything above describes summer. From roughly November to March, snow covers the upper route and Toubkal stops being a walk. Crampons, an ice axe, and the knowledge to use them become mandatory, and the consequences of a slip change entirely.
+Everything above describes summer. From roughly November to April, snow covers the upper route and Toubkal stops being a walk. Crampons, an ice axe, and the knowledge to use them become mandatory, and the consequences of a slip change entirely.
 
 Fit beginners do summit in winter, but only with a guide qualified for winter conditions. See [Climbing Toubkal in Winter](/en/blog/toubkal-in-winter-what-to-expect).
 
@@ -2768,23 +2781,24 @@ Give it the longer itinerary if your schedule allows, walk slower than feels nec
   {
     slug: "toubkal-2-day-vs-4-day-which-trek",
     author: MET_TEAM,
-    title: "Toubkal in 2 Days or 4: Which Trek Should You Book?",
+    title: "Toubkal in 2, 3 or 4 Days: Which Trek Should You Book?",
     excerpt: "Both itineraries reach the same 4,167 m summit. The difference is how much time your body gets to adjust — and that changes your odds more than fitness does.",
     heroImage: "/gallery/toubkal-trekkers-below-summit.jpg",
     category: "trekking",
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-10-31",
+    updatedAt: "2026-11-07",
     tags: ["Toubkal itinerary", "2 day Toubkal", "4 day Toubkal", "how many days Toubkal", "High Atlas"],
-    seoTitle: "Toubkal in 2 Days or 4",
-    seoDescription: "A straight comparison of the 2-day and 4-day Toubkal treks — acclimatisation, summit-day length, who each suits, and when the longer trip is worth it.",
-    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "morocco-highlights-toubkal-sahara-8day"],
+    seoTitle: "Toubkal in 2, 3 or 4 Days",
+    seoDescription: "The 2-, 3- and 4-day Toubkal treks compared: nights before the summit, summit-day descent, who each suits and the price for two.",
+    relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "toubkal-aguelzim-pass-3day", "morocco-highlights-toubkal-sahara-8day"],
     faq: [
       { q: "How many days do you need to climb Toubkal?", a: "Two days is the practical minimum from Marrakech and it does work for fit walkers. Four days is what we recommend for most people, because the extra time is spent acclimatising rather than walking further, and that is the factor that most affects whether you reach the summit feeling well." },
       { q: "Is the 2-day Toubkal trek enough?", a: "It is enough to summit, and plenty of people do it. What it does not give you is time to adjust to altitude — you go from city level to 4,167 m in around thirty hours. If you have hillwalking experience and a tight schedule it is a reasonable choice; if this is your first time at altitude, the longer trip is the safer bet." },
       { q: "What do you actually do with the extra days on the 4-day trek?", a: "You walk in at a gentler pace and spend time at intermediate altitude before the summit push, rather than covering more ground. That is the whole point: the additional days are acclimatisation and recovery, which is what turns a grinding summit day into an enjoyable one." },
       { q: "Which Toubkal itinerary is best for beginners?", a: "The four-day. Beginners benefit most from the extra acclimatisation, and the slower build-up makes the summit day feel like a challenge rather than an ordeal. The two-day suits people who already know how their body handles altitude and multi-hour ascents." },
+      { q: "Is 3 days enough to climb Toubkal?", a: "Yes. Our two three-day routes both reach the summit on day three, after two nights in the mountains: the [Aguelzim Pass route](/en/tours/toubkal-aguelzim-pass-3day) spends the first night in the Azzaden valley and the second at the refuge, and the [three-peaks challenge](/en/tours/toubkal-three-peaks-4000m-3day), graded expert, spends both at the refuge. Like the 2-day, both come all the way down to Imlil on summit day, about 2,430 m of descent. Only the 4-day goes back to the refuge after the summit and walks out the next morning." },
     ],
     content: `
 Both trips end on the same summit. Both use the same route through the Aït Mizane valley to the refuge, and the same South Cirque climb at dawn. The question is not which is better — it is which is better *for you*.
@@ -2831,6 +2845,28 @@ None of this means the two-day trip is unsafe for a fit, experienced hillwalker 
 **Take the four-day if:** this is your first time near 4,000 metres, you would rather enjoy the summit than endure it, or you simply have the days available. For most people asking the question, this is the answer.
 
 The honest framing: the two-day is a fine trip that asks more of you. The four-day is the same trip with the main risk factor reduced.
+
+## What about three days?
+
+We run two three-day routes to the summit, and each sits between the 2-day and the 4-day in a different way.
+
+- **[Via the Aguelzim Pass](/en/tours/toubkal-aguelzim-pass-3day).** Day one walks into the Azzaden valley to Azib Tamsoult. Day two crosses the Aguelzim pass at 3,560 m to the refuge. Day three is the summit. You get two nights in the mountains before the top instead of one, on a quieter approach than the main valley. The nights are at the refuge or in camp, depending on the weather and what you prefer.
+- **[The three-peaks challenge](/en/tours/toubkal-three-peaks-4000m-3day).** Day two climbs Ouanoukrim's two summits, Timesguida (4,089 m) and Ras (4,083 m), and returns to the refuge. Day three is Toubkal. It is graded expert: a trip for people who already know how they handle altitude, not a gentler way up for first-timers.
+
+| | 2-day | 3-day, Aguelzim Pass | 3-day, three peaks | 4-day |
+|---|---|---|---|---|
+| Nights before the summit | 1: refuge (3,207 m) | 2: Azzaden valley, then refuge | 2: refuge | 2: Imlil (1,740 m), then refuge |
+| Summit day | Day 2 | Day 3 | Day 3 | Day 3 |
+| Walking on summit day | 7–8 h | 7 h | 6 h | 6–7 h |
+| Up and down on summit day | +960 m / −2,430 m | +960 m / −2,430 m | +960 m / −2,430 m | +960 m / −960 m |
+| After the summit | Down to Imlil and Marrakech the same day | The same | The same | Back to the refuge; walk out on day 4 |
+| Mule for group gear | No | Yes | Yes | Yes |
+| Grade | Challenging | Challenging | Expert | Challenging |
+| Price each, for two | €254 | €393 | €393 | €468 |
+
+The row that separates the 4-day from everything else is the descent. On the 2-day and both 3-day routes you start before dawn, stand on the summit, and then walk about 2,430 m down to Imlil the same day. On the 4-day you come down 960 m to the refuge, sleep, and do the rest the next morning.
+
+If you want more time up high before the summit but do not have four days, the Aguelzim route is the three-day to choose.
 
 ## If you have longer still
 
@@ -3177,6 +3213,8 @@ Every trek is private, for your group alone, with a licensed mountain guide, all
 ## Who walks with you, and where you sleep
 
 Your guide is a licensed mountain guide, and mules carry the luggage, so you walk with a day pack. Away from the summit routes, the nights are in village guesthouses run by Berber families: dinner is what the family cooks, and every room has its own bathroom. The Toubkal refuge is different, a shared mountain hut with dormitories at 3,207 m, above the last village. On the longer treks some nights are in camps, carried and set up by the mule team.
+
+What those village nights are like, and which of our treks include them, is in [sleeping in Berber village guesthouses](/en/blog/berber-village-guesthouse-atlas-trek).
 
 ## What these treks have in common
 
@@ -4073,7 +4111,7 @@ If you are still deciding where the trip goes, that geography matters more than 
       { q: "Can you really climb Toubkal in 2 days?", a: "Yes. The standard 2-day route drives from Marrakech to Imlil, treks to the Toubkal Refuge (3,207 m) on day one, and summits Jbel Toubkal (4,167 m) before dawn on day two, descending all the way back to Marrakech that evening. It is the fastest realistic way to the summit and is exactly what our [2-day Toubkal summit tour](/en/tours/toubkal-summit-2day-marrakech) is built around. The trade-off is that there is no spare acclimatisation day." },
       { q: "Is 2 days enough to acclimatise for Toubkal?", a: "For most fit walkers coming from sea level, yes, but it is tighter than the 4-day version. The single night at the refuge (3,207 m) does most of the acclimatising. If you have never been near 4,000 m or you know you react badly to altitude, the [4-day trek](/en/tours/toubkal-summit-trek-4day) builds in extra time and is the safer choice." },
       { q: "How hard is the 2-day Toubkal climb?", a: "It is graded challenging rather than technical. There is no climbing equipment needed in summer, but summit day is a long pre-dawn push up steep scree (or snow in winter) at altitude, and the compressed schedule means two big days back to back. You need to be a fit, regular walker — this is not a beginner's first mountain." },
-      { q: "What is the best time of year for the 2-day summit?", a: "April to October for the non-technical summer route. From roughly November to March the summit becomes a snow climb needing crampons and an ice axe, which changes the difficulty considerably — doable, but a winter undertaking rather than a fast summer dash. See our guide on [what Toubkal is like in winter](/en/blog/toubkal-in-winter-what-to-expect)." },
+      { q: "What is the best time of year for the 2-day summit?", a: "April to October for the non-technical summer route. From roughly November to April the summit becomes a snow climb needing crampons and an ice axe, which changes the difficulty considerably — doable, but a winter undertaking rather than a fast summer dash. See our guide on [what Toubkal is like in winter](/en/blog/toubkal-in-winter-what-to-expect)." },
     ],
     content: `
 ## Two Days to the Roof of North Africa
@@ -5169,7 +5207,7 @@ face at Imlil, that is exactly what you are doing too.
 
 ## Seasonal and group-size effects
 
-**Winter costs more.** From roughly November to March the summit is a snow climb needing
+**Winter costs more.** From roughly November to April the summit is a snow climb needing
 crampons and an ice axe, and guides charge more for winter conditions because the
 responsibility is greater. Add rental costs on top. See
 [Toubkal in winter, what to expect](/en/blog/toubkal-in-winter-what-to-expect).
@@ -5247,7 +5285,7 @@ know what is included before you leave Marrakech.
     faq: [
       { q: "How much does a 2-day Toubkal trek cost?", a: "Organising it yourself, two people typically spend 2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair) once the guide, two refuge beds with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 per person for two, €199 at six, or €455 solo — all of it included." },
       { q: "Is the 2-day cheaper than the 4-day Toubkal trek?", a: "Yes, but less than the day count suggests. The 2-day is €254 per person for two and the [4-day](/en/tours/toubkal-summit-trek-4day) is €468 — not double, because the guide fee and the Marrakech transfer are charged per trip rather than per day. The extra two days mostly buy acclimatisation, which is the single biggest factor in whether you actually reach the summit." },
-      { q: "What is not included in a 2-day Toubkal package?", a: "Travel insurance (mandatory and worth having for a 4,167 m mountain), personal trekking equipment, tips for the guide, and crampons and ice axe if you go between November and March. Budget roughly 100–150 MAD per day for winter kit rental in Imlil and roughly 300–400 MAD from the group for tips." },
+      { q: "What is not included in a 2-day Toubkal package?", a: "Travel insurance (mandatory and worth having for a 4,167 m mountain), personal trekking equipment, tips for the guide, and crampons and ice axe if you go between November and April. Budget roughly 100–150 MAD per day for winter kit rental in Imlil and roughly 300–400 MAD from the group for tips." },
       { q: "Can you climb Toubkal in 2 days without a guide?", a: "No. A licensed mountain guide is required on Toubkal and there is a checkpoint at Imlil that enforces it. See [do you need a guide to climb Toubkal](/en/blog/do-you-need-a-guide-to-climb-toubkal) for the rule and the reasoning behind it." },
     ],
     content: `
@@ -5319,7 +5357,7 @@ Worth budgeting separately:
 
 - **Travel insurance** — mandatory on our trips, and sensible on any 4,167 m mountain. Check it covers trekking to altitude, not just standard travel.
 - **Personal equipment** — boots, layers, a warm jacket. See [what to pack for a High Atlas trek](/en/blog/what-to-pack-high-atlas-trek-morocco).
-- **Winter kit** — crampons and ice axe from November to March, 100–150 MAD/day in Imlil.
+- **Winter kit** — crampons and ice axe from November to April, 100–150 MAD/day in Imlil.
 - **Tips** — 150–200 MAD a day for the guide, from the group, cash in dirhams at the end.
 
 ## Where the money goes
@@ -5364,7 +5402,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
       { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €468 per person for two, €338 at six, or €845 solo — all of it included." },
       { q: "Why is the 4-day not double the price of the 2-day?", a: "Because the largest costs are charged per trip rather than per day. The Marrakech transfer and a share of the guide's engagement are the same whether you walk for two days or four. Only the daily guide rate, the refuge nights, the meals and the 4-day's mule scale with duration — which is why €254 becomes €468 rather than €508." },
       { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €214 buys a materially higher chance of standing on the summit." },
-      { q: "What extra costs should I budget for on a 4-day trek?", a: "Travel insurance covering trekking to altitude, personal equipment, and tips of 150–200 MAD a day for the guide and 70–100 for the muleteer, from the group. Between November and March add crampons and ice axe rental at roughly 100–150 MAD per day. Everything else — refuges, all meals, mule, park fees and transfers — is included in our package." },
+      { q: "What extra costs should I budget for on a 4-day trek?", a: "Travel insurance covering trekking to altitude, personal equipment, and tips of 150–200 MAD a day for the guide and 70–100 for the muleteer, from the group. Between November and April add crampons and ice axe rental at roughly 100–150 MAD per day. Everything else — refuges, all meals, mule, park fees and transfers — is included in our package." },
     ],
     content: `
 ## The short answer
@@ -5431,7 +5469,7 @@ second saves far more.
 
 - **Travel insurance** — mandatory on our trips. Confirm it covers trekking above 4,000 m.
 - **Personal equipment** — see [what to pack for a High Atlas trek](/en/blog/what-to-pack-high-atlas-trek-morocco).
-- **Winter kit** — crampons and ice axe, 100–150 MAD/day in Imlil, November to March. See [Toubkal in winter](/en/blog/toubkal-in-winter-what-to-expect).
+- **Winter kit** — crampons and ice axe, 100–150 MAD/day in Imlil, November to April. See [Toubkal in winter](/en/blog/toubkal-in-winter-what-to-expect).
 - **Tips** — 150–200 MAD a day for the guide, 70–100 MAD for the muleteer, from the group, cash in dirhams.
 
 ## Going further than the summit
@@ -6166,7 +6204,7 @@ handlers or the guesthouses. Booking direct keeps it in the country.
     faq: [
       { q: "How much does the Toubkal Three Peaks trek cost?", a: "Our [3-day three-summit trek](/en/tours/toubkal-three-peaks-4000m-3day) is €393 per person for two, €299 at six, or €780 solo, with the high-altitude guide, both refuge nights, all meals, the mule porter, park fees and the Marrakech transfer included. Organising the same itinerary independently runs to roughly 3,200–4,600 MAD for two people once every line is added up." },
       { q: "Why does it cost more than a standard Toubkal trek?", a: "Not because of the extra day. The difference is the guide: Timesguida and Ras Ouanoukrim are graded expert and need a high-altitude qualified guide, whose day rate sits at the top of the 500–800 MAD band rather than the middle. The second refuge night and the extra meals add the rest." },
-      { q: "Do I need technical climbing skills for the three peaks?", a: "Not in summer — it is hard walking on scree and rock rather than climbing. From November to March all three summits need crampons and an ice axe, and the ability to use them. That is the single biggest thing that separates this trek from the standard Toubkal route." },
+      { q: "Do I need technical climbing skills for the three peaks?", a: "Not in summer — it is hard walking on scree and rock rather than climbing. From November to April all three summits need crampons and an ice axe, and the ability to use them. That is the single biggest thing that separates this trek from the standard Toubkal route." },
       { q: "Is three peaks in three days realistic?", a: "It is genuinely demanding. You sleep two nights at 3,207 m and summit on both full days, so there is no acclimatisation buffer. Anyone who has not been above 3,000 m recently should consider the [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) first, where the extra day exists specifically to acclimatise." },
     ],
     content: `
@@ -6205,7 +6243,7 @@ a 55% increase for a 50% longer trip with a scarcer guide and an extra refuge ni
 
 ## Winter changes the number
 
-Between November and March all three summits are snow, and crampons and an ice axe
+Between November and April all three summits are snow, and crampons and an ice axe
 stop being optional. Rental in Imlil runs **100–150 MAD per person per day**, so a
 three-day winter trip adds roughly 300–450 MAD each. Budget for it rather than
 discovering it at the trailhead.
@@ -6441,7 +6479,7 @@ the commitment.
       { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €1,140 for one traveller, €773 each for two and €470 each for four. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
       { q: "Is it cheaper than booking the trek and desert tour separately?", a: "It depends on how many of you there are. Solo it is €1,145 separately against €1,140 combined, and at four it is €523 against €470 — cheaper both times. For a pair it runs the other way: the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €380 each, so €634 separately against €773 combined — €139 more. What the combined trip also buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
       { q: "Do I need trekking experience for the Toubkal leg?", a: "It is graded challenging rather than expert. You sleep at the refuge at 3,207 m and summit the following morning — no technical skill needed in summer, but it is a long ascent at altitude. Reasonable hill fitness is enough; winter ascents need crampons and an ice axe." },
-      { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and March, and tips for the guides, driver, cook and muleteer." },
+      { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and April, and tips for the guides, driver, cook and muleteer." },
     ],
     content: `
 ## The short answer
@@ -11209,6 +11247,107 @@ The full cost breakdown is in [what a 3-day Sahara tour from Marrakech costs](/e
   [Erg Chebbi vs Erg Chegaga](/en/blog/erg-chebbi-vs-erg-chegaga).
 
 👉 **[See the 3-day tour](/en/tours/sahara-3day-marrakech)** or **[the 4-day tour](/en/tours/desert-4day-marrakech)**, and send us your dates: we reply with the price for your group.
+`,
+  },
+  {
+    slug: "berber-village-guesthouse-atlas-trek",
+    author: MET_TEAM,
+    title: "Sleeping in Berber Village Guesthouses on an Atlas Trek",
+    excerpt:
+      "On the Toubkal summit route you sleep in a shared mountain hut. On our village treks you sleep in a family's home: dinner cooked by the house, mint tea, and a valley that goes quiet after dark.",
+    heroImage: "/gallery/berber-home-interior-mint-tea.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 7,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["Berber guesthouse", "Atlas village trek", "High Atlas homestay", "Imlil", "Azzaden Valley"],
+    seoTitle: "Berber Village Guesthouses on Atlas Treks",
+    seoDescription:
+      "What a night in a Berber village guesthouse is like on an Atlas trek, how it differs from the Toubkal refuge, and which of our treks include one.",
+    relatedTours: ["azzaden-valley-2day-trek", "atlas-mountains-3day-trek", "family-atlas-4day-trek", "toubkal-summit-trek-4day"],
+    faq: [
+      { q: "What is a Berber village guesthouse like?", a: "It is a family's home in a mountain village, not a hotel. The family cooks dinner and breakfast, the rooms are simple, with mattresses on floor platforms or basic beds, and each room has its own bathroom. Evenings are mint tea and, often, bread baking, and the valley goes quiet after dark." },
+      { q: "Do the guesthouse rooms have a private bathroom?", a: "Yes. On our village treks each guesthouse room has its own bathroom. The Toubkal refuge is different: it is a shared mountain hut with dormitories." },
+      { q: "Which of your treks sleep in village guesthouses?", a: "All the nights on the [2-day Azzaden Valley trek](/en/tours/azzaden-valley-2day-trek), the [3-day High Atlas villages trek](/en/tours/atlas-mountains-3day-trek) and the [4-day family trek](/en/tours/family-atlas-4day-trek). The [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) starts with a night in an Imlil guesthouse, and the longer treks mix village nights with camps and the refuge." },
+      { q: "Do I carry my own luggage between villages?", a: "No. A mule carries the group's luggage from one village to the next, so you walk with a day pack for water, layers and a camera." },
+      { q: "Who guides the village treks?", a: "A licensed mountain guide from our family team. Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the High Atlas; Smail and Mohamed grew up on these trails, and every guide on the team grew up walking the routes they now lead." },
+      { q: "Is a guesthouse better than the Toubkal refuge?", a: "They do different jobs. The refuge at 3,207 m is where you sleep before the summit, among other trekkers doing the same climb. A village guesthouse is someone's home on a walking route between villages. If the summit is the goal, you need the refuge; if the villages are, the guesthouse is the point of the trip." },
+    ],
+    content: `
+On the Toubkal summit route you sleep in the refuge at 3,207 m, a shared mountain hut with
+dormitories, full of people climbing the same mountain the next morning. On our village treks
+you sleep somewhere else entirely: in a family's home, in a village, with dinner cooked by the house.
+
+For many of the people who walk with us, that night is the part of the trip they write to us about afterwards.
+
+## What a guesthouse night is like
+
+- **It is a home, not a hotel.** A Berber family lives there and hosts you. Dinner is what they cook,
+  breakfast is in the morning, and all meals on the trek are included.
+- **The rooms are simple.** Mattresses on floor platforms or basic beds, and each room has its own bathroom.
+- **The evenings are the family's.** Mint tea, and often bread baking, as part of the evening rather than a
+  staged demonstration. Once it is dark, the valley goes quiet.
+- **Your bag is already there.** A mule carries the group's luggage between villages, so you arrive with a
+  day pack and nothing to unpack in a hurry.
+
+With small children, take a look round when you arrive: many village houses have flat roofs and open stairwells.
+
+## Guesthouse or refuge
+
+| | Village guesthouse | Toubkal refuge |
+|---|---|---|
+| Where | In a village on the walking route, such as Tizi Oussem (1,850 m) or Tacheddirt (2,300 m) | 3,207 m, above the last village |
+| Rooms | Simple rooms, each with its own bathroom | Shared dormitories |
+| Who else is there | The family who lives there | Other trekkers on the way to the summit |
+| The next morning | You walk on to the next village | A start before dawn for the summit |
+| Which treks | The village treks, and some nights on the longer ones | Every Toubkal summit trek |
+
+## Our treks with village nights
+
+| Trek | Village nights | Other nights | Grade | Price each, for two |
+|---|---|---|---|---|
+| [Azzaden Valley, 2 days](/en/tours/azzaden-valley-2day-trek) | 1, in Tizi Oussem | None | Moderate | €161 |
+| [High Atlas villages, 3 days](/en/tours/atlas-mountains-3day-trek) | 2, in the Azzaden valley and Tacheddirt | None | Moderate | €235 |
+| [Family trek, 4 days](/en/tours/family-atlas-4day-trek) | 3 | None | Easy | €276 each from three people |
+| [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | 1, in Imlil | 2 at the refuge | Challenging | €468 |
+| [Toubkal circuit and Ifni Lake, 6 days](/en/tours/toubkal-circuit-ifni-lake-6day) | 2, in Tacheddirt and Amsouzart | 2 camps, 1 refuge | Challenging | €948 |
+| [M'Goun massif, 7 days](/en/tours/mgoun-massif-trek) | 2 | 4 camps | Expert | €760 |
+| [High Atlas grand traverse, 15 days](/en/tours/high-atlas-grand-traverse-15day) | 5 | 7 camps, 2 refuge | Expert | €2,040 |
+
+The first three are built around the villages: no summit, no refuge, no night at altitude. The
+Azzaden trek crosses the Tizi Mzik pass at 2,489 m to Tizi Oussem; the three-day trek links the
+Imlil, Azzaden and Ourika valleys with a different village each night; the family trek keeps the
+days short and the ground easy, with mules that can carry a tired child as well as the bags.
+What each costs, item by item, is in [what a 3-day High Atlas village trek costs](/en/blog/high-atlas-village-trek-cost).
+
+## Who walks with you
+
+Your guide is a licensed mountain guide from our family team, not a freelancer assigned the week
+you arrive. Our father, Lahsen Aitidar, was among the first licensed Berber mountain guides in the
+High Atlas. Smail and Mohamed grew up on these trails and built the company on his foundation in
+2010, and every guide on the team grew up walking the routes they now lead.
+
+In Imlil, the family's base is [Gîte Panorama](/en/blog/gite-panorama-imlil-base-camp-toubkal),
+which Lahsen built and which has been in the family for more than 30 years.
+
+A muleteer and mule carry the luggage. Tips for the guide and the muleteer are not included; they
+are customary, never compulsory.
+
+## What is included on the village treks
+
+- A licensed mountain guide
+- The guesthouse nights
+- All meals on the trek
+- A mule for the group's luggage
+- Transfer from Marrakech and back
+
+Not included: travel insurance (recommended), your own trekking kit, and tips.
+
+For the people whose homes you stay in, their language and their new year, see
+[who are the Berbers?](/en/blog/who-are-the-berbers).
+
+👉 **[See the 3-day High Atlas villages trek](/en/tours/atlas-mountains-3day-trek)**: three valleys, two village nights, no summit.
 `,
   },
 ];

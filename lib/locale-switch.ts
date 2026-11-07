@@ -72,6 +72,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prix-excursion-cascades-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "prix-soiree-desert-agafay": "agafay-desert-evening-cost",
     "circuit-sahara-3-ou-4-jours-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
+    "gite-berbere-village-trek-atlas": "berber-village-guesthouse-atlas-trek",
   },
   es: {
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -119,6 +120,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "precio-excursion-cascadas-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "precio-noche-desierto-agafay": "agafay-desert-evening-cost",
     "tour-sahara-3-o-4-dias-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
+    "casa-bereber-pueblo-trekking-atlas": "berber-village-guesthouse-atlas-trek",
   },
   de: {
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -166,6 +168,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "ouzoud-wasserfaelle-ausflug-kosten": "ouzoud-waterfalls-day-trip-cost",
     "agafay-wuestenabend-kosten": "agafay-desert-evening-cost",
     "sahara-tour-3-oder-4-tage-marrakesch": "3-day-vs-4-day-sahara-tour-marrakech",
+    "berber-gaestehaus-dorf-atlas-trekking": "berber-village-guesthouse-atlas-trek",
   },
   it: {
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
@@ -212,6 +215,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prezzo-escursione-cascate-ouzoud": "ouzoud-waterfalls-day-trip-cost",
     "prezzo-serata-deserto-agafay": "agafay-desert-evening-cost",
     "tour-sahara-3-o-4-giorni-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
+    "casa-berbera-villaggio-trekking-atlante": "berber-village-guesthouse-atlas-trek",
   },
 };
 

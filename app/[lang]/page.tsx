@@ -15,7 +15,7 @@ import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
 import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
 import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
-import { SITE, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
+import { SITE, SOCIAL, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
@@ -114,7 +114,7 @@ const websiteJsonLd = {
         closes: "20:00",
       },
       sameAs: [
-        "https://instagram.com/met_morocco",
+        SOCIAL.instagram,
         "https://facebook.com/marrakechecotours",
         TRIPADVISOR.url,
         TRUSTPILOT.url,

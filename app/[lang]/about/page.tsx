@@ -7,7 +7,7 @@ import WhyUs from "@/components/sections/WhyUs";
 import AboutStory from "@/components/sections/AboutStory";
 import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
-import { SITE, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
+import { SITE, SOCIAL, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
@@ -91,7 +91,7 @@ function aboutJsonLd(lang: string) {
         email: SITE.email,
         address: { "@type": "PostalAddress", ...SITE.postalAddress },
         sameAs: [
-          "https://instagram.com/met_morocco",
+          SOCIAL.instagram,
           "https://facebook.com/marrakechecotours",
           TRIPADVISOR.url,
           TRUSTPILOT.url,

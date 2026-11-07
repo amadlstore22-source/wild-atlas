@@ -88,7 +88,7 @@ export const SITE = {
 } as const;
 
 export const SOCIAL = {
-  instagram: "https://instagram.com/met_morocco",
+  instagram: "https://www.instagram.com/marrakechecotours/",
   facebook: "https://facebook.com/marrakechecotours",
   youtube: "https://youtube.com/@marrakechecotours",
 } as const;

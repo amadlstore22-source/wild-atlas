@@ -576,7 +576,7 @@ export const TOURS: Tour[] = [
       "Guía experto titulado de alta montaña",
       "Todas las comidas del circuito",
       "Mulas para el transporte del equipaje",
-      "Alojamiento con familias bereberes y camping",
+      "2 noches con familias bereberes y 4 noches de acampada",
       "Comunicación satelital de emergencia",
       "Tasas del parque nacional",
     ],
@@ -2968,7 +2968,7 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "trek-pueblos-alto-atlas-3-dias",
     brief: [
-      "Tres días caminando de valle en valle, sin ninguna cima en el plan. Desde Imlil se pasa al Azzaden el primer día (4 o 5 horas), se suben unos 800 m por los pastos altos hasta Tacheddirt, a 2.300 m, el segundo día (6 horas), y el tercero se cruza el Tizi n'Tacheddirt (unos 3.170 m) y se desciende por la cuenca del Ourika hasta la carretera (5 horas) para volver a Marrakech. Cada noche es una casa de huéspedes de aldea distinta, así que se atraviesa un territorio habitado en lugar de regresar a un campamento base.",
+      "Tres días caminando de valle en valle, sin ninguna cima en el plan. Desde Imlil se pasa al Azzaden el primer día (5 o 6 horas), se suben unos 800 m por los pastos altos hasta Tacheddirt, a 2.300 m, el segundo día (6 horas), y el tercero se cruza el Tizi n'Tacheddirt (unos 3.170 m) y se desciende por la cuenca del Ourika hasta la carretera (5 horas) para volver a Marrakech. Cada noche es una casa de huéspedes de aldea distinta, así que se atraviesa un territorio habitado en lugar de regresar a un campamento base.",
       "La ausencia de cima es el diseño, no una renuncia. El punto más alto es el puerto de Tizi n'Tacheddirt, a unos 3.170 m, que se cruza el tercer día de camino al Ourika; todas las noches se duerme en pueblos muy por debajo, y no hay pedreras ni salidas antes del amanecer. Queda una marcha moderada y constante, con el tiempo y la energía para fijarse en dónde está uno: los bancales, los azibs de pastoreo, los pastores, el cambio de carácter de un valle al siguiente.",
       "Eso lo convierte en un primer trek de varios días muy sólido. Quien camina de vez en cuando encadena aquí tres días sin que el viaje se vuelva una prueba de resistencia, y como las casas de huéspedes están en aldeas y no en un circuito de trekking, las tardes son tranquilas y locales en lugar de compartidas con otros cuarenta caminantes que persiguen la misma cima.",
       "Por persona: 416 € en solitario, 235 € para dos, 206 € para tres, 192 € para cuatro, 181 € para cinco y 169 € para seis. Incluye el guía de montaña titulado, las dos noches en casa de huéspedes, todas las comidas del trek, una mula que carga el equipaje del grupo y el traslado de ida y vuelta desde Marrakech. Se camina con una mochila de día. El seguro de viaje es recomendable, el equipo personal corre de su cuenta y las propinas del guía y del muletero van aparte.",
@@ -3018,7 +3018,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L,D",
         stay: "Casa rural (gîte)",
-        walking: "4–5 h",
+        walking: "5–6 h",
         driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Valle de Azzaden",
@@ -3044,14 +3044,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Valle de Ourika → Marrakech",
         description:
-          "Subida al puerto de Tizi n'Tacheddirt (unos 3.170 m) y descenso por la cuenca del Ourika entre nogales y campos en terrazas hasta la carretera. Unas 4-5 horas de caminata. Traslado de vuelta a Marrakech, llegada a última hora de la tarde.",
+          "Subida al puerto de Tizi n'Tacheddirt (unos 3.170 m) y descenso por la cuenca del Ourika entre nogales y campos en terrazas hasta la carretera. Unas 5 horas de caminata. Traslado de vuelta a Marrakech, llegada a última hora de la tarde.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking de 3 días por el Atlas",
     seoDescription: "Trekking de 3 días por los pueblos del Alto Atlas desde Marrakech, entre los valles de Imlil, Azzaden y Ourika. Casas bereberes, sin cumbre. Desde 416 €.",
     faq: [
-      { q: "¿Es apto este trekking como primera ruta de varios días?", a: "Sí: está clasificado como moderado y diseñado como una sólida introducción al trekking en Marruecos. No hay cumbre ni terreno técnico; las jornadas son de 4-6 horas por puertos de hasta unos 3.170 m (el Tizi n'Tacheddirt, el tercer día). En invierno ese puerto puede tener nieve; tu guía revisa las condiciones antes de cruzarlo. Si caminas con regularidad, irás bien." },
+      { q: "¿Es apto este trekking como primera ruta de varios días?", a: "Sí: está clasificado como moderado y diseñado como una sólida introducción al trekking en Marruecos. No hay cumbre ni terreno técnico; las jornadas son de 5-6 horas por puertos de hasta unos 3.170 m (el Tizi n'Tacheddirt, el tercer día). En invierno ese puerto puede tener nieve; tu guía revisa las condiciones antes de cruzarlo. Si caminas con regularidad, irás bien." },
       { q: "¿Cómo es el alojamiento?", a: "Dos noches en casas de huéspedes de pueblo, cada una atendida por una familia local, con todas las comidas incluidas. Son casas sencillas —colchones sobre plataformas o camas básicas, y baño privado en cada habitación— más que hoteles, que es de lo que trata el trekking." },
       { q: "¿Por qué no hay cumbre en este trekking?", a: "Está construido en torno a los valles y los pueblos más que a un pico. Eso mantiene la altitud moderada y las jornadas constantes, así que funciona para caminantes que quieren un trekking real del Alto Atlas sin las exigencias de un intento de cumbre al Toubkal." },
       { q: "¿Las mulas llevan el equipaje?", a: "Sí. Una mula lleva el equipaje principal del grupo entre casas de huéspedes, así que caminas con una mochila de día. El equipo de trekking personal debes traerlo tú." },
@@ -3091,7 +3091,7 @@ export const TOURS: Tour[] = [
     shortDescription: "Un trekking de cuatro días por el Alto Atlas al ritmo de las familias: jornadas de marcha cortas, valles suaves, casas de huéspedes de pueblo y mucho tiempo con las familias bereberes por el camino.",
     description: "Hacer trekking con niños en el Atlas funciona cuando las jornadas son cortas, el terreno fácil y hay algo que ver más que solo kilómetros que recorrer: así está construido exactamente este viaje. Cuatro días al ritmo familiar por los valles bajos de Imlil y Ourika: cruces de río, nogales, cascadas, hornear pan en una casa de pueblo y medias jornadas lo bastante cortas para dejar tiempo a que los niños sean niños. Las mulas lo llevan todo y también pueden llevar a los más pequeños cansados. Sin puertos altos ni largas caminatas: una auténtica aventura de montaña que una familia con niños en edad escolar puede hacer junta.",
     highlights: [
-      "Jornadas de marcha cortas y suaves, al ritmo de las familias (3-4 horas)",
+      "Jornadas de marcha cortas y suaves, al ritmo de las familias (2-5 horas)",
       "Noches en casas de huéspedes de pueblo con familias bereberes: hornear pan, té a la menta",
       "Cascadas, pozas de río y nogales más que puertos altos",
       "Las mulas llevan todo el equipaje y pueden llevar a los más pequeños cansados",
@@ -3128,7 +3128,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Caminata por el valle y cascadas",
         description:
-          "Una jornada suave siguiendo el río valle arriba hasta cascadas y pozas naturales, con muchas paradas. Unas 3-4 horas a ritmo relajado. Noche en casa de huéspedes de pueblo, con tiempo por la tarde para que los niños exploren o ayuden a hornear pan.",
+          "Una jornada suave siguiendo el río valle arriba hasta cascadas y pozas naturales, con muchas paradas. Unas 4 horas a ritmo relajado. Noche en casa de huéspedes de pueblo, con tiempo por la tarde para que los niños exploren o ayuden a hornear pan.",
       },
       {
         day: 3,
@@ -3138,7 +3138,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Paso al lado de Ourika",
         description:
-          "Un cruce fácil por un puerto de pastoreo bajo al valle más verde de Ourika, con mulas a mano para quien se canse. Unas 3-4 horas. Noche en casa de huéspedes de pueblo.",
+          "Un cruce fácil por un puerto de pastoreo bajo al valle más verde de Ourika, con mulas a mano para quien se canse. Unas 4-5 horas. Noche en casa de huéspedes de pueblo.",
       },
       {
         day: 4,
@@ -3148,14 +3148,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Valle de Ourika → Marrakech",
         description:
-          "Un corto descenso final por el valle de Ourika hasta la carretera, con una última parada junto al río. Unas 2 horas. Traslado de vuelta a Marrakech, llegada a primera hora de la tarde.",
+          "Un corto descenso final por el valle de Ourika hasta la carretera, con una última parada junto al río. Unas 3 horas. Traslado de vuelta a Marrakech, llegada a primera hora de la tarde.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking familiar por el Atlas 4 días",
-    seoDescription: "Trekking familiar de 4 días por el Alto Atlas desde Marrakech: etapas cortas, cascadas, casas bereberes y mulas para los niños. Para familias. Desde 554 €.",
+    seoDescription: "Trekking familiar de 4 días por el Alto Atlas desde Marrakech: etapas cortas, cascadas, casas bereberes y mulas para los niños. Desde 225 € p. p. con 6 o más.",
     faq: [
-      { q: "¿Para qué edad de niños es apto este trekking?", a: "Funciona bien para niños en edad escolar de unos 6 años en adelante que estén acostumbrados a caminar y jugar al aire libre. Las jornadas son cortas (2-4 horas) y de nivel fácil, y hay mulas a mano para llevar a los más pequeños que se cansen. Para niños muy pequeños no es lo ideal: la caminata, aunque suave, sigue siendo por senderos de montaña." },
+      { q: "¿Para qué edad de niños es apto este trekking?", a: "Funciona bien para niños en edad escolar de unos 6 años en adelante que estén acostumbrados a caminar y jugar al aire libre. Las jornadas son cortas (2-5 horas) y de nivel fácil, y hay mulas a mano para llevar a los más pequeños que se cansen. Para niños muy pequeños no es lo ideal: la caminata, aunque suave, sigue siendo por senderos de montaña." },
       { q: "¿Qué pasa si un niño se cansa a mitad de camino?", a: "Las mulas que llevan el equipaje también pueden llevar a un niño pequeño cansado, y el guía marca el ritmo del grupo más que un horario. Las jornadas cortas y las paradas frecuentes están pensadas precisamente para que no se presione a nadie." },
       { q: "¿Dónde se duerme?", a: "Tres noches en casas de huéspedes de pueblo bereberes atendidas por familias locales, con todas las comidas incluidas. Las familias suelen comer junto a los anfitriones, y normalmente hay pan horneándose o animales alrededor que los niños disfrutan. Cada habitación tiene su propio baño privado." },
       { q: "¿Es seguro para familias?", a: "Sí. Las rutas se mantienen en senderos de valle fáciles sin exposición ni puertos altos, el guía tiene experiencia con familias, y no hay preocupación de altitud por debajo de unos 2.200 m. Bastan las precauciones sensatas habituales: sol, agua, calzado resistente." },

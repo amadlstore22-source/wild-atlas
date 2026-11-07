@@ -156,7 +156,11 @@ export default async function TourDetailPage({ params }: TourParams) {
   const tourUrl = `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}`;
   const offer = buildAggregateOffer({
     low: priceIn(cheapest.price, DEFAULT_CURRENCY),
-    high: priceIn(tour.price, DEFAULT_CURRENCY),
+    // The dearest rate a party can actually book. Not tour.price: on a tour
+    // with a booking minimum that is the solo rate, which nobody can pay
+    // (family-atlas-4day-trek told Google €554 while it starts at three
+    // people, €276 each).
+    high: priceIn(Math.max(...groupPriceTiers(tour).map((t) => t.price)), DEFAULT_CURRENCY),
     currency: DEFAULT_CURRENCY,
     url: tourUrl,
     validUntil,

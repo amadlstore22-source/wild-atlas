@@ -1638,7 +1638,7 @@ The gite is built in traditional High Atlas style — stone walls, terrace rooms
 
 A Toubkal summit attempt leaves before dawn — typically 4:30–5:00 am to catch the summit before afternoon weather builds and to descend before fatigue sets in seriously. That means sleep matters. It means not arriving in Imlil at midnight from a long flight, eating nothing, and expecting to perform at altitude the next morning.
 
-We build one full evening in Imlil into every Toubkal itinerary for this reason. Arrive in the afternoon. Walk the village. Eat dinner with your guide, who will brief you on the route, the weather forecast, and what to expect at each stage. Sleep. Wake before light. Walk.
+This is why our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) starts with a full evening in Imlil. The [2-day trek](/en/tours/toubkal-summit-2day-marrakech) has no Imlil night: it walks straight up to the refuge on day one, which is why we suggest it to experienced hill walkers. Arrive in the afternoon. Walk the village. Eat dinner with your guide, who will brief you on the route, the weather forecast, and what to expect at each stage. Sleep. Wake before light. Walk.
 
 The trekkers who have the best summit experiences are almost always the ones who took the evening seriously.
 
@@ -3199,7 +3199,7 @@ Rated moderate — the most approachable route here. Its season is inverted rela
 |---|---|---|---|---|---|---|
 | 2 | [Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | Challenging | Toubkal refuge | 5 h, then 7–8 h | €254 | Fit walkers short on time |
 | 2 | [Azzaden Valley](/en/tours/azzaden-valley-2day-trek) | Moderate | Village guesthouse | 5–6 h | €161 | A first taste, no summit |
-| 3 | [High Atlas villages](/en/tours/atlas-mountains-3day-trek) | Moderate | Two village guesthouses | 4–6 h | €235 | Village life, no summit |
+| 3 | [High Atlas villages](/en/tours/atlas-mountains-3day-trek) | Moderate | Two village guesthouses | 5–6 h | €235 | Village life, no summit |
 | 3 | [Toubkal via the Aguelzim pass](/en/tours/toubkal-aguelzim-pass-3day) | Challenging | Refuge or camp, by weather and preference | 5–7 h | €393 | A quieter way to the summit |
 | 3 | [Toubkal's three 4,000 m peaks](/en/tours/toubkal-three-peaks-4000m-3day) | Expert | Toubkal refuge, two nights | 5–8 h | €393 | Walkers already at home at altitude |
 | 4 | [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | Challenging | Imlil guesthouse, then the refuge | 1–7 h | €468 | A first time at altitude |

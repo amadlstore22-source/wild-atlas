@@ -576,7 +576,7 @@ export const TOURS: Tour[] = [
       "Guida esperta abilitata di alta montagna",
       "Tutti i pasti del tour",
       "Muli per il trasporto dell'attrezzatura",
-      "Ospitalità presso famiglie berbere e campeggio",
+      "2 notti presso famiglie berbere e 4 notti in campeggio",
       "Comunicazione satellitare d'emergenza",
       "Tasse del parco nazionale",
     ],
@@ -2968,7 +2968,7 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "trek-villaggi-alto-atlante-3-giorni",
     brief: [
-      "Tre giorni di cammino di valle in valle, senza alcuna vetta in programma. Da Imlil si passa nell'Azzaden il primo giorno (4-5 ore), si salgono circa 800 m per i pascoli alti fino a Tacheddirt a 2.300 m il secondo giorno (6 ore), poi il terzo giorno si valica il Tizi n'Tacheddirt (circa 3.170 m) e si scende lungo il bacino dell'Ourika fino alla strada (5 ore) e si rientra a Marrakech. Ogni notte in una casa per ospiti di villaggio diversa: attraversate quindi un territorio abitato invece di tornare a un campo base.",
+      "Tre giorni di cammino di valle in valle, senza alcuna vetta in programma. Da Imlil si passa nell'Azzaden il primo giorno (5-6 ore), si salgono circa 800 m per i pascoli alti fino a Tacheddirt a 2.300 m il secondo giorno (6 ore), poi il terzo giorno si valica il Tizi n'Tacheddirt (circa 3.170 m) e si scende lungo il bacino dell'Ourika fino alla strada (5 ore) e si rientra a Marrakech. Ogni notte in una casa per ospiti di villaggio diversa: attraversate quindi un territorio abitato invece di tornare a un campo base.",
       "L'assenza di una vetta è il progetto, non un compromesso. Il punto più alto è il passo del Tizi n'Tacheddirt, a circa 3.170 m, valicato il terzo giorno in direzione dell'Ourika; tutte le notti si dorme in villaggi molto più in basso, e non ci sono ghiaioni né partenze prima dell'alba. Resta un cammino moderato e costante, con il tempo e l'energia per accorgersi di dove siete: i terrazzamenti, gli azib da pascolo, i pastori, il cambio di carattere da una valle all'altra.",
       "Questo ne fa un ottimo primo trek di più giorni. Chi cammina occasionalmente riesce qui a mettere in fila tre giorni senza che il viaggio diventi una prova di resistenza, e poiché le case per ospiti sono nei villaggi e non su un circuito di trekking, le serate sono tranquille e locali anziché condivise con altri quaranta camminatori diretti alla stessa vetta.",
       "A persona: 416 € da soli, 235 € in due, 206 € in tre, 192 € in quattro, 181 € in cinque e 169 € in sei. Sono inclusi la guida alpina abilitata, entrambe le notti in casa per ospiti, tutti i pasti del trek, un mulo che trasporta i bagagli del gruppo e il transfer andata e ritorno da Marrakech. Si cammina con uno zaino da giornata. L'assicurazione di viaggio è consigliata, l'attrezzatura personale è a vostro carico e le mance per guida e mulattiere sono a parte.",
@@ -3018,7 +3018,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L,D",
         stay: "Gîte di villaggio",
-        walking: "4–5 h",
+        walking: "5–6 h",
         driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Valle di Azzaden",
@@ -3044,14 +3044,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Valle dell'Ourika → Marrakech",
         description:
-          "Salita al passo del Tizi n'Tacheddirt (circa 3.170 m), poi discesa nel bacino dell'Ourika tra noceti e campi terrazzati fino alla strada. Circa 4-5 ore di cammino. Trasferimento di ritorno a Marrakech, arrivo nel tardo pomeriggio.",
+          "Salita al passo del Tizi n'Tacheddirt (circa 3.170 m), poi discesa nel bacino dell'Ourika tra noceti e campi terrazzati fino alla strada. Circa 5 ore di cammino. Trasferimento di ritorno a Marrakech, arrivo nel tardo pomeriggio.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking di 3 giorni nell'Atlante",
     seoDescription: "Trekking di 3 giorni tra i villaggi dell'Alto Atlante da Marrakech, per le valli di Imlil, Azzaden e Ourika. Case berbere, passi, nessuna vetta. Da €416.",
     faq: [
-      { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 4-6 ore per passi fino a circa 3.170 m (il Tizi n'Tacheddirt, il terzo giorno). In inverno il passo può essere innevato: la guida controlla le condizioni prima di valicarlo. Se cammini con regolarità, te la caverai bene." },
+      { q: "Questo trekking è adatto come primo itinerario di più giorni?", a: "Sì: è classificato moderato e pensato come una solida introduzione al trekking in Marocco. Non ci sono cime né terreno tecnico; le giornate sono di 5-6 ore per passi fino a circa 3.170 m (il Tizi n'Tacheddirt, il terzo giorno). In inverno il passo può essere innevato: la guida controlla le condizioni prima di valicarlo. Se cammini con regolarità, te la caverai bene." },
       { q: "Com'è l'alloggio?", a: "Due notti in case di villaggio, ciascuna gestita da una famiglia locale, con tutti i pasti inclusi. Sono case semplici — materassi su pedane o letti basilari, e bagno privato in ogni camera — più che alberghi, che è il senso del trekking." },
       { q: "Perché non c'è una cima in questo trekking?", a: "È costruito attorno alle valli e ai villaggi più che a una vetta. Questo mantiene la quota moderata e le giornate costanti, quindi funziona per chi vuole un vero trekking dell'Alto Atlante senza le esigenze di un tentativo di cima al Toubkal." },
       { q: "I muli portano i bagagli?", a: "Sì. Un mulo porta i bagagli principali del gruppo tra le case, quindi cammini con uno zaino da giornata. L'attrezzatura da trekking personale la porti tu." },
@@ -3091,7 +3091,7 @@ export const TOURS: Tour[] = [
     shortDescription: "Un trekking di quattro giorni nell'Alto Atlante al ritmo delle famiglie: tappe brevi, valli dolci, case di villaggio e molto tempo con le famiglie berbere lungo il cammino.",
     description: "Fare trekking con i bambini nell'Atlante funziona quando le giornate sono brevi, il terreno facile e c'è qualcosa da vedere più che solo chilometri da percorrere: è esattamente così che è costruito questo viaggio. Quattro giorni al ritmo della famiglia attraverso le basse valli di Imlil e Ourika: guadi, noceti, cascate, la panificazione in una casa di villaggio e mezze giornate abbastanza brevi da lasciare ai bambini il tempo di essere bambini. I muli portano tutto e possono portare anche i più piccoli stanchi. Nessun passo elevato, nessuna lunga marcia: una vera avventura di montagna che una famiglia con bambini in età scolare può fare insieme.",
     highlights: [
-      "Tappe brevi e dolci, al ritmo delle famiglie (3-4 ore)",
+      "Tappe brevi e dolci, al ritmo delle famiglie (2-5 ore)",
       "Notti in case di villaggio con famiglie berbere: panificazione, tè alla menta",
       "Cascate, pozze fluviali e noceti più che passi elevati",
       "I muli portano tutti i bagagli e possono portare i più piccoli stanchi",
@@ -3128,7 +3128,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Camminata nella valle e cascate",
         description:
-          "Una giornata dolce seguendo il fiume su per la valle fino a cascate e pozze naturali, con molte soste. Circa 3-4 ore a ritmo rilassato. Pernottamento in casa di villaggio, con tempo nel pomeriggio perché i bambini esplorino o aiutino a fare il pane.",
+          "Una giornata dolce seguendo il fiume su per la valle fino a cascate e pozze naturali, con molte soste. Circa 4 ore a ritmo rilassato. Pernottamento in casa di villaggio, con tempo nel pomeriggio perché i bambini esplorino o aiutino a fare il pane.",
       },
       {
         day: 3,
@@ -3138,7 +3138,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Passaggio sul versante dell'Ourika",
         description:
-          "Un facile valico di un basso passo di pascolo verso la più verde valle dell'Ourika, con muli a disposizione per chi si stanca. Circa 3-4 ore. Pernottamento in casa di villaggio.",
+          "Un facile valico di un basso passo di pascolo verso la più verde valle dell'Ourika, con muli a disposizione per chi si stanca. Circa 4-5 ore. Pernottamento in casa di villaggio.",
       },
       {
         day: 4,
@@ -3148,14 +3148,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Valle dell'Ourika → Marrakech",
         description:
-          "Una breve discesa finale nella valle dell'Ourika fino alla strada, con un'ultima sosta lungo il fiume. Circa 2 ore. Trasferimento di ritorno a Marrakech, arrivo nel primo pomeriggio.",
+          "Una breve discesa finale nella valle dell'Ourika fino alla strada, con un'ultima sosta lungo il fiume. Circa 3 ore. Trasferimento di ritorno a Marrakech, arrivo nel primo pomeriggio.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking in famiglia nell'Atlante 4 giorni",
-    seoDescription: "Trekking per famiglie di 4 giorni nell'Alto Atlante da Marrakech: tappe brevi, cascate, case berbere, muli per i bambini. Pensato per le famiglie. Da €554.",
+    seoDescription: "Trekking per famiglie di 4 giorni nell'Alto Atlante da Marrakech: tappe brevi, cascate, case berbere, muli per i bambini. Da €225 a persona con 6+.",
     faq: [
-      { q: "Per quale età dei bambini è adatto questo trekking?", a: "Funziona bene per bambini in età scolare da circa 6 anni in su, abituati a camminare e giocare all'aperto. Le giornate sono brevi (2-4 ore) e di livello facile, e ci sono muli a disposizione per portare i più piccoli che si stancano. Per i bimbi molto piccoli non è l'ideale: il cammino, per quanto dolce, resta su sentieri di montagna." },
+      { q: "Per quale età dei bambini è adatto questo trekking?", a: "Funziona bene per bambini in età scolare da circa 6 anni in su, abituati a camminare e giocare all'aperto. Le giornate sono brevi (2-5 ore) e di livello facile, e ci sono muli a disposizione per portare i più piccoli che si stancano. Per i bimbi molto piccoli non è l'ideale: il cammino, per quanto dolce, resta su sentieri di montagna." },
       { q: "Cosa succede se un bambino si stanca a metà cammino?", a: "I muli che portano i bagagli possono portare anche un bambino piccolo stanco, e la guida imposta il ritmo sul gruppo più che su un orario. Giornate brevi e soste frequenti sono previste proprio perché nessuno venga forzato." },
       { q: "Dove si dorme?", a: "Tre notti in case di villaggio berbere gestite da famiglie locali, con tutti i pasti inclusi. Le famiglie mangiano spesso insieme agli ospiti, e di solito c'è del pane in cottura o animali intorno che i bambini apprezzano. Ogni camera ha il proprio bagno privato." },
       { q: "È sicuro per le famiglie?", a: "Sì. I percorsi restano su facili sentieri di valle senza esposizione né passi elevati, la guida ha esperienza con le famiglie, e non c'è preoccupazione di quota sotto i 2.200 m circa. Bastano le consuete precauzioni di buon senso: sole, acqua, scarpe robuste." },

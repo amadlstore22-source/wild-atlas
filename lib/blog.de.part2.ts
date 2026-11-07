@@ -863,7 +863,7 @@ Als moderat eingestuft — die zugänglichste Route hier. Die Saison ist gegenü
 |---|---|---|---|---|---|---|
 | 2 | [Toubkal-Gipfel](/de/tours/toubkal-besteigung-2-tage) | Anspruchsvoll | Toubkal-Hütte | 5 Std., dann 7–8 Std. | 254 € | Fitte Wanderer mit wenig Zeit |
 | 2 | [Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) | Mittel | Dorfgästehaus | 5–6 Std. | 161 € | Ein erster Eindruck, ohne Gipfel |
-| 3 | [Dörfer im Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage) | Mittel | Zwei Dorfgästehäuser | 4–6 Std. | 235 € | Dorfleben, ohne Gipfel |
+| 3 | [Dörfer im Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage) | Mittel | Zwei Dorfgästehäuser | 5–6 Std. | 235 € | Dorfleben, ohne Gipfel |
 | 3 | [Toubkal über den Aguelzim-Pass](/de/tours/toubkal-aguelzim-pass-3-tage) | Anspruchsvoll | Hütte oder Biwak, je nach Wetter und Wunsch | 5–7 Std. | 393 € | Ein ruhigerer Weg zum Gipfel |
 | 3 | [Die drei 4.000er am Toubkal](/de/tours/toubkal-drei-gipfel-4000m-3-tage) | Experte | Toubkal-Hütte, zwei Nächte | 5–8 Std. | 393 € | Wanderer, die Höhe schon kennen |
 | 4 | [Toubkal-Gipfel, 4 Tage](/de/tours/toubkal-gipfel-trek-4-tage) | Anspruchsvoll | Gästehaus in Imlil, dann die Hütte | 1–7 Std. | 468 € | Das erste Mal in der Höhe |

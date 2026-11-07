@@ -1518,7 +1518,7 @@ La gite è costruita in stile tradizionale dell'Alto Atlante — muri di pietra,
 
 Un tentativo di vetta al Toubkal parte prima dell'alba — tipicamente tra le 4:30 e le 5:00 — per raggiungere la vetta prima che il tempo pomeridiano peggiori e per scendere prima che la stanchezza si faccia sentire seriamente. Questo significa che il sonno conta. Significa non arrivare a Imlil a mezzanotte dopo un lungo volo, non mangiare nulla, e aspettarsi di performare in quota il mattino seguente.
 
-Per questo motivo inseriamo un'intera serata a Imlil in ogni itinerario del Toubkal. Arrivate nel pomeriggio. Camminate per il villaggio. Cenate con la vostra guida, che vi darà indicazioni sul percorso, le previsioni meteo e cosa aspettarvi a ogni tappa. Dormite. Svegliatevi prima dell'alba. Camminate.
+Per questo il nostro [trekking di 4 giorni al Toubkal](/it/tours/trek-cima-toubkal-4-giorni) comincia con un'intera serata a Imlil. Il [trekking di 2 giorni](/it/tours/salita-toubkal-2-giorni) non ha una notte a Imlil: sale direttamente al rifugio il primo giorno, ed è per questo che lo consigliamo a escursionisti esperti. Arrivate nel pomeriggio. Camminate per il villaggio. Cenate con la vostra guida, che vi darà indicazioni sul percorso, le previsioni meteo e cosa aspettarvi a ogni tappa. Dormite. Svegliatevi prima dell'alba. Camminate.
 
 I trekker con le migliori esperienze di vetta sono quasi sempre quelli che hanno preso sul serio la serata precedente.
 

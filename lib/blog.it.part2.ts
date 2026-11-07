@@ -859,7 +859,7 @@ Classificato moderato: il percorso più accessibile qui. La sua stagione è inve
 |---|---|---|---|---|---|---|
 | 2 | [Vetta del Toubkal](/it/tours/salita-toubkal-2-giorni) | Impegnativo | Rifugio del Toubkal | 5 h, poi 7–8 h | 254 € | Escursionisti allenati con poco tempo |
 | 2 | [Valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) | Moderato | Casa di villaggio | 5–6 h | 161 € | Un primo assaggio, senza vetta |
-| 3 | [Villaggi dell'Alto Atlante](/it/tours/trek-villaggi-alto-atlante-3-giorni) | Moderato | Due case di villaggio | 4–6 h | 235 € | La vita dei villaggi, senza vetta |
+| 3 | [Villaggi dell'Alto Atlante](/it/tours/trek-villaggi-alto-atlante-3-giorni) | Moderato | Due case di villaggio | 5–6 h | 235 € | La vita dei villaggi, senza vetta |
 | 3 | [Toubkal dal passo Aguelzim](/it/tours/toubkal-passo-aguelzim-3-giorni) | Impegnativo | Rifugio o bivacco, secondo meteo e preferenze | 5–7 h | 393 € | Una via più tranquilla alla vetta |
 | 3 | [Le tre vette di 4.000 m del Toubkal](/it/tours/toubkal-tre-cime-4000m-3-giorni) | Esperto | Rifugio del Toubkal, due notti | 5–8 h | 393 € | Chi è già a suo agio in quota |
 | 4 | [Vetta del Toubkal, 4 giorni](/it/tours/trek-cima-toubkal-4-giorni) | Impegnativo | Casa a Imlil, poi il rifugio | 1–7 h | 468 € | Una prima volta in quota |

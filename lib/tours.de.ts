@@ -576,7 +576,7 @@ export const TOURS: Tour[] = [
       "Erfahrener staatlich geprüfter Hochgebirgsführer",
       "Alle Mahlzeiten während der Tour",
       "Maultiere für den Gepäcktransport",
-      "Übernachtung bei Berberfamilien und Zelten",
+      "2 Nächte bei Berberfamilien und 4 Nächte im Zelt",
       "Satelliten-Notfallkommunikation",
       "Nationalpark-Gebühren",
     ],
@@ -2968,7 +2968,7 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "hoher-atlas-dorftrek-3-tage",
     brief: [
-      "Drei Tage Wandern von Tal zu Tal, ohne jeden Gipfel im Programm. Von Imlil wechseln Sie am ersten Tag ins Azzaden (4–5 Stunden), steigen am zweiten Tag rund 800 Höhenmeter über Hochweiden nach Tacheddirt auf 2.300 m (6 Stunden) und am dritten Tag über den Tizi n'Tacheddirt (etwa 3.170 m) und durch das Ourika-Einzugsgebiet zur Straße ab (5 Stunden), bevor es zurück nach Marrakesch geht. Jede Nacht in einem anderen Dorfgästehaus — Sie bewegen sich also durch bewohntes Land, statt zu einem Basislager zurückzukehren.",
+      "Drei Tage Wandern von Tal zu Tal, ohne jeden Gipfel im Programm. Von Imlil wechseln Sie am ersten Tag ins Azzaden (5–6 Stunden), steigen am zweiten Tag rund 800 Höhenmeter über Hochweiden nach Tacheddirt auf 2.300 m (6 Stunden) und am dritten Tag über den Tizi n'Tacheddirt (etwa 3.170 m) und durch das Ourika-Einzugsgebiet zur Straße ab (5 Stunden), bevor es zurück nach Marrakesch geht. Jede Nacht in einem anderen Dorfgästehaus — Sie bewegen sich also durch bewohntes Land, statt zu einem Basislager zurückzukehren.",
       "Das Fehlen eines Gipfels ist Absicht, kein Kompromiss. Der höchste Punkt ist der Pass Tizi n'Tacheddirt auf etwa 3.170 m, den Sie am dritten Tag auf dem Weg ins Ourika-Tal überqueren; alle Nächte verbringen Sie in Dörfern weit darunter, und es gibt weder Geröll noch Aufbrüche vor Sonnenaufgang. Übrig bleibt gleichmäßiges, mittelschweres Gehen mit der Zeit und Kraft, wahrzunehmen, wo man ist — die Terrassenfelder, die Weide-Azibs, die Hirten, der Wechsel im Charakter von einem Tal zum nächsten.",
       "Das macht es zu einem starken ersten Mehrtagestrek. Wer zu Hause gelegentlich wandert, schafft hier drei aufeinanderfolgende Tage, ohne dass die Reise zur Ausdauerprüfung wird, und weil die Gästehäuser in Dörfern liegen und nicht an einer Trekkingroute, sind die Abende ruhig und lokal statt mit vierzig weiteren Wanderern auf demselben Gipfelweg geteilt.",
       "Pro Person: 416 € allein, 235 € zu zweit, 206 € zu dritt, 192 € zu viert, 181 € zu fünft und 169 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, beide Gästehausnächte, alle Mahlzeiten während des Treks, ein Maultier für das Gruppengepäck und der Hin- und Rücktransfer ab Marrakesch. Sie gehen mit einem Tagesrucksack. Die Reiseversicherung ist empfohlen, persönliche Trekkingausrüstung ist Ihre Sache, und Trinkgelder für Bergführer und Maultierführer sind separat.",
@@ -3018,7 +3018,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L,D",
         stay: "Dorf-Gîte",
-        walking: "4–5 h",
+        walking: "5–6 h",
         driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakesch → Imlil → Azzaden-Tal",
@@ -3044,14 +3044,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika-Tal → Marrakesch",
         description:
-          "Aufstieg zum Pass Tizi n'Tacheddirt (etwa 3.170 m), dann Abstieg durchs Ourika-Einzugsgebiet über Walnusshaine und Terrassenfelder zur Straße. Etwa 4–5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
+          "Aufstieg zum Pass Tizi n'Tacheddirt (etwa 3.170 m), dann Abstieg durchs Ourika-Einzugsgebiet über Walnusshaine und Terrassenfelder zur Straße. Etwa 5 Stunden Gehzeit. Rücktransfer nach Marrakesch, Ankunft am späten Nachmittag.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Tage-Trek im Atlasgebirge",
     seoDescription: "3-Tage-Dörfertrek im Hohen Atlas ab Marrakesch durch die Täler von Imlil, Azzaden und Ourika. Berber-Gästehäuser, Pässe, kein Gipfelsturm. Ab €416.",
     faq: [
-      { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 4–6 Stunden über Pässe bis etwa 3.170 m (den Tizi n'Tacheddirt am dritten Tag). Im Winter kann dieser Pass verschneit sein; Ihr Guide prüft die Bedingungen, bevor Sie ihn überqueren. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
+      { q: "Eignet sich dieser Trek als erste Mehrtagestour?", a: "Ja — er ist als mittel eingestuft und als solide Einführung ins Trekking in Marokko konzipiert. Es gibt weder Gipfel noch technisches Gelände; die Tage dauern 5–6 Stunden über Pässe bis etwa 3.170 m (den Tizi n'Tacheddirt am dritten Tag). Im Winter kann dieser Pass verschneit sein; Ihr Guide prüft die Bedingungen, bevor Sie ihn überqueren. Wenn Sie regelmäßig wandern, kommen Sie gut zurecht." },
       { q: "Wie ist die Unterkunft?", a: "Zwei Nächte in Dorf-Gästehäusern, jeweils von einer einheimischen Familie geführt, mit allen Mahlzeiten. Es sind einfache Häuser — Matratzen auf Plattformen oder einfache Betten, jedes Zimmer mit eigenem Bad — statt Hotels, was den Sinn des Treks ausmacht." },
       { q: "Warum gibt es auf diesem Trek keinen Gipfel?", a: "Er ist um die Täler und Dörfer herum gebaut statt um einen Gipfel. Das hält die Höhe moderat und die Tage stetig, er passt also für Wanderer, die echtes Trekking im Hohen Atlas ohne die Anforderungen eines Toubkal-Gipfelversuchs wollen." },
       { q: "Tragen Maultiere das Gepäck?", a: "Ja. Ein Maultier trägt das Hauptgepäck der Gruppe zwischen den Gästehäusern, Sie gehen also mit einem Tagesrucksack. Persönliche Trekkingausrüstung bringen Sie selbst mit." },
@@ -3091,7 +3091,7 @@ export const TOURS: Tour[] = [
     shortDescription: "Ein viertägiger Hoher-Atlas-Trek im Familientempo: kurze Gehtage, sanfte Täler, Dorf-Gästehäuser und viel Zeit mit Berberfamilien unterwegs.",
     description: "Trekking mit Kindern im Atlas gelingt, wenn die Tage kurz sind, das Gelände leicht ist und es etwas zu sehen gibt statt nur Kilometer abzuspulen — genau so ist diese Reise gebaut. Vier Tage im Familientempo durch die unteren Täler von Imlil und Ourika: Flussüberquerungen, Walnusshaine, Wasserfälle, Brotbacken in einem Dorfhaus und Halbtage kurz genug, um Kindern Zeit zu lassen, Kinder zu sein. Maultiere tragen alles und können auch müde jüngere Kinder tragen. Keine hohen Pässe, keine langen Märsche — ein echtes Bergabenteuer, das eine Familie mit schulpflichtigen Kindern gemeinsam machen kann.",
     highlights: [
-      "Kurze, sanfte Gehtage im Familientempo (3–4 Stunden)",
+      "Kurze, sanfte Gehtage im Familientempo (2–5 Stunden)",
       "Nächte in Dorf-Gästehäusern bei Berberfamilien — Brotbacken, Minztee",
       "Wasserfälle, Flusspools und Walnusshaine statt hoher Pässe",
       "Maultiere tragen das gesamte Gepäck und können müde jüngere Kinder tragen",
@@ -3128,7 +3128,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Talwanderung & Wasserfälle",
         description:
-          "Ein sanfter Tag dem Fluss talaufwärts folgend zu Wasserfällen und natürlichen Pools, mit vielen Pausen. Etwa 3–4 Stunden in entspanntem Tempo. Übernachtung im Dorf-Gästehaus, mit Zeit am Nachmittag, damit die Kinder erkunden oder beim Brotbacken helfen können.",
+          "Ein sanfter Tag dem Fluss talaufwärts folgend zu Wasserfällen und natürlichen Pools, mit vielen Pausen. Etwa 4 Stunden in entspanntem Tempo. Übernachtung im Dorf-Gästehaus, mit Zeit am Nachmittag, damit die Kinder erkunden oder beim Brotbacken helfen können.",
       },
       {
         day: 3,
@@ -3138,7 +3138,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Übergang zur Ourika-Seite",
         description:
-          "Eine leichte Überquerung über einen niedrigen Weidepass ins grünere Ourika-Tal, mit Maultieren zur Hand für alle, die ermüden. Etwa 3–4 Stunden. Übernachtung im Dorf-Gästehaus.",
+          "Eine leichte Überquerung über einen niedrigen Weidepass ins grünere Ourika-Tal, mit Maultieren zur Hand für alle, die ermüden. Etwa 4–5 Stunden. Übernachtung im Dorf-Gästehaus.",
       },
       {
         day: 4,
@@ -3148,14 +3148,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Ourika-Tal → Marrakesch",
         description:
-          "Ein kurzer finaler Abstieg durchs Ourika-Tal zur Straße, mit einer letzten Rast am Fluss. Etwa 2 Stunden. Rücktransfer nach Marrakesch, Ankunft am frühen Nachmittag.",
+          "Ein kurzer finaler Abstieg durchs Ourika-Tal zur Straße, mit einer letzten Rast am Fluss. Etwa 3 Stunden. Rücktransfer nach Marrakesch, Ankunft am frühen Nachmittag.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Familien-Trek im Atlasgebirge 4 Tage",
-    seoDescription: "4-Tage-Familientrek im Hohen Atlas ab Marrakesch: kurze Etappen, Wasserfälle, Berber-Gästehäuser, Maultiere für Kinder. Für Familien gemacht. Ab €554.",
+    seoDescription: "4-Tage-Familientrek im Hohen Atlas ab Marrakesch: kurze Etappen, Wasserfälle, Berber-Gästehäuser, Maultiere für Kinder. Ab €225 p. P. für 6+.",
     faq: [
-      { q: "Für welches Kindesalter ist dieser Trek geeignet?", a: "Er funktioniert gut für schulpflichtige Kinder ab etwa 6 Jahren, die ans Gehen und Draußensein gewöhnt sind. Die Tage sind kurz (2–4 Stunden) und leicht, und Maultiere sind zur Hand, um müde jüngere Kinder zu tragen. Für Kleinkinder ist er nicht ideal — das Gehen, so sanft es ist, führt weiterhin über Bergpfade." },
+      { q: "Für welches Kindesalter ist dieser Trek geeignet?", a: "Er funktioniert gut für schulpflichtige Kinder ab etwa 6 Jahren, die ans Gehen und Draußensein gewöhnt sind. Die Tage sind kurz (2–5 Stunden) und leicht, und Maultiere sind zur Hand, um müde jüngere Kinder zu tragen. Für Kleinkinder ist er nicht ideal — das Gehen, so sanft es ist, führt weiterhin über Bergpfade." },
       { q: "Was passiert, wenn ein Kind unterwegs müde wird?", a: "Die Maultiere, die das Gepäck tragen, können auch ein müdes jüngeres Kind tragen, und der Führer richtet das Tempo nach der Gruppe statt nach einem Zeitplan. Kurze Tage und häufige Pausen sind genau dafür eingeplant, dass niemand gedrängt wird." },
       { q: "Wo übernachtet man?", a: "Drei Nächte in Berber-Dorf-Gästehäusern, von einheimischen Familien geführt, mit allen Mahlzeiten. Familien essen oft mit den Gastgebern, und meist gibt es Brotbacken oder Tiere ringsum, die Kindern gefallen. Jedes Zimmer hat ein eigenes Bad." },
       { q: "Ist er sicher für Familien?", a: "Ja. Die Routen bleiben auf leichten Talpfaden ohne Ausgesetztheit und ohne hohe Pässe, der Führer hat Familienerfahrung, und unter etwa 2.200 m gibt es keine Höhenbedenken. Übliche vernünftige Vorkehrungen — Sonne, Wasser, feste Schuhe — genügen." },

@@ -863,7 +863,7 @@ Classé modéré — l'itinéraire le plus accessible présenté ici. Sa saison 
 |---|---|---|---|---|---|---|
 | 2 | [Sommet du Toubkal](/fr/tours/ascension-toubkal-2-jours) | Exigeant | Refuge du Toubkal | 5 h, puis 7–8 h | 254 € | Marcheurs en forme et pressés |
 | 2 | [Vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) | Modéré | Maison d'hôtes de village | 5–6 h | 161 € | Une première approche, sans sommet |
-| 3 | [Villages du Haut Atlas](/fr/tours/trek-villages-haut-atlas-3-jours) | Modéré | Deux maisons d'hôtes de village | 4–6 h | 235 € | La vie des villages, sans sommet |
+| 3 | [Villages du Haut Atlas](/fr/tours/trek-villages-haut-atlas-3-jours) | Modéré | Deux maisons d'hôtes de village | 5–6 h | 235 € | La vie des villages, sans sommet |
 | 3 | [Toubkal par le col d'Aguelzim](/fr/tours/toubkal-col-aguelzim-3-jours) | Exigeant | Refuge ou bivouac, selon la météo et vos envies | 5–7 h | 393 € | Un chemin plus calme vers le sommet |
 | 3 | [Les trois sommets à 4 000 m du Toubkal](/fr/tours/toubkal-trois-sommets-4000m-3-jours) | Expert | Refuge du Toubkal, deux nuits | 5–8 h | 393 € | Marcheurs déjà à l'aise en altitude |
 | 4 | [Sommet du Toubkal, 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) | Exigeant | Maison d'hôtes à Imlil, puis le refuge | 1–7 h | 468 € | Une première fois en altitude |

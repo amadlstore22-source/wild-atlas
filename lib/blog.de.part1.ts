@@ -1519,7 +1519,7 @@ Das Gîte ist im traditionellen Stil des Hohen Atlas erbaut – Steinmauern, Ter
 
 Ein Toubkal-Gipfelversuch startet vor Sonnenaufgang – typischerweise 4:30–5:00 Uhr, um den Gipfel vor dem Aufbau des Nachmittagswetters zu erreichen und vor ernsthafter Erschöpfung abzusteigen. Das bedeutet, dass Schlaf zählt. Es bedeutet, nicht um Mitternacht nach einem langen Flug in Imlil anzukommen, nichts zu essen und am nächsten Morgen in der Höhe Leistung zu erwarten.
 
-Wir bauen aus diesem Grund einen vollen Abend in Imlil in jedes Toubkal-Itinerar ein. Ankunft am Nachmittag. Spaziergang durchs Dorf. Abendessen mit Ihrem Führer, der Sie über die Route, die Wettervorhersage und die Erwartungen für jede Etappe informiert. Schlafen. Vor dem Licht aufwachen. Losgehen.
+Deshalb beginnt unser [4-tägiger Toubkal-Trek](/de/tours/toubkal-gipfel-trek-4-tage) mit einem vollen Abend in Imlil. Der [2-tägige Trek](/de/tours/toubkal-besteigung-2-tage) hat keine Nacht in Imlil: Er steigt am ersten Tag direkt zur Hütte auf, weshalb wir ihn erfahrenen Bergwanderern empfehlen. Ankunft am Nachmittag. Spaziergang durchs Dorf. Abendessen mit Ihrem Führer, der Sie über die Route, die Wettervorhersage und die Erwartungen für jede Etappe informiert. Schlafen. Vor dem Licht aufwachen. Losgehen.
 
 Die Trekker mit den besten Gipfelerlebnissen sind fast immer diejenigen, die den Abend ernst genommen haben.
 

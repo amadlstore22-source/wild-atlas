@@ -888,7 +888,7 @@ export const TOURS: Tour[] = [
       "Expert licensed high-mountain guide",
       "All meals throughout",
       "Mule team for equipment",
-      "Berber family homestays and camping",
+      "2 nights with Berber families and 4 nights camping",
       "Emergency satellite communication",
       "National park fees",
     ],
@@ -3685,7 +3685,7 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     relatedPosts: ["berber-village-guesthouse-atlas-trek", "high-atlas-village-trek-cost", "best-multi-day-treks-morocco", "who-are-the-berbers"],
     brief: [
-      "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (4–5 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then cross the Tizi n'Tacheddirt (about 3,170 m) and descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
+      "Three days of walking valley to valley, with no summit anywhere in the plan. From Imlil you cross into the Azzaden on day one (5–6 hours), climb about 800 m over high pastures to Tacheddirt at 2,300 m on day two (6 hours), then cross the Tizi n'Tacheddirt (about 3,170 m) and descend the Ourika watershed to the roadhead on day three (5 hours) and drive back to Marrakech. Each night is a different village guesthouse, so you are moving through inhabited country rather than returning to a base.",
       "The absence of a summit is the design, not a compromise. The high point is the Tizi n'Tacheddirt pass, about 3,170 m, crossed on day three on the way to the Ourika, but every night is spent in a village well below it, and there is no scree and no pre-dawn push. What is left is steady moderate walking with the time and energy to notice where you are — the terraced fields, the grazing azibs, the shepherds, the change from one valley's character to the next.",
       "That makes it a strong first multi-day trek. People who walk occasionally at home manage three consecutive days here without the trip becoming an endurance exercise, and because the guesthouses are in villages rather than on a trekking circuit, the evenings are quiet and local rather than shared with forty other walkers doing the same summit.",
       "Per person: €416 solo, €235 for two, €206 for three, €192 for four, €181 for five and €169 at six. Included are the licensed mountain guide, both guesthouse nights, every meal on the trek, a mule carrying the group's luggage and return transfer from Marrakech. You walk with a day pack. Travel insurance is recommended, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
@@ -3748,7 +3748,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L,D",
         stay: "Village gîte",
-        walking: "4–5 h",
+        walking: "5–6 h",
         driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Azzaden Valley",
@@ -3774,14 +3774,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Ourika Valley → Marrakech",
         description:
-          "Climb to the Tizi n'Tacheddirt pass (about 3,170 m), then descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 4–5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
+          "Climb to the Tizi n'Tacheddirt pass (about 3,170 m), then descend the Ourika watershed through walnut groves and terraced fields to the roadhead. Around 5 hours walking. Transfer back to Marrakech, arriving late afternoon.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Atlas Mountains Trek from Marrakech",
     seoDescription: "3-day High Atlas village trek from Marrakech linking the Imlil, Azzaden and Ourika valleys. Berber guesthouses, mountain passes, no summit push. From €416.",
     faq: [
-      { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 4–6 hours over passes up to about 3,170 m (the Tizi n'Tacheddirt, on day three). In winter that pass can hold snow, so your guide checks conditions before crossing it. If you walk regularly you will be fine." },
+      { q: "Is this trek suitable as a first multi-day hike?", a: "Yes — it is graded moderate and designed as a solid introduction to trekking in Morocco. There is no summit or technical ground; the days are 5–6 hours over passes up to about 3,170 m (the Tizi n'Tacheddirt, on day three). In winter that pass can hold snow, so your guide checks conditions before crossing it. If you walk regularly you will be fine." },
       { q: "What is the accommodation like?", a: "Two nights in village guesthouses, each hosted by a local family, with all meals included. These are simple homes — mattresses on floor platforms or basic beds, each room with its own private bathroom — rather than hotels, which is the point of the trek." },
       { q: "Why is there no summit on this trek?", a: "It is built around the valleys and villages rather than a peak. That keeps the altitude moderate and the days steady, so it works for walkers who want real High Atlas trekking without the demands of a Toubkal summit attempt." },
       { q: "Do mules carry the luggage?", a: "Yes. A mule carries the group's main luggage between guesthouses, so you walk with a daypack. Personal trekking gear is your own to bring." },
@@ -3836,7 +3836,7 @@ export const TOURS: Tour[] = [
     description:
       "Trekking with children in the Atlas works when the days are short, the ground is easy, and there is something to see rather than just kilometres to cover — which is exactly how this trip is built. Four days move at a family pace through the lower Imlil and Ourika valleys: river crossings, walnut groves, waterfalls, bread baking in a village home, and half-days short enough to leave time for kids to actually be kids. Mules carry everything and can carry tired younger children too. No high passes, no long slogs — a real mountain adventure that a family with school-age children can do together.",
     highlights: [
-      "Short, gentle walking days built around a family pace (3–4 hours)",
+      "Short, gentle walking days built around a family pace (2–5 hours)",
       "Village guesthouse nights with Berber families — bread baking, mint tea",
       "Waterfalls, river pools and walnut groves rather than high passes",
       "Mules carry all luggage and can carry tired younger children",
@@ -3873,7 +3873,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Valley walk & waterfalls",
         description:
-          "A gentle day following the river up the valley to waterfalls and natural pools, with plenty of stops. Around 3–4 hours at a relaxed pace. Overnight in a village guesthouse, with time in the afternoon for the kids to explore or help bake bread.",
+          "A gentle day following the river up the valley to waterfalls and natural pools, with plenty of stops. Around 4 hours at a relaxed pace. Overnight in a village guesthouse, with time in the afternoon for the kids to explore or help bake bread.",
       },
       {
         day: 3,
@@ -3883,7 +3883,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Cross to the Ourika side",
         description:
-          "An easy crossing over a low grazing pass into the greener Ourika valley, with mules on hand for anyone who tires. Around 3–4 hours. Overnight in a village guesthouse.",
+          "An easy crossing over a low grazing pass into the greener Ourika valley, with mules on hand for anyone who tires. Around 4–5 hours. Overnight in a village guesthouse.",
       },
       {
         day: 4,
@@ -3893,14 +3893,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Ourika Valley → Marrakech",
         description:
-          "A short final descent through the Ourika valley to the roadhead, with a last riverside stop. Around 2 hours. Transfer back to Marrakech, arriving early afternoon.",
+          "A short final descent through the Ourika valley to the roadhead, with a last riverside stop. Around 3 hours. Transfer back to Marrakech, arriving early afternoon.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Family 4-Day Atlas Mountains Trek",
-    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. Built for families. From €554.",
+    seoDescription: "4-day family-friendly High Atlas trek from Marrakech: short walking days, waterfalls, Berber village guesthouses, mules for kids. From €225 pp for 6+.",
     faq: [
-      { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–4 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
+      { q: "What age children is this trek suitable for?", a: "It works well for school-age children roughly 6 and up who are used to walking and playing outdoors. Days are short (2–5 hours) at an easy grade, and mules are on hand to carry younger children who tire. For toddlers it is not ideal — the walking, while gentle, is still on mountain trails." },
       { q: "What if a child gets tired mid-walk?", a: "The mules that carry the luggage can also carry a tired younger child, and the guide sets the pace around the group rather than a schedule. Short days and frequent stops are built in precisely so that no one is pushed." },
       { q: "Where do we stay?", a: "Three nights in Berber village guesthouses hosted by local families, with all meals included. Families often eat together with the hosts, and there is usually bread baking or animals around that children enjoy. Each room has its own private bathroom." },
       { q: "Is it safe for families?", a: "Yes. The routes stay on easy valley trails with no exposure or high passes, the guide is experienced with families, and there is no altitude concern below about 2,200 m. Standard sensible precautions — sun, water, sturdy shoes — are all that is needed." },

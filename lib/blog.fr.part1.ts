@@ -1526,7 +1526,7 @@ Le gîte est construit dans le style traditionnel du Haut Atlas — murs en pier
 
 Une tentative de sommet au Toubkal démarre avant l'aube — généralement entre 4h30 et 5h00 — pour atteindre le sommet avant que le temps ne se dégrade en après-midi et redescendre avant que la fatigue ne s'installe sérieusement. Cela signifie que le sommeil compte. Cela signifie ne pas arriver à Imlil à minuit après un long vol, ne rien manger, et espérer performer en altitude le lendemain matin.
 
-Nous intégrons une soirée complète à Imlil dans chaque itinéraire du Toubkal pour cette raison. Arrivez l'après-midi. Parcourez le village. Dînez avec votre guide, qui vous briefera sur l'itinéraire, les prévisions météo, et ce à quoi vous attendre à chaque étape. Dormez. Réveillez-vous avant le jour. Marchez.
+C'est pourquoi notre [trek du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) commence par une soirée complète à Imlil. Le [trek de 2 jours](/fr/tours/ascension-toubkal-2-jours) n'a pas de nuit à Imlil : il monte directement au refuge le premier jour, c'est pourquoi nous le conseillons aux randonneurs expérimentés. Arrivez l'après-midi. Parcourez le village. Dînez avec votre guide, qui vous briefera sur l'itinéraire, les prévisions météo, et ce à quoi vous attendre à chaque étape. Dormez. Réveillez-vous avant le jour. Marchez.
 
 Les randonneurs qui vivent les meilleures expériences de sommet sont presque toujours ceux qui ont pris la soirée au sérieux.
 

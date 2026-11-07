@@ -585,7 +585,7 @@ export const TOURS: Tour[] = [
       "Guide de haute montagne expert et diplômé",
       "Tous les repas du circuit",
       "Mules pour le portage du matériel",
-      "Hébergement chez l'habitant berbère et camping",
+      "2 nuits chez des familles berbères et 4 nuits en bivouac",
       "Communication satellite d'urgence",
       "Droits d'entrée du parc national",
     ],
@@ -2977,7 +2977,7 @@ export const TOURS: Tour[] = [
     slug: "atlas-mountains-3day-trek",
     localizedSlug: "trek-villages-haut-atlas-3-jours",
     brief: [
-      "Trois jours de marche de vallée en vallée, sans aucun sommet au programme. Depuis Imlil, vous passez dans l'Azzaden le premier jour (4 à 5 heures), montez environ 800 m par les hauts pâturages jusqu'à Tacheddirt à 2 300 m le deuxième jour (6 heures), puis franchissez le Tizi n'Tacheddirt (environ 3 170 m) et descendez le bassin de l'Ourika jusqu'à la route le troisième jour (5 heures) avant le retour à Marrakech. Chaque nuit se passe dans une maison d'hôtes de village différente : vous traversez donc un pays habité au lieu de revenir à un camp de base.",
+      "Trois jours de marche de vallée en vallée, sans aucun sommet au programme. Depuis Imlil, vous passez dans l'Azzaden le premier jour (5 à 6 heures), montez environ 800 m par les hauts pâturages jusqu'à Tacheddirt à 2 300 m le deuxième jour (6 heures), puis franchissez le Tizi n'Tacheddirt (environ 3 170 m) et descendez le bassin de l'Ourika jusqu'à la route le troisième jour (5 heures) avant le retour à Marrakech. Chaque nuit se passe dans une maison d'hôtes de village différente : vous traversez donc un pays habité au lieu de revenir à un camp de base.",
       "L'absence de sommet est un choix, pas un compromis. Le point culminant est le col du Tizi n'Tacheddirt, à environ 3 170 m, franchi le troisième jour en route vers l'Ourika, mais toutes les nuits se passent dans des villages bien plus bas, et il n'y a ni éboulis ni départ avant l'aube. Reste une marche modérée et régulière, avec le temps et l'énergie de remarquer où vous êtes — les cultures en terrasses, les azibs de pâturage, les bergers, le changement de caractère d'une vallée à l'autre.",
       "Cela en fait un excellent premier trek de plusieurs jours. Les personnes qui marchent occasionnellement chez elles enchaînent ici trois jours sans que le voyage ne devienne une épreuve d'endurance, et comme les maisons d'hôtes sont dans des villages plutôt que sur un circuit de trekking, les soirées sont calmes et locales au lieu d'être partagées avec quarante autres marcheurs visant le même sommet.",
       "Par personne : 416 € seul, 235 € à deux, 206 € à trois, 192 € à quatre, 181 € à cinq et 169 € à six. Sont inclus le guide de montagne diplômé, les deux nuits en maison d'hôtes, tous les repas du trek, un mulet portant les bagages du groupe et le transfert aller-retour depuis Marrakech. Vous marchez avec un sac de journée. L'assurance voyage est recommandée, l'équipement personnel est à votre charge, et les pourboires du guide et du muletier sont à part.",
@@ -3027,7 +3027,7 @@ export const TOURS: Tour[] = [
         day: 1,
         meals: "L,D",
         stay: "Gîte de village",
-        walking: "4–5 h",
+        walking: "5–6 h",
         driving: "1.5 h",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakech → Imlil → Vallée d'Azzaden",
@@ -3053,14 +3053,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Tacheddirt → Vallée de l'Ourika → Marrakech",
         description:
-          "Montée au col du Tizi n'Tacheddirt (environ 3 170 m), puis descente du bassin de l'Ourika à travers noyeraies et champs en terrasses jusqu'à la route. Environ 4 à 5 heures de marche. Transfert retour à Marrakech, arrivée en fin d'après-midi.",
+          "Montée au col du Tizi n'Tacheddirt (environ 3 170 m), puis descente du bassin de l'Ourika à travers noyeraies et champs en terrasses jusqu'à la route. Environ 5 heures de marche. Transfert retour à Marrakech, arrivée en fin d'après-midi.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trek de 3 jours dans l'Atlas",
     seoDescription: "Trek de 3 jours de village en village dans le Haut Atlas depuis Marrakech : vallées d'Imlil, d'Azzaden et de l'Ourika, gîtes berbères, sans sommet. Dès 416 €.",
     faq: [
-      { q: "Ce trek convient-il comme première randonnée de plusieurs jours ?", a: "Oui — il est classé modéré et conçu comme une solide introduction au trek au Maroc. Il n'y a ni sommet ni terrain technique ; les journées font 4 à 6 heures par des cols jusqu'à environ 3 170 m (le Tizi n'Tacheddirt, le troisième jour). En hiver, ce col peut être enneigé : votre guide vérifie les conditions avant de le franchir. Si vous marchez régulièrement, vous vous en sortirez très bien." },
+      { q: "Ce trek convient-il comme première randonnée de plusieurs jours ?", a: "Oui — il est classé modéré et conçu comme une solide introduction au trek au Maroc. Il n'y a ni sommet ni terrain technique ; les journées font 5 à 6 heures par des cols jusqu'à environ 3 170 m (le Tizi n'Tacheddirt, le troisième jour). En hiver, ce col peut être enneigé : votre guide vérifie les conditions avant de le franchir. Si vous marchez régulièrement, vous vous en sortirez très bien." },
       { q: "Comment est l'hébergement ?", a: "Deux nuits en maisons d'hôtes de village, chacune tenue par une famille locale, tous les repas inclus. Ce sont des maisons simples — matelas sur des estrades ou lits basiques, salle de bain privée pour chaque chambre — plutôt que des hôtels, ce qui fait tout le sens du trek." },
       { q: "Pourquoi n'y a-t-il pas de sommet sur ce trek ?", a: "Il est construit autour des vallées et des villages plutôt que d'un pic. Cela maintient l'altitude modérée et les journées régulières, il convient donc aux marcheurs qui veulent un vrai trek du Haut Atlas sans les exigences d'une tentative de sommet au Toubkal." },
       { q: "Les mulets portent-ils les bagages ?", a: "Oui. Un mulet porte les bagages principaux du groupe entre les maisons d'hôtes, vous marchez donc avec un sac à dos. L'équipement de trek personnel est à apporter par vos soins." },
@@ -3100,7 +3100,7 @@ export const TOURS: Tour[] = [
     shortDescription: "Un trek de quatre jours dans le Haut Atlas au rythme des familles : journées de marche courtes, vallées douces, maisons d'hôtes de village et beaucoup de temps avec les familles berbères en chemin.",
     description: "Faire du trek avec des enfants dans l'Atlas fonctionne quand les journées sont courtes, le terrain facile et qu'il y a quelque chose à voir plutôt que seulement des kilomètres à parcourir — c'est exactement ainsi que ce voyage est conçu. Quatre jours au rythme des familles à travers les basses vallées d'Imlil et de l'Ourika : traversées de rivière, noyeraies, cascades, cuisson du pain dans une maison de village, et des demi-journées assez courtes pour laisser aux enfants le temps d'être des enfants. Les mulets portent tout et peuvent aussi porter les plus petits fatigués. Pas de cols élevés, pas de longues marches — une vraie aventure en montagne qu'une famille avec des enfants scolarisés peut faire ensemble.",
     highlights: [
-      "Journées de marche courtes et douces, au rythme des familles (3 à 4 heures)",
+      "Journées de marche courtes et douces, au rythme des familles (2 à 5 heures)",
       "Nuits en maisons d'hôtes de village avec des familles berbères — cuisson du pain, thé à la menthe",
       "Cascades, vasques de rivière et noyeraies plutôt que cols élevés",
       "Les mulets portent tous les bagages et peuvent porter les plus petits fatigués",
@@ -3137,7 +3137,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Imlil", lat: 31.1369, lng: -7.9169 },
         title: "Marche dans la vallée et cascades",
         description:
-          "Une journée douce le long de la rivière en remontant la vallée jusqu'à des cascades et des vasques naturelles, avec de nombreux arrêts. Environ 3 à 4 heures à un rythme détendu. Nuit en maison d'hôtes de village, avec du temps l'après-midi pour que les enfants explorent ou aident à cuire le pain.",
+          "Une journée douce le long de la rivière en remontant la vallée jusqu'à des cascades et des vasques naturelles, avec de nombreux arrêts. Environ 4 heures à un rythme détendu. Nuit en maison d'hôtes de village, avec du temps l'après-midi pour que les enfants explorent ou aident à cuire le pain.",
       },
       {
         day: 3,
@@ -3147,7 +3147,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Tacheddirt", lat: 31.15589, lng: -7.84377 },
         title: "Passage vers le versant de l'Ourika",
         description:
-          "Une traversée facile d'un col de pâturage peu élevé vers la vallée plus verte de l'Ourika, avec des mulets à disposition pour ceux qui fatiguent. Environ 3 à 4 heures. Nuit en maison d'hôtes de village.",
+          "Une traversée facile d'un col de pâturage peu élevé vers la vallée plus verte de l'Ourika, avec des mulets à disposition pour ceux qui fatiguent. Environ 4 à 5 heures. Nuit en maison d'hôtes de village.",
       },
       {
         day: 4,
@@ -3157,14 +3157,14 @@ export const TOURS: Tour[] = [
         stop: { name: "Ourika Valley", lat: 31.18315, lng: -7.78111 },
         title: "Vallée de l'Ourika → Marrakech",
         description:
-          "Une courte descente finale à travers la vallée de l'Ourika jusqu'à la route, avec un dernier arrêt au bord de la rivière. Environ 2 heures. Transfert retour à Marrakech, arrivée en début d'après-midi.",
+          "Une courte descente finale à travers la vallée de l'Ourika jusqu'à la route, avec un dernier arrêt au bord de la rivière. Environ 3 heures. Transfert retour à Marrakech, arrivée en début d'après-midi.",
       },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trek en famille dans l'Atlas 4 jours",
-    seoDescription: "Trek familial de 4 jours dans le Haut Atlas depuis Marrakech : courtes étapes, cascades, gîtes berbères, mules pour les enfants. Pour les familles. Dès 554 €.",
+    seoDescription: "Trek familial de 4 jours dans le Haut Atlas depuis Marrakech : courtes étapes, cascades, gîtes berbères, mules pour les enfants. Dès 225 € par pers. pour 6+.",
     faq: [
-      { q: "À partir de quel âge ce trek convient-il aux enfants ?", a: "Il fonctionne bien pour les enfants scolarisés à partir de 6 ans environ, habitués à marcher et jouer dehors. Les journées sont courtes (2 à 4 heures) à un niveau facile, et des mulets sont là pour porter les plus petits qui fatiguent. Pour les tout-petits, ce n'est pas idéal — la marche, bien que douce, reste sur des sentiers de montagne." },
+      { q: "À partir de quel âge ce trek convient-il aux enfants ?", a: "Il fonctionne bien pour les enfants scolarisés à partir de 6 ans environ, habitués à marcher et jouer dehors. Les journées sont courtes (2 à 5 heures) à un niveau facile, et des mulets sont là pour porter les plus petits qui fatiguent. Pour les tout-petits, ce n'est pas idéal — la marche, bien que douce, reste sur des sentiers de montagne." },
       { q: "Que se passe-t-il si un enfant se fatigue en cours de route ?", a: "Les mulets qui portent les bagages peuvent aussi porter un jeune enfant fatigué, et le guide règle le rythme sur le groupe plutôt que sur un horaire. Des journées courtes et des arrêts fréquents sont prévus précisément pour que personne ne soit poussé." },
       { q: "Où dort-on ?", a: "Trois nuits en maisons d'hôtes de village berbères tenues par des familles locales, tous les repas inclus. Les familles mangent souvent avec les hôtes, et il y a généralement de la cuisson du pain ou des animaux autour que les enfants apprécient. Chaque chambre a sa propre salle de bain privée." },
       { q: "Est-ce sûr pour les familles ?", a: "Oui. Les itinéraires restent sur des sentiers de vallée faciles sans exposition ni cols élevés, le guide est habitué aux familles, et il n'y a pas de souci d'altitude en dessous d'environ 2 200 m. Les précautions de bon sens habituelles — soleil, eau, bonnes chaussures — suffisent." },

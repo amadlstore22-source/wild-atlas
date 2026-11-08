@@ -5,6 +5,7 @@ import { limitByIp, rateLimit } from "@/lib/rate-limit";
 import { isCrossOrigin } from "@/lib/request-origin";
 import { enquirySourceLabel } from "@/lib/enquiry-source";
 import { safeGreetingName, isRealTourTitle } from "@/lib/enquiry-safety";
+import { enquiryTourInfo } from "@/lib/enquiry-tour";
 import { confirmationEmail, confirmationLang } from "@/lib/enquiry-confirmation";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -101,7 +102,11 @@ export async function POST(req: NextRequest) {
     // the sheet; a lost one is not. logEnquiry swallows all its own failures
     // and is bounded by a 4 s timeout, so it can neither block nor break
     // delivery. __tests__/lib/contact-route-logging-order.test.ts pins this.
-    await logEnquiry({ type, name, email, tour, date, people, subject, message, heard });
+    // PRIVATE or SHARED, the page and its price for this group: the form sends
+    // only the title, which does not say (lib/enquiry-tour.ts, 2026-11-08).
+    const tourInfo = type === "booking" ? enquiryTourInfo(tour, people) : { tag: "", lines: [] as string[] };
+    const tourTagged = tourInfo.tag ? `${tour} (${tourInfo.tag.toLowerCase()})` : tour;
+    await logEnquiry({ type, name, email, tour: tourTagged, date, people, subject, message, heard });
 
     const resendKey = process.env.RESEND_API_KEY;
     if (!resendKey) {
@@ -118,7 +123,7 @@ export async function POST(req: NextRequest) {
     {
       const emailBody =
         type === "booking"
-          ? `New booking inquiry for ${tour}:\n\nName: ${name}\nEmail: ${email}\nDate: ${date || "flexible"}\nPeople: ${people}${heard ? `\nFound us via: ${heard}` : ""}`
+          ? `New booking inquiry for ${tour}:\n${tourInfo.lines.join("\n")}\n\nName: ${name}\nEmail: ${email}\nDate: ${date || "flexible"}\nPeople: ${people}${heard ? `\nFound us via: ${heard}` : ""}`
           : `New contact message:\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || "General"}${heard ? `\nFound us via: ${heard}` : ""}\n\nMessage:\n${message}`;
 
       const adminRes = await fetch("https://api.resend.com/emails", {
@@ -132,7 +137,7 @@ export async function POST(req: NextRequest) {
           to: [SITE.emailInbox],
           subject:
             type === "booking"
-              ? `Booking Inquiry: ${tour} from ${name}`
+              ? `Booking Inquiry${tourInfo.tag ? ` (${tourInfo.tag})` : ""}: ${tour} from ${name}`
               : `Contact: ${subject || "General message"} from ${name}`,
           text: emailBody,
           reply_to: email,

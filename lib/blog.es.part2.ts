@@ -2349,7 +2349,7 @@ Amanecer sobre las dunas y luego la larga y bonita ruta al norte hasta Fez: subi
 
 ## Días 6-7 — Fez
 
-Dale dos noches a Fez: se las merece. **Fez el-Bali**, la ciudad vieja amurallada, es la mayor zona urbana sin coches del mundo y el corazón espiritual y cultural de Marruecos: la Qarawiyín (la universidad en funcionamiento continuo más antigua del mundo), las curtidurías medievales, las madrazas y una medina aún más laberíntica que la de Marrakech. Aquí un guía local es casi imprescindible. Fez es una ciudad de artesanos en activo, no un museo; un día y medio te deja sentirlo en lugar de solo marcarlo.
+Dale dos noches a Fez: se las merece. **Fez el-Bali**, la ciudad vieja amurallada, es una de las mayores zonas urbanas sin coches del mundo y el corazón espiritual y cultural de Marruecos: la Qarawiyín (la universidad en funcionamiento continuo más antigua del mundo), las curtidurías medievales, las madrazas y una medina aún más laberíntica que la de Marrakech. Aquí un guía local es casi imprescindible. Fez es una ciudad de artesanos en activo, no un museo; un día y medio te deja sentirlo en lugar de solo marcarlo.
 
 ## Día 8 — De Fez de vuelta hacia el Atlas
 
@@ -5598,7 +5598,7 @@ La plaza central de Marrakech es un espectáculo real al caer la noche: puestos 
 
 ### 7. Perderse en la medina de Fez
 
-Fez el-Bali es la mayor zona urbana sin coches del mundo y, a diferencia de Marrakech, sigue siendo ante todo una ciudad que trabaja más que una economía turística. Nueve mil callejones, una universidad del siglo IX y la curtiduría Chouara — donde las pieles se trabajan aún en tinas de piedra con un proceso inalterado desde la Edad Media.
+Fez el-Bali es una de las mayores zonas urbanas sin coches del mundo y, a diferencia de Marrakech, sigue siendo ante todo una ciudad que trabaja más que una economía turística. Nueve mil callejones, una universidad del siglo IX y la curtiduría Chouara — donde las pieles se trabajan aún en tinas de piedra con un proceso inalterado desde la Edad Media.
 
 **Veredicto:** la más auténtica de las dos grandes medinas. Contrata guía la primera mañana; la [guía de la medina de Fez](/es/blog/fes-medina-travel-guide) explica por qué.
 
@@ -7203,7 +7203,7 @@ Si prefiere partir de Marrakech, nuestro [circuito de las ciudades imperiales](/
     content: `
 ## La ciudad que dejó de ser capital
 
-Durante cincuenta y cinco años Mequinez fue la capital de Marruecos. **El sultán Mulay Ismail**, fundador de la dinastía alauí —la que todavía reina—, la convirtió en una ciudad imperial a una escala pensada para rivalizar con lo que había oído de Versalles. Después la capital se trasladó, y Mequinez se quedó con las murallas, las puertas, los graneros y las caballerizas de una corte que se había ido.
+Durante cincuenta y cinco años Mequinez fue la capital de Marruecos. **El sultán Mulay Ismail**, de la dinastía alauí —la que todavía reina—, la convirtió en una ciudad imperial a una escala pensada para rivalizar con lo que había oído de Versalles. Después la capital se trasladó, y Mequinez se quedó con las murallas, las puertas, los graneros y las caballerizas de una corte que se había ido.
 
 Eso explica cómo se siente. Mequinez tiene arquitectura imperial a escala imperial y una fracción de los visitantes de Fez o Marrakech. Puede plantarse ante su mayor monumento sin hacer cola.
 
@@ -7346,7 +7346,7 @@ Para el detalle de lo que contiene la ruta del norte, vea nuestras guías de [Vo
 
 Para esta ruta, sí, con una salvedad: se conduce de verdad. De Casablanca al Sáhara y de vuelta hasta Marrakech se recorre buena parte de Marruecos, y los días tres y cuatro llevan distancia real.
 
-A cambio obtiene todo el registro del país en un solo viaje: costa atlántica, ruinas romanas, la mayor medina sin coches del mundo, el Atlas Medio y las dunas del Erg Chebbi. Si sus vuelos están fijados y dispone de cinco días, esta ruta los aprovecha casi tan bien como Marruecos permite.
+A cambio obtiene todo el registro del país en un solo viaje: costa atlántica, ruinas romanas, una de las mayores medinas sin coches del mundo, el Atlas Medio y las dunas del Erg Chebbi. Si sus vuelos están fijados y dispone de cinco días, esta ruta los aprovecha casi tan bien como Marruecos permite.
 
 Si prefiere ir más despacio y profundizar en las ciudades, el [circuito de las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) cubre el mismo terreno histórico sin la etapa del desierto. Y si el Sáhara es el motivo del viaje, nuestra [guía del precio según el tamaño del grupo](/es/blog/precio-circuito-marruecos-tamano-grupo) explica cómo se aplica la misma aritmética a todos nuestros itinerarios por el desierto.
 `,
@@ -8922,6 +8922,140 @@ Sobre las familias que te acogen, su lengua y su año nuevo, consulta
 [¿quiénes son los bereberes?](/es/blog/who-are-the-berbers).
 
 👉 **[Ver el trekking de 3 días por los pueblos del Alto Atlas](/es/tours/trek-pueblos-alto-atlas-3-dias)**: tres valles, dos noches en pueblos, sin cumbre.
+`,
+  },
+  {
+    slug: "morocco-imperial-cities-route-guide",
+    localizedSlug: "ciudades-imperiales-marruecos-ruta",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Las cuatro ciudades imperiales de Marruecos: en qué se diferencian y cómo unirlas",
+    excerpt:
+      "Fez, Marrakech, Mequinez y Rabat fueron cada una la capital de Marruecos en una época distinta, y cada una tiene hoy su carácter. Qué las distingue, cuánto tiempo pide cada una y cómo encadenarlas, con o sin el Sáhara.",
+    heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["ciudades imperiales", "Fez", "Mequinez", "Rabat", "Marrakech", "itinerario Marruecos"],
+    seoTitle: "Ciudades imperiales de Marruecos: rutas",
+    seoDescription:
+      "Fez, Marrakech, Mequinez y Rabat comparadas: cuándo fue capital cada una, estatus UNESCO, cuánto tiempo pide y rutas con o sin el Sáhara.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-chefchaouen-4day", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "¿Cuáles son las cuatro ciudades imperiales de Marruecos?", a: "Fez, Marrakech, Mequinez y Rabat, las cuatro capitales históricas. Fez se fundó en 789 y fue capital varias veces, la última hasta 1912. Marrakech se fundó hacia 1070 como capital almorávide. Mequinez fue la capital del sultán Mulay Ismail de 1672 a 1727. Rabat fue la sede del protectorado francés desde 1912 y es la capital del Marruecos independiente desde 1956." },
+      { q: "¿Cuántos días hacen falta para ver las ciudades imperiales?", a: "Con cinco días ves las cuatro desde Marrakech, con un día guiado completo en Fez, en nuestro [tour de 5 días por las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias). Si quieres también el Sáhara en esos cinco días, la [ruta de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias) pasa por Rabat, Mequinez y Fez de bajada y termina en Marrakech, con Rabat y Mequinez como paradas y no como noches. Con diez días puedes hacer el círculo por el Sáhara y las ciudades sin prisas: mira nuestro [itinerario de 10 días](/es/blog/10-day-morocco-itinerary)." },
+      { q: "¿Es mejor viajar de norte a sur o de sur a norte?", a: "Si puedes llegar a Casablanca y volver desde Marrakech, de norte a sur: empiezas donde aterrizan la mayoría de los vuelos de largo recorrido, ves primero Rabat, Mequinez y Fez, cruzas hasta las dunas y terminas en Marrakech sin repetir ninguna carretera. Si tu vuelo es de ida y vuelta a Marrakech, un circuito desde Marrakech cumple la misma función. Mira [llegar a Casablanca y salir de Marrakech](/es/blog/llegar-casablanca-salir-marrakech)." },
+      { q: "Si solo tengo tiempo para una ciudad imperial, ¿cuál elijo?", a: "Para una medina medieval, Fez: es la más profunda de las cuatro, y un día guiado allí no se parece a nada más en el país. Para un primer viaje que incluya también la montaña o el desierto, Marrakech, porque es la base de ambos. Mequinez y Rabat merecen la visita, pero encajan mejor de camino entre las otras." },
+      { q: "¿Necesito guía en las medinas?", a: "En Fez, sí: Fez el-Bali tiene unas nueve mil callejuelas y ningún coche, y todos nuestros tours que llegan a Fez incluyen un día guiado completo. En Marrakech, un guía cambia lo que ves en una primera visita, y la segunda es mejor por tu cuenta. Mequinez se ve en medio día sin guía. Reserva un guía oficial a través de tu riad o de una agencia, nunca a alguien que te aborde en la calle." },
+      { q: "¿Son las ciudades imperiales Patrimonio Mundial de la UNESCO?", a: "Sí, las cuatro: la medina de Fez (1981), la medina de Marrakech (1985), la ciudad histórica de Mequinez (1996) y Rabat, capital moderna y ciudad histórica: un patrimonio compartido (2012). La ciudad romana de Volubilis, cerca de Mequinez y en la mayoría de las rutas entre las ciudades, se inscribió en 1997." },
+    ],
+    content: `
+Marruecos ha tenido cuatro capitales a las que hoy la historia llama ciudades imperiales: Fez,
+Marrakech, Mequinez y Rabat. Cada una fue sede del poder en una época distinta, bajo una dinastía
+distinta, y no son intercambiables. Fez es densa y medieval, Marrakech ruidosa y abierta, Mequinez
+el proyecto de un solo sultán a una escala que se recorre a pie, Rabat tranquila junto al Atlántico.
+
+La mayoría de los viajes ven dos o tres. Ver las cuatro es sobre todo una cuestión de ruta.
+
+## Las cuatro de un vistazo
+
+| Ciudad | Capital cuándo | Inscripción UNESCO | Cómo se siente | Tiempo que pide |
+|---|---|---|---|---|
+| Fez | Fundada en 789; capital varias veces, la última hasta 1912 | Medina de Fez, 1981 | La medina más profunda: unas nueve mil callejuelas, sin coches | Un día guiado completo |
+| Marrakech | Fundada hacia 1070 como capital almorávide; de nuevo capital con los almohades y los saadíes | Medina de Marrakech, 1985 | Abierta y ruidosa, con la gran plaza en el centro | De uno a dos días |
+| Mequinez | Capital del sultán Mulay Ismail, 1672–1727 | Ciudad histórica de Mequinez, 1996 | La ciudad imperial de un solo soberano: puertas, graneros, murallas | Medio día |
+| Rabat | Base naval almohade desde 1170; sede del protectorado desde 1912, capital desde la independencia en 1956 | Rabat, capital moderna y ciudad histórica, 2012 | Tranquila y administrativa, junto al Atlántico | Un día completo |
+
+La ciudad romana de [Volubilis](/es/blog/volubilis-ruinas-romanas), inscrita por la UNESCO en 1997,
+está entre Mequinez y Fez, en la mayoría de las rutas que las unen. Forma parte de la misma historia:
+en 809, Idris II trasladó su capital de Walili, el nombre árabe de Volubilis, a Fez.
+
+## En qué se diferencian
+
+**Fez** es la que se tiene en mente cuando se dice medieval. Fez el-Bali es una de las zonas urbanas
+sin coches más grandes y antiguas del mundo, y sus zocos siguen organizados por oficios. Las curtidurías
+Chouara, la Qarawiyyin y la madrasa Bou Inania son los puntos de referencia, pero lo que importa son
+las callejuelas entre ellos. También es la más difícil de las cuatro para ver por tu cuenta. Nuestra
+[guía de la medina de Fez](/es/blog/fes-medina-travel-guide) explica qué ver.
+
+**Marrakech** es la más conocida de las cuatro. La Kutubia, la madrasa Ben Youssef y Yemaa el-Fna dan
+para un primer día; los palacios y los zocos de artesanos, para un segundo. También es la base para el
+Alto Atlas y el desierto, y por eso la mayoría de los viajes empiezan o terminan aquí. Mira la
+[guía de la medina de Marrakech](/es/blog/marrakech-medina-complete-guide).
+
+**Mequinez** la levantó Mulay Ismail durante sus 55 años de reinado: Bab Mansour, los graneros reales
+de Heri es-Souani, y las murallas y cuadras de una corte que se marchó tras su muerte. Medio día basta,
+y Volubilis y la ciudad santa de Mulay Idris están a menos de cuarenta minutos. Nuestra
+[guía de Mequinez y Mulay Idris](/es/blog/meknes-moulay-idriss-guia) tiene el detalle.
+
+**Rabat** es la capital por la que la mayoría de los visitantes pasan de largo. La kasba de los Udayas
+sobre la desembocadura, la torre Hassan con el mausoleo de Mohammed V y la Chellah llenan un día
+completo, casi sin gente. Mira nuestra [guía de Rabat](/es/blog/rabat-complete-travel-guide).
+
+## El problema de la ruta
+
+Rabat está en el Atlántico, con Mequinez y Fez tierra adentro, al este. Marrakech queda lejos al sur, y
+las dunas de Erg Chebbi están al sureste de Fez, al otro lado del Atlas. Cualquier viaje que vea las
+cuatro ciudades o recorre el país en un solo sentido o vuelve por su propia carretera.
+
+Eso deja tres buenas opciones.
+
+### Solo ida, de norte a sur, con el Sáhara: 5 días
+
+Es nuestro [tour de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias). Empieza
+donde aterrizan la mayoría de los vuelos de largo recorrido y termina donde la mayoría vuelve a casa.
+
+| Día | Ruta | Distancia | Conducción |
+|---|---|---|---|
+| 1 | Casablanca → Rabat → Volubilis → Mequinez → Fez | ≈370 km | unas 6 h, en tres paradas |
+| 2 | Fez, un día guiado completo en la medina | ninguna | ninguna |
+| 3 | Fez → Ifrane → Midelt → Erfoud → Erg Chebbi | ≈460 km | unas 7 h y media, el día más largo |
+| 4 | Erg Chebbi → garganta del Todra → Dades | ≈280 km | unas 4 h y media |
+| 5 | Dades → Ouarzazate → Aït Ben Haddou → Marrakech | ≈330 km | unas 5 h y media |
+
+El día en Fez está colocado a propósito entre los dos trayectos más largos: duermes dos noches en el
+mismo riad y caminas en vez de ir en coche. A cambio, Rabat y Mequinez son paradas del día 1, no
+noches. Desde 825 € por persona para dos. Funciona mejor con un billete de ida a una ciudad y vuelta
+desde otra; mira [llegar a Casablanca y salir de Marrakech](/es/blog/llegar-casablanca-salir-marrakech).
+
+### Un circuito desde Marrakech, las cuatro ciudades, sin desierto: 5 días
+
+Nuestro [tour de 5 días por las ciudades imperiales](/es/tours/ciudades-imperiales-marrakech-5-dias) sale de
+Marrakech, vuelve allí y da una noche a Mequinez, a Fez y a Rabat. El día 1 sube al noreste hasta
+Midelt (≈410 km). El día 2 es Volubilis por la mañana y Mequinez por la tarde, con noche allí
+(≈300 km). El día 3 es un día guiado completo en Fez. El día 4 va al oeste hasta Rabat (≈200 km), y el
+día 5 baja por la costa pasando por Casablanca hasta Marrakech (≈240 km). Riads, desayunos y entradas a
+los monumentos incluidos. Desde 575 € por persona para dos. El mismo circuito sale de Agadir en
+[6 días](/es/tours/ciudades-imperiales-agadir-6-dias).
+
+### Dos ciudades y el norte: 4 días
+
+Si Chefchaouen te importa más que Rabat, el [tour de 4 días a Chefchaouen](/es/tours/marrakech-chefchaouen-4-dias)
+va de Marrakech a Fez, da a Fez un día completo, para en Volubilis y Mequinez, y termina en la ciudad
+azul con un día para recorrerla. Desde 570 € por persona para dos.
+
+### Con más tiempo
+
+Diez días te permiten hacer el círculo por el Sáhara y las ciudades sin un solo día con prisas; nuestro
+[itinerario de 10 días](/es/blog/10-day-morocco-itinerary) lo detalla día a día. Si aún dudas sobre la
+duración, empieza por [cuántos días necesitas en Marruecos](/es/blog/how-many-days-do-you-need-in-morocco).
+
+## Cuándo merece la pena un guía
+
+- **Fez: siempre.** La medina no revela su lógica en una tarde. Todos nuestros tours que llegan a Fez
+  incluyen un día completo con un guía oficial de Fez.
+- **Marrakech: en una primera visita.** Los zocos están organizados por oficios y los edificios que
+  importan parecen muros ciegos desde la callejuela. Nuestro [tour cultural por la medina](/es/tours/tour-cultural-medina-marrakech)
+  es un paseo privado de cuatro horas con tu propio guía, desde 41 € por persona para dos, y te deja la
+  tarde para volver por tu cuenta.
+- **Mequinez: opcional.** Los lugares principales están cerca unos de otros y medio día por tu cuenta
+  funciona.
+
+Sea cual sea la ciudad, reserva el guía a través de tu riad o de una agencia, nunca a alguien que te
+aborde en la calle.
+
+👉 **[Ver la ruta de 5 días de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias)**: tres ciudades imperiales, una noche en las dunas y Marrakech al final.
 `,
   },
 ];

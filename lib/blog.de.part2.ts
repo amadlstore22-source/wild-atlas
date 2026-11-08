@@ -2346,7 +2346,7 @@ Sonnenaufgang über den Dünen, dann die lange, schöne Fahrt nordwärts nach F�
 
 ## Tage 6–7 – Fès
 
-Geben Sie Fès zwei Nächte – es verdient sie. **Fès el-Bali**, die alte ummauerte Stadt, ist das größte autofreie Stadtgebiet der Welt und das spirituelle und kulturelle Herz Marokkos: die al-Qarawiyyin (die älteste durchgehend betriebene Universität der Welt), die mittelalterlichen Gerbereien, die Medersen und eine Medina, die noch labyrinthischer ist als die von Marrakesch. Ein einheimischer Guide ist hier fast unverzichtbar. Fès ist eine arbeitende Handwerkerstadt, kein Museum – anderthalb Tage lassen Sie das spüren statt es nur abzuhaken.
+Geben Sie Fès zwei Nächte – es verdient sie. **Fès el-Bali**, die alte ummauerte Stadt, ist eines der größten autofreien Stadtgebiete der Welt und das spirituelle und kulturelle Herz Marokkos: die al-Qarawiyyin (die älteste durchgehend betriebene Universität der Welt), die mittelalterlichen Gerbereien, die Medersen und eine Medina, die noch labyrinthischer ist als die von Marrakesch. Ein einheimischer Guide ist hier fast unverzichtbar. Fès ist eine arbeitende Handwerkerstadt, kein Museum – anderthalb Tage lassen Sie das spüren statt es nur abzuhaken.
 
 ## Tag 8 – Von Fès zurück Richtung Atlas
 
@@ -5611,7 +5611,7 @@ Marrakeschs zentraler Platz ist nach Einbruch der Dunkelheit ein echtes Schauspi
 
 ### 7. Sich in der Medina von Fès verlieren
 
-Fès el-Bali ist die größte autofreie Stadtzone der Welt und, anders als Marrakesch, immer noch primär eine arbeitende Stadt statt einer Tourismuswirtschaft. Neuntausend Gassen, eine Universität aus dem 9. Jahrhundert und die Chouara-Gerberei — wo Häute noch in Steinbecken nach einem seit dem Mittelalter unveränderten Verfahren bearbeitet werden.
+Fès el-Bali ist eine der größten autofreien Stadtzonen der Welt und, anders als Marrakesch, immer noch primär eine arbeitende Stadt statt einer Tourismuswirtschaft. Neuntausend Gassen, eine Universität aus dem 9. Jahrhundert und die Chouara-Gerberei — wo Häute noch in Steinbecken nach einem seit dem Mittelalter unveränderten Verfahren bearbeitet werden.
 
 **Urteil:** die authentischere der beiden großen Medinas. Nehmen Sie am ersten Vormittag einen Guide; der [Fès-Medina-Guide](/de/blog/fes-medina-travel-guide) erklärt, warum.
 
@@ -7214,7 +7214,7 @@ Wenn Sie lieber von Marrakesch starten, deckt unsere [Königsstädte-Rundreise](
     content: `
 ## Die Stadt, die aufhörte, Hauptstadt zu sein
 
-Fünfundfünfzig Jahre lang war Meknes die Hauptstadt Marokkos. **Sultan Moulay Ismail**, Begründer der Alawiden-Dynastie — jener Familie, die das Land bis heute regiert —, baute sie zu einer Königsstadt in einem Maßstab aus, der es mit dem aufnehmen sollte, was er über Versailles gehört hatte. Dann zog die Hauptstadt weiter, und Meknes blieb zurück mit den Mauern, Toren, Kornspeichern und Stallungen eines Hofes, der fort war.
+Fünfundfünfzig Jahre lang war Meknes die Hauptstadt Marokkos. **Sultan Moulay Ismail**, aus der Alawiden-Dynastie — jener Familie, die das Land bis heute regiert —, baute sie zu einer Königsstadt in einem Maßstab aus, der es mit dem aufnehmen sollte, was er über Versailles gehört hatte. Dann zog die Hauptstadt weiter, und Meknes blieb zurück mit den Mauern, Toren, Kornspeichern und Stallungen eines Hofes, der fort war.
 
 Das erklärt, wie sich die Stadt anfühlt. Meknes hat königliche Architektur in königlichem Maßstab und einen Bruchteil der Besucher von Fès oder Marrakesch. Sie können vor ihrem größten Bauwerk stehen, ohne anzustehen.
 
@@ -7357,7 +7357,7 @@ Für die Einzelheiten der Nordroute siehe unsere Reiseführer zu [Volubilis](/de
 
 Für diese Route ja, mit einer Einschränkung: Es wird wirklich gefahren. Von Casablanca in die Sahara und hinauf nach Marrakesch durchquert man einen großen Teil Marokkos, und die Tage drei und vier haben echte Distanz.
 
-Dafür bekommen Sie die ganze Bandbreite des Landes in einer Reise — Atlantikküste, römische Ruinen, die größte autofreie Medina der Welt, den Mittleren Atlas und die Dünen des Erg Chebbi. Wenn Ihre Flüge feststehen und Sie fünf Tage haben, nutzt diese Route sie ungefähr so effizient, wie Marokko es zulässt.
+Dafür bekommen Sie die ganze Bandbreite des Landes in einer Reise — Atlantikküste, römische Ruinen, eine der größten autofreien Medinas der Welt, den Mittleren Atlas und die Dünen des Erg Chebbi. Wenn Ihre Flüge feststehen und Sie fünf Tage haben, nutzt diese Route sie ungefähr so effizient, wie Marokko es zulässt.
 
 Wenn Sie es langsamer angehen und tiefer in die Städte wollen, deckt die [Königsstädte-Rundreise](/de/tours/koenigsstaedte-marrakesch-5-tage) dasselbe historische Terrain ohne die Wüstenetappe ab. Und wenn die Sahara der Grund der Reise ist, erklärt unser [Leitfaden zum Preis nach Gruppengröße](/de/blog/marokko-tour-preis-gruppengroesse), wie dieselbe Arithmetik für alle unsere Wüstenrouten gilt.
 `,
@@ -8945,6 +8945,144 @@ Mehr über die Familien, bei denen Sie wohnen, ihre Sprache und ihr Neujahr lese
 [Wer sind die Berber?](/de/blog/who-are-the-berbers)
 
 👉 **[Zum 3-tägigen Trek durch die Dörfer des Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage)**: drei Täler, zwei Dorfnächte, kein Gipfel.
+`,
+  },
+  {
+    slug: "morocco-imperial-cities-route-guide",
+    localizedSlug: "koenigsstaedte-marokko-route",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Marokkos vier Königsstädte: was sie unterscheidet und wie man sie verbindet",
+    excerpt:
+      "Fès, Marrakesch, Meknes und Rabat waren jeweils zu einer anderen Zeit Marokkos Hauptstadt, und jede hat heute ihren eigenen Charakter. Was sie unterscheidet, wie viel Zeit jede braucht und wie man sie aneinanderreiht, mit oder ohne Sahara.",
+    heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["Königsstädte", "Fès", "Meknes", "Rabat", "Marrakesch", "Marokko Reiseroute"],
+    seoTitle: "Marokkos Königsstädte: Routen & Tage",
+    seoDescription:
+      "Fès, Marrakesch, Meknes und Rabat im Vergleich: wann jede Hauptstadt war, UNESCO-Status, wie viel Zeit sie braucht und Routen mit oder ohne Sahara.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-chefchaouen-4day", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "Welche sind die vier Königsstädte Marokkos?", a: "Fès, Marrakesch, Meknes und Rabat, die vier historischen Hauptstädte. Fès wurde 789 gegründet und war mehrmals Hauptstadt, zuletzt bis 1912. Marrakesch wurde um 1070 als Hauptstadt der Almoraviden gegründet. Meknes war von 1672 bis 1727 die Hauptstadt von Sultan Moulay Ismail. Rabat war ab 1912 Sitz des französischen Protektorats und ist seit 1956 die Hauptstadt des unabhängigen Marokko." },
+      { q: "Wie viele Tage braucht man für die Königsstädte?", a: "Fünf Tage reichen für alle vier ab Marrakesch, mit einem ganzen geführten Tag in Fès, auf unserer [5-Tage-Tour durch die Königsstädte](/de/tours/koenigsstaedte-marrakesch-5-tage). Wenn Sie in diesen fünf Tagen auch die Sahara möchten, führt die [Route von Casablanca nach Marrakesch](/de/tours/casablanca-fes-sahara-marrakesch-5-tage) auf dem Weg nach Süden durch Rabat, Meknes und Fès und endet in Marrakesch, wobei Rabat und Meknes Stopps und keine Übernachtungen sind. Mit zehn Tagen lassen sich Sahara und Städte ohne Eile verbinden: siehe unsere [10-Tage-Reiseroute](/de/blog/10-day-morocco-itinerary)." },
+      { q: "Reist man besser von Nord nach Süd oder von Süd nach Nord?", a: "Wenn Sie in Casablanca ankommen und ab Marrakesch zurückfliegen können, von Nord nach Süd: Sie beginnen dort, wo die meisten Langstreckenflüge landen, sehen zuerst Rabat, Meknes und Fès, fahren hinüber zu den Dünen und enden in Marrakesch, ohne eine Straße zweimal zu fahren. Ist Ihr Flug ein Hin- und Rückflug nach Marrakesch, erfüllt eine Rundreise ab Marrakesch denselben Zweck. Siehe [in Casablanca ankommen, ab Marrakesch zurückfliegen](/de/blog/ankunft-casablanca-abflug-marrakesch)." },
+      { q: "Wenn ich nur Zeit für eine Königsstadt habe, welche sollte es sein?", a: "Für eine mittelalterliche Medina Fès: Sie ist die tiefste der vier, und ein geführter Tag dort ist mit nichts anderem im Land vergleichbar. Für eine erste Reise, die auch die Berge oder die Wüste einschließt, Marrakesch, weil es der Ausgangspunkt für beides ist. Meknes und Rabat lohnen den Besuch, lassen sich aber leichter unterwegs zwischen den anderen einbauen." },
+      { q: "Brauche ich einen Guide in den Medinas?", a: "In Fès ja: Fès el-Bali hat rund neuntausend Gassen und keine Autos, und jede unserer Touren, die Fès erreicht, enthält einen ganzen geführten Tag. In Marrakesch verändert ein Guide beim ersten Besuch, was Sie sehen, und den zweiten Besuch macht man besser allein. Meknes lässt sich in einem halben Tag ohne Guide ansehen. Buchen Sie einen lizenzierten Guide über Ihr Riad oder einen Reiseveranstalter, nie jemanden, der Sie auf der Straße anspricht." },
+      { q: "Gehören die Königsstädte zum UNESCO-Welterbe?", a: "Ja, alle vier: die Medina von Fès (1981), die Medina von Marrakesch (1985), die historische Stadt Meknes (1996) und Rabat, moderne Hauptstadt und historische Stadt: ein gemeinsames Erbe (2012). Die römische Stadt Volubilis, nahe Meknes und an den meisten Routen zwischen den Städten, wurde 1997 aufgenommen." },
+    ],
+    content: `
+Marokko hatte vier Hauptstädte, die die Geschichte heute Königsstädte nennt: Fès, Marrakesch, Meknes
+und Rabat. Jede war zu einer anderen Zeit unter einer anderen Dynastie Sitz der Macht, und sie sind
+nicht austauschbar. Fès ist dicht und mittelalterlich, Marrakesch laut und offen, Meknes das Projekt
+eines einzigen Sultans in einem Maßstab, den man zu Fuß erkunden kann, Rabat ruhig am Atlantik.
+
+Die meisten Reisen sehen zwei oder drei davon. Alle vier zu sehen, ist vor allem eine Frage der Route.
+
+## Die vier auf einen Blick
+
+| Stadt | Hauptstadt wann | UNESCO-Eintrag | Wie sie sich anfühlt | Zeit, die sie braucht |
+|---|---|---|---|---|
+| Fès | Gegründet 789; mehrmals Hauptstadt, zuletzt bis 1912 | Medina von Fès, 1981 | Die tiefste Medina: rund neuntausend Gassen, keine Autos | Ein ganzer geführter Tag |
+| Marrakesch | Um 1070 als Hauptstadt der Almoraviden gegründet; erneut Hauptstadt unter den Almohaden und den Saadiern | Medina von Marrakesch, 1985 | Offen und laut, mit dem großen Platz in der Mitte | Ein bis zwei Tage |
+| Meknes | Hauptstadt von Sultan Moulay Ismail, 1672–1727 | Historische Stadt Meknes, 1996 | Die Königsstadt eines einzigen Herrschers: Tore, Speicher, Mauern | Ein halber Tag |
+| Rabat | Almohadischer Marinestützpunkt ab 1170; Sitz des Protektorats ab 1912, Hauptstadt seit der Unabhängigkeit 1956 | Rabat, moderne Hauptstadt und historische Stadt, 2012 | Ruhig und administrativ, am Atlantik | Ein ganzer Tag |
+
+Die römische Stadt [Volubilis](/de/blog/volubilis-roemische-ruinen), seit 1997 UNESCO-Welterbe, liegt
+zwischen Meknes und Fès, an den meisten Routen, die beide verbinden. Sie gehört zur selben Geschichte:
+809 verlegte Idris II. seine Hauptstadt von Walili, dem arabischen Namen von Volubilis, nach Fès.
+
+## Was sie unterscheidet
+
+**Fès** ist die Stadt, die man meint, wenn man mittelalterlich sagt. Fès el-Bali ist eines der größten
+und ältesten autofreien Stadtgebiete der Welt, und seine Souks sind noch immer nach Handwerken
+geordnet. Die Chouara-Gerbereien, die Qarawiyyin und die Medersa Bou Inania sind die Wegmarken, doch
+auf die Gassen dazwischen kommt es an. Sie ist auch die schwierigste der vier, um sie allein zu
+erkunden. Unser [Reiseführer zur Medina von Fès](/de/blog/fes-medina-travel-guide) beschreibt, was es
+zu sehen gibt.
+
+**Marrakesch** ist die bekannteste der vier. Die Koutoubia, die Medersa Ben Youssef und der
+Djemaa el-Fna füllen einen ersten Tag; die Paläste und die Handwerkersouks einen zweiten. Es ist auch
+der Ausgangspunkt für den Hohen Atlas und die Wüste, weshalb die meisten Reisen hier beginnen oder
+enden. Siehe den [Reiseführer zur Medina von Marrakesch](/de/blog/marrakech-medina-complete-guide).
+
+**Meknes** wurde von Moulay Ismail während seiner 55-jährigen Herrschaft ausgebaut: Bab Mansour, die
+königlichen Speicher von Heri es-Souani und die Mauern und Ställe eines Hofes, der nach seinem Tod
+weiterzog. Ein halber Tag genügt, und Volubilis und die heilige Stadt Moulay Idriss liegen weniger als
+vierzig Minuten entfernt. Unser [Reiseführer zu Meknes und Moulay Idriss](/de/blog/meknes-moulay-idriss-reisefuehrer)
+hat die Details.
+
+**Rabat** ist die Hauptstadt, an der die meisten Besucher vorbeifahren. Die Kasbah der Udayas über der
+Flussmündung, der Hassan-Turm mit dem Mausoleum Mohammeds V. und die Chellah füllen einen ganzen Tag,
+fast ohne Menschenmengen. Siehe unseren [Reiseführer zu Rabat](/de/blog/rabat-complete-travel-guide).
+
+## Das Problem der Route
+
+Rabat liegt am Atlantik, Meknes und Fès im Landesinneren östlich davon. Marrakesch liegt weit im
+Süden, und die Dünen des Erg Chebbi liegen südöstlich von Fès, jenseits des Atlas. Jede Reise, die alle
+vier Städte sieht, fährt entweder in einer Richtung durch das Land oder kehrt auf ihrer eigenen Straße
+zurück.
+
+Damit bleiben drei gute Varianten.
+
+### Nur Hinweg, von Nord nach Süd, mit Sahara: 5 Tage
+
+Das ist unsere [Tour von Casablanca nach Marrakesch](/de/tours/casablanca-fes-sahara-marrakesch-5-tage).
+Sie beginnt dort, wo die meisten Langstreckenflüge landen, und endet dort, wo die meisten nach Hause
+fliegen.
+
+| Tag | Route | Entfernung | Fahrzeit |
+|---|---|---|---|
+| 1 | Casablanca → Rabat → Volubilis → Meknes → Fès | ≈370 km | etwa 6 Std., verteilt auf drei Stopps |
+| 2 | Fès, ein ganzer geführter Tag in der Medina | keine | keine |
+| 3 | Fès → Ifrane → Midelt → Erfoud → Erg Chebbi | ≈460 km | etwa 7½ Std., der längste Tag |
+| 4 | Erg Chebbi → Todra-Schlucht → Dadès | ≈280 km | etwa 4½ Std. |
+| 5 | Dadès → Ouarzazate → Aït Ben Haddou → Marrakesch | ≈330 km | etwa 5½ Std. |
+
+Der Tag in Fès liegt bewusst zwischen den beiden längsten Fahrten: Sie schlafen zwei Nächte im selben
+Riad und gehen zu Fuß, statt zu fahren. Der Preis dafür: Rabat und Meknes sind Stopps an Tag 1, keine
+Übernachtungen. Ab €825 pro Person bei zwei Personen. Am besten passt dazu ein Gabelflug; siehe
+[in Casablanca ankommen, ab Marrakesch zurückfliegen](/de/blog/ankunft-casablanca-abflug-marrakesch).
+
+### Eine Rundreise ab Marrakesch, alle vier Städte, ohne Wüste: 5 Tage
+
+Unsere [5-Tage-Tour durch die Königsstädte](/de/tours/koenigsstaedte-marrakesch-5-tage) beginnt und endet
+in Marrakesch und gibt Meknes, Fès und Rabat je eine Nacht. Tag 1 führt nach Nordosten bis Midelt
+(≈410 km). Tag 2 bringt Volubilis am Vormittag und Meknes am Nachmittag, mit Übernachtung dort
+(≈300 km). Tag 3 ist ein ganzer geführter Tag in Fès. Tag 4 geht nach Westen bis Rabat (≈200 km), und
+Tag 5 an der Küste entlang über Casablanca nach Marrakesch (≈240 km). Riads, Frühstück und Eintritte
+sind inbegriffen. Ab €575 pro Person bei zwei Personen. Dieselbe Rundreise startet ab Agadir als
+[6-Tage-Tour](/de/tours/koenigsstaedte-agadir-6-tage).
+
+### Zwei Städte und der Norden: 4 Tage
+
+Wenn Ihnen Chefchaouen wichtiger ist als Rabat, fährt die [4-Tage-Tour nach Chefchaouen](/de/tours/marrakesch-chefchaouen-4-tage)
+von Marrakesch nach Fès, gibt Fès einen ganzen Tag, hält in Volubilis und Meknes und endet in der
+blauen Stadt mit einem Tag, um sie zu erkunden. Ab €570 pro Person bei zwei Personen.
+
+### Mit mehr Zeit
+
+Zehn Tage erlauben eine Rundreise durch Sahara und Städte ohne einen einzigen gehetzten Tag; unsere
+[10-Tage-Reiseroute](/de/blog/10-day-morocco-itinerary) beschreibt sie Tag für Tag. Wenn Sie noch über
+die Reisedauer nachdenken, beginnen Sie mit [wie viele Tage man für Marokko braucht](/de/blog/how-many-days-do-you-need-in-morocco).
+
+## Wann sich ein Guide lohnt
+
+- **Fès: immer.** Die Medina gibt ihre Logik nicht an einem Nachmittag preis. Jede unserer Touren, die
+  Fès erreicht, enthält einen ganzen Tag mit einem lizenzierten Guide aus Fès.
+- **Marrakesch: beim ersten Besuch.** Die Souks sind nach Handwerken geordnet, und die Gebäude, auf die
+  es ankommt, sehen von der Gasse aus wie fensterlose Mauern. Unsere [kulturelle Medina-Tour](/de/tours/kulturtour-medina-marrakesch)
+  ist ein privater vierstündiger Rundgang mit Ihrem eigenen Guide, ab €41 pro Person bei zwei Personen,
+  und lässt Ihnen den Nachmittag, um allein zurückzukehren.
+- **Meknes: optional.** Die wichtigsten Sehenswürdigkeiten liegen nah beieinander, und ein halber Tag
+  auf eigene Faust funktioniert.
+
+Egal in welcher Stadt: Buchen Sie den Guide über Ihr Riad oder einen Reiseveranstalter, nie jemanden,
+der Sie auf der Straße anspricht.
+
+👉 **[Zur 5-Tage-Route von Casablanca nach Marrakesch](/de/tours/casablanca-fes-sahara-marrakesch-5-tage)**: drei Königsstädte, eine Nacht in den Dünen und am Ende Marrakesch.
 `,
   },
 ];

@@ -1261,7 +1261,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Alle 4 Kaiserstädte: Marrakesch, Meknès, Fès, Rabat",
       "Römische Ruinen von Volubilis (UNESCO-Weltkulturerbe)",
-      "Hassan-II.-Moschee in Rabat",
+      "Hassan-Turm in Rabat",
       "Chouara-Gerbereien in Fès",
       "Bab Mansour — das größte Tor Nordafrikas",
     ],
@@ -1324,7 +1324,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakesch",
         description:
-          "Optionaler Stopp bei der Hassan-II.-Moschee in Casablanca (Außenansicht — die größte Moschee außerhalb Saudi-Arabiens). Weiterfahrt nach Süden nach Marrakesch. Ankunft am Abend.",
+          "Optionaler Stopp bei der Hassan-II.-Moschee in Casablanca (Außenansicht — eine der größten Moscheen der Welt, mit 210 m hohem Minarett). Weiterfahrt nach Süden nach Marrakesch. Ankunft am Abend.",
       },
     ],
     faq: [
@@ -2229,7 +2229,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Alle 4 Kaiserstädte: Marrakesch, Meknès, Fès, Rabat",
       "Römische Ruinen von Volubilis (UNESCO-Weltkulturerbe)",
-      "Hassan-II.-Moschee in Rabat",
+      "Hassan-Turm in Rabat",
       "Chouara-Gerbereien in Fès",
       "Bab Mansour — das größte Tor Nordafrikas",
     ],
@@ -2303,7 +2303,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakesch",
         description:
-          "Optionaler Stopp bei der Hassan-II.-Moschee in Casablanca (Außenansicht — die größte Moschee außerhalb Saudi-Arabiens). Weiterfahrt nach Süden nach Marrakesch. Anschlusstransfer nach Agadir oder Übernachtung. Ende der Tour.",
+          "Optionaler Stopp bei der Hassan-II.-Moschee in Casablanca (Außenansicht — eine der größten Moscheen der Welt, mit 210 m hohem Minarett). Weiterfahrt nach Süden nach Marrakesch. Anschlusstransfer nach Agadir oder Übernachtung. Ende der Tour.",
       },
     ],
     faq: [

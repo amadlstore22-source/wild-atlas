@@ -65,7 +65,7 @@ export const CATEGORY_FAQ: Record<string, Faq[]> = {
     },
     {
       q: "Is a guide worth it in Marrakech or Fes?",
-      a: "In the Fes medina especially, yes. It is the largest car-free urban area in the world and genuinely disorienting on a first visit. A guide is the difference between seeing the tanneries and workshops and spending the afternoon trying to find your way back out.",
+      a: "In the Fes medina especially, yes. It is one of the largest car-free urban areas in the world and genuinely disorienting on a first visit. A guide is the difference between seeing the tanneries and workshops and spending the afternoon trying to find your way back out.",
     },
     {
       q: "What should I wear when visiting medinas and religious sites?",

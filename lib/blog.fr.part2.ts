@@ -2338,7 +2338,7 @@ Lever de soleil sur les dunes, puis la longue et belle route vers le nord jusqu'
 
 ## Jours 6–7 — Fès
 
-Accordez deux nuits à Fès — elle les mérite. **Fès el-Bali**, la vieille ville fortifiée, est le plus grand espace urbain sans voiture au monde et le cœur spirituel et culturel du Maroc : la Qaraouiyine (la plus ancienne université en activité continue au monde), les tanneries médiévales, les médersas, et une médina encore plus labyrinthique que celle de Marrakech. Un guide local y est quasi indispensable. Fès est une ville d'artisans en activité, pas un musée — une journée et demie vous laisse le ressentir plutôt que la cocher.
+Accordez deux nuits à Fès — elle les mérite. **Fès el-Bali**, la vieille ville fortifiée, est l'un des plus grands espaces urbains sans voitures au monde et le cœur spirituel et culturel du Maroc : la Qaraouiyine (la plus ancienne université en activité continue au monde), les tanneries médiévales, les médersas, et une médina encore plus labyrinthique que celle de Marrakech. Un guide local y est quasi indispensable. Fès est une ville d'artisans en activité, pas un musée — une journée et demie vous laisse le ressentir plutôt que la cocher.
 
 ## Jour 8 — De Fès vers l'Atlas
 
@@ -5643,7 +5643,7 @@ La place centrale de Marrakech est un véritable spectacle à la nuit tombée : 
 
 ### 7. Se perdre dans la médina de Fès
 
-Fès el-Bali est la plus grande zone urbaine sans voitures au monde et, contrairement à Marrakech, elle reste avant tout une ville qui travaille plutôt qu'une économie touristique. Neuf mille ruelles, une université du IXe siècle, et la tannerie Chouara — où les peaux sont encore travaillées dans des cuves de pierre selon un procédé inchangé depuis le Moyen Âge.
+Fès el-Bali est l'une des plus grandes zones urbaines sans voitures au monde et, contrairement à Marrakech, elle reste avant tout une ville qui travaille plutôt qu'une économie touristique. Neuf mille ruelles, une université du IXe siècle, et la tannerie Chouara — où les peaux sont encore travaillées dans des cuves de pierre selon un procédé inchangé depuis le Moyen Âge.
 
 **Verdict :** la plus authentique des deux grandes médinas. Prenez un guide la première matinée ; le [guide de la médina de Fès](/fr/blog/fes-medina-travel-guide) explique pourquoi.
 
@@ -7254,7 +7254,7 @@ Si vous préférez partir de Marrakech, notre [circuit des villes impériales](/
     content: `
 ## La ville qui a cessé d'être capitale
 
-Pendant cinquante-cinq ans, Meknès fut la capitale du Maroc. **Le sultan Moulay Ismaïl**, fondateur de la dynastie alaouite — celle qui règne encore aujourd'hui — en fit une cité impériale à une échelle censée rivaliser avec ce qu'il avait entendu dire de Versailles. Puis la capitale se déplaça, et Meknès resta avec les murailles, les portes, les greniers et les écuries d'une cour partie ailleurs.
+Pendant cinquante-cinq ans, Meknès fut la capitale du Maroc. **Le sultan Moulay Ismaïl**, de la dynastie alaouite — celle qui règne encore aujourd'hui — en fit une cité impériale à une échelle censée rivaliser avec ce qu'il avait entendu dire de Versailles. Puis la capitale se déplaça, et Meknès resta avec les murailles, les portes, les greniers et les écuries d'une cour partie ailleurs.
 
 C'est ce qui explique son atmosphère. Meknès possède une architecture impériale à l'échelle impériale et une fraction des visiteurs de Fès ou de Marrakech. Vous pouvez vous planter devant son plus grand monument sans faire la queue.
 
@@ -7397,7 +7397,7 @@ Pour le détail de ce que contient la route du nord, voyez nos guides de [Volubi
 
 Pour cet itinéraire, oui, avec une réserve : la route est réelle. De Casablanca au Sahara puis jusqu'à Marrakech, on traverse une grande partie du Maroc, et les jours trois et quatre comportent de vraies distances.
 
-En échange, vous obtenez l'éventail du pays en un seul voyage : côte atlantique, ruines romaines, la plus grande médina sans voitures au monde, le Moyen Atlas et les dunes de l'Erg Chebbi. Si vos vols sont fixes et que vous avez cinq jours, cet itinéraire les emploie à peu près aussi efficacement que le Maroc le permet.
+En échange, vous obtenez l'éventail du pays en un seul voyage : côte atlantique, ruines romaines, l'une des plus grandes médinas sans voitures au monde, le Moyen Atlas et les dunes de l'Erg Chebbi. Si vos vols sont fixes et que vous avez cinq jours, cet itinéraire les emploie à peu près aussi efficacement que le Maroc le permet.
 
 Si vous préférez ralentir et approfondir les villes, le [circuit des villes impériales](/fr/tours/villes-imperiales-marrakech-5-jours) couvre le même terrain historique sans l'étape du désert. Et si le Sahara est le cœur du voyage, notre [guide sur le prix selon la taille du groupe](/fr/blog/prix-circuit-maroc-taille-groupe) explique comment la même arithmétique s'applique à tous nos itinéraires dans le désert.
 `,
@@ -9005,6 +9005,143 @@ Pour les familles qui vous accueillent, leur langue et leur nouvel an, voir
 [qui sont les Berbères ?](/fr/blog/who-are-the-berbers).
 
 👉 **[Voir le trek de 3 jours dans les villages du Haut Atlas](/fr/tours/trek-villages-haut-atlas-3-jours)** : trois vallées, deux nuits au village, pas de sommet.
+`,
+  },
+  {
+    slug: "morocco-imperial-cities-route-guide",
+    localizedSlug: "villes-imperiales-maroc-itineraire",
+    author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
+    title: "Les quatre villes impériales du Maroc : ce qui les distingue et comment les relier",
+    excerpt:
+      "Fès, Marrakech, Meknès et Rabat ont chacune été la capitale du Maroc à une époque différente, et chacune a aujourd'hui son caractère. Ce qui les distingue, le temps qu'il faut à chacune, et comment les enchaîner, avec ou sans le Sahara.",
+    heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["villes impériales", "Fès", "Meknès", "Rabat", "Marrakech", "itinéraire Maroc"],
+    seoTitle: "Villes impériales du Maroc : itinéraires",
+    seoDescription:
+      "Fès, Marrakech, Meknès et Rabat comparées : quand chacune fut capitale, statut UNESCO, temps à prévoir et itinéraires avec ou sans le Sahara.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-chefchaouen-4day", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "Quelles sont les quatre villes impériales du Maroc ?", a: "Fès, Marrakech, Meknès et Rabat, les quatre capitales historiques. Fès a été fondée en 789 et fut capitale à plusieurs reprises, la dernière fois jusqu'en 1912. Marrakech a été fondée vers 1070 comme capitale des Almoravides. Meknès fut la capitale du sultan Moulay Ismaïl de 1672 à 1727. Rabat fut le siège du protectorat français à partir de 1912 et elle est la capitale du Maroc indépendant depuis 1956." },
+      { q: "Combien de jours faut-il pour voir les villes impériales ?", a: "Cinq jours suffisent pour les quatre au départ de Marrakech, avec une journée guidée complète à Fès, sur notre [circuit de 5 jours des villes impériales](/fr/tours/villes-imperiales-marrakech-5-jours). Si vous voulez aussi le Sahara dans ces cinq jours, l'[itinéraire de Casablanca à Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) passe par Rabat, Meknès et Fès en descendant et se termine à Marrakech, Rabat et Meknès étant des étapes plutôt que des nuits. Avec dix jours, vous bouclez le Sahara et les villes sans vous presser : voir notre [itinéraire de 10 jours](/fr/blog/10-day-morocco-itinerary)." },
+      { q: "Faut-il voyager du nord au sud ou du sud au nord ?", a: "Si vous pouvez arriver à Casablanca et repartir de Marrakech, du nord au sud : vous commencez là où atterrissent la plupart des vols long-courriers, vous voyez d'abord Rabat, Meknès et Fès, vous traversez jusqu'aux dunes et vous finissez à Marrakech sans reprendre deux fois la même route. Si votre vol est un aller-retour sur Marrakech, une boucle depuis Marrakech fait le même travail. Voir [arriver à Casablanca, repartir de Marrakech](/fr/blog/arriver-casablanca-repartir-marrakech)." },
+      { q: "Si je n'ai le temps que pour une ville impériale, laquelle choisir ?", a: "Pour une médina médiévale, Fès : c'est la plus profonde des quatre, et une journée guidée sur place ne ressemble à rien d'autre dans le pays. Pour un premier voyage qui inclut aussi la montagne ou le désert, Marrakech, car c'est la base des deux. Meknès et Rabat valent la visite mais se glissent plus facilement sur la route entre les autres." },
+      { q: "Faut-il un guide dans les médinas ?", a: "À Fès, oui : Fès el-Bali compte environ neuf mille ruelles et aucune voiture, et chacun de nos circuits qui passe par Fès comprend une journée guidée complète. À Marrakech, un guide change ce que vous voyez lors d'une première visite, et la deuxième se fait mieux seul. Meknès se visite en une demi-journée sans guide. Réservez un guide agréé par votre riad ou une agence, jamais quelqu'un qui vous aborde dans la rue." },
+      { q: "Les villes impériales sont-elles inscrites au patrimoine mondial de l'UNESCO ?", a: "Oui, toutes les quatre : la médina de Fès (1981), la médina de Marrakech (1985), la ville historique de Meknès (1996) et Rabat, capitale moderne et ville historique : un patrimoine en partage (2012). La cité romaine de Volubilis, près de Meknès et sur la plupart des routes entre les villes, a été inscrite en 1997." },
+    ],
+    content: `
+Le Maroc a eu quatre capitales que l'histoire appelle aujourd'hui les villes impériales : Fès,
+Marrakech, Meknès et Rabat. Chacune a été le siège du pouvoir à une époque différente, sous une
+dynastie différente, et elles ne sont pas interchangeables. Fès est dense et médiévale, Marrakech
+bruyante et ouverte, Meknès le projet d'un seul sultan à une échelle qui se parcourt à pied, Rabat
+calme au bord de l'Atlantique.
+
+La plupart des voyages en voient deux ou trois. Les voir toutes les quatre est surtout une question
+d'itinéraire.
+
+## Les quatre en un coup d'œil
+
+| Ville | Capitale quand | Inscription UNESCO | L'ambiance | Temps à lui donner |
+|---|---|---|---|---|
+| Fès | Fondée en 789 ; capitale à plusieurs reprises, la dernière jusqu'en 1912 | Médina de Fès, 1981 | La médina la plus profonde : environ neuf mille ruelles, aucune voiture | Une journée guidée complète |
+| Marrakech | Fondée vers 1070 comme capitale almoravide ; de nouveau capitale sous les Almohades et les Saadiens | Médina de Marrakech, 1985 | Ouverte et bruyante, avec la grande place en son centre | Un à deux jours |
+| Meknès | Capitale du sultan Moulay Ismaïl, 1672–1727 | Ville historique de Meknès, 1996 | La ville impériale d'un seul souverain : portes, greniers, remparts | Une demi-journée |
+| Rabat | Base navale almohade dès 1170 ; siège du protectorat à partir de 1912, capitale depuis l'indépendance en 1956 | Rabat, capitale moderne et ville historique, 2012 | Calme et administrative, au bord de l'Atlantique | Une journée complète |
+
+La cité romaine de [Volubilis](/fr/blog/volubilis-ruines-romaines), inscrite par l'UNESCO en 1997,
+se trouve entre Meknès et Fès, sur la plupart des routes qui les relient. Elle fait partie de la même
+histoire : en 809, Idriss II transféra sa capitale de Walili, le nom arabe de Volubilis, à Fès.
+
+## Ce qui les distingue
+
+**Fès** est celle que l'on désigne quand on dit médiéval. Fès el-Bali est l'une des plus grandes et
+des plus anciennes zones urbaines sans voitures au monde, et ses souks sont toujours organisés par
+métier. Les tanneries Chouara, la Qaraouiyine et la médersa Bou Inania sont les repères, mais ce sont
+les ruelles entre eux qui comptent. C'est aussi la plus difficile des quatre à découvrir seul. Notre
+[guide de la médina de Fès](/fr/blog/fes-medina-travel-guide) détaille quoi voir.
+
+**Marrakech** est la plus familière des quatre. La Koutoubia, la médersa Ben Youssef et Jemaa el-Fna
+font une première journée ; les palais et les souks d'artisans en font une deuxième. C'est aussi la
+base pour le Haut Atlas et le désert, ce qui explique que la plupart des voyages y commencent ou s'y
+terminent. Voir le [guide de la médina de Marrakech](/fr/blog/marrakech-medina-complete-guide).
+
+**Meknès** a été bâtie par Moulay Ismaïl au cours de ses 55 ans de règne : Bab Mansour, les greniers
+royaux de Heri es-Souani, et les remparts et écuries d'une cour qui est partie après sa mort. Une
+demi-journée suffit, et Volubilis et la ville sainte de Moulay Idriss sont à moins de quarante
+minutes. Notre [guide de Meknès et Moulay Idriss](/fr/blog/meknes-moulay-idriss-guide) donne le détail.
+
+**Rabat** est la capitale devant laquelle la plupart des visiteurs passent sans s'arrêter. La kasbah
+des Oudayas au-dessus de l'embouchure, la tour Hassan avec le mausolée Mohammed V, et le Chellah
+remplissent une journée complète, presque sans foule. Voir notre [guide de Rabat](/fr/blog/rabat-complete-travel-guide).
+
+## Le problème de l'itinéraire
+
+Rabat est sur l'Atlantique, Meknès et Fès à l'intérieur des terres, à l'est. Marrakech est loin au
+sud, et les dunes de l'Erg Chebbi sont au sud-est de Fès, de l'autre côté de l'Atlas. Tout voyage qui
+voit les quatre villes descend le pays dans un seul sens ou revient sur sa propre route.
+
+Il reste donc trois bonnes formules.
+
+### Aller simple, du nord au sud, avec le Sahara : 5 jours
+
+C'est notre [circuit de Casablanca à Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours). Il
+commence là où atterrissent la plupart des vols long-courriers et finit là où la plupart des gens
+reprennent l'avion.
+
+| Jour | Itinéraire | Distance | Route |
+|---|---|---|---|
+| 1 | Casablanca → Rabat → Volubilis → Meknès → Fès | ≈370 km | environ 6 h, en trois étapes |
+| 2 | Fès, une journée guidée complète dans la médina | aucune | aucune |
+| 3 | Fès → Ifrane → Midelt → Erfoud → Erg Chebbi | ≈460 km | environ 7 h 30, la plus longue journée |
+| 4 | Erg Chebbi → gorges du Todra → Dadès | ≈280 km | environ 4 h 30 |
+| 5 | Dadès → Ouarzazate → Aït Ben Haddou → Marrakech | ≈330 km | environ 5 h 30 |
+
+La journée à Fès est placée exprès entre les deux plus longs trajets : vous dormez deux nuits dans le
+même riad et vous marchez au lieu de rouler. La contrepartie : Rabat et Meknès sont des étapes du
+jour 1, pas des nuits. À partir de 825 € par personne pour deux. Cela marche mieux avec un billet
+open-jaw ; voir [arriver à Casablanca, repartir de Marrakech](/fr/blog/arriver-casablanca-repartir-marrakech).
+
+### Une boucle depuis Marrakech, les quatre villes, sans désert : 5 jours
+
+Notre [circuit de 5 jours des villes impériales](/fr/tours/villes-imperiales-marrakech-5-jours) part de
+Marrakech, y revient, et donne une nuit à Meknès, à Fès et à Rabat. Le jour 1 remonte au nord-est
+jusqu'à Midelt (≈410 km). Le jour 2, c'est Volubilis le matin et Meknès l'après-midi, avec la nuit
+sur place (≈300 km). Le jour 3 est une journée guidée complète à Fès. Le jour 4 part vers l'ouest
+jusqu'à Rabat (≈200 km), et le jour 5 descend la côte par Casablanca jusqu'à Marrakech (≈240 km).
+Riads, petits-déjeuners et entrées des sites sont inclus. À partir de 575 € par personne pour deux.
+Le même circuit part d'Agadir en [6 jours](/fr/tours/villes-imperiales-agadir-6-jours).
+
+### Deux villes et le nord : 4 jours
+
+Si Chefchaouen compte plus que Rabat, le [circuit de 4 jours vers Chefchaouen](/fr/tours/marrakech-chefchaouen-4-jours)
+va de Marrakech à Fès, donne une journée complète à Fès, s'arrête à Volubilis et Meknès, et se termine
+dans la ville bleue avec une journée pour la parcourir. À partir de 570 € par personne pour deux.
+
+### Avec plus de temps
+
+Dix jours permettent de boucler le Sahara et les villes sans une seule journée pressée ; notre
+[itinéraire de 10 jours](/fr/blog/10-day-morocco-itinerary) le détaille jour par jour. Si vous hésitez
+encore sur la durée, commencez par [combien de jours prévoir au Maroc](/fr/blog/how-many-days-do-you-need-in-morocco).
+
+## Quand un guide en vaut la peine
+
+- **Fès : toujours.** La médina ne livre pas sa logique en un après-midi. Chacun de nos circuits qui
+  passe par Fès comprend une journée complète avec un guide agréé de Fès.
+- **Marrakech : lors d'une première visite.** Les souks sont organisés par métier et les bâtiments
+  qui comptent ressemblent à des murs aveugles depuis la ruelle. Notre [visite culturelle de la médina](/fr/tours/visite-culturelle-medina-marrakech)
+  est une balade privée de quatre heures avec votre propre guide, à partir de 41 € par personne pour
+  deux, et elle vous laisse l'après-midi pour y retourner seul.
+- **Meknès : facultatif.** Les sites principaux sont proches les uns des autres et une demi-journée
+  seul suffit.
+
+Quelle que soit la ville, réservez le guide par votre riad ou une agence, jamais quelqu'un qui vous
+aborde dans la rue.
+
+👉 **[Voir l'itinéraire de 5 jours de Casablanca à Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours)** : trois villes impériales, une nuit dans les dunes, et Marrakech à l'arrivée.
 `,
   },
 ];

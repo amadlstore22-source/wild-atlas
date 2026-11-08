@@ -105,7 +105,7 @@ const DESTINATIONS: Destination[] = [
     description:
       "The most intact medieval city on earth: 9,000+ alleyways, the world's oldest university, and the legendary Chouara Tannery unchanged since the 11th century.",
     known: [
-      "World's largest car-free urban zone",
+      "One of the world's largest car-free urban areas",
       "Chouara Tannery, operated since the 11th century",
       "University of al-Qarawiyyin, founded 859 AD",
       "Bou Inania Madrasa & royal palace gates",

@@ -155,9 +155,9 @@ export const DESTINATIONS: Destination[] = [
     lng: -4.9815,
     heroImage: "/gallery/destinations-fes.jpg",
     about:
-      "Fez el-Bali es posiblemente la superviviente urbana más extraordinaria del planeta: una ciudad medieval plenamente funcional de 156.000 habitantes, que cubre 256 hectáreas y ha estado habitada de forma continua desde el año 789 d. C. Es la mayor zona urbana sin coches del mundo. Cada calle de su laberinto de 9.400 callejones transporta mercancías a mano o en mula. Los mismos oficios se han producido en los mismos talleres durante mil años: curtido de cuero, esmaltado de cerámica, incrustación de latón, mosaicos zellige. La ciudad fue fundada por Muley Idris I y se expandió bajo la dinastía merínida hasta convertirse en el gran centro de saber islámico que sigue siendo hoy.",
+      "Fez el-Bali es posiblemente la superviviente urbana más extraordinaria del planeta: una ciudad medieval plenamente funcional de 156.000 habitantes, que cubre 256 hectáreas y ha estado habitada de forma continua desde el año 789 d. C. Es una de las mayores zonas urbanas sin coches del mundo. Cada calle de su laberinto de 9.400 callejones transporta mercancías a mano o en mula. Los mismos oficios se han producido en los mismos talleres durante mil años: curtido de cuero, esmaltado de cerámica, incrustación de latón, mosaicos zellige. La ciudad fue fundada por Muley Idris I y se expandió bajo la dinastía merínida hasta convertirse en el gran centro de saber islámico que sigue siendo hoy.",
     knownFor: [
-      "La mayor zona urbana sin coches del mundo, con 9.400 callejones",
+      "Una de las mayores zonas urbanas sin coches del mundo, con 9.400 callejones",
       "La curtiduría Chouara, inalterada desde el siglo XI",
       "La Universidad de al-Qarawiyyin, fundada en el año 859, la más antigua del mundo",
       "La madrasa Bou Inania y la madrasa Attarine",

@@ -569,7 +569,7 @@ An unexpected colonial-era mountain town built in the 1930s that looks unmistaka
 A few kilometres from Ifrane, the ancient cedar forest of Azrou is the best place in Morocco to encounter wild Barbary macaques — the only wild primates in Africa north of the Sahara. They come to the roadside and will take fruit from your hand, which makes for a memorable stop but is worth some perspective: the species has gone from an estimated 20,000-plus individuals in the 1970s to a fraction of that today, and it has been listed as Endangered since 2008, with these Middle Atlas cedar forests holding one of its last strongholds. Note: do not feed them anything processed — beyond the obvious harm, wild macaques that become dependent on roadside handouts are part of why the population's natural foraging behaviour has been disrupted in exactly these forests.
 
 **Fes el-Bali**
-Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is the world's largest car-free urban zone and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin, the Medersa Bou Inania, and the thousand-year-old souks.
+Arrive in Fes by late afternoon. Check in to a riad inside or near the medina walls. Fes el-Bali is one of the world's largest car-free urban areas and the most complete surviving medieval city on earth. Give yourself a full day here: the Chouara tanneries, Al-Qarawiyyin, the Medersa Bou Inania, and the thousand-year-old souks.
 
 Al-Qarawiyyin deserves more than a passing mention. Founded in 859 as a mosque and centre of learning by Fatima al-Fihri — a Tunisian-born woman using her own inheritance to fund an 18-year construction project — it holds the Guinness World Record and UNESCO recognition as the oldest continually operating institution of higher learning anywhere on Earth, predating Europe's oldest universities by centuries. Over the following thousand years its library and lecture halls drew scholars whose names now belong to the wider history of ideas, including the philosopher Averroes and the physician-philosopher Maimonides; one account even credits Gerbert of Aurillac, a scholar who studied here before eventually becoming Pope Sylvester II, with helping carry Arabic numerals into medieval Europe. Much of the complex remains a working mosque and library rather than a museum, so access for non-Muslim visitors is limited — but simply standing outside it, in a city that has been continuously producing scholarship since the 9th century, is a different thing than reading about it.
 
@@ -1390,7 +1390,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
     slug: "fes-medina-travel-guide",
     region: "imperial-cities",
     author: MET_TEAM,
-    title: "Fes Medina: How to Explore the World's Largest Car-Free City",
+    title: "Fes Medina: How to Explore One of the World's Largest Car-Free Cities",
     excerpt:
       "Fes el-Bali is the most complete surviving medieval city on earth — a UNESCO World Heritage labyrinth of 9,400 alleyways, 785 mosques, and a tannery unchanged since the 12th century. Here is how to do it justice.",
     heroImage:
@@ -1409,7 +1409,7 @@ The Anti-Atlas has exceptional birdlife. **Moussier's Redstart** is endemic to M
 
 Marrakech is spectacular. Fes is deeper. Where Marrakech has absorbed centuries of international tourism and adapted accordingly, Fes remains predominantly a city for Fassis — for the people who have lived here across generations. The medina is not a stage set; it is a functioning city, where craftsmen have worked the same trades in the same buildings for 500 years.
 
-Fes el-Bali (Old Fes) traces back to 789 AD, when Idris I, founder of Morocco's first Islamic dynasty, established a settlement on one bank of the river here. The city as it's really understood today, though, came from his son: Idris II founded a second settlement on the opposite bank around 808 AD and made it his capital, and the two rival walled towns — each with its own mosque, its own gates, its own identity — stood more or less separately for nearly three centuries until the Almoravid dynasty finally unified them into one city in the 11th century. That two-settlement origin is part of why the old medina still reads, to a careful eye, as two cities grown together rather than one planned from scratch. Fes was designated a UNESCO World Heritage Site in 1981. It is the world's largest car-free urban area, the site of the oldest university in continuous operation (Al-Qarawiyyin, founded 859 AD), and home to crafts — leatherwork, metalwork, pottery, weaving, wood carving — that remain largely unchanged from the medieval period.
+Fes el-Bali (Old Fes) traces back to 789 AD, when Idris I, founder of Morocco's first Islamic dynasty, established a settlement on one bank of the river here. The city as it's really understood today, though, came from his son: Idris II founded a second settlement on the opposite bank around 808 AD and made it his capital, and the two rival walled towns — each with its own mosque, its own gates, its own identity — stood more or less separately for nearly three centuries until the Almoravid dynasty finally unified them into one city in the 11th century. That two-settlement origin is part of why the old medina still reads, to a careful eye, as two cities grown together rather than one planned from scratch. Fes was designated a UNESCO World Heritage Site in 1981. It is one of the world's largest car-free urban areas, the site of the oldest university in continuous operation (Al-Qarawiyyin, founded 859 AD), and home to crafts — leatherwork, metalwork, pottery, weaving, wood carving — that remain largely unchanged from the medieval period.
 
 Give it two full days minimum. One is not enough.
 
@@ -4689,7 +4689,7 @@ Sunrise over the dunes, then the long, beautiful drive north to Fes — up the *
 
 ## Days 6–7 — Fes
 
-Give Fes two nights — it deserves them. **Fes el-Bali**, the old walled city, is the largest car-free urban area in the world and the spiritual and cultural heart of Morocco: the Al-Qarawiyyin (the world's oldest continually operating university), the medieval tanneries, the madrasas, and a medina even more labyrinthine than Marrakech's. A local guide is close to essential here. Fes is a working city of artisans, not a museum — a full day and a half lets you feel that rather than just tick it.
+Give Fes two nights — it deserves them. **Fes el-Bali**, the old walled city, is one of the largest car-free urban areas in the world and the spiritual and cultural heart of Morocco: the Al-Qarawiyyin (the world's oldest continually operating university), the medieval tanneries, the madrasas, and a medina even more labyrinthine than Marrakech's. A local guide is close to essential here. Fes is a working city of artisans, not a museum — a full day and a half lets you feel that rather than just tick it.
 
 ## Day 8 — Fes Back Toward the Atlas
 
@@ -7999,7 +7999,7 @@ Marrakech's central square is a genuine spectacle after dark: food stalls, music
 
 ### 7. Get lost in the Fes medina
 
-Fes el-Bali is the largest car-free urban area in the world and, unlike Marrakech, it is still primarily a working city rather than a tourist economy. Nine thousand alleys, a ninth-century university, and the Chouara tannery \u2014 where hides are still worked in stone vats using a process unchanged since the medieval period.
+Fes el-Bali is one of the largest car-free urban areas in the world and, unlike Marrakech, it is still primarily a working city rather than a tourist economy. Nine thousand alleys, a ninth-century university, and the Chouara tannery \u2014 where hides are still worked in stone vats using a process unchanged since the medieval period.
 
 **Verdict:** the more authentic of the two great medinas. Take a guide for the first morning; the [Fes medina guide](/en/blog/fes-medina-travel-guide) explains why.
 
@@ -10125,7 +10125,7 @@ If you would rather see it from Marrakech, our [imperial cities tour](/en/tours/
     content: `
 ## The city that stopped being the capital
 
-For fifty-five years Meknes was the capital of Morocco. **Sultan Moulay Ismail**, founder of the Alaouite dynasty — the family that still rules the country — built it into an imperial city on a scale meant to rival what he had heard of Versailles. Then the capital moved, and Meknes was left with the walls, the gates, the granaries and the stables of a court that had gone.
+For fifty-five years Meknes was the capital of Morocco. **Sultan Moulay Ismail**, of the Alaouite dynasty — the family that still rules the country — built it into an imperial city on a scale meant to rival what he had heard of Versailles. Then the capital moved, and Meknes was left with the walls, the gates, the granaries and the stables of a court that had gone.
 
 That is why it feels the way it does. Meknes has imperial architecture at imperial scale and a fraction of the visitors of Fes or Marrakech. You can stand in front of its greatest monument without queuing.
 
@@ -10268,7 +10268,7 @@ If you want the detail on what the northern route actually contains, see our gui
 
 For this route, yes, with one caveat: it is a genuine drive. Casablanca to the Sahara and back up to Marrakech covers a lot of Morocco, and days three and four have real distance in them.
 
-What you get for that is the country's range in one trip — Atlantic coast, Roman ruins, the largest car-free medina in the world, the Middle Atlas, and the Erg Chebbi dunes. If your flights are fixed and your time is five days, this route uses them about as efficiently as Morocco allows.
+What you get for that is the country's range in one trip — Atlantic coast, Roman ruins, one of the largest car-free medinas in the world, the Middle Atlas, and the Erg Chebbi dunes. If your flights are fixed and your time is five days, this route uses them about as efficiently as Morocco allows.
 
 If you would rather stay slower and go deeper on the cities, the [imperial cities tour](/en/tours/marrakech-imperial-cities-5day) covers the same historic ground without the desert leg. And if the point of the trip is the Sahara, our [group-size guide](/en/blog/morocco-tour-price-group-size) explains how the same arithmetic plays out across every desert itinerary we run.
 `,
@@ -11348,6 +11348,136 @@ For the people whose homes you stay in, their language and their new year, see
 [who are the Berbers?](/en/blog/who-are-the-berbers).
 
 👉 **[See the 3-day High Atlas villages trek](/en/tours/atlas-mountains-3day-trek)**: three valleys, two village nights, no summit.
+`,
+  },
+  {
+    slug: "morocco-imperial-cities-route-guide",
+    author: MET_TEAM,
+    title: "Morocco's Four Imperial Cities: How They Differ and How to Route Them",
+    excerpt:
+      "Fes, Marrakech, Meknes and Rabat were each Morocco's capital at a different time, and each feels different today. What sets them apart, how long each needs, and how to string them together, with or without the Sahara.",
+    heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    tags: ["imperial cities", "Fes", "Meknes", "Rabat", "Marrakech", "Morocco itinerary"],
+    seoTitle: "Morocco's 4 Imperial Cities: Routes & Days",
+    seoDescription:
+      "Fes, Marrakech, Meknes and Rabat compared: when each was capital, UNESCO status, how long each needs, and routes with or without the Sahara.",
+    relatedTours: ["casablanca-fes-sahara-marrakech-5day", "marrakech-imperial-cities-5day", "marrakech-to-chefchaouen-4day", "marrakech-medina-cultural-tour"],
+    faq: [
+      { q: "What are the four imperial cities of Morocco?", a: "Fes, Marrakech, Meknes and Rabat, the four historical capitals. Fes was founded in 789 and was the capital several times, the last until 1912. Marrakech was founded around 1070 as the Almoravid capital. Meknes was the capital of Sultan Moulay Ismail from 1672 to 1727. Rabat was the seat of the French protectorate from 1912 and has been the capital of independent Morocco since 1956." },
+      { q: "How many days do you need to see the imperial cities?", a: "Five days covers all four from Marrakech, with a full guided day in Fes, on our [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day). If you also want the Sahara in the same five days, the [Casablanca to Marrakech route](/en/tours/casablanca-fes-sahara-marrakech-5day) takes in Rabat, Meknes and Fes on the way down and ends in Marrakech, with Rabat and Meknes as stops rather than nights. With ten days you can loop through the Sahara and the cities without hurrying; see our [10-day itinerary](/en/blog/10-day-morocco-itinerary)." },
+      { q: "Should I travel north to south or south to north?", a: "If you can fly into Casablanca and out of Marrakech, north to south: you start where most long-haul flights land, see Rabat, Meknes and Fes first, cross to the dunes and finish in Marrakech without driving any road twice. If your flights are a return to Marrakech, a loop from Marrakech does the same job. See [fly into Casablanca, out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech)." },
+      { q: "If I only have time for one imperial city, which should it be?", a: "For a medieval medina, Fes: it is the deepest of the four, and a guided day there is different from anything else in the country. For a first trip that also takes in the mountains or the desert, Marrakech, because it is the base for both. Meknes and Rabat reward a visit but are easier to fit in on the way between the others." },
+      { q: "Do I need a guide in the medinas?", a: "In Fes, yes: Fes el-Bali has around nine thousand lanes and no cars, and every one of our tours that reaches Fes includes a full guided day. In Marrakech a guide changes what you see on a first visit, and a second visit is better alone. Meknes can be seen in half a day without one. Book a licensed guide through your riad or a tour operator, never an approach in the street." },
+      { q: "Are the imperial cities UNESCO World Heritage Sites?", a: "Yes, all four: the Medina of Fez (1981), the Medina of Marrakesh (1985), the Historic City of Meknes (1996) and Rabat, Modern Capital and Historic City: a Shared Heritage (2012). The Roman city of Volubilis, near Meknes and on most routes between the cities, was listed in 1997." },
+    ],
+    content: `
+Morocco has had four capitals that history now calls the imperial cities: Fes, Marrakech,
+Meknes and Rabat. Each was the seat of power at a different time, under a different dynasty, and
+they are not interchangeable. Fes is dense and medieval, Marrakech loud and open, Meknes one
+sultan's project at a walkable scale, Rabat calm on the Atlantic.
+
+Most trips see two or three of them. Seeing all four is mostly a question of route.
+
+## The four at a glance
+
+| City | Capital when | UNESCO listing | What it feels like | Time to give it |
+|---|---|---|---|---|
+| Fes | Founded in 789; capital several times, the last until 1912 | Medina of Fez, 1981 | The deepest medina: around nine thousand lanes, no cars | A full guided day |
+| Marrakech | Founded around 1070 as the Almoravid capital; capital again under the Almohads and the Saadians | Medina of Marrakesh, 1985 | Open and loud, with the great square at its centre | One to two days |
+| Meknes | Capital of Sultan Moulay Ismail, 1672–1727 | Historic City of Meknes, 1996 | One ruler's imperial city: gates, granaries, walls | Half a day |
+| Rabat | Almohad naval base from 1170; seat of the protectorate from 1912, capital since independence in 1956 | Rabat, Modern Capital and Historic City, 2012 | Quiet and administrative, on the Atlantic | One full day |
+
+The Roman city of [Volubilis](/en/blog/volubilis-roman-ruins-guide), listed by UNESCO in 1997,
+sits between Meknes and Fes and is on most routes that link them. It belongs in the same story:
+in 809 Idris II moved his capital from Walili, the Arabic name for Volubilis, to Fes.
+
+## How they differ
+
+**Fes** is the one people mean when they say medieval. Fes el-Bali is one of the largest and oldest
+car-free urban areas in the world, and its souks are still laid out by trade. The Chouara tanneries,
+the Al-Qarawiyyin and the Medersa Bou Inania are the landmarks, but the lanes between them are the
+point. It is also the hardest of the four to see alone. Our [Fes medina guide](/en/blog/fes-medina-travel-guide)
+covers what to see.
+
+**Marrakech** is the most familiar of the four. The Koutoubia, the
+Ben Youssef Madrasa and Djemaa el-Fna make a first day; the palaces and the craft souks make a
+second. It is also the base for the High Atlas and the desert, which is why most trips start or end
+here. See the [Marrakech medina guide](/en/blog/marrakech-medina-complete-guide).
+
+**Meknes** was built up by Moulay Ismail during his 55-year reign: Bab Mansour, the royal granaries
+of Heri es-Souani, and the walls and stables of a court that moved on after his death. Half a day
+covers it, and Volubilis and the holy town of Moulay Idriss are within forty minutes. Our
+[Meknes and Moulay Idriss guide](/en/blog/meknes-moulay-idriss-guide) has the detail.
+
+**Rabat** is the capital most visitors drive past. The Kasbah of the Udayas above the river mouth,
+the Hassan Tower with the Mausoleum of Mohammed V, and the Chellah fill one full day, with almost no
+crowds. See our [Rabat guide](/en/blog/rabat-complete-travel-guide).
+
+## The route problem
+
+Rabat sits on the Atlantic, with Meknes and Fes inland to the east of it. Marrakech is far to the
+south, and the Erg Chebbi dunes are south-east of Fes, across the Atlas. Any trip
+that sees all four cities either runs one way down the country or comes back along its own road.
+
+That leaves three good shapes.
+
+### One way, north to south, with the Sahara: 5 days
+
+This is our [Casablanca to Marrakech tour](/en/tours/casablanca-fes-sahara-marrakech-5day). It starts
+where most long-haul flights land and ends where most people fly home.
+
+| Day | Route | Distance | Driving |
+|---|---|---|---|
+| 1 | Casablanca → Rabat → Volubilis → Meknes → Fes | ≈370 km | about 6 h, across three stops |
+| 2 | Fes, a full guided day in the medina | none | none |
+| 3 | Fes → Ifrane → Midelt → Erfoud → Erg Chebbi | ≈460 km | about 7½ h, the longest day |
+| 4 | Erg Chebbi → Todra Gorge → Dades | ≈280 km | about 4½ h |
+| 5 | Dades → Ouarzazate → Aït Ben Haddou → Marrakech | ≈330 km | about 5½ h |
+
+The Fes day sits between the two longest drives on purpose: you sleep two nights in the same riad
+and walk instead of ride. The trade-off is that Rabat and Meknes are stops on day 1 rather than
+nights. From €825 per person for two. It works best with an open-jaw ticket; see
+[fly into Casablanca, out of Marrakech](/en/blog/fly-into-casablanca-out-of-marrakech).
+
+### A loop from Marrakech, all four cities, no desert: 5 days
+
+Our [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day) starts and ends in Marrakech and gives Meknes, Fes and Rabat a night each.
+Day 1 runs north-east to Midelt (≈410 km). Day 2 is Volubilis in the morning and Meknes in the
+afternoon, with the night there (≈300 km). Day 3 is a full guided day in Fes. Day 4 goes west to
+Rabat (≈200 km), and day 5 runs down the coast past Casablanca to Marrakech (≈240 km). Riads,
+breakfast and the entrance fees are included. From €575 per person for two. The same circuit
+starts from Agadir as a [6-day tour](/en/tours/agadir-imperial-cities-6day).
+
+### Two cities and the north: 4 days
+
+If Chefchaouen matters more than Rabat, the [4-day Chefchaouen tour](/en/tours/marrakech-to-chefchaouen-4day)
+goes Marrakech to Fes, gives Fes a full day, stops at Volubilis and Meknes, and ends in the blue town
+with a day to walk it. From €570 per person for two.
+
+### With more time
+
+Ten days lets you loop through the Sahara and the cities without a single rushed day; our
+[10-day itinerary](/en/blog/10-day-morocco-itinerary) lays it out day by day. If you are still
+deciding on length, start with [how many days you need in Morocco](/en/blog/how-many-days-do-you-need-in-morocco).
+
+## When a guide is worth it
+
+- **Fes: always.** The medina does not reveal its logic in an afternoon. Every one of our tours that
+  reaches Fes includes a full day with a licensed Fes guide.
+- **Marrakech: on a first visit.** The souks are laid out by trade and the buildings that matter
+  look like blank walls from the lane. Our [medina cultural tour](/en/tours/marrakech-medina-cultural-tour)
+  is a private four-hour walk with your own guide, from €41 per person for two, and leaves
+  the afternoon for going back alone.
+- **Meknes: optional.** The main sights are close together and half a day on your own works.
+
+Whichever city, book the guide through your riad or a tour operator, never an approach in the street.
+
+👉 **[See the 5-day Casablanca to Marrakech route](/en/tours/casablanca-fes-sahara-marrakech-5day)**: three imperial cities, a night in the dunes, and Marrakech at the end.
 `,
   },
 ];

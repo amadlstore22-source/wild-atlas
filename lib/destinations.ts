@@ -185,9 +185,9 @@ export const DESTINATIONS: Destination[] = [
     lng: -4.9815,
     heroImage: "/gallery/destinations-fes.jpg",
     about:
-      "Fes el-Bali is arguably the most remarkable urban survival on earth — a fully functioning medieval city of 156,000 people, covering 256 hectares, that has been continuously inhabited since 789 AD. It is the world's largest car-free urban area. Every street in its 9,400-alley labyrinth carries goods by hand or by mule. The same crafts have been produced in the same workshops for a thousand years: leather tanning, ceramic glazing, brass inlaying, zellige tilework. The city was founded by Moulay Idriss I and expanded under the Marinid dynasty into the great seat of Islamic learning it remains today.",
+      "Fes el-Bali is arguably the most remarkable urban survival on earth — a fully functioning medieval city of 156,000 people, covering 256 hectares, that has been continuously inhabited since 789 AD. It is one of the world's largest car-free urban areas. Every street in its 9,400-alley labyrinth carries goods by hand or by mule. The same crafts have been produced in the same workshops for a thousand years: leather tanning, ceramic glazing, brass inlaying, zellige tilework. The city was founded by Moulay Idriss I and expanded under the Marinid dynasty into the great seat of Islamic learning it remains today.",
     knownFor: [
-      "World's largest car-free urban zone — 9,400 alleyways",
+      "One of the world's largest car-free urban areas — 9,400 alleyways",
       "Chouara Tannery — unchanged since the 11th century",
       "University of al-Qarawiyyin, founded 859 AD — the world's oldest",
       "Bou Inania Madrasa & the Attarine Madrasa",

@@ -155,9 +155,9 @@ export const DESTINATIONS: Destination[] = [
     lng: -4.9815,
     heroImage: "/gallery/destinations-fes.jpg",
     about:
-      "Fès el-Bali ist wohl das bemerkenswerteste urbane Überbleibsel der Erde – eine voll funktionsfähige mittelalterliche Stadt mit 156.000 Einwohnern auf 256 Hektar, die seit dem Jahr 789 n. Chr. ununterbrochen bewohnt ist. Sie ist das größte autofreie Stadtgebiet der Welt. Jede Straße ihres Labyrinths aus 9.400 Gassen transportiert Waren per Hand oder Maultier. Dieselben Handwerke werden seit tausend Jahren in denselben Werkstätten ausgeübt: Ledergerbung, Keramikglasur, Messingeinlegearbeiten, Zellij-Mosaike. Die Stadt wurde von Moulay Idriss I. gegründet und expandierte unter der Marinidendynastie zu jenem großen Sitz islamischer Gelehrsamkeit, der sie bis heute geblieben ist.",
+      "Fès el-Bali ist wohl das bemerkenswerteste urbane Überbleibsel der Erde – eine voll funktionsfähige mittelalterliche Stadt mit 156.000 Einwohnern auf 256 Hektar, die seit dem Jahr 789 n. Chr. ununterbrochen bewohnt ist. Sie ist eines der größten autofreien Stadtgebiete der Welt. Jede Straße ihres Labyrinths aus 9.400 Gassen transportiert Waren per Hand oder Maultier. Dieselben Handwerke werden seit tausend Jahren in denselben Werkstätten ausgeübt: Ledergerbung, Keramikglasur, Messingeinlegearbeiten, Zellij-Mosaike. Die Stadt wurde von Moulay Idriss I. gegründet und expandierte unter der Marinidendynastie zu jenem großen Sitz islamischer Gelehrsamkeit, der sie bis heute geblieben ist.",
     knownFor: [
-      "Die größte autofreie Stadtzone der Welt – 9.400 Gassen",
+      "Eine der größten autofreien Stadtzonen der Welt – 9.400 Gassen",
       "Die Chouara-Gerberei – unverändert seit dem 11. Jahrhundert",
       "Die 859 gegründete Universität al-Qarawiyyin – die älteste der Welt",
       "Die Bou-Inania-Medresse und die Attarine-Medresse",

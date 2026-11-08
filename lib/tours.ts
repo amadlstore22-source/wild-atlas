@@ -1551,7 +1551,7 @@ export const TOURS: Tour[] = [
   {
     id: "17",
     slug: "marrakech-to-chefchaouen-4day",
-    relatedPosts: ["marrakech-to-chefchaouen-tour-cost", "chefchaouen-complete-travel-guide", "fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide", "how-booking-a-morocco-tour-works"],
+    relatedPosts: ["morocco-imperial-cities-route-guide", "marrakech-to-chefchaouen-tour-cost", "chefchaouen-complete-travel-guide", "fes-medina-travel-guide", "marrakech-to-fes-road-trip-guide", "how-booking-a-morocco-tour-works"],
     title: "Marrakech to Chefchaouen — 4-Day Blue City Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1654,7 +1654,7 @@ export const TOURS: Tour[] = [
   {
     id: "18",
     slug: "marrakech-imperial-cities-5day",
-    relatedPosts: ["fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco", "morocco-unesco-sites-film-locations", "how-booking-a-morocco-tour-works"],
+    relatedPosts: ["morocco-imperial-cities-route-guide", "fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco", "morocco-unesco-sites-film-locations", "how-booking-a-morocco-tour-works"],
     title: "Marrakech — All 4 Imperial Cities — 5-Day Grand Tour",
     category: "cultural",
     origin: "marrakech",
@@ -1706,7 +1706,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "All 4 Imperial Cities: Marrakech, Meknes, Fes, Rabat",
       "Volubilis Roman ruins (UNESCO World Heritage)",
-      "Hassan II Mosque in Rabat",
+      "Hassan Tower in Rabat",
       "Chouara Tanneries in Fes",
       "Bab Mansour — the greatest gate in North Africa",
     ],
@@ -1769,7 +1769,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Optional stop at the Hassan II Mosque in Casablanca (exterior — the world's largest mosque outside of Saudi Arabia). Continue south to Marrakech. Arrive by evening.",
+          "Optional stop at the Hassan II Mosque in Casablanca (exterior — one of the largest mosques in the world, with a 210 m minaret). Continue south to Marrakech. Arrive by evening.",
       },
     ],
     faq: [
@@ -2801,7 +2801,7 @@ export const TOURS: Tour[] = [
   {
     id: "21",
     slug: "agadir-imperial-cities-6day",
-    relatedPosts: ["7-day-agadir-itinerary-morocco", "fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco"],
+    relatedPosts: ["morocco-imperial-cities-route-guide", "7-day-agadir-itinerary-morocco", "fes-medina-travel-guide", "how-many-days-do-you-need-in-morocco"],
     title: "Agadir — All 4 Imperial Cities — 6-Day Grand Tour",
     category: "cultural",
     origin: "agadir",
@@ -2838,7 +2838,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "All 4 Imperial Cities: Marrakech, Meknes, Fes, Rabat",
       "Volubilis Roman ruins (UNESCO World Heritage)",
-      "Hassan II Mosque in Rabat",
+      "Hassan Tower in Rabat",
       "Chouara Tanneries in Fes",
       "Bab Mansour — the greatest gate in North Africa",
     ],
@@ -2912,7 +2912,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Optional stop at the Hassan II Mosque in Casablanca (exterior — the world's largest mosque outside of Saudi Arabia). Continue south to Marrakech. Onward transfer to Agadir or overnight. Tour concludes.",
+          "Optional stop at the Hassan II Mosque in Casablanca (exterior — one of the largest mosques in the world, with a 210 m minaret). Continue south to Marrakech. Onward transfer to Agadir or overnight. Tour concludes.",
       },
     ],
     faq: [
@@ -4968,6 +4968,7 @@ export const TOURS: Tour[] = [
     id: "49",
     slug: "casablanca-fes-sahara-marrakech-5day",
     relatedPosts: [
+      "morocco-imperial-cities-route-guide",
       "morocco-desert-camp-what-its-really-like",
       "how-booking-a-morocco-tour-works",
       "fes-medina-travel-guide",
@@ -5025,7 +5026,7 @@ export const TOURS: Tour[] = [
       "Hassan Tower and the Kasbah of the Udayas in Rabat",
       "Volubilis — Roman mosaics still in the ground where they were laid",
       "Bab Mansour and the imperial granaries at Meknes",
-      "A full guided day in the Fes medina, the world's largest car-free urban area",
+      "A full guided day in the Fes medina, one of the world's largest car-free urban areas",
       "Camel trek into the Erg Chebbi dunes and a night at a desert camp",
       "Todra Gorge and the Dades valley",
       "Aït Ben Haddou and the Atlas film studios at Ouarzazate",

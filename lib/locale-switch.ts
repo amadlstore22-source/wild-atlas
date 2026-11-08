@@ -73,6 +73,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prix-soiree-desert-agafay": "agafay-desert-evening-cost",
     "circuit-sahara-3-ou-4-jours-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
     "gite-berbere-village-trek-atlas": "berber-village-guesthouse-atlas-trek",
+    "villes-imperiales-maroc-itineraire": "morocco-imperial-cities-route-guide",
   },
   es: {
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -121,6 +122,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "precio-noche-desierto-agafay": "agafay-desert-evening-cost",
     "tour-sahara-3-o-4-dias-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
     "casa-bereber-pueblo-trekking-atlas": "berber-village-guesthouse-atlas-trek",
+    "ciudades-imperiales-marruecos-ruta": "morocco-imperial-cities-route-guide",
   },
   de: {
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -169,6 +171,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "agafay-wuestenabend-kosten": "agafay-desert-evening-cost",
     "sahara-tour-3-oder-4-tage-marrakesch": "3-day-vs-4-day-sahara-tour-marrakech",
     "berber-gaestehaus-dorf-atlas-trekking": "berber-village-guesthouse-atlas-trek",
+    "koenigsstaedte-marokko-route": "morocco-imperial-cities-route-guide",
   },
   it: {
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
@@ -216,6 +219,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "prezzo-serata-deserto-agafay": "agafay-desert-evening-cost",
     "tour-sahara-3-o-4-giorni-marrakech": "3-day-vs-4-day-sahara-tour-marrakech",
     "casa-berbera-villaggio-trekking-atlante": "berber-village-guesthouse-atlas-trek",
+    "citta-imperiali-marocco-itinerario": "morocco-imperial-cities-route-guide",
   },
 };
 

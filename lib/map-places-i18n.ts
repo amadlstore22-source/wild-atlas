@@ -113,7 +113,7 @@ export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> 
       name: "Fès el-Bali",
       subtitle: "La ville médiévale vivante",
       description: "La ville médiévale la plus intacte au monde : plus de 9 000 ruelles, la plus ancienne université du monde et la célèbre tannerie Chouara, inchangée depuis le XIe siècle.",
-      known: ["Plus grande zone urbaine sans voitures au monde", "Tannerie Chouara, en activité depuis le XIe siècle", "Université al-Qarawiyyin, fondée en 859", "Médersa Bou Inania et portes du palais royal", "Médina classée au patrimoine mondial de l'UNESCO"],
+      known: ["L'une des plus grandes zones urbaines sans voitures au monde", "Tannerie Chouara, en activité depuis le XIe siècle", "Université al-Qarawiyyin, fondée en 859", "Médersa Bou Inania et portes du palais royal", "Médina classée au patrimoine mondial de l'UNESCO"],
     },
     chefchaouen: {
       name: "Chefchaouen",
@@ -235,7 +235,7 @@ export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> 
       name: "Fez el-Bali",
       subtitle: "La ciudad medieval viva",
       description: "La ciudad medieval más intacta del mundo: más de 9.000 callejuelas, la universidad más antigua del mundo y la legendaria curtiduría Chouara, sin cambios desde el siglo XI.",
-      known: ["La mayor zona urbana sin coches del mundo", "Curtiduría Chouara, en uso desde el siglo XI", "Universidad de al-Qarawiyyin, fundada en 859", "Madrasa Bou Inania y puertas del palacio real", "Medina Patrimonio Mundial de la UNESCO"],
+      known: ["Una de las mayores zonas urbanas sin coches del mundo", "Curtiduría Chouara, en uso desde el siglo XI", "Universidad de al-Qarawiyyin, fundada en 859", "Madrasa Bou Inania y puertas del palacio real", "Medina Patrimonio Mundial de la UNESCO"],
     },
     chefchaouen: {
       name: "Chefchaouen",
@@ -357,7 +357,7 @@ export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> 
       name: "Fès el-Bali",
       subtitle: "Die lebendige Altstadt",
       description: "Die am besten erhaltene mittelalterliche Stadt der Welt: über 9.000 Gassen, die älteste Universität der Welt und die legendäre Gerberei Chouara, unverändert seit dem 11. Jahrhundert.",
-      known: ["Größte autofreie Stadtzone der Welt", "Gerberei Chouara, in Betrieb seit dem 11. Jahrhundert", "Universität al-Qarawiyyin, gegründet 859", "Medersa Bou Inania und Tore des Königspalasts", "Medina als UNESCO-Welterbe"],
+      known: ["Eine der größten autofreien Stadtzonen der Welt", "Gerberei Chouara, in Betrieb seit dem 11. Jahrhundert", "Universität al-Qarawiyyin, gegründet 859", "Medersa Bou Inania und Tore des Königspalasts", "Medina als UNESCO-Welterbe"],
     },
     chefchaouen: {
       name: "Chefchaouen",
@@ -479,7 +479,7 @@ export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> 
       name: "Fès el-Bali",
       subtitle: "La città medievale viva",
       description: "La città medievale più intatta al mondo: oltre 9.000 vicoli, l'università più antica del mondo e la leggendaria conceria Chouara, immutata dall'XI secolo.",
-      known: ["La più grande zona urbana senza auto al mondo", "Conceria Chouara, attiva dall'XI secolo", "Università al-Qarawiyyin, fondata nell'859", "Madrasa Bou Inania e porte del palazzo reale", "Medina Patrimonio dell'UNESCO"],
+      known: ["Una delle più grandi zone urbane senza auto al mondo", "Conceria Chouara, attiva dall'XI secolo", "Università al-Qarawiyyin, fondata nell'859", "Madrasa Bou Inania e porte del palazzo reale", "Medina Patrimonio dell'UNESCO"],
     },
     chefchaouen: {
       name: "Chefchaouen",
@@ -601,7 +601,7 @@ export const MAP_PLACE_TEXT: Partial<Record<Locale, Record<string, PlaceText>>> 
       name: "فاس البالي",
       subtitle: "المدينة الوسيطية الحية",
       description: "أكثر مدن العصور الوسطى حفاظاً على حالها في العالم: أكثر من 9000 زقاق، وأقدم جامعة في العالم، ودار الدباغة الشوارة الشهيرة التي لم تتغير منذ القرن الحادي عشر.",
-      known: ["أكبر منطقة حضرية خالية من السيارات في العالم", "دار الدباغة الشوارة، تعمل منذ القرن الحادي عشر", "جامعة القرويين، تأسست سنة 859", "المدرسة البوعنانية وأبواب القصر الملكي", "مدينة مسجلة في التراث العالمي لليونسكو"],
+      known: ["من أكبر المناطق الحضرية الخالية من السيارات في العالم", "دار الدباغة الشوارة، تعمل منذ القرن الحادي عشر", "جامعة القرويين، تأسست سنة 859", "المدرسة البوعنانية وأبواب القصر الملكي", "مدينة مسجلة في التراث العالمي لليونسكو"],
     },
     chefchaouen: {
       name: "شفشاون",

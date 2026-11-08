@@ -155,9 +155,9 @@ export const DESTINATIONS: Destination[] = [
     lng: -4.9815,
     heroImage: "/gallery/destinations-fes.jpg",
     about:
-      "Fès el-Bali è probabilmente la più straordinaria sopravvivenza urbana al mondo: una città medievale pienamente funzionante di 156.000 abitanti, che copre 256 ettari ed è abitata ininterrottamente dal 789 d.C. È la più grande area urbana priva di automobili al mondo. Ogni strada del suo labirinto di 9.400 vicoli vede il trasporto di merci a mano o a dorso di mulo. Gli stessi mestieri vengono praticati negli stessi laboratori da mille anni: concia del cuoio, smaltatura della ceramica, intarsio dell'ottone, zellige. La città fu fondata da Moulay Idriss I ed espansa sotto la dinastia merinide fino a diventare il grande centro del sapere islamico che rimane ancora oggi.",
+      "Fès el-Bali è probabilmente la più straordinaria sopravvivenza urbana al mondo: una città medievale pienamente funzionante di 156.000 abitanti, che copre 256 ettari ed è abitata ininterrottamente dal 789 d.C. È una delle più grandi aree urbane prive di automobili al mondo. Ogni strada del suo labirinto di 9.400 vicoli vede il trasporto di merci a mano o a dorso di mulo. Gli stessi mestieri vengono praticati negli stessi laboratori da mille anni: concia del cuoio, smaltatura della ceramica, intarsio dell'ottone, zellige. La città fu fondata da Moulay Idriss I ed espansa sotto la dinastia merinide fino a diventare il grande centro del sapere islamico che rimane ancora oggi.",
     knownFor: [
-      "La più grande zona urbana priva di automobili al mondo, con 9.400 vicoli",
+      "Una delle più grandi zone urbane prive di automobili al mondo, con 9.400 vicoli",
       "La conceria Chouara, immutata dall'XI secolo",
       "L'Università di al-Qarawiyyin, fondata nell'859, la più antica al mondo",
       "La madrasa Bou Inania e la madrasa Attarine",

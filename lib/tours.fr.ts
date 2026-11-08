@@ -1270,7 +1270,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Les 4 villes impériales : Marrakech, Meknès, Fès, Rabat",
       "Ruines romaines de Volubilis (patrimoine mondial de l'UNESCO)",
-      "Mosquée Hassan II à Rabat",
+      "Tour Hassan à Rabat",
       "Tanneries Chouara à Fès",
       "Bab Mansour — la plus grande porte d'Afrique du Nord",
     ],
@@ -1333,7 +1333,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Arrêt facultatif à la mosquée Hassan II à Casablanca (extérieur — la plus grande mosquée hors d'Arabie saoudite). Poursuite vers le sud jusqu'à Marrakech. Arrivée en soirée.",
+          "Arrêt facultatif à la mosquée Hassan II à Casablanca (extérieur — l'une des plus grandes mosquées du monde, au minaret de 210 m). Poursuite vers le sud jusqu'à Marrakech. Arrivée en soirée.",
       },
     ],
     faq: [
@@ -2238,7 +2238,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Les 4 villes impériales : Marrakech, Meknès, Fès, Rabat",
       "Ruines romaines de Volubilis (patrimoine mondial de l'UNESCO)",
-      "Mosquée Hassan II à Rabat",
+      "Tour Hassan à Rabat",
       "Tanneries Chouara à Fès",
       "Bab Mansour — la plus grande porte d'Afrique du Nord",
     ],
@@ -2312,7 +2312,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Arrêt facultatif à la mosquée Hassan II à Casablanca (extérieur — la plus grande mosquée hors d'Arabie saoudite). Poursuite vers le sud jusqu'à Marrakech. Transfert vers Agadir ou nuit sur place. Fin du circuit.",
+          "Arrêt facultatif à la mosquée Hassan II à Casablanca (extérieur — l'une des plus grandes mosquées du monde, au minaret de 210 m). Poursuite vers le sud jusqu'à Marrakech. Transfert vers Agadir ou nuit sur place. Fin du circuit.",
       },
     ],
     faq: [

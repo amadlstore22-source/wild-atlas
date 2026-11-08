@@ -1261,7 +1261,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Tutte e 4 le Città Imperiali: Marrakech, Meknes, Fes, Rabat",
       "Rovine romane di Volubilis (patrimonio UNESCO)",
-      "Moschea Hassan II a Rabat",
+      "Torre Hassan a Rabat",
       "Concerie Chouara a Fes",
       "Bab Mansour — la più grande porta del Nord Africa",
     ],
@@ -1324,7 +1324,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Sosta facoltativa alla Moschea Hassan II a Casablanca (esterno — la più grande moschea del mondo fuori dall'Arabia Saudita). Proseguimento verso sud fino a Marrakech. Arrivo in serata.",
+          "Sosta facoltativa alla Moschea Hassan II a Casablanca (esterno — una delle moschee più grandi del mondo, con un minareto di 210 m). Proseguimento verso sud fino a Marrakech. Arrivo in serata.",
       },
     ],
     faq: [
@@ -2229,7 +2229,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Tutte e 4 le Città Imperiali: Marrakech, Meknes, Fes, Rabat",
       "Rovine romane di Volubilis (patrimonio UNESCO)",
-      "Moschea Hassan II a Rabat",
+      "Torre Hassan a Rabat",
       "Concerie Chouara a Fes",
       "Bab Mansour — la più grande porta del Nord Africa",
     ],
@@ -2303,7 +2303,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Sosta facoltativa alla Moschea Hassan II a Casablanca (esterno — la più grande moschea del mondo fuori dall'Arabia Saudita). Proseguimento verso sud fino a Marrakech. Trasferimento successivo ad Agadir o pernottamento. Il tour si conclude.",
+          "Sosta facoltativa alla Moschea Hassan II a Casablanca (esterno — una delle moschee più grandi del mondo, con un minareto di 210 m). Proseguimento verso sud fino a Marrakech. Trasferimento successivo ad Agadir o pernottamento. Il tour si conclude.",
       },
     ],
     faq: [

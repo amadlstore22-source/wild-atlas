@@ -155,9 +155,9 @@ export const DESTINATIONS: Destination[] = [
     lng: -4.9815,
     heroImage: "/gallery/destinations-fes.jpg",
     about:
-      "Fès el-Bali est sans doute l'une des survivances urbaines les plus remarquables au monde — une cité médiévale pleinement fonctionnelle de 156 000 habitants, couvrant 256 hectares, habitée sans interruption depuis 789 après J.-C. C'est la plus grande zone urbaine sans voiture au monde. Chaque rue de son labyrinthe de 9 400 ruelles voit ses marchandises transportées à dos d'homme ou de mule. Les mêmes artisanats se perpétuent dans les mêmes ateliers depuis mille ans : tannage du cuir, émaillage des céramiques, incrustation du laiton, zellige. La ville fut fondée par Moulay Idriss Ier et s'étendit sous la dynastie mérinide pour devenir le grand foyer de savoir islamique qu'elle demeure aujourd'hui.",
+      "Fès el-Bali est sans doute l'une des survivances urbaines les plus remarquables au monde — une cité médiévale pleinement fonctionnelle de 156 000 habitants, couvrant 256 hectares, habitée sans interruption depuis 789 après J.-C. C'est l'une des plus grandes zones urbaines sans voitures au monde. Chaque rue de son labyrinthe de 9 400 ruelles voit ses marchandises transportées à dos d'homme ou de mule. Les mêmes artisanats se perpétuent dans les mêmes ateliers depuis mille ans : tannage du cuir, émaillage des céramiques, incrustation du laiton, zellige. La ville fut fondée par Moulay Idriss Ier et s'étendit sous la dynastie mérinide pour devenir le grand foyer de savoir islamique qu'elle demeure aujourd'hui.",
     knownFor: [
-      "La plus grande zone urbaine sans voiture au monde — 9 400 ruelles",
+      "L'une des plus grandes zones urbaines sans voitures au monde — 9 400 ruelles",
       "La tannerie Chouara — inchangée depuis le XIe siècle",
       "L'université Al Quaraouiyine, fondée en 859 — la plus ancienne au monde",
       "La médersa Bou Inania et la médersa Attarine",

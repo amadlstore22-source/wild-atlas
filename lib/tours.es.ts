@@ -1261,7 +1261,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Las 4 Ciudades Imperiales: Marrakech, Mequinez, Fez, Rabat",
       "Ruinas romanas de Volubilis (Patrimonio de la Humanidad por la UNESCO)",
-      "Mezquita Hassan II en Rabat",
+      "Torre Hassan en Rabat",
       "Curtidurías Chouara en Fez",
       "Bab Mansour — la gran puerta del norte de África",
     ],
@@ -1324,7 +1324,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — la mayor mezquita del mundo fuera de Arabia Saudí). Continuación hacia el sur, a Marrakech. Llegada por la tarde-noche.",
+          "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — una de las mayores mezquitas del mundo, con un minarete de 210 m). Continuación hacia el sur, a Marrakech. Llegada por la tarde-noche.",
       },
     ],
     faq: [
@@ -2229,7 +2229,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Las 4 Ciudades Imperiales: Marrakech, Mequinez, Fez, Rabat",
       "Ruinas romanas de Volubilis (Patrimonio de la Humanidad por la UNESCO)",
-      "Mezquita Hassan II en Rabat",
+      "Torre Hassan en Rabat",
       "Curtidurías Chouara en Fez",
       "Bab Mansour — la gran puerta del norte de África",
     ],
@@ -2303,7 +2303,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — la mayor mezquita del mundo fuera de Arabia Saudí). Continuación hacia el sur, a Marrakech. Traslado a Agadir o noche adicional. El tour concluye.",
+          "Parada opcional en la Mezquita Hassan II de Casablanca (exterior — una de las mayores mezquitas del mundo, con un minarete de 210 m). Continuación hacia el sur, a Marrakech. Traslado a Agadir o noche adicional. El tour concluye.",
       },
     ],
     faq: [

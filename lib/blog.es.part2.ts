@@ -8391,7 +8391,7 @@ cuesta, y para seis la diferencia es pequeña.
       "Lo que cuesta un tour de 2 días a Zagora: 85 € por persona compartido desde Marrakech, 400 € cada uno privado para dos desde Agadir. Qué está incluido.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
     faq: [
-      { q: "¿Cuánto cuesta un tour de 2 días a Zagora?", a: "Nuestro tour compartido de 2 días desde Marrakech cuesta 85 € por persona a partir de dos (105 € para una sola persona, con tienda propia), más o menos lo más barato que cuesta una noche de verdad en el desierto en Marruecos. Una versión privada desde Agadir cuesta 400 € por persona para dos, 220 € para cuatro y 195 € a partir de cinco. El precio compartido es bajo porque el vehículo va lleno y el itinerario es fijo." },
+      { q: "¿Cuánto cuesta un tour de 2 días a Zagora?", a: "Nuestro tour compartido de 2 días desde Marrakech cuesta 85 € por persona a partir de dos (105 € para una sola persona, con tienda propia), más o menos lo más barato que cuesta una noche de verdad en el desierto en Marruecos. Una versión privada desde Agadir cuesta 400 € por persona para dos, 310 € para cuatro y 280 € a partir de cinco. El precio compartido es bajo porque el vehículo va lleno y el itinerario es fijo." },
       { q: "¿Es mejor Zagora que Merzouga?", a: "Está más cerca y es más barato, no es mejor. Zagora está a unos 360 km de Marrakech frente a los 560 km de Merzouga, y por eso cabe en dos días. Pero sus dunas son bajas y con matorral, mientras que el Erg Chebbi de Merzouga es un auténtico mar de arena con dunas de hasta 150 m. Si lo que imaginas son las dunas altas, paga el tercer día." },
       { q: "¿Por qué es tan barato un tour de 2 días a Zagora?", a: "Porque el trayecto es lo bastante corto para hacerlo en un día en cada sentido, el campamento está cerca de la carretera y las salidas compartidas llenan un minibús de doce a dieciséis plazas de pago. Nada de eso exige recortar calidad: es realmente un viaje más barato de organizar que Merzouga, y el precio refleja la distancia, no la calidad." },
       { q: "¿Qué incluye el precio del tour a Zagora?", a: "El transporte de ida y vuelta desde Marrakech, el paso por el puerto del Tizi n'Tichka con parada en Aït Ben Haddou, un paseo en camello por las dunas al atardecer, la cena y el desayuno en el campamento y una noche en una jaima bereber. Las comidas en ruta, las bebidas y las propinas no están incluidas: calcula 70-120 MAD para una comida en la carretera." },
@@ -8406,7 +8406,7 @@ mínimo para una noche de verdad en el desierto en Marruecos: un paseo en camell
 campamento, la cena y el desayuno, y el viaje de ida y vuelta.
 
 En privado, desde Agadir, los mismos dos días cuestan **400 € por persona para dos**,
-220 € para cuatro y 195 € a partir de cinco ([de Agadir a Zagora](/es/tours/tour-zagora-2-dias-agadir)).
+310 € para cuatro y 280 € a partir de cinco ([de Agadir a Zagora](/es/tours/tour-zagora-2-dias-agadir)).
 
 ## Por qué es el viaje al desierto más barato del país
 

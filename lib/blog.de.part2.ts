@@ -8412,7 +8412,7 @@ Geld wert, und zu sechst ist der Unterschied gering.
       "Was eine 2-tägige Zagora-Tour kostet: 85 € pro Person geteilt ab Marrakesch, 400 € pro Person privat zu zweit ab Agadir. Was inbegriffen ist.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
     faq: [
-      { q: "Was kostet eine 2-tägige Tour nach Zagora?", a: "Unsere geteilte 2-Tage-Tour ab Marrakesch kostet 85 € pro Person ab zwei Reisenden (105 € für Alleinreisende, mit eigenem Zelt) – ungefähr so günstig, wie eine echte Wüstennacht in Marokko sein kann. Eine private Variante ab Agadir kostet 400 € pro Person zu zweit, 220 € zu viert und 195 € ab fünf Personen. Der geteilte Preis ist niedrig, weil das Fahrzeug voll und das Programm fest ist." },
+      { q: "Was kostet eine 2-tägige Tour nach Zagora?", a: "Unsere geteilte 2-Tage-Tour ab Marrakesch kostet 85 € pro Person ab zwei Reisenden (105 € für Alleinreisende, mit eigenem Zelt) – ungefähr so günstig, wie eine echte Wüstennacht in Marokko sein kann. Eine private Variante ab Agadir kostet 400 € pro Person zu zweit, 310 € zu viert und 280 € ab fünf Personen. Der geteilte Preis ist niedrig, weil das Fahrzeug voll und das Programm fest ist." },
       { q: "Ist Zagora besser als Merzouga?", a: "Näher und günstiger, nicht besser. Zagora liegt rund 360 km von Marrakesch entfernt, Merzouga 560 km – deshalb passt es in zwei Tage. Seine Dünen sind aber niedrig und mit Gestrüpp bewachsen, während der Erg Chebbi bei Merzouga ein echtes Sandmeer mit Dünen bis 150 m ist. Wenn Sie sich die hohen Dünen vorstellen, zahlen Sie für den dritten Tag." },
       { q: "Warum ist eine 2-Tage-Tour nach Zagora so günstig?", a: "Weil die Strecke kurz genug für einen Tag pro Richtung ist, das Camp nah an der Straße liegt und geteilte Abfahrten einen Minibus mit zwölf bis sechzehn zahlenden Plätzen füllen. Nichts davon erfordert Abstriche – die Reise ist wirklich günstiger durchzuführen als Merzouga, und der Preis spiegelt die Entfernung wider, nicht die Qualität." },
       { q: "Was ist im Preis der Zagora-Tour enthalten?", a: "Hin- und Rückfahrt ab Marrakesch, die Fahrt über den Tizi-n'Tichka-Pass mit Halt in Aït Ben Haddou, ein Kamelritt in die Dünen bei Sonnenuntergang, Abendessen und Frühstück im Wüstencamp sowie eine Nacht im Berberzelt. Mittagessen unterwegs, Getränke und Trinkgeld sind nicht enthalten – rechnen Sie mit 70–120 MAD für ein Mittagessen an der Strecke." },
@@ -8426,8 +8426,8 @@ Geld wert, und zu sechst ist der Unterschied gering.
 Mindestpreis für eine echte Wüstennacht in Marokko – ein Kamelritt, ein Camp, Abendessen und
 Frühstück sowie die Hin- und Rückfahrt.
 
-Privat, ab Agadir, kosten dieselben zwei Tage **400 € pro Person zu zweit**, 220 € zu viert
-und 195 € ab fünf Personen ([Agadir nach Zagora](/de/tours/zagora-tour-2-tage-agadir)).
+Privat, ab Agadir, kosten dieselben zwei Tage **400 € pro Person zu zweit**, 310 € zu viert
+und 280 € ab fünf Personen ([Agadir nach Zagora](/de/tours/zagora-tour-2-tage-agadir)).
 
 ## Warum es die günstigste Wüstenreise des Landes ist
 

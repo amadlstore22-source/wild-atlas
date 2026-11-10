@@ -8465,7 +8465,7 @@ serré : le circuit privé vaut ce qu'il coûte, et à six la différence est fa
       "Le prix d'un circuit de 2 jours à Zagora : 85 € par personne en partagé depuis Marrakech, 400 € chacun en privé à deux depuis Agadir. Ce qui est inclus.",
     relatedTours: ["shared-zagora-2day-marrakech", "zagora-2day-agadir", "shared-merzouga-3day-marrakech"],
     faq: [
-      { q: "Combien coûte un circuit de 2 jours à Zagora ?", a: "Notre circuit partagé de 2 jours depuis Marrakech coûte 85 € par personne à partir de deux (105 € pour une personne seule, avec une tente pour elle), ce qui est à peu près le prix le plus bas pour une vraie nuit dans le désert au Maroc. Une version privée depuis Agadir coûte 400 € par personne à deux, 220 € à quatre et 195 € à partir de cinq. Le prix partagé est bas parce que le véhicule est plein et l'itinéraire fixe." },
+      { q: "Combien coûte un circuit de 2 jours à Zagora ?", a: "Notre circuit partagé de 2 jours depuis Marrakech coûte 85 € par personne à partir de deux (105 € pour une personne seule, avec une tente pour elle), ce qui est à peu près le prix le plus bas pour une vraie nuit dans le désert au Maroc. Une version privée depuis Agadir coûte 400 € par personne à deux, 310 € à quatre et 280 € à partir de cinq. Le prix partagé est bas parce que le véhicule est plein et l'itinéraire fixe." },
       { q: "Zagora est-il mieux que Merzouga ?", a: "Plus proche et moins cher, pas mieux. Zagora est à environ 360 km de Marrakech contre 560 km pour Merzouga, ce qui explique qu'il tienne en deux jours. Mais ses dunes sont basses et clairsemées, alors que l'Erg Chebbi à Merzouga est une véritable mer de sable avec des dunes jusqu'à 150 m. Si ce sont les grandes dunes que vous imaginez, payez le troisième jour." },
       { q: "Pourquoi un circuit de 2 jours à Zagora est-il si bon marché ?", a: "Parce que la route est assez courte pour se faire en une journée dans chaque sens, que le camp est proche de la route et que les départs partagés remplissent un minibus de douze à seize places payantes. Rien de tout cela n'exige de rogner sur la qualité — c'est réellement un circuit moins coûteux à organiser que Merzouga, et le prix reflète la distance plutôt que la qualité." },
       { q: "Qu'est-ce qui est compris dans le prix du circuit Zagora ?", a: "Le transport aller-retour depuis Marrakech, la traversée du col du Tizi n'Tichka avec un arrêt à Aït Ben Haddou, une balade à dos de dromadaire dans les dunes au coucher du soleil, le dîner et le petit-déjeuner au camp, et une nuit sous une tente berbère. Les déjeuners en route, les boissons et les pourboires ne sont pas compris — prévoyez 70 à 120 MAD pour un déjeuner sur la route." },
@@ -8480,7 +8480,7 @@ prix plancher pour une vraie nuit dans le désert au Maroc — une balade à dos
 un camp, le dîner et le petit-déjeuner, et le trajet aller-retour.
 
 En privé, depuis Agadir, les mêmes deux jours coûtent **400 € par personne à deux**,
-220 € à quatre et 195 € à partir de cinq ([d'Agadir à Zagora](/fr/tours/circuit-zagora-2-jours-agadir)).
+310 € à quatre et 280 € à partir de cinq ([d'Agadir à Zagora](/fr/tours/circuit-zagora-2-jours-agadir)).
 
 ## Pourquoi c'est le circuit désert le moins cher du pays
 

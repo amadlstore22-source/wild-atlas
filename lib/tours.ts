@@ -2272,12 +2272,14 @@ export const TOURS: Tour[] = [
     // were set when prices were stored in USD; the solo rate has shown as
     // EUR 790 since, and is stored as that. Note there is no
     // 6-person tier by design — six people pay the 5+ rate.
+    // 2026-11-10 owner: same prices as sahara-2day-agadir (Agadir → Erg
+    // Chegaga), so 3/4/5+ rose from 290/220/195 to 340/310/280.
     groupPricing: [
       { minPeople: 1, price: 790 },
       { minPeople: 2, price: 400 },
-      { minPeople: 3, price: 290 },
-      { minPeople: 4, price: 220 },
-      { minPeople: 5, price: 195 },
+      { minPeople: 3, price: 340 },
+      { minPeople: 4, price: 310 },
+      { minPeople: 5, price: 280 },
     ],
     price: 790,
     depositAmount: 158,
@@ -2346,7 +2348,7 @@ export const TOURS: Tour[] = [
     featured: false,
     seoTitle: "Private 2-Day Zagora Tour, Agadir",
     seoDescription:
-      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From €195 pp for 5+.",
+      "From Agadir's coast to the Zagora desert in 2 days — via Taroudant, the 200 km Draa Valley palmery, and a sunset camel trek. From €280 pp for 5+.",
   },
   {
     id: "28",

@@ -117,3 +117,35 @@ describe("www consolidation resolves in a single hop", () => {
     expect(second).toBeUndefined();
   });
 });
+
+/**
+ * Search Console's 404 report (2026-11-12) listed tour URLs that outside sites
+ * link to with a CMS suffix glued on — /en/tours/agafay-desert-sunset-0,
+ * /en/tours/taroudant-day-trip-agadir-182 — and /ar/categories/hiking. Each
+ * was a real visitor (and Google) landing on a 404 instead of the tour, and
+ * nothing in the build sees links that live on other people's sites.
+ */
+describe("outside links with mangled tour or category slugs", () => {
+  it("sends a suffixed English tour slug to the real tour", () => {
+    const res = proxy(req("/en/tours/taroudant-day-trip-agadir-182"));
+    expect(res?.status).toBe(308);
+    expect(new URL(res!.headers.get("location")!).pathname).toBe("/en/tours/taroudant-day-trip-agadir");
+  });
+
+  it("lands on the localised tour URL in other languages, in one hop", () => {
+    const res = proxy(req("/fr/tours/agafay-desert-sunset-0"));
+    const to = new URL(res!.headers.get("location")!).pathname;
+    expect(to.startsWith("/fr/tours/")).toBe(true);
+    expect(to).not.toContain("-0");
+    expect(proxy(req(to))).toBeUndefined();
+  });
+
+  it("sends /categories/hiking to trekking", () => {
+    const res = proxy(req("/ar/categories/hiking"));
+    expect(new URL(res!.headers.get("location")!).pathname).toBe("/ar/categories/trekking");
+  });
+
+  it("leaves real tour URLs alone", () => {
+    expect(proxy(req("/en/tours/agafay-desert-sunset"))).toBeUndefined();
+  });
+});

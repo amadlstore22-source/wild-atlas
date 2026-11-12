@@ -500,6 +500,17 @@ export function proxy(request: NextRequest) {
     sahara: "desert",
     "day-trips": "day-tours",
     "day-tour": "day-tours",
+    // Search Console 404 report, 2026-11-12: /ar/categories/hiking, from an
+    // outside link. There is no hiking category; trekking is the page meant.
+    hiking: "trekking",
+  };
+  // Mangled tour slugs that outside sites link to (Search Console 404 report,
+  // 2026-11-12, all crawled 2026-11-01). Someone's CMS appended "-0" / "-182"
+  // to our real slugs. Each was a visitor landing on a 404 instead of the tour.
+  const TOUR_ALIASES: Record<string, string> = {
+    "agafay-desert-sunset-0": "agafay-desert-sunset",
+    "ourika-valley-day-hike-0": "ourika-valley-day-hike",
+    "taroudant-day-trip-agadir-182": "taroudant-day-trip-agadir",
   };
   // Posts whose URL segment differs per locale. English slug -> per-locale
   // segment. Only posts published from 2026-08 are listed: older posts are
@@ -522,9 +533,11 @@ export function proxy(request: NextRequest) {
   };
   const tourMatch = pathname.match(/^\/([a-z]{2})\/tours\/([^/]+)\/?$/);
   if (tourMatch) {
-    const [, loc, slug] = tourMatch;
-    const target = TOUR_LOCALIZED_SLUGS[loc]?.[slug];
-    if (target && target !== slug) {
+    const [, loc, rawSlug] = tourMatch;
+    const alias = TOUR_ALIASES[rawSlug];
+    const slug = alias ?? rawSlug;
+    const target = TOUR_LOCALIZED_SLUGS[loc]?.[slug] ?? alias;
+    if (target && target !== rawSlug) {
       const url = request.nextUrl.clone();
       url.pathname = `/${loc}/tours/${target}`;
       // 308 rather than 301: these are the booking pages, and 308 preserves the

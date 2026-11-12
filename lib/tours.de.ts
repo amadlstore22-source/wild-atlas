@@ -888,7 +888,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Staatlich geprüfter Bergführer",
-      "2 Nächte im Berber-Gästehaus oder im Biwak, je nach Wetter und Ihrem Wunsch",
+      "2 Nächte in Berber-Gästehäusern im Dorf",
       "Alle Mahlzeiten",
       "Hin- und Rückfahrt ab Agadir",
       "Maultier für den Gepäcktransport",
@@ -898,7 +898,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Biwak",
+        stay: "Gästehaus",
         walking: "3–4 h",
         driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
@@ -909,13 +909,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,L,D",
-        stay: "Biwak",
+        stay: "Gästehaus",
         walking: "6 h",
         ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
         title: "Durchquerung des Hochgrats",
         description:
-          "Ganztägige Wanderung durch rosafarbene Granitgrate mit Blick auf das Ameln-Tal darunter. Übernachtung im Zelt oder in einer Pension in einem abgelegenen Dorf.",
+          "Ganztägige Wanderung durch rosafarbene Granitgrate mit Blick auf das Ameln-Tal darunter. Übernachtung in einem Berber-Gästehaus in einem abgelegenen Dorf.",
       },
       {
         day: 3,

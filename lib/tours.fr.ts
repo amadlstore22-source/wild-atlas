@@ -897,7 +897,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guide de montagne diplômé",
-      "2 nuits en maison d'hôtes berbère ou en bivouac, selon la météo et votre préférence",
+      "2 nuits en maisons d'hôtes berbères de village",
       "Tous les repas",
       "Transport aller-retour depuis Agadir",
       "Mule pour le portage du matériel",
@@ -907,7 +907,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Bivouac",
+        stay: "Maison d'hôtes",
         walking: "3–4 h",
         driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
@@ -918,13 +918,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,L,D",
-        stay: "Bivouac",
+        stay: "Maison d'hôtes",
         walking: "6 h",
         ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
         title: "Traversée de la crête",
         description:
-          "Journée complète de trek à travers les crêtes de granit rose, avec vue sur la vallée d'Ameln en contrebas. Nuit en camping ou en gîte dans un village reculé.",
+          "Journée complète de trek à travers les crêtes de granit rose, avec vue sur la vallée d'Ameln en contrebas. Nuit dans une maison d'hôtes berbère, dans un village reculé.",
       },
       {
         day: 3,

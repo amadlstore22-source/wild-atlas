@@ -888,7 +888,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guía de montaña titulado",
-      "2 noches en casa de huéspedes bereber o en vivac, según el tiempo y tu preferencia",
+      "2 noches en casas de huéspedes bereberes de pueblo",
       "Todas las comidas",
       "Transporte de ida y vuelta desde Agadir",
       "Mula para el transporte del equipaje",
@@ -898,7 +898,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Vivac",
+        stay: "Casa de huéspedes",
         walking: "3–4 h",
         driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
@@ -909,13 +909,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,L,D",
-        stay: "Vivac",
+        stay: "Casa de huéspedes",
         walking: "6 h",
         ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
         title: "Travesía de la Cresta Alta",
         description:
-          "Día completo de trekking por crestas de granito rosa con vistas al valle de Ameln, abajo. Noche en tienda de campaña o casa de huéspedes en un pueblo remoto.",
+          "Día completo de trekking por crestas de granito rosa con vistas al valle de Ameln, abajo. Noche en una casa de huéspedes bereber en un pueblo remoto.",
       },
       {
         day: 3,

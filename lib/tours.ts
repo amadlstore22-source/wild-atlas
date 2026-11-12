@@ -1259,7 +1259,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Certified mountain guide",
-      "2 nights in a Berber guesthouse or camping, depending on the weather and your preference",
+      "2 nights in Berber village guesthouses",
       "All meals",
       "Round-trip transport from Agadir",
       "Mule for equipment",
@@ -1269,7 +1269,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Wild camp",
+        stay: "Guesthouse",
         walking: "3–4 h",
         driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
@@ -1280,13 +1280,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,L,D",
-        stay: "Wild camp",
+        stay: "Guesthouse",
         walking: "6 h",
         ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
         title: "High Ridge Traverse",
         description:
-          "Full day trekking through pink granite ridges with views of the Ameln Valley below. Night camping or guesthouse in a remote village.",
+          "Full day trekking through pink granite ridges with views of the Ameln Valley below. Night in a Berber guesthouse in a remote village.",
       },
       {
         day: 3,

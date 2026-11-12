@@ -888,7 +888,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Guida alpina qualificata",
-      "2 notti in una guesthouse berbera o in bivacco, a seconda del meteo e delle tue preferenze",
+      "2 notti in guesthouse berbere di villaggio",
       "Tutti i pasti",
       "Trasporto andata e ritorno da Agadir",
       "Mulo per il trasporto dell'attrezzatura",
@@ -898,7 +898,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Bivacco",
+        stay: "Casa per ospiti",
         walking: "3–4 h",
         driving: "≈3 h",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
@@ -909,13 +909,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,L,D",
-        stay: "Bivacco",
+        stay: "Casa per ospiti",
         walking: "6 h",
         ascent: "+700 m",
         stop: { name: "Tafraoute", lat: 29.717, lng: -8.967 },
         title: "Traversata dell'Alta Cresta",
         description:
-          "Giornata intera di trekking tra creste di granito rosa con vista sulla Valle dell'Ameln sottostante. Notte in campeggio o guesthouse in un villaggio remoto.",
+          "Giornata intera di trekking tra creste di granito rosa con vista sulla Valle dell'Ameln sottostante. Notte in una guesthouse berbera in un villaggio remoto.",
       },
       {
         day: 3,

@@ -947,7 +947,7 @@ export const TOURS: Tour[] = [
       "Casi todos los viajes al Sáhara en Marruecos salen de Marrakech. Este sale de Agadir y toma la ruta del sur por Tata y Foum Zguid hasta el Erg Chegaga, que es un desierto verdaderamente distinto del de las postales. Chegaga es el campo de dunas más grande y remoto del país, al que se llega en 4x4 campo a través y no en autocar hasta un campamento junto a la carretera.",
       "Sea claro consigo mismo respecto a la carretera, porque es el rasgo que define el viaje: unas 8 horas y 450 km en cada sentido, los dos días. Es mucho vehículo para un circuito de dos días, y es el precio de alcanzar Chegaga desde la costa. A cambio se obtiene un campo de dunas donde no se comparte la puesta de sol con otras cincuenta personas. Si el problema son los trayectos largos más que la distancia, la versión de 4 días desde Marrakech encaja mejor.",
       "El primer día va de Agadir a Tata y Foum Zguid y entra en las dunas, con llegada para el paseo en camello al atardecer y la cena en el campamento. El segundo día es el amanecer sobre el erg y luego la vuelta por el palmeral del valle del Draa y sus kasbahs. Una noche bajo lona, y el campamento queda lo bastante lejos de cualquier población como para que la Vía Láctea se vea sin esfuerzo.",
-      "Por persona: 790 € en solitario, 400 € para dos, 340 € para tres, 310 € para cuatro y 280 € para cinco. Incluye el transporte en 4x4 durante todo el trayecto, un guía del desierto con experiencia, la noche en el campamento en tienda de dormir privada con cena y desayuno, y todos los paseos en camello. Hay tienda con baño privado disponible si prefiere no usar instalaciones compartidas: conviene preguntarlo al reservar y no a la llegada.",
+      "Por persona: 990 € en solitario, 500 € para dos, 407 € para tres, 360 € para cuatro y 320 € para cinco. Incluye el transporte en 4x4 durante todo el trayecto, un guía del desierto con experiencia, la noche en el campamento en tienda de dormir privada con cena y desayuno, y todos los paseos en camello. Hay tienda con baño privado disponible si prefiere no usar instalaciones compartidas: conviene preguntarlo al reservar y no a la llegada.",
       "La comida del primer día no está incluida, ni tampoco los artículos personales ni las propinas. El grupo es de 2 a 10 personas y el viaje es privado. Está clasificado como fácil: no hay prácticamente nada de caminata y lo único que realmente exige es tolerar una jornada larga en vehículo por una carretera que la mayoría de los visitantes de Marruecos no llega a ver nunca.",
     ],
     title: "Agadir al Sáhara — Tour de 2 Días por el Desierto",
@@ -958,8 +958,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 personas",
     reviewCount: 47,
     rating: 4.9,
-    price: 790,
-    depositAmount: 158,
+    price: 990,
+    depositAmount: 198,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [

@@ -1319,7 +1319,7 @@ export const TOURS: Tour[] = [
       "Almost every Sahara trip in Morocco leaves from Marrakech. This one leaves from Agadir and takes the southern route through Tata and Foum Zguid to Erg Chegaga, which is a genuinely different desert from the one on the postcards. Chegaga is the largest and most remote dune field in the country, reached by 4x4 across open ground rather than by coach to a roadside camp.",
       "Be clear about the driving, because it is the defining feature: roughly 8 hours and 450 km each way, on both days. That is a lot of vehicle time for a two-day trip, and it is the price of reaching Chegaga from the coast at all. What you get for it is a dune field where you are not sharing the sunset with fifty other people. If long drives are the problem rather than the distance, the 4-day version from Marrakech is the better fit.",
       "Day one runs Agadir–Tata–Foum Zguid and into the dunes, arriving for a sunset camel trek and dinner at camp. Day two is sunrise over the erg, then back through the Draa Valley palmery and its kasbahs. One night under canvas, and the camp is far enough from any town that the Milky Way is visible without trying.",
-      "Per person: €790 solo, €400 for two, €340 for three, €310 for four and €280 at five. That covers 4x4 transport throughout, an experienced desert guide, the camp night in a private sleeping tent with dinner and breakfast, and all camel rides. An en-suite tent is available if you would rather not use shared facilities — worth asking about when you book rather than on arrival.",
+      "Per person: €990 solo, €500 for two, €407 for three, €360 for four and €320 at five. That covers 4x4 transport throughout, an experienced desert guide, the camp night in a private sleeping tent with dinner and breakfast, and all camel rides. An en-suite tent is available if you would rather not use shared facilities — worth asking about when you book rather than on arrival.",
       "Lunch on day one is not included, and neither are personal items or tips. Group size is 2–10 and the trip is private. It is graded easy: there is no walking to speak of, and the only real demand it makes is tolerance for a long day in a vehicle on a road most visitors to Morocco never see.",
     ],
     title: "Agadir to the Sahara — 2-Day Desert Tour",
@@ -1342,15 +1342,21 @@ export const TOURS: Tour[] = [
     // which lets a solo traveller book two seats to save 50.
     //
     // Note there is no 6-person tier by design — six people pay the 5+ rate.
+    //
+    // 2026-11-13 owner: Erg Chegaga is EUR 200 more per group than before
+    // (quoted to four friends at EUR 1,440 against Zagora's 1,240). Applied as
+    // +200 on the group total at every size: 790/400/340/310/280 ->
+    // 990/500/407/360/320 (3 people: 1,020 + 200 = 1,220, rounded to 407 pp).
+    // zagora-2day-agadir keeps the old ladder.
     groupPricing: [
-      { minPeople: 1, price: 790 },
-      { minPeople: 2, price: 400 },
-      { minPeople: 3, price: 340 },
-      { minPeople: 4, price: 310 },
-      { minPeople: 5, price: 280 },
+      { minPeople: 1, price: 990 },
+      { minPeople: 2, price: 500 },
+      { minPeople: 3, price: 407 },
+      { minPeople: 4, price: 360 },
+      { minPeople: 5, price: 320 },
     ],
-    price: 790,
-    depositAmount: 158,
+    price: 990,
+    depositAmount: 198,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [
@@ -1409,7 +1415,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "Private 2-Day Sahara Tour, Agadir",
     seoDescription:
-      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From €280 pp for 5+.",
+      "The remote Erg Chegaga dunes via the southern Draa Valley route — camel trek, Berber desert camp, and a sunrise over the Sahara. From €320 pp for 5+.",
     featured: true,
   },
   {
@@ -2274,6 +2280,7 @@ export const TOURS: Tour[] = [
     // 6-person tier by design — six people pay the 5+ rate.
     // 2026-11-10 owner: same prices as sahara-2day-agadir (Agadir → Erg
     // Chegaga), so 3/4/5+ rose from 290/220/195 to 340/310/280.
+    // 2026-11-13: Chegaga went EUR 200 per group higher; Zagora did not.
     groupPricing: [
       { minPeople: 1, price: 790 },
       { minPeople: 2, price: 400 },

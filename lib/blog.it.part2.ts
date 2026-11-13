@@ -3630,9 +3630,9 @@ avanti il campo.
       "Quanto costa un tour nel deserto da Agadir nel 2026: itinerari di 2, 3 e 4 giorni a confronto, e perché vanno all'Erg Chegaga invece che a Merzouga.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 400 € a persona in due, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 605 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 519 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
+      { q: "Quanto costa un tour nel Sahara da Agadir?", a: "Il nostro [viaggio di 2 giorni all'Erg Chegaga](/it/tours/sahara-2day-agadir) costa 500 € a persona in due, l'[itinerario privato di 3 giorni](/it/tours/erg-chegaga-3day-agadir) 605 €, e quello [di 4 giorni all'Erg Chebbi](/it/tours/desert-4day-agadir) 519 €. Quello di 2 giorni è il più economico per viaggio ma comporta circa 16 ore di strada in due giorni, quindi il costo per ora effettivamente passata tra le dune è il più alto dei tre." },
       { q: "Perché i tour da Agadir vanno all'Erg Chegaga invece che a Merzouga?", a: "Geografia. L'Erg Chegaga dista circa 450 km da Agadir via Tata e Foum Zguid; Merzouga circa 700 km. In un viaggio di 2 giorni Chegaga è raggiungibile e Merzouga no, ed è per questo che gli itinerari brevi vanno lì. Quello di 4 giorni ha il tempo di raggiungere l'Erg Chebbi." },
-      { q: "Bastano 2 giorni per un viaggio nel deserto da Agadir?", a: "Bastano per dormire tra le dune, che è ciò per cui la maggior parte parte. Non è un viaggio rilassante: circa 8 ore di strada per senso, un giro in cammello al tramonto, una notte al campo, un giro all'alba e il ritorno. Se vuoi più deserto e meno veicolo, quello di 3 giorni spezza il viaggio con una notte in hotel, per 205 € in più a persona (in due)." },
+      { q: "Bastano 2 giorni per un viaggio nel deserto da Agadir?", a: "Bastano per dormire tra le dune, che è ciò per cui la maggior parte parte. Non è un viaggio rilassante: circa 8 ore di strada per senso, un giro in cammello al tramonto, una notte al campo, un giro all'alba e il ritorno. Se vuoi più deserto e meno veicolo, quello di 3 giorni spezza il viaggio con una notte in hotel, per 105 € in più a persona (in due)." },
       { q: "Cosa non è incluso in un tour nel deserto da Agadir?", a: "In quello di 2 giorni: il pranzo del giorno uno, gli effetti personali e le mance. In quello di 4 giorni: tutti i pranzi a circa 12-15 € ciascuno, il biglietto facoltativo per gli Atlas Studios (~7 €), le bevande alcoliche, l'assicurazione di viaggio e le mance. Alloggio, cene, colazioni, giri in cammello e tutto il trasporto sono inclusi in ogni itinerario." },
     ],
     content: `
@@ -3647,13 +3647,13 @@ un viaggio nel deserto dalla costa costi diversamente dallo stesso viaggio da Ma
 
 | Itinerario | Prezzo p.p., in due | Notti | Raggiunge |
 |---|---|---|---|
-| [2 giorni Erg Chegaga](/it/tours/sahara-2day-agadir) | 400 € | 1 (campo) | Erg Chegaga |
+| [2 giorni Erg Chegaga](/it/tours/sahara-2day-agadir) | 500 € | 1 (campo) | Erg Chegaga |
 | [3 giorni Erg Chegaga, privato](/it/tours/erg-chegaga-3day-agadir) | 605 € | 2 (hotel + campo) | Erg Chegaga |
 | [4 giorni Erg Chebbi](/it/tours/desert-4day-agadir) | 519 € | 3 (hotel + campo + hotel) | Merzouga |
 
 ## Il viaggio di 2 giorni, onestamente
 
-400 € comprendono trasporto in 4x4, una guida del deserto esperta, una notte in campo berbero
+500 € comprendono trasporto in 4x4, una guida del deserto esperta, una notte in campo berbero
 lusso con cena e colazione, e tutti i giri in cammello.
 
 Quello che comporta anche sono **circa 8 ore di strada per senso**. Il giorno uno parte da
@@ -3666,9 +3666,9 @@ del Draa.
 sincero con te. Se la strada ti sembra troppa, il consiglio onesto è prendere quello di 3
 giorni, non sperare che quello di 2 sia diverso.
 
-## Perché quello di 3 giorni costa 205 € in più
+## Perché quello di 3 giorni costa 105 € in più
 
-L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 605 € a persona in due contro 400 €, che
+L'[itinerario di 3 giorni](/it/tours/erg-chegaga-3day-agadir) costa 605 € a persona in due contro 500 €, che
 sembra molto per un giorno in più. Cambiano tre cose:
 
 - **La strada è distribuita su due giorni**, con una notte in hotel a Foum Zguid, invece di 8 ore all'andata e 8 al ritorno in giorni consecutivi
@@ -3716,7 +3716,7 @@ La commissione delle piattaforme va dal **25 al 40 %**. Su un viaggio da 519 €
 208 € che escono dal Marocco, più di quanto guadagnino insieme il campo e i cammellieri.
 Prenotare in diretta mantiene quella somma alle persone che mandano avanti il campo.
 
-👉 **[Scopri il viaggio di 2 giorni all'Erg Chegaga da Agadir](/it/tours/sahara-2day-agadir)** — 400 € a persona, campo berbero nel deserto, tutti i giri in cammello inclusi.
+👉 **[Scopri il viaggio di 2 giorni all'Erg Chegaga da Agadir](/it/tours/sahara-2day-agadir)** — 500 € a persona, campo berbero nel deserto, tutti i giri in cammello inclusi.
 `,
   },
   {

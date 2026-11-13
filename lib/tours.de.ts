@@ -947,7 +947,7 @@ export const TOURS: Tour[] = [
       "Fast jede Sahara-Reise in Marokko startet in Marrakesch. Diese startet in Agadir und nimmt die Südroute über Tata und Foum Zguid zum Erg Chegaga, der eine wirklich andere Wüste ist als die von den Postkarten. Chegaga ist das größte und abgelegenste Dünenfeld des Landes, erreicht im 4x4 über offenes Gelände statt im Reisebus zu einem Camp an der Straße.",
       "Seien Sie ehrlich zu sich selbst, was die Fahrt angeht, denn sie ist das prägende Merkmal: rund 8 Stunden und 450 km in jede Richtung, an beiden Tagen. Das ist viel Fahrzeit für eine Zweitagesreise, und es ist der Preis dafür, Chegaga überhaupt von der Küste aus zu erreichen. Dafür bekommen Sie ein Dünenfeld, in dem Sie den Sonnenuntergang nicht mit fünfzig anderen teilen. Wenn eher die langen Fahrten das Problem sind als die Entfernung, passt die 4-Tages-Variante ab Marrakesch besser.",
       "Tag eins führt von Agadir über Tata und Foum Zguid in die Dünen, mit Ankunft zum Kamelritt bei Sonnenuntergang und Abendessen im Camp. Tag zwei bringt den Sonnenaufgang über dem Erg und dann die Rückfahrt durch die Palmerie des Draa-Tals und an seinen Kasbahs vorbei. Eine Nacht unter Zeltplane, und das Camp liegt weit genug von jeder Stadt entfernt, dass die Milchstraße ohne Mühe sichtbar ist.",
-      "Pro Person: 790 € allein, 400 € zu zweit, 340 € zu dritt, 310 € zu viert und 280 € ab fünf. Enthalten sind der 4x4-Transport auf der gesamten Strecke, ein erfahrener Wüstenguide, die Camp-Nacht im privaten Schlafzelt mit Abendessen und Frühstück sowie alle Kamelritte. Ein Zelt mit eigenem Bad ist verfügbar, falls Sie keine Gemeinschaftssanitäranlagen nutzen möchten — danach fragt man besser bei der Buchung als bei der Ankunft.",
+      "Pro Person: 990 € allein, 500 € zu zweit, 407 € zu dritt, 360 € zu viert und 320 € ab fünf. Enthalten sind der 4x4-Transport auf der gesamten Strecke, ein erfahrener Wüstenguide, die Camp-Nacht im privaten Schlafzelt mit Abendessen und Frühstück sowie alle Kamelritte. Ein Zelt mit eigenem Bad ist verfügbar, falls Sie keine Gemeinschaftssanitäranlagen nutzen möchten — danach fragt man besser bei der Buchung als bei der Ankunft.",
       "Das Mittagessen am ersten Tag ist nicht enthalten, ebenso wenig persönliche Ausgaben und Trinkgelder. Die Gruppengröße liegt bei 2 bis 10 Personen und die Reise ist privat. Die Einstufung lautet leicht: Es wird praktisch nicht gewandert, und die einzige echte Anforderung ist die Bereitschaft zu einem langen Fahrtag auf einer Strecke, die die meisten Marokko-Besucher nie zu sehen bekommen.",
     ],
     title: "Von Agadir in die Sahara — 2-tägige Wüstentour",
@@ -958,8 +958,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 Personen",
     reviewCount: 47,
     rating: 4.9,
-    price: 790,
-    depositAmount: 158,
+    price: 990,
+    depositAmount: 198,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [

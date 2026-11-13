@@ -956,7 +956,7 @@ export const TOURS: Tour[] = [
       "Presque tous les circuits vers le Sahara au Maroc partent de Marrakech. Celui-ci part d'Agadir et emprunte la route du sud par Tata et Foum Zguid jusqu'à l'Erg Chegaga, qui est un désert véritablement différent de celui des cartes postales. Chegaga est le plus vaste et le plus isolé champ de dunes du pays, atteint en 4x4 à travers des étendues ouvertes plutôt qu'en autocar jusqu'à un campement au bord de la route.",
       "Soyez lucide sur la route, car c'est la caractéristique déterminante : environ 8 heures et 450 km dans chaque sens, les deux jours. Cela représente beaucoup de véhicule pour un circuit de deux jours, et c'est le prix à payer pour atteindre Chegaga depuis la côte. En échange, vous obtenez un champ de dunes où vous ne partagez pas le coucher de soleil avec cinquante autres personnes. Si ce sont les longs trajets qui posent problème plutôt que la distance, la version en 4 jours au départ de Marrakech convient mieux.",
       "Le premier jour suit Agadir–Tata–Foum Zguid puis rejoint les dunes, avec une arrivée pour la balade à dromadaire au coucher du soleil et le dîner au campement. Le deuxième jour, c'est le lever du soleil sur l'erg, puis le retour par la palmeraie de la vallée du Draa et ses kasbahs. Une nuit sous la toile, et le campement est assez éloigné de toute ville pour que la Voie lactée soit visible sans effort.",
-      "Par personne : 790 € seul, 400 € à deux, 340 € à trois, 310 € à quatre et 280 € à cinq. Cela comprend le transport en 4x4 sur tout le trajet, un guide du désert expérimenté, la nuit au campement en tente de couchage privative avec dîner et petit-déjeuner, et toutes les balades à dromadaire. Une tente avec salle de bain privative est disponible si vous préférez éviter les sanitaires communs — mieux vaut le demander à la réservation qu'à l'arrivée.",
+      "Par personne : 990 € seul, 500 € à deux, 407 € à trois, 360 € à quatre et 320 € à cinq. Cela comprend le transport en 4x4 sur tout le trajet, un guide du désert expérimenté, la nuit au campement en tente de couchage privative avec dîner et petit-déjeuner, et toutes les balades à dromadaire. Une tente avec salle de bain privative est disponible si vous préférez éviter les sanitaires communs — mieux vaut le demander à la réservation qu'à l'arrivée.",
       "Le déjeuner du premier jour n'est pas inclus, pas plus que les effets personnels et les pourboires. Le groupe compte de 2 à 10 personnes et le circuit est privé. Le niveau est facile : il n'y a pratiquement pas de marche, et la seule véritable exigence est de tolérer une longue journée en véhicule sur une route que la plupart des visiteurs du Maroc ne voient jamais.",
     ],
     title: "Agadir au Sahara — Circuit désert de 2 jours",
@@ -967,8 +967,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 personnes",
     reviewCount: 47,
     rating: 4.9,
-    price: 790,
-    depositAmount: 158,
+    price: 990,
+    depositAmount: 198,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [

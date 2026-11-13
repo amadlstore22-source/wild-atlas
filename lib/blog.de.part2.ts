@@ -3638,9 +3638,9 @@ betreiben.
       "Was eine Wüstentour ab Agadir 2026 kostet: 2-, 3- und 4-Tages-Routen im Vergleich, warum Touren ab Agadir zum Erg Chegaga statt nach Merzouga fahren.",
     relatedTours: ["sahara-2day-agadir", "erg-chegaga-3day-agadir", "desert-4day-agadir"],
     faq: [
-      { q: "Was kostet eine Saharatour ab Agadir?", a: "Unsere [2-Tages-Tour zum Erg Chegaga](/de/tours/sahara-2day-agadir) kostet zu zweit 400 € pro Person, die [3-tägige Privatroute](/de/tours/erg-chegaga-3day-agadir) 605 € und die [4-Tages-Route zum Erg Chebbi](/de/tours/desert-4day-agadir) 519 €. Die 2-Tages-Tour ist pro Reise am günstigsten, umfasst aber rund 16 Stunden Fahrt an zwei Tagen, sodass die Kosten pro Stunde in den Dünen die höchsten der drei sind." },
+      { q: "Was kostet eine Saharatour ab Agadir?", a: "Unsere [2-Tages-Tour zum Erg Chegaga](/de/tours/sahara-2day-agadir) kostet zu zweit 500 € pro Person, die [3-tägige Privatroute](/de/tours/erg-chegaga-3day-agadir) 605 € und die [4-Tages-Route zum Erg Chebbi](/de/tours/desert-4day-agadir) 519 €. Die 2-Tages-Tour ist pro Reise am günstigsten, umfasst aber rund 16 Stunden Fahrt an zwei Tagen, sodass die Kosten pro Stunde in den Dünen die höchsten der drei sind." },
       { q: "Warum fahren Wüstentouren ab Agadir zum Erg Chegaga statt nach Merzouga?", a: "Geografie. Der Erg Chegaga liegt etwa 450 km von Agadir entfernt über Tata und Foum Zguid; Merzouga rund 700 km. Bei einer 2-Tages-Tour ist Chegaga erreichbar und Merzouga nicht, weshalb die kurzen Routen dorthin führen. Die 4-Tages-Route hat die Zeit, stattdessen den Erg Chebbi zu erreichen." },
-      { q: "Reichen 2 Tage für eine Wüstenreise ab Agadir?", a: "Sie reichen, um in den Dünen zu übernachten — das, wofür die meisten kommen. Eine entspannte Reise ist es nicht: rund 8 Stunden Fahrt je Richtung, ein Kamelritt bei Sonnenuntergang, eine Nacht im Camp, ein Kamelritt im Morgengrauen und die Rückfahrt. Wenn Sie mehr Wüste und weniger Fahrzeug wollen, teilt die 3-Tages-Tour die Fahrt mit einer Hotelnacht auf, für 205 € mehr pro Person (zu zweit)." },
+      { q: "Reichen 2 Tage für eine Wüstenreise ab Agadir?", a: "Sie reichen, um in den Dünen zu übernachten — das, wofür die meisten kommen. Eine entspannte Reise ist es nicht: rund 8 Stunden Fahrt je Richtung, ein Kamelritt bei Sonnenuntergang, eine Nacht im Camp, ein Kamelritt im Morgengrauen und die Rückfahrt. Wenn Sie mehr Wüste und weniger Fahrzeug wollen, teilt die 3-Tages-Tour die Fahrt mit einer Hotelnacht auf, für 105 € mehr pro Person (zu zweit)." },
       { q: "Was ist bei einer Wüstentour ab Agadir nicht enthalten?", a: "Bei der 2-Tages-Tour: das Mittagessen an Tag eins, persönliche Dinge und Trinkgeld. Bei der 4-Tages-Tour: alle Mittagessen zu je etwa 12–15 €, das optionale Ticket für die Atlas-Filmstudios (~7 €), alkoholische Getränke, Reiseversicherung und Trinkgeld. Unterkunft, Abendessen, Frühstück, Kamelritte und der gesamte Transport sind auf allen Routen enthalten." },
     ],
     content: `
@@ -3655,13 +3655,13 @@ der Küste anders kostet als dieselbe Reise ab Marrakesch.
 
 | Route | Preis p. P., zu zweit | Nächte | Erreicht |
 |---|---|---|---|
-| [2 Tage Erg Chegaga](/de/tours/sahara-2day-agadir) | 400 € | 1 (Camp) | Erg Chegaga |
+| [2 Tage Erg Chegaga](/de/tours/sahara-2day-agadir) | 500 € | 1 (Camp) | Erg Chegaga |
 | [3 Tage Erg Chegaga, privat](/de/tours/erg-chegaga-3day-agadir) | 605 € | 2 (Hotel + Camp) | Erg Chegaga |
 | [4 Tage Erg Chebbi](/de/tours/desert-4day-agadir) | 519 € | 3 (Hotel + Camp + Hotel) | Merzouga |
 
 ## Die 2-Tages-Tour, ehrlich betrachtet
 
-400 € umfassen 4x4-Transport, einen erfahrenen Wüstenführer, eine Nacht im Berber-Wüstencamp mit
+500 € umfassen 4x4-Transport, einen erfahrenen Wüstenführer, eine Nacht im Berber-Wüstencamp mit
 Abendessen und Frühstück sowie alle Kamelritte.
 
 Was sie ebenfalls umfasst, sind **rund 8 Stunden Fahrt je Richtung**. Tag eins startet um
@@ -3674,9 +3674,9 @@ Das ist eine echte Wüstennacht. Eine gemütliche Reise ist es nicht, und wer si
 ist nicht ehrlich zu Ihnen. Wenn Ihnen die Fahrt zu viel klingt, lautet der ehrliche Rat:
 Nehmen Sie die 3-Tages-Tour, statt zu hoffen, die 2-Tages-Tour fühle sich anders an.
 
-## Warum die 3-Tages-Tour 205 € mehr kostet
+## Warum die 3-Tages-Tour 105 € mehr kostet
 
-Die [3-Tages-Route](/de/tours/erg-chegaga-3day-agadir) kostet zu zweit 605 € pro Person statt 400 €, was für
+Die [3-Tages-Route](/de/tours/erg-chegaga-3day-agadir) kostet zu zweit 605 € pro Person statt 500 €, was für
 einen zusätzlichen Tag viel wirkt. Drei Dinge ändern sich:
 
 - **Die Fahrt verteilt sich auf zwei Tage**, mit einer Hotelnacht in Foum Zguid, statt 8 Stunden hin und 8 Stunden zurück an aufeinanderfolgenden Tagen
@@ -3723,7 +3723,7 @@ Plattformprovisionen liegen bei **25–40 %**. Bei einer Tour für 519 € sind 
 die Marokko verlassen — mehr als Camp und Kameltreiber zusammen verdienen. Direkt zu buchen
 hält das bei den Menschen, die das Camp betreiben.
 
-👉 **[Die 2-Tages-Tour zum Erg Chegaga ab Agadir ansehen](/de/tours/sahara-2day-agadir)** — 400 € pro Person, Berber-Wüstencamp, alle Kamelritte inklusive.
+👉 **[Die 2-Tages-Tour zum Erg Chegaga ab Agadir ansehen](/de/tours/sahara-2day-agadir)** — 500 € pro Person, Berber-Wüstencamp, alle Kamelritte inklusive.
 `,
   },
   {

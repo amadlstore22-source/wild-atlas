@@ -947,7 +947,7 @@ export const TOURS: Tour[] = [
       "Quasi tutti i viaggi nel Sahara in Marocco partono da Marrakech. Questo parte da Agadir e prende la via meridionale per Tata e Foum Zguid fino all'Erg Chegaga, che è un deserto davvero diverso da quello delle cartoline. Chegaga è il campo dunare più vasto e remoto del paese, raggiunto in 4x4 attraverso spazi aperti anziché in pullman fino a un campo a bordo strada.",
       "Siate lucidi sul viaggio in auto, perché è la caratteristica determinante: circa 8 ore e 450 km per tratta, in entrambi i giorni. È molto tempo in veicolo per un viaggio di due giorni, ed è il prezzo per raggiungere Chegaga dalla costa. In cambio ottenete un campo dunare dove non condividete il tramonto con altre cinquanta persone. Se il problema sono i lunghi trasferimenti più che la distanza, la versione di 4 giorni da Marrakech è più adatta.",
       "Il primo giorno segue Agadir–Tata–Foum Zguid ed entra tra le dune, con arrivo per il giro in cammello al tramonto e la cena al campo. Il secondo giorno è l'alba sull'erg, poi il ritorno attraverso la palmeraie della valle del Draa e le sue kasbah. Una notte sotto la tela, e il campo è abbastanza lontano da qualsiasi centro abitato perché la Via Lattea sia visibile senza sforzo.",
-      "A persona: 790 € da soli, 400 € in due, 340 € in tre, 310 € in quattro e 280 € in cinque. Comprende il trasporto in 4x4 per tutto il percorso, una guida del deserto esperta, la notte al campo in tenda privata con cena e colazione e tutti i giri in cammello. È disponibile una tenda con bagno privato se preferite non usare i servizi comuni: conviene chiederlo al momento della prenotazione anziché all'arrivo.",
+      "A persona: 990 € da soli, 500 € in due, 407 € in tre, 360 € in quattro e 320 € in cinque. Comprende il trasporto in 4x4 per tutto il percorso, una guida del deserto esperta, la notte al campo in tenda privata con cena e colazione e tutti i giri in cammello. È disponibile una tenda con bagno privato se preferite non usare i servizi comuni: conviene chiederlo al momento della prenotazione anziché all'arrivo.",
       "Il pranzo del primo giorno non è incluso, così come gli effetti personali e le mance. Il gruppo va da 2 a 10 persone e il viaggio è privato. È classificato facile: non si cammina praticamente per nulla, e l'unica vera richiesta è tollerare una lunga giornata in auto su una strada che la maggior parte dei visitatori del Marocco non vede mai.",
     ],
     title: "Da Agadir al Sahara — Tour del Deserto di 2 Giorni",
@@ -958,8 +958,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 persone",
     reviewCount: 47,
     rating: 4.9,
-    price: 790,
-    depositAmount: 158,
+    price: 990,
+    depositAmount: 198,
     heroImage:
       "/gallery/tours-sahara-2day-agadir.jpg",
     gallery: [

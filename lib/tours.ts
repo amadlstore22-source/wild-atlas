@@ -767,6 +767,10 @@ export const TOURS: Tour[] = [
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
       "/gallery/ait-ben-haddou-kasbah-wide.jpg",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+      "/gallery/fes-carpet-shop-stacked-kilims.jpg",
+      "/gallery/fes-kairaouine-minaret-lit-dusk.jpg",
     ],
     shortDescription:
       "Two of Morocco's greatest cities in three days — High Atlas pass, Ifrane, cedar forest, and the ancient medina of Fes.",
@@ -1488,7 +1492,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.0667, lng: -8.6500, name: "Souss Valley, Aït Baha Region" },
     seoTitle: "Souss Valley Argan Day Trip, Agadir",
-    seoDescription: "Visit a women-run argan oil cooperative, a honey village beekeeper, and share a Berber family lunch in the Souss Valley — Morocco's argan heartland. From €62.",
+    seoDescription: "A women-run argan oil cooperative, a honey village beekeeper and a Berber family lunch in the Souss Valley, Morocco's argan heartland. From €26 pp for 6+.",
     featured: false,
   },
   {
@@ -1585,6 +1589,10 @@ export const TOURS: Tour[] = [
       "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
+      "/gallery/volubilis-basilica-stork-nest.jpg",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
+      "/gallery/volubilis-arch-of-caracalla-through-arch.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
     ],
     shortDescription:
       "Four days through Morocco's most iconic imperial cities — ending in the magical blue-washed streets of Chefchaouen in the Rif Mountains.",
@@ -1702,7 +1710,15 @@ export const TOURS: Tour[] = [
       "/gallery/tours-marrakech-imperial-cities-5day.jpg",
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
-      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
+      "/gallery/volubilis-basilica-stork-nest.jpg",
+      "/gallery/rabat-hassan-tower-columns.jpg",
+      "/gallery/volubilis-arch-of-caracalla-through-arch.jpg",
+      "/gallery/volubilis-columns-over-zerhoun-plain.jpg",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+      "/gallery/fes-carpet-shop-stacked-kilims.jpg",
+      "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",
+      "/gallery/rabat-zellij-tile-fountain.jpg",
       "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
@@ -1719,16 +1735,17 @@ export const TOURS: Tour[] = [
     includes: [
       "Private 4x4 transport throughout",
       "English/French/Spanish-speaking guide",
-      "4 nights riad accommodation",
+      "4 nights in a riad or hotel, depending on availability",
       "Breakfast daily",
+      "Dinner on days 1, 2 and 4",
       "All transfers, tolls, and entrance fees",
     ],
-    excludes: ["Lunches and dinners", "Tips"],
+    excludes: ["Lunches", "Dinner in Fes on day 3", "Tips"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad or hotel",
         driving: "≈7 h",
         distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -1739,7 +1756,7 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad or hotel",
         driving: "≈5 h",
         distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
@@ -1750,7 +1767,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        stay: "Hotel",
+        stay: "Riad or hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknes → Fes Full Day",
         description:
@@ -1759,7 +1776,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad or hotel",
         driving: "≈3 h",
         distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
@@ -1780,7 +1797,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Which cities does this cover?", a: "Morocco's imperial cities over five days from Marrakech, by private 4x4, with all transfers, tolls, and entrance fees included so you are not paying at each monument." },
-      { q: "What is included?", a: "Private 4x4 transport, an English/French/Spanish-speaking guide, four nights of riad accommodation, daily breakfast, and all transfers, tolls, and entrance fees. Lunches, dinners, and tips are not included." },
+      { q: "What is included?", a: "Private 4x4 transport, an English/French/Spanish-speaking guide, four nights in a riad or hotel (which one depends on availability), daily breakfast, dinner on days 1, 2 and 4, and all transfers, tolls, and entrance fees. Lunches, the dinner in Fes on day 3, and tips are not included." },
       { q: "How much walking is there?", a: "It is graded easy, but expect plenty of walking through medinas and monuments each day, so comfortable shoes matter." },
       { q: "Is it private?", a: "Yes, it runs as a private tour for your party of 2–12 with your own guide and vehicle." },
     ],
@@ -2148,7 +2165,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
     seoTitle: "Private 4-Day Marrakech Desert Tour",
-    seoDescription: "The complete Marrakech desert circuit — 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi desert camp, and the Road of a Thousand Kasbahs. From €889.",
+    seoDescription: "The complete Marrakech desert circuit: 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp and the Road of a Thousand Kasbahs. From €270 pp for 6+.",
   },
 
   // ─────────────────────────────────────────────
@@ -2615,8 +2632,11 @@ export const TOURS: Tour[] = [
       "/gallery/tours-agadir-to-fes-4day.jpg",
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
-      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
-      "https://images.unsplash.com/photo-1604569251410-025ed59f126a?w=1200&q=85",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
+      "/gallery/blog-marrakech-medina-complete-guide.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+      "/gallery/fes-carpet-shop-stacked-kilims.jpg",
+      "/gallery/fes-kairaouine-minaret-lit-dusk.jpg",
     ],
     shortDescription:
       "From the Atlantic coast to the medieval heart of Morocco — Marrakech, the High Atlas, the cedar forests, and the ancient medina of Fes.",
@@ -2723,6 +2743,10 @@ export const TOURS: Tour[] = [
       "/gallery/blog-chefchaouen-complete-travel-guide.jpg",
       "https://images.unsplash.com/photo-1538600838042-6a0c694ffab5?w=1200&q=85",
       "https://images.unsplash.com/photo-1707400015348-b0a5851ab163?w=1200&q=85",
+      "/gallery/volubilis-basilica-stork-nest.jpg",
+      "/gallery/tours-marrakech-to-fes-3day.jpg",
+      "/gallery/volubilis-arch-of-caracalla-through-arch.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
     ],
     shortDescription:
       "Five days from the Atlantic coast to the blue-washed streets of Chefchaouen — via Marrakech, Fes, and the Roman ruins of Volubilis.",
@@ -2837,7 +2861,15 @@ export const TOURS: Tour[] = [
       "/gallery/tours-agadir-imperial-cities-6day.jpg",
     gallery: [
       "/gallery/tours-marrakech-to-fes-3day.jpg",
-      "https://images.unsplash.com/photo-1697028733028-e2a104b952b9?w=1200&q=85",
+      "/gallery/volubilis-basilica-stork-nest.jpg",
+      "/gallery/rabat-hassan-tower-columns.jpg",
+      "/gallery/volubilis-arch-of-caracalla-through-arch.jpg",
+      "/gallery/volubilis-columns-over-zerhoun-plain.jpg",
+      "/gallery/tours-agadir-imperial-cities-6day.jpg",
+      "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+      "/gallery/fes-carpet-shop-stacked-kilims.jpg",
+      "/gallery/rabat-mausoleum-mohammed-v-columns.jpg",
+      "/gallery/rabat-zellij-tile-fountain.jpg",
       "/gallery/blog-marrakech-medina-complete-guide.jpg",
     ],
     shortDescription:
@@ -3579,7 +3611,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "Merzouga Stargazing Desert Tour",
-    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek and a night under dark skies in an Erg Chebbi desert camp. From €518.",
+    seoDescription: "2-day Marrakech to Merzouga stargazing tour — sunset camel trek and a night under dark skies in an Erg Chebbi desert camp. From €121 pp for 6+.",
     faq: [
       { q: "Do I need my own astronomy knowledge or equipment?", a: "No. There is no telescope and no guided session on this tour; the sky at camp is dark enough to enjoy with the naked eye. A stargazing app on your phone helps you put names to what you see." },
       { q: "What's the best time of year for this tour?", a: "October through May. The sky is clearest and the desert night is cool enough to sit outside comfortably; summer nights are still starry but far hotter." },

@@ -1268,16 +1268,17 @@ export const TOURS: Tour[] = [
     includes: [
       "Trasporto privato in 4x4 per tutto il percorso",
       "Guida di lingua inglese, francese e spagnola",
-      "4 notti in riad",
+      "4 notti in riad o hotel, secondo disponibilità",
       "Colazione ogni giorno",
+      "Cena nei giorni 1, 2 e 4",
       "Tutti i transfer, i pedaggi e gli ingressi",
     ],
-    excludes: ["Pranzi e cene", "Mance"],
+    excludes: ["Pranzi", "Cena a Fes il giorno 3", "Mance"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad o hotel",
         driving: "≈7 h",
         distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -1288,7 +1289,7 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad o hotel",
         driving: "≈5 h",
         distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
@@ -1299,7 +1300,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        stay: "Hotel",
+        stay: "Riad o hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknes → Giornata intera a Fes",
         description:
@@ -1308,7 +1309,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad o hotel",
         driving: "≈3 h",
         distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
@@ -1329,7 +1330,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Quali città copre?", a: "Le città imperiali del Marocco in cinque giorni da Marrakech, in 4x4 privato, con tutti i trasferimenti, pedaggi e ingressi inclusi, così da non pagare a ogni monumento." },
-      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato, una guida di lingua inglese/francese/spagnola, quattro notti in riad, colazione giornaliera e tutti i trasferimenti, pedaggi e ingressi. Pranzi, cene e mance non sono inclusi." },
+      { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato, una guida di lingua inglese/francese/spagnola, quattro notti in riad o hotel (secondo disponibilità), colazione giornaliera, cena nei giorni 1, 2 e 4 e tutti i trasferimenti, pedaggi e ingressi. I pranzi, la cena a Fes del giorno 3 e le mance non sono inclusi." },
       { q: "Si cammina molto?", a: "È classificato come facile, ma ogni giorno comporta molto camminare tra medine e monumenti, quindi le scarpe comode contano." },
       { q: "È privato?", a: "Sì, si svolge come tour privato per il tuo gruppo di 2-12 persone con guida e veicolo dedicati." },
     ],

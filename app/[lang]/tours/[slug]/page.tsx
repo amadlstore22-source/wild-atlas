@@ -20,8 +20,6 @@ import TourWeather from "@/components/tours/TourWeather";
 import RelatedTours from "@/components/tours/RelatedTours";
 import RelatedGuides from "@/components/tours/RelatedGuides";
 import RouteMap, { hasRouteMap, isTrekMap } from "@/components/map/RouteMap";
-import TourLocationMap from "@/components/map/TourLocationMap";
-import tourRoutes from "@/lib/tour-routes.json";
 import { localeTag } from "@/lib/events-format";
 import TourNavBar from "@/components/tours/TourNavBar";
 import TourTrustBar from "@/components/tours/TourTrustBar";
@@ -379,11 +377,13 @@ export default async function TourDetailPage({ params }: TourParams) {
             <section id="tour-location" className="scroll-mt-32">
               <h2 className="font-display text-ink text-3xl font-bold mb-4">{dict.tourDetail.meetingPointHeading}</h2>
               <p className="flex items-center gap-1.5 text-ink-soft mb-4"><MapPin className="w-4 h-4 text-indigo" />{tour.meetingPoint.name}</p>
-              {/* Every tour with route data gets the static route map; treks
-                  get its trek version (relief, real trails, peaks and passes;
-                  owner, 2026-10-12). A tour with no data yet keeps the
-                  satellite map. See RouteMap's docblock. */}
-              {hasRouteMap(tour.slug) ? (
+              {/* Every tour has the static route map; treks get its trek version
+                  (relief, real trails, peaks and passes; owner, 2026-10-12).
+                  route-map.test.ts requires map data for every tour, so the old
+                  satellite fallback could never run and was removed 2026-11-15.
+                  The guard only keeps a tour added without data from breaking
+                  the page: it shows the Google Maps link alone. */}
+              {hasRouteMap(tour.slug) && (
                 <RouteMap
                   slug={tour.slug}
                   {...routeMapPlaces(tour, lang)}
@@ -396,39 +396,6 @@ export default async function TourDetailPage({ params }: TourParams) {
                   numberLocale={localeTag(lang)}
                   arabic={lang === "ar"}
                   lang={lang}
-                />
-              ) : (
-                <TourLocationMap
-                  lat={tour.meetingPoint.lat}
-                  lng={tour.meetingPoint.lng}
-                  name={tour.meetingPoint.name}
-                  /* Waypoints come before the day's endpoint, and the pins are
-                     numbered by POSITION ALONG THE ROUTE rather than by day.
-                     Numbering by `day` broke as soon as a day carried more than
-                     one pin — Imlil and the Toubkal Refuge are both day 1, so
-                     both rendered "1" and the walk read as starting twice. */
-                  stops={tour.itinerary
-                    .flatMap((d) => [
-                      ...(d.extraStops ?? []).map((s) => ({ name: s.name, lat: s.lat, lng: s.lng })),
-                      ...(d.stop ? [{ name: d.stop.name, lat: d.stop.lat, lng: d.stop.lng }] : []),
-                    ])
-                    .map((s, i) => ({ ...s, day: i + 1 }))}
-                  routeGeometry={(tourRoutes as unknown as Record<string, [number, number][]>)[tour.slug]}
-                  origin={tour.origin}
-                  /* Relief is offered where the ground IS the product. An audit
-                     of all 48 tours found 14 multi-stop routes with no road to
-                     snap to, 13 of them trekking — so those pages draw a bare
-                     straight line over imagery where a 3,664 m pass looks like a
-                     valley floor. The DEM tiles are ~8x the weight of the
-                     imagery, so driving tours, which learn nothing from relief,
-                     do not load them. */
-                  terrain={tour.category === "trekking"}
-                  mapKey={{
-                    tour: dict.tourDetail.mapKeyTour,
-                    transfer: dict.tourDetail.mapKeyTransfer,
-                    offRoad: dict.tourDetail.mapKeyOffRoad,
-                    terrain3d: dict.tourDetail.mapKeyTerrain3d,
-                  }}
                 />
               )}
               <p className="mt-3 text-sm">

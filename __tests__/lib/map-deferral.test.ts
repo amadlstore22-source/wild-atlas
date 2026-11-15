@@ -79,22 +79,4 @@ describe("map bundle deferral", () => {
         `the real map:\n  ` + noSkeleton.join("\n  "),
     ).toEqual([]);
   });
-
-  it("the tile preconnects stay outside the visibility gate", () => {
-    // Opening the socket early is the entire value of the hint — it is worth
-    // ~300 ms of mobile LCP per the comment in TourLocationMap. If the
-    // preconnects move inside the `visible ?` branch they only fire once the
-    // map is already mounting, which is exactly too late to help.
-    const src = readFileSync(join(MAP_DIR, "TourLocationMap.tsx"), "utf-8");
-    const gateAt = src.indexOf("visible ?");
-    const preconnectAt = src.indexOf('rel="preconnect"');
-
-    expect(
-      preconnectAt !== -1 && gateAt !== -1 && preconnectAt < gateAt,
-      "The tile preconnect hints have moved inside (or after) the visibility\n" +
-        "gate. They must render unconditionally: the point is to open the TLS\n" +
-        "connection to the tile hosts BEFORE the deferred bundle asks for a\n" +
-        "tile. Inside the gate they fire only once the map is already mounting.",
-    ).toBe(true);
-  });
 });

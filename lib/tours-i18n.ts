@@ -55,15 +55,47 @@ const EN_BY_SLUG = new Map(TOURS_EN.map((t) => [t.slug, t]));
  * Merging per field means a missing translation degrades to the English value
  * instead of to `undefined`, and any future field added to EN cannot vanish
  * from the other locales. Editorial fields the translator DID provide still win.
+ *
+ * FACTS ARE NOT TRANSLATED (2026-11-15). The locale files also carry a copy of
+ * every non-text field, and the copy used to win here. When English was
+ * updated and the five copies were not, the other languages kept the old
+ * value: on the live site 33 of 48 tours showed a different, smaller gallery
+ * in fr/es/de/it/ar (30 stock photos where English had 13), two tours a
+ * different main photo, and the 2-day Toubkal was featured in English only.
+ * The fields in FACT_KEYS are now always read from English, whatever the
+ * locale file says. See __tests__/lib/tour-facts-from-english.test.ts.
  */
+export const FACT_KEYS = [
+  "id",
+  "category",
+  "origin",
+  "difficulty",
+  "tourType",
+  "groupPricing",
+  "minPeople",
+  "reviewCount",
+  "rating",
+  "price",
+  "priceMax",
+  "fixedDeparture",
+  "depositAmount",
+  "heroImage",
+  "gallery",
+  "featured",
+  "isDayTour",
+] as const satisfies readonly (keyof Tour)[];
+
+const FACTS: ReadonlySet<keyof Tour> = new Set(FACT_KEYS);
+
 function mergeWithEn(list: Tour[]): Tour[] {
   return list.map((t) => {
     const en = EN_BY_SLUG.get(t.slug);
     if (!en) return t;
     // Start from the EN record so every field is present and correctly typed,
-    // then overlay only the keys the translation actually supplies.
+    // then overlay only the text the translation actually supplies.
     const merged: Tour = { ...en };
     for (const key of Object.keys(t) as (keyof Tour)[]) {
+      if (FACTS.has(key)) continue;
       const value = t[key];
       if (value !== undefined && value !== null && value !== "") {
         (merged as Record<keyof Tour, unknown>)[key] = value;

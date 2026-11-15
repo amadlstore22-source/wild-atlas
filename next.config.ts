@@ -29,27 +29,30 @@ const securityHeaders = [
       // Microsoft Clarity: *.clarity.ms + c.bing.com, per learn.microsoft.com/clarity
       // (clarity-csp). Also loaded only after "Accept all".
       isDev
-        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com https://*.clarity.ms"
-        : "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://www.googletagmanager.com https://*.clarity.ms",
+        ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.clarity.ms"
+        : "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.clarity.ms",
       "style-src 'self' 'unsafe-inline'",
-      // MapLibre GL parses vector tiles in Web Workers created from a blob URL.
-      // Without blob: the map silently renders nothing but a background colour.
+      // blob: was added for MapLibre GL, which parsed vector tiles in Web Workers
+      // created from a blob URL. MapLibre was removed on 2026-11-15. The entry
+      // is kept for now: it has not been checked that Microsoft Clarity's
+      // recorder runs without it, and a broken recorder fails silently.
       "worker-src 'self' blob:",
       // Google Analytics sends hit beacons as GET images to these hosts.
-      // tiles.mapterhorn.com serves the terrarium DEM behind the trekking maps'
-      // 3D view. It needs BOTH img-src and connect-src: MapLibre fetches a
-      // raster-dem tile with fetch() to decode heights, not as an <img>, so
-      // img-src alone still fails with "AJAXError: Failed to fetch (0)" — a
-      // message that names no policy and reads like a dead URL. The tile is
-      // fine; the fetch never leaves the page.
-      "img-src 'self' data: https://images.unsplash.com https://images.pexels.com https://www.paypalobjects.com https://server.arcgisonline.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://i.guim.co.uk https://static01.nyt.com https://www.atlasandboots.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://*.clarity.ms https://c.bing.com",
+      // server.arcgisonline.com serves the satellite tiles of the homepage map
+      // (Leaflet, components/map/ToursMap.tsx). Removed on 2026-11-15 because
+      // nothing loads them any more: PayPal images, the MapLibre tile hosts
+      // (openfreemap, mapterhorn), Pexels (only the stale locale galleries used
+      // it) and the three news publishers' image hosts.
+      "img-src 'self' data: https://images.unsplash.com https://server.arcgisonline.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://*.clarity.ms https://c.bing.com",
       "font-src 'self'",
       // GA4/Ads use fetch/beacon to google-analytics.com & the analytics regional
       // endpoints; googletagmanager.com serves the container.
       isDev
-        ? "connect-src 'self' https://api.resend.com https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com ws://localhost:* http://localhost:*"
-        : "connect-src 'self' https://api.resend.com https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://tiles.openfreemap.org https://tiles.mapterhorn.com https://server.arcgisonline.com",
-      "frame-src https://www.paypal.com https://www.sandbox.paypal.com",
+        ? "connect-src 'self' https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://server.arcgisonline.com ws://localhost:* http://localhost:*"
+        : "connect-src 'self' https://*.clarity.ms https://c.bing.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://server.arcgisonline.com",
+      // No page embeds a frame. PayPal was listed here and in script-src, but
+      // deposits are paid from a link we send, never from a PayPal button.
+      "frame-src 'none'",
       "frame-ancestors 'none'",
       // These three do NOT inherit from default-src, so omitting them left real
       // gaps: object-src allows Flash/Java-style plugin embeds, base-uri lets an
@@ -89,10 +92,6 @@ const nextConfig: NextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
-      { protocol: "https", hostname: "images.pexels.com" },
-      { protocol: "https", hostname: "i.guim.co.uk" },
-      { protocol: "https", hostname: "static01.nyt.com" },
-      { protocol: "https", hostname: "www.atlasandboots.com" },
     ],
   },
   async headers() {

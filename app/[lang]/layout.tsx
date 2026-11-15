@@ -2,9 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "../globals.css";
-// leaflet.css is imported by the map components themselves (ToursMap,
-// TourLocationMapInner) so Next scopes it to the chunks that load a map. From
-// here it was a render-blocking stylesheet on all 802 pages.
+// leaflet.css is imported by the map component itself (ToursMap) so Next
+// scopes it to the chunk that loads the map. From here it was a
+// render-blocking stylesheet on all 802 pages.
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -70,7 +70,7 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
 // on which locale is rendering, and a static object cannot see `params`. Pages
 // that declare their own `openGraph` replace this one wholesale (Next does not
 // deep-merge), so they spread `ogBase(lang)` themselves — this covers the rest
-// (guides, news, legal pages), which inherit the layout untouched.
+// (guides, legal pages), which inherit the layout untouched.
 export async function generateMetadata({
   params,
 }: {
@@ -132,12 +132,11 @@ export default async function LocaleLayout({
       className={`${cormorant.variable} ${inter.variable}${isRtl ? ` ${ibmPlexArabic.variable}` : ""} h-full`}
     >
       <head>
-        {/* No arcgisonline preconnect here. Map tiles do come from ArcGIS, and
-            the hint is worth ~300 ms of mobile LCP — but only on the tour pages,
-            which are the only route that renders a map. In this shared layout it
-            fired on all ~900 pages and Lighthouse flagged it as unused on the
-            blog. It now lives in components/map/TourLocationMap.tsx, next to the
-            component that actually requests the tiles.
+        {/* No arcgisonline preconnect here. In this shared layout it fired on
+            all ~900 pages and Lighthouse flagged it as unused on the blog. The
+            only map that still requests ArcGIS tiles is the homepage one
+            (components/map/ToursMap.tsx), far below the fold and loaded on
+            scroll; tour pages draw a static route map with no tiles.
 
             No preconnect to images.pexels.com / images.unsplash.com.
             Those were added on the theory that the browser reaches the origins

@@ -85,3 +85,7 @@ data/*
 
 # Impeccable critique snapshots: local design notes, never shipped
 .impeccable/
+
+# Python bytecode
+__pycache__/
+*.pyc

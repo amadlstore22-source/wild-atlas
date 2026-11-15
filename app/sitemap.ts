@@ -35,7 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/destinations", freq: "monthly" as const, priority: 0.9 },
     { path: "/guides", freq: "monthly" as const, priority: 0.8 },
     { path: "/events", freq: "weekly" as const, priority: 0.8 },
-    { path: "/news", freq: "daily" as const, priority: 0.8 },
     { path: "/blog", freq: "weekly" as const, priority: 0.7 },
     { path: "/gallery", freq: "monthly" as const, priority: 0.6 },
     { path: "/about", freq: "monthly" as const, priority: 0.7 },

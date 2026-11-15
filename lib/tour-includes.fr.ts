@@ -244,12 +244,14 @@ export const TOUR_INCLUDES: Record<string, { includes: string[]; excludes: strin
     includes: [
       "Transport privé en 4x4 pendant tout le circuit",
       "Guide parlant anglais/français/espagnol",
-      "4 nuits en riad",
+      "4 nuits en riad ou en hôtel, selon les disponibilités",
       "Petit-déjeuner quotidien",
+      "Dîner les jours 1, 2 et 4",
       "Tous les transferts, péages et frais d'entrée",
     ],
     excludes: [
-      "Déjeuners et dîners",
+      "Déjeuners",
+      "Dîner à Fès le jour 3",
       "Pourboires",
     ],
   },

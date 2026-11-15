@@ -577,6 +577,16 @@ export function proxy(request: NextRequest) {
     }
   }
 
+  // The news page was removed on 2026-11-15 (2 impressions and 0 clicks in 90
+  // days; it sent visitors to other publishers). Its address goes to the blog,
+  // which is where the site's own writing is, instead of a 404.
+  const newsMatch = pathname.match(/^\/([a-z]{2})\/news\/?$/);
+  if (newsMatch && LOCALES.includes(newsMatch[1])) {
+    const url = request.nextUrl.clone();
+    url.pathname = `/${newsMatch[1]}/blog`;
+    return NextResponse.redirect(url, 308);
+  }
+
   if (hasLocalePrefix(pathname)) return;
 
   // Crawlers get the canonical default locale, never an Accept-Language guess.

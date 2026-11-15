@@ -59,7 +59,11 @@ describe("route map", () => {
     const both = TOURS.filter((t) => maps[t.slug] && treks[t.slug]).map((t) => t.slug);
     expect(missing, `${FIX} (or build-trek-maps.mjs for a trek). No map data for:\n  ${missing.join("\n  ")}`).toEqual([]);
     expect(both, "A tour is either a road map or a trek map; it is in both JSON files").toEqual([]);
-    expect(page(), "the page must use the route map wherever there is data").toMatch(/\{hasRouteMap\(tour\.slug\) \?/);
+    expect(page(), "the page must use the route map wherever there is data").toMatch(/\{hasRouteMap\(tour\.slug\) &&/);
+    // The satellite map (MapLibre) was the fallback for a tour with no route
+    // data. With data required for every tour above, it could never run, and
+    // it was removed on 2026-11-15 together with its package and CSP entries.
+    expect(page(), "the satellite map was removed; every tour uses RouteMap").not.toMatch(/TourLocationMap/);
   });
 
   /**

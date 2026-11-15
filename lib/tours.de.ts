@@ -1268,16 +1268,17 @@ export const TOURS: Tour[] = [
     includes: [
       "Private 4x4-Fahrt auf der gesamten Strecke",
       "Englisch-, französisch- und spanischsprachiger Guide",
-      "4 Nächte in einem Riad",
+      "4 Nächte im Riad oder Hotel, je nach Verfügbarkeit",
       "Täglich Frühstück",
+      "Abendessen an Tag 1, 2 und 4",
       "Alle Transfers, Mautgebühren und Eintrittsgelder",
     ],
-    excludes: ["Mittag- und Abendessen", "Trinkgelder"],
+    excludes: ["Mittagessen", "Abendessen in Fès an Tag 3", "Trinkgelder"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad oder Hotel",
         driving: "≈7 h",
         distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -1288,7 +1289,7 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad oder Hotel",
         driving: "≈5 h",
         distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
@@ -1299,7 +1300,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        stay: "Hotel",
+        stay: "Riad oder Hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknès → Ganztägig Fès",
         description:
@@ -1308,7 +1309,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad oder Hotel",
         driving: "≈3 h",
         distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
@@ -1329,7 +1330,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Welche Städte deckt sie ab?", a: "Marokkos Königsstädte in fünf Tagen ab Marrakesch, im privaten 4x4, mit allen Transfers, Mautgebühren und Eintrittsgeldern inklusive, sodass Sie nicht an jedem Monument zahlen." },
-      { q: "Was ist inbegriffen?", a: "Privater 4x4-Transport, ein englisch-/französisch-/spanischsprachiger Guide, vier Nächte in einem Riad, tägliches Frühstück sowie alle Transfers, Mautgebühren und Eintritte. Mittag- und Abendessen sowie Trinkgelder sind nicht enthalten." },
+      { q: "Was ist inbegriffen?", a: "Privater 4x4-Transport, ein englisch-/französisch-/spanischsprachiger Guide, vier Nächte im Riad oder Hotel (je nach Verfügbarkeit), tägliches Frühstück, Abendessen an Tag 1, 2 und 4 sowie alle Transfers, Mautgebühren und Eintritte. Mittagessen, das Abendessen in Fès an Tag 3 sowie Trinkgelder sind nicht enthalten." },
       { q: "Wie viel muss man laufen?", a: "Als leicht eingestuft, aber jeder Tag beinhaltet viel Gehen durch Medinas und Monumente, bequeme Schuhe sind also wichtig." },
       { q: "Ist sie privat?", a: "Ja, sie läuft als private Tour für Ihre Gruppe von 2 bis 12 Personen mit eigenem Guide und Fahrzeug." },
     ],

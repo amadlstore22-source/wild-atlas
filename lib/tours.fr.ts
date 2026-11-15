@@ -1277,16 +1277,17 @@ export const TOURS: Tour[] = [
     includes: [
       "Transport privé en 4x4 sur tout le circuit",
       "Guide anglophone/francophone/hispanophone",
-      "4 nuits en riad",
+      "4 nuits en riad ou en hôtel, selon les disponibilités",
       "Petit-déjeuner chaque jour",
+      "Dîner les jours 1, 2 et 4",
       "Tous les transferts, péages et droits d'entrée",
     ],
-    excludes: ["Déjeuners et dîners", "Pourboires"],
+    excludes: ["Déjeuners", "Dîner à Fès le jour 3", "Pourboires"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hôtel",
+        stay: "Riad ou hôtel",
         driving: "≈7 h",
         distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -1297,7 +1298,7 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,D",
-        stay: "Hôtel",
+        stay: "Riad ou hôtel",
         driving: "≈5 h",
         distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
@@ -1308,7 +1309,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B",
-        stay: "Hôtel",
+        stay: "Riad ou hôtel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Meknès → Journée complète à Fès",
         description:
@@ -1317,7 +1318,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B,D",
-        stay: "Hôtel",
+        stay: "Riad ou hôtel",
         driving: "≈3 h",
         distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
@@ -1338,7 +1339,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Quelles villes couvre ce circuit ?", a: "Les villes impériales du Maroc sur cinq jours au départ de Marrakech, en 4x4 privé, avec tous les transferts, péages et droits d'entrée inclus pour ne pas payer à chaque monument." },
-      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé, un guide anglophone/francophone/hispanophone, quatre nuits en riad, le petit-déjeuner quotidien, et tous les transferts, péages et droits d'entrée. Les déjeuners, dîners et pourboires ne sont pas inclus." },
+      { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé, un guide anglophone/francophone/hispanophone, quatre nuits en riad ou en hôtel (selon les disponibilités), le petit-déjeuner quotidien, le dîner les jours 1, 2 et 4, et tous les transferts, péages et droits d'entrée. Les déjeuners, le dîner à Fès le jour 3 et les pourboires ne sont pas inclus." },
       { q: "Y a-t-il beaucoup de marche ?", a: "Le circuit est classé facile, mais prévoyez beaucoup de marche dans les médinas et les monuments chaque jour, de bonnes chaussures comptent donc." },
       { q: "Est-ce privé ?", a: "Oui, le circuit est privé pour votre groupe de 2 à 12 personnes avec votre propre guide et véhicule." },
     ],

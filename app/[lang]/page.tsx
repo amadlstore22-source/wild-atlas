@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { formatPrice } from "@/lib/currency-core";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import CategoryGrid from "@/components/sections/CategoryGrid";
@@ -13,8 +12,6 @@ import Testimonials from "@/components/sections/Testimonials";
 import OurStory from "@/components/sections/OurStory";
 import Gallery from "@/components/sections/Gallery";
 import CTABanner from "@/components/sections/CTABanner";
-import NewsTeaserSection from "@/components/sections/NewsTeaserSection";
-import NewsSectionSkeleton from "@/components/sections/NewsSectionSkeleton";
 import { SITE, SOCIAL, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
@@ -180,9 +177,6 @@ export default async function HomePage({ params }: LangParams) {
       <MapWrapper lang={lang} dict={dict} tours={mapToursFor(lang)} placeText={MAP_PLACE_TEXT[lang]} categoryText={MAP_CATEGORY_TEXT[lang]} />
       <FeaturedGuides dict={dict} lang={lang} />
       <Gallery dict={dict} lang={lang} />
-      <Suspense fallback={<NewsSectionSkeleton />}>
-        <NewsTeaserSection lang={lang} dict={dict} />
-      </Suspense>
       <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
     </>
   );

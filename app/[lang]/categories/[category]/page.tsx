@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CATEGORIES, type Category, toCardData} from "@/lib/tours";
 import { getCategoryFor, getToursByCategoryFor, tourSlugFor } from "@/lib/tours-i18n";
 import TourCard from "@/components/ui/TourCard";
+import CategoryGuides from "@/components/tours/CategoryGuides";
 import CTABanner from "@/components/sections/CTABanner";
 import { STATS } from "@/lib/stats";
 import { getDictionary, hasLocale } from "../../dictionaries";
@@ -122,6 +123,11 @@ export default async function CategoryPage({ params }: CategoryParams) {
             </div>
           </>
         )}
+
+        {/* Our own guides for this kind of trip (which desert, how many days,
+            the imperial cities route). Renders nothing for a category with
+            no list in CATEGORY_GUIDES. */}
+        <CategoryGuides category={cat.id as Category} lang={lang} dict={dict} />
 
         {faq.length > 0 && (
           <FaqSection faq={faq} title={`${cat.label} — ${dict.contact.faqTitle}`} />

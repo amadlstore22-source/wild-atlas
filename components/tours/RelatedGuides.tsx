@@ -89,6 +89,66 @@ function pickGuides(posts: BlogPost[], tour: Tour): BlogPost[] {
     .map((x) => x.p);
 }
 
+/**
+ * The guide cards on their own, so a page that is not a tour (a category page,
+ * see CategoryGuides) can show the same block under its own heading.
+ */
+export function GuideGrid({
+  guides,
+  heading,
+  moreLabel,
+  lang,
+  dict,
+}: {
+  guides: BlogPost[];
+  heading: string;
+  moreLabel: string;
+  lang: Locale;
+  dict: Dictionary;
+}) {
+  return (
+    <>
+      <div className="flex items-end justify-between mb-8 gap-4">
+        <h2 className="font-display text-charcoal text-3xl font-bold">{heading}</h2>
+        <Link
+          href={`/${lang}/blog`}
+          className="hidden sm:flex items-center gap-2 text-forest font-semibold shrink-0"
+        >
+          {moreLabel}
+          <ArrowRight className="w-5 h-5 arrow-go" />
+        </Link>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {guides.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
+            className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div className="relative aspect-[16/10] overflow-hidden">
+              <Image
+                src={post.heroImage}
+                alt={post.title}
+                fill
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              />
+            </div>
+            <div className="p-4">
+              <p className="text-charcoal font-semibold leading-snug group-hover:text-forest transition-colors">
+                {post.title}
+              </p>
+              <p className="text-ink-muted text-xs mt-2 flex items-center gap-1">
+                <Clock className="w-3 h-3" /> {post.readTime} {dict.blog.minRead}
+              </p>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+}
+
 export default function RelatedGuides({
   tour,
   lang,
@@ -105,45 +165,13 @@ export default function RelatedGuides({
   return (
     <section className="py-16 bg-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-end justify-between mb-8 gap-4">
-          <h2 className="font-display text-charcoal text-3xl font-bold">
-            {dict.tourDetail.relatedGuidesHeading}
-          </h2>
-          <Link
-            href={`/${lang}/blog`}
-            className="hidden sm:flex items-center gap-2 text-forest font-semibold shrink-0"
-          >
-            {dict.tourDetail.readMoreGuides}
-            <ArrowRight className="w-5 h-5 arrow-go" />
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {guides.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/${lang}/blog/${blogSlugFor(lang, post.slug)}`}
-              className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-            >
-              <div className="relative aspect-[16/10] overflow-hidden">
-                <Image
-                  src={post.heroImage}
-                  alt={post.title}
-                  fill
-                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                />
-              </div>
-              <div className="p-4">
-                <p className="text-charcoal font-semibold leading-snug group-hover:text-forest transition-colors">
-                  {post.title}
-                </p>
-                <p className="text-ink-muted text-xs mt-2 flex items-center gap-1">
-                  <Clock className="w-3 h-3" /> {post.readTime} {dict.blog.minRead}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <GuideGrid
+          guides={guides}
+          heading={dict.tourDetail.relatedGuidesHeading}
+          moreLabel={dict.tourDetail.readMoreGuides}
+          lang={lang}
+          dict={dict}
+        />
       </div>
     </section>
   );

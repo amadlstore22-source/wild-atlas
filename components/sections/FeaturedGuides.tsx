@@ -15,9 +15,8 @@ interface Props {
  * Three of our own guides, on the homepage.
  *
  * The blog is 80 posts deep in six languages and was reachable from the
- * homepage only through the nav: NewsTeaserSection shows *external* news and
- * falls back to blog posts only when that feed fails — so on a good day the
- * homepage's only editorial links pointed off-site.
+ * homepage only through the nav. A news teaser (removed 2026-11-15) showed
+ * *external* news, so the homepage's only editorial links pointed off-site.
  *
  * These four are pinned rather than taken by date because they are the posts
  * that answer a question someone asks before booking: how hard is it, what

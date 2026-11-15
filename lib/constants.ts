@@ -143,7 +143,7 @@ export const TRIPADVISOR = {
     "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Marrakech_Eco_Tours-Marrakech_Marrakech_Safi.html",
   listingName: "Marrakech Eco Tours",
   rating: 5.0,
-  reviewCount: 127,
+  reviewCount: 131,
   ranking: 206,
   rankingOutOf: 4109,
 } as const;

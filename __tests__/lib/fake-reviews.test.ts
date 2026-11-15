@@ -33,7 +33,13 @@ describe("reviews are real", () => {
   it("every review says where it came from and how the guest agreed", () => {
     for (const r of REVIEWS) {
       expect(r.source?.trim().length ?? 0, `${r.name}: add a source (who, where, when permission was given)`).toBeGreaterThan(10);
-      expect(r.source, `${r.name}: Tripadvisor terms forbid copying its reviews; use its widget`).not.toMatch(/tripadvisor/i);
+      // A review first written on Tripadvisor may be quoted only with the
+      // guest's own permission (Tripadvisor's terms forbid copying its reviews
+      // otherwise), and must be flagged so it never becomes Review schema.
+      if (/tripadvisor/i.test(r.source)) {
+        expect(r.writtenOn, `${r.name}: a Tripadvisor review must set writtenOn: "tripadvisor"`).toBe("tripadvisor");
+        expect(r.source, `${r.name}: say how the guest agreed (e.g. "with the guest's permission given to the owner, <date>")`).toMatch(/permission/i);
+      }
     }
   });
 

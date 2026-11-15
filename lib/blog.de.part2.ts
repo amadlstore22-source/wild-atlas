@@ -134,7 +134,7 @@ Fragen zu einer bestimmten Route oder einer bestimmten Sorge? [Sprechen Sie dire
     region: "root",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-15",
     tags: ["Marokko Reiseroute", "7 Tage Marokko", "Marokko Reiseplanung", "erste Marokkoreise", "wie lange Marokko"],
     seoTitle: "Wie viele Tage braucht man für Marokko?",
     seoDescription:
@@ -190,6 +190,8 @@ Jede unrealistische Marokko-Reiseroute scheitert an genau dieser Zahl. Menschen 
 | 7 | Marrakech → Sahara → Fes (Einbahnroute) | Die Küste, Chefchaouen |
 | 10 | Das Obige + Chefchaouen oder Essaouira | Sehr wenig |
 | 14 | Plus den Süden, den Anti-Atlas, einen Trek | Nichts Wesentliches |
+
+Wenn Marrakesch drei Tage lang Ihre Basis ist, zeigt unser [3-Tage-Plan für Marrakesch](/de/blog/3-tage-in-marrakesch) das Ganze Tag für Tag, mit den passenden Ausflügen.
 
 ## Die 7-Tage-Route, die funktioniert
 
@@ -2567,6 +2569,8 @@ Ein paar ehrliche Grundsätze, die Sie zu einem besseren Feilscher und besseren 
 ## Wo Festpreis gilt (damit Sie durchatmen)
 
 Nicht alles ist Verhandlung. Cafés, Restaurants, Apotheken, Supermärkte und moderne Läden haben feste Preise – dort zu feilschen ist der einzige Zug, der tatsächlich seltsam wirkt. Das Souk-Spiel gilt für Kunsthandwerk, Textilien, Souvenirs und Marktwaren ohne Preisschild. Gibt es ein Schild, zahlen Sie das Schild.
+
+Gehandelt und bezahlt wird bar, in Dirham. Unser [Ratgeber zu Geld in Marokko](/de/blog/geld-in-marokko-bargeld-trinkgeld) erklärt, wo Sie Dirham bekommen, was Sie ins Land mitbringen dürfen und wie es auf unseren Reisen mit dem Trinkgeld ist.
 
 ## Machen Sie es beim ersten Mal mit einem Einheimischen
 
@@ -9083,6 +9087,163 @@ Egal in welcher Stadt: Buchen Sie den Guide über Ihr Riad oder einen Reiseveran
 der Sie auf der Straße anspricht.
 
 👉 **[Zur 5-Tage-Route von Casablanca nach Marrakesch](/de/tours/casablanca-fes-sahara-marrakesch-5-tage)**: drei Königsstädte, eine Nacht in den Dünen und am Ende Marrakesch.
+`,
+  },
+  {
+    slug: "3-days-in-marrakech-itinerary",
+    localizedSlug: "3-tage-in-marrakesch",
+    author: MET_TEAM,
+    title: "3 Tage in Marrakesch: der Plan Tag für Tag",
+    excerpt: "Die Medina mit jemandem, der sie kennt, ein kulinarischer Vormittag, Sonnenuntergang in der Agafay-Wüste und ein Tag außerhalb der Stadt: So verbringen Sie drei Tage in Marrakesch, mit Zeiten und Preisen.",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
+    category: "tips",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    tags: ["3 Tage Marrakesch", "Marrakesch Reiseplan", "Marrakesch Sehenswürdigkeiten", "Ausflüge ab Marrakesch", "Agafay-Wüste"],
+    seoTitle: "3 Tage in Marrakesch: der Plan",
+    seoDescription: "Die Medina mit einheimischem Guide, ein kulinarischer Vormittag, Sonnenuntergang in der Agafay und ein Ausflug: 3 Tage in Marrakesch, mit Zeiten und Preisen.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "agafay-desert-sunset", "ourika-valley-day-hike"],
+    faq: [
+      { q: "Reichen 3 Tage für Marrakesch?", a: "Ja, für die Stadt selbst. Zwei Tage reichen für die Medina, die Paläste, den Djemaa el-Fna, einen kulinarischen Vormittag und einen Abend in der Agafay-Wüste, und der dritte lässt Zeit für einen Ausflug ins Ourika-Tal, zu den Ouzoud-Wasserfällen oder nach Essaouira. Die Sahara-Dünen brauchen allein drei weitere Tage: Die kürzeste Reise dorthin ab Marrakesch ist unsere [3-Tage-Tour nach Merzouga](/de/tours/wuestentour-3-tage-marrakesch)." },
+      { q: "Brauche ich in der Medina von Marrakesch einen Guide?", a: "Zum Herumlaufen nicht, aber ein Guide am ersten Vormittag spart viel Zeit und Stress. Die Gassen sind beim ersten Besuch schwer zu durchschauen, und ein Einheimischer führt Sie in Werkstätten und Riads, die Sie allein nicht finden würden. Unser [Medina-Rundgang](/de/tours/kulturtour-medina-marrakesch) dauert vier Stunden, enthält den Eintritt zu den Monumenten auf der Route und kostet 41 € pro Person zu zweit." },
+      { q: "Kann man die Sahara bei einem Tagesausflug ab Marrakesch sehen?", a: "Nein. Die nächste Wüste, die Agafay, ist eine Steinwüste ohne Sanddünen, etwa vierzig Minuten entfernt: ein wunderschöner Abend, aber nicht die Sahara. Die Dünen des Erg Chebbi bei Merzouga liegen rund 560 km von Marrakesch entfernt, deshalb dauert die Reise drei Tage; Zagora mit kleineren Dünen geht in zwei. Den Unterschied erklären wir in [Agafay, Merzouga oder Zagora](/de/blog/agafay-vs-merzouga-vs-zagora)." },
+      { q: "Muss ich den Jardin Majorelle im Voraus buchen?", a: "Ja. Laut der offiziellen Website des Gartens gibt es Tickets nur online, auf tickets.jardinmajorelle.com, also kaufen Sie sie vor dem Besuch. Der Eintritt in den Garten kostet für Erwachsene 170 Dirham. Das Yves-Saint-Laurent-Museum nebenan hat ein eigenes Ticket und ist mittwochs geschlossen." },
+      { q: "Welcher Tagesausflug ab Marrakesch ist der beste?", a: "Das hängt davon ab, was Sie sich vom Tag wünschen. Das Ourika-Tal ist am nächsten, etwa 45 Minuten entfernt, und am besten zum Wandern am Fuß des Atlas. Die Ouzoud-Wasserfälle sind am spektakulärsten. Essaouira ist der Ausflug fürs Meer, den alten Hafen und kühlere Luft. Alle drei starten morgens und sind abends zurück." },
+    ],
+    content: `
+Drei Tage sind genau die richtige Zeit für Marrakesch. Genug, um die Medina richtig zu sehen, gut zu essen, die Sonne über weitem Land untergehen zu sehen und trotzdem einen Tag aus der Stadt herauszukommen, ohne die Reise in Warteschlangen zu verbringen.
+
+Jeder Tag unten hat einen festen Termin am Vormittag, eine ruhige Tagesmitte und abends etwas, für das sich das Aufbleiben lohnt. Tauschen Sie die Tage nach Ihren Flügen; der dritte funktioniert in beide Richtungen.
+
+## Tag 1: die Medina, mit jemandem, der sie kennt
+
+**Vormittag: ein geführter Rundgang.** Die Medina ist UNESCO-Welterbe und eine lebendige Stadt, und beim ersten Besuch ist alles viel leichter mit einem Einheimischen. Unser [Medina-Rundgang](/de/tours/kulturtour-medina-marrakesch) beginnt um 9:00 Uhr an der Koutoubia-Moschee und führt durch die Mellah, die Ben-Youssef-Medersa, die Handwerkersouks und die Gerbereien, mit einem Minztee in einem Riad unterwegs. Er endet um 13:00 Uhr auf dem Djemaa el-Fna. Der Eintritt zu den Monumenten auf der Route ist inbegriffen. Er kostet 41 € pro Person zu zweit oder 73 €, wenn Sie allein reisen.
+
+**Nachmittag: die Paläste, auf eigene Faust.** Gehen Sie nach dem Mittagessen Richtung Mellah. Der Bahia-Palast ist ein Wesirspalast aus dem 19. Jahrhundert mit geschnitzten und bemalten Zedernholzdecken; der Eintritt kostet 100 Dirham für ausländische Erwachsene und 50 für Kinder von 7 bis 13 Jahren, und Tickets gibt es auch online auf der Website des Kulturministeriums. Die Ruinen des El-Badi-Palasts und, im Kasbah-Viertel, die Saadiergräber liegen ganz in der Nähe, jedes mit eigenem Ticket. Unser [Medina-Führer](/de/blog/marrakech-medina-complete-guide) erzählt die Geschichte aller drei.
+
+**Abend: Djemaa el-Fna.** Kommen Sie zurück auf den Platz, wenn das Licht schwindet. Dann bauen die Garküchen auf, Musiker und Geschichtenerzähler versammeln sich, und der ganze Platz füllt sich mit Rauch und Lärm. Schauen Sie zuerst von einer Caféterrasse zu, dann gehen Sie hinunter und essen an den Ständen.
+
+## Tag 2: ein kulinarischer Vormittag und ein Wüstenabend
+
+**Vormittag: die Märkte und ein Kochkurs.** Unsere [Food- und Markttour](/de/tours/kulinarische-tour-marrakesch) trifft sich um 9:30 Uhr am Gewürzplatz Rahba Kedima. Etwa anderthalb Stunden probieren Sie sich durch die Lebensmittelsouks, kaufen mit Ihrem Guide die Zutaten ein und kochen dann in einer Familienküche eine Tajine, die Sie anschließend essen. Sie kostet 100 € pro Person, Verkostungen, Kurs und Mittagessen inklusive. Wenn Sie vor allem das Kochen interessiert, lesen Sie, [wie ein Kochkurs in Marrakesch abläuft](/de/blog/kochkurs-marrakesch).
+
+**Nachmittag: langsamer werden.** Gehen Sie zurück in Ihr Riad. Der Hammam ist die marrakschische Art, die heißesten Stunden zu verbringen; der [Medina-Führer](/de/blog/marrakech-medina-complete-guide) erklärt die öffentlichen Bäder und die Spa-Varianten.
+
+**Abend: die Agafay bei Sonnenuntergang.** Die Agafay ist eine Steinwüste aus kahlen Hügeln, etwa vierzig Minuten von der Stadt entfernt. Sie ist nicht die Sahara und hat keine Sanddünen, aber bei Sonnenuntergang ist sie wunderschön. Mit uns gibt es zwei Möglichkeiten:
+
+- Unser [privater Abend in Agafay](/de/tours/sonnenuntergang-agafay-wueste) holt Sie um 15:00 Uhr ab, mit einer Stunde Quad, einem Kamelritt bei Sonnenuntergang und einem Berber-Abendessen, zurück in Marrakesch gegen 22:00 Uhr. 94 € pro Person zu zweit.
+- Der [Gruppenabend in Agafay](/de/tours/agafay-abendessen-kamelritt-feuershow) ist einfacher: ein Kamelritt, während das Licht schwindet, ein Drei-Gänge-Abendessen im Camp mit Musik und Feuershow, Rückkehr gegen 22:30 Uhr. 30 € pro Person.
+
+Die Agafay mit den echten Dünen vergleichen wir in [Agafay, Merzouga oder Zagora](/de/blog/agafay-vs-merzouga-vs-zagora).
+
+## Tag 3: raus aus der Stadt oder ein ruhiger Tag darin
+
+**Option 1: ein Ausflug.** Nach zwei Tagen Medina wollen die meisten an die frische Luft. Alle drei starten morgens und sind abends zurück:
+
+- **Das Ourika-Tal**, zum Wandern. Etwa 45 Minuten von Marrakesch am Fuß des Atlas, mit Berberdörfern, Terrassenfeldern und Wasserfällen. Unsere [private Ourika-Tageswanderung](/de/tours/wanderung-ourika-tal) enthält einen Guide und ein Berber-Mittagessen, 86 € pro Person zu zweit. Mehr in unserem [Ourika-Tal-Führer](/de/blog/ourika-valley-day-trip-marrakech).
+- **Die Ouzoud-Wasserfälle**, für etwas Spektakuläres. Eine lange Schlucht voller Kaskaden, Berberaffen auf den Wegen und eine Bootsfahrt unten. Der [Gruppenausflug](/de/tours/ouzoud-wasserfaelle-gruppentour) kostet 40 € pro Person; lesen Sie vorher, [was der Tag kostet](/de/blog/ouzoud-wasserfaelle-ausflug-kosten).
+- **Essaouira**, fürs Meer. Der befestigte Hafen am Atlantik ist ein langer, aber leichter Tag und im Sommer deutlich kühler. Der [Gruppenausflug](/de/tours/essaouira-gruppentagestour) hält unterwegs bei einer Arganöl-Kooperative und lässt Ihnen mehrere freie Stunden in der Medina und am Hafen, 30 € pro Person. Siehe unseren [Essaouira-Führer](/de/blog/essaouira-complete-travel-guide).
+
+**Option 2: in der Stadt bleiben.** Gehen Sie gleich am Morgen in den Jardin Majorelle, vor den Reisegruppen. Der Eintritt für Erwachsene kostet 170 Dirham, und Tickets gibt es **nur online** auf der offiziellen Ticketseite des Gartens, also kaufen Sie sie vorher. Das Yves-Saint-Laurent-Museum nebenan hat ein eigenes Ticket und ist mittwochs geschlossen. Verbringen Sie den Rest des Tages mit dem, was Sie in der Medina verpasst haben, oder einfach ohne Plan in den Souks: Der [Ratgeber zum Handeln](/de/blog/haggling-in-moroccan-souks-guide) hilft dabei.
+
+## Wenn Sie mehr als drei Tage haben
+
+Die Sahara ist das Einzige, was sich ab Marrakesch nicht an einem Tag machen lässt. Die hohen Dünen des Erg Chebbi bei Merzouga liegen rund 560 km entfernt, deshalb dauert die kürzeste Reise dorthin drei Tage: Unsere [3-Tage-Tour](/de/tours/wuestentour-3-tage-marrakesch) überquert den Atlas, hält in Aït Ben Haddou und verbringt eine Nacht in einem Camp in den Dünen. Wenn Ihnen die lange Rückfahrt Sorgen macht, vergleicht [3 oder 4 Tage](/de/blog/sahara-tour-3-oder-4-tage-marrakesch) beide Varianten. Mit nur zwei Tagen ist Zagora die realistische Wüstennacht, mit unserer [privaten 2-Tage-Tour nach Zagora](/de/tours/zagora-tour-2-tage-marrakesch) oder [der Gruppentour](/de/tours/zagora-wueste-2-tage-geteilt).
+
+Für eine längere Reise durch das Land siehe, [wie viele Tage Sie in Marokko brauchen](/de/blog/how-many-days-do-you-need-in-morocco).
+
+## Praktische Hinweise
+
+- **Wohnen Sie in oder nahe der Medina.** Alles oben beginnt dort, und das Riad gehört zum Erlebnis: siehe [was ein Riad ist](/de/blog/what-is-a-riad).
+- **Buchen Sie die festen Termine, lassen Sie den Rest offen.** Der Medina-Rundgang, der kulinarische Vormittag und der Agafay-Abend haben feste Zeiten; die Nachmittage sind ohne Plan am schönsten.
+- **Nehmen Sie Bargeld mit.** Die Souks und die Garküchen nehmen nur Dirham.
+- **Kleiden Sie sich für die Medina.** Bedeckte Schultern und Knie sind bequem und respektvoll, und gute Schuhe sind auf den unebenen Gassen wichtiger als alles andere.
+
+👉 **[Unsere Tagesausflüge ab Marrakesch ansehen](/de/tours?cat=day-tours)**, oder schicken Sie uns Ihre Daten, und wir stellen die drei Tage für Sie zusammen.
+`,
+  },
+  {
+    slug: "money-in-morocco-cash-atms-tipping",
+    localizedSlug: "geld-in-marokko-bargeld-trinkgeld",
+    author: MET_TEAM,
+    title: "Geld in Marokko: Bargeld, Geldautomaten und Trinkgeld",
+    excerpt: "Der Dirham darf das Land nicht verlassen, in den Souks zählt Bargeld und Trinkgeld ist immer freiwillig: wie Sie Geld nach Marokko mitbringen, abheben, ausgeben und zurücktauschen, nach den Regeln von 2026.",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    tags: ["Geld in Marokko", "marokkanischer Dirham", "Trinkgeld in Marokko", "Geldautomaten Marokko", "Marokko Reisetipps"],
+    seoTitle: "Geld in Marokko: Bargeld und Trinkgeld",
+    seoDescription: "Der Dirham bleibt in Marokko, in den Souks zählt Bargeld, Trinkgeld ist freiwillig: Geld mitbringen, abheben, ausgeben und zurücktauschen, Regeln 2026.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "sahara-3day-marrakech", "agafay-desert-sunset"],
+    faq: [
+      { q: "Darf man Dirham nach Marokko mitbringen?", a: "Nur bis zu 2.000 Dirham in Banknoten. Die Ein- und Ausfuhr von Dirham ist verboten, mit dieser einen Ausnahme für Reisende (Office des Changes, Allgemeine Anweisung 2026). Bringen Sie Euro, Pfund, Dollar oder eine Karte mit und besorgen Sie sich Dirham nach der Ankunft." },
+      { q: "Muss man Bargeld bei der Einreise nach Marokko anmelden?", a: "Nur wenn Ihre Devisen 100.000 Dirham oder mehr wert sind: Dann ist die Anmeldung beim Zoll Pflicht. Darunter ist sie freiwillig, aber sie ist der Nachweis, den Sie brauchen, um nicht ausgegebene Devisen wieder auszuführen, und gilt für Nichtansässige sechs Monate." },
+      { q: "Kann man die Tour mit Karte bezahlen?", a: "Nein. Die Anzahlung, in der Regel 20 % des Tourpreises, zahlen Sie per PayPal oder Überweisung, den Rest bei Ankunft in bar (Euro oder Dirham) oder per Überweisung vor dem Termin. Kartenzahlungen nehmen wir nicht an." },
+      { q: "Wie viel Trinkgeld gibt man Guide oder Fahrer?", a: "So viel, wie Sie für richtig halten, oder gar nichts. Trinkgeld ist in unseren Preisen nicht enthalten, und ob Sie Ihrem Guide, Fahrer, dem Camp-Team oder den Maultiertreibern etwas geben, entscheiden immer Sie. Jeder Betrag ist in Ordnung." },
+      { q: "Kann man übrige Dirham zurücktauschen?", a: "Ja, in Marokko, vor dem Abflug. Banken und Wechselstuben tauschen sie gegen Vorlage Ihrer Wechselbelege zurück. Ohne die Zollanmeldung von der Einreise liegt die Grenze bei 20.000 Dirham, mit einem Beleg auf Ihren Namen, der nicht älter als sechs Monate ist. An Wechselschaltern in Flug- und Seehäfen gilt mit Bordkarte eine Grenze von 2.000 Dirham pro Reisepass." },
+    ],
+    content: `
+In Marokko zahlt man bar. Der Dirham lässt sich außerhalb des Landes weder kaufen noch verkaufen, Kartenterminals sind in den Souks selten, und ein paar praktische Regeln bestimmen, was Sie mitbringen und zurücktauschen dürfen. Mit etwas Planung sparen Sie Gebühren, Warteschlangen und eine Tasche voller übriger Scheine am Flughafen.
+
+Die folgenden Regeln stammen vom Office des Changes, der marokkanischen Devisenbehörde, aus ihrer [Allgemeinen Anweisung über Devisengeschäfte 2026](https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf) (auf Französisch). Wir ergänzen, wie es auf unseren Reisen mit dem Geld läuft.
+
+## Der Dirham bleibt in Marokko
+
+Der marokkanische Dirham (MAD, oft DH geschrieben) ist eine nicht frei konvertierbare Währung. Die Ein- und Ausfuhr von Dirham ist verboten, mit einer Ausnahme für Reisende: Sie dürfen bis zu **2.000 Dirham** in Banknoten bei sich haben, damit Sie bei der Rückkehr das erste Taxi bezahlen können.
+
+In der Praxis reisen Sie mit Euro, Pfund, Dollar oder einer Karte an und besorgen sich die Dirham vor Ort.
+
+## Devisen mitbringen
+
+Ausländische Banknoten dürfen frei nach Marokko eingeführt werden. Ist Ihr Bargeld **100.000 Dirham oder mehr** wert, müssen Sie es bei der Einreise beim Zoll anmelden. Darunter ist die Anmeldung freiwillig, aber verlangen Sie sie, wenn Sie eine größere Summe mitbringen, die Sie vielleicht wieder mitnehmen: Sie ist der Nachweis, den Sie brauchen, um nicht ausgegebene Devisen wieder auszuführen, und gilt für Nichtansässige sechs Monate.
+
+## Dirham besorgen
+
+- **Geldautomaten** sind am einfachsten. Ihre Bank kann Gebühren für Abhebungen im Ausland verlangen, und der Automat kann eigene Gebühren aufschlagen: Erkundigen Sie sich vor der Reise und heben Sie lieber seltener größere Beträge ab als jeden Tag ein wenig.
+- **Wählen Sie Dirham.** Manche Automaten und Kartenterminals bieten an, in Euro statt in Dirham abzurechnen. Lehnen Sie ab: Dann wird zu einem Kurs umgerechnet, den die Bank des Geräts festlegt, und der ist oft schlechter als der Ihrer eigenen Bank.
+- **Banken und Wechselstuben** tauschen ausländische Banknoten in Dirham. Heben Sie den Beleg auf, den Sie bekommen, den *bordereau de change*: Sie brauchen ihn, um Dirham bei der Abreise zurückzutauschen.
+
+## Wo Sie Bargeld brauchen
+
+Riads, Hotels und manche Restaurants nehmen Karten, aber Souks, Taxis, kleine Cafés, die Essensstände am Djemaa el-Fna und Dorfläden funktionieren mit Bargeld. Tragen Sie die Dirham für den Tag in kleinen Scheinen bei sich und lassen Sie den Rest im Zimmer. Wenn Sie in den Souks einkaufen wollen, lesen Sie vorher unseren [Ratgeber zum Handeln](/de/blog/haggling-in-moroccan-souks-guide).
+
+## Ihre Reise bei uns bezahlen
+
+- **Anzahlung.** Eine Anzahlung, in der Regel 20 % des Tourpreises, sichert Ihre Termine. Sie zahlen sie per PayPal oder Banküberweisung; die Daten schicken wir Ihnen, sobald Sie die Buchung bestätigen.
+- **Restbetrag.** Der Rest wird bei Ankunft, zu Beginn der Tour, in bar (Euro oder Dirham) gezahlt oder vor dem Termin überwiesen.
+- **Keine Karten.** Kartenzahlungen nehmen wir nicht an, planen Sie das Bargeld für den Restbetrag also vor dem ersten Tag ein.
+- **Gebühren.** PayPal- oder Bankgebühren für eine Zahlung trägt, wer sie sendet. Alle Regeln stehen in unseren [Bedingungen](/de/terms).
+
+## Trinkgeld
+
+Trinkgeld ist in keinem unserer Preise enthalten. Ob Sie Ihrem Guide, Ihrem Fahrer, dem Camp-Team oder den Maultiertreibern auf einem Trek etwas geben, entscheiden immer Sie, und jeder Betrag ist in Ordnung. Ein Trinkgeld ist ein Dankeschön, nie ein Teil des Preises.
+
+## Dirham bei der Abreise zurücktauschen
+
+Übrige Dirham lassen sich nur in Marokko zurücktauschen, bei einer Bank oder Wechselstube, also erledigen Sie das vor dem Abflug:
+
+- **Mit der Zollanmeldung** von der Einreise und Ihren Wechselbelegen tauscht die Bank zurück, was Sie gewechselt haben.
+- **Ohne Anmeldung** können Sie bis zu 20.000 Dirham zurücktauschen, gegen Vorlage eines Wechselbelegs auf Ihren Namen, der nicht älter als sechs Monate ist.
+- **An Wechselschaltern in Flug- und Seehäfen** gilt gegen Vorlage der Bordkarte eine Grenze von 2.000 Dirham pro Reisepass.
+
+Die Regeln sprechen von Wechselbelegen, die Banken und Wechselstuben ausstellen. Kommen Ihre Dirham vor allem aus Geldautomaten, heben Sie am besten nur ab, was Sie auch ausgeben.
+
+## Kurz zusammengefasst
+
+- Eine Karte, die im Ausland funktioniert, und etwas Euro, Pfund oder Dollar in bar.
+- Dirham besorgen Sie nach der Ankunft: Einführen dürfen Sie höchstens 2.000.
+- Devisen im Wert von 100.000 Dirham oder mehr bei der Einreise anmelden.
+- Immer Dirham wählen, wenn ein Gerät eine Umrechnung anbietet.
+- Wechselbelege aufheben.
+- Den Restbetrag der Reise in bar (Euro oder Dirham) mitbringen oder vorher überweisen.
+- Trinkgeld geben, wie Sie möchten, oder gar nicht.
+
+👉 **[Unsere Touren ansehen](/de/tours)**, oder [fragen Sie uns](/de/contact) vor der Buchung alles zum Bezahlen.
 `,
   },
 ];

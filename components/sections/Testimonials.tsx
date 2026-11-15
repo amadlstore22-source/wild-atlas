@@ -70,11 +70,12 @@ export default function Testimonials({ dict }: Props) {
                   style={{ backgroundColor: r.color }}
                   aria-hidden="true"
                 >
-                  {r.name.split(" ").map((n) => n[0]).join("")}
+                  {/* Capitalised words only, max two: "A couple from Switzerland" -> "AS". */}
+                  {r.name.split(" ").filter((n) => /^[A-Z]/.test(n)).map((n) => n[0]).slice(0, 2).join("")}
                 </div>
                 <div className="min-w-0">
                   <div className="font-bold text-ink text-sm truncate">{r.name}</div>
-                  <div className="text-ink-muted text-xs truncate">{r.country} · {r.tour}</div>
+                  <div className="text-ink-muted text-xs truncate">{[r.country, r.tour].filter(Boolean).join(" · ")}</div>
                 </div>
               </footer>
             </m.blockquote>

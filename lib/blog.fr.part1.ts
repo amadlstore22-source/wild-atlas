@@ -1027,7 +1027,7 @@ Si Agafay vous donne envie d'aller plus loin, le Haut Atlas offre encore plus. O
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-11-01",
+    updatedAt: "2026-11-15",
     tags: ["Marrakech", "médina", "Djemaa el-Fna", "souks", "guide de la ville marocaine"],
     seoTitle: "Guide de la médina de Marrakech 2026",
     seoDescription:
@@ -1069,7 +1069,7 @@ Les souks (marchés) occupent la moitié nord de la médina, à peu près entre 
 
 ## Les palais
 
-**Palais Bahia** (gratuit, ouvert tous les jours) : un palais de vizir du XIXe siècle comptant 150 pièces, construit pour être le plus beau de tout le Maroc. Le savoir-faire — plafonds en cèdre sculpté, zellige, stuc peint — est extraordinaire. Prévoyez 45 minutes.
+**Palais Bahia** (100 dirhams pour un adulte étranger, 50 pour un enfant de 7 à 13 ans ; billets aussi en vente en ligne sur le site du ministère de la Culture) : un palais de vizir du XIXe siècle comptant 150 pièces, construit pour être le plus beau de tout le Maroc. Le savoir-faire — plafonds en cèdre sculpté, zellige, stuc peint — est extraordinaire. Prévoyez 45 minutes.
 
 **Palais El Badi** (ruines, 100 MAD d'entrée) : le palais saadien du XVIe siècle, commandité par le sultan Ahmed al-Mansour à partir de 1578 et construit avec du marbre, de l'or et des matériaux importés d'aussi loin que l'Italie et le Mali, fut autrefois décrit comme le plus magnifique du monde islamique. Sa chute survint un siècle plus tard, sous l'action du sultan alaouite Moulay Ismaïl, qui le fit systématiquement dépouiller de ses matériaux de construction — marbre, carrelage, cèdre, panneaux décoratifs entiers — pour bâtir sa propre nouvelle capitale à Meknès. Les récits historiques divergent sur la date exacte de cet événement, certaines sources situant l'ordre en 1696 et d'autres aussi tard qu'en 1707, mais tous s'accordent à dire que le démantèlement lui-même fut un travail lent et méthodique, ayant pris environ une décennie. On pense que les matériaux saadiens récupérés sur ces murs ont fini non seulement à Meknès, mais même jusqu'à Fès, dans la décoration de la Zaouïa de Moulay Idriss II. Ce qu'il reste aujourd'hui à Marrakech, ce sont des ruines chargées d'atmosphère — de vastes cours vides, des jardins en contrebas, et des nids de cigognes sur chaque mur. Meilleur que Bahia pour l'ambiance.
 
@@ -1102,6 +1102,8 @@ Si vous venez pour la cuisine, notre [visite gastronomique](/fr/tours/visite-gas
 - **Un guide vaut le coup pour la première demi-journée.** Non pas parce que vous ne pouvez pas naviguer seul, mais parce que le contexte transforme ce que vous voyez. Un bon guide sait à quelles portes frapper, qui saluer, et ce que signifiaient les bâtiments. Réservez via votre riad plutôt que d'accepter les approches dans la rue.
 - **Les murs sont roses à cause de l'oxyde de fer présent dans le calcaire local.** Toute la médina est bâtie avec le même matériau. La loi impose à tout nouveau bâtiment à l'intérieur des remparts de conserver la teinte rose traditionnelle.
 - **Ayez de la petite monnaie.** La plupart des transactions se font entre 5 et 50 MAD. Les billets de 200 MAD posent problème dans les petites échoppes.
+
+Vous prévoyez plusieurs jours en ville ? Notre [programme de 3 jours à Marrakech](/fr/blog/3-jours-a-marrakech) réunit la médina, une matinée gourmande, une soirée dans le désert d'Agafay et une journée hors de la ville.
     `,
   },
   {

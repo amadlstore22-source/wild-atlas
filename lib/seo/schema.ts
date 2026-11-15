@@ -275,10 +275,13 @@ export function buildAggregateOffer(opts: {
  * than emitting an empty `review: []` that says the product has no reviews.
  */
 export function buildReviewNodes(
-  reviews: { name: string; country: string; rating: number; tourSlug: string; date: string; text: string }[],
+  reviews: { name: string; country: string; rating: number; tourSlug: string; date: string; text: string; writtenOn: "tripadvisor" | "direct" }[],
   tourSlug: string,
 ) {
-  const mine = reviews.filter((r) => r.tourSlug === tourSlug);
+  // Reviews first written on Tripadvisor are shown to visitors (with each
+  // guest's permission) but never marked up: Google forbids review markup
+  // for reviews collected on another site.
+  const mine = reviews.filter((r) => r.tourSlug === tourSlug && r.writtenOn === "direct");
   if (!mine.length) return undefined;
   return mine.map((r) => ({
     "@type": "Review",

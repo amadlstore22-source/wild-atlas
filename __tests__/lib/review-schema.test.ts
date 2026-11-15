@@ -110,6 +110,22 @@ describe("Review schema attribution", () => {
     ).toEqual([]);
   });
 
+  it("never marks up a review first written on Tripadvisor", () => {
+    // 2026-11-15: real Tripadvisor reviews went on the site with each guest's
+    // permission. Google's review-snippet rules forbid marking up reviews
+    // collected on another site, and the homepage aggregateRating was removed
+    // for the same reason (tripadvisor-identity.test.ts). Visible: yes. Schema: no.
+    const leaked: string[] = [];
+    for (const tour of TOURS) {
+      for (const node of buildReviewNodes(REVIEWS, tour.slug) ?? []) {
+        const name = (node.author as { name: string }).name;
+        const r = REVIEWS.find((x) => x.name === name && x.tourSlug === tour.slug);
+        if (r?.writtenOn !== "direct") leaked.push(`${tour.slug}: ${name}`);
+      }
+    }
+    expect(leaked, `Tripadvisor reviews emitted as Review schema:\n  ${leaked.join("\n  ")}`).toEqual([]);
+  });
+
   it("returns undefined rather than an empty array when nothing matches", () => {
     // `review: []` tells Google the product HAS no reviews, which is a
     // different and worse claim than saying nothing. The caller spreads the

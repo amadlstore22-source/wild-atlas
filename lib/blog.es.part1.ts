@@ -1027,7 +1027,7 @@ Si Agafay te deja con ganas de más, el Alto Atlas va todavía más lejos. Oukai
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-11-01",
+    updatedAt: "2026-11-15",
     tags: ["Marrakech", "medina", "Djemaa el-Fna", "zocos", "guía urbana de Marruecos"],
     seoTitle: "Guía de la medina de Marrakech 2026",
     seoDescription:
@@ -1069,7 +1069,7 @@ Los zocos (mercados) ocupan la mitad norte de la medina, aproximadamente entre D
 
 ## Los palacios
 
-**Palacio de la Bahía** (gratis, abierto a diario): un palacio de visir del siglo XIX de 150 habitaciones, construido para ser el más hermoso de todo Marruecos. La artesanía —techos de cedro tallado, azulejería zellij, estuco pintado— es extraordinaria. Reserva 45 minutos.
+**Palacio de la Bahía** (100 dírhams para adultos extranjeros, 50 para niños de 7 a 13 años; entradas también a la venta online en la web del Ministerio de Cultura): un palacio de visir del siglo XIX de 150 habitaciones, construido para ser el más hermoso de todo Marruecos. La artesanía —techos de cedro tallado, azulejería zellij, estuco pintado— es extraordinaria. Reserva 45 minutos.
 
 **Palacio El Badi** (ruinas, 100 MAD la entrada): el palacio saadí del siglo XVI, encargado por el sultán Ahmad al-Mansur desde 1578 y construido con mármol, oro y materiales importados desde lugares tan lejanos como Italia y Malí, fue descrito en su día como el más magnífico del mundo islámico. Su caída llegó un siglo después a manos del sultán alauí Moulay Ismail, que lo hizo despojar sistemáticamente de sus materiales de construcción —mármol, azulejería, cedro, paneles decorativos enteros— para construir su propia nueva capital en Mequinez. Los relatos históricos difieren sobre el momento exacto en que ocurrió esto, con algunas fuentes que datan la orden en 1696 y otras hasta 1707, pero coinciden en que el desmantelamiento en sí fue un trabajo lento y minucioso que, según se cuenta, tardó cerca de una década en completarse. Se cree que el material saadí recuperado de estas paredes acabó no solo en Mequinez sino incluso tan lejos como Fez, en la decoración de la Zaouia de Moulay Idriss II. Lo que queda hoy en Marrakech son ruinas llenas de atmósfera: enormes patios vacíos, jardines hundidos y nidos de cigüeña en cada muro. Mejor que la Bahía en cuanto a ambiente.
 
@@ -1102,6 +1102,8 @@ Si viene por la comida, nuestro [tour gastronómico](/es/tours/tour-gastronomico
 - **Un guía merece la pena para el primer medio día.** No porque no puedas orientarte solo, sino porque el contexto transforma lo que ves. Un buen guía sabe a qué puertas llamar, a quién saludar y qué significaban los edificios. Resérvalo a través de tu riad en lugar de aceptar propuestas en la calle.
 - **Las paredes son rosadas por el óxido de hierro en la piedra caliza local.** Toda la medina está construida con el mismo material. La ley exige que todos los edificios nuevos dentro de las murallas mantengan el tono rosado tradicional.
 - **Lleva cambio pequeño.** La mayoría de las transacciones son de 5-50 MAD. Los billetes de 200 MAD dan problemas en los puestos pequeños.
+
+¿Vas a pasar varios días en la ciudad? Nuestro [plan de 3 días en Marrakech](/es/blog/3-dias-en-marrakech) reúne la medina, una mañana gastronómica, una tarde en el desierto de Agafay y un día fuera de la ciudad.
     `,
   },
   {

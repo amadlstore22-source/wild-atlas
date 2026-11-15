@@ -30,7 +30,7 @@ export default function BookingSidebar({
 }) {
   const b = dict.booking;
   // Only reviews genuinely about this tour — often none, see lib/reviews.ts.
-  const quotes = reviewsForTour(pageTour.title);
+  const quotes = reviewsForTour(pageTour.slug);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [heard, setHeard] = useState("");
@@ -684,8 +684,8 @@ export default function BookingSidebar({
                 </span>
               </a>
             </div>
-            {/* May be empty: reviewsForTour returns only genuine keyword
-                matches, so a tour with no review of its own shows the verified
+            {/* May be empty: reviewsForTour returns only reviews of this
+                exact tour, so a tour with no review of its own shows the verified
                 TripAdvisor rating above and no quote, rather than another
                 trip's words. */}
             {quotes.map((r) => (
@@ -694,7 +694,7 @@ export default function BookingSidebar({
                   “{r.short}”
                 </blockquote>
                 <figcaption className="text-xs text-ink-muted mt-1">
-                  {r.name} · {r.country} · {r.date}
+                  {[r.name, r.country, r.date].filter(Boolean).join(" · ")}
                 </figcaption>
               </figure>
             ))}

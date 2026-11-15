@@ -134,7 +134,7 @@ Las mujeres a las que guiamos y que mejor lo pasan son las que llegaron esperand
     region: "root",
     readTime: 9,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-11-15",
     tags: ["itinerario Marruecos", "7 días en Marruecos", "planificar viaje a Marruecos", "primera vez en Marruecos", "cuánto tiempo en Marruecos"],
     seoTitle: "¿Cuántos días necesitas en Marruecos?",
     seoDescription:
@@ -190,6 +190,8 @@ Todo itinerario poco realista por Marruecos naufraga en ese único número. La g
 | 7 | Marrakech → Sahara → Fez (ida) | La costa, Chefchaouen |
 | 10 | Lo anterior + Chefchaouen o Essaouira | Casi nada |
 | 14 | Añade el sur, el Anti-Atlas, un trekking | Nada que importe |
+
+Si Marrakech es tu base durante tres días, nuestro [plan de 3 días en Marrakech](/es/blog/3-dias-en-marrakech) lo cuenta día a día, con las excursiones que encajan.
 
 ## La ruta de 7 días que funciona
 
@@ -2570,6 +2572,8 @@ Algunos principios honestos que te harán mejor regateador y mejor invitado:
 ## Dónde es precio fijo (para que respires)
 
 No todo es negociación. Cafés, restaurantes, farmacias, supermercados y tiendas modernas tienen precios fijados: regatear ahí es el único gesto que de verdad resulta raro. El juego del zoco aplica a artesanía, textiles, souvenirs y productos de mercado sin etiqueta. Cuando hay etiqueta, paga la etiqueta.
+
+En el zoco se regatea y se paga en efectivo, en dírhams. Nuestra [guía del dinero en Marruecos](/es/blog/dinero-en-marruecos-efectivo-propinas) explica dónde conseguirlos, qué puede llevar al país y cómo funcionan las propinas en nuestros viajes.
 
 ## Hazlo con un local la primera vez
 
@@ -9056,6 +9060,163 @@ Sea cual sea la ciudad, reserva el guía a través de tu riad o de una agencia, 
 aborde en la calle.
 
 👉 **[Ver la ruta de 5 días de Casablanca a Marrakech](/es/tours/casablanca-fez-sahara-marrakech-5-dias)**: tres ciudades imperiales, una noche en las dunas y Marrakech al final.
+`,
+  },
+  {
+    slug: "3-days-in-marrakech-itinerary",
+    localizedSlug: "3-dias-en-marrakech",
+    author: MET_TEAM,
+    title: "3 días en Marrakech: el plan día a día",
+    excerpt: "La medina con alguien que la conoce, una mañana gastronómica, el atardecer en el desierto de Agafay y un día fuera de la ciudad: cómo pasar tres días en Marrakech, con horarios y precios.",
+    heroImage: "/gallery/blog-marrakech-medina-complete-guide.jpg",
+    category: "tips",
+    region: "imperial-cities",
+    readTime: 8,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    tags: ["3 días en Marrakech", "itinerario Marrakech", "qué hacer en Marrakech", "excursiones desde Marrakech", "desierto de Agafay"],
+    seoTitle: "3 días en Marrakech: el plan día a día",
+    seoDescription: "La medina con un guía local, una mañana gastronómica, el atardecer en Agafay y un día fuera de la ciudad: 3 días en Marrakech, con horarios y precios.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "agafay-desert-sunset", "ourika-valley-day-hike"],
+    faq: [
+      { q: "¿Son suficientes 3 días para Marrakech?", a: "Sí, para la ciudad. Dos días cubren la medina, los palacios, la plaza Djemaa el-Fna, una mañana gastronómica y una tarde en el desierto de Agafay, y el tercero deja tiempo para una excursión al valle de Ourika, las cascadas de Ouzoud o Esauira. Las dunas del Sáhara necesitan otros tres días por sí solas: el viaje más corto desde Marrakech es nuestro [tour de 3 días a Merzouga](/es/tours/tour-desierto-3-dias-marrakech)." },
+      { q: "¿Necesito guía en la medina de Marrakech?", a: "No para pasear, pero un guía la primera mañana ahorra mucho tiempo y estrés. Las callejuelas son difíciles de seguir en una primera visita, y una persona local te lleva a talleres y riads que no encontrarías. Nuestro [paseo por la medina](/es/tours/tour-cultural-medina-marrakech) dura cuatro horas, incluye la entrada a los monumentos del recorrido y cuesta 41 € por persona si sois dos." },
+      { q: "¿Se puede ver el Sáhara en una excursión de un día desde Marrakech?", a: "No. El desierto más cercano, el Agafay, es un desierto de piedra sin dunas de arena a unos cuarenta minutos: una tarde preciosa, pero no el Sáhara. Las dunas del Erg Chebbi en Merzouga están a unos 560 km de Marrakech, así que el viaje dura tres días; Zagora, con dunas más pequeñas, se puede hacer en dos. Explicamos la diferencia en [Agafay, Merzouga o Zagora](/es/blog/agafay-vs-merzouga-vs-zagora)." },
+      { q: "¿Hay que reservar el jardín Majorelle con antelación?", a: "Sí. La web oficial del jardín indica que las entradas solo se compran online, en tickets.jardinmajorelle.com, así que cómpralas antes de ir. La entrada al jardín cuesta 170 dírhams por adulto. El museo Yves Saint Laurent de al lado tiene su propia entrada y cierra los miércoles." },
+      { q: "¿Cuál es la mejor excursión desde Marrakech?", a: "Depende de lo que quieras del día. El valle de Ourika es el más cercano, a unos 45 minutos, y el mejor para caminar al pie del Atlas. Las cascadas de Ouzoud son las más espectaculares. Esauira es la opción del mar, el puerto antiguo y un aire más fresco. Las tres salen por la mañana y vuelven por la tarde." },
+    ],
+    content: `
+Tres días es el tiempo justo para Marrakech. Suficiente para ver bien la medina, comer bien, ver ponerse el sol sobre el campo abierto y aun así salir de la ciudad un día, sin pasar el viaje haciendo colas.
+
+Cada día tiene una cita fija por la mañana, un mediodía tranquilo y algo por lo que merece la pena trasnochar. Cambia el orden de los días según tus vuelos; el tercero funciona en ambos sentidos.
+
+## Día 1: la medina, con alguien que la conoce
+
+**Mañana: un paseo guiado.** La medina es Patrimonio Mundial de la UNESCO y una ciudad viva, y en una primera visita todo es mucho más fácil con alguien de aquí. Nuestro [paseo por la medina](/es/tours/tour-cultural-medina-marrakech) empieza a las 9:00 en la mezquita Kutubía y pasa por el Mellah, la madraza Ben Youssef, los zocos de artesanos y las curtidurías, con un té a la menta en un riad por el camino. Termina a las 13:00 en la plaza Djemaa el-Fna. La entrada a los monumentos del recorrido está incluida. Cuesta 41 € por persona si sois dos, o 73 € si vas solo.
+
+**Tarde: los palacios, por tu cuenta.** Después de comer, baja hacia el Mellah. El palacio de la Bahía es un palacio de visir del siglo XIX con techos de cedro tallado y pintado; la entrada cuesta 100 dírhams para adultos extranjeros y 50 para niños de 7 a 13 años, y las entradas también se compran online en la web del Ministerio de Cultura. Las ruinas del palacio El Badi y, en el barrio de la Kasbah, las tumbas saadíes están muy cerca, cada una con su propia entrada. Nuestra [guía de la medina](/es/blog/marrakech-medina-complete-guide) cuenta la historia de los tres.
+
+**Noche: Djemaa el-Fna.** Vuelve a la plaza cuando cae la luz. Es la hora en que se montan los puestos de comida, se reúnen músicos y cuentacuentos y toda la plaza se llena de humo y de ruido. Mírala primero desde la terraza de un café y luego baja a cenar en los puestos.
+
+## Día 2: una mañana gastronómica y una tarde en el desierto
+
+**Mañana: los mercados y una clase de cocina.** Nuestro [tour gastronómico](/es/tours/tour-gastronomico-marrakech) queda a las 9:30 en la plaza de las especias, Rahba Kedima. Vas probando por los zocos de comida durante una hora y media, compras los ingredientes con tu guía y después cocinas un tajín en la cocina de una familia y te sientas a comerlo. Cuesta 100 € por persona, con las degustaciones, la clase y la comida incluidas. Si lo que más te interesa es cocinar, lee [cómo es una clase de cocina en Marrakech](/es/blog/clase-de-cocina-marrakech).
+
+**Tarde: bajar el ritmo.** Vuelve a tu riad. El hammam es la forma marrakchí de pasar las horas de más calor; la [guía de la medina](/es/blog/marrakech-medina-complete-guide) explica los baños públicos y las versiones spa.
+
+**Noche: el Agafay al atardecer.** El Agafay es un desierto de piedra de colinas desnudas a unos cuarenta minutos de la ciudad. No es el Sáhara y no tiene dunas de arena, pero al atardecer es precioso. Hay dos maneras de hacerlo con nosotros:
+
+- Nuestra [tarde privada en Agafay](/es/tours/atardecer-desierto-agafay) te recoge a las 15:00, con una hora de quad, un paseo en dromedario al atardecer y una cena bereber, de vuelta en Marrakech hacia las 22:00. 94 € por persona si sois dos.
+- La [tarde compartida en Agafay](/es/tours/agafay-cena-camello-espectaculo-fuego) es más sencilla: un paseo en dromedario mientras cae la luz, una cena de tres platos en un campamento con música y espectáculo de fuego, y vuelta hacia las 22:30. 30 € por persona.
+
+Comparamos el Agafay con las dunas de verdad en [Agafay, Merzouga o Zagora](/es/blog/agafay-vs-merzouga-vs-zagora).
+
+## Día 3: fuera de la ciudad, o un día tranquilo en ella
+
+**Opción 1: una excursión.** Después de dos días de medina, casi todo el mundo tiene ganas de aire libre. Las tres salen por la mañana y vuelven por la tarde:
+
+- **El valle de Ourika**, para caminar. A unos 45 minutos de Marrakech, al pie del Atlas, con aldeas bereberes, campos en terrazas y cascadas. Nuestra [excursión privada al Ourika](/es/tours/senderismo-valle-ourika) incluye guía y comida bereber, 86 € por persona si sois dos. Más en nuestra [guía del valle de Ourika](/es/blog/ourika-valley-day-trip-marrakech).
+- **Las cascadas de Ouzoud**, para algo espectacular. Una larga garganta de cascadas, macacos de Berbería en los senderos y un paseo en barca abajo. La [excursión compartida](/es/tours/excursion-compartida-cascadas-ouzoud) cuesta 40 € por persona; lee [cuánto cuesta el día](/es/blog/precio-excursion-cascadas-ouzoud) antes de ir.
+- **Esauira**, para el mar. El puerto amurallado del Atlántico es un día largo pero fácil, y bastante más fresco en verano. La [excursión compartida](/es/tours/excursion-compartida-essaouira) para en una cooperativa de argán por el camino y te deja varias horas libres en la medina y en el puerto, 30 € por persona. Mira nuestra [guía de Esauira](/es/blog/essaouira-complete-travel-guide).
+
+**Opción 2: quedarse en la ciudad.** Ve al jardín Majorelle a primera hora, antes que los grupos. La entrada de adulto cuesta 170 dírhams y las entradas se venden **solo online**, en la web oficial de venta del jardín, así que cómpralas antes de ir. El museo Yves Saint Laurent de al lado tiene su propia entrada y cierra los miércoles. Dedica el resto del día a lo que te quedó por ver en la medina, o simplemente a los zocos sin plan: la [guía del regateo](/es/blog/haggling-in-moroccan-souks-guide) te ayudará.
+
+## Si tienes más de tres días
+
+El Sáhara es lo único que no se puede hacer desde Marrakech en un día. Las grandes dunas del Erg Chebbi en Merzouga están a unos 560 km, y por eso el viaje más corto dura tres días: nuestro [tour de 3 días](/es/tours/tour-desierto-3-dias-marrakech) cruza el Atlas, para en Aït Ben Haddou y pasa una noche en un campamento entre las dunas. Si te preocupa el largo viaje de vuelta, [3 o 4 días](/es/blog/tour-sahara-3-o-4-dias-marrakech) compara los dos. Con solo dos días, Zagora es la noche en el desierto realista, con nuestro [tour privado de 2 días a Zagora](/es/tours/tour-zagora-2-dias-marrakech) o [el compartido](/es/tours/desierto-zagora-2-dias-compartido).
+
+Para un viaje más largo por el país, mira [cuántos días necesitas en Marruecos](/es/blog/how-many-days-do-you-need-in-morocco).
+
+## Consejos prácticos
+
+- **Alójate en la medina o cerca.** Todo el plan empieza allí, y el riad forma parte de la experiencia: mira [qué es un riad](/es/blog/what-is-a-riad).
+- **Reserva las citas fijas y deja el resto libre.** El paseo por la medina, la mañana gastronómica y la tarde en Agafay tienen horario fijo; las tardes salen mejor sin plan.
+- **Lleva efectivo.** Los zocos y los puestos de comida solo aceptan dírhams.
+- **Vístete para la medina.** Hombros y rodillas cubiertos es cómodo y respetuoso, y un buen calzado importa más que nada en las callejuelas irregulares.
+
+👉 **[Mira nuestras excursiones de un día desde Marrakech](/es/tours?cat=day-tours)**, o mándanos tus fechas y te organizamos los tres días.
+`,
+  },
+  {
+    slug: "money-in-morocco-cash-atms-tipping",
+    localizedSlug: "dinero-en-marruecos-efectivo-propinas",
+    author: MET_TEAM,
+    title: "El dinero en Marruecos: efectivo, cajeros y propinas",
+    excerpt: "El dírham no sale del país, los zocos funcionan en efectivo y la propina es siempre opcional: cómo llevar, sacar, gastar y volver a cambiar el dinero en Marruecos, según las normas de 2026.",
+    heroImage: "/gallery/tours-marrakech-medina-cultural-tour.jpg",
+    category: "tips",
+    region: "root",
+    readTime: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    tags: ["dinero en Marruecos", "dírham marroquí", "propinas en Marruecos", "cajeros en Marruecos", "consejos viaje Marruecos"],
+    seoTitle: "Dinero en Marruecos: efectivo y propinas",
+    seoDescription: "El dírham no sale de Marruecos, los zocos pagan en efectivo y la propina es opcional: cómo llevar, sacar, gastar y volver a cambiar el dinero, normas 2026.",
+    relatedTours: ["marrakech-medina-cultural-tour", "marrakech-food-market-tour", "sahara-3day-marrakech", "agafay-desert-sunset"],
+    faq: [
+      { q: "¿Se puede entrar en Marruecos con dírhams?", a: "Solo hasta 2.000 dírhams en billetes. Está prohibido entrar o sacar dírhams de Marruecos, con esa única excepción para los viajeros (Office des Changes, Instrucción general 2026). Lleve euros, libras, dólares o una tarjeta, y consiga los dírhams al llegar." },
+      { q: "¿Hay que declarar el efectivo al llegar a Marruecos?", a: "Solo si las divisas que lleva valen 100.000 dírhams o más: entonces la declaración en aduana es obligatoria. Por debajo es opcional, pero es la prueba que necesita para volver a sacar las divisas que no use, y para los no residentes vale seis meses." },
+      { q: "¿Se puede pagar el tour con tarjeta?", a: "No. El depósito, normalmente el 20 % del precio del tour, se paga por PayPal o transferencia bancaria, y el resto se paga a la llegada en efectivo (euros o dírhams) o por transferencia antes de la fecha. No aceptamos pagos con tarjeta." },
+      { q: "¿Cuánta propina hay que dar al guía o al conductor?", a: "Lo que le parezca justo, o nada. Las propinas no están incluidas en nuestros precios, y darlas al guía, al conductor, al equipo del campamento o a los arrieros es siempre decisión suya. Cualquier cantidad está bien." },
+      { q: "¿Se pueden volver a cambiar los dírhams que sobran?", a: "Sí, en Marruecos, antes de volar. Los bancos y las casas de cambio los recompran si presenta sus recibos de cambio. Sin la declaración de aduana de la llegada, el límite es de 20.000 dírhams, con un recibo a su nombre de menos de seis meses. En las ventanillas de cambio de aeropuertos y puertos, con la tarjeta de embarque, el límite es de 2.000 dírhams por pasaporte." },
+    ],
+    content: `
+En Marruecos se paga en efectivo. El dírham no se compra ni se vende fuera del país, los datáfonos escasean en los zocos y unas cuantas normas prácticas deciden qué puede llevar y volver a cambiar. Organizarse un poco le ahorra comisiones, colas y un bolsillo de billetes sobrantes en el aeropuerto.
+
+Las normas que siguen son de la Office des Changes, la autoridad marroquí de cambio de divisas, en su [Instrucción general de operaciones de cambio de 2026](https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf) (en francés). Lo que añadimos es cómo funciona el dinero en nuestros viajes.
+
+## El dírham se queda en Marruecos
+
+El dírham marroquí (MAD, a menudo escrito DH) es una moneda no convertible. Está prohibido entrar o sacar dírhams del país, con una excepción para los viajeros: puede llevar hasta **2.000 dírhams** en billetes, para tener con qué pagar el primer taxi a la vuelta.
+
+En la práctica, llega con euros, libras, dólares o una tarjeta, y consigue los dírhams una vez allí.
+
+## Llevar divisas
+
+Los billetes extranjeros entran libremente en Marruecos. Si el efectivo que lleva vale **100.000 dírhams o más**, debe declararlo en la aduana al llegar. Por debajo, la declaración es opcional, pero pídala si lleva una cantidad grande que quizá vuelva a sacar: es la prueba que necesita para salir con las divisas que no use, y para los no residentes vale seis meses.
+
+## Conseguir dírhams
+
+- **Los cajeros** son lo más sencillo. Su banco puede cobrar por sacar dinero en el extranjero y el cajero puede añadir su propia comisión: infórmese antes de viajar y saque cantidades mayores menos veces en lugar de un poco cada día.
+- **Elija dírhams.** Algunos cajeros y datáfonos ofrecen cobrarle en euros en vez de en dírhams. Diga que no: la conversión se hace entonces al tipo que elige el banco del aparato, a menudo peor que el de su propio banco.
+- **Los bancos y las casas de cambio** cambian billetes extranjeros por dírhams. Guarde el recibo que le dan, el *bordereau de change*: lo necesitará para volver a cambiar los dírhams al marcharse.
+
+## Dónde hace falta efectivo
+
+Riads, hoteles y algunos restaurantes aceptan tarjeta, pero los zocos, los taxis, los cafés pequeños, los puestos de comida de Yamaa el Fna y las tiendas de los pueblos funcionan en efectivo. Lleve encima los dírhams del día en billetes pequeños y deje el resto en la habitación. Si piensa comprar en los zocos, lea antes nuestra [guía del regateo](/es/blog/haggling-in-moroccan-souks-guide).
+
+## Pagar su viaje con nosotros
+
+- **Depósito.** Un depósito, normalmente el 20 % del precio del tour, reserva sus fechas. Se paga por PayPal o transferencia bancaria; le enviamos los datos cuando confirma la reserva.
+- **Resto.** El resto se paga a la llegada, al empezar el tour, en efectivo (euros o dírhams), o por transferencia antes de la fecha.
+- **Sin tarjeta.** No aceptamos pagos con tarjeta, así que prevea el efectivo del resto antes del primer día.
+- **Comisiones.** Las comisiones de PayPal o del banco por enviar un pago corren a cargo de quien lo envía. Todas las normas están en nuestras [condiciones](/es/terms).
+
+## Las propinas
+
+Las propinas no están incluidas en ninguno de nuestros precios. Darlas al guía, al conductor, al equipo del campamento o a los arrieros de un trekking es siempre decisión suya, y cualquier cantidad está bien. Una propina es un agradecimiento, nunca parte del precio.
+
+## Volver a cambiar los dírhams al marcharse
+
+Los dírhams que le sobren solo se pueden volver a cambiar en Marruecos, en un banco o una casa de cambio, así que hágalo antes de volar:
+
+- **Con la declaración de aduana** de la llegada y sus recibos de cambio, el banco le recompra lo que cambió.
+- **Sin declaración**, puede volver a cambiar hasta 20.000 dírhams, presentando un recibo de cambio a su nombre de menos de seis meses.
+- **En las ventanillas de cambio de aeropuertos y puertos**, con la tarjeta de embarque, el límite es de 2.000 dírhams por pasaporte.
+
+Las normas hablan de recibos de cambio, que dan los bancos y las casas de cambio. Si la mayoría de sus dírhams sale de cajeros, lo más sencillo es sacar solo lo que vaya a gastar.
+
+## Lista rápida
+
+- Una tarjeta que funcione en el extranjero y algunos euros, libras o dólares en efectivo.
+- Los dírhams se consiguen al llegar: no puede entrar con más de 2.000.
+- Declare al llegar las divisas que valgan 100.000 dírhams o más.
+- Elija dírhams siempre que un aparato le ofrezca convertir.
+- Guarde los recibos de cambio.
+- Lleve el resto del viaje en efectivo (euros o dírhams), o páguelo por transferencia antes de venir.
+- Deje propina si lo desea, o no la deje.
+
+👉 **[Vea nuestros tours](/es/tours)**, o [pregúntenos](/es/contact) lo que quiera sobre los pagos antes de reservar.
 `,
   },
 ];

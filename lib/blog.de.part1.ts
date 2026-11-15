@@ -1020,7 +1020,7 @@ Wenn Agafay Sie nach mehr verlangen lässt, geht der Hohe Atlas noch weiter. Ouk
     category: "culture",
     readTime: 9,
     publishedAt: "2025-11-10",
-    updatedAt: "2026-11-01",
+    updatedAt: "2026-11-15",
     tags: ["Marrakesch", "Medina", "Djemaa el-Fna", "Souks", "Marokko Stadtführer"],
     seoTitle: "Medina Marrakesch Leitfaden 2026",
     seoDescription:
@@ -1062,7 +1062,7 @@ Die Souks (Märkte) belegen die nördliche Hälfte der Medina, etwa zwischen Dje
 
 ## Die Paläste
 
-**Bahia-Palast** (kostenlos, täglich geöffnet): Ein Wesirspalast aus dem 19. Jahrhundert mit 150 Zimmern, erbaut, um der schönste in ganz Marokko zu sein. Die Handwerkskunst – geschnitzte Zedernholzdecken, Zellij-Fliesen, bemalter Stuck – ist außergewöhnlich. Planen Sie 45 Minuten ein.
+**Bahia-Palast** (100 Dirham für ausländische Erwachsene, 50 für Kinder von 7 bis 13 Jahren; Tickets auch online auf der Website des Kulturministeriums): Ein Wesirspalast aus dem 19. Jahrhundert mit 150 Zimmern, erbaut, um der schönste in ganz Marokko zu sein. Die Handwerkskunst – geschnitzte Zedernholzdecken, Zellij-Fliesen, bemalter Stuck – ist außergewöhnlich. Planen Sie 45 Minuten ein.
 
 **El-Badi-Palast** (Ruinen, 100 MAD Eintritt): Der saadische Palast aus dem 16. Jahrhundert, ab 1578 von Sultan Ahmad al-Mansur in Auftrag gegeben und mit Marmor, Gold und Materialien errichtet, die aus so fernen Orten wie Italien und Mali importiert wurden, galt einst als der prächtigste der islamischen Welt. Sein Niedergang kam ein Jahrhundert später durch den alawitischen Sultan Moulay Ismail, der ihn systematisch ausschlachten ließ – Marmor, Kacheln, Zedernholz, ganze Zierpaneele –, um seine neue Hauptstadt in Meknès zu errichten. Historische Berichte gehen darüber auseinander, wann genau dies geschah: Manche Quellen datieren die Anordnung auf 1696, andere bis 1707, doch sie stimmen darin überein, dass der Abbau selbst ein langsamer, gründlicher Vorgang war, der Berichten zufolge etwa ein Jahrzehnt dauerte. Man geht davon aus, dass saadisches Material aus diesen Mauern nicht nur in Meknès, sondern sogar bis nach Fès gelangte, in die Dekoration der Zawiya von Moulay Idris II. Was heute in Marrakesch übrig ist, sind stimmungsvolle Ruinen – weite leere Innenhöfe, versunkene Gärten und Storchennester auf jeder Mauer. Für die Atmosphäre besser als Bahia.
 
@@ -1095,6 +1095,8 @@ Wenn Sie wegen des Essens kommen, verbringt unsere [kulinarische Tour](/de/tours
 - **Ein Führer lohnt sich für den ersten halben Tag.** Nicht, weil Sie sich nicht allein zurechtfinden könnten, sondern weil Kontext das Gesehene verwandelt. Ein guter Führer weiß, an welche Türen man klopft, wen man grüßt und was die Gebäude bedeuten. Buchen Sie über Ihr Riad, statt Ansprachen auf der Straße anzunehmen.
 - **Die Mauern sind rosa wegen des Eisenoxids im lokalen Kalkstein.** Die gesamte Medina ist aus demselben Material erbaut. Das Gesetz verlangt, dass alle Neubauten innerhalb der Wehrmauern den traditionellen Rosaton beibehalten.
 - **Tragen Sie Kleingeld bei sich.** Die meisten Transaktionen liegen bei 5–50 MAD. 200-MAD-Scheine sorgen an kleinen Ständen für Probleme.
+
+Planen Sie mehrere Tage in der Stadt? Unser [3-Tage-Plan für Marrakesch](/de/blog/3-tage-in-marrakesch) verbindet die Medina, einen kulinarischen Vormittag, einen Abend in der Agafay-Wüste und einen Tag außerhalb der Stadt.
     `,
   },
   {

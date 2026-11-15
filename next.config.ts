@@ -67,17 +67,11 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
-  experimental: {
-    // CSS in a <style> tag instead of <link> files (2026-11-10). Clarity's
-    // real-visitor LCP was 5.6 s (p75, 8-10 Nov) while the lab said 1.2-3.5 s:
-    // the hero image is 21 KB AVIF and loads first, but the page then waited
-    // ~1 s to paint it, ~0.4 s of that on two render-blocking stylesheets.
-    // Each extra request costs most on slow mobile networks and in-app
-    // browsers, which is where most visitors arrive from (Google, ChatGPT).
-    // Next's own guidance: worth it for Tailwind sites with mostly first-time
-    // visitors. CSP already allows inline styles (style-src 'unsafe-inline').
-    inlineCss: true,
-  },
+  // No experimental.inlineCss. Tried 2026-11-10 (ee69447), removed 2026-11-15:
+  // it gave no measurable LCP gain in the lab, but put ~170 KB of CSS in front
+  // of every article (the imperial cities guide's text began 209 KB into a
+  // 756 KB page) and copied it again into the RSC payload. Crawlers and AI
+  // fetchers that read only the start of a page saw styling, not content.
   images: {
     // Serve modern formats first — AVIF then WebP — falling back to the
     // original for old browsers. Typically 30–50% smaller than JPEG at the

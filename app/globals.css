@@ -256,11 +256,10 @@ section[aria-live] { padding-block: 0; }
 [dir="rtl"] :is(.eyebrow, [class*="tracking-"]) { letter-spacing: 0 !important; }
 [dir="rtl"] :is(.eyebrow, .micro-text) { font-size: 0.8125rem; }
 
-/* Custom scrollbar — indigo on plaster */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #C9BDA9; border-radius: 999px; transition: background 0.2s; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-indigo); }
+/* Custom scrollbar — plaster thumb on a clear track. Standard properties
+   (all current browsers), not the old ::-webkit-scrollbar pseudo-elements
+   (Modern Web Guidance, customize-scrollbar-color-and-thickness, 2026-11-15). */
+html { scrollbar-color: #C9BDA9 transparent; scrollbar-width: thin; }
 
 /* ============================================================
    MOROCCAN TEXTURES — tadelakt plaster grain (structural, subtle)

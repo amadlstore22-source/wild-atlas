@@ -743,10 +743,10 @@ export default function ToursMap({ lang, dict, tours, placeText, categoryText }:
         .leaflet-control-zoom a { background: rgba(20,30,20,0.85) !important; color: #fff !important; border-color: rgba(255,255,255,0.12) !important; }
         .leaflet-control-zoom a:hover { background: rgba(40,55,40,0.95) !important; }
         .map-pin:hover .map-pin-label { visibility: visible !important; z-index: 2; }
-        .dest-scroll::-webkit-scrollbar { display: none; }
+        .dest-scroll { scrollbar-width: none; }
         .dest-row { background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.05); width: 100%; text-align: left; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 11px 16px; }
         .dest-row:hover { background: rgba(255,255,255,0.05) !important; }
-        .mob-chips::-webkit-scrollbar { display: none; }
+        .mob-chips { scrollbar-width: none; }
       `}</style>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

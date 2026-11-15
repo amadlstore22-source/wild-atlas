@@ -60,7 +60,7 @@ export default function Hero({ lang, dict, picks = [] }: Props) {
             <Image
               src={SITE.heroPoster}
               alt="Terraced valley and stone villages of Imlil below the snow-capped High Atlas peaks, Morocco"
-              fill priority sizes="100vw"
+              fill preload fetchPriority="high" loading="eager" sizes="100vw"
               className="object-cover object-center"
             />
           </div>

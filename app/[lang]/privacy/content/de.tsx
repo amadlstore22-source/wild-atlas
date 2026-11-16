@@ -166,11 +166,6 @@ export default function privacyDe({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>WhatsApp / Meta</strong> – wenn Sie uns über WhatsApp kontaktieren, unterliegen Ihre
                 Nachrichten den Datenschutzbestimmungen und Nutzungsbedingungen von Meta.
               </li>
-              <li>
-                <strong>RSS-Anbieter Dritter</strong> – Artikel auf unserer News-Seite werden serverseitig aus
-                öffentlichen RSS-Feeds abgerufen (The Guardian, BBC, NYT Travel und andere). Dabei werden keine
-                Informationen an diese Anbieter übermittelt, die Sie identifizieren könnten.
-              </li>
               <li><strong>Google (Gmail und Google Sheets)</strong> – Anfragen gehen in das Gmail-Postfach unseres Teams, und jede Anfrage und Buchung (Name, E-Mail, Tour, Daten, Gruppengröße, Nachricht und wie Sie von uns erfahren haben) wird in einer privaten Google-Sheets-Tabelle erfasst, auf die nur unser Team zugreifen kann. Siehe die <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Google</a>.</li>
               <li><strong>Banken</strong> – wenn Sie per Überweisung bezahlen, verarbeiten Ihre und unsere Bank die Zahlung einschließlich Ihres Namens und Ihrer Kontodaten.</li>
             </ul>

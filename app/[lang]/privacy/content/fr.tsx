@@ -169,11 +169,6 @@ export default function privacyFr({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>WhatsApp / Meta</strong> — si vous nous contactez par WhatsApp, vos messages sont soumis à la
                 politique de confidentialité et aux conditions de Meta.
               </li>
-              <li>
-                <strong>Éditeurs de flux RSS tiers</strong> — les articles de notre page Actualités sont récupérés
-                côté serveur depuis des flux RSS publics (The Guardian, BBC, NYT Travel et d’autres). Aucune
-                information permettant de vous identifier n’est transmise à ces éditeurs.
-              </li>
               <li><strong>Google (Gmail et Google Sheets)</strong> — les demandes arrivent dans la boîte de réception de notre équipe sur Gmail, et chaque demande et réservation (nom, e-mail, circuit, dates, taille du groupe, message et comment vous nous avez connus) est enregistrée dans un tableur Google Sheets privé, accessible à notre seule équipe. Voir la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">politique de confidentialité de Google</a>.</li>
               <li><strong>Banques</strong> — si vous payez par virement, votre banque et la nôtre traitent le paiement, y compris votre nom et vos coordonnées bancaires.</li>
             </ul>

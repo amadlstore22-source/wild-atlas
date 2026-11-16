@@ -158,10 +158,6 @@ export default function privacyAr({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>واتساب / Meta</strong> — إذا تواصلت معنا عبر واتساب، تخضع رسائلك لسياسة الخصوصية والشروط
                 الخاصة بشركة Meta.
               </li>
-              <li>
-                <strong>ناشرو خلاصات RSS من أطراف ثالثة</strong> — تُجلب مقالات صفحة الأخبار من جهة الخادم من خلاصات
-                RSS عامة (The Guardian وBBC وNYT Travel وغيرها). ولا تُرسل إلى هؤلاء الناشرين أي معلومات تكشف هويتك.
-              </li>
               <li><strong>Google (Gmail وGoogle Sheets)</strong> — تصل الطلبات إلى صندوق بريد فريقنا على Gmail، ويُسجَّل كل طلب وحجز (الاسم، البريد الإلكتروني، الجولة، التواريخ، عدد الأشخاص، الرسالة، وكيف عرفت عنا) في جدول Google Sheets خاص لا يطّلع عليه إلا فريقنا. راجع <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">سياسة خصوصية Google</a>.</li>
               <li><strong>البنوك</strong> — إذا دفعت بتحويل بنكي، يعالج بنكك وبنكنا الدفعة، بما في ذلك اسمك وبيانات حسابك.</li>
             </ul>

@@ -38,10 +38,6 @@ export default function termsEs({ mail }: LegalCtx): LegalDoc {
               medinas y aventuras de varios días en plena naturaleza. Todos los detalles —qué incluye y qué no, la
               forma física necesaria y la duración— figuran en la página de cada ruta.
             </p>
-            <p>
-              Las noticias y artículos de viaje de nuestro sitio se recopilan de fuentes RSS de terceros solo con fines
-              informativos. No somos responsables de la exactitud, actualidad o contenido de esas fuentes externas.
-            </p>
           </>
         ),
       },
@@ -161,7 +157,6 @@ export default function termsEs({ mail }: LegalCtx): LegalDoc {
               <li>La pérdida o el daño de pertenencias personales durante una ruta</li>
               <li>Los actos u omisiones de proveedores externos (alojamiento, transporte) cuando actuamos como intermediarios y no como prestadores principales</li>
               <li>Los gastos en que incurras como consecuencia de la cancelación o modificación de una ruta (vuelos, hoteles, tasas de visado, etc.)</li>
-              <li>La exactitud de las noticias o contenidos de viaje procedentes de fuentes RSS de terceros</li>
             </ul>
             <p>
               Nuestra responsabilidad máxima frente a ti queda limitada, en cualquier circunstancia, al precio total
@@ -198,8 +193,7 @@ export default function termsEs({ mail }: LegalCtx): LegalDoc {
             Los textos, el diseño y el código de este sitio son propiedad de Marrakech Eco Tours. No puedes
             reproducirlos, distribuirlos ni utilizarlos sin nuestro permiso expreso por escrito. Algunas fotografías
             se usan con licencia de bancos de imágenes y siguen siendo propiedad de sus fotógrafos según esas
-            licencias. Los artículos de la página de Noticias proceden de fuentes de terceros y siguen siendo
-            propiedad de sus editores.
+            licencias.
           </p>
         ),
       },

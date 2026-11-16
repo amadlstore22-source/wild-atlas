@@ -38,11 +38,6 @@ export default function termsDe({ mail }: LegalCtx): LegalDoc {
               mehrtägige Abenteuer in der Natur. Alle Einzelheiten – Leistungen, Ausschlüsse, Anforderungen an die
               Fitness und Dauer – sind auf der Seite der jeweiligen Tour angegeben.
             </p>
-            <p>
-              Nachrichten und Reiseartikel auf unserer Website stammen aus RSS-Feeds Dritter und dienen nur der
-              Information. Für die Richtigkeit, Aktualität oder den Inhalt externer Quellen übernehmen wir keine
-              Verantwortung.
-            </p>
           </>
         ),
       },
@@ -163,7 +158,6 @@ export default function termsDe({ mail }: LegalCtx): LegalDoc {
               <li>Verlust oder Beschädigung persönlicher Gegenstände während einer Tour</li>
               <li>Handlungen oder Unterlassungen externer Anbieter (Unterkunft, Transport), soweit wir als Vermittler und nicht als Hauptleistungserbringer auftreten</li>
               <li>Kosten, die Ihnen infolge der Absage oder Änderung einer Tour entstehen (Flüge, Hotels, Visagebühren usw.)</li>
-              <li>die Richtigkeit von Nachrichten oder Reiseinhalten aus RSS-Feeds Dritter</li>
             </ul>
             <p>
               Unsere Haftung Ihnen gegenüber ist in jedem Fall auf den für Ihre Tour gezahlten Gesamtpreis begrenzt.
@@ -200,7 +194,6 @@ export default function termsDe({ mail }: LegalCtx): LegalDoc {
             Texte, Design und Code dieser Website sind Eigentum von Marrakech Eco Tours. Sie dürfen sie ohne unsere
             ausdrückliche schriftliche Genehmigung nicht vervielfältigen, verbreiten oder verwenden. Einige Fotos sind
             von Bilddatenbanken lizenziert und bleiben nach diesen Lizenzen Eigentum der jeweiligen Fotografen.
-            Artikel auf der News-Seite stammen aus Feeds Dritter und bleiben Eigentum ihrer Herausgeber.
           </p>
         ),
       },

@@ -38,10 +38,6 @@ export default function termsEn({ mail }: LegalCtx): LegalDoc {
               wilderness adventures. Full details &mdash; inclusions, exclusions, fitness requirements, and duration
               &mdash; are listed on each individual tour page.
             </p>
-            <p>
-              News and travel articles on our website are aggregated from third-party RSS feeds for information only.
-              We are not responsible for the accuracy, timeliness, or content of external sources.
-            </p>
           </>
         ),
       },
@@ -160,7 +156,6 @@ export default function termsEn({ mail }: LegalCtx): LegalDoc {
               <li>Loss of or damage to personal belongings during a tour</li>
               <li>The acts or omissions of third-party suppliers (accommodation, transport) where we act as agent rather than principal</li>
               <li>Any costs you incur as a result of tour cancellation or modification (flights, hotels, visa fees, etc.)</li>
-              <li>The accuracy of news or travel content sourced from third-party RSS feeds</li>
             </ul>
             <p>
               Our maximum liability to you in any circumstance is limited to the total price paid for your tour.
@@ -195,8 +190,7 @@ export default function termsEn({ mail }: LegalCtx): LegalDoc {
             The text, design, and code of this website are the property of Marrakech Eco Tours. You may not
             reproduce, distribute, or use them without our express written permission. Some photography is licensed
             from third-party stock libraries and remains the property of the respective photographers under those
-            licences. News articles on the News page are sourced from third-party feeds and remain the property of
-            their publishers.
+            licences.
           </p>
         ),
       },

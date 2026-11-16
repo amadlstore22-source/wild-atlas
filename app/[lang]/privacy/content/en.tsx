@@ -162,11 +162,6 @@ export default function privacyEn({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>WhatsApp / Meta</strong> &mdash; if you contact us via WhatsApp, your messages are subject to
                 Meta&rsquo;s own privacy policy and terms.
               </li>
-              <li>
-                <strong>Third-party RSS publishers</strong> &mdash; news articles on our News page are fetched
-                server-side from public RSS feeds (The Guardian, BBC, NYT Travel, and others). No user-identifying
-                information is sent to these publishers.
-              </li>
               <li><strong>Google (Gmail &amp; Google Sheets)</strong> &mdash; enquiries reach our team inbox on Gmail, and each enquiry and booking (name, email, tour, dates, group size, message, and how you heard about us) is recorded in a private Google Sheet that only our team can open. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>.</li>
               <li><strong>Banks</strong> &mdash; if you pay by bank transfer, your bank and ours process the payment, including your name and account details.</li>
             </ul>

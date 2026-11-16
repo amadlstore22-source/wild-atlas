@@ -166,11 +166,6 @@ export default function privacyEs({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>WhatsApp / Meta</strong>: si nos contactas por WhatsApp, tus mensajes están sujetos a la
                 política de privacidad y las condiciones de Meta.
               </li>
-              <li>
-                <strong>Editores de RSS de terceros</strong>: los artículos de nuestra página de Noticias se obtienen
-                en el servidor a partir de fuentes RSS públicas (The Guardian, BBC, NYT Travel y otras). No se envía a
-                estos editores ninguna información que te identifique.
-              </li>
               <li><strong>Google (Gmail y Google Sheets)</strong>: las consultas llegan a la bandeja de entrada de nuestro equipo en Gmail, y cada consulta y reserva (nombre, correo, ruta, fechas, tamaño del grupo, mensaje y cómo nos conociste) se registra en una hoja de cálculo privada de Google Sheets a la que solo accede nuestro equipo. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad de Google</a>.</li>
               <li><strong>Bancos</strong>: si pagas por transferencia, tu banco y el nuestro procesan el pago, incluidos tu nombre y tus datos bancarios.</li>
             </ul>

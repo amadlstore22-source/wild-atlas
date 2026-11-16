@@ -485,16 +485,16 @@ export const TOURS: Tour[] = [
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa y francesa",
-      "2 noches de alojamiento en riad",
-      "Desayuno diario",
+      "2 noches en riad u hotel, según disponibilidad",
+      "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
-    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Fez"],
+    excludes: ["Almuerzos", "Propinas", "Transporte de vuelta desde Fez"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈11 h",
         distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -505,13 +505,13 @@ export const TOURS: Tour[] = [
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈4 h",
         distance: "≈220 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
-          "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad.",
+          "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad u hotel.",
       },
       {
         day: 3,
@@ -524,9 +524,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Termina este viaje en Fez en lugar de volver a Marrakech?", a: "Sí. Es un trayecto de ida de Marrakech a Fez en tres días, por lo que el transporte de vuelta desde Fez no está incluido: organiza tu viaje posterior desde allí." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, dos noches de alojamiento en riad, desayuno diario y todos los traslados y peajes. Los almuerzos, las cenas y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, dos noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Es exigente?", a: "Fácil. La distancia se cubre en 4x4 privado con paradas por el camino, así que el esfuerzo se limita a caminatas cortas en los lugares de interés, no a trekking." },
-      { q: "¿Qué tipo de alojamiento es?", a: "Dos noches en riads (casas de huéspedes tradicionales con patio) con desayuno cada mañana." },
+      { q: "¿Qué tipo de alojamiento es?", a: "Dos noches en riad (una casa de huéspedes tradicional con patio) u hotel, según disponibilidad, con cena cada noche y desayuno cada mañana." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Tour de 3 Días de Marrakech a Fez",
@@ -667,7 +667,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Excursión de un Día al Valle del Paraíso",
-    seoDescription: "Cañón de palmeras escondido con piscinas naturales a 35 km de Agadir. Caminata guiada por el cañón, cascada de Immouzer y almuerzo bereber incluido. Desde 75 €.",
+    seoDescription: "Cañón de palmeras con piscinas naturales a 35 km de Agadir. Caminata guiada, cascada de Immouzer y almuerzo bereber incluido. Desde 22 €/pers. (6+).",
     featured: true,
   },
   {
@@ -1176,7 +1176,7 @@ export const TOURS: Tour[] = [
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa y francesa",
-      "3 noches de alojamiento en riad",
+      "3 noches en riad u hotel, según disponibilidad",
       "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
@@ -1185,18 +1185,18 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈7 h",
         distance: "≈480 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Marrakech → Ifrane → Fez",
         description:
-          "Salida de Marrakech a las 7:00. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad.",
+          "Salida de Marrakech a las 7:00. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad u hotel.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -1205,7 +1205,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈4 h",
         distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
@@ -1224,9 +1224,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Termina este tour en Chefchauen?", a: "Sí. Es un trayecto de ida de Marrakech a Chefchauen en cuatro días, por lo que el transporte de vuelta desde Chefchauen no está incluido: organiza tu viaje posterior." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches de alojamiento en riad, desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Es exigente el viaje?", a: "Fácil. Es un viaje por carretera en 4x4 privado con paradas turísticas, no un trek." },
-      { q: "¿Dónde se duerme?", a: "Tres noches en riads, con cena cada noche y desayuno cada mañana." },
+      { q: "¿Dónde se duerme?", a: "Tres noches en riad u hotel, según disponibilidad, con cena cada noche y desayuno cada mañana." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Tour de 4 Días de Marrakech a Chefchaouen",
@@ -1269,11 +1269,10 @@ export const TOURS: Tour[] = [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa, francesa y española",
       "4 noches en riad u hotel, según disponibilidad",
-      "Desayuno diario",
-      "Cena los días 1, 2 y 4",
+      "Desayuno y cena diarios",
       "Todos los traslados, peajes y entradas",
     ],
-    excludes: ["Almuerzos", "Cena en Fez el día 3", "Propinas"],
+    excludes: ["Almuerzos", "Propinas"],
     itinerary: [
       {
         day: 1,
@@ -1299,7 +1298,7 @@ export const TOURS: Tour[] = [
       },
       {
         day: 3,
-        meals: "B",
+        meals: "B,D",
         stay: "Riad u hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Mequinez → Día Completo en Fez",
@@ -1330,7 +1329,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Qué ciudades cubre?", a: "Las ciudades imperiales de Marruecos en cinco días desde Marrakech, en 4x4 privado, con todos los traslados, peajes y entradas incluidos para no pagar en cada monumento." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa/española, cuatro noches en riad u hotel (según disponibilidad), desayuno diario, cena los días 1, 2 y 4, y todos los traslados, peajes y entradas. Los almuerzos, la cena en Fez del día 3 y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa/española, cuatro noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados, peajes y entradas. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Se camina mucho?", a: "Está clasificado como fácil, pero cada día implica bastante caminata por medinas y monumentos, así que el calzado cómodo importa." },
       { q: "¿Es privado?", a: "Sí, es un tour privado para tu grupo de 2 a 12 personas con tu propio guía y vehículo." },
     ],
@@ -2040,27 +2039,27 @@ export const TOURS: Tour[] = [
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa y francesa",
-      "3 noches de alojamiento en riad",
-      "Desayuno diario",
+      "3 noches en riad u hotel, según disponibilidad",
+      "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
-    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Fez"],
+    excludes: ["Almuerzos", "Propinas", "Transporte de vuelta desde Fez"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
-          "Salida de Agadir por la mañana. Trayecto hacia el norte por la autopista que cruza el oeste del Alto Atlas hasta Marrakech (3h). Tarde libre o paseo opcional por la medina. Noche en un riad de Marrakech.",
+          "Salida de Agadir por la mañana. Trayecto hacia el norte por la autopista que cruza el oeste del Alto Atlas hasta Marrakech (3h). Tarde libre o paseo opcional por la medina. Noche en un riad u hotel de Marrakech.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈11 h",
         distance: "≈640 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -2071,13 +2070,13 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈4 h",
         distance: "≈220 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Midelt → Ifrane → Bosque de Cedros de Azrou → Fez",
         description:
-          "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad.",
+          "Trayecto por el Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería salvajes. Llegada a Fez por la tarde. Instalación en el riad u hotel.",
       },
       {
         day: 4,
@@ -2090,13 +2089,13 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Termina este viaje en Fez?", a: "Sí: es un trayecto de ida de Agadir a Fez en cuatro días, por lo que el transporte de vuelta desde Fez no está incluido." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches de alojamiento en riad, desayuno diario y todos los traslados y peajes. Los almuerzos, las cenas y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado durante todo el viaje, un guía de habla inglesa/francesa, tres noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Es exigente?", a: "Fácil: un viaje por carretera en 4x4 privado con paradas turísticas, no trekking." },
-      { q: "¿Dónde se duerme?", a: "Tres noches en riads con desayuno cada mañana." },
+      { q: "¿Dónde se duerme?", a: "Tres noches en riad u hotel, según disponibilidad, con cena cada noche y desayuno cada mañana." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — tu hotel o riad" },
     seoTitle: "Tour de 4 Días de Agadir a Fez — Alto Atlas",
-    seoDescription: "Viaja de Agadir a Fez pasando por Marrakech, Tizi n'Tichka y los bosques de cedros del Atlas Medio. Tour privado en 4x4 de 4 días con alojamiento en riad.",
+    seoDescription: "Viaja de Agadir a Fez pasando por Marrakech, Tizi n'Tichka y los bosques de cedros del Atlas Medio. Tour privado en 4x4 de 4 días, noches en riad u hotel.",
     featured: false,
   },
   {
@@ -2134,38 +2133,38 @@ export const TOURS: Tour[] = [
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa y francesa",
-      "4 noches de alojamiento en riad",
-      "Desayuno diario",
+      "4 noches en riad u hotel, según disponibilidad",
+      "Desayuno y cena diarios",
       "Todos los traslados y peajes",
     ],
-    excludes: ["Almuerzos y cenas", "Propinas", "Transporte de vuelta desde Chefchaouen"],
+    excludes: ["Almuerzos", "Propinas", "Transporte de vuelta desde Chefchaouen"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
-          "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Tarde libre. Noche en un riad de Marrakech.",
+          "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Tarde libre. Noche en un riad u hotel de Marrakech.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈8 h",
         distance: "≈480 km",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Marrakech → Ifrane → Fez",
         description:
-          "Salida temprana de Marrakech. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad.",
+          "Salida temprana de Marrakech. Cruce del Atlas Medio. Parada en Ifrane y en el bosque de cedros de Azrou para ver monos de Berbería. Llegada a Fez por la tarde. Instalación en el riad u hotel.",
       },
       {
         day: 3,
-        meals: "B",
-        stay: "Hotel",
+        meals: "B,D",
+        stay: "Riad u hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Día Completo en la Medina de Fez",
         description:
@@ -2174,7 +2173,7 @@ export const TOURS: Tour[] = [
       {
         day: 4,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈4 h",
         distance: "≈200 km",
         stop: { name: "Chefchaouen", lat: 35.169, lng: -5.263 },
@@ -2193,9 +2192,9 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Termina este viaje en Chefchauen?", a: "Sí: un trayecto de ida de Agadir a la ciudad azul en cinco días, por lo que el transporte de vuelta desde Chefchauen no está incluido." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa, cuatro noches de alojamiento en riad, desayuno diario y todos los traslados y peajes. Los almuerzos, las cenas y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa, cuatro noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados y peajes. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Es exigente el viaje?", a: "Fácil: es un viaje por carretera privado con paradas, no un trek." },
-      { q: "¿Dónde se duerme?", a: "Cuatro noches en riads con desayuno cada mañana." },
+      { q: "¿Dónde se duerme?", a: "Cuatro noches en riad u hotel, según disponibilidad, con cena cada noche y desayuno cada mañana." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — tu hotel o riad" },
     seoTitle: "Tour de 5 Días de Agadir a Chefchaouen",
@@ -2237,27 +2236,27 @@ export const TOURS: Tour[] = [
     includes: [
       "Transporte privado en 4x4 durante todo el recorrido",
       "Guía de habla inglesa, francesa y española",
-      "5 noches de alojamiento en riad",
-      "Desayuno diario",
+      "5 noches en riad u hotel, según disponibilidad",
+      "Desayuno y cena diarios",
       "Todos los traslados, peajes y entradas",
     ],
-    excludes: ["Almuerzos y cenas", "Propinas"],
+    excludes: ["Almuerzos", "Propinas"],
     itinerary: [
       {
         day: 1,
         meals: "D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈3 h",
         distance: "≈250 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Agadir → Marrakech",
         description:
-          "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Paseo por la medina por la tarde o tiempo libre. Noche en un riad de Marrakech.",
+          "Salida de Agadir por la mañana. Trayecto hacia el norte hasta Marrakech (3h). Paseo por la medina por la tarde o tiempo libre. Noche en un riad u hotel de Marrakech.",
       },
       {
         day: 2,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈7 h",
         distance: "≈410 km",
         stop: { name: "Midelt", lat: 32.6842, lng: -4.7322 },
@@ -2268,7 +2267,7 @@ export const TOURS: Tour[] = [
       {
         day: 3,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈5 h",
         distance: "≈300 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
@@ -2278,8 +2277,8 @@ export const TOURS: Tour[] = [
       },
       {
         day: 4,
-        meals: "B",
-        stay: "Hotel",
+        meals: "B,D",
+        stay: "Riad u hotel",
         stop: { name: "Fes", lat: 34.034653, lng: -5.016193 },
         title: "Mequinez → Día Completo en Fez",
         description:
@@ -2288,7 +2287,7 @@ export const TOURS: Tour[] = [
       {
         day: 5,
         meals: "B,D",
-        stay: "Hotel",
+        stay: "Riad u hotel",
         driving: "≈3 h",
         distance: "≈200 km",
         stop: { name: "Rabat", lat: 34.021, lng: -6.842 },
@@ -2309,13 +2308,13 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "¿Qué cubre este tour de seis días?", a: "Las ciudades imperiales de Marruecos en seis días desde Agadir, en 4x4 privado, con todos los traslados, peajes y entradas incluidos." },
-      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa/española, cinco noches de alojamiento en riad, desayuno diario y todos los traslados, peajes y entradas. Los almuerzos, las cenas y las propinas no están incluidos." },
+      { q: "¿Qué está incluido?", a: "Transporte en 4x4 privado, un guía de habla inglesa/francesa/española, cinco noches en riad u hotel (según disponibilidad), desayuno y cena todos los días, y todos los traslados, peajes y entradas. Los almuerzos y las propinas no están incluidos." },
       { q: "¿Se camina mucho?", a: "Clasificado como fácil, pero cada día implica bastante caminata por medinas y monumentos, así que el calzado cómodo ayuda." },
       { q: "¿Es privado?", a: "Sí: un tour privado para tu grupo de 2 a 12 personas con tu propio guía y vehículo." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — tu hotel o riad" },
     seoTitle: "Ciudades Imperiales de Marruecos, 6 días",
-    seoDescription: "Gran circuito de 6 días desde Agadir por las cuatro ciudades imperiales de Marruecos — Marrakech, Mequinez, Fez y Rabat. 4x4 privado con alojamiento en riad.",
+    seoDescription: "Gran circuito de 6 días desde Agadir por las cuatro ciudades imperiales de Marruecos — Marrakech, Mequinez, Fez y Rabat. 4x4 privado, noches en riad u hotel.",
     featured: false,
   },
 
@@ -2955,7 +2954,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking de 2 días por el valle de Azzaden",
-    seoDescription: "Trekking de 2 días por el valle de Azzaden desde Marrakech: paso de Tizi Mzik, noche en casa bereber y la cara tranquila del Alto Atlas. Desde 285 €.",
+    seoDescription: "Trekking de 2 días por el valle de Azzaden desde Marrakech: paso de Tizi Mzik, noche en casa bereber y la cara tranquila del Alto Atlas. Desde 116 €/pers. (6+).",
     faq: [
       { q: "¿Qué forma física hace falta para el trekking de Azzaden?", a: "Está clasificado como moderado: dos días con unas 5-6 horas de caminata cada uno, cruzando puertos de hasta 2.489 m. No hay escalada técnica, pero debes estar cómodo en senderos de subida y bajada durante varias horas. Es apto para caminantes razonablemente activos más que para principiantes absolutos." },
       { q: "¿En qué se diferencia de los trekkings del Toubkal?", a: "El Azzaden es el valle junto a la ruta principal Imlil–Toubkal, así que ve muchos menos senderistas. Encuentras los mismos pueblos bereberes, puertos y paisajes de montaña, pero sin ascensión a cumbre ni noche en refugio de altura: una alternativa más suave y tranquila." },
@@ -3050,7 +3049,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking de 3 días por el Atlas",
-    seoDescription: "Trekking de 3 días por los pueblos del Alto Atlas desde Marrakech, entre los valles de Imlil, Azzaden y Ourika. Casas bereberes, sin cumbre. Desde 416 €.",
+    seoDescription: "Trekking de 3 días por los pueblos del Alto Atlas desde Marrakech: valles de Imlil, Azzaden y Ourika. Casas bereberes, sin cumbre. Desde 169 €/pers. (6+).",
     faq: [
       { q: "¿Es apto este trekking como primera ruta de varios días?", a: "Sí: está clasificado como moderado y diseñado como una sólida introducción al trekking en Marruecos. No hay cumbre ni terreno técnico; las jornadas son de 5-6 horas por puertos de hasta unos 3.170 m (el Tizi n'Tacheddirt, el tercer día). En invierno ese puerto puede tener nieve; tu guía revisa las condiciones antes de cruzarlo. Si caminas con regularidad, irás bien." },
       { q: "¿Cómo es el alojamiento?", a: "Dos noches en casas de huéspedes de pueblo, cada una atendida por una familia local, con todas las comidas incluidas. Son casas sencillas —colchones sobre plataformas o camas básicas, y baño privado en cada habitación— más que hoteles, que es de lo que trata el trekking." },
@@ -3264,7 +3263,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     seoTitle: "Tour familiar al desierto 4 días",
-    seoDescription: "Circuito familiar de 4 días de Marrakech a las dunas de Erg Chebbi: paseos en camello, sandboard, kasbah de cine y campamento familiar. Desde 526 €.",
+    seoDescription: "Circuito familiar de 4 días de Marrakech a las dunas de Erg Chebbi: paseos en camello, sandboard, kasbah de cine y campamento familiar. Desde 270 €/pers. (6+).",
     faq: [
       { q: "¿Es apto este circuito del desierto para niños pequeños?", a: "Sí. No hay exigencia de caminar: todo se mueve en un vehículo con aire acondicionado, y las paradas (kasbah, garganta, dunas) son cortas y fáciles. La conducción es real, eso sí, así que conviene a niños que viajan razonablemente bien en coche; las etapas se fraccionan a propósito con paradas frecuentes para ayudar." },
       { q: "¿Qué hace que el campamento del desierto sea apto para familias?", a: "El campamento que se usa en este viaje tiene camas de verdad, tiendas de baño privadas o compartidas y cena servida en común más que un vivac desnudo. Los paseos en camello son cortos y guiados a pie, y hay espacio alrededor del fuego para los niños por la noche." },

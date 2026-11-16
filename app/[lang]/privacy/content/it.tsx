@@ -167,11 +167,6 @@ export default function privacyIt({ lang, mail }: LegalCtx): LegalDoc {
                 <strong>WhatsApp / Meta</strong> — se ci contatti tramite WhatsApp, i tuoi messaggi sono soggetti
                 all’informativa sulla privacy e ai termini di Meta.
               </li>
-              <li>
-                <strong>Editori RSS di terze parti</strong> — gli articoli della nostra pagina Notizie vengono
-                recuperati lato server da feed RSS pubblici (The Guardian, BBC, NYT Travel e altri). A questi editori
-                non viene inviata alcuna informazione che possa identificarti.
-              </li>
               <li><strong>Google (Gmail e Google Sheets)</strong>: le richieste arrivano nella casella del nostro team su Gmail, e ogni richiesta e prenotazione (nome, e-mail, tour, date, numero di persone, messaggio e come ci hai conosciuto) viene registrata in un foglio Google Sheets privato, accessibile solo al nostro team. Vedi l’<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">informativa sulla privacy di Google</a>.</li>
               <li><strong>Banche</strong>: se paghi con bonifico, la tua banca e la nostra elaborano il pagamento, compresi il tuo nome e le tue coordinate bancarie.</li>
             </ul>

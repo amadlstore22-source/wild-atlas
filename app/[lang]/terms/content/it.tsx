@@ -38,11 +38,6 @@ export default function termsIt({ mail }: LegalCtx): LegalDoc {
               medine e avventure di più giorni nella natura. Tutti i dettagli — cosa è incluso ed escluso, preparazione
               fisica richiesta e durata — sono indicati nella pagina di ciascun tour.
             </p>
-            <p>
-              Le notizie e gli articoli di viaggio del nostro sito sono raccolti da feed RSS di terze parti a solo
-              scopo informativo. Non siamo responsabili dell’accuratezza, dell’attualità o del contenuto delle fonti
-              esterne.
-            </p>
           </>
         ),
       },
@@ -161,7 +156,6 @@ export default function termsIt({ mail }: LegalCtx): LegalDoc {
               <li>La perdita o il danneggiamento di effetti personali durante un tour</li>
               <li>Gli atti o le omissioni di fornitori terzi (alloggio, trasporto) quando agiamo come intermediari e non come fornitori principali</li>
               <li>I costi da te sostenuti a seguito dell’annullamento o della modifica di un tour (voli, hotel, costi del visto, ecc.)</li>
-              <li>L’accuratezza delle notizie o dei contenuti di viaggio provenienti da feed RSS di terze parti</li>
             </ul>
             <p>
               La nostra responsabilità massima nei tuoi confronti è in ogni caso limitata al prezzo totale pagato per
@@ -197,8 +191,7 @@ export default function termsIt({ mail }: LegalCtx): LegalDoc {
             I testi, il design e il codice di questo sito sono di proprietà di Marrakech Eco Tours. Non puoi
             riprodurli, distribuirli o utilizzarli senza il nostro esplicito consenso scritto. Alcune fotografie sono
             concesse in licenza da archivi fotografici e restano di proprietà dei rispettivi fotografi secondo tali
-            licenze. Gli articoli della pagina Notizie provengono da feed di terze parti e restano di proprietà dei
-            loro editori.
+            licenze.
           </p>
         ),
       },

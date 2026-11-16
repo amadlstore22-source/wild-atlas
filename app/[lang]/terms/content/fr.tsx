@@ -39,11 +39,6 @@ export default function termsFr({ mail }: LegalCtx): LegalDoc {
               prestations incluses et exclues, condition physique requise et durée — figurent sur la page de chaque
               circuit.
             </p>
-            <p>
-              Les actualités et articles de voyage de notre site proviennent de flux RSS de tiers, à titre informatif
-              uniquement. Nous ne sommes pas responsables de l’exactitude, de l’actualité ou du contenu de ces sources
-              externes.
-            </p>
           </>
         ),
       },
@@ -165,7 +160,6 @@ export default function termsFr({ mail }: LegalCtx): LegalDoc {
               <li>De la perte ou de la détérioration d’effets personnels pendant un circuit</li>
               <li>Des actes ou omissions de prestataires tiers (hébergement, transport) lorsque nous agissons en tant qu’intermédiaire et non en tant que prestataire principal</li>
               <li>Des frais que vous engagez à la suite de l’annulation ou de la modification d’un circuit (vols, hôtels, frais de visa, etc.)</li>
-              <li>De l’exactitude des actualités ou contenus de voyage provenant de flux RSS de tiers</li>
             </ul>
             <p>
               Notre responsabilité maximale envers vous est, en toutes circonstances, limitée au prix total payé pour
@@ -202,8 +196,7 @@ export default function termsFr({ mail }: LegalCtx): LegalDoc {
             Les textes, le design et le code de ce site sont la propriété de Marrakech Eco Tours. Vous ne pouvez pas
             les reproduire, les diffuser ou les utiliser sans notre autorisation écrite expresse. Certaines photos
             sont utilisées sous licence auprès de banques d’images et restent la propriété de leurs photographes
-            selon ces licences. Les articles de la page Actualités proviennent de flux tiers et restent la propriété
-            de leurs éditeurs.
+            selon ces licences.
           </p>
         ),
       },

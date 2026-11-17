@@ -481,6 +481,8 @@ Entrambi i viaggi finiscono sulla stessa vetta. Entrambi usano lo stesso percors
 
 Il costo è l'acclimatazione. Passi da circa 450 metri a Marrakech a 4.167 metri in circa trenta ore. Il tuo corpo ha essenzialmente nessun tempo per adattarsi, e l'altitudine non si preoccupa di quanto siano forti le tue gambe.
 
+Valuti anche altre opzioni? [Tutti i nostri trek sul Toubkal a confronto](/it/blog/confronto-trek-toubkal) mette ogni itinerario uno accanto all'altro, da 2 a 15 giorni.
+
 ## Il viaggio di quattro giorni
 
 Stessa montagna, stessa vetta, più spazio. I giorni aggiuntivi non vengono spesi camminando più lontano — vengono spesi salendo più gradualmente e dandoti tempo a quota intermedia prima della spinta alla vetta.
@@ -9214,6 +9216,133 @@ I mesi migliori sono anche i più richiesti, quindi prenota il campo per tempo.
   deserto](/it/blog/what-to-pack-desert-tour-morocco).
 - **Erg Chebbi o Erg Chegaga?** [I due mari di sabbia a
   confronto](/it/blog/erg-chebbi-vs-erg-chegaga).
+`,
+  },
+  {
+    slug: "toubkal-treks-compared-which-route",
+    localizedSlug: "confronto-trek-toubkal",
+    author: MET_TEAM,
+    title: "Trek sul Toubkal a confronto: quale itinerario fa per te?",
+    excerpt:
+      "Tutti i modi in cui saliamo il Toubkal, uno accanto all'altro: da 2 a 15 giorni, una cima o tre, rifugio, gîte o campo, con o senza muli. Quale itinerario per una prima volta, per chi è allenato ma ha poco tempo o per chi vuole più della sola cima.",
+    heroImage: "/gallery/toubkal-valley-trail-trekkers.jpg",
+    category: "trekking",
+    region: "atlas-mountains",
+    readTime: 8,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["itinerari Toubkal", "opzioni trek Toubkal", "quale trek Toubkal", "Toubkal 2 3 4 giorni", "trekking Alto Atlante"],
+    seoTitle: "Trek del Toubkal a confronto: quale?",
+    seoDescription:
+      "Otto modi di salire il Toubkal, dall'express di 2 giorni alla traversata di 15: giorni, cime, passi, notti e muli a confronto, e quale itinerario fa per te.",
+    relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-aguelzim-pass-3day", "toubkal-circuit-ifni-lake-6day"],
+    faq: [
+      { q: "Quale trek sul Toubkal è il migliore per la prima volta?", a: "Il trek di 4 giorni. I giorni in più servono all'acclimatamento, non alla distanza: una notte a Imlil a 1.740 m, poi due notti al rifugio del Toubkal a 3.207 m, prima e dopo la cima. È l'altitudine, più che la forma fisica, il motivo per cui di solito si soffre vicino alla vetta." },
+      { q: "Si può salire il Toubkal in due giorni?", a: "Sì, escursionisti allenati lo fanno spesso con il trek di 2 giorni: salita al rifugio il primo giorno, cima all'alba e discesa fino a Imlil il secondo. Non lascia tempo per acclimatarsi, e nel trek di 2 giorni non c'è il mulo, quindi porti tu ciò che ti serve per la notte." },
+      { q: "Tutti gli itinerari raggiungono la cima dallo stesso percorso?", a: "Sì. Tutti gli itinerari di questa pagina salgono in cima (4.167 m) dal rifugio del Toubkal per il circo sud, partendo prima dell'alba. Cambia il modo di arrivare al rifugio, quanto ci resti e cos'altro sali o attraversi lungo la strada." },
+    ],
+    content: `C'è una cima, 4.167 metri, e nei nostri trek si sale sempre allo stesso modo:
+dal rifugio del Toubkal, prima dell'alba, per il circo sud. Da un trek all'altro
+cambia tutto ciò che sta intorno a quella mattina: quanti giorni ti prendi, come
+arrivi al rifugio, dove dormi, chi porta i bagagli e se il Toubkal resta l'unica
+cima.
+
+Ecco tutti i nostri trek sul Toubkal, uno accanto all'altro, e per chi è ciascuno.
+
+## La risposta breve
+
+- **Prima volta vicino ai 4.000 metri:** il [trek di 4
+  giorni](/it/tours/trek-cima-toubkal-4-giorni). Il tempo in più va
+  all'acclimatamento, non alla distanza.
+- **Allenato, con poco tempo e già stato in quota:** la [salita express in 2
+  giorni](/it/tours/salita-toubkal-2-giorni).
+- **Una salita più tranquilla:** l'[itinerario di 3 giorni per il passo
+  Aguelzim](/it/tours/toubkal-passo-aguelzim-3-giorni).
+- **Più di una cima:** le [tre cime di 4.000 m in 3
+  giorni](/it/tours/toubkal-tre-cime-4000m-3-giorni), per trekker esperti.
+- **Le montagne oltre la cima:** il [circuito di 6 giorni dal lago
+  Ifni](/it/tours/circuito-toubkal-lago-ifni-6-giorni).
+- **Montagna e deserto in un solo viaggio:** [Toubkal e Sahara in 5
+  giorni](/it/tours/toubkal-sahara-5-giorni), oppure il [meglio del Marocco in 8
+  giorni](/it/tours/toubkal-sahara-8-giorni-marocco) con date fisse in primavera.
+- **Tutto l'Alto Atlante:** la [grande traversata di 15
+  giorni](/it/tours/grande-traversata-alto-atlante-15-giorni), dal M'Goun al
+  Toubkal.
+
+## Tutti i trek sul Toubkal a confronto
+
+| Trek | Giorni | Cime oltre i 4.000 m | Passo più alto | Pernottamento | Muli | Livello |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Salita express](/it/tours/salita-toubkal-2-giorni) | 2 | Toubkal | — | Rifugio | No | Impegnativo |
+| [Passo Aguelzim](/it/tours/toubkal-passo-aguelzim-3-giorni) | 3 | Toubkal | Aguelzim, 3.560 m | Gîte di villaggio, rifugio | Sì | Impegnativo |
+| [Tre cime di 4.000 m](/it/tours/toubkal-tre-cime-4000m-3-giorni) | 3 | Timesguida, Ras, Toubkal | — | Rifugio, 2 notti | Sì | Esperto |
+| [Trek della cima](/it/tours/trek-cima-toubkal-4-giorni) | 4 | Toubkal | — | Guesthouse a Imlil, rifugio 2 notti | Sì | Impegnativo |
+| [Toubkal e Sahara](/it/tours/toubkal-sahara-5-giorni) | 5 | Toubkal | — | Rifugio, guesthouse a Imlil, hotel nella valle del Dades, campo nel deserto | Sì, nel trek | Impegnativo |
+| [Circuito del lago Ifni](/it/tours/circuito-toubkal-lago-ifni-6-giorni) | 6 | Toubkal | Tizi n'Ouanoums, 3.664 m | Gîte di villaggio, campi in tenda, rifugio | Sì | Impegnativo |
+| [Il meglio del Marocco](/it/tours/toubkal-sahara-8-giorni-marocco) | 8 | Toubkal | — | Riad, rifugio, gîte a Imlil, hotel, campo nel deserto | Sì, nel trek | Impegnativo |
+| [Grande traversata](/it/tours/grande-traversata-alto-atlante-15-giorni) | 15 | M'Goun, Toubkal | circa 3.500 m | Gîte di villaggio, campi in tenda, rifugio, guesthouse a Imlil | Carovana di muli completa e cuoco | Esperto |
+
+Sono tutti privati tranne il meglio del Marocco in 8 giorni, che parte come
+gruppo condiviso di massimo 14 persone in date fisse a marzo e aprile.
+
+## Perché il numero di giorni conta
+
+Il trek di 2 giorni ti porta da Marrakech a 4.167 metri in circa trenta ore.
+Escursionisti allenati lo fanno spesso, ma non lascia tempo per acclimatarsi, ed è
+l'altitudine, più che la forma fisica, il motivo per cui di solito si soffre
+vicino alla vetta. Il trek di 4 giorni copre lo stesso terreno con una notte a
+Imlil a 1.740 m e due notti al rifugio, così il corpo ha tempo di adattarsi prima
+della mattina della cima. Se non sei mai stato vicino ai 4.000 metri, prenditi i
+giorni in più. Il nostro articolo sul [mal di montagna sul
+Toubkal](/it/blog/mal-di-montagna-toubkal) spiega quali segnali osservare.
+
+## La mattina della cima è uguale su tutti gli itinerari
+
+Su tutti gli itinerari la notte prima della cima si passa al rifugio del Toubkal
+(3.207 m). Parti prima dell'alba con la frontale, sali il circo sud per circa tre
+ore e arrivi in vetta verso l'alba. Fuori dalla stagione della neve non servono
+corde né arrampicata: è una lunga camminata ripida in quota, su terreno instabile.
+
+La discesa è più lunga di quanto si pensi. Sulla maggior parte degli itinerari si
+torna al rifugio e si prosegue fino a Imlil nello stesso giorno, da quattro a
+cinque ore di discesa con le gambe stanche. Il trek di 4 giorni e la grande
+traversata sono le eccezioni: ti riportano al rifugio per un'altra notte e
+completano la discesa la mattina dopo.
+
+## Dove dormi
+
+- **Il rifugio del Toubkal:** un rifugio di montagna gestito, con dormitori in
+  comune, cuccette con materasso e coperte, pasti insieme e notti fredde. Porta un
+  sacco lenzuolo, una frontale e i tappi per le orecchie.
+- **Gîte di villaggio e guesthouse:** semplici case familiari nelle valli, con i
+  pasti inclusi.
+- **Campi in tenda:** sul circuito del lago Ifni e sulla grande traversata, dove
+  non ci sono villaggi. Lo staff trasporta e monta il campo.
+
+## Chi porta cosa
+
+In tutti i trek tranne quello di 2 giorni, i muli portano i bagagli del gruppo tra
+una tappa e l'altra e tu cammini con uno zaino da giornata. Nel trek di 2 giorni
+non c'è il mulo, quindi porti tu ciò che ti serve per la notte: limitati a uno
+zaino leggero.
+
+## In inverno
+
+All'incirca da novembre ad aprile la cima è una salita su neve. Servono ramponi e
+piccozza, che non sono inclusi in nessuno dei nostri trek: si noleggiano a Imlil.
+Con la neve anche la giornata della cima è più lunga, circa otto-dodici ore, e
+ogni itinerario richiede un po' più di esperienza di montagna. Leggi [il Toubkal
+in inverno: cosa aspettarsi](/it/blog/toubkal-in-winter-what-to-expect) prima di
+prenotare una data invernale.
+
+## Ancora indeciso?
+
+- Le due opzioni più scelte nel dettaglio: [Toubkal in 2 o 4
+  giorni](/it/blog/toubkal-2-day-vs-4-day-which-trek).
+- Quanto è davvero impegnativa la salita: [quanto è difficile il
+  Toubkal?](/it/blog/how-hard-is-toubkal-difficulty-guide)
+- Perché in tutti questi trek c'è una guida con licenza: [serve una guida per
+  salire il Toubkal?](/it/blog/do-you-need-a-guide-to-climb-toubkal)
 `,
   },
 ];

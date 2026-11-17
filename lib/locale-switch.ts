@@ -27,6 +27,7 @@ import { MARKET_SLUG_BY_LANG } from "./market-slugs";
 /** localised segment -> English slug. Blog posts. Generated; see scripts. */
 const BLOG_TO_EN: Record<string, Record<string, string>> = {
   fr: {
+    "comparatif-treks-toubkal": "toubkal-treks-compared-which-route",
     "meteo-erg-chebbi-par-mois": "erg-chebbi-weather-by-month",
     "volubilis-ruines-romaines": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guide",
@@ -79,6 +80,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "argent-au-maroc-especes-pourboires": "money-in-morocco-cash-atms-tipping",
   },
   es: {
+    "comparativa-treks-toubkal": "toubkal-treks-compared-which-route",
     "clima-erg-chebbi-por-meses": "erg-chebbi-weather-by-month",
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guia": "meknes-moulay-idriss-guide",
@@ -131,6 +133,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "dinero-en-marruecos-efectivo-propinas": "money-in-morocco-cash-atms-tipping",
   },
   de: {
+    "toubkal-touren-vergleich": "toubkal-treks-compared-which-route",
     "wetter-erg-chebbi-merzouga": "erg-chebbi-weather-by-month",
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-reisefuehrer": "meknes-moulay-idriss-guide",
@@ -183,6 +186,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "geld-in-marokko-bargeld-trinkgeld": "money-in-morocco-cash-atms-tipping",
   },
   it: {
+    "confronto-trek-toubkal": "toubkal-treks-compared-which-route",
     "meteo-erg-chebbi-mese-per-mese": "erg-chebbi-weather-by-month",
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guida": "meknes-moulay-idriss-guide",

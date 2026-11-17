@@ -27,6 +27,7 @@ import { MARKET_SLUG_BY_LANG } from "./market-slugs";
 /** localised segment -> English slug. Blog posts. Generated; see scripts. */
 const BLOG_TO_EN: Record<string, Record<string, string>> = {
   fr: {
+    "meteo-erg-chebbi-par-mois": "erg-chebbi-weather-by-month",
     "volubilis-ruines-romaines": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guide": "meknes-moulay-idriss-guide",
     "prix-circuit-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",
@@ -78,6 +79,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "argent-au-maroc-especes-pourboires": "money-in-morocco-cash-atms-tipping",
   },
   es: {
+    "clima-erg-chebbi-por-meses": "erg-chebbi-weather-by-month",
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guia": "meknes-moulay-idriss-guide",
     "precio-tour-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",
@@ -129,6 +131,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "dinero-en-marruecos-efectivo-propinas": "money-in-morocco-cash-atms-tipping",
   },
   de: {
+    "wetter-erg-chebbi-merzouga": "erg-chebbi-weather-by-month",
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-reisefuehrer": "meknes-moulay-idriss-guide",
     "kosten-rundreise-casablanca-marrakesch": "casablanca-to-marrakech-tour-cost",
@@ -180,6 +183,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "geld-in-marokko-bargeld-trinkgeld": "money-in-morocco-cash-atms-tipping",
   },
   it: {
+    "meteo-erg-chebbi-mese-per-mese": "erg-chebbi-weather-by-month",
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",
     "meknes-moulay-idriss-guida": "meknes-moulay-idriss-guide",
     "prezzo-tour-casablanca-marrakech": "casablanca-to-marrakech-tour-cost",

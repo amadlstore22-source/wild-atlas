@@ -6204,6 +6204,8 @@ moyenne — et par nuit claire et calme, le campement peut relever plusieurs
 degrés sous ce chiffre de janvier. Les sources divergent, ce qui est déjà une
 information : prévoyez pour le bas de la fourchette, pas pour la moyenne.
 
+Pour les minimales de nuit, la pluie et la durée du jour de chaque mois dans un seul tableau, voir [la météo de l'Erg Chebbi mois par mois](/fr/blog/meteo-erg-chebbi-par-mois).
+
 ## Ce que l'écart donne vraiment
 
 En novembre, vous pouvez marcher sur une crête de dune en t-shirt à seize
@@ -9303,6 +9305,142 @@ Les règles parlent de bordereaux de change, que remettent les banques et les bu
 - Laissez un pourboire si vous le souhaitez, ou pas du tout.
 
 👉 **[Voir nos circuits](/fr/tours)**, ou [posez-nous](/fr/contact) vos questions sur les paiements avant de réserver.
+`,
+  },
+  {
+    slug: "erg-chebbi-weather-by-month",
+    localizedSlug: "meteo-erg-chebbi-par-mois",
+    author: MET_TEAM,
+    title: "Météo de l'Erg Chebbi mois par mois : températures, pluie et durée du jour à Merzouga",
+    excerpt:
+      "La météo de l'Erg Chebbi en un tableau : températures de jour et de nuit, pluie et durée du jour à Merzouga pour chaque mois, d'après les données climatiques 1991–2020, et ce que chaque saison change pour un voyage dans le désert.",
+    heroImage: "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["météo Erg Chebbi", "météo Merzouga", "températures Merzouga", "meilleure période Merzouga", "climat Sahara Maroc"],
+    seoTitle: "Météo Erg Chebbi : Merzouga mois par mois",
+    seoDescription:
+      "Merzouga en janvier : 19 °C le jour, 6 °C la nuit ; en juillet 43 °C et 29 °C. La météo de l'Erg Chebbi mois par mois : pluie, durée du jour, meilleurs mois.",
+    relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "Quel temps fait-il dans l'Erg Chebbi en hiver ?", a: "Doux et ensoleillé le jour, environ 19 à 21 °C de décembre à février, et froid la nuit : environ 6 à 8 °C en moyenne, et plus froid encore par nuit calme et claire au bivouac. Prévoyez une couche chaude, un bonnet et des gants fins pour la soirée et le lever du soleil." },
+      { q: "Quel est le meilleur mois pour l'Erg Chebbi ?", a: "Octobre, novembre, mars et avril, avec 24 à 30 °C le jour et des nuits fraîches. De décembre à février, c'est pour ceux qui veulent le ciel le plus pur et ne craignent pas les nuits froides. Juillet et août atteignent 42 à 43 °C le jour." },
+      { q: "Pleut-il à Merzouga ?", a: "Rarement. Merzouga reçoit en moyenne environ 63 mm de pluie par an, répartis sur une vingtaine de jours. Octobre, février et septembre sont les mois les plus humides, et même alors il ne pleut en général que deux ou trois jours." },
+    ],
+    content: `L'Erg Chebbi est la mer de sable qui borde le village de Merzouga, à l'extrême
+sud-est du Maroc, et ce sont les dunes que la plupart des gens imaginent quand on
+parle du Sahara marocain. Sa météo se résume vite et se sous-estime facilement :
+presque pas de pluie, du soleil presque tous les jours, une vraie chaleur de mai
+à septembre et des nuits froides de novembre à mars.
+
+Voici toute l'année en un tableau, puis ce que chaque saison donne vraiment
+pendant un voyage dans le désert.
+
+## La météo de l'Erg Chebbi, mois par mois
+
+| Mois | Jour (maximale moyenne) | Nuit (minimale moyenne) | Pluie | Jours de pluie | Durée du jour |
+| --- | --- | --- | --- | --- | --- |
+| Janvier | 19 °C | 6 °C | 5,6 mm | 1,6 | 10 h 20 |
+| Février | 21 °C | 8 °C | 8,3 mm | 2,1 | 11 h 00 |
+| Mars | 26 °C | 12 °C | 6,5 mm | 1,7 | 11 h 55 |
+| Avril | 30 °C | 16 °C | 3,6 mm | 1,5 | 12 h 55 |
+| Mai | 34 °C | 20 °C | 4,2 mm | 2,1 | 13 h 40 |
+| Juin | 39 °C | 25 °C | 2,0 mm | 1,1 | 14 h 10 |
+| Juillet | 43 °C | 29 °C | 1,2 mm | 0,6 | 14 h 00 |
+| Août | 42 °C | 28 °C | 2,5 mm | 1,5 | 13 h 20 |
+| Septembre | 37 °C | 24 °C | 7,6 mm | 2,8 | 12 h 20 |
+| Octobre | 30 °C | 18 °C | 8,7 mm | 1,9 | 11 h 25 |
+| Novembre | 24 °C | 11 °C | 7,4 mm | 2,0 | 10 h 30 |
+| Décembre | 20 °C | 7 °C | 5,1 mm | 1,8 | 10 h 05 |
+
+Températures et pluie : moyennes 1991–2020 pour Merzouga, issues des données
+climatiques Copernicus publiées par weather-and-climate.com. Durée du jour : du
+lever au coucher du soleil au milieu de chaque mois, calculée pour la latitude de
+Merzouga.
+
+## L'hiver : de décembre à février
+
+Les journées sont douces, 19 à 21 °C, avec une lumière limpide. Les nuits
+tournent autour de 6 à 8 °C en moyenne, et par une nuit calme et sans nuage au
+bivouac, il peut faire plus froid que la moyenne, presque jusqu'au gel. Les
+journées sont courtes, une dizaine d'heures de jour, donc la balade à dos de
+dromadaire du coucher de soleil part en fin d'après-midi et le dîner se fait dans
+le noir et le froid.
+
+Ce même air froid, sec et calme offre les plus belles étoiles de l'année, et
+c'est ce dont profite notre
+[nuit étoilée à Merzouga](/fr/tours/nuit-etoilee-merzouga). Emportez une vraie
+couche isolante, une veste coupe-vent, un bonnet et des gants fins. Notre article
+sur [le froid des nuits dans le Sahara](/fr/blog/meteo-desert-sahara-maroc)
+détaille la nuit, les bivouacs et les bagages.
+
+## Le printemps : de mars à mai
+
+Mars et avril comptent parmi les meilleures semaines de l'année : 26 à 30 °C le
+jour, 12 à 16 °C la nuit, et douze à treize heures de jour. En mai, le milieu de
+journée atteint 34 °C.
+
+C'est aussi au printemps que le vent se lève le plus souvent. La plupart du temps,
+c'est une simple brise. De temps en temps, il soulève assez de sable pour
+brouiller l'horizon, et les bivouacs attendent simplement que ça passe. Un chèche
+en coton sur le nez et la bouche est alors l'objet le plus utile que vous
+puissiez avoir.
+
+## L'été : de juin à août
+
+39 à 43 °C le jour, 25 à 29 °C la nuit, et presque pas de pluie : juillet ne
+reçoit en moyenne qu'à peine 1 mm. Les journées sont longues, environ quatorze
+heures. Les circuits continuent, mais la journée se réorganise : la balade à dos
+de dromadaire part au crépuscule et revient à l'aube, et le milieu de journée se
+passe à l'ombre. Ce n'est pas la saison pour un premier voyage, ni avec de jeunes
+enfants.
+
+## L'automne : de septembre à novembre
+
+Septembre est encore chaud, 37 °C. Octobre se stabilise autour de 30 °C le jour
+et 18 °C la nuit, et novembre descend à 24 °C et 11 °C, avec le retour des nuits
+froides.
+
+Sur le papier, septembre et octobre font partie des mois les plus humides, mais
+cela représente 8 à 9 mm de pluie sur deux ou trois jours. La pluie arrive
+surtout sous forme de courts orages, et les lits d'oued à sec peuvent se remplir
+vite : c'est pour cela qu'un bon guide n'installe jamais le camp dans un oued.
+
+## La pluie : rare, mais pas absente
+
+Merzouga reçoit en moyenne environ 63 mm de pluie par an, sur une vingtaine de
+jours. La plupart des mois comptent un ou deux jours de pluie, et juillet presque
+aucun. Un voyage sera bien plus souvent marqué par la chaleur, le froid ou le
+vent que par la pluie.
+
+## Les meilleurs mois pour l'Erg Chebbi
+
+- **Octobre, novembre, mars et avril :** journées chaudes, nuits fraîches, et les
+  conditions les plus agréables pour la balade à dos de dromadaire et la nuit au
+  bivouac.
+- **De décembre à février :** nuits froides, mais le ciel le plus pur, la lumière
+  la plus nette pour la photo et les dunes les plus calmes.
+- **Mai et septembre :** chaud à midi, agréable le matin et le soir.
+- **Juillet et août :** 42 à 43 °C. Possible, mais éprouvant.
+
+Les meilleurs mois sont aussi les plus demandés : réservez le bivouac tôt.
+
+## Préparer votre voyage
+
+- **En privé :** le [circuit de 3 jours à Merzouga depuis
+  Marrakech](/fr/tours/circuit-desert-3-jours-marrakech), ou le [grand circuit
+  désert de 4 jours](/fr/tours/circuit-desert-4-jours-marrakech), qui coupe le
+  retour par une nuit à Ouarzazate.
+- **En partagé :** le [circuit partagé de 3 jours à
+  Merzouga](/fr/tours/desert-merzouga-3-jours-partage), en minibus avec d'autres
+  voyageurs.
+- **Bagages :** [que mettre dans son sac pour le
+  désert](/fr/blog/what-to-pack-desert-tour-morocco).
+- **Erg Chebbi ou Erg Chegaga ?** [Les deux mers de sable
+  comparées](/fr/blog/erg-chebbi-vs-erg-chegaga).
 `,
   },
 ];

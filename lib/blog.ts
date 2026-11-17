@@ -8529,7 +8529,7 @@ covers when that is worth doing and when it is not.`,
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-10-31",
+    updatedAt: "2026-11-17",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
     seoTitle: "How Cold Is the Sahara at Night? By Month",
     seoDescription:
@@ -8571,6 +8571,8 @@ averages — and on a still, cloudless winter night the reading at the camp can
 be several degrees below that January figure. Different sources put it
 anywhere from 6°C down to below zero, which tells you something in itself:
 pack for the cold end, not the average.
+
+For the night lows, rain and daylight of every month in one table, see [Erg Chebbi weather by month](/en/blog/erg-chebbi-weather-by-month).
 
 ## What the swing actually feels like
 
@@ -11639,6 +11641,130 @@ The rules speak of exchange receipts, which banks and exchange offices give you.
 - Tip as you wish, or not at all.
 
 👉 **[See our tours](/en/tours)**, or [ask us](/en/contact) anything about payments before you book.
+`,
+  },
+  {
+    slug: "erg-chebbi-weather-by-month",
+    author: MET_TEAM,
+    title: "Erg Chebbi Weather by Month: Merzouga Temperatures, Rain and Daylight",
+    excerpt:
+      "Erg Chebbi's weather in one table: Merzouga's day and night temperatures, rain and daylight for every month, from 1991–2020 climate data, and what each season means on a desert trip.",
+    heroImage: "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["Erg Chebbi weather", "Merzouga weather", "Merzouga temperature by month", "best time to visit Merzouga", "Sahara climate Morocco"],
+    seoTitle: "Erg Chebbi Weather by Month: Merzouga",
+    seoDescription:
+      "Merzouga averages 19°C by day and 6°C at night in January, 43°C and 29°C in July. Erg Chebbi month by month, with rain, daylight and the best months to go.",
+    relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "What is the weather like in Erg Chebbi in winter?", a: "Mild and sunny by day, about 19–21°C from December to February, and cold at night: about 6–8°C on average, and colder than that on still, clear nights at the camp. Pack a warm layer, a hat and thin gloves for the evening and the sunrise." },
+      { q: "What is the best month to visit Erg Chebbi?", a: "October, November, March and April, with daytime highs of 24–30°C and cool nights. December to February suits travellers who want the clearest skies and do not mind cold nights. July and August reach 42–43°C by day." },
+      { q: "Does it rain in Merzouga?", a: "Rarely. Merzouga averages about 63 mm of rain a year, spread over roughly 21 days. October, February and September are the wettest months, and even then rain usually falls on only two or three days." },
+    ],
+    content: `Erg Chebbi is the sand sea beside the village of Merzouga, in Morocco's far
+south-east, and the dunes most people picture when they think of the Moroccan
+Sahara. Its weather is easy to sum up and easy to underestimate: almost no rain,
+sun nearly every day, real heat from May to September, and cold nights from
+November to March.
+
+Here is the whole year in one table, then what each season actually feels like
+on a desert trip.
+
+## Erg Chebbi weather, month by month
+
+| Month | Day (average high) | Night (average low) | Rain | Rain days | Daylight |
+| --- | --- | --- | --- | --- | --- |
+| January | 19°C | 6°C | 5.6 mm | 1.6 | 10 h 20 |
+| February | 21°C | 8°C | 8.3 mm | 2.1 | 11 h 00 |
+| March | 26°C | 12°C | 6.5 mm | 1.7 | 11 h 55 |
+| April | 30°C | 16°C | 3.6 mm | 1.5 | 12 h 55 |
+| May | 34°C | 20°C | 4.2 mm | 2.1 | 13 h 40 |
+| June | 39°C | 25°C | 2.0 mm | 1.1 | 14 h 10 |
+| July | 43°C | 29°C | 1.2 mm | 0.6 | 14 h 00 |
+| August | 42°C | 28°C | 2.5 mm | 1.5 | 13 h 20 |
+| September | 37°C | 24°C | 7.6 mm | 2.8 | 12 h 20 |
+| October | 30°C | 18°C | 8.7 mm | 1.9 | 11 h 25 |
+| November | 24°C | 11°C | 7.4 mm | 2.0 | 10 h 30 |
+| December | 20°C | 7°C | 5.1 mm | 1.8 | 10 h 05 |
+
+Temperatures and rain are 1991–2020 averages for Merzouga, from Copernicus
+climate data as published by weather-and-climate.com. Daylight is sunrise to
+sunset in the middle of each month, calculated for Merzouga's latitude.
+
+## Winter: December to February
+
+Days are mild, 19–21°C, with clear light. Nights average 6–8°C, and on a still,
+cloudless night at the camp it can get colder than the average, close to
+freezing. The days are short, about ten hours of daylight, so the sunset camel
+trek leaves in the late afternoon and dinner happens in the dark and the cold.
+
+That same cold, dry, still air gives the best stars of the year, which is what
+our [Merzouga stargazing tour](/en/tours/merzouga-stargazing-desert-tour) makes
+the most of. Bring a proper insulating layer, a windproof jacket, a hat and thin
+gloves. Our guide to [how cold the Sahara gets at
+night](/en/blog/sahara-desert-weather-what-to-expect) covers the night, the camps
+and the packing in detail.
+
+## Spring: March to May
+
+March and April are among the best weeks of the year: 26–30°C by day, 12–16°C
+at night, and twelve to thirteen hours of daylight. By May the middle of the day
+reaches 34°C.
+
+Spring is also when the wind most often picks up. Most days that means a
+breeze. Now and then it lifts enough sand to blur the horizon, and the camps
+simply wait it out. A cotton scarf over the nose and mouth is the most useful
+thing you can carry on those days.
+
+## Summer: June to August
+
+39–43°C by day, 25–29°C at night, and almost no rain: July averages barely 1 mm.
+The days are long, about fourteen hours. Tours still run, but the day reshapes
+itself: the camel trek goes out at dusk and comes back at dawn, and the middle
+of the day is for shade. It is not the season for a first visit, or for young
+children.
+
+## Autumn: September to November
+
+September is still hot at 37°C. October settles to about 30°C by day and 18°C at
+night, and November cools to 24°C and 11°C, with the cold nights returning.
+
+On paper, September and October are among the wettest months, but that means
+8–9 mm of rain over two or three days. Rain here tends to arrive as short
+storms, and dry riverbeds can fill fast, which is why a good guide never sets
+camp in a wadi.
+
+## Rain: rare, not never
+
+Merzouga averages about 63 mm of rain a year, on roughly 21 days. Most months
+see one or two rainy days, and July sees almost none. A trip is far more likely
+to be shaped by heat, cold or wind than by rain.
+
+## The best months for Erg Chebbi
+
+- **October, November, March and April:** warm days, cool nights, and the most
+  comfortable conditions for the camel trek and a night at camp.
+- **December to February:** cold nights, but the clearest skies, the sharpest
+  light for photography and the quietest dunes.
+- **May and September:** hot at midday, pleasant morning and evening.
+- **July and August:** 42–43°C. Possible, but hard going.
+
+The best months are also the busiest, so book the camp early.
+
+## Planning your trip
+
+- **Private:** the [3-day Merzouga tour from
+  Marrakech](/en/tours/sahara-3day-marrakech), or the [4-day Desert Grand
+  Tour](/en/tours/desert-4day-marrakech), which breaks the drive back with a
+  night in Ouarzazate.
+- **Shared:** the [3-day shared Merzouga tour](/en/tours/shared-merzouga-3day-marrakech)
+  in a minibus with other travellers.
+- **Packing:** [what to pack for a desert tour](/en/blog/what-to-pack-desert-tour-morocco).
+- **Erg Chebbi or Erg Chegaga?** [Compare the two sand seas](/en/blog/erg-chebbi-vs-erg-chegaga).
 `,
   },
 ];

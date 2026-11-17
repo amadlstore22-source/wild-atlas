@@ -6168,6 +6168,8 @@ Juli** — und in einer klaren, windstillen Nacht kann das Camp mehrere Grad unt
 diesem Januarwert liegen. Die Quellen weichen voneinander ab, was schon etwas
 aussagt: Packen Sie für das kalte Ende, nicht für den Mittelwert.
 
+Die nächtlichen Tiefstwerte, den Regen und das Tageslicht jedes Monats in einer Tabelle finden Sie unter [Wetter am Erg Chebbi, Monat für Monat](/de/blog/wetter-erg-chebbi-merzouga).
+
 ## Wie sich der Sprung anfühlt
 
 Im November können Sie um vier Uhr nachmittags im T-Shirt einen Dünenkamm
@@ -9244,6 +9246,137 @@ Die Regeln sprechen von Wechselbelegen, die Banken und Wechselstuben ausstellen.
 - Trinkgeld geben, wie Sie möchten, oder gar nicht.
 
 👉 **[Unsere Touren ansehen](/de/tours)**, oder [fragen Sie uns](/de/contact) vor der Buchung alles zum Bezahlen.
+`,
+  },
+  {
+    slug: "erg-chebbi-weather-by-month",
+    localizedSlug: "wetter-erg-chebbi-merzouga",
+    author: MET_TEAM,
+    title: "Wetter am Erg Chebbi: Merzouga Monat für Monat – Temperaturen, Regen, Tageslicht",
+    excerpt:
+      "Das Wetter am Erg Chebbi in einer Tabelle: Tages- und Nachttemperaturen, Regen und Tageslicht in Merzouga für jeden Monat, nach Klimadaten 1991–2020, und was jede Jahreszeit für eine Wüstenreise bedeutet.",
+    heroImage: "/gallery/merzouga-erg-chebbi-dune-ridge-wide.jpg",
+    category: "desert",
+    region: "sahara-south",
+    readTime: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["Wetter Erg Chebbi", "Wetter Merzouga", "Merzouga Temperaturen", "beste Reisezeit Merzouga", "Klima Sahara Marokko"],
+    seoTitle: "Wetter Erg Chebbi: Merzouga pro Monat",
+    seoDescription:
+      "Merzouga im Januar: 19 °C am Tag, 6 °C nachts; im Juli 43 °C und 29 °C. Wetter am Erg Chebbi Monat für Monat, mit Regen, Tageslicht und bester Reisezeit.",
+    relatedTours: ["sahara-3day-marrakech", "shared-merzouga-3day-marrakech", "desert-4day-marrakech", "merzouga-stargazing-desert-tour"],
+    faq: [
+      { q: "Wie ist das Wetter am Erg Chebbi im Winter?", a: "Tagsüber mild und sonnig, von Dezember bis Februar etwa 19–21 °C, nachts kalt: im Mittel etwa 6–8 °C, in stillen, klaren Nächten im Camp auch kälter. Für den Abend und den Sonnenaufgang gehören eine warme Schicht, eine Mütze und dünne Handschuhe ins Gepäck." },
+      { q: "Was ist der beste Monat für den Erg Chebbi?", a: "Oktober, November, März und April, mit 24–30 °C am Tag und kühlen Nächten. Dezember bis Februar passt zu allen, die den klarsten Himmel wollen und kalte Nächte nicht scheuen. Juli und August erreichen tagsüber 42–43 °C." },
+      { q: "Regnet es in Merzouga?", a: "Selten. Merzouga hat im Mittel etwa 63 mm Regen im Jahr, verteilt auf rund 21 Tage. Oktober, Februar und September sind die nassesten Monate, und selbst dann regnet es meist nur an zwei oder drei Tagen." },
+    ],
+    content: `Der Erg Chebbi ist das Dünenmeer neben dem Dorf Merzouga im äußersten Südosten
+Marokkos, und es sind die Dünen, an die die meisten denken, wenn von der
+marokkanischen Sahara die Rede ist. Sein Wetter ist schnell beschrieben und leicht
+zu unterschätzen: kaum Regen, fast jeden Tag Sonne, echte Hitze von Mai bis
+September und kalte Nächte von November bis März.
+
+Hier das ganze Jahr in einer Tabelle, danach, wie sich jede Jahreszeit auf einer
+Wüstenreise tatsächlich anfühlt.
+
+## Wetter am Erg Chebbi, Monat für Monat
+
+| Monat | Tag (mittleres Maximum) | Nacht (mittleres Minimum) | Regen | Regentage | Tageslicht |
+| --- | --- | --- | --- | --- | --- |
+| Januar | 19 °C | 6 °C | 5,6 mm | 1,6 | 10 Std. 20 Min. |
+| Februar | 21 °C | 8 °C | 8,3 mm | 2,1 | 11 Std. 00 Min. |
+| März | 26 °C | 12 °C | 6,5 mm | 1,7 | 11 Std. 55 Min. |
+| April | 30 °C | 16 °C | 3,6 mm | 1,5 | 12 Std. 55 Min. |
+| Mai | 34 °C | 20 °C | 4,2 mm | 2,1 | 13 Std. 40 Min. |
+| Juni | 39 °C | 25 °C | 2,0 mm | 1,1 | 14 Std. 10 Min. |
+| Juli | 43 °C | 29 °C | 1,2 mm | 0,6 | 14 Std. 00 Min. |
+| August | 42 °C | 28 °C | 2,5 mm | 1,5 | 13 Std. 20 Min. |
+| September | 37 °C | 24 °C | 7,6 mm | 2,8 | 12 Std. 20 Min. |
+| Oktober | 30 °C | 18 °C | 8,7 mm | 1,9 | 11 Std. 25 Min. |
+| November | 24 °C | 11 °C | 7,4 mm | 2,0 | 10 Std. 30 Min. |
+| Dezember | 20 °C | 7 °C | 5,1 mm | 1,8 | 10 Std. 05 Min. |
+
+Temperaturen und Regen sind Mittelwerte 1991–2020 für Merzouga aus
+Copernicus-Klimadaten, veröffentlicht von weather-and-climate.com. Das
+Tageslicht gilt von Sonnenaufgang bis Sonnenuntergang zur Monatsmitte,
+berechnet für die geografische Breite von Merzouga.
+
+## Winter: Dezember bis Februar
+
+Die Tage sind mild, 19–21 °C, mit klarem Licht. Die Nächte liegen im Mittel bei
+6–8 °C, und in einer stillen, wolkenlosen Nacht im Camp kann es kälter werden als
+der Mittelwert, bis nahe an den Gefrierpunkt. Die Tage sind kurz, etwa zehn
+Stunden Tageslicht, deshalb startet der Kamelritt zum Sonnenuntergang am späten
+Nachmittag, und das Abendessen findet im Dunkeln und in der Kälte statt.
+
+Dieselbe kalte, trockene, ruhige Luft bringt den schönsten Sternenhimmel des
+Jahres, und genau den nutzt unsere
+[Sternennacht in Merzouga](/de/tours/sternenhimmel-merzouga). Packen Sie eine
+richtige Isolationsschicht ein, eine winddichte Jacke, eine Mütze und dünne
+Handschuhe. Unser Beitrag [wie kalt die Sahara nachts
+wird](/de/blog/wetter-sahara-wueste-marokko) behandelt die Nacht, die Camps und die
+Packliste ausführlich.
+
+## Frühling: März bis Mai
+
+März und April gehören zu den besten Wochen des Jahres: 26–30 °C am Tag, 12–16 °C
+in der Nacht und zwölf bis dreizehn Stunden Tageslicht. Im Mai erreicht die
+Mittagszeit 34 °C.
+
+Im Frühling frischt außerdem am häufigsten der Wind auf. Meist heißt das nur eine
+Brise. Ab und zu wirbelt er so viel Sand auf, dass der Horizont verschwimmt, und
+die Camps warten einfach ab. Ein Baumwolltuch über Nase und Mund ist an solchen
+Tagen das Nützlichste, was Sie dabeihaben können.
+
+## Sommer: Juni bis August
+
+39–43 °C am Tag, 25–29 °C in der Nacht und fast kein Regen: Der Juli kommt im
+Mittel auf kaum 1 mm. Die Tage sind lang, etwa vierzehn Stunden. Die Touren
+laufen weiter, aber der Tag ordnet sich neu: Der Kamelritt geht in der Dämmerung
+hinaus und im Morgengrauen zurück, und die Mittagszeit gehört dem Schatten. Für
+eine erste Reise oder mit kleinen Kindern ist das nicht die Saison.
+
+## Herbst: September bis November
+
+Der September ist mit 37 °C noch heiß. Der Oktober pendelt sich bei etwa 30 °C am
+Tag und 18 °C in der Nacht ein, und der November kühlt auf 24 °C und 11 °C ab,
+mit der Rückkehr der kalten Nächte.
+
+Auf dem Papier gehören September und Oktober zu den nassesten Monaten, doch das
+heißt 8–9 mm Regen an zwei oder drei Tagen. Regen kommt hier meist als kurzes
+Gewitter, und trockene Flussbetten können sich schnell füllen. Deshalb schlägt
+ein guter Guide sein Lager nie in einem Wadi auf.
+
+## Regen: selten, aber nicht nie
+
+Merzouga hat im Mittel etwa 63 mm Regen im Jahr, an rund 21 Tagen. Die meisten
+Monate haben ein oder zwei Regentage, der Juli fast keinen. Hitze, Kälte oder
+Wind prägen eine Reise weit eher als Regen.
+
+## Die besten Monate für den Erg Chebbi
+
+- **Oktober, November, März und April:** warme Tage, kühle Nächte und die
+  angenehmsten Bedingungen für den Kamelritt und die Nacht im Camp.
+- **Dezember bis Februar:** kalte Nächte, dafür der klarste Himmel, das schärfste
+  Licht zum Fotografieren und die ruhigsten Dünen.
+- **Mai und September:** mittags heiß, morgens und abends angenehm.
+- **Juli und August:** 42–43 °C. Möglich, aber anstrengend.
+
+Die besten Monate sind auch die gefragtesten, buchen Sie das Camp also früh.
+
+## Ihre Reise planen
+
+- **Privat:** die [3-tägige Merzouga-Tour ab
+  Marrakesch](/de/tours/wuestentour-3-tage-marrakesch) oder die [4-tägige große
+  Wüstentour](/de/tours/wuestentour-4-tage-marrakesch), die die Rückfahrt mit einer
+  Nacht in Ouarzazate teilt.
+- **Geteilt:** die [3-tägige geteilte Merzouga-Tour](/de/tours/merzouga-wueste-3-tage-geteilt)
+  im Minibus mit anderen Reisenden.
+- **Packliste:** [was für eine Wüstentour in den Koffer
+  gehört](/de/blog/what-to-pack-desert-tour-morocco).
+- **Erg Chebbi oder Erg Chegaga?** [Die beiden Dünenmeere im
+  Vergleich](/de/blog/erg-chebbi-vs-erg-chegaga).
 `,
   },
 ];

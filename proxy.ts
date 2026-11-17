@@ -59,6 +59,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "morocco-imperial-cities-route-guide": "villes-imperiales-maroc-itineraire",
   "3-days-in-marrakech-itinerary": "3-jours-a-marrakech",
   "money-in-morocco-cash-atms-tipping": "argent-au-maroc-especes-pourboires",
+  "erg-chebbi-weather-by-month": "meteo-erg-chebbi-par-mois",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -111,6 +112,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "morocco-imperial-cities-route-guide": "ciudades-imperiales-marruecos-ruta",
   "3-days-in-marrakech-itinerary": "3-dias-en-marrakech",
   "money-in-morocco-cash-atms-tipping": "dinero-en-marruecos-efectivo-propinas",
+  "erg-chebbi-weather-by-month": "clima-erg-chebbi-por-meses",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -163,6 +165,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "morocco-imperial-cities-route-guide": "koenigsstaedte-marokko-route",
   "3-days-in-marrakech-itinerary": "3-tage-in-marrakesch",
   "money-in-morocco-cash-atms-tipping": "geld-in-marokko-bargeld-trinkgeld",
+  "erg-chebbi-weather-by-month": "wetter-erg-chebbi-merzouga",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -214,6 +217,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "morocco-imperial-cities-route-guide": "citta-imperiali-marocco-itinerario",
   "3-days-in-marrakech-itinerary": "3-giorni-a-marrakech",
   "money-in-morocco-cash-atms-tipping": "soldi-in-marocco-contanti-mance",
+  "erg-chebbi-weather-by-month": "meteo-erg-chebbi-mese-per-mese",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

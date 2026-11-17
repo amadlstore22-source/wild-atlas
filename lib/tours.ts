@@ -196,18 +196,19 @@ export const TOURS: Tour[] = [
     // Real ladder, not the derived curve: a solo trekker pays for the whole
     // private guide and vehicle, so solo is ~2x the two-person rate rather
     // than the shallow premium groupPriceTiers() would assume.
-    // EUR 845 / 468 / 416 / 377 / 351 / 338: the owner raised Toubkal treks 30% on 2026-10-09
+    // EUR 963 / 586 / 534 / 495 / 469 / 456: +EUR 59 pp per refuge night (2 nights) on 2026-11-13,
+    // after the Toubkal refuge raised its prices. Before that, 845 / 468 / 416 / 377 / 351 / 338 after the owner raised Toubkal treks 30% on 2026-10-09
     // (was 650 / 360 / 320 / 290 / 270 / 260).
     groupPricing: [
-      { minPeople: 1, price: 845 },
-      { minPeople: 2, price: 468 },
-      { minPeople: 3, price: 416 },
-      { minPeople: 4, price: 377 },
-      { minPeople: 5, price: 351 },
-      { minPeople: 6, price: 338 },
+      { minPeople: 1, price: 963 },
+      { minPeople: 2, price: 586 },
+      { minPeople: 3, price: 534 },
+      { minPeople: 4, price: 495 },
+      { minPeople: 5, price: 469 },
+      { minPeople: 6, price: 456 },
     ],
-    price: 845,
-    depositAmount: 169,
+    price: 963,
+    depositAmount: 193,
     // Real photographs from our own Toubkal departures (in public/gallery),
     // ordered to follow the trek: summit celebration, the Imlil valley start,
     // the ascent, and the summit ridge.
@@ -304,7 +305,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "4-Day Toubkal Trek from Marrakech",
-    seoDescription: "Summit Jbel Toubkal (4,167 m) with licensed Berber guides. Mule support, mountain refuges. From €338 pp for 6+. Free cancellation 14 days.",
+    seoDescription: "Summit Jbel Toubkal (4,167 m) with licensed Berber guides. Mule support, mountain refuges. From €456 pp for 6+. Free cancellation 14 days.",
     featured: true,
   },
   {
@@ -2978,7 +2979,7 @@ export const TOURS: Tour[] = [
       "This is the full ring around the Toubkal massif, and it is a different trip from the summit push that most people book. Six days, four high passes, and the summit saved for the last morning rather than treated as the whole point. You start at Tachedirt, cross Tizi Likemt at 3,555 m, drop to Azib Likemt, work south through Amsouzart, camp beside Lake Ifni at 2,295 m, then cross Tizi n'Ouanoums at 3,664 m to the Toubkal Refuge before summiting on day six.",
       "The walking is substantial and consistent: 4 hours on day one, 6–7 on day two with 1,255 m of ascent and 1,305 m down, 6 on day three, 5 on day four, 6–7 on day five with another 1,370 m of climbing, and 7–8 on the final day including the 4,167 m summit and a 2,430 m descent to Imlil. That is six consecutive days of mountain walking at altitude. It is graded challenging and the grade is honest.",
       "Lake Ifni is the reason to choose this over the standard route. It is the only real lake in the High Atlas, turquoise and set in a bowl of bare rock at 2,295 m, and almost nobody on a summit trek ever sees it. The nights vary too — refuges, village gîtes and camping rather than the same refuge twice — which means you pass through inhabited valleys and grazing land that the Imlil corridor never shows you.",
-      "Prices per person: €1,188 solo, €948 for two, €702 for three, €612 for four, €576 for five and €540 at six. That includes the licensed mountain guide, all five nights, every meal on the trek, the mules and muleteers carrying group gear and camp, national park fees and the return transfer from Marrakech. Travel insurance is mandatory and not included, and you bring your own trekking kit and sleeping bag. Tips for the guide, cook and muleteers are separate and customary.",
+      "Prices per person: €1,247 solo, €1007 for two, €761 for three, €671 for four, €635 for five and €599 at six. That includes the licensed mountain guide, all five nights, every meal on the trek, the mules and muleteers carrying group gear and camp, national park fees and the return transfer from Marrakech. Travel insurance is mandatory and not included, and you bring your own trekking kit and sleeping bag. Tips for the guide, cook and muleteers are separate and customary.",
       "You do not carry your own gear beyond a day pack — the mule team moves camp. What you should bring is genuine hill fitness and broken-in boots. Six days is long enough that small problems become large ones, and the most common reason someone struggles here is footwear rather than fitness. Private group of 2–12.",
     ],
     title: "Toubkal Circuit & Ifni Lake from Marrakech — 6-Day Trek",
@@ -2996,15 +2997,15 @@ export const TOURS: Tour[] = [
     // EUR 1188 / 948 / 702 / 612 / 576 / 540: the owner raised trips that include the
     // Toubkal summit 20% on 2026-10-09 (was 990 / 790 / 585 / 510 / 480 / 450).
     groupPricing: [
-      { minPeople: 1, price: 1188 },
-      { minPeople: 2, price: 948 },
-      { minPeople: 3, price: 702 },
-      { minPeople: 4, price: 612 },
-      { minPeople: 5, price: 576 },
-      { minPeople: 6, price: 540 },
+      { minPeople: 1, price: 1247 },
+      { minPeople: 2, price: 1007 },
+      { minPeople: 3, price: 761 },
+      { minPeople: 4, price: 671 },
+      { minPeople: 5, price: 635 },
+      { minPeople: 6, price: 599 },
     ],
-    price: 1188,
-    depositAmount: 238,
+    price: 1247,
+    depositAmount: 249,
     // Our own photographs, ordered to follow the itinerary: the high approach
     // and azib pastures of days 1-4, the lake the tour is named after, then the
     // Toubkal summit day that closes it. The summit frames are snow and the
@@ -3121,7 +3122,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "6-Day Toubkal Circuit Trek via Lake Ifni",
     seoDescription:
-      "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). From €540 pp for 6+.",
+      "The complete 6-day Toubkal circuit from Marrakech — high passes, the turquoise Lake Ifni, and the Jbel Toubkal summit (4,167 m). From €599 pp for 6+.",
     featured: false,
   },
   {
@@ -3131,7 +3132,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Two days is the shortest honest way to stand on top of North Africa. Day one is a 1.5-hour drive from Marrakech to Imlil and then roughly five hours of walking to the Toubkal Refuge at 3,207 m, climbing about 1,470 m past the Sidi Chamharouch shrine. Day two starts before dawn: 960 m up to the 4,167 m summit, then the whole 2,430 m descent to Imlil and the drive back. Seven to eight hours of walking on the second day, most of it downhill on loose ground.",
       "The thing worth understanding before booking is that there is no acclimatisation day. You sleep one night at 3,207 m and summit the next morning, which is a real ascent profile rather than a gentle one. Walkers who are comfortable with a long hill day at home generally manage it; walkers who have never been above 3,000 m sometimes feel the altitude on the final slope. If you have the time, the 4-day version builds in acclimatisation and is the better trek — this one exists for people who do not.",
-      "Price runs on a group ladder because the guide and the transfer cost the same whether one person walks or six. Solo is €455. Two people pay €254 each, three €241, four €228, five €215, and at six it falls to €199 per person. That figure covers the licensed mountain guide, the refuge night, all meals on the mountain, national park fees and return transport from Marrakech — so the number quoted is the number you pay, not a base rate with the mountain costs added later.",
+      "Price runs on a group ladder because the guide and the transfer cost the same whether one person walks or six. Solo is €514. Two people pay €313 each, three €300, four €287, five €274, and at six it falls to €258 per person. That figure covers the licensed mountain guide, the refuge night, all meals on the mountain, national park fees and return transport from Marrakech — so the number quoted is the number you pay, not a base rate with the mountain costs added later.",
       "Not included: travel insurance, which is mandatory, your own boots and layers, tips for the guide, and crampons and an ice axe if you are going in winter. Those last are rentable in Imlil. Between roughly November and April the summit becomes a snow climb and the trek is a genuinely different proposition — still very doable with the right kit, but not the same walk as the one in the photographs.",
       "The group is yours alone. This is a private trek for 2–12 people, so the pace is set by your party rather than by strangers, and the guide can turn a group around or slow it down without negotiating with anyone else's schedule. On a two-day summit with no spare day, that flexibility is worth more than it sounds.",
     ],
@@ -3147,18 +3148,19 @@ export const TOURS: Tour[] = [
     // Real ladder, not the derived curve: a solo trekker pays for the whole
     // private guide and vehicle, so solo is ~2x the two-person rate rather
     // than the shallow premium groupPriceTiers() would assume.
-    // EUR 455 / 254 / 241 / 228 / 215 / 199: the owner raised Toubkal treks 30% on 2026-10-09
+    // EUR 514 / 313 / 300 / 287 / 274 / 258: +EUR 59 pp per refuge night (1 night) on 2026-11-13,
+    // after the Toubkal refuge raised its prices. Before that, 455 / 254 / 241 / 228 / 215 / 199 after the owner raised Toubkal treks 30% on 2026-10-09
     // (was 350 / 195 / 185 / 175 / 165 / 153).
     groupPricing: [
-      { minPeople: 1, price: 455 },
-      { minPeople: 2, price: 254 },
-      { minPeople: 3, price: 241 },
-      { minPeople: 4, price: 228 },
-      { minPeople: 5, price: 215 },
-      { minPeople: 6, price: 199 },
+      { minPeople: 1, price: 514 },
+      { minPeople: 2, price: 313 },
+      { minPeople: 3, price: 300 },
+      { minPeople: 4, price: 287 },
+      { minPeople: 5, price: 274 },
+      { minPeople: 6, price: 258 },
     ],
-    price: 455,
-    depositAmount: 91,
+    price: 514,
+    depositAmount: 103,
     // Real photos from our Toubkal departures. A different selection from the
     // 4-day tour so the two pages don't look identical — this focuses on the
     // fast summit push: the snow slope, the ridge, and the summit ridge climbers.
@@ -3232,7 +3234,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Toubkal Trek from Marrakech",
-    seoDescription: "Reach North Africa’s highest peak in two days. Private or small group, overnight at Toubkal Refuge. From €199 pp for 6+. Licensed Berber guides.",
+    seoDescription: "Reach North Africa’s highest peak in two days. Private or small group, overnight at Toubkal Refuge. From €258 pp for 6+. Licensed Berber guides.",
     featured: true,
   },
   {
@@ -3251,18 +3253,19 @@ export const TOURS: Tour[] = [
     // Real ladder, not the derived curve: a solo traveller pays for the whole
     // private guide and vehicle, so solo is far above the shallow premium
     // groupPriceTiers() would assume.
-    // EUR 780 / 393 / 351 / 338 / 325 / 299: the owner raised Toubkal treks 30% on 2026-10-09
+    // EUR 839 / 452 / 410 / 397 / 384 / 358: +EUR 59 pp per refuge night (1 night; night 1 is
+    // a village gîte, no camping) on 2026-11-13, after the Toubkal refuge raised its prices. Before that, 780 / 393 / 351 / 338 / 325 / 299 after the owner raised Toubkal treks 30% on 2026-10-09
     // (was 600 / 302 / 270 / 260 / 250 / 230).
     groupPricing: [
-      { minPeople: 1, price: 780 },
-      { minPeople: 2, price: 393 },
-      { minPeople: 3, price: 351 },
-      { minPeople: 4, price: 338 },
-      { minPeople: 5, price: 325 },
-      { minPeople: 6, price: 299 },
+      { minPeople: 1, price: 839 },
+      { minPeople: 2, price: 452 },
+      { minPeople: 3, price: 410 },
+      { minPeople: 4, price: 397 },
+      { minPeople: 5, price: 384 },
+      { minPeople: 6, price: 358 },
     ],
-    price: 780,
-    depositAmount: 156,
+    price: 839,
+    depositAmount: 168,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -3283,7 +3286,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professional licensed mountain guide",
-      "2 nights in the mountain refuge or camping, depending on the weather and your preference",
+      "1 night in a village gîte in the Azzaden valley and 1 night in the Toubkal Refuge",
       "All meals during the trek",
       "Mule porter for group gear",
       "Toubkal National Park entrance fees",
@@ -3299,7 +3302,7 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Wild camp",
+        stay: "Village gîte",
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+900 m",
@@ -3309,7 +3312,7 @@ export const TOURS: Tour[] = [
         stop: { name: "Azib Tamsoult", lat: 31.097544, lng: -7.966532 },
         title: "Marrakech → Imlil → Azzaden Valley (Azib Tamsoult)",
         description:
-          "Transfer from Marrakech to Imlil. Trek over the Tizi n'Mzik pass (2,450 m) into the Azzaden Valley, past the Ighouliden waterfalls to the refuge near Azib Tamsoult. Around 6 hours.",
+          "Transfer from Marrakech to Imlil. Trek over the Tizi n'Mzik pass (2,450 m) into the Azzaden Valley, past the Ighouliden waterfalls to a village gîte near Azib Tamsoult. Around 6 hours.",
       },
       {
         day: 2,
@@ -3336,14 +3339,14 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "How hard is this compared with the standard Toubkal route?", a: "It is graded challenging. The difficulty is not technical climbing but the high Aguelzim Pass (3,560 m) on the approach plus the summit at 4,167 m, so altitude is the main test. It is a more scenic, quieter way in." },
-      { q: "Where do we stay?", a: "Two nights in mountain refuges — working huts with shared bunks, blankets, and communal meals. Bring a sleeping bag liner and head torch." },
+      { q: "Where do we stay?", a: "Night one is in a village gîte in the Azzaden valley near Azib Tamsoult; night two is in the Toubkal Refuge — a working hut with shared bunks, blankets and communal meals. There is no camping on this trek. Bring a sleeping bag liner and head torch." },
       { q: "Do I carry all my gear?", a: "No — a mule porter carries the group gear, so you carry only a daypack. Personal trekking equipment is your own." },
       { q: "Is travel insurance required?", a: "Yes, it is mandatory for this trek and not included. Tips for the guide and porter are also not included." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Toubkal Trek, Aguelzim Pass",
     seoDescription:
-      "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). From €299 pp for 6+.",
+      "Climb Toubkal (4,167 m) the scenic way — 3 days via the Azzaden Valley, Ighouliden waterfalls and the Aguelzim Pass (3,560 m). From €358 pp for 6+.",
     featured: false,
   },
   {
@@ -3362,18 +3365,19 @@ export const TOURS: Tour[] = [
     // Real ladder, not the derived curve: a solo traveller pays for the whole
     // private guide and vehicle, so solo is far above the shallow premium
     // groupPriceTiers() would assume.
-    // EUR 780 / 393 / 351 / 338 / 325 / 299: the owner raised Toubkal treks 30% on 2026-10-09
+    // EUR 898 / 511 / 469 / 456 / 443 / 417: +EUR 59 pp per refuge night (2 nights) on 2026-11-13,
+    // after the Toubkal refuge raised its prices. Before that, 780 / 393 / 351 / 338 / 325 / 299 after the owner raised Toubkal treks 30% on 2026-10-09
     // (was 600 / 302 / 270 / 260 / 250 / 230).
     groupPricing: [
-      { minPeople: 1, price: 780 },
-      { minPeople: 2, price: 393 },
-      { minPeople: 3, price: 351 },
-      { minPeople: 4, price: 338 },
-      { minPeople: 5, price: 325 },
-      { minPeople: 6, price: 299 },
+      { minPeople: 1, price: 898 },
+      { minPeople: 2, price: 511 },
+      { minPeople: 3, price: 469 },
+      { minPeople: 4, price: 456 },
+      { minPeople: 5, price: 443 },
+      { minPeople: 6, price: 417 },
     ],
-    price: 780,
-    depositAmount: 156,
+    price: 898,
+    depositAmount: 180,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -3456,7 +3460,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "3-Day Toubkal Three Peaks 4,000 m Trek",
     seoDescription:
-      "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). From €299 pp for 6+.",
+      "Summit three 4,000 m High Atlas peaks in 3 days — Timesguida (4,089 m), Ras Ouanoukrim (4,083 m) and Toubkal (4,167 m). From €417 pp for 6+.",
     featured: false,
   },
   {
@@ -4098,14 +4102,14 @@ export const TOURS: Tour[] = [
     // EUR 2040 / 1680 / 1548 / 1476 / 1320 for 2/3/4/5/6+: raised 20% by the owner on
     // 2026-10-09 (was 1700 / 1400 / 1290 / 1230 / 1100).
     groupPricing: [
-      { minPeople: 2, price: 2040 },
-      { minPeople: 3, price: 1680 },
-      { minPeople: 4, price: 1548 },
-      { minPeople: 5, price: 1476 },
-      { minPeople: 6, price: 1320 },
+      { minPeople: 2, price: 2158 },
+      { minPeople: 3, price: 1798 },
+      { minPeople: 4, price: 1666 },
+      { minPeople: 5, price: 1594 },
+      { minPeople: 6, price: 1438 },
     ],
-    price: 2040,
-    depositAmount: 408,
+    price: 2158,
+    depositAmount: 432,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -4159,7 +4163,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6558, lng: -6.4561, name: "Aït Bougmez / Aït M'hamed, M'Goun Trailhead" },
     seoTitle: "15-Day High Atlas Grand Traverse Trek",
     seoDescription:
-      "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. From €1,320 pp for 6+.",
+      "The full 15-day High Atlas traverse from the Aït Bougmez valley over M'Goun (4,068 m) to a Toubkal (4,167 m) summit. From €1,438 pp for 6+.",
     faq: [
       { q: "How fit and experienced do I need to be for the Grand Traverse?", a: "This is graded expert — the most demanding trip we run. It is fifteen consecutive days of walking, several of them long (8–9 hours), with two 4,000 m summits and high passes. You should already have multi-day trekking experience, be comfortable at altitude, and be prepared for consecutive hard days in remote country. It is not a first big trek." },
       { q: "Which peaks does the traverse summit?", a: "Both of North Africa's highest: M'Goun (4,068 m) early in the route from the Aït Bougmez side, and Jbel Toubkal (4,167 m) near the end. Weather permitting, both summits are part of the standard itinerary rather than optional extras." },
@@ -4184,21 +4188,21 @@ export const TOURS: Tour[] = [
     rating: 4.9,
     // Benchmarked 10% under their 5-day Toubkal Trek & Sahara — same trip, same length
     // (published table, verified Aug 2026).
-    price: 1140,
+    price: 1199,
     // No priceMax: the group tiers below express the real spread. The old
     // 690-790 band was a seasonal range on a single per-person price and
     // would now sit BELOW the solo rate, inverting the displayed range.
-    depositAmount: 228,
+    depositAmount: 240,
     groupPricing: [
-      { minPeople: 1, price: 1140 }, // €1,140
-      { minPeople: 2, price: 773 }, // €773
-      { minPeople: 3, price: 545 }, // €545
-      { minPeople: 4, price: 470 }, // €470
-      { minPeople: 5, price: 449 }, // €449
-      { minPeople: 6, price: 437 }, // €437
-      { minPeople: 7, price: 427 }, // €427
-      { minPeople: 10, price: 394 }, // €394
-      { minPeople: 14, price: 372 }, // €372
+      { minPeople: 1, price: 1199 }, // €1,140
+      { minPeople: 2, price: 832 }, // €773
+      { minPeople: 3, price: 604 }, // €545
+      { minPeople: 4, price: 529 }, // €470
+      { minPeople: 5, price: 508 }, // €449
+      { minPeople: 6, price: 496 }, // €437
+      { minPeople: 7, price: 486 }, // €427
+      { minPeople: 10, price: 453 }, // €394
+      { minPeople: 14, price: 431 }, // €372
     ],
     heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
@@ -4301,7 +4305,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     seoTitle: "5-Day Toubkal Summit and Sahara Desert Tour",
     seoDescription:
-      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. From €372 pp for 14+.",
+      "Combine both of Morocco's headline adventures: summit Jbel Toubkal (4,167 m) then cross to the Erg Chebbi Sahara dunes. From €431 pp for 14+.",
     faq: [
       { q: "How fit do I need to be for the Toubkal and Sahara combo?", a: "The trek half is graded challenging: two mountain days with a pre-dawn summit push at 4,167 m, so you need to be a fit, regular walker comfortable at altitude. The desert half is easy and vehicle-based, so it acts as a rest after the summit. If you can manage a hard two-day mountain trek, the rest of the trip is comfortable." },
       { q: "Why do Toubkal first and the desert second?", a: "The summit is the physically demanding part, so it goes first while you are fresh, and the desert days — mostly driving with short walks and camel rides — become a natural wind-down afterwards. It also means the toughest weather variable (the summit) is dealt with early in the trip." },
@@ -4857,20 +4861,21 @@ export const TOURS: Tour[] = [
     // invariant test requires rather than a fabricated score.
     reviewCount: 0,
     rating: 5,
-    // EUR 1067 per seat: raised 20% by the owner on 2026-10-09 (was EUR 889).
+    // EUR 1126 per seat: +EUR 59 (one refuge night) on 2026-11-13 after the Toubkal refuge raised
+    // its prices; EUR 1067 after the owner raised it 20% on 2026-10-09 (was EUR 889).
     // No groupPricing: the seat price is flat by design -- see fixedDeparture
     // on the Tour interface for why the ladder does not apply here.
-    price: 1067,
+    price: 1126,
     fixedDeparture: {
       dates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
       seatsTotal: 14,
-      // EUR 1105 (was 921 before the 2026-10-09 +20%) -- the standard rate this trip sells at outside the launch
+      // EUR 1164 (+59 on 2026-11-13; 1105 after the 2026-10-09 +20%, 921 before) -- the standard rate this trip sells at outside the launch
       // promotion. A real price, not an invented anchor: if the discount ever
       // becomes the permanent rate, delete this field rather than keep showing
       // a figure nobody pays.
-      listPrice: 1105,
+      listPrice: 1164,
     },
-    depositAmount: 213,
+    depositAmount: 225,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -5001,7 +5006,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech Menara Airport -- we collect you" },
     seoTitle: "8-Day Toubkal Summit and Sahara Desert Tour",
     seoDescription:
-      "Toubkal (4,167 m) and the Erg Chebbi dunes in one 8-day trip from Marrakech. Five set departures from March 2027, 14 seats, €1,067 pp — was €1,105.",
+      "Toubkal (4,167 m) and the Erg Chebbi dunes in one 8-day trip from Marrakech. Five set departures from March 2027, 14 seats, €1,126 pp — was €1,164.",
     featured: true,
   },
   {

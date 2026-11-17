@@ -201,7 +201,7 @@ The deep-dive guides below cover each region in full detail.
       { q: "What is the Toubkal Refuge like?", a: "It is a working mountain hut at around 3,200 metres, not a hotel. Expect shared dormitory rooms, bunk beds with mattresses and blankets, communal meals, and cold nights. Bring a sleeping bag liner, a head torch and earplugs, and treat the early night as part of the plan since summit starts are well before dawn." },
       { q: "What is the best time of year to climb Toubkal?", a: "April to October is the straightforward season, with the most settled weather from May to September. November to April is a genuine winter mountaineering trip: snow on the upper route, crampons and an ice axe required, and conditions that turn quickly. Both are possible with a guide, but they are different undertakings." },
     
-      { q: "How much does it cost to climb Toubkal?", a: "With us the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €254 per person for two and €199 at six, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) from €468 for two and €338 at six. Both include the licensed guide, refuge nights, all meals on the mountain, national park fees and return transport from Marrakech. Arranging it yourself is cheaper on paper but the gap narrows fast once you have paid guide, refuge, mule and transport separately." },
+      { q: "How much does it cost to climb Toubkal?", a: "With us the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €313 per person for two and €258 at six, and the [4-day trek](/en/tours/toubkal-summit-trek-4day) from €586 for two and €456 at six. Both include the licensed guide, refuge nights, all meals on the mountain, national park fees and return transport from Marrakech. Arranging it yourself is cheaper on paper but the gap narrows fast once you have paid guide, refuge, mule and transport separately." },
       { q: "Can a beginner climb Toubkal?", a: "Yes, and most people who summit it are not mountaineers. There is no technical climbing on the standard route in summer — no rope, no scrambling that needs hands for balance beyond the odd rocky step. What it does demand is the ability to walk uphill for five to six hours on consecutive days at altitude. If you can manage a long hilly day walk at home without dreading the next one, you have the engine for it. Winter is a different mountain and does need crampons, an ice axe and the skills to use them." },
       { q: "What is the success rate on Toubkal?", a: "Far higher on the 4-day itinerary than the 2-day, and the reason is always altitude rather than fitness. The 2-day goes from 1,740 m at Imlil to 4,167 m in roughly thirty hours, which is fast enough that some people are turned back by headache and nausea regardless of how fit they are. The 4-day walks in gradually with a night to acclimatise first. If reaching the summit matters more to you than the extra days cost, take the longer itinerary." },
       { q: "Do you need a permit to climb Toubkal?", a: "You need a national park access fee, which is included in every Toubkal trek we run, so there is nothing for you to arrange or queue for. Since 2018 Moroccan authorities also require trekkers in the Toubkal massif to be accompanied by a licensed guide, which is enforced at the Imlil trailhead — that is a legal requirement rather than an upsell, and it is the reason the mountain has no genuine unguided option." },
@@ -2840,7 +2840,7 @@ None of this means the two-day trip is unsafe for a fit, experienced hillwalker 
 | Odds of feeling rough on summit day | Higher | Lower |
 | Where you sleep | Toubkal refuge | Imlil guesthouse, then two nights at the refuge |
 | Walking per day | 5 h, then 7–8 h | 1–2 h, 5 h, 6–7 h, 5–6 h |
-| Price each, for two | [€254](/en/tours/toubkal-summit-2day-marrakech) | [€468](/en/tours/toubkal-summit-trek-4day) |
+| Price each, for two | [€313](/en/tours/toubkal-summit-2day-marrakech) | [€586](/en/tours/toubkal-summit-trek-4day) |
 
 ## How to choose
 
@@ -2854,7 +2854,7 @@ The honest framing: the two-day is a fine trip that asks more of you. The four-d
 
 We run two three-day routes to the summit, and each sits between the 2-day and the 4-day in a different way.
 
-- **[Via the Aguelzim Pass](/en/tours/toubkal-aguelzim-pass-3day).** Day one walks into the Azzaden valley to Azib Tamsoult. Day two crosses the Aguelzim pass at 3,560 m to the refuge. Day three is the summit. You get two nights in the mountains before the top instead of one, on a quieter approach than the main valley. The nights are at the refuge or in camp, depending on the weather and what you prefer.
+- **[Via the Aguelzim Pass](/en/tours/toubkal-aguelzim-pass-3day).** Day one walks into the Azzaden valley to Azib Tamsoult. Day two crosses the Aguelzim pass at 3,560 m to the refuge. Day three is the summit. You get two nights in the mountains before the top instead of one, on a quieter approach than the main valley. The first night is in a village gîte in the Azzaden valley, the second at the Toubkal refuge.
 - **[The three-peaks challenge](/en/tours/toubkal-three-peaks-4000m-3day).** Day two climbs Ouanoukrim's two summits, Timesguida (4,089 m) and Ras (4,083 m), and returns to the refuge. Day three is Toubkal. It is graded expert: a trip for people who already know how they handle altitude, not a gentler way up for first-timers.
 
 | | 2-day | 3-day, Aguelzim Pass | 3-day, three peaks | 4-day |
@@ -3201,16 +3201,16 @@ Rated moderate — the most approachable route here. Its season is inverted rela
 
 | Days | Trek | Difficulty | Where you sleep | Walking per day | Each, for two | Best for |
 |---|---|---|---|---|---|---|
-| 2 | [Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | Challenging | Toubkal refuge | 5 h, then 7–8 h | €254 | Fit walkers short on time |
+| 2 | [Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | Challenging | Toubkal refuge | 5 h, then 7–8 h | €313 | Fit walkers short on time |
 | 2 | [Azzaden Valley](/en/tours/azzaden-valley-2day-trek) | Moderate | Village guesthouse | 5–6 h | €161 | A first taste, no summit |
 | 3 | [High Atlas villages](/en/tours/atlas-mountains-3day-trek) | Moderate | Two village guesthouses | 5–6 h | €235 | Village life, no summit |
-| 3 | [Toubkal via the Aguelzim pass](/en/tours/toubkal-aguelzim-pass-3day) | Challenging | Refuge or camp, by weather and preference | 5–7 h | €393 | A quieter way to the summit |
-| 3 | [Toubkal's three 4,000 m peaks](/en/tours/toubkal-three-peaks-4000m-3day) | Expert | Toubkal refuge, two nights | 5–8 h | €393 | Walkers already at home at altitude |
-| 4 | [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | Challenging | Imlil guesthouse, then the refuge | 1–7 h | €468 | A first time at altitude |
+| 3 | [Toubkal via the Aguelzim pass](/en/tours/toubkal-aguelzim-pass-3day) | Challenging | Village gîte, then the Toubkal refuge | 5–7 h | €452 | A quieter way to the summit |
+| 3 | [Toubkal's three 4,000 m peaks](/en/tours/toubkal-three-peaks-4000m-3day) | Expert | Toubkal refuge, two nights | 5–8 h | €511 | Walkers already at home at altitude |
+| 4 | [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | Challenging | Imlil guesthouse, then the refuge | 1–7 h | €586 | A first time at altitude |
 | 4 | [Family High Atlas](/en/tours/family-atlas-4day-trek) | Easy | Village guesthouses | 2–5 h | €313 | Families with children |
-| 6 | [Toubkal circuit and Lake Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) | Challenging | Village gîtes, camps, the refuge | 4–8 h | €948 | Remote valleys and the summit |
+| 6 | [Toubkal circuit and Lake Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) | Challenging | Village gîtes, camps, the refuge | 4–8 h | €1007 | Remote valleys and the summit |
 | 7 | [M'Goun traverse](/en/tours/mgoun-massif-trek) | Expert | Village gîte, camps, a guesthouse | 5–8 h | €760 | A real expedition |
-| 15 | [High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) | Expert | Village gîtes, camps, refuges | 1–9 h | €2,040 | M'Goun to Toubkal, end to end |
+| 15 | [High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) | Expert | Village gîtes, camps, refuges | 1–9 h | €2,158 | M'Goun to Toubkal, end to end |
 
 Every trek is private, for your group alone, with a licensed mountain guide, all meals on the trek, mules for the luggage and the return transfer from Marrakech. The Toubkal and M'Goun treks also include the national park fees. On any route that reaches Toubkal's summit, the top holds snow and ice from roughly November to April, and crampons and an ice axe are needed.
 
@@ -5137,12 +5137,12 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     faq: [
       { q: "How much does a Toubkal guide cost per day?", a: "A licensed mountain guide typically costs 500–800 MAD per day (roughly £40–63 / €46–74) hired directly at Imlil, and the fee is split across your group rather than charged per person. Winter ascents sit at the upper end because the summit becomes a snow climb. That fee covers the guide only — the mule, refuge bed and half board, park fee and transfer are separate." },
       { q: "Is a guide mandatory to climb Toubkal?", a: "Yes. A licensed mountain guide is required on Toubkal and there is a checkpoint at Imlil that enforces it. Guides are certified by the Moroccan Ministry of Tourism. See [do you need a guide to climb Toubkal](/en/blog/do-you-need-a-guide-to-climb-toubkal) for the full explanation." },
-      { q: "What does a 2-day Toubkal trek cost in total?", a: "Organising it yourself, two people typically spend 2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair) once the guide, two refuge beds with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 per person for two, falling to €199 at six; solo is €455, because one walker carries the whole guide and transfer cost." },
+      { q: "What does a 2-day Toubkal trek cost in total?", a: "Organising it yourself, two people typically spend 2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair) once the guide, two refuge beds with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €313 per person for two, falling to €258 at six; solo is €514, because one walker carries the whole guide and transfer cost." },
       { q: "Is it cheaper to hire a guide yourself than book a package?", a: "Usually less than people expect. The guide's day rate is only one line of the bill — the refuge, meals, mule, park fee and the return transfer from Marrakech make up most of the rest. Self-organising gives you more flexibility and slightly more control over cost, especially in a larger group; a package trades that for having the logistics handled." },
       { q: "How much should I tip a Toubkal guide?", a: "Around 150–200 MAD a day for the guide and 70–100 MAD a day for the muleteer, from the group as a whole rather than from each walker, paid in cash in dirhams at the end. It is customary and appreciated but never compulsory — give more if conditions were hard or your guide made a difficult day work." },
     
-      { q: "How much does it cost to climb Mount Toubkal?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €254 per person for two and €199 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €468 for two and €338 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain and national park fees, and the 4-day adds a mule for the group gear — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
-      { q: "Who runs guided Toubkal climbs?", a: "Licensed mountain guides, certified by Morocco's Ministry of Tourism. A guide is compulsory on Toubkal and the checkpoint at Imlil enforces it, so you either hire one directly in Imlil or book a licensed operator who arranges the guide, mule, refuge and transport together. We run private guided climbs from Marrakech: the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech), from €254 per person for two, and the [4-day trek](/en/tours/toubkal-summit-trek-4day), from €468 per person for two." },
+      { q: "How much does it cost to climb Mount Toubkal?", a: "Our [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is from €313 per person for two and €258 at six; the [4-day trek](/en/tours/toubkal-summit-trek-4day) is from €586 for two and €456 at six. Both figures include return transport from Marrakech, the licensed guide, refuge nights, all meals on the mountain and national park fees, and the 4-day adds a mule for the group gear — so the number you see is the number you pay rather than a base rate with the mountain costs added afterwards." },
+      { q: "Who runs guided Toubkal climbs?", a: "Licensed mountain guides, certified by Morocco's Ministry of Tourism. A guide is compulsory on Toubkal and the checkpoint at Imlil enforces it, so you either hire one directly in Imlil or book a licensed operator who arranges the guide, mule, refuge and transport together. We run private guided climbs from Marrakech: the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech), from €313 per person for two, and the [4-day trek](/en/tours/toubkal-summit-trek-4day), from €586 per person for two." },
     ],
     content: `
 ## What a Toubkal guide actually costs
@@ -5191,8 +5191,8 @@ you negotiate. Per person that lands not far from a packaged price — which sur
 When travellers compare a package price against "just hiring a guide," they usually compare
 the guide's day rate against the whole package. That is not the same thing.
 
-Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 per person for two
-(€455 solo, €199 at six) and includes the licensed guide, the refuge night, all meals on the mountain,
+Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €313 per person for two
+(€514 solo, €258 at six) and includes the licensed guide, the refuge night, all meals on the mountain,
 park fees, and the round-trip transfer from Marrakech. Assembled separately, those
 same components land in a similar range once the transfer and refuge are paid for. The
 difference is who does the assembling, who carries the risk if the refuge is full, and
@@ -5204,7 +5204,7 @@ yourself. If you have a fixed weekend and want it handled, book it.
 ## Where the money actually goes
 
 This is the part worth knowing. Booking platforms charge operators **25–40% commission**.
-On a €254 trek that is up to €102 leaving Morocco entirely — it does not reach the guide,
+On a €313 trek that is up to €102 leaving Morocco entirely — it does not reach the guide,
 the refuge, or the family running the trip.
 
 That is the honest argument for booking direct with any Moroccan operator, not only us:
@@ -5242,7 +5242,7 @@ whole group, not from each walker. Give more if conditions were hard or the guid
 difficult day around. Cash, in dirhams, at the end.
 
 A percentage of the trip price is the wrong instrument here, and it is worth saying why:
-the same two-day trek costs €455 for one person and €199 each at six, because the guide
+the same two-day trek costs €514 for one person and €258 each at six, because the guide
 and the transfer are being divided rather than repeated. Tipping 10% of that would pay the
 guide more than twice as much for the solo trip as for the group — for identical work, on
 identical ground. The daily rate reflects what the work actually was.
@@ -5268,7 +5268,7 @@ carrying the logistics.
 Whichever you choose, hire someone licensed, agree the total in advance, and make sure you
 know what is included before you leave Marrakech.
 
-👉 **[See our 2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — from €254 per person, everything on this list included, no platform commission.
+👉 **[See our 2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — from €313 per person, everything on this list included, no platform commission.
 `,
   },
   {
@@ -5289,8 +5289,8 @@ know what is included before you leave Marrakech.
     seoDescription:
       "What a 2-day Toubkal summit really costs in 2026: guide, refuge, park fee and transfer itemised in dirhams.",
     faq: [
-      { q: "How much does a 2-day Toubkal trek cost?", a: "Organising it yourself, two people typically spend 2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair) once the guide, two refuge beds with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 per person for two, €199 at six, or €455 solo — all of it included." },
-      { q: "Is the 2-day cheaper than the 4-day Toubkal trek?", a: "Yes, but less than the day count suggests. The 2-day is €254 per person for two and the [4-day](/en/tours/toubkal-summit-trek-4day) is €468 — not double, because the guide fee and the Marrakech transfer are charged per trip rather than per day. The extra two days mostly buy acclimatisation, which is the single biggest factor in whether you actually reach the summit." },
+      { q: "How much does a 2-day Toubkal trek cost?", a: "Organising it yourself, two people typically spend 2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair) once the guide, two refuge beds with half board, park fee and Marrakech transfer are added up. Our [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €313 per person for two, €258 at six, or €514 solo — all of it included." },
+      { q: "Is the 2-day cheaper than the 4-day Toubkal trek?", a: "Yes, but less than the day count suggests. The 2-day is €313 per person for two and the [4-day](/en/tours/toubkal-summit-trek-4day) is €586 — not double, because the guide fee and the Marrakech transfer are charged per trip rather than per day. The extra two days mostly buy acclimatisation, which is the single biggest factor in whether you actually reach the summit." },
       { q: "What is not included in a 2-day Toubkal package?", a: "Travel insurance (mandatory and worth having for a 4,167 m mountain), personal trekking equipment, tips for the guide, and crampons and ice axe if you go between November and April. Budget roughly 100–150 MAD per day for winter kit rental in Imlil and roughly 300–400 MAD from the group for tips." },
       { q: "Can you climb Toubkal in 2 days without a guide?", a: "No. A licensed mountain guide is required on Toubkal and there is a checkpoint at Imlil that enforces it. See [do you need a guide to climb Toubkal](/en/blog/do-you-need-a-guide-to-climb-toubkal) for the rule and the reasoning behind it." },
     ],
@@ -5299,7 +5299,7 @@ know what is included before you leave Marrakech.
 
 Two people organising a 2-day Toubkal ascent themselves typically spend
 **2,200–3,300 MAD in total (about £175–260 / €205–310 for the pair)**. Our packaged
-[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is **from €254 per person** for two — €455 solo, €199 at six.
+[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is **from €313 per person** for two — €514 solo, €258 at six.
 
 Those two numbers are closer than most people expect, and the reason is worth
 understanding before you decide which way to book.
@@ -5347,7 +5347,7 @@ deposit, and get the answer in writing.
 
 ## The two-day versus four-day question
 
-The 2-day is €254 per person for two; the [4-day](/en/tours/toubkal-summit-trek-4day) is €468. Solo, they are €455 and €845.
+The 2-day is €313 per person for two; the [4-day](/en/tours/toubkal-summit-trek-4day) is €586. Solo, they are €514 and €963.
 Not double, because the guide and transfer are per-trip costs spread over more
 days.
 
@@ -5368,7 +5368,7 @@ Worth budgeting separately:
 
 ## Where the money goes
 
-Booking platforms charge operators **25–40% commission**. On a €254 trek that is up to
+Booking platforms charge operators **25–40% commission**. On a €313 trek that is up to
 €102 leaving Morocco entirely — money that never reaches the guide, the
 refuge, or the family running the trip.
 
@@ -5378,13 +5378,13 @@ When you hire a guide face to face in Imlil, you are doing exactly the same thin
 ## The short version
 
 Self-organising a 2-day Toubkal ascent costs a pair roughly 2,200–3,300 MAD and gives
-you flexibility plus a morning of admin in Imlil. A package costs from €254 per person and
+you flexibility plus a morning of admin in Imlil. A package costs from €313 per person and
 hands the logistics — including what happens if the refuge is full or the weather turns
 — to someone else.
 
 Both are legitimate. Pick by how much of your weekend you want to spend organising.
 
-👉 **[See our 2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — from €254 per person, everything above included, no platform commission.
+👉 **[See our 2-day Toubkal summit from Marrakech](/en/tours/toubkal-summit-2day-marrakech)** — from €313 per person, everything above included, no platform commission.
 `,
   },
   {
@@ -5393,7 +5393,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
     author: MET_TEAM,
     title: "What Does a 4-Day Toubkal Trek Cost? (2026 Breakdown)",
     excerpt:
-      "The 4-day Toubkal trek costs from €468 per person with us (€845 solo) and 4,200–6,000 MAD to organise yourself. Here is the itemised difference, and why the extra two days cost far less than double the two-day trip.",
+      "The 4-day Toubkal trek costs from €586 per person with us (€963 solo) and 4,200–6,000 MAD to organise yourself. Here is the itemised difference, and why the extra two days cost far less than double the two-day trip.",
     heroImage: "/gallery/toubkal-group-snow-ascent.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -5405,9 +5405,9 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
     seoDescription:
       "What a 4-day Toubkal trek costs in 2026: guide, refuges, mule, park fees and transfer broken down in dirhams.",
     faq: [
-      { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €468 per person for two, €338 at six, or €845 solo — all of it included." },
-      { q: "Why is the 4-day not double the price of the 2-day?", a: "Because the largest costs are charged per trip rather than per day. The Marrakech transfer and a share of the guide's engagement are the same whether you walk for two days or four. Only the daily guide rate, the refuge nights, the meals and the 4-day's mule scale with duration — which is why €254 becomes €468 rather than €508." },
-      { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €214 buys a materially higher chance of standing on the summit." },
+      { q: "How much does a 4-day Toubkal trek cost?", a: "Self-organised, two people typically spend 4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair) across four days of guide fees, three refuge nights with half board, the mule, park fees and the Marrakech transfer. Our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) is €586 per person for two, €456 at six, or €963 solo — all of it included." },
+      { q: "Why is the 4-day not double the price of the 2-day?", a: "Because the largest costs are charged per trip rather than per day. The Marrakech transfer and a share of the guide's engagement are the same whether you walk for two days or four. Only the daily guide rate, the refuge nights, the meals and the 4-day's mule scale with duration — which is why €313 becomes €586 rather than €626." },
+      { q: "Is the 4-day Toubkal trek worth the extra cost?", a: "For most people, yes. Altitude is the most common reason a Toubkal attempt fails, and the 4-day itinerary walks in gradually with time to acclimatise before the summit push. The 2-day goes from 450 m to 4,167 m in roughly thirty hours. The extra €273 buys a materially higher chance of standing on the summit." },
       { q: "What extra costs should I budget for on a 4-day trek?", a: "Travel insurance covering trekking to altitude, personal equipment, and tips of 150–200 MAD a day for the guide and 70–100 for the muleteer, from the group. Between November and April add crampons and ice axe rental at roughly 100–150 MAD per day. Everything else — refuges, all meals, mule, park fees and transfers — is included in our package." },
     ],
     content: `
@@ -5415,7 +5415,7 @@ Both are legitimate. Pick by how much of your weekend you want to spend organisi
 
 Two people organising a 4-day Toubkal trek themselves typically spend
 **4,200–6,000 MAD in total (about £330–475 / €390–560 for the pair)**. Our packaged
-[4-day trek](/en/tours/toubkal-summit-trek-4day) is **from €468 per person** for two — €845 solo, €338 at six.
+[4-day trek](/en/tours/toubkal-summit-trek-4day) is **from €586 per person** for two — €963 solo, €456 at six.
 
 ## The itemised bill
 
@@ -5438,8 +5438,8 @@ two-day trip.
 
 ## Why four days is not twice two days
 
-This surprises people, so it is worth stating plainly. Our 2-day is €254 and our 4-day
-is €468 — €214 more, not €254 more.
+This surprises people, so it is worth stating plainly. Our 2-day is €313 and our 4-day
+is €586 — €273 more, not €313 more.
 
 The reason is that the transfer from Marrakech and the fixed overhead of running the
 trip are identical whether you walk for two days or four. Only the daily guide rate,
@@ -5482,20 +5482,20 @@ second saves far more.
 
 If you have four days available and the summit is not the only goal, the
 [6-day Toubkal circuit via Ifni Lake](/en/tours/toubkal-circuit-ifni-lake-6day) covers
-considerably more of the massif, from €948 per person. This one does rise faster than the
+considerably more of the massif, from €1007 per person. This one does rise faster than the
 day count: the circuit camps rather than using refuges throughout, so mules and a cook are
 on the bill for the whole route rather than a transfer being shared across it.
 
 ## The short version
 
 Self-organising costs a pair roughly 4,200–6,000 MAD and a day of arranging things in
-Imlil. Our package is from €468 per person with the guide, three refuge nights, all meals,
+Imlil. Our package is from €586 per person with the guide, three refuge nights, all meals,
 the mule, park fees and both transfers included.
 
 The four-day is the version we recommend to most people, not because it costs more, but
 because acclimatisation is what gets you to the top.
 
-👉 **[See our 4-day Toubkal summit trek](/en/tours/toubkal-summit-trek-4day)** — from €468 per person, everything above included, booked direct with no platform commission.
+👉 **[See our 4-day Toubkal summit trek](/en/tours/toubkal-summit-trek-4day)** — from €586 per person, everything above included, booked direct with no platform commission.
 
 
 If you would rather avoid the Mizane valley crowds entirely, the
@@ -5509,7 +5509,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
     author: MET_TEAM,
     title: "What Does the 6-Day Toubkal Circuit Cost? (2026 Breakdown)",
     excerpt:
-      "The Toubkal circuit via Ifni Lake is from €948 per person with us (€1,188 solo) and 6,000–9,000 MAD to arrange yourself — and the self-organised version is harder than the summit routes, because camping and mules enter the bill.",
+      "The Toubkal circuit via Ifni Lake is from €1007 per person with us (€1,247 solo) and 6,000–9,000 MAD to arrange yourself — and the self-organised version is harder than the summit routes, because camping and mules enter the bill.",
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -5521,7 +5521,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
     seoDescription:
       "What the 6-day Toubkal circuit via Ifni Lake costs in 2026: guide, mules, refuges, gîtes, camping and park fees itemised.",
     faq: [
-      { q: "How much does the 6-day Toubkal circuit cost?", a: "Self-organised, two people typically spend 6,000–9,000 MAD in total (about £475–710 / €560–840 for the pair) across six days of guiding, five nights of mixed accommodation, mules for camp gear, park fees and transfers. Our [6-day Toubkal circuit](/en/tours/toubkal-circuit-ifni-lake-6day) is €948 per person for two, €540 at six, or €1,188 solo — all-inclusive." },
+      { q: "How much does the 6-day Toubkal circuit cost?", a: "Self-organised, two people typically spend 6,000–9,000 MAD in total (about £475–710 / €560–840 for the pair) across six days of guiding, five nights of mixed accommodation, mules for camp gear, park fees and transfers. Our [6-day Toubkal circuit](/en/tours/toubkal-circuit-ifni-lake-6day) is €1007 per person for two, €599 at six, or €1,247 solo — all-inclusive." },
       { q: "Why does the circuit cost more per day than the summit trek?", a: "Because it leaves the refuge network. The circuit crosses to Ifni Lake and the southern valleys where there are no refuges, so nights are split between mountain refuges, village gîtes and camping — and camping means extra mules, a cook, and equipment. That is real additional cost, not a markup." },
       { q: "Is Ifni Lake worth adding to a Toubkal trip?", a: "If you have the days, yes. Lac d'Ifni is the only permanent lake in the High Atlas, sitting in a bowl below the southern side of the massif, and reaching it means crossing a high pass most Toubkal visitors never see. The summit routes show you the mountain; the circuit shows you the range around it." },
       { q: "What is not included in the 6-day circuit price?", a: "Travel insurance, personal trekking equipment including a sleeping bag for the camping nights, and tips for the guide, cook and muleteers — typically 150–200 MAD a day for the guide, 100–150 for the cook and 70–100 per muleteer, from the group. Everything else, including all five nights, every meal, the mules and the park fees, is included." },
@@ -5532,7 +5532,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
 Two people arranging the 6-day Toubkal circuit themselves typically spend
 **6,000–9,000 MAD (about £475–710 / €560–840 for the pair)**. Our packaged
 [6-day circuit via Ifni Lake](/en/tours/toubkal-circuit-ifni-lake-6day) is
-**from €948 per person**.
+**from €1007 per person**.
 
 The gap between self-organising and booking narrows on this route compared with the
 summit treks, and the reason is logistics rather than pricing.
@@ -5592,20 +5592,20 @@ saving proportionally bigger here than anywhere else in our catalogue.
 
 | Route | Price pp | Nights | Summit? |
 |---|---|---|---|
-| [2-day summit](/en/tours/toubkal-summit-2day-marrakech) | from €254 | 1 | Yes |
-| [4-day summit trek](/en/tours/toubkal-summit-trek-4day) | from €468 | 3 | Yes, with acclimatisation |
-| [6-day circuit via Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) | from €948 | 5 | Yes, plus the wider massif |
+| [2-day summit](/en/tours/toubkal-summit-2day-marrakech) | from €313 | 1 | Yes |
+| [4-day summit trek](/en/tours/toubkal-summit-trek-4day) | from €586 | 3 | Yes, with acclimatisation |
+| [6-day circuit via Ifni](/en/tours/toubkal-circuit-ifni-lake-6day) | from €1007 | 5 | Yes, plus the wider massif |
 
 Per day, the circuit is close to the 4-day rate despite being logistically heavier —
 the per-trip costs spreading further is what absorbs the difference.
 
 ## Where the money goes
 
-Platform commission runs **25–40%**. On a €948 trek that is up to €379 leaving Morocco —
+Platform commission runs **25–40%**. On a €1007 trek that is up to €379 leaving Morocco —
 more than the entire guide fee for the week. Booking direct with any Moroccan operator
 keeps that with the people carrying your gear over the pass.
 
-👉 **[See the 6-day Toubkal circuit via Ifni Lake](/en/tours/toubkal-circuit-ifni-lake-6day)** — from €948 per person, five nights, all meals, mules and park fees included.
+👉 **[See the 6-day Toubkal circuit via Ifni Lake](/en/tours/toubkal-circuit-ifni-lake-6day)** — from €1007 per person, five nights, all meals, mules and park fees included.
 `,
   },
   {
@@ -6208,7 +6208,7 @@ handlers or the guesthouses. Booking direct keeps it in the country.
     seoDescription:
       "What the three-summit Toubkal trek costs in 2026: guide premium, two refuge nights, mule and park fees itemised.",
     faq: [
-      { q: "How much does the Toubkal Three Peaks trek cost?", a: "Our [3-day three-summit trek](/en/tours/toubkal-three-peaks-4000m-3day) is €393 per person for two, €299 at six, or €780 solo, with the high-altitude guide, both refuge nights, all meals, the mule porter, park fees and the Marrakech transfer included. Organising the same itinerary independently runs to roughly 3,200–4,600 MAD for two people once every line is added up." },
+      { q: "How much does the Toubkal Three Peaks trek cost?", a: "Our [3-day three-summit trek](/en/tours/toubkal-three-peaks-4000m-3day) is €511 per person for two, €417 at six, or €898 solo, with the high-altitude guide, both refuge nights, all meals, the mule porter, park fees and the Marrakech transfer included. Organising the same itinerary independently runs to roughly 3,200–4,600 MAD for two people once every line is added up." },
       { q: "Why does it cost more than a standard Toubkal trek?", a: "Not because of the extra day. The difference is the guide: Timesguida and Ras Ouanoukrim are graded expert and need a high-altitude qualified guide, whose day rate sits at the top of the 500–800 MAD band rather than the middle. The second refuge night and the extra meals add the rest." },
       { q: "Do I need technical climbing skills for the three peaks?", a: "Not in summer — it is hard walking on scree and rock rather than climbing. From November to April all three summits need crampons and an ice axe, and the ability to use them. That is the single biggest thing that separates this trek from the standard Toubkal route." },
       { q: "Is three peaks in three days realistic?", a: "It is genuinely demanding. You sleep two nights at 3,207 m and summit on both full days, so there is no acclimatisation buffer. Anyone who has not been above 3,000 m recently should consider the [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) first, where the extra day exists specifically to acclimatise." },
@@ -6217,7 +6217,7 @@ handlers or the guesthouses. Booking direct keeps it in the country.
 ## The short answer
 
 Our [3-day Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day) is
-**from €393 per person**, everything included. Arranging the identical itinerary yourself
+**from €511 per person**, everything included. Arranging the identical itinerary yourself
 comes to roughly **3,200–4,600 MAD for two people** — and the gap between those
 numbers is smaller than it looks, for reasons worth understanding.
 
@@ -6244,8 +6244,8 @@ That is a rate at the top of the 500–800 MAD range rather than the middle, on 
 day of the trip.
 
 This is why the three-peaks trek is not simply "the 2-day trek plus a day". The
-[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is from €254 and this is from €393 —
-a 55% increase for a 50% longer trip with a scarcer guide and an extra refuge night.
+[2-day summit](/en/tours/toubkal-summit-2day-marrakech) is from €313 and this is from €511 —
+a 63% increase for a 50% longer trip with a scarcer guide and an extra refuge night.
 
 ## Winter changes the number
 
@@ -6263,17 +6263,17 @@ discovering it at the trailhead.
 
 Everything else — the high-altitude guide, both refuge nights, all meals on the
 trek, the mule porter, park fees and the round-trip from Marrakech — is in the
-€393.
+€511.
 
 ## Is it worth it over a single summit?
 
 If you have already been above 3,000 m recently and want the hardest thing the High
 Atlas offers in a long weekend, yes. If Toubkal itself is the goal, the
-[4-day trek](/en/tours/toubkal-summit-trek-4day) at €468 is the better buy: it costs
+[4-day trek](/en/tours/toubkal-summit-trek-4day) at €586 is the better buy: it costs
 slightly more but includes a proper acclimatisation day, which is the single largest
 factor in whether people actually reach a summit.
 
-👉 **[See the Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day)** — from €393 per person, three 4,000 m summits, high-altitude guide and both refuge nights included.
+👉 **[See the Toubkal Three Peaks trek](/en/tours/toubkal-three-peaks-4000m-3day)** — from €511 per person, three 4,000 m summits, high-altitude guide and both refuge nights included.
 `,
   },
   {
@@ -6374,7 +6374,7 @@ Toubkal into a single crossing.
     author: MET_TEAM,
     title: "What Does the High Atlas Grand Traverse Cost? (15-Day, 2026)",
     excerpt:
-      "Fifteen days, two 4,000 m summits and a full mountain crew. From €2,040 it is the most expensive trip we run — here is exactly where that money goes, and why a two-week crew costs what it does.",
+      "Fifteen days, two 4,000 m summits and a full mountain crew. From €2,158 it is the most expensive trip we run — here is exactly where that money goes, and why a two-week crew costs what it does.",
     heroImage: "/gallery/trekkers-above-cloud-inversion.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -6386,8 +6386,8 @@ Toubkal into a single crossing.
     seoDescription:
       "What the 15-day M'Goun to Toubkal traverse costs in 2026: guide, cook, mule team, 14 nights and park fees itemised.",
     faq: [
-      { q: "How much does the High Atlas Grand Traverse cost?", a: "Our [15-day traverse](/en/tours/high-atlas-grand-traverse-15day) is €2,040 per person for two, falling to €1,320 at six, covering the high-altitude guide, cook, full mule team, all 14 nights of accommodation, every meal, both national park fees and the transfers from Marrakech. It is the highest price we quote, and the only trip where a full crew stays with you for two weeks." },
-      { q: "Why is the per-day cost lower than a short trek?", a: "It is not — and it is worth being straight about that. At €2,040 for two the traverse works out near €136 per day, against roughly €78 for the 3-day village trek. The transfers and the guide's mobilisation do dilute across fifteen days, but they are the smaller part of the bill. The larger part is the crew: a high-altitude guide, a cook and a full mule team stay with you for two weeks, and none of that shrinks with duration. You are paying for fourteen consecutive days of a supported expedition, not for a longer version of a weekend walk." },
+      { q: "How much does the High Atlas Grand Traverse cost?", a: "Our [15-day traverse](/en/tours/high-atlas-grand-traverse-15day) is €2,158 per person for two, falling to €1,438 at six, covering the high-altitude guide, cook, full mule team, all 14 nights of accommodation, every meal, both national park fees and the transfers from Marrakech. It is the highest price we quote, and the only trip where a full crew stays with you for two weeks." },
+      { q: "Why is the per-day cost lower than a short trek?", a: "It is not — and it is worth being straight about that. At €2,158 for two the traverse works out near €144 per day, against roughly €78 for the 3-day village trek. The transfers and the guide's mobilisation do dilute across fifteen days, but they are the smaller part of the bill. The larger part is the crew: a high-altitude guide, a cook and a full mule team stay with you for two weeks, and none of that shrinks with duration. You are paying for fourteen consecutive days of a supported expedition, not for a longer version of a weekend walk." },
       { q: "Do I need previous high-altitude experience?", a: "Yes. This is graded expert, summits both M'Goun (4,068 m) and Toubkal (4,167 m), and spends two weeks in remote terrain where evacuation is slow. It assumes you have done multi-day mountain trekking before. If you have not, start with the [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day)." },
       { q: "What is not included in the traverse price?", a: "Travel insurance with high-altitude cover (mandatory), personal trekking equipment and a sleeping bag, crampons and ice axe if conditions require them in winter, and tips for the guide, cook and muleteers. Everything else across the 15 days is covered." },
     ],
@@ -6395,7 +6395,7 @@ Toubkal into a single crossing.
 ## The short answer
 
 The [15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day) is
-**from €2,040 per person**. That is the largest single number on this site, and —
+**from €2,158 per person**. That is the largest single number on this site, and —
 per day on the mountain — the **cheapest trek we run**.
 
 Both of those things are true at once, and the reason is worth understanding before
@@ -6431,12 +6431,13 @@ disappear:
 | Trek | Price | Days | Per day |
 |---|---|---|---|
 | 3-day High Atlas villages | €235 | 3 | ~€78 |
-| 4-day Toubkal summit | €468 | 4 | ~€117 |
+| 4-day Toubkal summit | €586 | 4 | ~€147 |
 | 7-day Mgoun traverse | €760 | 7 | ~€109 |
-| 15-day Grand Traverse | €2,040 | 15 | ~€136 |
+| 15-day Grand Traverse | €2,158 | 15 | ~€144 |
 
-The traverse costs more per day than the shorter treks, because the full crew stays
-with you for two weeks — but it buys two 4,000 m summits rather than one.
+The traverse costs more per day than the village and Mgoun treks, because the full crew
+stays with you for two weeks — but it buys two 4,000 m summits rather than one. Only the
+4-day Toubkal summit costs slightly more per day, because two of its three nights are in the refuge.
 
 ## What is genuinely included
 
@@ -6461,7 +6462,7 @@ If you are testing whether long-distance mountain trekking suits you, the
 [7-day Mgoun traverse](/en/tours/mgoun-massif-trek) covers similar terrain at half
 the commitment.
 
-👉 **[See the 15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day)** — from €2,040 per person, M'Goun and Toubkal summits, full mountain crew for two weeks.
+👉 **[See the 15-day High Atlas Grand Traverse](/en/tours/high-atlas-grand-traverse-15day)** — from €2,158 per person, M'Goun and Toubkal summits, full mountain crew for two weeks.
 `,
   },
   {
@@ -6470,7 +6471,7 @@ the commitment.
     author: MET_TEAM,
     title: "Toubkal and Sahara in 5 Days — What Does It Cost? (2026)",
     excerpt:
-      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €1,140 solo, €773 each for two, or €470 each for four. Whether that beats booking the two trips separately depends on your group size — here is the arithmetic, both ways.",
+      "Combining North Africa's highest summit with a night in the Erg Chebbi dunes costs €1,199 solo, €832 each for two, or €529 each for four. Whether that beats booking the two trips separately depends on your group size — here is the arithmetic, both ways.",
     heroImage: "/gallery/toubkal-summit-panorama-high-atlas.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -6482,8 +6483,8 @@ the commitment.
     seoDescription:
       "What the combined 5-day Toubkal summit and Sahara desert tour costs in 2026, itemised — and why booking the trek and the desert trip separately comes to more.",
     faq: [
-      { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €1,140 for one traveller, €773 each for two and €470 each for four. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
-      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "It depends on how many of you there are. Solo it is €1,145 separately against €1,140 combined, and at four it is €523 against €470 — cheaper both times. For a pair it runs the other way: the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €254 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €380 each, so €634 separately against €773 combined — €139 more. What the combined trip also buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
+      { q: "How much does the 5-day Toubkal and Sahara tour cost?", a: "Our [5-day mountain-to-desert tour](/en/tours/toubkal-summit-sahara-5day) is €1,199 for one traveller, €832 each for two and €529 each for four. That covers the licensed mountain guide for the Toubkal trek, a private driver-guide for the desert leg, all four nights, the mule porter, camel treks at Erg Chebbi, park fees and every transfer from Marrakech." },
+      { q: "Is it cheaper than booking the trek and desert tour separately?", a: "It depends on how many of you there are. Solo it is €1,204 separately against €1,199 combined, and at four it is €582 against €529 — cheaper both times. For a pair it runs the other way: the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) is €313 and the [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is €380 each, so €693 separately against €832 combined — €139 more. What the combined trip also buys is a continuous route: booking separately means five days with two separate returns to Marrakech and a wasted changeover day between them, plus a private vehicle throughout rather than a shared transfer on the desert leg. If the changeover day costs you a night's accommodation and a transfer, the gap closes to roughly nothing." },
       { q: "Do I need trekking experience for the Toubkal leg?", a: "It is graded challenging rather than expert. You sleep at the refuge at 3,207 m and summit the following morning — no technical skill needed in summer, but it is a long ascent at altitude. Reasonable hill fitness is enough; winter ascents need crampons and an ice axe." },
       { q: "What is not included?", a: "Travel insurance (mandatory for the trek), personal trekking equipment and sleeping bag, lunches on the desert days (budget €12–15 per meal), winter crampons and ice axe if summiting between November and April, and tips for the guides, driver, cook and muleteer." },
     ],
@@ -6491,7 +6492,7 @@ the commitment.
 ## The short answer
 
 The [5-day Toubkal and Sahara tour](/en/tours/toubkal-summit-sahara-5day) is
-**€773 per person**, covering both halves of the trip end to end.
+**€832 per person**, covering both halves of the trip end to end.
 
 The obvious question is whether you could just book a Toubkal trek and a desert tour
 separately for less. You can book them for less. You cannot do them for less — and
@@ -6501,8 +6502,8 @@ the difference is a wasted day.
 
 | Option | Price | What happens |
 |---|---|---|
-| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €634 | Return to Marrakech between them; 5 days plus a changeover |
-| [5-day combined](/en/tours/toubkal-summit-sahara-5day) | €773 | Continuous route, private vehicle, no backtracking |
+| [2-day Toubkal](/en/tours/toubkal-summit-2day-marrakech) + [3-day Sahara](/en/tours/sahara-3day-marrakech) | €693 | Return to Marrakech between them; 5 days plus a changeover |
+| [5-day combined](/en/tours/toubkal-summit-sahara-5day) | €832 | Continuous route, private vehicle, no backtracking |
 
 At two travellers, booking separately is €139 cheaper on the headline figure. What it
 costs you is the day between the two trips — you come down from Imlil to Marrakech, sleep, then set off south the next
@@ -6512,7 +6513,7 @@ Imlil → Aït Ben Haddou → Dades → Erg Chebbi as one line.
 It also swaps a shared minibus for a **private driver-guide** on the desert leg,
 which is most of the price difference on its own.
 
-## Where the €773 goes
+## Where the €832 goes
 
 | Item | Typical 2026 cost | Notes |
 |---|---|---|
@@ -6548,14 +6549,14 @@ Two of Morocco's biggest experiences without a wasted transfer between them.
 
 If you have five days and want both the mountain and the desert, this is the
 efficient way to do it. If you only care about the summit, the
-[2-day Toubkal trek](/en/tours/toubkal-summit-2day-marrakech) at €254 does that
+[2-day Toubkal trek](/en/tours/toubkal-summit-2day-marrakech) at €313 does that
 alone. If the dunes are the draw, the
 [3-day Sahara tour](/en/tours/sahara-3day-marrakech) is the direct route.
 
 The combination is worth its premium when you actually want both — not as a way of
 saving money on either.
 
-👉 **[See the 5-day Toubkal & Sahara tour](/en/tours/toubkal-summit-sahara-5day)** — €773 per person, summit at 4,167 m and a night in the Erg Chebbi dunes, private throughout.
+👉 **[See the 5-day Toubkal & Sahara tour](/en/tours/toubkal-summit-sahara-5day)** — €832 per person, summit at 4,167 m and a night in the Erg Chebbi dunes, private throughout.
 
 
 If eight days suits you better than five, the
@@ -6583,7 +6584,7 @@ itinerary can.
       "What a 3-day High Atlas village trek costs in 2026: guide, guesthouses, mule and transfers itemised, plus how self-organising compares with a €235 package.",
     faq: [
       { q: "How much does a 3-day High Atlas village trek cost?", a: "Our [3-day village trek](/en/tours/atlas-mountains-3day-trek) is €235 per person for two (€416 solo), including the licensed mountain guide, two nights in Berber guesthouses, all meals, a mule for group luggage and the round-trip transfer from Marrakech. Arranging the same thing independently comes to roughly 2,600–3,900 MAD for two people." },
-      { q: "Is it cheaper than a Toubkal trek?", a: "Marginally, and not for the reason people expect. It is €235 against €254 for the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) — so it actually costs slightly more, because it is three days rather than two. What it saves you is the refuge: guesthouses are more comfortable than a bunk room at 3,207 m, and there is no altitude night at all." },
+      { q: "Is it cheaper than a Toubkal trek?", a: "Yes. It is €235 per person for two against €313 for the [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech), even though it is three days rather than two. It also saves you the refuge: guesthouses are more comfortable than a bunk room at 3,207 m, and there is no altitude night at all." },
       { q: "Do I need to be fit for this trek?", a: "It is graded moderate — steady walking over passes with no summit push and no high-altitude nights. The highest point is around 2,300 m at Tacheddirt. If you walk regularly you will be comfortable; it is the trek we suggest for a first time in the Atlas." },
       { q: "Do I need a guide for a village trek?", a: "Not by law, unlike Toubkal, where a licensed guide is required and enforced at the Imlil checkpoint. But the route links three valleys over passes with no signage, and the guesthouses are family homes rather than listed businesses — the guide is what makes the route and the beds exist." },
     ],
@@ -6638,7 +6639,7 @@ different from Toubkal, where the refuge takes bookings and the trail is obvious
 |---|---|---|---|
 | [2-day Azzaden valley](/en/tours/azzaden-valley-2day-trek) | €161 | 1 | Valley level |
 | **3-day villages** | **€235** | **2** | **~2,300 m** |
-| [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | from €254 | 1 | 4,167 m |
+| [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | from €313 | 1 | 4,167 m |
 
 The Toubkal trek is cheaper than the village trek and goes far higher — but it is a
 summit push with a refuge bunk room, not a walk between villages. These are
@@ -8674,13 +8675,13 @@ For the remote side of the Sahara, the [3-day Erg Chegaga expedition from Marrak
     tags: ["Toubkal", "Sahara", "Erg Chebbi", "trekking", "Morocco"],
     seoTitle: "8-Day Toubkal and Sahara Tour Cost",
     seoDescription:
-      "What the 8-day Toubkal summit and Sahara desert trip costs: €1,067 per person on set departures, versus €1,608 booking the same ground separately.",
+      "What the 8-day Toubkal summit and Sahara desert trip costs: €1,126 per person on set departures, versus €1,726 booking the same ground separately.",
     relatedTours: ["morocco-highlights-toubkal-sahara-8day", "toubkal-summit-sahara-5day", "toubkal-summit-trek-4day"],
     faq: [
-      { q: "How much is the 8-day Toubkal and Sahara tour?", a: "€1,067 per person on the 2027 set departures, discounted from a list price of €1,105. That covers all airport transfers, half-board accommodation throughout, every meal on the trek, the licensed mountain guide, mules on the mountain and the camel ride at Erg Chebbi. Dinner in Marrakech, travel insurance and tips are not included, which is a deliberate choice rather than an oversight -- see the breakdown below." },
+      { q: "How much is the 8-day Toubkal and Sahara tour?", a: "€1,126 per person on the 2027 set departures, discounted from a list price of €1,164. That covers all airport transfers, half-board accommodation throughout, every meal on the trek, the licensed mountain guide, mules on the mountain and the camel ride at Erg Chebbi. Dinner in Marrakech, travel insurance and tips are not included, which is a deliberate choice rather than an oversight -- see the breakdown below." },
       { q: "Why does the price not change with group size?", a: "Because this is a set-date departure sold by the seat, not a private trip. On our private tours the guide and vehicle are a fixed cost divided among your party, so six people each pay much less than one person does. Here the trip runs on its published date regardless, and what varies is how many of the 14 seats are left. Two friends pay the same per person as a solo traveller, which is unusual in Morocco and is the main reason this itinerary suits people travelling alone." },
       { q: "What does 14 seats actually mean?", a: "The departure closes when 14 seats are sold. We cap it there for two practical reasons rather than as a sales tactic: the Toubkal refuge and the desert camp both have finite space on a given night, and a guide can only look after so many people on a summit morning in the dark. If a date shows as sold, the next one is genuinely the next one." },
-      { q: "Is it cheaper to book the parts separately?", a: "No, and it is not close. Booking comparable trips from our own catalogue -- the 4-day Toubkal summit trek, a 3-day private Sahara tour and a guided medina day -- comes to roughly €1,608 at the solo rate. The combined itinerary is €1,067 because it is one continuous route with one guide and one vehicle, rather than three separate trips each carrying its own transfers and its own guiding day." },
+      { q: "Is it cheaper to book the parts separately?", a: "No, and it is not close. Booking comparable trips from our own catalogue -- the 4-day Toubkal summit trek, a 3-day private Sahara tour and a guided medina day -- comes to roughly €1,726 at the solo rate. The combined itinerary is €1,126 because it is one continuous route with one guide and one vehicle, rather than three separate trips each carrying its own transfers and its own guiding day." },
       { q: "What is not included, and what will it cost me?", a: "Dinner in Marrakech on the two riad nights, because the medina is full of places worth choosing yourself and a fixed hotel dinner is the worst way to eat in that city -- budget 100-250 MAD a head. Travel insurance is mandatory and yours to arrange, since cover for trekking above 4,000 m varies by policy. Tips are customary: 150-200 MAD a day for the guide and 70-100 MAD for the muleteers, from the group, in cash at the end." },
       { q: "Do I need to be an experienced trekker?", a: "No, but you need to be fit for two long consecutive days. Summit day is roughly nine hours with a start before dawn, and there is no technical climbing on the standard route -- no rope, no scrambling beyond the odd rocky step. What it asks for is hillwalking stamina at altitude. If you can walk six hours in hill country without dreading the next morning, you have the engine for it." },
     ],
@@ -8691,7 +8692,7 @@ where the money goes.
 
 ## The headline number
 
-**€1,067 per person**, on the 2027 set departures, down from a list price of €1,105.
+**€1,126 per person**, on the 2027 set departures, down from a list price of €1,164.
 
 That is a flat seat price. It does not fall if you bring friends and it does not rise if
 you come alone, which is the opposite of how almost every other trip in Morocco is
@@ -8701,8 +8702,8 @@ priced -- including ours.
 
 On a private tour the guide, the vehicle and the driver are a fixed cost divided among
 whoever books. One person pays for all of it; six people split it six ways. That is why
-our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) runs from €845 solo down
-to €338 each at six people.
+our [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) runs from €963 solo down
+to €456 each at six people.
 
 A set departure inverts that. The trip runs on its published date whether four people or
 fourteen have booked, so the seat price is flat and what varies is availability. For a
@@ -8715,12 +8716,12 @@ Taken from our own catalogue, at the solo rate:
 
 | Component | Comparable tour | Solo price |
 |---|---|---|
-| Toubkal summit | [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) at €845 solo | €845 |
+| Toubkal summit | [4-day Toubkal trek](/en/tours/toubkal-summit-trek-4day) at €963 solo | €963 |
 | Sahara / Erg Chebbi | 3-day private Sahara tour | €690 |
 | Marrakech medina | Guided cultural tour | €73 |
-| **Total** | | **€1,608** |
+| **Total** | | **€1,726** |
 
-The combined trip is €1,067 for the same ground. The saving is not a discount -- it is
+The combined trip is €1,126 for the same ground. The saving is not a discount -- it is
 what disappears when three separate trips become one route: two sets of return transfers
 from Marrakech, two extra guiding days, and the empty vehicle days between them.
 
@@ -8753,8 +8754,8 @@ are meaningfully different propositions.
 
 ## The short version
 
-€1,067 buys eight days, two of Morocco's landmark objectives, one guide and one
-continuous route. Booking the same ground as separate trips costs around €1,608. The
+€1,126 buys eight days, two of Morocco's landmark objectives, one guide and one
+continuous route. Booking the same ground as separate trips costs around €1,726. The
 seat price does not change with group size, which makes it unusually good value for
 solo travellers and worth comparing carefully if you are a group of six.
 `,
@@ -8981,8 +8982,8 @@ valley approach never does.
 
 ## What it costs
 
-Our [3-day Aguelzim trek](/en/tours/toubkal-aguelzim-pass-3day) is €780 for one
-person, €393 each for two, and €299 each at six. Like all our private departures it
+Our [3-day Aguelzim trek](/en/tours/toubkal-aguelzim-pass-3day) is €839 for one
+person, €452 each for two, and €358 each at six. Like all our private departures it
 is priced on a sliding scale, because the guide and the transport are a fixed cost
 divided among your party -- so the per-person rate falls as the group grows, and a solo
 trekker carries the whole thing alone.
@@ -11318,10 +11319,10 @@ With small children, take a look round when you arrive: many village houses have
 | [Azzaden Valley, 2 days](/en/tours/azzaden-valley-2day-trek) | 1, in Tizi Oussem | None | Moderate | €161 |
 | [High Atlas villages, 3 days](/en/tours/atlas-mountains-3day-trek) | 2, in the Azzaden valley and Tacheddirt | None | Moderate | €235 |
 | [Family trek, 4 days](/en/tours/family-atlas-4day-trek) | 3 | None | Easy | €276 each from three people |
-| [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | 1, in Imlil | 2 at the refuge | Challenging | €468 |
-| [Toubkal circuit and Ifni Lake, 6 days](/en/tours/toubkal-circuit-ifni-lake-6day) | 2, in Tacheddirt and Amsouzart | 2 camps, 1 refuge | Challenging | €948 |
+| [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | 1, in Imlil | 2 at the refuge | Challenging | €586 |
+| [Toubkal circuit and Ifni Lake, 6 days](/en/tours/toubkal-circuit-ifni-lake-6day) | 2, in Tacheddirt and Amsouzart | 2 camps, 1 refuge | Challenging | €1007 |
 | [M'Goun massif, 7 days](/en/tours/mgoun-massif-trek) | 2 | 4 camps | Expert | €760 |
-| [High Atlas grand traverse, 15 days](/en/tours/high-atlas-grand-traverse-15day) | 5 | 7 camps, 2 refuge | Expert | €2,040 |
+| [High Atlas grand traverse, 15 days](/en/tours/high-atlas-grand-traverse-15day) | 5 | 7 camps, 2 refuge | Expert | €2,158 |
 
 The first three are built around the villages: no summit, no refuge, no night at altitude. The
 Azzaden trek crosses the Tizi Mzik pass at 2,489 m to Tizi Oussem; the three-day trek links the

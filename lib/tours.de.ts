@@ -16,8 +16,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 Personen",
     reviewCount: 48,
     rating: 4.9,
-    price: 845,
-    depositAmount: 169,
+    price: 963,
+    depositAmount: 193,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-guide-thumbs-up.jpg",
@@ -2329,7 +2329,7 @@ export const TOURS: Tour[] = [
       "Dies ist die vollständige Umrundung des Toubkal-Massivs — und eine andere Reise als der Gipfelaufstieg, den die meisten buchen. Sechs Tage, vier hohe Pässe, und der Gipfel bleibt dem letzten Morgen vorbehalten, statt der einzige Zweck zu sein. Sie starten in Tachedirt, überqueren den Tizi Likemt auf 3.555 m, steigen zum Azib Likemt ab, ziehen über Amsouzart nach Süden, campieren am Ifni-See auf 2.295 m und überqueren dann den Tizi n'Ouanoums auf 3.664 m zur Toubkal-Hütte, bevor am sechsten Tag der Gipfel folgt.",
       "Die Gehleistung ist erheblich und gleichmäßig: 4 Stunden am ersten Tag, 6–7 am zweiten mit 1.255 m Aufstieg und 1.305 m Abstieg, 6 am dritten, 5 am vierten, 6–7 am fünften mit weiteren 1.370 Höhenmetern und 7–8 am letzten Tag einschließlich des 4.167-m-Gipfels und 2.430 m Abstieg nach Imlil. Das sind sechs aufeinanderfolgende Bergtage in der Höhe. Die Einstufung lautet anspruchsvoll, und sie ist ehrlich.",
       "Der Ifni-See ist der Grund, diese Route der Standardvariante vorzuziehen. Er ist der einzige echte See im Hohen Atlas, türkis und in einem Kessel aus nacktem Fels auf 2.295 m gelegen, und fast niemand auf einem Gipfeltrek bekommt ihn je zu sehen. Auch die Nächte sind abwechslungsreich — Hütten, Dorfgîtes und Zeltlager statt zweimal derselben Hütte —, was bedeutet, dass Sie bewohnte Täler und Weideland durchqueren, das der Imlil-Korridor nie zeigt.",
-      "Preise pro Person: 1.188 € allein, 948 € zu zweit, 702 € zu dritt, 612 € zu viert, 576 € zu fünft und 540 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, alle fünf Nächte, sämtliche Mahlzeiten während des Treks, die Maultiere und Maultierführer für Gruppengepäck und Lager, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch. Die Reiseversicherung ist verpflichtend und nicht enthalten, und Sie bringen Ihre eigene Trekkingausrüstung und Ihren Schlafsack mit. Trinkgelder für Bergführer, Koch und Maultierführer sind separat und üblich.",
+      "Preise pro Person: 1.247 € allein, 1007 € zu zweit, 761 € zu dritt, 671 € zu viert, 635 € zu fünft und 599 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, alle fünf Nächte, sämtliche Mahlzeiten während des Treks, die Maultiere und Maultierführer für Gruppengepäck und Lager, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch. Die Reiseversicherung ist verpflichtend und nicht enthalten, und Sie bringen Ihre eigene Trekkingausrüstung und Ihren Schlafsack mit. Trinkgelder für Bergführer, Koch und Maultierführer sind separat und üblich.",
       "Sie tragen außer einem Tagesrucksack nichts selbst — das Maultierteam verlegt das Lager. Was Sie mitbringen sollten, ist echte Bergkondition und eingelaufene Schuhe. Sechs Tage sind lang genug, dass kleine Probleme zu großen werden, und der häufigste Grund für Schwierigkeiten ist hier das Schuhwerk, nicht die Kondition. Private Gruppe von 2 bis 12 Personen.",
     ],
     title: "Toubkal-Rundtour & Ifni-See ab Marrakesch — 6-tägiger Trek",
@@ -2340,8 +2340,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–12 Personen",
     reviewCount: 21,
     rating: 4.9,
-    price: 1188,
-    depositAmount: 238,
+    price: 1247,
+    depositAmount: 249,
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     gallery: [
       "/gallery/ifni-lake-from-the-pass.jpg",
@@ -2463,7 +2463,7 @@ export const TOURS: Tour[] = [
     brief: [
       "Zwei Tage sind der kürzeste ehrliche Weg, um auf dem höchsten Punkt Nordafrikas zu stehen. Tag eins bedeutet 1,5 Stunden Fahrt von Marrakesch nach Imlil und danach rund fünf Stunden Gehzeit hinauf zur Toubkal-Hütte auf 3.207 m, etwa 1.470 Höhenmeter, vorbei am Heiligtum von Sidi Chamharouch. Tag zwei beginnt vor Sonnenaufgang: 960 Höhenmeter hinauf zum Gipfel auf 4.167 m, danach die gesamten 2.430 Höhenmeter Abstieg nach Imlil und die Rückfahrt. Sieben bis acht Stunden Gehzeit am zweiten Tag, größtenteils bergab auf losem Untergrund.",
       "Was man vor der Buchung verstehen sollte: Es gibt keinen Akklimatisationstag. Sie schlafen eine Nacht auf 3.207 m und stehen am nächsten Morgen auf dem Gipfel — das ist ein anspruchsvolles Aufstiegsprofil und keine sanfte Steigerung. Wer zu Hause mit einem langen Bergtag zurechtkommt, schafft das in der Regel gut; wer noch nie über 3.000 m war, spürt die Höhe manchmal im letzten Hang. Wenn Sie die Zeit haben, baut die 4-Tage-Variante eine Akklimatisation ein und ist der bessere Trek — diese Tour gibt es für alle, die diese Zeit nicht haben.",
-      "Der Preis folgt einer Gruppenstaffel, weil Bergführer und Transfer dasselbe kosten, ob eine Person geht oder sechs. Allein: 455 €. Zu zweit zahlt jeder 254 €, zu dritt 241 €, zu viert 228 €, zu fünft 215 €, und ab sechs Personen sinkt es auf 199 € pro Person. Darin enthalten sind der staatlich geprüfte Bergführer, die Hüttennacht, alle Mahlzeiten am Berg, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch — der genannte Betrag ist also der, den Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später hinzukommen.",
+      "Der Preis folgt einer Gruppenstaffel, weil Bergführer und Transfer dasselbe kosten, ob eine Person geht oder sechs. Allein: 514 €. Zu zweit zahlt jeder 313 €, zu dritt 300 €, zu viert 287 €, zu fünft 274 €, und ab sechs Personen sinkt es auf 258 € pro Person. Darin enthalten sind der staatlich geprüfte Bergführer, die Hüttennacht, alle Mahlzeiten am Berg, die Nationalparkgebühren und der Hin- und Rücktransfer ab Marrakesch — der genannte Betrag ist also der, den Sie zahlen, und kein Grundpreis, zu dem die Bergkosten später hinzukommen.",
       "Nicht enthalten: die Reiseversicherung, die verpflichtend ist, Ihre eigenen Schuhe und Kleidungsschichten, Trinkgelder für den Bergführer sowie Steigeisen und Eispickel im Winter. Letztere lassen sich in Imlil mieten. Etwa zwischen November und April wird der Gipfel zu einer Schneetour und der Trek zu einer wirklich anderen Unternehmung — mit der richtigen Ausrüstung gut machbar, aber nicht mehr dieselbe Wanderung wie auf den Fotos.",
       "Die Gruppe besteht nur aus Ihnen. Das ist ein privater Trek für 2 bis 12 Personen: Das Tempo bestimmt Ihre Gruppe und nicht Fremde, und der Bergführer kann umkehren oder langsamer gehen, ohne sich mit dem Zeitplan anderer abstimmen zu müssen. Bei einer Zweitagestour ohne Reservetag ist diese Flexibilität mehr wert, als es klingt.",
     ],
@@ -2475,8 +2475,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–12 Personen",
     reviewCount: 34,
     rating: 4.7,
-    price: 455,
-    depositAmount: 91,
+    price: 514,
+    depositAmount: 103,
     heroImage: "/gallery/toubkal-summit-panorama-ridges.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",
@@ -2557,8 +2557,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–12 Personen",
     reviewCount: 18,
     rating: 4.8,
-    price: 780,
-    depositAmount: 156,
+    price: 839,
+    depositAmount: 168,
     heroImage:
       "/gallery/tours-toubkal-aguelzim-pass-3day.jpg",
     gallery: [
@@ -2579,7 +2579,7 @@ export const TOURS: Tour[] = [
     ],
     includes: [
       "Professioneller staatlich geprüfter Bergführer",
-      "2 Nächte in der Berghütte oder im Biwak, je nach Wetter und Ihrem Wunsch",
+      "1 Nacht in einem Dorf-Gîte im Azzaden-Tal und 1 Nacht in der Toubkal-Hütte",
       "Alle Mahlzeiten während der Tour",
       "Maultiertreiber für die Gruppenausrüstung",
       "Eintrittsgebühren für den Toubkal-Nationalpark",
@@ -2595,14 +2595,14 @@ export const TOURS: Tour[] = [
       {
         day: 1,
         meals: "L,D",
-        stay: "Biwak",
+        stay: "Dorf-Gîte",
         walking: "5–6 h",
         driving: "1.5 h",
         ascent: "+900 m",
         stop: { name: "Azzaden Valley", lat: 31.12, lng: -7.97 },
         title: "Marrakesch → Imlil → Azzaden-Tal (Azib Tamsoult)",
         description:
-          "Transfer von Marrakesch nach Imlil. Wanderung über den Tizi-n'Mzik-Pass (2.450 m) ins Azzaden-Tal, vorbei an den Ighouliden-Wasserfällen zum Refugium bei Azib Tamsoult. Etwa 6 Stunden.",
+          "Transfer von Marrakesch nach Imlil. Wanderung über den Tizi-n'Mzik-Pass (2.450 m) ins Azzaden-Tal, vorbei an den Ighouliden-Wasserfällen zu einem Dorf-Gîte bei Azib Tamsoult. Etwa 6 Stunden.",
       },
       {
         day: 2,
@@ -2629,7 +2629,7 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Wie schwer ist das im Vergleich zur Standardroute auf den Toubkal?", a: "Sie ist als anspruchsvoll eingestuft. Die Schwierigkeit ist kein technisches Klettern, sondern der hohe Aguelzim-Pass (3.560 m) im Aufstieg plus der Gipfel auf 4.167 m, die Höhe ist also die Hauptprüfung. Es ist ein schönerer, ruhigerer Zugang." },
-      { q: "Wo übernachtet man?", a: "Zwei Nächte in Berghütten – arbeitende Hütten mit geteilten Schlaflagern, Decken und gemeinsamen Mahlzeiten. Bringen Sie einen Hüttenschlafsack und eine Stirnlampe mit." },
+      { q: "Wo übernachtet man?", a: "Die erste Nacht verbringen Sie in einem Dorf-Gîte im Azzaden-Tal bei Azib Tamsoult, die zweite in der Toubkal-Hütte – einer bewirtschafteten Hütte mit geteilten Schlaflagern, Decken und gemeinsamen Mahlzeiten. Auf diesem Trek wird nicht gezeltet. Bringen Sie einen Hüttenschlafsack und eine Stirnlampe mit." },
       { q: "Muss ich meine gesamte Ausrüstung tragen?", a: "Nein – ein Maultiertreiber transportiert die Gruppenausrüstung, Sie tragen also nur einen Tagesrucksack. Persönliche Trekkingausrüstung ist Ihre eigene Sache." },
       { q: "Ist eine Reiseversicherung erforderlich?", a: "Ja, sie ist für dieses Trekking obligatorisch und nicht enthalten. Trinkgelder für Guide und Maultiertreiber sind ebenfalls nicht enthalten." },
     ],
@@ -2650,8 +2650,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–10 Personen",
     reviewCount: 12,
     rating: 4.9,
-    price: 780,
-    depositAmount: 156,
+    price: 898,
+    depositAmount: 180,
     heroImage:
       "/gallery/destination-hero-toubkal-snow.jpg",
     gallery: [
@@ -3288,8 +3288,8 @@ export const TOURS: Tour[] = [
     groupSize: "2–10 people",
     reviewCount: 0,
     rating: 4,
-    price: 2040,
-    depositAmount: 408,
+    price: 2158,
+    depositAmount: 432,
     heroImage: "/gallery/trek-camp-high-valley-dawn.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -3503,8 +3503,8 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 0,
     rating: 4.9,
-    price: 1140,
-    depositAmount: 228,
+    price: 1199,
+    depositAmount: 240,
     heroImage: "/gallery/toubkal-summit-clients-celebrate.jpg",
     gallery: [
       "/gallery/toubkal-summit-panorama-high-atlas.jpg",
@@ -4057,7 +4057,7 @@ export const TOURS: Tour[] = [
       "Diese Reise bringt Marokkos zwei Extreme in einer Woche zusammen: den Jbel Toubkal auf 4.167 m und das Sandmeer des Erg Chebbi. Start und Ziel ist ein Riad in Marrakesch. Sie steigen zur Toubkal-Hütte auf und stehen bei Sonnenaufgang auf dem Gipfel, verlassen dann die Berge Richtung Süden über Ait Ben Haddou sowie die Dades- und Todra-Schluchten bis in die Wüste und reiten auf Kamelen in die Dünen zur Übernachtung im Zeltcamp. Es ist eine durchgehende Route mit einem Guide — deshalb funktioniert sie als acht Tage und nicht als zwei aneinandergehängte Touren. Anders als unsere privaten Touren hat diese feste Termine und eine begrenzte Platzzahl.",
     seoTitle: "Toubkal und Sahara — 8-Tage-Rundreise",
     seoDescription:
-      "Toubkal (4.167 m) und die Dünen des Erg Chebbi in 8 Tagen ab Marrakesch. Fünf feste Termine ab März 2027, 14 Plätze, €1.067 p. P. — statt €1.105.",
+      "Toubkal (4.167 m) und die Dünen des Erg Chebbi in 8 Tagen ab Marrakesch. Fünf feste Termine ab März 2027, 14 Plätze, €1.126 p. P. — statt €1.164.",
     faq: [
       { q: "Wie fit muss ich für den Toubkal-Teil sein?", a: "Fit genug für zwei lange aufeinanderfolgende Tage, der zweite davon rund neun Stunden mit Aufbruch vor Sonnenaufgang. Es gibt keine technische Kletterei, kein Seil und keine Kraxelei — es ist eine lange Wanderung in Höhe. Wer sechs Stunden im Bergland gehen kann, ohne den nächsten Tag zu fürchten, ist bereit." },
       { q: "Ist das eine private Tour?", a: "Nein. Das ist ein Termin mit festem Datum und 14 Plätzen, Sie reisen also mit anderen, die dasselbe Datum gebucht haben. Genau deshalb ist der Preis pro Person fest und nicht von Ihrer Gruppengröße abhängig. Wenn Sie die Route lieber für sich allein hätten, fragen Sie uns nach einem privaten Angebot." },
@@ -4071,13 +4071,13 @@ export const TOURS: Tour[] = [
     tourType: "shared",
     reviewCount: 0,
     rating: 5,
-    price: 1067,
+    price: 1126,
     fixedDeparture: {
       dates: ["2027-03-05", "2027-03-12", "2027-03-26", "2027-04-05", "2027-04-15"],
       seatsTotal: 14,
-      listPrice: 1105,
+      listPrice: 1164,
     },
-    depositAmount: 213,
+    depositAmount: 225,
     heroImage: "/gallery/toubkal-summit-guide-thumbs-up.jpg",
     gallery: [
       "/gallery/toubkal-summit-ridge-climbers.jpg",

@@ -5600,6 +5600,28 @@ Le Maroc concentre une variété inhabituelle sur un petit territoire. En une se
 
 Voici la liste que nous donnerions à un ami. Quinze choses, regroupées par type de journée, avec les prix réels et un avis franc sur chacune.
 
+## Les 15 en un coup d'œil
+
+| # | Expérience | Où | Temps à prévoir |
+| --- | --- | --- | --- |
+| 1 | Dormir dans le Sahara | Erg Chebbi, près de Merzouga | 3 jours depuis Marrakech |
+| 2 | Une soirée à Agafay | À 40 minutes de Marrakech | Une soirée |
+| 3 | Gravir le Toubkal | Depuis Imlil, à 1 h 30 de Marrakech | 2 jours ou plus |
+| 4 | Un trek dans les villages berbères | Les vallées du Haut Atlas | 2 jours ou plus |
+| 5 | Le surf | Taghazout et Imsouane | Une semaine, si vous surfez |
+| 6 | Jemaa el-Fna et les souks | Marrakech | Une soirée et une matinée |
+| 7 | La médina de Fès | Fès | Une journée complète |
+| 8 | Chefchaouen | Le Rif, au nord de Fès | Une matinée, dans le cadre d'un itinéraire |
+| 9 | Aït Benhaddou | Sur la route du sud | Une étape de tout voyage dans le désert |
+| 10 | Le jardin Majorelle | Marrakech | Une heure |
+| 11 | Les gorges du Todra et la vallée du Dadès | Sur la route de Merzouga | Partie du voyage de 3 jours dans le désert |
+| 12 | Un cours de cuisine | Marrakech | Une demi-journée |
+| 13 | Un hammam | Dans toutes les villes | Votre dernier jour, après le trek |
+| 14 | Le thé à la menthe | Partout | Tous les jours |
+| 15 | Une nuit en riad | Dans la médina | Quelques nuits |
+
+Vous préparez les trois grands moments ? Lisez [la météo de l'Erg Chebbi mois par mois](/fr/blog/meteo-erg-chebbi-par-mois), [les treks au Toubkal comparés](/fr/blog/comparatif-treks-toubkal) et [Fès ou Marrakech](/fr/blog/fes-ou-marrakech).
+
 ## Désert et aventure
 
 ### 1. Dormir dans le Sahara à l'Erg Chebbi
@@ -5622,7 +5644,7 @@ Le hic, c'est la distance. Merzouga est à environ une journée de route de Marr
 
 ### 3. Gravir le Jbel Toubkal
 
-À 4 167 m, le Toubkal est le plus haut sommet d'Afrique du Nord, et c'est une randonnée plutôt qu'une escalade — sans corde ni passage technique, de la fin du printemps à l'automne. Ce qu'il exige, c'est une bonne condition physique et une tolérance à l'altitude : 1 500 m de dénivelé le jour du sommet.
+À 4 167 m, le Toubkal est le plus haut sommet d'Afrique du Nord, et c'est une randonnée plutôt qu'une escalade — sans corde ni passage technique, de la fin du printemps à l'automne. Ce qu'il exige, c'est une bonne condition physique et une tolérance à l'altitude : environ 1 500 m de dénivelé jusqu'au refuge, puis près de 1 000 m de plus avant le lever du soleil le jour du sommet.
 
 **Prix :** le [trek de 2 jours](/fr/tours/toubkal-summit-2day-marrakech) est la voie normale. Voir [la difficulté réelle du Toubkal](/fr/blog/how-hard-is-toubkal-difficulty-guide) pour une réponse franche.
 
@@ -6045,12 +6067,23 @@ pouvez voir l'état actuel de tous sur notre
       { q: "Combien co\u00fbtent les trains marocains ?", a: "Peu, selon les standards europ\u00e9ens. Tanger\u2013Casablanca sur Al Boraq co\u00fbte entre 99 et 224 dirhams en seconde classe et 129 \u00e0 292 en premi\u00e8re, selon l'anticipation. La vente ouvre trois mois avant le d\u00e9part." },
       { q: "Est-il s\u00fbr de conduire au Maroc ?", a: "Les autoroutes sont modernes et faciles. La difficult\u00e9 est ailleurs : les routes de montagne comme le Tizi n'Tichka sont \u00e9troites avec de longs \u00e0-pics et des camions lents, la circulation urbaine est affirm\u00e9e, et les routes rurales m\u00ealent voitures, mobylettes, charrettes et b\u00e9tail. Beaucoup de visiteurs parfaitement \u00e0 l'aise au volant chez eux trouvent les cols de l'Atlas plus fatigants que pr\u00e9vu." },
       { q: "Qu'est-ce qu'un grand taxi ?", a: "Un taxi collectif longue distance, souvent une vieille Mercedes, qui suit un trajet fixe et part quand il est plein \u2014 g\u00e9n\u00e9ralement six passagers. Tr\u00e8s bon march\u00e9 et vraiment utile pour les courtes liaisons entre villes. Vous pouvez aussi payer les places vides pour partir imm\u00e9diatement, ce qui reste peu co\u00fbteux." },
+      { q: "Quelle est la meilleure façon de se déplacer au Maroc ?", a: "Le train entre les grandes villes du nord : Tanger, Rabat, Casablanca, Fès et Marrakech. Un chauffeur ou un circuit pour le Sahara, les gorges et la montagne, qu'aucune voie ferrée n'atteint ; les cars CTM ou Supratours pour des villes comme Essaouira ; et les grands taxis pour les courts trajets entre villes voisines." },
     ],
     content: `Les transports marocains se divisent nettement en deux, et savoir où passe la
 ligne évite beaucoup de planification inutile. Les villes du nord sont reliées
 par des trains rapides, bon marché et confortables. Presque tout ce que les
 visiteurs veulent réellement voir — le désert, les gorges, la ville bleue,
 l'Atlantique — n'a aucun train.
+
+## Les transports au Maroc en un coup d'œil
+
+| Moyen | Idéal pour | Bon à savoir |
+| --- | --- | --- |
+| Train (ONCF, Al Boraq à grande vitesse) | Tanger, Rabat, Casablanca, Fès et Marrakech | Rapide, bon marché et confortable ; réservation ouverte trois mois à l'avance |
+| Car interurbain (CTM, Supratours) | Les villes sans gare, comme Essaouira | Climatisé, à horaires fixes, réservable en ligne |
+| Grand taxi | Les courts trajets entre villes voisines | Partagé ; part quand les six places sont prises ; fixez le prix avant de monter |
+| Voiture de location | La côte atlantique et l'Anti-Atlas à votre rythme | Les cols de montagne sont exigeants ; pas pour les pistes du désert |
+| Chauffeur ou circuit | Le Sahara, les gorges et la montagne | Utile là où il n'y a pas de train et où la route est la partie difficile |
 
 ## Les trains, là où ils circulent
 

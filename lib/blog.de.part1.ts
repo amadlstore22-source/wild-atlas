@@ -874,6 +874,7 @@ Alle Kostproben, der Kurs und das Mittagessen sind inbegriffen, und der ganze Vo
       { q: "Kann man im Ourika-Tal schwimmen?", a: "Ja, in den natürlichen Becken unterhalb der Kaskaden — einer der Gründe, warum sich das Tal an Sommerwochenenden füllt. Das Wasser kommt direkt aus dem Atlas und bleibt das ganze Jahr über richtig kalt, was bei 40 °C in Marrakesch genau der Reiz ist. Umkleiden gibt es nicht, ziehen Sie also darunter an, worin Sie schwimmen wollen." },
       { q: "Besucht man Berberdörfer im Ourika-Tal?", a: "Ja. Das Tal wird bewohnt und ist kein Aussichtspunkt: Terrassenfelder an den Hängen, Dörfer entlang des Flusses, und der Weg führt hindurch statt daran vorbei. Ein traditionelles Berber-Mittagessen bei einer einheimischen Familie ist im Tag enthalten, und an diese gemeinsame Mahlzeit erinnern sich die Leute mehr als an den Wasserfall." },
       { q: "Ist die Ourika-Wanderung schwierig?", a: "Nein. Sie ist als leicht eingestuft und für Familien und Erstwanderer gemacht: Die Route folgt Talwegen statt eines echten Anstiegs, und Kinder, die auf unebenem Boden sicher sind, schaffen sie gut. Die einzige Vorsicht gilt dem Schuhwerk — der Pfad zu den Fällen quert nassen Fels, Sandalen sind also eine schlechte Idee." },
+      { q: "Ourika-Tal oder Ouzoud-Wasserfälle: welcher Tagesausflug ist besser?", a: "Es sind zwei verschiedene Tage. Das Ourika-Tal liegt näher, etwa 60 km von Marrakesch, und ist eine Wanderung durch Berberdörfer zu den Wasserfällen von Setti Fatma. Ouzoud liegt etwa zweieinhalb Stunden entfernt: Wasserfälle, Schlucht, Bootsfahrt und Berberaffen. Ourika für Wandern und Dörfer, Ouzoud für die Wasserfälle selbst." },
     ],
     content: `
 ## Was ist das Ourika-Tal?
@@ -905,6 +906,17 @@ Am Kopf des Tals markiert das Dorf Setti Fatma den Beginn einer Wasserfallwander
 
 ### Der Fluss
 Im Frühling (April–Juni) ist der Ourika-Fluss von Schmelzwasser aus dem Hohen Atlas angeschwollen und fließt schnell und klar. Kinder schwimmen in den Becken, und die flachen Felsen am Ufer eignen sich hervorragend für ein Picknick. Im Sommer sinkt der Fluss und erwärmt sich; im Herbst führt er wenig, aber kristallklares Wasser.
+
+## Ourika, Ouzoud, Agafay oder Essaouira? Tagesausflüge ab Marrakesch im Vergleich
+
+| Ausflug | Entfernung | Der Tag | Ideal für |
+| --- | --- | --- | --- |
+| [Ourika-Tal](/de/tours/wanderung-ourika-tal) | Etwa 60 km südlich | Abfahrt 8:30 Uhr, zurück bis 17 Uhr; Wanderung durch Dörfer zu den Wasserfällen von Setti Fatma, Mittagessen bei einer Berberfamilie | Ein erster Eindruck vom Atlas zu Fuß |
+| [Ouzoud-Wasserfälle](/de/tours/ausflug-ouzoud-wasserfaelle) | Etwa 2 Std. 30 Fahrt | Abfahrt 7:30 Uhr, gegen 10 Uhr an den Fällen; Schluchtwanderung, Bootsfahrt, Berberaffen | Die Wasserfälle selbst und ein längerer Ausflug |
+| [Agafay-Wüste](/de/tours/sonnenuntergang-agafay-wueste) | Etwa 30 Minuten | Ein Nachmittag und Abend: Kamelritt bei Sonnenuntergang, Abendessen im Camp | Wüstengefühl ohne lange Anfahrt |
+| [Essaouira](/de/tours/essaouira-gruppentagestour) | Etwa 3 Stunden pro Strecke | Eine Argan-Kooperative unterwegs, dann freie Zeit in der Medina und am Hafen | Die Atlantikküste |
+
+Ouzoud gibt es auch als [Gruppenausflug](/de/tours/ouzoud-wasserfaelle-gruppentour) und Agafay als [Abendessen mit Kamelritt in der Gruppe](/de/tours/agafay-abendessen-kamelritt-feuershow). Was ein Tag in Ouzoud wirklich kostet, steht in unserem [Kostenführer für Ouzoud](/de/blog/ouzoud-wasserfaelle-ausflug-kosten).
 
 ## Wann Sie reisen sollten
 

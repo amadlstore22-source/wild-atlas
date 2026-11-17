@@ -5555,6 +5555,28 @@ Marruecos concentra una variedad inusual en poco territorio. En una semana puede
 
 Esta es la lista que le daríamos a un amigo. Quince cosas, agrupadas por el tipo de día que componen, con precios reales y una valoración franca de cada una.
 
+## Las 15 de un vistazo
+
+| # | Experiencia | Dónde | Tiempo necesario |
+| --- | --- | --- | --- |
+| 1 | Dormir en el Sáhara | Erg Chebbi, cerca de Merzouga | 3 días desde Marrakech |
+| 2 | Una tarde en Agafay | A 40 minutos de Marrakech | Una tarde-noche |
+| 3 | Subir el Toubkal | Desde Imlil, a 1 h 30 de Marrakech | 2 días o más |
+| 4 | Un trek por pueblos bereberes | Los valles del Alto Atlas | 2 días o más |
+| 5 | Surf | Taghazout e Imsouane | Una semana, si haces surf |
+| 6 | Djemaa el-Fna y los zocos | Marrakech | Una noche y una mañana |
+| 7 | La medina de Fez | Fez | Un día completo |
+| 8 | Chefchaouen | El Rif, al norte de Fez | Una mañana, dentro de una ruta |
+| 9 | Aït Benhaddou | En la carretera del sur | Una parada en cualquier viaje al desierto |
+| 10 | El Jardín Majorelle | Marrakech | Una hora |
+| 11 | La garganta del Todra y el valle del Dades | En la carretera a Merzouga | Parte del viaje de 3 días al desierto |
+| 12 | Una clase de cocina | Marrakech | Medio día |
+| 13 | Un hammam | En cualquier ciudad | Tu último día, después del trek |
+| 14 | El té con menta | En todas partes | Todos los días |
+| 15 | Dormir en un riad | Dentro de la medina | Un par de noches |
+
+¿Preparas los tres grandes? Lee [el clima del Erg Chebbi mes a mes](/es/blog/clima-erg-chebbi-por-meses), [los treks al Toubkal comparados](/es/blog/comparativa-treks-toubkal) y [Fez o Marrakech](/es/blog/fez-o-marrakech).
+
 ## Desierto y aventura
 
 ### 1. Dormir en el Sáhara en Erg Chebbi
@@ -5577,7 +5599,7 @@ A cuarenta minutos de Marrakech, Agafay es un paisaje lunar de colinas grises co
 
 ### 3. Subir al Yebel Toubkal
 
-Con 4.167 m, el Toubkal es la cima más alta del norte de África, y es una caminata más que una escalada — sin cuerdas ni pasos técnicos, de finales de primavera al otoño. Lo que exige es forma física y tolerancia a la altura: 1.500 m de desnivel el día de cumbre.
+Con 4.167 m, el Toubkal es la cima más alta del norte de África, y es una caminata más que una escalada — sin cuerdas ni pasos técnicos, de finales de primavera al otoño. Lo que exige es forma física y tolerancia a la altura: unos 1.500 m de desnivel hasta el refugio y casi 1.000 m más antes del amanecer el día de cumbre.
 
 **Precio:** el [trekking de 2 días](/es/tours/toubkal-summit-2day-marrakech) es la vía normal. Ver [cuán difícil es realmente el Toubkal](/es/blog/how-hard-is-toubkal-difficulty-guide).
 
@@ -5999,12 +6021,23 @@ que sigue siendo una ventana — puedes ver el estado actual de todos en nuestra
       { q: "\u00bfCu\u00e1nto cuestan los trenes marroqu\u00edes?", a: "Poco para el est\u00e1ndar europeo. T\u00e1nger\u2013Casablanca en Al Boraq cuesta entre 99 y 224 d\u00edrhams en segunda y de 129 a 292 en primera, seg\u00fan la antelaci\u00f3n. La venta abre tres meses antes de la salida." },
       { q: "\u00bfEs seguro conducir en Marruecos?", a: "Las autopistas son modernas y f\u00e1ciles. La dificultad est\u00e1 en otra parte: carreteras de monta\u00f1a como el Tizi n'Tichka son estrechas con ca\u00eddas largas y camiones lentos, el tr\u00e1fico urbano es decidido, y las carreteras rurales mezclan coches, ciclomotores, carros y ganado. Muchos visitantes que conducen con soltura en casa encuentran los puertos del Atlas m\u00e1s cansados de lo esperado." },
       { q: "\u00bfQu\u00e9 es un grand taxi?", a: "Un taxi compartido de larga distancia, normalmente un viejo Mercedes, que hace una ruta fija y sale cuando se llena, en general con seis pasajeros. Muy barato y realmente \u00fatil para trayectos cortos entre pueblos. Tambi\u00e9n puedes pagar las plazas vac\u00edas para salir de inmediato, y sigue siendo econ\u00f3mico." },
+      { q: "¿Cuál es la mejor forma de moverse por Marruecos?", a: "El tren entre las grandes ciudades del norte: Tánger, Rabat, Casablanca, Fez y Marrakech. Un conductor o un circuito para el Sáhara, las gargantas y la montaña, adonde no llega ningún tren; los autobuses de CTM o Supratours para ciudades como Essaouira; y los grands taxis para trayectos cortos entre ciudades vecinas." },
     ],
     content: `El transporte marroquí se divide claramente en dos, y saber dónde cae la línea
 ahorra mucha planificación inútil. Las ciudades del norte están unidas por
 trenes rápidos, baratos y cómodos. Casi todo lo que los visitantes quieren ver
 de verdad — el desierto, las gargantas, la ciudad azul, el Atlántico — no tiene
 tren.
+
+## El transporte en Marruecos de un vistazo
+
+| Medio | Ideal para | Conviene saber |
+| --- | --- | --- |
+| Tren (ONCF, alta velocidad Al Boraq) | Tánger, Rabat, Casablanca, Fez y Marrakech | Rápido, barato y cómodo; la venta abre con tres meses de antelación |
+| Autobús interurbano (CTM, Supratours) | Ciudades sin tren, como Essaouira | Con aire acondicionado, horarios fijos y reserva online |
+| Grand taxi | Trayectos cortos entre ciudades vecinas | Compartido; sale cuando se ocupan los seis asientos; acuerda el precio antes de subir |
+| Coche de alquiler | La costa atlántica y el Antiatlas a tu ritmo | Los puertos de montaña son exigentes; no sirve para las pistas del desierto |
+| Conductor o circuito | El Sáhara, las gargantas y la montaña | Compensa donde no hay tren y la carretera es lo difícil |
 
 ## Los trenes, por donde circulan
 

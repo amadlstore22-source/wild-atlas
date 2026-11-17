@@ -972,7 +972,7 @@ All the tastings, the class and the lunch are included, and the whole morning ca
     category: "trekking",
     readTime: 5,
     publishedAt: "2025-09-10",
-    updatedAt: "2026-10-01",
+    updatedAt: "2026-11-17",
     tags: ["Ourika Valley", "Marrakech day trip", "High Atlas", "Berber villages", "hiking"],
     seoTitle: "Ourika Valley Day Trip from Marrakech 2026",
     seoDescription:
@@ -986,6 +986,7 @@ All the tastings, the class and the lunch are included, and the whole morning ca
       { q: "How far is the Ourika Valley from Marrakech?", a: "About 65 km, roughly an hour's drive to Setti Fatma at the top of the valley road, so a full day there is unhurried. Our [Ourika day hike](/en/tours/ourika-valley-day-hike) is from €86 per person for two, with a certified guide, a Berber lunch and transport, back in Marrakech by 5:00 pm." },
       { q: "Do you need a guide for the Ourika Valley?", a: "Not to visit the valley: the road to Setti Fatma is open and you can drive it yourself. The waterfall trail above the village is a different matter, rocky and with river crossings, and that is where a guide earns their fee; ours knows which crossings are safe after rain. Our [day hike](/en/tours/ourika-valley-day-hike) is from €86 per person for two, certified hiking guide included." },
       { q: "Can you do a day trip to the Atlas Mountains from Marrakech?", a: "Yes. The Ourika Valley, about an hour from Marrakech, is High Atlas country: our [day hike](/en/tours/ourika-valley-day-hike) is from €86 per person for two and walks through Berber villages and terraced fields to the Setti Fatma waterfalls, back by 5:00 pm. Toubkal, the highest peak, needs at least two days." },
+      { q: "Is the Ourika Valley or the Ouzoud Waterfalls the better day trip?", a: "They are different days. The Ourika Valley is closer, about 60 km from Marrakech, and is a walk through Berber villages to the Setti Fatma waterfalls. Ouzoud is about two and a half hours away for the falls, a gorge walk, a boat ride and Barbary macaques. Choose Ourika for walking and villages, Ouzoud for the falls themselves." },
     ],
     content: `
 ## What Is the Ourika Valley?
@@ -1017,6 +1018,17 @@ At the valley's head, the village of Setti Fatma marks the start of a waterfall 
 
 ### The River
 In spring (April–June), the Ourika River is swollen with snowmelt from the High Atlas and runs fast and clear. Children swim in the pools, and the flat rocks along the bank are perfect for a picnic. In summer the river drops and warms; in autumn it is low but crystal clear.
+
+## Ourika, Ouzoud, Agafay or Essaouira? Day trips from Marrakech compared
+
+| Day trip | How far | The day | Best for |
+| --- | --- | --- | --- |
+| [Ourika Valley](/en/tours/ourika-valley-day-hike) | About 60 km south | Leave 8:30 am, back by 5 pm; walk through villages to the Setti Fatma waterfalls, lunch with a Berber family | A first taste of the Atlas on foot |
+| [Ouzoud Waterfalls](/en/tours/ouzoud-waterfalls-day-trip) | About 2 h 30 by road | Leave 7:30 am, at the falls by 10 am; gorge walk, boat ride, Barbary macaques | The falls themselves, and a longer day out |
+| [Agafay desert](/en/tours/agafay-desert-sunset) | About 30 minutes | An afternoon and evening: camel ride at sunset, dinner at a camp | The desert feeling without the long drive |
+| [Essaouira](/en/tours/shared-essaouira-day-trip) | About 3 hours each way | An argan cooperative on the way, then free time in the medina and the port | The Atlantic coast |
+
+Ouzoud also runs as a [shared day trip](/en/tours/shared-ouzoud-waterfalls-day-trip), and Agafay as a [shared dinner and camel ride](/en/tours/shared-agafay-dinner-camel-ride). For what an Ouzoud day really costs, see our [Ouzoud cost guide](/en/blog/ouzoud-waterfalls-day-trip-cost).
 
 ## When to Go
 
@@ -7940,7 +7952,7 @@ Two things worth deciding early:
     region: "root",
     readTime: 14,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-11-17",
     tags: ["things to do in Morocco", "Morocco activities", "Morocco bucket list", "what to do in Morocco", "Morocco experiences"],
     seoTitle: "Best of Morocco: 15 Things to Do and See",
     seoDescription:
@@ -7957,6 +7969,28 @@ Two things worth deciding early:
 Morocco packs an unusual amount into a small space. In one week you can sleep in the Sahara, climb above 4,000 m, walk a medieval medina and surf an Atlantic point break. The difficulty is not finding things to do \u2014 it is choosing, and knowing which of the famous experiences actually justify the time and money.
 
 This is the list we would give a friend. Fifteen things, grouped by the kind of day they make, with real prices and an honest verdict on each.
+
+## The 15 at a glance
+
+| # | Experience | Where | Time to give it |
+| --- | --- | --- | --- |
+| 1 | Sleep in the Sahara | Erg Chebbi, near Merzouga | 3 days from Marrakech |
+| 2 | An Agafay evening | 40 minutes from Marrakech | An evening |
+| 3 | Climb Toubkal | From Imlil, 1h30 from Marrakech | 2 days or more |
+| 4 | A Berber village trek | The High Atlas valleys | 2 days or more |
+| 5 | Surf | Taghazout and Imsouane | A week, if you surf |
+| 6 | Jemaa el-Fna and the souks | Marrakech | An evening and a morning |
+| 7 | The Fes medina | Fes | A full day |
+| 8 | Chefchaouen | The Rif Mountains, north of Fes | A morning, as part of a route |
+| 9 | Aït Benhaddou | On the road south | A stop on any desert trip |
+| 10 | Jardin Majorelle | Marrakech | An hour |
+| 11 | Todra Gorge and the Dades valley | On the road to Merzouga | Part of the 3-day desert trip |
+| 12 | A cooking class | Marrakech | Half a day |
+| 13 | A hammam | Any town | Your last day, after the trekking |
+| 14 | Mint tea | Everywhere | Every day |
+| 15 | A night in a riad | Inside the medina | A couple of nights |
+
+Planning the big three? Read [Erg Chebbi weather by month](/en/blog/erg-chebbi-weather-by-month), [Toubkal treks compared](/en/blog/toubkal-treks-compared-which-route) and [Fes or Marrakech](/en/blog/fes-or-marrakech-which-to-visit).
 
 ## Desert and adventure
 
@@ -7980,7 +8014,7 @@ Forty minutes from Marrakech, Agafay is a lunar landscape of grey hills with the
 
 ### 3. Climb Jbel Toubkal
 
-At 4,167 m, Toubkal is the highest peak in North Africa, and it is a walk rather than a climb \u2014 no ropes, no technical ground, from late spring to autumn. What it does demand is fitness and a head for altitude: 1,500 m of ascent on summit day.
+At 4,167 m, Toubkal is the highest peak in North Africa, and it is a walk rather than a climb \u2014 no ropes, no technical ground, from late spring to autumn. What it does demand is fitness and a head for altitude: about 1,500 m of climbing to the refuge, then close to 1,000 m more before sunrise on summit morning.
 
 **Cost:** the [2-day summit trek](/en/tours/toubkal-summit-2day-marrakech) is the standard route. See [how hard Toubkal really is](/en/blog/how-hard-is-toubkal-difficulty-guide) for a straight answer on the difficulty.
 
@@ -8391,9 +8425,9 @@ plainly how confident the date is before you book anything.`,
     region: "root",
     readTime: 12,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-11-17",
     tags: ["Morocco transport", "Morocco trains", "ONCF", "Al Boraq", "getting around Morocco"],
-    seoTitle: "Getting Around Morocco",
+    seoTitle: "Transportation in Morocco: Getting Around",
     seoDescription:
       "Morocco transport explained: Al Boraq high-speed rail, ONCF journey times and fares, CTM buses, grands taxis \u2014 and the destinations no train reaches.",
     relatedTours: ["marrakech-to-fes-3day", "marrakech-to-chefchaouen-4day", "marrakech-imperial-cities-5day", "shared-essaouira-day-trip"],
@@ -8403,11 +8437,22 @@ plainly how confident the date is before you book anything.`,
       { q: "How much do Moroccan trains cost?", a: "Cheap by European standards. Tangier to Casablanca on Al Boraq runs between 99 and 224 dirhams in second class and 129 to 292 in first, depending on how far ahead you book. Booking opens three months before departure." },
       { q: "Is it safe to drive in Morocco?", a: "The motorways are modern and easy. The difficulty is elsewhere: mountain roads like the Tizi n'Tichka are narrow with long drops and slow lorries, city traffic is assertive, and rural roads mix cars with mopeds, carts and livestock. Many visitors who are perfectly confident drivers at home find the Atlas passes more tiring than expected." },
       { q: "What is a grand taxi?", a: "A shared long-distance taxi, usually an old Mercedes, that runs a fixed route and leaves when it is full \u2014 typically six passengers. Very cheap and genuinely useful for short hops between towns. You can also pay for the empty seats to have it leave immediately, which is still inexpensive." },
+      { q: "What is the best way to get around Morocco?", a: "Take the train between the big northern cities: Tangier, Rabat, Casablanca, Fes and Marrakech. Use a driver or a tour for the Sahara, the gorges and the mountains, which no railway reaches; CTM or Supratours buses for towns such as Essaouira; and grands taxis for short hops between neighbouring towns." },
     ],
     content: `Morocco's transport splits cleanly in two, and knowing where the line falls
 saves a lot of wasted planning. The northern cities are joined by fast, cheap,
 comfortable trains. Everywhere most visitors actually want to go — the desert,
 the gorges, the blue city, the Atlantic — has no train at all.
+
+## Transportation in Morocco at a glance
+
+| How | Best for | Good to know |
+| --- | --- | --- |
+| Train (ONCF, Al Boraq high-speed) | Tangier, Rabat, Casablanca, Fes and Marrakech | Fast, cheap and comfortable; booking opens three months ahead |
+| Intercity bus (CTM, Supratours) | Towns without a railway, such as Essaouira | Air-conditioned, timetabled, bookable online |
+| Grand taxi | Short hops between neighbouring towns | Shared; leaves when all six seats are taken; agree the fare first |
+| Hire car | The Atlantic coast and the Anti-Atlas at your own pace | Mountain passes are demanding; not for desert pistes |
+| Driver or tour | The Sahara, the gorges and the mountains | Worth it where there is no railway and the drive is the hard part |
 
 ## The trains, where they run
 

@@ -881,6 +881,7 @@ Toutes les dégustations, le cours et le déjeuner sont inclus, et toute la mati
       { q: "Peut-on se baigner dans la vallée de l'Ourika ?", a: "Oui, dans les vasques naturelles sous les cascades — l'une des raisons pour lesquelles la vallée se remplit les week-ends d'été. L'eau descend directement de l'Atlas et reste franchement froide toute l'année, ce qui est précisément l'attrait quand Marrakech affiche 40 °C. Il n'y a pas de cabines, alors portez dessous ce avec quoi vous comptez nager." },
       { q: "Visite-t-on des villages berbères dans la vallée de l'Ourika ?", a: "Oui. La vallée est habitée et non un simple point de vue : cultures en terrasses sur les versants, villages égrenés le long de la rivière, et la marche les traverse plutôt qu'elle ne les contourne. Un déjeuner berbère traditionnel chez une famille locale est compris dans la journée, et c'est ce repas partagé dont les gens se souviennent plus que de la cascade." },
       { q: "La randonnée de l'Ourika est-elle difficile ?", a: "Non. Elle est cotée facile et pensée pour les familles et les débutants : le parcours suit des sentiers de vallée plutôt qu'une véritable montée, et les enfants à l'aise sur terrain irrégulier s'en sortent bien. La seule vraie précaution concerne les chaussures : le sentier vers les cascades franchit de la roche mouillée, donc les sandales sont une mauvaise idée." },
+      { q: "Vallée de l'Ourika ou cascades d'Ouzoud : quelle excursion choisir ?", a: "Ce sont deux journées différentes. La vallée de l'Ourika est plus proche, à environ 60 km de Marrakech : c'est une marche à travers les villages berbères jusqu'aux cascades de Setti Fatma. Ouzoud est à environ deux heures et demie, pour les cascades, les gorges, une barque et les macaques de Barbarie. L'Ourika pour la marche et les villages, Ouzoud pour les cascades elles-mêmes." },
     ],
     content: `
 ## Qu'est-ce que la vallée de l'Ourika ?
@@ -912,6 +913,17 @@ En tête de vallée, le village de Setti Fatma marque le début d'une randonnée
 
 ### La rivière
 Au printemps (avril–juin), la rivière Ourika, gonflée par la fonte des neiges du Haut Atlas, coule vive et claire. Les enfants se baignent dans les vasques, et les rochers plats de la berge sont parfaits pour un pique-nique. En été, la rivière baisse et se réchauffe ; en automne, elle est basse mais limpide.
+
+## Ourika, Ouzoud, Agafay ou Essaouira ? Les excursions depuis Marrakech comparées
+
+| Excursion | Distance | La journée | Idéale pour |
+| --- | --- | --- | --- |
+| [Vallée de l'Ourika](/fr/tours/randonnee-vallee-ourika-journee) | Environ 60 km au sud | Départ à 8 h 30, retour avant 17 h ; marche à travers les villages jusqu'aux cascades de Setti Fatma, déjeuner chez une famille berbère | Une première approche de l'Atlas à pied |
+| [Cascades d'Ouzoud](/fr/tours/excursion-cascades-ouzoud) | Environ 2 h 30 de route | Départ à 7 h 30, aux cascades vers 10 h ; balade dans les gorges, barque, macaques de Barbarie | Les cascades elles-mêmes, et une journée plus longue |
+| [Désert d'Agafay](/fr/tours/coucher-soleil-desert-agafay) | Environ 30 minutes | Un après-midi et une soirée : dromadaire au coucher du soleil, dîner au camp | L'ambiance du désert sans la longue route |
+| [Essaouira](/fr/tours/excursion-partagee-essaouira) | Environ 3 heures dans chaque sens | Une coopérative d'argan en chemin, puis du temps libre dans la médina et au port | La côte atlantique |
+
+Ouzoud existe aussi en [excursion partagée](/fr/tours/excursion-partagee-cascades-ouzoud), et Agafay en [dîner et balade à dos de dromadaire partagés](/fr/tours/agafay-diner-dromadaire-spectacle-feu). Pour le vrai coût d'une journée à Ouzoud, voir notre [guide des prix d'Ouzoud](/fr/blog/prix-excursion-cascades-ouzoud).
 
 ## Quand y aller
 

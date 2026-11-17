@@ -874,6 +874,7 @@ Tutti gli assaggi, la lezione e il pranzo sono inclusi, e tutta la mattina può 
       { q: "Si può nuotare nella valle dell'Ourika?", a: "Sì, nelle pozze naturali sotto le cascate, uno dei motivi per cui la valle si riempie nei fine settimana estivi. L'acqua scende direttamente dall'Atlante e resta davvero fredda tutto l'anno, che è esattamente il richiamo quando Marrakech è a 40 °C. Non ci sono spogliatoi, quindi indossa sotto ciò con cui intendi bagnarti." },
       { q: "Si visitano villaggi berberi nella valle dell'Ourika?", a: "Sì. La valle è abitata e non è un belvedere: campi terrazzati sui versanti, villaggi allineati lungo il fiume, e il cammino li attraversa invece di aggirarli. Un pranzo berbero tradizionale presso una famiglia locale è incluso nella giornata, e quel pasto condiviso è la parte che si ricorda più della cascata." },
       { q: "L'escursione dell'Ourika è difficile?", a: "No. È classificata facile e pensata per famiglie e principianti: il percorso segue sentieri di valle anziché una salita vera, e i bambini a proprio agio su terreno irregolare la affrontano bene. L'unica accortezza sono le calzature: il sentiero verso le cascate attraversa roccia bagnata, quindi i sandali sono una pessima idea." },
+      { q: "Meglio la valle dell'Ourika o le cascate di Ouzoud?", a: "Sono giornate diverse. La valle dell'Ourika è più vicina, a circa 60 km da Marrakech, ed è una camminata tra villaggi berberi fino alle cascate di Setti Fatma. Ouzoud è a circa due ore e mezza, per le cascate, la gola, la barca e le bertucce. L'Ourika per camminare e vedere i villaggi, Ouzoud per le cascate in sé." },
     ],
     content: `
 ## Cos'è la Valle dell'Ourika?
@@ -905,6 +906,17 @@ Alla testa della valle, il villaggio di Setti Fatma segna l'inizio di un'escursi
 
 ### Il fiume
 In primavera (aprile-giugno), il fiume Ourika è gonfio di neve sciolta dall'Alto Atlante e scorre veloce e limpido. I bambini nuotano nelle pozze, e le rocce piatte lungo la riva sono perfette per un picnic. In estate il fiume si abbassa e si scalda; in autunno è basso ma cristallino.
+
+## Ourika, Ouzoud, Agafay o Essaouira? Le gite da Marrakech a confronto
+
+| Gita | Distanza | La giornata | Ideale per |
+| --- | --- | --- | --- |
+| [Valle dell'Ourika](/it/tours/escursione-valle-ourika) | Circa 60 km a sud | Partenza alle 8:30, rientro entro le 17; camminata tra i villaggi fino alle cascate di Setti Fatma, pranzo con una famiglia berbera | Un primo assaggio dell'Atlante a piedi |
+| [Cascate di Ouzoud](/it/tours/gita-cascate-ouzoud) | Circa 2 h 30 di strada | Partenza alle 7:30, alle cascate verso le 10; passeggiata nella gola, barca, bertucce | Le cascate in sé, e una giornata più lunga |
+| [Deserto di Agafay](/it/tours/tramonto-deserto-agafay) | Circa 30 minuti | Un pomeriggio e una sera: giro in cammello al tramonto, cena al campo | L'atmosfera del deserto senza il lungo viaggio |
+| [Essaouira](/it/tours/escursione-condivisa-essaouira) | Circa 3 ore per tratta | Una cooperativa di argan lungo la strada, poi tempo libero nella medina e al porto | La costa atlantica |
+
+Ouzoud si fa anche come [gita condivisa](/it/tours/escursione-condivisa-cascate-ouzoud), e Agafay come [cena e giro in cammello condivisi](/it/tours/agafay-cena-cammello-spettacolo-fuoco). Per sapere quanto costa davvero una giornata a Ouzoud, leggi la nostra [guida ai prezzi di Ouzoud](/it/blog/prezzo-escursione-cascate-ouzoud).
 
 ## Quando andare
 

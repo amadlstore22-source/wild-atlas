@@ -5568,6 +5568,28 @@ Marokko packt ungewöhnlich viel auf wenig Fläche. In einer Woche kann man in d
 
 Das ist die Liste, die wir einem Freund geben würden. Fünfzehn Dinge, gruppiert nach der Art Tag, den sie ergeben, mit echten Preisen und einem ehrlichen Urteil zu jedem.
 
+## Die 15 auf einen Blick
+
+| # | Erlebnis | Wo | Zeitbedarf |
+| --- | --- | --- | --- |
+| 1 | In der Sahara übernachten | Erg Chebbi bei Merzouga | 3 Tage ab Marrakesch |
+| 2 | Ein Abend in der Agafay | 40 Minuten von Marrakesch | Ein Abend |
+| 3 | Den Toubkal besteigen | Ab Imlil, 1 Std. 30 von Marrakesch | 2 Tage oder mehr |
+| 4 | Trekking durch Berberdörfer | Die Täler des Hohen Atlas | 2 Tage oder mehr |
+| 5 | Surfen | Taghazout und Imsouane | Eine Woche, wenn Sie surfen |
+| 6 | Djemaa el-Fna und die Souks | Marrakesch | Ein Abend und ein Vormittag |
+| 7 | Die Medina von Fes | Fes | Ein ganzer Tag |
+| 8 | Chefchaouen | Rifgebirge, nördlich von Fes | Ein Vormittag, als Teil einer Route |
+| 9 | Aït Benhaddou | An der Straße nach Süden | Ein Halt auf jeder Wüstenreise |
+| 10 | Jardin Majorelle | Marrakesch | Eine Stunde |
+| 11 | Todra-Schlucht und Dadestal | An der Straße nach Merzouga | Teil der 3-tägigen Wüstenreise |
+| 12 | Ein Kochkurs | Marrakesch | Ein halber Tag |
+| 13 | Ein Hammam | In jeder Stadt | Ihr letzter Tag, nach dem Trekking |
+| 14 | Minztee | Überall | Jeden Tag |
+| 15 | Eine Nacht im Riad | In der Medina | Ein paar Nächte |
+
+Sie planen die großen drei? Lesen Sie [Wetter am Erg Chebbi, Monat für Monat](/de/blog/wetter-erg-chebbi-merzouga), [Toubkal-Touren im Vergleich](/de/blog/toubkal-touren-vergleich) und [Fes oder Marrakesch](/de/blog/fes-oder-marrakesch).
+
 ## Wüste und Abenteuer
 
 ### 1. In der Sahara am Erg Chebbi schlafen
@@ -5590,7 +5612,7 @@ Vierzig Minuten von Marrakesch ist die Agafay eine Mondlandschaft aus grauen Hü
 
 ### 3. Den Jbel Toubkal besteigen
 
-Mit 4.167 m ist der Toubkal der höchste Berg Nordafrikas — und von Spätfrühling bis Herbst eine Wanderung, keine Kletterei: kein Seil, kein technisches Gelände. Was er verlangt, ist Kondition und Höhenverträglichkeit: 1.500 Höhenmeter am Gipfeltag.
+Mit 4.167 m ist der Toubkal der höchste Berg Nordafrikas — und von Spätfrühling bis Herbst eine Wanderung, keine Kletterei: kein Seil, kein technisches Gelände. Was er verlangt, ist Kondition und Höhenverträglichkeit: rund 1.500 Höhenmeter bis zur Hütte, dann knapp 1.000 weitere vor Sonnenaufgang am Gipfeltag.
 
 **Preis:** das [2-Tages-Trekking](/de/tours/toubkal-summit-2day-marrakech) ist die Normalroute. Siehe [wie schwer der Toubkal wirklich ist](/de/blog/how-hard-is-toubkal-difficulty-guide).
 
@@ -6010,12 +6032,23 @@ Zeitfenster ist — den aktuellen Stand aller finden Sie auf unserer
       { q: "Was kosten marokkanische Z\u00fcge?", a: "Nach europ\u00e4ischem Ma\u00dfstab wenig. Tanger\u2013Casablanca mit Al Boraq kostet zwischen 99 und 224 Dirham in der zweiten Klasse und 129 bis 292 in der ersten, je nach Vorlauf. Der Verkauf \u00f6ffnet drei Monate vor Abfahrt." },
       { q: "Ist Autofahren in Marokko sicher?", a: "Die Autobahnen sind modern und einfach. Die Schwierigkeit liegt woanders: Bergstra\u00dfen wie der Tizi n'Tichka sind eng, mit langen Abbr\u00fcchen und langsamen Lastwagen, der Stadtverkehr ist bestimmt, und Landstra\u00dfen mischen Autos, Mopeds, Karren und Vieh. Viele Besucher, die zu Hause souver\u00e4n fahren, empfinden die Atlas-P\u00e4sse als anstrengender als erwartet." },
       { q: "Was ist ein Grand Taxi?", a: "Ein Sammeltaxi f\u00fcr l\u00e4ngere Strecken, meist ein alter Mercedes, das eine feste Route f\u00e4hrt und abf\u00e4hrt, wenn es voll ist \u2014 in der Regel sechs Fahrg\u00e4ste. Sehr g\u00fcnstig und wirklich n\u00fctzlich f\u00fcr kurze Etappen zwischen Orten. Man kann auch die leeren Pl\u00e4tze bezahlen, damit es sofort losgeht, und das bleibt preiswert." },
+      { q: "Wie reist man am besten durch Marokko?", a: "Mit dem Zug zwischen den großen Städten im Norden: Tanger, Rabat, Casablanca, Fes und Marrakesch. Mit Fahrer oder Tour in die Sahara, die Schluchten und die Berge, wohin keine Bahn fährt; mit den Bussen von CTM oder Supratours in Orte wie Essaouira; und mit dem Grand Taxi für kurze Strecken zwischen Nachbarorten." },
     ],
     content: `Marokkos Verkehr teilt sich klar in zwei Hälften, und zu wissen, wo die Grenze
 verläuft, spart viel unnötige Planung. Die Städte im Norden verbindet ein
 schnelles, günstiges, bequemes Zugnetz. Fast alles, wohin Besucher tatsächlich
 wollen — die Wüste, die Schluchten, die blaue Stadt, der Atlantik — hat
 überhaupt keinen Zug.
+
+## Verkehrsmittel in Marokko auf einen Blick
+
+| Womit | Ideal für | Gut zu wissen |
+| --- | --- | --- |
+| Zug (ONCF, Hochgeschwindigkeitszug Al Boraq) | Tanger, Rabat, Casablanca, Fes und Marrakesch | Schnell, günstig und bequem; Buchung bis drei Monate im Voraus |
+| Fernbus (CTM, Supratours) | Orte ohne Bahnanschluss, etwa Essaouira | Klimatisiert, nach Fahrplan, online buchbar |
+| Grand Taxi | Kurze Strecken zwischen Nachbarorten | Sammeltaxi; fährt los, wenn alle sechs Plätze besetzt sind; Preis vorher vereinbaren |
+| Mietwagen | Atlantikküste und Antiatlas im eigenen Tempo | Gebirgspässe sind anspruchsvoll; nichts für Wüstenpisten |
+| Fahrer oder Tour | Sahara, Schluchten und Gebirge | Lohnt sich, wo keine Bahn fährt und die Strecke der schwierige Teil ist |
 
 ## Die Züge, wo sie fahren
 

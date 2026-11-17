@@ -27,6 +27,7 @@ import { MARKET_SLUG_BY_LANG } from "./market-slugs";
 /** localised segment -> English slug. Blog posts. Generated; see scripts. */
 const BLOG_TO_EN: Record<string, Record<string, string>> = {
   fr: {
+    "fes-ou-marrakech": "fes-or-marrakech-which-to-visit",
     "comparatif-treks-toubkal": "toubkal-treks-compared-which-route",
     "meteo-erg-chebbi-par-mois": "erg-chebbi-weather-by-month",
     "volubilis-ruines-romaines": "volubilis-roman-ruins-guide",
@@ -80,6 +81,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "argent-au-maroc-especes-pourboires": "money-in-morocco-cash-atms-tipping",
   },
   es: {
+    "fez-o-marrakech": "fes-or-marrakech-which-to-visit",
     "comparativa-treks-toubkal": "toubkal-treks-compared-which-route",
     "clima-erg-chebbi-por-meses": "erg-chebbi-weather-by-month",
     "volubilis-ruinas-romanas": "volubilis-roman-ruins-guide",
@@ -133,6 +135,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "dinero-en-marruecos-efectivo-propinas": "money-in-morocco-cash-atms-tipping",
   },
   de: {
+    "fes-oder-marrakesch": "fes-or-marrakech-which-to-visit",
     "toubkal-touren-vergleich": "toubkal-treks-compared-which-route",
     "wetter-erg-chebbi-merzouga": "erg-chebbi-weather-by-month",
     "volubilis-roemische-ruinen": "volubilis-roman-ruins-guide",
@@ -186,6 +189,7 @@ const BLOG_TO_EN: Record<string, Record<string, string>> = {
     "geld-in-marokko-bargeld-trinkgeld": "money-in-morocco-cash-atms-tipping",
   },
   it: {
+    "fes-o-marrakech": "fes-or-marrakech-which-to-visit",
     "confronto-trek-toubkal": "toubkal-treks-compared-which-route",
     "meteo-erg-chebbi-mese-per-mese": "erg-chebbi-weather-by-month",
     "volubilis-rovine-romane": "volubilis-roman-ruins-guide",

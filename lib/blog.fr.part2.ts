@@ -9065,6 +9065,8 @@ La cité romaine de [Volubilis](/fr/blog/volubilis-ruines-romaines), inscrite pa
 se trouve entre Meknès et Fès, sur la plupart des routes qui les relient. Elle fait partie de la même
 histoire : en 809, Idriss II transféra sa capitale de Walili, le nom arabe de Volubilis, à Fès.
 
+Vous hésitez entre les deux villes les plus connues ? [Fès ou Marrakech](/fr/blog/fes-ou-marrakech) les compare côte à côte.
+
 ## Ce qui les distingue
 
 **Fès** est celle que l'on désigne quand on dit médiéval. Fès el-Bali est l'une des plus grandes et
@@ -9574,6 +9576,116 @@ d'hiver.
   difficile ?](/fr/blog/how-hard-is-toubkal-difficulty-guide)
 - Pourquoi chacun de ces treks se fait avec un guide agréé : [faut-il un guide
   pour gravir le Toubkal ?](/fr/blog/do-you-need-a-guide-to-climb-toubkal)
+`,
+  },
+  {
+    slug: "fes-or-marrakech-which-to-visit",
+    localizedSlug: "fes-ou-marrakech",
+    author: MET_TEAM,
+    title: "Fès ou Marrakech : laquelle visiter ?",
+    excerpt:
+      "Deux villes impériales, deux médinas inscrites à l'UNESCO, et presque rien d'autre en commun. Fès est le labyrinthe médiéval profond et sans voitures ; Marrakech la ville bruyante et ouverte, aux portes de la montagne et du désert. Ce qui les distingue, et laquelle convient à votre voyage.",
+    heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
+    category: "culture",
+    region: "imperial-cities",
+    readTime: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["Fès ou Marrakech", "Fès vs Marrakech", "villes impériales Maroc", "premier voyage au Maroc", "médina de Fès"],
+    seoTitle: "Fès ou Marrakech : laquelle visiter ?",
+    seoDescription:
+      "Fès, la médina médiévale sans voitures ; Marrakech, la ville bruyante aux portes de l'Atlas et du Sahara. Leurs différences, et laquelle choisir.",
+    relatedTours: ["marrakech-to-fes-3day", "marrakech-medina-cultural-tour", "marrakech-imperial-cities-5day", "casablanca-fes-sahara-marrakech-5day"],
+    faq: [
+      { q: "Fès ou Marrakech pour un premier voyage au Maroc ?", a: "Pour la plupart des premiers voyages, Marrakech. On s'y perd moins qu'à Fès, il y a la grande place Jemaa el-Fna, et c'est le point de départ de l'Atlas et de la plupart des circuits au Sahara. Fès s'adresse à ceux qui veulent la médina médiévale la plus profonde et qui acceptent volontiers qu'un guide la leur fasse lire." },
+      { q: "Quelle distance entre Fès et Marrakech ?", a: "Le train direct met environ sept heures. Par la route, beaucoup de voyageurs en font un voyage de deux ou trois jours à travers la montagne, ou un circuit plus long par le Sahara, plutôt qu'un long transfert." },
+      { q: "Combien de jours prévoir à Fès et à Marrakech ?", a: "Donnez à Fès une journée complète avec un guide, et deux nuits si possible. Marrakech demande un à deux jours pour la ville elle-même, davantage si vous en faites votre base pour la montagne et le désert." },
+    ],
+    content: `Quand un premier voyage au Maroc ne laisse de place qu'à une seule vieille ville,
+le choix se fait presque toujours entre ces deux-là. Toutes deux ont été des
+capitales impériales, leurs médinas sont inscrites au patrimoine mondial de
+l'UNESCO, et elles ne pourraient guère être plus différentes.
+
+## Fès et Marrakech en un coup d'œil
+
+| | Fès | Marrakech |
+| --- | --- | --- |
+| Fondation | 789 | Vers 1070, comme capitale almoravide |
+| Inscription UNESCO | Médina de Fès, 1981 | Médina de Marrakech, 1985 |
+| La médina | La plus profonde du Maroc : environ neuf mille ruelles, sans voitures | Ouverte et bruyante, organisée autour de la grande place |
+| Incontournables | Tanneries Chouara, Al-Qarawiyyin, médersa Bou Inania | Jemaa el-Fna, la Koutoubia, médersa Ben Youssef, palais de la Bahia |
+| Un guide | Utile à chaque fois | Utile pour une première visite |
+| Temps à prévoir | Une journée complète avec guide, deux nuits si possible | Un à deux jours pour la ville |
+| Autour de la ville | Meknès, Volubilis, Chefchaouen | Les vallées de l'Atlas, le Toubkal, le désert d'Agafay, Essaouira, le Sahara |
+
+## Choisissez Marrakech si…
+
+- **C'est votre premier voyage au Maroc.** Marrakech montre la ville dans ce
+  qu'elle a de plus théâtral : Jemaa el-Fna se couvre de stands de cuisine à la
+  tombée du jour, et les souks commencent juste derrière.
+- **Vous voulez aussi la montagne ou le désert.** C'est de Marrakech que partent
+  nos treks dans l'Atlas, nos soirées dans le désert d'Agafay et la plupart de nos
+  circuits au Sahara. Imlil, point de départ du Toubkal, est à environ une heure
+  et demie.
+- **Vous cherchez une base plutôt qu'une étape.** Un à deux jours suffisent pour
+  la ville ; quelques jours de plus en font un point de départ pour des
+  excursions. Notre programme [3 jours à Marrakech](/fr/blog/3-jours-a-marrakech)
+  montre comment.
+
+## Choisissez Fès si…
+
+- **Vous voulez la médina médiévale dans toute sa profondeur.** Fès el-Bali est
+  l'une des plus grandes zones urbaines sans voitures au monde, et ses souks sont
+  toujours organisés par métier.
+- **L'artisanat et l'histoire sont au cœur de votre voyage.** Les tanneries
+  Chouara fonctionnent depuis le XIe siècle, et Al-Qarawiyyin, fondée en 859 par
+  Fatima al-Fihri, est la plus ancienne institution d'enseignement en activité
+  continue au monde.
+- **Vous continuez vers le nord.** Meknès et les ruines romaines de
+  [Volubilis](/fr/blog/volubilis-ruines-romaines) sont tout près, à l'ouest de
+  Fès, et Chefchaouen, la ville bleue, est à environ quatre heures au nord.
+- **Vous connaissez déjà Marrakech** et voulez voir l'autre visage du Maroc
+  urbain.
+
+## Ce que l'on ressent dans chacune
+
+**Marrakech** est tournée vers l'extérieur et animée. Le minaret de la Koutoubia
+sert de repère, la place est le centre de tout, et les palais sont à quelques pas
+au sud. On peut y trouver ses marques seul, même si un guide, le premier jour,
+montre les édifices qui ressemblent à des murs aveugles depuis la ruelle. Notre
+[guide de la médina de Marrakech](/fr/blog/marrakech-medina-complete-guide)
+présente la place, les souks et les palais.
+
+**Fès** est tournée vers l'intérieur et lente. Les ruelles se referment au-dessus
+de vous, on sent les tanneries avant de les voir, et les monuments se cachent
+derrière des portes sans enseigne. C'est la médina où un guide compte le plus :
+même avec une carte, ceux qui la découvrent s'y perdent vraiment. Notre [guide de
+la médina de Fès](/fr/blog/fes-medina-travel-guide) explique quoi voir et comment
+organiser la journée.
+
+## Ou voir les deux
+
+Elles sont à environ sept heures l'une de l'autre en train direct, alors la
+plupart de ceux qui veulent les deux font du trajet une partie du voyage :
+
+- **De Marrakech à Fès en 3 jours :** notre [circuit
+  privé](/fr/tours/marrakech-fes-3-jours) se termine par une journée complète avec
+  un guide dans la médina de Fès.
+- **Les quatre villes impériales :** le [grand circuit de 5
+  jours](/fr/tours/villes-imperiales-marrakech-5-jours) depuis Marrakech passe par
+  Meknès, Volubilis, Fès et Rabat.
+- **Fès et le Sahara :** l'[itinéraire de 5 jours de Casablanca à
+  Marrakech](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) va de Fès aux dunes
+  de l'Erg Chebbi et se termine à Marrakech.
+- **Fès et Chefchaouen :** le [circuit de 4 jours vers la ville
+  bleue](/fr/tours/marrakech-chefchaouen-4-jours) depuis Marrakech.
+
+Pour un premier après-midi à Marrakech avec quelqu'un qui la connaît, notre
+[visite culturelle de la médina](/fr/tours/visite-culturelle-medina-marrakech)
+est une balade privée de quatre heures avec votre propre guide.
+
+Pour avoir une vue d'ensemble des quatre capitales, lisez notre [guide de
+l'itinéraire des villes impériales](/fr/blog/villes-imperiales-maroc-itineraire).
 `,
   },
 ];

@@ -61,6 +61,7 @@ const BLOG_SLUGS_FR: Record<string, string> = {
   "money-in-morocco-cash-atms-tipping": "argent-au-maroc-especes-pourboires",
   "erg-chebbi-weather-by-month": "meteo-erg-chebbi-par-mois",
   "toubkal-treks-compared-which-route": "comparatif-treks-toubkal",
+  "fes-or-marrakech-which-to-visit": "fes-ou-marrakech",
 };
 
 const BLOG_SLUGS_ES: Record<string, string> = {
@@ -115,6 +116,7 @@ const BLOG_SLUGS_ES: Record<string, string> = {
   "money-in-morocco-cash-atms-tipping": "dinero-en-marruecos-efectivo-propinas",
   "erg-chebbi-weather-by-month": "clima-erg-chebbi-por-meses",
   "toubkal-treks-compared-which-route": "comparativa-treks-toubkal",
+  "fes-or-marrakech-which-to-visit": "fez-o-marrakech",
 };
 
 const BLOG_SLUGS_DE: Record<string, string> = {
@@ -169,6 +171,7 @@ const BLOG_SLUGS_DE: Record<string, string> = {
   "money-in-morocco-cash-atms-tipping": "geld-in-marokko-bargeld-trinkgeld",
   "erg-chebbi-weather-by-month": "wetter-erg-chebbi-merzouga",
   "toubkal-treks-compared-which-route": "toubkal-touren-vergleich",
+  "fes-or-marrakech-which-to-visit": "fes-oder-marrakesch",
 };
 
 const BLOG_SLUGS_IT: Record<string, string> = {
@@ -222,6 +225,7 @@ const BLOG_SLUGS_IT: Record<string, string> = {
   "money-in-morocco-cash-atms-tipping": "soldi-in-marocco-contanti-mance",
   "erg-chebbi-weather-by-month": "meteo-erg-chebbi-mese-per-mese",
   "toubkal-treks-compared-which-route": "confronto-trek-toubkal",
+  "fes-or-marrakech-which-to-visit": "fes-o-marrakech",
 };
 
 /* Localised tour URL segments, English slug -> locale segment.

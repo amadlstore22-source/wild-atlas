@@ -1,6 +1,6 @@
 import { describe, it, expect, afterEach, vi } from "vitest";
 import { render, cleanup, act } from "@testing-library/react";
-import { readFileSync } from "node:fs";
+import nextConfig from "@/next.config";
 import { CONSENT_EVENT, CONSENT_KEY } from "@/lib/analytics";
 import { LEGAL_VERSION, LEGAL_VERSION_KEY } from "@/lib/legal-version";
 
@@ -51,10 +51,14 @@ describe("Microsoft Clarity consent gate", () => {
 });
 
 describe("CSP allows Clarity", () => {
-  it("lists *.clarity.ms for scripts and uploads, and c.bing.com", () => {
-    const config = readFileSync("next.config.ts", "utf8");
+  it("lists *.clarity.ms for scripts and uploads, and c.bing.com", async () => {
+    // The policy the config actually serves: its directives are built from
+    // host lists (GOOGLE_TAG), so the source text no longer holds them whole.
+    const rules = await nextConfig.headers!();
+    const csp =
+      rules.find((r) => r.source === "/(.*)")?.headers.find((h) => h.key === "Content-Security-Policy")?.value ?? "";
     const directive = (name: string) =>
-      (config.match(new RegExp(`"${name} [^"]*"`, "g")) ?? []).join(" ");
+      csp.split(";").map((d) => d.trim()).find((d) => d.startsWith(`${name} `)) ?? "";
     expect(directive("script-src")).toContain("https://*.clarity.ms");
     expect(directive("connect-src")).toContain("https://*.clarity.ms");
     expect(directive("connect-src")).toContain("https://c.bing.com");

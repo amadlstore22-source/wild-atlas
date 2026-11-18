@@ -3633,7 +3633,7 @@ export const TOURS: Tour[] = [
       "The Azzaden is the valley immediately west of the Imlil–Toubkal corridor, and the difference in foot traffic is the whole point. Day one drives 1.5 hours from Marrakech to Imlil, then climbs about 700 m over the Tizi Mzik pass at 2,489 m — with the Toubkal massif opening up behind you — and drops through juniper forest to the village of Tizi Oussem at 1,850 m. Five to six hours walking. Day two crosses the Tizi Oudid and descends to Aguersioual, roughly 12 km and five hours, then the drive back.",
       "It is graded moderate, and that grade does real work here. There is no summit, no scree, and nothing above 2,700 m, so the altitude never becomes the problem it is on Toubkal. What you need is the ability to walk five to six hours on mountain paths two days running. People who hike regularly at home find this comfortable; people who do not find it a genuine but manageable effort.",
       "The night is in a family-run guesthouse in Tizi Oussem rather than a refuge or a tent. That matters more than it sounds — a refuge is a dormitory full of people doing the same summit, while a village guesthouse is somebody's home, with dinner cooked by the family and a valley that goes quiet after dark. It is the part of this trek people write to us about afterwards.",
-      "Per person: €285 solo, €161 for two, €142 for three, €133 for four, €124 for five and €116 at six. That covers the licensed mountain guide, the guesthouse night, all meals on the trek, a mule for the group's luggage and return transfer from Marrakech. You carry a day pack only. Travel insurance is recommended rather than mandatory on this one, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
+      "Per person: €318 solo, €194 for two, €175 for three, €166 for four, €157 for five and €149 at six. That covers the licensed mountain guide, the guesthouse night, all meals on the trek, a mule for the group's luggage and return transfer from Marrakech. You carry a day pack only. Travel insurance is recommended rather than mandatory on this one, personal trekking kit is yours, and tips for the guide and muleteer are separate.",
       "If you are choosing between this and a Toubkal trek, the question is what you want from the mountains. Toubkal is a summit and an altitude day. The Azzaden is villages, terraced fields and walnut groves, walked at a pace that leaves you able to look around. Private group of 2–12, so the pace is yours.",
     ],
     title: "Azzaden Valley from Marrakech — 2-Day Atlas Mountains Trek",
@@ -3649,15 +3649,15 @@ export const TOURS: Tour[] = [
     // Curve measured from the tours with operator-confirmed ladders:
     // trekking. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
     groupPricing: [
-      { minPeople: 1, price: 285 },
-      { minPeople: 2, price: 161 },
-      { minPeople: 3, price: 142 },
-      { minPeople: 4, price: 133 },
-      { minPeople: 5, price: 124 },
-      { minPeople: 6, price: 116 },
+      { minPeople: 1, price: 318 },
+      { minPeople: 2, price: 194 },
+      { minPeople: 3, price: 175 },
+      { minPeople: 4, price: 166 },
+      { minPeople: 5, price: 157 },
+      { minPeople: 6, price: 149 },
     ],
-    price: 285,
-    depositAmount: 57,
+    price: 318,
+    depositAmount: 64,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/trek-camp-golden-hour-valley.jpg",
@@ -3715,7 +3715,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Day Azzaden Valley Trek from Marrakech",
-    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, walk the quiet High Atlas. From €116 pp for 6+.",
+    seoDescription: "2-day Azzaden Valley trek from Marrakech: cross the Tizi Mzik pass, sleep in a Berber village guesthouse, walk the quiet High Atlas. From €149 pp for 6+.",
     faq: [
       { q: "How fit do I need to be for the Azzaden trek?", a: "It is graded moderate: two days with roughly 5–6 hours of walking each, crossing passes up to 2,489 m. There is no technical climbing, but you should be comfortable on uphill and downhill trails for several hours. It suits reasonably active walkers rather than complete beginners." },
       { q: "How is this different from the Toubkal treks?", a: "The Azzaden is the valley beside the main Imlil–Toubkal route, so it sees far fewer trekkers. You get the same Berber villages, passes and mountain scenery, but no summit push and no high-altitude refuge night — a gentler, quieter alternative." },

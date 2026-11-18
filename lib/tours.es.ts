@@ -2887,7 +2887,7 @@ export const TOURS: Tour[] = [
       "El Azzaden es el valle inmediatamente al oeste del corredor Imlil–Toubkal, y la diferencia de afluencia es justamente lo interesante. El primer día son 1,5 horas de carretera desde Marrakech hasta Imlil, después unos 700 m de subida por el puerto de Tizi Mzik, a 2.489 m —con el macizo del Toubkal abriéndose a su espalda—, y un descenso entre bosque de enebros hasta la aldea de Tizi Oussem, a 1.850 m. Cinco o seis horas de marcha. El segundo día cruza el Tizi Oudid y baja a Aguersioual, unos 12 km y cinco horas, y después el regreso en coche.",
       "Está clasificado como moderado, y esa clasificación aquí significa algo. No hay cima, no hay pedreras y nada supera los 2.700 m aproximadamente, así que la altitud nunca llega a ser el problema que sí es en el Toubkal. Lo que hace falta es poder caminar cinco o seis horas por senderos de montaña dos días seguidos. Quien camina con regularidad lo encuentra cómodo; quien no, lo vive como un esfuerzo real pero asumible.",
       "La noche se pasa en una casa de huéspedes familiar en Tizi Oussem, no en un refugio ni en una tienda. Eso importa más de lo que parece: un refugio es un dormitorio lleno de gente que hace la misma ascensión, mientras que una casa de huéspedes de aldea es el hogar de alguien, con la cena preparada por la familia y un valle que se queda en silencio al anochecer. Es la parte de la que los viajeros nos escriben después.",
-      "Por persona: 285 € en solitario, 161 € para dos, 142 € para tres, 133 € para cuatro, 124 € para cinco y 116 € para seis. Cubre el guía de montaña titulado, la noche en la casa de huéspedes, todas las comidas del trek, una mula para el equipaje del grupo y el traslado de ida y vuelta desde Marrakech. Usted solo lleva una mochila de día. El seguro de viaje aquí es recomendable más que obligatorio, el equipo personal corre de su cuenta y las propinas del guía y del muletero van aparte.",
+      "Por persona: 318 € en solitario, 194 € para dos, 175 € para tres, 166 € para cuatro, 157 € para cinco y 149 € para seis. Cubre el guía de montaña titulado, la noche en la casa de huéspedes, todas las comidas del trek, una mula para el equipaje del grupo y el traslado de ida y vuelta desde Marrakech. Usted solo lleva una mochila de día. El seguro de viaje aquí es recomendable más que obligatorio, el equipo personal corre de su cuenta y las propinas del guía y del muletero van aparte.",
       "Si duda entre este trek y uno del Toubkal, la pregunta es qué espera de la montaña. El Toubkal es una cima y una jornada de altitud. El Azzaden son aldeas, bancales y nogales, recorridos a un ritmo que le deja mirar alrededor. Grupo privado de 2 a 12 personas, así que el ritmo es el suyo.",
     ],
     title: "Valle de Azzaden desde Marrakech — Trekking de 2 días en el Atlas",
@@ -2898,8 +2898,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–12 personas",
     reviewCount: 0,
     rating: 4,
-    price: 285,
-    depositAmount: 57,
+    price: 318,
+    depositAmount: 64,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2954,7 +2954,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "Trekking de 2 días por el valle de Azzaden",
-    seoDescription: "Trekking de 2 días por el valle de Azzaden desde Marrakech: paso de Tizi Mzik, noche en casa bereber y la cara tranquila del Alto Atlas. Desde 116 €/pers. (6+).",
+    seoDescription: "Trekking de 2 días por el valle de Azzaden desde Marrakech: paso de Tizi Mzik, noche en casa bereber y la cara tranquila del Alto Atlas. Desde 149 €/pers. (6+).",
     faq: [
       { q: "¿Qué forma física hace falta para el trekking de Azzaden?", a: "Está clasificado como moderado: dos días con unas 5-6 horas de caminata cada uno, cruzando puertos de hasta 2.489 m. No hay escalada técnica, pero debes estar cómodo en senderos de subida y bajada durante varias horas. Es apto para caminantes razonablemente activos más que para principiantes absolutos." },
       { q: "¿En qué se diferencia de los trekkings del Toubkal?", a: "El Azzaden es el valle junto a la ruta principal Imlil–Toubkal, así que ve muchos menos senderistas. Encuentras los mismos pueblos bereberes, puertos y paisajes de montaña, pero sin ascensión a cumbre ni noche en refugio de altura: una alternativa más suave y tranquila." },

@@ -2887,7 +2887,7 @@ export const TOURS: Tour[] = [
       "Das Azzaden ist das Tal unmittelbar westlich des Korridors Imlil–Toubkal, und der Unterschied im Andrang macht genau den Reiz aus. Tag eins: 1,5 Stunden Fahrt von Marrakesch nach Imlil, dann rund 700 Höhenmeter hinauf über den Tizi-Mzik-Pass auf 2.489 m — mit dem Toubkal-Massiv, das sich hinter Ihnen auftut — und hinab durch Wacholderwald ins Dorf Tizi Oussem auf 1.850 m. Fünf bis sechs Stunden Gehzeit. Tag zwei überquert den Tizi Oudid und steigt nach Aguersioual ab, etwa 12 km und fünf Stunden, danach die Rückfahrt.",
       "Die Einstufung lautet mittel, und diese Einstufung bedeutet hier tatsächlich etwas. Kein Gipfel, kein Geröll und nichts über etwa 2.700 m, sodass die Höhe nie zu dem Problem wird, das sie am Toubkal darstellt. Nötig ist die Fähigkeit, an zwei aufeinanderfolgenden Tagen fünf bis sechs Stunden auf Bergpfaden zu gehen. Wer zu Hause regelmäßig wandert, empfindet das als angenehm; wer das nicht tut, als echte, aber machbare Anstrengung.",
       "Die Nacht verbringen Sie in einem familiengeführten Gästehaus in Tizi Oussem, nicht in einer Hütte oder im Zelt. Das zählt mehr, als es klingt: Eine Hütte ist ein Schlafsaal voller Menschen mit demselben Gipfelziel, ein Dorfgästehaus dagegen ist jemandes Zuhause, mit einem von der Familie gekochten Abendessen und einem Tal, das nach Einbruch der Dunkelheit still wird. Es ist der Teil, von dem uns Gäste hinterher schreiben.",
-      "Pro Person: 285 € allein, 161 € zu zweit, 142 € zu dritt, 133 € zu viert, 124 € zu fünft und 116 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, die Gästehausnacht, alle Mahlzeiten während des Treks, ein Maultier für das Gruppengepäck und der Hin- und Rücktransfer ab Marrakesch. Sie tragen nur einen Tagesrucksack. Die Reiseversicherung ist hier empfohlen statt verpflichtend, persönliche Trekkingausrüstung ist Ihre Sache, und Trinkgelder für Bergführer und Maultierführer sind separat.",
+      "Pro Person: 318 € allein, 194 € zu zweit, 175 € zu dritt, 166 € zu viert, 157 € zu fünft und 149 € ab sechs. Enthalten sind der staatlich geprüfte Bergführer, die Gästehausnacht, alle Mahlzeiten während des Treks, ein Maultier für das Gruppengepäck und der Hin- und Rücktransfer ab Marrakesch. Sie tragen nur einen Tagesrucksack. Die Reiseversicherung ist hier empfohlen statt verpflichtend, persönliche Trekkingausrüstung ist Ihre Sache, und Trinkgelder für Bergführer und Maultierführer sind separat.",
       "Wenn Sie zwischen dieser Tour und einem Toubkal-Trek schwanken, lautet die Frage, was Sie von den Bergen erwarten. Der Toubkal ist ein Gipfel und ein Höhentag. Das Azzaden sind Dörfer, Terrassenfelder und Walnusshaine, in einem Tempo begangen, das Ihnen erlaubt, sich umzusehen. Private Gruppe von 2 bis 12 Personen, das Tempo ist also Ihres.",
     ],
     title: "Azzaden-Tal ab Marrakesch — 2-Tage-Trek im Atlasgebirge",
@@ -2898,8 +2898,8 @@ export const TOURS: Tour[] = [
     groupSize: "1–12 people",
     reviewCount: 0,
     rating: 4,
-    price: 285,
-    depositAmount: 57,
+    price: 318,
+    depositAmount: 64,
     heroImage: "/gallery/ifni-cattle-stream-azib.jpg",
     gallery: [
       "/gallery/ifni-cattle-stream-azib.jpg",
@@ -2954,7 +2954,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
     seoTitle: "2-Tage-Trek im Azzaden-Tal",
-    seoDescription: "2-Tage-Trek im Azzaden-Tal ab Marrakesch: über den Tizi-Mzik-Pass, Nacht im Berber-Gästehaus, die ruhige Seite des Hohen Atlas. Ab 116 € p. P. (6+).",
+    seoDescription: "2-Tage-Trek im Azzaden-Tal ab Marrakesch: über den Tizi-Mzik-Pass, Nacht im Berber-Gästehaus, die ruhige Seite des Hohen Atlas. Ab 149 € p. P. (6+).",
     faq: [
       { q: "Wie fit muss ich für den Azzaden-Trek sein?", a: "Er ist als mittel eingestuft: zwei Tage mit jeweils etwa 5–6 Stunden Gehzeit, mit Pässen bis 2.489 m. Es gibt kein technisches Klettern, aber Sie sollten mehrere Stunden auf Anstiegs- und Abstiegspfaden sicher sein. Er eignet sich für einigermaßen aktive Wanderer, nicht für komplette Anfänger." },
       { q: "Wie unterscheidet er sich von den Toubkal-Treks?", a: "Das Azzaden ist das Tal neben der Hauptroute Imlil–Toubkal und sieht daher weit weniger Trekker. Sie erleben dieselben Berberdörfer, Pässe und Berglandschaften, aber ohne Gipfelanstieg und ohne Höhen-Hüttennacht — eine sanftere, ruhigere Alternative." },

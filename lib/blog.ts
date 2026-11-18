@@ -2698,7 +2698,7 @@ The one approach that does not work is treating Toubkal as a warm-country walk b
 March is the month that catches most people out, and it has its own guide:
 [climbing Toubkal in March](/en/blog/climbing-toubkal-in-march).
 
-If you want the High Atlas without the summit, the [2-day Azzaden Valley trek](/en/tours/azzaden-valley-2day-trek) crosses the Tizi Mzik pass to a Berber village guesthouse at Tizi Oussem (1,850 m), away from the Toubkal crowds, from €161 per person for two.
+If you want the High Atlas without the summit, the [2-day Azzaden Valley trek](/en/tours/azzaden-valley-2day-trek) crosses the Tizi Mzik pass to a Berber village guesthouse at Tizi Oussem (1,850 m), away from the Toubkal crowds, from €194 per person for two.
 `,
   },
   {
@@ -3216,7 +3216,7 @@ Rated moderate — the most approachable route here. Its season is inverted rela
 | Days | Trek | Difficulty | Where you sleep | Walking per day | Each, for two | Best for |
 |---|---|---|---|---|---|---|
 | 2 | [Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | Challenging | Toubkal refuge | 5 h, then 7–8 h | €313 | Fit walkers short on time |
-| 2 | [Azzaden Valley](/en/tours/azzaden-valley-2day-trek) | Moderate | Village guesthouse | 5–6 h | €161 | A first taste, no summit |
+| 2 | [Azzaden Valley](/en/tours/azzaden-valley-2day-trek) | Moderate | Village guesthouse | 5–6 h | €194 | A first taste, no summit |
 | 3 | [High Atlas villages](/en/tours/atlas-mountains-3day-trek) | Moderate | Two village guesthouses | 5–6 h | €235 | Village life, no summit |
 | 3 | [Toubkal via the Aguelzim pass](/en/tours/toubkal-aguelzim-pass-3day) | Challenging | Village gîte, then the Toubkal refuge | 5–7 h | €452 | A quieter way to the summit |
 | 3 | [Toubkal's three 4,000 m peaks](/en/tours/toubkal-three-peaks-4000m-3day) | Expert | Toubkal refuge, two nights | 5–8 h | €511 | Walkers already at home at altitude |
@@ -6651,7 +6651,7 @@ different from Toubkal, where the refuge takes bookings and the trail is obvious
 
 | Trek | Price | Nights | Altitude |
 |---|---|---|---|
-| [2-day Azzaden valley](/en/tours/azzaden-valley-2day-trek) | €161 | 1 | Valley level |
+| [2-day Azzaden valley](/en/tours/azzaden-valley-2day-trek) | €194 | 1 | Valley level |
 | **3-day villages** | **€235** | **2** | **~2,300 m** |
 | [2-day Toubkal summit](/en/tours/toubkal-summit-2day-marrakech) | from €313 | 1 | 4,167 m |
 
@@ -11363,7 +11363,7 @@ With small children, take a look round when you arrive: many village houses have
 
 | Trek | Village nights | Other nights | Grade | Price each, for two |
 |---|---|---|---|---|
-| [Azzaden Valley, 2 days](/en/tours/azzaden-valley-2day-trek) | 1, in Tizi Oussem | None | Moderate | €161 |
+| [Azzaden Valley, 2 days](/en/tours/azzaden-valley-2day-trek) | 1, in Tizi Oussem | None | Moderate | €194 |
 | [High Atlas villages, 3 days](/en/tours/atlas-mountains-3day-trek) | 2, in the Azzaden valley and Tacheddirt | None | Moderate | €235 |
 | [Family trek, 4 days](/en/tours/family-atlas-4day-trek) | 3 | None | Easy | €276 each from three people |
 | [Toubkal summit, 4 days](/en/tours/toubkal-summit-trek-4day) | 1, in Imlil | 2 at the refuge | Challenging | €586 |

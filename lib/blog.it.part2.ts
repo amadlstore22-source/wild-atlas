@@ -350,7 +350,7 @@ Se puoi viaggiare solo a luglio o agosto, vai comunque — parti presto, bevi pi
 
 L'unico approccio che non funziona è trattare il Toubkal come una camminata in paese caldo perché Marrakech era a 35°C quando sei atterrato. La montagna è un clima diverso, e le persone che faticano sono quasi sempre quelle che hanno fatto lo zaino per la città.
 
-Se volete l'Alto Atlante senza la vetta, il [trekking di 2 giorni nella valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) attraversa il passo di Tizi Mzik fino a una casa berbera a Tizi Oussem (1.850 m), lontano dalla folla del Toubkal, da 161 € a persona in due.
+Se volete l'Alto Atlante senza la vetta, il [trekking di 2 giorni nella valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) attraversa il passo di Tizi Mzik fino a una casa berbera a Tizi Oussem (1.850 m), lontano dalla folla del Toubkal, da 194 € a persona in due.
 `,
   },
   {
@@ -862,7 +862,7 @@ Classificato moderato: il percorso più accessibile qui. La sua stagione è inve
 | Giorni | Trek | Difficoltà | Dove dormi | Cammino al giorno | A testa, in due | Ideale per |
 |---|---|---|---|---|---|---|
 | 2 | [Vetta del Toubkal](/it/tours/salita-toubkal-2-giorni) | Impegnativo | Rifugio del Toubkal | 5 h, poi 7–8 h | 313 € | Escursionisti allenati con poco tempo |
-| 2 | [Valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) | Moderato | Casa di villaggio | 5–6 h | 161 € | Un primo assaggio, senza vetta |
+| 2 | [Valle di Azzaden](/it/tours/trek-valle-azzaden-2-giorni) | Moderato | Casa di villaggio | 5–6 h | 194 € | Un primo assaggio, senza vetta |
 | 3 | [Villaggi dell'Alto Atlante](/it/tours/trek-villaggi-alto-atlante-3-giorni) | Moderato | Due case di villaggio | 5–6 h | 235 € | La vita dei villaggi, senza vetta |
 | 3 | [Toubkal dal passo Aguelzim](/it/tours/toubkal-passo-aguelzim-3-giorni) | Impegnativo | Gîte di villaggio, poi il rifugio del Toubkal | 5–7 h | 452 € | Una via più tranquilla alla vetta |
 | 3 | [Le tre vette di 4.000 m del Toubkal](/it/tours/toubkal-tre-cime-4000m-3-giorni) | Esperto | Rifugio del Toubkal, due notti | 5–8 h | 511 € | Chi è già a suo agio in quota |
@@ -4267,7 +4267,7 @@ sentiero è evidente.
 
 | Trek | Prezzo | Notti | Quota |
 |---|---|---|---|
-| [Valle dell'Azzaden, 2 giorni](/it/tours/azzaden-valley-2day-trek) | 161 € | 1 | Fondovalle |
+| [Valle dell'Azzaden, 2 giorni](/it/tours/azzaden-valley-2day-trek) | 194 € | 1 | Fondovalle |
 | **Villaggi, 3 giorni** | **235 €** | **2** | **~2.300 m** |
 | [Vetta del Toubkal, 2 giorni](/it/tours/toubkal-summit-2day-marrakech) | 313 € | 1 | 4.167 m |
 
@@ -8785,7 +8785,7 @@ Con bambini piccoli, dai un'occhiata in giro all'arrivo: molte case di villaggio
 
 | Trekking | Notti nei villaggi | Altre notti | Livello | Prezzo a persona, in due |
 |---|---|---|---|---|
-| [Valle di Azzaden, 2 giorni](/it/tours/trek-valle-azzaden-2-giorni) | 1, a Tizi Oussem | Nessuna | Moderato | 161 € |
+| [Valle di Azzaden, 2 giorni](/it/tours/trek-valle-azzaden-2-giorni) | 1, a Tizi Oussem | Nessuna | Moderato | 194 € |
 | [Villaggi dell'Alto Atlante, 3 giorni](/it/tours/trek-villaggi-alto-atlante-3-giorni) | 2, nella valle di Azzaden e a Tacheddirt | Nessuna | Moderato | 235 € |
 | [Trekking per famiglie, 4 giorni](/it/tours/trek-atlante-famiglia-4-giorni) | 3 | Nessuna | Facile | 276 € a testa da tre persone |
 | [Vetta del Toubkal, 4 giorni](/it/tours/trek-cima-toubkal-4-giorni) | 1, a Imlil | 2 al rifugio | Impegnativo | 586 € |

@@ -352,7 +352,7 @@ Der einzige Ansatz, der nicht funktioniert, ist, den Toubkal wie ein warmes Wand
 
 Wenn Sie wissen, wann Sie kommen: Unsere [4-tägige Toubkal-Gipfelbesteigung](/de/tours/toubkal-gipfel-trek-4-tage) plant einen Reservetag für genau das Wetter ein, das oben beschrieben ist — bei einem schlechten Fenster versuchen Sie es am nächsten Morgen erneut, statt umzukehren. Wer nur ein Wochenende hat, findet in der [2-tägigen Variante](/de/tours/toubkal-besteigung-2-tage) die kürzere Option, die dafür keinen Puffer lässt.
 
-Wer den Hohen Atlas ohne Gipfel erleben möchte: Der [2-tägige Trek ins Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) führt über den Tizi-Mzik-Pass zu einem Berber-Gästehaus in Tizi Oussem (1.850 m), abseits des Toubkal-Trubels, ab 161 € pro Person bei zwei Reisenden.
+Wer den Hohen Atlas ohne Gipfel erleben möchte: Der [2-tägige Trek ins Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) führt über den Tizi-Mzik-Pass zu einem Berber-Gästehaus in Tizi Oussem (1.850 m), abseits des Toubkal-Trubels, ab 194 € pro Person bei zwei Reisenden.
 `,
   },
   {
@@ -866,7 +866,7 @@ Als moderat eingestuft — die zugänglichste Route hier. Die Saison ist gegenü
 | Tage | Trek | Schwierigkeit | Wo Sie schlafen | Gehzeit pro Tag | Pro Person zu zweit | Ideal für |
 |---|---|---|---|---|---|---|
 | 2 | [Toubkal-Gipfel](/de/tours/toubkal-besteigung-2-tage) | Anspruchsvoll | Toubkal-Hütte | 5 Std., dann 7–8 Std. | 313 € | Fitte Wanderer mit wenig Zeit |
-| 2 | [Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) | Mittel | Dorfgästehaus | 5–6 Std. | 161 € | Ein erster Eindruck, ohne Gipfel |
+| 2 | [Azzaden-Tal](/de/tours/azzaden-tal-trek-2-tage) | Mittel | Dorfgästehaus | 5–6 Std. | 194 € | Ein erster Eindruck, ohne Gipfel |
 | 3 | [Dörfer im Hohen Atlas](/de/tours/hoher-atlas-dorftrek-3-tage) | Mittel | Zwei Dorfgästehäuser | 5–6 Std. | 235 € | Dorfleben, ohne Gipfel |
 | 3 | [Toubkal über den Aguelzim-Pass](/de/tours/toubkal-aguelzim-pass-3-tage) | Anspruchsvoll | Dorf-Gîte, dann die Toubkal-Hütte | 5–7 Std. | 452 € | Ein ruhigerer Weg zum Gipfel |
 | 3 | [Die drei 4.000er am Toubkal](/de/tours/toubkal-drei-gipfel-4000m-3-tage) | Experte | Toubkal-Hütte, zwei Nächte | 5–8 Std. | 511 € | Wanderer, die Höhe schon kennen |
@@ -4277,7 +4277,7 @@ der Weg offensichtlich ist.
 
 | Trek | Preis | Nächte | Höhe |
 |---|---|---|---|
-| [Azzaden-Tal, 2 Tage](/de/tours/azzaden-valley-2day-trek) | 161 € | 1 | Talniveau |
+| [Azzaden-Tal, 2 Tage](/de/tours/azzaden-valley-2day-trek) | 194 € | 1 | Talniveau |
 | **Dörfer, 3 Tage** | **235 €** | **2** | **~2.300 m** |
 | [Toubkal-Gipfel, 2 Tage](/de/tours/toubkal-summit-2day-marrakech) | 313 € | 1 | 4.167 m |
 
@@ -8945,7 +8945,7 @@ Mit kleinen Kindern sollten Sie sich bei der Ankunft umsehen: Viele Dorfhäuser 
 
 | Trek | Dorfnächte | Andere Nächte | Schwierigkeit | Preis pro Person, zu zweit |
 |---|---|---|---|---|
-| [Azzaden-Tal, 2 Tage](/de/tours/azzaden-tal-trek-2-tage) | 1, in Tizi Oussem | Keine | Mittel | 161 € |
+| [Azzaden-Tal, 2 Tage](/de/tours/azzaden-tal-trek-2-tage) | 1, in Tizi Oussem | Keine | Mittel | 194 € |
 | [Dörfer des Hohen Atlas, 3 Tage](/de/tours/hoher-atlas-dorftrek-3-tage) | 2, im Azzaden-Tal und in Tacheddirt | Keine | Mittel | 235 € |
 | [Familien-Trek, 4 Tage](/de/tours/familien-atlas-trek-4-tage) | 3 | Keine | Leicht | 276 € pro Person ab drei Personen |
 | [Toubkal-Gipfel, 4 Tage](/de/tours/toubkal-gipfel-trek-4-tage) | 1, in Imlil | 2 in der Hütte | Anspruchsvoll | 586 € |

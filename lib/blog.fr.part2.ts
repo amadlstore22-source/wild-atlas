@@ -352,7 +352,7 @@ La seule approche qui ne fonctionne pas est de considérer le Toubkal comme une 
 
 Une fois vos dates choisies : notre [trek du sommet du Toubkal en 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) garde une journée de réserve pour exactement les conditions décrites ci-dessus — si la fenêtre se referme, on retente le lendemain au lieu de renoncer.
 
-Si vous voulez le Haut Atlas sans le sommet, le [trek de 2 jours dans la vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) franchit le col de Tizi Mzik jusqu'à une maison d'hôtes berbère à Tizi Oussem (1 850 m), loin de la foule du Toubkal, à partir de 161 € par personne pour deux.
+Si vous voulez le Haut Atlas sans le sommet, le [trek de 2 jours dans la vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) franchit le col de Tizi Mzik jusqu'à une maison d'hôtes berbère à Tizi Oussem (1 850 m), loin de la foule du Toubkal, à partir de 194 € par personne pour deux.
 `,
   },
   {
@@ -866,7 +866,7 @@ Classé modéré — l'itinéraire le plus accessible présenté ici. Sa saison 
 | Jours | Trek | Difficulté | Où vous dormez | Marche par jour | Chacun, à deux | Idéal pour |
 |---|---|---|---|---|---|---|
 | 2 | [Sommet du Toubkal](/fr/tours/ascension-toubkal-2-jours) | Exigeant | Refuge du Toubkal | 5 h, puis 7–8 h | 313 € | Marcheurs en forme et pressés |
-| 2 | [Vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) | Modéré | Maison d'hôtes de village | 5–6 h | 161 € | Une première approche, sans sommet |
+| 2 | [Vallée d'Azzaden](/fr/tours/trek-vallee-azzaden-2-jours) | Modéré | Maison d'hôtes de village | 5–6 h | 194 € | Une première approche, sans sommet |
 | 3 | [Villages du Haut Atlas](/fr/tours/trek-villages-haut-atlas-3-jours) | Modéré | Deux maisons d'hôtes de village | 5–6 h | 235 € | La vie des villages, sans sommet |
 | 3 | [Toubkal par le col d'Aguelzim](/fr/tours/toubkal-col-aguelzim-3-jours) | Exigeant | Gîte de village, puis le refuge du Toubkal | 5–7 h | 452 € | Un chemin plus calme vers le sommet |
 | 3 | [Les trois sommets à 4 000 m du Toubkal](/fr/tours/toubkal-trois-sommets-4000m-3-jours) | Expert | Refuge du Toubkal, deux nuits | 5–8 h | 511 € | Marcheurs déjà à l'aise en altitude |
@@ -4295,7 +4295,7 @@ sentier est évident.
 
 | Trek | Prix | Nuits | Altitude |
 |---|---|---|---|
-| [Vallée de l'Azzaden, 2 jours](/fr/tours/azzaden-valley-2day-trek) | 161 € | 1 | Fond de vallée |
+| [Vallée de l'Azzaden, 2 jours](/fr/tours/azzaden-valley-2day-trek) | 194 € | 1 | Fond de vallée |
 | **Villages, 3 jours** | **235 €** | **2** | **~2 300 m** |
 | [Sommet du Toubkal, 2 jours](/fr/tours/toubkal-summit-2day-marrakech) | 313 € | 1 | 4 167 m |
 
@@ -9004,7 +9004,7 @@ Avec de jeunes enfants, faites le tour en arrivant : beaucoup de maisons de vill
 
 | Trek | Nuits au village | Autres nuits | Niveau | Prix par personne, à deux |
 |---|---|---|---|---|
-| [Vallée d'Azzaden, 2 jours](/fr/tours/trek-vallee-azzaden-2-jours) | 1, à Tizi Oussem | Aucune | Modéré | 161 € |
+| [Vallée d'Azzaden, 2 jours](/fr/tours/trek-vallee-azzaden-2-jours) | 1, à Tizi Oussem | Aucune | Modéré | 194 € |
 | [Villages du Haut Atlas, 3 jours](/fr/tours/trek-villages-haut-atlas-3-jours) | 2, dans la vallée d'Azzaden et à Tacheddirt | Aucune | Modéré | 235 € |
 | [Trek en famille, 4 jours](/fr/tours/trek-atlas-famille-4-jours) | 3 | Aucune | Facile | 276 € chacun à partir de trois personnes |
 | [Sommet du Toubkal, 4 jours](/fr/tours/trek-sommet-toubkal-4-jours) | 1, à Imlil | 2 au refuge | Exigeant | 586 € |

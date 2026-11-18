@@ -352,7 +352,7 @@ El único enfoque que no funciona es tratar el Toubkal como una caminata de paí
 
 Cuando tengas las fechas: nuestro [trek a la cumbre del Toubkal en 4 días](/es/tours/trek-cumbre-toubkal-4-dias) reserva un día de margen para exactamente el tiempo que describimos arriba — si la ventana se cierra, se reintenta al día siguiente en lugar de dar media vuelta.
 
-Si quieres el Alto Atlas sin la cumbre, el [trekking de 2 días por el valle de Azzaden](/es/tours/trek-valle-azzaden-2-dias) cruza el paso de Tizi Mzik hasta una casa de huéspedes bereber en Tizi Oussem (1.850 m), lejos de las multitudes del Toubkal, desde 161 € por persona para dos.
+Si quieres el Alto Atlas sin la cumbre, el [trekking de 2 días por el valle de Azzaden](/es/tours/trek-valle-azzaden-2-dias) cruza el paso de Tizi Mzik hasta una casa de huéspedes bereber en Tizi Oussem (1.850 m), lejos de las multitudes del Toubkal, desde 194 € por persona para dos.
 `,
   },
   {
@@ -866,7 +866,7 @@ Calificado como moderado, la ruta más accesible de aquí. Su temporada es inver
 | Días | Trek | Dificultad | Dónde duermes | Caminata al día | Cada uno, siendo dos | Ideal para |
 |---|---|---|---|---|---|---|
 | 2 | [Cumbre del Toubkal](/es/tours/ascension-toubkal-2-dias) | Exigente | Refugio del Toubkal | 5 h, luego 7–8 h | 313 € | Caminantes en forma con poco tiempo |
-| 2 | [Valle de Azzaden](/es/tours/trek-valle-azzaden-2-dias) | Moderado | Casa de huéspedes de pueblo | 5–6 h | 161 € | Una primera toma de contacto, sin cumbre |
+| 2 | [Valle de Azzaden](/es/tours/trek-valle-azzaden-2-dias) | Moderado | Casa de huéspedes de pueblo | 5–6 h | 194 € | Una primera toma de contacto, sin cumbre |
 | 3 | [Pueblos del Alto Atlas](/es/tours/trek-pueblos-alto-atlas-3-dias) | Moderado | Dos casas de huéspedes de pueblo | 5–6 h | 235 € | La vida de los pueblos, sin cumbre |
 | 3 | [Toubkal por el collado de Aguelzim](/es/tours/toubkal-collado-aguelzim-3-dias) | Exigente | Casa rural (gîte) y luego el refugio del Toubkal | 5–7 h | 452 € | Un camino más tranquilo a la cumbre |
 | 3 | [Las tres cumbres de 4.000 m del Toubkal](/es/tours/toubkal-tres-cumbres-4000m-3-dias) | Experto | Refugio del Toubkal, dos noches | 5–8 h | 511 € | Caminantes ya habituados a la altitud |
@@ -4274,7 +4274,7 @@ evidente.
 
 | Trek | Precio | Noches | Altitud |
 |---|---|---|---|
-| [Valle de Azzaden, 2 días](/es/tours/azzaden-valley-2day-trek) | 161 € | 1 | Fondo de valle |
+| [Valle de Azzaden, 2 días](/es/tours/azzaden-valley-2day-trek) | 194 € | 1 | Fondo de valle |
 | **Pueblos, 3 días** | **235 €** | **2** | **~2.300 m** |
 | [Cumbre del Toubkal, 2 días](/es/tours/toubkal-summit-2day-marrakech) | 313 € | 1 | 4.167 m |
 
@@ -8923,7 +8923,7 @@ Con niños pequeños, échale un vistazo a la casa al llegar: muchas casas de pu
 
 | Trekking | Noches en pueblo | Otras noches | Nivel | Precio por persona, para dos |
 |---|---|---|---|---|
-| [Valle de Azzaden, 2 días](/es/tours/trek-valle-azzaden-2-dias) | 1, en Tizi Oussem | Ninguna | Moderado | 161 € |
+| [Valle de Azzaden, 2 días](/es/tours/trek-valle-azzaden-2-dias) | 1, en Tizi Oussem | Ninguna | Moderado | 194 € |
 | [Pueblos del Alto Atlas, 3 días](/es/tours/trek-pueblos-alto-atlas-3-dias) | 2, en el valle de Azzaden y Tacheddirt | Ninguna | Moderado | 235 € |
 | [Trekking familiar, 4 días](/es/tours/trek-atlas-familia-4-dias) | 3 | Ninguna | Fácil | 276 € cada uno a partir de tres personas |
 | [Cumbre del Toubkal, 4 días](/es/tours/trek-cumbre-toubkal-4-dias) | 1, en Imlil | 2 en el refugio | Exigente | 586 € |

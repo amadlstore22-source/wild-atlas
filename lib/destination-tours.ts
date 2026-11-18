@@ -56,3 +56,16 @@ export function toursForDestination(tours: Tour[], destination: Destination, lim
     .slice(0, limit)
     .map((x) => x.tour);
 }
+
+/**
+ * Destination pages that lead with their tours instead of a travel guide.
+ *
+ * Measured 2026-11-15: of the eight English destination pages, these four were
+ * never indexed (0 impressions) while the other four were. Each was a second
+ * "X Travel Guide" beside a blog post titled "X Travel Guide 2026" with the
+ * same headings, so Google kept the blog post and dropped the page. These four
+ * now open with the tours and prices, are titled as tour pages, and link to
+ * the blog guide instead of repeating it. The other four stay as they were, as
+ * the comparison: check Search Console again around mid-December 2026.
+ */
+export const TOUR_HUB_DESTINATIONS: ReadonlySet<string> = new Set(["high-atlas", "sahara", "fes", "chefchaouen"]);

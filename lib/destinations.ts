@@ -125,8 +125,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "High Atlas Mountains Travel Guide | Marrakech Eco Tours",
-    seoDescription: "Explore the High Atlas Mountains with certified local guides: Toubkal summit trek (4,167m), Berber village walks, and multi-day Atlas traverses.",
+    seoTitle: "High Atlas Treks from Marrakech: Toubkal Tours & Prices | Marrakech Eco Tours",
+    seoDescription: "Private Toubkal and High Atlas treks from Marrakech, 2 to 7 days, with certified Berber mountain guides from Imlil. Compare itineraries and prices.",
   },
   {
     slug: "sahara",
@@ -173,8 +173,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Sahara Desert Guide: Merzouga & Erg Chebbi | Marrakech Eco Tours",
-    seoDescription: "Discover the Sahara Desert with certified guides: camel trekking, Berber camp nights, and sunrise over Erg Chebbi's 150m dunes.",
+    seoTitle: "Sahara Desert Tours from Marrakech: Merzouga & Zagora | Marrakech Eco Tours",
+    seoDescription: "Sahara desert tours from Marrakech to Merzouga, Zagora and Erg Chegaga, 2 to 4 days, with a camel trek and a night in a desert camp. Compare itineraries and prices.",
   },
   {
     slug: "fes",
@@ -220,8 +220,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Fes el-Bali Travel Guide — Medina Tours | Marrakech Eco Tours",
-    seoDescription: "Explore Fes el-Bali: the world's most intact medieval city. Guided tours of the Chouara Tannery, al-Qarawiyyin University, and the 9,400-alley medina.",
+    seoTitle: "Fes Tours from Marrakech & Agadir: Imperial Cities | Marrakech Eco Tours",
+    seoDescription: "Private tours to Fes from Marrakech and Agadir, 3 to 6 days, through the imperial cities and on to Chefchaouen. Compare itineraries and prices.",
   },
   {
     slug: "chefchaouen",
@@ -267,8 +267,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Chefchaouen Travel Guide | Marrakech Eco Tours",
-    seoDescription: "Discover Chefchaouen, Morocco's famous blue city in the Rif Mountains. Guided tours, hiking in Talassemtane National Park.",
+    seoTitle: "Chefchaouen Tours from Marrakech & Agadir | Marrakech Eco Tours",
+    seoDescription: "Private tours to Chefchaouen, the blue city, from Marrakech (4 days) or Agadir (5 days). Compare itineraries and prices.",
   },
   {
     slug: "agadir",

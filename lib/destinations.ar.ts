@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى جبال الأطلس الكبير | Marrakech Eco Tours",
-    seoDescription: "استكشف جبال الأطلس الكبير برفقة مرشدين محليين معتمدين: رحلة تسلق قمة توبقال (4167 مترًا)، وجولات في القرى الأمازيغية، وعبور الأطلس على مدى عدة أيام.",
+    seoTitle: "رحلات المشي في الأطلس الكبير من مراكش: توبقال والأسعار | Marrakech Eco Tours",
+    seoDescription: "رحلات مشي خاصة إلى توبقال والأطلس الكبير من مراكش، من يومين إلى 7 أيام، مع مرشدين جبليين أمازيغ معتمدين من إمليل. البرامج والأسعار.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل الصحراء الكبرى: مرزوكة وعرق الشبي | Marrakech Eco Tours",
-    seoDescription: "اكتشف الصحراء الكبرى برفقة مرشدين معتمدين: ركوب الجمال، وليالي المخيمات الأمازيغية، وشروق الشمس فوق كثبان عرق الشبي التي يبلغ ارتفاعها 150 مترًا.",
+    seoTitle: "رحلات الصحراء الكبرى من مراكش: مرزوكة وزاكورة | Marrakech Eco Tours",
+    seoDescription: "رحلات إلى الصحراء من مراكش نحو مرزوكة وزاكورة وعرق الشكاكة، من يومين إلى 4 أيام، مع جولة على الجمال وليلة في مخيم صحراوي. البرامج والأسعار.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى فاس البالي | Marrakech Eco Tours",
-    seoDescription: "استكشف فاس البالي: أكثر المدن القروسطية اكتمالًا في العالم. جولات مرشَدة إلى دباغة الشوارة وجامعة القرويين والمدينة القديمة ذات 9400 زقاق.",
+    seoTitle: "رحلات إلى فاس من مراكش وأكادير: المدن الإمبراطورية | Marrakech Eco Tours",
+    seoDescription: "رحلات خاصة إلى فاس من مراكش وأكادير، من 3 إلى 6 أيام، عبر المدن الإمبراطورية وصولاً إلى شفشاون. البرامج والأسعار.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "دليل السفر إلى شفشاون | Marrakech Eco Tours",
-    seoDescription: "اكتشف شفشاون، المدينة الزرقاء الشهيرة في المغرب وسط جبال الريف. جولات مرشَدة، ومشي في حديقة تالاسمتان الوطنية، وإقامة ليلية في المدينة القديمة المطلية.",
+    seoTitle: "رحلات إلى شفشاون من مراكش وأكادير | Marrakech Eco Tours",
+    seoDescription: "رحلات خاصة إلى شفشاون، المدينة الزرقاء، من مراكش (4 أيام) أو أكادير (5 أيام). البرامج والأسعار.",
   },
   {
     slug: "agadir",

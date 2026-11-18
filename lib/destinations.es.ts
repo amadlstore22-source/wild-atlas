@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guía de viaje al Alto Atlas | Marrakech Eco Tours",
-    seoDescription: "Explora las Montañas del Alto Atlas con guías locales certificados: trekking a la cima del Toubkal (4.167 m).",
+    seoTitle: "Trekkings en el Alto Atlas desde Marrakech: Toubkal y precios | Marrakech Eco Tours",
+    seoDescription: "Trekkings privados al Toubkal y por el Alto Atlas desde Marrakech, de 2 a 7 días, con guías de montaña bereberes certificados de Imlil. Itinerarios y precios.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guía del Sáhara: Merzouga y Erg Chebbi | Marrakech Eco Tours",
-    seoDescription: "Descubre el desierto del Sáhara con guías certificados: paseos en camello, noches en campamentos bereberes y amanecer sobre las dunas de 150 m de Erg Chebbi.",
+    seoTitle: "Tours por el desierto del Sáhara desde Marrakech: Merzouga y Zagora | Marrakech Eco Tours",
+    seoDescription: "Tours por el desierto desde Marrakech a Merzouga, Zagora y Erg Chegaga, de 2 a 4 días, con paseo en camello y noche en un campamento. Itinerarios y precios.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guía de viaje a Fez el-Bali | Marrakech Eco Tours",
-    seoDescription: "Explora Fez el-Bali, la ciudad medieval más intacta del mundo. Tours guiados por la curtiduría Chouara.",
+    seoTitle: "Tours a Fez desde Marrakech y Agadir: ciudades imperiales | Marrakech Eco Tours",
+    seoDescription: "Tours privados a Fez desde Marrakech y Agadir, de 3 a 6 días, por las ciudades imperiales y hasta Chefchaouen. Itinerarios y precios.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guía de viaje a Chefchaouen | Marrakech Eco Tours",
-    seoDescription: "Chefchaouen, la ciudad azul de Marruecos en el Rif. Tours guiados, senderismo en Talassemtane y noches en la medina pintada.",
+    seoTitle: "Tours a Chefchaouen desde Marrakech y Agadir | Marrakech Eco Tours",
+    seoDescription: "Tours privados a Chefchaouen, la ciudad azul, desde Marrakech (4 días) o Agadir (5 días). Itinerarios y precios.",
   },
   {
     slug: "agadir",

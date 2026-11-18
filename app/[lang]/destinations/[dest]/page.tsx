@@ -29,7 +29,7 @@ import type { Locale } from "@/app/[lang]/dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 import { ogBase } from "@/lib/seo/open-graph";
-import { toursForDestination } from "@/lib/destination-tours";
+import { TOUR_HUB_DESTINATIONS, toursForDestination } from "@/lib/destination-tours";
 
 type PageParams = { params: Promise<{ lang: string; dest: string }> };
 
@@ -92,6 +92,9 @@ export default async function DestinationPage({ params }: PageParams) {
   // Tours that actually go here first, then ones from a related origin, then
   // category matches. See toursForDestination for why.
   const relatedTours = toursForDestination(toursFor(lang), destination);
+
+  // Four pages lead with their tours (see TOUR_HUB_DESTINATIONS for why).
+  const isTourHub = TOUR_HUB_DESTINATIONS.has(dest);
 
   const guideRegions = DEST_BLOG_REGIONS[dest] ?? [];
   const relatedPosts = blogPostsFor(lang)
@@ -179,6 +182,41 @@ export default async function DestinationPage({ params }: PageParams) {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          {isTourHub && relatedTours.length > 0 && (
+            <section className="mb-16">
+              <div className="flex items-end justify-between mb-8">
+                <div>
+                  <p className="text-brass-deep text-xs font-bold uppercase tracking-[0.18em] mb-2">{d.guidedAdventuresEyebrow}</p>
+                  <h2 className="font-display text-charcoal text-3xl font-bold">
+                    {d.toursInAroundTitle.replace("{name}", destination.name)}
+                  </h2>
+                </div>
+                <Link
+                  href={`/${locale}/tours`}
+                  className="hidden sm:inline-flex items-center gap-1.5 text-forest font-semibold text-sm hover:text-moss transition-colors border-b border-forest/25 hover:border-forest pb-0.5"
+                >
+                  {d.viewAllTours}
+                </Link>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {relatedTours.map((tour, i) => (
+                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={dict} delay={i * 0.07} />
+                ))}
+              </div>
+              {relatedPosts[0] && (
+                <p className="mt-8 text-ink-soft">
+                  {(d as unknown as Record<string, string>).relatedGuidesTitle?.replace("{name}", destination.name) ?? `Read more about ${destination.name}`}
+                  {": "}
+                  <Link
+                    href={`/${locale}/blog/${blogSlugFor(locale, relatedPosts[0].slug)}`}
+                    className="text-forest font-semibold border-b border-forest/25 hover:border-forest"
+                  >
+                    {relatedPosts[0].title}
+                  </Link>
+                </p>
+              )}
+            </section>
+          )}
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
 
             {/* Left: main content */}
@@ -373,8 +411,8 @@ export default async function DestinationPage({ params }: PageParams) {
             </div>
           </div>
 
-          {/* Related tours */}
-          {relatedTours.length > 0 && (
+          {/* Related tours (tour hubs show them at the top instead) */}
+          {!isTourHub && relatedTours.length > 0 && (
             <section className="mt-4 pt-14 border-t border-sand-dark">
               <div className="flex items-end justify-between mb-8">
                 <div>

@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Hoher Atlas Reiseführer | Marrakech Eco Tours",
-    seoDescription: "Erkunden Sie den Hohen Atlas mit zertifizierten lokalen Guides: Toubkal-Gipfeltrek (4.167 m), Wanderungen zu Berberdörfern und mehrtägige Atlas-Überquerungen.",
+    seoTitle: "Trekkingtouren im Hohen Atlas ab Marrakesch: Toubkal & Preise | Marrakech Eco Tours",
+    seoDescription: "Private Trekkingtouren zum Toubkal und durch den Hohen Atlas ab Marrakesch, 2 bis 7 Tage, mit zertifizierten Berber-Bergführern aus Imlil. Routen und Preise.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Sahara-Reiseführer: Merzouga & Erg Chebbi | Marrakech Eco Tours",
-    seoDescription: "Entdecken Sie die Sahara mit zertifizierten Guides: Kamelritte, Nächte im Berbercamp und Sonnenaufgang über den 150 m hohen Dünen von Erg Chebbi.",
+    seoTitle: "Sahara-Wüstentouren ab Marrakesch: Merzouga & Zagora | Marrakech Eco Tours",
+    seoDescription: "Wüstentouren ab Marrakesch nach Merzouga, Zagora und in den Erg Chegaga, 2 bis 4 Tage, mit Kamelritt und Nacht im Wüstencamp. Routen und Preise.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Fès el-Bali Reiseführer — Medina-Touren | Marrakech Eco Tours",
-    seoDescription: "Erkunden Sie Fès el-Bali, die am besten erhaltene mittelalterliche Stadt der Welt. Geführte Touren zur Chouara-Gerberei.",
+    seoTitle: "Touren nach Fès ab Marrakesch und Agadir: Königsstädte | Marrakech Eco Tours",
+    seoDescription: "Private Touren nach Fès ab Marrakesch und Agadir, 3 bis 6 Tage, durch die Königsstädte bis nach Chefchaouen. Routen und Preise.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Chefchaouen Reiseführer | Marrakech Eco Tours",
-    seoDescription: "Chefchaouen, Marokkos blaue Stadt im Rif. Geführte Touren, Wanderungen im Talassemtane-Nationalpark und Nächte in der Medina.",
+    seoTitle: "Touren nach Chefchaouen ab Marrakesch und Agadir | Marrakech Eco Tours",
+    seoDescription: "Private Touren nach Chefchaouen, in die blaue Stadt, ab Marrakesch (4 Tage) oder Agadir (5 Tage). Routen und Preise.",
   },
   {
     slug: "agadir",

@@ -95,8 +95,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["trekking", "hiking"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage du Haut Atlas | Marrakech Eco Tours",
-    seoDescription: "Le Haut Atlas avec des guides certifiés : sommet du Toubkal (4 167 m), villages berbères et traversées de plusieurs jours. Petits groupes.",
+    seoTitle: "Treks dans le Haut Atlas depuis Marrakech : Toubkal et prix | Marrakech Eco Tours",
+    seoDescription: "Treks privés au Toubkal et dans le Haut Atlas depuis Marrakech, de 2 à 7 jours, avec des guides de montagne berbères certifiés d'Imlil. Itinéraires et prix.",
   },
   {
     slug: "sahara",
@@ -143,8 +143,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["desert"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide du Sahara : Merzouga et l'Erg Chebbi | Marrakech Eco Tours",
-    seoDescription: "Le Sahara avec des guides certifiés : chameaux, nuits en campement berbère et lever du soleil sur les dunes de l'Erg Chebbi. Circuits de 2 à 4 jours.",
+    seoTitle: "Circuits dans le désert du Sahara depuis Marrakech : Merzouga et Zagora | Marrakech Eco Tours",
+    seoDescription: "Circuits dans le désert depuis Marrakech vers Merzouga, Zagora et l'Erg Chegaga, de 2 à 4 jours, avec balade à dos de chameau et nuit en bivouac. Itinéraires et prix.",
   },
   {
     slug: "fes",
@@ -190,8 +190,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Fès el-Bali | Marrakech Eco Tours",
-    seoDescription: "Explorez Fès el-Bali, la cité médiévale la plus intacte au monde. Visites guidées de la tannerie Chouara.",
+    seoTitle: "Circuits à Fès depuis Marrakech et Agadir : villes impériales | Marrakech Eco Tours",
+    seoDescription: "Circuits privés vers Fès depuis Marrakech et Agadir, de 3 à 6 jours, à travers les villes impériales et jusqu'à Chefchaouen. Itinéraires et prix.",
   },
   {
     slug: "chefchaouen",
@@ -237,8 +237,8 @@ export const DESTINATIONS: Destination[] = [
     ],
     relatedCategories: ["cultural"],
     relatedOrigins: ["marrakech"],
-    seoTitle: "Guide de voyage à Chefchaouen | Marrakech Eco Tours",
-    seoDescription: "Découvrez Chefchaouen, la célèbre ville bleue du Maroc nichée dans les montagnes du Rif. Visites guidées, randonnées dans le Parc National de Talassemtane.",
+    seoTitle: "Circuits à Chefchaouen depuis Marrakech et Agadir | Marrakech Eco Tours",
+    seoDescription: "Circuits privés vers Chefchaouen, la ville bleue, depuis Marrakech (4 jours) ou Agadir (5 jours). Itinéraires et prix.",
   },
   {
     slug: "agadir",

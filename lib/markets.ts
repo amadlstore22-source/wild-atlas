@@ -16,9 +16,10 @@ import { MARKET_SLUG_BY_LANG } from "./market-slugs";
  *  - Direct routes: the airline/destination tables for Marrakesh Menara (RAK)
  *    and Agadir–Al Massira (AGA) on Wikipedia, read 2026-09-28. Seasonal routes
  *    are labelled; routes change, so the page dates the list and says so.
- *  - Time: the IANA tz database (tzdata 2026b via Node Intl). Morocco is
- *    UTC+1 except during Ramadan, when it is UTC+0 (predicted 7 Feb – 14 Mar
- *    2027; Morocco confirms the dates each year).
+ *  - Time: since 20 September 2026 Morocco is on GMT (UTC+0) all year, with
+ *    no Ramadan change (decree 2.26.530; Bladi and Morocco World News, read
+ *    2026-11-18; timeanddate.com 2027). Node's tzdata 2026b predates the decree
+ *    and still says UTC+1, so do NOT derive this copy from Intl.
  *  - Guide languages come from lib/guides.ts at render time, not from here.
  */
 
@@ -112,8 +113,8 @@ export const MARKETS: Market[] = [
       "Unser Rat für alle drei Länder: ein Reisepass, der bei Einreise noch mindestens sechs Monate gültig ist. Damit erfüllen Sie die strengste der drei Regeln.",
     timeHeading: "Zeitverschiebung",
     time: [
-      "Marokko liegt auf UTC+1. Im Winter gilt also dieselbe Uhrzeit wie in Deutschland, Österreich und der Schweiz; von Ende März bis Ende Oktober ist es in Marokko eine Stunde früher.",
-      "Im Ramadan stellt Marokko die Uhr auf UTC+0 zurück – 2027 voraussichtlich vom 7. Februar bis 14. März. Dann ist es dort eine Stunde früher als bei Ihnen. Die genauen Daten legt Marokko jedes Jahr fest.",
+      "Seit dem 20. September 2026 gilt in Marokko das ganze Jahr GMT (UTC+0). Im Winter ist es dort eine Stunde früher als in Deutschland, Österreich und der Schweiz, von Ende März bis Ende Oktober zwei Stunden früher.",
+      "Eine Zeitumstellung im Ramadan gibt es seitdem nicht mehr.",
     ],
     flightsHeading: "Direktflüge nach Marrakesch und Agadir",
     flightsNote:
@@ -182,8 +183,8 @@ export const MARKETS: Market[] = [
       "À l'arrivée, vérifiez que votre passeport a bien reçu le cachet d'entrée. Pour toute question de visa, c'est le consulat du Maroc qui fait foi.",
     timeHeading: "Décalage horaire",
     time: [
-      "Le Maroc est à UTC+1 : même heure qu'en France en hiver, une heure de moins de fin mars à fin octobre.",
-      "Pendant le ramadan, le Maroc passe à UTC+0 – en 2027, probablement du 7 février au 14 mars. Il y a alors une heure de moins qu'en France. Les dates exactes sont fixées chaque année par le Maroc.",
+      "Depuis le 20 septembre 2026, le Maroc est à l'heure GMT (UTC+0) toute l'année : une heure de moins qu'en France en hiver, deux heures de moins de fin mars à fin octobre.",
+      "Il n'y a plus de changement d'heure pendant le ramadan.",
     ],
     flightsHeading: "Vols directs vers Marrakech et Agadir",
     flightsNote:
@@ -247,8 +248,8 @@ export const MARKETS: Market[] = [
     entryAdvice: "Es el error más habitual al volar desde España: viajar solo con el DNI. Lleva el pasaporte.",
     timeHeading: "Diferencia horaria",
     time: [
-      "Marruecos está en UTC+1: la misma hora que la España peninsular en invierno y una hora menos de finales de marzo a finales de octubre. Con Canarias, al revés: una hora más en invierno y la misma hora en verano.",
-      "Durante el ramadán, Marruecos pasa a UTC+0: en 2027, previsiblemente del 7 de febrero al 14 de marzo. Las fechas exactas las fija Marruecos cada año.",
+      "Desde el 20 de septiembre de 2026, Marruecos está en GMT (UTC+0) todo el año: una hora menos que la España peninsular en invierno y dos horas menos de finales de marzo a finales de octubre. Con Canarias, la misma hora en invierno y una hora menos en verano.",
+      "Ya no hay cambio de hora durante el ramadán.",
     ],
     flightsHeading: "Vuelos directos a Marrakech y Agadir",
     flightsNote:
@@ -310,8 +311,8 @@ export const MARKETS: Market[] = [
     entryAdvice: "Per informazioni vincolanti sui documenti, la Farnesina rimanda all'Ambasciata del Regno del Marocco a Roma.",
     timeHeading: "Fuso orario",
     time: [
-      "Il Marocco è a UTC+1: stessa ora dell'Italia in inverno, un'ora in meno da fine marzo a fine ottobre.",
-      "Durante il Ramadan il Marocco passa a UTC+0: nel 2027, presumibilmente dal 7 febbraio al 14 marzo. Le date esatte vengono fissate ogni anno dal Marocco.",
+      "Dal 20 settembre 2026 il Marocco è all'ora GMT (UTC+0) tutto l'anno: un'ora in meno rispetto all'Italia in inverno, due ore in meno da fine marzo a fine ottobre.",
+      "Durante il Ramadan non c'è più il cambio d'ora.",
     ],
     flightsHeading: "Voli diretti per Marrakech e Agadir",
     flightsNote:
@@ -368,8 +369,8 @@ export const MARKETS: Market[] = [
     entryAdvice: "Foreign currency worth 100,000 dirhams (about £8,000) or more must be declared on arrival and departure.",
     timeHeading: "Time difference",
     time: [
-      "Morocco is on UTC+1: the same time as the UK in summer, one hour ahead in winter.",
-      "During Ramadan Morocco switches to UTC+0, expected from 7 February to 14 March in 2027, so it matches UK time then. Morocco confirms the exact dates each year.",
+      "Since 20 September 2026 Morocco is on GMT (UTC+0) all year: the same time as the UK in winter, one hour behind in summer.",
+      "There is no longer a clock change for Ramadan.",
     ],
     flightsHeading: "Direct flights to Marrakech and Agadir",
     flightsNote: "As of September 2026. Some routes are seasonal and schedules change, so check with the airline.",

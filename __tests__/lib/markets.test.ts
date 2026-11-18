@@ -83,18 +83,32 @@ describe("market pages", () => {
     expect(readFileSync(join(ROOT, "components", "layout", "Footer.tsx"), "utf8")).toContain("marketsIn(lang)");
   });
 
-  it("quotes the Ramadan clock change the tz database actually has", () => {
-    const offset = (iso: string) => {
-      const p = new Intl.DateTimeFormat("en-US", { timeZone: "Africa/Casablanca", timeZoneName: "shortOffset" })
-        .formatToParts(new Date(iso))
-        .find((x) => x.type === "timeZoneName")!.value;
-      return p === "GMT" ? 0 : Number(p.replace("GMT", ""));
-    };
-    // Pages say: UTC+0 from 7 February to 14 March 2027, UTC+1 otherwise.
-    expect(offset("2027-02-06T12:00:00Z")).toBe(1);
-    expect(offset("2027-02-08T12:00:00Z")).toBe(0);
-    expect(offset("2027-03-13T12:00:00Z")).toBe(0);
-    expect(offset("2027-03-15T12:00:00Z")).toBe(1);
+  /**
+   * Morocco left GMT+1 on 20 September 2026 (decree 2.26.530): clocks went back
+   * an hour and the country now stays on GMT all year, with no Ramadan change.
+   * Two months later all five market pages still said "Morocco is on UTC+1"
+   * and promised a Ramadan switch to UTC+0 from 7 February to 14 March 2027,
+   * so a visitor planning a pick-up from Germany, France, Spain, Italy or the
+   * UK was told the wrong time difference.
+   *
+   * The test that stood here made it worse: it checked the copy against
+   * Node's tzdata (2026b), which predates the decree and still answers UTC+1
+   * with a Ramadan dip, so it passed on the wrong copy. Never derive Moroccan
+   * time from Intl until tzdata catches up; assert the legal rule instead.
+   */
+  it("says GMT all year with no Ramadan clock change (decree 2.26.530)", () => {
+    const wrong = MARKETS.flatMap((m) =>
+      m.time
+        .filter((t) => /\b(UTC|GMT)\s?\+\s?1\b/.test(t) || /UTC\+0 (zurück|–|:|,)|passe à UTC\+0|pasa a UTC\+0|passa a UTC\+0|switches to UTC\+0/.test(t))
+        .map((t) => `${m.slug}: ${t.slice(0, 80)}`),
+    );
+    expect(
+      wrong,
+      `These market pages still describe Morocco's pre-September-2026 clock\n` +
+        `(UTC+1, or a switch to UTC+0 for Ramadan). Morocco is on GMT all year:\n  ` +
+        wrong.join("\n  "),
+    ).toEqual([]);
+    for (const m of MARKETS) expect(m.time.join(" "), m.slug).toMatch(/GMT \(UTC\+0\)/);
   });
 
   it("promises the same reply time as the rest of the site", () => {

@@ -112,7 +112,11 @@ export default function BookingSidebar({
   // module load so a long-lived tab does not go stale overnight.
   const today = new Date();
   const minDate = refugeLocked && !oneDay ? REFUGE_FIRST_OPEN_DATE : today.toISOString().slice(0, 10);
-  const maxDate = new Date(today.getFullYear() + 2, today.getMonth(), today.getDate())
+  // Built in UTC, like minDate. A local-time Date turned into a UTC string
+  // lands on the previous day wherever the clock is ahead of UTC (most of
+  // Europe), so the server (UTC) and a visitor's browser disagreed on `max`
+  // and React logged a hydration mismatch on every tour page (2026-11-06).
+  const maxDate = new Date(Date.UTC(today.getUTCFullYear() + 2, today.getUTCMonth(), today.getUTCDate()))
     .toISOString()
     .slice(0, 10);
 

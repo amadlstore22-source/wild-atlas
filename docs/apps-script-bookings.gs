@@ -34,6 +34,16 @@
  *     through and a CANCELLED column says when, by which credit note and why;
  *     its Deposit sheet row is struck through too. No value changes (see
  *     invCancel_).
+ *   - An invoice EDITED in MET Desk (version 2...) updates its row like any
+ *     re-send. An invoice first made by the old command is only updated,
+ *     never added (updateOnly): its row may have been typed by hand.
+ *   - An invoice ERASED in MET Desk (owner, 2026-11-08: "if I delete that
+ *     invoice, it should get deleted from the sheets as well") has its row's
+ *     cells emptied. The row itself stays, so the rows below do not move and
+ *     the deposit links keep pointing at the right lines. Cells holding a
+ *     formula and the DAY column are left alone. If a deposit is recorded on
+ *     the row (PAYMENT or DEPOSIT DATE filled), NOTHING is changed and MET
+ *     Desk tells the owner to clear it by hand (see invErase_).
  *
  * WHY: on INV-2026-033 (26 Oct 2026) the camp promised to the client
  * was only on the PDF. The team never saw it and took the family to the wrong
@@ -54,6 +64,9 @@
 
 const INVOICE_SECRET = 'PASTE-THE-SECRET-HERE';   // ← same value as SHEET_WEBHOOK_SECRET in .env.local
 const INV_HEADER_ROW = 2;
+// 2 = knows edits (revision, updateOnly) and erasures. MET Desk asks before
+// sending either: an older copy of this file would refuse them.
+const INV_PROTOCOL = 2;
 const INV_DATE_FORMAT = 'ddd, d mmm yyyy';   // "Tue, 15 Dec 2026", as in the team's own rows
 const INV_MONTHS_EN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const INV_MONTHS_FR = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'decembre'];
@@ -63,11 +76,12 @@ function doPost(e) {
   try { data = JSON.parse(e.postData.contents); } catch (err) { return invOut_({ ok: false, error: 'not JSON' }); }
   if (INVOICE_SECRET.indexOf('PASTE') === 0) return invOut_({ ok: false, error: 'INVOICE_SECRET is not set in the script' });
   if (data.secret !== INVOICE_SECRET) return invOut_({ ok: false, error: 'wrong secret' });
-  if (data.kind !== 'invoice' && data.kind !== 'cancel') return invOut_({ ok: false, error: 'not an invoice' });
+  if (data.kind !== 'invoice' && data.kind !== 'cancel' && data.kind !== 'erase') return invOut_({ ok: false, error: 'not an invoice' });
   const lock = LockService.getDocumentLock();
   lock.waitLock(30000);
   try {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
+    if (data.kind === 'erase') return invOut_(invErase_(ss, data));
     return invOut_(data.kind === 'cancel' ? invCancel_(ss, data) : invPlace_(ss, data));
   } catch (err) {
     return invOut_({ ok: false, error: String(err) });
@@ -77,7 +91,7 @@ function doPost(e) {
 }
 
 function doGet() {
-  return invOut_({ ok: true, service: 'MET invoices → bookings26', method: 'POST only' });
+  return invOut_({ ok: true, service: 'MET invoices → bookings26', method: 'POST only', protocol: INV_PROTOCOL });
 }
 
 function invPlace_(ss, data) {
@@ -91,6 +105,10 @@ function invPlace_(ss, data) {
   const found = invFindInvoice_(invAllBooks_(ss), data.number);
   if (found) {
     book = found.book; tab = found.tab; row = found.row; cols = found.cols; updated = true;
+  } else if (data.updateOnly) {
+    // An edited old-command invoice: no row holds its number, and its row may
+    // have been typed by hand. Adding one could put the trip in twice.
+    return { ok: true, found: false };
   } else {
     book = invBookFor_(ss, when.getFullYear());
     tab = invMonthTab_(book, when) || invMakeMonthTab_(book, when);
@@ -202,6 +220,39 @@ function invCancel_(ss, data) {
 
   const deposit = invCancelDeposit_(tab, row, cols, data);
   return { ok: true, found: true, file: found.book.getName(), tab: tab.getName(), row: row, deposit: deposit };
+}
+
+/**
+ * An invoice erased in MET Desk. Its row's cells are emptied: values, notes
+ * and strike-through. The row itself stays (the rows below do not move, so
+ * the deposit links keep pointing at the right lines), and so do cells
+ * holding a formula and the DAY column.
+ *
+ * Money on the row stops it: if PAYMENT or DEPOSIT DATE holds anything, a
+ * deposit is recorded here (and maybe in the Deposit sheet), so NOTHING is
+ * changed and the answer says why. MET Desk shows the owner that line to
+ * clear by hand. An invoice with no row here: found false.
+ */
+function invErase_(ss, data) {
+  if (!data.number) return { ok: false, error: 'no invoice number' };
+  const found = invFindInvoice_(invAllBooks_(ss), data.number);
+  if (!found) return { ok: true, found: false };
+  const tab = found.tab, row = found.row, cols = found.cols;
+  const filled = function (name) { return cols[name] && String(tab.getRange(row, cols[name]).getValue()).trim() !== ''; };
+  if (filled('PAYMENT') || filled('DEPOSIT DATE')) {
+    return {
+      ok: true, found: true, cleared: false, file: found.book.getName(), tab: tab.getName(), row: row,
+      reason: 'a deposit is recorded on this row (PAYMENT or DEPOSIT DATE), so nothing was changed',
+    };
+  }
+  const first = String(tab.getRange(INV_HEADER_ROW, 1).getValue()).trim().toUpperCase() === 'DAY' ? 2 : 1;
+  const width = tab.getLastColumn() - first + 1;
+  const formulas = tab.getRange(row, first, 1, width).getFormulas()[0];
+  for (let i = 0; i < width; i++) {
+    if (formulas[i] !== '') continue;   // a formula belongs to the sheet, not to this booking
+    tab.getRange(row, first + i).clearContent().clearNote().setFontLine('none');
+  }
+  return { ok: true, found: true, cleared: true, file: found.book.getName(), tab: tab.getName(), row: row };
 }
 
 /**

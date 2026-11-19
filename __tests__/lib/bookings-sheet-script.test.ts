@@ -71,6 +71,7 @@ const SECRET = "test-secret";
 let ss: Spreadsheet;
 let depSS: Spreadsheet;
 let post: (data: Record<string, unknown>) => { ok: boolean; tab?: string; row?: number; updated?: boolean; error?: string; kept?: string[]; moneyLocked?: boolean };
+let get: () => { ok: boolean; protocol?: number };
 
 beforeEach(() => {
   ss = new Spreadsheet();
@@ -103,6 +104,7 @@ beforeEach(() => {
   };
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
+  get = () => (ctx.doGet as () => ReturnType<typeof get>)();
   post = (data) => (ctx.doPost as (e: unknown) => ReturnType<typeof post>)({ postData: { contents: JSON.stringify({ secret: SECRET, kind: "invoice", ...data }) } });
 });
 
@@ -313,6 +315,101 @@ describe("bookings26 script: a cancelled trip", () => {
     const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
     expect(cancel({ creditNote: "" }).ok).toBe(false);
     expect(cancel({ secret: "wrong" }).ok).toBe(false);
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
+  });
+});
+
+/**
+ * Edits and erasures from MET Desk (owner, 2026-11-08: "edit any invoice,
+ * plus delete it ... and if I delete that invoice, it should get deleted from
+ * the sheets as well"). Asked how a deleted trip should leave bookings26, the
+ * owner chose: empty its cells, keep the row (so the rows below and the
+ * deposit links do not move). Two things must never happen: a row holding a
+ * deposit is emptied (the money record is the team's), and an edited invoice
+ * from the old command is ADDED a second time next to its hand-typed row.
+ * MET Desk only sends either once this file answers protocol 2: an older copy
+ * would refuse an erase, and the Invoices script would file it as an enquiry.
+ */
+describe("bookings26 script: edits and erasures from MET Desk", () => {
+  type Answer = { ok: boolean; found?: boolean; cleared?: boolean; reason?: string; row?: number; error?: string };
+  const erase = (d: Record<string, unknown> = {}) => post({ kind: "erase", number: "INV-2026-100", reason: "made by mistake", ...d }) as unknown as Answer;
+  const heads = (s: Sheet) => s.grid[1].map((c) => c.v);
+
+  it("says it knows edits and erasures (MET Desk checks before sending them)", () => {
+    expect(get()).toMatchObject({ ok: true, protocol: 2 });
+  });
+
+  it("an erased invoice's row is emptied: values, notes and strike-through; the row stays and nothing else moves", () => {
+    const placed = post(inv);
+    post({ kind: "cancel", number: "INV-2026-100", creditNote: "CN-2026-001", cancelledOn: "2026-11-05", reason: "x" });
+    const s = tab("November26");
+    s.cell(placed.row!, 9).v = "Hassan";
+    s.cell(placed.row!, 11).note = "team note";
+    const other = JSON.stringify(s.grid[2]);
+    const rows = s.grid.length;
+    const r = erase();
+    expect(r).toMatchObject({ ok: true, found: true, cleared: true, row: placed.row });
+    expect(s.grid[placed.row! - 1].every((c) => c.v === "" && c.note === "" && (c.line ?? "none") === "none")).toBe(true);
+    expect(JSON.stringify(s.grid[2]), "the other booking is untouched").toBe(other);
+    expect(s.grid.length, "no row deleted or inserted").toBe(rows);
+    expect(s.cell(5, 6).f, "the SUM row keeps its formula").toBe("=SUM(F3:F4)");
+  });
+
+  it("a row with a deposit recorded is never emptied, and the answer says why", () => {
+    const placed = post(inv);
+    const s = tab("November26");
+    s.cell(placed.row!, 5).v = "DEPOSIT ARRIVED";
+    const before = JSON.stringify(s.grid);
+    const r = erase();
+    expect(r).toMatchObject({ ok: true, found: true, cleared: false });
+    expect(r.reason).toMatch(/deposit is recorded/);
+    expect(JSON.stringify(s.grid)).toBe(before);
+  });
+
+  it("a DEPOSIT DATE stamp alone also stops it", () => {
+    const placed = post(inv);
+    const s = tab("November26");
+    s.cell(placed.row!, heads(s).indexOf("DEPOSIT DATE") + 1).v = "21/10/2026";
+    expect(erase()).toMatchObject({ cleared: false });
+  });
+
+  it("keeps formulas in the row and the DAY column of a tab laid out by day", () => {
+    const s = new Sheet("December26");
+    ["DAY", ...HEAD].forEach((h, i) => { s.cell(2, i + 1).v = h; });
+    for (let d = 1; d <= 31; d++) s.cell(2 + d, 1).v = d;
+    ss.sheets.splice(ss.sheets.indexOf(tab("DECEMBRE26")), 1, s);
+    const placed = post({ ...inv, departure: "2026-12-13" });
+    s.cell(placed.row!, 8).f = "=F15-G15"; // a formula someone added to the row
+    erase();
+    expect(s.cell(placed.row!, 1).v, "the day number belongs to the layout").toBe(13);
+    expect(s.cell(placed.row!, 8).f).toBe("=F15-G15");
+    expect(s.cell(placed.row!, 2).v).toBe("");
+  });
+
+  it("an invoice not in bookings26 changes nothing and is not an error; erasing twice is harmless", () => {
+    const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(erase({ number: "INV-2026-999" })).toMatchObject({ ok: true, found: false });
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
+    post(inv);
+    erase();
+    expect(erase()).toMatchObject({ ok: true, found: false });
+  });
+
+  it("an edit updates the row; an edited old-command invoice is never added when its number is not here", () => {
+    const placed = post(inv);
+    const r = post({ ...inv, revision: 2, pickup: "Riad Y, 8:00", people: 7 });
+    expect(r).toMatchObject({ ok: true, updated: true, row: placed.row });
+    expect(tab("November26").cell(placed.row!, 8).v).toBe("Riad Y, 8:00");
+    const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(post({ ...inv, number: "INV-2026-040", revision: 2, updateOnly: true })).toMatchObject({ ok: true, found: false });
+    expect(JSON.stringify(ss.sheets.map((s) => s.grid)), "no second row for a trip typed by hand").toBe(snapshot);
+  });
+
+  it("refuses an erase without a number, and a wrong secret, changing nothing", () => {
+    post(inv);
+    const snapshot = JSON.stringify(ss.sheets.map((s) => s.grid));
+    expect(erase({ number: "" }).ok).toBe(false);
+    expect(erase({ secret: "wrong" }).ok).toBe(false);
     expect(JSON.stringify(ss.sheets.map((s) => s.grid))).toBe(snapshot);
   });
 });

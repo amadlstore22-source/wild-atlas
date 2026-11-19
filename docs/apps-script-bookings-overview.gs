@@ -48,13 +48,28 @@ const OVERVIEW_STATUS = [
 // Colours of the sheet's own style (indigo bars, light headers, green totals).
 const OV = { bar: '#1f2a44', barText: '#ffffff', head: '#d9d2e9', band: '#f3f0e8', total: '#d9ead3', note: '#666666' };
 
+// The dashboard at the top (2026-11-09, owner: "it needs to have a canva, not
+// just lines, with graphs and statistics"). Rows 4-9 hold eight number cards,
+// rows 11-42 four charts in a 2 x 2 grid; the tables start at row 44.
+const OVERVIEW_DASH = { cardRows: [4, 7], chartRows: [11, 27], tables: 44, chartW: 590, chartH: 315 };
+const OVERVIEW_EURO0 = '€#,##0';
+// Slice colours, in the order of OVERVIEW_STATUS + "No status chosen" + "Other", and of the families + "Other".
+const OVERVIEW_STATUS_COLOURS = ['#38761d', '#6aa84f', '#93c47d', '#f1c232', '#cc4125', '#cccccc', '#999999'];
+const OVERVIEW_FAMILY_COLOURS = ['#e69138', '#1f2a44', '#8e7cc3', '#6aa84f', '#cccccc'];
+
 function overviewBuild() {
   const ss = SpreadsheetApp.getActive();
   const tab = overviewTab_(ss);
   const months = overviewMonths_(ss);
   if (!months.length) throw new Error('No ' + OVERVIEW_YEAR + ' month tab with a TOUR BOOKED header was found. Nothing was changed.');
 
+  // Charts and merged cards are not removed by clear(): take them off first,
+  // so a re-run never stacks a second set of charts on the first.
+  tab.getCharts().forEach(function (c) { tab.removeChart(c); });
+  tab.getRange(1, 1, tab.getMaxRows(), tab.getMaxColumns()).breakApart();
   tab.clear();
+  tab.setRowHeights(1, tab.getMaxRows(), 21);
+  tab.setHiddenGridlines(true);
   tab.getRange(1, 1).setNote(OVERVIEW_MARK);
   if (tab.getName() !== OVERVIEW_TITLE) tab.setName(OVERVIEW_TITLE);
 
@@ -68,7 +83,9 @@ function overviewBuild() {
     months.map(function (m) { return m.tab.getName(); }).join(', ') +
     ') and updates by itself. Amounts in euros. Re-run overviewBuild only if a month tab is added.')
     .setFontStyle('italic').setFontColor(OV.note);
-  r += 2;
+  // The dashboard (cards + charts) sits above the tables; it is drawn last,
+  // once the tables it reads exist.
+  r = OVERVIEW_DASH.tables;
 
   // ---- monthly table (filled first so the headline figures can point at it)
   const mHead = ['Month', 'Bookings', 'Travellers', 'Deposits taken', 'Balance (amount left)',
@@ -132,6 +149,7 @@ function overviewBuild() {
 
   // ---- payment status (year), right after the monthly table
   r = totalRow + 2;
+  const statusHead = r + 1;
   overviewBar_(tab, r, W, 'Payment status (PAYMENT column), whole year');
   overviewHead_(tab, r + 1, ['Status', 'Bookings', 'Deposits taken', 'Balance (amount left)', 'Total value']);
   const S = overviewStack_(months);
@@ -163,6 +181,7 @@ function overviewBuild() {
 
   // ---- tour families (year)
   r = sTotal + 2;
+  const familyHead = r + 1;
   overviewBar_(tab, r, W, 'What was booked, by kind of tour (read from the tour name), whole year');
   overviewHead_(tab, r + 1, ['Kind of tour', 'Bookings', 'Travellers', 'Total value', 'Share of value']);
   const low = 'LOWER(TO_TEXT(' + S.tour + '))';
@@ -212,8 +231,90 @@ function overviewBuild() {
   tab.setColumnWidth(1, 300);
   for (let c = 2; c <= 9; c++) tab.setColumnWidth(c, 150);
   tab.setFrozenRows(1);
+
+  // ---- the dashboard: cards and charts, all reading the tables above
+  overviewDashboard_(tab, {
+    first: first, last: last, totalRow: totalRow, monthHead: mStart + 1,
+    statusHead: statusHead, statusLast: sTotal, familyHead: familyHead, familyLast: fOther,
+  });
   SpreadsheetApp.flush();
   ss.toast('Overview written to "' + OVERVIEW_TITLE + '" for ' + months.length + ' month tab(s). No other tab was changed.', 'Overview', 10);
+}
+
+/**
+ * Eight number cards and four charts. Every card is a formula and every chart
+ * reads a range of the tables below, so the whole dashboard updates by itself.
+ */
+function overviewDashboard_(tab, at) {
+  const D = OVERVIEW_DASH;
+  const T = function (col) { return '$' + col + '$' + at.totalRow; };
+  const months = 'A' + at.first + ':A' + at.last;
+  const counts = 'B' + at.first + ':B' + at.last, values = 'F' + at.first + ':F' + at.last;
+  const cards = [
+    ['BOOKINGS', '=' + T('B'), '0'],
+    ['TRAVELLERS', '=' + T('C'), '0'],
+    ['MONEY CIRCULATED (TOTAL BOOKING VALUE)', '=' + T('F'), OVERVIEW_EURO0],
+    ['AVERAGE BOOKING VALUE', '=IF(' + T('B') + '=0,0,' + T('F') + '/' + T('B') + ')', OVERVIEW_EURO0],
+    ['DEPOSITS TAKEN', '=' + T('D'), OVERVIEW_EURO0],
+    ['BALANCE STILL TO COLLECT', '=' + T('E'), OVERVIEW_EURO0],
+    ['BUSIEST MONTH (MOST BOOKINGS)', '=IF(' + T('B') + '=0,"-",INDEX(' + months + ',MATCH(MAX(' + counts + '),' + counts + ',0)))', '@'],
+    ['BIGGEST MONTH (HIGHEST VALUE)', '=IF(' + T('F') + '=0,"-",INDEX(' + months + ',MATCH(MAX(' + values + '),' + values + ',0)))', '@'],
+  ];
+  const spans = [[1, 1], [2, 2], [4, 2], [6, 2]];   // [first column, width]: A, B:C, D:E, F:G
+  cards.forEach(function (c, i) {
+    const row = D.cardRows[Math.floor(i / 4)], s = spans[i % 4];
+    const label = tab.getRange(row, s[0], 1, s[1]), value = tab.getRange(row + 1, s[0], 1, s[1]);
+    if (s[1] > 1) { label.merge(); value.merge(); }
+    tab.getRange(row, s[0]).setValue(c[0]);
+    tab.getRange(row + 1, s[0]).setFormula(c[1]);
+    label.setFontSize(9).setFontWeight('bold').setFontColor(OV.note).setBackground(OV.band)
+      .setHorizontalAlignment('left').setVerticalAlignment('bottom');
+    value.setNumberFormat(c[2]).setFontSize(22).setFontWeight('bold').setFontColor(OV.bar).setBackground(OV.band)
+      .setHorizontalAlignment('left').setVerticalAlignment('middle');
+    tab.getRange(row, s[0], 2, s[1]).setBorder(true, true, true, true, null, null, '#ffffff', SpreadsheetApp.BorderStyle.SOLID_THICK);
+  });
+  D.cardRows.forEach(function (row) {
+    tab.setRowHeight(row, 24);
+    tab.setRowHeight(row + 1, 46);
+    tab.setRowHeight(row + 2, 10);
+  });
+
+  const col = function (letter, from, to) { return tab.getRange(letter + from + ':' + letter + to); };
+  const base = function (builder, row, column, offsetX, title) {
+    return builder.setNumHeaders(1)
+      .setPosition(row, column, offsetX, 0)
+      .setOption('title', title)
+      .setOption('titleTextStyle', { color: OV.bar, fontSize: 14, bold: true })
+      .setOption('legend', { position: 'bottom' })
+      .setOption('backgroundColor', '#ffffff')
+      .setOption('width', D.chartW)
+      .setOption('height', D.chartH);
+  };
+  const m = function (letter) { return col(letter, at.monthHead, at.last); };   // header + months, not the Year row
+
+  tab.insertChart(base(tab.newChart().asColumnChart(), D.chartRows[0], 1, 0, 'Bookings and travellers per month')
+    .addRange(m('A')).addRange(m('B')).addRange(m('C'))
+    .setOption('colors', [OV.bar, '#8e7cc3'])
+    .build());
+  // setStacked is a column-builder method, so it goes before the generic ones
+  // (their documented return type is the plain EmbeddedChartBuilder).
+  tab.insertChart(base(tab.newChart().asColumnChart().setStacked(), D.chartRows[0], 4, 10, 'Money per month: deposits taken and balance to collect (€)')
+    .addRange(m('A')).addRange(m('D')).addRange(m('E'))
+    .setOption('colors', ['#6aa84f', '#f1c232'])
+    .setOption('vAxis', { format: OVERVIEW_EURO0 })
+    .build());
+  tab.insertChart(base(tab.newChart().asPieChart(), D.chartRows[1], 1, 0, 'Payment status (number of bookings)')
+    .addRange(col('A', at.statusHead, at.statusLast)).addRange(col('B', at.statusHead, at.statusLast))
+    .setOption('pieHole', 0.5)
+    .setOption('colors', OVERVIEW_STATUS_COLOURS)
+    .setOption('legend', { position: 'right' })
+    .build());
+  tab.insertChart(base(tab.newChart().asPieChart(), D.chartRows[1], 4, 10, 'What was booked: share of the money, by kind of tour')
+    .addRange(col('A', at.familyHead, at.familyLast)).addRange(col('D', at.familyHead, at.familyLast))
+    .setOption('pieHole', 0.5)
+    .setOption('colors', OVERVIEW_FAMILY_COLOURS)
+    .setOption('legend', { position: 'right' })
+    .build());
 }
 
 /** The owner's empty tab (or the overview it already holds). Refuses anything else. */

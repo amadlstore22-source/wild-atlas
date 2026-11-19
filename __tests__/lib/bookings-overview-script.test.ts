@@ -40,6 +40,25 @@ class Range {
   setBackground() { return this; } setFontWeight() { return this; } setFontColor() { return this; }
   setFontStyle() { return this; } setFontSize() { return this; } setNumberFormat() { return this; }
   setHorizontalAlignment() { return this; } setWrap() { return this; } setBorder() { return this; }
+  setVerticalAlignment() { return this; }
+  merge() { this.sh.merges.push(`${this.r},${this.c},${this.nr},${this.nc}`); return this; }
+  breakApart() { this.sh.merges = []; return this; }
+  label = "";
+}
+
+/** A chart builder that records what the script asked for. */
+class ChartBuilder {
+  spec: { type: string; ranges: string[]; options: Record<string, unknown>; headers?: number; stacked?: boolean; row?: number; col?: number } =
+    { type: "", ranges: [], options: {} };
+  constructor(private sh: Sheet) {}
+  asColumnChart() { this.spec.type = "column"; return this; }
+  asPieChart() { this.spec.type = "pie"; return this; }
+  setStacked() { this.spec.stacked = true; return this; }
+  setNumHeaders(n: number) { this.spec.headers = n; return this; }
+  setPosition(r: number, c: number) { this.spec.row = r; this.spec.col = c; return this; }
+  setOption(k: string, v: unknown) { this.spec.options[k] = v; return this; }
+  addRange(r: Range | string) { this.spec.ranges.push(typeof r === "string" ? r : r.label); return this; }
+  build() { return this.spec; }
 }
 
 class Sheet {
@@ -53,7 +72,19 @@ class Sheet {
   }
   getName() { return this.name; }
   setName(n: string) { this.name = n; return this; }
-  getRange(r: number, c: number, nr = 1, nc = 1) { return new Range(this, r, c, nr, nc); }
+  merges: string[] = [];
+  charts: ChartBuilder["spec"][] = [];
+  getRange(r: number | string, c = 1, nr = 1, nc = 1) {
+    if (typeof r === "string") { const x = new Range(this, 1, 1); x.label = r; return x; }   // "A57:A61" — charts only
+    return new Range(this, r, c, nr, nc);
+  }
+  getMaxRows() { return Math.max(this.grid.length, 1000); }
+  getMaxColumns() { return 26; }
+  setRowHeights() {} setRowHeight() {} setHiddenGridlines() {}
+  getCharts() { return this.charts.slice(); }
+  removeChart(c: ChartBuilder["spec"]) { this.charts = this.charts.filter((x) => x !== c); }
+  newChart() { return new ChartBuilder(this); }
+  insertChart(c: ChartBuilder["spec"]) { this.charts.push(c); }
   getLastRow() { let l = 0; this.grid.forEach((row, i) => { if (row.some((c) => c.v !== "" || c.f !== "")) l = i + 1; }); return l; }
   getLastColumn() { let l = 0; for (const row of this.grid) row.forEach((c, i) => { if (c.v !== "" || c.f !== "") l = Math.max(l, i + 1); }); return l; }
   clear() { this.grid.forEach((row) => row.forEach((c) => { c.v = ""; c.f = ""; })); return this; }
@@ -71,7 +102,7 @@ class Spreadsheet {
 function load(ss: Spreadsheet) {
   const src = readFileSync(path.resolve(__dirname, "../../docs/apps-script-bookings-overview.gs"), "utf8");
   const ctx: Record<string, unknown> = {
-    SpreadsheetApp: { getActive: () => ss, flush: () => {}, BorderStyle: { SOLID: "solid" } },
+    SpreadsheetApp: { getActive: () => ss, flush: () => {}, BorderStyle: { SOLID: "solid", SOLID_THICK: "thick" } },
   };
   vm.createContext(ctx);
   vm.runInContext(src + "\nthis.overviewBuild = overviewBuild;", ctx);
@@ -150,6 +181,54 @@ describe("bookings26 year overview script", () => {
     expect(() => load(ss)()).toThrow(/not empty and was not written by this script/);
     expect(ss.sheets.map(snapshot)).toEqual(before);
     expect(ss.sheets.map((s) => s.name)).toContain("Sheet12");
+  });
+
+  /**
+   * 2026-11-09 the owner asked for the overview to be "a canva, not just lines,
+   * with graphs and statistics". Charts in Google Sheets are not cells: clear()
+   * does not remove them, so a re-run that forgot to remove the old ones would
+   * stack a second set on top, and a chart range that reached one row too far
+   * would draw the "Year 2026" total as if it were a thirteenth month, dwarfing
+   * every real month. Neither shows up as a wrong number anywhere.
+   */
+  it("draws four charts on its own tables, with months only (never the Year total row)", () => {
+    const ss = build();
+    load(ss)();
+    const tab = ss.sheets.find((s) => s.name === "Overview 2026")!;
+    const rowOf = (match: (c: Cell) => boolean) => tab.grid.findIndex((row) => row.length > 0 && match(row[0])) + 1;
+    const monthHead = rowOf((c) => c.v === "Month");
+    const yearRow = rowOf((c) => c.f === '="Year 2026"');
+    const statusHead = rowOf((c) => c.v === "Status");
+    const statusOther = rowOf((c) => c.f === '="Other (typed text)"');
+    const familyHead = rowOf((c) => c.v === "Kind of tour");
+    const familyOther = rowOf((c) => c.f === '="Other"');
+    expect([monthHead, yearRow, statusHead, statusOther, familyHead, familyOther].every((n) => n > 0)).toBe(true);
+
+    expect(tab.charts.length, "expected the four dashboard charts").toBe(4);
+    const [perMonth, money, status, family] = tab.charts;
+    for (const c of [perMonth, money]) {
+      expect(c.ranges.every((r) => r.endsWith(String(yearRow - 1)) && r.includes(String(monthHead)))).toBe(true);
+    }
+    expect(perMonth.ranges).toEqual([`A${monthHead}:A${yearRow - 1}`, `B${monthHead}:B${yearRow - 1}`, `C${monthHead}:C${yearRow - 1}`]);
+    expect(money.ranges).toEqual([`A${monthHead}:A${yearRow - 1}`, `D${monthHead}:D${yearRow - 1}`, `E${monthHead}:E${yearRow - 1}`]);
+    expect(money.stacked).toBe(true);
+    expect(status.ranges).toEqual([`A${statusHead}:A${statusOther}`, `B${statusHead}:B${statusOther}`]);
+    expect(family.ranges).toEqual([`A${familyHead}:A${familyOther}`, `D${familyHead}:D${familyOther}`]);
+    expect(tab.charts.every((c) => c.headers === 1)).toBe(true);
+
+    // The eight cards read the Year row, so they are live too.
+    const cardFormulas = tab.grid.slice(0, 9).flat().map((c) => c.f).filter(Boolean);
+    expect(cardFormulas.length).toBe(8);
+    expect(cardFormulas.filter((f) => f.includes(`$${yearRow}`)).length).toBe(8);
+  });
+
+  it("replaces its charts on a re-run instead of stacking a second set", () => {
+    const ss = build();
+    const run = load(ss);
+    run();
+    run();
+    run();
+    expect(ss.sheets.find((s) => s.name === "Overview 2026")!.charts.length).toBe(4);
   });
 
   it("can be re-run over its own overview", () => {

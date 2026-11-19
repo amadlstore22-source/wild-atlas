@@ -142,6 +142,20 @@ describe("invoice document", () => {
     expect(withPay).toContain("IBAN MA00 0000");
   });
 
+  it("an invoice paid in full asks for nothing", () => {
+    /**
+     * 2026-11-12: a company client asked for INV-2026-040 for the firm's
+     * accounts after the trip. The only PDF still said "Balance on arrival"
+     * with €1,626.40 owing, money already taken on the day. An accountant
+     * reading it books a debt that does not exist.
+     */
+    const html = renderInvoiceHtml({ ...BASE, depositPaid: true, paidInFull: true, balanceMethod: "Cash" });
+    expect(html).not.toContain("Balance on arrival");
+    expect(html).not.toContain("To confirm");
+    expect(html).toContain("Paid · Cash");
+    expect(html).toMatch(/Amount due[\s\S]{0,200}€0\.00/);
+  });
+
   it("marks a received deposit Paid, not To confirm", () => {
     /**
      * THE INCIDENT: Helen Crutcher's deposit arrived on 2026-09-25 and

@@ -71,6 +71,15 @@ export interface InvoiceInput {
   /** How the deposit arrived, e.g. "PayPal". Shown on the row when paid. */
   depositMethod?: string;
   /**
+   * The balance has been received too (2026-11-12, INV-2026-040: a company
+   * client's accountant needs the invoice to show the trip as paid). The
+   * balance row then reads "Paid" and an "Amount due €0.00" line closes the
+   * totals, instead of "Balance on arrival" asking for money already taken.
+   */
+  paidInFull?: boolean;
+  /** How the balance arrived, e.g. "Cash". Shown on the row when paid in full. */
+  balanceMethod?: string;
+  /**
    * Priced add-ons shown as their own rows: a quad upgrade, a private
    * transfer, an extra night. Each carries its own amount in EUR cents.
    *
@@ -467,14 +476,19 @@ export function renderInvoiceHtml(inv: InvoiceInput): string {
     ${
       t.deposit > 0
         ? row(
-            inv.depositPaid
+            inv.depositPaid || inv.paidInFull
               ? `Deposit <span class="pill ok">Paid${inv.depositMethod ? ` · ${esc(inv.depositMethod)}` : ""}</span>`
               : `Deposit <span class="pill ok">To confirm</span>`,
             eur(t.deposit),
           )
         : ""
     }
-    ${row(`Balance on arrival <span class="pill warn">Cash or bank transfer</span>`, eur(t.balance), "balance")}
+    ${
+      inv.paidInFull
+        ? row(`Balance <span class="pill ok">Paid${inv.balanceMethod ? ` · ${esc(inv.balanceMethod)}` : ""}</span>`, eur(t.balance)) +
+          row("Amount due", eur(0), "balance")
+        : row(`Balance on arrival <span class="pill warn">Cash or bank transfer</span>`, eur(t.balance), "balance")
+    }
   </div>
 
   ${

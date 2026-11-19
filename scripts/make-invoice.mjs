@@ -153,6 +153,9 @@ Optional:
   --deposit-paid            the deposit has ARRIVED; marks it Paid, not "To confirm"
   --deposit-method "PayPal" how it arrived, shown on the deposit row
   --deposit-date 2026-09-22 when it arrived
+  --paid-in-full            the BALANCE has arrived too: balance row reads Paid
+                            and the totals end "Amount due €0.00"
+  --balance-method "Cash"   how the balance was paid, shown on its row
   --standard  320           undiscounted price PER PERSON, to show a discount
   --departure 2026-09-20
   --return    2026-09-22
@@ -275,6 +278,8 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     deposit: args.deposit ? eurosToCents(args.deposit) : 0,
     depositPaid: Boolean(args["deposit-paid"]),
     depositMethod: args["deposit-method"],
+    paidInFull: Boolean(args["paid-in-full"]),
+    balanceMethod: args["balance-method"],
     depositDate: args["deposit-date"],
     extras: args.extra.length ? args.extra.map(parseExtra) : undefined,
     language: args.language,
@@ -381,7 +386,9 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
       balance: totals.balance,
       /* A paid deposit is a different state from an owed one, and the
          ledger is what the owner reads to know who still owes money. */
-      status: args["deposit-paid"]
+      status: args["paid-in-full"]
+        ? "Paid in full"
+        : args["deposit-paid"]
         ? "Deposit paid"
         : totals.deposit > 0
           ? "Deposit due"
@@ -450,7 +457,7 @@ ${missing.length ? `\nMissing: ${missing.map((m) => "--" + m).join(", ")}\n` : "
     description: inv.description,
     notes: inv.notes,
     sheet: sheetNote === "row appended",
-    status: args["deposit-paid"] ? "Deposit paid" : undefined,
+    status: args["paid-in-full"] ? "Paid in full" : args["deposit-paid"] ? "Deposit paid" : undefined,
     billTo: inv.billTo,
     /* Only ever set, never cleared: a reissue that skips bookings26 must not
        erase the record that an earlier run placed the booking there. */

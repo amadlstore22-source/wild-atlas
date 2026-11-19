@@ -206,7 +206,10 @@ if (-not $DryRun -and -not $SkipLiveCheck) {
   Write-Host "All $($toCheck.Count) serving 200." -ForegroundColor DarkGray
 }
 
-$nodeArgs = @($script, "--key", $key, "--urls", $urls)
+# --no-network-family-autoselection: Node otherwise gives each connection
+# attempt 250 ms before trying the next address, which this PC's connection to
+# Google often misses (ETIMEDOUT on IPv4 + ENETUNREACH on IPv6, 2026-11-12).
+$nodeArgs = @("--no-network-family-autoselection", $script, "--key", $key, "--urls", $urls)
 if ($DryRun)      { $nodeArgs += "--dry-run" }
 if ($Limit -gt 0) { $nodeArgs += @("--limit", $Limit) }
 if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
@@ -220,12 +223,22 @@ if ($Offset -gt 0){ $nodeArgs += @("--offset", $Offset) }
 # left the machine consumes no quota, but still got billed to the day -- which
 # is how a run of 15 real submissions reported 146/200 used.
 $captured = New-Object System.Collections.Generic.List[string]
+# Windows PowerShell 5.1 turns every stderr line of a native command into an
+# ErrorRecord under `2>&1`, and with $ErrorActionPreference = "Stop" (set at
+# the top) the FIRST one aborts the script. On 2026-11-12 the submitter's own
+# ">200 URLs" console.warn did exactly that: "node.exe : NativeCommandError",
+# nothing sent. Warnings are output here, not failures; $LASTEXITCODE below
+# still decides whether the run succeeded.
+$prevEap = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
 & node @nodeArgs 2>&1 | ForEach-Object {
   $line = [string]$_
   $captured.Add($line)
   # The marker is machine-readable bookkeeping, not output for the operator.
   if ($line -notmatch '^QUOTA_CONSUMED=') { Write-Host $line }
 }
+$submitterExit = $LASTEXITCODE
+$ErrorActionPreference = $prevEap
 
 # Record the run so the next invocation today knows the remaining quota.
 # Counts what was ATTEMPTED, not what succeeded: a 429 still consumes nothing,
@@ -238,7 +251,6 @@ $captured = New-Object System.Collections.Generic.List[string]
 # Exit code 0 means the submitter completed and printed its own tally; anything
 # else means we cannot know what went out, and the safe assumption for a
 # CONNECTION failure is that nothing did.
-$submitterExit = $LASTEXITCODE
 if (-not $DryRun -and $submitterExit -eq 0) {
   # Prefer the submitter's own count of requests that reached Google.
   # Fall back to the batch size only if the marker is missing (older script).

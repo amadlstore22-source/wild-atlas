@@ -103,14 +103,28 @@ async function getAccessToken() {
   const signature = b64url(signer.sign(sa.private_key));
   const jwt = `${signingInput}.${signature}`;
 
-  const res = await fetch(sa.token_uri || "https://oauth2.googleapis.com/token", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({
-      grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
-      assertion: jwt,
-    }),
-  });
+  // This PC's connection to Google drops the odd connect (ETIMEDOUT to
+  // oauth2.googleapis.com, 2026-11-12) while the per-URL calls below already
+  // retry. The token request had no retry, so one dropped connect killed a
+  // 200-URL batch before it sent anything. Retry it the same way.
+  let res;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      res = await fetch(sa.token_uri || "https://oauth2.googleapis.com/token", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
+          assertion: jwt,
+        }),
+      });
+      break;
+    } catch (e) {
+      if (attempt >= 6) throw e;
+      console.log(`  token request failed (${e.cause?.code || e.message}), retry ${attempt}/5...`);
+      await new Promise((r) => setTimeout(r, 3000 * attempt));
+    }
+  }
   if (!res.ok) {
     throw new Error(`Token exchange failed: ${res.status} ${await res.text()}`);
   }

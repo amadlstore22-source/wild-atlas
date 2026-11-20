@@ -3,6 +3,8 @@ import { Envelope, Phone, MapPin, PersonSimpleBike, ArrowUpRight } from "@phosph
 import { SITE, SOCIAL, TRIPADVISOR, SISTER_SITE } from "@/lib/constants";
 import { marketsIn, marketPath } from "@/lib/markets";
 import { STATS } from "@/lib/stats";
+import { tourSlugFor } from "@/lib/tours-i18n";
+import { destinationsFor } from "@/lib/destinations-i18n";
 import NewsletterForm from "@/components/ui/NewsletterForm";
 import TripAdvisorBadge from "@/components/ui/TripAdvisorBadge";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
@@ -22,15 +24,6 @@ const SOCIAL_ICONS = [
     ),
   },
   {
-    href: SOCIAL.facebook,
-    label: "Facebook",
-    svg: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-      </svg>
-    ),
-  },
-  {
     href: `https://wa.me/${SITE.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20tour`,
     label: "WhatsApp",
     svg: (
@@ -41,32 +34,172 @@ const SOCIAL_ICONS = [
   },
 ];
 
+// Localised copy for the footer's static elements so non-English pages do not
+// carry an English boilerplate block at the bottom of all 1,000+ translated URLs.
+const FOOTER_COPY: Record<Locale, {
+  avgRating: string;
+  happyTravellers: string;
+  licensedSince: string;
+  certifiedGuides: string;
+  openDaily: string;
+  languagesSpoken: string;
+  cookies: string;
+  faq: string;
+  sisterLabel: string;
+  sisterBlurb: string;
+  visitSite: string;
+  newsletterNote: string;
+  flagshipTours: { slug: string; label: string }[];
+}> = {
+  en: {
+    avgRating: "average rating",
+    happyTravellers: "happy travellers",
+    licensedSince: `Licensed tour operator since ${SITE.foundedYear}`,
+    certifiedGuides: "Certified Berber guides",
+    openDaily: "Open daily, 08:00 to 20:00",
+    languagesSpoken: "English · French · Arabic · Spanish",
+    cookies: "Cookie Policy",
+    faq: "FAQ",
+    sisterLabel: "Sister brand",
+    sisterBlurb: SISTER_SITE.blurb,
+    visitSite: "Visit site",
+    newsletterNote: "No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "3-Day Sahara Tour (Merzouga)" },
+      { slug: "toubkal-summit-trek-4day", label: "4-Day Toubkal Summit Trek" },
+      { slug: "toubkal-summit-2day-marrakech", label: "2-Day Toubkal Express" },
+      { slug: "marrakech-imperial-cities-5day", label: "5-Day Imperial Cities Tour" },
+    ],
+  },
+  fr: {
+    avgRating: "note moyenne",
+    happyTravellers: "voyageurs satisfaits",
+    licensedSince: `Agence agréée depuis ${SITE.foundedYear}`,
+    certifiedGuides: "Guides berbères certifiés",
+    openDaily: "Ouvert tous les jours, 08h00 à 20h00",
+    languagesSpoken: "Français · Anglais · Arabe · Espagnol",
+    cookies: "Politique de cookies",
+    faq: "FAQ",
+    sisterLabel: "Marque sœur",
+    sisterBlurb: "Circuits guidés à VTT, vélo électrique et gravel dans le Haut Atlas",
+    visitSite: "Visiter le site",
+    newsletterNote: "Pas de spam. Conseils de voyage et offres occasionnelles. Désinscription à tout moment.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "Circuit Sahara 3 jours (Merzouga)" },
+      { slug: "toubkal-summit-trek-4day", label: "Trek Toubkal 4 jours" },
+      { slug: "toubkal-summit-2day-marrakech", label: "Toubkal Express 2 jours" },
+      { slug: "marrakech-imperial-cities-5day", label: "Villes impériales 5 jours" },
+    ],
+  },
+  es: {
+    avgRating: "valoración media",
+    happyTravellers: "viajeros satisfechos",
+    licensedSince: `Operador con licencia desde ${SITE.foundedYear}`,
+    certifiedGuides: "Guías bereberes certificados",
+    openDaily: "Abierto todos los días, 08:00 a 20:00",
+    languagesSpoken: "Español · Inglés · Francés · Árabe",
+    cookies: "Política de cookies",
+    faq: "Preguntas frecuentes",
+    sisterLabel: "Marca hermana",
+    sisterBlurb: "Rutas guiadas en BTT, bicicleta eléctrica y gravel por el Alto Atlas",
+    visitSite: "Visitar sitio",
+    newsletterNote: "Sin spam. Consejos de viaje y ofertas ocasionales. Baja en cualquier momento.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "Tour Sáhara 3 días (Merzouga)" },
+      { slug: "toubkal-summit-trek-4day", label: "Trek Toubkal 4 días" },
+      { slug: "toubkal-summit-2day-marrakech", label: "Toubkal Express 2 días" },
+      { slug: "marrakech-imperial-cities-5day", label: "Ciudades Imperiales 5 días" },
+    ],
+  },
+  de: {
+    avgRating: "Durchschnittsbewertung",
+    happyTravellers: "zufriedene Reisende",
+    licensedSince: `Lizenzierter Reiseveranstalter seit ${SITE.foundedYear}`,
+    certifiedGuides: "Zertifizierte Berber-Guides",
+    openDaily: "Täglich geöffnet, 08:00 bis 20:00",
+    languagesSpoken: "Englisch · Französisch · Arabisch · Spanisch",
+    cookies: "Cookie-Richtlinie",
+    faq: "FAQ",
+    sisterLabel: "Schwestermarke",
+    sisterBlurb: "Geführte Mountainbike-, E-Bike- und Gravel-Touren im Hohen Atlas",
+    visitSite: "Website besuchen",
+    newsletterNote: "Kein Spam. Gelegentliche Reisetipps und Angebote. Jederzeit abmeldbar.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "3-Tage Sahara-Tour (Merzouga)" },
+      { slug: "toubkal-summit-trek-4day", label: "4-Tage Toubkal-Gipfeltrek" },
+      { slug: "toubkal-summit-2day-marrakech", label: "2-Tage Toubkal Express" },
+      { slug: "marrakech-imperial-cities-5day", label: "5-Tage Königsstädte-Tour" },
+    ],
+  },
+  it: {
+    avgRating: "valutazione media",
+    happyTravellers: "viaggiatori soddisfatti",
+    licensedSince: `Tour operator autorizzato dal ${SITE.foundedYear}`,
+    certifiedGuides: "Guide berbere certificate",
+    openDaily: "Aperto tutti i giorni, 08:00 – 20:00",
+    languagesSpoken: "Inglese · Francese · Arabo · Spagnolo",
+    cookies: "Cookie Policy",
+    faq: "FAQ",
+    sisterLabel: "Brand gemello",
+    sisterBlurb: "Tour guidati in mountain bike, e-bike e gravel nell'Alto Atlante",
+    visitSite: "Visita il sito",
+    newsletterNote: "Nessuno spam. Consigli di viaggio e offerte occasionali. Disiscrizione in qualsiasi momento.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "Tour Sahara 3 giorni (Merzouga)" },
+      { slug: "toubkal-summit-trek-4day", label: "Trekking Toubkal 4 giorni" },
+      { slug: "toubkal-summit-2day-marrakech", label: "Toubkal Express 2 giorni" },
+      { slug: "marrakech-imperial-cities-5day", label: "Città Imperiali 5 giorni" },
+    ],
+  },
+  ar: {
+    avgRating: "متوسط التقييم",
+    happyTravellers: "مسافر سعيد",
+    licensedSince: `شركة سياحية مرخّصة منذ ${SITE.foundedYear}`,
+    certifiedGuides: "مرشدون أمازيغ معتمدون",
+    openDaily: "مفتوح يومياً من 08:00 إلى 20:00",
+    languagesSpoken: "العربية · الإنجليزية · الفرنسية · الإسبانية",
+    cookies: "سياسة ملفات الارتباط",
+    faq: "الأسئلة الشائعة",
+    sisterLabel: "علامة شقيقة",
+    sisterBlurb: "جولات موجّهة بالدراجات الجبلية والكهربائية في جبال الأطلس الكبير",
+    visitSite: "زيارة الموقع",
+    newsletterNote: "بلا رسائل مزعجة. نصائح سفر وعروض من حين لآخر. يمكنك إلغاء الاشتراك في أي وقت.",
+    flagshipTours: [
+      { slug: "sahara-3day-marrakech", label: "رحلة الصحراء 3 أيام (مرزوكة)" },
+      { slug: "toubkal-summit-trek-4day", label: "رحلة قمة توبقال 4 أيام" },
+      { slug: "toubkal-summit-2day-marrakech", label: "توبقال السريعة يومان" },
+      { slug: "marrakech-imperial-cities-5day", label: "المدن الإمبراطورية 5 أيام" },
+    ],
+  },
+};
+
 interface Props {
   lang: Locale;
   dict: Dictionary;
 }
 
 export default function Footer({ lang, dict }: Props) {
+  const copy = FOOTER_COPY[lang] ?? FOOTER_COPY.en;
+
+  // Categories plus our 4 flagship money tours (canonical localised URLs).
+  // Previously the bottom 3 slots linked to `/tours?origin=...`, which are
+  // deliberately `noindex` filter pages — wasting Googlebot crawl budget on
+  // every page of the site while giving flagship tours zero footer links.
   const ADVENTURES = [
     { label: dict.categories.trekking, href: `/${lang}/categories/trekking` },
     { label: dict.categories.desertTours, href: `/${lang}/categories/desert` },
     { label: dict.categories.dayTours, href: `/${lang}/categories/day-tours` },
     { label: dict.categories.culturalTours, href: `/${lang}/categories/cultural` },
-    { label: dict.hero.fromMarrakech, href: `/${lang}/tours?origin=marrakech` },
-    { label: dict.hero.fromAgadir, href: `/${lang}/tours?origin=agadir` },
-    { label: dict.hero.fromCasablanca, href: `/${lang}/tours?origin=casablanca` },
+    ...copy.flagshipTours.map((t) => ({
+      label: t.label,
+      href: `/${lang}/tours/${tourSlugFor(lang, t.slug)}`,
+    })),
   ];
 
-  const DESTINATIONS_LINKS = [
-    { label: "Marrakech", href: `/${lang}/destinations/marrakech` },
-    { label: "Jbel Toubkal", href: `/${lang}/destinations/high-atlas` },
-    { label: "Sahara Desert", href: `/${lang}/destinations/sahara` },
-    { label: "Fes el-Bali", href: `/${lang}/destinations/fes` },
-    { label: "Chefchaouen", href: `/${lang}/destinations/chefchaouen` },
-    { label: "Agadir", href: `/${lang}/destinations/agadir` },
-    { label: "Ouzoud Falls", href: `/${lang}/destinations/ouzoud` },
-    { label: "Essaouira", href: `/${lang}/destinations/essaouira` },
-  ];
+  const DESTINATIONS_LINKS = destinationsFor(lang).map((d) => ({
+    label: d.name,
+    href: `/${lang}/destinations/${d.slug}`,
+  }));
 
   const COMPANY = [
     { label: dict.nav.about, href: `/${lang}/about` },
@@ -76,10 +209,10 @@ export default function Footer({ lang, dict }: Props) {
     { label: dict.nav.contact, href: `/${lang}/contact` },
     // This locale's "Morocco from <country>" page, if it has one (not /ar).
     ...marketsIn(lang).map((m) => ({ label: m.footerLabel, href: marketPath(m) })),
-    { label: "FAQ", href: `/${lang}/contact#faq` },
-    { label: "Privacy Policy", href: `/${lang}/privacy` },
-    { label: "Terms & Conditions", href: `/${lang}/terms` },
-    { label: "Cookie Policy", href: `/${lang}/cookies` },
+    { label: copy.faq, href: `/${lang}/contact#faq` },
+    { label: dict.footer.privacy, href: `/${lang}/privacy` },
+    { label: dict.footer.terms, href: `/${lang}/terms` },
+    { label: copy.cookies, href: `/${lang}/cookies` },
   ];
 
   return (
@@ -93,14 +226,14 @@ export default function Footer({ lang, dict }: Props) {
             <div className="flex flex-wrap items-center gap-5">
               <span className="flex items-center gap-1.5">
                 <span className="text-brass-glow">★★★★★</span>
-                <span>{TRIPADVISOR.rating.toFixed(1)} average rating</span>
+                <span>{TRIPADVISOR.rating.toFixed(1)} {copy.avgRating}</span>
               </span>
               <span className="hidden sm:block text-cream/25">·</span>
-              <span>{STATS.travellers} happy travellers</span>
+              <span>{STATS.travellers} {copy.happyTravellers}</span>
               <span className="hidden sm:block text-cream/25">·</span>
-              <span>Licensed tour operator since {SITE.foundedYear}</span>
+              <span>{copy.licensedSince}</span>
               <span className="hidden sm:block text-cream/25">·</span>
-              <span>Certified Berber guides</span>
+              <span>{copy.certifiedGuides}</span>
             </div>
             <span className="text-cream/65 hidden md:block">{SITE.addressShort}</span>
           </div>
@@ -137,7 +270,7 @@ export default function Footer({ lang, dict }: Props) {
             </div>
             <div className="flex items-start gap-2 text-xs text-cream/60">
               <MapPin className="w-3.5 h-3.5 text-brass-glow shrink-0 mt-0.5" />
-              <span>{SITE.addressShort}<br />Open daily, 08:00 to 20:00</span>
+              <span>{SITE.addressShort}<br />{copy.openDaily}</span>
             </div>
             <TripAdvisorBadge variant="dark" className="mt-5" />
           </div>
@@ -196,7 +329,7 @@ export default function Footer({ lang, dict }: Props) {
                   <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 shrink-0 text-[#25D366]">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                   </svg>
-                  Chat on WhatsApp
+                  {dict.destinationsPage.chatOnWhatsapp}
                 </WhatsAppLink>
               </li>
               <li>
@@ -225,7 +358,7 @@ export default function Footer({ lang, dict }: Props) {
               </li>
               <li className="pt-1 text-cream/60 text-xs leading-relaxed">
                 {dict.contact.responseValue}<br />
-                English · French · Arabic · Spanish
+                {copy.languagesSpoken}
               </li>
             </ul>
           </div>
@@ -244,12 +377,12 @@ export default function Footer({ lang, dict }: Props) {
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-1.5">
               <span className="text-cream text-sm sm:text-base font-semibold leading-tight">{SISTER_SITE.name}</span>
-              <span className="text-cream/60 micro-text uppercase tracking-wider border border-cream/20 rounded-[2px] px-1.5 py-0.5 hidden sm:inline">Sister brand</span>
+              <span className="text-cream/60 micro-text uppercase tracking-wider border border-cream/20 rounded-[2px] px-1.5 py-0.5 hidden sm:inline">{copy.sisterLabel}</span>
             </div>
-            <p className="text-cream/60 text-xs sm:text-sm leading-snug mt-0.5">{SISTER_SITE.blurb}</p>
+            <p className="text-cream/60 text-xs sm:text-sm leading-snug mt-0.5">{copy.sisterBlurb}</p>
           </div>
           <span className="flex items-center gap-1.5 text-brass-glow text-xs font-semibold shrink-0">
-            <span className="hidden sm:inline">Visit site</span>
+            <span className="hidden sm:inline">{copy.visitSite}</span>
             <ArrowUpRight className="w-4 h-4 arrow-go" weight="bold" />
           </span>
         </a>
@@ -258,7 +391,7 @@ export default function Footer({ lang, dict }: Props) {
         <div className="border-t border-brass/15 pt-10 pb-8 grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6">
           <div>
             <p className="text-cream text-sm font-semibold">{dict.footer.newsletter}</p>
-            <p className="text-cream/60 text-xs mt-0.5">No spam. Occasional travel tips and exclusive offers. Unsubscribe anytime.</p>
+            <p className="text-cream/60 text-xs mt-0.5">{copy.newsletterNote}</p>
           </div>
           <div className="sm:min-w-[340px]">
             <NewsletterForm
@@ -277,7 +410,7 @@ export default function Footer({ lang, dict }: Props) {
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href={`/${lang}/privacy`} className="hover:text-brass-glow transition-colors">{dict.footer.privacy}</Link>
             <Link href={`/${lang}/terms`} className="hover:text-brass-glow transition-colors">{dict.footer.terms}</Link>
-            <Link href={`/${lang}/cookies`} className="hover:text-brass-glow transition-colors">Cookies</Link>
+            <Link href={`/${lang}/cookies`} className="hover:text-brass-glow transition-colors">{copy.cookies}</Link>
             <a href={`mailto:${SITE.email}`} className="hover:text-brass-glow transition-colors">{dict.footer.contact}</a>
             <a href={PREFERRED_SOURCE_URL} target="_blank" rel="noopener" className="hover:text-brass-glow transition-colors">{dict.footer.preferredSource}</a>
           </div>

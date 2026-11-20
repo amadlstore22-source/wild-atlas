@@ -9,7 +9,8 @@ import { blogPostsFor, getBlogPostFor, blogRegionsFor, blogSlugFor, blogPostSeo 
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
-import { buildFaqSchema } from "@/lib/seo/schema";
+import { buildFaqSchema, absoluteUrl } from "@/lib/seo/schema";
+import { selectRelatedPosts } from "@/lib/blog-related";
 import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
@@ -127,15 +128,18 @@ export default async function BlogPostPage({ params }: BlogParams) {
   const dict = await getDictionary(lang);
   const regions = blogRegionsFor(lang);
 
-  const postIndex = posts.findIndex((p) => p.slug === slug);
+  // Match on post.slug (the canonical English key), never the incoming route
+  // `slug` param: on FR/ES/DE/IT localized URLs, `slug` is the translated
+  // segment while `posts[i].slug` is the English key, so comparing against
+  // `slug` returned -1 on all 204 localized posts (dropping prev and pinning
+  // next to posts[0]).
+  const postIndex = posts.findIndex((p) => p.slug === post.slug);
   const prev = postIndex > 0 ? posts[postIndex - 1] : null;
-  const next = postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
+  const next = postIndex >= 0 && postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
 
-  const relatedPosts = posts.filter(
-    (p) => p.slug !== slug && (p.category === post.category || p.tags.some((t) => post.tags.includes(t)))
-  ).slice(0, 3);
+  const relatedPosts = selectRelatedPosts(posts, post, 3);
 
-  const postUrl = `https://marrakechecotours.com/${lang}/blog/${slug}`;
+  const postUrl = `https://marrakechecotours.com/${lang}/blog/${blogSlugFor(lang, post.slug)}`;
   const publisher = {
     "@type": "Organization",
     "@id": "https://marrakechecotours.com/#organization",
@@ -159,7 +163,9 @@ export default async function BlogPostPage({ params }: BlogParams) {
       url: postUrl,
       headline: post.title.slice(0, 110),
       description: post.seoDescription ?? post.excerpt,
-      image: { "@type": "ImageObject", url: post.heroImage },
+      // Absolute URL: JSON-LD has no base URL, so a relative /gallery/... path
+      // resolves against schema.org and Google drops the article image.
+      image: { "@type": "ImageObject", url: absoluteUrl(post.heroImage) },
       datePublished: post.publishedAt,
       dateModified: post.updatedAt ?? post.publishedAt,
       inLanguage: lang,
@@ -187,8 +193,8 @@ export default async function BlogPostPage({ params }: BlogParams) {
       "@type": "BreadcrumbList",
       "@id": `${postUrl}#breadcrumb`,
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: `https://marrakechecotours.com/${lang}` },
-        { "@type": "ListItem", position: 2, name: "Blog", item: `https://marrakechecotours.com/${lang}/blog` },
+        { "@type": "ListItem", position: 1, name: dict.common.home, item: `https://marrakechecotours.com/${lang}` },
+        { "@type": "ListItem", position: 2, name: dict.nav.blog, item: `https://marrakechecotours.com/${lang}/blog` },
         { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
       ],
     },

@@ -87,10 +87,11 @@ export const SITE = {
   heroPoster: "/gallery/imlil-valley-high-atlas-hero.jpg",
 } as const;
 
+// Only active social profiles belong here. Owner confirmed 2026-11-20 that
+// Facebook and YouTube are inactive — dead profiles must not appear in footer
+// links or Organization `sameAs`.
 export const SOCIAL = {
   instagram: "https://www.instagram.com/marrakechecotours/",
-  facebook: "https://facebook.com/marrakechecotours",
-  youtube: "https://youtube.com/@marrakechecotours",
 } as const;
 
 /**

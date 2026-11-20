@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { absoluteUrl } from "@/lib/seo/schema";
+import { absoluteUrl, breadcrumbDocument } from "@/lib/seo/schema";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -135,11 +135,18 @@ export default async function DestinationPage({ params }: PageParams) {
     })),
   };
 
+  const breadcrumbJsonLd = breadcrumbDocument([
+    { name: d.home, path: `/${lang}` },
+    { name: d.destinationsCrumb, path: `/${lang}/destinations` },
+    { name: destination.name, path: `/${lang}/destinations/${dest}` },
+  ]);
+
   const locale = lang as Locale;
 
   return (
     <>
       <JsonLd data={jsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
       {destination.faqs.length > 0 && (
         <JsonLd data={faqJsonLd} />
       )}
@@ -152,7 +159,8 @@ export default async function DestinationPage({ params }: PageParams) {
             alt={`${destination.name} — ${destination.subtitle}`}
             fill
             className="object-cover"
-            priority
+            fetchPriority="high"
+            loading="eager"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/88 via-indigo-deep/30 to-indigo-deep/15" />

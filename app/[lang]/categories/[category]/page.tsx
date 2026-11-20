@@ -11,7 +11,7 @@ import { getDictionary, hasLocale } from "../../dictionaries";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
-import { CATEGORY_FAQ } from "@/lib/seo/category-faq";
+import { categoryFaqFor } from "@/lib/seo/category-faq";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { ogBase } from "@/lib/seo/open-graph";
 import { categorySeoFor } from "@/lib/category-seo";
@@ -72,13 +72,13 @@ export default async function CategoryPage({ params }: CategoryParams) {
   };
 
   const breadcrumbJsonLd = breadcrumbDocument([
-    { name: "Home", path: `/${lang}` },
-    { name: "Tours", path: `/${lang}/tours` },
+    { name: dict.common.home, path: `/${lang}` },
+    { name: dict.nav.tours, path: `/${lang}/tours` },
     { name: cat.label, path: `/${lang}/categories/${cat.id}` },
   ]);
 
   // Renders below the grid as well — schema and visible copy ship together.
-  const faq = CATEGORY_FAQ[cat.id] ?? [];
+  const faq = categoryFaqFor(lang, cat.id);
 
   const toursAvailable = tours.length === 1
     ? dict.tours.toursFound.replace("{count}", String(tours.length))

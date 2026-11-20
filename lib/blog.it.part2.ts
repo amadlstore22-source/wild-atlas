@@ -2055,7 +2055,7 @@ L'inverno è quando la valle rinverdisce e le cascate rivivono dopo la pioggia: 
 - **Più tranquillo con acqua tiepida:** settembre–ottobre
 - **Più verde e fresco, più freddo:** novembre–febbraio
 
-Qualunque sia il mese, andarci con una guida locale ti evita parcheggio e orientamento e ti porta alle pozze giuste invece della prima affollata. La nostra [escursione Paradise Valley e Immouzer da Agadir](/it/tours/paradise-valley-agadir) copre esattamente questo, e puoi abbinarla a una [lezione di surf ad Agadir](/it/tours/agadir-surf-lesson) o a una [giornata nella natura a Souss-Massa](/it/tours/sous-massa-national-park) per completare il viaggio.
+Qualunque sia il mese, andarci con una guida locale ti evita parcheggio e orientamento e ti porta alle pozze giuste invece della prima affollata. La nostra [escursione in Paradise Valley da Agadir](/it/tours/paradise-valley-agadir) copre esattamente questo, e puoi abbinarla a una [lezione di surf ad Agadir](/it/tours/agadir-surf-lesson) o a una [giornata nella natura a Souss-Massa](/it/tours/sous-massa-national-park) per completare il viaggio.
 
 ## Pronto a partire?
 
@@ -2111,7 +2111,7 @@ I tuffi dalle scogliere che potresti vedere fare ai ragazzi del posto sono un'al
 
 ## Il modo facile di farlo
 
-Arrivarci significa un tragitto nell'entroterra da Agadir, parcheggio e una camminata giù nella valle, tutto semplice con una guida e più macchinoso da soli. La nostra [escursione Paradise Valley e Immouzer da Agadir](/it/tours/paradise-valley-agadir) gestisce il trasporto e ti porta alle buone pozze, e si abbina naturalmente ad altre giornate nella zona di Agadir come il [Parco Nazionale di Souss-Massa](/it/tours/sous-massa-national-park) o la città fortificata di [Taroudant](/it/tours/taroudant-day-trip-agadir).
+Arrivarci significa un tragitto nell'entroterra da Agadir, parcheggio e una camminata giù nella valle, tutto semplice con una guida e più macchinoso da soli. La nostra [escursione in Paradise Valley da Agadir](/it/tours/paradise-valley-agadir) gestisce il trasporto e ti porta alle buone pozze, e si abbina naturalmente ad altre giornate nella zona di Agadir come il [Parco Nazionale di Souss-Massa](/it/tours/sous-massa-national-park) o la città fortificata di [Taroudant](/it/tours/taroudant-day-trip-agadir).
 
 ## Pronto per una nuotata?
 
@@ -2157,7 +2157,7 @@ La Paradise Valley si trova a circa **60 km a nord-est di Agadir**, vicino al vi
 
 **In grand taxi.** Più economico a posto ma meno flessibile, e dovrai comunque organizzare la camminata di andata e ritorno secondo i tuoi tempi.
 
-**In tour organizzato.** L'opzione più semplice: trasporto porta a porta da Agadir, una guida che ti porta alle buone pozze invece della prima affollata, e nessuna guida o orientamento di cui preoccuparti. La nostra [escursione Paradise Valley e Immouzer da Agadir](/it/tours/paradise-valley-agadir) è pensata esattamente per questo.
+**In tour organizzato.** L'opzione più semplice: trasporto porta a porta da Agadir, una guida che ti porta alle buone pozze invece della prima affollata, e nessuna guida o orientamento di cui preoccuparti. La nostra [escursione in Paradise Valley da Agadir](/it/tours/paradise-valley-agadir) è pensata esattamente per questo.
 
 ## Farne una giornata
 
@@ -5458,11 +5458,11 @@ Sono quattro giorni perché non possono essere meno. Lo stesso deserto da Marrak
 
 Torni stanco e usi i giorni rimasti vicino alla base:
 
-- [Paradise Valley e Immouzer](/it/tours/paradise-valley-agadir-giornata), 38 EUR a persona per due: gole di palme e piscine naturali, a 35 km
+- [Paradise Valley](/it/tours/paradise-valley-agadir-giornata), 70 EUR a persona per due: gole di palme e piscine naturali, a 35 km
 - [Taroudant](/it/tours/gita-taroudant-agadir), 125 EUR a persona per due: la città murata e il suo mercato, molto più tranquilla di Marrakech
 - Una giornata a non fare assolutamente nulla in spiaggia, che dopo quattro giorni di strada nel deserto non è una giornata sprecata
 
-**Totale settimana, due viaggiatori: circa 682 EUR a persona** per i tour, più il tuo alloggio ad Agadir nei giorni liberi.
+**Totale settimana, due viaggiatori: circa 714 EUR a persona** per i tour, più il tuo alloggio ad Agadir nei giorni liberi.
 
 ## Opzione 2: la settimana imperiale
 
@@ -5474,7 +5474,7 @@ Marrakech, Meknes, Fes e Rabat in sei giorni, con rientro sulla costa. Attravers
 
 Senza illusioni: è una settimana di strada. Sei giorni per quattro città sparse nel paese significano partenze presto e trasferimenti lunghi. È il viaggio giusto per chi vuole ampiezza, e quello sbagliato per chi vuole sedersi in un riad a leggere.
 
-**Giorno 7 — recupera sulla costa**, oppure aggiungi [Paradise Valley](/it/tours/paradise-valley-agadir-giornata) a 38 EUR a testa se hai ancora energia.
+**Giorno 7 — recupera sulla costa**, oppure aggiungi [Paradise Valley](/it/tours/paradise-valley-agadir-giornata) a 70 EUR a testa se hai ancora energia.
 
 Se Chefchaouen ti interessa più di vedere tutte e quattro le capitali, il nostro [tour di 5 giorni da Agadir a Chefchaouen](/it/tours/agadir-chefchaouen-5-giorni) costa 386 EUR a persona per due e ti lascia due giorni liberi.
 
@@ -5482,14 +5482,14 @@ Se Chefchaouen ti interessa più di vedere tutte e quattro le capitali, il nostr
 
 L'opzione senza fretta, e quella che consigliamo sottovoce a chi viaggia con bambini piccoli o semplicemente non ama i lunghi trasferimenti.
 
-- **Giorno 1** — [Paradise Valley e Immouzer](/it/tours/paradise-valley-agadir-giornata), 38 EUR a testa
+- **Giorno 1** — [Paradise Valley](/it/tours/paradise-valley-agadir-giornata), 70 EUR a testa
 - **Giorno 2** — [Taroudant](/it/tours/gita-taroudant-agadir), 125 EUR a testa
 - **Giorno 3** — spiaggia e souk di Agadir
 - **Giorni 4 e 5** — [trekking nell'Anti-Atlante](/it/tours/trek-anti-atlante-agadir), 525 EUR a persona per due, tra il granito di Tafraoute e le valli dei mandorli
 - **Giorno 6** — [Essaouira](/it/tours/gita-essaouira-agadir), 39 EUR a testa, la ventosa città atlantica dalle barche azzurre
 - **Giorno 7** — riposo, oppure il [parco nazionale di Souss-Massa](/it/tours/parco-nazionale-souss-massa) a 88 EUR a testa, per l'ibis eremita e la foce del fiume
 
-**Totale settimana, due viaggiatori: circa 815 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
+**Totale settimana, due viaggiatori: circa 847 EUR a persona**, e nessuna giornata richiede più di due ore circa di strada.
 
 ## I trasferimenti, onestamente
 
@@ -8102,20 +8102,20 @@ Per il resto del viaggio, dai seggiolini auto ai bambini schizzinosi a tavola, l
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un'escursione a Paradise Valley da Agadir?",
     excerpt:
-      "Un'escursione privata a Paradise Valley da Agadir costa 38 € a persona in due e 22 € in sei. Ecco il costo completo: trasporto, guida e cosa include davvero la giornata.",
+      "Un'escursione privata a Paradise Valley da Agadir costa 70 € a persona in due e 54 € in sei. Ecco il costo completo: trasporto, guida e cosa include davvero la giornata.",
     heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 7,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-10-03",
-    tags: ["prezzo Paradise Valley", "costo Paradise Valley", "prezzo escursione Agadir", "Paradise Valley Agadir", "cascate di Imouzzer"],
+    updatedAt: "2026-11-20",
+    tags: ["prezzo Paradise Valley", "costo Paradise Valley", "prezzo escursione Agadir", "Paradise Valley Agadir", "escursione Paradise Valley"],
     seoTitle: "Paradise Valley da Agadir: prezzi",
     seoDescription:
-      "Quanto costa un'escursione a Paradise Valley da Agadir: 38 € a persona in due, 22 € in sei. Trasporto, guida e deviazione a Imouzzer nel dettaglio.",
+      "Quanto costa un'escursione a Paradise Valley da Agadir: 70 € a persona in due, 54 € in sei. Trasporto, guida e cosa include la giornata nel dettaglio.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
     faq: [
-      { q: "Quanto costa un'escursione a Paradise Valley da Agadir?", a: "La nostra escursione privata costa 38 € a persona se viaggiate in due, 27 € in quattro e 22 € in sei. Da soli costa 75 €, perché una sola persona sostiene tutto il costo del veicolo e dell'autista-guida invece di dividerlo. Il prezzo include il trasporto andata e ritorno dal vostro hotel di Agadir o Taghazout, un autista-guida e la salita verso Imouzzer quando il livello dell'acqua ne vale la pena." },
+      { q: "Quanto costa un'escursione a Paradise Valley da Agadir?", a: "La nostra escursione privata costa 70 € a persona se viaggiate in due, 59 € in quattro e 54 € in sei. Da soli costa 105 €, perché una sola persona sostiene tutto il costo del veicolo e dell'autista-guida invece di dividerlo. Il prezzo include il trasporto andata e ritorno dal vostro hotel di Agadir o Taghazout e un autista-guida che sa quali pozze hanno acqua quella settimana." },
       { q: "L'ingresso a Paradise Valley è gratuito?", a: "Sì. Paradise Valley è una gola fluviale naturale, non un'attrazione a pagamento, quindi non c'è biglietto d'ingresso né tassa del parco. In un'escursione pagate il trasferimento di 35 km da Agadir, l'autista-guida e il fatto di sapere quali pozze hanno davvero acqua quel giorno: la valle si abbassa da fine estate all'autunno e le pozze migliori cambiano." },
       { q: "Si può andare a Paradise Valley in taxi?", a: "Sì. Un grand taxi da Agadir si contratta intorno a 400-700 MAD andata e ritorno per il veicolo, a seconda della trattativa e di quanto lo fate aspettare. Per un gruppo di quattro o più spesso costa meno di un'escursione ed è un modo del tutto valido per andarci. Quello che perdete è una guida che conosce le pozze, e l'autista che aspetta diventa il vostro orologio." },
       { q: "Qual è il periodo migliore per Paradise Valley?", a: "Da febbraio a giugno, quando lo scioglimento delle nevi e le piogge primaverili mantengono le pozze piene e balneabili. A fine agosto l'acqua delle pozze più basse può essere poco profonda, tiepida e verde. L'inverno va bene per camminare nella gola ma fa freddo per nuotare, e dopo forti piogge la valle a volte si allaga e viene chiusa." },
@@ -8125,8 +8125,8 @@ Per il resto del viaggio, dai seggiolini auto ai bambini schizzinosi a tavola, l
 ## Quanto costa davvero Paradise Valley
 
 Prima il numero: la nostra [escursione privata a Paradise Valley](/it/tours/paradise-valley-agadir-giornata)
-costa **38 € a persona se viaggiate in due**, 27 € in quattro e **22 € in sei**.
-Da soli costa 75 €, perché una sola persona sostiene tutto il costo del veicolo e
+costa **70 € a persona se viaggiate in due**, 59 € in quattro e **54 € in sei**.
+Da soli costa 105 €, perché una sola persona sostiene tutto il costo del veicolo e
 dell'autista-guida invece di dividerlo con qualcuno.
 
 Questo è il prezzo completo. Non c'è tassa del parco, né biglietto d'ingresso, né guida
@@ -8140,13 +8140,13 @@ andata e ritorno. Costano lo stesso che in auto ci sia una persona o sei. Il pre
 
 | Dimensione del gruppo | A persona | Cosa pagate davvero |
 |---|---|---|
-| 1 | 75 € | Tutto il veicolo e la guida, da soli |
-| 2 | 38 € | Metà ciascuno |
-| 4 | 27 € | Un quarto ciascuno |
-| 6 | 22 € | Un sesto ciascuno |
+| 1 | 105 € | Tutto il veicolo e la guida, da soli |
+| 2 | 70 € | Metà ciascuno |
+| 4 | 59 € | Un quarto ciascuno |
+| 6 | 54 € | Un sesto ciascuno |
 
-Vale la pena capirlo prima di confrontare i preventivi. Un operatore che pubblicizza «da 22 €»
-sta indicando la tariffa per sei, e uno che indica 75 € forse sta dando la tariffa per una
+Vale la pena capirlo prima di confrontare i preventivi. Un operatore che pubblicizza «da 54 €»
+sta indicando la tariffa per sei, e uno che indica 105 € forse sta dando la tariffa per una
 persona per la stessa identica escursione. Il confronto onesto si fa sulla dimensione reale
 del vostro gruppo.
 
@@ -8170,7 +8170,7 @@ la settimana scorsa lo sa; una mappa no.
 ## Cosa include la giornata
 
 Il nostro prezzo copre il trasporto andata e ritorno dal vostro hotel di Agadir o Taghazout,
-l'autista-guida e la salita verso Imouzzer quando vale la pena vedere le cascate. Il pranzo
+l'autista-guida e una camminata guidata fino alle pozze che quel giorno hanno acqua. Il pranzo
 non è incluso: mangiate su una delle terrazze lungo il fiume, di solito 60-100 MAD per una
 tajine e una bibita, e lo pagate voi invece di trovarlo inserito in un pacchetto con ricarico.
 
@@ -8180,10 +8180,9 @@ il calcare levigato ai bordi delle pozze è davvero scivoloso.
 ## Vale la pena pagarla?
 
 Se siete in quattro o più e vi sentite a vostro agio a contrattare un taxi, fatelo e
-risparmiate la differenza. Se siete in due, l'escursione costa così poco di più che la guida
-è praticamente gratis. Se volete vedere anche le cascate di Imouzzer nella stessa giornata,
-prendete l'escursione: quel tratto aggiunge 40 km di strada di montagna e i tassisti lo fanno
-pagare come si deve.
+risparmiate la differenza. Da soli o in due il taxi resta più economico; quello che aggiunge l'escursione è il
+trasporto porta a porta senza contrattare e una guida che sa quali pozze hanno acqua
+quella settimana.
 
 **[Vedi l'escursione completa a Paradise Valley](/it/tours/paradise-valley-agadir-giornata)**, oppure
 leggi la nostra [guida completa a Paradise Valley](/it/blog/paradise-valley-agadir-complete-guide)

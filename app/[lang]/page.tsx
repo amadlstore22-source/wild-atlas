@@ -76,81 +76,79 @@ const PRICE_RANGE = (() => {
   return `${formatPrice(lo, "EUR")}–${formatPrice(hi, "EUR")} per person`;
 })();
 
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      // TravelAgency: Google asks for the most specific LocalBusiness subtype
-      // (developers.google.com/search/docs/appearance/structured-data/local-business).
-      // This was plain LocalBusiness only so it could carry an aggregateRating;
-      // see the note where that property used to be.
-      "@type": "TravelAgency",
-      "@id": "https://marrakechecotours.com/#organization",
-      name: "Marrakech Eco Tours",
-      url: "https://marrakechecotours.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://marrakechecotours.com/icon.png",
-        width: 512,
-        height: 512,
+function buildWebsiteJsonLd(lang: string, description: string) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        // TravelAgency: Google asks for the most specific LocalBusiness subtype
+        // (developers.google.com/search/docs/appearance/structured-data/local-business).
+        // This was plain LocalBusiness only so it could carry an aggregateRating;
+        // see the note where that property used to be.
+        "@type": "TravelAgency",
+        "@id": "https://marrakechecotours.com/#organization",
+        name: "Marrakech Eco Tours",
+        url: "https://marrakechecotours.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://marrakechecotours.com/icon.png",
+          width: 512,
+          height: 512,
+        },
+        image: "https://marrakechecotours.com/icon.png",
+        description,
+        foundingDate: "2010",
+        telephone: "+212653936003",
+        email: SITE.email,
+        address: { "@type": "PostalAddress", ...SITE.postalAddress },
+        geo: { "@type": "GeoCoordinates", ...SITE.geo },
+        // Computed from the catalogue so it cannot drift from the real prices.
+        priceRange: PRICE_RANGE,
+        areaServed: { "@type": "Country", name: "Morocco" },
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          opens: "08:00",
+          closes: "20:00",
+        },
+        sameAs: [
+          SOCIAL.instagram,
+          TRIPADVISOR.url,
+          TRUSTPILOT.url,
+          GOOGLE_PROFILE_URL,
+          /* Atlas Pedals is deliberately NOT here. `sameAs` asserts
+             "another official page of THIS organisation"; it is a separate
+             brand with its own domain and its own structured data
+             declaring its own identity, so claiming it would tell Google
+             two organisations are one. The footer link carries the
+             referral without the false claim. */
+        ],
+        /* NO aggregateRating, deliberately (removed 2026-09-28). It used to
+           quote the TripAdvisor listing's 5.0 / 122 reviews. Google's review
+           snippet guidelines rule that out twice: "Don't aggregate reviews or
+           ratings from other websites", and a LocalBusiness/Organization that
+           controls reviews about itself is "ineligible for star review
+           feature". So it could never show stars, and it carried manual-action
+           risk. The rating stays VISIBLE on the page (TripAdvisor badge), which
+           is where it earns trust; it just is not structured data. */
       },
-      image: "https://marrakechecotours.com/icon.png",
-      description: "Small-group eco-conscious tours in Morocco led by certified Berber guides. Atlas trekking, Sahara desert nights, cultural excursions. Departing from Marrakech and Agadir.",
-      foundingDate: "2010",
-      telephone: "+212653936003",
-      email: SITE.email,
-      address: { "@type": "PostalAddress", ...SITE.postalAddress },
-      geo: { "@type": "GeoCoordinates", ...SITE.geo },
-      // Computed from the catalogue so it cannot drift from the real prices.
-      priceRange: PRICE_RANGE,
-      areaServed: { "@type": "Country", name: "Morocco" },
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        opens: "08:00",
-        closes: "20:00",
+      {
+        "@type": "WebSite",
+        "@id": "https://marrakechecotours.com/#website",
+        url: `https://marrakechecotours.com/${lang}`,
+        name: "Marrakech Eco Tours",
+        inLanguage: lang,
+        publisher: { "@id": "https://marrakechecotours.com/#organization" },
       },
-      sameAs: [
-        SOCIAL.instagram,
-        "https://facebook.com/marrakechecotours",
-        TRIPADVISOR.url,
-        TRUSTPILOT.url,
-        GOOGLE_PROFILE_URL,
-        /* Atlas Pedals is deliberately NOT here. `sameAs` asserts
-           "another official page of THIS organisation"; it is a separate
-           brand with its own domain and its own structured data
-           declaring its own identity, so claiming it would tell Google
-           two organisations are one. The footer link carries the
-           referral without the false claim. */
-      ],
-      /* NO aggregateRating, deliberately (removed 2026-09-28). It used to
-         quote the TripAdvisor listing's 5.0 / 122 reviews. Google's review
-         snippet guidelines rule that out twice: "Don't aggregate reviews or
-         ratings from other websites", and a LocalBusiness/Organization that
-         controls reviews about itself is "ineligible for star review
-         feature". So it could never show stars, and it carried manual-action
-         risk. The rating stays VISIBLE on the page (TripAdvisor badge), which
-         is where it earns trust; it just is not structured data. */
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://marrakechecotours.com/#website",
-      url: "https://marrakechecotours.com",
-      name: "Marrakech Eco Tours",
-      publisher: { "@id": "https://marrakechecotours.com/#organization" },
-      potentialAction: {
-        "@type": "SearchAction",
-        target: "https://marrakechecotours.com/en/tours?q={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-  ],
-};
+    ],
+  };
+}
 
 export default async function HomePage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const websiteJsonLd = buildWebsiteJsonLd(lang, dict.seo.home.description);
 
   // Three tours with prices on the first screen. Clarity (Oct 2026) showed
   // homepage visitors scrolling ~14% of the page on mobile, so anything below

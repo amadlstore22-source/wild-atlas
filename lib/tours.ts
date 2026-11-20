@@ -304,7 +304,7 @@ export const TOURS: Tour[] = [
       { q: "What time does summit day start?", a: "Before dawn. The summit push from the refuge takes around three hours, and an early start means reaching the top for sunrise and getting down before the afternoon weather builds. It is the coldest part of the day, so the warm layer you have been carrying finally earns its place." },
     ],
     meetingPoint: { lat: 31.1369, lng: -7.9169, name: "Imlil Village, Atlas Mountains" },
-    seoTitle: "4-Day Toubkal Trek from Marrakech",
+    seoTitle: "4-Day Toubkal Summit Trek from Marrakech",
     seoDescription: "Summit Jbel Toubkal (4,167 m) with licensed Berber guides. Mule support, mountain refuges. From €456 pp for 6+. Free cancellation 14 days.",
     featured: true,
   },
@@ -427,7 +427,7 @@ export const TOURS: Tour[] = [
       { q: "Is this suitable for children?", a: "Yes, and families book it regularly. The camel ride is short and optional, the walking is minimal, and the itinerary is graded easy. The long driving days are the real consideration with young children rather than anything about the desert itself." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Private 3-Day Marrakech Desert Tour",
+    seoTitle: "3-Day Sahara Tour: Marrakech to Merzouga",
     seoDescription: "Camel trek into Erg Chebbi, overnight Berber camp, Aït Ben Haddou & Todra Gorge. Private 4x4, licensed guides. From €230 pp for 6+.",
     featured: true,
   },
@@ -831,7 +831,7 @@ export const TOURS: Tour[] = [
       { q: "What kind of accommodation is it?", a: "Two nights in a riad (a traditional courtyard guesthouse) or a hotel, depending on availability, with dinner each evening and breakfast each morning." },
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
-    seoTitle: "Private 3-Day Marrakech to Fes Desert Tour",
+    seoTitle: "Private 3-Day Marrakech to Fes Tour",
     seoDescription:
       "Drive from Marrakech to Fes via Tizi n'Tichka, Aït Ben Haddou, and the cedar forests of the Middle Atlas. From €299 pp for 14+.",
     featured: false,
@@ -930,7 +930,7 @@ export const TOURS: Tour[] = [
     id: "9",
     slug: "paradise-valley-agadir",
     relatedPosts: ["paradise-valley-agadir-complete-guide", "paradise-valley-from-agadir", "best-time-to-visit-paradise-valley", "paradise-valley-swimming-guide", "paradise-valley-agadir-cost"],
-    title: "Agadir to Paradise Valley & Immouzer Waterfalls",
+    title: "Paradise Valley Day Trip from Agadir",
     category: "day-tours",
     origin: "agadir",
     difficulty: "easy",
@@ -939,19 +939,19 @@ export const TOURS: Tour[] = [
     tourType: "private",
     reviewCount: 142,
     rating: 4.8,
-    // Ladder scaled from the confirmed price, read as the two-person rate.
-    // Curve measured from the tours with operator-confirmed ladders:
-    // day tour. Solo carries the whole guide/vehicle, so it sits ~1.8x above.
+    // Owner's ladder, 2026-11-20: the old rates plus €30 solo and plus €32
+    // per person for every larger party (was 75/38/30/27/25/22). The trip
+    // is Paradise Valley only from that date; the Immouzer leg was dropped.
     groupPricing: [
-      { minPeople: 1, price: 75 },
-      { minPeople: 2, price: 38 },
-      { minPeople: 3, price: 30 },
-      { minPeople: 4, price: 27 },
-      { minPeople: 5, price: 25 },
-      { minPeople: 6, price: 22 },
+      { minPeople: 1, price: 105 },
+      { minPeople: 2, price: 70 },
+      { minPeople: 3, price: 62 },
+      { minPeople: 4, price: 59 },
+      { minPeople: 5, price: 57 },
+      { minPeople: 6, price: 54 },
     ],
-    price: 75,
-    depositAmount: 15,
+    price: 105,
+    depositAmount: 21,
     heroImage: "/gallery/paradise-valley-rock-pool-swimmers.jpg",
     gallery: [
       "/gallery/paradise-valley-palm-grove-gorge.jpg",
@@ -967,7 +967,7 @@ export const TOURS: Tour[] = [
     highlights: [
       "Natural swimming pools in a palm gorge",
       "Hike through dramatic canyon scenery",
-      "Immouzer waterfall (seasonal)",
+      "Berber lunch in the shade of the palms",
       "Wild palm forest and argan trees",
       "Cool mountain air, zero crowds",
     ],
@@ -997,7 +997,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.5879, lng: -9.5318, name: "Paradise Valley, Tamraght" },
     seoTitle: "Private Paradise Valley Day Trip",
-    seoDescription: "Hidden palm gorge with natural pools 35 km from Agadir. Guided canyon hike, Immouzer waterfall and Berber lunch included. From €22 pp for 6+.",
+    seoDescription: "Hidden palm gorge with natural pools 35 km from Agadir. Guided canyon hike, swimming and Berber lunch included. From €54 pp for 6+.",
     featured: true,
   },
   {
@@ -2164,7 +2164,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — your hotel or riad" },
     featured: true,
-    seoTitle: "Private 4-Day Marrakech Desert Tour",
+    seoTitle: "4-Day Sahara Tour: Marrakech to Merzouga",
     seoDescription: "The complete Marrakech desert circuit: 4 days through Aït Ben Haddou, Todra Gorge, an Erg Chebbi camp and the Road of a Thousand Kasbahs. From €270 pp for 6+.",
   },
 
@@ -2273,7 +2273,7 @@ export const TOURS: Tour[] = [
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     featured: false,
-    seoTitle: "Private 3-Day Agadir Desert Tour",
+    seoTitle: "3-Day Sahara Tour: Agadir to Merzouga",
     seoDescription:
       "From Agadir's Atlantic coast to the Sahara — via Taroudant, Taliouine, Aït Ben Haddou, and a sunset camel trek on Erg Chebbi. From €170 pp for 6+.",
   },

@@ -205,7 +205,7 @@ export default async function TourDetailPage({ params }: TourParams) {
     description: tour.shortDescription,
     touristType: "Adventure",
     offers: offer,
-    provider: { "@type": "TravelAgency", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
+    provider: { "@type": "TravelAgency", "@id": "https://marrakechecotours.com/#organization", name: "Marrakech Eco Tours", url: "https://marrakechecotours.com" },
     // Absolute URLs. Google requires image URLs it can fetch and index; a
     // site-relative path is resolved against schema.org's own namespace, not
     // ours, so the images were unreachable.
@@ -247,13 +247,17 @@ export default async function TourDetailPage({ params }: TourParams) {
     },
   };
 
+  const categoryLabel =
+    (dict.categories as unknown as Record<string, string>)[tour.category === "day-tours" ? "dayTours" : tour.category] ?? tour.category;
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: `https://marrakechecotours.com/${lang}` },
-      { "@type": "ListItem", position: 2, name: "Tours", item: `https://marrakechecotours.com/${lang}/tours` },
-      { "@type": "ListItem", position: 3, name: tour.title, item: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
+      { "@type": "ListItem", position: 1, name: dict.common.home, item: `https://marrakechecotours.com/${lang}` },
+      { "@type": "ListItem", position: 2, name: dict.nav.tours, item: `https://marrakechecotours.com/${lang}/tours` },
+      { "@type": "ListItem", position: 3, name: categoryLabel, item: `https://marrakechecotours.com/${lang}/categories/${tour.category}` },
+      { "@type": "ListItem", position: 4, name: tour.title, item: `https://marrakechecotours.com/${lang}/tours/${tourSlugFor(lang, tour.slug)}` },
     ],
   };
 
@@ -296,7 +300,7 @@ export default async function TourDetailPage({ params }: TourParams) {
             <CaretRight className="w-4 h-4 dir-flip" aria-hidden />
             <Link href={`/${lang}/tours`} className="hover:text-white transition-colors">{dict.nav.tours}</Link>
             <CaretRight className="w-4 h-4 dir-flip" aria-hidden />
-            <span className="text-white capitalize">{tour.category}</span>
+            <Link href={`/${lang}/categories/${tour.category}`} className="text-white hover:underline capitalize">{categoryLabel}</Link>
           </nav>
           <div className="flex flex-wrap gap-3 mb-4">
             {/* Clarity logged dead clicks on these labels: visitors tap the

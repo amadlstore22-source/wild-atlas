@@ -4227,7 +4227,7 @@ Winter is when the valley greens up and the waterfalls come back to life after r
 - **Quietest with warm water:** September–October
 - **Greenest and freshest, cooler:** November–February
 
-Whatever the month, going with a local guide means you skip the parking and navigation and get taken to the good pools rather than the first busy one. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) covers exactly that, and you can pair it with an [Agadir surf lesson](/en/tours/agadir-surf-lesson) or a [Souss-Massa wildlife day](/en/tours/sous-massa-national-park) to fill out the trip.
+Whatever the month, going with a local guide means you skip the parking and navigation and get taken to the good pools rather than the first busy one. Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) covers exactly that, and you can pair it with an [Agadir surf lesson](/en/tours/agadir-surf-lesson) or a [Souss-Massa wildlife day](/en/tours/sous-massa-national-park) to fill out the trip.
 
 ## Ready to Go?
 
@@ -4283,7 +4283,7 @@ The cliff-jumping you may see local kids doing is a different matter. Pool depth
 
 ## The Easy Way to Do It
 
-Getting there means a drive inland from Agadir, parking, and a walk down into the valley — all straightforward with a guide and more of a faff on your own. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) handles the transport and takes you to the good pools, and it pairs naturally with other Agadir-area days like [Souss-Massa National Park](/en/tours/sous-massa-national-park) or the walled town of [Taroudant](/en/tours/taroudant-day-trip-agadir).
+Getting there means a drive inland from Agadir, parking, and a walk down into the valley — all straightforward with a guide and more of a faff on your own. Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) handles the transport and takes you to the good pools, and it pairs naturally with other Agadir-area days like [Souss-Massa National Park](/en/tours/sous-massa-national-park) or the walled town of [Taroudant](/en/tours/taroudant-day-trip-agadir).
 
 ## Ready for a Swim?
 
@@ -4329,7 +4329,7 @@ Paradise Valley sits about **60 km northeast of Agadir**, near the village of Im
 
 **By grand taxi.** Cheaper per seat but less flexible, and you will still need to sort the walk in and back on your own timing.
 
-**By organised tour.** The simplest option: door-to-door transport from Agadir, a guide who takes you to the good pools rather than the first busy one, and no driving or navigation to think about. Our [Paradise Valley & Immouzer day trip from Agadir](/en/tours/paradise-valley-agadir) is built exactly for this.
+**By organised tour.** The simplest option: door-to-door transport from Agadir, a guide who takes you to the good pools rather than the first busy one, and no driving or navigation to think about. Our [Paradise Valley day trip from Agadir](/en/tours/paradise-valley-agadir) is built exactly for this.
 
 ## Making a Day of It
 
@@ -7874,11 +7874,11 @@ It is four days because it has to be. The same desert from Marrakech is a three-
 
 Come back tired and use the remaining days close to home:
 
-- [Paradise Valley and Immouzer](/en/tours/paradise-valley-agadir), 38 EUR per person for two — palm gorges and natural pools, 35 km out
+- [Paradise Valley](/en/tours/paradise-valley-agadir), 70 EUR per person for two — palm gorges and natural pools, 35 km out
 - [Taroudant](/en/tours/taroudant-day-trip-agadir), 125 EUR per person for two — the walled market town, far quieter than Marrakech
 - A day doing nothing at all on the beach, which after four days of desert driving is not a wasted day
 
-**Week total, two travellers: roughly 682 EUR per person** for the touring, plus your Agadir accommodation on the free days.
+**Week total, two travellers: roughly 714 EUR per person** for the touring, plus your Agadir accommodation on the free days.
 
 ## Option 2: the imperial week
 
@@ -7890,7 +7890,7 @@ Marrakech, Meknes, Fes and Rabat in six days, returning to the coast. You cross 
 
 Be clear-eyed: this is a driving week. Six days for four cities spread across the country means early starts and long transfers. It is the right trip for someone who wants breadth, and the wrong trip for someone who wants to sit in one riad and read.
 
-**Day 7 — recover on the coast**, or add [Paradise Valley](/en/tours/paradise-valley-agadir) at 38 EUR each if you still have energy.
+**Day 7 — recover on the coast**, or add [Paradise Valley](/en/tours/paradise-valley-agadir) at 70 EUR each if you still have energy.
 
 If Chefchaouen matters more to you than seeing all four capitals, our [5-day Agadir to Chefchaouen tour](/en/tours/agadir-to-chefchaouen-5day) is 386 EUR per person for two and leaves you two spare days.
 
@@ -7898,14 +7898,14 @@ If Chefchaouen matters more to you than seeing all four capitals, our [5-day Aga
 
 The unhurried option, and the one we quietly recommend to people travelling with small children or anyone who does not enjoy long drives.
 
-- **Day 1** — [Paradise Valley and Immouzer](/en/tours/paradise-valley-agadir), 38 EUR each
+- **Day 1** — [Paradise Valley](/en/tours/paradise-valley-agadir), 70 EUR each
 - **Day 2** — [Taroudant](/en/tours/taroudant-day-trip-agadir), 125 EUR each
 - **Day 3** — beach and the Agadir souk
 - **Days 4–5** — [Anti-Atlas trekking](/en/tours/anti-atlas-trekking-agadir), 525 EUR per person for two, in the Tafraoute granite and the almond valleys
 - **Day 6** — [Essaouira](/en/tours/agadir-to-essaouira-day-trip), 39 EUR each, the windy Atlantic town with the blue boats
 - **Day 7** — rest, or [Souss-Massa National Park](/en/tours/sous-massa-national-park) at 88 EUR each for the bald ibis and the river mouth
 
-**Week total, two travellers: roughly 815 EUR per person**, and no day requires more than about two hours of driving.
+**Week total, two travellers: roughly 847 EUR per person**, and no day requires more than about two hours of driving.
 
 ## The drives, honestly
 
@@ -9092,20 +9092,20 @@ solitude; take the valley if this is your first Atlas summit.
     author: MET_TEAM,
     title: "How Much Does a Paradise Valley Trip from Agadir Cost?",
     excerpt:
-      "A private Paradise Valley day trip from Agadir is €38 per person for two and €22 at six. Here is the full cost - transport, guide, and what the day actually includes.",
+      "A private Paradise Valley day trip from Agadir is €70 per person for two and €54 at six. Here is the full cost - transport, guide, and what the day actually includes.",
     heroImage: "/gallery/blog-paradise-valley-agadir-complete-guide.jpg",
     category: "tips",
     region: "agadir-region",
     readTime: 7,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
-    tags: ["Paradise Valley cost", "Paradise Valley price", "Agadir day trip cost", "Paradise Valley Agadir", "Immouzer waterfalls"],
+    updatedAt: "2026-11-20",
+    tags: ["Paradise Valley cost", "Paradise Valley price", "Agadir day trip cost", "Paradise Valley Agadir", "Paradise Valley tour"],
     seoTitle: "Paradise Valley Cost from Agadir",
     seoDescription:
-      "What a Paradise Valley trip from Agadir costs: €38 per person for two, €22 at six. Full breakdown of transport, guide and the Immouzer detour.",
+      "What a Paradise Valley trip from Agadir costs: €70 per person for two, €54 at six. Full breakdown of transport, guide and what the day includes.",
     relatedTours: ["paradise-valley-agadir", "sous-massa-national-park", "taroudant-day-trip-agadir"],
     faq: [
-      { q: "How much does a Paradise Valley trip from Agadir cost?", a: "Our private day trip is €38 per person when two of you travel, falling to €27 at four and €22 at six. Travelling alone it is €75, because one person carries the whole vehicle and driver-guide cost rather than splitting it. That price includes return transport from your Agadir or Taghazout hotel, a driver-guide, and the drive up to the Immouzer side when water levels make it worth it." },
+      { q: "How much does a Paradise Valley trip from Agadir cost?", a: "Our private day trip is €70 per person when two of you travel, falling to €59 at four and €54 at six. Travelling alone it is €105, because one person carries the whole vehicle and driver-guide cost rather than splitting it. That price includes return transport from your Agadir or Taghazout hotel and a driver-guide who knows which pools have water that week." },
       { q: "Is Paradise Valley free to enter?", a: "Yes. Paradise Valley is a natural river gorge, not a ticketed attraction, so there is no entry fee and no park charge. What you are paying for on a tour is the 35 km transfer from Agadir, the driver-guide, and knowing which pools actually have water on the day - the valley runs low from late summer into autumn and the good pools move." },
       { q: "Can you get to Paradise Valley by taxi instead?", a: "You can. A grand taxi from Agadir will negotiate to roughly 400-700 MAD return for the vehicle depending on your bargaining and how long you keep it waiting. That is often cheaper than a tour for a group of four or more, and it is a fair way to do it. What you lose is a guide who knows the pools, and the waiting driver becomes your clock." },
       { q: "What is the best time of year for Paradise Valley?", a: "February to June, when snowmelt and spring rain keep the pools full and swimmable. By late August the water in the lower pools can be shallow, warm and green. Winter is fine for walking the gorge but cold for swimming, and after heavy rain the valley occasionally floods and closes." },
@@ -9115,8 +9115,8 @@ solitude; take the valley if this is your first Atlas summit.
 ## What Paradise Valley actually costs
 
 The number first: our private [Paradise Valley day trip](/en/tours/paradise-valley-agadir)
-is **€38 per person when two of you travel**, €27 at four, and **€22 at six**.
-Solo it is €75, because one person carries the entire vehicle and driver-guide cost
+is **€70 per person when two of you travel**, €59 at four, and **€54 at six**.
+Solo it is €105, because one person carries the entire vehicle and driver-guide cost
 instead of splitting it with anyone.
 
 That is the whole price. There is no park fee, no entry ticket and no compulsory guide
@@ -9130,13 +9130,13 @@ So the per-person figure is really the fixed cost divided by the number of peopl
 
 | Group size | Per person | What you are really paying |
 |---|---|---|
-| 1 | €75 | The whole vehicle and guide, alone |
-| 2 | €38 | Half each |
-| 4 | €27 | A quarter each |
-| 6 | €22 | A sixth each |
+| 1 | €105 | The whole vehicle and guide, alone |
+| 2 | €70 | Half each |
+| 4 | €59 | A quarter each |
+| 6 | €54 | A sixth each |
 
 This is worth understanding before you compare quotes. An operator advertising "from
-€22" is quoting the six-person rate, and an operator advertising €75 may be quoting
+€54" is quoting the six-person rate, and an operator advertising €105 may be quoting
 the solo rate for the identical trip. The honest comparison is at your actual group size.
 
 ## Doing it yourself
@@ -9158,7 +9158,7 @@ does not.
 ## What the day includes
 
 Our price covers return transport from your hotel in Agadir or Taghazout, the driver-guide,
-and the run up towards Immouzer when the falls are worth seeing. Lunch is not included -
+and a guided walk to the pools that have water that week. Lunch is not included -
 you eat at one of the riverside terraces, typically 60-100 MAD for a tagine and a drink,
 and you pay for it yourself rather than having it built into a package at a markup.
 
@@ -9168,9 +9168,9 @@ polished limestone at the edge of the pools is genuinely slippery.
 ## Is it worth paying for?
 
 If there are four or more of you and you are comfortable negotiating a taxi, do that and
-save the difference. If there are two of you, the tour is close enough in price that the
-guide is effectively free. If you want the Immouzer waterfalls in the same day, take the
-tour - that leg is a further 40 km of mountain road and taxi drivers charge properly for it.
+save the difference. For one or two of you a taxi is still cheaper; what the tour adds is
+door-to-door transport with no haggling and a guide who knows which pools have water that
+week.
 
 **[See the full Paradise Valley day trip](/en/tours/paradise-valley-agadir)**, or read our
 [complete Paradise Valley guide](/en/blog/paradise-valley-agadir-complete-guide) for what

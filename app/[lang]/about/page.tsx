@@ -60,23 +60,23 @@ export async function generateMetadata({ params }: LangParams): Promise<Metadata
  * locales published structured data pointing at the English page — the same
  * defect already fixed on this page's <title> and on /[lang]/tours.
  */
-function aboutJsonLd(lang: string) {
+function aboutJsonLd(lang: string, dict: Awaited<ReturnType<typeof getDictionary>>) {
   const base = `https://marrakechecotours.com/${lang}`;
   return {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "AboutPage",
-        name: "About Marrakech Eco Tours",
-        description: "Marrakech Eco Tours was founded by certified Berber guides born in the High Atlas Mountains. We offer ethical, small-group trekking and adventure tours across Morocco.",
+        name: dict.seo.about.title,
+        description: dict.seo.about.description,
         url: `${base}/about`,
         inLanguage: lang,
         mainEntity: { "@id": "https://marrakechecotours.com/#organization" },
         breadcrumb: {
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: base },
-            { "@type": "ListItem", position: 2, name: "About", item: `${base}/about` },
+            { "@type": "ListItem", position: 1, name: dict.common.home, item: base },
+            { "@type": "ListItem", position: 2, name: dict.nav.about, item: `${base}/about` },
           ],
         },
       },
@@ -85,14 +85,13 @@ function aboutJsonLd(lang: string) {
         "@id": "https://marrakechecotours.com/#organization",
         name: "Marrakech Eco Tours",
         url: "https://marrakechecotours.com",
-        description: "Family-run Berber guiding operation. Licensed Moroccan tour operator since 2010, specialising in High Atlas trekking and Sahara desert tours from Marrakech and Agadir.",
+        description: dict.seo.about.description,
         foundingDate: String(SITE.foundedYear),
         telephone: "+212653936003",
         email: SITE.email,
         address: { "@type": "PostalAddress", ...SITE.postalAddress },
         sameAs: [
           SOCIAL.instagram,
-          "https://facebook.com/marrakechecotours",
           TRIPADVISOR.url,
           TRUSTPILOT.url,
           GOOGLE_PROFILE_URL,
@@ -109,7 +108,7 @@ export default async function AboutPage({ params }: LangParams) {
 
   return (
     <>
-      <JsonLd data={aboutJsonLd(lang)} />
+      <JsonLd data={aboutJsonLd(lang, dict)} />
       {/* ── Hero ── */}
       <div className="relative h-[65vh] min-h-[440px] flex items-end">
         <Image

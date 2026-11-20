@@ -43,7 +43,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "Day Trips from Marrakech & Agadir",
       heading: "Day Trips from Marrakech & Agadir",
-      description: "{count} day trips from Marrakech and Agadir: Ouzoud and Immouzer waterfalls, Ourika and Paradise valleys, Agafay, Essaouira and more. Back the same day. From €{from} pp.",
+      description: "{count} day trips from Marrakech and Agadir: Ouzoud waterfalls, Ourika and Paradise valleys, Agafay, Essaouira and more. Back the same day. From €{from} pp.",
     },
     cultural: {
       title: "Imperial Cities & Cultural Tours of Morocco",
@@ -65,7 +65,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "Excursions d'une journée depuis Marrakech",
       heading: "Excursions d'une journée depuis Marrakech et Agadir",
-      description: "{count} excursions d'une journée depuis Marrakech et Agadir : cascades d'Ouzoud et d'Immouzer, vallées de l'Ourika et du Paradis, Agafay, Essaouira. Dès {from} €.",
+      description: "{count} excursions d'une journée depuis Marrakech et Agadir : cascades d'Ouzoud, vallées de l'Ourika et du Paradis, Agafay, Essaouira. Dès {from} €.",
     },
     cultural: {
       title: "Villes impériales et circuits culturels",
@@ -87,7 +87,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "Excursiones de un día desde Marrakech",
       heading: "Excursiones de un día desde Marrakech y Agadir",
-      description: "{count} excursiones de un día desde Marrakech y Agadir: cascadas de Ouzoud e Immouzer, valles de Ourika y del Paraíso, Agafay, Esauira y más. Desde {from} €.",
+      description: "{count} excursiones de un día desde Marrakech y Agadir: cascadas de Ouzoud, valles de Ourika y del Paraíso, Agafay, Esauira y más. Desde {from} €.",
     },
     cultural: {
       title: "Ciudades imperiales y tours culturales",
@@ -109,7 +109,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "Tagesausflüge ab Marrakesch & Agadir",
       heading: "Tagesausflüge ab Marrakesch und Agadir",
-      description: "{count} Tagesausflüge ab Marrakesch und Agadir: Ouzoud- und Immouzer-Wasserfälle, Ourika- und Paradiestal, Agafay, Essaouira und mehr. Ab {from} €.",
+      description: "{count} Tagesausflüge ab Marrakesch und Agadir: Ouzoud-Wasserfälle, Ourika- und Paradiestal, Agafay, Essaouira und mehr. Ab {from} €.",
     },
     cultural: {
       title: "Königsstädte & Kulturreisen in Marokko",
@@ -131,7 +131,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "Escursioni di un giorno da Marrakech",
       heading: "Escursioni di un giorno da Marrakech e Agadir",
-      description: "{count} escursioni di un giorno da Marrakech e Agadir: cascate di Ouzoud e Immouzer, valli dell'Ourika e del Paradiso, Agafay, Essaouira e altro. Da {from} €.",
+      description: "{count} escursioni di un giorno da Marrakech e Agadir: cascate di Ouzoud, valli dell'Ourika e del Paradiso, Agafay, Essaouira e altro. Da {from} €.",
     },
     cultural: {
       title: "Città imperiali e tour culturali",
@@ -153,7 +153,7 @@ const SEO: Record<Locale, Partial<Record<Category, Seo>>> = {
     "day-tours": {
       title: "رحلات يومية من مراكش وأݣادير",
       heading: "رحلات يومية من مراكش وأݣادير",
-      description: "رحلات يومية من مراكش وأݣادير: شلالات أوزود وإموزار، وادي أوريكا ووادي الجنة، أكفاي، الصويرة وغيرها. العودة في اليوم نفسه. ابتداءً من €{from}.",
+      description: "رحلات يومية من مراكش وأݣادير: شلالات أوزود، وادي أوريكا ووادي الجنة، أكفاي، الصويرة وغيرها. العودة في اليوم نفسه. ابتداءً من €{from}.",
     },
     cultural: {
       title: "المدن الإمبراطورية والجولات الثقافية",

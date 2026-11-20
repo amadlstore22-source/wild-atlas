@@ -24,11 +24,16 @@ const img = (p?: string): string[] | undefined =>
 // changed on every deploy — Google learns the dates are noise and discounts
 // them for crawl scheduling. Bump this only when tour content is meaningfully
 // revised, so the signal stays honest.
-// 2026-10-16: Toubkal prices +20-30% (2026-10-09), every tour's route map
-// redrawn along its itinerary, owner's own Agadir/Paradise Valley photos.
-const CATALOGUE_LASTMOD = new Date("2026-10-16");
+// 2026-11-20: Toubkal refuge price rise (+€59/night), Azzaden +€33, Paradise
+// Valley repriced, 4 destination hubs re-angled to lead with tours, category
+// FAQs translated in all 6 locales, flagship tour titles & schema updated.
+const CATALOGUE_LASTMOD = new Date("2026-11-20");
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // Legal pages (/terms, /privacy, /cookies) are deliberately left out of the
+  // sitemap: they remain linked in the footer and cookie banner, carry no
+  // commercial search intent, and carry robots nofollow — keeping them out
+  // concentrates crawl budget on tours, hubs and guides.
   const staticRoutes = [
     { path: "", freq: "weekly" as const, priority: 1.0 },
     { path: "/tours", freq: "weekly" as const, priority: 0.9 },
@@ -40,9 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/about", freq: "monthly" as const, priority: 0.7 },
     { path: "/contact", freq: "monthly" as const, priority: 0.7 },
     { path: "/how-we-operate", freq: "monthly" as const, priority: 0.7 },
-    { path: "/terms", freq: "yearly" as const, priority: 0.3 },
-    { path: "/privacy", freq: "yearly" as const, priority: 0.3 },
-    { path: "/cookies", freq: "yearly" as const, priority: 0.3 },
   ];
 
   // /gallery renders every frame, so it gets the full list and is the URL

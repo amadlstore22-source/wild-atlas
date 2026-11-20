@@ -6,6 +6,7 @@ import { GUIDES } from "@/lib/guides";
 import { getGuideFor } from "@/lib/guides-i18n";
 import { toursFor } from "@/lib/tours-i18n";
 import { getDictionary, hasLocale, LOCALES } from "../../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import TourCard from "@/components/ui/TourCard";
 import { whatsappUrl } from "@/lib/constants";
 import JsonLd from "@/components/seo/JsonLd";
@@ -197,9 +198,12 @@ export default async function GuideProfilePage({ params }: GuideParams) {
                 {/* h2 keeps the h1 → h3 card sequence from skipping a level. */}
                 <h2 className="text-brass-deep text-xs font-bold uppercase tracking-[0.2em] mb-5">{g.toursLedBy.replace("{name}", guide.name.split(" ")[0])}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {guidedTours.map((tour) => (
-                    <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
-                  ))}
+                  {(() => {
+                    const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
+                    return guidedTours.map((tour) => (
+                      <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={cardDict} />
+                    ));
+                  })()}
                 </div>
               </div>
             )}

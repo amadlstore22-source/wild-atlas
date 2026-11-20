@@ -8,6 +8,7 @@ import CategoryGuides from "@/components/tours/CategoryGuides";
 import CTABanner from "@/components/sections/CTABanner";
 import { STATS } from "@/lib/stats";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import JsonLd from "@/components/seo/JsonLd";
 import FaqSection from "@/components/seo/FaqSection";
 import { faqPageDocument, breadcrumbDocument } from "@/lib/seo/schema";
@@ -119,7 +120,10 @@ export default async function CategoryPage({ params }: CategoryParams) {
             {/* h2 keeps the h1 → h3 card sequence from skipping a level. */}
             <h2 className="text-ink-soft text-sm font-normal mb-8">{toursAvailable}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {tours.map((tour) => <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />)}
+              {(() => {
+                const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
+                return tours.map((tour) => <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={cardDict} />);
+              })()}
             </div>
           </>
         )}
@@ -134,7 +138,7 @@ export default async function CategoryPage({ params }: CategoryParams) {
         )}
       </div>
 
-      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
+      <CTABanner lang={lang} dict={pickDict(dict, "cta")} tourCount={STATS.tourCount} />
     </>
   );
 }

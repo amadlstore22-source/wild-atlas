@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { readFileSync, readdirSync } from "node:fs";
+import { join, relative } from "node:path";
 import { BLOG_POSTS } from "@/lib/blog";
 import { CATEGORIES, TOURS } from "@/lib/tours";
 import { selectRelatedPosts } from "@/lib/blog-related";
@@ -183,5 +183,79 @@ describe("Sitemap & truthful tour titles (2026-11-20 audit)", () => {
       "marrakech-to-fes-3day drives via Midelt and Azrou and never visits the Sahara;\n" +
         "remove 'Desert' from its seoTitle in lib/tours.ts.",
     ).not.toMatch(/desert/i);
+  });
+
+  it("About and OurStory sections use first-party gallery photos, no Unsplash stock images", () => {
+    const files = [
+      ["app", "[lang]", "about", "page.tsx"],
+      ["components", "sections", "AboutStory.tsx"],
+      ["components", "sections", "OurStory.tsx"],
+    ];
+    const hits = files
+      .filter((parts) => /images\.unsplash\.com/i.test(read(...parts)))
+      .map((parts) => parts.join("/"));
+    expect(
+      hits,
+      "These files still load external stock images from Unsplash.\n" +
+        `Replace them with verified first-party photos from /gallery/:\n  ${hits.join("\n  ")}`,
+    ).toEqual([]);
+  });
+});
+
+/**
+ * Passing the full 43–68 KB locale dictionary (`dict={dict}`) across a Server
+ * to Client Component boundary forces Next.js to serialise the entire
+ * dictionary JSON into the HTML RSC Flight payload of every page that renders
+ * that component. Before 2026-11-20, `app/[lang]/layout.tsx` passed the full
+ * `dict` into Header, WhatsAppButton, and CookieBanner, bloating all 1,254
+ * pages (including every blog post and tour page) by 43–68 KB each.
+ *
+ * This guard walks the whole `app/` and `components/` trees so a new client
+ * component or page cannot silently re-introduce the full dictionary into the
+ * HTML payload.
+ */
+describe("Client components receive sliced dictionaries, never the full dict (2026-11-20 audit)", () => {
+  function walkTsx(dir: string): string[] {
+    const out: string[] = [];
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const full = join(dir, entry.name);
+      if (entry.isDirectory()) out.push(...walkTsx(full));
+      else if (entry.name.endsWith(".tsx")) out.push(full);
+    }
+    return out;
+  }
+
+  it("no server component passes un-sliced dict={dict} to any 'use client' component", () => {
+    const allFiles = [...walkTsx(join(ROOT, "app")), ...walkTsx(join(ROOT, "components"))];
+
+    // Collect the default export name of every "use client" component file.
+    const clientNames = new Set<string>();
+    for (const file of allFiles) {
+      const src = readFileSync(file, "utf8");
+      if (!/^\s*["']use client["']/.test(src)) continue;
+      const fnMatch = src.match(/export\s+default\s+function\s+([A-Z]\w*)/);
+      if (fnMatch) clientNames.add(fnMatch[1]);
+    }
+    expect(clientNames.size).toBeGreaterThan(10);
+
+    const offenders: string[] = [];
+    for (const file of allFiles) {
+      const src = readFileSync(file, "utf8");
+      // Server components only (client-to-client forwarding of an already-sliced dict is fine).
+      if (/^\s*["']use client["']/.test(src)) continue;
+      for (const m of src.matchAll(/<([A-Z]\w*)\b[^>]*\bdict=\{\s*dict\s*\}/g)) {
+        if (clientNames.has(m[1])) {
+          offenders.push(`${relative(ROOT, file).replace(/\\/g, "/")} -> <${m[1]} dict={dict} />`);
+        }
+      }
+    }
+
+    expect(
+      offenders,
+      "These Server Components pass the full un-sliced `dict` into a 'use client' component,\n" +
+        "which serialises the entire 43–68 KB dictionary into the HTML RSC payload.\n" +
+        "Slice with pickDict(dict, ...) from lib/dict-slice.ts instead:\n  " +
+        offenders.join("\n  "),
+    ).toEqual([]);
   });
 });

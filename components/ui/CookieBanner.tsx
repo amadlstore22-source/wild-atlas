@@ -45,7 +45,7 @@ function chosenBefore() {
   }
 }
 
-export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Dictionary }) {
+export default function CookieBanner({ lang, dict }: { lang: Locale; dict: Pick<Dictionary, "cookieBanner"> }) {
   const stored = useSyncExternalStore(subscribe, hasConsent, () => true);
   const returning = useSyncExternalStore(subscribe, chosenBefore, () => false);
   // Set the moment the visitor chooses, so the banner leaves without waiting

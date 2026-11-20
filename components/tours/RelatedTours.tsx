@@ -2,6 +2,7 @@ import TourCard from "@/components/ui/TourCard";
 import type { Category, Tour } from "@/lib/tours";
 import { toursFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { toCardData } from "@/lib/tours";
 
 /**
@@ -72,6 +73,7 @@ export default function RelatedTours({
   if (!related.length) return null;
 
   const categoryLabel = (dict.categories as unknown as Record<string, string>)[category] ?? category;
+  const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
 
   return (
     <section className="py-16">
@@ -81,7 +83,7 @@ export default function RelatedTours({
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {related.map((tour) => (
-            <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
+            <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={cardDict} />
           ))}
         </div>
       </div>

@@ -24,7 +24,7 @@ export default function BookingSidebar({
 }: {
   tour: Tour;
   lang?: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "booking" | "enquirySource" | "tourDetail">;
   /** The one-day Toubkal summit's prices, from the server page (see lib/refuge.ts). */
   oneDayPrices?: OneDayPrices;
 }) {

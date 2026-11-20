@@ -8,7 +8,7 @@ import Honeypot, { honeypotValue } from "@/components/ui/Honeypot";
 import { track, trackConversion } from "@/lib/analytics";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
-export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict: Dictionary }) {
+export default function ContactForm({ lang = "en", dict }: { lang?: Locale; dict: Pick<Dictionary, "booking" | "contact" | "enquirySource"> }) {
   const c = dict.contact;
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "", heard: "" });
   const [agreed, setAgreed] = useState(false);

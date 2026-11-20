@@ -19,6 +19,7 @@ import VercelAnalytics from "@/components/ui/VercelAnalytics";
 import WhatsAppTapCounter from "@/components/analytics/WhatsAppTapCounter";
 import { Toaster } from "@/components/ui/sonner";
 import { LOCALES, DEFAULT_LOCALE, hasLocale, getDictionary, type Locale } from "./dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { ogBase } from "@/lib/seo/open-graph";
 
 // Cormorant Garamond — the display serif. Elegant, high-contrast, editorial —
@@ -170,11 +171,11 @@ export default async function LocaleLayout({
           <MotionProvider>
           <SmoothScroll />
           <ScrollProgress />
-          <Header lang={locale} dict={dict} />
+          <Header lang={locale} dict={pickDict(dict, "nav", "categories")} />
           <main className="flex-1">{children}</main>
           <Footer lang={locale} dict={dict} />
-          <WhatsAppButton dict={dict} />
-          <CookieBanner lang={locale} dict={dict} />
+          <WhatsAppButton dict={pickDict(dict, "whatsappFloat")} />
+          <CookieBanner lang={locale} dict={pickDict(dict, "cookieBanner")} />
           <GoogleAnalytics />
           <MicrosoftClarity />
           <Toaster richColors />

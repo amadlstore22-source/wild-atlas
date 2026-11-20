@@ -17,6 +17,7 @@ import { STATS } from "@/lib/stats";
 import ZelligeDivider from "@/components/ui/ZelligeDivider";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary, hasLocale } from "./dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { categoriesFor, tourSlugFor } from "@/lib/tours-i18n";
 import { ogBase } from "@/lib/seo/open-graph";
 import { mapToursFor } from "@/lib/map-tours";
@@ -163,19 +164,19 @@ export default async function HomePage({ params }: LangParams) {
   return (
     <>
       <JsonLd data={websiteJsonLd} />
-      <Hero lang={lang} dict={dict} picks={picks} />
-      <TrustBar dict={dict} />
-      <OurStory dict={dict} lang={lang} />
+      <Hero lang={lang} dict={pickDict(dict, "common", "hero")} picks={picks} />
+      <TrustBar dict={pickDict(dict, "trustBar")} />
+      <OurStory dict={pickDict(dict, "ourStory")} lang={lang} />
       <FeaturedTours lang={lang} dict={dict} />
       <ZelligeDivider />
-      <CategoryGrid dict={dict} lang={lang} categories={categoriesFor(lang)} />
-      <WhyUs dict={dict} tourCount={STATS.tourCount} />
-      <Testimonials dict={dict} />
+      <CategoryGrid dict={pickDict(dict, "categories", "common", "featuredTours", "nav")} lang={lang} categories={categoriesFor(lang)} />
+      <WhyUs dict={pickDict(dict, "howItWorks", "whyUs")} tourCount={STATS.tourCount} />
+      <Testimonials dict={pickDict(dict, "testimonials")} />
       <ZelligeDivider />
-      <MapWrapper lang={lang} dict={dict} tours={mapToursFor(lang)} placeText={MAP_PLACE_TEXT[lang]} categoryText={MAP_CATEGORY_TEXT[lang]} />
+      <MapWrapper lang={lang} dict={pickDict(dict, "common", "map")} tours={mapToursFor(lang)} placeText={MAP_PLACE_TEXT[lang]} categoryText={MAP_CATEGORY_TEXT[lang]} />
       <FeaturedGuides dict={dict} lang={lang} />
       <Gallery dict={dict} lang={lang} />
-      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
+      <CTABanner lang={lang} dict={pickDict(dict, "cta")} tourCount={STATS.tourCount} />
     </>
   );
 }

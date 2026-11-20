@@ -32,7 +32,7 @@ export default function GalleryPageContent({
   dict,
   lang,
 }: {
-  dict: Dictionary;
+  dict: Pick<Dictionary, "common" | "gallery">;
   lang: Locale;
 }) {
   const photos = galleryPhotosFor(lang);

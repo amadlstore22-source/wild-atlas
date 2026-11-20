@@ -23,7 +23,7 @@ const LOCALES: { code: Locale; label: string; flag: string }[] = [
 
 interface Props {
   lang: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "nav" | "categories">;
 }
 
 export default function Header({ lang, dict }: Props) {

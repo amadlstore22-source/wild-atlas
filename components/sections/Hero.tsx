@@ -20,7 +20,7 @@ export interface HeroPick {
 
 interface Props {
   lang: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "common" | "hero">;
   picks?: HeroPick[];
 }
 

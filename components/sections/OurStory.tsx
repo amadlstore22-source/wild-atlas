@@ -7,7 +7,7 @@ import { ArchImage } from "@/components/ui/MoroccanMotifs";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 interface Props {
-  dict: Dictionary;
+  dict: Pick<Dictionary, "ourStory">;
   lang?: Locale;
 }
 
@@ -30,10 +30,10 @@ export default function OurStory({ dict, lang = "en" }: Props) {
           >
             <ArchImage className="h-[520px] lg:h-[600px] w-full">
               <Image
-                src="https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=900&q=85"
-                alt="Berber guides leading a trek through the High Atlas Mountains"
+                src="/gallery/berber-guide-waterfall-portrait.jpg"
+                alt="Berber mountain guide on a High Atlas trail beside a waterfall in Morocco"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/45 via-transparent to-transparent" />

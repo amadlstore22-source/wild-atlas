@@ -5,7 +5,7 @@ import AnimateInView from "@/components/ui/AnimateInView";
 import { SITE } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-interface Props { dict: Dictionary; tourCount: number }
+interface Props { dict: Pick<Dictionary, "howItWorks" | "whyUs">; tourCount: number }
 
 const ease = [0.22, 1, 0.36, 1] as const;
 

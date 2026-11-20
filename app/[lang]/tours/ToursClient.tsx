@@ -20,7 +20,7 @@ interface CategoryEntry {
 
 interface Props {
   lang: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "categories" | "common" | "featuredTours" | "hero" | "tours">;
   tours: TourListItem[];
   categories: CategoryEntry[];
   initialSearch?: string;

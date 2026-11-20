@@ -4,7 +4,7 @@ import * as m from "motion/react-m";
 import { SITE, TRIPADVISOR } from "@/lib/constants";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-interface Props { dict: Dictionary }
+interface Props { dict: Pick<Dictionary, "trustBar"> }
 
 const ease = [0.22, 1, 0.36, 1] as const;
 

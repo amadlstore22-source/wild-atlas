@@ -51,7 +51,7 @@ interface Props {
    */
   tour: TourCardData;
   lang?: Locale;
-  dict?: Dictionary;
+  dict?: Pick<Dictionary, "categories" | "common" | "featuredTours" | "tours">;
   featured?: boolean;
   delay?: number;
   /** Set on the first cards in a grid so the LCP candidate is not lazy-loaded.

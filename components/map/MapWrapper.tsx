@@ -59,7 +59,7 @@ function MapSkeleton() {
  */
 interface Props {
   lang: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "common" | "map">;
   tours: Record<string, MapTour[]>;
   placeText?: Record<string, PlaceText>;
   categoryText: Record<string, CategoryText>;

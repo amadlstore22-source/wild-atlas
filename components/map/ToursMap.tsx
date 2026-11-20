@@ -482,7 +482,7 @@ const INK = {
   dark: { title: "#FBF8F3", sub: "rgba(251,248,243,0.75)", body: "rgba(251,248,243,0.9)", label: "rgba(251,248,243,0.65)", item: "rgba(251,248,243,0.9)", meta: "rgba(251,248,243,0.78)" },
 };
 
-function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest: Destination; lang: Locale; dict: Dictionary; tours: MapTour[]; category: CategoryText; dark?: boolean }) {
+function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest: Destination; lang: Locale; dict: Pick<Dictionary, "common" | "map">; tours: MapTour[]; category: CategoryText; dark?: boolean }) {
   const { format } = useCurrency();
   const ink = dark ? INK.dark : INK.light;
   return (
@@ -613,7 +613,7 @@ function DetailBody({ dest, lang, dict, tours, category, dark = false }: { dest:
 
 export default function ToursMap({ lang, dict, tours, placeText, categoryText }: {
   lang: Locale;
-  dict: Dictionary;
+  dict: Pick<Dictionary, "common" | "map">;
   tours: Record<string, MapTour[]>;
   /** This locale's names and descriptions (lib/map-places-i18n.ts); English when absent. */
   placeText?: Record<string, PlaceText>;

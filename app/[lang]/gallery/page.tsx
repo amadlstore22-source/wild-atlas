@@ -6,6 +6,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import GalleryPageContent from "@/components/sections/GalleryPageContent";
 import GalleryHeroSlideshow from "@/components/sections/GalleryHeroSlideshow";
 import { getDictionary, hasLocale, type Locale } from "../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { GALLERY_PHOTOS } from "@/lib/gallery-photos";
 // Alt text is per-locale, and it is what the ImageObject schema publishes
 // as each image's description — English there on /ar/gallery is structured
@@ -170,7 +171,7 @@ export default async function GalleryPage({ params }: LangParams) {
       {/* ── Grouped grids ── */}
       <section className="bg-surface py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <GalleryPageContent dict={dict} lang={lang} />
+          <GalleryPageContent dict={pickDict(dict, "common", "gallery")} lang={lang} />
 
           <div className="mt-16 pt-10 border-t border-sand-dark flex justify-center">
             <Link
@@ -184,7 +185,7 @@ export default async function GalleryPage({ params }: LangParams) {
         </div>
       </section>
 
-      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
+      <CTABanner lang={lang} dict={pickDict(dict, "cta")} tourCount={STATS.tourCount} />
     </>
   );
 }

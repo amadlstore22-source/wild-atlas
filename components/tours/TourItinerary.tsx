@@ -5,7 +5,7 @@ import type { ItineraryDay } from "@/lib/tours";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 /** Compact "B,L,D" meal code → a readable, translated label. */
-function mealsLabel(code: string, dict: Dictionary): string {
+function mealsLabel(code: string, dict: Pick<Dictionary, "tourDetail">): string {
   const map: Record<string, string> = {
     B: dict.tourDetail.mealBreakfast,
     L: dict.tourDetail.mealLunch,
@@ -26,7 +26,7 @@ function Chip({ icon: Icon, children }: { icon: React.ComponentType<{ className?
   );
 }
 
-export default function TourItinerary({ itinerary, dict }: { itinerary: ItineraryDay[]; dict: Dictionary }) {
+export default function TourItinerary({ itinerary, dict }: { itinerary: ItineraryDay[]; dict: Pick<Dictionary, "tourDetail"> }) {
   const [openDay, setOpenDay] = useState<number>(1);
   if (!itinerary.length) return null;
 

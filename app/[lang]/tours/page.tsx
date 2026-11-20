@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import { toursFor, categoriesFor, tourSlugFor } from "@/lib/tours-i18n";
 import ToursClient from "./ToursClient";
@@ -71,7 +72,7 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
     <JsonLd data={schema} />
     <ToursClient
       lang={lang}
-      dict={dict}
+      dict={pickDict(dict, "categories", "common", "featuredTours", "hero", "tours")}
       tours={tours.map(toListItem)}
       categories={categoriesFor(lang)}
       initialSearch={q}

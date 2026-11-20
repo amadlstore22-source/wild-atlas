@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { WHATSAPP_MESSAGES, whatsappUrl } from "@/lib/constants";
 import { breadcrumbDocument } from "@/lib/seo/schema";
 import JsonLd from "@/components/seo/JsonLd";
@@ -138,17 +139,24 @@ export default async function TravelFromPage({ params }: Params) {
           <section>
             <h2 className="font-display text-2xl font-bold text-ink">{m.basesHeading}</h2>
             <p className="text-ink-soft leading-relaxed mt-3">{m.marrakechBase}</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-              {byOrigin("marrakech").map((t) => (
-                <TourCard key={t.id} tour={toCardData(t)} lang={lang} dict={dict} />
-              ))}
-            </div>
-            <p className="text-ink-soft leading-relaxed mt-8">{m.agadirBase}</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-              {byOrigin("agadir").map((t) => (
-                <TourCard key={t.id} tour={toCardData(t)} lang={lang} dict={dict} />
-              ))}
-            </div>
+            {(() => {
+              const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
+              return (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+                    {byOrigin("marrakech").map((t) => (
+                      <TourCard key={t.id} tour={toCardData(t)} lang={lang} dict={cardDict} />
+                    ))}
+                  </div>
+                  <p className="text-ink-soft leading-relaxed mt-8">{m.agadirBase}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+                    {byOrigin("agadir").map((t) => (
+                      <TourCard key={t.id} tour={toCardData(t)} lang={lang} dict={cardDict} />
+                    ))}
+                  </div>
+                </>
+              );
+            })()}
           </section>
 
           <section>

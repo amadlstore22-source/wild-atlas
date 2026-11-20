@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ContactForm from "@/components/sections/ContactForm";
 import { Envelope, Phone, MapPin, Clock, WhatsappLogo, ChatCircleText } from "@phosphor-icons/react/dist/ssr";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { SITE } from "@/lib/constants";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import JsonLd from "@/components/seo/JsonLd";
@@ -152,7 +153,7 @@ export default async function ContactPage({ params }: LangParams) {
 
           {/* ── Form ── */}
           <div className="lg:col-span-2">
-            <ContactForm lang={lang} dict={dict} />
+            <ContactForm lang={lang} dict={pickDict(dict, "booking", "contact", "enquirySource")} />
           </div>
         </div>
 

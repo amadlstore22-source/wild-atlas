@@ -61,7 +61,7 @@ const DICTS = { en, fr, es, de, it: itDict, ar } as unknown as Record<
   { tourDetail: Record<string, string> }
 >;
 
-/** Tours given a brief on 2026-09-17, chosen by 90-day impressions + clicks. */
+/** Tours given a brief: 10 on 2026-09-17 + 10 flagship money tours on 2026-11-20. */
 const TOURS_WITH_BRIEF = [
   "toubkal-summit-2day-marrakech",
   "toubkal-circuit-ifni-lake-6day",
@@ -73,6 +73,16 @@ const TOURS_WITH_BRIEF = [
   "family-atlas-4day-trek",
   "shared-zagora-2day-marrakech",
   "mgoun-massif-trek",
+  "sahara-3day-marrakech",
+  "desert-4day-marrakech",
+  "shared-merzouga-3day-marrakech",
+  "erg-chegaga-3day-marrakech",
+  "toubkal-summit-trek-4day",
+  "marrakech-imperial-cities-5day",
+  "marrakech-to-chefchaouen-4day",
+  "ouzoud-waterfalls-day-trip",
+  "ourika-valley-day-hike",
+  "agafay-desert-sunset",
 ] as const;
 
 describe("Tour brief", () => {

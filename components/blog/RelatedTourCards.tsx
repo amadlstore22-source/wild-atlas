@@ -1,6 +1,7 @@
 import TourCard from "@/components/ui/TourCard";
 import { getTourFor } from "@/lib/tours-i18n";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { toCardData } from "@/lib/tours";
 
 interface Props {
@@ -19,6 +20,7 @@ interface Props {
 export default function RelatedTourCards({ slugs, lang, dict, title }: Props) {
   const tours = slugs.map((slug) => getTourFor(lang, slug)).filter((t) => t !== undefined);
   if (tours.length === 0) return null;
+  const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
 
   return (
     <section className="mt-12 pt-10 border-t border-rule">
@@ -26,7 +28,7 @@ export default function RelatedTourCards({ slugs, lang, dict, title }: Props) {
       <p className="text-ink-soft mb-6">{dict.blog.relatedToursSubtitle}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {tours.map((tour) => (
-          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} />
+          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={cardDict} />
         ))}
       </div>
     </section>

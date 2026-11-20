@@ -31,6 +31,7 @@ import { faqPageDocument, priceValidUntil, buildAggregateOffer, absoluteUrl, bui
 import { REVIEWS } from "@/lib/reviews";
 import { Suspense } from "react";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { tourIncludesFor } from "@/lib/tour-includes-i18n";
 // Import from currency-core, not currency: the latter is "use client" and its
 // constants read as undefined during server render.
@@ -267,6 +268,8 @@ export default async function TourDetailPage({ params }: TourParams) {
   // which is a Google FAQPage guideline violation — schema must mirror content
   // the user can actually see.
   const faqJsonLd = tour.faq?.length ? faqPageDocument(tour.faq) : null;
+  const tourDetailDict = pickDict(dict, "tourDetail");
+  const bookingDict = pickDict(dict, "booking", "enquirySource", "tourDetail");
 
   return (
     <>
@@ -275,7 +278,7 @@ export default async function TourDetailPage({ params }: TourParams) {
       <JsonLd data={breadcrumbJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
-      <TourNavBar dict={dict} />
+      <TourNavBar dict={tourDetailDict} />
 
       <div className="relative h-[60vh] min-h-[420px] bg-cover bg-center flex items-end">
         <Image
@@ -351,7 +354,7 @@ export default async function TourDetailPage({ params }: TourParams) {
             </section>
 
             <div id="tour-itinerary" className="scroll-mt-32">
-              <TourItinerary itinerary={tour.itinerary} dict={dict} />
+              <TourItinerary itinerary={tour.itinerary} dict={tourDetailDict} />
             </div>
 
             {/* The brief sits with the route rather than after it: the reader
@@ -452,7 +455,7 @@ export default async function TourDetailPage({ params }: TourParams) {
               <BookingSidebar
                 tour={tour}
                 lang={lang}
-                dict={dict}
+                dict={bookingDict}
                 oneDayPrices={offersOneDay(tour.slug) ? oneDayPricesFrom(TOURS.find((t) => t.slug === ONE_DAY_PRICE_FROM)!) : undefined}
               />
 

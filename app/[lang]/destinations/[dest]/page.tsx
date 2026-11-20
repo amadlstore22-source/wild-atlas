@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { DESTINATIONS } from "@/lib/destinations";
 import { destinationsFor, getDestinationFor } from "@/lib/destinations-i18n";
 import { toursFor } from "@/lib/tours-i18n";
@@ -142,6 +143,7 @@ export default async function DestinationPage({ params }: PageParams) {
   ]);
 
   const locale = lang as Locale;
+  const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
 
   return (
     <>
@@ -208,7 +210,7 @@ export default async function DestinationPage({ params }: PageParams) {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedTours.map((tour, i) => (
-                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={dict} delay={i * 0.07} />
+                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={cardDict} delay={i * 0.07} />
                 ))}
               </div>
               {relatedPosts[0] && (
@@ -438,7 +440,7 @@ export default async function DestinationPage({ params }: PageParams) {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedTours.map((tour, i) => (
-                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={dict} delay={i * 0.07} />
+                  <TourCard key={tour.id} tour={toCardData(tour)} lang={locale} dict={cardDict} delay={i * 0.07} />
                 ))}
               </div>
             </section>

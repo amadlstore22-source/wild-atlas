@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { MapPin, Translate, Certificate, Star } from "@phosphor-icons/react/dist/ssr";
 import { guidesFor } from "@/lib/guides-i18n";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import CTABanner from "@/components/sections/CTABanner";
 import { ZelligeBand } from "@/components/ui/MoroccanMotifs";
 import { STATS } from "@/lib/stats";
@@ -231,7 +232,7 @@ export default async function GuidesPage({ params }: LangParams) {
 
       </div>
 
-      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
+      <CTABanner lang={lang} dict={pickDict(dict, "cta")} tourCount={STATS.tourCount} />
     </>
   );
 }

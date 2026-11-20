@@ -7,6 +7,7 @@ import WhyUs from "@/components/sections/WhyUs";
 import AboutStory from "@/components/sections/AboutStory";
 import GuideProfiles from "@/components/sections/GuideProfiles";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 import { SITE, SOCIAL, TRIPADVISOR, TRUSTPILOT, GOOGLE_PROFILE_URL } from "@/lib/constants";
 import { STATS } from "@/lib/stats";
 import { ZelligeField, ArabesqueDivider, ZelligeBand } from "@/components/ui/MoroccanMotifs";
@@ -152,7 +153,7 @@ export default async function AboutPage({ params }: LangParams) {
       </div>
 
       {/* ── Origin story + animated content ── */}
-      <AboutStory lang={lang} tourCount={STATS.tourCount} dict={dict} />
+      <AboutStory lang={lang} tourCount={STATS.tourCount} dict={pickDict(dict, "about")} />
 
       {/* ── Three pillars ── */}
       <section className="relative py-24 bg-sand/30 overflow-hidden">
@@ -170,22 +171,22 @@ export default async function AboutPage({ params }: LangParams) {
                 num: dict.about.pillar1Num,
                 title: dict.about.pillar1Title,
                 body: dict.about.pillar1Body,
-                image: "https://images.unsplash.com/photo-1533839235388-7368a65d2a88?w=800&q=80",
-                alt: "Hiker overlooking the High Atlas mountain valleys, Morocco",
+                image: "/gallery/toubkal-valley-trail-trekkers.jpg",
+                alt: "Trekkers approaching the stone Toubkal mountain refuge in the High Atlas, Morocco",
               },
               {
                 num: dict.about.pillar2Num,
                 title: dict.about.pillar2Title,
                 body: dict.about.pillar2Body,
-                image: "https://images.unsplash.com/photo-1545167496-31b3aa75296c?w=800&q=80",
-                alt: "Travellers and local guides on a camel caravan in the Moroccan Sahara",
+                image: "/gallery/berber-home-interior-mint-tea.jpg",
+                alt: "Traditional Berber family guesthouse terrace with woven rugs and mint tea in the High Atlas",
               },
               {
                 num: dict.about.pillar3Num,
                 title: dict.about.pillar3Title,
                 body: dict.about.pillar3Body,
-                image: "https://images.unsplash.com/photo-1580746738099-1cb74f972feb?w=800&q=80",
-                alt: "Colourful spice souk in Marrakech medina, Morocco",
+                image: "/gallery/camel-caravan-sunset-riders.jpg",
+                alt: "Travellers and a local Berber guide on a sunset camel caravan across the Sahara dunes, Morocco",
               },
             ].map((p) => (
               <div key={p.num} className="bg-card rounded-[4px] overflow-hidden shadow-sm border border-sand-dark">
@@ -208,7 +209,7 @@ export default async function AboutPage({ params }: LangParams) {
       <GuideProfiles lang={lang} dict={dict} />
 
       {/* ── Why Us (existing component) ── */}
-      <WhyUs dict={dict} tourCount={STATS.tourCount} />
+      <WhyUs dict={pickDict(dict, "howItWorks", "whyUs")} tourCount={STATS.tourCount} />
 
       {/* ── Pull quote + tours CTA ── */}
       <section className="relative py-24 overflow-hidden">
@@ -239,7 +240,7 @@ export default async function AboutPage({ params }: LangParams) {
         </div>
       </section>
 
-      <CTABanner lang={lang} dict={dict} tourCount={STATS.tourCount} />
+      <CTABanner lang={lang} dict={pickDict(dict, "cta")} tourCount={STATS.tourCount} />
     </>
   );
 }

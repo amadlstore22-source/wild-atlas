@@ -15,7 +15,7 @@ const SECTION_IDS = [
   "tour-book",
 ] as const;
 
-export default function TourNavBar({ dict }: { dict: Dictionary }) {
+export default function TourNavBar({ dict }: { dict: Pick<Dictionary, "tourDetail"> }) {
   const SECTIONS = [
     { id: "tour-overview",   label: dict.tourDetail.overview },
     { id: "tour-itinerary",  label: dict.tourDetail.itinerary },

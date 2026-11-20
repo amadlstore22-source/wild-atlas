@@ -9,7 +9,7 @@ import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { WhatsAppLink } from "@/components/ui/ContactLinks";
 
 interface Props {
-  dict: Dictionary;
+  dict: Pick<Dictionary, "cta">;
   lang?: Locale;
   tourCount: number;
 }

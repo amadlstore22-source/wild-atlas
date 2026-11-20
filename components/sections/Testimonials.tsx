@@ -10,7 +10,7 @@ import { TRIPADVISOR } from "@/lib/constants";
 import { REVIEWS } from "@/lib/reviews";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
-interface Props { dict: Dictionary }
+interface Props { dict: Pick<Dictionary, "testimonials"> }
 
 export default function Testimonials({ dict }: Props) {
   // No section without real reviews: a "Real Stories" heading over nothing

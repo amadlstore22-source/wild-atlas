@@ -6,6 +6,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import { getFeaturedToursFor } from "@/lib/tours-i18n";
 import { toCardData } from "@/lib/tours";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
+import { pickDict } from "@/lib/dict-slice";
 
 interface Props {
   dict: Dictionary;
@@ -33,6 +34,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
   };
   // Six featured tours in a clean 3-column x 2-row grid — no ragged trailing row.
   const featured = [...tours].sort((a, b) => rank(a.slug) - rank(b.slug)).slice(0, 6);
+  const cardDict = pickDict(dict, "categories", "common", "featuredTours", "tours");
 
   return (
     <Section tone="plaster" motif>
@@ -54,7 +56,7 @@ export default function FeaturedTours({ dict, lang = "en" }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {featured.map((tour, i) => (
-          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={dict} delay={i * 0.08} />
+          <TourCard key={tour.id} tour={toCardData(tour)} lang={lang} dict={cardDict} delay={i * 0.08} />
         ))}
       </div>
 

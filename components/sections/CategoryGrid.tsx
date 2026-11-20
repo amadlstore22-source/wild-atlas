@@ -16,7 +16,7 @@ interface CategoryEntry {
 }
 
 interface Props {
-  dict: Dictionary;
+  dict: Pick<Dictionary, "categories" | "common" | "featuredTours" | "nav">;
   lang?: Locale;
   categories: CategoryEntry[];
 }

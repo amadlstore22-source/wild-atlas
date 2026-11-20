@@ -6,7 +6,7 @@ import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-function milestones(tourCount: number, dict: Dictionary) { return [
+function milestones(tourCount: number, dict: Pick<Dictionary, "about">) { return [
   { year: dict.about.milestone1Year, title: dict.about.milestone1Title, body: dict.about.milestone1Body },
   { year: dict.about.milestone2Year, title: dict.about.milestone2Title, body: dict.about.milestone2Body },
   { year: dict.about.milestone3Year, title: dict.about.milestone3Title, body: dict.about.milestone3Body },
@@ -18,14 +18,14 @@ function milestones(tourCount: number, dict: Dictionary) { return [
   },
 ]; }
 
-function values(dict: Dictionary) { return [
+function values(dict: Pick<Dictionary, "about">) { return [
   { Icon: Mountains, title: dict.about.valueLocalTitle, body: dict.about.valueLocalBody },
   { Icon: Compass, title: dict.about.valueHonestTitle, body: dict.about.valueHonestBody },
   { Icon: UsersThree, title: dict.about.valueGroupsTitle, body: dict.about.valueGroupsBody },
   { Icon: Leaf, title: dict.about.valueTraceTitle, body: dict.about.valueTraceBody },
 ]; }
 
-export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; tourCount: number; dict: Dictionary }) {
+export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; tourCount: number; dict: Pick<Dictionary, "about"> }) {
   void lang;
   const MILESTONES = milestones(tourCount, dict);
   const VALUES = values(dict);
@@ -46,10 +46,10 @@ export default function AboutStory({ lang, tourCount, dict }: { lang: Locale; to
               transition={{ duration: 0.7, ease }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1597662786834-8eea85ad4841?w=900&q=85"
-                alt="Berber guide leading a group through the High Atlas Mountains"
+                src="/gallery/guide-briefing-client-snow-peaks.jpg"
+                alt="Berber mountain guide briefing a trekker below snow-dusted High Atlas peaks, Morocco"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-deep/75 via-indigo-deep/12 to-transparent" />

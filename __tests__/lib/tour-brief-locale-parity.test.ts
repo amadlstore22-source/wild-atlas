@@ -61,7 +61,7 @@ const DICTS = { en, fr, es, de, it: itDict, ar } as unknown as Record<
   { tourDetail: Record<string, string> }
 >;
 
-/** Tours given a brief: 10 on 2026-09-17 + 10 flagship money tours on 2026-11-20. */
+/** Tours given a brief: 10 on 2026-09-17 + 10 flagship money tours on 2026-11-20 + the two 5-day tours on 2026-11-24. */
 const TOURS_WITH_BRIEF = [
   "toubkal-summit-2day-marrakech",
   "toubkal-circuit-ifni-lake-6day",
@@ -83,6 +83,9 @@ const TOURS_WITH_BRIEF = [
   "ouzoud-waterfalls-day-trip",
   "ourika-valley-day-hike",
   "agafay-desert-sunset",
+  // 2026-11-24: both 5-day tours had no prose at all.
+  "toubkal-summit-sahara-5day",
+  "casablanca-fes-sahara-marrakech-5day",
 ] as const;
 
 describe("Tour brief", () => {

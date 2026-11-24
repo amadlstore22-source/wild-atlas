@@ -3628,7 +3628,7 @@ export const TOURS: Tour[] = [
         meals: "D",
         stay: "Hotel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈380 km",
         stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Imlil → Aït Ben Haddou → Valle del Dades",
         description:
@@ -3640,7 +3640,7 @@ export const TOURS: Tour[] = [
         stay: "Campo nel deserto",
         walking: "1–2 h",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈300 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dades → Gole del Todra → Campo nel deserto dell'Erg Chebbi",
         description:
@@ -3661,6 +3661,12 @@ export const TOURS: Tour[] = [
     seoTitle: "Tour 5 giorni Cima del Toubkal e Sahara",
     seoDescription:
       "Combina le due avventure di punta del Marocco: raggiungere la cima del Jbel Toubkal (4.167 m) e poi le dune sahariane dell'Erg Chebbi.",
+    brief: [
+      "Questo viaggio riunisce in cinque giorni da Marrakech i due grandi simboli del Marocco: la vetta del Jbel Toubkal, con i suoi 4.167 m il punto più alto del Nord Africa, e le dune dell'Erg Chebbi, che si alzano fino a circa 150 m sopra il deserto vicino a Merzouga. Si svolge in due metà con due squadre. Una guida di montagna abilitata vi porta in vetta e ritorno nei giorni uno e due; dal terzo giorno un autista-guida e un veicolo privato prendono il testimone per la traversata verso il Sahara e il rientro a Marrakech.",
+      "Il trekking è la metà impegnativa. Il primo giorno ci sono 67 km di trasferimento fino a Imlil (1.740 m), poi circa 5 ore a piedi e 1.470 m di salita fino al rifugio del Toubkal a 3.207 m. Il secondo giorno inizia prima dell'alba: 960 m di salita fino alla vetta, poi 2.430 m di discesa fino a Imlil, da 6 a 7 ore in tutto, ed è la discesa che si sente il giorno dopo. Da lì in poi strada e brevi camminate: circa 380 km e 5 ore il terzo giorno, attraverso il passo Tizi n'Tichka (2.260 m) e Aït Ben Haddou fino alla valle del Dadès; circa 300 km e 4 ore il quarto giorno, attraverso la gola del Todra fino a Merzouga per il giro in cammello al tramonto; e circa 560 km e 8 ore per tornare a Marrakech il quinto giorno.",
+      "Questi cinque giorni attraversano due climi. In media tra il 2016 e il 2025, la minima notturna in vetta è di circa −12 °C a gennaio, −6 °C ad aprile, 6 °C a luglio e −3 °C a ottobre, e voi ci arrivate verso l'alba. Due giorni dopo siete all'Erg Chebbi, a circa 700 m di quota, dove i pomeriggi arrivano in media a 18 °C a gennaio, 29 °C ad aprile e ottobre e 42 °C a luglio. Preparatevi per entrambi gli estremi: guanti, berretto e uno strato caldo per la mattina in vetta, protezione solare per il deserto e di nuovo lo strato caldo per la sera al campo. Sono medie modellate dai dati meteo ERA5; non c'è una stazione meteorologica né in vetta né tra le dune.",
+      "Essendo un tour privato, il prezzo è a persona e dipende dalla dimensione del gruppo: 1.199 € per un viaggiatore da solo, 832 € a testa in due, 604 € in tre, 529 € in quattro, 508 € in cinque, 496 € in sei, 486 € a testa da sette a nove persone, 453 € da dieci a tredici e 431 € da quattordici in su. Il ritiro e il rientro sono presso il vostro hotel o riad a Marrakech.",
+    ],
     faq: [
       { q: "Quanto devo essere allenato per la combinazione Toubkal e Sahara?", a: "La parte di trekking è classificata come impegnativa: due giorni di montagna con una salita in vetta prima dell'alba a 4.167 m, quindi occorre essere camminatori allenati e regolari, a proprio agio in quota. La parte nel deserto è facile e in veicolo, quindi funge da riposo dopo la vetta. Se riesci ad affrontare un trekking di montagna impegnativo di due giorni, il resto del viaggio è comodo." },
       { q: "Perché prima il Toubkal e poi il deserto?", a: "La vetta è la parte fisicamente impegnativa, quindi viene per prima quando sei fresco, e i giorni nel deserto — soprattutto strada con brevi camminate e giri in cammello — diventano un naturale defaticamento successivo. Inoltre permette di risolvere presto la variabile meteo più delicata (la vetta)." },
@@ -4335,7 +4341,7 @@ export const TOURS: Tour[] = [
         title: "Fès → Ifrane → Midelt → Erfoud → Erg Chebbi",
         description: "La giornata lunga, spezzata in tappe. Su attraverso le cedrete del Medio Atlante fino a Ifrane, cittadina dai tetti spioventi a 1.665 m, con le bertucce tra i cedri poco oltre. Giù per Midelt e la valle dello Ziz — un canyon di palme da dattero che corre per chilometri — verso Errachidia ed Erfoud. Giro in cammello tra le dune al tramonto, cena e musica berbera al campo.",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 } },
-      { day: 4, driving: "≈4 h 30", distance: "≈280 km", stay: "Hotel nella valle del Dades", meals: "Colazione, cena",
+      { day: 4, driving: "≈4 h 30", distance: "≈300 km", stay: "Hotel nella valle del Dades", meals: "Colazione, cena",
         title: "Erg Chebbi → Merzouga → Gola del Todra → Dades",
         description: "Alba sulle dune e ritorno in cammello per la colazione. Verso ovest sulla vecchia strada carovaniera passando per Tinghir fino alla gola del Todra, dove le pareti si stringono a dieci metri e si alzano per trecento. Poi la valle del Dades per la notte, sotto le formazioni rocciose che qui chiamano dita di scimmia.",
         stop: { name: "Gole del Dades", lat: 31.51, lng: -5.9424 } },
@@ -4344,6 +4350,12 @@ export const TOURS: Tour[] = [
         description: "Attraverso Kalaat M'Gouna, la cittadina delle rose dove si distillano le rose damascene della valle, fino a Ouarzazate e agli Atlas Film Studios. Pranzo ad Aït Ben Haddou, lo ksar UNESCO che sullo schermo ha fatto da mezzo mondo antico, poi il passo Tizi n'Tichka (2.260 m) e arrivo a Marrakech nel tardo pomeriggio.",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 } },
     ],
+    brief: [
+      "Questo tour è pensato per chi atterra a Casablanca e vuole arrivare a Marrakech dopo aver visto il nord, il Sahara e l'Alto Atlante lungo la strada. È solo andata, circa 1.450 km in cinque giorni, e non ripercorre mai la stessa strada. Cinque delle sue tappe sono Patrimonio dell'Umanità UNESCO: Rabat (iscritta nel 2012), Volubilis (1997), Meknes (1996), la medina di Fes (1981) e Aït Ben Haddou (1987).",
+      "La strada sale e scende molto più di quanto suggerisca la mappa. Si parte dall'Atlantico al livello del mare, si attraversano le foreste di cedri del Medio Atlante a Ifrane (1.665 m), si segue la valle dello Ziz fino all'Erg Chebbi, dove le dune si alzano fino a circa 150 m da un fondo desertico a circa 700 m, e si rientra dal passo Tizi n'Tichka a 2.260 m. Il tragitto più lungo, circa 460 km il terzo giorno, arriva subito dopo la giornata a piedi a Fes, e le due notti nello stesso riad di Fes fanno sì che cambiate letto solo tre volte.",
+      "La giornata a Fes è guidata da una guida locale abilitata, ed è bene sapere tre cose in anticipo. La Qarawiyyin, fondata nell'859, è una moschea attiva: i non musulmani la vedono dalle sue porte, perché la sala di preghiera è riservata ai musulmani. Le madrase Bou Inania e Al-Attarine sono aperte ai visitatori, e le concerie Chouara si osservano dalle terrazze dei negozi di pelle che le circondano. Gli ingressi ai siti non sono inclusi, quindi mettete in conto un budget per le madrase e per Volubilis.",
+      "Essendo un tour privato, il prezzo è a persona e dipende dalla dimensione del gruppo: 1.380 € per un viaggiatore da solo, 825 € a testa in due, 653 € in tre, 592 € in quattro, 535 € in cinque e 470 € a testa da sei persone in su, per gruppi fino a 12. Il ritiro è presso il vostro hotel a Casablanca o all'aeroporto Mohammed V, e il tour termina a Marrakech. Si può aggiungere un trasferimento di ritorno a Casablanca, circa 240 km di autostrada.",
+    ],
     faq: [
       {
         q: "Il tour parte da Casablanca e finisce a Marrakech?",
@@ -4351,7 +4363,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "Potete riportarci a Casablanca alla fine?",
-        a: "Sì, come extra e non incluso nel prezzo. Sono circa 270 km di autostrada da Marrakech, all'incirca tre ore, e ve li quotiamo insieme alla prenotazione. Molti viaggiatori preferiscono partire in aereo da Marrakech oppure prendere il treno, che arriva a Casablanca in circa tre ore ed è comodo ed economico.",
+        a: "Sì, come extra e non incluso nel prezzo. Sono circa 240 km di autostrada da Marrakech, all'incirca tre ore, e ve li quotiamo insieme alla prenotazione. Molti viaggiatori preferiscono partire in aereo da Marrakech oppure prendere il treno, che arriva a Casablanca in circa tre ore ed è comodo ed economico.",
       },
       {
         q: "Quanto durano le giornate di guida?",
@@ -4363,7 +4375,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "Com'è il campo nel deserto?",
-        a: "Lo si raggiunge in cammello al tramonto ed è una tenda privata per il vostro gruppo, con cena, colazione e musica berbera attorno al fuoco. I servizi variano a seconda della categoria del campo e vi diciamo esattamente quale avrete prima della prenotazione. La nostra [guida ai campi nel deserto](/it/blog/campo-deserto-marocco-com-e-davvero) illustra tutte le differenze.",
+        a: "Lo si raggiunge in cammello al tramonto ed è una tenda privata per il vostro gruppo, con cena, colazione e musica berbera attorno al fuoco. In questo tour privato la tenda ha anche un bagno privato, con WC e doccia calda. La nostra [guida ai campi nel deserto](/it/blog/campo-deserto-marocco-com-e-davvero) illustra tende, bagni e cucina.",
       },
       {
         q: "È meglio che partire da Marrakech?",

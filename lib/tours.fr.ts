@@ -3637,7 +3637,7 @@ export const TOURS: Tour[] = [
         meals: "D",
         stay: "Hôtel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈380 km",
         stop: { name: "Aït Ben Haddou", lat: 31.047, lng: -7.129 },
         title: "Imlil → Aït Ben Haddou → Vallée du Dadès",
         description:
@@ -3649,7 +3649,7 @@ export const TOURS: Tour[] = [
         stay: "Campement dans le désert",
         walking: "1–2 h",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈300 km",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 },
         title: "Dadès → Gorges du Todra → Campement de l'Erg Chebbi",
         description:
@@ -3670,6 +3670,12 @@ export const TOURS: Tour[] = [
     seoTitle: "Circuit 5 jours Sommet du Toubkal & Sahara",
     seoDescription:
       "Combinez les deux aventures phares du Maroc : gravir le Jbel Toubkal (4 167 m) puis rejoindre les dunes sahariennes de l'Erg Chebbi.",
+    brief: [
+      "Ce circuit réunit en cinq jours au départ de Marrakech les deux grands repères du Maroc : le sommet du Jbel Toubkal, point culminant de l'Afrique du Nord à 4 167 m, et les dunes de l'Erg Chebbi, qui s'élèvent jusqu'à environ 150 m au-dessus du désert près de Merzouga. Il se déroule en deux moitiés avec deux équipes. Un guide de montagne agréé vous emmène au sommet et vous redescend les jours un et deux ; à partir du troisième jour, un chauffeur-guide et un véhicule privé prennent le relais pour la traversée vers le Sahara et le retour à Marrakech.",
+      "Le trek est la moitié exigeante. Le premier jour, 67 km de transfert jusqu'à Imlil (1 740 m), puis environ 5 heures de marche et 1 470 m de montée jusqu'au refuge du Toubkal à 3 207 m. Le deuxième jour commence avant l'aube : 960 m de montée jusqu'au sommet, puis 2 430 m de descente jusqu'à Imlil, 6 à 7 heures au total, et c'est la descente que l'on sent le lendemain. Ensuite, place à la route et aux courtes marches : environ 380 km et 5 heures le troisième jour, par le col du Tizi n'Tichka (2 260 m) et Aït Ben Haddou jusqu'à la vallée du Dadès ; environ 300 km et 4 heures le quatrième jour, par les gorges du Todra jusqu'à Merzouga pour la balade à dos de dromadaire au coucher du soleil ; et environ 560 km et 8 heures pour rentrer à Marrakech le cinquième jour.",
+      "Ces cinq jours traversent deux climats. En moyenne de 2016 à 2025, la température nocturne au sommet est d'environ −12 °C en janvier, −6 °C en avril, 6 °C en juillet et −3 °C en octobre, et vous y êtes vers l'aube. Deux jours plus tard, vous êtes à l'Erg Chebbi, à environ 700 m d'altitude, où les après-midi atteignent en moyenne 18 °C en janvier, 29 °C en avril et en octobre et 42 °C en juillet. Prévoyez pour les deux extrêmes : gants, bonnet et couche chaude pour le matin au sommet, protection solaire pour le désert, et de nouveau la couche chaude pour la soirée au camp. Ce sont des moyennes modélisées à partir des données météo ERA5 ; aucune station météo ne se trouve au sommet ni dans les dunes.",
+      "Le circuit étant privé, le prix est par personne et dépend de la taille du groupe : 1 199 € pour un voyageur seul, 832 € chacun à deux, 604 € à trois, 529 € à quatre, 508 € à cinq, 496 € à six, 486 € chacun de sept à neuf personnes, 453 € de dix à treize et 431 € à partir de quatorze. La prise en charge et le retour se font à votre hôtel ou riad à Marrakech.",
+    ],
     faq: [
       { q: "Quelle condition physique faut-il pour le combiné Toubkal et Sahara ?", a: "La partie trek est classée difficile : deux jours de montagne avec une ascension avant l'aube à 4 167 m, il faut donc être un marcheur régulier et en forme, à l'aise en altitude. La partie désert est facile et se fait en véhicule, elle sert donc de repos après le sommet. Si vous pouvez gérer un trek de montagne exigeant de deux jours, le reste du voyage est confortable." },
       { q: "Pourquoi le Toubkal d'abord et le désert ensuite ?", a: "Le sommet est la partie physiquement exigeante, il vient donc en premier tant que vous êtes frais, et les journées désert — surtout de la route avec de courtes marches et des balades à dos de chameau — deviennent une transition naturelle ensuite. Cela permet aussi de traiter tôt la variable météo la plus délicate (le sommet)." },
@@ -4344,7 +4350,7 @@ export const TOURS: Tour[] = [
         title: "Fès → Ifrane → Midelt → Erfoud → Erg Chebbi",
         description: "La longue journée, découpée en étapes. Montée à travers les cédraies du Moyen Atlas jusqu'à Ifrane, ville aux toits pentus à 1 665 m, avec les magots de Barbarie dans les cèdres alentour. Descente par Midelt et la vallée du Ziz — un canyon de palmiers dattiers qui court sur des kilomètres — vers Errachidia et Erfoud. Dromadaires dans les dunes au coucher du soleil, dîner et musique berbère au campement.",
         stop: { name: "Erg Chebbi, Merzouga", lat: 31.138236, lng: -3.970775 } },
-      { day: 4, driving: "≈4 h 30", distance: "≈280 km", stay: "Hôtel dans la vallée du Dadès", meals: "Petit-déjeuner, dîner",
+      { day: 4, driving: "≈4 h 30", distance: "≈300 km", stay: "Hôtel dans la vallée du Dadès", meals: "Petit-déjeuner, dîner",
         title: "Erg Chebbi → Merzouga → Gorges du Todra → Dadès",
         description: "Lever du soleil sur les dunes et retour à dos de dromadaire pour le petit-déjeuner. Vers l'ouest par l'ancienne route caravanière et Tinghir jusqu'aux gorges du Todra, où les parois se resserrent à dix mètres et s'élèvent à trois cents. Puis la vallée du Dadès pour la nuit, sous les formations rocheuses que l'on appelle ici les doigts de singe.",
         stop: { name: "Gorges du Dadès", lat: 31.51, lng: -5.9424 } },
@@ -4353,6 +4359,12 @@ export const TOURS: Tour[] = [
         description: "Par Kalaat M'Gouna, la ville des roses où l'on distille les roses de Damas de la vallée, jusqu'à Ouarzazate et les studios Atlas. Déjeuner à Aït Ben Haddou, le ksar classé à l'UNESCO qui a servi de décor à la moitié du monde antique au cinéma, puis franchissement du Tizi n'Tichka (2 260 m) et arrivée à Marrakech en fin d'après-midi.",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 } },
     ],
+    brief: [
+      "Ce circuit est pensé pour les voyageurs qui atterrissent à Casablanca et veulent finir à Marrakech en ayant vu le nord, le Sahara et le Haut Atlas en chemin. Il se fait en aller simple, environ 1 450 km en cinq jours, sans jamais reprendre la même route. Cinq de ses étapes sont inscrites au patrimoine mondial de l'UNESCO : Rabat (en 2012), Volubilis (1997), Meknès (1996), la médina de Fès (1981) et Aït Ben Haddou (1987).",
+      "La route monte et descend bien plus que la carte ne le laisse croire. Vous partez de l'Atlantique au niveau de la mer, traversez les forêts de cèdres du Moyen Atlas à Ifrane (1 665 m), suivez la vallée du Ziz jusqu'à l'Erg Chebbi, dont les dunes s'élèvent jusqu'à environ 150 m au-dessus d'un sol désertique à environ 700 m, et rentrez par le col du Tizi n'Tichka à 2 260 m. Le trajet le plus long, environ 460 km le troisième jour, vient juste après la journée à pied à Fès, et les deux nuits dans le même riad de Fès font que vous ne changez de lit que trois fois.",
+      "La journée à Fès est menée par un guide local agréé, et trois choses sont bonnes à savoir à l'avance. La Qarawiyyin, fondée en 859, est une mosquée en activité : les non-musulmans la voient depuis ses portes, la salle de prière étant réservée aux musulmans. Les médersas Bou Inania et Al-Attarine sont ouvertes aux visiteurs, et les tanneries Chouara se découvrent depuis les terrasses des boutiques de cuir qui les entourent. Les entrées des sites ne sont pas incluses : prévoyez un budget pour les médersas et pour Volubilis.",
+      "Le circuit étant privé, le prix est par personne et dépend de la taille du groupe : 1 380 € pour un voyageur seul, 825 € chacun à deux, 653 € à trois, 592 € à quatre, 535 € à cinq et 470 € chacun à partir de six personnes, pour des groupes jusqu'à 12. La prise en charge se fait à votre hôtel de Casablanca ou à l'aéroport Mohammed V, et le circuit se termine à Marrakech. Un transfert retour vers Casablanca, environ 240 km d'autoroute, peut être ajouté.",
+    ],
     faq: [
       {
         q: "Le circuit part-il de Casablanca pour se terminer à Marrakech ?",
@@ -4360,7 +4372,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "Pouvez-vous nous ramener à Casablanca à la fin ?",
-        a: "Oui, en supplément et non dans le prix du circuit. Cela représente environ 270 km d'autoroute depuis Marrakech, à peu près trois heures, et nous vous le chiffrons avec votre réservation. Beaucoup de voyageurs repartent plutôt de Marrakech en avion ou prennent le train, qui rejoint Casablanca en trois heures environ, confortablement et à petit prix.",
+        a: "Oui, en supplément et non dans le prix du circuit. Cela représente environ 240 km d'autoroute depuis Marrakech, à peu près trois heures, et nous vous le chiffrons avec votre réservation. Beaucoup de voyageurs repartent plutôt de Marrakech en avion ou prennent le train, qui rejoint Casablanca en trois heures environ, confortablement et à petit prix.",
       },
       {
         q: "Quelle est la durée des étapes en voiture ?",
@@ -4372,7 +4384,7 @@ export const TOURS: Tour[] = [
       },
       {
         q: "À quoi ressemble le campement dans le désert ?",
-        a: "Vous le rejoignez à dos de dromadaire au coucher du soleil : une tente privative pour votre groupe, avec dîner, petit-déjeuner et musique berbère autour du feu. Les sanitaires varient selon la catégorie du campement et nous vous précisons exactement ce que vous aurez avant la réservation. Notre [guide des campements du désert](/fr/blog/campement-desert-maroc-realite) détaille toutes les différences.",
+        a: "Vous le rejoignez à dos de dromadaire au coucher du soleil : une tente privative pour votre groupe, avec dîner, petit-déjeuner et musique berbère autour du feu. Sur ce circuit privé, la tente a aussi sa propre salle de bain, avec toilettes et douche chaude. Notre [guide des campements du désert](/fr/blog/campement-desert-maroc-realite) détaille les tentes, les sanitaires et les repas.",
       },
       {
         q: "Est-ce mieux que de partir de Marrakech ?",

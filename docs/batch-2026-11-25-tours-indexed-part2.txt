@@ -104,3 +104,10 @@ https://marrakechecotours.com/en/tours/desert-4day-marrakech
 https://marrakechecotours.com/fr/tours/circuit-desert-4-jours-marrakech
 https://marrakechecotours.com/es/tours/tour-desierto-4-dias-marrakech
 https://marrakechecotours.com/de/tours/wuestentour-4-tage-marrakesch
+https://marrakechecotours.com/en/tours/toubkal-summit-sahara-5day
+https://marrakechecotours.com/fr/tours/toubkal-sahara-5-jours
+https://marrakechecotours.com/es/tours/toubkal-sahara-5-dias
+https://marrakechecotours.com/de/tours/toubkal-sahara-5-tage
+https://marrakechecotours.com/en/tours/casablanca-fes-sahara-marrakech-5day
+https://marrakechecotours.com/fr/tours/casablanca-fes-sahara-marrakech-5-jours
+https://marrakechecotours.com/es/tours/casablanca-fez-sahara-marrakech-5-dias

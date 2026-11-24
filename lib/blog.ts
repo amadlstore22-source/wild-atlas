@@ -5548,7 +5548,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
     author: MET_TEAM,
     title: "What Does the 6-Day Toubkal Circuit Cost? (2026 Breakdown)",
     excerpt:
-      "The Toubkal circuit via Ifni Lake is from €1007 per person with us (€1,247 solo) and 6,000–9,000 MAD to arrange yourself — and the self-organised version is harder than the summit routes, because camping and mules enter the bill.",
+      "The Toubkal circuit via Ifni Lake is from €1,007 per person with us (minimum two people) and 6,000–9,000 MAD to arrange yourself — and the self-organised version is harder than the summit routes, because camping and mules enter the bill.",
     heroImage: "/gallery/ifni-lake-from-the-pass.jpg",
     category: "trekking",
     region: "atlas-mountains",
@@ -5560,7 +5560,7 @@ and reaches the refuge from above -- harder, quieter, and better looking.
     seoDescription:
       "What the 6-day Toubkal circuit via Ifni Lake costs in 2026: guide, mules, refuges, gîtes, camping and park fees itemised.",
     faq: [
-      { q: "How much does the 6-day Toubkal circuit cost?", a: "Self-organised, two people typically spend 6,000–9,000 MAD in total (about £475–710 / €560–840 for the pair) across six days of guiding, five nights of mixed accommodation, mules for camp gear, park fees and transfers. Our [6-day Toubkal circuit](/en/tours/toubkal-circuit-ifni-lake-6day) is €1007 per person for two, €599 at six, or €1,247 solo — all-inclusive." },
+      { q: "How much does the 6-day Toubkal circuit cost?", a: "Self-organised, two people typically spend 6,000–9,000 MAD in total (about £475–710 / €560–840 for the pair) across six days of guiding, five nights of mixed accommodation, mules for camp gear, park fees and transfers. Our [6-day Toubkal circuit](/en/tours/toubkal-circuit-ifni-lake-6day) is €1,007 per person for two and €599 at six, all-inclusive, for a minimum of two people." },
       { q: "Why does the circuit cost more per day than the summit trek?", a: "Because it leaves the refuge network. The circuit crosses to Ifni Lake and the southern valleys where there are no refuges, so nights are split between mountain refuges, village gîtes and camping — and camping means extra mules, a cook, and equipment. That is real additional cost, not a markup." },
       { q: "Is Ifni Lake worth adding to a Toubkal trip?", a: "If you have the days, yes. Lac d'Ifni is the only permanent lake in the High Atlas, sitting in a bowl below the southern side of the massif, and reaching it means crossing a high pass most Toubkal visitors never see. The summit routes show you the mountain; the circuit shows you the range around it." },
       { q: "What is not included in the 6-day circuit price?", a: "Travel insurance, personal trekking equipment including a sleeping bag for the camping nights, and tips for the guide, cook and muleteers — typically 150–200 MAD a day for the guide, 100–150 for the cook and 70–100 per muleteer, from the group. Everything else, including all five nights, every meal, the mules and the park fees, is included." },

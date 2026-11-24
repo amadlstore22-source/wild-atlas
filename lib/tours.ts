@@ -3043,7 +3043,7 @@ export const TOURS: Tour[] = [
       "This is the full ring around the Toubkal massif, and it is a different trip from the summit push that most people book. Six days, four high passes, and the summit saved for the last morning rather than treated as the whole point. You start at Tachedirt, cross Tizi Likemt at 3,555 m, drop to Azib Likemt, work south through Amsouzart, camp beside Lake Ifni at 2,295 m, then cross Tizi n'Ouanoums at 3,664 m to the Toubkal Refuge before summiting on day six.",
       "The walking is substantial and consistent: 4 hours on day one, 6–7 on day two with 1,255 m of ascent and 1,305 m down, 6 on day three, 5 on day four, 6–7 on day five with another 1,370 m of climbing, and 7–8 on the final day including the 4,167 m summit and a 2,430 m descent to Imlil. That is six consecutive days of mountain walking at altitude. It is graded challenging and the grade is honest.",
       "Lake Ifni is the reason to choose this over the standard route. It is the only real lake in the High Atlas, turquoise and set in a bowl of bare rock at 2,295 m, and almost nobody on a summit trek ever sees it. The nights vary too — refuges, village gîtes and camping rather than the same refuge twice — which means you pass through inhabited valleys and grazing land that the Imlil corridor never shows you.",
-      "Prices per person: €1,247 solo, €1007 for two, €761 for three, €671 for four, €635 for five and €599 at six. That includes the licensed mountain guide, all five nights, every meal on the trek, the mules and muleteers carrying group gear and camp, national park fees and the return transfer from Marrakech. Travel insurance is mandatory and not included, and you bring your own trekking kit and sleeping bag. Tips for the guide, cook and muleteers are separate and customary.",
+      "The trek runs for a minimum of two people, so prices start there: €1,007 each for two, €761 for three, €671 for four, €635 for five and €599 at six. That includes the licensed mountain guide, all five nights, every meal on the trek, the mules and muleteers carrying group gear and camp, national park fees and the return transfer from Marrakech. Travel insurance is mandatory and not included, and you bring your own trekking kit and sleeping bag. Tips for the guide, cook and muleteers are separate and customary.",
       "You do not carry your own gear beyond a day pack — the mule team moves camp. What you should bring is genuine hill fitness and broken-in boots. Six days is long enough that small problems become large ones, and the most common reason someone struggles here is footwear rather than fitness. Private group of 2–12.",
     ],
     title: "Toubkal Circuit & Ifni Lake from Marrakech — 6-Day Trek",
@@ -3051,7 +3051,7 @@ export const TOURS: Tour[] = [
     origin: "marrakech",
     difficulty: "challenging",
     duration: "6 days / 5 nights",
-    groupSize: "1–12 people",
+    groupSize: "2–12 people",
     tourType: "private",
     reviewCount: 21,
     rating: 4.9,
@@ -3061,15 +3061,18 @@ export const TOURS: Tour[] = [
     // EUR 1188 / 948 / 702 / 612 / 576 / 540: the owner raised trips that include the
     // Toubkal summit 20% on 2026-10-09 (was 990 / 790 / 585 / 510 / 480 / 450).
     groupPricing: [
-      { minPeople: 1, price: 1247 },
       { minPeople: 2, price: 1007 },
       { minPeople: 3, price: 761 },
       { minPeople: 4, price: 671 },
       { minPeople: 5, price: 635 },
       { minPeople: 6, price: 599 },
     ],
-    price: 1247,
-    depositAmount: 249,
+    price: 1007,
+    // Owner, 2026-11-24: this trek is not sold solo; two people is the
+    // smallest bookable party, so the headline and deposit are the two-person
+    // rate (deposit = 20% of it, as on every tour). Was 1247 / 249.
+    minPeople: 2,
+    depositAmount: 201,
     // Our own photographs, ordered to follow the itinerary: the high approach
     // and azib pastures of days 1-4, the lake the tour is named after, then the
     // Toubkal summit day that closes it. The summit frames are snow and the

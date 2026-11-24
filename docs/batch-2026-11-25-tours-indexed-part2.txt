@@ -95,3 +95,8 @@ https://marrakechecotours.com/es/blog/toubkal-weather-by-month
 https://marrakechecotours.com/de/blog/toubkal-weather-by-month
 https://marrakechecotours.com/it/blog/toubkal-weather-by-month
 https://marrakechecotours.com/ar/blog/toubkal-weather-by-month
+https://marrakechecotours.com/en/tours/sahara-3day-marrakech
+https://marrakechecotours.com/fr/tours/circuit-desert-3-jours-marrakech
+https://marrakechecotours.com/es/tours/tour-desierto-3-dias-marrakech
+https://marrakechecotours.com/de/tours/wuestentour-3-tage-marrakesch
+https://marrakechecotours.com/it/tours/tour-deserto-3-giorni-marrakech

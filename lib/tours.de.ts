@@ -1599,7 +1599,7 @@ export const TOURS: Tour[] = [
       "Dies ist die ultimative Wüstenrundreise ab Marrakesch. Vier Tage, um alles zu erleben, was der Süden Marokkos zu bieten hat: die Dramatik des Hohen Atlas, die filmreife Pracht von Aït Ben Haddou (Drehort von Game of Thrones, Gladiator und Lawrence von Arabien), die 400 m hohen Wände der Todra-Schlucht, eine ganze Nacht in einem Erg-Chebbi-Wüstencamp und die Rückreise über die legendäre Straße der Tausend Kasbahs. Eine Tour mit genug Zeit zum Durchatmen, Entdecken und wirklichen Aufsaugen einer der spektakulärsten Landschaften der Erde.",
     highlights: [
       "Ganze Nacht in einem Erg-Chebbi-Wüstencamp — Kameltrekking bei Sonnenauf- und -untergang",
-      "Todra-Schlucht — Marokkos dramatischste Schlucht (400 m Wände, 4 km Weg)",
+      "Todra-Schlucht — Marokkos dramatischste Schlucht (Wände bis 400 m, an der engsten Stelle 10 m auseinander)",
       "UNESCO-Ksar Aït Ben Haddou — Drehort von Gladiator und Game of Thrones",
       "Dades-Tal — Tal der Tausend Kasbahs",
       "Oase von Skoura — ein Meer aus Dattelpalmen und alten Lehmkasbahs",
@@ -1628,7 +1628,7 @@ export const TOURS: Tour[] = [
         meals: "D",
         stay: "Hotel",
         driving: "≈5 h",
-        distance: "≈360 km",
+        distance: "≈340 km",
         title: "Marrakesch → Aït Ben Haddou → Ouarzazate → Dades-Tal",
         description:
           "Abholung um 7:00 Uhr. Aufstieg über den Tizi-n'-Tichka-Pass durch den Hohen Atlas (2.260 m). Stopp an der UNESCO-Ksar Aït Ben Haddou für eine ausführliche 45-minütige Besichtigung. Mittagspause in Ouarzazate mit der Option, die Atlas-Filmstudios zu besuchen (Drehort von Gladiator und Game of Thrones). Weiterfahrt durch das dramatische Dades-Tal — rosarote Kasbahs, Oasendörfer und die Felsformationen der 'Affenfinger'. Ankunft im Hotel im Dades-Tal bis 17:00 Uhr. Abendessen und Übernachtung.",
@@ -1638,20 +1638,20 @@ export const TOURS: Tour[] = [
         meals: "B,D",
         stay: "Wüstencamp",
         driving: "≈4 h",
-        distance: "≈220 km",
+        distance: "≈300 km",
         title: "Dades-Tal → Todra-Schlucht → Merzouga-Wüstencamp",
         description:
-          "Frühstück im Hotel. Wanderung an der engsten Stelle der Todra-Schlucht — ein 40 m breiter Korridor zwischen 400 m hohen Kalksteinwänden mit einem klaren Fluss darunter. Weiterfahrt nach Osten durch die vorsaharische Ebene, vorbei an Oasenstädten und Nomadenweiden. Ankunft in Merzouga am Nachmittag. Aufsteigen auf das Kamel für den Sonnenuntergangs-Trek in die hoch aufragenden Dünen von Erg Chebbi. Ankunft im Camp, während sich der Himmel rot färbt. Traditioneller marokkanischer Tajine zum Abendessen, Berbermusik am Feuer und ein sternenübersäter Himmel.",
+          "Frühstück im Hotel. Wanderung an der engsten Stelle der Todra-Schlucht — wo sich der Canyon zwischen senkrechten Kalksteinwänden auf etwa 10 m verengt, mit einem klaren Fluss darunter. Weiterfahrt nach Osten durch die vorsaharische Ebene, vorbei an Oasenstädten und Nomadenweiden. Ankunft in Merzouga am Nachmittag. Aufsteigen auf das Kamel für den Sonnenuntergangs-Trek in die hoch aufragenden Dünen von Erg Chebbi. Ankunft im Camp, während sich der Himmel rot färbt. Traditioneller marokkanischer Tajine zum Abendessen, Berbermusik am Feuer und ein sternenübersäter Himmel.",
       },
       {
         day: 3,
         meals: "B,D",
         stay: "Hotel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈360 km",
         title: "Sahara-Sonnenaufgang → Dorf Merzouga → Ouarzazate",
         description:
-          "Aufstehen um 5:30 Uhr, um die Düne zu besteigen und das Erwachen der Sahara zu beobachten. Rückritt mit dem Kamel zum Camp, Frühstück und Auffrischen in der Pension von Merzouga. Beginn der Rückreise über die 'Straße der Tausend Kasbahs' — eine andere, südlichere Route durch Tazarine und N'Kob, eine Reihe alter Lehmkasbahs entlang einer alten Karawanenroute. Ankunft in Ouarzazate am Abend. Übernachtung im Hotel.",
+          "Aufstehen um 5:30 Uhr, um die Düne zu besteigen und das Erwachen der Sahara zu beobachten. Rückritt mit dem Kamel zum Camp, Frühstück und Auffrischen in der Pension von Merzouga. Beginn der Rückreise über die 'Straße der Tausend Kasbahs' — eine andere, südlichere Route über die N12 durch Alnif, bekannt für seine Trilobiten-Fossilien, Tazarine und N'Kob, ein Dorf mit rund 45 Lehmkasbahs an einer alten Karawanenroute, bevor sie bei Agdz ins Draa-Tal mündet. Ankunft in Ouarzazate am Abend. Übernachtung im Hotel.",
       },
       {
         day: 4,
@@ -1665,11 +1665,10 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Wie viel Gehen oder Anstrengung ist dabei?", a: "Sehr wenig – als leicht eingestuft. Der Großteil der Strecke erfolgt im klimatisierten Minibus oder 4x4; der Aufwand beschränkt sich auf kurze Spaziergänge an der Todra-Schlucht und in Ait Ben Haddou sowie die optionalen Kamelritte." },
-      { q: "Wo übernachtet man jede Nacht?", a: "Eine Nacht in einem Hotel im Dades-Tal, eine Nacht in einem Berbercamp am Erg Chebbi und eine Nacht in einem Hotel in Ouarzazate. Abendessen und Frühstück sind inklusive, außer am letzten Morgen in Ouarzazate (nur Frühstück)." },
+      { q: "Wo übernachtet man jede Nacht?", a: "Eine Nacht in einem Hotel im Dades-Tal, eine Nacht in einem Berbercamp am Erg Chebbi und eine Nacht in einem Hotel in Ouarzazate, jeweils mit Abendessen und Frühstück. Im Camp hat Ihr Zelt richtige Betten und ein eigenes Bad mit Dusche und WC; in den Hotels haben Sie private Zimmer." },
       { q: "Was ist nicht enthalten?", a: "Die Mittagessen (Budget etwa 12–15 € pro Mahlzeit), das optionale Ticket für die Atlas-Filmstudios (~7 €), alkoholische Getränke, die persönliche Reiseversicherung und Trinkgelder." },
       { q: "Erreicht man die echte Sahara?", a: "Ja – Sie erreichen das Erg Chebbi mit einer ganzen Nacht im Wüstencamp sowie Kamelritten bei Sonnenuntergang und Sonnenaufgang. Die vier Tage sind, was die richtige Überquerung des Atlas erfordert." },
       { q: "Was bringt der vierte Tag gegenüber der Drei-Tage-Tour?", a: "Zeit, nicht mehr Strecke. Die Drei-Tage-Tour fährt an einem einzigen Tag rund 560 km (etwa 9 Stunden) von den Dünen zurück nach Marrakesch; die Vier-Tage-Tour teilt diese Rückfahrt mit einer Nacht in Ouarzazate, sodass kein Tag mehr als etwa 5 Stunden Fahrt hat, und Sie sehen Aït Ben Haddou noch einmal im Morgenlicht. Wenn Ihnen an einer Drei-Tage-Tour die Fahrerei Sorge macht, ist das die Version, die Sie buchen sollten." },
-      { q: "Wie wird übernachtet?", a: "Eine Nacht in einem Hotel im Dades-Tal, eine Nacht in einem Wüstencamp am Erg Chebbi und eine Nacht in einem Hotel in Ouarzazate. Im Camp hat Ihr Zelt richtige Betten und ein eigenes Bad mit Dusche und WC; in den Hotels haben Sie private Zimmer." },
       { q: "Wie kalt wird es nachts in der Wüste?", a: "Im Frühjahr und Herbst nach Einbruch der Dunkelheit etwa 12–18 °C. Im Hochwinter kann es in den Dünen an den Gefrierpunkt gehen. Im Camp gibt es Decken, aber eine warme Schicht für den Abend lohnt sich in jeder Jahreszeit — der Abfall nach Sonnenuntergang ist deutlich." },
       { q: "Können Ernährungswünsche berücksichtigt werden?", a: "Ja. Vegetarisch ist auf dieser Route unproblematisch; vegan, halal und gängige Allergien lassen sich berücksichtigen, wenn Sie es bei der Buchung angeben, damit Camp und Kasbahs vorab Bescheid wissen." },
     ],
@@ -1677,8 +1676,10 @@ export const TOURS: Tour[] = [
     featured: true,
     brief: [
       "Die 4-tägige Wüstentour ab Marrakesch führt zu denselben Dünen des Erg Chebbi wie die 3-Tage-Tour und beinhaltet ebenfalls eine Nacht im Wüstencamp — der Unterschied liegt im deutlich ruhigeren Fahrtempo. Statt rund neun Stunden am Stück von Merzouga nach Marrakesch zurückzufahren, teilen Sie die Rückreise mit einer Übernachtung in Ouarzazate auf, sodass kein Fahrtag länger als etwa fünf Stunden dauert.",
-      "Tag eins umfasst rund 360 km und 5 Stunden von Marrakesch über Aït Ben Haddou und Ouarzazate ins Dadès-Tal. Tag zwei liegt bei etwa 220 km und 4 Stunden durch die Todra-Schlucht bis ins Erg Chebbi zum Kamelritt bei Sonnenuntergang. Am dritten Tag erleben Sie den Sonnenaufgang über den Dünen, besuchen Merzouga und fahren etwa 300 km (5 Stunden) nach Ouarzazate; am vierten Tag bleiben entspannte 200 km (4 Stunden) über den Tizi-n'Tichka-Pass nach Marrakesch.",
+      "Tag eins umfasst rund 340 km und 5 Stunden von Marrakesch über Aït Ben Haddou und Ouarzazate ins Dadès-Tal. Tag zwei liegt bei etwa 300 km und 4 Stunden durch die Todra-Schlucht bis ins Erg Chebbi zum Kamelritt bei Sonnenuntergang. Am dritten Tag erleben Sie den Sonnenaufgang über den Dünen, besuchen Merzouga und fahren etwa 360 km (5 Stunden) nach Ouarzazate; am vierten Tag bleiben entspannte 200 km (4 Stunden) über den Tizi-n'Tichka-Pass nach Marrakesch.",
       "Alle drei Nächte beinhalten Abendessen und Frühstück: eine Nacht im Hotel im Dadès-Tal, eine Nacht im festen Berber-Wüstencamp am Erg Chebbi mit eigenem Bad und eine Nacht im Hotel in Ouarzazate. Klimatisierter Privattransport (4x4 oder Minibus je nach Gruppengröße), zweisprachiger Fahrer-Guide, Kamelritte zum Sonnenunter- und -aufgang sowie Mineralwasser und Tee sind inbegriffen. Mittagessen, optionaler Eintritt in die Filmstudios, alkoholische Getränke, Reiseversicherung und Trinkgelder sind separat.",
+      "Da die Tour privat ist, gilt der Preis pro Person und hängt von der Gruppengröße ab: 889 € für eine Person allein, 526 € pro Person zu zweit, 399 € zu dritt, 346 € zu viert, 314 € zu fünft, 270 € zu sechst, 252 € pro Person bei sieben bis neun und 245 € pro Person für eine Gruppe von zehn. Abholung und Rückbringung erfolgen an Ihrem Hotel oder Riad in Marrakesch.",
+      "Wie sich die Nacht in den Dünen anfühlt, hängt stark vom Monat ab. Im Mittel der Jahre 2016 bis 2025 reicht der Erg Chebbi von etwa 18 °C am Tag und 4 °C in der Nacht im Januar bis zu etwa 42 °C am Tag und 28 °C in der Nacht im Juli, wenn neun von zehn Tagen 40 °C erreichen. März, April, Oktober und November sind die angenehmsten Monate, mit Tagen von 23 bis 29 °C und Nächten von 10 bis 16 °C. Im Januar sinkt etwa jede elfte Nacht bis auf den Gefrierpunkt; packen Sie also eine warme Schicht für den Abend ein, Decken stellt das Camp. Es handelt sich um modellierte Mittelwerte aus ERA5-Wetterdaten, da es in den Dünen keine Wetterstation gibt.",
       "Wählen Sie diese Variante, wenn Sie den Süden ohne Zeitdruck in Aït Ben Haddou erleben und nicht spät abends erschöpft in Marrakesch ankommen möchten. Da die Reise für Ihre Gruppe von 1 bis 10 Personen privat ist, sinkt der Preis pro Person spürbar mit der Gruppengröße und jede Pause richtet sich nach Ihnen.",
     ],
     seoTitle: "4 Tage Sahara-Tour Marrakesch–Merzouga",

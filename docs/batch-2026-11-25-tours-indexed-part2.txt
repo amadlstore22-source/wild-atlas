@@ -100,3 +100,7 @@ https://marrakechecotours.com/fr/tours/circuit-desert-3-jours-marrakech
 https://marrakechecotours.com/es/tours/tour-desierto-3-dias-marrakech
 https://marrakechecotours.com/de/tours/wuestentour-3-tage-marrakesch
 https://marrakechecotours.com/it/tours/tour-deserto-3-giorni-marrakech
+https://marrakechecotours.com/en/tours/desert-4day-marrakech
+https://marrakechecotours.com/fr/tours/circuit-desert-4-jours-marrakech
+https://marrakechecotours.com/es/tours/tour-desierto-4-dias-marrakech
+https://marrakechecotours.com/de/tours/wuestentour-4-tage-marrakesch

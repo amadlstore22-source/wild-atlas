@@ -1608,7 +1608,7 @@ export const TOURS: Tour[] = [
       "Voici le circuit désertique de référence au départ de Marrakech. Quatre jours pour vivre tout ce qu'offre le sud du Maroc : le spectacle du Haut Atlas, la grandeur cinématographique d'Aït Ben Haddou (utilisé dans Game of Thrones, Gladiator et Lawrence d'Arabie), les parois de 400 m des gorges du Todra, une nuit complète dans un camp désertique de l'Erg Chebbi, et le retour par la légendaire route des Mille Kasbahs. Un circuit avec assez de temps pour respirer, explorer et véritablement s'imprégner de l'un des paysages les plus spectaculaires de la planète.",
     highlights: [
       "Nuit complète dans un camp désertique de l'Erg Chebbi — balades à dos de chameau au coucher et au lever du soleil",
-      "Gorges du Todra — le canyon le plus spectaculaire du Maroc (parois de 400 m, marche de 4 km)",
+      "Gorges du Todra — le canyon le plus spectaculaire du Maroc (parois jusqu'à 400 m, 10 m d'écart au plus étroit)",
       "Ksar d'Aït Ben Haddou classé UNESCO — lieu de tournage de Gladiator et Game of Thrones",
       "Vallée du Dadès — vallée des Mille Kasbahs",
       "Oasis de Skoura — mer de palmiers-dattiers et anciennes kasbahs en terre",
@@ -1637,7 +1637,7 @@ export const TOURS: Tour[] = [
         meals: "D",
         stay: "Hôtel",
         driving: "≈5 h",
-        distance: "≈360 km",
+        distance: "≈340 km",
         title: "Marrakech → Aït Ben Haddou → Ouarzazate → Vallée du Dadès",
         description:
           "Prise en charge à 7h00. Ascension du col du Tizi n'Tichka à travers le Haut Atlas (2 260 m). Arrêt au ksar d'Aït Ben Haddou classé UNESCO pour une exploration complète de 45 minutes. Pause déjeuner à Ouarzazate avec possibilité de visiter les studios de cinéma de l'Atlas (où furent tournés Gladiator et Game of Thrones). Poursuite à travers la spectaculaire vallée du Dadès — kasbahs rose-rouge, villages oasiens et formations rocheuses en « doigts de singe ». Arrivée à l'hôtel de la vallée du Dadès vers 17h00. Dîner et nuit sur place.",
@@ -1647,20 +1647,20 @@ export const TOURS: Tour[] = [
         meals: "B,D",
         stay: "Campement dans le désert",
         driving: "≈4 h",
-        distance: "≈220 km",
+        distance: "≈300 km",
         title: "Vallée du Dadès → Gorges du Todra → Camp désertique de Merzouga",
         description:
-          "Petit-déjeuner à l'hôtel. Marche dans les gorges du Todra à leur point le plus étroit — un corridor de 40 m de large entre des parois calcaires de 400 m, avec une rivière limpide sous les pieds. Poursuite vers l'est à travers les plaines présahariennes, entre villes-oasis et pâturages nomades. Arrivée à Merzouga en après-midi. En selle sur un chameau pour la balade au coucher du soleil dans les dunes majestueuses de l'Erg Chebbi. Arrivée au camp tandis que le ciel devient rouge. Tajine marocain traditionnel pour le dîner, musique berbère autour du feu et un ciel vivant d'étoiles.",
+          "Petit-déjeuner à l'hôtel. Marche dans les gorges du Todra à leur point le plus étroit — là où le canyon se resserre à environ 10 m entre des parois calcaires à pic, avec une rivière limpide sous les pieds. Poursuite vers l'est à travers les plaines présahariennes, entre villes-oasis et pâturages nomades. Arrivée à Merzouga en après-midi. En selle sur un chameau pour la balade au coucher du soleil dans les dunes majestueuses de l'Erg Chebbi. Arrivée au camp tandis que le ciel devient rouge. Tajine marocain traditionnel pour le dîner, musique berbère autour du feu et un ciel vivant d'étoiles.",
       },
       {
         day: 3,
         meals: "B,D",
         stay: "Hôtel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈360 km",
         title: "Lever de soleil sur le Sahara → Village de Merzouga → Ouarzazate",
         description:
-          "Lever à 5h30 pour gravir la dune et observer le réveil du Sahara. Retour à dos de chameau au camp, petit-déjeuner et rafraîchissement au gîte de Merzouga. Début du retour par la « route des Mille Kasbahs » — un itinéraire différent, plus au sud, via Tazarine et N'Kob, un chapelet d'anciennes kasbahs en terre le long d'une ancienne route caravanière. Arrivée à Ouarzazate en soirée. Nuit à l'hôtel.",
+          "Lever à 5h30 pour gravir la dune et observer le réveil du Sahara. Retour à dos de chameau au camp, petit-déjeuner et rafraîchissement au gîte de Merzouga. Début du retour par la « route des Mille Kasbahs » — un itinéraire différent, plus au sud, par la N12 via Alnif, connue pour ses fossiles de trilobites, Tazarine et N'Kob, village d'environ 45 kasbahs en terre sur une ancienne route caravanière, avant de rejoindre la vallée du Drâa près d'Agdz. Arrivée à Ouarzazate en soirée. Nuit à l'hôtel.",
       },
       {
         day: 4,
@@ -1674,11 +1674,10 @@ export const TOURS: Tour[] = [
     ],
     faq: [
       { q: "Y a-t-il beaucoup de marche ou de difficulté ?", a: "Très peu — le circuit est classé facile. La plus grande partie de la distance se fait en minibus climatisé ou en 4x4 ; l'effort se limite à de courtes marches aux gorges du Todra et à Aït Ben Haddou, ainsi qu'aux balades facultatives à dos de chameau." },
-      { q: "Où dort-on chaque nuit ?", a: "Une nuit dans un hôtel de la vallée du Dadès, une nuit dans un camp berbère à l'Erg Chebbi, et une nuit dans un hôtel à Ouarzazate. Le dîner et le petit-déjeuner sont inclus, sauf le dernier matin à Ouarzazate (petit-déjeuner seulement)." },
+      { q: "Où dort-on chaque nuit ?", a: "Une nuit dans un hôtel de la vallée du Dadès, une nuit dans un camp berbère à l'Erg Chebbi et une nuit dans un hôtel à Ouarzazate, chaque fois avec dîner et petit-déjeuner. Au camp, votre tente a de vrais lits et sa propre salle de bain privée avec douche et WC ; les hôtels offrent des chambres privatives." },
       { q: "Qu'est-ce qui n'est pas inclus ?", a: "Les déjeuners (budget d'environ 12–15 € par repas), le billet facultatif des studios de cinéma de l'Atlas (~7 €), les boissons alcoolisées, l'assurance voyage personnelle et les pourboires." },
       { q: "Atteint-on le vrai Sahara ?", a: "Oui — vous atteignez l'Erg Chebbi avec une nuit complète au camp du désert et des balades à dos de chameau au coucher et au lever du soleil. La durée de quatre jours est ce qu'exige la traversée correcte de l'Atlas." },
       { q: "Qu'apporte le quatrième jour par rapport au circuit de trois jours ?", a: "Du temps, pas de la distance supplémentaire. Le circuit de trois jours parcourt environ 560 km (près de 9 heures) des dunes jusqu'à Marrakech en une seule journée ; le circuit de quatre jours coupe ce retour par une nuit à Ouarzazate, si bien qu'aucune journée ne dépasse environ 5 heures de route, et vous revoyez Aït Ben Haddou dans la lumière du matin. Si c'est la route qui vous inquiète dans un circuit de trois jours, c'est la version à réserver." },
-      { q: "Comment est-on logé ?", a: "Une nuit dans un hôtel de la vallée du Dadès, une nuit dans un camp du désert à l'Erg Chebbi et une nuit dans un hôtel à Ouarzazate. Au camp, votre tente a de vrais lits et sa propre salle de bain privée avec douche et WC ; les hôtels offrent des chambres privatives." },
       { q: "Quelles températures la nuit dans le désert ?", a: "Au printemps et en automne, environ 12 à 18 °C après la tombée du jour. En plein hiver, on peut approcher de zéro dans les dunes. Des couvertures sont fournies au camp, mais une couche chaude pour la soirée vaut la peine d'être emportée en toute saison — la chute après le coucher du soleil est brutale." },
       { q: "Les régimes alimentaires particuliers sont-ils pris en compte ?", a: "Oui. Le végétarien ne pose aucune difficulté sur cet itinéraire, et le végétalien, le halal et les allergies courantes peuvent être gérés si vous nous le signalez à la réservation, afin que le camp et les kasbahs soient prévenus à l'avance." },
     ],
@@ -1686,8 +1685,10 @@ export const TOURS: Tour[] = [
     featured: true,
     brief: [
       "Le Grand Tour du désert en 4 jours depuis Marrakech rejoint exactement les mêmes dunes d'Erg Chebbi que le circuit de 3 jours et comprend une nuit au campement dans le désert — la différence tient au rythme de la route. Au lieu d'enchaîner environ neuf heures de Merzouga à Marrakech en une seule journée, vous coupez le retour par une nuit à Ouarzazate afin qu'aucune journée ne dépasse environ cinq heures de conduite.",
-      "Le premier jour couvre environ 360 km et 5 heures de Marrakech à la vallée du Dadès via Aït Ben Haddou et Ouarzazate. Le deuxième jour compte environ 220 km et 4 heures par les gorges du Todra jusqu'à Erg Chebbi pour le coucher du soleil à dos de dromadaire. Le troisième jour, après le lever du soleil sur les dunes et le village de Merzouga, vous roulez environ 300 km (5 heures) vers Ouarzazate, laissant une dernière étape douce de 200 km (4 heures) par le Tizi n'Tichka jusqu'à Marrakech.",
+      "Le premier jour couvre environ 340 km et 5 heures de Marrakech à la vallée du Dadès via Aït Ben Haddou et Ouarzazate. Le deuxième jour compte environ 300 km et 4 heures par les gorges du Todra jusqu'à Erg Chebbi pour le coucher du soleil à dos de dromadaire. Le troisième jour, après le lever du soleil sur les dunes et le village de Merzouga, vous roulez environ 360 km (5 heures) vers Ouarzazate, laissant une dernière étape douce de 200 km (4 heures) par le Tizi n'Tichka jusqu'à Marrakech.",
       "Les trois nuits incluent dîner et petit-déjeuner : une nuit en hôtel dans la vallée du Dadès, une nuit en campement berbère permanent à Erg Chebbi avec salle de bain privative, et une nuit en hôtel à Ouarzazate. Le transport privé climatisé (4x4 ou minibus selon la taille du groupe), le chauffeur-guide anglophone/francophone, les balades à dromadaire au coucher et lever du soleil ainsi que l'eau minérale et le thé sont inclus. Les déjeuners, l'entrée optionnelle aux studios de cinéma, les boissons alcoolisées, l'assurance et les pourboires sont à part.",
+      "Le circuit étant privé, le prix est par personne et dépend de la taille du groupe : 889 € pour un voyageur seul, 526 € chacun à deux, 399 € à trois, 346 € à quatre, 314 € à cinq, 270 € à six, 252 € chacun de sept à neuf personnes et 245 € chacun pour un groupe de dix. La prise en charge et le retour se font à votre hôtel ou riad à Marrakech.",
+      "La nuit dans les dunes dépend beaucoup du mois. En moyenne de 2016 à 2025, l'Erg Chebbi passe d'environ 18 °C le jour et 4 °C la nuit en janvier à environ 42 °C le jour et 28 °C la nuit en juillet, quand neuf jours sur dix atteignent 40 °C. Mars, avril, octobre et novembre sont les mois les plus agréables, avec des journées de 23 à 29 °C et des nuits de 10 à 16 °C. En janvier, environ une nuit sur onze descend jusqu'au gel : prévoyez une couche chaude pour la soirée, le camp fournit les couvertures. Ce sont des moyennes modélisées à partir des données météo ERA5, faute de station météo dans les dunes.",
       "C'est la formule à choisir si vous voulez profiter du sud sans courir à Aït Ben Haddou ni rentrer épuisé tard le soir à Marrakech. Le voyage étant privé pour votre groupe de 1 à 10 personnes, le tarif par personne baisse nettement avec la taille du groupe et chaque pause suit votre propre rythme.",
     ],
     seoTitle: "Circuit Sahara 4 jours Marrakech–Merzouga",

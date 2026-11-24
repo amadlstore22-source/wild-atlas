@@ -86,6 +86,8 @@ const TOURS_WITH_BRIEF = [
   // 2026-11-24: both 5-day tours had no prose at all.
   "toubkal-summit-sahara-5day",
   "casablanca-fes-sahara-marrakech-5day",
+  // 2026-11-24: the 6-day Agadir imperial tour had no prose either.
+  "agadir-imperial-cities-6day",
 ] as const;
 
 describe("Tour brief", () => {

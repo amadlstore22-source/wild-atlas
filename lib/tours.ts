@@ -2976,7 +2976,7 @@ export const TOURS: Tour[] = [
         meals: "B,D",
         stay: "Riad or hotel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈250 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Meknes",
         description:
@@ -3010,14 +3010,21 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Optional stop at the Hassan II Mosque in Casablanca (exterior — one of the largest mosques in the world, with a 210 m minaret). Continue south to Marrakech. Onward transfer to Agadir or overnight. Tour concludes.",
+          "Optional stop at the Hassan II Mosque in Casablanca (one of the largest mosques in the world, with a 210 m minaret, and the only one in Morocco that non-Muslims can enter, on a guided tour). Continue south to Marrakech. Onward transfer to Agadir or overnight. Tour concludes.",
       },
+    ],
+    brief: [
+      "This tour links all four of Morocco's imperial cities, the cities that have served as the royal capital, in six days from Agadir. Fes was the capital under Idris II in the 9th century, Marrakech was founded by the Almoravids in the 11th, Meknes was Moulay Ismail's capital in the late 17th, and Rabat has been the capital since 1912. The medinas of all four, and the Roman city of Volubilis on the way, are UNESCO World Heritage sites, listed between 1981 (Fes) and 2012 (Rabat).",
+      "It is a route of about 1,500 km by private 4x4. Day one is the 250 km motorway run to Marrakech. Day two is the longest, about 410 km and 7 hours along the foot of the Atlas past Beni Mellal and up to Midelt. Day three crosses the Middle Atlas to Volubilis and Meknes, about 250 km. Day four starts with the short drive to Fes for a full guided day in the medina, day five is about 200 km to Rabat on the Atlantic, and day six about 325 km south past Casablanca to Marrakech, where the tour ends; the transfer back to Agadir, another 250 km, can be added.",
+      "Entrance fees for the sites on the itinerary are included, and two visits are worth understanding in advance. In Fes, the Al-Qarawiyyin is a working mosque, so non-Muslims see it through its doorways; the Bou Inania madrasa and the Chouara tanneries, seen from the terraces of the leather shops around them, are open to visitors. On day six, the Hassan II Mosque in Casablanca, with its 210 m minaret, is the one mosque in Morocco that non-Muslims can enter, on a guided tour that pauses at prayer times, so tell your guide if you want to go inside and the stop can be timed for it.",
+      "Midelt, the stop on night two, sits at about 1,500 m on the high plain between the Middle and High Atlas. Averaged over 2016 to 2025, it runs about 14 °C by day and 2 °C at night in January, when about one night in four drops below freezing, and snow falls on one or two days a month from December to February, so pack a warm layer for those months. Fes is the opposite problem in summer: July and August average 37 to 38 °C by day, so the medina day is best started early. In April, May and October Fes sits at a comfortable 23 to 28 °C. These are modelled averages from ERA5 weather data.",
+      "Because the tour is private, the price is per person and set by the size of your group: €922 for one traveller, €515 each for two, €422 for three, €371 for four, €335 for five and €303 each from six people up, for groups of up to 12. Breakfast and dinner are included every day; lunches and tips are not. Pick-up is at your hotel or riad in Agadir.",
     ],
     faq: [
       { q: "What does this six-day tour cover?", a: "Morocco's imperial cities over six days from Agadir, by private 4x4, with all transfers, tolls, and entrance fees included." },
       { q: "What is included?", a: "Private 4x4 transport, an English/French/Spanish-speaking guide, five nights in a riad or hotel (which one depends on availability), breakfast and dinner every day, and all transfers, tolls, and entrance fees. Lunches and tips are not included." },
       { q: "How much walking is there?", a: "Graded easy, but each day involves plenty of walking through medinas and monuments, so comfortable shoes help." },
-      { q: "Is it private?", a: "Yes — a private tour for your party of 2–12 with your own guide and vehicle." },
+      { q: "Is it private?", a: "Yes — a private tour for your party of 1 to 12 with your own guide and vehicle." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — your hotel or riad" },
     seoTitle: "6-Day Imperial Cities Tour, Agadir",

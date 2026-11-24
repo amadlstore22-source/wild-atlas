@@ -2326,7 +2326,7 @@ export const TOURS: Tour[] = [
         meals: "B,D",
         stay: "Riad o hotel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈250 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Meknes",
         description:
@@ -2360,14 +2360,21 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Sosta facoltativa alla Moschea Hassan II a Casablanca (esterno — una delle moschee più grandi del mondo, con un minareto di 210 m). Proseguimento verso sud fino a Marrakech. Trasferimento successivo ad Agadir o pernottamento. Il tour si conclude.",
+          "Sosta facoltativa alla Moschea Hassan II a Casablanca (una delle moschee più grandi del mondo, con un minareto di 210 m, e l'unica in Marocco in cui i non musulmani possono entrare, con visita guidata). Proseguimento verso sud fino a Marrakech. Trasferimento successivo ad Agadir o pernottamento. Il tour si conclude.",
       },
+    ],
+    brief: [
+      "Questo tour collega in sei giorni da Agadir tutte e quattro le città imperiali del Marocco, quelle che sono state capitale del regno. Fes lo fu con Idris II nel IX secolo, Marrakech fu fondata dagli Almoravidi nell'XI, Meknes fu la capitale di Moulay Ismail alla fine del XVII e Rabat è la capitale dal 1912. Le medine di tutte e quattro, e la città romana di Volubilis lungo la strada, sono Patrimonio dell'Umanità UNESCO, iscritte tra il 1981 (Fes) e il 2012 (Rabat).",
+      "È un percorso di circa 1.500 km in 4x4 privato. Il primo giorno sono 250 km di autostrada fino a Marrakech. Il secondo è il più lungo, circa 410 km e 7 ore ai piedi dell'Atlante, passando per Beni Mellal, fino a Midelt. Il terzo attraversa il Medio Atlante fino a Volubilis e Meknes, circa 250 km. Il quarto inizia con il breve tragitto fino a Fes per un'intera giornata guidata nella medina, il quinto sono circa 200 km fino a Rabat sull'Atlantico e il sesto circa 325 km verso sud, passando per Casablanca, fino a Marrakech, dove il tour si conclude; si può aggiungere il trasferimento di ritorno ad Agadir, altri 250 km.",
+      "Gli ingressi ai siti del programma sono inclusi, e conviene capire in anticipo due visite. A Fes la Qarawiyyin è una moschea attiva, quindi i non musulmani la vedono dalle sue porte; la madrasa Bou Inania e le concerie Chouara, osservate dalle terrazze dei negozi di pelle intorno, sono aperte ai visitatori. Il sesto giorno, la Moschea Hassan II di Casablanca, con il suo minareto di 210 m, è l'unica moschea del Marocco in cui i non musulmani possono entrare, con una visita guidata che si interrompe nelle ore di preghiera: dite alla vostra guida se volete entrare e la sosta verrà organizzata di conseguenza.",
+      "Midelt, la tappa della seconda notte, si trova a circa 1.500 m sull'altopiano tra il Medio e l'Alto Atlante. In media tra il 2016 e il 2025, a gennaio fa circa 14 °C di giorno e 2 °C di notte, quando circa una notte su quattro scende sotto zero, e nevica uno o due giorni al mese da dicembre a febbraio: in quei mesi portate uno strato caldo. Fes è il problema opposto d'estate: luglio e agosto arrivano in media a 37-38 °C di giorno, per questo conviene iniziare presto la giornata nella medina. Ad aprile, maggio e ottobre Fes si attesta su piacevoli 23-28 °C. Sono medie modellate dai dati meteo ERA5.",
+      "Essendo un tour privato, il prezzo è a persona e dipende dalla dimensione del gruppo: 922 € per un viaggiatore da solo, 515 € a testa in due, 422 € in tre, 371 € in quattro, 335 € in cinque e 303 € a testa da sei persone in su, per gruppi fino a 12. Colazione e cena sono incluse ogni giorno; pranzi e mance no. Il ritiro è presso il vostro hotel o riad ad Agadir.",
     ],
     faq: [
       { q: "Cosa copre questo tour di sei giorni?", a: "Le città imperiali del Marocco in sei giorni da Agadir, in 4x4 privato, con tutti i trasferimenti, pedaggi e ingressi inclusi." },
       { q: "Cosa è incluso?", a: "Trasporto in 4x4 privato, una guida di lingua inglese/francese/spagnola, cinque notti in riad o hotel (secondo disponibilità), colazione e cena ogni giorno e tutti i trasferimenti, pedaggi e ingressi. Pranzi e mance non sono inclusi." },
       { q: "Si cammina molto?", a: "Classificato come facile, ma ogni giorno comporta molto camminare tra medine e monumenti, quindi le scarpe comode aiutano." },
-      { q: "È privato?", a: "Sì: un tour privato per il tuo gruppo di 2-12 persone con guida e veicolo dedicati." },
+      { q: "È privato?", a: "Sì: un tour privato per il tuo gruppo da 1 a 12 persone con guida e veicolo dedicati." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — il tuo hotel o riad" },
     seoTitle: "Città Imperiali del Marocco, 6 giorni",

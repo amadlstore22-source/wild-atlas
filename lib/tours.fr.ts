@@ -2335,7 +2335,7 @@ export const TOURS: Tour[] = [
         meals: "B,D",
         stay: "Riad ou hôtel",
         driving: "≈5 h",
-        distance: "≈300 km",
+        distance: "≈250 km",
         stop: { name: "Meknes", lat: 33.893, lng: -5.547 },
         title: "Midelt → Volubilis → Meknès",
         description:
@@ -2369,14 +2369,21 @@ export const TOURS: Tour[] = [
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
-          "Arrêt facultatif à la mosquée Hassan II à Casablanca (extérieur — l'une des plus grandes mosquées du monde, au minaret de 210 m). Poursuite vers le sud jusqu'à Marrakech. Transfert vers Agadir ou nuit sur place. Fin du circuit.",
+          "Arrêt facultatif à la mosquée Hassan II à Casablanca (l'une des plus grandes mosquées du monde, au minaret de 210 m, et la seule du Maroc où les non-musulmans peuvent entrer, en visite guidée). Poursuite vers le sud jusqu'à Marrakech. Transfert vers Agadir ou nuit sur place. Fin du circuit.",
       },
+    ],
+    brief: [
+      "Ce circuit relie en six jours au départ d'Agadir les quatre villes impériales du Maroc, celles qui ont été capitale royale. Fès l'était sous Idriss II au IXe siècle, Marrakech a été fondée par les Almoravides au XIe, Meknès fut la capitale de Moulay Ismaïl à la fin du XVIIe, et Rabat est la capitale depuis 1912. Les médinas des quatre villes, et la cité romaine de Volubilis en chemin, sont inscrites au patrimoine mondial de l'UNESCO, entre 1981 (Fès) et 2012 (Rabat).",
+      "C'est un itinéraire d'environ 1 500 km en 4x4 privé. Le premier jour, 250 km d'autoroute jusqu'à Marrakech. Le deuxième jour est le plus long, environ 410 km et 7 heures au pied de l'Atlas, par Béni Mellal, jusqu'à Midelt. Le troisième jour traverse le Moyen Atlas jusqu'à Volubilis et Meknès, environ 250 km. Le quatrième jour commence par le court trajet jusqu'à Fès pour une journée complète guidée dans la médina, le cinquième compte environ 200 km jusqu'à Rabat sur l'Atlantique, et le sixième environ 325 km vers le sud par Casablanca jusqu'à Marrakech, où le circuit se termine ; le transfert retour vers Agadir, 250 km de plus, peut être ajouté.",
+      "Les entrées des sites au programme sont incluses, et deux visites méritent d'être comprises à l'avance. À Fès, la Qarawiyyin est une mosquée en activité : les non-musulmans la voient depuis ses portes ; la médersa Bou Inania et les tanneries Chouara, vues depuis les terrasses des boutiques de cuir qui les entourent, sont ouvertes aux visiteurs. Le sixième jour, la mosquée Hassan II de Casablanca, au minaret de 210 m, est la seule mosquée du Maroc où les non-musulmans peuvent entrer, en visite guidée interrompue aux heures de prière : dites à votre guide si vous voulez la visiter de l'intérieur, et l'arrêt sera calé en conséquence.",
+      "Midelt, l'étape de la deuxième nuit, se trouve à environ 1 500 m sur le haut plateau entre le Moyen et le Haut Atlas. En moyenne de 2016 à 2025, il y fait environ 14 °C le jour et 2 °C la nuit en janvier, quand environ une nuit sur quatre passe sous zéro, et il neige un ou deux jours par mois de décembre à février : prévoyez une couche chaude pour ces mois-là. Fès pose le problème inverse en été : juillet et août y atteignent en moyenne 37 à 38 °C le jour, d'où l'intérêt de commencer tôt la journée dans la médina. En avril, mai et octobre, Fès affiche un agréable 23 à 28 °C. Ce sont des moyennes modélisées à partir des données météo ERA5.",
+      "Le circuit étant privé, le prix est par personne et dépend de la taille du groupe : 922 € pour un voyageur seul, 515 € chacun à deux, 422 € à trois, 371 € à quatre, 335 € à cinq et 303 € chacun à partir de six personnes, pour des groupes jusqu'à 12. Le petit-déjeuner et le dîner sont inclus chaque jour ; les déjeuners et les pourboires ne le sont pas. La prise en charge se fait à votre hôtel ou riad à Agadir.",
     ],
     faq: [
       { q: "Que couvre ce circuit de six jours ?", a: "Les villes impériales du Maroc sur six jours au départ d'Agadir, en 4x4 privé, avec tous les transferts, péages et droits d'entrée inclus." },
       { q: "Qu'est-ce qui est inclus ?", a: "Le transport en 4x4 privé, un guide anglophone/francophone/hispanophone, cinq nuits en riad ou en hôtel (selon les disponibilités), le petit-déjeuner et le dîner chaque jour, et tous les transferts, péages et droits d'entrée. Les déjeuners et les pourboires ne sont pas inclus." },
       { q: "Y a-t-il beaucoup de marche ?", a: "Classé facile, mais chaque jour comporte beaucoup de marche dans les médinas et les monuments, de bonnes chaussures aident donc." },
-      { q: "Est-ce privé ?", a: "Oui — un circuit privé pour votre groupe de 2 à 12 personnes avec votre propre guide et véhicule." },
+      { q: "Est-ce privé ?", a: "Oui — un circuit privé pour votre groupe de 1 à 12 personnes avec votre propre guide et véhicule." },
     ],
     meetingPoint: { lat: 30.4278, lng: -9.5981, name: "Agadir — votre hôtel ou riad" },
     seoTitle: "Villes impériales du Maroc, 6 jours",

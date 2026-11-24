@@ -251,13 +251,13 @@ Si nos cuentas tus fechas y qué te importa realmente, te esbozamos una ruta, in
     slug: "toubkal-weather-by-month",
     author: MET_TEAM,
     title: "El tiempo en el Toubkal mes a mes: cuándo subir y qué esperar",
-    excerpt: "La cima está 3.700 metros por encima de Marrakech, y el clima lo refleja. Guía mes a mes de las condiciones en el Jbel Toubkal, con lecturas en vivo desde el valle.",
+    excerpt: "La cima está 3.700 metros por encima de Marrakech, y el clima lo refleja. Guía mes a mes de las condiciones en el Jbel Toubkal, con lecturas en vivo para el valle, el refugio y la cumbre.",
     heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
-    readTime: 9,
+    readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-11-24",
     weatherRegion: "High Atlas",
     tags: ["tiempo en el Toubkal", "cuándo subir al Toubkal", "Alto Atlas", "condiciones del Toubkal", "trekking en Marruecos", "mejor época para el Toubkal"],
     seoTitle: "Toubkal: tiempo y temperatura mes a mes",
@@ -271,6 +271,8 @@ Si nos cuentas tus fechas y qué te importa realmente, te esbozamos una ruta, in
       { q: "¿Se puede subir al Toubkal en invierno sin equipo especial?", a: "No. De noviembre a abril aproximadamente, la ruta superior es una ascensión sobre nieve que requiere crampones, piolet, botas lo bastante rígidas para llevar crampones y saber usarlos. Es alcanzable para principiantes en forma, pero solo junto a un guía cualificado para condiciones invernales." },
     
       { q: "¿Son buenos meses abril, mayo, septiembre u octubre para el Toubkal?", a: "Son los cuatro mejores meses del año. Abril y mayo pillan la nieve en retirada y los valles en su punto más verde, aunque el cono de cumbre puede conservar nieve en abril y a veces en mayo, así que pregunta en vez de dar por hecho que no harán falta crampones. Septiembre y octubre dan el tiempo más fiable de todos: cielos estables, temperaturas cómodas para caminar y una cumbre normalmente de roca desnuda. Entre esos meses se concentran la mayoría de nuestras salidas al Toubkal." },
+      { q: "¿Qué temperatura hace en la cumbre del Toubkal?", a: "Depende mucho del mes. En la media de 2016 a 2025, la mínima nocturna de la cumbre ronda los −12 °C en enero y febrero y los 6 °C en julio, y la máxima diurna va de unos −4 °C en pleno invierno a unos 15 °C en pleno verano. Los días de cumbre empiezan antes del amanecer: prepárate para la mínima y suma la sensación térmica del viento en la cresta. En la cumbre no hay estación, así que son medias modeladas." },
+      { q: "¿Cómo es el Toubkal en diciembre y enero?", a: "Pleno invierno. De media la cumbre se queda bajo cero todo el día unos 24 días de cada mes, con noches de −10 a −12 °C y nieve en la parte alta. El refugio baja a unos −4 a −5 °C por la noche e Imlil a 1–3 °C. La ascensión invernal es posible con crampones, piolet y un guía cualificado para la nieve." },
     ],
     content: `
 El clima del Toubkal no es el de Marrakech con un jersey puesto. La cima se sitúa a 4.167 metros, unos 3.700 metros por encima de la ciudad en la que aterrizaste, y esa distancia vertical influye en tu día mucho más que el mes del calendario. La gente reserva un trekking de verano, hace la maleta como para unas vacaciones de verano, y se encuentra con un viento gélido en una ladera antes del amanecer. Otros descartan el invierno por completo sin saber que es una de las épocas más espectaculares para estar allí arriba, si llegas bien equipado.
@@ -285,13 +287,36 @@ El aire se enfría al ascender. Como regla práctica, cada 1.000 metros de ascen
 
 Imlil, el pueblo de salida, está a unos 1.740 metros. El refugio está cerca de los 3.200. La cima está a 4.167. Así que el terreno donde empiezas y el terreno donde acabas están separados por casi dos kilómetros y medio verticales.
 
-Hazlo el cálculo en un día templado de primavera: unos agradables 20 °C en Imlil son, de forma plausible, unos 6 °C en el refugio y casi cero en la cima. Añade el viento, que raramente falta en la cresta cumbrera, y la temperatura que registra tu piel baja todavía más. Por eso nuestros guías hablan de capas en lugar de un abrigo.
+Hazlo el cálculo en un día templado de primavera: unos agradables 20 °C en Imlil suelen ser unos 11 °C en el refugio y unos 6 °C en la cima, y bajo cero en la cima antes del amanecer, cuando se sale. Añade el viento, que raramente falta en la cresta cumbrera, y la temperatura que registra tu piel baja todavía más. Por eso nuestros guías hablan de capas en lugar de un abrigo.
 
 - **Imlil (1.740 m)** — donde empieza el sendero. Las lecturas más suaves, y el número que muestran la mayoría de las apps meteorológicas si buscas la región.
 - **Refugio (3.200 m)** — donde duermes. Espera una caída sustancial respecto al valle, y noches frías todo el año.
 - **Cima (4.167 m)** — alrededor de cero o por debajo durante buena parte del año, y encima la sensación térmica del viento.
 
-El panel en vivo de arriba mide a nivel del valle. Tómalo como punto de partida, resta a medida que subes, y resta otra vez por el viento.
+El panel en vivo de arriba da primero la lectura del valle y después la previsión para el refugio y la cumbre a su propia altitud. Son temperaturas del aire: resta otra vez por el viento en la cresta.
+
+## Temperaturas del Toubkal mes a mes
+
+En la cumbre no hay ninguna estación meteorológica, así que todas las cifras de cumbre que encontrarás en internet son modeladas. Estas son las nuestras: la media de máximas diurnas y mínimas nocturnas de cada mes entre 2016 y 2025, a la altitud de Imlil, del refugio y de la cumbre, a partir del reanálisis ERA5 a través de Open-Meteo. Coinciden con un margen de un grado aproximadamente con otras cifras publicadas para el macizo, pero léelas como valores típicos, no como una promesa.
+
+| Mes | Imlil, 1.740 m | Refugio, 3.207 m | Cumbre, 4.167 m | Días bajo 0 °C todo el día en la cumbre |
+|---|---|---|---|---|
+| Enero | 12 / 1 | 2 / −5 | −4 / −12 | 24 |
+| Febrero | 13 / 2 | 2 / −6 | −4 / −12 | 22 |
+| Marzo | 14 / 3 | 4 / −5 | −2 / −10 | 20 |
+| Abril | 17 / 6 | 8 / −1 | 3 / −6 | 7 |
+| Mayo | 21 / 9 | 12 / 3 | 7 / −2 | 2 |
+| Junio | 24 / 12 | 17 / 7 | 11 / 2 | 0 |
+| Julio | 30 / 17 | 21 / 11 | 15 / 6 | 0 |
+| Agosto | 30 / 17 | 19 / 10 | 13 / 5 | 0 |
+| Septiembre | 25 / 13 | 15 / 6 | 9 / 1 | 0 |
+| Octubre | 21 / 10 | 11 / 3 | 5 / −3 | 3 |
+| Noviembre | 16 / 6 | 6 / −1 | 0 / −7 | 13 |
+| Diciembre | 13 / 3 | 3 / −4 | −3 / −10 | 24 |
+
+Media de máxima diurna / mínima nocturna en °C, sin la sensación térmica del viento.
+
+**Cómo leerla.** Un día de cumbre empieza de noche, así que la mínima nocturna es la temperatura con la que subes y la máxima la que sientes al bajar. La última columna decide tu equipo: de diciembre a marzo la cumbre se queda bajo cero todo el día la mayoría de los días del mes, y por eso la parte alta exige crampones y piolet. Las medias también esconden las olas de frío: aproximadamente una noche de enero de cada veinticinco baja de −20 °C en la cumbre, y la más fría de los diez años llegó a −27 °C, el 20 de enero de 2017.
 
 ## El Toubkal mes a mes
 

@@ -251,13 +251,13 @@ Wenn Sie uns Ihre Daten nennen und was Ihnen wirklich wichtig ist, skizzieren wi
     slug: "toubkal-weather-by-month",
     author: MET_TEAM,
     title: "Toubkal-Wetter nach Monat: Wann klettern und was erwartet Sie",
-    excerpt: "Der Gipfel liegt 3.700 Meter über Marrakech, und das Wetter spiegelt das wider. Ein Monat-für-Monat-Guide zu den Bedingungen am Jbel Toubkal, mit Live-Werten aus dem Tal darunter.",
+    excerpt: "Der Gipfel liegt 3.700 Meter über Marrakech, und das Wetter spiegelt das wider. Ein Monat-für-Monat-Guide zu den Bedingungen am Jbel Toubkal, mit Live-Werten für das Tal, die Hütte und den Gipfel.",
     heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
-    readTime: 9,
+    readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-11-24",
     weatherRegion: "High Atlas",
     tags: ["Toubkal Wetter", "wann Toubkal besteigen", "Hoher Atlas", "Toubkal Bedingungen", "Marokko Trekking", "beste Zeit Toubkal"],
     seoTitle: "Toubkal-Wetter am Gipfel, Monat für Monat",
@@ -271,6 +271,8 @@ Wenn Sie uns Ihre Daten nennen und was Ihnen wirklich wichtig ist, skizzieren wi
       { q: "Kann man den Toubkal im Winter ohne Spezialausrüstung besteigen?", a: "Nein. Von etwa November bis April ist die obere Route eine Schneetour, die Steigeisen, einen Eispickel, für Steigeisen taugliche Stiefel und das Wissen zu deren Einsatz erfordert. Fitte Anfänger schaffen es, aber nur an der Seite eines für Winterbedingungen qualifizierten Guides." },
     
       { q: "Sind April, Mai, September oder Oktober gute Toubkal-Monate?", a: "Das sind die vier besten Monate des Jahres. April und Mai erwischen den zurückweichenden Schnee und die Täler im satten Grün, wobei der Gipfelkegel im April und gelegentlich im Mai noch Schnee halten kann — fragen Sie also lieber nach, statt Steigeisen für überflüssig zu halten. September und Oktober liefern das verlässlichste Wetter überhaupt: stabile Verhältnisse, angenehme Gehtemperaturen und ein Gipfel, der meist blanker Fels ist. Auf diese Monate entfallen die meisten unserer Toubkal-Abfahrten." },
+      { q: "Wie kalt ist es auf dem Gipfel des Toubkal?", a: "Das hängt stark vom Monat ab. Im Mittel von 2016 bis 2025 liegt der Nachttiefstwert am Gipfel im Januar und Februar bei etwa −12 °C und im Juli bei etwa 6 °C, der Tageshöchstwert reicht von etwa −4 °C im Hochwinter bis etwa 15 °C im Hochsommer. Gipfeltage beginnen vor Sonnenaufgang: Planen Sie für den Tiefstwert und rechnen Sie am Grat den Windchill dazu. Auf dem Gipfel steht keine Station, es sind also modellierte Mittelwerte." },
+      { q: "Wie ist der Toubkal im Dezember und Januar?", a: "Tiefer Winter. Im Mittel bleibt der Gipfel an etwa 24 Tagen pro Monat ganztägig unter null, mit Nächten um −10 bis −12 °C und Schnee am oberen Weg. Die Hütte kühlt nachts auf etwa −4 bis −5 °C ab, Imlil auf etwa 1 bis 3 °C. Eine Winterbesteigung ist mit Steigeisen, Pickel und einem für Schnee qualifizierten Guide möglich." },
     ],
     content: `
 Das Wetter am Toubkal ist nicht das Wetter von Marrakech mit einem Pullover drüber. Der Gipfel liegt auf 4.167 Metern, rund 3.700 Meter über der Stadt, in der Sie gelandet sind, und dieser Höhenunterschied prägt Ihren Tag mehr als der Kalendermonat. Manche buchen einen Sommertrek, packen für einen Sommerurlaub und treffen auf einen eisigen Wind an einem Hang vor Sonnenaufgang. Andere schreiben den Winter komplett ab, ohne zu wissen, dass es eine der spektakulärsten Zeiten dort oben ist – wenn man richtig ausgerüstet anreist.
@@ -285,13 +287,36 @@ Luft kühlt ab, je höher sie steigt. Als Faustregel sinkt die Temperatur pro 1.
 
 Imlil, das Dorf am Ausgangspunkt, liegt auf rund 1.740 Metern. Die Hütte liegt nahe 3.200. Der Gipfel liegt bei 4.167. Der Boden, auf dem Sie starten, und der, auf dem Sie enden, liegen also fast zweieinhalb vertikale Kilometer auseinander.
 
-Rechnen Sie es an einem milden Frühlingstag durch: angenehme 20 °C in Imlil sind plausibel etwa 6 °C an der Hütte und nahe dem Gefrierpunkt auf dem Gipfel. Dazu kommt Wind, an dem es dem Gipfelgrat selten mangelt, und die gefühlte Temperatur sinkt weiter. Deshalb sprechen unsere Guides von Lagen statt von einem Mantel.
+Rechnen Sie es an einem milden Frühlingstag durch: angenehme 20 °C in Imlil sind meist etwa 11 °C an der Hütte und etwa 6 °C auf dem Gipfel, und vor Sonnenaufgang, wenn Sie aufbrechen, liegt der Gipfel unter null. Dazu kommt Wind, an dem es dem Gipfelgrat selten mangelt, und die gefühlte Temperatur sinkt weiter. Deshalb sprechen unsere Guides von Lagen statt von einem Mantel.
 
 - **Imlil (1.740 m)** — wo der Weg beginnt. Mildeste Werte, und die Zahl, die die meisten Wetter-Apps anzeigen, wenn man nach der Region sucht.
 - **Hütte (3.200 m)** — wo Sie schlafen. Erwarten Sie einen deutlichen Abfall gegenüber dem Tal und kalte Nächte das ganze Jahr über.
 - **Gipfel (4.167 m)** — über weite Teile des Jahres um oder unter dem Gefrierpunkt, dazu Windchill.
 
-Das Live-Panel oben zeigt Werte auf Talniveau. Behandeln Sie es als Ausgangspunkt, ziehen Sie beim Aufstieg ab, und ziehen Sie für Wind noch einmal ab.
+Das Live-Panel oben zeigt zuerst den Talwert, dann die Vorhersage für Hütte und Gipfel auf ihrer eigenen Höhe. Das sind Lufttemperaturen: Ziehen Sie für den Wind am Grat noch einmal ab.
+
+## Toubkal-Temperaturen Monat für Monat
+
+Auf dem Gipfel steht keine Wetterstation, daher sind alle Gipfelwerte, die Sie im Netz finden, modelliert. Dies sind unsere: der Durchschnitt der Tageshöchst- und Nachttiefstwerte jedes Monats von 2016 bis 2025, auf der Höhe von Imlil, der Hütte und des Gipfels, aus der ERA5-Reanalyse über Open-Meteo. Sie stimmen bis auf etwa ein Grad mit anderen veröffentlichten Werten für das Massiv überein, sind aber typische Werte, kein Versprechen.
+
+| Monat | Imlil, 1.740 m | Hütte, 3.207 m | Gipfel, 4.167 m | Gipfeltage ganztägig unter 0 °C |
+|---|---|---|---|---|
+| Januar | 12 / 1 | 2 / −5 | −4 / −12 | 24 |
+| Februar | 13 / 2 | 2 / −6 | −4 / −12 | 22 |
+| März | 14 / 3 | 4 / −5 | −2 / −10 | 20 |
+| April | 17 / 6 | 8 / −1 | 3 / −6 | 7 |
+| Mai | 21 / 9 | 12 / 3 | 7 / −2 | 2 |
+| Juni | 24 / 12 | 17 / 7 | 11 / 2 | 0 |
+| Juli | 30 / 17 | 21 / 11 | 15 / 6 | 0 |
+| August | 30 / 17 | 19 / 10 | 13 / 5 | 0 |
+| September | 25 / 13 | 15 / 6 | 9 / 1 | 0 |
+| Oktober | 21 / 10 | 11 / 3 | 5 / −3 | 3 |
+| November | 16 / 6 | 6 / −1 | 0 / −7 | 13 |
+| Dezember | 13 / 3 | 3 / −4 | −3 / −10 | 24 |
+
+Mittlere Tageshöchst- / Nachttiefstwerte in °C, ohne Windchill.
+
+**So lesen Sie die Tabelle.** Ein Gipfeltag beginnt im Dunkeln: Der Nachttiefstwert ist die Temperatur, in der Sie aufsteigen, der Höchstwert die, die Sie beim Abstieg spüren. Die letzte Spalte entscheidet über Ihre Ausrüstung: Von Dezember bis März bleibt der Gipfel an den meisten Tagen des Monats ganztägig unter null, deshalb braucht der obere Weg Steigeisen und Pickel. Mittelwerte verdecken auch Kälteeinbrüche: Etwa eine von fünfundzwanzig Januarnächten fällt am Gipfel unter −20 °C, und die kälteste der zehn Jahre erreichte −27 °C, am 20. Januar 2017.
 
 ## Toubkal Monat für Monat
 

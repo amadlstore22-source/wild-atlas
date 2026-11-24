@@ -251,13 +251,13 @@ Se ci dici le tue date e cosa ti interessa davvero, ti disegneremo un percorso �
     slug: "toubkal-weather-by-month",
     author: MET_TEAM,
     title: "Il Meteo sul Toubkal Mese per Mese: Quando Salire e Cosa Aspettarsi",
-    excerpt: "La vetta si trova 3.700 metri sopra Marrakech, e il meteo lo riflette. Una guida mese per mese sulle condizioni sul Jbel Toubkal, con letture live dalla valle sottostante.",
+    excerpt: "La vetta si trova 3.700 metri sopra Marrakech, e il meteo lo riflette. Una guida mese per mese sulle condizioni sul Jbel Toubkal, con letture live per la valle, il rifugio e la vetta.",
     heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
-    readTime: 9,
+    readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-11-24",
     weatherRegion: "High Atlas",
     tags: ["meteo Toubkal", "quando salire il Toubkal", "Alto Atlante", "condizioni Toubkal", "trekking Marocco", "periodo migliore Toubkal"],
     seoTitle: "Il Meteo sul Toubkal Mese per Mese",
@@ -271,6 +271,8 @@ Se ci dici le tue date e cosa ti interessa davvero, ti disegneremo un percorso �
       { q: "Si può salire il Toubkal in inverno senza attrezzatura speciale?", a: "No. Da circa novembre ad aprile il percorso alto diventa una scalata su neve che richiede ramponi, piccozza, scarponi rigidi adatti ai ramponi e la conoscenza per usarli. È fattibile per principianti in forma, ma solo insieme a una guida qualificata per condizioni invernali." },
     
       { q: "Aprile, maggio, settembre o ottobre sono buoni mesi per il Toubkal?", a: "Sono i quattro mesi migliori dell'anno. Aprile e maggio colgono la neve in ritirata e le valli al massimo del verde, anche se il cono sommitale può ancora trattenere neve ad aprile e talvolta a maggio: chiedi invece di dare per scontato che i ramponi non servano. Settembre e ottobre offrono il tempo più affidabile in assoluto: cieli stabili, temperature comode per camminare e una vetta di solito di roccia nuda. Su questi mesi si concentra la maggior parte delle nostre partenze per il Toubkal." },
+      { q: "Quanto fa freddo in vetta al Toubkal?", a: "Dipende molto dal mese. In media tra il 2016 e il 2025 la minima notturna in vetta è di circa −12 °C a gennaio e febbraio e di circa 6 °C a luglio, e la massima diurna va da circa −4 °C in pieno inverno a circa 15 °C in piena estate. Le giornate di vetta iniziano prima dell'alba: preparati per la minima e aggiungi il raffreddamento del vento sulla cresta. In vetta non c'è nessuna stazione, quindi sono medie modellate." },
+      { q: "Com'è il Toubkal a dicembre e gennaio?", a: "Pieno inverno. In media la vetta resta sotto zero tutto il giorno per circa 24 giorni al mese, con notti tra −10 e −12 °C e neve nella parte alta. Il rifugio scende a circa −4/−5 °C di notte e Imlil a circa 1–3 °C. Una salita invernale è possibile con ramponi, piccozza e una guida qualificata per la neve." },
     ],
     content: `
 Il meteo del Toubkal non è il meteo di Marrakech con un maglione in più. La vetta si trova a 4.167 metri, circa 3.700 metri sopra la città in cui sei atterrato, e quella distanza verticale influisce sulla tua giornata più del mese sul calendario. Le persone prenotano un trekking estivo, fanno lo zaino per una vacanza estiva, e incontrano un vento gelido su un pendio prima dell'alba. Altri scartano completamente l'inverno senza sapere che è uno dei periodi più spettacolari per essere lassù, se si arriva attrezzati.
@@ -285,13 +287,36 @@ L'aria si raffredda salendo. Come regola pratica, ogni 1.000 metri di salita fa 
 
 Imlil, il villaggio di partenza, si trova a circa 1.740 metri. Il rifugio è vicino ai 3.200. La vetta è a 4.167. Quindi il terreno da cui parti e quello su cui finisci sono separati da quasi due chilometri e mezzo verticali.
 
-Facciamo i calcoli in una mite giornata primaverile: un piacevole 20°C a Imlil è plausibilmente circa 6°C al rifugio e vicino allo zero in vetta. Aggiungi il vento, che raramente manca sulla cresta della vetta, e la temperatura percepita dalla pelle scende ulteriormente. Ecco perché le nostre guide parlano di strati piuttosto che di un cappotto.
+Facciamo i calcoli in una mite giornata primaverile: un piacevole 20°C a Imlil corrisponde di solito a circa 11°C al rifugio e circa 6°C in vetta, e prima dell'alba, quando si parte, la vetta è sotto zero. Aggiungi il vento, che raramente manca sulla cresta della vetta, e la temperatura percepita dalla pelle scende ulteriormente. Ecco perché le nostre guide parlano di strati piuttosto che di un cappotto.
 
 - **Imlil (1.740 m)** — dove inizia il sentiero. Letture più miti, e il numero che la maggior parte delle app meteo mostra se cerchi la regione.
 - **Rifugio (3.200 m)** — dove dormi. Aspettati un calo sostanziale rispetto alla valle, e notti fredde tutto l'anno.
 - **Vetta (4.167 m)** — intorno o sotto lo zero per gran parte dell'anno, con il windchill in aggiunta.
 
-Il pannello live sopra legge i dati a livello di valle. Trattalo come punto di partenza, sottrai man mano che sali, e sottrai ancora per il vento.
+Il pannello live qui sopra dà prima la lettura in valle, poi la previsione per il rifugio e la vetta alla loro quota. Sono temperature dell'aria: sottrai ancora per il vento sulla cresta.
+
+## Le temperature del Toubkal mese per mese
+
+In vetta non c'è nessuna stazione meteo, quindi tutti i dati di vetta che trovi online sono modellati. Questi sono i nostri: la media delle massime diurne e delle minime notturne di ogni mese dal 2016 al 2025, alla quota di Imlil, del rifugio e della vetta, dalla rianalisi ERA5 tramite Open-Meteo. Concordano entro circa un grado con altri dati pubblicati per il massiccio, ma leggili come valori tipici, non come una promessa.
+
+| Mese | Imlil, 1.740 m | Rifugio, 3.207 m | Vetta, 4.167 m | Giorni in vetta sotto 0 °C tutto il giorno |
+|---|---|---|---|---|
+| Gennaio | 12 / 1 | 2 / −5 | −4 / −12 | 24 |
+| Febbraio | 13 / 2 | 2 / −6 | −4 / −12 | 22 |
+| Marzo | 14 / 3 | 4 / −5 | −2 / −10 | 20 |
+| Aprile | 17 / 6 | 8 / −1 | 3 / −6 | 7 |
+| Maggio | 21 / 9 | 12 / 3 | 7 / −2 | 2 |
+| Giugno | 24 / 12 | 17 / 7 | 11 / 2 | 0 |
+| Luglio | 30 / 17 | 21 / 11 | 15 / 6 | 0 |
+| Agosto | 30 / 17 | 19 / 10 | 13 / 5 | 0 |
+| Settembre | 25 / 13 | 15 / 6 | 9 / 1 | 0 |
+| Ottobre | 21 / 10 | 11 / 3 | 5 / −3 | 3 |
+| Novembre | 16 / 6 | 6 / −1 | 0 / −7 | 13 |
+| Dicembre | 13 / 3 | 3 / −4 | −3 / −10 | 24 |
+
+Media delle massime diurne / minime notturne in °C, senza il raffreddamento dovuto al vento.
+
+**Come leggerla.** Una giornata di vetta comincia al buio: la minima notturna è la temperatura in cui sali, la massima quella che senti scendendo. L'ultima colonna decide la tua attrezzatura: da dicembre a marzo la vetta resta sotto zero tutto il giorno nella maggior parte dei giorni del mese, ed è per questo che la parte alta richiede ramponi e piccozza. Le medie nascondono anche le ondate di freddo: circa una notte di gennaio su venticinque scende sotto i −20 °C in vetta, e la più fredda dei dieci anni ha toccato −27 °C, il 20 gennaio 2017.
 
 ## Il Toubkal mese per mese
 

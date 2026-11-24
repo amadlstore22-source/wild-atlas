@@ -517,7 +517,11 @@ export default async function BlogPostPage({ params }: BlogParams) {
                   )}
                   {/* Widget sits between segments only, never after the last one. */}
                   {i < blocks.length - 1 && post.weatherRegion && (
-                    <BlogWeather region={post.weatherRegion} dict={dict} />
+                    <BlogWeather
+                      region={post.weatherRegion}
+                      dict={dict}
+                      altitudes={post.slug === "toubkal-weather-by-month"}
+                    />
                   )}
                 </div>
               ))}

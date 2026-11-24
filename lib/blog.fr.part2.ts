@@ -251,13 +251,13 @@ Si vous nous indiquez vos dates et ce qui compte réellement pour vous, nous esq
     slug: "toubkal-weather-by-month",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "La météo du Toubkal mois par mois : quand grimper et à quoi s'attendre",
-    excerpt: "Le sommet se dresse à 3 700 mètres au-dessus de Marrakech, et la météo en tient compte. Un guide mois par mois des conditions sur le Jbel Toubkal, avec les relevés en direct depuis la vallée en contrebas.",
+    excerpt: "Le sommet se dresse à 3 700 mètres au-dessus de Marrakech, et la météo en tient compte. Un guide mois par mois des conditions sur le Jbel Toubkal, avec les relevés en direct pour la vallée, le refuge et le sommet.",
     heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
-    readTime: 9,
+    readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-11-24",
     weatherRegion: "High Atlas",
     tags: ["météo du Toubkal", "quand grimper le Toubkal", "Haut Atlas", "conditions au Toubkal", "trekking au Maroc", "meilleure période Toubkal"],
     seoTitle: "La météo du Toubkal mois par mois",
@@ -271,6 +271,8 @@ Si vous nous indiquez vos dates et ce qui compte réellement pour vous, nous esq
       { q: "Peut-on grimper le Toubkal en hiver sans équipement spécial ?", a: "Non. De novembre à avril environ, la partie supérieure de l'itinéraire devient une ascension sur neige nécessitant crampons, piolet, des chaussures assez rigides pour recevoir des crampons, et le savoir-faire pour les utiliser. C'est accessible aux débutants en bonne forme, mais uniquement accompagnés d'un guide qualifié pour les conditions hivernales." },
     
       { q: "Avril, mai, septembre ou octobre sont-ils de bons mois pour le Toubkal ?", a: "Ce sont les quatre meilleurs mois de l'année. Avril et mai attrapent la neige qui recule et les vallées au plus vert, même si le cône sommital peut encore tenir la neige en avril et parfois en mai : demandez plutôt que de supposer les crampons inutiles. Septembre et octobre offrent la météo la plus fiable de toutes — ciel stable, températures de marche confortables et un sommet généralement en rocher sec. Ces mois concentrent l'essentiel de nos départs vers le Toubkal." },
+      { q: "Quelle température fait-il au sommet du Toubkal ?", a: "Tout dépend du mois. En moyenne sur 2016–2025, la minimale de nuit au sommet est d'environ −12 °C en janvier et février et d'environ 6 °C en juillet, et la maximale de jour va d'environ −4 °C au cœur de l'hiver à environ 15 °C au cœur de l'été. Les journées de sommet commencent avant l'aube : prévoyez pour la minimale, puis ajoutez le refroidissement dû au vent sur l'arête. Aucune station ne se trouve au sommet, ce sont donc des moyennes modélisées." },
+      { q: "À quoi ressemble le Toubkal en décembre et en janvier ?", a: "Au plein hiver. En moyenne, le sommet reste sous zéro toute la journée environ 24 jours par mois, avec des nuits autour de −10 à −12 °C et de la neige sur la partie haute. Le refuge descend à environ −4 à −5 °C la nuit et Imlil à environ 1 à 3 °C. Une ascension hivernale est possible avec crampons, piolet et un guide qualifié pour la neige." },
     ],
     content: `
 La météo du Toubkal n'est pas celle de Marrakech avec un pull en plus. Le sommet culmine à 4 167 mètres, soit environ 3 700 mètres au-dessus de la ville où vous avez atterri, et cette distance verticale influence votre journée bien plus que le mois du calendrier. Des gens réservent un trek d'été, font leurs bagages comme pour des vacances estivales, et rencontrent un vent glacial sur une pente avant l'aube. D'autres écartent complètement l'hiver sans savoir que c'est l'une des périodes les plus spectaculaires pour s'y rendre, à condition d'arriver bien équipé.
@@ -285,13 +287,36 @@ L'air se refroidit en s'élevant. Comme règle de travail, chaque tranche de 1 0
 
 Imlil, le village de départ, se trouve à environ 1 740 mètres. Le refuge est proche de 3 200. Le sommet est à 4 167. Le point de départ et le point d'arrivée sont donc séparés par presque deux kilomètres et demi de dénivelé.
 
-Faites le calcul un jour de printemps doux : un agréable 20 °C à Imlil devient plausiblement environ 6 °C au refuge et proche de zéro au sommet. Ajoutez le vent, qui manque rarement sur l'arête sommitale, et la température ressentie sur votre peau chute encore davantage. C'est pourquoi nos guides parlent de couches plutôt que de manteau.
+Faites le calcul un jour de printemps doux : un agréable 20 °C à Imlil devient en général environ 11 °C au refuge et environ 6 °C au sommet, et le sommet passe sous zéro avant l'aube, à l'heure du départ. Ajoutez le vent, qui manque rarement sur l'arête sommitale, et la température ressentie sur votre peau chute encore davantage. C'est pourquoi nos guides parlent de couches plutôt que de manteau.
 
 - **Imlil (1 740 m)** — où commence le sentier. Les relevés les plus doux, et le chiffre que la plupart des applications météo vous montrent si vous cherchez la région.
 - **Refuge (3 200 m)** — où vous dormez. Attendez-vous à une baisse importante par rapport à la vallée, et à des nuits froides toute l'année.
 - **Sommet (4 167 m)** — autour de zéro ou en dessous une bonne partie de l'année, avec le refroidissement éolien en plus.
 
-Le panneau en direct ci-dessus indique le niveau de la vallée. Traitez-le comme un point de départ, soustrayez au fur et à mesure que vous montez, et soustrayez encore pour le vent.
+Le panneau en direct ci-dessus donne d'abord le relevé de la vallée, puis la prévision pour le refuge et le sommet à leur propre altitude. Ce sont des températures de l'air : soustrayez encore pour le vent sur l'arête.
+
+## Les températures du Toubkal mois par mois
+
+Aucune station météo ne se trouve au sommet : tous les chiffres de sommet que vous trouverez en ligne sont donc modélisés. Voici les nôtres : la moyenne des maximales de jour et des minimales de nuit pour chaque mois de 2016 à 2025, à l'altitude d'Imlil, du refuge et du sommet, tirée de la réanalyse ERA5 via Open-Meteo. Ils concordent à environ un degré près avec les autres chiffres publiés pour le massif, mais lisez-les comme des valeurs typiques, pas comme une promesse.
+
+| Mois | Imlil, 1 740 m | Refuge, 3 207 m | Sommet, 4 167 m | Jours sous 0 °C toute la journée au sommet |
+|---|---|---|---|---|
+| Janvier | 12 / 1 | 2 / −5 | −4 / −12 | 24 |
+| Février | 13 / 2 | 2 / −6 | −4 / −12 | 22 |
+| Mars | 14 / 3 | 4 / −5 | −2 / −10 | 20 |
+| Avril | 17 / 6 | 8 / −1 | 3 / −6 | 7 |
+| Mai | 21 / 9 | 12 / 3 | 7 / −2 | 2 |
+| Juin | 24 / 12 | 17 / 7 | 11 / 2 | 0 |
+| Juillet | 30 / 17 | 21 / 11 | 15 / 6 | 0 |
+| Août | 30 / 17 | 19 / 10 | 13 / 5 | 0 |
+| Septembre | 25 / 13 | 15 / 6 | 9 / 1 | 0 |
+| Octobre | 21 / 10 | 11 / 3 | 5 / −3 | 3 |
+| Novembre | 16 / 6 | 6 / −1 | 0 / −7 | 13 |
+| Décembre | 13 / 3 | 3 / −4 | −3 / −10 | 24 |
+
+Moyenne des maximales de jour / minimales de nuit en °C, sans le refroidissement dû au vent.
+
+**Comment le lire.** Une journée de sommet commence dans le noir : la minimale de nuit est la température dans laquelle vous montez, la maximale celle que vous sentez en redescendant. La dernière colonne décide de votre équipement : de décembre à mars, le sommet reste sous zéro toute la journée la plupart des jours du mois, d'où les crampons et le piolet sur la partie haute. Les moyennes cachent aussi les vagues de froid : environ une nuit de janvier sur vingt-cinq descend sous −20 °C au sommet, et la plus froide des dix années a atteint −27 °C, le 20 janvier 2017.
 
 ## Le Toubkal mois par mois
 

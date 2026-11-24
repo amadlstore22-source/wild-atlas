@@ -642,6 +642,9 @@
     "liveVia": "Live über",
     "validReading": "Messwert auf Talniveau, alle drei Stunden aktualisiert über",
     "summitColder": "Am Gipfel ist es deutlich kälter — siehe Tabelle unten.",
+    "refugeLabel": "Toubkal-Hütte · 3.207 m",
+    "summitLabel": "Gipfel · 4.167 m",
+    "altitudeNote": "Hütte und Gipfel: Vorhersage für diese Höhe, ohne Windchill.",
     "high": "Höchst",
     "low": "Tiefst",
     "conditions": {

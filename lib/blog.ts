@@ -2591,17 +2591,17 @@ How far you get in the time you have depends heavily on how you move. [Getting a
     slug: "toubkal-weather-by-month",
     author: MET_TEAM,
     title: "Toubkal Weather by Month: When to Climb and What to Expect",
-    excerpt: "The summit sits 3,700 metres above Marrakech, and the weather reflects that. A month-by-month guide to conditions on Jbel Toubkal, plus live readings from the valley below.",
+    excerpt: "The summit sits 3,700 metres above Marrakech, and the weather reflects that. A month-by-month guide to conditions on Jbel Toubkal, plus live readings for the valley, the refuge and the summit.",
     heroImage: "/gallery/toubkal-snow-col-sunrise.jpg",
     category: "trekking",
     region: "atlas-mountains",
-    readTime: 9,
+    readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-10-05",
+    updatedAt: "2026-11-24",
     weatherRegion: "High Atlas",
     tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
-    seoTitle: "Toubkal Weather by Month",
-    seoDescription: "Toubkal is climbable year-round: June–September needs no winter kit, January–March means crampons. Month-by-month snow line, temperatures and what to pack.",
+    seoTitle: "Toubkal Weather by Month: Temperatures",
+    seoDescription: "Toubkal temperatures by month at Imlil, the refuge and the summit, a live summit forecast, and when you need crampons. Ten years of data, no guesswork.",
     relatedTours: ["toubkal-summit-trek-4day", "toubkal-summit-2day-marrakech", "toubkal-three-peaks-4000m-3day"],
     faq: [
       { q: "What is the weather like on Mount Toubkal?", a: "Far colder than Marrakech. The summit stands at 4,167 metres, roughly 3,700 metres above the city, and temperature drops by around 6 to 10°C for every 1,000 metres you climb. A mild spring day in the valley can be close to freezing on the summit, before wind chill is counted." },
@@ -2611,6 +2611,8 @@ How far you get in the time you have depends heavily on how you move. [Getting a
       { q: "Can you climb Toubkal in winter without special equipment?", a: "No. From around November to April the upper route is a snow climb requiring crampons, an ice axe, boots stiff enough to take crampons, and the knowledge to use them. It is achievable for fit beginners, but only alongside a guide qualified for winter conditions." },
     
       { q: "Is April, May, September or October a good month for Toubkal?", a: "Those four are the best months of the year for it. April and May catch the snow retreating and the valleys at their greenest, though the summit cone can still hold snow into April and occasionally May, so ask before assuming crampons are unnecessary. September and October give the most reliable weather of all: settled skies, comfortable walking temperatures and a summit that is usually bare rock. Between them these months carry most of our Toubkal departures." },
+      { q: "How cold is the summit of Toubkal?", a: "It depends heavily on the month. Averaged over 2016 to 2025, the summit's night-time low is about −12 °C in January and February and about 6 °C in July, and its daytime high runs from about −4 °C in midwinter to about 15 °C in midsummer. Summit days start before dawn, so plan for the low, then add wind chill on the ridge. No station stands on the summit, so these are modelled averages." },
+      { q: "What is Toubkal like in December and January?", a: "Full winter. On average the summit stays below freezing all day on about 24 days of each month, with nights around −10 to −12 °C and snow on the upper route. The refuge drops to about −4 to −5 °C at night and Imlil to about 1 to 3 °C. A winter ascent is possible with crampons, an ice axe and a guide qualified for snow." },
     ],
     content: `
 Toubkal's weather is not Marrakech's weather with a jumper on. The summit stands at 4,167 metres, roughly 3,700 metres above the city you flew into, and that vertical distance does more to your day than the calendar month does. People book a summer trek, pack for a summer holiday, and meet freezing wind on a pre-dawn slope. Others write off winter entirely without knowing that it is one of the most spectacular times to be up there, if you arrive equipped.
@@ -2625,13 +2627,36 @@ Air cools as it rises. As a working rule, every 1,000 metres of ascent drops the
 
 Imlil, the trailhead village, sits at around 1,740 metres. The refuge is near 3,200. The summit is 4,167. So the ground you start on and the ground you finish on are separated by nearly two and a half vertical kilometres.
 
-Work it through on a mild spring day: a pleasant 20°C in Imlil is plausibly around 6°C at the refuge and close to freezing on the summit. Add wind, which the summit ridge rarely lacks, and the temperature your skin registers falls further again. This is why our guides talk about layers rather than a coat.
+Work it through on a mild spring day: a pleasant 20°C in Imlil is typically around 11°C at the refuge and about 6°C on the summit, and below freezing on the summit before dawn, when you set off. Add wind, which the summit ridge rarely lacks, and the temperature your skin registers falls further again. This is why our guides talk about layers rather than a coat.
 
 - **Imlil (1,740 m)** — where the trail starts. Mildest readings, and the number most weather apps show you if you search for the region.
 - **Refuge (3,200 m)** — where you sleep. Expect a substantial drop from the valley, and cold nights year-round.
 - **Summit (4,167 m)** — around freezing or below for much of the year, wind chill on top of that.
 
-The live panel above reads at valley level. Treat it as a starting point, subtract as you climb, and subtract again for wind.
+The live panel above gives the valley reading first, then the forecast for the refuge and the summit at their own altitude. Those are air temperatures: subtract again for wind on the ridge.
+
+## Toubkal temperatures by month
+
+No weather station stands on the summit, so every summit figure you will find online is modelled. These are ours: the average daytime high and night-time low for each month from 2016 to 2025, at the height of Imlil, the refuge and the summit, from the ERA5 reanalysis through Open-Meteo. They agree within about a degree with other published figures for the massif, but read them as typical, not promised.
+
+| Month | Imlil, 1,740 m | Refuge, 3,207 m | Summit, 4,167 m | Summit days below 0 °C all day |
+|---|---|---|---|---|
+| January | 12 / 1 | 2 / −5 | −4 / −12 | 24 |
+| February | 13 / 2 | 2 / −6 | −4 / −12 | 22 |
+| March | 14 / 3 | 4 / −5 | −2 / −10 | 20 |
+| April | 17 / 6 | 8 / −1 | 3 / −6 | 7 |
+| May | 21 / 9 | 12 / 3 | 7 / −2 | 2 |
+| June | 24 / 12 | 17 / 7 | 11 / 2 | 0 |
+| July | 30 / 17 | 21 / 11 | 15 / 6 | 0 |
+| August | 30 / 17 | 19 / 10 | 13 / 5 | 0 |
+| September | 25 / 13 | 15 / 6 | 9 / 1 | 0 |
+| October | 21 / 10 | 11 / 3 | 5 / −3 | 3 |
+| November | 16 / 6 | 6 / −1 | 0 / −7 | 13 |
+| December | 13 / 3 | 3 / −4 | −3 / −10 | 24 |
+
+Average daytime high / night-time low in °C, without wind chill.
+
+**How to read it.** A summit day starts in the dark, so the night low is the temperature you climb in, and the high is what you feel on the way down. The right-hand column decides your kit: from December to March the summit stays below freezing all day on most days of the month, which is why the upper route needs crampons and an ice axe. Averages also hide the cold snaps: about one January night in twenty-five falls below −20 °C on the summit, and the coldest in the ten years was −27 °C, on 20 January 2017.
 
 ## Toubkal month by month
 

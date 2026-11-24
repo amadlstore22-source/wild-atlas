@@ -642,6 +642,9 @@
     "liveVia": "En direct via",
     "validReading": "Relevé au niveau de la vallée, mis à jour toutes les trois heures via",
     "summitColder": "Le sommet est bien plus froid — voir le tableau ci-dessous.",
+    "refugeLabel": "Refuge du Toubkal · 3 207 m",
+    "summitLabel": "Sommet · 4 167 m",
+    "altitudeNote": "Refuge et sommet : prévision à cette altitude, sans le refroidissement dû au vent.",
     "high": "Max",
     "low": "Min",
     "conditions": {

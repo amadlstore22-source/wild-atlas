@@ -117,3 +117,54 @@ export async function fetchMoroccoWeather(): Promise<WeatherResult> {
     return { regions: [], error: true };
   }
 }
+
+export type ToubkalPointKey = "refuge" | "summit";
+
+export interface AltitudeWeather {
+  key: ToubkalPointKey;
+  tempC: number;
+  highC: number;
+  lowC: number;
+  conditionKey: ConditionKey;
+  icon: string;
+}
+
+// The High Atlas region reading is taken at Imlil (~1,740 m). People who
+// search "Toubkal weather" want the mountain itself, so posts about it also
+// show the refuge and the summit. Coordinates and heights are OpenStreetMap's
+// (Refuge CAF du Toubkal, ele 3207; Jbel Toubkal, ele 4167). Passing
+// `elevation` makes Open-Meteo correct the forecast to that height instead of
+// the smoothed terrain of its grid cell, which on a 4,000 m peak is far lower.
+const TOUBKAL_POINTS: { key: ToubkalPointKey; lat: number; lon: number; elevation: number }[] = [
+  { key: "refuge", lat: 31.0635, lon: -7.9376, elevation: 3207 },
+  { key: "summit", lat: 31.0598, lon: -7.9149, elevation: 4167 },
+];
+
+/** Forecast for the Toubkal refuge and summit, or null if Open-Meteo fails. */
+export async function fetchToubkalAltitudes(): Promise<AltitudeWeather[] | null> {
+  try {
+    return await Promise.all(
+      TOUBKAL_POINTS.map(async (p) => {
+        const url =
+          `https://api.open-meteo.com/v1/forecast?latitude=${p.lat}&longitude=${p.lon}&elevation=${p.elevation}` +
+          `&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min,weather_code` +
+          `&timezone=auto&forecast_days=1`;
+        const res = await fetch(url, { next: { revalidate: 10800 } }); // cache 3 h, like the regions
+        if (!res.ok) throw new Error(`weather ${res.status}`);
+        const data: OpenMeteoResponse = await res.json();
+        const code = data.current?.weather_code ?? data.daily?.weather_code?.[0] ?? 0;
+        const { conditionKey, icon } = describe(code);
+        return {
+          key: p.key,
+          tempC: Math.round(data.current?.temperature_2m ?? data.daily?.temperature_2m_max?.[0] ?? 0),
+          highC: Math.round(data.daily?.temperature_2m_max?.[0] ?? 0),
+          lowC: Math.round(data.daily?.temperature_2m_min?.[0] ?? 0),
+          conditionKey,
+          icon,
+        } satisfies AltitudeWeather;
+      }),
+    );
+  } catch {
+    return null;
+  }
+}

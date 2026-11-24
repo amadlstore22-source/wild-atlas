@@ -642,6 +642,9 @@
     "liveVia": "In diretta via",
     "validReading": "Rilevamento a livello di valle, aggiornato ogni tre ore via",
     "summitColder": "In vetta le temperature sono molto più rigide — vedi la tabella qui sotto.",
+    "refugeLabel": "Rifugio del Toubkal · 3.207 m",
+    "summitLabel": "Vetta · 4.167 m",
+    "altitudeNote": "Rifugio e vetta: previsione a quella quota, senza il raffreddamento dovuto al vento.",
     "high": "Max",
     "low": "Min",
     "conditions": {

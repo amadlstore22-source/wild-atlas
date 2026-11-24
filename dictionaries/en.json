@@ -642,6 +642,9 @@
     "liveVia": "Live via",
     "validReading": "Valley-level reading, updated every three hours via",
     "summitColder": "The summit runs far colder — see the table below.",
+    "refugeLabel": "Toubkal Refuge · 3,207 m",
+    "summitLabel": "Summit · 4,167 m",
+    "altitudeNote": "Refuge and summit: forecast for that altitude, before wind chill.",
     "high": "High",
     "low": "Low",
     "conditions": {

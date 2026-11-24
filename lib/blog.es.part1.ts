@@ -487,7 +487,7 @@ La ruta de arriba es una forma de subir al norte. Si las ciudades imperiales son
 | Volubilis | Dos horas | Parada | Unos 40 minutos desde Mequinez |
 | Chefchaouen | Un día completo | Noche | ≈4 h / 200 km desde Fez, con Volubilis y Mequinez |
 | Rabat | Una tarde: la torre Hassan, el mausoleo de Mohammed V, la kasba de los Udayas | Noche | ≈3 h / 200 km desde Fez |
-| Casablanca | La mezquita Hassan II, por fuera | Parada | De camino de Rabat a Marrakech, ≈4 h / 240 km en total |
+| Casablanca | La mezquita Hassan II, por fuera | Parada | De camino de Rabat a Marrakech, ≈4 h / 325 km en total |
 
 Y lo que suma todo eso:
 

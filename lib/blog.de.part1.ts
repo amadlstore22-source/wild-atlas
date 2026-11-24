@@ -480,7 +480,7 @@ Die Route oben ist ein Weg nach Norden. Wenn die Königsstädte der Grund der Re
 | Volubilis | Zwei Stunden | Halt | Etwa 40 Minuten ab Meknès |
 | Chefchaouen | Ein ganzer Tag | Nacht | ≈4 Std. / 200 km ab Fès, mit Volubilis und Meknès |
 | Rabat | Ein Nachmittag: der Hassan-Turm, das Mausoleum Mohammed V., die Kasbah der Udayas | Nacht | ≈3 Std. / 200 km ab Fès |
-| Casablanca | Die Hassan-II.-Moschee, von außen | Halt | Auf dem Weg von Rabat nach Marrakesch, insgesamt ≈4 Std. / 240 km |
+| Casablanca | Die Hassan-II.-Moschee, von außen | Halt | Auf dem Weg von Rabat nach Marrakesch, insgesamt ≈4 Std. / 325 km |
 
 Und was sich daraus ergibt:
 

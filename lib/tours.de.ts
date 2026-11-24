@@ -1356,7 +1356,7 @@ export const TOURS: Tour[] = [
         day: 5,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakesch",
         description:
@@ -1372,7 +1372,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakesch — Ihr Hotel oder Riad" },
     brief: [
       "Marokkos vier historische Königsstädte — Marrakesch, Meknès, Fès und Rabat — liegen in sehr unterschiedlichen Regionen, und eine private 5-Tage-Rundreise erspart Zugwechsel und Gepäckstress. Tag eins führt von Marrakesch über Beni Mellal nach Midelt (rund 410 km und 7 Stunden). Tag zwei quert den Mittleren Atlas über die römischen Ruinen von Volubilis nach Meknès (rund 300 km und 5 Stunden), gefolgt von einem ganzen geführten Tag in Fès el-Bali an Tag drei.",
-      "Fès el-Bali ist eine der größten autofreien Stadtzonen der Welt; mit lokalem Guide wird das Gassengewirr zu einer stimmigen Tour durch Medresen, Handwerksviertel und die Chouara-Gerbereien. An Tag vier fahren Sie etwa 200 km (3 Stunden) westwärts nach Rabat zur Kasbah der Udayas und zum Hassan-Turm, und an Tag fünf rund 240 km (4 Stunden) über Casablanca — mit Halt an der Hassan-II.-Moschee, einer der größten Moscheen der Welt mit ihrem 210 m hohen Minarett — zurück nach Marrakesch.",
+      "Fès el-Bali ist eine der größten autofreien Stadtzonen der Welt; mit lokalem Guide wird das Gassengewirr zu einer stimmigen Tour durch Medresen, Handwerksviertel und die Chouara-Gerbereien. An Tag vier fahren Sie etwa 200 km (3 Stunden) westwärts nach Rabat zur Kasbah der Udayas und zum Hassan-Turm, und an Tag fünf rund 325 km (4 Stunden) über Casablanca — mit Halt an der Hassan-II.-Moschee, einer der größten Moscheen der Welt mit ihrem 210 m hohen Minarett — zurück nach Marrakesch.",
       "Sie übernachten vier Nächte in einem Riad oder Hotel, je nach Verfügbarkeit, mit Frühstück und Abendessen an jedem Tag, einschließlich der Nacht in Fès. Privater 4x4-Transport, englisch-, französisch- oder spanischsprachiger Guide, alle Transfers, Mautgebühren und Monument-Eintritte sind inbegriffen. Mittagessen und freiwillige Trinkgelder sind separat.",
       "Die Rundreise ist als leicht eingestuft: Im Mittelpunkt stehen Kultur und Medina-Spaziergänge statt anstrengender Wanderungen — ideal für Paare, Familien und Gruppen von 1 bis 12 Personen. Wenn Sie lieber im Norden im Rif-Gebirge statt wieder in Marrakesch enden möchten, vergleichen Sie sie mit unserer 4-Tage-Tour nach Chefchaouen.",
     ],
@@ -2353,7 +2353,7 @@ export const TOURS: Tour[] = [
         day: 6,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakesch",
         description:

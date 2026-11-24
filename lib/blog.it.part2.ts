@@ -8837,9 +8837,9 @@ Sulle famiglie che ti ospitano, la loro lingua e il loro capodanno, vedi
     heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
     category: "culture",
     region: "imperial-cities",
-    readTime: 8,
+    readTime: 10,
     publishedAt: "2026-11-07",
-    updatedAt: "2026-11-07",
+    updatedAt: "2026-11-24",
     tags: ["città imperiali", "Fès", "Meknes", "Rabat", "Marrakech", "itinerario Marocco"],
     seoTitle: "Città imperiali del Marocco: itinerari",
     seoDescription:
@@ -8852,6 +8852,8 @@ Sulle famiglie che ti ospitano, la loro lingua e il loro capodanno, vedi
       { q: "Se ho tempo per una sola città imperiale, quale scelgo?", a: "Per una medina medievale, Fès: è la più profonda delle quattro, e una giornata guidata lì non somiglia a nient'altro nel paese. Per un primo viaggio che comprende anche la montagna o il deserto, Marrakech, perché è la base per entrambi. Meknes e Rabat meritano la visita, ma si inseriscono più facilmente lungo la strada tra le altre." },
       { q: "Serve una guida nelle medine?", a: "A Fès sì: Fès el-Bali ha circa novemila vicoli e nessuna auto, e tutti i nostri tour che arrivano a Fès includono una giornata intera guidata. A Marrakech una guida cambia quello che vedete alla prima visita, e la seconda è meglio da soli. Meknes si vede in mezza giornata senza guida. Prenotate una guida autorizzata tramite il vostro riad o un'agenzia, mai qualcuno che vi avvicina per strada." },
       { q: "Le città imperiali sono Patrimonio dell'Umanità UNESCO?", a: "Sì, tutte e quattro: la medina di Fès (1981), la medina di Marrakech (1985), la città storica di Meknes (1996) e Rabat, capitale moderna e città storica: un patrimonio condiviso (2012). La città romana di Volubilis, vicino a Meknes e sulla maggior parte delle strade tra le città, è stata iscritta nel 1997." },
+      { q: "Si può viaggiare tra le città imperiali in treno?", a: "Sì, tra le città vere e proprie. Il treno collega Marrakech, Casablanca, Rabat, Meknes e Fès: circa 3 ore da Marrakech a Casablanca, 1 ora fino a Rabat, circa 2 ore fino a Meknes e meno di un'ora fino a Fès. Marrakech–Fès richiede da 6 h 30 a 7 h 30, su alcuni treni con cambio a Casablanca. Il treno non arriva a Volubilis, Chefchaouen né al Sahara. Gli orari cambiano: controllate sul sito ONCF per la vostra data." },
+      { q: "Meglio il treno o un autista privato?", a: "Per le sole città il treno è più economico e comodo. Un autista vale la pena quando l'itinerario include il Sahara, il Medio Atlante o Volubilis, quando siete in tre o quattro a dividere l'auto, o quando volete fermarvi dove vi pare. In ogni caso le auto non entrano nelle medine antiche: l'ultimo tratto fino al riad si fa a piedi." },
     ],
     content: `
 Il Marocco ha avuto quattro capitali che oggi la storia chiama città imperiali: Fès, Marrakech, Meknes
@@ -8931,7 +8933,7 @@ Il nostro [tour di 5 giorni delle città imperiali](/it/tours/citta-imperiali-ma
 Marrakech, ci ritorna e dà una notte a Meknes, a Fès e a Rabat. Il giorno 1 sale a nord-est fino a
 Midelt (≈410 km). Il giorno 2 è Volubilis al mattino e Meknes al pomeriggio, con la notte lì
 (≈300 km). Il giorno 3 è una giornata intera guidata a Fès. Il giorno 4 va a ovest fino a Rabat
-(≈200 km), e il giorno 5 scende lungo la costa passando per Casablanca fino a Marrakech (≈240 km).
+(≈200 km), e il giorno 5 scende lungo la costa passando per Casablanca fino a Marrakech (≈325 km).
 Riad, colazioni e ingressi ai monumenti sono inclusi. Da 575 € a persona in due. Lo stesso anello parte
 da Agadir in [6 giorni](/it/tours/citta-imperiali-agadir-6-giorni).
 
@@ -8946,6 +8948,46 @@ blu con un giorno per girarla. Da 570 € a persona in due.
 Dieci giorni permettono di fare il giro del Sahara e delle città senza un solo giorno di corsa; il nostro
 [itinerario di 10 giorni](/it/blog/10-day-morocco-itinerary) lo descrive giorno per giorno. Se state
 ancora decidendo la durata, cominciate da [quanti giorni servono in Marocco](/it/blog/how-many-days-do-you-need-in-morocco).
+
+## Spostarsi tra le città: treno, autobus o auto
+
+Il treno collega Marrakech, Casablanca, Rabat, Meknes e Fès, quindi un viaggio di sole città si può fare interamente in treno. Non arriva a Volubilis, Chefchaouen, al Medio Atlante né al Sahara.
+
+| Tratta | In treno | Su strada | Da sapere |
+|---|---|---|---|
+| Casablanca ↔ Rabat | circa 1 h, molti treni al giorno | ≈90 km, circa 1 h 15 | La tratta più semplice del paese |
+| Rabat ↔ Meknes | circa 2 h | ≈145 km, circa 2 h | |
+| Meknes ↔ Fès | meno di 1 h | ≈70 km, circa 1 h | Volubilis non ha stazione: è a ≈30 km da Meknes, circa mezz'ora in auto o taxi |
+| Casablanca ↔ Fès | circa 3 h 30 | ≈300 km, circa 3 h 30 | |
+| Marrakech ↔ Casablanca | circa 3 h | ≈240 km, circa 3 h | È in costruzione una linea ad alta velocità fino a Marrakech, prevista per il 2029 |
+| Marrakech ↔ Fès | 6 h 30–7 h 30; alcuni treni sono diretti, altri cambiano a Casablanca | ≈480 km attraverso il Medio Atlante, circa 7 h, oppure ≈530 km in autostrada, circa 6 h 30 | La tratta più lenta, comunque la si faccia |
+| Tangeri ↔ Rabat | circa 1 h 20 con il treno ad alta velocità Al Boraq | ≈250 km, circa 3 h | L'ingresso più rapido da nord |
+| Fès ↔ Chefchaouen | niente treno; l'autobus CTM impiega 4–4 h 30 | ≈200 km, circa 4 h | Una strada di montagna tutta curve |
+| Fès ↔ Erg Chebbi (Merzouga) | niente treno | ≈460 km, circa 7 h 30–8 h | La giornata lunga di ogni itinerario nel deserto da Fès |
+
+I tempi in treno sono arrotondati dagli orari pubblicati, che cambiano, e i lavori della nuova linea ad alta velocità possono allungare alcuni viaggi: controllate sul sito ONCF (oncf-voyages.ma) per la vostra data. I tempi su strada sono di sola guida, senza soste.
+
+**Treno o autista?** Per le sole città il treno è comodo, economico e spesso la scelta migliore. Un autista vale la spesa quando l'itinerario include il Sahara, la strada del Medio Atlante per Ifrane e la foresta di cedri, oppure Volubilis e Meknes nello stesso giorno di un lungo trasferimento, e quando siete in tre o quattro a dividere l'auto. In ogni caso le auto non entrano nelle medine antiche: ogni arrivo al riad finisce a piedi, quindi viaggiate leggeri o chiedete al riad di mandare qualcuno a prendervi.
+
+## Quale itinerario fa per voi
+
+| Avete | Itinerario | Ideale per | Il compromesso |
+|---|---|---|---|
+| 4 giorni | Marrakech → Fès → Volubilis e Meknes → Chefchaouen, con il nostro [tour di 4 giorni](/it/tours/marrakech-chefchaouen-4-giorni) | Fès e la città blu | Niente Rabat, e finite al nord: rientrate in aereo da Fès o Tangeri |
+| 5 giorni | Un anello da Marrakech con una notte a Meknes, Fès e Rabat, con il nostro [tour di 5 giorni](/it/tours/citta-imperiali-marrakech-5-giorni) | Tutte e quattro le città, senza deserto | Il giorno 1 sono circa 7 h di strada, e niente Sahara |
+| 5 giorni | Casablanca → Rabat, Meknes, Fès → Erg Chebbi → Marrakech, con il nostro [itinerario di 5 giorni](/it/tours/casablanca-fes-sahara-marrakech-5-giorni) | Tre città e una notte tra le dune | Rabat e Meknes sono tappe, non notti, e serve un biglietto open-jaw |
+| 7 giorni, in autonomia | Marrakech (2 notti) → treno per Rabat (1) → Meknes (1, con Volubilis) → Fès (2), rientro in aereo da Fès | Viaggiare da soli in treno | Niente deserto, e due mezze giornate in treno |
+| 10 giorni | Un anello tra le città e il Sahara, come nel nostro [itinerario di 10 giorni](/it/blog/10-day-morocco-itinerary) | Vedere tutto senza giornate di corsa | Servono tutti e dieci i giorni |
+
+Gli aeroporti di Fès e Tangeri hanno voli diretti per città europee, molti stagionali: è questo che rende possibili i biglietti open-jaw e i finali al nord.
+
+## Quando andare
+
+- **La primavera (da marzo a maggio) e l'autunno (da settembre a novembre)** sono le stagioni più facili per tutte e quattro le città.
+- **A luglio e agosto** fa caldo nell'interno: le massime medie sono di circa 37 °C a Marrakech e 35 °C a Fès. Visitate le medine presto e tardi. Rabat, sull'Atlantico, resta sui 27–29 °C.
+- **L'inverno** porta giornate miti e notti fredde. La neve può chiudere per ore le strade del Medio Atlante intorno a Ifrane, Azrou e Midelt, cosa che conta sul tragitto tra Marrakech e Fès; chiedete anche se il vostro riad è riscaldato.
+- **Il Ramadan** è previsto all'incirca dall'8 febbraio all'8 marzo 2027 (le date esatte dipendono dalla luna). I monumenti restano aperti, di solito con orari ridotti, e molti caffè e ristoranti locali chiudono fino al tramonto, anche se alcuni nelle zone turistiche restano aperti.
+- **Moschee:** la maggior parte delle moschee in uso, compresa la Qarawiyyin di Fès, è aperta solo ai musulmani. La moschea Hassan II di Casablanca, sulla strada tra Rabat e Marrakech, offre visite guidate a tutti fuori dagli orari di preghiera.
 
 ## Quando una guida vale la pena
 

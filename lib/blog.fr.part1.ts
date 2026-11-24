@@ -487,7 +487,7 @@ L'itinéraire ci-dessus est une façon de monter vers le nord. Si les villes imp
 | Volubilis | Deux heures | Étape | Environ 40 minutes depuis Meknès |
 | Chefchaouen | Une journée complète | Nuit | ≈4 h / 200 km depuis Fès, avec Volubilis et Meknès |
 | Rabat | Un après-midi : la tour Hassan, le mausolée Mohammed V, la kasbah des Oudayas | Nuit | ≈3 h / 200 km depuis Fès |
-| Casablanca | La mosquée Hassan II, vue de l'extérieur | Étape | Sur la route de Rabat à Marrakech, ≈4 h / 240 km au total |
+| Casablanca | La mosquée Hassan II, vue de l'extérieur | Étape | Sur la route de Rabat à Marrakech, ≈4 h / 325 km au total |
 
 Et ce que cela donne :
 

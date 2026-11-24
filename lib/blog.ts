@@ -584,7 +584,7 @@ The route above is one way north. If the imperial cities are the point of the tr
 | Volubilis | Two hours | Stop | About 40 minutes from Meknes |
 | Chefchaouen | A full day | Night | ≈4 h / 200 km from Fes, with Volubilis and Meknes |
 | Rabat | An afternoon: the Hassan Tower, the Mohammed V Mausoleum, the Kasbah of the Udayas | Night | ≈3 h / 200 km from Fes |
-| Casablanca | The Hassan II Mosque, from outside | Stop | On the way from Rabat to Marrakech, ≈4 h / 240 km in all |
+| Casablanca | The Hassan II Mosque, from outside | Stop | On the way from Rabat to Marrakech, ≈4 h / 325 km in all |
 
 And what that adds up to:
 
@@ -11415,9 +11415,9 @@ For the people whose homes you stay in, their language and their new year, see
     heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
     category: "culture",
     region: "imperial-cities",
-    readTime: 8,
+    readTime: 10,
     publishedAt: "2026-11-07",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-24",
     tags: ["imperial cities", "Fes", "Meknes", "Rabat", "Marrakech", "Morocco itinerary"],
     seoTitle: "Morocco's 4 Imperial Cities: Routes & Days",
     seoDescription:
@@ -11430,6 +11430,8 @@ For the people whose homes you stay in, their language and their new year, see
       { q: "If I only have time for one imperial city, which should it be?", a: "For a medieval medina, Fes: it is the deepest of the four, and a guided day there is different from anything else in the country. For a first trip that also takes in the mountains or the desert, Marrakech, because it is the base for both. Meknes and Rabat reward a visit but are easier to fit in on the way between the others." },
       { q: "Do I need a guide in the medinas?", a: "In Fes, yes: Fes el-Bali has around nine thousand lanes and no cars, and every one of our tours that reaches Fes includes a full guided day. In Marrakech a guide changes what you see on a first visit, and a second visit is better alone. Meknes can be seen in half a day without one. Book a licensed guide through your riad or a tour operator, never an approach in the street." },
       { q: "Are the imperial cities UNESCO World Heritage Sites?", a: "Yes, all four: the Medina of Fez (1981), the Medina of Marrakesh (1985), the Historic City of Meknes (1996) and Rabat, Modern Capital and Historic City: a Shared Heritage (2012). The Roman city of Volubilis, near Meknes and on most routes between the cities, was listed in 1997." },
+      { q: "Can you travel between the imperial cities by train?", a: "Yes, for the cities themselves. Trains link Marrakech, Casablanca, Rabat, Meknes and Fes: about 3 hours from Marrakech to Casablanca, 1 hour on to Rabat, about 2 hours to Meknes and under an hour to Fes. Marrakech to Fes takes 6½–7½ hours, on some trains with a change at Casablanca. The railway does not reach Volubilis, Chefchaouen or the Sahara. Timetables change, so check ONCF for your date." },
+      { q: "Is it better to take the train or a private driver?", a: "For cities only, the train is cheaper and comfortable. A driver is worth it when your route includes the Sahara, the Middle Atlas or Volubilis, when three or four of you share the car, or when you want to stop wherever you like. Either way, cars cannot enter the old medinas, so the last stretch to a riad is on foot." },
     ],
     content: `
 Morocco has had four capitals that history now calls the imperial cities: Fes, Marrakech,
@@ -11507,7 +11509,7 @@ nights. From €825 per person for two. It works best with an open-jaw ticket; s
 Our [5-day imperial cities tour](/en/tours/marrakech-imperial-cities-5day) starts and ends in Marrakech and gives Meknes, Fes and Rabat a night each.
 Day 1 runs north-east to Midelt (≈410 km). Day 2 is Volubilis in the morning and Meknes in the
 afternoon, with the night there (≈300 km). Day 3 is a full guided day in Fes. Day 4 goes west to
-Rabat (≈200 km), and day 5 runs down the coast past Casablanca to Marrakech (≈240 km). Riads,
+Rabat (≈200 km), and day 5 runs down the coast past Casablanca to Marrakech (≈325 km). Riads,
 breakfast and the entrance fees are included. From €575 per person for two. The same circuit
 starts from Agadir as a [6-day tour](/en/tours/agadir-imperial-cities-6day).
 
@@ -11522,6 +11524,46 @@ with a day to walk it. From €570 per person for two.
 Ten days lets you loop through the Sahara and the cities without a single rushed day; our
 [10-day itinerary](/en/blog/10-day-morocco-itinerary) lays it out day by day. If you are still
 deciding on length, start with [how many days you need in Morocco](/en/blog/how-many-days-do-you-need-in-morocco).
+
+## Getting between the cities: train, bus or car
+
+The railway links Marrakech, Casablanca, Rabat, Meknes and Fes, so a trip that is only cities can be done entirely by train. It does not reach Volubilis, Chefchaouen, the Middle Atlas or the Sahara.
+
+| Leg | By train | By road | Good to know |
+|---|---|---|---|
+| Casablanca ↔ Rabat | about 1 h, many trains a day | ≈90 km, about 1¼ h | The easiest leg in the country |
+| Rabat ↔ Meknes | about 2 h | ≈145 km, about 2 h | |
+| Meknes ↔ Fes | under 1 h | ≈70 km, about 1 h | Volubilis has no station: it is ≈30 km from Meknes, about half an hour by car or taxi |
+| Casablanca ↔ Fes | about 3½ h | ≈300 km, about 3½ h | |
+| Marrakech ↔ Casablanca | about 3 h | ≈240 km, about 3 h | A high-speed line to Marrakech is under construction, planned for 2029 |
+| Marrakech ↔ Fes | 6½–7½ h; some trains are direct, others change at Casablanca | ≈480 km through the Middle Atlas, about 7 h, or ≈530 km by motorway, about 6½ h | The slowest leg whichever way you travel |
+| Tangier ↔ Rabat | about 1 h 20 on the Al Boraq high-speed train | ≈250 km, about 3 h | The quickest way in from the north |
+| Fes ↔ Chefchaouen | no railway; the CTM bus takes 4–4½ h | ≈200 km, about 4 h | A winding mountain road |
+| Fes ↔ Erg Chebbi (Merzouga) | no railway | ≈460 km, about 7½–8 h | The long day on every desert route from Fes |
+
+Train times are rounded from published timetables, which change, and work on the new high-speed line can lengthen some journeys, so check ONCF (oncf-voyages.ma) for your date. Road times are driving only, without stops.
+
+**Train or a driver?** For cities alone, the train is comfortable, cheap and often the best choice. A driver earns the cost when the route includes the Sahara, the Middle Atlas road through Ifrane and the cedar forest, or Volubilis and Meknes on the same day as a long drive, and when three or four of you share the car. Either way, cars cannot drive into the old medinas, so every arrival at a riad ends on foot: pack light, or ask the riad to send someone to meet you.
+
+## Which route suits you
+
+| You have | Route | Best for | The trade-off |
+|---|---|---|---|
+| 4 days | Marrakech → Fes → Volubilis and Meknes → Chefchaouen, on our [4-day tour](/en/tours/marrakech-to-chefchaouen-4day) | Fes and the blue town | No Rabat, and you finish in the north: fly home from Fes or Tangier |
+| 5 days | A loop from Marrakech with a night in Meknes, Fes and Rabat, on our [5-day tour](/en/tours/marrakech-imperial-cities-5day) | All four cities, no desert | Day 1 is about 7 h on the road, and there is no Sahara |
+| 5 days | Casablanca → Rabat, Meknes, Fes → Erg Chebbi → Marrakech, on our [5-day route](/en/tours/casablanca-fes-sahara-marrakech-5day) | Three cities and a night in the dunes | Rabat and Meknes are stops, not nights, and it needs an open-jaw ticket |
+| 7 days, on your own | Marrakech (2 nights) → train to Rabat (1) → Meknes (1, with Volubilis) → Fes (2), flying home from Fes | Independent travel by train | No desert, and two half days on trains |
+| 10 days | A loop through the cities and the Sahara, as in our [10-day itinerary](/en/blog/10-day-morocco-itinerary) | Everything without a rushed day | It needs the full ten days |
+
+Fes and Tangier airports both have direct flights to European cities, many of them seasonal, which is what makes the open-jaw tickets and the northern endings work.
+
+## When to go
+
+- **Spring (March to May) and autumn (September to November)** are the easiest seasons for all four cities.
+- **July and August** are hot inland: average highs are about 37 °C in Marrakech and 35 °C in Fes, so see the medinas early and late. Rabat, on the Atlantic, stays around 27–29 °C.
+- **Winter** brings mild days and cold nights. Snow can close the Middle Atlas roads around Ifrane, Azrou and Midelt for hours at a time, which matters on the drive between Marrakech and Fes; ask, too, whether your riad is heated.
+- **Ramadan** is expected from about 8 February to 8 March 2027 (the exact dates depend on the moon). Sights stay open, usually with shorter hours, and many local cafés and restaurants close until sunset, although some in the tourist areas stay open.
+- **Mosques:** most working mosques, including the Al-Qarawiyyin in Fes, are open only to Muslims. The Hassan II Mosque in Casablanca, on the road between Rabat and Marrakech, has guided tours for all visitors outside prayer times.
 
 ## When a guide is worth it
 

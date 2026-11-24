@@ -480,7 +480,7 @@ L'itinerario qui sopra è un modo per salire a nord. Se le città imperiali sono
 | Volubilis | Due ore | Tappa | Circa 40 minuti da Meknès |
 | Chefchaouen | Una giornata intera | Notte | ≈4 h / 200 km da Fès, con Volubilis e Meknès |
 | Rabat | Un pomeriggio: la Torre Hassan, il mausoleo di Mohammed V, la kasbah degli Oudaya | Notte | ≈3 h / 200 km da Fès |
-| Casablanca | La moschea Hassan II, dall'esterno | Tappa | Sulla strada da Rabat a Marrakech, ≈4 h / 240 km in tutto |
+| Casablanca | La moschea Hassan II, dall'esterno | Tappa | Sulla strada da Rabat a Marrakech, ≈4 h / 325 km in tutto |
 
 E il totale:
 

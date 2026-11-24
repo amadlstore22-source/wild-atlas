@@ -1356,7 +1356,7 @@ export const TOURS: Tour[] = [
         day: 5,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
@@ -1372,7 +1372,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — tu hotel o riad" },
     brief: [
       "Las cuatro capitales históricas de Marruecos — Marrakech, Mequinez, Fez y Rabat — se reparten por regiones muy distintas, y unirlas en un circuito privado de 5 días evita cambios de tren y cargar maletas. El día uno sale de Marrakech hacia el norte por Beni Mellal hasta Midelt (unos 410 km y 7 horas). El día dos cruza el Medio Atlas pasando por las ruinas romanas de Volubilis hasta Mequinez (unos 300 km y 5 horas), dejando el día tres entero para recorrer Fez el-Bali con guía.",
-      "Fez el-Bali es una de las zonas urbanas sin coches más grandes del mundo, y caminarla con un guía local convierte un laberinto de callejuelas en un recorrido claro por madrazas, gremios artesanales y las curtidurías Chouara. El día cuatro recorres unos 200 km (3 horas) hasta Rabat para ver la Kasbah de los Udayas y la Torre Hassan, y el día cinco vuelves unos 240 km (4 horas) por Casablanca — con parada en la Mezquita Hassan II, una de las mayores del mundo con su minarete de 210 m — hasta Marrakech.",
+      "Fez el-Bali es una de las zonas urbanas sin coches más grandes del mundo, y caminarla con un guía local convierte un laberinto de callejuelas en un recorrido claro por madrazas, gremios artesanales y las curtidurías Chouara. El día cuatro recorres unos 200 km (3 horas) hasta Rabat para ver la Kasbah de los Udayas y la Torre Hassan, y el día cinco vuelves unos 325 km (4 horas) por Casablanca — con parada en la Mezquita Hassan II, una de las mayores del mundo con su minarete de 210 m — hasta Marrakech.",
       "El alojamiento son cuatro noches en riad u hotel, según disponibilidad, con desayuno y cena incluidos todos los días, incluida la noche de Fez. Incluye transporte privado en 4x4, guía en español, inglés o francés, traslados, peajes y entradas a monumentos. Los almuerzos y las propinas opcionales van aparte.",
       "Este circuito es de dificultad fácil: se centra en visitas culturales y paseos por medinas más que en caminatas exigentes, por lo que encaja muy bien para parejas, familias y grupos de 1 a 12 personas. Si prefieres terminar en el norte entre las calles azules del Rif en vez de volver a Marrakech, compáralo con nuestro tour de 4 días a Chefchaouen.",
     ],
@@ -2353,7 +2353,7 @@ export const TOURS: Tour[] = [
         day: 6,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:

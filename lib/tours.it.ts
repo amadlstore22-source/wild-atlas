@@ -1356,7 +1356,7 @@ export const TOURS: Tour[] = [
         day: 5,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:
@@ -1372,7 +1372,7 @@ export const TOURS: Tour[] = [
     meetingPoint: { lat: 31.6295, lng: -7.9811, name: "Marrakech — il tuo hotel o riad" },
     brief: [
       "Le quattro capitali storiche del Marocco — Marrakech, Meknes, Fes e Rabat — si trovano in regioni molto diverse, e collegarle in un anello privato di 5 giorni evita coincidenze in treno e spostamenti di bagagli. Il primo giorno lascia Marrakech verso nord via Beni Mellal fino a Midelt (circa 410 km e 7 ore). Il secondo giorno attraversa il Medio Atlante passando per le rovine romane di Volubilis fino a Meknes (circa 300 km e 5 ore), preparando un'intera giornata guidata a Fes el-Bali il giorno tre.",
-      "Fes el-Bali è una delle più grandi aree urbane senza auto al mondo, ed esplorarla con una guida locale trasforma un labirinto di vicoli in un percorso chiaro tra madrase, botteghe artigiane e concerie Chouara. Il quarto giorno percorri circa 200 km (3 ore) verso ovest fino a Rabat per la Kasbah degli Oudaïa e la Torre Hassan, poi rientri circa 240 km (4 ore) via Casablanca — con sosta alla Moschea Hassan II, una delle più grandi al mondo con il suo minareto di 210 m — fino a Marrakech il quinto giorno.",
+      "Fes el-Bali è una delle più grandi aree urbane senza auto al mondo, ed esplorarla con una guida locale trasforma un labirinto di vicoli in un percorso chiaro tra madrase, botteghe artigiane e concerie Chouara. Il quarto giorno percorri circa 200 km (3 ore) verso ovest fino a Rabat per la Kasbah degli Oudaïa e la Torre Hassan, poi rientri circa 325 km (4 ore) via Casablanca — con sosta alla Moschea Hassan II, una delle più grandi al mondo con il suo minareto di 210 m — fino a Marrakech il quinto giorno.",
       "Il pernottamento prevede quattro notti in riad o hotel, in base alla disponibilità, con colazione e cena incluse ogni giorno, compresa la notte a Fes. Sono inclusi trasporto privato in 4x4, guida in inglese, francese o spagnolo, trasferimenti, pedaggi e ingressi ai monumenti. Pranzi e mance facoltative sono esclusi.",
       "Il circuito è classificato facile: le giornate sono dedicate a visite culturali e passeggiate nelle medine anziché a lunghe camminate, quindi è adatto a coppie, famiglie e gruppi da 1 a 12 persone. Se preferisci concludere a nord tra i vicoli blu del Rif invece di tornare a Marrakech, confrontalo con il nostro tour di 4 giorni a Chefchaouen.",
     ],
@@ -2353,7 +2353,7 @@ export const TOURS: Tour[] = [
         day: 6,
         meals: "B",
         driving: "≈4 h",
-        distance: "≈240 km",
+        distance: "≈325 km",
         stop: { name: "Marrakech", lat: 31.6295, lng: -7.9811 },
         title: "Rabat → Casablanca → Marrakech",
         description:

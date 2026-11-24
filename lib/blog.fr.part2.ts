@@ -9058,9 +9058,9 @@ Pour les familles qui vous accueillent, leur langue et leur nouvel an, voir
     heroImage: "/gallery/fes-medina-dusk-kairaouine-roofs.jpg",
     category: "culture",
     region: "imperial-cities",
-    readTime: 8,
+    readTime: 10,
     publishedAt: "2026-11-07",
-    updatedAt: "2026-11-07",
+    updatedAt: "2026-11-24",
     tags: ["villes impériales", "Fès", "Meknès", "Rabat", "Marrakech", "itinéraire Maroc"],
     seoTitle: "Villes impériales du Maroc : itinéraires",
     seoDescription:
@@ -9073,6 +9073,8 @@ Pour les familles qui vous accueillent, leur langue et leur nouvel an, voir
       { q: "Si je n'ai le temps que pour une ville impériale, laquelle choisir ?", a: "Pour une médina médiévale, Fès : c'est la plus profonde des quatre, et une journée guidée sur place ne ressemble à rien d'autre dans le pays. Pour un premier voyage qui inclut aussi la montagne ou le désert, Marrakech, car c'est la base des deux. Meknès et Rabat valent la visite mais se glissent plus facilement sur la route entre les autres." },
       { q: "Faut-il un guide dans les médinas ?", a: "À Fès, oui : Fès el-Bali compte environ neuf mille ruelles et aucune voiture, et chacun de nos circuits qui passe par Fès comprend une journée guidée complète. À Marrakech, un guide change ce que vous voyez lors d'une première visite, et la deuxième se fait mieux seul. Meknès se visite en une demi-journée sans guide. Réservez un guide agréé par votre riad ou une agence, jamais quelqu'un qui vous aborde dans la rue." },
       { q: "Les villes impériales sont-elles inscrites au patrimoine mondial de l'UNESCO ?", a: "Oui, toutes les quatre : la médina de Fès (1981), la médina de Marrakech (1985), la ville historique de Meknès (1996) et Rabat, capitale moderne et ville historique : un patrimoine en partage (2012). La cité romaine de Volubilis, près de Meknès et sur la plupart des routes entre les villes, a été inscrite en 1997." },
+      { q: "Peut-on voyager entre les villes impériales en train ?", a: "Oui, pour les villes elles-mêmes. Le train relie Marrakech, Casablanca, Rabat, Meknès et Fès : environ 3 heures de Marrakech à Casablanca, 1 heure jusqu'à Rabat, environ 2 heures jusqu'à Meknès et moins d'une heure jusqu'à Fès. Marrakech–Fès prend de 6 h 30 à 7 h 30, avec pour certains trains un changement à Casablanca. Le train ne dessert ni Volubilis, ni Chefchaouen, ni le Sahara. Les horaires changent : vérifiez sur l'ONCF pour votre date." },
+      { q: "Vaut-il mieux prendre le train ou un chauffeur privé ?", a: "Pour les villes seules, le train est moins cher et confortable. Un chauffeur vaut la peine quand l'itinéraire inclut le Sahara, le Moyen Atlas ou Volubilis, quand vous êtes trois ou quatre à partager la voiture, ou quand vous voulez vous arrêter où bon vous semble. Dans tous les cas, les voitures n'entrent pas dans les médinas anciennes : le dernier bout jusqu'au riad se fait à pied." },
     ],
     content: `
 Le Maroc a eu quatre capitales que l'histoire appelle aujourd'hui les villes impériales : Fès,
@@ -9154,7 +9156,7 @@ Notre [circuit de 5 jours des villes impériales](/fr/tours/villes-imperiales-ma
 Marrakech, y revient, et donne une nuit à Meknès, à Fès et à Rabat. Le jour 1 remonte au nord-est
 jusqu'à Midelt (≈410 km). Le jour 2, c'est Volubilis le matin et Meknès l'après-midi, avec la nuit
 sur place (≈300 km). Le jour 3 est une journée guidée complète à Fès. Le jour 4 part vers l'ouest
-jusqu'à Rabat (≈200 km), et le jour 5 descend la côte par Casablanca jusqu'à Marrakech (≈240 km).
+jusqu'à Rabat (≈200 km), et le jour 5 descend la côte par Casablanca jusqu'à Marrakech (≈325 km).
 Riads, petits-déjeuners et entrées des sites sont inclus. À partir de 575 € par personne pour deux.
 Le même circuit part d'Agadir en [6 jours](/fr/tours/villes-imperiales-agadir-6-jours).
 
@@ -9169,6 +9171,46 @@ dans la ville bleue avec une journée pour la parcourir. À partir de 570 € pa
 Dix jours permettent de boucler le Sahara et les villes sans une seule journée pressée ; notre
 [itinéraire de 10 jours](/fr/blog/10-day-morocco-itinerary) le détaille jour par jour. Si vous hésitez
 encore sur la durée, commencez par [combien de jours prévoir au Maroc](/fr/blog/how-many-days-do-you-need-in-morocco).
+
+## Se déplacer entre les villes : train, bus ou voiture
+
+Le train relie Marrakech, Casablanca, Rabat, Meknès et Fès : un voyage limité aux villes peut donc se faire entièrement en train. Il ne dessert ni Volubilis, ni Chefchaouen, ni le Moyen Atlas, ni le Sahara.
+
+| Trajet | En train | Par la route | Bon à savoir |
+|---|---|---|---|
+| Casablanca ↔ Rabat | environ 1 h, nombreux trains par jour | ≈90 km, environ 1 h 15 | Le trajet le plus simple du pays |
+| Rabat ↔ Meknès | environ 2 h | ≈145 km, environ 2 h | |
+| Meknès ↔ Fès | moins d'1 h | ≈70 km, environ 1 h | Volubilis n'a pas de gare : ≈30 km de Meknès, environ une demi-heure en voiture ou en taxi |
+| Casablanca ↔ Fès | environ 3 h 30 | ≈300 km, environ 3 h 30 | |
+| Marrakech ↔ Casablanca | environ 3 h | ≈240 km, environ 3 h | Une ligne à grande vitesse vers Marrakech est en construction, prévue pour 2029 |
+| Marrakech ↔ Fès | 6 h 30–7 h 30 ; certains trains sont directs, d'autres changent à Casablanca | ≈480 km par le Moyen Atlas, environ 7 h, ou ≈530 km par l'autoroute, environ 6 h 30 | Le trajet le plus lent, quel que soit le moyen |
+| Tanger ↔ Rabat | environ 1 h 20 en TGV Al Boraq | ≈250 km, environ 3 h | L'entrée la plus rapide par le nord |
+| Fès ↔ Chefchaouen | pas de train ; le bus CTM met 4 h–4 h 30 | ≈200 km, environ 4 h | Une route de montagne sinueuse |
+| Fès ↔ Erg Chebbi (Merzouga) | pas de train | ≈460 km, environ 7 h 30–8 h | La longue journée de tout itinéraire désert depuis Fès |
+
+Les durées en train sont arrondies à partir des horaires publiés, qui changent, et les travaux de la nouvelle ligne à grande vitesse peuvent allonger certains trajets : vérifiez sur l'ONCF (oncf-voyages.ma) pour votre date. Les durées par la route sont des temps de conduite, sans arrêts.
+
+**Train ou chauffeur ?** Pour les villes seules, le train est confortable, bon marché et souvent le meilleur choix. Un chauffeur se justifie quand l'itinéraire comprend le Sahara, la route du Moyen Atlas par Ifrane et la forêt de cèdres, ou Volubilis et Meknès le jour d'un long trajet, et quand vous êtes trois ou quatre à partager la voiture. Dans tous les cas, les voitures n'entrent pas dans les médinas anciennes : chaque arrivée au riad se termine à pied, alors voyagez léger ou demandez au riad d'envoyer quelqu'un à votre rencontre.
+
+## Quel itinéraire vous convient
+
+| Vous avez | Itinéraire | Idéal pour | La contrepartie |
+|---|---|---|---|
+| 4 jours | Marrakech → Fès → Volubilis et Meknès → Chefchaouen, avec notre [circuit de 4 jours](/fr/tours/marrakech-chefchaouen-4-jours) | Fès et la ville bleue | Pas de Rabat, et vous finissez dans le nord : repartez en avion de Fès ou de Tanger |
+| 5 jours | Une boucle depuis Marrakech avec une nuit à Meknès, Fès et Rabat, avec notre [circuit de 5 jours](/fr/tours/villes-imperiales-marrakech-5-jours) | Les quatre villes, sans désert | Le jour 1 compte environ 7 h de route, et pas de Sahara |
+| 5 jours | Casablanca → Rabat, Meknès, Fès → Erg Chebbi → Marrakech, avec notre [itinéraire de 5 jours](/fr/tours/casablanca-fes-sahara-marrakech-5-jours) | Trois villes et une nuit dans les dunes | Rabat et Meknès sont des étapes, pas des nuits, et il faut un billet open-jaw |
+| 7 jours, en indépendant | Marrakech (2 nuits) → train pour Rabat (1) → Meknès (1, avec Volubilis) → Fès (2), retour en avion depuis Fès | Voyager seul en train | Pas de désert, et deux demi-journées de train |
+| 10 jours | Une boucle par les villes et le Sahara, comme dans notre [itinéraire de 10 jours](/fr/blog/10-day-morocco-itinerary) | Tout voir sans journée pressée | Il faut les dix jours complets |
+
+Les aéroports de Fès et de Tanger ont tous deux des vols directs vers des villes européennes, souvent saisonniers : c'est ce qui rend possibles les billets open-jaw et les fins de voyage dans le nord.
+
+## Quand partir
+
+- **Le printemps (mars à mai) et l'automne (septembre à novembre)** sont les saisons les plus faciles pour les quatre villes.
+- **En juillet et août**, il fait chaud à l'intérieur des terres : les maximales moyennes sont d'environ 37 °C à Marrakech et 35 °C à Fès. Visitez les médinas tôt et tard. Rabat, sur l'Atlantique, reste autour de 27–29 °C.
+- **L'hiver** offre des journées douces et des nuits froides. La neige peut fermer pendant des heures les routes du Moyen Atlas autour d'Ifrane, Azrou et Midelt, ce qui compte sur le trajet entre Marrakech et Fès ; demandez aussi si votre riad est chauffé.
+- **Le ramadan** est attendu d'environ le 8 février au 8 mars 2027 (les dates exactes dépendent de la lune). Les sites restent ouverts, généralement avec des horaires réduits, et beaucoup de cafés et restaurants locaux ferment jusqu'au coucher du soleil, même si certains restent ouverts dans les quartiers touristiques.
+- **Mosquées :** la plupart des mosquées en activité, dont la Qaraouiyine à Fès, sont réservées aux musulmans. La mosquée Hassan II à Casablanca, sur la route entre Rabat et Marrakech, propose des visites guidées à tous en dehors des heures de prière.
 
 ## Quand un guide en vaut la peine
 

@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { SITE } from "@/lib/constants";
+import { COMPANY, SITE } from "@/lib/constants";
 import { CONFIRMATION_LANGS, confirmationEmail, confirmationLang } from "@/lib/enquiry-confirmation";
 
 /**
@@ -110,5 +110,22 @@ describe("contact route sends the confirmation in the page language", () => {
   it("no or unknown language: English, as before", async () => {
     const mail = await confirmationFor({ lang: "xx", type: "general", name: "Sam", email: "sam@example.com", message: "Hi" });
     expect(mail?.text.startsWith("Hi Sam,")).toBe(true);
+  });
+});
+
+/**
+ * 2026-11-27: Marrakech Eco Tours became a registered company (MARRAKECH ECO
+ * TOURS SARL AU) and the owner asked for its details in our emails, laid out
+ * like a signature they sent as an example. The confirmation is the one email
+ * every enquirer gets, in six languages. A translator tidying one language, or
+ * someone "shortening" the sign-off, would drop the registered name or the tax
+ * numbers from that language only, and nothing else would notice.
+ */
+describe("confirmation signature carries the registered company", () => {
+  it.each(CONFIRMATION_LANGS)("%s: team, brand, legal name, address, IF and TP", (lang) => {
+    const { text } = confirmationEmail({ lang, type: "general", greet: "", tour: "", date: "", email: "a@example.com" });
+    for (const part of ["MET – Morocco Team", SITE.name, COMPANY.legalName, COMPANY.address, `IF ${COMPANY.taxId}`, `TP ${COMPANY.tp}`, SITE.phone]) {
+      expect(text, `${lang} signature is missing "${part}"; see signature() in lib/enquiry-confirmation.ts`).toContain(part);
+    }
   });
 });

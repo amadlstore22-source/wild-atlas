@@ -1,4 +1,4 @@
-import { SITE } from "@/lib/constants";
+import { COMPANY, SITE } from "@/lib/constants";
 
 /**
  * The email a visitor gets straight after sending the enquiry form, in the
@@ -66,6 +66,8 @@ interface Copy {
   whatsappBooking: string;
   whatsappGeneral: string;
   signOff: string;
+  /** The licence line of the signature, in the email's language. */
+  licensed: string;
 }
 
 const FROM = SITE.email;
@@ -86,7 +88,8 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `Our reply will come from ${FROM}. Please add this address to your contacts, and if you don't see our reply, check your spam or junk folder.`,
     whatsappBooking: `For faster responses, you can also reach us on WhatsApp: ${WA}.`,
     whatsappGeneral: `For urgent inquiries, WhatsApp is the fastest way to reach us: ${WA}.`,
-    signOff: "Best regards,\nThe Marrakech Eco Tours Team",
+    signOff: "Kind regards,",
+    licensed: "Licensed Moroccan Tour Operator",
   },
   fr: {
     hi: (n) => (n ? `Bonjour ${n},` : "Bonjour,"),
@@ -102,7 +105,8 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `Notre réponse viendra de l'adresse ${FROM}. Ajoutez-la à vos contacts et, si vous ne voyez pas notre réponse, pensez à vérifier votre dossier de courrier indésirable (spam).`,
     whatsappBooking: `Pour une réponse plus rapide, vous pouvez aussi nous écrire sur WhatsApp : ${WA}.`,
     whatsappGeneral: `Pour une demande urgente, WhatsApp est le moyen le plus rapide de nous joindre : ${WA}.`,
-    signOff: "Bien cordialement,\nL'équipe Marrakech Eco Tours",
+    signOff: "Bien cordialement,",
+    licensed: "Opérateur touristique marocain agréé",
   },
   es: {
     hi: (n) => (n ? `Hola, ${n}:` : "Hola:"),
@@ -118,7 +122,8 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `Nuestra respuesta llegará desde ${FROM}. Añade esta dirección a tus contactos y, si no ves nuestra respuesta, revisa la carpeta de spam o correo no deseado.`,
     whatsappBooking: `Para una respuesta más rápida, también puedes escribirnos por WhatsApp: ${WA}.`,
     whatsappGeneral: `Si es urgente, WhatsApp es la forma más rápida de contactarnos: ${WA}.`,
-    signOff: "Un saludo,\nEl equipo de Marrakech Eco Tours",
+    signOff: "Un saludo,",
+    licensed: "Operador turístico marroquí con licencia",
   },
   de: {
     hi: (n) => (n ? `Hallo ${n},` : "Hallo,"),
@@ -134,7 +139,8 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `Unsere Antwort kommt von ${FROM}. Bitte fügen Sie diese Adresse zu Ihren Kontakten hinzu und sehen Sie in Ihrem Spam-Ordner nach, falls Sie unsere Antwort nicht finden.`,
     whatsappBooking: `Noch schneller erreichen Sie uns über WhatsApp: ${WA}.`,
     whatsappGeneral: `In dringenden Fällen erreichen Sie uns am schnellsten über WhatsApp: ${WA}.`,
-    signOff: "Viele Grüße\nIhr Team von Marrakech Eco Tours",
+    signOff: "Viele Grüße",
+    licensed: "Lizenzierter marokkanischer Reiseveranstalter",
   },
   it: {
     hi: (n) => (n ? `Buongiorno ${n},` : "Buongiorno,"),
@@ -150,7 +156,8 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `La nostra risposta arriverà da ${FROM}. La preghiamo di aggiungere questo indirizzo ai Suoi contatti e, se non vede la nostra risposta, di controllare la cartella spam o posta indesiderata.`,
     whatsappBooking: `Per una risposta più rapida può scriverci anche su WhatsApp: ${WA}.`,
     whatsappGeneral: `Per le richieste urgenti, WhatsApp è il modo più rapido per contattarci: ${WA}.`,
-    signOff: "Cordiali saluti,\nIl team di Marrakech Eco Tours",
+    signOff: "Cordiali saluti,",
+    licensed: "Tour operator marocchino autorizzato",
   },
   ar: {
     hi: (n) => (n ? `مرحباً ${n}،` : "مرحباً،"),
@@ -166,9 +173,31 @@ const COPY: Record<ConfirmationLang, Copy> = {
     spam: `سيصلك ردّنا من العنوان ${FROM}. يُرجى إضافة هذا العنوان إلى جهات الاتصال لديك، وإذا لم تجد ردّنا فتحقّق من مجلد الرسائل غير المرغوب فيها (Spam).`,
     whatsappBooking: `للحصول على ردّ أسرع، يمكنك أيضاً التواصل معنا عبر واتساب: ${WA}.`,
     whatsappGeneral: `للاستفسارات العاجلة، واتساب هو أسرع طريقة للتواصل معنا: ${WA}.`,
-    signOff: "مع أطيب التحيات،\nفريق Marrakech Eco Tours",
+    signOff: "مع أطيب التحيات،",
+    licensed: "منظّم رحلات مغربي مرخّص",
   },
 };
+
+/**
+ * The signature, laid out like the owner's example (2026-11-27): team, brand,
+ * registered company, licence line, then where to find us. The company name,
+ * address and tax numbers stay as registered in every language.
+ */
+function signature(c: Copy): string {
+  return [
+    c.signOff,
+    "",
+    "MET – Morocco Team",
+    SITE.name,
+    COMPANY.legalName,
+    c.licensed,
+    COMPANY.address,
+    `IF ${COMPANY.taxId} · TP ${COMPANY.tp}`,
+    `WhatsApp ${SITE.phone}`,
+    SITE.url.replace("https://", "www."),
+    "instagram.com/marrakechecotours",
+  ].join("\n");
+}
 
 /** Subject and plain-text body of the visitor's confirmation email. */
 export function confirmationEmail({ lang, type, greet, tour, date, email }: Input): { subject: string; text: string } {
@@ -177,6 +206,6 @@ export function confirmationEmail({ lang, type, greet, tour, date, email }: Inpu
   const body = booking ? c.booking(tour, formatDate(date, lang)) : c.general(email);
   return {
     subject: booking ? c.bookingSubject(tour) : c.generalSubject,
-    text: [c.hi(greet), body, c.spam, booking ? c.whatsappBooking : c.whatsappGeneral, c.signOff].join("\n\n"),
+    text: [c.hi(greet), body, c.spam, booking ? c.whatsappBooking : c.whatsappGeneral, signature(c)].join("\n\n"),
   };
 }

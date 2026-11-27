@@ -1,3 +1,19 @@
+/**
+ * The registered company behind the brand, exactly as on its stamp (owner,
+ * 2026-11-27: "Marrakech Eco Tours SARL is finalised"). One place for every
+ * email signature and, later, invoices. The stamp shows no ICE or RC number;
+ * add them here when the owner sends them (ICE is required on invoices, CGI
+ * art. 145-VIII).
+ */
+export const COMPANY = {
+  legalName: "MARRAKECH ECO TOURS SARL AU",
+  address: "Sidi Ghanem N° 158, 1er étage, Bureau N° 16, Marrakech",
+  /** Identifiant fiscal. */
+  taxId: "74493463",
+  /** Taxe professionnelle. */
+  tp: "64010956",
+} as const;
+
 export const SITE = {
   name: "Marrakech Eco Tours",
   tagline: "Expert-guided adventures in Morocco's most breathtaking landscapes.",
@@ -144,7 +160,7 @@ export const TRIPADVISOR = {
     "https://www.tripadvisor.com/UserReviewEdit-g293734-d18455591-Marrakech_Eco_Tours-Marrakech_Marrakech_Safi.html",
   listingName: "Marrakech Eco Tours",
   rating: 5.0,
-  reviewCount: 131,
+  reviewCount: 134,
   ranking: 206,
   rankingOutOf: 4109,
 } as const;

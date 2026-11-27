@@ -1,7 +1,7 @@
 // Regenerate the site's Open Graph share card (public/og-image.jpg) on an
 // AUTHENTIC first-party photo instead of stock. 1200x630 — the standard OG /
 // Twitter summary_large_image size. Composites an SVG overlay (brand wordmark,
-// tagline, TripAdvisor 5.0/122 badge, headline, services line) over a real
+// tagline, TripAdvisor rating badge, headline, services line) over a real
 // Toubkal summit panorama, with a legibility gradient.
 //
 // Run:  node scripts/build_og_image.mjs
@@ -11,6 +11,16 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+
+// The review count comes from TRIPADVISOR in lib/constants.ts, the number the
+// site shows. It was typed in here as 122 and the card kept saying 122 after
+// the site moved on to 131 (2026-11-27: 134).
+import { readFileSync } from "node:fs";
+const constants = readFileSync(path.join(ROOT, "lib/constants.ts"), "utf8");
+const ta = constants.slice(constants.indexOf("export const TRIPADVISOR"));
+const REVIEWS = Number(/reviewCount:\s*(\d+)/.exec(ta)?.[1]);
+const RATING = Number(/rating:\s*([\d.]+)/.exec(ta)?.[1]).toFixed(1);
+if (!REVIEWS || RATING === "NaN") throw new Error("Could not read TRIPADVISOR rating and reviewCount from lib/constants.ts");
 const BG = path.join(ROOT, "public/gallery/toubkal-summit-panorama-high-atlas.jpg");
 const OUT = path.join(ROOT, "public/og-image.jpg");
 
@@ -56,11 +66,11 @@ const svg = `
   <!-- TripAdvisor rating badge, top-right -->
   <g transform="translate(${W - 292}, 54)">
     <rect x="0" y="0" width="228" height="52" rx="26" fill="${CREAM}"/>
-    <text x="26" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="${INK}">5.0</text>
+    <text x="26" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="${INK}">${RATING}</text>
     <g transform="translate(74, 18)">
       ${[0, 1, 2, 3, 4].map((i) => `<circle cx="${i * 18 + 8}" cy="8" r="7.5" fill="${TA_GREEN}"/>`).join("")}
     </g>
-    <text x="${228 - 24}" y="34" text-anchor="end" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="${INK}" opacity="0.7">122</text>
+    <text x="${228 - 24}" y="34" text-anchor="end" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="${INK}" opacity="0.7">${REVIEWS}</text>
   </g>
 
   <!-- Headline, lower-left -->

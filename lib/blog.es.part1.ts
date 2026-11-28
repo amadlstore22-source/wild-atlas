@@ -1212,6 +1212,7 @@ Taghazout no es solo para surfistas. Los acompañantes que no practican surf tam
   },
   {
     slug: "anti-atlas-trekking-guide",
+    answer: { text: "El Antiatlas está a unos 200 km al suroeste del macizo del Toubkal y es más bajo y en general más suave que el Alto Atlas: nuestro trekking en el Antiatlas es de dificultad moderada, sin día de cumbre a 4.167 m. Tafraoute, a 1.200 m en una hoya de granito rosa, es la base. Al norte, el valle de Ameln recorre 20 km de terrazas de almendros y arganes bajo paredes de granito de 2.000 m, y el trek clásico sube a la meseta del Jbel Lkest (2.359 m), unos 35 km en total con una noche en casa de una familia. La mejor época es el final del invierno y la primavera: los almendros suelen florecer en las dos últimas semanas de febrero. El verano es caluroso y sin sombra. No hace falta guía por ley, pero los senderos no están señalizados y el agua es difícil de encontrar." },
     region: "agadir-region",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Trekking por el Anti-Atlas: la cordillera olvidada de Marruecos",
@@ -1755,6 +1756,7 @@ necesario para la noche en el refugio va en una sola mochila, a tu espalda, así
   },
   {
     slug: "do-you-need-a-guide-to-climb-toubkal",
+    answer: { text: "Sí. Desde el invierno de 2018–2019 es obligatorio que cada senderista en el Jbel Toubkal vaya con un guía de montaña con licencia. La Gendarmería Real lo controla en un puesto del sendero por encima de Imlil, antes de Sidi Chamharouch, donde revisan tu pasaporte y la licencia de tu guía; no se llega al refugio sin pasar por él. A quien llega solo lo hacen volver, a menudo tras dos o tres horas de subida, y pierde el día y la reserva del refugio. La norma llegó tras el asesinato de dos senderistas escandinavas cerca de Imlil en diciembre de 2018. Un guía con licencia lleva una tarjeta oficial: pide verla, y lleva tu pasaporte original, no una fotocopia ni una foto en el móvil." },
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "¿Necesitas un guía para escalar el Toubkal? La norma, explicada",
     excerpt:
@@ -2068,12 +2070,12 @@ Pasarías más tiempo mirando el respaldo de un asiento que el Sahara. No vendem
 
 ## Lo que cuesta cada uno realmente
 
-Los tours compartidos de 3 días a Merzouga rondan los **120-180 $ por persona** en el extremo económico, hasta **200-350 $** en privado. Zagora, al ser más corta, se sitúa más baja. Los campamentos de desierto de lujo cuestan considerablemente más.
+Los tours compartidos de 3 días a Merzouga rondan los **110-170 € por persona** en el extremo económico, hasta **190-330 €** en privado. Zagora, al ser más corta, se sitúa más baja. Los campamentos de desierto de lujo cuestan considerablemente más.
 
 Dos cosas que conviene saber sobre los precios del desierto:
 
 - **Reservar directamente con un operador local con licencia normalmente ahorra un 30-50%** frente a reservar a través de un mostrador de hotel o una plataforma revendedora, porque eliminas una capa de comisión en lugar de un servicio.
-- **El extremo barato tiene un mecanismo.** Un tour de 3 días por 90 $ no es generosidad; está recuperando margen en algún sitio: un horario apresurado, un grupo grande, un campamento con instalaciones compartidas o una parada pesada en una tienda de alfombras. Puede ser un buen trato. Simplemente sabe que lo estás haciendo.
+- **El extremo barato tiene un mecanismo.** Un tour de 3 días por 85 € no es generosidad; está recuperando margen en algún sitio: un horario apresurado, un grupo grande, un campamento con instalaciones compartidas o una parada pesada en una tienda de alfombras. Puede ser un buen trato. Simplemente sabe que lo estás haciendo.
 
 Presupuesta por separado para propinas: aproximadamente **350-800 MAD en total** repartidos entre conductor, camelleros y personal del campamento en un viaje de varios días. Es voluntario en teoría y esperado en la práctica, e importa a quienes hacen el trabajo más duro de tu viaje.
 
@@ -2091,10 +2093,11 @@ Si nos dices cuántos días tienes y qué es lo que realmente quieres del desier
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
+    answer: { text: "La mayoría de los tours de 3 días al Sáhara desde Marrakech cuestan 140–280 € por persona en 2026. Las salidas en grupo compartido rondan los 110–170 € por tres días (75–110 € por dos), los tours privados 190–330 € (unos 140–230 € por dos días) y los campamentos de lujo 370–650 €. Las ofertas más baratas empiezan cerca de 85 € por tres días, a base de grupos más grandes, campamentos básicos con baños compartidos, jornadas largas de carretera y paradas con comisión. Como referencia, nuestro tour privado de 3 días al Sáhara cuesta 380 € por persona siendo dos y 295 € cada uno siendo cuatro, y nuestra excursión de 2 días a Zagora 195 € por persona siendo dos y 170 € cada uno siendo cuatro. Calcula unos 350–800 MAD por persona en total de propinas para un viaje de varios días.", source: "Precios de 2026 comparados más abajo; nuestros precios, como en las páginas de los tours." },
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Lo que realmente cuesta un tour por el desierto en Marruecos (y por qué los baratos son baratos)",
     excerpt:
-      "Un desglose de precios reales de 2026 para los viajes al Sahara desde Marrakech, qué separa un tour de 90 $ de uno de 300 $, cuánto dar de propina y a dónde va realmente el dinero.",
+      "Un desglose de precios reales de 2026 para los viajes al Sahara desde Marrakech, qué separa un tour de 85 € de uno de 280 €, cuánto dar de propina y a dónde va realmente el dinero.",
     heroImage:
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
@@ -2110,7 +2113,7 @@ Si nos dices cuántos días tienes y qué es lo que realmente quieres del desier
     faq: [
       {
         q: "¿Cuánto cuesta un tour de 3 días al desierto del Sahara desde Marrakech?",
-        a: "La mayoría de los tours de 3 días al desierto cuestan entre 150 y 300 $ por persona en 2026. Las salidas de grupo compartidas rondan los 120 a 180 $, los tours privados 200 a 350 $, y los campamentos de lujo 400 a 700 $. Las salidas anunciadas más baratas empiezan cerca de los 90 $, lo que se consigue recortando los límites del tamaño del grupo, la calidad del campamento o el horario.",
+        a: "La mayoría de los tours de 3 días al desierto cuestan entre 140 y 280 € por persona en 2026. Las salidas de grupo compartidas rondan los 110 a 170 €, los tours privados 190 a 330 €, y los campamentos de lujo 370 a 650 €. Las salidas anunciadas más baratas empiezan cerca de los 85 €, lo que se consigue recortando los límites del tamaño del grupo, la calidad del campamento o el horario.",
       },
       {
         q: "¿Cuánto se debe dar de propina en un tour al desierto de Marruecos?",
@@ -2121,8 +2124,8 @@ Si nos dices cuántos días tienes y qué es lo que realmente quieres del desier
         a: "Reservar directamente con un operador local con licencia y con antelación suele ahorrar entre un 30 y un 50% comparado con reservar a través de un mostrador de hotel o una plataforma revendedora, porque eliminas una capa de comisión. Reservar a la llegada a Marrakech puede sacar a veces descuentos de última hora, pero sacrificas la elección de operador y, en temporada alta, la disponibilidad por completo.",
       },
       {
-        q: "¿Por qué algunos tours al desierto de Marruecos cuestan solo 90 $?",
-        a: "Un tour de tres días por 90 $ tiene que recuperar su margen en algún sitio. Normalmente eso significa un grupo más grande en un minibús mayor, un campamento básico con instalaciones compartidas, un horario comprimido con largos días de conducción, y a menudo paradas por comisión en cooperativas de alfombras o argán donde el operador se lleva un porcentaje. Nada de eso es fraude, pero deberías saber que es el trato que estás haciendo.",
+        q: "¿Por qué algunos tours al desierto de Marruecos cuestan solo 85 €?",
+        a: "Un tour de tres días por 85 € tiene que recuperar su margen en algún sitio. Normalmente eso significa un grupo más grande en un minibús mayor, un campamento básico con instalaciones compartidas, un horario comprimido con largos días de conducción, y a menudo paradas por comisión en cooperativas de alfombras o argán donde el operador se lleva un porcentaje. Nada de eso es fraude, pero deberías saber que es el trato que estás haciendo.",
       },
       {
         q: "¿Cuándo hay que reservar un tour al desierto de Marruecos?",
@@ -2136,11 +2139,13 @@ Esto es lo que cuesta un viaje al Sahara desde Marrakech en 2026, por persona:
 
 | Tipo de tour | 2 días | 3 días |
 |---|---|---|
-| Grupo compartido | 80-120 $ | 120-180 $ |
-| Privado | ~150-250 $ | 200-350 $ |
-| Campamento de lujo | — | 400-700 $ |
+| Grupo compartido | 75-110 € | 110-170 € |
+| Privado | ~140-230 € | 190-330 € |
+| Campamento de lujo | — | 370-650 € |
 
-Las salidas más baratas en las grandes plataformas de reventa se anuncian desde alrededor de **90 $** por tres días. El extremo cómodo de lo compartido ronda los **300 $**. Ambas cifras son reales. Compran viajes distintos.
+Las salidas más baratas en las grandes plataformas de reventa se anuncian desde alrededor de **85 €** por tres días. El extremo cómodo de lo compartido ronda los **280 €**. Ambas cifras son reales. Compran viajes distintos.
+
+Como punto de referencia en ese rango: nuestro [tour de 3 días al Sáhara](/es/tours/sahara-3day-marrakech) cuesta **380 € por persona siendo dos** y **295 € cada uno siendo cuatro**, privado de principio a fin, y nuestra [excursión de 2 días a Zagora](/es/tours/zagora-2day-marrakech) cuesta **195 € por persona siendo dos**, que bajan a **170 € cada uno siendo cuatro**. Son tarifas privadas, por eso quedan por encima de la columna compartida de la tabla.
 
 ## A dónde va el dinero
 
@@ -2154,16 +2159,16 @@ Merece la pena entender la estructura de costes, porque explica cada precio de e
 
 Como el combustible y la distancia son fijos, **los tours baratos recortan las demás partidas.** No es un escándalo; es aritmética.
 
-## Lo que realmente compra 90 $
+## Lo que realmente compra 85 €
 
-Un tour de tres días por 90 $ recupera su margen en algún sitio. Normalmente:
+Un tour de tres días por 85 € recupera su margen en algún sitio. Normalmente:
 
 - **Un grupo más grande.** Dieciséis personas en un minibús en lugar de seis en un 4x4.
 - **Un campamento básico.** Tiendas compartidas, instalaciones compartidas, colchones finos.
 - **Un horario comprimido.** Menos paradas, bloques de conducción más largos, menos tiempo en las dunas.
 - **Paradas por comisión.** Una larga pausa en una tienda de alfombras o una cooperativa de argán donde el operador se lleva un porcentaje de lo que compras.
 
-Si tienes 24 años, viajas con presupuesto ajustado y sobre todo quieres dormir en el Sahara y ver las estrellas, un tour de 90 $ ofrece exactamente eso, y quejarse del minibús después es un poco injusto. Si estás en una luna de miel de dos semanas, te parecerá un error.
+Si tienes 24 años, viajas con presupuesto ajustado y sobre todo quieres dormir en el Sahara y ver las estrellas, un tour de 85 € ofrece exactamente eso, y quejarse del minibús después es un poco injusto. Si estás en una luna de miel de dos semanas, te parecerá un error.
 
 **Sabe lo que estás comprando.** Ese es todo el mensaje.
 
@@ -2179,7 +2184,7 @@ Somos un operador directo, así que trata ese párrafo con la sospecha adecuada.
 
 Las propinas confunden a la gente porque nadie da una cifra. Aquí tienes números, para un viaje de 3 días, por persona:
 
-- **Conductor-guía:** 200-500 MAD (22-55 $)
+- **Conductor-guía:** 200-500 MAD (19-47 €)
 - **Camelleros:** 50-100 MAD
 - **Personal del campamento:** 100-200 MAD en dos noches
 

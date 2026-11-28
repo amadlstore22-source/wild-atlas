@@ -15,6 +15,7 @@ import { hreflangLanguages } from "@/lib/seo/hreflang";
 import BlogWeather from "@/components/blog/BlogWeather";
 import RelatedTourCards from "@/components/blog/RelatedTourCards";
 import BlogTripBox from "@/components/blog/BlogTripBox";
+import AnswerBox from "@/components/blog/AnswerBox";
 import PreferredSource from "@/components/blog/PreferredSource";
 import { getTourFor } from "@/lib/tours-i18n";
 import { localizeHref } from "@/lib/localize-href";
@@ -163,6 +164,8 @@ export default async function BlogPostPage({ params }: BlogParams) {
       url: postUrl,
       headline: post.title.slice(0, 110),
       description: post.seoDescription ?? post.excerpt,
+      // The short answer box, as the article's summary (schema.org `abstract`).
+      ...(post.answer && { abstract: post.answer.text }),
       // Absolute URL: JSON-LD has no base URL, so a relative /gallery/... path
       // resolves against schema.org and Google drops the article image.
       image: { "@type": "ImageObject", url: absoluteUrl(post.heroImage) },
@@ -460,6 +463,14 @@ export default async function BlogPostPage({ params }: BlogParams) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
             <article className="bg-card rounded-[4px] p-8 sm:p-12 shadow-sm">
               <p className="text-xl text-ink-soft leading-relaxed mb-8 font-medium border-s-2 border-sunset ps-5">{post.excerpt}</p>
+              {post.answer && (
+                <AnswerBox
+                  label={dict.blog.shortAnswer}
+                  sourceLabel={dict.blog.answerSource}
+                  text={post.answer.text}
+                  source={post.answer.source}
+                />
+              )}
               {blocks.map((segment, i) => (
                 <div key={i}>
                   {segment.map((block, j) =>

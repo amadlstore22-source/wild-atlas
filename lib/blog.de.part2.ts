@@ -249,6 +249,7 @@ Wenn Sie uns Ihre Daten nennen und was Ihnen wirklich wichtig ist, skizzieren wi
   },
   {
     slug: "toubkal-weather-by-month",
+    answer: { text: "Am Toubkal ist es viel kälter als in Marrakech: Der Gipfel liegt auf 4.167 m, rund 3.700 m über der Stadt. Im Mittel der Jahre 2016–2025 reicht die Tageshöchsttemperatur am Gipfel von etwa −4 °C im Januar bis 15 °C im Juli, der nächtliche Tiefstwert von etwa −12 °C bis 6 °C. Im Winter sinken die Nächte an der Hütte (3.207 m) auf etwa −4 bis −6 °C und in Imlil (1.740 m) auf 1 bis 3 °C. Von Dezember bis März bleibt der Gipfel an 20 bis 24 Tagen im Monat den ganzen Tag unter null, dann braucht der obere Weg Steigeisen und Eispickel. Am beständigsten ohne Winterausrüstung sind Mai, Juni, September und Anfang Oktober. Der Gipfeltag beginnt vor der Dämmerung, zur kältesten Stunde, und Wind am Grat lässt jeden Wert noch kälter wirken.", source: "ERA5-Reanalyse über Open-Meteo, Monatsmittel 2016–2025 für jede Höhe (Tabelle unten)." },
     author: MET_TEAM,
     title: "Toubkal-Wetter nach Monat: Wann klettern und was erwartet Sie",
     excerpt: "Der Gipfel liegt 3.700 Meter über Marrakech, und das Wetter spiegelt das wider. Ein Monat-für-Monat-Guide zu den Bedingungen am Jbel Toubkal, mit Live-Werten für das Tal, die Hütte und den Gipfel.",
@@ -382,6 +383,7 @@ Wer den Hohen Atlas ohne Gipfel erleben möchte: Der [2-tägige Trek ins Azzaden
   },
   {
     slug: "how-hard-is-toubkal-difficulty-guide",
+    answer: { text: "Im Sommer ist der Toubkal eine harte Wanderung, keine Kletterei: Die Normalroute durch den Südkessel führt über Fels und Geröll, ohne Seil und ohne Kletterstellen, und fitte Einsteiger erreichen den Gipfel auf 4.167 m. Schwer machen ihn die Höhe und die Länge. Der Gipfeltag beginnt vor der Dämmerung mit etwa drei Stunden Aufstieg von der Hütte, danach folgen vier bis fünf Stunden Abstieg, oft bis nach Imlil. Häufiger als die Kondition zwingt die Höhe zur Umkehr, deshalb erhöht ein Programm mit Zeit zur Anpassung Ihre Chancen. Am besten trainieren Sie mit langen, hügeligen Wanderungen an mehreren Wochenenden hintereinander, Abstiege inklusive. Etwa von November bis April macht Schnee den oberen Berg zu einer Besteigung mit Steigeisen, Eispickel und einem wintererfahrenen Führer.", source: "Gehzeiten auf der Route durch den Südkessel, aus den Besteigungen unserer Führer ab Imlil." },
     author: MET_TEAM,
     title: "Wie schwer ist der Toubkal wirklich? Ein ehrlicher Schwierigkeitsguide",
     excerpt: "Der Toubkal ist eine lange Wanderung in großer Höhe, kein Kletterunternehmen – aber das untertreibt es. Was der Trek tatsächlich von Beinen und Lunge verlangt, und wer daran scheitert.",
@@ -2801,6 +2803,7 @@ Bauen Sie keinen Urlaub um Ouarzazate – bauen Sie ihn um die Wüste und lassen
   },
   {
     slug: "toubkal-guide-cost",
+    answer: { text: "Ein lizenzierter Bergführer für den Toubkal kostet direkt in Imlil gebucht etwa 500–800 MAD pro Tag (rund 46–74 €), und dieser Preis wird von der ganzen Gruppe geteilt, nicht pro Person bezahlt. Ein Führer ist Pflicht, der Kontrollpunkt in Imlil prüft das. Er ist nur ein Posten der Rechnung: Ein Hüttenbett mit Abendessen und Frühstück kostet 300–350 MAD pro Nacht, der Transfer Marrakech–Imlil 600–1.000 MAD hin und zurück pro Fahrzeug, Steigeisen und Eispickel im Winter 100–150 MAD pro Tag, dazu eine kleine Parkgebühr. Selbst organisiert kostet eine 2-Tages-Besteigung zwei Personen meist 2.200–3.300 MAD insgesamt (etwa 205–310 €). Unser privater 2-Tages-Gipfeltrek kostet 313 € pro Person zu zweit, alles inklusive.", source: "Übliche Preise 2026 in Imlil (Kostentabelle unten); unsere Preise wie auf der Tourseite." },
     localizedSlug: "toubkal-bergfuehrer-kosten",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet ein Bergführer für den Toubkal? (Preise 2026)",
@@ -2953,6 +2956,7 @@ Marrakesch verlassen.
   },
   {
     slug: "toubkal-2-day-trek-cost",
+    answer: { text: "Selbst organisiert kostet eine 2-Tages-Besteigung des Toubkal zwei Personen meist 2.200–3.300 MAD insgesamt (etwa 205–310 € für beide): ein lizenzierter Führer für 500–800 MAD pro Tag, den sich die Gruppe teilt, Hüttenbetten mit Abendessen und Frühstück für 300–350 MAD pro Nacht, der Transfer Marrakech–Imlil für 600–1.000 MAD hin und zurück pro Fahrzeug und eine kleine Parkgebühr. Von November bis April kommen Steigeisen und Eispickel für 100–150 MAD pro Tag dazu, und rechnen Sie mit etwa 300–400 MAD Trinkgeld für die Gruppe. Unser privater 2-Tages-Gipfeltrek kostet 313 € pro Person zu zweit, alles inklusive. Der 4-Tages-Trek kostet 586 € zu zweit: nicht das Doppelte, weil Führer und Transfer pro Reise berechnet werden, und die zusätzlichen Tage dienen der Akklimatisierung.", source: "Übliche Preise 2026 in Imlil (Tabelle unten); unsere Preise wie auf den Tourseiten." },
     localizedSlug: "toubkal-trek-2-tage-kosten",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Was kostet ein 2-Tages-Trek zum Toubkal? (Aufstellung 2026)",
@@ -6177,6 +6181,7 @@ Wenn Ihre Reise das Land durchquert, müssen Sie vielleicht gar nicht zum Ausgan
   },
   {
     slug: "sahara-desert-weather-what-to-expect",
+    answer: { text: "Die marokkanische Sahara ist einen großen Teil des Jahres tagsüber heiß und nachts kalt. In Merzouga (Erg Chebbi) erreichen die Höchstwerte im Juli im Mittel 42–43 °C, und die Nächte bleiben bei etwa 28–29 °C; im Januar liegen die Höchstwerte nur bei 18–19 °C, die Nächte im Mittel bei 4–6 °C und in klaren, windstillen Nächten nahe dem Gefrierpunkt. Die Dünen liegen auf etwa 730 m in sehr trockener Luft, deshalb entweicht die Wärme nach Sonnenuntergang schnell. Am angenehmsten sind März, April, Oktober und November mit Höchstwerten von etwa 24–30 °C. Der Winter bringt den klarsten Himmel und die ruhigsten Camps, verlangt aber warme Kleidung; im Juli und August finden Kamelritte früh am Morgen und nach Sonnenuntergang statt. Regen ist selten, im Frühling bringt der Chergui-Wind gelegentlich einen Sandsturm.", source: "Monatsmittel für Merzouga (Tabelle unten); die ERA5-Reanalyse über Open-Meteo, 2016–2025, ergibt 18 / 4 °C im Januar und 42 / 28 °C im Juli." },
     localizedSlug: "wetter-sahara-wueste-marokko",
     author: MET_TEAM,
     title: "Sahara-Wetter in Marokko: 43 \u00b0C am Tag, fast Frost in der Nacht",
@@ -6412,6 +6417,7 @@ einlädt.
   },
   {
     slug: "tibherine-plane-wreck-toubkal",
+    answer: { text: "Das Wrack am Tibherine ist eine Lockheed L‑749A Constellation, die am 28. November 1969 den Tibherine-Ostgipfel (3.880 m) traf, einen Gipfel knapp nördlich des Toubkal. Sie flog nachts von Faro in Portugal nach São Tomé, mit Munition für Biafra während des nigerianischen Bürgerkriegs; nachdem die Crew Triebwerksprobleme gemeldet hatte, verlor die Maschine an Höhe und prallte gegen den Berg, alle acht Menschen an Bord kamen ums Leben. Bergsteiger fanden sie erst am 18. Juli 1970, deshalb nennen manche Berichte 1970 als Jahr des Absturzes. Trümmer liegen in der Westflanke, ein Triebwerk steckt in den Gipfelfelsen. Das Wrack liegt nicht an der Normalroute: Der Zustieg ist unmarkiert und ausgesetzt, nur für erfahrene Bergwanderer bei stabilem Wetter, und im gesamten Toubkal-Nationalpark ist ein lizenzierter Führer Pflicht.", source: "Unfalleintrag des Bureau of Aircraft Accidents Archives." },
     author: MET_TEAM,
     title: "Das Flugzeugwrack am Tibherine: Marokkos höchste Absturzstelle",
     excerpt:
@@ -6902,6 +6908,7 @@ Erfüllt ein Veranstalter alle fünf, sind Sie mit ziemlicher Sicherheit gut auf
   },
   {
     slug: "morocco-desert-in-winter-guide",
+    answer: { text: "Winter in der Sahara heißt milde Tage und kalte Nächte. Am Erg Chebbi liegen die Tageshöchstwerte bei etwa 18–21 °C im Dezember, 17–20 °C im Januar und 20–23 °C im Februar, die Nächte sinken auf etwa 3–7 °C, 2–6 °C und 4–8 °C, und eine klare, windstille Januarnacht kann den Gefrierpunkt erreichen. Die Camps haben dicke Decken, packen Sie trotzdem warme Kleidung für Abend und Morgengrauen ein. Dafür gibt es trockene, klare Luft, den schönsten Nachthimmel des Jahres und ruhige Schluchten und Camps, außer in den letzten zwei Dezemberwochen, wenn die Camps früh ausgebucht sind. Starker Schnee kann den Pass über den Hohen Atlas auf dem Weg für einige Stunden schließen, meist im Januar und Februar.", source: "Mittelwerte für den Erg Chebbi (Tabelle unten); die ERA5-Reanalyse über Open-Meteo, 2016–2025, ergibt für Merzouga im Januar 18 °C am Tag und 4 °C in der Nacht." },
     localizedSlug: "marokko-wueste-im-winter",
     author: MET_TEAM,
     title: "Die Sahara im Winter: Dezember, Januar und Februar",

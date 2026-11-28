@@ -249,6 +249,7 @@ Se ci dici le tue date e cosa ti interessa davvero, ti disegneremo un percorso �
   },
   {
     slug: "toubkal-weather-by-month",
+    answer: { text: "Sul Toubkal fa molto più freddo che a Marrakech: la vetta è a 4.167 m, circa 3.700 m sopra la città. In media tra il 2016 e il 2025, la massima in vetta va da circa −4 °C a gennaio a 15 °C a luglio, e la minima notturna da circa −12 °C a 6 °C. D'inverno le notti scendono a circa −4/−6 °C al rifugio (3.207 m) e a 1–3 °C a Imlil (1.740 m). Da dicembre a marzo la vetta resta sotto zero tutto il giorno per 20–24 giorni al mese, quindi la parte alta richiede ramponi e piccozza. I mesi più stabili senza attrezzatura invernale sono maggio, giugno, settembre e inizio ottobre. Il giorno della vetta inizia prima dell'alba, l'ora più fredda, e il vento sulla cresta fa percepire ogni valore più basso.", source: "Rianalisi ERA5 tramite Open-Meteo, medie mensili 2016–2025 a ogni quota (tabella più sotto)." },
     author: MET_TEAM,
     title: "Il Meteo sul Toubkal Mese per Mese: Quando Salire e Cosa Aspettarsi",
     excerpt: "La vetta si trova 3.700 metri sopra Marrakech, e il meteo lo riflette. Una guida mese per mese sulle condizioni sul Jbel Toubkal, con letture live per la valle, il rifugio e la vetta.",
@@ -380,6 +381,7 @@ Se volete l'Alto Atlante senza la vetta, il [trekking di 2 giorni nella valle di
   },
   {
     slug: "how-hard-is-toubkal-difficulty-guide",
+    answer: { text: "D'estate il Toubkal è un'escursione dura, non un'arrampicata: la via normale del circo sud passa su roccia e ghiaione, senza corde né passaggi di arrampicata, e principianti allenati raggiungono la vetta a 4.167 m. A renderlo duro sono la quota e la lunghezza. Il giorno della vetta inizia prima dell'alba con circa tre ore di salita dal rifugio, poi quattro-cinque ore di discesa, spesso fino a Imlil. È la quota, più dell'allenamento, a far tornare indietro, quindi un itinerario con tempo per adattarsi aumenta le probabilità. Il miglior allenamento sono lunghe camminate in salita per più fine settimana di fila, discese comprese. Da novembre ad aprile circa, la neve trasforma la parte alta in una salita con ramponi, piccozza e una guida preparata per l'inverno.", source: "Tempi sulla via del circo sud, dalle salite delle nostre guide da Imlil." },
     author: MET_TEAM,
     title: "Quanto è Difficile il Toubkal, Davvero? Una Guida Onesta alla Difficoltà",
     excerpt: "Il Toubkal è una lunga camminata in quota, non una scalata — ma questo lo sottovaluta. Cosa richiede davvero il trekking a gambe e polmoni, e chi fatica di più.",
@@ -2798,6 +2800,7 @@ Non costruire una vacanza attorno a Ouarzazate: costruiscila attorno al deserto 
   },
   {
     slug: "toubkal-guide-cost",
+    answer: { text: "Una guida di montagna autorizzata per il Toubkal costa circa 500–800 MAD al giorno (circa 46–74 €) ingaggiata direttamente a Imlil, e la tariffa si divide tra tutto il gruppo, non si paga a persona. La guida è obbligatoria e il posto di controllo di Imlil lo verifica. È solo una voce del conto: un letto al rifugio con cena e colazione costa 300–350 MAD a notte, il trasferimento Marrakech–Imlil 600–1.000 MAD andata e ritorno per veicolo, ramponi e piccozza d'inverno 100–150 MAD al giorno, più un piccolo ingresso al parco. Organizzata da sé, una salita di 2 giorni costa di solito a due persone 2.200–3.300 MAD in totale (circa 205–310 €). Il nostro trek privato di 2 giorni in vetta costa 313 € a persona in due, tutto incluso.", source: "Tariffe abituali 2026 a Imlil (tabella dei costi più sotto); i nostri prezzi come sulla pagina del tour." },
     localizedSlug: "prezzo-guida-toubkal",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa una guida per il Toubkal? (Prezzi 2026)",
@@ -2949,6 +2952,7 @@ assicurati di sapere cosa è incluso prima di lasciare Marrakech.
   },
   {
     slug: "toubkal-2-day-trek-cost",
+    answer: { text: "Organizzata da sé, una salita di 2 giorni al Toubkal costa di solito a due persone 2.200–3.300 MAD in totale (circa 205–310 € in coppia): una guida autorizzata a 500–800 MAD al giorno divisa nel gruppo, letti al rifugio con cena e colazione a 300–350 MAD a notte, il trasferimento Marrakech–Imlil a 600–1.000 MAD andata e ritorno per veicolo e un piccolo ingresso al parco. Da novembre ad aprile aggiungete ramponi e piccozza a 100–150 MAD al giorno, e mettete in conto circa 300–400 MAD di mance per il gruppo. Il nostro trek privato di 2 giorni in vetta costa 313 € a persona in due, tutto incluso. Quello di 4 giorni costa 586 € in due: non il doppio, perché guida e trasferimento si pagano per viaggio, e i giorni in più servono ad acclimatarsi.", source: "Tariffe abituali 2026 a Imlil (tabella più sotto); i nostri prezzi come sulle pagine dei tour." },
     localizedSlug: "prezzo-trek-toubkal-2-giorni",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Quanto costa un trek di 2 giorni al Toubkal? (Dettaglio 2026)",
@@ -6162,6 +6166,7 @@ Se il vostro viaggio attraversa il paese, forse non serve tornare al punto di pa
   },
   {
     slug: "sahara-desert-weather-what-to-expect",
+    answer: { text: "Il Sahara marocchino è caldo di giorno e freddo di notte per buona parte dell'anno. A Merzouga (Erg Chebbi) le massime di luglio sono in media di 42–43 °C e le notti restano intorno ai 28–29 °C; a gennaio le massime sono di soli 18–19 °C e le notti scendono in media a 4–6 °C, vicino allo zero nelle notti limpide e senza vento. Le dune sono a circa 730 m in un'aria molto secca, quindi il calore se ne va in fretta dopo il tramonto. I mesi più piacevoli sono marzo, aprile, ottobre e novembre, con massime di circa 24–30 °C. L'inverno porta i cieli più limpidi e i campi più tranquilli, ma servono strati caldi; a luglio e agosto le passeggiate in cammello si spostano al mattino presto e dopo il tramonto. La pioggia è rara, e in primavera arriva il vento chergui con qualche tempesta di sabbia.", source: "Medie mensili di Merzouga (tabella più sotto); la rianalisi ERA5 tramite Open-Meteo, 2016–2025, dà 18 / 4 °C a gennaio e 42 / 28 °C a luglio." },
     localizedSlug: "clima-deserto-sahara-marocco",
     author: MET_TEAM,
     title: "Clima del Sahara marocchino: 43 \u00b0C di giorno, quasi zero di notte",
@@ -6394,6 +6399,7 @@ conveniente per chi viaggia da solo e degno di un confronto attento se siete in 
   },
   {
     slug: "tibherine-plane-wreck-toubkal",
+    answer: { text: "Il relitto del Tibherine è un Lockheed L‑749A Constellation che il 28 novembre 1969 colpì il Tibherine Est (3.880 m), una vetta appena a nord del Toubkal. Volava di notte da Faro, in Portogallo, verso São Tomé con munizioni destinate al Biafra durante la guerra civile nigeriana; dopo aver segnalato un guasto al motore perse quota e urtò la montagna, e morirono tutte le otto persone a bordo. Lo trovarono alcuni alpinisti il 18 luglio 1970, per questo alcuni racconti datano l'incidente al 1970. I rottami si trovano lungo la parete ovest e un motore è incastrato nelle rocce della vetta. Non è sulla via normale del Toubkal: l'avvicinamento non è segnato ed è esposto, per escursionisti esperti con tempo stabile, e in tutto il parco nazionale del Toubkal è obbligatoria una guida autorizzata.", source: "Scheda dell'incidente del Bureau of Aircraft Accidents Archives." },
     author: MET_TEAM,
     title: "Il relitto d'aereo sul Tibherine: il sito di incidente più alto del Marocco",
     excerpt:
@@ -6885,6 +6891,7 @@ Se un operatore soddisfa tutti e cinque, quasi certamente è a posto. Se resiste
   },
   {
     slug: "morocco-desert-in-winter-guide",
+    answer: { text: "L'inverno nel Sahara significa giornate miti e notti fredde. All'Erg Chebbi le massime sono di circa 18–21 °C a dicembre, 17–20 °C a gennaio e 20–23 °C a febbraio, mentre le notti scendono a circa 3–7 °C, 2–6 °C e 4–8 °C, e una notte di gennaio limpida e senza vento può arrivare a zero. I campi hanno coperte pesanti, ma portate strati caldi per la sera e l'alba. In cambio c'è aria secca e limpida, il cielo notturno più bello dell'anno e gole e campi tranquilli, tranne nelle ultime due settimane di dicembre, quando i campi si riempiono presto. Una forte nevicata può chiudere per qualche ora il passo dell'Alto Atlante lungo la strada, soprattutto a gennaio e febbraio.", source: "Medie dell'Erg Chebbi (tabella più sotto); la rianalisi ERA5 tramite Open-Meteo, 2016–2025, dà a Merzouga 18 °C di giorno e 4 °C di notte a gennaio." },
     localizedSlug: "deserto-marocco-in-inverno",
     author: MET_TEAM,
     title: "Il Sahara in inverno: dicembre, gennaio e febbraio",

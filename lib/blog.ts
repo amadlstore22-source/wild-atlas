@@ -60,6 +60,15 @@ export interface BlogPost {
   seoDescription?: string;
   /** Drives both the on-page FAQ block and FAQPage structured data. */
   faq?: BlogFaq[];
+  /**
+   * The short answer shown at the top of the post, under the lead paragraph
+   * (components/blog/AnswerBox.tsx), and the article's schema `abstract`.
+   * About 100–170 words that answer the title on their own, so a reader or
+   * an AI assistant can quote one passage. It may only restate figures the
+   * post itself gives, or the ones its `source` names;
+   * __tests__/lib/blog-answers.test.ts checks every number.
+   */
+  answer?: { text: string; source?: string };
   /** Slugs of tours this post should funnel to. Editorial -> money page. */
   relatedTours?: string[];
   /** Opt in to the live-conditions widget. Must name a region in lib/weather.ts
@@ -1325,6 +1334,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
   },
   {
     slug: "anti-atlas-trekking-guide",
+    answer: { text: "The Anti-Atlas lies about 200 km south-west of the Toubkal massif and is lower and generally gentler than the High Atlas: our Anti-Atlas trekking is rated moderate, with no 4,167 m summit day. Tafraoute, at 1,200 m in a bowl of pink granite, is the base. North of it the Ameln Valley runs for 20 km of almond and argan terraces beneath 2,000 m granite walls, and the classic trek climbs to the Jbel Lkest plateau (2,359 m), about 35 km in all with a night in a village home. The best season is late winter and spring: the almonds usually blossom in the last two weeks of February. Summer is hot and shadeless. No guide is legally required, but paths are unmarked and water sources are hard to find." },
     region: "agadir-region",
     author: MET_TEAM,
     title: "Trekking the Anti-Atlas: Morocco's Forgotten Mountain Range",
@@ -1335,7 +1345,7 @@ Taghazout is not only for surfers. Non-surfing partners and companions do well h
     category: "trekking",
     readTime: 8,
     publishedAt: "2025-12-01",
-    updatedAt: "2026-08-07",
+    updatedAt: "2026-11-28",
     tags: ["Anti-Atlas", "Tafraoute", "Morocco trekking", "Agadir", "off the beaten path"],
     seoTitle: "Anti-Atlas Trekking Guide 2026",
     seoDescription:
@@ -1869,6 +1879,7 @@ everything for the refuge night goes in one pack on your back: keep it light.
   },
   {
     slug: "do-you-need-a-guide-to-climb-toubkal",
+    answer: { text: "Yes. Since the winter of 2018–19 a licensed mountain guide has been mandatory for every trekker on Jbel Toubkal. The Gendarmerie Royale enforces it at a checkpoint on the trail above Imlil, before Sidi Chamharouch, where they check your passport and your guide's licence; you cannot reach the refuge without passing it. Trekkers who arrive alone are turned back, often after two or three hours of climbing, and lose the day and their refuge booking. The rule followed the murder of two Scandinavian trekkers near Imlil in December 2018. A licensed guide carries a state-issued card, so ask to see it, and carry your actual passport rather than a photocopy or a phone photo." },
     author: MET_TEAM,
     title: "Do You Need a Guide to Climb Toubkal? The Rule, Explained",
     excerpt:
@@ -1878,7 +1889,7 @@ everything for the refuge night goes in one pack on your back: keep it light.
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-10-31",
+    updatedAt: "2026-11-28",
     tags: ["Toubkal", "Toubkal guide", "Toubkal permit", "High Atlas", "trekking rules", "Imlil"],
     seoTitle: "Do You Need a Toubkal Guide? | Marrakech Eco Tours",
     seoDescription:
@@ -2212,6 +2223,7 @@ and what a [2-day Zagora tour costs](/en/blog/zagora-2-day-tour-cost).
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
+    answer: { text: "Most 3-day Sahara tours from Marrakech cost €140–280 per person in 2026. Shared group departures run about €110–170 for three days (€75–110 for two), private tours €190–330 (about €140–230 for two days), and luxury camps €370–650. The cheapest listings start near €85 for three days, reached through bigger groups, basic camps with shared facilities, long driving days and commission stops. For a fixed point, our private 3-day Sahara tour is €380 per person for two and €295 each for four, and our 2-day Zagora trip is €195 per person for two and €170 each for four. Budget about 350–800 MAD per person in total for tips on a multi-day trip.", source: "2026 prices as compared below; our prices as on the tour pages." },
     author: MET_TEAM,
     title: "What a Morocco Desert Tour Really Costs (and Why the Cheap Ones Are Cheap)",
     excerpt:
@@ -2222,7 +2234,7 @@ and what a [2-day Zagora tour costs](/en/blog/zagora-2-day-tour-cost).
     region: "sahara-south",
     readTime: 8,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-11-28",
     tags: ["Morocco cost", "desert tour price", "Morocco budget", "tipping Morocco", "Sahara tour"],
     seoTitle: "Morocco Desert Tour Cost 2026 | Marrakech Eco Tours",
     seoDescription:
@@ -2589,6 +2601,7 @@ How far you get in the time you have depends heavily on how you move. [Getting a
   },
   {
     slug: "toubkal-weather-by-month",
+    answer: { text: "Toubkal is far colder than Marrakech: the summit stands at 4,167 m, about 3,700 m above the city. Averaged over 2016–2025, the summit's daytime high runs from about −4 °C in January to 15 °C in July, and its night-time low from about −12 °C to 6 °C. Winter nights fall to about −4 to −6 °C at the refuge (3,207 m) and 1 to 3 °C in Imlil (1,740 m). From December to March the summit stays below freezing all day on 20 to 24 days a month, so the upper route needs crampons and an ice axe. The most settled months without winter kit are May, June, September and early October. Summit days start before dawn, the coldest hour, and wind on the ridge makes every figure feel lower.", source: "ERA5 reanalysis via Open-Meteo, monthly averages 2016–2025 at each altitude (table below)." },
     author: MET_TEAM,
     title: "Toubkal Weather by Month: When to Climb and What to Expect",
     excerpt: "The summit sits 3,700 metres above Marrakech, and the weather reflects that. A month-by-month guide to conditions on Jbel Toubkal, plus live readings for the valley, the refuge and the summit.",
@@ -2597,7 +2610,7 @@ How far you get in the time you have depends heavily on how you move. [Getting a
     region: "atlas-mountains",
     readTime: 10,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-11-24",
+    updatedAt: "2026-11-28",
     weatherRegion: "High Atlas",
     tags: ["Toubkal weather", "when to climb Toubkal", "High Atlas", "Toubkal conditions", "Morocco trekking", "best time Toubkal"],
     seoTitle: "Toubkal Weather by Month: Temperatures",
@@ -2728,6 +2741,7 @@ If you want the High Atlas without the summit, the [2-day Azzaden Valley trek](/
   },
   {
     slug: "how-hard-is-toubkal-difficulty-guide",
+    answer: { text: "In summer Toubkal is a hard walk, not a climb: the normal South Cirque route crosses rock and scree with no ropes or climbing moves, and fit beginners reach the 4,167 m summit. What makes it hard is altitude and length. Summit day starts before dawn with about three hours of ascent from the refuge, then four to five hours of descent, often all the way to Imlil. Altitude, more than fitness, is why people turn back, so an itinerary with time to adjust improves your chances. The best training is long hilly walks on consecutive weekends, descents included. From about November to April, snow turns the upper mountain into a climb that needs crampons, an ice axe and a guide qualified for winter.", source: "Times on the South Cirque route from our guides' ascents from Imlil." },
     author: MET_TEAM,
     title: "How Hard Is Toubkal, Really? An Honest Difficulty Guide",
     excerpt: "Toubkal is a long walk at altitude, not a climb — but that undersells it. What the trek actually demands of your legs and lungs, and who struggles on it.",
@@ -2736,7 +2750,7 @@ If you want the High Atlas without the summit, the [2-day Azzaden Valley trek](/
     region: "atlas-mountains",
     readTime: 9,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-08-01",
+    updatedAt: "2026-11-28",
     tags: ["Toubkal difficulty", "how hard is Toubkal", "Toubkal for beginners", "High Atlas", "Morocco trekking"],
     seoTitle: "How Hard Is Toubkal?",
     seoDescription: "Whether a beginner can climb Jbel Toubkal, what the summit day actually demands, how altitude affects it, and the training that genuinely helps.",
@@ -5158,6 +5172,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
   },
   {
     slug: "toubkal-guide-cost",
+    answer: { text: "A licensed Toubkal guide costs about 500–800 MAD a day (roughly €46–74) hired directly in Imlil, and the fee is shared by the whole group, not paid per person. A guide is compulsory and the checkpoint at Imlil enforces it. The guide is one line of the bill: a refuge bed with dinner and breakfast costs 300–350 MAD a night, the Marrakech–Imlil transfer 600–1,000 MAD return per vehicle, winter crampons and an ice axe 100–150 MAD a day, plus a small park fee. Organised yourself, a 2-day climb typically costs two people 2,200–3,300 MAD in total (about €205–310). Our private 2-day summit trek is €313 per person for two, €258 at six and €514 solo, with all of that included.", source: "Typical 2026 rates in Imlil (cost table below); our prices as on the tour page." },
     author: MET_TEAM,
     title: "How Much Does a Toubkal Guide Cost? (2026 Price Breakdown)",
     excerpt:
@@ -5167,7 +5182,7 @@ Don't build a holiday around Ouarzazate — build it around the desert, and let 
     region: "atlas-mountains",
     readTime: 8,
     publishedAt: "2026-07-30",
-    updatedAt: "2026-10-01",
+    updatedAt: "2026-11-28",
     tags: ["Toubkal guide cost", "Toubkal price", "cost to climb Toubkal", "Morocco trekking cost", "Toubkal guide fee", "Imlil", "High Atlas"],
     seoTitle: "Toubkal Guide Cost: 500-800 MAD a Day",
     seoDescription:
@@ -5312,6 +5327,7 @@ know what is included before you leave Marrakech.
   },
   {
     slug: "toubkal-2-day-trek-cost",
+    answer: { text: "Organised yourself, a 2-day Toubkal climb typically costs two people 2,200–3,300 MAD in total (about €205–310 for the pair): a licensed guide at 500–800 MAD a day shared by the group, refuge beds with dinner and breakfast at 300–350 MAD a night, the Marrakech–Imlil transfer at 600–1,000 MAD return per vehicle, and a small park fee. Between November and April add crampons and an ice axe at 100–150 MAD a day, and budget about 300–400 MAD from the group for tips. Our private 2-day summit trek is €313 per person for two, €258 at six and €514 solo, all included. The 4-day trek is €586 for two: not double, because the guide and transfer are charged per trip, and the extra days buy acclimatisation.", source: "Typical 2026 rates in Imlil (table below); our prices as on the tour pages." },
     relatedTours: ["toubkal-summit-2day-marrakech", "toubkal-summit-trek-4day", "atlas-mountains-3day-trek"],
     author: MET_TEAM,
     title: "What Does a 2-Day Toubkal Trek Cost? (2026 Breakdown)",
@@ -5322,7 +5338,7 @@ know what is included before you leave Marrakech.
     region: "atlas-mountains",
     readTime: 7,
     publishedAt: "2026-08-01",
-    updatedAt: "2026-08-09",
+    updatedAt: "2026-11-28",
     tags: ["Toubkal 2 day cost", "Toubkal trek price", "cost to climb Toubkal", "Toubkal weekend", "Imlil", "High Atlas"],
     seoTitle: "2-Day Toubkal Trek Cost in 2026",
     seoDescription:
@@ -8593,6 +8609,7 @@ covers when that is worth doing and when it is not.`,
   },
   {
     slug: "sahara-desert-weather-what-to-expect",
+    answer: { text: "The Moroccan Sahara is hot by day and cold by night for much of the year. At Merzouga (Erg Chebbi), July highs average 42–43 °C and nights stay around 28–29 °C; January highs are only 18–19 °C and nights average 4–6 °C, close to freezing on clear, still nights. The dunes lie at about 730 m in very dry air, so heat escapes fast after sunset. The most comfortable months are March, April, October and November, with highs of about 24–30 °C. Winter brings the clearest skies and quietest camps but needs warm layers; in July and August camel treks move to early morning and after sunset. Rain is rare, and spring brings the chergui wind and the occasional sandstorm.", source: "Merzouga monthly averages (table below); ERA5 reanalysis via Open-Meteo, 2016–2025, gives 18 / 4 °C for January and 42 / 28 °C for July." },
     author: MET_TEAM,
     title: "Sahara Weather in Morocco: 43\u00b0C Days, Near-Freezing Nights, and What That Means for Packing",
     excerpt:
@@ -8602,7 +8619,7 @@ covers when that is worth doing and when it is not.`,
     region: "sahara-south",
     readTime: 11,
     publishedAt: "2026-08-26",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-28",
     tags: ["Sahara weather", "Merzouga temperature", "best time desert Morocco", "desert packing", "Erg Chebbi climate"],
     seoTitle: "How Cold Is the Sahara at Night? By Month",
     seoDescription:
@@ -8834,6 +8851,7 @@ solo travellers and worth comparing carefully if you are a group of six.
   },
   {
     slug: "tibherine-plane-wreck-toubkal",
+    answer: { text: "The wreck on Tibherine is a Lockheed L‑749A Constellation that hit Tibherine East (3,880 m), a summit just north of Toubkal, on 28 November 1969. It was flying at night from Faro in Portugal towards São Tomé with ammunition bound for Biafra during the Nigerian civil war; after reporting engine trouble it lost height and struck the mountain, killing all eight people on board. Mountaineers found it on 18 July 1970, which is why some accounts date the crash to 1970. Debris lies down the west face and one engine is embedded in the summit rocks. It is not on the standard Toubkal route: the approach is unwaymarked and exposed, for experienced walkers in settled weather, and a licensed guide is required anywhere in Toubkal National Park.", source: "Bureau of Aircraft Accidents Archives record of the crash." },
     region: "atlas-mountains",
     author: MET_TEAM,
     title: "The Plane Wreck on Tibherine: Morocco's Highest Crash Site",
@@ -8843,7 +8861,7 @@ solo travellers and worth comparing carefully if you are a group of six.
     category: "trekking",
     readTime: 6,
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-28",
+    updatedAt: "2026-11-28",
     tags: ["Toubkal", "Tibherine", "High Atlas", "history", "Morocco"],
     seoTitle: "The Tibherine Plane Wreck Above Toubkal",
     seoDescription:
@@ -9830,6 +9848,7 @@ If an operator does all five, you are almost certainly fine. If they resist any 
   },
   {
     slug: "morocco-desert-in-winter-guide",
+    answer: { text: "Winter in the Sahara means warm days and cold nights. At Erg Chebbi, daytime highs are about 18–21 °C in December, 17–20 °C in January and 20–23 °C in February, while nights fall to about 3–7 °C, 2–6 °C and 4–8 °C, and a clear, still January night can reach freezing. Camps carry heavy blankets, but pack warm layers for the evening and dawn. In return you get dry, clear air, the best night skies of the year and quiet gorges and camps, except over the last two weeks of December, when camps book out early. Heavy snow can close the High Atlas pass on the way for a few hours, most often in January and February.", source: "Erg Chebbi averages (table below); ERA5 reanalysis via Open-Meteo, 2016–2025, gives 18 °C by day and 4 °C at night for January at Merzouga." },
     author: MET_TEAM,
     title: "The Sahara in Winter: December, January and February",
     excerpt:
@@ -9839,7 +9858,7 @@ If an operator does all five, you are almost certainly fine. If they resist any 
     region: "sahara-south",
     readTime: 9,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-11-28",
     tags: ["Morocco winter", "Sahara winter", "desert in December", "Morocco in January", "Morocco in February", "winter desert tour"],
     seoTitle: "Morocco's Sahara in Winter",
     seoDescription:

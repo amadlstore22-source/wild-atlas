@@ -1205,6 +1205,7 @@ Taghazout ist nicht nur für Surfer geeignet. Nicht-surfende Partner und Begleit
   },
   {
     slug: "anti-atlas-trekking-guide",
+    answer: { text: "Der Antiatlas liegt etwa 200 km südwestlich des Toubkal-Massivs und ist niedriger und meist sanfter als der Hohe Atlas: Unser Trekking im Antiatlas ist als mittelschwer eingestuft, ohne Gipfeltag auf 4.167 m. Ausgangspunkt ist Tafraoute auf 1.200 m in einem Kessel aus rosa Granit. Nördlich davon zieht sich das Ameln-Tal über 20 km mit Mandel- und Arganterrassen unter 2.000 m hohen Granitwänden, und der klassische Trek steigt auf das Plateau des Jbel Lkest (2.359 m), insgesamt etwa 35 km mit einer Nacht bei einer Familie im Dorf. Die beste Zeit sind Spätwinter und Frühling: Die Mandeln blühen meist in den letzten zwei Februarwochen. Der Sommer ist heiß und schattenlos. Ein Führer ist gesetzlich nicht vorgeschrieben, aber die Wege sind unmarkiert und Wasserstellen schwer zu finden." },
     region: "agadir-region",
     author: MET_TEAM,
     title: "Trekking im Anti-Atlas: Marokkos vergessene Gebirgskette",
@@ -1751,6 +1752,7 @@ Rücken — halten Sie ihn leicht.
   },
   {
     slug: "do-you-need-a-guide-to-climb-toubkal",
+    answer: { text: "Ja. Seit dem Winter 2018/19 ist für alle Wanderer am Jbel Toubkal ein lizenzierter Bergführer Pflicht. Die Gendarmerie Royale kontrolliert das an einem Posten am Weg oberhalb von Imlil, vor Sidi Chamharouch, wo sie Ihren Reisepass und die Lizenz Ihres Führers prüft; ohne diesen Posten zu passieren, erreichen Sie die Hütte nicht. Wer allein kommt, wird zurückgeschickt, oft nach zwei oder drei Stunden Aufstieg, und verliert den Tag und die Hüttenbuchung. Die Regel folgte auf den Mord an zwei skandinavischen Wanderinnen bei Imlil im Dezember 2018. Ein lizenzierter Führer hat einen staatlichen Ausweis: Lassen Sie ihn sich zeigen, und nehmen Sie Ihren echten Reisepass mit, keine Kopie und kein Handyfoto." },
     author: MET_TEAM,
     title: "Braucht man einen Führer, um den Toubkal zu besteigen? Die Regel, erklärt",
     excerpt:
@@ -2065,12 +2067,12 @@ Sie würden mehr Zeit damit verbringen, auf eine Kopfstütze zu blicken, als auf
 
 ## Was jede Option tatsächlich kostet
 
-Geteilte 3-tägige Merzouga-Touren kosten am günstigen Ende etwa **120–180 $ pro Person**, bis zu **200–350 $** privat. Zagora liegt aufgrund der kürzeren Dauer niedriger. Luxus-Wüstencamps liegen deutlich höher.
+Geteilte 3-tägige Merzouga-Touren kosten am günstigen Ende etwa **110–170 € pro Person**, bis zu **190–330 €** privat. Zagora liegt aufgrund der kürzeren Dauer niedriger. Luxus-Wüstencamps liegen deutlich höher.
 
 Zwei Dinge lohnt es sich bei der Wüstenpreisgestaltung zu wissen:
 
 - **Die Direktbuchung bei einem lizenzierten lokalen Veranstalter spart typischerweise 30–50 %** gegenüber einer Buchung über die Hotelrezeption oder eine Wiederverkaufsplattform, da Sie eine Provisionsebene entfernen statt eine Leistung.
-- **Das günstige Ende hat einen Mechanismus.** Eine 3-tägige Tour für 90 $ ist nicht großzügig; sie holt die Marge irgendwo herein – ein gehetzter Zeitplan, eine große Gruppe, ein Camp mit Gemeinschaftseinrichtungen oder ein langer Teppichladen-Stopp. Das kann ein guter Kompromiss sein. Wissen Sie nur, dass Sie ihn eingehen.
+- **Das günstige Ende hat einen Mechanismus.** Eine 3-tägige Tour für 85 € ist nicht großzügig; sie holt die Marge irgendwo herein – ein gehetzter Zeitplan, eine große Gruppe, ein Camp mit Gemeinschaftseinrichtungen oder ein langer Teppichladen-Stopp. Das kann ein guter Kompromiss sein. Wissen Sie nur, dass Sie ihn eingehen.
 
 Budgetieren Sie separat für Trinkgelder: etwa **350–800 MAD insgesamt** für Fahrer, Kameltreiber und Camp-Personal bei einer mehrtägigen Reise. Es ist theoretisch freiwillig und in der Praxis erwartet, und es zählt für die Menschen, die die härteste Arbeit auf Ihrer Reise leisten.
 
@@ -2088,10 +2090,11 @@ Wenn Sie uns sagen, wie viele Tage Sie haben und was Sie tatsächlich von der W�
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
+    answer: { text: "Die meisten 3-tägigen Saharatouren ab Marrakech kosten 2026 zwischen 140 und 280 € pro Person. Abfahrten in geteilten Gruppen kosten etwa 110–170 € für drei Tage (75–110 € für zwei), private Touren 190–330 € (etwa 140–230 € für zwei Tage) und Luxuscamps 370–650 €. Die billigsten Angebote beginnen bei etwa 85 € für drei Tage, erreicht durch größere Gruppen, einfache Camps mit Gemeinschaftsbädern, lange Fahrtage und Provisionsstopps. Zum Vergleich: Unsere private 3-Tages-Saharatour kostet 380 € pro Person zu zweit und 295 € pro Person zu viert, unsere 2-Tages-Tour nach Zagora 195 € pro Person zu zweit und 170 € pro Person zu viert. Rechnen Sie bei mehrtägigen Touren mit insgesamt etwa 350–800 MAD Trinkgeld pro Person.", source: "Preise 2026 im Vergleich unten; unsere Preise wie auf den Tourseiten." },
     author: MET_TEAM,
     title: "Was eine Marokko-Wüstentour wirklich kostet (und warum die günstigen günstig sind)",
     excerpt:
-      "Eine Aufschlüsselung realer 2026er-Preise für Sahara-Reisen ab Marrakesch, was eine 90-$-Tour von einer 300-$-Tour unterscheidet, wie viel Trinkgeld angemessen ist, und wohin das Geld tatsächlich fließt.",
+      "Eine Aufschlüsselung realer 2026er-Preise für Sahara-Reisen ab Marrakesch, was eine 85-€-Tour von einer 280-€-Tour unterscheidet, wie viel Trinkgeld angemessen ist, und wohin das Geld tatsächlich fließt.",
     heroImage:
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
@@ -2107,7 +2110,7 @@ Wenn Sie uns sagen, wie viele Tage Sie haben und was Sie tatsächlich von der W�
     faq: [
       {
         q: "Wie viel kostet eine 3-tägige Sahara-Wüstentour ab Marrakesch?",
-        a: "Die meisten 3-tägigen Wüstentouren kosten 2026 zwischen 150 und 300 $ pro Person. Geteilte Gruppenabfahrten liegen bei etwa 120 bis 180 $, private Touren bei 200 bis 350 $, und Luxuscamps bei 400 bis 700 $. Die günstigsten beworbenen Abfahrten beginnen bei nahezu 90 $, was durch Kürzungen bei Gruppengröße, Camp-Qualität oder Zeitplan erreicht wird.",
+        a: "Die meisten 3-tägigen Wüstentouren kosten 2026 zwischen 140 und 280 € pro Person. Geteilte Gruppenabfahrten liegen bei etwa 110 bis 170 €, private Touren bei 190 bis 330 €, und Luxuscamps bei 370 bis 650 €. Die günstigsten beworbenen Abfahrten beginnen bei nahezu 85 €, was durch Kürzungen bei Gruppengröße, Camp-Qualität oder Zeitplan erreicht wird.",
       },
       {
         q: "Wie viel Trinkgeld sollte man bei einer Marokko-Wüstentour geben?",
@@ -2118,8 +2121,8 @@ Wenn Sie uns sagen, wie viele Tage Sie haben und was Sie tatsächlich von der W�
         a: "Die Direktbuchung bei einem lizenzierten lokalen Veranstalter im Voraus spart typischerweise 30 bis 50 % gegenüber einer Buchung über eine Hotelrezeption oder eine Wiederverkaufsplattform, da Sie eine Provisionsebene entfernen. Eine Buchung bei Ankunft in Marrakesch kann gelegentlich Last-Minute-Rabatte zutage fördern, doch Sie opfern die Wahl des Anbieters und in der Hochsaison die Verfügbarkeit vollständig.",
       },
       {
-        q: "Warum kosten manche Marokko-Wüstentouren nur 90 $?",
-        a: "Eine 90-$-Dreitagestour muss ihre Marge irgendwo hereinholen. Meist bedeutet das eine größere Gruppe in einem größeren Kleinbus, ein einfaches Camp mit Gemeinschaftseinrichtungen, einen komprimierten Zeitplan mit langen Fahrblöcken und häufig Provisionsstopps bei Teppich- oder Arganöl-Kooperativen, wo der Veranstalter eine Beteiligung verdient. Nichts davon ist Betrug, aber Sie sollten wissen, dass es der Kompromiss ist, den Sie eingehen.",
+        q: "Warum kosten manche Marokko-Wüstentouren nur 85 €?",
+        a: "Eine 85-€-Dreitagestour muss ihre Marge irgendwo hereinholen. Meist bedeutet das eine größere Gruppe in einem größeren Kleinbus, ein einfaches Camp mit Gemeinschaftseinrichtungen, einen komprimierten Zeitplan mit langen Fahrblöcken und häufig Provisionsstopps bei Teppich- oder Arganöl-Kooperativen, wo der Veranstalter eine Beteiligung verdient. Nichts davon ist Betrug, aber Sie sollten wissen, dass es der Kompromiss ist, den Sie eingehen.",
       },
       {
         q: "Wann sollte man eine Marokko-Wüstentour buchen?",
@@ -2133,11 +2136,13 @@ Hier ist, was eine Sahara-Reise ab Marrakesch im Jahr 2026 pro Person kostet:
 
 | Tourtyp | 2 Tage | 3 Tage |
 |---|---|---|
-| Geteilte Gruppe | 80–120 $ | 120–180 $ |
-| Privat | ~150–250 $ | 200–350 $ |
-| Luxuscamp | — | 400–700 $ |
+| Geteilte Gruppe | 75–110 € | 110–170 € |
+| Privat | ~140–230 € | 190–330 € |
+| Luxuscamp | — | 370–650 € |
 
-Die günstigsten Abfahrten auf den großen Wiederverkaufsplattformen werben mit etwa **90 $** für drei Tage. Das komfortable Ende der geteilten Touren liegt bei nahezu **300 $**. Beide Zahlen sind real. Sie kaufen unterschiedliche Reisen.
+Die günstigsten Abfahrten auf den großen Wiederverkaufsplattformen werben mit etwa **85 €** für drei Tage. Das komfortable Ende der geteilten Touren liegt bei nahezu **280 €**. Beide Zahlen sind real. Sie kaufen unterschiedliche Reisen.
+
+Als fester Bezugspunkt in dieser Spanne: Unsere [3-Tages-Saharatour](/de/tours/sahara-3day-marrakech) kostet **380 € pro Person zu zweit** und **295 € pro Person zu viert**, durchgehend privat, und unsere [2-Tages-Tour nach Zagora](/de/tours/zagora-2day-marrakech) kostet **195 € pro Person zu zweit**, zu viert **170 € pro Person**. Das sind Privatpreise, deshalb liegen sie über der Spalte für geteilte Touren in der Tabelle.
 
 ## Wohin das Geld fließt
 
@@ -2151,16 +2156,16 @@ Es lohnt sich, die Kostenstruktur zu verstehen, denn sie erklärt jeden Preis in
 
 Da Kraftstoff und Distanz feststehen, **kürzen die günstigen Touren bei den anderen Posten.** Das ist kein Skandal; es ist Rechnerei.
 
-## Was 90 $ tatsächlich kaufen
+## Was 85 € tatsächlich kaufen
 
-Eine 90-$-Dreitagestour holt ihre Marge irgendwo herein. Typischerweise:
+Eine 85-€-Dreitagestour holt ihre Marge irgendwo herein. Typischerweise:
 
 - **Eine größere Gruppe.** Sechzehn Personen in einem Kleinbus statt sechs in einem 4x4.
 - **Ein einfaches Camp.** Gemeinschaftszelte, gemeinsame Einrichtungen, dünne Matratzen.
 - **Ein komprimierter Zeitplan.** Weniger Stopps, längere Fahrblöcke, weniger Zeit an den Dünen.
 - **Provisionsstopps.** Ein langer Halt bei einem Teppichladen oder einer Arganöl-Kooperative, wo der Anbieter eine Beteiligung an Ihren Käufen erhält.
 
-Wenn Sie 24 sind, mit begrenztem Budget reisen und hauptsächlich in der Sahara schlafen und die Sterne sehen möchten, liefert eine 90-$-Tour genau das, und sich anschließend über den Kleinbus zu beschweren, ist etwas unfair. Wenn Sie auf einer zweiwöchigen Flitterwochenreise sind, wird es sich wie ein Fehler anfühlen.
+Wenn Sie 24 sind, mit begrenztem Budget reisen und hauptsächlich in der Sahara schlafen und die Sterne sehen möchten, liefert eine 85-€-Tour genau das, und sich anschließend über den Kleinbus zu beschweren, ist etwas unfair. Wenn Sie auf einer zweiwöchigen Flitterwochenreise sind, wird es sich wie ein Fehler anfühlen.
 
 **Wissen Sie, was Sie kaufen.** Das ist die ganze Botschaft.
 
@@ -2176,7 +2181,7 @@ Wir sind ein Direktanbieter, behandeln Sie diesen Absatz also mit angemessener S
 
 Trinkgeld stolpert Menschen, weil niemand eine Zahl nennt. Hier sind Zahlen, für eine 3-tägige Reise, pro Person:
 
-- **Fahrer-Führer:** 200–500 MAD (22–55 $)
+- **Fahrer-Führer:** 200–500 MAD (19–47 €)
 - **Kameltreiber:** 50–100 MAD
 - **Camp-Personal:** 100–200 MAD über zwei Nächte
 

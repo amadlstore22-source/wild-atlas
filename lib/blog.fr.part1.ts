@@ -1212,6 +1212,7 @@ Taghazout n'est pas réservée qu'aux surfeurs. Les partenaires et compagnons no
   },
   {
     slug: "anti-atlas-trekking-guide",
+    answer: { text: "L'Anti-Atlas se trouve à environ 200 km au sud-ouest du massif du Toubkal ; il est plus bas et en général plus doux que le Haut Atlas : nos treks dans l'Anti-Atlas sont classés modérés, sans journée de sommet à 4 167 m. Tafraoute, à 1 200 m dans un cirque de granit rose, sert de base. Au nord, la vallée des Ameln déroule 20 km de terrasses d'amandiers et d'arganiers sous des parois de granit de 2 000 m, et le trek classique monte au plateau du Jbel Lkest (2 359 m), environ 35 km au total avec une nuit chez l'habitant dans un village. La meilleure saison est la fin de l'hiver et le printemps : les amandiers fleurissent en général dans les deux dernières semaines de février. L'été est chaud et sans ombre. Aucun guide n'est obligatoire, mais les sentiers ne sont pas balisés et les points d'eau difficiles à trouver." },
     region: "agadir-region",
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Randonnée dans l'Anti-Atlas : le massif oublié du Maroc",
@@ -1756,6 +1757,7 @@ au refuge tient dans un seul sac, sur votre dos — gardez-le léger.
   },
   {
     slug: "do-you-need-a-guide-to-climb-toubkal",
+    answer: { text: "Oui. Depuis l'hiver 2018–2019, un guide de montagne agréé est obligatoire pour chaque randonneur sur le Jbel Toubkal. La Gendarmerie royale le contrôle à un poste sur le sentier au-dessus d'Imlil, avant Sidi Chamharouch, où elle vérifie votre passeport et la licence de votre guide ; impossible d'atteindre le refuge sans y passer. Les randonneurs venus seuls sont refoulés, souvent après deux ou trois heures de montée, et perdent la journée et leur réservation au refuge. La règle a suivi le meurtre de deux randonneuses scandinaves près d'Imlil en décembre 2018. Un guide agréé porte une carte délivrée par l'État : demandez à la voir, et ayez votre vrai passeport, pas une photocopie ni une photo sur le téléphone." },
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Faut-il un guide pour gravir le Toubkal ? La règle expliquée",
     excerpt:
@@ -2070,12 +2072,12 @@ Vous passeriez plus de temps à regarder l'appui-tête devant vous qu'à contemp
 
 ## Ce que chacun coûte réellement
 
-Les circuits Merzouga de 3 jours en groupe partagé tournent autour de **120 à 180 $ par personne** en entrée de gamme, jusqu'à **200 à 350 $** en privé. Zagora, étant plus court, se situe plus bas. Les campements de luxe coûtent considérablement plus.
+Les circuits Merzouga de 3 jours en groupe partagé tournent autour de **110 à 170 € par personne** en entrée de gamme, jusqu'à **190 à 330 €** en privé. Zagora, étant plus court, se situe plus bas. Les campements de luxe coûtent considérablement plus.
 
 Deux choses à savoir sur la tarification des circuits désertiques :
 
 - **Réserver directement avec un opérateur local agréé permet généralement d'économiser 30 à 50 %** par rapport à une réservation via un desk d'hôtel ou une plateforme de revente, car vous supprimez une couche de commission plutôt qu'un service.
-- **Le bas de gamme a un mécanisme.** Un circuit de 3 jours à 90 $ n'est pas généreux ; il récupère sa marge quelque part — un horaire précipité, un grand groupe, un campement aux installations partagées, ou un arrêt prolongé dans une boutique de tapis. Cela peut être un compromis acceptable. Sachez simplement que vous le faites.
+- **Le bas de gamme a un mécanisme.** Un circuit de 3 jours à 85 € n'est pas généreux ; il récupère sa marge quelque part — un horaire précipité, un grand groupe, un campement aux installations partagées, ou un arrêt prolongé dans une boutique de tapis. Cela peut être un compromis acceptable. Sachez simplement que vous le faites.
 
 Prévoyez un budget séparé pour les pourboires : environ **350 à 800 MAD au total** répartis entre le chauffeur, les chameliers et le personnel du campement pour un voyage de plusieurs jours. C'est volontaire en théorie et attendu en pratique, et cela compte pour les personnes qui font le travail le plus difficile de votre voyage.
 
@@ -2093,10 +2095,11 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
+    answer: { text: "La plupart des circuits de 3 jours dans le Sahara au départ de Marrakech coûtent 140 à 280 € par personne en 2026. Les départs en groupe partagé coûtent environ 110 à 170 € pour trois jours (75 à 110 € pour deux), les circuits privés 190 à 330 € (environ 140 à 230 € pour deux jours) et les camps de luxe 370 à 650 €. Les offres les moins chères démarrent vers 85 € pour trois jours, grâce à des groupes plus grands, des camps simples aux sanitaires partagés, de longues journées de route et des arrêts à commission. Pour repère, notre circuit privé de 3 jours au Sahara coûte 380 € par personne à deux et 295 € chacun à quatre, et notre circuit de 2 jours à Zagora 195 € par personne à deux et 170 € chacun à quatre. Prévoyez environ 350 à 800 MAD par personne au total de pourboires pour un circuit de plusieurs jours.", source: "Prix 2026 comparés ci-dessous ; nos prix tels qu'affichés sur les pages des circuits." },
     author: { name: "MET Team", role: "Marrakech Eco Tours", isGuest: false },
     title: "Ce que coûte vraiment un circuit désertique au Maroc (et pourquoi les moins chers le sont)",
     excerpt:
-      "Une analyse des prix réels 2026 pour les séjours sahariens depuis Marrakech, ce qui distingue un circuit à 90 $ d'un circuit à 300 $, combien donner en pourboire, et où va réellement l'argent.",
+      "Une analyse des prix réels 2026 pour les séjours sahariens depuis Marrakech, ce qui distingue un circuit à 85 € d'un circuit à 280 €, combien donner en pourboire, et où va réellement l'argent.",
     heroImage:
       "/gallery/blog-how-much-does-a-morocco-desert-tour-cost.jpg",
     category: "tips",
@@ -2112,7 +2115,7 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
     faq: [
       {
         q: "Combien coûte un circuit désertique de 3 jours au Sahara depuis Marrakech ?",
-        a: "La plupart des circuits désertiques de 3 jours coûtent entre 150 et 300 $ par personne en 2026. Les départs de groupe partagé tournent autour de 120 à 180 $, les circuits privés 200 à 350 $, et les campements de luxe 400 à 700 $. Les départs les moins chers annoncés démarrent près de 90 $, un prix atteint en réduisant les limites de taille de groupe, la qualité du campement, ou le programme.",
+        a: "La plupart des circuits désertiques de 3 jours coûtent entre 140 et 280 € par personne en 2026. Les départs de groupe partagé tournent autour de 110 à 170 €, les circuits privés 190 à 330 €, et les campements de luxe 370 à 650 €. Les départs les moins chers annoncés démarrent près de 85 €, un prix atteint en réduisant les limites de taille de groupe, la qualité du campement, ou le programme.",
       },
       {
         q: "Combien faut-il donner en pourboire sur un circuit désertique au Maroc ?",
@@ -2123,8 +2126,8 @@ Si vous nous dites combien de jours vous avez et ce que vous voulez vraiment du 
         a: "Réserver directement avec un opérateur local agréé à l'avance permet généralement d'économiser 30 à 50 % par rapport à une réservation via un desk d'hôtel ou une plateforme de revente, car vous supprimez une couche de commission. Réserver sur place à Marrakech peut occasionnellement faire apparaître des réductions de dernière minute, mais vous sacrifiez le choix de l'opérateur et, en haute saison, la disponibilité elle-même.",
       },
       {
-        q: "Pourquoi certains circuits désertiques marocains ne coûtent-ils que 90 $ ?",
-        a: "Un circuit de trois jours à 90 $ doit récupérer sa marge quelque part. Cela signifie généralement un groupe plus grand dans un minibus plus imposant, un campement basique aux installations partagées, un programme compressé avec de longs trajets, et souvent des arrêts commissionnés dans des boutiques de tapis ou des coopératives d'argan où l'opérateur touche une part. Rien de tout cela n'est frauduleux, mais vous devez savoir que c'est le compromis que vous faites.",
+        q: "Pourquoi certains circuits désertiques marocains ne coûtent-ils que 85 € ?",
+        a: "Un circuit de trois jours à 85 € doit récupérer sa marge quelque part. Cela signifie généralement un groupe plus grand dans un minibus plus imposant, un campement basique aux installations partagées, un programme compressé avec de longs trajets, et souvent des arrêts commissionnés dans des boutiques de tapis ou des coopératives d'argan où l'opérateur touche une part. Rien de tout cela n'est frauduleux, mais vous devez savoir que c'est le compromis que vous faites.",
       },
       {
         q: "Quand faut-il réserver un circuit désertique au Maroc ?",
@@ -2138,11 +2141,13 @@ Voici ce que coûte un séjour saharien depuis Marrakech en 2026, par personne :
 
 | Type de circuit | 2 jours | 3 jours |
 |---|---|---|
-| Groupe partagé | 80–120 $ | 120–180 $ |
-| Privé | ~150–250 $ | 200–350 $ |
-| Campement de luxe | — | 400–700 $ |
+| Groupe partagé | 75–110 € | 110–170 € |
+| Privé | ~140–230 € | 190–330 € |
+| Campement de luxe | — | 370–650 € |
 
-Les départs les moins chers sur les grandes plateformes de revente s'affichent à partir d'environ **90 $** pour trois jours. Le haut de gamme confortable en partagé se situe autour de **300 $**. Les deux chiffres sont réels. Ils achètent des voyages différents.
+Les départs les moins chers sur les grandes plateformes de revente s'affichent à partir d'environ **85 €** pour trois jours. Le haut de gamme confortable en partagé se situe autour de **280 €**. Les deux chiffres sont réels. Ils achètent des voyages différents.
+
+Pour avoir un repère dans cette fourchette : notre [circuit de 3 jours au Sahara](/fr/tours/sahara-3day-marrakech) coûte **380 € par personne à deux** et **295 € chacun à quatre**, en privé du début à la fin, et notre [circuit de 2 jours à Zagora](/fr/tours/zagora-2day-marrakech) coûte **195 € par personne à deux**, puis **170 € chacun à quatre**. Ce sont des tarifs privés, c'est pourquoi ils se situent au-dessus de la colonne partagée du tableau.
 
 ## Où va l'argent
 
@@ -2156,16 +2161,16 @@ Il est utile de comprendre la structure des coûts, car elle explique chaque pri
 
 Comme le carburant et la distance sont fixes, **les circuits bon marché réduisent les autres postes.** Ce n'est pas un scandale ; c'est de l'arithmétique.
 
-## Ce que 90 $ achète réellement
+## Ce que 85 € achète réellement
 
-Un circuit de trois jours à 90 $ récupère sa marge quelque part. Typiquement :
+Un circuit de trois jours à 85 € récupère sa marge quelque part. Typiquement :
 
 - **Un groupe plus grand.** Seize personnes dans un minibus au lieu de six dans un 4x4.
 - **Un campement basique.** Tentes partagées, installations communes, matelas fins.
 - **Un programme compressé.** Moins d'arrêts, des blocs de conduite plus longs, moins de temps aux dunes.
 - **Des arrêts commissionnés.** Une longue pause dans une boutique de tapis ou une coopérative d'argan où l'opérateur touche une part de ce que vous achetez.
 
-Si vous avez 24 ans, voyagez avec un budget serré, et voulez surtout dormir dans le Sahara et voir les étoiles, un circuit à 90 $ livre exactement cela, et se plaindre du minibus après coup est un peu injuste. Si vous êtes en lune de miel de deux semaines, cela ressemblera à une erreur.
+Si vous avez 24 ans, voyagez avec un budget serré, et voulez surtout dormir dans le Sahara et voir les étoiles, un circuit à 85 € livre exactement cela, et se plaindre du minibus après coup est un peu injuste. Si vous êtes en lune de miel de deux semaines, cela ressemblera à une erreur.
 
 **Sachez ce que vous achetez.** C'est tout le message.
 
@@ -2181,7 +2186,7 @@ Nous sommes un opérateur direct, donc traitez ce paragraphe avec la suspicion a
 
 Le pourboire déstabilise les gens car personne n'énonce de chiffre. Voici des chiffres, pour un voyage de 3 jours, par personne :
 
-- **Chauffeur-guide :** 200–500 MAD (22–55 $)
+- **Chauffeur-guide :** 200–500 MAD (19–47 €)
 - **Chameliers :** 50–100 MAD
 - **Personnel du campement :** 100–200 MAD sur deux nuits
 

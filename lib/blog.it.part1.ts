@@ -1205,6 +1205,7 @@ Taghazout non è solo per surfisti. Partner e compagni di viaggio non surfisti s
   },
   {
     slug: "anti-atlas-trekking-guide",
+    answer: { text: "L'Anti-Atlante si trova circa 200 km a sud-ovest del massiccio del Toubkal ed è più basso e in genere più dolce dell'Alto Atlante: il nostro trekking nell'Anti-Atlante è di difficoltà moderata, senza giornata di vetta a 4.167 m. La base è Tafraoute, a 1.200 m in una conca di granito rosa. A nord, la valle di Ameln corre per 20 km di terrazze di mandorli e argan sotto pareti di granito di 2.000 m, e il trek classico sale all'altopiano del Jbel Lkest (2.359 m), circa 35 km in tutto con una notte presso una famiglia del villaggio. La stagione migliore è fine inverno e primavera: i mandorli fioriscono di solito nelle ultime due settimane di febbraio. L'estate è calda e senza ombra. La guida non è obbligatoria per legge, ma i sentieri non sono segnati e l'acqua è difficile da trovare." },
     region: "agadir-region",
     author: MET_TEAM,
     title: "Trekking nell'Anti-Atlante: la catena montuosa dimenticata del Marocco",
@@ -1747,6 +1748,7 @@ notte in rifugio sta in un solo zaino, sulle vostre spalle, quindi tenetelo legg
   },
   {
     slug: "do-you-need-a-guide-to-climb-toubkal",
+    answer: { text: "Sì. Dall'inverno 2018–2019 una guida di montagna autorizzata è obbligatoria per ogni escursionista sul Jbel Toubkal. La Gendarmeria reale lo controlla a un posto sul sentiero sopra Imlil, prima di Sidi Chamharouch, dove verifica il passaporto e la licenza della guida; non si arriva al rifugio senza passarci. Chi arriva da solo viene rimandato indietro, spesso dopo due o tre ore di salita, e perde la giornata e la prenotazione del rifugio. La regola è arrivata dopo l'omicidio di due escursioniste scandinave vicino a Imlil nel dicembre 2018. Una guida autorizzata ha un tesserino rilasciato dallo Stato: chiedete di vederlo, e portate il passaporto vero, non una fotocopia o una foto sul telefono." },
     author: MET_TEAM,
     title: "Serve una guida per scalare il Toubkal? La regola, spiegata",
     excerpt:
@@ -2084,6 +2086,7 @@ Se ci dite quanti giorni avete e cosa volete davvero dal deserto, vi indirizzere
   },
   {
     slug: "how-much-does-a-morocco-desert-tour-cost",
+    answer: { text: "La maggior parte dei tour di 3 giorni nel Sahara da Marrakech costa 140–280 € a persona nel 2026. Le partenze in gruppo condiviso costano circa 110–170 € per tre giorni (75–110 € per due), i tour privati 190–330 € (circa 140–230 € per due giorni) e i campi di lusso 370–650 €. Le offerte più economiche partono da circa 85 € per tre giorni, ottenute con gruppi più grandi, campi semplici con bagni in comune, lunghe giornate di guida e soste a commissione. Come riferimento, il nostro tour privato di 3 giorni nel Sahara costa 380 € a persona in due e 295 € a testa in quattro, e la nostra escursione di 2 giorni a Zagora 195 € a persona in due e 170 € a testa in quattro. Mettete in conto in tutto circa 350–800 MAD di mance a persona per un viaggio di più giorni.", source: "Prezzi 2026 confrontati più sotto; i nostri prezzi come sulle pagine dei tour." },
     author: MET_TEAM,
     title: "Quanto costa davvero un tour nel deserto in Marocco (e perché quelli economici sono economici)",
     excerpt:
@@ -2134,6 +2137,8 @@ Ecco quanto costa un viaggio nel Sahara da Marrakech nel 2026, a persona:
 | Campo di lusso | — | €370-€650 |
 
 Le partenze più economiche sulle grandi piattaforme di rivendita pubblicizzano a partire da circa **€85** per tre giorni. La fascia confortevole del condiviso si avvicina a **€280**. Entrambi i numeri sono reali. Comprano viaggi diversi.
+
+Come punto fisso in questa fascia: il nostro [tour di 3 giorni nel Sahara](/it/tours/sahara-3day-marrakech) costa **€380 a persona in due** e **€295 a testa in quattro**, privato dall'inizio alla fine, e la nostra [escursione di 2 giorni a Zagora](/it/tours/zagora-2day-marrakech) costa **€195 a persona in due**, che scendono a **€170 a testa in quattro**. Sono tariffe private, per questo stanno sopra la colonna del condiviso in tabella.
 
 ## Dove va il denaro
 

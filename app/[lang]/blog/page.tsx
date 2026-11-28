@@ -3,29 +3,27 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CalendarBlank, Clock, ArrowRight, MapPin } from "@phosphor-icons/react/dist/ssr";
-import type { BlogPost, BlogRegion } from "@/lib/blog";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import type { BlogPost } from "@/lib/blog";
 import { blogPostsFor, blogCategoriesFor, blogRegionsFor, blogSlugFor } from "@/lib/blog-i18n";
 import { ZelligeBand, ZelligeField } from "@/components/ui/MoroccanMotifs";
 import { getDictionary, hasLocale, LOCALES } from "../dictionaries";
 import { hreflangForPath } from "@/lib/seo/hreflang";
 import JsonLd from "@/components/seo/JsonLd";
 import { collectionPageDocument } from "@/lib/seo/schema";
+import BlogIndexClient, { type IndexPost } from "./BlogIndexClient";
 type LangParams = { params: Promise<{ lang: string }> };
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: LangParams & { searchParams: Promise<{ category?: string; region?: string }> }): Promise<Metadata> {
+// PRERENDERED (2026-11-27). This page read ?category= and ?region= on the
+// server, which made it render on every request (no-store, never cached).
+// The filters now run in the browser (BlogIndexClient); every card is still
+// in the server HTML. Filtered URLs stay out of the index through the
+// "X-Robots-Tag: noindex, follow" header that proxy.ts adds for them, since a
+// prerendered page cannot vary its <meta robots> by query string.
+export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  // Filtered views (?category=/?region=) are thin, duplicate slices of the same
-  // post set. The canonical already points at the clean /blog, but Google was
-  // still indexing dozens of facet combinations — so noindex them outright.
-  // They stay crawlable (follow) so the links within are still discovered.
-  const { category, region } = await searchParams;
-  const isFiltering = Boolean(category || region);
   return {
     title: dict.blog.pageTitle,
     description: dict.blog.pageSubtitle,
@@ -33,77 +31,32 @@ export async function generateMetadata({
       canonical: `https://marrakechecotours.com/${lang}/blog`,
       languages: hreflangForPath(LOCALES, "/blog"),
     },
-    ...(isFiltering && { robots: { index: false, follow: true } }),
   };
 }
 
-// Solid, high-contrast badges — these sit over hero photos, so a translucent
-// tint with same-hue text disappears on darker images. White text on a solid
-// brand color reads on any background.
-// Category badges toned to the Moroccan palette — one family (emerald, terracotta,
-// zellij blue, brass, olive) so they read as a set rather than clashing brights.
-const CATEGORY_COLORS: Record<string, string> = {
-  trekking: "bg-indigo text-cream",
-  desert: "bg-terracotta text-cream",
-  culture: "bg-indigo-deep text-cream",
-  tips: "bg-saffron-deep text-cream", // bg-saffron with cream is 3.12:1; deep is 6.06:1
-  wildlife: "bg-[#5A6B8C] text-cream",
-};
+const PILLAR = "morocco-ultimate-adventure-travel-guide";
 
-export default async function BlogPage({
-  params,
-  searchParams,
-}: LangParams & { searchParams: Promise<{ category?: string; region?: string }> }) {
+export default async function BlogPage({ params }: LangParams) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const locale = lang;
   const dict = await getDictionary(lang);
-  const { category, region } = await searchParams;
 
   const posts = blogPostsFor(lang);
-  const categories = blogCategoriesFor(lang);
-  const regions = blogRegionsFor(lang);
-
-  const activeCategory = categories.find((c) => c.id === category) ?? null;
-  const activeRegion = regions.find((r) => r.id === region) ?? null;
-
-  const pillarPost = posts.find((p) => p.slug === "morocco-ultimate-adventure-travel-guide")!;
-  const nonPillarPosts = posts.filter((p) => p.slug !== "morocco-ultimate-adventure-travel-guide");
-
-  const filteredPosts = nonPillarPosts.filter((p) => {
-    const matchCat = !activeCategory || p.category === activeCategory.id;
-    const matchRegion = !activeRegion || p.region === (activeRegion.id as BlogRegion);
-    return matchCat && matchRegion;
+  const toIndex = (p: BlogPost): IndexPost => ({
+    slug: p.slug,
+    href: `/${lang}/blog/${blogSlugFor(locale, p.slug)}`,
+    title: p.title,
+    excerpt: p.excerpt,
+    heroImage: p.heroImage,
+    category: p.category,
+    region: p.region,
+    date: formatDate(p.publishedAt, lang),
+    readTime: p.readTime,
+    author: p.author?.name,
   });
-
-  const isFiltering = activeCategory || activeRegion;
-  const [featured, ...rest] = filteredPosts;
-
-  function PostCard({ post }: { post: BlogPost }) {
-    const postRegion = post.region ? regions.find((r) => r.id === post.region) : null;
-    return (
-      <Link href={`/${lang}/blog/${blogSlugFor(locale, post.slug)}`} className="group bg-card rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
-        <div className="relative h-52 overflow-hidden">
-          <Image src={post.heroImage} alt={post.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
-          <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wide ${CATEGORY_COLORS[post.category]}`}>{post.category}</span>
-        </div>
-        <div className="p-6 flex flex-col flex-1">
-          <h3 className="font-display text-charcoal font-bold text-lg mb-3 group-hover:text-forest transition-colors leading-snug">{post.title}</h3>
-          <p className="text-ink-soft text-sm leading-relaxed mb-4 flex-1">{post.excerpt}</p>
-          <div className="flex items-center justify-between text-xs text-ink-muted mt-auto">
-            <span className="flex items-center gap-1">
-              {postRegion && postRegion.id !== "root" ? (
-                <span className="text-ink-soft">{postRegion.icon} {postRegion.label}</span>
-              ) : (
-                <><CalendarBlank className="w-3.5 h-3.5" />{formatDate(post.publishedAt, lang)}</>
-              )}
-            </span>
-            <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime} {dict.blog.minRead}</span>
-          </div>
-        </div>
-      </Link>
-    );
-  }
+  const pillarPost = posts.find((p) => p.slug === PILLAR)!;
+  const nonPillarPosts = posts.filter((p) => p.slug !== PILLAR);
 
   const schema = collectionPageDocument({
     lang: locale,
@@ -136,119 +89,14 @@ export default async function BlogPage({
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <ZelligeField tone="clay" opacity={0.08} scale={140} />
 
-        {!isFiltering && (
-          <div className="mb-16">
-            <div className="flex items-center gap-2 mb-5">
-              <MapPin className="w-4 h-4 text-sunset" />
-              <span className="text-sm font-semibold text-ink-soft uppercase tracking-widest">{dict.blog.startHere}</span>
-            </div>
-            <Link href={`/${lang}/blog/${blogSlugFor(lang, pillarPost.slug)}`} className="group block">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden tex-emerald shadow-xl hover:shadow-2xl transition-shadow">
-                <div className="relative h-64 lg:h-auto min-h-[340px]">
-                  <Image src={pillarPost.heroImage} alt={pillarPost.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 to-transparent lg:bg-none" />
-                </div>
-                <div className="p-8 lg:p-12 flex flex-col justify-center tex-emerald">
-                  <span className="inline-flex items-center gap-2 text-brass-glow text-xs font-semibold uppercase tracking-widest mb-4">🇲🇦 {dict.blog.completeGuide}</span>
-                  <h2 className="font-display text-white text-2xl lg:text-4xl font-bold mb-4 group-hover:text-sand transition-colors leading-tight">{pillarPost.title}</h2>
-                  <p className="text-white/60 leading-relaxed mb-6 text-sm lg:text-base">{pillarPost.excerpt}</p>
-                  <div className="flex items-center gap-3 text-sm text-white/40">
-                    <span>{pillarPost.readTime} {dict.blog.minRead}</span>
-                    <span>·</span>
-                    <span>{pillarPost.author?.name}</span>
-                  </div>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sunset font-semibold text-sm">
-                    {dict.blog.readGuide} <ArrowRight className="w-4 h-4 arrow-go" />
-                  </span>
-                </div>
-              </div>
-            </Link>
-          </div>
-        )}
-
-        {!isFiltering && (
-          <div className="mb-16">
-            <h2 className="font-display text-charcoal text-3xl font-bold mb-2">{dict.blog.exploreByRegion}</h2>
-            <p className="text-ink-soft mb-7 text-sm">{dict.blog.exploreByRegionDesc}</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {regions.filter((r) => r.id !== "root").map((r) => {
-                const count = nonPillarPosts.filter((p) => p.region === r.id).length;
-                return (
-                  <Link key={r.id} href={`/${lang}/blog?region=${r.id}`}
-                    className="group flex flex-col items-center text-center p-5 bg-card rounded-[4px] shadow-sm hover:shadow-md hover:border-forest border border-transparent transition">
-                    <span className="text-3xl mb-2">{r.icon}</span>
-                    <span className="font-semibold text-charcoal text-sm group-hover:text-forest transition-colors leading-snug">{r.label}</span>
-                    <span className="text-ink-muted text-xs mt-1">{count} {count !== 1 ? dict.blog.articles : dict.blog.article}</span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {activeRegion && (
-          <div className="mb-8 flex items-center justify-between flex-wrap gap-4">
-            <div>
-              <h2 className="font-display text-charcoal text-3xl font-bold">{activeRegion.icon} {activeRegion.label}</h2>
-              <p className="text-ink-soft mt-1 text-sm">{activeRegion.description} · {filteredPosts.length} {filteredPosts.length !== 1 ? dict.blog.articles : dict.blog.article}</p>
-            </div>
-            <Link href={`/${lang}/blog`} className="text-sm text-forest font-semibold hover:underline">{dict.blog.allRegions}</Link>
-          </div>
-        )}
-
-        <div className="flex flex-wrap gap-3 mb-10">
-          <Link href={activeRegion ? `/${lang}/blog?region=${activeRegion.id}` : `/${lang}/blog`}
-            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${!activeCategory ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
-            {dict.blog.allTopics}
-          </Link>
-          {categories.map((cat) => (
-            <Link key={cat.id} href={`/${lang}/blog?category=${cat.id}${activeRegion ? `&region=${activeRegion.id}` : ""}`}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory?.id === cat.id ? "bg-forest text-white" : "bg-card border border-sand-dark text-charcoal hover:border-forest hover:text-forest"}`}>
-              {cat.icon} {cat.label}
-            </Link>
-          ))}
-        </div>
-
-        {filteredPosts.length === 0 && (
-          <div className="text-center py-24">
-            <p className="text-ink-muted text-lg">{dict.blog.noArticles}</p>
-            <Link href={`/${lang}/blog`} className="mt-4 inline-block text-forest font-semibold hover:underline">{dict.blog.viewAll}</Link>
-          </div>
-        )}
-
-        {featured && !isFiltering && (
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-5">
-              <span className="text-sm font-semibold text-ink-soft uppercase tracking-widest">{dict.blog.latestArticles}</span>
-            </div>
-          </div>
-        )}
-
-        {featured && (
-          <Link href={`/${lang}/blog/${blogSlugFor(lang, featured.slug)}`} className="group block mb-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[4px] overflow-hidden bg-card shadow-md hover:shadow-xl transition-shadow">
-              <div className="relative h-64 lg:h-auto min-h-[320px]">
-                <Image src={featured.heroImage} alt={featured.title} fill sizes="(max-width: 1024px) 100vw, 640px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
-              </div>
-              <div className="p-8 lg:p-12 flex flex-col justify-center">
-                <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-4 ${CATEGORY_COLORS[featured.category]}`}>{featured.category}</span>
-                <h2 className="font-display text-charcoal text-2xl lg:text-3xl font-bold mb-4 group-hover:text-forest transition-colors leading-snug">{featured.title}</h2>
-                <p className="text-ink-soft leading-relaxed mb-6">{featured.excerpt}</p>
-                <div className="flex items-center gap-4 text-sm text-ink-muted">
-                  {featured.author && <span className="text-ink-soft font-medium">{featured.author.name}</span>}
-                  <span className="flex items-center gap-1.5"><CalendarBlank className="w-4 h-4" />{formatDate(featured.publishedAt, lang)}</span>
-                  <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{featured.readTime} {dict.blog.minRead}</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        )}
-
-        {rest.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {rest.map((post) => <PostCard key={post.slug} post={post} />)}
-          </div>
-        )}
+        <BlogIndexClient
+          lang={lang}
+          t={dict.blog}
+          pillar={toIndex(pillarPost)}
+          posts={nonPillarPosts.map(toIndex)}
+          regions={blogRegionsFor(lang)}
+          categories={blogCategoriesFor(lang)}
+        />
 
         <div className="mt-20 bg-forest rounded-[4px] p-10 text-center text-white">
           <h2 className="font-display text-3xl font-bold text-white mb-3">{dict.blog.readyTitle}</h2>

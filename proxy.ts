@@ -475,6 +475,12 @@ function hasLocalePrefix(pathname: string) {
  *  /en/robots.txt and take robots.txt and the sitemap off the site entirely. */
 const HOST_LEVEL_FILES = new Set(["/robots.txt", "/sitemap.xml"]);
 
+/** Query parameters that filter /<lang>/tours and /<lang>/blog. */
+const FILTER_PARAMS = {
+  tours: ["q", "origin", "cat", "diff", "dur", "price", "place"],
+  blog: ["category", "region"],
+} as const;
+
 export function proxy(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
   if (host.endsWith(".vercel.app")) {
@@ -597,6 +603,21 @@ export function proxy(request: NextRequest) {
     const url = request.nextUrl.clone();
     url.pathname = `/${newsMatch[1]}/blog`;
     return NextResponse.redirect(url, 308);
+  }
+
+  // Filtered views of the tour and blog indexes stay out of Google. The two
+  // pages used to say "noindex" in <meta robots> by reading searchParams on
+  // the server, which made them the only pages rendered on every request.
+  // They are prerendered now (2026-11-27), so the header says it instead.
+  // Same rule as before: noindex the facet combinations, keep links followed.
+  const listMatch = pathname.match(/^\/([a-z]{2})\/(tours|blog)\/?$/);
+  if (listMatch && LOCALES.includes(listMatch[1])) {
+    const keys = FILTER_PARAMS[listMatch[2] as "tours" | "blog"];
+    if (keys.some((k) => request.nextUrl.searchParams.get(k))) {
+      const res = NextResponse.next();
+      res.headers.set("X-Robots-Tag", "noindex, follow");
+      return res;
+    }
   }
 
   if (hasLocalePrefix(pathname)) return;

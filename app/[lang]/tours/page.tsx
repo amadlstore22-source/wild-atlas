@@ -13,17 +13,18 @@ import { MAP_PLACE_NAME_EN, MAP_PLACE_TEXT } from "@/lib/map-places-i18n";
 
 type ToursPageProps = {
   params: Promise<{ lang: string }>;
-  searchParams: Promise<{ q?: string; origin?: string; cat?: string; diff?: string; dur?: string; price?: string; place?: string }>;
 };
 
-export async function generateMetadata({ params, searchParams }: ToursPageProps): Promise<Metadata> {
+// PRERENDERED (2026-11-27). This page used to read searchParams on the
+// server, which made it render on every request (no-store, never cached).
+// The filters (?q, origin, cat, diff, dur, price, place) are now read in the
+// browser by ToursClient. Filtered URLs are still kept out of the index:
+// proxy.ts sends "X-Robots-Tag: noindex, follow" for them, since a
+// prerendered page cannot vary its <meta robots> by query string.
+
+export async function generateMetadata({ params }: ToursPageProps): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
-  // Filter params (origin/cat/diff/dur/price/q) produce thin, duplicate slices
-  // of the same tour set. Canonical points at clean /tours; noindex the filtered
-  // variants so facet combinations (e.g. ?origin=agadir) don't get indexed.
-  const { q, origin, cat, diff, dur, price, place } = await searchParams;
-  const isFiltering = Boolean(q || origin || cat || diff || dur || price || place);
   // Read from the dictionary so each locale gets its own title and snippet.
   // These were hardcoded English, so /fr/tours served French content under an
   // English <title> and all six locales competed on one identical string --
@@ -39,26 +40,27 @@ export async function generateMetadata({ params, searchParams }: ToursPageProps)
       // picking its own canonical for pages in this family.
       languages: hreflangForPath(LOCALES, "/tours"),
     },
-    ...(isFiltering && { robots: { index: false, follow: true } }),
   };
 }
 
-export default async function ToursPage({ params, searchParams }: ToursPageProps) {
+export default async function ToursPage({ params }: ToursPageProps) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
-  const { q = "", origin = "", cat = "", diff = "", dur = "", price = "", place = "" } = await searchParams;
 
   const tours = toursFor(lang);
   // ?place= comes from the homepage map's "See all tours here": the tours
   // that go to that place, matched exactly as the map panel matches them.
-  const placeFilter = MAP_PLACE_MATCH[place]
-    ? {
-        id: place,
-        name: MAP_PLACE_TEXT[lang]?.[place]?.name ?? MAP_PLACE_NAME_EN[place] ?? place,
-        slugs: tours.filter((t) => goesToPlace(t, place)).map((t) => t.slug),
-      }
-    : undefined;
+  // Every place is resolved here so the browser only looks one up.
+  const places = Object.fromEntries(
+    Object.keys(MAP_PLACE_MATCH).map((id) => [
+      id,
+      {
+        name: MAP_PLACE_TEXT[lang]?.[id]?.name ?? MAP_PLACE_NAME_EN[id] ?? id,
+        slugs: tours.filter((t) => goesToPlace(t, id)).map((t) => t.slug),
+      },
+    ])
+  );
   const schema = collectionPageDocument({
     lang,
     path: `/${lang}/tours`,
@@ -75,13 +77,7 @@ export default async function ToursPage({ params, searchParams }: ToursPageProps
       dict={pickDict(dict, "categories", "common", "featuredTours", "hero", "tours")}
       tours={tours.map(toListItem)}
       categories={categoriesFor(lang)}
-      initialSearch={q}
-      initialOrigin={origin}
-      initialCategory={cat}
-      initialDifficulty={diff}
-      initialDuration={dur}
-      initialPrice={price}
-      placeFilter={placeFilter}
+      places={places}
     />
     </>
   );

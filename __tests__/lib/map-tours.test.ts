@@ -90,7 +90,9 @@ describe("homepage map panels", () => {
     expect(MAP).toContain("href={`/${lang}/tours?place=${dest.id}`}");
     expect(MAP).not.toMatch(/href=\{`\/\$\{lang\}\/destinations\/\$\{dest\.destSlug\}`\}/);
     const page = readFileSync(join(ROOT, "app/[lang]/tours/page.tsx"), "utf8");
-    expect(page).toMatch(/goesToPlace\(t, place\)/);
+    // Since 2026-11-27 the page resolves every place up front (it is
+    // prerendered, and the browser picks ?place=), so the variable is `id`.
+    expect(page).toMatch(/goesToPlace\(t, (place|id)\)/);
     const names = Object.fromEntries([...MAP.matchAll(/id: "([^"]+)",\s*name: "([^"]+)",/g)].map((m) => [m[1], m[2]]));
     expect(MAP_PLACE_NAME_EN, "lib/map-places-i18n.ts MAP_PLACE_NAME_EN must match the map's English names").toEqual(names);
   });

@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { TOURS, CATEGORIES } from "@/lib/tours";
 import { BLOG_POSTS } from "@/lib/blog";
-import { blogSlugFor, isTranslated } from "@/lib/blog-i18n";
+import { blogPostsFor, blogSlugFor, isTranslated } from "@/lib/blog-i18n";
+import BLOG_LASTMOD from "@/lib/blog-lastmod.json";
 import { tourSlugFor } from "@/lib/tours-i18n";
 import { DESTINATIONS } from "@/lib/destinations";
 import { GUIDES } from "@/lib/guides";
@@ -110,10 +111,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Google to crawl a redirect on every deploy.
   // A locale still serving the English fallback is left out: that page is
   // noindexed and canonicalises to /en (see isTranslated).
+  //
+  // Each locale carries its OWN date (2026-11-27). Every locale used to take
+  // the English record's updatedAt, and the translated records' updatedAt was
+  // almost never bumped, so 439 of 608 translations had changed after the
+  // date Google was given; 157 of 704 inspected pages sat in "Crawled -
+  // currently not indexed", most last crawled in July/August. The date is
+  // now the latest of: the English record, the translated record, and the
+  // git date of the translated record's own lines (lib/blog-lastmod.json,
+  // written by scripts/build-blog-lastmod.mjs on prebuild).
+  const blogDate = (lang: (typeof LOCALES)[number], p: (typeof BLOG_POSTS)[number]): Date => {
+    const dates = [p.updatedAt ?? p.publishedAt];
+    if (lang !== "en") {
+      const local = blogPostsFor(lang).find((x) => x.slug === p.slug);
+      if (local) dates.push(local.updatedAt ?? local.publishedAt);
+      const fromGit = (BLOG_LASTMOD as Record<string, string>)[`${lang}:${p.slug}`];
+      if (fromGit) dates.push(fromGit);
+    }
+    return new Date(Math.max(...dates.map((d) => Date.parse(d))));
+  };
   const blogUrls = LOCALES.flatMap((lang) =>
     BLOG_POSTS.filter((p) => isTranslated(lang, p.slug)).map((p) => ({
       url: `${BASE}/${lang}/blog/${blogSlugFor(lang, p.slug)}`,
-      lastModified: new Date(p.updatedAt ?? p.publishedAt),
+      lastModified: blogDate(lang, p),
       changeFrequency: "monthly" as const,
       priority: 0.6,
       images: img(p.heroImage),

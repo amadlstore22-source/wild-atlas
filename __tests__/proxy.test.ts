@@ -149,3 +149,36 @@ describe("outside links with mangled tour or category slugs", () => {
     expect(proxy(req("/en/tours/agafay-desert-sunset"))).toBeUndefined();
   });
 });
+
+/**
+ * 2026-11-27: /<lang>/tours and /<lang>/blog became prerendered. They used to
+ * read searchParams on the server only to print <meta robots noindex> on
+ * filtered views, which made them the only pages rendered on every request.
+ * The noindex now travels as a header from here. If this stops, Google gets
+ * dozens of indexable facet URLs back (it had indexed them before the noindex
+ * was added), and nothing in the build would show it.
+ */
+describe("filtered tour and blog indexes are noindexed by header", () => {
+  const robots = (path: string) => proxy(req(path))?.headers.get("x-robots-tag") ?? null;
+
+  it("noindexes every tour filter and every blog filter, in every locale", () => {
+    for (const lang of ["en", "fr", "es", "de", "it", "ar"]) {
+      for (const qs of ["q=toubkal", "origin=agadir", "cat=desert", "diff=easy", "dur=day", "price=low", "place=imlil"])
+        expect(robots(`/${lang}/tours?${qs}`), `/${lang}/tours?${qs}`).toBe("noindex, follow");
+      for (const qs of ["category=desert", "region=sahara", "region=sahara&category=tips"])
+        expect(robots(`/${lang}/blog?${qs}`), `/${lang}/blog?${qs}`).toBe("noindex, follow");
+    }
+  });
+
+  it("leaves the clean indexes and tracking links indexable", () => {
+    expect(proxy(req("/en/tours"))).toBeUndefined();
+    expect(proxy(req("/en/blog"))).toBeUndefined();
+    expect(robots("/en/tours?utm_source=gbp")).toBeNull();
+    expect(robots("/fr/blog?cat=")).toBeNull();
+  });
+
+  it("does not touch tour or post pages with query strings", () => {
+    expect(robots("/en/tours/agafay-desert-sunset?cat=desert")).toBeNull();
+    expect(robots("/en/blog/toubkal-weather-by-month?region=x")).toBeNull();
+  });
+});

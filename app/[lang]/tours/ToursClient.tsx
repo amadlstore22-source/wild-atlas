@@ -1,6 +1,7 @@
 "use client";
-import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef, Suspense } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import SearchParamsListener from "@/components/seo/SearchParamsListener";
 import Image from "next/image";
 import TourCard from "@/components/ui/TourCard";
 import { type Category, type Difficulty, type Origin, type DurationBucket, type TourListItem } from "@/lib/tours";
@@ -23,14 +24,12 @@ interface Props {
   dict: Pick<Dictionary, "categories" | "common" | "featuredTours" | "hero" | "tours">;
   tours: TourListItem[];
   categories: CategoryEntry[];
-  initialSearch?: string;
-  initialOrigin?: string;
-  initialCategory?: string;
-  initialDifficulty?: string;
-  initialDuration?: string;
-  initialPrice?: string;
-  /** From ?place= (the homepage map): only the tours that go to this place. */
-  placeFilter?: { id: string; name: string; slugs: string[] };
+  /**
+   * Every ?place= the homepage map links to, with the tours that go there.
+   * The page is prerendered, so the filters come from the URL in the browser
+   * (SearchParamsListener), not from server-side searchParams.
+   */
+  places: Record<string, { name: string; slugs: string[] }>;
 }
 
 // Price bands operate on the stored EUR price (the base currency) so URLs stay
@@ -44,22 +43,26 @@ const PRICE_BANDS: { id: PriceBand; maxEur: number | null; minEur: number }[] = 
   { id: "high", minEur: 250, maxEur: null },
 ];
 
-export default function ToursClient({
-  lang, dict, tours, categories,
-  initialSearch = "", initialOrigin = "", initialCategory = "", initialDifficulty = "",
-  initialDuration = "", initialPrice = "", placeFilter,
-}: Props) {
+export default function ToursClient({ lang, dict, tours, categories, places }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const { format } = useCurrency();
 
-  const [search, setSearchState] = useState(initialSearch);
-  const [category, setCategoryState] = useState<Category | "all">((initialCategory as Category) || "all");
-  const [difficulty, setDifficultyState] = useState<Difficulty | "all">((initialDifficulty as Difficulty) || "all");
-  const [origin, setOriginState] = useState<Origin | "all">((initialOrigin as Origin) || "all");
-  const [duration, setDurationState] = useState<DurationBucket | "all">((initialDuration as DurationBucket) || "all");
-  const [price, setPriceState] = useState<PriceBand>((initialPrice as PriceBand) || "all");
-  const [place, setPlace] = useState(placeFilter?.id ?? "");
+  const [search, setSearchState] = useState("");
+  const [category, setCategoryState] = useState<Category | "all">("all");
+  const [difficulty, setDifficultyState] = useState<Difficulty | "all">("all");
+  const [origin, setOriginState] = useState<Origin | "all">("all");
+  const [duration, setDurationState] = useState<DurationBucket | "all">("all");
+  const [price, setPriceState] = useState<PriceBand>("all");
+  const [place, setPlace] = useState("");
+  const placeFilter = useMemo(
+    () => (place && places[place] ? { id: place, ...places[place] } : undefined),
+    [place, places]
+  );
+
+  // The query string this component last wrote. The listener below skips it,
+  // so a URL update that trails fast typing never overwrites the search box.
+  const lastPushed = useRef<string | null>(null);
 
   const pushURL = useCallback(
     (q: string, cat: string, diff: string, orig: string, dur: string, pr: string, pl: string = place) => {
@@ -72,10 +75,24 @@ export default function ToursClient({
       if (dur !== "all") params.set("dur", dur);
       if (pr !== "all") params.set("price", pr);
       const qs = params.toString();
+      lastPushed.current = qs;
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
     },
     [router, pathname, place]
   );
+
+  // Filters arrive in the URL: links from the homepage map (?place=), the
+  // category pages and search results, or a shared link.
+  const applyParams = useCallback((sp: URLSearchParams) => {
+    if (sp.toString() === lastPushed.current) return;
+    setSearchState(sp.get("q") ?? "");
+    setCategoryState((sp.get("cat") as Category) || "all");
+    setDifficultyState((sp.get("diff") as Difficulty) || "all");
+    setOriginState((sp.get("origin") as Origin) || "all");
+    setDurationState((sp.get("dur") as DurationBucket) || "all");
+    setPriceState((sp.get("price") as PriceBand) || "all");
+    setPlace(sp.get("place") ?? "");
+  }, []);
 
   function setSearch(v: string) { setSearchState(v); pushURL(v, category, difficulty, origin, duration, price); }
   function setCategory(v: Category | "all") { setCategoryState(v); pushURL(search, v, difficulty, origin, duration, price); }
@@ -137,6 +154,7 @@ export default function ToursClient({
   function clearAll() {
     setSearchState(""); setCategoryState("all"); setDifficultyState("all");
     setOriginState("all"); setDurationState("all"); setPriceState("all"); setPlace("");
+    lastPushed.current = "";
     router.replace(pathname, { scroll: false });
   }
 
@@ -192,6 +210,9 @@ export default function ToursClient({
 
   return (
     <div>
+      <Suspense fallback={null}>
+        <SearchParamsListener onChange={applyParams} />
+      </Suspense>
       <div className="relative h-[52vh] min-h-[360px] flex items-end">
         <Image
           src="/gallery/category-hero-medina-doorway.jpg"
